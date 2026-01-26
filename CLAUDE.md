@@ -345,6 +345,15 @@ verify: [output]              → Run verification pass
 parallel: [task1], [task2]    → Multiple tasks simultaneously
 ```
 
+### Wide Research Commands (NEW)
+```
+wide: [research objective]          → Parallel subagent research
+farm: [topic] from [sources]        → Social listening + comment mining
+hunt: [signal/pattern]              → Pattern detection across sources
+verify: [claim] across N sources    → Multi-source verification
+wide: [research] then execute:      → Research-informed deliverables
+```
+
 ### Pre-Built Councils
 - `strategy council:` — Business decisions, pivots, opportunities
 - `marketing council:` — Positioning, messaging, campaigns
@@ -366,6 +375,8 @@ parallel: [task1], [task2]    → Multiple tasks simultaneously
 - **Conductor Prompt:** See `orchestration/CONDUCTOR-SYSTEM-PROMPT.md`
 - **Council Configs:** See `orchestration/COUNCIL-CONFIGURATIONS.md`
 - **Deployment Patterns:** See `orchestration/DEPLOYMENT-PATTERNS.md`
+- **Wide Research Skill:** See `skills/WIDE-RESEARCH-SKILL.md`
+- **Research Subagents:** See `agents/subagents/`
 
 ---
 

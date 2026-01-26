@@ -6,6 +6,46 @@ Skills are action-oriented capabilities that Claude can execute. Each skill draw
 
 ---
 
+## 🔍 WIDE RESEARCH SYSTEM (NEW)
+
+### `wide-research`
+**Purpose:** Manus-style parallel subagent research and intelligence gathering
+**Full Documentation:** See `WIDE-RESEARCH-SKILL.md`
+**Trigger Commands:**
+```
+wide: [research objective]          → Full parallel research deployment
+scout: [specific gathering task]    → Single-focus intelligence gathering
+farm: [topic] from [sources]        → Social listening + comment mining
+hunt: [signal/pattern]              → Pattern detection across sources
+verify: [claim] across [N] sources  → Multi-source verification
+```
+
+### Research Modes
+
+| Mode | Command | Use Case |
+|------|---------|----------|
+| **Survey** | `wide survey: [topic]` | Broad landscape mapping |
+| **Farm** | `farm: [topic] from reddit, twitter` | Social listening, exact language |
+| **Hunt** | `hunt: [signal] in [domain]` | Pattern detection, weak signals |
+| **Verify** | `verify: [claim] across 5 sources` | Multi-source fact checking |
+| **Execute** | `wide: [research] then execute: [deliverable]` | Research-informed creation |
+
+### Subagent Stack
+- `research-scout` — Focused intelligence gathering
+- `social-listener` — Voice-of-customer mining
+- `pattern-hunter` — Signal detection + trends
+- `verification-agent` — Multi-source fact checking
+- `synthesis-engine` — Pattern extraction + insight generation
+
+### Expert Integration
+```
+wide: [topic] with @[expert] lens    → Research filtered through expert methodology
+wide: [research] → synthesize with @[expert]  → Expert-enhanced synthesis
+council: [question] with fresh research  → Council advised by live intelligence
+```
+
+---
+
 ## Content Creation Skills
 
 ### `write-hooks`
