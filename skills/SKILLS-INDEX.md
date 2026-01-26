@@ -63,6 +63,9 @@ DECOMPOSE → ASSIGN EXPERTS → PARALLEL PRODUCE → ASSEMBLE → EDIT → DELI
 | Hooks/headlines | Kallaway, Harry Dry |
 | Offer copy | Monk AI, Greg Hickman |
 | Email sequence | Kai Lode, Cardinal Mason |
+| Visual direction, aesthetics | Oren (creative direction, taste, brand visuals) |
+| Brand content strategy | Oren, Kallaway |
+| Mood boards, creative briefs | Oren |
 
 ### The Complete Loop
 

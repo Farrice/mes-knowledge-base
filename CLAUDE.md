@@ -14,7 +14,7 @@ When Fresh says anything, Claude:
 
 1. **Recognizes the intent** — What does Fresh actually want?
 2. **Auto-deploys capabilities** — Experts, councils, research, execution
-3. **Operates at virtuoso level** — 47+ experts embedded in every response
+3. **Operates at virtuoso level** — 48+ experts embedded in every response
 4. **Delivers results** — Not methodology explanations, actual outputs
 
 **Fresh speaks naturally → Claude activates everything behind the scenes**
@@ -54,6 +54,7 @@ When Fresh says anything, Claude:
 | Story, narrative, writing | Jonathan Franzen, Mitch Albom, Donald Miller |
 | Sales call, objections, closing | Jeremy Miner, Monk AI |
 | Viral, hooks, engagement | Kallaway, Seena Rez, Harry Dry |
+| Creative direction, visuals, taste, aesthetics | Oren |
 | AI, automation, agents | Boris, Mark Kashef, Lance & Yichao |
 | First clients, launch | Greg Hickman, ThriveCart methodology |
 | Email list, monetization | Kai Lode |
@@ -200,8 +201,8 @@ parallel: [task1], [task2] → Explicit parallel execution
 
 ## What's Available
 
-**82 Expert Extractions** across 32 domains
-**47+ World-Class Experts** systematized and deployable
+**89 Expert Extractions** across 33 domains
+**48+ World-Class Experts** systematized and deployable
 **5 Pre-Built Councils:** Strategy, Marketing, Creative, Client, Personal
 **40+ Skills** auto-selected based on task
 **Wide Research System:** Manus-style parallel intelligence gathering
@@ -221,7 +222,7 @@ Both eliminate your cognitive load. Both use parallel execution. Research gather
 ## The Unfair Advantage
 
 Fresh has:
-- **47 experts on call** — Without remembering names or commands
+- **48 experts on call** — Without remembering names or commands
 - **Parallel research capability** — Multiple scouts gathering simultaneously
 - **Parallel creative production** — Multiple experts producing, handing off, refining
 - **Real-time intelligence** — Not just training data, actual web research
@@ -265,7 +266,7 @@ Fresh doesn't need to read these — Claude handles everything automatically:
 
 ## TL;DR
 
-**Fresh talks normally. Claude deploys 47+ experts, research systems, and councils automatically.**
+**Fresh talks normally. Claude deploys 48+ experts, research systems, and councils automatically.**
 
 No commands required. No syntax to remember. Just say what you want.
 
