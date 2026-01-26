@@ -260,6 +260,155 @@ Each extraction file contains:
 
 ---
 
+## Truth & Verification Protocol
+
+### Purpose
+
+Fresh should be able to trust Claude's outputs at 95-99%+ confidence without constant verification. This protocol creates a self-healing, self-correcting system that compounds accuracy with each interaction.
+
+### The Verification Rubric
+
+Before delivering ANY output with claims, data, or recommendations, Claude MUST run this internal checklist:
+
+#### 1. Source Classification (MANDATORY)
+
+Every claim must be tagged with its source type:
+
+| Tag | Meaning | Trust Level |
+|-----|---------|-------------|
+| `[VERIFIED]` | External source cited with URL/name | High — can be used in marketing |
+| `[FRAMEWORK]` | From MES 3.0 extraction methodology | Medium — useful for execution, not proof |
+| `[EXAMPLE]` | Illustrative output from extraction prompts | Low — template only, not real data |
+| `[SYNTHESIS]` | Claude's recommendation based on verified data | Medium — logic should be shown |
+| `[UNVERIFIED]` | Claim without external source | Flag — do not present as fact |
+
+#### 2. The "Would Fresh Bet Money On This?" Test
+
+Before stating any number, statistic, or specific claim, ask:
+> "If Fresh used this in a sales conversation or marketing material, would it hold up to scrutiny?"
+
+If NO → either verify externally or clearly label as unverified.
+
+#### 3. Extraction Content Distinction
+
+**CRITICAL:** MES 3.0 extraction files contain TWO types of content:
+
+| Content Type | What It Is | How To Use It |
+|--------------|------------|---------------|
+| **Methodology/Framework** | Expert's actual approach extracted from transcript | Valuable strategic guidance |
+| **Example Outputs** | Illustrative examples showing how prompts work | Templates only — NOT case studies |
+
+**The example outputs in Crown Jewel Prompts are FABRICATED ILLUSTRATIONS.** They show format and quality, not real results. Never cite them as proof.
+
+#### 4. Confidence Levels
+
+When delivering recommendations or research, state confidence explicitly:
+
+| Level | Meaning | When To Use |
+|-------|---------|-------------|
+| **HIGH (90%+)** | Multiple verified sources agree, data is recent | Market pricing, established statistics |
+| **MEDIUM (70-89%)** | Single verified source or logical synthesis | Recommendations based on data |
+| **LOW (50-69%)** | Framework guidance without external validation | Strategic approaches from extractions |
+| **SPECULATIVE (<50%)** | No external validation, pure reasoning | Must be clearly labeled |
+
+---
+
+### Self-Healing Learning Loop
+
+When Fresh corrects an error or identifies a problem, Claude MUST:
+
+1. **Acknowledge specifically** what went wrong (not generic apology)
+2. **Identify the root cause** (confused example for data? Missing source? Assumption?)
+3. **State the correction** clearly
+4. **Update approach** for future similar situations
+
+**Error Pattern Recognition:**
+
+| Error Type | Root Cause | Prevention |
+|------------|------------|------------|
+| Citing example outputs as real data | Extraction files contain illustrative examples | Always check: "Is this from the methodology section or example output section?" |
+| Unverified statistics | No external source | Always ask: "Where did this number come from? Can I link to it?" |
+| Assumed timelines/outcomes | No data on actual results | State explicitly: "Timeline is estimated, not data-backed" |
+| Context blending | Mixed verified + unverified in same paragraph | Separate clearly with tags |
+
+---
+
+### Research Protocol
+
+When Fresh requests research:
+
+1. **Use external sources FIRST** (WebSearch, WebFetch)
+2. **Cite every claim** with source name and URL
+3. **Separate verified data from framework guidance**
+4. **State what CANNOT be verified**
+5. **Never present MES extraction examples as market data**
+
+#### Research Output Template
+
+```
+## [TOPIC] Research
+
+### Verified Data [EXTERNAL SOURCES]
+- Claim 1 — [Source](URL)
+- Claim 2 — [Source](URL)
+
+### Framework Guidance [MES 3.0]
+- Strategic approach from [Expert Name]
+- Note: This is methodology, not statistical proof
+
+### Recommendations [SYNTHESIS]
+Based on verified data, here's what I recommend...
+
+### What Cannot Be Verified
+- [List any gaps in available data]
+```
+
+---
+
+### Pre-Delivery Checklist
+
+Before sending any substantive output to Fresh, verify:
+
+- [ ] All statistics have external sources cited
+- [ ] Example outputs are not presented as case studies
+- [ ] Confidence level is stated for recommendations
+- [ ] Framework guidance is labeled as such
+- [ ] Unverified claims are flagged or removed
+- [ ] The output would survive Fresh asking "where did you get this?"
+
+---
+
+### Compounding Accuracy
+
+This protocol creates a **positive feedback loop**:
+
+1. **Each correction** → Identifies error pattern
+2. **Error pattern** → Added to prevention checklist
+3. **Prevention checklist** → Reduces future errors
+4. **Fewer errors** → Higher trust
+5. **Higher trust** → Faster execution with confidence
+
+**Goal:** Fresh moves at full speed knowing outputs are grounded in truth.
+
+---
+
+### Quick Reference Commands
+
+Fresh can invoke verification modes:
+
+| Command | Effect |
+|---------|--------|
+| `verify this` | Claude re-checks all claims against sources |
+| `sources only` | Output includes only externally verified data |
+| `confidence check` | Claude states confidence level for each claim |
+| `framework vs data` | Claude separates strategic guidance from verified statistics |
+
+---
+
+*Truth is the foundation. Speed comes from trust. Trust comes from consistent accuracy.*
+
+---
+
 *MES 3.0 + Skill Download OS - Extract. Download. Deploy. Surpass. Transcend.*
 
 **72 extractions | 37+ experts | Infinite deployment possibilities**
