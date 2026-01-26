@@ -6,29 +6,21 @@ Skills are action-oriented capabilities that Claude can execute. Each skill draw
 
 ---
 
-## 🔍 WIDE RESEARCH SYSTEM (NEW)
+## 🔍 WIDE RESEARCH SYSTEM
 
 ### `wide-research`
 **Purpose:** Manus-style parallel subagent research and intelligence gathering
 **Full Documentation:** See `WIDE-RESEARCH-SKILL.md`
-**Trigger Commands:**
-```
-wide: [research objective]          → Full parallel research deployment
-scout: [specific gathering task]    → Single-focus intelligence gathering
-farm: [topic] from [sources]        → Social listening + comment mining
-hunt: [signal/pattern]              → Pattern detection across sources
-verify: [claim] across [N] sources  → Multi-source verification
-```
+**Natural Language:** "Research..." / "Find out..." / "What are people saying..."
 
 ### Research Modes
 
-| Mode | Command | Use Case |
-|------|---------|----------|
-| **Survey** | `wide survey: [topic]` | Broad landscape mapping |
-| **Farm** | `farm: [topic] from reddit, twitter` | Social listening, exact language |
-| **Hunt** | `hunt: [signal] in [domain]` | Pattern detection, weak signals |
-| **Verify** | `verify: [claim] across 5 sources` | Multi-source fact checking |
-| **Execute** | `wide: [research] then execute: [deliverable]` | Research-informed creation |
+| Mode | Natural Language | What Happens |
+|------|-----------------|--------------|
+| **Survey** | "Research the landscape of..." | Broad mapping, 5-10 scouts |
+| **Farm** | "What are people saying about..." | Social listening, exact language |
+| **Hunt** | "Find signals/patterns in..." | Weak signal detection |
+| **Verify** | "Is it true that..." / "Check if..." | Multi-source fact checking |
 
 ### Subagent Stack
 - `research-scout` — Focused intelligence gathering
@@ -37,11 +29,47 @@ verify: [claim] across [N] sources  → Multi-source verification
 - `verification-agent` — Multi-source fact checking
 - `synthesis-engine` — Pattern extraction + insight generation
 
-### Expert Integration
+---
+
+## 🎬 CREATIVE ASSEMBLY SYSTEM
+
+### `creative-assembly`
+**Purpose:** Multi-expert creative production with parallel execution, handoffs, and refinement
+**Full Documentation:** See `CREATIVE-ASSEMBLY-SKILL.md`
+**Natural Language:** "Write me..." / "Create a..." / "I need a..." / "Build me..."
+
+### Two Modes (Auto-Detected)
+
+| Mode | Triggered By | What Happens |
+|------|-------------|--------------|
+| **Full Assembly** | Default | Experts collaborate → one polished piece |
+| **Selection Assembly** | "...show me options" / "...versions" | Multiple versions → you pick → then polished |
+
+### The Production Pipeline
+
 ```
-wide: [topic] with @[expert] lens    → Research filtered through expert methodology
-wide: [research] → synthesize with @[expert]  → Expert-enhanced synthesis
-council: [question] with fresh research  → Council advised by live intelligence
+DECOMPOSE → ASSIGN EXPERTS → PARALLEL PRODUCE → ASSEMBLE → EDIT → DELIVER
+```
+
+### Expert Auto-Assignment
+
+| Task Type | Primary Experts |
+|-----------|-----------------|
+| Sales email/copy | David Deutsch, Cardinal Mason, Bond Halbert |
+| LinkedIn post | Lara Acosta, Kallaway |
+| Sales page | David Deutsch, Bond Halbert, Monk AI |
+| Video script | Kallaway, Shaan Puri |
+| Story/narrative | Jonathan Franzen, Mitch Albom |
+| Hooks/headlines | Kallaway, Harry Dry |
+| Offer copy | Monk AI, Greg Hickman |
+| Email sequence | Kai Lode, Cardinal Mason |
+
+### The Complete Loop
+
+```
+"Research what's working in [space]"    → Wide Research
+"Now write me a [deliverable]"          → Creative Assembly (informed by research)
+"Should I [decision]?"                  → Council (informed by both)
 ```
 
 ---

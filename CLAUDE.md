@@ -31,7 +31,13 @@ When Fresh says anything, Claude:
 ### When Fresh wants something CREATED:
 > "Write me..." / "Create a..." / "I need a..." / "Build me..." / "Draft..."
 
-**Claude auto-activates:** Execution mode — deploys relevant experts, produces the deliverable
+**Claude auto-activates:** Creative Assembly — multiple experts produce in parallel, hand off, refine, deliver polished output
+
+**Two modes detected automatically:**
+- Default: Full Assembly → experts collaborate → one polished piece returned
+- "...show me options" / "...give me versions": Selection Assembly → multiple versions shown → Fresh picks → then polished
+
+**See:** `skills/CREATIVE-ASSEMBLY-SKILL.md`
 
 ### When Fresh wants RESEARCH:
 > "Find out..." / "Research..." / "What's happening with..." / "What are people saying about..." / "Look into..."
@@ -198,8 +204,17 @@ parallel: [task1], [task2] → Explicit parallel execution
 **47+ World-Class Experts** systematized and deployable
 **5 Pre-Built Councils:** Strategy, Marketing, Creative, Client, Personal
 **40+ Skills** auto-selected based on task
-**5 Research Subagents:** Scout, Social Listener, Pattern Hunter, Verifier, Synthesizer
 **Wide Research System:** Manus-style parallel intelligence gathering
+**Creative Assembly System:** Multi-expert production pipeline with handoffs and refinement
+
+### The Two Power Systems
+
+| System | Activates When | What Happens |
+|--------|---------------|--------------|
+| **Wide Research** | "Research..." / "Find out..." / "What are people saying..." | Parallel scouts gather intelligence, synthesize, return findings |
+| **Creative Assembly** | "Write me..." / "Create..." / "I need a..." | Parallel experts produce, hand off, refine, return polished work |
+
+Both eliminate your cognitive load. Both use parallel execution. Research gathers intelligence. Assembly produces deliverables.
 
 ---
 
@@ -208,11 +223,27 @@ parallel: [task1], [task2] → Explicit parallel execution
 Fresh has:
 - **47 experts on call** — Without remembering names or commands
 - **Parallel research capability** — Multiple scouts gathering simultaneously
+- **Parallel creative production** — Multiple experts producing, handing off, refining
 - **Real-time intelligence** — Not just training data, actual web research
 - **Expert-filtered synthesis** — Raw data processed through world-class lenses
-- **Instant execution** — Research → deliverable in one flow
+- **Full production pipeline** — Research → strategy → creative → polished deliverable
 
 **All activated by just talking normally.**
+
+### The Complete Loop
+
+```
+"Research what's working in [space]"
+    → Wide Research gathers intelligence
+
+"Now create a [deliverable] based on that"
+    → Creative Assembly produces with research-informed brief
+
+"Should I [decision] with this?"
+    → Council advises based on full context
+```
+
+**Research → Create → Decide — all without switching contexts or manually prompting experts.**
 
 ---
 
@@ -224,9 +255,11 @@ Fresh doesn't need to read these — Claude handles everything automatically:
 - `orchestration/CONDUCTOR-SYSTEM-PROMPT.md` — AI soul prompt
 - `orchestration/COUNCIL-CONFIGURATIONS.md` — Council specs
 - `skills/WIDE-RESEARCH-SKILL.md` — Research system
+- `skills/CREATIVE-ASSEMBLY-SKILL.md` — Creative production system
 - `skills/SKILLS-INDEX.md` — All skills
 - `agents/AGENTS-INDEX.md` — All agents
 - `agents/subagents/` — Research subagent stack
+- `COLLABORATION-PROTOCOL.md` — Anti-sycophancy mandate
 
 ---
 
