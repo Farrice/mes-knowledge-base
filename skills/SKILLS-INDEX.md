@@ -184,6 +184,108 @@ Skills are action-oriented capabilities that Claude can execute. Each skill draw
 
 ---
 
+## NEW: Client Acquisition Skills
+
+### `get-first-clients`
+**Purpose:** Acquire first 5 paying clients for a new productized offer
+**Sources:** Greg Hickman
+**Trigger:** "Help me get my first clients for [offer]"
+**Output:** Warm pipeline activation strategy, direct outreach templates, productized offer positioning
+
+### `monetize-audience`
+**Purpose:** Convert email lists and audiences into revenue
+**Sources:** Kai Lode (8M+ subscriber methodology)
+**Trigger:** "Monetize my [list/audience]"
+**Output:** Segmentation strategy, quiz funnel architecture, permission-based selling sequences
+
+### `launch-digital-product`
+**Purpose:** Create and launch digital products systematically
+**Sources:** ThriveCart ($5B+ tracked sales methodology)
+**Trigger:** "Launch a digital product about [topic]"
+**Output:** Product architecture, pricing strategy, funnel sequence, 90-day launch plan
+
+---
+
+## NEW: Advanced Copywriting Skills
+
+### `convert-cold-traffic`
+**Purpose:** Write copy that converts ice-cold audiences
+**Sources:** David Deutsch ($1B+ direct response results)
+**Trigger:** "Write cold traffic copy for [offer]"
+**Output:** Mechanism reveals, psychological precision copy, fascination bullets, cold-to-sold sequences
+
+### `write-fascinations`
+**Purpose:** Create irresistible curiosity bullets that demand clicks
+**Sources:** David Deutsch, Bond Halbert, Alen Sultanic
+**Trigger:** "Write fascinations for [topic/offer]"
+**Output:** 20-50 fascination bullets with psychological triggers identified
+
+---
+
+## NEW: AI Operating System Skills
+
+### `build-daily-os`
+**Purpose:** Design AI-powered daily operating systems
+**Sources:** Alex Finn, Boris (Claude Cowork creators)
+**Trigger:** "Build my AI daily operating system"
+**Output:** Claude Cowork configuration, morning briefing prompts, proactive AI partnership setup
+
+### `engineer-context`
+**Purpose:** Design optimal context architecture for AI agents
+**Sources:** Lance & Yichao (context engineering methodology)
+**Trigger:** "Optimize context for [AI system/agent]"
+**Output:** Memory system design, instruction architecture, context loading strategies
+
+---
+
+## NEW: Narrative & Story Skills
+
+### `architect-story`
+**Purpose:** Build complete story architecture with emotional precision
+**Sources:** Jonathan Franzen, Mitch Albom, Donald Miller
+**Trigger:** "Help me craft [story/narrative]"
+**Output:** Story architecture, character development, scene construction, emotional beat mapping
+
+### `write-literary`
+**Purpose:** Create literary-quality prose and essays
+**Sources:** Jonathan Franzen, Dan Wang, Nicolas Cole
+**Trigger:** "Write [essay/article/literary piece] about [topic]"
+**Output:** Eloquent, insightful, timeless prose with observation-driven detail
+
+---
+
+## NEW: Mindset & Energy Skills
+
+### `clear-counterintention`
+**Purpose:** Identify and clear hidden blocks to success
+**Sources:** Kevin Trudeau (possibility psychology)
+**Trigger:** "Clear my blocks around [goal]"
+**Output:** Counterintention identification, energy clearing protocol, mindset reframe
+
+### `energize-marketing`
+**Purpose:** Add energetic dimension to marketing
+**Sources:** Kevin Trudeau ($20B+ marketing results + energetics)
+**Trigger:** "Add energy to my marketing for [offer]"
+**Output:** Dual-domain strategy (tactical + energetic), authentic enthusiasm protocols
+
+---
+
+## NEW: Investment & Opportunity Skills
+
+### `detect-trends`
+**Purpose:** Identify investment opportunities through social arbitrage
+**Sources:** Chris Camillo ($20K→$2M methodology)
+**Trigger:** "Find investment opportunities in [trend/signal]"
+**Output:** Information asymmetry identification, trend detection framework, conviction level assessment
+
+### `find-asymmetric-bets`
+**Purpose:** Locate opportunities with asymmetric risk/reward
+**Sources:** Chris Camillo, Jim O'Shaughnessy
+**Trigger:** "Find asymmetric opportunities in [domain]"
+**Output:** Risk/reward analysis, signal vs noise assessment, timing framework
+
+---
+
 ## How to Use Skills
 
 ### In Claude Code (Mobile or Desktop)
@@ -202,4 +304,4 @@ Combine skills for compound results:
 
 ---
 
-*Skills execute at virtuoso level, drawing from 70+ expert extractions*
+*Skills execute at virtuoso level, drawing from 82+ expert extractions*

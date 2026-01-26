@@ -5,9 +5,9 @@
 This repository is Fresh's **Mastery Extraction System (MES) 3.0** knowledge base - a comprehensive collection of world-class expertise systematized for instant deployment via Claude Code.
 
 **Owner:** Fresh (farrice.cain@gmail.com)
-**Total Extractions:** 72 files
-**Experts Systematized:** 37+
-**Total Knowledge:** 21MB of deployable expertise
+**Total Extractions:** 82 files
+**Experts Systematized:** 47+
+**Total Knowledge:** 25MB+ of deployable expertise
 
 ---
 
@@ -15,7 +15,7 @@ This repository is Fresh's **Mastery Extraction System (MES) 3.0** knowledge bas
 
 > "World-class expertise at my beck and call - move with speed, clarity, expertise, and sophistication to get remarkable results."
 
-When Fresh requests anything, Claude operates as if channeling the combined wisdom of 35+ experts, executing at virtuoso level with embedded frameworks, patterns, and methodologies.
+When Fresh requests anything, Claude operates as if channeling the combined wisdom of 47+ experts, executing at virtuoso level with embedded frameworks, patterns, and methodologies.
 
 ---
 
@@ -153,6 +153,34 @@ mes-knowledge-base/
 | **Kittl** | Graphic Design Mastery | `graphic-design/` |
 | **Oscar Hoglund** | Sound in Storytelling | `sound-storytelling/` |
 
+### Client Acquisition & Revenue (NEW)
+| Expert | Focus | File Location |
+|--------|-------|---------------|
+| **Greg Hickman** | First 5 Clients for Productized Offers | `client-acquisition/` |
+| **Kai Lode** | Email Monetization (8M+ subscribers) | `audience-monetization/` |
+| **ThriveCart** | Digital Products ($5B+ tracked sales) | `digital-products/` |
+
+### Narrative & Literary Craft (NEW)
+| Expert | Focus | File Location |
+|--------|-------|---------------|
+| **Jonathan Franzen** | Story Architecture, Character Development | `narrative-craft/` |
+
+### Mindset & Energetics (NEW)
+| Expert | Focus | File Location |
+|--------|-------|---------------|
+| **Kevin Trudeau** | Marketing + Energetics ($20B+ results) | `marketing-energetics/` |
+
+### Alternative Investing (NEW)
+| Expert | Focus | File Location |
+|--------|-------|---------------|
+| **Chris Camillo** | Social Arbitrage ($20K→$2M) | `alternative-investing/` |
+
+### AI Daily Operating Systems (NEW)
+| Expert | Focus | File Location |
+|--------|-------|---------------|
+| **Alex Finn** | Claude Cowork Daily OS | `ai-daily-os/` |
+| **Lance & Yichao** | AI Context Engineering | `context-engineering/` |
+
 ---
 
 ## Deployment System
@@ -229,6 +257,12 @@ All outputs maintain "MES 3.0 virtuoso level of excellence":
 | Personal brand | `personal-brand/`, `linkedin-content/` |
 | Mindset, strategy | `mindset-performance/`, `thinking-strategy/` |
 | Prompts, AI systems | `prompt-engineering/`, `ai-workflows/` |
+| First clients, launches | `client-acquisition/`, `digital-products/` |
+| Email monetization | `audience-monetization/` |
+| Energetics, counterintention | `marketing-energetics/` |
+| Investment, trends | `alternative-investing/` |
+| AI daily OS, context | `ai-daily-os/`, `context-engineering/` |
+| Literary writing, stories | `narrative-craft/`, `writing-craft/` |
 
 ---
 
@@ -262,7 +296,7 @@ Each extraction file contains:
 
 *MES 3.0 + Skill Download OS - Extract. Download. Deploy. Surpass. Transcend.*
 
-**72 extractions | 37+ experts | Infinite deployment possibilities**
+**82 extractions | 47+ experts | Infinite deployment possibilities**
 
 ---
 
@@ -366,8 +400,8 @@ mes-knowledge-base/
 ├── commands/                 # Rapid deployment
 │   └── COMMANDS.md           # Command patterns for instant access
 │
-├── extractions/              # Expert methodology extractions (72 files)
-│   └── [26 domain folders]
+├── extractions/              # Expert methodology extractions (82 files)
+│   └── [32 domain folders]
 │
 └── docs/                     # Additional documentation
     └── QUICK-REFERENCE.md
