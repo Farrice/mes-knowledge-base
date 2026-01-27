@@ -1,0 +1,10 @@
+[project]
+name = "notebooklm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "certifi>=2026.1.4",
+    "notebooklm-mcp>=2.0.11",
+]

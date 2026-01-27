@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for skill in /Users/farricecain/Google Antigravity/skills/*/SKILL.md)",
+      "Bash(do dirname \"$skill\")",
+      "Bash(xargs:*)",
+      "Bash(done)",
+      "Bash(tree:*)"
+    ]
+  }
+}
