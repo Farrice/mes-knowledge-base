@@ -146,6 +146,74 @@ Based on `--output` format:
 
 ---
 
+## Research Subagent Roles
+
+For deep research, mentally deploy these specialized roles:
+
+### 🔍 Research Scout
+**Focus:** Primary source gathering
+- Search official documentation, authoritative sources
+- Extract facts, data points, specifications
+- Return: `{findings, sources, confidence}`
+
+### 👂 Social Listener
+**Focus:** Voice-of-customer mining
+- Reddit threads, Twitter/X discussions, YouTube comments, reviews
+- Capture exact phrases, pain points, emotional language
+- Return: `{sentiment, patterns, verbatim_quotes}`
+
+### 🎯 Pattern Hunter
+**Focus:** Signal detection across sources
+- Look for convergent themes (3+ sources agreeing)
+- Spot contradictions and tensions
+- Flag emerging trends or shifts
+- Return: `{strong_patterns, weak_signals, contradictions}`
+
+### ✓ Verification Agent
+**Focus:** Multi-source fact-checking
+- Independently verify key claims from different sources
+- Weight source authority (primary > secondary > user-generated)
+- Return: `{verified, unverified, conflicting, confidence_score}`
+
+### 🧠 Synthesis Engine
+**Focus:** Pattern extraction → insight generation
+- Aggregate all findings
+- Extract actionable insights (not just data)
+- Identify gaps and opportunities
+- Return: `{key_insights, opportunities, gaps, recommendations}`
+
+---
+
+## Structured Synthesis Framework
+
+After gathering, synthesize using this structure:
+
+```
+FINDINGS SUMMARY:
+[Key discoveries across all research]
+
+PATTERN ANALYSIS:
+- Strong patterns (3+ sources): [List]
+- Emerging patterns (2 sources): [List]
+- Single-source signals: [List with caveats]
+
+CONFIDENCE ASSESSMENT:
+- High (5+ sources): [Findings]
+- Medium (3-4 sources): [Findings]
+- Low (needs validation): [Findings]
+
+INSIGHT EXTRACTION:
+[What this means for the objective]
+
+OPPORTUNITIES IDENTIFIED:
+[Gaps, unmet needs, timing advantages]
+
+RECOMMENDATIONS:
+[Suggested actions based on findings]
+```
+
+---
+
 ## Pro Tips
 
 - Add specific angles: `/research-topic "X" focusing on pricing and market size`

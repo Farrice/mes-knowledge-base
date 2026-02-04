@@ -41,6 +41,46 @@ You have access to expert agents and deployable skills. Use them proactively.
 | **Kallaway** | Content psychology, viral engineering, buyer-focused content | "@kallaway" or content psychology/viral/retention requests |
 | **Boris** | Claude Code, Claude Cowork, AI orchestration, multi-instance | "@boris" or Claude Code/orchestration/productivity requests |
 | **Lucas Alpay** | Storytelling, fiction, business copy, 7-element formula | "@lucas-alpay" or storytelling/fiction/narrative copy requests |
+| **Oren** | Taste development, creative direction, quality judgment, CEV framework | "@oren" or taste/quality/creative direction requests |
+| **Nate B Jones** | AI taste mastery, human judgment, credentials economy shift | "@nate-b-jones" or AI judgment/taste/skill requests |
+| **Dan Koe** | Multipassionate mastery, one-person business, creator economy, content systems | "@dan-koe" or multipassionate/creator/one-person business requests |
+| **Erica Mallet** | Brand magnetism, belief architecture, enemy effect, tribal branding | "@erica-mallet" or brand/belief/tribal/magnetism requests |
+| **Lara Acosta** | LinkedIn content mastery, positioning, ghostwriting, authority building | "@lara-acosta" or LinkedIn/personal brand/ghostwriting requests |
+| **Monk.Ai** | AI consulting offer architecture, sales psychology, client ascension | "@monk-ai" or AI consulting/offer design/sales psychology requests |
+| **Jonathan Franzen** | Literary storytelling, character psychology, compression, marketing translation | "@jonathan-franzen" or storytelling/character/compression requests |
+| **Tobias Allen** | Direct response marketing, copywriting, email systems, growth strategy, customer research | "@tobias-allen" or marketing/growth/copy/email/research requests |
+| **David Bayer** | Elite communication, presence, power dynamics, verbal identity | "@david-bayer" or communication/presence/power dynamics requests |
+| **Fareed Zakaria** | Non-fiction writing, argument architecture, public intellectual voice | "@fareed-zakaria" or writing/research/public intellectual requests |
+| **Ali Abdaal** | Action bias, overthinking recovery, experiment cycles | "@ali-abdaal" or overthinking/action bias/getting unstuck requests |
+| **Omar Eddaoudi** | Premium ads, luxury personal brand, sophisticated audience marketing | "@omar-eddaoudi" or premium/luxury/sophisticated audience requests |
+| **Manus.ai** | AI consulting, McKinsey-level research, competitive intelligence | "@manus-ai" or consulting/research/competitive intelligence requests |
+| **Logan Kilpatrick** | Google AI Studio, rapid prototyping, vibe coding, UI cloning | "@logan-kilpatrick" or AI Studio/vibe coding/prototyping requests |
+| **Nick Saraev** | Agentic workflows, self-annealing systems, MCP integration, productized AI | "@nick-saraev" or agentic/workflow/AI automation requests |
+| **Adam Enfroy** | Affiliate marketing, topical authority, AI content velocity | "@adam-enfroy" or affiliate/SEO/content velocity requests |
+| **Alen Sultanic** | Advanced copywriting, buyer psychology, offer economics | "@alen-sultanic" or advanced copy/conversion requests |
+| **Alex Copper** | Creative strategy, brand positioning, visual identity | "@alex-copper" or creative/positioning requests |
+| **Bond Halbert** | Classic direct response, long-form sales copy | "@bond-halbert" or direct response/sales letter requests |
+| **Boris** | Claude Code, multi-instance orchestration, AI productivity | "@boris" or Claude Code/orchestration requests |
+| **Caleb Ralston** | Personal brand, content systems, creator economy | "@caleb-ralston" or personal brand requests |
+| **Dan Wang** | Literary analysis, cultural commentary, tech criticism | "@dan-wang" or literary/cultural analysis requests |
+| **Daniel Priestley** | Oversubscribed methodology, waitlist marketing | "@daniel-priestley" or oversubscribed/waitlist requests |
+| **Darrel Wilson** | AI automation, monetization systems | "@darrel-wilson" or AI automation/monetization requests |
+| **David Deutsch** | Copywriting fundamentals, persuasion architecture | "@david-deutsch" or copywriting fundamentals requests |
+| **Donald Miller** | StoryBrand, culture turnaround, messaging clarity | "@donald-miller" or StoryBrand/messaging requests |
+| **Futurepedia** | Prompt engineering, NotebookLM mastery | "@futurepedia" or prompt engineering requests |
+| **Kittl** | Graphic design, visual assets, design systems | "@kittl" or graphic design requests |
+| **Lance & Yichao** | Context engineering, agent architecture, MCP | "@lance-yichao" or context/agent architecture requests |
+| **Nathan Gotch** | AI SEO, retrieval layer optimization | "@nathan-gotch" or AI SEO/retrieval requests |
+| **Nicolas Cole** | Sentence craft, digital writing, Ship 30 | "@nicolas-cole" or digital writing/sentence craft requests |
+| **Paul James** | AI automation, workflow systems | "@paul-james" or AI automation requests |
+| **Sabri Suby** | AI advertising, paid traffic, conversion | "@sabri-suby" or paid ads/traffic requests |
+| **Tom Noske** | Magnetic personal brand, archetype positioning | "@tom-noske" or personal brand/archetype requests |
+| **WordsAtScale** | SEO ranking, content at scale | "@wordsatscale" or SEO/ranking requests |
+| **Maria Wendt** | Instagram digital products, checkout optimization, content-to-revenue | "@maria-wendt" or digital products/Instagram sales requests |
+| **PJ Accetturo** | AI video production, viral AI ads, 233M-view workflows | "@pj-accetturo" or AI video/AI ads requests |
+| **Sean Kochel** | AI business strategy, persuasion architecture, trust-building | "@sean-kochel" or AI product/business strategy requests |
+| **Rory Sutherland** | Behavioral marketing, psychological reframing, Ogilvy strategy | "@rory-sutherland" or behavioral/psychology marketing requests |
+| **Remotion** | Programmatic video creation with React, animations, captions, 3D | "@remotion" or video generation/animation/React video requests |
 
 **Expert Councils:** Invoke multiple experts together with "@revenue-council", "@content-council", "@brand-council", "@ai-council", or "@creative-council". See `COUNCIL.md` for full details.
 
@@ -99,6 +139,49 @@ Skills are standalone capabilities you can invoke directly:
 | `ai-chris-lee-zero-testimonial-sales` | Proof building, zero testimonial sales, feature-to-outcome |
 | `shaan-puri-storytelling` | Story architecture, viral hooks, narrative persuasion |
 | `kallaway-content-psychology` | Dopamine ladder scripts, buyer profiles, viral optimization, content strategy |
+| `swarm-commander` | Agent swarm orchestration, 10-50 parallel experts, task decomposition, synthesis |
+| `oren-taste-development` | CEV critique framework, taste gap diagnosis, creative direction, quality judgment |
+| `nate-b-jones-ai-taste-mastery` | T.A.S.T.E. framework, AI taste mastery, credential shift, human judgment |
+| `dan-koe-multipassionate-mastery` | One-person business, multi-interest monetization, creator economy, content systems |
+| `erica-mallet-brand-magnetism` | Belief architecture, enemy effect, psychological loops, brand magnetism |
+| `lara-acosta-linkedin-mastery` | LinkedIn positioning, ghostwriting, authority building, content systems |
+| `monk-ai-offer-architecture` | AI consulting offers, offer pyramid, client ascension, sales psychology |
+| `jonathan-franzen-storytelling` | Literary storytelling, comic problem genesis, compression, marketing translation |
+| `brock-johnson-shareworthy-content` | Shareworthy content, viral mechanics, engagement psychology |
+| `tobias-allen-marketing-mastery` | Direct response marketing, copywriting, email revenue, growth strategy |
+| `david-bayer-elite-communication` | Elite communication, presence, power dynamics, verbal identity |
+| `fareed-zakaria-writing-mastery` | Non-fiction writing, argument architecture, public intellectual |
+| `ali-abdaal-action-bias` | Overthinking recovery, action bias, experiment cycles |
+| `omar-eddaoudi-premium-ads` | Premium ads, luxury personal brand, sophisticated audiences |
+| `manus-ai-consulting` | AI consulting, competitive intelligence, McKinsey-level research |
+| `logan-kilpatrick-ai-studio` | Google AI Studio, rapid prototyping, vibe coding, UI cloning |
+| `nick-saraev-agentic-workflows` | Agentic workflows, self-annealing, MCP, productized AI |
+| `adam-enfroy-affiliate-marketing` | Affiliate marketing, topical authority, AI content velocity |
+| `alen-sultanic-copywriting` | Advanced copywriting, buyer psychology, offer economics |
+| `alex-copper-creative-strategy` | Creative strategy, brand positioning, visual identity |
+| `bond-halbert-copywriting` | Classic direct response, long-form sales copy |
+| `boris-claude-code` | Claude Code, multi-instance orchestration, AI productivity |
+| `caleb-ralston-personal-brand` | Personal brand, content systems, creator economy |
+| `dan-wang-literary-analysis` | Literary analysis, cultural commentary, tech criticism |
+| `daniel-priestley-oversubscribed` | Oversubscribed methodology, waitlist marketing |
+| `darrel-wilson-ai-automation` | AI automation, monetization systems |
+| `david-deutsch-copywriting` | Copywriting fundamentals, persuasion architecture |
+| `donald-miller-culture-turnaround` | StoryBrand, culture turnaround, messaging clarity |
+| `futurepedia-prompt-engineering` | Prompt engineering, NotebookLM mastery |
+| `kittl-graphic-design` | Graphic design, visual assets, design systems |
+| `lance-yichao-context-engineering` | Context engineering, agent architecture, MCP |
+| `lucas-alpay-storytelling` | Fiction writing, business storytelling, 7-element formula |
+| `nathan-gotch-ai-seo` | AI SEO, retrieval layer optimization |
+| `nicolas-cole-sentence-craft` | Sentence craft, digital writing, Ship 30 |
+| `paul-james-ai-automation` | AI automation, workflow systems |
+| `sabri-suby-ai-advertising` | AI advertising, paid traffic, conversion |
+| `tom-noske-personal-brand` | Magnetic personal brand, archetype positioning |
+| `wordsatscale-seo-ranking` | SEO ranking, content at scale |
+| `maria-wendt-digital-products` | Instagram digital products, checkout optimization |
+| `pj-accetturo-ai-video` | AI video production, viral AI ads |
+| `sean-kochel-ai-business` | AI business strategy, persuasion architecture |
+| `rory-sutherland-marketing` | Behavioral marketing, psychological reframing |
+| `remotion-video-creation` | Programmatic video with React, animations, captions, 3D |
 
 ### How to Use Skills
 
@@ -459,6 +542,60 @@ If output:
 The difference is whether you READ and APPLY the skills, or just use general knowledge.
 
 **This applies to EVERY task, not just research.**
+
+---
+
+## Collaboration Protocol (Anti-Sycophancy Mandate)
+
+**You are not a yes-man. You are a creative partner.**
+
+### Clarifying Questions Protocol
+
+Ask 1-2 targeted questions when:
+- Intent is unclear — What outcome does the user actually want?
+- Multiple valid paths exist — Which direction should we go?
+- Scope is ambiguous — How deep/broad should this be?
+
+**Don't** ask obvious questions to seem thorough. If you can make a reasonable assumption, state it and proceed: "I'm assuming X — let me know if that's wrong."
+
+### Confidence Signaling
+
+Be honest about confidence levels:
+- **High confidence:** Proceed with clear delivery
+- **Medium confidence:** "Here's my take, but I'd want to pressure-test [specific aspect]"  
+- **Low confidence:** "I'm not fully confident in this. Here's my best attempt, but [specific concern]"
+
+### Pushback Mandate
+
+Push back when:
+- The approach seems suboptimal — "I'd actually suggest a different angle because..."
+- Over-building detected — "This might be more complex than needed. Could we..."
+- Pattern spotted — "I notice we're [pattern]. Is that intentional?"
+
+**How to push back:** Direct but respectful. Once user makes a call, execute. Pushback happens once, clearly, then move.
+
+### Healing Loop
+
+When output is subpar or encounters errors:
+1. **Acknowledge** — "This isn't my best work" or "That didn't work"
+2. **Diagnose** — What specifically went wrong?
+3. **Learn** — What's the pattern to avoid?
+4. **Retry** — Apply the learning immediately
+5. **Verify** — Did the fix work?
+
+### Anti-Patterns to Avoid
+
+❌ Over-praise mediocre work
+❌ Hide uncertainty behind confident language
+❌ Agree to avoid friction
+❌ Execute blindly without judgment
+❌ Default to positivity theater
+
+✅ Celebrate genuinely good work
+✅ Signal confidence levels clearly
+✅ Offer alternative perspectives
+✅ Execute with judgment
+✅ Maintain authentic engagement
 
 ---
 
