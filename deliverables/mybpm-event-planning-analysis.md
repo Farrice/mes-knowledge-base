@@ -1,5 +1,29 @@
 # MyBPM Event Planning Analysis
-## First Event Feasibility & Strategy for an Unknown Brand
+## First Event Feasibility & Strategy — Updated With Brand Context
+
+---
+
+## WHO MYBPM ALREADY IS
+
+**MyBPM** (mybpm.store / @my.bpm) is an EDM streetwear brand founded by Farrice and Jennifer. It's not starting from zero — it has an identity, a story, and existing assets.
+
+### Current Brand State
+- **Instagram**: @my.bpm — 1,745 followers, 638 posts
+- **Website**: mybpm.store (Shopify)
+- **Positioning**: "Premium EDM Merch & Streetwear" — streetwear for ravers who live for the music, the culture, and PLUR
+- **Collections**: Signature, Big Fish Little Fish Collab, What's Your BPM, PLUR, Exclusives, Radiant Love
+- **Price range**: $25-$75
+- **Production**: Unisex, hand-printed in USA, DTG on premium cotton
+- **Press**: Featured on [EDM Maniac](https://edmmaniac.com/mybpm-streetwear/) — "This Rave Couple Started Their Own EDM Clothing Line"
+- **Pinterest**: @mybpmstore
+- **Tagline**: "We Make Clothing for Ravers Who Live for the Music, the Culture, and PLUR"
+- **Origin story**: You and Jennifer met while checking out the same DJ, talked all night about EDM and festivals, long distance for a year, you moved to LA, been together since. The brand is built on that love story.
+
+### The Honest Assessment of Where the Brand Is
+- **638 posts with 1,745 followers** = the content hasn't been converting to growth. That's roughly 2.7 followers per post, which is low. Either the content strategy needs rework, the posting has been inconsistent, or both.
+- **The brand hasn't been touched in a while** (your words) = the Instagram is likely dormant or near-dormant, which means the algorithm has deprioritized it.
+- **The store exists and products are live** = this is actually a huge advantage for events (merch table revenue, brand visibility, something physical people take home).
+- **The PLUR positioning is clear** = but it's also the same positioning as every rave brand. To stand out, MyBPM needs to evolve from "PLUR streetwear" into something more specific.
 
 ---
 
@@ -15,309 +39,429 @@ From Chris's venue find:
 - **Parking**: Lot right across the street
 - **Context**: They charged $12-17 cover last night with ~150 people
 - **DJ connection**: MONIC — progressive house, opened for Audien recently
+- **Merch**: They allow merch sales at the venue
 
 ---
 
-## HONEST ASSESSMENT: IS THIS REALISTIC?
+## CORRECTED ASSET MAP
 
-**Short answer**: Yes, but not with this specific deal on your first event.
+### What You Actually Have
 
-Here's why. The $4K Saturday minimum spend is a bet that 300 people will show up and drink. For an unknown brand's first event, that is aggressive. The realistic attendance for a first-time promoter with no existing audience or track record is **75-150 people**, not 300. If you get 100 people and they spend $25/person at the bar (which is optimistic), that's $2,500 in bar sales — meaning you'd owe the venue $1,500 out of pocket to cover the gap.
+**Your DJ Friends (4-6 people)**
+- These are NOT producers with original tracks or dedicated fanbases
+- They ARE skilled, experienced DJs who can spin incredible sets and create amazing vibes at parties
+- They have experience doing events and parties — they know how to read a room
+- They will NOT draw their own crowds. They are your product (the experience), not your marketing channel.
+- This is actually fine — you don't need famous DJs to throw a great party. You need DJs who can make people not want to leave the dance floor.
 
-**The smarter first move**: Thursday night at $2.5K minimum spend, or negotiate a lower minimum for a weeknight. Thursday is also better strategically — less competition from established promoters who own Friday/Saturday slots, and the electronic music crowd in LA goes out on weekdays more than most cities.
+**Your Influencer/Creator Friends (multiple people with 100k+ followers)**
+- THIS is your real marketing weapon. This changes the entire calculus.
+- A single influencer with 100k followers posting a story about your event reaches more people than a mid-tier DJ's entire fanbase
+- Even at a conservative 2-3% conversion rate on a story post, one influencer with 100K followers = 2,000-3,000 people seeing your event with social proof
+- 3-4 influencer friends posting = 8,000-12,000 impressions with built-in trust
+- The question is: what's their audience demographic? Are their followers in LA? Are they 21+? Are they the "go out on a Thursday night" type?
+
+**MONIC (via Chris)**
+- Progressive house DJ who opened for Audien
+- This is your credibility anchor — not because she draws huge crowds, but because "opened for Audien" is a real co-sign you can put on the flyer
+- The name gives the event legitimacy beyond "my friends are DJing"
+
+**MyBPM Brand + Store**
+- You have an existing brand identity, logo, aesthetic, and product line
+- You have a merch table ready to go — this is a revenue stream most first-time promoters don't have
+- The brand gives the event a name that isn't just "a party" — it's a MyBPM event
+- 1,745 Instagram followers is small but it's not zero — that's a base to reactivate
+
+**Chris & Kim**
+- Connected to the rave scene, have venue relationships
+- Chris found the deal and clearly knows the landscape
+- Kim knows the logistics (parking, setup, etc.)
+
+### What's Working Against You
+1. **The DJ friends don't draw** = you can't rely on talent to fill the room. The vibe will be great IF people show up. Getting them there is a separate problem.
+2. **The brand has been dormant** = the Instagram algorithm has likely buried @my.bpm. Reactivation takes time.
+3. **Jennifer's bandwidth** = two escrows, packing up her mom, inspections. She can't be the operator on this right now.
+4. **Your time constraint** = 1-3 hours/day. The strategy and brand work is within your lane. The ground-level promo hustle is not.
+5. **First-time promoter** = no track record with venues means worse deal terms and no room for negotiation leverage.
 
 ---
 
-## THE REAL NUMBERS: PROFIT & LOSS SCENARIOS
+## THE INFLUENCER ANGLE CHANGES EVERYTHING
 
-### Scenario 1: Thursday Night, Conservative (RECOMMENDED FIRST EVENT)
+This is the single biggest update from the first analysis. Most first-time promoters have zero marketing reach. You have access to people who can put your event in front of tens of thousands of eyeballs for free.
+
+### How to Deploy Your Influencer Friends
+
+**The Ask (keep it simple and reciprocal):**
+- "We're throwing our first MyBPM event in Hollywood. Would you post about it? We'll give you and your crew guest list + VIP treatment."
+- This is not a paid promotion. This is friends showing up for friends. The authenticity makes it more effective, not less.
+
+**The Timing:**
+- Influencer post #1: 2 weeks before the event (awareness)
+- Influencer post #2: 3-5 days before (urgency, "limited tickets left")
+- Influencer post #3: Night-of stories (FOMO for event #2)
+
+**The Content They Should Post:**
+- NOT a generic "come to this party" flyer repost
+- YES: "My friends are throwing their first event and I'm so excited" — personal, authentic, genuine
+- Behind-the-scenes content: venue walkthrough, DJ practice sessions, merch unboxing
+- The goal is to make their followers feel like they're getting access to something exclusive, not being marketed to
+
+**The Math:**
+- 3 influencer friends with 100K+ followers each
+- Average story view rate: 5-10% = 5,000-10,000 story views per person
+- 3 influencers = 15,000-30,000 story views
+- Even at a 1% conversion to "interested" = 150-300 people who look up the event
+- Even at 0.3% actual attendance conversion = 45-90 people just from influencer reach
+- Add to that: your personal network (50-80), Chris & Kim's network (30-50), DJ friends' circles (20-40)
+- **Realistic total reach: 150-250 people is genuinely achievable for your first event**
+
+### Why This Is Your Unfair Advantage
+Most first-time promoters spend $500-2,000 on ads that reach cold audiences. You have warm, trust-based reach through friends who happen to have audiences. This is not a small thing — this is the difference between 80 people and 200 people at your first event.
+
+---
+
+## REVISED PROFIT & LOSS SCENARIOS (With Influencer Reach)
+
+### Scenario 1: Thursday Night With Influencer Support (RECOMMENDED)
 
 | Item | Cost/Revenue |
 |------|-------------|
 | **Minimum spend guarantee** | -$2,500 |
-| **DJ talent (your friends)** | -$400 to -$800 (pay them something, even friends) |
-| **Marketing/promotion** | -$300 to -$500 |
+| **DJ talent (your friends, 4 sets)** | -$400 to -$600 |
+| **Photographer/videographer** | -$300 |
 | **Miscellaneous (wristbands, supplies)** | -$200 |
-| **TOTAL COSTS** | **-$3,400 to -$4,000** |
+| **TOTAL COSTS** | **-$3,400 to -$3,600** |
 
-Revenue if 120 people show up at $15 door:
-
-| Revenue Source | Amount |
-|----------------|--------|
-| **Door revenue (120 x $15)** | +$1,800 |
-| **Bar sales offset** (if 120 people avg $25/person = $3,000, you owe nothing extra — but you also don't earn from bar) | $0 |
-| **NET** | **-$1,600 to -$2,200 loss** |
-
-Revenue if 150 people show up at $15 door:
+Revenue if 180 people show up at $15 door (realistic with influencer support):
 
 | Revenue Source | Amount |
 |----------------|--------|
-| **Door revenue (150 x $15)** | +$2,250 |
-| **Bar sales** (150 x $25 = $3,750, covers minimum + surplus you don't see) | $0 |
-| **NET** | **-$1,150 to -$1,750 loss** |
+| **Door revenue (180 x $15)** | +$2,700 |
+| **Merch sales (10% of attendees buy a $35 tee)** | +$630 (18 x $35) |
+| **Bar sales** (180 x $22 avg = $3,960, covers the $2,500 minimum) | $0 owed |
+| **TOTAL REVENUE** | **+$3,330** |
+| **NET** | **-$70 to -$270 — essentially breakeven** |
 
-Revenue if 200 people show up at $20 door:
+Revenue if 220 people show up at $15/$20 split (optimistic but possible):
 
 | Revenue Source | Amount |
 |----------------|--------|
-| **Door revenue (200 x $20)** | +$4,000 |
-| **Bar sales** (200 x $25 = $5,000, covers the $2,500 minimum easily) | $0 |
-| **NET** | **Breakeven to +$600 profit** |
+| **Door revenue (100 presale x $15 + 120 door x $20)** | +$3,900 |
+| **Merch sales (10% x $35)** | +$770 (22 x $35) |
+| **Bar sales** (easily covers $2,500 minimum) | $0 owed |
+| **TOTAL REVENUE** | **+$4,670** |
+| **NET** | **+$1,070 to +$1,270 profit** |
 
-### Scenario 2: Saturday Night, Aggressive
+### Scenario 2: Saturday Night With Full Influencer Push
 
 | Item | Cost/Revenue |
 |------|-------------|
 | **Minimum spend guarantee** | -$4,000 |
-| **DJ talent** | -$500 to -$1,000 |
-| **Marketing** | -$500 |
+| **DJ talent** | -$500 to -$800 |
+| **Photographer/videographer** | -$300 |
 | **Miscellaneous** | -$200 |
-| **TOTAL COSTS** | **-$5,200 to -$5,700** |
+| **TOTAL COSTS** | **-$5,000 to -$5,300** |
 
-You need 250+ people at $20-25 door AND enough bar sales to hit $4K to break even. That is not a first-event scenario.
+Revenue if 250 people (room is buzzing):
 
-### The Honest Math
+| Revenue Source | Amount |
+|----------------|--------|
+| **Door revenue (100 presale x $15 + 150 door x $20)** | +$4,500 |
+| **Merch sales** | +$875 (25 x $35) |
+| **Bar sales** (250 x $22 = $5,500, covers $4K minimum easily) | $0 owed |
+| **TOTAL REVENUE** | **+$5,375** |
+| **NET** | **+$75 to +$375 profit** |
 
-To actually profit on a Saturday with this deal structure:
-- 250 people x $20 door = $5,000 door revenue
-- Bar sales need to hit $4K (250 x $16/person minimum)
-- Subtract $5,700 costs = **-$700 loss to modest profit**
+Revenue if 300 (sold out):
 
-To profit meaningfully (worth your time and risk):
-- 300 people x $25 door = $7,500
-- Bar sales comfortably hit $4K
-- Subtract $5,700 costs = **+$1,800 profit**
-- Split 3 ways between you, Chris, and Kim = **$600 each**
+| Revenue Source | Amount |
+|----------------|--------|
+| **Door revenue (120 presale x $15 + 180 door x $25)** | +$6,300 |
+| **Merch sales** | +$1,050 (30 x $35) |
+| **Bar sales** (covers minimum, you don't see extra) | $0 owed |
+| **TOTAL REVENUE** | **+$7,350** |
+| **NET** | **+$2,050 to +$2,350 profit** |
 
-That's why established promoters do this regularly — the margins compound with volume, reputation, and lower artist costs through relationships. But for a first event, you're essentially paying tuition.
+### The Merch Multiplier Most Promoters Don't Have
 
----
-
-## WHAT WOULD ACTUALLY MAKE THIS WORK
-
-### Your Assets (What You're Working With)
-
-1. **4-6 DJ friends** = you have a lineup without paying headliner rates
-2. **2 DJs with actual audiences** = they bring their own crowds (this is your biggest asset)
-3. **MONIC** (via Chris) = progressive house with Audien co-sign = credibility anchor
-4. **MyBPM as a brand** = fresh, unknown but nameable — "BPM" is music-native language
-5. **Chris & Kim** = they clearly know the scene and have venue relationships
-6. **Your wife** = real estate hustle shows she can execute on operational complexity
-7. **Your skill set** = systems thinking, brand strategy, marketing psychology
-
-### Your Liabilities (What's Working Against You)
-
-1. **No track record** = venues give worse deals to unproven promoters
-2. **No email list or following** = can't sell advance tickets to gauge demand
-3. **No content machine running** = MyBPM has no social presence to leverage
-4. **Your wife's bandwidth** = she's in the middle of two escrows
-5. **Your time constraint** = 1-3 hours/day means you can't be the one doing ground-level promo
+Most first-time promoters have zero merch. You already have a product line. At events:
+- 8-15% of attendees buy merch if the brand is visible and the designs are good
+- Average item: $35
+- 200 people x 10% x $35 = $700 in merch revenue
+- This is pure margin (minus COGS, probably $8-12/shirt with DTG)
+- Set up a merch table near the entrance/exit. Have someone friendly running it. Accept card payments (Square reader).
+- This also builds the brand — people wearing MyBPM tees become walking billboards
 
 ---
 
-## THE STRATEGY: HOW TO DO THIS RIGHT
+## REVISED STRATEGY: LEVERAGING WHAT YOU ACTUALLY HAVE
 
-### Phase 1: Foundation (Weeks 1-4) — BUILD BEFORE YOU BOOK
+### The Big Reframe
 
-Do not book the venue yet. Use this time to:
+The original analysis assumed you were a cold-start promoter with no reach. You're not. You have:
+- An existing brand with a store, products, and a story
+- Influencer friends who can put your event in front of 100K+ people
+- DJ friends who can deliver the experience (just not the crowd)
+- A co-promotion team (Chris, Kim) with scene knowledge
 
-**1. Define MyBPM's identity**
-- What does MyBPM stand for? Is it a party brand? A DJ collective? A vibe?
-- Pick a lane: Are you curating an experience (like Sound Nightclub's philosophy-driven approach) or throwing a party (like a classic rave promoter)?
-- The strongest new brands in LA right now are community-driven collectives with a clear point of view. DEF (Define Everything Future), a female-owned collective, broke out in 2025 by having a sharp identity.
+**The strategy shifts from "build an audience from scratch" to "activate the network you already have."**
 
-**2. Pick your genre positioning**
-What's trending and what fits your DJ network:
+### Phase 1: Reactivate MyBPM (Weeks 1-3)
 
-| Genre | Trend Status | Fit for MyBPM? |
-|-------|-------------|----------------|
-| **Progressive House** | Revival happening — growing momentum | Yes — MONIC plays this, Audien association |
-| **Afro Tech / Afro House** | Exploding — 700% growth in production | Only if your DJs play it |
-| **Melodic Techno** | Strong and steady — emotional, accessible | Good entry point for broader audiences |
-| **House (deep/tech)** | LA's bread and butter — always works | Safe bet, competitive space |
-| **Hard Techno** | Peaked but still draws crowds | Niche audience, polarizing |
-| **Drum & Bass** | Surging — 3rd on Beatport | Growing fast but specific crowd |
+**1. Wake up the Instagram**
+- Don't start posting product photos. Start with the story.
+- Post #1: "We started MyBPM because we fell in love at a show. Now we're bringing the vibe to Hollywood." — your origin story, raw and real
+- Post #2: Tease the event concept — "Something's coming" energy
+- Post #3-5: Spotlight your DJ friends — short clips of them mixing, behind-the-scenes energy
+- Reels: 15-30 second clips of DJ sets, venue energy, rave culture moments
+- Go from dormant to 5x/week posting immediately
+- Re-engage your 1,745 existing followers — many of them are probably friends, scene people, real connections
 
-**Recommendation**: Position MyBPM around **progressive house + melodic techno** — it's accessible, emotional, trending upward, and matches your existing DJ network (MONIC). It also differentiates from the hard techno wave that's saturating LA right now.
+**2. Evolve the brand positioning for events**
+- MyBPM the clothing brand = "streetwear for ravers"
+- MyBPM the event brand = "the party where the culture comes alive"
+- The two reinforce each other. The event IS the brand experience. The merch IS the takeaway.
+- Think of it like how brands like The Hundreds or Supreme started — culture first, product second. MyBPM events become the cultural anchor, and the streetwear is how people represent that culture in daily life.
 
-**3. Start the content engine NOW**
-- Create MyBPM Instagram. Post 3-5x/week.
-- Content: DJ friend spotlights, behind-the-scenes studio sessions, genre education ("what is progressive house and why it's coming back"), venue scouting clips, playlist curation
-- Start a MyBPM playlist on Spotify/Apple Music featuring your DJ friends' tracks
-- Goal: 500-1,000 followers before your first event
+**3. Talk to your influencer friends NOW**
+- Don't wait until the event is booked. Gauge interest early.
+- "Hey, Jen and I are thinking about throwing a MyBPM event in Hollywood. Would you be down to pull up and post about it?"
+- You need to know: How many would actually show up? How many would actually post? This determines your marketing firepower.
 
-**4. Build the list**
-- Simple landing page: "MyBPM is coming. Get early access to our first event."
-- Collect emails. Even 200 emails is gold for a first event.
+### Phase 2: Plan & Build (Weeks 3-6)
 
-### Phase 2: Pre-Production (Weeks 5-8) — PLAN THE EVENT
+**4. Negotiate the venue deal**
+- With influencer reach in your back pocket, you have more leverage than a random first-timer
+- Chris's pitch to the venue: "We have influencer friends with combined reach of 300K+ who will be posting about this. We'll pack this room."
+- Still recommend starting Thursday ($2,500 minimum) to prove the concept
+- Ask about merch table setup — where, do they take a cut, any restrictions?
 
-**5. Negotiate the right deal**
-- Start with Thursday, not Saturday
-- Ask Chris to negotiate: "First event, building the brand. Can we do $1,500-$2,000 minimum on a Thursday as a trial? If we deliver 150+ people and they drink, we'll book Saturdays."
-- Venues want consistent promoters who fill rooms. They'll often cut deals on slower nights to develop new talent.
+**5. Lock the lineup**
+- 4-5 DJ sets across the night (45-60 min each)
+- Open with your most energetic DJ to set the tone as people arrive
+- Build through the night with genre flow: deep house opener → progressive house → melodic techno peak → high-energy closer
+- MONIC gets a prime slot (10:30-11:30 PM range) as the credibility anchor
 
-**6. Build the lineup strategically**
-- **Headliner slot**: Your DJ friend with the biggest audience. This is who you market.
-- **Support**: MONIC + 1-2 of your other DJ friends
-- **Opener**: Your least-known DJ friend (early slot, builds their resume)
-- Total talent cost should be $500-$1,000 if these are friends. Pay them. Even $100-200 per set shows respect and keeps relationships healthy.
+**6. Create the event identity**
+- The event needs a name beyond just "MyBPM presents." Give it a series name.
+- Ideas that align with the brand: "BPM Sessions," "Pulse," "The Drop," "Heart Rate"
+- The series name lets you build a recurring brand within the brand
+- Design a flyer that matches your streetwear aesthetic — not generic EDM neon, but your brand's look
 
-**7. Price the door right**
-- Tiered pricing: Early bird $10 (first 50 tickets) → Advance $15 → Door $20
-- Use Eventbrite, DICE, or Resident Advisor for ticketing
-- Early bird sales give you a demand signal. If you sell 50 early birds in week 1, you're on track. If you sell 10, recalibrate.
+**7. Ticket strategy**
+- Use DICE or Eventbrite (DICE is more credible in the electronic music scene)
+- Tier 1: "Inner Circle" $10 (first 50 tickets — your core network)
+- Tier 2: Advance $15
+- Tier 3: Door $20
+- Influencer friends get guest list + a promo code they can share ("use code [INFLUENCER NAME] for $12 tickets") — this also lets you track which influencer drives the most sales
 
-**8. Marketing plan**
-- Your DJ friends promote to their audiences (this is your #1 channel)
-- Instagram Reels: venue teasers, DJ snippets, "the vibe we're creating"
-- Micro-influencer outreach: find 5-10 LA nightlife accounts with 1K-10K followers, offer guest list for posts
-- Group chat mobilization: everyone in Chris and Kim's rave network gets personal invites
-- Flyer drops at other events (if you go to shows, hand out cards)
-- Cross-promote on 19hz.info (LA's definitive electronic music event listing)
+**8. The influencer campaign**
+- Create a shared Google Drive or Dropbox with: event flyer, venue photos, DJ photos, 2-3 caption options
+- Make it effortless for them to post. The less work they have to do, the more likely they'll do it.
+- Stagger the posts: Week 2 before event = awareness, Week 1 = urgency, Night-of = FOMO content
+- If any influencer friends are willing to do a "get ready with me for MyBPM" reel or story series, that's gold
 
-### Phase 3: Execution (Weeks 8-10) — THE EVENT
+### Phase 3: Execute (Weeks 6-8)
 
-**9. Week-of checklist**
+**9. Week-of operations**
 - Confirm all DJ set times and equipment needs
-- Confirm venue details (load-in time, sound check, bar setup)
-- Final social media push (countdown content, "last chance" for advance tickets)
-- Assign roles: Who's on door? Who's managing the DJs? Who's handling problems?
-- Have a cash reserve of $1,000-$1,500 for unexpected issues
+- Confirm merch inventory (bring your best sellers, have sizes ready)
+- Brief your influencer friends: "Post a story when you arrive, tag @my.bpm"
+- Set up a branded photo moment at the venue (MyBPM backdrop, good lighting) — this generates organic content
+- Assign clear roles:
+  - **You**: Brand, content capture, overall experience oversight
+  - **Chris**: Venue liaison, security coordination, bar relationship
+  - **Kim**: Door management, guest list, ticket reconciliation
+  - **Jennifer**: Merch table (if bandwidth allows) or assign a trusted friend
+  - **Designated content person**: Photographer/videographer capturing the night
 
-**10. Night-of operations**
-- Someone sober and organized runs the door (count every person, track revenue)
-- Someone manages the DJ transitions (no dead air, smooth handoffs)
-- Someone handles the venue relationship (bar manager, security, any issues)
-- Take content: photos, video clips, crowd shots. This is marketing for event #2.
+**10. Night-of revenue maximization**
+- Merch table near entrance — people see it coming in AND going out
+- Have a Square/card reader. Nobody carries cash.
+- If the venue allows, offer a "ticket + tee" bundle at the door for $30 (vs. $20 door + $35 tee separate = $55). This feels like a deal and moves more merch.
+- Capture emails at the merch table: "Drop your email for early access to the next event + 20% off your next MyBPM order"
 
-### Phase 4: Post-Event (Week 11+) — COMPOUND
+### Phase 4: Compound (Week 9+)
 
-**11. The day after**
-- Post highlights on Instagram (photos, video, crowd energy)
-- Send email to your list: "Thank you. Here's what's next."
-- Debrief with your team: What worked? What didn't? What do we do differently?
-- Settle finances with the venue and your DJs
+**11. Post-event content blitz**
+- Post highlights within 24 hours (while people are still buzzing)
+- Tag every influencer who came. Tag every DJ. Tag the venue.
+- Repost every story/post from attendees — this is social proof for event #2
+- Send a recap email to everyone who bought tickets or gave you their email
+- Post DJ set recordings (if captured) to SoundCloud/Mixcloud under the MyBPM brand
 
-**12. Build toward event #2**
-- If event #1 drew 120+ and the vibe was right, you have proof of concept
-- Book the next one 4-6 weeks later. Momentum matters.
-- Grow the list, grow the following, grow the reputation
+**12. Leverage the event for the store**
+- "Were you at BPM Sessions Vol. 1? Rep the vibe" — drive event attendees to the store
+- Consider a limited edition "Vol. 1" tee or design — scarcity creates urgency
+- The event content becomes store marketing content. A photo of someone dancing in a MyBPM tee is worth more than any product photo on a white background.
 
 ---
 
-## LEAD TIME BREAKDOWN
+## GENRE POSITIONING
+
+### What's Trending in 2025-2026 That Fits Your DJ Network
+
+| Genre | Trend Status | Why It Works for MyBPM |
+|-------|-------------|----------------------|
+| **Progressive House** | Revival — growing momentum, Audien-era nostalgia | MONIC plays this. Emotional, accessible, crowd-friendly. Not polarizing. |
+| **Melodic Techno** | Strong and steady — emotional depth | Pairs perfectly with progressive house. Appeals to broader demo beyond hardcore ravers. |
+| **Afro Tech / Afro House** | Exploding — 700% growth in production | Only if your DJs spin it. Hot genre but needs authentic representation. |
+| **House (deep/tech)** | LA's bread and butter | Safe foundation. Every DJ in LA can play this. Less differentiated. |
+| **Drum & Bass** | Surging — 3rd on Beatport | Growing fast but very specific crowd. Could work as a "special night" genre rotation. |
+
+**Recommendation**: Lead with **progressive house + melodic techno** as MyBPM's sound identity. It's:
+- Trending upward (progressive house revival is real)
+- Matched to MONIC and likely your other DJ friends
+- Emotionally resonant — people feel something, which matches PLUR
+- Accessible to non-hardcore electronic music fans (your influencer friends' audiences)
+- Differentiated from the hard techno saturation in LA right now
+
+### The Vibe to Create
+
+Think less "rave" and more "elevated house party that happens to be in a Hollywood venue." The MyBPM brand is streetwear, not kandi bracelets. The event should match:
+- Clean, intentional aesthetic (not chaotic festival energy)
+- Music you can actually talk over early in the night, that builds to peak energy
+- Fashion-forward crowd (your influencer friends set this tone just by being there)
+- PLUR values without the cliché — inclusive, welcoming, no pretension, but elevated
+
+---
+
+## LEAD TIME BREAKDOWN (REVISED)
 
 | Phase | Duration | Key Milestones |
 |-------|----------|----------------|
-| Foundation | 4 weeks | Brand identity, social media launched, content engine running |
-| Pre-Production | 4 weeks | Venue booked, lineup locked, tickets on sale, marketing live |
-| Final Push | 2 weeks | Ticket sales ramp, final promo, operations planning |
-| **Total minimum lead time** | **8-10 weeks** | From "go" to doors open |
+| Reactivate Brand | 3 weeks | Instagram alive, influencer commitments confirmed, event concept defined |
+| Plan & Build | 3 weeks | Venue locked, lineup set, tickets on sale, influencer content calendar ready |
+| Promote & Execute | 2 weeks | Ticket sales tracked, final push, night-of operations |
+| **Total minimum lead time** | **8 weeks** | From "go" to doors open |
 
-If your wife is currently buried in escrow and inspections, and you're working 1-3 hours/day, a realistic timeline is:
-- **Start building MyBPM's presence now** (you can do this in your time window)
-- **Target a Thursday night event in late April or May 2026**
-- That gives you 10-12 weeks of runway
+**Realistic target**: If you start now (early February 2026), target **early-to-mid April 2026** for the first event. That gives you a full 8-10 weeks and avoids Jennifer's current escrow crunch.
 
 ---
 
 ## WHAT FIRST-TIMERS GET WRONG (AND HOW TO AVOID IT)
 
 ### 1. Booking a room too big for your crowd
-**The fix**: A packed 150-person room beats a half-empty 300-person room every time. The energy of a full room IS the product. If the venue is 300 capacity, you need to feel confident about 200+ showing up, or it'll feel dead.
+A packed 150-person room beats a half-empty 300-person room every time. With the 300-cap venue, you need 200+ to feel alive. The two-floor layout could help — keep the second floor "VIP" or closed early, then open it when the room fills. This creates the perception of growth through the night.
 
 ### 2. Not paying DJs (even friends)
-**The fix**: Pay your friends $100-200 per set minimum. "Exposure" is not payment. The fastest way to burn DJ relationships is to exploit them. Budget for it.
+Pay your friends $100-200 per set. Non-negotiable. "We're all doing this together" is beautiful until someone feels exploited. Budget $400-600 for 4 DJs. It's the cost of keeping relationships intact.
 
-### 3. Spending money on the wrong marketing
-**The fix**: Don't buy Instagram ads or Facebook ads for your first event. Your first event's audience comes from: (a) your DJ friends' followers, (b) personal invitations through group chats and DMs, (c) word-of-mouth from 5-10 people who are genuinely excited. Paid ads work for event #5, not event #1.
+### 3. Relying on DJs to draw the crowd
+This is YOUR biggest trap. Your DJs create the vibe, they don't create the attendance. The crowd comes from: (a) influencer reach, (b) personal network, (c) Chris and Kim's rave network. The DJs make them stay and come back. Different functions.
 
 ### 4. Not having a demand signal before committing money
-**The fix**: Put tickets on sale 3-4 weeks before the event. If you don't sell 30% of your target within the first week, something is wrong — either the marketing isn't working, the price is wrong, or the demand isn't there. You need this information BEFORE you've spent money on production.
+Put tickets on sale 3-4 weeks early. If you don't sell 30% of your target in the first week, recalibrate before spending more. Advance ticket sales are your fire alarm — they tell you if the building is hot or not.
 
-### 5. Trying to do everything yourself
-**The fix**: You need at minimum 3 people with clear roles:
-- **Promoter/Marketing** (this is you — strategy, content, brand)
-- **Operations/Venue** (this is Chris — he has the venue relationship)
-- **Talent/Music** (whoever in your crew knows the DJ scene best)
+### 5. Wasting the influencer opportunity
+Don't just say "post about our event." Give them content assets (flyer, venue pics, captions), make it frictionless, and coordinate timing. One influencer posting the day before is 10x more effective than four influencers posting three weeks early and then going silent.
 
 ### 6. Not capturing content
-**The fix**: Hire a photographer/videographer for $200-400. The content from event #1 is what sells event #2. If you have no photos or video, you have no proof it happened.
+Hire a photographer/videographer for $200-400. Content from event #1 is what sells event #2, sells merch, and proves the brand is real. This is not optional.
 
 ### 7. Ignoring the bar sales math
-**The fix**: In the deal Chris described, the venue's minimum spend is essentially your risk floor. If 100 people come and spend $20 each at the bar ($2,000), and the minimum is $2,500, YOU owe $500. Model this out before you commit. The bar revenue isn't "free money" — it's the venue's insurance policy, and you're the guarantor.
+If 120 people come and average $20 at the bar ($2,400) on a Thursday ($2,500 minimum), you owe the venue $100 out of pocket. Model every scenario. Know your break-even attendance number before you sign anything.
 
-### 8. No plan for event #2
-**The fix**: Before event #1 happens, know when event #2 will be. Collect emails at the door. Announce "next month" from the stage. The first event is an investment; the second event is where you start to see returns.
-
----
-
-## THE RISK-REWARD REALITY
-
-### Best case (first event):
-- 200 people, Thursday night, $2,500 minimum
-- Door revenue: $3,000 (200 x $15)
-- Costs: $3,500 (venue covered by bar sales + $1,000 talent/marketing)
-- **Net: -$500 loss, but you have a brand, content, a list, and proof of concept**
-
-### Likely case (first event):
-- 120 people, Thursday night, $2,500 minimum
-- Door revenue: $1,800 (120 x $15)
-- Bar sales: $2,400 (120 x $20), you owe $100 gap to venue
-- Costs: $3,100 total
-- **Net: -$1,300 loss, which is your brand-building investment**
-
-### Worst case (first event):
-- 60 people, Saturday night, $4,000 minimum
-- Door revenue: $1,200 (60 x $20)
-- Bar sales: $1,200 (60 x $20), you owe $2,800 gap to venue
-- Costs: $5,500 total
-- **Net: -$4,300 loss and a discouraging start**
-
-### The honest framing:
-Your first event is not a money-making venture. It's a **$1,000-$2,000 investment** in building a brand, testing a concept, and learning the business. If you go in expecting profit, you'll be disappointed. If you go in expecting to learn and build, you'll be in the right headspace.
-
-Profit starts at event #3-5, when you have a following, a reputation, a content library, and venue leverage.
+### 8. Treating the event as separate from the brand
+The event IS the brand activation. The merch IS the takeaway. The content IS the marketing. Everything should feed everything else. Don't throw a party that has nothing to do with MyBPM's identity.
 
 ---
 
-## WHAT MYBPM COULD BECOME
+## THE MERCH STRATEGY (YOUR SECRET WEAPON)
 
-If you're thinking about this as a real brand and not a one-off party, here's the trajectory:
+Most first-time promoters have zero product to sell. You have an entire store. This is a significant advantage.
 
-**Months 1-3**: Build social presence, throw first event (Thursday, small), learn the mechanics
-**Months 4-6**: Second and third events, growing attendance, building email list to 500+
-**Months 7-12**: Move to Saturdays, start booking mid-tier DJs with real followings, attendance 200-300
-**Year 2**: MyBPM is a known brand in the LA progressive house scene, recurring monthly events, potential for merch revenue, sponsorship opportunities, and actual profit margins of $2,000-5,000/event
+### At the Event
+- **Merch table**: Near entrance/exit. Branded display. Card reader ready.
+- **Best sellers only**: Bring your 3-4 most popular items in key sizes. Don't overcomplicate.
+- **Bundle deal**: "Ticket + tee" for $30 at the door (vs. $20 door + $35 tee separate). People love perceived value.
+- **Email capture**: "Drop your email for 20% off your next MyBPM order + early access to Vol. 2"
 
-The brands that win in this space are the ones that show up consistently. One event means nothing. Monthly events for a year means everything.
+### Post-Event
+- **Limited edition**: Design a "BPM Sessions Vol. 1" tee or sticker. Only available to people who were there or who order within 48 hours. Scarcity creates urgency and makes event #1 feel like a moment.
+- **Event content as product marketing**: Photos of people wearing MyBPM at the event > product photos on white backgrounds. Use event content in store marketing and social.
+- **Cross-sell loop**: Event attendees → store customers → event #2 attendees. Every touchpoint should drive the next one.
+
+### Revenue Projection
+- 200 attendees, 10-15% merch conversion = 20-30 sales
+- Average item price $35, COGS ~$10 = $25 profit per item
+- **Merch profit: $500-$750 per event** — this compounds as the brand grows
+
+---
+
+## RISK-REWARD REALITY (REVISED)
+
+### Best case (first event, Thursday):
+- 220 people, $2,500 minimum
+- Door revenue: $3,900 (100 presale x $15 + 120 door x $20)
+- Merch profit: $600
+- Bar covers minimum, no gap owed
+- Costs: $3,500
+- **Net: +$1,000 profit, content library built, email list started, proof of concept locked**
+
+### Likely case:
+- 160 people, Thursday, $2,500 minimum
+- Door revenue: $2,550 (80 presale x $15 + 80 door x $20)
+- Merch profit: $400
+- Bar: 160 x $22 = $3,520, covers minimum
+- Costs: $3,500
+- **Net: -$550 loss — but you have a brand event, content, list, and momentum**
+
+### Worst case:
+- 80 people, Thursday, $2,500 minimum
+- Door revenue: $1,200 (80 x $15)
+- Merch profit: $200
+- Bar: 80 x $20 = $1,600, gap owed = $900
+- Costs: $3,700 (including gap)
+- **Net: -$2,300 loss — painful but survivable, and you learned everything**
+
+### The real framing:
+With your influencer network, the "likely" and "best" scenarios are more realistic than they'd be for a typical first-timer. **Your expected loss on event #1 is $0-$500, not $1,300-$2,200.** The influencer reach genuinely changes the math.
 
 ---
 
 ## QUESTIONS TO ANSWER BEFORE YOU COMMIT
 
-1. **Who is the "operator" on this?** Chris seems plugged in. Your wife has the hustle but is currently overloaded. You have the strategy brain but limited time. Who is the day-to-day driver?
+1. **How many influencer friends will actually commit to posting?** Get verbal yeses before you book the venue. 3+ committed influencers = green light. 1 or fewer = recalibrate.
 
-2. **What's the upfront cash you're willing to risk?** Budget $2,000-$3,000 as your "tuition" for event #1. Can you absorb that loss if things go sideways?
+2. **What are your influencer friends' audience demographics?** LA-based? Age 21+? Nightlife-adjacent? If their followers are mostly 16-year-olds in another state, the reach doesn't convert to attendance.
 
-3. **Is this a side hustle or a brand build?** If it's a one-off party with friends, the stakes are low and the math doesn't matter much. If it's building MyBPM into something real, you need the 10-week runway and the content strategy.
+3. **Who is the day-to-day operator?** Chris seems ready. But someone needs to own the project plan week by week. Is that you (strategy + accountability) with Chris executing?
 
-4. **Can your DJ friends actually draw?** "Having an audience" needs to be quantified. How many Instagram followers? How many people actually show up when they play? 500 Instagram followers ≠ 50 people at a show. Ask them directly: "If we throw an event, how many people can you personally bring?"
+4. **What's the upfront cash you're willing to risk?** Budget $2,000-$3,000. Can you absorb that if things go sideways?
 
-5. **What's the split between you, Chris, and Kim?** This conversation needs to happen before money is spent. Who puts up capital? Who does what work? How are profits (and losses) divided?
+5. **What's the split between everyone involved?** Who puts up capital? Who does what work? How are profits (and losses) divided? This conversation happens BEFORE money is spent.
+
+6. **Can Jennifer be involved at all, or is she fully tapped?** Even 2-3 hours a week on the merch side and her personal network would help. But if the escrows have her maxed, plan around that.
+
+7. **What merch inventory do you have on hand?** You don't want to order new stock for event #1. Use what you've got. What's your current inventory look like?
 
 ---
 
 ## BOTTOM LINE
 
-This is doable. The venue deal is real, the genre timing is good (progressive house is in a revival), and you have DJ friends who can fill a lineup. But the difference between losing $4K and building something that actually works comes down to:
+The previous analysis assumed you were starting from zero. You're not. **You have an existing brand, a product line, an origin story, a dormant-but-real Instagram audience, and — most importantly — influencer friends who can put your event in front of hundreds of thousands of eyeballs.**
 
-1. **Start Thursday, not Saturday** — lower risk, lower minimum, better for building
-2. **10 weeks of runway minimum** — don't rush this
-3. **Build the brand before the event** — social media, content, email list
-4. **Budget $2,000-$3,000 as learning investment** — don't expect profit on event #1
-5. **200 people in a 300-cap room** is a great first event. 100 people is a learning experience. 300 people is unrealistic for event #1.
-6. **Have the money conversation with Chris and Kim now** — roles, investment, splits
+Your DJ friends don't draw crowds, but they deliver the experience. Your influencer friends don't spin records, but they fill rooms. Together, that's a complete package.
 
-The music scene in LA is thriving. Electronic music is a $12.9 billion global industry. Progressive house is having a moment. You have the strategy mind to build this into a real brand. But go in clear-eyed about the economics and the timeline.
+The play:
+1. **Reactivate @my.bpm NOW** — story-driven content, DJ spotlights, event tease
+2. **Lock influencer commitments** — you need 3+ genuine yeses before booking the venue
+3. **Start Thursday at $2,500 minimum** — prove the concept with lower risk
+4. **Use your merch as a revenue stream AND brand builder** — you have this and nobody else does at their first event
+5. **8-10 week runway** — target mid-April 2026
+6. **Break even or small profit is genuinely realistic** for your first event given the influencer angle
+
+This isn't "paying tuition" anymore. With the right execution, this is a legitimate brand activation that could profit from day one and set up a recurring event series. The key variable is whether your influencer friends actually show up and post. Confirm that, and the rest is execution.
+
+---
+
+## SOURCES
+
+- [MyBPM Store](https://mybpm.store/)
+- [MyBPM Instagram](https://www.instagram.com/my.bpm/)
+- [EDM Maniac: This Rave Couple Started Their Own EDM Clothing Line](https://edmmaniac.com/mybpm-streetwear/)
+- [Beatportal: Year in Dance/Electronic Music 2025](https://www.beatportal.com/articles/1187804-the-year-in-dance-electronic-music-moments-and-trends-that-defined-2025)
+- [19hz.info: LA Event Listings](https://19hz.info/eventlisting_LosAngeles.php)
+- [EDM.com: Rising Local DJs on 2025 Skyline Festival](https://edm.com/events/3-rising-local-djs-discuss-2025-skyline-festival/)
