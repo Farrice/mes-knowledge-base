@@ -1,0 +1,45 @@
+{
+  "objective": "You are helping align sales documents for 'The Resurrection Coach' \u2014 a premium 10K executive coaching brand by Acusio Bivona. The brand reframe: Resurrection = DORMANT POWER REACTIVATION. Not crisis. Not death. It means reclaiming a powerful version of yourself that went dormant while you built the empire. Your task: Generate polished replacement copy for SALES AND OFFER documents. Every 'The Rebuild' becomes 'The Resurrection.' OFFER 1 (The Intensive - 4997 Bridge Offer): Rewrite these lines with Resurrection framing: 'You are intrigued by The Rebuild' becomes intrigued by The Resurrection. 'This is Phase 1 of The Rebuild' becomes Phase 1 of The Resurrection. 'upgrade to The Rebuild (90 days)' becomes upgrade to The Resurrection. 'Option 1: Upgrade to The Rebuild' becomes Upgrade to The Resurrection. 'The Rebuild: 10000' becomes 'The Resurrection: 10000'. 'Why not just start with The Rebuild?' FAQ answer using dormant power language. 'Intensive plus Rebuild total 12497' becomes recalculate with Resurrection branding. OFFER 2 (10K Core Offer): Rewrite: 'What The Rebuild delivers' becomes 'What The Resurrection delivers'. 'move forward with The Rebuild' becomes 'move forward with The Resurrection'. 'This is The Rebuild' closing line using dormant power framing. BOOKING PAGE (8 Questions): Rewrite: 'move forward with The Rebuild (10K, 90 days)' becomes The Resurrection. 'The Rebuild may not be the right fit' becomes The Resurrection may not be the right fit. 'The Rebuild requires full commitment' becomes The Resurrection requires. 'rebuilding TOWARD' becomes reframe with Resurrection language. 'talk about The Rebuild' becomes 'talk about The Resurrection'. Auto-reply rejection messages using Resurrection framing. PHASE 3 LEAD GEN: Rewrite 6 DM scripts that say 'map the rebuild' becomes 'map the resurrection' with dormant power context.",
+  "timestamp": "20260211_113440",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 28549,
+  "duration_seconds": 65.3,
+  "estimated_cost_usd": 0.0029,
+  "agents": [
+    {
+      "name": "monk-ai",
+      "status": "success",
+      "tokens": 4523,
+      "duration": 20.1,
+      "error": null
+    },
+    {
+      "name": "daniel-priestley",
+      "status": "success",
+      "tokens": 3504,
+      "duration": 14.4,
+      "error": null
+    },
+    {
+      "name": "donald-miller",
+      "status": "success",
+      "tokens": 3570,
+      "duration": 33.2,
+      "error": null
+    },
+    {
+      "name": "erica-mallet",
+      "status": "success",
+      "tokens": 3591,
+      "duration": 15.3,
+      "error": null
+    },
+    {
+      "name": "jeremy-miner",
+      "status": "success",
+      "tokens": 3349,
+      "duration": 18.7,
+      "error": null
+    }
+  ]
+}

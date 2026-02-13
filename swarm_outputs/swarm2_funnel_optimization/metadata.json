@@ -1,0 +1,52 @@
+{
+  "objective": "Optimize the sales funnel and offer positioning for Acusio Bivona, The Resurrection Coach. He has two offers: The Rebuild ($10K, 90-day body-led OS reset for executives) and The Intensive ($4,997, 30-day proof-of-concept). His ICP is male executives, 35-55, $150K+ income, who are succeeding externally but feel empty/numb. 4 archetypes: Hollow Emperor (has everything, feels nothing), Exhausted Operator (running on fumes, body breaking), Fading Titan (losing edge, knows it), Isolated Builder (built empire, lost connection). Core metaphor: 'buried alive' \u2014 success is the coffin, the body is the first shovel. He is NOT a therapist \u2014 he's a body-first executive optimizer. His funnel: LinkedIn content \u2192 System Failure Assessment quiz (8 diagnostic questions that auto-score into Red/Yellow/Green zones) \u2192 5-email cold lead nurture sequence (7-10 days) \u2192 Strategy Call booking page (8-question qualifier) \u2192 90-minute Strategy Call \u2192 close to Rebuild or Intensive. DELIVERABLES: (1) Optimize the 5-email nurture sequence \u2014 make each email tighter, more diagnostic, with stronger conviction-building toward the call. (2) Sharpen offer page copy for both The Rebuild ($10K) and The Intensive ($4,997) \u2014 the $10K should feel like a CapEx investment, the $4,997 should feel like a no-brainer proof-of-concept. (3) Improve the booking page and CTA progression across the funnel. (4) Strategic recommendations for increasing conversion at each stage. CONSTRAINTS: Zero crisis/drowning language. Optimization framing only. Diagnostic tone \u2014 like a specialist, not a guru. No hype, no urgency tricks. Premium positioning throughout. The executive should feel like they're being assessed by a peer-level specialist, not pitched by a salesperson.",
+  "timestamp": "20260211_091747",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 22617,
+  "duration_seconds": 60.1,
+  "estimated_cost_usd": 0.0023,
+  "agents": [
+    {
+      "name": "tobias-allen",
+      "status": "success",
+      "tokens": 3532,
+      "duration": 14.9,
+      "error": null
+    },
+    {
+      "name": "monk-ai",
+      "status": "success",
+      "tokens": 3603,
+      "duration": 15.1,
+      "error": null
+    },
+    {
+      "name": "jeremy-miner",
+      "status": "success",
+      "tokens": 3698,
+      "duration": 41.1,
+      "error": null
+    },
+    {
+      "name": "daniel-priestley",
+      "status": "failed",
+      "tokens": 0,
+      "duration": 14.5,
+      "error": "API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 58.217843437s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"model\": \"gemini-3-flash\",\n              \"location\": \"global\"\n            },\n            \"quotaValue\": \"5\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"58s\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "name": "erica-mallet",
+      "status": "success",
+      "tokens": 3612,
+      "duration": 20.3,
+      "error": null
+    },
+    {
+      "name": "donald-miller",
+      "status": "failed",
+      "tokens": 0,
+      "duration": 11.4,
+      "error": "API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3-flash\\nPlease retry in 1.309977334s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-3-flash\"\n            },\n            \"quotaValue\": \"5\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"1s\"\n      }\n    ]\n  }\n}\n"
+    }
+  ]
+}

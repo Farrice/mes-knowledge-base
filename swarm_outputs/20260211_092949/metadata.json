@@ -1,0 +1,17 @@
+{
+  "objective": "Optimize the sales funnel and offer positioning for Acusio Bivona, The Resurrection Coach. He sells a $10K 90-day body-led OS reset ('The Rebuild') for male executives (35-55, $150K+) who succeed externally but feel empty/numb. Bridge offer: 'The Intensive' ($4,997, 30-day proof-of-concept, credits toward The Rebuild). 4 archetypes: Hollow Emperor, Exhausted Operator, Fading Titan, Isolated Builder. Core method: body-first (sleep, nervous system, movement) BEFORE mindset. NOT therapy, NOT crisis coaching \u2014 executive biological optimization. DELIVERABLES: (1) Apply your Oversubscribed methodology to The Rebuild and The Intensive \u2014 create waitlist mechanics, scarcity framework, and demand-signaling tactics. (2) Design a scorecard/assessment funnel that qualifies prospects while building desire. (3) Recommend a Campaign Driving Activity (CDA) for LinkedIn that drives qualified inbound. (4) Strategic recommendations for positioning the offers as exclusive, not accessible.",
+  "timestamp": "20260211_092949",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 3239,
+  "duration_seconds": 25.9,
+  "estimated_cost_usd": 0.0003,
+  "agents": [
+    {
+      "name": "daniel-priestley",
+      "status": "success",
+      "tokens": 3239,
+      "duration": 24.4,
+      "error": null
+    }
+  ]
+}

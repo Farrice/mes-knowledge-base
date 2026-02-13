@@ -1,0 +1,24 @@
+{
+  "objective": "Optimize the sales funnel and offer positioning for Acusio Bivona, The Resurrection Coach. He sells a $10K 90-day body-led OS reset ('The Rebuild') for male executives (35-55, $150K+) who succeed externally but feel empty/numb. Bridge offer: 'The Intensive' ($4,997, 30-day proof-of-concept, credits toward The Rebuild). 4 archetypes: Hollow Emperor, Exhausted Operator, Fading Titan, Isolated Builder. Core method: body-first (sleep, nervous system, movement) BEFORE mindset. NOT therapy, NOT crisis coaching \u2014 executive biological optimization. Primary platform: LinkedIn. DELIVERABLES: (1) Optimized offer page copy for both The Rebuild ($10K) and The Intensive ($4,997) \u2014 reframe as CapEx/investment, not expense. (2) A 5-email nurture sequence that moves cold leads from 'curious' to 'booked' \u2014 use diagnostic/lab-report tone, NOT hype. (3) Booking page improvements \u2014 rename CTAs, add authority statement, include qualifier questions that make the prospect feel like THEY are being evaluated. (4) Strategic recommendations for the overall funnel conversion path. POSITIONING RULES: Frame offers as investments in infrastructure (CapEx). Use waitlist/scarcity mechanics where appropriate. The call should feel like an 'Executive Diagnostic Intake' not a sales pitch. Avoid emotional manipulation \u2014 use systemic analysis. The prospect should feel like they're applying to work with a specialist, not being sold to by a coach.",
+  "timestamp": "20260211_092811",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 0,
+  "duration_seconds": 1.5,
+  "estimated_cost_usd": 0.0,
+  "agents": [
+    {
+      "name": "daniel-priestley",
+      "status": "failed",
+      "tokens": 0,
+      "duration": 1.5,
+      "error": "API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 48.180526505s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-3-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"48s\"\n      }\n    ]\n  }\n}\n"
+    },
+    {
+      "name": "donald-miller",
+      "status": "failed",
+      "tokens": 0,
+      "duration": 1.4,
+      "error": "API error 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash\\nPlease retry in 48.268585682s.\",\n    \"status\": \"RESOURCE_EXHAUSTED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.Help\",\n        \"links\": [\n          {\n            \"description\": \"Learn more about Gemini API quotas\",\n            \"url\": \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.QuotaFailure\",\n        \"violations\": [\n          {\n            \"quotaMetric\": \"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\n            \"quotaId\": \"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\n            \"quotaDimensions\": {\n              \"location\": \"global\",\n              \"model\": \"gemini-3-flash\"\n            },\n            \"quotaValue\": \"20\"\n          }\n        ]\n      },\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.RetryInfo\",\n        \"retryDelay\": \"48s\"\n      }\n    ]\n  }\n}\n"
+    }
+  ]
+}

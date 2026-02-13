@@ -1,0 +1,17 @@
+{
+  "objective": "Write 1 viral hook for an AI consulting service",
+  "timestamp": "20260210_084738",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 6017,
+  "duration_seconds": 20.1,
+  "estimated_cost_usd": 0.0006,
+  "agents": [
+    {
+      "name": "harry-dry",
+      "status": "success",
+      "tokens": 3037,
+      "duration": 10.6,
+      "error": null
+    }
+  ]
+}

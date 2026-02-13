@@ -1,0 +1,17 @@
+{
+  "objective": "Optimize the messaging and funnel clarity for Acusio Bivona, The Resurrection Coach. He sells a $10K 90-day body-led OS reset ('The Rebuild') for male executives (35-55, $150K+) who succeed externally but feel empty/numb. Bridge offer: 'The Intensive' ($4,997, 30-day proof-of-concept, credits toward The Rebuild). Core method: body-first (sleep, nervous system, movement) BEFORE mindset. NOT therapy, NOT crisis coaching \u2014 executive biological optimization. DELIVERABLES: (1) Apply the StoryBrand framework \u2014 define the Hero (the executive), the Guide (Acusio), the Problem (external/internal/philosophical), the Plan, and the Stakes. (2) Create a clear one-liner Acusio can use everywhere. (3) Redesign the offer page wireframe copy using StoryBrand principles. (4) Write a 5-email nurture sequence using the StoryBrand narrative arc. (5) Strategic recommendations for message clarity across all touchpoints.",
+  "timestamp": "20260211_093135",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 3333,
+  "duration_seconds": 21.2,
+  "estimated_cost_usd": 0.0003,
+  "agents": [
+    {
+      "name": "donald-miller",
+      "status": "success",
+      "tokens": 3333,
+      "duration": 19.8,
+      "error": null
+    }
+  ]
+}

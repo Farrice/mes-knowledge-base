@@ -1,0 +1,1 @@
+❌ No agents completed successfully. Cannot synthesize.

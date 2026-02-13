@@ -1,0 +1,38 @@
+{
+  "objective": "You are helping align operational systems for 'The Resurrection Coach' \u2014 a premium 10K executive coaching brand by Acusio Bivona. The brand reframe: Resurrection = DORMANT POWER REACTIVATION. Not crisis. Not death. It means reclaiming a powerful version of yourself that went dormant while you built the empire. TARGET AUDIENCE: Male executives, 35-55, earning 250K plus, physically declining but not in crisis. They feel dormant, not broken. CRITICAL TASK: The current Gemini AI System Prompt OPPOSES the brand. Line 81 says: 'Resurrection = Crisis-coded, not optimization-coded.' This must be completely rewritten to SUPPORT the Resurrection Coach identity. TASK 1 - GEMINI SYSTEM PROMPT REWRITE: Rewrite these sections: CURRENT LINE 76: 'His messaging must be OPTIMIZATION-focused, not CRISIS-focused' \u2014 Keep optimization focus but ADD that Resurrection IS the optimization brand. CURRENT LINE 80-82: Remove 'Resurrection is Crisis-coded' and replace with 'Resurrection = Dormant power reactivation (mythic, memorable, premium)'. CURRENT LINE 160: 'Check for crisis language' \u2014 Update to support Resurrection as the brand name. CURRENT LINES 245-253: Keep 'coward with a smile' as a BAD example but add the CORRECT Resurrection-aligned alternative. Write a complete DO and DONT language guide: DO: dormant, buried edge, reclaim, reactivate, system restoration, hardware-first, operating system reset. DONT: coward, dying slowly, broken, rock bottom, crisis, intervention, saving. TASK 2 - COMPETITIVE INTELLIGENCE: Replace 2 references from The Rebuild to The Resurrection. TASK 3 - INTERNAL DOCS: Write replacement lines for Option 3 Summary, Revision Summary Report, and Option A2 doc \u2014 all The Rebuild becomes The Resurrection.",
+  "timestamp": "20260211_113505",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 20624,
+  "duration_seconds": 29.6,
+  "estimated_cost_usd": 0.0021,
+  "agents": [
+    {
+      "name": "rory-sutherland",
+      "status": "success",
+      "tokens": 3264,
+      "duration": 15.2,
+      "error": null
+    },
+    {
+      "name": "oren",
+      "status": "success",
+      "tokens": 2916,
+      "duration": 14.8,
+      "error": null
+    },
+    {
+      "name": "jim-oshaughnessy",
+      "status": "success",
+      "tokens": 3440,
+      "duration": 15.1,
+      "error": null
+    },
+    {
+      "name": "nick-saraev",
+      "status": "success",
+      "tokens": 3382,
+      "duration": 14.0,
+      "error": null
+    }
+  ]
+}

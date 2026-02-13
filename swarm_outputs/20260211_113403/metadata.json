@@ -1,0 +1,45 @@
+{
+  "objective": "You are helping align content for 'The Resurrection Coach' \u2014 a 10K executive coaching brand by Acusio Bivona. The brand identity has been reframed: Resurrection does NOT mean crisis or death. It means DORMANT POWER REACTIVATION \u2014 reclaiming a powerful version of yourself that went dormant while you built the empire. Your task: Generate polished replacement copy for the following content types. Every instance of 'The Rebuild' must become 'The Resurrection.' All crisis language (coward, dying slowly, broken, rock bottom) must become dormant power language (dormant, buried edge, reclaim, reactivate, system running on corrupted code). The tone is diagnostic, aspirational, premium \u2014 not shame-based. CONTENT TYPE 1 - LINKEDIN: Rewrite this LinkedIn post line: OLD: 'You are just a coward with a smile.' NEW: Write 3 replacement options that are diagnostic and premium, not shameful. CONTENT TYPE 2 - EMAIL SEQUENCES: Write replacement lines for these email patterns: 'What The Rebuild looks like (90 days)' becomes 'What The Resurrection looks like (90 days)'. 'This is The Rebuild' becomes 'This is The Resurrection'. 'map the rebuild' becomes 'map the resurrection'. 'The Rebuild requires' becomes 'The Resurrection requires'. 'move forward with The Rebuild' becomes 'move forward with The Resurrection'. Also rewrite: 'This is why The Rebuild is body-first' using dormant power framing. CONTENT TYPE 3 - 90-DAY CONTENT CALENDAR: The calendar uses 'The Rebuild' 22 times. Write replacement copy for: 'Act 3: The Rebuild \u2014 Show the solution' reframe as Resurrection. 'Week 1-4 of The Rebuild' becomes 'Week 1-4 of The Resurrection' with supporting context. 'Start The Rebuild' CTA becomes 'Begin The Resurrection' or similar premium CTA. 'Who The Rebuild Is For' becomes 'Who The Resurrection Is For'. Write 5 replacement paragraph snippets showing the dormant power voice in calendar context.",
+  "timestamp": "20260211_113403",
+  "model": "gemini-3-flash-preview",
+  "total_tokens": 24701,
+  "duration_seconds": 42.1,
+  "estimated_cost_usd": 0.0025,
+  "agents": [
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "tokens": 3456,
+      "duration": 15.4,
+      "error": null
+    },
+    {
+      "name": "harry-dry",
+      "status": "success",
+      "tokens": 3317,
+      "duration": 29.5,
+      "error": null
+    },
+    {
+      "name": "nicolas-cole",
+      "status": "success",
+      "tokens": 3198,
+      "duration": 11.4,
+      "error": null
+    },
+    {
+      "name": "tobias-allen",
+      "status": "success",
+      "tokens": 3245,
+      "duration": 12.6,
+      "error": null
+    },
+    {
+      "name": "lara-acosta",
+      "status": "success",
+      "tokens": 3711,
+      "duration": 13.5,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "objective": "Write 3 viral hooks for an AI consulting service targeting coaches and consultants",
+  "timestamp": "20260210_084830",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 13465,
+  "duration_seconds": 37.1,
+  "estimated_cost_usd": 0.0013,
+  "agents": [
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "tokens": 3348,
+      "duration": 12.4,
+      "error": null
+    },
+    {
+      "name": "harry-dry",
+      "status": "success",
+      "tokens": 4442,
+      "duration": 18.4,
+      "error": null
+    }
+  ]
+}
