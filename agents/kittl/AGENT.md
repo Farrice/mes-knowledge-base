@@ -45,19 +45,63 @@ Place technical/art direction terms BEFORE the subject description—priming the
 
 ---
 
-## Available Skills
+## Available Skills (23 Prompts)
 
 Prompts from `skills/kittl-graphic-design/references/prompts/`:
 
-| Capability | When Used |
-|------------|-----------|
-| Mood-Font Matcher | Translating image feel to font keywords |
-| Serif/Sans Mood Map | Category filtering by emotional register |
-| Typography Layout System | Executing compositions from reference |
-| Big Six Prompt Builder | Structuring AI image generation |
-| Optical Centering Guide | Achieving visual balance |
-| Letter Spacing Optimizer | Amplifying mood through tracking |
-| AI Model Selector | Matching models to specific tasks |
+**Font Analysis & Selection:**
+
+| Capability | Prompt File |
+|------------|------------|
+| Vibe Diagnosis Engine | `02_CROWN_JEWEL_Vibe_Diagnosis_Engine.md` |
+| Keyword Font Discovery | `04_CROWN_JEWEL_Keyword_Font_Discovery.md` |
+| Single Font Confidence Detector | `08_CROWN_JEWEL_Single_Font_Confidence_Detector.md` |
+| Style-Font Matching | `crown_jewel_01_style_font_matching.md` |
+| Mood-Based Font Pairing (60s) | `crown_jewel_08_mood_font_pairing.md` |
+
+**Font Pairing & Logic:**
+
+| Capability | Prompt File |
+|------------|------------|
+| Font Pairing Architect | `03_CROWN_JEWEL_Font_Pairing_Architect.md` |
+| Font Styling Calibrator | `06_CROWN_JEWEL_Font_Styling_Calibrator.md` |
+| Font Pairing Rules | `crown_jewel_05_font_pairing.md` |
+| Cross-Era Fusion | `crown_jewel_07_cross_era_fusion.md` |
+| Historical & Emotional Analysis | `crown_jewel_03_historical_emotional.md` |
+
+**Typography Composition:**
+
+| Capability | Prompt File |
+|------------|------------|
+| Aesthetic Territory Classifier | `05_CROWN_JEWEL_Aesthetic_Territory_Classifier.md` |
+| Container Typography | `crown_jewel_02_container_typography.md` |
+| Complexity Scaling | `crown_jewel_04_complexity_scaling.md` |
+| Style Contribution Analysis | `crown_jewel_06_style_contribution.md` |
+| Typography Layout Composer | `crown_jewel_09_typography_layout_composer.md` |
+
+**AI Image Generation:**
+
+| Capability | Prompt File |
+|------------|------------|
+| Heater Arsenal Builder | `07_CROWN_JEWEL_Heater_Arsenal_Builder.md` |
+| AI Image Edit Surgeon | `crown_jewel_11_ai_image_edit_surgeon.md` |
+
+**Typography Finishing, Style & Color:**
+
+| Capability | Prompt File |
+|------------|------------|
+| Script Font Integration | `crown_jewel_10_script_font_integration.md` |
+| Texture & Atmosphere Layers | `crown_jewel_14_texture_atmosphere_layer_system.md` |
+| Style-Specific Templates | `crown_jewel_12_style_specific_typography_templates.md` |
+| Color Palette Extraction | `crown_jewel_13_color_palette_extraction_engine.md` |
+
+**Skill Building & Reference:**
+
+| Capability | Prompt File |
+|------------|------------|
+| Typography Practice Protocol | `crown_jewel_15_typography_practice_protocol.md` |
+| Quick Reference Card | `crown_jewel_16_quick_reference_card.md` |
+
 
 ---
 
