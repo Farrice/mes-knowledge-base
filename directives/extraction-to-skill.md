@@ -1,10 +1,10 @@
 ---
-description: Convert MES 3.0 Expert Extractions into Production Skills
+description: Convert MES 3.0 extractions into production-ready Antigravity skills
 ---
 
 # Extraction-to-Skill Conversion
 
-Convert MES 3.0 extractions (from YouTube experts, interviews, courses) into production-ready skills.
+Convert MES 3.0 extractions into production-ready skills. This directive handles the structural conversion — for extraction itself, see `directives/mes-3.0-extract.md`. For validation, see `directives/mes-3.0-validate.md`.
 
 ## When to Use
 
@@ -88,9 +88,11 @@ python3 skills/skill-creator/scripts/package_skill.py skills/[skill-name]
 
 - [ ] SKILL.md has quoted description in frontmatter (no colons breaking YAML)
 - [ ] All links in SKILL.md use relative paths
-- [ ] Each prompt file is self-contained and deployable
-- [ ] At least 2 example outputs included
+- [ ] Each prompt file is self-contained and deployable standalone
+- [ ] At least 1 example output per prompt
+- [ ] Prompt count matches source material depth (no arbitrary caps)
 - [ ] Skill packages without validation errors
+- [ ] If not yet validated, run `directives/mes-3.0-validate.md` before registration
 
 ## Naming Convention
 

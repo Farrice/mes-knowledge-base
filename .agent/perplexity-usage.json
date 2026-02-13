@@ -1,0 +1,20 @@
+{
+    "monthly_limit_usd": 10.00,
+    "current_month": "2026-02",
+    "usage": {
+        "total_queries": 1,
+        "estimated_cost_usd": 0.02,
+        "queries": [
+            {
+                "timestamp": "2026-02-05T19:45:03-08:00",
+                "type": "test",
+                "description": "API connection test (2+2)",
+                "estimated_cost": 0.02
+            }
+        ]
+    },
+    "alerts": {
+        "warn_at_percent": 80,
+        "block_at_percent": 100
+    }
+}
