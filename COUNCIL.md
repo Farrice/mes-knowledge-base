@@ -235,7 +235,7 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 #### Darrel Wilson
 - **Domain:** AI Automation, Workflows, Freelancer Replacement
 - **Agent Path:** `agents/darrel-wilson/`
-- **Skill Path:** `skills/darrel-wilson-ai-automation/`
+- **Skill Path:** `skills/darrel-wilson-ai-monetization/`
 - **Extraction:** `knowledge/extractions/processed/darrel-wilson-*.md`
 - **Key Frameworks:** Warm Lead Philosophy, Flip the Process Method, Tool Over Opinion, Workflow Packaging
 - **Invoke:** `@darrel-wilson` or automation/workflow requests

@@ -42,7 +42,7 @@ You have access to expert agents and deployable skills. Use them proactively.
 | **Boris** | Claude Code, Claude Cowork, AI orchestration, multi-instance | "@boris" or Claude Code/orchestration/productivity requests |
 | **Lucas Alpay** | Storytelling, fiction, business copy, 7-element formula | "@lucas-alpay" or storytelling/fiction/narrative copy requests |
 | **Oren** | Taste development, creative direction, quality judgment, CEV framework | "@oren" or taste/quality/creative direction requests |
-| **Nate B Jones** | AI taste mastery, human judgment, credentials economy shift | "@nate-b-jones" or AI judgment/taste/skill requests |
+| **Nate B Jones** | AI taste mastery, intent engineering, agent deployment strategy, human judgment | "@nate-b-jones" or AI judgment/taste/agent deployment requests |
 | **Dan Koe** | Multipassionate mastery, one-person business, creator economy, content systems | "@dan-koe" or multipassionate/creator/one-person business requests |
 | **Erica Mallet** | Brand magnetism, belief architecture, enemy effect, tribal branding | "@erica-mallet" or brand/belief/tribal/magnetism requests |
 | **Lara Acosta** | LinkedIn content mastery, positioning, ghostwriting, authority building | "@lara-acosta" or LinkedIn/personal brand/ghostwriting requests |
@@ -80,6 +80,10 @@ You have access to expert agents and deployable skills. Use them proactively.
 | **PJ Accetturo** | AI video production, viral AI ads, 233M-view workflows | "@pj-accetturo" or AI video/AI ads requests |
 | **Sean Kochel** | AI business strategy, persuasion architecture, trust-building | "@sean-kochel" or AI product/business strategy requests |
 | **Rory Sutherland** | Behavioral marketing, psychological reframing, Ogilvy strategy | "@rory-sutherland" or behavioral/psychology marketing requests |
+| **Stockton Walbeck** | Lead magnet strategy, 4-type taxonomy, 5-rule scorecard, funnel architecture | "@stockton-walbeck" or lead magnet/lead gen/opt-in strategy requests |
+| **Sam Goddard** | Media team scaling, content operations, attention monetization, personal brand architecture | "@sam-goddard" or media scaling/content ops/attention monetization requests |
+| **Joanna Wiebe** | Conversion copywriting, 5-Level Persuasion Hierarchy, identity language, invisible persuasion | "@joanna-wiebe" or persuasive writing/conversion copy/copy audit requests |
+| **Mike Foutia** | Universal market intelligence, trend research, community mining, zeitgeist synthesis | "@mike-foutia" or trend research/market intelligence/zeitgeist/community mining requests |
 | **Remotion** | Programmatic video creation with React, animations, captions, 3D | "@remotion" or video generation/animation/React video requests |
 
 **Expert Councils:** Invoke multiple experts together with "@revenue-council", "@content-council", "@brand-council", "@ai-council", or "@creative-council". See `COUNCIL.md` for full details.
@@ -128,10 +132,12 @@ Skills are standalone capabilities you can invoke directly:
 | `internal-comms` | Internal communication |
 | `algorithmic-art` | Generative/computational art |
 | `mark-kashef-ai-councils` | Council orchestration, multi-agent systems |
+| `mark-kashef-banana-squad` | Image generation via agent team (PaperBanana + Gemini 3 Pro API) |
 | `andrew-wilkinson-ai-entrepreneurship` | Vibe coding, rapid execution, $30K products |
 | `made-to-stick-messaging` | SUCCESs framework, sticky ideas |
 | `oscar-hoglund-sound-storytelling` | Emotional umami, sound strategy |
 | `nate-b-jones-intent-engineering` | Intent documents, agent reliability |
+| `nate-b-jones-agent-deployment-strategy` | Agent deployment, specification engineering, risk containment, progressive delegation |
 | `seth-godin-ideavirus` | Viral marketing, ideavirus engineering, sneezer activation |
 | `jun-yuh-personal-brand` | Personal brand, content calendars, silent film format |
 | `soowei-consulting-leverage` | Consulting scale, founder workflow, leverage architecture |
@@ -164,7 +170,6 @@ Skills are standalone capabilities you can invoke directly:
 | `caleb-ralston-personal-brand` | Personal brand, content systems, creator economy |
 | `dan-wang-literary-analysis` | Literary analysis, cultural commentary, tech criticism |
 | `daniel-priestley-oversubscribed` | Oversubscribed methodology, waitlist marketing |
-| `darrel-wilson-ai-automation` | AI automation, monetization systems |
 | `david-deutsch-copywriting` | Copywriting fundamentals, persuasion architecture |
 | `donald-miller-culture-turnaround` | StoryBrand, culture turnaround, messaging clarity |
 | `futurepedia-prompt-engineering` | Prompt engineering, NotebookLM mastery |
@@ -181,6 +186,11 @@ Skills are standalone capabilities you can invoke directly:
 | `pj-accetturo-ai-video` | AI video production, viral AI ads |
 | `sean-kochel-ai-business` | AI business strategy, persuasion architecture |
 | `rory-sutherland-marketing` | Behavioral marketing, psychological reframing |
+| `stockton-walbeck-lead-magnets` | Lead magnet strategy, 4-type taxonomy, 5-rule scorecard |
+| `sam-goddard-media-scaling` | Media team scaling, content operations, attention monetization, GoPro system |
+| `joanna-wiebe-persuasion-mastery` | 5-Level Persuasion Hierarchy, money words, System 1/2 traffic control, story selling |
+| `gemini-api-dev` | Gemini API development, model selection, SDK usage, multimodal content, function calling, structured outputs |
+| `mike-foutia-marketing-tools` | Universal market intelligence, trend research, community mining, zeitgeist synthesis, ad brief generation |
 | `remotion-video-creation` | Programmatic video with React, animations, captions, 3D |
 
 ### How to Use Skills
@@ -219,6 +229,17 @@ When a task matches a skill's domain:
 - `endings-that-echo` - Memorable endings
 - `transformation-copy-engine` - Transformation narratives
 - (and 21 more...)
+
+**Mike Foutia Marketing Tools** (9 prompts):
+- `universal-trend-intelligence` - Multi-source trend analysis (SEO, social, communities, reviews, marketplaces)
+- `community-pulse-miner` - Mine Reddit, forums, reviews, Quora, Discord for market voice
+- `zeitgeist-synthesizer` - Synthesize all intelligence into Market Zeitgeist Map + Content Opportunity Matrix
+- `tiktok-trend-scraper` - Deep-dive social video analysis (TikTok, Reels, Shorts)
+- `brand-bible-builder` - Build brand context documents for AI content generation
+- `creative-brief-generator` - Fuse trend intelligence + brand context into ad briefs
+- `comment-intelligence-miner` - Mine social media comments for consumer language
+- `automation-boundary-auditor` - Evaluate workflow stages for automation suitability
+- `marketing-tool-architect` - Design architecture for custom internal marketing tools
 
 **Jeremy Miner Identity Persuasion:**
 - `pre-frame-formula` - Elevate perceived value before content
@@ -296,6 +317,7 @@ When your current task enters another agent's domain:
 | AI councils/multi-agent | Mark Kashef AI Councils |
 | Rapid execution | Andrew Wilkinson AI Entrepreneurship |
 | Message stickiness | Heath Brothers Made to Stick |
+| Lead magnets/lead gen | Stockton Walbeck Lead Magnet Mastery |
 
 3. **READ** the skill files (do not skip this):
    - `skills/[skill-name]/SKILL.md` - Overview and workflow
@@ -542,6 +564,247 @@ If output:
 The difference is whether you READ and APPLY the skills, or just use general knowledge.
 
 **This applies to EVERY task, not just research.**
+
+---
+
+## Expert Auto-Routing Protocol (MANDATORY - 2026-02-05)
+
+> **Purpose**: Automatically invoke the right experts and skills for every request — WITHOUT the user needing to remember slash commands or @mentions.
+> **Reference File**: `directives/expert_auto_routing.md`
+
+### The Core Rule
+
+**On EVERY user request, I MUST run domain detection and auto-invoke relevant experts.**
+
+The user should NEVER have to manually invoke skills. I detect the domain and apply expertise automatically.
+
+### Domain Detection Checklist (Run on EVERY Request)
+
+| Request Type | Signals | Auto-Invoke |
+| :--- | :--- | :--- |
+| **Research/Intelligence** | "analyze", "research", "market" | Manus.AI + domain expert |
+| **Content Creation** | "write", "create", "draft" | Kallaway + Shaan Puri |
+| **Strategy/Decision** | "should I", "what's best" | Jim O'Shaughnessy |
+| **Copywriting** | "sales page", "email", "convert" | Cardinal Mason + Harry Dry |
+| **Personal Brand** | "LinkedIn", "brand", "authority" | Lara Acosta + Tom Noske |
+| **Product/Offer** | "product", "launch", "pricing" | Samuel Thompson + Monk.AI |
+| **Sales/Persuasion** | "objection", "close", "sell" | Jeremy Miner + Alen Sultanic |
+| **Video/TikTok** | "video", "TikTok", "viral" | Seena Rez + Kallaway |
+| **AI/Automation** | "automate", "workflow", "agent" | Nick Saraev + Boris |
+| **SEO/Search** | "rank", "SEO", "keywords" | Nathan Gotch + Adam Enfroy |
+| **Design/Visual** | "design", "visual", "creative" | Oren + Kittl |
+
+### How to Auto-Invoke
+
+1. **Read** `skills/[skill-name]/SKILL.md` or `agents/[agent-name]/AGENT.md`
+2. **Read** `skills/[skill-name]/references/genius-patterns.md`
+3. **Apply** their framework to the request
+4. **Cite** the expert when relevant in output
+
+### Expert Ensemble Logic (Multi-Domain Requests)
+
+For complex requests spanning multiple domains, invoke 2-3 experts together:
+
+| Combo | When |
+| :--- | :--- |
+| Manus.AI + Kallaway + Nathan Gotch | Market research with content angle |
+| Samuel Thompson + Monk.AI + Cardinal Mason | Product launch |
+| Lara Acosta + Tom Noske + Dan Koe | Personal brand building |
+| Jim O'Shaughnessy + Manus.AI | High-stakes strategic decisions |
+| Seena Rez + Kallaway + Shaan Puri | Viral content |
+| Seena Rez + Samuel Thompson + Oren | Innovation/Launch (Early Adopter) |
+
+### McKinsey-Grade Execution Standard
+
+All strategic briefs and intelligence outputs must follow 8-section format:
+1. Executive Summary (verdict + 5 key insights)
+2. Market Sizing (TAM/SAM/SOM)
+3. Buyer/Customer Profile (psychographics + pain points)
+4. Competitive Intelligence (gaps + opportunities)
+5. Options/Decision Matrix
+6. Economic Model (ROI projections)
+7. Risk Matrix (probability/impact/mitigation)
+8. Execution Playbook (day-by-day actions)
+
+**Every insight must have**: a data point, a source, and an action.
+
+### Expert Recommendation Block (For Complex Requests)
+
+For research, strategy, or multi-step builds, I will present a recommendation block:
+
+```
+## 🎯 Expert Ensemble Recommendation
+
+**Domain Detected**: [e.g., Market Research + Content Strategy]
+
+**Recommended Experts**:
+| Expert | Why They're Right |
+| :--- | :--- |
+| **[Expert 1]** | [1-line reason] |
+| **[Expert 2]** | [1-line reason] |
+
+**Alternative Experts**: [Other options with what angle they'd bring]
+
+**Execution Approach**: [How I'll tackle this]
+
+➡️ **Proceed with these experts?**
+```
+
+**Show For**: Research, strategy, multi-step builds, 3+ applicable experts
+**Skip For**: Simple questions, refinements, "just do it" requests
+
+---
+
+## Quality Assurance Protocol (MANDATORY - 2026-02-05 Lessons)
+
+> **Origin**: Failure analysis from the "First Time Home Buyers" Strategy Brief incident.
+> **Reference Files**: `directives/quality_assurance.md`, `directives/pre_flight_validation.md`
+
+### 🔴 Anti-Patterns (NEVER DO THESE)
+
+| Anti-Pattern | Definition | Fix |
+| :--- | :--- | :--- |
+| **Template Slop** | Generating output by filling in templates without real data | Use Agentic Research (`search_web` + sources) |
+| **Entity Blindness** | Treating all inputs the same without classifying entity type | Always classify first: Product/Service/Demographic/Program |
+| **Speed Without Validation** | Delivering output without checking if it makes sense | Cross-check key claims against trusted sources |
+
+### 🟢 Mandates (ALWAYS DO THESE)
+
+**1. Entity Understanding First**
+Before ANY research or generation, classify the input:
+```
+INPUT: "[User's topic]"
+ENTITY TYPE: [Product | Service | Demographic | Program | Location | Concept]
+```
+
+**2. Agentic Research for Intelligence**
+All workflows that generate "intelligence" (trends, keywords, strategies, briefs) MUST:
+- Use `search_web` for live data
+- Cite sources for all claims
+- NOT use hardcoded templates for the core output
+
+**3. Pre-Flight Validation for Raw Intent**
+When the user provides a rough concept or early-stage idea:
+1. **STOP** before building anything
+2. **Present Variations**: Show 2-3 interpretations of their intent
+3. **Clarify**: Ask which variation matches their vision
+4. **Then Execute**: Build only after alignment is confirmed
+
+Use the `/validate-intent` workflow or follow `directives/pre_flight_validation.md`.
+
+**4. Post-Delivery Verification**
+For any deliverable that claims factual accuracy:
+- Spot-check 2-3 claims against external sources
+- Mark confidence level: 🟢 Verified / 🟡 Plausible / 🔴 Unverified
+
+### When to Trigger Pre-Flight Validation
+
+**Trigger For**:
+- "I want to build...", "Create a...", "Make me a..."
+- Vague requests lacking specifics
+- New workflows, skills, or multi-step systems
+- "I have an idea" or "I'm thinking about..."
+
+**Skip For**:
+- Clear, specific requests with all parameters
+- Bug fixes or corrections
+- Simple factual questions
+- User explicitly says "just do it"
+
+---
+
+## Intent Refiner Protocol (MANDATORY - 2026-02-10)
+
+> **Purpose**: Automatically catch raw, unformed user intent and sharpen it before execution. This prevents wasted tokens and ensures world-class outputs.
+> **Reference File**: `directives/intent_refiner.md`
+
+### The Core Rule
+
+**When I detect raw or vague intent, I MUST refine it BEFORE executing.** The user naturally works in raw intent mode — half-formed ideas and instinctive direction. My job is to sharpen, not blindly execute.
+
+### Intent Sharpness Score (Run on EVERY Request)
+
+Score the user's input 1-5:
+
+| Score | Label | Action |
+|-------|-------|--------|
+| **1-2** | Raw/Directional | **MUST** run DICE Protocol before proceeding |
+| **3** | Formed | **OFFER** to refine — present sharpened version |
+| **4-5** | Sharp/Razor | **EXECUTE** immediately — confirm and go |
+
+### The DICE Protocol (Only Ask What's Missing)
+
+- **D** — Deliverable: What concrete output do they want?
+- **I** — Intended Audience: Who consumes or is affected?
+- **C** — Context: Constraints, timeline, prior work?
+- **E** — End State: What does "nailed it" look like?
+
+**Rules:**
+- Only ask questions for dimensions that are MISSING (never all 4 if some are clear)
+- One round of questions max — don't interrogate
+- If user says "just go" — go. Don't block flow.
+
+### After Refinement: Present Sharpened Objective
+
+```
+## 🔬 Intent Refined
+
+**What you said**: "[original]"
+**Sharpness Score**: X/5
+
+**Sharpened objective**: "[Razor-sharp one-paragraph version]"
+
+**Recommended approach**: [Swarm / Single expert / Direct]
+**Agent team**: [If swarm — show 2-4 agents with roles]
+
+➡️ Fire with this? Or adjust?
+```
+
+### Integration with Swarm
+
+When refinement produces a swarm-worthy objective (multi-domain, needs 2+ perspectives):
+- Recommend agent team using the combo reference in `directives/intent_refiner.md`
+- Show estimated cost (~$0.001 per agent on Gemini 3 Flash)
+- Hand off to `/swarm` or `parallel_swarm.py` after confirmation
+
+---
+
+## Perplexity API Cost Control Protocol (MANDATORY)
+
+> **Monthly Budget: $10** | **Tracking File:** `.agent/perplexity-usage.json`
+> **Policy Reference:** `directives/perplexity-usage-policy.md`
+
+### When to Use Perplexity (PREFERRED for Research)
+
+| Use Perplexity For | Use Basic Web Search For |
+|--------------------|--------------------------|
+| Market intelligence | Quick factual lookups |
+| Competitor analysis | General browsing |
+| Deep research (`/research-topic`, `/generate-brief`) | Non-critical context |
+| Fact-checking with citations needed | When budget exhausted |
+
+### Cost Control Rules (APPLY TO ALL AGENTS)
+
+1. **Check budget before each Perplexity call** - Reference `.agent/perplexity-usage.json`
+2. **Log each query** with timestamp and estimated cost
+3. **Batch queries** - Combine related questions into single requests
+4. **Use Sonar (standard)** for most queries; reserve Deep Research for critical tasks
+5. **If budget exhausted** → Notify user, fall back to basic `search_web`
+
+### Multi-Agent / Swarm Budget Protocol
+
+When spawning sub-agents or running swarms:
+- **Allocate per-task query budget**: 5-10 queries max per swarm task
+- **Central orchestrator tracks cumulative usage**
+- **Do NOT give sub-agents unrestricted Perplexity access**
+
+### Estimated Costs
+
+| Query Type | Est. Cost |
+|------------|-----------|
+| Standard research query | ~$0.01-0.03 |
+| Deep research query | ~$0.05-0.10 |
+| $10 budget ≈ | 300-500 standard queries |
 
 ---
 

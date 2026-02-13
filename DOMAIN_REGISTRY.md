@@ -246,6 +246,28 @@ When you make a request, I route to the right expert using this registry. I will
 
 ---
 
+## Compound Combinations
+
+Certain expert pairings produce force-multiplier results that exceed what either expert delivers alone. Use these when the trigger condition matches.
+
+| Combination | Compound Effect | Trigger Condition |
+|-------------|----------------|-------------------|
+| **Jeremy Miner** + **Michael Bernoff** | Identity-first sales — Bernoff rewires self-image, Miner closes with NEPQ | Prospect has emotional resistance or identity-level objections |
+| **Seena Rez** + **Cardinal Mason** | Viral commerce — Rez drives TikTok traffic, Mason converts it | Product launch needing both attention and revenue |
+| **Harry Dry** + **Alen Sultanic** | Precision long-form — Dry's concrete rules applied across Sultanic's persuasion architecture | High-stakes sales letter or VSL that must be both tight and long |
+| **Shaan Puri** + **Kallaway** | Story-driven viral content — Puri's narrative arc + Kallaway's dopamine psychology | Content that needs to spread AND retain (not just one) |
+| **Lara Acosta** + **Cardinal Mason** | LinkedIn revenue engine — Acosta builds authority, Mason monetizes it | Professional service providers moving to creator-led growth |
+| **Dan Koe** + **Jun Yuh** | Multipassionate brand — Koe's one-person business model + Jun's content format strategy | Creators with multiple interests who need a cohesive brand |
+| **Nicolas Cole** + **Mitch Albom** | Premium prose — Cole's sentence-level craft + Albom's emotional architecture | Premium content that must read beautifully AND move people |
+| **Samuel Thompson** + **Sabri Suby** | Paid product launch — Thompson validates the shadow market, Suby drives paid traffic to it | Info product launch where organic alone won't hit revenue targets |
+| **Monk.Ai** + **Lindsay** | Consulting acquisition — Monk builds the offer architecture, Lindsay executes outreach | New AI consulting offer that needs both a compelling package and clients |
+| **Tobias Allen** + **Cardinal Mason** | Revenue system — Allen's direct response strategy + Mason's conversion copy | Building end-to-end email/funnel revenue systems |
+
+> [!TIP]
+> When a task matches a compound trigger, route to **both** experts — either via council or sequential handoff. The lead expert (listed first) sets strategy; the second expert executes their specialty within that frame.
+
+---
+
 ## Override Protocol
 
 If I route to an expert and you prefer a different approach:
@@ -256,4 +278,4 @@ I will immediately switch and apply the requested expert's methodology.
 
 ---
 
-*Last updated: 2026-01-26*
+*Last updated: 2026-02-11*
