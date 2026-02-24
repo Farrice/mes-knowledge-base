@@ -1,20 +1,22 @@
 import { google } from 'googleapis';
 import { getAuthenticatedClient } from './google.js';
 
-export async function getUnreadInbox(): Promise<string> {
+export async function getUnreadInbox(customQuery?: string): Promise<string> {
     try {
         const auth = await getAuthenticatedClient();
         const gmail = google.gmail({ version: 'v1', auth });
 
+        const searchParams = customQuery ? `is:unread ${customQuery}` : 'is:unread in:inbox';
+
         const res = await gmail.users.messages.list({
             userId: 'me',
-            q: 'is:unread in:inbox',
+            q: searchParams,
             maxResults: 10
         });
 
         const messages = res.data.messages;
         if (!messages || messages.length === 0) {
-            return `📭 Your inbox is clear!`;
+            return `📭 No unread emails found ${customQuery ? 'matching your query!' : 'in your inbox!'}`;
         }
 
         let messageList = `📩 **Inbox Triage (${messages.length} unread):**\n\n`;

@@ -18,7 +18,7 @@ AVAILABLE COMMANDS:
 /capture - Quick capture of a thought, note, or task to the database (use as fallback if unsure).
 /goals - Viewing, setting, or checking current goals.
 /status - Checking system health or status.
-/inbox - Triage top 5 emails from Gmail.
+/inbox - Check, search, or triage emails from Gmail. Put any specific search filters or topics in the arguments (e.g. "from:amazon", or "bills").
 /cal - Add, read, or manage events on Google Calendar.
 /expert - Use an Antigravity Expert Skill (like writing copy, analyzing a strategy, etc). Pass the request as arguments.
 
