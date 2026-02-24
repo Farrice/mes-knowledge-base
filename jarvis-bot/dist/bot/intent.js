@@ -1,10 +1,21 @@
 import { classifyIntent, generateChatResponse } from '../integrations/gemini.js';
 import { db } from '../db/store.js';
 import { appendCaptureToNotion } from '../integrations/notion.js';
-import { executeFlywheelStep1 } from '../engine/flywheel.js';
+import { getFlywheelSession, startFlywheelSession, processFlywheelInput } from '../engine/flywheel.js';
 import { getTodayEvents } from '../integrations/calendar.js';
 import { getUnreadInbox } from '../integrations/gmail.js';
 export async function processTextIntent(ctx, text) {
+    const userId = ctx.from?.id;
+    if (!userId)
+        return;
+    // Check if user is currently in an interactive Flywheel session
+    const session = getFlywheelSession(userId);
+    if (session) {
+        await ctx.replyWithChatAction('typing');
+        const reply = await processFlywheelInput(userId, text);
+        await ctx.reply(reply, { parse_mode: 'Markdown' });
+        return;
+    }
     let intentCommand = '';
     let intentArgs = '';
     if (text.startsWith('/')) {
@@ -70,7 +81,8 @@ export async function processTextIntent(ctx, text) {
             }
             await ctx.reply("🌪️ **Spinning up the Daily Flywheel Engine...**\n_Ingesting & Interrogating..._", { parse_mode: 'Markdown' });
             try {
-                const flywheelResult = await executeFlywheelStep1(intentArgs);
+                startFlywheelSession(userId, intentArgs);
+                const flywheelResult = await processFlywheelInput(userId, '');
                 await ctx.reply(flywheelResult, { parse_mode: 'Markdown' });
             }
             catch (err) {
