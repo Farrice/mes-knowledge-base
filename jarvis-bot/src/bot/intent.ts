@@ -4,6 +4,8 @@ import { db } from '../db/store.js';
 import { getContextForQuery } from '../engine/context-bridge.js';
 import { appendCaptureToNotion } from '../integrations/notion.js';
 import { executeFlywheelStep1 } from '../engine/flywheel.js';
+import { getTodayEvents } from '../integrations/calendar.js';
+import { getUnreadInbox } from '../integrations/gmail.js';
 
 export async function processTextIntent(ctx: Context, text: string) {
     let intentCommand = '';
@@ -50,11 +52,23 @@ export async function processTextIntent(ctx: Context, text: string) {
             break;
 
         case '/cal':
-            await ctx.reply(`Got it. You want to manage your calendar: "${intentArgs}".\n(Google Calendar integration pending Phase 2)`);
+            await ctx.reply("⏳ Fetching your calendar...", { parse_mode: 'Markdown' });
+            try {
+                const events = await getTodayEvents();
+                await ctx.reply(events, { parse_mode: 'Markdown' });
+            } catch (err: any) {
+                await ctx.reply(`⚠️ **Calendar Error:** ${err.message}`, { parse_mode: 'Markdown' });
+            }
             break;
 
         case '/inbox':
-            await ctx.reply(`Got it. You want to check your email inbox.\n(Gmail integration pending Phase 2)`);
+            await ctx.reply("⏳ Triaging your inbox...", { parse_mode: 'Markdown' });
+            try {
+                const inbox = await getUnreadInbox();
+                await ctx.reply(inbox, { parse_mode: 'Markdown' });
+            } catch (err: any) {
+                await ctx.reply(`⚠️ **Inbox Error:** ${err.message}`, { parse_mode: 'Markdown' });
+            }
             break;
 
         case '/flywheel':
