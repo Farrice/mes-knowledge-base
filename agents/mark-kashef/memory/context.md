@@ -18,4 +18,4 @@
 - Source: YouTube video on Agent SDK bridge architecture for personal AI assistants.
 - Core pattern: Thin Telegram bridge → Agent SDK subprocess → existing Claude Code instance with all skills/MCPs.
 - New skill created: `mark-kashef-claude-claw` with 3 prompts (bridge-architect, memory-system-designer, wizard-builder).
-- Applied to: Rebuilding Farrice's jarvis-bot as an Antigravity mobile access layer.
+- Applied to: Mobile access layer architecture for Antigravity (jarvis-bot decommissioned 2026-03-02).

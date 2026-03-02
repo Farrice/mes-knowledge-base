@@ -1,6 +1,0 @@
-client_secret_*.json
-.env
-node_modules/
-dist/
-jarvis.db
-.tmp/

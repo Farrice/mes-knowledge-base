@@ -19,7 +19,7 @@ import { Client } from '@notionhq/client';
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 ```
 
-The Notion API key is stored in `jarvis-bot/.env` and also accessible from the Antigravity root `.env` if synced.
+The Notion API key is stored in the Antigravity root `.env`.
 
 ## Key Properties Per Database
 
