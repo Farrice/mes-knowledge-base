@@ -1,6 +1,6 @@
 # 🛡️ Quality Assurance Directive: Anti-Patterns & Mandates
 
-> **Purpose**: This directive codifies lessons from the 2026-02-05 failure analysis. It is a PERMANENT reference that prevents known failure modes in all future work.
+> **Purpose**: This directive codifies lessons from the 2026-02-05 failure analysis AND the 2026-02-14 research audit. It is a PERMANENT reference that prevents known failure modes in all future work.
 
 ---
 
@@ -23,7 +23,7 @@ keywords = [f"Buy {niche} online", f"Best {niche} for beginners"]
 velocity_score = random.randint(60, 95)
 ```
 
-**The Fix**: All intelligence-generating tools MUST use Agentic Research (live `search_web`, source citations).
+**The Fix**: All intelligence-generating tools MUST use Agentic Research (live `search_web`, Perplexity, source citations).
 
 ---
 
@@ -63,6 +63,25 @@ velocity_score = random.randint(60, 95)
 
 ---
 
+### Anti-Pattern 4: "Phantom Research" ⚠️ NEW
+**Definition**: Marking research tasks as complete without actually invoking external research tools. Generating intelligence-looking outputs entirely from LLM training data and presenting them as grounded findings.
+
+**Symptoms**:
+- Market intelligence reports with no Perplexity or search_web calls in the execution log
+- Competitor analyses with plausible-sounding but unverified names, prices, and URLs
+- Trend claims with no citations or date stamps
+- Task trackers showing `[x]` on research items that were never executed
+- Agent swarm outputs that read like expert analysis but contain zero external data
+
+**Why This Is Dangerous**:
+- The output LOOKS like deep research, making it harder to catch than Template Slop
+- Executives and clients will make decisions based on fictional data
+- It destroys the system's credibility and the user's competitive advantage
+
+**The Fix**: See **Mandate 5: Perplexity-First Research Gate** below.
+
+---
+
 ## 🟢 MANDATES (Always Do These)
 
 ### Mandate 1: Entity Understanding First
@@ -75,7 +94,7 @@ SUB-ENTITIES: [List any nested entities]
 
 ### Mandate 2: Agentic Research for Intelligence
 All workflows that generate "intelligence" (trends, keywords, strategies, briefs) MUST:
-1. Use `search_web` for live data
+1. Use `search_web` or Perplexity for live data
 2. Cite sources for all claims
 3. NOT use hardcoded templates for the core output
 
@@ -92,6 +111,25 @@ For any deliverable that claims factual accuracy:
 2. Note any claims that could NOT be verified
 3. Mark confidence level: 🟢 Verified / 🟡 Plausible / 🔴 Unverified
 
+### Mandate 5: Perplexity-First Research Gate ⚠️ NEW
+**Any task involving research, intelligence, competitive analysis, social listening, market sizing, or trend analysis MUST invoke external research tools BEFORE generating agent outputs.**
+
+**Enforcement Protocol**:
+1. **Before any agent swarm or research task**, check `directives/perplexity-usage-policy.md` for budget
+2. **Execute Perplexity queries** using `mcp_perplexity-ask_perplexity_ask` for:
+   - Social listening (Reddit, forums, review sites)
+   - Competitive intelligence (named competitors, actual pricing)
+   - Market validation (real data with citations)
+   - Trend verification (current-year sources)
+3. **Log every query** to `.agent/perplexity-usage.json`
+4. **If budget exhausted**, fall back to `search_web` — NEVER fall back to LLM-only generation
+5. **Tag deliverables** with research provenance:
+   - `🟢 GROUNDED` — Perplexity/search-backed with citations
+   - `🟡 SUPPLEMENTED` — Mix of research + LLM synthesis
+   - `🔴 PROJECTED` — LLM-generated, no external validation (must be explicitly flagged)
+
+**Hard Rule**: A deliverable tagged `🔴 PROJECTED` must be disclosed to the user. Never mark a research task as `[x]` complete if only LLM generation was used.
+
 ---
 
 ## 📊 Failure Mode Reference
@@ -102,7 +140,22 @@ For any deliverable that claims factual accuracy:
 | Entity Blindness | MEDIUM | Entity Classification Checklist |
 | Speed Without Validation | MEDIUM | Post-Delivery Verification |
 | User Intent Mismatch | HIGH | Pre-Flight Validation |
+| Phantom Research | HIGH | Perplexity-First Research Gate |
 
 ---
 
-*Last Updated: 2026-02-05 | Triggered by: Strategy Brief QA Failure*
+## Usage Tracking
+
+> **Purpose**: Detect dead infrastructure. If this directive hasn't fired in 30 days, it should be reviewed for relevance or archived.
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-03-19 |
+
+**Update Rule**: When this protocol fires (anti-pattern check, entity classification, or post-delivery verification), update the "Last Activated" date and increment the count.
+
+---
+
+*Last Updated: 2026-02-14 | Triggered by: Avatar Dossier Swarm Research Audit*

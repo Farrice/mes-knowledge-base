@@ -31,6 +31,9 @@
 | **Andrew Wilkinson** | Vibe Coding, AI Entrepreneurship | Active | `@andrew-wilkinson` |
 | **Heath Brothers** | Sticky Ideas, Message Design | Active | `@heath-brothers` |
 | **Alex Copper** | Creative Strategy, Positioning | Active | `@alex-copper` |
+| **Nate Herk** | AI Client Acquisition, Trojan Horse | Active | `@nate-herk` |
+| **Lara Acosta** | LinkedIn Content, B2B Personal Branding | Active | `@lara-acosta` |
+| **Josh Sanders** | LinkedIn Growth & Funnels | Active | `@josh-sanders` |
 
 **Status Key:**
 - **Active** = Agent folder exists with full AGENT.md, ready to invoke
@@ -117,6 +120,27 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 
 ---
 
+### Daily Flywheel Council (Board of Advisors)
+**Invoke:** `@daily-flywheel-council` or "Ask my Board of Advisors..."
+**Purpose:** Daily self-exploration, live market research synthesis, brand-aligned storytelling
+
+| Member | Contribution |
+|--------|--------------|
+| Dan Koe | Sovereignty, multipassionate mastery, idea virus architecture |
+| Jun Yuh | Visual contrast, selfless restructuring, psychographic growth |
+| Jim O'Shaughnessy | Intellectual sparring, mentorship, cross-domain synthesis |
+| Erica Mallet | Brand magnetism, belief-based branding, enemy effect |
+| Nathan Gotch | AI SEO, retrieval layer, brand narrative |
+| Shaan Puri | Storytelling, emotion transfer, hook architecture |
+| Mark Kashef | Adversarial reasoning, orchestration, workflow design |
+| Kallaway | Psych. framework architecture, weaponized mental models |
+| Ward Farnsworth | Rhetorical mastery, memorable writing, cadence |
+| Mitch Albom | Writing mastery, emotional resonance, educational reasoning |
+
+**When to use:** Running the Daily Flywheel Engine, deep personal journaling, converting personal insights into magnetic market assets, validating daily content ideas.
+
+---
+
 ## Expert Registry (Full Details)
 
 ### TIER 1: Revenue Direct
@@ -178,6 +202,22 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 - **Key Frameworks:** Consumer Posture (Occupation/Activity/Thought), Individual-First Modeling
 - **Invoke:** `@dai-media` or consumer psychology/persona requests
 - **Status:** Active (agent + skill)
+
+#### Lara Acosta
+- **Domain:** LinkedIn Content, B2B Personal Branding, Viral Copywriting
+- **Agent Path:** `agents/lara-acosta/`
+- **Skill Path:** `skills/lara-acosta-linkedin-growth/`
+- **Key Frameworks:** 8-Word Rehook, SLAY Framework, Humble Brag Architecture, F-Shape Formatting
+- **Invoke:** `@lara-acosta` or LinkedIn/B2B personal branding requests
+- **Status:** Active (3 prompts)
+
+#### Josh Sanders
+- **Domain:** LinkedIn Growth & Funnels, B2B Lead Gen
+- **Agent Path:** `agents/josh-sanders/`
+- **Skill Path:** `skills/josh-sanders-linkedin-growth/`
+- **Key Frameworks:** Pre-Validated Content Hacker, Anti-Hook Hook, Hook-Reward Gap
+- **Invoke:** `@josh-sanders` or LinkedIn growth/funnel requests
+- **Status:** Active (15 prompts)
 
 ---
 
@@ -307,6 +347,14 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 - **Invoke:** `@lulu-cheng-meservey` or communications/PR requests
 - **Status:** Active (10 prompts)
 
+#### Nate Herk
+- **Domain:** AI Client Acquisition, Validation-First Outreach, Trojan Horse Method
+- **Agent Path:** `agents/nate-herk/`
+- **Skill Path:** `skills/nate-herk-client-acquisition/`
+- **Key Frameworks:** Trojan Horse Method, Validation-First Outreach, Constraint Discovery Protocol
+- **Invoke:** `@nate-herk` or AI client acquisition/agency partnership requests
+- **Status:** Active (3 prompts)
+
 ---
 
 ## Invocation Patterns
@@ -368,5 +416,5 @@ This registry integrates with:
 ---
 
 *Last updated: 2026-01-24*
-*Total Experts: 23 (23 active, 0 pending)*
+*Total Experts: 24 (24 active, 0 pending)*
 *Total Councils: 5*

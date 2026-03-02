@@ -1,0 +1,782 @@
+{
+  "timestamp": "2026-02-28T20:32:36",
+  "model": "gemini-3-flash-preview",
+  "skills_converted": 110,
+  "skills_failed": 0,
+  "workflows_created": 373,
+  "total_tokens": 3676914,
+  "estimated_cost": 0.8089210800000001,
+  "duration_seconds": 603.0533781051636,
+  "results": [
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 63965,
+      "error": null
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 24104,
+      "error": null
+    },
+    {
+      "skill": "alen-sultanic-copywriting",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 25177,
+      "error": null
+    },
+    {
+      "skill": "alex-copper-creative-strategy",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 69651,
+      "error": null
+    },
+    {
+      "skill": "ali-abdaal-action-bias",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 52308,
+      "error": null
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 11656,
+      "error": null
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 25565,
+      "error": null
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 25861,
+      "error": null
+    },
+    {
+      "skill": "authority-hacker-ai-social-media",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 28474,
+      "error": null
+    },
+    {
+      "skill": "bond-halbert-copywriting",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 27563,
+      "error": null
+    },
+    {
+      "skill": "boris-claude-code",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 64280,
+      "error": null
+    },
+    {
+      "skill": "brock-johnson-shareworthy-content",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 18133,
+      "error": null
+    },
+    {
+      "skill": "business-intelligence-audit",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 18414,
+      "error": null
+    },
+    {
+      "skill": "caleb-ralston-personal-brand",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 24868,
+      "error": null
+    },
+    {
+      "skill": "cardinal-mason-ai-copywriting",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 31968,
+      "error": null
+    },
+    {
+      "skill": "dai-media-consumer-posture",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 15893,
+      "error": null
+    },
+    {
+      "skill": "dan-koe-multipassionate-mastery",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 72026,
+      "error": null
+    },
+    {
+      "skill": "dan-wang-literary-analysis",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 10451,
+      "error": null
+    },
+    {
+      "skill": "daniel-priestley-oversubscribed",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 35948,
+      "error": null
+    },
+    {
+      "skill": "darrel-wilson-ai-monetization",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 18201,
+      "error": null
+    },
+    {
+      "skill": "david-bayer-elite-communication",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 50164,
+      "error": null
+    },
+    {
+      "skill": "david-deutsch-copywriting",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 23582,
+      "error": null
+    },
+    {
+      "skill": "david-mcraney-belief-change",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 44024,
+      "error": null
+    },
+    {
+      "skill": "donald-miller-culture-turnaround",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 22527,
+      "error": null
+    },
+    {
+      "skill": "dr-kriukow-humanization",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 11619,
+      "error": null
+    },
+    {
+      "skill": "erica-mallet-brand-magnetism",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 90053,
+      "error": null
+    },
+    {
+      "skill": "ethan-smith-aeo",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 23228,
+      "error": null
+    },
+    {
+      "skill": "fareed-zakaria-writing-mastery",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 82138,
+      "error": null
+    },
+    {
+      "skill": "futurepedia-prompt-engineering",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 61717,
+      "error": null
+    },
+    {
+      "skill": "harry-dry-copywriting",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 17609,
+      "error": null
+    },
+    {
+      "skill": "jasmin-alic-linkedin-growth",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 29912,
+      "error": null
+    },
+    {
+      "skill": "jason-fladlien-marketing",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 65856,
+      "error": null
+    },
+    {
+      "skill": "jeremy-haynes-mindset-systems",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 19656,
+      "error": null
+    },
+    {
+      "skill": "jeremy-miner-identity-persuasion",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 34749,
+      "error": null
+    },
+    {
+      "skill": "jim-oshaughnessy-philosopher-financier",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 75139,
+      "error": null
+    },
+    {
+      "skill": "joanna-wiebe-persuasion-mastery",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 14981,
+      "error": null
+    },
+    {
+      "skill": "jonathan-courtney-marketing",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 14979,
+      "error": null
+    },
+    {
+      "skill": "jonathan-franzen-storytelling",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 19933,
+      "error": null
+    },
+    {
+      "skill": "josh-sanders-linkedin-growth",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 51150,
+      "error": null
+    },
+    {
+      "skill": "joshua-smith-real-estate",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 28690,
+      "error": null
+    },
+    {
+      "skill": "jun-yuh-creator-vision",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 14852,
+      "error": null
+    },
+    {
+      "skill": "jun-yuh-personal-brand",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 72869,
+      "error": null
+    },
+    {
+      "skill": "kallaway-content-psychology",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 87391,
+      "error": null
+    },
+    {
+      "skill": "kittl-graphic-design",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 65361,
+      "error": null
+    },
+    {
+      "skill": "lance-yichao-context-engineering",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 17861,
+      "error": null
+    },
+    {
+      "skill": "lara-acosta-content-system",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 13473,
+      "error": null
+    },
+    {
+      "skill": "lara-acosta-linkedin-growth",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 9325,
+      "error": null
+    },
+    {
+      "skill": "lara-acosta-linkedin-mastery",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 39416,
+      "error": null
+    },
+    {
+      "skill": "lindsay-ai-consulting",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 13416,
+      "error": null
+    },
+    {
+      "skill": "linkedin-2026-format-arbitrage",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 9998,
+      "error": null
+    },
+    {
+      "skill": "logan-kilpatrick-ai-studio",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 57709,
+      "error": null
+    },
+    {
+      "skill": "lucas-alpay-storytelling",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 60411,
+      "error": null
+    },
+    {
+      "skill": "luke-iha-proof-mechanisms",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 40847,
+      "error": null
+    },
+    {
+      "skill": "lulu-cheng-meservey-communications",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 43107,
+      "error": null
+    },
+    {
+      "skill": "made-to-stick-messaging",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 74274,
+      "error": null
+    },
+    {
+      "skill": "manus-ai-consulting",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 65378,
+      "error": null
+    },
+    {
+      "skill": "marc-andreessen-ai-thesis",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 22246,
+      "error": null
+    },
+    {
+      "skill": "maria-wendt-digital-products",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 71254,
+      "error": null
+    },
+    {
+      "skill": "mark-kashef-agent-orchestration",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 7450,
+      "error": null
+    },
+    {
+      "skill": "mark-kashef-ai-councils",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 52308,
+      "error": null
+    },
+    {
+      "skill": "mark-kashef-banana-squad",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 9308,
+      "error": null
+    },
+    {
+      "skill": "mark-kashef-claude-claw",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 10345,
+      "error": null
+    },
+    {
+      "skill": "michael-bernoff-identity-engineering",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 21652,
+      "error": null
+    },
+    {
+      "skill": "mike-foutia-marketing-tools",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 31680,
+      "error": null
+    },
+    {
+      "skill": "mitch-albom-writing-mastery",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 29531,
+      "error": null
+    },
+    {
+      "skill": "monk-ai-offer-architecture",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 30069,
+      "error": null
+    },
+    {
+      "skill": "nate-b-jones-agent-deployment-strategy",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 10017,
+      "error": null
+    },
+    {
+      "skill": "nate-b-jones-ai-taste-mastery",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 24969,
+      "error": null
+    },
+    {
+      "skill": "nate-b-jones-intent-engineering",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 13227,
+      "error": null
+    },
+    {
+      "skill": "nate-b-jones-trust-architecture",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 12630,
+      "error": null
+    },
+    {
+      "skill": "nate-herk-client-acquisition",
+      "status": "success",
+      "workflows": 1,
+      "tokens": 7983,
+      "error": null
+    },
+    {
+      "skill": "nathan-gotch-ai-seo",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 23720,
+      "error": null
+    },
+    {
+      "skill": "nick-saraev-agentic-workflows",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 89931,
+      "error": null
+    },
+    {
+      "skill": "nicolas-cole-digital-products",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 14919,
+      "error": null
+    },
+    {
+      "skill": "nicolas-cole-sentence-craft",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 17933,
+      "error": null
+    },
+    {
+      "skill": "omar-eddaoudi",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 48791,
+      "error": null
+    },
+    {
+      "skill": "omar-eddaoudi-premium-ads",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 83609,
+      "error": null
+    },
+    {
+      "skill": "oren-luxury-psychology",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 17783,
+      "error": null
+    },
+    {
+      "skill": "oren-operational-systems",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 22434,
+      "error": null
+    },
+    {
+      "skill": "oren-repositioning",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 23327,
+      "error": null
+    },
+    {
+      "skill": "oren-taste-development",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 19889,
+      "error": null
+    },
+    {
+      "skill": "oscar-hoglund-sound-storytelling",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 20250,
+      "error": null
+    },
+    {
+      "skill": "paul-james-ai-automation",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 18910,
+      "error": null
+    },
+    {
+      "skill": "pj-accetturo-ai-video",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 66097,
+      "error": null
+    },
+    {
+      "skill": "rachel-woods-ai-operations",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 25438,
+      "error": null
+    },
+    {
+      "skill": "robert-mack-comedy-writing",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 44912,
+      "error": null
+    },
+    {
+      "skill": "rory-sutherland-marketing",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 88490,
+      "error": null
+    },
+    {
+      "skill": "ross-mckay-premium-at-scale",
+      "status": "success",
+      "workflows": 1,
+      "tokens": 4543,
+      "error": null
+    },
+    {
+      "skill": "sabri-suby-ai-advertising",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 19756,
+      "error": null
+    },
+    {
+      "skill": "sabrina-ramonov-ai-monetization",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 15119,
+      "error": null
+    },
+    {
+      "skill": "sam-goddard-media-scaling",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 38263,
+      "error": null
+    },
+    {
+      "skill": "samuel-thompson-product-launch",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 15353,
+      "error": null
+    },
+    {
+      "skill": "sean-kochel-ai-business",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 69888,
+      "error": null
+    },
+    {
+      "skill": "sean-kochel-design-first-build",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 14857,
+      "error": null
+    },
+    {
+      "skill": "seena-rez-tiktok-commerce",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 23794,
+      "error": null
+    },
+    {
+      "skill": "seth-godin-ideavirus",
+      "status": "success",
+      "workflows": 5,
+      "tokens": 88536,
+      "error": null
+    },
+    {
+      "skill": "shaan-puri-storytelling",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 33932,
+      "error": null
+    },
+    {
+      "skill": "shan-hanif-audience-monetization",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 13724,
+      "error": null
+    },
+    {
+      "skill": "sherwin-wu-ai-engineering",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 22002,
+      "error": null
+    },
+    {
+      "skill": "soowei-consulting-leverage",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 19720,
+      "error": null
+    },
+    {
+      "skill": "stockton-walbeck-lead-magnets",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 17230,
+      "error": null
+    },
+    {
+      "skill": "tao-prompts-ai-video",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 13575,
+      "error": null
+    },
+    {
+      "skill": "thrivecart-digital-products",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 17255,
+      "error": null
+    },
+    {
+      "skill": "tim-danilov-niche-bending",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 30138,
+      "error": null
+    },
+    {
+      "skill": "tobias-allen-marketing-mastery",
+      "status": "success",
+      "workflows": 3,
+      "tokens": 28053,
+      "error": null
+    },
+    {
+      "skill": "tom-noske-personal-brand",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 28665,
+      "error": null
+    },
+    {
+      "skill": "tommy-clark-linkedin-growth",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 13071,
+      "error": null
+    },
+    {
+      "skill": "tyler-denk-audience-monetization",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 9413,
+      "error": null
+    },
+    {
+      "skill": "ward-farnsworth-rhetorical-mastery",
+      "status": "success",
+      "workflows": 2,
+      "tokens": 8782,
+      "error": null
+    },
+    {
+      "skill": "wordsatscale-seo-ranking",
+      "status": "success",
+      "workflows": 4,
+      "tokens": 18243,
+      "error": null
+    }
+  ]
+}

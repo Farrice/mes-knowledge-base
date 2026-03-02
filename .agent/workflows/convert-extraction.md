@@ -1,163 +1,197 @@
 ---
-description: Convert MES 3.0 extractions to production-ready skills with COMPLETE coverage guarantee
+description: Convert MES 3.0 extractions to completion-engine skills with end-to-end workflows
 ---
 
-# /convert-extraction Workflow
+# /convert-extraction Workflow (v2.0 — Completion Engine)
 
-This workflow ensures **100% prompt coverage** when converting MES 3.0 extractions to production skills.
-
-## MANDATORY FIRST STEP: Complete Audit
-
-**Before ANY creation work begins:**
-
-```bash
-# 1. List all extraction files for the expert
-find "/Users/farricecain/Desktop/Cladue Extractions MES 3.0" -name "*ExpertName*" -type f
-
-# 2. For EACH file found, extract all prompt headers
-grep -n "^# EXPERTNAME -" "filepath"
-```
+Converts a completed extraction report into a fully registered, deployable completion-engine skill with 3-5 end-to-end workflows.
 
 // turbo-all
 
-Create a **complete prompt inventory** in the task artifact BEFORE writing any files:
+---
+
+## Step 0: Determine Source
+
+| Source | Path | Action |
+|--------|------|--------|
+| Fresh extraction | `extractions/[expert]/extraction-report.md` | Read report |
+| Existing skill (reconvert) | `skills/[skill-name]/` | Read SKILL.md + references |
+
+---
+
+## Step 1: Audit Extraction
+
+Read the extraction report and extract:
+- **Expert name** and domain
+- **Genius patterns** (count and names)
+- **Hidden knowledge** (count and items)
+- **Core methodology/frameworks**
+- **Proposed workflows** (not individual prompts)
+
+Identify 3-5 natural end-to-end workflows based on the extraction content:
 
 ```markdown
-## Prompt Inventory (COMPLETE)
+## Workflow Plan
 
-| # | File | Prompt Name | Line # | Status |
-|---|------|-------------|--------|--------|
-| 1 | file1.md | PROMPT NAME 1 | 562 | [ ] |
-| 2 | file1.md | PROMPT NAME 2 | 871 | [ ] |
-... (list ALL prompts from ALL files)
+| # | Workflow | Produces | Description |
+|---|---------|----------|-------------|
+| 01 | [name] | [deliverable] | [end-to-end flow] |
+...
 ```
 
-**Rule**: If multiple extraction files exist (pt.1, pt.2, etc.), ALL files must be audited and ALL prompts must appear in the inventory.
+**Workflow sizing rules:**
+- 3 or fewer source items → 1-2 workflows
+- 4-10 → 2-3 workflows
+- 11-25 → 3-4 workflows
+- 26+ → 4-5 workflows
 
 ---
 
-## Phase 1: Foundation Setup
-
-1. Create skill directory structure:
-   ```
-   skills/[skill-name]/
-   ├── SKILL.md
-   ├── references/
-   │   ├── genius-patterns.md
-   │   └── prompts/
-   └── examples/
-   ```
-
-2. Create SKILL.md with:
-   - Core frameworks from extraction overview
-   - Available prompts table (list ALL from inventory)
-   - File structure
-   - Quick start guide
-
-3. Create genius-patterns.md with:
-   - Advanced patterns
-   - Hidden knowledge
-   - Expert heuristics
-
----
-
-## Phase 2: Prompt Conversion
-
-**For EACH prompt in the inventory:**
-
-1. Read the full prompt from extraction file
-2. Create corresponding `.md` file in `references/prompts/`
-3. Mark as `[x]` in inventory
-
-**Quality checks per prompt:**
-- [ ] Has ROLE & ACTIVATION section
-- [ ] Has INPUT REQUIRED section
-- [ ] Has EXECUTION PROTOCOL section
-- [ ] Has OUTPUT DELIVERABLE section
-- [ ] Has at least one EXAMPLE OUTPUT
-- [ ] Has DEPLOYMENT TRIGGER
-
----
-
-## Phase 3: Agent Creation
-
-1. Create agent directory:
-   ```
-   agents/[agent-name]/
-   ├── AGENT.md
-   └── memory/
-       └── context.md
-   ```
-
-2. AGENT.md must include:
-   - Core identity and philosophy
-   - Voice and communication style
-   - Decision frameworks
-   - Available skills table
-   - Invocation triggers
-
----
-
-## Phase 4: Integration
-
-1. Add agent to GEMINI.md:
-   - Add to Available Agents table
-   - Add skill to Available Skills table
-   - Add to relevant Task Type routing
-
-2. Update COUNCIL.md if agent belongs to councils
-
----
-
-## Phase 5: Verification
-
-**Before marking complete:**
+## Step 2: Create Skill Structure
 
 ```bash
-# Count prompts in skill
-ls -1 "skills/[skill-name]/references/prompts/" | wc -l
-
-# Compare to inventory count
-# MUST MATCH
+mkdir -p skills/[skill-name]/workflows agents/[expert-name]/memory
 ```
 
-Create verification table in walkthrough:
+Naming: `skills/[firstname-lastname-domain]/`
+
+---
+
+## Step 3: Create genius.md
+
+Merge genius patterns + hidden knowledge into a single unified file:
 
 ```markdown
-## Verification
+# [Expert Name] — Genius Context
 
-| Source | Count |
-|--------|-------|
-| Extraction files | X prompts |
-| Created prompts | X prompts |
-| Match? | ✅ YES |
+> Load this file before executing any workflow.
+
+## Genius Patterns
+[All patterns: What They Do → Executable Behavior → Deploy When → Success Metric]
+
+## Hidden Knowledge
+[All items: Tacit Insight → Why Others Miss This → Deploy When]
 ```
 
 ---
 
-## Anti-Patterns to Avoid
+## Step 4: Generate Workflow Files
 
-❌ **Starting creation before complete audit**
-→ Leads to missed prompts
+**Option A: Manual generation** (for 1-3 workflows)
 
-❌ **Reading only first extraction file**
-→ Miss pt.2, pt.3, etc.
+For each workflow, create `skills/[skill-name]/workflows/[NN]-[slug].md`:
 
-❌ **Creating prompts without tracking**
-→ Lose count, miss items
+```markdown
+---
+name: "[Workflow Name]"
+produces: "[Specific deliverable]"
+expert: "[Expert Name]"
+load_context: "genius.md"
+---
 
-❌ **Trusting memory for prompt count**
-→ Always verify with grep + ls
+# [Expert] — [Workflow Name]
+
+## Role
+[Expert identity + credibility — 2-3 sentences]
+
+**Before executing**: Read genius.md for full extraction intelligence.
+
+## Input Required
+[3-6 essential inputs]
+
+## Workflow
+[Integrated end-to-end flow. Embed genius patterns INLINE.
+Each phase builds on the previous. Produce a COMPLETE deliverable.]
+
+## Output Contract
+[Exact specification of deliverable components]
+
+## Quality Gate
+[3-5 expert-specific criteria]
+```
+
+**Option B: Automated conversion** (for existing skills with many prompts)
+
+```bash
+python execution/skill_converter.py --skill "skills/[skill-name]"
+```
 
 ---
 
-## Error Recovery
+## Step 5: Write SKILL.md
 
-If prompts are discovered missing after initial "completion":
+Completion engine format:
 
-1. Re-run full audit
-2. Add missing prompts to inventory
-3. Create missing prompts
-4. Update SKILL.md prompt table
-5. Update agent if needed
-6. Re-verify counts match
+```markdown
+---
+name: "[Expert] — [Domain]"
+description: "[Value prop]"
+version: "2.0"
+format: "completion-engine"
+workflows: [N]
+---
+
+# [Expert] — [Domain]
+
+[Expert context + core genius statement]
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 01 | [Name](workflows/01-slug.md) | [Deliverable] | [Trigger] |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md)
+```
+
+---
+
+## Step 6: Create Agent Files
+
+### AGENT.md
+Standard agent template referencing workflows (not individual prompts).
+
+### memory/context.md
+Initialize with activation date.
+
+---
+
+## Step 7: Register
+
+Add to `AGENT_INDEX.md` and `SKILL_INDEX.md`.
+
+---
+
+## Step 8: Verification
+
+```bash
+# Count workflow files
+ls -1 "skills/[skill-name]/workflows/" | wc -l
+
+# Verify structure
+find "skills/[skill-name]" -type f | sort
+
+# Check registrations
+grep "[expert-name]" AGENT_INDEX.md SKILL_INDEX.md
+```
+
+| Check | Expected | Actual |
+|-------|----------|--------|
+| genius.md | 1 | |
+| Workflow files | [N] | |
+| SKILL.md (v2.0) | 1 | |
+| Agent files | 2 | |
+| Registry entries | 2 | |
+
+---
+
+## Key Differences from v1.0
+
+| v1.0 (Prompt Library) | v2.0 (Completion Engine) |
+|----------------------|--------------------------|
+| 15-45 individual prompt files | 3-5 workflow files |
+| genius-patterns.md + hidden-knowledge.md separate | genius.md unified |
+| Each prompt = 1/N of genius | Each workflow = 100% genius |
+| User picks from prompt menu | User picks from workflow menu |
+| Output = fragment | Output = complete deliverable |

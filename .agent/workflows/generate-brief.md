@@ -50,22 +50,40 @@ Based on the niche, auto-invoke the right experts:
 
 ---
 
-## Phase 3: Deep Research (Manus.AI Protocol)
+## Phase 3: Deep Research (Perplexity-First Protocol)
 
-Execute at least 5 search queries:
+> **Tier Classification**: Strategic Dossiers are **Tier 1: Foundation** by definition. Use Perplexity Deep Research or Sonar Pro.
 
-1. **Market Size**: `"[niche] market size statistics 2026"`
-2. **Competitor Landscape**: `"[niche] top companies competitors 2026"`
-3. **Buyer Psychology**: `"[niche] customer pain points frustrations reddit OR forum"`
-4. **SERP/SEO**: `"[niche] keywords site:ahrefs.com OR site:semrush.com"`
-5. **Programs/Options**: `"[niche] programs options alternatives"`
-6. **News/Trends**: `"[niche] news trends 2026"`
+### Step 3A: Budget Check
+1. Read `.agent/perplexity-usage.json` — verify remaining budget
+2. If budget allows ($2+ remaining): proceed with Perplexity
+3. If budget tight ($0.50-$2): use Sonar only, batch aggressively
+4. If exhausted: fall back to `search_web`, notify user
+
+### Step 3B: Perplexity Research Queries (3-5 batched via Collapsing Rule)
+
+Use `mcp_perplexity-ask_perplexity_ask` for each:
+
+1. **Market Size + Landscape**: `"What is the current market size, growth rate, and key trends for [niche] in 2026? Include TAM/SAM/SOM estimates with sources."`
+2. **Buyer Psychology + Pain Points**: `"What are the top pain points, frustrations, and unmet needs for [target buyer] in [niche]? Include verbatim quotes from Reddit, forums, and review sites."`
+3. **Competitive Intelligence**: `"Who are the top 5-10 competitors in [niche]? What are their pricing models, positioning, and key weaknesses?"`
+4. **Opportunities + Gaps**: `"What gaps exist in the [niche] market that new entrants could exploit? Include emerging trends and underserved segments."`
+
+### Step 3C: Supplementary Web Search
+
+Use `search_web` for anything Perplexity didn't cover:
+- SERP/SEO landscape: `"[niche] keywords site:ahrefs.com OR site:semrush.com"`
+- Programs/options: `"[niche] programs options alternatives"`
+
+### Step 3D: Log & Tag
+1. Log all Perplexity queries to `.agent/perplexity-usage.json`
+2. Tag all findings with provenance: 🟢 GROUNDED (Perplexity-sourced) or 🟡 SUPPLEMENTED (web search)
 
 **Extract**:
-- Actual numbers (TAM, market size, income data)
+- Actual numbers (TAM, market size, income data) — with citations
 - Verbatim quotes from real buyers/users
-- Competitor gaps and weaknesses
-- Time-sensitive opportunities
+- Competitor gaps and weaknesses — named competitors, real pricing
+- Time-sensitive opportunities — current-year sources only
 
 ---
 
@@ -115,7 +133,7 @@ Execute at least 5 search queries:
 
 ---
 
-## Phase 5: Quality Gate
+## Phase 5: Quality Gate & Red Team Validation
 
 Before delivering, verify:
 
@@ -124,6 +142,14 @@ Before delivering, verify:
 - [ ] No "glob of words" — all paragraphs are specific
 - [ ] Decision tree or matrix included
 - [ ] Week-by-week playbook included
+
+**RED TEAM VALIDATION (Adversarial Check)**:
+Run a mandatory adversarial pass against the brief before final output:
+1. **The Cynical Buyer Test**: Why would the target buyer reject this thesis immediately? Add a section addressing this friction.
+2. **Competitor Blind Spots**: Who was missed in the landscaping? Are we underestimating the market leader?
+3. **The 'So What' Filter**: Is this actually a disruptive insight, or just a summary of what's already known? 
+
+*If the brief is too safe, rewrite the Executive Summary to take a polarizing, opinionated stance based on the data.*
 
 ---
 

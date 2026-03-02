@@ -1,7 +1,10 @@
 # Expert Auto-Routing Protocol (MANDATORY)
 
 > **Purpose**: Automatically invoke the right experts and skills for every request — without the user needing to remember slash commands or @mentions.
-> **Effective**: 2026-02-05
+> **Effective**: 2026-02-05 | **Updated**: 2026-02-27 (Context Engine integration)
+> **Router**: See `directives/router_agent.md` for fast-path dispatch and escalation ladder
+> **Agent Registry**: See `AGENT_INDEX.md` for keyword-based agent matching
+> **Loading Protocol**: See `directives/agent-loading-protocol.md` for the tiered loading chain
 
 ---
 
@@ -42,10 +45,11 @@ Before responding to ANY user request, I must run this mental checklist:
 
 If the request spans multiple domains (e.g., "research the market and then write copy"), invoke an **Expert Ensemble**:
 
-1. Identify the 2-3 most relevant experts
-2. Read their SKILL.md files (or AGENT.md for agents)
-3. Read their `genius-patterns.md`
-4. Apply their combined frameworks
+1. **Tier 0 (Card Check):** Read `agents/_framework/invocation-cards.md` to identify the 2-3 most relevant experts (~50 tokens each)
+2. **Tier 1-2 (Load as needed):** Read SKILL.md + prompt (Tier 1) or + genius-patterns (Tier 2) per task complexity
+3. **Tier 3 (Sub-Agent):** For 3+ experts or 10+ files already loaded, spawn sub-agents with fresh context
+
+See `directives/agent-loading-protocol.md` for full tiered chain and decision matrix.
 
 ### Step 3: Is this a strategic/high-stakes decision?
 
@@ -121,24 +125,23 @@ If an output reads like a report without clear actions, it has FAILED. Every par
 
 ---
 
-## How to Read Expert Files
+## How to Load Expert Files (Tiered Chain — ENFORCED)
 
-When auto-invoking an expert:
+**Always start at Tier 0. Escalate only when the task demands it.**
 
-1. **Read SKILL.md** (or AGENT.md)
-   - Path: `skills/[skill-name]/SKILL.md` or `agents/[agent-name]/AGENT.md`
-   
-2. **Read genius-patterns.md**
-   - Path: `skills/[skill-name]/references/genius-patterns.md`
-   
-3. **Read relevant prompt** (if applicable)
-   - Path: `skills/[skill-name]/references/prompts/[prompt-name].md`
+| Tier | What to Read | Token Cost | When |
+|------|-------------|-----------|------|
+| **0 — Card Check** | `agents/_framework/invocation-cards.md` | ~80 | Routing, recommendations, ensemble selection |
+| **1 — Standard** | SKILL.md + specific prompt | ~1,350 | Single expert, clear task |
+| **2 — Deep** | SKILL.md + genius-patterns + prompt | ~2,550 | Creative/complex work |
+| **3 — Sub-Agent** | Spawn sub-agent (reads in fresh context) | ~300 main | Multi-expert, 10+ files loaded |
 
-4. **Apply their framework** to the user's request
+**Full protocol:** `directives/agent-loading-protocol.md`
+**Skill file paths:** `directives/skill-paths-reference.md`
 
-5. **Cite the expert** in the output when relevant
-   - "Applying Cardinal Mason's conversion architecture..."
-   - "Using Manus.AI's McKinsey-grade research protocol..."
+After loading and applying, **cite the expert** in the output:
+- "Applying Cardinal Mason's conversion architecture..."
+- "Using Manus.AI's McKinsey-grade research protocol..."
 
 ---
 
@@ -239,6 +242,20 @@ If I receive a request and:
 - Produce generic output without expert frameworks
 
 ...then I have FAILED this directive.
+
+---
+
+## Usage Tracking
+
+> **Purpose**: Detect dead infrastructure. If this directive hasn't fired in 30 days, it should be reviewed for relevance or archived.
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-03-19 |
+
+**Update Rule**: When this protocol fires (domain detection + expert invocation), update the "Last Activated" date and increment the count. If the 30-day review date passes with 0 activations, flag for archival review.
 
 ---
 

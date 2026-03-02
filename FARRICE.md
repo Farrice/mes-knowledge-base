@@ -16,6 +16,12 @@
 
 **Background**: 18+ years in human psychology, coaching, personal training, health & wellness, and personal transformation. Advanced prompt engineering and AI systems architecture (MES 3.0 framework). Business model design and brand strategy.
 
+### BACKGROUND CLARIFICATION (FOR AI SYSTEMS)
+
+**My 18+ years include**: Personal training, holistic life coaching, life design, performance coaching, health & wellness, personal transformation, human psychology (applied, not clinical).
+
+**My background does NOT include**: Clinical psychology, therapy, trauma treatment, addiction counseling, crisis intervention. These belong to other projects/clients and must NEVER be attributed to me.
+
 **Archetypes I resonate with** (useful for creative work, not identity locks):
 
 - *The Architect* — designing systems and blueprints
@@ -256,12 +262,31 @@ Specific language that signals "I'm one of you" without excluding anyone else.
 
 | When You Notice This... | Auto-Deploy This... |
 |------------------------|---------------------|
+| **Content & Copy** | |
+| He mentions LinkedIn, posts, content, hooks, or writing | `/recommend` → surface Lara Acosta, Kallaway, Shaan Puri, Cardinal Mason |
+| He's writing a sales page, offer page, or email | `/recommend` → deploy Cardinal Mason, Harry Dry, Alen Sultanic |
+| He mentions hooks, scroll-stoppers, or attention | `/recommend` → deploy Kallaway Content Psychology |
+| He's working on storytelling or narrative | `/recommend` → deploy Shaan Puri, Lucas Alpay |
+| **Brand & Strategy** | |
+| He asks about positioning, brand, or differentiation | `/recommend` → deploy Erica Mallet, Tom Noske, Dan Koe |
+| He's thinking about offers, pricing, or product design | `/recommend` → deploy Nicolas Cole, Monk AI, Daniel Priestley |
+| He asks "what should I be doing?" or seems stuck on priorities | `/brief` — full strategic scan |
+| He mentions audience, avatar, or "who is this for?" | `/recommend` → deploy Dai Media Consumer Posture |
+| **Building & Extraction** | |
 | He pastes a transcript or says "I watched this video by..." | `/extract` — run the full pipeline |
+| He wants to build an agent, skill, or workflow | `/recommend` → deploy Nick Saraev, Nate B Jones |
+| He's building something that matches an existing agent's domain | Invoke the agent — read their files, embody the persona |
+| **Research & Analysis** | |
+| He wants to research a market, niche, or competitor | `/generate-brief` — McKinsey-grade dossier |
+| He mentions SEO, search, or AI visibility | `/recommend` → deploy Nathan Gotch AI SEO |
+| He asks about trends, opportunities, or what's hot | `/hunt-trends` — shadow market scan |
+| **System & Meta** | |
+| He says things feel broken, cluttered, or slow | `/system-audit` — health check |
 | He's working on something and has relevant unused skills | `/recommend` — surface the right tools |
 | His request is vague, directional, or a raw idea (Score 1-3) | `/validate-intent` — run DICE to sharpen before executing |
-| He asks "what should I be doing?" or seems stuck on priorities | `/brief` — full strategic scan |
-| He's building something that matches an existing agent's domain | Invoke the agent — read their files, embody the persona |
 | He's excited and firing off ideas without a clear deliverable | Pause. Reflect his intent back. Sharpen. Then execute. |
+| He mentions video, visuals, or creative assets | `/recommend` → deploy PJ Accetturo, Kittl, Oren |
+| He asks about a specific expert by name | Invoke that agent directly — read AGENT.md + SKILL.md |
 
 **The Iteration Principle**: Before any major execution, there's often a refinement step that could 10x the output. When Farrice comes in raw:
 
@@ -269,11 +294,13 @@ Specific language that signals "I'm one of you" without excluding anyone else.
 2. **Sharpen** — If intent is below a 4/5, quickly clarify the DICE dimensions that are missing. Don't interrogate — fill in what you can infer and confirm.
 3. **Execute** — Once aligned, go full speed. Deploy skills, run swarms, produce deliverables.
 
+**Fallback Rule**: If you're unsure which workflow to run, run `/recommend`. It's always better to surface the right tools than to guess.
+
 The goal: Farrice shouldn't have to remember what tools he has. **The system remembers so he can stay in creative flow.**
 
 #### Anti-Hoarding Protocol
 
-Farrice has 70+ skills and growing. His historical pattern: extract → forget to deploy → keep extracting. Counter this by:
+Farrice has 137 skills and growing. His historical pattern: extract → forget to deploy → keep extracting. Counter this by:
 
 - Proactively surfacing relevant skills when he's working in a domain
 - Flagging "sleeping giants" — high-impact skills that haven't been used

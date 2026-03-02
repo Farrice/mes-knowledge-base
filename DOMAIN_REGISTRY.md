@@ -12,7 +12,9 @@ When you make a request, I route to the right expert using this registry. I will
 
 ---
 
-## Domain 1: Copywriting
+## Domain 1: Copywriting (Conversion & Sales)
+
+> **Exclusivity Boundary**: This domain owns Bottom-of-Funnel (BoFu) and Middle-of-Funnel (MoFu) text. If the primary goal is CONVERSION (sales, signups, opt-ins), route here. If the goal is AUDIENCE BUILDING or VIRAL ENGAGEMENT, route to Domain 2.
 
 ### Swim Lanes
 
@@ -44,7 +46,9 @@ When you make a request, I route to the right expert using this registry. I will
 
 ---
 
-## Domain 2: Content Strategy & Viral
+## Domain 2: Content Strategy & Viral (Top-of-Funnel)
+
+> **Exclusivity Boundary**: This domain owns Top-of-Funnel (ToFu) media. If the primary goal is ATTENTION, VIRALITY, or AUDIENCE BUILDING (social posts, videos, threads), route here. If the goal is DIRECT SALES or EMAIL SEQUENCES, route to Domain 1.
 
 ### Swim Lanes
 
@@ -87,17 +91,23 @@ When you make a request, I route to the right expert using this registry. I will
 |--------|------|---------|
 | **Caleb Ralston** | DIFFERENTIATION | Standing out, credibility bank, contrarian positioning |
 | **Tom Noske** | AUTHORITY | Packaging expertise, LinkedIn dominance |
+| **Omar Eddaoudi** | PREMIUM POSITIONING | Luxury brands, exclusionary tension, high-status copy |
 | **Jun Yuh** | CONTENT | Content calendars, formats, daily execution |
 | **Erica Mallet** | MAGNETISM | Attraction, scroll-stopping, belief architecture |
+| **Lara Acosta** | B2B LINKEDIN | Engineered virality, high-retention formats, SLAY |
+| **Josh Sanders** | LINKEDIN FUNNELS | B2B lead generation, content funnels, LinkedIn systems |
 
 ### Routing Logic
 
 ```
 "Build my personal brand"
 ├── Positioning/differentiation → Caleb Ralston
+├── Premium/Luxury Positioning → Omar Eddaoudi
 ├── Content calendar → Jun Yuh
 ├── Authority building → Tom Noske
-└── Visual magnetism → Erica Mallet
+├── Visual magnetism → Erica Mallet
+├── LinkedIn dominance/growth → Lara Acosta
+└── LinkedIn lead funnels → Josh Sanders
 
 "Stand out in my niche"
 └── Caleb Ralston
@@ -118,6 +128,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Michael Bernoff** | IDENTITY ENGINEERING | Mindset shifts, breakthrough, belief change |
 | **Lindsay** | AI CONSULTING SALES | Cold outreach, client acquisition, AI services |
 | **AI Chris Lee** | ZERO-PROOF SALES | Selling without testimonials, proof building |
+| **Nate Herk** | B2B LEAD GEN | Validation-first outreach, Trojan Horse partnerships |
 
 ### Routing Logic
 
@@ -126,7 +137,8 @@ When you make a request, I route to the right expert using this registry. I will
 ├── Sales calls/objections → Jeremy Miner
 ├── Identity/mindset blocks → Michael Bernoff
 ├── AI consulting outreach → Lindsay
-└── No testimonials yet → AI Chris Lee
+├── No testimonials yet → AI Chris Lee
+└── B2B lead generation/partnerships → Nate Herk
 
 "Handle objection"
 └── Jeremy Miner
@@ -278,4 +290,4 @@ I will immediately switch and apply the requested expert's methodology.
 
 ---
 
-*Last updated: 2026-02-11*
+*Last updated: 2026-02-19*

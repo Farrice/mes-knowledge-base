@@ -6,6 +6,17 @@ description: Extract expert knowledge from any source material into deployable s
 
 Extract expert knowledge from source material (transcripts, articles, courses, interviews) and produce deployable practitioner prompts and skill architecture.
 
+## THE VIRTUOSO DENSITY MANDATE & ANTI-PATTERN LOCK
+
+**1. Information Density over Length (The Anti-Bloat Rule):**
+The Virtuoso Mandate requires maximum **information density**, not maximum length. Achieve extreme psychological nuance through precision, razor-sharp logic constraints, and master-level insight rather than sprawling word counts. Do not use 1,000 words if 200 words of lethal, paradigm-shifting insight will achieve the goal. Every word must earn its keep. Delete fluff, keep the fangs.
+*Formatting for Density*: Dense text requires high-contrast formatting to survive contact with reality. You MUST aggressively use bullet points, bolding, and whitespace so the density remains readable.
+
+**2. Anti-Pattern Lock (The Creative Latitude Mandate):**
+LLMs are prone to "narrative lock"—mimicking the exact structure, metaphors, or tone of few-shot examples rather than applying the *underlying principle* to a new context. 
+**You must actively resist pattern lock.** When given examples, extract the *mechanics* and *physics* of why the example works, but discard the skin. Do not lazily recycle the example's specific scenario or voice unless it perfectly matches the prompt. Demonstrate true creative intuition and taste. The methodology is the floor; your creative application is the ceiling.
+*The Gravedigger Safeguard (Feeling Density)*: When discarding the skin of an example to invent a new scenario, you must explicitly build a human-centric "gravedigger" detail. Density cannot mean sterile. Concrete emotional resonance must scale with information density.
+
 ## Core Principles
 
 ### Practitioner Mode

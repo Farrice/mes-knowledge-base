@@ -1,10 +1,10 @@
 ---
-description: Extract expert knowledge from source material and convert to an Antigravity skill
+description: Extract expert knowledge from source material and convert to a completion-engine skill
 ---
 
-# /extract — Mastery Extraction Workflow
+# /extract — Mastery Extraction Workflow (v2.0 — Completion Engine)
 
-Extract expert knowledge from any source material and produce a deployable Antigravity skill.
+Extract expert knowledge from any source material and produce a deployable completion-engine skill with 3-5 end-to-end workflows.
 
 ## Usage
 
@@ -17,12 +17,19 @@ Extract expert knowledge from any source material and produce a deployable Antig
 ### 1. Receive Source Material
 Accept transcript, article, course content, interview, or any knowledge-dense material. If the user provides a URL, read the content first.
 
+**If the user provides a YouTube URL**, auto-fetch the transcript:
+```bash
+// turbo
+python3 execution/fetch-transcript.py "<youtube_url>" "<expert-name>"
+```
+This saves the transcript to `extractions/<expert-name>/transcript.txt`. If expert name is unknown yet, omit it and the transcript saves to `extractions/transcripts/<video_id>.txt` — move it after expert identification in step 1.5.
+
 ### 1.5. Expert Identification (CRITICAL)
 Before extraction, explicitly confirm the **expert/speaker** identity:
-- The "by [Name]" in transcript headers (e.g. "Transcript for [Title] by [Merlin AI]") often refers to the **transcription tool**, NOT the speaker
+- The "by [Name]" in transcript headers often refers to the **transcription tool**, NOT the speaker
 - Common transcription tools: Merlin AI, Otter.ai, Tactiq, YouTube auto-captions — these are NEVER the expert
 - Check the video title, channel name, and transcript content for the actual expert
-- If the expert is already in the system (check `GEMINI.md` agent/skill tables), note existing skills for dedup in Step 3
+- If the expert is already in the system (check `AGENT_INDEX.md`), note existing skills for dedup
 - If ambiguous, **ask the user** before proceeding — never guess
 - Record: `Expert: [Name] | Transcribed by: [Tool]`
 
@@ -30,78 +37,146 @@ Before extraction, explicitly confirm the **expert/speaker** identity:
 Read and execute `directives/mes-3.0-extract.md`.
 
 - Determine extraction tier (Light / Standard / Deep) based on material depth
-- Produce the extraction report
-- Generate crown jewel prompts
-- Run each prompt through the internal validation checklist before finalizing
+- Produce the extraction report with genius patterns, hidden knowledge, and methodology
+- Run each finding through the internal validation checklist before finalizing
 
 ### 2.5. Applied Intelligence Analysis (MANDATORY)
 After extraction, perform a second pass focused on **deployable capability**:
 
-**A. Meaning Mining** — Go beyond what the expert said. What are they *trying to express*? What insight lives between the lines? What would you only understand after watching them work for a year? Capture what Farrice's pattern recognition would flag.
+**A. Meaning Mining** — Go beyond what the expert said. What insight lives between the lines?
 
-**B. Capability Unlock** — For each major insight, answer:
-- What can Farrice **BUILD** with this that he couldn't before?
+**B. Capability Unlock** — For each major insight:
+- What can Farrice **BUILD** with this?
 - What **decisions** can he now make better?
-- How does this **stack** with existing Antigravity skills?
-- What **agent, product, workflow, or revenue stream** does this enable?
+- How does this **stack** with existing skills?
 
-**C. Market Signal Reading** — If the expert discusses market data, ecosystem trends, or user behavior patterns:
-- What is the market *signaling* it wants?
-- Where are the underserved verticals?
-- What would a functioning agent/product look like in this space?
+**C. Market Signal Reading** — If market data discussed:
+- What is the market signaling it wants?
+- Where are underserved verticals?
 
-**D. System Enhancement** — Could any insight improve how Antigravity itself operates?
-- Better agent architectures?
-- Better prompt design patterns?
-- Better workflow structures?
-- New skill stacking combinations?
+**D. System Enhancement** — Could any insight improve Antigravity itself?
 
-Fold these findings into the extraction report under an **"Applied Intelligence"** section, and ensure relevant crown jewel prompts reflect this applied depth.
+Fold findings into the extraction report under an **"Applied Intelligence"** section.
 
 ### 3. Validate (Recommended)
-// turbo
 Read and execute `directives/mes-3.0-validate.md`.
 
-- Run all 4 validation checks
-- Auto-fix any practitioner mode failures
-- Flag CEV or dedup issues for user review
-- If validation passes clean, proceed to conversion
+### 4. CHECKPOINT 1: Workflow Planning
+**This is a user decision point.** Present:
 
-### 4. Convert to Skill
+- Expert name and domain
+- Number of genius patterns + hidden knowledge items extracted
+- **Proposed 3-5 workflows** — for each:
+  - Name and what it produces
+  - Which aspects of the expert's methodology it captures
+  - When a user would trigger it
+- Any flags or concerns
+
+**Wait for user approval/adjustment before proceeding.**
+
+If user approves, continue. If user adjusts, incorporate changes.
+
+### 5. Generate Completion Engine Skill
 // turbo
-Read and execute `directives/extraction-to-skill.md`.
 
-- Create skill directory structure
-- Map extraction components to skill files
-- Generate SKILL.md with overview and prompt arsenal listing
-- Place crown jewel prompts in `references/prompts/`
-- Place genius patterns in `references/genius-patterns.md`
+#### 5a. Create Skill Directory
+```bash
+mkdir -p skills/[skill-name]/workflows agents/[expert-name]/memory
+```
 
-### 5. Register
+#### 5b. Create genius.md
+Merge all genius patterns + hidden knowledge into a single unified genius context file:
+```
+skills/[skill-name]/genius.md
+```
+
+#### 5c. Generate Workflow Files
+For each approved workflow, generate an end-to-end workflow file:
+```
+skills/[skill-name]/workflows/01-[workflow-name].md
+skills/[skill-name]/workflows/02-[workflow-name].md
+skills/[skill-name]/workflows/03-[workflow-name].md
+```
+
+Each workflow MUST:
+- Load the full genius context (genius.md)
+- Produce a specific, defined deliverable
+- Mirror how the expert actually thinks (integrated flow, not decomposed steps)
+- Embed genius patterns INLINE where they apply
+- Include Output Contract (exact specification of deliverable)
+- Include Quality Gate (expert-specific criteria)
+
+Alternatively, use the conversion swarm for parallel generation:
+```bash
+python execution/skill_converter.py --skill "skills/[skill-name]"
+```
+
+#### 5d. Write SKILL.md
+Use the completion engine format:
+```markdown
+---
+name: "[Expert] — [Domain]"
+description: "[Value prop]"
+version: "2.0"
+format: "completion-engine"
+workflows: [N]
+---
+
+# [Expert] — [Domain]
+
+[2-3 sentence expert context + core genius]
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 01 | [Name] | [Deliverable] | [Trigger] |
+...
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md)
+```
+
+### 6. Create Agent Files
 // turbo
-Add the new skill and its prompts to `GEMINI.md` in the Available Skills and Skill Prompt Quick Reference sections.
 
-If the expert already has an agent (`agents/[expert-name]/AGENT.md`), update it with the new skill. If not, create the agent directory and AGENT.md.
+#### AGENT.md
+Standard agent template with identity, competencies, decision framework, voice, and available workflows.
 
-### 6. Report
-Present a summary to the user:
+#### memory/context.md
+Initialize with activation date. Will be updated as the agent is used.
+
+### 7. Register
+// turbo
+Add to `AGENT_INDEX.md` and `SKILL_INDEX.md` with the new format indicators.
+
+### 8. CHECKPOINT 2: Quality Verification
+**User reviews one workflow output** to confirm quality meets expectations.
+
+Present:
+- One sample workflow file (the primary/most important one)
+- Workflow count and names
+- Registration confirmation
+
+If quality passes, skill is DEPLOYED. If not, iterate on specific issues.
+
+### 9. Report
+Present summary:
 - Expert name and domain
 - Extraction tier used
-- Number of genius patterns identified
-- Number of crown jewel prompts generated
-- **Applied Intelligence highlights** — top 2-3 capability unlocks
-- Validation result (if run)
+- Genius patterns + hidden knowledge counts
+- **Workflows created** (count + names)
+- Applied Intelligence highlights
 - Skill location in the system
-- Any flags or decisions needed
 
 ## Options
 
-- **Skip validation**: User can say "skip validation" or "light extract" to bypass Step 3
-- **Deep extract**: User can say "deep extract" to force Deep tier regardless of material size
-- **Validate only**: User can say "/validate [skill name]" to run validation on an existing extraction
+- **Skip validation**: "skip validation" or "light extract" to bypass Step 3
+- **Deep extract**: "deep extract" to force Deep tier
+- **Validate only**: "/validate [skill name]" for existing extractions
 
 ## Extraction Philosophy
 
-This system exists to build Farrice's Iron Man suit — each extraction adds a new module. We don't extract to document; we extract to **deploy**. Every extraction should leave Farrice with a capability he didn't have before. Surface-level pattern matching is failure. We go deep into what the expert means, what they enable, and how it compounds with everything else in the arsenal.
+This system builds Farrice's Iron Man suit — each extraction adds a new module. We don't extract to document; we extract to **deploy**. Every extraction leaves Farrice with a capability he didn't have before.
 
-The goal: a solopreneur operating with 30-40 experts worth of compound intelligence, producing work that's grounded in world-class methodology, deployed through agentic workflows, and generating real revenue.
+The completion engine format ensures that each capability is a **self-contained workflow** that carries the expert's full genius and produces a finished deliverable. No more fragmented prompts that dilute the nuance. The expert's integrated thinking stays integrated.

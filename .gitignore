@@ -37,3 +37,6 @@ Thumbs.db
 
 # Standalone skill files (should be in skills/ directory)
 *.skill
+
+# Claude Code local settings (may contain secrets in permission rules)
+.claude/settings.local.json

@@ -21,6 +21,8 @@ The user (Farrice) naturally works in raw intent mode — half-formed ideas, uns
 - User's request uses vague language: "something about...", "I'm thinking...", "help me with...", "I want to do..."
 - User's request could be interpreted 3+ different ways
 - User explicitly says their thought isn't fully formed
+- User is speaking conversationally without specifying a slash command (assume Score 2-3 and at minimum present a sharpened version)
+- User mentions a domain where they have deployed skills but doesn't reference them (trigger `/recommend` alongside)
 
 ### NEVER Trigger When:
 - Request is a clear, specific instruction with all parameters
@@ -174,6 +176,20 @@ After refinement, present this to the user:
 2. **Don't block flow** — If the user is in rapid-fire mode and intent is Score 3+, just confirm and go
 3. **Don't be annoying** — One round of questions max. If user says "just go", go.
 4. **Don't skip for swarms** — The swarm amplifies both quality AND mistakes. Always refine for swarms.
+
+---
+
+## Usage Tracking
+
+> **Purpose**: Detect dead infrastructure. If this directive hasn't fired in 30 days, it should be reviewed for relevance or archived.
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | 2026-02-24 |
+| **Activation Count** | 2 |
+| **30-Day Review Date** | 2026-03-26 |
+
+**Update Rule**: When this protocol fires (sharpness scoring or DICE), update the "Last Activated" date and increment the count.
 
 ---
 

@@ -69,9 +69,20 @@ Evaluate every source against this 4-point rubric:
 - **Define 3-5 specific questions** that constitute "complete" research
 - Set the depth level and tab budget
 
-### 2. Initial Web Search
+### 2. Perplexity-First Research ⚠️ MANDATORY
 // turbo
-- Run 3-5 targeted searches to map the information landscape
+- **Check budget**: Read `.agent/perplexity-usage.json` for remaining budget
+- Run 1-3 **collapsed** Perplexity queries using `mcp_perplexity-ask_perplexity_ask`:
+  - Combine related questions into single prompts (The Collapsing Rule)
+  - Use Sonar for quick lookups, Sonar Pro for trend/social data, Deep Research for strategic intel
+- **Log each query** to `.agent/perplexity-usage.json`
+- Extract: cited facts, data points, source URLs, verbatim quotes
+- **If budget exhausted**: Notify user, proceed to Step 3 with `search_web` fallback
+- **Reference**: `directives/perplexity-usage-policy.md`
+
+### 3. Supplementary Web Search
+// turbo
+- Run 3-5 targeted searches to fill gaps NOT covered by Perplexity
 - Identify: authoritative sources, recent updates, key players, data sources
 - **Create prioritized source list** before opening any browser tabs
 - Note gaps that need deeper investigation
@@ -98,6 +109,12 @@ Before writing any output, explicitly verify:
 - [ ] Gaps identified for follow-up (if any)
 
 **If gaps remain**: Request permission for targeted follow-up (max 2 additional tabs)
+
+### 5.5 Red Team Adversarial Check
+Before synthesis, run an adversarial pass on the gathered data:
+- **Confirmation Bias Check**: Did we only search for data that supports the premise?
+- **Counter-Narrative**: Run at least one search specifically for the counter-argument, failure cases, or criticisms of the topic.
+- **The "Missing Enemy"**: What is the most significant threat or alternative to the proposed topic/solution? Include this in the final output.
 
 ### 6. Synthesize Findings
 Based on `--output` format:

@@ -47,8 +47,8 @@ MAX_RETRIES = int(os.environ.get("SWARM_MAX_RETRIES", "1"))
 TOKEN_BUDGET = int(os.environ.get("SWARM_TOKEN_BUDGET", "500000"))
 MAX_PARALLEL = int(os.environ.get("SWARM_MAX_PARALLEL", "10"))
 
-# Gemini API endpoint
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+from google import genai
+from google.genai import types
 
 
 # --------------------------------------------------------------------------
@@ -136,39 +136,28 @@ EXPERT_DOMAINS = {
 
 async def call_gemini(prompt: str, system_instruction: str = "", 
                       retries: int = MAX_RETRIES) -> Tuple[str, int]:
-    """
-    Make a single Gemini API call. Returns (response_text, tokens_used).
-    Handles retries with exponential backoff.
-    """
-    import urllib.request
-    import urllib.error
-
-    headers = {"Content-Type": "application/json"}
-
-    body = {
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.7,
-            "maxOutputTokens": 4096,
-        }
-    }
-
+    """Make a single Gemini API call via async SDK. Returns (response_text, tokens_used)."""
+    client = genai.Client(api_key=API_KEY)
+    
+    config = types.GenerateContentConfig(
+        temperature=0.7,
+        max_output_tokens=4096,
+    )
     if system_instruction:
-        body["systemInstruction"] = {
-            "parts": [{"text": system_instruction}]
-        }
-
-    url = f"{API_URL}?key={API_KEY}"
-    data = json.dumps(body).encode("utf-8")
-
+        config.system_instruction = system_instruction
+        
     for attempt in range(retries + 1):
         try:
-            # Run blocking IO in thread pool to keep async
-            loop = asyncio.get_event_loop()
-            response_text, tokens = await loop.run_in_executor(
-                None, _sync_api_call, url, data, headers
+            response = await client.aio.models.generate_content(
+                model=MODEL,
+                contents=prompt,
+                config=config
             )
-            return response_text, tokens
+            # Extract token usage if available; otherwise use 0
+            tokens = 0
+            if response.usage_metadata:
+                tokens = response.usage_metadata.total_token_count
+            return response.text, tokens
 
         except Exception as e:
             if attempt < retries:
@@ -177,44 +166,6 @@ async def call_gemini(prompt: str, system_instruction: str = "",
                 await asyncio.sleep(wait)
             else:
                 raise
-
-
-def _sync_api_call(url: str, data: bytes, headers: dict) -> Tuple[str, int]:
-    """Synchronous HTTP call to Gemini API (runs in thread pool)."""
-    import urllib.request
-    import urllib.error
-    import ssl
-
-    # Build SSL context — macOS Python often lacks root certs
-    try:
-        import certifi
-        ssl_ctx = ssl.create_default_context(cafile=certifi.where())
-    except ImportError:
-        # certifi not installed — use unverified context (only for Google API)
-        ssl_ctx = ssl.create_default_context()
-        ssl_ctx.check_hostname = False
-        ssl_ctx.verify_mode = ssl.CERT_NONE
-
-    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-
-    try:
-        with urllib.request.urlopen(req, timeout=120, context=ssl_ctx) as resp:
-            result = json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        error_body = e.read().decode("utf-8") if e.fp else ""
-        raise RuntimeError(f"API error {e.code}: {error_body}")
-
-    # Extract text
-    try:
-        text = result["candidates"][0]["content"]["parts"][0]["text"]
-    except (KeyError, IndexError):
-        raise RuntimeError(f"Unexpected API response: {json.dumps(result)[:500]}")
-
-    # Extract token count
-    usage = result.get("usageMetadata", {})
-    tokens = usage.get("totalTokenCount", 0)
-
-    return text, tokens
 
 
 # --------------------------------------------------------------------------
@@ -236,8 +187,7 @@ def load_agent_context(agent_name: str) -> str:
     agent_file = agent_dir / "AGENT.md"
     if agent_file.exists():
         content = agent_file.read_text()
-        # Only take first 2000 chars to stay lean
-        context_parts.append(content[:2000])
+        context_parts.append(content)
 
     # Skill overview — look for matching skill names
     for skill_name in SKILLS_PATH.iterdir():
@@ -245,15 +195,15 @@ def load_agent_context(agent_name: str) -> str:
             skill_file = skill_name / "SKILL.md"
             if skill_file.exists():
                 content = skill_file.read_text()
-                context_parts.append(content[:2000])
+                context_parts.append(content)
             break
 
     if not context_parts:
-        # Fallback: use domain description
-        domain = EXPERT_DOMAINS.get(agent_name, "general expertise")
-        context_parts.append(
-            f"You are {agent_name}, an expert in: {domain}. "
-            f"Apply your specialized knowledge and frameworks to complete the task."
+        # Halt execution if no specific knowledge is found
+        raise FileNotFoundError(
+            f"CRITICAL: Failed to load context for agent '{agent_name}'. "
+            f"Neither AGENT.md nor SKILL.md could be found. "
+            f"To prevent hallucination, script execution is halted."
         )
 
     return "\n\n---\n\n".join(context_parts)
@@ -582,9 +532,103 @@ Below are their individual outputs. Your job is to:
     try:
         response, tokens = await call_gemini(prompt, system)
         token_tracker["used"] += tokens
+
+        # Challenge round: pressure-test conflicts when 2+ agents contributed
+        if len(successful) >= 2:
+            challenge = await run_challenge_round(
+                response, successful, objective, token_tracker
+            )
+            if challenge:
+                response += f"\n\n---\n\n{challenge}"
+
         return response
     except Exception as e:
         return f"❌ Synthesis failed: {e}\n\nRaw agent outputs preserved in individual files."
+
+
+# --------------------------------------------------------------------------
+# Challenge Round (Adversarial Synthesis)
+# --------------------------------------------------------------------------
+
+async def run_challenge_round(initial_synthesis: str, results: List[AgentResult],
+                              objective: str, token_tracker: dict) -> str:
+    """
+    Identify conflicts from the initial synthesis and run a targeted debate
+    resolution. One additional API call — not one per conflict.
+
+    Returns challenge round text to append, or empty string if no meaningful
+    conflicts or budget is exhausted.
+    """
+    if token_tracker["used"] >= TOKEN_BUDGET:
+        print("  ⚠️  Skipping challenge round — token budget exhausted")
+        return ""
+
+    print("  🔥 Running challenge round...")
+
+    # Truncate each agent's output to keep the challenge call lean
+    agent_positions = "\n\n".join(
+        f"**{r.agent_name}**:\n{r.output[:800]}"
+        for r in results
+    )
+
+    prompt = f"""## CHALLENGE ROUND — Conflict Resolution
+
+You are the Swarm Arbiter. You've received an initial synthesis from {len(results)} expert agents.
+
+**OBJECTIVE:** {objective}
+
+**INITIAL SYNTHESIS:**
+{initial_synthesis}
+
+**ORIGINAL AGENT POSITIONS (truncated):**
+{agent_positions}
+
+## YOUR TASK
+
+1. **Identify the top 2-3 MEANINGFUL conflicts** — places where agents genuinely disagree on approach, priority, or conclusion. Ignore surface-level wording differences.
+
+2. **For each conflict**, present:
+   - The competing positions (which agents hold which view)
+   - The strongest argument FOR each side
+   - Your **VERDICT**: Which position is stronger and WHY, or why both are valid in different contexts
+
+3. If there are NO meaningful conflicts (agents largely agree), say so clearly and skip to Strengthened Conclusions.
+
+## OUTPUT FORMAT
+
+# Challenge Round Results
+
+## Conflicts Identified: [N]
+
+### Conflict 1: [Topic]
+- **Position A** ([Agent(s)]): [Their argument]
+- **Position B** ([Agent(s)]): [Their argument]
+- **Verdict**: [Resolution with reasoning]
+
+### Conflict 2: [Topic]
+[Same format]
+
+## Strengthened Conclusions
+[2-3 sentences on what the challenge round confirmed, changed, or nuanced]
+
+## Revised Confidence
+[Did the challenge round increase or decrease overall confidence? Why?]
+"""
+
+    system = (
+        "You are a debate arbiter. Find genuine disagreements between experts, "
+        "pressure-test both sides, and deliver clear verdicts. Be direct. "
+        "Don't manufacture conflicts that don't exist, but don't paper over real ones either."
+    )
+
+    try:
+        response, tokens = await call_gemini(prompt, system)
+        token_tracker["used"] += tokens
+        print(f"  🔥 Challenge round complete ({tokens:,} tokens)")
+        return response
+    except Exception as e:
+        print(f"  ⚠️  Challenge round failed (non-critical): {e}")
+        return ""
 
 
 # --------------------------------------------------------------------------
@@ -718,9 +762,7 @@ Examples:
 
 def _apply_model_override(model_name: str):
     """Apply a model override at module level."""
-    global MODEL, API_URL
-    MODEL = model_name
-    API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent"
+    pass
 
 
 if __name__ == "__main__":

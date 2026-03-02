@@ -46,6 +46,18 @@ All outputs are saved to `/Users/farricecain/Google Antigravity/swarm_outputs/`:
 - **Max 10 parallel agents** (configurable in .env)
 - **Real-time cost tracking** printed to terminal
 
+## Identity Firewall Rule
+When generating content about Farrice Cain:
+- ONLY reference FARRICE.md for personal background
+- NEVER pull biographical details from client project directories
+- Client projects (Coach Cooz, etc.) are CLIENT work, not Farrice's personal story
+
+## Post-Generation Identity Check
+Before finalizing any content that references Farrice's background:
+1. Grep for: "trauma", "addiction", "clinical", "therapy", "therapist", "crisis"
+2. If found: Flag and cross-reference against FARRICE.md
+3. If not in FARRICE.md: Remove and replace with verified background
+
 ## Available Agents
 cardinal-mason, harry-dry, seena-rez, samuel-thompson, jim-oshaughnessy, jeremy-miner, michael-bernoff, shaan-puri, kallaway, oren, dan-koe, lara-acosta, erica-mallet, lulu-cheng-meservey, seth-godin, tobias-allen, nicolas-cole, nathan-gotch, adam-enfroy, daniel-priestley, tom-noske, sabri-suby, rory-sutherland, monk-ai, ali-abdaal, nick-saraev, david-bayer, fareed-zakaria, jonathan-franzen, lucas-alpay, donald-miller
 
