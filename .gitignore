@@ -18,7 +18,14 @@ node_modules/
 
 # Build output
 out/
+dist/
 .remotion/
+
+# Chrome profiles
+chrome_profile_*/
+
+# Playwright MCP logs
+.playwright-mcp/
 
 # Large/generated files
 *.mp4
@@ -27,3 +34,6 @@ out/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Standalone skill files (should be in skills/ directory)
+*.skill
