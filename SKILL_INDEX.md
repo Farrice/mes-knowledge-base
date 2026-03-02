@@ -95,6 +95,7 @@
 | `nate-herk-client-acquisition` | **Nate Herk - AI Client Acquisition** |  | 3 |
 | `nathan-gotch-ai-seo` | **nathan-gotch-ai-seo** |  | 28 |
 | `nick-saraev-agentic-workflows` | **nick-saraev-agentic-workflows** |  | 39 |
+| `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | pipeline, constraint, bottleneck, Theory of Constraints, flywheel, scaling | 3 |
 | `nicolas-cole-digital-products` | **nicolas-cole-digital-products** |  | 6 |
 | `nicolas-cole-sentence-craft` | **nicolas-cole-sentence-craft** |  | 14 |
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 20 |

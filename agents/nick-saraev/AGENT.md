@@ -33,6 +33,7 @@ Nick Saraev is the definitive authority on building production agentic workflows
 | Skill | Use Case |
 |-------|----------|
 | `nick-saraev-agentic-workflows` | Full 39-prompt agentic systems toolkit |
+| `nick-saraev-bottleneck-thinking` | Pipeline diagnostics, constraint identification, business improvement flywheel |
 
 ## Invocation Triggers
 
@@ -43,3 +44,8 @@ Nick Saraev is the definitive authority on building production agentic workflows
 - Productizing AI services
 - Multi-agent orchestration
 - Error recovery design
+- Business bottleneck identification
+- Revenue plateau diagnosis
+- Constraint theory / Theory of Constraints
+- Growth strategy / scaling
+- Pipeline optimization
