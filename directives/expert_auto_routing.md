@@ -32,6 +32,7 @@ Before responding to ANY user request, I must run this mental checklist:
 | **Strategy/Decision** | "should I", "what's the best", "how do I approach" | Auto-invoke Jim O'Shaughnessy + domain experts |
 | **Copywriting** | "sales page", "email", "headline", "convert" | Auto-invoke Cardinal Mason + Harry Dry |
 | **Personal Brand** | "LinkedIn", "positioning", "brand", "authority" | Auto-invoke Lara Acosta + Tom Noske |
+| **Ghostwriting** | "ghostwrite", "write as", "voice capture", "coach content", "proof run", "demo rewrite" | Auto-invoke Ghostwriting Voice Engine (`/ghostwrite`) |
 | **Product/Offer** | "product", "offer", "pricing", "launch" | Auto-invoke Samuel Thompson + Monk.AI |
 | **Sales/Persuasion** | "objection", "close", "persuade", "sell" | Auto-invoke Jeremy Miner + Alen Sultanic |
 | **Storytelling** | "story", "narrative", "hook", "engage" | Auto-invoke Shaan Puri + Lucas Alpay |
@@ -91,6 +92,11 @@ If YES, also invoke:
 1. Harry Dry (Three Rules Test)
 2. Cardinal Mason (conversion systems)
 3. Alen Sultanic (buyer psychology)
+
+### For Coach Ghostwriting
+1. Ghostwriting Voice Engine (`/ghostwrite` — full pipeline)
+2. Lara Acosta (voice extraction + LinkedIn mastery)
+3. Nicolas Cole (sentence refinement + voice preservation)
 
 ### For Viral Content
 1. Seena Rez (TikTok commerce)

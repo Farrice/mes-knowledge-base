@@ -46,6 +46,7 @@
 | `frontend-design` | **frontend-design** |  | 0 |
 | `futurepedia-prompt-engineering` | **futurepedia-prompt-engineering** |  | 18 |
 | `gemini-api-dev` | **gemini-api-dev** |  | 0 |
+| `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** | ghostwriting, voice capture, LinkedIn, coaches, content production, demo | 3 |
 | `harry-dry-copywriting` | **harry-dry-copywriting** |  | 14 |
 | `internal-comms` | **internal-comms** |  | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic - LinkedIn Organic Growth** |  | 14 |
