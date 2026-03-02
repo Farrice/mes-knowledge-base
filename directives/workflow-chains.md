@@ -92,30 +92,9 @@
 
 ## Handoff Summary Protocol
 
-> **Adapted from Anthropic's PTC philosophy**: Only pass the model what it needs to reason about. Keep intermediate results out of context.
+**At every chain boundary, use a handoff summary.** Format and rationale: `directives/token-efficiency-protocol.md` Rule 1.
 
-At each chain boundary, the completing step produces a compressed handoff instead of leaving raw output in context:
-
-```markdown
-## Chain Handoff: [Completing Step] → [Next Step]
-
-**Expert**: [Name]
-**Domain**: [1-line]
-**Key Outputs**: [count] patterns, [count] prompts, [count] files
-**Core Methodology**: [1-2 sentences — the essential framework]
-**Files Created**: [list of paths]
-**Next Step Needs**: [what specifically to read — not everything]
-```
-
-### Why This Matters
-
-Without handoff summaries, a 3-step chain like `/extract → /convert → /create-agent` accumulates:
-- Full transcript (~10K tokens)
-- Full extraction report (~5K tokens)  
-- Full SKILL.md + genius-patterns (~3K tokens)
-- All prompt files (~2K+ tokens each)
-
-With handoff summaries, each step sees only ~200-300 tokens of context from the prior step, plus targeted file reads. **Estimated savings: 40-60% fewer tokens per chain execution.**
+Estimated savings: 40-60% fewer tokens per chain execution.
 
 ---
 

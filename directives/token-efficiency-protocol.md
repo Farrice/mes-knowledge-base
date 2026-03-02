@@ -103,17 +103,9 @@ Cards are stored in `agents/_framework/invocation-cards.md` — a single file wi
 
 ## Rule 4: Smart Skill Discovery (Context Engine Tiered Chain)
 
-**Start at Tier 0. Escalate only when needed.**
+**Start at Tier 0. Escalate only when needed.** Full tiered chain protocol: `directives/agent-loading-protocol.md`.
 
-For domain detection and expert loading:
-1. **Tier 0 — Card Check**: Read `agents/_framework/invocation-cards.md` (~50 tokens/expert). Sufficient for routing, recommendations, ensemble selection.
-2. **Tier 1 — Standard Load**: Read SKILL.md + specific prompt (~1,350 tokens). For single expert, clear task.
-3. **Tier 2 — Deep Load**: Read SKILL.md + genius-patterns + prompt (~2,550 tokens). For creative/complex work.
-4. **Tier 3 — Sub-Agent**: Spawn sub-agent with fresh context (~300 tokens in main). For multi-expert or 10+ files already loaded.
-
-**If no card matches**: Fall back to `AGENT_INDEX.md` keyword search, then add a card after.
-**Skill file paths**: `directives/skill-paths-reference.md`
-**Full protocol**: `directives/agent-loading-protocol.md`
+Key principle: Don't read full skill files until you need them. Use invocation cards (~50 tokens each) for routing; escalate to Tier 1-3 only for execution.
 
 ---
 
@@ -144,8 +136,8 @@ For domain detection and expert loading:
 ## Integration
 
 This protocol fires **alongside** (not instead of):
-- `directives/expert_auto_routing.md` — routing decisions
-- `directives/workflow-chains.md` — chain contracts (now with handoff summaries)
+- `directives/intent-pipeline.md` — intent processing and expert routing
+- `directives/workflow-chains.md` — chain contracts (references this file for handoff format)
 - `directives/sub_agent_protocol.md` — sub-agent handoffs
 - `directives/quality_gate.md` — output quality
 

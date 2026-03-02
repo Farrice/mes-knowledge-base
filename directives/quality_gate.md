@@ -2,6 +2,7 @@
 
 > **Trigger**: Run silently after any output produced using an expert skill or agent persona.
 > **Mode**: Silent — the user sees nothing unless a retry changes the output.
+> **Inline version**: A compact version of this gate is embedded directly in `CLAUDE.md` under "Post-Output Quality Gate" for enforcement. This file contains the full protocol details.
 
 ---
 

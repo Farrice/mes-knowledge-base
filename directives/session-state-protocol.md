@@ -2,6 +2,7 @@
 
 > **Purpose**: Prevent context drift after compaction by writing checkpoint files at key moments. When compaction occurs, re-read the anchor to recover precise context instead of relying on lossy summaries.
 > **State File**: `.agent/session-state.md`
+> **Inline version**: A compact version of the checkpoint triggers is embedded in `CLAUDE.md` under "Session State Checkpoints" for enforcement. This file contains the full protocol details.
 > **Created**: 2026-02-27
 
 ---
