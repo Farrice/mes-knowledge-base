@@ -1,0 +1,67 @@
+---
+name: "Joshua Smith - Real Estate Sales Mastery"
+description: "Complete real estate business system for predictable closings — new client acquisition, KPI-driven conversion optimization, daily schedule architecture, and urgency-niche targeting from an agent who sold 7,000+ homes."
+---
+
+# Joshua Smith: Real Estate Sales Mastery
+
+Joshua Smith sold over 7,000 homes, was ranked top 1% of real estate agents worldwide for 21 consecutive years, and has coached 5,000+ agents. His methodology treats real estate as a predictable, math-driven business where "tiny hinges swing big doors." Extracted from a deep tactical interview (10,268 words) where he reveals the exact systems that took him from 40 deals in year one to 63 closings in a single month.
+
+## Core Methodology
+
+**Market Agnosticism**: There is no good or bad market — only "who is the market good for?" Identify who's buying, selling, why, and pivot accordingly. This Mental model has produced growth in every market cycle for 21 years.
+
+**The Game**: Real estate reduces to one chain — Activities → Leads → Appointments → Conductions → Clients → Closings → Past Clients → Loop. Every action either strengthens a link or wastes time.
+
+**Conversion Over Volume**: The fastest path to doubling business isn't more leads — it's improving conversion rates at each funnel stage by 10-20%. Industry average follow-up is 1.7 attempts; reality requires 60.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `market-pivot-analyzer` — Market Pivot Analyzer | Market shifts, new year planning, feeling stuck on strategy |
+| 2 | `niche-selector` — Urgency Niche Selector | Choosing which listing niches to target |
+| 3 | `icp-trifecta-builder` — ICP Trifecta Builder | Defining ideal client demographic, psychographic, and congregation |
+| 4 | `daily-schedule-architect` — Daily Schedule Architect | Need a structured daily routine for production |
+| 5 | `kpi-tracking-system` — KPI Tracking System | Setting up data tracking and performance dashboards |
+| 6 | `conversion-multiplier` — Conversion Multiplier Diagnostic | Business feels stalled despite lead volume |
+| 7 | `lead-followup-protocol` — 60-Touch Follow-Up Protocol Generator | Building persistent lead nurture sequences |
+| 8 | `appointment-show-rate-optimizer` — Show Rate Optimizer | Appointments keep canceling or no-showing |
+| 9 | `presentation-close-system` — Four-Move Presentation Close | Need buyer or listing presentation scripts |
+| 10 | `business-predictability-calculator` — Predictability Calculator | Want to forecast closings 90-120 days out |
+| 11 | `pipeline-rescue-plan` — Pipeline Rescue Plan | Zero pipeline, haven't closed in months, need immediate action |
+| 12 | `team-coaching-playbook` — Team Coaching Playbook | Managing/coaching a team of agents to consistent production |
+
+## Prompt Categories
+
+### Strategy & Targeting (Prompts 1-3)
+Market analysis, niche selection, and client identification. Start here when building or pivoting a real estate business.
+
+### Daily Operations (Prompts 4-5)
+Schedule architecture and KPI tracking. The operational backbone that makes everything else predictable.
+
+### Conversion Optimization (Prompts 6-9)
+The "tiny hinges" — improving conversion at each funnel stage to multiply output without more leads.
+
+### Business Intelligence (Prompts 10-12)
+Forecasting, emergency recovery, and team-level coaching systems.
+
+## Workflow Decision Tree
+
+**Start here**: What's the agent's primary problem?
+
+- **"I don't know what to focus on"** → `market-pivot-analyzer` → `niche-selector`
+- **"I don't have enough leads"** → `icp-trifecta-builder` → `lead-followup-protocol`
+- **"I have leads but can't convert"** → `conversion-multiplier` → `appointment-show-rate-optimizer` → `presentation-close-system`
+- **"My schedule is chaos"** → `daily-schedule-architect` → `kpi-tracking-system`
+- **"I haven't closed in months"** → `pipeline-rescue-plan` (emergency protocol)
+- **"I want predictability"** → `kpi-tracking-system` → `business-predictability-calculator`
+- **"I'm running a team"** → `team-coaching-playbook`
+- **"New year, fresh start"** → `market-pivot-analyzer` → `niche-selector` → `daily-schedule-architect`
+
+## Quick Start
+
+- **Complete business reset**: Run `market-pivot-analyzer` → `niche-selector` → `icp-trifecta-builder` → `daily-schedule-architect`
+- **Double production fast**: Run `conversion-multiplier` → `appointment-show-rate-optimizer` → `presentation-close-system`
+- **Emergency pipeline rebuild**: Run `pipeline-rescue-plan`
+- **Team coaching system**: Run `team-coaching-playbook` → `kpi-tracking-system`

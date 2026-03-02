@@ -1,0 +1,52 @@
+---
+name: "nate-b-jones-trust-architecture"
+description: "Zero-Trust Agentic Architecture & Systemic Hallucination Defense"
+---
+
+# Nate B Jones - AI Trust Architecture
+
+This skill embodies Nate B Jones's methodology for "Structural Trust Architecture." It replaces behavioral-based safety (hoping the AI tells the truth) with structural safety guarantees (engineering systems where failure is structurally impossible or contained).
+
+## Context & Application 
+
+Traditional AI safety relies on "intent"—prompting an agent to "be good" or "tell the truth." This is fundamentally flawed because it triggers the Vigilance Fallacy: humans are incapable of verifying large volumes of AI output long-term. Under cognitive load, vigilance collapses, leading to catastrophic scaling failures.
+
+This skill deploys "Structural Trust"—treating AI not as infrastructure, but as a malicious insider threat. It utilizes circuit breakers, compartmentalization, and external verification mechanisms to guarantee safety without relying on the agent's internal compliance. 
+
+Apply this skill when designing agentic workflows, multi-agent swarms, or systems that handle high-stakes decisions where hallucinations or sycophantic deviations would cause severe damage.
+
+## Deployable Capabilities
+
+- **Zero-Trust Engineering**: Designing workflows where an agent's output is structurally quarantined until proven valid by an independent mechanism.
+- **Cognitive Load Elimination**: Building "trust interfaces" that explicitly summarize failures rather than burying them in logs, saving human mental bandwidth.
+- **Sycophancy Deflection**: Hard-coding specific triggers that prevent an agent from simply agreeing with user assumptions when those assumptions are flawed.
+- **Fractal Failure Diagnosis**: Tracing macro-failures (e.g., a project collapse) down to micro-breaches (e.g., an agent overstepping boundary conditions).
+
+## Workflow Decision Tree
+
+1. **If designing a new standalone agent:** Run the *Zero-Trust Workflow Auditing* prompt to ensure the agent's constraints are structural, not behavioral.
+2. **If deploying a multi-agent swarm:** Run the *Swarm Sabotage Red-Team Exercise* to identify inter-agent collusion vulnerabilities.
+3. **If dealing with executive decision-making:** Run the *Cognitive Context Sandbox* to prepare leaders for interacting with highly persuasive, sycophantic AI models.
+4. **If implementing specific constraints:** Use the *Circuit Breaker Implementation Protocol* and *Agent Deepfake Safe Word Generation*.
+
+## Quick Start
+
+1. Never deploy an agent with generalized permissions.
+2. If an agent performs a task, a *different* non-generative system must verify it.
+3. "Vigilance is a vulnerability." If a human must constantly double-check an agent's work, the architecture has failed.
+4. Define structural "circuit breakers" (time limits, API call limits, output format strictness) that halt execution immediately upon deviation.
+
+## Available Prompts
+
+- `01_zero_trust_workflow_auditing.md`
+- `02_circuit_breaker_implementation.md`
+- `03_swarm_sabotage_red_team.md`
+- `04_cognitive_context_sandbox.md`
+- `05_fractal_failure_autopsy.md`
+- `06_sycophancy_deflection_shield.md`
+- `07_insider_threat_permissions_map.md`
+- `08_vigilance_fallacy_stress_test.md`
+- `09_agent_deepfake_safe_words.md`
+- `10_the_blind_handoff_protocol.md`
+- `11_structural_containment_vaults.md`
+- `12_cognitive_load_elimination_interface.md`

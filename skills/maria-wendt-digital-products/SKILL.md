@@ -1,34 +1,24 @@
 ---
-name: maria-wendt-digital-products
+name: "Maria Wendt: Digital Product Mastery"
 description: "Maria Wendt's Instagram digital product sales system: viral product creation, checkout optimization, and content-to-revenue conversion"
+version: "2.0"
+format: "completion-engine"
+workflows: 4
 ---
 
 # Maria Wendt: Digital Product Mastery
 
 > How to use Instagram to sell digital products at scale with viral content and optimized funnels.
 
-## Prompt Library (17 Prompts)
+## Available Workflows
 
-| Prompt | Use Case |
-|--------|----------|
-| `crown_jewel_01_viral_product_architect` | Create viral-worthy digital products |
-| `crown_jewel_02_checkout_page_generator` | High-converting checkout pages |
-| `crown_jewel_03_instagram_automation_blueprint` | Instagram sales automation |
-| `crown_jewel_04_order_bump_upsell_architect` | Order bumps and upsells |
-| `crown_jewel_05_content_calendar_engine` | Content calendar for sales |
-| `crown_jewel_06_invitation_energy_sales_copy` | Invitation-style sales copy |
-| `crown_jewel_07_social_proof_accelerator` | Social proof systems |
-| `crown_jewel_08_product_flop_diagnostic` | Diagnose underperforming products |
-| `crown_jewel_09_market_demand_validator` | Validate market demand |
-| `crown_jewel_10_roi_angle_excavator` | Find compelling ROI angles |
-| `crown_jewel_11_checkout_friction_eliminator` | Remove checkout friction |
-| `crown_jewel_12_expertise_excavation_engine` | Extract expertise into products |
-| `crown_jewel_13_content_multiplication_machine` | Multiply content across platforms |
-| `crown_jewel_14_ltv_maximization_strategist` | Maximize customer lifetime value |
-| `crown_jewel_15_business_simplification_audit` | Simplify business operations |
-| `crown_jewel_16_instagram_buyer_psychology` | Instagram buyer psychology |
-| `crown_jewel_17_content_revenue_analyzer` | Analyze content-to-revenue |
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| viral | [Viral Product & Offer Blueprint](workflows/viral-product-offer-blueprint.md) | A complete product architecture document including validated demand, ROI positioning, and tiered offer structure | You need to turn your expertise into a digital product that is pre-validated to sell |
+| high | [High-Conversion Sales & Checkout System](workflows/high-conversion-checkout-system.md) | A fully optimized checkout page design with invitation-style copy and psychological triggers | You have a product but need to build or optimize the sales and checkout experience to maximize conversions |
+| instagram | [Instagram Sales Content & Automation Engine](workflows/instagram-sales-content-engine.md) | A 30-day content calendar with automated sales triggers and multi-platform distribution plan | You want to automate your Instagram sales and turn your content into a predictable revenue stream |
+| business | [Business Optimization & Profit Recovery](workflows/business-optimization-profit-recovery.md) | A strategic audit report for scaling revenue, fixing 'flops', and simplifying operations | You need to fix a product that isn't selling, increase customer lifetime value, or simplify a complex business |
 
-## Related
-
-- **Agent**: `@maria-wendt`
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

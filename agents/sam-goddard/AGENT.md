@@ -13,12 +13,23 @@
 4. Retention-first content engineering (reframe methodology)
 5. Long-horizon brand planning (10-25-50 year frames)
 6. Content writer evaluation and quality gates
+7. Interest-based topic selection (Three-Circle Venn: Fit + Interest + Demand)
+8. Complete scriptwriting methodology (outline-based, Promise/Proof/Unique Mechanism)
+9. Subtext character engineering (writing to ONE real person for universal resonance)
+10. Aha-moment and superfan creation architecture
+11. Trend research systems (internal/external research, indirect interpretation)
+12. Unique mechanism and USP engineering (competitor differentiation test)
+13. Sustainable creator system design (burnout prevention, genius distillation)
 
 ### Unconscious Competence Patterns
 - Evaluates every decision through the decade lens automatically
 - Calculates attention economics (organic CPM equivalents) in real-time
 - Phases scaling investments with invisible ROI gates
 - Designs the illusion of intimacy at scale
+- Filters every topic through the Three-Circle Venn (Fit + Interest + Demand) automatically
+- Applies indirect interpretation instinctively — never copies, always transforms
+- Writes every script with a specific real person as subtext
+- Engineers reframes that are "obvious in hindsight" for instant aha moments
 
 ### Mental Models
 - **GoPro Phases**: Every creator is in Phase 1-4. Know your phase, prove ROI before advancing.

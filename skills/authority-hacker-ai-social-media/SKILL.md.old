@@ -1,0 +1,68 @@
+---
+name: "Authority Hacker — AI Social Media Mastery"
+description: "Deploy AI as a social media co-pilot that packages human insight into emotionally-engineered, platform-native content that converts — while maintaining authentic voice and self-improving through performance feedback loops."
+---
+
+# Authority Hacker: AI Social Media Mastery
+
+Extracted from Gael Breton & Mark Webster (Authority Hacker co-founders, 7-figure business). This skill encodes their production-tested methodology for using AI effectively across organic social media and paid advertising. The core insight: AI should *package* your thinking, never *replace* it. Information is dead on social media — emotional resonance and storytelling drive distribution.
+
+Source: Authority Hacker Podcast — AI social media automation, engagement engineering, and meta ad creative generation.
+
+## Core Methodology
+
+**The Emotion-First Content Architecture**: Every piece of content opens with emotional resonance — how something *feels*, not what it *does*. The hook earns 3 seconds of attention, the opening paragraph buys 30 seconds, and the embedded value earns 6 minutes. Technical details exist below the fold for people who've already been hooked. Information is everywhere — emotion is the only differentiator.
+
+**The Self-Improving Content Engine**: Build a Claude Code skill that manages posting, scrapes performance data weekly (likes, saves, reposts, comments), generates qualitative insights about what worked and what didn't, and updates its own documentation. The system compounds — it gets smarter every week. This creates an unfair advantage that widens over time.
+
+**The Authenticity Ratio & Imperfection Engineering**: Pure AI content degrades your algorithmic standing. The solution is a deliberate mix: 60-70% AI-packaged content + 30-40% raw human posts (hot takes, memes, reactions). For AI content, deliberately introduce imperfections — speech patterns, incomplete thoughts, colloquial language — so it reads as human, not corporate.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `emotion-first-post-generator` — Emotion-First Post Generator | Creating any organic social post from a raw idea or context |
+| 2 | `duality-hook-engineer` — Duality Hook Engineer | Need a high-performance hook that creates debate and distribution |
+| 3 | `customer-roleplay-deep-dive` — Customer Roleplay Deep Dive | Starting any ad campaign or sales copy — need to understand customer pain |
+| 4 | `meta-ad-campaign-builder` — Meta Ad Creative Campaign Builder | Generating full meta ad creative sets with visuals and copy |
+| 5 | `content-humanizer` — Content Humanizer | Post-processing AI-generated content to feel authentically human |
+| 6 | `self-learning-social-audit` — Self-Learning Social Audit | Running weekly content performance analysis and updating documentation |
+| 7 | `three-angle-content-splitter` — Three-Angle Content Splitter | Generating multiple distinct approaches to the same topic |
+| 8 | `hook-dominance-scorer` — Hook-Dominance Scorer | Evaluating and ranking hooks before committing to full post creation |
+| 9 | `niche-emotional-targeting-engine` — Niche Emotional Targeting Engine | Identifying the micro-audience whose intense reaction drives distribution |
+| 10 | `social-media-os-builder` — Social Media Operating System Builder | Building a complete AI-assisted content pipeline from scratch |
+| 11 | `ad-visual-template-architect` — Ad Visual Template Architect | Creating and cataloging proven ad visual formats for AI generation |
+| 12 | `authenticity-ratio-planner` — Authenticity Ratio Planner | Planning a content calendar that balances AI-assisted and raw human posts |
+
+## Prompt Categories
+
+### Content Creation (Organic)
+Prompts 1, 5, 7 — Generate emotion-first posts from raw ideas, split into multiple angles, and humanize the output. This is the daily driver workflow.
+
+### Hook & Engagement Engineering
+Prompts 2, 8 — Create polarizing hooks and score them before investing in full post development. Hook quality determines 80% of post performance.
+
+### Paid Advertising
+Prompts 3, 4, 11 — Full ad creative pipeline from customer roleplay through visual template selection to complete campaign generation at ~$2.50/run.
+
+### Systems & Strategy
+Prompts 6, 9, 10, 12 — Build and maintain the operating system: weekly self-learning audits, audience targeting, full pipeline architecture, and calendar planning.
+
+## Workflow Decision Tree
+
+**Start here**: What are you trying to do?
+
+- **Create a social post from an idea** → `emotion-first-post-generator` → `content-humanizer`
+- **Need a killer hook** → `duality-hook-engineer` → `hook-dominance-scorer` to evaluate
+- **Planning this week's content** → `authenticity-ratio-planner` → `three-angle-content-splitter` for each topic
+- **Launching an ad campaign** → `customer-roleplay-deep-dive` → `ad-visual-template-architect` → `meta-ad-campaign-builder`
+- **Analyzing what's working** → `self-learning-social-audit`
+- **Building the full system** → `social-media-os-builder` → then layer in individual prompts
+- **Finding your micro-audience** → `niche-emotional-targeting-engine`
+
+## Quick Start
+
+- **Write one great post right now**: Run `emotion-first-post-generator` with your raw thought → `content-humanizer`
+- **Create a full ad campaign**: Run `customer-roleplay-deep-dive` → `meta-ad-campaign-builder`
+- **Build your content system**: Run `social-media-os-builder` → then `authenticity-ratio-planner` for your first week
+- **Improve existing content**: Run `hook-dominance-scorer` on your last 5 underperforming posts to identify hook failures

@@ -1,0 +1,68 @@
+---
+name: oren-operational-systems
+description: Operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos, ideas pipelines, weekly updates, team trackers, process docs, signature series, and content pillar measurement
+---
+
+# Oren — Operational Systems
+
+Install the operational infrastructure that world-class creative directors use to execute with speed, confidence, and zero friction. This is the systems layer beneath creative vision — the difference between "I know what's good" and "I ship what's good on time, every time."
+
+## When to Invoke
+
+- Setting up a reference or inspiration management system
+- Building content calendars, ideas pipelines, or scheduling systems
+- Creating weekly stakeholder updates or client communication protocols
+- Building team tracking databases or delegation infrastructure
+- Writing process documentation for hiring or onboarding
+- Designing a signature content series strategy
+- Measuring and optimizing content performance with pillar analysis
+- Systematizing any creative workflow for scale
+
+## Prompt Arsenal
+
+| Prompt | Use Case |
+|--------|----------|
+| `reference-repository-builder` | Build organized creative ammunition database with types, status, and review cadence |
+| `ideas-to-calendar-pipeline` | Convert raw ideas backlog into scheduled, managed content calendar |
+| `weekly-update-generator` | Produce structured TLDR → Accomplished → Plan → Blockers stakeholder update |
+| `team-tracker-architect` | Design accountability database with assignees, dates, statuses, request forms |
+| `process-doc-creator` | Build delegation-ready documentation (Loom → Transcript → Steps → Checklist → FAQ) |
+| `signature-series-designer` | Identify and design serialized content identity for defensible creative positioning |
+| `content-pillar-analyzer` | Monthly measurement + decision matrix (improve / keep / replace) for content strategy |
+
+## Key Frameworks
+
+### The Oren Operating System (OOS)
+4-level progression from solo creative to content mastery:
+1. **Solo Foundation** — Reference repo, ideas list, content folders
+2. **Stakeholder Interface** — Weekly updates, email outreach
+3. **Team Scale** — Team tracker, process docs
+4. **Content Mastery** — Signature series, pillar measurement
+
+### Core Principles
+- **Systems are creative infrastructure** — not bureaucratic overhead
+- **One system at a time** — install, master, then add the next
+- **Grow-into architecture** — minimal entry point, maximum ceiling
+- **Compound over time** — every week of maintaining systems accelerates future execution
+
+## Quick Start
+
+1. Read `references/genius-patterns.md` for the 8 core patterns
+2. Pick ONE system from the OOS levels that addresses your biggest friction point
+3. Deploy the corresponding prompt to build it immediately
+4. Run it for 30 days before adding the next system
+
+## Integration with Oren Quad-System
+
+| Module | Function | Compound Effect |
+|--------|----------|-----------------|
+| `oren-taste-development` | Know what's good | Reference repo + taste = curated creative intelligence engine |
+| `oren-luxury-psychology` | Speak to premium buyers | Weekly updates + insider codes = premium client communication |
+| `oren-repositioning` | Creative direction engine | Signature series + repositioning = strategically aligned content output |
+| **`oren-operational-systems`** | **Ship it on time** | **Systems + vision = world-class execution** |
+
+## Related Skills & Agents
+- `@oren` — Route to this module for any operational/systems request
+- `@soowei` — Stacks for consulting leverage architecture
+- `@boris` — Stacks for AI-powered workflow orchestration
+- `@nick-saraev` — Stacks for agentic workflow automation

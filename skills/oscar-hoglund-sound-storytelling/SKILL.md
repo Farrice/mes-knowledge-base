@@ -1,53 +1,26 @@
 ---
-name: "oscar-hoglund-sound-storytelling"
+name: "Oscar Hoglund - Sound Storytelling"
 description: "Sound and emotional storytelling methodology from Oscar Hoglund, CEO of Epidemic Sound. Create content that is felt in the body, not just read by the eyes."
+version: "2.0"
+format: "completion-engine"
+workflows: 4
 ---
 
 # Oscar Hoglund - Sound Storytelling
 
 Transform content from empty calories into unforgettable experiences using emotional umami principles.
-
-## Overview
-
 Oscar Hoglund's genius: Content should create **felt experiences**, not just intellectual understanding. Sound creates emotional umami—the taste you can't place but can't forget.
-
 **Core Insight**: Empty-calorie entertainment (fast food) vs. content that nourishes and transforms (Michelin star).
 
-## Deployable Capabilities (16 Prompts)
+## Available Workflows
 
-### Core Storytelling Prompts (1-7)
-| Prompt | Function |
-|--------|----------|
-| 01-empty-calorie-transform | Transform content into unforgettable experiences |
-| 02-continuum-mapping | Map concepts to reveal hidden insights |
-| 03-self-proving-arguments | Create arguments audiences verify themselves |
-| 04-body-based-truths | Connect claims to undeniable physical truths |
-| 05-classroom-story | Build vivid dialogue-rich stories |
-| 06-economic-translation | Convert emotional concepts to business logic |
-| 07-adversity-oscillation | Transform setbacks into innovation fuel |
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| emotional | [The Emotional Umami Content Engine](workflows/emotional-umami-content-engine.md) | High-Nourishment Narrative Campaign | Transforming generic, 'empty-calorie' content into immersive, multi-sensory storytelling that audiences want to consume repeatedly. |
+| sonic | [The Sonic Brand Identity Architect](workflows/sonic-brand-identity-architect.md) | Sonic Brand Identity & Strategic Soundtrack | Establishing a brand's unique audio presence or selecting the emotional soundtrack for specific scenes and narratives. |
+| self | [The Self-Proving Logic & Positioning System](workflows/self-proving-logic-positioning.md) | Body-Grounded Market Positioning Audit | Building undeniable market authority by grounding claims in physical truths and mapping unoccupied positions on conceptual continuums. |
+| innovation | [The Innovation & Economic Value Engine](workflows/innovation-economic-translation.md) | Economic Innovation & Intent Roadmap | Translating creative breakthroughs into business logic or turning organizational setbacks into innovative advantages. |
 
-### Cross-Domain Synthesis (8-16)
-| Prompt | Function |
-|--------|----------|
-| 08-body-copy | Copy felt in the body, not just read |
-| 09-continuum-positioning | Reveal unoccupied market positions |
-| 10-infinite-consumption | Content engineered for infinite replay |
-| 11-body-grounded-claims | Ground claims in undeniable truth |
-| 12-self-proving-viral | Content that spreads because it works |
-| 13-narratives-that-sell | Sell without selling |
-| 14-decode-intent | Decode unspoken intent from behavior |
-| 15-multi-sensory | Create felt experiences across senses |
-| 16-versatile-assets | Assets that multiply across channels |
-
-## Core Principles
-
-- **Emotional Umami**: The taste you can't place but can't forget
-- **Body-Based Truth**: Connect to physical experience
-- **Self-Proving**: Let audiences verify through their own experience
-- **Infinite Consumption**: Content worth experiencing repeatedly
-
-## Resources
-
-- [Genius Patterns](references/genius-patterns.md)
-- [Hidden Knowledge](references/hidden-knowledge.md)
-- [Implementation](references/implementation.md)
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

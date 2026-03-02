@@ -1,84 +1,30 @@
+---
+name: "Dan Koe - Multipassionate Mastery"
+description: ""
+version: "2.0"
+format: "completion-engine"
+workflows: 4
+---
+
 # Dan Koe - Multipassionate Mastery
 
 **Invocation**: `/deploy-skill dan-koe-multipassionate-mastery`  
 **Domain**: One-Person Business • Multi-Interest Monetization • Creator Economy • Content Architecture • Personal Brand
-
 ---
-
-## Overview
-
 Dan Koe's complete system for multipassionate individuals who refuse to niche down. Contains 24 Crown Jewel prompts spanning core methodology (7), advanced techniques (7), and Volume 2 superfan/viral mechanics (10).
-
 **Core Philosophy**:
 - Your interests aren't bugs—they're features
-- You ARE the niche (don't narrow to a topic)
-- Leverage beats hustle
-- Build a business that fuels life, not replaces it
+- You ARE the niche (don't 
 
----
+## Available Workflows
 
-## Prompt Arsenal (24 Total)
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| personal | [Personal Monopoly Foundation](workflows/personal-monopoly-foundation.md) | Personal Monopoly Brand Strategy | You are starting a new brand or pivoting your current business to align with your personal evolution and multi-passionate interests. |
+| infinite | [Infinite Content Engine](workflows/infinite-content-engine.md) | High-Density Content & Distribution Plan | You need to scale your content output across multiple platforms without losing depth, quality, or your unique perspective. |
+| philosophical | [Philosophical Movement & Authority](workflows/philosophical-movement-authority.md) | Ideavirus & Authority Blueprint | You want to transcend being a 'content creator' and become a thought leader who leads a movement and installs new perspectives in your audience. |
+| creator | [Creator Commerce & Community](workflows/creator-commerce-community.md) | Monetized Community & Product Ecosystem | You are ready to turn your audience into a sustainable business through productization, high-conversion bridges, and community flywheels. |
 
-### Core Prompts (7)
-| Prompt | Purpose |
-|--------|---------|
-| `sovereignty-vessel-architect` | Design business containers for multi-interest people |
-| `past-self-avatar-generator` | Create customer avatar from personal transformation |
-| `core-ideas-extraction` | Extract 5-10 fundamental beliefs for infinite content |
-| `one-idea-multiplication` | Transform single ideas into 20+ variations |
-| `counter-intuitive-hook` | Create attention-grabbing hooks through belief inversion |
-| `content-to-system-productizer` | Turn personal solutions into sellable methodologies |
-| `brand-environment-designer` | Design complete brand worlds for creators |
-
-### Advanced Prompts (7)
-| Prompt | Purpose |
-|--------|---------|
-| `high-density-compressor` | 5x engagement per word through compression |
-| `viral-structure-matching` | Match ideas to optimal viral structures |
-| `deep-avatar-psychology` | Eliminate market research through self-excavation |
-| `permission-based-conversion` | 2.5x conversion without pressure tactics |
-| `cross-pollination-insight` | Infinite content from interest intersections |
-| `contrarian-angle-identifier` | Differentiation through strategic opposition |
-| `content-to-commerce-bridge` | Seamless value-to-sale transitions |
-
-### Volume 2: Superfan & Viral Mechanics (10)
-| Prompt | Purpose |
-|--------|---------|
-| `superfan-catalyst` | Transform followers into evangelists |
-| `ideavirus-architecture` | Engineer exponentially spreading ideas |
-| `day-one-monetization` | Profitable from first follower |
-| `movement-manifesto` | Build philosophy that inspires action |
-| `magnetic-voice-synthesizer` | Create communication charisma |
-| `authority-sprint-protocol` | Rapid credibility establishment |
-| `belief-installation` | Implant perspectives that spread |
-| `community-flywheel` | Self-sustaining audience ecosystems |
-| `audience-revenue-architecture` | Multiple monetization streams |
-| `multi-stack-leverage` | Strategic deployment of multiple skills |
-
----
-
-## Quick Start
-
-1. **New to Dan Koe?** Start with `past-self-avatar-generator` + `core-ideas-extraction`
-2. **Building content?** Use `cross-pollination-insight` → `viral-structure-matching` → `high-density-compressor`
-3. **Launching product?** Use `permission-based-conversion` + `content-to-commerce-bridge`
-4. **Building audience?** Use `superfan-catalyst` + `ideavirus-architecture`
-
----
-
-## Key Frameworks
-
-**The Sovereignty Model**: Business as a container for multiple interests, not a prison of forced focus
-
-**Past-Self Avatar**: Your ideal customer is you—3 years ago. No market research needed.
-
-**Interest Intersection**: Cross-pollinate domains to create content no one can copy
-
-**Permission Gates**: Convert through value demonstration, not pressure
-
----
-
-## Related
-
-- **Skills**: `kallaway-content-psychology`, `shaan-puri-storytelling`, `seth-godin-ideavirus`
-- **Agent**: `@dan-koe` for multipassionate/creator economy requests
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

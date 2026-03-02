@@ -1,0 +1,92 @@
+---
+name: jeremy-haynes-mindset-systems
+description: "Mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage, asymmetric risk, and worldview propaganda for breaking revenue plateaus"
+---
+
+# Jeremy Haynes Mindset Systems
+
+Engineer the internal operating system that produces external revenue breakthroughs.
+
+## Overview
+
+Jeremy Haynes' methodology treats the entrepreneur's mindset as a configurable system — not a fixed personality. Every component (identity, motivational drivers, risk tolerance, worldview, responsibility framework) is a variable that can be deliberately adjusted to produce different revenue outcomes. Built through a decade of practitioner experience scaling from $550K/year to running 10-15 rev-share deals at $100K+/month each.
+
+**Core Philosophy:** *"The identity blocks everything else. It starts with the identity. The identity is like a foundation to this whole system."*
+
+## Deployable Capabilities
+
+| Capability | Prompt | Use Case |
+|------------|--------|----------|
+| Identity Version Builder | identity-version-builder.md | Define and deploy your next identity iteration |
+| Reasons Engine | reasons-engine.md | Discover/rank dynamic motivational drivers |
+| Pain Leverage Audit | pain-leverage-audit.md | Convert current pain into directional fuel |
+| Asymmetric Risk Evaluator | asymmetric-risk-evaluator.md | Evaluate a decision through fire/water lens |
+| Revenue Math Model | revenue-math-model.md | Work backward from revenue goal to deal structure |
+| Worldview Audit | worldview-audit.md | Audit and redesign content/environment inputs |
+| Responsibility Expansion Map | responsibility-expansion-map.md | Map anchors and design expansion actions |
+
+## Workflow Decision Tree
+
+```
+START: Entrepreneur stuck or seeking growth
+    │
+    ├─→ "I feel stuck, don't know why"
+    │     └─→ Reasons Engine (motivational drivers expired)
+    │
+    ├─→ "I know what I should do but can't make myself do it"
+    │     └─→ Pain Leverage Audit (insufficient escape velocity)
+    │
+    ├─→ "Old habits/traits keep holding me back"
+    │     └─→ Identity Version Builder (operating through expired identity)
+    │
+    ├─→ "I can't decide — too risky"
+    │     └─→ Asymmetric Risk Evaluator (risk not quantified)
+    │
+    ├─→ "Revenue growing but chaos scaling faster"
+    │     └─→ Revenue Math Model (do the math first)
+    │
+    ├─→ "I keep getting pulled back to small thinking"
+    │     └─→ Worldview Audit (propaganda not curated)
+    │
+    └─→ "I have too much responsibility to take risks"
+          └─→ Responsibility Expansion Map (broken mental model)
+```
+
+## Quick Start
+
+1. **Day 1**: Run the Identity Version Builder. Write your next version's traits on paper and post visibly.
+2. **Day 3**: Run the Reasons Engine. Identify which reasons have expired and discover replacements.
+3. **Day 7**: Run the Worldview Audit. Purge inputs that don't serve your next identity version.
+4. **Day 14**: Run the Revenue Math Model on your current business. Let the math show the path.
+
+## Key Principles
+
+### Identity Is A Light Switch
+Identity shifts are decisions, not gradual processes. You don't "work toward becoming" your next version. You decide, document the traits, and start acting through them immediately. The growth comes from the acting, not from preparation to act.
+
+### Reasons Have A Shelf Life
+Whatever drove you to your current level is dead weight at the next level. Actively inventory and replace motivational drivers. Both selfish and philanthropic reasons are valid — what matters is emotional stir.
+
+### Do The Math First
+Before making any scaling decision, write the math on a wall. Start with the revenue goal, work backward. The math will invalidate most of what you're currently doing and reveal the most efficient path.
+
+### Curate Everything
+Your worldview is shaped by ALL sensory input — content, environment, conversations, smells, physical surroundings. Curate as deliberately as a propagandist. What you don't consume matters as much as what you do.
+
+## Resources
+
+- `references/genius-patterns.md` - 10 mastery patterns decoded
+- `references/hidden-knowledge.md` - Tacit knowledge revealed
+- `references/prompts/` - 7 deployable prompt files
+
+## Integration
+
+**Works well with:**
+- `michael-bernoff-identity-engineering` - Complementary identity transformation
+- `samuel-thompson-product-launch` - Revenue math for product launches
+- `jim-oshaughnessy-philosopher-financier` - Strategic decision-making
+- `jeremy-miner-identity-persuasion` - Sales execution from identity-first mindset
+
+---
+
+*Source: Jeremy Haynes MES 3.0 Extraction — Podcast Interview Transcript*

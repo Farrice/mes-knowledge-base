@@ -1,0 +1,70 @@
+---
+name: jonathan-courtney-marketing
+description: "CEO marketing strategy using the Promoter Blueprint — Traffic, Holding Pattern, and Selling Events with AI-assisted campaign compression"
+---
+
+# Jonathan Courtney — CEO Marketing Strategy
+
+Jonathan Courtney is the CEO of AJ & Smart, a multi-seven-figure entrepreneur with 14 years of direct response marketing experience. His core framework — the **Promoter Blueprint** — diagnoses the #1 failure mode of AI-enabled solopreneurs: building without promoting. He provides a complete marketing system that positions AI tools as support infrastructure for the CEO's real job: generating traffic, warming audiences, and running selling events.
+
+## What Makes This Expert Different
+
+While most AI educators teach tool mastery, Courtney teaches **money mastery with tools as support**. He works backwards from revenue events rather than forward from technical capability. His 14-year direct response background makes his AI integration grounded in what actually converts.
+
+## Deployable Capabilities
+
+| Capability | Use When | Prompt |
+|------------|----------|--------|
+| **Promoter Blueprint Audit** | Business has traffic but no revenue, or confused about marketing priorities | `promoter-blueprint-audit` |
+| **Selling Event Architecture** | Planning webinars, email campaigns, launch sequences | `selling-event-architect` |
+| **Content-to-Lead-Magnet Pipeline** | Have content but no capture mechanism | `content-to-lead-magnet` |
+| **Campaign Compression Engine** | Need to collapse 2-3 day campaigns into half-day sprints | `campaign-compression-engine` |
+| **Builder Trap Intervention** | Founder stuck building features instead of promoting | `builder-trap-intervention` |
+
+## Workflow Decision Tree
+
+```
+User has a marketing problem
+    │
+    ├── "I'm building but not selling" → builder-trap-intervention
+    │
+    ├── "I have traffic but no revenue" → promoter-blueprint-audit
+    │       └── Audit reveals missing selling events → selling-event-architect
+    │
+    ├── "I have content but no leads" → content-to-lead-magnet
+    │
+    ├── "I need to launch fast" → campaign-compression-engine
+    │
+    └── "I need a complete selling event" → selling-event-architect
+```
+
+## Quick Start
+
+1. **Diagnose**: Run `promoter-blueprint-audit` on any business to identify which stage (Traffic / Holding Pattern / Selling Event) is broken
+2. **Fix the gap**: Deploy the corresponding prompt for the weakest stage
+3. **Compress execution**: Use `campaign-compression-engine` to build all assets in a single sprint
+4. **Repeat**: The Promoter Blueprint is a loop — once one cycle completes, start the next
+
+## Key Concepts
+
+- **Builder Trap**: The identity misalignment where founders self-identify as "builders" when their primary job is promotion
+- **Promoter Blueprint**: Traffic → Holding Pattern → Selling Event → (conversion or loop back)
+- **Campaign Compression**: Using AI to collapse 2-3 day marketing sprints into half-day sessions (4-6x compression)
+- **Self-Teaching Context Loop**: Having AI produce updated instructions at session end to compound knowledge
+
+## Integration Notes
+
+- Pairs with **Seena Rez** for TikTok traffic generation (Traffic stage)
+- Pairs with **Cardinal Mason** for conversion copy in selling events
+- Pairs with **Stockton Walbeck** for lead magnet strategy
+- Pairs with **Samuel Thompson** for product launch selling events
+
+## Resources
+
+- [Genius Patterns](references/genius-patterns.md)
+- [Hidden Knowledge](references/hidden-knowledge.md)
+- [Promoter Blueprint Audit](references/prompts/01-promoter-blueprint-audit.md)
+- [Selling Event Architect](references/prompts/02-selling-event-architect.md)
+- [Content-to-Lead-Magnet](references/prompts/03-content-to-lead-magnet.md)
+- [Campaign Compression Engine](references/prompts/04-campaign-compression-engine.md)
+- [Builder Trap Intervention](references/prompts/05-builder-trap-intervention.md)

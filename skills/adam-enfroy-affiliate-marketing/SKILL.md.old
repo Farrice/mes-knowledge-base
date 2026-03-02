@@ -1,0 +1,79 @@
+---
+name: "adam-enfroy-affiliate-marketing"
+description: "MES 3.0 affiliate marketing system from Adam Enfroy. Build $5K-$10K+/month blogs using hobby niche selection, infinite keyword loops, three-tier content funnels, AI content velocity, and ad + affiliate revenue stacking. Written-content-only strategy — no video required."
+---
+
+# Adam Enfroy — Affiliate Marketing
+
+Complete affiliate marketing system for building profitable hobby niche blogs using AI content velocity, infinite keyword loops, and layered monetization (Mediavine ads + affiliate commissions).
+
+## Overview
+
+Adam Enfroy's methodology: Find a hobby niche you genuinely enjoy, discover infinite keyword loops that produce unlimited top-of-funnel traffic, build a three-tier content funnel that moves readers from discovery to purchase, and monetize with Mediavine display ads (floor income) plus three focused affiliate programs (ceiling income). AI handles 70% of content production; you add the expertise and trust signals that convert.
+
+**Core Insight**: Pick a hobby niche with beatable competition, find one keyword with 20+ variations, publish 30-40 posts in 90 days, qualify for Mediavine, then layer affiliate revenue on top.
+
+## Deployable Capabilities (22 Prompts)
+
+### MES 3.0 Prompts — Full Depth (11)
+
+| Prompt | Function | Status |
+|--------|----------|--------|
+| `01-niche-validation` | Hobby niche validation with infinite keyword loop screening | ✅ MES 3.0 |
+| `02-90-day-plan` | 6-month phased roadmap with monthly milestones | ✅ MES 3.0 |
+| `03-ai-article` | AI content production with E-E-A-T and humanization | ✅ MES 3.0 |
+| `05-topical-authority` | Infinite keyword loop cluster architecture | ✅ MES 3.0 |
+| `11-buyer-psychology` | Three-tier content funnel mapper | ✅ MES 3.0 |
+| `infinite-keyword-loop` | Discover and score infinite keyword loops | ✅ MES 3.0 |
+| `content-funnel-architect` | Design complete content funnel with calendar | ✅ MES 3.0 |
+| `affiliate-program-selector` | Select optimal 3 affiliate programs | ✅ MES 3.0 |
+| `ad-revenue-accelerator` | Engineer fastest path to Mediavine + RPM optimization | ✅ MES 3.0 |
+| `traffic-diversification` | Launch secondary platform (Pinterest or YouTube) | ✅ MES 3.0 |
+| `affiliate-comparison-post` | Write high-converting "best of" comparison posts | ✅ MES 3.0 |
+
+### Legacy Prompts — Skeleton Level (11)
+
+| Prompt | Function | Status |
+|--------|----------|--------|
+| `04-youtube-script` | YouTube affiliate video scripts | ⬜ Skeleton |
+| `06-link-optimization` | Affiliate link audit and optimization | ⬜ Skeleton |
+| `07-winner-scale` | Identify and scale winning content | ⬜ Skeleton |
+| `08-revenue-architecture` | Multi-stream revenue design | ⬜ Skeleton |
+| `09-authority-positioning` | Category authority building | ⬜ Skeleton |
+| `10-ai-content-system` | Scalable content production system | ⬜ Skeleton |
+| `12-viral-hook` | Attention-grabbing headlines | ⬜ Skeleton |
+| `13-content-multiplication` | Repurpose across platforms | ⬜ Skeleton |
+| `14-conversion-narrative` | Stories that convert | ⬜ Skeleton |
+| `15-market-intelligence` | Trend and signal analysis | ⬜ Skeleton |
+| `16-omnichannel-authority` | Full integration system | ⬜ Skeleton |
+
+## Recommended Workflow
+
+```
+1. Validate niche          → 01-niche-validation
+2. Discover keyword loops  → infinite-keyword-loop
+3. Select affiliate stack  → affiliate-program-selector
+4. Design content funnel   → content-funnel-architect
+5. Plan ad revenue sprint  → ad-revenue-accelerator
+6. Build 6-month roadmap   → 02-90-day-plan
+7. Write discovery posts   → 03-ai-article (Tier 1)
+8. Build topical authority  → 05-topical-authority
+9. Map buyer funnel        → 11-buyer-psychology
+10. Write comparison posts → affiliate-comparison-post
+11. Launch second platform → traffic-diversification
+```
+
+## Core Principles
+
+- **Hobby Niches**: Pick niches where competition is other hobbyists, not Forbes
+- **Infinite Keyword Loops**: Find one keyword with 20+ variations for unlimited content
+- **Three-Tier Funnel**: Discovery (ads) → Education (trust) → Conversion (affiliate)
+- **Ad Revenue Floor**: Mediavine pays for all expenses; affiliate revenue is pure profit
+- **AI Leverage**: AI produces 70% of content; human adds expertise and trust signals
+- **Three-Program Focus**: Deep expertise on 3 affiliate programs beats scattered links on 20
+
+## Resources
+
+- [Genius Patterns](references/genius-patterns.md)
+- [Hidden Knowledge](references/hidden-knowledge.md)
+- [Implementation](references/implementation.md)

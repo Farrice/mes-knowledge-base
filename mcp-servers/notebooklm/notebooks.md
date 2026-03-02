@@ -7,6 +7,7 @@ A quick-reference registry of NotebookLM notebooks connected to Claude.
 | Name | Notebook ID | Purpose |
 |------|-------------|---------|
 | **Higgsfield Cinema Studio** | `55c8cd8d-bbb9-4975-9d11-0b961878ac6f` | Prompt guide for Higgsfield AI video generation |
+| **AI Brain Build Sprint** | `ca3520ff-b5ea-42ef-98a8-4b98b7bb9a9b` | Research, strategy, audience psychology, sub-characters, and content planning for the AI Brain Build Sprint offer |
 
 ---
 

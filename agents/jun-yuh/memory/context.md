@@ -1,11 +1,9 @@
-# Context Memory — @jun-yuh
+# Jun Yuh - Persistent Context
 
-This file stores persistent context for the jun-yuh agent across conversations.
+## Current State
+- Agent upgraded via Deep Extraction (MES 3.0).
+- Primary focus: Deploying the Creator Vision Framework and the 1-to-7 Repurposing engine.
 
-## User Projects
-
-_No projects recorded yet._
-
-## Preferences
-
-_No preferences discovered yet._
+## Known Entities & Preferences
+- Prefers: High-contrast visual storytelling, psychological targeting, systemized repurposing, energy-managed content calendars.
+- Rejects: Topical niching, talking head "guru" rants, un-anchored lifestyle flexing, high-burnout daily vlogs.

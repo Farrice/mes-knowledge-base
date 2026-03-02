@@ -1,0 +1,156 @@
+---
+name: david-mcraney-belief-change
+description: "Complete belief change architecture — from psychological diagnosis through persuasion engineering to commercial application — based on David McRaney's How Minds Change"
+---
+
+# David McRaney: Belief Change Architecture
+
+The science of how minds actually change — translated from McRaney's synthesis of Street Epistemology, Deep Canvassing, Motivational Interviewing, and cognitive psychology into deployable frameworks for audience research, persuasion, and conversion.
+
+## Overview
+
+David McRaney's *How Minds Change* integrates previously siloed disciplines into a unified theory of belief modification. This skill converts that theory into deployable systems for:
+
+1. **Belief Diagnosis & Research** — Map belief structures, emotional roots, trust landscapes, and changeability thresholds
+2. **Persuasion Engineering** — MI execution, anxiety dissolution, staged campaigns, environment optimization
+3. **Social & Group Architecture** — Safety nets, tribal bridges, pluralistic ignorance breaking, group reasoning
+4. **Crisis & Extreme Belief Navigation** — Trust-seeking mode calibration, cult/conspiracy exit protocols
+
+**Core Insight:** People don't change minds because of better arguments. They change when specific psychological conditions are met — identity safety, social permission, emotional processing, and face-saving narrative. Engineer those conditions and change becomes inevitable.
+
+## Available Prompts (14 Crown Jewels)
+
+### System 1: Core Belief Change Engine (7 Prompts)
+
+| # | Prompt File | Title | Use When |
+|---|-------------|-------|----------|
+| 1 | `1_belief_diagnostic_engine` | Belief Diagnostic Engine | You need to map someone's complete belief architecture before attempting change |
+| 2 | `2_mi_execution_system` | MI Execution System | You need to facilitate change without triggering resistance |
+| 3 | `3_anxiety_dissolution_protocol` | Anxiety Dissolution Protocol | Anxiety is blocking action or decision-making |
+| 4 | `4_environment_optimization_audit` | Environment Optimization Audit | You need to change behavior by changing the environment, not the person |
+| 5 | `5_pluralistic_ignorance_breaker` | Pluralistic Ignorance Breaker | A group privately disagrees with a norm but nobody speaks up |
+| 6 | `6_social_safety_net_builder` | Social Safety Net Builder | Someone won't change because the social cost is too high |
+| 7 | `7_staged_persuasion_architect` | Staged Persuasion Architect | You need a multi-stage persuasion campaign, not a single pitch |
+
+### System 2: Trust & Perception Management (3 Prompts)
+
+| # | Prompt File | Title | Use When |
+|---|-------------|-------|----------|
+| 8 | `8_trust_architecture_builder` | Trust Architecture Builder | Audience defaults to skepticism; trust must be established before any evidence |
+| 9 | `9_lens_prediction_management` | Lens Prediction & Management | You need to anticipate how evidence will be interpreted through existing biases |
+| 10 | `10_group_reasoning_optimizer` | Group Reasoning Optimizer | Structuring conversations for collective intelligence instead of groupthink |
+
+### System 3: Advanced & Extreme Applications (4 Prompts)
+
+| # | Prompt File | Title | Use When |
+|---|-------------|-------|----------|
+| 11 | `11_argument_evaluation_activator` | Argument Evaluation Mode Activator | Need to break ownership link so people critique their own arguments |
+| 12 | `12_crisis_state_calibrator` | Crisis State Persuasion Calibrator | Someone is in trust-seeking mode during crisis or acute uncertainty |
+| 13 | `13_extreme_belief_exit_architect` | Extreme Belief Exit Architect | Cult extraction, conspiracy exit, or deradicalization |
+| 14 | `14_cross_tribal_bridge_protocol` | Cross-Tribal Bridge Protocol | Tribal identity makes belief secondary to group signaling |
+
+## Prompt Categories
+
+### Diagnostic & Research
+`1_belief_diagnostic_engine`, `9_lens_prediction_management`
+
+Use these first. They produce the intelligence that all other prompts consume. Run them before designing interventions.
+
+### Transformation Engineering
+`2_mi_execution_system`, `3_anxiety_dissolution_protocol`, `7_staged_persuasion_architect`, `11_argument_evaluation_activator`
+
+Use these to design change interventions — whether in sales conversations, content sequences, or product experiences. They engineer the conditions for change rather than arguing for it.
+
+### Environment & Social Architecture
+`4_environment_optimization_audit`, `5_pluralistic_ignorance_breaker`, `6_social_safety_net_builder`, `10_group_reasoning_optimizer`
+
+Use these when the barrier to change is contextual rather than individual — the environment prevents the behavior, or social dynamics suppress honest expression.
+
+### Trust & Credibility
+`8_trust_architecture_builder`, `12_crisis_state_calibrator`
+
+Use these when trust is the primary barrier — post-trust audiences, burned prospects, crisis states where evidence is irrelevant.
+
+### High-Stakes & Extreme
+`13_extreme_belief_exit_architect`, `14_cross_tribal_bridge_protocol`
+
+Use these for the most difficult cases — cult/conspiracy extraction, deradicalization, and bridging deep tribal divides.
+
+## Workflow Decision Tree
+
+**Start here:** What do you need?
+
+### Path A: Understand & Diagnose
+→ `1_belief_diagnostic_engine` (What do they believe and why?)
+→ `9_lens_prediction_management` (How will they interpret evidence?)
+→ `4_environment_optimization_audit` (Is the context right for change?)
+
+### Path B: Persuasion Campaign
+→ `1_belief_diagnostic_engine` (Diagnose current beliefs)
+→ `7_staged_persuasion_architect` (Design the journey)
+→ `6_social_safety_net_builder` (Remove social barriers)
+→ `8_trust_architecture_builder` (Establish credibility)
+
+### Path C: Sales & Conversion
+→ `2_mi_execution_system` (Facilitate without triggering resistance)
+→ `3_anxiety_dissolution_protocol` (Dissolve hidden fears)
+→ `6_social_safety_net_builder` (Make it safe to commit)
+
+### Path D: Group & Organizational Change
+→ `5_pluralistic_ignorance_breaker` (Surface what people actually think)
+→ `10_group_reasoning_optimizer` (Structure for collective intelligence)
+→ `7_staged_persuasion_architect` (Design the change campaign)
+
+### Path E: Extreme & High-Stakes
+→ `13_extreme_belief_exit_architect` (Cult/conspiracy extraction)
+→ `14_cross_tribal_bridge_protocol` (Bridge tribal divides)
+→ `12_crisis_state_calibrator` (Navigate crisis/uncertainty states)
+
+## Quick Start
+
+- **"I need to understand why someone believes X"**: Run `1_belief_diagnostic_engine`
+- **"My copy isn't converting"**: Run `3_anxiety_dissolution_protocol` + `8_trust_architecture_builder`
+- **"People won't change their minds"**: Run `1_belief_diagnostic_engine` → `7_staged_persuasion_architect`
+- **"Prospects agree but don't buy"**: Run `3_anxiety_dissolution_protocol` + `6_social_safety_net_builder`
+- **"Nobody talks about the real problem"**: Run `5_pluralistic_ignorance_breaker`
+- **"I need to reach someone in a cult/conspiracy"**: Run `13_extreme_belief_exit_architect`
+- **"Two groups can't see eye to eye"**: Run `14_cross_tribal_bridge_protocol`
+- **"They're in crisis mode"**: Run `12_crisis_state_calibrator`
+- **"I need a full persuasion campaign"**: Full Path B sequence
+
+## Key Principles
+
+### The Resistance Hierarchy
+Not all beliefs are equally changeable. In order of difficulty:
+1. **Facts** — New info updates them (easy)
+2. **Attitudes** — Require emotional/experiential shift (medium)
+3. **Values** — Require identity bridge + social safety (hard)
+4. **Identity** — Require complete paradigm reconstruction (extreme)
+
+### Accommodation vs. Assimilation
+- **Assimilation**: Fitting new info into existing mental models (no real change)
+- **Accommodation**: Restructuring mental models to fit undeniable new info (real change)
+- Most "persuasion" only triggers assimilation. These prompts engineer accommodation.
+
+### The 4-Part Change Equation
+Change happens when: `(Trigger + Trusted Source + Social Safety + Identity Bridge) > (Investment + Social Risk + Identity Threat + Uncertainty)`
+
+## Resources
+
+- `references/genius-patterns.md` — 23+ mastery patterns decoded from McRaney
+- `references/hidden-knowledge.md` — Tacit insights most miss
+- `references/prompts/` — All 14 crown jewel prompt files
+
+## Integration
+
+**Works well with:**
+- `michael-bernoff-identity-engineering` — Identity-level persuasion mechanics
+- `jeremy-miner-identity-persuasion` — Sales conversation application
+- `cardinal-mason-ai-copywriting` — Copy execution layer
+- `monk-ai-offer-architecture` — Offer design with belief-change foundation
+- `shaan-puri-storytelling` — Story structures for belief-change narratives
+- `joanna-wiebe-persuasion-mastery` — Conversion copywriting layer
+
+---
+
+*Source: David McRaney MES 3.0 Extraction (4 files, 22,552 lines)*

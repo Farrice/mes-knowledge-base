@@ -1,0 +1,61 @@
+---
+name: "Sherwin Wu - AI Engineering Leadership"
+description: "Platform-level AI engineering strategy, agent fleet management, deployment diagnostics, and model upgrade planning from the Head of Engineering at OpenAI's API Platform."
+---
+
+# Sherwin Wu: AI Engineering Leadership
+
+Sherwin Wu is Head of Engineering at OpenAI's API Platform — the infrastructure powering virtually every AI startup. Extracted from a deep-dive interview on Lenny's Podcast (17,768 words). His vantage point is unique: he sees deployment patterns, failure modes, and adoption curves across thousands of companies simultaneously. These aren't theories — they're empirical observations from building the platform the AI economy runs on.
+
+## Core Methodology
+
+Sherwin operates through an **AI Engineering Operating System** with four levels: (1) Individual fluency — managing 10-20 parallel agent threads with the "wizard, not apprentice" posture, (2) Team architecture — encoding tribal knowledge into context files, removing manual escape hatches, using graded trust models for AI review, (3) Organizational deployment — requiring both top-down mandate AND bottom-up evangelism via "technical-adjacent" champion tiger teams, (4) Product strategy — building for where models are going, recognizing scaffolding impermanence, and applying n-order effect thinking to find hidden opportunities.
+
+His central insight: the #1 determinant of AI agent success isn't the model — it's the **context architecture**. Teams with perfectly encoded tribal knowledge get 10x the output from the same model. His second key principle: all current tooling is temporary scaffolding that smarter models will eventually consume. Build for model capability trajectory, not current limitations.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `ai-deployment-diagnostic` — AI Deployment ROI Diagnostic | Company's AI deployment has negative ROI or low adoption |
+| 2 | `n-order-opportunity-scanner` — N-Order Opportunity Scanner | Analyzing any AI trend for hidden 2nd/3rd/4th order opportunities |
+| 3 | `agent-fleet-commander` — Agent Fleet Commander | Managing multiple parallel AI agent threads without chaos |
+| 4 | `context-architecture-builder` — Context Architecture Builder | Making a codebase agent-ready via MD files and context encoding |
+| 5 | `scaffolding-obsolescence-audit` — Scaffolding Obsolescence Audit | Evaluating which AI system components will be eaten by model upgrades |
+| 6 | `developer-to-pm-translator` — Developer-to-PM Translator | Bridging the communication gap between engineering and product teams |
+| 7 | `model-upgrade-migration-planner` — Model Upgrade Migration Planner | Planning a model transition without vibes-based regression |
+
+## Prompt Categories
+
+### Consulting & Strategy
+- `ai-deployment-diagnostic` — diagnose and fix failed enterprise AI rollouts
+- `n-order-opportunity-scanner` — cascade trends through 4 orders to find non-obvious plays
+
+### Engineering Operations
+- `agent-fleet-commander` — fleet management playbook for parallel AI threads
+- `context-architecture-builder` — design the information architecture that makes agents succeed
+- `scaffolding-obsolescence-audit` — identify which components are durable vs temporary
+- `model-upgrade-migration-planner` — migrate between model versions without regression
+
+### Leadership & Communication
+- `developer-to-pm-translator` — translate between engineering reality and product vision
+
+## Workflow Decision Tree
+
+**Start here**: What problem are you solving?
+
+- **"Our AI deployment isn't working / adoption is low"** → `ai-deployment-diagnostic`
+- **"I want to find business opportunities in this AI trend"** → `n-order-opportunity-scanner`
+- **"I'm overwhelmed managing multiple AI agents"** → `agent-fleet-commander`
+- **"My AI agents keep producing bad output"** → `context-architecture-builder`
+- **"Is our AI system built on sand?"** → `scaffolding-obsolescence-audit`
+- **"Engineering and product aren't communicating"** → `developer-to-pm-translator`
+- **"We need to upgrade our AI model safely"** → `model-upgrade-migration-planner`
+
+## Quick Start
+
+- **Failed AI rollout**: Run `ai-deployment-diagnostic` to identify root cause and tiger team fix
+- **Strategic planning**: Run `n-order-opportunity-scanner` on the trend you're investigating
+- **Agent productivity**: Run `agent-fleet-commander` → then `context-architecture-builder` to build the foundational system
+- **Technical debt audit**: Run `scaffolding-obsolescence-audit` to know what's durable vs temporary
+- **Model migration**: Run `model-upgrade-migration-planner` before switching to a new model

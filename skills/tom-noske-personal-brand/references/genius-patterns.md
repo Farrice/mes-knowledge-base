@@ -1,6 +1,6 @@
 # Tom Noske Genius Patterns
 
-12 virtuoso patterns for magnetic personal brand monetization.
+20 virtuoso patterns for magnetic personal brand monetization.
 
 ---
 
@@ -51,3 +51,39 @@
 ## Pattern 12: Live Delivery Iteration Engine
 **Execute**: Deliver live, not pre-recorded. Forces continuous improvement with each cohort.
 **Success Metric**: Current version unrecognizable from v1.0.
+
+---
+
+## Deep Extraction Patterns (Videos 2-3)
+
+## Pattern 13: Small Audience LTV Calculator
+**Execute**: For any creator <10K followers: (audience × conversion rate = max customers) → (goal revenue ÷ customers = required LTV). Design offer to hit that LTV through one-time pricing or membership retention math.
+**Success Metric**: Creator knows their exact LTV target and has an offer designed to hit it.
+
+## Pattern 14: Anti-Volume Pricing Discipline
+**Execute**: When audience is small, REFUSE the volume game. Only compete on retention or price. Diagnose any sub-$200 product with <10K followers as "swimming against the current."
+**Success Metric**: No sub-$200 one-time products for creators under 10K followers.
+
+## Pattern 15: What/Why Free — How/Now Paid Quadrant
+**Execute**: Free content gives 100% of the WHAT and WHY. Product sells the HOW and NOW. Eliminates guilt about "holding back" while creating natural upgrade path.
+**Success Metric**: Audience describes what to do and why, but needs the product to implement.
+
+## Pattern 16: Content-Revenue Flywheel Architecture
+**Execute**: Business model design where revenue growth → more time → more content → more growth. If delivery consumes content time (15-20K wall), the flywheel breaks.
+**Success Metric**: Creator's content output INCREASES as business grows.
+
+## Pattern 17: Demand-First Business Design
+**Execute**: Build audience first, ask what they want, build that. Never build a product you hope someone will buy.
+**Success Metric**: Product idea comes from audience signals, not creator assumption.
+
+## Pattern 18: Personal Brand as Compounding Equity
+**Execute**: Frame every piece of content as "buying shares in yourself." Principal never decreases. Deploy into any future venture without consuming it.
+**Success Metric**: Creator sees content as investment. Can articulate 3+ future leverages.
+
+## Pattern 19: Express Elevator Effect
+**Execute**: Strong brand grants disproportionate access — rooms, conversations, and opportunities above your current "level." Unmatchable through traditional networking.
+**Success Metric**: Creator receives opportunities from people they have no business connecting with.
+
+## Pattern 20: Talent Magnetism Principle
+**Execute**: Build brand such that best talent in your space SEEKS YOU OUT. Your brand becomes the recruitment engine.
+**Success Metric**: Top talent initiates wanting to work with you.

@@ -1,0 +1,62 @@
+---
+name: "Josh Sanders - LinkedIn Growth & High-Ticket Education"
+description: "Manufacture virality through format arbitrage and depth-first monetization to drive high-ticket cohort funnels."
+keywords: ["LinkedIn Growth", "Viral Content", "Format Arbitrage", "B2B"]
+---
+
+# Josh Sanders: LinkedIn Growth & High-Ticket Education
+
+Josh Sanders (Head of Content for Chris Donnelly) treats LinkedIn as a high-velocity data-engineering lab. This skill focuses on "Format Arbitrage," "Pre-validated Outlier Analysis," and "Depth-First Monetization" to capture attention and convert it into high-ticket ($5k+) educational cohorts.
+
+## Core Methodology
+
+Sanders shifts the focus from vanity metrics to depth metrics (Saves/Reposts) and de-platforming (Newsletter conversion). He views the LinkedIn profile as a high-converting landing page and leverages the "30/30/30/10" commenting system to hijack algorithmic reach before a single post is published. 
+
+His content engine runs on "Pre-Validated Outlier Engineering"—identifying content that has already broken the algorithm for others, and rebuilding it with 10x more depth or in a scroll-stopping format (like the Storytelling Carousel or Cheat Sheet). The free "how-to" builds irrefutable authority, while the "with-you" accountability is monetized in $5k+ cohorts.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `format-arbitrage-scanner` | Identifying new algorithmic shifts or formats to exploit |
+| 2 | `format-pivot-strategy` | Pivoting your entire content production to a winning format |
+| 3 | `outlier-content-engineer` | Rebuilding a competitor's viral post with 10x depth |
+| 4 | `inspiration-bank-builder` | Harvesting the top posts from creators in your niche |
+| 5 | `high-dwell-carousel-creator` | Designing a visually dominant cheat sheet or format |
+| 6 | `profile-funnel-architect` | Restructuring your LinkedIn profile for email/newsletter conversion |
+| 7 | `tagline-proof-generator` | Writing a "Who I help + How + Social Proof" headline |
+| 8 | `depth-first-webinar-outline` | Structuring a value-first webinar that serves as a high-ticket pitch |
+| 9 | `high-ticket-cohort-pitch` | Transitioning from free actionable advice to a $5k+ cohort sale |
+| 10 | `internal-voice-readability-checker` | Testing hooks for the "mental stumble" effect |
+| 11 | `line-paragraph-line-hook-writer` | Engineering the visual whitespace "See More" cliffhanger |
+| 12 | `ugly-numbers-pattern-interrupt` | Replacing round numbers with highly specific markers of authenticity |
+| 13 | `engagement-system-30-30-30-10` | Executing your daily commenting routine to generate awareness |
+| 14 | `gravedigger-storytelling-carousel` | Balancing tactical cheat sheets with human-resonance failure stories |
+| 15 | `newsletter-bridge-quiz-creator` | Moving LinkedIn followers to owned channels via a segmentation quiz |
+
+## Prompt Categories
+
+### Growth & Conversion
+`format-arbitrage-scanner`, `profile-funnel-architect`, `newsletter-bridge-quiz-creator`, `tagline-proof-generator`
+
+### Content Engineering
+`format-pivot-strategy`, `outlier-content-engineer`, `high-dwell-carousel-creator`, `gravedigger-storytelling-carousel`, `inspiration-bank-builder`
+
+### Copywriting Physics
+`internal-voice-readability-checker`, `line-paragraph-line-hook-writer`, `ugly-numbers-pattern-interrupt`
+
+### Networking & Monetization
+`engagement-system-30-30-30-10`, `depth-first-webinar-outline`, `high-ticket-cohort-pitch`
+
+## Workflow Decision Tree
+
+**Start here**: Are you preparing your infrastructure or actively posting?
+- **Infrastructure** → Run `profile-funnel-architect` and `tagline-proof-generator`
+- **Idea Generation** → Run `inspiration-bank-builder` → `outlier-content-engineer`
+- **Networking** → Run `engagement-system-30-30-30-10`
+- **Writing Posts** → Run `line-paragraph-line-hook-writer` → `ugly-numbers-pattern-interrupt` → `internal-voice-readability-checker`
+- **Monetization** → Run `newsletter-bridge-quiz-creator` -> `high-ticket-cohort-pitch`
+
+## Quick Start
+- **Optimize Profile**: Run `profile-funnel-architect` to turn your profile into a funnel.
+- **Write a Viral Post**: Run `outlier-content-engineer` on a proven topic, then run `line-paragraph-line-hook-writer` to optimize the hook.

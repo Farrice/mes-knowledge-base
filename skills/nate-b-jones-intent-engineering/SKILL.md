@@ -1,53 +1,25 @@
 ---
-name: nate-b-jones-intent-engineering
+name: "Nate B Jones Intent Engineering"
 description: "Design AI agents that reliably understand and execute user intent through explicit intent documentation, disambiguation protocols, and interpretation-execution separation"
+version: "2.0"
+format: "completion-engine"
+workflows: 3
 ---
 
 # Nate B Jones Intent Engineering
 
 > Intent is not in the text the way context is. Intent is latent—priorities, tradeoffs, what done looks like, what's risky. This is the central failure mode of agentic systems.
-
-## Overview
-
 Nate B Jones identified that the central failure mode of AI agents isn't hallucination, context, or tool calling—it's the **intent gap**. His breakthrough: separate interpretation from execution, treat intent as a first-class architectural object, and build disambiguation loops for high-stakes actions.
+**Core Insight**: W
 
-**Core Insight**: While everyone obsesses over context engineering, intent is *latent*—our priorities, what "done" looks like, what we'd regret if the agent guessed wrong.
+## Available Workflows
 
-## Core Concepts
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| agent | [Agent Intent Diagnostic & Optimization](workflows/agent-intent-diagnostic-and-optimization.md) | Agent Reliability Audit & Remediation Plan | An existing AI agent is failing, behaving unpredictably, or producing 'answer-shaped' but incorrect results |
+| intent | [Intent-Centric Agent Architecture](workflows/intent-centric-agent-architecture.md) | Comprehensive Agent Intent Specification | Designing a new agent from scratch for high-stakes tasks where hidden constraints and priorities are critical |
+| operational | [Operational Safety & Communication Design](workflows/operational-safety-and-communication-design.md) | Agent Safety & Handover Protocol | Defining how an agent should handle uncertainty, ask for clarification, and transfer context between different stages of execution |
 
-| Concept | Definition |
-|---------|------------|
-| **Intent vs Context** | Context is IN the text; intent is BEHIND the text |
-| **Invisible Guardrails** | Constraints humans assume but never state |
-| **Reversibility Gradient** | Actions range from fully reversible to catastrophically permanent |
-| **Answer-Shaped Text** | Outputs that LOOK correct but aren't validated against intent |
-
-## Deployable Capabilities
-
-| Prompt | Use When |
-|--------|----------|
-| [Intent Document Generator](references/prompts/intent-document-generator.md) | Creating explicit intent specifications for agents |
-| [Disambiguation Protocol](references/prompts/disambiguation-protocol.md) | Designing when/how agents ask for clarification |
-| [Guardrails Extractor](references/prompts/guardrails-extractor.md) | Surfacing unstated constraints |
-| [Intent Gap Analyzer](references/prompts/intent-gap-analyzer.md) | Evaluating existing agents for intent failures |
-
-## Key Principles
-
-1. **Interpretation-Execution Separation**: Understand BEFORE doing—inspect agent's interpretation before tools fire
-2. **Selective Disambiguation**: Ask when stakes are high, proceed when confident—not every breath
-3. **Intent as First-Class Object**: Version and document intent separately from code
-4. **Reversibility Mapping**: Higher intent confidence required for lower reversibility actions
-5. **Production Pragmatism**: Ship reliable agents NOW while research catches up
-
-## Quick Start
-
-1. **Analyze one agent** for intent gaps (list assumptions, invisible guardrails)
-2. **Create first Intent Document** (goals, failure conditions, tradeoffs, priorities)
-3. **Add assumption-surfacing** to agent prompt
-4. **Test with ambiguous inputs** (where real failures occur)
-
-## Resources
-
-- [Genius Patterns](references/genius-patterns.md) - 14 unconscious mastery behaviors
-- [Hidden Knowledge](references/hidden-knowledge.md) - 4 tacit insights
-- [Implementation Pathway](references/implementation.md) - 30-day mastery
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

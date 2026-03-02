@@ -1,0 +1,49 @@
+---
+name: "Mark Kashef - Claude Claw (Agent SDK Bridge Architecture)"
+description: "Build a personal AI assistant that bridges any messaging platform to your existing Claude Code infrastructure via Anthropic's Agent SDK subprocess pattern — zero dual-entry, full capability access from your phone"
+---
+
+# Mark Kashef: Claude Claw — Agent SDK Bridge Architecture
+
+Mark Kashef, after trying and exhausting the OpenClaw/NanoClaw ecosystem (and building his own derivatives), discovered that the simplest and most powerful personal assistant pattern is bridging directly into your existing Claude Code instance using Anthropic's Agent SDK subprocess spawning. Instead of building a separate AI brain, you create a thin messaging bridge to the one that already works.
+
+## Core Methodology
+
+The "Bridge-Not-Brain" philosophy. When you need AI on your phone, don't build a new intelligent system — create the thinnest possible interface to your existing one. The Agent SDK spawns a full Claude Code subprocess (not just an API call to a model), which means your remote interface inherits every skill, MCP server, directive, and tool in your local setup automatically.
+
+The 8-Stage Pipeline: Messaging Interface → API Auth → User Auth → Media Handler → Memory Injection → Agent SDK Subprocess → Response Processing → Delivery. Each stage is independently swappable — messaging platform, AI runtime, voice provider, and memory system can all be changed without touching the others.
+
+The 3-Layer Memory System: Session-based (context window persistence via session IDs), Persistent (SQLite with semantic + episodic memory and time decay), and Context Injection (pre-message search + dedup to keep context quality high).
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `bridge-architect` — Agent SDK Bridge Architect | Designing or rebuilding a messaging-to-Claude-Code bridge from scratch |
+| 2 | `memory-system-designer` — 3-Layer Memory System Designer | Building the SQLite + semantic/episodic memory system for a conversational assistant |
+| 3 | `wizard-builder` — Self-Building System Prompt Creator | Creating a mega-prompt that interviews users and self-builds a customized system |
+
+## Prompt Categories
+
+### Infrastructure Architecture
+`bridge-architect` — The core prompt. Designs the full 8-stage pipeline and produces the implementation blueprint.
+
+### Memory Systems
+`memory-system-designer` — Designs and produces the 3-layer memory architecture with session management, SQLite persistence, and context injection.
+
+### Meta-Prompting
+`wizard-builder` — Creates executable mega-prompts that combine documentation + build instructions + interactive wizard into a single artifact.
+
+## Workflow Decision Tree
+
+**Start here**: What are you building?
+- Need full Claude Code access from phone → `bridge-architect`
+- Need conversation memory that decays intelligently → `memory-system-designer`
+- Need a complex setup to be self-building → `wizard-builder`
+- Need all three → Run `bridge-architect` first, then `memory-system-designer`, then `wizard-builder` to create the onboarding experience.
+
+## Quick Start
+
+- **"I want Antigravity on my phone"**: Run `bridge-architect` with your Telegram bot token and Antigravity root path
+- **"My assistant forgets everything between sessions"**: Run `memory-system-designer` to add persistent context
+- **"I want someone else to be able to set this up easily"**: Run `wizard-builder` to create an interactive setup flow

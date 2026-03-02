@@ -1,0 +1,6 @@
+# Hidden Knowledge: Jun Yuh
+
+- **The Pain-First Psychological Anchor**: Humans connect primarily through shared struggle. Starting content by flexing lavish success actively alienates viewers. Starting with specific, visceral pain (anxiety, failure, loneliness) engineers immediate empathy and makes the eventual success/authority earned and championable.
+- **Timestamp Inevitability**: Placing a year or age (e.g., "Age 22") on the first frame unconsciously trains the viewer's brain to anticipate a resolution (e.g., "Age 26"). This creates an open psychological loop that forces retention until the narrative anchor resolves.
+- **The Decoupling of Effort and Value**: The highest perceived value often comes from lowest-effort content. A 10-second B-roll clip that precisely targets a psychographic pain point (e.g., a mom feeling unseen) has higher perceived quality than a 10-hour cinematic edit about nothing.
+- **The Visual Contrast Constraint**: True storytelling without speaking relies on absolute visual juxtaposition. E.g., showing a clip of eating alone vs. eating with friends to signify an internal transformation from isolation to abundance. The meaning is manufactured in the *contrast* of the edit, not the footage itself.

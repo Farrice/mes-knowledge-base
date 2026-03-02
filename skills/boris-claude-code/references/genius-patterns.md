@@ -1,6 +1,6 @@
 # Boris Claude Code — Genius Patterns
 
-## Pattern Inventory (12 Decoded)
+## Pattern Inventory (16 Decoded)
 
 ### Pattern 1: Manager, Not User (Identity Shift)
 **Observable Behavior**: Boris doesn't "use" Claude—he assigns tasks to Claude as if delegating to an employee.
@@ -110,18 +110,30 @@
 
 ---
 
-## Hidden Knowledge Points (7)
+### Pattern 13: The "Layer Under the Layer" Heuristic
+**Observable Behavior**: Focuses on post-training and mechanistic interpretability rather than prompt engineering alone.
+**Executable Behavior**: To build at any level, master the layer immediately beneath it (e.g., understand tool-use distribution to predict agent behavior).
+**Success Metric**: Accurate prediction of agent behavior before execution
 
-1. **Multiple tabs = Multiple employees** — Each Claude tab is a specialist
+---
 
-2. **Phone starts, computer finishes** — Mobile for capture, desktop for execution
+### Pattern 14: Latent Demand Mining
+**Observable Behavior**: Ignores stated feature requests; actively hunts for how users "abuse" existing tools.
+**Executable Behavior**: Audit logs for unintended workflows, then build minimal scaffolding to support that exact abuse.
+**Success Metric**: Extremely high adoption of new features due to pre-validated demand
 
-3. **Plan approval is the leverage point** — 30 seconds of review saves 30 minutes of rework
+---
 
-4. **CLAUDE.md is your moat** — The longer you build it, the more valuable it becomes
+### Pattern 15: The Underfunding Catalyst
+**Observable Behavior**: Intentionally starves projects of human headcount to force automation.
+**Executable Behavior**: Apply a "1-person constraint" to a 5-person project to activate intrinsic motivation for agentic automation.
+**Success Metric**: Creation of robust, AI-native systems over brittle human-dependent processes
 
-5. **Parallel execution changes everything** — 5 instances = 5x throughput
+---
 
-6. **Verification costs less than errors** — Always add the review step
+### Pattern 16: The Bitter Lesson for Product
+**Observable Behavior**: Refuses to build complex, brittle orchestrators that the next base model will render obsolete.
+**Executable Behavior**: Bet on the general capabilities of the next model (6 months out) rather than over-engineering today.
+**Success Metric**: Zero tech debt from discarded scaffolding
 
-7. **Context handoffs must be explicit** — Never assume Claude remembers
+---

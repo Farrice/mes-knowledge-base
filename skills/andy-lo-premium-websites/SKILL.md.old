@@ -1,0 +1,71 @@
+---
+name: andy-lo-premium-websites
+description: Premium AI-powered website creation using Google's free tools — visual pipeline (Whisk/Nano Banana → Flow → Firebase Studio), headless CMS integration, parallax animation, and no-code deployment
+---
+
+# Andy Lo — Premium AI Website Creation
+
+**Expert**: Andy Lo (@andylokcl) — Co-founder of Proxa, AI Automation Agency  
+**Domain**: Premium website creation using Google's free AI tools  
+**Core Philosophy**: Treat AI tools like a production team — each tool does ONE job excellently, then hands off cleanly to the next.
+
+## What This Skill Does
+
+Transforms website creation from a coding exercise into a **visual direction exercise**. You define the aesthetic → AI generates the assets → AI animates the motion → AI assembles the site → you deploy. The result: parallax, animated, CMS-powered websites that look like $10K-$20K agency work, built in hours, at zero tool cost.
+
+## Key Frameworks
+
+- **Tool Specialization Pipeline**: Nano Banana → Flow → Firebase Studio (each tool does one job)
+- **Bookend Frame Architecture**: Define start + end frames, AI generates all motion between
+- **Visual Direction First**: Establish aesthetic before touching any code
+- **Progressive Polish Protocol**: Foundation → pages → content → CMS → polish → deploy
+- **Boilerplate-First Foundation**: Never start from scratch — always begin with professional scaffolding
+
+## 12 Genius Patterns
+
+See [genius-patterns.md](file:///Users/farricecain/Google%20Antigravity/skills/andy-lo-premium-websites/references/genius-patterns.md) for complete reference.
+
+## Prompts (14 total)
+
+### Core Pipeline Prompts
+1. `visual-direction-generator` — Generate cohesive visual identity with bookend frames for any brand/project
+2. `motion-design-orchestrator` — Convert static frames to premium parallax-ready animations
+3. `website-assembly-blueprint` — Assemble animated assets into a complete, deployed website
+4. `boilerplate-foundation` — Generate professional React/HTML foundation with responsive defaults
+
+### CMS & Integration Prompts
+5. `headless-cms-wiring` — Integrate Hygraph/headless CMS with GraphQL endpoints + content automation
+6. `content-migration-agent` — Migrate hardcoded content to CMS schema programmatically
+7. `supabase-asset-pipeline` — Set up Supabase as visual CDN for WebP frame sequences
+
+### Specialized Build Prompts
+8. `parallax-hero-builder` — Build scroll-triggered animated hero sections from frame sequences
+9. `cinematic-personal-site` — Create a premium personal/portfolio website with cinematic transitions
+10. `agency-site-architect` — Build a complete agency website with case studies, process pages, and CMS
+
+### Workflow & Automation Prompts
+11. `build-guide-generator` — Create a structured prompt document that makes any website workflow repeatable
+12. `visual-asset-factory` — Batch-generate brand-consistent visual assets for any project
+13. `webp-conversion-optimizer` — Optimize video-to-WebP conversion for performance + quality balance
+14. `deploy-and-export` — Deploy to Netlify/Vercel or export for any hosting platform
+
+## Decision Tree
+
+**"I need a premium website fast"** → Start with `visual-direction-generator` → `motion-design-orchestrator` → `website-assembly-blueprint`
+
+**"I need an animated hero section"** → `visual-direction-generator` → `motion-design-orchestrator` → `parallax-hero-builder`
+
+**"I need a personal/portfolio site"** → `cinematic-personal-site` (includes visual direction + motion inline)
+
+**"I need a client website with CMS"** → `agency-site-architect` → `headless-cms-wiring` → `content-migration-agent`
+
+**"I have visual assets, need a site"** → `boilerplate-foundation` → `website-assembly-blueprint`
+
+**"I need to make this workflow repeatable"** → `build-guide-generator`
+
+**"I need to batch-create visual assets"** → `visual-asset-factory`
+
+## Related
+
+- **Agent**: [@andy-lo](file:///Users/farricecain/Google%20Antigravity/agents/andy-lo/AGENT.md)
+- **Complementary Skills**: `logan-kilpatrick-ai-studio` (rapid prototyping), `kittl-graphic-design` (vector assets), `oren-luxury-psychology` (premium positioning)

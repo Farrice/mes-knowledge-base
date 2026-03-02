@@ -1,84 +1,25 @@
 ---
-name: caleb-ralston-personal-brand
+name: "Caleb Ralston Personal Brand"
 description: "Trust-based personal brand architecture for building brands people buy from, not just watch"
+version: "2.0"
+format: "completion-engine"
+workflows: 3
 ---
 
 # Caleb Ralston Personal Brand
 
 Build personal brands that convert through systematic trust-building and contrarian positioning.
-
-## Overview
-
 Caleb Ralston's framework starts with who you ARE (credibility bank), connects to what customers NEED (painful problems), and differentiates through what you BELIEVE differently (contrarian take). This creates brands people buy from, not just watch.
-
 **Core Philosophy:** "Optimize for trust, not virality."
 
-## Deployable Capabilities
+## Available Workflows
 
-| Capability | Prompt | Use Case |
-|------------|--------|----------|
-| Credibility Bank Builder | credibility-bank.md | Establishing authority foundation |
-| Student vs Expert Diagnostic | student-expert.md | Choosing content angle |
-| Two-Column Extraction | contrarian-extraction.md | Finding differentiated position |
-| Brand Statement Architect | brand-statement.md | Creating positioning |
-| Customer Pain Mapping | customer-pain.md | Identifying buyer needs |
-| Resonance Detection | resonance-test.md | Testing positions |
-| Pairing Audit | pairing-audit.md | Checking associations |
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| authority | [The Authority Foundation Blueprint](workflows/authority-foundation-blueprint.md) | A comprehensive Brand Positioning & Authority Guide | You are launching a new brand, pivoting your current identity, or struggling to differentiate from competitors. |
+| trust | [The Trust-Based Content Engine](workflows/trust-based-content-engine.md) | A 30-day conversion-focused content calendar and distribution strategy | You need to move from 'creating content' to 'building a brand people buy from' with a systematic publishing schedule. |
+| brand | [The Brand Resonance & Sustainability Audit](workflows/brand-resonance-sustainability-audit.md) | A Brand Health Report with specific content rewrites and a 30-day reset plan | You feel 'guru-glaze' creeping in, engagement is high but sales are low, or you are nearing burnout from performing a fake persona. |
 
-## Workflow Decision Tree
-
-```
-BUILDING PERSONAL BRAND
-    │
-    ├─→ What's in your Credibility Bank?
-    │     └─→ If thin → Build credibility while creating content
-    │
-    ├─→ Are you Student or Expert?
-    │     ├─→ Student → Learn in public, be the guinea pig
-    │     └─→ Expert → Teach from achieved results
-    │
-    ├─→ What's your Contrarian Position?
-    │     └─→ Two-Column Extraction → Test → Double down
-    │
-    ├─→ What painful problems do CUSTOMERS have?
-    │     └─→ (Not what followers want to see)
-    │
-    └─→ What's your Brand Statement?
-          └─→ "I believe [audience] should [contrarian] not [common]"
-```
-
-## Quick Start
-
-1. **Day 1**: Audit your credibility bank (achievements, results, proof)
-2. **Day 2**: Diagnose Student vs Expert track
-3. **Day 3**: Two-Column Extraction for contrarian positions
-4. **Day 7**: Complete brand statement + test content
-
-## Key Principles
-
-### Customer Signals Over Follower Signals
-High-ticket buyers DM privately—they rarely comment publicly. Optimize for customer signals, not engagement metrics.
-
-### Pairing × Consistency = Association
-What you consistently pair yourself with becomes what you're associated with. Choose deliberately.
-
-### Contrarian, Not Controversial
-Take positions you genuinely believe. Never manufacture controversy for engagement.
-
-## Resources
-
-- `references/genius-patterns.md` - 23 mastery patterns decoded
-- `references/hidden-knowledge.md` - Tacit knowledge revealed
-- `references/implementation.md` - 30-day deployment pathway
-- `references/prompts/` - Individual prompt files
-
-## Integration
-
-**Works well with:**
-- `shaan-puri-storytelling` - Story-driven brand content
-- `dai-media-consumer-posture` - Deep customer understanding
-- `cardinal-mason-ai-copywriting` - Conversion copy
-
----
-
-*Source: Caleb Ralston MES 3.0 Extraction*
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

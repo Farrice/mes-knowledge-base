@@ -1,0 +1,46 @@
+---
+name: "Tao Prompts - AI Video Pipeline Architecture"
+description: "Design deterministic AI video pipelines with structured syntax, custom GPT translators, and decoupled modular generation."
+---
+
+# Tao Prompts: AI Video Pipeline Architecture
+
+Master-level extraction of Tao Prompts' AI video production methodology, sourced from "The 5 Levels of Prompts for AI Video Creation." This skill transitions video generation from random experimentation into a predictable, modular production pipeline.
+
+## Core Methodology
+
+Tao Prompts recognizes that modern AI video models (Cling, Sora, Runway, Luma) naturally produce high aesthetic quality even from simple inputs. The true gap between amateur and professional output lies not in aesthetics, but in *control and consistency*. His methodology dictates a rigid five-level progression, culminating in a fully "decoupled" pipeline where narrative boarding, visual generation, voice generation, and lip-syncing are handled by specialized tools rather than relying on a single model to perform all functions flawlessly.
+
+His architectural approach employs "Lazy Teacher" Custom GPTs that absorb tool-specific syntax documentation to format ideas into model-compliant multi-shot prompts automatically, ensuring platform agnosticism.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `ai-video-translator-gpt` — GPT Configuration | Building an LLM that translates raw narrative ideas into tool-optimized prompt structures based on provided documentation. |
+| 2 | `cinematic-scene-architect` — Structured Syntax | Generating a unified scene consisting of exact camera movements, specific environments, and narrative actions. |
+| 3 | `storyboard-grid-bridge` — Pipeline Bridge | Visualizing complex scenes dynamically through an initial 3x3 storyboard generation, to lock in sequence continuity. |
+| 4 | `modular-dialogue-director` — Lip-Sync Decoupling | Directing close-up, low-movement shots combined with 11Labs syntax intended for lip-sync composition using SyncLabs or Creatify. |
+
+## Prompt Categories
+
+### 1. Pre-Production & Translation
+- `ai-video-translator-gpt`
+- `storyboard-grid-bridge`
+
+### 2. Shot Execution & Assembly
+- `cinematic-scene-architect`
+- `modular-dialogue-director`
+
+## Workflow Decision Tree
+
+**Start here**: Is this a single visual clip, or a continuous scene/dialogue?
+- **Single Clip** → `cinematic-scene-architect`
+- **Continuous Scene** → `storyboard-grid-bridge` → `cinematic-scene-architect`
+- **Lip-Sync/Dialogue** → `modular-dialogue-director`
+- **Adopting a new tool (e.g., Sora drops)** → `ai-video-translator-gpt`
+
+## Quick Start
+
+- **Testing a new character concept**: Run `cinematic-scene-architect` for isolated B-roll.
+- **Producing a short film sequence**: Run `storyboard-grid-bridge` → then generate the shots iteratively using the grid.

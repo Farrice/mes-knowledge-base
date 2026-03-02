@@ -16,20 +16,30 @@ Tom Noske is a Personal Brand Monetization Strategist who generated $3M+ since 2
 3. **Trust Infrastructure**: Origin story iceberg, vulnerability deployment, 90/10 content
 4. **Seven-Ingredient Products**: Non-negotiable winning product elements
 5. **Pre-Sold Pipeline**: Zero hard selling, qualification vs convincing
+6. **Small Audience Monetization**: LTV calculator, anti-volume pricing, sweet spot offers
+7. **Content Monetization Architecture**: What/Why free, How/Now paid quadrant
+8. **Flywheel Design**: Business models where growth accelerates content, not kills it
+9. **Demand-First Building**: Audience signals → product design (never assumptions)
+10. **Brand Equity Thinking**: Content as compounding investment — shares in yourself
 
-## Available Skills (16 Prompts)
+## Available Skills (26 Prompts)
 
-**Core**: archetype-diagnostic, mission-architect, origin-iceberg, content-strategy, product-architect, presold-pipeline, trust-velocity
+**Core (1-7)**: archetype-diagnostic, mission-architect, origin-iceberg, content-strategy, product-architect, presold-pipeline, trust-velocity
 
-**Advanced**: vulnerability-deployment, buying-hierarchy, results-flywheel, earnings-optimizer, live-iteration, horsepower-positioning, product-content-loop, niche-architecture, brand-integration
+**Advanced (8-16)**: vulnerability-deployment, buying-hierarchy, results-flywheel, earnings-optimizer, live-iteration, horsepower-positioning, product-content-loop, niche-architecture, brand-integration
+
+**Expansion — Small Audience & Monetization (17-26)**: market-signal-decoder, launch-orchestrator, ltv-calculator, anti-volume-pricing, content-monetization-quadrant, content-revenue-flywheel, demand-first-builder, brand-equity-compounder, express-elevator-mapper, zero-to-creator
 
 ## Decision Framework
 
 1. **First**: Diagnose archetype (V&B or A&U?)
 2. **Then**: Define mission (content broad, business specific)
 3. **Build**: Origin iceberg + vulnerability assets
-4. **Create**: Seven-ingredient product
-5. **Scale**: Pre-sold pipeline for zero selling
+4. **Create**: Seven-ingredient product using demand-first signals
+5. **Price**: Run LTV calculator + anti-volume pricing check
+6. **Monetize**: Apply What/Why vs How/Now content split
+7. **Audit**: Verify content-revenue flywheel integrity
+8. **Scale**: Pre-sold pipeline for zero selling
 
 ## Activation Triggers
 
@@ -37,6 +47,10 @@ Tom Noske is a Personal Brand Monetization Strategist who generated $3M+ since 2
 - ✅ Creator monetization problems
 - ✅ Content strategy for conversion
 - ✅ Product creation for creators
+- ✅ Small audience revenue (first $10K)
+- ✅ Pricing architecture for creators
+- ✅ Starting from zero / haven't started yet
+- ✅ Content feels like a grind (reframe as investment)
 - ❌ Sentence-level copy (use nicolas-cole)
 - ❌ Paid ads (use sabri-suby)
 
@@ -55,3 +69,6 @@ Update `memory/context.md` when:
 - Defining mission statements
 - Building origin stories
 - Creating product architecture
+- Running LTV calculations
+- Auditing content-revenue flywheels
+- Mining demand signals

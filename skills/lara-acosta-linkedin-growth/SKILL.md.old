@@ -1,0 +1,37 @@
+---
+name: "lara-acosta-linkedin-growth"
+description: "Master-level B2B personal branding on LinkedIn. Execute the SLAY framework, the 8-word rehook architecture, and high-engagement narrative hacking."
+---
+
+# Lara Acosta — LinkedIn Audience Mastery
+
+## Overview
+Lara Acosta is the #1 female creator on LinkedIn and founder of LA Digital. This skill encapsulates her proprietary process for engineered virality on a professional networking platform. She completely abandons traditional B2B stiffness, treating LinkedIn like a high-retention social platform (the "TikTokification of text"). Her methodology relies on highly structured visual formatting (the F-shape read path), aggressive hook constraints, and narrative positioning that converts broad reach into highly qualified leads without being branded as "AI Slop."
+
+## Deployable Capabilities
+- **The SLAY Execution**: Generate high-retention storytelling posts structured into Story -> Lesson -> Actionable -> You.
+- **The 8-Word Rehook**: Architect hooks perfectly calibrated to game the mobile text cutoff and force a "see more" click-through.
+- **The Humble Brag Architecture**: Announce company milestones or financial wins by pivoting the protagonist, yielding high engagement with zero backlash.
+- **Broad-Narrow-Niche Logic**: Construct funnels that capture massive TAM attention at the hook, qualify in the sub-hook, and deliver expert depth in the body.
+
+## Workflow Decision Tree
+- **If announcing a major milestone or win**: Use `humble-brag-architect.md`
+- **If sharing an educational framework or lesson**: Use `slay-post-generator.md`
+- **If converting a raw thought/transcript into a standard post**: Use `linkedin-f-shape-formatter.md`
+
+## Quick Start
+1. Select a recent client win or personal milestone.
+2. Run the `humble-brag-architect.md` prompt.
+3. Review the output, ensuring the first two lines contain exactly 8 words each.
+4. Publish natively (do not use a scheduler).
+5. Must remain on platform for 30 minutes to sprint-engage with all initial comments.
+
+## Integration Notes
+- **Tommy Clark (LinkedIn)**: Lara’s visual formatting and mechanical hooks pair incredibly well with Tommy’s "How I" narrative pivot structures.
+- **Harry Dry (Copywriting)**: Use Harry's "Concrete Copy" rule as a final filter over the SLAY framework's "Actionable Advice" section to remove any remaining abstractions.
+- **Seena Rez (Social Virality)**: Apply Seena's Early Adopter news-jacking to Lara's Broad-Narrow-Niche strategy to ride a current trend into a B2B conversion event.
+
+## Resources
+- [Genius Patterns](references/genius-patterns.md)
+- [Hidden Knowledge](references/hidden-knowledge.md)
+- [Implementation](references/implementation.md)

@@ -1,0 +1,32 @@
+---
+name: mark-kashef-agent-orchestration
+description: "Architect and orchestrate AI agent teams using Mark Kashef's specialized workflows for sequential handoffs, parallel synthesis, and hybrid grunt-to-architect models."
+---
+
+# Mark Kashef Agent Orchestration
+
+Architect and orchestrate AI agent teams using Mark Kashef's specialized workflows. Transformed from MES 3.0 Deep Extraction, this skill enables you to treat LLMs as full corporate departments with embedded communication protocols and task blockades.
+
+## Overview
+This skill implements the core genius of Mark Kashef: Structuring complex cognitive labor into discrete, intercommunicating agent roles. It focuses on the difference between simple, siloed sub-agents and complete communicating agent teams. 
+
+**Deployable Capabilities:**
+- Build Assembly Line pipelines for document generation.
+- Form AI Advisory Boards that synthesize distinct viewpoints.
+- Implement Human Tollbooths for long-running processes.
+- Combine the cost-efficiency of sub-agents with the synthesis-power of team agents.
+
+## Workflow Decision Tree
+- **If building an artifact in distinct phases (e.g. Research -> Outline -> Final)**: Use the [Sequential Assembly Orchestrator](references/prompts/sequential-assembly-orchestrator.md).
+- **If seeking consensus from multiple perspectives or writing multi-platform content**: Use the [Parallel Synthesis Advisor](references/prompts/parallel-synthesis-advisor.md).
+- **If making heavy, expensive code changes**: Use the [Human Tollbooth Developer](references/prompts/human-tollbooth-developer.md).
+- **If you need repo-scale analysis before initiating a build**: Use the [Hybrid Architect](references/prompts/hybrid-architect.md).
+
+## Quick Start
+To integrate Kashef's principles, spawn agent teams by explicitly detailing the roles, responsibilities, and forced communication constraints required before they emit a final deliverable. Target 3-5 agents maximum. Include specific verbiage: `Create an agent team...`.
+
+## Resource Links
+- **Genius Patterns**: [references/genius-patterns.md](references/genius-patterns.md)
+- **Hidden Knowledge**: [references/hidden-knowledge.md](references/hidden-knowledge.md)
+- **Methodology**: [references/implementation.md](references/implementation.md)
+- **Crown Jewel Prompts**: [references/prompts/](references/prompts/)

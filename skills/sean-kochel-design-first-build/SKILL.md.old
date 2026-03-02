@@ -1,0 +1,72 @@
+---
+name: "Sean Kochel - Design-First Web Building"
+description: "Sean Kochel's systematic research-to-design-to-build pipeline for landing pages and web assets that look professional — not AI-generated."
+---
+
+# Sean Kochel: Design-First Web Building
+
+> Systematic pipeline turning competitive research into approved designs into pixel-perfect code. The system that prevents the #1 vibe coding failure: under-specified plans.
+
+Source: "How to Vibe Code a Clean Landing Page (For Free)" — YouTube, Sean Kochel.
+
+## Core Methodology
+
+Sean Kochel's system attacks the root cause of bad AI-built websites: **unanswered questions get decided by the LLM at game time.** His fix is a 3-phase pipeline (Research → Design → Build) where each phase produces a discrete deliverable that gets reviewed before the next phase begins.
+
+The research phase maps both direct competitors (same solution) and indirect competitors (different solution, same problem) to extract language, USP, and page structure patterns. From that data, 3 competing positioning hypotheses are generated — preventing premature lock-in on a single mediocre angle. The design phase separates visual scaffolding from copy integration — counterintuitively producing better designs by designing WITHOUT real copy first, then layering it in. The build phase bridges design-to-code via MCP servers, eliminating the lossy handoff that plagues most AI-coded sites.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `competitive-research-brief` | Starting a new landing page or website — need to understand the competitive landscape |
+| 2 | `competing-hypotheses-generator` | Have research data and need to generate multiple positioning angles |
+| 3 | `landing-page-section-architect` | Need to structure a landing page section-by-section from positioning hypotheses |
+| 4 | `design-scaffold-prompt` | Ready to create visual mockups — need to generate layout/typography/color without copy |
+| 5 | `copy-integration-pass` | Have approved visual scaffolding and need to layer in researched copy |
+| 6 | `stitch-to-code-builder` | Have approved Stitch designs and need to build them in code via MCP |
+
+## Prompt Categories
+
+### Research & Strategy (Prompts 1-3)
+Competitive intelligence, positioning hypothesis generation, and section architecture. These produce the **what** and **who** — the research foundation everything else is built on.
+
+### Design Generation (Prompts 4-5)
+Visual scaffolding and copy integration using design tools. These produce the **how it looks** — the approved visual direction that constrains the build.
+
+### Code Build (Prompt 6)
+MCP-powered design-to-code translation. This produces the **final deliverable** — working code that matches the approved design.
+
+## Workflow Decision Tree
+
+**Start here**: Do you have competitive research for this project?
+
+- **No** → Run `competitive-research-brief`
+  - Then → `competing-hypotheses-generator`
+  - Then → `landing-page-section-architect`
+- **Yes, but no positioning angle** → Run `competing-hypotheses-generator`
+  - Then → `landing-page-section-architect`
+- **Yes, and have copy** → Run `design-scaffold-prompt`
+  - Then → `copy-integration-pass`
+  - Then → `stitch-to-code-builder`
+
+## Quick Start
+
+- **New landing page from scratch**: Run `competitive-research-brief` → `competing-hypotheses-generator` → `landing-page-section-architect` → `design-scaffold-prompt` → `copy-integration-pass` → `stitch-to-code-builder`
+- **Redesign existing page**: Run `competitive-research-brief` to audit competitors → `competing-hypotheses-generator` → `design-scaffold-prompt` with reference image → `copy-integration-pass`
+- **Quick positioning test**: Run `competing-hypotheses-generator` with existing research
+
+## Skill Stacking
+
+| Combo | Effect |
+|-------|--------|
+| This + `sean-kochel-ai-business` | Persuasion-grade copy fed into design-first visual pipeline |
+| This + `@oren` (taste development) | CEV critique on each design phase output |
+| This + `@kittl` (graphic design) | Enhanced design system generation for the scaffolding phase |
+| This + `/design-first-build` workflow | Extends existing workflow with research front-end and Stitch MCP bridge |
+
+## Related
+
+- **Agent**: `@sean-kochel`
+- **Existing Skill**: `sean-kochel-ai-business` (23 prompts — persuasion & positioning)
+- **Workflow**: `/design-first-build` (complements this skill)

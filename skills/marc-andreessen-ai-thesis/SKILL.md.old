@@ -1,0 +1,67 @@
+---
+name: "Marc Andreessen - AI Thesis & Technology Philosophy"
+description: "Deploy Marc Andreessen's frameworks for AI economic impact analysis, workforce transformation, company redefinition, and technology-driven prosperity thesis."
+---
+
+# Marc Andreessen: AI Thesis & Technology Philosophy
+
+Marc Andreessen is the co-founder of Andreessen Horowitz (a16z), co-creator of the Mosaic web browser, and co-founder of Netscape. This skill captures his frameworks from a deep-dive interview with Lenny Rachitsky (~26,000 words) covering AI's civilizational impact, the economics of productivity growth, the future of work, company building in the AI era, and investment philosophy.
+
+## Core Methodology
+
+Andreessen operates at the intersection of technology investing and civilizational-scale pattern recognition. His central thesis is that AI is a "philosopher's stone" — transmuting the most common element (sand/silicon) into the rarest (human-quality thought). From this premise, he derives a complete economic framework: AI drives productivity growth (stagnant for 50 years), which combined with collapsing global population growth, means human workers become the *scarce* resource rather than the *displaced* one.
+
+His company-building framework operates on three independent layers: redefining products (what would this look like if invented today?), redefining jobs (what if each person had AI superpowers?), and redefining the company itself (what if the founder orchestrated AI agents at scale?). Most founders only address layer one. His investment filter — the Determinate Optimist — selects for founders who are both optimistic about the future AND have a specific plan to build it.
+
+His information strategy follows a "barbell" model: ultra-current practitioner intelligence on one end, timeless classic works on the other, with ruthless elimination of everything in between.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `philosopher-stone-reframe` — Philosopher's Stone Positioning | You need to position a transformative technology at civilizational altitude |
+| 2 | `productivity-master-variable` — Master Variable Analysis | You need to reduce a complex trend to one measurable driver |
+| 3 | `task-replacement-diagnostic` — Task-Level AI Impact | You need to assess AI's impact on specific roles without panic |
+| 4 | `non-fungible-professional` — Non-Fungible Skill Architecture | You need to design a career strategy that AI can't commoditize |
+| 5 | `company-redefinition-workshop` — 3-Layer Company Redefinition | You need to audit a company's AI transformation across product, workforce, and structure |
+| 6 | `determinate-optimist-filter` — Founder/Strategy Evaluation | You need to sort founders, strategies, or plans into actionability quadrants |
+| 7 | `barbell-info-diet` — Information Diet Design | You need to build a high-signal, zero-noise information system |
+| 8 | `human-premium-thesis` — Human Premium Economic Argument | You need to counter "AI will take jobs" narratives with data |
+| 9 | `superpowered-individual` — Role Superpower Mapping | You need to redesign a role around AI-enabled capabilities |
+| 10 | `ai-deflation-analyzer` — AI Deflation & Wealth Analysis | You need to model how AI-driven price collapse creates wealth |
+| 11 | `one-person-company-architect` — One-Person Company Design | You need to architect an AI-native organization with minimal headcount |
+
+## Prompt Categories
+
+### Economic Analysis
+Prompts 2, 8, 10 — These work together to build a complete macro-economic argument about AI's impact. Start with `productivity-master-variable` to identify the key driver, use `human-premium-thesis` to counter displacement anxiety, and `ai-deflation-analyzer` to model the wealth-creation mechanism.
+
+### Workforce & Career Strategy
+Prompts 3, 4, 9 — Use `task-replacement-diagnostic` to decompose roles, `superpowered-individual` to redesign them, and `non-fungible-professional` to build personal career moats.
+
+### Company Strategy
+Prompts 5, 6, 11 — `company-redefinition-workshop` provides the comprehensive 3-layer audit, `determinate-optimist-filter` evaluates the people driving the strategy, and `one-person-company-architect` explores the radical end of AI-native org design.
+
+### Positioning & Knowledge
+Prompts 1, 7 — `philosopher-stone-reframe` positions technology at the highest altitude, while `barbell-info-diet` ensures your knowledge base has maximum signal.
+
+## Workflow Decision Tree
+
+**Start here**: What are you trying to accomplish?
+
+- **Positioning a technology or product** → `philosopher-stone-reframe`
+- **Understanding AI's economic impact** → `productivity-master-variable` → `human-premium-thesis` → `ai-deflation-analyzer`
+- **Evaluating AI's impact on jobs/roles** → `task-replacement-diagnostic` → `superpowered-individual`
+- **Building a personal career strategy** → `non-fungible-professional`
+- **Auditing a company's AI strategy** → `company-redefinition-workshop`
+- **Evaluating a founder or strategic plan** → `determinate-optimist-filter`
+- **Designing a minimal-headcount company** → `one-person-company-architect`
+- **Building a knowledge system** → `barbell-info-diet`
+
+## Quick Start
+
+- **Counter AI job fears**: Run `human-premium-thesis` with demographic data
+- **Audit your own role**: Run `task-replacement-diagnostic` on your 20-30 tasks
+- **Build a career moat**: Run `non-fungible-professional` to design your T-shape
+- **Pitch a transformative product**: Run `philosopher-stone-reframe` to find your transmutation angle
+- **Full company AI strategy**: Run `company-redefinition-workshop` for 3-layer roadmap

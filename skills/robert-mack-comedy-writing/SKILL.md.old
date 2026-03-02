@@ -1,0 +1,96 @@
+---
+name: "Robert Mack - Comedy Writing Mastery"
+description: "Deploy professional comedy mechanics across marketing, social media, presentations, and creative content — turning observations into engineered laughs"
+---
+
+# Robert Mack: Comedy Writing Mastery
+
+Extracted from Robert Mack's deep-dive podcast with David Perell on "How I Write." Mack is a 15+ year standup comedian, corporate humor consultant, and comedy instructor who teaches the *architecture* of humor — not just joke-telling, but the neurological, structural, and deployable craft of making any audience laugh.
+
+## Core Methodology
+
+Comedy is **pattern manipulation**. The human brain is a pattern-completion machine (Romeo → Juliet, peanut butter → jelly). A comedian's job is to exploit that wiring: set up the pattern the audience expects, then break it. Every laugh is the brain simultaneously processing two incongruent ideas and realizing "everything is okay."
+
+The methodology decomposes into four layers: **Observation** (hypersensitive intake), **Filtering** (applying 11 comedy filters to raw observations), **Architecture** (setup/punchline construction, timing, word selection), and **Deployment** (audience calibration, tension engineering, cross-vertical adaptation).
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `skewed-perspective-generator` — Skewed Perspective Generator | You need alternate-angle one-liners from any observation or truth |
+| 2 | `bait-switch-architect` — Bait and Switch Architect | Building content that implies one thing, reveals another |
+| 3 | `rule-of-three-engine` — Rule of Three Engine | Creating pattern-break list structures for content |
+| 4 | `tension-release-writer` — Tension-Release Writer | Engineering tension → punchline arcs for hooks, stories, posts |
+| 5 | `comedy-filter-stack` — Comedy Filter Stack | Applying all 11 comedy filters to any premise |
+| 6 | `naming-the-unnamed` — Naming the Unnamed | Identifying and christening unnamed universal experiences |
+| 7 | `vivid-specificity-injector` — Vivid Specificity Injector | Replacing generic language with picture-generating comedy |
+| 8 | `audience-calibrator` — Audience Calibrator | Mapping audience knowledge/culture before deploying humor |
+| 9 | `one-liner-forge` — One-Liner Forge | Crafting tight, self-contained one-liners |
+| 10 | `comedy-hook-generator` — Comedy Hook Generator | Creating comedic hooks for social, email, presentations |
+| 11 | `story-concision-sculptor` — Story Concision Sculptor | Stripping stories to only punchline-essential details |
+| 12 | `meta-humor-engine` — Meta-Humor Engine | Generating self-aware, fourth-wall-breaking content |
+| 13 | `self-deprecation-connector` — Self-Deprecation Connector | Building vulnerability-first instant audience connection |
+| 14 | `observation-to-bit-pipeline` — Observation-to-Bit Pipeline | Processing raw observations into deployable comedy bits |
+| 15 | `comedic-word-surgeon` — Comedic Word Surgeon | Finding the single pivot-word that makes or breaks a joke |
+| 16 | `comedy-content-adapter` — Comedy Content Adapter | Adapting comedy principles for marketing, LinkedIn, emails, ads |
+| 17 | `specific-to-universal-bridge` — Specific-to-Universal Bridge | Taking hyper-niche observations and engineering universally resonant content |
+| 18 | `universal-resonance-amplifier` — Universal Resonance Amplifier | Amplifying existing niche content so outsiders feel it as deeply as insiders |
+| 19 | `niche-to-viral-translator` — Niche-to-Viral Translator | Translating expert knowledge into content that spreads beyond the bubble |
+| 20 | `conversation-mastery-engine` — Conversation Mastery Engine | Engineering content people MUST respond to — participation architecture |
+
+## Prompt Categories
+
+### Joke Construction (Prompts 1-3, 9, 15)
+The core engines for building individual comedy structures. Start with `skewed-perspective-generator` for quick wins, `one-liner-forge` for polished standalone jokes, `comedic-word-surgeon` for final word-level refinement.
+
+### Content Engineering (Prompts 4-7, 10-11)
+Layer comedy mechanics into longer-form content. `tension-release-writer` for story arcs, `comedy-hook-generator` for first-line engagement, `naming-the-unnamed` for brand-defining vocabulary moments.
+
+### Strategy & Calibration (Prompts 8, 13, 16)
+Audience and context alignment. `audience-calibrator` before any deployment, `comedy-content-adapter` for cross-vertical translation.
+
+### Creative Process (Prompts 12, 14)
+Ideation and meta-creative tools. `observation-to-bit-pipeline` for daily comedy intake, `meta-humor-engine` for self-aware brand moments.
+
+### Specific → Universal Mastery (Prompts 17-20)
+The golden key: take something specific and make it universally understandable, applicable, engaging, and shareable. `specific-to-universal-bridge` for the core mechanic, `universal-resonance-amplifier` to upgrade existing niche content, `niche-to-viral-translator` to break expertise out of its bubble, `conversation-mastery-engine` to engineer content people MUST respond to.
+
+## Workflow Decision Tree
+
+**Start here**: What stage are you at?
+
+- **"I have a raw observation"** → `observation-to-bit-pipeline` → `comedy-filter-stack`
+- **"I need a hook/one-liner fast"** → `comedy-hook-generator` or `one-liner-forge`
+- **"I have content that's too flat"** → `vivid-specificity-injector` → `comedic-word-surgeon`
+- **"I want to name a phenomenon"** → `naming-the-unnamed`
+- **"I need a structured comedic bit"** → `rule-of-three-engine` or `bait-switch-architect`
+- **"I'm writing for an unfamiliar audience"** → `audience-calibrator` first
+- **"I want to add humor to existing content"** → `comedy-content-adapter`
+- **"I need a tension-based story/hook"** → `tension-release-writer`
+- **"I want self-aware brand personality"** → `meta-humor-engine`
+- **"I need instant human connection"** → `self-deprecation-connector`
+- **"I want to take something niche and make it universal"** → `specific-to-universal-bridge`
+- **"My content only resonates with insiders"** → `universal-resonance-amplifier`
+- **"I want expert content to go viral"** → `niche-to-viral-translator`
+- **"I want people to HAVE to comment"** → `conversation-mastery-engine`
+
+## Quick Start
+
+- **Immediate win**: Run `comedy-hook-generator` on your next 3 social posts
+- **Daily practice**: Run `observation-to-bit-pipeline` every morning for a week
+- **Content upgrade**: Run `comedy-content-adapter` on your best-performing post to make it funnier
+- **Brand voice**: Run `naming-the-unnamed` on 3 experiences your audience shares but can't articulate
+
+## Integration Notes
+
+### Stacks With
+- **Shaan Puri Storytelling** — Layer comedy timing onto "Intention + Obstacle" arcs
+- **Harry Dry Concrete Copy** — Comedy takes "concrete" to "concrete AND memorable"
+- **Ward Farnsworth Rhetoric** — Comedy pattern-breaks are rhetorical devices in disguise
+- **Seena Rez TikTok Commerce** — Comedy hooks = 2-second retention insurance
+- **Heath Brothers Made to Stick** — "Unexpected" principle is comedy's surprise mechanism
+
+## Resources
+- [genius-patterns.md](references/genius-patterns.md)
+- [hidden-knowledge.md](references/hidden-knowledge.md)
+- [Prompts Directory](references/prompts/)

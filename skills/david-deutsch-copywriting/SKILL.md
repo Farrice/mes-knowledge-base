@@ -1,79 +1,27 @@
 ---
-name: "david-deutsch-copywriting"
+name: "David Deutsch - Copywriting Legend"
 description: "Legendary copywriting methodology from David Deutsch - billion-dollar copywriter. Transform boring material into brilliant narrative. 29 prompts."
+version: "2.0"
+format: "completion-engine"
+workflows: 5
 ---
 
 # David Deutsch - Copywriting Legend
 
 Complete copywriting mastery system from the billion-dollar copywriter. 29 prompts spanning virtuoso fundamentals, viral mechanics, cold traffic conversion, and genius patterns.
-
-## Overview
-
 David Deutsch's genius: Transform **boring into brilliant**. Every dry topic has hidden emotional drama. Copy is music, not prose. Questions unlock everything.
-
 **Core Insight**: Boring topics don't exist—only boring treatments of topics.
 
-## Deployable Capabilities (29 Prompts)
+## Available Workflows
 
-### Virtuoso Fundamentals (V1-V8)
-| Prompt | Function |
-|--------|----------|
-| V1-boring-to-brilliant | Turn dull topics to compelling narrative |
-| V2-question-protocol | Extract insights through strategic questions |
-| V3-musical-architecture | Theme-development-resolution structure |
-| V4-assumption-assassination | Test and break limiting assumptions |
-| V5-salesperson-mining | Extract tested copy from sales teams |
-| V6-cross-industry | Apply patterns across domains |
-| V7-ai-editing | AI as sophisticated editing partner |
-| V8-implementation | 30-day skill acquisition framework |
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| strategic | [Strategic Intelligence & Market Mining](workflows/strategic-intelligence-market-mining.md) | The Deutsch Market Intelligence Brief | Starting a new project, entering a new market, or searching for a unique breakthrough angle. |
+| viral | [Viral Resonance & Amplification Engine](workflows/viral-resonance-amplification-engine.md) | The Viral Content & Amplification Roadmap | Building top-of-funnel awareness, social authority, or content that demands to be shared. |
+| cold | [Cold Traffic Conversion Architecture](workflows/cold-traffic-conversion-architecture.md) | The Cold Traffic Direct Response Blueprint | Designing a sales funnel or direct response campaign specifically for audiences with zero prior brand awareness. |
+| cinematic | [Cinematic Narrative & Storytelling](workflows/cinematic-narrative-storytelling.md) | The Boring-to-Brilliant Narrative Masterscript | Transforming dry product features or technical information into a compelling, visual, and emotional story. |
+| virtuoso | [Virtuoso Editing & Performance Polish](workflows/virtuoso-editing-performance-polish.md) | The Musical Copy Audit & Mastery Plan | Refining a final draft for maximum rhythmic impact and establishing a long-term skill acquisition habit. |
 
-### Viral Crown Jewels (1-7)
-| Prompt | Function |
-|--------|----------|
-| 01-attention-hook | Tension loops that cannot be ignored |
-| 02-universal-resonance | Generalist triggers crossing demographics |
-| 03-counter-intuitive | Assumption-breaking that demands engagement |
-| 04-viral-sharing | Engineering content people MUST share |
-| 05-scene-imagery | Mental movies that lodge and spread |
-| 06-validation-matrix | Testing virality before publishing |
-| 07-amplification-engine | Cross-platform deployment |
-
-### Cold Audience Psychology (8-11)
-| Prompt | Function |
-|--------|----------|
-| 08-belief-architecture | Psychology-driven worldview reconstruction |
-| 09-content-pillars | 7 eternal pillars for universal resonance |
-| 10-resonant-story | Entertainment + insight + transformation |
-| 11-research-intelligence | Consumer understanding at virtuoso level |
-
-### Cold Traffic Mastery (12-16)
-| Prompt | Function |
-|--------|----------|
-| 12-cold-conversion | Cold traffic conversion architecture |
-| 13-cold-offer | Irresistible cold offer engine |
-| 14-cold-content | Cold content conversion system |
-| 15-direct-response | Direct response copy arsenal |
-| 16-cold-psychology | Cold audience psychology decoder |
-
-### Genius Patterns (17-21)
-| Prompt | Function |
-|--------|----------|
-| 17-screenwriter | Screenwriter translation engine |
-| 18-personification | Make abstracts into characters |
-| 19-hidden-weakness | Unifying conceptual frames |
-| 20-sentence-rhythm | Mathematical sentence variation |
-| 21-cross-industry | Cross-industry translation protocol |
-
-## Core Principles
-
-- **Boring to Brilliant**: Hidden drama in everything
-- **Musical Copy**: Theme, development, resolution
-- **Questions First**: Unlock insights before writing
-- **Loss Framing**: 2.3x response rate
-- **Five Pattern Taxonomy**: Headlines, leads, proof
-
-## Resources
-
-- [Genius Patterns](references/genius-patterns.md) - 23 patterns
-- [Hidden Knowledge](references/hidden-knowledge.md) - 8 insights
-- [Implementation](references/implementation.md) - Pathways
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

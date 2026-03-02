@@ -1,0 +1,27 @@
+---
+name: "Tommy Clark - LinkedIn Founder Growth"
+description: "Design high-conversion LinkedIn workflows tailored for B2B founders using Stealth Hooks, Audience Design, and 'How I' narratives."
+---
+
+# Tommy Clark: LinkedIn Founder Growth
+
+He treats LinkedIn organic growth as a fully engineered B2B pipeline, rejecting the spray-and-pray approach of traditional content creation in favor of surgical "audience design" combined with an optimized "content interview" asset generation timeline.
+
+## Core Methodology
+
+The LinkedIn algorithm is increasingly unpredictable, and AI has dropped the barrier to "valuable" content to zero. To stand out, content must shift from generic "how-to" to personal "how I" narratives. Furthermore, founders should not rely on the timeline. Instead, they must proactively insert target audiences into their content flywheel using specific outbound engagement. Lastly, founders should extract their own insights via a 2-hour-per-week interview system rather than manually drafting posts.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `how-i-narrative-pivot` | You have a generic B2B insight that needs a narrative anchor. |
+| 2 | `stealth-hook-generator` | You need engagement hooks that hide psychological levers under natural phrasing. |
+| 3 | `audience-design-architect` | Setting up a daily outbound inbound view-generation habit. |
+| 4 | `content-interview-extractor` | Converting raw interviews into multiple distinct LinkedIn posts. |
+
+## Quick Start
+
+- **Drafting new posts**: Run `how-i-narrative-pivot` to structure the post, then refine the entry with `stealth-hook-generator`.
+- **Scaling content**: Record a 45-minute interview, use `content-interview-extractor` to process it into a week of content.
+- **Audience pipeline**: Run `audience-design-architect` to set the exact daily connection workflow for the founder.

@@ -1,0 +1,44 @@
+---
+name: "Lara Acosta - Tech Founder Content System"
+description: "A framework mapping technical knowledge and SaaS building into a viral, story-driven LinkedIn content matrix."
+---
+
+# Lara Acosta: Tech Founder Content System
+
+This skill operationalizes Lara Acosta's strategy for technical founders. It transforms dry, coding-heavy knowledge into high-retention "vibe coding" and "build-in-public" narratives that attract both an Ideal Follower Persona (for algorithmic reach) and an Ideal Client Persona (for sales).
+
+## Core Methodology
+
+The central engine of this skill is the 4-3-2-1 Content Matrix. Rather than relying on inspiration, founders use this rigid framework to eliminate decision fatigue. It requires four posts per week: one Education, one Storytelling, one "Edu-telling" (combining both), and a final Education post. 
+
+To prevent content from becoming stale, this system relies on "Reverse Format Engineering"—taking the structural formatting of viral posts outside the tech niche and injecting technical content into them. Additionally, every story must obey the "Unselfish Fast Principle": opening lines must immediately telegraph a financial or time-saving payoff to the reader.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `4-3-2-1-content-matrix` — Automated Content Engine | You need a full week of content mapped across TAM, Growth, and Sales pillars. |
+| 2 | `edu-telling-translator` — Tech to Story Converter | You have a dry technical concept that needs to be packaged in an engaging personal narrative. |
+| 3 | `viral-format-reverse-engineer` — Format Hacker | You want to leverage proven viral formatting without copying the original content. |
+| 4 | `authority-audit-generator` — Identity & Pillar Setup | You are starting out and need to define exactly what you will be known for and what your pillars are. |
+
+## Prompt Categories
+
+### Content Strategy Architecture
+`authority-audit-generator`, `4-3-2-1-content-matrix`
+
+### Execution & Copywriting
+`edu-telling-translator`, `viral-format-reverse-engineer`
+
+## Workflow Decision Tree
+
+**Start here**: Do you know your content pillars yet?
+- No → `authority-audit-generator`
+- Yes → `4-3-2-1-content-matrix`
+- Do you have a specific technical topic that needs to be engaging? → `edu-telling-translator`
+- Do you want high growth this week? → `viral-format-reverse-engineer`
+
+## Quick Start
+
+- **Weekly Content Sprint**: Run `4-3-2-1-content-matrix`
+- **Translating a Feature Release**: Run `edu-telling-translator`

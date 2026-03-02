@@ -1,0 +1,1653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IN-BETWEENER — Pitch Deck</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Sora:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #070707;
+  --bg-elevated: #0F0F0F;
+  --bg-card: #141414;
+  --cream: #F2EDE7;
+  --cream-dim: #A69E94;
+  --gold: #C9A96E;
+  --gold-bright: #E4C88A;
+  --gold-dim: #8A7449;
+  --red-accent: #C45C4A;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Sora', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+  color: var(--cream);
+  font-family: var(--sans);
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--bg);
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Film grain overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--gold-dim); border-radius: 2px; }
+
+/* ─── UTILITY ─── */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 clamp(24px, 5vw, 80px);
+}
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-label::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--gold-dim) 20%, var(--gold-dim) 80%, transparent 100%);
+  opacity: 0.3;
+}
+
+/* ─── REVEAL ANIMATION ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+/* ═══════════════════════════════════════
+   SECTION 1: TITLE CARD
+   ═══════════════════════════════════════ */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 60px 24px;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to top, var(--bg), transparent);
+}
+
+.hero-pretitle {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 2.5rem;
+  opacity: 0;
+  animation: fadeUp 1s 0.3s forwards;
+}
+
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(4rem, 12vw, 10rem);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  line-height: 0.9;
+  color: var(--cream);
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeUp 1.2s 0.5s forwards;
+}
+
+.hero-title em {
+  font-style: italic;
+  color: var(--gold);
+}
+
+.hero-subtitle {
+  font-family: var(--serif);
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--cream-dim);
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+  opacity: 0;
+  animation: fadeUp 1.2s 0.8s forwards;
+}
+
+.hero-meta {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  opacity: 0;
+  animation: fadeUp 1s 1.2s forwards;
+}
+
+.hero-meta span {
+  display: inline-block;
+  margin: 0 12px;
+  color: var(--gold-dim);
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  animation: fadeUp 1s 1.8s forwards;
+  z-index: 1;
+}
+
+.scroll-indicator span {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+}
+
+.scroll-line {
+  width: 1px;
+  height: 32px;
+  background: var(--gold-dim);
+  animation: pulse 2s infinite;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* ═══════════════════════════════════════
+   SECTION 2: THE LOGLINE
+   ═══════════════════════════════════════ */
+
+.logline-section {
+  padding: 120px 0 100px;
+}
+
+.logline-text {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 3.5vw, 2.5rem);
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--cream);
+  max-width: 900px;
+}
+
+.logline-text .highlight {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.logline-comp {
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
+  border-left: 2px solid var(--gold);
+  background: var(--bg-elevated);
+}
+
+.logline-comp p {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--cream-dim);
+  line-height: 1.6;
+}
+
+/* ═══════════════════════════════════════
+   SECTION 3: THE CREATOR
+   ═══════════════════════════════════════ */
+
+.creator-section {
+  padding: 100px 0;
+}
+
+.creator-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.creator-photo-placeholder {
+  aspect-ratio: 3/4;
+  background: var(--bg-card);
+  border: 1px solid rgba(201, 169, 110, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.creator-photo-placeholder::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(135deg, rgba(201,169,110,0.05) 0%, transparent 50%);
+}
+
+.creator-initials {
+  font-family: var(--serif);
+  font-size: 5rem;
+  font-weight: 300;
+  color: var(--gold);
+  opacity: 0.6;
+}
+
+.creator-photo-label {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  margin-top: 1rem;
+  opacity: 0.5;
+}
+
+.creator-name {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 400;
+  color: var(--cream);
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+}
+
+.creator-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 2rem;
+}
+
+.creator-bio {
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: var(--cream-dim);
+  margin-bottom: 2rem;
+}
+
+.creator-bio strong {
+  color: var(--cream);
+  font-weight: 500;
+}
+
+.credits-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 2rem;
+}
+
+.credit-card {
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.1);
+}
+
+.credit-show {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--cream);
+  margin-bottom: 4px;
+}
+
+.credit-detail {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+}
+
+/* ═══════════════════════════════════════
+   SECTION 4: WHY NOW
+   ═══════════════════════════════════════ */
+
+.whynow-section {
+  padding: 100px 0;
+}
+
+.whynow-header {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 3rem;
+  max-width: 700px;
+  line-height: 1.3;
+}
+
+.whynow-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.whynow-card {
+  padding: 32px 28px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.08);
+  border-top: 2px solid var(--gold);
+  position: relative;
+}
+
+.whynow-card-number {
+  font-family: var(--serif);
+  font-size: 3rem;
+  font-weight: 300;
+  color: var(--gold);
+  opacity: 0.2;
+  position: absolute;
+  top: 16px;
+  right: 20px;
+}
+
+.whynow-card h3 {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--cream);
+  margin-bottom: 1rem;
+}
+
+.whynow-card p {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--cream-dim);
+}
+
+/* ═══════════════════════════════════════
+   SECTION 5: THE WORLD
+   ═══════════════════════════════════════ */
+
+.world-section {
+  padding: 100px 0;
+}
+
+.world-header {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 1rem;
+}
+
+.world-sub {
+  font-size: 0.9rem;
+  color: var(--cream-dim);
+  line-height: 1.7;
+  max-width: 650px;
+  margin-bottom: 3rem;
+}
+
+.lot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+}
+
+.lot-zone {
+  padding: 28px 24px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.06);
+  position: relative;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.lot-zone:hover {
+  border-color: rgba(201,169,110,0.25);
+  transform: translateY(-2px);
+}
+
+.lot-zone-name {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.lot-zone-represents {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  margin-bottom: 0.75rem;
+}
+
+.lot-zone p {
+  font-size: 0.8rem;
+  line-height: 1.65;
+  color: var(--cream-dim);
+}
+
+/* ═══════════════════════════════════════
+   SECTION 6: CHARACTERS
+   ═══════════════════════════════════════ */
+
+.characters-section {
+  padding: 100px 0;
+}
+
+/* Lead character */
+.lead-card {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 48px;
+  padding: 48px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.12);
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.lead-card::before {
+  content: 'THE LEAD';
+  position: absolute;
+  top: -10px;
+  left: 48px;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.3em;
+  color: var(--gold);
+  background: var(--bg);
+  padding: 0 12px;
+}
+
+.lead-avatar {
+  aspect-ratio: 1;
+  background: linear-gradient(135deg, var(--bg) 0%, rgba(201,169,110,0.08) 100%);
+  border: 1px solid rgba(201,169,110,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lead-avatar-text {
+  font-family: var(--serif);
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--gold);
+  opacity: 0.5;
+}
+
+.lead-name {
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--cream);
+  margin-bottom: 4px;
+}
+
+.lead-desc {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+}
+
+.lead-traits {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.lead-trait {
+  padding: 8px 16px;
+  border: 1px solid rgba(201,169,110,0.2);
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+}
+
+.lead-body {
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--cream-dim);
+  margin-bottom: 1.5rem;
+}
+
+.lead-quote {
+  padding: 16px 24px;
+  border-left: 2px solid var(--gold);
+  background: rgba(201,169,110,0.03);
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.6;
+}
+
+/* Ensemble */
+.ensemble-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.char-card {
+  padding: 32px 28px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.06);
+  position: relative;
+  transition: border-color 0.3s;
+}
+
+.char-card:hover {
+  border-color: rgba(201,169,110,0.2);
+}
+
+.char-role {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 0.75rem;
+}
+
+.char-name {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--cream);
+  margin-bottom: 0.3rem;
+}
+
+.char-desc {
+  font-size: 0.8rem;
+  color: var(--cream-dim);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.char-line {
+  padding: 10px 16px;
+  border-left: 2px solid var(--gold-dim);
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.5;
+}
+
+/* ═══════════════════════════════════════
+   SECTION 7: THE FLAW
+   ═══════════════════════════════════════ */
+
+.flaw-section {
+  padding: 100px 0;
+}
+
+.flaw-header {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 1rem;
+}
+
+.flaw-sub {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--cream-dim);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.flaw-dual {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 3rem;
+}
+
+.flaw-card {
+  padding: 36px 32px;
+  position: relative;
+}
+
+.flaw-card.superpower {
+  background: rgba(201,169,110,0.04);
+  border: 1px solid rgba(201,169,110,0.15);
+}
+
+.flaw-card.weakness {
+  background: rgba(196,92,74,0.04);
+  border: 1px solid rgba(196,92,74,0.15);
+}
+
+.flaw-card h3 {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.flaw-card.superpower h3 { color: var(--gold); }
+.flaw-card.weakness h3 { color: var(--red-accent); }
+
+.flaw-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.flaw-card li {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--cream-dim);
+  padding: 6px 0;
+  padding-left: 16px;
+  position: relative;
+}
+
+.flaw-card li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 6px;
+  height: 1px;
+}
+
+.flaw-card.superpower li::before { background: var(--gold); }
+.flaw-card.weakness li::before { background: var(--red-accent); }
+
+.flaw-engine {
+  padding: 32px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.08);
+}
+
+.flaw-engine h3 {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--cream);
+  margin-bottom: 1rem;
+}
+
+.engine-steps {
+  display: flex;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.engine-step {
+  flex: 1;
+  min-width: 140px;
+  padding: 16px;
+  position: relative;
+}
+
+.engine-step::after {
+  content: '→';
+  position: absolute;
+  right: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--gold-dim);
+  font-size: 0.8rem;
+}
+
+.engine-step:last-child::after { display: none; }
+
+.engine-step-num {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--gold);
+  opacity: 0.4;
+  margin-bottom: 4px;
+}
+
+.engine-step-label {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+.engine-step p {
+  font-size: 0.75rem;
+  color: var(--cream-dim);
+  line-height: 1.5;
+}
+
+/* ═══════════════════════════════════════
+   SECTION 8: COLD OPEN
+   ═══════════════════════════════════════ */
+
+.coldopen-section {
+  padding: 100px 0;
+}
+
+.screenplay {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 48px;
+  background: #FFFEF8;
+  color: #1A1A1A;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  box-shadow: 0 20px 80px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.screenplay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 1px;
+  height: 100%;
+  background: rgba(0,0,0,0.05);
+}
+
+.sp-slug {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 2rem 0 1rem;
+}
+
+.sp-slug:first-child {
+  margin-top: 0;
+}
+
+.sp-action {
+  margin: 0.75rem 0;
+  color: #333;
+}
+
+.sp-char {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.sp-paren {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.sp-dialogue {
+  margin: 0 auto;
+  max-width: 400px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.sp-transition {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 2rem;
+  color: #333;
+}
+
+.sp-phone {
+  margin: 0.75rem auto;
+  max-width: 360px;
+  padding: 12px 16px;
+  background: #F0EDE5;
+  border: 1px solid #D4D0C8;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #444;
+}
+
+.screenplay-note {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  margin-top: 2rem;
+}
+
+/* ═══════════════════════════════════════
+   SECTION 9: SEASON ARC
+   ═══════════════════════════════════════ */
+
+.season-section {
+  padding: 100px 0;
+}
+
+.season-header {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 3rem;
+}
+
+.episode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.episode {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 32px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(201,169,110,0.06);
+  transition: background 0.3s;
+}
+
+.episode:hover {
+  background: rgba(201,169,110,0.02);
+}
+
+.episode:first-child {
+  border-top: 1px solid rgba(201,169,110,0.06);
+}
+
+.ep-number {
+  font-family: var(--serif);
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--gold);
+  opacity: 0.5;
+  text-align: right;
+  padding-top: 2px;
+}
+
+.ep-content h4 {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--cream);
+  margin-bottom: 0.3rem;
+}
+
+.ep-type {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 0.5rem;
+}
+
+.ep-content p {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--cream-dim);
+}
+
+.ep-finale {
+  border: 1px solid rgba(201,169,110,0.15);
+  padding: 28px 32px;
+  background: rgba(201,169,110,0.02);
+  margin-top: 16px;
+}
+
+/* ═══════════════════════════════════════
+   SECTION 10: NETWORK FIT
+   ═══════════════════════════════════════ */
+
+.network-section {
+  padding: 100px 0;
+}
+
+.network-header {
+  font-family: var(--serif);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 3rem;
+}
+
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.network-card {
+  padding: 32px 28px;
+  background: var(--bg-card);
+  border: 1px solid rgba(201,169,110,0.06);
+  border-top: 3px solid var(--gold);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.network-card:hover {
+  transform: translateY(-3px);
+  border-top-color: var(--gold-bright);
+}
+
+.network-name {
+  font-family: var(--serif);
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--cream);
+  margin-bottom: 0.3rem;
+}
+
+.network-pitch {
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.network-body {
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: var(--cream-dim);
+  margin-bottom: 1rem;
+}
+
+.network-comps {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--gold-dim);
+}
+
+/* ═══════════════════════════════════════
+   SECTION 11: THE ASK
+   ═══════════════════════════════════════ */
+
+.ask-section {
+  padding: 120px 0 160px;
+  text-align: center;
+}
+
+.ask-header {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 300;
+  color: var(--cream);
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.ask-body {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--cream-dim);
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  line-height: 1.7;
+}
+
+.ask-contact {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.ask-contact a {
+  color: var(--gold);
+  text-decoration: none;
+  border-bottom: 1px solid var(--gold-dim);
+  transition: border-color 0.3s;
+}
+
+.ask-contact a:hover {
+  border-color: var(--gold);
+}
+
+/* ─── FOOTER ─── */
+.footer {
+  padding: 40px 0;
+  text-align: center;
+  border-top: 1px solid rgba(201,169,110,0.06);
+}
+
+.footer p {
+  font-family: var(--mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--cream-dim);
+  opacity: 0.3;
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 900px) {
+  .creator-grid { grid-template-columns: 1fr; }
+  .creator-photo-placeholder { max-width: 300px; }
+  .whynow-grid { grid-template-columns: 1fr; }
+  .lot-grid { grid-template-columns: 1fr 1fr; }
+  .flaw-dual { grid-template-columns: 1fr; }
+  .ensemble-grid { grid-template-columns: 1fr; }
+  .network-grid { grid-template-columns: 1fr; }
+  .lead-card { grid-template-columns: 1fr; }
+  .lead-avatar { max-width: 200px; }
+  .engine-steps { flex-direction: column; }
+  .engine-step::after { display: none; }
+  .episode { grid-template-columns: 50px 1fr; gap: 20px; }
+}
+
+@media (max-width: 600px) {
+  .lot-grid { grid-template-columns: 1fr; }
+  .credits-grid { grid-template-columns: 1fr; }
+  .screenplay { padding: 24px 16px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <p class="hero-pretitle">A Half-Hour Comedy Series</p>
+  <h1 class="hero-title"><em>In-Betweener</em></h1>
+  <p class="hero-subtitle">The only thing harder than making it in Hollywood is figuring out which version of you made it.</p>
+  <p class="hero-meta">Created by <span>•</span> Josh Banday <span>•</span> Half-Hour <span>•</span> Single Camera <span>•</span> Comedy</p>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══ LOGLINE ═══ -->
+<section class="logline-section">
+  <div class="container">
+    <div class="section-label reveal">The Logline</div>
+    <p class="logline-text reveal reveal-delay-1">
+      A perpetually agreeable actor clings to his <span class="highlight">recurring guest role</span> on a hit streaming show — saying yes to every favor, every bad idea, every person who needs him — while secretly writing a pilot about the very show that <span class="highlight">might fire him any week.</span>
+    </p>
+    <div class="logline-comp reveal reveal-delay-2">
+      <p>"Atlanta" meets "Hacks" — a surreal Hollywood comedy about the most lovable liar on the lot. Think the workplace specificity of "Abbott Elementary" with the identity crisis of "Barry."</p>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ THE CREATOR ═══ -->
+<section class="creator-section">
+  <div class="container">
+    <div class="section-label reveal">The Creator</div>
+    <div class="creator-grid">
+      <div class="creator-photo-placeholder reveal reveal-delay-1">
+        <span class="creator-initials">JB</span>
+        <span class="creator-photo-label">Headshot</span>
+      </div>
+      <div>
+        <h2 class="creator-name reveal reveal-delay-1">Josh Banday</h2>
+        <p class="creator-title reveal reveal-delay-2">Writer • Actor • Director</p>
+        <p class="creator-bio reveal reveal-delay-2">
+          <strong>Josh Banday</strong> is a working television actor who has spent years delivering other people's lines with impeccable timing. Now he's writing his own. A <strong>Second City</strong> and <strong>Groundlings</strong> alum, Josh brings the structural precision of a seasoned improviser and the on-set fluency of an actor who has lived inside the machine he's now writing about.
+        </p>
+        <p class="creator-bio reveal reveal-delay-3">
+          Born <strong>Black, Filipino, Mexican, and Jewish</strong>, and raised in the <strong>LGBTQ+ community</strong>, Josh writes "Code-Switching Comedy" — stories that explore the specific, hilarious friction of belonging everywhere and nowhere. He is currently developing two comedy pilots and an animated feature.
+        </p>
+        <div class="credits-grid reveal reveal-delay-4">
+          <div class="credit-card">
+            <p class="credit-show">Upload</p>
+            <p class="credit-detail">Amazon Prime Video</p>
+          </div>
+          <div class="credit-card">
+            <p class="credit-show">Not Dead Yet</p>
+            <p class="credit-detail">ABC</p>
+          </div>
+          <div class="credit-card">
+            <p class="credit-show">Second City</p>
+            <p class="credit-detail">Improv Training</p>
+          </div>
+          <div class="credit-card">
+            <p class="credit-show">Groundlings</p>
+            <p class="credit-detail">Improv Training</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ WHY NOW ═══ -->
+<section class="whynow-section">
+  <div class="container">
+    <div class="section-label reveal">The Moment</div>
+    <h2 class="whynow-header reveal reveal-delay-1">Three reasons this show sells <em>now.</em></h2>
+    <div class="whynow-grid">
+      <div class="whynow-card reveal reveal-delay-2">
+        <span class="whynow-card-number">01</span>
+        <h3>Post-Representation Hangover</h3>
+        <p>Audiences — especially the ones "diverse content" was made for — are tired of inclusion theater. They want specificity over tokenism. This show doesn't represent diversity; it satirizes the industry's relationship to it.</p>
+      </div>
+      <div class="whynow-card reveal reveal-delay-3">
+        <span class="whynow-card-number">02</span>
+        <h3>The Creator Economy Gap</h3>
+        <p>Everyone is a creator now. The line between "day job" and "creative dream" has never been blurrier. No comedy is currently making that cognitive dissonance funny. Atlanta did it for music. This does it for Hollywood itself.</p>
+      </div>
+      <div class="whynow-card reveal reveal-delay-4">
+        <span class="whynow-card-number">03</span>
+        <h3>The Set-Tested Creator</h3>
+        <p>Josh doesn't write about Hollywood from the outside. He writes from the makeup chair, the shared trailer, the craft services table. This is insider comedy from someone still inside — not a memoir, a dispatch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ THE WORLD ═══ -->
+<section class="world-section">
+  <div class="container">
+    <div class="section-label reveal">The World</div>
+    <h2 class="world-header reveal reveal-delay-1">Sunset Gower Studios</h2>
+    <p class="world-sub reveal reveal-delay-2">80-90% of the show takes place on a single studio lot — the soundstage of a fictional streaming comedy called <em>Roommates</em>. The lot is a small city with its own class system, politics, and unwritten rules. Jules lives here. He just doesn't belong.</p>
+    <div class="lot-grid">
+      <div class="lot-zone reveal reveal-delay-1">
+        <p class="lot-zone-name">Stage 7</p>
+        <p class="lot-zone-represents">The Performance</p>
+        <p>The soundstage. Where Jules is most competent and most fraudulent. He delivers other people's lines perfectly — then steals moments to write his own on his phone between takes.</p>
+      </div>
+      <div class="lot-zone reveal reveal-delay-2">
+        <p class="lot-zone-name">Craft Services</p>
+        <p class="lot-zone-represents">The Bargaining Floor</p>
+        <p>Every conversation at craft is a transaction. Careers are built over bad coffee. Jules agrees to mutually exclusive lunch plans here three times a week.</p>
+      </div>
+      <div class="lot-zone reveal reveal-delay-3">
+        <p class="lot-zone-name">Trailer Village</p>
+        <p class="lot-zone-represents">The Hierarchy</p>
+        <p>Your trailer size equals your worth. Jules shares "the hallway trailer" with five other recurring actors — a soap star, a stage mom, an influencer, a mute stuntman, and a British actor who won't stop talking.</p>
+      </div>
+      <div class="lot-zone reveal reveal-delay-4">
+        <p class="lot-zone-name">The Writers' Room</p>
+        <p class="lot-zone-represents">The Holy of Holies</p>
+        <p>Building C, 3rd Floor. The room Jules isn't invited to. He lingers near it, befriends the writers' assistant for intel, and secretly uses overheard conversations in his own pilot.</p>
+      </div>
+      <div class="lot-zone reveal reveal-delay-5">
+        <p class="lot-zone-name">The Parking Lot</p>
+        <p class="lot-zone-represents">The Truth</p>
+        <p>You can't perform here. This is where real conversations happen — phone calls with his agent, breakdowns after bad takes, and his ex from post-production parked three spaces over.</p>
+      </div>
+      <div class="lot-zone reveal reveal-delay-5">
+        <p class="lot-zone-name">Production Offices</p>
+        <p class="lot-zone-represents">The Machine</p>
+        <p>Where decisions about Jules's fate are made without him. He's always "checking in" about next week's call time. They're always "still figuring it out."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ CHARACTERS ═══ -->
+<section class="characters-section">
+  <div class="container">
+    <div class="section-label reveal">The Ensemble</div>
+
+    <!-- Lead -->
+    <div class="lead-card reveal">
+      <div class="lead-avatar">
+        <span class="lead-avatar-text">JS</span>
+      </div>
+      <div>
+        <h3 class="lead-name">Julian "Jules" Santos</h3>
+        <p class="lead-desc">34 • Recurring Guest Actor • The Most Lovable Liar on the Lot</p>
+        <div class="lead-traits">
+          <span class="lead-trait">Yes-And Reflex</span>
+          <span class="lead-trait">Unconscious Mirror</span>
+          <span class="lead-trait">Secret Writer</span>
+        </div>
+        <p class="lead-body">Black-Filipino-Mexican-Jewish-Queer. Second City and Groundlings trained. Jules has spent his entire career being the perfect chameleon — the guy who reads every room and becomes what it needs. His improv training rewired his brain: he physically cannot say no. He mirrors whoever he's with without realizing it. Everyone loves him. Nobody knows him. Including himself.</p>
+        <div class="lead-quote">"I've performed 'likable' so many times I forgot what I actually sound like."</div>
+      </div>
+    </div>
+
+    <!-- Ensemble -->
+    <div class="ensemble-grid">
+      <div class="char-card reveal reveal-delay-1">
+        <p class="char-role">The Neurotic Agent</p>
+        <h4 class="char-name">Marla Feld</h4>
+        <p class="char-desc">42. Failed comedy writer turned talent agent who channels all her creative anxiety into optimizing other people's careers. Dresses like she's negotiating a hostage situation. Eats food she hates because it's "efficient." Weaponizes Jules's yes-and reflex without realizing it — pitches opportunities in escalating panic until he agrees just to calm her down.</p>
+        <div class="char-line">"I RAN THE NUMBERS. Twice. Four times at 2 AM while crying in my car. The math is GOOD, Jules."</div>
+      </div>
+      <div class="char-card reveal reveal-delay-2">
+        <p class="char-role">The Enabling Manager</p>
+        <h4 class="char-name">Scotty Yuen</h4>
+        <p class="char-desc">38. Golden retriever energy in athleisure. Youngest of five siblings who survived by being the agreeable one. Validates every feeling Jules has, which sounds supportive but actually prevents him from growing. When Jules spirals, Scotty spirals harder. Always manifesting something in the background — lighting candles, pulling oracle cards mid-crisis.</p>
+        <div class="char-line">"I'm hearing resistance, and that resistance is INFORMATION. Also maybe your body is wrong? Let's honor the fear. But also maybe do it anyway?"</div>
+      </div>
+      <div class="char-card reveal reveal-delay-3">
+        <p class="char-role">The Writing Partner / Ex</p>
+        <h4 class="char-name">Dominique "Dom" Hall</h4>
+        <p class="char-desc">33. Black, queer, Yale MFA grad. Writes searing drama while Jules writes crowd-pleasing comedy. She thinks he's wasting his intelligence on likability. The only person who sees through his mirror — and refuses to let him hide behind charm.</p>
+        <div class="char-line">"You write like you're apologizing for taking up space. Stop it."</div>
+      </div>
+      <div class="char-card reveal reveal-delay-4">
+        <p class="char-role">The Younger Brother</p>
+        <h4 class="char-name">Marco Santos</h4>
+        <p class="char-desc">28. Proudly Mexican, aggressively authentic, works in construction, has never code-switched a day in his life. Thinks Jules's Hollywood career is embarrassing. Represents the version of Jules that never learned to perform — which makes Jules feel like a fraud every time they're in the same room.</p>
+        <div class="char-line">"You play a gay guy on TV but won't bring a date to Mom's house. That's some real Hollywood shit."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ THE FLAW ═══ -->
+<section class="flaw-section">
+  <div class="container">
+    <div class="section-label reveal">The Comic Engine</div>
+    <h2 class="flaw-header reveal reveal-delay-1">The Yes-And</h2>
+    <p class="flaw-sub reveal reveal-delay-2">Jules's improv training broke his ability to say no. Combined with unconscious mirroring, he becomes whoever the room needs — and loses himself in the process. He doesn't know he does this. Everyone else does.</p>
+
+    <div class="flaw-dual">
+      <div class="flaw-card superpower reveal reveal-delay-2">
+        <h3>Superpower</h3>
+        <ul>
+          <li>Everyone on the lot loves him — he's the perfect scene partner, the perfect listener, the perfect friend</li>
+          <li>He ends up in extraordinary situations that fuel his writing</li>
+          <li>His adaptability makes him indispensable on set</li>
+          <li>He can talk to anyone, fit anywhere, charm everyone</li>
+        </ul>
+      </div>
+      <div class="flaw-card weakness reveal reveal-delay-3">
+        <h3>Weakness</h3>
+        <ul>
+          <li>He's overcommitted to 14 things and lying to 6 people at all times</li>
+          <li>His romantic relationships collapse because partners realize they fell in love with a performance</li>
+          <li>His agent and manager exploit the reflex without knowing it</li>
+          <li>He says yes to career-killing jobs because he can't say no</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="flaw-engine reveal">
+      <h3>The Episode Engine</h3>
+      <div class="engine-steps">
+        <div class="engine-step">
+          <p class="engine-step-num">1</p>
+          <p class="engine-step-label">The Setup</p>
+          <p>Jules is barely holding onto his spot on Roommates</p>
+        </div>
+        <div class="engine-step">
+          <p class="engine-step-num">2</p>
+          <p class="engine-step-label">The Yes</p>
+          <p>Someone asks for something unreasonable. Jules agrees instantly.</p>
+        </div>
+        <div class="engine-step">
+          <p class="engine-step-num">3</p>
+          <p class="engine-step-label">The Stack</p>
+          <p>He says yes to 2-3 more incompatible things</p>
+        </div>
+        <div class="engine-step">
+          <p class="engine-step-num">4</p>
+          <p class="engine-step-label">The Collision</p>
+          <p>All commitments happen simultaneously on the lot</p>
+        </div>
+        <div class="engine-step">
+          <p class="engine-step-num">5</p>
+          <p class="engine-step-label">The Cost</p>
+          <p>He survives — but his secret pilot gets better because the chaos was great material</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ COLD OPEN ═══ -->
+<section class="coldopen-section">
+  <div class="container">
+    <div class="section-label reveal">Sample Pages</div>
+    <p style="font-family: var(--serif); font-size: 1.2rem; font-style: italic; color: var(--cream-dim); margin-bottom: 3rem; max-width: 600px;" class="reveal reveal-delay-1">The first four minutes of the pilot. Jules delivers someone else's joke, says yes to three things he shouldn't, and writes a line that changes everything.</p>
+
+    <div class="screenplay reveal reveal-delay-2">
+      <p class="sp-slug">INT. SOUNDSTAGE — "ROOMMATES" SET — DAY</p>
+
+      <p class="sp-action">We open MID-SCENE on the set of ROOMMATES — a glossy, well-lit streaming sitcom. JULES SANTOS (34, effortlessly charming) stands beside MADISON COLE (40s, the star, blonde, impossibly confident).</p>
+
+      <p class="sp-action">They're mid-take.</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-paren">(perfectly timed)</p>
+      <p class="sp-dialogue">Well, maybe if you stopped dating guys who think "emotional availability" is a Netflix password, you wouldn't have this problem!</p>
+
+      <p class="sp-action">The CREW laughs. Madison reacts, flawless.</p>
+
+      <p class="sp-char">DIRECTOR (O.S.)</p>
+      <p class="sp-dialogue">Cut! Great, Madison. Really vulnerable.</p>
+
+      <p class="sp-action">Madison beams. Jules waits for notes. He doesn't get any.</p>
+
+      <p class="sp-char">MADISON</p>
+      <p class="sp-paren">(to Jules, not looking at him)</p>
+      <p class="sp-dialogue">Can you grab me a sparkling water? The Italian one. Not the French one.</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-paren">(instant, warm)</p>
+      <p class="sp-dialogue">Yeah, of course! I got you.</p>
+
+      <p class="sp-action">She walks off without acknowledgment. Jules pulls out his phone. Types furiously.</p>
+
+      <div class="sp-phone">
+        <em>PILOT — "CODE-SWITCHING" — Scene 3</em><br><br>
+        "I'm more of a 'pray to a white Jesus in Filipino while my tía burns sage and my stepdad argues with the rabbi on FaceTime' kind of guy."
+      </div>
+
+      <p class="sp-slug">INT. CRAFT SERVICES — CONTINUOUS</p>
+
+      <p class="sp-action">Jules grabs the Italian sparkling water. DAMON (30s, harried PA) rushes up.</p>
+
+      <p class="sp-char">DAMON</p>
+      <p class="sp-dialogue">Dude, thank GOD. We need someone to read opposite Madison for coverage. Cameron called out sick.</p>
+
+      <p class="sp-action">Jules looks at his phone — he was in the zone.</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-paren">(mirroring Damon's frantic energy)</p>
+      <p class="sp-dialogue">Oh man, yeah, totally. When?</p>
+
+      <p class="sp-char">DAMON</p>
+      <p class="sp-dialogue">Like... now?</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-paren">(big smile)</p>
+      <p class="sp-dialogue">Yeah, no, I'm free. Let's do it.</p>
+
+      <p class="sp-slug">INT. WRITERS' ROOM — LATER</p>
+
+      <p class="sp-action">Jules enters. BECCA, the writers' assistant, brought him here. Four WRITERS sit around a table. The SHOWRUNNER (50s) looks up.</p>
+
+      <p class="sp-char">SHOWRUNNER</p>
+      <p class="sp-dialogue">You're the guy from set, right?</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-paren">(matching the room's vibe — chill, self-deprecating)</p>
+      <p class="sp-dialogue">Yeah. Jules. Becca said you needed some alts?</p>
+
+      <p class="sp-action">He pitches two jokes. The room LAUGHS. The showrunner types them immediately.</p>
+
+      <p class="sp-char">SHOWRUNNER</p>
+      <p class="sp-dialogue">You ever think about writing on this show?</p>
+
+      <p class="sp-action">Jules freezes. The dream question. Beat.</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-paren">(sincere)</p>
+      <p class="sp-dialogue">I mean... yeah. That'd be amazing.</p>
+
+      <p class="sp-char">SHOWRUNNER</p>
+      <p class="sp-paren">(already back to typing)</p>
+      <p class="sp-dialogue">Cool. Oh — one more thing. You free tomorrow at 6 AM? Reshooting the diner scene.</p>
+
+      <p class="sp-action">6 AM is Jules's only writing time. He doesn't hesitate.</p>
+
+      <p class="sp-char">JULES</p>
+      <p class="sp-dialogue">Yeah! I'm there.</p>
+
+      <p class="sp-slug">INT. HALLWAY — CONTINUOUS</p>
+
+      <p class="sp-action">Jules pulls out his phone. Opens his calendar. The 6 AM block reads: "WRITE — DO NOT MOVE."</p>
+
+      <p class="sp-action">He deletes the block. Types:</p>
+
+      <div class="sp-phone">
+        "Jules stares at his phone. He just said yes to the thing that will keep him from being a writer. He doesn't know how to stop."
+      </div>
+
+      <p class="sp-transition">FADE TO BLACK.</p>
+
+      <p style="text-align: center; font-weight: bold; margin-top: 2rem;">END OF COLD OPEN</p>
+    </div>
+
+    <p class="screenplay-note reveal">Full pilot script available upon request</p>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ SEASON ARC ═══ -->
+<section class="season-section">
+  <div class="container">
+    <div class="section-label reveal">Season One</div>
+    <h2 class="season-header reveal reveal-delay-1">8 Episodes. One Question:<br><em>Can you stop performing long enough to become yourself?</em></h2>
+
+    <div class="episode-list">
+      <div class="episode reveal">
+        <span class="ep-number">01</span>
+        <div class="ep-content">
+          <h4>"Call Time"</h4>
+          <p class="ep-type">Workplace Comedy</p>
+          <p>Jules books his sixth episode of Roommates and celebrates by saying yes to three things happening the same day: directing a friend's short, dog-sitting for a series regular, and helping a PA move. A dog escapes on set. A couch ends up in the wrong trailer. He survives — then overhears the showrunner say "we might write him out."</p>
+        </div>
+      </div>
+      <div class="episode reveal">
+        <span class="ep-number">02</span>
+        <div class="ep-content">
+          <h4>"The Hallway Trailer"</h4>
+          <p class="ep-type">Bottle Episode</p>
+          <p>Entire episode in the shared trailer Jules occupies with five other recurring actors. A network executive is touring the lot — Jules tries to make the trailer seem "fun and collaborative" by mediating every conflict. The British actor catches him using different accents with each person. The stuntman finally speaks: "You don't have a personality, do you?"</p>
+        </div>
+      </div>
+      <div class="episode reveal">
+        <span class="ep-number">03</span>
+        <div class="ep-content">
+          <h4>"The Call Sheet"</h4>
+          <p class="ep-type">Romantic Comedy</p>
+          <p>Jules matches with Simone, a sound mixer on Roommates who's never noticed him. Their date goes perfectly because he mirrors her energy. The next day she watches him be a completely different person with his scene partner. She thinks the whole date was an act. He doesn't understand what went wrong.</p>
+        </div>
+      </div>
+      <div class="episode reveal">
+        <span class="ep-number">04</span>
+        <div class="ep-content">
+          <h4>"Punch-Up"</h4>
+          <p class="ep-type">Career Disaster</p>
+          <p>Jules gives notes on a bad script. The showrunner loves them. Now the writers' room thinks he's trying to take their jobs. Invited to a "casual room hang," he mirrors every writer's energy and pitches six contradictory takes. The head writer bans him from the room forever. His reputation: "the actor who thinks he's a writer."</p>
+        </div>
+      </div>
+      <div class="episode reveal">
+        <span class="ep-number">05</span>
+        <div class="ep-content">
+          <h4>"The Showcase"</h4>
+          <p class="ep-type">Family Episode</p>
+          <p>Jules's mom visits the lot. She's a former theater actress who thinks TV is selling out. She watches him be three different people in three hours. She pulls him aside: "Who are you when nobody's watching?" He has no answer. That night he writes the best scene in his pilot.</p>
+        </div>
+      </div>
+      <div class="episode reveal">
+        <span class="ep-number">06</span>
+        <div class="ep-content">
+          <h4>"HODL My Heart"</h4>
+          <p class="ep-type">The Yes-And Catastrophe</p>
+          <p>Marla pitches Jules a hosting gig on a crypto dating show. Scotty validates his hesitation, then validates the agent. Jules yes-ands his way into accepting. He discovers the show is a meme on Reddit. Meanwhile, his secret pilot gets leaked to someone at the network.</p>
+        </div>
+      </div>
+      <div class="episode reveal">
+        <span class="ep-number">07</span>
+        <div class="ep-content">
+          <h4>"The Room Where It Happens"</h4>
+          <p class="ep-type">Espionage Comedy</p>
+          <p>Jules's agent submits his pilot to the same network that makes Roommates. The pilot is about a recurring guest actor on a fictional show — and the showrunner reads it. Jules spends the entire episode trying to manage the fallout while being asked to help punch up scripts "for free, because you're so good at this."</p>
+        </div>
+      </div>
+      <div class="episode ep-finale reveal">
+        <span class="ep-number">08</span>
+        <div class="ep-content">
+          <h4>"Recurring"</h4>
+          <p class="ep-type">Season Finale</p>
+          <p>Jules gets fired from Roommates. But his pilot gets picked up. The final scene: he walks onto the lot for the first time as a creator, not an actor. He passes his old shared trailer. He reaches the door of a writers' room — his writers' room. Someone on the lot recognizes him and asks for a favor. He opens his mouth to say "yeah, totally" — and the screen cuts to black.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ NETWORK FIT ═══ -->
+<section class="network-section">
+  <div class="container">
+    <div class="section-label reveal">Where It Lives</div>
+    <h2 class="network-header reveal reveal-delay-1">Three homes. One perfect fit.</h2>
+    <div class="network-grid">
+      <div class="network-card reveal reveal-delay-2">
+        <h3 class="network-name">FX</h3>
+        <p class="network-pitch">"The next chapter in FX's auteur comedy legacy."</p>
+        <p class="network-body">FX built the "specific is universal" brand with Atlanta, Reservation Dogs, and What We Do in the Shadows. A show about becoming an auteur — on a network that champions auteurs — is inception-level brand alignment. John Landgraf would see this as the next evolution.</p>
+        <p class="network-comps">Slate Comps: Atlanta • Reservation Dogs • The Bear • What We Do in the Shadows</p>
+      </div>
+      <div class="network-card reveal reveal-delay-3">
+        <h3 class="network-name">HBO</h3>
+        <p class="network-pitch">"The multi-hyphenate creator deal they've been looking for."</p>
+        <p class="network-body">HBO wants comedy that feels like prestige TV. They love writer-actor-comedian packages (Issa Rae, Donald Glover). Josh is that package. This delivers status anxiety, Hollywood satire, and emotional depth in a format they can build a franchise around.</p>
+        <p class="network-comps">Slate Comps: Insecure • Hacks • Industry • Somebody Somewhere</p>
+      </div>
+      <div class="network-card reveal reveal-delay-4">
+        <h3 class="network-name">Hulu</h3>
+        <p class="network-pitch">"Smart enough for discovery, specific enough for loyalty."</p>
+        <p class="network-body">Hulu lives in the sweet spot between HBO prestige and network accessibility. Their comedy slate skews young, diverse, and streaming-first. This is the show FOR underrepresented audiences that isn't ABOUT being underrepresented.</p>
+        <p class="network-comps">Slate Comps: Abbott Elementary • Ramy • Only Murders • The Bear</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ═══ THE ASK ═══ -->
+<section class="ask-section">
+  <div class="container">
+    <div class="section-label reveal" style="justify-content: center;">The Ask</div>
+    <h2 class="ask-header reveal reveal-delay-1">He's been the B-plot<br>long enough.</h2>
+    <p class="ask-body reveal reveal-delay-2">
+      We're seeking a network partner for an 8-episode first season.<br>Full pilot script, series bible, and lookbook available upon request.
+    </p>
+    <p class="ask-contact reveal reveal-delay-3">
+      Josh Banday <span style="margin: 0 8px; opacity: 0.3;">|</span> Writer • Actor • Director
+    </p>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="container">
+    <p>Confidential — For Development Purposes Only — 2026</p>
+  </div>
+</footer>
+
+<!-- ═══ SCROLL REVEAL JS ═══ -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -40px 0px'
+  });
+  reveals.forEach(el => observer.observe(el));
+});
+</script>
+
+</body>
+</html>

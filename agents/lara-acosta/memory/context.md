@@ -1,19 +1,13 @@
-# Memory Context: Lara Acosta - LinkedIn Content Mastery
+# Lara Acosta Memory
 
-## Agent Status
-- **Created**: 2026-02-02
-- **Last Updated**: 2026-02-02
-- **Version**: 1.0
+## Active Projects
+(None yet)
 
-## Project Context
-*No project-specific context yet. Update as this agent is deployed.*
+## User/Brand Context
+(To be populated as work proceeds)
 
-## Core Frameworks
-- 4-3-2-1 Content Ratio
-- Dual-Persona Design (ICP + IFP)
-- SLAY Storytelling Framework
-- First-Principle Hook Testing
+## Learnings
+(To be populated from completed work)
 
-## Related Work
-- Skills: `lara-acosta-linkedin-mastery`
-- Council: `@content-council`, `@brand-council`
+## Past Work Reference
+(To be populated from completed work)

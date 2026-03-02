@@ -1,73 +1,24 @@
 ---
-name: mitch-albom-writing-mastery
+name: "Mitch Albom Writing Mastery"
 description: "Theme-driven storytelling mastery from Mitch Albom's 45+ years of craft refinement. 31 practitioner prompts for fiction, content creation, copywriting, and commercial writing."
+version: "2.0"
+format: "completion-engine"
+workflows: 4
 ---
 
 # Mitch Albom Writing Mastery
 
 Deploy the storytelling intelligence of a 40+ million book-selling author who makes readers say: *"I couldn't stop thinking about it—it made me think about my own life."*
 
-## Core Philosophy
+## Available Workflows
 
-- **Theme First, Always**: Every story exists to deliver a universal truth
-- **Endings Before Middles**: Know your destination before you start sailing
-- **Tighter Is Stronger**: Maximum impact per word
-- **Transform, Don't Teach**: Execute and produce deliverables
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| universal | [Universal Narrative Blueprint](workflows/universal-narrative-blueprint.md) | A comprehensive story architecture document including theme, character transformation arcs, and structural coherence | Starting a new book, screenplay, or long-form narrative project where theme must drive the plot |
+| story | [Story-Driven Marketing Engine](workflows/story-driven-marketing-engine.md) | A full-funnel narrative marketing campaign including hooks, newsletters, and high-ticket positioning copy | Launching a product or building a brand that needs to connect emotionally rather than just transactionally |
+| signature | [Signature Voice & Legacy Identity](workflows/signature-voice-legacy-identity.md) | A definitive Voice Brand Guide and emotional messaging framework | Developing a unique personal brand or ghostwriting for a client who needs a soulful, humble, and resonant presence |
+| high | [High-Density Manuscript Polish](workflows/high-density-manuscript-polish.md) | A production-ready final draft optimized for rhythm, economy, and emotional impact | Refining a completed draft to ensure every word earns its place and the emotional beats land with maximum force |
 
-## Workflow Decision Tree
-
-### What are you creating?
-
-**Fiction / Long-Form Narrative**
-1. [Theme-First Story Architect](references/prompts/theme-first-story-architect.md) → Complete story blueprint
-2. [Character Transformation Engine](references/prompts/character-transformation-engine.md) → Character arcs
-3. [Metaphor & Image Architecture](references/prompts/metaphor-image-architecture.md) → Image systems
-4. [Long-Form Coherence](references/prompts/long-form-coherence.md) → Book-length structure
-
-**Content / Social Media**
-1. [Scroll-Stopping Hook](references/prompts/scroll-stopping-hook.md) → Attention capture with meaning
-2. [Platform-Native Adapter](references/prompts/platform-native-adapter.md) → Format optimization
-3. [Newsletter Dominance](references/prompts/newsletter-dominance.md) → Subscriber relationships
-
-**Copywriting / Marketing**
-1. [Transformation Copy Engine](references/prompts/transformation-copy-engine.md) → Reader as protagonist
-2. [Aha Moment Architect](references/prompts/aha-moment-architect.md) → Insight through story
-3. [Premium Positioning](references/prompts/premium-positioning.md) → Pricing through narrative
-
-**Editing / Polish**
-1. [Rhythm & Pacing Calibrator](references/prompts/rhythm-pacing-calibrator.md) → Flow optimization
-2. [Tight Cut Editor](references/prompts/tight-cut-editor.md) → Economy and precision
-3. [First/Last Frame Builder](references/prompts/first-last-frame-builder.md) → Opening/closing architecture
-
-**Ghostwriting / Client Work**
-1. [Client Voice Channeler](references/prompts/client-voice-channeler.md) → Embody another's voice
-2. [Signature Voice Distillery](references/prompts/signature-voice-distillery.md) → Develop unique voice
-
-**Finding Unique Angles**
-1. [Gravedigger Angle Finder](references/prompts/gravedigger-angle-finder.md) → Peripheral stories that illuminate truth
-2. [Niche Domination Narrative](references/prompts/niche-domination-narrative.md) → Own any industry
-
-## Quick Start
-
-1. **Identify your task** using the decision tree above
-2. **Open the relevant prompt** and provide the required inputs
-3. **Receive a deployable deliverable** ready for immediate use
-
-For foundational patterns, see [Genius Patterns](references/genius-patterns.md).
-For tacit expertise, see [Hidden Knowledge](references/hidden-knowledge.md).
-
-## Prompt Categories
-
-| Category | Count | Use For |
-|----------|-------|---------|
-| [Core Story](references/prompts/) | 7 | Theme, character, structure |
-| [Commercial](references/prompts/) | 7 | Content, copy, marketing |
-| [Mastery](references/prompts/) | 5 | Newsletter, positioning, dialogue |
-| [Literary](references/prompts/) | 7 | Imagery, openings, endings |
-| [Evolution](references/prompts/) | 5 | Soul connection, legacy, mastery |
-
-## Resources
-
-- [Genius Patterns](references/genius-patterns.md) – 18 executable patterns
-- [Hidden Knowledge](references/hidden-knowledge.md) – 10 tacit expertise points
-- [Implementation Pathway](references/implementation.md) – 24hr/7day/30day mastery
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

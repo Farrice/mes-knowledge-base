@@ -1,0 +1,117 @@
+---
+name: "April Dunford - B2B Positioning & Sales Pitch Architecture"
+description: "Position any B2B product using the 5-component methodology and construct sales pitches using the Setup → Follow-Through framework. The world's most actionable system for answering 'Why should customers pick us?'"
+---
+
+# April Dunford: B2B Positioning & Sales Pitch Architecture
+
+Expert extraction from April Dunford's positioning methodology and sales pitch framework, synthesized from two comprehensive interviews on Lenny's Podcast.
+
+## Overview
+
+April Dunford's core genius: **Positioning is not messaging — it's context-setting.** Set the right context, and your product's value becomes self-evident. Get it wrong, and no amount of great marketing can save you.
+
+She operates two interlocking systems:
+1. **The 5-Component Positioning System** — deconstruct competitive alternatives, map differentiated capabilities to value, identify your ideal customer, and choose the right market context
+2. **The Setup → Follow-Through Pitch Framework** — translate positioning into a sales pitch that teaches buyers how to buy, not just why to buy you
+
+This skill provides deployable techniques for:
+- Positioning any B2B product from scratch using competitive-alternative-first methodology
+- Building sales pitches that reduce buyer indecision through teaching
+- Diagnosing positioning failures and repositioning without a full rebrand
+- Executing bowling pin market expansion strategy
+- Arming internal champions for multi-stakeholder B2B deals
+
+## Deployable Capabilities
+
+### Positioning Prompts
+| Prompt | Use Case |
+|--------|----------|
+| [Positioning Diagnostic](references/prompts/01-positioning-diagnostic.md) | Audit current positioning against April's 5-component system |
+| [Competitive Alternative Mapper](references/prompts/02-competitive-alternative-mapper.md) | Map the full landscape of what customers do without you |
+| [Differentiated Value Chain Builder](references/prompts/03-differentiated-value-chain.md) | Chain features → capabilities → value → business impact |
+| [Target Customer Sharpener](references/prompts/04-target-customer-sharpener.md) | Identify the segment that makes you the obvious winner |
+| [Market Category Selector](references/prompts/05-market-category-selector.md) | Choose and test optimal market category framing |
+
+### Sales Pitch Prompts
+| Prompt | Use Case |
+|--------|----------|
+| [Sales Pitch Architect](references/prompts/06-sales-pitch-architect.md) | Build full Setup → Follow-Through pitch from positioning |
+| [Insight Reverse-Engineer](references/prompts/07-insight-reverse-engineer.md) | Derive unchallengeable market insights from differentiated value |
+| [Perfect World Bridge Builder](references/prompts/08-perfect-world-bridge.md) | Create agreement checkpoints that set your purchase criteria |
+| [Champion Ammunition Kit](references/prompts/09-champion-ammunition.md) | Pre-arm internal champions with stakeholder objection responses |
+| [Proof Stack Assembler](references/prompts/10-proof-stack-assembler.md) | Construct layered proof architecture for enterprise sales |
+
+### Strategy Prompts
+| Prompt | Use Case |
+|--------|----------|
+| [Bowling Pin Strategy Planner](references/prompts/11-bowling-pin-strategy.md) | Design sequential niche-conquest go-to-market plan |
+| [Pitch Testing Protocol](references/prompts/12-pitch-testing-protocol.md) | Test and iterate positioning via sales pitch before full rebrand |
+| [Buyer Indecision Reducer](references/prompts/13-buyer-indecision-reducer.md) | Convert stalled deals by teaching buyers how to decide |
+
+## Workflow Decision Tree
+
+```
+What's your objective?
+│
+├─► POSITIONING FROM SCRATCH
+│   ├─► Starting Point → Use Positioning Diagnostic
+│   ├─► Understand Landscape → Use Competitive Alternative Mapper
+│   ├─► Define Value → Use Differentiated Value Chain Builder
+│   ├─► Find Best Customers → Use Target Customer Sharpener
+│   └─► Set Context → Use Market Category Selector
+│
+├─► BUILD A SALES PITCH
+│   ├─► Full Pitch Build → Use Sales Pitch Architect
+│   ├─► Opening Insight → Use Insight Reverse-Engineer
+│   ├─► Mid-Pitch Alignment → Use Perfect World Bridge Builder
+│   ├─► Enterprise Deals → Use Champion Ammunition Kit
+│   └─► Credibility Layer → Use Proof Stack Assembler
+│
+├─► FIX A STALLING PIPELINE
+│   ├─► Deals Ending in No Decision → Use Buyer Indecision Reducer
+│   ├─► Test New Messaging → Use Pitch Testing Protocol
+│   └─► Diagnose Root Cause → Use Positioning Diagnostic
+│
+└─► GO-TO-MARKET EXPANSION
+    ├─► Sequential Growth → Use Bowling Pin Strategy Planner
+    └─► Category Decision → Use Market Category Selector
+```
+
+## Quick Start
+
+### 24-Hour Quickstart
+1. Read [genius-patterns.md](references/genius-patterns.md) to internalize "positioning is context-setting, not messaging"
+2. Run the [Positioning Diagnostic](references/prompts/01-positioning-diagnostic.md) on your current product
+3. Map competitive alternatives using [the mapper](references/prompts/02-competitive-alternative-mapper.md)
+4. Draft one market insight using [Insight Reverse-Engineer](references/prompts/07-insight-reverse-engineer.md)
+
+### 7-Day Sprint
+- **Day 1:** Complete positioning diagnostic + competitive alternative mapping
+- **Day 2:** Build differentiated value chains for all key features
+- **Day 3:** Sharpen target customer definition using the sharpener
+- **Day 4:** Select market category framing
+- **Day 5:** Draft full sales pitch using the architect
+- **Day 6:** Build champion ammunition kit for key stakeholder objections
+- **Day 7:** Test pitch with 1-2 qualified prospects and iterate
+
+### 30-Day Integration
+- **Week 1:** Complete 5-component positioning exercise
+- **Week 2:** Build and refine full sales pitch using Setup → Follow-Through
+- **Week 3:** Test with best sales rep, iterate on 5+ qualified prospects
+- **Week 4:** Roll out to full team, align marketing messaging, build proof stack
+
+## Resource Links
+
+### Core References
+- [Genius Patterns](references/genius-patterns.md) - 12 decoded virtuoso behaviors
+- [Hidden Knowledge](references/hidden-knowledge.md) - 8 tacit expertise points with deployment guidance
+
+### Prompt Library
+All 13 prompts located in `references/prompts/` directory
+
+## The Dunford Operating Philosophy
+
+> Your product doesn't have a "messaging problem." It has a positioning problem. Fix the context, and the messaging writes itself.
+
+Most companies try to solve positioning by iterating on taglines. April's approach starts at the root — understanding what customers would do without you, mapping your unique capabilities to value, and choosing the market frame that makes your value obvious. The sales pitch is just the vehicle that delivers this positioning to the buyer's brain in the right order.

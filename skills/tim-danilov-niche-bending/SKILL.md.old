@@ -1,0 +1,73 @@
+---
+name: "Tim Danilov - Niche Bending"
+description: "Systematic format-market innovation that transforms saturated content spaces into blue ocean opportunities by transplanting viral formats across markets."
+---
+
+# Tim Danilov: Niche Bending
+
+Tim Danilov is the creator who coined "Niche Bending" — the strategy of combining proven viral formats with untapped markets to create content that feels brand new in saturated spaces. He used this method to take faceless channels from 0 → $56K/month in 30 days, 0 → 150M views, and 0 → $23K in under 90 days. Extracted from a VidIQ deep-dive into his methodology.
+
+## Core Methodology
+
+**Niche Bending decomposes every piece of content into two independent variables: Market (who you serve) and Format (how you deliver).** Markets are fixed and finite — finance, fitness, gaming, education. Formats are infinite — tier lists, day-in-the-life, video essays, POV stories, 100-day challenges. Innovation happens exclusively at the format layer.
+
+The system uses **grid mapping** to find "empty squares" — combinations where a proven viral format has never been applied to a specific market. These empty squares are blue ocean opportunities backed by dual validation: the format is proven (viral elsewhere) and the market is proven (audience exists). The creator who fills an empty square first plants their flag in uncontested territory.
+
+Critical constraint: **you must only bend formats you can fill with genuine expertise.** The format is the gateway; your knowledge is the substance. Without this constraint, niche bending degenerates into gimmickry.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `format-market-grid-builder` — Format × Market Opportunity Grid | Starting content strategy, entering a new market, or finding novel content angles |
+| 2 | `viral-format-transplanter` — Viral Format Transplant | You've found a viral format and want to adapt it for your market |
+| 3 | `outlier-format-scout` — Outlier Format Scout | Weekly research to discover transplantable formats from outlier videos |
+| 4 | `language-adoption-engine` — Language Adoption Engine | Writing content that uses the native vocabulary of a borrowed format |
+| 5 | `audience-bridge-architect` — Audience Bridge Architect | Designing content that attracts audiences from adjacent markets |
+| 6 | `niche-bend-validator` — Niche Bend Validator | Quality-gating a proposed niche bend before execution |
+| 7 | `format-skeleton-extractor` — Format Skeleton Extractor | Analyzing any viral content piece to extract its reusable structure |
+| 8 | `saturation-arbitrage-finder` — Saturation Arbitrage Finder | Finding markets where competition is high but format innovation is low |
+| 9 | `cross-platform-format-bender` — Cross-Platform Format Bender | Adapting a format from one platform to another (YouTube → LinkedIn, TikTok → Newsletter) |
+| 10 | `trojan-horse-content-designer` — Trojan Horse Content Designer | Designing content that delivers expertise disguised within entertainment formats |
+| 11 | `content-innovation-stack` — Content Innovation Stack | Combining niche bending with storytelling, copywriting, and psychology for maximum impact |
+| 12 | `niche-bend-audit` — Full Niche Bend Audit | Running a complete niche bending audit for any brand, creator, or client |
+
+## Prompt Categories
+
+### Strategy & Planning
+Grid builder, audience bridge architect, saturation arbitrage finder — use these to plan content strategy and identify opportunities before creating anything.
+
+### Research & Discovery
+Outlier format scout, format skeleton extractor — use these during weekly research to build and maintain your format library.
+
+### Execution & Writing
+Viral format transplanter, language adoption engine, trojan horse content designer — use these when actually creating content.
+
+### Quality & Validation
+Niche bend validator — use before publishing any niche-bent content.
+
+### Multi-Platform & Scaling
+Cross-platform format bender, content innovation stack — use to scale niche bending across platforms and compound with other skills.
+
+### Service & Consulting
+Niche bend audit — use to deliver productized consulting to clients.
+
+## Workflow Decision Tree
+
+**Start here**: Do you know what format you want to use?
+
+- **No, I need to find opportunities** → `format-market-grid-builder` → identify empty squares → `outlier-format-scout` for format ideas
+- **I found a viral video and want to replicate the format** → `format-skeleton-extractor` → `niche-bend-validator` → `viral-format-transplanter`
+- **I have a format but need to adapt the language** → `language-adoption-engine`
+- **I want to attract new audiences** → `audience-bridge-architect`
+- **I want to enter a competitive market** → `saturation-arbitrage-finder` → `format-market-grid-builder`
+- **I need to create content now** → `trojan-horse-content-designer` or `content-innovation-stack`
+- **I'm doing a client audit** → `niche-bend-audit`
+- **I want to adapt this to a different platform** → `cross-platform-format-bender`
+
+## Quick Start
+
+- **Find content opportunities**: Run `format-market-grid-builder` with your market → reveals 10-20 empty squares
+- **Create a viral piece**: Run `outlier-format-scout` → `format-skeleton-extractor` → `viral-format-transplanter`
+- **Audit your content strategy**: Run `niche-bend-audit` for a comprehensive format-market analysis
+- **Scale to a new platform**: Run `cross-platform-format-bender` with a format that worked on one platform

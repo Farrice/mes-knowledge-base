@@ -1,0 +1,43 @@
+---
+name: "Luke Iha - Proof Mechanisms in Copywriting"
+description: "Injects strategic psychological, empirical, and credible proof points to make conversion feel utterly safe to the prospect."
+---
+
+# Luke Iha: Proof Mechanisms in Copywriting
+
+Luke Iha is a world-class copywriter who has generated over $100 million for his clients primarily through Video Sales Letters (VSLs). He believes that proof is infinitely more important than the promise, and emphasizes that true conversion happens when a prospect feels entirely safe buying from you.
+
+## Core Methodology
+
+Luke's strategy breaks down into 22 distinct proof weapons distributed across 5 domains of influence: Psychological, Experiential, Empirical, Credible, and Social proof. 
+
+Rather than clumsily stacking testimonials at the end of a page, he strategically injects distinct proof mechanisms exactly when the reader’s doubt begins to creep in—right after a bold claim or just before a Call-To-Action. He recognizes that "psychological proof" (making the argument simply feel sound, using jargon or brutal honesty) often eclipses factual data in persuasive weight.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `proof-audit-injector` — The Doubt Assassin | You have existing copy that isn't converting and you need to systematically validate claims with targeted proof weapons. |
+| 2 | `damaging-admission-crafter` — The Disarming Honesty Frame | You have an offer with obvious limitations (high price, bad support, slow shipping) and need to flip it into a psychological strength. |
+| 3 | `jargon-flurry-generator` — The Psychological Flex | You're presenting your product's "unique mechanism" and need a 2-sentence injection of dense, unarguable expertise to signal mastery. |
+
+## Prompt Categories
+
+### [Proof Architecture]
+Prompts designed to locate and eliminate doubt across an entire asset string using mapped psychology.
+
+### [Copywriting Micro-Injections]
+Surgical operations designed to insert 1-2 powerful sentences (damaging admissions or jargon) into existing frameworks.
+
+## Workflow Decision Tree
+
+**Start here**: Do you already have drafted copy?
+- [Yes] → `proof-audit-injector`
+- [No, creating from scratch] → Build the skeleton first with conventional AI copywriters, then use `proof-audit-injector`.
+- [I'm writing my Unique Mechanism segment] → `jargon-flurry-generator`
+- [I need to address objections or price] → `damaging-admission-crafter`
+
+## Quick Start
+
+- **Writing a VSL or Sales Page**: Run `proof-audit-injector` on your final draft to verify that your boldest claims aren't left undefended.
+- **Crafting an Offer/Guarantee section**: Run `damaging-admission-crafter` to introduce a flaw that massively spikes the credibility of your guarantee.

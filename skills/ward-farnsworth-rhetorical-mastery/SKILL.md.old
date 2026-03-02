@@ -1,0 +1,41 @@
+---
+name: ward-farnsworth-rhetorical-mastery
+description: "Mastery of immortal English prose and structural rhetorical patterns."
+---
+
+# Ward Farnsworth — Rhetorical Mastery
+
+## Overview
+
+Deconstructing the mechanics of immortal English prose into specific, repeatable patterns (Saxon vs. Latinate contrast, Chiasmus, Epistrophe, Anaphora) that operate almost mathematically on the human ear. True rhetorical power comes from *contrast*—the "chord changes" of language—where complex, intellectual words deliberately set up simple, gut-punching conclusions.
+
+## Deployable Capabilities
+
+- **The Saxon Punch (The "Chord Change")**: Structure arguments to begin with conceptual, Latinate (French/Roman) words and finish with short, stony, Germanic (Saxon) words.
+- **The Apistrophic Echo (Epistrophe)**: Repeat the exact same word or phrase at the *end* of consecutive clauses.
+- **The Chiasmus Reversal (ABBA)**: Use a crisscross structural reversal to demonstrate that the audience's current understanding is inverted.
+- **The "Two Languages" Translation**: State the exact same idea twice in a row—first using conceptual, high-minded language, and second using visceral, street-level language.
+
+## Workflow Decision Tree
+
+- **Closing a sales argument or delivering a hook?** → Use `saxon-punch-closer.md` to end with a hard consonant punch.
+- **Need an idea to linger in the reader's mind?** → Use `epistrophe-echo-generator.md` to repeat the core concept at the end of clauses.
+- **Handling objections or correcting backwards thinking?** → Use `chiasmus-reversal-engine.md` to create a paradigm-shifting Reversal statement.
+- **Appealing to both logic and emotion simultaneously?** → Use `two-languages-transmitter.md` to say the same thing intellectually and viscerally.
+
+## Quick Start
+
+Apply the "Saxon Punch" to the final line of your next 3 social media posts or email newsletters. Rewrite the core value proposition of your current offer using a Chiasmus to perfectly position against the "enemy."
+
+## Integration Notes
+
+- **Content Psychology (Kallaway)**: Farnsworth's Anaphora (repetition at the beginning) is the structural equivalent of Kallaway's tension building. Anaphora *is* the build-up.
+- **Copywriting (Harry Dry/Luke Iha)**: When injecting proof or restating the offer, use the "Two Languages" technique to validate logically and then hit emotionally.
+- **Digital Products (Nicolas Cole)**: Name products using the Saxon punch to make the title resonate emotionally rather than just descriptively.
+
+## Resource Links
+
+- [Genius Patterns](references/genius-patterns.md)
+- [Hidden Knowledge](references/hidden-knowledge.md)
+- [Implementation Pathway](references/implementation.md)
+- [Prompts](references/prompts/)

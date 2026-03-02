@@ -1,0 +1,54 @@
+---
+name: "Rachel Woods - AI Operations"
+description: "Transform any business into an AI-first operation using process decomposition, the CRAFT cycle, and competitive AI Edge identification."
+---
+
+# Rachel Woods: AI Operations Mastery
+
+Rachel Woods is the AI Operations Architect — founder of The AI Exchange and creator of the CRAFT Cycle methodology. Extracted from three deep-dive sessions (~28K words) covering AI operations, AI-first company transformation, and AI career positioning. Rachel's core insight: AI doesn't replace people, it replaces tasks — and the person who maps which tasks to replace captures all the value.
+
+## Core Methodology
+
+Rachel operates at the intersection of business process engineering and AI implementation. Her approach is tool-agnostic and model-agnostic, focusing instead on the systems layer: how to decompose any business function into automatable tasks, design AI workflows with built-in quality controls, and deploy them across teams with measurable results.
+
+The methodology rests on three pillars: (1) **Process Before Prompts** — document and understand the current process before introducing AI; (2) **Quality Bar Design** — define "good enough" for each task before building anything; (3) **Compound Systems** — connect individual AI tasks into learning systems that create competitive advantage.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `process-decomposition-audit` — Process Decomposition Audit | You need to break any business function into tasks and score automation readiness |
+| 2 | `ai-edge-identifier` — AI Edge Identifier | You need to find a company's unique AI competitive moat |
+| 3 | `craft-cycle-blueprint` — CRAFT Cycle Blueprint | You need a phased AI implementation plan for a specific process |
+| 4 | `ai-operator-role-designer` — AI Operator Role Designer | You need to design the AI Operator position for an organization |
+| 5 | `unlimited-time-reframe` — Unlimited Time Reframe | You have a "save time" AI use case that needs strategic elevation |
+| 6 | `thirty-percent-trap-diagnostic` — 30% Trap Diagnostic | You need to audit why a company's AI adoption is stalling |
+| 7 | `master-spec-generator` — MASTER Spec Generator | You need to create a portable, team-ready AI task specification |
+
+## Prompt Categories
+
+### Strategic Assessment
+`ai-edge-identifier`, `thirty-percent-trap-diagnostic`, `unlimited-time-reframe` — Use these to diagnose where a company stands and where the big opportunities are. Start with the diagnostic, then identify the edge, then reframe the opportunity.
+
+### Process Engineering
+`process-decomposition-audit`, `craft-cycle-blueprint`, `master-spec-generator` — Use these to actually build the AI implementation. Decompose first, then blueprint the CRAFT cycle, then generate MASTER specs for each AI task in the workflow.
+
+### Organizational Design
+`ai-operator-role-designer` — Use when the implementation plan requires a dedicated operator role (most companies above 20 employees will need this).
+
+## Workflow Decision Tree
+
+**Start here**: What are you trying to accomplish?
+
+- **"We want to use more AI"** → Run `thirty-percent-trap-diagnostic` to find where they're stuck
+- **"We have a specific process to automate"** → Run `process-decomposition-audit` → then `craft-cycle-blueprint`
+- **"What's our competitive advantage with AI?"** → Run `ai-edge-identifier`
+- **"We need someone to own AI internally"** → Run `ai-operator-role-designer`
+- **"We're already saving time but want more"** → Run `unlimited-time-reframe` → then `ai-edge-identifier`
+- **"I need to build a specific AI workflow"** → Run `master-spec-generator` for each task in the chain
+
+## Quick Start
+
+- **AI consulting engagement**: Run `thirty-percent-trap-diagnostic` → `ai-edge-identifier` → `craft-cycle-blueprint` (the full diagnostic-to-implementation pipeline)
+- **Process automation project**: Run `process-decomposition-audit` → `craft-cycle-blueprint` → loop `master-spec-generator` for each task
+- **Organizational AI strategy**: Run `ai-operator-role-designer` → `thirty-percent-trap-diagnostic` → `unlimited-time-reframe`

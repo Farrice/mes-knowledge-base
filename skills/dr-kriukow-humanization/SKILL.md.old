@@ -1,0 +1,98 @@
+---
+name: "Dr. Kriukow AI Humanization"
+description: "Diagnostic-first AI humanization safety net — structural unpredictability, detection evasion, and algorithmic-proof writing"
+---
+
+# Dr. Kriukow AI Humanization
+
+> **Extracted from**: Dr. Jaroslaw Kriukow — Qualitative researcher and AI text humanization specialist
+> **Domain**: AI content humanization, detection evasion, structural unpredictability, writing quality optimization
+> **System Role**: Diagnostic safety net — use when content lacks a strong writer voice or feels AI-detectable
+
+## Overview
+
+This skill implements Dr. Kriukow's Statistical Unpredictability Principle (SUP): AI writing and AI detection both operate on statistical probability. The most effective humanization isn't word-swapping — it's structural divergence from the AI-generated "most predictable version."
+
+Unlike cosmetic fixes ("avoid the word delve"), this methodology attacks the mathematical foundation of AI detection by making text structurally unpredictable at the paragraph level.
+
+## When to Use
+
+**Selectively** — as a diagnostic and safety net, NOT a mandatory gate on every piece of content.
+
+| ✅ Use When | ❌ Skip When |
+|------------|-------------|
+| Raw AI output with no writer agent applied | Content from Nicolas Cole, Shaan Puri, Tobias Allen, etc. |
+| Quick drafts you need to ship fast without a full writing pass | Anything already run through a strong voice/style skill |
+| Content that "feels AI" but you can't pinpoint why | Copy that already has personality and distinctive rhythm |
+| Academic or professional docs where detection is a real risk | Creative content where the voice IS the product |
+
+| Situation | Action |
+|-----------|--------|
+| Not sure if content sounds AI | Run `structural-predictability-audit` (diagnose first) |
+| Raw AI output needs humanizing | Run `ai-humanization-pass` |
+| Specific paragraph needs deep rewrite | Run `meaning-extraction-rewriter` |
+| New content type/voice needs calibration | Run `writing-style-humanizer-config` |
+
+## Decision Tree
+
+```
+Content is AI-generated or AI-assisted
+  │
+  ├─ Was a strong writer agent used? (Nicolas Cole, Shaan Puri, etc.)
+  │     ├─ YES → Skip. The writer IS the humanization.
+  │     └─ NO → Continue ↓
+  │
+  ├─ Not sure if it sounds AI? ──→ structural-predictability-audit (diagnose first)
+  │     ├─ Score LOW risk → Ship as-is
+  │     └─ Score HIGH risk → Continue ↓
+  │
+  ├─ Quick deployment (< 500 words) ──→ ai-humanization-pass
+  │
+  ├─ Deep rewrite (specific paragraph) ──→ meaning-extraction-rewriter
+  │
+  └─ New content type/voice ──→ writing-style-humanizer-config → then ai-humanization-pass
+```
+
+## Key Principles
+
+1. **Statistical Unpredictability over Word Swapping** — Change STRUCTURE first, vocabulary last
+2. **Paragraph-Level Editing** — Never edit individual sentences in isolation; AI detectors evaluate inter-sentence relationships
+3. **Meaning-First Reconstruction** — Extract what a paragraph MEANS, then re-express it differently
+4. **Deliberate Imperfection** — Inject passive voice, transitional connectors, varying sentence lengths — "worse" writing is more human
+5. **No Right Way** — Any structural divergence works; don't memorize specific techniques, apply the principle
+
+## Deployable Capabilities
+
+### Prompts
+
+| Prompt | Purpose |
+|--------|---------|
+| [ai-humanization-pass](references/prompts/ai-humanization-pass.md) | Universal humanization filter — restructures AI text for detection evasion |
+| [structural-predictability-audit](references/prompts/structural-predictability-audit.md) | Diagnoses HOW text is structurally predictable and flags AI tells |
+| [meaning-extraction-rewriter](references/prompts/meaning-extraction-rewriter.md) | Paragraph-level meaning-first rewrites for maximum structural divergence |
+| [writing-style-humanizer-config](references/prompts/writing-style-humanizer-config.md) | Generates custom humanization profiles for specific voices and formats |
+
+## Integration Points
+
+### Relationship to Writer Agents
+Strong writer agents (Nicolas Cole, Shaan Puri, Tobias Allen, Lara Acosta, Harry Dry, Cardinal Mason) already produce structurally unpredictable, human-sounding content. **Do not run their output through this skill** — it would flatten their distinctive voices.
+
+This skill exists for the gaps:
+- Raw AI output with no writer applied
+- Speed-mode content where you skip the full writer pipeline
+- Professional/academic contexts with aggressive AI detection
+
+### Chain Architecture
+```
+[Writer Agent used?]
+  ├─ YES → [Writer Skill] → draft → ship (skip humanization)
+  └─ NO  → [Raw AI draft] → [Predictability Audit] → [Humanization Pass if needed] → ship
+```
+
+This skill is a **safety net**, not a mandatory post-processor. Diagnose first, treat only when needed.
+
+## Resources
+
+- [Extraction Report](../../extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md)
+- [Genius Patterns](references/genius-patterns.md)
+- [Source Transcript](../../extractions/dr-kriukow/transcript.txt)

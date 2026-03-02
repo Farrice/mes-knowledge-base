@@ -1,0 +1,75 @@
+---
+name: nicolas-cole-digital-products
+expert: Nicolas Cole
+domain: Digital Product Creation Strategy
+version: 1.0
+extraction_date: 2026-02-17
+source: "The 6 Types of Digital Products" (YouTube, 48:36)
+---
+
+# Nicolas Cole — Digital Product Creation Strategy
+
+## Overview
+
+Nicolas Cole has generated millions in digital product revenue across every vehicle type — ebooks, paid newsletters, cohort-based courses (Ship 30 for 30: $3M+), communities (Digital Writing School), and high-ticket coaching (PGA). This skill encodes his product progression framework: the rules for choosing the right vehicle, pricing it correctly, and sequencing products so each one unlocks the next.
+
+**Core Insight**: Digital products are a game of **context** and **vehicle selection** — the same content at different price points, with different delivery modalities, creates entirely different businesses with entirely different customer expectations.
+
+## Prompt Arsenal
+
+| # | Prompt | What It Produces |
+|---|--------|-----------------|
+| 1 | [product-vehicle-selector.md](references/prompts/product-vehicle-selector.md) | Vehicle classification + pricing recommendation for any product idea |
+| 2 | [product-progression-planner.md](references/prompts/product-progression-planner.md) | Full product roadmap from Level 1 (standalone) through Level 6 (mastermind) |
+| 3 | [context-repackaging-engine.md](references/prompts/context-repackaging-engine.md) | Maps one piece of content across 5+ price-point contexts |
+| 4 | [expectation-audit.md](references/prompts/expectation-audit.md) | Pre-launch audit matching customer expectations to your chosen vehicle/price |
+| 5 | [product-scope-architect.md](references/prompts/product-scope-architect.md) | Uses Problem-Completion Test to scope exactly what goes in a product |
+| 6 | [pricing-psychology-optimizer.md](references/prompts/pricing-psychology-optimizer.md) | Pricing recommendation based on vehicle type and $350 threshold psychology |
+
+## Methodology
+
+Cole's system operates on a **sequential vehicle progression**:
+
+```
+Level 1: Standalone ($49-99) → Level 2: Course ($99-350) → Level 3: Cohort ($350-999)
+    ↓ pairs with ↑                    ↓ pairs with ↑
+Level 1R: Paid Newsletter         Level 4: Community ($99/mo)
+                                       ↓
+                               Level 5: High-Ticket ($3K-10K)
+                                       ↓
+                               Level 6: Mastermind ($10K-100K)
+```
+
+**Rules**:
+1. Always start at Level 1. If you can't sell a $49 ebook, nothing else will work.
+2. Standalone before recurring. Prove value once before asking for ongoing commitment.
+3. Price at the TOP of each range. Higher price = more revenue, even with fewer buyers.
+4. Same content, different delivery = different product. This isn't lazy — it's the model.
+5. Communities and high-ticket are the CULMINATION, not the starting point.
+
+## Workflow Decision Tree
+
+```
+START → Do you have a successful standalone product?
+  NO → Use product-vehicle-selector.md → Build Level 1
+  YES → Do you want to expand or go recurring?
+    EXPAND → Use product-scope-architect.md → Build Level 2
+    RECURRING → Use expectation-audit.md → Validate Level 1R readiness
+    LIVE → Use product-progression-planner.md → Plan Level 3 cohort
+    COMMUNITY → Use expectation-audit.md → Verify all 4 expectations met
+```
+
+## Skill Stacking
+
+| Pair With | Workflow |
+|-----------|----------|
+| **Samuel Thompson** | Validate market demand before building product |
+| **Cardinal Mason** | Write sales page copy for chosen vehicle |
+| **Seena Rez** | Create launch video/TikTok for product |
+| **Shaan Puri** | Craft storytelling hooks for product marketing |
+| **Harry Dry** | Write product landing page headlines |
+
+## References
+
+- [genius-patterns.md](references/genius-patterns.md) — 8 patterns with deployment context
+- [hidden-knowledge.md](references/hidden-knowledge.md) — 5 tacit insights

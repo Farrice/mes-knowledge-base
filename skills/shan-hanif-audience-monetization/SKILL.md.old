@@ -1,0 +1,43 @@
+---
+name: "Shan Hanif - Audience Monetization"
+description: "Turn unqualified LinkedIn leads into a high-profit digital product backend while elevating B2B agency positioning."
+---
+
+# Shan Hanif: Audience Monetization
+
+Shan Hanif, CEO of Genflow ($25M agency), explains how he grew to 45K followers and added $484K in revenue by fundamentally shifting how an agency uses LinkedIn. Instead of viewing non-ideal clients as wasted impressions, he treats them as a captive market for high-margin digital products, while using the exact same content to run "public sales calls" that close his true ideal clients.
+
+## Core Methodology
+
+The Dual-Monetization Engine solves the biggest problem for B2B service providers on social media: the vast majority of followers will never afford your premium services. Instead of trying to force them upmarket, you build an affordable digital product or accelerator specifically for them. 
+
+The content strategy supporting this engine relies on 4 pillars: Awareness (broad resonance), Educational (hijacking major brand funnels to fabricate authority), Storytelling (positioning yourself as a premium, high-status CEO, explicitly rejecting "victim" vulnerability), and Conversion (hyper-specific lead magnets run in 7-day sprints to capture emails).
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `shan-hanif-unqualified-monetizer` | Designing a digital product for the "waste" traffic of your B2B service. |
+| 2 | `shan-hanif-authority-hijack` | You need to instantly prove expertise in a new niche without client case studies. |
+| 3 | `shan-hanif-lead-magnet-sprint` | Architecture for capturing mass audience attention into a robust email funnel. |
+| 4 | `shan-hanif-positioning-storyteller` | Writing a storytelling post that elevates status rather than begging for sympathy. |
+
+## Prompt Categories
+
+### Monetization & Funnel Architecture
+`shan-hanif-unqualified-monetizer`, `shan-hanif-lead-magnet-sprint`
+
+### Content & Authority Generation
+`shan-hanif-authority-hijack`, `shan-hanif-positioning-storyteller`
+
+## Workflow Decision Tree
+
+**Start here**: What is the immediate goal for your LinkedIn presence?
+- Need to monetize your existing small audience? → `shan-hanif-unqualified-monetizer`
+- Have an email list but need to capture more leads fast? → `shan-hanif-lead-magnet-sprint`
+- Need to prove you're an expert to close a whale client? → `shan-hanif-authority-hijack`
+- Need to build trust and affinity without looking weak? → `shan-hanif-positioning-storyteller`
+
+## Quick Start
+- **Monetization Architecture**: Run `shan-hanif-unqualified-monetizer` → then `shan-hanif-lead-magnet-sprint`
+- **Weekly Content Execution**: Run `shan-hanif-authority-hijack` (2x) and `shan-hanif-positioning-storyteller` (1x)

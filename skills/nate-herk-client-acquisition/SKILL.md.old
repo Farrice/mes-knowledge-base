@@ -1,0 +1,43 @@
+---
+name: "Nate Herk - AI Client Acquisition"
+description: "Acquire AI workflow clients without an audience by leveraging asymmetric trust partnerships and validation-first outreach."
+---
+
+# Nate Herk: AI Client Acquisition
+
+Gain high-ticket B2B clients for AI automation services without spending months building a YouTube channel or audience. This skill codifies Nate Herk's framework for rapid agency growth using the "Trojan Horse" partnership method and market-validated cold outreach.
+
+## Core Methodology
+
+Nate's methodology flips the standard agency script: **Sell first, build later.** Rather than perfecting a complex AI workflow and hoping someone buys it, you use high-volume outreach (100+ messages/day) as raw market research. Only build the systems that generate a >5% reply rate. 
+
+Furthermore, instead of fighting for authority from scratch, you deploy the **Trojan Horse Method**: approaching established marketing, legal, or consulting agencies and offering to conduct free "AI Discovery Calls" for their clients under their brand. You make the agency look like forward-thinking heroes, they give you instant trust and access to warm leads, and you split the closed deal revenue 80/20.
+
+## Available Prompts
+
+| # | Prompt | Use When |
+|---|--------|----------|
+| 1 | `trojan-horse-pitch-generator` — Partnership Pitch Generator | Targeting adjacent B2B agencies to borrow their audience and authority. |
+| 2 | `validation-first-outreach-matrix` — Market Validation Outreach | Designing cold outreach campaigns specifically to test offer viability before building systems. |
+| 3 | `constraint-discovery-protocol` — Constraint Discovery Script | Running discovery calls (especially partner-sourced ones) to isolate operational bottlenecks. |
+
+## Prompt Categories
+
+### Agency Partnerships
+- `trojan-horse-pitch-generator`: Generates a low-risk, high-reward value proposition aimed at established agency owners.
+
+### Offer Validation & Sales
+- `validation-first-outreach-matrix`: Structures high-volume templates treated as primary market research.
+- `constraint-discovery-protocol`: A conversational flow that forces prospects to identify breaking points rather than requesting shiny objects.
+
+## Workflow Decision Tree
+
+**Start here**: Do you have a validated, high-converting offer yet?
+- **No** → `validation-first-outreach-matrix` (Use responses to refine offer)
+- **Yes, but no proof/audience** → `trojan-horse-pitch-generator` (Borrow authority)
+- **Yes, and calls booked** → `constraint-discovery-protocol` (Identify the bottleneck to close)
+
+## Quick Start
+
+- **Testing a new workflow idea**: Run `validation-first-outreach-matrix` to see if the market actually cares before you open Make.com.
+- **Entering a new niche**: Run `trojan-horse-pitch-generator` to find local SEO agencies who already have the clients you want.
