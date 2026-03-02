@@ -59,6 +59,27 @@
 
 ---
 
+## Chain 5: Ideas → Brief → Flywheel
+
+**Sequence**: `/flywheel-ideas` → `/mini-brief` → `/ip-flywheel` or `/yt-flywheel`
+
+| Step | Workflow | Produces | Expected By Next Step |
+|------|----------|----------|-----------------------|
+| 1 | `/flywheel-ideas` | 3-5 concept dossier (pain/belief/truth/stakes/engine) | `/mini-brief` expects raw concept or dossier entry |
+| 2 | `/mini-brief` | 7-element brief + platform spec + research + expert stack | `/ip-flywheel` expects brief file path |
+| 3 | `/ip-flywheel` or `/yt-flywheel` | Complete multi-asset package (essay + prompt kit + visual + Substack) | Publishing |
+
+**Quality Gate**: Run at step 2→3 boundary. Brief must have Oren taste check PASSED and research provenance 🟢 before feeding to flywheel.
+
+**Handoff**: `/mini-brief` output maps directly to `/ip-flywheel` Step 2:
+- Elements 1-4 → "Core Hook & Stakes (Kallaway)"
+- Element 3 → "Contrarian Angle (Dan Koe)"
+- All 7 elements → "Outline/Beat Sheet"
+- Platform Spec → format selection in Asset 1
+- Element 7 (Expert Stack) → which experts to deploy for asset generation
+
+---
+
 ## General Rules
 
 1. **Never skip a chain step** — each step depends on the prior step's output

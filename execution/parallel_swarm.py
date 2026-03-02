@@ -127,6 +127,11 @@ EXPERT_DOMAINS = {
     "jonathan-franzen": "Literary storytelling, compression",
     "lucas-alpay": "Fiction writing, business storytelling",
     "donald-miller": "StoryBrand, culture turnaround, messaging",
+    "tommy-clark": "B2B founder content, How I narratives, stealth hooks",
+    "jasmin-alic": "LinkedIn organic growth, emotional hooks, rhythmic cadence",
+    "josh-sanders": "LinkedIn format arbitrage, depth metrics, outlier engineering",
+    "caleb-ralston": "Trust-based personal brand, contrarian positioning, credibility",
+    "linkedin-2026-format-arbitrage": "LinkedIn algorithm, format selection, platform optimization",
 }
 
 
@@ -172,14 +177,17 @@ async def call_gemini(prompt: str, system_instruction: str = "",
 # Agent Context Loading
 # --------------------------------------------------------------------------
 
-def load_agent_context(agent_name: str) -> str:
+def load_agent_context(agent_name: str, tier: int = 1,
+                       extra_files: Optional[List[str]] = None) -> str:
     """
-    Load minimal expert context — SKILL.md only (not the full genius-patterns 
-    to keep token usage lean). Returns system instruction for the agent.
+    Load expert context at the specified tier level.
+
+    Tier 1 (default): AGENT.md + SKILL.md (~1,350 tokens)
+    Tier 2: AGENT.md + SKILL.md + genius.md + specified workflow files (~2,550 tokens)
+
+    extra_files: Additional file paths (relative to skill dir) to load at Tier 2.
     """
-    # Check agent directory first
     agent_dir = AGENTS_PATH / agent_name
-    skill_dir = SKILLS_PATH / agent_name.replace(" ", "-")
 
     context_parts = []
 
@@ -189,17 +197,35 @@ def load_agent_context(agent_name: str) -> str:
         content = agent_file.read_text()
         context_parts.append(content)
 
-    # Skill overview — look for matching skill names
+    # Find matching skill directory
+    matched_skill_dir = None
     for skill_name in SKILLS_PATH.iterdir():
         if agent_name in skill_name.name:
-            skill_file = skill_name / "SKILL.md"
-            if skill_file.exists():
-                content = skill_file.read_text()
-                context_parts.append(content)
+            matched_skill_dir = skill_name
             break
 
+    if matched_skill_dir:
+        # Tier 1+: Always load SKILL.md
+        skill_file = matched_skill_dir / "SKILL.md"
+        if skill_file.exists():
+            context_parts.append(skill_file.read_text())
+
+        # Tier 2: Also load genius.md + specified workflow files
+        if tier >= 2:
+            genius_file = matched_skill_dir / "genius.md"
+            if genius_file.exists():
+                context_parts.append(genius_file.read_text())
+
+            # Load extra workflow/prompt files if specified
+            if extra_files:
+                for rel_path in extra_files:
+                    full_path = matched_skill_dir / rel_path
+                    if full_path.exists():
+                        context_parts.append(full_path.read_text())
+                    else:
+                        print(f"  ⚠️  Extra file not found: {full_path}")
+
     if not context_parts:
-        # Halt execution if no specific knowledge is found
         raise FileNotFoundError(
             f"CRITICAL: Failed to load context for agent '{agent_name}'. "
             f"Neither AGENT.md nor SKILL.md could be found. "
@@ -274,6 +300,187 @@ def generate_work_orders(objective: str, agents: List[str]) -> List[WorkOrder]:
 
 
 # --------------------------------------------------------------------------
+# Mini-Brief Work Order Generation
+# --------------------------------------------------------------------------
+
+# Default expert assignments per concept mode (maps to the workflow matrix)
+MINI_BRIEF_EXPERTS = {
+    "story-driven":  {"pain": "kallaway", "hook": "tommy-clark", "asset": "josh-sanders", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
+    "contrarian":    {"pain": "kallaway", "hook": "kallaway", "asset": "josh-sanders", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
+    "recognition":   {"pain": "jasmin-alic", "hook": "jasmin-alic", "asset": "kallaway", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
+    "educational":   {"pain": "kallaway", "hook": "harry-dry", "asset": "josh-sanders", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
+    "authority":     {"pain": "caleb-ralston", "hook": "caleb-ralston", "asset": "caleb-ralston", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
+    "vulnerability": {"pain": "kallaway", "hook": "caleb-ralston", "asset": "kallaway", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
+}
+
+# Tier 2 workflow files per expert (relative to skill dir)
+EXPERT_WORKFLOW_FILES = {
+    "kallaway": ["workflows/hook-engineering-matrix.md"],
+    "tommy-clark": ["workflows/founder-narrative-extraction-system.md"],
+    "jasmin-alic": [],  # genius.md covers core patterns
+    "josh-sanders": [],
+    "caleb-ralston": [],
+    "harry-dry": [],
+    "linkedin-2026-format-arbitrage": ["workflows/viral-lead-generation-funnel.md"],
+    "lara-acosta": [],
+    "oren": [],
+}
+
+
+def generate_mini_brief_work_orders(
+    concept: str,
+    research_brief: str,
+    mode: str = "story-driven",
+    platform: str = "linkedin",
+    agents_override: Optional[Dict[str, str]] = None,
+) -> List[WorkOrder]:
+    """
+    Generate specialized work orders for the /mini-brief v2.0 workflow.
+
+    Produces 5 work orders:
+      Batch 0 (parallel): WO1-Pain&Truth, WO2-Hook, WO3-Asset, WO4-Platform
+      Batch 1 (sequential): WO5-TasteGate (Oren)
+
+    Args:
+        concept: The concept skeleton from Phase 2
+        research_brief: The research brief from Phase 1
+        mode: Concept mode (story-driven, contrarian, recognition, educational, authority, vulnerability)
+        platform: Target platform (linkedin, youtube, substack)
+        agents_override: Optional dict to override default expert assignments
+    """
+    # Select experts based on mode
+    experts = MINI_BRIEF_EXPERTS.get(mode, MINI_BRIEF_EXPERTS["story-driven"])
+    if agents_override:
+        experts = {**experts, **agents_override}
+
+    shared_context = f"""## CONCEPT SKELETON
+{concept}
+
+## RESEARCH BRIEF
+{research_brief}
+
+## TARGET PLATFORM: {platform.upper()}
+## CONCEPT MODE: {mode.upper()}
+"""
+
+    orders = []
+
+    # WO1: Pain & Truth Agent
+    pain_agent = experts["pain"]
+    orders.append(WorkOrder(
+        agent_name=pain_agent,
+        objective=f"Forge Elements 1-4 (Shadow Market Pain, Flawed Belief, Contrarian Truth, Stakes) for this concept.",
+        context=shared_context,
+        mandate=[
+            "Apply the Dopamine Ladder (L1-L2: Stimulation → Captivation) to the Shadow Market Pain",
+            "Use Curiosity Loop Engineering to forge the Contrarian Truth",
+            "The pain MUST use VERBATIM language from the research brief — not LLM abstractions",
+            "The contrarian truth must SHATTER a specific flawed belief identified in research",
+            "Apply stakes escalation: emotional AND practical consequences",
+            "Output: 4 numbered elements with patterns applied noted",
+        ],
+        output_schema="mini-brief-elements",
+        constraints={
+            "tier": 2,
+            "workflow_files": EXPERT_WORKFLOW_FILES.get(pain_agent, []),
+        },
+        batch=0,
+    ))
+
+    # WO2: Narrative Hook Agent
+    hook_agent = experts["hook"]
+    orders.append(WorkOrder(
+        agent_name=hook_agent,
+        objective=f"Forge Element 5 (Narrative Hook) — produce 3 variations ranked by tension strength.",
+        context=shared_context,
+        mandate=[
+            "Hook must open with a SCENE — a person, a moment, a conversation, a feeling",
+            "Must survive the 3-line truncation test (LinkedIn mobile cuts at line 3)",
+            "Include a Stealth Hook variant that bypasses AI/ad detection filters",
+            "Produce 3 variations: A (highest tension), B (recognition play), C (data/authority)",
+            "Each variation must create tension that DEMANDS resolution",
+            "Output: 3 hook variations with truncation test results",
+        ],
+        output_schema="mini-brief-hook",
+        constraints={
+            "tier": 2,
+            "workflow_files": EXPERT_WORKFLOW_FILES.get(hook_agent, []),
+        },
+        batch=0,
+    ))
+
+    # WO3: Asset & Funnel Agent
+    asset_agent = experts["asset"]
+    orders.append(WorkOrder(
+        agent_name=asset_agent,
+        objective=f"Forge Element 6 (Recommended Asset) — design a diagnostic/interactive prompt kit.",
+        context=shared_context,
+        mandate=[
+            "Design the asset as a DIAGNOSTIC or INTERACTIVE tool — not a static PDF",
+            "The asset must generate saves, not just likes (depth-first monetization)",
+            "The reader must be able to EXPERIENCE the concept (diagnose, calculate, mine, score)",
+            "Include: asset name, description, keyword CTA, and 3-phase prompt kit outline",
+            "Trust test: reader can use this WITHOUT hiring Farrice",
+            "Gap test: using the tool naturally reveals a gap that Farrice's service fills",
+            "Output: Full asset spec with trust/gap test results",
+        ],
+        output_schema="mini-brief-asset",
+        constraints={
+            "tier": 2,
+            "workflow_files": EXPERT_WORKFLOW_FILES.get(asset_agent, []),
+        },
+        batch=0,
+    ))
+
+    # WO4: Platform Optimization Agent
+    platform_agent = experts["platform"]
+    orders.append(WorkOrder(
+        agent_name=platform_agent,
+        objective=f"Generate Platform Optimization Spec for {platform.upper()}.",
+        context=shared_context,
+        mandate=[
+            "Apply Niche Bending Formula: what format would be novel for this concept?",
+            "Apply Commitment Escalation Loop: if carousel, design slide progression",
+            "Apply Trapdoor Hook test: ensure hook survives 3-line mobile truncation",
+            "Apply Costly Signaling Theory: recommend visual strategy",
+            "Apply Comment-to-Download Flywheel: design velocity engineering",
+            "Specify: optimal format, character count, posting window, CTA architecture, depth metric targets",
+            "Output: Complete platform spec ready to integrate into the brief",
+        ],
+        output_schema="mini-brief-platform",
+        constraints={
+            "tier": 2,
+            "workflow_files": EXPERT_WORKFLOW_FILES.get(platform_agent, []),
+        },
+        batch=0,
+    ))
+
+    # WO5: Oren Taste Gate (Batch 1 — runs after WO1-4)
+    orders.append(WorkOrder(
+        agent_name="oren",
+        objective="Run the Oren Taste Check on the assembled Mini-Brief elements.",
+        context=shared_context + "\n\n## NOTE: You will receive assembled outputs from other agents. Evaluate each element.",
+        mandate=[
+            "Does this sound like a PREMIUM thought leader or a desperate service provider?",
+            "Is the tone 'unbothered authority' — calm, diagnostic, slightly detached?",
+            "Would this concept still be valuable if you never mentioned your service?",
+            "Check for template slop — generic phrases any coach could sign",
+            "Pass/fail EACH element with specific revision notes if fail",
+            "Output: Taste verdict table with pass/fail per element",
+        ],
+        output_schema="mini-brief-taste",
+        constraints={
+            "tier": 2,
+            "workflow_files": [],
+        },
+        depends_on=[pain_agent, hook_agent, asset_agent, platform_agent],
+        batch=1,
+    ))
+
+    return orders
+
+
+# --------------------------------------------------------------------------
 # Single Agent Execution
 # --------------------------------------------------------------------------
 
@@ -295,8 +502,10 @@ async def execute_agent(work_order: WorkOrder, token_tracker: dict) -> AgentResu
 
     print(f"  🚀 Launching {agent}...")
 
-    # Load expert context
-    system_instruction = load_agent_context(agent)
+    # Load expert context (Tier 2 if specified in work order constraints)
+    tier = work_order.constraints.get("tier", 1)
+    extra_files = work_order.constraints.get("workflow_files", None)
+    system_instruction = load_agent_context(agent, tier=tier, extra_files=extra_files)
 
     # Build prompt
     prompt = f"""## WORK ORDER
@@ -364,7 +573,92 @@ Respond with:
 # Parallel Execution Engine
 # --------------------------------------------------------------------------
 
-async def execute_swarm(objective: str, agents: List[str], 
+async def _execute_swarm_with_orders(objective: str, work_orders: List[WorkOrder],
+                                     plan_only: bool = False) -> SwarmResult:
+    """Execute a swarm with pre-built work orders (used by mini-brief mode)."""
+    agents = [wo.agent_name for wo in work_orders]
+    start_time = time.time()
+    token_tracker = {"used": 0}
+
+    print(f"\n{'='*60}")
+    print(f"🐝 SWARM COMMANDER — Mini-Brief Production Engine")
+    print(f"{'='*60}")
+    print(f"📋 Objective: {objective[:100]}...")
+    print(f"👥 Agents: {', '.join(dict.fromkeys(agents))}")
+    print(f"🔧 Model: {MODEL}")
+    print(f"🛡️  Safety: max {MAX_RETRIES} retries, {TOKEN_BUDGET:,} token budget")
+    print(f"{'='*60}\n")
+
+    if plan_only:
+        print("\n📝 Plan-only mode. Work orders generated but not executed.")
+        plan_text = "\n\n".join(
+            f"### {wo.agent_name} (Batch {wo.batch})\n**Objective:** {wo.objective}\n**Mandate:** {', '.join(wo.mandate[:2])}..."
+            for wo in work_orders
+        )
+        return SwarmResult(
+            objective=objective, agent_results=[], synthesis=plan_text,
+            total_tokens=0, total_duration=0, total_cost_usd=0,
+        )
+
+    # Group by batch
+    batches: Dict[int, List[WorkOrder]] = {}
+    for wo in work_orders:
+        batches.setdefault(wo.batch, []).append(wo)
+
+    all_results: List[AgentResult] = []
+
+    for batch_num in sorted(batches.keys()):
+        batch = batches[batch_num]
+        batch_agents = [wo.agent_name for wo in batch]
+        print(f"\n⚡ BATCH {batch_num + 1}: Launching {len(batch)} agents in PARALLEL")
+        print(f"   Agents: {', '.join(batch_agents)}")
+
+        # For Batch 1+ (Oren), inject assembled outputs from previous batches
+        if batch_num > 0 and all_results:
+            assembled = "\n\n---\n\n".join(
+                f"## {r.agent_name} Output:\n{r.output}"
+                for r in all_results if r.status == "success"
+            )
+            for wo in batch:
+                wo.context += f"\n\n## ASSEMBLED OUTPUTS FROM PREVIOUS AGENTS\n{assembled}"
+
+        tasks = [execute_agent(wo, token_tracker) for wo in batch]
+        results = await asyncio.gather(*tasks)
+        all_results.extend(results)
+
+        successful = sum(1 for r in results if r.status == "success")
+        print(f"\n   ✅ Batch {batch_num + 1} complete: {successful}/{len(batch)} succeeded")
+
+    # Synthesis (mini-brief assembly)
+    print(f"\n{'='*60}")
+    print(f"🧬 ASSEMBLING Mini-Brief from {len(all_results)} agent outputs...")
+    print(f"{'='*60}\n")
+
+    synthesis = await synthesize_results(objective, all_results, token_tracker)
+
+    total_duration = time.time() - start_time
+    total_tokens = token_tracker["used"]
+    cost_per_million = 0.10
+    total_cost = (total_tokens / 1_000_000) * cost_per_million
+
+    save_outputs(objective, all_results, synthesis, total_tokens, total_duration, total_cost)
+
+    print(f"\n{'='*60}")
+    print(f"🎯 MINI-BRIEF SWARM COMPLETE")
+    print(f"{'='*60}")
+    print(f"⏱️  Duration:   {total_duration:.1f}s")
+    print(f"📊 Tokens:     {total_tokens:,}")
+    print(f"💰 Est. Cost:  ${total_cost:.4f}")
+    print(f"📂 Output:     {OUTPUT_DIR / 'latest'}")
+    print(f"{'='*60}\n")
+
+    return SwarmResult(
+        objective=objective, agent_results=all_results, synthesis=synthesis,
+        total_tokens=total_tokens, total_duration=total_duration, total_cost_usd=total_cost,
+    )
+
+
+async def execute_swarm(objective: str, agents: List[str],
                         plan_only: bool = False) -> SwarmResult:
     """
     Execute a full swarm: generate work orders, run agents in parallel,
@@ -731,6 +1025,15 @@ Examples:
     parser.add_argument("--max-agents", type=int, default=5, help="Max agents for auto-selection (default: 5)")
     parser.add_argument("--plan-only", action="store_true", help="Show plan without executing")
     parser.add_argument("--model", help=f"Override model (default: {MODEL})")
+    parser.add_argument("--mode", choices=["default", "mini-brief"], default="default",
+                        help="Swarm mode: 'default' for generic, 'mini-brief' for 7-element brief production")
+    parser.add_argument("--concept-mode", default="story-driven",
+                        choices=["story-driven", "contrarian", "recognition", "educational", "authority", "vulnerability"],
+                        help="Concept mode for mini-brief (default: story-driven)")
+    parser.add_argument("--platform", default="linkedin",
+                        choices=["linkedin", "youtube", "substack"],
+                        help="Target platform for mini-brief (default: linkedin)")
+    parser.add_argument("--context", help="Path to research brief or context file to include")
 
     args = parser.parse_args()
 
@@ -745,19 +1048,43 @@ Examples:
     if args.model:
         _apply_model_override(args.model)
 
-    # Select agents
-    if args.agents:
-        agents = [a.strip() for a in args.agents.split(",")]
-        # Validate
-        for a in agents:
-            if a not in EXPERT_DOMAINS:
-                print(f"⚠️  Unknown agent: {a} (will use fallback context)")
-    else:
-        agents = auto_select_agents(args.objective, args.max_agents)
-        print(f"\n🤖 Auto-selected agents: {', '.join(agents)}")
+    # Mini-brief mode: use specialized work orders
+    if args.mode == "mini-brief":
+        research_brief = ""
+        if args.context:
+            ctx_path = Path(args.context)
+            if ctx_path.exists():
+                research_brief = ctx_path.read_text()
+                print(f"\n📄 Loaded research brief from {args.context}")
+            else:
+                print(f"⚠️  Context file not found: {args.context}")
 
-    # Run
-    result = asyncio.run(execute_swarm(args.objective, agents, plan_only=args.plan_only))
+        work_orders = generate_mini_brief_work_orders(
+            concept=args.objective,
+            research_brief=research_brief,
+            mode=args.concept_mode,
+            platform=args.platform,
+        )
+        agents = [wo.agent_name for wo in work_orders]
+        print(f"\n🎯 Mini-Brief Mode: {args.concept_mode} | Platform: {args.platform}")
+        print(f"👥 Expert constellation: {', '.join(dict.fromkeys(agents))}")
+
+        # Run with pre-built work orders (bypass generate_work_orders)
+        result = asyncio.run(
+            _execute_swarm_with_orders(args.objective, work_orders, plan_only=args.plan_only)
+        )
+    else:
+        # Default mode: select agents and generate generic work orders
+        if args.agents:
+            agents = [a.strip() for a in args.agents.split(",")]
+            for a in agents:
+                if a not in EXPERT_DOMAINS:
+                    print(f"⚠️  Unknown agent: {a} (will use fallback context)")
+        else:
+            agents = auto_select_agents(args.objective, args.max_agents)
+            print(f"\n🤖 Auto-selected agents: {', '.join(agents)}")
+
+        result = asyncio.run(execute_swarm(args.objective, agents, plan_only=args.plan_only))
 
 
 def _apply_model_override(model_name: str):

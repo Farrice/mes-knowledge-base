@@ -1,68 +1,111 @@
 # LinkedIn DM Outreach Scripts
-**AI Brain Build Sprint Launch**
+**LinkedIn Content Service Launch**
 
-Deploy these scripts today to start filling the pipeline for the 3 available sprint spots. 
-
----
-
-## 🥶 SCRIPT 1: Cold Outreach (Coaches you don't know)
-*Target: Coaches actively posting content who clearly have a deep methodology.*
-
-**Message:**
-Hey [Name],
-
-I've been reading your content and I can tell your stuff comes from real client work, not recycled theory. Your [specific framework/methodology] stands out.
-
-Random question: is all your coaching methodology organized in one place, or is it scattered across docs, Notes, and your head like 90% of the coaches I talk to?
-
-I ask because I build AI Brains for coaches. Basically, I take everything that makes you different and turn it into a system that thinks like you. Writes like you. Deploys your frameworks on command.
-
-Want to see a quick 10-min preview of what yours would look like?
+> These scripts are designed for AFTER you've engaged with someone's content for a few days. Never cold-pitch. Warm first: comment on 2-3 of their posts, then DM.
 
 ---
 
-## 🤝 SCRIPT 2: Warm Outreach (Coaches you've engaged with)
-*Target: Coaches who have commented on your posts or whose posts you've engaged with.*
+## SCRIPT 1: Cold-Warm Outreach (Coaches you've been engaging with)
+*Target: Coaches posting inconsistently or posting generic content, who clearly have real expertise.*
 
 **Message:**
+
 Hey [Name],
 
-Your post about [specific topic] really landed for me. I've been thinking about something related.
+I've been reading your posts and I keep thinking the same thing — your actual expertise is way deeper than what's showing up in your content.
 
-I build AI Brains for coaches. Basically taking everything that makes you different (your frameworks, voice, methodology) and turning it into a system that thinks like you and deploys your ideas on command.
+Your [specific framework/concept they mentioned] is the kind of thing that would stop someone mid-scroll if it was written the way you probably explain it on a coaching call.
 
-Curious if that's something you've thought about? Happy to show you a quick preview. No pitch, just what it would look like for your specific business.
+I write LinkedIn content for coaches. But not the generic kind — I actually take time to learn your methodology, your stories, your specific way of thinking. Then I write posts from THAT.
+
+Would it be useful if I wrote you a sample post based on what I've seen? No charge, no pitch. Just want to show you what your content could look like.
 
 ---
 
-## 🔗 SCRIPT 3: Referral Ask (Your existing network)
-*Target: Founders, strategists, and past clients who know other high-level coaches.*
+## SCRIPT 2: Warm Outreach (Coaches who engaged with YOUR posts)
+*Target: Coaches who commented on your posts or connected with you after seeing your content.*
 
 **Message:**
+
 Hey [Name],
 
-Quick favor. I'm launching the AI Brain Build Sprint. It's a 5-day service where I build a custom AI Brain for coaches and consultants ($2,500).
+Thanks for the engagement on my [specific post topic] post. Your comment about [specific thing they said] really landed.
+
+I checked out your profile and I can tell your coaching goes way deeper than your LinkedIn shows. You've got [specific thing you noticed — a framework, years of experience, a specific niche].
+
+I help coaches like you turn that expertise into content that actually brings clients to your DMs. Not generic "thought leadership" — posts that teach YOUR methodology.
+
+Interested in seeing what that looks like for your specific business? I'll do a sample for free. Takes me a day. You'll know immediately if it hits.
+
+---
+
+## SCRIPT 3: Direct Proof Run Offer
+*Target: Coaches you've had a back-and-forth with who expressed interest. This is the close.*
+
+**Message:**
+
+Hey [Name],
+
+Based on our conversation, I think I could produce some really strong content from your methodology.
+
+Here's what I'm offering right now:
+
+→ 30-minute call where you talk like you would on a coaching call
+→ I learn your frameworks, stories, and how you think
+→ 48 hours later you get 5 LinkedIn posts
+→ Posts that sound like you on your sharpest day
+→ Plus a 30-day content roadmap
+
+$250. Full refund if the posts don't sound like you.
+
+I'm keeping this small — [X] spots this month because I want every project to be undeniable.
+
+Want to do it?
+
+---
+
+## SCRIPT 4: Referral Ask
+*Target: Anyone who likes your work — coaches, friends, connections who know coaches.*
+
+**Message:**
+
+Hey [Name],
+
+Quick ask. I'm building a LinkedIn content service specifically for coaches and consultants.
+
+I write posts that teach their methodology — not generic content, but the kind of stuff that makes their prospects think "I need to work with this person."
 
 Do you know any coaches who:
-→ Have 5+ years of expertise
-→ Are frustrated with generic ChatGPT outputs
-→ Want a system that actually sounds like them?
+→ Have real expertise but LinkedIn doesn't show it
+→ Have tried ghostwriters and it never sounded like them
+→ Are tired of being invisible online
 
-Would mean a lot if anyone comes to mind. Happy to do an intro call with anyone you send my way.
+Would love an intro if anyone comes to mind. Happy to write them a free sample so they can see the quality.
 
 ---
 
-## 💬 BONUS: The 15-Minute Comment Strategy
-Spend 15 minutes today executing this:
+## COMMENT STRATEGY (Daily, 15-20 min)
 
-**Where to Engage:**
-1. Top coaching voices on LinkedIn
-2. Posts about "AI for coaches"
-3. Posts about content creation burnout
+### Where to Engage:
+1. Coaches posting mediocre content (you can do better — show it in comments)
+2. Coaches posting about content creation struggles (your ideal client is talking about their pain)
+3. Posts about "AI content" or "LinkedIn strategy" (add nuance from your expertise)
 
-**How to Comment (Optimize for Trust):**
-*Formula:* [Specific observation about their post] + [Your unique insight] + [Optional micro-CTA]
+### Comment Formula:
+**[Specific observation about their post] + [Your unique insight] + [Optional perspective shift]**
 
-*Example:* "This resonates hard. I've been building AI Brains for coaches and the #1 thing I've learned is that the block isn't technical. It's identity. Coaches feel like they SHOULD be able to figure out AI themselves, so they never ask for help. The ones who break through realize they're not hiring for AI skills. They're hiring for the organization of their own expertise."
+**Good example:**
+"This is spot on. The resilience piece hits hard — I've been writing for a coach who says something similar but frames it as 'you're not burnt out, you're carrying work that was never yours to carry.' Same insight, different deployment. The specific framing is what makes content land."
 
-*What NOT to do:* "Great post!" or dropping long pitches.
+**Bad example:**
+"Great post! 🔥"
+
+**Bad example:**
+"I write LinkedIn content for coaches — check out my profile if you're interested!"
+
+### Rules:
+- Comment for 3-5 days before DM-ing someone
+- Add genuine value in every comment
+- Never pitch in comments. Ever.
+- Your profile and content do the selling. Comments just get you noticed.
+- If someone replies to your comment, keep the thread going — threads signal engagement to the algorithm

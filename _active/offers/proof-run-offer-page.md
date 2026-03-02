@@ -1,6 +1,6 @@
-# The $250 Proof Run
+# The Proof Run — $500
 
-> **Instructions**: Copy this into a clean Google Doc. Share as "Anyone with the link can view." Send this link when a prospect says "send me more info."
+> **Instructions**: Copy this into a clean Google Doc. Share as "Anyone with the link can view." Send this link when a prospect says "send me more info." For founding clients during launch month, offer at $250 and mention the founding rate.
 
 ---
 
@@ -40,13 +40,17 @@ Every ghostwriter you've hired started guessing from the first draft. Every AI t
 
 ---
 
-## Here's what I want to test with you.
+## Here's what I'll do for you.
 
-**One 30-minute call.** You talk the way you talk on a coaching call. Walk me through your frameworks. Tell me the stories you tell clients. Explain the things your industry gets wrong.
+**One 60-minute call.** You talk the way you talk on a coaching call. Walk me through your frameworks. Tell me the stories you tell clients. Explain the things your industry gets wrong.
 
 I capture all of it — not just your ideas, but your rhythm, your language, the way you build an argument.
 
-**48 hours later, you get 5 LinkedIn posts.**
+**Within 5 business days, you get:**
+
+- 5 LinkedIn posts that sound like you on your sharpest day
+- A 30-day content roadmap showing what a month of strategic content looks like, mapped to YOUR frameworks
+- Posting strategy notes (timing, formatting, engagement tactics)
 
 Not posts that sound like "a ghostwriter trying to be you."
 
@@ -54,18 +58,18 @@ Posts that sound like you caught a wave — like you sat down, the words just ca
 
 Your frameworks. Your stories. Your voice.
 
-You read them and think: *"Damn. That's exactly what I would've said if I could've said it that clearly."*
+You read them and think: *"That's exactly what I would've said if I could've said it that clearly."*
 
 ---
 
 ## What You Get
 
-- One 30-minute call (you talk, I listen)
-- 5 LinkedIn posts that sound like you on your sharpest day
-- Posts that deploy your actual frameworks — not generic thought leadership
+- One 60-minute deep-dive call (you talk, I listen and ask the questions that unlock your best content)
+- 5 LinkedIn posts that teach YOUR methodology in YOUR voice
+- 30-day content roadmap — topics, angles, and posting cadence
 - 2 rounds of revisions if anything feels off
-- Posting strategy notes (timing, formatting, engagement)
-- Delivered in 48 hours
+- Posting strategy guide (timing, formatting, engagement)
+- Delivered in 5 business days
 
 ---
 
@@ -76,7 +80,7 @@ You read them and think: *"Damn. That's exactly what I would've said if I could'
 - You have real frameworks — not vibes, not platitudes, actual structured methods that work
 - You've tried ghostwriters or AI and it never sounded like you
 - You're tired of watching less-qualified coaches outpost you into irrelevance
-- You know LinkedIn should be working for you but you can't crack it alone
+- You know LinkedIn should be bringing you clients but it's not
 
 **Not the right fit if:**
 - You're still figuring out what you do or who you help
@@ -85,38 +89,43 @@ You read them and think: *"Damn. That's exactly what I would've said if I could'
 
 ---
 
-## $250.
+## $500.
 
 One-time. Not a subscription. Not a contract.
 
-Why so low? Because I'm building proof. You're early. In 90 days when I have the testimonials, this option disappears or doubles. Right now I need case studies more than I need margin.
+**The guarantee**: If you read the 5 posts and don't feel like I captured your voice — full refund. You keep the posts and the content roadmap regardless.
 
-**The guarantee**: If you read the 5 posts and don't feel like I captured your voice — full refund. You keep the posts regardless.
+You're not risking $500 on my track record. You're testing whether I can make your LinkedIn sound like *you*. If I can't, you lose nothing.
 
-You're not risking $250 on my track record. You're testing whether I can make your LinkedIn sound like *you*. If I can't, you lose nothing.
+**Founding rate**: During launch month, the Proof Run is $250 for the first 5 clients. After that it goes to $500. I need case studies more than I need margin.
 
 ---
 
 ## What Happens If It Works
 
-Most people who do the proof run want more.
+Most people who do the Proof Run want more.
 
-**$1,500/month** — 12 posts/month (3 per week). Ongoing. Month-to-month. Cancel anytime.
+**Monthly retainer — $1,500/month:**
+- 12 posts per month (3 per week)
+- Monthly strategy call
+- Content calendar
+- Ongoing methodology capture (your best client stories and frameworks become posts automatically)
+- Month-to-month. Cancel anytime.
 
-But we don't talk about that until you've seen the proof run work. No pitch. No pressure. The posts either speak for themselves or they don't.
+But we don't talk about that until you've seen the Proof Run work. No pitch. No pressure. The posts either speak for themselves or they don't.
 
 ---
 
 ## Ready?
 
-**Step 1**: Pay $250 → [PAYMENT LINK]
+**Step 1**: Pay → [PAYMENT LINK]
 
 **Step 2**: Book your call → [CALENDLY LINK]
 
-**Step 3**: 48 hours later, you have 5 posts that actually sound like you.
+**Step 3**: Within 5 days, you have 5 posts that actually sound like you — plus a roadmap for the next 30 days.
 
 Questions? DM me on LinkedIn or reply to the message that sent you here.
 
 ---
 
-*Farrice Cain — I help coaches stop being invisible online.*
+*Farrice Cain — I write LinkedIn content that sounds like you and brings clients to your DMs.*
