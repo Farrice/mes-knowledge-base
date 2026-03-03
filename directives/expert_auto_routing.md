@@ -2,7 +2,8 @@
 
 > **Role**: Reference tables for domain detection, ensemble patterns, and output standards.
 > **Pipeline**: Intent handling moved to `directives/intent-pipeline.md` (Stage 3: ROUTE uses these tables).
-> **Effective**: 2026-02-05 | **Updated**: 2026-03-02 (consolidated into intent-pipeline.md)
+> **Full Domain Registry**: `DOMAIN_REGISTRY.md` — 15 domains, 94 agents with swim lanes, routing trees, handoff chains, and compound combinations.
+> **Effective**: 2026-02-05 | **Updated**: 2026-03-03 (domain registry expanded to 15 domains)
 > **Router**: See `directives/router_agent.md` for fast-path dispatch
 > **Loading Protocol**: See `directives/agent-loading-protocol.md` for tiered loading chain
 

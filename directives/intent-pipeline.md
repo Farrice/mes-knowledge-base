@@ -60,26 +60,44 @@ Match the sharpened intent to the right experts. Use the domain detection table 
 
 **Step 1 — Domain match:**
 
-| Request Type | Signals | Default Experts |
+| Request Type | Signals | Default Experts | Registry Domain |
+|:---|:---|:---|:---|
+| Research/Intelligence | "analyze", "research", "find out", "market" | Manus.AI + domain expert | 12 |
+| Content Creation | "write", "create", "draft", "content" | Appropriate content expert(s) | 2, 7 |
+| Strategy/Decision | "should I", "what's the best", "how do I approach" | Jim O'Shaughnessy + domain experts | 12 |
+| Copywriting | "sales page", "email", "headline", "convert" | Cardinal Mason + Harry Dry | 1 |
+| Personal Brand | "LinkedIn", "positioning", "brand", "authority" | Lara Acosta + Caleb Ralston | 3 |
+| Ghostwriting | "ghostwrite", "write as", "voice capture", "proof run" | Ghostwriting Voice Engine (`/ghostwrite`) | — |
+| Product/Offer | "product", "offer", "pricing", "launch" | Nicolas Cole + Monk.AI | 8 |
+| Sales/Persuasion | "objection", "close", "persuade", "sell" | Jeremy Miner + Jason Fladlien | 4 |
+| Storytelling | "story", "narrative", "hook", "engage" | Shaan Puri + Lucas Alpay | 7 |
+| Video/Media | "video", "TikTok", "cinematic", "storyboard" | Seena Rez + Tao Prompts | 11 |
+| AI/Automation | "automate", "workflow", "agent", "AI", "Claude" | Nick Saraev + Boris | 6 |
+| SEO/Search | "rank", "SEO", "keywords", "traffic", "answer engine" | Nathan Gotch + Ethan Smith | 9 |
+| Design/Visual | "design", "visual", "aesthetic", "website", "typography" | Oren + Kittl + Andy Lo | 10 |
+| Audience/Growth | "grow", "newsletter", "subscriber", "community" | Tyler Denk + Dan Koe | 13 |
+| Mindset/Messaging | "stuck", "blocked", "mindset", "messaging", "movement" | Jeremy Haynes + Heath Brothers | 14 |
+| Consumer Research | "customer", "persona", "buyer", "psychology" | Dai Media + Kallaway | 5 |
+| Monetization | "monetize", "revenue", "recurring", "service" | Paul James + Sabrina Ramonov | 8 |
+| Advertising | "ads", "paid", "campaign", "Facebook", "Google Ads" | Sabri Suby | 15 |
+| Real Estate | "real estate", "listing", "property" | Joshua Smith | 15 |
+| Launch/Innovation | "launch", "validate", "early adopter" | Seena Rez + Samuel Thompson | 8, 12 |
+
+> **Full routing trees**: See `DOMAIN_REGISTRY.md` (15 domains, 94 agents with swim lanes).
+
+**Step 2 — Determine mode (Output vs. Expertise):**
+
+| Mode | Signals | Effect |
 |:---|:---|:---|
-| Research/Intelligence | "analyze", "research", "find out", "market" | Manus.AI + domain expert |
-| Content Creation | "write", "create", "draft", "content" | Appropriate content expert(s) |
-| Strategy/Decision | "should I", "what's the best", "how do I approach" | Jim O'Shaughnessy + domain experts |
-| Copywriting | "sales page", "email", "headline", "convert" | Cardinal Mason + Harry Dry |
-| Personal Brand | "LinkedIn", "positioning", "brand", "authority" | Lara Acosta + Tom Noske |
-| Ghostwriting | "ghostwrite", "write as", "voice capture", "proof run" | Ghostwriting Voice Engine (`/ghostwrite`) |
-| Product/Offer | "product", "offer", "pricing", "launch" | Samuel Thompson + Monk.AI |
-| Sales/Persuasion | "objection", "close", "persuade", "sell" | Jeremy Miner + Alen Sultanic |
-| Storytelling | "story", "narrative", "hook", "engage" | Shaan Puri + Lucas Alpay |
-| Video/TikTok | "video", "TikTok", "viral", "hook" | Seena Rez + Kallaway |
-| AI/Automation | "automate", "workflow", "agent", "AI" | Nick Saraev + Boris |
-| SEO/Search | "rank", "SEO", "keywords", "traffic" | Nathan Gotch + Adam Enfroy |
-| Design/Visual | "design", "visual", "aesthetic" | Oren + Kittl |
-| Launch/Innovation | "launch", "validate", "early adopter" | Seena Rez + Samuel Thompson |
+| **OUTPUT** | "write me", "create", "build", "draft", "make" — wants a deliverable | Load at Tier 1-2, produce the artifact |
+| **EXPERTISE** | "how should I", "what's the best way", "advise me", "review" — wants thinking | Load at Tier 0-1, present expert analysis/recommendations |
+| **HYBRID** | "help me with" — could go either way | Ask: "Do you want me to produce [X] or advise on the approach?" |
 
-**Step 2 — Multi-domain?** If request spans 2+ domains, select an ensemble. Reference `directives/expert_auto_routing.md` for compound patterns and force-multiplier pairings.
+This distinction prevents over-producing when the user wants advice, and under-delivering when they want an artifact.
 
-**Step 3 — Load experts via Context Engine:**
+**Step 3 — Multi-domain?** If request spans 2+ domains, select an ensemble. Reference `DOMAIN_REGISTRY.md` for compound combinations and force-multiplier pairings.
+
+**Step 4 — Load experts via Context Engine:**
 1. **Tier 0**: Read invocation cards (~50 tokens each) for routing confirmation
 2. **Tier 1**: Read SKILL.md + specific workflow (~1,350 tokens) for clear tasks
 3. **Tier 2**: Add genius.md (~2,550 tokens) for creative/complex work
@@ -127,9 +145,15 @@ Don't wait for slash commands. When conversational cues match a domain:
 
 | Cue | Auto-Action |
 |-----|-------------|
-| Mentions LinkedIn, posts, content, hooks | Route to content experts |
-| Working on sales page, offer page, email | Route to copywriting experts |
-| Asks about positioning, brand, differentiation | Route to brand experts |
+| Mentions LinkedIn, posts, content, hooks | Route to content/brand experts (Domain 2, 3, 13) |
+| Working on sales page, offer page, email | Route to copywriting experts (Domain 1) |
+| Asks about positioning, brand, differentiation | Route to brand experts (Domain 3, 12) |
+| Discusses products, pricing, monetization | Route to product experts (Domain 8) |
+| Mentions SEO, ranking, traffic, blog | Route to SEO experts (Domain 9) |
+| Discusses video, TikTok, AI video | Route to video/content experts (Domain 11, 2) |
+| Mentions AI tools, automation, agents, Claude | Route to AI experts (Domain 6) |
+| Says "I'm stuck", mindset, blocked, afraid | Route to mindset experts (Domain 14) |
+| Discussing design, website, visual identity | Route to design experts (Domain 10) |
 | Pastes transcript or mentions "I watched this video" | Run `/extract` |
 | Says things feel broken, cluttered, slow | Run `/system-audit` |
 | Excited, firing off ideas without clear deliverable | Pause → reflect intent → sharpen → execute |
@@ -152,8 +176,9 @@ This pipeline also works mid-conversation (what `/refine-intent` triggers):
 | Detail | Reference |
 |--------|-----------|
 | DICE protocol specifics | `directives/intent_refiner.md` |
-| Domain detection table (full) | `directives/expert_auto_routing.md` |
-| Ensemble patterns & compounds | `directives/expert_auto_routing.md` |
+| Domain swim lanes (15 domains, 94 agents) | `DOMAIN_REGISTRY.md` |
+| Compound combinations & handoff chains | `DOMAIN_REGISTRY.md` |
+| Domain detection signals (quick-match) | `directives/expert_auto_routing.md` |
 | McKinsey-grade output standard | `directives/expert_auto_routing.md` |
 | Expert loading tiers | `directives/agent-loading-protocol.md` |
 | Combo reference table | `directives/intent_refiner.md` (Step 3) |
