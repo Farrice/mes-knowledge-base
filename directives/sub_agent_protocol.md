@@ -1,7 +1,7 @@
 # Sub-Agent Protocol
 
 > **Purpose**: Defines *when* and *how* to spawn sub-agents for context isolation. Includes archetypes, spawn triggers, and the SkillExecutor for expert skill work.
-> **Updated**: 2026-02-27 (Context Engine integration — SkillExecutor archetype added)
+> **Updated**: 2026-03-03 (Parallel Execution Patterns added)
 > **Reference**: `skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_06_sub_agent_designer.md`
 > **Loading Protocol**: `directives/agent-loading-protocol.md` (Tier 3 = sub-agent)
 
@@ -160,6 +160,97 @@ SKILL FILES READ: [list] | PATTERNS APPLIED: [list] | QUALITY CHECK: [test, pass
 
 ---
 
+## Parallel Execution Patterns
+
+Sub-agents can run in parallel when their tasks are independent. This is critical for workflows that would otherwise take 3-5x longer sequentially.
+
+### Decision Tree: When to Parallelize
+
+```
+Is the task decomposable into independent parts?
+├── NO → Run sequentially (single sub-agent or embodiment)
+└── YES → Do agents need to communicate during execution?
+    ├── YES → Use Agent Teams (TeamCreate + SendMessage)
+    └── NO → Do you need 2-5 independent workers?
+        ├── YES → Use Parallel Task Calls (multiple Task tools in one message)
+        └── NO (6+ workers or need Gemini cost savings)
+            └── Use parallel_swarm.py (Gemini API)
+```
+
+### Tier 1: Parallel Task Calls (2-5 agents, no coordination)
+
+**How it works**: Make multiple `Task` tool calls in a **single message**. Each spawns an independent sub-agent with a fresh context window. They execute simultaneously and return results independently.
+
+**Best for**: Extraction swarm, research team, content sprint — any workflow where agents work on independent pieces and don't need each other's output.
+
+**Template**:
+```
+[In a single message, include multiple Task tool calls:]
+
+Task 1: {subagent_type: "general-purpose", prompt: "Research angle A..."}
+Task 2: {subagent_type: "general-purpose", prompt: "Research angle B..."}
+Task 3: {subagent_type: "general-purpose", prompt: "Research angle C..."}
+```
+
+**Workflow templates**:
+- `/parallel-extract` — 2-5 extractions simultaneously
+- `/parallel-research` — 3 research angles simultaneously
+- `/parallel-content` — 3-5 content pieces simultaneously
+
+### Tier 2: Agent Teams (2-5 agents, need coordination)
+
+**How it works**: Use `TeamCreate` to form a team, spawn teammates with `Task` (with `team_name`), and coordinate via `SendMessage`. Agents can assign tasks, share findings, and build on each other's work.
+
+**Best for**: Complex projects where Agent B needs Agent A's output, or where a lead agent needs to review/synthesize work from multiple workers.
+
+**When to use over Tier 1**:
+- Agents depend on each other's output (e.g., researcher feeds strategist)
+- A lead agent needs to review and redirect work mid-flight
+- The task has a dependency graph (not purely parallel)
+
+### Tier 3: Gemini Parallel Swarm (5-10+ agents, cost-sensitive)
+
+**How it works**: `execution/parallel_swarm.py` fires parallel API calls to Gemini, each embodying a different expert. Very low cost (~$0.15 for 5 agents).
+
+**Best for**: Large-scale expert embodiment where you need 5-10+ perspectives and cost matters more than tool access.
+
+**Limitations**: Agents can't use Claude Code tools (no file read/write, no web search). They only have the expert skill context injected into their prompt.
+
+### Parallel Execution Rules
+
+1. **Independence test**: Before parallelizing, verify each agent's task can complete without another agent's output
+2. **Max 5 parallel Task calls**: More than 5 creates resource contention and degrades quality
+3. **Always collect and synthesize**: Parallel outputs need a synthesis step — don't just dump raw outputs
+4. **Failure isolation**: If one parallel agent fails, others continue. Report the failure, don't retry the whole batch
+5. **Write to separate files**: Each parallel agent writes to its own output file (`.tmp/[workflow]/[agent].md`) to avoid conflicts
+
+### Sequential vs. Parallel: Common Patterns
+
+| Workflow | Execution | Why |
+|----------|-----------|-----|
+| `/extract` (single) | Sequential | One source, one expert — no parallel benefit |
+| `/parallel-extract` (batch) | Parallel Task Calls | Independent sources, no interdependence |
+| `/roundtable` | Sequential | Experts build on each other's positions |
+| `/parallel-research` | Parallel Task Calls | Independent research angles |
+| `/swarm` (5+ agents) | Gemini parallel or sequential batches | Too many agents for Task tool parallelism |
+| `/parallel-content` | Parallel Task Calls | Independent content pieces |
+| Complex build project | Agent Teams | Dependency graph, coordination needed |
+
+### Why Sequential Fallback Happens (and How to Prevent It)
+
+**Root causes**:
+- `/swarm` and `/roundtable` embody experts one at a time in a single context window
+- Making Task calls one-per-message forces sequential execution
+- Not decomposing tasks into independent pieces before starting
+
+**Prevention**:
+- Multiple Task calls in the SAME message = true parallelism
+- Each agent gets explicit file paths for input and output (no shared state)
+- Use the parallel workflow templates for batch operations
+- Reserve sequential embodiment for workflows that genuinely need cross-expert dialogue (roundtable, council)
+
+---
+
 ## Anti-Patterns
 
 | Don't | Why |
@@ -169,6 +260,9 @@ SKILL FILES READ: [list] | PATTERNS APPLIED: [list] | QUALITY CHECK: [test, pass
 | Chain 3+ sub-agents deep | Coordination cost explodes |
 | Give sub-agents write access to code | Only the main agent modifies code |
 | Spawn without a clear return condition | Sub-agent must know exactly when to stop |
+| Make Task calls one per message when they're independent | Forces sequential when parallel is possible |
+| Use Agent Teams for purely independent tasks | Coordination overhead with no benefit |
+| Run 6+ parallel Task calls | Resource contention degrades all agents |
 
 ---
 
@@ -178,8 +272,9 @@ SKILL FILES READ: [list] | PATTERNS APPLIED: [list] | QUALITY CHECK: [test, pass
 - **Prompt structure**: Phase 1-4 template (in this file for SkillExecutor, in `directives/agent-loading-protocol.md` for general loading)
 - **Quality gate**: Sub-agent output runs through `directives/quality_gate.md`
 - **Context Engine**: SkillExecutor is the Tier 3 implementation of the tiered loading chain
+- **Parallel workflows**: `.agent/workflows/parallel-*.md` (extract, research, content)
 - **Referenced from**: CLAUDE.md/AGENTS.md/GEMINI.md Sub-Agent Protocol section
 
 ---
 
-*Created: 2026-02-17 | Updated: 2026-02-27 (Context Engine — SkillExecutor archetype)*
+*Created: 2026-02-17 | Updated: 2026-03-03 (Parallel Execution Patterns — 3-tier parallelism model)*
