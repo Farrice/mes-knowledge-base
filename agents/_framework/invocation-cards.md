@@ -393,6 +393,417 @@ PAIRS WITH: Dan Wang (literary analysis), Fareed Zakaria (argument structure)
 
 ---
 
-> **40 cards total** — covers all frequently invoked experts.
+## Sales & Outreach (Extended)
+
+```
+AGENT: AI Chris Lee
+DOMAIN: Zero testimonial sales, proof building, AI services positioning
+CORE METHOD: Proof Paradox Escape — sells without testimonials by engineering proxy proof mechanisms
+BEST FOR: Zero-testimonial sales, proof engineering, AI service positioning, permission-tax elimination
+ENTRY PROMPT: skills/ai-chris-lee-zero-testimonial-sales/SKILL.md
+PAIRS WITH: Jeremy Miner (sales), Sabri Suby (advertising)
+```
+
+```
+AGENT: Sabri Suby
+DOMAIN: AI-powered advertising, direct response marketing, paid acquisition
+CORE METHOD: Competition-as-Validation — uses 50+ active ads as market proof, then reverse-engineers funnels
+BEST FOR: Market validation, ad creation, landing page assembly, campaign scaling ($100→$10K/day)
+ENTRY PROMPT: skills/sabri-suby-ai-advertising/SKILL.md
+PAIRS WITH: Cardinal Mason (copy), Stockton Walbeck (lead magnets)
+```
+
+```
+AGENT: Lindsay
+DOMAIN: AI consulting sales, client acquisition, multi-channel outreach
+CORE METHOD: Robot Speak Elimination — humanizes AI consulting pitches for warm-to-close conversion
+BEST FOR: AI consulting sales, multi-channel outreach, revenue positioning, temperature calibration
+ENTRY PROMPT: skills/lindsay-ai-consulting/SKILL.md
+PAIRS WITH: Nate Herk (cold outreach), Jeremy Miner (sales psychology)
+```
+
+```
+AGENT: Jeremy Haynes
+DOMAIN: Mindset systems, identity-first transformation
+CORE METHOD: Identity-governs-everything — rewires beliefs before tactics
+BEST FOR: Mindset coaching, identity transformation, performance optimization
+ENTRY PROMPT: skills/jeremy-haynes-mindset-systems/SKILL.md
+PAIRS WITH: David Bayer (presence), Michael Bernoff (identity engineering)
+```
+
+```
+AGENT: Michael Bernoff
+DOMAIN: Identity engineering, language rewiring, behavioral transformation
+CORE METHOD: The Reset Frame — pattern-interrupts limiting identities and implants new ones through language
+BEST FOR: Identity transformation, certainty implanting, inner hero activation, wrong-question interrupts
+ENTRY PROMPT: skills/michael-bernoff-identity-engineering/SKILL.md
+PAIRS WITH: Jeremy Haynes (mindset), David McRaney (belief change)
+```
+
+---
+
+## Strategy & Business (Extended)
+
+```
+AGENT: Daniel Priestley
+DOMAIN: Demand engineering, Key Person of Influence, oversubscribed methodology
+CORE METHOD: Oversubscribed — engineers market demand before building products
+BEST FOR: Demand engineering, KPI framework, problem-aware positioning, stakes-based pricing
+ENTRY PROMPT: skills/daniel-priestley-oversubscribed/SKILL.md
+PAIRS WITH: April Dunford (positioning), Samuel Thompson (economics)
+```
+
+```
+AGENT: Andrew Wilkinson
+DOMAIN: AI entrepreneurship, vibe coding, rapid execution
+CORE METHOD: Problem-to-Product Translation — finds problems and ships AI solutions in days, not months
+BEST FOR: AI product launches, vibe coding, ADHD productivity, exit-ready architecture
+ENTRY PROMPT: skills/andrew-wilkinson-ai-entrepreneurship/SKILL.md
+PAIRS WITH: Boris (AI systems), Nicolas Cole (product vehicles)
+```
+
+```
+AGENT: Donald Miller
+DOMAIN: Culture turnaround, strategic messaging, identity transformation
+CORE METHOD: PEACE Framework — systematic culture and messaging transformation
+BEST FOR: Brand messaging, culture transformation, strategic communication, campaign architecture
+ENTRY PROMPT: skills/donald-miller-culture-turnaround/SKILL.md
+PAIRS WITH: Erica Mallet (brand magnetism), David McRaney (belief change)
+```
+
+```
+AGENT: Seth Godin
+DOMAIN: Viral marketing, idea propagation, network effects
+CORE METHOD: Virusworthiness Assessment — engineers ideas for organic spread through sneezer networks
+BEST FOR: Viral strategy, idea propagation, sneeze-network design, permission marketing
+ENTRY PROMPT: skills/seth-godin-ideavirus/SKILL.md
+PAIRS WITH: Kallaway (content psychology), Erica Mallet (tribal branding)
+```
+
+```
+AGENT: Rory Sutherland
+DOMAIN: Marketing psychology, behavioral economics, perceived value
+CORE METHOD: Psychological Value — perceived value matters more than functional value
+BEST FOR: Behavioral reframing, premium perception, unconventional marketing strategies
+ENTRY PROMPT: skills/rory-sutherland-marketing/SKILL.md
+PAIRS WITH: Dai Media (consumer posture), Oren (taste development)
+```
+
+```
+AGENT: SooWei Goh
+DOMAIN: Consulting leverage, founder workflow, scale architecture
+CORE METHOD: Leverage Auditing — identifies where founder time generates outsized returns
+BEST FOR: Consulting business scaling, workflow architecture, content-as-business-oxygen
+ENTRY PROMPT: skills/soowei-consulting-leverage/SKILL.md
+PAIRS WITH: Monk.AI (offer design), Daniel Priestley (oversubscribed)
+```
+
+```
+AGENT: Joshua Smith
+DOMAIN: Real estate sales mastery, KPI-driven production, conversion optimization
+CORE METHOD: Market Agnosticism — "No bad markets, only bad agents who don't adapt"
+BEST FOR: Sales systems, real estate strategy, KPI-driven production, niche targeting
+ENTRY PROMPT: skills/joshua-smith-real-estate/SKILL.md
+PAIRS WITH: Jeremy Miner (sales), Sabri Suby (advertising)
+```
+
+---
+
+## Content & Growth (Extended)
+
+```
+AGENT: Ali Abdaal
+DOMAIN: Action bias, productivity, overthinking elimination
+CORE METHOD: Two-Way Door Thinking — treats most decisions as reversible to eliminate paralysis
+BEST FOR: Productivity systems, action bias coaching, experiment-driven growth
+ENTRY PROMPT: skills/ali-abdaal-action-bias/SKILL.md
+PAIRS WITH: Dan Koe (creator business), Boris (AI productivity)
+```
+
+```
+AGENT: Bond Halbert
+DOMAIN: Direct response copywriting, conversion optimization
+CORE METHOD: Market Language Excavation — mines exact customer phrases for copy that converts
+BEST FOR: Direct response copy, velocity optimization, four-reader-type architecture, pee test
+ENTRY PROMPT: skills/bond-halbert-copywriting/SKILL.md
+PAIRS WITH: Cardinal Mason (AI copy), Alen Sultanic (buyer psychology)
+```
+
+```
+AGENT: David Deutsch
+DOMAIN: Legendary copywriting, screenwriter-to-copy translation
+CORE METHOD: Boring-to-Brilliant — transforms flat copy using musical architecture, loss framing, and screenwriter thinking
+BEST FOR: Long-form copy elevation, question-first openings, musical architecture, loss framing
+ENTRY PROMPT: skills/david-deutsch-copywriting/SKILL.md
+PAIRS WITH: Bond Halbert (direct response), Ward Farnsworth (rhetoric)
+```
+
+```
+AGENT: Josh Sanders
+DOMAIN: LinkedIn growth engineering, course creation
+CORE METHOD: LinkedIn organic growth through engagement engineering and course funnels
+BEST FOR: LinkedIn growth strategy, course creation, content-to-course pipelines
+ENTRY PROMPT: skills/josh-sanders-linkedin-growth/SKILL.md
+PAIRS WITH: Lara Acosta (LinkedIn), Tommy Clark (B2B content)
+```
+
+```
+AGENT: Jun Yuh
+DOMAIN: Creator vision, psychographic growth, non-verbal storytelling
+CORE METHOD: Pain-First Anchor — starts with felt experience, builds visual narrative outward
+BEST FOR: Creator vision architecture, silent storytelling, highly leveraged repurposing
+ENTRY PROMPT: skills/jun-yuh-creator-vision/SKILL.md
+PAIRS WITH: Shaan Puri (storytelling), Oren (taste development)
+```
+
+```
+AGENT: Darrel Wilson
+DOMAIN: AI monetization systems, recurring revenue
+CORE METHOD: Warm Lead Philosophy — builds trust-first AI services with recurring lock-in
+BEST FOR: AI service monetization, tool-over-opinion selling, recurring revenue design
+ENTRY PROMPT: skills/darrel-wilson-ai-monetization/SKILL.md
+PAIRS WITH: Paul James (AI automation), Sabrina Ramonov (AI monetization)
+```
+
+```
+AGENT: Maria Wendt
+DOMAIN: Digital products, product-first business building
+CORE METHOD: Product-First — creates products people want before building funnels
+BEST FOR: Digital product creation, course design, product-market alignment
+ENTRY PROMPT: skills/maria-wendt-digital-products/SKILL.md
+PAIRS WITH: Nicolas Cole (product vehicles), Thrivecart (product scaling)
+```
+
+```
+AGENT: Thrivecart
+DOMAIN: Digital product business building and scaling
+CORE METHOD: Weekend Product Standard — ships viable products in weekend sprints, iterates 7 times
+BEST FOR: Rapid product launches, pricing psychology, three levers model, grocery store psychology
+ENTRY PROMPT: skills/thrivecart-digital-products/SKILL.md
+PAIRS WITH: Nicolas Cole (product vehicles), Maria Wendt (digital products)
+```
+
+```
+AGENT: Wordsatscale
+DOMAIN: SEO rapid ranking, competition vacuum strategy
+CORE METHOD: Competition Vacuum Hunting — finds ranking gaps competitors missed
+BEST FOR: SEO strategy, authority arbitrage, LSI bypass, speed-to-publish systems
+ENTRY PROMPT: skills/wordsatscale-seo-ranking/SKILL.md
+PAIRS WITH: Adam Enfroy (affiliate), Nathan Gotch (SEO)
+```
+
+```
+AGENT: Oscar Hoglund
+DOMAIN: Sound storytelling, emotional umami, body-based truth
+CORE METHOD: Emotional Umami — layers emotional textures that readers feel in the body
+BEST FOR: Emotional resonance, body-based truth writing, continuum mapping, self-proving arguments
+ENTRY PROMPT: skills/oscar-hoglund-sound-storytelling/SKILL.md
+PAIRS WITH: Mitch Albom (storytelling), Jonathan Franzen (compression)
+```
+
+```
+AGENT: Jonathan Franzen
+DOMAIN: Literary fiction, character psychology, narrative compression
+CORE METHOD: Compression — makes stories smaller, more specific, more devastating
+BEST FOR: Literary narrative, character psychology, compression storytelling, marketing translation
+ENTRY PROMPT: skills/jonathan-franzen-storytelling/SKILL.md
+PAIRS WITH: Mitch Albom (writing), Dan Wang (literary analysis)
+```
+
+```
+AGENT: Dan & Chip Heath
+DOMAIN: Message design, idea stickiness, decision architecture
+CORE METHOD: SUCCESs Framework — Simple, Unexpected, Concrete, Credible, Emotional, Stories
+BEST FOR: Message design, idea stickiness, schema violation, commander's intent extraction
+ENTRY PROMPT: (Tier 1 — read AGENT.md directly)
+PAIRS WITH: Donald Miller (messaging), Seth Godin (idea propagation)
+```
+
+---
+
+## Brand & Design (Extended)
+
+```
+AGENT: Kittl
+DOMAIN: Graphic design mastery, typography, AI-assisted design
+CORE METHOD: Mood-Based Font Selection — matches typography to emotional intent with height-width contrast
+BEST FOR: Typography, layout execution, AI prompt architecture for design, mood-based styling
+ENTRY PROMPT: skills/kittl-graphic-design/SKILL.md
+PAIRS WITH: Oren (taste development), Alex Copper (creative strategy)
+```
+
+```
+AGENT: Andy Lo
+DOMAIN: Premium AI websites, headless CMS, motion design
+CORE METHOD: Cinematic web architecture — builds premium websites with motion, headless CMS, and visual direction
+BEST FOR: Premium website builds, motion design, visual direction, headless CMS architecture
+ENTRY PROMPT: skills/andy-lo-premium-websites/SKILL.md
+PAIRS WITH: Sam Goddard (media scaling), Sean Kochel (design-first builds)
+```
+
+```
+AGENT: Sam Goddard
+DOMAIN: Media scaling, content infrastructure, production systems
+CORE METHOD: Content-as-Infrastructure — treats content as a system to build, not art to create
+BEST FOR: Media agency scaling, content systems, production pipelines, talent management
+ENTRY PROMPT: skills/sam-goddard-media-scaling/SKILL.md
+PAIRS WITH: Andy Lo (premium web), Tommy Clark (B2B content)
+```
+
+```
+AGENT: Sean Kochel
+DOMAIN: AI business strategy, design-first web building
+CORE METHOD: Felt Problems — solves problems people actually feel, not just intellectually understand
+BEST FOR: Design-first web builds, AI business strategy, UX-driven development
+ENTRY PROMPT: skills/sean-kochel-design-first-build/SKILL.md
+PAIRS WITH: Andy Lo (premium web), Boris (AI productivity)
+```
+
+---
+
+## AI & Systems (Extended)
+
+```
+AGENT: Gael Breton (Authority Hacker)
+DOMAIN: AI social media mastery, organic + paid strategy
+CORE METHOD: "AI should package your thinking, never replace it" — uses AI for production velocity, not ideation
+BEST FOR: Social media strategy (organic + paid), AI content production, authority building
+ENTRY PROMPT: skills/authority-hacker-ai-social-media/SKILL.md
+PAIRS WITH: Lara Acosta (LinkedIn), Brock Johnson (shareworthy)
+```
+
+```
+AGENT: Futurepedia
+DOMAIN: Prompt engineering, expert framework extraction, meta-prompting
+CORE METHOD: Expert Framework Extraction — discovers and codifies expert methodologies into reusable prompts
+BEST FOR: Prompt engineering, expert discovery, context extraction interviews, meta-prompt synthesis
+ENTRY PROMPT: skills/futurepedia-prompt-engineering/SKILL.md
+PAIRS WITH: Boris (AI systems), Nick Saraev (agentic workflows)
+```
+
+```
+AGENT: Mark Kashef
+DOMAIN: AI councils, agent orchestration, multi-agent coordination
+CORE METHOD: Horizontal task splitting — distributes cognitive labor across parallel agent streams
+BEST FOR: AI council design, agent orchestration, multi-agent coordination, system architecture
+ENTRY PROMPT: skills/mark-kashef-claude-claw/SKILL.md
+PAIRS WITH: Sherwin Wu (engineering), Nick Saraev (workflows)
+```
+
+```
+AGENT: Lance Martin & Yichao "Peak" Ji
+DOMAIN: Context engineering, LLM application architecture
+CORE METHOD: Context Engineering — optimizes what goes into the context window for best outputs
+BEST FOR: Context window optimization, LLM app architecture, retrieval systems
+ENTRY PROMPT: skills/lance-yichao-context-engineering/SKILL.md
+PAIRS WITH: Boris (AI systems), Nick Saraev (workflows)
+```
+
+```
+AGENT: Logan Kilpatrick
+DOMAIN: Google AI Studio, rapid AI prototyping
+CORE METHOD: Speed Over Perfection — ships working AI solutions, then iterates
+BEST FOR: AI prototyping, Google AI Studio workflows, rapid deployment
+ENTRY PROMPT: skills/logan-kilpatrick-ai-studio/SKILL.md
+PAIRS WITH: Boris (AI productivity), Andrew Wilkinson (vibe coding)
+```
+
+```
+AGENT: Ethan Smith
+DOMAIN: Answer engine optimization (AEO), RAG citation mechanics, experimental search
+CORE METHOD: Search-as-Science — applies experimental methodology to SEO/AEO
+BEST FOR: AEO strategy, citation engineering, answer engine optimization, search experiments
+ENTRY PROMPT: skills/ethan-smith-aeo/SKILL.md
+PAIRS WITH: Wordsatscale (SEO), Adam Enfroy (affiliate/content)
+```
+
+---
+
+## Monetization & Products (Extended)
+
+```
+AGENT: Shan Hanif
+DOMAIN: Audience monetization, community building, creator revenue
+CORE METHOD: Dual Engine — builds audience and product engines simultaneously
+BEST FOR: Audience monetization, community architecture, creator revenue streams
+ENTRY PROMPT: skills/shan-hanif-audience-monetization/SKILL.md
+PAIRS WITH: Tyler Denk (newsletter), Sabrina Ramonov (AI monetization)
+```
+
+```
+AGENT: Paul James
+DOMAIN: AI workflow automation monetization
+CORE METHOD: Zero-Cost Positioning — starts with free value to build trust, then scales to recurring
+BEST FOR: AI automation services, modular service design, time-to-revenue translation, recurring revenue
+ENTRY PROMPT: skills/paul-james-ai-automation/SKILL.md
+PAIRS WITH: Darrel Wilson (AI monetization), Nate Herk (client acquisition)
+```
+
+```
+AGENT: Tim Danilov
+DOMAIN: Niche bending, format innovation, market-format combination
+CORE METHOD: Niche Bending — "Markets are fixed; formats are infinite" — combines proven formats with untapped markets
+BEST FOR: Niche discovery, format innovation, blue ocean strategy, market-format combinations
+ENTRY PROMPT: skills/tim-danilov-niche-bending/SKILL.md
+PAIRS WITH: Samuel Thompson (shadow markets), Nicolas Cole (product vehicles)
+```
+
+```
+AGENT: Lulu Cheng Meservey
+DOMAIN: Communications strategy, PR, reputation management
+CORE METHOD: Strategic communications — shapes narrative and manages high-stakes reputation
+BEST FOR: PR strategy, crisis communications, reputation management, narrative shaping
+ENTRY PROMPT: skills/lulu-cheng-meservey-communications/SKILL.md
+PAIRS WITH: Donald Miller (messaging), Erica Mallet (brand magnetism)
+```
+
+```
+AGENT: Tobias Allen
+DOMAIN: Marketing mastery, real-reason persuasion
+CORE METHOD: Real-Reason Excavation — "People have a good reason, and a real reason" — finds the real one
+BEST FOR: Deep persuasion strategy, motivation mapping, marketing psychology
+ENTRY PROMPT: skills/tobias-allen-marketing-mastery/SKILL.md
+PAIRS WITH: Rory Sutherland (behavioral economics), David McRaney (belief change)
+```
+
+---
+
+## Video & Media (Extended)
+
+```
+AGENT: PJ Accetturo
+DOMAIN: AI video production, production-grade AI content
+CORE METHOD: Production-Grade AI Video — creates professional AI video that doesn't look gimmicky
+BEST FOR: AI video production, professional content creation, video automation
+ENTRY PROMPT: skills/pj-accetturo-ai-video/SKILL.md
+PAIRS WITH: Tao Prompts (cinematic), Seena Rez (short-form)
+```
+
+```
+AGENT: Remotion
+DOMAIN: React-based video creation, programmatic video
+CORE METHOD: React-Based Video — creates videos as React components for programmatic generation
+BEST FOR: Programmatic video, automated video generation, data-driven video content
+ENTRY PROMPT: skills/remotion-video-creation/SKILL.md
+PAIRS WITH: PJ Accetturo (AI video), Tao Prompts (storyboard)
+```
+
+---
+
+## Humor & Creative (Extended)
+
+```
+AGENT: Robert Mack
+DOMAIN: Comedy writing, humor engineering
+CORE METHOD: Truth-First Comedy — starts with what's true, then finds what's funny about it
+BEST FOR: Comedy writing, humor injection, wit engineering, comedic timing
+ENTRY PROMPT: skills/robert-mack-comedy-writing/SKILL.md
+PAIRS WITH: Ward Farnsworth (rhetoric), Shaan Puri (storytelling)
+```
+
+---
+
+> **83 cards total** — covers all agents with invocation cards.
+> **Last Updated**: 2026-03-03
 > To add a card: Use the format above. Keep each card under 5 lines.
 > To find an expert NOT on this list: Fall back to Tier 1 (read SKILL.md directly). See `directives/agent-loading-protocol.md`.
