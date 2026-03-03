@@ -1,3 +1,48 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+---
+
+## Environment Setup
+
+- **`.env` at project root** with `NOTION_API_KEY` — required for all Notion operations
+- Python deps: `python-dotenv`, `requests` (no requirements.txt; install manually)
+- No build step, no test suite — this is an AI orchestration system, not a traditional app
+
+## Running Execution Scripts
+
+All Python scripts run from project root:
+
+```bash
+python execution/notion_api.py query <database_id>      # query a Notion database
+python execution/notion_api.py search <query>            # search Notion
+python execution/notion_api.py capture "Title" "Body" --type Task --tags Revenue,Urgent
+python execution/skill_converter.py                      # convert skills to completion engine format
+python execution/extraction_swarm.py                     # run extraction swarm
+python execution/validate_skill.py                       # validate a skill structure
+python execution/sync_registries.py                      # sync AGENT_INDEX.md / SKILL_INDEX.md
+```
+
+## Notion API — Critical Version Pin
+
+`@notionhq/client` v5.9.0 uses a newer Notion API that returns `data_sources` instead of `properties`. Schema updates silently succeed but don't persist; row inserts fail with "X is not a property that exists."
+
+**Always use `execution/notion_api.py`** which pins to `Notion-Version: 2022-06-28` via raw `requests`. Never use the JS client directly. Database IDs and full schemas: `directives/notion-databases.md`.
+
+## Directory Conventions
+
+- **Skills** (`skills/[name]/`): `SKILL.md` + `genius.md` + `workflows/*.md` (completion engine format — each workflow is end-to-end with full context)
+- **Agents** (`agents/[name]/`): `AGENT.md` + `memory/` directory
+- **Agent framework** (`agents/_framework/`): `invocation-cards.md`, `AGENT_TEMPLATE.md`, `orchestrator.md`
+- **Workflows** (`.agent/workflows/`): Slash command implementations — user types `/extract`, system reads `.agent/workflows/extract.md`
+
+## Mirrored Files
+
+CLAUDE.md, AGENTS.md, and GEMINI.md are **identical**. Any edit to one must be applied to all three.
+
+---
+
 # Agent Instructions
 
 > **MANDATORY FIRST ACTION — EVERY NEW REQUEST (NO EXCEPTIONS)**
@@ -17,7 +62,7 @@
 > **Stage 4 — PRESENT** (complex/multi-step only):
 > Show expert recommendation, await confirmation. Skip for simple tasks, follow-ups, or "just do it."
 >
-> **Slash command used?** Read `.agent/workflows/[command].md` and execute.
+> **Slash command used?** Read `.agent/workflows/[command].md` and execute. Full command list: `SLASH_COMMANDS.md`.
 > **Skip pipeline for:** trivial questions, follow-ups within approved plan, "just do it", bug fixes.
 > **Full pipeline details:** `directives/intent-pipeline.md`
 
@@ -33,7 +78,11 @@
 
 Push complexity into deterministic code. You focus on decision-making.
 
-**Key files:** `COUNCIL.md` (expert registry), `DOMAIN_REGISTRY.md` (routing), `JARVIS.md` (interaction), `FARRICE.md` (personal context).
+**Key files (read on-demand, not preloaded):**
+- `COUNCIL.md` — 24 experts + 5 standing councils (Revenue, Content, Brand, AI, Creative). Read for expert selection.
+- `DOMAIN_REGISTRY.md` — Expert swim lanes by domain + compound pairing logic. Read for routing decisions.
+- `JARVIS.md` — Expert invocation protocol (@mentions, councils, handoffs, interaction modes). Read when designing multi-expert workflows.
+- `FARRICE.md` — Personal context, identity, avatar, positioning, interest stack. Read for content creation, brand work, or voice calibration.
 
 ---
 
@@ -104,7 +153,7 @@ Full protocol: `directives/session-state-protocol.md`
 
 ## Expert-First Work
 
-**Never rely on general training when expert skills exist.** Route through invocation cards first, then load skill files per the tiered chain. Full routing table: `directives/expert_auto_routing.md`. Skill file paths: `directives/skill-paths-reference.md`.
+**Never rely on general training when expert skills exist.** Route through invocation cards first, then load skill files per the tiered chain. Routing: `DOMAIN_REGISTRY.md` (swim lanes) + `directives/expert_auto_routing.md` (rules). Skill file paths: `directives/skill-paths-reference.md`.
 
 ---
 
@@ -149,6 +198,14 @@ Check budget before each call. Batch queries. Sonar for most queries; Deep Resea
 ## File Organization
 
 - `.tmp/` — intermediates (never commit)
-- `execution/` — Python scripts
-- `directives/` — SOPs
+- `execution/` — deterministic Python scripts (API calls, data processing)
+- `directives/` — SOPs and protocols
+- `extractions/` — raw extraction reports and transcripts (per expert)
+- `knowledge/` — organized knowledge base (books, frameworks, MES 3.0 processed extractions)
+- `councils/` — council configurations (ai, brand, content, creative, revenue)
+- `research_outputs/` — research project outputs
+- `strategy_briefs/` — McKinsey-grade strategic dossiers
+- `deliverables/` — client/project deliverables
+- `products/` — product builds (e.g., PromptBase)
+- `projects/` — active project workspaces
 - Deliverables → cloud services (Google Sheets/Slides)
