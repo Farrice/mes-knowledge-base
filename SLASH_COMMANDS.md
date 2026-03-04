@@ -8,6 +8,7 @@ If you prefer using the exact commands, here is the complete list:
 * **`/analyze-intent`** — Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation.
 * **`/brief`** — Generate a strategic brief — scans your situation against your full skill arsenal and recommends highest-ROI moves.
 * **`/generate-brief`** — Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research and Expert Ensembles.
+* **`/generate-image`** — Generate images using Nano Banana 2 (Gemini image generation). Supports aspect ratios and image editing.
 * **`/hunt-trends`** — Scan for rising trends and "Shadow Market" opportunities in a niche using Agentic Research.
 * **`/research-topic`** — Deep research on any topic with organized, actionable deliverable.
 * **`/spy-amazon`** — Spy on Amazon Best Sellers to find underserved niches (KDP/Products).

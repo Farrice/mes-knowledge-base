@@ -21,9 +21,10 @@ from pathlib import Path
 from typing import Dict, List, Optional
 from dataclasses import dataclass, field
 
-# Shared client
+# Shared clients
 sys.path.insert(0, str(Path(__file__).parent))
 from gemini_client import GeminiClient, load_env
+from perplexity_client import PerplexityClient, BudgetExhaustedError
 
 load_env()
 
@@ -221,15 +222,19 @@ def auto_select_agents(objective: str, max_agents: int = 5) -> List[str]:
 # Work Order Generation
 # --------------------------------------------------------------------------
 
-def generate_work_orders(objective: str, agents: List[str]) -> List[WorkOrder]:
+def generate_work_orders(objective: str, agents: List[str],
+                         research_brief: str = "") -> List[WorkOrder]:
     """Generate work orders for each agent. All are parallel (batch 0) by default."""
     orders = []
     for agent in agents:
         domain = EXPERT_DOMAINS.get(agent, "general")
+        context = f"You are contributing to a multi-expert analysis. Your domain: {domain}."
+        if research_brief:
+            context += f"\n\n{research_brief}"
         orders.append(WorkOrder(
             agent_name=agent,
             objective=objective,
-            context=f"You are contributing to a multi-expert analysis. Your domain: {domain}.",
+            context=context,
             mandate=[
                 "Apply your specific frameworks and methodology",
                 "Provide concrete, actionable recommendations",
@@ -572,7 +577,8 @@ async def _execute_swarm_with_orders(objective: str, work_orders: List[WorkOrder
 
 
 async def execute_swarm(objective: str, agents: List[str], client: GeminiClient,
-                        plan_only: bool = False, grounded: bool = False) -> SwarmResult:
+                        plan_only: bool = False, grounded: bool = False,
+                        research_brief: str = "") -> SwarmResult:
     """Execute a full swarm: generate work orders, run agents in parallel, synthesize."""
     start_time = time.time()
 
@@ -585,9 +591,11 @@ async def execute_swarm(objective: str, agents: List[str], client: GeminiClient,
     print(f"🛡️  Safety: max {MAX_RETRIES} retries, {TOKEN_BUDGET:,} token budget")
     if grounded:
         print(f"🌐 Grounding: ENABLED (agents will search the web)")
+    if research_brief:
+        print(f"🔬 Research: PRE-RESEARCH INJECTED (Perplexity)")
     print(f"{'='*60}\n")
 
-    work_orders = generate_work_orders(objective, agents)
+    work_orders = generate_work_orders(objective, agents, research_brief=research_brief)
 
     if plan_only:
         print("\n📝 Plan-only mode. Work orders generated but not executed.")
@@ -723,6 +731,7 @@ Below are their individual outputs. Your job is to:
         text, meta = await client.generate(
             prompt,
             system_instruction=system,
+            model="pro",
             thinking_budget=2048,
             grounding=grounded,
         )
@@ -809,7 +818,7 @@ You are the Swarm Arbiter. You've received an initial synthesis from {len(result
     )
 
     try:
-        text, meta = await client.generate(prompt, system_instruction=system)
+        text, meta = await client.generate(prompt, system_instruction=system, model="pro")
         print(f"  🔥 Challenge round complete ({meta.total_tokens:,} tokens)")
         return text
     except Exception as e:
@@ -885,6 +894,96 @@ def save_outputs(objective: str, results: List[AgentResult], synthesis: str,
 
 
 # --------------------------------------------------------------------------
+# Pre-Research Phase (Perplexity)
+# --------------------------------------------------------------------------
+
+def run_pre_research(objective: str, agents: List[str]) -> str:
+    """
+    Run Perplexity pre-research phase before firing the Gemini swarm.
+
+    Generates 2-3 collapsed queries from the objective, runs them through
+    Perplexity Sonar, and returns a formatted research brief that gets
+    injected into each agent's context.
+    """
+    try:
+        pplx = PerplexityClient()
+    except ValueError as e:
+        print(f"  ⚠️  Perplexity unavailable: {e}")
+        print(f"  ⚠️  Falling back to swarm without pre-research.")
+        return ""
+
+    remaining = pplx.budget_remaining()
+    print(f"\n🔬 PRE-RESEARCH PHASE (Perplexity)")
+    print(f"   Budget remaining: ${remaining:.2f}")
+
+    if remaining < 0.50:
+        print(f"  ⚠️  Budget too low for pre-research. Skipping.")
+        return ""
+
+    # Use sonar-pro for richer research, downgrade if budget is tight
+    model = "sonar-pro" if remaining >= 2.00 else "sonar"
+
+    # Build collapsed queries (The Collapsing Rule from the policy)
+    queries = [
+        f"Analyze the current state of: {objective}. "
+        f"Include: key trends, major players, market data, recent developments (2025-2026). "
+        f"Cite specific sources.",
+        f"What are the contrarian views, criticisms, and failure cases related to: {objective}? "
+        f"Include Reddit/forum sentiment where available.",
+    ]
+
+    print(f"   Model: {model}")
+    print(f"   Queries: {len(queries)}")
+
+    brief_parts = []
+    total_cost = 0
+
+    for i, query in enumerate(queries, 1):
+        print(f"   📡 Query {i}/{len(queries)}...")
+        try:
+            result = pplx.search(
+                query,
+                model=model,
+                task_context=f"swarm-research: {objective[:80]}",
+                query_type="research",
+                search_recency_filter="month",
+            )
+            total_cost += result.estimated_cost
+            if result.text:
+                citations = ""
+                if result.citations:
+                    citations = "\n**Sources:** " + ", ".join(
+                        f"[{i+1}]({url})" if url.startswith("http") else f"[{i+1}] {url}"
+                        for i, url in enumerate(result.citations[:5])
+                    )
+                brief_parts.append(f"### Research Finding {i}\n{result.text}{citations}")
+                print(f"   ✅ Query {i} complete (${result.estimated_cost:.2f}, {result.duration_seconds:.1f}s)")
+            else:
+                print(f"   ⚠️  Query {i} returned empty")
+        except BudgetExhaustedError:
+            print(f"   ⚠️  Budget exhausted during pre-research. Using partial results.")
+            break
+        except Exception as e:
+            print(f"   ❌ Query {i} failed: {e}")
+
+    if not brief_parts:
+        return ""
+
+    usage = pplx.usage_summary()
+    print(f"\n   📊 Pre-research complete: {usage['session_queries']} queries, ${total_cost:.2f}")
+    print(f"   💰 Budget remaining: ${usage['budget_remaining']:.2f}")
+
+    research_brief = (
+        f"## PRE-RESEARCH BRIEF (Perplexity — {model})\n\n"
+        f"The following real-world data was gathered BEFORE your analysis. "
+        f"Ground your response in these findings. Do NOT speculate when data exists.\n\n"
+        + "\n\n".join(brief_parts)
+    )
+
+    return research_brief
+
+
+# --------------------------------------------------------------------------
 # CLI
 # --------------------------------------------------------------------------
 
@@ -897,6 +996,7 @@ Examples:
   python parallel_swarm.py "Analyze competitors in AI consulting"
   python parallel_swarm.py --agents "cardinal-mason,harry-dry" "Write 5 hooks"
   python parallel_swarm.py --grounded "Research current market trends in AI consulting"
+  python parallel_swarm.py --research "Deep competitive intelligence on AI consulting"
   python parallel_swarm.py --plan-only "Design a LinkedIn strategy"
   python parallel_swarm.py --max-agents 8 "Full product launch analysis"
         """
@@ -907,6 +1007,8 @@ Examples:
     parser.add_argument("--plan-only", action="store_true", help="Show plan without executing")
     parser.add_argument("--grounded", action="store_true",
                         help="Enable Google Search grounding — agents search the web for real-time data")
+    parser.add_argument("--research", action="store_true",
+                        help="Run Perplexity pre-research phase — grounds agents in cited real-world data")
     parser.add_argument("--mode", choices=["default", "mini-brief"], default="default",
                         help="Swarm mode: 'default' for generic, 'mini-brief' for 7-element brief production")
     parser.add_argument("--concept-mode", default="story-driven",
@@ -921,19 +1023,24 @@ Examples:
 
     client = GeminiClient()
 
+    # Pre-research phase (Perplexity) — runs before the swarm if --research is set
+    research_brief = ""
+    if args.research and not args.plan_only:
+        research_brief = run_pre_research(args.objective, [])
+
     # Mini-brief mode
     if args.mode == "mini-brief":
-        research_brief = ""
+        ctx_brief = research_brief
         if args.context:
             ctx_path = Path(args.context)
             if ctx_path.exists():
-                research_brief = ctx_path.read_text()
+                ctx_brief += "\n\n" + ctx_path.read_text()
                 print(f"\n📄 Loaded research brief from {args.context}")
             else:
                 print(f"⚠️  Context file not found: {args.context}")
 
         work_orders = generate_mini_brief_work_orders(
-            concept=args.objective, research_brief=research_brief,
+            concept=args.objective, research_brief=ctx_brief,
             mode=args.concept_mode, platform=args.platform,
         )
         agents = [wo.agent_name for wo in work_orders]
@@ -955,9 +1062,11 @@ Examples:
             agents = auto_select_agents(args.objective, args.max_agents)
             print(f"\n🤖 Auto-selected agents: {', '.join(agents)}")
 
+        # Inject research brief into work orders if pre-research was run
         result = asyncio.run(
             execute_swarm(args.objective, agents, client,
-                         plan_only=args.plan_only, grounded=args.grounded)
+                         plan_only=args.plan_only, grounded=args.grounded,
+                         research_brief=research_brief)
         )
 
 

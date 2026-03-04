@@ -176,6 +176,6 @@ cardinal-mason, harry-dry, seena-rez, samuel-thompson, jim-oshaughnessy, jeremy-
 
 **Synthesis step** uses pro tier (~$0.02-0.05 extra) with thinking enabled for deeper cross-referencing.
 
-Model tiers used: `gemini-2.0-flash` (agents), `gemini-2.5-pro` (synthesis). Override in `.env`.
+Model tiers used: `gemini-2.5-flash` (agents), `gemini-2.5-pro` (synthesis). Override in `.env`.
 
 Even running 10 grounded swarms/day ≈ $2.50/day max.

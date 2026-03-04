@@ -22,6 +22,8 @@ python execution/skill_converter.py                      # convert skills to com
 python execution/extraction_swarm.py                     # run extraction swarm
 python execution/validate_skill.py                       # validate a skill structure
 python execution/sync_registries.py                      # sync AGENT_INDEX.md / SKILL_INDEX.md
+python execution/parallel_swarm.py "objective"            # run expert swarm (--grounded, --research)
+python execution/generate_image.py "prompt"               # generate images (Nano Banana 2)
 ```
 
 ## Notion API — Critical Version Pin
