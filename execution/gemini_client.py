@@ -81,7 +81,7 @@ def load_env(env_path: Optional[Path] = None):
 
 MODEL_TIERS = {
     "lite":  os.environ.get("GEMINI_MODEL_LITE",  "gemini-2.5-flash-lite"),
-    "flash": os.environ.get("GEMINI_MODEL_FLASH", "gemini-2.5-flash"),
+    "flash": os.environ.get("GEMINI_MODEL_FLASH", "gemini-3.1-flash-lite-preview"),
     "pro":   os.environ.get("GEMINI_MODEL_PRO",   "gemini-2.5-pro"),
     "image": os.environ.get("GEMINI_MODEL_IMAGE", "gemini-3.1-flash-image-preview"),
 }
