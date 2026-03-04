@@ -8,41 +8,41 @@
 
 You just haven't done the math yet.
 
-Here it is: take the number of frameworks you use with clients. Most coaches have 5-8. Multiply by 8. That's your content backlog.
+Take the number of frameworks you use with clients. Most coaches have 5-8. Multiply by 8. That's your content backlog.
 
-Because every single framework you teach contains at minimum 8 posts:
+Every framework contains at minimum 8 posts:
 
 The origin story -- what problem made you build it.
-The overview -- here's the model, here's the transformation.
+The overview -- the model and the transformation it produces.
 Each step individually (4-step process = 4 posts, each with a client story and a "here's what most people get wrong").
 The contrarian belief -- what your framework rejects about the conventional approach.
 The client result -- specific before/after, named emotions, real numbers.
 
-8 posts. One framework. You have at least 7 frameworks.
+8 posts. One framework. You have at least 7.
 
-That's 56 posts. Minimum.
+That's 56 posts minimum.
 
 ---
 
 So why are you staring at a blank screen on Monday morning?
 
-Coffee. Open LinkedIn. Scroll. See what other coaches posted. Feel behind. Start drafting. Hate it. Save as draft. Close laptop.
+Coffee. Open LinkedIn. Scroll. See what other coaches posted. Feel behind. Start drafting. Hate it. Save as draft. Close laptop. Tuesday: same thing. Wednesday: skip it. Thursday: guilt. Friday: "I'll start fresh next week."
 
-Tuesday: same thing. Wednesday: skip it. Thursday: guilt. Friday: "I'll start fresh next week."
+I lived that exact cycle for years -- and the irony nearly killed me. I used to program 12-week training cycles for clients. Each cycle had phases. Each phase had progressions. I never once stared at a blank whiteboard wondering "what should we train today?" The program already contained every session, decomposed backward from the end goal.
 
-The whole time, you have 5-8 proprietary frameworks sitting inside your methodology that you've never once turned into content.
+I had 18 years of coaching methodology and I still treated content like it required some separate creative gift I didn't have. Then one morning it clicked: my frameworks work the same way training programs do. Each step contains multiple posts. Each post already exists inside the process I've been running for years.
 
-Not because you can't write. Because you think content requires ideas.
+I didn't need ideas. I needed to decompose what I already had.
 
-It doesn't. It requires decomposition.
+That's the shift. Content doesn't require inspiration. It requires decomposition -- the same skill you already use to break a 12-week transformation into daily actions. You've been doing this your entire career. You just never pointed it at your feed.
 
-The coaches posting 3x a week don't have more ideas. They decomposed their methodology into parts and turned each part into content. No blank screens. No brainstorming. Just extraction -- because the content already existed inside their process.
+The coaches posting 3x a week don't have more ideas than you. They decomposed their methodology into parts and turned each part into content. No blank screens. No brainstorming. Just extraction.
 
 ---
 
-And this kind of content is the best kind. It doesn't just "provide value." It teaches people how you think.
+And decomposed content is the best kind. It doesn't just "provide value." It teaches people how you think.
 
-A post about Step 3 of your process isn't a tip. It's a window into your methodology. A prospect reading it starts to feel like they already know what working with you would be like.
+A post about Step 3 of your process isn't a tip. It's a window into your methodology. A prospect reading it starts to feel what working with you would be like -- before they ever book a call.
 
 That's not engagement. That's pre-selling.
 

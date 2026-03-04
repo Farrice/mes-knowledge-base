@@ -1,0 +1,66 @@
+{
+  "objective": "Trending AI Agentic Workflows and Agents \u2014 what's actually shipping, what frameworks are winning, and where the frontier is moving in March 2026",
+  "timestamp": "20260303_192952",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 46417,
+  "total_cost_usd": 0.0235,
+  "duration_seconds": 52.5,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "nick-saraev",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6308,
+      "cost": 0.0026079000000000002,
+      "duration": 19.3,
+      "thinking_tokens": 2709,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7845,
+      "cost": 0.0029286,
+      "duration": 12.3,
+      "thinking_tokens": 1118,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6995,
+      "cost": 0.0028312,
+      "duration": 16.1,
+      "thinking_tokens": 1850,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "nathan-gotch",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5412,
+      "cost": 0.0024202,
+      "duration": 14.0,
+      "thinking_tokens": 1459,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "sabri-suby",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5650,
+      "cost": 0.0027026,
+      "duration": 13.8,
+      "thinking_tokens": 1410,
+      "grounding_queries": 1,
+      "error": null
+    }
+  ]
+}

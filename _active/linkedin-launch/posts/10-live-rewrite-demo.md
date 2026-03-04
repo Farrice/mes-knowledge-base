@@ -13,46 +13,44 @@ Version B:
 Same coach. Same brain. Same 15 years of expertise.
 
 One sounds like a textbook.
-The other sounds like someone who's sat across from 500 executives and heard what they're actually afraid of.
+The other sounds like session 3 -- the line that makes a client lean forward and go quiet.
 
 The difference? Version A is what she posted on LinkedIn.
-Version B is what she says in session 3 -- the line that makes clients lean forward.
+Version B is what she actually says when the room gets honest.
 
 ---
 
 This is the gap killing most coaching content.
 
-Not talent. Not writing skill. Not some course on hooks.
+Not talent. Not writing skill.
 
-When coaches sit down to write, they don't write like they coach. They write like they think LinkedIn wants them to sound.
-
-Formal. Authoritative. Safe.
+When coaches sit down to write, they don't write like they coach. They write like they think LinkedIn wants them to sound. Formal. Authoritative. Safe.
 
 And safe content is invisible content.
 
-Every coach I've worked with has a Version B buried in their practice. The reframe they've delivered 200 times that still gets a sharp inhale. The question nobody else in their field thinks to ask.
+I've spent 18 years reading bodies before writing programs -- watching how someone moves under load, finding the compensation pattern their intake form couldn't tell me, building protocols around the person standing in front of me, not the client I imagined on paper. Never once did I hand someone a template and say "good luck."
 
-That material already exists inside your sessions.
+Content is the same problem. Every coach I've worked with has a Version B buried inside their practice. The reframe they've delivered 200 times that still gets a sharp inhale. The question nobody else in their field thinks to ask.
 
-It's just not in your posts yet.
+That material already exists inside your sessions. It's just not in your posts yet.
 
 ---
 
-The translation takes three lenses:
+The translation takes three lenses -- and if you've ever worked with a coach who actually assessed you before writing your program, these will feel familiar:
 
-**The Methodology Lens** -- Replace generic statements with the specific process you actually use. Not "building resilience" -- the exact conversation you have when a client says "I think I'm burning out."
+**The Methodology Lens** -- When a client walks in, I don't ask "what are your goals?" I watch them move. Where does the load shift? What's the body protecting? That's the intake assessment -- and it's the same thing your content needs. Not "building resilience." The exact conversation you have when a client says "I think I'm burning out." What do you actually look at first? Start there.
 
-**The Story Lens** -- Find the moment, not the lesson. The client's face. The silence. The sentence that changed the session's direction.
+**The Story Lens** -- I've watched a person's posture shift the second the real issue surfaced -- before they even said a word. That's the moment. Not the lesson you wrote down after the session. The client's face. The silence. The sentence that changed the direction of everything. Your content needs to capture what happened in the room, not what you concluded about it later.
 
-**The Recognition Lens** -- Write the thing that makes your ideal client stop scrolling and think: "How does this person know what I'm going through?"
+**The Recognition Lens** -- The best coaches I've trained alongside -- the ones clients followed across gyms, across cities -- they all had one thing. They could describe someone's experience more precisely than that person could describe it themselves. Write the thing that makes your ideal client stop scrolling and think: "How does this person know?"
 
 I built a rewrite kit that runs your existing posts through all three.
 
-You take one post -- the kind that gets 11 likes and sounds like it could've been written by any coach in your niche -- and the kit produces three completely different versions that actually sound like you on your sharpest day.
+You take one post -- the kind that gets 11 likes and sounds like it could've been written by any coach in your niche -- and the kit produces three versions that actually sound like you on your sharpest day.
 
 The reaction I hear most: "Why does the rewrite sound more like me than what I actually wrote?"
 
-Because it IS more like you. Your content was just filtering you out.
+Because it is. Your content was just filtering you out.
 
 Drop "REWRITE" below and I'll send it over.
 

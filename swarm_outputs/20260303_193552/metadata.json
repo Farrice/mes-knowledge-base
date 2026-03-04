@@ -1,0 +1,44 @@
+{
+  "objective": "Quick test: what are the 3 most important things a solopreneur should know about AI agents in March 2026?",
+  "timestamp": "20260303_193552",
+  "model": "gemini-3.1-flash-lite-preview",
+  "total_tokens": 14450,
+  "total_cost_usd": 0.0075,
+  "duration_seconds": 16.2,
+  "api_calls": 5,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-3.1-flash-lite-preview",
+      "tokens": 2164,
+      "cost": 0.00127725,
+      "duration": 3.9,
+      "thinking_tokens": 0,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "model": "gemini-3.1-flash-lite-preview",
+      "tokens": 2929,
+      "cost": 0.00150975,
+      "duration": 3.5,
+      "thinking_tokens": 0,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-3.1-flash-lite-preview",
+      "tokens": 2357,
+      "cost": 0.0012867500000000001,
+      "duration": 4.3,
+      "thinking_tokens": 0,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}
