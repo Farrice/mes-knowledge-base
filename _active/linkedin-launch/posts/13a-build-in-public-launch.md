@@ -4,115 +4,66 @@
 
 ---
 
-I'm about to do something
-that's either the best case study
-or a spectacular failure.
+I have no clients.
 
-Starting today,
-I'm building a ghostwriting business
-for coaches --
-entirely in public.
+No audience. No track record.
+And I'm going to show you all of it.
 
-Every win. Every failure. Every number.
+Starting today, I'm building a ghostwriting business
+for coaches — entirely in public.
 
-No curated version.
-No "here's what I learned"
-without showing the bruises.
+Every number. Every rejection. Every win.
 
-Just the raw, real process
-of going from [FILL IN: starting followers]
-followers and [FILL IN: starting revenue, e.g., "$0 in revenue"]
-to a functioning business
-that does one thing well:
-
-Translate how coaches think
-into content that sounds like them.
+No curated highlight reel.
+Just the raw math of going
+from [FILL IN: starting followers] followers
+and [FILL IN: starting revenue, e.g., "$0 in revenue"]
+to a real business.
 
 ---
 
-Here's what I'm starting with:
+What I'm starting with:
 
 [FILL IN: list your assets --
-e.g., "An extraction methodology I've been developing for 6 months.
-A set of AI tools I built to map how experts think.
-A stay-at-home dad schedule that gives me 4 focused hours a day.
-Zero ad budget.
-No existing audience."]
+e.g., "An extraction methodology I've spent 6 months building.
+AI tools that map how experts actually think.
+4 focused hours a day between naps and bedtime.
+Zero ad budget."]
 
-Here's what I'm NOT starting with:
+What I don't have:
 
 [FILL IN: list your constraints --
 e.g., "A network of coaches.
-A track record of paid clients.
+A single paid client.
 Industry credibility.
 Time."]
 
 ---
 
-Why am I doing this?
+Why coaches?
 
-Because I believe there's a gap
-in the coaching industry
-that nobody is talking about.
-
-The best coaches are invisible.
-
-They built their expertise in sessions.
-In messy, real, human conversations.
-Not on social media.
-
-And the coaches who ARE visible?
-Some are great.
-Many are mediocre coaches
-with excellent marketing.
+Because the best ones are invisible.
+They built their expertise in sessions, not on social media.
+And they're being outmarketed by people half as good
+who just figured out LinkedIn first.
 
 That gap makes me angry.
-
-Not in a motivational-poster way.
-In a "this is a structural problem
-that's hurting good people" way.
-
----
+Not inspirational-poster angry.
+"This is a structural problem hurting good people" angry.
 
 So here's the experiment:
 
-I'm going to prove
-that the right methodology --
-deep extraction, not surface-level interviews --
-can turn a coach's expertise
-into content they're proud to claim.
-
-And I'm going to prove it
-in the least efficient way possible:
-
-By showing you everything.
-
-The posts that flop.
-The DMs that go nowhere.
-The tools that break.
-The clients who say yes.
-The clients who say no.
-
-Every Friday I'll post the numbers.
+Every Friday I'll post the real numbers.
 [FILL IN: what metrics you'll track --
-e.g., "Profile views. Connection requests. DMs sent and received.
-Revenue. Hours worked. Tools built."]
+e.g., "Profile views. DMs sent and received.
+Discovery calls. Revenue. Hours worked."]
 
----
+The posts that flop. The DMs that go nowhere.
+The clients who say yes and the ones who say no.
 
 I don't know if this works.
 
-I know the methodology works --
-I've tested it enough to trust it.
-
-But building in public?
-As a [FILL IN: your situation, e.g., "stay-at-home dad
-with no existing audience"]?
-
-That part is the experiment.
-
-Follow along if you want
+But follow along if you want
 the unfiltered version.
 
 I'll be here every week.
-Numbers and all.

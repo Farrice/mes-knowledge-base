@@ -4,129 +4,73 @@
 
 ---
 
-Someone trusted me with their expertise.
+I just delivered my first Proof Run.
 
-Here's what happened.
+Here's the part I can't stop thinking about.
 
----
+I've been building this in public
+for [FILL IN: number] weeks.
+Posting numbers, sharing failures, proving the methodology works.
 
-I've been building this
-ghostwriting methodology in public
-for [FILL IN: number] weeks now.
-
-The thesis is simple:
-Most ghostwriters interview coaches
-for 30 minutes
-and write content that could be about
-anyone in their niche.
-
-I believed there was a better way --
-go deeper, extract the actual methodology,
-and produce content that could ONLY
-have come from that specific coach.
-
-This week, I got to test it.
+This week, someone let me prove it.
 
 ---
 
 [FILL IN: coach's first name or anonymized identifier]
 is a [FILL IN: their niche, e.g., "leadership coach
-who works with executives navigating
-organizational change"].
+who works with execs navigating organizational change"].
 
 [FILL IN: how they found you --
 e.g., "She'd been reading these posts for 3 weeks.
-DM'd me on Tuesday."]
+DM'd me Tuesday."]
 
-We got on a call.
-
-I didn't ask "who's your ideal client?"
-I didn't ask "what makes you different?"
+On the call, I didn't ask
+"who's your ideal client?"
 
 I asked:
 
-[FILL IN: the actual question you asked
-that opened the conversation --
-e.g., "'Walk me through what happens in session 2.
+[FILL IN: the actual question that opened the conversation --
+e.g., "'Walk me through session 2.
 Not the agenda. What actually happens
 when the small talk stops.'"]
 
 ---
 
-What I discovered:
+What I found:
 
-[FILL IN: 2-3 specific things you extracted
-that surprised you or demonstrated depth.
-
-Example:
-"She has a question she asks every client
-in the first 10 minutes
-that she's never told anyone about.
+[FILL IN: 2-3 specific things you extracted --
+e.g., "She has a question she asks every client
+in the first 10 minutes.
+She's never put it in any content.
+She's asked it 400+ times.
 
 It's the question that separates
-the clients who are ready to change
-from the ones who want permission to stay.
+clients ready to change
+from clients who want permission to stay."]
 
-She's asked it 400+ times.
-It's never been in any of her content."]
+What I delivered:
 
----
-
-What I produced:
-
-[FILL IN: what you delivered --
+[FILL IN: what you produced --
 e.g., "3 LinkedIn posts and a positioning statement.
-
 The first post opens with a line
-she actually says to clients
-when they're deflecting.
+she actually says to clients when they're deflecting."]
 
-When she read it she said:
-'This is the first time content
-has sounded like me.
-How did you do this from one conversation?'"]
+Their reaction:
 
----
-
-[FILL IN: client's reaction in their own words
-if you have permission. Or describe it:
-
-e.g., "She was quiet for about 10 seconds.
-Then she said: 'This is what I've been trying
-to get every ghostwriter to do for 2 years.'"]
-
----
-
-Here's what I took from this:
-
-The methodology works.
-
-Not because I'm a better writer.
-Because the QUESTIONS are different.
-
-When you ask a coach
-"tell me about your business" --
-you get marketing language.
-
-When you ask a coach
-"what happens at minute 30
-when the client stops performing" --
-you get the real thing.
-
-And the real thing
-is what makes content uncopiable.
+[FILL IN: client's words or description --
+e.g., "She was quiet for 10 seconds.
+Then: 'This is what I've been trying to get
+every ghostwriter to do for 2 years.'"]
 
 ---
 
 One client doesn't prove a business.
-I know that.
-
 But it proves a concept.
 
-And right now, that's enough
-to keep building.
+The difference isn't better writing.
+It's better questions.
 
 [FILL IN: what's next --
-e.g., "Next week I'm running 2 more Proof Runs.
+e.g., "Running 2 more Proof Runs next week.
 Same transparency. Same numbers.
 I'll tell you exactly what happens."]

@@ -4,200 +4,58 @@
 
 ---
 
-I have a test I run
-on every piece of content
-before I publish it.
+Your last LinkedIn post.
 
-It's one question:
+Could anyone tell it was yours without seeing your name?
 
-"Could someone read this
-and know it's from me
-without seeing the name?"
+Go look. Seriously. Pull it up right now. Strip your name and photo off it mentally. Drop it into a stack with 4 other coaches in your niche.
 
-If the answer is no --
-if the post could've been written
-by any ghostwriter, any AI tool,
-any coach in my niche --
+Would anyone pick yours out?
 
-I don't publish it.
+I ran this exact experiment with a leadership coach. 15 years of experience, 1,200 client sessions, a methodology that would make you rethink everything you know about executive performance.
 
-Because content that could belong to anyone
-belongs to no one.
-
-And content that belongs to no one
-does nothing.
-
----
-
-I started running this test
-on the coaches I work with.
-
-The results were brutal.
-
-I took 5 posts from a leadership coach --
-someone with 15 years of experience,
-a methodology she's refined
-across 1,200 client sessions,
-a philosophy that would make you rethink
-everything you know about executive performance.
-
-I stripped her name off the posts.
-Mixed them into a stack
-with posts from 4 other leadership coaches.
-
-Then I showed all 25 posts
-to someone who'd worked with her for 6 months.
+I stripped her name off 5 posts. Mixed them with posts from 4 other leadership coaches. Showed all 25 to someone who'd worked with her for 6 months.
 
 "Which ones are Sarah's?"
 
 She got 1 out of 5.
 
-One.
-
-A person who'd sat in the room
-with this coach every other week for half a year
-couldn't recognize her in her own content.
+A person who sat in the room with this coach every other week for half a year couldn't recognize her in her own content.
 
 ---
 
-That's not a writing problem.
+That's not a writing problem. That's an identity crisis.
 
-That's an identity problem.
+When Sarah coaches, she's brilliant. Specific. Sharp. Unmistakable. When she writes for LinkedIn, she disappears.
 
-When Sarah writes for clients,
-she's brilliant.
-Specific. Sharp. Unmistakable.
+Because there's a filter between "what I know" and "what I post."
 
-When she writes for LinkedIn,
-she disappears.
+The filter says: be professional, be broadly applicable, don't be too specific, don't alienate anyone. And it strips out everything that made the content hers.
 
-Because somewhere between
-"what I know" and "what I post"
-there's a filter.
-
-The filter says:
-Be professional.
-Be broadly applicable.
-Don't be too specific.
-Don't alienate anyone.
-
-And the filter strips out
-everything that made the content HERS.
-
-Her stories get sanded down
-to "a client I worked with."
-Her frameworks get watered to
-"consider these three principles."
-Her hardest-won insights become
-"leadership requires empathy
-and self-awareness."
+Her stories get sanded down to "a client I worked with." Her frameworks get watered to "consider these three principles." Her hardest-won insights become "leadership requires empathy and self-awareness."
 
 Safe. Smooth. Invisible.
 
 ---
 
-Here's what I've learned
-about content that actually builds a brand:
+Recognizability beats engagement. Every time.
 
-It's not about engagement.
-It's about recognizability.
+1,000 likes from people who will never hire you means nothing. But the prospect who reads your post in a feed of 50 coaches and thinks "THIS is the one who gets it" -- that's a business.
 
-Engagement is vanity.
-1,000 likes from people
-who will never hire you
-means exactly nothing.
+What makes content recognizable isn't style or formatting or hooks. It's three things:
 
-Recognizability is equity.
+**Your methodology.** Not "tips for leaders." The thing you do in session 1 that nobody else does. The question you ask. The framework you built.
 
-It's the prospect who reads your post
-in a feed of 50 other coaches
-and thinks: "THIS is the one who gets it."
+**Your stories.** Not "a client was struggling." The specific moment. What they said. What their face did. Stories only you have because only you were in the room.
 
-It's the referral partner who says:
-"You need to follow Sarah --
-she thinks about leadership differently
-than anyone I've read."
+**Your beliefs.** Not safe opinions everyone agrees with. The hill you'd die on. The conventional wisdom you've watched fail a hundred times.
 
-It's the client who tells you on the first call:
-"I already feel like I know you.
-I've been reading everything you post."
+Methodology + stories + beliefs = a fingerprint no one can copy.
 
-That doesn't come from good writing.
-It comes from content that could only
-have been written by one person.
+If your content is missing any of the three, you're writing in someone else's voice.
 
----
+Drop "RECOGNIZE" below and I'll send you The Recognizability Test.
 
-So what makes content recognizable?
+It scores how much of your content is niche-generic (any coach could claim it) vs. coach-specific (could only come from you). Most coaches discover they're writing 80% generic.
 
-Not style. Not formatting.
-Not hooks or templates.
-
-Three things:
-
-YOUR METHODOLOGY.
-Not "tips for leaders."
-Your actual process.
-The thing you do in session 1
-that nobody else does.
-The question you ask.
-The framework you built.
-The sequence of conversations
-that produces the transformation.
-
-YOUR STORIES.
-Not "a client was struggling."
-The specific client.
-The specific moment.
-What they said.
-What their face did.
-What happened next.
-The stories that only YOU have
-because only YOU were in the room.
-
-YOUR BELIEFS.
-Not the safe opinions everyone agrees with.
-The things you believe about your field
-that your competitors would argue with.
-The hill you'd die on.
-The conventional wisdom you've watched fail
-a hundred times.
-
-If your content has all three --
-methodology, stories, beliefs --
-it becomes uncopiable.
-
-Because no other coach
-has your frameworks,
-has your client stories,
-and has your specific convictions.
-
-That combination is a fingerprint.
-
----
-
-I built a diagnostic for this.
-
-It's called The Recognizability Test.
-
-You take 3 of your existing posts
-and the test evaluates each one:
-
-What percentage is niche-generic?
-(Content that any coach in your field could claim)
-
-What percentage is coach-specific?
-(Content that could ONLY come from you)
-
-Most coaches who run it discover
-they're writing 80% generic
-and 20% specific.
-
-Flip that ratio
-and your content becomes a brand.
-
-Drop "RECOGNIZE" below and I'll send it to you.
-
-No pitch. Just the test.
-
-What you do with the results is up to you.
+You might not want to know the number. But you already suspect it.
