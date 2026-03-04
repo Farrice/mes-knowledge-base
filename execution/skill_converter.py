@@ -727,6 +727,8 @@ async def run_full_conversion(
 # --------------------------------------------------------------------------
 
 def main():
+    global BATCH_SIZE
+
     parser = argparse.ArgumentParser(
         description="Skill Converter — Transform prompt libraries into completion engines",
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -741,7 +743,6 @@ def main():
     args = parser.parse_args()
 
     if args.batch_size:
-        global BATCH_SIZE
         BATCH_SIZE = args.batch_size
 
     if not args.skill and not args.all:
