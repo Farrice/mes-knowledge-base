@@ -80,24 +80,25 @@ def load_env(env_path: Optional[Path] = None):
 # ---------------------------------------------------------------------------
 
 MODEL_TIERS = {
-    "lite":  os.environ.get("GEMINI_MODEL_LITE",  "gemini-2.0-flash-lite"),
-    "flash": os.environ.get("GEMINI_MODEL_FLASH", "gemini-2.0-flash"),
-    "pro":   os.environ.get("GEMINI_MODEL_PRO",   "gemini-2.5-pro-preview-03-25"),
-    "image": os.environ.get("GEMINI_MODEL_IMAGE", "gemini-2.0-flash-preview-image-generation"),
+    "lite":  os.environ.get("GEMINI_MODEL_LITE",  "gemini-2.5-flash-lite"),
+    "flash": os.environ.get("GEMINI_MODEL_FLASH", "gemini-2.5-flash"),
+    "pro":   os.environ.get("GEMINI_MODEL_PRO",   "gemini-2.5-pro"),
+    "image": os.environ.get("GEMINI_MODEL_IMAGE", "gemini-3.1-flash-image-preview"),
 }
 
-# Cost per 1M tokens (input / output) — updated March 2026
+# Cost per 1M tokens (input / output) — verified March 2026
+# Source: https://ai.google.dev/gemini-api/docs/pricing
 COST_PER_MILLION = {
-    # Gemini 2.0 series
-    "gemini-2.0-flash":           {"input": 0.10, "output": 0.40},
-    "gemini-2.0-flash-lite":      {"input": 0.075, "output": 0.30},
-    # Gemini 2.5 series
-    "gemini-2.5-flash-preview-04-17": {"input": 0.15, "output": 0.60},
-    "gemini-2.5-pro-preview-03-25":   {"input": 1.25, "output": 10.00},
-    # Legacy / preview names (backward compat)
-    "gemini-3-flash-preview":     {"input": 0.10, "output": 0.40},
-    "gemini-2.5-flash":           {"input": 0.15, "output": 0.60},
+    # Gemini 2.5 series (stable, production)
+    "gemini-2.5-flash-lite":      {"input": 0.10, "output": 0.40},
+    "gemini-2.5-flash":           {"input": 0.30, "output": 2.50},
     "gemini-2.5-pro":             {"input": 1.25, "output": 10.00},
+    # Gemini 3.x series (preview)
+    "gemini-3-flash-preview":     {"input": 0.50, "output": 3.00},
+    "gemini-3.1-flash-lite-preview": {"input": 0.25, "output": 1.50},
+    "gemini-3.1-pro-preview":     {"input": 2.00, "output": 12.00},
+    # Image models (token cost is secondary — image gen is the main cost)
+    "gemini-3.1-flash-image-preview": {"input": 0.30, "output": 2.50},
 }
 
 DEFAULT_COST = {"input": 0.50, "output": 3.00}  # fallback for unknown models
@@ -365,7 +366,7 @@ class GeminiClient:
 
     # ----- image generation (Nano Banana 2) -----
 
-    IMAGE_MODEL = "gemini-2.0-flash-preview-image-generation"
+    IMAGE_MODEL = "gemini-3.1-flash-image-preview"
 
     async def generate_image(
         self,
