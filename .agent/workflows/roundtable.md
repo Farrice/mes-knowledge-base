@@ -42,19 +42,82 @@ Present the panel to the user for approval:
 
 Wait for user confirmation before proceeding.
 
-### 3. Load Each Expert
+### 3. Round 1: Parallel Opening Positions
 
-For each selected agent:
-1. Read `agents/[agent-name]/AGENT.md` — persona, decision framework, communication style
-2. Read `agents/[agent-name]/memory/context.md` — persistent project context
-3. If the agent has a relevant skill, also read `skills/[skill-name]/SKILL.md`
+**Why parallel**: Each expert forms their position independently, preventing anchoring bias (Expert 2 doesn't see Expert 1's take before forming their own). Also ~3x faster than sequential.
 
-### 4. Run the Roundtable
+Spawn one Task tool sub-agent per panelist **in a single message** (all fire simultaneously):
 
-Produce a structured roundtable artifact with the following format:
+Each agent prompt:
+```
+You are [Expert Name], a [Expert Title/Domain].
+
+## SKILL ACQUISITION
+Read these files to embody the expert:
+1. /Users/farricecain/Google Antigravity/agents/[agent-name]/AGENT.md
+2. /Users/farricecain/Google Antigravity/skills/[skill-name]/SKILL.md
+3. /Users/farricecain/Google Antigravity/skills/[skill-name]/genius.md
+
+## YOUR TASK
+You are participating in an AI Expert Roundtable on:
+
+**Topic**: [topic]
+
+Produce your Opening Position: a 2-4 paragraph analysis entirely in your expert voice, applying your specific framework and expertise. This is YOUR independent take — you have not seen anyone else's position.
+
+Requirements:
+- Apply your specific methodology/framework to the topic
+- Include at least 1 concrete, actionable recommendation
+- Flag any risks or contrarian observations
+- Voice should be distinctly yours (not generic consultant-speak)
+
+Write your opening position to: .tmp/roundtable/round1-[agent-slug].md
+
+## OUTPUT FORMAT
+### [Expert Name] — [Domain]
+
+> [2-4 paragraphs in your voice]
+
+**Key recommendation**: [1 sentence]
+**Risk flag**: [1 sentence, if applicable]
+```
+
+**Max 5 parallel agents** (per sub_agent_protocol.md). If the panel has 5 experts, all 5 fire at once.
+
+### 3.5. Collect Round 1 Positions
+
+After all parallel agents return, read each position from `.tmp/roundtable/round1-*.md`. Assemble them into the Opening Positions section of the artifact.
+
+If any agent failed: proceed with remaining positions. Note in the artifact: "[Expert] was unable to participate — roundtable based on [N-1] perspectives."
+
+### 4. Round 2: Sequential Cross-Examination
+
+This round is **sequential in the main context** because experts must genuinely respond to each other's positions. For each panelist, embody them and prompt:
+
+```
+Now embody [Expert Name] for the Cross-Examination round.
+
+Their opening position was:
+[paste their Round 1 output]
+
+The other experts said:
+[paste 2-3 sentence summary of each other position]
+
+As [Expert Name], respond:
+- Where do you agree and why?
+- Where do you disagree and why?
+- What did another expert miss that your framework reveals?
+- Any positions that changed after hearing others?
+
+Keep it sharp — genuine tension, not artificial agreement.
+```
+
+### 5. Synthesize and Format
+
+Produce the final roundtable artifact:
 
 ```markdown
-# 🎙️ AI Expert Roundtable: [Topic]
+# AI Expert Roundtable: [Topic]
 
 **Date**: [date]
 **Panel**: [Agent 1], [Agent 2], [Agent 3], [Agent 4]
@@ -63,25 +126,17 @@ Produce a structured roundtable artifact with the following format:
 
 ## Opening Positions
 
-### [Agent 1 Name] — [Agent Title/Domain]
-> [2-4 paragraphs in the agent's voice. Their initial take on the topic, applying their specific framework and expertise. Should feel distinct from every other panelist.]
-
-### [Agent 2 Name] — [Agent Title/Domain]
-> [Same format, different perspective]
-
-[...repeat for all panelists]
+[Assembled from Round 1 parallel outputs]
 
 ---
 
 ## Cross-Examination
 
-Where the experts challenge, build on, or disagree with each other's positions. This section should surface genuine tension and complementary insights — NOT artificial agreement.
+[From Round 2 sequential dialogue — genuine tension and complementary insights]
 
 ---
 
 ## Consensus Recommendations
-
-Synthesize into a prioritized list:
 
 | # | Recommendation | Effort | Impact | Champion |
 |---|---------------|--------|--------|----------|
@@ -92,7 +147,7 @@ Synthesize into a prioritized list:
 
 ## Dissenting Views
 
-Any expert positions that did NOT make the consensus but are worth preserving for future consideration.
+Any expert positions that did NOT make the consensus but are worth preserving.
 
 ---
 
@@ -100,6 +155,14 @@ Any expert positions that did NOT make the consensus but are worth preserving fo
 
 Concrete, actionable items the user can take immediately.
 ```
+
+### Parallelism Note
+
+| Round | Execution | Why |
+|-------|-----------|-----|
+| Round 1 (Opening Positions) | Parallel Task Calls (Tier 1) | Independent thinking, no anchoring bias |
+| Round 2 (Cross-Examination) | Sequential in main context | Experts must respond to each other |
+| Synthesis | Sequential (orchestrator) | Must see all positions to synthesize |
 
 ### 5. Save the Artifact
 

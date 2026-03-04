@@ -14,12 +14,15 @@ If you prefer using the exact commands, here is the complete list:
 * **`/spy-market`** — Run a "Search Gap" analysis to find low-competition keywords (Spy Tool).
 
 ## Multi-Agent Execution (Swarms & Councils)
+* **`/atomize`** — Take a long-form source (video, blog, podcast) and produce 11 derivative content pieces in parallel across all platforms.
 * **`/council`** — Spin up an AI council for any decision with multi-perspective deliberation.
+* **`/launch-day`** — Content launch day sprint — produce 3-5 pieces in parallel with Brand Voice consistency review via Agent Teams.
 * **`/parallel-content`** — Generate 3-5 content pieces in parallel using different experts (LinkedIn, Twitter, email, TikTok).
 * **`/parallel-extract`** — Run 2-5 extractions in parallel using sub-agents — each processes a different source simultaneously.
 * **`/parallel-research`** — Deploy 3 research agents in parallel to investigate different angles of a topic simultaneously.
 * **`/parallel-swarm`** — Deploy a true parallel agent swarm using the Gemini API for simultaneous multi-expert execution.
-* **`/roundtable`** — Convene an AI expert roundtable — auto-selects 3-5 agents to analyze a topic from multiple perspectives and produce consensus recommendations.
+* **`/research-sprint`** — Business intelligence sprint — 3 research agents + synthesis lead with follow-up coordination via Agent Teams.
+* **`/roundtable`** — Convene an AI expert roundtable — parallel first-round positions (no anchoring bias), then sequential cross-examination.
 * **`/swarm`** — Deploy an agent swarm to execute complex tasks with 10-50 experts working in orchestrated parallel.
 
 ## System & Skill Management
