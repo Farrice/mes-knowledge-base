@@ -15,9 +15,10 @@
 | Design a complete offer + funnel | `/design-offer` | ~3x faster |
 | Get expert opinions without anchoring bias | `/roundtable` | ~2x faster (Round 1) |
 | Plan my week in 30 minutes | `/weekly-pulse` | ~3x faster |
-| 5-10+ expert perspectives with real data | `/parallel-swarm --research` | ~$0.30-0.50 |
+| 5-10+ expert perspectives with native web grounding | `/parallel-swarm --grounded` | ~$0.08-0.25 |
+| 5-10+ expert perspectives with deep research | `/parallel-swarm --research` | ~$0.25-0.55 |
 | Batch-extract from multiple sources | `/parallel-extract` | ~3x faster |
-| 5-10+ expert perspectives cheaply | `/parallel-swarm` | ~$0.15 total |
+| 5-10+ expert perspectives cheaply | `/parallel-swarm` | ~$0.05-0.18 |
 
 ---
 
@@ -27,7 +28,7 @@
 |------|------|------|-----------|
 | **1: Parallel Task Calls** | Multiple Task tools in one message, agents work independently | Agents don't need each other's output | 5 |
 | **2: Agent Teams** | TeamCreate + SendMessage, agents can talk to each other | Agent B needs Agent A's output, or a reviewer/synthesizer coordinates | 5-6 |
-| **3: Gemini Swarm** | `execution/parallel_swarm.py`, cheap API calls | 5+ experts needed, cost-sensitive, no tool access needed | 10+ |
+| **3: Gemini Swarm** | `execution/parallel_swarm.py`, cheap API calls, optional `--grounded` for web search | 5+ experts needed, cost-sensitive, optional web grounding | 10+ |
 
 ---
 

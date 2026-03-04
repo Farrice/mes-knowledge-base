@@ -8,19 +8,26 @@ to prevent loop disasters and token budget overruns.
 Usage:
     python parallel_swarm.py "Analyze the top 3 competitors in AI consulting"
     python parallel_swarm.py --plan-only "Design a content strategy for LinkedIn"
-    python parallel_swarm.py --config swarm_config.json
     python parallel_swarm.py --agents "cardinal-mason,harry-dry,seena-rez" "Write 5 hook variations"
+    python parallel_swarm.py --grounded "Research current AI consulting market trends"
 """
 
 import asyncio
 import json
-import os
 import sys
 import time
 import argparse
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional
 from dataclasses import dataclass, field
+
+# Shared client
+sys.path.insert(0, str(Path(__file__).parent))
+from gemini_client import GeminiClient, load_env
+
+load_env()
+
+import os
 
 # --------------------------------------------------------------------------
 # Configuration
@@ -29,26 +36,11 @@ from dataclasses import dataclass, field
 BASE_PATH = Path(__file__).parent.parent
 AGENTS_PATH = BASE_PATH / "agents"
 SKILLS_PATH = BASE_PATH / "skills"
-DOMAIN_REGISTRY = BASE_PATH / "DOMAIN_REGISTRY.md"
 OUTPUT_DIR = BASE_PATH / "swarm_outputs"
 
-# Load .env
-ENV_PATH = BASE_PATH / ".env"
-if ENV_PATH.exists():
-    for line in ENV_PATH.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "=" in line:
-            key, _, value = line.partition("=")
-            os.environ.setdefault(key.strip(), value.strip())
-
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
 MAX_RETRIES = int(os.environ.get("SWARM_MAX_RETRIES", "1"))
 TOKEN_BUDGET = int(os.environ.get("SWARM_TOKEN_BUDGET", "500000"))
 MAX_PARALLEL = int(os.environ.get("SWARM_MAX_PARALLEL", "10"))
-
-from google import genai
-from google.genai import types
 
 
 # --------------------------------------------------------------------------
@@ -75,7 +67,11 @@ class AgentResult:
     status: str  # "success", "failed", "skipped"
     output: str
     tokens_used: int
+    estimated_cost: float
     duration_seconds: float
+    model_used: str = ""
+    thinking_tokens: int = 0
+    grounding_queries: int = 0
     retries: int = 0
     error: Optional[str] = None
 
@@ -92,7 +88,7 @@ class SwarmResult:
 
 
 # --------------------------------------------------------------------------
-# Expert Registry (lightweight — full details read from agent files)
+# Expert Registry
 # --------------------------------------------------------------------------
 
 EXPERT_DOMAINS = {
@@ -136,44 +132,6 @@ EXPERT_DOMAINS = {
 
 
 # --------------------------------------------------------------------------
-# API Client
-# --------------------------------------------------------------------------
-
-async def call_gemini(prompt: str, system_instruction: str = "", 
-                      retries: int = MAX_RETRIES) -> Tuple[str, int]:
-    """Make a single Gemini API call via async SDK. Returns (response_text, tokens_used)."""
-    client = genai.Client(api_key=API_KEY)
-    
-    config = types.GenerateContentConfig(
-        temperature=0.7,
-        max_output_tokens=4096,
-    )
-    if system_instruction:
-        config.system_instruction = system_instruction
-        
-    for attempt in range(retries + 1):
-        try:
-            response = await client.aio.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-                config=config
-            )
-            # Extract token usage if available; otherwise use 0
-            tokens = 0
-            if response.usage_metadata:
-                tokens = response.usage_metadata.total_token_count
-            return response.text, tokens
-
-        except Exception as e:
-            if attempt < retries:
-                wait = 2 ** attempt
-                print(f"  ⚠️  Retry {attempt + 1}/{retries} for API call (waiting {wait}s): {e}")
-                await asyncio.sleep(wait)
-            else:
-                raise
-
-
-# --------------------------------------------------------------------------
 # Agent Context Loading
 # --------------------------------------------------------------------------
 
@@ -182,22 +140,16 @@ def load_agent_context(agent_name: str, tier: int = 1,
     """
     Load expert context at the specified tier level.
 
-    Tier 1 (default): AGENT.md + SKILL.md (~1,350 tokens)
-    Tier 2: AGENT.md + SKILL.md + genius.md + specified workflow files (~2,550 tokens)
-
-    extra_files: Additional file paths (relative to skill dir) to load at Tier 2.
+    Tier 1 (default): AGENT.md + SKILL.md
+    Tier 2: AGENT.md + SKILL.md + genius.md + specified workflow files
     """
     agent_dir = AGENTS_PATH / agent_name
-
     context_parts = []
 
-    # Agent persona
     agent_file = agent_dir / "AGENT.md"
     if agent_file.exists():
-        content = agent_file.read_text()
-        context_parts.append(content)
+        context_parts.append(agent_file.read_text())
 
-    # Find matching skill directory
     matched_skill_dir = None
     for skill_name in SKILLS_PATH.iterdir():
         if agent_name in skill_name.name:
@@ -205,18 +157,15 @@ def load_agent_context(agent_name: str, tier: int = 1,
             break
 
     if matched_skill_dir:
-        # Tier 1+: Always load SKILL.md
         skill_file = matched_skill_dir / "SKILL.md"
         if skill_file.exists():
             context_parts.append(skill_file.read_text())
 
-        # Tier 2: Also load genius.md + specified workflow files
         if tier >= 2:
             genius_file = matched_skill_dir / "genius.md"
             if genius_file.exists():
                 context_parts.append(genius_file.read_text())
 
-            # Load extra workflow/prompt files if specified
             if extra_files:
                 for rel_path in extra_files:
                     full_path = matched_skill_dir / rel_path
@@ -240,30 +189,23 @@ def load_agent_context(agent_name: str, tier: int = 1,
 # --------------------------------------------------------------------------
 
 def auto_select_agents(objective: str, max_agents: int = 5) -> List[str]:
-    """
-    Simple keyword-based agent selection. For more sophisticated selection,
-    use the swarm-planning prompt with a planning LLM call.
-    """
+    """Simple keyword-based agent selection."""
     objective_lower = objective.lower()
-
     scores = {}
     for agent, domain in EXPERT_DOMAINS.items():
         score = 0
         for keyword in domain.lower().split(", "):
             if keyword in objective_lower:
                 score += 2
-            # Partial match
             for word in keyword.split():
                 if word in objective_lower:
                     score += 1
         if score > 0:
             scores[agent] = score
 
-    # Sort by score descending
     ranked = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     selected = [agent for agent, _ in ranked[:max_agents]]
 
-    # Always include at least 2 agents
     if len(selected) < 2:
         defaults = ["cardinal-mason", "jim-oshaughnessy", "shaan-puri"]
         for d in defaults:
@@ -303,7 +245,6 @@ def generate_work_orders(objective: str, agents: List[str]) -> List[WorkOrder]:
 # Mini-Brief Work Order Generation
 # --------------------------------------------------------------------------
 
-# Default expert assignments per concept mode (maps to the workflow matrix)
 MINI_BRIEF_EXPERTS = {
     "story-driven":  {"pain": "kallaway", "hook": "tommy-clark", "asset": "josh-sanders", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
     "contrarian":    {"pain": "kallaway", "hook": "kallaway", "asset": "josh-sanders", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
@@ -313,11 +254,10 @@ MINI_BRIEF_EXPERTS = {
     "vulnerability": {"pain": "kallaway", "hook": "caleb-ralston", "asset": "kallaway", "platform": "linkedin-2026-format-arbitrage", "taste": "oren"},
 }
 
-# Tier 2 workflow files per expert (relative to skill dir)
 EXPERT_WORKFLOW_FILES = {
     "kallaway": ["workflows/hook-engineering-matrix.md"],
     "tommy-clark": ["workflows/founder-narrative-extraction-system.md"],
-    "jasmin-alic": [],  # genius.md covers core patterns
+    "jasmin-alic": [],
     "josh-sanders": [],
     "caleb-ralston": [],
     "harry-dry": [],
@@ -334,21 +274,7 @@ def generate_mini_brief_work_orders(
     platform: str = "linkedin",
     agents_override: Optional[Dict[str, str]] = None,
 ) -> List[WorkOrder]:
-    """
-    Generate specialized work orders for the /mini-brief v2.0 workflow.
-
-    Produces 5 work orders:
-      Batch 0 (parallel): WO1-Pain&Truth, WO2-Hook, WO3-Asset, WO4-Platform
-      Batch 1 (sequential): WO5-TasteGate (Oren)
-
-    Args:
-        concept: The concept skeleton from Phase 2
-        research_brief: The research brief from Phase 1
-        mode: Concept mode (story-driven, contrarian, recognition, educational, authority, vulnerability)
-        platform: Target platform (linkedin, youtube, substack)
-        agents_override: Optional dict to override default expert assignments
-    """
-    # Select experts based on mode
+    """Generate specialized work orders for the /mini-brief v2.0 workflow."""
     experts = MINI_BRIEF_EXPERTS.get(mode, MINI_BRIEF_EXPERTS["story-driven"])
     if agents_override:
         experts = {**experts, **agents_override}
@@ -380,10 +306,7 @@ def generate_mini_brief_work_orders(
             "Output: 4 numbered elements with patterns applied noted",
         ],
         output_schema="mini-brief-elements",
-        constraints={
-            "tier": 2,
-            "workflow_files": EXPERT_WORKFLOW_FILES.get(pain_agent, []),
-        },
+        constraints={"tier": 2, "workflow_files": EXPERT_WORKFLOW_FILES.get(pain_agent, [])},
         batch=0,
     ))
 
@@ -402,10 +325,7 @@ def generate_mini_brief_work_orders(
             "Output: 3 hook variations with truncation test results",
         ],
         output_schema="mini-brief-hook",
-        constraints={
-            "tier": 2,
-            "workflow_files": EXPERT_WORKFLOW_FILES.get(hook_agent, []),
-        },
+        constraints={"tier": 2, "workflow_files": EXPERT_WORKFLOW_FILES.get(hook_agent, [])},
         batch=0,
     ))
 
@@ -425,10 +345,7 @@ def generate_mini_brief_work_orders(
             "Output: Full asset spec with trust/gap test results",
         ],
         output_schema="mini-brief-asset",
-        constraints={
-            "tier": 2,
-            "workflow_files": EXPERT_WORKFLOW_FILES.get(asset_agent, []),
-        },
+        constraints={"tier": 2, "workflow_files": EXPERT_WORKFLOW_FILES.get(asset_agent, [])},
         batch=0,
     ))
 
@@ -448,10 +365,7 @@ def generate_mini_brief_work_orders(
             "Output: Complete platform spec ready to integrate into the brief",
         ],
         output_schema="mini-brief-platform",
-        constraints={
-            "tier": 2,
-            "workflow_files": EXPERT_WORKFLOW_FILES.get(platform_agent, []),
-        },
+        constraints={"tier": 2, "workflow_files": EXPERT_WORKFLOW_FILES.get(platform_agent, [])},
         batch=0,
     ))
 
@@ -469,10 +383,7 @@ def generate_mini_brief_work_orders(
             "Output: Taste verdict table with pass/fail per element",
         ],
         output_schema="mini-brief-taste",
-        constraints={
-            "tier": 2,
-            "workflow_files": [],
-        },
+        constraints={"tier": 2, "workflow_files": []},
         depends_on=[pain_agent, hook_agent, asset_agent, platform_agent],
         batch=1,
     ))
@@ -484,25 +395,23 @@ def generate_mini_brief_work_orders(
 # Single Agent Execution
 # --------------------------------------------------------------------------
 
-async def execute_agent(work_order: WorkOrder, token_tracker: dict) -> AgentResult:
+async def execute_agent(work_order: WorkOrder, client: GeminiClient,
+                        grounded: bool = False) -> AgentResult:
     """Execute a single agent's work order via Gemini API."""
     start_time = time.time()
     agent = work_order.agent_name
 
     # Check token budget
-    if token_tracker["used"] >= TOKEN_BUDGET:
+    if client.total_tokens_used >= TOKEN_BUDGET:
         return AgentResult(
-            agent_name=agent,
-            status="skipped",
-            output="",
-            tokens_used=0,
-            duration_seconds=0,
-            error=f"Token budget exceeded ({token_tracker['used']}/{TOKEN_BUDGET})"
+            agent_name=agent, status="skipped", output="",
+            tokens_used=0, estimated_cost=0, duration_seconds=0,
+            error=f"Token budget exceeded ({client.total_tokens_used}/{TOKEN_BUDGET})"
         )
 
-    print(f"  🚀 Launching {agent}...")
+    print(f"  🚀 Launching {agent}{'  [grounded]' if grounded else ''}...")
 
-    # Load expert context (Tier 2 if specified in work order constraints)
+    # Load expert context
     tier = work_order.constraints.get("tier", 1)
     extra_files = work_order.constraints.get("workflow_files", None)
     system_instruction = load_agent_context(agent, tier=tier, extra_files=extra_files)
@@ -541,30 +450,32 @@ Respond with:
 """
 
     try:
-        response, tokens = await call_gemini(prompt, system_instruction)
-        token_tracker["used"] += tokens
+        text, meta = await client.generate(
+            prompt,
+            system_instruction=system_instruction,
+            temperature=0.7,
+            max_output_tokens=4096,
+            grounding=grounded,
+            retries=MAX_RETRIES,
+        )
 
         duration = time.time() - start_time
-        print(f"  ✅ {agent} complete ({tokens:,} tokens, {duration:.1f}s)")
+        print(f"  ✅ {agent} complete ({meta.total_tokens:,} tokens, ${meta.estimated_cost_usd:.4f}, {duration:.1f}s)")
 
         return AgentResult(
-            agent_name=agent,
-            status="success",
-            output=response,
-            tokens_used=tokens,
-            duration_seconds=duration,
+            agent_name=agent, status="success", output=text,
+            tokens_used=meta.total_tokens, estimated_cost=meta.estimated_cost_usd,
+            duration_seconds=duration, model_used=meta.model,
+            thinking_tokens=meta.thinking_tokens,
+            grounding_queries=meta.grounding_queries,
         )
 
     except Exception as e:
         duration = time.time() - start_time
         print(f"  ❌ {agent} failed: {e}")
-
         return AgentResult(
-            agent_name=agent,
-            status="failed",
-            output="",
-            tokens_used=0,
-            duration_seconds=duration,
+            agent_name=agent, status="failed", output="",
+            tokens_used=0, estimated_cost=0, duration_seconds=duration,
             error=str(e),
         )
 
@@ -574,19 +485,22 @@ Respond with:
 # --------------------------------------------------------------------------
 
 async def _execute_swarm_with_orders(objective: str, work_orders: List[WorkOrder],
-                                     plan_only: bool = False) -> SwarmResult:
+                                     client: GeminiClient,
+                                     plan_only: bool = False,
+                                     grounded: bool = False) -> SwarmResult:
     """Execute a swarm with pre-built work orders (used by mini-brief mode)."""
     agents = [wo.agent_name for wo in work_orders]
     start_time = time.time()
-    token_tracker = {"used": 0}
 
     print(f"\n{'='*60}")
     print(f"🐝 SWARM COMMANDER — Mini-Brief Production Engine")
     print(f"{'='*60}")
     print(f"📋 Objective: {objective[:100]}...")
     print(f"👥 Agents: {', '.join(dict.fromkeys(agents))}")
-    print(f"🔧 Model: {MODEL}")
+    print(f"🔧 Model: {client.default_model}")
     print(f"🛡️  Safety: max {MAX_RETRIES} retries, {TOKEN_BUDGET:,} token budget")
+    if grounded:
+        print(f"🌐 Grounding: ENABLED (agents will search the web)")
     print(f"{'='*60}\n")
 
     if plan_only:
@@ -622,61 +536,57 @@ async def _execute_swarm_with_orders(objective: str, work_orders: List[WorkOrder
             for wo in batch:
                 wo.context += f"\n\n## ASSEMBLED OUTPUTS FROM PREVIOUS AGENTS\n{assembled}"
 
-        tasks = [execute_agent(wo, token_tracker) for wo in batch]
+        tasks = [execute_agent(wo, client, grounded=grounded) for wo in batch]
         results = await asyncio.gather(*tasks)
         all_results.extend(results)
 
         successful = sum(1 for r in results if r.status == "success")
         print(f"\n   ✅ Batch {batch_num + 1} complete: {successful}/{len(batch)} succeeded")
 
-    # Synthesis (mini-brief assembly)
+    # Synthesis
     print(f"\n{'='*60}")
     print(f"🧬 ASSEMBLING Mini-Brief from {len(all_results)} agent outputs...")
     print(f"{'='*60}\n")
 
-    synthesis = await synthesize_results(objective, all_results, token_tracker)
+    synthesis = await synthesize_results(objective, all_results, client, grounded=grounded)
 
     total_duration = time.time() - start_time
-    total_tokens = token_tracker["used"]
-    cost_per_million = 0.10
-    total_cost = (total_tokens / 1_000_000) * cost_per_million
+    usage = client.usage_summary()
 
-    save_outputs(objective, all_results, synthesis, total_tokens, total_duration, total_cost)
+    save_outputs(objective, all_results, synthesis, usage, total_duration, client.default_model)
 
     print(f"\n{'='*60}")
     print(f"🎯 MINI-BRIEF SWARM COMPLETE")
     print(f"{'='*60}")
     print(f"⏱️  Duration:   {total_duration:.1f}s")
-    print(f"📊 Tokens:     {total_tokens:,}")
-    print(f"💰 Est. Cost:  ${total_cost:.4f}")
+    print(f"📊 Tokens:     {usage['total_tokens']:,}")
+    print(f"💰 Est. Cost:  ${usage['total_cost_usd']:.4f}")
     print(f"📂 Output:     {OUTPUT_DIR / 'latest'}")
     print(f"{'='*60}\n")
 
     return SwarmResult(
         objective=objective, agent_results=all_results, synthesis=synthesis,
-        total_tokens=total_tokens, total_duration=total_duration, total_cost_usd=total_cost,
+        total_tokens=usage["total_tokens"], total_duration=total_duration,
+        total_cost_usd=usage["total_cost_usd"],
     )
 
 
-async def execute_swarm(objective: str, agents: List[str],
-                        plan_only: bool = False) -> SwarmResult:
-    """
-    Execute a full swarm: generate work orders, run agents in parallel,
-    synthesize results.
-    """
+async def execute_swarm(objective: str, agents: List[str], client: GeminiClient,
+                        plan_only: bool = False, grounded: bool = False) -> SwarmResult:
+    """Execute a full swarm: generate work orders, run agents in parallel, synthesize."""
     start_time = time.time()
-    token_tracker = {"used": 0}
 
     print(f"\n{'='*60}")
     print(f"🐝 SWARM COMMANDER — Parallel Orchestration Engine")
     print(f"{'='*60}")
     print(f"📋 Objective: {objective}")
     print(f"👥 Agents: {', '.join(agents)}")
-    print(f"🔧 Model: {MODEL}")
+    print(f"🔧 Model: {client.default_model}")
     print(f"🛡️  Safety: max {MAX_RETRIES} retries, {TOKEN_BUDGET:,} token budget")
+    if grounded:
+        print(f"🌐 Grounding: ENABLED (agents will search the web)")
     print(f"{'='*60}\n")
 
-    # Generate work orders
     work_orders = generate_work_orders(objective, agents)
 
     if plan_only:
@@ -686,12 +596,8 @@ async def execute_swarm(objective: str, agents: List[str],
             for wo in work_orders
         )
         return SwarmResult(
-            objective=objective,
-            agent_results=[],
-            synthesis=plan_text,
-            total_tokens=0,
-            total_duration=0,
-            total_cost_usd=0,
+            objective=objective, agent_results=[], synthesis=plan_text,
+            total_tokens=0, total_duration=0, total_cost_usd=0,
         )
 
     # Group by batch
@@ -707,8 +613,7 @@ async def execute_swarm(objective: str, agents: List[str],
         print(f"\n⚡ BATCH {batch_num + 1}: Launching {len(batch)} agents in PARALLEL")
         print(f"   Agents: {', '.join(batch_agents)}")
 
-        # TRUE PARALLEL EXECUTION — all agents fire simultaneously
-        tasks = [execute_agent(wo, token_tracker) for wo in batch]
+        tasks = [execute_agent(wo, client, grounded=grounded) for wo in batch]
         results = await asyncio.gather(*tasks)
         all_results.extend(results)
 
@@ -720,34 +625,26 @@ async def execute_swarm(objective: str, agents: List[str],
     print(f"🧬 SYNTHESIZING {len(all_results)} agent outputs...")
     print(f"{'='*60}\n")
 
-    synthesis = await synthesize_results(objective, all_results, token_tracker)
+    synthesis = await synthesize_results(objective, all_results, client, grounded=grounded)
 
     total_duration = time.time() - start_time
-    total_tokens = token_tracker["used"]
+    usage = client.usage_summary()
 
-    # Estimate cost (Gemini 3 Flash pricing)
-    cost_per_million = 0.10  # $0.10/M for input on gemini-3-flash
-    total_cost = (total_tokens / 1_000_000) * cost_per_million
-
-    # Save outputs
-    save_outputs(objective, all_results, synthesis, total_tokens, total_duration, total_cost)
+    save_outputs(objective, all_results, synthesis, usage, total_duration, client.default_model)
 
     print(f"\n{'='*60}")
     print(f"🎯 SWARM COMPLETE")
     print(f"{'='*60}")
     print(f"⏱️  Duration:   {total_duration:.1f}s")
-    print(f"📊 Tokens:     {total_tokens:,}")
-    print(f"💰 Est. Cost:  ${total_cost:.4f}")
+    print(f"📊 Tokens:     {usage['total_tokens']:,}")
+    print(f"💰 Est. Cost:  ${usage['total_cost_usd']:.4f}")
     print(f"📂 Output:     {OUTPUT_DIR / 'latest'}")
     print(f"{'='*60}\n")
 
     return SwarmResult(
-        objective=objective,
-        agent_results=all_results,
-        synthesis=synthesis,
-        total_tokens=total_tokens,
-        total_duration=total_duration,
-        total_cost_usd=total_cost,
+        objective=objective, agent_results=all_results, synthesis=synthesis,
+        total_tokens=usage["total_tokens"], total_duration=total_duration,
+        total_cost_usd=usage["total_cost_usd"],
     )
 
 
@@ -756,14 +653,13 @@ async def execute_swarm(objective: str, agents: List[str],
 # --------------------------------------------------------------------------
 
 async def synthesize_results(objective: str, results: List[AgentResult],
-                             token_tracker: dict) -> str:
+                             client: GeminiClient, grounded: bool = False) -> str:
     """Synthesize all agent outputs into a unified deliverable."""
     successful = [r for r in results if r.status == "success"]
 
     if not successful:
         return "❌ No agents completed successfully. Cannot synthesize."
 
-    # Build synthesis prompt
     agent_outputs = "\n\n---\n\n".join(
         f"## {r.agent_name} (Confidence: inferred from output)\n\n{r.output}"
         for r in successful
@@ -771,7 +667,7 @@ async def synthesize_results(objective: str, results: List[AgentResult],
 
     prompt = f"""## SYNTHESIS TASK
 
-You are the Swarm Synthesizer. You have received outputs from {len(successful)} expert agents 
+You are the Swarm Synthesizer. You have received outputs from {len(successful)} expert agents
 working on the following objective:
 
 **OBJECTIVE:** {objective}
@@ -824,18 +720,22 @@ Below are their individual outputs. Your job is to:
     )
 
     try:
-        response, tokens = await call_gemini(prompt, system)
-        token_tracker["used"] += tokens
+        text, meta = await client.generate(
+            prompt,
+            system_instruction=system,
+            thinking_budget=2048,
+            grounding=grounded,
+        )
 
         # Challenge round: pressure-test conflicts when 2+ agents contributed
         if len(successful) >= 2:
             challenge = await run_challenge_round(
-                response, successful, objective, token_tracker
+                text, successful, objective, client
             )
             if challenge:
-                response += f"\n\n---\n\n{challenge}"
+                text += f"\n\n---\n\n{challenge}"
 
-        return response
+        return text
     except Exception as e:
         return f"❌ Synthesis failed: {e}\n\nRaw agent outputs preserved in individual files."
 
@@ -845,21 +745,14 @@ Below are their individual outputs. Your job is to:
 # --------------------------------------------------------------------------
 
 async def run_challenge_round(initial_synthesis: str, results: List[AgentResult],
-                              objective: str, token_tracker: dict) -> str:
-    """
-    Identify conflicts from the initial synthesis and run a targeted debate
-    resolution. One additional API call — not one per conflict.
-
-    Returns challenge round text to append, or empty string if no meaningful
-    conflicts or budget is exhausted.
-    """
-    if token_tracker["used"] >= TOKEN_BUDGET:
+                              objective: str, client: GeminiClient) -> str:
+    """Run a targeted debate resolution. One additional API call."""
+    if client.total_tokens_used >= TOKEN_BUDGET:
         print("  ⚠️  Skipping challenge round — token budget exhausted")
         return ""
 
     print("  🔥 Running challenge round...")
 
-    # Truncate each agent's output to keep the challenge call lean
     agent_positions = "\n\n".join(
         f"**{r.agent_name}**:\n{r.output[:800]}"
         for r in results
@@ -916,27 +809,12 @@ You are the Swarm Arbiter. You've received an initial synthesis from {len(result
     )
 
     try:
-        response, tokens = await call_gemini(prompt, system)
-        token_tracker["used"] += tokens
-        print(f"  🔥 Challenge round complete ({tokens:,} tokens)")
-        return response
+        text, meta = await client.generate(prompt, system_instruction=system)
+        print(f"  🔥 Challenge round complete ({meta.total_tokens:,} tokens)")
+        return text
     except Exception as e:
         print(f"  ⚠️  Challenge round failed (non-critical): {e}")
         return ""
-
-
-# --------------------------------------------------------------------------
-# AUTO-REFINEMENT (future scaling hook)
-# --------------------------------------------------------------------------
-# TODO: When high-volume client work requires automated quality control,
-# implement an auto-refinement loop here:
-#   1. Run synthesis through a validation prompt that scores output quality
-#   2. If score < threshold, identify the weakest agent output
-#   3. Re-run ONLY that agent with feedback from the validator
-#   4. Re-synthesize with the improved output
-# This avoids re-running the entire swarm for one weak link.
-# See: ESOS analysis in implementation_plan.md for design rationale.
-# --------------------------------------------------------------------------
 
 
 # --------------------------------------------------------------------------
@@ -944,32 +822,33 @@ You are the Swarm Arbiter. You've received an initial synthesis from {len(result
 # --------------------------------------------------------------------------
 
 def save_outputs(objective: str, results: List[AgentResult], synthesis: str,
-                 total_tokens: int, duration: float, cost: float):
+                 usage: dict, duration: float, model: str):
     """Save all outputs to the swarm_outputs directory."""
-    # Create timestamped directory
+    import shutil
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     run_dir = OUTPUT_DIR / timestamp
     agents_dir = run_dir / "agent_outputs"
     agents_dir.mkdir(parents=True, exist_ok=True)
 
-    # Also maintain a "latest" symlink
     latest = OUTPUT_DIR / "latest"
     if latest.is_symlink():
         latest.unlink()
     elif latest.exists():
-        import shutil
         shutil.rmtree(latest)
     latest.symlink_to(run_dir)
 
-    # Save individual agent outputs
     for result in results:
         agent_file = agents_dir / f"{result.agent_name}.md"
         status_emoji = "✅" if result.status == "success" else "❌"
         content = f"""# {result.agent_name} {status_emoji}
 
 **Status:** {result.status}
+**Model:** {result.model_used}
 **Tokens:** {result.tokens_used:,}
+**Cost:** ${result.estimated_cost:.4f}
 **Duration:** {result.duration_seconds:.1f}s
+**Thinking Tokens:** {result.thinking_tokens:,}
+**Grounding Queries:** {result.grounding_queries}
 """
         if result.error:
             content += f"**Error:** {result.error}\n"
@@ -977,31 +856,32 @@ def save_outputs(objective: str, results: List[AgentResult], synthesis: str,
             content += f"\n---\n\n{result.output}\n"
         agent_file.write_text(content)
 
-    # Save synthesis
-    synthesis_file = run_dir / "synthesis.md"
-    synthesis_file.write_text(synthesis)
+    (run_dir / "synthesis.md").write_text(synthesis)
 
-    # Save run metadata
     metadata = {
         "objective": objective,
         "timestamp": timestamp,
-        "model": MODEL,
-        "total_tokens": total_tokens,
+        "model": model,
+        "total_tokens": usage["total_tokens"],
+        "total_cost_usd": usage["total_cost_usd"],
         "duration_seconds": round(duration, 1),
-        "estimated_cost_usd": round(cost, 4),
+        "api_calls": usage["api_calls"],
         "agents": [
             {
                 "name": r.agent_name,
                 "status": r.status,
+                "model": r.model_used,
                 "tokens": r.tokens_used,
+                "cost": r.estimated_cost,
                 "duration": round(r.duration_seconds, 1),
+                "thinking_tokens": r.thinking_tokens,
+                "grounding_queries": r.grounding_queries,
                 "error": r.error,
             }
             for r in results
         ]
     }
-    meta_file = run_dir / "metadata.json"
-    meta_file.write_text(json.dumps(metadata, indent=2))
+    (run_dir / "metadata.json").write_text(json.dumps(metadata, indent=2))
 
 
 # --------------------------------------------------------------------------
@@ -1016,6 +896,7 @@ def main():
 Examples:
   python parallel_swarm.py "Analyze competitors in AI consulting"
   python parallel_swarm.py --agents "cardinal-mason,harry-dry" "Write 5 hooks"
+  python parallel_swarm.py --grounded "Research current market trends in AI consulting"
   python parallel_swarm.py --plan-only "Design a LinkedIn strategy"
   python parallel_swarm.py --max-agents 8 "Full product launch analysis"
         """
@@ -1024,7 +905,8 @@ Examples:
     parser.add_argument("--agents", help="Comma-separated agent names (auto-selects if omitted)")
     parser.add_argument("--max-agents", type=int, default=5, help="Max agents for auto-selection (default: 5)")
     parser.add_argument("--plan-only", action="store_true", help="Show plan without executing")
-    parser.add_argument("--model", help=f"Override model (default: {MODEL})")
+    parser.add_argument("--grounded", action="store_true",
+                        help="Enable Google Search grounding — agents search the web for real-time data")
     parser.add_argument("--mode", choices=["default", "mini-brief"], default="default",
                         help="Swarm mode: 'default' for generic, 'mini-brief' for 7-element brief production")
     parser.add_argument("--concept-mode", default="story-driven",
@@ -1037,18 +919,9 @@ Examples:
 
     args = parser.parse_args()
 
-    # Validate API key
-    if not API_KEY or API_KEY == "PASTE_YOUR_KEY_HERE":
-        print("❌ ERROR: No Gemini API key found.")
-        print(f"   Set GEMINI_API_KEY in {ENV_PATH}")
-        print("   Get your key at: https://aistudio.google.com")
-        sys.exit(1)
+    client = GeminiClient()
 
-    # Override model if specified via CLI
-    if args.model:
-        _apply_model_override(args.model)
-
-    # Mini-brief mode: use specialized work orders
+    # Mini-brief mode
     if args.mode == "mini-brief":
         research_brief = ""
         if args.context:
@@ -1060,21 +933,19 @@ Examples:
                 print(f"⚠️  Context file not found: {args.context}")
 
         work_orders = generate_mini_brief_work_orders(
-            concept=args.objective,
-            research_brief=research_brief,
-            mode=args.concept_mode,
-            platform=args.platform,
+            concept=args.objective, research_brief=research_brief,
+            mode=args.concept_mode, platform=args.platform,
         )
         agents = [wo.agent_name for wo in work_orders]
         print(f"\n🎯 Mini-Brief Mode: {args.concept_mode} | Platform: {args.platform}")
         print(f"👥 Expert constellation: {', '.join(dict.fromkeys(agents))}")
 
-        # Run with pre-built work orders (bypass generate_work_orders)
         result = asyncio.run(
-            _execute_swarm_with_orders(args.objective, work_orders, plan_only=args.plan_only)
+            _execute_swarm_with_orders(args.objective, work_orders, client,
+                                       plan_only=args.plan_only, grounded=args.grounded)
         )
     else:
-        # Default mode: select agents and generate generic work orders
+        # Default mode
         if args.agents:
             agents = [a.strip() for a in args.agents.split(",")]
             for a in agents:
@@ -1084,12 +955,10 @@ Examples:
             agents = auto_select_agents(args.objective, args.max_agents)
             print(f"\n🤖 Auto-selected agents: {', '.join(agents)}")
 
-        result = asyncio.run(execute_swarm(args.objective, agents, plan_only=args.plan_only))
-
-
-def _apply_model_override(model_name: str):
-    """Apply a model override at module level."""
-    pass
+        result = asyncio.run(
+            execute_swarm(args.objective, agents, client,
+                         plan_only=args.plan_only, grounded=args.grounded)
+        )
 
 
 if __name__ == "__main__":

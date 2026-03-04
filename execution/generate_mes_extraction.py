@@ -1,67 +1,61 @@
-import os
+#!/usr/bin/env python3
+"""
+Generate MES 3.0 extraction report from a transcript using shared Gemini client.
+
+Usage:
+    python execution/generate_mes_extraction.py <expert_name> <transcript_filepath>
+"""
+
+import asyncio
 import sys
-import json
 from pathlib import Path
-from google import genai
-from google.genai import types
 
-# Load env
-ENV_PATH = Path("/Users/farricecain/Google Antigravity/.env")
-if ENV_PATH.exists():
-    for line in ENV_PATH.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "=" in line:
-            key, _, value = line.partition("=")
-            os.environ.setdefault(key.strip(), value.strip())
+# Shared client
+sys.path.insert(0, str(Path(__file__).parent))
+from gemini_client import GeminiClient, load_env
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
-if not API_KEY:
-    print("Error: GEMINI_API_KEY not found in .env")
-    exit(1)
+load_env()
 
-def call_gemini(prompt: str, transcript: str):
-    client = genai.Client(api_key=API_KEY)
-    try:
-        response = client.models.generate_content(
-            model=MODEL,
-            contents=[
-                prompt,
-                f"TRANSCRIPT START\n\n{transcript}\n\nTRANSCRIPT END"
-            ],
-            config=types.GenerateContentConfig(
-                temperature=0.2,
-                system_instruction="You are a master knowledge extractor specializing in the MES 3.0 methodology. VIRTUOSO MANDATE: Optimize for extreme Information Density and precision, not just length. Do not output surface-level content. ANTI-PATTERN LOCK: Absorb the mechanics of the requested frameworks but do not lazily mimic structural templates or metaphors. Apply true creative intuition, taste, and paradigm-shifting nuance."
-            )
-        )
-        return response.text
-    except Exception as e:
-        print(f"Error calling Gemini via SDK: {e}")
-        return None
+SYSTEM_INSTRUCTION = (
+    "You are a master knowledge extractor specializing in the MES 3.0 methodology. "
+    "VIRTUOSO MANDATE: Optimize for extreme Information Density and precision, not just length. "
+    "Do not output surface-level content. ANTI-PATTERN LOCK: Absorb the mechanics of the requested "
+    "frameworks but do not lazily mimic structural templates or metaphors. Apply true creative "
+    "intuition, taste, and paradigm-shifting nuance."
+)
 
-def main():
+
+def strip_code_fences(text: str) -> str:
+    """Remove markdown code block wrappers from API response."""
+    lines = text.splitlines()
+    if lines and lines[0].startswith("```"):
+        lines = lines[1:]
+    if lines and lines[-1].strip() == "```":
+        lines = lines[:-1]
+    return "\n".join(lines)
+
+
+async def main():
     if len(sys.argv) < 3:
         print("Usage: python generate_mes_extraction.py <expert_name> <transcript_filepath>")
         sys.exit(1)
-        
+
     expert_name = sys.argv[1]
     transcript_path = Path(sys.argv[2])
-    
-    # Deriving output path in the same dir
     output_path = transcript_path.parent / "extraction-report.md"
-    
+
     if not transcript_path.exists():
         print(f"Transcript not found at {transcript_path}")
         return
-        
+
     transcript = transcript_path.read_text()
     print(f"Transcript loaded: {len(transcript.split())} words.")
-    
+
     prompt = f"""
 Perform a Standard Tier Master Extraction (MES 3.0) on the provided transcript of {expert_name}.
 Output your response completely as a Markdown document ready to save as extraction-report.md.
 
-**VIRTUOSO MANDATE & ANTI-PATTERN LOCK**: 
+**VIRTUOSO MANDATE & ANTI-PATTERN LOCK**:
 1. Optimize for exact, lethal precision and extreme information density. Do not use 1,000 words if 200 words of profound insight will suffice, but NEVER cut corners to save tokens. **Formatting for Density**: Dense text requires high-contrast formatting. You MUST aggressively use bullet points, bolding, and whitespace so the density remains readable.
 2. Beware of "pattern lock". Extract the underlying physics and mental models of the expert, but do not lazily map them to generic consulting frameworks. Demonstrate true creative taste and intuition in your analysis.
 3. **The Gravedigger Safeguard (Feeling Density)**: When discarding the skin of an example to invent a new scenario or explain a framework, you must explicitly build a human-centric "gravedigger" detail. Density cannot mean sterile. Concrete emotional resonance must scale with information density.
@@ -118,29 +112,38 @@ For each pattern identified:
 - **30-Day Integration**: [Full system deployment]
 
 Emphasize a practitioner-first mode. This extraction must yield production-grade frameworks that can be directly mapped to an AI agent and skill repository. Focus on copywriting, persuasion, high-status positioning, and NLP. Do not write anything outside of the markdown document (e.g., no conversational intro/outro).
+
+TRANSCRIPT START
+
+{transcript}
+
+TRANSCRIPT END
 """
-    
-    print("Calling Gemini API...")
-    report = call_gemini(prompt, transcript)
-    
-    if report:
+
+    client = GeminiClient()
+    print(f"Calling Gemini API (model: {client.default_model})...")
+
+    try:
+        text, meta = await client.generate(
+            prompt,
+            system_instruction=SYSTEM_INSTRUCTION,
+            temperature=0.2,
+            max_output_tokens=16384,
+            thinking_budget=4096,
+        )
+
+        report = strip_code_fences(text)
         output_path.parent.mkdir(parents=True, exist_ok=True)
-        # Clean up any wrapping markdown code blocks from the API response
-        if report.startswith("```md") or report.startswith("```markdown"):
-            lines = report.splitlines()
-            if lines[0].startswith("```"):
-                report = "\n".join(lines[1:])
-            if report.endswith("```"):
-                report = report[:-3]
-        elif report.startswith("```"):
-            lines = report.splitlines()
-            if lines[0].startswith("```"):
-                report = "\n".join(lines[1:])
-            if report.endswith("```"):
-                report = report[:-3]
-                
         output_path.write_text(report.strip() + "\n")
+
         print(f"Successfully generated extraction report at {output_path}")
+        usage = client.usage_summary()
+        print(f"Tokens: {usage['total_tokens']:,} | Cost: ${usage['total_cost_usd']:.4f}")
+
+    except Exception as e:
+        print(f"Error calling Gemini: {e}")
+        sys.exit(1)
+
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())

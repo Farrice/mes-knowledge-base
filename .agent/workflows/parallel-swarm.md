@@ -33,10 +33,39 @@ python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --max-
 python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --plan-only "YOUR OBJECTIVE HERE"
 ```
 
-5. **Research-first mode** — ground the swarm in real data before firing:
+5. **Grounded mode** — agents self-search Google during generation:
+```bash
+python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --grounded "YOUR OBJECTIVE HERE"
+```
+
+6. **Research-first mode** — ground the swarm in real data before firing:
 ```
 /parallel-swarm --research "YOUR OBJECTIVE HERE"
 ```
+
+## Grounded Mode (`--grounded`)
+
+**New in the shared Gemini client upgrade.** When `--grounded` is passed, every agent call enables Google Search grounding at the API level. The model auto-generates search queries, retrieves real-time data, and cites sources inline — no separate research phase needed.
+
+### How It Works
+- Each Gemini agent gets `tools=[GoogleSearch()]` in its config
+- The model decides when to search based on its prompt — you don't pre-define queries
+- Grounding metadata (number of search queries per agent) is logged in `metadata.json`
+- The synthesis step is also grounded, so it can cross-reference web data
+
+### `--grounded` vs `--research`
+
+| | `--grounded` | `--research` |
+|---|---|---|
+| **How** | Gemini's native Google Search tool | Claude sub-agents run WebSearch pre-phase |
+| **Cost** | ~$0.02-0.05 extra (search queries are cheap) | +$0.15-0.35 (2 Claude agents) |
+| **Speed** | No extra step — agents search inline | +30-60 seconds pre-research phase |
+| **Quality** | Agents search based on their own expert reasoning | Pre-curated data injected uniformly |
+| **Best for** | Most use cases, lightweight grounding | Heavy research, competitive intel |
+
+**Recommendation:** Start with `--grounded`. Use `--research` only when you need deep, curated market intelligence that benefits from Claude's tool-use reasoning.
+
+---
 
 ## Research-First Mode (`--research`)
 
@@ -84,8 +113,8 @@ python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --plan
    Run `parallel_swarm.py` as normal, but with the enriched prompts.
 
 ### Cost Impact
-- Standard swarm: ~$0.15 (5 agents)
-- Research-first swarm: ~$0.15 + 2 Claude agent calls ≈ $0.30-0.50 total
+- Standard swarm: ~$0.05-0.08 (5 agents on flash tier)
+- Research-first swarm: ~$0.08 + 2 Claude agent calls ≈ $0.25-0.45 total
 - Still dramatically cheaper than running 5 Claude agents with full tool access
 
 ### When to Use `--research`
@@ -137,7 +166,16 @@ Before finalizing any content that references Farrice's background:
 ## Available Agents
 cardinal-mason, harry-dry, seena-rez, samuel-thompson, jim-oshaughnessy, jeremy-miner, michael-bernoff, shaan-puri, kallaway, oren, dan-koe, lara-acosta, erica-mallet, lulu-cheng-meservey, seth-godin, tobias-allen, nicolas-cole, nathan-gotch, adam-enfroy, daniel-priestley, tom-noske, sabri-suby, rory-sutherland, monk-ai, ali-abdaal, nick-saraev, david-bayer, fareed-zakaria, jonathan-franzen, lucas-alpay, donald-miller
 
-## Cost Estimate (Gemini 3 Flash)
-- 5-agent swarm: ~$0.15
-- 10-agent swarm: ~$0.35
-- Even running 10 swarms/day ≈ $3.50/day max
+## Cost Estimates (Shared Gemini Client)
+
+| Mode | 5 agents | 10 agents |
+|------|----------|-----------|
+| Standard (flash) | ~$0.05-0.08 | ~$0.12-0.18 |
+| Grounded (`--grounded`) | ~$0.08-0.12 | ~$0.18-0.25 |
+| Research-first (`--research`) | ~$0.25-0.45 | ~$0.35-0.55 |
+
+**Synthesis step** uses pro tier (~$0.02-0.05 extra) with thinking enabled for deeper cross-referencing.
+
+Model tiers used: `gemini-2.0-flash` (agents), `gemini-2.5-pro` (synthesis). Override in `.env`.
+
+Even running 10 grounded swarms/day ≈ $2.50/day max.

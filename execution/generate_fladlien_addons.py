@@ -1,25 +1,24 @@
-import asyncio
-import os
-import sys
-import json
-from dataclasses import dataclass
-from typing import List
-from google import genai
-def load_env_file(filepath=".env"):
-    try:
-        with open(filepath, "r") as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith("#"):
-                    continue
-                key, val = line.split("=", 1)
-                key = key.strip()
-                val = val.strip().strip("'").strip('"')
-                os.environ[key] = val
-    except Exception as e:
-        print(f"Warning: Could not load {filepath} - {e}")
+#!/usr/bin/env python3
+"""
+Generate Crown Jewel prompts for Jason Fladlien's marketing skill.
 
-load_env_file()
+Uses the shared GeminiClient for consistent API access with thinking mode
+enabled for deep extraction analysis.
+"""
+
+import asyncio
+import sys
+from dataclasses import dataclass
+from pathlib import Path
+
+# Shared client
+sys.path.insert(0, str(Path(__file__).parent))
+from gemini_client import GeminiClient, load_env
+
+load_env()
+
+BASE_PATH = Path(__file__).parent.parent
+
 
 @dataclass
 class PromptDef:
@@ -77,64 +76,65 @@ EXTRACTION REPORT CONTEXT:
 ======================================================
 """
 
-async def generate_prompt(prompt_def: PromptDef, extraction_content: str, model_name: str, client: genai.Client):
-    print(f"⏳ Generating {prompt_def.slug}...")
+
+def strip_code_fences(text: str) -> str:
+    """Remove markdown code block wrappers from API response."""
+    lines = text.splitlines()
+    if lines and lines[0].startswith("```"):
+        lines = lines[1:]
+    if lines and lines[-1].strip() == "```":
+        lines = lines[:-1]
+    return "\n".join(lines)
+
+
+async def generate_prompt(prompt_def: PromptDef, extraction_content: str,
+                          client: GeminiClient):
+    print(f"  ⏳ Generating {prompt_def.slug}...")
     prompt_text = USER_PROMPT_TEMPLATE.format(
         prompt_slug=prompt_def.slug,
         prompt_desc=prompt_def.description,
         extraction_content=extraction_content
     )
-    
+
     try:
-        response = await asyncio.to_thread(
-            client.models.generate_content,
-            model=model_name,
-            contents=prompt_text,
-            config=genai.types.GenerateContentConfig(
-                temperature=0.7,
-            )
+        text, meta = await client.generate(
+            prompt_text,
+            temperature=0.7,
+            max_output_tokens=16384,
+            thinking_budget=2048,
         )
-        content = response.text
-        if content.startswith("```markdown"):
-            content = content[11:]
-        elif content.startswith("```"):
-            content = content[3:]
-        if content.endswith("```"):
-            content = content[:-3]
-            
-        output_path = f"/Users/farricecain/Google Antigravity/skills/jason-fladlien-marketing/references/prompts/{prompt_def.slug}.md"
-        with open(output_path, "w") as f:
-            f.write(content.strip() + "\\n")
-        print(f"✅ Saved {prompt_def.slug}")
+        content = strip_code_fences(text)
+
+        output_path = BASE_PATH / "skills" / "jason-fladlien-marketing" / "references" / "prompts" / f"{prompt_def.slug}.md"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(content.strip() + "\n")
+        print(f"  ✅ Saved {prompt_def.slug} ({meta.total_tokens} tokens, ${meta.estimated_cost_usd:.4f})")
     except Exception as e:
-        print(f"❌ Failed {prompt_def.slug}: {e}")
+        print(f"  ❌ Failed {prompt_def.slug}: {e}")
+
 
 async def main():
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        print("Missing GEMINI_API_KEY")
+    client = GeminiClient()
+
+    extraction_path = BASE_PATH / "extractions" / "Jason Fladlien" / "extraction-report.md"
+    if not extraction_path.exists():
+        print(f"❌ Extraction not found: {extraction_path}")
         sys.exit(1)
-        
-    client = genai.Client(api_key=api_key)
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
-    
-    with open("/Users/farricecain/Google Antigravity/extractions/Jason Fladlien/extraction-report.md", "r") as f:
-        extraction_content = f.read()
+    extraction_content = extraction_path.read_text()
 
     if len(sys.argv) > 1:
         batch_id = int(sys.argv[1])
-        if batch_id == 0:
-            batch = PROMPTS[0:5]
-        else:
-            batch = PROMPTS[5:10]
+        batch = PROMPTS[0:5] if batch_id == 0 else PROMPTS[5:10]
     else:
         batch = PROMPTS
-        
-    print(f"Running generation for {len(batch)} prompts...")
-    tasks = [generate_prompt(p, extraction_content, model_name, client) for p in batch]
+
+    print(f"Running generation for {len(batch)} prompts (model: {client.default_model})...")
+    tasks = [generate_prompt(p, extraction_content, client) for p in batch]
     await asyncio.gather(*tasks)
-    
-    print("Done!")
+
+    usage = client.usage_summary()
+    print(f"\nDone! {usage['api_calls']} calls, {usage['total_tokens']} tokens, ${usage['total_cost_usd']:.4f}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())

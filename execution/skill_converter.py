@@ -22,7 +22,6 @@ Usage:
 import asyncio
 import argparse
 import json
-import os
 import re
 import shutil
 import sys
@@ -31,27 +30,15 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
 
-# --------------------------------------------------------------------------
-# Environment Setup
-# --------------------------------------------------------------------------
-WORKSPACE = Path("/Users/farricecain/Google Antigravity")
-ENV_PATH = WORKSPACE / ".env"
+# Shared client
+sys.path.insert(0, str(Path(__file__).parent))
+from gemini_client import GeminiClient, load_env
 
-if ENV_PATH.exists():
-    for line in ENV_PATH.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "=" in line:
-            key, _, value = line.partition("=")
-            os.environ.setdefault(key.strip(), value.strip())
+load_env()
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
-MAX_RETRIES = 2
+BASE_PATH = Path(__file__).parent.parent
 BATCH_SIZE = 8  # skills processed in parallel per batch
 MAX_CONCURRENT_API = 15  # max concurrent Gemini calls
-
-from google import genai
-from google.genai import types
 
 # Semaphore for API concurrency control
 api_semaphore = asyncio.Semaphore(MAX_CONCURRENT_API)
@@ -82,7 +69,7 @@ class SkillInfo:
     skill_md: str
     genius_patterns: str
     hidden_knowledge: str
-    prompts: Dict[str, str]  # filename -> content
+    prompts: Dict[str, str]
     prompt_count: int
     has_extraction: bool
     extraction_path: Optional[Path]
@@ -93,7 +80,7 @@ class SkillInfo:
 class WorkflowPlan:
     """Plan for converting a skill into workflows."""
     skill_name: str
-    workflows: List[Dict]  # [{name, slug, produces, prompts_consolidated, description}]
+    workflows: List[Dict]
 
 @dataclass
 class ConversionResult:
@@ -102,42 +89,9 @@ class ConversionResult:
     status: str  # success, failed, skipped
     workflows_created: int
     tokens_used: int
+    estimated_cost: float
     duration_seconds: float
     error: Optional[str] = None
-
-
-# --------------------------------------------------------------------------
-# Gemini API
-# --------------------------------------------------------------------------
-
-async def call_gemini(prompt: str, system_instruction: str = "",
-                      retries: int = MAX_RETRIES, temperature: float = 0.5) -> Tuple[str, int]:
-    """Make a single Gemini API call. Returns (response_text, tokens_used)."""
-    async with api_semaphore:
-        client = genai.Client(api_key=API_KEY)
-        config = types.GenerateContentConfig(
-            temperature=temperature,
-            max_output_tokens=16384,
-        )
-        if system_instruction:
-            config.system_instruction = system_instruction
-
-        for attempt in range(retries + 1):
-            try:
-                response = await client.aio.models.generate_content(
-                    model=MODEL, contents=prompt, config=config
-                )
-                tokens = 0
-                if response.usage_metadata:
-                    tokens = response.usage_metadata.total_token_count
-                return response.text, tokens
-            except Exception as e:
-                if attempt < retries:
-                    wait = 2 ** (attempt + 1)
-                    print(f"    ⚠️  Retry {attempt + 1}/{retries} ({wait}s): {e}")
-                    await asyncio.sleep(wait)
-                else:
-                    raise
 
 
 # --------------------------------------------------------------------------
@@ -146,7 +100,7 @@ async def call_gemini(prompt: str, system_instruction: str = "",
 
 def discover_expert_skills() -> List[Path]:
     """Find all expert skill directories."""
-    skills_dir = WORKSPACE / "skills"
+    skills_dir = BASE_PATH / "skills"
     expert_skills = []
     for d in sorted(skills_dir.iterdir()):
         if not d.is_dir():
@@ -155,7 +109,6 @@ def discover_expert_skills() -> List[Path]:
             continue
         if d.name.startswith("_") or d.name.startswith("."):
             continue
-        # Must have SKILL.md to be a real skill
         if not (d / "SKILL.md").exists():
             continue
         expert_skills.append(d)
@@ -202,19 +155,17 @@ def load_skill(skill_path: Path) -> SkillInfo:
                 if len(parts) > 1:
                     expert_domain = parts[1].strip()
             break
-    # Fallback: derive from directory name
     if not expert_name:
         expert_name = skill_path.name.replace("-", " ").title()
 
     # Check for extraction report
     extraction_path = None
     has_extraction = False
-    # Try common extraction paths
     slug = expert_name.lower().replace(" ", "-")
     for candidate in [
-        WORKSPACE / "extractions" / slug,
-        WORKSPACE / "extractions" / skill_path.name.split("-")[0],
-        WORKSPACE / "extractions" / "-".join(skill_path.name.split("-")[:2]),
+        BASE_PATH / "extractions" / slug,
+        BASE_PATH / "extractions" / skill_path.name.split("-")[0],
+        BASE_PATH / "extractions" / "-".join(skill_path.name.split("-")[:2]),
     ]:
         if candidate.exists() and (candidate / "extraction-report.md").exists():
             extraction_path = candidate / "extraction-report.md"
@@ -222,17 +173,11 @@ def load_skill(skill_path: Path) -> SkillInfo:
             break
 
     return SkillInfo(
-        name=skill_path.name,
-        path=skill_path,
-        skill_md=skill_md,
-        genius_patterns=genius_patterns,
-        hidden_knowledge=hidden_knowledge,
-        prompts=prompts,
-        prompt_count=len(prompts),
-        has_extraction=has_extraction,
-        extraction_path=extraction_path,
-        expert_name=expert_name,
-        expert_domain=expert_domain,
+        name=skill_path.name, path=skill_path, skill_md=skill_md,
+        genius_patterns=genius_patterns, hidden_knowledge=hidden_knowledge,
+        prompts=prompts, prompt_count=len(prompts),
+        has_extraction=has_extraction, extraction_path=extraction_path,
+        expert_name=expert_name, expert_domain=expert_domain,
     )
 
 
@@ -249,9 +194,7 @@ def merge_genius_file(skill: SkillInfo) -> str:
     sections.append("> principles that make this expert's output actually work.\n")
 
     if skill.genius_patterns:
-        # Extract just the pattern content (skip any redundant title)
         content = skill.genius_patterns
-        # Remove leading "# Genius Patterns — ..." header if present
         lines = content.splitlines()
         if lines and lines[0].startswith("# "):
             lines = lines[1:]
@@ -281,18 +224,13 @@ def execute_deterministic_merge(skill: SkillInfo, dry_run: bool = False) -> bool
     """Phase 1: Create genius.md, workflows dir, archive old prompts."""
     skill_path = skill.path
 
-    # 1. Create genius.md
     genius_content = merge_genius_file(skill)
-    genius_path = skill_path / "genius.md"
     if not dry_run:
-        genius_path.write_text(genius_content)
+        (skill_path / "genius.md").write_text(genius_content)
 
-    # 2. Create workflows directory
-    workflows_dir = skill_path / "workflows"
     if not dry_run:
-        workflows_dir.mkdir(exist_ok=True)
+        (skill_path / "workflows").mkdir(exist_ok=True)
 
-    # 3. Archive old prompts (move to _legacy-prompts)
     prompts_dir = skill_path / "references" / "prompts"
     legacy_dir = skill_path / "references" / "_legacy-prompts"
     if prompts_dir.exists() and any(prompts_dir.iterdir()):
@@ -361,12 +299,20 @@ Generate a single, complete workflow file that consolidates multiple atomic prom
 """
 
 
-async def plan_workflows(skill: SkillInfo) -> WorkflowPlan:
+def strip_code_fences(text: str) -> str:
+    """Remove markdown code block wrappers from API response."""
+    lines = text.splitlines()
+    if lines and lines[0].startswith("```"):
+        lines = lines[1:]
+    if lines and lines[-1].strip() == "```":
+        lines = lines[:-1]
+    return "\n".join(lines)
+
+
+async def plan_workflows(skill: SkillInfo, client: GeminiClient) -> WorkflowPlan:
     """Use Gemini to identify 3-5 natural workflows from the prompt collection."""
-    # Build prompt inventory (names + descriptions, not full content — saves tokens)
     prompt_inventory = []
     for fname, content in skill.prompts.items():
-        # Extract name and description from frontmatter or first heading
         desc = fname
         lines = content.splitlines()
         for line in lines:
@@ -380,7 +326,6 @@ async def plan_workflows(skill: SkillInfo) -> WorkflowPlan:
 
     prompt_list = "\n".join(prompt_inventory) if prompt_inventory else "No prompts found."
 
-    # Build context
     prompt = f"""## SKILL TO CONVERT
 **Expert**: {skill.expert_name}
 **Domain**: {skill.expert_domain}
@@ -408,43 +353,37 @@ If there are 26+ prompts, create 4-5 workflows.
 
 Output ONLY valid JSON."""
 
-    response, tokens = await call_gemini(prompt, PLANNER_SYSTEM)
+    async with api_semaphore:
+        text, meta = await client.generate(
+            prompt,
+            system_instruction=PLANNER_SYSTEM,
+            temperature=0.5,
+            thinking_budget=2048,
+        )
 
-    # Parse JSON response (strip markdown fences if present)
-    cleaned = response.strip()
-    if cleaned.startswith("```"):
-        lines = cleaned.splitlines()
-        if lines[0].startswith("```"):
-            lines = lines[1:]
-        if lines and lines[-1].strip() == "```":
-            lines = lines[:-1]
-        cleaned = "\n".join(lines)
-
+    # Parse JSON response
+    cleaned = strip_code_fences(text.strip())
     try:
         plan_data = json.loads(cleaned)
     except json.JSONDecodeError:
-        # Try to extract JSON from response
         match = re.search(r'\{[\s\S]*\}', cleaned)
         if match:
             plan_data = json.loads(match.group())
         else:
             raise ValueError(f"Could not parse workflow plan JSON for {skill.name}")
 
-    return WorkflowPlan(
-        skill_name=skill.name,
-        workflows=plan_data.get("workflows", []),
-    )
+    return WorkflowPlan(skill_name=skill.name, workflows=plan_data.get("workflows", []))
 
 
-async def generate_workflow(skill: SkillInfo, workflow: Dict, genius_content: str) -> Tuple[str, int]:
-    """Generate a single workflow file by consolidating relevant prompts."""
-    # Gather the full content of prompts being consolidated
+async def generate_workflow(skill: SkillInfo, workflow: Dict,
+                            genius_content: str, client: GeminiClient) -> Tuple[str, int, float]:
+    """Generate a single workflow file by consolidating relevant prompts.
+    Returns (content, tokens_used, cost)."""
     consolidated_prompts = []
     for fname in workflow.get("prompts_consolidated", []):
         if fname in skill.prompts:
             consolidated_prompts.append(f"### Source: {fname}\n{skill.prompts[fname]}")
         else:
-            # Try matching without number prefix
             for actual_fname, content in skill.prompts.items():
                 if fname.replace(".md", "") in actual_fname:
                     consolidated_prompts.append(f"### Source: {actual_fname}\n{content}")
@@ -452,7 +391,6 @@ async def generate_workflow(skill: SkillInfo, workflow: Dict, genius_content: st
 
     prompts_content = "\n\n---\n\n".join(consolidated_prompts) if consolidated_prompts else "No source prompts available."
 
-    # Truncate if too long (keep under ~30K tokens input)
     if len(prompts_content) > 60000:
         prompts_content = prompts_content[:60000] + "\n\n[... truncated for token budget ...]"
 
@@ -513,19 +451,16 @@ Key requirements:
 
 Generate the complete workflow file now. Output ONLY the file content."""
 
-    response, tokens = await call_gemini(prompt, WORKFLOW_SYSTEM)
+    async with api_semaphore:
+        text, meta = await client.generate(
+            prompt,
+            system_instruction=WORKFLOW_SYSTEM,
+            temperature=0.5,
+            max_output_tokens=16384,
+        )
 
-    # Clean output
-    output = response.strip()
-    if output.startswith("```"):
-        lines = output.splitlines()
-        if lines[0].startswith("```"):
-            lines = lines[1:]
-        if lines and lines[-1].strip() == "```":
-            lines = lines[:-1]
-        output = "\n".join(lines)
-
-    return output.strip() + "\n", tokens
+    output = strip_code_fences(text.strip())
+    return output + "\n", meta.total_tokens, meta.estimated_cost_usd
 
 
 def generate_new_skill_md(skill: SkillInfo, plan: WorkflowPlan) -> str:
@@ -541,14 +476,12 @@ def generate_new_skill_md(skill: SkillInfo, plan: WorkflowPlan) -> str:
     workflows_str = "\n".join(workflows_table)
     wf_count = len(plan.workflows)
 
-    # Extract description from old SKILL.md frontmatter
     description = ""
     for line in skill.skill_md.splitlines():
         if line.strip().startswith("description:"):
             description = line.split(":", 1)[1].strip().strip('"').strip("'")
             break
 
-    # Extract overview paragraph from old SKILL.md
     overview = ""
     in_overview = False
     for line in skill.skill_md.splitlines():
@@ -563,13 +496,11 @@ def generate_new_skill_md(skill: SkillInfo, plan: WorkflowPlan) -> str:
     if not overview:
         overview = f"{skill.expert_name}'s core methodology, extracted and deployed as end-to-end completion workflows."
 
-    # Build title: include domain only if present
     title = skill.expert_name
     if skill.expert_domain:
         title = f"{skill.expert_name} — {skill.expert_domain}"
 
-    # Keep it dense
-    content = f"""---
+    return f"""---
 name: "{title}"
 description: "{description}"
 version: "2.0"
@@ -592,17 +523,17 @@ workflows: {wf_count}
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
 """
 
-    return content
-
 
 # --------------------------------------------------------------------------
 # Full Conversion Pipeline
 # --------------------------------------------------------------------------
 
-async def convert_skill(skill: SkillInfo, dry_run: bool = False, merge_only: bool = False) -> ConversionResult:
+async def convert_skill(skill: SkillInfo, client: GeminiClient,
+                        dry_run: bool = False, merge_only: bool = False) -> ConversionResult:
     """Convert a single skill from prompt-library to completion-engine format."""
     start_time = time.time()
     total_tokens = 0
+    total_cost = 0.0
     skill_name = skill.name
 
     print(f"\n  📦 {skill_name} ({skill.prompt_count} prompts)")
@@ -617,18 +548,15 @@ async def convert_skill(skill: SkillInfo, dry_run: bool = False, merge_only: boo
             if not dry_run:
                 (skill.path / "genius.md").write_text(genius_content)
             duration = time.time() - start_time
-            return ConversionResult(skill_name, "success", 0, 0, duration)
+            return ConversionResult(skill_name, "success", 0, 0, 0.0, duration)
 
         # Phase 2: Plan workflows
-        plan = await plan_workflows(skill)
+        plan = await plan_workflows(skill, client)
         wf_count = len(plan.workflows)
         print(f"    📋 Planned {wf_count} workflows")
 
         # Phase 3: Generate workflow files in parallel
-        tasks = []
-        for w in plan.workflows:
-            tasks.append(generate_workflow(skill, w, genius_content))
-
+        tasks = [generate_workflow(skill, w, genius_content, client) for w in plan.workflows]
         results = await asyncio.gather(*tasks, return_exceptions=True)
 
         # Write files
@@ -638,8 +566,9 @@ async def convert_skill(skill: SkillInfo, dry_run: bool = False, merge_only: boo
                 print(f"    ❌ Failed: {w.get('slug')}: {result}")
                 continue
 
-            content, tokens = result
+            content, tokens, cost = result
             total_tokens += tokens
+            total_cost += cost
             slug = w.get("slug", f"0{workflows_created + 1}-workflow")
 
             if not dry_run:
@@ -653,7 +582,6 @@ async def convert_skill(skill: SkillInfo, dry_run: bool = False, merge_only: boo
         # Write new SKILL.md
         new_skill_md = generate_new_skill_md(skill, plan)
         if not dry_run:
-            # Backup old SKILL.md
             old_path = skill.path / "SKILL.md.old"
             if not old_path.exists():
                 shutil.copy2(skill.path / "SKILL.md", old_path)
@@ -661,19 +589,20 @@ async def convert_skill(skill: SkillInfo, dry_run: bool = False, merge_only: boo
         print(f"    ✅ SKILL.md rewritten")
 
         duration = time.time() - start_time
-        print(f"    ⚡ Done in {duration:.1f}s ({total_tokens:,} tokens)")
+        print(f"    ⚡ Done in {duration:.1f}s ({total_tokens:,} tokens, ${total_cost:.4f})")
 
-        return ConversionResult(skill_name, "success", workflows_created, total_tokens, duration)
+        return ConversionResult(skill_name, "success", workflows_created, total_tokens, total_cost, duration)
 
     except Exception as e:
         duration = time.time() - start_time
         print(f"    ❌ FAILED: {e}")
-        return ConversionResult(skill_name, "failed", 0, total_tokens, duration, str(e))
+        return ConversionResult(skill_name, "failed", 0, total_tokens, total_cost, duration, str(e))
 
 
-async def convert_batch(skills: List[SkillInfo], dry_run: bool = False, merge_only: bool = False) -> List[ConversionResult]:
+async def convert_batch(skills: List[SkillInfo], client: GeminiClient,
+                        dry_run: bool = False, merge_only: bool = False) -> List[ConversionResult]:
     """Convert a batch of skills in parallel."""
-    tasks = [convert_skill(s, dry_run=dry_run, merge_only=merge_only) for s in skills]
+    tasks = [convert_skill(s, client, dry_run=dry_run, merge_only=merge_only) for s in skills]
     return await asyncio.gather(*tasks)
 
 
@@ -684,15 +613,17 @@ async def run_full_conversion(
     merge_only: bool = False,
 ):
     """Run the full conversion pipeline."""
+    client = GeminiClient()
+
     print(f"\n{'='*60}")
     print(f"  SKILL CONVERTER — Completion Engine Migration")
-    print(f"  Model: {MODEL}")
+    print(f"  Model: {client.default_model}")
     print(f"  Mode: {'plan-only' if plan_only else 'dry-run' if dry_run else 'merge-only' if merge_only else 'LIVE'}")
     print(f"{'='*60}\n")
 
     # Discover skills
     if target_skill:
-        skill_path = WORKSPACE / target_skill if not Path(target_skill).is_absolute() else Path(target_skill)
+        skill_path = BASE_PATH / target_skill if not Path(target_skill).is_absolute() else Path(target_skill)
         if not skill_path.exists():
             print(f"❌ Skill not found: {skill_path}")
             sys.exit(1)
@@ -737,10 +668,9 @@ async def run_full_conversion(
         print(f"  BATCH {batch_num}/{total_batches}")
         print(f"{'─'*40}")
 
-        results = await convert_batch(batch, dry_run=dry_run, merge_only=merge_only)
+        results = await convert_batch(batch, client, dry_run=dry_run, merge_only=merge_only)
         all_results.extend(results)
 
-        # Brief pause between batches to avoid rate limits
         if i + BATCH_SIZE < len(skills):
             await asyncio.sleep(2)
 
@@ -750,12 +680,7 @@ async def run_full_conversion(
     failed = [r for r in all_results if r.status == "failed"]
     total_tokens = sum(r.tokens_used for r in all_results)
     total_workflows = sum(r.workflows_created for r in all_results)
-
-    # Cost estimate
-    cost_per_1m_input = 0.10
-    cost_per_1m_output = 0.40
-    estimated_cost = (total_tokens * 0.6 * cost_per_1m_input / 1_000_000) + \
-                     (total_tokens * 0.4 * cost_per_1m_output / 1_000_000)
+    usage = client.usage_summary()
 
     print(f"\n{'='*60}")
     print(f"  CONVERSION COMPLETE")
@@ -766,34 +691,32 @@ async def run_full_conversion(
         for r in failed:
             print(f"     → {r.skill_name}: {r.error}")
     print(f"  📦 Workflows created: {total_workflows}")
-    print(f"  📊 Total tokens: {total_tokens:,}")
-    print(f"  💰 Estimated cost: ${estimated_cost:.4f}")
+    print(f"  📊 Total tokens: {usage['total_tokens']:,}")
+    print(f"  💰 Estimated cost: ${usage['total_cost_usd']:.4f}")
     print(f"  ⏱️  Total time: {total_time:.1f}s ({total_time/60:.1f}min)")
     print(f"{'='*60}\n")
 
     # Write conversion log
     log = {
         "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
-        "model": MODEL,
+        "model": client.default_model,
         "skills_converted": len(successful),
         "skills_failed": len(failed),
         "workflows_created": total_workflows,
-        "total_tokens": total_tokens,
-        "estimated_cost": estimated_cost,
+        "total_tokens": usage["total_tokens"],
+        "estimated_cost": usage["total_cost_usd"],
         "duration_seconds": total_time,
         "results": [
             {
-                "skill": r.skill_name,
-                "status": r.status,
-                "workflows": r.workflows_created,
-                "tokens": r.tokens_used,
-                "error": r.error,
+                "skill": r.skill_name, "status": r.status,
+                "workflows": r.workflows_created, "tokens": r.tokens_used,
+                "cost": r.estimated_cost, "error": r.error,
             }
             for r in all_results
         ],
     }
 
-    log_path = WORKSPACE / "execution" / "conversion-log.json"
+    log_path = BASE_PATH / "execution" / "conversion-log.json"
     if not dry_run:
         log_path.write_text(json.dumps(log, indent=2))
         print(f"📝 Conversion log: {log_path}")
@@ -813,22 +736,16 @@ def main():
     parser.add_argument("--plan-only", action="store_true", help="Preview what would be converted")
     parser.add_argument("--dry-run", action="store_true", help="Generate but don't write files")
     parser.add_argument("--merge-only", action="store_true", help="Only merge genius files (no API calls)")
-    parser.add_argument("--model", default=None, help=f"Override model (default: {MODEL})")
     parser.add_argument("--batch-size", type=int, default=BATCH_SIZE, help=f"Skills per batch (default: {BATCH_SIZE})")
 
     args = parser.parse_args()
 
-    if args.model:
-        globals()["MODEL"] = args.model
     if args.batch_size:
-        globals()["BATCH_SIZE"] = args.batch_size
+        global BATCH_SIZE
+        BATCH_SIZE = args.batch_size
 
     if not args.skill and not args.all:
         print("❌ Specify --skill <path> or --all")
-        sys.exit(1)
-
-    if not API_KEY and not args.merge_only and not args.plan_only:
-        print("❌ GEMINI_API_KEY not found in .env or environment")
         sys.exit(1)
 
     asyncio.run(run_full_conversion(

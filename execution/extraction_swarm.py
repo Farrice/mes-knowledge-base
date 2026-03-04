@@ -30,37 +30,21 @@ Usage:
 import asyncio
 import argparse
 import json
-import os
 import sys
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Dict, Tuple, Optional
+from typing import List, Optional
 
-# --------------------------------------------------------------------------
-# Environment Setup
-# --------------------------------------------------------------------------
-WORKSPACE = Path("/Users/farricecain/Google Antigravity")
-ENV_PATH = WORKSPACE / ".env"
+# Shared client
+sys.path.insert(0, str(Path(__file__).parent))
+from gemini_client import GeminiClient, load_env
 
-if ENV_PATH.exists():
-    for line in ENV_PATH.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "=" in line:
-            key, _, value = line.partition("=")
-            os.environ.setdefault(key.strip(), value.strip())
+load_env()
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
-MAX_RETRIES = int(os.environ.get("SWARM_MAX_RETRIES", "1"))
-TOKEN_BUDGET = int(os.environ.get("SWARM_TOKEN_BUDGET", "500000"))
+BASE_PATH = Path(__file__).parent.parent
+TOKEN_BUDGET = int(__import__('os').environ.get("SWARM_TOKEN_BUDGET", "500000"))
 
-from google import genai
-from google.genai import types
-
-if not API_KEY:
-    print("❌ GEMINI_API_KEY not found in .env or environment")
-    sys.exit(1)
 
 # --------------------------------------------------------------------------
 # Data Classes
@@ -73,8 +57,8 @@ class PromptWorkOrder:
     prompt_description: str
     expert_name: str
     expert_domain: str
-    extraction_context: str  # relevant genius patterns + hidden knowledge
-    skill_context: str       # SKILL.md content for framework consistency
+    extraction_context: str
+    skill_context: str
     output_path: Path
 
 @dataclass
@@ -84,47 +68,10 @@ class PromptResult:
     status: str  # success, failed, skipped
     output: str
     tokens_used: int
+    estimated_cost: float
     duration_seconds: float
     output_path: Optional[Path] = None
     error: Optional[str] = None
-
-
-# --------------------------------------------------------------------------
-# Gemini API
-# --------------------------------------------------------------------------
-
-async def call_gemini(prompt: str, system_instruction: str = "",
-                      retries: int = MAX_RETRIES) -> Tuple[str, int]:
-    """Make a single Gemini API call via async SDK. Returns (response_text, tokens_used)."""
-    client = genai.Client(api_key=API_KEY)
-    
-    config = types.GenerateContentConfig(
-        temperature=0.7,
-        max_output_tokens=16384,
-    )
-    if system_instruction:
-        config.system_instruction = system_instruction
-        
-    for attempt in range(retries + 1):
-        try:
-            response = await client.aio.models.generate_content(
-                model=MODEL,
-                contents=prompt,
-                config=config
-            )
-            # Extract token usage if available; otherwise use 0
-            tokens = 0
-            if response.usage_metadata:
-                tokens = response.usage_metadata.total_token_count
-            return response.text, tokens
-
-        except Exception as e:
-            if attempt < retries:
-                wait = 2 ** attempt
-                print(f"  ⚠️  Retry {attempt + 1}/{retries} for API call (waiting {wait}s): {e}")
-                await asyncio.sleep(wait)
-            else:
-                raise
 
 
 # --------------------------------------------------------------------------
@@ -133,7 +80,7 @@ async def call_gemini(prompt: str, system_instruction: str = "",
 
 def load_extraction_report(extraction_path: str) -> str:
     """Load the extraction report content."""
-    path = WORKSPACE / extraction_path if not Path(extraction_path).is_absolute() else Path(extraction_path)
+    path = BASE_PATH / extraction_path if not Path(extraction_path).is_absolute() else Path(extraction_path)
     if not path.exists():
         print(f"❌ Extraction report not found: {path}")
         sys.exit(1)
@@ -142,7 +89,7 @@ def load_extraction_report(extraction_path: str) -> str:
 
 def load_skill_md(skill_path: str) -> str:
     """Load the SKILL.md for framework context."""
-    path = WORKSPACE / skill_path / "SKILL.md" if not Path(skill_path).is_absolute() else Path(skill_path) / "SKILL.md"
+    path = BASE_PATH / skill_path / "SKILL.md" if not Path(skill_path).is_absolute() else Path(skill_path) / "SKILL.md"
     if not path.exists():
         raise FileNotFoundError(f"CRITICAL: Required SKILL.md not found at {path}. Halting to prevent generic extraction.")
     return path.read_text()
@@ -150,7 +97,7 @@ def load_skill_md(skill_path: str) -> str:
 
 def load_genius_patterns(skill_path: str) -> str:
     """Load genius patterns for additional context."""
-    path = WORKSPACE / skill_path / "references" / "genius-patterns.md" if not Path(skill_path).is_absolute() else Path(skill_path) / "references" / "genius-patterns.md"
+    path = BASE_PATH / skill_path / "references" / "genius-patterns.md" if not Path(skill_path).is_absolute() else Path(skill_path) / "references" / "genius-patterns.md"
     if not path.exists():
         print(f"⚠️  genius-patterns.md not found at {path}, proceeding without it")
         return ""
@@ -159,7 +106,7 @@ def load_genius_patterns(skill_path: str) -> str:
 
 def load_hidden_knowledge(skill_path: str) -> str:
     """Load hidden knowledge for additional context."""
-    path = WORKSPACE / skill_path / "references" / "hidden-knowledge.md" if not Path(skill_path).is_absolute() else Path(skill_path) / "references" / "hidden-knowledge.md"
+    path = BASE_PATH / skill_path / "references" / "hidden-knowledge.md" if not Path(skill_path).is_absolute() else Path(skill_path) / "references" / "hidden-knowledge.md"
     if not path.exists():
         return ""
     return path.read_text()
@@ -174,7 +121,7 @@ SYSTEM_INSTRUCTION = """You are a world-class prompt engineer creating crown jew
 ## Your Task
 Generate a single, complete, production-ready prompt file following the MES 3.0 format below.
 
-**VIRTUOSO MANDATE & ANTI-PATTERN LOCK:** 
+**VIRTUOSO MANDATE & ANTI-PATTERN LOCK:**
 1. Optimize for Information Density, not length. Bypass generic LLM brevity, but do not bloat the prompt. Achieve extreme psychological nuance through precision and lethal insight. Every word must earn its keep. **Formatting for Density**: Dense text requires high-contrast formatting. You MUST aggressively use bullet points, bolding, and whitespace so the density remains readable.
 2. Anti-Pattern Lock: When looking at examples or source material, extract the *mechanics* but discard the *skin*. Do not lazily mimic narratives, metaphors, or structural wrappers from the context. Demonstrate true creative latitude and taste.
 3. **The Gravedigger Safeguard (Feeling Density)**: When discarding the skin of an example to invent a new scenario, you must explicitly build a human-centric "gravedigger" detail. Density cannot mean sterile. Concrete emotional resonance must scale with information density.
@@ -231,8 +178,6 @@ def generate_work_orders(
     skill_path: str,
 ) -> List[PromptWorkOrder]:
     """Generate a work order for each prompt to be created."""
-
-    # Parse prompt descriptions from SKILL.md if available
     prompt_descriptions = {}
     if skill_md:
         for line in skill_md.splitlines():
@@ -243,7 +188,6 @@ def generate_work_orders(
                     desc = parts[1].strip()
                     prompt_descriptions[slug] = desc
 
-    # Build combined context (Gemini 3.1 Pro High context uncapped)
     combined_context = f"""## EXTRACTION REPORT
 {extraction_report}
 
@@ -254,15 +198,13 @@ def generate_work_orders(
 {hidden_knowledge}
 """
 
-    # Resolve output directory
-    base = WORKSPACE / skill_path if not Path(skill_path).is_absolute() else Path(skill_path)
+    base = BASE_PATH / skill_path if not Path(skill_path).is_absolute() else Path(skill_path)
     prompts_dir = base / "references" / "prompts"
 
     orders = []
     for slug in prompts:
         desc = prompt_descriptions.get(slug, f"Crown jewel prompt for {slug}")
         output_path = prompts_dir / f"{slug}.md"
-
         orders.append(PromptWorkOrder(
             prompt_slug=slug,
             prompt_description=desc,
@@ -280,20 +222,27 @@ def generate_work_orders(
 # Single Prompt Generation
 # --------------------------------------------------------------------------
 
-async def generate_prompt(work_order: PromptWorkOrder, token_tracker: dict) -> PromptResult:
+def strip_code_fences(text: str) -> str:
+    """Remove markdown code block wrappers from API response."""
+    lines = text.splitlines()
+    if lines and lines[0].startswith("```"):
+        lines = lines[1:]
+    if lines and lines[-1].strip() == "```":
+        lines = lines[:-1]
+    return "\n".join(lines)
+
+
+async def generate_prompt(work_order: PromptWorkOrder, client: GeminiClient) -> PromptResult:
     """Generate a single crown jewel prompt via Gemini API."""
     start_time = time.time()
     slug = work_order.prompt_slug
 
     # Check token budget
-    if token_tracker["used"] >= TOKEN_BUDGET:
+    if client.total_tokens_used >= TOKEN_BUDGET:
         return PromptResult(
-            prompt_slug=slug,
-            status="skipped",
-            output="",
-            tokens_used=0,
-            duration_seconds=0,
-            error=f"Token budget exceeded ({token_tracker['used']}/{TOKEN_BUDGET})"
+            prompt_slug=slug, status="skipped", output="",
+            tokens_used=0, estimated_cost=0, duration_seconds=0,
+            error=f"Token budget exceeded ({client.total_tokens_used}/{TOKEN_BUDGET})"
         )
 
     print(f"  🚀 Generating {slug}...")
@@ -327,32 +276,30 @@ Generate the complete prompt file now.
 """
 
     try:
-        response, tokens = await call_gemini(prompt, SYSTEM_INSTRUCTION)
-        token_tracker["used"] += tokens
+        text, meta = await client.generate(
+            prompt,
+            system_instruction=SYSTEM_INSTRUCTION,
+            temperature=0.7,
+            max_output_tokens=16384,
+        )
 
         duration = time.time() - start_time
-        print(f"  ✅ {slug} complete ({tokens:,} tokens, {duration:.1f}s)")
+        print(f"  ✅ {slug} complete ({meta.total_tokens:,} tokens, ${meta.estimated_cost_usd:.4f}, {duration:.1f}s)")
 
         return PromptResult(
-            prompt_slug=slug,
-            status="success",
-            output=response,
-            tokens_used=tokens,
-            duration_seconds=duration,
-            output_path=work_order.output_path,
+            prompt_slug=slug, status="success",
+            output=text, tokens_used=meta.total_tokens,
+            estimated_cost=meta.estimated_cost_usd,
+            duration_seconds=duration, output_path=work_order.output_path,
         )
 
     except Exception as e:
         duration = time.time() - start_time
         print(f"  ❌ {slug} failed: {e}")
-
         return PromptResult(
-            prompt_slug=slug,
-            status="failed",
-            output="",
-            tokens_used=0,
-            duration_seconds=duration,
-            error=str(e),
+            prompt_slug=slug, status="failed", output="",
+            tokens_used=0, estimated_cost=0,
+            duration_seconds=duration, error=str(e),
         )
 
 
@@ -370,10 +317,11 @@ async def execute_extraction_swarm(
     dry_run: bool = False,
 ) -> List[PromptResult]:
     """Execute parallel prompt generation."""
+    client = GeminiClient()
 
     print(f"\n{'='*60}")
     print(f"  EXTRACTION SWARM — {len(prompts)} prompts")
-    print(f"  Model: {MODEL}")
+    print(f"  Model: {client.default_model}")
     print(f"  Extraction: {extraction_path}")
     print(f"  Skill: {skill_path}")
     print(f"{'='*60}\n")
@@ -409,13 +357,9 @@ async def execute_extraction_swarm(
 
     # Generate work orders
     orders = generate_work_orders(
-        prompts=prompts,
-        expert_name=expert_name,
-        expert_domain=expert_domain,
-        extraction_report=extraction_report,
-        skill_md=skill_md,
-        genius_patterns=genius_patterns,
-        hidden_knowledge=hidden_knowledge,
+        prompts=prompts, expert_name=expert_name, expert_domain=expert_domain,
+        extraction_report=extraction_report, skill_md=skill_md,
+        genius_patterns=genius_patterns, hidden_knowledge=hidden_knowledge,
         skill_path=skill_path,
     )
 
@@ -426,27 +370,19 @@ async def execute_extraction_swarm(
 
     if plan_only:
         print(f"\n🔍 Plan-only mode — no API calls made.")
-        estimated_cost = len(orders) * 0.006  # ~$0.006 per prompt on Flash
+        estimated_cost = len(orders) * 0.006
         print(f"   Estimated cost: ${estimated_cost:.3f}")
         return []
 
     # Execute all in parallel
     print(f"\n⚡ Firing {len(orders)} parallel API calls...\n")
-    token_tracker = {"used": 0}
     start_time = time.time()
 
-    tasks = [generate_prompt(order, token_tracker) for order in orders]
+    tasks = [generate_prompt(order, client) for order in orders]
     results = await asyncio.gather(*tasks)
 
     total_duration = time.time() - start_time
-    total_tokens = sum(r.tokens_used for r in results)
-
-    # Cost calculation (Gemini 3 Flash approximate)
-    cost_per_1m_input = 0.10
-    cost_per_1m_output = 0.40
-    # Rough split: ~60% input, 40% output
-    estimated_cost = (total_tokens * 0.6 * cost_per_1m_input / 1_000_000) + \
-                     (total_tokens * 0.4 * cost_per_1m_output / 1_000_000)
+    usage = client.usage_summary()
 
     # Write files (unless dry-run)
     successful = [r for r in results if r.status == "success"]
@@ -458,17 +394,7 @@ async def execute_extraction_swarm(
         for r in successful:
             if r.output_path:
                 r.output_path.parent.mkdir(parents=True, exist_ok=True)
-                # Clean output — strip markdown fences if present
-                output = r.output
-                if output.startswith("```"):
-                    lines = output.splitlines()
-                    # Remove first and last line if they're code fences
-                    if lines[0].startswith("```"):
-                        lines = lines[1:]
-                    if lines and lines[-1].strip() == "```":
-                        lines = lines[:-1]
-                    output = "\n".join(lines)
-
+                output = strip_code_fences(r.output)
                 r.output_path.write_text(output.strip() + "\n")
                 print(f"   ✅ {r.output_path.name}")
     elif dry_run:
@@ -487,8 +413,8 @@ async def execute_extraction_swarm(
             print(f"     → {r.prompt_slug}: {r.error}")
     if skipped:
         print(f"  ⏭️  Skipped: {len(skipped)}")
-    print(f"  📊 Total tokens: {total_tokens:,}")
-    print(f"  💰 Estimated cost: ${estimated_cost:.4f}")
+    print(f"  📊 Total tokens: {usage['total_tokens']:,}")
+    print(f"  💰 Estimated cost: ${usage['total_cost_usd']:.4f}")
     print(f"  ⏱️  Total time: {total_duration:.1f}s")
     print(f"  ⚡ Avg per prompt: {total_duration/max(len(results),1):.1f}s")
     print(f"{'='*60}\n")
@@ -505,53 +431,22 @@ def main():
         description="Extraction Swarm — Parallel crown jewel prompt generator",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument(
-        "--extraction", "-e",
-        required=True,
-        help="Path to extraction report (relative to workspace or absolute)",
-    )
-    parser.add_argument(
-        "--skill", "-s",
-        required=True,
-        help="Path to skill directory (relative to workspace or absolute)",
-    )
-    parser.add_argument(
-        "--prompts", "-p",
-        required=True,
-        help="Comma-separated prompt slugs to generate",
-    )
-    parser.add_argument(
-        "--expert-name",
-        default="",
-        help="Expert name (auto-detected from SKILL.md if not provided)",
-    )
-    parser.add_argument(
-        "--expert-domain",
-        default="",
-        help="Expert domain (auto-detected from SKILL.md if not provided)",
-    )
-    parser.add_argument(
-        "--plan-only",
-        action="store_true",
-        help="Show work orders without executing",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Generate prompts but don't write files",
-    )
-    parser.add_argument(
-        "--model",
-        default=None,
-        help=f"Override model (default: {MODEL})",
-    )
+    parser.add_argument("--extraction", "-e", required=True,
+                        help="Path to extraction report (relative to workspace or absolute)")
+    parser.add_argument("--skill", "-s", required=True,
+                        help="Path to skill directory (relative to workspace or absolute)")
+    parser.add_argument("--prompts", "-p", required=True,
+                        help="Comma-separated prompt slugs to generate")
+    parser.add_argument("--expert-name", default="",
+                        help="Expert name (auto-detected from SKILL.md if not provided)")
+    parser.add_argument("--expert-domain", default="",
+                        help="Expert domain (auto-detected from SKILL.md if not provided)")
+    parser.add_argument("--plan-only", action="store_true",
+                        help="Show work orders without executing")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Generate prompts but don't write files")
 
     args = parser.parse_args()
-
-    # Override model if specified
-    if args.model:
-        globals()["MODEL"] = args.model
-
     prompts = [p.strip() for p in args.prompts.split(",") if p.strip()]
 
     if not prompts:
@@ -559,16 +454,12 @@ def main():
         sys.exit(1)
 
     results = asyncio.run(execute_extraction_swarm(
-        prompts=prompts,
-        extraction_path=args.extraction,
-        skill_path=args.skill,
-        expert_name=args.expert_name,
-        expert_domain=args.expert_domain,
-        plan_only=args.plan_only,
+        prompts=prompts, extraction_path=args.extraction,
+        skill_path=args.skill, expert_name=args.expert_name,
+        expert_domain=args.expert_domain, plan_only=args.plan_only,
         dry_run=args.dry_run,
     ))
 
-    # Exit code based on results
     if any(r.status == "failed" for r in results):
         sys.exit(1)
 
