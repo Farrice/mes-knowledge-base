@@ -12,6 +12,8 @@ Take a single long-form piece and produce 11+ derivative content pieces in paral
 /atomize [YouTube URL or file path]
 /atomize https://youtube.com/watch?v=xxxxx
 /atomize extractions/transcripts/my-talk.txt
+/atomize --remix [URL of trending external content]
+/atomize --remix https://linkedin.com/posts/viral-creator-post
 ```
 
 ## When to Use
@@ -19,6 +21,7 @@ Take a single long-form piece and produce 11+ derivative content pieces in paral
 - You published a YouTube video and need to repurpose it across all platforms
 - You have a podcast episode or blog post to atomize into social content
 - You want a full content calendar from a single piece of long-form work
+- **Remix mode**: You found trending content online and want to study what works, then create YOUR version in your voice
 
 ---
 
@@ -41,6 +44,39 @@ Then analyze the source to extract:
 - **Best quotes** (5-7 strongest standalone lines)
 - **Emotional beats** (2-3 moments with the most energy)
 - **Contrarian takes** (anything that challenges conventional wisdom)
+
+### 1.5. Mechanic Extraction (Remix Mode Only)
+
+**Only runs when `--remix` flag is used.** This transforms `/atomize` from "reformat my content" into "study what works and create my version."
+
+After analyzing the source, extract the **structural mechanic** that made it perform:
+
+```markdown
+## Mechanic Blueprint
+
+### Hook Pattern
+- **Type**: [Question hook / Bold claim / Story open / Contrarian / Data shock]
+- **Template**: [The structural pattern with blanks, e.g., "Most people think X. They're wrong. Here's why:"]
+- **Why it works**: [1 sentence — what psychological trigger does this fire?]
+
+### Framework Structure
+- **Pattern**: [Listicle / Problem-Agitate-Solve / Before-After / Myth-Busting / Story Arc]
+- **Skeleton**: [The numbered/sequenced structure with blanks for your content]
+- **Pacing**: [Short punchy? Long narrative? Mixed?]
+
+### Engagement Trigger
+- **Primary emotion**: [Outrage / Recognition / Aspiration / Fear / Curiosity]
+- **Shareability lever**: [Why do people share this? Identity signal? Useful? Controversial?]
+- **CTA pattern**: [How does it drive action?]
+
+### What to KEEP (mechanic) vs What to REPLACE (content)
+- **KEEP**: [Hook structure, pacing pattern, CTA format, emotional arc]
+- **REPLACE**: [Their topic → your topic, their examples → your examples, their voice → Farrice's voice]
+```
+
+Save the blueprint to `.tmp/atomize/mechanic-blueprint.md`.
+
+**In remix mode, every agent prompt gets the mechanic blueprint injected** alongside the source material. Each agent uses the STRUCTURAL PATTERN but writes entirely from Farrice's positioning, voice markers, and interest stack. The content should be clearly original — same mechanic, completely different substance.
 
 ### 2. Present the Atomization Plan
 

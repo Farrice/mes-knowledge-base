@@ -33,6 +33,82 @@ python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --max-
 python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --plan-only "YOUR OBJECTIVE HERE"
 ```
 
+5. **Research-first mode** — ground the swarm in real data before firing:
+```
+/parallel-swarm --research "YOUR OBJECTIVE HERE"
+```
+
+## Research-First Mode (`--research`)
+
+**Problem**: Standard Gemini swarm agents can't do web search or read files. They operate on injected skill context + training knowledge, which makes their output hypothetical — "what the expert would think" rather than "what the expert thinks given real market data."
+
+**Solution**: When `--research` is specified, a pre-research phase runs BEFORE the Gemini swarm:
+
+### How It Works
+
+1. **Pre-Research Phase** (Tier 1 Claude agents, ~30-60 seconds):
+   Spawn 2 Task tool sub-agents in a single message:
+
+   **Research Agent 1: Market Intelligence**
+   ```
+   Use WebSearch to find current data (2025-2026) about: [objective]
+   Focus on: market size, trends, recent developments, key players, pricing data.
+   Write findings to: .tmp/swarm-research/market-intel.md
+   Format: bullet points with source URLs. Aim for 10-15 data points.
+   ```
+
+   **Research Agent 2: Audience & Competitive Signals**
+   ```
+   Use WebSearch to find: [objective]-related audience discussions, competitor activity, and sentiment.
+   Check: Reddit, Twitter/X, LinkedIn, forums, review sites.
+   Write findings to: .tmp/swarm-research/audience-signals.md
+   Format: bullet points with source URLs and direct quotes where available.
+   ```
+
+2. **Context Enrichment**:
+   After both research agents return, read their findings. The orchestrator then injects the research data into each Gemini agent's prompt alongside their expert skill context:
+
+   ```
+   ## REAL MARKET DATA (from live research)
+   [Inject contents of market-intel.md and audience-signals.md]
+
+   ## YOUR EXPERT CONTEXT
+   [Standard skill injection from parallel_swarm.py]
+
+   ## YOUR TASK
+   Analyze [objective] using your expert framework GROUNDED IN the market data above.
+   Do NOT speculate when data exists. Reference specific findings.
+   ```
+
+3. **Grounded Swarm Execution**:
+   Run `parallel_swarm.py` as normal, but with the enriched prompts.
+
+### Cost Impact
+- Standard swarm: ~$0.15 (5 agents)
+- Research-first swarm: ~$0.15 + 2 Claude agent calls ≈ $0.30-0.50 total
+- Still dramatically cheaper than running 5 Claude agents with full tool access
+
+### When to Use `--research`
+- Market analysis, competitive intelligence, trend assessment
+- Any objective where "what's actually happening" matters more than "what the expert thinks in theory"
+- Audience research, pricing decisions, product validation
+
+### When Standard Mode is Fine
+- Creative ideation (brainstorming names, angles, frameworks)
+- Internal strategy (applying expert frameworks to YOUR known situation)
+- Content generation (voice, style, format — not data-dependent)
+
+### Output Files (Research-First Mode)
+```
+.tmp/swarm-research/
+  market-intel.md
+  audience-signals.md
+swarm_outputs/latest/
+  synthesis.md          (grounded synthesis)
+  agent_outputs/*.md    (individual grounded expert outputs)
+  metadata.json
+```
+
 ## Output
 
 All outputs are saved to `/Users/farricecain/Google Antigravity/swarm_outputs/`:

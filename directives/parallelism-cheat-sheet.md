@@ -10,12 +10,14 @@
 |--------------|---------|-------------------|
 | Produce content for every platform at once | `/launch-day` | ~5x faster |
 | Repurpose one piece into 11 derivatives | `/atomize` | ~4x faster |
+| Study viral content and create my version | `/watch-and-remix` | ~3x faster |
 | Research a business decision from 3 angles | `/research-sprint` | ~3x faster |
+| Design a complete offer + funnel | `/design-offer` | ~3x faster |
 | Get expert opinions without anchoring bias | `/roundtable` | ~2x faster (Round 1) |
+| Plan my week in 30 minutes | `/weekly-pulse` | ~3x faster |
+| 5-10+ expert perspectives with real data | `/parallel-swarm --research` | ~$0.30-0.50 |
 | Batch-extract from multiple sources | `/parallel-extract` | ~3x faster |
-| Generate content pieces (generic) | `/parallel-content` | ~3x faster |
-| Research a topic (generic) | `/parallel-research` | ~3x faster |
-| 5-10+ expert perspectives cheaply | `/swarm --gemini` | ~$0.15 total |
+| 5-10+ expert perspectives cheaply | `/parallel-swarm` | ~$0.15 total |
 
 ---
 
