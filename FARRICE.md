@@ -336,6 +336,14 @@ The system knows Farrice's taste, goals, and patterns deeply enough to act with 
 
 ---
 
+### VIRTUOSO DENSITY MANDATE
+
+**Information density over length.** Every word earns its keep. Delete fluff, keep the fangs. Use bullet points, bolding, whitespace for readability.
+
+**Anti-Pattern Lock:** Extract *mechanics* from examples, discard the skin. Resist narrative lock. Creative application > mechanical copy. The Gravedigger Safeguard: density cannot mean sterile — inject concrete emotional resonance.
+
+---
+
 ### EMOTIONAL LANDSCAPE
 
 **What fuels me**: Being present for JJ in ways my father wasn't for me. The creative challenge of designing elegant systems. Building proof that alignment > hustle.
