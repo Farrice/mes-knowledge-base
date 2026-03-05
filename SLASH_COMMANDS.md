@@ -30,6 +30,7 @@ If you prefer using the exact commands, here is the complete list:
 ## System & Skill Management
 * **`/add-notebook`** — Add a NotebookLM notebook to the registry for AI querying.
 * **`/convert-extraction`** — Convert MES 3.0 extractions to production-ready skills with COMPLETE coverage guarantee.
+* **`/convert-prompt`** — Convert external practitioner prompts (from claude.ai, ChatGPT, etc.) into completion-engine skills with genius extraction and agent registration.
 * **`/create-agent`** — Create an expert agent from an existing skill or directly from an extraction.
 * **`/deploy-skill`** — Deploy any skill's prompts to execute a specific task.
 * **`/extract`** — Extract expert knowledge from source material and convert to an Antigravity skill.
