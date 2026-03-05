@@ -10,6 +10,7 @@ If you prefer using the exact commands, here is the complete list:
 * **`/generate-brief`** — Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research and Expert Ensembles.
 * **`/generate-image`** — Generate images using Nano Banana 2 (Gemini image generation). Supports aspect ratios and image editing.
 * **`/hunt-trends`** — Scan for rising trends and "Shadow Market" opportunities in a niche using Agentic Research.
+* **`/research-landscape`** — Universal domain research — maps any topic into a tiered landscape with depth mining, audience resonance mapping, and strategic throughline.
 * **`/research-topic`** — Deep research on any topic with organized, actionable deliverable.
 * **`/spy-amazon`** — Spy on Amazon Best Sellers to find underserved niches (KDP/Products).
 * **`/spy-market`** — Run a "Search Gap" analysis to find low-competition keywords (Spy Tool).
