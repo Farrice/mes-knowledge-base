@@ -70,4 +70,22 @@ Repeat for posts 2-5.
 
 End with: "These 5 posts are the tip of the iceberg. You have [X minus 5] more sitting in your frameworks. The gap between your Notion and your LinkedIn isn't creativity — it's deployment. And deployment is a skill, not a talent."
 </phase-3-first-five-posts>
+
+<phase-4-next-step>
+After the content kit, present this section:
+
+---
+
+## THE DEPLOYMENT QUESTION
+
+You're sitting on [X] posts. You could deploy them yourself — but here's what usually happens:
+
+Week 1: You write 2 posts. Week 2: You write 1. Week 3: You're "too busy with clients." Week 4: Back to zero.
+
+The deployment gap isn't a knowledge problem. It's a bandwidth problem. And it doesn't fix itself.
+
+Alternatively: someone extracts the posts from YOUR frameworks, writes them in YOUR voice, and hands you 5 ready-to-paste LinkedIn essays by Friday.
+
+Reply "PROOF RUN" to the person who sent you this → they'll deploy your first 5 posts for $500. Your frameworks. Your voice. Your proof that deployment works.
+</phase-4-next-step>
 ```

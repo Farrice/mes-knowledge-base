@@ -93,4 +93,18 @@ For each criterion scored 0, provide:
 
 End with: "Your voice is your competitive advantage. Content that sounds like 'any coach' does nothing for your business. Content that sounds like YOU — only you — builds a brand that attracts clients before they ever get on a call."
 </output>
+
+<next-step>
+After the scorecard results, present this section:
+
+---
+
+## THE VOICE QUESTION
+
+Your score revealed exactly where your content stops sounding like you. The fix isn't generic writing tips — it's engineering your specific voice into every post.
+
+Reply "PROOF RUN" to the person who sent you this. They use AI-powered voice matching to produce 5 LinkedIn posts that score 8+ on this same scorecard — using YOUR methodology, YOUR stories, and YOUR language fingerprint. $500. If it doesn't sound like you, you don't pay.
+
+That's the difference between knowing the problem and fixing it.
+</next-step>
 ```

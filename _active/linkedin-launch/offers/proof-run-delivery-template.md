@@ -1,8 +1,9 @@
 # Proof Run Delivery Template
-## Standardized Process: Client Call → 5 Posts + Content Roadmap
+## Standardized Process: Client Call → 8 Posts + VSL Script
 
-> **Total time investment per client**: ~3-4 hours (60 min call + 2-3 hrs production/editing)
-> **Delivery timeline**: 5 business days
+> **Total time investment per client**: ~5-6 hours (60 min call + 4-5 hrs production/editing)
+> **Delivery timeline**: 7 business days
+> **Deliverables**: 8 LinkedIn posts + 1 VSL script draft + posting strategy notes
 
 ---
 
@@ -47,16 +48,22 @@ Ask these questions in order. Let them talk. Don't interrupt. Take detailed note
 8. "Tell me a story where your methodology clicked for someone — the moment it landed."
 9. "What's the problem your clients come to you with, in THEIR words? Not how you'd describe it — how THEY describe it."
 
-**Minutes 40-55: Voice & Language Capture**
+**Minutes 40-50: Voice & Language Capture**
 
 10. "If you were at a dinner party and someone asked what you do, what would you say? Not the LinkedIn version — the real version."
 11. "What phrases do you use over and over with clients? The signature lines?"
 12. "What would your best client say about you in one sentence to a friend?"
 13. "Finish this sentence: 'The thing most people don't realize about [their problem] is...'"
 
+**Minutes 50-55: Offer & VSL Exploration**
+
+14. "Walk me through your main offer — what do clients get, and what's the transformation you promise?"
+15. "If someone watched a 3-minute video of you explaining why they should work with you, what would you say?"
+16. "What makes your approach different from every other coach in your space — in one sentence?"
+
 **Minutes 55-60: Wrap-up**
 
-- "I have everything I need. You're going to see 5 posts in your inbox within 5 days."
+- "I have everything I need. You're going to see 8 posts in your inbox within 7 days, plus a VSL script draft."
 - "When you read them, the test is: do they sound like you? If anything feels off, we revise."
 - Confirm email for delivery.
 
@@ -102,15 +109,18 @@ LINKEDIN GAPS
 ## Phase 3: Post Production (2-3 hours)
 
 ### Step 1: Review Notes (15 min)
-- Identify the 5 strongest content angles from the call
+- Identify the 8 strongest content angles from the call
 - Match each to a post type:
   1. **Methodology post** — teaches a step from their framework
   2. **Story post** — client transformation narrative
   3. **Contrarian post** — the belief that makes them different
   4. **Recognition post** — makes their ideal client feel seen
   5. **Authority post** — demonstrates depth of expertise
+  6. **Behind-the-scenes post** — how they actually work with clients
+  7. **Myth-busting post** — what their industry gets wrong
+  8. **CTA post** — soft invitation to learn more or connect
 
-### Step 2: Use the System to Draft (30-60 min)
+### Step 2: Use the System to Draft (60-90 min for 8 posts + VSL)
 
 For each post, use this production process:
 
@@ -128,9 +138,18 @@ For each post, use this production process:
 - [ ] Does it teach something or make someone feel understood?
 - [ ] Would a reader know WHICH coach wrote this without seeing the name?
 
-### Step 3: Humanize and Polish (60-90 min)
+### Step 3: VSL Script Draft (45-60 min)
 
-Read each post out loud. If any line sounds like "content" instead of a person talking, rewrite it.
+Using the voice profile and offer exploration notes:
+1. Write a 2-3 minute VSL script (500-800 words)
+2. Structure: Hook → Problem → Agitation → Solution → Proof → CTA
+3. Must sound like the client speaking naturally to camera
+4. Include specific language/phrases from the voice capture
+5. Reference their methodology and transformation stories
+
+### Step 4: Humanize and Polish (60-90 min)
+
+Read each post AND the VSL script out loud. If any line sounds like "content" instead of a person talking, rewrite it.
 
 Check for:
 - [ ] No corporate language ("leverage," "optimize," "synergy")
@@ -138,6 +157,7 @@ Check for:
 - [ ] Short lines. Line breaks for rhythm. Mobile-first formatting.
 - [ ] The opening line is 8 words or fewer
 - [ ] The post has ONE clear idea, not three
+- [ ] VSL script sounds conversational, not scripted
 
 ---
 
@@ -180,19 +200,19 @@ Fri: [CTA post - "If this resonated, here's how to work with me"]
 
 ### Delivery Email Template
 
-Subject: Your 5 LinkedIn Posts + Content Roadmap
+Subject: Your 8 LinkedIn Posts + VSL Script
 
 ---
 
 Hey [Name],
 
-Here are your 5 LinkedIn posts and 30-day content roadmap.
+Here are your 8 LinkedIn posts, VSL script draft, and posting strategy notes.
 
 **The posts are ready to copy-paste into LinkedIn.** I wrote them from the methodology and stories you shared on our call. The test: read them and see if they sound like you.
 
 **What's included:**
-→ 5 LinkedIn posts (ready to publish)
-→ 30-day content roadmap with topics, angles, and hooks
+→ 8 LinkedIn posts (ready to publish)
+→ 1 VSL script draft (your offer, your voice)
 → Posting strategy notes (timing, formatting, engagement tips)
 
 **If anything feels off:**
@@ -246,7 +266,7 @@ ENGAGEMENT BOOST:
 "Saw you posted [X post]. How did it feel? Any engagement you didn't expect?"
 
 ### Day 14 After Delivery (the upgrade conversation)
-"Hey [Name], curious — after seeing the Proof Run results, is ongoing content something you'd want? I'm taking on [X] monthly clients at $1,500/month. 12 posts per week, strategy call, content calendar. No pressure — just wanted you to know the option's there."
+"Hey [Name], curious — after seeing the Proof Run results, is ongoing content something you'd want? I'm taking on [X] monthly clients at $2,500/month. 12 posts/month, strategy call, content calendar. Month-to-month, cancel anytime. No pressure — just wanted you to know the option's there."
 
 ---
 

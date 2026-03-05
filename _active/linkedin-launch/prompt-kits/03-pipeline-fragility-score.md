@@ -52,10 +52,16 @@ SCORING FORMULA:
 
 Present the score with specific recommendations:
 
-If score 7+: "Your business is running on hope, not a pipeline. You need a second acquisition channel — and LinkedIn is the fastest one to build. Here's your 30-day starter plan: [provide 3 specific actions]"
+If score 7+: "Your business is running on hope, not a pipeline. LinkedIn is the fastest second channel to build — but building it yourself while serving clients is a Catch-22. You need the pipeline NOW, but creating content takes time you don't have.
 
-If score 4-6: "You're not in crisis, but you're exposed. One bad quarter would hurt. Start building content now while things are stable — not when you're desperate."
+Reply 'PROOF RUN' to the person who sent you this. They'll ghostwrite 5 LinkedIn posts from your existing frameworks in 48 hours. You keep coaching. Your pipeline starts diversifying. $500. If the posts don't sound like you, you don't pay."
 
-If score 1-3: "Your pipeline is healthy. Content would accelerate growth, not save you. That's the best position to build from."
+If score 4-6: "You're not in crisis, but you're exposed. One bad quarter would hurt. The best time to build a second channel is while things are stable — not when you're desperate.
+
+Reply 'PROOF RUN' to the person who sent you this. They'll ghostwrite 5 LinkedIn posts using your methodology and your voice — $500 to start building your safety net before you need it."
+
+If score 1-3: "Your pipeline is healthy. Content would accelerate growth, not save you. That's the best position to build from — you can be strategic instead of desperate.
+
+Reply 'PROOF RUN' to the person who sent you this if you want to turn that stability into momentum. 5 LinkedIn posts in your voice, from your frameworks, in 48 hours. $500."
 </diagnostic>
 ```

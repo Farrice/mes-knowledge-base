@@ -1,6 +1,7 @@
-# The Proof Run — $500
+# The Proof Run — $750
 
-> **Instructions**: Copy this into a clean Google Doc. Share as "Anyone with the link can view." Send this link when a prospect says "send me more info." For founding clients during launch month, offer at $250 and mention the founding rate.
+> **Instructions**: Host on Google Doc or Notion. Share when a prospect says "send me more info."
+> **Pilot rate**: $500 for the first 3 clients (testimonial exchange). Mention this on the call only.
 
 ---
 
@@ -42,34 +43,33 @@ Every ghostwriter you've hired started guessing from the first draft. Every AI t
 
 ## Here's what I'll do for you.
 
-**One 60-minute call.** You talk the way you talk on a coaching call. Walk me through your frameworks. Tell me the stories you tell clients. Explain the things your industry gets wrong.
+**One 60-minute call.** You talk the way you talk on a coaching call. Walk me through your best frameworks. Tell me the stories that make clients' eyes go wide. Explain what your industry gets dangerously wrong.
 
-I capture all of it — not just your ideas, but your rhythm, your language, the way you build an argument.
+I capture all of it — not just your ideas, but your rhythm, your language, the way you build an argument and land a point.
 
-**Within 5 business days, you get:**
+**Within 7 business days, you get:**
 
-- 5 LinkedIn posts that sound like you on your sharpest day
-- A 30-day content roadmap showing what a month of strategic content looks like, mapped to YOUR frameworks
-- Posting strategy notes (timing, formatting, engagement tactics)
+- **8 LinkedIn posts** that sound like you on your sharpest day
+- **1 VSL script draft** — a video sales letter for your offer, written in your voice
+- Posting strategy notes (timing, formatting, engagement)
+- 2 rounds of revisions if anything feels off
 
-Not posts that sound like "a ghostwriter trying to be you."
+Not content that sounds like "a ghostwriter trying to be you."
 
-Posts that sound like you caught a wave — like you sat down, the words just came out, and every single one landed.
-
-Your frameworks. Your stories. Your voice.
-
-You read them and think: *"That's exactly what I would've said if I could've said it that clearly."*
+Content that sounds like you caught a wave — like the words just came out, and every one landed.
 
 ---
 
 ## What You Get
 
-- One 60-minute deep-dive call (you talk, I listen and ask the questions that unlock your best content)
-- 5 LinkedIn posts that teach YOUR methodology in YOUR voice
-- 30-day content roadmap — topics, angles, and posting cadence
-- 2 rounds of revisions if anything feels off
-- Posting strategy guide (timing, formatting, engagement)
-- Delivered in 5 business days
+| Deliverable | Value |
+|-------------|-------|
+| 60-minute deep-dive voice capture call | — |
+| 8 LinkedIn posts in YOUR voice | $1,200+ at market rates |
+| 1 VSL script draft (your offer, your voice) | $750-$1,000+ standalone |
+| Posting strategy guide | — |
+| 2 rounds of revisions | — |
+| Delivered in 7 business days | — |
 
 ---
 
@@ -89,15 +89,13 @@ You read them and think: *"That's exactly what I would've said if I could've sai
 
 ---
 
-## $500.
+## $750.
 
 One-time. Not a subscription. Not a contract.
 
-**The guarantee**: If you read the 5 posts and don't feel like I captured your voice — full refund. You keep the posts and the content roadmap regardless.
+**The guarantee**: If you read the posts and they don't sound like you — full refund. You keep everything.
 
-You're not risking $500 on my track record. You're testing whether I can make your LinkedIn sound like *you*. If I can't, you lose nothing.
-
-**Founding rate**: During launch month, the Proof Run is $250 for the first 5 clients. After that it goes to $500. I need case studies more than I need margin.
+You're not risking $750 on my track record. You're testing whether I can make your LinkedIn sound like *you*. If I can't, you lose nothing.
 
 ---
 
@@ -105,14 +103,14 @@ You're not risking $500 on my track record. You're testing whether I can make yo
 
 Most people who do the Proof Run want more.
 
-**Monthly retainer — $1,500/month:**
-- 12 posts per month (3 per week)
-- Monthly strategy call
-- Content calendar
-- Ongoing methodology capture (your best client stories and frameworks become posts automatically)
+**The Voice — LinkedIn Authority Package — $2,500/month:**
+- 12 posts/month (3x/week)
+- Monthly voice capture call
+- Content calendar + engagement strategy
+- Monthly performance snapshot
 - Month-to-month. Cancel anytime.
 
-But we don't talk about that until you've seen the Proof Run work. No pitch. No pressure. The posts either speak for themselves or they don't.
+But we don't talk about that until you've seen the Proof Run deliver. The posts either speak for themselves or they don't.
 
 ---
 
@@ -122,9 +120,9 @@ But we don't talk about that until you've seen the Proof Run work. No pitch. No 
 
 **Step 2**: Book your call → [CALENDLY LINK]
 
-**Step 3**: Within 5 days, you have 5 posts that actually sound like you — plus a roadmap for the next 30 days.
+**Step 3**: Within 7 days — 8 posts + a VSL script that actually sound like you.
 
-Questions? DM me on LinkedIn or reply to the message that sent you here.
+Questions? DM me on LinkedIn.
 
 ---
 

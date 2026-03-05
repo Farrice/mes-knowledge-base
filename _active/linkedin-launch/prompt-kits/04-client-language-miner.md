@@ -81,4 +81,18 @@ STORY 3: ...
 
 End with: "Every one of these hooks, angles, and stories came from YOUR clients. This is what your LinkedIn should sound like — not generic coaching advice, but the real language of real transformation. The content was there all along. You just needed someone to mine it."
 </phase-3-output>
+
+<phase-4-next-step>
+After the content kit, present this section:
+
+---
+
+## NOW YOU HAVE TWO CHOICES
+
+1. **Write them yourself**: Take these 10 hooks and 5 angles and draft the posts on your own timeline.
+
+2. **Reply "PROOF RUN"**: The person who sent you this will take YOUR client language, YOUR stories, and YOUR voice and produce 5 publication-ready LinkedIn posts for $500. Same hooks. Same language. Same stories. Just... deployed. In 48 hours. And if they don't sound like you, you don't pay.
+
+The content was already there. The only question is who deploys it.
+</phase-4-next-step>
 ```

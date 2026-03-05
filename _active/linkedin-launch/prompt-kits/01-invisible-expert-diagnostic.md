@@ -68,4 +68,22 @@ For each of the 3 criteria that scored below 6, provide:
 
 End with: "Your expertise deserves to be seen. The gap between what you deliver and what people see online is costing you clients every month. The fix isn't more content — it's better TRANSLATION of the expertise you already have."
 </phase-3-gap-report>
+
+<phase-4-next-step>
+After the gap report, present this section:
+
+---
+
+## YOUR NEXT STEP
+
+You now know your exact gap score. Here's what you can do about it:
+
+**DIY Route**: Take the 3 action items above and implement them yourself over the next 30 days.
+
+**Done-For-You Route**: If you want 5 LinkedIn posts written in YOUR voice — based on YOUR methodology — in 48 hours, reply "PROOF RUN" to the person who sent you this diagnostic.
+
+They'll ghostwrite your first 5 posts using the same voice-matching AI that identified your gap. No templates. Your frameworks. Your stories. Your voice. $500 for the first 5 posts — and if they don't sound like you wrote them, you don't pay.
+
+The gap between your expertise and your presence doesn't have to stay open for another 30 days.
+</phase-4-next-step>
 ```
