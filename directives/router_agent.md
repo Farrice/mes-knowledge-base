@@ -41,6 +41,7 @@ Based on complexity, determine the engagement level:
 | 3 | Mini-council | Multiple perspectives needed | **Tier 2** or **Tier 3** (sub-agents) | Present recommendation, wait for approval |
 | 4 | Council/Swarm | High-stakes, multi-domain | **Tier 3** (sub-agents) | Use `/roundtable` or `/swarm` |
 | 5 | Human | Ambiguous intent | **Tier 0 only** | Ask user to clarify |
+| 6 | System Gap | No expert covers this domain | **Tier 0 only** | Trigger `directives/expertise-gap-protocol.md` — assess severity, research sources, extract or flag |
 
 ### Step 4: Execute or Recommend
 
@@ -78,6 +79,7 @@ Based on complexity, determine the engagement level:
 - **Works with**: `AGENT_INDEX.md` (fallback for deep keyword matching)
 - **Works with**: `directives/agent-loading-protocol.md` (tiered loading chain)
 - **Works with**: `quality_gate.md` (runs after agent output)
+- **Works with**: `directives/expertise-gap-protocol.md` (Level 6 — self-healing when no expert covers the domain)
 
 ---
 

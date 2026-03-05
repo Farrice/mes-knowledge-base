@@ -97,6 +97,18 @@ This distinction prevents over-producing when the user wants advice, and under-d
 
 **Step 3 — Multi-domain?** If request spans 2+ domains, select an ensemble. Reference `DOMAIN_REGISTRY.md` for compound combinations and force-multiplier pairings.
 
+**Step 3b — Gap Check (after domain match):**
+
+After matching intent to domain, verify expert coverage exists:
+1. Scan `agents/_framework/invocation-cards.md` for relevant experts
+2. If no match: scan `DOMAIN_REGISTRY.md` swim lanes
+3. If still no match: **trigger Expertise Gap Protocol** (`directives/expertise-gap-protocol.md`)
+   - Classify severity (Low / Medium / High)
+   - Execute appropriate mode (Advisory / Guided / Autonomous)
+   - If extraction resolves the gap, re-run ROUTE with the new expert loaded
+
+**When to skip Gap Check**: user said "just do it", one-off factual question, existing expert is close enough (>70% domain overlap), follow-up within approved plan, system/meta tasks.
+
 **Step 4 — Load experts via Context Engine:**
 1. **Tier 0**: Read invocation cards (~50 tokens each) for routing confirmation
 2. **Tier 1**: Read SKILL.md + specific workflow (~1,350 tokens) for clear tasks
@@ -181,6 +193,7 @@ This pipeline also works mid-conversation (what `/refine-intent` triggers):
 | Domain detection signals (quick-match) | `directives/expert_auto_routing.md` |
 | McKinsey-grade output standard | `directives/expert_auto_routing.md` |
 | Expert loading tiers | `directives/agent-loading-protocol.md` |
+| Expertise gap self-healing | `directives/expertise-gap-protocol.md` |
 | Combo reference table | `directives/intent_refiner.md` (Step 3) |
 
 ---
