@@ -7,19 +7,21 @@
 ## Genius Patterns
 
 **Expert**: Joanna Wiebe
-**Domain**: Conversion copywriting, persuasive writing, behavioral psychology in copy
+**Domain**: Conversion copywriting, persuasive writing, behavioral psychology in copy, authority craft mechanics
 **Extraction Tier**: Standard
-**Source**: YouTube transcript — "How To Become a Master Manipulator" (Copyhackers)
+**Sources**:
+- "How To Become a Master Manipulator" (Copyhackers) — 5-Level Persuasion Hierarchy
+- "How To Write Freakishly Well And Have An Unfair Advantage" — Sentence-level authority craft
 
 ---
 
 ## Expert Profile
 
-Joanna Wiebe is the founder of Copyhackers — the world's leading conversion copywriting training company. She coined the term "conversion copywriting" and is widely regarded as the authority on writing that moves people to act. This extraction captures her **5 Levels of Persuasive Writing** framework, a progressive hierarchy from basic benefit-focused copy to invisible story-driven persuasion.
+Joanna Wiebe is the founder of Copyhackers — the world's leading conversion copywriting training company. She coined the term "conversion copywriting" and is widely regarded as the authority on writing that moves people to act. This genius context captures two complementary layers: the **5 Levels of Persuasive Writing** (copy structure) and the **5 Authority Craft Mechanics** (sentence-level execution). Together, they cover the full stack — from the architecture of persuasion down to the individual lines that land with weight.
 
 ---
 
-## Genius Patterns (8)
+## Part 1: Persuasion Hierarchy — Genius Patterns (8)
 
 ### 1. The 5-Level Persuasion Hierarchy
 Joanna structures persuasion as a progressive skill tree, not a bag of tricks. Each level subsumes the previous: Level 5 writing invisibly incorporates Levels 1-4. Most copywriters plateau at Level 2 (tricks and biases) and never reach systemic persuasion. The hierarchy creates a clear diagnostic for copy quality.
@@ -52,7 +54,7 @@ Instead of "make them buy," Joanna reframes the copywriter's job as "make the go
 
 ---
 
-## Hidden Knowledge (6)
+## Part 1: Persuasion Hierarchy — Hidden Knowledge (6)
 
 ### 1. The Pronoun Audit
 Count first-person pronouns (we, our, I) vs. second-person pronouns (you, your) in any piece of copy. If first-person > second-person, the copy is Level 0 — not even Level 1. This is a 30-second diagnostic that reveals persuasion maturity instantly.
@@ -74,7 +76,93 @@ Level 5 writing passes when a reader cannot identify where the persuasion techni
 
 ---
 
-## Crown Jewel Prompts (6)
+## Part 2: Authority Craft Mechanics — Genius Patterns (5)
+
+> These 5 skills operate at the sentence/phrase level — BELOW the copy structure
+> that the Persuasion Hierarchy addresses. They make individual lines land with
+> weight, command respect, and sound like the top 1%.
+
+### 9. The Catchy Phrasing Engine (The Meme Test)
+A 2012 Cornell study reverse-engineered memorable movie quotes and found 4 mechanical traits you can engineer into anything:
+1. **Familiar syntax** — "You had me at X" sounds normal, the brain processes it effortlessly
+2. **Distinctive word choice** — "hello" in that slot is unexpected; the brain flags it
+3. **Portability** — The line works in any context, liftable from its source
+4. **Compression** — Maximum meaning, minimum words. No conjunctions, no fluff.
+
+**The Physics**: The brain stores familiar patterns effortlessly but TAGS distinctive content. Familiar syntax + one surprising word = the brain recognizes the pattern, gets jolted, and files it as "important." This isn't persuasion — it's neuroscience doing your job for you.
+
+**The Test**: "Could this work as a meme? Could you put it on a t-shirt?" If not, too many words or too complex a syntax. Strip to one distinctive word. Remove every conjunction. Add white space after the line so it sticks the landing.
+
+### 10. Order of Revelation (Schema Programming)
+The order in which you present facts **programs how people interpret everything that follows**. Same case study, wildly different conversion rates — just by rearranging when certain facts appear.
+
+**The Two Versions**:
+- Version A: "This strategy increased conversions by 27%. It's controversial." → Anchors with: "We win."
+- Version B: "This strategy breaks best practices. It increased conversions by 27%." → Anchors with: "We take risks."
+
+Conservative buyer? Lead with the result. Innovation buyer? Lead with the rule-breaking.
+
+**The Physics (Schema Activation)**: Humans are meaning-making machines. The first piece of information becomes the framework for interpreting everything after it. You are literally programming how people interpret your next sentence before you say it.
+
+**The Diagnostic Question**: "What do I want the audience to **assume is true** before they learn this next thing?"
+
+### 11. Stealing Thunder (Preemptive Disqualification)
+Volunteer when you're NOT the right choice before the prospect brings it up. This shifts you from sales mode to **expert mode** — and experts tell you the truth even when it costs them the deal.
+
+**The Research**:
+- **Blemishing Effect**: Admitting a small negative while overall competence is high INCREASES likability and persuasion
+- **Proactive Disclosure**: Volunteering bad news improves perceptions of honesty and trustworthiness
+
+**The Counter-Intuitive Insight**: Trust doesn't come from proving competence alone. Trust comes from honest judgment about fit — and sharing that judgment openly. This creates curiosity from a prospect who trusts your judgment. That's what unlocks wallets. They stop defending their budget and start moving money to bring you in.
+
+**Template Structures**:
+- "If you want [fast/cheap thing], this isn't for you."
+- "Our approach works best for [specific qualifier]. Are you there? If not, solve that first."
+- "I'm not the right fit if your team [specific anti-pattern]."
+
+### 12. Anti-Hype (The Understatement Engine)
+Hype signals desperation in professional environments. Anti-hype signals confidence. "It wasn't dramatic. We just stopped doing what everyone else was doing." The language is deflated, but the MEANING carries weight.
+
+**The Research**:
+- **Language Expectancy Theory**: Violating expected patterns strategically shifts message reception
+- **Perceived Credibility Studies**: Nuanced, authentic communication wins over overt emotional appeals — the brain doesn't get defensive when things are understated, it leans in
+
+**The Practice**: Find the moment you're tempted to hype, and do the opposite.
+- ❌ "What happened next shocked us" → ✅ "Nothing surprising happened. That was the problem."
+- ❌ "This completely transformed our results" → ✅ "The numbers moved. Not dramatically, but consistently."
+- ❌ "Game-changing breakthrough" → ✅ "A small shift that happened to matter."
+
+### 13. Bucket Brigades (Cognitive Pacing Architecture)
+Short transitional phrases (1-5 words) that create micro-curiosity payable in the very next line. They function as cognitive breaks that reset pacing WITHOUT losing the narrative thread.
+
+**The Physics**: Dense text spikes cognitive load and drops attention. Bucket brigades signal "breathe, then keep going" instead of "this is exhausting." When you read "Here's the thing," your brain immediately needs to know what "the thing" is — that gap creates forward momentum.
+
+**When to Deploy**:
+- After dense ideas → give the reader a cognitive break
+- Before belief shifts → signal a transition is coming
+- At potential drop-off points → re-engage with micro-curiosity
+
+**When NOT to Deploy**: If you can edit the bucket brigade out and the writing improves, it wasn't earning its place.
+
+---
+
+## Part 2: Authority Craft Mechanics — Hidden Knowledge (4)
+
+### 7. The Meme/T-Shirt Test
+The practical test for catchy phrasing: could this line work as a meme or fit on a t-shirt? If not, syntax is too complex or you're using too many words. This instantly eliminates professional jargon and bloated phrasing.
+
+### 8. The Schema Programming Question
+"What do I want the audience to assume is true before they learn this next thing?" Asked before writing any important statement, this single question restructures the entire persuasive architecture. Joanna: "This question will change everything."
+
+### 9. The Expert Mode Signal
+There's a moment in every sales conversation where you shift from selling to consulting. Preemptive disqualification triggers that shift. The prospect's emotional state changes — they stop defending their budget and start moving money to work with you.
+
+### 10. The Cognitive Break Architecture
+Bucket brigades aren't random phrases — they're engineering components. They function as pressure valves in dense writing: cognitive load spike → bucket brigade → reset → forward momentum restored. The critical insight: dense text without pacing = attention death.
+
+---
+
+## Crown Jewel Prompts (6 + 1)
 
 1. `persuasion-level-audit` — Score any copy on the 5-level framework
 2. `money-words-miner` — Extract audience-specific identity language from VOC data
@@ -82,4 +170,6 @@ Level 5 writing passes when a reader cannot identify where the persuasion techni
 4. `story-seller-framework` — Weave all 5 levels into a single narrative
 5. `cognitive-bias-toolkit` — Deploy the right bias at the right moment
 6. `napoleon-identity-hook` — Create identity-based calls to action
+7. `authority-craft-engine` — Apply all 5 sentence-level mechanics to any writing (Workflow 04)
+
 

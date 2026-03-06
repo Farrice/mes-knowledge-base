@@ -1,4 +1,4 @@
-# IP Flywheel — Execution Guide
+# IP Flywheel — Execution Guide (v2.0 — Serial Narrative)
 
 > **Farrice Cain** | Building YOUR audience on LinkedIn
 > This guide is for posting YOUR content. For client work, see [SERVICE-SALES-GUIDE.md](./SERVICE-SALES-GUIDE.md).
@@ -7,9 +7,11 @@
 
 ## What This Is
 
-Your IP Flywheel builds Farrice Cain's personal brand on LinkedIn. It uses your expertise (AI-powered content systems, ghostwriting methodology, coaching psychology) to attract ideal clients and generate inbound leads.
+Your IP Flywheel builds Farrice Cain's personal brand on LinkedIn through **serial narrative content** — posts that function as chapters in an ongoing story, building compounding reader investment and converting through sustained relationship, not per-post CTAs.
 
-**The output**: Audience → trust → DMs → Proof Run clients
+**The output**: Serial narrative → audience investment → profile visits → lead magnet capture → email nurture → Proof Run clients
+
+**What changed (v2.0)**: Moved from standalone value posts with keyword CTAs to serial narrative arcs. Each arc is 5-7 chapters that tell a story people can't stop following. Conversion happens through the profile (Featured section) and bridge posts (max 1 per arc), not per-post keyword drops.
 
 **What it is NOT**: This is NOT your ghostwriting service. Your service produces content FOR clients in THEIR voice. This flywheel produces content BY you in YOUR voice.
 
@@ -22,27 +24,67 @@ _active/linkedin-launch/
 ├── LAUNCH-GUIDE.md              ← YOU ARE HERE (IP Flywheel)
 ├── SERVICE-SALES-GUIDE.md       ← Client acquisition playbook
 ├── service-architecture.md      ← Full service design (packages, pricing)
-├── posts/                       ← Copy-paste ready LinkedIn essays
-│   ├── 01-invisible-expert.md
-│   ├── 02-47-google-docs-trap.md
-│   ├── 03-referral-ceiling.md
-│   ├── 04-clients-wrote-your-content.md
-│   └── 05-30-minute-lie.md
-├── prompt-kits/                 ← Lead magnets (host on Notion/Google Doc)
-│   ├── 01-invisible-expert-diagnostic.md
-│   ├── 02-deployment-gap-calculator.md
-│   ├── 03-pipeline-fragility-score.md
-│   ├── 04-client-language-miner.md
-│   └── 05-voice-match-scorecard.md
+├── profile-blueprint.md         ← Profile copy (AI stigma reframe)
+├── arcs/                        ← Serial narrative arcs
+│   └── 01-[arc-name]/
+│       ├── arc-plan.md          ← Arc blueprint (from workflow 01)
+│       ├── ch01-[slug].md       ← Chapter posts
+│       ├── ch02-[slug].md
+│       └── bridge-[slug].md     ← Optional conversion post
+├── prompt-kits/                 ← Lead magnets (decoupled from posts)
 ├── outreach/
-│   └── dm-scripts.md            ← DM templates for keyword CTAs
+│   └── dm-scripts.md            ← DM templates
 ├── offers/
 │   ├── proof-run-offer-page.md  ← $750 Proof Run ($500 pilot)
 │   └── proof-run-delivery-template.md
-├── mini-briefs/
-│   └── concept-dossier.md       ← 13 additional post concepts
-└── flywheel-packages/           ← Full 4-asset packages (reference)
+├── _archive/standalone-v1/      ← Previous standalone posts (reference)
+│   ├── posts/
+│   └── flywheel-packages/
+└── mini-briefs/
+    └── concept-dossier.md       ← Concept library for arc themes
 ```
+
+---
+
+## The Methodology
+
+### Why Serial Narrative
+
+Value-driven standalone posts were the dominant LinkedIn strategy in 2024-2025. AI made them easy to produce, which means everyone produces them. The feed is flooded with technically useful but emotionally flat content.
+
+Serial narrative is different:
+- Each post is a **chapter**, not a standalone lesson
+- Posts end with **open loops**, not CTAs — creating compulsion to return
+- Emotional investment **compounds** across the arc
+- The reader develops a **relationship** with the writer, not just a transactional exchange
+
+**Full methodology**: `skills/fresh-voice-system/genius.md`
+**Workflows**: `skills/fresh-voice-system/workflows/`
+
+### The Funnel Shift
+
+**Old funnel (standalone)**:
+```
+Post → Keyword CTA → DM prompt kit → Email capture → Proof Run
+```
+Problem: Every post is a standalone conversion machine. Optimizes for per-post engagement at the expense of long-term trust.
+
+**New funnel (serial narrative)**:
+```
+Serial arc chapters → Audience investment → Profile visits
+                                                    ↓
+                              Featured section (diagnostic / starter kit)
+                                                    ↓
+                                              Email capture
+                                                    ↓
+                                    Welcome sequence (3 emails)
+                                                    ↓
+                                          Weekly nurture emails
+                                                    ↓
+                                    Bridge post or email → Proof Run
+```
+
+Conversion still happens. It just happens through sustained relationship instead of per-post transactions.
 
 ---
 
@@ -50,105 +92,114 @@ _active/linkedin-launch/
 
 ### Phase 1: Setup (Do Once)
 
-- [ ] **Host prompt kits** — Copy each `prompt-kits/0X-*.md` into a Notion public page or Google Doc
-- [ ] **Save hosted links** — Record each prompt kit URL for DM delivery
-- [ ] **Profile check** — Update LinkedIn headline, banner, and About to match:
-  > *"I write LinkedIn content that sounds like you and brings clients to your DMs"*
-- [ ] **DM scripts ready** — Review `outreach/dm-scripts.md`, customize personal details
-- [ ] **Proof Run page ready** — Host `offers/proof-run-offer-page.md` as Google Doc (link ready to send)
+- [ ] **Update profile** — Apply `profile-blueprint.md` v2.0:
+  - New headline (voice capture positioning, not AI tools)
+  - New About section (psychology → translation angle)
+  - New Experience entries
+  - New banner
+- [ ] **Host lead magnets** — Place 2-3 prompt kits in Featured section as permanent assets (email-gated):
+  - Slot 1: Invisible Expert Diagnostic
+  - Slot 2: Voice Capture Starter Kit
+  - Slot 3: Proof Run offer page
+- [ ] **Email capture infrastructure** — ConvertKit/Beehiiv/Mailchimp:
+  - Landing page per lead magnet with email gate
+  - 3-email welcome sequence
+  - Weekly nurture email template
+- [ ] **DM scripts ready** — Review `outreach/dm-scripts.md`, update for non-keyword approach
 
-### Phase 2: Post Schedule (5 Posts)
+### Phase 2: Arc Production
 
-Post Tue-Thu, 8-10am EST. One post per publishing day.
+Use the Fresh Voice System workflows (`/serial-arc`):
 
-| # | Post | CTA Keyword | Prompt Kit | File |
-|---|------|------------|------------|------|
-| 1 | The Invisible Expert Epidemic | INVISIBLE | Invisible Expert Diagnostic | `posts/01-invisible-expert.md` |
-| 2 | The 47 Google Docs Trap | DEPLOY | Deployment Gap Calculator | `posts/02-47-google-docs-trap.md` |
-| 3 | The Referral Ceiling | PIPELINE | Pipeline Fragility Score | `posts/03-referral-ceiling.md` |
-| 4 | Your Clients Already Wrote Your Content | MINE | Client Language Miner | `posts/04-clients-wrote-your-content.md` |
-| 5 | The 30-Minute Lie | VOICE | Voice Match Scorecard | `posts/05-30-minute-lie.md` |
+1. **Plan the arc** (`/serial-arc plan`):
+   - Pull themes from personal experience, concept dossier, or current insights
+   - Output: arc plan with 5-7 chapter outlines, open loop strategy, bridge point
+   - Save to: `arcs/01-[arc-name]/arc-plan.md`
 
-### Phase 2.5: Email Capture Layer (Do Once)
+2. **Produce chapters** (`/serial-arc next`):
+   - Batch produce 3-5 chapters from the arc plan
+   - Each chapter passes the Serial Narrative Standard (genius.md quality gate)
+   - Save to: `arcs/01-[arc-name]/ch01-[slug].md`
 
-> **Why this matters**: 70-80% of revenue comes from email, not LinkedIn directly. LinkedIn is top-of-funnel. Email is where conversions happen. (Source: Lara Acosta 2026 Revenue Bridge)
+3. **Produce bridge post** (`/serial-arc bridge`):
+   - Maximum 1 per arc, placed after the payoff chapter
+   - Natural transition to Proof Run offer
+   - Save to: `arcs/01-[arc-name]/bridge-[slug].md`
 
-- [ ] **Pick an email platform** — ConvertKit, Beehiiv, or Mailchimp (free tier is fine to start)
-- [ ] **Create a landing page** — One page per prompt kit with email capture gate
-  - Prompt kit is the lead magnet → visitor enters email → receives kit
-  - Keep it simple: headline, 2-3 bullet points, email field, submit button
-- [ ] **Write 3 welcome emails** — Automated sequence after signup:
-  1. **Email 1 (Immediate)**: Deliver the prompt kit + "Here's how to get max value from this"
-  2. **Email 2 (Day 2)**: One insight about their problem space + link to your best LinkedIn post
-  3. **Email 3 (Day 5)**: Soft intro to the Proof Run — "If your content still isn't converting, here's what I do for clients"
-- [ ] **Add permanent lead magnet to profile** — Pin your best prompt kit in LinkedIn Featured section with a direct capture link (always collecting emails, even between posts)
-- [ ] **Plan weekly email** — One email per week to your list: value + occasional offer
+### Phase 3: Publishing Schedule
 
-**Revenue Bridge (full funnel)**:
-```
-LinkedIn post → Keyword CTA → DM prompt kit link → Email capture
-                                                        ↓
-                                            Welcome sequence (3 emails)
-                                                        ↓
-                                              Weekly nurture emails
-                                                        ↓
-                                            Proof Run offer → Service
-```
+Post Tue-Thu, 8-10am EST. One post per publishing day. Space chapters 2-3 days apart to build anticipation.
 
-### Phase 3: Per-Post Execution
+**Suggested pace for Arc 1 (5-chapter arc + bridge):**
+
+| Week | Day | What | File |
+|------|-----|------|------|
+| 1 | Tue | Chapter 1 (Setup) | `arcs/01-*/ch01-*.md` |
+| 1 | Thu | Chapter 2 (Deepening) | `arcs/01-*/ch02-*.md` |
+| 2 | Tue | Chapter 3 (The Turn) | `arcs/01-*/ch03-*.md` |
+| 2 | Thu | Chapter 4 (The Valley) | `arcs/01-*/ch04-*.md` |
+| 3 | Tue | Chapter 5 (The Payoff) | `arcs/01-*/ch05-*.md` |
+| 3 | Thu | Bridge Post (Conversion) | `arcs/01-*/bridge-*.md` |
+
+### Phase 4: Per-Post Execution
 
 **Pre-Post (20 min before publishing):**
-1. **Engage your feed** — Comment on 3-5 posts from industry peers
-2. **Reply to yesterday** — Respond to any remaining comments on your previous post
+1. **Engage your feed** — Comment on 3-5 posts from industry peers (thoughtful comments that add perspective, not "great post!")
+2. **Reply to yesterday** — Respond to any remaining comments on your previous chapter
 
 **Publishing:**
-3. **Copy post** from `posts/0X-*.md` → paste into LinkedIn editor
+3. **Copy chapter** from arc folder → paste into LinkedIn editor
 4. **Publish** during Tue-Thu, 8-10am EST window
-5. **First comment** — Drop the hosted prompt kit link immediately (with email capture gate)
+5. **NO first-comment link** — Serial chapters don't need a CTA in the comments. Let the narrative stand alone. (Exception: bridge posts can include a subtle link)
 
 **Post-Publish (30 min after):**
-6. **Reply to every comment** within first 30 minutes — this activates the algorithm
-7. **Run the 1+3 rule** — For every comment thread you enter: 1 comment + 3 replies to other people's comments = 4x profile views
-8. **Monitor CTA keywords** — When someone drops the keyword, DM them using `outreach/dm-scripts.md`
-9. **DM delivery** — Send email-gated prompt kit link + warm follow-up
+6. **Reply to every comment** within first 30 minutes — algorithm activation
+7. **Engage thoughtfully** — When people reference previous chapters ("I remember your post about..."), lean into the continuity
+8. **Monitor DMs** — Serial content drives DMs organically. People who resonate with the story reach out without being prompted. Respond within 2 hours.
 
-> ⚠️ **Post & Ghost = wasted post.** If you can't stay engaged for 30 min after posting, don't post that day. LinkedIn distributes based on network engagement — no engagement means the content dies.
+> Post & Ghost = wasted post. If you can't stay engaged for 30 min after posting, don't post that day.
 
-### Phase 4: Conversion (Revenue Bridge)
+### Phase 5: Conversion (Revenue Bridge)
 
-```
-Post → Keyword comment → DM email-gated prompt kit → They enter email → Welcome sequence → Proof Run ($750/$500 pilot)
-```
+**Two conversion paths:**
 
-**Two conversion paths now active:**
-1. **Fast path** (DM-driven): Post → keyword → DM → kit → follow-up → Proof Run
-2. **Email path** (nurture-driven): Post → profile visit → featured lead magnet → email list → weekly emails → Proof Run offer
+1. **Profile-driven** (passive, always active):
+   - Reader finishes a chapter → visits profile → sees Featured section → downloads diagnostic → enters email → welcome sequence → Proof Run offer
+
+2. **Bridge-post-driven** (active, 1 per arc):
+   - Bridge post naturally surfaces the offer → reader DMs or visits profile → same conversion path
+
+3. **Email-driven** (nurture):
+   - Weekly emails to list → occasional Proof Run mention → booking link
 
 When someone is ready for the Proof Run, switch to [SERVICE-SALES-GUIDE.md](./SERVICE-SALES-GUIDE.md).
 
-### Phase 5: Scale
+### Phase 6: Scale
 
-- **13 more concepts** in `mini-briefs/concept-dossier.md`
-- Run `/mini-brief` on any concept to produce the next package
-- Chain: `/flywheel-ideas` → `/mini-brief` → `/ip-flywheel` → publish
+- **Next arc**: After completing Arc 1, design Arc 2 using `/serial-arc plan`
+- **Theme sources**: `mini-briefs/concept-dossier.md` has 13 concepts that can be woven into arcs
+- **Archived posts**: `_archive/standalone-v1/` contains strong narratives that can be mined for arc material
+- **Chain**: `/serial-arc plan` → `/serial-arc next` → publish → `/serial-arc bridge` → publish
+
+**Pacing**: One arc every 3-4 weeks (5-7 chapters + bridge). This gives ~2 arcs per month, or 10-14 chapters of content.
 
 ---
 
-## Quick Reference: CTA Keywords → Actions
+## Content Strategy Rules
 
-| Keyword | You Send | Follow-Up |
-|---------|----------|-----------|
-| INVISIBLE | Invisible Expert Diagnostic link | "What was your gap score?" |
-| DEPLOY | Deployment Gap Calculator link | "How many posts are sitting in your frameworks?" |
-| PIPELINE | Pipeline Fragility Score link | "What was your fragility score?" |
-| MINE | Client Language Miner link | "Which hook surprised you the most?" |
-| VOICE | Voice Match Scorecard link | "What did your content score?" |
+1. **No standalone value posts.** Every post is a chapter in an arc. No exceptions for your personal brand content.
+2. **No keyword CTAs on chapter posts.** Let the narrative create the compulsion. Conversion happens through the profile and bridge posts.
+3. **No AI references.** Never mention AI tools, prompt engineering, or technology as the value proposition. You sell expertise translation, not AI services.
+4. **Engagement comments are part of the strategy.** Your comments on other people's posts should reflect the same voice and insight quality as your own posts. They're mini-chapters of your brand.
+5. **The profile is the conversion machine.** Keep Featured section updated. Keep the About section sharp. Every profile visitor should understand what you do in 30 seconds.
 
 ---
 
 ## Files You'll Use Most
 
-- **Posting day**: `posts/0X-*.md` (copy-paste the essay)
+- **Planning day**: Run `/serial-arc plan` → arc plan saved to `arcs/`
+- **Production day**: Run `/serial-arc next` → chapters saved to `arcs/[arc-name]/`
+- **Publishing day**: Copy from `arcs/[arc-name]/ch0X-*.md` → LinkedIn
 - **DM arrives**: `outreach/dm-scripts.md` (grab the right script)
-- **Ready to convert**: [SERVICE-SALES-GUIDE.md](./SERVICE-SALES-GUIDE.md) (switch to client acquisition)
-- **Need more content**: `mini-briefs/concept-dossier.md` → run `/mini-brief`
+- **Ready to convert**: [SERVICE-SALES-GUIDE.md](./SERVICE-SALES-GUIDE.md)
+- **Need themes**: `mini-briefs/concept-dossier.md` + `_archive/standalone-v1/` for mining

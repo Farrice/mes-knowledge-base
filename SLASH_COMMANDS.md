@@ -60,3 +60,4 @@ If you prefer using the exact commands, here is the complete list:
 ## Personal Output & Content Engines
 * **`/comedy`** — Deploy comedy intelligence as a writing style filter on any content — lightweight deployment, maximum impact. Includes zeitgeist calibration for cultural relevance.
 * **`/daily-flywheel`** — Transform raw journal entries into deep self-exploration, live market research, and brand-aligned content assets.
+* **`/serial-arc`** — Plan and produce serial narrative LinkedIn content — posts that function as chapters in a story. Sub-commands: `plan`, `next`, `bridge`, `status`.

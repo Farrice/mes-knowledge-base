@@ -41,7 +41,7 @@
 | `jeremy-haynes` | **Jeremy Haynes** | agent |
 | `jeremy-miner` | **Jeremy Miner: Identity-Based Persuasion Master** | identity frame engineering, identity-based persuasion master, indirect framing, objection prevention, pre-frame architecture, reframe mastery |
 | `jim-oshaughnessy` | **jim-oshaughnessy** | behavioral finance, cross-domain synthesis, four horsemen defense, human nature arbitrage, pre-fall/post-fall assessment, saturated intuition calibration, strategic thinking, wisdom transmission |
-| `joanna-wiebe` | **joanna-wiebe** | cognitive bias operationalization, conversion copywriting, money words mining, persuasion level diagnosis, persuasive writing, story selling, system 1/system 2 traffic control, writing career monetization, service positioning, offer architecture, revenue model design, channel audit, funnel diagnostic, messaging strategy, invisible sales architecture, ghostwriting business |
+| `joanna-wiebe` | **joanna-wiebe** | cognitive bias operationalization, conversion copywriting, money words mining, persuasion level diagnosis, persuasive writing, story selling, system 1/system 2 traffic control, authority craft, catchy phrasing, anti-hype, revelation order, stealing thunder, bucket brigades, writing career monetization, service positioning, offer architecture, revenue model design, channel audit, funnel diagnostic, messaging strategy, invisible sales architecture, ghostwriting business |
 | `jonathan-courtney` | **Jonathan Courtney** | agent persona |
 | `jonathan-franzen` | **Jonathan Franzen** | agent profile, compression, literary fiction • character psychology • narrative compression • storytelling → marketing translation |
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |

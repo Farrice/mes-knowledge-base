@@ -35,6 +35,8 @@ Research fresh topics that are psychologically resonant for the coaching audienc
 3. Score each topic on: timeliness, psychological depth, Farrice's unique angle
 4. Rank and present top 5-7 for the batch
 
+**Serial Narrative Mode:** If producing content for an active arc, skip topic research — topics come from the arc plan in `_active/linkedin-launch/arcs/[arc-name]/arc-plan.md`. Each chapter's topic is pre-defined by the arc architecture.
+
 **Output:** Topic research document saved to `_active/linkedin-launch/research/[date]-topic-research.md`
 
 **Principle:** Topics must pass the **Psychology-First Test**: Is the psychological insight the CORE of the post, with tactics emerging naturally from it? If the psychology is decorative, reject the topic framing.
@@ -104,7 +106,7 @@ Multiple expert lenses applied to Farrice's raw voice to shape it into a LinkedI
 4. Training/coaching jargon is used as AUTHORITY MARKERS — placed at peak impact, grounded instantly.
 5. Each post needs a SCREENSHOTABLE SENTENCE — one line that compresses the thesis into a feeling.
 
-**Post Architecture (Psychology-First):**
+**Post Architecture — Standalone (Psychology-First):**
 ```
 HOOK — Pattern interrupt or recognition moment (2-3 lines max)
 RECOGNITION — Reader feels seen (the psychology of what's happening to them)
@@ -112,6 +114,16 @@ MECHANISM — Why this happens (the insight, the clinical pattern, the human tru
 BRIDGE — The tactic/framework that emerges naturally from understanding the mechanism
 CTA — Identity move ("become the type of coach who...") not tool download
 ```
+
+**Post Architecture — Serial Narrative (Chapter):**
+```
+STORY — Specific scene or moment, grounded in time and place. Closes a loop from previous chapter.
+PATTERN — The story reveals something universal. Insight emerges, not stated.
+TENSION — Unresolved problem or contradiction. Something the reader hasn't figured out yet.
+INCOMPLETE RESOLUTION — Give enough to satisfy this chapter, leave something for next.
+NEXT CHAPTER SETUP — Open 1-2 loops. "More on this later." / "But here's where it gets tricky."
+```
+For serial narrative, load `skills/fresh-voice-system/genius.md` for the full methodology.
 
 **Output:** Drafted posts saved to `_active/linkedin-launch/drafts/batch-[N]/[topic-slug].md`
 
@@ -130,7 +142,7 @@ Platform-specific optimization without losing the voice.
 | **Tommy Clark** | "How I" framing, AI saturation floor check |
 | **Kallaway** | Dopamine Ladder verification (all 6 levels), curiosity loop check |
 
-**Editor Checklist:**
+**Editor Checklist (Standalone):**
 - [ ] Hook fits in mobile "see more" cutoff (8 words max per line)
 - [ ] F-shape reading pattern (1-line sentences, double line breaks)
 - [ ] No AI-sounding phrases (check against AI saturation floor)
@@ -139,6 +151,18 @@ Platform-specific optimization without losing the voice.
 - [ ] Factual safety — zero unverifiable claims, no fabricated cultural references
 - [ ] Post length: 800-1500 words (LinkedIn sweet spot for expertise content)
 - [ ] Dopamine Ladder: Stimulation → Captivation → Anticipation → Validation → Affection → Revelation
+
+**Editor Checklist (Serial Narrative):**
+- [ ] Hook fits in mobile "see more" cutoff
+- [ ] F-shape reading pattern
+- [ ] No AI-sounding phrases
+- [ ] NO per-post CTA keyword (serial chapters don't have CTAs — exception: bridge posts)
+- [ ] NO first comment link (let the narrative stand alone)
+- [ ] Continuity: references previous chapter naturally
+- [ ] Open loops: closes at least 1 from previous, opens 1-2 new
+- [ ] Structure varies from previous chapter
+- [ ] Factual safety
+- [ ] AI stigma check: zero references to AI tools as value props
 
 **Output:** Edited posts saved to `_active/linkedin-launch/posts/[post-number]-[slug].md`
 
@@ -201,6 +225,8 @@ _active/linkedin-launch/
 ## Chain Compatibility
 
 - **Pairs with** `/ghostwrite` — this pipeline IS the self-ghostwriting version of the GVE service
+- **Pairs with** `/serial-arc` — serial narrative content uses this pipeline with serial mode active
 - **Feeds into** Substack newsletter, prompt kits, digital products
 - **Research stage** can use `/research-topic` or `/hunt-trends` for deeper dives
 - **Writer's room** can invoke `/roundtable` for complex multi-expert synthesis
+- **Serial narrative** methodology in `skills/fresh-voice-system/genius.md`

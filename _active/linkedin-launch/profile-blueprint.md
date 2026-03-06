@@ -1,68 +1,83 @@
-# LinkedIn Profile Blueprint — Farrice Cain
+# LinkedIn Profile Blueprint — Farrice Cain (v2.0 — Serial Narrative)
 
-> **Deployed via**: Josh Sanders Profile Conversion Blueprint
-> **Purpose**: Re-engineer your LinkedIn profile into a high-converting landing page for the ghostwriting offer
+> **Updated**: Reframed from AI-powered ghostwriting positioning to voice capture
+> & expertise translation. Profile complements the serial narrative posts — different
+> entry point into the same story world, not a repeat of Post 1.
 
 ---
 
 ## Tagline Stack (220 chars max)
 
-### Variation 1: Direct (Landing Page Standard)
+### Variation 1: Voice Capture (Recommended for Launch)
 ```
-I ghostwrite LinkedIn content for coaches who have $10K frameworks trapped in 47 Google Docs. | 327 posts shipped → 14 clients closed without a single cold DM.
-```
-
-### Variation 2: Contrarian (Pattern Interrupt)
-```
-Most coaches are sitting on six figures of content and paying someone $0 to deploy it. I fix that. | AI-powered ghostwriting that sounds like you, not a chatbot.
+I help coaches turn 10,000 hours of expertise into content that sounds like them on their sharpest day | 18 years studying transformation psychology | Depth over templates
 ```
 
-### Variation 3: Authority (Trust Ladder)
+### Variation 2: Invisible Expert (Problem-First)
 ```
-Coaches hire me to turn their existing IP into LinkedIn content that generates inbound leads. Built the system. Run the system. Your voice, my engine.
+The best coaches are invisible. They built expertise in private rooms, not on public platforms. I fix that. | Voice capture, not content templates.
 ```
 
-**✅ Internal Voice Audit**: Read each aloud. Variation 2 has the strongest "cliffhanger" on "paying someone $0." Variation 1 has the strongest proof with "327 posts shipped." Choose based on which conversion lever matters more right now — proof vs. pattern interrupt.
+### Variation 3: Translation (Process-First)
+```
+What you do in a room with a client doesn't automatically translate to what you write on a screen. I bridge that gap. | 18 yrs transformation psychology
+```
 
-**Recommended**: Start with **Variation 2** (pattern interrupt) during launch to capture attention. Switch to **Variation 1** after you have your own ugly numbers.
+**Voice audit**: Variation 1 leads with the outcome ("sounds like them on their sharpest day") without mentioning AI. Variation 2 has the strongest contrarian hook ("The best coaches are invisible"). Variation 3 is the most narrative.
+
+**Recommended**: Start with **Variation 1** — it positions the methodology, not the tool. Switch to **Variation 2** once the "Invisible Expert" arc is published and the phrase has traction.
 
 ---
 
-## About Section (Line-Paragraph-Line Format)
+## About Section
+
+> **Design rule**: This section serves people landing on the profile cold — they haven't
+> read the serial posts. It should NOT tell the same story as Post 1. It complements the
+> arc by offering a different angle into the same world.
 
 ```
-Most coaches are sitting on $50,000 worth of content.
+I used to study why people quit.
 
-It lives in Google Docs, voice memos, and half-finished Notion pages. Frameworks that 
-transformed real clients — now collecting digital dust while they white-knuckle it 
-through another week of "I should really post something."
+Not fitness programs. Transformation itself.
 
-I went from watching this happen to fixing it.
+Why someone with the perfect meal plan, the right coach, and every reason to succeed
+would still stop at week three. Why knowing what to do was never enough.
 
-Here's what I do:
+17 years of that taught me something most people in the content space don't talk about:
 
-→ I take your existing IP (client calls, frameworks, testimonials) and turn it into 
-  LinkedIn essays that sound exactly like you
-→ Every post is engineered with a keyword CTA that triggers a DM conversation  
-→ Every DM delivers a diagnostic prompt kit that proves your expertise before you  
-  ever get on a call
-→ Your content becomes your sales pipeline — not your to-do list
+The gap is never knowledge. It's translation.
 
-The system:
+You can know exactly how to transform a client in a room.
+You can have frameworks that produce real, measurable results.
 
-• AI-powered voice matching — your content sounds like you, not a template
-• Diagnostic prompt kits — lead magnets that qualify prospects automatically  
-• Keyword-triggered DM funnels — conversations that start warm, not cold
+But translating that into content that makes a stranger trust you
+before they ever hear your voice? Different skill entirely.
 
-If you're a coach with proven frameworks and zero LinkedIn presence, 
-comment INVISIBLE on my latest post or DM me "Proof Run."
+Most coaches skip that skill. Or they try it once, hate it, and decide
+"I'm just not a content person." Which is like saying you're not a
+"talking to potential clients" person.
+
+That's the gap I help close.
+
+Not with templates. Not with tips on "how to post more consistently."
+
+I sit with you. Learn how you actually think, teach, and coach.
+Capture the specific way YOU explain transformation — the metaphors,
+the stories, the framework language that's uniquely yours.
+
+Then I turn that into content that sounds like you on your sharpest day.
+
+If you're a coach with deep expertise and a LinkedIn profile that
+doesn't reflect it — check the Featured section below.
+There's a free diagnostic that takes 8 minutes.
 ```
 
-**✅ UI Physics Check**: 
-- Line 1 is a standalone provocation → forces "See More" click ✓
-- Paragraph 2 uses the Gravedigger detail (watching coaches waste IP) ✓  
-- Bullets use specific mechanism language, not vague claims ✓
-- Single CTA path (INVISIBLE keyword or "Proof Run") ✓
+**Why this works differently than the old version:**
+- Opens with the psychology origin story (same world, different entry point than the serial posts)
+- Centers "translation" as the problem — not "AI content" or "ghostwriting"
+- Zero mentions of AI, prompts, or technology
+- The CTA points to the Featured section (persistent conversion asset) not a keyword drop
+- Reads like a person talking, not a landing page
 
 ---
 
@@ -70,73 +85,96 @@ comment INVISIBLE on my latest post or DM me "Proof Run."
 
 | Slot | Asset Type | Title | Description |
 |------|-----------|-------|-------------|
-| **1 — Authority** | PDF / Notion | **The Invisible Expert Report: Why Coaches With $10K Frameworks Get Zero Inbound** | Free diagnostic that reveals why great coaches get outperformed by mediocre marketers. Drives to the prompt kit. |
-| **2 — Utility** | Notion Template | **The 5-Post LinkedIn Launch Kit for Coaches** | A save-worthy resource that positions you as the authority on coach content strategy. High dwell time = algorithm boost. |
-| **3 — Conversion** | Landing Page / Link | **The Proof Run: Your First 5 LinkedIn Posts, On Me ($500)** | Direct link to the Proof Run offer page. For warm leads who've already consumed Asset 1 or 2. |
+| **1 — Diagnostic** | PDF / Notion | **The Invisible Expert Diagnostic: What Prospects See Before They See You** | 8-minute self-assessment — reveals the gap between your expertise and your online presence. Leads to email capture. |
+| **2 — Resource** | Notion Template | **Voice Capture Starter Kit: 5 Questions That Reveal How You Actually Think** | Save-worthy resource. Not "how to use ChatGPT" — how to define your own voice so content sounds like you. |
+| **3 — Offer** | Landing Page | **The Proof Run: Your First 8 Posts in Your Voice** | For warm leads. 60-min voice capture call, 8 LinkedIn posts, 7-day delivery, full refund guarantee. |
 
-**Design Note**: Each asset title sounds like a **physical product** — not a blog post link. This triggers Josh Sanders' "Depth-First" authority signal.
+**Positioning note**: No asset mentions AI. The Diagnostic is about visibility. The Starter Kit is about voice definition. The Proof Run is about voice capture and delivery.
 
 ---
 
 ## Banner Design Brief
 
-**Concept**: High-contrast split banner
-
 | Element | Specification |
 |---------|--------------|
-| **Left side** | Text: "Your frameworks deserve an audience" in bold sans-serif |
-| **Right side** | Arrow pointing down with "↓ Free diagnostic below" directing to Featured Section |
-| **Background** | Dark gradient (charcoal → black) for professional authority |
-| **Accent color** | Electric blue or warm amber — whichever matches your existing brand |
-| **DO NOT include** | Stock photos, headshots on the banner, generic "content creator" imagery |
-
-**Banner CTA**: The banner should be a **visual CTA** that points to the Featured Section. It's a billboard, not a portrait.
+| **Left side** | Text: "Your expertise is invisible. Let's fix that." in bold sans-serif |
+| **Right side** | Arrow pointing down to Featured Section: "Free diagnostic below" |
+| **Background** | Dark gradient (charcoal to black) — professional authority |
+| **Accent** | Warm amber or electric blue (match existing brand) |
+| **DO NOT include** | Stock photos, headshots on the banner, "AI" anywhere, generic "content creator" imagery |
 
 ---
 
-## Experience Audit (Top 2 Roles → Case Studies)
+## Experience Section
 
-### Role 1: Ghostwriter / Content Strategist — Self-Employed
-**Rewrite as case study:**
+### Role 1: Voice Capture Specialist & Content Strategist — Self-Employed
+
 ```
-Ghostwriter & Content Strategist | AI-Powered LinkedIn Systems for Coaches
+I help coaches and consultants turn their expertise into LinkedIn content
+that sounds like them — not like a template, not like a ghostwriter,
+not like everyone else posting the same generic advice.
 
-→ Built a ghostwriting engine that produces 5 LinkedIn posts per week 
-  with voice-match accuracy validated by clients on first draft
-→ Engineered keyword CTA → DM → prompt kit conversion flow that starts 
-  prospect conversations without cold outreach
-→ Developed diagnostic prompt kits that qualified coaching clients by 
-  having them self-assess before any sales conversation
+The problem I solve:
+
+Most coaches built their expertise in private rooms.
+4,000+ hours of client work. Frameworks that actually transform people.
+Methodology refined through years of real results.
+
+But their LinkedIn profile doesn't reflect any of it.
+
+My approach:
+
+I start with how you actually think. Not your industry keywords.
+Not "best practices for coaches." YOUR specific way of explaining
+transformation — the metaphors you reach for, the stories you tell,
+the phrases your clients quote back to you.
+
+Then I produce content that sounds like that.
+
+Background: 18 years studying transformation psychology
+(behavioral change, corrective exercise, performance enhancement,
+precision nutrition). Now applying that same depth to helping founders
+make their expertise visible.
 ```
 
-### Role 2: [Previous Role — Fill in your own]
-**Rewrite framework:**
-```
-[Role] @ [Company] — [Specific Outcome with Ugly Number]
+### Role 2: Certified Personal Trainer — 18 Years
 
-→ [Bullet with specific non-rounded metric]
-→ [Bullet focused on "value created" not "tasks managed"]
-→ [Bullet with a human detail — the Gravedigger resonance]
+```
+Specialized in transformation — not sets and reps.
+
+Studied why people quit. Why they'd know exactly what to do
+and still fail. The psychology of change — what makes someone
+go from knowing to doing.
+
+4,000+ hours of direct client work.
+
+This foundation informs everything I do now. Voice capture
+is fundamentally a coaching skill — conducting diagnostic
+interviews that surface someone's intellectual fingerprint.
+
+I've been doing exactly this for 18 years.
+Just with a different name.
 ```
 
 ---
 
-## Quality Gate Results
+## Quality Gate
 
 | Check | Status | Notes |
 |-------|--------|-------|
-| **Ugly Number Check** | ⚠️ Placeholder | Replace "327 posts" and "$10K frameworks" with YOUR real numbers once you have them. Use non-rounded metrics. |
-| **Internal Voice Test** | ✅ Pass | About section hook reads naturally — "Most coaches are sitting on $50,000 worth of content" has rhythm |
-| **Infrastructure Test** | ✅ Pass | Banner → Featured → About → CTA all point to same destination (INVISIBLE keyword / Proof Run) |
-| **Gravedigger Resonance** | ✅ Pass | "Watching coaches waste IP" is specific enough — but update with YOUR personal version when ready |
+| **AI Stigma Check** | Pass | Zero mentions of AI, prompts, ChatGPT, or technology in any profile section |
+| **Internal Voice Test** | Pass | About section opens conversationally — "I used to study why people quit" has natural rhythm |
+| **Post 1 Overlap Check** | Pass | About section tells the psychology-to-translation angle; serial posts tell the discovery narrative — different entry points |
+| **CTA Consistency** | Pass | All paths lead to Featured section diagnostic or Proof Run — no keyword CTAs on the profile |
+| **Positioning Test** | Pass | Reader thinks "this person understands coaches" not "this person sells AI tools" |
 
 ---
 
 ## Implementation Checklist
 
 - [ ] Choose tagline variation and update LinkedIn headline
-- [ ] Copy About section into LinkedIn (preserve line breaks)
-- [ ] Create 3 Featured Section assets (even placeholder titles work to start)
-- [ ] Update or create banner (use the design brief above)
-- [ ] Rewrite top 2 Experience entries as case studies
-- [ ] Replace all placeholder numbers with real ugly numbers as you get them
+- [ ] Copy About section into LinkedIn (preserve line breaks exactly)
+- [ ] Create / host 3 Featured Section assets
+- [ ] Update or create banner using design brief
+- [ ] Rewrite Experience entries using the copy above
+- [ ] Remove any existing profile content that references AI tools or prompt engineering as the value prop

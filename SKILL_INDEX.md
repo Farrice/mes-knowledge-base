@@ -55,7 +55,7 @@
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** |  | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner: Identity-Based Persuasion & Psychological Framing** | identity-based persuasion & psychological framing | 3 | 14 |
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | philosopher-financier skill | 5 | 30 |
-| `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery | 3 | 6 |
+| `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery, authority craft, catchy phrasing, anti-hype, revelation order, stealing thunder, bucket brigades | 4 | 7 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | writing career monetization, service positioning, offer architecture, revenue model, ghostwriting business, copywriting business, channel strategy, messaging strategy, invisible sales page, funnel diagnostic | 5 | 10 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy | 2 | 5 |
 | `jonathan-franzen-storytelling` | **Jonathan Franzen - Storytelling Mastery** | storytelling mastery | 4 | 6 |

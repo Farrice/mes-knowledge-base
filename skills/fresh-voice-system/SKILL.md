@@ -1,22 +1,53 @@
 ---
 name: "Fresh Voice System"
-description: "Farrice Cain's personal writing voice DNA — the rhythms, comedy mechanics, specificity standards, and quality checks that define Fresh's LinkedIn voice. Load this as a style layer for any content production."
-version: "1.0"
-format: "voice-layer"
+description: "Farrice Cain's personal brand content engine — serial narrative methodology for LinkedIn content that builds compounding reader investment. Combines voice DNA (tone, comedy, rhythm) with serial storytelling architecture (arc design, chapter production, bridge posts). Produces content that reads like chapters in a story people can't stop following."
+version: "2.0"
+format: "completion-engine"
+workflows: 3
 ---
 
 # Fresh Voice System
 
-Farrice Cain's writing voice distilled to deployable architecture. This is the voice DNA that makes content sound like Fresh — conversational authority with strategic self-awareness, painful specificity, and comedy mechanics wired into every line.
+> Farrice's personal brand content engine. Produces serial narrative LinkedIn content —
+> posts that function as chapters in an ongoing story, building compounding emotional
+> investment and converting through sustained reader relationship, not per-post CTAs.
 
-**This file is a standalone voice layer.** Any agent or skill can reference it to write in Fresh's voice.
+This skill serves two functions:
+1. **Voice Layer** — Any agent or skill can reference this file for Fresh's voice DNA (tone, comedy mechanics, rhythm, quality checks)
+2. **Content Engine** — The workflows produce serial narrative content using the methodology in genius.md
 
-## When To Load
+**Workflow command**: `/serial-arc plan|next|bridge|status`
 
-- Before writing ANY LinkedIn content as Fresh
-- Before ghostwriting demonstrations
-- When any agent needs Fresh's voice (content, emails, sales pages)
-- When deploying `/comedy` or `@robert-mack` for Fresh's personal content
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 01 | [Arc Planning](workflows/01-arc-planning.md) | Narrative Arc Plan (5-7 chapters) | You need to design a new multi-post narrative arc from themes, experiences, or insights. |
+| 02 | [Serial Content Production](workflows/02-serial-content-production.md) | 3-5 Chapter Posts | You have an arc plan and need to produce the next chapter(s). |
+| 03 | [Bridge Post Production](workflows/03-bridge-post-production.md) | 1 Conversion-Enabled Post | You need a post within the arc that naturally transitions to the Proof Run or a lead magnet. Max 1 per arc. |
+
+## Expert Stack
+
+| Source | Role | Deployed In |
+|--------|------|-------------|
+| **GenSpark Serial Narrative** | Arc architecture, open loop mechanics, serial storytelling | All workflows |
+| **Robert Mack** | Comedy mechanics, parenthetical asides, deflation | Workflow 02 (voice layer) |
+| **Fresh Voice DNA** | Tone, rhythm, specificity, quality checks | All workflows (this file) |
+
+## Key References
+
+| Reference | Path | Purpose |
+|-----------|------|---------|
+| Genius Context | [genius.md](genius.md) | Load before any workflow — serial narrative principles, meta-prompt, hidden knowledge |
+| Voice-First Pipeline | `.agent/workflows/voice-first-content.md` | Extended pipeline for research-heavy content |
+| Comedy System | `agents/robert-mack/AGENT.md` | Deep comedy mechanics when needed |
+| Active Arcs | `_active/linkedin-launch/arcs/` | Current narrative arc plans and chapters |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Workflow Command**: `.agent/workflows/serial-arc.md` — `/serial-arc` routing
+
+---
 
 ## Voice DNA
 
@@ -29,11 +60,11 @@ You name uncomfortable truths people think but don't say. You make them laugh at
 ### Tone Spectrum
 
 ```
-Conversational ←——————●——→ Formal
-Self-aware ←——●————————→ Serious  
-Edgy ←————●——————————→ Safe
-Direct ←——●————————————→ Circuitous
-Warm ←——————●——————→ Cold
+Conversational <------*--> Formal
+Self-aware <--*---------> Serious
+Edgy <----*-----------> Safe
+Direct <--*-------------> Circuitous
+Warm <------*-------> Cold
 ```
 
 **Primary mode**: Conversational authority with strategic self-awareness and edge.
@@ -48,13 +79,13 @@ Warm ←——————●——————→ Cold
 
 ### What This Voice is NOT
 
-- ❌ Guru energy ("I figured out the secret...")
-- ❌ Humble-brag ("I didn't expect my post to go viral but...")
-- ❌ Hustle culture ("Grind now, rest later")
-- ❌ Fake scarcity / clickbait / 10X bro energy
-- ❌ Toxic positivity ("Just believe in yourself!")
-- ❌ Performative vulnerability without insight
-- ❌ Exclamation points (almost never)
+- Guru energy ("I figured out the secret...")
+- Humble-brag ("I didn't expect my post to go viral but...")
+- Hustle culture ("Grind now, rest later")
+- Fake scarcity / clickbait / 10X bro energy
+- Toxic positivity ("Just believe in yourself!")
+- Performative vulnerability without insight
+- Exclamation points (almost never)
 
 ---
 
@@ -80,7 +111,7 @@ Warm ←——————●——————→ Cold
 
 ### Word Choice
 
-**Prefer**: Concrete over abstract. Specific over general. Active over passive. Fresh metaphors over clichés.
+**Prefer**: Concrete over abstract. Specific over general. Active over passive. Fresh metaphors over cliches.
 
 **Signature Vocabulary** (use naturally, not forced):
 - "Course graveyard" / "Bookmark graveyard" / "Notes app graveyard"
@@ -89,8 +120,10 @@ Warm ←——————●——————→ Cold
 - "Maintenance tasks dressed up as progress"
 - "Your sharpest day"
 - "Scrolling with justification"
+- "The invisible expert"
+- "Expertise translation"
 
-**Avoid**: "Journey," "Crushing it," "Game-changer," "Unlock your potential," "Level up," "Grind," corporate jargon, empty adjectives ("amazing," "incredible," "powerful")
+**Avoid**: "Journey," "Crushing it," "Game-changer," "Unlock your potential," "Level up," "Grind," corporate jargon, empty adjectives ("amazing," "incredible," "powerful"), AI tool references as value props
 
 ---
 
@@ -125,37 +158,27 @@ Release tension by giving permission.
 
 ---
 
-## Structural Templates
-
-### The Audit Post
-List their behaviors. Each item = recognition + comedy via parenthetical.
-
-### The Contrarian Reframe
-Open with their excuse. Audit it. Reframe the real problem.
-
-### The Psychology Post
-Name the pattern, explain the mechanism, give permission.
-
-### The Year-by-Year
-Walk through chronological failure. Comedy through accumulation.
-
-For full template architectures, see [fresh_writing_style_system.md](../robert-mack-comedy-writing/references/voice-layer/fresh_writing_style_system.md).
-
----
-
 ## Quality Checks (Run Every Piece)
 
-### 1. The Laugh-Exhale Test
-Read out loud. Count moments that make you chuckle, wince, or think "I can't believe they said that." **Minimum 2-3 per post.**
+### Voice Quality (All Content)
 
-### 2. The "Goddamn That's True" Test
-Does it name something they feel but haven't articulated? Would they screenshot it and send to a friend?
+1. **The Laugh-Exhale Test** — Read out loud. Count moments that make you chuckle, wince, or think "I can't believe they said that." Minimum 2-3 per post.
 
-### 3. The Specificity Audit
-Count generic phrases. Each one = opportunity. Replace "you procrastinate" → "you reorganize your Notion instead."
+2. **The "Goddamn That's True" Test** — Does it name something they feel but haven't articulated? Would they screenshot it and send to a friend?
 
-### 4. The Rhythm Check
-Read out loud. Does it have music? Enough short sentences? White space? Punch lines on their own lines?
+3. **The Specificity Audit** — Count generic phrases. Each one = opportunity. Replace "you procrastinate" with "you reorganize your Notion instead."
 
-### 5. The Voice Check
-Does this sound like a guru? → Rewrite. Does it have exclamation points? → Remove. Could it have been written by anyone? → Add specificity and edge.
+4. **The Rhythm Check** — Read out loud. Does it have music? Enough short sentences? White space? Punch lines on their own lines?
+
+5. **The Voice Check** — Does this sound like a guru? Rewrite. Does it have exclamation points? Remove. Could it have been written by anyone? Add specificity and edge.
+
+### Serial Narrative Quality (Chapter Posts Only)
+
+6. **The Compulsion Test** — Does the ending create genuine curiosity about what comes next?
+
+7. **The Formula Detection Test** — Does this chapter follow the same structure as the previous one? If predictable, vary it.
+
+8. **The AI Stigma Check** — Does any part position the work as "AI content creation"? Reframe toward voice capture / expertise translation.
+
+For the complete serial narrative quality gate, see [genius.md](genius.md) — Serial Narrative Standard.
+For full comedy template architectures, see [fresh_writing_style_system.md](../robert-mack-comedy-writing/references/voice-layer/fresh_writing_style_system.md).
