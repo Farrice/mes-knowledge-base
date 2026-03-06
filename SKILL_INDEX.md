@@ -67,6 +67,7 @@
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
 | `kittl-graphic-design` | **Kittl Graphic Design** |  | 4 | 23 |
 | `lance-yichao-context-engineering` | **Lance Martin & Yichao "Peak" Ji - Context Engineering** | context engineering | 3 | 17 |
+| `liam-mley-ai-brain-builder` | **Liam Mley — AI Brain Builder** | ai operating system, aios, ai brain, business automation, context layer, intelligence brief, founder automation, bandwidth recovery, 5-layer aios, task audit, morning brief, deployment blueprint | 4 | 0 |
 | `lara-acosta-content-system` | **Lara Acosta: Tech Founder Content System** | tech founder content system | 2 | 4 |
 | `lara-acosta-linkedin-growth` | **Lara Acosta — LinkedIn Audience Mastery** | master-level b2b personal branding on linkedin, linkedin audience mastery | 2 | 3 |
 | `lara-acosta-linkedin-mastery` | **Lara Acosta - LinkedIn Content Mastery** | linkedin content mastery | 4 | 17 |

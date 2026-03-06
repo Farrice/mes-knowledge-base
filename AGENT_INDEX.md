@@ -52,6 +52,7 @@
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
 | `lance-yichao` | **Lance Martin & Yichao "Peak" Ji** | context engineering expert |
 | `lara-acosta` | **lara-acosta** | b2b personal branding, edu-telling translation, f-shape visual formatting, linkedin content, tech founder content systems, the 4-3-2-1 content system, the 8-word rehook architecture, the broad-narrow-niche logic, the humble brag architecture, the slay execution, viral copywriting, viral format reverse-engineering |
+| `liam-mley` | **Liam Mley** | ai brain builder, ai operating system, aios, bandwidth recovery, business automation, context layer, founder automation, intelligence brief, morning brief, task audit |
 | `lindsay` | **lindsay** | ai consulting sales + client acquisition + multi-channel outreach, multi-channel orchestration, proof building, revenue positioning, robot speak elimination, temperature calibration |
 | `logan-kilpatrick` | **Logan Kilpatrick** | google ai studio, speed over perfection, ui-first prototyping, vibe coding |
 | `lucas-alpay` | **Lucas Alpay** | storytelling architect |
