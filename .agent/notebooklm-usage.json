@@ -1,0 +1,17 @@
+{
+    "monthly_limit": 100,
+    "current_month": "2026-03",
+    "usage": {
+        "total_queries": 0,
+        "queries": []
+    },
+    "alerts": {
+        "warn_at_queries": 80,
+        "block_at_queries": 100
+    },
+    "loop_detection": {
+        "current_task_query_count": 0,
+        "current_task_name": "",
+        "last_query_timestamp": ""
+    }
+}

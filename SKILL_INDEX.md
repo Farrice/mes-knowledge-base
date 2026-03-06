@@ -29,6 +29,7 @@
 | `creative-assembly` | **creative-assembly** |  | 0 | 3 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dan-koe-multipassionate-mastery` | **Dan Koe - Multipassionate Mastery** | multipassionate mastery | 4 | 26 |
+| `dan-koe-ai-leverage` | **Dan Koe - AI Leverage Methodology** | ai leverage, 4c framework, knowledge alchemy, adversarial refinement, meta-prompts, human-ai creative partnership, prompt engineering, context loading | 3 | 0 |
 | `dan-wang-literary-analysis` | **Dan Wang Literary Analysis** |  | 2 | 7 |
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 4 | 27 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** |  | 4 | 14 |

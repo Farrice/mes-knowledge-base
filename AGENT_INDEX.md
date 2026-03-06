@@ -21,7 +21,7 @@
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | brand statement craft, buyer optimization, content authenticity & ai workflow, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
-| `dan-koe` | **Dan Koe** | content architecture, creator economy, multi-interest monetization, multipassionate mastery, one-person business, personal brand |
+| `dan-koe` | **Dan Koe** | 4c framework, adversarial refinement, ai leverage, content architecture, creator economy, human-ai creative partnership, knowledge alchemy, meta-prompts, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-wang` | **Dan Wang: Observational Writing Master** | literary essay production, observational travel, observational writing master, single beautiful sentence construction, x-ray vision reading, year-long note accumulation |
 | `daniel-priestley` | **daniel-priestley** | demand engineering, ip mining, key person of influence, oversubscribed methodology, problem-aware positioning, stakes-based pricing |
 | `darrel-wilson` | **darrel-wilson** | ai monetization systems, flip the process, recurring revenue lock-in, system sales, tool over opinion, warm lead philosophy |

@@ -90,6 +90,16 @@ python execution/sync_registries.py
 
 Push complexity into deterministic code. You focus on decision-making.
 
+**Knowledge Sources:**
+- **Local Files**: Skills, agents, directives (primary)
+- **Notion Databases**: 5 databases for projects, knowledge vault, content pipeline
+- **NotebookLM**: Domain-specific research notebooks (RAG layer)
+  - 3 notebooks: Higgsfield Cinema Studio, AI Brain Build Sprint, LinkedIn Ghostwriting
+  - Query count: 100/month
+  - Usage: `/query-notebook` or auto-loaded at Tier 1.5
+  - Budget tracking: `.agent/notebooklm-usage.json`
+- **Perplexity**: Real-time web research ($10/month)
+
 **Key files (read on-demand, not preloaded):**
 - `COUNCIL.md` — 24 experts + 5 standing councils. Read for expert selection.
 - `DOMAIN_REGISTRY.md` — Expert swim lanes + compound pairing. Read for routing.
