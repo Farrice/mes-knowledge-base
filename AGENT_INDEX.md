@@ -93,6 +93,7 @@
 | `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |
 | `steven-pressfield` | **Steven Pressfield** | narrative mastery agent, physics |
 | `stockton-walbeck` | **Stockton Walbeck: Lead Magnet Strategist** | 5-rule scoring, full-funnel architecture, idea generation, lead magnet classification, lead magnet strategist, rule 5 bridge design |
+| `taki-moore` | **Taki Moore** | anti-scale-bro positioning, beginner acceleration, category creation, coaching business architecture, cohort design, done-accelerated-for-you, guarantee psychology, lifestyle business, monthly cohort intake, offer doc architecture, sales-without-selling, trust economy |
 | `tao-prompts` | **Tao Prompts** | ai video pipeline architect |
 | `thrivecart` | **thrivecart** | digital product business building and scaling, grocery store psychology, product ecosystem, seven iterations protocol, three levers model, weekend product standard |
 | `tim-danilov` | **Tim Danilov** | niche bending strategist, signature advantage |

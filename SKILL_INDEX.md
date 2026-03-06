@@ -136,6 +136,7 @@
 | `steven-pressfield-narrative-mastery` | **Steven Pressfield — Narrative Mastery** | not formula, physics, narrative mastery | 7 | 0 |
 | `stitch-loop` | **stitch-loop** |  | 0 | 0 |
 | `stockton-walbeck-lead-magnets` | **Stockton Walbeck — Lead Magnet Mastery** | lead magnet mastery | 3 | 5 |
+| `taki-moore-lifestyle-business` | **Taki Moore & Tony Bash — Lifestyle Business Mastery** | lifestyle business, coaching architecture, category creation, offer doc, cohort design, beginner acceleration, anti-scale, trust economy, sales-without-selling, done-accelerated-for-you | 5 | 0 |
 | `swarm-commander` | **swarm-commander** |  | 0 | 4 |
 | `tao-prompts-ai-video` | **Tao Prompts: AI Video Pipeline Architecture** | ai video pipeline architecture | 2 | 4 |
 | `theme-factory` | **theme-factory** | toolkit for styling artifacts with a theme, these artifacts can be slides, docs, reportings, html landing pages, etc | 0 | 0 |
