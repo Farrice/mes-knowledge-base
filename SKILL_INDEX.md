@@ -47,6 +47,7 @@
 | `futurepedia-prompt-engineering` | **Futurepedia Prompt Engineering** |  | 4 | 18 |
 | `gemini-api-dev` | **gemini-api-dev** |  | 0 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** |  | 3 | 0 |
+| `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | institutional brand building, emotional architecture, campaign design, creative culture engineering, taste development, seen felt proven, overground on-the-ground underground, innovation transference, brand as club, functional purity | 5 | 0 |
 | `harry-dry-copywriting` | **Harry Dry Copywriting** |  | 3 | 14 |
 | `internal-comms` | **internal-comms** |  | 0 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | linkedin organic growth | 3 | 14 |

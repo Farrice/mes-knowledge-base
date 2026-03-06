@@ -34,6 +34,7 @@
 | `ethan-smith` | **Ethan Smith** | aeo, answer engine optimization, experimental search methodology, rag citation mechanics, search optimization architect |
 | `fareed-zakaria` | **Fareed Zakaria** | argument architecture, clarity first, one idea discipline, writing mastery |
 | `futurepedia` | **Futurepedia: Prompt Engineering Virtuoso** | context extraction interview, expert discovery protocol, expert framework extraction, meta-prompt synthesis, plan abandonment prevention, prompt engineering virtuoso |
+| `greg-hoffman` | **Greg Hoffman: Brand Mastery Architect** | brand arena construction, brand as club, campaign architecture, contrary truth filter, creative culture engineering, edition-based storytelling, emotional value architecture, evolve immediately, functional purity, innovation transference, lead from the front, overground/on-the-ground/underground, seen felt proven, self-reflection brand question, taste development |
 | `harry-dry` | **Harry Dry: Copywriting Precision Master** | conflict architecture, copywriting precision master, rewrite discipline, three rules evaluation, visual-verbal synthesis, zoom-in technique |
 | `heath-brothers` | **heath-brothers** | commander's intent extraction, concrete translation, emotional authenticity, idea stickiness, knowledge gap creation, message design, schema violation engineering |
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
