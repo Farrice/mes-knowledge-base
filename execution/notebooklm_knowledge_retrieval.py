@@ -29,7 +29,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import List, Optional
 
-from notebooklm_client import NotebookLMClient, load_env
+from execution.notebooklm_client import NotebookLMClient, load_env
 
 
 # ---------------------------------------------------------------------------
