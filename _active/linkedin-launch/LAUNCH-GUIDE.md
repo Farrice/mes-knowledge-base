@@ -69,20 +69,60 @@ Post Tue-Thu, 8-10am EST. One post per publishing day.
 | 4 | Your Clients Already Wrote Your Content | MINE | Client Language Miner | `posts/04-clients-wrote-your-content.md` |
 | 5 | The 30-Minute Lie | VOICE | Voice Match Scorecard | `posts/05-30-minute-lie.md` |
 
+### Phase 2.5: Email Capture Layer (Do Once)
+
+> **Why this matters**: 70-80% of revenue comes from email, not LinkedIn directly. LinkedIn is top-of-funnel. Email is where conversions happen. (Source: Lara Acosta 2026 Revenue Bridge)
+
+- [ ] **Pick an email platform** — ConvertKit, Beehiiv, or Mailchimp (free tier is fine to start)
+- [ ] **Create a landing page** — One page per prompt kit with email capture gate
+  - Prompt kit is the lead magnet → visitor enters email → receives kit
+  - Keep it simple: headline, 2-3 bullet points, email field, submit button
+- [ ] **Write 3 welcome emails** — Automated sequence after signup:
+  1. **Email 1 (Immediate)**: Deliver the prompt kit + "Here's how to get max value from this"
+  2. **Email 2 (Day 2)**: One insight about their problem space + link to your best LinkedIn post
+  3. **Email 3 (Day 5)**: Soft intro to the Proof Run — "If your content still isn't converting, here's what I do for clients"
+- [ ] **Add permanent lead magnet to profile** — Pin your best prompt kit in LinkedIn Featured section with a direct capture link (always collecting emails, even between posts)
+- [ ] **Plan weekly email** — One email per week to your list: value + occasional offer
+
+**Revenue Bridge (full funnel)**:
+```
+LinkedIn post → Keyword CTA → DM prompt kit link → Email capture
+                                                        ↓
+                                            Welcome sequence (3 emails)
+                                                        ↓
+                                              Weekly nurture emails
+                                                        ↓
+                                            Proof Run offer → Service
+```
+
 ### Phase 3: Per-Post Execution
 
-1. **Copy post** from `posts/0X-*.md` → paste into LinkedIn editor
-2. **Publish** during Tue-Thu, 8-10am EST window
-3. **First comment** — Drop the hosted prompt kit link immediately
-4. **Monitor comments** — When someone drops the CTA keyword, DM them using `outreach/dm-scripts.md`
-5. **DM delivery** — Send prompt kit link + warm follow-up
-6. **Conversion** — After they run the kit → follow up → Proof Run offer
+**Pre-Post (20 min before publishing):**
+1. **Engage your feed** — Comment on 3-5 posts from industry peers
+2. **Reply to yesterday** — Respond to any remaining comments on your previous post
 
-### Phase 4: Conversion (Handoff to Service)
+**Publishing:**
+3. **Copy post** from `posts/0X-*.md` → paste into LinkedIn editor
+4. **Publish** during Tue-Thu, 8-10am EST window
+5. **First comment** — Drop the hosted prompt kit link immediately (with email capture gate)
+
+**Post-Publish (30 min after):**
+6. **Reply to every comment** within first 30 minutes — this activates the algorithm
+7. **Run the 1+3 rule** — For every comment thread you enter: 1 comment + 3 replies to other people's comments = 4x profile views
+8. **Monitor CTA keywords** — When someone drops the keyword, DM them using `outreach/dm-scripts.md`
+9. **DM delivery** — Send email-gated prompt kit link + warm follow-up
+
+> ⚠️ **Post & Ghost = wasted post.** If you can't stay engaged for 30 min after posting, don't post that day. LinkedIn distributes based on network engagement — no engagement means the content dies.
+
+### Phase 4: Conversion (Revenue Bridge)
 
 ```
-Post → Keyword comment → DM prompt kit → They run it → Follow-up DM → Proof Run ($750/$500 pilot)
+Post → Keyword comment → DM email-gated prompt kit → They enter email → Welcome sequence → Proof Run ($750/$500 pilot)
 ```
+
+**Two conversion paths now active:**
+1. **Fast path** (DM-driven): Post → keyword → DM → kit → follow-up → Proof Run
+2. **Email path** (nurture-driven): Post → profile visit → featured lead magnet → email list → weekly emails → Proof Run offer
 
 When someone is ready for the Proof Run, switch to [SERVICE-SALES-GUIDE.md](./SERVICE-SALES-GUIDE.md).
 
