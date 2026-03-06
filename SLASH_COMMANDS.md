@@ -33,6 +33,7 @@ If you prefer using the exact commands, here is the complete list:
 * **`/convert-extraction`** — Convert MES 3.0 extractions to production-ready skills with COMPLETE coverage guarantee.
 * **`/convert-prompt`** — Convert external practitioner prompts (from claude.ai, ChatGPT, etc.) into completion-engine skills with genius extraction and agent registration.
 * **`/create-agent`** — Create an expert agent from an existing skill or directly from an extraction.
+* **`/create-skill`** — Create a new skill — routes between Claude Code skills, workflow commands, and expert completion engine skills. Follows latest Anthropic best practices.
 * **`/deploy-skill`** — Deploy any skill's prompts to execute a specific task.
 * **`/extract`** — Extract expert knowledge from source material and convert to an Antigravity skill.
 * **`/recommend`** — Contextual skill recommendation — analyzes what you're working on right now and deploys the right experts.
@@ -57,4 +58,5 @@ If you prefer using the exact commands, here is the complete list:
 * **`/validate-intent`** — Validate raw user intent before building. Present variations and clarify before execution.
 
 ## Personal Output & Content Engines
+* **`/comedy`** — Deploy comedy intelligence as a writing style filter on any content — lightweight deployment, maximum impact. Includes zeitgeist calibration for cultural relevance.
 * **`/daily-flywheel`** — Transform raw journal entries into deep self-exploration, live market research, and brand-aligned content assets.

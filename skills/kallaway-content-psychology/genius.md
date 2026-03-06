@@ -26,27 +26,35 @@
 
 ---
 
-## Pattern 2: The 7 Lego Brick Decomposition
+## Pattern 2: The 11 Lego Brick Decomposition (v2 — Internet Money Machine)
 
-**What Kallaway Sees**: Content isn't a mysterious creative act—it's LEGO. Every viral video is built from 7 extractable, recombineable bricks.
+**What Kallaway Sees**: Content isn't a mysterious creative act—it's LEGO. Every viral video is built from 11 extractable, recombineable bricks. (Upgraded from the original 7-brick model.)
 
-**The Bricks**:
-1. **Topic** — What it's about (sets the ceiling)
-2. **Angle** — Specific perspective/take
-3. **Hook** — Attention mechanism (determines if ceiling is reached)
-4. **Story Structure** — Narrative arc
-5. **Visual Format** — Template/style
-6. **Key Visuals** — Memorable visual moments
-7. **Audio** — Music, SFX, voice
+**The Full 11 Bricks**:
+| # | Brick | Definition |
+|---|-------|------------|
+| 1 | **Format** | Type of video (talking head, b-roll essay, screen share, etc.) |
+| 2 | **Topic** | 2-3 word interest area |
+| 3 | **Seed** | One-line sentence: what's interesting about this video |
+| 4 | **Substance** | Facts, contrarian takes, examples — the meat |
+| 5 | **Spoken Hook** | Hook said aloud in first 1-2 sentences |
+| 6 | **Visual Hook** | What's shown in first 1-2 sentences |
+| 7 | **Text Hook** | On-screen text in first 1-2 seconds |
+| 8 | **Story Structure** | Bullet-level narrative arc |
+| 9 | **CTA** | Call to action at video end |
+| 10 | **Visual Layout** | How visuals are arranged (framing, composition) |
+| 11 | **Elements** | Video and audio elements in the edit |
 
-**The 88/12 Rule**: Hold 88% of winning bricks constant. Remix only 12% with your unique angle. This preserves proven patterns while adding differentiation.
+**The 4-of-5 Simplification** (for practitioners): Collapse 11 bricks to 5 master bricks: **Format, Idea, Hook, Script, Visuals**. Hold 4 constant, change 1. This is the "clone but don't copy" protocol — preserves proven patterns while adding differentiation.
 
 **Deployable Workflow**:
-1. Find 5x+ outlier in your niche
-2. Extract all 7 bricks
-3. Hold constant: Topic, Hook, Story Structure (highest-impact bricks)
-4. Remix: Angle, Key Visuals (add your perspective)
+1. Find 10x+ outlier in your niche (via Outlier Research, Pattern 5)
+2. Extract all 11 bricks (or simplified 5)
+3. Hold 4 of 5 constant — typically keep Hook, Script, Visuals, Format the same
+4. Change 1 — swap the Idea or Format to create your version
 5. Produce with validated foundation
+
+**Key Upgrade from v1**: The split of Hook into spoken/visual/text components enables much more precise cloning. You can match the visual hook exactly while bringing your own spoken hook, or vice versa.
 
 ---
 
@@ -370,14 +378,131 @@ Core Idea: "Your pricing problem is actually a positioning problem"
 
 ---
 
+## Pattern 21: Content-Audience-Product Fit (C.A.P. Fit)
+
+**What Kallaway Sees**: Refuses to discuss content strategy until the avatar + offer question is settled. Content without an offer is entertainment, not business. "Billions of views with zero dollars in sales" is the most common failure mode.
+
+**The Prerequisite Test**: Before any content work, validate this chain:
+```
+Content Topic → Viewer Pain → Product Solution
+```
+If any link is broken, your content attracts the wrong avatar. Fix C.A.P. Fit before touching competitor research, batches, or ramps.
+
+**The Math Filter**: Define your equation: `$[Price] × [Units] = $1M`. If you can't state this, you don't have a business framework — you have a hobby.
+
+- **Deployment Context**: First checkpoint in any content brand build. Run before competitor research.
+- **Success Metric**: You can draw a direct line from content topic → viewer pain → product solution. If any link breaks, stop and fix.
+
+---
+
+## Pattern 22: The Batched Scientific Testing Protocol
+
+**What Kallaway Sees**: Treats content creation as systematic A/B testing, not creative guessing. Every video is part of a batch with a hypothesis.
+
+**The Protocol**:
+1. Make batches of **10 videos**
+2. Each batch tests **3 different "stacks"** (a stack = 4 constant bricks + 1 variable)
+3. Post all 10. Calculate average views across the batch.
+4. Any video hitting **10x the batch average** = validated outlier winner
+5. Winning stack carries forward to next batch. Losing stacks replaced with new ones from competitor data.
+6. Repeat until you have **3 validated winning stacks**
+7. Once you have 3 winners → rinse and repeat indefinitely
+
+**Timeline Reality**:
+- **Beginners**: 5-10 batches (50-100 videos, ~2-4 months at 7/week)
+- **Experienced**: 3-5 batches (~1-2 months)
+
+**Convergence Signal**: "You know you have it when you keep posting the same type of thing and it keeps working."
+
+- **Deployment Context**: After competitor research is complete. This IS the content production phase.
+- **Success Metric**: 3 differentiated winning stacks identified and validated via 10x threshold.
+
+---
+
+## Pattern 23: Account Size Tier Targeting
+
+**What Kallaway Sees**: Automatically filters out large/mega accounts even when they produce outliers, because fame dilutes the insight.
+
+**The 6 Tiers**:
+| Tier | Followers | Research Value |
+|------|-----------|----------------|
+| Nano | 0-10K | ❌ Too small for pattern signal |
+| **Micro** | 10-50K | ✅ Prime research zone |
+| **Small** | 50-250K | ✅ Prime research zone |
+| **Medium** | 250K-1M | ✅ Usable with caution |
+| Large | 1-5M | ❌ Fame dilutes insight |
+| Mega | 5M+ | ❌ Outlier success = not replicable |
+
+- **Deployment Context**: First filter when building competitor watch list (Step 2 in the playbook).
+- **Success Metric**: Research list contains 10-20 accounts in the micro-to-medium range.
+
+---
+
+## Pattern 24: The Ramp Architecture (Content → Revenue Pipeline)
+
+**What Kallaway Sees**: Views without ramps = vanity metrics. Every video must feed a conversion pipeline.
+
+**The Pipeline**:
+```
+Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Purchase
+```
+
+**Conversion Thresholds by Price**:
+- **$300 and below**: Can convert directly in DM (ManyChat alone may suffice)
+- **$300-$2,000**: 5-day email drip converts well
+- **$2,000+**: Requires extended email nurture beyond initial 5-day sequence
+
+**The 5 Revenue Metrics**: Views per video, conversions to lead magnet per 100 views, emails sent, conversion rate per email, conversions needed to hit revenue target. "If you can't state all 5 numbers, you don't have a business — you have a hobby."
+
+- **Deployment Context**: After content strategy is validated. Build ramps before scaling content.
+- **Success Metric**: All 5 metrics are defined and measurable.
+
+---
+
+## Pattern 25: The 4 Blockers Framework
+
+**What Kallaway Sees**: Diagnoses client failures into exactly 4 buckets, each with a targeted intervention.
+
+| Blocker | Problem | Intervention |
+|---------|---------|-------------|
+| **1. Pattern Blindness** | Can't spot patterns across 100+ competitor videos | Simplify to 4-of-5 constant bricks — reduces complexity drastically |
+| **2. Production Friction** | Can't brute force enough reps | Follow the batch system (removes decision fatigue), lower production standards initially |
+| **3. Iteration Inability** | Content doesn't work despite cloning | Brick-by-brick comparison to source; isolate which brick is failing |
+| **4. Dual-Job Overload** | Running a business + making content = burnout | Solve blockers 1-3 → reduced content time → blocker 4 resolves |
+
+**The Cascade Effect**: Blocker 4 is a downstream symptom. Solving 1-3 alleviates 4 automatically.
+
+- **Deployment Context**: Self-diagnosis during content creation. Also a consulting diagnostic.
+- **Success Metric**: You can name which blocker you're stuck on and apply the correct intervention.
+
+---
+
+## Pattern 26: The Brand Deal vs. Owned Product Decision
+
+**What Kallaway Sees**: Brand deals scale linearly (more deals = more work). Owned products scale exponentially (content compounds, products convert without your time).
+
+**The Comparison**:
+- **Brand Deals**: $1K-$20K per deal. Straightforward but time-bound. Kallaway made $1M+ in deals but actively discourages this path.
+- **Owned Products**: $10-$100K per unit. Content becomes the sales engine. Time investment compounds.
+
+**The $100K Reframe**: "Most people watching this already sell a $100,000 product — it's their salary." The difference: employees trade every waking hour for it. Owned products trade content creation time (which compounds) for it.
+
+- **Deployment Context**: Offer architecture decisions. When choosing between sponsorships and building products.
+- **Success Metric**: Your revenue model is owned-product-first, with brand deals as supplemental (not primary).
+
+---
+
 ## Application Framework
 
 When using these patterns:
 
-1. **Diagnose First**: Which pattern is the content failing on?
-2. **Prioritize by Impact**: Topic > Hook > Angle > Structure (brick hierarchy)
-3. **Validate Before Creating**: Run through buyer-intent filter
-4. **Engineer, Don't Hope**: Design each level of the dopamine ladder intentionally
-5. **Test and Iterate**: Update pattern hypotheses with your own data
-6. **Build Proprietary Patterns**: Document what works specifically in YOUR niche
+1. **Check C.A.P. Fit First** (Pattern 21): Avatar + Offer must be solved before content
+2. **Diagnose Blockers** (Pattern 25): Which of the 4 blockers is stopping you?
+3. **Prioritize by Brick Hierarchy** (Pattern 10): Topic > Hook > Angle > Structure
+4. **Research at the Right Tier** (Pattern 23): Micro-to-medium accounts only
+5. **Run Batched Tests** (Pattern 22): 10-video batches, 3 stacks, 10x threshold
+6. **Engineer the Dopamine Ladder** (Pattern 1): Design each level intentionally
+7. **Build the Ramp** (Pattern 24): Content → Lead Magnet → Email → Purchase
+8. **Validate Before Creating**: Run through buyer-intent filter
+9. **Build Proprietary Patterns**: Document what works specifically in YOUR niche
 

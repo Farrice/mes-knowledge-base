@@ -44,18 +44,22 @@ Every successful content piece climbs this neurological hierarchy:
 | 5 | **Affection** | Relationship building through personality |
 | 6 | **Revelation** | Pavlovian conditioning from consistent value |
 
-### The 7 Lego Bricks
-Every piece of content decomposes into extractable, remixable elements:
+### The 11 Lego Bricks (v2 — Internet Money Machine)
+Every piece of content decomposes into 11 extractable, remixable elements:
 
-1. **Topic** — What it's about (sets ceiling)
-2. **Angle** — Specific perspective (differentiates)
-3. **Hook** — Attention capture (determines if ceiling reached)
-4. **Story Structure** — Narrative arc and pacing
-5. **Visual Format** — Template and style
-6. **Key Visuals** — Memorable visual moments
-7. **Audio** — Music, sound, voice
+1. **Format** — Type of video (talking head, b-roll, etc.)
+2. **Topic** — 2-3 word interest area
+3. **Seed** — One-line sentence: what's interesting
+4. **Substance** — Facts, contrarian takes, examples
+5. **Spoken Hook** — First 1-2 sentences (audio)
+6. **Visual Hook** — First 1-2 seconds (visual)
+7. **Text Hook** — On-screen text in opening
+8. **Story Structure** — Bullet-level narrative arc
+9. **CTA** — Call to action at video end
+10. **Visual Layout** — Framing, composition
+11. **Elements** — Video and audio elements in the edit
 
-**The 88/12 Rule**: Hold 88% of winning bricks constant, remix 12% with your unique angle.
+**The 4-of-5 Rule**: Collapse to 5 master bricks (Format, Idea, Hook, Script, Visuals). Hold 4 constant, change 1. Clone but don't copy.
 
 ### The Pain-Solution-Trust Triangle
 Buyer-attracting content must hit all three vertices:
@@ -107,10 +111,25 @@ If no → Kill the idea. Views ≠ revenue.
 
 ### The Remix Formula
 Pattern-mine the landscape:
-1. Find 5x+ outliers (minimum threshold for signal vs. noise)
-2. Decompose into 7 bricks
+1. Find 10x+ outliers (minimum threshold for signal vs. noise)
+2. Decompose into 11 bricks (or simplified 5)
 3. Identify which bricks drove the outlier performance
-4. Hold those constant; remix with your angle
+4. Hold 4 of 5 constant; swap 1 with your unique angle
+
+### The Batched Scientific Testing Protocol (Internet Money Machine)
+1. Make batches of **10 videos** testing **3 stacks** (4 constant bricks + 1 variable)
+2. Post all 10. Any video hitting **10x the batch average** = validated winner
+3. Keep winners, replace losers, repeat
+4. Exit when you have **3 validated winning stacks**
+
+### The Ramp Architecture
+```
+Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Purchase
+```
+Conversion thresholds: $300 and below (DM direct) | $300-$2K (5-day drip) | $2K+ (extended nurture)
+
+### Content-Audience-Product Fit (C.A.P. Fit)
+Before any content work: `Content Topic → Viewer Pain → Product Solution`. If any link breaks, stop.
 
 ---
 
@@ -156,10 +175,12 @@ Pattern-mine the landscape:
 
 | Skill Category | Prompts | Use For |
 |---------------|---------|---------|
-| **Research** | `buyer-profile-engineer`, `workflow-painpoint-extractor`, `outlier-pattern-extractor`, `seven-brick-decomposition` | Understanding audience and competition |
-| **Validation** | `buyer-intent-validator`, `avatar-outlier-bridge` | Confirming ideas before creating |
+| **Research** | `buyer-profile-engineer`, `workflow-painpoint-extractor`, `outlier-pattern-extractor`, `eleven-brick-decomposition` | Understanding audience and competition |
+| **Validation** | `buyer-intent-validator`, `avatar-outlier-bridge`, `cap-fit-check` | Confirming ideas and alignment before creating |
 | **Strategy** | `content-strategy-selector`, `offer-content-alignment`, `six-problem-diagnostic` | High-level direction and troubleshooting |
+| **Testing** | `batched-content-testing` | Scientific 10-video batch plans with stack testing |
 | **Creation** | `dopamine-ladder-architect`, `curiosity-loop-generator`, `pain-solution-trust-architect`, `narrative-tension-engine` | Producing content |
+| **Revenue** | `revenue-ramp-builder` | Complete CTA → lead magnet → email → purchase pipelines |
 | **Optimization** | `viral-optimizer`, `novel-solution-differentiator`, `content-multiplier` | Improving and scaling content |
 
 ---
@@ -173,5 +194,8 @@ Kallaway activates when user needs:
 - Script writing (dopamine-optimized content scripts)
 - Competitive analysis (reverse-engineering successful content)
 - Content psychology (why attention, retention, and action work)
+- **Batch testing** (scientific content formula discovery)
+- **Revenue ramps** (content-to-purchase conversion pipelines)
+- **C.A.P. Fit validation** (content-audience-product alignment)
 
-**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, or buyer-focused content.
+**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, or buyer-focused content.

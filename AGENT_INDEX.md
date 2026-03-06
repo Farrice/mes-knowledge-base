@@ -41,7 +41,7 @@
 | `jeremy-haynes` | **Jeremy Haynes** | agent |
 | `jeremy-miner` | **Jeremy Miner: Identity-Based Persuasion Master** | identity frame engineering, identity-based persuasion master, indirect framing, objection prevention, pre-frame architecture, reframe mastery |
 | `jim-oshaughnessy` | **jim-oshaughnessy** | behavioral finance, cross-domain synthesis, four horsemen defense, human nature arbitrage, pre-fall/post-fall assessment, saturated intuition calibration, strategic thinking, wisdom transmission |
-| `joanna-wiebe` | **joanna-wiebe** | cognitive bias operationalization, conversion copywriting, money words mining, persuasion level diagnosis, persuasive writing, story selling, system 1/system 2 traffic control |
+| `joanna-wiebe` | **joanna-wiebe** | cognitive bias operationalization, conversion copywriting, money words mining, persuasion level diagnosis, persuasive writing, story selling, system 1/system 2 traffic control, writing career monetization, service positioning, offer architecture, revenue model design, channel audit, funnel diagnostic, messaging strategy, invisible sales architecture, ghostwriting business |
 | `jonathan-courtney` | **Jonathan Courtney** | agent persona |
 | `jonathan-franzen` | **Jonathan Franzen** | agent profile, compression, literary fiction • character psychology • narrative compression • storytelling → marketing translation |
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |
@@ -90,6 +90,7 @@
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |
 | `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |
+| `steven-pressfield` | **Steven Pressfield** | narrative mastery agent, physics |
 | `stockton-walbeck` | **Stockton Walbeck: Lead Magnet Strategist** | 5-rule scoring, full-funnel architecture, idea generation, lead magnet classification, lead magnet strategist, rule 5 bridge design |
 | `tao-prompts` | **Tao Prompts** | ai video pipeline architect |
 | `thrivecart` | **thrivecart** | digital product business building and scaling, grocery store psychology, product ecosystem, seven iterations protocol, three levers model, weekend product standard |

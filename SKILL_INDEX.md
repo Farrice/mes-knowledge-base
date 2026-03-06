@@ -56,13 +56,14 @@
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner: Identity-Based Persuasion & Psychological Framing** | identity-based persuasion & psychological framing | 3 | 14 |
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | philosopher-financier skill | 5 | 30 |
 | `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery | 3 | 6 |
+| `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | writing career monetization, service positioning, offer architecture, revenue model, ghostwriting business, copywriting business, channel strategy, messaging strategy, invisible sales page, funnel diagnostic | 5 | 10 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy | 2 | 5 |
 | `jonathan-franzen-storytelling` | **Jonathan Franzen - Storytelling Mastery** | storytelling mastery | 4 | 6 |
 | `josh-sanders-linkedin-growth` | **Josh Sanders: LinkedIn Growth & High-Ticket Education** | linkedin growth & high-ticket education | 5 | 18 |
 | `joshua-smith-real-estate` | **Joshua Smith: Real Estate Sales Mastery** | real estate sales mastery | 4 | 12 |
 | `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** |  | 3 | 7 |
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | personal brand mastery | 4 | 34 |
-| `kallaway-content-psychology` | **Kallaway Content Psychology** | content that attracts buyers, not just views | 5 | 39 |
+| `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
 | `kittl-graphic-design` | **Kittl Graphic Design** |  | 4 | 23 |
 | `lance-yichao-context-engineering` | **Lance Martin & Yichao "Peak" Ji - Context Engineering** | context engineering | 3 | 17 |
 | `lara-acosta-content-system` | **Lara Acosta: Tech Founder Content System** | tech founder content system | 2 | 4 |
@@ -112,7 +113,8 @@
 | `rachel-woods-ai-operations` | **Rachel Woods: AI Operations Mastery** | ai operations mastery | 3 | 7 |
 | `react-components` | **react:components** |  | 0 | 0 |
 | `remotion-video-creation` | **remotion-best-practices** | best practices for remotion - video creation in react | 0 | 0 |
-| `robert-mack-comedy-writing` | **Robert Mack: Comedy Writing Mastery** | comedy writing mastery | 4 | 20 |
+| `fresh-voice-system` | **Fresh Voice System** | farrice cain voice dna, linkedin voice, writing style, rhythm patterns, comedy mechanics, quality checks, standalone voice layer | 0 | 0 |
+| `robert-mack-comedy-writing` | **Robert Mack: Comedy Writing Mastery** | comedy writing mastery, comedy intelligence, humor engineering, domain applications, zeitgeist calibration, cultural relevance, voice layer, linkedin comedy, punch up, comedic writing style | 7 | 30 |
 | `rory-sutherland-marketing` | **Rory Sutherland: Marketing Psychology Mastery** | marketing psychology mastery | 5 | 32 |
 | `ross-mckay-premium-at-scale` | **Ross McKay: Premium at Scale** | premium at scale | 1 | 3 |
 | `sabri-suby-ai-advertising` | **Sabri Suby AI Advertising** |  | 4 | 16 |
@@ -130,6 +132,7 @@
 | `skill-creator` | **skill-creator** | guide for creating effective skills | 0 | 0 |
 | `slack-gif-creator` | **slack-gif-creator** | knowledge and utilities for creating animated gifs optimized for slack, provides constraints, validation tools, and animation concepts | 0 | 0 |
 | `soowei-consulting-leverage` | **SooWei Goh — Consulting Leverage Mastery** | consulting leverage mastery | 4 | 14 |
+| `steven-pressfield-narrative-mastery` | **Steven Pressfield — Narrative Mastery** | not formula, physics, narrative mastery | 7 | 0 |
 | `stitch-loop` | **stitch-loop** |  | 0 | 0 |
 | `stockton-walbeck-lead-magnets` | **Stockton Walbeck — Lead Magnet Mastery** | lead magnet mastery | 3 | 5 |
 | `swarm-commander` | **swarm-commander** |  | 0 | 4 |
