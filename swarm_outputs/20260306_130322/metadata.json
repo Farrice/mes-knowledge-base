@@ -1,0 +1,66 @@
+{
+  "objective": "Research which niches have the HIGHEST demand for LinkedIn ghostwriting services right now. Analyze: 1) Upwork/Fiverr job posting volume by niche, 2) LinkedIn job searches for 'ghostwriter' by industry, 3) Which niches have demand that outpaces supply (hard to find qualified ghostwriters), 4) Which niches pay the highest rates (K-5K+ month), 5) Which niches require the LEAST convincing (they already know they need it). Rank top 3 niches by demand + urgency + pricing.",
+  "timestamp": "20260306_130322",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 45128,
+  "total_cost_usd": 0.0493,
+  "duration_seconds": 68.7,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "lara-acosta",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5288,
+      "cost": 0.0031190999999999997,
+      "duration": 8.6,
+      "thinking_tokens": 897,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6500,
+      "cost": 0.0035194,
+      "duration": 15.9,
+      "thinking_tokens": 2014,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "nicolas-cole",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6766,
+      "cost": 0.0031205,
+      "duration": 14.4,
+      "thinking_tokens": 2099,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "fareed-zakaria",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5643,
+      "cost": 0.0033235,
+      "duration": 12.7,
+      "thinking_tokens": 1700,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "lucas-alpay",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6887,
+      "cost": 0.0036867000000000002,
+      "duration": 15.1,
+      "thinking_tokens": 2276,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

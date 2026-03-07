@@ -145,6 +145,7 @@
 | `thrivecart-digital-products` | **ThriveCart Digital Products** |  | 4 | 16 |
 | `tim-danilov-niche-bending` | **Tim Danilov: Niche Bending** | niche bending | 4 | 12 |
 | `tobias-allen-marketing-mastery` | **Tobias Allen — Marketing Mastery** | marketing mastery | 3 | 10 |
+| `tom-noske-content-creation` | **Tom Noske - Content Creation Methodology** | authenticity-first content creation, zone of genius format diagnosis, energy auditing, quantity-driven skill acquisition, promise-payoff architecture, de-shielding, effort topology, 60-30-10 rule | 4 | 0 |
 | `tom-noske-personal-brand` | **Tom Noske Personal Brand** |  | 4 | 26 |
 | `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | linkedin founder growth | 2 | 4 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | tyler denk (audience monetization) | 2 | 4 |

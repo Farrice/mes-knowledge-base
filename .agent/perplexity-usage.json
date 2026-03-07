@@ -1,69 +1,41 @@
 {
-    "monthly_limit_usd": 10.00,
-    "current_month": "2026-02",
+    "monthly_limit_usd": 10.0,
+    "current_month": "2026-03",
     "usage": {
-        "total_queries": 6,
-        "estimated_cost_usd": 0.27,
+        "total_queries": 4,
+        "estimated_cost_usd": 0.2,
         "queries": [
             {
-                "timestamp": "2026-02-05T19:45:03-08:00",
-                "type": "test",
-                "model": "sonar",
-                "description": "API connection test (2+2)",
-                "task_context": "System setup",
-                "estimated_cost": 0.02,
-                "new_info_score": "n/a",
-                "tier": 4
+                "timestamp": "2026-03-06T20:55:35.428796+00:00",
+                "type": "research",
+                "model": "sonar-pro",
+                "description": "Analyze the current state of: Validate market demand for LinkedIn ghostwriting services targeting entertainment professionals (actors, writers, comedians in TV/film). Research: 1) Do entertainment pro",
+                "task_context": "swarm-research: Validate market demand for LinkedIn ghostwriting services targeting entertainmen",
+                "estimated_cost": 0.05
             },
             {
-                "timestamp": "2026-02-14T18:10:30-08:00",
-                "type": "social_listening",
-                "model": "sonar",
-                "description": "Executive health pain points, Reddit community sentiment, psychographic barriers",
-                "task_context": "Resurrection Coach - Avatar Dossier Research",
-                "estimated_cost": 0.05,
-                "new_info_score": 6,
-                "tier": 1
+                "timestamp": "2026-03-06T20:55:53.849977+00:00",
+                "type": "research",
+                "model": "sonar-pro",
+                "description": "What are the contrarian views, criticisms, and failure cases related to: Validate market demand for LinkedIn ghostwriting services targeting entertainment professionals (actors, writers, comedians in ",
+                "task_context": "swarm-research: Validate market demand for LinkedIn ghostwriting services targeting entertainmen",
+                "estimated_cost": 0.05
             },
             {
-                "timestamp": "2026-02-14T18:10:35-08:00",
-                "type": "competitive_intel",
-                "model": "sonar",
-                "description": "Top 10 premium executive health coaches/programs, pricing, positioning",
-                "task_context": "Resurrection Coach - Avatar Dossier Research",
-                "estimated_cost": 0.05,
-                "new_info_score": 7,
-                "tier": 1
+                "timestamp": "2026-03-06T21:02:03.618922+00:00",
+                "type": "research",
+                "model": "sonar-pro",
+                "description": "Analyze the current state of: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services right now. Analyze: 1) Upwork/Fiverr job posting volume by niche, 2) LinkedIn job searche",
+                "task_context": "swarm-research: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services",
+                "estimated_cost": 0.05
             },
             {
-                "timestamp": "2026-02-14T18:10:40-08:00",
-                "type": "market_sizing",
-                "model": "sonar",
-                "description": "TAM/SAM/SOM for executive health coaching, growth rates, demographics",
-                "task_context": "Resurrection Coach - Avatar Dossier Research",
-                "estimated_cost": 0.05,
-                "new_info_score": 9,
-                "tier": 1
-            },
-            {
-                "timestamp": "2026-02-14T18:11:00-08:00",
-                "type": "social_listening",
-                "model": "sonar",
-                "description": "Reddit forum sentiment on exec health decline, coaching complaints, shame/stigma",
-                "task_context": "Resurrection Coach - Avatar Dossier Research",
-                "estimated_cost": 0.05,
-                "new_info_score": 9,
-                "tier": 1
-            },
-            {
-                "timestamp": "2026-02-14T18:11:05-08:00",
-                "type": "trend_verification",
-                "model": "sonar",
-                "description": "Verification of 6 market claims from Agent 7 output with verdicts",
-                "task_context": "Resurrection Coach - Avatar Dossier Research",
-                "estimated_cost": 0.05,
-                "new_info_score": 8,
-                "tier": 1
+                "timestamp": "2026-03-06T21:02:13.749492+00:00",
+                "type": "research",
+                "model": "sonar-pro",
+                "description": "What are the contrarian views, criticisms, and failure cases related to: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services right now. Analyze: 1) Upwork/Fiverr job posti",
+                "task_context": "swarm-research: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services",
+                "estimated_cost": 0.05
             }
         ]
     },
@@ -72,12 +44,9 @@
         "block_at_percent": 100
     },
     "loop_detection": {
-        "current_task_query_count": 8,
-        "current_task_name": "Expert Extraction Service - Shadow Market Analysis",
-        "last_query_timestamp": "2026-02-24T10:45:00-08:00",
+        "current_task_query_count": 2,
+        "current_task_name": "swarm-research: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services",
+        "last_query_timestamp": "2026-03-06T21:02:13.749492+00:00",
         "consecutive_low_info_queries": 0
-    },
-    "notes": {
-        "2026-02-24": "Used WebSearch (not Perplexity) for 8 competitive intelligence queries on AI consulting pricing, productized services, and market sentiment. No Perplexity budget consumed."
     }
 }

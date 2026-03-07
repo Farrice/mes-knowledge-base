@@ -1,0 +1,66 @@
+{
+  "objective": "Validate market demand for LinkedIn ghostwriting services targeting entertainment professionals (actors, writers, comedians in TV/film). Research: 1) Do entertainment professionals use LinkedIn for personal branding? 2) What are they paying for similar services? 3) Who are the competitors in this space? 4) What are their primary pain points around LinkedIn content creation? 5) What pricing models work best?",
+  "timestamp": "20260306_125708",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 59826,
+  "total_cost_usd": 0.0551,
+  "duration_seconds": 74.2,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "lara-acosta",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9238,
+      "cost": 0.004494,
+      "duration": 19.1,
+      "thinking_tokens": 2596,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "shaan-puri",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9897,
+      "cost": 0.004536,
+      "duration": 20.0,
+      "thinking_tokens": 2763,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8683,
+      "cost": 0.0039268,
+      "duration": 16.8,
+      "thinking_tokens": 2333,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "erica-mallet",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8709,
+      "cost": 0.0043635,
+      "duration": 14.0,
+      "thinking_tokens": 1534,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tom-noske",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8739,
+      "cost": 0.0044168,
+      "duration": 16.4,
+      "thinking_tokens": 2259,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

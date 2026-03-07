@@ -99,7 +99,7 @@
 | `thrivecart` | **thrivecart** | digital product business building and scaling, grocery store psychology, product ecosystem, seven iterations protocol, three levers model, weekend product standard |
 | `tim-danilov` | **Tim Danilov** | niche bending strategist, signature advantage |
 | `tobias-allen` | **Tobias Allen** | agent profile |
-| `tom-noske` | **tom-noske** | archetype diagnosis, content monetization architecture, flywheel design, mission architecture, personal brand monetization and creator business, pre-sold pipeline, seven-ingredient products, small audience monetization, trust infrastructure |
+| `tom-noske` | **tom-noske** | archetype diagnosis, authenticity physics, content creation methodology, content monetization architecture, de-shielding, effort topology, flywheel design, mission architecture, personal brand monetization and creator business, pre-sold pipeline, promise-payoff architecture, quantity sprint, seven-ingredient products, small audience monetization, trust infrastructure, zone of genius |
 | `tommy-clark` | **Tommy Clark: LinkedIn Growth & Founder-Led Content Master** | audience architecture, founder-led content master, interview extraction, linkedin growth, narrative pivoting, stealth hook engineering |
 | `tyler-denk` | **tyler-denk** | "one-of-one" narrative moat, audience monetization, compounding growth stack, founder-led growth, post-subscribe intelligence capture, the "automated authenticity" paradox, zero-cost referral lever |
 | `ward-farnsworth` | **ward-farnsworth** | agent configuration |
