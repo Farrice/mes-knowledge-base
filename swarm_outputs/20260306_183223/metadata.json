@@ -1,0 +1,77 @@
+{
+  "objective": "Deep market research on LinkedIn ghostwriting for coaches and health & wellness professionals. Analyze: (1) Is ghostwriting a valuable service for health coaches, wellness coaches, life coaches, and personal trainers? (2) What is the market demand, size, and growth trajectory? (3) What specific pain points do coaches/trainers have around content creation and LinkedIn presence? (4) Who are the competitors in this ghostwriting niche? (5) What is the perfect market fit \u2014 which sub-vertical (health coaches vs wellness coaches vs personal trainers vs executive coaches) represents the best opportunity? (6) What pricing models work? (7) What acquisition channels reach these buyers? Each expert should apply their specific framework to this analysis.",
+  "timestamp": "20260306_183223",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 74606,
+  "total_cost_usd": 0.0847,
+  "duration_seconds": 81.5,
+  "api_calls": 8,
+  "agents": [
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9102,
+      "cost": 0.007171,
+      "duration": 22.9,
+      "thinking_tokens": 1204,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "nicolas-cole",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8716,
+      "cost": 0.005127400000000001,
+      "duration": 16.7,
+      "thinking_tokens": 955,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "jeremy-miner",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6325,
+      "cost": 0.0072584,
+      "duration": 19.5,
+      "thinking_tokens": 1395,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "kallaway",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 11121,
+      "cost": 0.007873199999999999,
+      "duration": 21.3,
+      "thinking_tokens": 938,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "seena-rez",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8001,
+      "cost": 0.0033943000000000003,
+      "duration": 24.7,
+      "thinking_tokens": 3539,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "joanna-wiebe",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8530,
+      "cost": 0.0071989,
+      "duration": 23.0,
+      "thinking_tokens": 508,
+      "grounding_queries": 1,
+      "error": null
+    }
+  ]
+}

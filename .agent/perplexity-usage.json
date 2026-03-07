@@ -2,8 +2,8 @@
     "monthly_limit_usd": 10.0,
     "current_month": "2026-03",
     "usage": {
-        "total_queries": 4,
-        "estimated_cost_usd": 0.2,
+        "total_queries": 6,
+        "estimated_cost_usd": 0.3,
         "queries": [
             {
                 "timestamp": "2026-03-06T20:55:35.428796+00:00",
@@ -36,6 +36,22 @@
                 "description": "What are the contrarian views, criticisms, and failure cases related to: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services right now. Analyze: 1) Upwork/Fiverr job posti",
                 "task_context": "swarm-research: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services",
                 "estimated_cost": 0.05
+            },
+            {
+                "timestamp": "2026-03-07T02:37:53.477669+00:00",
+                "type": "research",
+                "model": "sonar-pro",
+                "description": "Analyze the current state of: Deep research: Coaching ghostwriting vertical analysis. For each agent's domain, analyze: 1. Which coaching sub-segment (life, business, health, executive, career) is the",
+                "task_context": "swarm-research: Deep research: Coaching ghostwriting vertical analysis. For each agent's domain,",
+                "estimated_cost": 0.05
+            },
+            {
+                "timestamp": "2026-03-07T02:38:29.911438+00:00",
+                "type": "research",
+                "model": "sonar-pro",
+                "description": "What are the contrarian views, criticisms, and failure cases related to: Deep research: Coaching ghostwriting vertical analysis. For each agent's domain, analyze: 1. Which coaching sub-segment (life, ",
+                "task_context": "swarm-research: Deep research: Coaching ghostwriting vertical analysis. For each agent's domain,",
+                "estimated_cost": 0.05
             }
         ]
     },
@@ -45,8 +61,8 @@
     },
     "loop_detection": {
         "current_task_query_count": 2,
-        "current_task_name": "swarm-research: Research which niches have the HIGHEST demand for LinkedIn ghostwriting services",
-        "last_query_timestamp": "2026-03-06T21:02:13.749492+00:00",
+        "current_task_name": "swarm-research: Deep research: Coaching ghostwriting vertical analysis. For each agent's domain,",
+        "last_query_timestamp": "2026-03-07T02:38:29.911438+00:00",
         "consecutive_low_info_queries": 0
     }
 }

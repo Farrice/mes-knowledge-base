@@ -1,0 +1,88 @@
+{
+  "objective": "Deep research: Coaching ghostwriting vertical analysis. For each agent's domain, analyze: 1. Which coaching sub-segment (life, business, health, executive, career) is the best target for premium LinkedIn ghostwriting services priced at 3000-5000 per month? 2. What is the psychology, identity, and buying behavior of coaches who would pay for ghostwriting? 3. What competitive alternatives exist and where are the gaps? 4. How should a solo operator with AI-augmented voice-first methodology position, price, and launch this service with zero existing proof? Context: The operator has 18 years psychology and coaching experience, 95 expert AI agents, a voice-first content pipeline, and is building AI-integrated ghostwriting systems. Target platform is LinkedIn. The operator needs to find a niche, understand consumer pain points and promises they want kept, and find customers as soon as possible.",
+  "timestamp": "20260306_183945",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 92529,
+  "total_cost_usd": 0.0863,
+  "duration_seconds": 76.0,
+  "api_calls": 9,
+  "agents": [
+    {
+      "name": "dai-media",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 10900,
+      "cost": 0.007813,
+      "duration": 20.2,
+      "thinking_tokens": 1672,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 10243,
+      "cost": 0.0062316,
+      "duration": 17.9,
+      "thinking_tokens": 1901,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "april-dunford",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9593,
+      "cost": 0.0056121,
+      "duration": 15.1,
+      "thinking_tokens": 1820,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "jeremy-miner",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 11122,
+      "cost": 0.0049815,
+      "duration": 19.6,
+      "thinking_tokens": 2943,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "lara-acosta",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9451,
+      "cost": 0.0059991,
+      "duration": 14.8,
+      "thinking_tokens": 1334,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "rory-sutherland",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9425,
+      "cost": 0.0056905,
+      "duration": 18.3,
+      "thinking_tokens": 2080,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "daniel-priestley",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 10518,
+      "cost": 0.0038928,
+      "duration": 20.3,
+      "thinking_tokens": 3306,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}
