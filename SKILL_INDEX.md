@@ -81,7 +81,7 @@
 | `made-to-stick-messaging` | **Made to Stick Messaging (Dan & Chip Heath)** |  | 4 | 36 |
 | `manus-ai-consulting` | **Manus.ai: AI Consulting Mastery** | ai consulting mastery | 4 | 14 |
 | `marc-andreessen-ai-thesis` | **Marc Andreessen: AI Thesis & Technology Philosophy** | ai thesis & technology philosophy | 3 | 11 |
-| `maria-wendt-digital-products` | **Maria Wendt: Digital Product Mastery** | digital product mastery | 4 | 17 |
+| `maria-wendt-digital-products` | **Maria Wendt: Digital Product Mastery** | digital product, validation, pricing, MVP, sales page, first sale, trust marketing, outcome selling, messaging | 9 | 17 |
 | `mark-kashef-agent-orchestration` | **Mark Kashef Agent Orchestration** |  | 2 | 4 |
 | `mark-kashef-ai-councils` | **Mark Kashef AI Councils** |  | 3 | 7 |
 | `mark-kashef-banana-squad` | **Mark Kashef — Banana Squad Image Agent Team** | banana squad image agent team | 2 | 4 |

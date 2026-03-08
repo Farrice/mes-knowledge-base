@@ -12,6 +12,7 @@ Generate images from text prompts using Google's Nano Banana 2 model (`gemini-3.
 /generate-image [prompt]
 /generate-image --aspect 16:9 [prompt]
 /generate-image --edit path/to/image.png [prompt]
+/generate-image --reference path/to/style.png [prompt]
 ```
 
 ## Examples
@@ -19,16 +20,18 @@ Generate images from text prompts using Google's Nano Banana 2 model (`gemini-3.
 - `/generate-image "A futuristic logo for an AI company with anti-gravity themes"`
 - `/generate-image --aspect 16:9 "LinkedIn banner about AI agents disrupting consulting"`
 - `/generate-image --edit deliverables/images/logo.png "Make the background gradient darker"`
+- `/generate-image --reference assets/hero.png "Another angle of this exact character, cinematic lighting"`
 
 ## Steps
 
 ### 1. Clarify the Prompt
 
-If the user provides a vague prompt, sharpen it:
-- **Subject**: What is the main element?
-- **Style**: Photorealistic, illustration, minimalist, abstract?
-- **Mood**: Professional, playful, dramatic, clean?
+If the user provides a vague prompt, sharpen it using **Nano Banana 2 Best Practices**:
+- **Subject**: Describe scenes narratively, not keyword-based ("A warm amber-lit café" instead of "café, warm")
+- **Style**: Use photographic/cinematic terminology (e.g., "35mm lens, golden hour glow, macro photography")
+- **Text**: Provide exact text in quotes and specify desired font style and placement.
 - **Format**: Square (social), 16:9 (banner), 9:16 (story)?
+- **Consistency**: Is there a reference image? Use `--reference`.
 
 ### 2. Generate the Image
 
@@ -41,6 +44,11 @@ python /Users/farricecain/Google\ Antigravity/execution/generate_image.py --aspe
 For image editing (modifying an existing image):
 ```bash
 python /Users/farricecain/Google\ Antigravity/execution/generate_image.py --edit [INPUT_PATH] "[EDIT_INSTRUCTIONS]"
+```
+
+For style transfer or character consistency (using prior image as reference):
+```bash
+python /Users/farricecain/Google\ Antigravity/execution/generate_image.py --reference [REF_PATH] "[PROMPT]"
 ```
 
 ### 3. Deliver

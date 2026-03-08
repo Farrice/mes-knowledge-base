@@ -180,6 +180,7 @@ class GeminiClient:
         temperature: float = 0.7,
         max_output_tokens: int = 4096,
         thinking_budget: Optional[int] = None,
+        thinking_level: Optional[str] = None,
         grounding: bool = False,
         response_schema: Any = None,
         response_mime_type: Optional[str] = None,
@@ -195,6 +196,7 @@ class GeminiClient:
             temperature: Sampling temperature (0.0-2.0).
             max_output_tokens: Max response length.
             thinking_budget: Token budget for chain-of-thought reasoning. None = disabled.
+            thinking_level: Reasoning depth for operations. ('low', 'high')
             grounding: Enable Google Search grounding.
             response_schema: JSON schema dict for structured output.
             response_mime_type: MIME type for structured output (e.g. "application/json").
@@ -215,10 +217,13 @@ class GeminiClient:
             config.system_instruction = system_instruction
 
         # Thinking mode
-        if thinking_budget is not None and thinking_budget > 0:
-            config.thinking_config = types.ThinkingConfig(
-                thinking_budget=thinking_budget
-            )
+        if (thinking_budget is not None and thinking_budget > 0) or thinking_level:
+            thinking_kwargs = {}
+            if thinking_budget:
+                thinking_kwargs["thinking_budget"] = thinking_budget
+            if thinking_level:
+                thinking_kwargs["thinking_level"] = thinking_level
+            config.thinking_config = types.ThinkingConfig(**thinking_kwargs)
 
         # Google Search grounding
         if grounding:
@@ -376,6 +381,7 @@ class GeminiClient:
         image_size: str = "1K",
         aspect_ratio: str = "1:1",
         input_image_path: Optional[str] = None,
+        reference_image_paths: Optional[List[str]] = None,
         retries: int = 1,
     ) -> Tuple[List[bytes], ResponseMeta]:
         """
@@ -387,6 +393,7 @@ class GeminiClient:
             image_size: Resolution — "512px", "1K", "2K", or "4K".
             aspect_ratio: Aspect ratio — e.g. "1:1", "16:9", "9:16", "4:3", "3:4".
             input_image_path: Path to an image for editing (text+image input).
+            reference_image_paths: List of paths to images for fusion/style reference.
             retries: Max retry attempts.
 
         Returns:
@@ -404,10 +411,15 @@ class GeminiClient:
 
         # Build contents — text only, or text + image for editing
         contents = [prompt]
-        if input_image_path:
+        if input_image_path or reference_image_paths:
             from PIL import Image as PILImage
-            img = PILImage.open(input_image_path)
-            contents.append(img)
+            if input_image_path:
+                img = PILImage.open(input_image_path)
+                contents.append(img)
+            if reference_image_paths:
+                for ref_path in reference_image_paths:
+                    img = PILImage.open(ref_path)
+                    contents.append(img)
 
         start = time.monotonic()
         last_error = None

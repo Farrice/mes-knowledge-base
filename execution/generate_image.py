@@ -9,6 +9,7 @@ Usage:
     python generate_image.py --aspect 16:9 "A wide banner for a LinkedIn post about AI agents"
     python generate_image.py --output my_image.png "A minimalist icon"
     python generate_image.py --edit input.png "Make the background darker and add a subtle glow"
+    python generate_image.py --reference prev_char.png --resolution 2K "The same character holding a sword"
 """
 
 import asyncio
@@ -27,7 +28,8 @@ OUTPUT_DIR = Path(__file__).parent.parent / "deliverables" / "images"
 
 
 async def generate(prompt: str, aspect_ratio: str = "1:1",
-                   output_path: str = None, edit_path: str = None):
+                   output_path: str = None, edit_path: str = None,
+                   references: list = None, resolution: str = "1K"):
     """Generate an image and save to disk."""
     client = GeminiClient()
 
@@ -36,8 +38,11 @@ async def generate(prompt: str, aspect_ratio: str = "1:1",
     print(f"{'='*50}")
     print(f"📝 Prompt: {prompt}")
     print(f"📐 Aspect: {aspect_ratio}")
+    print(f"📏 Resolution: {resolution}")
     if edit_path:
         print(f"✏️  Editing: {edit_path}")
+    if references:
+        print(f"🔗 References: {len(references)} image(s)")
     print(f"{'='*50}\n")
 
     start = time.time()
@@ -46,6 +51,8 @@ async def generate(prompt: str, aspect_ratio: str = "1:1",
         prompt,
         aspect_ratio=aspect_ratio,
         input_image_path=edit_path,
+        reference_image_paths=references,
+        image_size=resolution,
     )
 
     duration = time.time() - start
@@ -96,14 +103,19 @@ Examples:
   python generate_image.py --aspect 16:9 "LinkedIn banner about AI agents"
   python generate_image.py --output brand/logo.png "Minimalist gravity logo"
   python generate_image.py --edit photo.png "Add cinematic lighting"
+  python generate_image.py --reference style.png "A dog in this exact artistic style"
         """
     )
     parser.add_argument("prompt", help="Text description of the image to generate")
     parser.add_argument("--aspect", default="1:1",
                         choices=["1:1", "16:9", "9:16", "4:3", "3:4"],
                         help="Aspect ratio (default: 1:1)")
+    parser.add_argument("--resolution", default="1K",
+                        choices=["1K", "2K", "4K"],
+                        help="Output resolution (default: 1K)")
     parser.add_argument("--output", "-o", help="Output file path (default: auto-generated)")
     parser.add_argument("--edit", help="Path to input image for editing (text+image mode)")
+    parser.add_argument("--reference", "-r", action="append", help="Path to reference image(s) for style/character consistency")
 
     args = parser.parse_args()
 
@@ -112,6 +124,8 @@ Examples:
         aspect_ratio=args.aspect,
         output_path=args.output,
         edit_path=args.edit,
+        references=args.reference,
+        resolution=args.resolution,
     ))
 
     if not result:
