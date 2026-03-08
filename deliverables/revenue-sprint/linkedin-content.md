@@ -2,168 +2,141 @@
 
 **Date:** March 7, 2026
 **Author:** Farrice Cain
+**Positioning:** Copywriter & Content Strategist | Psychology-Informed | AI-Powered Research
 **Status:** Ready to deploy. Copy, paste, post.
 
 ---
 
 ## SECTION 1: LINKEDIN POST #1 (Day 1)
 
-**Topic:** "I built an AI research engine with 95 expert agents."
+**Topic:** "Why most copy doesn't convert — and what I do differently"
 
 ---
 
-I built an AI research engine with 95 expert agents.
+Most copy doesn't convert because it was written from a template.
 
-Not hypothetically. Not "coming soon." It's running right now.
+A swipe file. A "proven framework." Fill in the blanks, hit publish, wonder why nobody buys.
 
-Last week a client asked me to analyze the executive coaching market.
+I know because I used to do it too.
 
-Here's what I deployed:
+Then I spent 18 years studying why people actually make decisions. Not what they SAY they want. What they THINK when nobody's watching. The internal monologue that drives the click, the DM, the "shut up and take my money."
 
--- 7 agents running in parallel
--- Consumer psychology analysis
--- Competitive positioning audit
--- Behavioral economics modeling
--- Sales objection mapping
--- Go-to-market blueprint
--- Full market sizing with live data
+That changed everything about how I write.
 
-Total delivery time: 4 hours.
+Now when I sit down to write copy for a client, I don't start with a blank page and a headline formula. I start with buyer psychology research so deep it reads like a character study.
 
-An agency would charge $5,000-$15,000 for that. A consulting firm would take 6-8 weeks.
+I built an AI research engine that runs parallel psychological analysis on your buyers — identity-level motivations, hidden objections, the exact language their brain uses when they're alone at 11pm Googling solutions.
 
-I ran it while my son napped.
+The copy comes AFTER I understand the human.
 
-The system isn't magic. It's 18 years of psychology and coaching experience encoded into AI — then stacked with business strategists, positioning experts, and behavioral economists working simultaneously.
+That's the difference between words on a page and words that make people feel seen.
 
-Every agent carries the full methodology of its domain. They don't summarize. They think.
+Most copywriters write AT your audience.
+I write FROM inside their head.
 
-The output isn't a ChatGPT wall of text. It's a McKinsey-grade strategic dossier built from 7 different expert lenses, cross-referenced and synthesized.
-
-I'm opening up founding-rate strategy sessions for business owners who want to see what this engine produces when it's pointed at THEIR market.
-
-DM me "AUDIT" if you want to run your business through it.
+If your copy feels flat and you can't figure out why — DM me "COPY" and I'll tell you the #1 thing I'd change.
 
 ---
 
 ## SECTION 2: LINKEDIN POST #2 (Day 2)
 
-**Topic:** "I decoded 14 patterns in how executive coaching buyers make decisions."
+**Topic:** "I wrote a 10-post LinkedIn series for a coaching client. Here's the framework that made it work."
 
 ---
 
-I decoded 14 patterns in how executive coaching buyers make decisions.
+Last week I delivered a 10-post LinkedIn series to a coaching client.
 
-Most "ICP research" looks like this:
--- Age: 35-55
--- Title: VP or above
--- Income: $200K+
+Not 10 random posts. A narrative arc. Like a TV season with a storyline that builds across every episode.
 
-That tells you nothing about why they buy.
+Here's the framework:
 
-So I ran a different kind of research. Consumer Posture Profiling. Not demographics. Identity.
+**Act 1 — Recognition (Posts 1-3)**
+Meet the reader inside their current pain. No pitching. No "I can help you." Just hold up a mirror so clear they screenshot it and send it to a friend.
 
-Here's what I found:
+"This is literally me."
 
-The #1 reason executive coaches struggle to sell online has nothing to do with their offer. It's the Authenticity Paradox.
+That's the reaction you're engineering.
 
-They believe thought leadership is essential for growth.
-They also believe outsourcing it would make them inauthentic.
+**Act 2 — Diagnosis (Posts 4-6)**
+Now name what they couldn't name themselves. The real reason they're stuck. Not the surface problem — the psychological pattern underneath it. This is where 18 years of studying human behavior becomes a weapon.
 
-Those two beliefs are in direct conflict.
-The conflict keeps them stuck.
-They do nothing.
+**Act 3 — Solution (Posts 7-9)**
+Introduce the methodology. But not as a sales pitch — as a paradigm shift. The reader should feel like the ground moved under them. Like they can't go back to thinking the old way.
 
-Meanwhile, less-qualified coaches with better content are eating their lunch.
+**Act 4 — Invitation (Post 10)**
+One clear door to walk through. No urgency hacks. No countdown timers. Just: "If this series described your situation, here's the next step."
 
-The real objection is never "it's too expensive."
+That single engagement also included a 7+3 email sequence, offer pages, a content calendar, and full avatar dossiers — all built from deep buyer psychology research.
 
-It's "I'm terrified that getting help will expose me as someone who can't do this myself."
+This is what I do. I write content systems for coaches, consultants, and founders who want every word to earn its keep.
 
-That insight didn't come from a survey. It came from running 7 agents through behavioral economics, sales psychology, and identity-level consumer analysis simultaneously.
-
-This is what I do for businesses. I don't give you demographics. I give you the internal monologue of the person you're trying to reach.
-
-If you sell to humans and you're still guessing why they buy, let's talk.
+DM me "SERIES" if you want to see what a content system like this would look like for your business.
 
 ---
 
 ## SECTION 3: LINKEDIN POST #3 (Day 4)
 
-**Topic:** Case study — "Here's what happened when I ran an executive coaching niche through my AI research engine."
+**Topic:** "The email sequence that nobody opens vs. the one that books calls"
 
 ---
 
-A coaching professional came to me frustrated.
+Two email sequences walk into an inbox.
 
-She had 15+ years of experience. Charged premium rates. Her clients got real results.
+Sequence A: "Hey [First Name], I hope this finds you well. I wanted to share how we help coaches grow their business..."
 
-But her LinkedIn was a ghost town. Posting 2-3 times a month. Sharing other people's content. Watching less experienced coaches get all the visibility.
+Sequence B: "You've Googled 'how to get more coaching clients' at least 3 times this month."
 
-She asked: "What am I missing?"
+One gets archived. The other gets read.
 
-I pointed my AI research engine at her market.
+Here's what I bake into every email sequence I write:
 
-7 agents. Parallel analysis. Here's what we uncovered:
+**Diagnosis before pitch.** The first 2-3 emails don't sell anything. They name the reader's problem with uncomfortable precision. When someone thinks "how do they KNOW that?" — you've earned the right to offer a solution.
 
-**The market diagnosis:**
-Executive coaching is a vertical where clients pay $15K-$25K per engagement. 68% of executive hires are influenced by LinkedIn presence. But the coaches themselves post inconsistently because their brilliance lives in private rooms.
+**Psychological arc mapping.** Each email moves the reader through a specific emotional state. Frustration to curiosity. Curiosity to recognition. Recognition to desire. You're not blasting 7 emails — you're guiding someone through a decision.
 
-**The psychology:**
-Her real problem wasn't content creation. It was a conflict between wanting visibility and fearing it would make her look inauthentic. Every expert she'd tried — agencies, AI tools, VAs — confirmed the fear by producing content that didn't sound like her.
+**Variant-based subject lines.** I don't write one subject line per email. I write subject lines tuned to different psychological triggers — identity ("You're not a bad marketer"), curiosity ("The reason nobody replies to your DMs"), and pattern interrupts ("Delete this email if you're comfortable being invisible").
 
-**The competitive gap:**
-$65/month AI tools produce generic content. $3K/month agencies don't understand coaching psychology. Nobody was combining deep psychological expertise with AI-powered voice capture.
+I built a 7+3 email sequence for a client last week using all three principles. The "7" nurtures. The "+3" re-engages the ones who went dark.
 
-**The strategic move:**
-We repositioned her approach entirely. Killed the word "ghostwriting." Reframed the service as "voice articulation." Built a system where content starts from her actual words, not a blank page.
-
-Within 30 days she had a content engine that sounded exactly like her.
-
-That's what a 7-agent parallel analysis produces. Not opinions. A complete strategic diagnosis with the specific moves to make.
-
-Your niche has gaps like this too. You just can't see them from inside the jar.
-
-DM me "AUDIT" to find them.
+Need an email sequence that actually converts? DM me.
 
 ---
 
 ## SECTION 4: LINKEDIN POST #4 (Day 6)
 
-**Topic:** "Why your ICP research is probably wrong."
+**Topic:** "I spent 18 years studying why people make decisions. Here's what I learned about copywriting."
 
 ---
 
-Your ICP research is probably wrong.
+I didn't start as a copywriter.
 
-Not because you're bad at research. Because you're looking at the wrong layer.
+I started as a coach. 18 years of sitting across from people trying to change their lives, their habits, their patterns. Thousands of conversations about what people SAID they wanted vs. what they actually did.
 
-Most businesses define their ideal customer like this:
+Here's what that taught me about copywriting that most copywriters will never learn:
 
-"Female, 35-50, small business owner, $100K+ revenue, interested in growth."
+**People don't buy solutions. They buy identity shifts.**
 
-Cool. That describes 4 million people. None of them feel seen by your marketing.
+Nobody buys a coaching program because they want "accountability and frameworks." They buy it because they want to become the kind of person who doesn't need accountability and frameworks.
 
-Demographics tell you WHO someone is.
-Consumer Posture tells you WHY they buy.
+Your copy has to speak to who they want to BECOME, not what they want to GET.
 
-The difference:
+**The real objection is never the stated objection.**
 
-Demographic: "Executive coach, $200K+ income, 10K LinkedIn followers."
+"It's too expensive" means "I don't trust that this will work for ME specifically."
+"I need to think about it" means "I'm afraid of what changes if this actually works."
+"The timing isn't right" means "I don't believe I deserve this yet."
 
-Consumer Posture: "Believes thought leadership is essential. Also believes getting help with it is inauthentic. These two beliefs are at war. The war keeps her stuck. She posts sporadically, watches competitors gain ground, and tells herself she'll get to it next quarter."
+When your copy addresses the real objection — the one they'd never say out loud — conversion goes up because resistance goes down.
 
-One is a targeting filter.
-The other is the key to the sale.
+**The gap between knowing and doing isn't information. It's alignment.**
 
-When you understand someone's internal monologue — the thing they think but would never say out loud — your marketing stops competing on features and starts speaking directly to their identity.
+This is the big one. Most copy adds MORE information. Better bullets. More features. Longer sales pages. But the person reading already KNOWS they need help.
 
-I built an AI research system that produces this level of psychological insight for any market. 7 agents analyzing your buyers from different angles simultaneously.
+The best copy doesn't inform. It aligns. It closes the gap between "I know I should" and "I'm ready."
 
-Demographics are the appetizer.
-Consumer Posture is the meal.
+That's what 18 years of studying human decisions gave me. Not better headlines. A completely different operating system for writing words that move people.
 
-If you're still building strategy on surface-level profiles, you're leaving money and connection on the table.
+If that resonates — I'm curious what you're working on. Drop a comment or DM me.
 
 ---
 
@@ -177,63 +150,63 @@ If you're still building strategy on surface-level profiles, you're leaving mone
 
 ---
 
-### Variation 1: For Coaches/Consultants
+### Variation 1: For Coaches/Consultants Who Post Inconsistently
 
-> Hey [Name] — I came across your post on [specific topic they posted about] and it resonated. You clearly know your stuff.
+> Hey [Name] — I've seen a few of your posts on [specific topic] and they're genuinely sharp. You clearly know your stuff at a deep level.
 >
-> Quick question: have you ever wished you could see exactly how your ideal clients think about buying? Not demographics — the actual internal monologue that drives their decisions?
+> Honest observation: you post like someone who has way more to say than they're putting out there. I see that pattern a lot with coaches who are brilliant in the room but struggle to translate it to LinkedIn.
 >
-> I built an AI research engine that produces that level of insight. Running a founding-rate audit ($250) for a few businesses this month.
+> I'm a copywriter who specializes in writing content for coaches and consultants — posts, email sequences, offer pages. My secret weapon is deep buyer psychology research before I write a single word.
 >
-> Worth a 5-minute conversation?
-
----
-
-### Variation 2: For Agency Owners
-
-> Hey [Name] — noticed you're running [agency name/type]. Respect the hustle of building a team in this market.
->
-> I've been running something interesting: a 7-agent AI research engine that produces competitor analysis, consumer psychology profiles, and go-to-market strategy in hours instead of weeks.
->
-> Offering founding-rate audits ($250) for business owners who want to see what it looks like when it's pointed at their market.
->
-> Interested in seeing a sample output?
+> Would it be worth a quick conversation about what a content system could look like for you?
 
 ---
 
-### Variation 3: For SaaS Founders
+### Variation 2: For Founders Who Need Email Sequences / Sales Pages
 
-> Hey [Name] — [their product] caught my eye. Solving [specific problem their SaaS addresses] is a real pain point.
+> Hey [Name] — [their product/company] caught my attention. Solving [specific problem] is no joke.
 >
-> Curious: how deep does your current buyer research go? Most SaaS teams I talk to have great product instincts but surface-level customer psychology.
+> Quick question: how's your email sequence performing? Most founders I talk to have a solid product and a leaky funnel — the emails don't match the quality of what they're selling.
 >
-> I run AI-powered business audits that map the actual decision-making patterns of your buyers — not personas, real behavioral analysis.
+> I write conversion copy (email sequences, sales pages, launch content) built on deep buyer psychology research. I don't start with templates — I start by mapping how your buyers actually make decisions.
 >
-> Doing a few at founding rate ($250) this month. Want me to send you a sample of what the output looks like?
-
----
-
-### Variation 4: For Solopreneurs/Creators
-
-> Hey [Name] — your content on [specific topic] is sharp. You clearly think deeply about [their niche].
->
-> Random question: have you ever had your business run through a strategic audit by multiple expert AIs simultaneously? Consumer psychology, positioning, competitive gaps — all in parallel.
->
-> I built an engine that does exactly that. Running founding-rate audits ($250) for solopreneurs who want to see their blind spots.
->
-> Sound interesting?
+> Happy to share a quick example if you're curious.
 
 ---
 
-### Variation 5: For Anyone with Inconsistent LinkedIn Posting
+### Variation 3: For Agency Owners (White-Label)
 
-> Hey [Name] — I've been following your work for a bit. When you DO post, it's genuinely insightful. But I notice the gaps between posts.
+> Hey [Name] — respect what you're building with [agency name]. Growing a team in this market is real work.
 >
-> No judgment — I studied this pattern specifically. Most experts struggle with consistency not because of time, but because of an invisible psychological friction I call the "Authenticity Paradox."
+> Wondering if you ever run into this: clients need high-quality copy (email sequences, LinkedIn content, sales pages) and your team is stretched. I do white-label copywriting for agencies — same deep research process, your brand on it.
 >
-> I help business owners diagnose exactly what's blocking their growth using a 7-agent AI research engine. Offering founding-rate audits ($250) this month.
+> My differentiator is the psychology layer. I run buyer psychology research before writing, so the copy hits at the identity level, not just the feature level.
 >
-> Worth exploring?
+> Worth a 5-minute chat to see if there's a fit?
+
+---
+
+### Variation 4: For Anyone Launching Something New
+
+> Hey [Name] — saw you're [launching/building/rolling out] [their thing]. That's exciting.
+>
+> If you need copy for the launch — sales page, email sequence, LinkedIn content — I'd love to talk. I specialize in writing launch copy that's built on deep buyer psychology research, not templates.
+>
+> Most launch copy talks about the product. The copy I write talks about the transformation — because that's what people actually buy.
+>
+> Want me to share what that process looks like?
+
+---
+
+### Variation 5: For People Whose LinkedIn Profile Reads Like a Resume
+
+> Hey [Name] — came across your profile and I can tell you've had a serious career. [Reference specific accomplishment or role].
+>
+> This might be unsolicited, but your LinkedIn About section is doing you a disservice. It reads like a resume when it should read like a magnet. You've got the experience — the words just aren't working as hard as you are.
+>
+> I'm a copywriter who specializes in LinkedIn positioning and content strategy. I'd be happy to share 2-3 specific changes I'd make to your profile — no charge, no strings.
+>
+> Interested?
 
 ---
 
@@ -245,19 +218,19 @@ If you're still building strategy on surface-level profiles, you're leaving mone
 
 ### Follow-Up 1: The Light Touch
 
-> Hey [Name] — no pressure at all. Just wanted to make sure my message didn't get buried. If the timing isn't right, totally get it. If you're curious about the audit, I'm here.
+> Hey [Name] — just bumping this in case it got buried. Zero pressure. If the timing's off, totally get it. If you're curious, I'm here.
 
 ---
 
-### Follow-Up 2: The Value Add
+### Follow-Up 2: The Value Drop
 
-> Hey [Name] — wanted to share something relevant. I just ran an analysis on the [their industry] market and found some interesting gaps most businesses in your space are missing. Happy to share the high-level findings if you're curious — no strings attached.
+> Hey [Name] — was thinking about your [business/content/launch] and had a quick insight I wanted to share: [insert one specific, personalized observation about their copy, messaging, or content]. Take it or leave it. If you want to riff on it, I'm around.
 
 ---
 
 ### Follow-Up 3: The Honest Close
 
-> Hey [Name] — I'll keep this simple. I sent you a message about an AI-powered business audit a few days ago. If it's not for you, no worries — just let me know so I'm not that person clogging your inbox. If it IS interesting, I have 2 founding-rate spots left this month.
+> Hey [Name] — sent you a note a few days ago about copywriting. If it's not your thing, no worries at all — just let me know so I'm not cluttering your inbox. If it IS interesting, I've got some bandwidth opening up this month.
 
 ---
 
@@ -267,17 +240,17 @@ If you're still building strategy on surface-level profiles, you're leaving mone
 
 **Option 1:**
 ```
-AI Strategist | I run your business through 95 expert agents | Audits, Research & Consulting
+Copywriter & Content Strategist | Psychology-Informed Copy That Converts | AI-Powered Research
 ```
 
 **Option 2:**
 ```
-I built an AI research engine with 95 experts. Now I point it at your business. | Strategy & Audits
+I write copy that converts because I research buyers at the identity level | Copywriter + Strategist
 ```
 
 **Option 3:**
 ```
-AI Business Audits & Strategy | 18 Years Psychology + 95 AI Agents | Systems AND Soul
+Copy & Content Strategy for Coaches, Founders & Consultants | 18 Yrs Psychology + AI Research
 ```
 
 ---
@@ -286,59 +259,73 @@ AI Business Audits & Strategy | 18 Years Psychology + 95 AI Agents | Systems AND
 
 ---
 
-Most businesses make decisions based on surface-level data.
+Most copy doesn't convert because it was written from a template.
 
-Demographics. Competitor screenshots. Gut feelings dressed up as "strategy."
+Swipe files. "Proven" frameworks. Fill in the blanks, hit publish, hope for the best. The words are technically correct and emotionally empty.
 
-I built something different.
+I write differently.
 
-Over the past year, I constructed an AI research engine powered by 95 expert agents — strategists, psychologists, positioning experts, behavioral economists, sales engineers, and content architects — all capable of running in parallel.
+Before I write a single word for a client, I run deep buyer psychology research. Not demographics — identity-level analysis. The internal monologue your buyer has at 11pm when they're Googling solutions. The objections they'd never say out loud. The gap between what they SAY they want and what they actually DO.
 
-When I point this engine at a business, here's what comes out the other side:
+I built an AI research engine that runs this analysis in parallel — behavioral economics, sales psychology, identity mapping, objection archaeology — all at once. It produces the kind of buyer intelligence that agencies charge five figures for. I use it as the foundation for every piece of copy I write.
 
--- Consumer Posture Profiles (not demographics — the actual internal monologue of your buyer)
--- Competitive gap analysis across every angle simultaneously
--- Go-to-market blueprints built from 7+ expert lenses
--- Positioning strategy that creates a category instead of competing in one
--- Objection maps that separate what buyers SAY from what they actually THINK
+The result: copy that makes your reader feel like you broke into their journal.
 
-An agency charges $5,000-$15,000 for this. A consulting firm takes 6-8 weeks. I deliver it in hours because 95 agents don't sleep, don't get distracted, and don't bill by the hour.
+Here's what I write:
 
-But the engine is only half the story.
+-- **LinkedIn content systems** — Not random posts. Narrative arcs that build authority over weeks, not months. I built a 10-post LinkedIn series with a TV-arc narrative structure for a coaching client — Recognition, Diagnosis, Solution, Invitation — alongside a full content calendar and avatar dossiers.
 
-Before I built any of this, I spent 18 years in the trenches of human psychology, coaching, and personal transformation. I've sat across from thousands of people trying to change their lives, their businesses, and their patterns. That experience is encoded into every agent, every workflow, every analysis.
+-- **Email sequences** — Psychology-mapped sequences where every email moves the reader through a specific emotional state. Diagnosis before pitch. Variant subject lines. The kind of emails people actually reply to.
 
-This isn't AI replacing human insight. It's AI multiplying it.
+-- **Sales pages & offer copy** — Built from buyer psychology research, not copywriting formulas. Every section maps to a real psychological barrier your buyer faces.
 
-Here's what I'm offering right now:
+-- **Content strategy** — Full systems: content calendars, positioning frameworks, audience research, messaging architecture. Everything connected, nothing random.
 
--- AI Business Audit ($250 founding rate) — I run your business through the full 7-agent parallel analysis. You get a strategic dossier most companies would pay a consulting firm five figures for.
+The psychology comes from 18 years of coaching, personal transformation, and studying why humans make decisions. Thousands of conversations about what people say they want vs. what they actually do. That experience is baked into everything I write — and encoded into the AI research system that powers the depth.
 
--- Strategy Consulting ($150/hour) — Direct access to me and the engine for live problem-solving. Positioning, offer design, market entry, content strategy.
+**Founding rates available through Q2 2026.** I'm building my portfolio with a small number of clients who want this level of work before the prices go up.
 
--- Executive Authority Engineering (inquire) — For coaches and consultants who want their LinkedIn presence to match their actual expertise. Voice-first content built from YOUR words, not templates.
+Fair warning about working with me: I don't do corporate speak. I think most marketing advice is recycled garbage. I reference anime training arcs without apology. And I believe the best copy starts with understanding the human — not the market they're in.
 
-I work in compressed windows because I'm also a present father to a toddler who doesn't care about my LinkedIn metrics. Everything I build is designed for leverage, not labor.
+Systems AND soul. That's the whole philosophy.
 
-Fair warning: I don't do corporate speak. I reference anime training arcs in strategy sessions. I think the guru economy is mostly a scam. And I believe the best business strategy starts with understanding the human sitting across from you — not the market they're in.
-
-If that resonates, DM me "AUDIT" to get started.
-
-If it doesn't, we're probably not a fit — and that's fine too.
+DM me "COPY" and tell me what you're working on. I'll tell you honestly whether I can help.
 
 ---
 
-*Built with systems. Delivered with soul.*
+*Words that move people. Research that finds them first.*
+
+---
+
+## SECTION 9: COOZ TESTIMONIAL REQUEST MESSAGE
+
+---
+
+Hey Cooz —
+
+I want to ask you something, and I want to be real about it because that's how we operate.
+
+The work I did for you — the LinkedIn series, the emails, the avatar research, the content strategy — I'm genuinely proud of how it came out. I put everything into it.
+
+I'm building my copywriting and content strategy business right now, and a testimonial from you about the quality of the work would mean a lot. Not about results — I know it's too early for that. Just your honest take on the deliverables themselves, the depth of the research, and what it was like working with me.
+
+I know our relationship has layers. That's exactly why your words would carry weight — because you'd never say something you don't mean.
+
+If you're willing, even 2-3 sentences would go a long way. And if the timing's not right, I completely understand. No pressure either way.
+
+Appreciate you regardless.
+
+— Farrice
 
 ---
 
 ## DEPLOYMENT NOTES
 
 **Posting schedule:**
-- Day 1 (today): Post #1 — The capability reveal
-- Day 2: Post #2 — The research insight
-- Day 4: Post #3 — The case study
-- Day 6: Post #4 — The challenge post
+- Day 1 (today): Post #1 — The philosophy post ("why most copy doesn't convert")
+- Day 2: Post #2 — The framework reveal (TV-arc narrative structure)
+- Day 4: Post #3 — The email sequence breakdown
+- Day 6: Post #4 — The personal authority post (18 years of psychology)
 - Days 1-7: Begin DM outreach (5-10 personalized messages per day)
 - Days 4-7: Send follow-ups to non-responders
 
@@ -348,16 +335,16 @@ If it doesn't, we're probably not a fit — and that's fine too.
 3. Pin Post #1 after publishing
 
 **DM workflow:**
-1. Find prospects on Sales Navigator
+1. Find prospects on Sales Navigator (license active through March 28)
 2. Send connection request (no pitch, just a genuine note about their work)
 3. Wait for acceptance
 4. Send appropriate DM variation (match to their profile type)
 5. If viewed but no response after 3-5 days, send follow-up
-6. Track everything in a simple spreadsheet: Name, Company, DM Sent Date, Response, Follow-Up Date, Outcome
+6. Track everything: Name, Company, DM Sent Date, Response, Follow-Up Date, Outcome
 
 **Hashtags for posts (use 3-5 per post):**
-#AIStrategy #BusinessAudit #ConsumerPsychology #LinkedInStrategy #Entrepreneurship #AIConsulting #MarketResearch #ThoughtLeadership
+#Copywriting #ContentStrategy #LinkedInStrategy #BuyerPsychology #EmailMarketing #CopyThatConverts #Entrepreneurship #CoachingBusiness
 
 ---
 
-*All content written in Farrice Cain's authentic voice. Ready to copy, paste, and deploy.*
+*All content written in Farrice Cain's authentic voice. Positioning: Copywriter & Content Strategist. Ready to copy, paste, and deploy.*
