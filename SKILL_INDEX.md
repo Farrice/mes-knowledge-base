@@ -86,6 +86,7 @@
 | `mark-kashef-ai-councils` | **Mark Kashef AI Councils** |  | 3 | 7 |
 | `mark-kashef-banana-squad` | **Mark Kashef — Banana Squad Image Agent Team** | banana squad image agent team | 2 | 4 |
 | `mark-kashef-claude-claw` | **Mark Kashef: Claude Claw — Agent SDK Bridge Architecture** | claude claw — agent sdk bridge architecture, agent sdk bridge architecture | 2 | 3 |
+| `mark-kashef-visual-design` | **Mark Kashef — Visual Blueprint Methodology** | ascii wireframe, visual planning, wireframe-to-build, slide deck architect, design blueprint, taste gate, visual pre-flight | 5 | 12 |
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
 | `mcp-builder` | **mcp-builder** |  | 0 | 0 |
 | `michael-bernoff-identity-engineering` | **Michael Bernoff Identity Engineering** |  | 4 | 14 |

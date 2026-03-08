@@ -61,7 +61,7 @@
 | `manus-ai` | **Manus.ai** | ai consulting, multi-source synthesis, query architecture, research to action |
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
 | `maria-wendt` | **Maria Wendt** | digital products, invitation energy, product-first, simplification |
-| `mark-kashef` | **Mark Kashef** | agent configuration, signature advantage |
+| `mark-kashef` | **Mark Kashef** | agent configuration, signature advantage, visual blueprint, wireframe, ascii art, design planning, slide deck architect, visual pre-flight |
 | `michael-bernoff` | **Michael Bernoff: Identity Engineering Virtuoso** | biochemical influence deployment, certainty implanting, identity engineering virtuoso, inner hero activation, the reset frame, wrong question pattern interrupt |
 | `mike-foutia` | **mike-foutia** | ai marketing automation, automation boundary judgment, brand context engineering, community mining, community pulse mining, internal tool building, non-coder tool building, trend research, universal market intelligence, universal trend intelligence, zeitgeist synthesis |
 | `mitch-albom` | **Mitch Albom: Writing Mastery Virtuoso** | character transformation mapping, endings-first navigation, gravedigger technique, rhythmic calibration, theme-first architecture, writing mastery virtuoso |

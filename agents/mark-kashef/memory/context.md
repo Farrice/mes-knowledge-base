@@ -19,3 +19,11 @@
 - Core pattern: Thin Telegram bridge → Agent SDK subprocess → existing Claude Code instance with all skills/MCPs.
 - New skill created: `mark-kashef-claude-claw` with 3 prompts (bridge-architect, memory-system-designer, wizard-builder).
 - Applied to: Mobile access layer architecture for Antigravity (jarvis-bot decommissioned 2026-03-02).
+
+## Visual Blueprint Methodology Extraction (Mar 2026)
+- Source: YouTube video on ASCII art wireframing for Claude Code visual planning.
+- Core pattern: Insert visual wireframe checkpoint between human intent and AI execution. Iterate at wireframe layer (cheap) not code layer (expensive).
+- New skill created: `mark-kashef-visual-design` with 5 workflows and 12 embedded prompt-capabilities.
+- Workflows: ASCII Wireframe Generator, Visual Blueprint-to-Build Pipeline, Slide Deck Architect, Design System Visualizer, Visual Taste Gate.
+- Slash commands: `/wireframe` (pre-flight), `/visual-blueprint` (full pipeline), `/sketch-to-build` (rapid execution).
+- Stacks with: `banana-squad` (wireframed image gen), `oren-creative-direction` (CEV taste gates), `sean-kochel-design-first-build` (design-first artifacts).
