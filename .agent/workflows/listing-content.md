@@ -1,10 +1,10 @@
 ---
-description: Generate viral real estate listing content for Jen Santulan using the expert-optimized content engine
+description: Generate expert-powered viral video hooks for Jen Santulan's Instagram real estate property tours
 ---
 
-# /listing-content — Viral Real Estate Content Engine
+# /listing-content — Jen's Expert-Powered Viral Hook Engine
 
-Generate scroll-stopping, Instagram-optimized listing content for any property using Jen Santulan's persona and the expert-validated content framework.
+Generate 6 video hooks for any property using Jen Santulan's authentic voice, powered by viral content frameworks from Kallaway, Brock Johnson, Seena Rez, Shaan Puri, and Harry Dry. Two-pass architecture: expert mechanics → Jen voice polish.
 
 ## Usage
 
@@ -23,150 +23,149 @@ Research the property using web search. Collect:
 | Address, beds, baths, sqft | Yes |
 | Price (list or estimated) | Yes |
 | Property type (SFR, townhome, condo) | Yes |
-| Key features (garage, pool, views, upgrades) | Yes |
+| Key features (garage, pool, views, upgrades, finishes) | Yes |
+| Year built | Yes |
 | Lot size | If SFR |
 | HOA details + community amenities | If condo/townhome |
 | Neighborhood median home price | Yes |
-| Nearby amenities (dining, shopping, schools, transit) | Yes |
+| Nearby amenities (dining, shopping, schools, parks, recreation) | Yes |
 | Freeway access / commute context | Yes |
-| Recent comps or appreciation data | If available |
+| Market trends (year-over-year appreciation) | If available |
+| Current comparable rental rates in the area | Yes |
 
-### 2. Strategic Analysis
+**Factual accuracy is critical.** All data must be verified via web search. Do not guess or fabricate stats.
 
-Before writing any content, complete this analysis:
+### 2. Key Selling Points Analysis
 
-**A. Magic Trifecta** — Identify the 3 features that, combined, make this property rare at its price point. These anchor every hook.
+Before writing any hooks, complete this analysis:
 
-**B. Ideal Buyer Profile** — Who is the BEST buyer for this specific property?
-- Age range, income, current living situation
-- What are they upgrading FROM?
-- What problem does this property solve for them?
+**A. Key Property Features (5)** — The standout features that make this property special.
 
-**C. Buyer Identity Architecture** (per Jason Fladlien methodology):
-- **The Weight**: What limiting belief is this buyer carrying about this purchase?
-- **The Survival Trigger**: Safety/Shelter, Status/Tribe, Resource Dominance, or Belonging?
-- **The Identity Shift**: Who does the buyer BECOME by owning this?
+**B. Unique Selling Points (3)** — What combination of features makes this property rare or exceptional at its price point?
 
-**D. Price Context** — How does this price compare to:
-- Neighborhood median?
-- Comparable properties in adjacent neighborhoods?
-- Renting equivalent space in the same area?
+**C. Target Buyer Personas (3)** — Who is most likely to buy this property?
+- For each: describe their situation, what they're upgrading from, what problem this property solves
+- At least one persona MUST be a first-time buyer (Jen's niche)
 
-### 3. Generate Jen's Scripts (6 Variations)
+**D. Neighborhood Advantages (3)** — What lifestyle benefits does the location provide? Name specific places (Westfield Topanga, Lake Balboa Park, etc.).
+
+**E. Market Context (3 data points)** — How does this price compare to the area median? What's the market trend? What's the rent-vs-buy math?
+
+**F. Expert Scrollstop Audit** — Answer these 4 questions:
+1. What is the single most UNEXPECTED fact about this property? (The thing that makes you go "wait, really?")
+2. What common belief about this area or price point does this property contradict?
+3. What is the genuine scarcity element? (Low inventory, gated, unique feature, price vs. comps, etc.)
+4. What micro-moment does this property enable that would make a great 3-second video opening?
+
+**G. First-Time Buyer Angle** — Answer these 3 questions:
+1. What is the rent-vs-mortgage math? (Current comparable rent vs. estimated mortgage at current rates)
+2. What first-time buyer advantages exist at this specific price point?
+3. What is the "permission moment"? (What makes a renter think "I could actually afford this")
+
+### 3. Expert Analysis Pass (Internal Strategic Layer)
+
+Using data from Steps 1-2, produce this strategic material. This is the raw intelligence that feeds into hook generation — it won't appear in the final deliverable.
+
+**3A. Scrollstop Inventory**
+Generate 3-4 potential scrollstop openers (5-8 words each) using different disruption types:
+- Contradiction: "[Fact] that contradicts what they assumed"
+- Specificity shock: "[Exact numbers] that are jaw-dropping together"
+- Mid-action: "STOP. [Urgent personal address]"
+- Insider reveal: "I wasn't going to post this yet, but..."
+
+**3B. FTHB Permission Moment**
+- The specific rent-vs-own math (with real numbers)
+- The "you can do this" angle — what proof exists?
+- What first-time buyer would say if they saw this listing
+
+**3C. Emotion Map**
+Assign exactly ONE target emotion per format:
+1. Scrollstop Discovery → "Wait, what?"
+2. First-Time Buyer Permission → "I could actually do this"
+3. Lifestyle Transformation → "I want that life"
+4. Smart Money → "I'd be smart to jump on this"
+5. Scarcity / Urgency → "I can't miss this"
+6. Complete Package → "This checks every box"
+
+**3D. Share Triggers**
+For each format, answer: "Why would someone send this to a friend?"
+- Identity: "This is us!"
+- Practical: "We should look at this"
+- Social currency: "Can you believe this exists?"
+- Tribal: "This is what WE deserve"
+
+**3E. Scarcity Angle**
+Identify the genuine urgency element. If none exists, define the "hidden gem" reframe.
+
+**3F. Contrarian Data Point**
+The one verifiable fact that subverts the viewer's expectations about this area/price/property type.
+
+### 4. Generate 6 Video Hooks
 
 Read and apply the master prompt at `skills/jen-santulan-listing-content/PROMPT.md`.
 
-Generate 6 complete scripts. Each script is a **single continuous block of spoken text** that Jen reads straight through on camera. No component breakdowns, no labels mid-script. Just the words she says.
+Generate 6 complete hooks — one per format. Each hook is a **single continuous block of spoken text** that Jen reads straight through on camera. **80-120 words spoken.**
 
-**Format per script:**
+Use the Expert Analysis from Step 3 as raw material. Write each hook in Jen's voice — warm, enthusiastic, conversational. The expert mechanics should be invisible to the viewer; they should only feel Jen's warmth and genuine excitement.
+
+**Format per hook:**
 ```
-### Script [#]: [Short Label]
+## Hook [#]: [Format Name]
+**Target emotion:** [one word/phrase]
+**Word count:** [X words] (~[X] seconds spoken)
 
-**HOOK:** [Bold, punchy opening line — the scroll-stopper. 12 words max. This is the first thing out of her mouth. It must hit HARD.]
+"[Complete spoken text including emoji placement and hashtags]"
 
-> [The REST of the spoken script — picks up right AFTER the hook. Does NOT repeat the hook line. Flows from where the hook leaves off through to the closer. Include [beat] markers for pauses. Full script (hook + body) under 45 seconds spoken.]
-```
-
-The HOOK and the script body are separate sections. Jen delivers the hook first, then reads the script body. The script body does NOT repeat the hook — it continues from where the hook left off.
-
-**Internal rules (apply silently — don't show these in the output):**
-- Opening line: 12 words max, uses a rhetorical device (antithesis, chiasmus, anaphora, or "two languages")
-- Each script dissolves a specific buyer limiting belief
-- Each script includes one radical candor moment
-- Closer uses Saxon Drop, Antithetical, or Caesura-Punch technique
-
-**The 6 angles:**
-1. **Financial Fear** — Rent trap, equity loss, being priced out
-2. **Status / Identity** — Who the buyer BECOMES, not what they buy
-3. **Insider Access** — Gatekeeping reversal, agent transparency
-4. **Life-Stage Urgency** — Family, nesting, safety, schools
-5. **Aspiration** — Show the LIFE, not the house
-6. **Where's the Catch?** — Stack features, challenge the viewer to find the flaw
-
-### 4. Generate Team Scripts (3 Variations)
-
-3 additional scripts for other agents on Jen's team. Same format — complete spoken scripts, one continuous block each. Target the most likely buyer segments for THIS specific property. Casual professional tone, no Jen-specific personality.
-
-### 5. Video Editor Notes (SEPARATE SECTION)
-
-After all scripts, provide a single table with visual direction and pacing notes per script. This section goes to the video editor, not to Jen.
-
-### 6. Paired Captions
-
-Every script gets its own matched caption set. The caption must reinforce the SAME angle, energy, and buyer psychology as the script it's paired with — never clash or contradict.
-
-**Format per script:**
-```
-### Script [#] Captions: [Same Label]
-
-**Short (Reel/TikTok):** [Under 30 words + CTA — same angle as the script]
-**Story:** [One line, screenshot-friendly — extends the script's hook]
-**Long (Feed):** [3-4 sentences + hashtags — deepens the script's argument]
+*Why it works: [1-2 sentences on the psychological mechanic AND why it sounds like Jen]*
+*Share trigger: [Why someone would send this to a friend]*
 ```
 
-Team scripts also get paired captions in the same format.
+**The 6 formats:**
+1. **Scrollstop Discovery** — Pattern interrupt opener into dream-worthy reveal (80-100 words)
+2. **First-Time Buyer Permission** — Pain naming, permission moment, proof point (90-110 words) **← ALWAYS GENERATED**
+3. **Lifestyle Transformation** — Vivid micro-moment, neighborhood life, share trigger (90-110 words)
+4. **Smart Money** — Contrarian data, curiosity gap, education through surprise (85-105 words)
+5. **Scarcity / Urgency** — Genuine scarcity fact, rare feature set, urgency invitation (75-95 words)
+6. **Complete Package** — Rhythmic checklist reveal, rapid feature stacking, save trigger (85-105 words)
 
-### 7. Share Assets
+### 5. Quality Gate
 
-Generate share assets that work across ALL scripts (these are property-level, not script-specific):
+Run all 6 hooks through the 11-test quality gate defined in the PROMPT.md. Any **must-pass** failure triggers a rewrite of that specific hook. Document pass/fail results briefly.
 
-**Proxy Gift CTAs (2):** "Send this to someone who [specific situation]"
-**Screenshot Stats (2):** Price comparisons or data points for text overlay
-**Opinion Splits (2):** Polarizing statements that drive comments
-**Save Hooks (2):** "Save this for when [specific future moment]"
+**Must-pass (7):** Warmth, First-Timer, Scrollstop, Length, Factual, Hashtag, FTHB Presence
+**Should-pass (4):** Three Rules (Harry Dry), Share Test (Brock Johnson), One Emotion (Shaan Puri), Pattern Diversity
 
-## Voice Rules (MANDATORY — Override AI Defaults)
+### 6. Performance Enhancement Notes
 
-These rules apply to ALL generated content:
+After all hooks, provide:
 
-**Saxon word dominance:**
-- Hook openers and closers use short, hard, one-syllable words
-- NEVER use: exceptional, impeccable, distinguished, refined, sophisticated, exquisite, luxurious, meticulously, curated, bespoke, unparalleled, premier
-- No word over 3 syllables in the first or last sentence of any script
+**Key Selling Points (✅ checklist):**
+Quick-reference checklist of the property's strongest angles for Jennifer.
 
-**Sentence mechanics:**
-- Average 8-12 words per sentence
-- Mix fragments with full sentences
-- Pattern: fast-fast-STOP-punch
-- Every sentence must be speakable in one breath
-- Use "[beat]" to mark deliberate pauses before punch lines
+**Visual Strategy:**
+- What to show in the first 3 seconds of each hook (must match the scrollstop)
+- Which property features to point to on camera
+- Suggestions for B-roll or location graphics
+- On-screen text recommendations for key stats
 
-**Signature vocabulary USAGE RULES:**
-- "Unicorn" → ONLY when 2+ rare features combine at the price point
-- "Real talk" → ONLY before an uncomfortable truth
-- "Vibe" → ONLY describing the feeling of a space, never as generic positive
-- "Life hack" → ONLY for financial/strategic insights that save money
+**Delivery Guidelines:**
+- Energy level and authentic emotion
+- Hand gestures and movement through the property
+- Signature phrases to emphasize
+- How to close each hook naturally
 
-**Forbidden patterns:**
-- Starting hooks with questions ("Did you know...?", "What if...?")
-- Exclamation marks as emotional crutches (max 1 per script)
-- "This home has it all!"
-- "Stop scrolling"
-- "You won't believe"
-- Feature lists without context
-- Any sentence that could appear in an MLS description
-
-**Closer techniques (use one per script):**
-- Saxon Drop: Build complexity, end on a one-syllable word
-- Antithetical: "You can keep scrolling. Or you can keep this address."
-- Caesura-Punch: Staccato list → [beat] → two-word closer
-
-## Quality Gate
-
-Before delivering, check each hook:
-1. **Ear Test** — Read it aloud at speaking pace. Does it sound like a human talking or a brochure being read? If brochure, rewrite.
-2. **12-Word Test** — Is the opening line 12 words or fewer?
-3. **Blacklist Scan** — Any banned Latinate words? Any forbidden patterns?
-4. **Identity Test** — Does the hook attack a specific buyer limiting belief, or just describe features?
-5. **Instagram Fit** — Is the hook tight enough for Reels (8-12 sec spoken)? Would you save this?
+**Share Engineering Notes:**
+- Which 2 hooks are most shareable and why
+- Suggested "send to" CTA for caption or pinned comment
+- Which hooks are most likely to be saved (reference/checklist value)
+- Screenshot-worthy moment recommendations
 
 ## Output Format
 
 Deliver in this order:
 1. Property Profile (table)
-2. Strategic Analysis (Magic Trifecta + Ideal Buyer + Price Context)
-3. **Jen's Scripts** — 6 scripts, each with a bold HOOK line on top + full continuous spoken script below
-4. **Team Scripts** — 3 scripts, same format (bold hook + full script)
-5. **Video Editor Notes** — One table with visual/pacing direction per script (separate from scripts)
-6. **Paired Captions** — Each script gets its own matched short, story, and long caption (same angle, same energy)
-7. **Share Assets** — Property-level share triggers that work across all scripts
+2. Key Selling Points Analysis (A through G)
+3. Expert Analysis Pass (scrollstop inventory, FTHB permission, emotion map, share triggers, scarcity angle, contrarian data)
+4. 6 Video Hooks (each with format label, target emotion, word count, full spoken text, "why it works" note, share trigger)
+5. Quality Gate Results (brief pass/fail)
+6. Performance Enhancement Notes (key selling points checklist, visual strategy, delivery guidelines, share engineering notes)
