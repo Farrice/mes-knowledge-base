@@ -46,7 +46,9 @@ If you prefer using the exact commands, here is the complete list:
 
 ## Asset Generation & Building
 * **`/big-project`** — Manage complex, multi-step projects across session boundaries with checkpointing and per-batch quality gates.
+* **`/design-brief`** — Generate a complete creative direction brief (typography, color, copy, layout) for any visual asset. Optimized for handoff to Pencil or external design tools.
 * **`/design-first-build`** — Build any visual asset (website, landing page, UI) using a design-first pipeline.
+* **`/design-taste-gate`** — Run a multi-lens taste audit on a finished design using CEV framework, typography critique, and assumption scanning. Outputs scored report with specific refinement directives.
 * **`/generate-asset`** — Generate a high-fidelity "Rank and Rent" website asset with elevated copy and visuals.
 * **`/generate-video-asset`** — Generate video assets using the Keyframe-to-Video method for AI video tools.
 * **`/launch-monitor`** — Execute the Seena Rez "Early Adopter" Innovation Strategy to find, validate, and brand a product in 30 minutes.
