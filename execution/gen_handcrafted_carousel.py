@@ -1,12 +1,14 @@
 """
-Handcrafted Carousel Generator v2 — Hybrid Pipeline
-====================================================
-Uses Nano Banana 2 for artwork backgrounds (NO text baked in),
-then Pillow for pixel-perfect text overlay with handwriting fonts.
+Handcrafted Carousel Asset Generator
+=====================================
+Generates consistent, on-brand artwork backgrounds using Nano Banana 2.
+Outputs clean illustrations on vintage parchment — ready to drop into
+Canva, Figma, or any design tool for text composition.
 
 Usage:
     python execution/gen_handcrafted_carousel.py carousel_script.md
-    python execution/gen_handcrafted_carousel.py carousel_script.md --out-dir deliverables/my_carousel
+    python execution/gen_handcrafted_carousel.py carousel_script.md --out-dir deliverables/my_assets
+    python execution/gen_handcrafted_carousel.py carousel_script.md --with-text  # adds Pillow text overlay
 """
 
 import argparse
@@ -41,11 +43,14 @@ CANVAS_W = 1080
 CANVAS_H = 1350  # 3:4 portrait for LinkedIn
 
 # Safe margins
-MARGIN_LEFT = 70
-MARGIN_RIGHT = 70
-MARGIN_TOP = 60
-MARGIN_BOTTOM = 60
+MARGIN_LEFT = 60
+MARGIN_RIGHT = 60
+MARGIN_TOP = 50
+MARGIN_BOTTOM = 50
 TEXT_AREA_W = CANVAS_W - MARGIN_LEFT - MARGIN_RIGHT
+
+# Parchment overlay color (warm cream with alpha for text backdrop)
+PARCHMENT_RGBA = (235, 220, 195, 210)  # Semi-transparent warm cream
 
 # NB2 prompt suffix — generates artwork ONLY, no text
 ART_PROMPT_SUFFIX = """
@@ -80,13 +85,13 @@ def load_fonts():
             return ImageFont.truetype(str(path), size)
         return ImageFont.load_default()
 
-    fonts["headline"] = _font(pm_path, 80)
-    fonts["headline_small"] = _font(pm_path, 60)
-    fonts["label"] = _font(pm_path, 28)
-    fonts["body"] = _font(cav_path, 38)
-    fonts["body_small"] = _font(cav_path, 32)
-    fonts["bullet"] = _font(cav_path, 36)
-    fonts["slide_num"] = _font(pm_path, 42)
+    fonts["headline"] = _font(pm_path, 100)
+    fonts["headline_small"] = _font(pm_path, 76)
+    fonts["label"] = _font(pm_path, 36)
+    fonts["body"] = _font(cav_path, 48)
+    fonts["body_small"] = _font(cav_path, 40)
+    fonts["bullet"] = _font(cav_path, 44)
+    fonts["slide_num"] = _font(pm_path, 48)
     return fonts
 
 
@@ -167,16 +172,29 @@ def compose_slide(bg_image_path, slide_data, fonts, slide_type="content"):
     img = Image.open(bg_image_path).convert("RGBA")
     img = img.resize((CANVAS_W, CANVAS_H), Image.LANCZOS)
 
-    # Create text overlay
+    # ── STEP 1: Add semi-transparent parchment backdrop behind text zone ──
+    # This prevents artwork from bleeding through and ruining legibility.
+    text_zone_top = int(CANVAS_H * 0.38) if slide_type == "cover" else int(CANVAS_H * 0.40)
+    backdrop = Image.new("RGBA", img.size, (0, 0, 0, 0))
+    bd_draw = ImageDraw.Draw(backdrop)
+    # Gradient fade: fully transparent at top edge, then solid parchment
+    fade_height = 60  # pixels of soft gradient fade
+    for row in range(fade_height):
+        alpha = int(PARCHMENT_RGBA[3] * (row / fade_height))
+        y_pos = text_zone_top + row
+        bd_draw.line([(0, y_pos), (CANVAS_W, y_pos)],
+                     fill=(PARCHMENT_RGBA[0], PARCHMENT_RGBA[1], PARCHMENT_RGBA[2], alpha))
+    # Solid parchment below the gradient
+    bd_draw.rectangle([(0, text_zone_top + fade_height), (CANVAS_W, CANVAS_H)],
+                      fill=PARCHMENT_RGBA)
+    img = Image.alpha_composite(img, backdrop)
+
+    # ── STEP 2: Render text overlay ──
     overlay = Image.new("RGBA", img.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(overlay)
 
-    # --- Determine text starting Y based on slide type ---
-    if slide_type == "cover":
-        text_y = int(CANVAS_H * 0.42)
-    else:
-        text_y = int(CANVAS_H * 0.45)
-
+    # Text starts right after the gradient fade
+    text_y = text_zone_top + fade_height + 10
     x = MARGIN_LEFT
     max_w = TEXT_AREA_W
 
@@ -185,13 +203,13 @@ def compose_slide(bg_image_path, slide_data, fonts, slide_type="content"):
     if label:
         draw.text((x, text_y), label.upper(), fill=COLOR_COPPER, font=fonts["label"])
         bbox = draw.textbbox((x, text_y), label.upper(), font=fonts["label"])
-        text_y = bbox[3] + 8
+        text_y = bbox[3] + 12
 
     # --- Headline ---
     title = slide_data.get("title", "")
     if title:
         # Choose font size based on title length
-        if len(title) > 30:
+        if len(title) > 25:
             hfont = fonts["headline_small"]
         else:
             hfont = fonts["headline"]
@@ -204,25 +222,25 @@ def compose_slide(bg_image_path, slide_data, fonts, slide_type="content"):
 
             # Underline the last line of the title
             if i == len(title_lines) - 1:
-                draw_underline(draw, line, x, text_y, hfont, COLOR_UNDERLINE, thickness=4)
+                draw_underline(draw, line, x, text_y, hfont, COLOR_UNDERLINE, thickness=5)
 
-            text_y += int(line_h * 1.15)
+            text_y += int(line_h * 1.12)
 
-        text_y += 16  # Gap after headline
+        text_y += 24  # Gap after headline
 
     # --- Body Text ---
     body = slide_data.get("body", "")
     if body:
-        text_y = draw_text_block(draw, body, x, text_y, fonts["body"], COLOR_BODY, max_w, line_spacing=1.3)
-        text_y += 10
+        text_y = draw_text_block(draw, body, x, text_y, fonts["body"], COLOR_BODY, max_w, line_spacing=1.35)
+        text_y += 16
 
     # --- Bullet Points ---
     bullets = slide_data.get("bullets", [])
     if bullets:
         for bullet in bullets:
             bullet_text = f"• {bullet}"
-            text_y = draw_text_block(draw, bullet_text, x + 10, text_y, fonts["bullet"], COLOR_BODY, max_w - 20, line_spacing=1.25)
-            text_y += 6
+            text_y = draw_text_block(draw, bullet_text, x + 10, text_y, fonts["bullet"], COLOR_BODY, max_w - 20, line_spacing=1.3)
+            text_y += 10
 
     # --- Slide Number ---
     draw_slide_number(draw, slide_data.get("number", 0), fonts)
@@ -303,6 +321,7 @@ async def main():
     parser = argparse.ArgumentParser(description="Generate a handcrafted carousel (hybrid NB2 + Pillow)")
     parser.add_argument("input_file", help="Markdown file with structured slide data")
     parser.add_argument("--out-dir", default="deliverables/crafted_carousel", help="Output directory")
+    parser.add_argument("--with-text", action="store_true", help="Also generate text-composited slides (default: artwork only)")
     args = parser.parse_args()
 
     load_env()
@@ -356,16 +375,17 @@ Subject: {slide['visual']}
             print(f"  ERROR generating artwork: {e}")
             continue
         
-        # STEP 2: Overlay text with Pillow
-        print(f"  [2/2] Compositing text overlay...")
-        try:
-            final = compose_slide(str(art_path), slide, fonts, slide_type=slide.get("type", "content"))
-            final_path = out_dir / f"slide_{num:02d}.png"
-            final.save(str(final_path), quality=95)
-            print(f"  Final slide saved: {final_path}\n")
-        except Exception as e:
-            print(f"  ERROR compositing text: {e}\n")
-            continue
+        # STEP 2: Overlay text with Pillow (optional)
+        if args.with_text:
+            print(f"  [2/2] Compositing text overlay...")
+            try:
+                final = compose_slide(str(art_path), slide, fonts, slide_type=slide.get("type", "content"))
+                final_path = out_dir / f"slide_{num:02d}.png"
+                final.save(str(final_path), quality=95)
+                print(f"  Composited slide saved: {final_path}")
+            except Exception as e:
+                print(f"  ERROR compositing text: {e}")
+        print()
 
     print("=" * 50)
     print(f"DONE. {len(slides)} slides generated in: {out_dir}")

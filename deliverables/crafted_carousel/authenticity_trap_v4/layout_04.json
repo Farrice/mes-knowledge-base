@@ -1,0 +1,36 @@
+{
+  "backdrop": {
+    "startY": 520,
+    "opacity": 0.85
+  },
+  "elements": [
+    {
+      "type": "label",
+      "text": "THE REFRAME",
+      "x": 60,
+      "y": 550,
+      "fontSize": 36,
+      "color": "copper"
+    },
+    {
+      "type": "headline",
+      "text": "The Reframe",
+      "x": 60,
+      "y": 610,
+      "fontSize": 96,
+      "maxWidth": 960,
+      "color": "dark",
+      "underline": true
+    },
+    {
+      "type": "body",
+      "text": "Authenticity isn't the goal. Resonance is. Your voice matters when it lands\u2014not when it's \"real.\"",
+      "x": 60,
+      "y": 740,
+      "fontSize": 48,
+      "maxWidth": 960,
+      "lineSpacing": 1.3,
+      "color": "body"
+    }
+  ]
+}

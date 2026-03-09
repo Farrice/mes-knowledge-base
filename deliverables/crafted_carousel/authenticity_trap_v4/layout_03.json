@@ -1,0 +1,39 @@
+{
+  "backdrop": {
+    "startY": 650,
+    "opacity": 0.85
+  },
+  "elements": [
+    {
+      "type": "label",
+      "text": "THE PROBLEM",
+      "x": 60,
+      "y": 680,
+      "fontSize": 36,
+      "maxWidth": 960,
+      "color": "copper",
+      "underline": false
+    },
+    {
+      "type": "headline",
+      "text": "The Authenticity Trap",
+      "x": 60,
+      "y": 741,
+      "fontSize": 92,
+      "maxWidth": 960,
+      "color": "dark",
+      "underline": true
+    },
+    {
+      "type": "body",
+      "text": "You've been told to \"just be yourself.\" But every time you do, you feel more stuck. The truth? Authenticity without strategy is just unfiltered chaos.",
+      "x": 60,
+      "y": 863,
+      "fontSize": 46,
+      "maxWidth": 960,
+      "lineSpacing": 1.2,
+      "color": "body",
+      "underline": false
+    }
+  ]
+}

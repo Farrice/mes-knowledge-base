@@ -1,64 +1,46 @@
 ---
-description: Generate a guaranteed 8-slide handcrafted LinkedIn carousel using Nano Banana 2
+description: Generate consistent handcrafted artwork backgrounds for LinkedIn carousel slides using Nano Banana 2. Outputs clean parchment-style illustrations ready for Canva text composition.
 ---
 
-# /generate-handcrafted-carousel — Hand-Drawn Carousel Generator
+# /generate-handcrafted-carousel
 
-Generates a LinkedIn-optimized (3:4 aspect ratio, 2K resolution) carousel using the signature "Tactile Strategist" aesthetic:
-- Hand-drawn vintage parchment paper backgrounds
-- Charcoal sketches and marker typography
-- Warm copper/brown accent colors
-- High visual anchoring (uses Slide 1 as a style reference for 2-8)
+## Purpose
+Generates **artwork-only** backgrounds in a consistent handcrafted aesthetic (charcoal + copper on aged parchment). Designed for LinkedIn carousels but works for any visual content.
 
-## Usage
+**Workflow**: Write content → Generate artwork → Compose text in Canva/Figma
 
-```bash
-/generate-handcrafted-carousel [path/to/script.md]
-```
+## Input Format
 
-Example:
-```bash
-/generate-handcrafted-carousel deliverables/design-brief-my-topic.md
-```
+Create a markdown file with this structure:
 
-## Input Formatting Instructions
-
-The script expects a simple text/Markdown file containing your slide scripts.
-Format each slide with `Slide X:` and optionally a `Visual:` prompt.
-
-Example `carousel_script.md`:
 ```markdown
 Slide 1:
-Visual: A drawn door slightly cracked open, inviting the viewer in.
-THE AUTHENTICITY TRAP
-Why "being yourself" keeps you stuck—and what elite executives do instead.
-
-Slide 2:
-Visual: An empty meeting room with one person standing outside.
-THE PARADOX
-You've been told to "just be yourself." But every time you do, you feel more stuck.
-
-Slide 3:
-Visual: A tangled knot of thick rope.
-The truth? Authenticity without strategy is just unfiltered chaos.
+Label: CONTENT STRATEGY FOR EXECUTIVE COACHES
+Title: The Authenticity Trap
+Body: Why "being yourself" is keeping you stuck—and what elite executives do instead
+Visual: A vintage wooden door slightly ajar, warm light spilling through
 ```
 
-## Steps
+Fields: `Label` (section tag), `Title` (headline), `Body` (paragraph), `Bullets` (comma-separated list), `Visual` (illustration concept)
 
-### 1. Validate the Input File
-Ensure the user has provided a path to a properly formatted text file (using `Slide 1:`, `Slide 2:` syntax). If they haven't written the script yet, use the `@Kallaway` or `@Mark Kashef` skills to write a high-dwell-time carousel script first, save it to a `.md` file, and then proceed.
+## Generate Artwork
 
-### 2. Execute the Pipeline
-Run the dedicated execution script:
-// turbo
 ```bash
-python /Users/farricecain/Google\ Antigravity/execution/gen_handcrafted_carousel.py [path/to/script.md] --out-dir deliverables/crafted_carousel
+python execution/gen_handcrafted_carousel.py deliverables/carousel_scripts/YOUR_FILE.md
 ```
 
-### 3. Deliver
-- The slides will be populated in `deliverables/crafted_carousel/`.
-- Tell the user to combine the 8 images into a PDF to upload as a native LinkedIn carousel.
-- Ask if they want to revise any specific slide's text or visual concept.
+Options:
+- `--out-dir deliverables/my_project` — custom output directory
+- `--with-text` — also generate Pillow text overlay (optional, for quick previews)
 
-## Psychology & Vibe Context
-This pipeline actively combats "generic AI slop." It leverages Nano Banana 2's texture and style-transfer capabilities to make the digital asset feel analog, tactile, and highly crafted. Executive audiences trust visual restraint over flashy gradients.
+## Output
+- `artwork/art_01.png` through `art_XX.png` — clean backgrounds, no text
+- Style-consistent across all slides (first slide anchors the visual style)
+
+## Canva Composition
+1. Upload artwork backgrounds
+2. Add text using **Permanent Marker** (headlines) and **Caveat** (body) — both on Google Fonts
+3. Color palette: dark brown `#2C1810` headlines, warm body `#4A3728`, copper `#C45A33` labels
+
+## Future Enhancement
+JSON schema layout approach: send artwork + content to Gemini → get layout JSON → Pillow renders with AI-driven composition taste. Logged for future sprint.
