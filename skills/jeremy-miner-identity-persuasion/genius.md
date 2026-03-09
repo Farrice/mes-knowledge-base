@@ -231,9 +231,263 @@ These patterns compound. A single conversation might use:
 
 Mastery isn't knowing the patterns—it's flowing between them based on what the moment requires.
 
+---
+
+## Pattern 15: Frame / Deframe / Reframe Engine
+
+**The Insight:** Every human carries belief systems (frames) installed during childhood (ages 4-13). A frame is just a belief. Persuasion is the art of taking someone out of one frame (deframe) and installing a new one (reframe).
+
+**Observable Behavior:** Jeremy demonstrates this with a psychology example — a suicidal patient has a frame (belief they should end their life). The psychologist must deframe (take them out of that belief) and reframe (install a new belief about the people who love them and what life could be). He applies this exact mechanic to sales: prospects arrive in a "price/cost-based thinking" frame and must be reframed into "results-based thinking."
+
+**Executable Version:**
+- Identify the prospect's current frame (e.g., "this is too expensive")
+- Deframe: disrupt that belief system with questions that make them question it
+- Reframe: install the new frame by redirecting focus (e.g., to the results, the cost of NOT acting)
+- The transition must feel natural — questions are the vehicle, never statements
+
+**Success Metric:** Prospect shifts language from cost-focused to results-focused without realizing you engineered it
+
+---
+
+## Pattern 16: NPQ Connection Questions
+
+**The Insight:** In the first 30-60 seconds, you have zero credibility. Asking "meaty" problem questions too early triggers the guard. Connection questions must focus on the end result, not the problem.
+
+**Observable Behavior:** Instead of "What's going on with you?" (which gets vague, guarded responses), Jeremy opens with: "Looks like you booked in with us about looking at ways to get rid of the numbness in your feet so you can feel comfortable walking again, right?" — immediately pointing at the result, not the problem.
+
+**Executable Version:**
+- Never ask probing questions before trust is established
+- Lead with what you already know about their situation — phrased as the end result
+- "Looks like you [action they took] about [the end result they want], right?"
+- This instantly takes them from cost-based thinking to results-based thinking
+
+**Success Metric:** Prospect's first response is about their desired outcome, not their guard
+
+---
+
+## Pattern 17: POV — Perception of Value
+
+**The Insight:** "It's your perception of value, not the value itself." Two identical pictures — one in a golden frame, one in a flea market frame. Same picture, but the perceived value is completely different. Your offer is the picture. Your communication is the frame.
+
+**Observable Behavior:** Jeremy tells the audience: "People don't come to me because they think I understand their product better than they do. They come because I know how to FRAME their product better than they can."
+
+**Executable Version:**
+- Before improving your offer, improve how you communicate your offer
+- Audit: Is your communication a golden frame or a flea market frame?
+- The same service positioned differently can command 2-10x the price
+- Apply to: sales scripts, landing pages, email sequences, social posts
+
+**Success Metric:** Same offer, different frame → measurably higher conversion or willingness to pay
+
+---
+
+## Pattern 18: Price-to-Results Reframe
+
+**The Insight:** When prospects think "How much does this cost?" they're in price/cost-based thinking. Your job throughout the ENTIRE conversation is to shift them into results-based thinking.
+
+**Observable Behavior:** Jeremy uses comparison framing: "Which is more expensive — getting the funding together and fixing your back, or going through surgery, staying on drugs the rest of your life, and losing three more promotions? In reality, which is more expensive?" The concerned tone makes this feel empathetic, not aggressive.
+
+**Executable Version:**
+- Never answer a price objection with justification
+- Instead, compare: "Is it more expensive to [invest in solution] or to [continue suffering + cascading consequences]?"
+- Stack 2-3 consequences to make the comparison overwhelming
+- Always use concerned tone — you're helping them see reality, not pitching
+
+**Success Metric:** Prospect says "I never thought about it that way" or shifts to discussing outcomes instead of cost
+
+---
+
+## Pattern 19: Nervous System Science
+
+**The Insight:** Objections originate from the nervous system, not logic. When a prospect's nervous system triggers fight-or-flight, they produce objections, give one-word answers, fold their arms, and shut down. Calming the nervous system PREVENTS objections at the source.
+
+**Observable Behavior:** Jeremy downplays consultations: "Yeah, today's pretty basic." He uses neutral language, concerned tones, and humor. All of these calm the nervous system. When he says "I want to disarm the prospect," what he means scientifically is: "I want to calm their nervous system so fight-or-flight doesn't trigger."
+
+**Executable Version:**
+- Prospect resistance = activated nervous system, not a logic problem
+- Calm it through: neutral language, downplaying (not hyping), concerned tone, humor (releases dopamine)
+- Ask yourself: "Is my communication calming their nervous system or activating it?"
+- Every element of your approach should reduce perceived threat
+
+**Success Metric:** Prospect physically relaxes (uncrosses arms, leans in, gives longer answers)
+
+---
+
+## Pattern 20: Identity Frame for Spouse/Authority Objection Prevention
+
+**The Insight:** "I need to talk to my spouse" is an identity expression. The prospect sees themselves as someone who doesn't make decisions alone. Shift the identity BEFORE the objection surfaces.
+
+**Observable Behavior:** Jeremy uses a 3-part architecture:
+1. **Positive Identity Label:** "Wow, it sounds like you're the type of person who never gives up."
+2. **Spouse Validation + Decision-Maker Frame:** "Your spouse is lucky to have a provider like you who is that forward-thinking and responsible and knows they have to make the hard decisions sometimes themselves."
+3. **Negative Identity Contrast:** "I talked to a lot of people and you'd be surprised how many of them let some bad experience completely stop them..."
+4. **Binary Lock:** "Is that something you were born with or something you had to learn?"
+
+Gender-calibrated: For men, emphasize "provider" and "responsible." For women, emphasize "independent" and "forward-thinking."
+
+**Executable Version:**
+- Deploy identity labels early when you hear ANY mention of spouse/partner/authority
+- Use the 3-step: positive label → spouse validation → negative contrast → binary lock
+- Frame them as a decision-maker BEFORE the objection forms
+- Ask "How does your spouse feel about you being in this much pain?" early — this prevents the objection at the end
+
+**Success Metric:** Prospect never voices the spouse objection, or self-corrects if they start to
+
+---
+
+## Pattern 21: Intention Frame
+
+**The Insight:** Reframe price objections by surfacing the prospect's TRUE intention — which is never "keep money in the bank." Their real intention is the result they want.
+
+**Observable Behavior:** "Well yeah, because I'm sure it's not your real intention just to keep the $11,000 in your bank account for the rest of your life and hope and pray it stays there with all that inflation going on, right? I'm sure your real intention is to never have this intense pain in your feet again so you can create memories with your grandkids, right? So what's going to put you in the best position so you can walk again and actually have those memories with them?"
+
+**Executable Version:**
+- Framework: "I'm sure it's not your real intention to [keep money / avoid investment]. I'm sure your real intention is to [end result they stated]. So what's going to put you in the best position to [achieve that result]?"
+- Uses their own words (the result they said they wanted) against the price objection
+- Tone: lean in with concern, not aggression
+- Works for any price point — just plug in the number and the result
+
+**Success Metric:** Prospect reconnects with WHY they came and deprioritizes cost
+
+---
+
+## Pattern 22: Necessity Frame
+
+**The Insight:** Elevate the purchase from "optional nice-to-have" to "necessity" by comparing it to things the prospect would NEVER hesitate to fix.
+
+**Observable Behavior:** "Hold on — if your air conditioning went out right now and it's 99° with full humidity, would you need to call her to get permission to fix the AC? No? Because that's a NECESSITY. So would you say getting rid of the lower back pain that's cost you three promotions — would that also be a necessity?"
+
+**Executable Version:**
+- Find an unquestionable necessity analogy (AC breaking, car not starting, roof leaking)
+- Establish they wouldn't hesitate to fix THAT
+- Bridge: "So would you say [solving their stated problem] would also be a necessity?"
+- They can't say no without contradicting what they just admitted
+
+**Success Metric:** Prospect reclassifies the purchase as a necessity in their own mind
+
+---
+
+## Pattern 23: Five Tone Types Mastery
+
+**The Insight:** "Your tone is how the prospect interprets your intention behind everything you say and ask." It's not the words — it's how you say them that determines whether the brain processes it as threat or safety.
+
+**Observable Behavior:** Jeremy demonstrates dramatic tonal shifts:
+- **Curious:** Open, questioning uplift — used when exploring their situation
+- **Confused:** Slightly puzzled — used to get them to elaborate or explain
+- **Challenging:** Direct, firm downward — used mid-conversation to create urgency (never at the start)
+- **Concern/Empathy:** Slow, downward, soft — used when discussing their pain. This is the money tone. It builds trust instantly.
+- **Playful:** Light, humorous — used to release dopamine, calm the nervous system, and lower the guard
+
+**Executable Version:**
+- Map each conversation phase to the appropriate tone
+- Opening: curious/playful → Problem discovery: concern → Gap building: concerned + challenging → Close: concern + neutral
+- In written copy: use punctuation, sentence length, and word choice to simulate tonal shifts
+- Verbal pacing: dots/ellipses = strategic pauses that force internalization
+
+**Success Metric:** Prospect's emotional state shifts to match your intended tone at each phase
+
+---
+
+## Pattern 24: Self-Persuasion Engine
+
+**The Insight:** "Who is more persuasive — you or them to themselves?" When the prospect articulates the conclusion you want, it's 10x more powerful than when you say it.
+
+**Observable Behavior:** Jeremy asks: "You've been on XYZ medication for the last 12 months. What's CAUSED you to feel that's not going to eventually get rid of the numbness in your feet?" — The prospect then tells YOU why their current solution isn't working. They're now persuading themselves that they need to change.
+
+**Executable Version:**
+- Never tell the prospect what's wrong with their current approach
+- Ask questions that cause THEM to articulate what's wrong
+- Framework: "What's caused you to feel like [current solution] might not [desired outcome]?"
+- They'll say "Well, it's not because..." and start listing problems themselves
+- You become the facilitator of their own realization, not the pitcher
+
+**Success Metric:** Prospect states the key selling point in their own words, unprompted
+
+---
+
+## Pattern 25: Gap Building Methodology
+
+**The Insight:** "Your prospects aren't saying no to you. They're saying no because the gap between where they are compared to where they could be isn't big enough in their mind yet." The sale IS the gap. Build a bigger gap = more urgency.
+
+**Observable Behavior:** Jeremy maps: **Current State** (where they are) → **GAP** (all the problems between) → **Objective State** (where they could be once problems are solved). He explicitly says: "If I only help them find one problem, that gap's not very big. But if I help them find two, three, four, five other problems they didn't realize they had, now that gap becomes really, really painful."
+
+**Executable Version:**
+- Map the prospect's current state with specifics (their words, their situation)
+- Map their objective state (the life/business they want)
+- Build the gap by helping them discover problems they didn't know they had
+- Each new problem = wider gap = more urgency = more need for your solution
+- The prospect should feel the gap is too painful to tolerate
+
+**Success Metric:** Prospect articulates 3-5 problems they didn't initially mention, and says "I can't keep doing this"
+
+---
+
+## Pattern 26: Problem Awareness Questions — The 3-Layer Drill
+
+**The Insight:** Surface-level problem discovery = surface-level urgency. You need three layers: (1) What are the REAL problems? (2) What is the ROOT CAUSE? (3) How are those problems affecting them PERSONALLY?
+
+**Observable Behavior:** Jeremy drills: Layer 1 — "Help me understand, you've been on XYZ medication for 12 months. What's caused you to feel that might not work?" Layer 2 — Root cause probing. Layer 3 — "How does that make you feel?" / "How is that affecting your work/family/life?" — This is where the emotion lives.
+
+**Executable Version:**
+- Layer 1 (Real Problems): Use reframed questions that bypass surface answers — "What's caused you to feel like [current approach] might not be enough?"
+- Layer 2 (Root Cause): "What do you think is actually causing that?" — Gets them to diagnose themselves
+- Layer 3 (Personal Impact): "How is that affecting you personally?" — This is where urgency lives
+- Each layer deepens emotional engagement and widens the gap
+
+**Success Metric:** Prospect shares personal, emotional consequences of their problems — not just business facts
+
+---
+
+## Pattern 27: 100% Framing Technique
+
+**The Insight:** No human being is 100% happy with anything. Asking "Are you 100% happy with [current solution]?" forces the brain to evaluate against a perfection standard — which nothing meets.
+
+**Observable Behavior:** Jeremy says: "Are you 100% in love with the returns you've been getting?" — The brain doesn't process "am I happy yes/no?" It processes "am I 100% happy?" And nobody is. Even if they initially say yes, a 1-2 second pause followed by "Wow, it sounds like your [solution] is 100% perfect" causes them to backtrack: "Well, I wouldn't say it's 100%..." Then: "What would you change if you could, though?"
+
+**Executable Version:**
+- Replace "Are you happy with...?" with "Are you 100% happy with...?"
+- If they say yes: pause 1-2 seconds, then mirror back "It sounds like [solution] is 100% perfect for you." — they'll self-correct
+- If they backtrack: "What would you change if you could, though?" — now they're giving you problems
+- Works in cold calls, inbound, in-person — any context
+
+**Success Metric:** Prospect volunteers what they'd change — opening the door to gap building
+
+---
+
+## Pattern 28: Neutral Language & Doubt Seeding
+
+**The Insight:** Don't trash the competition (you lose trust), don't praise them (you strengthen their frame). Use NEUTRAL language with tonal doubt to seed uncertainty.
+
+**Observable Behavior:** "You've been with XYZ company the last 5 years. I mean, they're... fairly decent. What's caused you to feel like you might want something different?" The words are neutral ("fairly decent"), but the TONE seeds doubt — the prospect feels Jeremy might know something bad about that company without him actually saying it.
+
+**Executable Version:**
+- Neutral phrases: "fairly decent," "not horrible," "not bad by any means"
+- Pair with downward, slightly pausing tone — seeds doubt without triggering defensiveness
+- Never say competitor is great (strengthens their frame) or terrible (you seem biased)
+- Follow immediately with: "What's caused you to feel like you might want to look at someone else?"
+- The combination of neutral words + doubting tone + probing question opens the floodgates
+
+**Success Metric:** Prospect starts listing things they don't like about their current provider without being prompted to complain
+
+---
+
+## Integration Note (Expanded)
+
+The original 14 patterns provide the **strategic architecture** of identity-based persuasion. Patterns 15-28 provide the **tactical execution layer** — the specific question frameworks, tonal mechanics, and frame engineering techniques that deploy those strategies in real conversations.
+
+A master-level conversation chains these together:
+
+1. **Connection Phase:** NPQ Connection Questions (P16) + POV framing (P17) + Playful/Curious tone (P23)
+2. **Problem Discovery:** Gap Building (P25) + Problem Awareness 3-Layer Drill (P26) + Self-Persuasion (P24) + Concern tone (P23)
+3. **Objection Prevention:** Identity Frame (P20) + Frame/Deframe/Reframe (P15) + Nervous System calming (P19)
+4. **Price Handling:** Price-to-Results Reframe (P18) + Intention Frame (P21) + Necessity Frame (P22)
+5. **Commitment:** Binary Identity Lock (P8) + 4 Identity Types (P5) + Permission Close (P12)
+
+---
+
 ## Hidden Knowledge
 
-Six points of tacit expertise that separate surface-level practitioners from true masters.
+Ten points of tacit expertise that separate surface-level practitioners from true masters.
 
 ---
 
@@ -324,6 +578,70 @@ Six points of tacit expertise that separate surface-level practitioners from tru
 - Match your tonal subtext to your strategic intent
 
 **The Shift:** You move from saying the right words to conveying the right subtext
+
+---
+
+## Hidden Knowledge 7: The Nervous System Is the Gatekeeper
+
+**The Surface Understanding:** "Lower their guard."
+
+**The Deeper Truth:** Every objection, every one-word answer, every folded arm originates not from conscious decision but from an activated nervous system triggering fight-or-flight. The prospect doesn't DECIDE to resist — their body does it automatically based on perceived threat. This means: if you can calm the nervous system, objections literally cannot form. Humor releases dopamine, which calms the nervous system. Concerned tone signals safety. Downplaying ("today's pretty basic") removes the threat of high-pressure. All of Jeremy's "techniques" are actually nervous system interventions.
+
+**Deployment Guidance:**
+- Audit every element of your communication: does this activate or calm the nervous system?
+- Humor = dopamine = calm. Concern tone = safety = trust. Neutral language = no threat = openness.
+- If getting resistance: your communication is triggering fight-or-flight. Change what you're doing, not what their "problem" is.
+- When prospects minimize problems, blame your approach, not them: "Something I said triggered this reaction."
+
+**The Shift:** You move from "how do I overcome their resistance?" to "how do I stop creating it?"
+
+---
+
+## Hidden Knowledge 8: Self-Persuasion > External Persuasion
+
+**The Surface Understanding:** "Ask questions to uncover needs."
+
+**The Deeper Truth:** The purpose of questions isn't to gather information for YOUR pitch. It's to cause the prospect to articulate THEIR OWN case for change. When you ask "What's caused you to feel like that medication might not eventually get rid of the numbness?" — the prospect tells YOU why their current solution won't work. They've just sold themselves on needing something different. You didn't say a word of persuasion. They did all the work. This is why Jeremy says: "Who is more persuasive — you or them to themselves?"
+
+**Deployment Guidance:**
+- Design every question so that the ANSWER is the selling point
+- You want them to say "Well, it's not working because..." — that's self-persuasion
+- Never tell them what's wrong. Let them discover it through your questions.
+- In copy: use rhetorical questions that force the reader to conclude what you want
+
+**The Shift:** You move from convincing to facilitating self-discovery
+
+---
+
+## Hidden Knowledge 9: Verbal Pacing Controls Internalization
+
+**The Surface Understanding:** "Don't rush your questions."
+
+**The Deeper Truth:** When you ask a question quickly, it stays at the surface — the brain processes it logically and gives a rapid, shallow answer. When you slow down, pause strategically (marked by "..." in scripts), the prospect's brain goes INTERNAL. Internal processing is where emotion lives. The pause after "Are you 100% happy with...?" forces the brain to actually evaluate against 100%. The pause after "In reality... which is more expensive?" forces the brain to do the comparison. Speed = surface processing. Pacing = deep processing. Deep processing = emotional engagement. Emotional engagement = change.
+
+**Deployment Guidance:**
+- Add strategic pauses before key words: "What's caused you to feel... like that might not... be enough?"
+- In written copy: use short paragraphs, ellipses, line breaks to simulate pacing
+- Never ask two important questions back-to-back — let each one land
+- The pause signals: "This is important. Think about it."
+
+**The Shift:** You move from information exchange to emotional processing
+
+---
+
+## Hidden Knowledge 10: The Gap IS the Sale
+
+**The Surface Understanding:** "Discover the prospect's problems."
+
+**The Deeper Truth:** You don't close deals. You build gaps. The sale is already made the moment the gap between current state and objective state is wide enough and painful enough. Everything after that — presenting the solution, discussing price — is administrative. The strategic work already happened in gap building. This is why Jeremy says: "Your prospects aren't saying no to you. They're saying no because the gap isn't big enough in their mind yet." Stop trying to be more convincing. Start building a bigger gap. One problem = small gap = maybe later. Five problems they didn't know they had = massive gap = "I can't keep doing this, what do we need to do?"
+
+**Deployment Guidance:**
+- Your job isn't "selling" — it's "gap architecture"
+- Each question should widen the gap between where they are and where they could be
+- Help them find problems they didn't know they had (problem finding > problem solving)
+- The gap must be so big that NOT acting becomes more painful than the investment
+
+**The Shift:** You move from closer to architect
 
 ---
 

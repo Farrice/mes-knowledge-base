@@ -56,7 +56,7 @@
 | `jason-fladlien-marketing` | **Jason Fladlien: High-Status Marketing & Closing** | jason fladlien - high-status marketing & closing, high-status marketing & closing | 4 | 26 |
 | `jen-santulan-listing-content` | **Jen Santulan Listing Content** |  | 0 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** |  | 3 | 7 |
-| `jeremy-miner-identity-persuasion` | **Jeremy Miner: Identity-Based Persuasion & Psychological Framing** | identity-based persuasion & psychological framing | 3 | 14 |
+| `jeremy-miner-identity-persuasion` | **Jeremy Miner: Identity-Based Persuasion & Psychological Framing** | identity-based persuasion, psychological framing, frame engineering, gap building, NPQ conversation design, tonality mastery, self-persuasion, objection prevention, nervous system science | 10 | 28 |
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | philosopher-financier skill | 5 | 30 |
 | `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery, authority craft, catchy phrasing, anti-hype, revelation order, stealing thunder, bucket brigades | 4 | 7 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | writing career monetization, service positioning, offer architecture, revenue model, ghostwriting business, copywriting business, channel strategy, messaging strategy, invisible sales page, funnel diagnostic | 5 | 10 |
