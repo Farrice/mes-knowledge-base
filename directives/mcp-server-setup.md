@@ -1,6 +1,6 @@
 # MCP Server Setup Guide
 
-Quick-start guide for installing Google Workspace, Notion, and SQLite MCP servers for your Antigravity environment.
+Quick-start guide for Google Workspace, Notion, and SQLite MCP servers for your Antigravity environment.
 
 ---
 
@@ -8,55 +8,87 @@ Quick-start guide for installing Google Workspace, Notion, and SQLite MCP server
 
 | MCP Server | What It Does | Cost |
 |------------|--------------|------|
-| **Google Workspace** | Read/write Docs, Sheets, Drive | Free (OAuth) |
+| **Google Workspace** (`gws`) | Read/write Drive, Docs, Sheets, Gmail, Calendar, Chat, 50+ services | Free (OAuth) |
 | **Notion** | Read/write Notion pages/databases | Free (API key) |
 | **SQLite** | Query local SQLite databases | Free |
 
 ---
 
-## 1. Google Workspace MCP
+## 1. Google Workspace MCP (via `gws` CLI)
 
-### Step 1: Get Google OAuth Credentials
+**GitHub:** https://github.com/googleworkspace/cli
+**npm:** `@googleworkspace/cli`
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. Create a new project (or use existing)
-3. Enable these APIs:
-   - Google Drive API
-   - Google Docs API
-   - Google Sheets API
-4. Go to **Credentials** → **Create Credentials** → **OAuth Client ID**
-5. Select **Desktop Application**
-6. Download the JSON credentials
+The official Google Workspace CLI includes a built-in MCP server that exposes Google APIs as structured tools for AI agents.
 
-### Step 2: Install
+### Step 1: Install
 
 ```bash
-# Set environment variables (replace with your values)
-export GOOGLE_OAUTH_CLIENT_ID="your-client-id"
-export GOOGLE_OAUTH_CLIENT_SECRET="your-client-secret"
-
-# Install and run
-uvx workspace-mcp
+npm install -g @googleworkspace/cli
+gws --version
 ```
 
-### Step 3: Add to MCP Config
+Requires Node.js 18+. Pre-built Rust binaries — no Rust toolchain needed.
 
-Add to `~/.gemini/antigravity/mcp_config.json`:
+### Step 2: Authenticate
+
+**If you have `gcloud` CLI:**
+```bash
+gws auth setup    # Creates GCP project + OAuth credentials automatically
+gws auth login    # Opens browser for OAuth consent
+```
+
+**Manual setup (no `gcloud`):**
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. Create/select a project and enable Workspace APIs (Drive, Docs, Sheets, Calendar, Gmail)
+3. Go to **Credentials** → **Create Credentials** → **OAuth Client ID** → **Desktop Application**
+4. Download client JSON to `~/.config/gws/client_secret.json`
+5. Run `gws auth login -s drive,gmail,calendar,sheets,docs`
+
+Credentials are encrypted at rest via OS keyring (macOS Keychain, AES-256-GCM).
+
+### Step 3: Verify
+
+```bash
+gws auth status
+gws drive files list --params '{"pageSize": 3}'
+```
+
+### Step 4: Register MCP Server for Claude Code
+
+```bash
+claude mcp add google-workspace -s project -- gws mcp -s drive,gmail,calendar,sheets,docs
+```
+
+This creates `.mcp.json` in the project root:
 
 ```json
 {
   "mcpServers": {
     "google-workspace": {
-      "command": "uvx",
-      "args": ["workspace-mcp"],
-      "env": {
-        "GOOGLE_OAUTH_CLIENT_ID": "YOUR_CLIENT_ID",
-        "GOOGLE_OAUTH_CLIENT_SECRET": "YOUR_CLIENT_SECRET"
-      }
+      "type": "stdio",
+      "command": "gws",
+      "args": ["mcp", "-s", "drive,gmail,calendar,sheets,docs"]
     }
   }
 }
 ```
+
+**Service flag (`-s`):** Controls which APIs are exposed. Options include `drive`, `gmail`, `calendar`, `sheets`, `docs`, `chat`, `admin`, or `all`.
+
+### Security Features
+
+- `--sanitize` — Integrates with Google Cloud Model Armor (prompt injection detection)
+- `--dry-run` — Preview commands without execution
+- `-s` flag — Scope-limit which services the MCP server exposes
+
+### Current Setup (as of 2026-03-09)
+
+- **GCP Project:** Jarvis V2 (`jarvis-v2-488418`)
+- **OAuth Client:** "Javris" (Desktop type)
+- **Account:** farrice.cain@gmail.com
+- **Scopes:** drive, spreadsheets, gmail.modify, calendar, documents, userinfo.email, openid
+- **Credentials:** `~/.config/gws/credentials.enc` (encrypted)
 
 ---
 
@@ -114,62 +146,26 @@ Replace `/path/to/your/database.db` with your actual SQLite database path.
 
 ---
 
-## Complete Config Example
-
-Here's what your full `~/.gemini/antigravity/mcp_config.json` should look like:
-
-```json
-{
-  "mcpServers": {
-    "google-workspace": {
-      "command": "uvx",
-      "args": ["workspace-mcp"],
-      "env": {
-        "GOOGLE_OAUTH_CLIENT_ID": "YOUR_GOOGLE_CLIENT_ID",
-        "GOOGLE_OAUTH_CLIENT_SECRET": "YOUR_GOOGLE_CLIENT_SECRET"
-      }
-    },
-    "notion": {
-      "command": "npx",
-      "args": ["@notionhq/notion-mcp-server"],
-      "env": {
-        "NOTION_TOKEN": "YOUR_NOTION_API_KEY"
-      }
-    },
-    "sqlite": {
-      "command": "uvx",
-      "args": ["mcp-server-sqlite", "--db-path", "/Users/farricecain/data/knowledge.db"]
-    }
-  }
-}
-```
-
----
-
 ## Prerequisites
 
-Make sure you have these installed:
-
 ```bash
-# Check if uv is installed
-which uvx
+# Node.js 18+ (required for gws)
+node --version
 
-# If not, install it
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# uv (required for SQLite MCP)
+which uvx || curl -LsSf https://astral.sh/uv/install.sh | sh
 
-# Check if npx is available (comes with Node.js)
+# npx (required for Notion MCP, comes with Node.js)
 which npx
-
-# If not, install Node.js from https://nodejs.org/
 ```
 
 ---
 
 ## After Setup
 
-Once configured, restart your AI environment. The MCP servers should be available and I'll be able to:
+Once configured, restart your Claude Code session. The MCP servers will be available:
 
-- **Google Workspace**: Read/write your Docs, Sheets, search Drive
+- **Google Workspace**: Read/write Drive, Docs, Sheets; manage Calendar events; send/read Gmail
 - **Notion**: Create pages, update databases, search workspace
 - **SQLite**: Query your local databases
 
