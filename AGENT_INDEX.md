@@ -28,7 +28,7 @@
 | `david-bayer` | **David Bayer** | approval independence, elite communication, friend coffee frame, grounded presence |
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
 | `david-mcraney` | **David McRaney** | belief change architect |
-| `donald-miller` | **donald-miller** | certainty projection, culture turnaround, identity transformation, identity-first transformation, invisible campaign recognition, obsessive documentation, peace framework mastery, strategic messaging |
+| `donald-miller` | **donald-miller** | brandscript, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, narrative marketing, obsessive documentation, one-liner, peace framework mastery, sales funnel, storybrand, strategic messaging |
 | `dr-kriukow` | **Dr. Kriukow** | agent configuration, ai detection mechanics, ai text humanization, meaning-first rewriting, platform-specific humanization, structural analysis |
 | `erica-mallet` | **Erica Mallet: Brand Magnetism Architect** | belief-based brand architecture, brand magnetism architect, differentiation engineering, enemy effect deployment, psychological loop creation, tone word quality filter |
 | `ethan-smith` | **Ethan Smith** | aeo, answer engine optimization, experimental search methodology, rag citation mechanics, search optimization architect |

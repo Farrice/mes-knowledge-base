@@ -1,14 +1,3 @@
 {
-  "mcpServers": {
-    "google-workspace": {
-      "type": "stdio",
-      "command": "gws",
-      "args": [
-        "mcp",
-        "-s",
-        "drive,gmail,calendar,sheets,docs"
-      ],
-      "env": {}
-    }
-  }
+  "mcpServers": {}
 }

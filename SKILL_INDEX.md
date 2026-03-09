@@ -40,6 +40,7 @@
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
 | `donald-miller-culture-turnaround` | **Donald Miller - Culture Turnaround Mastery** | culture turnaround mastery | 4 | 21 |
+| `donald-miller-storybrand` | **Donald Miller — StoryBrand Mastery** | storybrand, sb7 brandscript, narrative marketing, business messaging, one-liner, sales funnel, email sequence, copy transformer, message audit, website wireframe, keynote narrative, cognitive load elimination, hero inversion | 8 | 0 |
 | `dr-kriukow-humanization` | **Dr. Kriukow AI Humanization** |  | 2 | 4 |
 | `erica-mallet-brand-magnetism` | **Erica Mallet: Brand Magnetism Mastery** | brand magnetism mastery | 5 | 52 |
 | `ethan-smith-aeo` | **Ethan Smith — AEO (Answer Engine Optimization)** | aeo (answer engine optimization) | 3 | 8 |

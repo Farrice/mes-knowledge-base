@@ -1,6 +1,6 @@
 # Perplexity API Usage Policy
 
-> **Monthly Budget Limit: $10**
+> **Monthly Budget Limit: $20**
 > This directive applies to ALL agents, workflows, and research tasks.
 > **Last Updated: 2026-02-14**
 
@@ -42,9 +42,9 @@ Perplexity provides higher-quality, citation-backed research than basic web sear
 
 | Metric | Value |
 |--------|-------|
-| **Monthly Budget** | $10.00 |
-| **Warning Threshold** | $8.00 (80%) — notify user |
-| **Hard Cap** | $10.00 (100%) — block and notify |
+| **Monthly Budget** | $20.00 |
+| **Warning Threshold** | $16.00 (80%) — notify user |
+| **Hard Cap** | $20.00 (100%) — block and notify |
 | **Est. Queries Available** | ~300-500 (Sonar), ~100-200 (Sonar Pro), ~30-50 (Deep Research) |
 | **Reset Date** | 1st of each month |
 
@@ -94,10 +94,11 @@ IS THIS TASK DIRECTIONAL? (background context, general landscape)
 
 ### Budget-Aware Pivoting
 When budget is running low, pivot intelligently — don't just stop:
-1. **$10 → $5 remaining**: Switch Tier 1 tasks from Deep Research to Sonar Pro
-2. **$5 → $2 remaining**: Collapse all queries aggressively (The Collapsing Rule). Use Sonar only.
-3. **$2 → $0.50 remaining**: Fall back to `search_web` for all tiers. Notify user.
-4. **$0.50 → $0**: STOP all external research. Alert user. Offer to proceed with LLM-only (clearly tagged 🔴 PROJECTED).
+1. **$20 → $10 remaining**: Continue normal operations, but prefer Sonar Pro over Deep Research
+2. **$10 → $5 remaining**: Switch Tier 1 tasks from Deep Research to Sonar Pro
+3. **$5 → $2 remaining**: Collapse all queries aggressively (The Collapsing Rule). Use Sonar only.
+4. **$2 → $0.50 remaining**: Fall back to `search_web` for all tiers. Notify user.
+5. **$0.50 → $0**: STOP all external research. Alert user. Offer to proceed with LLM-only (clearly tagged 🔴 PROJECTED).
 
 ---
 
@@ -105,7 +106,7 @@ When budget is running low, pivot intelligently — don't just stop:
 
 ### Pre-Query Checks (MANDATORY before every Perplexity call)
 1. **Read** `.agent/perplexity-usage.json` for current spend
-2. **Calculate** remaining budget: `$10.00 - current_spend`
+2. **Calculate** remaining budget: `$20.00 - current_spend`
 3. **If remaining < $2.00**: Switch to Sonar (cheapest model) only
 4. **If remaining < $0.50**: BLOCK all Perplexity calls, notify user, fall back to `search_web`
 
@@ -174,4 +175,4 @@ User can adjust the monthly limit by:
 
 ---
 
-*Effective: 2026-02-05 | Updated: 2026-02-14 — Added loop protection, provenance tagging, and swarm governance*
+*Effective: 2026-02-05 | Updated: 2026-03-09 — Budget increased to $20/month per user request. Added loop protection, provenance tagging, and swarm governance*
