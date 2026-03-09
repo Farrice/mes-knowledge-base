@@ -38,6 +38,8 @@ If you prefer using the exact commands, here is the complete list:
 * **`/extract`** — Extract expert knowledge from source material and convert to an Antigravity skill.
 * **`/recommend`** — Contextual skill recommendation — analyzes what you're working on right now and deploys the right experts.
 * **`/system-audit`** — Run a comprehensive health audit on the Antigravity system.
+* **`/routing-intelligence`** — View the routing analytics dashboard — expert utilization, domain distribution, feedback, and suggestions.
+* **`/rate`** — Quick-rate the last expert output (positive/negative/mixed) to track routing quality.
 
 ## Solopreneur Operating System
 * **`/weekly-pulse`** — Monday planning ritual — scan situation, set priorities, generate a 5-day breakdown for compressed work windows.

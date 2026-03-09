@@ -117,6 +117,28 @@ After matching intent to domain, verify expert coverage exists:
 
 Full loading protocol: `directives/agent-loading-protocol.md`
 
+**Step 5 — Log routing decision (fire-and-forget):**
+
+After routing completes, log the decision for the intelligence layer:
+
+```bash
+python execution/routing_intelligence.py log \
+    --request "[1-line summary of user request]" \
+    --score [intent_score] \
+    --domain "[N]-[slug]" \
+    --experts "[comma-separated expert names]" \
+    --tier [0-3] \
+    --mode [output|expertise|hybrid] \
+    --workflow "[skill/workflow path if applicable]" \
+    --session "[session_id]" \
+    [--ensemble if multi-expert] \
+    [--pairing "Pairing Name" if compound]
+```
+
+If the script fails, continue — never block routing for analytics. Skip logging for: trivial questions, system commands, follow-ups within an already-logged route.
+
+Dashboard: `/routing-intelligence`. Quick feedback: `/rate`.
+
 ### Stage 4: PRESENT
 
 For complex or multi-step requests, present before executing:
