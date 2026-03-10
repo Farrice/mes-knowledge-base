@@ -278,7 +278,7 @@ class NotebookLMClient:
             "--config", str(CONFIG_FILE),
             "chat",
             "--message", query,
-            "--notebook-id", notebook_id,
+            "--notebook", notebook_id,
         ]
 
         if context:

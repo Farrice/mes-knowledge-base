@@ -130,6 +130,15 @@ The "reason it works" that makes every promise believable:
 | Need brand architecture | `greg-hoffman` | Brand identity for creative strategy |
 | Need digital product vehicle | `nicolas-cole` | Vehicle selection for monetization |
 
+## Knowledge Sources
+
+| Source | Type | When to Query |
+|--------|------|---------------|
+| **Luke Iha — Copywriting Systems** (NotebookLM) | RAG | When skills lack specific examples, edge cases, or recent methodology updates. Query before generating mechanism names, proof sequences, or VSL architectures to ground output in Luke's actual language and thinking. |
+| 7 Skills (local) | Expert knowledge | Always loaded first (Tier 1). NotebookLM supplements, never replaces. |
+
+**Query pattern**: `/query-notebook "Luke Iha — Copywriting Systems" "<question>"`
+
 ## Memory Reference
 
 Persistent context: `memory/context.md`. Update when:

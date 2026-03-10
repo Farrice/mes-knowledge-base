@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (152 Commands)
+# 🚀 Antigravity Workflows — Complete Index (162 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -126,6 +126,22 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/screenplay` | Build complete screenplay structure from theme to scene descriptions |
 | `/subtext` | Transform explicit dialogue into layered subtext |
 | `/visual-prose` | Write novelistic scene descriptions with five-layer sensory composition |
+
+---
+
+## ✍️ Cross-Domain Writing Mastery — Eric Roth (10)
+| Command | What It Does |
+|---------|-------------|
+| `/roth-social` | Social media posts with cinematic depth — visual prose hooks, theme-driven, off-center across platforms |
+| `/roth-content` | Long-form articles and newsletters with cinematic structure — sensory openings, thematic arcs, memorable closings |
+| `/roth-copy` | Sales copy with displacement selling — visual proof, off-center CTAs, resonance over pressure |
+| `/roth-ghostwrite` | Premium ghostwriting using Third Rail principle — client voice + Roth craft = best version of the client |
+| `/roth-email` | Cinematic email sequences — serialized episodes with visual prose, temporal arcs, and recurring motifs |
+| `/roth-erosion` | Cross-domain erosion protocol — iterative refinement for any content type, not just screenplays |
+| `/roth-visual-prose` | Visual prose deployment for any content — sensory openings that create "stop scrolling" moments |
+| `/roth-theme` | Theme Compass for content strategy — thematic coherence across any content series |
+| `/roth-tone` | Tone Compass for marketing — brand voice calibration using displacement and off-center techniques |
+| `/roth-residue` | Memorable residue engineering — craft "stays in your soul" moments for any written form |
 
 ---
 
@@ -289,6 +305,11 @@ You don't need to remember command names. These common phrases automatically map
 | "create a skill" / "build a new skill" | `create-skill` |
 | "listing video" / "real estate hooks" / "property tour" | `listing-content` |
 | "big project" / "complex build" / "multi-step project" | `big-project` |
+| "elevate my writing" / "cinematic content" / "Roth style" | `roth-content` |
+| "displacement copy" / "off-center CTA" / "Roth copy" | `roth-copy` |
+| "cinematic email" / "email as story" / "serialized email" | `roth-email` |
+| "premium ghostwriting" / "Third Rail" / "elevate ghostwriting" | `roth-ghostwrite` |
+| "memorable line" / "stays in your soul" / "residue" | `roth-residue` |
 
 ---
 

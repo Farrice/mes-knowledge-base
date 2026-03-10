@@ -94,7 +94,7 @@ Push complexity into deterministic code. You focus on decision-making.
 - **Local Files**: Skills, agents, directives (primary)
 - **Notion Databases**: 5 databases for projects, knowledge vault, content pipeline
 - **NotebookLM**: Domain-specific research notebooks (RAG layer)
-  - 3 notebooks: Higgsfield Cinema Studio, AI Brain Build Sprint, LinkedIn Ghostwriting
+  - 5 notebooks: Higgsfield Cinema Studio, AI Brain Build Sprint, LinkedIn Ghostwriting, Lara Acosta, Luke Iha Copywriting
   - Query count: 100/month
   - Usage: `/query-notebook` or auto-loaded at Tier 1.5
   - Budget tracking: `.agent/notebooklm-usage.json`

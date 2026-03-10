@@ -71,6 +71,15 @@ When this agent should delegate to another expert:
 | Transitioning the attention into a specific "How I" B2B narrative | Tommy Clark | The finalized hook and core lesson |
 | Refining the actionable advice into extreme concrete specifics | Harry Dry | The "Actionable Advice" paragraph from the SLAY framework |
 
+## Knowledge Sources
+
+| Source | Type | When to Query |
+|--------|------|---------------|
+| **Lara Acosta - LinkedIn Mastery** (NotebookLM) | RAG | When skills lack specific examples, hook variations, or recent methodology updates. Query before generating hooks, SLAY posts, or content calendars to ground output in Lara's actual language, formatting, and thinking. |
+| 2 Skills (local) | Expert knowledge | Always loaded first (Tier 1). NotebookLM supplements, never replaces. |
+
+**Query pattern**: `/query-notebook "Lara Acosta - LinkedIn Mastery" "<question>"`
+
 ## Memory Reference
 
 This agent's persistent context is stored in `memory/context.md`. Update it when:

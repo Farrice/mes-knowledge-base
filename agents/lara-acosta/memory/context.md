@@ -1,5 +1,9 @@
 # Lara Acosta Memory
 
+## Knowledge Sources
+- NotebookLM: "Lara Acosta - LinkedIn Mastery"
+  - Query for: hook patterns, authority building strategies, content frameworks, SLAY examples, F-shape formatting samples, viral format structures
+
 ## Active Projects
 (None yet)
 
