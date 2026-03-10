@@ -41,6 +41,10 @@ If you prefer using the exact commands, here is the complete list:
 * **`/routing-intelligence`** — View the routing analytics dashboard — expert utilization, domain distribution, feedback, and suggestions.
 * **`/rate`** — Quick-rate the last expert output (positive/negative/mixed) to track routing quality.
 
+## Autoresearch (Self-Improvement)
+* **`/skill-evolution`** — Run an evolution cycle on a skill — benchmark, identify weaknesses, generate and test workflow variants, keep improvements.
+* **`/gap-report`** — Generate a monthly intelligence gap report — identify weak skills, missing coverage, and knowledge investment priorities.
+
 ## Solopreneur Operating System
 * **`/weekly-pulse`** — Monday planning ritual — scan situation, set priorities, generate a 5-day breakdown for compressed work windows.
 * **`/daily-focus`** — Compressed work block optimizer — generates today's task breakdown with time blocks and exit criteria.
@@ -56,6 +60,15 @@ If you prefer using the exact commands, here is the complete list:
 * **`/generate-video-asset`** — Generate video assets using the Keyframe-to-Video method for AI video tools.
 * **`/launch-monitor`** — Execute the Seena Rez "Early Adopter" Innovation Strategy to find, validate, and brand a product in 30 minutes.
 * **`/package-deliverable`** — Turn raw strategy documents (.md files) into premium visual deliverables for clients.
+
+## Screenwriting & Storytelling
+* **`/screenplay`** — Build a complete screenplay structure from theme to scene descriptions using Eric Roth's architecture methodology.
+* **`/character-psych`** — Create deep character psychology wallets — backstory, neuroses, voice, motivations, and behavioral patterns.
+* **`/subtext`** — Transform explicit "on-the-nose" dialogue into layered subtext using off-center displacement and dream-logic.
+* **`/erosion`** — Apply Eric Roth's page-one daily rewrite methodology to any draft — erosion, not revision.
+* **`/adapt`** — Adapt source material (novel, article, true story) into an original screenplay with 60%+ invention.
+* **`/visual-prose`** — Write novelistic, immersive scene descriptions with five-layer sensory composition.
+* **`/memorable-line`** — Engineer iconic lines, visual moments, and scenes designed to "stay in your soul."
 
 ## Validation & Formatting
 * **`/dual-format-docs`** — Always create both a markdown file and a readable plain-text version of synthesis/research documents.

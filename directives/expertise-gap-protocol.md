@@ -211,6 +211,16 @@ All output from gap-affected tasks MUST be tagged:
 - **Tags with**: Provenance system from `directives/quality_assurance.md`
 - **Extends**: `directives/deep_self_annealing.md` (error recovery → knowledge recovery)
 
+### Autoresearch Integration (Phase 4)
+
+This protocol now feeds into the Intelligence Gap Detector:
+
+- **Gap log entries** are analyzed by `execution/gap_analysis.py` for recurring patterns
+- **Recurring gaps** (3+ occurrences) are surfaced in `/gap-report` as high-priority extraction candidates
+- **Performance data** from resolved gaps (post-extraction quality scores) validates whether the extraction actually closed the gap
+- Run `python execution/gap_analysis.py recommendations` to see gap-closing priorities
+- Run `/gap-report` for a full monthly intelligence gap analysis
+
 ---
 
 ## Usage Tracking
