@@ -43,6 +43,7 @@
 | `donald-miller-storybrand` | **Donald Miller — StoryBrand Mastery** | storybrand, sb7 brandscript, narrative marketing, business messaging, one-liner, sales funnel, email sequence, copy transformer, message audit, website wireframe, keynote narrative, cognitive load elimination, hero inversion | 8 | 0 |
 | `dr-kriukow-humanization` | **Dr. Kriukow AI Humanization** |  | 2 | 4 |
 | `erica-mallet-brand-magnetism` | **Erica Mallet: Brand Magnetism Mastery** | brand magnetism mastery | 5 | 52 |
+| `eric-roth-screenwriting-mastery` | **Eric Roth: Screenwriting Mastery** | oscar-level screenwriting, screenplay architecture, character psychology, subtext alchemy, erosion protocol, adaptation, visual prose, memorable moments, theme compass, villain psychology, time architecture, collaboration, opening scenes | 12 | 0 |
 | `ethan-smith-aeo` | **Ethan Smith — AEO (Answer Engine Optimization)** | aeo (answer engine optimization) | 3 | 8 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | writing mastery | 5 | 36 |
 | `frontend-design` | **frontend-design** |  | 0 | 0 |
@@ -77,7 +78,12 @@
 | `linkedin-2026-format-arbitrage` | **LinkedIn 2026 Format Arbitrage** | niche bending and 2026 format arbitrage for linkedin | 2 | 5 |
 | `logan-kilpatrick-ai-studio` | **Logan Kilpatrick: Google AI Studio Mastery** | google ai studio mastery | 3 | 14 |
 | `lucas-alpay-storytelling` | **Lucas Alpay Storytelling** | compelling storytelling for fiction, business copy, and book writing | 4 | 67 |
-| `luke-iha-proof-mechanisms` | **Luke Iha: Proof Mechanisms in Copywriting** | proof mechanisms in copywriting | 3 | 13 |
+| `luke-iha-creative-strategy` | **Luke Iha: Creative Strategy & Freelance Mastery v2.0** | creative strategy, freelance mastery, upwork domination, nuclear VSL, client acquisition, portfolio bootstrapping, objection annihilation, over-delivery flywheel, platform leverage, offer cycling, agency ladder, offer heat formula, 12 types of leverage, category of one positioning, entry offers | 5 | 0 |
+| `luke-iha-copy-blocks` | **Luke Iha: Copy Blocks & CASH Method** | copy blocks, 6 copy blocks, pain promise proof constraints curiosity conditions, copy velocity, CASH method, concept angle style hook, ad ideation, hook writing, proof-of-work hooks, ad body architecture, solve vs show | 4 | 0 |
+| `luke-iha-million-dollar-mechanisms` | **Luke Iha: Million-Dollar Mechanisms** | unique mechanisms, UMP, UMS, SIN framework, universal mechanism matrix, characterization, naming, little big idea, mechanism validation, insight vectors, paradigm shifts, mechanism engineering | 4 | 0 |
+| `luke-iha-proof-mechanisms` | **Luke Iha: Proof Mechanisms in Copywriting** | proof mechanisms, 22-type proof arsenal, doubt node mapping, damaging admissions, jargon flurry, promise-to-proof match, hard-to-fake proof, experience-as-proof, copy doctor, proof-fortified pipeline | 5 | 13 |
+| `luke-iha-unaware-ads` | **Luke Iha: Unaware Ads & Levels of Awareness** | unaware advertising, levels of awareness, worldview porn, hook bank, awareness ladder, winning angles, curiosity relevance, organic hook theft, paradox hook, conspiracy frame, ad-to-funnel, angle swarm | 7 | 0 |
+| `luke-iha-vsl-leads` | **Luke Iha: VSL Lead Architecture** | VSL leads, micro leads, 7 micro lead types, contrarian claim, insider confession, paradoxical question, fascination bullets, lead body architecture, 15-element checklist, reverse outline engineering, movie trailer principle | 4 | 0 |
 | `lulu-cheng-meservey-communications` | **Lulu Cheng Meservey: Communications Strategy & Narrative Architecture** | communications strategy & narrative architecture | 3 | 14 |
 | `made-to-stick-messaging` | **Made to Stick Messaging (Dan & Chip Heath)** |  | 4 | 36 |
 | `manus-ai-consulting` | **Manus.ai: AI Consulting Mastery** | ai consulting mastery | 4 | 14 |
