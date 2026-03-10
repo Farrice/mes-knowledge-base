@@ -160,7 +160,30 @@ Present:
 
 If quality passes, skill is DEPLOYED. If not, iterate on specific issues.
 
-### 9. Report
+### 9. Performance Log
+Log this extraction to the feedback ratchet (see `directives/feedback-ratchet.md`):
+
+```python
+from execution.log_performance import log_output
+
+log_output(
+    output="[Expert Name] — [Domain] extraction ([tier] tier)",
+    agent="[expert-agent-name]",
+    skill="[skill-directory-name]",
+    workflow="extract",
+    task_type="Extraction",
+    quality_score=[1-10 composite from quality gate],
+    intent_alignment=[1-10],
+    expert_standard=[1-10],
+    adversarial_resilience=[1-10],
+    status="Keep",  # or "Needs Improvement" if quality < 7
+    notes="[genius patterns count], [workflows count], [key insight]",
+)
+```
+
+If this is the first extraction for this skill, set status to "Baseline".
+
+### 10. Report
 Present summary:
 - Expert name and domain
 - Extraction tier used
@@ -168,6 +191,7 @@ Present summary:
 - **Workflows created** (count + names)
 - Applied Intelligence highlights
 - Skill location in the system
+- **Quality Score** (from performance log)
 
 ## Options
 

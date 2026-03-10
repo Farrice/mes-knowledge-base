@@ -11,6 +11,7 @@ These are Farrice's structured Notion databases. Use the Notion API (`@notionhq/
 | **Content Pipeline** | `ff77ee45-8ee8-4fce-996e-20c76fa65d9c` | Content from idea → draft → published with platform targeting |
 | **Captures** | `f55d202d-233c-4284-a8f1-7ab1c145ffe1` | Quick captures from Telegram, voice, manual entry |
 | **Farrice Cain — Personal Context** | `0911ef04-8117-463f-8b21-e7f6c1a1ef4a` | Personal insights, worldview, identity, journal extractions |
+| **Performance Log** | `31f49875-a897-81db-b599-dee5e7961b5c` | Autoresearch feedback ratchet — quality signals per output for self-improvement |
 
 ## API Access
 
@@ -37,6 +38,11 @@ The Notion API key is stored in the Antigravity root `.env`.
 
 ### Farrice Cain — Personal Context
 - Name (title), Category (Identity/Worldview/Values/Strengths/Growth Edge/Life Experience/Fatherhood/Creative Vision/Business Philosophy/Health/Emotional Pattern/Decision), Depth (Surface/Medium/Deep/Foundational), Source (Journal/Flywheel/Conversation/Telegram/AI Extraction/Life Event/Manual), Confidence (Certain/Strong/Evolving/Questioning), Emotion (multi), Raw Entry, Extracted Insight, Connected To, Date, Tags (Manifesto Material/Origin Story/Recurring Theme/Contradiction/Evolution Marker/Content Seed/Dad Life)
+
+### Performance Log
+- Output (title), Date, Agent (text), Skill (text), Workflow (text), Task Type (Content/Strategy/Extraction/Research/Client Work/System/Creative/Analysis), Quality Score (number 1-10), User Rating (number 1-10), Intent Alignment (number 1-10), Expert Standard (number 1-10), Adversarial Resilience (number 1-10), Status (Keep/Discard/Needs Improvement/Baseline), Notes, Experiment Tag
+- Script: `execution/log_performance.py`
+- Protocol: `directives/feedback-ratchet.md`
 
 ## Usage Patterns
 
