@@ -59,6 +59,7 @@ Present the kickoff block:
 - ✅ Intent Refiner — sharpness score [X/5]
 - ⏭️ Parallel Thought — [active or reason for skip]
 - ⏭️ Perplexity Research — [active or reason for skip]
+- 📊 System Health — [run `python execution/system_health.py --quick` and report any CRITICAL items]
 
 **Session Plan**: [1-2 sentence approach summary]
 

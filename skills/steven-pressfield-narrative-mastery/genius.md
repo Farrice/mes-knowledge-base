@@ -94,6 +94,24 @@ Children and animals carry innocence, truth, the supernatural. They see what adu
 
 ---
 
+## The Resistance — War of Art Methodology
+
+Pressfield's most famous contribution to creative life. The Resistance is not a metaphor — it's a **diagnostic framework** for understanding why talented people fail to produce. These patterns apply to any creator, founder, or professional who knows what they should be doing but can't seem to do it.
+
+**R1: The Resistance as Universal Creative Antagonist**
+Resistance is an impersonal force — not laziness, not lack of talent. It's a gravitational field that opposes any act of creation, transformation, or ascent. It is strongest when the stakes are highest. If you feel massive Resistance toward a project, that's a *signal* — it means the project matters. Resistance is the compass: whatever you're most afraid of creating is what you most need to create.
+
+**R2: Amateur vs. Professional (The Identity Threshold)**
+The amateur operates on feelings — they write when inspired, quit when frustrated, take criticism personally. The professional operates on commitment — they show up regardless of mood, treat their work as a practice, and separate their identity from their output. This isn't about income — it's about **orientation**. Turning Pro is an identity shift, not an event. It can happen in an instant, but it changes everything.
+
+**R3: Turning Pro — The Threshold Crossing Applied to Creative Life**
+Turning Pro mirrors the Extraordinary World Identity Shift (GP8) — you cross a threshold and your entire relationship to your work changes. The amateur world has comfort, excuses, and potential. The professional world has discipline, output, and reality. The crossing is irreversible: once you see yourself as a professional, you can't unsee it. The sacrifice is comfort. The reward is output.
+
+**R4: Territory vs. Hierarchy Orientation**
+The hierarchical orientation: you create for external validation — followers, applause, rankings. The territorial orientation: you create because the *work itself* is the reward. Your "territory" is the domain you return to every day because it sustains you. Pressfield's test: "If I were the last person on earth, would I still do this?" If yes, it's territory. If no, it's hierarchy. Territory-based creators produce work with authentic gravitational pull because the audience can *feel* the absence of performance.
+
+---
+
 ## The Five Aims (Universal Quality Standard)
 
 Every creative output must achieve ALL five:
@@ -110,10 +128,14 @@ Every creative output must achieve ALL five:
 
 | Stack With | What Compounds |
 |-----------|---------------|
+| **Eric Roth** | Roth handles adaptation/transmutation + Pressfield handles original architecture = complete screenwriting coverage from concept through production |
+| **Dan Koe** | Knowledge Alchemy pipeline + Pressfield's narrative physics = content that teaches through story structure, not just information delivery |
+| **Luke Iha** | Copy mechanics (hooks, leads, mechanisms) + Pressfield's gravitational forces = direct response copy with narrative depth that transcends typical "sales copy" |
 | **Shaan Puri** | Emotion transfer mechanics + Pressfield's structural physics = stories that are architecturally sound AND emotionally devastating |
 | **Mitch Albom** | Theme-first architecture + Pressfield's reverse-engineering = theme and structure lock together from the start |
 | **Jonathan Franzen** | Character psychology depth + Pressfield's curse/transformation physics = the most psychologically real characters possible |
+| **Greg Hoffman** | Nike brand mythology + Pressfield's brand narrative builder = brand stories with the gravitational pull of cultural movements |
 | **Harry Dry** | Copy precision + Pressfield's narrative forces = hooks and headlines that carry gravitational weight |
-| **Oren** | Taste/quality curation + Pressfield's beauty mandate = uncompromising creative standards |
+| **Oren** | Taste/quality curation + Pressfield's beauty mandate = uncompromising creative standards across all output |
 | **Cardinal Mason** | AI copywriting execution + Pressfield's narrative architecture = AI-generated copy with real structural depth |
 | **Heath Brothers** | Made to Stick concreteness + Pressfield's universality aim = ideas that are both sticky and timeless |

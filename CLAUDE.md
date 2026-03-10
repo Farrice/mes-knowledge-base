@@ -38,7 +38,7 @@ python execution/sync_registries.py
 - **Skills** (`skills/[name]/`): `SKILL.md` + `genius.md` + `workflows/*.md` (completion engine format)
 - **Agents** (`agents/[name]/`): `AGENT.md` + `memory/` directory
 - **Agent framework** (`agents/_framework/`): `invocation-cards.md`, `AGENT_TEMPLATE.md`, `orchestrator.md`
-- **Workflows** (`.agent/workflows/`): Slash command implementations — user types `/extract`, system reads `.agent/workflows/extract.md`
+- **Workflows** (`.agent/workflows/`): Workflow implementations — invoked via `/extract`, `@extract`, "run extract", or bare name. System reads `.agent/workflows/extract.md`
 
 ## File Organization
 
@@ -76,7 +76,7 @@ python execution/sync_registries.py
 > **Stage 4 — PRESENT** (complex/multi-step only):
 > Show expert recommendation, await confirmation. Skip for simple tasks, follow-ups, or "just do it."
 >
-> **Slash command used?** Read `.agent/workflows/[command].md` and execute. Full command list: `SLASH_COMMANDS.md`.
+> **Workflow invoked?** If the user references a workflow name from `SLASH_COMMANDS.md` — whether as `/command`, `@command`, "run command", or the bare name — read `.agent/workflows/[command].md` and execute. Full list: `SLASH_COMMANDS.md`.
 > **Skip pipeline for:** trivial questions, follow-ups within approved plan, "just do it", bug fixes.
 > **Full pipeline details:** `directives/intent-pipeline.md`
 
@@ -141,3 +141,19 @@ Push complexity into deterministic code. You focus on decision-making.
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.
 
 **Perplexity**: $10/month. Track in `.agent/perplexity-usage.json`. Sonar default; Deep Research for critical only.
+
+---
+
+## Mandatory Post-Output Actions
+
+After producing ANY deliverable using an expert skill or workflow:
+
+1. **Quality Gate** — Run silent 3-point check (Intent Alignment, Expert Standard, Adversarial Resilience). Score each 1-10. Protocol: `directives/quality_gate.md`
+2. **Performance Log** — Log the quality scores:
+   ```bash
+   python execution/log_performance.py log "description" --skill SKILL_NAME --type TYPE --quality SCORE --status Keep
+   ```
+
+These actions feed the autoresearch feedback loop. Skipping them means Phases 2-4 (Skill Evolution, Cross-Pollination, Gap Detection) cannot activate.
+
+**Skip for**: trivial questions, follow-up adjustments, debugging, file operations, system commands.
