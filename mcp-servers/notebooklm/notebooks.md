@@ -11,6 +11,7 @@ A quick-reference registry of NotebookLM notebooks connected to Claude.
 | **LinkedIn Ghostwriting Research** | `b665051a-20f2-419b-b0a8-4b77d3382464` | Current state of LinkedIn ghostwriting market, Nicolas Cole / Ghostwriter Academy methodology, service models, and competitive intelligence |
 | **Lara Acosta - LinkedIn Mastery** | `2d3ea837-8127-42d9-b735-f1b2cb6e1734` | Lara Acosta's LinkedIn mastery methodology, hook patterns, authority building strategies, and content frameworks |
 | **Luke Iha — Copywriting Systems** | `e45815b6-d760-4d01-984f-de1d3f3de7c0` | Luke Iha's top 30 videos: mechanism engineering, proof architecture, VSL leads, copy blocks, awareness-level advertising, creative strategy, and offer cycling |
+| **Lulu Cheng Meservey — Communications** | `eea41940-608e-4cf6-a7a6-6161130934c7` | Lulu Cheng Meservey's Go Direct communications methodology, founder voice architecture, cultural positioning, crisis communications, attention-to-value conversion, and narrative reality creation |
 
 ---
 

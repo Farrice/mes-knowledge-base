@@ -90,6 +90,15 @@ Reference the methodology files for deeper guidance:
 - **hidden-knowledge.md:** 6 tacit knowledge points
 - **implementation.md:** 24hr/7day/30day transformation pathway
 
+## Knowledge Sources
+
+| Source | Type | When to Query |
+|--------|------|---------------|
+| **Lulu Cheng Meservey — Communications** (NotebookLM) | RAG | When skills lack specific examples, edge cases, or Lulu's exact phrasing. Query before generating founder voice drafts, cultural positioning strategies, crisis responses, or narrative architectures to ground output in Lulu's actual language, frameworks, and thinking. |
+| Skill + genius.md + workflows (local) | Expert knowledge | Always loaded first (Tier 1). NotebookLM supplements, never replaces. |
+
+**Query pattern**: `/query-notebook "Lulu Cheng Meservey — Communications" "<question>"`
+
 ## Success Indicators
 
 Your outputs achieve these markers:

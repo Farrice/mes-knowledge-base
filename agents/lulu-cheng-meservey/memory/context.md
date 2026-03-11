@@ -42,11 +42,19 @@ Deploy this agent when the user needs:
 - Content strategy tied to cultural moments
 - Converting attention into business outcomes
 
+## Knowledge Sources
+
+| Source | Notebook ID | When to Query |
+|--------|-------------|---------------|
+| **Lulu Cheng Meservey — Communications** (NotebookLM) | `eea41940-608e-4cf6-a7a6-6161130934c7` | Before generating founder voice drafts, cultural positioning, crisis responses, or narrative architecture. Grounds output in Lulu's actual language and frameworks rather than general training. |
+
+**Query pattern**: `/query-notebook "Lulu Cheng Meservey — Communications" "<question>"`
+
 ## Session Notes
 
 *This section for tracking context across sessions.*
 
 ---
 
-**Last Updated:** January 2026  
-**Status:** Active and Complete
+**Last Updated:** March 2026
+**Status:** Active and Complete — NotebookLM connected
