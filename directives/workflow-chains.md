@@ -98,5 +98,17 @@ Estimated savings: 40-60% fewer tokens per chain execution.
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (chain boundary handoff executed), update the date and increment count.
+
 *Created: 2026-02-17 | Updated: 2026-02-18 (added handoff summary protocol)*
 *Component 3 of System Elevation*

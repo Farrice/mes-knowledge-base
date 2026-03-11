@@ -84,7 +84,7 @@ After all tracks produce results, evaluate using a weighted matrix:
 
 ## Integration Points
 
-- **Triggered by**: `directives/router_agent.md` (complexity = complex/swarm-worthy)
+- **Triggered by**: `directives/intent-pipeline.md` Stage 3 (complexity = complex/swarm-worthy)
 - **Execution tools**: `execution/parallel_swarm.py`, `/parallel-swarm` workflow
 - **Quality gate**: Each track's output runs through `directives/quality_gate.md` before winner selection
 - **Referenced from**: GEMINI.md/CLAUDE.md/AGENTS.md Operating Principles

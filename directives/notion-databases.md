@@ -51,3 +51,15 @@ The Notion API key is stored in the Antigravity root `.env`.
 **After extractions:** Every MES 3.0 extraction should create a Knowledge Vault entry with the source, expert, key patterns, and link to the Antigravity skill path.
 
 **Project tracking:** When starting or completing significant work, update the Projects database with status and next actions.
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (database ID referenced), update the date and increment count.

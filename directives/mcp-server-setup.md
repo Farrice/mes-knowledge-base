@@ -174,3 +174,15 @@ Once configured, restart your Claude Code session. The MCP servers will be avail
 ## Need Help?
 
 If you get stuck on any step, let me know and I can walk you through it.
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (MCP server configured or referenced), update the date and increment count.

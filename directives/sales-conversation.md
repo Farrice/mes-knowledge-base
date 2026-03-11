@@ -198,10 +198,22 @@ Miner approach:
 
 ## Related Directives
 
-- `invoke-expert.md` - Deep dive with single expert
+- `agent-loading-protocol.md` - Expert loading (tiered)
 - `decision-council.md` - For pricing/offer decisions
 - `daily-council.md` - Morning prep routine
 
 ---
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (sales conversation framework applied), update the date and increment count.
 
 *Last updated: 2026-01-23*

@@ -259,3 +259,15 @@ After extraction, convert to a production skill using the `extraction-to-skill.m
 - **Deployable** over theoretical — outputs work immediately
 - **Creative** over formulaic — methodology is floor, not ceiling
 - **Honest** over inflated — if the source material is thin, say so
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (MES extraction performed), update the date and increment count.

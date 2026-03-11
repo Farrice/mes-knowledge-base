@@ -79,7 +79,7 @@ These 5 protocols govern all work. **Read the full directive when the protocol f
 |----------|-----------|---------------|
 | **Expert Routing** | `directives/expert_auto_routing.md` | Every new request — detect domain, load relevant experts |
 | **Quality Assurance** | `directives/quality_assurance.md` | Every output — anti-patterns check, entity classification |
-| **Intent Refiner** | `directives/intent_refiner.md` | Every new request — score sharpness 1-5, run DICE if raw |
+| **Intent Pipeline** | `directives/intent-pipeline.md` | Every new request — SCORE, SHARPEN, ROUTE, LOAD |
 | **Self-Annealing** | `directives/deep_self_annealing.md` | On any error — Tier 1/2/3 recovery |
 | **Quality Gate** | `directives/quality_gate.md` | After expert-driven output — 3-point silent check |
 

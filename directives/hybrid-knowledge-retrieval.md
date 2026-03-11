@@ -120,5 +120,17 @@ When budgets exhausted → Gracefully downgrade to `scope="local"`
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (hybrid retrieval (Notion + NotebookLM + search) used), update the date and increment count.
+
 *Classification: Knowledge Infrastructure Protocol*
 *Effective: 2026-03-06*

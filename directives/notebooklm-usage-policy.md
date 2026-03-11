@@ -226,5 +226,17 @@ When NotebookLM budget is exhausted:
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (this protocol is invoked), update the date and increment count.
+
 *Effective: 2026-03-06 | Created: NotebookLM RAG Integration*
 *Classification: Mandatory Resource Governance Protocol*

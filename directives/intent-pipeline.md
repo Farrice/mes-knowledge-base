@@ -107,7 +107,7 @@ After matching intent to domain, verify expert coverage exists:
    - Execute appropriate mode (Advisory / Guided / Autonomous)
    - If extraction resolves the gap, re-run ROUTE with the new expert loaded
 
-**When to skip Gap Check**: user said "just do it", one-off factual question, existing expert is close enough (>70% domain overlap), follow-up within approved plan, system/meta tasks.
+**Gap Check skip**: system/meta tasks only. "Close enough" (>70% overlap) is not a skip — route to the closest expert and note the gap for future extraction.
 
 **Step 4 — Load experts via Context Engine:**
 1. **Tier 0**: Read invocation cards (~50 tokens each) for routing confirmation
@@ -158,18 +158,23 @@ For complex or multi-step requests, present before executing:
 Proceed? Or swap anyone?
 ```
 
-**Skip this block for**: simple single-expert tasks, follow-ups in an established flow, "just do it."
+**Skip PRESENT for**: single-expert tasks where the user has previously approved this expert in the current session, or "just do it." Always show for multi-expert ensembles or first-time expert deployment.
 
 ---
 
-## Skip Conditions (Don't Run Pipeline)
+## Step Narrowing (Pipeline Always Runs)
 
-- Clear, specific instruction with all parameters (Score 5)
-- Bug fixes or corrections with clear scope
-- Simple factual questions
-- Follow-up within an already-approved plan
-- User says "just do it", "go ahead", "execute"
-- Trivial single-line tasks
+The pipeline ALWAYS runs. These conditions shorten specific steps — they never skip the pipeline:
+
+| Condition | Steps shortened | Steps still required |
+|-----------|----------------|---------------------|
+| Score 4-5 | Skip Stage 2 | 1, 3, 4 |
+| Bug fix, clear scope | Skip Stage 2 | 1, 3 (verify if expert needed) |
+| Factual question, no expert domain | Skip Stages 3-4 | 1, 2 (if vague) |
+| Follow-up, same plan | Skip Stage 2, reuse Stage 3 route | 1 |
+| "Just do it" | Skip Stage 2, skip PRESENT block | 1, 3, 4 |
+
+**Removed**: "Trivial single-line tasks" is not a valid narrowing condition. If the request touches an expert domain (content, copy, strategy, research), all stages fire.
 
 ---
 
@@ -209,14 +214,29 @@ This pipeline also works mid-conversation (what `/refine-intent` triggers):
 
 | Detail | Reference |
 |--------|-----------|
-| DICE protocol specifics | `directives/intent_refiner.md` |
+| DICE protocol specifics | Stage 2 above (full DICE questions inline) |
 | Domain swim lanes (15 domains, 94 agents) | `DOMAIN_REGISTRY.md` |
 | Compound combinations & handoff chains | `DOMAIN_REGISTRY.md` |
 | Domain detection signals (quick-match) | `directives/expert_auto_routing.md` |
 | McKinsey-grade output standard | `directives/expert_auto_routing.md` |
 | Expert loading tiers | `directives/agent-loading-protocol.md` |
 | Expertise gap self-healing | `directives/expertise-gap-protocol.md` |
-| Combo reference table | `directives/intent_refiner.md` (Step 3) |
+| High-leverage expert combos | See table below |
+
+---
+
+## High-Leverage Expert Combos
+
+| Goal | Best Combo | Why |
+|------|-----------|-----|
+| Killer sales copy | cardinal-mason + harry-dry + alen-sultanic | System + concrete + psychology |
+| Viral content | seena-rez + shaan-puri + kallaway | Hooks + story + retention |
+| LinkedIn authority | lara-acosta + nicolas-cole + dan-koe | Platform + sentences + philosophy |
+| Product launch | samuel-thompson + daniel-priestley + jeremy-miner | Economics + demand + close |
+| Brand positioning | erica-mallet + tom-noske + alex-copper | Belief + magnetism + visual |
+| Strategic analysis | jim-oshaughnessy + rory-sutherland + manus-ai | Cross-domain + behavioral + research |
+| Storytelling | shaan-puri + lucas-alpay + jonathan-franzen | Emotion + structure + depth |
+| AI consulting sales | lindsay + monk-ai + sean-kochel | Outreach + offer + strategy |
 
 ---
 

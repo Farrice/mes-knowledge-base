@@ -161,10 +161,22 @@ Review monthly to identify:
 
 ## Related Directives
 
-- `invoke-expert.md` - Deep dive with single expert
+- `agent-loading-protocol.md` - Expert loading (tiered)
 - `decision-council.md` - Major decisions
 - `content-creation.md` - Full content workflow
 
 ---
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (daily council convened), update the date and increment count.
 
 *Last updated: 2026-01-23*

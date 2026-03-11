@@ -213,10 +213,22 @@ Apply Three Rules Test. What needs to be more concrete?
 
 ## Related Directives
 
-- `invoke-expert.md` - Deep dive with single expert
+- `agent-loading-protocol.md` - Expert loading (tiered)
 - `multi-expert-synthesis.md` - Combining perspectives
 - `daily-council.md` - Morning planning
 
 ---
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (content workflow stages executed), update the date and increment count.
 
 *Last updated: 2026-01-23*

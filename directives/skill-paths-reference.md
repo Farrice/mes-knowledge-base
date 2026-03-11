@@ -36,4 +36,16 @@
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (path lookup performed), update the date and increment count.
+
 *Updated: 2026-02-27*

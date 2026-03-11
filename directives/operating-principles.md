@@ -17,3 +17,15 @@ Core development practices for Antigravity system work. Referenced from CLAUDE.m
 **Information density over length.** Every word earns its keep. Delete fluff, keep the fangs. Use bullet points, bolding, whitespace for readability.
 
 **Anti-Pattern Lock:** Extract *mechanics* from examples, discard the skin. Resist narrative lock. Creative application > mechanical copy. The Gravedigger Safeguard: density cannot mean sterile — inject concrete emotional resonance.
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (principle applied in development workflow), update the date and increment count.

@@ -48,4 +48,16 @@ Types: `feat` (new content/features), `chore` (cleanup/maintenance), `fix` (corr
 
 - Never commit `.env`, `credentials.json`, or files with API keys
 - Check `.gitignore` covers generated files (node_modules, dist, etc.)
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (end-of-session commit executed), update the date and increment count.
 - If `git status` shows 100+ changes, organize into multiple commits

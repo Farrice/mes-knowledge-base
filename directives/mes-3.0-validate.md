@@ -123,3 +123,15 @@ Extraction complete
     │
     └── Dedup overlap? → Flag for Farrice
 ```
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (MES validation performed), update the date and increment count.

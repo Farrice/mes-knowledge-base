@@ -204,7 +204,7 @@ All output from gap-affected tasks MUST be tagged:
 ## Integration
 
 - **Triggered by**: `directives/intent-pipeline.md` Stage 3 (ROUTE) gap check
-- **Triggered by**: `directives/router_agent.md` Level 6 (System Gap) escalation
+- **Triggered by**: `directives/intent-pipeline.md` Stage 3b (Gap Check)
 - **Uses**: Web search tools for practitioner research
 - **Calls**: `/extract` or `/convert-prompt` for skill creation
 - **Logs to**: `.agent/gap-log.md`

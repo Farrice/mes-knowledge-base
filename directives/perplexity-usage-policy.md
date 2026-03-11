@@ -175,4 +175,16 @@ User can adjust the monthly limit by:
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (Perplexity query executed), update the date and increment count.
+
 *Effective: 2026-02-05 | Updated: 2026-03-09 — Budget increased to $20/month per user request. Added loop protection, provenance tagging, and swarm governance*

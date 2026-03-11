@@ -119,4 +119,16 @@ If you need an expert who doesn't have an invocation card:
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (expert loaded at Tier 1+), update the date and increment count.
+
 *Created: 2026-02-27 | Context Engine v1.0*

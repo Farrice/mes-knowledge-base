@@ -277,4 +277,16 @@ Task 3: {subagent_type: "general-purpose", prompt: "Research angle C..."}
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (sub-agent spawned), update the date and increment count.
+
 *Created: 2026-02-17 | Updated: 2026-03-03 (Parallel Execution Patterns — 3-tier parallelism model)*

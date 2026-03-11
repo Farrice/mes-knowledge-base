@@ -57,28 +57,66 @@ python execution/sync_registries.py
 
 ---
 
-# Agent Instructions
+# The Chain (Every Request — No Exceptions)
 
-> **MANDATORY FIRST ACTION — EVERY NEW REQUEST (NO EXCEPTIONS)**
->
-> **Stage 1 — SCORE** intent sharpness 1-5:
-> Has deliverable? (+1) | Audience? (+1) | Context/constraints? (+1) | End state? (+1) | Specific language? (+1)
->
-> **Stage 2 — SHARPEN** (if Score ≤ 3):
-> Ask missing DICE dimensions only (Deliverable, Intended audience, Context, End state). One round max.
-> If Score 1-2 and multiple interpretations exist, present 2-3 options.
-> Fill in what you can infer, confirm: "Here's what I heard — is this right?"
->
-> **Stage 3 — ROUTE** (Score 4+):
-> Match domain → experts using table in `directives/intent-pipeline.md`. Multi-domain? Check ensemble patterns in `directives/expert_auto_routing.md`.
-> Load experts via Context Engine (Tier 0 cards → Tier 1 skill → Tier 2 genius → Tier 3 sub-agent).
->
-> **Stage 4 — PRESENT** (complex/multi-step only):
-> Show expert recommendation, await confirmation. Skip for simple tasks, follow-ups, or "just do it."
->
-> **Workflow invoked?** If the user references a workflow name from `SLASH_COMMANDS.md` — whether as `/command`, `@command`, "run command", or the bare name — read `.agent/workflows/[command].md` and execute. Full list: `SLASH_COMMANDS.md`.
-> **Skip pipeline for:** trivial questions, follow-ups within approved plan, "just do it", bug fixes.
-> **Full pipeline details:** `directives/intent-pipeline.md`
+Complete these 7 steps IN ORDER for every user request that produces a deliverable. There is no skip path for the chain itself — individual steps may narrow (see table below), but the chain always runs.
+
+### Step 1: SCORE intent (1-5)
++1 Deliverable | +1 Audience | +1 Context/constraints | +1 End state | +1 Specific language.
+Always score. Even Score 5 requests get scored — the number informs routing depth.
+
+### Step 2: SHARPEN (if Score ≤ 3)
+Ask missing DICE dimensions. One round max. Fill in inferences, confirm.
+Details: `directives/intent-pipeline.md` Stage 2.
+
+### Step 3: ROUTE to experts
+Match domain → experts using table in `directives/intent-pipeline.md` Stage 3.
+Check FARRICE.md proactive deployment table for auto-deploy signals (LinkedIn → Lara Acosta, etc.).
+Multi-domain? Check ensemble patterns in `directives/expert_auto_routing.md`.
+**Always route.** The result may be one Tier 1 expert, but the routing decision is explicit and logged.
+
+### Step 4: LOAD via Context Engine
+Tier 0 (cards) → Tier 1 (SKILL.md + workflow) → Tier 2 (+ genius.md) → Tier 3 (sub-agent).
+Protocol: `directives/agent-loading-protocol.md`.
+**Never produce expert-domain output without loading the expert first.**
+For content: minimum 2 skill files loaded per `directives/content_creation_gate.md`.
+
+### Step 5: PRODUCE output
+Execute using loaded expert frameworks — their thinking, not their terminology.
+During production, enforce `directives/quality_assurance.md` anti-patterns: entity classification, no phantom research, no template slop.
+
+### Step 6: QUALITY GATE (silent)
+Score 1-10 on: Intent Alignment, Expert Standard, Adversarial Resilience.
+Composite < 7 OR any dimension < 6 → retry weakest section (1 retry max).
+Protocol: `directives/quality_gate.md`.
+**Fires whenever an expert was loaded in Step 4.** No exceptions.
+
+### Step 7: LOG to Performance DB
+```bash
+python execution/log_performance.py log "description" --skill SKILL --type TYPE --quality SCORE --status Keep
+```
+Protocol: `directives/feedback-ratchet.md`.
+**Fires whenever Step 6 ran.** This feeds the autoresearch loop — skipping it kills Phases 2-4.
+
+---
+
+### When Steps Narrow (Not Skip the Chain)
+
+| Condition | Steps shortened | Steps still required |
+|-----------|----------------|---------------------|
+| Score 4-5 (sharp intent) | Skip Step 2 | 1, 3, 4, 5, 6, 7 |
+| "Just do it" / "go ahead" | Skip Step 2, skip PRESENT in Step 3 | 1, 3 (route silently), 4, 5, 6, 7 |
+| Follow-up, same plan | Skip Step 2, reuse Step 3 route | 1, 4, 5, 6, 7 |
+| Bug fix, clear scope | Skip Step 2 if scope obvious | 1, 3 (verify if expert needed), 5, 6*, 7* |
+| Pure system command (ls, git, file read) | Chain does not apply | No deliverable = no chain |
+
+*Steps 6-7 fire only when expert output was produced in Step 5.
+
+**"Trivial" is NOT a skip condition.** If the user asks for content, copy, strategy, research, or any expert-domain deliverable, the chain runs regardless of perceived simplicity. "I need LinkedIn headlines" is a content task requiring routing to Lara Acosta — not a trivial question.
+
+### Workflow Override
+
+If the user invokes a workflow name from `SLASH_COMMANDS.md` — as `/command`, `@command`, "run command", or bare name — read `.agent/workflows/[command].md` and execute. The workflow incorporates the chain internally. Full list: `SLASH_COMMANDS.md`.
 
 ---
 
@@ -89,6 +127,16 @@ python execution/sync_registries.py
 **Layer 3** (Execution): Deterministic Python in `execution/` — API calls, data processing.
 
 Push complexity into deterministic code. You focus on decision-making.
+
+**Knowledge Sources:**
+- **Local Files**: Skills, agents, directives (primary)
+- **Notion Databases**: 5 databases for projects, knowledge vault, content pipeline
+- **NotebookLM**: Domain-specific research notebooks (RAG layer)
+  - 5 notebooks: Higgsfield Cinema Studio, AI Brain Build Sprint, LinkedIn Ghostwriting, Lara Acosta, Luke Iha Copywriting
+  - Query count: 100/month
+  - Usage: `/query-notebook` or auto-loaded at Tier 1.5
+  - Budget tracking: `.agent/notebooklm-usage.json`
+- **Perplexity**: Real-time web research ($10/month)
 
 **Key files (read on-demand, not preloaded):**
 - `COUNCIL.md` — 24 experts + 5 standing councils. Read for expert selection.
@@ -113,37 +161,25 @@ Push complexity into deterministic code. You focus on decision-making.
 
 ---
 
-## Core Protocols (Read On-Demand)
+## Supporting Protocols
 
-| Protocol | Directive | Fires When |
-|----------|-----------|------------|
-| Intent Pipeline | `directives/intent-pipeline.md` | Every new request |
-| Quality Gate | `directives/quality_gate.md` | After expert-driven output (silent 3-point check, 1 retry max) |
-| Quality Assurance | `directives/quality_assurance.md` | Every output (anti-pattern checks) |
-| Self-Annealing | `directives/deep_self_annealing.md` | On any error (Tier 1/2/3 recovery) |
-| Token Efficiency | `directives/token-efficiency-protocol.md` | Every workflow |
-| Session State | `directives/session-state-protocol.md` | After major decisions, before compaction |
-| Sub-Agent | `directives/sub_agent_protocol.md` | Multi-expert work, 10+ files loaded |
-| Collaboration | `directives/collaboration-protocol.md` | Always (push back once, then execute) |
-| Operating Principles | `directives/operating-principles.md` | Development workflows |
-| Perplexity Budget | `directives/perplexity-usage-policy.md` | Before any research call ($10/mo) |
+These fire at their trigger point within the chain. Do NOT wait to "read them on demand."
+
+| Protocol | Fires During | Directive |
+|----------|-------------|-----------|
+| Quality Assurance | Step 5 (production) | `directives/quality_assurance.md` |
+| Token Efficiency | Every workflow | `directives/token-efficiency-protocol.md` |
+| Session State | After Step 2, after Step 4, after 10+ reads | `directives/session-state-protocol.md` |
+| Self-Annealing | On any error | `directives/deep_self_annealing.md` |
+| Collaboration | Always | `directives/collaboration-protocol.md` |
+| Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
+| Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
+| Operating Principles | Development workflows | `directives/operating-principles.md` |
+
+### Budget-Gated (check before calling)
+| Protocol | Directive | Gate |
+|----------|-----------|------|
+| Perplexity | `directives/perplexity-usage-policy.md` | $10/mo, track in `.agent/perplexity-usage.json` |
+| NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.
-
-**Perplexity**: $10/month. Track in `.agent/perplexity-usage.json`. Sonar default; Deep Research for critical only.
-
----
-
-## Mandatory Post-Output Actions
-
-After producing ANY deliverable using an expert skill or workflow:
-
-1. **Quality Gate** — Run silent 3-point check (Intent Alignment, Expert Standard, Adversarial Resilience). Score each 1-10. Protocol: `directives/quality_gate.md`
-2. **Performance Log** — Log the quality scores:
-   ```bash
-   python execution/log_performance.py log "description" --skill SKILL_NAME --type TYPE --quality SCORE --status Keep
-   ```
-
-These actions feed the autoresearch feedback loop. Skipping them means Phases 2-4 (Skill Evolution, Cross-Pollination, Gap Detection) cannot activate.
-
-**Skip for**: trivial questions, follow-up adjustments, debugging, file operations, system commands.

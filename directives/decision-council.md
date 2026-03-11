@@ -186,10 +186,22 @@ Review quarterly to:
 
 ## Related Directives
 
-- `invoke-expert.md` - Single expert consultation
+- `agent-loading-protocol.md` - Expert loading (tiered)
 - `multi-expert-synthesis.md` - Combining perspectives
 - `daily-council.md` - Morning routine
 
 ---
+
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (decision council convened), update the date and increment count.
 
 *Last updated: 2026-01-23*

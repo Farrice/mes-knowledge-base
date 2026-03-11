@@ -71,4 +71,16 @@ When output is subpar or encounters errors:
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (push-back or confidence signal delivered), update the date and increment count.
+
 *Created: 2026-02-27 | Extracted from CLAUDE.md for context efficiency*

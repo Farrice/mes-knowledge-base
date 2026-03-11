@@ -74,7 +74,7 @@ Ready to go.
 ## Step 4: Score Intent & Route
 
 // turbo
-Read `directives/intent_refiner.md` and score the user's input:
+Read `directives/intent-pipeline.md` and score the user's input:
 
 - **Score 1-3**: Run `/validate-intent` before proceeding
 - **Score 4-5**: Confirm interpretation and proceed to execution
@@ -109,6 +109,6 @@ Two problems this solves:
 
 ## Reference
 This workflow implements:
-- `directives/session_kickoff.md` — Protocol declaration format and rules
-- `directives/intent_refiner.md` — Sharpness scoring (via Step 4)
+- `directives/intent-pipeline.md` — Stages 1-2 (SCORE + SHARPEN)
+- `directives/intent-pipeline.md` — Sharpness scoring (via Stage 1)
 - `directives/expert_auto_routing.md` — Domain detection (via Step 3)

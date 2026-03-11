@@ -3,6 +3,9 @@
 > **Trigger**: Run silently after any output produced using an expert skill or agent persona.
 > **Mode**: Silent — the user sees nothing unless a retry changes the output.
 > **Feeds into**: `directives/feedback-ratchet.md` — quality scores from this gate are logged to the Performance Log database for longitudinal tracking.
+> **Fires when**: ANY output was produced using an expert skill, agent persona, or workflow. This includes content, strategy, research, copy, analysis, and creative work.
+> **Does NOT fire for**: Pure system operations (file reads, git commands, directory listings) where no expert skill was loaded.
+> **"Trivial" and "follow-up" are NOT skip conditions.** If an expert was loaded and output was produced, the gate fires.
 
 ---
 

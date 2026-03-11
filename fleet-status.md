@@ -51,12 +51,11 @@
 | Directive | Purpose | Tag |
 |-----------|---------|-----|
 | `expert_auto_routing.md` | Auto-invoke experts | `[DURABLE]` |
-| `router_agent.md` | Fast-path dispatch | `[DURABLE]` |
+| `intent-pipeline.md` | Routing (Stage 3) | `[DURABLE]` |
 | `quality_assurance.md` | Anti-patterns & mandates | `[DURABLE]` |
 | `quality_gate.md` | 3-point output self-check | `[DURABLE]` |
 | `workflow-chains.md` | Multi-step handoff contracts | `[DURABLE]` |
-| `intent_refiner.md` | DICE protocol | `[DURABLE]` |
-| `pre_flight_validation.md` | Raw intent validation | `[DURABLE]` |
+| `intent-pipeline.md` | DICE protocol (Stages 1-2) | `[DURABLE]` |
 | `perplexity-usage-policy.md` | API cost control | `[DURABLE]` |
 | `extraction-workflow.md` | MES 3.0 extraction | `[SCAFFOLDING]` |
 | `extraction-to-skill.md` | Extraction conversion | `[SCAFFOLDING]` |

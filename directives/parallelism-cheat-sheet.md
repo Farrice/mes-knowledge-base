@@ -56,4 +56,16 @@ Can I split this into independent pieces?
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (parallel execution pattern used), update the date and increment count.
+
 *Reference: `directives/sub_agent_protocol.md` for full protocol, templates, and anti-patterns.*

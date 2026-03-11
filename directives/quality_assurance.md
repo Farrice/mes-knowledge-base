@@ -1,6 +1,7 @@
 # 🛡️ Quality Assurance Directive: Anti-Patterns & Mandates
 
 > **Purpose**: This directive codifies lessons from the 2026-02-05 failure analysis AND the 2026-02-14 research audit. It is a PERMANENT reference that prevents known failure modes in all future work.
+> **Activation**: Embedded in Step 5 (PRODUCE) of the chain. Internalize these anti-patterns and check during production — not as a separate post-production gate.
 
 ---
 

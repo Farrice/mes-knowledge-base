@@ -24,7 +24,7 @@ Before any execution:
    - [ ] Step 1
    ```
 
-4. **Run Session Kickoff** (see `directives/session_kickoff.md`)
+4. **Run Session Kickoff** (see `directives/intent-pipeline.md` Stages 1-2)
 
 ## Step 2: Set Session Boundaries
 

@@ -391,5 +391,17 @@ Combine intellectually when building skill/agent. Parts usually cover:
 
 ---
 
+---
+
+## Usage Tracking
+
+| Field | Value |
+|-------|-------|
+| **Last Activated** | *Not yet activated* |
+| **Activation Count** | 0 |
+| **30-Day Review Date** | 2026-04-11 |
+
+**Update Rule**: When this protocol fires (/extract workflow run), update the date and increment count.
+
 *Last updated: 2026-01-23*
 *Designed for scale: thousands of extractions → hundreds of experts*

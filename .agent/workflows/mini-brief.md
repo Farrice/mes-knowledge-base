@@ -49,7 +49,7 @@ If no input is provided, ask: "What's the concept, pain point, or idea you want 
 
 **Actor**: Orchestrator (main agent)
 
-1. **Score intent sharpness 1-5** (per `directives/intent_refiner.md`)
+1. **Score intent sharpness 1-5** (per `directives/intent-pipeline.md` Stage 1)
    - If ≤ 3: Ask 2-3 clarifying questions to sharpen the concept
    - If ≥ 4: Proceed directly
    - If input is from `/flywheel-ideas`: Auto-score 5 (pre-validated)
