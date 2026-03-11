@@ -224,9 +224,9 @@ This pipeline also works mid-conversation (what `/refine-intent` triggers):
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
-| **30-Day Review Date** | 2026-04-01 |
+| **Last Activated** | 2026-03-11 (should have fired — retroactive diagnosis) |
+| **Activation Count** | 0 (still 0 — was NOT run, this is the failure marker) |
+| **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this pipeline fires (scoring + routing), update the date and increment count.
 

@@ -124,9 +124,9 @@ This is how the ratchet accumulates data. Without logging, the system cannot det
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
-| **30-Day Review Date** | 2026-04-09 |
+| **Last Activated** | 2026-03-11 (retroactive session diagnosis) |
+| **Activation Count** | 1 |
+| **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (3-point check on any output), update the "Last Activated" date and increment the count.
 
