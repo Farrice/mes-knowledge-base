@@ -12,118 +12,71 @@ with a bottle, a toddler,
 and a to-do list that started with "survive today."
 
 Stay-at-home dad.
-Not because I chose it lightly —
-because it consumed everything.
-
-Every ounce of creative energy
-I used to pour into clients
-got poured into keeping a small human alive.
-
-I didn't resent it.
-But I missed building things.
+Best decision I ever made.
+But a part of me was going quiet.
 
 ---
 
-So during naps and after bedtime,
-I started paying attention.
+That quiet part started paying attention.
 
-Not to business trends.
-To people.
-
-Specifically, to a pattern I'd been watching
-for 18 years as a coach and trainer:
+For 18 years as a coach and trainer,
+I'd watched the same pattern:
 
 The most transformative people I knew
 were invisible.
 
-The coach who could change a client's life in a room
-but had 200 followers
-and a bio that said "Passionate about leadership."
-
-The consultant who'd solved the problem
+A consultant who'd solved the problem
 a hundred times
-but couldn't write a single post
+but couldn't write one post
 that made a stranger stop scrolling.
 
-The trainer who'd given 4,000 hours of their life
-to mastering their craft —
-and nobody outside their zip code knew they existed.
+A strategist charging $15K a quarter
+with a LinkedIn bio that said
+"Helping businesses grow."
+
+Brilliant in a room.
+Ghost online.
 
 ---
 
-I used to think that was a talent problem.
-Like some people were just "not writers."
+I used to think they just couldn't write.
 
-18 years of coaching taught me otherwise.
+18 years taught me otherwise.
 
 It's a translation problem.
 
-The skills that make someone extraordinary
-in a session — the listening, the insight,
-the ability to say the exact right thing
-at the exact right moment —
-
-Those skills have nothing to do
+The skills that make you extraordinary
+with a client in the room
+have nothing to do
 with writing a LinkedIn post.
 
-It's like asking a surgeon
-to be a great public speaker
-because they're great with their hands.
-Different muscle entirely.
+Different skill entirely.
+One most experts never needed —
+until the rules changed.
 
 ---
 
-And the industry's answer?
+So I built something for it.
 
-"Post more. Be consistent.
-Here's a template."
-
-That's not a solution.
-That's a tax on expertise.
-
-It's the fitness equivalent of
-"just eat less and move more" —
-technically true, practically useless,
-and insulting to the complexity of the problem.
-
----
-
-So I started building something different.
-
-Not a content template.
-Not "how to write better posts."
+Not templates. Not "post more."
 
 A practice built around one question:
-
 How do you actually think?
 
-What happens in your coaching sessions
-that nobody else sees?
-What belief do you hold
-that your competitors would argue with?
-What do your clients say back to you
-that proves your methodology works?
+Not what you know —
+how you connect the dots
+when you're sitting with a client
+and the real work begins.
 
-That material doesn't live in a 30-minute intake call.
-It lives in the way an expert's brain works.
-
-I built a practice around capturing it.
-Not summarizing it. Not templating it.
-Translating it.
-
-From session language to content language.
-From "how I actually coach"
-to "what a stranger needs to read
-to know this is the person
-they've been looking for."
-
----
-
-That's what I'm building now.
+That's what I translate now.
 
 Content strategy. Ghostwriting. Copywriting.
 All pointed at one idea:
 
 Expertise shouldn't be invisible.
+
+If you've ever lost a client to someone less qualified
+who just showed up better online —
+I'd love to hear that story.
 
 More on this soon.

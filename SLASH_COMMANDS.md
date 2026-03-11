@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (162 Commands)
+# 🚀 Antigravity Workflows — Complete Index (163 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -159,7 +159,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 📝 Content Engines (14)
+## 📝 Content Engines (15)
 | Command | What It Does |
 |---------|-------------|
 | `/authenticity-audit` | Audit content for neediness, inauthenticity, and energy misalignment |
@@ -176,6 +176,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/serial-arc` | Plan and produce serial narrative LinkedIn content |
 | `/voice-first-content` | Topic research → voice capture → writer's room → publish |
 | `/yt-flywheel` | Deep Engine Flywheel for long-form YouTube scripts |
+| `/writers-room` | Expert compression + structural editing — draft → publication-ready |
 | `/zone-of-genius` | Diagnose your zone of genius content format |
 
 ---
