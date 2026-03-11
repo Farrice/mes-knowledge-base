@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (163 Commands)
+# 🚀 Antigravity Workflows — Complete Index (164 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -159,11 +159,12 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 📝 Content Engines (15)
+## 📝 Content Engines (16)
 | Command | What It Does |
 |---------|-------------|
 | `/authenticity-audit` | Audit content for neediness, inauthenticity, and energy misalignment |
 | `/comedy` | Deploy comedy intelligence as a writing style filter on any content |
+| `/content-sprint` | Zero to published post + lead magnet in 30 min — research, draft, writers' room, anti-slop |
 | `/daily-flywheel` | Transform journal entries into self-exploration, research, and content |
 | `/flywheel-ideas` | Multi-expert ideation swarm → 3-5 validated Mini-Briefs |
 | `/ghostwrite` | Capture a coach's voice and write LinkedIn content as them |
