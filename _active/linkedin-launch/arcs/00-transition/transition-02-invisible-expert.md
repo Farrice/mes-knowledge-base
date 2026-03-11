@@ -14,6 +14,7 @@ The prospect said:
 "We went with someone who felt more established."
 
 The other firm had 4 years of experience.
+
 She had 14.
 
 They charged more.
@@ -26,7 +27,8 @@ Every post made you feel like you knew them.
 
 Her profile?
 Two posts in six months.
-A headline that said "Helping businesses grow."
+A headline that said "Helping businesses grow" —
+the LinkedIn equivalent of a blank stare.
 
 The prospect never saw her depth.
 They only saw silence.
@@ -50,7 +52,7 @@ why aren't they talking about it?"
 
 Every day your expertise stays invisible,
 someone less qualified
-is building the presence you should have.
+is building the reputation you earned.
 
 ---
 
@@ -74,17 +76,14 @@ I've been building a practice around this.
 Not templates. Not "post more."
 
 Something harder:
-capturing the way an expert actually thinks
-when they're sitting with a client
-and the real work begins.
+taking the thing that makes an expert
+dangerous in a room
+and making it visible to strangers
+who've never been in that room.
 
-That's the part that disappears online.
-That's the part worth translating.
+The consultant I mentioned?
+We started working together two months ago.
 
-If you've ever been the most qualified person in the room
-and still lost to someone who just showed up louder —
+She hasn't lost a deal since.
 
-I'd love to hear what happened.
-
-More on this soon.
-
+More on that soon.

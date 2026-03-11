@@ -116,10 +116,17 @@ Once topic is selected, prompt Farrice:
 - `skills/mitch-albom-writing-mastery/genius.md` — Theme-first, tight cut, first/last marriage
 - `skills/jonathan-franzen-storytelling/genius.md` — Minimal detail maximum impact, want-collision
 
+**Always load for emotional/psychological layer** (applied in Phase 5 but inform drafting):
+- `skills/erica-mallet-brand-magnetism/genius.md` — Enemy Effect, belief architecture, tribal belonging
+- `skills/joanna-wiebe-persuasion-mastery/genius.md` — Authority craft, bucket brigades, anti-hype
+- `skills/robert-mack-comedy-writing/genius.md` — Tension-relief, vivid specificity, comedy beats
+
 ### Build the draft:
 
 1. **Start with Farrice's raw take** — his words, his perspective, his stories
 2. **Apply expert structural patterns** — F-shape, hook architecture, section breaks
+3. **Identify the enemy** (Erica) — what force does this piece fight? Build the narrative around it.
+4. **Plant the belief** (Erica) — what should readers believe after reading? Package it in story, not statements.
 3. **Format for LinkedIn** — single/double line breaks, mobile-first, short paragraphs
 4. **Reference voice captures** from `_active/linkedin-launch/voice-captures/` — match his actual speaking patterns, not a template voice
 
@@ -133,14 +140,21 @@ Once topic is selected, prompt Farrice:
 
 ## Phase 5: Writers' Room + Anti-Slop Filter (0 min Farrice time — AI work)
 
-### Run `/writers-room` treatment:
+### Run `/writers-room` treatment (6 experts, 2 layers):
 
-Load three editors (from `.agent/workflows/writers-room.md`):
-- **Mitch Albom** — Structural: Theme-first, tight cut, uncle vs aunt, first/last marriage
-- **Jonathan Franzen** — Compression: Minimal detail maximum impact, trust the reader
-- **Nicolas Cole** — Sentence-level: Terminal word power, three-pass compression, opening sentence power
+Execute the full writers' room workflow (`.agent/workflows/writers-room.md`):
 
-**Diagnose** → **Compress** (target 40-50% from raw draft) → **Validate** (7-point checklist)
+**Layer 1 — Structure & Compression** (runs first):
+- **Mitch Albom** — Theme-first, tight cut, uncle vs aunt, first/last marriage
+- **Jonathan Franzen** — Minimal detail maximum impact, trust the reader
+- **Nicolas Cole** — Terminal word power, three-pass compression, opening sentence power
+
+**Layer 2 — Emotion, Psychology & Entertainment** (runs second, on the compressed draft):
+- **Erica Mallet** — Enemy Effect, belief architecture, vegetable-in-cake packaging, tribal belonging
+- **Joanna Wiebe** — Authority craft, stealing thunder, anti-hype engine, bucket brigades, catchy phrasing
+- **Robert Mack** — Tension-relief architecture, skewed perspective, vivid specificity, naming mastery, comedy beats
+
+**Process**: Diagnose (12 questions) → Layer 1: Compress (target 40-50%) → Layer 2: Inject (tension, wit, belief, authority) → Validate (14-point checklist)
 
 ### Anti-AI-Slop Filter (MANDATORY — run on every draft)
 
