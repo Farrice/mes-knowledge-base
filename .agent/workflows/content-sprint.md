@@ -121,6 +121,12 @@ Once topic is selected, prompt Farrice:
 - `skills/joanna-wiebe-persuasion-mastery/genius.md` — Authority craft, bucket brigades, anti-hype
 - `skills/robert-mack-comedy-writing/genius.md` — Tension-relief, vivid specificity, comedy beats
 
+**Always load for platform, pull-through & voice** (applied in Phase 5 but inform drafting):
+- `skills/lara-acosta-linkedin-mastery/genius.md` — Algorithm optimization, SLAY framework, engagement architecture
+- `skills/kallaway-content-psychology/genius.md` — Anticipation engineering, curiosity loops, dopamine ladder
+- `skills/fresh-voice-system/genius.md` — Open loops, Compulsion Test, serial narrative mechanics
+- `skills/ghostwriting-voice-engine/genius.md` — Voice authenticity, show-don't-tell, imperfection as voice
+
 ### Build the draft:
 
 1. **Start with Farrice's raw take** — his words, his perspective, his stories
@@ -140,7 +146,7 @@ Once topic is selected, prompt Farrice:
 
 ## Phase 5: Writers' Room + Anti-Slop Filter (0 min Farrice time — AI work)
 
-### Run `/writers-room` treatment (6 experts, 2 layers):
+### Run `/writers-room` treatment (3 layers, 9 sources):
 
 Execute the full writers' room workflow (`.agent/workflows/writers-room.md`):
 
@@ -154,7 +160,12 @@ Execute the full writers' room workflow (`.agent/workflows/writers-room.md`):
 - **Joanna Wiebe** — Authority craft, stealing thunder, anti-hype engine, bucket brigades, catchy phrasing
 - **Robert Mack** — Tension-relief architecture, skewed perspective, vivid specificity, naming mastery, comedy beats
 
-**Process**: Diagnose (12 questions) → Layer 1: Compress (target 40-50%) → Layer 2: Inject (tension, wit, belief, authority) → Validate (14-point checklist)
+**Layer 3 — Platform, Pull-Through & Voice** (runs third, on the emotionally-charged draft):
+- **Lara Acosta** — Algorithm optimization (dwell time, first-hour), SLAY "Your Turn" engagement, F-shape formatting, hook testing
+- **Pull-Through** (Kallaway + Fresh Voice) — Open loops (5 types), Compulsion Test, anticipation engineering, curiosity resets
+- **Voice Authenticity** (GVE + voice captures) — "Would Farrice say this?" test, show-don't-tell enforcement, jargon kill, imperfection check
+
+**Process**: Diagnose (20 questions) → Layer 1: Compress → Layer 2: Inject (tension, wit, belief, authority) → Layer 3: Optimize (platform, pull-through, voice) → Validate (23-point checklist)
 
 ### Anti-AI-Slop Filter (MANDATORY — run on every draft)
 
@@ -201,6 +212,11 @@ Present the treated draft to Farrice with:
 1. **The draft** (ready to paste into LinkedIn)
 2. **Change notes**: What was built from his raw take, what expert patterns were applied, what was cut
 3. **Anti-slop report**: Confirm all banned phrases eliminated, all required markers present
+4. **Voice authenticity report**: Lines that were rewritten for voice + why. Open loops planted. Engagement invitation rationale.
+5. **Voice pass checklist for Farrice**:
+   - Read every line aloud. Would you say this to a friend? Mark any line that feels like "writing" instead of "talking."
+   - Does the ending make you want to write the next post? Or does it feel finished?
+   - Would your ICP comment on this? What would they say?
 4. **One flag**: If there's a weak spot you see but kept, call it out
 
 **Farrice reads, edits for voice authenticity, approves or requests adjustments.**
