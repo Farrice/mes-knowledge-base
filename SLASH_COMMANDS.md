@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (164 Commands)
+# 🚀 Antigravity Workflows — Complete Index (165 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -20,18 +20,23 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🤖 Multi-Agent Execution — Swarms & Councils (10)
+## 🤖 Multi-Agent Execution — Swarms & Councils (15)
 | Command | What It Does |
 |---------|-------------|
 | `/atomize` | Take one long-form source and produce 11 derivative content pieces in parallel |
+| `/bloat-optimizer` | Reduce multi-agent system complexity without sacrificing capability |
 | `/council` | Spin up an AI council for any decision with multi-perspective deliberation |
+| `/domain-verifiability-map` | Classify work domains by AI delegation safety tier for safe autonomy levels |
+| `/harness-audit` | Audit agent system scaffolding for reliability gaps and harness design weaknesses |
 | `/launch-day` | Content launch day sprint — 3-5 pieces in parallel with Brand Voice review |
+| `/orchestration-blueprint` | Design multi-agent orchestration from scratch using DPVI pattern |
 | `/parallel-content` | Generate 3-5 content pieces in parallel using different experts |
 | `/parallel-extract` | Run 2-5 extractions in parallel using sub-agents |
 | `/parallel-research` | Deploy 3 research agents in parallel to investigate different angles |
 | `/parallel-swarm` | Deploy a true parallel agent swarm using the Gemini API |
 | `/research-sprint` | Business intelligence sprint — 3 research agents + synthesis lead |
 | `/roundtable` | Convene an AI expert roundtable — parallel positions, then cross-examination |
+| `/sniff-check` | Build evaluation criteria for agent output quality without domain expertise |
 | `/swarm` | Deploy an agent swarm with 10-50 experts working in orchestrated parallel |
 
 ---
@@ -268,10 +273,11 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🏥 System Health (2 — NEW)
+## 🏥 System Health (3)
 | Command | What It Does |
 |---------|-------------|
 | `/health-check` | Check which Antigravity systems are active vs dormant |
+| `/verify` | Run a universal structural integrity audit across all skills, agents, indexes, workflows, and registries |
 | `/workflows` | Browse and search all available workflows |
 
 ---
