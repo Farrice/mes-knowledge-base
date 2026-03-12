@@ -92,3 +92,4 @@
 
 - **Complementary Agents**: Seena Rez (TikTok execution), Shaan Puri (storytelling architecture)
 - **Skill Dependencies**: Uses `kallaway-content-psychology` skill prompts
+- **NotebookLM**: `30579fcb-089b-4c38-a56e-a53b5c437fa5` — Kallaway YouTube library + full methodology corpus. Query at Tier 1.5 for examples; Tier 1 for foundation strategy tasks. Budget: 100 queries/month shared pool.

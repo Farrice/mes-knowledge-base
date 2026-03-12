@@ -6,8 +6,8 @@
   "base_url": "https://notebooklm.google.com",
   "server_name": "notebooklm-mcp",
   "stdio_mode": true,
-  "streaming_timeout": 60,
-  "response_stability_checks": 3,
+  "streaming_timeout": 120,
+  "response_stability_checks": 8,
   "retry_attempts": 3,
   "auth": {
     "cookies_path": null,

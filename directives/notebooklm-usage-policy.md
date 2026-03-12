@@ -182,6 +182,7 @@ All notebooks are registered in: `mcp-servers/notebooklm/notebooks.md`
 | **Higgsfield Cinema Studio** | AI video generation prompts | Creating video content, cinematic prompts |
 | **AI Brain Build Sprint** | Offer design, audience psychology | Building AI-focused products/offers |
 | **LinkedIn Ghostwriting Research** | LinkedIn methodology, market state | Personal brand, LinkedIn content, ghostwriting |
+| **Kallaway — Content Psychology & Viral Engineering** | YouTube library, dopamine ladder, viral pattern engineering, buyer psychology | Content strategy, viral engineering, batch testing, revenue ramps |
 
 **Adding Notebooks**: Use `/add-notebook` workflow or manually update `notebooks.md`
 

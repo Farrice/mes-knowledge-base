@@ -12,6 +12,7 @@ A quick-reference registry of NotebookLM notebooks connected to Claude.
 | **Lara Acosta - LinkedIn Mastery** | `2d3ea837-8127-42d9-b735-f1b2cb6e1734` | Lara Acosta's LinkedIn mastery methodology, hook patterns, authority building strategies, and content frameworks |
 | **Luke Iha — Copywriting Systems** | `e45815b6-d760-4d01-984f-de1d3f3de7c0` | Luke Iha's top 30 videos: mechanism engineering, proof architecture, VSL leads, copy blocks, awareness-level advertising, creative strategy, and offer cycling |
 | **Lulu Cheng Meservey — Communications** | `eea41940-608e-4cf6-a7a6-6161130934c7` | Lulu Cheng Meservey's Go Direct communications methodology, founder voice architecture, cultural positioning, crisis communications, attention-to-value conversion, and narrative reality creation |
+| **Kallaway — Content Psychology & Viral Engineering** | `30579fcb-089b-4c38-a56e-a53b5c437fa5` | Kallaway's YouTube video library, dopamine ladder methodology, Internet Money Machine playbook, viral pattern engineering, buyer psychology frameworks, and content monetization systems |
 
 ---
 

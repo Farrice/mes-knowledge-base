@@ -507,6 +507,15 @@ ENTRY PROMPT: skills/joshua-smith-real-estate/SKILL.md
 PAIRS WITH: Jeremy Miner (sales), Sabri Suby (advertising)
 ```
 
+```
+AGENT: Vincent Hu
+DOMAIN: Info business scaling, growth ecosystems, offer architecture, trust marketing
+CORE METHOD: Circular Growth Ecosystem — replaces linear funnels with self-reinforcing trust loops using the 3-Yes Framework (Outcome, Method, Identity)
+BEST FOR: Info business architecture, coaching/consulting scaling, offer design, content-to-revenue systems, trust-first sales
+ENTRY PROMPT: skills/growth-ecosystems/SKILL.md
+PAIRS WITH: April Dunford (positioning), Luke Iha (copy), Lara Acosta (LinkedIn), Dan Koe (audience philosophy)
+```
+
 ---
 
 ## Content & Growth (Extended)

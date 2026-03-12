@@ -317,6 +317,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Paul James** | AI SERVICES | Zero-cost positioning, modular service design, recurring revenue |
 | **Darrel Wilson** | AI AUTOMATION SERVICES | Warm lead philosophy, tool-over-opinion, AI service monetization |
 | **Ross McKay** | CPG/PHYSICAL PRODUCTS | Premium at scale, retail distribution, DTC-to-mass transition |
+| **Vincent Hu** | INFO BUSINESS SCALING | Growth ecosystems, 3-yes conversion, hybrid offers, trust-first positioning, coaching/consulting business architecture |
 
 ### Routing Logic
 
@@ -340,7 +341,8 @@ When you make a request, I route to the right expert using this registry. I will
 ├── AI services → Paul James or Darrel Wilson
 ├── Audience → Shan Hanif
 ├── Niche opportunity → Tim Danilov
-└── Community → Sabrina Ramonov
+├── Community → Sabrina Ramonov
+└── Info/coaching/consulting business → Vincent Hu
 
 "Validate my idea"
 └── Samuel Thompson → Kallaway (content fit)
@@ -460,6 +462,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **SooWei Goh** | CONSULTING LEVERAGE | Founder workflow, scale architecture, leverage auditing |
 | **Rory Sutherland** | BEHAVIORAL STRATEGY | Perceived value, psychological reframing, unconventional marketing |
 | **Lulu Cheng Meservey** | COMMUNICATIONS | PR strategy, crisis communications, reputation management |
+| **Vincent Hu** | INFO BUSINESS ARCHITECTURE | Growth ecosystems, trust-first scaling, revenue reverse-engineering, coaching/consulting |
 | **Mike Foutia** | MARKETING TOOLS | Marketing technology landscape, tool selection, trend analysis |
 
 ### Routing Logic
@@ -470,7 +473,8 @@ When you make a request, I route to the right expert using this registry. I will
 ├── B2B positioning → April Dunford
 ├── Demand engineering → Daniel Priestley
 ├── AI/tech strategy → Marc Andreessen
-└── Consulting business → SooWei Goh
+├── Consulting business → SooWei Goh
+└── Info/coaching/consulting scaling → Vincent Hu
 
 "Research [market/competitor]"
 └── Manus.AI → Jim O'Shaughnessy (synthesis)
@@ -679,6 +683,8 @@ Certain expert pairings produce force-multiplier results that exceed what either
 | **Nick Saraev** + **Boris** | Agent fleet — Saraev's self-healing architecture + Boris's orchestration methodology | Complex multi-agent system builds |
 | **Tao Prompts** + **PJ Accetturo** | Cinema-grade AI video — Tao's storyboard architecture + PJ's production polish | AI video that needs to look professional, not gimmicky |
 | **Joscha Bach** + **Steven Pressfield** | Consciousness + Resistance — Bach diagnoses the mechanism of the block, Pressfield mobilizes the war against it | Creative blocks that need both diagnosis AND mobilization |
+| **Vincent Hu** + **April Dunford** | Trust positioning + competitive context — Hu's trust-first ecosystem + Dunford's positioning sharpens how info businesses differentiate | Info business positioning that needs both market context and trust architecture |
+| **Vincent Hu** + **Luke Iha** | Ecosystem copy — Hu architects the growth system, Iha writes the conversion copy within it | Info business needing both system design and high-converting copy |
 
 > [!TIP]
 > When a task matches a compound trigger, route to **both** experts — either via council or sequential handoff. The lead expert (listed first) sets strategy; the second expert executes their specialty within that frame.

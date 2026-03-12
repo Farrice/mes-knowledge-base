@@ -106,5 +106,6 @@
 | `tom-noske` | **tom-noske** | and content creation methodology, creator business, personal brand monetization |
 | `tommy-clark` | **Tommy Clark: LinkedIn Growth & Founder-Led Content Master** | audience architecture, founder-led content master, interview extraction, linkedin growth, narrative pivoting, stealth hook engineering |
 | `tyler-denk` | **tyler-denk** | "one-of-one" narrative moat, audience monetization, compounding growth stack, founder-led growth, post-subscribe intelligence capture, the "automated authenticity" paradox, zero-cost referral lever |
+| `vincent-hu` | **Vincent Hu** | info business architect, growth ecosystems, 3-yes conversion framework, hybrid offer architecture, trust-first positioning, triage setter, FOREST content structure, circular growth systems, lifetime value flywheel |
 | `ward-farnsworth` | **ward-farnsworth** | agent configuration |
 | `wordsatscale` | **wordsatscale** | authority arbitrage, competition vacuum hunting, index velocity, lsi bypass, seo rapid ranking, speed-to-publish |

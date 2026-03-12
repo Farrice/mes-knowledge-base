@@ -27,5 +27,6 @@ Kallaway has generated billions of views and built 1M+ followers by treating con
 | ramp | [Revenue Ramp Builder](workflows/revenue-ramp-builder.md) | Complete Content→Revenue Pipeline | You have content working but need the conversion architecture (CTA → lead magnet → email → purchase) |
 
 ## Quick Reference
-- **Genius Context**: [genius.md](genius.md) — load before any workflow (26 patterns, updated Application Framework)
+- **Genius Context**: [genius.md](genius.md) — load before any workflow (37 patterns, v3 upgrade from NotebookLM extraction)
+- **NotebookLM (Tier 1.5)**: Notebook ID `30579fcb-089b-4c38-a56e-a53b5c437fa5` — YouTube library + full methodology corpus. Query after loading genius.md for examples, case studies, and applied breakdowns.
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts

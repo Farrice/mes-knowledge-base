@@ -54,6 +54,7 @@
 | `gemini-api-dev` | **gemini-api-dev** |  | 0 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** |  | 3 | 0 |
 | `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | brand mastery | 5 | 0 |
+| `growth-ecosystems` | **Growth Ecosystems — Vincent Hu** | info business scaling, growth ecosystems, offer architecture, trust marketing, 3-yes conversion, hybrid offers, triage setter, FOREST content | 10 | 0 |
 | `harry-dry-copywriting` | **Harry Dry Copywriting** |  | 3 | 14 |
 | `internal-comms` | **internal-comms** |  | 0 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | linkedin organic growth | 3 | 14 |

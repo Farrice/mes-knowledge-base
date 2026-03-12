@@ -185,6 +185,28 @@ Before any content work: `Content Topic → Viewer Pain → Product Solution`. I
 
 ---
 
+## Knowledge Sources
+
+### NotebookLM Integration (Tier 1.5)
+| Source | Notebook ID | Contains |
+|--------|-------------|---------|
+| **Kallaway — Content Psychology & Viral Engineering** | `30579fcb-089b-4c38-a56e-a53b5c437fa5` | YouTube video library, dopamine ladder deep-dives, Internet Money Machine playbook, batch testing case studies, buyer psychology walkthroughs, viral pattern breakdowns |
+
+**Query this notebook when:**
+- Building a content strategy for a specific niche (find comparable case studies)
+- Engineering hooks for a specific platform (pull platform-specific pattern examples)
+- Running viral pattern extraction (cross-reference with Kallaway's own breakdown examples)
+- Validating a content angle against his actual teaching (confirm framework application)
+
+**Query syntax:**
+```
+/query-notebook "Kallaway — Content Psychology & Viral Engineering" "[your question]"
+```
+
+**Budget**: 1 query per skill load (Tier 1.5), up to 3 queries for Tier 1 foundation tasks.
+
+---
+
 ## How to Invoke Kallaway
 
 Kallaway activates when user needs:
