@@ -57,6 +57,20 @@ Use `/add-notebook` or manually update `notebooks.md`
 
 ---
 
+## Troubleshooting
+
+**SSL certificate error** (`CERTIFICATE_VERIFY_FAILED`):
+The client auto-sets `SSL_CERT_FILE` from `certifi` before every CLI call. If you see this error: `pip install certifi`
+
+**"Could not find chat input element" / Playwright TimeoutError**:
+Chrome session got into a broken state. The client auto-detects and runs a soft reset + retry. If it keeps failing, run manually:
+```bash
+bash execution/reset-notebooklm.sh           # soft reset (preserves auth cookies)
+bash execution/reset-notebooklm.sh --full    # full reset (requires re-auth)
+```
+
+---
+
 ## Architecture
 
 Direct Python scripts (zero MCP overhead) → notebooklm-mcp CLI → Chrome automation → Google NotebookLM
@@ -74,6 +88,7 @@ mcp-servers/notebooklm/
 
 execution/
 ├── notebooklm_client.py              # Python wrapper (primary)
+├── reset-notebooklm.sh               # Session reset script
 └── notebooklm_knowledge_retrieval.py # Hybrid search
 
 directives/

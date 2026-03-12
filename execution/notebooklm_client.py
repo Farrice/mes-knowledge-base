@@ -24,6 +24,7 @@ Usage:
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import time
 from datetime import datetime, timedelta, timezone
@@ -270,9 +271,38 @@ class NotebookLMClient:
 
     # ----- Private methods -----
 
+    def _build_cli_env(self) -> dict:
+        """Build subprocess env with SSL cert fix applied."""
+        env = os.environ.copy()
+        try:
+            import certifi
+            cert_path = certifi.where()
+            env.setdefault("SSL_CERT_FILE", cert_path)
+            env.setdefault("REQUESTS_CA_BUNDLE", cert_path)
+        except ImportError:
+            pass  # certifi not installed; SSL will use system defaults
+        return env
+
+    def _reset_chrome_session(self) -> None:
+        """
+        Clear Chrome session state that causes 'Could not find chat input element'.
+        Deletes session/cache directories while preserving auth cookies and login data.
+        """
+        session_dirs = [
+            "Default/Session Storage",
+            "Default/Cache",
+            "Default/Code Cache",
+            "Default/Service Worker",
+            "Default/BrowsingTopicsState",
+        ]
+        for rel_dir in session_dirs:
+            target = CHROME_PROFILE / rel_dir
+            if target.exists():
+                shutil.rmtree(target, ignore_errors=True)
+        print("  ↻  Chrome session state cleared — retrying query...")
+
     def _execute_cli_query(self, notebook_id: str, query: str, context: str) -> str:
-        """Execute notebooklm-mcp CLI query."""
-        # Build CLI command
+        """Execute notebooklm-mcp CLI query with SSL fix and auto-reset on broken session."""
         cmd = [
             "uv", "run", "notebooklm-mcp",
             "--config", str(CONFIG_FILE),
@@ -280,19 +310,33 @@ class NotebookLMClient:
             "--message", query,
             "--notebook", notebook_id,
         ]
-
         if context:
             cmd.extend(["--context", context])
 
-        # Execute
-        result = subprocess.run(
-            cmd,
+        env = self._build_cli_env()
+        run_kwargs = dict(
             cwd=BASE_PATH / "mcp-servers" / "notebooklm",
             capture_output=True,
             text=True,
-            timeout=120,
-            check=True,
+            timeout=180,
+            env=env,
         )
+
+        result = subprocess.run(cmd, **run_kwargs)
+
+        # Detect broken Chrome session and retry once with reset
+        broken_session_signals = [
+            "Could not find chat input element",
+            "TimeoutError",
+            "ElementHandle",
+        ]
+        combined_output = (result.stdout or "") + (result.stderr or "")
+        if result.returncode != 0 or any(s in combined_output for s in broken_session_signals):
+            self._reset_chrome_session()
+            result = subprocess.run(cmd, check=True, **run_kwargs)
+
+        if result.returncode != 0:
+            raise subprocess.CalledProcessError(result.returncode, cmd, result.stdout, result.stderr)
 
         return result.stdout.strip()
 
