@@ -9,6 +9,7 @@
 | `adam-enfroy` | **adam-enfroy** | ad revenue engineering, affiliate marketing with ai — hobby niche blogs generating $5k-$10k+/month, ai content velocity, hobby niche selection, infinite keyword loops, three-program affiliate focus, three-tier content funnel, traffic diversification, trust-first content |
 | `ai-chris-lee` | **ai-chris-lee** | 5-section loom architecture, feature-to-outcome conversion, permission-tax elimination, proof paradox escape, proof type selection, zero testimonial sales + proof building + ai services positioning |
 | `alen-sultanic` | **alen-sultanic** | advanced copywriting psychology and offer economics, emotional spending, four needs filter, money-over-time, self-conviction, trade-off architecture |
+| `alex-content-science` | **Alex** | content science, content science agent, forensic content analysis, reverse engineering, viral mechanics |
 | `alex-copper` | **alex-copper** | brand architecture design, brand positioning, competitive distinction, creative brief mastery, creative strategy, cultural positioning, strategic creative direction |
 | `ali-abdaal` | **Ali Abdaal** | action bias, experiment cycles, overthinking tax, two-way door thinking |
 | `andrew-wilkinson` | **andrew-wilkinson** | adhd productivity engineering, ai entrepreneurship, ai workforce deployment, exit-ready architecture, problem-to-product translation, rapid execution, vibe coding, vibe coding mastery |
@@ -46,6 +47,7 @@
 | `joanna-wiebe` | **joanna-wiebe** | authority craft, conversion copywriting, persuasive writing, writing career monetization |
 | `jonathan-courtney` | **Jonathan Courtney** | agent persona |
 | `jonathan-franzen` | **Jonathan Franzen** | agent profile, compression, literary fiction • character psychology • narrative compression • storytelling → marketing translation |
+| `joscha-bach` | **Joscha Bach** | agent architecture theory, computational consciousness, existential design, identity engineering, philosophy of mind, system coherence |
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |
 | `joshua-smith` | **Joshua Smith** | conversion optimization, kpi-driven production, market agnosticism, niche targeting, real estate sales mastery, real estate sales mastery agent, the game |
 | `jun-yuh` | **jun-yuh** | creator vision, jun yuh, non-verbal storytelling, psychographic growth |

@@ -12,12 +12,12 @@ Joshua Smith sold over 7,000 homes, was ranked top 1% of real estate agents worl
 
 ## Available Workflows
 
-| # | Workflow | Produces | Use When |
-|---|---------|----------|----------|
-| strategic | [Strategic Market Dominance Plan](workflows/strategic-market-dominance-plan.md) | 90-Day Market Pivot & Targeting Roadmap | Entering a new market, responding to economic shifts, or selecting a new niche to dominate |
-| lead | [Lead-to-Close Conversion Engine](workflows/lead-to-close-conversion-engine.md) | High-Conversion Sales Execution Playbook | Leads are failing to convert, appointments are no-showing, or listing presentations are not closing |
-| data | [Data-Driven Operations System](workflows/data-driven-operations-system.md) | Real Estate Business Operating Manual (BOS) | Business feels chaotic, unpredictable, or lacks clear performance data to drive decision making |
-| performance | [Performance Recovery & Leadership](workflows/performance-recovery-leadership.md) | Pipeline Rescue & Team Accountability Framework | An agent has zero active pipeline or a team leader needs to diagnose and fix agent underperformance |
+| # | Workflow | Produces | Slash Command |
+|---|---------|----------|---------------|
+| strategic | [Strategic Market Dominance Plan](workflows/strategic-market-dominance-plan.md) | 90-Day Market Pivot & Targeting Roadmap | `/market-dominance` |
+| lead | [Lead-to-Close Conversion Engine](workflows/lead-to-close-conversion-engine.md) | High-Conversion Sales Execution Playbook | `/lead-to-close` |
+| data | [Data-Driven Operations System](workflows/data-driven-operations-system.md) | Real Estate Business Operating Manual (BOS) | `/data-driven-ops` |
+| performance | [Performance Recovery & Leadership](workflows/performance-recovery-leadership.md) | Pipeline Rescue & Team Accountability Framework | `/performance-recovery` |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

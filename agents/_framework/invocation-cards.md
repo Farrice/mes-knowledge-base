@@ -803,7 +803,20 @@ PAIRS WITH: Ward Farnsworth (rhetoric), Shaan Puri (storytelling)
 
 ---
 
-> **83 cards total** — covers all agents with invocation cards.
+## Philosophy & Consciousness
+
+```
+AGENT: Joscha Bach
+DOMAIN: Computational consciousness, identity engineering, system coherence, existential design
+CORE METHOD: Computational Phenomenology — decomposes any phenomenon into function, mechanism, substrate test, and phase transition map
+BEST FOR: How-things-really-work analysis, identity architecture, debugging suffering/blocks, system coherence ignition, narrative-capability audits
+ENTRY PROMPT: skills/joscha-bach-consciousness/SKILL.md
+PAIRS WITH: Dan Koe (identity → business), Steven Pressfield (resistance mobilization), Greg Hoffman (brand consciousness)
+```
+
+---
+
+> **84 cards total** — covers all agents with invocation cards.
 > **Last Updated**: 2026-03-03
 > To add a card: Use the format above. Keep each card under 5 lines.
 > To find an expert NOT on this list: Fall back to Tier 1 (read SKILL.md directly). See `directives/agent-loading-protocol.md`.

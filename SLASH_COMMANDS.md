@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (177 Commands)
+# 🚀 Antigravity Workflows — Complete Index (193 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -182,6 +182,40 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 🔬 Content Science — Alex (7)
+| Command | What It Does |
+|---------|-------------|
+| `/detail-stack` | Run a forensic Detail Stack breakdown — map all invisible decisions behind any content |
+| `/extract-principle` | Extract transferable one-sentence principles from content breakdowns |
+| `/content-remix` | Generate 3-5 original content concepts by applying extracted principles to your niche |
+| `/sheep-cycle` | Diagnose copy-trap addiction and build a concrete escape plan |
+| `/format-scan` | Scan trending formats from unrelated niches and map them to your domain |
+| `/analogy-engine` | Transform boring topics into irresistible content via strategic analogy mapping |
+| `/competitor-intel` | Build systematic competitive intelligence — database, trend scanning, opportunity gaps |
+
+---
+
+## 📈 LinkedIn Growth — Josh Sanders (5)
+| Command | What It Does |
+|---------|-------------|
+| `/profile-conversion` | Transform your LinkedIn profile from resume to high-converting landing page with social proof taglines |
+| `/format-arbitrage` | Identify viral outlier content and new platform formats for your next content pivot |
+| `/high-dwell` | Draft LinkedIn posts and carousels optimized for dwell time, See More clicks, and saves |
+| `/algorithmic-reach` | Build a daily engagement and commenting schedule to generate inbound awareness |
+| `/high-ticket-launch` | Complete funnel from LinkedIn audience segmentation to $5K+ cohort sales pitch |
+
+---
+
+## 🏠 Real Estate Sales — Joshua Smith (4)
+| Command | What It Does |
+|---------|-------------|
+| `/market-dominance` | 90-day market pivot and targeting roadmap — niche selection and domination strategy |
+| `/lead-to-close` | Fix lead conversion failures — diagnose pipeline leaks and build a sales execution playbook |
+| `/data-driven-ops` | Build a Business Operating System — KPI tracking, daily schedule, data-driven decisions |
+| `/performance-recovery` | Rescue a stalled pipeline or diagnose agent underperformance with accountability framework |
+
+---
+
 ## 📝 Content Engines (16)
 | Command | What It Does |
 |---------|-------------|
@@ -350,6 +384,22 @@ You don't need to remember command names. These common phrases automatically map
 | "cut the dialogue" / "dialogue too long" / "tighten dialogue" | `connelly-dialogue` |
 | "rewrite this" / "dual-pass rewrite" / "connelly rewrite" | `connelly-rewrite` |
 | "taste calibration" / "Chandler calibration" / "set quality bar" | `connelly-calibrate` |
+| "break down this content" / "analyze this video" / "detail stack" | `detail-stack` |
+| "extract principles" / "what made this work" / "transferable insight" | `extract-principle` |
+| "remix content" / "original from principles" | `content-remix` |
+| "am I copying" / "sheep cycle" / "copy trap" | `sheep-cycle` |
+| "scan other niches" / "format innovation" / "cross-niche" | `format-scan` |
+| "make this topic interesting" / "analogy" / "boring topic" | `analogy-engine` |
+| "competitor research" / "competitive intelligence" / "who's winning" | `competitor-intel` |
+| "optimize my LinkedIn profile" / "profile conversion" / "profile as landing page" | `profile-conversion` |
+| "what formats are working" / "format arbitrage" / "viral formats" | `format-arbitrage` |
+| "dwell time" / "high-dwell content" / "LinkedIn post optimization" | `high-dwell` |
+| "engagement strategy" / "commenting schedule" / "algorithmic reach" | `algorithmic-reach` |
+| "high-ticket launch" / "cohort funnel" / "$5K program" | `high-ticket-launch` |
+| "dominate my market" / "real estate strategy" / "90-day plan" | `market-dominance` |
+| "leads aren't converting" / "pipeline leaks" / "close more deals" | `lead-to-close` |
+| "business operating system" / "KPI tracking" / "data-driven real estate" | `data-driven-ops` |
+| "pipeline is dead" / "agent underperformance" / "performance recovery" | `performance-recovery` |
 
 ---
 

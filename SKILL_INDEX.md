@@ -9,6 +9,7 @@
 | `adam-enfroy-affiliate-marketing` | **Adam Enfroy — Affiliate Marketing** | 0 affiliate marketing system from adam enfroy, written-content-only strategy — no video required, affiliate marketing | 4 | 22 |
 | `ai-chris-lee-zero-testimonial-sales` | **AI Chris Lee — Zero Testimonial Sales Mastery** | zero testimonial sales mastery | 4 | 23 |
 | `alen-sultanic-copywriting` | **Alen Sultanic Copywriting Mastery** |  | 5 | 31 |
+| `alex-content-science` | **Alex Content Science** | content science | 7 | 0 |
 | `alex-copper-creative-strategy` | **Alex Copper Creative Strategy Skill** |  | 4 | 24 |
 | `algorithmic-art` | **algorithmic-art** | creating algorithmic art using p5, js with seeded randomness and interactive parameter exploration | 0 | 0 |
 | `ali-abdaal-action-bias` | **Ali Abdaal: Action Bias** | action bias | 3 | 17 |
@@ -65,6 +66,7 @@
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | writing career monetization | 5 | 0 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy | 2 | 5 |
 | `jonathan-franzen-storytelling` | **Jonathan Franzen - Storytelling Mastery** | storytelling mastery | 4 | 6 |
+| `joscha-bach-consciousness` | **Joscha Bach - Computational Consciousness** | consciousness as self-organizing software, engineering stance on mind, identity, suffering, and coherence, philosophy of mind meets system design | 5 | 0 |
 | `josh-sanders-linkedin-growth` | **Josh Sanders: LinkedIn Growth & High-Ticket Education** | linkedin growth & high-ticket education | 5 | 18 |
 | `joshua-smith-real-estate` | **Joshua Smith: Real Estate Sales Mastery** | real estate sales mastery | 4 | 12 |
 | `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** |  | 3 | 7 |

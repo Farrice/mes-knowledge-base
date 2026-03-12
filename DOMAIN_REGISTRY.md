@@ -520,9 +520,9 @@ When you make a request, I route to the right expert using this registry. I will
 
 ---
 
-## Domain 14: Mindset & Messaging
+## Domain 14: Mindset, Messaging & Consciousness
 
-> **Exclusivity Boundary**: This domain owns belief change, identity transformation, and message architecture. Route here when the problem is INTERNAL (mindset blocks, identity, messaging failures) rather than external (market, product, sales).
+> **Exclusivity Boundary**: This domain owns belief change, identity transformation, message architecture, and philosophy of mind. Route here when the problem is INTERNAL (mindset blocks, identity, messaging failures, existential stuckness) rather than external (market, product, sales).
 
 ### Swim Lanes
 
@@ -535,6 +535,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Donald Miller** | CULTURE & MESSAGING | PEACE framework, culture turnaround, strategic messaging |
 | **Heath Brothers** | IDEA STICKINESS | SUCCESs framework, schema violation, commander's intent |
 | **Seth Godin** | MOVEMENT BUILDING | Tribes, permission marketing, idea viruses |
+| **Joscha Bach** | CONSCIOUSNESS / PHILOSOPHY OF MIND | Computational phenomenology, identity engineering, system coherence, phase transition design |
 
 ### Routing Logic
 
@@ -542,7 +543,8 @@ When you make a request, I route to the right expert using this registry. I will
 "I'm stuck / blocked"
 ├── Identity/mindset → Jeremy Haynes or Michael Bernoff
 ├── Performance → David Bayer
-└── Belief-level → David McRaney
+├── Belief-level → David McRaney
+└── Existential / consciousness / "how does this really work?" → Joscha Bach
 
 "My messaging isn't working"
 ├── Message stickiness → Heath Brothers (SUCCESs)
@@ -550,8 +552,19 @@ When you make a request, I route to the right expert using this registry. I will
 ├── Movement/tribe building → Seth Godin
 └── Real-reason excavation → Tobias Allen (from Domain 4)
 
+"How does [X] actually work?" / "What's the mechanism?"
+└── Joscha Bach (computational phenomenology)
+
+"Design my identity / who should I become?"
+├── Identity instruments → Joscha Bach
+├── Identity rewiring → Michael Bernoff
+└── Identity-first business → Dan Koe (from Domain 3)
+
 "Build a movement"
 └── Seth Godin + Erica Mallet (from Domain 3)
+
+"Something needs to click / cohere"
+└── Joscha Bach (phase transition design)
 ```
 
 ---
@@ -665,6 +678,7 @@ Certain expert pairings produce force-multiplier results that exceed what either
 | **Tyler Denk** + **Seth Godin** | Viral newsletter — Denk's referral mechanics + Godin's sneeze-network design | Newsletter that needs both organic spread and subscriber growth |
 | **Nick Saraev** + **Boris** | Agent fleet — Saraev's self-healing architecture + Boris's orchestration methodology | Complex multi-agent system builds |
 | **Tao Prompts** + **PJ Accetturo** | Cinema-grade AI video — Tao's storyboard architecture + PJ's production polish | AI video that needs to look professional, not gimmicky |
+| **Joscha Bach** + **Steven Pressfield** | Consciousness + Resistance — Bach diagnoses the mechanism of the block, Pressfield mobilizes the war against it | Creative blocks that need both diagnosis AND mobilization |
 
 > [!TIP]
 > When a task matches a compound trigger, route to **both** experts — either via council or sequential handoff. The lead expert (listed first) sets strategy; the second expert executes their specialty within that frame.
@@ -682,4 +696,4 @@ I will immediately switch and apply the requested expert's methodology.
 ---
 
 *Last updated: 2026-03-03*
-*94 agents across 15 domains (some dual-listed)*
+*95 agents across 15 domains (some dual-listed)*
