@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/resistance.md` — Diagnose creative blocks and build a "Turning Pro" protocol

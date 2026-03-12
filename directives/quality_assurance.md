@@ -83,6 +83,34 @@ velocity_score = random.randint(60, 95)
 
 ---
 
+### Anti-Pattern 5: "Structurally Sound But Flat"
+**Definition**: Content that covers all required points with correct structure but zero tension, emotion, recognition, or curiosity. Every section says something reasonable. Nothing makes the reader lean in.
+
+**Symptoms**:
+- About sections, bios, or posts that read like well-organized resumes
+- All claims are stated directly rather than shown through story or dialogue
+- Reader's internal response is "when will this person stop talking?" not "tell me more"
+- Template-quality opening ("I'm a [title] who helps [audience]...") followed by sections that repeat the same claim in different words
+- No tension-release architecture — the piece is emotionally flat from start to finish
+- No recognition beats — nothing that makes the reader think "that's me"
+- Passes a structural checklist but fails a vibe check
+
+**Why This Is Dangerous**:
+- It's the hardest failure to catch because it looks "correct"
+- It passes structural reviews (has a hook, has proof, has CTA)
+- But it produces zero emotional response, which means zero engagement, zero shares, zero conversions
+- A 9/10 body with a 5/10 emotional register = 5/10 piece overall
+
+**The Fix**:
+1. After drafting, run the **Tension Test**: Does the piece build tension and release it at least once? If you can read it start to finish without a single moment of "ooh" or "damn" — it's flat.
+2. After drafting, run the **Recognition Test**: Are there at least 2-3 moments where the target reader would think "that's exactly me"? If zero — rewrite with reader-as-protagonist approach.
+3. **Default to writers' room** for any content ≥ 500 chars. The 3-layer treatment (Structure → Emotion → Platform/Voice) catches flat content that structural reviews miss.
+4. **Never accept the first draft** of profile copy (headlines, About, bios) without a writers' room pass. This content type has the highest "structurally sound but flat" rate.
+
+**Origin**: LinkedIn About section session where draft 2 was structurally complete but scored 5/10. User: "its flat of any tension or emotion... I felt as I was reading it that I couldn't wait for the person to stop talking." After full writers' room treatment, same content hit 10/10.
+
+---
+
 ## 🟢 MANDATES (Always Do These)
 
 ### Mandate 1: Entity Understanding First

@@ -64,6 +64,7 @@
 | `maria-wendt` | **Maria Wendt** | digital products, invitation energy, product-first, simplification |
 | `mark-kashef` | **Mark Kashef** | agent configuration, signature advantage |
 | `michael-bernoff` | **Michael Bernoff: Identity Engineering Virtuoso** | biochemical influence deployment, certainty implanting, identity engineering virtuoso, inner hero activation, the reset frame, wrong question pattern interrupt |
+| `michael-connelly` | **AGENT: Michael Connelly** | character architecture, detail economy, dialogue craft, michael connelly, momentum engineering, narrative believability |
 | `mike-foutia` | **mike-foutia** | ai marketing automation, automation boundary judgment, brand context engineering, community mining, community pulse mining, internal tool building, non-coder tool building, trend research, universal market intelligence, universal trend intelligence, zeitgeist synthesis |
 | `mitch-albom` | **Mitch Albom: Writing Mastery Virtuoso** | character transformation mapping, endings-first navigation, gravedigger technique, rhythmic calibration, theme-first architecture, writing mastery virtuoso |
 | `monk-ai` | **Monk.Ai** | ai consulting offer architecture, ai consulting • offer design • sales psychology • client ascension • revenue architecture |

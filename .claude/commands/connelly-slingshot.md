@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/connelly-slingshot.md` — Design the slingshot opener — the trigger that drops the story into drive

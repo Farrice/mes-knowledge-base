@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/ship.md` — Quick Content Sprint. Load 1 expert, write, ship, auto-log. No full chain, no writers' room. Fast lane for daily content.

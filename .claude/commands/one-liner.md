@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/one-liner.md` — Generate the single most important marketing sentence

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/self-persuade.md` — Design self-persuasion question sequences where prospects convince themselves

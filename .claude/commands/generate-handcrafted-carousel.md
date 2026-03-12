@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/generate-handcrafted-carousel.md` — Handcrafted artwork backgrounds for LinkedIn carousel slides

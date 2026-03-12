@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/connelly-detail.md` — Deploy the Telling Detail Engine — replace descriptive paragraphs with 1-2 surgical details

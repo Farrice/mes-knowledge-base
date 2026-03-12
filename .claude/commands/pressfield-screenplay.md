@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/pressfield-screenplay.md` — Build original screenplay structures using Pressfield's narrative physics

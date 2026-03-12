@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/prevent-objection.md` — Pre-build objection prevention frames (identity, intention, necessity)

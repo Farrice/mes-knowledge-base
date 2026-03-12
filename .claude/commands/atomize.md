@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/atomize.md` — Take one long-form source and produce 11 derivative content pieces in parallel

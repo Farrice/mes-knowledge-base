@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/brief.md` — Generate a strategic brief — scans your situation and recommends highest-ROI moves

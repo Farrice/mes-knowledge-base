@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/content-sprint.md` — Zero to published post + lead magnet in 30 min — research, draft, writers' room, anti-slop

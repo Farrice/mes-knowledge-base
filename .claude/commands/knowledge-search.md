@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/knowledge-search.md` — Hybrid search across all knowledge sources with smart routing

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/adversarial-refine.md` — Stress-test ideas through 5 adversarial attack vectors

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/voice-first-content.md` — Topic research → voice capture → writer's room → publish

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/fascination-bullets.md` — Generate 30+ fascination bullets from feature/benefit list

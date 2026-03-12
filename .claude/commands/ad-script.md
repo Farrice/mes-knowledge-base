@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/ad-script.md` — Write ad scripts with hook variants, body copy, and CTA

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/orchestration-blueprint.md` — Design multi-agent orchestration from scratch using DPVI pattern

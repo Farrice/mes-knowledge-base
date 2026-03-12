@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/winning-angles.md` — Produce 20+ hooks using 3-vector system (Time × Behavior × Object)

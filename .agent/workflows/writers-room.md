@@ -265,10 +265,40 @@ When presenting the rewrite to the user:
 
 ---
 
+## Content Type: Profile & About Sections (Special Protocol)
+
+Profile copy (headline, About, Featured) requires ADDITIONAL diagnostics beyond the standard 3-layer treatment because:
+1. It's **permanent** (always visible), not temporal like posts
+2. It must **complement** post content without cannibalizing language
+3. The reader should be the **protagonist**, not the author
+4. The writing itself must **demonstrate** the service being sold
+
+### Pre-Treatment: Content Ecosystem Check
+Before ANY draft, read ALL active content in `_active/linkedin-launch/arcs/` and map off-limits language:
+- Distinctive phrases from upcoming/recent posts
+- Metaphors, proof stories, dialogue that posts own
+- Any language that would overlap and flatten impact
+
+### Additional Diagnostics (Add to Phase 2)
+- **21. Reader-as-Protagonist check**: Is the reader the main character? Or is the About section a monologue? If you removed every "I" statement and the piece still works through "you" — you're on track. If the piece is mostly "I" — rewrite.
+- **22. Recognition beat count**: Are there at least 4 moments where the reader thinks "that's me"? Space them evenly. An About section without recognition moments is a resume.
+- **23. Writing-as-demonstration**: Does the WAY this is written prove the service? A ghostwriter's About section that reads like generic copy disproves its own claim.
+- **24. Cannibalization check**: Grep the active arc folder. Any phrase overlap with published or queued posts → rewrite the profile version.
+- **25. Soft close test**: Does the ending feel like an invitation or a sales pitch? "I'd like to hear about it" vs "Book a call today."
+
+### Treatment Priority
+For About sections, Layer 2 (Emotion) is disproportionately important. The #1 failure mode is "structurally sound but flat" — all the right points covered, zero tension or recognition. Spend extra treatment time on:
+- Robert Mack's tension-release architecture (build anticipation before reveals)
+- Robert Mack's recognition mining (target the "damn, that's true" response)
+- Erica Mallet's belief architecture (what does the reader believe about themselves after reading?)
+
+---
+
 ## Expert Pairing Notes
 
 Layer 3 is now built into every run. Additional pairings for specific contexts:
 
+- For **profile/About sections**: Run full writers' room from draft 1 (not as escalation). Add content ecosystem check as pre-treatment.
 - For **serial narrative content**: Load full Fresh Voice System for arc design and chapter continuity
 - For **sales/conversion copy**: Add Cardinal Mason or Jeremy Miner for conversion architecture
 - For **carousel/visual content**: Add visual structure principles from Lara's F-shape

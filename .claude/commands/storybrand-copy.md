@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/storybrand-copy.md` — Transform existing copy into StoryBrand-structured narrative

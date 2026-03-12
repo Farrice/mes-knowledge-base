@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/angle-swarm.md` — High-volume hook generation sprint producing 50+ hooks

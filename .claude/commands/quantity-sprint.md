@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/quantity-sprint.md` — Volume-focused content sprint — break perfectionism through structured chaos

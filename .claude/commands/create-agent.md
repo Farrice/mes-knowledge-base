@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/create-agent.md` — Create an expert agent from an existing skill or extraction

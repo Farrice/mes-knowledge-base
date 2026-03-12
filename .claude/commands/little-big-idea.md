@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/little-big-idea.md` — Find intersection of product uniqueness × audience desire

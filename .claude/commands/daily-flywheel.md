@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/daily-flywheel.md` — Transform journal entries into self-exploration, research, and content

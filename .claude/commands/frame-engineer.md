@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/frame-engineer.md` — Build frame/deframe/reframe sequences for any belief shift

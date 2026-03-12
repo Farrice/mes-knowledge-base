@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/sketch-to-build.md` — Rapid wireframe-to-production shortcut

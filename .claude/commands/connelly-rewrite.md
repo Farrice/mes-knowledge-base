@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/connelly-rewrite.md` — Execute the full Connelly Dual-Pass Rewrite — micro-erosion + macro-erosion

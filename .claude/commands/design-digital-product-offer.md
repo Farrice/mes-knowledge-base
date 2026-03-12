@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/design-digital-product-offer.md` — Full offer design with research, pricing, MVP, sales page, audience strategy

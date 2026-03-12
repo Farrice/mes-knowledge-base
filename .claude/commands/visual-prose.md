@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/visual-prose.md` — Write novelistic scene descriptions with five-layer sensory composition

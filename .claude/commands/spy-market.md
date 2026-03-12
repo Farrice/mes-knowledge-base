@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/spy-market.md` — Run a "Search Gap" analysis to find low-competition keywords

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roth-content.md` — Long-form articles and newsletters with cinematic structure — sensory openings, thematic arcs, memorable closings

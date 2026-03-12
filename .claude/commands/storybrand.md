@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/storybrand.md` — Generate complete SB7 BrandScript for any business

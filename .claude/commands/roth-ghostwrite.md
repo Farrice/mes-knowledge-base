@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roth-ghostwrite.md` — Premium ghostwriting using Third Rail principle — client voice + Roth craft = best version of the client

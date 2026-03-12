@@ -100,6 +100,7 @@
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
 | `mcp-builder` | **mcp-builder** |  | 0 | 0 |
 | `michael-bernoff-identity-engineering` | **Michael Bernoff Identity Engineering** |  | 4 | 14 |
+| `michael-connelly-vivid-writing` | **Michael Connelly Vivid Writing** |  | 12 | 0 |
 | `mike-foutia-marketing-tools` | **Mike Foutia — Marketing Tools** | marketing tools | 3 | 9 |
 | `mitch-albom-writing-mastery` | **Mitch Albom Writing Mastery** |  | 4 | 31 |
 | `monk-ai-offer-architecture` | **Monk.Ai - AI Consulting Offer Architecture** | ai consulting offer architecture | 3 | 17 |

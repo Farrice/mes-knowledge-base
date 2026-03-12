@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/creative-brief-gen.md` — Build the strategic foundation (who, what, why) before writing copy

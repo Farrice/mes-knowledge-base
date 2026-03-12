@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/research-sprint.md` — Business intelligence sprint — 3 research agents + synthesis lead

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/narrative-diagnostic.md` — Audit content that "falls flat" and diagnose missing narrative physics

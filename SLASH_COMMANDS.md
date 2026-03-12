@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (165 Commands)
+# 🚀 Antigravity Workflows — Complete Index (177 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -150,6 +150,24 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## ✏️ Vivid Writing Craft — Michael Connelly (12)
+| Command | What It Does |
+|---------|-------------|
+| `/connelly-detail` | Deploy the Telling Detail Engine — replace descriptive paragraphs with 1-2 surgical details |
+| `/connelly-momentum` | Run a Momentum Writing Audit — find and fix speed bumps in any prose |
+| `/connelly-place` | Write a Character-Through-Place scene — geography triggers memory that reveals character |
+| `/connelly-subtext` | Build subtext dialogue — conversations "about this but really about that" |
+| `/connelly-outsider` | Apply the Outsider Lens Filter — insider access with outsider perspective |
+| `/connelly-conflict` | Run the Vonnegut Conflict Audit — ensure every character wants something on every page |
+| `/connelly-rewrite` | Execute the full Connelly Dual-Pass Rewrite — micro-erosion + macro-erosion |
+| `/connelly-dialogue` | Cut dialogue in half using Newspaper Economy — zero filler, zero info loss |
+| `/connelly-slingshot` | Design the slingshot opener — the trigger that drops the story into drive |
+| `/connelly-anchor` | Anchor narratives in verifiable real-world details for instant believability |
+| `/connelly-character` | Build a complete character from scratch using all 6 Connelly layers |
+| `/connelly-calibrate` | Pre-writing taste calibration — read one perfect example to set quality ceiling |
+
+---
+
 ## 📜 Narrative Mastery — Steven Pressfield (8)
 | Command | What It Does |
 |---------|-------------|
@@ -256,9 +274,13 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🧭 Session & Workflow (10)
+## 🧭 Session & Workflow (14)
 | Command | What It Does |
 |---------|-------------|
+| `/ship` | Quick content sprint — 1 expert, write, publish, auto-log. No perfectionism. |
+| `/deep-work` | Full chain strategic session — multi-expert, writers' room, complete quality gate |
+| `/build` | System improvement session — extractions, skills, architecture, auto-logged |
+| `/maintenance` | Weekly intelligence check — Phases 2-4, agent health, research pulse |
 | `/4c-architect` | Set up fully context-loaded AI session with quality gates |
 | `/adversarial-refine` | Stress-test ideas through 5 adversarial attack vectors |
 | `/daily-focus` | Today's task breakdown for compressed 1-3 hour work windows |
@@ -313,11 +335,21 @@ You don't need to remember command names. These common phrases automatically map
 | "create a skill" / "build a new skill" | `create-skill` |
 | "listing video" / "real estate hooks" / "property tour" | `listing-content` |
 | "big project" / "complex build" / "multi-step project" | `big-project` |
+| "let's ship" / "ship something" / "quick post" / "get it out" | `ship` |
+| "deep work" / "strategic piece" / "full chain" / "high-stakes content" | `deep-work` |
+| "build session" / "let's build" / "system work" / "extraction time" | `build` |
+| "run maintenance" / "system check" / "intelligence check" / "how are my agents" | `maintenance` |
 | "elevate my writing" / "cinematic content" / "Roth style" | `roth-content` |
 | "displacement copy" / "off-center CTA" / "Roth copy" | `roth-copy` |
 | "cinematic email" / "email as story" / "serialized email" | `roth-email` |
 | "premium ghostwriting" / "Third Rail" / "elevate ghostwriting" | `roth-ghostwrite` |
 | "memorable line" / "stays in your soul" / "residue" | `roth-residue` |
+| "make this vivid" / "telling detail" / "Connelly" | `connelly-detail` |
+| "fix the momentum" / "pacing audit" / "speed bumps" | `connelly-momentum` |
+| "build a character" / "character design" / "outsider lens" | `connelly-character` |
+| "cut the dialogue" / "dialogue too long" / "tighten dialogue" | `connelly-dialogue` |
+| "rewrite this" / "dual-pass rewrite" / "connelly rewrite" | `connelly-rewrite` |
+| "taste calibration" / "Chandler calibration" / "set quality bar" | `connelly-calibrate` |
 
 ---
 

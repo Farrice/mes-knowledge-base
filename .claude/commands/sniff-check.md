@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/sniff-check.md` — Build evaluation criteria for agent output quality without domain expertise

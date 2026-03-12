@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roth-residue.md` — Memorable residue engineering — craft "stays in your soul" moments for any written form

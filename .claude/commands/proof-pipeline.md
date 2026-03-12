@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/proof-pipeline.md` — End-to-end ad production integrating all 3 Luke Iha skills

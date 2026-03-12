@@ -91,10 +91,12 @@ Composite < 7 OR any dimension < 6 → retry weakest section (1 retry max).
 Protocol: `directives/quality_gate.md`.
 **Fires whenever an expert was loaded in Step 4.** No exceptions.
 
-### Step 7: LOG to Performance DB
+### Step 7: LOG to Performance DB (AI-Driven — User Confirms)
+The AI proposes quality scores based on Step 6. The user confirms or adjusts. Then the AI logs automatically:
 ```bash
-python execution/log_performance.py log "description" --skill SKILL --type TYPE --quality SCORE --status Keep
+python execution/log_performance.py log "description" --skill SKILL --type TYPE --quality SCORE --intent INTENT --expert EXPERT --adversarial ADVERSARIAL --status Keep --notes "feedback"
 ```
+**All sub-scores are required.** Quality Score alone is insufficient — Intent Alignment, Expert Standard, and Adversarial Resilience must all be logged for Phases 2-4 to activate.
 Protocol: `directives/feedback-ratchet.md`.
 **Fires whenever Step 6 ran.** This feeds the autoresearch loop — skipping it kills Phases 2-4.
 

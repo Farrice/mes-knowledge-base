@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roth-social.md` — Social media posts with cinematic depth — visual prose hooks, theme-driven, off-center across platforms

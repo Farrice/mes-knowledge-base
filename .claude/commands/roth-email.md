@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roth-email.md` — Cinematic email sequences — serialized episodes with visual prose, temporal arcs, and recurring motifs

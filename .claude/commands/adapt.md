@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/adapt.md` — Adapt source material into an original screenplay with 60%+ invention

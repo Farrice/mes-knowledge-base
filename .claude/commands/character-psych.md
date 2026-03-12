@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/character-psych.md` — Create deep character psychology wallets

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/mini-brief.md` — Multi-agent engine: raw concept → production-ready 7-element brief

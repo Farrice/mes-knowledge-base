@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/npq-script.md` — Generate complete NPQ conversation flow from opening to close

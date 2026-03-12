@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/tone-calibrate.md` — Annotate scripts with tonality directions and pacing markers

@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/parallel-swarm.md` — Deploy a true parallel agent swarm using the Gemini API

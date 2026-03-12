@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/serial-arc.md` — Plan and produce serial narrative LinkedIn content

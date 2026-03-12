@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/mechanism-sprint.md` — Mechanism → CASH-method ads targeting each awareness level

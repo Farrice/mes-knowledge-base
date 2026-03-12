@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/query-notebook.md` — Query a specific NotebookLM notebook for domain-specific research

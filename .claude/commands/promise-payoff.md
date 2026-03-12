@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/promise-payoff.md` — Structure content as a trust transaction — promise, deliver, compound

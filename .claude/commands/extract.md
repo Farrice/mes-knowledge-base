@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/extract.md` — Extract expert knowledge from source material

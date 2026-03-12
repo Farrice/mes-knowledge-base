@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/ai-brain-discovery.md` — Run 8-dimension business diagnostic and automation audit

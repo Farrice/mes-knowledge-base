@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/dual-format-docs.md` — Create both markdown and plain-text versions of documents

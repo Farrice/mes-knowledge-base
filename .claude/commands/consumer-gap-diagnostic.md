@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/consumer-gap-diagnostic.md` — Audit what a brand doesn't know about its consumer

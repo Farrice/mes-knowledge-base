@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/deep-work.md` — Full Chain Strategic Session. Full 7-step chain, 2-3 experts, writers' room, quality gate. For profile copy, launch posts, offer pages, client deliverables.

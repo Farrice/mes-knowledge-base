@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/social-narrative.md` — Apply narrative physics to social media posts (LinkedIn, Twitter/X, Instagram)

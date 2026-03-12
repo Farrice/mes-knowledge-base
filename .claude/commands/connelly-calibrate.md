@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/connelly-calibrate.md` — Pre-writing taste calibration — read one perfect example to set quality ceiling

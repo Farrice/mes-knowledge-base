@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/connelly-dialogue.md` — Cut dialogue in half using Newspaper Economy — zero filler, zero info loss

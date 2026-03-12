@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/narrative-transfer.md` — Transplant narrative architecture from one domain to another

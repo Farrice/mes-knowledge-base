@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/hook-bank.md` — Collect and adapt hooks from organic viral content for ad creation

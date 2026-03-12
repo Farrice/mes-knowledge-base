@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roth-erosion.md` — Cross-domain erosion protocol — iterative refinement for any content type, not just screenplays

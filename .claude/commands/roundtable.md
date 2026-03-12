@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/roundtable.md` — Convene an AI expert roundtable — parallel positions, then cross-examination

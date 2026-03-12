@@ -25,13 +25,24 @@ Classify the content task:
 | Content Type | Signal Keywords | Default Expert Ensemble |
 |:---|:---|:---|
 | **Lead Magnet / Free Resource** | lead magnet, PDF, guide, resource, freebie | Stockton Walbeck + Harry Dry + Cardinal Mason |
-| **Profile / About Copy** | LinkedIn, about, headline, bio, positioning | Lara Acosta + Harry Dry + Caleb Ralston |
+| **Profile / About Copy** | LinkedIn, about, headline, bio, positioning | Lara Acosta + Harry Dry + Caleb Ralston (**+ Writers' Room — see below**) |
 | **Sales / Offer Copy** | sales page, offer, pricing, conversion | Cardinal Mason + Harry Dry + Alen Sultanic |
 | **Social Posts** | post, content, LinkedIn post, thread | Kallaway + Shaan Puri + Lara Acosta |
 | **Email Sequence** | email, sequence, nurture, follow-up | Cardinal Mason + Harry Dry + Seena Rez |
 | **Video Script** | script, video, hook, Loom, TikTok | Seena Rez + Lucas Alpay + Kallaway |
 | **DM / Outreach** | DM, outreach, message, cold | Jeremy Miner + Alen Sultanic |
 | **Long-form / Guide** | article, guide, post, essay | Dan Koe + Nicolas Cole + Harry Dry |
+
+### Step 1b: Writers' Room Trigger (Profile Content)
+
+**If content type = "Profile / About Copy"** — the Writers' Room workflow (`.agent/workflows/writers-room.md`) is MANDATORY from draft 1. Do NOT produce a first draft without running the full 3-layer treatment.
+
+**Why**: Profile content has the highest rate of "structurally sound but flat" failure. Two sessions proved that expert loading alone produces 5/10 profile copy. The writers' room treatment (Structure → Emotion → Platform/Voice) is what produces 10/10.
+
+**Additional pre-treatment for profile content**:
+1. **Content ecosystem check**: Read ALL active content in `_active/linkedin-launch/arcs/` before writing. Map off-limits language (phrases owned by upcoming/recent posts).
+2. **Reader-as-protagonist**: The About section reader must be the main character, not Farrice. Write in second person. Minimum 4 recognition beats ("that's me" moments).
+3. **Platform constraints**: Confirm char limits and truncation behavior before writing (see `memory/content-voice-calibration.md` Platform Constraints section).
 
 ### Step 2: Card Check FIRST (Tier 0 — MANDATORY)
 

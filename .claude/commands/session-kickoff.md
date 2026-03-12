@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/session-kickoff.md` — Label conversation, declare protocols, set operating level

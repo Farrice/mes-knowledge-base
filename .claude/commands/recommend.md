@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/recommend.md` — Contextual skill recommendation based on current work
