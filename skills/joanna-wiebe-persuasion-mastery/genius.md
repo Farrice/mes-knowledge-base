@@ -7,17 +7,18 @@
 ## Genius Patterns
 
 **Expert**: Joanna Wiebe
-**Domain**: Conversion copywriting, persuasive writing, behavioral psychology in copy, authority craft mechanics
+**Domain**: Conversion copywriting, persuasive writing, behavioral psychology in copy, authority craft mechanics, funnel-stage psychological triggers
 **Extraction Tier**: Standard
 **Sources**:
 - "How To Become a Master Manipulator" (Copyhackers) — 5-Level Persuasion Hierarchy
 - "How To Write Freakishly Well And Have An Unfair Advantage" — Sentence-level authority craft
+- "How To Sell Anything Through The Words You Use" — 9 Funnel-stage psychological triggers
 
 ---
 
 ## Expert Profile
 
-Joanna Wiebe is the founder of Copyhackers — the world's leading conversion copywriting training company. She coined the term "conversion copywriting" and is widely regarded as the authority on writing that moves people to act. This genius context captures two complementary layers: the **5 Levels of Persuasive Writing** (copy structure) and the **5 Authority Craft Mechanics** (sentence-level execution). Together, they cover the full stack — from the architecture of persuasion down to the individual lines that land with weight.
+Joanna Wiebe is the founder of Copyhackers — the world's leading conversion copywriting training company. She coined the term "conversion copywriting" and is widely regarded as the authority on writing that moves people to act. This genius context captures three complementary layers: the **5 Levels of Persuasive Writing** (copy structure), the **5 Authority Craft Mechanics** (sentence-level execution), and the **9 Funnel-Stage Psychological Triggers** (tactical deployment by funnel position). Together, they cover the full stack — from the architecture of persuasion, to the individual lines that land with weight, to the specific trigger that fires at each stage of the buyer's journey.
 
 ---
 
@@ -162,7 +163,97 @@ Bucket brigades aren't random phrases — they're engineering components. They f
 
 ---
 
-## Crown Jewel Prompts (6 + 1)
+## Part 3: Funnel-Stage Trigger System — Genius Patterns (9)
+
+> These 9 triggers map to specific funnel stages (ToFu/MoFu/BoFu) and
+> operationalize dual-process psychology as a conversion architecture.
+> Each trigger has a specific deployment context where it fires.
+
+### 14. Framing (ToFu)
+Opens by naming a narrow category so the reader's brain can sort instantly. "Quick guide for in-house copywriters who hate frameworks" beats "Business strategies for everyone." Name the specific category in your opening. Force a binary sort: "This is for me" or "This isn't." Never make the reader decide.
+
+**Deployment**: Headlines, subject lines, social hooks — any first-contact touchpoint.
+**Test**: Reader can determine if content is for them in < 2 seconds without thinking.
+
+### 15. Identity Matching (ToFu)
+Mirrors the reader's self-identity instead of threatening it. "For marketers who already know the basics" makes them feel seen. "Most marketers get this completely wrong" wakes up System 2 to defend. Ask: "Am I reflecting their self-image or threatening it?" If your copy implies they're wrong → rewrite.
+
+**Deployment**: Landing page openings, email subject lines, ad hooks.
+**Test**: Reader thinks "That's me" not "Wait, are they saying I'm wrong?"
+
+### 16. Fluency (ToFu)
+Removes processing friction by using short sentences, familiar words, predictable rhythm. "Bread and butter" flows; "bread and peanut butter" creates a speed bump. Read copy aloud. Where you stumble = friction.
+
+**Deployment**: All top-of-funnel content — the brain processes messages on a budget.
+**Test**: Copy reads without any cognitive pause or re-reading.
+**Checklist**: Does this ask them to decide anything? Imply they're wrong? Make their life harder? If yes → rewrite.
+
+### 17. Unique Mechanisms (MoFu)
+Names the WHY behind the product so skepticism goes back to sleep. Scrub Daddy's "Flex Texture" turned a sponge into a billion-dollar company because the named mechanism answers "how does this work?" before the objection forms.
+
+**Deployment**: Product pages, comparison content, demo follow-ups — anywhere plausibility is the barrier.
+**Template**: "Our solution works because of [mechanism name] which means [specific outcome]." Can't fill that in 10 words? You don't have a mechanism yet.
+**Test**: Reader shifts from "How?" to "Oh, that makes sense."
+
+### 18. Typically Atypical (MoFu)
+Balances miraculous results with non-miraculous language. "Double your conversion rate" triggers skepticism. "Over the course of a year, 9 in 10 clients more than double their conversion rates" sounds reasonable. Use specific time frames, realistic ratios (9/10, not "all"), and understated quantifiers ("more than" instead of exact).
+
+**Deployment**: Case studies, testimonials, results claims — mid-funnel proof.
+**Test**: Claims feel credible. System 2 stays relaxed.
+
+### 19. Boring by Design (MoFu)
+Neutralizes soft objections in plain, monotone prose. "Actually, powered by AI" triggers fear → one boring sentence: "It won't replace thinking." That kills the objection before System 2 wakes up. The boringness IS the persuasion — a dramatic rebuttal confirms the fear is a big deal.
+
+**Deployment**: Onboarding, feature pages, any content where known fears lurk.
+**Execution**: List your 3 biggest objections. For each, write one boring sentence that kills it without drama. Deploy at the moment of tension — not before, not after.
+**Test**: Reader doesn't pause or tense up at the objection point.
+
+### 20. Choice Framing (BoFu)
+Presents exactly 3 options with the middle one as the smart choice. Two options feels manipulative. Four creates paralysis. Three leverages the Goldilocks principle.
+
+**Deployment**: Sales pages, proposals, pricing tables, close sequences.
+**Frame**: Option 1 (what they're doing now — failing), Option 2 (your solution — positioned as the safe middle), Option 3 (a harder alternative). The reader should feel the decision is defensible.
+**Test**: Prospect can articulate to a boss/partner why this is the logical choice.
+
+### 21. Transparent Trade-offs (BoFu)
+Names the catch before the prospect finds it. "Your team may ship code twice as quickly after a 10-week training period." One B2B company saw 337% increase by naming trade-offs upfront.
+
+**Deployment**: Final pitch, pricing proposals, close sequences — bottom of funnel only.
+**Formula**: "[Result], but [limitation or effort required]." Deploy once, right before the close.
+**Test**: Prospect stops looking for hidden problems. Trust spikes.
+
+### 22. Big Proof, Small Bite (BoFu)
+Uses one massive, undeniable proof point instead of overwhelming evidence. "Shopify's 5,000-person engineering team was onboarded in 3 months and now ships 3x the code." One boulder that can't be moved.
+
+**Deployment**: Close sections, hero testimonials, case study selection.
+**Execution**: Write down all your proof. Cross out everything except the single most impressive, relevant example. Use it strategically. Everything else is noise.
+**Test**: One proof point. Specific. Credible. Impossible to dismiss.
+
+---
+
+## Part 3: Funnel-Stage Trigger System — Hidden Knowledge (6)
+
+### 11. The System 2 Activation Cost Model
+The entire funnel is a System 2 management game. ToFu: keep System 2 asleep (framing, identity, fluency). MoFu: put System 2 back to sleep when it stirs (mechanisms, atypical claims, boring objection handling). BoFu: give System 2 just enough to sign off confidently (choice framing, transparency, one proof point). System 2 is lazy — it's always looking for a reason to STOP.
+
+### 12. The Funnel-as-Brain-State Map
+The 3-stage funnel isn't about marketing stages — it's about cognitive states. ToFu = "Am I in the right place?" (safety scan). MoFu = "Will this actually work?" (plausibility check). BoFu = "Can I justify this decision?" (confidence build). Each stage has its own System 2 activation profile.
+
+### 13. The Anti-Pile Proof Principle
+Overwhelming proof creates suspicion, not belief. "Why are they trying so hard?" The brain's System 1 gets overwhelmed by volume; System 2 wakes up suspicious. One credible proof point lets System 1 accept it and System 2 briefly evaluate and sign off. Counterintuitive: less proof = more belief.
+
+### 14. The Boring Objection Kill Pattern
+The most dangerous objections aren't the ones prospects voice — they're the soft ones that create tension without ever being named. The fix isn't a dramatic rebuttal (that confirms the fear is a big deal). It's a monotone, factual sentence that signals "this isn't worth worrying about." The boringness IS the persuasion.
+
+### 15. The Defensibility Test for Decisions
+At BoFu, the prospect isn't just deciding for themselves — they're rehearsing how to explain this decision to someone else (boss, partner, spouse). Choice framing works because the middle option is "defensible." The test isn't "would they buy?" — it's "could they explain why to someone who wasn't in the room?"
+
+### 16. The Skepticism-Language Calibration
+Claims trigger skepticism in direct proportion to their specificity of promise. "Double your conversion rate" = specific + bold = high skepticism. "More than double" with "9 in 10" and "over the course of a year" = same result but distributed across qualifiers that prevent any single claim from breaching the System 2 threshold.
+
+---
+
+## Crown Jewel Prompts (6 + 1 + 3)
 
 1. `persuasion-level-audit` — Score any copy on the 5-level framework
 2. `money-words-miner` — Extract audience-specific identity language from VOC data
@@ -171,5 +262,8 @@ Bucket brigades aren't random phrases — they're engineering components. They f
 5. `cognitive-bias-toolkit` — Deploy the right bias at the right moment
 6. `napoleon-identity-hook` — Create identity-based calls to action
 7. `authority-craft-engine` — Apply all 5 sentence-level mechanics to any writing (Workflow 04)
+8. `funnel-trigger-audit` — Score any copy by which of the 9 triggers are present/absent for its funnel stage (Workflow 05)
+9. `funnel-trigger-rewrite` — Rewrite existing copy with the correct triggers deployed for its funnel position (Workflow 06)
+10. `skepticism-calibration-engine` — Calibrate claims, neutralize objections with boring precision, and select single-boulder proof (Workflow 07)
 
 
