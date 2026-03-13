@@ -39,7 +39,7 @@ BASE_PATH = Path(__file__).parent.parent
 ENV_PATH = BASE_PATH / ".env"
 USAGE_FILE = BASE_PATH / ".agent" / "perplexity-usage.json"
 
-MONTHLY_LIMIT_USD = 10.00
+MONTHLY_LIMIT_USD = 30.00
 
 
 def load_env(env_path: Optional[Path] = None):

@@ -17,7 +17,7 @@ The hybrid knowledge retrieval system orchestrates searches across 5 knowledge s
 | **Skills** | Expert methodologies, frameworks | Primary expert knowledge | 0 (local) | Fast (<1s) |
 | **Files** | Directives, CLAUDE.md, system docs | Code/system questions, protocols | 0 (local) | Fast (<1s) |
 | **Notion** | Projects, knowledge vault, content pipeline | Project context, ICP, current initiatives | API quota | Medium (1-3s) |
-| **Perplexity** | Real-time web research | Current trends, market data | $10/mo budget | Medium (2-5s) |
+| **Perplexity** | Real-time web research | Current trends, market data | $30/mo budget | Medium (2-5s) |
 
 ---
 
@@ -99,7 +99,7 @@ When hybrid search uses multiple budgeted sources:
 | Source | Budget | Per-Query Cost | Tracking |
 |--------|--------|----------------|----------|
 | NotebookLM | 100 queries/mo | 1 query per notebook | `.agent/notebooklm-usage.json` |
-| Perplexity | $10/mo | $0.02-0.30 per query | `.agent/perplexity-usage.json` |
+| Perplexity | $30/mo | $0.02-0.30 per query | `.agent/perplexity-usage.json` |
 | Notion | 3 req/sec (API limit) | N/A | No tracking (free tier) |
 | Files/Skills | Unlimited | 0 | No tracking (local) |
 

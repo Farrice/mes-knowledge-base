@@ -138,7 +138,7 @@ Push complexity into deterministic code. You focus on decision-making.
   - Query count: 100/month
   - Usage: `/query-notebook` or auto-loaded at Tier 1.5
   - Budget tracking: `.agent/notebooklm-usage.json`
-- **Perplexity**: Real-time web research ($10/month)
+- **Perplexity**: Real-time web research ($30/month)
 
 **Key files (read on-demand, not preloaded):**
 - `COUNCIL.md` — 24 experts + 5 standing councils. Read for expert selection.
@@ -181,7 +181,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 ### Budget-Gated (check before calling)
 | Protocol | Directive | Gate |
 |----------|-----------|------|
-| Perplexity | `directives/perplexity-usage-policy.md` | $10/mo, track in `.agent/perplexity-usage.json` |
+| Perplexity | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json` |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.

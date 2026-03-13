@@ -197,7 +197,7 @@ At the end of your output, include:
 
 ## Perplexity API Cost Control Protocol (MANDATORY)
 
-> **Monthly Budget: $10** | **Tracking File:** `.agent/perplexity-usage.json`
+> **Monthly Budget: $30** | **Tracking File:** `.agent/perplexity-usage.json`
 > **Policy Reference:** `directives/perplexity-usage-policy.md`
 
 ### When to Use Perplexity (PREFERRED for Research)

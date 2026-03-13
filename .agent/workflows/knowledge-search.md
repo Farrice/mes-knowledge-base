@@ -20,7 +20,7 @@ Search across files, Notion, NotebookLM, Perplexity, and skills with intelligent
 - **Skills**: Expert methodologies (free, fast)
 - **Files**: System docs, directives (free, fast)
 - **Notion**: Project context, ICP (API quota)
-- **Perplexity**: Current trends, market data ($10/mo)
+- **Perplexity**: Current trends, market data ($30/mo)
 
 ## Scopes
 
@@ -51,7 +51,7 @@ Search across files, Notion, NotebookLM, Perplexity, and skills with intelligent
 ## Budget Impact
 
 - NotebookLM: 1-3 queries per search (100/mo limit)
-- Perplexity: $0.02-0.30 per search ($10/mo limit)
+- Perplexity: $0.02-0.30 per search ($30/mo limit)
 - Other sources: Free
 
 ## Performance

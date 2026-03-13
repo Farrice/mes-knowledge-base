@@ -1,6 +1,6 @@
 # Perplexity API Usage Policy
 
-> **Monthly Budget Limit: $20**
+> **Monthly Budget Limit: $30**
 > This directive applies to ALL agents, workflows, and research tasks.
 > **Last Updated: 2026-02-14**
 
@@ -21,6 +21,7 @@ Perplexity provides higher-quality, citation-backed research than basic web sear
 - Deep research tasks (`/research-topic`, `/generate-brief`, `/spy-market`)
 - Fact-checking with citations needed
 - Any research where accuracy and sources matter
+- **`/deep-research` workflow** (uses `sonar-deep-research` model, ~$0.75-1.50/run — PRIMARY research workflow)
 - **Any agent swarm with a research component** (minimum 1 query per research agent)
 
 ## When to Use Basic Web Search (FALLBACK)
@@ -42,10 +43,10 @@ Perplexity provides higher-quality, citation-backed research than basic web sear
 
 | Metric | Value |
 |--------|-------|
-| **Monthly Budget** | $20.00 |
-| **Warning Threshold** | $16.00 (80%) — notify user |
-| **Hard Cap** | $20.00 (100%) — block and notify |
-| **Est. Queries Available** | ~300-500 (Sonar), ~100-200 (Sonar Pro), ~30-50 (Deep Research) |
+| **Monthly Budget** | $30.00 |
+| **Warning Threshold** | $24.00 (80%) — notify user |
+| **Hard Cap** | $30.00 (100%) — block and notify |
+| **Est. Queries Available** | ~500-750 (Sonar), ~150-300 (Sonar Pro), ~50-75 (Deep Research) |
 | **Reset Date** | 1st of each month |
 
 ### Tracking File
@@ -69,7 +70,7 @@ Usage is tracked in: `.agent/perplexity-usage.json`
 
 | Tier | Stakes | Research Tool | Budget | When to Use |
 |:---|:---|:---|:---|:---|
-| **Tier 1: Foundation** | Decisions, strategy, positioning, avatar research, market entry | Perplexity Deep Research + Sonar Pro | Up to $2/task | When the output becomes the BASIS for downstream work (copy, positioning, pricing, offers) |
+| **Tier 1: Foundation** | Decisions, strategy, positioning, avatar research, market entry | `/deep-research` workflow (sonar-deep-research × 2-3 queries) | Up to $2/task | When the output becomes the BASIS for downstream work (copy, positioning, pricing, offers) |
 | **Tier 2: Validation** | Fact-checking, trend verification, competitive spot-checks | Perplexity Sonar Pro | Up to $0.50/task | When you have a hypothesis and need to confirm/deny it with real data |
 | **Tier 3: Context** | Background info, general landscape, quick answers | Perplexity Sonar or `search_web` | Up to $0.10/task | When you need directional context but won't build strategy on it |
 | **Tier 4: Synthesis** | Combining already-gathered data, applying frameworks | None needed (LLM is appropriate) | $0 | When the data is already in hand and you're applying expert methodology to it |
@@ -94,11 +95,11 @@ IS THIS TASK DIRECTIONAL? (background context, general landscape)
 
 ### Budget-Aware Pivoting
 When budget is running low, pivot intelligently — don't just stop:
-1. **$20 → $10 remaining**: Continue normal operations, but prefer Sonar Pro over Deep Research
-2. **$10 → $5 remaining**: Switch Tier 1 tasks from Deep Research to Sonar Pro
-3. **$5 → $2 remaining**: Collapse all queries aggressively (The Collapsing Rule). Use Sonar only.
-4. **$2 → $0.50 remaining**: Fall back to `search_web` for all tiers. Notify user.
-5. **$0.50 → $0**: STOP all external research. Alert user. Offer to proceed with LLM-only (clearly tagged 🔴 PROJECTED).
+1. **$30 → $15 remaining**: Continue normal operations, but prefer Sonar Pro over Deep Research for non-foundation tasks
+2. **$15 → $7 remaining**: Switch Tier 1 tasks from Deep Research to Sonar Pro. Reserve Deep Research for `/deep-research` workflow only.
+3. **$7 → $3 remaining**: Collapse all queries aggressively (The Collapsing Rule). Use Sonar only. `/deep-research` degrades to `/research-sprint`.
+4. **$3 → $0.50 remaining**: Fall back to `search_web` for all tiers. Notify user.
+5. **$0.50 → $0**: STOP all external research. Alert user. Offer to proceed with LLM-only (clearly tagged PROJECTED).
 
 ---
 
@@ -106,8 +107,8 @@ When budget is running low, pivot intelligently — don't just stop:
 
 ### Pre-Query Checks (MANDATORY before every Perplexity call)
 1. **Read** `.agent/perplexity-usage.json` for current spend
-2. **Calculate** remaining budget: `$20.00 - current_spend`
-3. **If remaining < $2.00**: Switch to Sonar (cheapest model) only
+2. **Calculate** remaining budget: `$30.00 - current_spend`
+3. **If remaining < $3.00**: Switch to Sonar (cheapest model) only. `/deep-research` degrades to `/research-sprint`.
 4. **If remaining < $0.50**: BLOCK all Perplexity calls, notify user, fall back to `search_web`
 
 ### Loop Detection Guards
@@ -187,4 +188,4 @@ User can adjust the monthly limit by:
 
 **Update Rule**: When this protocol fires (Perplexity query executed), update the date and increment count.
 
-*Effective: 2026-02-05 | Updated: 2026-03-09 — Budget increased to $20/month per user request. Added loop protection, provenance tagging, and swarm governance*
+*Effective: 2026-02-05 | Updated: 2026-03-13 — Budget increased to $30/month. Added `/deep-research` workflow as primary Tier 1 consumer. Updated degradation thresholds.*

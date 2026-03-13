@@ -10,6 +10,7 @@ Quick-start guide for Google Workspace, Notion, and SQLite MCP servers for your 
 |------------|--------------|------|
 | **Google Workspace** (`gws`) | Read/write Drive, Docs, Sheets, Gmail, Calendar, Chat, 50+ services | Free (OAuth) |
 | **Notion** | Read/write Notion pages/databases | Free (API key) |
+| **Perplexity** (`perplexity-ask`) | Deep research, web search, reasoning via Sonar models | $30/mo budget |
 | **SQLite** | Query local SQLite databases | Free |
 
 ---
@@ -125,7 +126,36 @@ You can also use Notion's hosted MCP at `https://mcp.notion.com/mcp` - connect v
 
 ---
 
-## 3. SQLite MCP
+## 3. Perplexity MCP (`perplexity-ask`)
+
+### Installation
+
+```bash
+claude mcp add perplexity-ask --env PERPLEXITY_API_KEY="$PERPLEXITY_API_KEY" -- npx -y @perplexity-ai/mcp-server
+```
+
+API key is in root `.env` as `PERPLEXITY_API_KEY`.
+
+### Available Tools
+
+| Tool | Model | Use For | Est. Cost |
+|------|-------|---------|-----------|
+| `perplexity_search` | sonar | Direct web search, quick lookups | ~$0.02 |
+| `perplexity_ask` | sonar-pro | Conversational AI with web search | ~$0.05 |
+| `perplexity_research` | sonar-deep-research | Deep research (multi-step) — **PRIMARY for `/deep-research`** | ~$0.25 |
+| `perplexity_reason` | sonar-reasoning-pro | Advanced reasoning and analysis | ~$0.08 |
+
+### Budget Tracking
+
+The MCP server does NOT auto-log to our budget file. After each MCP query, manually log to `.agent/perplexity-usage.json`. Budget: **$30/month**. Full policy: `directives/perplexity-usage-policy.md`.
+
+### Fallback
+
+If MCP tools unavailable, use `execution/perplexity_client.py` (Python client with built-in budget tracking).
+
+---
+
+## 4. SQLite MCP
 
 ### Step 1: Add to MCP Config
 

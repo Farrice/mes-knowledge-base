@@ -138,7 +138,7 @@ Push complexity into deterministic code. You focus on decision-making.
   - Query count: 100/month
   - Usage: `/query-notebook` or auto-loaded at Tier 1.5
   - Budget tracking: `.agent/notebooklm-usage.json`
-- **Perplexity**: Real-time web research ($10/month)
+- **Perplexity**: Real-time web research ($30/month)
 
 **Key files (read on-demand, not preloaded):**
 - `COUNCIL.md` — 24 experts + 5 standing councils. Read for expert selection.
@@ -178,10 +178,25 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
 | Operating Principles | Development workflows | `directives/operating-principles.md` |
 
+### Research Routing
+
+Research is the foundation of everything. Route by depth:
+
+| Depth | Trigger | Workflow | Cost |
+|-------|---------|----------|------|
+| **Deep** | Strategy, positioning, market entry, competitive intel, avatar research, product launch, going zero-to-expert, foundation for downstream work | `/deep-research` | ~$0.75-1.50 |
+| **Standard** | Single-topic research, fact verification, trend analysis | `/research-topic` | ~$0.05-0.15 |
+| **Sprint** | Multi-angle business question evaluation | `/research-sprint` | Free (WebSearch) |
+| **Quick** | Simple fact lookup | Direct WebSearch | Free |
+
+**Default for foundation research: `/deep-research`.** If output becomes input for content, strategy, positioning, offer design, or product decisions — MUST use deep research. Building on shallow research is building on sand.
+
+**The standard**: Research that finds the real psychological movers, jobs-to-be-done, and hidden patterns — not surface-level market data. The research itself should be the unfair advantage.
+
 ### Budget-Gated (check before calling)
 | Protocol | Directive | Gate |
 |----------|-----------|------|
-| Perplexity | `directives/perplexity-usage-policy.md` | $10/mo, track in `.agent/perplexity-usage.json` |
+| Perplexity | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json` |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.

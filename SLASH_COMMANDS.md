@@ -4,10 +4,11 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 📊 Research & Strategy (10)
+## 📊 Research & Strategy (11)
 | Command | What It Does |
 |---------|-------------|
 | `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
+| `/deep-research` | Perplexity Deep Research + 3 parallel specialist agents (pattern hunter, psychology miner, contrarian scout) + adversarial challenge + McKinsey-grade strategic intelligence report |
 | `/brief` | Generate a strategic brief — scans your situation and recommends highest-ROI moves |
 | `/generate-brief` | Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research |
 | `/hunt-trends` | Scan for rising trends and "Shadow Market" opportunities using Agentic Research |

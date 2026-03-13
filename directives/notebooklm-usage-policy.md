@@ -222,7 +222,7 @@ User can adjust the monthly limit by:
 When NotebookLM budget is exhausted:
 1. **Notify user**: "NotebookLM budget exhausted (100/100 queries). Skills-only mode active. Resets on [date]."
 2. **Switch to skills-only**: Load Tier 2 (genius.md) instead of Tier 1.5
-3. **Offer Perplexity**: For foundation tasks requiring external research, suggest Perplexity ($10/mo budget)
+3. **Offer Perplexity**: For foundation tasks requiring external research, suggest Perplexity ($30/mo budget)
 4. **Document**: Log all budget-constrained decisions in session state
 
 ---

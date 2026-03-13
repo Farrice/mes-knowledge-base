@@ -62,7 +62,8 @@ Match the sharpened intent to the right experts. Use the domain detection table 
 
 | Request Type | Signals | Default Experts | Registry Domain |
 |:---|:---|:---|:---|
-| Research/Intelligence | "analyze", "research", "find out", "market" | Manus.AI + domain expert | 12 |
+| Research/Intelligence (Deep) | "deep research", "analyze market", "competitive intel", "strategic research", "market entry", "avatar research", "product research", "zero to expert" | `/deep-research` workflow + Manus.AI | 12 |
+| Research/Intelligence (Standard) | "research", "find out", "quick lookup", "fact check" | `/research-topic` | 12 |
 | Content Creation | "write", "create", "draft", "content" | Appropriate content expert(s) | 2, 7 |
 | Strategy/Decision | "should I", "what's the best", "how do I approach" | Jim O'Shaughnessy + domain experts | 12 |
 | Copywriting | "sales page", "email", "headline", "convert" | Cardinal Mason + Harry Dry | 1 |
