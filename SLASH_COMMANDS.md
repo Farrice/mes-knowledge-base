@@ -4,7 +4,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 📊 Research & Strategy (11)
+## 📊 Research & Strategy (12)
 | Command | What It Does |
 |---------|-------------|
 | `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
@@ -18,6 +18,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/spy-market` | Run a "Search Gap" analysis to find low-competition keywords |
 | `/watch-and-remix` | Study trending content, reverse-engineer the mechanic, create 3 original remixes |
 | `/knowledge-search` | Hybrid search across all knowledge sources with smart routing |
+| `/betting-edge` | NBA player prop analysis — research tonight's slate, detect statistical edges, build correlation-aware parlays with confidence scoring and Kelly criterion bankroll sizing |
 
 ---
 
