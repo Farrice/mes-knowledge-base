@@ -114,9 +114,11 @@
 | `nate-b-jones-trust-architecture` | **Nate B Jones - AI Trust Architecture** | zero-trust agentic architecture & systemic hallucination defense, ai trust architecture | 3 | 12 |
 | `nate-herk-client-acquisition` | **Nate Herk: AI Client Acquisition** | ai client acquisition | 1 | 3 |
 | `nathan-gotch-ai-seo` | **Nathan Gotch AI SEO** |  | 5 | 28 |
+| `nba-betting-edge` | **NBA Betting Edge: Player Prop & Parlay Prediction System** | player prop & parlay prediction system | 3 | 0 |
 | `nick-saraev-agentic-workflows` | **Nick Saraev: Agentic Workflows Mastery** | agentic workflows mastery | 5 | 39 |
 | `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | bottleneck thinking | 3 | 0 |
 | `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | digital product creation strategy | 2 | 6 |
+| `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche positioning | 2 | 0 |
 | `nicolas-cole-sentence-craft` | **Nicolas Cole Sentence Craft** |  | 3 | 14 |
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
@@ -141,6 +143,7 @@
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai product launch system | 3 | 11 |
 | `sean-kochel-ai-business` | **Sean Kochel: AI Business Mastery** | ai business mastery | 4 | 23 |
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | design-first web building | 2 | 6 |
+| `sean-mabry-voice-mastery` | **sean-mabry-voice-mastery** |  | 0 | 12 |
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** |  | 4 | 23 |
 | `seena_rez_early_adopter` | **Seena Rez - Early Adopter Innovation Strategy** | the early adopter innovation system | 0 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | ideavirus mastery | 5 | 26 |
