@@ -38,7 +38,7 @@ If only one command matches, or the user seems to know what they want, offer to 
 
 | Category | Keywords |
 |----------|----------|
-| Research & Strategy | research, brief, analyze, landscape, trends |
+| Research & Strategy | research, brief, analyze, landscape, trends, betting, picks, props, odds |
 | Multi-Agent | swarm, council, parallel, roundtable, atomize |
 | Copywriting | ad, copy, hook, vsl, script, fascination |
 | Sales | gap, frame, objection, npq, persuade |

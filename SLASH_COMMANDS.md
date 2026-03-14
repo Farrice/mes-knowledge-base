@@ -402,6 +402,9 @@ You don't need to remember command names. These common phrases automatically map
 | "leads aren't converting" / "pipeline leaks" / "close more deals" | `lead-to-close` |
 | "business operating system" / "KPI tracking" / "data-driven real estate" | `data-driven-ops` |
 | "pipeline is dead" / "agent underperformance" / "performance recovery" | `performance-recovery` |
+| "tonight's picks" / "NBA bets" / "betting edge" / "player props" / "over under" | `betting-edge` |
+| "how did my bets do" / "betting review" / "check my picks" / "betting results" | `betting-edge review` |
+| "bankroll strategy" / "kelly sizing" / "bet sizing" / "how much to bet" | `betting-edge bankroll` |
 
 ---
 
