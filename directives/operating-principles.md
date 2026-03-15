@@ -24,8 +24,8 @@ Core development practices for Antigravity system work. Referenced from CLAUDE.m
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
+| **Last Activated** | 2026-03-15 (protocol_tracker test) |
+| **Activation Count** | 1 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (principle applied in development workflow), update the date and increment count.

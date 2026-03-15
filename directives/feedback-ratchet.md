@@ -195,8 +195,8 @@ log_output(
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-11 |
-| **Activation Count** | 13 |
+| **Last Activated** | 2026-03-15 (chain_runner finalize for system-architecture) |
+| **Activation Count** | 17 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (performance logged after any output), update the "Last Activated" date and increment the count.

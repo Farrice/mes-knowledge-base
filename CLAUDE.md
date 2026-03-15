@@ -59,7 +59,7 @@ python execution/sync_registries.py
 
 # The Chain (Every Request — No Exceptions)
 
-Complete these 7 steps IN ORDER for every user request that produces a deliverable. There is no skip path for the chain itself — individual steps may narrow (see table below), but the chain always runs.
+Complete these 6 steps IN ORDER for every user request that produces a deliverable. There is no skip path for the chain itself — individual steps may narrow (see table below), but the chain always runs.
 
 ### Step 1: SCORE intent (1-5)
 +1 Deliverable | +1 Audience | +1 Context/constraints | +1 End state | +1 Specific language.
@@ -85,20 +85,25 @@ For content: minimum 2 skill files loaded per `directives/content_creation_gate.
 Execute using loaded expert frameworks — their thinking, not their terminology.
 During production, enforce `directives/quality_assurance.md` anti-patterns: entity classification, no phantom research, no template slop.
 
-### Step 6: QUALITY GATE (silent)
-Score 1-10 on: Intent Alignment, Expert Standard, Adversarial Resilience.
-Composite < 7 OR any dimension < 6 → retry weakest section (1 retry max).
-Protocol: `directives/quality_gate.md`.
-**Fires whenever an expert was loaded in Step 4.** No exceptions.
+### Step 6: FINALIZE (Quality Gate + Log + Protocol Tracking — Single Call)
+After producing expert output, score it mentally on 3 dimensions (1-10 each):
+- **Intent Alignment**: Does it match what the user actually asked for?
+- **Expert Standard**: Would the real expert recognize this as quality work?
+- **Adversarial Resilience**: Would it survive critical scrutiny?
 
-### Step 7: LOG to Performance DB (AI-Driven — User Confirms)
-The AI proposes quality scores based on Step 6. The user confirms or adjusts. Then the AI logs automatically:
+Then run the chain finalize command — this handles EVERYTHING (quality gate, regression check, Notion performance log, protocol activation tracking, session state):
 ```bash
-python execution/log_performance.py log "description" --skill SKILL --type TYPE --quality SCORE --intent INTENT --expert EXPERT --adversarial ADVERSARIAL --status Keep --notes "feedback"
+python3 execution/chain_runner.py finalize "[what you produced]" \
+    --expert [expert-name] \
+    --skill [skill-directory-name] \
+    --workflow [workflow-name] \
+    --type [Content|Strategy|Research|Extraction|Client Work|System|Creative|Analysis] \
+    --intent [1-10] --expert-score [1-10] --adversarial [1-10] \
+    --notes "[what worked, what didn't]"
 ```
-**All sub-scores are required.** Quality Score alone is insufficient — Intent Alignment, Expert Standard, and Adversarial Resilience must all be logged for Phases 2-4 to activate.
-Protocol: `directives/feedback-ratchet.md`.
-**Fires whenever Step 6 ran.** This feeds the autoresearch loop — skipping it kills Phases 2-4.
+**If composite < 7 or any dimension < 6**: Retry the weakest section once, then re-finalize.
+**This is non-negotiable.** Expert output without `finalize` is incomplete. This feeds the autoresearch loop — skipping it kills Phases 2-4.
+Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
 ---
 
@@ -106,13 +111,13 @@ Protocol: `directives/feedback-ratchet.md`.
 
 | Condition | Steps shortened | Steps still required |
 |-----------|----------------|---------------------|
-| Score 4-5 (sharp intent) | Skip Step 2 | 1, 3, 4, 5, 6, 7 |
-| "Just do it" / "go ahead" | Skip Step 2, skip PRESENT in Step 3 | 1, 3 (route silently), 4, 5, 6, 7 |
-| Follow-up, same plan | Skip Step 2, reuse Step 3 route | 1, 4, 5, 6, 7 |
-| Bug fix, clear scope | Skip Step 2 if scope obvious | 1, 3 (verify if expert needed), 5, 6*, 7* |
+| Score 4-5 (sharp intent) | Skip Step 2 | 1, 3, 4, 5, 6 |
+| "Just do it" / "go ahead" | Skip Step 2, skip PRESENT in Step 3 | 1, 3 (route silently), 4, 5, 6 |
+| Follow-up, same plan | Skip Step 2, reuse Step 3 route | 1, 4, 5, 6 |
+| Bug fix, clear scope | Skip Step 2 if scope obvious | 1, 3 (verify if expert needed), 5, 6* |
 | Pure system command (ls, git, file read) | Chain does not apply | No deliverable = no chain |
 
-*Steps 6-7 fire only when expert output was produced in Step 5.
+*Step 6 fires only when expert output was produced in Step 5.
 
 **"Trivial" is NOT a skip condition.** If the user asks for content, copy, strategy, research, or any expert-domain deliverable, the chain runs regardless of perceived simplicity. "I need LinkedIn headlines" is a content task requiring routing to Lara Acosta — not a trivial question.
 
