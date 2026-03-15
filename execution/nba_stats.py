@@ -238,6 +238,17 @@ def calculate_projection(player_id, prop_type, season=SEASON):
     if std_dev > 0 and abs(values[0] - season_avg) > 2 * std_dev:
         recency_flag = 'outlier_high' if values[0] > season_avg else 'outlier_low'
 
+    # Minutes consistency — high variance = role player with unpredictable usage
+    min_values = [g['MIN'] for g in games[:10] if g.get('MIN') is not None]
+    avg_minutes = round(sum(min_values) / len(min_values), 1) if min_values else 0
+    min_variance = 0
+    if min_values and len(min_values) > 1:
+        min_mean = sum(min_values) / len(min_values)
+        min_variance = round((sum((m - min_mean) ** 2 for m in min_values) / len(min_values)) ** 0.5, 1)
+
+    # Coefficient of variation for the stat itself (std_dev / mean)
+    cv = round(std_dev / last_10_avg, 2) if last_10_avg > 0 else 99.0
+
     return {
         'projection': round(projection, 1),
         'season_avg': round(season_avg, 1),
@@ -249,6 +260,9 @@ def calculate_projection(player_id, prop_type, season=SEASON):
         'last_game': values[0],
         'recency_flag': recency_flag,
         'last_10_values': last_10,
+        'avg_minutes': avg_minutes,
+        'minutes_std_dev': min_variance,
+        'coefficient_of_variation': cv,
     }
 
 
@@ -380,6 +394,9 @@ def build_matchup_context(player_name, opponent_name, prop_type='points', season
             'recency_flag': projection['recency_flag'],
             'last_game': projection['last_game'],
             'games_played': projection['games_played'],
+            'avg_minutes': projection.get('avg_minutes', 0),
+            'minutes_std_dev': projection.get('minutes_std_dev', 0),
+            'coefficient_of_variation': projection.get('coefficient_of_variation', 0),
         },
         'adjustments': {
             'pace_factor': round(pace_factor * 100, 1),  # percentage

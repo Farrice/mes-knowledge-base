@@ -246,18 +246,34 @@ def cmd_slate(args):
         return
 
     # Step 3: Filter and rank final slate
-    # Remove confidence 1 (Skip) picks
+    # Remove confidence 1 (Skip) and 2 (Marginal) picks
     actionable = [p for p in all_picks if p['confidence']['score'] >= 3]
     actionable.sort(key=lambda x: (x['confidence']['score'], abs(x['edge']['edge'])), reverse=True)
 
-    # Anti-bias check
+    # CAP: Max 3 picks per game, max 15 total
+    MAX_PER_GAME = 3
+    MAX_TOTAL = 15
+    game_counts = {}
+    capped = []
+    for p in actionable:
+        game = p['game']
+        game_counts[game] = game_counts.get(game, 0) + 1
+        if game_counts[game] <= MAX_PER_GAME and len(capped) < MAX_TOTAL:
+            capped.append(p)
+    actionable = capped
+
+    # Anti-bias ENFORCEMENT: if >70% lean one direction, keep only top 5 by edge
+    bias_warning = False
     if actionable:
         dirs = [p['edge']['direction'] for p in actionable]
         over_pct = dirs.count('OVER') / len(dirs) * 100
         under_pct = dirs.count('UNDER') / len(dirs) * 100
-        bias_warning = over_pct >= 70 or under_pct >= 70
+        if over_pct >= 70 or under_pct >= 70:
+            bias_warning = True
+            # Keep only the strongest edges when biased
+            actionable = actionable[:5]
     else:
-        bias_warning = False
+        over_pct = under_pct = 0
 
     # Total exposure check
     total_exposure = sum(p['sizing']['suggested_pct'] for p in actionable)

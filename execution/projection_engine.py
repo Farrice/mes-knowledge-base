@@ -169,6 +169,24 @@ def score_confidence(edge_result, matchup_ctx):
         score = max(1, score - 1)
         reasons.append(f"High variance (std_dev {proj['std_dev']} >> edge {abs_edge})")
 
+    # Role player penalty: low minutes OR high minutes variance = unreliable
+    avg_min = proj.get('avg_minutes', 0)
+    min_std = proj.get('minutes_std_dev', 0)
+    cv = proj.get('coefficient_of_variation', 0)
+
+    if avg_min > 0 and avg_min < 25:
+        score = max(1, score - 1)
+        reasons.append(f"Low minutes ({avg_min} avg) — role player risk")
+
+    if min_std > 5:
+        score = max(1, score - 1)
+        reasons.append(f"Unstable minutes (std_dev {min_std}) — usage unpredictable")
+
+    # Coefficient of variation > 0.5 means the stat itself is wildly inconsistent
+    if cv > 0.50:
+        score = max(1, score - 1)
+        reasons.append(f"High stat variance (CV {cv}) — outcome is a coin flip")
+
     labels = {1: 'Skip', 2: 'Marginal', 3: 'Lean', 4: 'Strong', 5: 'Lock'}
 
     return {
@@ -279,6 +297,9 @@ def analyze_prop(player_name, prop_type, opponent_name, line, bankroll=100):
             'recency_flag': ctx['projection']['recency_flag'],
             'return_from_absence': ctx['context']['return_from_absence'],
             'games_played': ctx['projection']['games_played'],
+            'avg_minutes': ctx['projection'].get('avg_minutes', 0),
+            'minutes_std_dev': ctx['projection'].get('minutes_std_dev', 0),
+            'coefficient_of_variation': ctx['projection'].get('coefficient_of_variation', 0),
         },
         'last_10_values': ctx.get('last_10_values', []),
     }
