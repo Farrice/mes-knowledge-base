@@ -15,6 +15,9 @@ Systematic NBA player prop analysis and parlay construction. Uses real NBA.com g
 /betting-edge [team1] vs [team2]       # Specific game analysis
 /betting-edge review                   # Log results, calibrate confidence model
 /betting-edge bankroll                 # Set up or review bankroll strategy
+/betting-edge paper                    # Paper trading: auto-generate slate from live lines
+/betting-edge paper status             # Paper trading progress dashboard
+/betting-edge paper results            # Enter results for pending paper bets
 ```
 
 ## Mode Detection
@@ -22,6 +25,7 @@ Systematic NBA player prop analysis and parlay construction. Uses real NBA.com g
 Parse the user's input to determine mode:
 - **"review"**, **"results"**, **"how did we do"** → Route to `skills/nba-betting-edge/workflows/performance-review-calibration.md`
 - **"bankroll"**, **"sizing"**, **"kelly"** → Route to `skills/nba-betting-edge/workflows/bankroll-strategy-position-sizing.md`
+- **"paper"**, **"paper trade"**, **"paper trading"** → Run `execution/paper_trader.py` commands
 - **Default** (no modifier, game names, player names) → Route to `skills/nba-betting-edge/workflows/game-day-research-picks.md`
 
 ---
@@ -103,6 +107,18 @@ python execution/bet_tracker.py close [bet_id] [closing_line]   # Record closing
 python execution/bet_tracker.py result [bet_id] [actual] [outcome]
 python execution/bet_tracker.py clv                              # CLV analysis (gold standard metric)
 ```
+
+### Paper Trading Pipeline
+Automated daily paper trading against real sportsbook lines via `execution/paper_trader.py`:
+```bash
+python execution/paper_trader.py slate                     # Generate tonight's picks from live lines
+python execution/paper_trader.py slate --game <event_id>   # Specific game only
+python execution/paper_trader.py results                   # Show pending paper bets
+python execution/paper_trader.py result <id> <actual>      # Enter a result
+python execution/paper_trader.py result <id> <actual> --closing-line <X>  # With CLV
+python execution/paper_trader.py status                    # Go/No-Go dashboard
+```
+**Phase 2 protocol**: Run `slate` daily for 30+ days. Enter results next day. Track via `status`. Go/No-Go at 200+ bets: hit rate > 53%, positive CLV, calibrated confidence levels.
 
 ### Perplexity — Injury Reports & Narrative Context ONLY
 Perplexity is now used ONLY for data that nba_api cannot provide:

@@ -405,6 +405,8 @@ You don't need to remember command names. These common phrases automatically map
 | "tonight's picks" / "NBA bets" / "betting edge" / "player props" / "over under" | `betting-edge` |
 | "how did my bets do" / "betting review" / "check my picks" / "betting results" | `betting-edge review` |
 | "bankroll strategy" / "kelly sizing" / "bet sizing" / "how much to bet" | `betting-edge bankroll` |
+| "paper trade" / "paper trading" / "test the system" / "paper bets" | `betting-edge paper` |
+| "paper trading status" / "go no go" / "are we ready" | `betting-edge paper status` |
 
 ---
 
