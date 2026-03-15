@@ -18,6 +18,10 @@ Systematic NBA player prop analysis and parlay construction. Uses real NBA.com g
 /betting-edge paper                    # Paper trading: auto-generate slate from live lines
 /betting-edge paper status             # Paper trading progress dashboard
 /betting-edge paper results            # Enter results for pending paper bets
+/betting-edge live                     # Live trading: generate picks with conservative guardrails
+/betting-edge live check               # Go/No-Go gate check (requires 200+ paper bets)
+/betting-edge live weekly              # Weekly P/L review with drawdown alerts
+/betting-edge live milestone           # 500-bet progress tracker
 ```
 
 ## Mode Detection
@@ -26,6 +30,7 @@ Parse the user's input to determine mode:
 - **"review"**, **"results"**, **"how did we do"** → Route to `skills/nba-betting-edge/workflows/performance-review-calibration.md`
 - **"bankroll"**, **"sizing"**, **"kelly"** → Route to `skills/nba-betting-edge/workflows/bankroll-strategy-position-sizing.md`
 - **"paper"**, **"paper trade"**, **"paper trading"** → Run `execution/paper_trader.py` commands
+- **"live"**, **"live trade"**, **"deploy"** → Run `execution/live_trader.py` commands
 - **Default** (no modifier, game names, player names) → Route to `skills/nba-betting-edge/workflows/game-day-research-picks.md`
 
 ---
@@ -120,6 +125,19 @@ python execution/paper_trader.py status                    # Go/No-Go dashboard
 ```
 **Phase 2 protocol**: Run `slate` daily for 30+ days. Enter results next day. Track via `status`. Go/No-Go at 200+ bets: hit rate > 53%, positive CLV, calibrated confidence levels.
 
+### Live Trading Pipeline (Phase 3)
+Conservative live deployment with Go/No-Go gate via `execution/live_trader.py`:
+```bash
+python execution/live_trader.py check                          # Go/No-Go gate (requires 200+ paper bets)
+python execution/live_trader.py slate --bankroll <amount>       # Generate live picks with guardrails
+python execution/live_trader.py slate --bankroll <amount> --game <event_id>  # Specific game
+python execution/live_trader.py result <id> <actual> <outcome>  # Record result (win/loss/push)
+python execution/live_trader.py result <id> <actual> <outcome> --closing-line <X>  # With CLV
+python execution/live_trader.py weekly                          # Weekly P/L with drawdown alerts
+python execution/live_trader.py milestone                       # 500-bet progress tracker
+```
+**Phase 3 conservative limits**: 2% max single bet, 8% max daily exposure, min confidence 3, min edge 1.5 pts, max 5 picks/day. Drawdown alert at >20% from peak. 500-bet milestone before drawing conclusions.
+
 ### Perplexity — Injury Reports & Narrative Context ONLY
 Perplexity is now used ONLY for data that nba_api cannot provide:
 - Same-day injury reports and lineup confirmations
@@ -143,4 +161,5 @@ Perplexity is now used ONLY for data that nba_api cannot provide:
 | 2 | Marginal | Any | 1% max | No |
 | 1 | Skip | Any | No bet | No |
 
-**Daily limits**: Max 15% total exposure. Max 5% single bet. Max 2% per parlay.
+**Daily limits (paper/standard)**: Max 15% total exposure. Max 5% single bet. Max 2% per parlay.
+**Daily limits (Phase 3 live)**: Max 8% total exposure. Max 2% single bet. Min confidence 3. Min edge 1.5 pts. Max 5 picks/day.

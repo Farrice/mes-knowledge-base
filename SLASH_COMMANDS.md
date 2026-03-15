@@ -18,7 +18,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/spy-market` | Run a "Search Gap" analysis to find low-competition keywords |
 | `/watch-and-remix` | Study trending content, reverse-engineer the mechanic, create 3 original remixes |
 | `/knowledge-search` | Hybrid search across all knowledge sources with smart routing |
-| `/betting-edge` | NBA player prop analysis — research tonight's slate, detect statistical edges, build correlation-aware parlays with confidence scoring and Kelly criterion bankroll sizing |
+| `/betting-edge` | NBA player prop analysis — research tonight's slate, detect statistical edges, build correlation-aware parlays with confidence scoring and Kelly criterion bankroll sizing. Modes: `paper` (paper trading), `live` (live deployment with conservative guardrails), `review` (results + calibration), `bankroll` (sizing strategy) |
 
 ---
 
