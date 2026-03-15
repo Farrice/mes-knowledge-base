@@ -1,0 +1,197 @@
+{
+  "prop_type": "points",
+  "season": "2024-25",
+  "players_tested": 20,
+  "total_observations": 1348,
+  "overall_hit_rate": 56.5,
+  "overall_roi": 7.8,
+  "overall_profit": 10482.51,
+  "avg_proj_error": 5.1,
+  "avg_naive_error": 5.2,
+  "proj_beats_naive_pct": 65.0,
+  "strong_edge_hit_rate": 66.0,
+  "strong_edge_count": 350,
+  "breakeven": 52.4,
+  "player_summaries": [
+    {
+      "player": "Stephon Castle",
+      "observations": 70,
+      "hit_rate": 72.9,
+      "sim_roi": 39.1,
+      "avg_proj_error": 5.5,
+      "avg_naive_error": 6.1,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Jaden McDaniels",
+      "observations": 70,
+      "hit_rate": 67.1,
+      "sim_roi": 28.2,
+      "avg_proj_error": 4.6,
+      "avg_naive_error": 4.9,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Julian Champagnie",
+      "observations": 69,
+      "hit_rate": 66.7,
+      "sim_roi": 27.3,
+      "avg_proj_error": 4.5,
+      "avg_naive_error": 5.0,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Matas Buzelis",
+      "observations": 68,
+      "hit_rate": 66.2,
+      "sim_roi": 26.3,
+      "avg_proj_error": 4.4,
+      "avg_naive_error": 5.1,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Buddy Hield",
+      "observations": 67,
+      "hit_rate": 62.7,
+      "sim_roi": 19.7,
+      "avg_proj_error": 5.8,
+      "avg_naive_error": 6.0,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Nickeil Alexander-Walker",
+      "observations": 62,
+      "hit_rate": 61.3,
+      "sim_roi": 17.0,
+      "avg_proj_error": 4.3,
+      "avg_naive_error": 4.4,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Malik Beasley",
+      "observations": 70,
+      "hit_rate": 60.0,
+      "sim_roi": 14.5,
+      "avg_proj_error": 5.5,
+      "avg_naive_error": 5.6,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Ivica Zubac",
+      "observations": 68,
+      "hit_rate": 57.4,
+      "sim_roi": 9.5,
+      "avg_proj_error": 5.1,
+      "avg_naive_error": 5.1,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Tyus Jones",
+      "observations": 65,
+      "hit_rate": 56.9,
+      "sim_roi": 8.7,
+      "avg_proj_error": 4.7,
+      "avg_naive_error": 4.9,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Mikal Bridges",
+      "observations": 65,
+      "hit_rate": 53.8,
+      "sim_roi": 2.8,
+      "avg_proj_error": 6.1,
+      "avg_naive_error": 6.1,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Jarrett Allen",
+      "observations": 70,
+      "hit_rate": 52.9,
+      "sim_roi": 0.9,
+      "avg_proj_error": 5.2,
+      "avg_naive_error": 5.2,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Jalen Green",
+      "observations": 70,
+      "hit_rate": 52.9,
+      "sim_roi": 0.9,
+      "avg_proj_error": 7.4,
+      "avg_naive_error": 7.6,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Bub Carrington",
+      "observations": 65,
+      "hit_rate": 52.3,
+      "sim_roi": -0.1,
+      "avg_proj_error": 4.5,
+      "avg_naive_error": 4.6,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Taurean Prince",
+      "observations": 65,
+      "hit_rate": 52.3,
+      "sim_roi": -0.1,
+      "avg_proj_error": 3.9,
+      "avg_naive_error": 3.9,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Jonas Valan\u010di\u016bnas",
+      "observations": 66,
+      "hit_rate": 51.5,
+      "sim_roi": -1.7,
+      "avg_proj_error": 4.8,
+      "avg_naive_error": 4.8,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Chris Paul",
+      "observations": 69,
+      "hit_rate": 50.7,
+      "sim_roi": -3.2,
+      "avg_proj_error": 3.6,
+      "avg_naive_error": 3.6,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Payton Pritchard",
+      "observations": 67,
+      "hit_rate": 50.7,
+      "sim_roi": -3.1,
+      "avg_proj_error": 7.3,
+      "avg_naive_error": 7.3,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Harrison Barnes",
+      "observations": 70,
+      "hit_rate": 50.0,
+      "sim_roi": -4.5,
+      "avg_proj_error": 5.3,
+      "avg_naive_error": 5.3,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Brook Lopez",
+      "observations": 69,
+      "hit_rate": 47.8,
+      "sim_roi": -8.7,
+      "avg_proj_error": 5.9,
+      "avg_naive_error": 5.6,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Ronald Holland II",
+      "observations": 63,
+      "hit_rate": 41.3,
+      "sim_roi": -21.2,
+      "avg_proj_error": 3.6,
+      "avg_naive_error": 3.5,
+      "proj_beats_naive": false
+    }
+  ]
+}

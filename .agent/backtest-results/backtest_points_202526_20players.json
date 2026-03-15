@@ -1,0 +1,197 @@
+{
+  "prop_type": "points",
+  "season": "2025-26",
+  "players_tested": 20,
+  "total_observations": 1075,
+  "overall_hit_rate": 54.0,
+  "overall_roi": 3.2,
+  "overall_profit": 3418.71,
+  "avg_proj_error": 4.9,
+  "avg_naive_error": 4.9,
+  "proj_beats_naive_pct": 50.0,
+  "strong_edge_hit_rate": 57.8,
+  "strong_edge_count": 154,
+  "breakeven": 52.4,
+  "player_summaries": [
+    {
+      "player": "Kyle Filipowski",
+      "observations": 53,
+      "hit_rate": 66.0,
+      "sim_roi": 26.1,
+      "avg_proj_error": 4.7,
+      "avg_naive_error": 4.9,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Naz Reid",
+      "observations": 55,
+      "hit_rate": 61.8,
+      "sim_roi": 18.0,
+      "avg_proj_error": 5.4,
+      "avg_naive_error": 5.5,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Jeremiah Fears",
+      "observations": 57,
+      "hit_rate": 59.6,
+      "sim_roi": 13.9,
+      "avg_proj_error": 5.0,
+      "avg_naive_error": 5.0,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Oso Ighodaro",
+      "observations": 53,
+      "hit_rate": 58.5,
+      "sim_roi": 11.7,
+      "avg_proj_error": 3.3,
+      "avg_naive_error": 3.2,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Sion James",
+      "observations": 55,
+      "hit_rate": 58.2,
+      "sim_roi": 11.1,
+      "avg_proj_error": 3.3,
+      "avg_naive_error": 3.4,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "DeMar DeRozan",
+      "observations": 54,
+      "hit_rate": 57.4,
+      "sim_roi": 9.6,
+      "avg_proj_error": 7.1,
+      "avg_naive_error": 7.2,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Kon Knueppel",
+      "observations": 51,
+      "hit_rate": 54.9,
+      "sim_roi": 4.8,
+      "avg_proj_error": 5.5,
+      "avg_naive_error": 5.5,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Matas Buzelis",
+      "observations": 53,
+      "hit_rate": 54.7,
+      "sim_roi": 4.5,
+      "avg_proj_error": 5.2,
+      "avg_naive_error": 5.2,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Julian Champagnie",
+      "observations": 54,
+      "hit_rate": 53.7,
+      "sim_roi": 2.5,
+      "avg_proj_error": 5.2,
+      "avg_naive_error": 5.3,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Derik Queen",
+      "observations": 56,
+      "hit_rate": 53.6,
+      "sim_roi": 2.3,
+      "avg_proj_error": 5.8,
+      "avg_naive_error": 5.8,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Julius Randle",
+      "observations": 56,
+      "hit_rate": 53.6,
+      "sim_roi": 2.3,
+      "avg_proj_error": 6.0,
+      "avg_naive_error": 6.3,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Mikal Bridges",
+      "observations": 53,
+      "hit_rate": 52.8,
+      "sim_roi": 0.9,
+      "avg_proj_error": 5.2,
+      "avg_naive_error": 5.2,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Jay Huff",
+      "observations": 54,
+      "hit_rate": 51.9,
+      "sim_roi": -1.0,
+      "avg_proj_error": 4.8,
+      "avg_naive_error": 4.7,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Donte DiVincenzo",
+      "observations": 54,
+      "hit_rate": 51.9,
+      "sim_roi": -1.0,
+      "avg_proj_error": 4.6,
+      "avg_naive_error": 4.6,
+      "proj_beats_naive": true
+    },
+    {
+      "player": "Kris Dunn",
+      "observations": 51,
+      "hit_rate": 51.0,
+      "sim_roi": -2.7,
+      "avg_proj_error": 3.7,
+      "avg_naive_error": 3.6,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Toumani Camara",
+      "observations": 49,
+      "hit_rate": 49.0,
+      "sim_roi": -6.5,
+      "avg_proj_error": 4.5,
+      "avg_naive_error": 4.4,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Bruce Brown",
+      "observations": 54,
+      "hit_rate": 48.1,
+      "sim_roi": -8.1,
+      "avg_proj_error": 4.0,
+      "avg_naive_error": 3.9,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Keldon Johnson",
+      "observations": 54,
+      "hit_rate": 48.1,
+      "sim_roi": -8.1,
+      "avg_proj_error": 5.3,
+      "avg_naive_error": 5.3,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Reed Sheppard",
+      "observations": 54,
+      "hit_rate": 48.1,
+      "sim_roi": -8.1,
+      "avg_proj_error": 4.9,
+      "avg_naive_error": 4.9,
+      "proj_beats_naive": false
+    },
+    {
+      "player": "Royce O'Neale",
+      "observations": 55,
+      "hit_rate": 47.3,
+      "sim_roi": -9.8,
+      "avg_proj_error": 3.7,
+      "avg_naive_error": 3.6,
+      "proj_beats_naive": false
+    }
+  ]
+}
