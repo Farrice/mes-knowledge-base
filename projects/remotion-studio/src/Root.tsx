@@ -2,10 +2,28 @@ import { Composition } from "remotion";
 import { HelloWorld } from "./HelloWorld";
 import { ProductTeaser } from "./ProductTeaser";
 import { ViralReel } from "./ViralReel";
+import { KittyCaatPitch } from "./KittyCaatPitch";
+import { ProteinRecipeUGC } from "./ProteinRecipeUGC";
 
 export const RemotionRoot: React.FC = () => {
     return (
         <>
+            <Composition
+                id="ProteinRecipeUGC"
+                component={ProteinRecipeUGC}
+                durationInFrames={1200}
+                fps={30}
+                width={1080}
+                height={1920}
+            />
+            <Composition
+                id="KittyCaatPitch"
+                component={KittyCaatPitch}
+                durationInFrames={1500}
+                fps={30}
+                width={1080}
+                height={1920}
+            />
             <Composition
                 id="ViralReel"
                 component={ViralReel}

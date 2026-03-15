@@ -40,3 +40,6 @@ Thumbs.db
 
 # Claude Code local settings (may contain secrets in permission rules)
 .claude/settings.local.json
+
+# NBA stats cache (regenerated from API, don't commit)
+.agent/nba-cache/
