@@ -6,10 +6,12 @@ Usage:
     python execution/bet_tracker.py init 500
     python execution/bet_tracker.py log "Jayson Tatum" points 27.5 over --projection 30.2 --confidence 4 --stake 20 --odds -110
     python execution/bet_tracker.py result 2026-03-14-001 31 win
+    python execution/bet_tracker.py close 2026-03-14-001 28.0            # Record closing line
     python execution/bet_tracker.py summary
     python execution/bet_tracker.py summary --date 2026-03-14
     python execution/bet_tracker.py calibration
     python execution/bet_tracker.py roi
+    python execution/bet_tracker.py clv                                   # CLV analysis
 """
 
 import argparse
@@ -105,6 +107,8 @@ def cmd_log(args):
         "actual": None,
         "outcome": None,
         "payout": None,
+        "closing_line": None,
+        "clv": None,
         "notes": args.notes or ""
     }
 
@@ -216,6 +220,87 @@ def cmd_calibration(args):
     print(f"{'=' * 52}\n")
 
 
+def cmd_close(args):
+    """Record the closing line for a bet (line at game time)."""
+    data = load_data()
+
+    bet = next((b for b in data['bets'] if b['id'] == args.bet_id), None)
+    if not bet:
+        print(f"Error: Bet ID '{args.bet_id}' not found.")
+        sys.exit(1)
+
+    bet['closing_line'] = args.closing_line
+
+    # CLV = difference between our line and closing line
+    # Positive CLV means we got a better number than the market closed at
+    if bet['direction'] == 'over':
+        # For OVER bets, lower line = better for us
+        clv = bet['closing_line'] - bet['line']
+    else:
+        # For UNDER bets, higher line = better for us
+        clv = bet['line'] - bet['closing_line']
+
+    bet['clv'] = round(clv, 1)
+    save_data(data)
+
+    clv_label = "POSITIVE (got better number)" if clv > 0 else "NEGATIVE (line moved against us)" if clv < 0 else "NEUTRAL"
+    print(f"Closing line recorded: {args.bet_id}")
+    print(f"  {bet['player']} {bet['prop']} {bet['direction']} {bet['line']}")
+    print(f"  Closing Line: {args.closing_line}")
+    print(f"  CLV: {clv:+.1f} pts — {clv_label}")
+
+
+def cmd_clv(args):
+    """Print CLV (Closing Line Value) analysis — the gold standard edge metric."""
+    data = load_data()
+    bets_with_clv = [b for b in data['bets'] if b.get('clv') is not None]
+
+    if not bets_with_clv:
+        print("\nNo CLV data recorded yet.")
+        print("Use 'python execution/bet_tracker.py close <bet_id> <closing_line>' to record closing lines.")
+        return
+
+    total_clv = sum(b['clv'] for b in bets_with_clv)
+    avg_clv = total_clv / len(bets_with_clv)
+    positive_clv = [b for b in bets_with_clv if b['clv'] > 0]
+    negative_clv = [b for b in bets_with_clv if b['clv'] < 0]
+
+    print(f"\n{'='*55}")
+    print(f"  Closing Line Value (CLV) Analysis")
+    print(f"{'='*55}")
+    print(f"  {'Bets with CLV data:':<30} {len(bets_with_clv):>8}")
+    print(f"  {'Positive CLV (beat close):':<30} {len(positive_clv):>8}")
+    print(f"  {'Negative CLV (worse than close):':<30} {len(negative_clv):>8}")
+    print(f"  {'─'*50}")
+    print(f"  {'Average CLV:':<30} {avg_clv:>+7.1f} pts")
+    print(f"  {'Total CLV:':<30} {total_clv:>+7.1f} pts")
+    print(f"  {'CLV Hit Rate:':<30} {len(positive_clv)/len(bets_with_clv)*100:>7.1f}%")
+    print(f"{'='*55}")
+
+    # CLV by confidence level
+    print(f"\n  CLV by Confidence Level")
+    print(f"  {'─'*50}")
+    print(f"  {'Conf':<6} {'Bets':>6} {'Avg CLV':>10} {'CLV Hit%':>10}")
+    print(f"  {'─'*50}")
+    for level in range(1, 6):
+        level_bets = [b for b in bets_with_clv if b.get('confidence') == level]
+        if level_bets:
+            level_avg = sum(b['clv'] for b in level_bets) / len(level_bets)
+            level_pos = len([b for b in level_bets if b['clv'] > 0])
+            print(f"  {level:<6} {len(level_bets):>6} {level_avg:>+9.1f} {level_pos/len(level_bets)*100:>9.1f}%")
+        else:
+            print(f"  {level:<6} {'—':>6} {'—':>10} {'—':>10}")
+
+    print(f"\n  INTERPRETATION:")
+    if avg_clv > 0:
+        print(f"  Positive average CLV = you are consistently getting better")
+        print(f"  numbers than the market. This is the #1 indicator of edge.")
+    else:
+        print(f"  Negative average CLV = the market is closing away from your")
+        print(f"  bets. This suggests the line was ALREADY efficient when you bet.")
+    print()
+
+
 def cmd_roi(args):
     """Print bankroll history and ROI."""
     data = load_data()
@@ -287,11 +372,19 @@ def main():
     p_summary = subparsers.add_parser('summary', help='Daily or overall summary')
     p_summary.add_argument('--date', type=str, default=None, help='Date filter (YYYY-MM-DD)')
 
+    # close (record closing line)
+    p_close = subparsers.add_parser('close', help='Record closing line for a bet')
+    p_close.add_argument('bet_id', help='Bet ID (e.g., 2026-03-14-001)')
+    p_close.add_argument('closing_line', type=float, help='Closing line at game time')
+
     # calibration
     subparsers.add_parser('calibration', help='Confidence level hit rates')
 
     # roi
     subparsers.add_parser('roi', help='Bankroll history and ROI')
+
+    # clv
+    subparsers.add_parser('clv', help='Closing Line Value analysis')
 
     args = parser.parse_args()
 
@@ -303,9 +396,11 @@ def main():
         'init': cmd_init,
         'log': cmd_log,
         'result': cmd_result,
+        'close': cmd_close,
         'summary': cmd_summary,
         'calibration': cmd_calibration,
         'roi': cmd_roi,
+        'clv': cmd_clv,
     }
 
     commands[args.command](args)

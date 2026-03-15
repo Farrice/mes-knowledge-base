@@ -6,7 +6,9 @@
 
 ## Genius Patterns
 
-8 betting-specific mastery behaviors decoded into executable frameworks. Rooted in Jim O'Shaughnessy's behavioral finance principles, adapted for NBA player prop markets.
+10 betting-specific mastery behaviors decoded into executable frameworks. Rooted in Jim O'Shaughnessy's behavioral finance principles, adapted for NBA player prop markets.
+
+**Data Pipeline**: All statistical data flows through `execution/nba_stats.py` (real NBA.com game logs) and `execution/projection_engine.py` (matchup-adjusted edge detection). Perplexity is used ONLY for injury reports and narrative context. Never estimate stats from web searches.
 
 ---
 

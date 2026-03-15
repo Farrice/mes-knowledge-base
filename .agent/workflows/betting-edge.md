@@ -4,9 +4,9 @@ description: "NBA Betting Edge — systematic player prop analysis using behavio
 
 # /betting-edge — NBA Betting Edge
 
-Systematic NBA player prop analysis and parlay construction. Uses Perplexity for real-time data gathering, Jim O'Shaughnessy's behavioral finance framework for bias detection, a 6-variable Context Stack for every prediction, and a Multi-Angle Conviction Test that argues both sides before picking a direction. Confidence scoring drives Kelly criterion position sizing.
+Systematic NBA player prop analysis and parlay construction. Uses real NBA.com game log data via `nba_stats.py` for projections, `projection_engine.py` for matchup-adjusted edge detection, Perplexity for injury/narrative context, Jim O'Shaughnessy's behavioral finance framework for bias detection, a 6-variable Context Stack for every prediction, and a Multi-Angle Conviction Test that argues both sides before picking a direction. Confidence scoring drives Kelly criterion position sizing.
 
-**The standard**: Every pick has a quantified edge (projection vs. line), every projection uses the weighted formula (60% 10-game avg / 25% season / 15% last 3), every pick passes the Three-Lens Test (statistical + narrative + market intelligence), every parlay has documented correlation analysis, every slate passes the Four Horsemen audit, and same-day injury reports are confirmed before any projections. No gut-feel picks. No single-direction bias.
+**The standard**: Every pick has a quantified edge (projection vs. line) calculated from real NBA.com game log data, every projection uses the weighted formula (60% 10-game avg / 25% season / 15% last 3) with pace and defensive matchup adjustments, every pick passes the Three-Lens Test (statistical + narrative + market intelligence), every parlay has documented correlation analysis, every slate passes the Four Horsemen audit, same-day injury reports are confirmed before any projections, and closing lines are recorded for CLV tracking. No gut-feel picks. No single-direction bias.
 
 ## Usage
 
@@ -66,7 +66,26 @@ After the pick slate is delivered, remind the user:
 
 ## Data Sources
 
-### Live Odds — The Odds API (Primary)
+### Real Stats — NBA.com via nba_api (PRIMARY for projections)
+Pull actual game logs, season averages, and team stats via `execution/nba_stats.py`:
+```bash
+python execution/nba_stats.py player "Nikola Jokic"                     # Season averages
+python execution/nba_stats.py gamelog "Nikola Jokic" --games 10          # Last 10 game logs
+python execution/nba_stats.py projection "Nikola Jokic" points          # Weighted 60/25/15 projection
+python execution/nba_stats.py teams                                      # All team pace + defensive ratings
+python execution/nba_stats.py matchup "Nikola Jokic" "Spurs"            # Full matchup context
+```
+**This replaces Perplexity for all statistical data.** Never estimate stats from web searches when the API has real data.
+
+### Projection Engine — Edge Detection
+Full edge analysis combining stats + lines via `execution/projection_engine.py`:
+```bash
+python execution/projection_engine.py analyze "Nikola Jokic" points "Spurs" --line 28.5
+python execution/projection_engine.py batch props.json --bankroll 100    # Batch analysis
+```
+**Outputs**: matchup-adjusted projection, edge magnitude, confidence score, Kelly sizing.
+
+### Live Odds — The Odds API
 Pull real sportsbook lines via `execution/odds_fetcher.py` (Pattern 9: Line Shopping Edge):
 ```bash
 python execution/odds_fetcher.py games              # Tonight's games + event IDs
@@ -76,13 +95,25 @@ python execution/odds_fetcher.py usage              # Check API budget (500 req/
 ```
 **Always run `games` → `lines` → `props` before analysis.** This eliminates the Ignorance Horseman on lines.
 
-### Perplexity Query Templates (Context Data)
+### Bet Tracking + CLV
+Record bets and track closing line value via `execution/bet_tracker.py`:
+```bash
+python execution/bet_tracker.py log "[Player]" [prop] [line] [direction] --projection [X] --confidence [N] --stake [amount]
+python execution/bet_tracker.py close [bet_id] [closing_line]   # Record closing line at game time
+python execution/bet_tracker.py result [bet_id] [actual] [outcome]
+python execution/bet_tracker.py clv                              # CLV analysis (gold standard metric)
+```
+
+### Perplexity — Injury Reports & Narrative Context ONLY
+Perplexity is now used ONLY for data that nba_api cannot provide:
+- Same-day injury reports and lineup confirmations
+- Narrative context (revenge games, playoff implications, coaching changes)
+- Line movement and sharp money signals
 
 **Slate scan** (Phase 1):
-"NBA games [today's date] full injury report confirmed starting lineups team pace ratings back-to-back schedule"
+"NBA games [today's date] full injury report confirmed starting lineups back-to-back schedule"
 
-**Deep context** (Phase 2):
-"[Player1] [Player2] [Player3] last 10 games 2025-26 season game logs points rebounds assists, [Opponent] defensive rating vs [position], home away splits"
+**Do NOT use Perplexity for**: player stats, season averages, game logs, team pace/ratings — use nba_stats.py instead.
 
 ---
 

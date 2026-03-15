@@ -1,7 +1,27 @@
 {
   "bankroll": {
     "initial": 100.0,
-    "current": 100.0
+    "current": 101.55
   },
-  "bets": []
+  "bets": [
+    {
+      "id": "2026-03-14-001",
+      "date": "2026-03-14",
+      "player": "Giannis Antetokounmpo",
+      "prop": "rebounds",
+      "line": 11.5,
+      "direction": "under",
+      "projection": 9.4,
+      "edge": 2.1,
+      "confidence": 3,
+      "stake": 1.7,
+      "odds": -110,
+      "actual": 6.0,
+      "outcome": "win",
+      "payout": 1.55,
+      "closing_line": 11.0,
+      "clv": 0.5,
+      "notes": ""
+    }
+  ]
 }

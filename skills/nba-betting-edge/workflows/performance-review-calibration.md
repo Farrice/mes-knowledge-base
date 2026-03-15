@@ -62,6 +62,16 @@ Review which genius patterns contributed to wins vs. losses:
 
 Identify: Which patterns are producing real edge? Which are noise?
 
+### Phase 4.5: CLV Analysis (Gold Standard)
+Run `python execution/bet_tracker.py clv` and analyze:
+1. **Average CLV**: Positive = system is beating the closing line = genuine edge. Negative = no edge.
+2. **CLV by confidence level**: Do higher confidence picks have higher CLV? They should.
+3. **CLV hit rate**: What % of bets got a better number than the close?
+
+If closing lines haven't been recorded, remind the user:
+- Record closing lines at game time: `python execution/bet_tracker.py close [bet_id] [closing_line]`
+- CLV is more important than win/loss over small samples. A positive CLV bettor will profit long-term.
+
 ### Phase 5: System Adjustment Recommendations
 Based on the analysis:
 1. Should any confidence thresholds be adjusted?
@@ -69,6 +79,7 @@ Based on the analysis:
 3. Should any genius patterns be weighted more or less heavily?
 4. Should bankroll sizing change based on actual vs. expected variance?
 5. Any new patterns emerging from the data that should be added?
+6. Are projection engine adjustments (pace factor, defense adjustment) calibrated correctly?
 
 ---
 
@@ -76,10 +87,11 @@ Based on the analysis:
 The user receives a **Performance Review Report** containing:
 1. **Results Summary**: Win/loss, ROI%, net profit/loss for the period
 2. **Edge Accuracy Table**: Projection vs. actual for each bet
-3. **Confidence Calibration Chart**: Hit rate by confidence level with expected vs. actual
-4. **Pattern Scorecard**: Which genius patterns produced edge, which didn't
-5. **Adjustment Recommendations**: Specific changes to improve the system
-6. **Bankroll Status**: Current bankroll, peak, drawdown, trajectory
+3. **CLV Report**: Average CLV, CLV by confidence, CLV hit rate
+4. **Confidence Calibration Chart**: Hit rate by confidence level with expected vs. actual
+5. **Pattern Scorecard**: Which genius patterns produced edge, which didn't
+6. **Adjustment Recommendations**: Specific changes to improve the system
+7. **Bankroll Status**: Current bankroll, peak, drawdown, trajectory
 
 ## Quality Gate
 1. Were all results logged via bet_tracker.py?

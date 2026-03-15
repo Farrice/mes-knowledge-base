@@ -33,19 +33,19 @@ From results, identify which 2-3 games have the most edge potential:
 - Prime-time games where public money may skew lines
 Output: Selected games with reasoning for each selection.
 
-### Phase 2: Deep Context Stack (1-2 Perplexity queries)
+### Phase 2: Deep Context Stack (nba_stats.py + 1 Perplexity query)
 *Genius Pattern: The Context Stack*
-For selected games, gather via perplexity_search:
-1. Player last 10 game logs for key players being evaluated
-2. Opponent defensive ratings (points allowed to position — PG, SG, SF, PF, C)
-3. Home/away splits for the season
-4. Rest days and travel schedule (back-to-back, 3-in-4)
-5. Any recent lineup or rotation changes
+For selected games, pull real data via `execution/nba_stats.py`:
 
-Query optimization: Compound queries covering 3+ players per call.
-Example: "NBA [date]: [Player A], [Player B], [Player C] last 10 games stats, [Opponent] defensive rating vs position, injury report"
+**From nba_stats.py (real API data — no Perplexity needed):**
+1. Player last 10 game logs: `python execution/nba_stats.py gamelog "[Player]" --games 10`
+2. Opponent defensive ratings + pace: `python execution/nba_stats.py teams`
+3. Full matchup context: `python execution/nba_stats.py matchup "[Player]" "[Opponent]" --prop points`
+4. Return-from-absence detection (automatic — checks gap between recent games)
 
-6. Return-from-absence status (did this player miss recent games? If returning, flag for +10-15% projection boost)
+**From Perplexity (narrative context only):**
+5. Rest days and travel schedule (back-to-back, 3-in-4)
+6. Any recent lineup or rotation changes
 
 Build the full Context Stack (all 6 variables) for each player prop being evaluated. Document each variable explicitly — no shortcuts.
 
@@ -61,16 +61,23 @@ If same-day injury data is unavailable, downgrade all picks in that game by 1 co
 
 ### Phase 3: Edge Detection & Multi-Angle Conviction Test
 *Genius Patterns: Recency Bias Arbitrage + Pace Multiplier + Multi-Angle Conviction Test*
-For each player prop:
-1. Calculate weighted projection:
-   - 10-game rolling average x 0.60
-   - Season average x 0.25
-   - Last 3 games x 0.15
-2. Apply Pace Multiplier adjustment (+/- 5-8% based on combined pace ranking)
-3. Apply matchup adjustment (opponent defensive rating vs. position)
-4. Apply rest/home-away adjustment (including return-from-absence boost if applicable)
-5. Compare adjusted projection to posted line
-6. Calculate edge: Projection - Line = Edge (in stat points)
+For each player prop, run the projection engine:
+```bash
+python execution/projection_engine.py analyze "[Player]" [prop] "[Opponent]" --line [X] --bankroll [Y]
+```
+
+The engine automatically:
+1. Calculates weighted projection (60/25/15 formula) from real NBA.com game logs
+2. Applies pace adjustment based on actual team pace vs league average
+3. Applies defensive matchup adjustment from team defensive rating
+4. Detects return-from-absence situations
+5. Compares adjusted projection to posted line
+6. Calculates edge, confidence score, and Kelly sizing
+
+For batch analysis of multiple props, create a JSON file and run:
+```bash
+python execution/projection_engine.py batch props.json --bankroll [Y]
+```
 
 **Three-Lens Test (REQUIRED for every pick)**:
 Before assigning a direction (OVER/UNDER), run all three lenses:
