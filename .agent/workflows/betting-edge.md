@@ -4,9 +4,9 @@ description: "NBA Betting Edge — systematic player prop analysis using behavio
 
 # /betting-edge — NBA Betting Edge
 
-Systematic NBA player prop analysis and parlay construction. Uses Perplexity for real-time data gathering, Jim O'Shaughnessy's behavioral finance framework for bias detection, and a 5-variable Context Stack for every prediction. Confidence scoring drives Kelly criterion position sizing.
+Systematic NBA player prop analysis and parlay construction. Uses Perplexity for real-time data gathering, Jim O'Shaughnessy's behavioral finance framework for bias detection, a 6-variable Context Stack for every prediction, and a Multi-Angle Conviction Test that argues both sides before picking a direction. Confidence scoring drives Kelly criterion position sizing.
 
-**The standard**: Every pick has a quantified edge (projection vs. line), every projection uses the weighted formula (60% 10-game avg / 25% season / 15% last 3), every parlay has documented correlation analysis, every slate passes the Four Horsemen audit. No gut-feel picks.
+**The standard**: Every pick has a quantified edge (projection vs. line), every projection uses the weighted formula (60% 10-game avg / 25% season / 15% last 3), every pick passes the Three-Lens Test (statistical + narrative + market intelligence), every parlay has documented correlation analysis, every slate passes the Four Horsemen audit, and same-day injury reports are confirmed before any projections. No gut-feel picks. No single-direction bias.
 
 ## Usage
 

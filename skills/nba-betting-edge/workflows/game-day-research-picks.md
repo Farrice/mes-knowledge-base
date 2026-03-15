@@ -45,10 +45,22 @@ For selected games, gather via perplexity_search:
 Query optimization: Compound queries covering 3+ players per call.
 Example: "NBA [date]: [Player A], [Player B], [Player C] last 10 games stats, [Opponent] defensive rating vs position, injury report"
 
-Build the full Context Stack (all 5 variables) for each player prop being evaluated. Document each variable explicitly — no shortcuts.
+6. Return-from-absence status (did this player miss recent games? If returning, flag for +10-15% projection boost)
 
-### Phase 3: Edge Detection & Projection
-*Genius Patterns: Recency Bias Arbitrage + Pace Multiplier*
+Build the full Context Stack (all 6 variables) for each player prop being evaluated. Document each variable explicitly — no shortcuts.
+
+### Phase 2.5: Injury Hard Gate
+*Genius Pattern: Injury Cascade (HARD GATE)*
+**This phase is NON-NEGOTIABLE.** Before any projection work:
+1. Pull SAME-DAY injury reports for every player being evaluated AND their key teammates
+2. For any player listed OUT: void their props from consideration, recalculate game total projection, identify usage redistribution beneficiaries
+3. For any player listed QUESTIONABLE: flag for monitoring, prepare two scenarios (plays vs. sits)
+4. For any player RETURNING from absence (1+ games missed): apply return-from-absence boost (+10-15% to projection) per Context Stack variable #6
+
+If same-day injury data is unavailable, downgrade all picks in that game by 1 confidence level.
+
+### Phase 3: Edge Detection & Multi-Angle Conviction Test
+*Genius Patterns: Recency Bias Arbitrage + Pace Multiplier + Multi-Angle Conviction Test*
 For each player prop:
 1. Calculate weighted projection:
    - 10-game rolling average x 0.60
@@ -56,16 +68,27 @@ For each player prop:
    - Last 3 games x 0.15
 2. Apply Pace Multiplier adjustment (+/- 5-8% based on combined pace ranking)
 3. Apply matchup adjustment (opponent defensive rating vs. position)
-4. Apply rest/home-away adjustment
+4. Apply rest/home-away adjustment (including return-from-absence boost if applicable)
 5. Compare adjusted projection to posted line
 6. Calculate edge: Projection - Line = Edge (in stat points)
+
+**Three-Lens Test (REQUIRED for every pick)**:
+Before assigning a direction (OVER/UNDER), run all three lenses:
+
+**Lens 1 — Statistical**: What does the adjusted projection say? Raw edge calculation.
+**Lens 2 — Narrative (Devil's Advocate)**: Argue the OPPOSITE side. What story makes the stats wrong tonight? Rivalry intensity, contract year, revenge game, return from absence, playoff urgency — or blowout risk, fatigue, motivation loss, usage redistribution.
+**Lens 3 — Market Intelligence**: Why did the books set the line here? If it's far from the season average, they may know something. Check for line movement (sharp money) and cross-book consensus.
+
+**Decision**: If all 3 lenses agree → strong conviction. If 2/3 agree → lean that direction. If conflicting → likely skip. Document the Three-Lens analysis for each pick.
+
+**Anti-bias check**: If 70%+ of picks point the same direction, re-run Lens 2 on every pick. The edge doesn't always point one way.
 
 Flag props where:
 - Edge > 2 points = Significant
 - Edge > 5 points = Strong
 - Edge < 1 point = Marginal (likely skip)
 
-Check for Recency Bias: If the line appears inflated/deflated by a recent outlier game (2+ standard deviations from season average in last 1-2 games), flag this as a recency bias opportunity and lean the opposite direction.
+Check for Recency Bias: If the line appears inflated/deflated by a recent outlier game (2+ standard deviations from season average in last 1-2 games), flag this as a recency bias opportunity — but run the Three-Lens Test before automatically taking the other side.
 
 ### Phase 4: Confidence Scoring
 Each pick gets a 1-5 confidence score:
@@ -122,9 +145,12 @@ The user receives a **Game Day Pick Slate** containing:
 
 ## Quality Gate
 1. Did every pick have a quantified edge (projection vs. line, not "I think he'll go over")?
-2. Did the Context Stack run for every player (all 5 variables documented)?
+2. Did the Context Stack run for every player (all 6 variables documented, including return-from-absence)?
 3. Were projections calculated using the weighted formula (60/25/15), not eyeballed?
-4. Did the Four Horsemen audit run on the final slate?
-5. Is total daily exposure under 15% of bankroll?
-6. Are parlay legs checked for correlation structure?
-7. Is every pick sized using Kelly criterion, not "gut feel" on bet amount?
+4. Did the Three-Lens Conviction Test run for every pick (statistical, narrative, market)?
+5. Did the Injury Hard Gate fire BEFORE any projections were calculated?
+6. Did the Four Horsemen audit run on the final slate?
+7. Is total daily exposure under 15% of bankroll?
+8. Are parlay legs checked for correlation structure?
+9. Is every pick sized using Kelly criterion, not "gut feel" on bet amount?
+10. Are picks directionally diverse (no more than 70% OVER or UNDER on any slate)?
