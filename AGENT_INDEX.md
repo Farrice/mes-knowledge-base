@@ -23,6 +23,7 @@
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
+| `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
 | `dan-wang` | **Dan Wang: Observational Writing Master** | literary essay production, observational travel, observational writing master, single beautiful sentence construction, x-ray vision reading, year-long note accumulation |
 | `daniel-priestley` | **daniel-priestley** | demand engineering, ip mining, key person of influence, oversubscribed methodology, problem-aware positioning, stakes-based pricing |
 | `darrel-wilson` | **darrel-wilson** | ai monetization systems, flip the process, recurring revenue lock-in, system sales, tool over opinion, warm lead philosophy |
@@ -92,7 +93,7 @@
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |
-| `seth-godin` | **seth-godin** | resistance diagnosis, shipping protocol, strategic clarity (SVA), remarkability audit, status trap escape, 8-variable engineering, smoothness design, sneezer strategy, vacuum detection, strategic philosophy + shipping + self-leadership + marketing + viral engineering |
+| `seth-godin` | **seth-godin** | strategic philosophy + shipping + self-leadership + marketing + viral engineering |
 | `shaan-puri` | **Shaan Puri: Storytelling & Audience Alchemy Master** | audience alchemy, audience alchemy master, emotional resonance, hook engineering, story architecture, storytelling, voice development |
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |

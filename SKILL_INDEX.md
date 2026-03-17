@@ -31,6 +31,7 @@
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dan-koe-ai-leverage` | **Dan Koe - AI Leverage Methodology** | turn ai into a creative expansion partner, not a replacement, context-loaded coaching, adversarial refinement, and knowledge alchemy, ai leverage methodology | 3 | 0 |
 | `dan-koe-multipassionate-mastery` | **Dan Koe - Multipassionate Mastery** | multipassionate mastery | 4 | 26 |
+| `dan-martell-business-scaling` | **Dan Martell — Business Scaling & Operational Leverage** | saas founder (3x exit) and author of buy back your time, business scaling & operational leverage | 10 | 0 |
 | `dan-wang-literary-analysis` | **Dan Wang Literary Analysis** |  | 2 | 7 |
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 4 | 27 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** |  | 4 | 14 |
@@ -149,7 +150,7 @@
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** |  | 4 | 23 |
 | `seena_rez_early_adopter` | **Seena Rez - Early Adopter Innovation Strategy** | the early adopter innovation system | 0 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | ideavirus mastery | 5 | 26 |
-| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | resistance, shipping, strategic clarity, remarkability, status traps | 5 | 30 |
+| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | strategic philosophy | 5 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** |  | 4 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | audience monetization | 2 | 4 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | ai engineering leadership | 3 | 7 |
