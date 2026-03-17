@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (193 Commands)
+# 🚀 Antigravity Workflows — Complete Index (210 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -77,6 +77,25 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 🏗️ Proof Ladder Architecture — Luke Iha (13)
+| Command | What It Does |
+|---------|-------------|
+| `/proof-copy-engine` | **MASTER**: End-to-end copy for ANY platform (YouTube, LinkedIn, Instagram, ads, emails, articles) with proof + story + mechanism fusion |
+| `/proof-ladder-builder` | Map your proof assets to the 5-tier hierarchy with gap analysis and next-build priorities |
+| `/proof-braid-engine` | Rewrite any draft with proof braided after every claim (Siamese Twins technique) |
+| `/proof-portfolio-builder` | 5-stage proof portfolio roadmap from zero to authority-tier for freelancers and strategists |
+| `/belief-dissolution-engine` | Backward-dissolution proof sequences targeting hardened audience beliefs |
+| `/proof-audit-360` | Comprehensive audit of any copy against the full proof arsenal + Proof Ladder positioning |
+| `/trust-accelerator` | Compressed trust timeline using tiered proof injection at awareness transitions |
+| `/proof-stacked-ad-builder` | Ads with multi-tier proof architecture (personal + social + third-party stacking) |
+| `/proof-first-content-engine` | Platform-specific content (YouTube, LinkedIn, Instagram, Substack, newsletters, tweets, carousels) with proof-first architecture |
+| `/cold-to-close-proof-funnel` | Full proof-engineered funnel: ad → landing page → email sequence → conversion |
+| `/authority-manufacturing` | Authority strategy for zero-proof situations using psychological + empirical proof |
+| `/proof-as-story` | Case study narratives, origin stories, and experiential proof written as compelling stories |
+| `/objection-proof-mapping` | Complete map of objections → doubt types → specific proof weapon antidotes |
+
+---
+
 ## 🧠 Sales & Persuasion — Jeremy Miner (6)
 | Command | What It Does |
 |---------|-------------|
@@ -120,6 +139,16 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/one-liner` | Generate the single most important marketing sentence |
 | `/storybrand` | Generate complete SB7 BrandScript for any business |
 | `/storybrand-copy` | Transform existing copy into StoryBrand-structured narrative |
+
+---
+
+## 🧘 Strategic Philosophy — Seth Godin (4)
+| Command | What It Does |
+|---------|-------------|
+| `/ship-it` | Define the spec, diagnose perfectionism, and make the shipping decision for anything 80%+ done |
+| `/strategic-clarity` | Define your smallest viable audience, lock "Who/What" positioning, and triage problems vs situations |
+| `/remarkability-audit` | Assess whether any idea/product/content is worth remarking about — and build improvement plan |
+| `/status-trap` | Diagnose status game traps, audit fuel sources, and design a role-of-best-self protocol |
 
 ---
 
@@ -407,6 +436,19 @@ You don't need to remember command names. These common phrases automatically map
 | "bankroll strategy" / "kelly sizing" / "bet sizing" / "how much to bet" | `betting-edge bankroll` |
 | "paper trade" / "paper trading" / "test the system" / "paper bets" | `betting-edge paper` |
 | "paper trading status" / "go no go" / "are we ready" | `betting-edge paper status` |
+| "proof ladder" / "where's my proof" / "proof gap analysis" | `proof-ladder-builder` |
+| "braid proof into this" / "naked claims" / "add proof" | `proof-braid-engine` |
+| "build my proof portfolio" / "proof roadmap" / "freelancer proof" | `proof-portfolio-builder` |
+| "dissolve beliefs" / "skeptical audience" / "hardened objections" | `belief-dissolution-engine` |
+| "audit my proof" / "proof gaps" / "proof audit" | `proof-audit-360` |
+| "compress trust" / "trust faster" / "cold to warm fast" | `trust-accelerator` |
+| "proof-stacked ads" / "layer proof in ads" | `proof-stacked-ad-builder` |
+| "proof-first content" / "proof content engine" | `proof-first-content-engine` |
+| "cold to close" / "proof funnel" / "stranger to buyer" | `cold-to-close-proof-funnel` |
+| "no testimonials" / "zero proof" / "authority from scratch" | `authority-manufacturing` |
+| "proof as story" / "case study narrative" / "turn proof into story" | `proof-as-story` |
+| "objection mapping" / "pre-empt objections" / "proof vs objections" | `objection-proof-mapping` |
+| "master copy" / "best possible copy" / "proof copy engine" | `proof-copy-engine` |
 
 ---
 

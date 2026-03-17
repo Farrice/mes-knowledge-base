@@ -146,19 +146,23 @@ Build the content spine that works across ALL platforms:
 
 ---
 
-### Phase 3: Proof Braiding Pass
-Apply the Siamese Twins technique across the entire piece:
-1. Highlight every claim made in the content.
-2. Braid proof within 1-2 sentences using the appropriate formula (Stat/Story/Demo/Authority/Admission braid).
-3. Verify no "naked claims" remain.
+### Phase 3: Narrative Proof Weaving Pass
+**CRITICAL**: Proof must feel like natural story momentum, not evidence bolted onto narrative. Do NOT mechanically insert proof after every claim. Instead:
+
+1. Read the produced copy aloud. Mark every moment where the reader would naturally WANT proof — peak curiosity, after tension builds, after a bold observation.
+2. Verify proof lands at those natural moments, not on a predictable schedule.
+3. For each proof element, verify: (a) it closes a curiosity loop the reader was holding, (b) it opens a new question or implication, (c) it builds on the proof that came before it.
+4. **Kill proof that breaks rhythm.** If a stat or credential interrupts conversational punch or tension — reposition it downstream where it has more weight, or deliver through story.
+5. **The coffee test**: Read the piece as if telling it to a friend. Every sentence where you'd stop to "cite a source" instead of naturally knowing the number — rewrite that proof delivery.
 
 ### Phase 4: Storytelling Integration
-Ensure proof is delivered AS story, not bolted onto story:
+Ensure proof IS the story, not decoration on top of story:
 1. **Character**: Is there a protagonist (you, a client, the reader) with a clear identity?
 2. **Conflict**: Is there genuine tension between the old way and the new way?
 3. **Transformation**: Does the proof SHOW the transformation, not just state it?
 4. **Emotional Arc**: Does the piece move from pain → discovery → transformation → empowerment?
 5. **Specificity**: Are there sensory details, exact numbers, named people, real timelines?
+6. **Proof Momentum**: Does each proof element build on the last (compounding certainty) or do they sit independently (competing for attention)?
 
 ## Output Contract
 1. **Platform-Optimized Content** — Complete, ready-to-publish content for the specified platform
@@ -169,8 +173,10 @@ Ensure proof is delivered AS story, not bolted onto story:
 
 ## Quality Gate
 1. **Proof-First**: Does the hook lead with proof (not just a promise)?
-2. **Zero Naked Claims**: No claim exists without braided proof within 2 sentences.
+2. **Zero Naked Claims**: No claim exists without proof — but proof must feel woven into narrative momentum, not mechanically inserted.
 3. **Story-Proof Fusion**: Is proof delivered AS narrative (not a separate section)?
 4. **Platform Optimization**: Does the format match platform best practices?
 5. **Portfolio Contribution**: Does this piece add to the compounding proof flywheel?
-6. **Voice Authenticity**: Does it sound like a real person (not a template)?
+6. **Voice Survival**: Does it sound like a real person with quiet confidence? Did conversational punch and tension survive every proof insertion?
+7. **Loop Architecture**: Does each proof element close an existing curiosity loop AND open a new one?
+8. **Proof Momentum**: Do proof elements build on each other (compounding certainty) or sit independently (competing for attention)?

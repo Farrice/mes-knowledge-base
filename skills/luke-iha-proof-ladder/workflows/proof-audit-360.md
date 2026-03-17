@@ -55,12 +55,13 @@ For every weakness found:
 5. **Temperature Mismatch**: If proof tiers don't match audience awareness level, prescribe realignment.
 - **Output**: Prioritized fix list (Critical → Important → Nice-to-have) with exact proof weapon prescriptions.
 
-### Phase 5: Rewrite Recommendations
+### Phase 5: Rewrite Recommendations (Narrative Weaving Standard)
 For the top 3-5 most critical fixes:
-1. Write the exact proof element to insert.
-2. Show where in the copy it goes.
-3. Demonstrate the braided version vs. the naked version.
-- **Output**: Before/after examples for the most impactful fixes.
+1. Identify WHERE in the narrative the reader most needs proof (peak curiosity, after tension builds, after a bold claim) — proof follows narrative gravity, not mechanical scheduling.
+2. Write the proof element woven into the narrative — it should close a curiosity loop the reader has been holding AND open a new question.
+3. Demonstrate before/after: the naked version vs. the narratively-woven version. The "after" must pass the coffee test: sounds like someone telling a story who happens to know the numbers, NOT someone presenting evidence.
+4. Verify the fix doesn't break the original copy's conversational punch, tension, or rhythm. If it does, reposition or redeliver.
+- **Output**: Before/after examples for the most impactful fixes, with proof woven through narrative momentum.
 
 ## Output Contract
 1. **Claim Inventory** — Every claim extracted and rated
@@ -72,7 +73,9 @@ For the top 3-5 most critical fixes:
 
 ## Quality Gate
 1. **Comprehensiveness**: Were ALL claims extracted (including implicit ones)?
-2. **Prescription Specificity**: Does every fix name the exact proof weapon AND braiding formula?
+2. **Prescription Specificity**: Does every fix name the exact proof weapon AND demonstrate narrative weaving (not just a braiding formula)?
 3. **Prioritization**: Are fixes ranked by conversion impact (Critical → Important → Nice)?
 4. **Actionability**: Can the user implement the top 5 fixes within 1 hour?
 5. **Score Calibration**: Would a proof-audited version of this copy materially improve conversion?
+6. **Voice Survival**: Do the recommended rewrites preserve the original copy's conversational punch, tension, and rhythm? A "proof-improved" draft that's flatter than the original has failed.
+7. **Loop Architecture**: Do recommended proof insertions close existing curiosity loops AND open new ones? Or do they just "add evidence"?

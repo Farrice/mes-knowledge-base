@@ -29,6 +29,7 @@
 | `david-bayer` | **David Bayer** | approval independence, elite communication, friend coffee frame, grounded presence |
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
 | `david-mcraney` | **David McRaney** | belief change architect |
+| `david-placek` | **Agent: David Placek** | david placek |
 | `donald-miller` | **donald-miller** | business messaging, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, narrative marketing, peace framework mastery, storybrand, storybrand sb7 mastery, strategic messaging |
 | `dr-kriukow` | **Dr. Kriukow** | agent configuration, ai detection mechanics, ai text humanization, meaning-first rewriting, platform-specific humanization, structural analysis |
 | `eric-roth` | **Eric Roth: Oscar-Level Writing Virtuoso** | oscar-level writing virtuoso |
@@ -59,7 +60,7 @@
 | `lindsay` | **lindsay** | ai consulting sales + client acquisition + multi-channel outreach, multi-channel orchestration, proof building, revenue positioning, robot speak elimination, temperature calibration |
 | `logan-kilpatrick` | **Logan Kilpatrick** | google ai studio, speed over perfection, ui-first prototyping, vibe coding |
 | `lucas-alpay` | **Lucas Alpay** | storytelling architect |
-| `luke-iha` | **luke-iha** | awareness-level advertising, copywriting systems, creative strategy, mechanism engineering, proof mechanisms, vsl architecture |
+| `luke-iha` | **luke-iha** | awareness-level advertising, copywriting systems, creative strategy, mechanism engineering, proof ladder architecture, proof mechanisms, vsl architecture |
 | `lulu-cheng-meservey` | **Lulu Cheng Meservey** |  |
 | `manus-ai` | **Manus.ai** | ai consulting, multi-source synthesis, query architecture, research to action |
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
@@ -91,7 +92,7 @@
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |
-| `seth-godin` | **seth-godin** | 8-variable engineering, smoothness design, sneezer strategy, vacuum detection, viral marketing + idea propagation + network effects, virusworthiness assessment |
+| `seth-godin` | **seth-godin** | resistance diagnosis, shipping protocol, strategic clarity (SVA), remarkability audit, status trap escape, 8-variable engineering, smoothness design, sneezer strategy, vacuum detection, strategic philosophy + shipping + self-leadership + marketing + viral engineering |
 | `shaan-puri` | **Shaan Puri: Storytelling & Audience Alchemy Master** | audience alchemy, audience alchemy master, emotional resonance, hook engineering, story architecture, storytelling, voice development |
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |

@@ -1,0 +1,19 @@
+---
+description: "Assess whether any idea/product/content is worth remarking about and build an improvement plan"
+---
+
+# Remarkability Audit
+
+Deploy Seth Godin's Remarkability Audit from the `seth-godin-philosophy` skill.
+
+## Steps
+
+1. Load `skills/seth-godin-philosophy/genius.md` for genius context
+2. Execute `skills/seth-godin-philosophy/workflows/04-remarkability-audit.md`
+3. Follow all phases: Remark Test → Purple Cow Diagnostic → Build Remarkable → Spread Assessment
+4. Finalize with chain_runner
+
+## Expert
+- **Primary**: Seth Godin (seth-godin-philosophy)
+- **Skill**: seth-godin-philosophy
+- **Workflow**: 04-remarkability-audit.md

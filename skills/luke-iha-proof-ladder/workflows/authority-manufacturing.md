@@ -104,3 +104,5 @@ Build the timeline from manufactured authority to real proof:
 3. **Timeline Realism**: Does the ladder climb plan convert to real proof within 90 days?
 4. **Differentiation**: Does the manufactured authority make you sound different (not just "good")?
 5. **Sustainable**: Does the strategy create a flywheel where early wins compound into bigger proof?
+6. **Narrative Weaving Ready**: When manufactured proof gets deployed in content/copy, is there clear guidance to weave it through narrative momentum? Jargon Flurry and Explanatory Reasoning must feel like quiet confidence and natural expertise — not like "trying to sound smart." The coffee test: would you say it this way to a friend who asked how it works?
+7. **Voice Survival**: Does the manufactured authority sound like a real person with genuine expertise? Or does it sound like someone performing expertise? The former builds trust; the latter destroys it.

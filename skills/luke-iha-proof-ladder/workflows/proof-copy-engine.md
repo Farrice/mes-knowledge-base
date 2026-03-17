@@ -74,6 +74,15 @@ CTA              The Invitation     Tier 5 + Guarantee   Next Step
 
 ### Phase 3: Platform-Specific Production
 
+**THE NARRATIVE WEAVING MANDATE** (applies to ALL platforms below):
+Proof must be woven into story momentum, never mechanically inserted. Before writing, internalize these rules:
+- **Proof follows narrative gravity.** Let tension and curiosity build FIRST. Drop proof where the reader most needs to believe — at peak curiosity, not on a schedule. A stat that lands after 3 sentences of escalating tension hits 10x harder than a stat bolted onto sentence one.
+- **Proof closes loops AND opens loops.** Every proof element should satisfy a question the reader has been holding AND raise a new one. The reader should experience micro-revelations, not citations.
+- **Proof compounds, never competes.** Each proof point builds on the last — creating escalating certainty. Two proof points side by side that don't reference each other are competing for attention.
+- **Voice survives the proof.** If inserting proof breaks the conversational punch, tension, or rhythm — reposition it or deliver it through story. Proof that kills momentum is worse than a naked claim.
+- **Show proof through story, not evidence exhibits.** Instead of "[Claim]. In fact, [stat]" — let narrative naturally ARRIVE at the proof. The reader should be asking the question before you give the answer.
+- **Read aloud test**: If it sounds like a presenter citing sources, rewrite. If it sounds like someone telling a story who happens to know the numbers, it's right.
+
 Execute the three-pillar architecture for the requested platform(s). For each platform, produce the COMPLETE, READY-TO-PUBLISH copy.
 
 ---
@@ -191,11 +200,15 @@ Execute the three-pillar architecture for the requested platform(s). For each pl
 
 ---
 
-### Phase 4: Proof Braiding Pass
-1. Extract every claim in the produced copy.
-2. Verify each has braided proof within 1-2 sentences.
-3. Fix all naked claims using the Siamese Twins technique.
-4. Verify Proof Balance Scale: claims 7+ have 2+ proof from different tiers.
+### Phase 4: Narrative Proof Weaving Pass (NOT Mechanical Insertion)
+**Critical**: This is a narrative flow audit, not a checklist. Proof must feel like natural story momentum.
+
+1. Read the produced copy aloud. Mark every moment where the reader would naturally WANT proof — peak curiosity, after tension builds, after a bold observation.
+2. Verify proof lands at those natural moments, not on a mechanical schedule.
+3. For each proof element, verify: (a) it closes a curiosity loop the reader was holding, (b) it opens a new question or implication, (c) it builds on the proof that came before it rather than competing with it.
+4. **Kill proof that breaks rhythm.** If a stat, credential, or testimonial interrupts conversational punchiness or tension — reposition it downstream where it has more weight, or deliver it through story instead of citation.
+5. Verify Proof Balance Scale: claims 7+ have 2+ proof from different tiers — but both must serve the narrative arc, not just satisfy a checklist.
+6. **The coffee test**: Read the draft as if telling this story to a friend. Every sentence where you'd stop and say "I have a stat for that" instead of naturally knowing the number — rewrite that proof delivery.
 
 ### Phase 5: Story Integration Check
 1. Does the piece have a PROTAGONIST the reader identifies with?
@@ -206,15 +219,17 @@ Execute the three-pillar architecture for the requested platform(s). For each pl
 ### Phase 6: Quality Gate (Non-Negotiable)
 Every piece must pass ALL checks:
 1. ☐ **Proof-First Hook**: Opens with proof, not a promise
-2. ☐ **Zero Naked Claims**: Every claim braided within 2 sentences
+2. ☐ **Zero Naked Claims**: Every claim braided — but through narrative momentum, not mechanical insertion
 3. ☐ **3+ Proof Tiers**: At least 3 of 5 tiers represented
 4. ☐ **Mechanism Named**: A specific, named framework anchors the piece
 5. ☐ **Story Arc Present**: Character → Conflict → Transformation visible
 6. ☐ **CTA Fortress**: Purchase/action moment surrounded by highest-tier proof
-7. ☐ **Voice Authentic**: Sounds like a real human, not a template
+7. ☐ **Voice Authentic**: Sounds like a real human, not a template — conversational punch and tension survive every proof insertion
 8. ☐ **Platform Optimized**: Length, format, and structure match platform norms
 9. ☐ **Belief Barrier Addressed**: The #1 audience objection is dissolved
 10. ☐ **Memorable Residue**: At least 1 line the reader will remember tomorrow
+11. ☐ **Proof Momentum**: Each proof element builds on the last — compounding, not competing. Reader experiences revelations, not evidence.
+12. ☐ **Loop Architecture**: Proof closes existing curiosity loops AND opens new ones. The reader is always holding at least one open question.
 
 ## Output Contract
 1. **Complete Copy** — Ready-to-publish, platform-optimized content

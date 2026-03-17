@@ -54,7 +54,7 @@ Design proof deployment that kills objections BEFORE they form:
    - Early in funnel = pre-empts doubt before it forms (invisible objection handling)
    - At CTA = handles doubt at the moment of maximum risk
    - In email sequence = drip-feeds proof over time
-3. **Integration**: Use Proof Braiding to weave objection-crushing proof into the narrative naturally — not as a "FAQ section" but as organic elements of the story.
+3. **Narrative Weaving (CRITICAL)**: Objection-crushing proof must be woven into story momentum — NEVER as a "FAQ section," NEVER as "but here's the evidence." The reader shouldn't realize their objection is being addressed. They should experience a revelation that happens to dissolve the doubt. Each pre-emptive proof element should close one curiosity loop AND open a new one that pulls the reader forward. Proof that feels like "answering an objection" signals defensiveness. Proof that feels like "sharing a discovery" signals confidence.
 
 ### Phase 4: Response Scripts (for live objections)
 For objections that still arise in sales conversations or DMs:
@@ -82,3 +82,6 @@ Rate the current sales process on objection handling:
 3. **Pre-Emption Priority**: Is 70%+ of objection handling deployed pre-emptively in the funnel?
 4. **Identity Awareness**: Are identity-level doubts treated differently (social proof only)?
 5. **Actionability**: Can response scripts be used VERBATIM in sales conversations?
+6. **Invisibility Test**: Would the reader realize their objection is being handled? If yes, the proof is too defensive. Rewrite as revelation, not rebuttal.
+7. **Loop Architecture**: Does each pre-emptive proof close a curiosity loop AND open a new one? The reader should be pulled forward, not pushed past their doubt.
+8. **Voice Survival**: Do response scripts sound like quiet confidence? Or do they sound like "here's my defense"? Confidence-based responses convert; defensive responses create new objections.

@@ -54,10 +54,14 @@ If time constraint requires compression:
 
 ### Phase 4: Script/Copy the Compressed Sequence
 For each touch in the finalized timeline:
-1. Write the exact copy/script using Proof Braiding throughout.
+
+**NARRATIVE WEAVING MANDATE**: Even compressed sequences must feel like natural momentum, not mechanical tier-climbing. Each proof element should close a curiosity loop AND open a new one. The reader should feel escalating certainty — like each proof point makes the next inevitable. Proof follows narrative gravity: let tension build, then drop proof where the reader most needs to believe.
+
+1. Write the exact copy/script with proof woven into narrative momentum — not mechanically inserted after claims.
 2. Annotate which proof tier and weapon is deployed at each moment.
-3. Mark the transition points where the reader moves from one awareness level to the next.
+3. Mark the transition points where the reader moves from one awareness level to the next — these should feel like natural revelations, not staged progressions.
 4. Place highest-tier proof at CTA.
+5. **The coffee test**: Read each touch aloud. If it sounds like a presenter climbing through evidence tiers, rewrite. If it sounds like someone telling a story where each revelation naturally demands the next, it's right.
 
 ## Output Contract
 1. **Trust Timeline** — Visual map from current state to purchase with touchpoints
@@ -72,3 +76,6 @@ For each touch in the finalized timeline:
 3. **Compression Integrity**: Does the compressed version still hit all tier transitions?
 4. **CTA Fortress**: Is the purchase moment surrounded by highest available proof?
 5. **Timeline Realism**: Is the compressed timeline actually achievable?
+6. **Narrative Flow**: Does the compressed sequence feel like natural escalation or mechanical tier-climbing? Each tier transition should feel like a revelation.
+7. **Loop Architecture**: Does each proof element close a loop AND open a new one? The reader should always be holding at least one open question pulling them forward.
+8. **Voice Survival**: Does conversational punch survive the compression? Speed ≠ mechanical — compressed can still feel conversational.

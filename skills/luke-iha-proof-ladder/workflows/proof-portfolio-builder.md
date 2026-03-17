@@ -91,3 +91,5 @@ Map proof tiers to pricing tiers:
 3. **Specificity**: Are all targets measurable (numbers, dates, names)?
 4. **Pricing Realism**: Does each pricing increase have a proof asset that justifies it?
 5. **Authority Win Target**: Is the dream client specific and strategically chosen?
+6. **Narrative Readiness**: When proof-first content is produced from this portfolio, will there be clear guidance to weave proof through narrative momentum (not mechanical insertion)? Each content piece should close loops and open new ones.
+7. **Compounding Design**: Does the portfolio architecture ensure proof elements build on each other across content pieces — creating a body of work where each post makes the next more powerful?

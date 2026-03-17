@@ -15,14 +15,21 @@
 
 **Success Metric**: All 5 tiers represented in major assets. Strongest tier deployed at CTA/pricing reveal.
 
-## 2. Proof Braiding (The Siamese Twins Technique)
-**What They Do**: They never make a claim and leave it hanging. Every promise is immediately followed by its proof twin — "braided" together like Siamese twins. The reader never experiences a claim without simultaneous evidence.
+## 2. Proof Braiding (The Siamese Twins Technique + Narrative Weaving)
+**What They Do**: They never make a claim and leave it hanging. Every promise gets its proof twin. But the MASTER-LEVEL deployment is **narrative weaving** — proof that closes a curiosity loop the reader has been holding while simultaneously opening a new one. The reader experiences proof as revelation, not evidence. Each proof point builds momentum toward the next, creating compounding trust that feels like quiet confidence rather than an evidence presentation.
 
-**Executable Behavior**: In any draft, highlight every claim/promise. Immediately after each, insert a matching proof element within 1-2 sentences. Pattern: "[Bold Claim]" → "[Proof: stat/story/demo/authority/testimonial]." Zero "naked claims" allowed. If you can't braid proof after a claim, either weaken the claim or find proof.
+**Executable Behavior**: In any draft, highlight every claim/promise. For each, find the proof element — but BEFORE inserting it, ask three questions: (1) Does this proof close a loop the reader is already holding? (2) Does it open a new question? (3) Does it build on the proof that came before it?
+
+**The Narrative Weaving Rules** (override mechanical insertion):
+1. **Proof closes loops AND opens loops.** A stat that proves a claim is adequate. A stat that proves a claim AND raises a new question is masterful. The reader should feel a micro-revelation, not a citation.
+2. **Proof elements must compound, not compete.** Each proof point should build on the last — escalating certainty. If two proof points sit side by side and neither references the other, they're competing for attention.
+3. **Proof follows narrative gravity.** Don't front-load proof or bolt it on at predictable intervals. Let the story build tension, then drop proof where it has WEIGHT — at the moment the reader most needs to believe. Proof at peak curiosity hits 10x harder than proof on schedule.
+4. **The voice must survive the proof.** If proof breaks conversational rhythm, punchiness, or tension — reposition it. Proof that kills momentum is worse than a naked claim, because it signals "I'm trying to convince you" instead of "I know what I'm talking about."
+5. **Show proof through story momentum, not evidence exhibits.** Instead of "[Claim]. In fact, [stat]" — let the narrative naturally ARRIVE at the proof. Build context → create curiosity → reveal proof as the answer to a question the reader is already asking.
 
 **Deploy When**: Writing or editing any sales copy, content, email, ad, or script.
 
-**Success Metric**: Zero naked claims remain in the final asset.
+**Success Metric**: Zero naked claims remain AND proof feels like natural story momentum. Read aloud test: if it sounds like a presenter citing sources, rewrite. If it sounds like someone telling a story who happens to know the numbers, it's right.
 
 ## 3. Belief Hardening & Backward Dissolution
 **What They Do**: They understand that beliefs harden upward: Observations → Experiences → Beliefs → Values → Identity. Once something becomes identity-level ("I'm not the kind of person who…"), it resists all data. Dissolution must work BACKWARD — start by providing counterexamples to foundational observations, then reframe experiences.

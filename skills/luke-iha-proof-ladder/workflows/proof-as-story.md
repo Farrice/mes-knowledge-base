@@ -67,14 +67,17 @@ Show the process:
 - **The Build**: Step-by-step what you did. (Process documentation IS proof of expertise.)
 - **The Reveal**: The results, presented as the natural consequence of the process.
 
-### Phase 3: Proof Weaving (Story-as-Proof)
-Ensure every narrative element simultaneously functions as proof:
-1. **Character detail** = Social proof (named, relatable, real)
-2. **Specific struggle** = Experiential proof (reader sees themselves)
-3. **Mechanism explanation** = Psychological proof (explanatory reasoning)
-4. **Implementation detail** = Credible proof (process demonstrates expertise)
-5. **Results** = Empirical proof (numbers, timelines, metrics)
-6. **Transformation** = Social proof at identity level (the deepest proof)
+### Phase 3: Proof Weaving (Story-as-Proof — Narrative Momentum)
+Every narrative element simultaneously functions as proof. But beyond mapping proof to story beats, verify that the proof creates MOMENTUM:
+
+1. **Character detail** = Social proof (named, relatable, real) — opens curiosity: "what happened to them?"
+2. **Specific struggle** = Experiential proof (reader sees themselves) — builds tension: "this is exactly my situation"
+3. **Mechanism explanation** = Psychological proof (explanatory reasoning) — closes the "why doesn't it work?" loop, opens "what actually works?"
+4. **Implementation detail** = Credible proof (process demonstrates expertise) — closes "what did they do?" loop, opens "did it work?"
+5. **Results** = Empirical proof (numbers, timelines, metrics) — closes "did it work?" with specifics, opens "could this work for ME?"
+6. **Transformation** = Social proof at identity level (the deepest proof) — closes the entire arc with identity-level permission
+
+**The Momentum Test**: Read the story aloud. At each story beat, the reader should be holding an open question from the previous beat AND getting it answered. If the story ever pauses to "present evidence" instead of advancing the narrative, the proof has broken the spell. Rewrite so the proof IS what moves the story forward — never a detour from it.
 
 ### Phase 4: Platform Adaptation
 Format the story for the specified platform:
@@ -97,3 +100,6 @@ Format the story for the specified platform:
 3. **Reader Mirror**: Can the target reader see themselves in the protagonist?
 4. **Transformation Arc**: Does the story show identity change (not just result change)?
 5. **Emotional Movement**: Does the reader feel differently at the end than the beginning?
+6. **Loop Architecture**: Does each story beat close a curiosity loop AND open a new one? The reader should always be holding an open question.
+7. **Proof Momentum**: Does each proof-as-story element build on the last (compounding certainty) or do they feel like separate scenes?
+8. **Coffee Test**: Read aloud. Does it sound like someone telling a story who happens to know the numbers? Or does it sound like evidence wrapped in narrative? The former is right.

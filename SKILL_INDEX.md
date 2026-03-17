@@ -37,6 +37,7 @@
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | elite communication | 3 | 17 |
 | `david-deutsch-copywriting` | **David Deutsch - Copywriting Legend** | transform boring material into brilliant narrative, 29 prompts, copywriting legend | 5 | 29 |
 | `david-mcraney-belief-change` | **David McRaney: Belief Change Architecture** | belief change architecture | 3 | 14 |
+| `david-placek-naming` | **David Placek — Brand Naming Science** | brand naming science | 6 | 11 |
 | `design-md` | **design-md** | analyze stitch projects and synthesize a semantic design system into design, md files | 0 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
@@ -87,6 +88,7 @@
 | `luke-iha-creative-strategy` | **Luke Iha: Creative Strategy & Freelance Mastery** | creative strategy & freelance mastery v2.0 | 5 | 0 |
 | `luke-iha-cross-domain` | **Luke Iha Cross-Domain Campaigns** |  | 4 | 0 |
 | `luke-iha-million-dollar-mechanisms` | **Luke Iha — Million-Dollar Mechanisms** | engineering unique mechanisms that make every promise believable, million-dollar mechanisms | 4 | 0 |
+| `luke-iha-proof-ladder` | **Luke Iha: Proof Ladder Architecture** | the meta-framework for progressive trust engineering, includes the master proof copy engine for end-to-end multi-platform copywriting, proof ladder architecture | 13 | 0 |
 | `luke-iha-proof-mechanisms` | **Luke Iha: Proof Mechanisms in Copywriting** | proof mechanisms in copywriting | 5 | 13 |
 | `luke-iha-unaware-ads` | **Luke Iha: Unaware Ads & Awareness-Level Conversion** | unaware ads & awareness-level conversion | 7 | 0 |
 | `luke-iha-vsl-leads` | **Luke Iha: VSL Lead Mastery** | vsl lead mastery | 4 | 0 |
@@ -147,6 +149,7 @@
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** |  | 4 | 23 |
 | `seena_rez_early_adopter` | **Seena Rez - Early Adopter Innovation Strategy** | the early adopter innovation system | 0 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | ideavirus mastery | 5 | 26 |
+| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | resistance, shipping, strategic clarity, remarkability, status traps | 5 | 30 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** |  | 4 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | audience monetization | 2 | 4 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | ai engineering leadership | 3 | 7 |

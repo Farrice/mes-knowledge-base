@@ -42,15 +42,17 @@ Attack the lowest level first:
 - **Output**: A 5-stage dissolution sequence with specific proof deployed at each level.
 
 ### Phase 3: Dissolution Scripting (Context-Specific)
-Write the actual dissolution sequence for the specified context:
+Write the actual dissolution sequence for the specified context.
 
-**If Ad/Short-Form**: Compress to 3 beats: (1) Name the belief, (2) Attack the observation with one powerful counterexample, (3) Offer the reframe with social proof.
+**NARRATIVE WEAVING MANDATE**: Dissolution must feel like REVELATION, not argumentation. The reader should experience "wait... I never thought about it that way" — not "they're presenting counter-evidence." Each dissolved layer should create curiosity about what's underneath. The sequence builds momentum so that by the time you reach identity-level dissolution, the reader is already leaning forward. Proof follows narrative gravity — land it where belief is most vulnerable, not on a schedule.
 
-**If VSL/Landing Page**: Full 5-stage dissolution threaded through the narrative. Each stage gets 1-2 paragraphs. Use Proof Braiding throughout.
+**If Ad/Short-Form**: Compress to 3 beats: (1) Name the belief so precisely the reader feels seen, (2) Attack the observation with one undeniable counterexample that creates a "wait..." moment, (3) Offer the reframe with social proof — someone LIKE them who shifted.
 
-**If Email Sequence**: One dissolution stage per email over 5 emails. Each email attacks one level and advances to the next.
+**If VSL/Landing Page**: Full 5-stage dissolution threaded through narrative. Each stage dissolves one layer AND opens curiosity about what's underneath — like peeling an onion where each reveal pulls toward the next. Proof follows narrative gravity: land it where the reader most needs to believe, not mechanically after each claim.
 
-**If Content/LinkedIn**: Lead with the belief ("Most people think [X]…"), attack the observation in the middle, resolve with the reframe and social proof.
+**If Email Sequence**: One dissolution stage per email over 5 emails. Each email ends with an open loop pulling into the next ("But here's what I didn't realize until I looked deeper..."). Proof within each email should feel like sharing a discovery, not presenting a case.
+
+**If Content/LinkedIn**: Lead with the belief stated so precisely the reader thinks "they're in my head." Attack the observation through STORY (not data dump) in the middle — the counterexample should feel like a revelation happening alongside the reader. Resolve with reframe + social proof.
 
 ### Phase 4: Resistance Testing
 Anticipate and pre-empt counter-objections:
@@ -72,3 +74,6 @@ Anticipate and pre-empt counter-objections:
 3. **Identity Permission**: If identity-level dissolution is needed, is SOCIAL proof (not data) used?
 4. **Emotional Safety**: Does the dissolution feel like an invitation, not an attack?
 5. **Counterexample Strength**: Are counterexamples specific, named, and verifiable?
+6. **Revelation Test**: Does each dissolution stage feel like the reader is having an insight? Or does it feel like being argued with?
+7. **Loop Architecture**: Does each dissolved layer create curiosity about the next? Reader should be pulling forward, not being pushed.
+8. **Voice Survival**: Does the conversational punch and tension survive the proof deployment? Dissolution that reads like a debate loses.

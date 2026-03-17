@@ -48,13 +48,14 @@ Create a 30-60-90 day plan to climb the ladder:
 - **Output**: A dated, actionable roadmap with specific deliverables per week.
 
 ### Phase 4: Deployment Architecture
-Map proof placement to your sales process:
-1. **First Touch**: Which Tier 1-2 proof goes in ads/content to create initial curiosity?
-2. **Landing Page**: Which Tier 3 proof supports the mechanism reveal?
-3. **Consideration Phase**: Which Tier 4 proof validates during comparison shopping?
-4. **CTA/Purchase Moment**: Which Tier 5 proof provides final safety at the moment of maximum risk?
+Map proof placement to your sales process. **KEY PRINCIPLE**: Proof deployment must follow narrative weaving rules — proof that closes curiosity loops AND opens new ones, proof that compounds rather than competes, and proof that follows narrative gravity (landing where the reader most needs to believe, not on a schedule). When any proof from this plan gets written into actual copy, it must feel like natural story momentum, not evidence exhibits.
+
+1. **First Touch**: Which Tier 1-2 proof goes in ads/content to create initial curiosity? How does it open a loop that pulls into Touch 2?
+2. **Landing Page**: Which Tier 3 proof supports the mechanism reveal? How does it close the loop from Touch 1 while opening a new question?
+3. **Consideration Phase**: Which Tier 4 proof validates during comparison shopping? How does it build on earlier proof (compounding certainty)?
+4. **CTA/Purchase Moment**: Which Tier 5 proof provides final safety at the moment of maximum risk? How does it close all remaining open loops?
 5. **Post-Purchase**: Which proof reduces buyer's remorse and generates referrals?
-- **Output**: A touchpoint map showing exactly which proof deploys at each stage.
+- **Output**: A touchpoint map showing which proof deploys at each stage AND the loop architecture connecting each stage to the next.
 
 ## Output Contract
 A comprehensive Proof Ladder Strategy document containing:
@@ -70,3 +71,5 @@ A comprehensive Proof Ladder Strategy document containing:
 3. **Temperature Match**: Is proof matched to actual audience awareness level?
 4. **Actionability**: Can the build plan be started THIS WEEK with no dependencies?
 5. **Hard-to-Fake Score**: Is 60%+ of proof verifiable by the audience?
+6. **Loop Architecture**: Does the deployment plan create a narrative flow where each touchpoint's proof connects to the next — closing one loop and opening another?
+7. **Weaving Readiness**: When this plan gets executed into copy, is there clear guidance on HOW proof should be woven (narrative momentum, not mechanical insertion)?
