@@ -207,6 +207,53 @@ Before any content work: `Content Topic → Viewer Pain → Product Solution`. I
 
 ---
 
+## Skill Domain 2: Word Mastery & Articulation
+
+> **Skill Path**: `skills/kallaway-word-mastery/`
+> **Genius Context**: `skills/kallaway-word-mastery/genius.md`
+
+The delivery physics layer — determines HOW content is written. Where Content Psychology determines *what* to say, Word Mastery determines *how* to say it so people can't stop reading.
+
+### Word Mastery Workflows
+
+#### Mechanics Layer
+
+| Workflow | Slug | Produces |
+|----------|------|----------|
+| Tone Calibration Engine | `tone` | Content rewritten in precision-targeted tone (casual ↔ professional ↔ entertaining ↔ comedic ↔ authoritative) |
+| Rhythm Rewrite | `rhythm` | Draft rewritten with optimal sentence rhythm — breathers, compression, downward inflection |
+| Likable Expert Filter | `expert` | Content hitting both high-authority AND high-affinity simultaneously |
+| Grip & Tension Engine | `grip` | Flat content transformed into "can't stop reading" writing |
+| Copy-Speech Exercise | `copy` | Analyzed model piece + rhythm template + mirror-written original |
+| Believability Audit | `audit` | Content audited for inauthenticity signals with voice-pocket rewrites |
+| Articulation Mastery Sprint | `sprint` | Complete articulation overhaul — full stack applied in sequence |
+
+#### Dynamic Deployment Layer
+
+| Workflow | Slug | Produces |
+|----------|------|----------|
+| Written Charisma Engineering | `charisma` | Content with the "it factor" — the gestalt that makes people follow the WRITER |
+| Energy Transmutation Engine | `energy` | Content that pulls (service energy) instead of pushes (extraction energy) |
+| Code-Switch Architect | `code-switch` | Content with deliberate tonal texture — creative register shifts for entertainment |
+| Vulnerability Architecture | `vulnerability` | Content where genuine struggle makes expertise hit 3x harder |
+| Opening Sentence Forge | `opener` | The one sentence that determines whether your content gets read or scrolled past |
+| Expertise Deployment Engine | `deploy` | World-class expertise deployed through the optimal vehicle — the pinnacle workflow |
+
+### Stacking: Content Psychology → Word Mastery
+
+The two Kallaway skill domains stack in sequence:
+1. **Content Psychology** — strategy, validation, dopamine architecture, buyer targeting
+2. **Word Mastery (Mechanics)** — rhythm, tone, grip, believability, likable expert dynamics
+3. **Word Mastery (Deployment)** — charisma gestalt, energy transmutation, code-switching, vulnerability arcs, expertise radiation
+
+**Example flows**:
+- `buyer-intent-validator` → `dopamine-ladder-architect` → `rhythm-rewrite` → `likable-expert-filter`
+- `dopamine-ladder-architect` → `expertise-deployment-engine` → `code-switch-architect` → `charisma-engineering`
+
+Strategy determines the *what*. Mechanics determine the *how*. Deployment determines the *impact*. All three are required for content that converts AND creates a following.
+
+---
+
 ## How to Invoke Kallaway
 
 Kallaway activates when user needs:
@@ -219,5 +266,15 @@ Kallaway activates when user needs:
 - **Batch testing** (scientific content formula discovery)
 - **Revenue ramps** (content-to-purchase conversion pipelines)
 - **C.A.P. Fit validation** (content-audience-product alignment)
+- **Articulation & delivery** (rhythm, tone, grip, believability)
+- **Writing quality audits** (inauthenticity detection, voice-pocket rewrites)
+- **Tone engineering** (register-shifting content across platforms)
+- **Likable Expert dynamics** (authority + affinity simultaneously)
+- **Written charisma engineering** (the "it factor" gestalt)
+- **Energy transmutation** (extraction → service energy flip)
+- **Code-switching** (creative register shifts for entertainment)
+- **Vulnerability architecture** (admit → solve → compound narrative arcs)
+- **Opening sentence forging** (the gateway sentence)
+- **Expertise deployment** (radiating knowledge through optimal vehicles)
 
-**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, or buyer-focused content.
+**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, or expertise deployment.
