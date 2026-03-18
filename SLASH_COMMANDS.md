@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (210 Commands)
+# 🚀 Antigravity Workflows — Complete Index (221 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -255,6 +255,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/content-sprint` | Zero to published post + lead magnet in 30 min — research, draft, writers' room, anti-slop |
 | `/daily-flywheel` | Transform journal entries into self-exploration, research, and content |
 | `/flywheel-ideas` | Multi-expert ideation swarm → 3-5 validated Mini-Briefs |
+| `/authority-flywheel` | Voice memo → parallel research → content angles → newsletter + LinkedIn posts (the full Authority Flywheel engine) |
 | `/ghostwrite` | Capture a coach's voice and write LinkedIn content as them |
 | `/ip-flywheel` | Interactive IP Flywheel for LinkedIn & Substack dominance |
 | `/knowledge-alchemy` | Turn expert content into reusable AI coaching prompt |
@@ -290,6 +291,23 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/draft-proposal` | Draft a tailored freelance proposal from a job description |
 | `/lifestyle-business` | Design a 6-figure business around your ideal life |
 | `/offer-cycle` | Detect hot offers, design entry offers, plan cycle rotation |
+
+---
+
+## 💸 AI Monetization & Lead Gen — Darrel Wilson (11)
+| Command | What It Does |
+|---------|-------------|
+| `/affiliate-select` | Select optimal affiliate programs for any niche with commission analysis and risk filtering |
+| `/ai-affiliate-site` | Design and build AI utility websites with embedded affiliate monetization |
+| `/ai-lead-scraper` | Build automated lead generation workflows with n8n (scraping, scoring, delivery) |
+| `/affiliate-traffic` | Multi-channel traffic strategy for affiliate offers (long-form, short-form, parasite SEO) |
+| `/sell-ai-websites` | Build a local business AI website sales pipeline with outreach, pricing, and recurring revenue |
+| `/rfp-hunter` | Automated RFP and contract opportunity hunter — $30K-$100K government and enterprise contracts |
+| `/workflow-productize` | Package and sell n8n/Make automations as standalone products ($500-$5K per workflow) |
+| `/parasite-seo` | Rank on Google in weeks using Medium, LinkedIn, Reddit authority — parasite SEO playbook |
+| `/ai-app-revenue` | Build AI-powered micro-apps (calculators, converters, analyzers) with ad and affiliate revenue |
+| `/revenue-stack` | Combine multiple AI revenue streams into a compound income model |
+| `/recurring-revenue` | Convert one-time sales into subscription revenue with retention architecture |
 
 ---
 
@@ -386,6 +404,7 @@ You don't need to remember command names. These common phrases automatically map
 | "end of session" / "wrap up" / "save my work" | `end-session` |
 | "start a session" / "kick things off" / "new session" | `session-kickoff` |
 | "write a VSL" / "build a sales page" / "nuclear launch" | `nuclear-vsl` |
+| "voice memo to content" / "run the flywheel" / "authority flywheel" / "newsletter from voice memo" | `authority-flywheel` |
 | "write LinkedIn content" / "ghostwrite for me" | `ghostwrite` |
 | "build my brand story" / "storybrand" | `storybrand` |
 | "spin up a council" / "get multiple perspectives" / "deliberate" | `council` |
@@ -449,6 +468,17 @@ You don't need to remember command names. These common phrases automatically map
 | "proof as story" / "case study narrative" / "turn proof into story" | `proof-as-story` |
 | "objection mapping" / "pre-empt objections" / "proof vs objections" | `objection-proof-mapping` |
 | "master copy" / "best possible copy" / "proof copy engine" | `proof-copy-engine` |
+| "find affiliate programs" / "best affiliate programs" / "affiliate selection" | `affiliate-select` |
+| "build an AI site" / "affiliate website" / "utility site" | `ai-affiliate-site` |
+| "scrape leads" / "lead generation" / "n8n lead scraper" / "find leads" | `ai-lead-scraper` |
+| "traffic strategy" / "get affiliate traffic" / "drive traffic" | `affiliate-traffic` |
+| "sell websites" / "local business websites" / "AI website sales" | `sell-ai-websites` |
+| "find contracts" / "RFP hunting" / "government contracts" / "enterprise bids" | `rfp-hunter` |
+| "sell workflows" / "productize automation" / "sell n8n workflows" | `workflow-productize` |
+| "parasite SEO" / "rank on Medium" / "rank fast" / "LinkedIn SEO" | `parasite-seo` |
+| "build an AI app" / "micro app revenue" / "calculator app" | `ai-app-revenue` |
+| "stack revenue" / "multiple income streams" / "compound income" | `revenue-stack` |
+| "recurring revenue" / "subscription model" / "monthly retainer" | `recurring-revenue` |
 
 ---
 

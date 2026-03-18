@@ -173,6 +173,15 @@ ENTRY PROMPT: skills/tao-prompts-ai-video/SKILL.md
 PAIRS WITH: Seena Rez (short-form scripts), Stockton Walbeck (lead magnets)
 ```
 
+```
+AGENT: Kieran Flanagan
+DOMAIN: AI content teams, audience intelligence, content engine, platform adaptation, feedback loops
+CORE METHOD: Separation of creation and optimization — treats AI as a team of specialized roles with style cards, audience profiles, and self-improving feedback loops
+BEST FOR: Building content systems, audience profiling, style cards, cross-platform bundling, content series planning, competitive intelligence
+ENTRY PROMPT: skills/kieran-flanagan-content-engine/SKILL.md
+PAIRS WITH: Lara Acosta (LinkedIn formatting), Kallaway (content psychology), Cardinal Mason (copywriting polish)
+```
+
 ---
 
 ## Brand & Positioning

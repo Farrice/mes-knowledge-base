@@ -169,11 +169,11 @@
 ```
 1. Doesn't think they need LinkedIn → Sees peer getting consulting gigs from content
 2. Tries posting → Gets 11 likes from other coaches. Stops.
-3. Hears about ghostwriting → Assumes it's for "influencers," not serious professionals
-4. Sees YOUR content about S&C coaches specifically → "Wait, this guy gets my world"
-5. Reads the Scorecard → Scores 1 out of 9. Realizes the gap.
-6. DMs you or checks Featured section → Proof Run: 8 posts, 7 days, risk-free
-7. Proof Run delivery → "This actually sounds like me. How do we keep going?"
+3. Sees YOUR content about S&C authority building → "Wait, this guy gets my world"
+4. Takes the Scorecard → Scores 1 out of 9. Realizes the gap.
+5. DMs you or clicks Featured section → Authority Sprint: 30 days, voice memo in, content out
+6. Sprint delivery → "This actually sounds like me. And I didn't write a single word."
+7. Converts to Authority Autopilot → Flywheel running, never thinks about content again
 ```
 
 ---
@@ -191,33 +191,79 @@
 
 ---
 
-## 8. The Offer Stack (S&C-Specific Positioning)
+## 8. The Offer Stack — Authority Flywheel Architecture
 
-| Tier | Name | Price | S&C Framing |
-|------|------|-------|-------------|
-| **Lead Magnet** | Invisible Expert Scorecard | Free (email capture) | "Most elite coaches score 2 out of 9" |
-| **Lead Magnet 2** | 5 LinkedIn Posts Every S&C Coach Should Steal | Free (email capture) | Plug-and-play templates built for performance professionals |
-| **Proof Run** | The Proof Run | $750 ($500 pilot) | "8 posts that sound like you. 7 days. Full refund if they don't" |
-| **Tier 1** | The Voice — LinkedIn Authority Package | $2,500/mo | 12 posts/mo + newsletter edition + monthly voice capture call |
-| **Tier 2** | The Engine — Thought Leader Growth Package | $3,500/mo | 16 posts/mo + Substack strategy + bi-weekly calls + profile optimization |
+| Tier | Name | Price | What They Get | S&C Framing |
+|------|------|-------|---------------|-------------|
+| **Lead Magnet** | Invisible Expert Scorecard | Free (email capture) | 9-point self-diagnostic + Custom GPT experience + 5 personalized post templates | "Most elite coaches score 2 out of 9" |
+| **Entry** | **The Authority Sprint** | $1,500-$2,500 (one-time) | 30-day sprint: 12 LinkedIn posts + 1 deep-dive newsletter article + voice memo extraction | "In 30 days, your LinkedIn matches your reputation. Send me a voice memo — I handle everything else." |
+| **Tier 1** | **Authority Autopilot** | $2,500-$3,500/mo | The Flywheel: weekly newsletter + 4 repurposed LinkedIn posts/week + Frictionless Audio (voice memo) system + infrastructure management | "You coach. We publish. Voice memo on Monday, newsletter on Wednesday, posts all week." |
+| **Tier 2** | **Authority Acceleration** | $3,500-$5,000/mo | Flywheel + 10 social posts/week + 2 long-form authority essays/week + proactive lead flagging + Digital Twin strategy toward product launch | "Aggressive audience growth. We're building your media entity — not just a content calendar." |
 
-### Service Description (S&C Version)
+### The Flywheel Mechanism (What Makes This Different)
 
-**What I do**: I sit with S&C coaches, sports scientists, and performance consultants. I learn how you actually think — your programming philosophy, the coaching cues your athletes quote back to you, the way you explain periodization that makes a GM lean forward. Then I turn that into LinkedIn posts and newsletter editions that sound like you on your sharpest day.
+**Frictionless Audio:** Coach sends a 5-15 minute voice memo via WhatsApp/Voxer — recorded during their commute, between sessions, or walking out of the weight room. That's their ONLY input.
+
+**What happens next:**
+1. **Capture** — Voice memo transcribed, core thesis extracted
+2. **Enrich** — Parallel research sprint: trending topics, contrarian validation, adjacent insights that make the coach sound like they read everything
+3. **Angle** — 3-5 unique content angles with mini-briefs presented for selection
+4. **Draft** — Newsletter edition (the owned anchor asset)
+5. **Atomize** — Newsletter broken into 3-5 LinkedIn posts optimized for the algorithm
+
+**Why this compounds:** Each cycle the coach's voice memos get sharper (they start thinking in "content moments"), the audience grows, engagement data improves targeting, and proof accumulates. Month 3, the coach has a media entity — not a content calendar.
+
+### Cognitive Periodization (Content Planned Like Athletic Training)
+
+| Month | Phase | Focus |
+|-------|-------|-------|
+| Month 1 | **Base Building** | Establish voice, build first 12-16 posts, launch newsletter, calibrate tone |
+| Month 2 | **Strength** | Deep-dive technical authority, case studies, framework posts, grow subscriber base |
+| Month 3 | **Power** | Direct CTAs for consulting/speaking, thought leadership positioning, first inbound leads |
+
+### Service Description (Authority-First Version)
+
+**What I do**: I install a content system that turns your coaching sessions into the LinkedIn presence your athletes already know you deserve. You send a voice memo — I handle everything else. Newsletter, posts, scheduling, strategy. Your methodology becomes visible to the 10,000 coaches and executives who should be hiring you but don't know you exist.
 
 **What I don't do**: Templates. AI slop. Generic "fitness coach" content. If your content could be written by any certified trainer, I've failed.
+
+### Clear Promise (Per Tier)
+
+| Tier | Transformation Promise |
+|------|----------------------|
+| **Authority Sprint** | "In 30 days, your LinkedIn will match your in-room reputation — or full refund." |
+| **Authority Autopilot** | "You'll never think about content again. Voice memo in, authority out, every week." |
+| **Authority Acceleration** | "In 6 months, you'll have a media entity that generates consulting inquiries while you coach." |
 
 ---
 
 ## 9. The One-Line Positioning
 
-> For S&C coaches, sports scientists, and performance consultants with 10+ years
-> of measurable athlete results whose LinkedIn doesn't reflect 10% of what they've built —
-> I capture their voice and turn their methodology into content that makes the industry
-> see what their athletes already know.
+> I install authority flywheels for elite S&C coaches and performance consultants —
+> you send a voice memo, I turn your methodology into a newsletter and LinkedIn presence
+> that makes the industry see what your athletes already know.
+
+### Category Name
+
+**Not** "ghostwriter." **Not** "content agency."
+
+**Authority Flywheel Architect** — the person who builds the content infrastructure that turns a coach's in-room genius into an inbound pipeline that runs without them.
+
+### Why "Authority Flywheel" (Not "Ghostwriting")
+
+| "Ghostwriting" (Old Frame) | "Authority Flywheel" (New Frame) |
+|---------------------------|----------------------------------|
+| Sells the mechanism | Sells the outcome |
+| Implies the coach can't write | Implies the coach's knowledge deserves better distribution |
+| Commodity pricing ($500-$2K) | Outcome pricing ($1,500-$5K) |
+| Identity conflict for the buyer | Identity alignment ("I'm installing infrastructure") |
+| Competes with every freelance writer | Creates a category of one |
+| Time-bound (X posts per month) | System-bound (the flywheel runs) |
 
 ---
 
-*Built from: 8-coach LinkedIn audit, Nicolas Cole Premium Ghostwriting Academy frameworks,
-65+ research files, 13 mini-briefs (concept-dossier.md), 15-post S&C content calendar,
-18 years of personal training and performance coaching experience.*
+*Built from: 8-coach LinkedIn audit, Nicolas Cole frameworks, 65+ research files,
+13 mini-briefs, 15-post S&C content calendar, 4 Google Docs strategy documents (Executive Sprint,
+Authority Flywheel Packages, Market Landscape, Implementation Roadmap), council deliberation
+with Hormozi/Acosta/Martell/Godin positioning analysis, 18 years of personal training
+and performance coaching experience.*

@@ -34,6 +34,7 @@
 | `dan-martell-business-scaling` | **Dan Martell — Business Scaling & Operational Leverage** | saas founder (3x exit) and author of buy back your time, business scaling & operational leverage | 10 | 0 |
 | `dan-wang-literary-analysis` | **Dan Wang Literary Analysis** |  | 2 | 7 |
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 4 | 27 |
+| `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-powered affiliate marketing | 12 | 0 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** |  | 4 | 14 |
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | elite communication | 3 | 17 |
 | `david-deutsch-copywriting` | **David Deutsch - Copywriting Legend** | transform boring material into brilliant narrative, 29 prompts, copywriting legend | 5 | 29 |
@@ -75,6 +76,9 @@
 | `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** |  | 3 | 7 |
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | personal brand mastery | 4 | 34 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
+| `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |
+| `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | content engine | 8 | 0 |
+| `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content ops | 3 | 0 |
 | `kittl-graphic-design` | **Kittl Graphic Design** |  | 4 | 23 |
 | `lance-yichao-context-engineering` | **Lance Martin & Yichao "Peak" Ji - Context Engineering** | context engineering | 3 | 17 |
 | `lara-acosta-content-system` | **Lara Acosta: Tech Founder Content System** | tech founder content system | 2 | 4 |

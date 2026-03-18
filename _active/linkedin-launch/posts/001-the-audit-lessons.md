@@ -1,7 +1,9 @@
 # Post #001: "The Audit" — 5 Lessons from Auditing Elite S&C Coaches on LinkedIn
 **Type**: Text post | **Style**: Lessons | **Status**: APPROVED — Ready to publish
 **Content Calendar**: Week 1, Monday (Educate)
-**Character Count**: ~2,540
+**Character Count**: ~2,750
+**Lead Magnet**: Invisible Expert Scorecard (Custom GPT) — link in comments
+**Landing Page**: SamCart email capture → GPT link
 
 ---
 
@@ -58,3 +60,9 @@ The best coaches in the world are invisible online.
 Not because they lack expertise.
 
 Because no one ever taught them how to translate it.
+
+And the longer they wait, the more the coaches who CAN translate claim the space that should be theirs.
+
+I turned this audit into a 9-point scorecard. The coaches I audited scored 1. Where do you land?
+
+Link in comments.
