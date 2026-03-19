@@ -69,9 +69,34 @@ After reading, identify:
 - **1 quality test** from the skills to run against the output (e.g., Three Rules Test, Kristen Stewart Test)
 - **1 anti-pattern** the expert would warn against
 
+### Step 4b: Reader Self-Interest Check
+
+Before writing customer-facing copy, answer ONE question from the ICP's perspective: **"What do I get?"**
+
+If you can't answer that concretely and compellingly, you're not ready to write. This is not a formula — it's the baseline creative instinct that every expert copywriter brings to every line. The expression should be as varied and surprising as the content itself.
+
 ### Step 5: Expert-Driven Execution
 
-Write the content using the loaded frameworks. The patterns should **inform** the writing, not template it.
+Write the content using the loaded frameworks. The patterns MUST **inform** the writing, not template it.
+
+### Step 5b: Post-Production Expert Test (MANDATORY)
+
+After producing the content, run this test before ANY delivery:
+
+> **"Could the named expert distinguish this from their own work?"**
+
+- If **YES** → proceed to Step 6
+- If **NO** → the output is general-training slop wearing an expert name. **Reject and regenerate.** Re-read the loaded skill's anti-patterns and decision frameworks, then rewrite using the expert's specific methodology more aggressively. Do NOT soften, hedge, or genericize.
+
+### Step 5c: General-Training Detection Test
+
+**Flag and REJECT any output where:**
+1. No specific pattern from the loaded skill is identifiable in the output
+2. The output could have been produced without reading the skill file
+3. The output uses generic frameworks instead of the named expert's unique methodology
+4. The vocabulary, rhythm, or structure matches "helpful AI writing" rather than the expert's voice DNA
+
+If ANY of these four conditions is true, the content MUST be regenerated — not edited, regenerated — using the loaded expert patterns as the structural foundation, not decoration.
 
 ### Step 6: Quality Gate (Modified Trigger)
 
@@ -88,11 +113,13 @@ QUALITY TEST: [which test, pass/fail]
 
 ---
 
-## Hard Rules
+## Hard Rules (Non-Negotiable)
 
-1. **No content output without at least 2 skill files read** — If you catch yourself writing content without having loaded skills, STOP and load them.
-2. **"I already know this" is not an excuse** — The value of reading skill files isn't information, it's *framework activation*. Reading the patterns primes your output quality even if you "know" the concepts.
+1. **No content output without at least 2 skill files read** — If you catch yourself writing content without having loaded skills, STOP and load them. Content produced without loaded skills MUST be rejected and regenerated. There is no "good enough" exception.
+2. **"I already know this" is not an excuse** — The value of reading skill files isn't information, it's *framework activation*. Reading the patterns primes your output quality even if you "know" the concepts. Skipping this step = guaranteed general-training output.
 3. **Speed is not a valid reason to skip** — Loading 2-3 skill files adds ~30 seconds. The quality difference is worth it every time.
+4. **"Good enough" general-training output is NEVER acceptable** — If the output could have been produced by any capable AI without reading the expert's skill files, it has failed regardless of surface quality. Reject and regenerate using the loaded methodology.
+5. **Expert workflow quality gates are binding** — If a loaded workflow contains a Quality Gate with enforcement language ("do NOT deliver if..."), those rejection triggers MUST be honored. Delivering content that fails a workflow quality gate is a system violation.
 
 ---
 

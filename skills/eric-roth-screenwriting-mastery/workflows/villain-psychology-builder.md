@@ -12,6 +12,8 @@ Read these files before executing:
 1. `skills/eric-roth-screenwriting-mastery/genius.md`
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Patterns 4, 6)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Story context** — genre, theme, world
@@ -127,3 +129,6 @@ VOICE SAMPLE:
 - [ ] At least two intelligence dimensions rated High
 - [ ] One humanity moment that complicates without redeeming
 - [ ] Voice is distinct from protagonist and supporting cast
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

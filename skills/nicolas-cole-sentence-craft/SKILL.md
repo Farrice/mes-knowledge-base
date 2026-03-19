@@ -23,3 +23,6 @@ Nicolas Cole is a professional writer with 10 books, who has trained tens of tho
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Nicolas Cole would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output

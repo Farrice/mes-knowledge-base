@@ -9,6 +9,9 @@ description: Engineer social media hooks and headlines with sound symbolism scor
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Intake
 Gather from the user:
 - Topic or theme
@@ -44,3 +47,6 @@ Present ranked hooks with:
 - [ ] Sonic analysis shown for each hook
 - [ ] At least one before/after comparison demonstrating the sonic upgrade
 - [ ] Platform-specific variants provided
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

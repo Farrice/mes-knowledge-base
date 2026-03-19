@@ -22,6 +22,9 @@ description: "Define your smallest viable audience, lock 'Who/What' positioning,
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Who's It For?
 
 ### Step 1: Reject "Everyone"
@@ -200,3 +203,9 @@ People who would know if this fails: [names — usually 0-5]
 - **Feeds into**: Workflow 02 (Ship It Protocol) — once clear, define spec and ship
 - **Compounds with**: `/icp-build` — SVA definition feeds directly into ICP intelligence
 - **Compounds with**: `/storybrand` — SVA + change statement feed StoryBrand BrandScript
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

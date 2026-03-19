@@ -22,6 +22,9 @@ Read `genius.md` in this skill directory before proceeding.
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Prompt 1: Wireframe Taste Audit
@@ -136,3 +139,9 @@ If `oren-creative-direction` skill is loaded, run the CEV (Clarity, Energy, Vibe
 
 ## Anti-Sycophancy Mandate
 Do NOT inflate the Taste Gate Score. If the wireframe is mediocre, say so. A 5/10 wireframe that gets honest feedback and improves to 9/10 is infinitely more valuable than a 5/10 wireframe that gets praised as 8/10 and produces a disappointing build. Be the critic the user needs, not the yes-man they don't.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

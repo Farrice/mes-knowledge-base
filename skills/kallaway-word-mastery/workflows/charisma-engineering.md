@@ -23,6 +23,9 @@ Charisma is not the sum of its parts. Adding rhythm + tone + grip + proof indivi
 3. **The audience relationship** — who reads this and what they need to FEEL
 4. **Brand intent** — what should people associate with this writer after reading?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Charisma Diagnostic
@@ -92,14 +95,22 @@ Read the final piece and answer ONE question: **Would the reader follow this wri
 
 If no: identify which charisma layer is weakest and run Steps 3-6 again on that layer.
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Fully charisma-engineered content** — the piece that generates "I need to follow this person"
-2. **Charisma scorecard** — before/after on all 7 dimensions + harmony score
-3. **Signature report** — the 2-3 distinctive elements that make this writing identifiable
-4. **Dominant gap diagnosis** — what was killing the charisma and how it was fixed
-5. **Charisma maintenance notes** — what to keep doing in future pieces
+```yaml
+deliverable: "Charisma-Engineered Content"
+components:
+  engineered_content:
+    description: "The piece that generates 'I need to follow this person'"
+  charisma_scorecard:
+    description: "Before/after on all 7 dimensions + harmony score"
+  signature_report:
+    description: "2-3 distinctive elements that make this writing identifiable"
+  dominant_gap_diagnosis:
+    description: "What was killing the charisma and how it was fixed"
+  maintenance_notes:
+    description: "What to keep doing in future pieces"
+```
 
 ## Quality Gate
 - [ ] Reader feels spoken-to, not lectured-at?
@@ -109,3 +120,57 @@ If no: identify which charisma layer is weakest and run Steps 3-6 again on that 
 - [ ] Expertise feels demonstrated, not claimed?
 - [ ] Warmth is present without neediness?
 - [ ] The gestalt test passes — reader would follow the WRITER, not just the information?
+
+**ENFORCEMENT — do NOT deliver if any check fails:**
+- Lecture tone detected → the content is in extraction energy, not service energy. Rewrite using Kallaway's Energy Transmutation: flip from "I'm telling you what I know" to "I'm giving you something that works." Check every sentence for implied superiority.
+- Surprise density below threshold → count genuine surprises (unexpected turns, reframes, paradoxes). If fewer than 1 per 150 words, the content is predictable. Add surprise through register shifts, unexpected specificity, or admission lines. Templated "surprises" don't count.
+- Writer NOT identifiable without byline → the voice is generic. This is the gestalt failure. Run the authenticity audit: remove the byline and read. If it could be anyone, it IS no one. Add 2-3 voice-pocket signatures that are unmistakably this writer.
+- Expertise claimed but not demonstrated → find every "I'm an expert" signal (credentials in bio, authority claims, "I've been doing this for X years") and replace with demonstrated knowledge. Show the thinking, not the title. Kallaway would never say "trust me" — he'd show you something that makes trust automatic.
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: A LinkedIn post about why most freelancers underprice — needs charisma pass
+
+**BEFORE (technically competent, zero charisma):**
+> In my experience as a freelance copywriter, I've found that most freelancers underprice their services. Research shows that freelancers charge 20-40% below market rate. You should consider raising your prices because your work has more value than you think. Here are 3 steps to price correctly: 1) Research the market. 2) Calculate your value. 3) Add a premium.
+
+**CHARISMA AUDIT:**
+```
+Conversational Gravity: 3/10 — lecturing, not talking
+Earned Authority: 2/10 — "in my experience" = claiming, not demonstrating
+Emotional Temperature: 2/10 — cold and transactional
+Signature Rhythm: 1/10 — monotone sentence structure
+Surprise Density: 1/10 — zero unexpected turns
+Vulnerability Calibration: 0/10 — no human admission anywhere
+Energy Coherence: 3/10 — obligation energy, not enthusiasm
+
+Charisma Harmony: 1/10
+Dominant Gap: Everything is STATED. Nothing is SHOWN.
+```
+
+**CHARISMA KILLER:** Authority Posturing — "In my experience as a freelance copywriter" is the opening line. The writer is announcing credentials instead of demonstrating thinking.
+
+**AFTER (charisma-engineered):**
+> I charged $150 for a sales page last year. The client made $47,000 from it in the first week.
+>
+> I didn't feel ripped off. I felt *proud*. That's the part nobody talks about — underpricing isn't a math problem. It's an identity problem. You've decided who you are, and that person doesn't charge $5,000.
+>
+> Here's how I know. When a client asks "what do you charge?" and your stomach drops — that's not imposter syndrome. That's your self-image doing exactly what it was built to do: keeping you in the lane you assigned yourself three years ago when you had no portfolio and no proof.
+>
+> The portfolio changed. The proof changed. The lane didn't.
+>
+> I raised my prices 6x in 14 months. Not because I got better at writing. Because I got better at noticing when I was pricing from a version of myself that doesn't exist anymore.
+>
+> The market doesn't set your price. Your self-concept does. And that's actually good news — because markets are hard to move. Self-concepts? Those you can update in an afternoon. If you're honest.
+
+**CHARISMA ELEMENTS ACTIVE:**
+- **Conversational Gravity** → "That's the part nobody talks about" — reader feels directly addressed [Active throughout via casual register]
+- **Earned Authority** → "$47,000 from it in the first week" — demonstrated, never claimed [Mechanic: Unexpected Specificity Drop]
+- **Emotional Temperature** → "I felt *proud*" — warm but restrained, not performing vulnerability [Measured admission]
+- **Signature Rhythm** → "The portfolio changed. The proof changed. The lane didn't." — identifiable pacing [Register: short declaratives + longer reflective sentences]
+- **Surprise Density** → "underpricing isn't a math problem. It's an identity problem." — reframe at word 40 [One surprise per ~80 words]
+- **Vulnerability Calibration** → "$150 for a sales page" — genuine, quantified, un-dramatized [Structural, not performative]
+- **Energy Coherence** → Service energy throughout — teaching through lived experience, not lecturing from authority [HTBT energy present]
+

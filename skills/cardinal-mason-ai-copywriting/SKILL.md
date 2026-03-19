@@ -23,3 +23,6 @@ The complete arsenal for building a $500K/year AI copywriting business. 45 Crown
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Cardinal Mason would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output

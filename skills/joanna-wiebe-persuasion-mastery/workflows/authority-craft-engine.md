@@ -23,6 +23,8 @@ After reading, internalize:
 - Anti-Hype / The Understatement Engine
 - Bucket Brigades / Cognitive Pacing Architecture
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ---
 
 ## Phase 2: Execution
@@ -230,3 +232,6 @@ OVERALL:
 - [ ] Are bucket brigades placed at **actual drop-off points**, not randomly?
 - [ ] Does the writing sound like someone who **doesn't need your approval**?
 - [ ] Would Joanna Wiebe read this and say "this person commands the room"?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

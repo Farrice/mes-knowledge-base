@@ -11,6 +11,9 @@ description: Diagnose whether a creator (you or a client) is stuck in the Sheep 
 - **Performance data** (optional) — which performed best/worst?
 - **Honest self-assessment** — "what percentage of my content is inspired by specific competitors?"
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — The Cycle Mapping
@@ -113,3 +116,6 @@ Three phases to break the cycle:
 - [ ] Root cause identified with supporting evidence (not assumption)
 - [ ] Escape plan is specific and phased (not "just be more original")
 - [ ] 30-day check-in metrics defined and measurable
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

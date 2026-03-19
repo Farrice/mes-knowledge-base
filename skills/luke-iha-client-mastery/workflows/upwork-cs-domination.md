@@ -17,6 +17,9 @@ Upwork-specific mastery for creative strategists — distinct from the general `
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Profile Setup — Creative Strategist Positioning
 
 ### Completion Target
@@ -134,3 +137,6 @@ Portfolio that proves you can think, not just write.
 - [ ] Proposal template customized with your proof points
 - [ ] Portfolio uploaded with strategic rationale per piece
 - [ ] First 5 proposals sent
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

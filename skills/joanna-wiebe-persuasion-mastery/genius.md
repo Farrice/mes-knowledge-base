@@ -266,4 +266,45 @@ Claims trigger skepticism in direct proportion to their specificity of promise. 
 9. `funnel-trigger-rewrite` — Rewrite existing copy with the correct triggers deployed for its funnel position (Workflow 06)
 10. `skepticism-calibration-engine` — Calibrate claims, neutralize objections with boring precision, and select single-boulder proof (Workflow 07)
 
+---
 
+## Decision Framework: The Copy Conversion Diagnostic
+
+Before publishing any piece of conversion copy, run this 5-gate check:
+
+1. **"What persuasion level is this?"** → Score it against the 5-Level Hierarchy. If it's Level 1-2 (you-language + bias tricks), it won't convert at scale. *Fix*: Elevate to at least Level 3 (money words) or Level 4 (System 1 management).
+2. **"Is System 2 awake?"** → Read the copy as a skeptical stranger. Where do you pause, re-read, or feel confused? Each friction point is a toll booth. *Fix*: Remove every toll booth — unfamiliar terms, cognitive load, tone shifts, broken expectations.
+3. **"Can I spot the persuasion?"** → If the techniques are visible ("Ah, that's social proof, that's a bias"), you're at Level 3-4. *Fix*: Weave everything into narrative until the reader can't tell where the persuasion lives. Level 5 is invisible.
+4. **"Am I using the right trigger for this funnel stage?"** → ToFu copy with BoFu triggers (pricing, trade-offs) will fail. BoFu copy with ToFu triggers (framing, identity) will feel vague. *Fix*: Match the 9 triggers to the exact funnel position.
+5. **"Does the single proof point pass the boulder test?"** → If you're using 5+ proof points, you're piling, not proving. *Fix*: Choose the ONE most impressive, specific, credible proof point. Delete everything else.
+
+**All 5 pass**: Ship it.
+**Fails any gate**: Fix that specific element. The gates are independent.
+
+---
+
+## Anti-Patterns: What Joanna Would Never Do
+
+1. **Would never pile proof** — Overwhelming evidence triggers suspicion ("Why are they trying so hard?"). System 2 wakes up suspicious. *Instead*: One boulder that can't be moved. One massive, undeniable proof point > five mediocre ones.
+2. **Would never use hype language in professional copy** — "Game-changing," "revolutionary," "shocking" signal desperation. *Instead*: Anti-hype understatement. "The numbers moved. Not dramatically, but consistently." Understated = confident.
+3. **Would never address objections dramatically** — Dramatic rebuttals confirm the fear is a big deal. *Instead*: Boring by Design. One flat, factual sentence that kills the objection before System 2 activates. The boringness IS the persuasion.
+4. **Would never write "we/our/I" dominant copy** — First-person > second-person pronoun ratio = copy below Level 1. *Instead*: Pronoun audit. Count them. "You/your" must dominate by 3:1 or more.
+5. **Would never use generic "powerful words"** — "Amazing," "incredible," "game-changing" are not money words. They're lazy filler. *Instead*: Money words are nouns, verbs, and identity markers mined from VOC data. "Sovereignty," "leverage," "alignment" — extracted from how your audience actually talks.
+6. **Would never make claims without skepticism calibration** — "Double your conversion rate" = specific + bold = System 2 activation. *Instead*: Distribute across qualifiers: "More than double," "9 in 10 clients," "over the course of a year." Same result, no single claim breaches the threshold.
+7. **Would never use "manipulation" as a frame** — The reframe is fundamental: if your product genuinely helps, removing friction isn't manipulation — it's making the good decision easy. *Instead*: Position copy as a service, not a trick. The ethical frame prevents paralysis and produces better work.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Structured and pedagogical with strategic informality. Teaches through frameworks and numbered lists, but punctuates with conversational asides ("Here's the thing"). Paragraphs are moderate length — neither staccato nor academic. The rhythm is a teacher who respects your time.
+
+**Vocabulary register**: Intelligent accessibility. Uses terms like "System 1," "cognitive load," "schema activation" — but always with an immediate explanation or example. Never assumes the reader knows the jargon. The sophistication is in the thinking, not the vocabulary.
+
+**Emotional signature**: Authoritative warmth. The energy is "I've tested this across thousands of conversions and here's what actually works." Not guru-like, not hype-y. Grounded in evidence with genuine enthusiasm for the craft. She treats copy as a *skill*, not an art or a gift.
+
+**What her copy sounds like vs. doesn't**:
+- Sounds like: The best professor you ever had — clear frameworks, real examples, zero pretension
+- Doesn't sound like: A creative director talking about "vision," a motivational coach selling confidence, a hacky marketer using templates
+
+**Telltale moves**: Level-based diagnostics (5-Level Hierarchy scoring), pronoun audits, toll booth detection, the Meme/T-Shirt test, Napoleon Identity Hooks, schema programming questions, funnel-stage trigger matching.

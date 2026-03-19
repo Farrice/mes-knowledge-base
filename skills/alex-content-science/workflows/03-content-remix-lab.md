@@ -13,6 +13,9 @@ description: Generate 3-5 original content concepts by applying extracted princi
 - **Platform** — where will this be published? (YouTube, LinkedIn, Instagram, etc.)
 - **Your brand identity** — brief description of your visual/verbal brand
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — Principle-to-Niche Translation
@@ -99,3 +102,6 @@ Pick top 3-5 for production.
 - [ ] All concepts include 3+ deliberate Detail Stack decisions
 - [ ] At least one concept uses the "What Am I Refusing?" filter
 - [ ] Each concept has a clear emotional journey defined
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -7,6 +7,9 @@ prerequisite: 01-specificity-drill.md output
 
 # Category of One
 
+
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Purpose
 
 Take the Named Person and raw material from the Specificity Drill and crystallize it into a positioning statement that creates a category only you occupy. The test: could any competitor say this exact sentence? If yes, the mechanism (Z) is wrong.
@@ -85,3 +88,9 @@ This output feeds directly into:
 - About section positioning
 - Content angle for first 90 days
 - Ghostwriting service offer framing
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

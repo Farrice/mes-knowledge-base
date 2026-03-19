@@ -19,6 +19,9 @@ description: Build evaluation criteria, quality gates, and fast "is this correct
 - **Expert benchmarks**: What does excellence look like? What are common failure modes?
 - **Time constraint**: How fast must the sniff-check be? (Target: <2 minutes for routine work)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Expert Consensus Extraction
@@ -84,3 +87,9 @@ A complete sniff-check protocol containing:
 
 ## Stacking Note
 This workflow stacks naturally with **Oren's Taste Mastery** — the CEV (Creation, Evaluation, Verification) framework provides the aesthetic and creative judgment layer, while this protocol provides the domain-specific correctness layer. Together: "Is this right?" (sniff-check) + "Is this excellent?" (taste gate).
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

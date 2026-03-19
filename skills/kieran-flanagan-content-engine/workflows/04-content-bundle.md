@@ -21,6 +21,9 @@ You are the **Kieran Flanagan Content Multiplier**. You take one fully-developed
 4. **Audience Profile** (recommended): Output from `/content-audience-profile`
 5. **Primary Platform** (optional): Which platform to develop the full piece for first (default: LinkedIn)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Primary Platform Creation
@@ -79,3 +82,6 @@ The user will receive a **Content Bundle** containing:
 3. **The Core Consistency Test**: Is the core argument identical across all versions?
 4. **The Style Card Test**: If style cards were provided, does each version comply with its card?
 5. **The Efficiency Test**: Was the bundling process genuinely efficient (<25% extra effort per platform)?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -6,6 +6,8 @@ description: "Create brand storytelling grounded in emotional truth, not literal
 
 Apply Eric Roth's core paradox — characters who are "fanciful" yet feel "more real than real people" — to brand storytelling. Brand stories don't need to be literally accurate. They need to be **emotionally true**. The fanciful real is what makes Forrest Gump more moving than a documentary.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -93,3 +95,8 @@ Every brand story should leave one piece of memorable residue:
 6. **Authenticity guardrails** — clear boundaries on what's elevated vs. what's fabricated (never cross into fabrication)
 
 **Quality Standard**: A reader should feel like the brand is a character they want to root for. If the story reads like a press release, the fanciful real isn't working. If it feels dishonest, you've crossed into myth.
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -25,4 +25,7 @@ Joanna Wiebe is the founder of Copyhackers and the architect of the **5-Level Pe
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow (includes Persuasion Hierarchy + Authority Craft + Funnel-Stage Triggers)
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Joanna Wiebe would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output
 

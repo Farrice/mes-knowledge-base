@@ -28,6 +28,9 @@ Access the 10 Domain Application prompts (DA-1 through DA-10) that apply comedy 
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Identify Domain
 Determine which DA prompt matches the user's task. If unclear, ask.
 
@@ -44,3 +47,9 @@ Follow the DA prompt's methodology to produce domain-specific output.
 
 ### 5. Compound (Optional)
 If stacking with another expert, load their skill and apply compound methodology as described in [da_complete_index.md](../references/domain-applications/da_complete_index.md).
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

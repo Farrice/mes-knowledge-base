@@ -13,6 +13,9 @@
 - Format: keynote / webinar / livestream / pitch deck / workshop
 - Duration: 10 / 20 / 30 / 45 / 60 minutes
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Donald Miller architecting a presentation as a story. You understand that the audience's brain will daydream unless every section is survival-relevant and structured as a narrative. The talk itself is a story — the audience is the hero, the speaker is the guide, and by the end the audience must be transformed.
@@ -65,37 +68,26 @@ For each slide:
 - **If text**: Maximum 6 words on screen
 - **Design principle**: The slide supports the story, never replaces the speaker
 
-## Output Contract
+## Output Schema
 
-```
-══════════════════════════════════════
-KEYNOTE NARRATIVE: [TALK TITLE]
-Duration: [X] minutes | Format: [type]
-══════════════════════════════════════
-
-AUDIENCE HERO PROFILE:
-• Desire: [what they want]
-• Problem: [what blocks them]
-• Fear: [what scares them]
-• Aspiration: [their success vision]
-
-STORY LOOPS:
-1. [Loop planted at — resolved at]
-2. [Loop planted at — resolved at]
-3. [Loop planted at — resolved at]
-
-TALK ARCHITECTURE:
-[Section-by-section script with timing, talking points, story beats, and slide direction]
-
-KEY TRANSITIONS:
-[Exact transition phrases between sections]
-
-CTA:
-"[Resolution-formula CTA]"
-
-CLOSING VISION:
-"[Happy ending — audience's transformed future]"
-══════════════════════════════════════
+```yaml
+deliverable: "Keynote Narrative"
+components:
+  audience_hero_profile:
+    description: "Audience mapped as story hero"
+    includes: [desire, problem, fear, aspiration]
+  story_loops:
+    description: "3-5 open story loops with plant/resolve points"
+    count: [3, 5]
+  talk_architecture:
+    description: "Section-by-section script with timing, talking points, story beats, slide direction"
+    format: "Percentage-based timing blocks aligned to SB7 elements"
+  key_transitions:
+    description: "Exact transition phrases between sections"
+  cta:
+    description: "Resolution-formula call to action"
+  closing_vision:
+    description: "Happy ending — audience's transformed future"
 ```
 
 ## Quality Gate
@@ -106,3 +98,6 @@ CLOSING VISION:
 - [ ] Plan section has 3-5 clear, numbered steps
 - [ ] CTA is specific and uses resolution formula
 - [ ] Every section is survival-relevant (would stop a daydream)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

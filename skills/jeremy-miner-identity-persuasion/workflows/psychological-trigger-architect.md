@@ -14,6 +14,8 @@ description: Build frame/deframe/reframe sequences that shift beliefs for any pe
 - Designing presentations that need to move an audience from A to B
 - Crafting email sequences that transform perception
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Phase 1: Frame Identification
 
 Identify the prospect/audience's current belief system (frame).
@@ -115,3 +117,6 @@ Before delivering, verify:
 - [ ] Is the tonal flow correct (never challenging at the start)?
 - [ ] Would the prospect feel DISCOVERED something, or feel SOLD?
 - [ ] Does every trigger sequence end with a binary lock?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

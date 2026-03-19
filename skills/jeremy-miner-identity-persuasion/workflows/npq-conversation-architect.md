@@ -14,6 +14,8 @@ description: Generate complete NPQ conversation flows from opening to close for 
 - Creating discovery call templates for any industry
 - Designing chatbot or automated qualification flows
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Inputs Required
 
 Before building the flow, gather:
@@ -210,3 +212,6 @@ Deliver a complete conversation flow with:
 - [ ] Are objection prevention frames deployed BEFORE the close?
 - [ ] Does the prospect self-persuade at least once (articulate the conclusion)?
 - [ ] Is the overall feel a caring conversation, not a pitch?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

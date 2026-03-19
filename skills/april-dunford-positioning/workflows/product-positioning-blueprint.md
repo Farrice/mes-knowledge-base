@@ -22,6 +22,9 @@ Status Quo: [What do customers do if they don't buy a tool? e.g., Excel, manual 
 Best Customers: [Describe your 2-3 happiest, highest-LTV clients]
 ```
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Reality Audit (Competitive Alternatives)
@@ -85,3 +88,6 @@ The user will receive a **Comprehensive Positioning Strategy Document** containi
 3. **Context First**: Does the document establish the market problem and alternatives *before* mentioning a single product feature?
 4. **Muffin/Cake Clarity**: Is the chosen market category so clear that a prospect immediately knows your price point and core use case before the demo starts?
 5. **The "Why Pick Us" Filter**: Is it crystal clear why the target segment should choose you over the status quo?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

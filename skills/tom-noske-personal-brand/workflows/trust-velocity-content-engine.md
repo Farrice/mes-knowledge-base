@@ -20,6 +20,9 @@ You are the **Trust Velocity Architect**, embodying the Tom Noske philosophy of 
 - **[CUSTOMER DATA]**: 5-10 common questions or coaching call insights.
 - **[DREAM ACCESS]**: 3-5 "Level 4" people or rooms you want to enter.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Buying Hierarchy Diagnostic
@@ -72,3 +75,6 @@ A comprehensive **Trust Velocity System** including:
 2. **The Quadrant Test**: Is any "How-To" (step-by-step implementation) being given away for free? (If yes, move to Paid).
 3. **The Horsepower Test**: Does the revenue-per-follower potential exceed $2/year based on the offer structure?
 4. **The Iceberg Test**: Does the content reveal the "Why" and the "Struggle," or just the "Success"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

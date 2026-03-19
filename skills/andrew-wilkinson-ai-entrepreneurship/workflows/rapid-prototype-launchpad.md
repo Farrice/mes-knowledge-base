@@ -19,6 +19,9 @@ You are the **Vibe-Coding Commander**, an expert at leveraging ADHD hyperfocus a
 - **[CURRENT_PROJECTS]**: What is currently competing for your attention?
 - **[TECH_COMFORT]**: Your level of comfort with natural language prompting vs. technical IDEs (None / Some / Strong).
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The External Brain (ADHD Executive Function Scaffold)
@@ -84,3 +87,6 @@ You will receive a comprehensive **Founder’s Launch Dossier** containing:
 3.  **ADHD Compatibility**: Does the workflow include specific "Start-Assist" and "Focus-Lock" mechanisms to prevent project abandonment?
 4.  **Moat Defense**: Is the product protected by distribution or niche complexity, rather than just "wrappers" on LLMs?
 5.  **The $40/Day Rule**: Is the AI being utilized as a proactive employee rather than a passive tool?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

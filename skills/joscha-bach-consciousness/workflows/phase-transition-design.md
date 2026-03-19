@@ -16,6 +16,9 @@ description: Design ignition conditions for system coherence — find the phase 
 
 ## The Phase Transition Protocol
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Step 1: Pre-Ignition Inventory
 
 Map the components of your system:
@@ -101,6 +104,8 @@ COLONIZATION PATH: [How coherence spreads from spark to full system]
 - Can you distinguish pre-ignition from post-ignition states?
 - Did you design for colonization — how coherence spreads from the spark?
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ## Cross-Stack
 
 - Pair with **Computational Phenomenology** — use CP to understand the phenomenon, Phase Transition to engineer the ignition

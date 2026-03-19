@@ -6,6 +6,9 @@ description: Audit any copy for block composition and velocity — diagnose flat
 
 Diagnose any piece of copy by mapping its block composition, velocity, and gaps. Produces a visual block map, velocity chart, and specific rewrite recommendations.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read these files in order before proceeding:
@@ -81,3 +84,9 @@ Block distribution: P:[x] PR:[x] PF:[x] CN:[x] CU:[x] CO:[x]
 ### Rewrite Recommendations
 [Specific sentences to add/modify with block tags]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

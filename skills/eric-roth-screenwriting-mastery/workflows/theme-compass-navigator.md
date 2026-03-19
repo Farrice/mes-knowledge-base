@@ -12,6 +12,8 @@ Read these files before executing:
 1. `skills/eric-roth-screenwriting-mastery/genius.md` (principle #2 — Theme = Compass)
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Pattern 2)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Project summary** — plot, characters, genre, setting
@@ -125,3 +127,8 @@ INERTIA AUDIT:
 
 FINAL COMPASS: [The one-sentence theme that guided every decision]
 ```
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

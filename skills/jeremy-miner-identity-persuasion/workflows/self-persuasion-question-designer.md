@@ -15,6 +15,8 @@ description: Design question sequences where the prospect convinces themselves �
 - Designing email sequences that build toward a decision
 - Any context where direct selling triggers resistance
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## The Self-Persuasion Principle
 
 **Don't tell them. Let them tell themselves.**
@@ -170,3 +172,6 @@ For any given target conclusion, deliver:
 - [ ] Does the chain feel like natural curiosity, not interrogation?
 - [ ] Is the Target Conclusion something THEY would say, not marketing copy?
 - [ ] Are tonal annotations appropriate for each question type?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

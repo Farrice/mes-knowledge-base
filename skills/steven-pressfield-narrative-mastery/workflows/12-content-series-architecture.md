@@ -36,6 +36,9 @@ Read [genius.md](../genius.md) before execution. Key patterns for this workflow:
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Series Climax Design
@@ -127,16 +130,22 @@ Apply these cross-installment techniques:
 
 ---
 
-## Output Contract
+## Output Schema
 
-Deliver:
-1. ✅ Series Concept Document (climax, curse, genre + spin, overarching mystery)
-2. ✅ Full Episode/Installment Map (every chapter with hook, contribution, internal arc, mystery management)
-3. ✅ Mystery Thread Map (visual tracker)
-4. ✅ Retention Engineering Annotations (specific techniques per installment transition)
-5. ✅ Series Bible (character/theme/voice consistency guide)
-
----
+```yaml
+deliverable: "Content Series Architecture"
+components:
+  series_concept:
+    description: "Climax, curse, genre + spin, overarching mystery"
+  episode_map:
+    description: "Every chapter with hook, contribution, internal arc, mystery management"
+  mystery_thread_map:
+    description: "Visual tracker of mystery plants and payoffs"
+  retention_engineering:
+    description: "Specific techniques per installment transition"
+  series_bible:
+    description: "Character/theme/voice consistency guide"
+```
 
 ## Quality Gate
 
@@ -149,3 +158,6 @@ Additional series-specific checks:
 - [ ] Does the series feel like a SERIES, not a collection? (Connected arcs, not standalone repeats)
 - [ ] Is the final installment earned by everything before it?
 - [ ] Does a mystery remain open after the series ends?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

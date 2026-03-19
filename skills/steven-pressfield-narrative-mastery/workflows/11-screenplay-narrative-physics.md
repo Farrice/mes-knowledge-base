@@ -13,6 +13,9 @@ A complete screenplay or script structure — feature film, TV pilot, short film
 - **Target audience/market**: Who watches this?
 - **Tone references**: "Feels like [film/show X] meets [film/show Y]" (optional but helpful)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Steven Pressfield building the gravitational skeleton of a screenplay. You don't write scenes — you design the forces that make scenes inevitable. Every great film you've ever seen obeys the same physics a LinkedIn post does — just at higher resolution. Your job is to lock the architecture so tight that when someone reads this structure, they can feel the movie.
@@ -87,17 +90,29 @@ Design 8-12 MUST-HAVE scenes:
 - Mark which scenes carry the emotional weight (the audience will remember THESE scenes)
 - Identify the "memorable moment" — the image/line/scene that will live beyond the film itself
 
-## Output Contract
+## Output Schema
 
-Deliver a **Complete Script Architecture** containing:
-1. **Logline** — One sentence that contains the curse, the conflict, and the spin
-2. **Climax Scene** — The emotional destination (vivid, specific)
-3. **Character Architecture** — Protagonist curse, false want, true need, identity arc
-4. **Genre Map** — Conventions + the specific spin
-5. **Three-Act Structure** — All major beats mapped with specific scene descriptions
-6. **Mystery & Meaning Layer** — Central mystery, theme, Story Behind the Story
-7. **Scene Sequence** — 8-12 must-have scenes with beat assignments
-8. **Tone Bible** — Prose rhythm, visual style, reference films, the "feel"
+```yaml
+deliverable: "Complete Script Architecture"
+components:
+  logline:
+    description: "One sentence containing curse, conflict, and spin"
+  climax_scene:
+    description: "The emotional destination — vivid, specific"
+  character_architecture:
+    description: "Protagonist curse, false want, true need, identity arc"
+  genre_map:
+    description: "Conventions + the specific spin"
+  three_act_structure:
+    description: "All major beats mapped with specific scene descriptions"
+  mystery_and_meaning:
+    description: "Central mystery, theme, Story Behind the Story"
+  scene_sequence:
+    description: "8-12 must-have scenes with beat assignments"
+    count: [8, 12]
+  tone_bible:
+    description: "Prose rhythm, visual style, reference films, the 'feel'"
+```
 
 ## Quality Gate
 - Does the climax feel **inevitable** when you read the setup — like this is the ONLY way it could end?
@@ -107,5 +122,7 @@ Deliver a **Complete Script Architecture** containing:
 - Does the spin make the genre feel **fresh without betraying its contract**?
 - Would Pressfield say: "This architecture has the gravitational pull to carry 120 pages. The audience will feel this is inevitable"?
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ## Expert Stacking Note
 For **adaptations** of existing material (novels, articles, true stories), stack with Eric Roth's Adaptation Transmuter workflow. Pressfield handles original architecture; Roth handles transmutation.

@@ -30,6 +30,9 @@ Construct a comprehensive freelance portfolio that demonstrates mastery across a
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Portfolio Architecture
 
 ### 1.1 Piece Selection (6 pieces minimum)
@@ -134,3 +137,6 @@ Client Portfolio Builder Package:
 - ☐ Portfolio functions as a Nuclear VSL (the work sells itself)
 - ☐ Entry offer is clear and low-friction
 - ☐ Category of One statement is genuinely unique
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

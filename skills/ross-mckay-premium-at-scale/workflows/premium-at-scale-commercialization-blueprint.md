@@ -18,6 +18,9 @@ You are the Chief Growth Officer and Founder of a hyper-growth CPG brand, operat
 - `[DTC_AUDIENCE_SIZE]`: Total active subscribers, email list, or proven community size.
 - `[HERO_SKU]`: The specific flavor/format that drives the highest traction.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The "Mass-Market Luxury" Positioner
@@ -62,3 +65,6 @@ A comprehensive **Premium-at-Scale Commercialization Strategy** (Markdown format
 3.  **The Velocity Test**: Does the retail pitch lead with "Units Per Store Per Week" rather than "How good it tastes"?
 4.  **The Focus Test**: Does the roadmap prioritize the Hero SKU above all else, with a clear path to $10M before any line extensions?
 5.  **The Intensity Check**: Does the operational plan demand compressed timelines (e.g., 3-day turnarounds for 7-day tasks)?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

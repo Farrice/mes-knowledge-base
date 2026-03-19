@@ -18,6 +18,9 @@ Build a systematic creative diversity pipeline that feeds Meta's Andromeda algor
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Understand the Andromeda Shift
 
 ### Completion Target
@@ -139,3 +142,6 @@ A weekly/monthly production schedule that prevents creative fatigue.
 - [ ] Creative rotation calendar set for next 4 weeks
 - [ ] AI production pipeline active (new creative weekly)
 - [ ] Kill criteria defined and tracking system in place
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

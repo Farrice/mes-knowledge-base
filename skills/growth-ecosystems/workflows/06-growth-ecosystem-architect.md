@@ -22,6 +22,9 @@ You are Vincent Hu designing the machine. Not a funnel — an ecosystem. A circu
 - **Budget**: Monthly ad spend capacity?
 - **Mode**: Building for yourself OR for a client?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: The 6-Stage Circular Journey Map
@@ -175,3 +178,6 @@ Produce a complete **Growth Ecosystem Blueprint** containing:
 - [ ] Is paid traffic feeding the ecosystem (not bypassing it to a landing page)?
 - [ ] Could this ecosystem run with a 3-person team (you + setter + VA)?
 - [ ] Would Vincent look at this and say "this is MY system, not a funnel with extra steps"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

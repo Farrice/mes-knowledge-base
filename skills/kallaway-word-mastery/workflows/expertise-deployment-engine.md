@@ -32,6 +32,9 @@ A story communicates expertise differently than a proof stack. A hot take commun
 4. **Audience expertise level** — beginner, intermediate, advanced, mixed?
 5. **Platform + format** — where will this live and in what form?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Expertise Depth Audit
@@ -136,15 +139,24 @@ For flagship content: don't use one vehicle. Stack 2-3:
 
 **The Insider Observation → Analogy → Counter-Narrative Stack**: Notice a non-obvious pattern, make it accessible via analogy, then explain why the common advice is wrong.
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Expertise-deployed content** — the piece where knowledge radiates through casual, gripping prose
-2. **Vehicle selection rationale** — which vehicle(s) and why they're optimal for this expertise + audience
-3. **Radiation mechanics used** — which of the 5 mechanics were deployed and where
-4. **Expertise depth map** — what layers were deployed vs. held in reserve
-5. **Anti-lecture audit results** — confirmation the piece teaches without lecturing
-6. **Authority-without-claiming score** — does expertise radiate or does the writer state it?
+```yaml
+deliverable: "Expertise-Deployed Content"
+components:
+  deployed_content:
+    description: "Piece where knowledge radiates through casual, gripping prose"
+  vehicle_rationale:
+    description: "Which vehicle(s) selected and why they're optimal"
+  radiation_mechanics:
+    description: "Which of the 5 mechanics were deployed and where"
+  expertise_depth_map:
+    description: "What layers were deployed vs held in reserve"
+  anti_lecture_audit:
+    description: "Confirmation the piece teaches without lecturing"
+  authority_score:
+    description: "Does expertise radiate or does the writer state it?"
+```
 
 ## Quality Gate
 - [ ] Expertise is RADIATED, never stated?
@@ -155,3 +167,50 @@ For flagship content: don't use one vehicle. Stack 2-3:
 - [ ] Anti-lecture check passes — no passive information transfer, only engaged insight delivery?
 - [ ] Reader would CONCLUDE the writer is the expert without being told?
 - [ ] Content is memorable — the reader remembers WHO taught them, not just WHAT they learned?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: LinkedIn post about email marketing — writer has sent 1,200+ campaigns but current draft reads like a textbook
+
+**EXPERTISE DEPTH MAP:**
+```
+Surface Layer: "Email marketing works if you write good subject lines"
+Practitioner Layer: "Open rates depend on list hygiene and send time"
+Expert Layer: "The reply rate matters more than open rate — replies train the algorithm"
+Master Layer: "The first 47 words after the subject line determine inbox vs. promotions tab placement across all major providers"
+
+DEPLOYMENT SWEET SPOT: Expert Layer exposed, Master Layer hinted
+```
+
+**Vehicle Selected**: Insider Observation + Counter-Narrative (compound)
+
+**BEFORE (stating expertise):**
+> As someone who's sent over 1,200 email campaigns, I can tell you that subject lines are important but they're not the most critical factor. What really matters is your reply rate, because email providers use engagement signals to determine inbox placement. You should focus on writing emails that generate replies.
+
+**AFTER (radiating expertise):**
+> Everyone optimizes subject lines. That's not wrong. It's just not where the leverage is.
+>
+> Here's something weird I noticed around campaign 400: the emails with the *worst* subject lines sometimes performed best. Not because the subject lines were secretly good — they were genuinely mediocre. But the body copy made people hit reply. And once your reply rate crosses a threshold — different for every provider, but Gmail's is surprisingly low — something shifts. Your emails just start... arriving.
+>
+> Not in promotions. Not in updates. In the actual inbox. With the emails from their friends and their boss.
+>
+> The first 47 words after the subject line matter more than the subject line itself. That's the window where the algorithm decides if you're a person or a brand. Most marketers treat the opening like a hook. It's not a hook. It's a handshake.
+>
+> I could go deeper on the technical side — how each provider weights reply velocity differently, why Tuesday sends outperform Thursday sends but only for B2B lists under 10K — but the principle is simple: write emails that make people want to respond, and the algorithm will handle the rest.
+
+**RADIATION MECHANICS ACTIVE:**
+1. **Casual Precision** → "Gmail's is surprisingly low" — informal delivery, insider knowledge. The reader thinks "how does this person know Gmail's specific threshold?"
+2. **Unexpected Specificity Drop** → "first 47 words," "around campaign 400" — hyper-specific details that ONLY someone who's tracked this would know
+3. **Effortless Correction** → "Most marketers treat the opening like a hook. It's not a hook. It's a handshake." — casual correction implies basic knowledge for this writer
+4. **Restraint Signal** → "I could go deeper... but the principle is simple" — deliberately holding back communicates depth without dumping
+5. **Meta-Pattern** → Connecting reply rates to inbox placement to algorithmic trust — cross-system pattern recognition
+
+**Authority-Without-Claiming Audit:**
+- ✅ Writer NEVER says "I'm an expert" or "I've sent 1,200 campaigns" [removed opener]
+- ✅ Reader CONCLUDES expertise from observations alone
+- ✅ 4 "how does this person know this?" moments
+- ✅ Restraint present — "I could go deeper" line
+- ✅ Cross-domain connection: reply behavior → algorithmic trust → inbox placement
+

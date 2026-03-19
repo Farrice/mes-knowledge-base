@@ -5,6 +5,9 @@
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Skill Acquisition
 
 Read these files before executing:
@@ -164,3 +167,6 @@ TIMELINE:
 - [ ] Would the client struggle to replace you because of adjacent services?
 - [ ] Is the performance bonus designed so the client WANTS to pay it?
 - [ ] Does the revenue projection account for capacity constraints (hours/day)?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

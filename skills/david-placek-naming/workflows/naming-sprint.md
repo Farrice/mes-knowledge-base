@@ -10,6 +10,9 @@ description: Run a complete brand naming sprint using David Placek's Lexicon met
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Intake Brief
 Gather from the user:
 - What is being named (company, product, feature, content property)?
@@ -57,3 +60,6 @@ Present:
 - [ ] All names presented in context (never on a list)
 - [ ] At least one name sits in the tension zone (polarizing)
 - [ ] Sound symbolism alignment verified for finalists
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

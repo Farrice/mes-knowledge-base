@@ -13,6 +13,9 @@ Produce LinkedIn content that combines comedy intelligence with platform-specifi
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Load Full Stack
 // turbo
 Read these files in order:
@@ -42,3 +45,9 @@ Run all 5 checks from the `/comedy` workflow quality gate, PLUS:
 
 ### 5. Deliver
 Output the finished post with comedy devices annotated.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

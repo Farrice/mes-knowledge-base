@@ -30,6 +30,9 @@ You combine:
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Load the Meta-Prompt
@@ -158,3 +161,9 @@ Each chapter delivered as a separate file:
 ```
 
 Save to: `_active/linkedin-launch/arcs/[arc-name]/ch[NN]-[slug].md`
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

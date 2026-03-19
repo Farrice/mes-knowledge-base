@@ -20,6 +20,9 @@ You are the ThriveCart Strategic Architect, an expert in high-volume digital pro
 - **[CURRENT_CHALLENGES]**: The specific "fires" or frustrations the user is currently facing.
 - **[RESOURCES]**: Available time (hours/week) and budget for optimization.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Three Levers Diagnostic
@@ -64,3 +67,6 @@ A comprehensive .md report containing:
 2.  **Iteration Commitment**: Does the roadmap include all 7 iterations with distinct learning objectives?
 3.  **Transformation Precision**: Is the "Before/After" state of the customer clearly defined in the prescription?
 4.  **Complexity Check**: Is Iteration 1 executable within 48 hours? (Pattern 1).
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

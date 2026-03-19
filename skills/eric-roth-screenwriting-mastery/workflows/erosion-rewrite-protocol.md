@@ -13,6 +13,8 @@ Read these files before executing:
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Pattern 1)
 3. `skills/eric-roth-screenwriting-mastery/references/hidden-knowledge.md` (HK-1)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Complete draft** — the script/manuscript/long-form piece to erode
@@ -115,3 +117,6 @@ ERODED DRAFT:
 - [ ] Theme accumulates — each act builds on the last
 - [ ] Character voices remain distinct throughout
 - [ ] The piece feels *more alive*, not just *more correct*
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

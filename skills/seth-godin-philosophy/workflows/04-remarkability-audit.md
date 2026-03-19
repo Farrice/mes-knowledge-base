@@ -22,6 +22,9 @@ description: "Assess whether any idea, product, or content is worth remarking ab
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Define Remarkable
 
 ### Step 1: The Core Test
@@ -177,3 +180,9 @@ Organic spread factors: [X/5]
 - **Pairs with**: Workflow 02 (Ship It Protocol) — once remarkable, define spec and ship
 - **Compounds with**: `/proof-audit-360` — remarkability + proof stacking = maximum conversion
 - **Compounds with**: Seth Godin Ideavirus skill — if remarkable, deploy viral mechanics to amplify spread
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -20,6 +20,9 @@ You are Luke Iha crossed with a master storyteller. You know that the most power
 4. **[Proof Objective]**: What should the reader believe after reading this?
 5. **[Platform]**: Where will this be published? (determines length and format)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Story-Proof Mapping
@@ -87,12 +90,22 @@ Format the story for the specified platform:
 - **Article**: Full 5-act structure with subheadings and embedded proof callouts.
 - **Instagram carousel**: 1 slide per act. Slide 1 = result hook. Slides 2-5 = story. Slide 6 = CTA.
 
-## Output Contract
-1. **Story-Proof Spine** — The 7-point structure mapping raw material to narrative
-2. **Full Narrative** — Complete story written in the appropriate format
-3. **Proof Annotations** — Every element labeled with its proof tier/function
-4. **Platform-Ready Version** — Formatted for the specified platform
-5. **Repurpose Guide** — How to adapt this story for 2-3 other platforms
+## Output Schema
+
+```yaml
+deliverable: "Proof-as-Story Narrative"
+components:
+  story_proof_spine:
+    description: "7-point structure mapping raw material to narrative"
+  full_narrative:
+    description: "Complete story written in the appropriate format"
+  proof_annotations:
+    description: "Every element labeled with its proof tier/function"
+  platform_ready_version:
+    description: "Formatted for the specified platform"
+  repurpose_guide:
+    description: "How to adapt this story for 2-3 other platforms"
+```
 
 ## Quality Gate
 1. **Proof Invisibility**: Does the proof feel like story (not an interruption)?
@@ -103,3 +116,6 @@ Format the story for the specified platform:
 6. **Loop Architecture**: Does each story beat close a curiosity loop AND open a new one? The reader should always be holding an open question.
 7. **Proof Momentum**: Does each proof-as-story element build on the last (compounding certainty) or do they feel like separate scenes?
 8. **Coffee Test**: Read aloud. Does it sound like someone telling a story who happens to know the numbers? Or does it sound like evidence wrapped in narrative? The former is right.
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

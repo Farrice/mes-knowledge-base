@@ -16,6 +16,9 @@ Optimize over-engineered multi-agent systems by removing unnecessary layers and 
 ## Core Principle
 > "Every layer added is a potential misinterpretation. Every handoff loses context. Every agent brings its own failure mode. The goal is the minimum viable architecture that achieves the quality threshold — then invest depth where it matters."
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Complexity Census
@@ -89,3 +92,9 @@ Complexity optimization report containing:
 - Expected impact on quality, speed, and cost
 - Regression test plan
 - Monitoring plan for post-optimization
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

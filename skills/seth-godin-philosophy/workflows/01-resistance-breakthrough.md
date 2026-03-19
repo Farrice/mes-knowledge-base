@@ -21,6 +21,9 @@ description: "Diagnose what's blocking you, trace it to its root (fear/status/af
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Name the Resistance
 
 ### Step 1: Identify the Stuck Point
@@ -166,3 +169,9 @@ Secondary: [Fear / Status / Affiliation / None]
 - **Pairs with**: `/resistance` (Steven Pressfield's War of Art — complementary frameworks)
 - **Feeds into**: Workflow 02 (Ship It Protocol) — once resistance is broken, ship the thing
 - **Compounds with**: Dan Koe `/adversarial-refine` — stress-test the breakthrough plan
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

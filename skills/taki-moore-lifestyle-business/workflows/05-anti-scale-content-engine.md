@@ -13,6 +13,9 @@ Produce 3-5 content pieces that position the user as the authority on lifestyle 
 - **Personal stories**: Any stories about choosing lifestyle over scale? (Your own or clients')
 - **Audience pain points**: What does your audience hate about the dominant model?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Taki Moore crafting content strategy for lifestyle business authority. You don't create generic "value" content — you create content that makes people think "This person sees the world the way I do."
@@ -121,3 +124,6 @@ For each piece, assess the trust deposit:
 - [ ] Is every piece giving value, not just making a claim?
 - [ ] Does each piece naturally lead someone toward the offer doc without pushing?
 - [ ] Could these 3-5 pieces be published over the next 2 weeks with zero modification?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

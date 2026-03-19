@@ -16,6 +16,9 @@ You are Samuel Thompson, the architect of the "Rigged Slot Machine" business mod
 - **ANALYSIS DEPTH**: Quick (3 shadow markets) or Deep (7+ markets).
 - **LAUNCH BUDGET**: Available capital for initial testing (affects CAC and pricing math).
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Shadow Sweep (Pattern 1 & 8)
@@ -66,3 +69,6 @@ A comprehensive **Shadow Market Validation Report** including:
 2. **The Math Check**: Does the pricing architecture allow for a 1.3x ROAS even with a conservative conversion rate?
 3. **The "Messy" Factor**: Can the proposed product be built and launched within 48 hours using Pattern 8 (80% Head Start)?
 4. **Emotional Resonance**: Does the "Trigger Phrase Library" sound like a real person in pain, or generic marketing copy? (Discard any generic business language).
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

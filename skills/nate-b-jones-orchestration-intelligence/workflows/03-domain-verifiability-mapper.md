@@ -18,6 +18,9 @@ description: Classify all work in a domain into machine-checkable, expert-checka
 - **Work inventory**: List of actual tasks/deliverables produced in this domain (not job descriptions — real work)
 - **Expert availability**: Who can serve as sniff-checkers? What experience level?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Work Inventory Decomposition
@@ -78,3 +81,9 @@ A Domain Verifiability Map containing:
 4. **Sniff-check requirements** for each Tier 2 item (input to Sniff-Check Protocol Builder)
 5. **Delegation roadmap** with phased timeline
 6. **Human capital reallocation** — what do the people currently doing Tier 1/2 work focus on instead? (Answer: sniff-checking, taste-making, agent infrastructure)
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

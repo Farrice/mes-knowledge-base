@@ -6,6 +6,8 @@ description: "Engineer hooks, headlines, and lines that 'stay in your soul' usin
 
 Apply Eric Roth's Memorable Residue methodology to engineered hooks and lines. This isn't about "catchy" — it's about creating moments that lodge in memory and become part of how people think and speak.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -91,3 +93,8 @@ If yes: keep. If they'd remember the *idea* but not the *words*: rework for prec
 5. **2 alternates** — for different platforms or contexts
 
 **Quality Standard**: The winning line should feel like it was discovered, not written. It should sound like something that was always true but nobody had said yet.
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

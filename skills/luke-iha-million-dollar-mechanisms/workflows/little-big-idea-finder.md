@@ -18,6 +18,9 @@ Discover the insight that sits at the intersection of product truth and audience
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Product Truth Inventory
 
 List EVERYTHING that is genuinely true and unique about this product. Be brutally honest — features that competitors also have don't count.
@@ -167,3 +170,6 @@ Before delivering:
 - ☐ Idea creates a genuine "aha" moment — not a restatement of the value prop
 - ☐ Competitors genuinely cannot make this same claim
 - ☐ Downstream applications demonstrate the idea's generative power
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

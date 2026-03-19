@@ -12,6 +12,9 @@ description: Build a systematic competitive intelligence system — database, tr
 - **Current competitors** (if known) — list accounts you already follow/watch
 - **Goals** — what kind of content opportunities are you looking for? (topics, formats, gaps?)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — Build the Competitor Database
@@ -144,3 +147,6 @@ Convert intelligence into action:
 - [ ] At least 1 cross-niche format opportunity flagged
 - [ ] 30-day content calendar produced with specific concepts
 - [ ] Decay signals identified (topics/formats to avoid)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

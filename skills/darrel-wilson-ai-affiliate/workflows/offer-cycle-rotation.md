@@ -13,6 +13,9 @@ Detect which offers are currently hot, design entry-level offers that hook clien
 - **Market Signals**: What trends are you seeing? (New tools, emerging niches, dying categories)
 - **Expansion Capacity**: How quickly can you launch a new offer?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Offer Health Diagnostic
@@ -119,3 +122,9 @@ Complete offer rotation strategy:
 - Seasonal opportunity calendar
 - Kill criteria and rotation schedule
 - Revenue forecast by offer category
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

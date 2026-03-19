@@ -12,6 +12,8 @@ Read these files before executing:
 1. `skills/eric-roth-screenwriting-mastery/genius.md`
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Patterns 1-3, 7, 12, 14)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Workflow
 
 ### Step 1: Theme Discovery (Pattern 2 — Theme-First Compass)
@@ -160,3 +162,6 @@ SCENE OUTLINE:
 - [ ] Each major character has a distinct voice and full wallet
 - [ ] Visual prose present in scene descriptions (not just slug lines)
 - [ ] Middle was *discovered*, not over-planned
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

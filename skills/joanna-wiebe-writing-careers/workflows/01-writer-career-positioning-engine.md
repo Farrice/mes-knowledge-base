@@ -5,6 +5,9 @@
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Skill Acquisition
 
 Read these files before executing:
@@ -114,3 +117,6 @@ Apply Joanna's Liquid Death principle: could a competitor copy your service but 
 - [ ] Would Joanna Wiebe read this and say "this person gets it"?
 - [ ] Does the strategy include a clear **door opener** that naturally creates ongoing work?
 - [ ] Is the consultant frame FELT in every piece of language?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

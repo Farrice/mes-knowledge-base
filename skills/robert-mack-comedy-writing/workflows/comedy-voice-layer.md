@@ -13,6 +13,9 @@ Apply Robert Mac's comedy intelligence as a **writing style filter** on any cont
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Load Context
 // turbo
 Read these files:
@@ -39,3 +42,9 @@ Run all 5 checks from the `/comedy` workflow quality gate.
 Output the comedy-enhanced content with notes on devices used.
 
 > **For full power with zeitgeist research**, use the `/comedy` slash command instead — it includes cultural calibration and trending research.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

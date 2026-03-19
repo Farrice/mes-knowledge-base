@@ -9,6 +9,9 @@ description: Audit any content for invisible zone vs tension zone using Placek's
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Intake
 Gather from the user:
 - Content piece (post, article, email, script, headline set)
@@ -47,3 +50,6 @@ Present:
 - [ ] Zone classification clearly justified
 - [ ] Rewrites are specific (not vague advice)
 - [ ] Sonic audit included for opening line
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

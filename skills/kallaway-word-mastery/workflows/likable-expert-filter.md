@@ -17,6 +17,9 @@ description: Transform content to hit both high-authority AND high-affinity simu
 2. **Authority signals available** — stats, credentials, proof points, case studies
 3. **Target platform** (affects authority/affinity ratio)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Authority-Affinity Diagnostic
@@ -77,13 +80,22 @@ Final pass combining all four layers:
 
 This is how you sound like a friend who happens to be the world's leading expert.
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**: Fully transformed content plus:
-1. **Before/After authority and affinity scores**
-2. **Proof audit** — every claim mapped to its evidence
-3. **Admission placement** with rationale
-4. **Energy polarity check** — extraction → service rewrites flagged
+```yaml
+deliverable: "Likable Expert Content"
+components:
+  transformed_content:
+    description: "Fully transformed piece balancing authority and likability"
+  authority_affinity_scores:
+    description: "Before/after authority and affinity scores"
+  proof_audit:
+    description: "Every claim mapped to its evidence"
+  admission_placement:
+    description: "Where admissions are placed with rationale"
+  energy_polarity_check:
+    description: "Extraction → service rewrites flagged"
+```
 
 ## Quality Gate
 - [ ] Authority score ≥ 8?
@@ -93,3 +105,6 @@ This is how you sound like a friend who happens to be the world's leading expert
 - [ ] HTBT energy is palpable — reader feels invited, not lectured?
 - [ ] Content passes the "favor test" — giving, not taking?
 - [ ] Formal proof + informal delivery = the Likable Expert fusion?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

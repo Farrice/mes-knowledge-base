@@ -13,6 +13,9 @@ A complete brand narrative — the foundational story that sits underneath every
 - **Competitive landscape**: Who else operates in this space? What do they sound like?
 - **Output format**: About page, manifesto, brand bible section, pitch deck narrative, investor story?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Steven Pressfield applying narrative physics to brand architecture. A brand is a protagonist. It carries a curse. It crosses a threshold. It sacrifices something. It reveals its true identity. And at its heart, it pursues a mystery it can never fully solve. THAT is what makes a brand narrative unforgettable.
@@ -81,17 +84,29 @@ What is the larger vision that transcends any single product?
 
 Output: The larger vision + the open question the brand lives in.
 
-## Output Contract
+## Output Schema
 
-Deliver a **Complete Brand Narrative** containing:
-1. **The Curse** — Origin wound (1 paragraph)
-2. **Two Worlds** — Ordinary vs. Extraordinary + threshold moment
-3. **Genre + Spin** — Category identification + differentiating element
-4. **The Central Mystery** — The unsolvable question that generates infinite content
-5. **The Sacrifice** — What the brand refuses, at cost
-6. **The Identity** — The deepest truth about who this brand is
-7. **The Larger Vision** — The story beyond the story
-8. **Deployment Guide** — How to adapt this narrative for: About page, manifesto, pitch deck, social bio, investor presentation, team onboarding
+```yaml
+deliverable: "Complete Brand Narrative"
+components:
+  curse:
+    description: "Origin wound — 1 paragraph"
+  two_worlds:
+    description: "Ordinary vs. Extraordinary + threshold moment"
+  genre_and_spin:
+    description: "Category identification + differentiating element"
+  central_mystery:
+    description: "The unsolvable question that generates infinite content"
+  sacrifice:
+    description: "What the brand refuses, at cost"
+  identity:
+    description: "The deepest truth about who this brand is"
+  larger_vision:
+    description: "The story beyond the story"
+  deployment_guide:
+    description: "Adaptation for multiple contexts"
+    contexts: [about_page, manifesto, pitch_deck, social_bio, investor_presentation, team_onboarding]
+```
 
 ## Quality Gate
 - Does the brand feel like a **protagonist** — not a business?
@@ -99,3 +114,6 @@ Deliver a **Complete Brand Narrative** containing:
 - Is the sacrifice **costly** — or performative?
 - Does the narrative **open** at the end — or close neatly? (Great brand stories never end. They invite you in.)
 - Would Pressfield say: "This brand has a story worth telling — and worth following"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

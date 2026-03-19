@@ -23,6 +23,9 @@ Read `genius.md` in this skill directory before proceeding.
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Prompt 1: Slide-by-Slide Wireframer
@@ -133,3 +136,9 @@ Once wireframes are locked:
 - [ ] Icons are professional quality (not emoji)
 - [ ] Data visualizations use realistic, meaningful data
 - [ ] The deck tells a coherent story from slide 1 to final slide
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

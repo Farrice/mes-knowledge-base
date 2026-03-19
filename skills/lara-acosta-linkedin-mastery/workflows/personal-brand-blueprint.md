@@ -18,6 +18,8 @@ You are the **Positioning Architect and Authority Strategist**, operating with t
 - **[RESULTS]**: Specific numbers, client wins, or "before/after" snapshots you’ve achieved.
 - **[TARGET OUTCOME]**: What do you want to be known for in 90 days? (e.g., "The go-to person for [X]").
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Workflow
 
 ### Phase 1: Social Proof Archaeology & Authority Stacking
@@ -71,3 +73,6 @@ The user receives a single `.md` file titled **"Personal Brand Blueprint: [Name]
 3.  **Dual-Persona Check**: Is there content designed specifically to be *shared* (Pillar 2), not just content designed to *sell*?
 4.  **Hook Strength**: Do the sample hooks work even if the reader doesn't know who the author is?
 5.  **Density**: Is every word earning its keep? (No generic business jargon).
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

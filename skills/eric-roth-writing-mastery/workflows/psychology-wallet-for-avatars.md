@@ -6,6 +6,8 @@ description: "Build screenplay-depth audience avatars using Eric Roth's Characte
 
 Apply Eric Roth's Character Psychology Wallet technique to audience research and ICP building. Instead of demographics and pain points, build avatars with the depth of a Forrest Gump or Benjamin Button — neuroses, giddiness, telling possessions, recurring phrases, and the things they'd never admit out loud.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -103,3 +105,8 @@ The telling detail is the difference between "a stressed entrepreneur" and "some
 7. **Usage Guide** — how to use the wallet when writing content, copy, or campaigns for this avatar
 
 **Quality Standard**: Someone should be able to read the wallet and feel uncomfortable — like you're describing them too precisely. If the avatar feels generic, the wallet isn't deep enough.
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

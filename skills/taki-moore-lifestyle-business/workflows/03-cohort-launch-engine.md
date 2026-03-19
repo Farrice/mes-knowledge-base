@@ -13,6 +13,9 @@ Produce a complete monthly cohort operations playbook — from intake rhythm to 
 - **Existing audience/list**: Size and engagement level
 - **Content channels**: Where do you publish? (YouTube, LinkedIn, newsletter, etc.)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Taki Moore designing a monthly enrollment machine that fills itself through trust-based marketing and natural urgency.
@@ -118,3 +121,6 @@ Scale projections:
 - [ ] Are there zero sales calls in the entire flow?
 - [ ] Does the retention model create "profitable addiction" (they stay because it's valuable, not contractual)?
 - [ ] Could a 2-person team (founder + one support person) execute this?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

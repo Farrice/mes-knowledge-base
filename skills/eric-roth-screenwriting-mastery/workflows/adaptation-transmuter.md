@@ -12,6 +12,8 @@ Read these files before executing:
 1. `skills/eric-roth-screenwriting-mastery/genius.md`
 2. `skills/eric-roth-screenwriting-mastery/references/hidden-knowledge.md` (HK-5)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Source material** — novel, short story, article, true story, or concept
@@ -123,3 +125,6 @@ ORIGINALITY MAP:
 - [ ] Theme has been independently established (not just inherited from source)
 - [ ] Characters have been transplanted with new psychology wallets, not copied
 - [ ] Structure serves the film, not the book
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

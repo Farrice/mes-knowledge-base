@@ -99,3 +99,48 @@ Dan's prompts follow a two-phase structure that mirrors real consulting:
 3. **Anti-Automation for Creative Work** — The human maintains taste, creative judgment, and direction. AI handles synthesis and execution.
 4. **The $5K Mentor Replacement** — Free expert content + Knowledge Alchemy Pipeline = personalized coaching at zero cost. This is both a personal productivity system and a product architecture.
 5. **Tinkering > Templates** — "You're waiting for someone to give you a step-by-step framework rather than going in tinkering, experimenting, and having a goal to work towards." The framework is a starting point, not a cage.
+
+---
+
+## Decision Framework: The AI Interaction Readiness Diagnostic
+
+Before any high-stakes AI interaction, run this 4-gate check:
+
+1. **"Have I loaded curated context?"** → If you're relying on the AI's generic training data, you're gambling with other people's opinions. *Fix*: Feed specific expert methodology — a video transcript, a framework document, a curated guide. Specific > generic, always.
+2. **"Have I defined my scope AND invited AI questions?"** → If the AI is making assumptions about your taste, preferences, audience, or constraints, the output will be generic. *Fix*: Tell it what you want AND explicitly ask: "Before you start, ask me 5 clarifying questions."
+3. **"Am I using the right output format?"** → Conversation mode for creative work, structured output for learning/guides, defined task for busywork. Format mismatch = mediocre results. *Fix*: Match format to intent before prompting.
+4. **"Will I stress-test the output?"** → First-pass AI output without adversarial pressure is a rough draft, not a deliverable. *Fix*: Run the Concerns phase — "What are my blind spots? What assumptions am I making? Poke holes in this."
+
+**All 4 pass**: Proceed. You'll get quality output.
+**Fails #1**: Stop. Load context first. The output will be generic without it.
+**Fails #2**: Add clarification. The AI needs YOUR direction, not its assumptions.
+**Fails #3**: Switch format. Conversation ≠ guide ≠ task.
+**Fails #4**: You're shipping a first draft. Always run Concerns.
+
+---
+
+## Anti-Patterns: What Dan Koe Would Never Do
+
+1. **Would never let AI make creative decisions** — "If you don't have taste and preferences, AI is going to suck." *Instead*: You maintain creative direction, intellectual ownership, and taste. AI handles synthesis and grunt work. The human stays in the driver's seat.
+2. **Would never prompt with zero context** — "If you just ask AI to build a personal brand for you... you're gambling." *Instead*: Curated source material > refined summary > raw training data. Always feed context before asking.
+3. **Would never skip the Concerns phase** — This is "arguably the most important part." It's where you learn the most and catch the biggest flaws. *Instead*: Every significant AI output gets stress-tested. "What's missing? What holes can we poke?"
+4. **Would never treat AI as an oracle** — AI is an untrained employee with superhuman processing speed, not a genius with all the answers. *Instead*: Rate its output, tell it why, iterate. The quality is a function of YOUR direction.
+5. **Would never rely on templates without tinkering** — "You're waiting for someone to give you a step-by-step framework rather than going in tinkering." *Instead*: Use frameworks as starting points. Experiment. Customize. The framework is a launchpad, not a cage.
+6. **Would never use AI to replace thinking** — "Intellectual sovereignty" means you still do the thinking. *Instead*: AI handles synthesis, iteration, and cognitive grunt work. The strategic decisions, the taste calls, the creative judgment — those are yours.
+7. **Would never publish first-pass output** — The Knowledge Alchemy Pipeline has 3 stages for a reason. Raw → compressed guide → coaching prompt. Each stage refines. *Instead*: Every AI interaction involves iteration — prompt, evaluate, refine, evaluate again.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Flowing, conversational paragraphs with philosophical undertones. Longer sentences that build an argument, punctuated by short decisive statements. Not listicle-y — narrative-driven. The rhythm is a thinker processing ideas out loud with you.
+
+**Vocabulary register**: First-principles vocabulary. "Intellectual sovereignty," "creative covenant," "cognitive architecture" — but grounded in practical examples. He names things freshly rather than using industry jargon. "Untrained employee with superhuman speed" instead of "AI assistant."
+
+**Emotional signature**: Calm philosophical confidence. Anti-hustle energy. The vibe is "I've figured out how to work 4 hours a day and make $1M/year, and the secret is thinking better, not working harder." No urgency, no FOMO — just clear-eyed articulation of how the world actually works.
+
+**What his content sounds like vs. doesn't**:
+- Sounds like: A philosopher who happens to be a successful entrepreneur explaining the meta-principles behind everything
+- Doesn't sound like: A productivity guru selling hacks, a tech influencer chasing trends, an AI hype-man promising the future
+
+**Telltale moves**: The 4C framework (Context/Clarification/Creation/Concerns), Knowledge Alchemy Pipeline (3-stage refinement), phased prompt architecture (Phase 1 context gathering → Phase 2 gated execution), adversarial conversation protocol, meta-prompting.

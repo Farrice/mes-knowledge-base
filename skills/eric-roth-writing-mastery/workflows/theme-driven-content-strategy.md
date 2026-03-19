@@ -6,6 +6,8 @@ description: "Design content calendars and series governed by a thematic North S
 
 Apply Eric Roth's Theme Compass to content strategy. Instead of planning by topic or format, plan by **theme** — a single gravitational field that holds diverse content together the way a film's theme holds diverse scenes together.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -95,3 +97,8 @@ Apply Pattern 10 (Time as Motif) to the series:
 6. **Series brief** — a single paragraph describing the arc, suitable for sharing with collaborators
 
 **Quality Standard**: Someone should be able to read any piece in the series without having read the others — and still feel the theme. But reading them in order should create a cumulative effect greater than any individual piece.
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

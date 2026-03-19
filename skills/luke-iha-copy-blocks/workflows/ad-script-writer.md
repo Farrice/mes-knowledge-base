@@ -6,6 +6,9 @@ description: Write a complete ad script with hook variants, body copy, and CTA �
 
 Produces a deployment-ready ad script using copy block architecture. Outputs 3 hook variants, structured body copy with block annotations, and CTA — ready for recording or publishing.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read these files in order before proceeding:
@@ -92,3 +95,9 @@ Overall: [score/10]
 - Key visual moments: [if video]
 - Tone guide: [e.g., authoritative + conversational]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

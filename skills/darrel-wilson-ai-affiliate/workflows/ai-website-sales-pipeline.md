@@ -14,6 +14,9 @@ Build a systematic pipeline for finding local businesses with terrible websites,
 - **Pricing Comfort**: What's your target price point?
 - **Scale Goal**: How many clients per month?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: "Ugly Website" Prospecting
@@ -148,3 +151,9 @@ Complete AI website sales pipeline:
 ## Creative Latitude
 
 The Google Maps prospecting and visual-gap close are Wilson's proven methods. Where local market intelligence, niche-specific positioning, or creative outreach angles improve the pipeline — deploy them. The best sales pipeline feels helpful, not salesy.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

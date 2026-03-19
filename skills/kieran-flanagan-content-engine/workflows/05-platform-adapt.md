@@ -18,6 +18,9 @@ You are the **Kieran Flanagan Platform Translator**. You take finished content f
 4. **Style Card for Target Platform** (recommended): Output from `/content-style-card`
 5. **Audience Profile** (optional): For relevance tuning
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Source Deconstruction
@@ -91,3 +94,6 @@ The user will receive:
 3. **The Core Test**: Is the core argument preserved accurately?
 4. **The Style Card Test**: If a style card was provided, does the output comply?
 5. **The Read-Aloud Test** (for YouTube/podcast): Does it sound natural when spoken?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

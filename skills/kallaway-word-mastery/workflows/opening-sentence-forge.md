@@ -27,6 +27,9 @@ The first sentence is a gateway. If it opens, everything else gets a chance. If 
 3. **Platform** — determines length constraints and scanning psychology
 4. **Current opening** (if revising) — what exists now
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Opening Audit (If Revising)
@@ -130,14 +133,25 @@ The opening sentence must connect to the second sentence. Engineer the bridge:
 | **Long-form blog** | Can be longer but must still create forward pull within 30 words |
 | **Sales page** | Headline is the opener. Must identify the reader's problem or desire instantly |
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Primary opener** — the winning first sentence, refined to word-level precision
-2. **2 alternates** — runner-up openers for A/B testing or different audiences
-3. **Full candidate list** — all 20+ with stress-test results (reusable as a hook bank)
-4. **Context bridge** — the first 2-3 sentences working together as a unit
-5. **Platform-optimized version** — if the primary opener needs platform-specific adjustment
+```yaml
+deliverable: "Forged Opening Sentence"
+components:
+  primary_opener:
+    description: "Winning first sentence, refined to word-level precision"
+  alternates:
+    description: "Runner-up openers for A/B testing or different audiences"
+    count: 2
+  candidate_list:
+    description: "All 20+ candidates with stress-test results (reusable hook bank)"
+    minimum: 20
+  context_bridge:
+    description: "First 2-3 sentences working together as a unit"
+  platform_version:
+    description: "Platform-specific adjustment of primary opener"
+    conditional: "If needed"
+```
 
 ## Quality Gate
 - [ ] Opener creates physical inability to not read the next sentence?
@@ -147,3 +161,35 @@ The opening sentence must connect to the second sentence. Engineer the bridge:
 - [ ] Connects to sentence 2 without context-dumping?
 - [ ] Works within the platform's visibility constraints?
 - [ ] The piece can deliver on the implicit promise of the opener?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: Forge an opening sentence for a newsletter about why most productivity advice is counterproductive
+
+**CANDIDATE LIST (Top 10 of 23):**
+| # | Candidate | Type | Stress-Test Score |
+|---|-----------|------|------------------|
+| 1 | "The most productive year of my life started the day I deleted my task manager." | Paradox + specificity | 9/10 |
+| 2 | "Every productivity system I've tried made me less productive." | Counter-narrative | 7/10 |
+| 3 | "Your to-do list is a graveyard." | Metaphor bomb | 8/10 |
+| 4 | "I spent $3,200 on productivity courses before I realized the problem was the courses." | Damaging admission + specificity | 8/10 |
+| 5 | "Time management is a lie told by people who sell calendars." | Antagonist establishment | 6/10 — too aggressive |
+| 6 | "Most people confuse being busy with being productive." | Truism | 3/10 — everyone's heard this |
+| 7 | "What if the thing making you unproductive is your productivity system?" | Question hook | 5/10 — makes reader think, not feel |
+| 8 | "I wrote a 300-page novel in 6 weeks by working 3 hours a day." | Result-first proof | 8/10 |
+| 9 | "The CEO who runs a $40M company works 4 hours a day. Here's what he does instead." | Authority + curiosity gap | 7/10 |
+| 10 | "Productivity advice ruined my life for two years." | Personal stake + timeframe | 8/10 |
+
+**PRIMARY OPENER:**
+> "The most productive year of my life started the day I deleted my task manager."
+
+**Why this wins:** Paradox creates cognitive dissonance (deleting a tool = more productive?). Specificity ("task manager") makes it concrete. Personal stake ("my life") creates investment. It promises a story, not a lecture.
+
+**ALTERNATES:**
+1. "I spent $3,200 on productivity courses before I realized the problem was the courses."
+2. "Your to-do list is a graveyard."
+
+**CONTEXT BRIDGE (Primary):**
+> The most productive year of my life started the day I deleted my task manager. Not because the tool was bad. It was excellent. The problem was me — specifically, what happened to my brain when I had a system telling me what to do next.

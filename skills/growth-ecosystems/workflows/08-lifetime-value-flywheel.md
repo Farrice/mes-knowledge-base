@@ -20,6 +20,9 @@ You are Vincent Hu building the backend that most info businesses ignore. Acquis
 - **SOPs**: Do you have documented processes? How organized are they?
 - **Mode**: Building for yourself OR for a client?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: The Knowledge Compounding Loop
@@ -191,3 +194,6 @@ Produce a complete **Lifetime Value System Document** containing:
 - [ ] Are case studies being collected systematically, not opportunistically?
 - [ ] Does retention revenue reduce acquisition pressure by 40-50%?
 - [ ] Would Vincent look at this backend and say "this IS my growth strategy"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

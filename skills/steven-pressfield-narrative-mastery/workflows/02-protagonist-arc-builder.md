@@ -12,6 +12,9 @@ A fully designed protagonist/character arc — complete with curse, transformati
 - **Desired end state**: Where do they arrive?
 - **Audience**: Who needs to connect with this protagonist?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Steven Pressfield building a protagonist with the psychological depth of a great novel and the structural precision of a Hollywood screenplay.
@@ -72,19 +75,33 @@ Ensure the arc carries meaning beyond the individual story.
 
 Output: Theme statement + the open question that gives the story lasting resonance.
 
-## Output Contract
+## Output Schema
 
-Deliver a **Complete Protagonist Arc** containing:
-1. **The Curse** — What they carry (1 paragraph)
-2. **Ordinary World** — The before snapshot (2-3 sentences)
-3. **Threshold Crossing** — The moment everything changes (1 paragraph)
-4. **5-Beat Transformation Arc** — Michael Moment, Villain, All Is Lost, Epiphany, Quiet Solo Moment
-5. **Identity Revelation** — The climax with sacrifice (1 paragraph)
-6. **Resonance Layer** — Theme + open mystery
-7. **Deployment Notes** — How to adapt this arc to the specific format (post, page, video, etc.)
+```yaml
+deliverable: "Complete Protagonist Arc"
+components:
+  curse:
+    description: "What they carry — 1 paragraph"
+  ordinary_world:
+    description: "The before snapshot — 2-3 sentences"
+  threshold_crossing:
+    description: "The moment everything changes — 1 paragraph"
+  five_beat_arc:
+    description: "Transformation arc through 5 beats"
+    beats: [michael_moment, villain, all_is_lost, epiphany, quiet_solo_moment]
+  identity_revelation:
+    description: "The climax with sacrifice — 1 paragraph"
+  resonance_layer:
+    description: "Theme + open mystery"
+  deployment_notes:
+    description: "How to adapt this arc to specific format (post, page, video, etc.)"
+```
 
 ## Quality Gate
 - Does the curse create **instant empathy** — not just sympathy, but identification?
 - Is the sacrifice **real and costly** — or does the protagonist "have it all" at the end?
 - Would Pressfield say: "This character has the depth to carry a story — they change, they sacrifice, they face mystery"?
 - **Gravedigger Safeguard**: Is there at least one concrete, human-specific detail that prevents the arc from feeling sterile or generic?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

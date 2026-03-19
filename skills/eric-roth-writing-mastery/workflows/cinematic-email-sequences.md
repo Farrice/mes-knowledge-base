@@ -6,6 +6,8 @@ description: "Write email sequences as serialized episodes using Eric Roth's cin
 
 Apply Eric Roth's filmmaking craft to email sequences. Each email is an "episode" in a serialized story. The sequence has a thematic arc, temporal structure, visual prose openings, and displacement-driven calls to action. The result: emails people *want* to open because they're continuing a story.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -110,3 +112,8 @@ The motif creates narrative continuity without the reader consciously tracking i
 | **Nurture Sequence** | Ongoing. Each email is a standalone "episode." Thematic coherence without sequential dependency. |
 | **Abandoned Cart** | 3 emails. Visual prose of the moment they almost bought. The product is a character in their story. |
 | **Onboarding** | 5 emails. The reader is the protagonist. Each email is a chapter in their transformation. |
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -23,6 +23,9 @@ If the user provides minimal input, run the full discovery interview. If they pr
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Business DNA Extraction
@@ -170,3 +173,6 @@ Before finalizing the discovery profile, verify:
 - [ ] Does the automation matrix honestly reflect what AI can and can't do (no overselling)?
 - [ ] Is the roadmap realistic for the founder's technical level?
 - [ ] Would Liam Mley look at this and say "this founder's business is fully understood"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

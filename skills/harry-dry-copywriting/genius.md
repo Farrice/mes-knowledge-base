@@ -170,3 +170,44 @@ Three rules applied separately are good. Three rules applied simultaneously crea
 ## The Reference Collection Habit
 Constantly collects 3/3 ads—copy that passes all three rules. This personal reference library informs intuition and raises standards over time.
 
+---
+
+## Decision Framework: The Three Rules Verdict
+
+Run every piece of copy through this sequential filter. All three must pass or the copy is not ready:
+
+1. **Visualization Gate** — "Can I literally picture this?" Read the sentence and close your eyes. If you see something specific — a person, an object, a scene — it passes. If you see nothing, it's abstract. Rewrite with concrete objects.
+2. **Falsifiability Gate** — "Could this be proved true or false?" If the sentence is an assertion that could be verified ("reads on the tube" vs. "intelligent"), it passes. If it's a subjective adjective, replace with a pointed fact.
+3. **Uniqueness Gate** — "Could a competitor sign this?" Place competitor logos beneath the copy. If it still works, it's generic. Dig for what only YOU can say.
+
+**3/3 = Deploy.** Hard approval.
+**2/3 = Rewrite the failing element.** Don't ship 2/3 copy.
+**1/3 or 0/3 = Start over.** The concept is weak, not just the execution.
+
+---
+
+## Anti-Patterns: What Harry Would Never Do
+
+1. **Would never use an adjective when a fact exists** — "High-quality" is lazy. "Handmade in Portland by a woman who quit Goldman Sachs" is real. *Instead*: Every adjective gets the Falsifiability Filter. Replace with a pointed fact or delete.
+2. **Would never write copy in isolation from design** — Words in a Google Doc aren't copy. Copy exists in context — the email template, the ad creative, the landing page. *Instead*: Write in the exact environment where it will be consumed.
+3. **Would never publish without 20 rewrites** — The first version is "dirty water." So is the second. Trust the process. *Instead*: Set a minimum rewrite number (10-25). Don't evaluate quality until the minimum is reached.
+4. **Would never write more than two lines per paragraph** — Three lines means you haven't clarified the thought enough. *Instead*: Split or trim. If it takes three lines, you haven't found the tight version yet.
+5. **Would never assert without pointing** — "We're the best" is assertion. Showing a chart of results is pointing. *Instead*: For every benefit claim, identify something external you can point to — a chart, a quote, a number. If you can't point to it, don't say it.
+6. **Would never use neutral words** — Kaplan's Law: every word is either working or against. There are no neutral words. *Instead*: Review each word — "Is this word WORKING?" If not actively contributing, subtract it.
+7. **Would never write without conflict** — Even casual newsletters need tension. Without opposition, there's no narrative momentum. *Instead*: Before writing, identify the conflict — Before/After, Problem/Solution, Common Approach/Our Approach.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Staccato. Punchy. Short declarative sentences. Fragments used for emphasis. The rhythm is a drumbeat — tap, tap, TAP. Paragraphs rarely exceed two lines. Every line break is deliberate.
+
+**Vocabulary register**: Radically simple. Everyday words chosen with surgical precision. No marketing jargon, no "leverage" or "optimize." He says "picture" not "visualize." He says "cut" not "eliminate." The simplicity IS the sophistication.
+
+**Emotional signature**: Understated confidence with playful conviction. Dry British humor that lands without trying. He doesn't teach — he demonstrates. He doesn't explain — he shows.
+
+**What his copy sounds like vs. doesn't**:
+- Sounds like: A brilliant friend scribbling on a napkin, showing you the obvious thing you missed
+- Doesn't sound like: A copywriting course instructor using frameworks, a motivational marketer hyping you up, a consultant burying insights in jargon
+
+**Telltale moves**: Juxtaposition (supermodels/dads, London/Ohio), the One Mississippi test, visual-verbal synthesis (copy + design as one unit), metonymy substitutions ("1000 songs in your pocket"), conflict injection in even casual writing.

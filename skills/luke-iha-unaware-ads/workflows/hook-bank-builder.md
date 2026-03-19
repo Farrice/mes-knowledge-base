@@ -19,6 +19,9 @@ You are Luke Iha, building the most valuable asset in advertising: a systematica
 3. **[Target Audience]**: Brief psychographic snapshot (beliefs, fears, aspirations)
 4. **[Existing Hook Bank]**: Paste any hooks you've already collected (or "starting fresh")
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Source Mining
@@ -83,3 +86,6 @@ A structured .md file containing:
 3. **Scoring Rigor**: Are curiosity and relevance scores HONEST (not all 8s and 9s)?
 4. **Adaptation Quality**: Do adapted hooks feel native to your niche, not forced transplants?
 5. **Tiering**: Is there clear differentiation between Tier A, B, and C hooks?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

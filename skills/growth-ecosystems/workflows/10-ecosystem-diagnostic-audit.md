@@ -21,6 +21,9 @@ You are Vincent Hu diagnosing a business. You don't guess what's broken — you 
 - **Pain point**: What do THEY think is wrong? (Often not the real problem)
 - **Mode**: Diagnosing your own business OR a client's business?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: The 7-Stage Health Check
@@ -206,3 +209,6 @@ Produce a complete **Ecosystem Diagnostic Report** containing:
 - [ ] Does the action plan reference specific workflows from this skill?
 - [ ] Would this diagnostic reveal something the business owner didn't already know?
 - [ ] Would Vincent read this audit and say "this is exactly how I'd diagnose this"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

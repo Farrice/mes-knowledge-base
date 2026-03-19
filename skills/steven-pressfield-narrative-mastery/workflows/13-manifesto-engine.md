@@ -38,6 +38,9 @@ Read [genius.md](../genius.md) before execution. Key patterns for this workflow:
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — The Curse Diagnosis
@@ -128,16 +131,23 @@ Annotate where and how to deploy:
 
 ---
 
-## Output Contract
+## Output Schema
 
-Deliver:
-1. ✅ Full Manifesto (500-2,000 words, fully annotated with narrative physics)
-2. ✅ Compressed Variants (tagline, one-liner, social bio, spoken)
-3. ✅ Structural Annotations (which pattern powers each section)
-4. ✅ Deployment Guide (context-specific usage notes)
-5. ✅ Evolution Notes (how to update as the brand/person grows without losing the core)
-
----
+```yaml
+deliverable: "Manifesto"
+components:
+  full_manifesto:
+    description: "500-2,000 words, fully annotated with narrative physics"
+  compressed_variants:
+    description: "Tagline, one-liner, social bio, spoken version"
+    variants: [tagline, one_liner, social_bio, spoken]
+  structural_annotations:
+    description: "Which pattern powers each section"
+  deployment_guide:
+    description: "Context-specific usage notes"
+  evolution_notes:
+    description: "How to update as brand/person grows without losing core"
+```
 
 ## Quality Gate
 
@@ -153,3 +163,6 @@ Manifesto-specific checks:
 - [ ] Would you REMEMBER any of these belief statements tomorrow?
 - [ ] Does the invitation feel like joining a territory, not subscribing to a service?
 - [ ] Read aloud — does it have rhythm, or does it stumble?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

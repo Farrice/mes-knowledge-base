@@ -13,6 +13,9 @@
 - Lead generator / entry point (what triggered the sequence)
 - Biggest objections customers have
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Donald Miller writing email sequences where every email is a micro-story. Each email follows the 7-element formula at the paragraph level — problem, agitation, thesis, solution, stakes, CTA, happy ending — compressed into 200-300 words that a daydreaming brain cannot ignore.
@@ -78,18 +81,27 @@ SUBJECT: [Curiosity hook or problem-related question]
 - Every email must provide value independent of the sale
 - CTA present but soft — no pressure
 
-## Output Contract
+## Output Schema
 
-For each email in both sequences, deliver:
-- **Subject line** (A/B variant included)
-- **Preview text** (under 90 characters)
-- **Full email body** (200-300 words)
-- **CTA** (with link placeholder)
-
-Plus:
-- 4-week nurture content calendar
-- Send schedule with timing recommendations
-- Tips for A/B testing key emails
+```yaml
+deliverable: "StoryBrand Email Sequences"
+components:
+  sales_sequence:
+    description: "6 conversion emails sent over 2 weeks"
+    count: 6
+    per_email: [subject_line, ab_variant, preview_text, full_body, cta]
+    word_limit: "200-300 words per email"
+  nurture_sequence:
+    description: "Ongoing weekly value emails"
+    per_email: [subject_line, ab_variant, preview_text, full_body, cta]
+  content_calendar:
+    description: "4-week nurture topic rotation"
+    rotation: [insight, story, problem, resource]
+  send_schedule:
+    description: "Timing recommendations for both sequences"
+  ab_testing_guide:
+    description: "Tips for testing key emails"
+```
 
 ## Quality Gate
 
@@ -99,3 +111,6 @@ Plus:
 - [ ] Nurture emails provide standalone value without selling
 - [ ] Zero jargon, zero fluff — every word earns its place
 - [ ] CTAs use resolution formula, not imperative commands
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

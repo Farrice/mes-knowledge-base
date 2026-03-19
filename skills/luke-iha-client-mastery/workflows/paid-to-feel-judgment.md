@@ -18,6 +18,9 @@ Train the creative strategist's primary superpower — the ability to detect sig
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Foundation — Understand the "Paid to Feel" Paradigm
 
 ### Completion Target
@@ -143,3 +146,6 @@ Before completing this workflow:
 - [ ] User has set up an AI Judgment Pipeline with all 4 phases
 - [ ] User has a daily sensitivity practice scheduled
 - [ ] User can explain why this role was CREATED by AI, not threatened by it
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

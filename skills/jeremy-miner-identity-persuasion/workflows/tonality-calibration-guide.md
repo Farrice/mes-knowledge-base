@@ -14,6 +14,8 @@ description: Map the 5 tone types to conversation phases and annotate any script
 - Converting written copy to simulate tonal shifts
 - Reviewing recorded calls for tonal misalignment
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## The 5 Tone Types
 
 ### 🔵 Curious Tone
@@ -141,3 +143,6 @@ For any script or copy, deliver:
 - [ ] Are there strategic pauses after every high-impact question?
 - [ ] Does the tonal flow match the nervous system calming principle?
 - [ ] Would this script feel like a caring conversation, not a pitch?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

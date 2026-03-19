@@ -18,6 +18,9 @@ description: Audit agent scaffolding for memory, task files, progress tracking, 
 - **Failure symptoms**: What inconsistency or unreliability looks like
 - **Current harness elements**: What scaffolding currently exists (if known)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — 5-Point Harness Inspection
@@ -85,3 +88,9 @@ A harness audit report containing:
 3. **Fix plan** with implementation specs, integration steps, and verification tests
 4. **Simplification recommendations** (components to remove)
 5. **Before/after prediction** (expected improvement from harness fixes alone)
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

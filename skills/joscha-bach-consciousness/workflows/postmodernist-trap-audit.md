@@ -16,6 +16,9 @@ description: Measure the delta between narrative and capability in any system, i
 
 ## The Audit Protocol
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Step 1: Narrative Capture
 
 Document what the system claims:
@@ -110,6 +113,8 @@ VERDICT: [One-paragraph assessment]
 - Are your forcing functions concrete and testable?
 - Could this audit survive if the system's leadership read it? (If it relies on insider access rather than observable reality, it's weak)
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ## Self-Application
 
 > This workflow can and should be applied to the Antigravity system itself. Periodically audit: are the skills doing what the SKILL.md files claim? Are the workflows producing the outputs they promise? Is the system telling a story about itself that exceeds its actual capability?

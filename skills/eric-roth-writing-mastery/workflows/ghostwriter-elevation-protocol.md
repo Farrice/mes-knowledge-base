@@ -6,6 +6,8 @@ description: "Elevate ghostwritten content from competent to unmistakably premiu
 
 Apply Eric Roth's writing mastery to ghostwriting — the highest-difficulty application because you must deploy Oscar-level craft *inside someone else's voice*. This protocol ensures ghostwritten content doesn't just sound like the client — it sounds like the **best version** of the client.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -98,3 +100,8 @@ The best ghostwriting has an "invisible signature" — the client's audience sen
 5. **Invisible signature map** — the craft moves present in the piece that the client's audience won't consciously notice
 
 **Quality Standard**: The client should read the piece and think "Wow, I said that well." Not "Wow, someone else wrote this well." If they detect the ghostwriter, the elevation failed.
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

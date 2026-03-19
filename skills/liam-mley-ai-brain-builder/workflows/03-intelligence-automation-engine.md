@@ -23,6 +23,9 @@ The Context Layer gave the brain knowledge. Now you give it eyes (Data), a think
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Data Layer Architecture
@@ -231,3 +234,6 @@ Before delivering the blueprint:
 - [ ] Does every automation include a self-annealing failure path?
 - [ ] Is the implementation timeline realistic for the founder's technical level?
 - [ ] Would a founder look at this and say "I can see exactly what my business will feel like after this is built"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -6,6 +6,8 @@ description: "Write social media posts with 4-layer subtext using Eric Roth's of
 
 Deploy Eric Roth's off-center subtext technique for social media. Posts that work on four layers simultaneously: surface story, emotional subtext, displaced insight, and memorable residue.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -81,3 +83,8 @@ Before publishing, verify:
 | **X/Twitter** | Compress to surface story + turn + residue line only. 280 chars max for core. |
 | **Newsletter** | Full 4-layer treatment with extended visual prose opening. 500+ words. |
 | **Instagram** | Lead with the residue line as the hook. Visual prose in caption body. |
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

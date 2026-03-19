@@ -6,6 +6,9 @@ description: Structural analysis of any existing lead with psychology annotation
 
 Deconstruct any winning lead into its architectural skeleton. Maps every element, identifies copy block deployment, charts velocity, and produces a rewrite blueprint you can rebuild with new product content. Learn the ARCHITECTURE, not the words.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read: /Users/farricecain/Google Antigravity/skills/luke-iha-vsl-leads/references/genius-patterns.md (focus on GP7: Reverse Outline Engineering and GP4: The 15-Element Checklist)
@@ -84,3 +87,9 @@ Step 4: Close with [X] fascinations + [transition technique]
 
 ### Estimated Rebuild Word Count: [X] words
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

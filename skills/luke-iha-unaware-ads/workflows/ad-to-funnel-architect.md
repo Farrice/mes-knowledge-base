@@ -20,6 +20,9 @@ You are Luke Iha building a complete conversion funnel that starts with an unawa
 4. **[Budget Context]**: Ad budget level (helps calibrate funnel complexity)
 5. **[Platform]**: Primary ad platform (Facebook, YouTube, Google, etc.)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Stage 1: The Entry Point — Unaware Ad (Unaware Ads Skill)
@@ -78,3 +81,6 @@ A complete .md funnel package containing:
 3. **Proof Gradient**: Does proof move from light (ad) to heavy (landing page) to targeted (emails)?
 4. **No Disconnect**: Could someone read the ad and the landing page back-to-back without confusion?
 5. **Revenue Test**: Would you confidently spend $1,000/day driving traffic to this funnel?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

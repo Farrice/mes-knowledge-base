@@ -18,6 +18,9 @@ Execute Luke Iha's 7-rung Proof Ladder at maximum speed — moving from zero pro
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Audit Your Current Position
 
 ### Completion Target
@@ -231,3 +234,6 @@ Before completing this workflow:
 - [ ] Each rung has documented exit criteria met
 - [ ] Portfolio is assembled in shareable format
 - [ ] Outreach volume (5-10/day) is running in parallel throughout the sprint
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

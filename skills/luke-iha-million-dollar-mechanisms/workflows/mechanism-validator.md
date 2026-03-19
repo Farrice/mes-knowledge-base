@@ -22,6 +22,9 @@ Take a mechanism candidate and run it through Luke Iha's full validation battery
 
 Score each dimension with justification (not just a number):
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Simple (1-10)
 - Can someone with no background understand this in one sentence?
 - Does it require a preamble or setup to make sense?
@@ -172,3 +175,6 @@ Before delivering:
 - ☐ At least 3 competitors mapped
 - ☐ Clear GO / REFINE / ABANDON verdict with reasoning
 - ☐ If REFINE, specific actionable improvement steps provided
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

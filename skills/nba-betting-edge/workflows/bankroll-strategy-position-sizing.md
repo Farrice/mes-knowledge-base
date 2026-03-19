@@ -20,6 +20,9 @@ Betting Frequency: [Daily / 3-4x per week / Weekends only]
 Current Situation: [New setup / Review existing / Post-drawdown recovery]
 ```
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Bankroll Foundation
@@ -119,3 +122,6 @@ The user receives a **Bankroll Strategy Document** containing:
 2. Are sizing recommendations using half-Kelly, not full Kelly?
 3. Are drawdown protocols specific with clear trigger points?
 4. Does the strategy account for the honest reality that most bettors lose long-term?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

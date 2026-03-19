@@ -6,6 +6,9 @@ deliverable: Named Person profile + raw positioning material
 
 # The Specificity Drill
 
+
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Purpose
 
 Run the ladder from industry → category → niche → micro-niche → Named Person. This is the foundational exercise. Every positioning problem is a specificity problem. This workflow doesn't stop until a real human being can be named.
@@ -95,3 +98,9 @@ By the end of this workflow, you should have:
    - The lived experience bridge (what you know that outsiders don't)
    - The bias inversion (who broke the pattern and why)
    - The specific problem only you can see clearly
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

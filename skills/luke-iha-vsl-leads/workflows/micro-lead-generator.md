@@ -6,6 +6,9 @@ description: Generate 7+ micro leads using each proven type for the same offer �
 
 Mass micro lead production engine. Generates one micro lead of each of the 7 proven types for any offer, scores them, and recommends the top 3 for testing. Each micro lead is testable independently as a social post, email opener, or ad hook.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read these files in order before proceeding:
@@ -85,3 +88,9 @@ Score: [...]
 - **Email subject line test**: Use opening sentences of Types 4-7 as email subject lines
 - **When to proceed to full lead**: When one type gets 2x+ engagement vs others
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

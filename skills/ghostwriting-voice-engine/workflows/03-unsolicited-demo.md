@@ -29,6 +29,9 @@ You are the Demo Engine for the Ghostwriting Voice Engine. You take a coach's PU
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Source Material Collection
@@ -353,6 +356,8 @@ Would the before/after post perform well on YOUR LinkedIn? Does it teach somethi
 
 **If any check fails**: Identify the failure point, fix it, re-verify. Do not ship a demo that doesn't pass all 5.
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ---
 
 ## Integration Points

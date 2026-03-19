@@ -103,15 +103,32 @@ Each workflow MUST:
 - Produce a specific, defined deliverable
 - Mirror how the expert actually thinks (integrated flow, not decomposed steps)
 - Embed genius patterns INLINE where they apply
-- Include Output Contract (exact specification of deliverable)
-- Include Quality Gate (expert-specific criteria)
+- Include **Output Schema** (YAML spec of deliverable structure — replaces Output Contract)
+- Include **Quality Gate** (expert-specific criteria)
 
 Alternatively, use the conversion swarm for parallel generation:
 ```bash
 python execution/skill_converter.py --skill "skills/[skill-name]"
 ```
 
-#### 5d. Write SKILL.md
+#### 5d. Example Enrichment (MANDATORY)
+After generating workflow files, enrich them with **worked examples**.
+
+**Requirements:**
+- Every workflow MUST have an `## Output Schema` section (YAML block defining the deliverable structure)
+- At least **2 out of 3+** workflows MUST include a `## Example Output` section with a fully worked example
+- Reactive/diagnostic workflows (e.g., copy audits that require existing copy as input) may omit the worked example but MUST still have the output schema
+
+**For each example:**
+1. **Invent a realistic scenario** — a plausible input case with enough specificity to feel real
+2. **Run the workflow mentally** — produce a partial but representative output showing the framework in action
+3. **Annotate the example** — add a `**What makes this excellent**:` note explaining WHY the output works (not just what it contains)
+
+**Quality bar:** The example should teach by showing. A reader who only reads the example should understand the workflow's value and approach.
+
+**Reference implementation:** See `skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md` for the gold standard.
+
+#### 5e. Write SKILL.md
 Use the completion engine format:
 ```markdown
 ---

@@ -18,6 +18,9 @@ Systematically brainstorm unique mechanisms for any product or offer using Luke 
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: UMP vs UMS Decision
 
 Before generating mechanisms, determine the strategic direction:
@@ -145,3 +148,6 @@ Before delivering:
 - ☐ Name passes all 5 characterization tests
 - ☐ Can articulate why UMP/UMS was chosen in one sentence
 - ☐ Mechanism taps into a pre-existing audience suspicion (not invented from nothing)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

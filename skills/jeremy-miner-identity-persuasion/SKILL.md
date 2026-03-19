@@ -49,6 +49,9 @@ Transforms how you persuade by shifting WHO the prospect believes they are — r
 | `/frame-engineer` | Build frame/deframe/reframe sequences |
 
 ## Key Files
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Jeremy Miner would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output
 
 - `genius.md` — 28 genius patterns + 10 hidden knowledge items
 - `workflows/` — 10 workflow files (3 original + 7 new)

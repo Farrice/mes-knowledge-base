@@ -14,6 +14,8 @@ description: Map current state → objective state and build the gap that makes 
 - Creating content that motivates action (not just awareness)
 - Preparing for any negotiation where the other side needs to feel urgency
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Phase 1: Current State Mapping
 
 Document the prospect's CURRENT reality with specificity.
@@ -151,3 +153,6 @@ Generate question frameworks customized to the prospect's industry. Reference th
 - [ ] Does the gap feel too painful to tolerate (not just "inconvenient")?
 - [ ] Did the PROSPECT build the bridge to the solution, not you?
 - [ ] Are all tonal annotations correct (concern tone for Layer 3)?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

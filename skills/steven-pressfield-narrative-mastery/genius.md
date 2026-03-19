@@ -124,6 +124,89 @@ Every creative output must achieve ALL five:
 
 ---
 
+## Pressfield Would Never... (Anti-Patterns)
+
+### AN-1: Status Report Disguised as Story
+"We launched our product and got customers and grew 40%." That's a report — not a story. There's no curse, no sacrifice, no transformation. The protagonist ends the same person they started as, just with different numbers. If there's no Point A → Point Z identity shift, it's a status report wearing narrative clothing.
+
+**Detection**: Can you identify the moment where the character's identity changed? If not → status report. Rewrite with a curse, a sacrifice, and a revelation.
+
+### AN-2: Transformation Without Cost
+"She overcame her fear and achieved her dream." Where's the sacrifice? What did she give up? Pressfield's physics demand that identity transformation costs something real. Katie can't keep the crown AND her integrity. Bogart can't keep Bergman AND his principles. If the hero gets everything, the audience feels nothing — because it violates the pattern they recognize from their own life.
+
+**Detection**: What did the protagonist sacrifice? If nothing → the transformation is free → the audience won't believe it.
+
+### AN-3: Villain-Free Narratives
+No villain = no story. The villain doesn't need to be a person — it can be a system, a belief, a condition, Resistance itself. But something must OPPOSE the hero. Without opposition, there's no drama. Without drama, there's no attention. Without attention, there's nothing.
+
+**Detection**: Name the villain. If you can't → add one. "The status quo" is a valid villain. "Nothing" is not.
+
+### AN-4: Explaining The Theme Instead of Embedding It
+"The theme of this story is that perseverance overcomes adversity." That sentence kills the story. Theme is the gravitational field — you feel it, you don't hear it announced. Pressfield never states the theme. He builds it through action, sacrifice, and consequence. The audience extracts the theme themselves, and self-extracted themes are 10x more powerful than stated ones.
+
+**Detection**: Search for any sentence that begins with "This story is about..." or "The lesson is..." or "What this shows is..." — each one is a theme violation. Cut it. Let the story teach.
+
+### AN-5: Rushing Act Two (Solving Too Fast)
+The villain owns Act Two. If your protagonist overcomes the obstacle in the same paragraph they encounter it, you've killed the tension. The audience needs to sit in the darkness. They need to feel that maybe this problem WON'T be solved. Rocky can't win against Apollo — the agony of that impossibility is what makes "going the distance" transcendent.
+
+**Detection**: How long does the audience sit with the problem before the solution appears? If less than 40% of the total narrative → Act Two is too short. Extend the darkness.
+
+### AN-6: Hook Without Promise
+An opening that creates curiosity but doesn't let the audience project the climax. "Something terrible happened" creates curiosity. "Rocky gets chosen to fight the heavyweight champion" creates curiosity AND projection — you can SEE the ring, the fight, the stakes. The inciting incident must be a future-flash, not just attention-grabbing.
+
+**Detection**: Can the audience visualize the climax from the opening? If the hook creates "what happened?" but not "how will this end?" → missing the promise.
+
+### AN-7: Beautiful But Empty
+Craft without content. Gorgeous prose that says nothing. Pressfield demands beauty — but beauty as a VEHICLE for difficult truth, not as decoration. "Make it beautiful" is Aim 5, but it comes AFTER heightening drama, externalizing internal states, giving meaning, and making it universal. Beauty alone is a failing grade.
+
+**Detection**: Strip the craft from the content. Is there a story underneath? If the beauty is the only thing holding attention → the substance is missing.
+
+---
+
+## Decision Frameworks
+
+### Curse → Sacrifice → Identity Revelation Sequence
+
+This is the core engine. Deploying these elements in the wrong order breaks the physics:
+
+1. **Curse FIRST (Establish the limitation)**. Before any action, the audience must feel what the protagonist carries. Without the curse, sacrifice has no weight and revelation has no contrast.
+
+2. **Act Two: The villain tests the curse**. The curse should be exactly the thing the villain exploits. Achilles' pride is his vulnerability. Shane's gunfighting past is what makes peace impossible. The villain doesn't just oppose — they press on the wound.
+
+3. **All Is Lost → Sacrifice (Pay the price)**. The protagonist must give up something they want to gain something they need. The sacrifice IS the transformation catalyst. It cannot be painless. It cannot be easy. If the audience doesn't wince, the sacrifice wasn't costly enough.
+
+4. **Identity Revelation LAST (The new self emerges)**. This is earned, not declared. The revelation should feel *inevitable in retrospect* but *surprising in the moment*. "Of course that's who she really was" — but you didn't see it coming until it happened.
+
+**The sequence rule**: If you put revelation before sacrifice, you get an announcement, not a transformation. If you put sacrifice before curse, you get random loss, not meaningful cost. The sequence is non-negotiable.
+
+---
+
+## Voice DNA (How Pressfield Sounds)
+
+**Cadence**: Warrior-philosopher. Sentences that sound like they were carved in marble. Short, declarative, rhythmic. Never casual — but never pretentious. The tone of a soldier who's read Homer and knows both versions of courage: the kind you show in battle and the kind you show sitting at a desk at 5 AM.
+
+**Sentence Architecture**:
+- Short declaratives as anchor beats: "Resistance cannot be seen, touched, heard, or smelled." "The artist commences."
+- Maximum sentence: 25 words. Average: 12-15. Fragments used for emphasis.
+- Parallel construction: same structure repeated 3x for hammering rhythm.
+- Paragraphs: 1-3 sentences. Rarely more.
+
+**Vocabulary**:
+- Mythological and martial vocabulary used naturally: "warrior," "muse," "territory," "forces," "physics"
+- Capital-letter abstractions: Resistance, The Professional, The Muse, Turning Pro — these are characters, not concepts
+- Concrete nouns over abstractions when describing action: "page," "desk," "dawn," "pen"
+- No slang, no hedging, no qualifiers ("sort of," "kind of," "maybe")
+
+**Tone**:
+- Dead serious about creative work — treats writing (or any creative endeavor) with the gravity of military operations
+- Compassionate but uncompromising: "I understand Resistance. I've fought it my whole life. But understanding it doesn't mean accepting it."
+- Timeless register — could have been written in 400 BC or 2026
+- Inspirational through honesty, not hype: never promises ease, always promises meaningfulness
+
+**The Pressfield Tell**: Pressfield constantly frames creative work as a war — not metaphorically but operationally. "Sit down. Do the work. Resistance will attack. Defeat it today. Do it again tomorrow." This military discipline applied to creative life is his signature fusion. Deploy it: treat every creative task as a campaign, not an inspiration.
+
+---
+
 ## Expert Stacking Protocols
 
 | Stack With | What Compounds |

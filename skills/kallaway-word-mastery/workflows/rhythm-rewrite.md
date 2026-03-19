@@ -18,6 +18,9 @@ description: Rewrite any draft with optimal sentence rhythm — breathers, cogni
 2. **Format context** — where this will appear (affects rhythm targets)
 3. **Key insights** (optional) — which ideas need to hit hardest
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Rhythm Diagnostic
@@ -89,12 +92,21 @@ Reassemble the content with all rhythm changes applied. Read the full piece alou
 - Is there a pull through each paragraph?
 - Does the piece end on the strongest possible note (downward inflection)?
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**: Fully rhythm-rewritten content plus:
-1. **Before/After rhythm metrics** (sentence length avg, variance, breather count, inflection ratio)
-2. **5 key interventions annotated** — the most impactful rhythm changes with reasoning
-3. **Read-aloud test verdict** — does the piece flow when spoken?
+```yaml
+deliverable: "Rhythm-Rewritten Content"
+components:
+  rewritten_content:
+    description: "Fully rhythm-rewritten piece"
+  rhythm_metrics:
+    description: "Before/after — sentence length avg, variance, breather count, inflection ratio"
+  key_interventions:
+    description: "5 most impactful rhythm changes with reasoning"
+    count: 5
+  read_aloud_verdict:
+    description: "Does the piece flow when spoken?"
+```
 
 ## Quality Gate
 - [ ] Average sentence length ≤ 15 words?
@@ -104,3 +116,49 @@ Reassemble the content with all rhythm changes applied. Read the full piece alou
 - [ ] Zero dropping phrases (energy consistent start-to-finish)?
 - [ ] Sentence length variance is high (mix of short and medium)?
 - [ ] Key insights hit with weight — reader can identify the thesis of each paragraph?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: A blog paragraph about why consistency alone doesn't grow an audience — rhythmically flat
+
+**RHYTHM DIAGNOSTIC (BEFORE):**
+```
+Avg Sentence Length: 24 words (target: ≤15) — OVER
+Sentence Length Variance: Low — all sentences 20-28 words
+Breather Count: 0 per 100 words (target: 3-5) — CRITICAL
+Downward Inflection Ratio: 30% (target: 70%) — FAILING
+Dropping Phrases: 4 of 5 sentences — energy fades before period
+```
+
+**BEFORE:**
+> The idea that posting consistently is the secret to audience growth is one of the most pervasive myths in the content creation space today. Most creators who post every single day without analyzing what works are essentially just making the same mistakes at a higher frequency, which leads to burnout without meaningful results. What actually drives audience growth is not the frequency of your posting schedule but rather the quality of the feedback loops you build into your creative process over time.
+
+**AFTER (rhythm-rewrite applied):**
+> "Post every day." That's the advice. And it's wrong.
+>
+> Not wrong because consistency doesn't matter. Wrong because consistency without feedback is just making the same mistake faster.
+>
+> Think about it. A creator posts daily for a year. 365 pieces. Zero analysis of what worked. That's not discipline — that's momentum without direction.
+>
+> What grows an audience isn't frequency. It's loops. Publish. Measure. Adjust. Publish again. Each piece slightly better than the last because it learned from the one before.
+>
+> Consistency is the vehicle. Feedback is the engine.
+
+**RHYTHM METRICS (AFTER):**
+```
+Avg Sentence Length: 9.2 words ✅ (target: ≤15)
+Sentence Length Variance: High ✅ — range: 2 to 18 words
+Breather Count: 5 per 100 words ✅ (target: 3-5)
+Downward Inflection: 78% ✅ — "faster." "direction." "engine."
+Dropping Phrases: 0 ✅
+```
+
+**KEY INTERVENTIONS:**
+1. **Compression**: 74-word sentence → split into 4 sentences averaging 8 words. Information preserved, cognitive load halved.
+2. **Breather injection**: "Think about it." — 3-word pause that lets the previous insight consolidate before the next illustration.
+3. **Downward inflection**: "That's not discipline — that's momentum without direction." Strong noun at the end. Energy lands, doesn't drift.
+4. **Anti-drop-phrase**: "over time" removed from original — energy died after "process." Everything after was trailing.
+5. **Variance**: "Post every day." (3 words) → "A creator posts daily for a year." (8 words) → "365 pieces." (2 words) — rhythm oscillates, keeps attention alive.
+

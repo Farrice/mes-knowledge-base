@@ -18,6 +18,9 @@ description: Design a complete multi-agent coordination architecture using the D
 - **Domain**: The work domain (for verifiability classification)
 - **Existing infrastructure**: Current agent setup, tools, and constraints
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Domain Assessment
@@ -84,3 +87,6 @@ A complete architecture document containing:
 
 ## Quality Gate
 Before finalizing, ask: "Could I remove one role or coordination layer and still get the same result?" If yes, remove it. Complexity reduction > complexity addition.
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

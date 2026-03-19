@@ -5,6 +5,9 @@
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Skill Acquisition
 
 Read these files before executing:
@@ -168,3 +171,6 @@ Map audit findings → service tier:
 - [ ] Would the client look at this and think "I need to fix this immediately"?
 - [ ] Does every fix recommendation tie back to a **specific, measurable business outcome**?
 - [ ] Does the report naturally create demand for the retainer without being "salesy"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

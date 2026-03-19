@@ -45,6 +45,14 @@ After generating output with a skill, run this internal check before delivering.
 | 3-4 | Generic output wearing expert terminology |
 | 1-2 | Could have been produced without loading the skill |
 
+#### Copy Calibration (when output includes customer-facing text)
+
+A world-class copywriter would never present a headline, banner, CTA, or offer description that leaves the reader asking "so what do I get?" The reader's self-interest is the FIRST thing an expert thinks about, not an afterthought.
+
+**The test:** Read the copy as the ICP, on a phone, with 2 seconds of attention. If you don't immediately know (a) this is about you, (b) what this person does, and (c) what's in it for you — it's not done yet.
+
+Score ≤ 6 if the copy names a problem without resolving it into a concrete result the reader cares about. "Visibility" is not a result. "Clients find you" is. But HOW you get there creatively — the structure, the tone, the surprise — that's where the craft lives. Don't template it.
+
 **Fail signal (score < 6)**: "A junior could have produced this with a template."
 
 ### 3. Adversarial Resilience (Score: 1-10)
@@ -127,8 +135,8 @@ This is how the ratchet accumulates data. Without logging, the system cannot det
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-18 (chain_runner finalize for kieran-flanagan-content-engine) |
-| **Activation Count** | 12 |
+| **Last Activated** | 2026-03-19 (chain_runner finalize for luke-iha-proof-ladder) |
+| **Activation Count** | 16 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (3-point check on any output), update the "Last Activated" date and increment the count.

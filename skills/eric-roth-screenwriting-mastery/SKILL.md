@@ -32,3 +32,6 @@ Deploy the screenwriting intelligence of a 7-time Oscar-nominated, Academy Award
 - **Genius Patterns**: [references/genius-patterns.md](references/genius-patterns.md) — 14 executable patterns
 - **Hidden Knowledge**: [references/hidden-knowledge.md](references/hidden-knowledge.md) — 10 insider insights
 - **Implementation**: [references/implementation.md](references/implementation.md) — stacking guide
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Eric Roth would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output

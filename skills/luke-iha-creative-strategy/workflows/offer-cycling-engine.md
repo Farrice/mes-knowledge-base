@@ -17,6 +17,9 @@ Systematically detect hot market opportunities, package your skills into an entr
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Current Offer Heat Audit
 
 Score your CURRENT offer against the Offer Heat Formula:
@@ -186,3 +189,6 @@ Before delivering:
 - ☐ Category of One positioning is genuinely unique
 - ☐ Rotation plan includes specific trigger metrics
 - ☐ Pipeline offer identified (never depend on one source)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

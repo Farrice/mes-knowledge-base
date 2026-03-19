@@ -17,6 +17,9 @@ Land a recognizable brand client — Proof Ladder Rung 7, the highest rung. Expl
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Blue-Chip Target Identification
 
 ### Completion Target
@@ -138,3 +141,6 @@ I'm flexible on structure. What works for you?
 - [ ] 3-5 ads created for at least 2 targets
 - [ ] Pitches sent to top 2-3 targets
 - [ ] Leverage multiplication plan ready for when a win lands
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

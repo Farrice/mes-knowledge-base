@@ -10,6 +10,9 @@ description: Evaluate whether a company or product should rename using Placek's 
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Intake
 Gather from the user:
 - Current name
@@ -54,3 +57,6 @@ One-page rename decision brief:
 - [ ] Placek evidence base applied (not just opinions)
 - [ ] Competitive courage frame deployed
 - [ ] Clear action path recommended
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

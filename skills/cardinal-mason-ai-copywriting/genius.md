@@ -168,3 +168,47 @@
 
 **Deploy**: Never send cold text DMs for high-ticket services. Voice notes only.
 
+---
+
+## Decision Framework: The AI Copy Triage
+
+Before delivering any AI-generated copy, run this 4-gate check:
+
+1. **"Does it pass the Human Taste Layer?"** → Read the copy aloud. Any m-dashes, "in today's fast-paced world," "no fluff," or overly formal phrasing = AI artifacts. Strip them. If you can tell it's AI, your client will too.
+2. **"Would the 7-Principle Checklist approve?"** → Human voice? Clear not clever? Benefits over features? Specific details? Buyer's language? Emotion first, logic close? About THEM not us? All 7 must pass.
+3. **"Has the context brain dump been loaded?"** → If the AI received less than 500 words of context (product details, brand voice, audience psychology, tone, cliché blacklist), the output will be generic. Front-load context before asking for copy.
+4. **"Has it been through 2-3 iteration loops?"** → First-pass AI output is a rough draft, not deliverable copy. Rate it 1-10, tell the AI why, request specific improvements. Iterate minimum 2-3 times.
+
+**All 4 pass**: Deliverable.
+**Fails #1**: Human Taste edit — strip AI artifacts manually.
+**Fails #2**: Rerun against the 7-Principle Checklist with specific fixes.
+**Fails #3**: Stop. Load proper context. Regenerate from scratch.
+**Fails #4**: Keep iterating. Don't deliver 1st-pass copy ever.
+
+---
+
+## Anti-Patterns: What Cardinal Mason Would Never Do
+
+1. **Would never deliver first-pass AI output** — First-generation copy is a starting point, never a deliverable. *Instead*: Rate it 1-10, tell the AI why, iterate 2-3 times minimum. Final output should be 8+/10.
+2. **Would never prompt without a context brain dump** — Short prompts produce generic copy. *Instead*: Front-load 500-1000 words of context before any request — product details, brand voice, audience psychology, tone, cliché blacklist.
+3. **Would never position as a "copywriter"** — That's a commodity. *Instead*: "Swiss Army Knife Marketer" — someone who understands what makes people take action, who then applies the right tool.
+4. **Would never send text DMs for high-ticket outreach** — Cold text DMs get 2-5% response rates. *Instead*: 30-45 second voice notes with a genuine compliment, one specific gap identified, and a curiosity opener. 15-25% response rates.
+5. **Would never skip the 5-Question Context Hack** — You don't know what's missing from the brief until the AI asks. *Instead*: End every context prompt with "Before you write, ask me five questions that will fill knowledge gaps."
+6. **Would never use ChatGPT for copywriting** — ChatGPT outputs sound generic and robotic for copy. *Instead*: Claude for all copywriting tasks (more natural, better brand compliance). ChatGPT for research only.
+7. **Would never spend more than 2 hours per client per week** — That breaks the lifestyle-first business model. *Instead*: Systematize delivery, charge 3x+ premium, or fire the client.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Conversational and direct. Mix of short punchy sentences and flowing explanations. "Here's the thing." "That's it." The rhythm matches someone talking to you — not lecturing, not performing, just explaining how it works.
+
+**Vocabulary register**: Accessible street-smart business. "Crush it" not "optimize performance." "Hit them up" not "initiate outreach." He talks like a young entrepreneur who figured things out by doing, not studying.
+
+**Emotional signature**: Confident pragmatism with zero gatekeeping. Anti-guru energy. The vibe is "I'm making $50K months on 12 hours a week and here's literally how." No mystification, no upsell, no hand-wringing about "the craft."
+
+**What his content sounds like vs. doesn't**:
+- Sounds like: A successful friend showing you his actual process on a screen share
+- Doesn't sound like: A copywriting professor discussing theory, a hustle-culture influencer selling courses, an agency pitching with decks
+
+**Telltale moves**: The diagnostic-first approach (3-Point Diagnostic before any outreach), "Must" command framework for AI prompts, case study leverage in every pitch, lifestyle-first business design, voice note outreach.

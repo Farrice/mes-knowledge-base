@@ -20,6 +20,9 @@ You are Vincent Hu architecting content. You don't create a "content strategy" �
 - **Platform capacity**: Which platforms can you maintain? How much time weekly?
 - **Mode**: Building for yourself OR for a client?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Content Pillars (3-Yes Aligned)
@@ -144,3 +147,6 @@ Produce a complete **Content Architecture Document** containing:
 - [ ] Is 80% of content serving the 85% (not purchase-ready)?
 - [ ] Does every content piece have a defined next-action and ecosystem route?
 - [ ] Would Vincent look at this calendar and say "this is an ecosystem, not a content plan"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

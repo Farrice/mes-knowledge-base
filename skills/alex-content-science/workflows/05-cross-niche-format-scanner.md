@@ -12,6 +12,9 @@ description: Scan trending formats from unrelated niches and map them to your do
 - **Platform** — where will you publish? (formats differ by platform)
 - **What's stale in your niche** — what formats has everyone been doing that feel tired?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — Format Identification in Source Niches
@@ -107,3 +110,6 @@ For each priority format, create a production blueprint:
 - [ ] 3+ formats successfully translated to your niche
 - [ ] No translated format can be traced to its source by your audience
 - [ ] Production blueprint includes Detail Stack decisions (not just topic/hook)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

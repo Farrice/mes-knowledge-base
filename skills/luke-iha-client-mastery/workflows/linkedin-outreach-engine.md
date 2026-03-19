@@ -17,6 +17,9 @@ Build a LinkedIn-specific client acquisition system for creative strategists. Co
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Profile Optimization for Creative Strategists
 
 ### Completion Target
@@ -128,3 +131,6 @@ Before completing this workflow:
 - [ ] Daily outreach system documented with tracking spreadsheet
 - [ ] DM-to-call sequence written and practiced
 - [ ] First week of outreach completed with metrics logged
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

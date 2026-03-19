@@ -6,7 +6,11 @@
 name: [agent-name]
 expert: [expert-name]
 domain: [domain-description]
-skill: [linked-skill-name]
+skills:
+  - [linked-skill-name]
+source: "[extraction source — e.g., MES 3.0 Expert Interview Part 1-3, YouTube masterclass, course module]"
+credentials: "[1-line expert credential — e.g., $500K/year AI copywriter, 7-figure creator business]"
+last_updated: [YYYY-MM-DD]
 ---
 
 # [EXPERT NAME] Agent
@@ -27,11 +31,11 @@ What this agent excels at (drawn from the skill's genius patterns):
 
 Prompts this agent can invoke (linked from skill):
 
-| Capability | Prompt | When Used |
-|------------|--------|-----------|
-| [Capability 1] | [prompt-1.md] | [When this agent uses it] |
-| [Capability 2] | [prompt-2.md] | [When this agent uses it] |
-| [Capability 3] | [prompt-3.md] | [When this agent uses it] |
+| Capability | Workflow | When Used |
+|------------|--------|-----------| 
+| [Capability 1] | [workflow-1.md] | [When this agent uses it] |
+| [Capability 2] | [workflow-2.md] | [When this agent uses it] |
+| [Capability 3] | [workflow-3.md] | [When this agent uses it] |
 
 ## Decision Framework
 
@@ -72,3 +76,40 @@ This agent's persistent context is stored in `memory/context.md`. Update it when
 - Learning user brand/project details
 - Completing significant work
 - Discovering preferences
+
+---
+
+## Workflow File Standards
+
+When creating workflow files for this agent's skill, each workflow MUST include:
+
+### Output Schema
+Define the exact structure of the deliverable so output follows a predictable format:
+
+```yaml
+## Output Schema
+final_deliverable:
+  component_1: "[what this contains]"
+  component_2: "[what this contains]"
+  component_3: "[what this contains]"
+```
+
+### Example Output
+Include at least one worked input → output example per workflow:
+
+```markdown
+## Example Output
+
+**Scenario**: [Specific, realistic input context]
+
+**Result**:
+[The actual deliverable — complete enough to demonstrate quality standard.
+Not a description. The thing itself.]
+
+**What makes this excellent**: [1-2 lines on why this meets the expert's standard]
+```
+
+**Sources for examples** (in priority order):
+1. Expert demonstrations from the source transcript
+2. Legacy v1.0 prompt examples (check `references/prompts/`)
+3. Real-world exemplars of the expert's published work

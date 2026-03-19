@@ -13,6 +13,9 @@ Transform any automation workflow you've built for yourself into a sellable prod
 - **Price Range**: Where does this fit? ($500 setup, $1K turnkey, $5K custom)
 - **Delivery Model**: One-time sale, monthly subscription, or hybrid?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Value Audit
@@ -89,3 +92,9 @@ Complete workflow product package:
 ## Creative Latitude
 
 The packaging above is the foundation. Where market intelligence reveals underserved buyer segments, untapped sales channels, or creative bundling opportunities — deploy them. The most profitable workflow products solve problems buyers don't know are solvable.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

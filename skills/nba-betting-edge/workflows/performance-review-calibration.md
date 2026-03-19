@@ -21,6 +21,9 @@ Results: [List of bets with actual stat lines and outcomes, OR user provides ver
 If the user provides results verbally, help them log each bet using:
 `python execution/bet_tracker.py result [bet_id] [actual_value] [win/loss]`
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Results Collection & Logging
@@ -98,3 +101,6 @@ The user receives a **Performance Review Report** containing:
 2. Is the edge accuracy analysis quantified (not just "we did well/poorly")?
 3. Does the confidence calibration use actual hit rates, not impressions?
 4. Are adjustment recommendations specific and actionable?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

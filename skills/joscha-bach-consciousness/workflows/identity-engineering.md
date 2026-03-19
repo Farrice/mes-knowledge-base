@@ -16,6 +16,9 @@ description: Design identities as instruments for getting things done — constr
 
 ## The Identity Engineering Protocol
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Phase 1: Identity Audit
 
 Map your current identities:
@@ -95,6 +98,8 @@ FUSION MITIGATION: [What prevents fusion]
 - Have you identified fusion risk and mitigation?
 - Does this identity serve the task, or has the task started serving the identity?
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ## Cross-Stack
 
 - Pair with **Dan Koe's Past-Self Avatar** for personal brand identity construction

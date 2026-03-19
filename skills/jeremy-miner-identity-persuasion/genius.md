@@ -656,3 +656,47 @@ Masters don't think about these elements consciously—they've become the water 
 
 The danger zone is Stage 2—when you're so focused on technique that you lose authenticity. Push through. On the other side is flow.
 
+---
+
+## Decision Framework: The Conversation Readiness Diagnostic
+
+Before entering any persuasion conversation (sales call, pitch, negotiation, written funnel), run this 4-gate check:
+
+1. **"Have I mapped the identity I'm selling TO?"** → If you can't name the identity type the prospect aspires to — and the one they're afraid of being — you're selling features, not identity transformation. *Fix*: Define the 4 Identity Types for this context before opening your mouth.
+2. **"Have I pre-framed the top 3 objections?"** → If the objections will be voiced for the first time during the conversation, you'll be handling instead of preventing. *Fix*: Build inoculation pre-frames that make voicing them feel like admitting weakness.
+3. **"Am I calming or activating their nervous system?"** → Review every element of your opening: language, tone, pacing. If anything creates threat perception, the conversation is dead before it starts. *Fix*: Downplay, use humor, deploy concerned tone — reduce threat to zero.
+4. **"Is the gap wide enough before I present?"** → If you haven't helped them discover 3-5 problems they didn't know they had, the gap is too small and the price will always feel too high. *Fix*: Build the gap with Problem Awareness Questions before presenting anything.
+
+**All 4 pass**: Enter the conversation. The architecture is set.
+**Fails #1**: You'll pitch features. Pause and map identities.
+**Fails #2**: You'll handle objections reactively. Build pre-frames.
+**Fails #3**: You're creating resistance. Redesign your opening.
+**Fails #4**: You'll meet price resistance. Go back to gap building.
+
+---
+
+## Anti-Patterns: What Jeremy Would Never Do
+
+1. **Would never lead with the solution** — Presenting before the gap is built = begging. The gap IS the sale. *Instead*: Build the gap until the prospect says "I can't keep doing this" — THEN present.
+2. **Would never tell the prospect what's wrong** — Direct claims trigger defensiveness. *Instead*: Ask questions that cause THEM to articulate what's wrong. Self-persuasion > external persuasion.
+3. **Would never answer a price objection with justification** — "Well, it includes..." is weak. *Instead*: Reframe using the Intention Frame or Necessity Frame — compare the investment to the cost of NOT acting.
+4. **Would never use enthusiastic, hype-y energy** — Excitement = sales pressure = nervous system activation. *Instead*: Calm authority with concerned tone. Downplay ("today's pretty basic"). The anti-pitch paradoxically increases desire.
+5. **Would never argue with an objection** — Debating means you've already lost ground. *Instead*: Prevent objections by inoculating against them in the first 10 minutes. If one surfaces, reframe the identity, don't argue the logic.
+6. **Would never ask "meaty" questions before trust exists** — Deep probing in the first 60 seconds triggers the guard. *Instead*: Connection Questions first — "Looks like you [action] about [result], right?" — establish the results frame before exploring problems.
+7. **Would never rush through important moments** — Speed = surface processing. *Instead*: Strategic pauses after key questions, verbal pacing ("..."), and letting each question land before moving to the next. Deep processing = emotional engagement.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Measured, deliberate pacing with strategic pauses. Mid-length sentences that build and then land. The rhythm mimics a confident consultant who knows the answer but wants you to discover it yourself.
+
+**Vocabulary register**: Psychological precision wrapped in everyday language. Uses "frame," "identity," "nervous system" — but never academically. Everything is grounded in examples: "the type of person who..." and "have you ever noticed that..." Makes complex psychology feel like common sense.
+
+**Emotional signature**: Calm authority with genuine empathy. Never salesy, never excited. The energy is "I've seen this pattern 10,000 times and I know exactly what's happening" combined with "I genuinely care about helping you see it too." Concerned tone is the default — not happy, not serious, CONCERNED.
+
+**What his approach sounds like vs. doesn't**:
+- Sounds like: A skilled therapist who happens to sell — questions that lead you to your own conclusions
+- Doesn't sound like: A traditional sales trainer ("overcome objections!"), a motivational closer, a high-energy pitch artist
+
+**Telltale moves**: Identity labeling ("You're the type who..."), binary locks ("Is that something you were born with or developed?"), consequence stacking ("And then what happens?"), tonal calibration (matching then leading), permission architecture ("Would it be okay if...").

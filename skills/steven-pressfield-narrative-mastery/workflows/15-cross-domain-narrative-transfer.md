@@ -39,6 +39,9 @@ Key patterns:
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Source Narrative X-Ray
@@ -153,16 +156,22 @@ Based on the target domain, recommend which other Antigravity experts should be 
 
 ---
 
-## Output Contract
+## Output Schema
 
-Deliver:
-1. ✅ Source Narrative X-Ray (full functional analysis)
-2. ✅ Transfer Map (element-by-element function→form mapping)
-3. ✅ Reconstructed Target Content (fully built on source architecture)
-4. ✅ Adaptation Notes (preserved/modified/discarded/amplified log)
-5. ✅ Expert Stacking Recommendations (which agents to deploy next)
-
----
+```yaml
+deliverable: "Cross-Domain Narrative Transfer"
+components:
+  source_xray:
+    description: "Full functional analysis of source narrative"
+  transfer_map:
+    description: "Element-by-element function → form mapping"
+  reconstructed_content:
+    description: "Fully built target content on source architecture"
+  adaptation_notes:
+    description: "Preserved/modified/discarded/amplified log"
+  expert_stacking:
+    description: "Which agents to deploy next"
+```
 
 ## Quality Gate
 
@@ -177,3 +186,6 @@ Cross-domain-specific checks:
 - [ ] Could someone who's never seen/read the source still be fully moved by the target?
 - [ ] Has at least ONE force been AMPLIFIED in the transfer (stronger in target than source)?
 - [ ] Are the stacking recommendations actionable?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

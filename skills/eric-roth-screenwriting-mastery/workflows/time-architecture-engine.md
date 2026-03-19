@@ -13,6 +13,8 @@ Read these files before executing:
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Pattern 10)
 3. `skills/eric-roth-screenwriting-mastery/references/hidden-knowledge.md` (HK-8)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Story** — plot summary, characters, theme
@@ -127,3 +129,6 @@ SCENE BREAKDOWN BY ERA:
 - [ ] Emotional arc across time mirrors but doesn't duplicate plot arc
 - [ ] Audience can always orient themselves in time
 - [ ] The passage of time creates emotional impact beyond what a single-day story could
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

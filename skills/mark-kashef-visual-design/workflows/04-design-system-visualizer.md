@@ -22,6 +22,9 @@ Read `genius.md` in this skill directory before proceeding.
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Prompt 1: Technical Schema Visualizer
@@ -165,3 +168,9 @@ For visualizing Antigravity agent architectures:
 - [ ] Non-technical version is genuinely understandable by a non-engineer
 - [ ] Design decisions are surfaced for stakeholder input
 - [ ] Diagram is accurate enough to be used as a development specification
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

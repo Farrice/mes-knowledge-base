@@ -10,6 +10,9 @@ description: Three-frame divergent ideation sprint — generate 15+ content conc
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Intake
 Gather from the user:
 - Topic or theme
@@ -52,3 +55,6 @@ Deploy `divergent-content-sprint` prompt → Steps 5-6:
 - [ ] At least one frame collision identified
 - [ ] Top 5 concepts include elements from 2+ frames
 - [ ] Sonic opening scored for each finalist
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

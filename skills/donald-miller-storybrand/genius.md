@@ -4,7 +4,7 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
-## The StoryBrand Operating System
+## How Miller Thinks: The StoryBrand Operating System
 
 Donald Miller's genius is treating story structure as a **neurological exploit**. The human brain daydreams 30% of waking hours — the ONLY thing that stops daydreaming is perceived survival relevance. Story is the single format that can commandeer 100% of human attention because story = simulated survival experience. Every piece of business communication that doesn't follow story structure is invisible to the brain.
 
@@ -68,6 +68,56 @@ This resolves the customer's internal debate instead of adding pressure. You're 
 
 ---
 
+## Decision Frameworks (How Miller Diagnoses and Fixes)
+
+### DF-1: The Broken Message Triage
+
+When messaging isn't converting, Miller doesn't guess. He runs the 7-element audit in order:
+
+1. **Is the Character clear?** Can a stranger identify in 5 seconds who this is for? If not → rewrite the header/hook to name the hero and their desire.
+2. **Is the Problem defined at all 3 levels?** Most businesses only have the external. If the internal problem is missing → that's why the message gets head-nods but no action.
+3. **Is the brand positioned as Guide, not Hero?** Look at the first 3 sentences of any page. If the brand is the subject of those sentences → hero violation. Rewrite with the customer as subject.
+4. **Is there a Plan?** The customer must see exactly 3 steps (or feel the path is simple). No plan = too much cognitive load = abandonment.
+5. **Is the CTA resolving a decision?** If the CTA is "Buy Now" or "Get Started" → it's adding pressure. Rewrite as decision resolution.
+6. **Are Failure stakes present?** If there's no cliff → no urgency. The customer must see what they lose by not acting.
+7. **Is Success painted vividly?** Not features, not deliverables. The life they'll have AFTER. The emotional state. The identity shift.
+
+**The diagnosis rule**: The FIRST broken element is the bottleneck. Fix elements in order, not at random. A brilliant CTA on top of a broken Problem section is wasted work.
+
+### DF-2: The Hero/Guide Diagnostic
+
+For every piece of copy, run this test:
+
+1. Count the first-person references ("we," "our," "I," brand name) in the first 100 words.
+2. Count the second-person references ("you," "your") in the first 100 words.
+3. **If first-person > second-person → the brand is the hero.** Rewrite.
+
+**The math**: Opening copy should be 3:1 "you" to "we" minimum. Welcome copy, about pages, and brand stories are where this violation is most common — and most damaging.
+
+### DF-3: The Clarity Meter (Would a Caveman Understand This?)
+
+Miller's clarity test is deliberately blunt: if a caveman — someone with zero industry knowledge — cannot understand your message in 5 seconds, the message fails.
+
+**The 3-layer clarity check**:
+1. **Can I understand what you offer?** (If no → you're using jargon or abstraction)
+2. **Can I see how it makes my life better?** (If no → you're describing process, not outcome)
+3. **Can I see what to do next?** (If no → your CTA is buried or unclear)
+
+**Decision rule**: Run every header, tagline, and CTA through the caveman test. Re-read it with fresh eyes. If any re-reading is required, that sentence needs simplification.
+
+### DF-4: Internal Problem Mining
+
+The internal problem is the most powerful element and the hardest to identify. Miller's process:
+
+1. Start with the external problem (what they're hiring you to solve)
+2. Ask: "How does having this problem make them FEEL?" → that's the internal problem
+3. Ask: "Why SHOULDN'T they have to deal with this?" → that's the philosophical problem
+4. Write copy that addresses the internal problem FIRST, then resolves it with the external solution
+
+**The test**: If your copy could work for any product in the same category, your internal problem is too generic. "We understand how frustrating this is" → too vague. "You shouldn't need a PhD to understand your own financial reports" → specific internal problem tied to specific identity frustration.
+
+---
+
 ## Genius Patterns
 
 ### GP1: The Hero Inversion
@@ -120,25 +170,110 @@ Stories don't need logical connection to the business — they need emotional re
 
 ---
 
+## Miller Would Never... (Anti-Patterns)
+
+These are structural violations of StoryBrand methodology. If any appear in output, you've departed from Miller's intelligence:
+
+### AN-1: Making the Brand the Hero
+The single most common and most fatal error. When copy leads with the brand's credentials, awards, history, or founding story — the customer is displaced as hero. They become an audience member watching someone else's story. They disengage.
+
+**Detection**: Read the first 3 sentences. If the brand is the grammatical subject of more than 1 → hero violation.
+
+### AN-2: Leading with Credentials Before Value
+"We're a team of Harvard-educated engineers with 47 years of combined experience." Nobody cares — until you've demonstrated how you solve THEIR problem. Credentials are guide elements (Element 3). They come AFTER the problem is established (Element 2).
+
+**Detection**: If credentials appear before the problem statement → wrong sequence.
+
+### AN-3: Using Jargon as if It's Clarity
+"Our synergistic, end-to-end platform leverages AI-driven insights." This is noise. The brain registers complexity and disengages. Miller's test: would a 10-year-old understand this sentence? If not, it's jargon.
+
+**Detection**: Any sentence containing 3+ industry-specific terms → jargon alarm. Rewrite in plain language.
+
+### AN-4: Vague, Pressure-Based CTAs
+"Get Started." "Buy Now." "Schedule a Demo." These create pressure without resolution. They add ONE MORE thing the customer has to decide — which is the opposite of what a CTA should do.
+
+**Better**: "If you're tired of [problem], [product] is worth trying." Resolves the internal debate.
+
+### AN-5: Features Before Transformation
+"128-bit encryption. Cloud-native architecture. Real-time sync." Features are meaningless without the context of transformation. The customer needs to see their AFTER state before features have any weight.
+
+**Detection**: Search for feature lists that appear before the Success element. Restructure: transformation first, features as evidence of how.
+
+### AN-6: Skip-Presenting a Plan
+Going from Problem + Guide directly to CTA without showing the customer the path. This triggers "it seems too complicated" anxiety — the #1 conversion killer. The Plan element (3-step process) exists to make the path feel *simple and safe*.
+
+**Detection**: If there's no "Step 1, Step 2, Step 3" between Guide and CTA → missing Plan element.
+
+### AN-7: The Missing Villain
+Every story needs a villain. Without one, there's no conflict, no urgency, no reason to act NOW. The villain can be a problem, a competitor, a status quo, a belief system — but it must be named and externalized.
+
+**Detection**: If you can't point to what the customer is fighting against → add a villain.
+
+---
+
+## Voice DNA (How Miller Sounds)
+
+When deploying Miller's intelligence, maintain these voice markers:
+
+**Cadence**: Pastoral-preacher meets building-contractor. Simple words, declarative sentences, folksy analogies that make complex ideas feel like common sense. Miller sounds like a guy who could explain brand strategy while helping you move furniture.
+
+**Sentence Architecture**:
+- Short declaratives as anchors: "That's the problem." "Nobody cares." "This is how it works."
+- Teaching rhythm: concept → analogy → application. Never concept alone.
+- Repetition as rhythm tool: "If you confuse, you lose. If you confuse, you lose. If you confuse, you lose."
+- Paragraphs are 2-3 sentences max.
+
+**Vocabulary**:
+- Everyday language. "Customer" not "end user." "Problem" not "pain point." "Story" not "narrative."
+- Building/construction metaphors: "wireframe," "framework," "build," "architect."
+- Direct address: heavy "you" usage. Minimal passive voice.
+- No academic language, no consultant-speak, no marketing buzzwords.
+
+**Tone**:
+- Confident but approachable. Never condescending.
+- Urgency through consequence, not hype: "If you don't clarify your message, people will ignore you" — not "Don't miss out!"
+- Moves between teaching mode and story mode fluidly.
+- Always empathetic to the business owner's confusion — "this isn't your fault, nobody taught you this" energy.
+
+**The Miller Tell**: Miller constantly reinforces that this isn't his invention — it's how the brain works. He positions himself as someone who *discovered* universal principles, not someone who *created* a system. This is key to his authority without arrogance. Deploy the same framing: "This works because the brain works this way" — not "I recommend this approach."
+
+---
+
 ## Hidden Knowledge
 
 ### HK1: Nobody Cares Until You've Helped Them
-Audiences have zero interest in you until AFTER you've solved their problem. Leading with credentials before demonstrating value is structural error.
+Audiences have zero interest in you until AFTER you've solved their problem. Leading with credentials before demonstrating value is structural error. Not a preference — a neurological fact.
 
 ### HK2: "Your Story" Is A Trojan Horse
-What audiences experience as "hearing your brand story" is a customer transformation narrative wearing autobiographical clothes.
+What audiences experience as "hearing your brand story" is a customer transformation narrative wearing autobiographical clothes. The brand's origin story only works when it mirrors the customer's struggle.
 
 ### HK3: Product Position 4 — Earn The Right
-Introducing the product first is like introducing the sword before the dragon — it has no weight.
+Introducing the product first is like introducing the sword before the dragon — it has no weight. The 3-element Problem → Guide → Plan sequence earns the right for the product to appear.
 
 ### HK4: The Brain Is A Survival Machine
-Marketing that presents information fails. The brain scans for survival relevance, not information.
+Marketing that presents information fails. The brain scans for survival relevance, not information. Every message must answer: "Will this help me survive and thrive?"
 
 ### HK5: Daydream Defeat Is The Only Metric
 If your message doesn't stop a daydream, it doesn't exist. Everything else is downstream.
 
 ### HK6: CTA = Decision Resolver
-CTAs aren't asks — they're psychological resolution of the customer's internal debate.
+CTAs aren't asks — they're psychological resolution of the customer's internal debate. The customer was already considering the action. The CTA confirms it was the right choice.
 
 ### HK7: One Formula, Infinite Applications
 The 7-element formula works identically at every scale: page-level, section-level, paragraph-level. It works on landing pages, keynotes, webinars, open houses, emails, pitch decks.
+
+### HK8: Confusion Is Not a Branding Problem — It's a Survival Problem
+When a customer encounters a confusing message, they don't think "this brand needs better copywriting." They simply leave. The brain interprets confusion as potential danger and conserves calories by disengaging. The cost isn't "poor branding" — it's complete invisibility.
+
+---
+
+## Expert Stacking Protocols
+
+| Stack With | What Compounds |
+|-----------|---------------|
+| **Luke Iha** | StoryBrand 7-element structure + Proof Ladder architecture = story-driven messaging with proof at every tier. The BrandScript creates the narrative, the Proof Ladder creates the evidence. |
+| **Kallaway** | Miller's clarity mandate + Kallaway's rhythm architecture = messaging that's both structurally sound AND sonically compelling. Miller ensures the right message; Kallaway ensures it sounds right. |
+| **Steven Pressfield** | StoryBrand's hero/guide positioning + Pressfield's narrative physics = messaging with both commercial clarity and mythological depth. |
+| **Harry Dry** | Miller's messaging framework + Harry Dry's copy precision = headlines and taglines that are simultaneously story-driven and conversion-optimized. |
+| **Cardinal Mason** | StoryBrand architecture + Cardinal Mason's AI copy execution = scalable, framework-compliant copy generation across all channels. |
+| **Greg Hoffman** | StoryBrand's customer-as-hero + Hoffman's brand mythology = brands that are both commercially clear and culturally resonant. |

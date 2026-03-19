@@ -19,6 +19,9 @@ description: Audit a multi-agent system for coordination overhead, then produce 
 - **Architecture documentation**: Current roles, coordination protocols, and communication patterns (if available)
 - **Performance data**: Token usage, completion rates, quality scores, time-to-output (if available)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Bloat Detection Scan
@@ -110,3 +113,9 @@ A Bloat-to-Depth Optimization Report containing:
 
 ## Anti-Pattern Warning
 The most common mistake is *adding* a coordination layer to fix a coordination problem. This workflow enforces the opposite: simplify first, add only after proving simplification doesn't work. Trust the convergence evidence — the four labs that solved this all converged on simpler designs, not more complex ones.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

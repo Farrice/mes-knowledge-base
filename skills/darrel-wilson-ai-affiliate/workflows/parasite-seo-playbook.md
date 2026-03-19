@@ -13,6 +13,9 @@ Execute Darrel Wilson's parasite SEO strategy for affiliate and service-based co
 - **Target Keywords**: Specific keywords you want to rank for (or keyword research needed?)
 - **Content Capacity**: How many articles per week can you publish?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Keyword Qualification
@@ -120,3 +123,9 @@ Complete parasite SEO execution plan:
 ## Creative Latitude
 
 The platform list above covers the major authority domains. Where niche-specific intelligence reveals high-DA platforms unique to the user's industry (industry forums, community sites, specialized publications) — leverage them. The best parasite SEO exploits authority nobody else thinks to borrow.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -15,6 +15,8 @@ description: Take any existing copy, email, landing page, or content and inject 
 - When reviewing existing copy that's underperforming
 - As a "second pass" after ANY content creation workflow
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Inputs Required
 
 1. **The copy/content** to be upgraded
@@ -138,3 +140,6 @@ Examples:
 - [ ] Are objection preventions embedded BEFORE the CTA?
 - [ ] Does the overall tone feel like concern, not pressure?
 - [ ] Would a reader feel they DISCOVERED a truth, not got SOLD?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

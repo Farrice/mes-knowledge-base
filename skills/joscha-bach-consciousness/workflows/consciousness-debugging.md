@@ -16,6 +16,9 @@ description: Trace suffering, creative blocks, and internal conflicts to their g
 
 ## The Debugging Protocol
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Step 1: Identify the Pain Generator
 
 Bach: "There is some part of you that is generating suffering... one part of the mind that is inflicting pain on another."
@@ -103,6 +106,8 @@ RESOLUTION: [What changes if negotiation succeeds]
 - Did you propose a negotiation that acknowledges the generator's goals?
 - If there's a conflict, did you map both sides honestly?
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ## Cross-Stack
 
 - Stack with **Pressfield's Resistance** — Bach mechanizes what Pressfield mythologizes. Use Bach to diagnose, Pressfield to mobilize.

@@ -19,6 +19,9 @@ You are the **Kieran Flanagan Pattern Architect**. You find content that ALREADY
 3. **Platform**: Which platform to generate ideas for (LinkedIn, Newsletter, X, YouTube)
 4. **Style Card** (recommended): Output from `/content-style-card` workflow for voice alignment
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Content Collection & Filtering
@@ -76,3 +79,6 @@ The user will receive a **Lookalike Content Report** containing:
 3. **The Talking Point Test**: Does every idea map to specific talking points the creator actually holds?
 4. **The Volume Test**: Are there at least 15 actionable ideas?
 5. **The Platform Test**: Are ideas adapted to the target platform's conventions?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

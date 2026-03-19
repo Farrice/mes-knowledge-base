@@ -26,6 +26,9 @@ Take a single VSL lead and decompose it into 10+ standalone ads. Every section, 
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Lead Decomposition
 
 Break the lead into its structural components:
@@ -121,3 +124,9 @@ VSL-to-Ad Atomizer Results:
 ├── Copy Block Map (which blocks each ad uses)
 └── Testing Priority (ranked sequence)
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

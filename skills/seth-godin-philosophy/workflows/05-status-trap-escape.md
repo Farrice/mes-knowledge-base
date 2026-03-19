@@ -23,6 +23,9 @@ description: "Diagnose status game traps, audit your fuel sources, and design a 
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Map the Status Games
 
 ### Step 1: Name the Games You're Playing
@@ -204,3 +207,9 @@ After doing it, I am: [identity statement in past tense]
 - **Compounds with**: `/identity-engineering` (Joscha Bach) — identity construction + status trap escape = intentional identity
 - **Compounds with**: `/consciousness-debug` (Joscha Bach) — trace status-seeking to its generator
 - **Compounds with**: Dan Koe `/adversarial-refine` — stress-test the escape plan
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

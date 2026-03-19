@@ -23,6 +23,9 @@ You are Nick Saraev building a growth roadmap for a business. You don't do gener
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Current State → Constraint Profile
@@ -124,3 +127,6 @@ Convert the phased roadmap into executable sprints:
 - [ ] Are sprints concrete enough to start executing tomorrow?
 - [ ] Does the playbook predict constraint oscillation (lead gen ↔ fulfillment)?
 - [ ] Is every phase transition defined by a measurable signal, not a vague feeling?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

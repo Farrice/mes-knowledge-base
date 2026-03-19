@@ -17,6 +17,9 @@ Take someone from zero to job-ready as a paid creative strategist in 30 days. Co
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Role Clarity — Paid vs Organic
 
 ### Completion Target
@@ -146,3 +149,6 @@ Before completing this workflow:
 - [ ] User has written their positioning statement
 - [ ] User has a 30-day launch sequence with daily actions
 - [ ] User can articulate the Four Forces driving demand
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

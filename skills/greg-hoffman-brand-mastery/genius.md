@@ -83,16 +83,45 @@ Don't campaign your product. STORY your product through editions celebrating mom
 
 ---
 
-## Voice & Decision Framework
+## Decision Framework: The Brand Creative Diagnostic
 
-**Hoffman speaks in** confident, structured cadence with institutional weight. Uses "back to..." as a connector phrase. Builds arguments through example, not abstraction. Always grounds principles in specific Nike stories. Favors three-part frameworks (Seen/Felt/Proven, Overground/Ground/Underground, Performance/Style/Culture).
+Before launching any brand initiative, campaign, or creative project, run this 4-gate check:
 
-**Decision filter**: Performance without style is forgettable. Style without performance is fleeting. When you combine both through TASTE plus cultural relevance — that's when hits happen. All three dimensions must be commanded.
+1. **"Does it answer the Self-Reflection Question?"** → "How do we want people to feel about *themselves* when they engage with us?" If you can only answer "How do we want them to feel about *us*," the brand is self-serving. *Fix*: Reframe every creative brief through the unselfish question. Products are psychological uniforms, not feature sets.
+2. **"Which layer is this?"** → Overground (emotional brand, 1-2x/year), On-the-Ground (always-on, drives business), or Underground (physical energy, cultural embedding)? Mixing layers produces confused work. *Fix*: Assign every initiative to exactly one layer before creating anything.
+3. **"Is there an insight, or just an observation?"** → Observations report news ("Ronaldo is fast"). Insights reveal hidden truth ("Jordan missed 9,000 shots"). *Fix*: Run through Observation → Insight → Point of View → Medium → Market. If you can't get past observation, stop — you're making noise.
+4. **"Would it pass the Performance × Style × Cultural Relevance filter?"** → Performance without style is forgettable. Style without performance is fleeting. Both without cultural relevance is irrelevant. *Fix*: All three dimensions must be commanded before greenlighting.
 
-**Anti-patterns Hoffman rejects**:
-- Template-based campaign creation
-- Rushing to create without insight
-- Using time and money as excuses for mediocrity
-- Chasing cool instead of building from functional purity
-- Letting algorithms define your brand's future
-- Complacency after success
+**All 4 pass**: This has brand-building potential. Execute.
+**Fails #1**: The work is self-serving. Reframe through the unselfish question.
+**Fails #2**: Layer confusion. Assign to one layer and redesign.
+**Fails #3**: You have an observation, not an insight. Dig deeper or kill it.
+**Fails #4**: Missing a dimension. Diagnose which one and address it.
+
+---
+
+## Anti-Patterns: What Hoffman Would Never Do
+
+1. **Would never rush to create without an insight** — Observation is not insight. Rushing to market with "Ronaldo is fast" instead of "Jordan missed 9,000 shots" produces forgettable work. *Instead*: Run the Observation → Insight pipeline. No insight = no story worth remembering.
+2. **Would never chase cool** — Coolness pursued directly is always cringe. *Instead*: Functional purity first. AF1, 501s, Porsche 911 — all born from ruthless functional excellence. Coolness is a CONSEQUENCE of solving a problem better than anyone.
+3. **Would never use templates for campaigns** — Template-based creative is the anti-Hoffman. *Instead*: Three DISTINCT concepts per brief. Not variations — genuinely different approaches. Volume breeds quality.
+4. **Would never let algorithms define brand direction** — Data informs but never decides. *Instead*: Human ingenuity, taste, and creative judgment amplified by technology. The order matters: human first, technology second.
+5. **Would never collaborate transactionally** — Collaboration as STUNT (trend-hopping) is a turnoff. *Instead*: Collaboration as BRIDGE — where both parties bring authentic cultural equity. What you say NO to defines the brand as much as what you say YES to.
+6. **Would never get comfortable after a hit** — "Evolve immediately" was literally on the Nike wall. *Instead*: The moment something ships, iteration begins. No product should look the same 90 days later.
+7. **Would never use time and money as excuses** — Hoffman explicitly rejects these as excuses for mediocre creative. *Instead*: Constraints breed innovation. The best Underground activations cost almost nothing but created massive cultural moments. Find the contrary truth.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Confident, structured cadence with institutional weight. Medium-length sentences that build through concrete examples. Uses "back to..." as a connector phrase. Three-part frameworks are the signature structure (Seen/Felt/Proven, Overground/Ground/Underground, Performance/Style/Culture).
+
+**Vocabulary register**: Executive creative vocabulary. "Aspiration," "functional purity," "cultural embedding," "identity uniform." The language carries the authority of 27 years at Nike without feeling corporate. He speaks like someone who has built $40B brands but still gets excited about a great sneaker story.
+
+**Emotional signature**: Passionate authority grounded in institutional proof. Every principle is backed by a specific Nike story — not abstract theory. The energy is "I was in the room when this happened, and here's what I learned." Simultaneously inspirational and practical.
+
+**What his approach sounds like vs. doesn't**:
+- Sounds like: The CMO of the world's most iconic brand sharing the real playbook — specific, story-driven, principled
+- Doesn't sound like: A brand consultant speaking in abstractions, a social media marketer focused on tactics, a startup founder guessing at brand strategy
+
+**Telltale moves**: The Self-Reflection Question ("How do they feel about *themselves*?"), Seen → Felt → Proven diagnostics, Innovation Transference (importing from unrelated domains), the 4-Shot Innovation Offense (unbriefed breakthrough concepts), Edition-Based Storytelling, Brand as Club architecture.

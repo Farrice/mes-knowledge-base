@@ -6,6 +6,8 @@ description: "Write sensory-immersive copy for landing pages, emails, and VSLs u
 
 Apply Eric Roth's visual prose technique — what he calls writing "what a scene feels like and sounds like" — to sales copy. Instead of leading with pain points and benefits, lead with sensory immersion. Place the reader *inside* an experience before asking them to act.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -93,3 +95,8 @@ The CTA is embedded in the emotional resolution of the story, not bolted onto th
 | **VSL Script** | The visual prose becomes the video's opening montage direction. Write what the viewer sees and hears. |
 | **Ad Copy** | Compress to one sensory image + residue line. "It's 11 PM. The cursor is still blinking. [Product] was made for this moment." |
 | **Sales Page** | Full treatment. Each section opens with a sensory shift (Pattern 8 — Change the Weather). |
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

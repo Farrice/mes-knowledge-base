@@ -28,6 +28,9 @@ Rapid ad creation sprint that starts with a validated mechanism and produces ads
 
 ## Sprint Structure (45 min)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Block 1: Awareness-Level Mapping (10 min)
 
 Map the mechanism through each awareness level:
@@ -99,3 +102,6 @@ Mechanism-First Ad Sprint Results:
 - ☐ Each awareness level has distinct messaging (no copy-paste across levels)
 - ☐ Scripts use varied copy blocks (not all starting with pain)
 - ☐ Testing recommendation prioritizes highest-leverage awareness level
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

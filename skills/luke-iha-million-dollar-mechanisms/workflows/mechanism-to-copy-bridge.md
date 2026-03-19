@@ -19,6 +19,9 @@ Take a validated mechanism (name, type, SIN score) and generate the downstream c
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Mechanism-Driven Hook Generation
 
 Generate hooks that spring directly from the mechanism. Each hook type leverages the mechanism differently.
@@ -178,3 +181,6 @@ Before delivering:
 - ☐ Every output is mechanism-DRIVEN — remove the mechanism and the copy collapses
 - ☐ Copy block annotations present on VSL outline
 - ☐ Causal pain (Pain Matrix dimension 10) addressed in empathy/problem beats
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

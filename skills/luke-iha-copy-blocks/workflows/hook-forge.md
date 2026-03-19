@@ -6,6 +6,9 @@ description: Generate 30+ hooks using positioning types, psychological triggers,
 
 Mass hook generation engine. Produces 30+ testable hooks for any offer using systematic positioning types, psychological trigger categories, and proof-of-work patterns. Includes scoring and priority testing recommendations.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read these files in order before proceeding:
@@ -93,3 +96,9 @@ Total score out of 40.
 ### Quick-Launch Pack
 [Top 3 hooks formatted for immediate deployment on the target platform]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

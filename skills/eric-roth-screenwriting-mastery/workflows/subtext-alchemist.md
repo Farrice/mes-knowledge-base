@@ -13,6 +13,8 @@ Read these files before executing:
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Pattern 5)
 3. `skills/eric-roth-screenwriting-mastery/references/hidden-knowledge.md` (HK-2, HK-6)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Scene or dialogue excerpt** — the material to transform
@@ -115,3 +117,8 @@ THREE-LAYER VERIFICATION:
 | Make every line a metaphor (exhausting) | Mix off-center lines with natural, simple exchanges |
 | Use displacement so oblique that meaning is lost | Ensure subtext layer is accessible to attentive viewers |
 | Force literary references that don't match the character's voice | Use displacements that emerge from who the character IS |
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

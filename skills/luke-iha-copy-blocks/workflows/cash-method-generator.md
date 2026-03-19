@@ -6,6 +6,9 @@ description: Generate 20+ ad concepts from one product using the systematic Conc
 
 Systematic ad ideation engine. Produces a multiplication matrix with 50-180+ unique ad variation paths from a single product. Never run out of ideas.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read these files in order before proceeding:
@@ -109,3 +112,9 @@ Concepts: X × Angles: ~Y × Styles: Z = **[Total] unique variation paths**
 ### Priority Testing Order
 [Top 5 variations to test first, with rationale]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

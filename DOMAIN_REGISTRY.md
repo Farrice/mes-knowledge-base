@@ -1,7 +1,10 @@
 # Domain Registry
 
 > Authoritative routing guide for expert orchestration. Defines swim lanes, routing logic, and handoff protocols.
-> **94 agents across 14 domains.** Some agents appear in multiple domains.
+> **95 agents across 15 domains.** Some agents appear in multiple domains.
+>
+> **Tier 2 Upgrades**: All skills upgraded with genius.md Decision Framework + Anti-Patterns + Voice DNA. Workflows harmonized with Pre-Flight Gate + Anti-Pattern Guard. See `invocation-cards.md` for current status.
+> **Last Updated**: 2026-03-19
 
 ---
 

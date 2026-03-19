@@ -18,6 +18,9 @@ Systematically collect testimonials from past/current clients using Luke Iha's g
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Testimonial Target List
 
 ### Completion Target
@@ -172,3 +175,6 @@ record on your phone. No pressure if not!
 - [ ] Initial ask sent to all targets
 - [ ] Follow-up cadence scheduled (Days 3, 6, 10, 14)
 - [ ] 5+ testimonials collected and displayed on portfolio
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

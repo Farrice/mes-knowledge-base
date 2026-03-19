@@ -18,6 +18,9 @@ Build verifiable ad spend track record (Proof Ladder Rung 5) using agency partne
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: Path Selection
 
 ### Completion Target
@@ -131,3 +134,6 @@ Applications sent to 5-10 DTC ad agencies.
 - [ ] First pitch or application sent
 - [ ] Track record one-liner drafted for profiles
 - [ ] Running spend total visible on LinkedIn/portfolio
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -13,6 +13,9 @@
 - Existing website URL (if redesigning)
 - Key differentiators / proof points (testimonials, stats, logos)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Donald Miller wireframing a website that passes the 5-second test and follows the StoryBrand scrolling story structure. Every section of the page is a story element. The user scrolls through a complete narrative — from problem to transformation — and arrives at the CTA with total clarity and zero cognitive friction.
@@ -104,65 +107,27 @@ For each section, write:
 - **Image direction** (what the visual should convey)
 - **Design notes** (layout, spacing, emphasis)
 
-## Output Contract
+## Output Schema
 
-```
-══════════════════════════════════════
-STORYBRAND WEBSITE WIREFRAME: [BUSINESS]
-══════════════════════════════════════
-
-5-SECOND TEST ANSWERS:
-1. What we do: "[answer]"
-2. How it helps: "[answer]"
-3. What to do: "[answer]"
-
-WIREFRAME (9 sections, top-to-bottom):
-
-[Section 1: Hero Header]
-• Headline: "[copy]"
-• Sub-headline: "[copy]"
-• CTA: "[button text]"
-• Image: [direction]
-
-[Section 2: The Problem]
-• Copy: "[2-3 sentences]"
-• Design: [notes]
-
-[Section 3: Three Benefits]
-• Benefit 1: [headline + description]
-• Benefit 2: [headline + description]
-• Benefit 3: [headline + description]
-
-[Section 4: Guide Positioning]
-• Empathy: "[statement]"
-• Authority: [proof points]
-• Testimonials: [if applicable]
-
-[Section 5: The Plan]
-• Step 1: [action]
-• Step 2: [action]
-• Step 3: [result]
-
-[Section 6: Explainer]
-• Copy: "[paragraph]"
-• Transitional CTA: "[text]"
-
-[Section 7: Stakes]
-• [Consequence 1]
-• [Consequence 2]
-• [Consequence 3]
-
-[Section 8: Success]
-• [Transformation 1]
-• [Transformation 2]
-• [Transformation 3]
-
-[Section 9: Final CTA]
-• Headline: "[copy]"
-• Direct CTA: "[button]"
-• Transitional CTA: "[text]"
-• Trust elements: [list]
-══════════════════════════════════════
+```yaml
+deliverable: "StoryBrand Website Wireframe"
+components:
+  five_second_test:
+    description: "3 questions answered above the fold"
+    questions: [what_we_do, how_it_helps, what_to_do]
+  wireframe_sections:
+    description: "9-section top-to-bottom page structure"
+    sections:
+      - hero_header: "Headline, sub-headline, CTA button, image direction"
+      - problem: "2-3 sentences naming customer pain + internal problem"
+      - three_benefits: "3 outcome cards with icon + headline + description"
+      - guide_positioning: "Empathy statement + authority proof + testimonials"
+      - plan: "3-step numbered process"
+      - explainer: "Deeper mechanism paragraph + transitional CTA"
+      - stakes: "3 consequences of not acting"
+      - success: "3 transformation outcomes"
+      - final_cta: "Headline + direct CTA + transitional CTA + trust elements"
+    per_section: [headline, body_text, cta_text, image_direction, design_notes]
 ```
 
 ## Quality Gate
@@ -175,3 +140,6 @@ WIREFRAME (9 sections, top-to-bottom):
 - [ ] Negative stakes create genuine urgency
 - [ ] Success section paints specific, emotionally resonant transformation
 - [ ] Zero jargon — every visitor understands instantly
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

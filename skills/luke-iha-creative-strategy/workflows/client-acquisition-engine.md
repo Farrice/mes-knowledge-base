@@ -20,6 +20,9 @@ You are Luke Iha, deploying the Objection Annihilator and Over-Delivery Flywheel
 4. **[Portfolio Links]**: Any relevant work samples
 5. **[Over-Delivery Capacity]**: How much extra can you deliver beyond scope?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Job Intelligence
@@ -60,3 +63,6 @@ A complete .md file containing:
 3. **Strategic Signal**: Is there at least one insight that shows strategic thinking beyond "I can write"?
 4. **Tone Match**: Does the tone match the decision maker profile (casual for founders, professional for enterprise)?
 5. **Over-Delivery Value**: Would the bonus deliverables genuinely surprise and delight?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

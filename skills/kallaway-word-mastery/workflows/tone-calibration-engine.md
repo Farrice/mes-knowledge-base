@@ -17,6 +17,9 @@ description: Rewrite any content in a precision-targeted tone — casual, profes
 2. **Target tone** — one of: casual, professional, entertaining, comedic, authoritative (or a blend like "casual-authoritative")
 3. **Context** — where this will be published, who the audience is
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Tone Diagnosis
@@ -58,12 +61,21 @@ The switch itself creates energy. Monotone register is forgettable.
 ### Step 5: Formality-Trust Calibration
 Apply the Likable Expert principle: informal sentence structure (short, direct) + formal proof (specific data, precise terminology). This is how you sound like a friend who happens to be the world's leading expert.
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**: Fully rewritten content in the target tone plus:
-1. **Tone scorecard** showing before/after register metrics
-2. **Annotation layer** with 5-10 key word-level choices explained
-3. **Code-switch map** showing where register shifts occur (if applied)
+```yaml
+deliverable: "Tone-Calibrated Content"
+components:
+  rewritten_content:
+    description: "Content fully rewritten in the target tone"
+  tone_scorecard:
+    description: "Before/after register metrics"
+  annotation_layer:
+    description: "5-10 key word-level choices explained"
+  code_switch_map:
+    description: "Where register shifts occur"
+    conditional: "If applied"
+```
 
 ## Quality Gate
 - [ ] Does every sentence sound like it was written in the target register?
@@ -71,3 +83,6 @@ Apply the Likable Expert principle: informal sentence structure (short, direct) 
 - [ ] Would a reader immediately identify the tone without being told?
 - [ ] Does the rewrite preserve the original meaning and content value?
 - [ ] If code-switching was applied, are the transitions smooth?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

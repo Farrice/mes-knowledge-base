@@ -6,6 +6,8 @@ description: "Deepen any content draft through Eric Roth's page-one re-entry met
 
 Apply Eric Roth's 60-year daily revision discipline to content writing. This is NOT rewriting — it's erosion. Like water shaping stone, each re-entry pass refines the draft without the self-consciousness of "fixing."
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -85,3 +87,8 @@ If any of these are missing, engineer them using Patterns 9, 7, and 5.
 | **Long-form Article** | Full 5-pass treatment; most benefit from the process |
 | **Ghostwritten Piece** | Erosion must preserve client voice — shore up their patterns, don't introduce yours |
 | **LinkedIn Article** | Lighter erosion — 3 passes max; focus on opening and closing residue |
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

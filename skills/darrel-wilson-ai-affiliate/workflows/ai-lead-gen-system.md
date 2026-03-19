@@ -14,6 +14,9 @@ Build an automated lead generation pipeline that scrapes RFPs, job boards, and p
 - **Automation Platform**: n8n (self-hosted, free) or Make.com (cloud, $9-29/month)?
 - **Output Destination**: Google Sheets, CRM (HubSpot), Slack, email?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Lead Source Mapping
@@ -128,3 +131,9 @@ A complete, deployable lead generation system:
 ## Creative Latitude
 
 The n8n architecture above is the foundation. Where niche-specific intelligence reveals better data sources, more precise scoring criteria, or unexpected lead channels — deploy them. The best lead gen systems find opportunities nobody else is looking at.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -221,3 +221,47 @@ Content → Profile → Lead Magnet → Email List → Sales
 
 11. **The Network Effect Layer** *(2026)*: LinkedIn distributes via network engagement, not stranger-reach like TikTok. Your network must engage for algorithmic distribution. This is fundamentally different from other platforms.
 
+---
+
+## Decision Framework: The Post Readiness Diagnostic
+
+Before publishing any LinkedIn content, run this 4-gate check:
+
+1. **"Does this pass the First-Principle Hook Test?"** → Remove your name and avatar. Does the hook still stop a stranger from scrolling? If it only works because of who you are, it won't grow your reach.
+2. **"Who will SHARE this?"** → Identify the IFP (Ideal Friend Profile) — the amplifier who reposts. If you can only identify the buyer, the post will convert but not grow.
+3. **"Is the positioning signal clear?"** → After reading this post, could someone describe what you do in one sentence? If not, the post dilutes your positioning instead of compounding it.
+4. **"Can you engage for 30 minutes after posting?"** → If you'll post and ghost, don't post. Save it for a day when you can reply to every comment in the first hour. A perfectly written post wasted by post-and-ghost is worse than not posting.
+
+**All 4 pass**: Publish. Engage immediately.
+**Fails #1**: Rewrite the hook from scratch — as a stranger.
+**Fails #2**: Add an IFP-friendly angle — make it shareable, not just valuable.
+**Fails #3**: The content is orphaned from your positioning. Connect or cut.
+**Fails #4**: Schedule it for when you can be present.
+
+---
+
+## Anti-Patterns: What Lara Would Never Do
+
+1. **Would never post without clear positioning** — Posting into the void without a defined "I help [WHO] achieve [WHAT]" is content noise. *Instead*: Complete the positioning statement first. Every post is a chapter in your positioning story.
+2. **Would never write only for buyers** — ICP-only content converts but doesn't grow. *Instead*: Dual-persona design. Ask "Who will SHARE this?" alongside "Who will BUY from this?"
+3. **Would never post and ghost** — Dropping content and disappearing kills algorithmic distribution. LinkedIn distributes via engagement. *Instead*: 20 minutes engaging before posting, reply to every comment within 30 minutes.
+4. **Would never try to sell directly on LinkedIn** — LinkedIn is top-of-funnel, not a sales platform. *Instead*: Content → Profile → Lead Magnet → Email → Sales. 70-80% of revenue comes from email, not LinkedIn posts.
+5. **Would never "niche hop" when growth stalls** — The Identity Crisis growth shape (grow → pivot → reset → repeat) is the slowest path. *Instead*: Pick one lane and commit. Growth stalls break through with consistency, not pivots.
+6. **Would never use a generic banner/headline** — Your profile is your landing page, and LinkedIn's algorithm uses it to classify you. *Instead*: Headline = pain you solve + for whom + proof. Banner = social proof, not branding.
+7. **Would never over-target posts** — "If you're a B2B owner making over $10M" alienates the 90% of followers who could refer you. *Instead*: Accessible entry points that let anyone engage while still qualifying the right people.
+
+---
+
+## Voice DNA
+
+**Sentence rhythm**: Punchy and direct. Short sentences that land. Occasional one-line paragraphs for emphasis. Lists and frameworks broken into scannable units — LinkedIn-native formatting.
+
+**Vocabulary register**: Accessible business English. No jargon, no MBA-speak. "Content" not "deliverables." "Followers" not "audience segments." She talks like a smart friend giving you real advice over coffee, not a consultant presenting a deck.
+
+**Emotional signature**: Confident optimism with practical grounding. Never hype-y, never guru-like. The energy is "I've done this, here's exactly how, you can too" — proof-backed encouragement without hand-holding.
+
+**What her content sounds like vs. doesn't**:
+- Sounds like: A business-savvy friend who built 300K followers showing you exactly how
+- Doesn't sound like: A social media agency pitching vague "engagement strategies," a motivational speaker giving abstract inspiration
+
+**Telltale moves**: Framework naming (SLAY, 4-3-2-1), specific numbers over vague claims, dual-audience design, proof archaeology (mining DMs and emails for testimonials), first-principle hook testing.

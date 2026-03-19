@@ -10,6 +10,9 @@ description: Extract transferable one-sentence principles from content breakdown
 - **Detail Stack Breakdown(s)** — one or more completed breakdowns from Workflow 01
 - **Target niche** (optional — what niche will principles be applied to?)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — Surface the Mechanisms
@@ -106,3 +109,6 @@ Document principle stacks that create compound effects.
 - [ ] At least 3 principles score 4+ on all three transferability dimensions
 - [ ] At least 1 principle stack identified
 - [ ] Principles cover 3+ categories (not all visual or all structural)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

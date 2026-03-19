@@ -23,6 +23,9 @@ Read `genius.md` in this skill directory before proceeding.
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Conceptualize & Wireframe
@@ -143,3 +146,9 @@ If the project involves image generation rather than code:
 
 ## Creative Latitude
 The wireframe locks the STRUCTURE. Within that structure, bring maximum creative intelligence to the aesthetic execution. Surprise with beautiful details that the wireframe didn't specify but that elevate the result — subtle gradients, elegant transitions, thoughtful whitespace. The methodology is the floor for structure; the ceiling is your aesthetic taste.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

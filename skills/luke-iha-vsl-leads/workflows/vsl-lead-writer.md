@@ -6,6 +6,9 @@ description: Write a complete VSL lead — micro lead + body + fascinations + cl
 
 Produces a deployment-ready VSL lead: micro lead opening, 4-phase body, fascination bullets, and bridge to the mechanism reveal. The "movie trailer" for your sales letter.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read these files in order before proceeding:
@@ -100,3 +103,9 @@ Target: 10+/15.
 ### Lead Word Count: [X] words
 ### Awareness Level Calibration: [level] → lead length is [appropriate/needs adjustment]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

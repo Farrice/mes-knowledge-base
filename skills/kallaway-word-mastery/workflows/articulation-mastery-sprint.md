@@ -20,6 +20,9 @@ description: Complete articulation overhaul — runs any content through the ful
 4. **Voice reference** (optional) — sample of the author's natural voice
 5. **Proof inventory** (optional) — stats, results, data available for injection
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Pass 0: Pre-Flight (Anxiety Physics)
@@ -116,13 +119,21 @@ OVERALL:
   Transformation Delta: [+X points]
 ```
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Fully transformed content** — the final piece after all 6 passes
-2. **Sprint scorecard** — before/after metrics across all dimensions
-3. **Top 5 transformations** — the most impactful changes with before/after comparison
-4. **Articulation notes** — patterns observed that should inform future writing
+```yaml
+deliverable: "Articulation-Mastered Content"
+components:
+  transformed_content:
+    description: "Fully transformed piece after all 6 passes"
+  sprint_scorecard:
+    description: "Before/after metrics across all dimensions"
+  top_5_transformations:
+    description: "Most impactful changes with before/after comparison"
+    count: 5
+  articulation_notes:
+    description: "Patterns observed that should inform future writing"
+```
 
 ## Quality Gate (Non-Negotiable)
 - [ ] Average sentence ≤ 15 words?
@@ -136,3 +147,6 @@ OVERALL:
 - [ ] Voice pocket alignment ≥ 8/10?
 - [ ] Reader cannot stop reading mid-piece?
 - [ ] Overall quality score ≥ 8/10?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -12,6 +12,9 @@ Create evaluation protocols that detect agent output quality without requiring d
 - Training team members to spot low-quality agent output
 - Designing monitoring systems for production agents
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Output Characterization
@@ -100,3 +103,9 @@ Sniff-check protocol document containing:
 - Escalation trigger definitions
 - Quick-reference scorecard (pass/flag/fail)
 - Estimated time per evaluation
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

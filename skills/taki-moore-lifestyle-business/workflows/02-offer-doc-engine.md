@@ -13,6 +13,9 @@ Produce a complete, high-converting offer doc that sells a coaching program, cou
 - **Results you can promise**: What's the realistic outcome?
 - **Existing audience size** (if any): This determines how aggressive the messaging can be
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Taki Moore crafting an offer doc that sells through clarity and trust, not persuasion and pressure.
@@ -96,3 +99,6 @@ Apply **Trust Economy** (HK-08): The video is a trust deposit. Be genuine, not p
 - [ ] Is the guarantee anxiety-free for both buyer AND seller?
 - [ ] Are there zero pressure tactics? (No fake countdown timers, no "only 2 spots left" manipulation)
 - [ ] Would someone share this doc with a friend who might benefit?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

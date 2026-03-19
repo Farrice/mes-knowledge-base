@@ -12,6 +12,9 @@ A set of hook designs for any format — LinkedIn posts, YouTube video openings,
 - **Climax hint**: What is the payoff the hook needs to foreshadow? (Even vaguely is fine — we'll sharpen it)
 - **Quantity**: How many hook variants? (Default: 5)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Steven Pressfield engineering the gravitational pull of an opening. A great hook operates like a great inciting incident — it doesn't just start the story; it lets the audience **glimpse the climax** and makes them desperate to get there.
@@ -69,16 +72,28 @@ Run each hook through the Five Aims:
 
 Kill any hook that fails 3+ aims.
 
-## Output Contract
+## Output Schema
 
-Deliver:
-1. **5 Hook Variants** (one per pattern) — each ready to deploy
-2. **Recommended Lead** — Which hook is strongest for this specific content/audience
-3. **Mystery Thread** (if applicable) — The question, its recurrence points, and its resolution
-4. **Adaptation Notes** — How to adjust each hook for different platforms/formats
+```yaml
+deliverable: "Hook & Mystery Architecture"
+components:
+  hook_variants:
+    description: "5 hook variants — one per pattern — each ready to deploy"
+    count: 5
+  recommended_lead:
+    description: "Which hook is strongest for this specific content/audience"
+  mystery_thread:
+    description: "The question, its recurrence points, and its resolution"
+    conditional: "If applicable"
+  adaptation_notes:
+    description: "How to adjust each hook for different platforms/formats"
+```
 
 ## Quality Gate
 - Does each hook create **genuine gravitational pull** — or is it just a clever line?
 - **Future-Flash test**: Can the reader see the payoff from the hook? If not, the hook fails its primary job.
 - **Gossip test**: Would someone repeat this hook to a friend? Would it sound natural in conversation?
 - Would Pressfield say: "That opening is an inciting incident — the audience can see the climax and they NEED to get there"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -20,6 +20,9 @@ You are an Intent Engineer specializing in the transition from "fluent text comp
 - **[FAILURE_LOGS]**: (Optional) Specific examples where the agent hallucinated intent or failed a task.
 - **[SUCCESS_CRITERIA]**: What "done" looks like from a human perspective.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Latent Intent Deconstruction
@@ -71,3 +74,6 @@ The user will receive an **Agent Reliability Audit & Remediation Plan** containi
 3. **Assumption Transparency**: Does the agent now reveal its internal "mental model" before executing tool calls?
 4. **Anti-Fluency Check**: Does the prompt prioritize "getting it right" over "sounding helpful"?
 5. **Constraint Density**: Are the "invisible guardrails" now visible and binding?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

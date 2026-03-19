@@ -13,6 +13,9 @@ Build an automated system that finds, filters, and delivers high-value RFP (Requ
 - **Geographic Scope**: Local, state, federal, or international?
 - **Platform Preference**: n8n (self-hosted) or Make.com (cloud)?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: RFP Source Identification
@@ -126,3 +129,9 @@ Track opportunities through stages:
 ## Creative Latitude
 
 The sources above cover the standard RFP landscape. Where domain-specific intelligence reveals hidden procurement channels, niche job boards, or industry-specific contract platforms — deploy them. The highest ROI is often in niche sources nobody else monitors.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

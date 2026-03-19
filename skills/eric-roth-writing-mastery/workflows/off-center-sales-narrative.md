@@ -6,6 +6,8 @@ description: "Write sales copy where the pitch is never direct — displacement 
 
 Apply Eric Roth's off-center subtext to sales writing. The most powerful sales copy doesn't sell directly — it displaces the pitch into story, metaphor, and emotional truth. The reader persuades themselves.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Skill Acquisition
 
 Load the following in order:
@@ -99,3 +101,8 @@ Engineer the closing action as a continuation, not a command:
 5. **Direct B-version** — a conventional copy version for A/B testing
 
 **Quality Standard**: A reader should reach the CTA feeling like they decided on their own, not like they were persuaded. If the copy feels like "selling," the displacement isn't working.
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

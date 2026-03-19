@@ -13,6 +13,9 @@ Transform any one-time sale or project into a recurring revenue stream. Based on
 - **Technical Ability**: Can you host/maintain/update what you deliver?
 - **Price Sensitivity**: What can your market bear monthly?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Recurring Opportunity Audit
@@ -119,3 +122,9 @@ Complete recurring revenue conversion package:
 - Retention system design
 - Revenue projection model
 - Automated monthly report template
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

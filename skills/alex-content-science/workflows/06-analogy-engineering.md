@@ -11,6 +11,9 @@ description: Transform boring-but-valuable topics into irresistible content by m
 - **Your audience** — who needs this BUT wouldn't normally consume this content?
 - **Audience interests** — what topics/domains does this audience already obsess over? (list 5-10)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — Boredom Diagnosis
@@ -117,3 +120,6 @@ Build the content around the winning analogy:
 - [ ] Analogy creates emotion shift from "homework" to "interesting"
 - [ ] Content is framed through the analogy in title/hook (not the boring topic)
 - [ ] Someone retelling this content would naturally use the analogy
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

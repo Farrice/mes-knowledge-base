@@ -20,6 +20,9 @@ You are Luke Iha running a maximum-volume hook generation sprint. You deploy EVE
 4. **[Awareness Level Focus]**: Primary level (or "all levels" for maximum coverage)
 5. **[Existing Hooks]**: Any hooks currently in use (to avoid duplication)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Engine 1: Vectors of Winning Angles (from Unaware Ads)
@@ -97,3 +100,6 @@ A complete .md file containing:
 3. **Score Differentiation**: Is there genuine variance in scores (not all 7s and 8s)?
 4. **Redundancy Check**: No two hooks say the same thing in different words?
 5. **Expansion Quality**: Do the Top 10 expanded hooks create genuine open loops?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

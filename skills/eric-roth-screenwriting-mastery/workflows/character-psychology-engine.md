@@ -13,6 +13,8 @@ Read these files before executing:
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Patterns 4, 6)
 3. `skills/eric-roth-screenwriting-mastery/references/hidden-knowledge.md` (HK-9, HK-10)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Character name** (or placeholder)
@@ -143,3 +145,8 @@ VOICE SAMPLES:
 THEME CONNECTION:
 [How they embody/challenge the story's theme]
 ```
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -13,6 +13,9 @@ Select the highest-ROI affiliate programs for any niche using Darrel Wilson's 10
 - **Revenue Goal**: Monthly commission target
 - **Experience Level**: First program or adding to existing portfolio?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Niche-to-Category Mapping
@@ -70,3 +73,9 @@ A ranked table of 5-10 recommended affiliate programs with:
 ## Creative Latitude
 
 The scoring matrix is the foundation. Where niche-specific knowledge reveals overlooked programs, hidden commission structures, or unusual stacking opportunities — deploy them. The best affiliate programs are often the ones nobody talks about because they're not on "top 10" lists.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

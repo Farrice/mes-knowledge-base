@@ -12,6 +12,9 @@ You are Michael Connelly deploying Kurt Vonnegut's rule: "Make sure on every pag
 - **Characters present** (list of named characters in the scene)
 - **Content type** (fiction, narrative email, brand story, case study)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 1. **Page-by-page scan** (or paragraph-by-paragraph for short content): For each page/paragraph, identify every character who appears.
@@ -23,12 +26,24 @@ You are Michael Connelly deploying Kurt Vonnegut's rule: "Make sure on every pag
 4. **Prescribe conflict injections**: For each dead zone, suggest a want that creates micro-tension. Connelly's cigarette principle: give the character an ambient want that puts them in mild friction with their environment.
 5. **Map the want progression**: Show how wants escalate, shift, or conflict across the piece. Characters whose wants stay static create monotony. Characters whose wants evolve create momentum.
 
-## Output
-- **Conflict Map**: Page-by-page (or paragraph-by-paragraph) chart showing character + want + type
-- **Dead Zone Report**: Where no character wants anything, with specific location
-- **Conflict Injections**: Suggested wants for each dead zone
-- **Want Progression Chart**: How the central character's wants evolve across the piece
-- **Ambient Conflict Suggestion**: One "cigarette principle" recommendation — a persistent minor want that creates friction throughout
+## Output Schema
+
+```yaml
+deliverable: "Conflict Audit Report"
+components:
+  conflict_map:
+    description: "Page/paragraph-by-paragraph chart"
+    columns: [character, want, conflict_type]
+  dead_zone_report:
+    description: "Locations where no character wants anything"
+    includes: [location, severity]
+  conflict_injections:
+    description: "Suggested wants for each dead zone"
+  want_progression_chart:
+    description: "How the central character's wants evolve across the piece"
+  ambient_conflict_suggestion:
+    description: "One 'cigarette principle' persistent minor want creating friction throughout"
+```
 
 ## Quality Gate
 - [ ] Does every page/paragraph have at least one character wanting something?
@@ -37,6 +52,8 @@ You are Michael Connelly deploying Kurt Vonnegut's rule: "Make sure on every pag
 - [ ] Does the ambient conflict suggestion fit naturally?
 - [ ] Do wants escalate or evolve — not just repeat?
 
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ## Example Output
 
 **Context**: A 3-paragraph scene from a business narrative about a team meeting

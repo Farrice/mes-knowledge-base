@@ -13,6 +13,9 @@ Design and execute a compound revenue architecture that stacks multiple AI-power
 - **Time Budget**: Hours per week available for building?
 - **Revenue Goal**: Target monthly income in 6 months?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Revenue Stream Inventory
@@ -113,3 +116,9 @@ Complete revenue stacking blueprint:
 - 4-phase rollout plan with weekly milestones
 - Dashboard template for tracking
 - Revenue projections at conservative/moderate/aggressive scenarios
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

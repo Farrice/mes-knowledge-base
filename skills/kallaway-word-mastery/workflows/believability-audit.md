@@ -18,6 +18,9 @@ description: Audit any content for inauthenticity signals — flag phrases that 
 2. **Voice reference** (optional but powerful) — a sample of the author's natural writing/speaking (tweets, casual emails, voice memos, transcripts)
 3. **Publishing context** — where this will appear
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: First-Read Gut Check
@@ -106,14 +109,23 @@ AFTER: [Rewritten in voice pocket]
 WHY: [What the fix accomplishes]
 ```
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Overall believability score** [1-10] with justification
-2. **Inauthenticity map** — every flagged line with signal type, root cause, and rewrite
-3. **Top 5 before/after comparisons** with reasoning
-4. **Rewritten content** — full piece with all fixes applied
-5. **Voice pocket notes** — observations about the author's natural patterns for future reference
+```yaml
+deliverable: "Believability Audit"
+components:
+  believability_score:
+    description: "Overall score [1-10] with justification"
+  inauthenticity_map:
+    description: "Every flagged line with signal type, root cause, and rewrite"
+  top_5_comparisons:
+    description: "Before/after comparisons with reasoning"
+    count: 5
+  rewritten_content:
+    description: "Full piece with all fixes applied"
+  voice_pocket_notes:
+    description: "Author's natural patterns for future reference"
+```
 
 ## Quality Gate
 - [ ] Every template phrase has been replaced with original language?
@@ -123,3 +135,36 @@ WHY: [What the fix accomplishes]
 - [ ] Emotional claims match demonstrated energy?
 - [ ] At least 2 idiosyncratic details add texture?
 - [ ] Author would read this and think "yes, that sounds like me"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: Believability audit of a 1,200-word LinkedIn post about startup lessons (AI-assisted draft)
+
+**OVERALL BELIEVABILITY SCORE: 4/10**
+Primary issue: The post sounds like a confident outsider narrating someone else's experience. Generic intensity without specificity.
+
+**INAUTHENTICITY MAP (Top 5 flags):**
+| Line | Signal Type | Severity |
+|------|------------|----------|
+| "The journey taught me invaluable lessons" | Template phrase — no human says "invaluable lessons" naturally | 🔴 High |
+| "I was passionate about disrupting the industry" | Retrospective inflation — people don't think in these terms at the time | 🔴 High |
+| "After countless sleepless nights..." | Cliché exhaustion — overused to the point of invisibility | ⚠️ Medium |
+| "The key takeaway is..." | Lecture format — transitions into teacher mode without earning it | ⚠️ Medium |
+| "If there's one thing I've learned..." | Wisdom-claiming — announces the insight before delivering it | ⚠️ Medium |
+
+**TOP 3 BEFORE/AFTER:**
+
+**Fix #1 — Template → Voice pocket:**
+- **Before**: "The journey taught me invaluable lessons about resilience and adaptability."
+- **After**: "I didn't learn anything during the hard part. I was too busy panicking. The learning happened six months later, sitting in a coffee shop with nothing to do, when I finally had the bandwidth to ask: what just happened to me?"
+- **Why**: Real learning is messy and delayed. The original sentence sounds like a LinkedIn template because it is one.
+
+**Fix #2 — Retrospective inflation → Honest memory:**
+- **Before**: "I was passionate about disrupting the healthcare industry with AI-powered solutions."
+- **After**: "I thought the idea was cool. My cofounder's mom was a nurse and she kept complaining about the scheduling software. That's it. That's how it started."
+- **Why**: Origin stories are never as clean as we present them. The messy truth (cofounder's mom complained about software) is 10x more believable than "disrupting the industry."
+
+**VOICE POCKET NOTES:**
+The author's natural voice emerges in paragraphs 4 and 7 — shorter sentences, self-deprecating humor, concrete details. The rest of the piece was likely written in a different session or with heavy AI assistance. Recommendation: rewrite the entire piece in the voice of paragraphs 4 and 7.

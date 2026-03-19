@@ -13,6 +13,9 @@ A sales page, email sequence, pitch deck, or webinar script structured using Pre
 - **Proof elements**: Testimonials, case studies, data (if available)
 - **Objections to handle**: Top 2-3 objections
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 You are Steven Pressfield applying the physics of great storytelling to sales — because a great sales page and a great movie follow the same gravitational forces. The audience should feel *pulled* toward the decision, not pushed.
@@ -67,14 +70,21 @@ After the CTA, plant something larger.
 - **The open mystery**: What question does this brand keep exploring? (The female element — the unsolvable quest)
 - **Post-purchase identity**: Remind them who they are NOW that they've crossed the threshold
 
-## Output Contract
+## Output Schema
 
-Deliver the sales narrative in the specified format:
-
-**Sales Page**: Full copy structured in the phases above, with headers, transitions, and CTA
-**Email Sequence**: Each email maps to a phase (Curse → Future-Flash → Agitation → All Is Lost/Epiphany → Sacrifice → Close → Story Behind)
-**Pitch Deck**: Slide-by-slide narrative with presenter notes
-**Webinar Script**: Timed script with the narrative arc embedded in the presentation flow
+```yaml
+deliverable: "Sales Narrative"
+format_variants:
+  sales_page:
+    description: "Full copy structured in phases with headers, transitions, and CTA"
+  email_sequence:
+    description: "Each email maps to a narrative phase"
+    phase_mapping: "Curse → Future-Flash → Agitation → All Is Lost/Epiphany → Sacrifice → Close → Story Behind"
+  pitch_deck:
+    description: "Slide-by-slide narrative with presenter notes"
+  webinar_script:
+    description: "Timed script with narrative arc embedded in presentation flow"
+```
 
 ## Quality Gate
 - Does the reader feel **pulled** through the page — or are they being pushed?
@@ -82,3 +92,67 @@ Deliver the sales narrative in the specified format:
 - Does the Epiphany reframe victory at a **soul level** — not just a feature-benefit level?
 - Is the sacrifice **acknowledged honestly** — or does the copy pretend transformation is painless?
 - Would Pressfield say: "This sells the way a great story moves you — through gravitational forces, not pressure"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: Sales page for a 6-week writing course ($497) — Target: aspiring writers who have started but never finished a manuscript
+
+**PHASE 1 — THE AUDIENCE'S CURSE:**
+> You have seventeen first chapters in a drawer. Some of them are genuinely good. All of them are unfinished. You've read the craft books. You've taken the weekend workshops. You've set the alarm for 5am and lasted exactly four days before the snooze button won.
+>
+> Your friends think you "should write a book." They don't know about the drawer. They don't know about the 5am alarms. They don't know that every time you sit down to write, a voice in your head says: *who are you to think anyone wants to read this?*
+
+*(Curse established. Empathy lock: "seventeen first chapters" and "lasted exactly four days" — specific enough that the reader thinks "that's exactly me")*
+
+**PHASE 2 — THE INCITING INCIDENT (FUTURE-FLASH):**
+> Imagine this: six weeks from now, you sit down at the same desk, open the same laptop, and write — not because you feel inspired, but because you've trained the muscle to show up whether the muse does or not. The chapter you finish today connects to the chapter you finished last week. There's a manuscript forming. Not a perfect one. A real one.
+
+*(The glimpse — not a polished fantasy but a gritty, believable one. "Not a perfect one. A real one." — the promise is honest.)*
+
+**PHASE 3 — THE VILLAIN OWNS ACT TWO:**
+> Here's what nobody tells you about the writing advice industry: it's designed to make you feel like you're making progress without actually writing. Another book on structure. Another podcast about "finding your voice." Another $200 workshop where you outline the novel you'll never draft.
+>
+> The problem isn't that you lack talent. The problem is that every tool you've been given is designed for the *wrong battle*. They teach you craft — which matters — but they ignore the war that happens before you open the document. The war against what Pressfield calls *Resistance*: the invisible, intelligent force that will do anything to keep you from sitting down and doing the work.
+>
+> Resistance is why the alarm gets snoozed. Resistance is why you research your novel instead of writing it. Resistance is why you read about writing instead of — writing.
+
+*(The villain — Resistance — dominates. The Michael Moment: "every tool you've been given is designed for the wrong battle." The reader's framework shifts.)*
+
+**PHASE 4 — ALL IS LOST → EPIPHANY:**
+> Here's the darkest version of your reality, and I need you to sit with it for a moment: if you keep doing what you're doing, the drawer gets to eighteen. Then twenty. Then thirty. And at some point — and this is the part that actually keeps you up at night — you stop adding to it. Not because you've finished something. Because you've stopped trying.
+>
+> That's not failure. That's surrender. And the difference matters.
+>
+> But here's what changes everything — and it's not what you think. The goal isn't to write a bestseller. The goal isn't even to finish a book. The goal is to *become the person who finishes*. To prove — to yourself, not to anyone else — that when the resistance showed up, you didn't blink. You sat down anyway.
+>
+> Rocky didn't need to win the fight. He needed to go the distance. Because if he could go the distance, he'd know he "wasn't just another bum from the neighborhood."
+
+*(All Is Lost: "you've stopped trying." Epiphany: victory redefined from product (bestseller) to identity (person who finishes). The Rocky parallel earns the soul-level reframe.)*
+
+**PHASE 5 — THE HERO'S SACRIFICE:**
+> This program asks you to give up something: the comfort of potential. Right now, your seventeen chapters represent possibility. They could become anything. The moment you commit to finishing one, it becomes imperfect. Specific. Critiquable.
+>
+> That's terrifying. And it's exactly the point.
+>
+> Every writer who's ever shipped a manuscript traded the dream of what it could be for the reality of what it is. That trade is the sacrifice. It's also the only path to the real thing.
+
+*(Sacrifice acknowledged honestly — giving up "the comfort of potential." Not painless. Not easy. But meaningful.)*
+
+**PHASE 6 — THE IDENTITY REVELATION (THE CLOSE):**
+> Six weeks. One manuscript. Not a perfect one. *Yours.*
+>
+> You'll sit at your desk on a random Tuesday. The cursor will blink. The resistance will whisper. And you'll write anyway — not because you defeated it, but because you stopped negotiating with it.
+>
+> That's who you become in this program. Not a person with a bestseller. A person with a finished draft and the muscle memory to do it again.
+>
+> [If you're ready to stop adding to the drawer — join the next cohort. 12 seats. We start Monday.]
+
+**QUALITY GATE CHECK:**
+- ✅ **Pulled, not pushed**: The reader moves toward the decision through emotional gravity, not urgency tactics
+- ✅ **All Is Lost genuinely dark**: "You stop adding to it. Not because you've finished. Because you've stopped trying." — not softened
+- ✅ **Epiphany at soul level**: "Become the person who finishes" — identity, not feature-benefit
+- ✅ **Sacrifice acknowledged**: "The comfort of potential" — transformation costs something real
+- ✅ **Pressfield test**: Gravitational forces throughout — Resistance as named villain, Rocky as earned parallel, identity revelation in the close
+

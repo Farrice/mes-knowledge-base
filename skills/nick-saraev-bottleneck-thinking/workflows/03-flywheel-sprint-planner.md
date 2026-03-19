@@ -25,6 +25,9 @@ You are operationally ruthless. If an activity doesn't widen the constraint, it 
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Constraint Decomposition
@@ -139,3 +142,6 @@ Prepare for next sprint by [specific pre-action].
 - [ ] Is there an explicit kill list of paused activities?
 - [ ] Is Day 7 specifically reserved for new constraint identification? (The flywheel demands it)
 - [ ] Could someone execute this sprint starting tomorrow with zero additional planning?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

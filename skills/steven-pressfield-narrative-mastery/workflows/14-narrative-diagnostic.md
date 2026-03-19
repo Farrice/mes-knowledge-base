@@ -36,6 +36,9 @@ Read [genius.md](../genius.md) before execution. This workflow uses ALL 18 patte
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1 — Symptom Assessment
@@ -170,19 +173,29 @@ For the top 2-3 prescriptions, show the fix in action:
 
 ---
 
-## Output Contract
+## Output Schema
 
-Deliver:
-1. ✅ Symptom Assessment (presenting problem mapped to structural causes)
-2. ✅ Full 18-Pattern Diagnostic Checklist (present/weak/missing/misapplied)
-3. ✅ Hidden Knowledge Audit
-4. ✅ Orientation Diagnosis (amateur/professional, hierarchy/territory)
-5. ✅ Gravity Map (visual force mapping)
-6. ✅ Ranked Prescription (critical → high → polish)
-7. ✅ Before/After Demonstrations (top fixes in action)
-8. ✅ Prevention Protocol (what to do differently next time)
-
----
+```yaml
+deliverable: "Narrative Diagnostic Report"
+components:
+  symptom_assessment:
+    description: "Presenting problem mapped to structural causes"
+  diagnostic_checklist:
+    description: "Full 18-pattern audit — present/weak/missing/misapplied"
+    patterns: 18
+  hidden_knowledge_audit:
+    description: "What the author knows but hasn't deployed"
+  orientation_diagnosis:
+    description: "Amateur/professional, hierarchy/territory assessment"
+  gravity_map:
+    description: "Visual force mapping of narrative physics"
+  ranked_prescription:
+    description: "Critical → high → polish prioritized fixes"
+  before_after_demos:
+    description: "Top fixes demonstrated in action"
+  prevention_protocol:
+    description: "What to do differently next time"
+```
 
 ## Quality Gate
 
@@ -192,3 +205,46 @@ The diagnostic itself must pass the Five Aims:
 - [ ] Does the before/after demonstration PROVE the physics work?
 - [ ] Would a different piece of content get a fundamentally different diagnosis?
 - [ ] Is the report itself beautifully organized and clear?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: Narrative Diagnostic for a weekly leadership newsletter that's lost 30% of subscribers in 3 months despite "good content"
+
+**SYMPTOM ASSESSMENT:**
+Presenting problem: Subscriber decay despite consistent, well-researched content.
+Structural cause: **No gravitational forces.** The newsletter informs but never *pulls.* There's no protagonist, no villain, no curse, no mystery. It reads like a textbook chapter — accurate but frictionless.
+
+**DIAGNOSTIC CHECKLIST (Top 6 of 18):**
+
+| Pattern | Status | Impact |
+|---------|--------|--------|
+| Protagonist (Curse + Arc) | ❌ Missing | The author is invisible — no personal stakes, no vulnerability |
+| Villain | ❌ Missing | No antagonist named — just "challenges" and "opportunities" |
+| Hook/Mystery | ⚠️ Weak | Opens with summary ("This week I'll cover...") — zero magnetic pull |
+| Climax Architecture | ❌ Missing | No emotional destination — essays end with bullet-point takeaways |
+| Theme (Story Behind the Story) | ⚠️ Weak | Implied but never stated — reader can't articulate what the newsletter is *about* |
+| Sacrifice/Identity Revelation | ❌ Missing | No stakes, no cost, no transformation — just information transfer |
+
+**HIDDEN KNOWLEDGE AUDIT:**
+The author's coaching calls reveal deep personal stories about leadership failure — a botched merger that taught them everything. This material never appears in the newsletter. The author is writing "expert mode" when they should be writing "protagonist mode."
+
+**ORIENTATION DIAGNOSIS:**
+- Professional vs. Amateur: Professional craft, amateur narrative structure — the writing is clean, but it's operating in the hierarchy ("Will readers think I'm smart?") instead of the territory ("I write this because the work demands it").
+
+**GRAVITY MAP:**
+Forces present: ✅ Topic relevance, ✅ Research quality
+Forces absent: ❌ Gravitational pull (mystery), ❌ Emotional momentum (curse/arc), ❌ Antagonist tension (villain), ❌ Resolution satisfaction (climax)
+
+**RANKED PRESCRIPTION:**
+1. **CRITICAL — Add a Curse:** Open every edition from a specific personal failure point. Not "leadership is hard" but "I fired someone who deserved better, and here's what I learned about myself that week."
+2. **CRITICAL — Name the Villain:** Every edition needs an antagonist. "Consensus culture" is a better villain than "challenges in team alignment."
+3. **HIGH — Mystery Architecture:** Replace summary openers with open questions. Instead of "This week I'll cover delegation" → "Why do the best leaders always seem to do less?"
+
+**BEFORE/AFTER DEMO (Fix #3 — Mystery Hook):**
+- **Before**: "This week, I want to share three frameworks for better delegation that I've found effective with my clients."
+- **After**: "My best client — the one running a 200-person company — told me something last Tuesday that I'm still turning over. 'I stopped delegating,' she said. 'I started disappearing.' Here's what she meant."
+
+**PREVENTION PROTOCOL:**
+Before writing any edition, answer three questions: (1) What's my curse in this piece — what wound am I writing from? (2) Who's the villain — what force is the reader fighting? (3) What's the open mystery — what question will pull them through? If you can't answer all three, you're writing a blog post, not a narrative.

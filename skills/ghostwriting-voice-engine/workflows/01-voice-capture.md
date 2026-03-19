@@ -25,6 +25,9 @@ You combine three expert methodologies into a single unified process:
 
 This workflow supports two input paths:
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### Path A: Full Voice Capture (Client Engagement)
 1. **[TRANSCRIPT]**: 30-minute voice capture call transcript (structured per the call-script.md blocks: Story Capture, Live Coaching, Contrarian Takes, Signature Insights, Core Message)
 2. **[INTAKE FORM]**: Completed intake form responses (background, audience, goals, content history)
@@ -279,3 +282,6 @@ Every completed Voice Profile must pass all 5 tests before delivery. If any test
 4. **Recognition Test**: If the client read this Voice Profile, would they say "that's exactly how I talk"? Not "that's interesting" — "that's ME." The profile should feel like a mirror, not a report.
 
 5. **Production Test**: Can a writer who has never met this client, armed only with this document, produce content that passes the Voice Consistency Checklist? If the profile requires additional context or clarification to be usable, it's not deployable yet.
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

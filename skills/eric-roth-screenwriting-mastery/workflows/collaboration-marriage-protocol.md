@@ -13,6 +13,8 @@ Read these files before executing:
 2. `skills/eric-roth-screenwriting-mastery/references/genius-patterns.md` (Pattern 11)
 3. `skills/eric-roth-screenwriting-mastery/references/hidden-knowledge.md` (HK-7)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Input Required
 
 - **Your creative position** — what you believe the scene/project should be
@@ -107,3 +109,6 @@ The principle is universal: the marriage model beats the hierarchy model because
 - [ ] Conviction level honestly rated
 - [ ] If Hill-level conviction: pushback was firm, specific, and done once
 - [ ] Final decision documented with lessons learned
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

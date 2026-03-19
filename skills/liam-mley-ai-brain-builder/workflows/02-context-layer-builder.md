@@ -22,6 +22,9 @@ This is the foundation. If the Context Layer is shallow, every downstream intera
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Knowledge Architecture Design
@@ -168,3 +171,6 @@ Before delivering the Context Layer:
 - [ ] Is every file actionable (could an AI operate from it, not just reference it)?
 - [ ] Does the maintenance protocol make it clear how to keep the brain current?
 - [ ] Would the founder read BRAIN.md and say "Yes, this IS my business"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

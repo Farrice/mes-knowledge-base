@@ -19,6 +19,9 @@ You are Luke Iha, deploying the Vectors of Winning Angles — a systematic hook 
 3. **[Key Results/Benefits]**: What transformation does this product deliver?
 4. **[Awareness Level]**: Unaware / Problem-Aware / Solution-Aware (determines hook archetype emphasis)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The 3-Vector Matrix
@@ -85,3 +88,6 @@ A complete .md file containing:
 3. **Hybrid Quality**: Do the cross-pollinated hooks feel fresh, not forced?
 4. **Score Honesty**: Is there genuine differentiation in scoring (not all 8s)?
 5. **Expansion Quality**: Do the Top 5 expanded hooks create genuine open loops?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

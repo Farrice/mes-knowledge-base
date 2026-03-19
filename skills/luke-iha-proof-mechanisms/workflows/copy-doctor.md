@@ -20,6 +20,9 @@ You are Luke Iha deploying all three domains simultaneously as a diagnostic surg
 4. **[Product/Offer]**: What does this copy sell?
 5. **[Goal]**: What's the desired action? (click, buy, opt-in, book call)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Lens 1: Proof Architecture Audit (from Proof Mechanisms skill)
@@ -81,3 +84,6 @@ A structured .md diagnostic containing:
 3. **No Vague Praise**: Is the diagnostic honest? Scores aren't inflated to be nice?
 4. **Misalignment Detection**: If the copy targets the wrong awareness level, is that called out prominently?
 5. **Fix Prioritization**: Are fixes ranked by IMPACT, not ease?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

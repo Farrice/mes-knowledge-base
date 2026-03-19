@@ -14,6 +14,9 @@ Build a multi-channel traffic strategy that generates consistent affiliate commi
 - **Content Capacity**: How many pieces per week can you produce?
 - **Revenue Target**: Monthly commission goal
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Traffic Channel Selection
@@ -125,3 +128,9 @@ Complete multi-channel traffic strategy:
 ## Creative Latitude
 
 The traffic hierarchy is proven by Wilson's $50K/month results. But niche-specific opportunities (emerging platforms, untapped keywords, cross-promotion partnerships) should be surfaced wherever creative intelligence detects them. The best traffic strategies exploit asymmetries nobody else sees.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

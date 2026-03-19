@@ -13,6 +13,9 @@ Design and architect an AI-powered utility website that provides genuine standal
 - **Technical Comfort**: No-code (Lovable, Bolt) vs code (Next.js, React)?
 - **Revenue Model**: Ads, affiliate-only, or hybrid (affiliate + subscription)?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: Utility Concept Generation
@@ -117,3 +120,9 @@ A real-time cryptocurrency analysis tool that uses AI to generate buy/sell/hold 
 - Total: ~$3,050/month from a single utility site
 
 **What elevates this**: The site provides genuine analytical value. Users come for the signals, not the affiliate pitch. Coinbase appears only at the natural decision point — when the user has already decided to buy.
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

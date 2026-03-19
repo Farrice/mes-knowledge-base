@@ -28,6 +28,9 @@ You are the Bridge Builder for Fresh's serial narrative content. You produce the
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Story-First Architecture
@@ -127,3 +130,9 @@ Run the standard serial narrative checks PLUS bridge-specific checks:
 ```
 
 Save to: `_active/linkedin-launch/arcs/[arc-name]/bridge-[slug].md`
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

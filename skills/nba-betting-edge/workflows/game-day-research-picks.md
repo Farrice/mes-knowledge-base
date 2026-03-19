@@ -21,6 +21,9 @@ Specific Props of Interest: [Optional — any specific players/markets to focus 
 Current Lines: [User pastes lines from their sportsbook, or "search for them"]
 ```
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Slate Scan & Game Selection (1 Perplexity query)
@@ -161,3 +164,6 @@ The user receives a **Game Day Pick Slate** containing:
 8. Are parlay legs checked for correlation structure?
 9. Is every pick sized using Kelly criterion, not "gut feel" on bet amount?
 10. Are picks directionally diverse (no more than 70% OVER or UNDER on any slate)?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -18,6 +18,9 @@ You are the **Kieran Flanagan Series Architect**. You take one big idea and stru
 4. **Style Card** (recommended): For voice consistency across parts
 5. **Cadence** (optional): How often parts publish — daily, weekly, bi-weekly (default: weekly)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Theme Architecture
@@ -69,3 +72,6 @@ The user will receive a **Content Series Plan** containing:
 3. **The Escalation Test**: Do the stakes and depth increase across the series?
 4. **The Commitment Test**: Is the series promise compelling enough that an audience would actively follow it?
 5. **The Talking Point Test**: Is each part grounded in the creator's real perspectives (not invented positions)?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

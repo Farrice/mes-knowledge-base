@@ -9,6 +9,9 @@ description: Audit an existing brand name against Placek's comfort trap, sound s
 
 ## Steps
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ### 1. Intake
 Gather from the user:
 - Current brand name
@@ -51,3 +54,6 @@ Present:
 - [ ] Zone classification clearly justified
 - [ ] Sound symbolism analysis included
 - [ ] Actionable recommendation delivered (not vague advice)
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -29,6 +29,9 @@ When these three pillars work together, you produce copy that is simultaneously 
 6. **[Voice]**: Whose voice should this sound like? (Yours, a client's, or brand voice) Include reference copy if available.
 7. **[Desired Outcome]**: What should the reader DO and FEEL after consuming this?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Master Workflow
 
 ### Phase 1: Strategic Foundation (Before Writing a Single Word)
@@ -231,12 +234,84 @@ Every piece must pass ALL checks:
 11. ☐ **Proof Momentum**: Each proof element builds on the last — compounding, not competing. Reader experiences revelations, not evidence.
 12. ☐ **Loop Architecture**: Proof closes existing curiosity loops AND opens new ones. The reader is always holding at least one open question.
 
-## Output Contract
-1. **Complete Copy** — Ready-to-publish, platform-optimized content
-2. **Three-Pillar Annotations** — Proof, Story, and Mechanism elements labeled throughout
-3. **Proof Inventory Used** — Which assets were deployed and which remain unused
-4. **Repurpose Map** — How to adapt this piece for 2-3 other platforms
-5. **Performance Predictions** — What to expect and what to test (based on proof density)
+## Output Schema
+
+```yaml
+deliverable: "Proof-Fortified Copy"
+components:
+  complete_copy:
+    description: "Ready-to-publish, platform-optimized content"
+  three_pillar_annotations:
+    description: "Proof, Story, and Mechanism elements labeled throughout"
+  proof_inventory_used:
+    description: "Which assets were deployed and which remain unused"
+  repurpose_map:
+    description: "How to adapt this piece for 2-3 other platforms"
+  performance_predictions:
+    description: "What to expect and what to test based on proof density"
+```
 
 ## Multi-Platform Atomization
 If "[Platform] = All" — produce the FULL piece for the primary platform, then atomize into all other platforms. The primary piece should be the longest-form option (Article or YouTube Script), which then gets reformatted and compressed for every other platform. This creates a complete content suite from a single proof-story-mechanism spine.
+
+## Example Output
+
+**Context**: Newsletter edition promoting a coaching program — Topic: pricing for service businesses. Mechanism: "The Confidence Tax." Audience: warm subscribers (coaches, consultants). Voice: conversational, teaching-from-experience.
+
+**THREE-PILLAR LOCK:**
+```
+PROOF: Experiential (own pricing journey) + Empirical (industry data) + Social (client result)
+STORY: Protagonist = "past me" undercharging → Conflict = pricing fear → Transformation = The Confidence Tax insight
+MECHANISM: "The Confidence Tax" — the invisible tax you pay when you price based on your comfort instead of your value
+```
+
+**NEWSLETTER EDITION:**
+
+> **Subject Line:** I lost $47,000 last year. Here's how.
+>
+> **Personal Opener:**
+> Last January I ran the numbers on my coaching business. Revenue was $83K. I felt good about it until I did one more calculation. I priced every client engagement at what I charged — then re-priced them at what three competitors charged for identical work. The gap: $47,000.
+>
+> I didn't lose $47K to bad marketing. I lost it to my own nervous system.
+>
+> **The One Big Idea:**
+> I call this **The Confidence Tax** — the invisible surcharge you pay every time you price based on your comfort level instead of your value delivery. It works like this:
+>
+> You know your service is worth $5,000. You quote $2,500 because $5,000 feels "uncomfortable." That $2,500 gap isn't a discount. It's a tax — and you're paying it, not the client.
+>
+> The mechanism: your brain treats pricing decisions like threat responses. The amygdala fires at the same rate whether you're being chased by a bear or saying "$5,000" out loud to a prospect. So you flinch. You soften the number. You offer a "pilot rate." And every time you do, you confirm the neural pathway: *this price is dangerous*.
+>
+> **The Proof Stack:**
+> - **Personal**: When I raised my rates 60% in March, I expected to lose half my pipeline. I lost two prospects. Both cited budget — neither cited value. Revenue increased 43% with fewer clients. *(Experiential — Tier 2)*
+> - **Empirical**: McKinsey's pricing research shows a 1% price increase generates an 8% increase in operating profit — more than any other lever including cost-cutting and volume growth. Pricing is *the* highest-leverage decision in a service business. *(Contextualized Authority — Tier 3)*
+> - **Social**: My client Maria — a brand strategist — raised her project minimum from $3,000 to $7,500 using The Confidence Tax framework. She expected crickets. She booked 4 clients in 6 weeks. Her exact words: "The people who said yes at $7,500 were better clients than anyone who ever said yes at $3,000." *(Social — Tier 5)*
+>
+> **The Actionable Takeaway:**
+> Run The Confidence Tax Calculator on your current pricing: Take your current rate. Now ask: "If I knew with 100% certainty the client would say yes — what would I charge?" The gap between those two numbers is your Confidence Tax. You're paying it right now.
+>
+> **PS:** This is the same framework behind our Pricing Architecture module in [Program Name]. If you're tired of leaving five figures on the table every year, [CTA].
+
+**THREE-PILLAR ANNOTATIONS:**
+- **PROOF active**: 3 tiers deployed (Tier 2: own pricing journey, Tier 3: McKinsey data, Tier 5: Maria's result) — plus Tier 1 psychological proof via explanatory reasoning (amygdala/threat response)
+- **STORY active**: Character (past me undercharging) → Conflict (nervous system vs. value) → Transformation (raised rates 60%, lost 2 prospects, revenue +43%)
+- **MECHANISM active**: "The Confidence Tax" — named, specific, explanatory reasoning makes it feel inevitable ("your brain treats pricing decisions like threat responses")
+
+**QUALITY GATE CHECK:**
+1. ✅ Proof-First Hook: "$47,000" result in subject line + opener
+2. ✅ Zero Naked Claims: "Revenue increased 43%" braided with the story of raising rates
+3. ✅ 3+ Proof Tiers: Tiers 1, 2, 3, 5 represented
+4. ✅ Mechanism Named: "The Confidence Tax"
+5. ✅ Story Arc: Character → Conflict → Transformation visible
+6. ✅ CTA Fortress: PS line surrounded by client result + program reference
+7. ✅ Voice Authentic: "I lost it to my own nervous system" — conversational, not clinical
+8. ✅ Platform Optimized: Newsletter format — subject line, PS line, single-idea depth
+9. ✅ Belief Barrier Addressed: "If I raise prices I'll lose clients" → dissolved with personal data
+10. ✅ Memorable Residue: "The Confidence Tax" as a concept they'll think about every time they price
+11. ✅ Proof Momentum: Personal loss → mechanism explanation → own result → industry data → client result → actionable calculator
+12. ✅ Loop Architecture: Subject line opens loop ($47K how?) → amygdala explanation opens new loop (what happened when you raised?) → Maria's result opens final loop (how do I apply this?)
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

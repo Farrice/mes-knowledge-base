@@ -18,6 +18,9 @@ Set up a complete AI ad production pipeline with the creative strategist functio
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: The Orchestrator Mindset
 
 ### Completion Target
@@ -157,3 +160,6 @@ Once the pipeline is established for one client, scale by:
 - [ ] First production cycle completed (brief → generate → judge → finalize)
 - [ ] Prompt Library started with at least 5 constraints
 - [ ] Client delivery template drafted
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

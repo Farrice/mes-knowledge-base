@@ -11,6 +11,9 @@ description: Run a forensic Detail Stack breakdown on any piece of content — m
 - **Platform** (YouTube, Instagram, LinkedIn, TikTok, X, etc.)
 - **Optional**: Creator name and follower count (for ratio analysis)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## The Process
 
 ### Step 1 — Stop Signal Analysis
@@ -107,3 +110,6 @@ Go DEEPER than anyone else. Map every invisible decision:
 - [ ] Purple Cow assessment is honest (most content is brown cows — say so)
 - [ ] One-Sentence Principle passes the test: zero references to specific content
 - [ ] At least 3 "most people would miss this" observations identified
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

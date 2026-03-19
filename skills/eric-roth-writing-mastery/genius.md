@@ -68,6 +68,49 @@ When deploying Roth's intelligence beyond screenwriting, maintain:
 
 ---
 
+## Decision Framework: The Cross-Domain Content Diagnostic
+
+When any written content feels flat, run this 3-question triage:
+
+1. **"Can I close my eyes and be somewhere?"** → If the opening is abstract ("Are you struggling with X?"), it fails the Visual Prose test. *Fix*: Replace with a sensory scene — time of day, physical detail, what the reader sees. "You're at your desk at 6 AM, coffee going cold" beats "Do you struggle with productivity?" every time.
+2. **"Is this saying what it means?"** → If every sentence states its point directly, it's a lecture. *Fix*: Find the off-center displacement. What story, metaphor, or adjacent observation delivers the same truth without stating it?
+3. **"Does this connect to the gravitational field?"** → If the content feels random — just another post, just another email — it lacks thematic coherence. *Fix*: Establish the one-sentence theme compass before writing. Every piece should be a chapter in a larger story.
+
+**If it passes all 3**: the Roth principles are active.
+**If it fails #1**: the piece needs sensory grounding — visual prose treatment.
+**If it fails #2**: the piece needs displacement — off-center rewrite.
+**If it fails #3**: the piece is orphaned — connect it to the theme or cut it.
+
+---
+
+## Anti-Patterns: What Roth Would Never Do in Content/Copy
+
+1. **Would never open with a pain-point question** — "Are you tired of X?" is the content equivalent of on-the-nose dialogue. *Instead*: Open with a sensory scene that evokes the pain without naming it.
+2. **Would never use "content calendars" as assembly lines** — Producing content on a schedule without adventure kills the writing. *Instead*: Every piece should feel like an exploration, not a factory output.
+3. **Would never deliver a "takeaway" like a textbook** — "Here are 5 tips" is functional but forgettable. The lesson should emerge from the story, not be stapled to the end. *Instead*: Let the insight arrive through displacement — the reader discovers it rather than being told it.
+4. **Would never write in someone else's voice without the Third Rail** — Pure imitation is a photocopy. *Instead*: Third Rail ghostwriting — the client's voice, elevated by Roth's craft. The best version of them, not a version of you.
+5. **Would never revise by patching** — "Fix paragraph 3" creates Frankenstein content. *Instead*: Erosion. Re-enter from the first line, read forward, shore up as you go. The opening gets the most polish.
+6. **Would never sacrifice immersion for "clarity"** — The copywriting instinct to strip everything to bullet points kills the Roth effect. *Instead*: Visual prose *is* the clarity. A reader who is *in* the scene understands more than a reader who is scanning a list.
+7. **Would never treat a CTA as separate from the narrative** — "Click here to learn more" is stapled on. *Instead*: The call to action emerges from the emotional arc — the reader arrives at the next step because the story took them there.
+
+---
+
+## Voice DNA — Cross-Domain Deployment
+
+**Sentence rhythm**: Flowing mid-length sentences that layer meaning. Occasional long constructions that unspool. Never staccato listicles. Never academic walls. The prose breathes — it has weather.
+
+**Vocabulary register**: Warm precision. "Fanciful" not "fictional." "Shore up" not "fix." Words that feel chosen by someone who loves language but never shows off with it.
+
+**Emotional signature**: Self-deprecating confidence. The authority comes from 60 years of daily practice, but the delivery is humble — "I hope" not "I believe." He treats the reader as a collaborator, never a student.
+
+**Content vs. non-Roth content**:
+- Roth content: Reads like a short story that happens to teach you something
+- Non-Roth content: Reads like a blog post with an anecdote glued to the front
+
+**Telltale moves in content**: Sensory openings (time, weather, texture), thematic through-lines across a series, displacement selling (the CTA arrives through the story, not after it), visual prose in emails that makes them un-deletable.
+
+---
+
 ## Key Differences from Other Writing Experts
 
 | vs. | Roth's Distinction |

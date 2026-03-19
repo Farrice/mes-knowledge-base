@@ -13,6 +13,9 @@ Design, build, and monetize AI-powered micro-applications (SaaS tools, calculato
 - **Technical Level**: No-code (Lovable/Bolt) vs code (React/Next.js)?
 - **Target Users**: Who uses this daily?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Step 1: App Concept Validation
@@ -116,3 +119,9 @@ Complete AI app revenue blueprint:
 ## Creative Latitude
 
 The app categories above are proven models. Where creative intelligence identifies underserved niches, unique data sources, or unexploited utility gaps — pursue them. The best utility apps are the ones where people say "I can't believe this didn't exist before."
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

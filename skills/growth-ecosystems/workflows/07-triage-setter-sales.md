@@ -20,6 +20,9 @@ You are Vincent Hu designing the conversion layer. The traditional closer model 
 - **Team**: Will YOU close, or is there a separate closer? How many calls/week can you take?
 - **Mode**: Building for yourself OR for a client?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Triage Setter Role Design
@@ -161,3 +164,6 @@ Produce a complete **Sales Architecture Document** containing:
 - [ ] Are disqualifiers defined clearly enough that the setter can enforce them?
 - [ ] Would this system produce 80%+ close rates?
 - [ ] Does the setter have a clear "not yet" pathway (not just "yes" or "no")?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -23,6 +23,9 @@ You also understand that the strongest copy doesn't just present proof — it TE
 5. **[Audience Temperature]**: Cold / Warm / Hot followers
 6. **[CTA]**: What do you want them to do after consuming? (Follow / Subscribe / Click / Buy / Book)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Proof-Story Spine (Universal Architecture)
@@ -164,12 +167,22 @@ Ensure proof IS the story, not decoration on top of story:
 5. **Specificity**: Are there sensory details, exact numbers, named people, real timelines?
 6. **Proof Momentum**: Does each proof element build on the last (compounding certainty) or do they sit independently (competing for attention)?
 
-## Output Contract
-1. **Platform-Optimized Content** — Complete, ready-to-publish content for the specified platform
-2. **Proof Annotations** — Every proof element labeled with tier and weapon type
-3. **Story Arc Map** — The emotional journey marked across the piece
-4. **Content-as-Proof** — How this piece adds to the proof portfolio (what it proves about you)
-5. **Repurpose Map** — How this single piece can be adapted for 2-3 other platforms
+## Output Schema
+
+```yaml
+deliverable: "Proof-First Content"
+components:
+  platform_content:
+    description: "Complete, ready-to-publish content for the specified platform"
+  proof_annotations:
+    description: "Every proof element labeled with tier and weapon type"
+  story_arc_map:
+    description: "The emotional journey marked across the piece"
+  content_as_proof:
+    description: "How this piece adds to the proof portfolio — what it proves about you"
+  repurpose_map:
+    description: "How to adapt for 2-3 other platforms"
+```
 
 ## Quality Gate
 1. **Proof-First**: Does the hook lead with proof (not just a promise)?
@@ -180,3 +193,63 @@ Ensure proof IS the story, not decoration on top of story:
 6. **Voice Survival**: Does it sound like a real person with quiet confidence? Did conversational punch and tension survive every proof insertion?
 7. **Loop Architecture**: Does each proof element close an existing curiosity loop AND open a new one?
 8. **Proof Momentum**: Do proof elements build on each other (compounding certainty) or sit independently (competing for attention)?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: LinkedIn post for a conversion copywriter — Topic: why most landing pages fail. Audience: warm followers. CTA: Follow for more.
+
+**PROOF-STORY SPINE:**
+```
+Proof Hook → Origin Conflict → Mechanism Reveal → Proof Cascade → Transferable Insight → Authority Close
+```
+
+**LINKEDIN POST (Proof-First Architecture):**
+
+> I rewrote one headline on a client's landing page.
+>
+> Conversion rate went from 2.1% to 7.4%.
+>
+> Same page. Same offer. Same traffic source. One sentence changed everything.
+>
+> Here's what was wrong — and I almost missed it.
+>
+> The original headline was: "The All-In-One Platform for Modern Teams." It sounds professional. It's also invisible. The brain can't DO anything with it. There's no problem to solve, no transformation to picture, no reason to keep reading.
+>
+> I replaced it with: "Stop losing 3 hours a day to tools that don't talk to each other."
+>
+> Same product. But now the reader's brain fires: "That's me. That's my Tuesday."
+>
+> This isn't copywriting magic. It's a structural rule I call **Problem-First Architecture**:
+>
+> → Lead with the pain, not the product
+> → Name the cost in terms the reader can FEEL (hours, not "inefficiency")
+> → Let the product enter as the solution AFTER the problem earns its weight
+>
+> I've tested this across 40+ landing page rewrites this year:
+> - SaaS client: 2.1% → 7.4% (headline rewrite only)
+> - Course creator: 1.8% → 5.2% (restructured first three sections)
+> - E-commerce: 3.4% → 6.1% (moved product description below the fold)
+>
+> The pattern holds. When the problem comes first, the product feels like relief instead of a pitch.
+>
+> Your landing page probably has the product in the headline. Move it. Lead with the cost of the status quo. Watch what happens.
+>
+> ♻️ Follow for more conversion architecture breakdowns.
+
+**PROOF ANNOTATIONS:**
+- **Proof Hook** (line 1-2): Experiential proof — specific result "2.1% to 7.4%" [Tier 2]
+- **Origin Conflict** (line 4-6): Damaging admission — "I almost missed it" [Tier 1: Psychological]
+- **Mechanism Reveal** (line 8-10): Explanatory reasoning — WHY it works cognitively [Tier 1: Psychological]
+- **Proof Cascade** (lines 14-17): Three stacked results across different industries — compounding certainty [Tier 2: Experiential + Tier 3: Empirical pattern]
+- **Authority Close** (line 19): Transferable insight — reader can apply immediately
+
+**STORY ARC MAP:**
+- Pain → "3 hours a day to tools that don't talk"
+- Discovery → "I almost missed it" (vulnerability)
+- Transformation → Before/after headline comparison (visible mechanism)
+- Empowerment → "Your landing page probably has the product in the headline. Move it."
+
+**CONTENT AS PROOF:** This post itself IS a proof asset — it demonstrates the Problem-First Architecture it teaches. The post leads with a result (proof hook), not the writer's credentials.
+

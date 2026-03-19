@@ -25,6 +25,9 @@ You are the Arc Architect for Fresh's personal brand content. You take raw theme
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Theme Excavation
@@ -156,3 +159,9 @@ You are the Arc Architect for Fresh's personal brand content. You take raw theme
 - AI stigma check: [Pass/notes]
 - Service alignment: [How the arc leads to the offer]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

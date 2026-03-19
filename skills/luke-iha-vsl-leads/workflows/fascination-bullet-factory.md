@@ -6,6 +6,9 @@ description: Generate 30+ fascination bullets from a product's feature/benefit l
 
 Mass fascination production engine. Takes a product's features and benefits and generates 30+ curiosity-dense bullets. Each bullet creates an independent open loop that can only be resolved by the product.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
 Read: /Users/farricecain/Google Antigravity/skills/luke-iha-vsl-leads/references/genius-patterns.md (focus on GP5: Fascination Bullet Engineering)
@@ -84,3 +87,9 @@ Kill any bullet that fails 2+ tests.
 ### Email Teaser Pack
 [5 fascinations formatted as email subject lines]
 ```
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

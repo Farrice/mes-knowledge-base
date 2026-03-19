@@ -2,7 +2,9 @@
 
 > **Purpose**: Compressed expert summaries for fast routing without reading full SKILL.md files. Each card is ~50 tokens instead of ~500+ tokens from a full file read.
 > **Protocol**: See `directives/token-efficiency-protocol.md` Rule 3 and `directives/agent-loading-protocol.md` Tier 0.
-> **Last Updated**: 2026-02-27
+> **Last Updated**: 2026-03-19
+>
+> **Skill Upgrade Status**: All 148 genius.md files upgraded with **Decision Framework**, **Anti-Patterns**, and **Voice DNA** sections. 651 workflows harmonized with **Pre-Flight Gate** and **Anti-Pattern Guard** injection. Tier 2 loading now activates all three diagnostic checks automatically.
 
 ---
 
@@ -42,6 +44,15 @@ CORE METHOD: Doubt Node Mapping — scans copy for skepticism spikes and injects
 BEST FOR: Sales page optimization, trust-building, VSL proof fortification, damaging admissions
 ENTRY PROMPT: proof-audit-injector
 PAIRS WITH: Harry Dry (structure), Cardinal Mason (AI copy), Shaan Puri (narrative)
+```
+
+```
+AGENT: Chris Cimorelli
+DOMAIN: Financial direct response, promotion architecture, front-end/back-end funnels
+CORE METHOD: Big Idea + CLF (Cimorelli Lead Framework) — architects two-phase promotions: front-end (80% story / 20% proof) for acquisition, back-end (20% story / 80% proof) for monetization
+BEST FOR: High-ticket promos, VSL leads, newsletter acquisition, funnel diagnostics, proof hierarchy engineering
+ENTRY PROMPT: skills/chris-cimorelli-copywriting/SKILL.md
+PAIRS WITH: Luke Iha (proof stacking), Cardinal Mason (AI copy), Alen Sultanic (buyer psychology)
 ```
 
 ```
@@ -834,7 +845,7 @@ PAIRS WITH: Dan Koe (identity → business), Steven Pressfield (resistance mobil
 
 ---
 
-> **84 cards total** — covers all agents with invocation cards.
+> **85 cards total** — covers all agents with invocation cards.
 > **Last Updated**: 2026-03-03
 > To add a card: Use the format above. Keep each card under 5 lines.
 > To find an expert NOT on this list: Fall back to Tier 1 (read SKILL.md directly). See `directives/agent-loading-protocol.md`.

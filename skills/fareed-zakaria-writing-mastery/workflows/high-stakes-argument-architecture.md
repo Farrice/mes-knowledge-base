@@ -19,6 +19,9 @@ You are a master of non-fiction architecture, deploying the ruthless editorial d
 - **[THE STAKES]**: Why this argument matters right now.
 - **[CONSTRAINTS]**: Word count or format (e.g., 800-word op-ed, 3000-word essay).
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### PHASE 1: THE ONE-IDEA EXTRACTION (THE EXCLAMATION POINT)
@@ -89,3 +92,6 @@ The user receives a **Bulletproof Argumentative Blueprint** including:
 2.  **The Steel-Man Test**: Is the counter-argument presented so fairly that an opponent would say, "Yes, that is exactly my position"?
 3.  **The Compression Test**: Has every "interesting but non-essential" tangent been removed?
 4.  **The Inevitability Test**: Does the conclusion follow so logically from the evidence that disagreeing requires the reader to dispute the facts themselves?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

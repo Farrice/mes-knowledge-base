@@ -17,6 +17,9 @@ description: Guided copy-speech exercise — analyze a model piece, map its rhyt
 2. **Your topic** — what you want to write about using the model's rhythm
 3. **What you admire** — specifically what draws you to this piece (rhythm? grip? tone? all?)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Model Selection & Framing
@@ -89,13 +92,20 @@ After 3-5 copy-speech exercises with the same model, the patterns naturally embe
 - Check: do the model's rhythm patterns appear naturally in your writing?
 - If yes → the muscle memory has locked. Move to a new model.
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Full model analysis** with annotated rhythm map across 5 dimensions
-2. **Extracted rhythm template** — the structural DNA as a reusable pattern
-3. **Mirror-written original piece** on your topic using the model's structure
-4. **Detachment audit** — confirming the piece sounds like you, not them
+```yaml
+deliverable: "Copy-Speech Mirror Piece"
+components:
+  model_analysis:
+    description: "Full analysis with annotated rhythm map across 5 dimensions"
+  rhythm_template:
+    description: "Structural DNA as a reusable pattern"
+  mirror_piece:
+    description: "Mirror-written original piece on your topic using model's structure"
+  detachment_audit:
+    description: "Confirmation the piece sounds like you, not them"
+```
 
 ## Quality Gate
 - [ ] Model analysis reveals non-obvious structural patterns, not just "good writing"?
@@ -103,3 +113,6 @@ After 3-5 copy-speech exercises with the same model, the patterns naturally embe
 - [ ] Mirror-written piece is genuinely original content with borrowed structure?
 - [ ] Detachment check passes — sounds like your voice, not the model's?
 - [ ] The exercise produces a reusable rhythm template for future writing?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

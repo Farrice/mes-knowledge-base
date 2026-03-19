@@ -29,6 +29,9 @@ Deploy Oscar-level craft across **every** writing domain. This is the companion 
 | cinematic-email | [Cinematic Email Sequences](workflows/cinematic-email-sequences.md) | Content/Marketing | Email sequences structured as episodes with visual prose openings | Email campaigns that feel like serialized storytelling, not drip marketing |
 
 ## Quick Reference
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Eric Roth would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output
 
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Cross-Domain Patterns**: [references/cross-domain-patterns.md](references/cross-domain-patterns.md) — 14 patterns adapted for non-screenplay writing

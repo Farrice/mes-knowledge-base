@@ -103,8 +103,11 @@ load_context: "genius.md"
 [Integrated end-to-end flow. Embed genius patterns INLINE.
 Each phase builds on the previous. Produce a COMPLETE deliverable.]
 
-## Output Contract
-[Exact specification of deliverable components]
+## Output Schema
+[YAML block specifying deliverable structure — what the workflow produces]
+
+## Example Output (recommended)
+[Worked example: realistic scenario → partial output → annotation explaining WHY it works]
 
 ## Quality Gate
 [3-5 expert-specific criteria]
@@ -115,6 +118,23 @@ Each phase builds on the previous. Produce a COMPLETE deliverable.]
 ```bash
 python execution/skill_converter.py --skill "skills/[skill-name]"
 ```
+
+### Step 4b: Example Enrichment (MANDATORY for new conversions)
+After generating workflow files, enrich them with worked examples.
+
+**Requirements:**
+- Every workflow MUST have an `## Output Schema` section (YAML block)
+- At least **2 out of 3+** workflows MUST include a `## Example Output` section
+- Reactive/diagnostic workflows may omit the example but MUST still have the schema
+
+**For each example:**
+1. Invent a realistic scenario with enough specificity to feel real
+2. Produce a partial but representative output showing the framework in action
+3. Add a `**What makes this excellent**:` annotation explaining WHY the output works
+
+**For legacy conversions:** If the original extraction has real examples from the source material, use those. Otherwise, invent realistic scenarios.
+
+**Reference implementation:** `skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md`
 
 ---
 

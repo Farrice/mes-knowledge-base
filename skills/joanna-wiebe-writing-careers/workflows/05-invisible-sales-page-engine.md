@@ -5,6 +5,9 @@
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Skill Acquisition
 
 Read these files before executing:
@@ -201,3 +204,6 @@ Target: >70% customer language.
 - [ ] Is the persuasion layer truly invisible — wrapped in education and story?
 - [ ] Does the content stand alone as genuinely valuable even if the reader never buys?
 - [ ] Would Joanna Wiebe say "the reader discovered the answer themselves" about this piece?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -33,6 +33,9 @@ Expert writers shift between registers WITHIN a single piece. The switch itself 
 3. **Emotional arc** — what should the reader feel at the beginning vs. end?
 4. **Platform** — where this will live (determines register range)
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Register Audit
@@ -133,14 +136,22 @@ Ensure switches ENHANCE rather than confuse:
 - [ ] Does the piece feel like ONE voice with range, not multiple authors patched together?
 - [ ] Are there at least 2 switch points but no more than 5 per 1,000 words?
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Code-switched content** — the piece with deliberate register orchestration
-2. **Register map** — before/after showing the emotional arc via registers
-3. **Switch point annotations** — where each switch happens, what type, and why
-4. **Entertainment density report** — where energy was injected and what type
-5. **Primary register + range** — the tonal identity and its creative extensions
+```yaml
+deliverable: "Code-Switched Content"
+components:
+  switched_content:
+    description: "Piece with deliberate register orchestration"
+  register_map:
+    description: "Before/after showing emotional arc via registers"
+  switch_annotations:
+    description: "Where each switch happens, what type, and why"
+  entertainment_density:
+    description: "Where energy was injected and what type"
+  primary_register:
+    description: "Tonal identity and its creative extensions"
+```
 
 ## Quality Gate
 - [ ] Minimum 2, maximum 5 register switches per 1,000 words?
@@ -150,3 +161,6 @@ Ensure switches ENHANCE rather than confuse:
 - [ ] The Likable Expert blend is present in at least 30% of the piece?
 - [ ] Reader is both entertained AND educated?
 - [ ] Content would survive a "read this out loud" test without tonal whiplash?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

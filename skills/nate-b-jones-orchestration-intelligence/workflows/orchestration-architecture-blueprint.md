@@ -12,6 +12,9 @@ Design multi-agent systems from scratch using the DPVI pattern (Decompose → Pa
 - Scaling from single-agent to multi-agent architecture
 - Planning agent coordination for a complex objective
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Objective Decomposition
@@ -96,3 +99,9 @@ A complete orchestration architecture document containing:
 - Failure modes and recovery patterns
 - Progressive autonomy roadmap
 - Cost/latency estimates
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

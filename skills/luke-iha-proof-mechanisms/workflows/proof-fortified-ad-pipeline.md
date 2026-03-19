@@ -22,6 +22,9 @@ This is the nuclear option. One pipeline. Three skills. Complete ad production f
 4. **[Platform]**: Where will this ad run?
 5. **[Competitive Context]**: Who else advertises to this audience?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Stage 1: Strategic Foundation (Creative Strategy Skill)
@@ -84,3 +87,6 @@ A complete .md production package containing:
 4. **Hook Quality**: Do the hooks score 7+ on both curiosity AND relevance?
 5. **Revenue Test**: Would you confidently spend $500/day running this ad?
 6. **The Damaging Admission Test**: Is there exactly one vulnerability that makes everything else MORE believable?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

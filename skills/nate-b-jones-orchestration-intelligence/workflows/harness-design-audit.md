@@ -13,6 +13,9 @@ Audit any agent or multi-agent system's scaffolding to identify reliability gaps
 - Scaling issues when adding more agents or complexity
 - Before investing in a more expensive model
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Model-Harness Separation
@@ -75,3 +78,9 @@ Harness audit report containing:
 - Priority-ordered improvement roadmap
 - Specific implementation recommendations for top 3 improvements
 - Cost-benefit analysis of recommended changes
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

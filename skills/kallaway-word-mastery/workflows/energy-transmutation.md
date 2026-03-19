@@ -30,6 +30,9 @@ There are exactly two energy polarities in content:
 3. **What the reader actually needs** — the genuine value in this content
 4. **The relationship** — is this a first-touch or existing audience?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution Protocol
 
 ### Step 1: Energy Polarity Diagnosis
@@ -98,15 +101,24 @@ Ensure the energy is consistent from first word to last:
 - If there IS a CTA: it should feel like an EXTENSION of the service, not a pivot to extraction. "If this was useful, here's the deeper version" > "Now buy my course"
 - The emotional temperature stays consistent — no sudden shifts from warm to transactional
 
-## Output Specification
+## Output Schema
 
-**DELIVERABLE**:
-1. **Fully transmuted content** — service-energy prose that pulls rather than pushes
-2. **Energy polarity map** — before/after for every paragraph
-3. **Extraction markers found** — specific phrases/structures that were leaking extraction energy
-4. **Favor test results** — before/after
-5. **HTBT assessment** — honest evaluation of underlying energy state
-6. **Transmutation notes** — patterns to watch for in future writing
+```yaml
+deliverable: "Energy-Transmuted Content"
+components:
+  transmuted_content:
+    description: "Service-energy prose that pulls rather than pushes"
+  energy_polarity_map:
+    description: "Before/after for every paragraph"
+  extraction_markers:
+    description: "Phrases/structures leaking extraction energy"
+  favor_test_results:
+    description: "Before/after favor test comparison"
+  htbt_assessment:
+    description: "Honest evaluation of underlying energy state"
+  transmutation_notes:
+    description: "Patterns to watch for in future writing"
+```
 
 ## Quality Gate
 - [ ] Passes the "favor test" — reads like doing a favor, not asking for one?
@@ -116,3 +128,42 @@ Ensure the energy is consistent from first word to last:
 - [ ] Energy is coherent from opening to close?
 - [ ] Reader feels pulled in, not pushed at?
 - [ ] Content delivers standalone value regardless of conversion?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+## Example Output
+
+**Context**: A newsletter paragraph about an upcoming writing course — currently reads like a sales pitch disguised as teaching
+
+**BEFORE (extraction energy):**
+> I've spent the last 6 months building the most comprehensive writing course I've ever created. It covers everything from hooks to closing lines — 47 lessons, 12 templates, and 3 live coaching calls. Early bird pricing ends Friday. If you're serious about improving your writing, this is the investment you need to make.
+
+**ENERGY POLARITY MAP:**
+```
+Sentence 1: Extraction — "I've spent 6 months" = effort flex, centering the writer
+Sentence 2: Extraction — feature list = selling, not serving
+Sentence 3: Extraction — artificial urgency = pressure tactic
+Sentence 4: Extraction — "if you're serious" = guilt leverage
+Overall: Heavy Extraction — this is an ad pretending to be a paragraph
+Favor Test: FAIL — asking for a purchase, not offering value
+Hidden Agenda: Wants course sales, every word serves that goal
+```
+
+**EXTRACTION MARKERS:**
+- Metric broadcasting: "6 months," "47 lessons, 12 templates, 3 live coaching calls" — flexing volume
+- Manufactured urgency: "Early bird pricing ends Friday"
+- Authority posturing: "the most comprehensive writing course I've ever created"
+- Value extraction structure: Zero standalone value — exists only to sell
+
+**AFTER (service energy):**
+> Something I noticed while writing this newsletter: the sentences I wrote fastest were always the weakest. The ones I almost deleted? Those hit hardest. That pattern kept showing up — in posts, in client work, in my own morning journals. The stuff that feels effortless IS effortless. And readers can tell.
+>
+> I spent six months mapping that gap — why speed ≠ quality, and more importantly, what to do about it. I turned it into a course because some of this needs exercises, not just explanations. If that sounds useful, [it's here]. If it doesn't, the principle still applies: slow down on the sentences that come too easy.
+
+**TRANSMUTATION NOTES:**
+- "6 months" reframed from effort-flex to context for *why* it's a course, not evidence of quality
+- CTA buried inside standalone insight — the paragraph teaches regardless of click
+- Urgency removed entirely — replaced with genuine observation ("some of this needs exercises, not just explanations")
+- Favor Test: PASS — the reader walks away with a usable insight even if they never buy
+- Energy coherence: Teaching voice start to finish, CTA feels like a natural extension, not a pivot
+

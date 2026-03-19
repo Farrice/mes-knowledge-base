@@ -17,6 +17,9 @@ You are an Intent Engineer specializing in production-grade agent reliability. Y
 - **[AUTONOMY_LEVEL]**: Desired supervision (e.g., Full, Human-in-the-loop, Supervised).
 - **[FAILURE_MODES]**: Known risks or "nightmare scenarios" to avoid.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: Latent Intent & Invisible Guardrail Extraction
@@ -74,3 +77,6 @@ The user will receive a comprehensive **Agent Intent Specification Document** (.
 3.  **Reversibility Alignment**: Are Level 4 actions gated by mandatory human-in-the-loop checkpoints?
 4.  **Separation Check**: Is there a clear distinction between how the agent *interprets* intent and how it *executes* tools?
 5.  **Assumption Disclosure**: Does the architecture force the agent to reveal its internal model before acting?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

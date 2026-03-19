@@ -20,6 +20,9 @@ You are Luke Iha, applying Eugene Schwartz's awareness spectrum as a production 
 4. **[Primary Platform]**: Where will these ads run?
 5. **[Competitive Landscape]**: Who else sells to this market?
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Level 1: UNAWARE Ad
@@ -89,3 +92,6 @@ A complete .md file containing:
 3. **Proof Gradient**: Does proof density increase correctly from Level 1 (low) to Level 4 (maximum)?
 4. **CTA Escalation**: Does CTA intensity escalate from soft (Level 1) to direct (Level 5)?
 5. **System Coherence**: Could a reader who saw ads from Level 1 → Level 5 experience a coherent journey?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

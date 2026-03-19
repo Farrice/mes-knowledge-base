@@ -39,3 +39,6 @@ Dan Koe's system for maintaining intellectual sovereignty over AI while leveragi
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Extraction Report**: [extraction-report-ai-leverage.md](../../extractions/dan-koe/extraction-report-ai-leverage.md)
 - **Companion Skill**: [dan-koe-multipassionate-mastery](../dan-koe-multipassionate-mastery/SKILL.md) — stacks for brand + AI leverage
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs (Dan Koe would-never-do list)
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output

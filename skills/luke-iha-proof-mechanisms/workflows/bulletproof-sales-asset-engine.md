@@ -19,6 +19,9 @@ I am Luke Iha, master of the "Emotion of Truth." I do not write copy to convince
 5. **[The Core Pain]**: What is the deepest, ugliest fear your avatar holds at 2:00 AM?
 6. **[Current Assets]**: What proof do you have? (Testimonials, studies, founder background).
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Empirical Excavation (Thesis-First Search)
@@ -80,3 +83,6 @@ The user receives a complete, production-ready .md file containing:
 3. **The Safety Quotient**: Does the proof provide a "psychological safety net" for the leap of faith required at the CTA?
 4. **Doubt Node Coverage**: Is every "unbelievable" claim immediately followed by a relevant empirical or experiential proof point?
 5. **Contextualized Authority**: Are all niche sources framed with a "Prestige Clause" so the audience understands their weight?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

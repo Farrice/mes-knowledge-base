@@ -22,6 +22,9 @@ Read `genius.md` in this skill directory before proceeding.
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Prompt 1: Wireframe Generation Engine
@@ -90,3 +93,9 @@ When building for web/mobile:
 - [ ] Labels are descriptive (not "Section 1" — use "Hero CTA" or "Revenue Chart")
 - [ ] Assumptions are explicitly surfaced
 - [ ] Wireframe could be handed to a developer and built without additional conversation
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

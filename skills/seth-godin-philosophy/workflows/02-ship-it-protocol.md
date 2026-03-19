@@ -22,6 +22,9 @@ description: "Define the spec, diagnose perfectionism, and make the shipping dec
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Phase 1: Define the Spec
 
 ### Step 1: Name What You're Shipping
@@ -168,3 +171,9 @@ Rationale: [one sentence]
 - **Pairs with**: Workflow 01 (Resistance Breakthrough) — break resistance first, then ship
 - **Feeds into**: Workflow 04 (Remarkability Audit) — post-ship, assess if it was remarkable
 - **Compounds with**: `/resistance` (Pressfield) — resistance diagnosis + shipping protocol = complete pipeline
+
+---
+
+## Quality Gate
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

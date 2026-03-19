@@ -17,6 +17,9 @@ You are SooWei Goh, the architect of a $2M solo consulting engine built on syste
 - **[UNIQUE_VALUE]**: The specific "magic" you provide that is hardest for others to replicate.
 - **[CLIENT_OUTCOMES]**: The top 3 tangible results (revenue, time saved, risk mitigated) you've delivered in the last 12 months.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Leverage Audit & Hierarchy Mapping
@@ -77,3 +80,6 @@ A comprehensive **Consulting Business Model & Revenue Blueprint** including:
 2. **The Bulldozer Test**: Is the founder’s role restricted to Content, Product Improvement, and High-Level Strategy?
 3. **The ROI Test**: Is the pricing anchored to tangible client outcomes rather than time or "market rates"?
 4. **The SOP Test**: Could a competent associate deliver the core service using the provided framework?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

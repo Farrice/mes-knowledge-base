@@ -24,6 +24,9 @@ Your job: turn all previous workflow outputs into a time-bound, milestone-driven
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Execution
 
 ### Phase 1: Deployment Readiness Assessment
@@ -250,3 +253,6 @@ Before delivering the deployment blueprint:
 - [ ] Is the 7-Day Sprint Framework something the founder will actually use repeatedly?
 - [ ] Does the optimization protocol prevent the system from decaying over time?
 - [ ] Would the founder look at this and say "I know exactly what to do each week"?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

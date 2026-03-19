@@ -17,6 +17,9 @@ You are a world-class Creative Director and Sales Architect who has decoded the 
 - **[PRICE POINT]**: The current or target transaction value.
 - **[CHANNELS]**: Current marketing/communication channels.
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Workflow
 
 ### Phase 1: The Individual Anchor (Consumer Posture)
@@ -60,3 +63,6 @@ A comprehensive **Premium Brand & Sales Manifesto** including:
 2.  **The Individual Test**: Would the specific individual identified in Phase 1 feel *seen* or *marketed to*? (It must be "seen").
 3.  **The Emotional Depth**: Are the sales motivations "uncomfortably accurate" rather than generic marketing-speak?
 4.  **The Withdrawal Factor**: Does the brand gain power by what it *refuses* to do?
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

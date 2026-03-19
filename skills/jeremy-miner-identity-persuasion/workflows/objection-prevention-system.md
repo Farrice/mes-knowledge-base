@@ -14,6 +14,8 @@ description: Pre-build objection prevention frames using identity, intention, an
 - When you know the top objections your market voices
 - When coaching salespeople who get stuck on the same objections
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
 ## Phase 1: Objection Inventory
 
 List the top 5-7 objections you hear most often.
@@ -180,3 +182,6 @@ For any set of objections, deliver:
 - [ ] Is nervous system calming the foundation layer?
 - [ ] Would the prospect feel respected, not manipulated?
 - [ ] Are all five architecture types considered for each objection?
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+---

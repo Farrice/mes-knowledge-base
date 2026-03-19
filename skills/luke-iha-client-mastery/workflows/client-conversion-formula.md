@@ -18,6 +18,9 @@ Deploy Luke Iha's CR × OU formula to diagnose and fix client acquisition bottle
 
 ---
 
+> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+
+
 ## Step 1: The Formula
 
 ### Completion Target
@@ -182,3 +185,6 @@ After 2 weeks of tracked data:
 - [ ] POP stack diagnosed (which element is weakest?)
 - [ ] Daily outreach system scheduled with specific time block
 - [ ] 2-week tracking commitment made with review date set
+
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
