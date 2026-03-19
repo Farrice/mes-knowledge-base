@@ -76,6 +76,7 @@
 | `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** |  | 3 | 7 |
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | personal brand mastery | 4 | 34 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
+| `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** |  | 13 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |
 | `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | content engine | 8 | 0 |
 | `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content ops | 3 | 0 |
@@ -89,6 +90,7 @@
 | `linkedin-2026-format-arbitrage` | **LinkedIn 2026 Format Arbitrage** | niche bending and 2026 format arbitrage for linkedin | 2 | 5 |
 | `logan-kilpatrick-ai-studio` | **Logan Kilpatrick: Google AI Studio Mastery** | google ai studio mastery | 3 | 14 |
 | `lucas-alpay-storytelling` | **Lucas Alpay Storytelling** | compelling storytelling for fiction, business copy, and book writing | 4 | 67 |
+| `luke-iha-client-mastery` | **Luke Iha: Client Mastery & Business Operations** | the operational complement to luke-iha-creative-strategy (strategic thinking), client mastery & business operations | 12 | 0 |
 | `luke-iha-copy-blocks` | **Luke Iha: Copy Blocks & CASH Method** | copy blocks & cash method | 4 | 0 |
 | `luke-iha-creative-strategy` | **Luke Iha: Creative Strategy & Freelance Mastery** | creative strategy & freelance mastery v2.0 | 5 | 0 |
 | `luke-iha-cross-domain` | **Luke Iha Cross-Domain Campaigns** |  | 4 | 0 |

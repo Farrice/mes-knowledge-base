@@ -62,7 +62,7 @@
 | `lindsay` | **lindsay** | ai consulting sales + client acquisition + multi-channel outreach, multi-channel orchestration, proof building, revenue positioning, robot speak elimination, temperature calibration |
 | `logan-kilpatrick` | **Logan Kilpatrick** | google ai studio, speed over perfection, ui-first prototyping, vibe coding |
 | `lucas-alpay` | **Lucas Alpay** | storytelling architect |
-| `luke-iha` | **luke-iha** | awareness-level advertising, copywriting systems, creative strategy, mechanism engineering, proof ladder architecture, proof mechanisms, vsl architecture |
+| `luke-iha` | **luke-iha** | awareness-level advertising, business operations, client mastery, copywriting systems, creative strategy, mechanism engineering, proof ladder architecture, proof mechanisms, vsl architecture |
 | `lulu-cheng-meservey` | **Lulu Cheng Meservey** |  |
 | `manus-ai` | **Manus.ai** | ai consulting, multi-source synthesis, query architecture, research to action |
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
