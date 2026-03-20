@@ -2,7 +2,7 @@
 description: Extract expert knowledge from source material and convert to a completion-engine skill
 ---
 
-# /extract — Mastery Extraction Workflow (v2.0 — Completion Engine)
+# /extract — Mastery Extraction Workflow (v2.1)
 
 Extract expert knowledge from any source material and produce a deployable completion-engine skill with 3-5 end-to-end workflows.
 
@@ -17,218 +17,85 @@ Extract expert knowledge from any source material and produce a deployable compl
 ### 1. Receive Source Material
 Accept transcript, article, course content, interview, or any knowledge-dense material. If the user provides a URL, read the content first.
 
-**If the user provides a YouTube URL**, auto-fetch the transcript:
+**If YouTube URL**, auto-fetch the transcript:
 ```bash
 // turbo
 python3 execution/fetch-transcript.py "<youtube_url>" "<expert-name>"
 ```
-This saves the transcript to `extractions/<expert-name>/transcript.txt`. If expert name is unknown yet, omit it and the transcript saves to `extractions/transcripts/<video_id>.txt` — move it after expert identification in step 1.5.
+Saves to `extractions/<expert-name>/transcript.txt`. If expert unknown, omit name — move after identification.
 
 ### 1.5. Expert Identification (CRITICAL)
-Before extraction, explicitly confirm the **expert/speaker** identity:
-- The "by [Name]" in transcript headers often refers to the **transcription tool**, NOT the speaker
-- Common transcription tools: Merlin AI, Otter.ai, Tactiq, YouTube auto-captions — these are NEVER the expert
-- Check the video title, channel name, and transcript content for the actual expert
-- If the expert is already in the system (check `AGENT_INDEX.md`), note existing skills for dedup
-- If ambiguous, **ask the user** before proceeding — never guess
+- The "by [Name]" in transcript headers is often the **transcription tool**, NOT the speaker
+- Check video title, channel name, and content for the actual expert
+- If expert exists (check `AGENT_INDEX.md`), note for dedup
+- If ambiguous, **ask the user** — never guess
 - Record: `Expert: [Name] | Transcribed by: [Tool]`
 
 ### 2. Run Extraction
-Read and execute `directives/mes-3.0-extract.md`.
-
-- Determine extraction tier (Light / Standard / Deep) based on material depth
-- Produce the extraction report with genius patterns, hidden knowledge, and methodology
-- **NEW**: Extract Hall of Fame Exemplars, Signature Moves, and Expert-Specific Quality Rubric per the upgraded mes-3.0-extract.md (Layer 6 analysis)
-- Run each finding through the internal validation checklist before finalizing
-
-### 2.5. Applied Intelligence Analysis (MANDATORY)
-After extraction, perform a second pass focused on **deployable capability**:
-
-**A. Meaning Mining** — Go beyond what the expert said. What insight lives between the lines?
-
-**B. Capability Unlock** — For each major insight:
-- What can Farrice **BUILD** with this?
-- What **decisions** can he now make better?
-- How does this **stack** with existing skills?
-
-**C. Market Signal Reading** — If market data discussed:
-- What is the market signaling it wants?
-- Where are underserved verticals?
-
-**D. System Enhancement** — Could any insight improve Antigravity itself?
-
-Fold findings into the extraction report under an **"Applied Intelligence"** section.
+Read `directives/mes-3.0-extract.md` and execute its process against the source material.
 
 ### 3. Validate (Recommended)
-Read and execute `directives/mes-3.0-validate.md`.
+Read `directives/mes-3.0-validate.md` and execute.
 
 ### 4. CHECKPOINT 1: Workflow Planning
-**This is a user decision point.** Present:
-
+**User decision point.** Present:
 - Expert name and domain
-- Number of genius patterns + hidden knowledge items extracted
-- **Exemplar count** (from Hall of Fame Exemplars section)
-- **Signature moves count** (from Signature Moves section)
-- **Quality rubric** (present/absent)
-- **Proposed 3-5 workflows** — for each:
-  - Name and what it produces
-  - Which aspects of the expert's methodology it captures
-  - When a user would trigger it
-- Any flags or concerns
+- Genius patterns + hidden knowledge counts
+- Exemplar count, signature moves count, quality rubric (present/absent)
+- **Proposed 3-5 workflows** — name, what it produces, which methodology it captures, trigger
+- Any flags
 
-**Wait for user approval/adjustment before proceeding.**
-
-If user approves, continue. If user adjusts, incorporate changes.
+**Wait for user approval before proceeding.**
 
 ### 5. Generate Completion Engine Skill
 // turbo
 
-#### 5a. Create Skill Directory
+#### 5a. Create directories
 ```bash
 mkdir -p skills/[skill-name]/workflows agents/[expert-name]/memory
 ```
 
 #### 5b. Create genius.md
-Merge all genius patterns + hidden knowledge + exemplars + signature moves + quality rubric into a single unified genius context file:
-```
-skills/[skill-name]/genius.md
-```
+Merge all genius patterns + hidden knowledge + exemplars + signature moves + quality rubric into `skills/[skill-name]/genius.md`.
 
-The genius.md MUST include (when available from extraction):
-- Genius Patterns (always)
-- Hidden Knowledge (always)
-- Hall of Fame Exemplars (from extraction — sets the quality ceiling)
-- Signature Moves (from extraction — behavioral DNA)
-- Expert-Specific Quality Rubric (from extraction — scoring criteria)
+#### 5c. Generate workflow files
+Create `skills/[skill-name]/workflows/01-[name].md`, `02-[name].md`, etc.
 
-#### 5c. Generate Workflow Files
-For each approved workflow, generate an end-to-end workflow file:
-```
-skills/[skill-name]/workflows/01-[workflow-name].md
-skills/[skill-name]/workflows/02-[workflow-name].md
-skills/[skill-name]/workflows/03-[workflow-name].md
-```
+Each workflow MUST: load genius context, produce a specific deliverable, mirror expert thinking, embed genius patterns inline, include Output Schema and Quality Gate.
 
-Each workflow MUST:
-- Load the full genius context (genius.md)
-- Produce a specific, defined deliverable
-- Mirror how the expert actually thinks (integrated flow, not decomposed steps)
-- Embed genius patterns INLINE where they apply
-- Include **Output Schema** (YAML spec of deliverable structure — replaces Output Contract)
-- Include **Quality Gate** (expert-specific criteria)
-
-Alternatively, use the conversion swarm for parallel generation:
-```bash
-python execution/skill_converter.py --skill "skills/[skill-name]"
-```
-
-#### 5d. Example Enrichment (MANDATORY)
-After generating workflow files, enrich them with **worked examples**.
-
-**Requirements:**
-- Every workflow MUST have an `## Output Schema` section (YAML block defining the deliverable structure)
-- At least **2 out of 3+** workflows MUST include a `## Example Output` section with a fully worked example
-- Reactive/diagnostic workflows (e.g., copy audits that require existing copy as input) may omit the worked example but MUST still have the output schema
-
-**For each example:**
-1. **Invent a realistic scenario** — a plausible input case with enough specificity to feel real
-2. **Run the workflow mentally** — produce a partial but representative output showing the framework in action
-3. **Annotate the example** — add a `**What makes this excellent**:` note explaining WHY the output works (not just what it contains)
-
-**Quality bar:** The example should teach by showing. A reader who only reads the example should understand the workflow's value and approach.
-
-**Reference implementation:** See `skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md` for the gold standard.
+#### 5d. Example enrichment (MANDATORY)
+- Every workflow needs an `## Output Schema` section
+- At least 2 of 3+ workflows need a `## Example Output` with a worked example
+- Each example: realistic scenario, partial output, and a `**What makes this excellent**` annotation
+- Reference: `skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md`
 
 #### 5e. Write SKILL.md
-Use the completion engine format:
-```markdown
----
-name: "[Expert] — [Domain]"
-description: "[Value prop]"
-version: "2.0"
-format: "completion-engine"
-workflows: [N]
----
-
-# [Expert] — [Domain]
-
-[2-3 sentence expert context + core genius]
-
-## Available Workflows
-
-| # | Workflow | Produces | Use When |
-|---|---------|----------|----------|
-| 01 | [Name] | [Deliverable] | [Trigger] |
-...
-
-## Quick Reference
-- **Genius Context**: [genius.md](genius.md)
-```
+Use completion engine format with frontmatter (name, description, version: "2.0", format: "completion-engine", workflows count), expert context, workflow table, and quick reference.
 
 ### 6. Create Agent Files
 // turbo
-
-#### AGENT.md
-Standard agent template with identity, competencies, decision framework, voice, and available workflows.
-
-#### memory/context.md
-Initialize with activation date. Will be updated as the agent is used.
+- `agents/[expert-name]/AGENT.md` — standard agent template
+- `agents/[expert-name]/memory/context.md` — initialize with activation date
 
 ### 7. Register
 // turbo
-Add to `AGENT_INDEX.md` and `SKILL_INDEX.md` with the new format indicators.
+Add to `AGENT_INDEX.md` and `SKILL_INDEX.md`.
 
 ### 8. CHECKPOINT 2: Quality Verification
-**User reviews one workflow output** to confirm quality meets expectations.
-
-Present:
-- One sample workflow file (the primary/most important one)
-- Workflow count and names
-- Registration confirmation
-
-If quality passes, skill is DEPLOYED. If not, iterate on specific issues.
+Present one sample workflow for user review. If quality passes → DEPLOYED. If not → iterate.
 
 ### 9. Performance Log
-Log this extraction to the feedback ratchet (see `directives/feedback-ratchet.md`):
-
-```python
-from execution.log_performance import log_output
-
-log_output(
-    output="[Expert Name] — [Domain] extraction ([tier] tier)",
-    agent="[expert-agent-name]",
-    skill="[skill-directory-name]",
-    workflow="extract",
-    task_type="Extraction",
-    quality_score=[1-10 composite from quality gate],
-    intent_alignment=[1-10],
-    expert_standard=[1-10],
-    adversarial_resilience=[1-10],
-    status="Keep",  # or "Needs Improvement" if quality < 7
-    notes="[genius patterns count], [workflows count], [key insight]",
-)
+```bash
+python3 execution/chain_runner.py finalize "[Expert] — [Domain] extraction" \
+    --expert [expert-name] --skill [skill-dir] --workflow extract \
+    --type Extraction --intent 8 --expert-score 8 --adversarial 7 \
+    --notes "[genius patterns count], [workflows count], [key insight]"
 ```
 
-If this is the first extraction for this skill, set status to "Baseline".
-
 ### 10. Report
-Present summary:
-- Expert name and domain
-- Extraction tier used
-- Genius patterns + hidden knowledge counts
-- **Workflows created** (count + names)
-- Applied Intelligence highlights
-- Skill location in the system
-- **Quality Score** (from performance log)
+Present: expert name/domain, tier used, genius + hidden knowledge counts, workflows created, applied intelligence highlights, skill location, quality score.
 
 ## Options
-
-- **Skip validation**: "skip validation" or "light extract" to bypass Step 3
-- **Deep extract**: "deep extract" to force Deep tier
+- **Skip validation**: "skip validation" or "light extract" → bypass Step 3
+- **Deep extract**: "deep extract" → force Deep tier
 - **Validate only**: "/validate [skill name]" for existing extractions
-
-## Extraction Philosophy
-
-This system builds Farrice's Iron Man suit — each extraction adds a new module. We don't extract to document; we extract to **deploy**. Every extraction leaves Farrice with a capability he didn't have before.
-
-The completion engine format ensures that each capability is a **self-contained workflow** that carries the expert's full genius and produces a finished deliverable. No more fragmented prompts that dilute the nuance. The expert's integrated thinking stays integrated.
