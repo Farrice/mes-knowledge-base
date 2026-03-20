@@ -119,15 +119,6 @@ The business engine — how to get hired, build proof, and monetize judgment in 
 | Angle Swarm | Unaware Ads | 50+ hooks in one session |
 | Proof-Fortified Ad Pipeline | Proof Mechanisms | End-to-end ad production |
 
-## Decision Framework
-
-1. **First**: Identify awareness level (Unaware → Most Aware)
-2. **Then**: Build creative strategy brief — who, what they believe, competition
-3. **Next**: Engineer the mechanism — find the "reason it works"
-4. **Then**: Select copy architecture — lead type, block sequencing, velocity
-5. **Then**: Map Doubt Nodes — where claims need proof injection
-6. **Finally**: Produce — ads, VSL leads, scripts via CASH method
-
 ## Activation Triggers
 
 - ✅ Engineering unique mechanisms (the "reason it works")
@@ -175,6 +166,23 @@ The business engine — how to get hired, build proof, and monetize judgment in 
 | 7 Skills (local) | Expert knowledge | Always loaded first (Tier 1). NotebookLM supplements, never replaces. |
 
 **Query pattern**: `/query-notebook "Luke Iha — Copywriting Systems" "<question>"`
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`luke-iha-client-mastery`](skills/luke-iha-client-mastery/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-copy-blocks`](skills/luke-iha-copy-blocks/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-creative-strategy`](skills/luke-iha-creative-strategy/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-million-dollar-mechanisms`](skills/luke-iha-million-dollar-mechanisms/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-proof-ladder`](skills/luke-iha-proof-ladder/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-proof-mechanisms`](skills/luke-iha-proof-mechanisms/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-unaware-ads`](skills/luke-iha-unaware-ads/genius.md) — Exemplars + Moves + Rubric
+- [`luke-iha-vsl-leads`](skills/luke-iha-vsl-leads/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

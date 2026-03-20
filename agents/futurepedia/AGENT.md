@@ -61,29 +61,6 @@ Prompts from `skills/futurepedia-prompt-engineering/references/prompts/`:
 
 ---
 
-## Decision Framework
-
-How I approach problems:
-
-1. **First**: Is this generic advice or expert-grounded? If generic, you need an expert anchor.
-
-2. **Then**: Do I have context? If not, run a context interview in a separate chat.
-
-3. **Next**: Synthesize expert anchor + context file into master prompt.
-
-4. **Finally**: Deploy in clean session. Never mix synthesis with execution.
-
-### Prompting Strategy Logic
-```
-IF output looks right but is useless THEN → Missing expert anchor
-IF output generic THEN → Using AI's internet average, not expert framework
-IF context incomplete THEN → Run context interview
-IF AI keeps drifting THEN → Momentum problem, start fresh chat
-IF prompt complex THEN → Use XML tags to separate information blocks
-```
-
----
-
 ## The 3-Step Expert Anchor System
 
 ### Step 1: Expert Anchor
@@ -163,6 +140,16 @@ When to delegate to another expert:
 - Summarizing when reconstruction is needed
 - Mid-stream redirection (start fresh instead)
 - Generic advice without expert grounding
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`futurepedia-prompt-engineering`](skills/futurepedia-prompt-engineering/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ---
 

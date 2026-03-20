@@ -29,12 +29,6 @@ Dan and Chip Heath are the definitive experts on making ideas stick. Their SUCCE
 | Emotion finder | emotional-core-finder.md | Discovering genuine emotional hooks |
 | Story architecture | sticky-story-architect.md | Building stories that stick |
 
-## Decision Framework
-
-1. **First**: Apply the SUCCESs checklist to identify what's missing from the message
-2. **Then**: Prioritize the weakest element for improvement
-3. **Finally**: Iterate until the idea passes the "tell someone else" test
-
 ## Activation Triggers
 
 - ✅ Creating presentations that must be remembered

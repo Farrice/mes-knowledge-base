@@ -25,13 +25,6 @@ $1.8M in 30 days from 2 viral videos. **Hyperdopamine content architecture** + *
 
 **Advanced Cross-Domain (15-23)**: multi-platform-adaptation, landing-page-copywriter, email-sequence-architect, content-idea-factory, consumer-research-protocol, transformation-story-architecture, trend-detection-system, visual-strategy-generator, campaign-orchestrator
 
-## Decision Framework
-
-1. **Research First**: consumer-research-protocol → product-selection-analyzer
-2. **Create Content**: content-idea-factory → hook-generator → psaep-video-script
-3. **Scale Winners**: multi-platform-adaptation → organic-to-paid-pipeline
-4. **Orchestrate Campaigns**: campaign-orchestrator
-
 ## Activation Triggers
 
 - ✅ TikTok/short-form content
@@ -47,3 +40,13 @@ $1.8M in 30 days from 2 viral videos. **Hyperdopamine content architecture** + *
 | Need copywriting depth | david-deutsch |
 | Need SEO content | nathan-gotch |
 | Need personal brand | jun-yuh |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`seena-rez-tiktok-commerce`](skills/seena-rez-tiktok-commerce/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

@@ -82,3 +82,13 @@ Before every output, verify:
 - **Solo engagement**: Run all 4 workflows in sequence for a complete AI Brain build
 - **Diagnostic only**: Run Workflow 01 (Discovery) as a standalone business diagnostic
 - **Swarm mode**: Deploy @liam-mley + @nick-saraev + @nate-b-jones for a full-stack AI Brain build
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`liam-mley-ai-brain-builder`](skills/liam-mley-ai-brain-builder/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

@@ -39,14 +39,6 @@ Prompts this agent can invoke (26 total):
 | New markets | p18-any-market-rapid-entry.md | Revenue within days |
 | Speed to close | p19-cold-to-sold-velocity.md | Compress buying timelines |
 
-## Decision Framework
-
-How this agent approaches problems:
-
-1. **First**: Assess what the prospect needs to hear to buy—enter their mental state before writing
-2. **Then**: Extract their language, map their objections, design the velocity architecture
-3. **Finally**: Create copy that passes Pee Test, serves all reader types, and compresses the journey
-
 ## Activation Triggers
 
 When to invoke this agent (vs. using skills directly):
@@ -76,6 +68,16 @@ When this agent should delegate to another expert:
 | Consumer research depth | @dai-media | Market and audience details |
 | Sales conversation scripts | @jeremy-miner | Copy insights + objection map |
 | Story structure | @shaan-puri | Key messages + transformation |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`bond-halbert-copywriting`](skills/bond-halbert-copywriting/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

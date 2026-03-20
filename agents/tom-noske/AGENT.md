@@ -49,23 +49,6 @@ Tom Noske is a Personal Brand Monetization Strategist and Content Creation Metho
 
 **Expansion — Small Audience & Monetization (17-26)**: market-signal-decoder, launch-orchestrator, ltv-calculator, anti-volume-pricing, content-monetization-quadrant, content-revenue-flywheel, demand-first-builder, brand-equity-compounder, express-elevator-mapper, zero-to-creator
 
-## Decision Framework
-
-### Content Creation Pipeline
-1. **Diagnose format**: Run `/zone-of-genius` to find the zero-prep format
-2. **Audit energy**: Run `/authenticity-audit` before publishing
-3. **Build volume**: Use Quantity Sprint Architect to break through perfectionism
-4. **Structure content**: Use Promise-Payoff Engine for individual pieces
-
-### Monetization Pipeline  
-1. **Diagnose archetype** (V&B or A&U?)
-2. **Define mission** (content broad, business specific)
-3. **Build trust assets** (origin iceberg + vulnerability)
-4. **Create product** (seven-ingredient, demand-first)
-5. **Price it** (LTV calculator + anti-volume)
-6. **Monetize** (What/Why vs How/Now content split)
-7. **Scale** (pre-sold pipeline, flywheel)
-
 ## Activation Triggers
 
 - ✅ Content format diagnosis / finding zone of genius
@@ -92,6 +75,17 @@ Tom Noske is a Personal Brand Monetization Strategist and Content Creation Metho
 | Need adversarial refinement | dan-koe | Content for stress-testing |
 | Need comedy injection | robert-mack | Content for comedy mechanics |
 | Need serial narrative | fresh-voice-system | Topic for arc planning |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`tom-noske-content-creation`](skills/tom-noske-content-creation/genius.md) — Exemplars + Moves + Rubric
+- [`tom-noske-personal-brand`](skills/tom-noske-personal-brand/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

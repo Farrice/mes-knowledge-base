@@ -57,3 +57,13 @@ Every conversation should have multiple entry points at different trust levels. 
 
 Primary: `monk-ai-offer-architecture` (17 prompts)
 Synergies: `lindsay-ai-consulting`, `ai-chris-lee-zero-testimonial-sales`, `jeremy-miner-identity-persuasion`
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`monk-ai-offer-architecture`](skills/monk-ai-offer-architecture/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

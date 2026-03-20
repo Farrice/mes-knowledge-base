@@ -19,6 +19,16 @@ PJ Accetturo pioneered the viral AI video workflow used by major brands. His sys
 |-------|----------|
 | `pj-accetturo-ai-video` | Full 14-prompt AI video production toolkit |
 
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`pj-accetturo-ai-video`](skills/pj-accetturo-ai-video/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
+
 ## Invocation Triggers
 
 - AI video production

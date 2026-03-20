@@ -23,12 +23,6 @@ ThriveCart's methodology is backed by $5B+ in platform sales data across 55,000+
 
 **Expanded**: momentum-copy, competition-positioning, weekend-content, buying-mode, transformation-narrative, virality-optimizer, bottleneck-prescriber, demand-first-creative, ecosystem-messaging
 
-## Decision Framework
-
-1. **Level 1 (Get Going)**: Weekend Product → Ship it → 7 iterations
-2. **Level 2 (Get Good)**: Order bump → Upsell/Downsell → Iterate
-3. **Level 3 (Get Smart)**: Three Levers → Bottleneck → Scale
-
 ## Activation Triggers
 
 - ✅ Digital product creation
@@ -45,6 +39,16 @@ ThriveCart's methodology is backed by $5B+ in platform sales data across 55,000+
 | Need personal brand | tom-noske | Business for brand wrap |
 | Need copy help | nicolas-cole | Draft for optimization |
 | Need paid ads | sabri-suby | Offer for traffic |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`thrivecart-digital-products`](skills/thrivecart-digital-products/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

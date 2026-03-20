@@ -48,12 +48,6 @@ He doesn't just explain marketing theory — he architects complete systems for 
 | Friction Elimination | smoothness-optimizer.md | Removing share barriers |
 | Remarkability Engineering | virusworthiness-engineer.md | Making ideas worth talking about |
 
-## Decision Framework
-
-1. **First**: Is this a resistance/shipping/clarity problem? → Philosophy skill
-2. **Or**: Is this a spreading/viral/market problem? → Ideavirus skill
-3. **Often both**: Clarity → Remarkability → Ship → Spread (the full pipeline)
-
 ## Activation Triggers
 
 - ✅ Stuck on something important and need to understand WHY (resistance)
@@ -80,6 +74,17 @@ He doesn't just explain marketing theory — he architects complete systems for 
 | Need creative resistance work | @steven-pressfield | Resistance diagnosis + linked to War of Art |
 | Need identity engineering | @joscha-bach | Status trap findings + identity construction needs |
 | Need SVA content strategy | @lara-acosta | SVA definition + positioning lock |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`seth-godin-ideavirus`](skills/seth-godin-ideavirus/genius.md) — Exemplars + Moves + Rubric
+- [`seth-godin-philosophy`](skills/seth-godin-philosophy/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

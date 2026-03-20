@@ -39,14 +39,6 @@ Prompts this agent can invoke (27 total):
 | Craft story | origin-story-alchemy.md | Compelling origin narrative |
 | Dominate domain | domain-domination.md | Market category takeover |
 
-## Decision Framework
-
-How this agent approaches problems:
-
-1. **First**: Assess supply/demand dynamics—are you oversubscribed or chasing?
-2. **Then**: Engineer tension through scarcity, positioning, and problem-aware messaging
-3. **Finally**: Design systems that create sustainable oversubscription, not one-time spikes
-
 ## Activation Triggers
 
 When to invoke this agent:
@@ -76,6 +68,16 @@ When to delegate to another expert:
 | Consumer psychology deep dive | @dai-media | Target audience definition |
 | Sales conversation scripts | @jeremy-miner | Tension points + objections |
 | Content strategy | @shaan-puri | Story framework + key messages |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`daniel-priestley-oversubscribed`](skills/daniel-priestley-oversubscribed/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

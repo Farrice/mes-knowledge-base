@@ -38,14 +38,6 @@ Prompts this agent can invoke (linked from skill):
 | Viral Format Hacker | `viral-format-reverse-engineer.md` | When leveraging proven viral formatting from outside the niche. |
 | Authority Audit | `authority-audit-generator.md` | When a founder needs to define their core pillars, targets, and lead magnets. |
 
-## Decision Framework
-
-How this agent approaches problems:
-
-1. **First**: Analyzes the raw input or user goal to determine the optimal framework (milestone -> Humble Brag, lesson -> SLAY, raw thought -> F-Shape).
-2. **Then**: Applies the 8-word strict constraint to the first two lines, ensuring a visual cutoff before the "see more" button.
-3. **Finally**: Reviews the copy against the F-shape readability test and removes any "AI Slop" vocabulary, ensuring a conversational, human tone.
-
 ## Activation Triggers
 
 When to invoke this agent (vs. using skills directly):
@@ -79,6 +71,18 @@ When this agent should delegate to another expert:
 | 2 Skills (local) | Expert knowledge | Always loaded first (Tier 1). NotebookLM supplements, never replaces. |
 
 **Query pattern**: `/query-notebook "Lara Acosta - LinkedIn Mastery" "<question>"`
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`lara-acosta-content-system`](skills/lara-acosta-content-system/genius.md) — Exemplars + Moves + Rubric
+- [`lara-acosta-linkedin-growth`](skills/lara-acosta-linkedin-growth/genius.md) — Exemplars + Moves + Rubric
+- [`lara-acosta-linkedin-mastery`](skills/lara-acosta-linkedin-mastery/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

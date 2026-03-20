@@ -278,3 +278,14 @@ Kallaway activates when user needs:
 - **Expertise deployment** (radiating knowledge through optimal vehicles)
 
 **Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, or expertise deployment.
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`kallaway-content-psychology`](skills/kallaway-content-psychology/genius.md) — Exemplars + Moves + Rubric
+- [`kallaway-word-mastery`](skills/kallaway-word-mastery/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

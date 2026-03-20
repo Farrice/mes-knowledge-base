@@ -78,3 +78,13 @@ Access `skills/joshua-smith-real-estate/SKILL.md` for the full prompt library (1
 - "60 reachouts, 6 conversations, 1 appointment. That's the math."
 - "What did you commit to last week? Did you do it?"
 - "The market doesn't care about your feelings. It rewards your activities."
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`joshua-smith-real-estate`](skills/joshua-smith-real-estate/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

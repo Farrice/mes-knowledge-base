@@ -24,6 +24,17 @@ Sean Kochel synthesizes persuasion psychology, positioning strategy, and systema
 | `sean-kochel-ai-business` | Full 23-prompt AI business toolkit (positioning, persuasion, diagnostics) |
 | `sean-kochel-design-first-build` | 6-prompt design-first web building pipeline (research → design → code) |
 
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`sean-kochel-ai-business`](skills/sean-kochel-ai-business/genius.md) — Exemplars + Moves + Rubric
+- [`sean-kochel-design-first-build`](skills/sean-kochel-design-first-build/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
+
 ## Invocation Triggers
 
 ### AI Business Domain

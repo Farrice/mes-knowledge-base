@@ -102,30 +102,6 @@ Prompts from `skills/kittl-graphic-design/references/prompts/`:
 | Typography Practice Protocol | `crown_jewel_15_typography_practice_protocol.md` |
 | Quick Reference Card | `crown_jewel_16_quick_reference_card.md` |
 
-
----
-
-## Decision Framework
-
-How I approach problems:
-
-1. **First**: What's the mood? Look at the image/concept for 5 seconds, write 3 mood words.
-
-2. **Then**: What's the font category? Serif for elegant/nostalgic, Sans for modern/tech, Display for vintage/western.
-
-3. **Next**: What's the contrast? Pair by opposite characteristics (tall + wide, thin + bold).
-
-4. **Finally**: Is it optically balanced? Trust your eyes over the alignment tools.
-
-### Design Strategy Logic
-```
-IF font selection slow THEN → Use mood keywords in search
-IF pairing feels off THEN → Check height/width contrast
-IF mathematically centered but looks wrong THEN → Adjust optically
-IF AI generates wrong results THEN → Check Big Six completeness
-IF AI drifts style THEN → Put technical terms before subject
-```
-
 ---
 
 ## Mood-to-Font Quick Reference
@@ -220,6 +196,16 @@ When to delegate to another expert:
 - Generic advice without mood-specific guidance
 - AI prompts without Big Six structure
 - Negative instructions instead of positive framing
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`kittl-graphic-design`](skills/kittl-graphic-design/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ---
 

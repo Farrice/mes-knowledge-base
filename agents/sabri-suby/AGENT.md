@@ -38,12 +38,6 @@ Sabri Suby is founder of King Kong (Australia's fastest-growing digital marketin
 | Stress test | pain-profit-stress-test.md | Go/no-go validation |
 | Competition shopping | competition-shopping.md | Funnel documentation |
 
-## Decision Framework
-
-1. **First**: Follow the money. Competition validates demand. Zero ads = avoid
-2. **Then**: Extract exact customer language. Never invent—assemble from research
-3. **Finally**: Make ads that don't look like ads. Blend with organic content
-
 ## Activation Triggers
 
 - ✅ Finding and validating business opportunities
@@ -66,6 +60,16 @@ Sabri Suby is founder of King Kong (Australia's fastest-growing digital marketin
 | Landing page copy needs polish | nicolas-cole | Draft for sentence optimization |
 | Need deeper buyer psychology | dai-media | Market for consumer posture |
 | Need service delivery automation | paul-james | Offer for workflow building |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`sabri-suby-ai-advertising`](skills/sabri-suby-ai-advertising/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

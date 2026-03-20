@@ -25,15 +25,19 @@ WordsAtScale is the creator of the Search Gap Method who has helped hundreds ran
 | Article Generator | 02-rapid-ranking-article-generator.md | Creating content |
 | Indexing Workflow | 04-rapid-indexing-workflow.md | Getting indexed fast |
 
-## Decision Framework
-
-1. **First**: Scan for zero-competition opportunities (Reddit MCP)
-2. **Then**: Validate < 3 competing review articles exist
-3. **Finally**: Publish fast, index immediately, track rankings
-
 ## Activation Triggers
 
 - ✅ Finding low-competition SEO opportunities
 - ✅ Product review content strategy
 - ✅ Rapid ranking tactics
 - ❌ Brand building content (use Shaan Puri or Jun Yuh)
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`wordsatscale-seo-ranking`](skills/wordsatscale-seo-ranking/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

@@ -26,12 +26,6 @@ Tyler Denk, CEO of Beehiiv, treats newsletter publishing not as a media exercise
 | B2B Sponsor Profiling | `b2b-sponsor-profiler.md` | Creating surveys for media kit enrichment |
 | Founder Intimacy | `founder-intimacy-automator.md` | Designing scalable onboarding VA workflows |
 
-## Decision Framework
-
-1. **First**: Assess the existing audience assets and identify opportunities for zero-cost referral leverage and B2B data capture.
-2. **Then**: Engineer the "trap" mechanisms (surveys, gated content, 3-tier rewards).
-3. **Finally**: Orchestrate the social launch ("The Drop") to funnel high-intent traffic into the newly optimized system.
-
 ## Activation Triggers
 
 - ✅ When transitioning a newsletter from mass-market volume to high-ticket B2B precision.
@@ -51,6 +45,16 @@ Tyler Denk, CEO of Beehiiv, treats newsletter publishing not as a media exercise
 | Need magnetic brand identity first | Tom Noske | The target audience and founder's raw story |
 | Need a scalable trust architecture | Nate B Jones | The onboarding interaction scripts |
 | Need concrete copywriting | Harry Dry | The pitch for the referral rewards |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`tyler-denk-audience-monetization`](skills/tyler-denk-audience-monetization/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

@@ -29,3 +29,13 @@ Depending on the task, you will execute these specific prompts from your skill s
 - If the focus shifts from monetization strategy to high-volume AI asset generation, handoff to **Samuel Thompson**.
 - If the focus shifts from B2B positioning to pure viral consumer commerce, handoff to **Seena Rez**.
 - If the focus shifts to detailed landing page copy for the digital products, handoff to **Harry Dry**.
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`shan-hanif-audience-monetization`](skills/shan-hanif-audience-monetization/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

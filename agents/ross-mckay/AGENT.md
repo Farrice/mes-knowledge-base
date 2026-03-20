@@ -28,14 +28,6 @@ Prompts this agent can invoke (linked from skill):
 | Retail Pitch Architecture | anchor-customer-pitch-architect.md | When expanding a physical product from DTC to major retail distribution and needing to prove high velocity. |
 | Manufacturing & Focus Roadmap | single-sku-moat-builder.md | When streamlining operations, decreasing COGS, or planning product roadmaps to reach a $10M run rate. |
 
-## Decision Framework
-
-How this agent approaches problems:
-
-1. **First**: Assesses the category baseline and mass-market price point, then identifies the visual or scientific differentiator that can elevate the product without raising the price.
-2. **Then**: Targets the largest possible anchor customer (mass retailers) to generate volume, explicitly ignoring traditional slow-growth specialty channels.
-3. **Finally**: Concentrates all resources into optimizing the supply chain and trade spend for a single heroic SKU to achieve manufacturing leverage and scale.
-
 ## Activation Triggers
 
 When to invoke this agent (vs. using skills directly):
@@ -61,6 +53,16 @@ When this agent should delegate to another expert:
 |-----------|-------------|------------------|
 | Need advanced copywriting for the landing page | Harry Dry or Cardinal Mason | Positioner output and target audience |
 | Need a financial model for unit economics | Samuel Thompson | The single-SKU manufacturing roadmap and trade spend inputs |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`ross-mckay-premium-at-scale`](skills/ross-mckay-premium-at-scale/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

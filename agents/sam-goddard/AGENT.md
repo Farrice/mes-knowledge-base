@@ -52,3 +52,13 @@
 ## Skill Integration
 - **Available Skill**: `sam-goddard-media-scaling`
 - **Stacks with**: Seena Rez (short-form layer), Kallaway (content psychology depth), Shaan Puri (narrative architecture), Samuel Thompson (product launches for audience monetization)
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`sam-goddard-media-scaling`](skills/sam-goddard-media-scaling/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

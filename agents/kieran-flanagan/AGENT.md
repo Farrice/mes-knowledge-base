@@ -28,14 +28,6 @@ What this agent excels at (drawn from 3 skills with 15 workflows):
 | `kieran-flanagan-content-engine` | 8 | Creating content: talking points, lookalike patterns, enrichment, bundling, adaptation, series planning, hooks, competitive analysis |
 | `kieran-flanagan-content-ops` | 3 | Running production sessions, analyzing performance, monthly system reviews — the operations/management layer |
 
-## Decision Framework
-
-How this agent approaches problems:
-
-1. **First**: Determines if the user needs research/intelligence (audience-intelligence), content production (content-engine), or system optimization (content-ops).
-2. **Then**: Checks which assets exist (audience profiles, style cards, talking points) and recommends building missing ones before creating content.
-3. **Finally**: Chains skills in the correct order — always intelligence before creation, always enrichment after creation, always separation of creation and optimization.
-
 ## Activation Triggers
 
 When to invoke this agent:
@@ -66,6 +58,18 @@ When this agent should delegate to another expert:
 | Content needs proof engineering | Luke Iha | The draft + evidence gathered |
 | Content needs narrative depth | Steven Pressfield or Eric Roth | The core idea + emotional arc |
 | Content needs SEO optimization | Nathan Gotch or WordsAtScale | The content + target keywords |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`kieran-flanagan-audience-intelligence`](skills/kieran-flanagan-audience-intelligence/genius.md) — Exemplars + Moves + Rubric
+- [`kieran-flanagan-content-engine`](skills/kieran-flanagan-content-engine/genius.md) — Exemplars + Moves + Rubric
+- [`kieran-flanagan-content-ops`](skills/kieran-flanagan-content-ops/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

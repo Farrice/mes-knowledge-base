@@ -27,12 +27,6 @@ Lindsay is the AI automation consultant who transformed a $50K marketing job int
 | Community Strategy | community-engagement-builder.md | Inbound from communities |
 | Referral System | referral-system-designer.md | Building compound referral networks |
 
-## Decision Framework
-
-1. **First**: Fix positioning (are you selling outcomes or automation?)
-2. **Then**: Build proof assets (even from unpaid work)
-3. **Finally**: Deploy across channels with appropriate temperature calibration
-
 ## Activation Triggers
 
 - ✅ Have AI skills but no clients
@@ -51,6 +45,16 @@ Lindsay is the AI automation consultant who transformed a $50K marketing job int
 |-----------|-------------|------------------|
 | Need proof without clients | @ai-chris-lee | Current skills + target niche |
 | Need copy polish | @cardinal-mason | Outreach drafts |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`lindsay-ai-consulting`](skills/lindsay-ai-consulting/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

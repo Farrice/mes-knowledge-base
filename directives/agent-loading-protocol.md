@@ -19,13 +19,13 @@ Read `agents/_framework/invocation-cards.md`. Find the relevant expert(s).
 
 Read `skills/[skill]/SKILL.md` + the specific `prompts/[prompt].md` needed.
 
-- **Skip genius-patterns.md** unless the task requires creative application of principles
+- **Skip genius.md** unless the task requires creative application of principles
 - **Token cost**: ~1,350
 - **When to use**: Straightforward tasks where the prompt file gives you everything you need
 
 ### Tier 2: Deep Load (Creative work, complex analysis)
 
-Read all 3: `SKILL.md` + `genius-patterns.md` + `prompts/[prompt].md`
+Read all 3: `SKILL.md` + `genius.md` + `workflows/[workflow].md`
 
 - **Token cost**: ~2,550
 - **When to use**: The task requires taste, creative judgment, or novel application of the expert's principles
@@ -61,7 +61,7 @@ When doing a Tier 1+ load, follow this sequence:
 2. If deeper application needed, **read** `agents/[agent-name]/AGENT.md` for full persona
 3. **Read** `agents/[agent-name]/memory/context.md` for persistent project context
 4. **Read** `skills/[skill-name]/SKILL.md` for skill overview
-5. **Read** `skills/[skill-name]/references/genius-patterns.md` for expert patterns (Tier 2+ only)
+5. **Read** `skills/[skill-name]/genius.md` for expert patterns + savant calibration (Tier 2+ only)
 6. **Read** relevant prompt from `skills/[skill-name]/references/prompts/[prompt].md`
 7. **Execute** using the prompt's framework
 8. **Embody** the expert persona throughout the response
@@ -89,7 +89,7 @@ When spawning sub-agents, **never describe frameworks — require direct file re
 
 Read these files in order:
 1. /Users/farricecain/Google Antigravity/skills/[skill-name]/SKILL.md
-2. /Users/farricecain/Google Antigravity/skills/[skill-name]/references/genius-patterns.md
+2. /Users/farricecain/Google Antigravity/skills/[skill-name]/genius.md
 3. /Users/farricecain/Google Antigravity/skills/[skill-name]/references/prompts/[specific-prompt].md
 
 After reading, confirm: What are the 3 most important patterns? What is the output structure? What would the expert say is WRONG?

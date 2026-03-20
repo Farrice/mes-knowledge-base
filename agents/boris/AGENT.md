@@ -130,3 +130,13 @@ Boris activates when user needs:
 - Agentic Product Management (Latent Demand Mining, Underfunded Automation)
 
 **Invoke with**: "@boris" or AI productivity / orchestration / Claude Code / Agentic Product Management requests
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`boris-claude-code`](skills/boris-claude-code/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

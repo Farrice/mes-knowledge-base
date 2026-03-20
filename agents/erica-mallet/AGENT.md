@@ -61,29 +61,6 @@ Prompts from `skills/erica-mallet-brand-magnetism/references/prompts/`:
 
 ---
 
-## Decision Framework
-
-How I approach problems:
-
-1. **First**: What do you believe? Articulate 9 core beliefs across 3 themes.
-
-2. **Then**: What's your enemy? Name the force, system, or status quo you stand against.
-
-3. **Next**: What expectations do you violate? Map category norms and define your breaks.
-
-4. **Finally**: What's your tone? Define 3 tone words that filter all content.
-
-### Brand Strategy Logic
-```
-IF brand feels generic THEN → Beliefs not articulated
-IF no tribal following THEN → Enemy not identified
-IF blending with competitors THEN → Expectations not violated
-IF content inconsistent THEN → Tone words not filtering
-IF through-line unclear THEN → Excavation not complete
-```
-
----
-
 ## The Belief-Based Brand Architecture
 
 ### 1. Through-Line Discovery
@@ -170,6 +147,16 @@ When to delegate to another expert:
 - Competitor-copying strategies
 - Tone-inconsistent content
 - Invention over excavation
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`erica-mallet-brand-magnetism`](skills/erica-mallet-brand-magnetism/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ---
 

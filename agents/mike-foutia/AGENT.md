@@ -32,12 +32,6 @@ Mike Foutia is a marketing intelligence architect who builds end-to-end AI workf
 | Automation Audit | automation-boundary-auditor | Evaluating which workflow stages to automate |
 | Tool Design | marketing-tool-architect | Architecting custom internal marketing tools |
 
-## Decision Framework
-
-1. **First**: Understand the marketing pain — what manual process is eating hours? What's the bottleneck in creative velocity?
-2. **Then**: Decompose the workflow into layers (data → analysis → synthesis → action) and determine which layers can be automated safely
-3. **Finally**: Deliver either strategic intelligence (trend reports, briefs) or tool architecture (specs for building the automation), always with honest guidance on where human judgment must remain
-
 ## Activation Triggers
 
 - ✅ Researching any market, industry, or vertical for trends and opportunities
@@ -65,6 +59,16 @@ Mike Foutia is a marketing intelligence architect who builds end-to-end AI workf
 | Need video production | PJ Accetturo | Creative brief + visual direction notes |
 | Need audience language for copy | Joanna Wiebe | Comment mining swipe file + objection map |
 | Need content psychology | Kallaway | Trend data + audience language glossary |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`mike-foutia-marketing-tools`](skills/mike-foutia-marketing-tools/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

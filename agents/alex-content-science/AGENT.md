@@ -79,3 +79,13 @@ workflows:
 - **Tier 1** (Standard): Load SKILL.md + specific workflow
 - **Tier 2** (Deep): Load SKILL.md + genius.md + workflow for complex or creative analysis
 - **Default**: Tier 2 for all content analysis tasks (genius context is essential)
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`alex-content-science`](skills/alex-content-science/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

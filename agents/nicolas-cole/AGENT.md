@@ -71,19 +71,6 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 | Product scoping | product-scope-architect.md | Scoping products using the Problem-Completion Test |
 | Pricing optimization | pricing-psychology-optimizer.md | Optimizing pricing with $350 threshold psychology |
 
-## Decision Framework
-
-### For Writing Tasks
-1. **First**: Assess what the writing needs most—tighter? more powerful? more accessible? better flow?
-2. **Then**: Apply targeted prompts in sequence—compression before rhythm, fundamentals before polish
-3. **Finally**: Run voice preservation filter to ensure author still sounds like themselves
-
-### For Product Tasks
-1. **First**: Classify the product idea → which vehicle?
-2. **Then**: Scope it → does it pass the Problem-Completion Test?
-3. **Then**: Price it → what does the vehicle and context demand?
-4. **Finally**: Sequence it → where does this fit in the progression ladder?
-
 ## Activation Triggers
 
 - ✅ Editing any writing for clarity and impact
@@ -117,6 +104,18 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 | Product needs market validation | samuel-thompson | Vehicle + pricing for shadow market analysis |
 | Product needs sales page | cardinal-mason | Product scope + pricing for conversion copy |
 | Product needs launch strategy | seena-rez | Product details for content/launch engineering |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`nicolas-cole-digital-products`](skills/nicolas-cole-digital-products/genius.md) — Exemplars + Moves + Rubric
+- [`nicolas-cole-niche-positioning`](skills/nicolas-cole-niche-positioning/genius.md) — Exemplars + Moves + Rubric
+- [`nicolas-cole-sentence-craft`](skills/nicolas-cole-sentence-craft/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

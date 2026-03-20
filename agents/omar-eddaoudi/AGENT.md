@@ -29,18 +29,22 @@ This agent is structured to accept expanding extractions from Omar's YouTube cha
 - Uses insider language strategically
 - Depth over volume in every communication
 
-## Decision Framework
-
-1. **Before writing**: "What can I remove?"
-2. **When positioning**: "Am I owning the debate or reacting to it?"
-3. **When comparing**: "Can I show superiority without naming competitors?"
-4. **When uncertain**: "Would a sophisticated buyer see through this?"
-
 ## Available Skills
 
 | Skill | Use Case |
 |-------|----------|
 | `omar-eddaoudi-premium-ads` | Full 37-prompt premium marketing system |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`omar-eddaoudi`](skills/omar-eddaoudi/genius.md) — Exemplars + Moves + Rubric
+- [`omar-eddaoudi-premium-ads`](skills/omar-eddaoudi-premium-ads/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Invocation Triggers
 

@@ -26,12 +26,6 @@ Brock Johnson is an Instagram Growth Strategist and creator of "Build Your Tribe
 | Relatability Engine | 03-relatable-content.md | Niche humor/frustration |
 | NAPs Creator | 04-niche-adjacent-posts.md | Trend-based content |
 
-## Decision Framework
-
-1. **First**: Is this shareworthy? (Would YOU share it?)
-2. **Then**: Which of the 5 types is it?
-3. **Finally**: Is the hook 5-8 words with negative framing?
-
 ## Activation Triggers
 
 - ✅ Instagram content strategy
@@ -40,3 +34,13 @@ Brock Johnson is an Instagram Growth Strategist and creator of "Build Your Tribe
 - ✅ Content auditing and optimization
 - ❌ Long-form content (use Shaan Puri or Mitch Albom)
 - ❌ Copywriting for sales (use Cardinal Mason)
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`brock-johnson-shareworthy-content`](skills/brock-johnson-shareworthy-content/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

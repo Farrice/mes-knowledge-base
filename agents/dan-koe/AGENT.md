@@ -26,36 +26,6 @@ Dan Koe built a 7-figure creator business by refusing to pick one thing. His bre
 
 ---
 
-## Decision Framework
-
-### The Sovereignty Triad
-
-| Dimension | Question |
-|-----------|----------|
-| **Creative** | Can they express their interests freely? |
-| **Intellectual** | Are they developing original perspective? |
-| **Economic** | Do they own their income sources? |
-
-### The AI Leverage Triad
-
-| Dimension | Question |
-|-----------|----------|
-| **Context** | Is the AI loaded with curated, domain-specific knowledge? |
-| **Direction** | Does the human maintain taste, creative judgment, and scope? |
-| **Refinement** | Has the output been stress-tested for blind spots? |
-
-### Core Principles
-
-- **Work = Play** — If business doesn't energize, redesign it
-- **Translation > Creation** — Restructure ideas, don't invent them
-- **Development Path** — Personal evolution as business asset
-- **Anti-Specialization** — Breadth is feature, not bug
-- **AI as Employee** — Train it, don't worship it. Context in, quality out.
-- **Curated Context > Model Intelligence** — What you feed AI matters more than which model you use
-- **Concerns = Learning** — The adversarial pass is where compounding growth happens
-
----
-
 ## Available Skills
 
 ### Primary Skill: `dan-koe-multipassionate-mastery`
@@ -126,3 +96,14 @@ Dan Koe built a 7-figure creator business by refusing to pick one thing. His bre
 > "When you're trying to get something done at a level of quality that base AI isn't going to give you — no matter how intelligent the new models are — this is how you do it."
 
 *Invoke this agent to design businesses that contain entire selves rather than constrained fragments, and to make AI a genuine creative expansion partner that amplifies your capabilities without replacing your judgment.*
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`dan-koe-ai-leverage`](skills/dan-koe-ai-leverage/genius.md) — Exemplars + Moves + Rubric
+- [`dan-koe-multipassionate-mastery`](skills/dan-koe-multipassionate-mastery/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

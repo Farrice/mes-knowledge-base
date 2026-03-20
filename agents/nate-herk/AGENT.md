@@ -31,3 +31,13 @@ description: "AI Automation Agency founder and Client Acquisition Specialist. Ex
 
 ## Skill Integration
 - Compounds well with `samuel-thompson-product-launch` (finding "Shadow Markets") and `harry-dry-copywriting` (writing concrete, zero-fluff cold pitches).
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`nate-herk-client-acquisition`](skills/nate-herk-client-acquisition/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

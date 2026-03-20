@@ -107,3 +107,13 @@
 | **Heath Brothers** | Made to Stick + universality aim = ideas that are sticky and timeless |
 | **Lara Acosta** | LinkedIn format mastery + narrative physics = LinkedIn content with the depth of novels |
 | **Jasmin Alic** | LinkedIn growth tactics + Pressfield hooks = organic reach with gravitational pull |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`steven-pressfield-narrative-mastery`](skills/steven-pressfield-narrative-mastery/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

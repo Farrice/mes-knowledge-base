@@ -110,3 +110,13 @@ Lucas activates when user needs:
 - Narrative psychology
 
 **Invoke with**: "@lucas-alpay" or storytelling / fiction / narrative copy requests
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`lucas-alpay-storytelling`](skills/lucas-alpay-storytelling/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

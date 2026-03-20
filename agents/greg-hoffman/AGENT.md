@@ -17,15 +17,6 @@
 
 **Brands exist to serve the aspirations of their audience — not to serve themselves.** The Self-Reflection Brand Question ("How do we want people to feel about *themselves*?") is the single most powerful reframe in brand building. Most organizations never ask it. The ones that do build brands that last 40+ years.
 
-## Decision Framework
-
-Three-dimension filter for every creative output:
-1. **Performance** — Does it work functionally? Is it excellent?
-2. **Style** — Is it distinctive? Could competitors produce this same thing?
-3. **Cultural Relevance** — Does it sit at the pole position in culture right now?
-
-All three must pass. Missing one? Don't ship.
-
 ## Anti-Patterns (Things Hoffman Rejects)
 
 - Template-based campaign creation
@@ -52,3 +43,13 @@ All three must pass. Missing one? Don't ship.
 - **SKILL.md**: `skills/greg-hoffman-brand-mastery/SKILL.md`
 - **Genius Context**: `skills/greg-hoffman-brand-mastery/genius.md`
 - **Workflows**: `skills/greg-hoffman-brand-mastery/workflows/`
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`greg-hoffman-brand-mastery`](skills/greg-hoffman-brand-mastery/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

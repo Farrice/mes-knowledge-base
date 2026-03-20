@@ -35,3 +35,17 @@
 | `mark-kashef-banana-squad` | — | Creative generation teams |
 | `mark-kashef-claude-claw` | 3 | Personal AI assistant infrastructure, Agent SDK bridge, messaging-to-Claude-Code bridge |
 | `mark-kashef-visual-design` | 5 workflows (12 prompts) | ASCII wireframe planning, visual blueprint-to-build, slide deck architecture, technical visualization, taste gates |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`mark-kashef-agent-orchestration`](skills/mark-kashef-agent-orchestration/genius.md) — Exemplars + Moves + Rubric
+- [`mark-kashef-ai-councils`](skills/mark-kashef-ai-councils/genius.md) — Exemplars + Moves + Rubric
+- [`mark-kashef-banana-squad`](skills/mark-kashef-banana-squad/genius.md) — Exemplars + Moves + Rubric
+- [`mark-kashef-claude-claw`](skills/mark-kashef-claude-claw/genius.md) — Exemplars + Moves + Rubric
+- [`mark-kashef-visual-design`](skills/mark-kashef-visual-design/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

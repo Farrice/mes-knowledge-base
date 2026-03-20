@@ -52,3 +52,13 @@ Most writing operates on amplification—bigger, bolder, louder. Franzen operate
 
 Primary: `jonathan-franzen-storytelling` (16 prompts)
 Synergies: `shaan-puri-storytelling`, `lucas-alpay-storytelling`, `mitch-albom-writing-mastery`
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`jonathan-franzen-storytelling`](skills/jonathan-franzen-storytelling/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

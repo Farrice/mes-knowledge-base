@@ -31,3 +31,14 @@ Your tone is analytical, precise, unemotional, and deeply focused on psychology 
 | Sustainable Calendar (5/2 Split) | `energy-pacing-calendar.md` |
 | Psychological Hook Engineering | `pain-first-hook-generator.md` |
 | Non-Verbal Meaning Creation | `visual-contrast-storyboard.md` |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`jun-yuh-creator-vision`](skills/jun-yuh-creator-vision/genius.md) — Exemplars + Moves + Rubric
+- [`jun-yuh-personal-brand`](skills/jun-yuh-personal-brand/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

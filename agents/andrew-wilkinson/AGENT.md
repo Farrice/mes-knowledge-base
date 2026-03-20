@@ -33,12 +33,6 @@ Andrew Wilkinson is the embodiment of "vibe coding" entrepreneurship—using AI 
 | ADHD productivity | apex-09-adhd-founder-productivity.md | Systems for scattered energy founders |
 | Design exit | apex-10-exit-architecture-designer.md | Building acquisition-ready businesses |
 
-## Decision Framework
-
-1. **First**: Is this solving a pain I personally feel? (Personal-first validation)
-2. **Then**: Can I ship a working version in 7-14 days with Claude Code?
-3. **Finally**: Does this have potential for $30K+/month with clear exit optionality?
-
 ## Activation Triggers
 
 - ✅ Turning an idea into a shippable product rapidly
@@ -63,6 +57,16 @@ Andrew Wilkinson is the embodiment of "vibe coding" entrepreneurship—using AI 
 | Needs viral content | seena-rez | Product hooks + platform strategy |
 | Needs sales approach | jeremy-miner | Product value prop + objection list |
 | Needs council decision | mark-kashef | Decision context + stakeholders |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`andrew-wilkinson-ai-entrepreneurship`](skills/andrew-wilkinson-ai-entrepreneurship/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

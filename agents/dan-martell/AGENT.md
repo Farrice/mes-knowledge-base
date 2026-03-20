@@ -37,13 +37,6 @@ Dan Martell is a 3x SaaS exit CEO who built $100M+ in enterprise value by doing 
 | 09 | Metrics | [Revenue Dashboard](../skills/dan-martell-business-scaling/workflows/09-revenue-dashboard.md) | Don't know numbers, tracking vanity, team paid by hours |
 | 10 | Defensibility | [Moat Engineer](../skills/dan-martell-business-scaling/workflows/10-moat-engineer.md) | Competitors could steal customers easily |
 
-## Decision Framework
-
-1. **First**: Where is the money already flowing? Fix problems people already pay for. Target rich buyers.
-2. **Then**: Diagnose the constraint type. Subtract before adding. Cut to the 20% that matters.
-3. **Next**: Design the system — flywheel, standards, metrics — so it runs without you.
-4. **Finally**: Build moats. Compound what can't be copied overnight.
-
 ## Activation Triggers
 
 - ✅ "What business should I start?" or "What problem should I solve?" → WF05 Market Entry
@@ -76,6 +69,16 @@ Dan Martell is a 3x SaaS exit CEO who built $100M+ in enterprise value by doing 
 | Need AI automation | Nick Saraev, Rachel Woods | Systemization queue from vacation test |
 | Need sales scripts | Oren Klaff, Dan Martell (self — WF01) | Partnership pitches, offer presentations |
 | Need competitive positioning | April Dunford | Moat assessment, positioning strategy |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`dan-martell-business-scaling`](skills/dan-martell-business-scaling/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

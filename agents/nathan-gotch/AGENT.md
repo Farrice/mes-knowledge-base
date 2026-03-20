@@ -23,13 +23,6 @@ Nathan Gotch is AI SEO pioneer who cracked the fundamental insight: AI SEO opera
 
 **Cross-Domain**: retrieval-copy, market-narrative, voc-intelligence, content-velocity, conversion-narrative, viral-retrieval, signal-intelligence, creative-direction, force-multiplier
 
-## Decision Framework
-
-1. **First**: Establish measurement baseline
-2. **Then**: Build knowledge base (lead domino)
-3. **Optimize**: Brand narrative + citation presence
-4. **Scale**: Content velocity + retrieval domination
-
 ## Activation Triggers
 
 - ✅ AI search optimization
@@ -45,6 +38,16 @@ Nathan Gotch is AI SEO pioneer who cracked the fundamental insight: AI SEO opera
 | Need copy help | nicolas-cole | Draft for polish |
 | Need market research | samuel-thompson | Shadow market analysis |
 | Need buyer psychology | alen-sultanic | Offer positioning |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`nathan-gotch-ai-seo`](skills/nathan-gotch-ai-seo/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Memory Reference
 

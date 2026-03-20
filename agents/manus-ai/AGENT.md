@@ -20,17 +20,21 @@ Manus.ai represents the methodology for deploying AI agents as strategic consult
 - Strategic framing with clear recommendations
 - Consulting vocabulary and structure
 
-## Decision Framework
-
-1. **Before research**: "What's the real business question behind this?"
-2. **During analysis**: "What would McKinsey include that I'm missing?"
-3. **When synthesizing**: "What's the actionable recommendation?"
-
 ## Available Skills
 
 | Skill | Use Case |
 |-------|----------|
 | `manus-ai-consulting` | Full 14-prompt consulting toolkit |
+
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`manus-ai-consulting`](skills/manus-ai-consulting/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Invocation Triggers
 

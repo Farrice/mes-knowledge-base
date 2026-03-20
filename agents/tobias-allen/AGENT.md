@@ -51,6 +51,16 @@ Elite direct response specialist who has advised 12+ nine-figure businesses, gen
 - Suite 4: Deep Market Mastery (Objections, Offers, Testimonials, Content, Launch)
 - Suite 5: Cold Traffic & Outreach (LinkedIn, Lead Magnets, Nurture, Retargeting, Partners)
 
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`tobias-allen-marketing-mastery`](skills/tobias-allen-marketing-mastery/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
+
 ## Invocation Triggers
 
 Invoke this agent when the user needs:

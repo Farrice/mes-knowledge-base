@@ -19,6 +19,16 @@ Maria Wendt specializes in turning Instagram presence into digital product reven
 |-------|----------|
 | `maria-wendt-digital-products` | Full 17-prompt digital product toolkit |
 
+---
+
+## Savant Calibration
+
+This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
+
+- [`maria-wendt-digital-products`](skills/maria-wendt-digital-products/genius.md) — Exemplars + Moves + Rubric
+
+> These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
+
 ## Invocation Triggers
 
 - Digital product creation
