@@ -181,6 +181,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Collaboration | Always | `directives/collaboration-protocol.md` |
 | Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
 | Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
+| AI Slop Detection | Step 5d (production) | `directives/ai-slop-detector.md` |
 | Operating Principles | Development workflows | `directives/operating-principles.md` |
 
 ### Research Routing

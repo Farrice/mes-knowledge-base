@@ -98,6 +98,16 @@ After producing the content, run this test before ANY delivery:
 
 If ANY of these four conditions is true, the content MUST be regenerated — not edited, regenerated — using the loaded expert patterns as the structural foundation, not decoration.
 
+### Step 5d: AI Slop Detection Pass
+
+Run the prose-level checks from `directives/ai-slop-detector.md`:
+- **Tier 1 vocabulary scan** — kill on sight (delve, tapestry, landscape, leverage, robust, pivotal, realm, etc.). If present, replace.
+- **Em-dash frequency check** — max 2 per 500 words. Audit each one; most should be commas, periods, or parentheses.
+- **Sentence length variance** — must swing between short punches and longer constructions. If every sentence takes the same breath, regenerate.
+- **Structural trope scan** — "Here's what no one tells you" family, throat-clearing openers, negation-reveal structures. Max 1 per piece, and only if it genuinely serves the moment.
+
+If Tier 1 words are present or 3+ structural tropes detected: regenerate the flagged sections.
+
 ### Step 6: Quality Gate (Modified Trigger)
 
 Run the 3-point quality gate from `quality_gate.md`. Now it fires because skills were loaded.

@@ -53,6 +53,10 @@ A world-class copywriter would never present a headline, banner, CTA, or offer d
 
 Score ≤ 6 if the copy names a problem without resolving it into a concrete result the reader cares about. "Visibility" is not a result. "Clients find you" is. But HOW you get there creatively — the structure, the tone, the surprise — that's where the craft lives. Don't template it.
 
+#### AI-Shaped Prose Cap
+
+AI-shaped prose cannot score above 6 on Expert Standard regardless of methodology compliance. If the output reads like AI wrote it — predictable rhythm, Tier 1 vocabulary (delve, tapestry, landscape, leverage, robust), formulaic structures ("Here's what no one tells you:"), excessive em-dashes — it has failed the expert test even if the framework is perfectly applied. Audiences detect these patterns instantly; credibility dies on contact. See `directives/ai-slop-detector.md`.
+
 **Fail signal (score < 6)**: "A junior could have produced this with a template."
 
 ### 3. Adversarial Resilience (Score: 1-10)

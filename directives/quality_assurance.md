@@ -111,6 +111,26 @@ velocity_score = random.randint(60, 95)
 
 ---
 
+### Anti-Pattern 6: "AI-Shaped Prose"
+**Definition**: Output that follows expert methodology but is written in recognizably AI cadence, vocabulary, and structure. The framework is right; the words are wrong.
+
+**Symptoms**:
+- Tier 1 vocabulary: delve, tapestry, landscape, leverage, robust, pivotal, realm, multifaceted, comprehensive, meticulous, beacon, commendable, intricate
+- Excessive em-dashes (more than 2 per 500 words)
+- Uniform sentence length (every sentence 15–25 words, no variation)
+- Formulaic reveals: "Here's what no one tells you:", "Here's what broke it:", "Here's the thing:"
+- Ghost citations: "Studies show..." without naming the study
+- Performative empathy without personal stakes or specific costs
+- Structural tropes: "It's not X, it's Y," throat-clearing openers, false pivots
+
+**Why This Is Dangerous**: Even perfect methodology application is undermined when the prose screams "AI wrote this." People's slop detectors are razor-sharp — a single "delve" or one too many em-dashes and the reader mentally files the content as generated. Credibility dies on contact. The content could be brilliant underneath; they'll never find out.
+
+**The Fix**: Run the slop detection pass (Step 5d of content creation gate). Full reference: `directives/ai-slop-detector.md`. The directive covers vocabulary tiers, punctuation rules, rhythm checks, structural tropes, emotional tells, and a fix protocol.
+
+**Origin**: User feedback (2026-03-19) — "Here's what no one tells you: this is such a common AI trope that people read this even if it's not AI that did it. People already assume. You instantly lose credibility."
+
+---
+
 ## 🟢 MANDATES (Always Do These)
 
 ### Mandate 1: Entity Understanding First
