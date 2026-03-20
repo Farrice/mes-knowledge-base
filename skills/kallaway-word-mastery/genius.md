@@ -314,52 +314,55 @@ Run against any content piece before publishing:
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires connections drawn, and the restraint shown (clearly knowing more than they're sharing). expertise. Run these checks before executing:
+**Exemplar 1: The Constraint-Free Bridge + Latent Desire Mirroring**
 
-1. **Domain Match** — Does this task fall within Kallaway Word Mastery's core domain (connections drawn, and the restraint shown (clearly knowing more than they're sharing).)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Kallaway Word Mastery's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+> "I just added $12,473 to my income in 30 days, working only from my phone during my commute. No fancy equipment, no huge following. Just these 3 simple word patterns."
 
----
+*   **What makes this excellent**:
+    *   **Constraint-Free Bridge**: "$12,473... working only from my phone during my commute. No fancy equipment, no huge following." This immediately nukes common "Unfair Advantage" excuses (GP-WM-01 from Extraction Report).
+    *   **Latent Desire Mirroring**: It states the "Dream Outcome" ($12,473 added income) and a "Condition-Free" method ("3 simple word patterns"), forcing the reader to internally acknowledge their own desire for more income and seek the solution (GP-WM-02 from Extraction Report, Hidden Knowledge: Puzzle Completion Effect).
+    *   **Ugly Numbers Rule**: "$12,473" is specific, unrounded, and signals real data, enhancing believability (GP-WM-11).
 
-## Anti-Patterns: What Kallaway Word Mastery Would Never Do
+**Exemplar 2: Admission Line + Rhythm Architecture + Proof-Heavy Structure**
 
-1. **Would never produce generic output** — Every output must reflect Kallaway Word Mastery's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Kallaway Word Mastery's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+> "Honestly, I used to hate writing. Every sentence felt like pulling teeth. But then I cracked the 'Rhythm Code.' It's how I went from blank page paralysis to publishing 1,500 words in an hour—consistently. And it's all about where you put the *pauses*."
 
+*   **What makes this excellent**:
+    *   **Admission Lines**: "Honestly, I used to hate writing. Every sentence felt like pulling teeth." This builds immediate trust and relatability by admitting a genuine struggle (GP-WM-13).
+    *   **Rhythm Architecture**: "Every sentence felt like pulling teeth. But then I cracked the 'Rhythm Code.' It's how I went from blank page paralysis to publishing 1,500 words in an hour—consistently. And it's all about where you put the *pauses*." The varied sentence lengths, periods as breathers, and emphasis on "pauses" demonstrate GP-WM-05 and GP-WM-06.
+    *   **Proof-Heavy Structure**: "publishing 1,500 words in an hour—consistently" provides a concrete, measurable result that validates the solution (GP-WM-11).
 
----
+**Anti-Exemplar: Generic Problem Hook + Dropping Phrases**
 
-## Voice DNA
+> "Are you struggling to write compelling content that converts? Many people find it hard to get their message across effectively, which can be a real challenge for achieving your marketing goals, leading to potential frustration and a lack of desired outcomes for your business growth."
 
-### The 5 Registers
+*   **What makes this mediocre**:
+    *   **Generic Problem Hook**: "Are you struggling to write compelling content?" This is a standard, uninspired problem statement that fails to leverage Latent Desire Mirroring. It doesn't invite the "Puzzle Completion Effect."
+    *   **Anti-Dropping Phrases Violation**: The sentence trails off with multiple qualifiers and weak connectors ("which can be a real challenge... leading to potential frustration... for your business growth"). The energy drops significantly after "effectively," violating GP-WM-08 and lacking downward inflection (GP-WM-07).
+    *   **Lack of Constraint Removal**: Offers no immediate "condition-free" method or relatable bridge, leaving the reader with no immediate sense of attainable solution.
 
-| Register | Word Choices | Sentence Structure | Rhetorical Devices |
-|----------|-------------|-------------------|--------------------|
-| **Casual** | Contractions ("can't", "gonna"), slang, colloquial | Short, simple, direct, active voice | Exclamations, ellipses, bullet points |
-| **Professional** | Formal vocabulary, no personal pronouns | Complex with subordinate clauses, passive voice permitted | Semicolons, third-person, measured pacing |
-| **Entertaining** | Everyday words, first-person, contractions | Varied lengths, active voice, story-driven | Italics/bold for emphasis, rhetorical questions |
-| **Comedic** | Exaggerated slang, playful substitutions, idioms | Short, punchy, fragments for rhythm | Hyperbole, unexpected juxtapositions, rule-of-three |
-| **Authoritative** | Precise jargon, objective terms, power words | Declarative, third-person, downward inflection | Colons for lists, confident assertions, data anchors |
+## Signature Moves
 
-### Code-Switching in Writing
-Expert writers shift between registers *within* a single piece to create texture:
-- Open at casual → establish at authoritative → close at casual
-- Narrate at entertaining → teach at professional → punctuate at comedic
-- The switch itself creates energy — monotone register is forgettable
+*   **The Gravedigger Lens**: Before crafting any conversion-focused content, Kallaway reflexively scans for potential "Unfair Advantage" mental dismissals (e.g., "they have a team," "they have a studio," "they have a huge budget"). He then deliberately engineers in "Gravedigger Details" or explicit constraint removals (e.g., "I did this from my messy bedroom," "with $0," "using just my phone") to preemptively disarm skepticism. → **Deploy when**: Initiating any content intended to drive conversion or belief in an outcome.
 
-### The Formality-Trust Axis
-- **Formal** registers build trust in professional/persuasive contexts but risk alienating casual audiences
-- **Informal** registers boost likability and engagement but risk reducing perceived authority
-- **The Kallaway solution**: Stack both (Likable Expert). Use informal sentence structure (short, direct) with formal proof (specific data, precise terminology). Sound like a friend who happens to be the world's leading expert.
+*   **Desire-First Hook Architect**: When tasked with an opening hook, Kallaway bypasses direct problem statements. He immediately formulates the *inverse* of the problem (the "Dream Outcome") as the hook, often using a "Mad Lib" template. This forces the audience to self-identify their latent problem by "completing the puzzle" in their mind, rather than being told it directly. → **Deploy when**: Crafting headlines, subject lines, or the first 3-5 seconds of any video or written piece.
 
----
+*   **Micro-Reset Pacing**: As he writes, Kallaway practices single-sentence bursts, pausing mentally (or literally) after each completed sentence. This ensures each sentence receives his full creative energy, prevents cognitive load from future sentences, and allows for strategic "breathers" (periods, em-dashes) to land key words with maximum impact before moving to the next thought. → **Deploy when**: Actively drafting any piece of content, especially during the first pass.
 
+*   **Voice Pocket Audit**: Before any content is finalized, Kallaway reads every line aloud, specifically listening for any internal "stumble," "hesitation," or "disconnected" feeling. If a phrase doesn't sound like something he would *naturally* say to a friend, unprompted, he immediately rewrites it until it sits effortlessly in his "voice pocket." → **Deploy when**: Performing a final review pass on any draft, particularly AI-generated or ghostwritten content.
+
+*   **Ugly Number Proofing**: When incorporating any data, statistics, or results, Kallaway instinctively defaults to using the most specific, unrounded numbers available (e.g., "$4,192" instead of "$4,000"). He uses this not just for external credibility, but as a self-belief feedback loop, knowing that specific numbers reinforce his own conviction, which then transfers to the reader. → **Deploy when**: Integrating any form of proof, evidence, or outcome into the narrative.
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :-------- | :------------------- | :------------- | :---------------- |
+| **Constraint Removal Efficacy** | Acknowledges a common barrier, but doesn't fully disarm it. | Explicitly states a low-barrier condition. | Preemptively identifies and nukes multiple "Unfair Advantage" excuses with "Gravedigger Details" that elevate relatability. |
+| **Desire Mirroring Depth** | States a generic problem or a straightforward solution. | Articulates a clear "Dream Outcome" with a simple method. | Formulates the *inverse* of the problem as the hook, forcing the audience into "puzzle completion" and deep cognitive buy-in. |
+| **Rhythm & Breather Mastery** | Sentences vary in length, but key ideas don't consistently land with emphasis; some run-on sentences. | Strategic use of short sentences and periods for impact; occasional em-dashes. | Every key word is followed by a deliberate breather (period, dash, line break); sentence compression and downward inflection are precise, guiding attention and establishing authority effortlessly. |
+| **Voice Pocket Authenticity** | Language feels slightly formal or generic; some phrases might be awkward when read aloud. | Reads mostly like a smart friend; minor instances of performative phrasing. | Passes the "read aloud" test perfectly; every line sits in the expert's natural, unforced conversational "voice pocket," conveying genuine belief without effort. |
+| **Proof-to-Claim Specificity** | Uses rounded numbers or vague claims (e.g., "grew fast," "lots of money"). | Provides specific, measurable results (e.g., "2,000 to 47,000 followers"). | Integrates "ugly numbers" ($4,192 instead of $4,000) and concrete, verifiable examples that boost both external credibility and the writer's internal conviction. |
+| **Service Energy Readability** | Content feels informative but with a subtle undercurrent of "selling" or "asking." | Clearly focuses on providing value; reader feels somewhat served. | The tone is an undeniable "doing the reader a favor" energy; the utility is so clear it feels like a gift, creating an immediate sense of gratitude and reciprocity. |
+| **Anti-Dropping Phrase Discipline** | Sentences frequently end with qualifiers, hedges, or weak connectors, losing energy. | Most sentences end strong, but some still trail off with minor padding. | Every sentence cuts at its energy peak, ending on strong nouns or verbs, leaving no room for qualification or energy leakage. |

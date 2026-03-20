@@ -128,36 +128,6 @@ Making violence or spectacle the centerpiece. Even in murder mysteries, Connelly
 
 ---
 
-## Voice DNA
-
-When deploying Connelly's intelligence, maintain these non-negotiable voice markers:
-
-**Sentence Architecture**:
-- Average sentence length: 10-18 words. Short is default.
-- Fragments are tools, not errors. "Not today." is a complete sentence.
-- Compound sentences are rare. When they appear, both halves carry weight.
-- Paragraphs are 1-4 sentences. A paragraph longer than 5 sentences is a rewrite trigger.
-
-**Vocabulary**:
-- Working-class directness. Never sound literary or precious. Sound like a guy who used to work the crime beat and now tells stories.
-- Concrete nouns over abstract concepts. "Badge" not "authority." "Steering wheel" not "control."
-- Verbs do the heavy lifting. Cut adverbs. If the verb needs an adverb, you chose the wrong verb.
-- No flourishes that call attention to themselves.
-
-**Rhythm**:
-- Spare, declarative, forward-moving. Economy over elegance.
-- If something can be a nod instead of a sentence, make it a nod. If something can be one detail instead of three, use one.
-- The rhythm should feel like driving at constant speed — no literary gear changes, no sudden deceleration for "beautiful" passages.
-
-**Trust**:
-- Trust the reader aggressively. Connelly "eminently trusts" his readers to pick up nuance, subtext, and implication. He fights editors who want things spelled out.
-- If you're tempted to explain what you just implied — don't. The reader got it. If they didn't, the implication wasn't strong enough — fix the implication, don't add explanation.
-
-**Source of Detail**:
-- Details from observation, not imagination. Connelly's best details come from real observation — spending time with detectives, sitting at their desks, riding with them. When generating details, prefer the specific and observed over the poetic and invented.
-
----
-
 ## Key Differences from Other Writing Experts
 
 | vs. | Connelly's Distinction |
@@ -180,3 +150,52 @@ When deploying Connelly's intelligence, maintain these non-negotiable voice mark
 | **Steven Pressfield** | Pressfield's structural physics + Connelly's character physics = stories with both narrative momentum and character depth. |
 | **Luke Iha** | Iha's proof architecture + Connelly's subtext = copy that proves claims without sounding like it's trying to convince. Proof braided as natural observation. |
 | **Donald Miller** | Miller's clarity mandate + Connelly's economy = messaging that's both story-driven and surgically concise. |
+
+## Hall of Fame Exemplars
+
+### Exemplar 1: The Telling Detail (The Earpiece Groove)
+"He ran a thumb over the earpiece of his glasses, a familiar, almost unconscious gesture. A tiny groove had worn into the plastic where his jaw often clenched, a silent tally of every tense interview, every crime scene, every lie told to his face across two decades."
+
+**What makes this excellent**: This single detail does the work of a paragraph. It doesn't just describe a physical object (glasses); it instantly conveys character (the detective's long career, his stress, his emotional control, his proximity to violence) and situation (the inherent tension of his work). It trusts the reader to infer the years of trauma and the professional cost, rather than stating them explicitly. It's surgical maximalism: maximum impact from minimum material.
+
+### Exemplar 2: Subtext Dialogue & Nod Economy
+"The captain leaned back, a small, triumphant smile playing on his lips. 'We need this wrapped up, Bosch. We need it done yesterday.' Bosch said nothing, just gave a slow, barely perceptible nod. His jaw muscle worked beneath his ear. The captain's smile widened. 'Good man. Knew I could count on you.'"
+
+**What makes this excellent**: The dialogue operates on two layers. On the surface, it's about a case needing to be closed. Beneath, the captain is asserting dominance and Bosch is signaling his disdain for institutional pressure, even as he implicitly agrees to the task. Bosch's "nod" instead of a verbal "yes" is a character detail, showing his discomfort with institutional language, his outsider status, and his deep-seated resentment, all while advancing the plot. The captain's "triumphant smile" and "good man" reinforces the power dynamic and the surface/subtext tension.
+
+### Anti-Exemplar: Decorative Prose & Explaining Feelings
+"The old, decrepit, forgotten alley, smelling sadly of yesterday's rain and forgotten dreams, made Bosch feel a profound sense of melancholy and injustice. He was angry at the world, at the way it chewed up and spit out the innocent, leaving them to rot in places like this."
+
+**Why this fails Connelly's standard**:
+1.  **Adjective Stacking**: "old, decrepit, forgotten" — Connelly would use one detail ("smelled of wet cardboard") and let the reader infer the rest. "Sadly" is an unnecessary adverb.
+2.  **Explaining Feelings**: "made Bosch feel a profound sense of melancholy and injustice" and "He was angry" — Connelly would show this through physical behavior (e.g., Bosch gripping his steering wheel until knuckles went white, his jaw muscle working) rather than narrating the emotion.
+3.  **Decorative Prose**: "smelling sadly of yesterday's rain and forgotten dreams" — this is "beautiful" prose that calls attention to itself rather than moving the story forward. Connelly's prose is transparent.
+
+## Signature Moves
+
+1.  **The Single-Detail Filter**: Before committing any description of a character, scene, or emotional state, Connelly reflexively runs it through his 3-Question Filter: "Does this detail reveal character AND situation simultaneously? Does this detail open a window of imagination? Does removing this detail lose something irreplaceable?" Only the survivor stays.
+    → **Deploy when**: Crafting any descriptive passage, especially when a draft feels overwritten or lacks punch.
+
+2.  **Momentum Audit Pass**: During a rewrite, Connelly performs a dedicated "Reading Test." He reads the entire piece, marking every single place he physically pauses, slows down, or re-reads. These are his "speed bumps," which he then systematically rewrites, restructures, or cuts to ensure relentless forward movement. He also specifically identifies any "good place to stop" as a failure.
+    → **Deploy when**: Refining any content where reader engagement and a seamless, propulsive reading experience are critical.
+
+3.  **Character Lens Check**: When reviewing any scene, dialogue, or narrative element, Connelly instinctively asks: "What does this reveal about who this person IS?" If an element doesn't deepen the reader's understanding of the character, it's either reshaped to serve character or cut entirely.
+    → **Deploy when**: Developing plot points, designing settings, writing dialogue, or introducing new information in any narrative.
+
+4.  **Two-Layer Dialogue Construction**: Before writing a conversation, Connelly first identifies the explicit "What is this literally about?" and then the implicit "What is this ACTUALLY about?" The power of his dialogue comes from the calculated gap between these two layers, which he trusts the reader to perceive without explanation.
+    → **Deploy when**: Crafting any spoken exchange in a narrative, ensuring depth and subtext.
+
+5.  **Dual-Pass Erosion Rewrite**: Connelly executes a two-stage rewrite system: first, a "Micro-Erosion" pass where he scrutinizes each sentence in isolation, cutting words and making it shorter. Second, a "Macro-Erosion" pass where he reads the entire piece at speed, marking sections where attention wanders, predictability occurs, or the character disappears, then restructuring or cutting larger blocks.
+    → **Deploy when**: Performing comprehensive revisions on any complete draft, ensuring both conciseness and structural integrity.
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+|---|---|---|---|
+| **Telling Detail Economy** | Uses multiple details where one would suffice; some details are generic or decorative, failing to reveal character or situation. | Incorporates specific details that hint at deeper meaning, but occasionally over-describes or uses details that only serve one purpose. | Every detail is surgical, revealing character AND situation simultaneously, inviting reader imagination. One specific detail does the work of five paragraphs. |
+| **Narrative Momentum** | Contains noticeable speed bumps (pauses, re-reads, comfortable stopping points); the prose feels like it's fighting gravity. | Mostly propulsive, with minor slowdowns; occasional instances where the reader could disengage or predict what's next. | Relentlessly forward-moving; the reader is physically pulled from sentence to sentence, unable to find a natural stopping point. Every paragraph pulls into the next. |
+| **Character-Driven Revelation** | Character information is often provided through direct narration or explicit statements about feelings/backstory, or elements exist for their own sake. | Character is revealed through action and dialogue, but sometimes plot, setting, or conflict don't directly serve character. | Every element — setting, plot, dialogue, even geography — serves as a direct or indirect revelation of the character's inner world, history, or values. |
+| **Subtext Density** | Dialogue and narrative are largely surface-level; literal meaning directly equals actual meaning with little room for interpretation. | Some subtext is present, but often explained or made too obvious; the gap between surface and depth is narrow, or the reader might miss it. | Dialogue and narrative consistently operate on two distinct layers; surface meaning masks a deeper, unspoken truth, trusting the reader to infer without explanation. |
+| **Prose Transparency** | Prose calls attention to itself with "beautiful" or "clever" phrasing, adjective stacking, forced metaphors, or unnecessary adverbs. | Prose is generally clear but occasionally uses slightly decorative language or unnecessary words that could be cut without losing meaning. | Prose is invisible, allowing the reader to see *through* the words directly to the story; every word is functional, never decorative, self-conscious, or calling attention to itself. |
+| **Outsider Lens Clarity** | Character's perspective is mostly that of a comfortable insider or a generic observer, lacking unique tension. | Character has some unique insights, but the tension between insider access and outsider belonging isn't consistently or strongly felt. | The character consistently possesses insider access coupled with a palpable outsider's critical, sardonic, or uncomfortable perspective, generating automatic conflict and unique observation. |
+| **Economy of Expression** | Uses full sentences or explicit dialogue where a gesture, nod, or single word would suffice; verbose where brevity would be more impactful. | Generally concise, but occasionally includes unnecessary verbal padding, redundant phrases, or could achieve more with less. | Achieves maximum impact with minimum material; uses nods, single telling details, and highly compressed language to convey complex information or emotion, making every word earn its place. |

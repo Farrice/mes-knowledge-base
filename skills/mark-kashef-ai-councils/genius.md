@@ -118,40 +118,49 @@ If all agents agree, either the decision is trivial or your council design has f
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires councils expertise. Run these checks before executing:
+### Exemplar 1: The "Go/No-Go" Strategic Decision Council
+**Scenario**: A client needs to decide whether to launch a new product feature with significant investment.
+**Council Configuration**: A 4-agent council is invoked:
+1.  **Market Analyst**: Mandated to identify maximum market opportunity and growth potential.
+2.  **Risk Assessor**: Mandated to identify all potential failure points, competitive threats, and resource drain.
+3.  **Financial Modeler**: Mandated to project best-case and worst-case ROI, burn rate, and break-even points.
+4.  **Devil's Advocate**: Mandated to steelman the arguments of all other agents and then present a counter-argument to each.
+**Output**: A comprehensive "Go/No-Go" brief. The Market Analyst presents an optimistic outlook, the Risk Assessor highlights critical vulnerabilities, and the Financial Modeler provides a range of financial outcomes. Critically, the Devil's Advocate dissects each argument, forcing the other agents to refine their positions and surface hidden assumptions. The final recommendation is a nuanced "Go, with these 3 critical mitigations and a phased rollout plan," rather than a simple yes/no.
+**What makes this excellent**: Demonstrates Pattern 4 (Anti-Sycophancy Architecture) and Pattern 7 (Steelman Requirements) by generating genuine, structured disagreement that leads to a more robust, de-risked decision. Tacit 5 (Opposition Reveals Blind Spots) is perfectly illustrated.
 
-1. **Domain Match** — Does this task fall within Mark Kashef AI Councils's core domain (Councils)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Mark Kashef AI Councils's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+### Exemplar 2: The "Full-Stack Marketing Campaign" Assembly Line
+**Scenario**: A startup needs a complete marketing campaign (email sequence, social posts, ad copy, landing page outline) for a new SaaS product.
+**Council Configuration**: A sequential 3-agent team, with a human tollbooth:
+1.  **Market Researcher**: Mandated to identify target audience pain points, competitor messaging, and key selling propositions. Output: Research brief.
+2.  **Content Strategist**: Mandated to take the research brief and outline the core messaging themes, call-to-actions, and content pillars for each channel. Output: Campaign outline.
+3.  **Copywriter & Designer**: Mandated to generate specific email copy, social posts, ad variants, and a landing page wireframe based on the outline. Output: Full campaign assets.
+**Human Tollbooth**: After the Content Strategist completes the campaign outline, the system pauses and requests user approval before proceeding to the Copywriter & Designer, preventing costly re-generation.
+**Output**: A fully developed, integrated marketing campaign with consistent messaging across all channels, generated from a single prompt, with a mid-process human review.
+**What makes this excellent**: Exemplifies the "Directed Assembly Line" pattern from the extraction report, showing clear sequential handoffs and dependencies. Pattern 3 (Shared Reasoning File) ensures the Copywriter has full context. The "Human Tollbooth" pattern prevents wasted tokens and effort, aligning with Tacit 4 (Subagents Preserve Context Quality).
 
----
+### Anti-Exemplar: The "Agreeable Brainstorm"
+**Scenario**: A user asks a general-purpose AI to "brainstorm ideas for a new product with 3 different perspectives: an innovator, a marketer, and a finance expert."
+**Output**: The AI generates three distinct paragraphs, each from the requested perspective. All three perspectives largely agree on the product's viability and offer complementary, rather than conflicting, ideas. There's no structured debate, no challenge to assumptions, and no synthesis of divergent views. The "finance expert" might suggest budgeting, the "marketer" might suggest branding, and the "innovator" might suggest features—all in harmony.
+**What makes this mediocre**: This fails to leverage Tacit 1 (Sycophancy is Architectural) and Pattern 4 (Anti-Sycophancy Architecture). The agents are described by personality traits ("innovator") rather than behavioral mandates ("must identify market saturation points and potential for disruption"), leading to generic, non-confrontational output. The lack of structured interaction or a synthesis phase means no deeper insights are generated beyond what a single, well-prompted LLM could achieve.
 
-## Anti-Patterns: What Mark Kashef AI Councils Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Mark Kashef AI Councils's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Mark Kashef AI Councils's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
+*   **Mandate-First Configuration**: Always starts by defining explicit, behavioral mandates for each agent ("must identify failure modes," "must assume success") rather than vague personality traits. → **Deploy when**: Architecting any new agent council or defining a new agent role.
+*   **Conflict Architect**: Designs council structures where agent mandates inherently conflict or require steelmanning of opposing views, guaranteeing productive disagreement. → **Deploy when**: Tackling complex decisions where consensus is a red flag (Tacit 8) or when seeking to expose hidden assumptions.
+*   **Reasoning Trace Linker**: Establishes a shared reasoning file for councils, ensuring that the evolution of thought, intermediate findings, and disagreements are all documented and persist. → **Deploy when**: Any multi-session council, or when post-mortem analysis of decision-making is critical.
+*   **Precision Invocation**: Ensures that the activation of any specialized council is via a single, unambiguous phrase, eliminating cognitive load and friction for the user. → **Deploy when**: Integrating councils into a broader workflow or making them accessible to non-technical users.
+*   **Hybrid Grunt-to-Architect Pipeline**: Automatically deploys cheaper, focused sub-agents for initial data gathering (e.g., summarizing a codebase) before feeding that distilled context to more expensive, reasoning-heavy agent teams. → **Deploy when**: Processing large volumes of raw data or complex documentation as a prerequisite for a higher-level task.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Mark Kashef AI Councils's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                     | Score 4 (Acceptable)                                                                 | Score 7 (Good)                                                                      | Score 10 (Savant)                                                                                                                                              |
+| :---------------------------- | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Disagreement Fidelity**     | Agents present distinct but often complementary views; mild disagreement.              | Agents present genuinely divergent views, with some structural conflict.             | Agents' mandates are architected for inherent conflict, forcing steelmanning and surfacing deep-seated assumptions; zero sycophancy.                           |
+| **Agent Mandate Specificity** | Agent roles are defined with personality traits (e.g., "be creative").                 | Agent roles include some behavioral instructions, but still allow for broad interpretation. | Agent roles are defined exclusively by explicit, measurable behavioral mandates (e.g., "must identify three novel risks," "must refute the strongest point"). |
+| **Reasoning Traceability**    | Final conclusions are presented; intermediate reasoning is implicit or lost.           | Some intermediate reasoning is captured, but not consistently linked across agents. | A comprehensive, shared reasoning file captures the full evolution of thought, disagreements, and data points for every agent.                                  |
+| **Crux Identification**       | Disagreements are superficial; agents don't fully engage with opposing arguments.      | Agents acknowledge opposing arguments but may not fully articulate their strongest form. | Every disagreement is preceded by a steelmanned articulation of the opposing position, leading to clear identification of the core crux.                      |
+| **Council-Task Alignment**    | A general-purpose council is used for a specialized task.                             | A relevant council is chosen, but its specific configuration might be generic.      | The council's composition (number and type of agents) is precisely tailored to the domain and specific decision at hand (Pattern 8).                          |
+| **Context Purity**            | Main agent context window is cluttered with sub-agent deliberations.                 | Sub-agent deliberations are somewhat separated, but still impact main context.      | Intensive reasoning is offloaded to Claude Code subagents, maintaining a pristine and focused context for the main conversation.                               |
+| **Consensus Challenge**       | Unanimous agreement is accepted as a sign of success.                               | Unanimous agreement is noted but not always probed.                                 | Unanimous agreement is treated as a critical red flag, triggering a deeper structural review or re-prompt to ensure genuine tension (Tacit 8).                 |

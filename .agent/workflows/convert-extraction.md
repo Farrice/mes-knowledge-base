@@ -26,6 +26,9 @@ Read the extraction report and extract:
 - **Genius patterns** (count and names)
 - **Hidden knowledge** (count and items)
 - **Core methodology/frameworks**
+- **Hall of Fame Exemplars** (count — may be absent in older extractions)
+- **Signature Moves** (count — may be absent in older extractions)
+- **Quality Rubric** (present/absent — may be absent in older extractions)
 - **Proposed workflows** (not individual prompts)
 
 Identify 3-5 natural end-to-end workflows based on the extraction content:
@@ -71,6 +74,15 @@ Merge genius patterns + hidden knowledge into a single unified file:
 
 ## Hidden Knowledge
 [All items: Tacit Insight → Why Others Miss This → Deploy When]
+
+## Hall of Fame Exemplars
+[2-3 calibration anchors from source material — verbatim or reconstructed demonstrations of the methodology at its best. Include anti-exemplar.]
+
+## Signature Moves
+[3-5 behavioral moves: Move Name → Action Description → Deploy When]
+
+## Expert-Specific Quality Rubric
+[5-7 criteria with Score 4/7/10 descriptions]
 ```
 
 ---

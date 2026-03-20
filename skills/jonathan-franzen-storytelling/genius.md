@@ -79,41 +79,37 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires storytelling expertise. Run these checks before executing:
+**Exemplar 1: The Embarrassingly Specific Neurosis**
+*From Jonathan Franzen's *The Corrections*, reconstructed*
+Alfred Lambert, in his declining years, developed a peculiar obsession with the locks on his front door. Not just that they were locked, but that they were *locked correctly*. He would test them three, four, five times before bed, convinced that an almost imperceptible click, a fractional give in the mechanism, signaled impending doom. His wife, Enid, would lie in bed, rigid with irritation, listening to the faint metallic *clacks* from the hallway, each one a tiny hammer blow against her own desperate yearning for sleep and a return to some semblance of order.
+*What makes this excellent*: This immediately establishes Alfred's character through a "comic problem" (Pattern 1) that is simultaneously small and desperate. It's not a grand trauma, but a petty, relatable neurosis that reveals deeper anxieties about control and aging. The detail is minimal (Pattern 4), relying on the "clacks" to convey the tension, and introduces a subtle "want-collision" (Pattern 5) with Enid's desire for sleep.
 
-1. **Domain Match** — Does this task fall within Jonathan Franzen - Storytelling Mastery's core domain (Storytelling)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Jonathan Franzen - Storytelling Mastery's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+**Exemplar 2: The Subtext of the Family Dinner**
+*Generated from Franzen's patterns*
+Patty, mid-sentence about her new gluten-free diet, paused, fork hovering over a single, forlorn brussels sprout. Her son, Kevin, across the table, was meticulously dissecting a bread roll, tearing it into tiny, architecturally precise crumbs. He hadn't looked at her once since she'd asked about his "coding projects." Her husband, Richard, watched the scene with the detached amusement of a man who’d learned long ago that intervention was merely an invitation to be drawn into the vortex. He reached for another glass of wine, the clink of ice a small, defiant punctuation mark in the unspoken argument.
+*What makes this excellent*: This scene is a masterclass in "want-collision" (Pattern 5). Patty wants validation and connection; Kevin wants to disappear. Richard wants to observe and self-medicate. The conflict is entirely subtextual, conveyed through precise, minimal details (Patty's fork, Kevin's crumbs, Richard's wine) (Pattern 4). The "comic distance" (Pattern 2) allows the reader to appreciate the absurdity and truth of the family dynamic without sentimentality.
 
----
+**Anti-Exemplar: The Overly Explicit Confession**
+"I feel so lost," Sarah whispered, tears streaming down her face. "My whole life, I've just been trying to please my mother, and now I realize it was all a lie. I'm empty inside, a hollow shell of who I should be." Her friend, Maria, hugged her tightly, murmuring, "It's okay to feel that way. You're strong, and you'll get through this."
+*What makes this mediocre*: This is generic, sentimental, and lacks "comic distance" (Pattern 2). The character explicitly states her feelings and motivations, leaving no room for subtext or reader interpretation. There's no "comic problem" (Pattern 1) to ground the emotion in a specific, relatable absurdity, and the dialogue is overly earnest, lacking the "shame-to-comedy conversion" (Pattern 3) that makes difficult material resonant.
 
-## Anti-Patterns: What Jonathan Franzen - Storytelling Mastery Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Jonathan Franzen - Storytelling Mastery's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Jonathan Franzen - Storytelling Mastery's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+*   **The Micro-Obsession Probe**: Always begins by identifying the character's most embarrassing, disproportionate, yet deeply felt "small problem" – the thing they are irrationally obsessed with or irritated by. → **Deploy when**: Initiating character development or seeking a unique hook for a narrative.
+*   **The Absurdity Frame Shift**: Steps back from emotionally charged situations until the inherent absurdity or dark humor of the characters' predicaments becomes visible. If it's not funny, the perspective is too close. → **Deploy when**: The narrative feels bogged down by sentimentality, earnestness, or victim-positioning.
+*   **The Unspoken Want-Clash Setup**: Before writing any scene, articulates the specific, often petty, and fundamentally incompatible desires of each character present, ensuring the scene's tension arises organically from these internal wants. → **Deploy when**: Planning any dialogue or interaction scene to ensure inherent dramatic friction.
+*   **The Three-Detail Filter**: For any descriptive passage or character introduction, ruthlessly trims all but the 2-3 most impactful and revealing details, trusting the reader's imagination to fill in the rest. → **Deploy when**: Refining prose, especially descriptions of setting, appearance, or minor characters.
+*   **The Page-Level Perfection Lock**: Refuses to proceed to the next page or section of a draft until the current one is polished to a near-publication standard, eliminating the "I'll fix it later" trap. → **Deploy when**: Moving between distinct sections or chapters of a long-form narrative.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Flowing and natural. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Warm and engaging. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Warm authority with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Jonathan Franzen - Storytelling Mastery's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                    | Score 10 (Savant)                                                                                                                                                                     |
+| :---------------------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Comic Problem Resonance**   | Character problems are clear but lack the specific Franzenian blend of small/desperate/absurd. | Core problems are well-defined, often petty, and hint at deeper anxieties, allowing for some comedic distance. | The central character problem is an exquisitely observed micro-neurosis or social irritation that is simultaneously pathetic, desperate, and profoundly funny, immediately defining the character. |
+| **Subtextual Want-Collision** | Characters' desires are stated or easily inferred, leading to direct conflict.       | Conflicting wants are present and drive the scene, often through implication, but occasionally surface explicitly. | Every interaction is a masterful dance of unspoken, incompatible desires, where the dramatic tension arises entirely from what characters *don't* say but desperately want.                 |
+| **Detail Compression Ratio**  | Descriptions are thorough but include some unnecessary elements.                    | Details are selective and effective, creating vivid images without excessive prose.                                | Achieves maximum impact with minimal detail; every descriptive word is perfectly chosen, leaving ample space for the reader's imagination while providing precise anchors.                |
+| **Shame-to-Insight Conversion** | Difficult material is handled earnestly, sometimes veering into sentimentality.     | Shameful or uncomfortable truths are presented with a degree of detachment or dark humor, yielding insight.        | Transforms the most embarrassing or ugly aspects of human nature into universally relatable and often hilarious insights, using comic distance to liberate the material from sentiment. |
+| **Iron Bridge Integrity**     | Individual sections are functional but show signs of needing further revision later. | Sections are well-crafted and hold together, with minor opportunities for polish.                                  | Each page/section stands as a finished, meticulously polished work, contributing seamlessly to the whole without relying on future fixes; the narrative feels structurally robust.          |
+| **Organic Inevitability**     | Plot points feel somewhat pre-determined or occasionally coincidental.             | The plot unfolds logically from character actions, feeling mostly natural and surprising.                         | The narrative journey feels utterly surprising yet, in retrospect, completely inevitable, driven solely by the internal logic of character wants and their natural, often messy, consequences. |

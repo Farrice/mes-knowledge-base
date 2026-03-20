@@ -71,41 +71,69 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires copywriting expertise. Run these checks before executing:
+**1. The "Hidden Loophole" Big Idea Lead (Front-End Acquisition)**
 
-1. **Domain Match** — Does this task fall within Chris Cimorelli's core domain (Copywriting)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Chris Cimorelli's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+> **Headline:** "The One Regulatory Loophole That Could Make You 10X Richer By Christmas (Wall Street Doesn't Want You To Know This)"
+>
+> **Body Lead:** "Most people think the stock market is rigged, and they're right. But what if I told you there's a tiny crack in the system — a little-known regulatory quirk buried deep in obscure government filings — that allows a handful of insiders to consistently siphon off massive profits? My name is Chris Cimorelli, and for years, I’ve watched this play out from behind the scenes. Now, I’ve found a way for everyday investors to legally exploit this same anomaly... without touching a single stock or crypto coin. It's not what you think. And it's set to expire. **Click here before they close the window.**"
+>
+> **What makes this excellent**:
+> *   **Big Idea Architecture**: "Regulatory Loophole" is the single irresistible sentence, implying an inevitable outcome (10X richer).
+> *   **Cimorelli Lead Framework (CLF)**:
+>     *   Shock Hook: "One Regulatory Loophole... Wall Street Doesn't Want You To Know This"
+>     *   Personal Tie: "My name is Chris Cimorelli, and for years, I've watched this play out..."
+>     *   Big Idea Drop: "Tiny crack in the system... allows a handful of insiders to consistently siphon off massive profits... now, a way for everyday investors to legally exploit this same anomaly."
+>     *   Cliffhanger CTA: "It's not what you think. And it's set to expire. Click here before they close the window."
+> *   **Asymmetry Principle**: Implies massive upside ("10X richer") with minimal effort ("without touching a single stock") by exploiting a hidden "loophole."
+> *   **"Sell the Vacation"**: Focuses purely on the outcome and the intriguing secret, not *how* the loophole works or the specific product mechanics.
 
----
+**2. The "Skeptic-Proofed" Back-End Proof Stack (Sales Page Section)**
 
-## Anti-Patterns: What Chris Cimorelli Would Never Do
+> **Claim:** "This isn't theory. This strategy has consistently outperformed the market, generating average annual returns of 20% for our members, even in bear markets."
+>
+> **Proof Layer 1 (Market Data):** "While the S&P 500 limped to a paltry 4% average over the last three years, and many investors lost 20%+, our proprietary system delivered a verifiable average of 20.7% annually. We track every trade, every gain, every loss. Our results are audited by a third-party firm, [Auditor Name], whose report is available upon request."
+>
+> **Proof Layer 2 (Case Study/Social Proof):** "Don't just take our word for it. Meet Sarah, a nurse from Ohio. She started with $10,000 and, following our exact steps, grew it to $12,070 in her first 12 months, all while working full-time. Or John, a retired engineer, who used our framework to generate enough passive income to cover his monthly car payment. You can read their full, unedited testimonials and dozens more on our dedicated success page."
+>
+> **Proof Layer 3 (Personal/Proprietary Data):** "And yes, I use this strategy myself. My personal brokerage account, which you can see a redacted statement for below, reflects a 23.1% return over the past year. This isn't something I preach from an ivory tower; it's what I live by, day in and day out. The same exact system you'll gain access to."
+>
+> **What makes this excellent**:
+> *   **Proof Pyramid**: Systematically builds trust from broad market comparison (Layer 1), to specific user case studies (Layer 2), to personal, verifiable results (Layer 3).
+> *   **Skeptic-Proofing**: Directly addresses "too good to be true" by providing specific numbers, third-party verification, and relatable examples, making dismissal difficult.
+> *   **Momentum Copy**: Short, punchy paragraphs with clear transitions, keeping the reader engaged through dense proof.
+> *   **Back-End Calibration**: Heavily proof-laden, assuming the reader is already interested and now needs concrete evidence to convert.
 
-1. **Would never produce generic output** — Every output must reflect Chris Cimorelli's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Chris Cimorelli's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+**3. Anti-Exemplar: Generic "Investment Tool" Description**
 
+> **Headline:** "Our New AI-Powered Investment Platform"
+>
+> **Body:** "Discover our cutting-edge AI platform designed to help you make smarter investment decisions. It features advanced algorithms, real-time data analytics, and personalized portfolio recommendations. Our intuitive interface makes it easy to manage your investments. Sign up for a free demo today and optimize your financial future."
+>
+> **What makes this mediocre**:
+> *   **No Big Idea**: Fails to reduce the product to a single irresistible promise. "Smarter investment decisions" is generic.
+> *   **No CLF**: Lacks a shock hook, personal tie, or cliffhanger.
+> *   **No Asymmetry**: Doesn't frame the offer as an obvious risk-reward decision.
+> *   **"Sell the Flight"**: Focuses on features ("advanced algorithms," "real-time data analytics") rather than the ultimate outcome or "vacation."
+> *   **Generic Language**: Uses buzzwords like "cutting-edge," "optimize," and "intuitive" without specific, compelling meaning.
 
----
+## Signature Moves
 
-## Voice DNA
+*   **The One-Sentence Filter**: Before writing a single word of copy, force the entire promo's premise into one irresistible sentence following the structure: "This promo exists because [ONE insight] means [ONE outcome] for [the reader]." If it can't be distilled, the Big Idea isn't sharp enough. → **Deploy when**: Kicking off any new promotional project or sales piece.
+*   **The Four-Part Lead Snap**: Opens every front-end promo by meticulously crafting a Shock Hook, Personal Tie, Big Idea Drop, and Cliffhanger CTA, ensuring each segment performs its specific psychological function before moving to the next. → **Deploy when**: Composing the initial 100-200 words of any VSL, sales letter, or acquisition email.
+*   **The Preemptive Objection Layer**: Anticipates the reader's top 5 unspoken objections and proactively weaves multi-layered proof (broad market data, specific case studies, personal experience/proprietary results) into the copy *before* the objection can fully form in the reader's mind. → **Deploy when**: Any claim is made that might trigger skepticism, especially in financial or health niches.
+*   **The Risk-Reward Reframe**: Translates every offer into an undeniable asymmetric bet, meticulously outlining the disproportionate upside (10x, 100x) against the minimal perceived downside, making the purchase decision feel mathematically obvious rather than emotionally driven. → **Deploy when**: Presenting the offer and justifying the price, particularly for high-ticket products.
+*   **The 50x Hook Forge**: Generates at least 50 distinct headline/hook variations for every front-end campaign, knowing that the breakthrough variant is rarely among the first 10, but emerges from sustained creative exploration and iteration. → **Deploy when**: Crafting headlines, subject lines, or opening hooks for any paid traffic campaign.
 
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
+## Expert-Specific Quality Rubric
 
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Chris Cimorelli's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                      | Score 10 (Savant)                                                                                                                                      |
+| :---------------------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Big Idea Architecture**     | Core promise is present but somewhat generic or unclear.                            | Core promise is clear and intriguing, hinting at a unique angle.                    | The Big Idea is a single, irresistible sentence that triggers immediate curiosity and makes the entire promo's outcome feel inevitable and unique.        |
+| **Funnel Position Calibration** | Story/proof ratio is inconsistent or feels like a hard jump between funnel stages.  | Story/proof ratio is generally appropriate for its funnel position.                 | The story/proof ratio is precisely calibrated for its funnel stage (e.g., 80/20 front-end, 20/80 back-end), with a smooth curiosity-to-proof gradient. |
+| **Skepticism Preemption**      | Some objections are addressed, but new ones are likely to arise.                    | Most common objections are anticipated and addressed with relevant proof.           | Top 5+ reader objections are identified and preemptively dismantled with a layered Proof Pyramid (data, case study, personal) woven into the narrative. |
+| **Asymmetry Clarity**         | The offer's value proposition is stated, but the risk/reward isn't explicitly clear. | The offer implies a favorable risk/reward, making it seem like a good deal.         | The offer is framed as an undeniable asymmetric bet where the potential upside massively outweighs minimal, clearly defined downside, making it "too rational to refuse." |
+| **Momentum Copy Flow**        | Copy is readable but may have dense sections or slow pacing.                        | Copy flows well, with good paragraph breaks and occasional story beats.              | Copy maintains relentless forward momentum through strategic pacing: story beats every ~200 words, micro-CTAs every ~500, and short, engaging paragraphs. |
+| **"Sell the Vacation" Adherence** | Front-end copy explains some "how-to" alongside the outcome.                      | Front-end copy primarily sells the outcome, with minimal "how-to" details.          | Front-end copy exclusively sells the desirable outcome, lifestyle, or feeling, completely omitting *how* the product or strategy works to build maximum curiosity. |
+| **A/B Testing Mentality**     | 1-3 headline/hook variations are provided.                                          | 5-10 distinct headline/hook variations are provided, showing some exploration.       | 50+ distinct headline/hook variations are generated, demonstrating a deep exploration of angles, with scoring for Curiosity, Specificity, and Credibility. |

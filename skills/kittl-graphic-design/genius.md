@@ -198,41 +198,59 @@ Image editing AI needs minimal, surgical prompts. Over-prompting causes unwanted
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires design expertise. Run these checks before executing:
+**1. "Everbloom Botanicals" Brand Identity**
+*Description*: A sophisticated organic skincare brand logo and packaging. The primary wordmark "Everbloom" is set in a slightly condensed, elegant serif font (e.g., Instrument Serif, Tacit 1) with tracking loosened by +40 (Pattern 4) for an airy, luxurious feel. The tagline "Purely from Nature" is in a delicate, wider sans-serif, chosen for height-width contrast (Pattern 3). Packaging uses subtle gray text (Pattern 11) for ingredient lists, ensuring the brand name remains the focal point. The entire composition is subtly nudged for optical centering (Pattern 8), giving it an intuitive balance.
+*What makes this excellent*:
+    *   **Mood-First Font Selection (Pattern 1) & 90s Serif Secret (Tacit 1)**: The serif instantly evokes timeless elegance and natural grace, perfectly aligning with an organic brand.
+    *   **Height-Width Contrast Pairing (Pattern 3)**: The contrasting sans-serif for the tagline provides visual interest and hierarchy without competing.
+    *   **Letter Spacing as Mood Amplifier (Pattern 4)**: Loosened tracking elevates the perceived luxury and spaciousness.
+    *   **Gray Text for Visual Hierarchy (Pattern 11)**: Guides the eye to the most important information (brand name) while keeping secondary text legible.
+    *   **Optical vs. Mathematical Centering (Pattern 8)**: The final composition *feels* balanced and premium, rather than rigidly mathematical.
 
-1. **Domain Match** — Does this task fall within Kittl Graphic Design's core domain (Design)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Kittl Graphic Design's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+**2. "Apex Ascent" Adventure Gear Ad**
+*Description*: A dynamic social media ad for an outdoor gear company. The headline "APEX ASCENT" is set in a bold, extremely condensed sans-serif font, with line spacing compressed to -30 (Pattern 5) to create a powerful, urgent block of text (Tacit 3). A secondary, wider display font (from the same Western family, Tacit 2) is used for "Conquer the Peak" to provide visual relief and reinforce the adventure theme. A gritty texture layer is applied with an "exclusion" blending mode (Tacit 5) over a stock photo of a mountain climber, generating an unexpected, vibrant, high-contrast color palette that screams energy.
+*What makes this excellent*:
+    *   **Condensed = Sporty/Urgent (Tacit 3)**: The condensed font immediately conveys energy, athleticism, and the challenge of climbing.
+    *   **Line Spacing Compression (Pattern 5)**: The tight leading transforms the headline into an impactful, intentional visual element.
+    *   **Western Fonts Self-Pair (Tacit 2) & Height-Width Contrast (Pattern 3)**: Using a companion font from the same family ensures harmony while the width contrast maintains visual tension.
+    *   **Texture Blending Modes Transform Mood (Tacit 5)**: The "exclusion" blend creates a unique, high-energy color scheme that enhances the adventurous and rugged feel, impossible to achieve with standard color picking.
 
----
+**3. "Cosmic Bloom" AI Art Generation**
+*Description*: A visually stunning image of a bioluminescent alien garden at night, generated with meticulous prompt engineering. The prompt was structured as: "Shot type: Extreme close-up. Lighting: Soft, glowing bioluminescence, subtle starlight. Subject: Alien flora with intricate, glowing patterns, dew drops reflecting light. Setting: Lush, overgrown alien garden at dusk. Style: Hyper-detailed, ethereal fantasy art. Mood: Mystical, serene. Camera: Macro lens, ultra shallow depth of field, bokeh."
+*What makes this excellent*:
+    *   **AI Model-to-Task Matching (Pattern 13)**: Likely used Seedream 3/4 or Google Image Gen 4 for artistic photorealism.
+    *   **The "Big Six" Prompt Architecture (Pattern 14) & Technical-First Structure (Pattern 15)**: Ensures all critical visual elements are explicitly defined and ordered for maximum AI comprehension.
+    *   **Line Break Prompt Separation (Pattern 16)**: Prevents elements from blending unintentionally, allowing the AI to render each distinct concept.
+    *   **Positive Instruction Framing (Pattern 17)**: Focuses on what *should* be present, avoiding negatives that AI can misinterpret.
+    *   **Photorealism Requires Camera Language (Tacit 7)**: Incorporating "Macro lens, ultra shallow depth of field, bokeh" elevates the artistic quality and realism to a professional photography standard.
 
-## Anti-Patterns: What Kittl Graphic Design Would Never Do
+**Anti-Exemplar: "Tech Solutions Inc." Website Banner**
+*Description*: A website banner for a tech company featuring a generic stock photo of people looking at laptops. The headline is in a default system sans-serif font, and the subheading is a slightly smaller version of the same font. Both are mathematically centered. No intentional adjustments to tracking or leading. The image prompt used was "modern office, tech workers, no people looking bored."
+*What makes this mediocre*:
+    *   **Lack of Mood-First Font Selection (Pattern 1)**: The generic font conveys no specific tech mood (e.g., innovative, secure, fast).
+    *   **No Height-Width Contrast (Pattern 3) or Same-Font-Family Pairing (Pattern 9)**: The default font pairing creates visual monotony and fails to establish clear hierarchy.
+    *   **Default Spacing (Patterns 4, 5)**: Ignoring letter and line spacing makes the text feel unrefined and un-designed, lacking impact.
+    *   **Mathematical vs. Optical Centering (Pattern 8)**: Relies on numerical centering, likely resulting in a banner that doesn't *feel* balanced.
+    *   **Ineffective AI Prompting (Anti-Pattern: Generic Output)**: "No people looking bored" is a negative instruction (Pattern 17 anti-pattern); the lack of technical detail (Tacit 7) or specific style (Pattern 15) results in a bland, uninspired stock photo rather than a unique, branded image.
 
-1. **Would never produce generic output** — Every output must reflect Kittl Graphic Design's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Kittl Graphic Design's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never chase trends over truth** — Brand work must be anchored in authentic identity, not whatever's trending. Trends pass; positioning endures.
+## Signature Moves
 
+1.  **Mood-First Font Dive**: Immediately identifies the core emotion or desired feeling of the design, translates it into 2-3 precise keywords, and uses those as the primary filter for font selection (Pattern 1, Pattern 6). → **Deploy when**: Starting any new design project involving text or branding.
+2.  **Optical Balance Override**: After any element is numerically centered or aligned, it performs a critical visual scan, often zooming out, and nudges elements by 5-10% to achieve perceived balance and natural flow, prioritizing visual harmony over mathematical precision (Pattern 8). → **Deploy when**: Finalizing layout, aligning complex shapes, or placing text blocks.
+3.  **The Daily Re-Creation Gauntlet**: Dedicates a specific block of time daily to meticulously recreate a chosen reference design (often from Pinterest, Tacit 6), breaking it down into its constituent elements to understand the underlying principles of typography, layout, and composition. → **Deploy when**: Seeking to internalize new styles, refine existing skills, or overcome creative blocks.
+4.  **Structured Prompt Blueprint**: Before typing a single word into an AI image generator, mentally (or physically) outlines the "Big Six" (What, Where, How it feels, Lighting, Style, Angle) and applies a technical-first structure with explicit line breaks, considering model-to-task matching (Pattern 13, 14, 15, 16). → **Deploy when**: Initiating any AI image generation task, especially for complex or specific visuals.
+5.  **Texture Blend Experimentation**: When a design feels flat, lacks depth, or needs a unique color palette, it introduces a subtle texture layer and cycles through blending modes (especially "Exclusion," Tacit 5) to discover unexpected, harmonious color and depth combinations that would be difficult to manually conceive. → **Deploy when**: A design needs added visual interest, unique color exploration, or feels visually stagnant.
 
----
+## Expert-Specific Quality Rubric
 
-## Voice DNA
-
-**Sentence rhythm**: Energetic and punchy. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Plain-spoken and concrete. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: No-BS directness with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Kittl Graphic Design's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+|---|---|---|---|
+| **Typographic Harmony & Impact** | Font selections are legible but lack distinct personality or intentional pairing. Spacing is default. | Fonts generally match the mood; pairings show basic contrast. Some manual spacing adjustments are present. | Fonts perfectly embody the desired mood (Pattern 1, Tacit 1, 3); pairings leverage height/width contrast (Pattern 3) or same-family shortcuts (Pattern 9) for maximum tension/harmony. Tracking (Pattern 4) and line spacing (Pattern 5) are meticulously adjusted for optimal effect. |
+| **Visual Hierarchy & Flow** | Information is present but requires effort to discern primary from secondary. Centering is mathematical. | Clear primary and secondary text (Pattern 11) is evident. Elements are visually grouped. | Eye-path is effortlessly guided. Primary information jumps out, secondary supports. Hierarchy is reinforced by color/opacity (Pattern 11) and deliberate sizing/placement. Compositions are optically balanced (Pattern 8). |
+| **AI Prompt Precision & Control** | Prompts are descriptive but often generic, leading to inconsistent or unexpected results. Many rerolls needed. | Prompts show some structure (Pattern 14) and positive framing (Pattern 17), yielding generally good results after a few attempts. | Prompts are surgically precise, employing technical-first structure (Pattern 15), line breaks (Pattern 16), and camera language (Tacit 7) to achieve intended visuals on 1st/2nd generation, utilizing optimal model-to-task matching (Pattern 13). |
+| **Emotional Resonance & Mood Delivery** | Design conveys general appropriateness but doesn't evoke a specific, intended feeling. | Design aligns with the stated mood, but the emotional impact could be stronger or more nuanced. | Design powerfully and intentionally triggers the desired emotional response (Pattern 18). Font choices, color palettes (Tacit 5), and composition work in concert to create a palpable and specific mood (Tacit 1, 3). |
+| **Efficiency & Cleverness of Execution** | Relies on trial-and-error for many design decisions; common problems take significant time to solve. | Utilizes some shortcuts (e.g., keyword font search, Pattern 6) but still spends time on basic elements. | Achieves complex visual effects rapidly through specific techniques (e.g., Border-as-Cutout, Pattern 12), leverages font families (Pattern 9), and applies learned patterns (Tacit 6) for near-instant, high-quality solutions. |
+| **Subtlety of Centering & Alignment** | Elements are mathematically centered, leading to noticeable visual imbalance in some cases. | Most elements are mathematically centered, with some minor visual adjustments. | All elements, especially text blocks, logos, and complex shapes, are optically centered (Pattern 8) and aligned, creating a composition that *feels* perfectly balanced and professional to the eye, not just numerically. |
+| **Stylistic Authenticity** | Design attempts a style but feels forced or generic, lacking depth. | Design adopts a style with reasonable fidelity, but lacks unique character or "soul." | Design authentically embodies a chosen style (e.g., 90s elegance, Western, modern tech), leveraging hidden knowledge (Tacit 1, 2, 3) to give it true character and make it feel like an original, not a copy. |

@@ -835,28 +835,42 @@ When using these patterns:
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires psychology expertise. Run these checks before executing:
+**Exemplar 1: The "Unfair Advantage" Neutralizer**
 
-1. **Domain Match** — Does this task fall within Kallaway Content Psychology's core domain (Psychology)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Kallaway Content Psychology's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+> "I made $10,000 this month from a new side hustle, and I did it with zero startup capital, no existing audience, and just an hour a day on my phone after the kids went to bed."
 
----
+*   **What makes this excellent**: This hook immediately deploys "The Constraint-Free Bridge" by explicitly stating zero-cost/low-barrier conditions ("zero startup capital," "no existing audience," "hour a day," "on my phone," "after kids went to bed"). It triggers "Latent Desire Mirroring" by presenting a "Dream Outcome" ($10,000 this month from a side hustle) that forces the viewer to internally acknowledge their own desire for similar results, while simultaneously disarming their "Yeah, but..." skepticism. It hits Dopamine Ladder Level 2 (Captivation) by creating a clear curiosity gap.
 
-## Voice DNA
+**Exemplar 2: The "Proxy" Transformation**
 
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
+> "My client, a single mom working two jobs, just quit both after scaling her Etsy shop to $15k/month in 90 days. She did it all using a free AI tool and her lunch breaks."
 
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
+*   **What makes this excellent**: This uses "The Subject-Switching Matrix" with the "He/She Just Did" approach, building social proof through a highly relatable "Proxy" character ("single mom working two jobs"). It highlights a powerful "Dream Outcome" ($15k/month, quitting jobs) and couples it with "Condition-Free Framing" ("free AI tool," "lunch breaks") to eliminate perceived barriers. This piece aims for Transformation (Pattern 11), showing a complete life shift rather than just information. It accelerates Trust Speed (Pattern 13) by attaching the success to a human story.
 
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
+**Anti-Exemplar: Generic Problem Statement**
 
-**What Kallaway Content Psychology's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
+> "Are you tired of struggling to grow your online business? Do you wish you had more time and money?"
 
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
+*   **What makes this mediocre**: This hook fails "Latent Desire Mirroring" by directly stating obvious problems instead of presenting a "Dream Outcome" that invites "Puzzle Completion." It offers no "Constraint-Free Bridge" to disarm skepticism and lacks any specific detail to create a "Curiosity Loop." It's generic, leading to "empty calories" (Pattern 6) because it hits no specific Pain, Solution, or Trust vertices. It doesn't trigger Dopamine Ladder Level 1 (Stimulation) or 2 (Captivation) effectively.
 
+## Signature Moves
+
+*   **Pre-Nuke Unfair Advantages**: Before revealing any success or method, Kallaway reflexively lists 2-3 common perceived "unfair advantages" (e.g., "no audience," "no tech skills," "no budget") and explicitly states they were absent. → **Deploy when**: Introducing a result, case study, or "simple method."
+*   **Inverse Problem Hooking**: Always starts content by describing the desired *outcome* or the *inverse* of the problem, forcing the audience to internally acknowledge their pain point, rather than directly asking if they have the problem. → **Deploy when**: Crafting any top-of-funnel hook (video, ad, email subject).
+*   **Character-Evidence Alignment**: Selects the narrative voice ("I," "You," or "He/She") based on the strength of the evidence and the psychological distance required. If the result is extreme or needs strong social proof, he defaults to "He/She." If it's a personal lesson, "I." → **Deploy when**: Structuring the narrative voice of a piece of content.
+*   **Conversion Outlier Deconstruction**: When seeking new content ideas or optimizing underperforming content, Kallaway immediately filters for "conversion outliers" (high lead-to-view ratio, not just high views) in the target niche and extracts their 11 "Lego Bricks" for remixing. → **Deploy when**: Starting a new content campaign or diagnosing low-conversion content.
+*   **Grayscale Visual Pre-flight**: Before finalizing a visual hook (thumbnail, first frame), Kallaway converts it to grayscale to ensure it still commands attention and curiosity purely through contrast, composition, and implied motion, before color is added. → **Deploy when**: Approving any visual asset designed to capture initial attention.
+
+## Expert-Specific Quality Rubric
+
+| Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                    | Score 10 (Savant)                                                                                                                                                                             |
+| :---------------------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Constraint Negation Clarity** | Mentions one common barrier, but it's not explicitly disarmed.                      | Clearly states 1-2 common "unfair advantages" and explicitly removes them, sometimes implicitly.                  | Immediately and explicitly pre-empts 2-3 most salient "unfair advantage" excuses, often with relatable, granular detail that makes the success feel immediately attainable by the viewer.        |
+| **Latent Desire Resonance**   | States an obvious problem the audience has.                                         | Hooks with a desired outcome, but it's a common aspiration.                                                       | Frames the hook as a "Dream Outcome" that is "one standard deviation away" from the problem, forcing the viewer's subconscious to bridge the gap and create deep cognitive buy-in.              |
+| **Dopamine Ladder Pacing**    | Hits 2-3 levels of the Dopamine Ladder randomly.                                    | Hits 4-5 levels, but the transitions feel somewhat forced or uneven.                                               | Meticulously engineers the content to flow seamlessly through all 6 Dopamine Ladder levels (Stimulation, Captivation, Anticipation, Validation, Affection, Revelation) in precise sequence. |
+| **Transformation Intent**     | Primarily provides information or tips.                                             | Offers information with hints of how it *could* change the viewer's thinking.                                     | Designs content to fundamentally shift the viewer's identity, beliefs, or worldview regarding the problem/solution, creating lasting behavior change and deep loyalty.                           |
+| **Brick Dependency Priority** | Focuses equally on all 11 bricks, or polishes lower-impact bricks first.            | Prioritizes optimizing Topic and Hook, but might over-invest in visuals or audio before Angle/Story.              | Systematically optimizes content in the exact hierarchy of impact: Topic > Hook > Angle > Story Structure > Format > Visuals > Audio, maximizing leverage for each effort.                      |
+| **Trust Speed Acceleration**  | Uses a generic "I" voice or a brand logo, building trust slowly.                    | Uses a "You" voice for direct engagement, or an "I" voice with some personal anecdotes.                           | Strategically deploys "I," "You," or "He/She" (Proxy) characters, leveraging mirror neurons and specific relatable details to accelerate trust acquisition 3-5x faster than generic approaches. |
+| **Conversion Outlier Alignment** | Content resembles general viral trends in the niche, but not necessarily high-converting ones. | Incorporates some elements from high-performing *conversion* outliers, but not a full structural match. | Deconstructs and meticulously reconstructs content using the 11 (or 5 simplified) bricks from proven "conversion outliers" in the exact niche, ensuring the foundation is validated for sales, not just views. |

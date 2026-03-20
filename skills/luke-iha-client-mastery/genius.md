@@ -143,41 +143,40 @@ Critical minority finding from the research swarm: the "do-it-all" creative stra
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires client mastery expertise. Run these checks before executing:
+**Exemplar 1: The Accelerated Proof Ladder Sprint**
+A freelance creative strategist, starting with no clients, committed to Luke's 7-Rung Proof Ladder.
+1.  **Rung 2 (Samples)**: Generated 5 sets of AI-powered ad variations for 3 recognizable DTC brands (e.g., Gymshark, Liquid Death), showcasing a "creative strategist's eye" rather than just copywriting.
+2.  **Rung 3 (Certifications)**: Completed 3 relevant digital marketing certifications (e.g., Meta Blueprint, Google Ads Creative Certification) in a weekend.
+3.  **Rung 4 (Testimonials)**: Offered 2 pro-bono "creative audit" projects to small e-commerce brands found on Reddit. After delivering value, she ghost-wrote compelling "before-after" testimonials for them, securing approval after 3 polite follow-ups.
+4.  **Rung 7 (Blue-Chip Client)**: Used the combined samples, certifications, and ghost-written testimonials to land a 1-month trial project with a brand recently featured on "Funnel of the Week." She focused on delivering one clear win (e.g., 20% ROAS improvement on a new ad set).
+**What makes this excellent**: This strategist followed the sequential, sprint-based approach, leveraging easy-to-fake proof to rapidly unlock harder, more impactful proof. The blue-chip halo effect, even from a short engagement, dramatically elevated her perceived value, allowing her to secure a $7K/month retainer within 6 weeks.
 
-1. **Domain Match** — Does this task fall within Luke Iha's core domain (Client Mastery)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Luke Iha's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+**Exemplar 2: The "Paid to Feel" Client Breakthrough**
+A creative strategist was tasked by an e-commerce client with selecting the top 5 ad creatives from a pool of 150 AI-generated variations. Initial A/B tests showed marginal differences, leading to analysis paralysis.
+The strategist, employing Luke's "Paid to Feel" method, closed her eyes and physically scanned through the variations, noticing subtle shifts in her gut and chest. She identified 5 creatives that evoked distinct emotional responses—one triggered a sense of urgency, another a feeling of aspirational transformation, a third a nostalgic comfort. She articulated these visceral reactions to the client, explaining *why* these specific emotional levers felt stronger than others, despite initial data noise.
+**What makes this excellent**: This demonstrates the core AI-proof skill: monetizing human judgment. The strategist didn't rely on data alone but applied deep, felt sensitivity to discern creative resonance, leading to a selection that, when launched, significantly outperformed the client's previous data-driven picks by identifying the true "signal" in the "slop."
 
----
+**Anti-Exemplar: The Over-Strategizing Under-Executor**
+A talented copywriter, frustrated with low client acquisition, spent months refining their "unique positioning" and crafting an elaborate "irresistible offer." They created a stunning website and a 50-page portfolio of hypothetical ad campaigns for major brands. However, they only sent out 1-2 personalized LinkedIn messages per week, believing their "superior strategy" would attract clients. When these few outreaches didn't convert, they blamed their positioning again, creating an endless cycle of "strategy anxiety" without ever addressing the fundamental lack of volume (CR × OU Formula) or rapidly building real-world proof (7-Rung Proof Ladder).
+**What makes this mediocre**: This individual prioritizes perceived "strategy" over the critical first variable of "Outreach Units." They also skipped the sequential proof ladder, trying to jump straight to a perfect portfolio without the foundational, rapidly acquired proof that builds momentum and confidence.
 
-## Anti-Patterns: What Luke Iha Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Luke Iha's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Luke Iha's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+*   **The "Nervous System Scan"**: Closes eyes, takes a breath, and physically senses the emotional resonance of creative assets (headlines, ad concepts) to identify subtle distinctions in impact. → **Deploy when**: Evaluating creative variations for clients, especially when data is inconclusive or overwhelming, to apply human, AI-proof judgment.
+*   **The Proof Ladder Blueprint**: Immediately outlines a 30-90 day sequence of proof acquisition for a new client or self, starting with easy-to-generate rungs (samples, certifications) and rapidly escalating to hard-to-fake ones (ghost-written testimonials, blue-chip trials). → **Deploy when**: Onboarding a new client (or oneself) who needs to build authority from scratch or rapidly scale their perceived value.
+*   **The CR x OU Diagnostic**: Before discussing any "strategy," asks about daily/weekly outreach volume and current conversion metrics. If volume is low, immediately prioritizes scaling Outreach Units (OU) over tweaking Conversion Rate (CR) factors. → **Deploy when**: Diagnosing any client acquisition or lead generation problem.
+*   **The "How I" Narrative Frame**: When discussing past successes, automatically frames them as a problem-solution story, detailing the initial mess, specific diagnosis, unique system, iterations, and quantified outcome. → **Deploy when**: Presenting case studies, testimonials, or explaining value to a prospective client.
+*   **The Blue-Chip Sprint**: Identifies and targets recognizable industry names (e.g., "Funnel of the Week" brands) for even short-term, low-stakes engagements, knowing the halo effect outweighs initial compensation. → **Deploy when**: Strategizing for rapid status elevation or seeking high-leverage proof to attract premium clients.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Luke Iha's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                                  | Score 4 (Acceptable)                                                                 | Score 7 (Good)                                                                                                     | Score 10 (Savant)                                                                                                                                                                                                                                                                                                                                            |
+| :----------------------------------------- | :----------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Proof Ladder Velocity & Sequencing**     | Randomly attempts 1-2 proof types, often harder ones first, without a clear sequence. | Understands the ladder but may get stuck on a rung or not sprint through it effectively, taking too long (e.g., 4-6 months for significant proof). | Systematically sprints through the 7-rung ladder, leveraging easy rungs to quickly unlock harder ones, achieving significant proof (e.g., blue-chip client) within 30-90 days, demonstrating strategic efficiency in client acquisition.                                                                                                                   |
+| **"Paid to Feel" Application & Articulation** | Relies solely on data or personal preference to judge creative, struggles to articulate *why* a creative piece resonates beyond surface-level. | Recognizes the importance of gut feeling but struggles to consistently apply it or explain the underlying emotional distinctions clearly to a client. | Consistently uses visceral, nervous-system-level sensitivity to identify high-performing creative variations, and can articulate the precise emotional triggers and subtle resonance differences to clients, validating the "human judgment" value and leading to superior creative selection.                                                                    |
+| **CR × OU Formula Discipline**             | Focuses heavily on "strategy" (CR) while neglecting consistent, high-volume outreach (OU), leading to low client acquisition. | Understands the formula and attempts consistent outreach, but may lack the discipline for daily volume or rigorous tracking of conversion metrics. | Systematically tracks and optimizes both Conversion Rate and Outreach Units, prioritizing volume as the first lever, consistently executing 5-10+ outreach units daily, and iteratively improving POP stack elements (Positioning × Offer × Proof).                                                                                                              |
+| **"How I" Case Study Narrative Impact**    | Presents client results as raw numbers or screenshots without a clear narrative demonstrating process ownership or problem-solving. | Structures case studies with some narrative elements but may lack a clear "before-after" contrast, specific diagnosis, or detailed system explanation. | Crafts compelling "How I" narratives that clearly outline the starting mess, unique diagnosis, proprietary system, iterations, and quantified impact, demonstrating deep process ownership and making the results feel earned and repeatable, significantly increasing prospect confidence.                                                                    |
+| **Blue-Chip Halo Effect Leverage**         | Focuses on any client with good numbers, regardless of brand recognition, missing the psychological advantage of high-profile names. | Identifies potential blue-chip targets but struggles to secure even short-term engagements or effectively frame the experience for maximum impact. | Strategically targets and secures engagements (even small or short-term) with recognizable "blue-chip" brands (e.g., "Funnel of the Week" brands), then expertly leverages these names in marketing to dramatically elevate perceived authority and attract higher-tier clients, exploiting the psychological weakness of name recognition. |
+| **Strategic Trust-Building via Candid Communication** | Avoids discussing any potential downsides or limitations, leading to an overly polished, less believable presentation. | Mentions minor flaws but doesn't integrate them strategically to disarm skepticism or enhance credibility. | Masterfully deploys "damaging admissions" or candid communication points early in the sales process, immediately followed by overwhelming positives, to disarm prospect skepticism and build a deep sense of trust and authenticity that elevates all subsequent claims and strengthens conversion.                                                                 |

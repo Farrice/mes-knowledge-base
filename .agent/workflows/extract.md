@@ -38,6 +38,7 @@ Read and execute `directives/mes-3.0-extract.md`.
 
 - Determine extraction tier (Light / Standard / Deep) based on material depth
 - Produce the extraction report with genius patterns, hidden knowledge, and methodology
+- **NEW**: Extract Hall of Fame Exemplars, Signature Moves, and Expert-Specific Quality Rubric per the upgraded mes-3.0-extract.md (Layer 6 analysis)
 - Run each finding through the internal validation checklist before finalizing
 
 ### 2.5. Applied Intelligence Analysis (MANDATORY)
@@ -66,6 +67,9 @@ Read and execute `directives/mes-3.0-validate.md`.
 
 - Expert name and domain
 - Number of genius patterns + hidden knowledge items extracted
+- **Exemplar count** (from Hall of Fame Exemplars section)
+- **Signature moves count** (from Signature Moves section)
+- **Quality rubric** (present/absent)
 - **Proposed 3-5 workflows** — for each:
   - Name and what it produces
   - Which aspects of the expert's methodology it captures
@@ -85,10 +89,17 @@ mkdir -p skills/[skill-name]/workflows agents/[expert-name]/memory
 ```
 
 #### 5b. Create genius.md
-Merge all genius patterns + hidden knowledge into a single unified genius context file:
+Merge all genius patterns + hidden knowledge + exemplars + signature moves + quality rubric into a single unified genius context file:
 ```
 skills/[skill-name]/genius.md
 ```
+
+The genius.md MUST include (when available from extraction):
+- Genius Patterns (always)
+- Hidden Knowledge (always)
+- Hall of Fame Exemplars (from extraction — sets the quality ceiling)
+- Signature Moves (from extraction — behavioral DNA)
+- Expert-Specific Quality Rubric (from extraction — scoring criteria)
 
 #### 5c. Generate Workflow Files
 For each approved workflow, generate an end-to-end workflow file:

@@ -10,40 +10,38 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires premium ads expertise. Run these checks before executing:
+**1. The "Arctic Expedition" Campaign (Reconstructed from The Gravedigger’s Detail)**
 
-1. **Domain Match** — Does this task fall within Omar Eddaoudi: Premium Ads Mastery's core domain (Premium Ads)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Omar Eddaoudi: Premium Ads Mastery's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+*   **Ad Concept**: A single, stark image of a luxury timepiece (e.g., a specific Rolex model) on the wrist of a weathered individual, half-submerged in glacial water, with a distant, blurred icebreaker in the background. No smiling faces, no direct product shots. The only text is a date and a location: "Greenland, 1978. The first civilian expedition to map the Petermann Glacier." The brand logo is subtly placed.
+*   **What makes this excellent**: This embodies "The Gravedigger's Detail" and "Archetypal Mirroring." It doesn't sell a watch; it sells the spirit of an explorer, the resilience of a pioneer, and the watch as a silent witness to monumental achievement. The "Cold Aesthetics" create "Controlled Distance," and the minimal text ("The Silence Premium") assumes the viewer understands the inherent value and history without explanation. It elevates the product to a "Social Signal" of survival and greatness, not just a timekeeping device.
 
----
+**2. The "Atelier Invitation" Series (Reconstructed from Controlled Distance & Value Inversion)**
 
-## Anti-Patterns: What Omar Eddaoudi: Premium Ads Mastery Would Never Do
+*   **Ad Concept**: A series of online ads for a bespoke tailoring service. The visuals are abstract, focusing on the texture of a rare fabric or the precise curve of a lapel, rather than a model. The copy is an invitation to "Apply for an Atelier Consultation." It mentions a "limited annual patronage" and a "rigorous selection process." No prices are listed, no discounts, no "value propositions."
+*   **What makes this excellent**: This campaign expertly uses "Controlled Distance" and "Friction-Based Access." By requiring an application and implying scarcity ("limited annual patronage"), it triggers the "pursuit instinct" and establishes the service as exclusive, not merely expensive. The lack of price or direct benefits leverages "The Value Inversion"—the high barrier to entry *is* the value proposition, weeding out the price-sensitive and attracting those who seek "Safety from the Masses." It applies "The Silence Premium" by not explaining *why* it's good, but rather *who* is worthy.
 
-1. **Would never produce generic output** — Every output must reflect Omar Eddaoudi: Premium Ads Mastery's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Omar Eddaoudi: Premium Ads Mastery's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
+**Anti-Exemplar: The "Premium Quality, Limited-Time Offer" Ad**
 
+*   **Ad Concept**: An ad for a "luxury" leather bag, featuring a smiling model holding the bag, surrounded by bright, aspirational props. The headline reads: "Experience Unmatched Quality: Handcrafted Leather Bag – 20% Off This Week Only!" Bullet points list features like "durable stitching," "spacious interior," and "genuine Italian leather."
+*   **What makes this mediocre**: This ad commits every anti-pattern of premium ads. It focuses on "Price-to-Utility" with a discount, signalling a lack of inherent value. The smiling model and direct feature list are "Relatability" markers that destroy "Controlled Distance." It screams "commodity" rather than "social signal." It tries to "convince" through value-add, failing to understand that for true premium, the "problem" is anonymity, and the product is the cure, not a discounted utility.
 
----
+## Signature Moves
 
-## Voice DNA
+*   **The Veblen Pivot Script**: Always starts by stripping out all "value for money" justifications and feature lists from the initial ad concept. → **Deploy when**: Crafting the core message for any high-end offering where the target audience has already solved their basic utility needs.
+*   **Aspirational Friction Design**: Reflexively seeks to introduce a "barrier to entry" in the ad's call to action or landing page – an application, a waitlist, or a "proof of worthiness" step. → **Deploy when**: Designing the customer journey or call-to-action for a product positioned as exclusive or high-status.
+*   **Silence Filter Application**: Systematically removes 70% of explanatory copy, especially anything that directly states product benefits or features, relying instead on visual storytelling and implied context. → **Deploy when**: Finalizing ad copy or visual concepts, to ensure the ad "evokes" rather than "explains," and speaks to "Assumed Interest."
+*   **Identity Mirror Framing**: Positions the product not as a solution, but as an artifact intimately connected to an "Extreme Event" or "Sovereign Figure," allowing the product to absorb the desired qualities of the owner. → **Deploy when**: Developing the narrative backdrop for a premium ad campaign, particularly for brand films or high-impact visuals.
 
-**Sentence rhythm**: Flowing and natural. Varies pace between explanation and punch. Key insights land short.
+## Expert-Specific Quality Rubric
 
-**Vocabulary register**: Warm and engaging. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Warm authority. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Omar Eddaoudi: Premium Ads Mastery's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                      | Score 4 (Acceptable)                                                                                                                              | Score 7 (Good)                                                                                                                                                                | Score 10 (Savant)                                                                                                                                                                                               |
+| :----------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Exclusionary Tension**       | Ad attempts to appeal broadly, using inclusive language or visuals.                                                                        | Ad hints at exclusivity, but still offers some "value for all" messaging.                                                                                               | Ad actively creates a psychological gap, implying "not for everyone," with cold aesthetics, abstract concepts, or subtle cues of unattainable status.                                                          |
+| **Social Signal Precedence**   | Product features are the primary focus; the ad requires the viewer to infer status.                                                         | Ad shows the product in a high-status setting, but the owner still needs to explain its value.                                                                          | The product, through its visual, provenance, or association, immediately "speaks" for the owner's status and identity without any explanation from the owner or the ad copy.                                 |
+| **Provenance & Association Density** | Basic mention of origin or a generic "quality" claim.                                                                                     | Some backstory or a known (but not aspirational) association is present.                                                                                               | Deep, compelling narratives of origin (e.g., "Gravedigger's Detail") or explicit, high-stakes association anchors that imbue the product with borrowed gravitas and history.                               |
+| **Aspirational Friction**      | Ad offers direct, easy access (e.g., "Buy Now" button).                                                                                   | Ad requires a simple opt-in or email, but no real barrier.                                                                                                              | The ad's call to action or implied journey requires a significant "proof of worthiness" (application, waitlist, consultation), creating "Desire Velocity" through perceived scarcity and challenge.          |
+| **Silence Premium Effectiveness** | Ad explains every feature and benefit in detail.                                                                                          | Ad is concise but still directly states most key selling points.                                                                                                        | The ad's power comes from what is *unsaid*. Minimal copy, abstract visuals, and implied context amplify desire, trusting the target audience's "Assumed Interest" and sophistication.                        |
+| **Archetypal Resonance**       | Ad shows a generic person using the product.                                                                                              | Ad features a successful person, but the connection to an archetype is superficial.                                                                                     | The product is inextricably linked to a "Heroic Archetype" (e.g., The Explorer, The Sovereign) or "Extreme Event," mirroring the customer's highest aspirational identity and making the product a witness to greatness. |
+| **Art vs. Ad Distinction**     | Ad is clearly a sales message, explaining benefits and features directly.                                                                  | Ad has some aesthetic appeal but still functions primarily to inform and persuade.                                                                                       | Ad functions more like evocative art than an explanation. It prioritizes mood, mystery, and abstract concepts over direct product information, making sense for those who "get it."                           |

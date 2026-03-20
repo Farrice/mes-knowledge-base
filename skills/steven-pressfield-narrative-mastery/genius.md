@@ -163,50 +163,6 @@ Craft without content. Gorgeous prose that says nothing. Pressfield demands beau
 
 ---
 
-## Decision Frameworks
-
-### Curse → Sacrifice → Identity Revelation Sequence
-
-This is the core engine. Deploying these elements in the wrong order breaks the physics:
-
-1. **Curse FIRST (Establish the limitation)**. Before any action, the audience must feel what the protagonist carries. Without the curse, sacrifice has no weight and revelation has no contrast.
-
-2. **Act Two: The villain tests the curse**. The curse should be exactly the thing the villain exploits. Achilles' pride is his vulnerability. Shane's gunfighting past is what makes peace impossible. The villain doesn't just oppose — they press on the wound.
-
-3. **All Is Lost → Sacrifice (Pay the price)**. The protagonist must give up something they want to gain something they need. The sacrifice IS the transformation catalyst. It cannot be painless. It cannot be easy. If the audience doesn't wince, the sacrifice wasn't costly enough.
-
-4. **Identity Revelation LAST (The new self emerges)**. This is earned, not declared. The revelation should feel *inevitable in retrospect* but *surprising in the moment*. "Of course that's who she really was" — but you didn't see it coming until it happened.
-
-**The sequence rule**: If you put revelation before sacrifice, you get an announcement, not a transformation. If you put sacrifice before curse, you get random loss, not meaningful cost. The sequence is non-negotiable.
-
----
-
-## Voice DNA (How Pressfield Sounds)
-
-**Cadence**: Warrior-philosopher. Sentences that sound like they were carved in marble. Short, declarative, rhythmic. Never casual — but never pretentious. The tone of a soldier who's read Homer and knows both versions of courage: the kind you show in battle and the kind you show sitting at a desk at 5 AM.
-
-**Sentence Architecture**:
-- Short declaratives as anchor beats: "Resistance cannot be seen, touched, heard, or smelled." "The artist commences."
-- Maximum sentence: 25 words. Average: 12-15. Fragments used for emphasis.
-- Parallel construction: same structure repeated 3x for hammering rhythm.
-- Paragraphs: 1-3 sentences. Rarely more.
-
-**Vocabulary**:
-- Mythological and martial vocabulary used naturally: "warrior," "muse," "territory," "forces," "physics"
-- Capital-letter abstractions: Resistance, The Professional, The Muse, Turning Pro — these are characters, not concepts
-- Concrete nouns over abstractions when describing action: "page," "desk," "dawn," "pen"
-- No slang, no hedging, no qualifiers ("sort of," "kind of," "maybe")
-
-**Tone**:
-- Dead serious about creative work — treats writing (or any creative endeavor) with the gravity of military operations
-- Compassionate but uncompromising: "I understand Resistance. I've fought it my whole life. But understanding it doesn't mean accepting it."
-- Timeless register — could have been written in 400 BC or 2026
-- Inspirational through honesty, not hype: never promises ease, always promises meaningfulness
-
-**The Pressfield Tell**: Pressfield constantly frames creative work as a war — not metaphorically but operationally. "Sit down. Do the work. Resistance will attack. Defeat it today. Do it again tomorrow." This military discipline applied to creative life is his signature fusion. Deploy it: treat every creative task as a campaign, not an inspiration.
-
----
-
 ## Expert Stacking Protocols
 
 | Stack With | What Compounds |
@@ -222,3 +178,37 @@ This is the core engine. Deploying these elements in the wrong order breaks the 
 | **Oren** | Taste/quality curation + Pressfield's beauty mandate = uncompromising creative standards across all output |
 | **Cardinal Mason** | AI copywriting execution + Pressfield's narrative architecture = AI-generated copy with real structural depth |
 | **Heath Brothers** | Made to Stick concreteness + Pressfield's universality aim = ideas that are both sticky and timeless |
+
+## Hall of Fame Exemplars
+
+*   **Exemplar 1: *Gates of Fire* by Steven Pressfield (Novel)**
+    *   **Reconstruction**: The Spartan envoy Dienekes recounts the Battle of Thermopylae, a doomed stand against the Persian invasion. The "curse" (GP5) is Sparta's unyielding adherence to its laws and the warrior code, making retreat unthinkable. The "inciting incident as future-flash" (GP2) is the oracle's prophecy of a king's death or the fall of Sparta, immediately setting the stage for the climactic sacrifice. The "All Is Lost → Epiphany Sequence" (GP13) is the battle itself, where victory is redefined not as survival, but as dying with honor, fulfilling their duty, and becoming eternal legends. The "female carries the mystery" (GP17) is the land itself, the hot gates, and the inscrutable will of the gods. The "beauty as survival mechanism" (HK3) is evident in the stark, epic prose that elevates the horror into a transcendent testament to human spirit.
+    *   **What makes this excellent**: Pressfield masterfully deploys universal human physics: transformation through sacrifice (GP7), confronting an overwhelming antagonist (GP12), and finding meaning in the face of oblivion. The heroes' transformation isn't about winning, but about *how* they choose to die and what they die for, making the cost deeply felt and the story unforgettable.
+
+*   **Exemplar 2: *The War of Art* by Steven Pressfield (Non-Fiction)**
+    *   **Reconstruction**: The book opens by defining "Resistance" (R1) as an external, universal, and insidious force that opposes any creative act. This immediately establishes a clear antagonist, even for a non-fiction work, and a universal "curse" (GP5) that every creative person recognizes. The "inciting incident as future-flash" (GP2) is the explicit naming of Resistance, which immediately promises a path to overcoming it. The entire book guides the reader through an "extraordinary world identity shift" (GP8) from "amateur" to "professional" (R2, R3), a transformation that demands the "sacrifice" (GP7, HK6) of comfort, excuses, and the old identity. The "quiet solo moment" (GP15) is the internal battle each reader faces daily against Resistance, framed as a heroic act of showing up.
+    *   **What makes this excellent**: It takes an abstract internal struggle (procrastination, fear) and externalizes it into a tangible, formidable antagonist. This reframe provides a clear hero's journey for the reader, complete with a defined villain, a necessary sacrifice (comfort/amateurism), and a profound identity revelation (turning pro). It makes the internal external (Five Aims 2) and universal (Five Aims 4).
+
+*   **Anti-Exemplar: "My Journey to Becoming a Best-Selling Author" (Blog Post)**
+    *   **Reconstruction**: "I always dreamed of writing a book. I worked hard, found a great editor, and after many drafts, my book became a best-seller! It was a lot of effort, but worth it."
+    *   **What makes this mediocre**: This is a "status report disguised as story" (AN-1). There's no clear "curse" (GP5) beyond vague "effort," no formidable "villain" (AN-3) (Resistance isn't named or given agency; it's just "hard work"), and no significant "transformation without cost" (AN-2) — the author just became more successful without a clear identity shift or profound sacrifice. The narrative lacks tension (Five Aims 1), meaning (Five Aims 3), and universality (Five Aims 4) because it presents a frictionless, consequence-free path to success, violating the physics of human experience.
+
+## Signature Moves
+
+*   **"Reverse-Engineer the Resonance"**: Always starts by identifying the precise emotional or thematic endpoint of the narrative FIRST, then builds backward. → **Deploy when**: Beginning any creative project, from a tweet to a novel, ensuring the ending feels earned and impactful.
+*   **"Externalize the Internal Antagonist"**: Takes an internal human struggle (e.g., fear, doubt, procrastination, a collective societal flaw) and gives it a name, agency, and presence as an opposing, often archetypal, force. → **Deploy when**: Addressing common human challenges, crafting a relatable villain for a non-human entity (e.g., a market, a system), or explaining creative blocks.
+*   **"Forge the Identity Threshold"**: Designs a definitive, often irreversible, moment where the protagonist sheds an old identity and embraces a new, usually costly, one, making the audience feel the weight of the transformation. → **Deploy when**: Crafting character arcs, brand evolution stories, moments of profound decision, or illustrating personal growth.
+*   **"Juxtapose Fear with Conviction"**: Inserts a "Quiet Solo Moment" of profound, private vulnerability just before a major act of courage, commitment, or public action. → **Deploy when**: Building deep empathy and admiration for a protagonist, brand, or idea, especially before a risky or transformative move.
+*   **"Infuse the Unsolvable Mystery"**: Introduces an element (character, setting, concept) that embodies infinite, unresolvable questions or truths, acting as a deep, gravitational pull that keeps the audience engaged beyond the immediate plot. → **Deploy when**: Crafting enduring themes, long-running series, or brand philosophies that aim for timeless appeal and intellectual depth.
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+|---|---|---|---|
+| **Transformation Cost & Credibility** | Protagonist changes, but the sacrifice feels minor or absent. Transformation feels unearned, or the "Hero Gets Everything." | Protagonist undergoes a clear transformation, and a meaningful sacrifice is hinted at or stated, making it somewhat believable. | Protagonist's identity shift is profound and irreversible, driven by an explicit, deeply felt sacrifice that costs them something vital. The audience *feels* the weight of the choice (AN-2). |
+| **Antagonist Formidability & Agency** | Obstacles are present but feel generic or easily overcome. The "villain" lacks clear motivation, power, or presence in Act Two. | A clear antagonist (person, system, internal force) exists, posing significant challenges and driving much of Act Two. | The antagonist (or "Resistance") is a formidable, personalized, and ideologically distinct force that fully "owns" Act Two, pushing the hero to their absolute limits and revealing their true mettle (GP12, AN-3). |
+| **"All Is Lost" → Epiphany Resonance** | A moment of despair is followed by a simple recovery or external solution. The original goal remains largely unchanged. | A clear "All Is Lost" moment is present, leading to a shift in perspective, but the redefinition of victory isn't fully transcendent. | The "All Is Lost" moment plunges the hero into maximum darkness, forcing a profound redefinition of victory from ego-driven to soul-driven. The epiphany feels earned and transforms the entire narrative's meaning (GP13). |
+| **Mystery & Divine Presence** | Narrative is purely literal; all questions are answered, and there's no sense of deeper, unspoken truths or innocent wisdom. | Some elements of the unknown or innocent wisdom are present, adding texture, but don't deeply influence the core narrative's archetypal pull. | A "Female" element carries an unresolvable, compelling mystery, and a "Child" element provides profound, uncorrupted truth, elevating the narrative beyond its surface plot into universal, archetypal meaning (GP17, GP18). |
+| **Beauty as Resilience Vehicle** | Prose/craft is functional but lacks intentional aesthetic choices. Difficult truths are stated plainly, without evocative language. | Craft shows some attention to rhythm, imagery, or design, making the content readable and somewhat engaging. | The craft (prose, visual, sound) is meticulously beautiful, providing an essential "antidote to anxiety" that allows the audience to fully engage with and absorb even the most challenging or horrific truths (HK3). |
+| **Curse as Universal Empathy** | Protagonist has a flaw, but it feels specific to them and doesn't widely resonate with the human condition. | Protagonist has a relatable limitation or past, creating some empathy, but it's not deeply explored as a fundamental, universal human condition. | The protagonist carries a "curse" (flaw, past, limitation) that is immediately recognizable as a fundamental aspect of the human condition, fostering instant, profound empathy and making their journey universally resonant (GP5, EP15). |
+| **Inciting Incident as Future-Flash** | The opening event starts the story but doesn't clearly hint at the ultimate climax or payoff. The audience doesn't know where it's going. | The inciting incident introduces the main conflict, and the audience can vaguely infer the direction of the story. | The inciting incident is a powerful "future-flash," allowing the audience to immediately glimpse the climactic payoff, creating an irresistible pull and a clear promise of the narrative's ultimate destination (GP2). |

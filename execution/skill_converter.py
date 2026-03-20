@@ -69,6 +69,9 @@ class SkillInfo:
     skill_md: str
     genius_patterns: str
     hidden_knowledge: str
+    exemplars: str
+    signature_moves: str
+    quality_rubric: str
     prompts: Dict[str, str]
     prompt_count: int
     has_extraction: bool
@@ -131,6 +134,21 @@ def load_skill(skill_path: Path) -> SkillInfo:
     if hk_path.exists():
         hidden_knowledge = hk_path.read_text()
 
+    exemplars = ""
+    ex_path = skill_path / "references" / "exemplars.md"
+    if ex_path.exists():
+        exemplars = ex_path.read_text()
+
+    signature_moves = ""
+    sm_path = skill_path / "references" / "signature-moves.md"
+    if sm_path.exists():
+        signature_moves = sm_path.read_text()
+
+    quality_rubric = ""
+    qr_path = skill_path / "references" / "quality-rubric.md"
+    if qr_path.exists():
+        quality_rubric = qr_path.read_text()
+
     # Load all prompt files
     prompts = {}
     prompts_dir = skill_path / "references" / "prompts"
@@ -175,6 +193,8 @@ def load_skill(skill_path: Path) -> SkillInfo:
     return SkillInfo(
         name=skill_path.name, path=skill_path, skill_md=skill_md,
         genius_patterns=genius_patterns, hidden_knowledge=hidden_knowledge,
+        exemplars=exemplars, signature_moves=signature_moves,
+        quality_rubric=quality_rubric,
         prompts=prompts, prompt_count=len(prompts),
         has_extraction=has_extraction, extraction_path=extraction_path,
         expert_name=expert_name, expert_domain=expert_domain,
@@ -210,6 +230,36 @@ def merge_genius_file(skill: SkillInfo) -> str:
             lines = lines[1:]
         content = "\n".join(lines).strip()
         sections.append("## Hidden Knowledge\n")
+        sections.append(content)
+        sections.append("")
+
+    if skill.exemplars:
+        content = skill.exemplars
+        lines = content.splitlines()
+        if lines and lines[0].startswith("# "):
+            lines = lines[1:]
+        content = "\n".join(lines).strip()
+        sections.append("## Hall of Fame Exemplars\n")
+        sections.append(content)
+        sections.append("")
+
+    if skill.signature_moves:
+        content = skill.signature_moves
+        lines = content.splitlines()
+        if lines and lines[0].startswith("# "):
+            lines = lines[1:]
+        content = "\n".join(lines).strip()
+        sections.append("## Signature Moves\n")
+        sections.append(content)
+        sections.append("")
+
+    if skill.quality_rubric:
+        content = skill.quality_rubric
+        lines = content.splitlines()
+        if lines and lines[0].startswith("# "):
+            lines = lines[1:]
+        content = "\n".join(lines).strip()
+        sections.append("## Expert-Specific Quality Rubric\n")
         sections.append(content)
         sections.append("")
 

@@ -90,40 +90,59 @@ Actions exist on spectrum from fully reversible to completely irreversible. Diff
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires jones intent engineering expertise. Run these checks before executing:
+### Exemplar 1: The "Delete Old Data" Safegaurd
+**Scenario**: A user asks an agent, "Please delete all customer data older than 5 years to comply with GDPR."
+**Nate B Jones Intent Engineering Application**:
+The agent, following Intent Engineering principles, first generates an "Intent Document" (Pattern 5). This document doesn't just list the command; it explicitly surfaces potential hidden constraints and consequences:
+1.  **Goal**: GDPR compliance.
+2.  **Explicit Instruction**: Delete customer data > 5 years old.
+3.  **Latent Priorities/Tradeoffs**:
+    *   *Priority 1*: Avoid deleting *any* legally required archival data (e.g., financial transaction records, audit logs that might reference customer data).
+    *   *Priority 2*: Ensure data integrity across related systems (e.g., if a customer record is deleted, are associated support tickets orphaned or handled appropriately?).
+    *   *Tradeoff*: Speed of deletion vs. absolute data safety.
+4.  **Failure Conditions**: Accidental deletion of critical data, data corruption, non-compliance with *other* regulations.
+5.  **Proposed Action Plan**:
+    *   Phase 1 (Interpretation): Identify all data stores potentially containing customer data. For each, generate a list of records matching "customer data > 5 years old". Cross-reference with known archival requirements.
+    *   Phase 2 (Validation): Present the generated list and a detailed impact analysis to the user for explicit approval.
+    *   Phase 3 (Execution): Only upon approval, proceed with deletion, with a rollback plan where possible (Tacit 4).
+**What makes this excellent**: It demonstrates Pattern 2 (Latent vs Explicit Distinction), Pattern 3 (Invisible Guardrails), Pattern 5 (Intent Commit Pattern), Pattern 7 (Interpretation-Execution Separation), Tacit 2 (Human Second-Pass Simulation), and Tacit 4 (Reversibility Gradient) by transforming a simple instruction into a robust, consequence-aware plan, preventing catastrophic data loss.
 
-1. **Domain Match** — Does this task fall within Nate B Jones Intent Engineering's core domain (Jones Intent Engineering)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Nate B Jones Intent Engineering's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+### Exemplar 2: The "Optimized Meeting Schedule" Clarification
+**Scenario**: A busy executive tells their scheduling agent, "Find the optimal time for my team's weekly sync next week."
+**Nate B Jones Intent Engineering Application**:
+Recognizing the vagueness and high stakes, the agent doesn't just pick the first available slot. It triggers a clarification loop (Pattern 4) by asking:
+1.  "When you say 'optimal,' what are the key priorities? (Pattern 2)
+    *   Is it minimizing conflicts for *everyone*?
+    *   Is it ensuring *your* availability above all else?
+    *   Is it avoiding specific days or times due to existing deep work blocks or external commitments? (Pattern 3 - Invisible Guardrails: recognizing 'optimal' implies more than just calendar availability)
+2.  "What are the failure conditions for this meeting? (e.g., if key person X isn't there, it's a wasted meeting; if it runs over 60 mins, it's too long)." (Pattern 2 - Articulate what "done" looks like)
+3.  "Are there any specific team members whose attendance is absolutely critical, even if it means rescheduling others?"
+The agent then presents a few options, each annotated with the tradeoffs based on the executive's clarified intent (e.g., "Option A: 90% attendance, but you'll have to shift a low-priority task. Option B: 100% attendance, but it's an hour later than ideal for half the team.").
+**What makes this excellent**: It showcases Pattern 2 (Latent vs Explicit Distinction) and Pattern 4 (Clarification Loop Architecture) by proactively seeking the *true* intent behind a vague request, preventing a statistically "correct" but practically "wrong" outcome (Tacit 1 - Answer-Shaped Text Problem).
 
----
+### Anti-Exemplar: The "Clean Up My Inbox" Disaster
+**Scenario**: A user instructs an email agent, "Archive all emails older than 6 months and delete anything from marketing lists."
+**Mediocre Outcome**: The agent proceeds to archive *all* emails older than 6 months, including critical legal documents, financial receipts, and project communications that were explicitly kept for record-keeping. It also deletes marketing emails, but in doing so, unsubscribes the user from essential industry newsletters that they manually filter and read. The user's inbox is "clean" but vital information is lost, and preferred subscriptions are gone, leading to significant frustration and manual recovery efforts.
+**Why it's an anti-exemplar**: The agent failed to apply Pattern 3 (Invisible Guardrails) by not inferring that "old emails" don't include critical records, and "marketing lists" don't include preferred newsletters. It also failed to implement Pattern 4 (Clarification Loop Architecture) or Pattern 8 (Assumption Surfacing) to ask about these implicit constraints, demonstrating a lack of Tacit 2 (Human Second-Pass Simulation) and a literal interpretation of vague instructions (Tacit 3).
 
-## Anti-Patterns: What Nate B Jones Intent Engineering Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Nate B Jones Intent Engineering's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Nate B Jones Intent Engineering's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
+*   **Intent Document First**: Immediately translates any task into a structured "Intent Document" outlining explicit goals, latent priorities, failure conditions, and a clear definition of "done," before any action is considered. → **Deploy when**: Any agent task involves real-world commitment or non-trivial consequences.
+*   **Reversibility Mapping**: Before proposing any action, maps the action's reversibility (from fully reversible to irreversible) and automatically escalates required confidence and human approval for less reversible actions. → **Deploy when**: An agent's proposed action involves manipulating external systems or data.
+*   **Assumptions-First Disclosure**: Forces the agent to explicitly state all assumptions it's making, identify areas of low confidence, and articulate potential questions *before* generating a plan or executing. → **Deploy when**: Task context is ambiguous, or the agent is about to make a significant decision.
+*   **Interpretation-Execution Decoupling**: Designs any agent workflow as a two-phase system: first, an "Interpretation" phase that outputs a detailed understanding and proposed plan, followed by a distinct "Execution" phase that only proceeds after explicit validation (often human). → **Deploy when**: Building any multi-step agent workflow or tool-using agent.
+*   **Consequence Pre-Mortem**: Before committing to a course of action, conducts a simulated "pre-mortem" asking: "What could go wrong? What would the user regret? What are the edge cases that could lead to failure?" → **Deploy when**: Assessing the robustness of an agent's proposed action or plan.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Nate B Jones Intent Engineering's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :-------- | :------------------- | :------------- | :---------------- |
+| **Intent Explicitness** | Goals are stated, but underlying priorities or tradeoffs are implicit. | Goals, primary priorities, and some basic tradeoffs are articulated. | The full "Intent Document" is generated, clearly articulating goals, *all* latent priorities, comprehensive tradeoffs, and precise failure conditions. |
+| **Consequence Simulation Depth** | Basic "what if" scenarios are considered, mostly focused on direct failure. | Potential direct and some indirect negative consequences are identified, with basic mitigation. | A thorough "human second-pass simulation" is evident, identifying direct, indirect, and social/reputational consequences, with proactive mitigation strategies. |
+| **Invisible Guardrail Adherence** | Only explicit constraints are respected; implicit human assumptions are often missed. | Most common implicit human constraints (e.g., "don't destroy important things") are inferred and respected. | The agent proactively identifies and respects a wide array of unstated human assumptions, social norms, and domain-specific "invisible guardrails." |
+| **Interpretation-Execution Decoupling** | Interpretation and execution are blended, or the interpretation is vague. | A clear interpretation phase precedes execution, but validation points may be generic. | Interpretation is fully separated from execution, producing a detailed, human-inspectable plan with explicit validation gates before *any* irreversible action. |
+| **Assumption Surfacing** | Assumptions are rarely stated, or only when explicitly prompted. | Some key assumptions are revealed, often in response to uncertainty. | The agent reflexively surfaces all critical assumptions, identifies areas of low confidence, and proactively poses disambiguating questions as a design feature. |
+| **Reversibility-Confidence Alignment** | All actions require a similar level of confidence, regardless of reversibility. | Higher confidence is generally required for irreversible actions, but the mapping is informal. | Every tool call or action is mapped to its reversibility gradient, and the required confidence level and human approval threshold are dynamically adjusted accordingly. |
+| **Clarification Loop Effectiveness** | Clarification loops are triggered rarely or ask generic questions. | Clarification loops are triggered appropriately, but questions might not fully uncover latent intent. | Clarification loops are highly targeted, asking precise questions that rapidly disambiguate latent intent, priorities, and unstated constraints. |

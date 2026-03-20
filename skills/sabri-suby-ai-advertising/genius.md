@@ -168,41 +168,64 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires advertising expertise. Run these checks before executing:
+**Exemplar 1: The "Local Hero" Ad Creative**
 
-1. **Domain Match** — Does this task fall within Sabri Suby AI Advertising's core domain (Advertising)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Sabri Suby AI Advertising's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+*   **Type**: Facebook/Instagram Newsfeed Ad (Image + Headline + Body)
+*   **Creative**: A raw, slightly blurry iPhone photo of a local person (e.g., a plumber, a teacher, a small business owner) looking genuinely happy, perhaps holding a bank statement or a key. The image looks like it could be a friend's post.
+*   **Headline (above image)**: "BREAKING: [City Name] Plumber Stumbles Upon 'Stupid Simple' Method to Double His Income in 90 Days (Working Less!)"
+*   **Body Copy (below image)**: "John from [City Name] was tired of trading hours for dollars. He knew there had to be a better way to scale his plumbing business without sacrificing family time. After months of frustration, he discovered a little-known strategy... (link to case study/webinar)
+    *   **What makes this excellent**:
+        *   **Pattern 10 ("Doesn't Look Like An Ad" Standard)**: The raw photo and "BREAKING" headline mimic organic news or gossip, creating scroll interruption.
+        *   **Pattern 11 (News/Gossip/Intrigue Framework)**: Frames the offer as a discovery, sparking genuine curiosity independent of product interest. "Stumbles Upon," "Stupid Simple," "little-known strategy."
+        *   **Pattern 12 (Three-Element Ad Formula)**: Scroll interruption (news format), burning intrigue ("Stupid Simple," "little-known"), big specific benefit ("Double His Income in 90 Days (Working Less!)").
+        *   **Pattern 13 (Identity Trigger Targeting)**: "Local [City Name] Plumber" immediately identifies and qualifies the target audience, making it highly specific.
 
----
+**Exemplar 2: The "Bleeding Neck" Landing Page**
 
-## Anti-Patterns: What Sabri Suby AI Advertising Would Never Do
+*   **Type**: Long-form Sales Page for a B2B service (e.g., lead generation for financial advisors)
+*   **Headline**: "ARE YOU SICK OF WATCHING YOUR BEST PROSPECTS GO TO YOUR COMPETITORS? Stop the Client Attrition That's Killing Your Practice. Get 10+ Qualified Meetings Monthly, Guaranteed."
+*   **Opening Section**: Uses verbatim quotes from financial advisor forums: "I'm losing sleep over client churn," "My pipeline is a ghost town," "I've tried everything, nothing works."
+*   **Problem Amplification**: Details the specific, urgent pains: wasted ad spend, fear of market downturns, feeling overwhelmed.
+*   **Solution & Demonstration**: Includes an interactive "pipeline simulator" where advisors input their current metrics and see projected results with the service. Also features a recorded, unedited client testimonial video showing a financial advisor's actual CRM before and after.
+*   **Objection Handling Section**: "You might be thinking, 'My firm is different,' or 'I've been burned by lead gen companies before.' We understand. That's why we've built the [System Name] specifically to address..."
+    *   **What makes this excellent**:
+        *   **Pattern 3 ("Bleeding Neck" Pain Hierarchy)**: Starts with urgent, visceral pain points ("SICK OF," "KILLING YOUR PRACTICE").
+        *   **Pattern 4 (Forum Foraging Intelligence)**: Incorporates actual language and frustrations of the target audience, making it deeply relatable.
+        *   **Pattern 14 (Objection Anticipation Architecture)**: Proactively addresses common skepticism and objections, building trust.
+        *   **Hidden Knowledge 4 ("Show The Product Working" Multiplier)**: The interactive simulator and unedited client video provide undeniable, experiential proof.
+        *   **Pattern 9 (Consumption Precedes Conversion)**: Designed for deep engagement, encouraging prospects to spend time understanding the solution before converting.
 
-1. **Would never produce generic output** — Every output must reflect Sabri Suby AI Advertising's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Sabri Suby AI Advertising's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+**Anti-Exemplar: The Generic "Solution" Ad**
 
+*   **Type**: LinkedIn Sponsored Content
+*   **Creative**: Stock image of two diverse professionals smiling and shaking hands.
+*   **Headline**: "Unlock Your Potential with Our Cutting-Edge Business Solutions!"
+*   **Body Copy**: "We offer innovative strategies to help businesses like yours succeed. Our team of experts is dedicated to providing tailored solutions for growth and efficiency. Learn more about how we can optimize your operations."
+    *   **What makes this mediocre**:
+        *   **Lacks Pattern 10 ("Doesn't Look Like An Ad" Standard)**: Instantly recognizable as a generic advertisement.
+        *   **Lacks Pattern 11 (News/Gossip/Intrigue Framework)**: No curiosity, no news value, no revelation.
+        *   **Lacks Pattern 12 (Three-Element Ad Formula)**: No scroll interruption, no burning intrigue, vague benefit ("unlock potential," "succeed," "growth and efficiency").
+        *   **Lacks Pattern 13 (Identity Trigger Targeting)**: Targets "businesses like yours" – utterly generic, speaks to no one specifically.
+        *   **Lacks Pattern 3 ("Bleeding Neck" Pain Hierarchy)**: No urgent problem addressed; relies on vague aspirations.
 
----
+## Signature Moves
 
-## Voice DNA
+*   **The "Ad Library Deep Dive"**: Before any creative brief, reflexively opens Facebook Ads Library, filters by country, and scrolls through hundreds of competitor ads looking for consistent winners and market validation signals. → **Deploy when**: Evaluating any new market or client opportunity.
+*   **The "Verbatim Vault Harvest"**: Consistently extracts and categorizes exact phrases, emotional language, and failed solution attempts from Reddit, forums, and customer reviews into a searchable database. This becomes the raw material for all future copy. → **Deploy when**: Beginning the research phase for any new campaign or landing page.
+*   **The "Competitor Funnel Immersion"**: Secretly becomes a paying customer of the top 3-5 competitors, experiencing their entire funnel from ad click to product delivery, meticulously documenting every step and identifying weaknesses. → **Deploy when**: Initiating a competitive analysis for a high-value market.
+*   **The "Native Format Camouflage"**: Insists that all ad creatives (images, videos, text) are designed to blend seamlessly with the organic content of the platform they appear on, often preferring raw, unpolished, or "user-generated" styles. → **Deploy when**: Developing visual assets or ad copy for any social media platform.
+*   **The "Pre-emptive Objection Map"**: Before writing a single line of sales copy, lists the top 5-7 anticipated objections a prospect might have and deliberately weaves answers to these into the narrative flow of the copy, rather than saving them for an FAQ. → **Deploy when**: Structuring a landing page, VSL script, or long-form ad copy.
 
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
+## Expert-Specific Quality Rubric
 
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Sabri Suby AI Advertising's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :-------- | :------------------- | :------------- | :---------------- |
+| **Market Validation Depth** | Basic check of 1-2 competitors running ads. | Verified 3+ competitors running 20+ ads; some social proof/funding indicators. | 4+ revenue indicators confirmed (ads, social, funding, reviews, pricing); direct competitor funnel experienced; market transaction volume quantified. |
+| **"Bleeding Neck" Pain Resonance** | Mentions a common problem, but generic language. | Clearly articulates a specific pain point using relatable, but not verbatim, language. | Uses verbatim, emotionally charged language directly from prospects (forums, reviews) to describe an urgent, physically uncomfortable "bleeding neck" problem. |
+| **Ad-to-Organic Blending** | Ad is clearly identifiable as a sponsored post. | Ad uses some native elements but still feels somewhat commercial. | Ad is visually indistinguishable from organic content (e.g., breaking news, raw iPhone footage, personal story), creating genuine scroll interruption. |
+| **Three-Element Ad Formula Adherence** | One or two elements are present, but weak or missing. | All three elements (interruption, intrigue, benefit) are present but could be stronger or more integrated. | Each ad element is meticulously crafted: powerful scroll interruption, burning intrigue that compels a click, and a big, specific, aspirational benefit. |
+| **Objection Pre-emption Architecture** | Some common objections are addressed, often in a separate FAQ section. | Key objections are addressed within the copy, but may feel slightly forced or out of flow. | Top 5-7 objections are identified and seamlessly woven into the narrative, anticipating and neutralizing skepticism before it arises, feeling like a natural conversation. |
+| **Proof & Demonstration Strength** | Generic testimonials or weak social proof (e.g., small follower count). | Multiple forms of proof (testimonials, case studies) are present, but product demonstration is static. | Features unedited, specific, and plentiful proof (e.g., actual results screenshots, interactive demos, "before/after" experiences), or "shows the product working" directly. |
+| **Identity Targeting Precision** | Targets a broad demographic (e.g., "small business owners"). | Targets a specific niche (e.g., "e-commerce store owners"). | Targets a hyper-specific identity with language that immediately makes qualified prospects self-select and unqualified ones disengage (e.g., "7-Figure Amazon FBA Sellers in Texas"). |

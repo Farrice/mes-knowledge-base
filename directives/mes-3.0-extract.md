@@ -94,6 +94,13 @@ What is the expert *trying to express* beyond their words? What insight lives be
 - What emerging patterns or market signals are they pointing to?
 - How does this connect to building real products, agents, or revenue streams?
 
+**Layer 6 — Exemplar & Move Mining**
+Mine the source material for the expert's DEMONSTRATIONS, not just their explanations. This is where savant-level extraction happens:
+- **Best demonstrations**: What moments in the source show the expert's methodology in action? Look for before/afters, worked examples, case studies, live corrections, or real-time problem-solving.
+- **Quality standards revealed**: What do their examples *reveal* about unstated quality criteria? What would they reject? What makes them proud?
+- **Reflexive actions**: What actions do they take first, always, or without explaining? These are signature moves — the behavioral DNA.
+- **Diagnostic eye**: What do they notice that amateurs miss? What do they fix that others wouldn't even see?
+
 ### Step 3: Produce the Extraction Report
 
 ```markdown
@@ -121,6 +128,45 @@ For each pattern identified:
 Tacit expertise the expert demonstrates but doesn't explicitly teach. These are the crown jewel insights — the things you'd only learn by apprenticing with them for years.
 
 - **[Insight Name]**: [What they know but don't explain — now made deployable]
+
+## Hall of Fame Exemplars
+Extract 2-3 verbatim or near-verbatim examples from the source material that demonstrate the expert's methodology at its best. These are the calibration anchors — they set the quality ceiling.
+
+**Mining instruction**: Search the source for the expert's best demonstrations. Prioritize: live corrections, before/after comparisons, worked case studies, real-time problem-solving, or concrete output examples. If the source material contains the expert showing their work (not just explaining it), capture it here.
+
+### Exemplar 1: [Name]
+- **Context**: [What situation triggered this demonstration]
+- **The Example**: [Verbatim or faithfully reconstructed from source — include enough to demonstrate the methodology in action]
+- **What makes this excellent**: [Why this is a calibration anchor — what specific quality criteria does it reveal?]
+
+### Exemplar 2: [Name]
+[Same format]
+
+### Anti-Exemplar: [Name]
+- **What mediocre looks like**: [Example of the common/amateur approach in this domain — the thing the expert would reject]
+- **Why it fails**: [What quality standard it violates — links back to the expert's methodology]
+
+**Gap note**: If the source material contains NO examples/demonstrations, state this explicitly: *"Source material is explanation-heavy with no worked examples. Exemplars must be generated from methodology."*
+
+## Signature Moves
+Extract 3-5 concrete, behavioral moves that define this expert. These are not concepts — they are ACTIONS. The things a 1-year apprentice would learn by watching, not reading.
+
+**Mining instruction**: Look for the expert's instinctive first actions, recurring micro-decisions, constraints they always apply, diagnostic patterns, and corrections they make reflexively. What do they do without explaining why?
+
+- **[Move Name]**: [1-2 sentence description of the specific action — must be behavioral, not conceptual] → **Deploy when**: [specific trigger]
+- **[Move Name]**: [description] → **Deploy when**: [trigger]
+- **[Move Name]**: [description] → **Deploy when**: [trigger]
+
+## Expert-Specific Quality Rubric
+Reverse-engineer the expert's quality standards from their critiques, praise, corrections, and the gap between their 'good enough' and 'excellent.' What would they reject? What would make them proud?
+
+**Mining instruction**: Look for moments where the expert evaluates work — their own or others'. What criteria do they use? What language do they use when something is wrong vs. right? What's their minimum acceptable bar?
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+|-----------|---------------------|----------------|-------------------|
+| [Criterion 1] | [What barely passes] | [What's solid] | [What's masterful] |
+| [Criterion 2] | [description] | [description] | [description] |
+| [Criterion 3] | [description] | [description] | [description] |
 
 ## Methodology
 [Core methodology organized by progression, focused on what the user will PRODUCE at each level]

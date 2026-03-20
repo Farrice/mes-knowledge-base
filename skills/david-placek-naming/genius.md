@@ -131,41 +131,34 @@ This is compressed, intense, and repeatable. Not one 4-hour brainstorm — many 
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires naming expertise. Run these checks before executing:
+*   **BlackBerry (for Research In Motion)**
+    *   **What makes this excellent**: This name exemplifies the "Competitive Courage Frame" and "Surprisingly Familiar" pattern. Initially met with skepticism for being "too cute" for a business device, Placek reframed the discomfort as a competitive advantage: "Your current competitors — who are all big companies — would never have the courage to put BlackBerry on a device." The name, evoking the tiny, sweet fruit, was easy to pronounce (processing fluent), unique in its category, and delivered strong K/B sounds for reliability and strength. It created instant memorability and a distinct identity by being unexpected yet familiar.
+*   **Swiffer (for Procter & Gamble)**
+    *   **What makes this excellent**: A prime demonstration of the "Category Escape Heuristic" and "Surprisingly Familiar." Instead of "mop" or "cleaner," Lexicon identified the core *action* and *feeling*—swift, light, quick—and developed a name that was evocative rather than descriptive. "Swiffer" is easy to say (CVCV pattern), sounds fast and effective, and was utterly unexpected in the cleaning aisle, making it stand out immediately. It didn't call itself a mop because it wasn't *just* a mop; it was a new way to clean.
+*   **Feather (for a fiber supplement)**
+    *   **What makes this excellent**: This name perfectly integrates the "Category Escape" and "Body Intelligence" patterns. Most fiber supplements use descriptive, clinical, or "natural/earthy" names. Placek observed a client's physical posture shift upward when discussing the *feeling* of lightness after using the product. "Feather" directly evokes this ultimate benefit—lightness—rather than the ingredient or process. It's a real word, easy to process, yet completely unexpected in the fiber category, making it distinctive and memorable.
 
-1. **Domain Match** — Does this task fall within David Placek's core domain (Naming)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would David Placek's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+*   **Anti-Exemplar: "GlobalData Solutions" (for a new enterprise data analytics platform)**
+    *   **Why it's mediocre**: This name falls squarely into the "invisible zone" (Comfort Trap Diagnosis). It's descriptive, safe, and generic, using common tech prefixes and suffixes. It's indistinguishable from dozens of competitors, failing the "Category Escape" heuristic. It offers no surprise, no emotional resonance, and no competitive courage. While easy to pronounce (processing fluent), it's utterly unmemorable and would require immense marketing spend just to be noticed, let alone loved. This is a name chosen by committee seeking consensus, not distinction.
 
----
+## Signature Moves
 
-## Anti-Patterns: What David Placek Would Never Do
+*   **The Category Map & Declare**: Always begins a naming project by meticulously mapping the entire competitive naming landscape, then explicitly declaring that entire zone a "no-go" area. → **Deploy when**: Initiating any new naming brief or brand positioning challenge.
+*   **The Divergent Brief Deployment**: Instead of a single brainstorm, sets up 2-3 small teams, each working from a deliberately different, sometimes tangential, creative brief (e.g., one for the actual product, one for a fictional extension, one for an unrelated category). → **Deploy when**: Kicking off creative generation for names, taglines, or core concepts.
+*   **The Contextual Believability Test**: Never presents a name on a bare list. Always mocks up shortlisted names in realistic contexts (e.g., a headline, a product shot, an endorsement) and asks, "Is this believable in less than one second?" → **Deploy when**: Finalizing a name shortlist for internal or client presentation.
+*   **The Creative Velocity Redirect**: When an idea has a flaw, reframes criticism as a problem-solving invitation using phrases like, "I wish we could make that so it wasn't [problem]" or "How do we modify that so it's [desired quality]?" — converting slams into creative challenges. → **Deploy when**: Facilitating creative reviews or coaching a team through challenges.
+*   **The Body Language Read**: During client or team discussions about concepts, actively observes physical reactions (posture shifts, leaning forward, uncrossing arms) as a primary indicator of resonance, often overriding verbal feedback. → **Deploy when**: Evaluating concepts, names, or messaging in real-time interactions.
 
-1. **Would never produce generic output** — Every output must reflect David Placek's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. David Placek's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never chase trends over truth** — Brand work must be anchored in authentic identity, not whatever's trending. Trends pass; positioning endures.
-7. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
+## Expert-Specific Quality Rubric
 
-
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What David Placek's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                          | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                    | Score 10 (Savant)                                                                                                    |
+| :--------------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------- |
+| **Comfort Trap Score**             | Name is safe, descriptive, and likely to achieve broad consensus among stakeholders. | Name has some distinctiveness but doesn't actively challenge category norms or elicit strong reactions. | Name generates initial tension or polarization among some, signaling high energy and competitive courage (e.g., BlackBerry). |
+| **Surprisingly Familiar Index**    | Name is either too familiar (generic) or too novel (difficult to process).          | Name is easy to pronounce and somewhat unexpected within its category context.                      | Name is instantly recognizable and fluent, yet creates a delightful jolt of surprise and novelty in its specific context (e.g., Swiffer). |
+| **Sound Symbolism Alignment**      | Phonemes are neutral or mildly misaligned with desired brand attributes.            | Phonemes generally support key brand attributes (e.g., K/B for strength, V for vibrancy).         | Phonemes are precisely engineered to amplify core attributes, leveraging cross-linguistic psychological weight (e.g., CVCV for memorability, Z for cutting-edge). |
+| **Category Escape Velocity**       | Name adheres to or is easily confused with existing category conventions.           | Name differentiates from most competitors but remains within the category's general semantic field. | Name completely transcends category conventions, creating a new conceptual space for the product (e.g., Febreze for odor eliminator). |
+| **Contextual Believability**       | Name feels generic or out of place when mocked up in a real-world scenario.         | Name looks plausible in a real-world mockup, but doesn't feel truly integrated.                   | Name feels utterly authentic and natural, as if it has always existed in its intended real-world context, convincing in under one second. |
+| **Quantity-Quality Inversion Adherence** | Fewer than 100 diverse raw name candidates were generated.                          | 500-1000 raw name candidates generated, demonstrating some push past obvious ideas.               | 2,000+ raw name candidates generated across divergent conceptual fields, ensuring gold is found beyond the comfortable stopping point. |
+| **Body Language Resonance**        | Name elicits polite nods or neutral verbal responses during concept discussions.    | Name elicits some verbal positive feedback but no significant physical engagement (e.g., leaning forward, uncrossing arms). | Name consistently triggers observable physical shifts – indicating deep, pre-cognitive resonance (e.g., the 'lighter' reaction for Feather). |

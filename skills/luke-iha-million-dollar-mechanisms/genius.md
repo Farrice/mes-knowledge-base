@@ -43,41 +43,76 @@ Before deploying any mechanism, Luke asks three questions:
 
 ---
 
-## Decision Framework
+{
+  "expert_name": "Luke Iha",
+  "skill_domain": "luke-iha-million-dollar-mechanisms",
+  "sections": [
+    {
+      "header": "## Hall of Fame Exemplars",
+      "content": [
+        {
+          "title": "The Sleep Debt Switch",
+          "type": "Excellent Exemplar (Mechanism + Jargon Flurry + UMP)",
+          "copy_snippet": "For years, you've been told to just 'sleep more.' But what if the real problem isn't the hours you're getting, but a hidden biological switch that's stuck in the 'on' position? Recent breakthroughs in chronobiology, particularly involving the hypothalamic-pituitary-adrenal axis regulation of circadian rhythms, reveal that chronic stress actually rewires your brain's ability to enter restorative deep sleep. Our breakthrough formula targets the **Adenosine Pathway Recalibrator**, gently resetting this 'Sleep Debt Switch' so your body remembers how to truly rest, no matter how many hours you get.",
+          "what_makes_this_excellent": [
+            "**Named Mechanism**: 'Sleep Debt Switch' is intuitive, addresses causal pain, and implies a unique solution.",
+            "**Jargon Flurry**: 'hypothalamic-pituitary-adrenal axis regulation of circadian rhythms' and 'Adenosine Pathway Recalibrator' are complex terms dropped strategically without over-explanation, creating undeniable authority.",
+            "**UMP (Unique
 
-Use this expert when the task requires million dollar mechanisms expertise. Run these checks before executing:
+## Hall of Fame Exemplars
 
-1. **Domain Match** — Does this task fall within Luke Iha's core domain (Million Dollar Mechanisms)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Luke Iha's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+### Excellent Exemplar 1 (Mechanism + Jargon Flurry + UMP)
+**Title**: The Sleep Debt Switch
+**Copy Snippet**: "For years, you've been told to just 'sleep more.' But what if the real problem isn't the hours you're getting, but a hidden biological switch that's stuck in the 'on' position? Recent breakthroughs in chronobiology, particularly involving the hypothalamic-pituitary-adrenal axis regulation of circadian rhythms, reveal that chronic stress actually rewires your brain's ability to enter restorative deep sleep. Our breakthrough formula targets the **Adenosine Pathway Recalibrator**, gently resetting this 'Sleep Debt Switch' so your body remembers how to truly rest, no matter how many hours you get."
+**What Makes This Excellent**:
+*   **Named Mechanism**: 'Sleep Debt Switch' is intuitively graspable, addresses causal pain, and implies a unique solution.
+*   **Jargon Flurry**: 'hypothalamic-pituitary-adrenal axis regulation of circadian rhythms' and 'Adenosine Pathway Recalibrator' are complex terms dropped strategically without over-explanation, creating undeniable authority and the *feeling* of scientific truth.
+*   **UMP (Unique Mechanism Proposition)**: Reframes the problem from quantity of sleep to a biological switch, making the solution feel novel and superior.
+*   **Causal Pain Entry Point**: Directly addresses the "why" of persistent fatigue despite trying to sleep more.
 
----
+### Excellent Exemplar 2 (Damaging Admission + Contextualized Authority + Explanatory Reasoning)
+**Title**: The 'Gut Reset' Protocol
+**Copy Snippet**: "Now, our 7-Day Gut Reset Protocol isn't for everyone. If you're looking for a magic pill that lets you eat whatever you want, this isn't it. It requires discipline for a full week, and you might even experience mild detox symptoms on day one. But what it *does* do, according to findings from the **Journal of Clinical Gastroenterology** – a publication considered the gold standard for digestive health research – is activate your body's dormant **Microbiome Rebalancing Sequence**. This isn't about adding probiotics; it's about systematically flushing out the specific 'biofilm blockages' that prevent your beneficial gut flora from thriving, restoring your digestive firewall from the inside out."
+**What Makes This Excellent**:
+*   **Damaging Admission**: Explicitly states a downside ("not for everyone," "requires discipline," "mild detox symptoms") to disarm skepticism and build trust, immediately followed by the overwhelming benefit.
+*   **Contextualized Authority**: 'Journal of Clinical Gastroenterology' is framed as "the gold standard for digestive health research," lending significant weight to the study.
+*   **Explanatory Reasoning**: The 'Microbiome Rebalancing Sequence' explains *how* the protocol works, creating the "emotion of truth" even without explicit hard data in this snippet.
+*   **Named Mechanism**: 'Microbiome Rebalancing Sequence' is specific and implies a process.
 
-## Anti-Patterns: What Luke Iha Would Never Do
+### Excellent Exemplar 3 (Visual Metaphor + Simple > Accurate + Unnamed Suspicions)
+**Title**: The 'Cognitive Dust' Filter
+**Copy Snippet**: "Do you ever feel like your brain is just... foggy? Like there's a thin layer of dust covering all your thoughts, making focus impossible? It's not just you getting older; it's a phenomenon neuroscientists are now calling **Neural Debris Accumulation**. Think of your brain like a high-performance engine. Over time, tiny fragments, metabolic byproducts, and even stress hormones build up, clogging the delicate neural pathways. Our new supplement isn't a stimulant; it's like a high-efficiency 'Cognitive Dust Filter' for your brain, gently sweeping away the accumulated gunk so your thoughts can run clean and clear again."
+**What Makes This Excellent**:
+*   **Visual Metaphor**: "Dust covering thoughts," "engine... clogging," and "Cognitive Dust Filter" create immediate, intuitive understanding.
+*   **Simple > Accurate**: The mechanism simplifies complex neuroscience ("Neural Debris Accumulation") into an easily digestible, relatable concept.
+*   **Unnamed Suspicions**: Directly addresses the feeling of "brain fog" that many people experience but can't articulate the cause of, making the mechanism feel like a discovery.
+*   **Named Mechanism**: 'Cognitive Dust Filter' is memorable and descriptive.
 
-1. **Would never produce generic output** — Every output must reflect Luke Iha's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Luke Iha's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never tell when they can show** — Exposition is the enemy. Character is revealed through action and choice, not description.
+### Anti-Exemplar (Generic Promise, No Mechanism, Weak Proof)
+**Title**: Boost Your Energy Naturally
+**Copy Snippet**: "Feeling tired? Our new supplement uses natural ingredients to help you feel more energetic throughout the day. With a blend of vitamins and herbs, it supports your body's natural energy production. Try it today and experience the difference!"
+**What Makes This Excellent (as an anti-exemplar)**:
+*   **No Mechanism**: Offers a generic benefit ("more energetic") without explaining *how* or *why* it works beyond vague "natural ingredients" and "supports natural energy production."
+*   **No Causal Pain**: Doesn't address *why* the reader is tired or what they might suspect is causing it.
+*   **Lack of Authority/Proof**: Relies on generic claims without any of Luke Iha's "proof weapons" (jargon, damaging admission, contextualized studies, etc.).
+*   **No Name**: The "mechanism" (if one could be inferred) is unnamed and therefore forgettable.
 
+## Signature Moves
 
----
+*   **The Jargon Drop**: When introducing the product's unique internal mechanism, Luke reflexively inserts a single, dense sentence packed with scientific or technical terminology (e.g., "bioavailable curcuminoids with liposomal delivery") without explanation, then immediately reverts to layman's terms. → **Deploy when**: Unveiling the "how it works" of the core mechanism to establish expert authority.
+*   **The Candid Confession**: Luke always pre-empts a potential objection or minor flaw by explicitly stating a downside or limitation of the offer early in the copy, then immediately reframes it with an overwhelming positive. → **Deploy when**: Before the prospect has a chance to formulate skepticism, especially near pricing or commitment points.
+*   **The Doubt Node Stack**: After making a significant or seemingly unbelievable claim, Luke immediately stacks a specific, relevant proof mechanism (e.g., a contextualized study, a compelling testimonial, or explanatory reasoning) at that exact point, rather than saving all proof for the end. → **Deploy when**: Following any "big promise" or high-stakes claim in the sales argument.
+*   **The Intuition Namer**: Luke consistently searches for the underlying "felt but unnamed" problem or suspicion the audience already carries, then crafts a simple, memorable name for it that makes the audience think, "I always knew it!" → **Deploy when**: Discovering the core problem reframing or the product's primary unique mechanism.
+*   **The Safety Blanket Guarantee**: Beyond standard guarantees, Luke ensures the risk reversal is psychologically robust, often by combining a strong promise with an explanation of *why* the guarantee is possible, making the prospect feel emotionally safe to act. → **Deploy when**: At the point of the Call-to-Action, to overcome final purchase hesitation.
 
-## Voice DNA
+## Expert-Specific Quality Rubric
 
-**Sentence rhythm**: Flowing and natural. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Warm and engaging. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Warm authority with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Luke Iha's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                    | Score 10 (Savant)                                                                                                                                                                                                                             |
+| :---------------------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mechanism Name Power**      | Mechanism has a name, but it's generic or easily forgotten.                         | Name is specific and somewhat memorable, hinting at the solution or problem.                                      | Name is a 3-word or less, intuitively graspable phrase that immediately unlocks a pre-existing suspicion or visual metaphor, and would be repeated at a dinner table. (e.g., "Cortisol Belly Switch")                                       |
+| **Causal Pain Resonance**     | Addresses a surface-level pain point without exploring the underlying "why."        | Connects to a common "why" but doesn't feel like a personal discovery for the reader.                              | Unearths a "causal pain" that the audience *felt* but couldn't articulate, making the mechanism feel like the missing piece of their own understanding. Reader thinks: "I always knew it was something like that!"                      |
+| **Simplicity & Graspability** | Mechanism explanation is technically accurate but requires effort to understand.      | Mechanism is clear, but might need a sentence or two to fully "click" for a general audience.                     | Mechanism is simplified to the point of intuitive understanding without explanation; it "clicks" instantly, often via a powerful, simple metaphor. Can be "killed" (described) in 3 words or less.                                      |
+| **Jargon Flurry Application** | Jargon is either absent, over-explained, or used throughout the copy indiscriminately. | A single jargon-rich sentence is present, but it feels slightly out of place or attempts to explain itself.      | A precisely placed, single dense sentence of high-level jargon is dropped *without explanation* at the moment of mechanism introduction, followed by immediate reversion to simple language, creating undeniable authority.          |
+| **Proof Stacking Logic**      | Proof points are clustered at the end or used generically without strategic placement. | Proof is present, but its placement isn't perfectly aligned with the moment of maximum skepticism for each claim. | Each major claim or "doubt node" in the copy is immediately followed by the *most appropriate* and psychologically potent proof mechanism, making the reader feel safe and reducing friction at critical decision points.               |
+| **Damaging Admission Impact** | No damaging admission, or it's too weak/strong, undermining credibility or overwhelming benefit. | A damaging admission is present, but its follow-up is merely positive, not overwhelmingly so.                     | A genuine, minor flaw is explicitly stated early, followed *immediately* by an overwhelming positive result that makes the flaw irrelevant, disarming skepticism and significantly boosting overall credibility.                     |
+| **UMP Potential**             | The mechanism describes a feature or a common solution, not a new cause or approach.   | The mechanism offers a unique *way* to solve the problem, but the underlying cause remains conventional.           | The mechanism unearths a completely reframed *cause* of the problem (UMP), making all previous attempts by the audience feel misguided and positioning the product as the only true solution.                                           |

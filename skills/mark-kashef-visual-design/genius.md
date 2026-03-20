@@ -85,41 +85,114 @@ When used with other skills:
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires visual design expertise. Run these checks before executing:
+### 1. Executive Dashboard Blueprint
+```
+## Executive Dashboard - Q3 Performance
 
-1. **Domain Match** — Does this task fall within Mark Kashef Visual Blueprint Methodology's core domain (Visual Design)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Mark Kashef Visual Blueprint Methodology's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+```
++-------------------------------------------------------------+
+| [HEADER]                                                    |
+|  Title: Q3 Performance Overview                             |
+|  Period Selector [Dropdown: Q1, Q2, Q3, Q4]                 |
++-------------------------------------------------------------+
+| [KEY METRICS - GRID 2x2]                                    |
+|  +--------------------+  +--------------------+             |
+|  | REVENUE            |  | PROFIT MARGIN      |             |
+|  | $1.5M (+12% YoY)   |  | 32% (+2% YoY)      |             |
+|  +--------------------+  +--------------------+             |
+|  +--------------------+  +--------------------+             |
+|  | NEW CUSTOMERS      |  | AVG. DEAL SIZE     |             |
+|  | 5,200 (+25% YoY)   |  | $2,800 (-5% YoY)   |             |
+|  +--------------------+  +--------------------+             |
++-------------------------------------------------------------+
+| [VISUALIZATIONS - 2 COLUMNS]                                |
+|  +---------------------------+  +---------------------------+
+|  | LINE CHART: Monthly Rev   |  | BAR CHART: Product Mix    |
+|  | (X: Month, Y: Revenue)    |  | (X: Product, Y: % of Rev) |
+|  | Legend: Product A, Prod B |  | Top 5 Products            |
+|  +---------------------------+  +---------------------------+
++-------------------------------------------------------------+
+| [DATA TABLE]                                                |
+|  Top 10 Sales Regions (Sortable by Revenue, New Customers)  |
+|  Columns: Region, Revenue, New Customers, Growth (%)        |
++-------------------------------------------------------------+
+```
+**What makes this excellent**: This wireframe acts as a precise visual contract, leaving zero ambiguity for the AI. Every element, from the header's components to specific chart types, axes, legends, and table columns, is explicitly defined. This embodies the "Visual Contract Protocol" and serves as an "Assumption Assassin," ensuring the AI builds exactly what's intended without costly post-production iteration. It perfectly separates the structural 'what' and 'where' from the aesthetic 'how it looks,' enabling "Taste Arbitrage" in subsequent steps.
 
----
+### 2. Complex System Diagram for Non-Technical Audience
+```
+## Simplified API Workflow for [Product Name]
 
-## Anti-Patterns: What Mark Kashef Visual Blueprint Methodology Would Never Do
+```
++-------------------------------------------------------------+
+| [USER]                                                      |
+|  Clicks "Submit Request"                                    |
++-------------------------------------------------------------+
+      | (Sends Request)
+      v
++-------------------------------------------------------------+
+| [API GATEWAY]                                               |
+|  - Validates Request                                        |
+|  - Routes to Service                                        |
++-------------------------------------------------------------+
+      | (Validated Request)
+      v
++-------------------------------------------------------------+
+| [SERVICE A: DATA PROCESSOR]                                 |
+|  - Cleans & Formats Data                                    |
+|  - Stores in Temporary DB                                   |
++-------------------------------------------------------------+
+      | (Processed Data)
+      v
++-------------------------------------------------------------+
+| [SERVICE B: ANALYTICS ENGINE]                               |
+|  - Runs Algorithms                                          |
+|  - Generates Insights                                       |
++-------------------------------------------------------------+
+      | (Insights)
+      v
++-------------------------------------------------------------+
+| [DATABASE: RESULTS STORAGE]                                 |
+|  - Saves Final Output                                       |
++-------------------------------------------------------------+
+      | (Confirmation)
+      v
++-------------------------------------------------------------+
+| [USER]                                                      |
+|  Receives "Request Complete"                                |
++-------------------------------------------------------------+
+```
+**What makes this excellent**: This exemplar demonstrates the "Complexity Equalizer" pattern. It breaks down a technical API workflow into easily digestible, sequential blocks with clear labels and actions, making it comprehensible even to a non-technical stakeholder. The simplicity of the ASCII flow avoids overwhelming detail, ensuring immediate understanding and facilitating efficient communication about system architecture without deep technical dives.
 
-1. **Would never produce generic output** — Every output must reflect Mark Kashef Visual Blueprint Methodology's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Mark Kashef Visual Blueprint Methodology's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never chase trends over truth** — Brand work must be anchored in authentic identity, not whatever's trending. Trends pass; positioning endures.
+### Anti-Exemplar: Vague Marketing Landing Page Request
+"Design a sleek and modern landing page for our new AI-powered analytics platform. It needs to be super engaging and drive sign-ups. Make sure it has a clear call to action and looks professional."
 
+**What makes this mediocre**: This is a textbook "vibe coding horror story" root cause. The prompt is laden with subjective adjectives ("sleek," "modern," "super engaging," "professional") but entirely lacks structural or content specification. It forces the AI to make dozens of assumptions about layout, element hierarchy, specific content blocks, and CTA placement. This violates the "Assumption Assassin" and "Visual Contract Protocol," leading to expensive, off-target iterations at the high-token production layer and a significant "assumption gap" between human intent and AI execution.
 
----
+## Signature Moves
 
-## Voice DNA
+1.  **The Blueprint Mandate**: Always initiates any visual design task by requesting an ASCII wireframe, explicitly stating "Before writing any [output type], create an ASCII wireframe of [specifications]." This establishes the "Visual Contract Protocol" from the outset.
+    → **Deploy when**: Any new visual output (dashboard, slide, landing page, diagram, email template) is requested.
 
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
+2.  **Taste-Logic Arbitrage**: In separate prompts, first defines the structural layout and content hierarchy in a wireframe, and *only then* provides aesthetic or styling instructions for the final build. This ensures "Taste Arbitrage" by preventing mixing of cognitive tasks.
+    → **Deploy when**: Transitioning from wireframe approval (structure and content) to final design execution (aesthetics and polish).
 
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
+3.  **Surgical Refinement Loop**: Responds to initial wireframes with precise, numbered, and scoped modification requests (e.g., "Two changes only. 1. Make the line chart wider than the pie chart. 2. Change active/green to inactive/gray. Redraw the full wireframe.") to leverage the "Progressive Refinement Engine."
+    → **Deploy when**: An initial wireframe needs specific, targeted adjustments before final approval.
 
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
+4.  **The Orchestrator's Hand-off**: Concludes the wireframing phase by explicitly instructing the AI: "Build this using the wireframe as the exact specification. Focus on making it beautiful and modern within these aesthetic guidelines: [brief aesthetic notes]." This embodies the "Orchestrator Identity Shift" where the human is the creative director.
+    → **Deploy when**: The final wireframe is approved and ready for production-level rendering.
 
-**What Mark Kashef Visual Blueprint Methodology's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
+## Expert-Specific Quality Rubric
 
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                         | Score 4 (Acceptable)                                 | Score 7 (Good)                                                     | Score 10 (Savant)                                                          |
+| :-------------------------------- | :--------------------------------------------------- | :----------------------------------------------------------------- | :------------------------------------------------------------------------- |
+| **1. Wireframe as Visual Contract** | Wireframe provides a general idea; some elements are vague or implied. | Wireframe defines most major elements and their relative placement. | Wireframe is an unambiguous 1:1 blueprint; every element's content, type, and location is explicitly defined. No room for interpretation. |
+| **2. Assumption Elimination Score** | Wireframe still requires AI to infer several design choices (e.g., specific chart types, button labels). | Minor assumptions remain, mostly concerning aesthetic details, not core structure or content. | Zero implicit assumptions. Every structural, content, and functional element is explicitly stated or represented in the wireframe.          |
+| **3. Iteration Granularity**      | Wireframe requires significant re-drawing for minor changes, or changes are described vaguely. | Wireframe allows for clear, moderate changes without full re-conceptualization. | Wireframe is designed for surgical, token-efficient edits (e.g., "move X left," "change Y to Z") with minimal redrawing, reflecting "Progressive Refinement." |
+| **4. Cognitive Task Segregation** | Wireframe attempts to specify colors, fonts, or other aesthetic details, mixing layout with style. | Wireframe primarily focuses on layout but includes some light aesthetic notes that could be deferred. | Wireframe *only* defines structure, content placement, and hierarchy. All aesthetic concerns are explicitly deferred to a separate production-layer prompt, embodying "Taste Arbitrage." |
+| **5. Complexity Compression Index** | Diagram is overly complex, requiring deep domain knowledge to interpret. | Diagram simplifies some concepts but might still be overwhelming for a layperson. | Diagram reduces complex systems or data into an immediately understandable visual structure, accessible to a "seventh grader," demonstrating "Complexity Equalizer." |
+| **6. Output Fidelity to Wireframe** | Final output deviates significantly from the wireframe's layout or element inclusion. | Final output largely matches the wireframe, with minor discrepancies. | Final output is a pixel-perfect (or functionally equivalent) translation of the wireframe. Every element specified in the wireframe is present and correctly positioned in the output. |
+| **7. Token Economy Adherence**     | Process involves multiple high-token iterations at the design/code layer before wireframe finalization. | Some iteration occurs at the design/code layer, but wireframe is the primary iteration point. | Iteration is almost exclusively confined to the low-token wireframe layer, achieving 60-80% token reduction before final production, as per "Token Economist." |

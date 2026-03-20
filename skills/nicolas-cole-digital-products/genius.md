@@ -156,41 +156,54 @@ The hidden insight: create these micro-assets ONCE, then deploy them in every co
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires digital products expertise. Run these checks before executing:
+### 1. The "Ship 30 for 30" Ecosystem
+**Description**: What began as a 30-day writing challenge (a live cohort vehicle) has systematically expanded into a multi-tiered product ecosystem. It includes the core challenge itself, an extensive content library of courses and mini-courses, a thriving paid community (The Captain's Table), template packs, and now AI tools. The original "problem-completion" (write 30 essays in 30 days) is consistently delivered, while the core IP (writing methodology) is endlessly repackaged and layered.
+**What makes this excellent**:
+- **Problem-Completion Test (Pattern 7)**: Clearly defines and delivers a specific outcome (30 essays).
+- **Level-Up Pair (Pattern 5)**: Started as a live cohort, then leveraged into asynchronous content.
+- **Context Is the Multiplier (Pattern 2)**: The core methodology is monetized across challenges, courses, templates, and community memberships.
+- **Community as Culmination (Pattern 8)**: The Captain's Table community is the evergreen bundling of all prior validated components.
+- **Expectation Engineering (Pattern 6)**: Each tier (challenge, course, community) clearly sets and meets distinct customer expectations.
 
-1. **Domain Match** — Does this task fall within Nicolas Cole's core domain (Digital Products)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Nicolas Cole's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+### 2. The "Category Pirates" Newsletter & Books
+**Description**: The "Category Pirates" (co-authored by Cole) began as a free newsletter, then evolved into multiple standalone books (leveraging the same content), then a paid "Category Design Masterclass" (a course/cohort vehicle), and eventually a high-ticket "Category Design Academy." Each iteration leverages the same core IP, delivered through different vehicles and contexts, appealing to different price points and learning styles.
+**What makes this excellent**:
+- **Context Is the Multiplier (Pattern 2)**: Core content moved from free newsletter to books, courses, and high-ticket academy.
+- **Standalone Before Recurring (Pattern 3)**: Books and courses validated the content before the more involved Academy.
+- **The $350 Purchasing Decision Threshold (Pattern 4)**: Clear distinction between lower-priced books/courses and the higher-priced, experiential Academy.
+- **The "Same Information, Different Way" Business Model (Hidden Knowledge 2)**: The core category design principles are consistent across all products, just delivered differently.
 
----
+### Anti-Exemplar: "The Creator's Mastermind"
+**Description**: An aspiring creator launches a $5,000/year "Mastermind" community as their first product. It promises "passive income" and "exclusive access." They have no prior standalone courses or validated content library. Within 3 months, members complain about a lack of fresh content, inconsistent live calls, and the creator being overwhelmed by support requests, leading to high churn and burnout.
+**What makes this mediocre**:
+- **Standalone Before Recurring (Pattern 3) violation**: Launched a recurring high-ticket product without validating standalone value first.
+- **Recurring Revenue = Recurring Work (Hidden Knowledge 1) ignored**: Underestimated the operational burden of a high-touch, high-ticket recurring product.
+- **High-Ticket Is a Different Business Entirely (Hidden Knowledge 4) misjudgment**: Treated it as a "more expensive course" rather than a complex business requiring infrastructure.
+- **Expectation Engineering (Pattern 6) failure**: Promised "passive income" and "exclusive access" but couldn't consistently deliver the expected value for a $5K price point.
 
-## Anti-Patterns: What Nicolas Cole Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Nicolas Cole's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Nicolas Cole's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+*   **The Vehicle Pre-Flight Check**: Always classifies a product idea into one of the 6 vehicle types (ebook, course, challenge, community, template, coaching) *first*, before any content creation or marketing planning, to establish its inherent rules and expectations.
+    → **Deploy when**: Evaluating a new product idea or an existing product's underperformance.
+*   **The Context Cascade**: For any core content asset (e.g., a framework, a guide, a lesson), immediately maps out at least 3-5 distinct product contexts (e.g., standalone sale, lead magnet, course bonus, community content, live workshop component) and their corresponding price points.
+    → **Deploy when**: Finishing a piece of foundational content or planning product line expansion.
+*   **The Outcome Scythe**: Before designing any product curriculum or content, ruthlessly defines the *single, measurable outcome* the customer will achieve, then cuts anything that doesn't directly contribute to that outcome.
+    → **Deploy when**: Scoping a new product, reviewing course content, or simplifying an existing offering.
+*   **The Price Ceiling Default**: When establishing pricing for any product below the $350 threshold, defaults to the *highest end* of the viable price range, backed by empirical data that this maximizes total revenue.
+    → **Deploy when**: Setting prices for new low-to-mid-ticket products or re-evaluating current pricing.
+*   **The Async-First Blueprint**: Always designs and validates the asynchronous, self-serve version of a product (e.g., a course or ebook) before considering its live, higher-touch counterpart (e.g., a cohort or workshop).
+    → **Deploy when**: Conceptualizing a new teaching product or planning a product's "level-up" pathway.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Nicolas Cole's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                           | Score 4 (Acceptable)                                                                      | Score 7 (Good)                                                                                                    | Score 10 (Savant)                                                                                                                  |
+| :---------------------------------- | :---------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| **Vehicle-Expectation Congruence**  | Product's design/marketing loosely aligns with its intended vehicle, but some expectations are mismatched. | Product consistently meets most key expectations of its chosen vehicle, with minor inconsistencies.               | Product perfectly aligns its content, pricing, and marketing with its chosen vehicle, anticipating and fulfilling all customer expectations. |
+| **Outcome-Completion Efficiency**   | Product delivers an outcome but includes significant irrelevant content or complexity.    | Product effectively guides the customer to the promised outcome with minimal extraneous information.              | Product is surgically designed to deliver the *single promised outcome* with absolute precision and maximal efficiency, no fluff.    |
+| **Contextual Monetization Depth**   | Core IP exists as a single product, with no clear plan for repurposing or repackaging.    | Core IP is leveraged across 2-3 distinct contexts/price points, showing potential for further expansion.           | Core IP is strategically monetized across 4+ contexts (e.g., ebook, course, cohort, community, templates), maximizing ROI from existing content. |
+| **Pricing Threshold Intelligence**  | Pricing feels arbitrary or targets the lowest end of the range without clear justification. | Pricing generally respects the $350 threshold, but may not fully leverage the "pricing inversion" principle below it. | Pricing strategically uses the $350 threshold: maximizes revenue below $350, and delivers clear experiential value above $350.         |
+| **Operational Sustainability (Recurring Products)** | Recurring product launched with minimal thought to ongoing content/support, leading to burnout. | Recurring product has a basic plan for ongoing work, but operational burden is likely underestimated.             | Recurring product explicitly models the "invisible tax" of ongoing work, with sustainable systems for content, support, and community management. |
+| **Level-Up Pathway Readiness**      | Product is a dead-end, with no clear path to higher-tier offerings or deeper engagement.   | Product could potentially be expanded, but the "level-up" path to live versions or community integration isn't explicit. | Product is intentionally designed as a foundational component, with clear, pre-planned pathways to higher-tier live offerings or community integration. |
+| **Atomic Asset Reusability**        | Templates, prompts, or checklists are created for one-off use within a single product.    | Templates/prompts are occasionally repurposed, but not systematically managed as context-fluid assets.             | Every atomic asset (template, prompt, checklist) is immediately registered and deployed across multiple products and contexts (standalone, bonus, lead magnet). |

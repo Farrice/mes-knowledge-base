@@ -49,41 +49,43 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires video expertise. Run these checks before executing:
+*   **Exemplar 1: The "Hacker's Gambit" Multi-Shot Sequence**
+    *   **Prompt**: `[Visual Style: Cyberpunk, Neon-noir, volumetric lighting, rain-slicked surfaces] + [Shot 1: Extreme Wide Shot, establishing shot of a futuristic server farm, low angle, slow dolly in, showing rows of glowing servers] + [Shot 2: Close-up on a hacker's intense face, lit by flickering screen glow, static shot, beads of sweat on forehead] + [Shot 3: Over-the-shoulder shot, showing complex green code scrolling rapidly on a holographic interface, slight push in, hacker's fingers typing furiously]`
+    *   **What makes this excellent**: This single prompt flawlessly generated a three-shot sequence. Shot 1 established the environment with a precise camera movement. Shot 2 delivered a tight, character-focused moment. Shot 3 provided crucial narrative detail with a controlled push-in, all while maintaining perfect stylistic and character continuity across the cuts, demonstrating the power of Multi-Shot Sequential Prompting and the Cinematic Formula.
 
-1. **Domain Match** — Does this task fall within Tao Prompts: AI Video Pipeline Architecture's core domain (Video)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Tao Prompts: AI Video Pipeline Architecture's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+*   **Exemplar 2: "Echoes of the Past" Dialogue Orchestration**
+    *   **Workflow**:
+        1.  **Storyboard (Midjourney):** Generated a 3x3 grid of keyframes depicting a lone explorer running through ancient ruins, then stopping to deliver a monologue, followed by more running.
+        2.  **Action Segments (RunwayML):** Prompted: `[Visual Style: Ancient ruins, dusty, golden hour light, cinematic] + [Camera Shot: Medium Tracking Shot] + [Subject: A lone explorer, determined, wearing worn leather gear] + [Action: Running through overgrown stone archways] + [Environment: Vast, crumbling desert ruins] + [Camera Motion: Smooth tracking shot, following from behind]` (for running scenes).
+        3.  **Dialogue Segment (Cling AI):** Prompted: `[Visual Style: Ancient ruins, dusty, golden hour light, cinematic] + [Camera Shot: Close-up, chest up] + [Subject: The lone explorer, face etched with emotion, eyes welling up] + [Action: Standing still, delivering a powerful monologue, chest rising slightly from exertion] + [Environment: Blurred background of ruins] + [Camera Motion: Static, very subtle handheld sway]` (for lip-sync).
+        4.  **Audio (ElevenLabs):** Generated dialogue with `[tone: somber, reflective, building to emotional intensity]`.
+        5.  **Lip-Sync (Creatify Aurora):** Applied the ElevenLabs audio to the Cling AI close-up clip.
+        6.  **Final Edit:** Seamlessly cut between the dynamic RunwayML action shots and the perfectly synced Cling AI dialogue shot.
+    *   **What makes this excellent**: This project perfectly demonstrates Modular Pipeline Orchestration and the Decoupling Law. By separating complex action from dialogue delivery and using a storyboard as the "bridge," the final video achieved both dynamic movement and flawless lip-sync without any character warping or visual glitches, a common failure point for single-tool attempts.
 
----
+*   **Anti-Exemplar: The "Kitchen Sink" Disaster**
+    *   **Prompt**: `A brave knight in shining armor, very detailed, cinematic, high fidelity, 8k, photorealistic, epic, dramatic lighting, volumetric fog, riding a majestic horse at full gallop through a dark, enchanted forest while shouting a powerful oath, close up on his face, dynamic camera movement, cinematic score, hyper-realistic textures, magical glow, fantasy art.`
+    *   **What makes this mediocre**: This prompt attempts to cram every possible aesthetic descriptor, action, and camera instruction into a single generation, violating "Prompt Complexity ≠ Aesthetic Quality" and the "Decoupling Law." The resulting video features a knight with a melted, indistinct face, a horse that glitches in and out of existence, and a "shout" that causes the entire scene to distort, as the AI struggles to reconcile conflicting demands for high-fidelity action, facial detail, and complex camera work simultaneously.
 
-## Anti-Patterns: What Tao Prompts: AI Video Pipeline Architecture Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Tao Prompts: AI Video Pipeline Architecture's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Tao Prompts: AI Video Pipeline Architecture's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
-7. **Would never tell when they can show** — Exposition is the enemy. Character is revealed through action and choice, not description.
+*   **The Syntax Translator Scan**: Before generating a single frame on a new AI video platform, Tao Prompts feeds its official documentation (e.g., PDF user guide, API specs) into a Custom GPT or internal LLM agent, instructing it to act as a strict syntax translator. → **Deploy when**: Adopting any new AI video tool, troubleshooting syntax errors, or onboarding team members to a new platform.
 
+*   **The Shot Blueprint**: Every visual concept is immediately deconstructed into `[Visual Style] + [Camera Shot] + [Subject] + [Action] + [Environment] + [Camera Motion]` variables, even if only mentally. No "free-form" descriptions are allowed for core visual elements. → **Deploy when**: Translating a narrative beat, storyboard panel, or B-roll requirement into a concrete, controllable video prompt.
 
----
+*   **The Action/Dialogue Split**: Any scene involving both significant physical action and spoken dialogue is instantly flagged for a two-stage generation process: dynamic, action-only shots (B-roll) and static/low-movement close-ups specifically for lip-sync, which are then edited together. → **Deploy when**: Planning any character-driven scene where both movement and clear speech are crucial.
 
-## Voice DNA
+*   **The Visual Pre-Flight**: For any multi-shot sequence, complex scene, or narrative requiring continuity, the very first step is to generate a visual storyboard grid (e.g., a 3x3 image grid from an LLM or Midjourney) to define continuity, character consistency, and shot progression, *before* touching any video generation tool. → **Deploy when**: Starting a new scene or sequence that requires true narrative arc, structural continuity, or consistent character appearance across multiple shots.
 
-**Sentence rhythm**: Energetic and punchy. Varies pace between explanation and punch. Key insights land short.
+## Expert-Specific Quality Rubric
 
-**Vocabulary register**: Plain-spoken and concrete. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: No-BS directness with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Tao Prompts: AI Video Pipeline Architecture's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                         | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                      | Score 10 (Savant)                                                                                                              |
+| :-------------------------------- | :---------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+| **1. Shot Control Fidelity**      | Some requested camera shots, angles, or movements are ignored or misinterpreted.    | Most requested camera shots, angles, and movements are followed, but minor deviations occur. | Every requested camera shot, angle, and motion (e.g., "dolly in," "low angle") is executed with pixel-perfect precision and intent. |
+| **2. Multi-Shot Continuity**      | Sequential shots show noticeable shifts in character appearance, lighting, or environment, breaking immersion. | Character and environment maintain consistency across sequential shots, but transitions feel abrupt or lack flow. | Character, lighting, and environment are perfectly consistent across all sequential shots, creating a seamless, editorially cohesive sequence. |
+| **3. Action-Dialogue Decoupling Effectiveness** | Character faces warp, stutter, or movements glitch when speaking, indicating poor decoupling. | Dialogue is mostly clean, but there are subtle inconsistencies between action and lip-sync shots that require heavy editing. | Action shots are dynamic, and dialogue shots feature perfectly synced, natural-looking speech without any visual artifacts, due to successful decoupling and pipeline orchestration. |
+| **4. Prompt Translation Accuracy** | Translated prompts from source narratives require significant manual adjustment to work with the target AI video tool. | Translated prompts work on the first try, but could be more concise or efficient for the target tool's specific syntax. | Raw narrative ideas are flawlessly translated into tool-optimized, syntactically perfect prompts that generate desired output on the first attempt, every time. |
+| **5. Pipeline Orchestration Efficiency** | Tasks are combined into single tools, leading to suboptimal results, increased generation time, or visual artifacts. | Tasks are mostly separated across specialized tools, but the handoff or integration points between tools are clunky or require manual intervention. | Each task (visual, audio, lip-sync) is intelligently routed to the optimal specialized tool, resulting in a smooth, high-fidelity, and artifact-free final output with minimal manual touch-up. |
+| **6. Subject Focus & Clutter Reduction** | Prompts contain redundant or overly complex descriptors that confuse the model or dilute the subject focus. | Prompts are generally concise, but occasionally include unnecessary aesthetic keywords when precise control over blocking or action is the primary goal. | Prompts are maximally concise, using complexity *only* for control and specificity, never for aesthetic embellishment, ensuring the model's focus remains laser-sharp on the intended subject and action. |

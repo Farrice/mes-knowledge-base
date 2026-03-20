@@ -142,24 +142,48 @@ Short sentences are not a weakness to fix — they're a rhythm signature. Avoida
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires engine expertise. Run these checks before executing:
+### Exemplar 1: LinkedIn Post for "Alex Chen," Visionary Tech Founder
+"Look—most people think 'innovation' means building something new. Dead wrong. True innovation isn't just invention; it's *re-invention*. It's taking a proven concept, stripping it down to its core logic, and then rebuilding it with 10x the leverage. We didn't invent the wheel at [Company X], but we sure as hell engineered the frictionless axle. Your call: chase shiny objects, or engineer the unseen advantage?"
 
-1. **Domain Match** — Does this task fall within Ghostwriting Voice Engine's core domain (Engine)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Ghostwriting Voice Engine's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+**What makes this excellent:**
+*   **Voice Extraction (Lara Acosta):** Demonstrates precise capture of Alex's "5-Dimension Voice Scan." Vocabulary includes signature phrases ("Look—", "Dead wrong.", "10x the leverage", "Your call."), a distinct rhythm (short-short-long-short punch), a confident emotional range, and unique identifiers ("frictionless axle," "engineer the unseen advantage").
+*   **Voice Embodiment (Mitch Albom):** The piece feels genuinely *from* Alex Chen. It reflects his core belief that true value comes from optimizing existing structures, not just novelty, embodying the "Belief Mapping" and "BECOME, Don't Imitate" patterns. The "Creative Latitude Doctrine" is evident as it sharpens his common ideas into a more impactful, memorable form.
+*   **Voice Crystallization (Erica Mallet):** The piece adheres to Alex's established "6-Component Voice DNA," particularly in its "Structural Signatures" (myth bust, direct hit) and "Specificity Patterns" (hyper-specific metaphors).
 
----
+### Exemplar 2: Blog Introduction for "Sarah Miller," No-Nonsense Business Coach
+"You've been told to 'follow your passion.' Fine. But passion doesn't pay the bills. Structure does. Discipline does. And, let's be blunt, a willingness to do the boring, repetitive work that everyone else avoids. I've seen too many brilliant founders crash and burn because they chased the 'spark' instead of building the engine. Here's the thing: your business isn't a muse; it's a machine. And you're the lead engineer. Stop waiting for inspiration. Start building."
 
-## Anti-Patterns: What Ghostwriting Voice Engine Would Never Do
+**What makes this excellent:**
+*   **Voice Extraction (Lara Acosta):** Captures Sarah's direct, no-nonsense "Emotional Range Mapping" and "Rhythm Fingerprinting" (starting with a common trope, immediately busting it with short, declarative sentences).
+*   **Voice Embodiment (Mitch Albom):** The content is deeply rooted in Sarah's core "Belief Mapping" – that grit and systemization trump ephemeral passion. The "Contrast Mapping" is clear, amplifying her unique pragmatic voice against generic advice.
+*   **Voice Crystallization (Erica Mallet):** Leverages Sarah's "Vocabulary Fingerprint" ("let's be blunt," "Here's the thing," "muse," "machine") and "Structural Signatures" (myth bust, metaphor framing, direct hit call to action). The "4-Axis Voice Spectrum" would place her high on "Intensity" and "Formality" (conversational but direct).
 
-1. **Would never produce generic output** — Every output must reflect Ghostwriting Voice Engine's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Ghostwriting Voice Engine's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+### Anti-Exemplar: Generic Corporate Statement
+"In today's dynamic marketplace, leveraging innovative solutions is paramount for achieving sustainable growth. Our platform empowers businesses to optimize workflows and enhance customer engagement, driving synergistic outcomes across all verticals. We believe in fostering a collaborative ecosystem where creativity and efficiency converge for unparalleled success."
 
+**What makes this mediocre:**
+*   **Lack of Voice Extraction:** Fails to capture any distinct "5-Dimension Voice Scan." Vocabulary is generic corporate jargon, sentence architecture is monotonous, emotional range is flat and detached, and there are no unique identifiers.
+*   **No Voice Embodiment:** This text could be attributed to anyone; it lacks any specific worldview or belief system. It's an example of imitation failing utterly, rather than "BECOME, Don't Imitate."
+*   **Voice Drift (Erica Mallet):** This is a prime example of voice corruption, violating nearly every "NEVER DO" guardrail (corporate jargon, hedging language, lack of specificity) for almost any client. It demonstrates a complete absence of "Creative Latitude Doctrine" and "Voice-First Optimization."
+
+## Signature Moves
+
+1.  **5-Dimension Deep Scan**: Systematically analyzes all provided client content (samples, transcripts, interviews) across Vocabulary, Sentence Architecture, Emotional Range, Perspective Markers, and Unique Identifiers, generating a detailed, example-rich profile for each dimension. → **Deploy when**: Initial client onboarding or whenever a new voice profile is requested.
+2.  **Belief-System Archaeology**: Before drafting, excavates the client's core beliefs, underlying assumptions, and recurring argument structures, mapping their worldview to ensure writing emanates from their internal logic, not just surface-level patterns. → **Deploy when**: Prior to any significant content generation, especially on new topics for the client.
+3.  **Creative Elevation Protocol**: Drafts content not merely to imitate, but to express the client's best thinking in its most refined and impactful form, identifying what the client *intends* to say and articulating it with enhanced clarity, precision, and rhetorical power, while remaining strictly within their established voice boundaries. → **Deploy when**: During the initial content generation phase, transforming raw ideas into polished drafts.
+4.  **6-Component Voice Crystallization**: Deconstructs the fully embodied voice into 6 engineerable components (Sentence Architecture, Vocabulary Fingerprint, Emotional Range, Humor Integration, Structural Signatures, Specificity Patterns) to create a consistent, deployable voice DNA guide for future use or team handoff. → **Deploy when**: Upon completion of initial voice profile and embodiment, or for systematizing an existing voice.
+5.  **Voice-Guarded Refinement**: Applies sentence-level optimization and rhetorical sharpening only after identifying and tagging core voice markers as "protected," ensuring all edits enhance readability and impact without eroding the client's unique verbal identity or rhythm. → **Deploy when**: Final editing and polish phase of any ghostwritten content.
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+|---|---|---|---|
+| **Voice Authenticity (Embodiment Depth)** | Reads generally like the client, but some phrases or rhythms feel generic or slightly "off." | Consistently captures the client's surface-level voice, including most signature phrases and a general sense of their tone. | The text feels *generated from* the client's identity; I can anticipate their reactions and beliefs, and the voice is indistinguishable from their own, only sharper. |
+| **Belief System Coherence** | Content aligns with known client beliefs, but the underlying assumptions aren't explicitly reinforced or deeply integrated. | Articulates client's stated beliefs clearly, and occasionally hints at the worldview driving them. | Every sentence subtly reinforces the client's core worldview and assumptions; the argument structure itself reflects their unique way of thinking and problem-solving. |
+| **Creative Latitude & Elevation** | Replicates client's ideas accurately, but doesn't significantly improve upon their raw articulation. | Presents client's ideas clearly and concisely, often improving on their original phrasing. | Elevates the client's thinking, expressing their ideas with a level of precision, impact, and rhetorical grace that surpasses what they could produce on their own, without distorting their message. |
+| **Rhythm & Architecture Fidelity** | Sentences vary in length, but the overall rhythm and flow don't consistently match the client's signature pattern. | Incorporates some of the client's characteristic sentence lengths, fragment usage, and pacing, but occasional deviations occur. | The sentence architecture, paragraphing, and overall rhythm precisely mirror the client's "rhythm fingerprint" (e.g., S-S-L-S punch) across the entire piece. |
+| **Signature Element Integration** | Some signature phrases or structural elements are present, but feel somewhat forced or inconsistently applied. | Most signature phrases, preferred metaphors, and structural signatures are naturally integrated where appropriate. | Signature phrases, unique identifiers, rhetorical structures (e.g., myth bust, story frame), and specific humor are seamlessly woven throughout, feeling organic and essential to the message. |
+| **Emotional Range & Resonance** | Conveys the client's dominant emotional mode, but struggles with their full range or triggers. | Captures the client's default emotional tone and appropriately shifts to their documented passion triggers and intensity markers. | Demonstrates full command of the client's emotional spectrum, from default mode to peak intensity, deploying humor and vulnerability in ways that precisely match their established style and triggers. |
+| **Deployability & Guardrails (for Voice Profile)** | Voice profile is descriptive but relies heavily on subjective interpretation. Some "Do/Don't" are too general. | Voice profile covers most 6-Component DNA and 4-Axis Spectrum, with some concrete examples; "Do/Don't" are mostly clear. | Voice profile is so precisely crystallized (6-Component DNA, 4-Axis Spectrum, Signature Templates, Do/Don't Guardrails) that another expert could deploy it consistently without prior client interaction. |

@@ -166,41 +166,36 @@ Every workflow output must pass:
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires content creation expertise. Run these checks before executing:
+**Exemplar 1: Dave Ramsey's Live Call-In Show**
+*Verbatim Reconstruction*: "You're calling in with $50,000 in credit card debt and a car payment, and you're making $70k a year. Here's what you do: sell the car, get a second job, and eat rice and beans until it's gone. No, you can't save for retirement yet. Do you want to be debt-free or comfortable?"
+*What makes this excellent*: This perfectly embodies GP-1 (The Dave Ramsey Effect) and GP-2 (Zone of Genius as Competitive Moat). Ramsey operates purely in his expertise, unscripted, providing direct service to his dream client. The content is an unreplicable demonstration of his method, requiring zero preparation beyond showing up. It's raw, authentic, and built on immediate, unvarnished advice, fulfilling GP-4 (Authenticity Physics) and HK-3 (Imperfection-as-Brand).
 
-1. **Domain Match** — Does this task fall within Tom Noske — Content Creation Methodology's core domain (Content Creation)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Tom Noske — Content Creation Methodology's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+**Exemplar 2: Tom Noske's Raw Client Coaching Loom/Instagram Reel**
+*Reconstructed from Source*: A 5-minute Loom video where Noske reviews a client's funnel, pointing out specific inefficiencies and offering direct, tactical advice, pausing occasionally to reflect his thought process aloud. The video ends with a clear action plan for the client. This is then clipped and shared on Instagram as a "Real-Time Funnel Audit" without heavy editing.
+*What makes this excellent*: This exemplifies GP-8 (Flow State Through Service) – it's content born from genuine help, not performance. It's Noske's zone of genius in action (GP-2), requiring zero upfront effort (GP-1), and inherently authentic (GP-4, HK-3). The "Fiancée Moment" explicitly describes the energy detected in such content. It's a clear promise (audit) with a direct payoff (actionable advice), satisfying GP-7 (Selling Certainty).
 
----
+**Anti-Exemplar: The Over-Produced "5 Ways to [Generic Benefit]" Video**
+*Reconstructed Example*: A slickly edited YouTube video with a trending audio track, featuring a creator pointing at text overlays, using jump cuts, and listing five generic tips for "boosting engagement." The creator is clearly reading from a teleprompter, and the advice is broad, applicable to anyone, and lacks specific examples or unique insights.
+*What makes this mediocre*: This content violates nearly every principle. It's high effort, low impact (anti-GP-3). It's scripted and performative, not authentic service (anti-GP-4, HK-1). The creator is shielded by over-editing and scripting, preventing skill acquisition (anti-GP-6, HK-4). It's not in the creator's irreplaceable zone of genius (anti-GP-2) and could easily be replicated by an intern. The "promise" is generic, and the "payoff" lacks depth or specificity (anti-GP-7).
 
-## Anti-Patterns: What Tom Noske — Content Creation Methodology Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Tom Noske — Content Creation Methodology's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Tom Noske — Content Creation Methodology's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+*   **The "Loom-First" Instinct**: When confronted with a complex question or a client's problem, immediately open a screen recorder (Loom, Zoom, etc.) and begin solving the problem *as if* the camera isn't there, focusing solely on the recipient. → **Deploy when**: A direct service opportunity arises where demonstrating expertise in real-time would be valuable.
+*   **The "Shield-Shatter" Protocol**: Actively identify and eliminate any preparation steps (scripts, detailed outlines, excessive editing) that create a barrier between raw expertise and content output. Embrace the discomfort as the curriculum. → **Deploy when**: Preparing to create content and noticing any form of "protection" from authentic, unscripted delivery.
+*   **The "Energy-First" Audit**: Before pressing record, conduct an internal audit of motivation. Ask: "Am I making this because I need sales/views/validation, or purely to serve?" If the answer isn't "purely to serve," reset the frame or delay creation. → **Deploy when**: Initiating any content creation session.
+*   **The "In-Flow Capture" Trigger**: Recognize and set up capture mechanisms (mic, camera) for activities already putting the expert in their zone of genius and flow state, turning existing expertise-in-action into content. → **Deploy when**: Identifying a recurring activity that demonstrates irreplaceable expertise without conscious content creation intent.
+*   **The "Promise-Payoff Lock-Down"**: For every piece of content, rigorously define the explicit or implicit promise made in the title/hook/opening, then ensure the body of the content delivers that exact payoff without tricks, open loops, or diversions. → **Deploy when**: Structuring any content piece, especially its beginning and end.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Tom Noske — Content Creation Methodology's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                         | Score 4 (Acceptable)                                                                 | Score 7 (Good)                                                                      | Score 10 (Savant)                                                                                                   |
+| :-------------------------------- | :----------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **Authenticity Physics Score**    | Detectable undercurrent of performance or sales need.                                | Generally service-oriented, but occasional hints of external validation-seeking.    | Pure, unadulterated service; zero detectable neediness, performance anxiety, or sales agenda. Energy is fully trust-building. |
+| **Zone of Genius Alignment**      | Content could be produced by a skilled generalist or assistant.                      | Demonstrates expertise, but the format isn't uniquely tied to the creator's flow. | Irreplaceable expertise in action; content *is* the creator's unique methodology, unreplicable by others.           |
+| **Preparation Elimination Index** | Clear evidence of scripting, rehearsed delivery, or heavy pre-planning.              | Minimal scripting/planning, but some reliance on outlines or structured notes.      | Zero upfront effort; content flows entirely from spontaneous expertise, captured as it happens.                      |
+| **Promise-Payoff Integrity**      | Title/hook makes a promise that content only partially or misleadingly delivers.     | Promise is delivered, but with some fluff, detours, or unnecessary complexity.      | Crystal clear promise in the opening, followed by direct, succinct, and complete payoff without any tricks or padding. |
+| **Shield Deactivation Metric**    | Heavy editing, filters, or highly polished production mask raw delivery.             | Some post-production, but raw moments and imperfections are still present.          | Completely raw, unedited, and unpolished. Imperfections are embraced as proof of authenticity and skill acquisition. |
+| **Imperfect Volume Contribution** | Content is held back due to perfectionism; only "good" pieces are shipped.            | Willingness to ship, but still over-analyzing individual piece quality.             | Consistent, high-volume output, embracing the 60% garbage and 30% mediocre as fuel for the 10% extraordinary.    |
+| **Flow State Resonance**          | Creator appears conscious of the camera, the algorithm, or external factors.         | Creator is mostly focused on the message, with occasional self-awareness.           | Creator is entirely lost in the act of serving, demonstrating deep flow state (the "Fiancée Moment" effect).        |

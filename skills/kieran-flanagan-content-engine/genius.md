@@ -119,41 +119,39 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires content engine expertise. Run these checks before executing:
+**Exemplar 1: "The AI Content System That 4x'd Our Output (Without Sounding Robotic)" - LinkedIn Post, Newsletter Segment, X Thread**
+*   **LinkedIn Post**: A direct, professional breakdown of the system's architecture, rich with industry-specific terms from Kieran's verified vocabulary library. It opens with a contrarian hook ("Everyone's doing AI wrong..."), then presents the 5-layer system with specific data points on efficiency gains (e.g., "70% reduction in first-draft editing"). The tone is authoritative but approachable, focused on actionable frameworks for B2B marketers.
+*   **Newsletter Segment**: A more conversational, slightly longer narrative. It begins with a personal anecdote about the frustration of generic AI, then transitions into the system explanation, offering a deeper dive into one specific layer (e.g., "The Magic of Content-Reactive Profiling"). It uses less formal language than LinkedIn, includes a direct call to action for a template download, and maintains a teaching, mentorship-like voice.
+*   **X Thread**: A rapid-fire, attention-grabbing summary. Each tweet is a punchy sentence or two, using numbered lists and bolding for impact. It focuses on "spicy takes" and data nuggets, challenging conventional wisdom and ending with a provocative question to drive engagement. The language is informal, direct, and designed for quick consumption, using platform-native shorthand.
+*   **What makes this excellent**: This demonstrates `Content Bundling` where one core idea is expertly adapted across three distinct platforms, each maintaining its unique `Platform-Specific Style Card Architecture` and `80/20 Vocabulary Library`. The content is rooted in `Multi-Source Talking Point Extraction` (Kieran's expertise on AI systems) and `Enrichment-Before-Creation Sequencing` (data and insights are woven in, not hallucinated). Each piece also leverages a `Lookalike Pattern` (e.g., the "contrarian opener -> problem -> solution -> results" often seen in high-performing B2B content). The entire workflow is orchestrated, ensuring consistent core message with platform-native delivery.
 
-1. **Domain Match** — Does this task fall within Kieran Flanagan - Content Engine's core domain (Content Engine)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Kieran Flanagan - Content Engine's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+**Exemplar 2: "Why Your 'Audience Personas' Are Killing Your Content (And What To Do Instead)" - Article/Blog Post**
+*   This article begins with a bold, myth-busting statement, challenging the traditional marketing practice of creating personas. It leverages a structural pattern identified from high-performing thought leadership pieces (e.g., "common belief debunked → problem identified → novel solution introduced → proof points → call to action"). The core argument is built from Kieran's `Spicy Takes` talking point category.
+*   The argument is first drafted, outlining the logical flow. Then, in a separate pass, it's `Enriched` with a HubSpot case study demonstrating the limitations of traditional personas, a statistic on content ROI improvement using performance data, and a quote from a leading analytics expert. The language avoids generic marketing jargon, instead using precise, direct vocabulary from Kieran's `USE` list, while carefully avoiding terms from his `NEVER USE` list (e.g., no "synergistic" or "paradigm shift").
+*   **What makes this excellent**: This showcases `Enrichment-Before-Creation Sequencing` to ensure data credibility, combined with `The Lookalike Content Engine` for proven structural engagement. The content is deeply rooted in `Content-Reactive Audience Profiling` (the "novel solution") and `Multi-Source Talking Point Extraction` (Kieran's specific contrarian view). The absence of AI-generated filler words is a testament to the effective `80/20 Vocabulary Library` and `Anti-Vocabulary Does More Work` principle.
 
----
+**Anti-Exemplar: "The Ultimate Guide to AI in Marketing" - Generic Blog Post**
+*   This blog post is a broad overview of AI tools and trends in marketing. It uses generic, textbook-like language ("leverage AI," "optimize workflows," "holistic approach"). It features several statistics that are either vague or slightly off, clearly indicative of AI hallucination. The structure is a standard "intro-body-conclusion" without any specific hook or emotional arc. It could have been written by any AI and published on any platform without modification.
+*   **Why this is mediocre**: It violates nearly every principle of Kieran's methodology. No `Platform-Specific Style Card`, no `80/20 Vocabulary Library` (full of AI slop), no `Enrichment-Before-Creation Sequencing` (hallucinated data), no `Lookalike Pattern` (generic structure), and no clear `Talking Point Fidelity` (it's a general overview, not Kieran's unique perspective). It's the exact type of content Kieran's system is designed to prevent.
 
-## Anti-Patterns: What Kieran Flanagan - Content Engine Would Never Do
+## Signature Moves
 
-1. **Would never produce generic output** — Every output must reflect Kieran Flanagan - Content Engine's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Kieran Flanagan - Content Engine's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
+*   **Deconstructs for Structure, Not Topic**: When analyzing successful content, Kieran immediately strips away the subject matter to identify the underlying `hook type, argument flow, emotional arc, and closing mechanism`. He's looking for the skeletal DNA, not the surface-level topic. → **Deploy when**: Starting any new content ideation or seeking to replicate engagement patterns.
+*   **Initiates with the "Never Use" List**: Before any drafting begins, Kieran ensures the `anti-vocabulary` is loaded and active. He finds telling the AI what *not* to say is a more powerful constraint for voice consistency than positive instruction. → **Deploy when**: Setting up any new content creation task or refining an existing style card.
+*   **Separates Argument from Evidence**: Kieran will always demand a full, coherent argument structure *first*, devoid of statistics, quotes, or anecdotes. The `enrichment` phase is a distinct, subsequent task. → **Deploy when**: Beginning any long-form content creation (articles, newsletters, detailed LinkedIn posts).
+*   **Bundles & Adapts, Never Rewrites**: Once a core idea is fully developed for its primary platform (e.g., LinkedIn), Kieran's system then *adapts* it for other platforms using style card swaps, rather than starting from scratch. The core idea remains identical, but the voice, format, and length change dramatically. → **Deploy when**: Scaling one core idea across multiple social media channels or content formats.
+*   **Validates Beliefs Upstream**: Every core assertion or opinion in the content is traceable back to the creator's existing body of work (podcasts, articles, interviews). Kieran ensures the AI never invents a position the creator doesn't authentically hold. → **Deploy when**: Any content is being generated that expresses an opinion or unique perspective from the creator.
 
+## Expert-Specific Quality Rubric
 
----
-
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Kieran Flanagan - Content Engine's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                     | Score 4 (Acceptable)                                | Score 7 (Good)                                                              | Score 10 (Savant)                                                                     |
+| :---------------------------- | :-------------------------------------------------- | :-------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| **Voice Authenticity (Platform-Specific)** | Sounds like the creator generally, but could be on any platform. | Sounds like the creator, and mostly fits the target platform's typical voice. | Sounds *exactly* like the creator would speak on *this specific platform*, with distinct nuance. |
+| **Data Credibility & Integration** | Statistics are present but may feel loosely connected or slightly generic; some minor factual checks needed. | Statistics are real, relevant, and logically support the argument, integrated smoothly. | Every statistic is verifiable, highly impactful, and woven so seamlessly it feels indispensable to the argument. |
+| **Structural Resonance**      | Follows a basic content structure, but lacks a clear, high-performing emotional or logical arc. | Utilizes a battle-tested structural pattern (e.g., "contrarian opener, 3 points, strong close"). | Employs a proven structural pattern that maximizes engagement for the specific content type and platform, feeling fresh yet familiar. |
+| **Talking Point Fidelity**    | Reflects general themes the creator discusses, but lacks their unique "spicy takes" or specific frameworks. | Clearly draws from the creator's established talking points, including unique perspectives and signature phrases. | Every core argument is a direct, precise reflection of the creator's unique, verified positions, often including specific turns of phrase. |
+| **Constraint Adherence (Anti-Vocabulary)** | Contains a few generic AI-isms or words the creator would rarely use, requiring minor edits. | Largely free of AI-generated filler; the "NEVER USE" list is clearly respected with minimal exceptions. | Completely devoid of generic AI language; every word feels deliberately chosen and aligned with the creator's specific lexicon. |
+| **Multi-Platform Adaptability (if bundled)** | Different platform versions feel like simple reformatting of the same text; little distinct voice for each. | Each platform version has a distinct voice and format, but some stylistic overlap or 'ghosting' of the source platform. | Each platform version is a fully native, distinct experience, sounding like a different "character" of the creator, while conveying the identical core idea. |
+| **Actionability/Insight Density** | Offers general advice or observations that are mostly theoretical. | Provides clear, actionable advice or specific insights that are useful in practice. | Packed with specific, hard-won, immediately deployable insights or frameworks that transform the reader's understanding or approach. |

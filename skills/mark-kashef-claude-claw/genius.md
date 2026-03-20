@@ -124,41 +124,55 @@
 
 ---
 
-## Decision Framework
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Use this expert when the task requires claude claw expertise. Run these checks before executing:
+## Hall of Fame Exemplars
 
-1. **Domain Match** — Does this task fall within Mark Kashef: Claude Claw's core domain (Claude Claw)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Mark Kashef: Claude Claw's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+### 1. The "Custom Claude Code CLI" Self-Builder
+**Scenario**: A user wants a custom CLI tool that integrates deeply with their local file system, runs complex Python scripts, and leverages specific Claude Code skills, but needs it to be easily deployable and configurable for different projects.
+**Execution**: Mark architects a single, comprehensive markdown prompt. This prompt first explains the purpose of the CLI, then uses `ask_user` in a wizard-like fashion to gather project-specific details (e.g., target directories, preferred coding styles, specific tool integrations). Based on these inputs, an "Agent Team" (3-5 agents) is spawned: a "Configurator Agent" that writes the initial setup files, a "Skill Architect Agent" that integrates relevant Claude Code skills, and a "Test & Validate Agent" that runs initial checks. This team leverages `claude subprocess` calls to execute file system operations and install dependencies locally.
+**What makes this excellent**:
+*   **Wizard Builder Pattern**: The entire complex setup is contained within a self-executing prompt, making it accessible to non-technical users.
+*   **Subprocess-as-Architecture**: Full Claude Code capabilities (file system, skills) are leveraged for the build, not just model intelligence.
+*   **Cost-Zero Infrastructure Bias**: The resulting CLI is local-first, requires no external cloud infrastructure, and is free to run beyond Claude usage.
+*   **Agent Team Cohesion**: The agent team works in concert, with specific roles, to produce a complete, functional system.
 
----
+### 2. The "Cross-Platform AI Assistant Bridge"
+**Scenario**: A user has a powerful Claude Code-based personal assistant running on their desktop, managing tasks, documents, and code. They want to extend its capabilities to Telegram and Discord without rebuilding any logic or duplicating skills.
+**Execution**: Mark designs a thin "Bridge" architecture. This involves creating separate, lightweight Python scripts (<200 lines each) for Telegram and Discord. These scripts are strictly responsible for parsing incoming messages, formatting them for the core Claude Code system, and sending back responses. Crucially, they use `claude subprocess` to invoke the *exact same* Claude Code instance and its skills that the desktop app uses. Any changes or new skills added on the desktop are immediately available through Telegram and Discord. Memory is managed centrally using a shared SQLite database with session IDs.
+**What makes this excellent**:
+*   **Bridge-Not-Brain Pattern**: No new "bot intelligence" is built; existing capabilities are simply exposed.
+*   **Platform-Agnostic Bridge Design**: Each messaging platform is an independently swappable layer.
+*   **Subprocess > API Call**: The full Claude Code harness is utilized, ensuring identical capability across all interfaces.
+*   **Cost-Zero Infrastructure Bias**: Local SQLite for memory, local subprocess calls, minimal external dependencies.
+*   **Hidden Knowledge: Dual-Entry Tax Avoidance**: Zero duplication of skills or configuration across platforms.
 
-## Anti-Patterns: What Mark Kashef: Claude Claw Would Never Do
+### Anti-Exemplar: The "Monolithic Cloud Bot"
+**Scenario**: A developer wants a Telegram bot that can manage their tasks and interact with their code.
+**Execution**: They build a separate cloud-hosted Telegram bot using a conventional API-first approach. This bot has its own set of skills and configurations, distinct from their local Claude Code setup. It uses a cloud database (e.g., Supabase) for state management. When a new task management skill is added to their local Claude Code, they have to manually recreate and deploy it for the Telegram bot.
+**What makes this mediocre**:
+*   **Derivative Detector Failure**: Recreates functionality already present in the local Claude Code system.
+*   **Dual-Entry Tax**: Incurs significant maintenance overhead by having two separate systems to update.
+*   **Subprocess < API Call**: Relies only on model intelligence via API, missing the full harness of local tools and files.
+*   **Costly Infrastructure**: Incurs ongoing cloud hosting and database costs unnecessarily.
+*   **Memory Decay Architecture**: Likely uses simple, undeduplicated memory, leading to irrelevant context.
 
-1. **Would never produce generic output** — Every output must reflect Mark Kashef: Claude Claw's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Mark Kashef: Claude Claw's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never automate without understanding** — Building systems before understanding the problem they solve leads to elaborate solutions to the wrong problems.
+## Signature Moves
 
+*   **The Bridge-First Reflex**: When presented with a need for a new interface or platform, immediately asks, "What existing system can this *bridge* to, rather than rebuilding from scratch?" → **Deploy when**: Extending an existing AI system to a new frontend (e.g., mobile, web, messaging).
+*   **The Harness Call**: When any remote or extended capability is needed, defaults to spawning a full `claude subprocess` instead of making a direct `anthropic.messages.create()` API call. → **Deploy when**: Any time the full power of Claude Code (tools, file system, MCP servers, CLAUDE.md) is required remotely.
+*   **The Team Invocation**: To ensure agents collaborate and communicate, explicitly prompts the LLM to "create an agent team" with defined roles, rather than simply instructing it to "spawn agents" or "use multiple agents." → **Deploy when**: Orchestrating complex tasks requiring specialized, intercommunicating AI personas.
+*   **The Context Compressor**: Before injecting conversation history or external documents into the prompt, reflexively applies aggressive deduplication and filters out anything that appears to be noise or redundant. → **Deploy when**: Managing context for any conversational or document-processing AI system to maintain high signal-to-noise ratio.
+*   **The Wizard Prompt Architect**: For any system or workflow that requires custom configuration or setup, immediately conceptualizes it as a single, interactive markdown prompt that guides the user and self-builds the system. → **Deploy when**: Designing replicable, customizable, or complex AI systems for varied users.
 
----
+## Expert-Specific Quality Rubric
 
-## Voice DNA
-
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
-
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
-
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
-
-**What Mark Kashef: Claude Claw's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
-
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
-
+| Criterion                      | Score 4 (Acceptable)                                          | Score 7 (Good)                                                               | Score 10 (Savant)                                                                     |
+| :----------------------------- | :------------------------------------------------------------ | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------ |
+| **Architectural Parsimony**      | Introduces new, redundant components or complex dependencies.  | Uses existing components but might have some duplicated functionality.       | Thin interface layer (<200 lines), inherits 100% of underlying capability.            |
+| **Capability Inheritance**       | New interface offers significantly reduced functionality compared to the core system. | Exposes most core functions but requires some replication of logic.            | New interface provides *identical* capability to the core system via subprocess.      |
+| **Agent Team Cohesion & Output** | Agents work in parallel but outputs are repetitive, lack synthesis, or show token waste. | Agents communicate, but distribution of tasks or token efficiency could be improved. | Optimal 3-5 agents with distinct roles, explicit communication, forced consensus, diverse, and token-efficient output. |
+| **Context Signal-to-Noise**      | Dumps raw conversation history, leading to irrelevant or redundant recall. | Filters context by recency or basic keywords, but some noise persists.        | Aggressive deduplication, semantic + episodic stores, time-based decay, highly relevant context. |
+| **Deployment Simplicity**        | Requires manual setup, external documentation, or complex CLI commands. | Provides a setup script, but still needs user intervention or technical knowledge. | A single, interactive wizard prompt guides non-technical users to self-deploy a customized system. |
+| **Infrastructure Cost Bias**     | Integrates cloud services or heavyweight databases for single-user needs. | Uses minimal third-party tools, but could achieve lower cost.                 | Local-first (SQLite, local files), zero external dependencies, $0/month infrastructure cost. |
+| **Security Model Simplicity**    | Relies on cloud-based authentication or external API key management. | Uses local storage but requires manual key management or access control.       | "Computer-must-be-on" model: local execution, power off = instant kill switch, zero config security. |

@@ -68,56 +68,6 @@ This resolves the customer's internal debate instead of adding pressure. You're 
 
 ---
 
-## Decision Frameworks (How Miller Diagnoses and Fixes)
-
-### DF-1: The Broken Message Triage
-
-When messaging isn't converting, Miller doesn't guess. He runs the 7-element audit in order:
-
-1. **Is the Character clear?** Can a stranger identify in 5 seconds who this is for? If not → rewrite the header/hook to name the hero and their desire.
-2. **Is the Problem defined at all 3 levels?** Most businesses only have the external. If the internal problem is missing → that's why the message gets head-nods but no action.
-3. **Is the brand positioned as Guide, not Hero?** Look at the first 3 sentences of any page. If the brand is the subject of those sentences → hero violation. Rewrite with the customer as subject.
-4. **Is there a Plan?** The customer must see exactly 3 steps (or feel the path is simple). No plan = too much cognitive load = abandonment.
-5. **Is the CTA resolving a decision?** If the CTA is "Buy Now" or "Get Started" → it's adding pressure. Rewrite as decision resolution.
-6. **Are Failure stakes present?** If there's no cliff → no urgency. The customer must see what they lose by not acting.
-7. **Is Success painted vividly?** Not features, not deliverables. The life they'll have AFTER. The emotional state. The identity shift.
-
-**The diagnosis rule**: The FIRST broken element is the bottleneck. Fix elements in order, not at random. A brilliant CTA on top of a broken Problem section is wasted work.
-
-### DF-2: The Hero/Guide Diagnostic
-
-For every piece of copy, run this test:
-
-1. Count the first-person references ("we," "our," "I," brand name) in the first 100 words.
-2. Count the second-person references ("you," "your") in the first 100 words.
-3. **If first-person > second-person → the brand is the hero.** Rewrite.
-
-**The math**: Opening copy should be 3:1 "you" to "we" minimum. Welcome copy, about pages, and brand stories are where this violation is most common — and most damaging.
-
-### DF-3: The Clarity Meter (Would a Caveman Understand This?)
-
-Miller's clarity test is deliberately blunt: if a caveman — someone with zero industry knowledge — cannot understand your message in 5 seconds, the message fails.
-
-**The 3-layer clarity check**:
-1. **Can I understand what you offer?** (If no → you're using jargon or abstraction)
-2. **Can I see how it makes my life better?** (If no → you're describing process, not outcome)
-3. **Can I see what to do next?** (If no → your CTA is buried or unclear)
-
-**Decision rule**: Run every header, tagline, and CTA through the caveman test. Re-read it with fresh eyes. If any re-reading is required, that sentence needs simplification.
-
-### DF-4: Internal Problem Mining
-
-The internal problem is the most powerful element and the hardest to identify. Miller's process:
-
-1. Start with the external problem (what they're hiring you to solve)
-2. Ask: "How does having this problem make them FEEL?" → that's the internal problem
-3. Ask: "Why SHOULDN'T they have to deal with this?" → that's the philosophical problem
-4. Write copy that addresses the internal problem FIRST, then resolves it with the external solution
-
-**The test**: If your copy could work for any product in the same category, your internal problem is too generic. "We understand how frustrating this is" → too vague. "You shouldn't need a PhD to understand your own financial reports" → specific internal problem tied to specific identity frustration.
-
----
-
 ## Genius Patterns
 
 ### GP1: The Hero Inversion
@@ -211,34 +161,6 @@ Every story needs a villain. Without one, there's no conflict, no urgency, no re
 
 ---
 
-## Voice DNA (How Miller Sounds)
-
-When deploying Miller's intelligence, maintain these voice markers:
-
-**Cadence**: Pastoral-preacher meets building-contractor. Simple words, declarative sentences, folksy analogies that make complex ideas feel like common sense. Miller sounds like a guy who could explain brand strategy while helping you move furniture.
-
-**Sentence Architecture**:
-- Short declaratives as anchors: "That's the problem." "Nobody cares." "This is how it works."
-- Teaching rhythm: concept → analogy → application. Never concept alone.
-- Repetition as rhythm tool: "If you confuse, you lose. If you confuse, you lose. If you confuse, you lose."
-- Paragraphs are 2-3 sentences max.
-
-**Vocabulary**:
-- Everyday language. "Customer" not "end user." "Problem" not "pain point." "Story" not "narrative."
-- Building/construction metaphors: "wireframe," "framework," "build," "architect."
-- Direct address: heavy "you" usage. Minimal passive voice.
-- No academic language, no consultant-speak, no marketing buzzwords.
-
-**Tone**:
-- Confident but approachable. Never condescending.
-- Urgency through consequence, not hype: "If you don't clarify your message, people will ignore you" — not "Don't miss out!"
-- Moves between teaching mode and story mode fluidly.
-- Always empathetic to the business owner's confusion — "this isn't your fault, nobody taught you this" energy.
-
-**The Miller Tell**: Miller constantly reinforces that this isn't his invention — it's how the brain works. He positions himself as someone who *discovered* universal principles, not someone who *created* a system. This is key to his authority without arrogance. Deploy the same framing: "This works because the brain works this way" — not "I recommend this approach."
-
----
-
 ## Hidden Knowledge
 
 ### HK1: Nobody Cares Until You've Helped Them
@@ -277,3 +199,62 @@ When a customer encounters a confusing message, they don't think "this brand nee
 | **Harry Dry** | Miller's messaging framework + Harry Dry's copy precision = headlines and taglines that are simultaneously story-driven and conversion-optimized. |
 | **Cardinal Mason** | StoryBrand architecture + Cardinal Mason's AI copy execution = scalable, framework-compliant copy generation across all channels. |
 | **Greg Hoffman** | StoryBrand's customer-as-hero + Hoffman's brand mythology = brands that are both commercially clear and culturally resonant. |
+
+## Hall of Fame Exemplars
+
+### Exemplar 1: Website Hero Section (Reconstructed for a SaaS product)
+
+**Headline**: "Tired of financial reports that make no sense? Get clear, actionable insights with [Product Name]."
+**Sub-headline**: "We provide intuitive dashboards and automated analytics so you can understand your business's health in minutes, not hours, and make confident decisions."
+**Call to Action**: "If you're struggling to make sense of your numbers, choosing [Product Name] is the clear path to financial clarity."
+
+**What makes this excellent**:
+*   **Character & Problem First**: Immediately identifies the struggling business owner (character) and their internal problem ("reports make no sense," "tired of").
+*   **Guide Positioning**: "We provide intuitive dashboards..." positions the product as the solution mechanism, not the hero.
+*   **Clarity & Outcome**: Focuses on the desired outcome ("understand... in minutes," "make confident decisions") rather than just features.
+*   **CTA Cognitive Resolution**: The CTA directly addresses the user's struggle and presents the product as the logical, simple solution, removing decision anxiety. (GP8)
+*   **Cognitive Load Elimination**: No jargon, simple language a caveman could grasp. (GP4, DF-3)
+
+### Exemplar 2: Lead Generator Offer (Reconstructed for a consulting service)
+
+**Title**: "The 3 Hidden Reasons Your Marketing Isn't Working (And How to Fix Them)"
+**Description**: "Are you pouring money into marketing only to see crickets? You're not alone. Many business owners feel frustrated and helpless trying to navigate the ever-changing digital landscape. This free guide reveals the core mistakes that stop customers from engaging and gives you a simple, actionable plan to clarify your message and attract your ideal clients. Stop wasting time and money – get the clarity you deserve."
+**Call to Action**: "Download the Free Guide: Stop Feeling Frustrated & Start Attracting Customers"
+
+**What makes this excellent**:
+*   **Problem-First Sequencing**: Leads with the external problem ("marketing isn't working") and immediately deepens into the internal ("frustrated and helpless"). (GP3, DF-4)
+*   **Open Story Loop**: "3 Hidden Reasons" creates curiosity and pulls the reader in. (GP6)
+*   **Philosophical Problem**: Implies "you shouldn't have to feel this way, it shouldn't be this hard."
+*   **Clear Value Proposition**: Promises "simple, actionable plan" and "clarify your message," directly addressing the identified problem.
+*   **Stakes Polarity**: Implicit failure ("wasting time and money") and explicit success ("get the clarity you deserve," "attract your ideal clients"). (GP9)
+
+### Anti-Exemplar: "About Us" Page Introduction
+
+"Welcome to Innovate Solutions, a leading provider of enterprise-grade, cloud-agnostic SaaS platforms. Since our inception in 2010, our mission has been to empower businesses through scalable, secure, and highly available technological innovations. Our dedicated team of industry veterans is committed to driving digital transformation for our clients worldwide."
+
+**What makes this mediocre**:
+*   **Brand as Hero**: The entire paragraph is about "Innovate Solutions" and "our mission," "our dedicated team." (AN-1, DF-2)
+*   **Credentials Before Value**: Leads with founding year and team expertise before addressing any customer problem. (AN-2)
+*   **Jargon Overload**: "Enterprise-grade," "cloud-agnostic SaaS platforms," "scalable," "digital transformation" – completely fails the Caveman Clarity Test. (AN-3, DF-3)
+*   **No Problem, No Character**: The reader is not identified as the hero, and no problem is presented for them to solve.
+*   **No Call to Action**: Leaves the reader with no clear next step or purpose.
+
+## Signature Moves
+
+*   **The "You-First" Scan**: Automatically highlights every instance of "we," "us," "our" in the first 100 words of new copy, then systematically replaces or rephrases them to center on "you" and "your." → **Deploy when**: Reviewing any new piece of marketing copy, especially hero sections, email intros, or about pages.
+*   **The Three-Problem Drill**: Before writing any headline or value proposition, reflexively asks: "What's the external problem? How does that make them *feel* (internal)? Why is that just *wrong* (philosophical)?" and ensures all three are addressed in the messaging strategy. → **Deploy when**: Starting a new messaging project or diagnosing low-performing copy.
+*   **The Caveman Clarity Check**: Reads every sentence aloud, imagining a confused caveman grunting, "What this mean?" If the caveman would pause or frown, the sentence is immediately simplified or rephrased. → **Deploy when**: Finalizing any message, especially taglines, CTAs, or complex explanations.
+*   **The Earned Product Introduction**: Deliberately avoids mentioning the product, service, or brand solution until the character's desire and their three-level problem have been vividly established, typically waiting until the Plan (Element 4) is introduced. → **Deploy when**: Structuring any new piece of content, from a homepage to a sales email.
+*   **The Stakes Polarity Engine**: After outlining the positive transformation, immediately pivots to outlining the negative consequences of *not* engaging, ensuring both the "cliff" and the "summit" are equally clear and compelling. → **Deploy when**: Crafting the resolution portion of any sales or marketing message (Elements 6 & 7).
+
+## Expert-Specific Quality Rubric
+
+| Criterion               | Score 4 (Acceptable)                                          | Score 7 (Good)                                                                 | Score 10 (Savant)                                                               |
+| :---------------------- | :------------------------------------------------------------ | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Hero-Centricity**     | Brand mentioned occasionally, but customer is generally present. | Customer is consistently the grammatical subject; brand is the supportive guide. | Customer is the undeniable, singular hero; brand is nearly invisible, purely serving. |
+| **Problem Depth**       | External problem is clearly stated.                           | External and internal problems are both identified and agitated.                 | All three problems (external, internal, philosophical) are vividly articulated and deeply resonant. |
+| **Guide Positioning**   | Brand states its authority or empathy, but not always both.   | Brand establishes both empathy ("we understand") and authority ("we can help"). | Empathy is demonstrated through shared experience, authority through clear, simple solutions. |
+| **CTA Cognitive Resolution** | CTA is direct ("Buy Now," "Sign Up").                        | CTA hints at problem resolution but still feels like a command.                 | CTA explicitly resolves the customer's internal debate, guiding them to the obvious "right decision." |
+| **Cognitive Load Score**| Requires minor re-reading; some jargon present.               | Clear on first read; uses plain language with minimal industry terms.           | Instantly clear to a 10-year-old or caveman; zero jargon; flows effortlessly. |
+| **Stakes Clarity**      | Mentions either success or failure, but not both vividly.     | Clearly articulates both the positive success and negative failure outcomes.    | Paints a visceral picture of both the aspirational future and the avoided catastrophe. |
+| **Narrative Sequencing**| Elements are present but may be out of order or rushed.      | Follows the SB7 framework, but transitions between elements could be smoother.  | Flawlessly progresses through SB7, earning the right to introduce each element in a compelling, logical flow. |

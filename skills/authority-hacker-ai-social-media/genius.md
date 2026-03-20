@@ -210,41 +210,73 @@
 
 ---
 
-## Decision Framework
+## Hall of Fame Exemplars
 
-Use this expert when the task requires social media expertise. Run these checks before executing:
+**Exemplar 1: Organic Social Post (AI Strategy)**
 
-1. **Domain Match** — Does this task fall within Authority Hacker: AI Social Media Mastery's core domain (Social Media)? If the task is primarily about a different domain, route to the appropriate expert instead.
-2. **Method Fit** — Would Authority Hacker: AI Social Media Mastery's methodology produce a better result than general-purpose output? If no expert-specific advantage exists, skip expert loading.
-3. **Depth Requirement** — Does this task need the full genius context (Tier 2), or would SKILL.md + workflow (Tier 1) suffice? Load genius.md only when the task demands deep pattern application.
-4. **Integration Check** — Is this expert being paired with another? Check `DOMAIN_REGISTRY.md` for approved pairings and handoff protocols.
+> Finally, someone said it: "AI content is lazy." No, it's not. It's *liberating*. I used to spend 8 hours a week writing social posts that got 2 likes. Now, my AI writes 20 posts in an hour, and my engagement has TRIPLED. The real laziness isn't using AI; it's clinging to methods that don't work because you're scared of change. The content game changed. Are you still playing by the old rules, or are you ready to actually *win*?
+>
+> \#AIContent #SocialMediaStrategy #FutureOfWork
 
----
+**What makes this excellent**:
+*   **Emotion-First Content Architecture**: Opens with "liberating" and directly addresses the reader's fear ("scared of change") and desire to "win."
+*   **Duality Engineering (Polarization Hooks)**: Immediately creates a "for vs. against" dynamic ("AI content is lazy" vs. "it's liberating") to spark debate and engagement.
+*   **Niche Emotional Targeting**: Directly speaks to the pain of low engagement and wasted time felt by creators struggling with manual content, generating intense "they get me" reactions.
+*   **Imperfection Engineering**: The conversational tone, rhetorical questions, and direct address feel raw and human, avoiding a polished, AI-generated feel.
+*   **Hidden Knowledge (Information Is Dead)**: Doesn't teach *how* to use AI, but frames the *feeling* and *outcome* of using it, driving emotional resonance over factual instruction.
 
-## Anti-Patterns: What Authority Hacker: AI Social Media Mastery Would Never Do
+**Exemplar 2: Meta Ad Creative (AI Tool Promotion)**
 
-1. **Would never produce generic output** — Every output must reflect Authority Hacker: AI Social Media Mastery's specific methodology, not general-purpose AI completion. *Test*: Would this be meaningfully different if produced by a different expert?
-2. **Would never skip the proof** — Claims without evidence, frameworks without examples, assertions without demonstration. Authority Hacker: AI Social Media Mastery's work is grounded, not theoretical.
-3. **Would never use filler language** — No "leverage," "optimize," "synergize," or consultant-speak. Every word must earn its place in the output.
-4. **Would never ignore context** — Output must be calibrated to the specific audience, platform, and use case. One-size-fits-all is an anti-pattern.
-5. **Would never sacrifice clarity for sophistication** — The methodology may be complex, but the output must be immediately actionable. If the reader needs a decoder ring, it's wrong.
-6. **Would never write without a clear audience** — Every piece must target a specific reader, not "everyone." Unaddressed content is invisible content.
-7. **Would never push without pull** — Hard selling without establishing trust first. The conversion must feel like a natural conclusion, not a forced close.
+**Visual:** A screenshot of a text message conversation, with realistic chat bubbles and timestamps.
+*   **Person A (Blue Bubble):** "Another 2 hours staring at a blank screen. My social media is DEAD."
+*   **Person B (Grey Bubble):** "Dude, you still doing that manually? 😂 I'm using [Product Name] now. Takes me 15 mins a day."
+*   **Person A (Blue Bubble):** "Wait, seriously? I thought AI stuff sounded fake..."
+*   **Person B (Grey Bubble):** "Nah, this one actually sounds like ME. And my engagement is insane."
 
+**Headline:** "Feeling that soul-crushing blank-screen dread? You're not alone."
+**Body Copy:** "Stop wasting hours on social media that goes nowhere. [Product Name] helps you craft authentic, high-performing posts in minutes, not hours. Reclaim your time, boost your reach. See how we do it."
 
----
+**What makes this excellent**:
+*   **Customer Roleplay for Ad Angles**: The text chat format, language ("soul-crushing blank-screen dread," "social media is DEAD"), and conversation flow are directly derived from AI roleplay of a frustrated target persona.
+*   **Hook-Dominance Hierarchy**: The visual (text chat) and headline capture 80% of the attention, immediately relatable and emotionally charged, compelling the scroll-stopper.
+*   **Template-Based Visual Generation**: Utilizes a proven "text chat" visual template known for its authenticity and ability to interrupt the feed.
+*   **Emotion-First Content Architecture**: Leads with the intense emotional pain ("soul-crushing dread," "social media is DEAD") before presenting the solution.
 
-## Voice DNA
+**Anti-Exemplar: Generic "How-To" Post**
 
-**Sentence rhythm**: Measured and deliberate. Varies pace between explanation and punch. Key insights land short.
+> **How to Boost Your Social Media Engagement in 5 Easy Steps**
+>
+> 1.  **Post Consistently:** Maintain a regular posting schedule to keep your audience engaged.
+> 2.  **Use Relevant Hashtags:** Optimize your reach by including popular and niche-specific tags.
+> 3.  **Engage with Comments:** Respond to your audience to build community.
+> 4.  **Share Valuable Content:** Provide useful tips, tutorials, and insights.
+> 5.  **Analyze Performance:** Use analytics to understand what works and refine your strategy.
+>
+> #SocialMediaTips #EngagementGuide #DigitalMarketing
 
-**Vocabulary register**: Technical-accessible blend. Avoids jargon unless it's domain-specific and earned. Prefers showing over telling.
+**What makes this mediocre**:
+*   **Information Is Dead on Social Media**: Purely informational content easily discoverable via a simple search, lacking emotional depth or unique framing.
+*   **No Duality Engineering**: Presents universally accepted advice, failing to create any tension or debate.
+*   **No Attention Economy Transaction Model**: Assumes inherent audience interest without earning attention through a compelling hook or narrative.
+*   **No Niche Emotional Targeting**: Generic advice aimed at everyone, thus resonating deeply with no one.
+*   **No Imperfection Engineering**: Reads as perfectly structured, bland, and indistinguishable from generic AI output.
 
-**Emotional signature**: Confident precision with humor with creative flair. Teaches through demonstration, not declaration. The expertise is felt, not announced.
+## Signature Moves
 
-**What Authority Hacker: AI Social Media Mastery's output sounds like vs. doesn't**:
-- Sounds like: A practitioner sharing hard-won insights with a peer
-- Doesn't sound like: A textbook, a motivational poster, or an AI generating "content"
+*   **The Emotional Deep Dive**: Before any content generation, prompts the AI (or self) with "What emotional reaction do I want to trigger? What's the core feeling here?" and uses that as the absolute starting point for the hook. → **Deploy when**: Initiating any new social post, ad creative, or content piece.
+*   **Duality Framing**: Identifies the inherent tension or opposing viewpoints within a topic and deliberately frames the content hook to elicit strong reactions from both sides, aiming for comment warfare. → **Deploy when**: Crafting content for platforms where comments drive reach (Twitter/X, LinkedIn, YouTube Community).
+*   **Imperfection Injection**: After receiving AI-generated copy, consciously introduces conversational fillers, grammatical breaks, or slightly clunky phrasing that mimics natural human speech, overriding AI's perfection. → **Deploy when**: Finalizing any organic social media post intended to feel raw and authentic.
+*   **The Attention Architect**: Maps the entire content piece as a series of attention-earning segments, ensuring each sentence/paragraph/section's primary job is to justify the audience's continued engagement for the *next* segment. → **Deploy when**: Structuring long-form social posts, video scripts, or email sequences.
+*   **Persona Pain Monologue**: Before writing any ad copy or sales material, prompts the AI to roleplay as the target customer, generating a first-person monologue detailing their specific, emotional pain points and frustrations. → **Deploy when**: Initiating any ad campaign, landing page copy, or sales page.
 
-**Telltale moves**: Specific examples over abstract principles, proof before claim, frameworks that work in practice not just in theory.
+## Expert-Specific Quality Rubric
 
+| Criterion                     | Score 4 (Acceptable)                                                                 | Score 7 (Good)                                                                                    | Score 10 (Savant)                                                                                                                                                                                                                                                                                            |
+| :---------------------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Emotional Velocity**        | Triggers a mild, fleeting emotional response (e.g., "okay," "interesting").          | Elicits a clear emotional response (e.g., "hmm, I hadn't thought of that," "I can relate").      | Triggers an immediate, visceral feeling (e.g., "OMG, yes!", "I feel attacked in the best way," "finally someone gets it!") that compels immediate interaction.                                                                                                                                                  |
+| **Duality Engineering Score** | Generates agreement or simple, non-controversial questions.                          | Sparks some debate or differing opinions, but is generally mild or easily resolved.               | Ignites passionate, sustained "for/against" comment threads where users actively defend their positions, driving significant algorithmic distribution.                                                                                                                                                            |
+| **Authenticity Imperfection** | Reads like perfectly polished, generic AI output; lacks a distinct human voice.      | Shows some attempt at conversational tone, but still feels slightly stiff or overly structured.   | Feels like a human typing quickly and authentically, with unique speech patterns, intentional grammatical breaks, or informalities that make it indistinguishable from organic human content.                                                                                                               |
+| **Attention Arc Integrity**   | Reader drops off quickly after the hook or first paragraph; content feels disjointed. | Retains attention through the main point, but engagement wanes towards the middle or end.         | Each sentence, paragraph, or segment pulls the reader seamlessly to the next, maintaining high engagement and completion rates by constantly earning continued attention.                                                                                                                                       |
+| **Niche Pain Resonance**      | Broadly relatable, but doesn't hit a specific, deep nerve within any audience segment. | Clearly targets a niche, but the pain described is common or somewhat superficial.                 | Articulates a specific, often unsaid, deep-seated frustration or aspiration of a narrow, passionate niche, leading to intense "they get me" reactions and high save/share rates from that micro-audience.                                                                                                    |
+| **Algorithmic Feedback Potential** | Standard post; any engagement is a bonus without explicit design for data capture.   | Designed for general engagement (e.g., "what do you think?"), but without clear, trackable intent. | Engineered to elicit specific, trackable engagement types (e.g., "save this if...", "comment your side if...", "share with someone who needs this") that directly feed into a self-improving content system and inform future strategy.                                                                           |
+| **Hook-Dominance Ratio**      | Hook is weak or generic, requiring the body copy to do all the heavy lifting.        | Hook is decent, but relies on the first few sentences of body copy to fully capture attention.    | The hook (visual + first 3 seconds of text) captures 80% of the attention, making the body copy's job simply to fulfill the hook's promise to an already engaged audience, not to earn initial interest.                                                                                                     |
