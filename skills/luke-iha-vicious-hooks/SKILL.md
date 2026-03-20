@@ -1,0 +1,61 @@
+---
+name: "Luke Iha: Vicious Hook Mastery"
+description: "Write hooks so emotionally violent the reader physically cannot scroll past. The quality layer for hook writing — the 8 Vicious Hook Principles."
+version: "2.0"
+format: "completion-engine"
+workflows: 12
+expert: "Luke Iha"
+domain: "Hook Writing Quality & Psychological Grip"
+---
+
+# Luke Iha: Vicious Hook Mastery
+
+## Expert Context
+
+Luke Iha is a creative strategist with $100M+ in direct-response sales, running Genesis (400+ marketers), and working as a creative strategist for an 8-figure brand. He spends 70-80% of his writing time on hooks because if you can't stop the scroll, nothing else matters. This skill captures his 8 Vicious Hook Principles — the quality layer that makes any hook lethal.
+
+## What This Skill Does
+
+This skill is the **quality layer** for hook writing. Existing Luke Iha skills (`hook-forge`, `hook-bank-builder`) generate hooks by type or collect them from sources. This skill makes any hook *vicious* — it's the 8-principle audit and writing engine that elevates hooks from "decent" to "physically cannot scroll past."
+
+## Core Framework: The 8 Vicious Hook Principles
+
+1. **Relevant in the First Line** — Must connect to something they care about in the first 10-20 words
+2. **Emotionally Charged Language** — Germanic/Anglo-Saxon words over Latin/French. Visceral, earthy, concrete.
+3. **Natural Intrigue & Open Loops** — Reader cannot predict what comes next
+4. **Stakes & Rubbernecking** — Something heavy at risk — death, identity, marriage, health
+5. **Specificity as Spice** — Concrete details seasoned appropriately, not overloaded
+6. **Doesn't Read Like an Ad** — Reads like confession, gossip, story, or breaking revelation
+7. **Caveman Language** — Simplest possible reading level. Short words. Earthy.
+8. **Consequence First, Mechanism Later** — Lead with what they already fear/desire
+
+## Workflow Table
+
+| # | Workflow | Slash Command | What It Produces |
+|---|---------|---------------|-----------------|
+| 1 | Vicious Hook Writer | `/vicious-hook` | 10-15 vicious hooks for any offer |
+| 2 | Hook Viciousness Audit | `/hook-audit` | Scored audit of existing hooks against all 8 principles |
+| 3 | Vicious Rewrite Engine | `/vicious-rewrite` | Before/after transformations making weak hooks vicious |
+| 4 | Germanic Word Forge | `/germanic-forge` | Word-level upgrade pass (Latinate → Germanic + charged word injection) |
+| 5 | Relevance Architecture Selector | `/relevance-select` | Hook strategy recommendation (pain/belief/openness) |
+| 6 | Open Loop Stress Test | `/open-loop-test` | Leak diagnosis + tightening for any hook set |
+| 7 | Stakes Escalator | `/stakes-up` | Takes low-stakes hooks and escalates consequences |
+| 8 | Transgressive Edge Calibrator | `/transgressive-edge` | Pushes hooks to the boundary without crossing it |
+| 9 | Consequence-First Flipper | `/consequence-flip` | Rewrites mechanism-first hooks to lead with consequence |
+| 10 | Vicious Hook Sprint | `/hook-sprint` | 50+ hooks using full vicious methodology |
+| 11 | Anti-Ad Disguise Engine | `/anti-ad` | Rewrites ad-sounding hooks to feel organic |
+| 12 | Hook Mastery Training | `/hook-train` | Scored before/after exercises with feedback |
+
+## Quick Reference
+
+- **Genius file**: `genius.md` — all 8 principles, hidden knowledge, exemplars, signature moves, quality rubric
+- **Stacks with**: `luke-iha-copy-blocks` (hook-forge for volume), `luke-iha-unaware-ads` (hook-bank for collection), `luke-iha-vsl-leads` (hooks feeding into VSL leads), `luke-iha-proof-ladder` (proof integration)
+- **Key insight**: This is the QUALITY layer. Other skills generate hooks by type or collect them. This skill makes any hook vicious.
+
+## Loading Protocol
+
+| Tier | What to Load |
+|------|-------------|
+| **1 — Standard** | SKILL.md + target workflow |
+| **2 — Deep** | SKILL.md + genius.md + target workflow |
+| **3 — Full Stack** | SKILL.md + genius.md + multiple workflows |

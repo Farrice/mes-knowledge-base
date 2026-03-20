@@ -99,6 +99,7 @@
 | `luke-iha-proof-mechanisms` | **Luke Iha: Proof Mechanisms in Copywriting** | proof mechanisms in copywriting | 5 | 13 |
 | `luke-iha-unaware-ads` | **Luke Iha: Unaware Ads & Awareness-Level Conversion** | unaware ads & awareness-level conversion | 7 | 0 |
 | `luke-iha-vsl-leads` | **Luke Iha: VSL Lead Mastery** | vsl lead mastery | 4 | 0 |
+| `luke-iha-vicious-hooks` | **Luke Iha: Vicious Hook Mastery** | the quality layer for hook writing — 8 vicious hook principles, hook auditing, germanic word forge, vicious hook mastery | 12 | 0 |
 | `lulu-cheng-meservey-communications` | **Lulu Cheng Meservey: Communications Strategy & Narrative Architecture** | communications strategy & narrative architecture | 3 | 14 |
 | `made-to-stick-messaging` | **Made to Stick Messaging (Dan & Chip Heath)** |  | 4 | 36 |
 | `manus-ai-consulting` | **Manus.ai: AI Consulting Mastery** | ai consulting mastery | 4 | 14 |
