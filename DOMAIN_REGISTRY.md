@@ -120,6 +120,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Dan Koe** | MULTIPASSIONATE | One-person business, "you ARE the niche", multi-interest monetization |
 | **Tommy Clark** | B2B FOUNDER | "How I" narrative pivot, founder-led LinkedIn, stealth hooks |
 | **Jasmin Alic** | LINKEDIN HOOKS | Trapdoor hooks, distributed commenting, mobile-first formatting |
+| **Omar Eltakrori** | BRAND BUSINESS | Business Blueprint, challenge launches, high-ticket coaching, framework packaging |
 
 ### Routing Logic
 
@@ -134,7 +135,11 @@ When you make a request, I route to the right expert using this registry. I will
 ├── LinkedIn lead funnels → Josh Sanders
 ├── Multiple interests → Dan Koe
 ├── B2B founder content → Tommy Clark
-└── LinkedIn hook writing → Jasmin Alic
+├── LinkedIn hook writing → Jasmin Alic
+└── Brand-to-business pipeline → Omar Eltakrori
+
+"Launch a challenge / high-ticket coaching"
+└── Omar Eltakrori
 
 "Stand out in my niche"
 └── Caleb Ralston
@@ -321,6 +326,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Darrel Wilson** | AI AUTOMATION SERVICES | Warm lead philosophy, tool-over-opinion, AI service monetization |
 | **Ross McKay** | CPG/PHYSICAL PRODUCTS | Premium at scale, retail distribution, DTC-to-mass transition |
 | **Vincent Hu** | INFO BUSINESS SCALING | Growth ecosystems, 3-yes conversion, hybrid offers, trust-first positioning, coaching/consulting business architecture |
+| **Omar Eltakrori** | CHALLENGE LAUNCHES | 5-day challenge model, web class funnels, high-ticket group coaching, personal brand monetization |
 
 ### Routing Logic
 
@@ -345,7 +351,8 @@ When you make a request, I route to the right expert using this registry. I will
 ├── Audience → Shan Hanif
 ├── Niche opportunity → Tim Danilov
 ├── Community → Sabrina Ramonov
-└── Info/coaching/consulting business → Vincent Hu
+├── Info/coaching/consulting business → Vincent Hu
+└── Challenge launch / group coaching → Omar Eltakrori
 
 "Validate my idea"
 └── Samuel Thompson → Kallaway (content fit)
@@ -688,6 +695,8 @@ Certain expert pairings produce force-multiplier results that exceed what either
 | **Joscha Bach** + **Steven Pressfield** | Consciousness + Resistance — Bach diagnoses the mechanism of the block, Pressfield mobilizes the war against it | Creative blocks that need both diagnosis AND mobilization |
 | **Vincent Hu** + **April Dunford** | Trust positioning + competitive context — Hu's trust-first ecosystem + Dunford's positioning sharpens how info businesses differentiate | Info business positioning that needs both market context and trust architecture |
 | **Vincent Hu** + **Luke Iha** | Ecosystem copy — Hu architects the growth system, Iha writes the conversion copy within it | Info business needing both system design and high-converting copy |
+| **Omar Eltakrori** + **Luke Iha** | Challenge funnel copy — Eltakrori architects the challenge model, Iha writes the ad copy + proof stacking for challenge enrollment | Running paid ads to web class/challenge funnel |
+| **Omar Eltakrori** + **Lara Acosta** | Brand-to-business pipeline — Eltakrori maps the monetization architecture (content → challenge → offer), Acosta executes LinkedIn personal brand content | Personal brand needing both platform execution and revenue architecture |
 
 > [!TIP]
 > When a task matches a compound trigger, route to **both** experts — either via council or sequential handoff. The lead expert (listed first) sets strategy; the second expert executes their specialty within that frame.

@@ -34,6 +34,7 @@
 | **Nate Herk** | AI Client Acquisition, Trojan Horse | Active | `@nate-herk` |
 | **Lara Acosta** | LinkedIn Content, B2B Personal Branding | Active | `@lara-acosta` |
 | **Josh Sanders** | LinkedIn Growth & Funnels | Active | `@josh-sanders` |
+| **Omar Eltakrori** | Personal Brand Business, Challenges, High-Ticket Coaching | Active | `@omar-eltakrori` |
 
 **Status Key:**
 - **Active** = Agent folder exists with full AGENT.md, ready to invoke
@@ -218,6 +219,14 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 - **Key Frameworks:** Pre-Validated Content Hacker, Anti-Hook Hook, Hook-Reward Gap
 - **Invoke:** `@josh-sanders` or LinkedIn growth/funnel requests
 - **Status:** Active (15 prompts)
+
+#### Omar Eltakrori
+- **Domain:** Personal Brand Business Architecture, High-Ticket Coaching, Challenge Launches
+- **Skill Path:** `skills/omar-eltakrori/`
+- **Extraction:** `extractions/omar-eltakrori/extraction-report.md`
+- **Key Frameworks:** Business Blueprint Framework, Go-To Expert Framework, Challenge Model, Five F's of Likability, Framework Creation Method
+- **Invoke:** `@omar-eltakrori` or personal brand business/challenge launch/high-ticket coaching requests
+- **Status:** Active (skill)
 
 ---
 
@@ -416,5 +425,5 @@ This registry integrates with:
 ---
 
 *Last updated: 2026-01-24*
-*Total Experts: 24 (24 active, 0 pending)*
+*Total Experts: 25 (25 active, 0 pending)*
 *Total Councils: 5*
