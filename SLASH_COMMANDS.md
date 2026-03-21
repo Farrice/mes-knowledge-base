@@ -1,10 +1,10 @@
-# 🚀 Antigravity Workflows — Complete Index (225 Commands)
+# 🚀 Antigravity Workflows — Complete Index (355 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
 ---
 
-## 📊 Research & Strategy (12)
+## 📊 Research & Strategy (16)
 | Command | What It Does |
 |---------|-------------|
 | `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
@@ -44,14 +44,16 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/roundtable` | Convene an AI expert roundtable — parallel positions, then cross-examination |
 | `/sniff-check` | Build evaluation criteria for agent output quality without domain expertise |
 | `/swarm` | Deploy an agent swarm with 10-50 experts working in orchestrated parallel |
+| `/swarm-research` | Orchestrated parallel research swarm — Manus/Kimi-style wide research with sub-agents + synthesis + quality gate |
 
 ---
 
-## ✍️ Copywriting & Ads — Luke Iha (28)
+## ✍️ Copywriting & Ads — Luke Iha (35)
 | Command | What It Does |
 |---------|-------------|
 | `/ad-script` | Write ad scripts with hook variants, body copy, and CTA |
 | `/ad-to-funnel` | Build complete funnel from ad through landing page to conversion |
+| `/ai-ad-production` | AI production pipeline + human judgment layer — creative strategist as orchestrator, not writer |
 | `/angle-swarm` | High-volume hook generation sprint producing 50+ hooks |
 | `/awareness-ladder` | Create ads tailored to each of Schwartz's 5 awareness levels |
 | `/cash-method` | Generate 20+ ad concepts from Concept × Angle × Style × Hook |
@@ -62,6 +64,8 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/full-stack-ad` | Complete campaign: mechanism → lead → ad scripts × variations |
 | `/hook-bank` | Collect and adapt hooks from organic viral content for ad creation |
 | `/hook-forge` | Generate 30+ hooks using positioning types and psychological triggers |
+| `/hook-formula-extract` | Mine your published content to extract personal hook formulas |
+| `/hook-viciousness-audit` | Score hooks against Luke Iha's 8 Vicious Hook Principles — full audit with rewrite prescriptions |
 | `/lead-reverse-engineer` | Structural analysis of existing lead with psychology annotations |
 | `/little-big-idea` | Find intersection of product uniqueness × audience desire |
 | `/mechanism-copy` | Transform mechanism into hooks, lead angles, ads, VSL outline |
@@ -72,8 +76,12 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/nuclear-vsl` | Build a portfolio-grade VSL/landing page |
 | `/portfolio-builder` | Build portfolio demonstrating competence across every Luke Iha domain |
 | `/proof-pipeline` | End-to-end ad production integrating all 3 Luke Iha skills |
+| `/testimonial-extract` | Systematic testimonial collection with ghost-written templates and follow-up cadence |
 | `/unaware-ad` | Build ads targeting audiences who don't know they have a problem |
 | `/upwork-domination` | 90-day freelance copywriting system for Upwork |
+| `/vicious-hook` | Write 10-15 vicious hooks using Luke Iha's 8 Vicious Hook Principles — scored and deploy-ready |
+| `/vicious-hook-sprint` | 50+ vicious hooks using full relevance × format matrix — volume sprint with scoring and tiering |
+| `/vicious-rewrite` | Rewrite weak hooks using systematic 8-step rewrite stack — before/after transformations |
 | `/vsl-atomize` | Decompose one VSL lead into 10+ standalone ads |
 | `/vsl-lead` | Write complete VSL lead (micro lead + body + fascinations + close) |
 | `/winning-angles` | Produce 20+ hooks using 3-vector system (Time × Behavior × Object) |
@@ -81,7 +89,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🏗️ Proof Ladder Architecture — Luke Iha (13)
+## 🏗️ Proof Ladder Architecture — Luke Iha (16)
 | Command | What It Does |
 |---------|-------------|
 | `/proof-copy-engine` | **MASTER**: End-to-end copy for ANY platform (YouTube, LinkedIn, Instagram, ads, emails, articles) with proof + story + mechanism fusion |
@@ -97,6 +105,9 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/authority-manufacturing` | Authority strategy for zero-proof situations using psychological + empirical proof |
 | `/proof-as-story` | Case study narratives, origin stories, and experiential proof written as compelling stories |
 | `/objection-proof-mapping` | Complete map of objections → doubt types → specific proof weapon antidotes |
+| `/proof-across-platforms` | Proof ladder deployed across oral/written culture modes — platform-aware proof stacking |
+| `/proof-ladder-sprint` | 30-90 day sprint through all 7 proof ladder rungs with daily action items and exit criteria |
+| `/track-record` | Ad spend track record acceleration through agency partnerships and documentation systems |
 
 ---
 
@@ -251,27 +262,210 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 📝 Content Engines (16)
+## 📺 Media Company Strategy — Grace Andrews (10)
+| Command | What It Does |
+|---------|-------------|
+| `/grace-quickstart` | 24-hour quickstart → 7-day sprint → 30-day integration — the "new brand in 30 days" onboarding command |
+| `/grace-media-diagnostic` | Diagnose content strategy gaps using media company methodology |
+| `/grace-attention-swarm` | Multi-platform attention capture strategy |
+| `/grace-content-series` | Plan serialized content arcs |
+| `/grace-city-blueprint` | Geographic content strategy blueprint |
+| `/grace-quality-gate` | Quality gate for media company content |
+| `/grace-vs-competitors` | Competitive media analysis using Grace Andrews frameworks |
+| `/grace-post-viral` | Post-viral moment monetization playbook |
+| `/grace-to-copy` | Convert Grace Andrews strategy into actionable copy |
+| `/grace-new-media` | New media landscape strategy |
+
+---
+
+## 🎯 Personal Brand & 4C Framework — Caleb Ralston (6)
+| Command | What It Does |
+|---------|-------------|
+| `/caleb-4c-intro` | Engineer a cold-audience video intro using 4C's Framework (Callout → Credibility → Compass → Core Learning) |
+| `/caleb-brand-audit` | Audit personal brand positioning using Caleb's methodology |
+| `/caleb-brand-build` | Build personal brand from scratch with Caleb Ralston's system |
+| `/caleb-content-sprint` | Content sprint using Caleb's Gift/Wrapping Paper model |
+| `/caleb-format-strategy` | Platform format strategy using Caleb's framework |
+| `/zero-to-brand` | Start a personal brand from absolute zero — credibility inventory, pond sizing, 30-day ignition |
+
+---
+
+## ⚔️ New Media Warfare — Andreessen & Horowitz (5)
+| Command | What It Does |
+|---------|-------------|
+| `/new-media-audit` | Diagnose media strategy gaps using Andreessen-Horowitz doctrine |
+| `/content-culture-map` | Map content to oral/written cultural modes — platform-culture architecture with production flow |
+| `/flood-zone` | Crisis response — bury attacks under volume of interesting content in 36-hour viral memory window |
+| `/founder-voice` | CEO/founder positioning strategy and voice development |
+| `/ooda-media` | OODA loop media warfare — observe, orient, decide, act faster than competitors |
+
+---
+
+## 👑 New Media Kingmaker (5)
+| Command | What It Does |
+|---------|-------------|
+| `/kingmaker-sprint` | Rapid new media kingmaker deployment |
+| `/narrative-warfare` | Narrative control and media warfare strategy |
+| `/platform-launch` | Launch on a new platform with authority and momentum |
+| `/new-media-content-engine` | Content engine for the new media landscape |
+| `/new-media-ghostwriting` | Ghostwriting for new media figures and founders |
+
+---
+
+## 📰 Newsletter Empire — Nicolas Cole (13)
+| Command | What It Does |
+|---------|-------------|
+| `/newsletter-flywheel` | Newsletter growth flywheel system |
+| `/newsletter-biz-model` | Design newsletter business model and revenue architecture |
+| `/newsletter-churn-diagnostic` | Diagnose and fix newsletter churn |
+| `/newsletter-growth-audit` | Audit newsletter growth strategy for gaps and opportunities |
+| `/newsletter-ideation` | Newsletter topic ideation engine |
+| `/newsletter-monetize` | Newsletter monetization strategy |
+| `/newsletter-review-cycle` | Monthly newsletter system review and optimization |
+| `/newsletter-service-pack` | Package newsletter expertise as a client service |
+| `/newsletter-social-proof` | Build newsletter social proof and credibility signals |
+| `/newsletter-to-product` | Convert newsletter into a digital product |
+| `/trend-to-newsletter` | Trending topic → audience pain → underserved opportunity → newsletter content angle |
+| `/book-never-ends` | Turn a book into endless content — the "book never ends" engine |
+| `/tangible-faucet` | Create tangible prompts as newsletter engine — the "extension of you" |
+| `/substack-launch` | Launch on Substack from scratch with positioning and growth strategy |
+
+---
+
+## 🤝 Client Acquisition — Nicolas Cole (8)
+| Command | What It Does |
+|---------|-------------|
+| `/cold-outreach-gen` | Generate personalized cold outreach with prospect research and 5x follow-up sequence |
+| `/cmo-for-a-day` | Generate a "CMO for a Day" public pitch post — authority-building + prospect outreach |
+| `/zero-to-client-sprint` | 30-day ghostwriting client acquisition sprint — removal list through first 3 paying clients |
+| `/blue-chip-client` | Land recognizable brand clients for portfolio halo effect |
+| `/solopreneur-10k-post` | SubStack post for multi-passionate entrepreneurs making first $10K |
+| `/prompt-as-product` | Create tangible prompts that extend coaching ability |
+| `/client-conversion` | CR × OU formula deployment — volume tracking, POP stack audit, daily outreach systems |
+| `/client-interview` | Multi-round interviews extracting what clients don't know they know |
+| `/free-custom-sample` | Create an AI-accelerated free custom sample for a ghostwriting prospect — voice-matched content that IS the pitch |
+| `/no-portfolio-client-landing` | Land ghostwriting clients without portfolio, testimonials, or case studies — 5 strategies |
+| `/outreach-and-follow-up-engine` | Complete outreach pipeline — Leaks/Faucets network map, cold outreach, 5x follow-up system |
+
+---
+
+## 🔤 Word Mastery — Kallaway (13)
+| Command | What It Does |
+|---------|-------------|
+| `/word-audit` | Audit content for inauthenticity signals — flag foreign/scripted phrases, prescribe voice-pocket rewrites |
+| `/word-charisma` | Inject charisma into flat writing |
+| `/word-copy` | Word-level copy optimization |
+| `/word-deploy` | Deploy expertise through the optimal vehicle — story, hot take, proof stack, vulnerability, analogy |
+| `/word-energy` | Diagnose and fix energy problems in writing |
+| `/word-expert` | Position as likable expert through word choice |
+| `/word-grip` | Transform flat content into writing that grips — tension threads, paragraph pull, insight landing |
+| `/word-opener` | Craft irresistible opening lines |
+| `/word-rhythm` | Fix rhythm and pacing at the sentence level |
+| `/word-sprint` | Complete articulation overhaul — full word mastery stack applied for maximum transformation |
+| `/word-switch` | Switch between writing modes and registers |
+| `/word-tone` | Calibrate tone for specific audiences |
+| `/word-vulnerable` | Write vulnerability without cringe |
+
+---
+
+## 🎙️ Ghostwriting & Voice (6)
+| Command | What It Does |
+|---------|-------------|
+| `/voice-audit` | Score ghostwritten content against voice fidelity markers — find and fix every voice break |
+| `/voice-calibrate` | Rapid voice capture — collapse 6-month calibration period into weeks using prediction modeling |
+| `/voice-document` | Build the foundational voice reference document for any client |
+| `/voice-handoff` | Package voice mastery into a transferable format for teams, VAs, or AI systems |
+| `/voice-niche` | Choose high-sensitivity niches where voice writing commands premium fees |
+| `/wrapping-paper-library` | Build a wrapping paper (personality/environment) library for content packaging |
+
+---
+
+## 🔊 Sound Symbolism & Naming — David Placek (3)
+| Command | What It Does |
+|---------|-------------|
+| `/placek-hooks` | Generate phonemically optimized hooks — sound-symbolism-scored opening words for any platform |
+| `/comfort-trap-content` | Audit content for invisible comfort zone signals — diagnose forgettable content and prescribe tension-zone rewrites |
+| `/name-framework` | Name a proprietary framework, method, or course using condensed Placek naming sprint with sound symbolism |
+
+---
+
+## 🧬 Consciousness & Identity — Joscha Bach (3)
+| Command | What It Does |
+|---------|-------------|
+| `/consciousness-debug` | Debug creative blocks, suffering, and internal conflicts by tracing them to their generators |
+| `/identity-engineering` | Design identities as instruments for getting things done — construction, deployment, and release protocols |
+| `/postmodernist-trap` | Audit any system for the postmodernist trap — measure narrative/capability delta, prescribe ground-truth forcing functions |
+| `/computational-phenomenology` | Decompose any concept into engineering specs using Bach's 4-step method — function, mechanism, substrate test, phase transition |
+
+---
+
+## 🎪 Creative Strategy (6)
+| Command | What It Does |
+|---------|-------------|
+| `/creative-diversity` | Meta Andromeda creative diversity system — Composition × Vibe matrix, awareness-level segmentation, fatigue rotation |
+| `/cs-launcher` | Zero-to-hired creative strategist blueprint — role clarity, skill assessment, positioning, 30-day launch |
+| `/linkedin-cs-outreach` | LinkedIn creative strategist outreach — profile optimization, Trapdoor Posts, 5-10 daily outreach |
+| `/upwork-cs` | Creative strategist Upwork mastery — DTC-focused proposals, ad-spend portfolio, certification stacking |
+| `/paid-to-feel` | Train body-sensation judgment for AI-era creative strategy — AI produces, human judges via Feeling Test |
+| `/mode-split` | Restructure creative workflow — separate workhorse speed from deep creative immersion |
+
+---
+
+## 🔄 Content Engine — Kieran Flanagan (8)
+| Command | What It Does |
+|---------|-------------|
+| `/content-audience-profile` | Build deep audience profile with psychographics, engagement patterns, and platform-specific insights |
+| `/content-bundle` | Take one finished piece and produce platform-native versions for 3-5 platforms simultaneously |
+| `/content-cluster` | Map topics into strategic clusters with authority-building sequences and gap analysis |
+| `/content-enrich` | Enrich any draft with data, statistics, quotes, and stories to increase authority |
+| `/content-feedback` | Analyze published content performance and propose specific improvements |
+| `/content-orchestrate` | Complete content production session with all Kieran Flanagan skills chained |
+| `/content-review-cycle` | Monthly content system audit — review profiles, style cards, talking points, propose improvements |
+| `/content-style-card` | Build platform-specific style card defining voice, structure, hooks, and formatting conventions |
+
+---
+
+## ✏️ Ghostwriting Client Management (7)
+| Command | What It Does |
+|---------|-------------|
+| `/memoir-architect` | Plan a thought leader's first book — Authorship Pyramid positioning + hero's journey structure |
+| `/case-study-how-i` | Convert tracked results into compelling "How I" narrative case studies |
+| `/book-atomize` | Break a memoir or book into 50+ content pieces across all platforms |
+| `/story-remix` | Deploy the same story across multiple formats without repetition fatigue |
+| `/trust-ladder` | Manage client relationship progression from trial to autonomous publishing |
+| `/hidden-gems` | Mine podcast appearances for powerful untold stories the client doesn't realize they have |
+| `/talking-points` | Generate structured talking points for any topic or appearance |
+
+---
+
+## 📝 Content Engines (25)
 | Command | What It Does |
 |---------|-------------|
 | `/authenticity-audit` | Audit content for neediness, inauthenticity, and energy misalignment |
 | `/comedy` | Deploy comedy intelligence as a writing style filter on any content |
 | `/content-sprint` | Zero to published post + lead magnet in 30 min — research, draft, writers' room, anti-slop |
+| `/content-series-plan` | Plan content series with arc, cadence, and thematic structure |
+| `/competitor-content-spy` | Systematic competitive intelligence system — database, trend scanning, opportunity mapping |
 | `/daily-flywheel` | Transform journal entries into self-exploration, research, and content |
+| `/divergent-ideation` | Three-frame divergent ideation sprint — replace single-angle brainstorming with 15+ concepts |
 | `/flywheel-ideas` | Multi-expert ideation swarm → 3-5 validated Mini-Briefs |
 | `/authority-flywheel` | Voice memo → parallel research → content angles → newsletter + LinkedIn posts (the full Authority Flywheel engine) |
 | `/ghostwrite` | Capture a coach's voice and write LinkedIn content as them |
 | `/ip-flywheel` | Interactive IP Flywheel for LinkedIn & Substack dominance |
 | `/knowledge-alchemy` | Turn expert content into reusable AI coaching prompt |
 | `/listing-content` | Viral video hooks for Instagram real estate property tours |
+| `/lookalike-content` | Find and analyze viral content to extract structural patterns for original creation |
 | `/mini-brief` | Multi-agent engine: raw concept → production-ready 7-element brief |
+| `/platform-adapt` | Adapt content deeply for any platform — genuine platform-native rewriting, not reformatting |
 | `/promise-payoff` | Structure content as a trust transaction — promise, deliver, compound |
 | `/quantity-sprint` | Volume-focused content sprint — break perfectionism through structured chaos |
 | `/serial-arc` | Plan and produce serial narrative LinkedIn content |
+| `/style-from-creator` | Clone any creator's content style by reverse-engineering voice, structure, and patterns |
 | `/voice-first-content` | Topic research → voice capture → writer's room → publish |
 | `/yt-flywheel` | Deep Engine Flywheel for long-form YouTube scripts |
 | `/writers-room` | Expert compression + structural editing — draft → publication-ready |
 | `/zone-of-genius` | Diagnose your zone of genius content format |
+| `/slop-check` | Run the AI Slop Detector as final pass — catches vocabulary kills, em-dash overuse, rhythm uniformity |
 
 ---
 
@@ -382,12 +576,14 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🏥 System Health (3)
+## 🏥 System Health (5)
 | Command | What It Does |
 |---------|-------------|
 | `/health-check` | Check which Antigravity systems are active vs dormant |
 | `/verify` | Run a universal structural integrity audit across all skills, agents, indexes, workflows, and registries |
 | `/workflows` | Browse and search all available workflows |
+| `/system-pulse` | Weekly operational intelligence dashboard — protocol health, quality trends, expert performance |
+| `/phase-transition` | Joscha Bach phase transition analysis for system or personal evolution |
 
 ---
 
@@ -483,6 +679,77 @@ You don't need to remember command names. These common phrases automatically map
 | "build an AI app" / "micro app revenue" / "calculator app" | `ai-app-revenue` |
 | "stack revenue" / "multiple income streams" / "compound income" | `revenue-stack` |
 | "recurring revenue" / "subscription model" / "monthly retainer" | `recurring-revenue` |
+| "media company strategy" / "build a media company" / "Grace Andrews" | `grace-quickstart` |
+| "content strategy diagnostic" / "why isn't my content working" | `grace-media-diagnostic` |
+| "attention strategy" / "multi-platform attention" | `grace-attention-swarm` |
+| "post went viral" / "viral moment" / "capitalize on virality" | `grace-post-viral` |
+| "4C intro" / "video intro" / "cold audience intro" / "Caleb Ralston" | `caleb-4c-intro` |
+| "build my personal brand" / "start a brand" / "brand from zero" | `zero-to-brand` |
+| "audit my brand" / "brand positioning audit" | `caleb-brand-audit` |
+| "new media strategy" / "Andreessen" / "media warfare" | `new-media-audit` |
+| "flood zone" / "crisis response" / "bury bad press" | `flood-zone` |
+| "OODA loop" / "media OODA" / "outmaneuver competitors" | `ooda-media` |
+| "founder positioning" / "CEO voice" / "founder voice" | `founder-voice` |
+| "kingmaker" / "make someone famous" / "build authority fast" | `kingmaker-sprint` |
+| "narrative control" / "control the narrative" | `narrative-warfare` |
+| "launch on a new platform" / "platform launch" | `platform-launch` |
+| "newsletter strategy" / "start a newsletter" / "newsletter flywheel" | `newsletter-flywheel` |
+| "newsletter business model" / "monetize my newsletter" | `newsletter-monetize` |
+| "newsletter is dying" / "subscribers leaving" / "newsletter churn" | `newsletter-churn-diagnostic` |
+| "launch on Substack" / "Substack strategy" | `substack-launch` |
+| "turn my book into content" / "book to content" / "atomize my book" | `book-atomize` |
+| "cold outreach" / "outreach messages" / "DM strategy" | `cold-outreach-gen` |
+| "get my first client" / "land clients" / "client sprint" | `zero-to-client-sprint` |
+| "CMO for a day" / "free consulting pitch" | `cmo-for-a-day` |
+| "land a big client" / "blue chip" / "portfolio client" | `blue-chip-client` |
+| "word mastery" / "fix my writing" / "articulation overhaul" | `word-sprint` |
+| "my writing sounds fake" / "voice audit" / "inauthenticity" | `word-audit` |
+| "make this grip" / "writing doesn't grip" / "can't stop reading" | `word-grip` |
+| "deploy my expertise" / "best vehicle for this knowledge" | `word-deploy` |
+| "opening line" / "first line" / "hook opener" | `word-opener` |
+| "writing rhythm" / "sentence pacing" / "flow problems" | `word-rhythm` |
+| "write vulnerability" / "vulnerable post" / "without cringe" | `word-vulnerable` |
+| "capture their voice" / "voice document" / "client voice" | `voice-document` |
+| "voice handoff" / "transfer voice" / "VA voice guide" | `voice-handoff` |
+| "high-value ghostwriting niche" / "voice niche" | `voice-niche` |
+| "audience profile" / "who reads my content" / "psychographic profile" | `content-audience-profile` |
+| "repurpose content" / "one piece many platforms" / "content bundle" | `content-bundle` |
+| "content clusters" / "topic mapping" / "authority clusters" | `content-cluster` |
+| "enrich this draft" / "add data" / "add statistics" / "more authority" | `content-enrich` |
+| "what's working" / "content performance" / "analyze my posts" | `content-feedback` |
+| "full content session" / "content orchestrate" / "Kieran Flanagan" | `content-orchestrate` |
+| "style card" / "content style guide" / "platform style" | `content-style-card` |
+| "sound symbolism" / "phonemic hooks" / "Placek" | `placek-hooks` |
+| "name my framework" / "name my method" / "naming sprint" | `name-framework` |
+| "comfort trap" / "forgettable content" / "playing it safe" | `comfort-trap-content` |
+| "I'm stuck" / "creative block" / "consciousness debug" / "Joscha Bach" | `consciousness-debug` |
+| "identity design" / "identity engineering" / "who should I be" | `identity-engineering` |
+| "is this real" / "narrative vs capability" / "postmodernist trap" | `postmodernist-trap` |
+| "creative strategist career" / "become a creative strategist" | `cs-launcher` |
+| "creative diversity" / "ad fatigue" / "creative rotation" | `creative-diversity` |
+| "vicious hooks" / "make hooks vicious" / "hook viciousness" | `vicious-hook` |
+| "50 hooks" / "hook sprint" / "volume hooks" | `vicious-hook-sprint` |
+| "rewrite these hooks" / "hooks are weak" / "vicious rewrite" | `vicious-rewrite` |
+| "score my hooks" / "hook audit" / "are these hooks good" | `hook-viciousness-audit` |
+| "extract my hook formulas" / "what hooks work for me" | `hook-formula-extract` |
+| "collect testimonials" / "testimonial system" | `testimonial-extract` |
+| "proof sprint" / "build proof fast" / "30-day proof" | `proof-ladder-sprint` |
+| "proof across platforms" / "platform proof" | `proof-across-platforms` |
+| "build track record" / "ad spend portfolio" | `track-record` |
+| "AI ad production" / "AI creative pipeline" | `ai-ad-production` |
+| "plan a book" / "memoir" / "thought leader book" | `memoir-architect` |
+| "case study" / "how I did it" / "results narrative" | `case-study-how-i` |
+| "same story different formats" / "story remix" | `story-remix` |
+| "untold stories" / "hidden gems" / "mine podcasts" | `hidden-gems` |
+| "client trust progression" / "trial to autonomy" | `trust-ladder` |
+| "check for AI slop" / "slop detector" / "is this sloppy" | `slop-check` |
+| "system pulse" / "weekly dashboard" / "protocol health" | `system-pulse` |
+| "content ideas" / "ideation sprint" / "divergent ideation" | `divergent-ideation` |
+| "find viral content" / "lookalike content" / "what's going viral" | `lookalike-content` |
+| "clone this style" / "reverse-engineer style" / "style from creator" | `style-from-creator` |
+| "adapt for platform" / "platform-native" / "rewrite for Instagram" | `platform-adapt` |
+| "spy on competitors" / "competitor content" | `competitor-content-spy` |
+| "content series plan" / "plan a series" | `content-series-plan` |
 
 ---
 
