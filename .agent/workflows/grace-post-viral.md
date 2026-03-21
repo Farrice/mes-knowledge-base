@@ -25,6 +25,13 @@ If the autopsy reveals audience dilution or trust damage (Response C):
 - Produce 3 Connection/Trust stage content pieces for existing audience
 - Reset psychological anchor to pre-viral baseline
 
+**Flood-Zone Integration (a16z Enhancement)**: If trust damage includes an active attack vector (someone misrepresenting, piling on, or decontextualizing):
+- Load `skills/andreessen-horowitz-new-media/references/prompts/05-flood-the-zone-crisis-protocol.md`
+- Execute the flood-zone crisis protocol: bury the attack under volume of interesting content (exploit the 36-hour viral memory window)
+- Deploy pre-built "in the can" content bank (interesting pieces unrelated to controversy)
+- Activate ally amplification network for independent supporting content
+- 48-hour assessment: has the narrative shifted? If not, escalate to full `/narrative-warfare` response
+
 ### Stage 3: City Map Recalibration
 - Feed autopsy findings back into City Map (Workflow 01)
 - Adjust passenger profiles if audience composition shifted

@@ -35,6 +35,21 @@ Read the city map or trust pathway output (from the `--input` path or generate i
 | **Trust** | Luke Iha | Proof stacking + mechanism copy | Case study copy, testimonial layouts, authority content |
 | **Conversion** | Cardinal Mason + Luke Iha | Email sequences + sales copy | Sales pages, launch emails, CTAs, VSLs |
 
+### 2.5. Load Oral/Written Culture Matrix (a16z Enhancement)
+Read `skills/andreessen-horowitz-new-media/genius.md` → Oral/Written Culture Matrix section.
+
+Tag each trust stage's copy output for cultural mode:
+
+| Trust Stage | Primary Culture Mode | Why |
+|------------|---------------------|-----|
+| **Attention** | Oral | Burst energy, hooks, interpersonal — campfire physics |
+| **Discoverability** | Hybrid (LinkedIn) | Personal story + professional authority |
+| **Connection** | Written | Depth builds connection — newsletter, long-form |
+| **Trust** | Written | Evidence, proof ladders, case studies need analytical rigor |
+| **Conversion** | Written → Direct | Email sequences, sales pages — written culture anchors the close |
+
+**Rule**: Ensure written-culture copy is produced BEFORE oral-culture extraction. Connection/Trust stage content anchors → Attention stage hooks are derived from those anchors.
+
 ### 3. Load Copy Expert Skills (per stage)
 
 For each trust stage the user specifies (or ALL if `--full`):

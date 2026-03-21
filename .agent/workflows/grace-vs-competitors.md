@@ -42,6 +42,21 @@ If parallel swarm is unavailable, deploy individual `search_web` + `read_url_con
 ### 3. Build Competitor City Maps
 Following Workflow 12, construct a simplified city map for each competitor from the swarm output.
 
+### 3.5. OODA Loop Speed Benchmarking (a16z Enhancement)
+**Load**: `skills/andreessen-horowitz-new-media/genius.md` → OODA Loop section
+
+For each competitor city map, estimate their OODA loop speed:
+
+| Competitor | Est. Decision-to-Publish (hours) | Fastest Reaction Observed | Oral/Written Mode Dominant | OODA Vulnerability |
+|-----------|--------------------------------|--------------------------|---------------------------|-------------------|
+
+- **Measurement**: How fast do they respond to industry events? (find 2-3 examples via research)
+- **Culture classification**: Tag their dominant platforms as oral/written
+- **Vulnerability**: Which stage of their OODA loop is slowest? (observation, orientation, decision, or action)
+- **Dominance ratio**: Calculate YOUR target loop ÷ THEIR loop for each competitor
+
+Add to output: Speed Asymmetry Map showing where you can out-maneuver each competitor.
+
 ### 4. Cross-Reference for White Space
 Build the White-Space Heat Map (format gaps, trust stage gaps, niche gaps) by overlaying all competitor maps.
 

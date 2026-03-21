@@ -13,6 +13,7 @@
 | `alex-copper-creative-strategy` | **Alex Copper Creative Strategy Skill** |  | 4 | 24 |
 | `algorithmic-art` | **algorithmic-art** | creating algorithmic art using p5, js with seeded randomness and interactive parameter exploration | 0 | 0 |
 | `ali-abdaal-action-bias` | **Ali Abdaal: Action Bias** | action bias | 3 | 17 |
+| `andreessen-horowitz-new-media` | **Marc Andreessen & Ben Horowitz: New Media Strategy** | new media strategy | 4 | 6 |
 | `andrew-wilkinson-ai-entrepreneurship` | **Andrew Wilkinson AI Entrepreneurship** |  | 2 | 6 |
 | `andy-lo-premium-websites` | **Andy Lo — Premium AI Website Creation** | premium ai website creation | 4 | 14 |
 | `april-dunford-positioning` | **April Dunford: B2B Positioning & Sales Pitch Architecture** | the world's most actionable system for answering 'why should customers pick us?, b2b positioning & sales pitch architecture | 7 | 13 |
@@ -23,7 +24,7 @@
 | `brand-guidelines` | **brand-guidelines** |  | 0 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** |  | 3 | 10 |
-| `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 3 | 19 |
+| `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 7 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai copywriting mastery | 5 | 45 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | built from agora's #1 newsletter promo copywriter, financial direct response copywriting | 3 | 0 |
@@ -127,6 +128,8 @@
 | `nate-herk-client-acquisition` | **Nate Herk: AI Client Acquisition** | ai client acquisition | 1 | 3 |
 | `nathan-gotch-ai-seo` | **Nathan Gotch AI SEO** |  | 5 | 28 |
 | `nba-betting-edge` | **NBA Betting Edge: Player Prop & Parlay Prediction System** | player prop & parlay prediction system | 3 | 0 |
+| `new-media-ghostwriting` | **New Media Ghostwriting** | cross-domain compound skill | 1 | 0 |
+| `new-media-kingmaker` | **New Media Kingmaker** | cross-domain compound skill | 3 | 0 |
 | `nick-saraev-agentic-workflows` | **Nick Saraev: Agentic Workflows Mastery** | agentic workflows mastery | 5 | 39 |
 | `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | bottleneck thinking | 3 | 0 |
 | `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** |  | 3 | 9 |

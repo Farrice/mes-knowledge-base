@@ -19,7 +19,7 @@
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
 | `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
-| `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | brand statement craft, buyer optimization, content authenticity & ai workflow, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
+| `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | 4c's intro architecture, brand statement craft, buyer optimization, content authenticity & ai workflow, content format strategy, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
 | `chris-cimorelli` | **chris-cimorelli** | big idea architecture, copy diagnostics, financial direct response copywriting, front-end / back-end funnel strategy, momentum copy craft, promotion architecture, proof hierarchy engineering |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
