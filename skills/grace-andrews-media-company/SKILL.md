@@ -1,15 +1,15 @@
 ---
 name: "Grace Andrews — Media Company Architecture"
-description: "Content-driven brand architecture: City Model transit strategy, trust pathway engineering, Consistency × Experimentation growth formula, revenue district design, brand voice districts, competitive analysis, episodic content engines, and media-company-first audience building."
-version: "2.0"
+description: "Content-driven brand architecture: City Model transit strategy, trust pathway engineering, Consistency × Experimentation growth formula, revenue district design, brand voice districts, competitive analysis, episodic content engines, virality diagnostics, emotional residue engineering, quality gates, audience precision, zero-to-scale playbook, and media-company-first audience building."
+version: "2.1"
 format: "completion-engine"
-workflows: 13
+workflows: 18
 ---
 
 # Grace Andrews — Media Company Architecture
 
 **Invocation**: `/deploy-skill grace-andrews-media-company`  
-**Domain**: Content Strategy Architecture • Trust Pathway Engineering • Media Company Design • Audience Growth Systems • Business Outcome Mapping • Revenue Architecture • Brand Voice Engineering • Competitive Intelligence • Episodic Content Design
+**Domain**: Content Strategy Architecture • Trust Pathway Engineering • Media Company Design • Audience Growth Systems • Business Outcome Mapping • Revenue Architecture • Brand Voice Engineering • Competitive Intelligence • Episodic Content Design • Post-Viral Diagnostics • Emotional Residue Engineering • Quality Auditing • Audience Precision • Zero-to-Scale Playbooks
 ---
 Grace Andrews built the strategic engine behind The Diary of a CEO's rise from a growing podcast to a dominant media property. Her system treats **every brand as a media company that happens to sell a product** — not a product company that happens to make content. The core insight: attention is cheap but trust is expensive, and most creators optimize for the wrong one.
 
@@ -37,6 +37,11 @@ Grace Andrews built the strategic engine behind The Diary of a CEO's rise from a
 | 11 | [Content Sprint Planner](workflows/11-content-sprint-planner.md) | Weekly/monthly content production sprint with district coverage balance | Systematizing content production and preventing "all attention, no trust" imbalances |
 | 12 | [Competitive City Analysis](workflows/12-competitive-city-analysis.md) | Competitor city maps with white-space heat map and opportunity report | Entering a crowded niche, feeling outmatched, or seeking differentiation |
 | 13 | [Episodic Engine](workflows/13-episodic-engine.md) | Recurring episodic format with series bible, pilot episode, and production playbook | Creating ongoing "shows" — recurring formats people tune into, not one-off content |
+| 14 | [Virality Autopsy](workflows/14-virality-autopsy.md) | Post-viral analysis with come-down tax diagnosis, trust damage report, and city map recalibration | After any content piece achieves 5x+ your normal reach — prevents strategy distortion |
+| 15 | [Emotional Residue Engineer](workflows/15-emotional-residue-engineer.md) | Residue moment design + content architecture + relief-seeking compliance | Making content that "stays in your soul" — designing the 48-hour memory moment |
+| 16 | [Bar-Raising Audit](workflows/16-bar-raising-audit.md) | Pre-publish quality gate with competitive scan, anti-romanticism check, testing protocol | Before publishing high-stakes content — the "best version in existence" standard |
+| 17 | [Audience Niche Laser](workflows/17-audience-niche-laser.md) | Named-person targeting + relief-first design + multi-touchpoint entry architecture | Content feels generic, reaching no one, or violating relief-seeking behavior |
+| 18 | [Zero-to-Scale Playbook](workflows/18-zero-to-scale-playbook.md) | Unified 24hr/7day/30day quickstart through growth and scale phases | Starting from zero or near-zero — the complete onboarding workflow |
 
 ## Slash Commands
 
@@ -58,6 +63,9 @@ Grace Andrews built the strategic engine behind The Diary of a CEO's rise from a
 | `/grace-to-copy` | City Strategy → Cardinal Mason + Luke Iha + Lara Acosta → Copy Kit | Convert city strategy into executable copy |
 | `/grace-attention-swarm` | Parallel platform experts → Hooks per platform → Trust bridges | Platform-specific attention optimization via swarm |
 | `/grace-media-diagnostic` | Content Audit + Deep Research + Expert Review → Diagnostic Report | Full "where am I losing people?" diagnostic |
+| `/grace-post-viral` | Virality Autopsy → Trust Damage Repair → City Map Recalibration | Post-viral response protocol — analyze the spike, fix the damage, recalibrate |
+| `/grace-quickstart` | 24hr Quickstart → 7-Day Sprint → 30-Day Integration | "New brand in 30 days" — complete onboarding from zero to operating system |
+| `/grace-quality-gate` | Bar-Raising + Emotional Residue + Niche Precision + Slop Check | Pre-publish quality gate — 4-layer audit before anything goes live |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
@@ -74,3 +82,5 @@ Grace Andrews built the strategic engine behind The Diary of a CEO's rise from a
 - **+ Nicolas Cole**: Grace's city architecture + Cole's ghostwriting voice = authentic voice at every trust stage
 - **+ Dan Koe**: Grace's media company model + Dan's one-person business = solo creator media company architecture
 - **+ Seena Rez**: Grace's attention district + Seena's TikTok growth = short-form attention capture strategy
+- **+ Shaan Puri**: Grace's episodic engine + Shaan's storytelling = narrative-driven content series that build audience investment
+- **+ Eric Roth**: Grace's emotional residue engineering + Roth's "stays in your soul" methodology = content with cinematic lasting power

@@ -57,7 +57,7 @@
 | `futurepedia-prompt-engineering` | **Futurepedia Prompt Engineering** |  | 4 | 18 |
 | `gemini-api-dev` | **gemini-api-dev** |  | 0 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** |  | 3 | 0 |
-| `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | media company architecture | 13 | 0 |
+| `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | media company architecture | 18 | 0 |
 | `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | brand mastery | 5 | 0 |
 | `growth-ecosystems` | **Growth Ecosystems — Vincent Hu** | complete system from niche to $100k/month with <5k followers, vincent hu | 10 | 0 |
 | `harry-dry-copywriting` | **Harry Dry Copywriting** |  | 3 | 14 |
@@ -131,6 +131,7 @@
 | `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | bottleneck thinking | 3 | 0 |
 | `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** |  | 3 | 9 |
 | `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | digital product creation strategy | 2 | 6 |
+| `nicolas-cole-newsletter-flywheel` | **Nicolas Cole Newsletter Flywheel** | newsletter flywheel | 17 | 0 |
 | `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche positioning | 2 | 0 |
 | `nicolas-cole-sentence-craft` | **Nicolas Cole Sentence Craft** |  | 3 | 14 |
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
