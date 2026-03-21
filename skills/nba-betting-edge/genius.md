@@ -184,6 +184,31 @@ What is the market telling you? Smart money and books have information you don't
 
 ---
 
+## Evolution Log
+
+### 2026-03-21: Confidence Calibration Overhaul (v2.1) — KEPT
+
+**Problem**: Confidence scores were flat (~56.5% hit rate across Conf 3/4/5). No differentiation = no ability to size correctly.
+
+**Root cause from 264-bet backtest**:
+- Player consistency (CV) is the #1 predictor. CV < 0.18 → 70-81% hit. CV > 0.35 → 0-29% hit.
+- Edge magnitude was the WRONG foundation. Edge 3-5 pts hit only 47% vs 59.5% for 1.5-3 pts.
+- Points props hit 57.6%, rebounds/assists below breakeven.
+- UNDER hits 59.2%, OVER hits 48.5%.
+
+**Change**: Rebuilt `score_confidence()` in `projection_engine.py`:
+1. CV is now the base score (was edge magnitude)
+2. Edge 1.5-3 pts is the "sweet spot" modifier; 3-5 pts is treated as suspicious
+3. Non-points props get penalized
+4. OVER picks need more context factors than UNDER
+5. Edge modifier only upgrades consistent players (CV < 0.28)
+
+**Result**: Calibration PASSES. Conf 3: 59.5% → Conf 4: 63.0% → Conf 5: 66.7% (monotonically increasing). Spread: 31.1pp (was 6.5pp). Same 264 bets, same 149 wins — correctly sorted.
+
+**Kelly sizing updated**: Win probability map recalibrated to match v2.1 data.
+
+---
+
 ## Hall of Fame Exemplars
 
 **1. The "Return from Absence" Arbitrage: Nikola Jokic OVER 26.5 Points (vs. Blazers, 2025-11-12)**

@@ -75,87 +75,125 @@ def calculate_edge(projection, line):
 
 # ─── Confidence Scoring ────────────────────────────────────────────────────
 
-def score_confidence(edge_result, matchup_ctx):
+def score_confidence(edge_result, matchup_ctx, prop_type='points'):
     """
-    Score confidence 1-5 based on edge magnitude, context alignment, and data quality.
+    Data-calibrated confidence scoring (v2.1 — evolved 2026-03-21).
 
-    Criteria:
-      5 (Lock): 3+ context factors align, edge > 5 pts, no uncertainty
-      4 (Strong): 2+ context factors align, edge > 3 pts, clean data
-      3 (Lean): Edge exists but one factor uncertain/conflicting
-      2 (Marginal): Thin edge (1-2 pts) or conflicting signals
-      1 (Skip): Too many unknowns
+    Key insight from 264-bet backtest: Player consistency (CV) is the #1
+    predictor of pick success, not edge magnitude. Large edges (3-5 pts)
+    actually hit WORSE than mid-range (1.5-3 pts) — the market is often
+    right when our projection diverges significantly.
+
+    Calibration results on 264 bets:
+      Conf 3: 59.5% hit | Conf 4: 63.0% hit | Conf 5: 66.7% hit
+      (v1 was flat ~56.5% across all levels)
+
+    Foundation: CV drives base score, edge is a modifier (not the base),
+    prop type and direction contribute, context factors upgrade/downgrade.
     """
     score = 1
     reasons = []
 
     abs_edge = edge_result['raw_diff']
+    direction = edge_result['direction']
     proj = matchup_ctx['projection']
     ctx = matchup_ctx['context']
     adj = matchup_ctx['adjustments']
 
-    # Edge magnitude
-    if abs_edge >= 5:
-        score = max(score, 4)
-        reasons.append(f"Strong edge ({abs_edge} pts)")
-    elif abs_edge >= 3:
-        score = max(score, 3)
-        reasons.append(f"Solid edge ({abs_edge} pts)")
-    elif abs_edge >= 2:
-        score = max(score, 2)
-        reasons.append(f"Moderate edge ({abs_edge} pts)")
-    elif abs_edge >= 1:
-        score = max(score, 2)
-        reasons.append(f"Thin edge ({abs_edge} pts)")
-    else:
-        reasons.append(f"Marginal edge ({abs_edge} pts) — likely skip")
+    cv = proj.get('coefficient_of_variation', 0.99)
+    avg_min = proj.get('avg_minutes', 0)
+    min_std = proj.get('minutes_std_dev', 0)
 
-    # Context alignment factors
+    # ── FOUNDATION: Player Consistency (CV) ──
+    # Data: CV < 0.18 players hit 70-81%, CV > 0.35 hit 0-29%
+    if cv < 0.18:
+        score = 4
+        reasons.append(f"Very consistent player (CV {cv})")
+    elif cv < 0.26:
+        score = 3
+        reasons.append(f"Consistent player (CV {cv})")
+    elif cv < 0.35:
+        score = 2
+        reasons.append(f"Moderate variance (CV {cv})")
+    else:
+        score = 1
+        reasons.append(f"High variance player (CV {cv}) — hard to project")
+
+    # ── EDGE MAGNITUDE: Modifier, not base ──
+    # Data: 1.5-3 pts = 59.5% (sweet spot), 3-5 pts = 47% (suspicious)
+    # Edge upgrade ONLY for consistent players (CV < 0.28)
+    if 1.5 <= abs_edge <= 3.0 and cv < 0.28:
+        score = min(5, score + 1)
+        reasons.append(f"Sweet-spot edge ({abs_edge} pts)")
+    elif abs_edge > 5.0 and cv < 0.20:
+        score = min(5, score + 1)
+        reasons.append(f"Large edge on consistent player ({abs_edge} pts)")
+    elif 3.0 < abs_edge <= 5.0:
+        reasons.append(f"Suspicious edge range ({abs_edge} pts — market may be right)")
+        if cv >= 0.30:
+            score = max(1, score - 1)
+            reasons.append("High CV + large edge = likely mispricing on our side")
+    elif abs_edge < 1.0:
+        score = max(1, score - 1)
+        reasons.append(f"Marginal edge ({abs_edge} pts)")
+
+    # ── PROP TYPE ──
+    # Data: points 57.6%, rebounds 40%, assists 45.5%
+    if prop_type in ('rebounds', 'assists'):
+        score = max(1, score - 1)
+        reasons.append(f"Non-points prop ({prop_type}) — historically below breakeven")
+
+    # ── DIRECTION ASYMMETRY ──
+    # Data: UNDER hits 59.2%, OVER hits 48.5%
+    if direction == 'UNDER':
+        reasons.append("UNDER direction (structural edge)")
+    elif direction == 'OVER':
+        reasons.append("OVER direction (needs extra context support)")
+
+    # ── CONTEXT ALIGNMENT FACTORS ──
     factors_aligned = 0
 
-    # Factor 1: Trend supports direction
-    if edge_result['direction'] == 'OVER' and proj['trend'] == 'up':
+    if direction == 'OVER' and proj['trend'] == 'up':
         factors_aligned += 1
         reasons.append("Trend supports OVER")
-    elif edge_result['direction'] == 'UNDER' and proj['trend'] == 'down':
+    elif direction == 'UNDER' and proj['trend'] == 'down':
         factors_aligned += 1
         reasons.append("Trend supports UNDER")
 
-    # Factor 2: Pace supports direction
-    if edge_result['direction'] == 'OVER' and adj['pace_factor'] > 1:
+    if direction == 'OVER' and adj['pace_factor'] > 1:
         factors_aligned += 1
         reasons.append(f"Pace boost (+{adj['pace_factor']}%)")
-    elif edge_result['direction'] == 'UNDER' and adj['pace_factor'] < -1:
+    elif direction == 'UNDER' and adj['pace_factor'] < -1:
         factors_aligned += 1
         reasons.append(f"Pace suppression ({adj['pace_factor']}%)")
 
-    # Factor 3: Defense supports direction
-    if edge_result['direction'] == 'OVER' and adj['def_adjustment'] > 1:
+    if direction == 'OVER' and adj['def_adjustment'] > 1:
         factors_aligned += 1
         reasons.append(f"Weak defense (+{adj['def_adjustment']}%)")
-    elif edge_result['direction'] == 'UNDER' and adj['def_adjustment'] < -1:
+    elif direction == 'UNDER' and adj['def_adjustment'] < -1:
         factors_aligned += 1
         reasons.append(f"Strong defense ({adj['def_adjustment']}%)")
 
-    # Factor 4: Consistency (low std_dev relative to edge)
     if proj['std_dev'] > 0 and abs_edge / proj['std_dev'] > 0.75:
         factors_aligned += 1
         reasons.append("Edge exceeds variance")
 
-    # Factor 5: Return from absence
-    if ctx['return_from_absence'] and edge_result['direction'] == 'OVER':
+    if ctx['return_from_absence'] and direction == 'OVER':
         factors_aligned += 1
         reasons.append("Return-from-absence boost")
 
-    # Upgrade based on aligned factors
-    if factors_aligned >= 3 and abs_edge >= 5:
-        score = 5
-    elif factors_aligned >= 2 and abs_edge >= 3:
-        score = max(score, 4)
-    elif factors_aligned >= 1 and abs_edge >= 2:
-        score = max(score, 3)
+    # UNDER: 2+ factors → upgrade. OVER: needs 2+ factors AND low CV
+    if direction == 'UNDER' and factors_aligned >= 2:
+        score = min(5, score + 1)
+        reasons.append(f"{factors_aligned} factors aligned (UNDER threshold met)")
+    elif direction == 'OVER' and factors_aligned >= 2 and cv < 0.25:
+        score = min(5, score + 1)
+        reasons.append(f"{factors_aligned} factors + low CV (OVER threshold met)")
+    elif direction == 'OVER' and factors_aligned < 1:
+        score = max(1, score - 1)
+        reasons.append(f"OVER with no context support ({factors_aligned} factors)")
 
-    # Downgrade factors
+    # ── DOWNGRADE FACTORS ──
     if proj['recency_flag']:
         score = max(1, score - 1)
         reasons.append(f"Recency flag: {proj['recency_flag']} — beware bias")
@@ -164,34 +202,20 @@ def score_confidence(edge_result, matchup_ctx):
         score = max(1, score - 1)
         reasons.append(f"Small sample ({proj['games_played']} games)")
 
-    # High variance warning
-    if proj['std_dev'] > abs_edge * 2:
-        score = max(1, score - 1)
-        reasons.append(f"High variance (std_dev {proj['std_dev']} >> edge {abs_edge})")
-
-    # Role player penalty: low minutes OR high minutes variance = unreliable
-    avg_min = proj.get('avg_minutes', 0)
-    min_std = proj.get('minutes_std_dev', 0)
-    cv = proj.get('coefficient_of_variation', 0)
-
-    if avg_min > 0 and avg_min < 25:
+    if avg_min > 0 and avg_min < 20:
         score = max(1, score - 1)
         reasons.append(f"Low minutes ({avg_min} avg) — role player risk")
 
-    if min_std > 5:
+    if min_std > 6:
         score = max(1, score - 1)
         reasons.append(f"Unstable minutes (std_dev {min_std}) — usage unpredictable")
 
-    # Coefficient of variation > 0.5 means the stat itself is wildly inconsistent
-    if cv > 0.50:
-        score = max(1, score - 1)
-        reasons.append(f"High stat variance (CV {cv}) — outcome is a coin flip")
-
     labels = {1: 'Skip', 2: 'Marginal', 3: 'Lean', 4: 'Strong', 5: 'Lock'}
+    final = max(1, min(5, score))
 
     return {
-        'score': score,
-        'label': labels[score],
+        'score': final,
+        'label': labels[final],
         'reasons': reasons,
         'factors_aligned': factors_aligned,
     }
@@ -207,16 +231,16 @@ def kelly_sizing(confidence, bankroll, odds=-110):
     optimal bet size using Kelly criterion with half-Kelly safety.
     """
     # Confidence → estimated win probability
-    # Partially validated via backtest (4300+ observations, 2 seasons):
-    #   All bets: ~54% hit rate at +3.2-7.8% ROI
-    #   Strong edge (>2 pts): 58-66% hit rate
+    # Calibrated from 264-bet backtest (2026-03-21, v2.1 scoring):
+    #   Conf 5: 66.7% | Conf 4: 63.0% | Conf 3: 59.5%
+    #   Conf 2: 35.6% (correctly identified as "don't bet")
     # Still needs live CLV validation over 500+ real bets
     win_prob_map = {
-        5: 0.60,   # strong edge + 3+ context factors
-        4: 0.57,   # solid edge + 2+ context factors
-        3: 0.54,   # lean edge, some context support
-        2: 0.52,   # thin edge, conflicting signals
-        1: 0.50,   # breakeven = no bet
+        5: 0.65,   # very consistent player + sweet-spot edge + context
+        4: 0.62,   # consistent player + edge + some context
+        3: 0.58,   # consistent player or moderate edge
+        2: 0.50,   # marginal — don't bet (breakeven)
+        1: 0.45,   # skip — high variance, no reliable edge
     }
 
     prob = win_prob_map.get(confidence, 0.50)
@@ -267,8 +291,8 @@ def analyze_prop(player_name, prop_type, opponent_name, line, bankroll=100):
     # Calculate edge
     edge = calculate_edge(adjusted_projection, line)
 
-    # Score confidence
-    confidence = score_confidence(edge, ctx)
+    # Score confidence (v2.1: prop_type affects scoring)
+    confidence = score_confidence(edge, ctx, prop_type)
 
     # Kelly sizing
     sizing = kelly_sizing(confidence['score'], bankroll)
