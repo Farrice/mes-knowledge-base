@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (222 Commands)
+# 🚀 Antigravity Workflows — Complete Index (225 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -20,6 +20,9 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/knowledge-search` | Hybrid search across all knowledge sources with smart routing |
 | `/betting-edge` | NBA player prop analysis — research tonight's slate, detect statistical edges, build correlation-aware parlays with confidence scoring and Kelly criterion bankroll sizing. Modes: `paper` (paper trading), `live` (live deployment with conservative guardrails), `review` (results + calibration), `bankroll` (sizing strategy) |
 | `/check-picks` | Fast-path NBA picks — say "check my picks" and get tonight's full edge analysis instantly. Auto-detects mode: default = tonight's slate, `review` = past results, player name = quick prop check. Routes into the full betting edge system with zero ceremony |
+| `/picks-tonight` | Tonight's NBA picks — fully automated. Pulls games, lines, injuries, runs projections, outputs a clean shareable pick card. Just run it before games start. |
+| `/picks-review` | Morning results review — looks up what happened last night, records wins/losses, updates track record. Run every morning. |
+| `/picks-status` | Full track record dashboard — win rate, ROI, best players, system health. Shareable format for Discord/subscribers. |
 
 ---
 
