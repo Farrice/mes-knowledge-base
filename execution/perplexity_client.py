@@ -142,6 +142,17 @@ class PerplexityClient:
                 f"Falling back to web search."
             )
 
+        # Pre-flight per-task cap check (prevents runaway API calls)
+        usage = self._read_usage()
+        loop = usage.get("loop_detection", {})
+        task_cap = 20 if "research" in task_context else 10
+        if (loop.get("current_task_name") == task_context
+                and loop.get("current_task_query_count", 0) >= task_cap):
+            raise BudgetExhaustedError(
+                f"Per-task query cap reached ({task_cap}) for '{task_context}'. "
+                f"Use a different task_context or switch to free tools."
+            )
+
         if remaining < 2.00:
             if model != "sonar":
                 print(f"  ⚠️  Budget low (${remaining:.2f}). Downgrading to sonar.")

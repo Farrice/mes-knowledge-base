@@ -1,0 +1,44 @@
+{
+  "objective": "Research the 2025-2026 LinkedIn ghostwriting market: (1) Current pricing tiers for LinkedIn ghostwriting services (per-post, retainer, and premium packages), (2) Market demand signals \u2014 Upwork/Fiverr job volume, LinkedIn job postings for ghostwriters, search trends, (3) Nicolas Cole's Premium Ghostwriting Academy curriculum and positioning, (4) How AI tools (ChatGPT, Claude, Jasper) are reshaping ghostwriting \u2014 what services are commoditized vs. what commands premium pricing, (5) Competitive landscape \u2014 top ghostwriting agencies and solo operators, their positioning and pricing, (6) The 'voice writing' differentiator \u2014 how voice-first ghostwriting compares to template-based services in client retention and pricing power",
+  "timestamp": "20260320_200746",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 34239,
+  "total_cost_usd": 0.0471,
+  "duration_seconds": 70.0,
+  "api_calls": 5,
+  "agents": [
+    {
+      "name": "nicolas-cole",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7823,
+      "cost": 0.0051174,
+      "duration": 13.2,
+      "thinking_tokens": 1105,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "lara-acosta",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6279,
+      "cost": 0.0041916,
+      "duration": 11.6,
+      "thinking_tokens": 1129,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "dan-koe",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6671,
+      "cost": 0.0052539,
+      "duration": 12.7,
+      "thinking_tokens": 906,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

@@ -36,7 +36,7 @@ Read these files:
 1. /Users/farricecain/Google Antigravity/FARRICE.md — goals, positioning, revenue targets
 2. /Users/farricecain/Google Antigravity/.agent/session-state.md — recent session state (if exists)
 
-Then use WebSearch to check:
+Then use `search_web` to check:
 - Any trending topics in Farrice's space (AI, solopreneurship, personal development, content creation)
 - Any market movements that create urgency or opportunity
 

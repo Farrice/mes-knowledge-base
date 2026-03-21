@@ -89,7 +89,12 @@ If no input is provided, ask: "What's the concept, pain point, or idea you want 
 
 1. **Check Perplexity budget**: Read `.agent/perplexity-usage.json`
 
-2. **Execute 2-3 targeted queries** (Perplexity if budget available, `search_web` fallback):
+2. **Execute 2-3 targeted queries** using the tiered tool strategy from `directives/research-protocol.md`:
+
+   **Tool priority**:
+   - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — if budget available
+   - **Priority 2**: `search_web` (free, unlimited) — the workhorse for most queries
+   - **Priority 3**: `read_url_content` (free, unlimited) — read top 3 results per query in full
 
 | Query | Purpose | Example |
 |-------|---------|---------|

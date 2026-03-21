@@ -57,7 +57,7 @@ python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --grou
 
 | | `--grounded` | `--research` |
 |---|---|---|
-| **How** | Gemini's native Google Search tool | Claude sub-agents run WebSearch pre-phase |
+| **How** | Gemini's native Google Search tool | Claude sub-agents run `search_web` + `read_url_content` pre-phase |
 | **Cost** | ~$0.02-0.05 extra (search queries are cheap) | +$0.15-0.35 (2 Claude agents) |
 | **Speed** | No extra step — agents search inline | +30-60 seconds pre-research phase |
 | **Quality** | Agents search based on their own expert reasoning | Pre-curated data injected uniformly |
@@ -80,16 +80,18 @@ python /Users/farricecain/Google\ Antigravity/execution/parallel_swarm.py --grou
 
    **Research Agent 1: Market Intelligence**
    ```
-   Use WebSearch to find current data (2025-2026) about: [objective]
+   Use `search_web` to find current data (2025-2026) about: [objective]
    Focus on: market size, trends, recent developments, key players, pricing data.
+   Use `read_url_content` to read the top 3-5 most relevant results in full.
    Write findings to: .tmp/swarm-research/market-intel.md
    Format: bullet points with source URLs. Aim for 10-15 data points.
    ```
 
    **Research Agent 2: Audience & Competitive Signals**
    ```
-   Use WebSearch to find: [objective]-related audience discussions, competitor activity, and sentiment.
+   Use `search_web` to find: [objective]-related audience discussions, competitor activity, and sentiment.
    Check: Reddit, Twitter/X, LinkedIn, forums, review sites.
+   Use `read_url_content` to read the top 3-5 most relevant threads/pages in full.
    Write findings to: .tmp/swarm-research/audience-signals.md
    Format: bullet points with source URLs and direct quotes where available.
    ```

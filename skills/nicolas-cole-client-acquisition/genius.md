@@ -191,16 +191,62 @@ When a talking head appears on your screen, you don't check their LinkedIn bio. 
 
 ---
 
+## Market Intelligence (2026)
+
+> Full data: [market-intelligence-2026.md](references/market-intelligence-2026.md)
+
+### Pricing Anchor Points
+| Market Tier | Range | Your Position |
+|------------|-------|---------------|
+| Commodity (AI/template) | $50–$300/post | **Avoid** — race to the bottom |
+| Basic retainer | $397–$1,000/mo | **Below you** — entry agencies |
+| Mid-market (voice-matched) | $1,000–$2,500/mo | **Floor** — minimum entry |
+| Premium (productized system) | $2,500–$5,000/mo | **Target** — your sweet spot |
+| Enterprise (full demand-gen) | $5,000–$7,500+/mo | **Stretch** — agency-level |
+
+### The AI Commoditization Map
+Voice matching alone is under severe threat (AI hits 90-95% accuracy). The defensible premium is a **productized strategic system** delivered with deep sentence craft. Lead with the system, deliver the craft.
+
+### Competitive Intel
+- **Cleverly**: $397–$997/mo, sales-aligned outreach + ghostwriting
+- **Lead Cookie**: $3K–$7.4K/mo, multi-format B2B demand gen
+- **Sculpt**: $6K+/mo, full-service B2B social
+- Solo operators cluster at $500–$1.5K/mo with high churn
+
+### Strategic Positioning Verdict
+> **Sell the strategic system, deliver the craft. The system is what they buy; the craft is what they stay for.**
+
+---
+
 ## Cross-Domain Connections
 
-### Skill Stacking
-- **+ `nicolas-cole-niche-positioning`**: After landing first 3 clients using service-first niching, run the full niche positioning drill to lock in industry specialization
-- **+ `nicolas-cole-sentence-craft`**: Power-leveled credibility assets benefit from sentence-level optimization — better self-content = better case study
-- **+ Lara Acosta (LinkedIn)**: Pitch-in-public content strategy maps directly to LinkedIn ghostwriting authority building
-- **+ Luke Iha (Copy)**: Free custom samples and client education scripts benefit from hook/proof architecture
-- **+ Cardinal Mason (CRO)**: Client education scripting shares DNA with conversion optimization
+### Skill Stacking (Deepened Handoffs)
+
+#### Client Acquisition → Delivery Pipeline
+| Trigger | Hand to | What transfers | Why |
+|---------|---------|---------------|-----|
+| Client signs retainer | `ghostwriting-voice-engine` | Prospect's pain points, voice notes from sales calls, ICP data | Voice intake uses sales-call insights as calibration seeds |
+| First client session | `sean-mabry-voice-mastery` | Voice profile draft from free sample | Sample already demonstrates voice capture — builds on it |
+| Client needs pricing strategy | `nicolas-cole-digital-products` | Service scope, client expectations | Vehicle Framework classifies the retainer as Productized Service |
+| Client needs niche clarity | `nicolas-cole-niche-positioning` | Industry signals from first 3 clients | Service-first niching → full positioning drill after landing proof |
+
+#### Acquisition → Authority Building
+| Trigger | Hand to | What transfers | Why |
+|---------|---------|---------------|-----|
+| Pitch-in-public content ready | `lara-acosta-linkedin-mastery` | CMO-for-a-Day drafts | LinkedIn optimization for reach + algorithm alignment |
+| Free sample needs hook architecture | `luke-iha-copy` | Voice-matched draft | Hook/proof optimization on the sample itself |
+| Outreach needs conversion polish | `cardinal-mason` | Sales scripts, email sequences | CRO lens on follow-up sequences |
+| Content needs cinematic depth | `eric-roth-writing-mastery` | Case study narratives | Visual prose + thematic arcs for authority content |
+
+#### Acquisition → Psychology & Brand
+| Trigger | Hand to | What transfers | Why |
+|---------|---------|---------------|-----|
+| Idiot-Genius Roller Coaster hits | `dan-koe` | Psychological state, block pattern | Dan Koe's self-annealing protocols address creative blocks |
+| Personal brand needs strategic foundation | `tom-noske` | Service positioning, ICP profile | Archetype-based brand architecture for the ghostwriter's own brand |
+| Need to build trust fast | `caleb-ralston` | Credibility assets, self-as-case-study | Trust-based personal brand + contrarian positioning methodology |
 
 ### Revenue Applications
 - **Ghostwriting agency scaling**: This methodology scales from solopreneur to agency (Cole did 1 → 23 employees)
-- **Coaching/teaching**: The methodology itself is packageable as a course or coaching program
+- **Coaching/teaching**: The methodology itself is packageable as a course or coaching program via `nicolas-cole-digital-products` Vehicle Framework
 - **AI-enhanced outreach**: Free custom samples and prospect research can be 10x accelerated with AI, creating a systematized client acquisition engine
+- **High-ticket cohort**: Use `/high-ticket-launch` workflow to convert ghostwriting authority into $5K+ cohort sales

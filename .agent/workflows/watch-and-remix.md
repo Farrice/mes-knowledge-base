@@ -32,10 +32,10 @@ Handle input based on type:
 
 | Input Type | Action |
 |------------|--------|
-| LinkedIn URL | Use `WebFetch` to extract the post |
-| Twitter/X URL | Use `WebFetch` to extract the thread |
+| LinkedIn URL | Use `read_url_content` to extract the post |
+| Twitter/X URL | Use `read_url_content` to extract the thread |
 | YouTube URL | Run `python3 execution/fetch-transcript.py "[url]" "source"` |
-| Blog/article URL | Use `WebFetch` to extract content |
+| Blog/article URL | Use `read_url_content` to extract content |
 | Pasted text | Save to `.tmp/watch-and-remix/source.md` |
 
 Save the raw source to `.tmp/watch-and-remix/source.md`.

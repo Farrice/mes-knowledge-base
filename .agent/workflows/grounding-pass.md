@@ -22,12 +22,16 @@ Validate and ground any set of documents against live research data. Corrects in
 
 ## Steps
 
-### 1. Locate Research Data
+### 1. Locate or Gather Research Data
 
 Find the grounding source — the verified research file:
 - Look for `research_data/perplexity_findings.md` in/near the target directory
-- If `--research-first` flag is set, execute Perplexity research first (see Phase 2.5 in `/swarm` workflow)
-- If no research data exists and `--research-first` is not set, **STOP** and notify user
+- If `--research-first` flag is set, run the research engine at Standard depth:
+  ```bash
+  python3 execution/deep_research_engine.py --depth standard "[topic from document]"
+  ```
+- **If no research data exists**: The grounding pass can self-verify claims using free-tier tools. For each unverified claim, use `search_web` to fact-check, then `read_url_content` on the best result. This costs $0.
+- The grounding pass no longer requires pre-existing Perplexity research data — it uses `search_web` + `read_url_content` as the workhorse for live verification.
 
 ### 2. Inventory Target Files
 

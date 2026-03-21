@@ -131,6 +131,35 @@ velocity_score = random.randint(60, 95)
 
 ---
 
+### Anti-Pattern 7: "Echo Chamber Deliberation" ⚠️ NEW
+**Definition**: Multi-agent outputs (councils, swarms, roundtables) that unanimously validate the user's existing beliefs by repackaging their own data and assumptions in expert language — without external research.
+
+**Symptoms**:
+- Council output where all agents agree with the user's stated preference
+- Agent "deliberation" that cites only existing KIs/session data — no Perplexity or search_web calls
+- Fabricated statistics (market sizes, conversion rates, TAM percentages) presented without sources
+- "Steelman" rounds where the opposing view is a straw man dressed in steelman clothes
+- The user's own words reappearing as "expert insight" with no new information added
+- Confidence scores of 8-10/10 with zero external validation
+
+**Why This Is Dangerous**:
+- The system has 95+ expert agents. When all 95 agree, it feels authoritative — but if none ran external research, it's 95 copies of the same bias
+- High-stakes decisions (ICP selection, market pivots, pricing) made on fabricated data
+- Reinforces the user's doubts, fears, or overconfidence instead of calibrating them against reality
+- Destroys the user's ability to train their own intuition and discernment — turns the system into a yes-man factory
+- The more expert the language, the harder the echo chamber is to detect
+
+**The Fix**:
+1. **Before any multi-agent deliberation**, run 3-5 Perplexity queries that specifically challenge the user's stated position (see `/council` Step 2.5)
+2. **Echo Chamber Test**: After producing multi-agent output, check — does EVERY agent agree with what the user already believed? If yes, re-run research with disconfirming queries
+3. **Fabrication Scan**: Every number (%, $, TAM, conversion rate) must have a source. No source = tag 🔴 PROJECTED and disclose
+4. **Uncomfortable Insight Rule**: Valid multi-perspective output must contain AT LEAST ONE finding the user didn't already know or believe. If it doesn't, the "perspectives" are decorative, not real
+5. **Never attribute user assumptions to experts**: If the data came from the user's own prior statements or KIs, say so — don't launder it through agent personas
+
+**Origin**: ICP Council session (2026-03-20) where 4 agents unanimously confirmed the user's existing preference using fabricated market data (4% TAM, conversion rates, awareness levels). Grounding pass revealed 5 of 14 claims were wrong or fabricated, and surfaced a third ICP option the echo chamber missed entirely.
+
+---
+
 ## 🟢 MANDATES (Always Do These)
 
 ### Mandate 1: Entity Understanding First
@@ -190,6 +219,7 @@ For any deliverable that claims factual accuracy:
 | Speed Without Validation | MEDIUM | Post-Delivery Verification |
 | User Intent Mismatch | HIGH | Pre-Flight Validation |
 | Phantom Research | HIGH | Perplexity-First Research Gate |
+| Echo Chamber Deliberation | HIGH | Anti-Echo-Chamber Gate (council Step 2.5) + Uncomfortable Insight Rule |
 
 ---
 

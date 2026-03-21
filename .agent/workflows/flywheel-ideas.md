@@ -19,6 +19,7 @@ This workflow prevents "blank page syndrome" by generating 3-5 fully validated, 
 
 1. **Deploy Seena Rez (Early Adopter Monitor):**
    - Run `search_web` for current anxieties, complaints, or emerging trends related to the target audience (e.g., "coaches overwhelmed by AI 2026", "solopreneur burnout tools").
+   - Use `read_url_content` to read the top 3-5 most relevant results in full.
    - Look for the *emotional* friction, not just the logical problem.
 2. **Deploy Samuel Thompson (Shadow Market Detector):**
    - Filter the anxieties against the "Shadow Market" framework: Is there a high-intent, low-competition sub-segment experiencing this pain?

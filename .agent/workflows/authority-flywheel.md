@@ -71,7 +71,7 @@ Transform a coach's raw voice memo into a polished newsletter edition + atomized
    **Dimension A — Trending Context:**
    - What's trending in the coach's sport/niche RIGHT NOW?
    - Recent studies, conference talks, viral posts, industry debates
-   - Use: WebSearch + Perplexity (budget-gated per `directives/perplexity-usage-policy.md`)
+   - Use: `search_web` (primary) + `read_url_content` (for top results) + `mcp_perplexity-ask_perplexity_ask` (budget-gated per `directives/perplexity-usage-policy.md`)
 
    **Dimension B — Contrarian Validation:**
    - What's the mainstream take on this topic? Where does the coach's position DIFFER?
@@ -116,6 +116,22 @@ Transform a coach's raw voice memo into a polished newsletter edition + atomized
 4. Present to the user for selection (or auto-select top 2 if running in demo mode)
 
 **Output:** 3-5 ranked content angle mini-briefs.
+
+---
+
+### Step 3.5: TWO RULES GATE — Newsletter Flywheel Validation
+
+**Before drafting, validate the newsletter concept against Cole's Two Rules.**
+
+**Process:**
+1. Load: `skills/nicolas-cole-newsletter-flywheel/genius.md` (Two Rules, Tangible Faucet)
+2. Run the Two Rules gate on the planned newsletter edition:
+   - **Rule 1**: Is this edition a chapter in a book the reader wishes never ended?
+   - **Rule 2**: Does this edition deliver a tangible, saveable, shareable ASSET (not just an essay)?
+3. Run the Wine Club Test: "It's like a _____ club but for _____." If the blank can't be filled → the edition needs a tangible component.
+4. If either rule fails → redesign the edition angle to include a tangible deliverable (checklist, template, framework, prompt) alongside the narrative content.
+
+**This prevents the authority flywheel from producing essay-only newsletters that miss Cole's retention architecture.**
 
 ---
 
@@ -248,6 +264,7 @@ When running `/authority-flywheel [client-name]`:
 
 | Asset | Path | Required By |
 |-------|------|-------------|
+| Cole Newsletter Genius | `skills/nicolas-cole-newsletter-flywheel/genius.md` | Step 3.5 (Two Rules gate) |
 | GVE Genius | `skills/ghostwriting-voice-engine/genius.md` | Step 4 (voice matching) |
 | Lara Acosta Content | `skills/lara-acosta-content-system/SKILL.md` | Steps 4-5 (content architecture) |
 | Kallaway Psychology | `skills/kallaway-content-psychology/SKILL.md` | Steps 4-5 (hook + engagement) |

@@ -71,8 +71,12 @@ Before ANY agent executes, ground the swarm in real data:
 
 1. **Check budget**: Read `.agent/perplexity-usage.json` — verify remaining budget
 2. **Identify research agents**: Any agent doing market intel, competitive analysis, social listening, or trend research
-3. **Execute Perplexity queries** (max 10 per swarm, batched via Collapsing Rule):
-   - Social listening: `mcp_perplexity-ask_perplexity_ask` for Reddit/forum pain points
+3. **Execute research queries** using tiered tool strategy:
+   - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — max 10 per swarm, batched via Collapsing Rule
+   - **Priority 2**: `search_web` (free, unlimited) — for additional gap-filling
+   - **Priority 3**: `read_url_content` (free, unlimited) — read top 3-5 results per research agent in full
+   Query types:
+   - Social listening: Reddit/forum pain points
    - Competitive intel: Named competitors, actual pricing, real positioning
    - Market validation: Real data with citations
    - Trend verification: Current-year sources
@@ -80,8 +84,8 @@ Before ANY agent executes, ground the swarm in real data:
 5. **Log ALL queries** to `.agent/perplexity-usage.json`
 6. **Feed research data INTO agent work orders** — agents must reference this file
 
-**If budget is exhausted**: Fall back to `search_web` (NOT LLM-only). Notify user.
-**If Perplexity unavailable**: Use `search_web` with same query structure. Notify user of degraded quality.
+**If budget is exhausted**: Fall back to `search_web` + `read_url_content` (NOT LLM-only). Notify user.
+**If Perplexity unavailable**: Use `search_web` + `read_url_content` with same query structure. Notify user of degraded quality.
 
 **Reference**: `directives/perplexity-usage-policy.md` and `directives/quality_assurance.md` (Mandate 5)
 
@@ -143,6 +147,11 @@ Agent outputs contain expert frameworks and methodology — but they also contai
 This phase can also be run independently via `/grounding-pass` for any set of documents that need validation against research data.
 
 ### 6. Execute Phase 4: Swarm Synthesis
+
+Run the research quality gate on the synthesis before delivery:
+```bash
+python3 execution/research_quality_gate.py validate final_synthesis.md
+```
 
 Read and apply:
 ```

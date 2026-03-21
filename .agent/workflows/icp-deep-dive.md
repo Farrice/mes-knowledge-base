@@ -51,12 +51,17 @@ Run the full diagnostic using the `consumer-gap-diagnostic.md` prompt:
 - Priority Discovery List
 
 **Step 2: Voice-of-Customer Deep Mining**
-Conduct live research using Perplexity and web search:
+Conduct live research using the tiered tool strategy from `directives/research-protocol.md`:
 
-- **Reddit**: Search for threads where the target consumer discusses their problems. Extract 30-50 verbatim quotes.
-- **Reviews**: Mine Amazon, G2, Trustpilot, app stores for competitor products. Extract loves, hates, wishes.
-- **Communities**: Facebook groups, Quora, niche forums. Extract decision language and objections.
-- **Industry Research**: Trends, emerging needs, competitive positioning via Perplexity.
+**Tool priority**:
+- **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — check `.agent/perplexity-usage.json` budget first
+- **Priority 2**: `search_web` (free, unlimited) — the workhorse for most queries
+- **Priority 3**: `read_url_content` (free, unlimited) — read top results in full for verbatim quotes
+
+- **Reddit**: Use `search_web` for `\"site:reddit.com [topic]\"` queries, then `read_url_content` for top threads. Extract 30-50 verbatim quotes.
+- **Reviews**: Use `search_web` + `read_url_content` for Amazon, G2, Trustpilot, app stores. Extract loves, hates, wishes.
+- **Communities**: Use `search_web` + `read_url_content` for Facebook groups, Quora, niche forums. Extract decision language and objections.
+- **Industry Research**: Use `mcp_perplexity-ask_perplexity_ask` or `search_web` for trends, emerging needs, competitive positioning.
 
 Compile into:
 - Voice of Customer Data Library (organized by theme)

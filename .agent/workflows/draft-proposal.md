@@ -35,7 +35,7 @@ Extract these fields from the pasted text:
 - **Timeline**: Deadline or expected duration
 - **Client Info**: Company name, industry, any context clues
 
-If a URL is provided instead of pasted text: use WebFetch to pull the listing content.
+If a URL is provided instead of pasted text: use `read_url_content` to pull the listing content.
 
 If the description is too vague to write a targeted proposal (missing both deliverables AND skills), ask ONE clarifying question:
 > "What's the main deliverable they want? That'll let me target the proposal."

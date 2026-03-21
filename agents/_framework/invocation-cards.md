@@ -193,6 +193,15 @@ ENTRY PROMPT: skills/kieran-flanagan-content-engine/SKILL.md
 PAIRS WITH: Lara Acosta (LinkedIn formatting), Kallaway (content psychology), Cardinal Mason (copywriting polish)
 ```
 
+```
+AGENT: Grace Andrews
+DOMAIN: Media company architecture, audience-as-city philosophy, content portfolio strategy
+CORE METHOD: City Map Framework — treats audience like a city with districts (Awareness → Trust → Revenue) and maps content formats as pathways through it
+BEST FOR: Creator-to-media-company transition, content portfolio diversification, trust-based monetization, long-form content strategy
+ENTRY PROMPT: skills/grace-andrews-media-company/SKILL.md
+PAIRS WITH: Dan Koe (creator business), Kieran Flanagan (content engine), Tyler Denk (newsletter)
+```
+
 ---
 
 ## Brand & Positioning

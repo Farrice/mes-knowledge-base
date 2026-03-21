@@ -24,15 +24,15 @@ Use this workflow for comprehensive research on any topic, combining live intern
 ## Bounded Browser Controls
 
 > [!IMPORTANT]
-> **Hard Tab Limits by Depth Level** (NEVER exceed):
-> - Quick: **3 tabs max**
-> - Standard: **5 tabs max**  
-> - Deep: **8 tabs max**
+> **Hard Source Read Limits by Depth Level** (NEVER exceed):
+> - Quick: **3 `read_url_content` calls max**
+> - Standard: **5 `read_url_content` calls max**
+> - Deep: **8 `read_url_content` calls max**
 
 **Rules:**
-- Each tab must have a **stated purpose** before opening
-- No speculative browsing—only targeted source retrieval
-- Prioritize sources BEFORE opening any tabs
+- Each source read must have a **stated purpose** before calling
+- No speculative reads — only targeted source retrieval
+- Prioritize sources from `search_web` results BEFORE reading any pages
 
 ---
 
@@ -54,7 +54,7 @@ Evaluate every source against this 4-point rubric:
 > [!CAUTION]
 > **Research MUST STOP when ANY of these conditions are met:**
 
-1. **Tab limit reached** for the depth level
+1. **Source read limit reached** for the depth level
 2. **Saturation detected**: 3+ sources saying the same thing with no new information
 3. **Diminishing returns**: Last source added <10% new information
 4. **Time limit hit**: Quick=3min, Standard=8min, Deep=20min
@@ -72,27 +72,34 @@ Evaluate every source against this 4-point rubric:
 ### 2. Perplexity-First Research ⚠️ MANDATORY
 // turbo
 - **Check budget**: Read `.agent/perplexity-usage.json` for remaining budget
-- Run 1-3 **collapsed** Perplexity queries using `mcp_perplexity-ask_perplexity_ask`:
+- Run 1-3 **collapsed** queries using the tiered tool strategy:
+  - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — for collapsed multi-dimensional queries
+  - **Priority 2**: `search_web` (free, unlimited) — for targeted gap-filling
+  - **Priority 3**: `read_url_content` (free, unlimited) — for deep page reads from top results
   - Combine related questions into single prompts (The Collapsing Rule)
-  - Use Sonar for quick lookups, Sonar Pro for trend/social data, Deep Research for strategic intel
-- **Log each query** to `.agent/perplexity-usage.json`
+- **Log each Perplexity query** to `.agent/perplexity-usage.json`
 - Extract: cited facts, data points, source URLs, verbatim quotes
-- **If budget exhausted**: Notify user, proceed to Step 3 with `search_web` fallback
-- **Reference**: `directives/perplexity-usage-policy.md`
+- **If budget exhausted**: Proceed with `search_web` + `read_url_content` only (still produces good research)
+- **Reference**: `directives/perplexity-usage-policy.md`, `directives/research-protocol.md`
+
+**Alternative — Research Engine** (for automatic decomposition + parallel execution):
+```bash
+python3 execution/deep_research_engine.py --depth [quick|standard|deep] "[topic]"
+```
 
 ### 3. Supplementary Web Search
 // turbo
-- Run 3-5 targeted searches to fill gaps NOT covered by Perplexity
+- Run 5-7 targeted `search_web` calls to fill gaps NOT covered by Perplexity
 - Identify: authoritative sources, recent updates, key players, data sources
-- **Create prioritized source list** before opening any browser tabs
+- **Create prioritized source list** before reading any pages
 - Note gaps that need deeper investigation
 
 ### 3. Deep Source Mining (Bounded)
 // turbo
-- Read sources in priority order, respecting tab limits:
-  - `--depth quick`: 3 tabs max
-  - `--depth standard`: 5 tabs max
-  - `--depth deep`: 8 tabs max
+- Read sources in priority order using `read_url_content`, respecting limits:
+  - `--depth quick`: 3 `read_url_content` calls max
+  - `--depth standard`: 5 `read_url_content` calls max
+  - `--depth deep`: 8 `read_url_content` calls max
 - **Track saturation**: Stop if 3+ sources repeat the same information
 - Extract: facts, data points, quotes, frameworks, dates
 
@@ -108,13 +115,18 @@ Before writing any output, explicitly verify:
 - [ ] No new information emerging from recent sources
 - [ ] Gaps identified for follow-up (if any)
 
-**If gaps remain**: Request permission for targeted follow-up (max 2 additional tabs)
+**If gaps remain**: Request permission for targeted follow-up (max 2 additional `read_url_content` calls)
 
-### 5.5 Red Team Adversarial Check
+### 5.5 Red Team Adversarial Check + Quality Gate
 Before synthesis, run an adversarial pass on the gathered data:
 - **Confirmation Bias Check**: Did we only search for data that supports the premise?
-- **Counter-Narrative**: Run at least one search specifically for the counter-argument, failure cases, or criticisms of the topic.
+- **Counter-Narrative**: Run at least one `search_web` specifically for the counter-argument, failure cases, or criticisms of the topic.
 - **The "Missing Enemy"**: What is the most significant threat or alternative to the proposed topic/solution? Include this in the final output.
+
+**Quality Gate** (mandatory for `--depth deep` and `--output report`):
+```bash
+python3 execution/research_quality_gate.py validate [output-file-path]
+```
 
 ### 6. Synthesize Findings
 Based on `--output` format:
@@ -130,7 +142,7 @@ Based on `--output` format:
 - Full structured report (1000-2000 words)
 - Sections: Overview, Key Findings, Data/Evidence, Implications, Recommendations
 - Embedded source citations
-- **Methodology note**: tabs used, stopping criterion triggered
+- **Methodology note**: source reads used, stopping criterion triggered
 - Save as artifact in brain directory
 
 **Brief:**
@@ -147,11 +159,11 @@ Based on `--output` format:
 
 ## Research Depth Guide
 
-| Depth | Time Limit | Tab Limit | Sources | Best For |
-|-------|------------|-----------|---------|----------|
-| Quick | 3 min | 3 | 3-5 | Simple facts, quick answers |
-| Standard | 8 min | 5 | 5-8 | Business decisions, market overviews |
-| Deep | 20 min | 8 | 10-15+ | Strategy, competitive analysis, complex topics |
+| Depth | Time Limit | Source Read Limit | Sources | Best For |
+|-------|------------|-------------------|---------|----------|
+| Quick | 3 min | 3 `read_url_content` | 3-5 | Simple facts, quick answers |
+| Standard | 8 min | 5 `read_url_content` | 5-8 | Business decisions, market overviews |
+| Deep | 20 min | 8 `read_url_content` | 10-15+ | Strategy, competitive analysis, complex topics |
 
 ---
 

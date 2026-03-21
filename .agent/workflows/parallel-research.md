@@ -23,7 +23,12 @@ Deploy 3 independent research agents that investigate different facets of a topi
 
 ### 1. Decompose the Research Question
 
-Split the topic into 3 independent research angles. Default decomposition:
+For automatic decomposition, use the research engine:
+```bash
+python3 execution/deep_research_engine.py --decompose-only "[topic]"
+```
+
+Or manually split the topic into 3 independent research angles. Default decomposition:
 
 | Angle | Focus | Output |
 |-------|-------|--------|
@@ -66,9 +71,10 @@ You are a research specialist investigating: [specific angle]
 3. [question 3]
 
 **Instructions**:
-1. Use WebSearch to find current data (2025-2026 sources preferred)
-2. For each finding, record: the data point, the source URL, and one actionable implication
-3. Write your findings to: .tmp/research-[angle-slug].md
+1. Use `search_web` (5-7 calls) to find current data (2025-2026 sources preferred)
+2. Use `read_url_content` (2-3 calls) to read full pages from the best search results
+3. For each finding, record: the data point, the source URL, and one actionable implication
+4. Write your findings to: .tmp/research-[angle-slug].md
 
 **Output format**:
 ## [Angle Name] — Research Findings
@@ -84,10 +90,16 @@ You are a research specialist investigating: [specific angle]
 ### Confidence: [High/Medium/Low]
 ```
 
-### 3. Synthesize
+### 3. Synthesize + Quality Gate
 
-After all 3 agents return, read their outputs and produce a unified brief:
+After all 3 agents return, read their outputs and produce a unified brief.
 
+**Run quality gate** before finalizing:
+```bash
+python3 execution/research_quality_gate.py validate .tmp/research-brief-[topic-slug].md
+```
+
+Brief format:
 ```markdown
 # Research Brief: [Topic]
 
@@ -132,5 +144,6 @@ Present the brief to the user. Suggest next steps:
 ## Limits
 
 - 3 agents max (more angles = shallower research per angle)
-- Each agent gets ~5 web searches
+- Each agent gets 7 `search_web` + 3 `read_url_content` calls
 - Total research time: 2-5 minutes depending on topic complexity
+- For deeper research, use `/deep-research` or `/research-sprint` (which adds follow-up rounds)

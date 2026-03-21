@@ -14,7 +14,7 @@ Before research, classify the niche:
 -   **Program**: Target eligibility, requirements, comparison keywords.
 
 ## Phase 2: Trend Research (REQUIRED)
-Use `search_web` to find real data. Execute ALL of these queries:
+Use `search_web` to find real data. For the most promising results, use `read_url_content` to read them in full. Execute ALL of these queries:
 
 1.  **Query**: `"[Niche] trends 2026 rising"`
     -   **Extract**: What topics are rising? What influencers are talking about?

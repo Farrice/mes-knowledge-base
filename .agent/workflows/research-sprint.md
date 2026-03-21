@@ -49,9 +49,9 @@ Present the plan:
 
 | Agent | Angle | Key Questions | Tool Budget |
 |-------|-------|---------------|-------------|
-| Researcher A | [Angle 1] | 1. [q1] 2. [q2] 3. [q3] | 5 web searches |
-| Researcher B | [Angle 2] | 1. [q1] 2. [q2] 3. [q3] | 5 web searches |
-| Researcher C | [Angle 3] | 1. [q1] 2. [q2] 3. [q3] | 5 web searches |
+| Researcher A | [Angle 1] | 1. [q1] 2. [q2] 3. [q3] | 7 `search_web` + 3 `read_url_content` |
+| Researcher B | [Angle 2] | 1. [q1] 2. [q2] 3. [q3] | 7 `search_web` + 3 `read_url_content` |
+| Researcher C | [Angle 3] | 1. [q1] 2. [q2] 3. [q3] | 7 `search_web` + 3 `read_url_content` |
 
 **Synthesis lead**: Will review findings and may send 1-2 follow-up questions to any researcher.
 
@@ -81,10 +81,11 @@ You are a research specialist on team "research-sprint". Your name is "researche
 3. [question 3]
 
 **Instructions**:
-1. Use WebSearch to find current data (2025-2026 sources preferred)
-2. For each finding, record: the data point, the source URL, and one actionable implication
-3. Write your findings to: .tmp/research-sprint/[angle-slug].md
-4. After writing, send a message to "synthesizer" with a 3-sentence summary of your top findings
+1. Use `search_web` (5-7 calls) to find current data (2025-2026 sources preferred)
+2. Use `read_url_content` (2-3 calls) to read full pages from the most promising search results
+3. For each finding, record: the data point, the source URL, and one actionable implication
+4. Write your findings to: .tmp/research-sprint/[angle-slug].md
+5. After writing, send a message to "synthesizer" with a 3-sentence summary of your top findings
 
 **Output format**:
 ## [Angle Name] — Research Findings
@@ -102,7 +103,7 @@ You are a research specialist on team "research-sprint". Your name is "researche
 - Recency: [most recent source date]
 - Confidence: [High/Medium/Low]
 
-**IMPORTANT**: If you receive a follow-up question from the synthesizer, investigate it using additional WebSearch calls, update your findings file, and reply with the answer.
+**IMPORTANT**: If you receive a follow-up question from the synthesizer, investigate it using additional `search_web` + `read_url_content` calls, update your findings file, and reply with the answer.
 ```
 
 #### Synthesizer Prompt
@@ -174,13 +175,18 @@ The orchestrator waits for the synthesizer's completion message. During this tim
 
 This bidirectional communication is the Tier 2 advantage over `/parallel-research`.
 
-### 4. Deliver the Brief
+### 4. Quality Gate + Deliver the Brief
 
 After the synthesizer signals completion:
 
 1. Read `.tmp/research-sprint/synthesis-brief.md`
-2. Present the full brief to the user
-3. Suggest next steps:
+2. Run the research quality gate:
+   ```bash
+   python3 execution/research_quality_gate.py validate .tmp/research-sprint/synthesis-brief.md
+   ```
+3. If the gate fails, fix the specific issues identified before presenting to user
+4. Present the full brief to the user
+5. Suggest next steps:
    - `/brief` for a full McKinsey-grade strategy document using these findings
    - `/roundtable` to debate the recommended actions with expert agents
    - `/launch-day` if the research validates a content push

@@ -42,24 +42,26 @@ Using the inputs above and the `consumer-gap-diagnostic.md` prompt, produce:
 This is the AI-augmented research layer. Mine REAL consumer conversations:
 
 **Reddit Mining** (primary source):
-- Search relevant subreddits for threads where consumers discuss their problems, frustrations, and desires
-- Use Perplexity for targeted searches: "site:reddit.com [industry] [consumer pain point]"
+- Use `search_web` for targeted searches: `"site:reddit.com [industry] [consumer pain point]"`
+- Use `read_url_content` to read the top 3-5 most relevant Reddit threads in full
 - Extract 30-50 verbatim quotes
 - Organize by theme (frustrations, desires, identity tensions, decision factors)
 
 **Review Mining**:
-- Amazon reviews, G2, Trustpilot, app store reviews for competitors
+- Use `search_web` for Amazon reviews, G2, Trustpilot, app store reviews for competitors
+- Use `read_url_content` to read full review pages
 - Extract: What people love, hate, and wish existed
 - Look for "finally" moments — "I finally found..."
 
 **Forum/Community Mining**:
-- Facebook groups, Quora, niche forums
+- Use `search_web` for Facebook groups, Quora, niche forums
+- Use `read_url_content` to read full discussion threads
 - Find decision-making language, objections, what they've tried before
 
-**Perplexity Research**:
-- Industry trends affecting consumer behavior
-- Emerging needs and underserved segments
-- Competitive landscape consumer positioning
+**Deep Research** (tiered tool strategy from `directives/research-protocol.md`):
+- **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — check `.agent/perplexity-usage.json` budget first
+- **Priority 2**: `search_web` (free, unlimited) — for additional gap-filling
+- Topics: Industry trends affecting consumer behavior, emerging needs, competitive landscape consumer positioning
 
 ### 4. Compile Research Deliverables
 

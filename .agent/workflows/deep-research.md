@@ -42,7 +42,7 @@ Read `.agent/perplexity-usage.json`. Estimate ~$0.75-1.50 for this run (2-3 `son
 
 - **If budget > $3**: Proceed with full deep research.
 - **If budget $1-3**: Run with 1 deep research query instead of 2-3. Notify user.
-- **If budget < $1**: Degrade to `/research-sprint` (free, WebSearch-only). Notify user: "Perplexity budget low — running research sprint instead of deep research."
+- **If budget < $1**: Degrade to `/research-sprint` (free, `search_web` + `read_url_content` only). Notify user: "Perplexity budget low — running research sprint instead of deep research."
 
 ### Step 1 — Scope & Deploy Plan
 
@@ -90,11 +90,11 @@ Wait for user approval.
 
 ### Step 2 — Perplexity Deep Research Foundation
 
-Execute 2-3 `sonar-deep-research` queries ($0.25 each) using the Perplexity MCP tools.
+Execute 2-3 `sonar-deep-research` queries ($0.25 each).
 
 **Tool Selection** (in priority order):
-1. **MCP Tool** (preferred): Use `mcp__perplexity-ask__perplexity_research` for deep research queries. This uses the `sonar-deep-research` model natively.
-2. **Python Client** (fallback): If MCP tool unavailable, run via `execution/perplexity_client.py`:
+1. **Perplexity Sonar MCP** (preferred): If the Perplexity Sonar MCP server is configured and supports `sonar-deep-research`, use it directly. See `directives/mcp-research-setup.md` for setup.
+2. **Python Client** (reliable fallback): Run via `execution/perplexity_client.py`:
    ```bash
    cd "/Users/farricecain/Google Antigravity" && python3 -c "
    from execution.perplexity_client import PerplexityClient, load_env
@@ -106,8 +106,18 @@ Execute 2-3 `sonar-deep-research` queries ($0.25 each) using the Perplexity MCP 
    for c in result.citations: print(c)
    "
    ```
+3. **Research Engine** (orchestrated): For full decomposed research, use the engine:
+   ```bash
+   python3 execution/deep_research_engine.py --depth deep "[QUERY]"
+   ```
 
-**Sub-agents**: When spawning parallel agents in Step 3, each agent should use the MCP Perplexity tools directly for supplementary queries if available, or WebSearch as the primary tool.
+**Sub-agents** (Step 3): Each parallel agent uses the free-tier research stack:
+- `search_web` — 5-7 calls per agent (free, unlimited)
+- `read_url_content` — 2-3 calls per agent for deep page reads (free, unlimited)
+- `perplexity_ask` (basic sonar via MCP) — 1-2 calls per agent for synthesis (cheap, ~$0.01)
+- Tavily MCP (`tavily_search`) — structured search alternative if configured
+
+Full sub-agent research protocol: `.agent/workflows/swarm-research.md`
 
 **Query 1 — Core Research** (MANDATORY):
 Collapse the main question with key sub-dimensions using the Collapsing Rule. Example:
@@ -181,7 +191,7 @@ The foundation above is your STARTING POINT, not your ceiling. Your job is to go
 - Data that contradicts or nuances the foundation
 - Expert opinions and contrarian perspectives
 
-**Tool budget**: [X] WebSearch + [Y] WebFetch
+**Tool budget**: [X] `search_web` + [Y] `read_url_content`
 **Output**: Write findings to .tmp/deep-research/angle-[N]-[slug].md
 
 ## Output Format
@@ -213,9 +223,9 @@ The foundation above is your STARTING POINT, not your ceiling. Your job is to go
 
 | Agent | Role | What They Mine | Tool Budget |
 |---|---|---|---|
-| **Agent A: Pattern Hunter** | Real market patterns, growth signals, timing indicators | Industry reports, trend data, growth trajectories, market shifts, hiring patterns, funding signals, technology adoption curves | 7 WebSearch + 3 WebFetch |
-| **Agent B: Psychology Miner** | Real human motivations, language, identity triggers, jobs-to-be-done | Reddit threads, YouTube comments, Amazon reviews, forum posts, Quora, social media discourse, product review sites | 7 WebSearch + 5 WebFetch |
-| **Agent C: Contrarian Scout** | What everyone else misses — failures, counter-narratives, hidden risks, non-obvious opportunities | Failed products in the space, critical reviews, academic research, contrarian experts, historical analogues, regulatory risks | 7 WebSearch + 3 WebFetch |
+| **Agent A: Pattern Hunter** | Real market patterns, growth signals, timing indicators | Industry reports, trend data, growth trajectories, market shifts, hiring patterns, funding signals, technology adoption curves | 7 `search_web` + 3 `read_url_content` |
+| **Agent B: Psychology Miner** | Real human motivations, language, identity triggers, jobs-to-be-done | Reddit threads, YouTube comments, Amazon reviews, forum posts, Quora, social media discourse, product review sites | 7 `search_web` + 5 `read_url_content` |
+| **Agent C: Contrarian Scout** | What everyone else misses — failures, counter-narratives, hidden risks, non-obvious opportunities | Failed products in the space, critical reviews, academic research, contrarian experts, historical analogues, regulatory risks | 7 `search_web` + 3 `read_url_content` |
 
 **Agent B (Psychology Miner) is the key differentiator.** This agent specifically:
 - Farms real human comments and language from communities
@@ -240,7 +250,7 @@ After all 3 agents return, read their outputs plus the foundation. Synthesize:
 
 **4b. Contradiction Resolution**
 - Where do agents disagree? Which has stronger evidence?
-- If unresolvable: run 1-2 targeted follow-up WebSearch queries to triangulate
+- If unresolvable: run 1-2 targeted follow-up `search_web` queries to triangulate
 - Document contradictions that remain — these are often the most valuable insights
 
 **4c. Pattern Elevation**
@@ -253,7 +263,7 @@ After all 3 agents return, read their outputs plus the foundation. Synthesize:
 
 ---
 
-### Step 5 — Adversarial Challenge Round
+### Step 5 — Adversarial Challenge Round + Quality Gate
 
 Before finalizing, pressure-test the synthesis:
 
@@ -263,6 +273,12 @@ Before finalizing, pressure-test the synthesis:
 4. **Steelman the Opposition**: Present the best version of the counter-argument. Does the thesis survive?
 5. **Source Quality Audit**: Flag any findings resting on a single source or uncorroborated claims. Mark confidence levels.
 6. **Prediction Audit**: For each prediction, assign High/Medium/Low confidence and state what would need to be true for it to fail.
+
+**Research Quality Gate** (mandatory before Step 6):
+```bash
+python3 execution/research_quality_gate.py validate .tmp/deep-research/foundation-compressed.md --strict
+```
+Must pass: source count ≥ 15, provenance ≥ 80%, no echo chamber, time-sensitive data from 2024+.
 
 ---
 
@@ -380,7 +396,7 @@ research_outputs/
 | Component | Cost | Time |
 |-----------|------|------|
 | Perplexity Deep Research (2-3 queries) | $0.50-0.75 | 30-90 seconds |
-| 3 Parallel Agents (WebSearch + WebFetch) | Free | 2-5 minutes |
+| 3 Parallel Agents (`search_web` + `read_url_content`) | Free | 2-5 minutes |
 | Synthesis + Adversarial | Free | 1-2 minutes |
 | **Total** | **$0.50-0.75** | **4-8 minutes** |
 

@@ -69,11 +69,18 @@ Use `mcp_perplexity-ask_perplexity_ask` for each:
 3. **Competitive Intelligence**: `"Who are the top 5-10 competitors in [niche]? What are their pricing models, positioning, and key weaknesses?"`
 4. **Opportunities + Gaps**: `"What gaps exist in the [niche] market that new entrants could exploit? Include emerging trends and underserved segments."`
 
-### Step 3C: Supplementary Web Search
+### Step 3C: Supplementary Web Search + Deep Reads
 
 Use `search_web` for anything Perplexity didn't cover:
 - SERP/SEO landscape: `"[niche] keywords site:ahrefs.com OR site:semrush.com"`
 - Programs/options: `"[niche] programs options alternatives"`
+
+For the top 3-5 most promising results, use `read_url_content` to get full page content.
+
+**Alternative — Research Engine** (automatic decomposition + parallel execution):
+```bash
+python3 execution/deep_research_engine.py --depth deep "[niche] strategic landscape"
+```
 
 ### Step 3D: Log & Tag
 1. Log all Perplexity queries to `.agent/perplexity-usage.json`
@@ -135,7 +142,12 @@ Use `search_web` for anything Perplexity didn't cover:
 
 ## Phase 5: Quality Gate & Red Team Validation
 
-Before delivering, verify:
+Before delivering, run the research quality gate:
+```bash
+python3 execution/research_quality_gate.py validate strategy_briefs/Strategy_Brief_[Niche_Clean_Name].md
+```
+
+Then verify manually:
 
 - [ ] Every data point has a source
 - [ ] Every insight has an action

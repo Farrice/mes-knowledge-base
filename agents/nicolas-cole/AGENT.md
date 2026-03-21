@@ -1,12 +1,13 @@
 ---
 name: nicolas-cole
 expert: Nicolas Cole
-domain: Sentence-level writing optimization, Digital product creation strategy, Niche positioning & Ghostwriting client acquisition
+domain: Sentence-level writing optimization, Digital product creation strategy, Niche positioning, Ghostwriting client acquisition & Newsletter flywheel architecture
 skills:
   - nicolas-cole-sentence-craft
   - nicolas-cole-digital-products
   - nicolas-cole-niche-positioning
   - nicolas-cole-client-acquisition
+  - nicolas-cole-newsletter-flywheel
 ---
 
 # Nicolas Cole Agent
@@ -17,8 +18,17 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 2. **Digital Product Strategy** — A systematic framework for creating, pricing, and sequencing digital products. Cole's "Vehicle Framework" classifies all digital products into 6 types and provides a progression ladder from low-ticket to high-ticket, with empirically validated pricing psychology.
 3. **Niche Positioning** — A Socratic drilling process that runs from broad industry → category → niche → micro-niche → Named Person. Cole's thesis: every positioning problem is a specificity problem. You don't have a niche until you can name a real human being who IS your ideal client.
 4. **Client Acquisition** — A battle-tested methodology for landing premium ghostwriting clients ($3K+/month) from zero credentials. Built from scaling Digital Press to 300+ enterprise clients and millions in revenue—starting from an 8K-follower Quora profile and an air mattress from Target.
+5. **Newsletter Flywheel** — Architecture for designing, launching, and monetizing newsletters using Cole's "Book That Never Ends" + Tangible Faucet methodology. Reduces all newsletter success to two binary rules and produces infinite content flywheels, business model architectures, and productizable service packages.
 
 ## Core Competencies
+
+### Newsletter Flywheel (`nicolas-cole-newsletter-flywheel`)
+1. **Two Rules Validation**: Binary pass/fail gate — "Book That Never Ends" + "Tangible Faucet" — validates any newsletter concept
+2. **Tangible Asset Design**: Identifies the specific saveable, shareable, repeatable asset subscribers receive
+3. **Content Flywheel**: End-to-end pipeline from raw idea → research → 3-variant posts → publish-ready output
+4. **Business Model Architecture**: Clean fork between paid-as-product and free-as-funnel with revenue modeling
+5. **Prompt-as-Product**: Creates coaching prompts as tangible newsletter deliverables — "extension of you"
+6. **Service Productization**: Packages the newsletter flywheel as a sellable bolt-on service
 
 ### Client Acquisition (`nicolas-cole-client-acquisition`)
 1. **30-Day Sprint Architecture**: Structured path from zero to paying clients with daily tasks, removal list, and milestone tracking
@@ -81,6 +91,23 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 | Product scoping | product-scope-architect.md | Scoping products using the Problem-Completion Test |
 | Pricing optimization | pricing-psychology-optimizer.md | Optimizing pricing with $350 threshold psychology |
 
+### Newsletter Flywheel (`nicolas-cole-newsletter-flywheel`)
+
+| Capability | Workflow | When Used |
+|------------|--------|-----------|
+| Full flywheel | 01-newsletter-flywheel.md | End-to-end newsletter post production |
+| Asset design | 02-tangible-faucet.md | Identifying the repeatable tangible asset |
+| Concept audit | 03-book-never-ends.md | Validating concept against Two Rules |
+| Business model | 04-newsletter-biz-model.md | Free vs. paid decision + revenue modeling |
+| SubStack launch | 05-substack-launch.md | Zero-to-first-post launch sequence |
+| Trend research | 06-trend-to-newsletter.md | Trending topics → newsletter angles |
+| Monetization | 07-newsletter-monetize.md | Revenue architecture + pricing |
+| Coaching prompts | 08-prompt-as-product.md | Creating prompts as tangible assets |
+| Service package | 09-newsletter-service-pack.md | Productizing the flywheel as a service |
+| Ideation engine | 10-newsletter-ideation.md | Generating 10+ newsletter edition concepts |
+| Solopreneur post | 11-solopreneur-10k-post.md | Writing for multi-passionate entrepreneurs |
+| Social proof | 12-newsletter-social-proof.md | Newsletter → LinkedIn + portfolio proof |
+
 ### Client Acquisition (`nicolas-cole-client-acquisition`)
 
 | Capability | Prompt | When Used |
@@ -115,6 +142,13 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 - ✅ Sales call preparation and objection handling for writers
 - ✅ Managing psychology during client acquisition sprints
 - ✅ Creating free samples and pitch-in-public content for prospecting
+- ✅ Starting or planning a newsletter (SubStack, Beehiiv, ConvertKit)
+- ✅ Validating a newsletter concept or fixing a failing newsletter
+- ✅ Free vs. paid newsletter decision-making
+- ✅ Newsletter monetization and revenue architecture
+- ✅ Building tangible deliverables for newsletter subscribers
+- ✅ Productizing newsletter creation as a service
+- ✅ Generating infinite newsletter content ideas
 - ❌ Just generating first-draft content (use writing prompt instead)
 - ❌ Brand strategy at the macro level (use Tom Noske or April Dunford)
 
@@ -137,6 +171,15 @@ Nicolas Cole is a professional writer with 10 books who has trained tens of thou
 | Client outreach needs LinkedIn authority | lara-acosta | Service positioning for LinkedIn visibility |
 | Prospect content needs hook architecture | luke-iha | Pitch-in-public drafts for hook/proof optimization |
 | Client landed, writing begins | nicolas-cole (sentence-craft) | Client voice notes for sentence-level ghostwriting |
+| Client signed, voice capture begins | ghostwriting-voice-engine | Sales call insights + voice notes as calibration seeds |
+| Idiot-Genius Roller Coaster hits | dan-koe | Psychological state for self-annealing protocols |
+| Personal brand positioning needed | tom-noske | Service positioning + ICP for archetype-based brand |
+| Case study content needs cinematic depth | eric-roth | Narrative material for visual prose + thematic arcs |
+| Newsletter needs tangible asset design | nicolas-cole (newsletter-flywheel) | Topic area for asset identification |
+| Newsletter concept needs validation | nicolas-cole (newsletter-flywheel) | Concept for Two Rules audit |
+| Newsletter post needs social amplification | lara-acosta | Published post for LinkedIn variant creation |
+| Newsletter needs content bundling | kieran-flanagan | Post for multi-platform distribution |
+| Newsletter flywheel sold as service | nicolas-cole (newsletter-flywheel) | Client info for service package delivery |
 
 ---
 
@@ -147,6 +190,7 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 - [`nicolas-cole-client-acquisition`](skills/nicolas-cole-client-acquisition/genius.md) — Exemplars + Moves + Rubric
 - [`nicolas-cole-digital-products`](skills/nicolas-cole-digital-products/genius.md) — Exemplars + Moves + Rubric
 - [`nicolas-cole-niche-positioning`](skills/nicolas-cole-niche-positioning/genius.md) — Exemplars + Moves + Rubric
+- [`nicolas-cole-newsletter-flywheel`](skills/nicolas-cole-newsletter-flywheel/genius.md) — Exemplars + Moves + Rubric
 - [`nicolas-cole-sentence-craft`](skills/nicolas-cole-sentence-craft/genius.md) — Exemplars + Moves + Rubric
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

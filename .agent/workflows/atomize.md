@@ -34,7 +34,7 @@ Handle input based on type:
 | Input Type | Action |
 |------------|--------|
 | YouTube URL | Run `python3 execution/fetch-transcript.py "[url]" "source"` to get transcript |
-| Blog URL | Use `WebFetch` to extract content |
+| Blog URL | Use `read_url_content` to extract content |
 | File path (`.md`, `.txt`) | Read directly |
 | Pasted text | Save to `.tmp/atomize/source-raw.md` |
 

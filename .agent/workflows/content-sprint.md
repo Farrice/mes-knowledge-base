@@ -58,7 +58,7 @@ Ask Farrice ONE question:
 
 ### Research Stack (run in parallel):
 
-1. **Trending signals** — Use WebSearch to scan:
+1. **Trending signals** — Use `search_web` to scan:
    - LinkedIn trending topics in ghostwriting, content strategy, personal branding
    - Recent posts getting traction from competitors/adjacent creators
    - Industry news affecting Farrice's ICP (consultants, coaches, founders losing to visibility)

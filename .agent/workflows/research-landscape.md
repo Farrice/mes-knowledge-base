@@ -62,7 +62,15 @@ Collect 4 inputs. Ask for anything missing; infer what you can from context.
 ### Steps
 
 1. **Check Perplexity budget**: Read `.agent/perplexity-usage.json`
-2. **Execute 3-5 targeted queries** (Perplexity if budget available, `search_web` / `WebSearch` fallback):
+2. **Execute 3-5 targeted queries** using the tiered tool strategy:
+   - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Perplexity Sonar via MCP) if budget allows
+   - **Priority 2**: `search_web` (free, unlimited) — the workhorse for most queries
+   - **Priority 3**: `read_url_content` (free, unlimited) — for deep page reads from top results
+
+   **Alternative — Research Engine** (automatic decomposition + parallel execution):
+   ```bash
+   python3 execution/deep_research_engine.py --depth standard "[domain] landscape analysis"
+   ```
 
 | Query Type | Purpose | Template |
 |------------|---------|----------|
@@ -313,7 +321,7 @@ Before finalizing, run an adversarial check (reuse from `/research-topic`):
 
 ### Parallelism
 
-For large domains, Phase 1 queries can run in parallel (multiple `WebSearch` calls). Phase 3 depth mining is sequential — each topic's depth layer benefits from patterns identified in previous topics.
+For large domains, Phase 1 queries can run in parallel (multiple `search_web` calls). Phase 3 depth mining is sequential — each topic's depth layer benefits from patterns identified in previous topics.
 
 ### Token Efficiency
 
@@ -328,3 +336,7 @@ For large domains, Phase 1 queries can run in parallel (multiple `WebSearch` cal
 - **No recycled trends**: Check dates on sources. "2026 trends" articles published in 2024 are suspect.
 - **Depth test**: If "the truth underneath" for any topic reads like a summary rather than an insight, revise it using the 4-question Depth Mining Protocol until it passes.
 - **Universality check**: The workflow must work equally well for "executive coaching," "drone photography," "SaaS pricing," or "ancient philosophy." If any phase assumes a specific domain, it's not universal enough.
+- **Quality gate**: For `--use-case strategy` or deep output, run before finalization:
+  ```bash
+  python3 execution/research_quality_gate.py validate [output-file-path]
+  ```

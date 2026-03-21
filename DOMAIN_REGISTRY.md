@@ -76,6 +76,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Jun Yuh** | PERSONAL BRAND CONTENT | Content calendars, formats, silent film method |
 | **Brock Johnson** | SHAREWORTHY | Social-first content, shareability engineering |
 | **Authority Hacker** | AI SOCIAL | AI production velocity for social — packaging thinking, not replacing it |
+| **Grace Andrews** | MEDIA COMPANY | Audience-as-city architecture, content portfolio strategy, trust-based monetization |
 
 ### Routing Logic
 
@@ -99,7 +100,8 @@ When you make a request, I route to the right expert using this registry. I will
 ├── Personal brand build → Jun Yuh
 ├── Storytelling angle → Shaan Puri
 ├── TikTok commerce → Seena Rez
-└── AI social media → Authority Hacker
+├── AI social media → Authority Hacker
+└── Creator-to-media company → Grace Andrews
 ```
 
 ---
@@ -513,6 +515,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Brock Johnson** | SHAREWORTHY | Social-first content, shareability engineering |
 | **Seth Godin** | IDEA PROPAGATION | Virusworthiness, sneeze-network design, permission marketing |
 | **Adam Enfroy** | BLOG GROWTH | Niche blog strategy, affiliate funnels, content velocity |
+| **Grace Andrews** | MEDIA COMPANY BUILD | Content portfolio strategy, city map architecture, trust-pathway monetization |
 
 ### Routing Logic
 
@@ -523,7 +526,8 @@ When you make a request, I route to the right expert using this registry. I will
 ├── Blog/SEO → Adam Enfroy
 ├── Community → Sabrina Ramonov (from Domain 8) or Shan Hanif
 ├── Ideas that spread → Seth Godin
-└── Social shareability → Brock Johnson
+├── Social shareability → Brock Johnson
+└── Creator-to-media company transition → Grace Andrews
 
 "Start a newsletter"
 └── Tyler Denk

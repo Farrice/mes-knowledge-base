@@ -41,9 +41,9 @@ Parse the user's input to determine mode:
 
 Read `.agent/perplexity-usage.json`. Estimate 2-3 Perplexity queries for this session (~$0.10-0.15 using `sonar-pro`).
 
-- **If budget > $5**: Proceed with full research (3 queries).
-- **If budget $2-5**: Run with 2 queries. Supplement with WebSearch for secondary data.
-- **If budget < $2**: Degrade to WebSearch-only mode. Notify user: "Perplexity budget low — running with web search only. Data quality may be reduced."
+- **If budget > $5**: Proceed with full research (3 queries via `mcp_perplexity-ask_perplexity_ask`).
+- **If budget $2-5**: Run with 2 queries. Supplement with `search_web` + `read_url_content` for secondary data.
+- **If budget < $2**: Degrade to `search_web` + `read_url_content` only mode. Notify user: "Perplexity budget low — running with web search only. Data quality may be reduced."
 
 ### Step 1 — Load Context
 
@@ -139,10 +139,12 @@ python execution/live_trader.py milestone                       # 500-bet progre
 **Phase 3 conservative limits**: 2% max single bet, 8% max daily exposure, min confidence 3, min edge 1.5 pts, max 5 picks/day. Drawdown alert at >20% from peak. 500-bet milestone before drawing conclusions.
 
 ### Perplexity — Injury Reports & Narrative Context ONLY
-Perplexity is now used ONLY for data that nba_api cannot provide:
+`mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) is now used ONLY for data that nba_api cannot provide:
 - Same-day injury reports and lineup confirmations
 - Narrative context (revenge games, playoff implications, coaching changes)
 - Line movement and sharp money signals
+
+**Fallback**: If Perplexity budget is low, use `search_web` + `read_url_content` for injury reports and narrative context.
 
 **Slate scan** (Phase 1):
 "NBA games [today's date] full injury report confirmed starting lineups back-to-back schedule"
