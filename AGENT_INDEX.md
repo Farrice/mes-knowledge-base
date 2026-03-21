@@ -21,6 +21,7 @@
 | `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | brand statement craft, buyer optimization, content authenticity & ai workflow, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
+| `chris-cimorelli` | **chris-cimorelli** | big idea architecture, copy diagnostics, financial direct response copywriting, front-end / back-end funnel strategy, momentum copy craft, promotion architecture, proof hierarchy engineering |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
@@ -38,6 +39,7 @@
 | `ethan-smith` | **Ethan Smith** | aeo, answer engine optimization, experimental search methodology, rag citation mechanics, search optimization architect |
 | `fareed-zakaria` | **Fareed Zakaria** | argument architecture, clarity first, one idea discipline, writing mastery |
 | `futurepedia` | **Futurepedia: Prompt Engineering Virtuoso** | context extraction interview, expert discovery protocol, expert framework extraction, meta-prompt synthesis, plan abandonment prevention, prompt engineering virtuoso |
+| `grace-andrews` | **Grace Andrews** | media company brand architect |
 | `greg-hoffman` | **Agent: Greg Hoffman** | greg hoffman |
 | `harry-dry` | **Harry Dry: Copywriting Precision Master** | conflict architecture, copywriting precision master, rewrite discipline, three rules evaluation, visual-verbal synthesis, zoom-in technique |
 | `heath-brothers` | **heath-brothers** | commander's intent extraction, concrete translation, emotional authenticity, idea stickiness, knowledge gap creation, message design, schema violation engineering |
@@ -62,7 +64,7 @@
 | `lindsay` | **lindsay** | ai consulting sales + client acquisition + multi-channel outreach, multi-channel orchestration, proof building, revenue positioning, robot speak elimination, temperature calibration |
 | `logan-kilpatrick` | **Logan Kilpatrick** | google ai studio, speed over perfection, ui-first prototyping, vibe coding |
 | `lucas-alpay` | **Lucas Alpay** | storytelling architect |
-| `luke-iha` | **luke-iha** | awareness-level advertising, business operations, client mastery, copywriting systems, creative strategy, mechanism engineering, proof ladder architecture, proof mechanisms, vsl architecture |
+| `luke-iha` | **luke-iha** | awareness-level advertising, business operations, client mastery, copywriting systems, creative strategy, mechanism engineering, proof ladder architecture, proof mechanisms, vicious hook mastery, vsl architecture |
 | `lulu-cheng-meservey` | **Lulu Cheng Meservey** |  |
 | `manus-ai` | **Manus.ai** | ai consulting, multi-source synthesis, query architecture, research to action |
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
@@ -77,7 +79,7 @@
 | `nate-herk` | **Nate Herk** | signature advantage |
 | `nathan-gotch` | **nathan-gotch** | "what ai can't fake" filter, ai seo and retrieval layer optimization, brand narrative control, citation intelligence, measurement-first philosophy, retrieval layer positioning |
 | `nick-saraev` | **Nick Saraev** | agentic workflows, do framework, horizontal leverage, self-annealing systems |
-| `nicolas-cole` | **nicolas-cole** | digital product creation strategy, niche positioning, sentence-level writing optimization |
+| `nicolas-cole` | **nicolas-cole** | digital product creation strategy, ghostwriting client acquisition, niche positioning, sentence-level writing optimization |
 | `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |

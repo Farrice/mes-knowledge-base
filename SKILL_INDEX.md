@@ -26,6 +26,7 @@
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 3 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai copywriting mastery | 5 | 45 |
+| `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | built from agora's #1 newsletter promo copywriter, financial direct response copywriting | 3 | 0 |
 | `consumer-posture-research` | **consumer-posture-research** | produces complete consumer posture profiles for strategic clarity | 0 | 0 |
 | `creative-assembly` | **creative-assembly** |  | 0 | 3 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
@@ -56,6 +57,7 @@
 | `futurepedia-prompt-engineering` | **Futurepedia Prompt Engineering** |  | 4 | 18 |
 | `gemini-api-dev` | **gemini-api-dev** |  | 0 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** |  | 3 | 0 |
+| `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | media company architecture | 13 | 0 |
 | `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | brand mastery | 5 | 0 |
 | `growth-ecosystems` | **Growth Ecosystems — Vincent Hu** | complete system from niche to $100k/month with <5k followers, vincent hu | 10 | 0 |
 | `harry-dry-copywriting` | **Harry Dry Copywriting** |  | 3 | 14 |
@@ -98,8 +100,8 @@
 | `luke-iha-proof-ladder` | **Luke Iha: Proof Ladder Architecture** | the meta-framework for progressive trust engineering, includes the master proof copy engine for end-to-end multi-platform copywriting, proof ladder architecture | 13 | 0 |
 | `luke-iha-proof-mechanisms` | **Luke Iha: Proof Mechanisms in Copywriting** | proof mechanisms in copywriting | 5 | 13 |
 | `luke-iha-unaware-ads` | **Luke Iha: Unaware Ads & Awareness-Level Conversion** | unaware ads & awareness-level conversion | 7 | 0 |
+| `luke-iha-vicious-hooks` | **Luke Iha: Vicious Hook Mastery** | write hooks so emotionally violent the reader physically cannot scroll past, the quality layer for hook writing — the 8 vicious hook principles, vicious hook mastery | 12 | 0 |
 | `luke-iha-vsl-leads` | **Luke Iha: VSL Lead Mastery** | vsl lead mastery | 4 | 0 |
-| `luke-iha-vicious-hooks` | **Luke Iha: Vicious Hook Mastery** | the quality layer for hook writing — 8 vicious hook principles, hook auditing, germanic word forge, vicious hook mastery | 12 | 0 |
 | `lulu-cheng-meservey-communications` | **Lulu Cheng Meservey: Communications Strategy & Narrative Architecture** | communications strategy & narrative architecture | 3 | 14 |
 | `made-to-stick-messaging` | **Made to Stick Messaging (Dan & Chip Heath)** |  | 4 | 36 |
 | `manus-ai-consulting` | **Manus.ai: AI Consulting Mastery** | ai consulting mastery | 4 | 14 |
@@ -127,11 +129,13 @@
 | `nba-betting-edge` | **NBA Betting Edge: Player Prop & Parlay Prediction System** | player prop & parlay prediction system | 3 | 0 |
 | `nick-saraev-agentic-workflows` | **Nick Saraev: Agentic Workflows Mastery** | agentic workflows mastery | 5 | 39 |
 | `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | bottleneck thinking | 3 | 0 |
+| `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** |  | 3 | 9 |
 | `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | digital product creation strategy | 2 | 6 |
 | `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche positioning | 2 | 0 |
 | `nicolas-cole-sentence-craft` | **Nicolas Cole Sentence Craft** |  | 3 | 14 |
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
+| `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | personal brand business architect | 4 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | luxury psychology & premium market positioning | 3 | 9 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational systems | 3 | 7 |
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | repositioning & creative direction | 3 | 7 |
