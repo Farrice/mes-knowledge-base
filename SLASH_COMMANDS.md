@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (355 Commands)
+# 🚀 Antigravity Workflows — Complete Index (360 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -469,6 +469,17 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 🚀 LinkedIn Growth Flywheels — Diandra Escobar (5)
+| Command | What It Does |
+|---------|-------------|
+| `/diandra-growth-sprint` | End-to-end growth post flywheel — entity → research → 3 angles → 3 post variations + boomerang strategy |
+| `/diandra-content-engine` | Daily content production engine — topic + bucket → enrichment → body-first → 5 hooks + 3 format variations + cross-platform |
+| `/diandra-steal-and-remix` | Content sourcing flywheel — find viral posts → extract structural patterns → 3 original remixes + mechanic library |
+| `/jackpost` | Universal borrowed-attention engine — auto-detect jack type, research, produce platform-native content (LinkedIn, X, Substack, email) |
+| `/growth-format-sprint` | Batch growth production — scan trending entities, rank by potential, produce 3-5 posts in parallel across all jack types |
+
+---
+
 ## 🧩 AI Brain Builder (5)
 | Command | What It Does |
 |---------|-------------|
@@ -750,6 +761,11 @@ You don't need to remember command names. These common phrases automatically map
 | "adapt for platform" / "platform-native" / "rewrite for Instagram" | `platform-adapt` |
 | "spy on competitors" / "competitor content" | `competitor-content-spy` |
 | "content series plan" / "plan a series" | `content-series-plan` |
+| "growth post" / "borrowed attention" / "brandjack" / "newsjack" / "namejack" | `diandra-growth-sprint` |
+| "daily content engine" / "body-first writing" / "content bucket" | `diandra-content-engine` |
+| "steal and remix" / "study viral posts" / "mechanic library" / "reverse engineer post" | `diandra-steal-and-remix` |
+| "jackpost" / "cross-platform post" / "entity post for X" / "entity post for email" | `jackpost` |
+| "growth sprint" / "batch growth posts" / "week of growth content" / "fill growth bucket" | `growth-format-sprint` |
 
 ---
 
