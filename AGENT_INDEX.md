@@ -32,6 +32,7 @@
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
 | `david-mcraney` | **David McRaney** | belief change architect |
 | `david-placek` | **Agent: David Placek** | david placek |
+| `diandra-escobar` | **diandra-escobar** | 4-bucket content funnel, attention redirection, audience acquisition, body-first writing process, content sourcing at scale, content system architecture, growth content formats, infrastructure architecture, linkedin algorithmic growth, strategic engagement |
 | `donald-miller` | **donald-miller** | business messaging, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, narrative marketing, peace framework mastery, storybrand, storybrand sb7 mastery, strategic messaging |
 | `dr-kriukow` | **Dr. Kriukow** | agent configuration, ai detection mechanics, ai text humanization, meaning-first rewriting, platform-specific humanization, structural analysis |
 | `eric-roth` | **Eric Roth: Oscar-Level Writing Virtuoso** | oscar-level writing virtuoso |

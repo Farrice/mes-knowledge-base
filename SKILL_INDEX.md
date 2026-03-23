@@ -24,7 +24,7 @@
 | `brand-guidelines` | **brand-guidelines** |  | 0 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** |  | 3 | 10 |
-| `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 7 | 19 |
+| `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 11 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai copywriting mastery | 5 | 45 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | built from agora's #1 newsletter promo copywriter, financial direct response copywriting | 3 | 0 |
@@ -43,6 +43,7 @@
 | `david-mcraney-belief-change` | **David McRaney: Belief Change Architecture** | belief change architecture | 3 | 14 |
 | `david-placek-naming` | **David Placek — Brand Naming Science** | brand naming science | 6 | 11 |
 | `design-md` | **design-md** | analyze stitch projects and synthesize a semantic design system into design, md files | 0 | 0 |
+| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | linkedin growth mastery | 14 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
 | `donald-miller-culture-turnaround` | **Donald Miller - Culture Turnaround Mastery** | culture turnaround mastery | 4 | 21 |
