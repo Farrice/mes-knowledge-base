@@ -35,6 +35,7 @@
 | **Lara Acosta** | LinkedIn Content, B2B Personal Branding | Active | `@lara-acosta` |
 | **Josh Sanders** | LinkedIn Growth & Funnels | Active | `@josh-sanders` |
 | **Omar Eltakrori** | Personal Brand Business, Challenges, High-Ticket Coaching | Active | `@omar-eltakrori` |
+| **Ocean Vuong** | Perceptual Writing, Estrangement, Anti-Homogenization | Active | `@ocean-vuong` |
 
 **Status Key:**
 - **Active** = Agent folder exists with full AGENT.md, ready to invoke
@@ -70,6 +71,7 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 | Shaan Puri | Story frameworks, hook formulas, engagement patterns |
 | Harry Dry | Marketing examples, copy breakdowns, swipe file wisdom |
 | Mitch Albom | Premium writing, emotional architecture, dialogue |
+| Ocean Vuong | Perceptual writing, estrangement, image-first prose |
 | Dan Wang | Observational writing, long-form, analytical depth |
 
 **When to use:** Content creation, newsletter writing, story development, writing improvement
@@ -240,6 +242,13 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 - **Key Frameworks:** Theme-First Architecture, Gravedigger Technique, Endings-First Navigation, Character Transformation Mapping
 - **Invoke:** `@mitch-albom` or premium writing/storytelling requests
 - **Status:** Active (agent + skill)
+
+#### Ocean Vuong
+- **Domain:** Perceptual Writing, Estrangement, Anti-Homogenization
+- **Skill Path:** `skills/ocean-vuong-perceptual-writing/`
+- **Key Frameworks:** Species Test, Estrangement Engine, Poietic Threshold, Cliché Rescue Protocol, Recognition Workshop
+- **Invoke:** `@ocean-vuong` or perceptual writing/estrangement/defamiliarization/anti-AI-slop requests
+- **Status:** Active (skill)
 
 #### Dan Wang
 - **Domain:** Long-form Writing, Observation, Analysis
@@ -425,5 +434,5 @@ This registry integrates with:
 ---
 
 *Last updated: 2026-01-24*
-*Total Experts: 25 (25 active, 0 pending)*
+*Total Experts: 26 (26 active, 0 pending)*
 *Total Councils: 5*

@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-03",
     "usage": {
-        "total_queries": 62,
-        "estimated_cost_usd": 1.54,
+        "total_queries": 65,
+        "estimated_cost_usd": 2.29,
         "queries": [
             {
                 "timestamp": "2026-03-06T20:55:35.428796+00:00",
@@ -500,6 +500,30 @@
                 "description": "Based on these research findings, provide a clear synthesis answering: LinkedIn ghostwriting retainer pricing for coaches and consultants 2025\n\nFindings:\n- **LinkedIn ghostwriting retainer pricing for",
                 "task_context": "research-engine-synthesis",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-03-23T21:25:56.938682+00:00",
+                "type": "research",
+                "model": "sonar-deep-research",
+                "description": "Comprehensive analysis of strength and conditioning coaches and performance coaches as a niche for LinkedIn ghostwriting and newsletter creation services in 2025-2026.\n\nResearch these specific dimensi",
+                "task_context": "",
+                "estimated_cost": 0.25
+            },
+            {
+                "timestamp": "2026-03-23T21:32:01.486520+00:00",
+                "type": "research",
+                "model": "sonar-deep-research",
+                "description": "What are the real psychological drivers, jobs-to-be-done, frustrations, and aspirations of strength and conditioning coaches and performance coaches when it comes to building their personal brand and ",
+                "task_context": "",
+                "estimated_cost": 0.25
+            },
+            {
+                "timestamp": "2026-03-23T21:35:04.273182+00:00",
+                "type": "research",
+                "model": "sonar-deep-research",
+                "description": "What are the biggest criticisms, risks, and contrarian perspectives on targeting strength and conditioning coaches for LinkedIn ghostwriting and newsletter services?\n\nSpecifically research:\n1. Why mig",
+                "task_context": "",
+                "estimated_cost": 0.25
             }
         ]
     },
@@ -508,9 +532,9 @@
         "block_at_percent": 100
     },
     "loop_detection": {
-        "current_task_query_count": 1,
-        "current_task_name": "research-engine-synthesis",
-        "last_query_timestamp": "2026-03-21T12:42:55.285438+00:00",
+        "current_task_query_count": 3,
+        "current_task_name": "",
+        "last_query_timestamp": "2026-03-23T21:35:04.273182+00:00",
         "consecutive_low_info_queries": 0
     }
 }

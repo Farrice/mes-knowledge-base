@@ -420,6 +420,15 @@ ENTRY PROMPT: skills/mitch-albom-writing-mastery/SKILL.md
 PAIRS WITH: Dan Wang (literary analysis), Fareed Zakaria (argument structure)
 ```
 
+```
+AGENT: Ocean Vuong
+DOMAIN: Perceptual writing, estrangement, defamiliarization, anti-homogenization
+CORE METHOD: Species Test — asks "could any other writer's AI produce this?" If yes, delete it. Image-first composition through estrangement engine.
+BEST FOR: Breaking AI sameness, perceptual prose, cliché rescue, content that demands re-reading, anti-slop audits
+ENTRY PROMPT: skills/ocean-vuong-perceptual-writing/SKILL.md
+PAIRS WITH: Mitch Albom (emotional landing), Lara Acosta (LinkedIn estrangement)
+```
+
 ---
 
 ## Sales & Outreach (Extended)

@@ -112,8 +112,8 @@ If the state file doesn't exist or can't be read, fall back to the compacted sum
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-21 (chain_runner session checkpoint) |
-| **Activation Count** | 25 |
+| **Last Activated** | 2026-03-26 (chain_runner session checkpoint) |
+| **Activation Count** | 34 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (checkpoint written to `.agent/session-state.md`), update the date and increment count.

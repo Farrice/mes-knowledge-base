@@ -283,6 +283,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Lucas Alpay** | FICTION CRAFT | Story structure, character development, fiction writing |
 | **Fareed Zakaria** | ARGUMENT STRUCTURE | International analysis, argument architecture, essay construction |
 | **Robert Mack** | HUMOR | Truth-first comedy, wit engineering, comedic timing |
+| **Ocean Vuong** | PERCEPTUAL | Estrangement, defamiliarization, image-first prose, anti-homogenization |
 
 ### Routing Logic
 
@@ -294,12 +295,18 @@ When you make a request, I route to the right expert using this registry. I will
 ├── Audio dimension → Oscar Hoglund
 ├── Literary fiction → Jonathan Franzen
 ├── Fiction/character → Lucas Alpay
-└── Funny/humor → Robert Mack
+├── Funny/humor → Robert Mack
+└── Perceptual/estrangement → Ocean Vuong
 
 "Newsletter writing"
 ├── Analytical → Dan Wang
 ├── Emotional → Mitch Albom
-└── International/geopolitical → Fareed Zakaria
+├── International/geopolitical → Fareed Zakaria
+└── Defamiliarized/poetic → Ocean Vuong
+
+"Make this more original / less AI-sounding"
+├── Perceptual rewrite → Ocean Vuong
+└── Statistical depattern → Dr. Kriukow
 
 "Make this funnier"
 └── Robert Mack
@@ -701,6 +708,8 @@ Certain expert pairings produce force-multiplier results that exceed what either
 | **Vincent Hu** + **Luke Iha** | Ecosystem copy — Hu architects the growth system, Iha writes the conversion copy within it | Info business needing both system design and high-converting copy |
 | **Omar Eltakrori** + **Luke Iha** | Challenge funnel copy — Eltakrori architects the challenge model, Iha writes the ad copy + proof stacking for challenge enrollment | Running paid ads to web class/challenge funnel |
 | **Omar Eltakrori** + **Lara Acosta** | Brand-to-business pipeline — Eltakrori maps the monetization architecture (content → challenge → offer), Acosta executes LinkedIn personal brand content | Personal brand needing both platform execution and revenue architecture |
+| **Ocean Vuong** + **Mitch Albom** | Perceptual emotion — Vuong's estrangement engine defamiliarizes, Albom's emotional architecture lands the feeling | Premium content that must surprise AND move people |
+| **Ocean Vuong** + **Lara Acosta** | Poetic LinkedIn — Vuong's image-first prose + Acosta's SLAY formatting = LinkedIn posts that stop AND estrange | LinkedIn content that needs to break platform sameness |
 
 > [!TIP]
 > When a task matches a compound trigger, route to **both** experts — either via council or sequential handoff. The lead expert (listed first) sets strategy; the second expert executes their specialty within that frame.
