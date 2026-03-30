@@ -54,6 +54,34 @@ python3 execution/system_health.py
 
 ---
 
+## Step 3.5: Autoresearch Loop Intelligence
+
+Run the evolution readiness and gap analysis to feed into the pulse report:
+
+```bash
+# Skill evolution candidates (skills with enough data + declining or weak dimensions)
+python3 execution/gap_analysis.py recommendations 2>/dev/null || echo "No gap data yet"
+
+# Check for cross-pollination candidates from recent evolutions
+python3 execution/pattern_propagation.py scan 2>/dev/null || echo "No evolution logs found"
+
+# Gap log summary
+echo "=== Gap Log Status ==="
+wc -l .agent/gap-log.md 2>/dev/null || echo "Gap log: not initialized"
+grep -c "^## " .agent/gap-log.md 2>/dev/null || echo "0 gap entries"
+```
+
+**Compile the autoresearch findings:**
+
+| Metric | Value |
+|--------|-------|
+| Skills due for evolution (5+ entries since last cycle) | [count] |
+| Cross-pollination candidates pending | [count] |
+| Gap log entries (total / recurring) | [N] / [N] |
+| Phase 4 status | [Locked / Ready / Active] |
+
+---
+
 ## Step 4: Compile Report
 
 Using the data from Steps 1-3, produce a concise System Pulse Report with these sections:
@@ -83,6 +111,13 @@ Using the data from Steps 1-3, produce a concise System Pulse Report with these 
 1. [Priority action based on data]
 2. [Priority action based on data]
 3. [Priority action based on data]
+
+## Autoresearch Loop
+- Phase status: [1 ✅ / 2 ✅ / 3 ✅ / 4 🔒]
+- Skills due for evolution: [list or "None"]
+- Cross-pollination candidates: [list or "None"]
+- Gap log entries: [N total, N recurring]
+- Next evolution target: [skill — dimension — score]
 ```
 
 ---

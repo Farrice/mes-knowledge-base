@@ -28,6 +28,7 @@ When these three pillars work together, you produce copy that is simultaneously 
 5. **[Audience]**: Who are they? Awareness level? Temperature (cold/warm/hot)?
 6. **[Voice]**: Whose voice should this sound like? (Yours, a client's, or brand voice) Include reference copy if available.
 7. **[Desired Outcome]**: What should the reader DO and FEEL after consuming this?
+8. **[Voice Samples]**: 2-3 samples of the client's actual writing or speaking style (emails, past posts, transcripts). If unavailable, specify "author's natural voice" and provide adjectives (e.g., conversational, dry humor, data-driven).
 
 > **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
 
@@ -74,6 +75,48 @@ Demonstration    The Implementation Tier 2 (Experience)  Mechanism Applied
 Transformation   The After          Tier 5 (Social)      New Identity
 CTA              The Invitation     Tier 5 + Guarantee   Next Step
 ```
+
+### Phase 2.5: Narrative Proof Techniques
+*Evolution Layer: Concrete methods for weaving proof into story — the HOW behind the Narrative Weaving Mandate.*
+
+Before producing any platform copy, internalize these three proof-delivery techniques. Every proof element in the final copy must use one of these methods — never raw citation.
+
+**A. The Discovery Reveal**
+Structure proof as the protagonist discovering it naturally within the story. The reader experiences the proof as a revelation, not a citation.
+- ❌ "Studies show that pricing increases of 1% yield 8% profit improvement (McKinsey)."
+- ✅ "When I ran the numbers after that first price increase, I almost didn't believe it. A 1% bump — that's all it was — had cascaded into 8% more profit. McKinsey's research says this is the highest-leverage move in any service business. Now I understood why."
+- **When to use**: Empirical proof (Tier 3-4), data points, research citations.
+
+**B. The Contrast Mechanism**
+Frame proof through what DIDN'T work first. Create narrative tension by painting the failure vividly, then let the proof arrive as the resolution. The contrast makes the proof land 3x harder.
+- ❌ "Our system generates 3x more qualified leads than cold outreach."
+- ✅ "For six months, I ground through 200 cold emails a week. Response rate: 2.1%. My calendar had more tumbleweeds than calls. Then we switched to the Intelligent Prospecting Engine. Same effort. Same hours. But 60 days later, our cost per lead dropped from $120 to $78 — and the people showing up actually wanted to buy."
+- **When to use**: Before/after transformations, personal results, case studies.
+
+**C. The Implication Bridge**
+After every proof point, add one sentence on what this MEANS for the reader specifically. Proof without personal relevance is just a fact. The bridge converts facts into emotional stakes.
+- ❌ "Participants showed a 27% increase in processing speed."
+- ✅ "Participants showed a 27% increase in processing speed. That's the difference between struggling through your afternoon slump and finishing your deep work before lunch."
+- **When to use**: After every significant proof element to maintain reader engagement.
+
+**Technique Selection Rule**: Each piece of copy should use all three techniques at least once. The Discovery Reveal for your strongest data point, the Contrast Mechanism for your central transformation story, and the Implication Bridge after each proof element to maintain personal relevance.
+
+### Phase 2.7: Voice Calibration Checkpoint
+*Evolution Layer: Ensure copy sounds like the client, not like a proof robot.*
+
+Before entering platform production, establish voice parameters:
+
+1. **Voice Marker Extraction** (from provided [Voice Samples]):
+   - Average sentence length (short/punchy vs. flowing/complex)
+   - Formality level (1-5 scale: 1=texting-a-friend, 5=boardroom)
+   - Humor frequency and type (dry, self-deprecating, none, analogies)
+   - Jargon comfort (uses industry terms freely vs. explains everything)
+   - Emotional register (stoic/data-driven vs. vulnerable/open)
+   - Signature phrases or verbal tics ("here's the thing," "look," etc.)
+
+2. **Voice Guardrails**: Define 3 phrases the client WOULD say and 3 they NEVER would. These become the quality filter for every sentence.
+
+3. **The Ventriloquist Test**: After drafting, read the copy aloud in the client's voice. Highlight every phrase that feels foreign — where you'd stumble or break character. These are voice breaks. Rewrite each one using the voice markers above.
 
 ### Phase 3: Platform-Specific Production
 
@@ -203,15 +246,47 @@ Execute the three-pillar architecture for the requested platform(s). For each pl
 
 ---
 
-### Phase 4: Narrative Proof Weaving Pass (NOT Mechanical Insertion)
-**Critical**: This is a narrative flow audit, not a checklist. Proof must feel like natural story momentum.
+### Phase 4: Narrative Proof Weaving Pass (MANDATORY — Not Advisory)
+**This is the most critical phase.** Every step below is mandatory. Copy that skips any step will read like a proof report wearing a story costume. The goal: copy that sounds like a real human who happens to have extraordinary proof — not a proof machine that learned to type.
 
-1. Read the produced copy aloud. Mark every moment where the reader would naturally WANT proof — peak curiosity, after tension builds, after a bold observation.
-2. Verify proof lands at those natural moments, not on a mechanical schedule.
-3. For each proof element, verify: (a) it closes a curiosity loop the reader was holding, (b) it opens a new question or implication, (c) it builds on the proof that came before it rather than competing with it.
-4. **Kill proof that breaks rhythm.** If a stat, credential, or testimonial interrupts conversational punchiness or tension — reposition it downstream where it has more weight, or deliver it through story instead of citation.
-5. Verify Proof Balance Scale: claims 7+ have 2+ proof from different tiers — but both must serve the narrative arc, not just satisfy a checklist.
-6. **The coffee test**: Read the draft as if telling this story to a friend. Every sentence where you'd stop and say "I have a stat for that" instead of naturally knowing the number — rewrite that proof delivery.
+**Step 1: The Natural Desire Map** (Required)
+Read the produced copy aloud. At every moment where the reader would naturally WANT proof — peak curiosity, after tension builds, after a bold observation — place a marker. These are your "proof windows." Proof ONLY belongs in these windows.
+
+**Step 2: Window Verification** (Required)
+For each proof element in the draft, verify it sits inside a proof window. If proof appears outside a natural desire moment → move it to the nearest window or cut it.
+
+**Step 3: Loop Architecture Audit** (Required)
+Number every open loop in the copy. For each proof element, verify:
+- (a) it closes a curiosity loop the reader was holding
+- (b) it opens a new question or implication
+- (c) it builds on the proof that came before it (compounds, never competes)
+If any proof element fails all three → reposition or cut.
+
+**Step 4: Kill Rhythm Breakers** (Required)
+If a stat, credential, or testimonial interrupts conversational punchiness or tension — reposition it downstream or deliver it through story. Proof that kills momentum is worse than a naked claim.
+
+**Step 5: Proof Velocity Check** (Required)
+Scan the draft for "proof clusters" — sections where 2+ proof points appear within 3 consecutive sentences. Proof clusters cause proof competition (the reader doesn't know which one to believe). Separate clustered proof with narrative beats, transitions, or implication bridges.
+
+**Step 6: Technique Verification** (Required)
+Confirm that the three Narrative Proof Techniques from Phase 2.5 are deployed:
+- [ ] At least 1 Discovery Reveal
+- [ ] At least 1 Contrast Mechanism
+- [ ] At least 1 Implication Bridge after a major proof point
+If any technique is missing → rewrite the weakest proof delivery using the missing technique.
+
+**Step 7: The Coffee Test** (Required — REWRITE, not just check)
+Read the entire draft as if telling this story to a friend over coffee.
+- Every sentence where you'd stop and say "I have a stat for that" instead of naturally knowing the number → **rewrite that proof delivery** using Discovery Reveal or Contrast Mechanism.
+- Every sentence where you'd lose your friend's attention → cut or compress.
+- Every sentence where your friend would say "wait, really?" → that's where you need MORE proof, not less.
+- **This step produces a rewritten draft, not annotations.** If you didn't change at least 3 sentences during this step, you didn't do it honestly.
+
+**Step 8: Voice Survival Check** (Required)
+Using the Voice Guardrails from Phase 2.7, scan the post-Coffee-Test draft:
+- Highlight every phrase the client would NOT say
+- Replace each one with a phrase that matches their voice markers
+- Verify no proof insertion has flattened the voice into generic "marketing copy"
 
 ### Phase 5: Story Integration Check
 1. Does the piece have a PROTAGONIST the reader identifies with?
@@ -233,6 +308,9 @@ Every piece must pass ALL checks:
 10. ☐ **Memorable Residue**: At least 1 line the reader will remember tomorrow
 11. ☐ **Proof Momentum**: Each proof element builds on the last — compounding, not competing. Reader experiences revelations, not evidence.
 12. ☐ **Loop Architecture**: Proof closes existing curiosity loops AND opens new ones. The reader is always holding at least one open question.
+13. ☐ **Narrative Technique Coverage**: All 3 proof techniques (Discovery Reveal, Contrast Mechanism, Implication Bridge) are used at least once.
+14. ☐ **Voice Fidelity**: Copy passes the Ventriloquist Test — no voice breaks detected. Sounds like the client, not like "a Luke Iha student."
+15. ☐ **Coffee Test Completion**: Phase 4 Step 7 was executed as a rewrite pass, not just a read-through. At least 3 sentences were modified.
 
 ## Output Schema
 

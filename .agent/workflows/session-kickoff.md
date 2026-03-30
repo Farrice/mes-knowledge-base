@@ -80,6 +80,41 @@ Ready to go.
 - Be honest about skips — "skipped: no research needed" beats silence
 - If complexity is Heavy, add session boundary guidance (when to suggest a new chat)
 
+## Step 3.5: Autoresearch Evolution Check
+
+// turbo
+Run the autoresearch readiness check to surface any skills due for evolution or recurring intelligence gaps:
+
+```bash
+python3 execution/gap_analysis.py recommendations 2>/dev/null || echo "gap_analysis: no data yet"
+```
+
+**Check these conditions:**
+
+| Condition | Action |
+|-----------|--------|
+| Any skill has 5+ new Performance Log entries since its last evolution | Flag: **"[skill] is due for `/skill-evolution`"** |
+| Gap log has 3+ entries in the same domain | Flag: **"Phase 4 alert: [domain] has recurring gaps — consider extraction"** |
+| Any skill's weakest dimension < 6/10 average | Flag: **"[skill] needs attention — [dimension] averaging [score]/10"** |
+
+**If any flags fire**, append them to the kickoff block:
+
+```
+**🔄 Autoresearch Alerts**:
+- [flag 1]
+- [flag 2]
+```
+
+**If no flags fire**, skip this section silently — don't clutter the kickoff.
+
+Also check `.agent/gap-log.md` for any recent entries (last 7 days):
+
+```bash
+tail -20 .agent/gap-log.md 2>/dev/null || echo "gap-log: empty"
+```
+
+---
+
 ## Step 4: Score Intent & Route
 
 // turbo

@@ -280,3 +280,16 @@ Make sure your profile is complete to attract opportunities."
 | **Readability (F-Shape Scan)**   | Dense paragraphs, long sentences, visually intimidating on mobile.                | Some line breaks, but paragraphs are still chunky; not fully optimized for skim-reading.   | Every paragraph is 1-2 sentences, separated by double line breaks, creating an F-shape scan path for effortless mobile consumption. |
 | **Amplifier Resonance (IFP Activation)** | Content is written solely for buyers (ICP); lacks shareable insights or emotional triggers. | Identifies an IFP, but the content isn't explicitly designed to be shared by them.          | Explicitly designed to be shared by the Ideal Friend Profile (IFP), containing high-value lessons or relatable narratives for amplification. |
 | **Engagement Protocol Adherence** | Posts are scheduled or published without a plan for immediate engagement.           | Engages with some comments, but not consistently or immediately in the critical first hour. | Immediately engages with *every* comment for 30-60 minutes post-publish; actively replies to other comments to expand reach.     |
+
+---
+
+## Evolution Log
+
+### 2026-03-30 — Evolution #1: Adversarial Resilience Pass
+
+**Workflow**: `personal-brand-blueprint.md`
+**Dimension**: Adversarial Resilience (6.8/10 avg → target: 8.0+)
+- **Hypothesis**: Adding an explicit Adversarial Resilience phase (transplanted from `high-performance-content-engine.md` Phase 5) and expanding the Quality Gate with 4 adversarial checks will prevent catastrophic failures like the 3/10 LinkedIn headline session where output lacked proprietary voice.
+- **Change**: Added Phase 5 (Adversarial Stress-Test: Critic's Eye, Replace My Name, Damaging Admission Audit, Anti-AI Pass, Voice Cannibalization Check) + 4 new Quality Gate checks (LinkedIn Lunatics Test, Replace My Name Test, AI Slop Filter, Voice Fidelity Check)
+**Result**: KEPT — pure additive change, directly addresses documented failure mode, transplanted from sibling workflow scoring 8.7/10
+**Backup**: `personal-brand-blueprint.pre-evolution.md`
