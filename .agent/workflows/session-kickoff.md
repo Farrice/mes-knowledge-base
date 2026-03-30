@@ -28,6 +28,15 @@ Read the user's first message (or the context that triggered this chat) and gene
 
 **Output**: State the label clearly so the user can copy it to the sidebar or so the system can auto-apply it.
 
+## Step 1.5: Register in Conversation Index
+
+// turbo
+Update the master conversation index with this new session:
+```bash
+python execution/conversation_index.py update <current-conversation-id>
+```
+This ensures this conversation is findable via `/find-context` even before the session completes.
+
 ## Step 2: Detect Task Type & Complexity
 
 // turbo

@@ -43,6 +43,15 @@ If any systems are CRITICAL or DORMANT, note in the handoff summary so the next 
 - If the workspace is a Git repository, offer to run `git add .` and `git commit -m "Auto-commit at end of session: [Summary of work]"`
 - Do not push without explicit confirmation.
 
+### 5.5. Update Conversation Index
+
+// turbo
+Update the master conversation index with final artifacts and completion status:
+```bash
+python execution/conversation_index.py update <current-conversation-id>
+```
+This ensures the index reflects the completed work and all artifacts produced.
+
 ### 6. Generate Handoff Summary
 Output a concise "Handoff Code" block into the conversation that the user can copy-paste as their very first prompt in the *next* chat window. 
 
