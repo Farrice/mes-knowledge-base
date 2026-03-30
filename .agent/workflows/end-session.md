@@ -27,7 +27,14 @@ Output the handoff block:
 **Hot experts this session:** [List of experts loaded — so next session can warm-start]
 ```
 
-### 2. Git Checkpoint (Optional)
+### 2. Update Conversation Index
+// turbo
+Update the master conversation index with final artifacts and completion status:
+```bash
+python execution/conversation_index.py update <current-conversation-id>
+```
+
+### 3. Git Checkpoint (Optional)
 // turbo
 If the workspace is a Git repo, offer to commit:
 > "Want me to commit? `git add . && git commit -m 'Session: [Label]'`"

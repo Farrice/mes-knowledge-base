@@ -18,13 +18,13 @@
 ---
 
 ## 2. Accommodation vs. Assimilation Detection
-**What They Do**: Distinguish between real belief change (accommodation — restructuring mental models) and fake belief change (assimilation — fitting new info into existing models without actually changing).
+**What They Do**: Distinguish between real belief change (accommodation — restructuring mental models) and fake belief change (assimilation — fitting new info into existing models without actually changing). Assimilation is the brain's *default* mode — it absorbs new information into existing frameworks without updating them. Accommodation only fires when three conditions are met simultaneously: **surprise** (the information genuinely can't fit existing models), **relevance** (it matters enough to warrant cognitive effort), and **safety** (updating won't trigger social death or identity collapse).
 
-**Executable Behavior**: After any persuasion attempt, test whether the person *restructured* their thinking or merely *absorbed* your argument into their existing framework. Ask: "What changed about how you see this?" If they repeat your argument back, that's assimilation. If they describe seeing the whole landscape differently, that's accommodation.
+**Executable Behavior**: After any persuasion attempt, test whether the person *restructured* their thinking or merely *absorbed* your argument into their existing framework. Ask: "What changed about how you see this?" If they repeat your argument back, that's assimilation. If they describe seeing the whole landscape differently, that's accommodation. When designing for accommodation, engineer all three triggers: create genuine surprise (not shock — surprise at a gap in their own model), establish personal relevance (why this matters to *them*, not abstractly), and ensure safety (pre-build the face-saving narrative before the challenge).
 
-**Deploy When**: Evaluating whether your content, copy, or conversations are creating real change or just getting nods.
+**Deploy When**: Evaluating whether your content, copy, or conversations are creating real change or just getting nods. Also deploy proactively — if your message can be easily absorbed into someone's existing worldview without changing anything, redesign it to trigger surprise.
 
-**Success Metric**: You can identify the specific mental model that shifted, not just agreement with your conclusion.
+**Success Metric**: You can identify the specific mental model that shifted, not just agreement with your conclusion. Accommodation produces statements like "I never thought of it that way" or "That changes how I see the whole thing." Assimilation produces "Yeah, I already knew that" or "That's basically what I was saying."
 
 ---
 
@@ -143,9 +143,11 @@
 
 **Executable Behavior**: Score each variable 1-10. Calculate both sides. Identify the binding constraint — the single variable that, if changed, would tip the balance. Design interventions that target the binding constraint specifically, not the whole equation.
 
-**Deploy When**: Planning any persuasion strategy where you need to identify the minimum viable intervention.
+**Empirical calibration (from McRaney's research synthesis):** In neutral conditions (low social cost, no identity threat), ~30% counter-evidence relative to existing belief strength triggers genuine re-evaluation. Social costs inflate this multiplicatively — in tribal/identity-fused contexts, the threshold can reach 70-80%+. Use 30% as your baseline and multiply upward based on your Social Risk + Identity Threat scores. If Social Risk + Identity Threat sum > 12, you're in high-cost territory and should focus on reducing cost rather than increasing evidence.
 
-**Success Metric**: You can name the single thing that must change for someone to cross the threshold.
+**Deploy When**: Planning any persuasion strategy where you need to identify the minimum viable intervention. Use the 30% calibration to estimate whether you have *enough* evidence to cross the threshold, or whether you need to reduce costs instead.
+
+**Success Metric**: You can name the single thing that must change for someone to cross the threshold, AND you can estimate the quantitative evidence burden using the 30% baseline adjusted for social/identity costs.
 
 ---
 
@@ -257,6 +259,39 @@
 
 **Success Metric**: The person acknowledges that their investment in the belief might be influencing their evaluation of evidence.
 
+---
+
+## 24. ELM Route Selection
+**What They Do**: Diagnose whether the target audience is processing through the **central route** (deep, effortful evaluation of arguments) or the **peripheral route** (relying on surface cues — authority, social proof, presentation quality) using the Elaboration Likelihood Model. These routes require fundamentally different messaging strategies.
+
+**Executable Behavior**: Assess two conditions: (1) Is the person **motivated** to think deeply about this topic? (Does it affect them personally? Is there a consequence to being wrong?) (2) Is the person **able** to process deeply? (Do they have the knowledge, time, and cognitive bandwidth?) If BOTH are high → central route is active: lead with evidence, logic, novel arguments. If EITHER is low → peripheral route is active: lead with credibility cues, social proof, visual quality, likability. Critical insight: most persuaders default to central-route messaging (better arguments) for peripheral-route audiences. This is the #1 structural error in marketing.
+
+**Deploy When**: Before designing any messaging, content, or campaign. Route diagnosis comes BEFORE message design — not after.
+
+**Success Metric**: You can name which route is active for your specific audience on your specific topic, and your messaging strategy matches that route.
+
+---
+
+## 25. Rebuttal Type Detection
+**What They Do**: Distinguish between **technique rebuttal** ("you're trying to manipulate me" — attacking the persuasion method) and **topic rebuttal** ("your facts are wrong" — attacking the argument content). These require completely different responses.
+
+**Executable Behavior**: When resistance appears, classify it. Technique rebuttal sounds like: "That's just a sales tactic," "You're cherry-picking data," "This feels like propaganda." Topic rebuttal sounds like: "That study was debunked," "The numbers don't add up," "You're wrong about X." For technique rebuttal → increase transparency, acknowledge the method, validate their skepticism, then proceed with permission ("You're right that I'm being deliberate about this. Here's why..."). For topic rebuttal → provide better evidence, concede where they're right, and redirect to the strongest point. Never use transparency on topic rebuttals (it looks desperate) or evidence on technique rebuttals (it confirms their suspicion).
+
+**Deploy When**: Any time you encounter resistance. Misdiagnosing the rebuttal type guarantees failure — technique-rebuttal responses to topic rebuttals feel evasive; topic-rebuttal responses to technique rebuttals feel tone-deaf.
+
+**Success Metric**: You can classify incoming resistance as technique or topic within 10 seconds and deploy the matched counter-strategy.
+
+---
+
+## 26. The Metacognitive Unlock
+**What They Do**: Shift conversations from "is this belief correct?" to "how did I arrive at this belief?" — engaging metacognition (thinking about one's own thinking) as the master mechanism for genuine change. This is the pattern that enables all other patterns.
+
+**Executable Behavior**: Never ask "Why do you believe X?" (triggers defensive justification). Instead ask process questions: "How did you first come to think about it that way?" "What would it take to change your mind on this?" "When you think about this, what's the very first thing that comes up?" "If you had to explain to someone else how you arrived at this view, what would you tell them?" These questions activate metacognition — the person starts observing their own reasoning process from the outside. Once metacognition is active, the person becomes their own change agent. Your job shifts from persuading to facilitating their self-observation.
+
+**Deploy When**: As the opening move in any belief-change conversation. Metacognition must be activated BEFORE any argument, evidence, or reframe. It's the prerequisite, not the technique.
+
+**Success Metric**: The person begins examining their own reasoning process rather than defending their conclusion. You hear phrases like "I guess I never really thought about why I think that" or "Huh, when I trace it back..."
+
 ## Hidden Knowledge
 
 ## 1. Arguments Cause Assimilation, Not Accommodation
@@ -355,6 +390,24 @@
 **Why Others Miss This**: Belief-change approaches almost universally target the belief itself. Lefkoe's insight (integrated by McRaney) is that the belief is downstream of interpretive attachments to formative experiences. Address the attachment, and the belief dissolves without argument.
 
 **Deploy When**: Someone holds a belief that no amount of evidence can shake — the belief is anchored to formative emotional experiences, not to logic.
+
+---
+
+## 12. Accommodation Requires Surprise — You Can't Argue Someone Into Restructuring
+**Tacit Insight**: Accommodation (genuine belief restructuring) only fires when the brain encounters information it genuinely *cannot* assimilate into its existing framework. This means surprise — not emotional shock, but cognitive surprise: "Wait, my current model can't explain that." Without this moment of genuine model-failure recognition, the brain defaults to assimilation every time, no matter how good your argument is. The implication: designing for change IS designing for surprise. If your message can be comfortably absorbed, it will be.
+
+**Why Others Miss This**: Most communicators think clarity = persuasion. But clear messages that fit existing mental models are the *easiest* to assimilate without changing. The messages that produce change are the ones that create a productive gap — clear enough to understand, but surprising enough that the existing model can't contain them.
+
+**Deploy When**: Your content gets lots of agreement ("so true!") but no behavior change. This is the hallmark of assimilation — people absorb your message without updating. Redesign for surprise.
+
+---
+
+## 13. The 30% Empirical Calibration
+**Tacit Insight**: McRaney's synthesis of the research reveals a quantitative anchor: in neutral conditions (low social cost, no identity threat), approximately 30% counter-evidence relative to existing belief strength is sufficient to trigger genuine re-evaluation. This is the empirical tipping point. However, social costs inflate the threshold multiplicatively — in tribal or identity-fused contexts, the required evidence burden rises to 70-80%+. This means: in high-social-cost environments, adding more evidence past a point is futile. The intervention must shift to *reducing the cost of updating* rather than *increasing the weight of evidence*.
+
+**Why Others Miss This**: Without quantitative calibration, persuaders either under-invest (one data point should be enough!) or over-invest (endless evidence for someone who's already past the cognitive threshold but blocked by social costs). The 30% number tells you WHEN to stop arguing and start cost-reducing.
+
+**Deploy When**: Use as a diagnostic. If you've presented 30%+ counter-evidence and nothing's changing, the problem isn't epistemic — it's economic. Switch from evidence delivery to cost reduction (social safety, identity bridging, face-saving narratives).
 
 ---
 

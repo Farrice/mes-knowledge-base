@@ -74,7 +74,7 @@ Read the user's first message and generate a **conversation label**.
 
 **Output**: State the label clearly so the user can copy it to the sidebar.
 
-### Step 1.5: Create Session Workspace
+### Step 1.5: Create Session Workspace & Register
 
 // turbo
 Create the session's working directory immediately:
@@ -88,6 +88,12 @@ Capture the `SESSION_PATH` from the output. Subfolders: `assets/`, `drafts/`, `d
 When producing an asset during the session, log it:
 ```bash
 python3 execution/session_workspace.py log-asset "/path/to/file" --type "Deliverable" --desc "Description"
+```
+
+// turbo
+Update the master conversation index:
+```bash
+python execution/conversation_index.py update <current-conversation-id>
 ```
 
 ### Step 2: Detect Task Type & Complexity
