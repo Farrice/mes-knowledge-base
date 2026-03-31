@@ -1,74 +1,70 @@
 ---
-description: Run at the end of a deep-work session to clean the workspace, organize assets, and generate a handoff for the next session.
+description: Run at the end of a deep-work session to generate a handoff for the next session. Optionally clean and organize workspace.
 ---
 
-# 🧹 /end-session — Workspace Cleanup & Context Handoff
+# 🧹 /end-session — Session Handoff
 
-> **Purpose**: Prevent "artifact sprawl" by strictly enforcing the system's rule that intermediate files are disposable and deliverables must be organized. Creates a clean starting point for the next session.
+> **Purpose**: Generate a clean handoff for the next session. Deep cleanup is optional — assets are already organized when produced.
 
 ## Usage
 
 ```
-/end-session
+/end-session              # Quick handoff (default)
+/end-session --deep       # Full cleanup + handoff
 ```
 
-## Protocol Steps
+## Quick Handoff (Default — 1-2 Tool Calls)
 
-### 1. Artifact Triage (The "Delete or Keep" Filter)
-Identify all files created in the current session's `brain/` directory.
-
-- **Intermediates to Delete**: Temp extractions, web scraped text, rough drafts, raw data dumps.
-- **Deliverables to Keep**: Final offer docs, finished flywheel packages, built skills.
-
-### 1.5: Finalize Session Workspace
+### 1. Generate Handoff Summary
 // turbo
-If a session workspace was created via `/session-kickoff`, finalize it:
-
-1. Copy or move any **Deliverables** from this session into the session workspace's `deliverables/` subfolder
-2. Log any unlogged assets to the manifest:
-   ```bash
-   python3 execution/session_workspace.py log-asset "/path/to/file" --type "Type" --desc "Description"
-   ```
-3. Mark the session as complete:
-   ```bash
-   python3 execution/session_workspace.py finalize
-   ```
-
-### 2. File Organization
-// turbo-all
-1. Move any *Intermediates* into a `.tmp/` directory (or delete them entirely, as they should be regenerated if needed).
-2. Ensure *Deliverables* are properly named and formatted.
-3. Consolidate any fragmented notes into their canonical master files.
-
-### 3. State Check
-- Read the current `task.md`.
-- Mark completed items, roll over uncompleted items to the next session.
-- Ensure the final state of the `task.md` accurately reflects reality.
-
-### 4. System Health Pulse
-Run a quick health check to surface any dormant systems:
-```bash
-python execution/system_health.py --quick
-```
-If any systems are CRITICAL or DORMANT, note in the handoff summary so the next session can address them.
-
-### 5. Git Checkpoint (Optional)
-// turbo
-- If the workspace is a Git repository, offer to run `git add .` and `git commit -m "Auto-commit at end of session: [Summary of work]"`
-- Do not push without explicit confirmation.
-
-### 6. Generate Handoff Summary
-Output a concise "Handoff Code" block into the conversation that the user can copy-paste as their very first prompt in the *next* chat window. 
-
-The handoff must follow the format in `directives/token-efficiency-protocol.md`:
+Output the handoff block:
 
 ```markdown
 ## Session Handoff
 **Completed:** [2-3 bullet points of what was built]
 **Remaining priority:** [Next immediate task]
 **Core context to load:** [Paths to the 2-3 essential deliverable files]
+**Hot experts this session:** [List of experts loaded — so next session can warm-start]
 ```
 
-### 7. Execution Offer
-Before running, present the triage plan to the user:
-> "I've scanned the workspace. I plan to move [X, Y, Z] to temporary storage, finalize [A, B], and update your task sheet. Want me to execute the cleanup?"
+### 2. Git Checkpoint (Optional)
+// turbo
+If the workspace is a Git repo, offer to commit:
+> "Want me to commit? `git add . && git commit -m 'Session: [Label]'`"
+
+Do not push without explicit confirmation.
+
+---
+
+## Deep Cleanup (`--deep`)
+
+Run all steps above, plus:
+
+### 3. Artifact Triage
+Identify files in the current session's `brain/` directory:
+- **Delete**: Temp extractions, raw data dumps, rough drafts
+- **Keep**: Final offer docs, finished skills, deliverables
+
+### 4. Finalize Session Workspace
+// turbo
+If a session workspace exists:
+
+```bash
+python3 execution/session_workspace.py finalize
+```
+
+### 5. File Organization
+// turbo
+- Move intermediates to `.tmp/`
+- Ensure deliverables are properly named
+- Consolidate fragmented notes into canonical files
+
+### 6. State Check
+- Read `task.md`, mark completed items, roll over uncompleted items
+
+---
+
+## When to Use
+- **Quick Handoff**: End of any session — costs almost nothing
+- **Deep Cleanup** (`--deep`): After heavy sessions (extractions, multi-expert work, client deliverables)
+- Skip entirely if the session was conversational with no artifacts produced

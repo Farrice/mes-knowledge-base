@@ -121,6 +121,28 @@ Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
 **"Trivial" is NOT a skip condition.** If the user asks for content, copy, strategy, research, or any expert-domain deliverable, the chain runs regardless of perceived simplicity. "I need LinkedIn headlines" is a content task requiring routing to Lara Acosta — not a trivial question.
 
+### Chain Efficiency Rules (Token Optimization)
+
+**Steps 1-2 (SCORE + SHARPEN): Internalized — no file reads required.**
+The scoring formula (+1 Deliverable, +1 Audience, +1 Context, +1 End state, +1 Specific language)
+is memorized. Do NOT read `directives/intent-pipeline.md` to score intent.
+Only read it if running `/validate-intent` explicitly.
+
+**Step 3 (ROUTE): Internalized for known domains.**
+If the domain maps to an obvious expert (LinkedIn → Lara Acosta, copywriting → Luke Iha,
+SEO → Nathan Gotch, brand → Oren/Grace, ghostwriting → Nicolas Cole, content psychology → Kallaway,
+consumer posture → Dai Media, agentic workflows → Nick Saraev), route without reading
+`DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
+
+**Step 4 (LOAD): Deferred Tier escalation.**
+Start at Tier 1 (SKILL.md only). Load genius.md ONLY if:
+- The first-pass output doesn't meet quality expectations
+- The task is explicitly creative/complex (screenwriting, brand strategy, deep extraction)
+- The user asks for "the best" or "world-class" output
+
+**Step 6 (FINALIZE): Required only for expert-domain output.**
+Quick answers, system commands, file organization, and conversations do NOT require finalize.
+
 ### Workflow Override
 
 If the user invokes a workflow name from `SLASH_COMMANDS.md` — as `/command`, `@command`, "run command", or bare name — read `.agent/workflows/[command].md` and execute. The workflow incorporates the chain internally. Full list: `SLASH_COMMANDS.md`.
@@ -155,14 +177,17 @@ Push complexity into deterministic code. You focus on decision-making.
 
 ## Context Engine
 
-**Tiered loading chain — always start at Tier 0, escalate only when needed.**
+**Tiered loading chain — check Hot first, then start at Tier 0, escalate only when needed.**
 
 | Tier | What to Read | Token Cost | When |
 |------|-------------|-----------|------|
+| **Hot** | Nothing (already loaded) | 0 | Expert was loaded earlier this conversation |
 | **0 — Card** | `agents/_framework/invocation-cards.md` | ~80 | Routing, ensemble selection |
 | **1 — Standard** | SKILL.md + specific workflow | ~1,350 | Single expert, clear task |
 | **2 — Deep** | SKILL.md + genius.md + workflow | ~2,550 | Creative/complex work |
 | **3 — Sub-Agent** | Spawn sub-agent (fresh context) | ~300 main | Multi-expert, 10+ files loaded |
+
+**Hot Context Rule**: Before loading any expert, check if they were already loaded this conversation. If hot at Tier 1 and Tier 2 is needed, only read genius.md (incremental). If hot at Tier 2, skip all reads. Anti-pattern: re-reading SKILL.md for the same expert twice in one conversation (~1,350 tokens wasted).
 
 **Never rely on general training when expert skills exist.** Route via invocation cards first. Routing: `DOMAIN_REGISTRY.md` + `directives/expert_auto_routing.md`. Full protocol: `directives/agent-loading-protocol.md`.
 
@@ -181,23 +206,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Collaboration | Always | `directives/collaboration-protocol.md` |
 | Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
 | Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
-| AI Slop Detection | Step 5d (production) | `directives/ai-slop-detector.md` |
 | Operating Principles | Development workflows | `directives/operating-principles.md` |
-
-### Research Routing
-
-Research is the foundation of everything. Route by depth:
-
-| Depth | Trigger | Workflow | Cost |
-|-------|---------|----------|------|
-| **Deep** | Strategy, positioning, market entry, competitive intel, avatar research, product launch, going zero-to-expert, foundation for downstream work | `/deep-research` | ~$0.75-1.50 |
-| **Standard** | Single-topic research, fact verification, trend analysis | `/research-topic` | ~$0.05-0.15 |
-| **Sprint** | Multi-angle business question evaluation | `/research-sprint` | Free (WebSearch) |
-| **Quick** | Simple fact lookup | Direct WebSearch | Free |
-
-**Default for foundation research: `/deep-research`.** If output becomes input for content, strategy, positioning, offer design, or product decisions — MUST use deep research. Building on shallow research is building on sand.
-
-**The standard**: Research that finds the real psychological movers, jobs-to-be-done, and hidden patterns — not surface-level market data. The research itself should be the unfair advantage.
 
 ### Budget-Gated (check before calling)
 | Protocol | Directive | Gate |

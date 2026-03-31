@@ -282,6 +282,44 @@ def cmd_finalize(session_path: str = None):
     print(f"✅ Session finalized: {session.name}")
 
 
+def _matches_current_session(session_path: Path, domain: str) -> bool:
+    """Check if an existing session matches today's date and domain."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    domain_slug = slugify(domain)
+    name = session_path.name
+    return name.startswith(today) and domain_slug in name
+
+
+def cmd_create_if_needed(domain: str, label: str, file_path: str,
+                          asset_type: str = "Asset", description: str = "",
+                          conv_id: str = None):
+    """Create workspace on first asset, then log the asset.
+
+    Supports deferred workspace creation — the folder only materializes
+    when there's actually something to put in it (Sport Mode).
+    """
+    session = find_latest_session()
+
+    # If no session exists today for this domain, create one
+    if not session or not _matches_current_session(session, domain):
+        session = cmd_create(domain, label, conv_id)
+        if isinstance(session, Path):
+            session_str = str(session)
+        else:
+            # cmd_create printed the path, find the latest
+            session = find_latest_session()
+            session_str = str(session) if session else None
+    else:
+        session_str = str(session)
+        print(f"📂 Using existing session: {session.name}")
+
+    if session_str:
+        cmd_log_asset(file_path, asset_type, description, session_str)
+    else:
+        print("❌ Could not create or find session workspace.", file=sys.stderr)
+        sys.exit(1)
+
+
 def cmd_archive(before_date: str):
     """Archive sessions older than a given date."""
     ensure_sessions_dir()
@@ -364,6 +402,16 @@ def main():
     p_log.add_argument("--desc", default="", help="Description of the asset")
     p_log.add_argument("--session", default=None, help="Session folder path (defaults to latest)")
 
+    # create-if-needed (deferred / Sport Mode)
+    p_cin = subparsers.add_parser("create-if-needed",
+                                   help="Create workspace on first asset, then log it (Sport Mode)")
+    p_cin.add_argument("domain", help="Domain category (e.g., LinkedIn, System, Research)")
+    p_cin.add_argument("label", help="Short descriptive label")
+    p_cin.add_argument("file_path", help="Path to the asset file to log")
+    p_cin.add_argument("--type", default="Asset", help="Asset type")
+    p_cin.add_argument("--desc", default="", help="Description of the asset")
+    p_cin.add_argument("--conv-id", help="Conversation ID", default=None)
+
     # finalize
     p_final = subparsers.add_parser("finalize", help="Mark a session as complete")
     p_final.add_argument("--session", default=None, help="Session folder path (defaults to latest)")
@@ -380,6 +428,9 @@ def main():
         cmd_archive(args.before)
     elif args.command == "log-asset":
         cmd_log_asset(args.file_path, args.type, args.desc, args.session)
+    elif args.command == "create-if-needed":
+        cmd_create_if_needed(args.domain, args.label, args.file_path,
+                             args.type, args.desc, args.conv_id)
     elif args.command == "finalize":
         cmd_finalize(args.session)
     else:

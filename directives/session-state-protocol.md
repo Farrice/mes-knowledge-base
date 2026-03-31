@@ -43,6 +43,10 @@ Write to `.agent/session-state.md`:
 - [Expert Name]: [what they contributed, 1 line]
 - Patterns applied: [list by name]
 
+## Hot Context Stack
+- [Expert Name] | Tier [1/2] | Files: [SKILL.md, genius.md, etc.]
+- [Expert Name] | Tier [1/2] | Files: [SKILL.md]
+
 ## Key Findings (Compressed)
 - [Finding 1]: [1-line]
 - [Finding 2]: [1-line]
@@ -57,6 +61,24 @@ Write to `.agent/session-state.md`:
 1. [Next action]
 2. [Next action]
 ```
+
+---
+
+## Hot Context Stack
+
+When an expert is loaded during a conversation (Tier 1+ file read), they become **hot**. Hot experts are tracked in the session state anchor so they survive compaction.
+
+### Rules
+
+1. **Before loading any expert**, check the Hot Context Stack
+2. If hot at **Tier 1** and Tier 2 is needed → only read `genius.md` (incremental load)
+3. If hot at **Tier 2** → skip all file reads, expert is fully loaded
+4. Hot status persists for the **entire conversation** (cleared on new conversation)
+5. Write hot experts to the session state anchor so they survive compaction
+
+### Anti-Pattern
+
+Re-reading `SKILL.md` for the same expert twice in one conversation wastes **~1,350 tokens** per redundant load. Always check Hot Context Stack first.
 
 ---
 
