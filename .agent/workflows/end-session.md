@@ -20,6 +20,20 @@ Identify all files created in the current session's `brain/` directory.
 - **Intermediates to Delete**: Temp extractions, web scraped text, rough drafts, raw data dumps.
 - **Deliverables to Keep**: Final offer docs, finished flywheel packages, built skills.
 
+### 1.5: Finalize Session Workspace
+// turbo
+If a session workspace was created via `/session-kickoff`, finalize it:
+
+1. Copy or move any **Deliverables** from this session into the session workspace's `deliverables/` subfolder
+2. Log any unlogged assets to the manifest:
+   ```bash
+   python3 execution/session_workspace.py log-asset "/path/to/file" --type "Type" --desc "Description"
+   ```
+3. Mark the session as complete:
+   ```bash
+   python3 execution/session_workspace.py finalize
+   ```
+
 ### 2. File Organization
 // turbo-all
 1. Move any *Intermediates* into a `.tmp/` directory (or delete them entirely, as they should be regenerated if needed).

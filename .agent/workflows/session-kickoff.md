@@ -28,6 +28,26 @@ Read the user's first message (or the context that triggered this chat) and gene
 
 **Output**: State the label clearly so the user can copy it to the sidebar or so the system can auto-apply it.
 
+## Step 1.5: Create Session Workspace
+
+// turbo
+After generating the conversation label, create the session's working directory:
+
+```bash
+python3 execution/session_workspace.py create "[Domain]" "[Label]" --conv-id "[conversation-id-if-available]"
+```
+
+Capture the `SESSION_PATH` from the output. All assets produced during this session should be saved to the appropriate subfolder:
+- `assets/` — images, PDFs, generated media
+- `drafts/` — work-in-progress content, rough versions
+- `deliverables/` — final outputs ready to use or share
+- `research/` — research notes, swarm outputs, analysis
+
+When producing an asset during the session, log it:
+```bash
+python3 execution/session_workspace.py log-asset "/path/to/file" --type "Deliverable" --desc "Description"
+```
+
 ## Step 2: Detect Task Type & Complexity
 
 // turbo
@@ -50,6 +70,7 @@ Present the kickoff block:
 ## 🚀 Session Kickoff
 
 **Conversation Label**: [Domain — Specific Goal]
+**Session Workspace**: `sessions/[folder-name]/`
 **Task Type**: [type]
 **Complexity**: [level]
 
