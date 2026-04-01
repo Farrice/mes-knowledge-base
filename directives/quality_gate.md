@@ -139,8 +139,8 @@ This is how the ratchet accumulates data. Without logging, the system cannot det
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-21 (chain_runner finalize for new-media-kingmaker) |
-| **Activation Count** | 26 |
+| **Last Activated** | 2026-03-31 (chain_runner finalize for hunt-trends) |
+| **Activation Count** | 37 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (3-point check on any output), update the "Last Activated" date and increment the count.

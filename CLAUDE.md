@@ -2,7 +2,7 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-<!-- Mirrored: CLAUDE.md, AGENTS.md, and GEMINI.md must stay identical. Edit one → update all three. -->
+<!-- CLAUDE.md and AGENTS.md share identical format. GEMINI.md is Gemini-native (same intent, different format). When system intent changes here, run /sync-instructions to update GEMINI.md. -->
 
 ---
 
@@ -200,6 +200,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Protocol | Fires During | Directive |
 |----------|-------------|-----------|
 | Quality Assurance | Step 5 (production) | `directives/quality_assurance.md` |
+| **Verification Agent** | **Step 5.5 (implementation tasks)** | **`directives/verification-agent-protocol.md`** |
 | Token Efficiency | Every workflow | `directives/token-efficiency-protocol.md` |
 | Session State | After Step 2, after Step 4, after 10+ reads | `directives/session-state-protocol.md` |
 | Self-Annealing | On any error | `directives/deep_self_annealing.md` |

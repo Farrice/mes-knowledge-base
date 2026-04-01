@@ -195,8 +195,8 @@ log_output(
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-21 (chain_runner finalize for new-media-kingmaker) |
-| **Activation Count** | 38 |
+| **Last Activated** | 2026-03-31 (chain_runner finalize for hunt-trends) |
+| **Activation Count** | 49 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (performance logged after any output), update the "Last Activated" date and increment the count.

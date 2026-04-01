@@ -1,0 +1,1864 @@
+[
+  {
+    "name": "Adam Enfroy \u2014 Affiliate Marketing",
+    "path": "skills/adam-enfroy-affiliate-marketing",
+    "category": "skills",
+    "description": "MES 3.0 affiliate marketing system from Adam Enfroy. Build $5K-$10K+/month blogs using hobby niche selection, infinite keyword loops, three-tier content funnels, AI content velocity, and ad + affiliate revenue stacking. Written-content-only strategy \u2014 no video required.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "AI Chris Lee \u2014 Zero Testimonial Sales Mastery",
+    "path": "skills/ai-chris-lee-zero-testimonial-sales",
+    "category": "skills",
+    "description": "Complete system for selling AI services with zero testimonials using proof building strategies from AI Chris Lee",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Alen Sultanic Copywriting Mastery",
+    "path": "skills/alen-sultanic-copywriting",
+    "category": "skills",
+    "description": "Advanced buyer psychology, offer economics, and conversion architecture - the unified field theory of buyer behavior",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Alex Content Science",
+    "path": "skills/alex-content-science",
+    "category": "skills",
+    "description": "Forensic content reverse-engineering \u2014 see the 20 invisible decisions behind any viral content and extract transferable principles for original creation",
+    "has_genius": true,
+    "workflow_count": 7
+  },
+  {
+    "name": "Alex Copper Creative Strategy Skill",
+    "path": "skills/alex-copper-creative-strategy",
+    "category": "skills",
+    "description": "A comprehensive creative strategy & business building system based on Alex Copper's expertise. Contains 24 Crown Jewel Prompts covering research, strategy, production, optimization, and premium client acquisition.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "algorithmic-art",
+    "path": "skills/algorithmic-art",
+    "category": "skills",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Ali Abdaal: Action Bias",
+    "path": "skills/ali-abdaal-action-bias",
+    "category": "skills",
+    "description": "Ali Abdaal's system for breaking overthinking paralysis: action bias, two-way doors, experiment cycles, and the psychology of getting unstuck",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Marc Andreessen & Ben Horowitz: New Media Strategy",
+    "path": "skills/andreessen-horowitz-new-media",
+    "category": "skills",
+    "description": "Deploy a16z's new media warfare doctrine \u2014 OODA loop speed dominance, oral/written culture content architecture, founder go-direct positioning, flood-the-zone crisis response, and platform-native launch campaigns.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Andrew Wilkinson AI Entrepreneurship",
+    "path": "skills/andrew-wilkinson-ai-entrepreneurship",
+    "category": "skills",
+    "description": "Build AI-powered personal automation systems, vibe code valuable products, and execute at superhuman speed as a solo entrepreneur",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Andy Lo \u2014 Premium AI Website Creation",
+    "path": "skills/andy-lo-premium-websites",
+    "category": "skills",
+    "description": "Premium AI-powered website creation using Google's free tools \u2014 visual pipeline (Whisk/Nano Banana \u2192 Flow \u2192 Firebase Studio), headless CMS integration, parallax animation, and no-code deployment",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "April Dunford: B2B Positioning & Sales Pitch Architecture",
+    "path": "skills/april-dunford-positioning",
+    "category": "skills",
+    "description": "Position any B2B product using the 5-component methodology and construct sales pitches using the Setup \u2192 Follow-Through framework. The world's most actionable system for answering 'Why should customers pick us?",
+    "has_genius": true,
+    "workflow_count": 7
+  },
+  {
+    "name": "Rank & Rent Asset Generator",
+    "path": "skills/asset_generator",
+    "category": "skills",
+    "description": "A complete system for identifying low-competition local niches, generating high-fidelity HTML assets with elevated copy and visuals.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Authority Hacker: AI Social Media Mastery",
+    "path": "skills/authority-hacker-ai-social-media",
+    "category": "skills",
+    "description": "Deploy AI as a social media co-pilot that packages human insight into emotionally-engineered, platform-native content that converts \u2014 while maintaining authentic voice and self-improving through performance feedback loops.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Bond Halbert - Ultimate Copywriting Mastery",
+    "path": "skills/bond-halbert-copywriting",
+    "category": "skills",
+    "description": "Master copywriting system from 47-year direct response veteran - 26 Crown Jewel prompts for market research, copy creation, velocity optimization, and complete campaign architecture",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Boris Claude Code",
+    "path": "skills/boris-claude-code",
+    "category": "skills",
+    "description": "AI-augmented productivity systems using Claude Code and Claude Cowork. Multi-instance orchestration, plan-first execution, and self-verifying workflows.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "brand-guidelines",
+    "path": "skills/brand-guidelines",
+    "category": "skills",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Brock Johnson - Shareworthy Content Mastery",
+    "path": "skills/brock-johnson-shareworthy-content",
+    "category": "skills",
+    "description": "Instagram shareworthy content strategy for beating the algorithm through human psychology and shares",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Business Intelligence & Deep Analysis Skill",
+    "path": "skills/business-intelligence-audit",
+    "category": "skills",
+    "description": "McKinsey-level business analysis and deep web extraction for consulting engagements",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Caleb Ralston Personal Brand",
+    "path": "skills/caleb-ralston-personal-brand",
+    "category": "skills",
+    "description": "Trust-based personal brand architecture for building brands people buy from, not just watch",
+    "has_genius": true,
+    "workflow_count": 11
+  },
+  {
+    "name": "canvas-design",
+    "path": "skills/canvas-design",
+    "category": "skills",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Cardinal Mason - AI Copywriting Mastery",
+    "path": "skills/cardinal-mason-ai-copywriting",
+    "category": "skills",
+    "description": "Complete AI copywriting business system - 45 Crown Jewel prompts for client acquisition, copy creation, and scaling to $500K/year",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Chris Cimorelli \u2014 Financial Direct Response Copywriting",
+    "path": "skills/chris-cimorelli-copywriting",
+    "category": "skills",
+    "description": "Architect high-converting front-end and back-end promotions using Big Idea methodology, proof hierarchy engineering, and momentum copy craft. Built from Agora's #1 newsletter promo copywriter.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "consumer-posture-research",
+    "path": "skills/consumer-posture-research",
+    "category": "skills",
+    "description": "Deep consumer psychology profiling that reveals how individuals occupy, act within, and think about brand worlds\u2014going far beyond demographics to enable behavioral prediction. Use when launching products/services, creating brand strategy/positioning, developing resonant messaging, understanding competitive differentiation, or predicting consumer response to brand decisions. Produces complete Consumer Posture Profiles for strategic clarity.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "creative-assembly",
+    "path": "skills/creative-assembly",
+    "category": "skills",
+    "description": "Multi-expert parallel production pipeline with structured handoffs and quality gates",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Dai Media - Consumer Posture Framework",
+    "path": "skills/dai-media-consumer-posture",
+    "category": "skills",
+    "description": "Consumer Posture framework for identity-based brand strategy from Dai Media. Use when building consumer profiles, creating resonant content, developing brand positioning, or designing sales approaches. Replaces outdated demographic thinking with three-dimensional individual understanding (Occupation, Activity, Thought Process).",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Dan Koe - AI Leverage Methodology",
+    "path": "skills/dan-koe-ai-leverage",
+    "category": "skills",
+    "description": "Turn AI into a creative expansion partner, not a replacement. Context-loaded coaching, adversarial refinement, and knowledge alchemy.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Dan Koe - Multipassionate Mastery",
+    "path": "skills/dan-koe-multipassionate-mastery",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Dan Martell \u2014 Business Scaling & Operational Leverage",
+    "path": "skills/dan-martell-business-scaling",
+    "category": "skills",
+    "description": "SaaS founder (3x exit) and author of Buy Back Your Time. Constraint-first scaling, irresistible offer architecture, flywheel design, market entry, moat engineering, and buyback methodology.",
+    "has_genius": true,
+    "workflow_count": 10
+  },
+  {
+    "name": "Dan Wang Literary Analysis",
+    "path": "skills/dan-wang-literary-analysis",
+    "category": "skills",
+    "description": "Transform dense analytical material into literary essays with musical pacing, textured observation, and layered depth that rewards re-reading",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Daniel Priestley: Oversubscribed Mastery",
+    "path": "skills/daniel-priestley-oversubscribed",
+    "category": "skills",
+    "description": "Daniel Priestley's Oversubscribed methodology for creating demand, premium positioning, and becoming a Key Person of Influence. 27 Genius Patterns and 27 Crown Jewel Prompts for entrepreneurial domination.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "darrel-wilson-ai-affiliate",
+    "path": "skills/darrel-wilson-ai-affiliate",
+    "category": "skills",
+    "description": "expert: Darrel Wilson",
+    "has_genius": true,
+    "workflow_count": 12
+  },
+  {
+    "name": "Darrel Wilson AI Monetization",
+    "path": "skills/darrel-wilson-ai-monetization",
+    "category": "skills",
+    "description": "AI monetization systems - lead generation, affiliate tools, website flipping, and workflow sales using warm prospect philosophy",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "David Bayer: Elite Communication",
+    "path": "skills/david-bayer-elite-communication",
+    "category": "skills",
+    "description": "David Bayer's system for speaking like the 1% elite: presence, power dynamics, authenticity, and verbal identity mastery",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "David Deutsch - Copywriting Legend",
+    "path": "skills/david-deutsch-copywriting",
+    "category": "skills",
+    "description": "Legendary copywriting methodology from David Deutsch - billion-dollar copywriter. Transform boring material into brilliant narrative. 29 prompts.",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "David McRaney: Belief Change Architecture",
+    "path": "skills/david-mcraney-belief-change",
+    "category": "skills",
+    "description": "Complete belief change architecture \u2014 from psychological diagnosis through persuasion engineering to commercial application \u2014 based on David McRaney's How Minds Change + Spencer Greenberg interview synthesis",
+    "has_genius": true,
+    "workflow_count": 14
+  },
+  {
+    "name": "David Placek \u2014 Brand Naming Science",
+    "path": "skills/david-placek-naming",
+    "category": "skills",
+    "description": "|",
+    "has_genius": true,
+    "workflow_count": 6
+  },
+  {
+    "name": "design-md",
+    "path": "skills/design-md",
+    "category": "skills",
+    "description": "Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Diandra Escobar - LinkedIn Growth Mastery",
+    "path": "skills/diandra-escobar-linkedin-growth",
+    "category": "skills",
+    "description": "Complete LinkedIn growth operating system \u2014 audience acquisition through borrowed-attention formats (brandjacking, newsjacking, namejacking, hot takes), content funnel architecture (4-bucket system), infrastructure setup (Notion + Drive + Claude), body-first writing process, strategic engagement layer, and steal-like-an-artist content sourcing.",
+    "has_genius": true,
+    "workflow_count": 14
+  },
+  {
+    "name": "doc-coauthoring",
+    "path": "skills/doc-coauthoring",
+    "category": "skills",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "docx",
+    "path": "skills/docx",
+    "category": "skills",
+    "description": "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Donald Miller - Culture Turnaround Mastery",
+    "path": "skills/donald-miller-culture-turnaround",
+    "category": "skills",
+    "description": "Transform losing cultures into winning ones through strategic language, obsessive documentation, and identity-installing sound bites",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Donald Miller \u2014 StoryBrand Mastery",
+    "path": "skills/donald-miller-storybrand",
+    "category": "skills",
+    "description": "Transform any business message into a story that hijacks the survival brain \u2014 BrandScripts, narrative copy, one-liners, messaging audits, sales funnels, email sequences, keynotes, and website wireframes",
+    "has_genius": true,
+    "workflow_count": 8
+  },
+  {
+    "name": "Dr. Kriukow AI Humanization",
+    "path": "skills/dr-kriukow-humanization",
+    "category": "skills",
+    "description": "Diagnostic-first AI humanization safety net \u2014 structural unpredictability, detection evasion, and algorithmic-proof writing",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Eric Roth Screenwriting Mastery",
+    "path": "skills/eric-roth-screenwriting-mastery",
+    "category": "skills",
+    "description": "Oscar-level screenwriting craft from the writer of Forrest Gump, The Insider, Munich, Benjamin Button, A Star Is Born, Killers of the Flower Moon, and Dune. 14 genius patterns and 12 practitioner workflows for screenplay architecture, character psychology, subtext, adaptation, visual prose, and temporal structure.",
+    "has_genius": true,
+    "workflow_count": 12
+  },
+  {
+    "name": "Eric Roth Writing Mastery",
+    "path": "skills/eric-roth-writing-mastery",
+    "category": "skills",
+    "description": "Cross-domain deployment of Oscar-level writing craft for social media, content writing, copywriting, ghostwriting, and marketing. Translates 14 genius patterns from the writer of Forrest Gump, The Insider, and Killers of the Flower Moon into universal writing intelligence \u2014 erosion revision, off-center subtext, visual prose, psychology wallets, memorable residue, and fanciful realism applied beyond the screenplay.",
+    "has_genius": true,
+    "workflow_count": 10
+  },
+  {
+    "name": "Erica Mallet: Brand Magnetism Mastery",
+    "path": "skills/erica-mallet-brand-magnetism",
+    "category": "skills",
+    "description": "Erica Mallet's complete brand magnetism system: 52 Crown Jewel prompts for belief architecture, entertainment psychology, content domination, and cult-like following creation",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Ethan Smith \u2014 AEO (Answer Engine Optimization)",
+    "path": "skills/ethan-smith-aeo",
+    "category": "skills",
+    "description": "Answer Engine Optimization \u2014 RAG citation mechanics, experimental methodology, AEO strategy architecture",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Fareed Zakaria: Writing Mastery",
+    "path": "skills/fareed-zakaria-writing-mastery",
+    "category": "skills",
+    "description": "Fareed Zakaria's non-fiction writing system: argument architecture, evidence compression, public intellectual voice, and cross-medium communication mastery",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Fresh Voice System",
+    "path": "skills/fresh-voice-system",
+    "category": "skills",
+    "description": "Farrice Cain's personal brand content engine \u2014 serial narrative methodology for LinkedIn content that builds compounding reader investment. Combines voice DNA (tone, comedy, rhythm) with serial storytelling architecture (arc design, chapter production, bridge posts). Produces content that reads like chapters in a story people can't stop following.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "frontend-design",
+    "path": "skills/frontend-design",
+    "category": "skills",
+    "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Futurepedia Prompt Engineering",
+    "path": "skills/futurepedia-prompt-engineering",
+    "category": "skills",
+    "description": "The Expert Anchor System - 3-step framework for transforming generic AI outputs into expert-level, personalized execution through systematic knowledge extraction and context synthesis",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "gemini-api-dev",
+    "path": "skills/gemini-api-dev",
+    "category": "skills",
+    "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Ghostwriting Voice Engine",
+    "path": "skills/ghostwriting-voice-engine",
+    "category": "skills",
+    "description": "Purpose-built system for capturing a coach's authentic voice and producing LinkedIn content that sounds like them on their sharpest day. Combines 5 expert methodologies: Lara Acosta (voice extraction), Mitch Albom (character embodiment), Erica Mallet (voice crystallization), Nicolas Cole (sentence refinement), Ward Farnsworth (rhetorical elevation).",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Grace Andrews \u2014 Media Company Architecture",
+    "path": "skills/grace-andrews-media-company",
+    "category": "skills",
+    "description": "Content-driven brand architecture: City Model transit strategy, trust pathway engineering, Consistency \u00d7 Experimentation growth formula, revenue district design, brand voice districts, competitive analysis, episodic content engines, virality diagnostics, emotional residue engineering, quality gates, audience precision, zero-to-scale playbook, and media-company-first audience building.",
+    "has_genius": true,
+    "workflow_count": 18
+  },
+  {
+    "name": "Greg Hoffman: Brand Mastery",
+    "path": "skills/greg-hoffman-brand-mastery",
+    "category": "skills",
+    "description": "Greg Hoffman's institutional brand-building system: emotional architecture, campaign design, creative culture engineering, and taste development \u2014 extracted from 27 years as Nike's Global CMO",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Growth Ecosystems \u2014 Vincent Hu",
+    "path": "skills/growth-ecosystems",
+    "category": "skills",
+    "description": "Info business scaling operating system \u2014 circular growth ecosystems, 3-yes conversion framework, hybrid offer architecture, trust-first positioning, and lifetime value flywheels for coaches, consultants, and creators. Complete system from niche to $100K/month with <5K followers.",
+    "has_genius": true,
+    "workflow_count": 10
+  },
+  {
+    "name": "Harry Dry Copywriting",
+    "path": "skills/harry-dry-copywriting",
+    "category": "skills",
+    "description": "Copywriting evaluation and creation frameworks using the Three Rules Test, Zoom-In Technique, and precision rewriting methodology",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "internal-comms",
+    "path": "skills/internal-comms",
+    "category": "skills",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Jasmin Alic: LinkedIn Organic Growth",
+    "path": "skills/jasmin-alic-linkedin-growth",
+    "category": "skills",
+    "description": "Master zero-audience growth through rhythmic copywriting and distributed commenting engines.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Jason Fladlien: High-Status Marketing & Closing",
+    "path": "skills/jason-fladlien-marketing",
+    "category": "skills",
+    "description": "Jason Fladlien - High-Status Marketing & Closing",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "jen-santulan-listing-content",
+    "path": "skills/jen-santulan-listing-content",
+    "category": "skills",
+    "description": "**Domain:** Real estate social media content \u2014 Instagram Reels video hooks",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Jeremy Haynes Mindset Systems",
+    "path": "skills/jeremy-haynes-mindset-systems",
+    "category": "skills",
+    "description": "Mindset engineering systems for entrepreneurs \u2014 identity versioning, dynamic motivation, pain leverage, asymmetric risk, and worldview propaganda for breaking revenue plateaus",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Jeremy Miner - Identity-Based Persuasion & Psychological Framing",
+    "path": "skills/jeremy-miner-identity-persuasion",
+    "category": "skills",
+    "description": ">",
+    "has_genius": true,
+    "workflow_count": 10
+  },
+  {
+    "name": "Jim O'Shaughnessy: Philosopher-Financier Skill",
+    "path": "skills/jim-oshaughnessy-philosopher-financier",
+    "category": "skills",
+    "description": "The Philosopher-Financier Framework - Synthesizing quantitative rigor with humanistic wisdom across four career acts",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Joanna Wiebe \u2014 Persuasion Mastery",
+    "path": "skills/joanna-wiebe-persuasion-mastery",
+    "category": "skills",
+    "description": "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage psychological triggers \u2014 from benefits to invisible persuasion, from sentence-level command to tactical trigger deployment by funnel stage",
+    "has_genius": true,
+    "workflow_count": 7
+  },
+  {
+    "name": "Joanna Wiebe \u2014 Writing Career Monetization",
+    "path": "skills/joanna-wiebe-writing-careers",
+    "category": "skills",
+    "description": "How to position, price, and architect any writing career around measurable business outcomes \u2014 from ghostwriting to brand strategy",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Jonathan Courtney \u2014 CEO Marketing Strategy",
+    "path": "skills/jonathan-courtney-marketing",
+    "category": "skills",
+    "description": "CEO marketing strategy using the Promoter Blueprint \u2014 Traffic, Holding Pattern, and Selling Events with AI-assisted campaign compression",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Jonathan Franzen - Storytelling Mastery",
+    "path": "skills/jonathan-franzen-storytelling",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Joscha Bach - Computational Consciousness",
+    "path": "skills/joscha-bach-consciousness",
+    "category": "skills",
+    "description": "Consciousness as self-organizing software. Engineering stance on mind, identity, suffering, and coherence. Philosophy of mind meets system design.",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Josh Sanders: LinkedIn Growth & High-Ticket Education",
+    "path": "skills/josh-sanders-linkedin-growth",
+    "category": "skills",
+    "description": "Manufacture virality through format arbitrage and depth-first monetization to drive high-ticket cohort funnels.",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Joshua Smith: Real Estate Sales Mastery",
+    "path": "skills/joshua-smith-real-estate",
+    "category": "skills",
+    "description": "Complete real estate business system for predictable closings \u2014 new client acquisition, KPI-driven conversion optimization, daily schedule architecture, and urgency-niche targeting from an agent who sold 7,000+ homes.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Jun Yuh Creator Vision",
+    "path": "skills/jun-yuh-creator-vision",
+    "category": "skills",
+    "description": "Methodology for psychographic content alignment, silent storytelling architecture, and 1-to-7 systemized repurposing.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Jun Yuh \u2014 Personal Brand Mastery",
+    "path": "skills/jun-yuh-personal-brand",
+    "category": "skills",
+    "description": "Complete personal brand growth system for content creators from Jun Yuh's 6-year daily posting methodology",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Kallaway Content Psychology",
+    "path": "skills/kallaway-content-psychology",
+    "category": "skills",
+    "description": "Engineer viral content using neurochemical precision, pattern validation, buyer psychology, and scientific batch testing. Content that attracts buyers, not just views \u2014 with full revenue ramp architecture.",
+    "has_genius": true,
+    "workflow_count": 7
+  },
+  {
+    "name": "Kallaway Word Mastery & Articulation",
+    "path": "skills/kallaway-word-mastery",
+    "category": "skills",
+    "description": "Engineer writing that grips, resonates, and converts using rhythm architecture, tone calibration, believability auditing, and likable expert dynamics. The delivery layer that turns mechanically sound content into content people can't stop reading.",
+    "has_genius": true,
+    "workflow_count": 13
+  },
+  {
+    "name": "Kieran Flanagan - Audience Intelligence",
+    "path": "skills/kieran-flanagan-audience-intelligence",
+    "category": "skills",
+    "description": "Content-reactive audience profiling, platform-specific style cards, creator style analysis, and topic cluster mapping",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Kieran Flanagan - Content Engine",
+    "path": "skills/kieran-flanagan-content-engine",
+    "category": "skills",
+    "description": "Multi-source content creation, enrichment, bundling, and platform adaptation \u2014 the production layer of the AI content team",
+    "has_genius": true,
+    "workflow_count": 8
+  },
+  {
+    "name": "Kieran Flanagan - Content Ops",
+    "path": "skills/kieran-flanagan-content-ops",
+    "category": "skills",
+    "description": "Content orchestration, performance feedback loops, and system self-improvement \u2014 the optimization layer of the AI content team",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Kittl Graphic Design",
+    "path": "skills/kittl-graphic-design",
+    "category": "skills",
+    "description": "Typography design, font psychology, visual composition, and AI image generation prompting for professional graphic design",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Lance Martin & Yichao \"Peak\" Ji - Context Engineering",
+    "path": "skills/lance-yichao-context-engineering",
+    "category": "skills",
+    "description": "Context engineering methodology for production AI agents from Lance Martin (LangChain) and Yichao \"Peak\" Ji (Manus)",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Lara Acosta: Tech Founder Content System",
+    "path": "skills/lara-acosta-content-system",
+    "category": "skills",
+    "description": "A framework mapping technical knowledge and SaaS building into a viral, story-driven LinkedIn content matrix.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Lara Acosta \u2014 LinkedIn Audience Mastery",
+    "path": "skills/lara-acosta-linkedin-growth",
+    "category": "skills",
+    "description": "Master-level B2B personal branding on LinkedIn. Execute the SLAY framework, the 8-word rehook architecture, and high-engagement narrative hacking.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Lara Acosta - LinkedIn Content Mastery",
+    "path": "skills/lara-acosta-linkedin-mastery",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Liam Mley \u2014 AI Brain Builder",
+    "path": "skills/liam-mley-ai-brain-builder",
+    "category": "skills",
+    "description": "Build a complete AI Operating System for any business \u2014 from discovery to deployment",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Lindsay \u2014 AI Consulting Sales Mastery",
+    "path": "skills/lindsay-ai-consulting",
+    "category": "skills",
+    "description": "Complete client acquisition system for AI automation consultants from Lindsay's $50K\u2192$100K+ journey",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "LinkedIn 2026 Format Arbitrage",
+    "path": "skills/linkedin-2026-format-arbitrage",
+    "category": "skills",
+    "description": "Niche Bending and 2026 format arbitrage for LinkedIn",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Logan Kilpatrick: Google AI Studio Mastery",
+    "path": "skills/logan-kilpatrick-ai-studio",
+    "category": "skills",
+    "description": "Logan Kilpatrick's Google AI Studio mastery: rapid prototyping, UI cloning, vibe coding, and production workflows",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Lucas Alpay Storytelling",
+    "path": "skills/lucas-alpay-storytelling",
+    "category": "skills",
+    "description": "Compelling storytelling for fiction, business copy, and book writing. Seven-element formula for reader engagement, Taylor Swift narrative techniques, A24 cinematic storytelling.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Luke Iha: Client Mastery & Business Operations",
+    "path": "skills/luke-iha-client-mastery",
+    "category": "skills",
+    "description": "The business engine for creative strategists \u2014 client acquisition mechanics, proof portfolio sprinting, the 'Paid to Feel' judgment methodology, Meta Andromeda ad diversity systems, and AI-orchestrated production pipelines. The operational complement to luke-iha-creative-strategy (strategic thinking).",
+    "has_genius": true,
+    "workflow_count": 12
+  },
+  {
+    "name": "Luke Iha: Copy Blocks & CASH Method",
+    "path": "skills/luke-iha-copy-blocks",
+    "category": "skills",
+    "description": "The foundational writing system \u2014 every piece of persuasive copy is built from 6 atomic blocks (Pain, Promise, Proof, Constraints, Curiosity, Conditions) cycled at variable speeds. Includes the CASH Method (Concept\u2192Angle\u2192Style\u2192Hook) for generating infinite ad variations, hook psychology, and ad body architecture.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Luke Iha: Creative Strategy & Freelance Mastery",
+    "path": "skills/luke-iha-creative-strategy",
+    "category": "skills",
+    "description": "The meta-skill above copywriting \u2014 deciding WHAT to say, to WHOM, and WHY before writing begins. Includes Upwork mastery, portfolio architecture, Nuclear VSL technique, objection-annihilating proposals, offer cycling, the Agency Ladder, and 12 types of leverage for building a scalable freelance business.",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Luke Iha Cross-Domain Campaigns",
+    "path": "skills/luke-iha-cross-domain",
+    "category": "skills",
+    "description": "domain: advertising, copywriting, creative strategy",
+    "has_genius": false,
+    "workflow_count": 4
+  },
+  {
+    "name": "Luke Iha \u2014 Million-Dollar Mechanisms",
+    "path": "skills/luke-iha-million-dollar-mechanisms",
+    "category": "skills",
+    "description": "Engineering unique mechanisms that make every promise believable. UMP/UMS selection, SIN framework, Universal Mechanism Matrix, characterization, and the Little Big Idea.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Luke Iha: Proof Ladder Architecture",
+    "path": "skills/luke-iha-proof-ladder",
+    "category": "skills",
+    "description": "The meta-framework for progressive trust engineering. Maps proof hierarchically from psychological to social, compresses cold-to-purchase timelines, and turns proof into the #1 competitive differentiator for both copy and career. Includes the master Proof Copy Engine for end-to-end multi-platform copywriting.",
+    "has_genius": true,
+    "workflow_count": 13
+  },
+  {
+    "name": "Luke Iha: Proof Mechanisms in Copywriting",
+    "path": "skills/luke-iha-proof-mechanisms",
+    "category": "skills",
+    "description": "Injects strategic psychological, empirical, and credible proof points to make conversion feel utterly safe to the prospect.",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Luke Iha: Unaware Ads & Awareness-Level Conversion",
+    "path": "skills/luke-iha-unaware-ads",
+    "category": "skills",
+    "description": "The definitive system for converting audiences who don't know they have a problem. Deploys curiosity\u00d7relevance hooks, worldview porn, open loop architecture, and the Vectors of Winning Angles to systematically generate ads for the most valuable and least served advertising segment.",
+    "has_genius": true,
+    "workflow_count": 7
+  },
+  {
+    "name": "Luke Iha: Vicious Hook Mastery",
+    "path": "skills/luke-iha-vicious-hooks",
+    "category": "skills",
+    "description": "Write hooks so emotionally violent the reader physically cannot scroll past. The quality layer for hook writing \u2014 the 8 Vicious Hook Principles.",
+    "has_genius": true,
+    "workflow_count": 12
+  },
+  {
+    "name": "Luke Iha: VSL Lead Mastery",
+    "path": "skills/luke-iha-vsl-leads",
+    "category": "skills",
+    "description": "The opening architecture for VSLs and long-form sales assets \u2014 the 'movie trailer' that determines whether anyone watches the rest. Includes 7 types of micro leads, a 15-element lead checklist, fascination bullet engineering, and reverse outline methodology for learning from winning leads.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Lulu Cheng Meservey: Communications Strategy & Narrative Architecture",
+    "path": "skills/lulu-cheng-meservey-communications",
+    "category": "skills",
+    "description": "Master the Go Direct philosophy and narrative architecture system used to shape billion-dollar company narratives. Deploy elite communications frameworks for founder-led PR, cultural positioning, and attention-to-value conversion.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Made to Stick Messaging (Dan & Chip Heath)",
+    "path": "skills/made-to-stick-messaging",
+    "category": "skills",
+    "description": "Transform any idea into a sticky message using the SUCCESs framework - Simple, Unexpected, Concrete, Credible, Emotional, Stories",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Manus.ai: AI Consulting Mastery",
+    "path": "skills/manus-ai-consulting",
+    "category": "skills",
+    "description": "Manus.ai McKinsey-level consulting system: competitive intelligence, budget estimation, growth mapping, and AI-powered strategic research",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Marc Andreessen: AI Thesis & Technology Philosophy",
+    "path": "skills/marc-andreessen-ai-thesis",
+    "category": "skills",
+    "description": "Deploy Marc Andreessen's frameworks for AI economic impact analysis, workforce transformation, company redefinition, and technology-driven prosperity thesis.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Maria Wendt: Digital Product Mastery",
+    "path": "skills/maria-wendt-digital-products",
+    "category": "skills",
+    "description": "The complete zero-to-multi-million digital product system \u2014 research-first validation, outcome selling, value-based pricing, MVP velocity, trust-based audience building, and high-conversion sales optimization",
+    "has_genius": true,
+    "workflow_count": 9
+  },
+  {
+    "name": "Mark Kashef Agent Orchestration",
+    "path": "skills/mark-kashef-agent-orchestration",
+    "category": "skills",
+    "description": "Architect and orchestrate AI agent teams using Mark Kashef's specialized workflows for sequential handoffs, parallel synthesis, and hybrid grunt-to-architect models.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Mark Kashef AI Councils",
+    "path": "skills/mark-kashef-ai-councils",
+    "category": "skills",
+    "description": "Build multi-agent AI councils for decision-making that eliminate sycophancy through opposing perspectives, shared reasoning, and structured debate",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Mark Kashef \u2014 Banana Squad Image Agent Team",
+    "path": "skills/mark-kashef-banana-squad",
+    "category": "skills",
+    "description": "AI-powered image generation via multi-agent orchestration using the PaperBanana framework + Gemini 3 Pro API",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Mark Kashef: Claude Claw \u2014 Agent SDK Bridge Architecture",
+    "path": "skills/mark-kashef-claude-claw",
+    "category": "skills",
+    "description": "Build a personal AI assistant that bridges any messaging platform to your existing Claude Code infrastructure via Anthropic's Agent SDK subprocess pattern \u2014 zero dual-entry, full capability access from your phone",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Mark Kashef \u2014 Visual Blueprint Methodology",
+    "path": "skills/mark-kashef-visual-design",
+    "category": "skills",
+    "description": "ASCII wireframe-first visual planning system that aligns human vision with AI execution before any production work begins",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Market Intelligence",
+    "path": "skills/market_intelligence",
+    "category": "skills",
+    "description": "Advanced trend spotting and keyword intent analysis system. Uses Agentic Research to replicate the \"unfair advantage\" of paid tools like Ahrefs and Google Trends.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "mcp-builder",
+    "path": "skills/mcp-builder",
+    "category": "skills",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Michael Bernoff Identity Engineering",
+    "path": "skills/michael-bernoff-identity-engineering",
+    "category": "skills",
+    "description": "Identity engineering and communication mastery frameworks for transforming prospect self-concept and taking control of any conversation",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Michael Connelly Vivid Writing",
+    "path": "skills/michael-connelly-vivid-writing",
+    "category": "skills",
+    "description": "Deploy the writing craft behind 42 novels and 100M+ copies sold \u2014 telling detail selection, momentum prose, character-through-everything, subtext dialogue, outsider perspective, dual-pass rewriting, dialogue economy, slingshot openings, real-world anchoring, character design, and taste calibration. Translates 10 genius patterns from the creator of Harry Bosch and The Lincoln Lawyer into universal craft intelligence for any writing domain.",
+    "has_genius": true,
+    "workflow_count": 12
+  },
+  {
+    "name": "Mike Foutia \u2014 Marketing Tools",
+    "path": "skills/mike-foutia-marketing-tools",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Mitch Albom Writing Mastery",
+    "path": "skills/mitch-albom-writing-mastery",
+    "category": "skills",
+    "description": "Theme-driven storytelling mastery from Mitch Albom's 45+ years of craft refinement. 31 practitioner prompts for fiction, content creation, copywriting, and commercial writing.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Monk.Ai - AI Consulting Offer Architecture",
+    "path": "skills/monk-ai-offer-architecture",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nate B. Jones \u2014 Agent Deployment Strategy",
+    "path": "skills/nate-b-jones-agent-deployment-strategy",
+    "category": "skills",
+    "description": "AI agent deployment strategy \u2014 specification engineering, risk containment, progressive delegation, and organizational readiness",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Nate B Jones - AI Taste Mastery",
+    "path": "skills/nate-b-jones-ai-taste-mastery",
+    "category": "skills",
+    "description": "Transform human judgment into competitive advantage in the AI age through systematic taste development, differential calibration, and quality gatekeeping",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nate B Jones Intent Engineering",
+    "path": "skills/nate-b-jones-intent-engineering",
+    "category": "skills",
+    "description": "Design AI agents that reliably understand and execute user intent through explicit intent documentation, disambiguation protocols, and interpretation-execution separation",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nate B. Jones \u2014 Orchestration Intelligence",
+    "path": "skills/nate-b-jones-orchestration-intelligence",
+    "category": "skills",
+    "description": "Multi-agent coordination architecture using the DPVI pattern (Decompose-Parallelize-Verify-Iterate) and harness-first design principles",
+    "has_genius": true,
+    "workflow_count": 10
+  },
+  {
+    "name": "Nate B Jones - AI Trust Architecture",
+    "path": "skills/nate-b-jones-trust-architecture",
+    "category": "skills",
+    "description": "Zero-Trust Agentic Architecture & Systemic Hallucination Defense",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nate Herk: AI Client Acquisition",
+    "path": "skills/nate-herk-client-acquisition",
+    "category": "skills",
+    "description": "Acquire AI workflow clients without an audience by leveraging asymmetric trust partnerships and validation-first outreach.",
+    "has_genius": true,
+    "workflow_count": 1
+  },
+  {
+    "name": "Nathan Gotch AI SEO",
+    "path": "skills/nathan-gotch-ai-seo",
+    "category": "skills",
+    "description": "AI SEO domination system - operate at the retrieval layer where AI engines cite sources, not just the visibility layer",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "NBA Betting Edge: Player Prop & Parlay Prediction System",
+    "path": "skills/nba-betting-edge",
+    "category": "skills",
+    "description": "Systematic NBA player prop analysis using behavioral finance principles and statistical edge detection. Research-driven predictions with honest confidence scoring, correlation-aware parlay construction, and Kelly criterion bankroll discipline.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "new-media-ghostwriting",
+    "path": "skills/new-media-ghostwriting",
+    "category": "skills",
+    "description": "**Domain**: Ghostwriting \u00d7 New Media Strategy \u00d7 Content Architecture",
+    "has_genius": false,
+    "workflow_count": 1
+  },
+  {
+    "name": "new-media-kingmaker",
+    "path": "skills/new-media-kingmaker",
+    "category": "skills",
+    "description": "**Domain**: New Media Strategy \u00d7 Copywriting \u00d7 Content Strategy \u00d7 Ghostwriting \u00d7 Marketing",
+    "has_genius": false,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nick Saraev: Agentic Workflows Mastery",
+    "path": "skills/nick-saraev-agentic-workflows",
+    "category": "skills",
+    "description": "Nick Saraev's 6-hour agentic workflows course: DO framework, self-annealing systems, cloud deployment, MCP integration, and productized AI services",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Nick Saraev: Bottleneck Thinking",
+    "path": "skills/nick-saraev-bottleneck-thinking",
+    "category": "skills",
+    "description": "Theory of Constraints adapted for solopreneurs \u2014 pipeline visualization, constraint identification, and the 4-step business improvement flywheel",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nicolas Cole Client Acquisition",
+    "path": "skills/nicolas-cole-client-acquisition",
+    "category": "skills",
+    "description": "Land ghostwriting clients from zero \u2014 30-day sprint blueprint, no-portfolio strategies, leaks/faucets network mapping, free consulting outreach, pitch-in-public content, and prospect education scripting",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Nicolas Cole \u2014 Digital Product Creation Strategy",
+    "path": "skills/nicolas-cole-digital-products",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Nicolas Cole Newsletter Flywheel",
+    "path": "skills/nicolas-cole-newsletter-flywheel",
+    "category": "skills",
+    "description": "Design, launch, and monetize newsletters using Cole's \"Book That Never Ends\" + Tangible Faucet methodology. Produces newsletter concepts, content flywheels, business model architectures, and productizable service packages.",
+    "has_genius": true,
+    "workflow_count": 17
+  },
+  {
+    "name": "nicolas-cole-niche-positioning",
+    "path": "skills/nicolas-cole-niche-positioning",
+    "category": "skills",
+    "description": "expert: Nicolas Cole",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Nicolas Cole Sentence Craft",
+    "path": "skills/nicolas-cole-sentence-craft",
+    "category": "skills",
+    "description": "Sentence-level writing optimization using Cole's principles of terminal word power, economic compression, vocabulary calibration, and rhythm engineering for maximum clarity and impact",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Omar Eddaoudi",
+    "path": "skills/omar-eddaoudi",
+    "category": "skills",
+    "description": "Mastery over premium positioning, exclusionary tension, high-status copywriting, and luxury market dynamics.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Omar Eddaoudi: Premium Ads Mastery",
+    "path": "skills/omar-eddaoudi-premium-ads",
+    "category": "skills",
+    "description": "Omar Eddaoudi's premium ads and luxury personal brand system: psychological buyer intelligence, conviction copy, category domination, and sophisticated audience mechanics",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Omar Eltakrori \u2014 Personal Brand Business Architect",
+    "path": "skills/omar-eltakrori",
+    "category": "skills",
+    "description": "Build a personal brand that generates 7-figure revenue through frameworks, challenges, and one-to-many coaching \u2014 visibility, conversion, and offer architecture from someone who went from $34K/year to $1.2M.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Oren \u2014 Luxury Psychology & Premium Market Positioning",
+    "path": "skills/oren-luxury-psychology",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Oren \u2014 Operational Systems",
+    "path": "skills/oren-operational-systems",
+    "category": "skills",
+    "description": "Operational infrastructure, creative workflows, and scalable systems for world-class creative execution \u2014 reference repos, ideas pipelines, weekly updates, team trackers, process docs, signature series, and content pillar measurement",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Oren \u2014 Repositioning & Creative Direction",
+    "path": "skills/oren-repositioning",
+    "category": "skills",
+    "description": "Creative direction of personalities, brand counterpositioning, vision extension, and cultural repositioning at scale",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Oren - Taste Development Mastery",
+    "path": "skills/oren-taste-development",
+    "category": "skills",
+    "description": "\"",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Oscar Hoglund - Sound Storytelling",
+    "path": "skills/oscar-hoglund-sound-storytelling",
+    "category": "skills",
+    "description": "Sound and emotional storytelling methodology from Oscar Hoglund, CEO of Epidemic Sound. Create content that is felt in the body, not just read by the eyes.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Paul James AI Automation",
+    "path": "skills/paul-james-ai-automation",
+    "category": "skills",
+    "description": "Zero-cost AI workflow monetization using modular service frameworks, white-label delivery, and recurring revenue models",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "pdf",
+    "path": "skills/pdf",
+    "category": "skills",
+    "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scale.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "PJ Accetturo: AI Video Mastery",
+    "path": "skills/pj-accetturo-ai-video",
+    "category": "skills",
+    "description": "PJ Accetturo's AI video production system: viral AI-generated ads, product demos, and 233M-view workflows",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "pptx",
+    "path": "skills/pptx",
+    "category": "skills",
+    "description": "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any other presentation tasks",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Rachel Woods: AI Operations Mastery",
+    "path": "skills/rachel-woods-ai-operations",
+    "category": "skills",
+    "description": "Transform any business into an AI-first operation using process decomposition, the CRAFT cycle, and competitive AI Edge identification.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "react:components",
+    "path": "skills/react-components",
+    "category": "skills",
+    "description": "Converts Stitch designs into modular Vite and React components using system-level networking and AST-based validation.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "remotion-best-practices",
+    "path": "skills/remotion-video-creation",
+    "category": "skills",
+    "description": "Best practices for Remotion - Video creation in React",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Robert Mack: Comedy Writing Mastery",
+    "path": "skills/robert-mack-comedy-writing",
+    "category": "skills",
+    "description": "Deploy professional comedy mechanics across marketing, social media, presentations, and creative content \u2014 turning observations into engineered laughs. Includes domain application system, LinkedIn comedy engine, and voice layer integration.",
+    "has_genius": true,
+    "workflow_count": 7
+  },
+  {
+    "name": "Rory Sutherland: Marketing Psychology Mastery",
+    "path": "skills/rory-sutherland-marketing",
+    "category": "skills",
+    "description": "Rory Sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture, and value perception",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Ross McKay: Premium at Scale",
+    "path": "skills/ross-mckay-premium-at-scale",
+    "category": "skills",
+    "description": "Ross McKay's \"Premium at Scale\" methodology for CPG brand positioning, mass-market retail velocity, and single-SKU manufacturing leverage.",
+    "has_genius": true,
+    "workflow_count": 1
+  },
+  {
+    "name": "Sabri Suby AI Advertising",
+    "path": "skills/sabri-suby-ai-advertising",
+    "category": "skills",
+    "description": "AI-powered business discovery, direct response funnel creation, and paid traffic scaling using Sabri Suby's methodology for $10K/day advertising",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Sabrina Ramonov: AI Monetization & Learn-in-Public Strategy",
+    "path": "skills/sabrina-ramonov-ai-monetization",
+    "category": "skills",
+    "description": "Execute the zero-to-$1M AI path: lock in to one domain, build brand through learning in public, launch a recurring-revenue community offer. From a solo founder who actually did it.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Sam Goddard \u2014 Media Scaling & Attention Monetization",
+    "path": "skills/sam-goddard-media-scaling",
+    "category": "skills",
+    "description": "Media team scaling, content operations, attention monetization, and personal brand architecture from the strategist who built Dan Martell's 9M+ audience",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Samuel Thompson - AI Product Launch System",
+    "path": "skills/samuel-thompson-product-launch",
+    "category": "skills",
+    "description": "AI-powered info product launch methodology from serial entrepreneur Samuel Thompson (100 companies in 10 years). Complete system for launching profitable AI-generated info products in under $300 with proven unit economics.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Sean Kochel: AI Business Mastery",
+    "path": "skills/sean-kochel-ai-business",
+    "category": "skills",
+    "description": "Sean Kochel's AI business mastery: why AI products don't sell, persuasion architecture, and trust-building systems",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Sean Kochel: Design-First Web Building",
+    "path": "skills/sean-kochel-design-first-build",
+    "category": "skills",
+    "description": "Sean Kochel's systematic research-to-design-to-build pipeline for landing pages and web assets that look professional \u2014 not AI-generated.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "sean-mabry-voice-mastery",
+    "path": "skills/sean-mabry-voice-mastery",
+    "category": "skills",
+    "description": "Voice writing mastery system for ghostwriters and content professionals \u2014 predictive voice modeling, memoir architecture, and the Authorship Pyramid. Built from Sean Mabry's 10-year methodology spanning in-house copywriting, B2B thought leadership ghostwriting, and book-level voice work.",
+    "has_genius": true,
+    "workflow_count": 0
+  },
+  {
+    "name": "Seena Rez TikTok Commerce",
+    "path": "skills/seena-rez-tiktok-commerce",
+    "category": "skills",
+    "description": "TikTok viral content and e-commerce system - 23 prompts for hyperdopamine hooks, PSAEP sales framework, multi-platform deployment, and complete campaign orchestration",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Seena Rez - Early Adopter Innovation Strategy",
+    "path": "skills/seena_rez_early_adopter",
+    "category": "skills",
+    "description": ">",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Self-Evolving Systems",
+    "path": "skills/self-evolving-systems",
+    "category": "skills",
+    "description": "Automated harness evolution using MetaHarness propose-evaluate-log-iterate loops, Karpathy autoresearch patterns, and the Bitter Lesson applied to agentic orchestration",
+    "has_genius": true,
+    "workflow_count": 0
+  },
+  {
+    "name": "Seth Godin \u2014 Ideavirus Mastery",
+    "path": "skills/seth-godin-ideavirus",
+    "category": "skills",
+    "description": "Complete viral marketing and idea propagation system from Seth Godin's Unleashing the Ideavirus",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Seth Godin \u2014 Strategic Philosophy",
+    "path": "skills/seth-godin-philosophy",
+    "category": "skills",
+    "description": "Complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Shaan Puri Storytelling Mastery",
+    "path": "skills/shaan-puri-storytelling",
+    "category": "skills",
+    "description": "Storytelling and audience building frameworks for emotion-first content that creates loyal audiences",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Shan Hanif: Audience Monetization",
+    "path": "skills/shan-hanif-audience-monetization",
+    "category": "skills",
+    "description": "Turn unqualified LinkedIn leads into a high-profit digital product backend while elevating B2B agency positioning.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Sherwin Wu: AI Engineering Leadership",
+    "path": "skills/sherwin-wu-ai-engineering",
+    "category": "skills",
+    "description": "Platform-level AI engineering strategy, agent fleet management, deployment diagnostics, and model upgrade planning from the Head of Engineering at OpenAI's API Platform.",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "skill-creator",
+    "path": "skills/skill-creator",
+    "category": "skills",
+    "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "slack-gif-creator",
+    "path": "skills/slack-gif-creator",
+    "category": "skills",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "SooWei Goh \u2014 Consulting Leverage Mastery",
+    "path": "skills/soowei-consulting-leverage",
+    "category": "skills",
+    "description": "Complete founder workflow and leverage system for scaling consulting businesses from SooWei Goh's $2M/year methodology",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Steven Pressfield \u2014 Narrative Mastery",
+    "path": "skills/steven-pressfield-narrative-mastery",
+    "category": "skills",
+    "description": "Deploy the gravitational forces of storytelling across every domain \u2014 from LinkedIn posts to screenplays to brand manifestos. Diagnose and defeat the Resistance. Not formula. Physics.",
+    "has_genius": true,
+    "workflow_count": 15
+  },
+  {
+    "name": "stitch-loop",
+    "path": "skills/stitch-loop",
+    "category": "skills",
+    "description": "Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Stockton Walbeck \u2014 Lead Magnet Mastery",
+    "path": "skills/stockton-walbeck-lead-magnets",
+    "category": "skills",
+    "description": "Lead magnet strategy using the 4-type taxonomy and 5-rule scorecard from 100+ tested lead magnets and $25M in revenue",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "swarm-commander",
+    "path": "skills/swarm-commander",
+    "category": "skills",
+    "description": "Orchestrate 10-50 expert agents in parallel-style execution with intelligent task decomposition, file-based coordination, and unified synthesis",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Taki Moore & Tony Bash \u2014 Lifestyle Business Mastery",
+    "path": "skills/taki-moore-lifestyle-business",
+    "category": "skills",
+    "description": "Build a 6-figure lifestyle business from your expertise \u2014 without sales teams, sales calls, or sacrificing your life. Covers the full journey from life design through category creation, offer architecture, cohort delivery, beginner acceleration, and content authority.",
+    "has_genius": true,
+    "workflow_count": 5
+  },
+  {
+    "name": "Tao Prompts: AI Video Pipeline Architecture",
+    "path": "skills/tao-prompts-ai-video",
+    "category": "skills",
+    "description": "Design deterministic AI video pipelines with structured syntax, custom GPT translators, and decoupled modular generation.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "theme-factory",
+    "path": "skills/theme-factory",
+    "category": "skills",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "ThriveCart Digital Products",
+    "path": "skills/thrivecart-digital-products",
+    "category": "skills",
+    "description": "Digital product business building system - Weekend Product to $5K-10K/month through the Three Levers framework",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Tim Danilov: Niche Bending",
+    "path": "skills/tim-danilov-niche-bending",
+    "category": "skills",
+    "description": "Systematic format-market innovation that transforms saturated content spaces into blue ocean opportunities by transplanting viral formats across markets.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Tobias Allen \u2014 Marketing Mastery",
+    "path": "skills/tobias-allen-marketing-mastery",
+    "category": "skills",
+    "description": "Direct response marketing, copywriting, revenue architecture, and growth engineering at nine-figure scale",
+    "has_genius": true,
+    "workflow_count": 3
+  },
+  {
+    "name": "Tom Noske - Content Creation Methodology",
+    "path": "skills/tom-noske-content-creation",
+    "category": "skills",
+    "description": "Authenticity-first content creation: zone of genius format diagnosis, energy auditing, quantity-driven skill acquisition, and promise-payoff architecture.",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Tom Noske Personal Brand",
+    "path": "skills/tom-noske-personal-brand",
+    "category": "skills",
+    "description": "Magnetic personal brand system - $2-4/follower earnings through archetype correction, mission clarity, and trust infrastructure",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "Tommy Clark: LinkedIn Founder Growth",
+    "path": "skills/tommy-clark-linkedin-growth",
+    "category": "skills",
+    "description": "Design high-conversion LinkedIn workflows tailored for B2B founders using Stealth Hooks, Audience Design, and 'How I' narratives.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Antigravity Expert: Tyler Denk (Audience Monetization)",
+    "path": "skills/tyler-denk-audience-monetization",
+    "category": "skills",
+    "description": "Beehiiv CEO Tyler Denk's system for audience acquisition, founder-led marketing, and high-ticket B2B monetization.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "Ward Farnsworth \u2014 Rhetorical Mastery",
+    "path": "skills/ward-farnsworth-rhetorical-mastery",
+    "category": "skills",
+    "description": "Mastery of immortal English prose and structural rhetorical patterns.",
+    "has_genius": true,
+    "workflow_count": 2
+  },
+  {
+    "name": "web-artifacts-builder",
+    "path": "skills/web-artifacts-builder",
+    "category": "skills",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "webapp-testing",
+    "path": "skills/webapp-testing",
+    "category": "skills",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "WordsAtScale: Search Gap Method",
+    "path": "skills/wordsatscale-seo-ranking",
+    "category": "skills",
+    "description": "WordsAtScale's Search Gap Method for rapid Google rankings in 14-48 hours through competition vacuum identification and AI-powered content deployment",
+    "has_genius": true,
+    "workflow_count": 4
+  },
+  {
+    "name": "xlsx",
+    "path": "skills/xlsx",
+    "category": "skills",
+    "description": "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with formulas and formatting, (2) Reading or analyzing data, (3) Modify existing spreadsheets while preserving formulas, (4) Data analysis and visualization in spreadsheets, or (5) Recalculating formulas",
+    "has_genius": false,
+    "workflow_count": 0
+  },
+  {
+    "name": "Antigravity Expert: Dai Media (Consumer Posture Framework)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_dai_media",
+    "category": "knowledge_items",
+    "description": "Master-level extraction of the Dai Media Consumer Posture framework. This system rejects demographic thinking in favor of 'radical individual' understanding. It organizes consumer identity into three dimensions (Occupation, Activity, Thought Process) and focuses on emotional outcomes over problem-so"
+  },
+  {
+    "name": "Antigravity Experts Index",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_ecosystem_map",
+    "category": "knowledge_items",
+    "description": "The master registry and coverage map for all experts within the Antigravity ecosystem. It tracks 45+ experts across skills and autonomous agents. Includes the Expert Council Registry, Orchestration Principles, and the 'Domain Registry'. Features the Expert Auto-Routing Protocol and Seena Rez's 'Earl"
+  },
+  {
+    "name": "Antigravity Expert: Joanna Wiebe (Strategic Writing & Persuasion)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_joanna_wiebe",
+    "category": "knowledge_items",
+    "description": "Master-level extraction of Joanna Wiebe (Copy Hackers) regarding the 5-Level Persuasion Hierarchy (copy psychology) and the 7 Strategic Writing Careers (monetization and service positioning). Focuses on the transition from freelancer to consultant, solving measurable business problems through writin"
+  },
+  {
+    "name": "Antigravity Expert: Kallaway (Content Psychology & Revenue Ramps)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_kallaway_content_psychology",
+    "category": "knowledge_items",
+    "description": "Full extraction of Kallaway's 'Internet Money Machine Playbook' (v2.1). This KI provides a scientific framework for social media growth and monetization, emphasizing granular content decomposition (11 Lego Bricks), batched testing protocols, and the 'Revenue Ramp' architectural model for converting "
+  },
+  {
+    "name": "Antigravity Expert: Lara Acosta (LinkedIn Attention Economics)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_lara_acosta",
+    "category": "knowledge_items",
+    "description": "Master-level extraction of Lara Acosta's LinkedIn methodology (2026 update). Focuses on 'Attention Arbitrage' economics, the Revenue Bridge (Content -> Profile -> Email -> Sales), and high-velocity engagement strategies like the 1+3 Comment Formula. Documents her transition from pure content craft t"
+  },
+  {
+    "name": "Nathan Gotch: AI SEO & Retrieval Layer Mastery",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_nathan_gotch_ai_seo",
+    "category": "knowledge_items",
+    "description": "Full methodology from Nathan Gotch for dominating AI-generated search results in 2026. Documents the 'Retrieval Layer' SEO framework, Citation Intelligence, Brand Narrative Control, and AI-Assisted Content Velocity. Focuses on optimizing for what LLMs see (retrieval) rather than just what users see "
+  },
+  {
+    "name": "Antigravity Expert: Nick Saraev (Agentic Workflows)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_nick_saraev_agentic_workflows",
+    "category": "knowledge_items",
+    "description": "Full extraction of Nick Saraev's agentic workflow mastery. This system provides a production-grade blueprint for building AI agents that self-correct and self-improve ('Self-Annealing'). It utilizes the 'DO' (Define-Orchestrate) framework to manage complex objectives and implements 'Horizontal Lever"
+  },
+  {
+    "name": "Antigravity Expert: Nicolas Cole (Digital Product Strategy)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_nicolas_cole_digital_strategy",
+    "category": "knowledge_items",
+    "description": "Full extraction of Nicolas Cole's digital product creation and monetization framework. This KI codifies the rules for 'Vehicle Selection' (6 distinct product types), pricing psychology ($350 threshold), and the 'Context Multiplier' (repackaging the same IP across multiple modalities). It emphasizes "
+  },
+  {
+    "name": "Antigravity Expert: Oren (Master Mastery)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_oren",
+    "category": "knowledge_items",
+    "description": "Master Knowledge Item for Oren, a Creative Director, Brand Strategist (Founder of Valuable Studios), and Taste Development Authority. This KI consolidates his 'Creative Direction Operating System' with his 'Taste Mastery' framework. It formalizes systems for demystifying intuition, calibrating creat"
+  },
+  {
+    "name": "Antigravity Expert: Samuel Thompson (AI Product Launch)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_samuel_thompson_product_launch",
+    "category": "knowledge_items",
+    "description": "Full extraction of Samuel Thompson's fast-velocity launch methodology. This system treats businesses as 'rigged slot machines' aimed at returning $1.30 for every $1.00 spent on advertising. It leverages AI for hyper-speed asset creation (e.g., 200-page ebooks in hours) and prioritizes 'Shadow Market"
+  },
+  {
+    "name": "Seena Rez: Viral Commerce & Early Adopter Strategy",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_seena_rez",
+    "category": "knowledge_items",
+    "description": "Master-level extraction of Seena Rez's viral marketing and commerce methodology. Specialized in the 'Early Adopter Strategy', vlog scraping, identity mirroring, and high-velocity content creation for TikTok and other social platforms. Focuses on 'vibe-first' selling and rapid trend exploitation."
+  },
+  {
+    "name": "Antigravity Expert: Tom Noske (Content & Monetization)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_expert_tom_noske",
+    "category": "knowledge_items",
+    "description": "Full extraction of Tom Noske's creator methodology. This system provides a production-grade blueprint for building authentic content and a high-ticket creator business. It utilizes the 'Dave Ramsey Effect' (zero-prep format) to navigate from the 'Grind Zone' to the 'Impact Zone.' Key focuses include"
+  },
+  {
+    "name": "Antigravity Agentic Framework",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/antigravity_framework",
+    "category": "knowledge_items",
+    "description": "The comprehensive technical and conceptual framework for the Antigravity system. It governs the building, orchestrating, and scaling of AI-driven expert systems. Key components include the 3-Layer Architecture, MES 3.0 Methodology, and system-wide Orchestration Patterns. This KI established the 'Hea"
+  },
+  {
+    "name": "Emergency Revenue Generation Protocols",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/emergency_revenue_generation_protocols",
+    "category": "knowledge_items",
+    "description": "This Knowledge Item codifies high-velocity monetization strategies for generating significant revenue ($5k-$10k) within extremely tight timelines (7 days). It synthesizes Samuel Thompson's 'Radical Disposability', Nicolas Cole's 'Vehicle Selection', and Farrice's AI-augmented service delivery. Inclu"
+  },
+  {
+    "name": "Ghostwriting Service: Voice Matching & Business Architecture",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/ghostwriting_service_and_voice_matching",
+    "category": "knowledge_items",
+    "description": "This Knowledge Item codifies the Antigravity ghostwriting service model. It focuses on high-fidelity voice profiling (5-Dimension Scan), the 'Unsolicited Demo' acquisition framework, and the '$750/$500 Proof Run' introductory offer. It includes Farrice's specific business architecture for the Coache"
+  },
+  {
+    "name": "LinkedIn Growth & Conversion Systems",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/linkedin_growth_and_conversion_systems",
+    "category": "knowledge_items",
+    "description": "This Knowledge Item documents the multi-expert methodology (Alic, Sanders, Walbeck, Kallaway) for scaling a high-ticket service business via LinkedIn. It covers profile conversion physics, rhythmic engagement strategies (The Comment Laboratory), lead magnet profitability audits (The Rule 5 Gate), an"
+  },
+  {
+    "name": "Quality Assurance & Agentic Research Protocol",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/quality_assurance_agentic_workflow_protocol",
+    "category": "knowledge_items",
+    "description": "System-wide framework for ensuring high-quality, data-grounded AI output. Established after a major strategy brief failure, this protocol mandates Agentic Research, Entity Understanding, Pre-Flight Validation, the McKinsey-Grade Execution Standard, and the 'Perplexity Research Standard' (including c"
+  },
+  {
+    "name": "Solopreneur Sovereignty System (Product & Launch)",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/solopreneur_sovereignty_system_launch",
+    "category": "knowledge_items",
+    "description": "A comprehensive case study of 'The Sovereignty System,' a Notion-based operating system for solopreneurs. It integrates Seena Rez's Early Adopter strategy, Dan Koe's sovereignty philosophy, and Harry Dry's Concrete Copy principles. Key innovations include the 'Sovereignty Gem' AI agent, a 'Zero-Film"
+  },
+  {
+    "name": "Strategic Disruption Research: Methodology & Case Studies",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/strategic_disruption_research",
+    "category": "knowledge_items",
+    "description": "This Knowledge Item documents a 4-phase methodology for identifying strategic vulnerabilities in established platforms and conducting brutal 'Truth Proof of Concept' (TPoC) feasibility studies. It features the 'Netflix Disruption Map', the 'AI Authority Architect' pivot study, and the 'Solopreneur S"
+  },
+  {
+    "name": "Josh Banday Career Strategy & Script Development",
+    "path": "/Users/farricecain/.gemini/antigravity/knowledge/writer_career_acceleration_josh_banday",
+    "category": "knowledge_items",
+    "description": "A comprehensive strategic roadmap for writer Josh Banday, focusing on the development of his pilot script 'Rancho', a phased relationship management strategy for Greg Daniels, and a competitive fellowship application workflow. Includes a strategic multi-pathway plan for positioning Josh as a creativ"
+  },
+  {
+    "name": "agent-loading-protocol",
+    "path": "directives/agent-loading-protocol.md",
+    "category": "directives",
+    "description": "Read `agents/_framework/invocation-cards.md`. Find the relevant expert(s)."
+  },
+  {
+    "name": "ai-slop-detector",
+    "path": "directives/ai-slop-detector.md",
+    "category": "directives",
+    "description": "Directive: ai-slop-detector"
+  },
+  {
+    "name": "collaboration-protocol",
+    "path": "directives/collaboration-protocol.md",
+    "category": "directives",
+    "description": "**You are not a yes-man. You are a creative partner.**"
+  },
+  {
+    "name": "content-creation",
+    "path": "directives/content-creation.md",
+    "category": "directives",
+    "description": "Systematic workflow for creating content that resonates, converts, and builds your brand\u2014leveraging the right experts at each stage."
+  },
+  {
+    "name": "content_creation_gate",
+    "path": "directives/content_creation_gate.md",
+    "category": "directives",
+    "description": "Directive: content_creation_gate"
+  },
+  {
+    "name": "cross-pollination",
+    "path": "directives/cross-pollination.md",
+    "category": "directives",
+    "description": "Skills share pattern DNA. A proof engineering skill"
+  },
+  {
+    "name": "daily-council",
+    "path": "directives/daily-council.md",
+    "category": "directives",
+    "description": "Start each day with strategic input from your expert council. Get clarity on priorities, overcome blocks, and set intention for high-impact work."
+  },
+  {
+    "name": "decision-council",
+    "path": "directives/decision-council.md",
+    "category": "directives",
+    "description": "When facing significant decisions, convene your expert council to get multiple perspectives, stress-test options, and arrive at a decision with confidence."
+  },
+  {
+    "name": "deep_self_annealing",
+    "path": "directives/deep_self_annealing.md",
+    "category": "directives",
+    "description": "Directive: deep_self_annealing"
+  },
+  {
+    "name": "expert_auto_routing",
+    "path": "directives/expert_auto_routing.md",
+    "category": "directives",
+    "description": "Directive: expert_auto_routing"
+  },
+  {
+    "name": "expertise-gap-protocol",
+    "path": "directives/expertise-gap-protocol.md",
+    "category": "directives",
+    "description": "Directive: expertise-gap-protocol"
+  },
+  {
+    "name": "extraction-to-skill",
+    "path": "directives/extraction-to-skill.md",
+    "category": "directives",
+    "description": "description: Convert MES 3.0 extractions into production-ready Antigravity skills"
+  },
+  {
+    "name": "extraction-workflow",
+    "path": "directives/extraction-workflow.md",
+    "category": "directives",
+    "description": "description: Scalable workflow for processing new expert extractions into agents and skills"
+  },
+  {
+    "name": "feedback-ratchet",
+    "path": "directives/feedback-ratchet.md",
+    "category": "directives",
+    "description": "Every output is an experiment. Like autoresearch's 5-minute training runs, each output produces a measurable quality signal. Imp"
+  },
+  {
+    "name": "gemini-reference",
+    "path": "directives/gemini-reference.md",
+    "category": "directives",
+    "description": "- **Skills** (`skills/[name]/`): `SKILL.md` + `genius.md` + `workflows/*.md`"
+  },
+  {
+    "name": "ghostwriting-delivery",
+    "path": "directives/ghostwriting-delivery.md",
+    "category": "directives",
+    "description": "```"
+  },
+  {
+    "name": "hybrid-knowledge-retrieval",
+    "path": "directives/hybrid-knowledge-retrieval.md",
+    "category": "directives",
+    "description": "The hybrid knowledge retrieval system orchestrates searches across 5 knowledge sources, automatically routing queries to the most appropriate source(s) based on query type. This prevents over-reliance"
+  },
+  {
+    "name": "intent-pipeline",
+    "path": "directives/intent-pipeline.md",
+    "category": "directives",
+    "description": "Rate intent sharpness 1-5. Award 1 point for each:"
+  },
+  {
+    "name": "mcp-research-setup",
+    "path": "directives/mcp-research-setup.md",
+    "category": "directives",
+    "description": "The Antigravity research layer uses two MCP servers for research:"
+  },
+  {
+    "name": "mcp-server-setup",
+    "path": "directives/mcp-server-setup.md",
+    "category": "directives",
+    "description": "Quick-start guide for Google Workspace, Notion, and SQLite MCP servers for your Antigravity environment."
+  },
+  {
+    "name": "mes-3.0-extract",
+    "path": "directives/mes-3.0-extract.md",
+    "category": "directives",
+    "description": "description: Extract expert knowledge from any source material into deployable skill assets"
+  },
+  {
+    "name": "mes-3.0-validate",
+    "path": "directives/mes-3.0-validate.md",
+    "category": "directives",
+    "description": "description: Validate MES 3.0 extraction outputs using mechanical rubric + Oren CEV taste check"
+  },
+  {
+    "name": "multi-expert-synthesis",
+    "path": "directives/multi-expert-synthesis.md",
+    "category": "directives",
+    "description": "Get multiple experts to weigh in on the same challenge, then synthesize their perspectives into a unified approach that's stronger than any single viewpoint."
+  },
+  {
+    "name": "notebooklm-usage-policy",
+    "path": "directives/notebooklm-usage-policy.md",
+    "category": "directives",
+    "description": "NotebookLM provides conversational RAG access to domain-specific research notebooks. It supplements the expert skill system by providing examples, recent context, and applied methodology patterns. How"
+  },
+  {
+    "name": "notion-databases",
+    "path": "directives/notion-databases.md",
+    "category": "directives",
+    "description": "These are Farrice's structured Notion databases. Use the Notion API (`@notionhq/client`) with `NOTION_API_KEY` from `.env` to read/write to them."
+  },
+  {
+    "name": "operating-principles",
+    "path": "directives/operating-principles.md",
+    "category": "directives",
+    "description": "Core development practices for Antigravity system work. Referenced from CLAUDE.md."
+  },
+  {
+    "name": "parallel_thought",
+    "path": "directives/parallel_thought.md",
+    "category": "directives",
+    "description": "Directive: parallel_thought"
+  },
+  {
+    "name": "parallelism-cheat-sheet",
+    "path": "directives/parallelism-cheat-sheet.md",
+    "category": "directives",
+    "description": "| I want to... | Command | Speed vs Sequential |"
+  },
+  {
+    "name": "perplexity-usage-policy",
+    "path": "directives/perplexity-usage-policy.md",
+    "category": "directives",
+    "description": "Perplexity provides higher-quality, citation-backed research than basic web search. It is the **PRIMARY and MANDATORY tool for market intelligence, competitive analysis, social listening, and deep res"
+  },
+  {
+    "name": "quality_assurance",
+    "path": "directives/quality_assurance.md",
+    "category": "directives",
+    "description": "Directive: quality_assurance"
+  },
+  {
+    "name": "quality_gate",
+    "path": "directives/quality_gate.md",
+    "category": "directives",
+    "description": "Directive: quality_gate"
+  },
+  {
+    "name": "research-protocol",
+    "path": "directives/research-protocol.md",
+    "category": "directives",
+    "description": "**Version**: 2.0 (rebuilt)"
+  },
+  {
+    "name": "sales-conversation",
+    "path": "directives/sales-conversation.md",
+    "category": "directives",
+    "description": "Prepare for any sales conversation\u2014discovery calls, pitches, objection handling, closing\u2014using the combined frameworks of Jeremy Miner (NEPQ, Identity Selling) and Michael Bernoff (Identity Engineerin"
+  },
+  {
+    "name": "session-end-commit",
+    "path": "directives/session-end-commit.md",
+    "category": "directives",
+    "description": "End of every session, or when the user says \"commit\", \"wrap up\", \"end session\", or similar."
+  },
+  {
+    "name": "session-state-protocol",
+    "path": "directives/session-state-protocol.md",
+    "category": "directives",
+    "description": "Directive: session-state-protocol"
+  },
+  {
+    "name": "skill-evolution-protocol",
+    "path": "directives/skill-evolution-protocol.md",
+    "category": "directives",
+    "description": "Skills are muta"
+  },
+  {
+    "name": "skill-paths-reference",
+    "path": "directives/skill-paths-reference.md",
+    "category": "directives",
+    "description": "| Expert | SKILL.md | genius-patterns.md | Key Prompt |"
+  },
+  {
+    "name": "sub_agent_protocol",
+    "path": "directives/sub_agent_protocol.md",
+    "category": "directives",
+    "description": "Sub-agents solve one pro"
+  },
+  {
+    "name": "token-efficiency-protocol",
+    "path": "directives/token-efficiency-protocol.md",
+    "category": "directives",
+    "description": "Directive: token-efficiency-protocol"
+  },
+  {
+    "name": "verification-agent-protocol",
+    "path": "directives/verification-agent-protocol.md",
+    "category": "directives",
+    "description": "| Task Type | Verification Required |"
+  },
+  {
+    "name": "workflow-chains",
+    "path": "directives/workflow-chains.md",
+    "category": "directives",
+    "description": "**Sequence**: `/extract` \u2192 `/convert-extraction` \u2192 agent auto-registration"
+  }
+]

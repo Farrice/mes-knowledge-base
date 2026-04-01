@@ -24,6 +24,7 @@ from dataclasses import dataclass, field
 # Shared clients
 sys.path.insert(0, str(Path(__file__).parent))
 from gemini_client import GeminiClient, load_env
+from memory_selector import MemorySelector, build_manifest
 from perplexity_client import PerplexityClient, BudgetExhaustedError
 
 load_env()
@@ -190,7 +191,7 @@ def load_agent_context(agent_name: str, tier: int = 1,
 # --------------------------------------------------------------------------
 
 def auto_select_agents(objective: str, max_agents: int = 5) -> List[str]:
-    """Simple keyword-based agent selection."""
+    """Simple keyword-based agent selection (legacy fallback)."""
     objective_lower = objective.lower()
     scores = {}
     for agent, domain in EXPERT_DOMAINS.items():
@@ -216,6 +217,308 @@ def auto_select_agents(objective: str, max_agents: int = 5) -> List[str]:
                 break
 
     return selected[:max_agents]
+
+
+# --------------------------------------------------------------------------
+# Coordinator Mode — 4-Phase Intelligent Orchestration
+# --------------------------------------------------------------------------
+
+COORDINATOR_SYSTEM = """You are the Swarm Coordinator for Antigravity — an AI orchestration system
+with 187+ expert skills across copywriting, marketing, branding, content, and strategy.
+
+Your job: decompose a user objective into optimal parallel work orders.
+
+Rules:
+1. Select 3-7 experts — each MUST have a distinct, non-overlapping angle
+2. Assign tier levels: Tier 1 (SKILL.md only) for clear tasks, Tier 2 (+genius.md) for creative/complex
+3. Mark dependencies: batch 0 = parallel, batch 1+ = sequential (runs after previous batch)
+4. Add ONE verification agent in the final batch to quality-check outputs
+5. Use EXACT agent names from the available experts list
+6. For content tasks: minimum 2 experts per content_creation_gate directive
+7. Never pair agents with overlapping domains — maximize perspective diversity
+
+Return ONLY a JSON array of work order objects:
+[
+  {
+    "agent_name": "exact-agent-name",
+    "objective": "Specific task for this agent",
+    "mandate": ["Apply framework X", "Deliver Y", "Flag Z"],
+    "tier": 1 or 2,
+    "workflow_files": ["workflows/specific-file.md"],
+    "batch": 0,
+    "rationale": "Why this agent for this piece"
+  }
+]"""
+
+
+async def coordinator_decompose(
+    objective: str,
+    client: GeminiClient,
+    max_agents: int = 5,
+    research_brief: str = "",
+) -> List[WorkOrder]:
+    """
+    Phase 1: DECOMPOSE — LLM-powered work order generation.
+
+    Uses MemorySelector to find relevant experts, then asks Gemini Flash
+    to decompose the objective into specialized work orders.
+    """
+    print(f"\n🧠 COORDINATOR: Phase 1 — DECOMPOSE")
+    print(f"   Objective: {objective[:100]}...")
+
+    # Step 1: Semantic expert selection via MemorySelector
+    selector = MemorySelector(client)
+    selected_items = await selector.select(
+        objective,
+        top_k=max_agents + 2,  # Over-select, coordinator will trim
+        categories=["skills"],
+    )
+
+    if not selected_items:
+        print("  ⚠️  Semantic selection returned empty, falling back to keyword")
+        agents = auto_select_agents(objective, max_agents)
+        return generate_work_orders(objective, agents, research_brief=research_brief)
+
+    # Build available experts list from semantic selection
+    available_experts = []
+    for item in selected_items:
+        skill_path = Path(BASE_PATH) / item.get("path", "")
+        skill_name = skill_path.name if skill_path.exists() else item.get("name", "")
+
+        # Map skill directory name to closest agent name in EXPERT_DOMAINS
+        matched_agent = None
+        for agent_name in EXPERT_DOMAINS:
+            if agent_name in skill_name or skill_name in agent_name:
+                matched_agent = agent_name
+                break
+
+        # Also check KI items by name
+        if not matched_agent:
+            for agent_name in EXPERT_DOMAINS:
+                if agent_name.replace("-", " ") in item.get("name", "").lower():
+                    matched_agent = agent_name
+                    break
+
+        if matched_agent:
+            available_experts.append({
+                "agent_name": matched_agent,
+                "domain": EXPERT_DOMAINS.get(matched_agent, ""),
+                "relevance": item.get("relevance", ""),
+                "has_genius": item.get("has_genius", False),
+                "workflow_count": item.get("workflow_count", 0),
+            })
+
+    if not available_experts:
+        print("  ⚠️  No experts matched from semantic selection, falling back")
+        agents = auto_select_agents(objective, max_agents)
+        return generate_work_orders(objective, agents, research_brief=research_brief)
+
+    experts_text = "\n".join(
+        f"- {e['agent_name']}: {e['domain']} (relevance: {e['relevance']}, "
+        f"genius: {e['has_genius']}, workflows: {e['workflow_count']})"
+        for e in available_experts
+    )
+
+    prompt = f"""OBJECTIVE: {objective}
+
+AVAILABLE EXPERTS (pre-selected by semantic matching):
+{experts_text}
+
+{f'RESEARCH BRIEF (pre-gathered data):{chr(10)}{research_brief[:2000]}' if research_brief else ''}
+
+Decompose this objective into {min(max_agents, len(available_experts))} parallel work orders.
+Return ONLY a JSON array."""
+
+    text, meta = await client.generate(
+        prompt,
+        system_instruction=COORDINATOR_SYSTEM,
+        model="flash",  # Flash for speed + intelligence balance
+        temperature=0.3,
+        max_output_tokens=4096,
+    )
+
+    print(f"   Coordinator decomposed in {meta.duration_seconds:.1f}s "
+          f"(${meta.estimated_cost_usd:.4f})")
+
+    # Parse work orders — robust JSON extraction
+    raw_orders = None
+    try:
+        import re as _re
+        clean = text.strip()
+        # Strip markdown code fences
+        if clean.startswith("```"):
+            clean = _re.sub(r'^```\w*\n?', '', clean)
+            clean = _re.sub(r'\n?```$', '', clean)
+        raw_orders = json.loads(clean.strip())
+    except json.JSONDecodeError:
+        # Fallback: find the JSON array in the response via bracket matching
+        try:
+            start = text.index("[")
+            depth = 0
+            for i in range(start, len(text)):
+                if text[i] == "[":
+                    depth += 1
+                elif text[i] == "]":
+                    depth -= 1
+                    if depth == 0:
+                        raw_orders = json.loads(text[start:i+1])
+                        break
+        except (ValueError, json.JSONDecodeError):
+            pass
+
+    if not raw_orders:
+        print(f"  ⚠️  Coordinator returned invalid JSON, falling back")
+        print(f"  DEBUG response (first 500 chars): {text[:500]}")
+        agents = [e["agent_name"] for e in available_experts[:max_agents]]
+        return generate_work_orders(objective, agents, research_brief=research_brief)
+
+    # Convert to WorkOrder objects
+    work_orders = []
+    for raw in raw_orders:
+        agent_name = raw.get("agent_name", "")
+        if agent_name not in EXPERT_DOMAINS:
+            print(f"  ⚠️  Coordinator suggested unknown agent '{agent_name}', skipping")
+            continue
+
+        context = f"You are contributing to a coordinated multi-expert operation.\n"
+        context += f"Your specific role: {raw.get('rationale', 'Apply your domain expertise')}"
+        if research_brief:
+            context += f"\n\n{research_brief}"
+
+        work_orders.append(WorkOrder(
+            agent_name=agent_name,
+            objective=raw.get("objective", objective),
+            context=context,
+            mandate=raw.get("mandate", [
+                "Apply your specific frameworks",
+                "Be concrete and actionable",
+                "Flag contrarian perspectives",
+            ]),
+            constraints={
+                "tier": raw.get("tier", 1),
+                "workflow_files": raw.get("workflow_files", []),
+            },
+            batch=raw.get("batch", 0),
+        ))
+
+    if not work_orders:
+        print("  ⚠️  Coordinator produced no valid work orders, falling back")
+        agents = [e["agent_name"] for e in available_experts[:max_agents]]
+        return generate_work_orders(objective, agents, research_brief=research_brief)
+
+    print(f"\n   📋 Coordinator generated {len(work_orders)} work orders:")
+    for wo in work_orders:
+        print(f"      [{wo.batch}] {wo.agent_name}: {wo.objective[:80]}...")
+
+    return work_orders
+
+
+async def execute_coordinated_swarm(
+    objective: str,
+    client: GeminiClient,
+    max_agents: int = 5,
+    plan_only: bool = False,
+    grounded: bool = False,
+    research_brief: str = "",
+) -> SwarmResult:
+    """
+    4-Phase Coordinated Swarm Execution.
+
+    Phase 1: DECOMPOSE — Semantic selection + LLM work order generation
+    Phase 2: RESEARCH — Optional Perplexity pre-research (already done if --research)
+    Phase 3: EXECUTE — Parallel agent execution with batched dependencies
+    Phase 4: VERIFY — Synthesis + challenge round + quality check
+    """
+    start_time = time.time()
+
+    print(f"\n{'='*60}")
+    print(f"🎯 COORDINATOR MODE — 4-Phase Intelligent Orchestration")
+    print(f"{'='*60}")
+    print(f"📋 Objective: {objective}")
+    print(f"🔧 Model: {client.default_model}")
+    print(f"🛡️  Safety: max {MAX_RETRIES} retries, {TOKEN_BUDGET:,} token budget")
+    if grounded:
+        print(f"🌐 Grounding: ENABLED")
+    if research_brief:
+        print(f"🔬 Research: PRE-RESEARCH INJECTED")
+    print(f"{'='*60}")
+
+    # Phase 1: DECOMPOSE
+    work_orders = await coordinator_decompose(
+        objective, client, max_agents=max_agents, research_brief=research_brief
+    )
+
+    if plan_only:
+        print("\n📝 Plan-only mode — work orders generated but not executed.")
+        plan_text = "\n\n".join(
+            f"### {wo.agent_name} (Batch {wo.batch})\n"
+            f"**Objective:** {wo.objective}\n"
+            f"**Tier:** {wo.constraints.get('tier', 1)}\n"
+            f"**Mandate:** {', '.join(wo.mandate[:2])}..."
+            for wo in work_orders
+        )
+        return SwarmResult(
+            objective=objective, agent_results=[], synthesis=plan_text,
+            total_tokens=client.total_tokens_used, total_duration=0,
+            total_cost_usd=client.total_cost_usd,
+        )
+
+    # Phase 3: EXECUTE (Phase 2 research already handled by caller)
+    print(f"\n🚀 COORDINATOR: Phase 3 — EXECUTE")
+
+    batches: Dict[int, List[WorkOrder]] = {}
+    for wo in work_orders:
+        batches.setdefault(wo.batch, []).append(wo)
+
+    all_results: List[AgentResult] = []
+
+    for batch_num in sorted(batches.keys()):
+        batch = batches[batch_num]
+        batch_agents = [wo.agent_name for wo in batch]
+        print(f"\n⚡ BATCH {batch_num + 1}: Launching {len(batch)} agents in PARALLEL")
+        print(f"   Agents: {', '.join(batch_agents)}")
+
+        # Inject outputs from previous batches
+        if batch_num > 0 and all_results:
+            assembled = "\n\n---\n\n".join(
+                f"## {r.agent_name} Output:\n{r.output}"
+                for r in all_results if r.status == "success"
+            )
+            for wo in batch:
+                wo.context += f"\n\n## ASSEMBLED OUTPUTS FROM PREVIOUS AGENTS\n{assembled}"
+
+        tasks = [execute_agent(wo, client, grounded=grounded) for wo in batch]
+        results = await asyncio.gather(*tasks)
+        all_results.extend(results)
+
+        successful = sum(1 for r in results if r.status == "success")
+        print(f"\n   ✅ Batch {batch_num + 1} complete: {successful}/{len(batch)} succeeded")
+
+    # Phase 4: VERIFY
+    print(f"\n🔍 COORDINATOR: Phase 4 — VERIFY")
+    print(f"   Synthesizing {len(all_results)} agent outputs...")
+
+    synthesis = await synthesize_results(objective, all_results, client, grounded=grounded)
+
+    total_duration = time.time() - start_time
+    usage = client.usage_summary()
+
+    save_outputs(objective, all_results, synthesis, usage, total_duration, client.default_model)
+
+    print(f"\n{'='*60}")
+    print(f"🎯 COORDINATED SWARM COMPLETE")
+    print(f"{'='*60}")
+    print(f"⏱️  Duration:   {total_duration:.1f}s")
+    print(f"📊 Tokens:     {usage['total_tokens']:,}")
+    print(f"💰 Est. Cost:  ${usage['total_cost_usd']:.4f}")
+    print(f"📂 Output:     {OUTPUT_DIR / 'latest'}")
+    print(f"{'='*60}\n")
+
+    return SwarmResult(
+        objective=objective, agent_results=all_results, synthesis=synthesis,
+        total_tokens=usage["total_tokens"], total_duration=total_duration,
+        total_cost_usd=usage["total_cost_usd"],
+    )
 
 
 # --------------------------------------------------------------------------
@@ -1009,6 +1312,8 @@ Examples:
                         help="Enable Google Search grounding — agents search the web for real-time data")
     parser.add_argument("--research", action="store_true",
                         help="Run Perplexity pre-research phase — grounds agents in cited real-world data")
+    parser.add_argument("--coordinator", action="store_true",
+                        help="Enable Coordinator Mode — semantic routing + LLM work decomposition (4-phase pipeline)")
     parser.add_argument("--mode", choices=["default", "mini-brief"], default="default",
                         help="Swarm mode: 'default' for generic, 'mini-brief' for 7-element brief production")
     parser.add_argument("--concept-mode", default="story-driven",
@@ -1050,6 +1355,18 @@ Examples:
         result = asyncio.run(
             _execute_swarm_with_orders(args.objective, work_orders, client,
                                        plan_only=args.plan_only, grounded=args.grounded)
+        )
+    elif args.coordinator:
+        # Coordinator Mode — 4-phase intelligent orchestration
+        print(f"\n🎯 Coordinator Mode: semantic routing + LLM decomposition")
+        result = asyncio.run(
+            execute_coordinated_swarm(
+                args.objective, client,
+                max_agents=args.max_agents,
+                plan_only=args.plan_only,
+                grounded=args.grounded,
+                research_brief=research_brief,
+            )
         )
     else:
         # Default mode
