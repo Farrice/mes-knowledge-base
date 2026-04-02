@@ -58,6 +58,9 @@ from log_performance import log_output, check_regression, get_baseline
 from protocol_tracker import activate_protocol
 from checkpoint_manager import save_session_state
 
+# Evolution trace directory
+TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "traces"
+
 
 # Quality Gate thresholds (from directives/quality_gate.md)
 COMPOSITE_PASS_THRESHOLD = 7
@@ -82,6 +85,7 @@ def finalize(
     user_rating: Optional[float] = None,
     experiment_tag: str = "",
     skip_notion: bool = False,
+    write_trace: bool = False,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -234,6 +238,37 @@ def finalize(
         result["session_state_written"] = False
 
     result["success"] = True
+
+    # ── Step 8 (optional): Write evolution trace ─────────────────
+    if write_trace:
+        try:
+            TRACE_DIR.mkdir(parents=True, exist_ok=True)
+            trace = {
+                "timestamp": result["timestamp"],
+                "output": output_description,
+                "expert": expert,
+                "skill": skill,
+                "workflow": workflow,
+                "task_type": task_type,
+                "intent_alignment": intent_alignment,
+                "expert_standard": expert_standard,
+                "adversarial_resilience": adversarial_resilience,
+                "composite_score": composite,
+                "status": status,
+                "passed": passed,
+                "failed_dimensions": failed_dimensions,
+                "regression": result.get("regression_check", {}),
+                "notes": notes,
+                "experiment_tag": experiment_tag,
+            }
+            ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+            trace_file = TRACE_DIR / f"trace_{ts}_{skill or expert or 'unknown'}.json"
+            with open(trace_file, "w") as f:
+                json.dump(trace, f, indent=2)
+            result["trace_file"] = str(trace_file)
+        except Exception as e:
+            result["trace_file"] = f"ERROR: {e}"
+
     return result
 
 
@@ -307,6 +342,7 @@ def main():
     fin.add_argument("--rating", type=float, help="User rating (1-10)")
     fin.add_argument("--tag", default="", help="Experiment tag")
     fin.add_argument("--skip-notion", action="store_true", help="Skip Notion logging (test mode)")
+    fin.add_argument("--trace", action="store_true", help="Write JSON trace to evolution_store/traces/")
 
     args = parser.parse_args()
 
@@ -324,6 +360,7 @@ def main():
             user_rating=args.rating,
             experiment_tag=args.tag,
             skip_notion=args.skip_notion,
+            write_trace=args.trace,
         )
         print_result(result)
     else:

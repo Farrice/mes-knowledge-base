@@ -1,8 +1,6 @@
-# CLAUDE.md
+# AGENTS.md — Antigravity System Harness
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
-<!-- CLAUDE.md and AGENTS.md share identical format. GEMINI.md is Gemini-native (same intent, different format). When system intent changes here, run /sync-instructions to update GEMINI.md. -->
 
 ---
 
@@ -193,25 +191,78 @@ Push complexity into deterministic code. You focus on decision-making.
 
 ---
 
-## Supporting Protocols
+## Directive Index
 
-These fire at their trigger point within the chain. Do NOT wait to "read them on demand."
+All SOPs live in `directives/`. Fire at their trigger point — do NOT preload.
 
-| Protocol | Fires During | Directive |
-|----------|-------------|-----------|
-| Quality Assurance | Step 5 (production) | `directives/quality_assurance.md` |
-| Token Efficiency | Every workflow | `directives/token-efficiency-protocol.md` |
-| Session State | After Step 2, after Step 4, after 10+ reads | `directives/session-state-protocol.md` |
-| Self-Annealing | On any error | `directives/deep_self_annealing.md` |
-| Collaboration | Always | `directives/collaboration-protocol.md` |
-| Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
-| Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
-| Operating Principles | Development workflows | `directives/operating-principles.md` |
+### Chain Protocols (fire during the 6-step chain)
+| Directive | When |
+|-----------|------|
+| `quality_assurance.md` | Step 5 — anti-patterns, entity classification, no phantom research |
+| `quality_gate.md` | After Step 5 — silent self-annealing quality gate |
+| `feedback-ratchet.md` | After Step 6 — logs quality scores for longitudinal tracking |
+| `content_creation_gate.md` | Step 4 — pre-flight gate for content tasks (min 2 skill files) |
+| `deep_self_annealing.md` | On any error — tiered recovery system |
+| `ai-slop-detector.md` | Step 5 — prose-level pattern awareness for AI-shaped writing |
+| `verification-agent-protocol.md` | Between Step 5-6 — adversarial verification for implementations |
+| `collaboration-protocol.md` | Always — anti-sycophancy mandate |
+| `operating-principles.md` | Development workflows |
+| `user-state-awareness.md` | Every turn — lightweight frustration detection |
 
-### Budget-Gated (check before calling)
-| Protocol | Directive | Gate |
-|----------|-----------|------|
-| Perplexity | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json` |
-| NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
+### Routing & Loading
+| Directive | When |
+|-----------|------|
+| `intent-pipeline.md` | Step 2-3 — full DICE dimensions + routing tables |
+| `agent-loading-protocol.md` | Step 4 — tiered loading chain (Hot → Tier 3) |
+| `expert_auto_routing.md` | Step 3 — domain tables + ensemble patterns |
+| `multi-expert-synthesis.md` | Multi-domain tasks — combining expert perspectives |
+| `skill-paths-reference.md` | Quick lookup: expert → skill file paths |
+
+### Research & Knowledge
+| Directive | When |
+|-----------|------|
+| `research-protocol.md` | Research tasks — grounded intelligence standard |
+| `hybrid-knowledge-retrieval.md` | Smart routing across all knowledge sources |
+| `perplexity-usage-policy.md` | Budget: $30/mo, track in `.agent/perplexity-usage.json` |
+| `notebooklm-usage-policy.md` | Budget: 100/mo, track in `.agent/notebooklm-usage.json` |
+
+### Extraction & Skills
+| Directive | When |
+|-----------|------|
+| `extraction-workflow.md` | Processing new expert extractions into agents/skills |
+| `extraction-to-skill.md` | Converting MES 3.0 extractions into production skills |
+| `mes-3.0-extract.md` | MES 3.0 extraction from source material |
+| `mes-3.0-validate.md` | Validation: mechanical rubric + Oren CEV taste check |
+| `skill-evolution-protocol.md` | 20+ Performance Log entries or regression — variant testing |
+| `cross-pollination.md` | After a skill evolution KEEP — propagate to related skills |
+| `expertise-gap-protocol.md` | No expert covers the task — self-healing knowledge loop |
+
+### Session & System
+| Directive | When |
+|-----------|------|
+| `session-state-protocol.md` | After Step 2, after Step 4, after 10+ reads |
+| `session-end-commit.md` | End of session — commit protocol |
+| `token-efficiency-protocol.md` | Every workflow — minimize context pollution |
+| `sub_agent_protocol.md` | 2+ experts loaded, or 10+ files in context |
+| `parallel_thought.md` | Complex/swarm-worthy tasks — parallel build orchestrator |
+| `parallelism-cheat-sheet.md` | Quick reference for parallel execution patterns |
+| `workflow-chains.md` | Multi-step workflows — output-to-input contracts |
+
+### Domain-Specific
+| Directive | When |
+|-----------|------|
+| `ghostwriting-delivery.md` | Any ghostwriting task — full delivery SOP |
+| `sales-conversation.md` | Sales prep — Miner + Bernoff frameworks |
+| `content-creation.md` | Content creation using expert council |
+| `daily-council.md` | Morning routine — daily focus via expert council |
+| `decision-council.md` | Major decisions — expert council framework |
+| `notion-databases.md` | Notion API — database IDs, schemas, registry |
+
+### Setup & Reference
+| Directive | When |
+|-----------|------|
+| `mcp-server-setup.md` | MCP server setup — Workspace, Notion, SQLite |
+| `mcp-research-setup.md` | MCP research setup — Perplexity Sonar + Tavily |
+| `gemini-reference.md` | On-demand reference material stripped from GEMINI.md |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-04-02T16:19:23.507111",
+  "output": "Harness audit verification",
+  "expert": "system",
+  "skill": "system",
+  "workflow": "harness-audit",
+  "task_type": "System",
+  "intent_alignment": 9.0,
+  "expert_standard": 9.0,
+  "adversarial_resilience": 9.0,
+  "composite_score": 9.0,
+  "status": "Keep",
+  "passed": true,
+  "failed_dimensions": [],
+  "regression": {
+    "is_regression": false,
+    "baseline_avg": 9.285714285714286,
+    "delta": -0.2857142857142865,
+    "message": "STABLE: Score 9.0 is within 1.0 of baseline 9.3."
+  },
+  "notes": "Verifying --trace flag writes to evolution_store/traces/",
+  "experiment_tag": ""
+}
