@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (360 Commands)
+# 🚀 Antigravity Workflows — Complete Index (383 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -108,6 +108,23 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/proof-across-platforms` | Proof ladder deployed across oral/written culture modes — platform-aware proof stacking |
 | `/proof-ladder-sprint` | 30-90 day sprint through all 7 proof ladder rungs with daily action items and exit criteria |
 | `/track-record` | Ad spend track record acceleration through agency partnerships and documentation systems |
+
+---
+
+## 🧠 Belief Change & Persuasion Architecture — David McRaney (11)
+| Command | What It Does |
+|---------|-------------|
+| `/belief-creative-brief` | Belief-Layer Creative Brief — master pre-production document combining belief architecture with ELM routing, rebuttal prediction, and proof prescription |
+| `/mcraney-deep-canvass` | Deep Canvassing Research Sprint — 5-phase Perplexity research pipeline producing a complete Belief Architecture Document |
+| `/persuasion-copy` | McRaney × Luke Iha cross-stack — finished copy with ELM routing, rebuttal defense, accommodation design, and proof prescription |
+| `/accommodation-audit` | Accommodation vs Assimilation audit — diagnoses whether content triggers genuine belief change or comfortable agreement |
+| `/belief-dissolve-copy` | Belief Dissolution Copywriting — identifies blocking belief, traces origin, engineers metacognitive activation, produces dissolution copy |
+| `/resistance-proof-rx` | Resistance-Matched Proof Prescription — diagnoses resistance type, maps to Luke Iha proof types, produces proof-fortified copy |
+| `/threshold-campaign` | Threshold-Optimized Campaign — runs full Threshold Equation, identifies binding constraint, designs multi-touchpoint campaign |
+| `/metacognitive-content` | Metacognitive Thought Leadership — content that triggers genuine self-examination using metacognitive activation and accommodation design |
+| `/elm-content-strategy` | ELM-Informed Content Strategy — platform × processing route matrix with matched content prescriptions |
+| `/social-permission-campaign` | Social Permission & Norm-Shift Campaign — reduces social cost of adoption using pluralistic ignorance surfacing and permission architecture |
+| `/belief-first-audience-intelligence` | McRaney × Dai Media cross-stack — map belief architecture, diagnose processing routes, calculate threshold costs, produce belief-aware consumer posture profiles |
 
 ---
 
@@ -546,7 +563,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🔧 System & Skill Management (13)
+## 🔧 System & Skill Management (22)
 | Command | What It Does |
 |---------|-------------|
 | `/add-notebook` | Register a new NotebookLM notebook for RAG integration |
@@ -563,10 +580,18 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/routing-intelligence` | View routing analytics dashboard |
 | `/skill-evolution` | Run evolution cycle — benchmark, test variants, keep improvements |
 | `/system-audit` | Comprehensive health audit on the Antigravity system |
+| `/self-evolve` | MetaHarness-style self-improvement loop on any component — workflow, prompt, retrieval logic, or orchestration pattern |
+| `/harness-evolve` | Evolve a specific workflow's prompts, flow, and gates through automated iteration |
+| `/auto-experiment` | Karpathy-style experiment loops with git-branch isolation — hypothesis, test, commit only if improvement |
+| `/skill-anneal` | Apply self-annealing to a skill's prompts and workflows using past quality gate failures as the search set |
+| `/evolution-audit` | Inspect evolution history — view Pareto frontier, detect regressions, trace causal chains |
+| `/evolution-status` | Dashboard of all active and completed evolution loops — iteration counts, scores, trajectories |
+| `/proposer-sprint` | Time-boxed, fixed-iteration improvement sprint — define target, iterations, metric, get best variant |
+| `/bitter-lesson-check` | Audit hand-coded heuristics for evolution replacement potential — the Bitter Lesson applied to Antigravity |
 
 ---
 
-## 🧭 Session & Workflow (14)
+## 🧭 Session & Workflow (15)
 | Command | What It Does |
 |---------|-------------|
 | `/ship` | Quick content sprint — 1 expert, write, publish, auto-log. No perfectionism. |
@@ -584,10 +609,11 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/tone-calibrate` | Annotate scripts with tonality directions and pacing markers |
 | `/validate-intent` | Validate raw user intent before building |
 | `/weekly-pulse` | Monday planning ritual — scan situation, set 5-day breakdown |
+| `/find-context` | Search across all past conversations and artifacts by keyword, domain, expert, or date |
 
 ---
 
-## 🏥 System Health (5)
+## 🏥 System Health (8)
 | Command | What It Does |
 |---------|-------------|
 | `/health-check` | Check which Antigravity systems are active vs dormant |
@@ -595,6 +621,9 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/workflows` | Browse and search all available workflows |
 | `/system-pulse` | Weekly operational intelligence dashboard — protocol health, quality trends, expert performance |
 | `/phase-transition` | Joscha Bach phase transition analysis for system or personal evolution |
+| `/sync-instructions` | Sync system intent changes from CLAUDE.md to GEMINI.md without breaking model-native formatting |
+| `/test-model-compliance` | Test whether a model instruction file actually produces Chain compliance |
+| `/index-conversations` | Rebuild the conversation index to make all past sessions searchable |
 
 ---
 
@@ -768,5 +797,29 @@ You don't need to remember command names. These common phrases automatically map
 | "growth sprint" / "batch growth posts" / "week of growth content" / "fill growth bucket" | `growth-format-sprint` |
 
 ---
+
+| "belief architecture" / "map their beliefs" / "what do they believe" / "McRaney" | `belief-creative-brief` |
+| "deep canvass" / "belief research" / "audience belief data" | `mcraney-deep-canvass` |
+| "persuasion copy" / "ELM routing" / "belief-aware copy" | `persuasion-copy` |
+| "accommodation audit" / "is this changing minds" / "assimilation check" | `accommodation-audit` |
+| "dissolve a belief" / "belief dissolution copy" / "blocking belief" | `belief-dissolve-copy` |
+| "resistance proof" / "match proof to resistance" / "proof prescription" | `resistance-proof-rx` |
+| "threshold campaign" / "binding constraint" / "what's blocking adoption" | `threshold-campaign` |
+| "metacognitive content" / "make them think about thinking" / "self-examination content" | `metacognitive-content` |
+| "ELM content strategy" / "processing route" / "central vs peripheral" | `elm-content-strategy` |
+| "social permission" / "norm shift" / "social cost" / "pluralistic ignorance" | `social-permission-campaign` |
+| "belief-first audience" / "belief posture" / "McRaney × Dai Media" | `belief-first-audience-intelligence` |
+| "evolve this" / "self-evolve" / "MetaHarness" / "improve this workflow" | `self-evolve` |
+| "harness evolve" / "evolve the harness" / "workflow evolution" | `harness-evolve` |
+| "run an experiment" / "auto-experiment" / "hypothesis test" | `auto-experiment` |
+| "anneal this skill" / "skill anneal" / "quality plateau" | `skill-anneal` |
+| "evolution audit" / "what evolved" / "evolution history" | `evolution-audit` |
+| "evolution status" / "how are evolutions going" / "evolution dashboard" | `evolution-status` |
+| "quick sprint" / "proposer sprint" / "fast iteration" | `proposer-sprint` |
+| "bitter lesson" / "am I over-engineering" / "heuristic check" | `bitter-lesson-check` |
+| "sync instructions" / "sync CLAUDE and GEMINI" / "cross-model sync" | `sync-instructions` |
+| "test compliance" / "does CLAUDE.md work" / "model compliance" | `test-model-compliance` |
+| "find past work" / "search conversations" / "find context" | `find-context` |
+| "rebuild index" / "index conversations" / "make sessions searchable" | `index-conversations` |
 
 > **Quick tip:** Don't see what you need? Just describe what you want to do and the system will find the right workflow — or build a new one.
