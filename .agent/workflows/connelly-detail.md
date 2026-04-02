@@ -1,5 +1,5 @@
 ---
-description: Deploy the Telling Detail Engine on any draft or scene — replace descriptive paragraphs with 1-2 surgical details
+description: replace descriptive paragraphs with 1-2 surgical details
 ---
 
 # /connelly-detail

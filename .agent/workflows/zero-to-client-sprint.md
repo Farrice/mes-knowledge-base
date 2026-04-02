@@ -1,5 +1,5 @@
 ---
-description: "Run the full Nicolas Cole 30-day ghostwriting client acquisition sprint — removal list through first 3 paying clients"
+description: removal list through first 3 paying clients
 ---
 
 # Zero-to-Client Sprint

@@ -1,5 +1,5 @@
 ---
-description: Apply self-annealing to a specific skill's prompts and workflows — use past quality gate failures as the search set
+description: Apply self-annealing to a specific skill's prompts
 ---
 
 # Skill Anneal

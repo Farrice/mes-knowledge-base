@@ -1,5 +1,5 @@
 ---
-description: Transform a validated mechanism into hooks, lead angles, ad concepts, and VSL outline
+description: Transform a validated mechanism
 ---
 
 # Mechanism-to-Copy Bridge

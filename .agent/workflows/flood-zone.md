@@ -1,5 +1,5 @@
 ---
-description: "Crisis response that buries attacks under volume of interesting content — exploit the 36-hour viral memory window using Andreessen/Horowitz flood-the-zone doctrine"
+description: Crisis response that buries attacks under volume
 ---
 
 # /flood-zone — Flood the Zone Crisis Protocol

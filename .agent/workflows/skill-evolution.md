@@ -1,5 +1,5 @@
 ---
-description: Run a skill evolution cycle — benchmark, identify weaknesses, generate and test variants
+description: Run a skill evolution cycle
 ---
 
 # /skill-evolution — Skill Evolution Workflow

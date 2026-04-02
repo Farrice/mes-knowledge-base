@@ -1,5 +1,5 @@
 ---
-description: Run a MetaHarness-style self-improvement loop on any Antigravity component — workflow, prompt, retrieval logic, or orchestration pattern
+description: workflow, prompt, retrieval logic, or orchestration pattern
 ---
 
 # Self-Evolve

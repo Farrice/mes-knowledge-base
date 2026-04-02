@@ -1,5 +1,5 @@
 ---
-description: Generate 20+ ad concepts from one product using CASH method (Concept × Angle × Style × Hook)
+description: Generate 20+ ad concepts
 ---
 
 # CASH Method Generator

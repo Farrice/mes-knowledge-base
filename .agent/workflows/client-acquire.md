@@ -1,5 +1,5 @@
 ---
-description: Client Acquisition Engine — build proposals, objection handling, and over-delivery strategy for winning freelance gigs
+description: Client Acquisition Engine
 ---
 
 ## Workflow: Client Acquisition Engine

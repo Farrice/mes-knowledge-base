@@ -1,5 +1,5 @@
 ---
-description: "30-90 day sprint through all 7 proof ladder rungs with daily action items and exit criteria per rung"
+description: 30-90 day sprint
 ---
 
 ## Workflow: Proof Ladder Sprint

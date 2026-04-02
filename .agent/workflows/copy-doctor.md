@@ -1,5 +1,5 @@
 ---
-description: Copy Doctor — audit any copy for proof gaps, strategic misalignment, and awareness-level calibration using all 3 Luke Iha skills
+description: Copy Doctor
 ---
 
 ## Workflow: Copy Doctor

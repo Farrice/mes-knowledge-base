@@ -1,5 +1,5 @@
 ---
-description: Manage complex, multi-step projects across session boundaries with checkpointing and per-batch quality gates
+description: Manage complex, multi-step projects
 ---
 
 # Big Project Workflow

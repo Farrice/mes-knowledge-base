@@ -1,5 +1,5 @@
 ---
-description: Annotate any script or copy with tonality directions and verbal pacing markers
+description: Annotate any script or copy
 ---
 
 # /tone-calibrate

@@ -1,5 +1,5 @@
 ---
-description: Find and analyze viral content in your niche to extract structural patterns for original content creation
+description: Find and analyze viral content in your niche
 ---
 
 # /lookalike-content — Lookalike Content Pattern Miner

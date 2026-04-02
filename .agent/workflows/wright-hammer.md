@@ -1,5 +1,5 @@
 ---
-description: Build piece structure from the ending backward — the ending-first architecture that makes everything before it inevitable
+description: Build piece structure from the ending backward
 ---
 
 # Wright Thompson Hammer-First Outliner

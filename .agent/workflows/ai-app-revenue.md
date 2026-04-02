@@ -1,5 +1,5 @@
 ---
-description: Build AI-powered micro-apps with ad revenue and affiliate monetization — calculator, converter, and analyzer apps
+description: calculator, converter, and analyzer apps
 ---
 
 # AI App Revenue Builder

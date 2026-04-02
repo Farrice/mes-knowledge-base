@@ -1,5 +1,5 @@
 ---
-description: Unaware Ad Architect — build a complete ad targeting audiences who don't know they have a problem
+description: Unaware Ad Architect
 ---
 
 ## Workflow: Unaware Ad Architect

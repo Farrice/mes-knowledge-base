@@ -1,5 +1,5 @@
 ---
-description: Build subtext dialogue — conversations that are "about this but really about that"
+description: Build subtext dialogue
 ---
 
 # /connelly-subtext

@@ -1,5 +1,5 @@
 ---
-description: Run at the start of every new chat to label the conversation, declare active protocols, and set the system to full operating level
+description: Run at the start of every new chat
 ---
 
 # 🚀 Session Kickoff

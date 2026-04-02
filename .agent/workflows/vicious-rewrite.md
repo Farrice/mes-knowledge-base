@@ -1,5 +1,5 @@
 ---
-description: Rewrite weak hooks as vicious using Luke Iha's systematic 8-step rewrite stack — before/after transformations
+description: Rewrite weak hooks as vicious
 ---
 
 # Vicious Rewrite Engine

@@ -1,5 +1,5 @@
 ---
-description: "Define your smallest viable audience, lock 'Who/What' positioning, and triage problems vs situations"
+description: Define your smallest viable audience, lock 'Who/What' positioning
 ---
 
 # Strategic Clarity Engine

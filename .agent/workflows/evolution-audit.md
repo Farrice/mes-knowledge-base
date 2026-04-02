@@ -1,5 +1,5 @@
 ---
-description: Inspect evolution history for any component — view Pareto frontier, detect regressions, trace causal chains through iteration history
+description: Inspect evolution history for any component
 ---
 
 # Evolution Audit

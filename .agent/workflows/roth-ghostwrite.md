@@ -1,5 +1,5 @@
 ---
-description: Premium ghostwriting using Third Rail principle — client voice + Roth craft = best version of the client
+description: Premium ghostwriting using Third Rail principle
 ---
 
 # Roth Ghostwriter Elevation

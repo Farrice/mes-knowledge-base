@@ -1,5 +1,5 @@
 ---
-description: "ELM-Informed Content Strategy — produces a platform × processing route matrix with matched content prescriptions, preventing the structural mismatch that kills most content strategies"
+description: ELM-Informed Content Strategy
 ---
 
 # ELM Content Strategy

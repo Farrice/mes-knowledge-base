@@ -1,5 +1,5 @@
 ---
-description: Run the Ideation Flywheel — A multi-expert research swarm (Seena, Samuel, Kallaway, Oren) that outputs 3-5 validated "Mini-Briefs" ready to be fed into the content engines.
+description: Run the Ideation Flywheel
 ---
 
 # `/flywheel-ideas` — The Ideation Engine

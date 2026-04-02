@@ -1,5 +1,5 @@
 ---
-description: "Full track record dashboard — win rate, ROI, bankroll history, best/worst players, system health. Use this to show your track record to potential subscribers."
+description: Full track record dashboard
 ---
 
 # /picks-status — Track Record Dashboard

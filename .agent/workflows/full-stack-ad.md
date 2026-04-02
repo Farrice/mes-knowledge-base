@@ -1,5 +1,5 @@
 ---
-description: Complete campaign using all Luke Iha skills — mechanism → lead → ad scripts × variations
+description: Complete campaign using all Luke Iha skills
 ---
 
 # Full-Stack Ad Campaign

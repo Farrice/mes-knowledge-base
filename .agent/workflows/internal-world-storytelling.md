@@ -1,5 +1,5 @@
 ---
-description: Create narratives that enter your consumer's mind and narrate their unspoken experience — Entry, Recognition, Permission, Possibility
+description: Create narratives that enter your consumer's mind
 ---
 
 # /internal-world-storytelling — Consumer Internal World Stories

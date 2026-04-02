@@ -1,5 +1,5 @@
 ---
-description: Generate a monthly intelligence gap report — identify weak skills, missing coverage, and knowledge investment priorities
+description: Generate a monthly intelligence gap report
 ---
 
 # /gap-report — Intelligence Gap Analysis Workflow

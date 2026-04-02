@@ -1,5 +1,5 @@
 ---
-description: Apply narrative physics to social media posts — LinkedIn, Twitter/X, Instagram
+description: Apply narrative physics to social media posts
 ---
 
 # /social-narrative — Social Media Narrative Engine

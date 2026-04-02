@@ -1,5 +1,5 @@
 ---
-description: Run the Daily Flywheel Engine - transforming raw journal entries into deep self-exploration, live market research, and brand-aligned content assets.
+description: Run the Daily Flywheel Engine
 ---
 
 # `/daily-flywheel` — The Daily Flywheel Engine

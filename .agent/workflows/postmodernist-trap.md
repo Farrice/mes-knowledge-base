@@ -1,5 +1,5 @@
 ---
-description: Audit any system for the postmodernist trap — measure the delta between narrative and capability, prescribe ground-truth forcing functions
+description: Audit any system for the postmodernist trap
 ---
 
 # Postmodernist Trap

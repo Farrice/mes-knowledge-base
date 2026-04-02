@@ -1,5 +1,5 @@
 ---
-description: Find the intersection of product uniqueness × audience desire
+description: Find the intersection of product uniqueness × audience
 ---
 
 # Little Big Idea Finder

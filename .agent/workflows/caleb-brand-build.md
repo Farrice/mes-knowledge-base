@@ -1,5 +1,5 @@
 ---
-description: "Take anyone from zero to revenue-generating personal brand — 6-phase pipeline chaining all Caleb Ralston workflows: discovery → architecture → platform → content → packaging → revenue"
+description: Take anyone from zero to revenue-generating personal brand
 ---
 
 # /caleb-brand-build — Full Personal Brand Operating System

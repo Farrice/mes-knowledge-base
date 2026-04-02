@@ -1,5 +1,5 @@
 ---
-description: "Zero-to-hired creative strategist blueprint — role clarity, skill assessment, positioning, and 30-day launch sequence"
+description: Zero-to-hired creative strategist blueprint
 ---
 
 ## Workflow: Creative Strategist Launcher

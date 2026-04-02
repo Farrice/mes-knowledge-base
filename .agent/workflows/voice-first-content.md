@@ -1,5 +1,5 @@
 ---
-description: "Voice-First Content Pipeline — topic research → prompt sets → voice capture → writer's room → editor pass → final review → publish"
+description: Voice-First Content Pipeline
 ---
 
 # /voice-first-content — Voice-First LinkedIn Content Pipeline

@@ -1,5 +1,5 @@
 ---
-description: "Grace city blueprint enhanced with OODA loop speed layer + oral/written culture per content line — the full media company build with new media physics"
+description: the full media company build
 ---
 
 # /grace-new-media — City Blueprint with New Media Physics

@@ -1,5 +1,5 @@
 ---
-description: "Full end-to-end city build — Deep Research → City Map → Trust Pathways → Revenue District → 30-day calendar"
+description: Full end-to-end city build
 ---
 
 # /grace-city-blueprint — Complete Media Company Build

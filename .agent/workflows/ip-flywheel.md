@@ -1,5 +1,5 @@
 ---
-description: Run the Interactive IP Flywheel (v2.1) — The Low-Friction Engine for short-form, text-heavy LinkedIn & Substack dominance. Enforces a mandatory Creative Brief approval step.
+description: Run the Interactive IP Flywheel
 ---
 
 # `/ip-flywheel` — The Interactive IP Flywheel (v2.1)

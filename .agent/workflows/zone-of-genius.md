@@ -1,5 +1,5 @@
 ---
-description: Diagnose your zone of genius content format — low effort, high impact, authentically unreplicable
+description: Diagnose your zone of genius content format
 ---
 
 # /zone-of-genius — Zone of Genius Format Finder

@@ -1,5 +1,5 @@
 ---
-description: Build a 90-day market pivot and targeting roadmap for real estate — niche selection, economic response, and market domination strategy
+description: niche selection, economic response, and market domination strategy
 ---
 
 # Strategic Market Dominance Plan

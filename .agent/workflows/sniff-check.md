@@ -1,5 +1,5 @@
 ---
-description: Build evaluation criteria for assessing agent output quality without requiring domain expertise — the meta-skill for the agent era
+description: the meta-skill for the agent era
 ---
 
 # /sniff-check — Agent Output Quality Protocol Builder

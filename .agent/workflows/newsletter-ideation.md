@@ -1,5 +1,5 @@
 ---
-description: "Infinite idea engine — domain scan → tangible asset templates → 10+ newsletter edition concepts"
+description: Infinite idea engine
 ---
 
 # Newsletter Ideation

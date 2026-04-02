@@ -1,5 +1,5 @@
 ---
-description: "Platform-specific content with proof-first architecture — YouTube scripts, LinkedIn, Instagram, articles, Substack, newsletters, tweets, carousels"
+description: Platform-specific content with proof-first architecture
 ---
 
 # Proof-First Content Engine

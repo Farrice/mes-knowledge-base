@@ -1,5 +1,5 @@
 ---
-description: Mine your own high-performing content to extract personal hook formulas — discover what patterns work specifically for you
+description: discover what patterns work specifically for you
 ---
 
 # /hook-formula-extract — Personal Hook Formula Miner

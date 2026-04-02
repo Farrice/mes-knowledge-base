@@ -1,5 +1,5 @@
 ---
-description: Deploy orchestrated parallel research swarm — Manus/Kimi-style wide research using free-tier tools, with optional Perplexity premium layer. Decomposes questions → fires parallel sub-agents → synthesizes across all findings → research quality gate.
+description: Deploy orchestrated parallel research swarm
 ---
 
 # Swarm Research Workflow

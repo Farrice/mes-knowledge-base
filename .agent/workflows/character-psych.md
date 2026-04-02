@@ -1,5 +1,5 @@
 ---
-description: Create deep character psychology wallets — backstory, neuroses, voice, motivations, and behavioral patterns using Eric Roth's methodology
+description: Create deep character psychology wallets
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

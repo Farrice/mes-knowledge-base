@@ -1,5 +1,5 @@
 ---
-description: Generate images using Nano Banana 2 (Gemini image generation)
+description: Generate images using Nano Banana 2
 ---
 
 # /generate-image — AI Image Generation

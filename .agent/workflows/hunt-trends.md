@@ -1,5 +1,5 @@
 ---
-description: Scan for rising trends and "Shadow Market" opportunities in a niche using Agentic Research.
+description: Scan for rising trends and "Shadow Market" opportunities
 ---
 
 # ⚠️ CRITICAL: This workflow requires LIVE RESEARCH. Do NOT use mocked or simulated data.

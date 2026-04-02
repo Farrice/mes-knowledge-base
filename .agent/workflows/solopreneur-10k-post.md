@@ -1,5 +1,5 @@
 ---
-description: "Write a SubStack post for multi-passionate entrepreneurs making their first $10K — prompt-as-tangible format"
+description: Write a SubStack post
 ---
 
 # Solopreneur 10K Post

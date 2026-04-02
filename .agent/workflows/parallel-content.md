@@ -1,5 +1,5 @@
 ---
-description: Generate 3-5 content pieces in parallel using different experts — LinkedIn posts, tweets, scripts, emails produced simultaneously
+description: LinkedIn posts, tweets, scripts, emails produced simultaneously
 ---
 
 # /parallel-content — Parallel Content Sprint

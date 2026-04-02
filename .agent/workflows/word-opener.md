@@ -1,5 +1,5 @@
 ---
-description: Forge the single most important sentence — 20+ candidates via paradox, conflict, and specificity, stress-tested into the one sentence that determines everything
+description: Forge the single most important sentence
 ---
 
 # Opening Sentence Forge

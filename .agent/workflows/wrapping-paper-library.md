@@ -1,5 +1,5 @@
 ---
-description: Build a systematic cross-niche wrapping paper (packaging inspiration) library using Caleb Ralston's methodology — hooks, formats, and structures from outside your niche
+description: hooks, formats, and structures from outside your niche
 ---
 
 # /wrapping-paper-library — Wrapping Paper Library Builder

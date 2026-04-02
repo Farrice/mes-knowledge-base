@@ -1,5 +1,5 @@
 ---
-description: Build the gap between current state and objective state for any prospect or audience
+description: Build the gap
 ---
 
 # /build-gap

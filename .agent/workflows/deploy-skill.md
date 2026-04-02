@@ -1,5 +1,5 @@
 ---
-description: Deploy any skill's prompts to execute a specific task
+description: Deploy any skill's prompts to execute a specific
 ---
 
 # /deploy-skill

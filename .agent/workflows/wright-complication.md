@@ -1,5 +1,5 @@
 ---
-description: Find the real story beneath the surface story — diagnose the central complication that gives a piece its dramatic engine
+description: Find the real story beneath the surface story
 ---
 
 # Wright Thompson Central Complication Diagnostic

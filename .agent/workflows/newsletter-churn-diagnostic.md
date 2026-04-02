@@ -1,5 +1,5 @@
 ---
-description: "Diagnose why subscribers leave — map churn to faucet problem vs execution problem"
+description: Diagnose why subscribers leave
 ---
 
 # Newsletter Churn Diagnostic

@@ -1,5 +1,5 @@
 ---
-description: Structural analysis of any existing lead with psychology annotations and rewrite blueprint
+description: Structural analysis of any existing lead
 ---
 
 # Lead Reverse Engineer

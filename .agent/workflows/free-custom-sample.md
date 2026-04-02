@@ -1,5 +1,5 @@
 ---
-description: "Create an AI-accelerated free custom sample for a ghostwriting prospect — voice-matched content that IS the pitch"
+description: voice-matched content that IS the pitch
 ---
 
 # Free Custom Sample

@@ -1,5 +1,5 @@
 ---
-description: Map content topics into strategic clusters with authority-building sequences and gap analysis using audience intelligence
+description: Map content topics
 ---
 
 # /content-cluster — Strategic Topic Cluster Mapper

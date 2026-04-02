@@ -1,5 +1,5 @@
 ---
-description: "Competitive city analysis via parallel swarm — map 3-5 competitor content cities simultaneously and find white space"
+description: Competitive city analysis via parallel swarm
 ---
 
 # /grace-vs-competitors — Competitive City Analysis

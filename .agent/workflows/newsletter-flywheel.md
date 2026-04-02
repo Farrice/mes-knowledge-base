@@ -1,5 +1,5 @@
 ---
-description: "End-to-end newsletter flywheel — raw idea → research → 3-variant post → publish-ready output"
+description: End-to-end newsletter flywheel
 ---
 
 # Newsletter Flywheel

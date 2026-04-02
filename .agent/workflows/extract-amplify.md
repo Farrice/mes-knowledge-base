@@ -1,5 +1,5 @@
 ---
-description: Mid/post-extraction enrichment — find untapped workflows, cross-expert connections, and creative applications the initial extraction missed
+description: Mid/post-extraction enrichment
 ---
 
 # /extract-amplify — Extraction Amplification

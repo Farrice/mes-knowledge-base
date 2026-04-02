@@ -1,5 +1,5 @@
 ---
-description: Belief-First Audience Intelligence — map audience belief architecture, diagnose processing routes, calculate threshold costs, and produce belief-aware consumer posture profiles using McRaney × Dai Media cross-stack
+description: Belief-First Audience Intelligence
 ---
 
 # Belief-First Audience Intelligence

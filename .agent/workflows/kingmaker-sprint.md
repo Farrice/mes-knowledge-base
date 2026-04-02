@@ -1,5 +1,5 @@
 ---
-description: "Take any founder/brand from invisible to dominant in 30 days — chains 5+ expert skills through a16z kingmaker methodology"
+description: chains 5+ expert skills through a16z kingmaker methodology
 ---
 
 # /kingmaker-sprint — Invisible to Dominant in 30 Days

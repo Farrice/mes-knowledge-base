@@ -1,5 +1,5 @@
 ---
-description: Diagnose weak writing by auditing evidence density — bad prose is a diagnostic for insufficient reporting
+description: Diagnose weak writing by auditing evidence density
 ---
 
 # Wright Thompson Reporting Truth Audit

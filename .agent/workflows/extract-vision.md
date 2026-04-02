@@ -1,5 +1,5 @@
 ---
-description: Pre-extraction creative brief — capture your vision for the extraction and let the system find highest-leverage opportunities, before a single workflow gets written
+description: Pre-extraction creative brief
 ---
 
 # /extract-vision — Extraction Vision Brief

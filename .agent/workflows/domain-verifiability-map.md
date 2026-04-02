@@ -1,5 +1,5 @@
 ---
-description: Classify work domains by AI delegation safety tier (hard-verifiable → soft-verifiable → unverifiable) to determine safe autonomy levels
+description: Classify work domains by AI delegation safety tier
 ---
 
 # /domain-verifiability-map — Delegation Safety Classification

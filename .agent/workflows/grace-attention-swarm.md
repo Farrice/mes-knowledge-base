@@ -1,5 +1,5 @@
 ---
-description: "Attention layer optimization swarm — parallel experts optimize hooks for each platform anchored in city map strategy"
+description: Attention layer optimization swarm
 ---
 
 # /grace-attention-swarm — Platform Attention Optimization

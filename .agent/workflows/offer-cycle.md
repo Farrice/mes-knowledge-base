@@ -1,5 +1,5 @@
 ---
-description: Detect hot offers, design entry offers, and plan cycle rotation for sustained revenue
+description: Detect hot offers, design entry offers, and plan
 ---
 
 # Offer Cycling Engine

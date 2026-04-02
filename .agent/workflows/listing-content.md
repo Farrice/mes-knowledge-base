@@ -1,5 +1,5 @@
 ---
-description: Generate expert-powered viral video hooks for Jen Santulan's Instagram real estate property tours
+description: Generate expert-powered viral video hooks
 ---
 
 # /listing-content — Jen's Expert-Powered Viral Hook Engine

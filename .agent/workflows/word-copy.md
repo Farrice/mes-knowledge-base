@@ -1,5 +1,5 @@
 ---
-description: Guided copy-speech exercise — analyze a model writer's rhythm, extract a rhythm template, mirror-write your own content using their structural DNA
+description: Guided copy-speech exercise
 ---
 
 # /word-copy

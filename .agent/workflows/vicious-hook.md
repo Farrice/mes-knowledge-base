@@ -1,5 +1,5 @@
 ---
-description: Write 10-15 vicious hooks for any offer using Luke Iha's 8 Vicious Hook Principles — scored and deploy-ready
+description: Write 10-15 vicious hooks
 ---
 
 # Vicious Hook Writer

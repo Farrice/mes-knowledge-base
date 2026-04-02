@@ -1,5 +1,5 @@
 ---
-description: Weekly operational intelligence dashboard — protocol health, quality trends, and expert performance
+description: Weekly operational intelligence dashboard
 ---
 
 # System Pulse — Operational Intelligence

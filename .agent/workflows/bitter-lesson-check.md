@@ -1,5 +1,5 @@
 ---
-description: Audit any hand-coded heuristic, prompt trick, or manual pattern for evolution replacement potential — the Bitter Lesson applied to Antigravity
+description: the Bitter Lesson applied to Antigravity
 ---
 
 # Bitter Lesson Check

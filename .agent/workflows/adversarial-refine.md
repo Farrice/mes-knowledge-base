@@ -1,5 +1,5 @@
 ---
-description: Stress-test any idea, strategy, content, or argument through 5 adversarial attack vectors using Dan Koe's Concerns methodology
+description: Stress-test any idea, strategy, content, or argument
 ---
 
 # /adversarial-refine — Bulletproof Your Ideas Before Publishing

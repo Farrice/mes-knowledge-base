@@ -1,5 +1,5 @@
 ---
-description: Build a personalized taste-training system using Greg Hoffman's cultural immersion, proximity strategy, and Performance×Style×Cultural Relevance filter
+description: Build a personalized taste-training system
 ---
 
 # /taste-training

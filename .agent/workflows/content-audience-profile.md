@@ -1,5 +1,5 @@
 ---
-description: Build a deep audience profile with psychographics, engagement patterns, and platform-specific insights using Kieran Flanagan's AI content team methodology
+description: Build a deep audience profile
 ---
 
 # /content-audience-profile — Audience Intelligence Profile Builder

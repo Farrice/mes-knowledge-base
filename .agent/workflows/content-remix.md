@@ -1,5 +1,5 @@
 ---
-description: Generate 3-5 original content concepts by applying extracted principles to your niche — the creation step
+description: Generate 3-5 original content concepts by applying extracted
 ---
 
 # Content Remix Lab

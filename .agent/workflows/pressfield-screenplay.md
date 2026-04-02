@@ -1,5 +1,5 @@
 ---
-description: Build original screenplay/script structures using Pressfield's narrative physics (distinct from Eric Roth's adaptation workflow)
+description: Build original screenplay/script structures using Pressfield's narrative physics
 ---
 
 # /pressfield-screenplay — Screenplay Narrative Physics

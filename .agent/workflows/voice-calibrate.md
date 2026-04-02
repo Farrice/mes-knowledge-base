@@ -1,5 +1,5 @@
 ---
-description: "Rapid voice capture — collapse the 6-month calibration period into weeks using prediction modeling"
+description: Rapid voice capture
 ---
 
 # /voice-calibrate — Voice Calibration Sprint

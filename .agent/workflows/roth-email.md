@@ -1,5 +1,5 @@
 ---
-description: Cinematic email sequences — serialized episodes with visual prose, temporal arcs, and recurring motifs
+description: Cinematic email sequences
 ---
 
 # Roth Cinematic Email Sequences

@@ -1,5 +1,5 @@
 ---
-description: "Threshold-Optimized Campaign Builder — runs the full Threshold Equation with 30% calibration, identifies the binding constraint, and designs a multi-touchpoint campaign where each piece targets a specific variable"
+description: Threshold-Optimized Campaign Builder
 ---
 
 # Threshold-Optimized Campaign

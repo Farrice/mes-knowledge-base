@@ -1,5 +1,5 @@
 ---
-description: Build a local business AI website sales pipeline with outreach templates, pricing packages, and recurring revenue model
+description: Build a local business AI website sales pipeline
 ---
 
 # Sell AI Websites

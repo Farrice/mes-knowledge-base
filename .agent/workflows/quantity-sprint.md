@@ -1,5 +1,5 @@
 ---
-description: Design a volume-focused content sprint — break perfectionism, de-shield, and acquire skills through structured chaos
+description: Design a volume-focused content sprint
 ---
 
 # /quantity-sprint — Quantity Sprint Architect

@@ -1,5 +1,5 @@
 ---
-description: Build any visual asset (website, landing page, UI) using a design-first pipeline. Prevents the "straight to code" trap by enforcing visual approval before implementation.
+description: Build any visual asset
 ---
 
 # /design-first-build — Design-First Visual Build Pipeline

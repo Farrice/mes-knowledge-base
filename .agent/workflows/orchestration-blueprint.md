@@ -1,5 +1,5 @@
 ---
-description: Design a multi-agent orchestration architecture from scratch using the DPVI pattern (Decompose-Parallelize-Verify-Iterate)
+description: Design a multi-agent orchestration architecture
 ---
 
 # /orchestration-blueprint — Multi-Agent Architecture Design

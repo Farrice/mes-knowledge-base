@@ -1,5 +1,5 @@
 ---
-description: "Weekly content production engine — mine wrapping paper, map customer pain, draft with 4C intros, accordion test, quality gate, distribute across platforms"
+description: Weekly content production engine
 ---
 
 # /caleb-content-sprint — Weekly Content Production Engine

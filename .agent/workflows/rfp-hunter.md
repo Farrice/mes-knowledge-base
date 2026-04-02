@@ -1,5 +1,5 @@
 ---
-description: Automated RFP and contract opportunity hunter for finding $30K-$100K government and enterprise contracts
+description: Automated RFP and contract opportunity hunter
 ---
 
 # RFP Opportunity Hunter

@@ -1,5 +1,5 @@
 ---
-description: "Full media diagnostic — Content Portfolio Audit + deep research on audience behavior + parallel swarm expert review"
+description: Full media diagnostic
 ---
 
 # /grace-media-diagnostic — Full Media Company Diagnostic

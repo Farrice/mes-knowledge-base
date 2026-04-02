@@ -1,5 +1,5 @@
 ---
-description: "Review last night's picks — automatically looks up actual results, logs wins/losses, updates the track record. Run this every morning."
+description: Review last night's picks
 ---
 
 # /picks-review — Morning Results Review

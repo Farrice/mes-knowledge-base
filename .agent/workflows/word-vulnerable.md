@@ -1,5 +1,5 @@
 ---
-description: Engineer the admit → solve → compound narrative arc — full vulnerability architecture where genuine struggle makes expertise hit 3x harder
+description: Engineer the admit → solve → compound narrative
 ---
 
 # Vulnerability Architecture

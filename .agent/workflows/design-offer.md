@@ -1,5 +1,5 @@
 ---
-description: Design a complete digital offer with research validation, pricing, MVP scoping, sales page, and audience strategy — from idea to revenue
+description: Design a complete digital offer
 ---
 
 # /design-offer — Alias for /design-digital-product-offer

@@ -1,5 +1,5 @@
 ---
-description: Convert external practitioner-mode prompts into completion-engine skills with genius extraction and agent registration
+description: Convert external practitioner-mode prompts
 ---
 
 # /convert-prompt — Practitioner Prompt → Completion Engine Skill

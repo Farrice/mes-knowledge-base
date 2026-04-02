@@ -1,5 +1,5 @@
 ---
-description: "Monthly newsletter health check — re-validate Two Rules, diagnose tangible asset health, prescribe adjustments"
+description: Monthly newsletter health check
 ---
 
 # Newsletter Review Cycle

@@ -1,5 +1,5 @@
 ---
-description: Build frame/deframe/reframe sequences for any belief shift — granular frame engineering
+description: Build frame/deframe/reframe sequences for any belief shift
 ---
 
 # /frame-engineer

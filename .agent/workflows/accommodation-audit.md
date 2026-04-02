@@ -1,5 +1,5 @@
 ---
-description: "Accommodation vs Assimilation Content Audit — universal quality gate that diagnoses whether content triggers genuine belief change or comfortable agreement, with specific rewrite prescriptions"
+description: Accommodation vs Assimilation Content Audit
 ---
 
 # Accommodation vs Assimilation Content Audit

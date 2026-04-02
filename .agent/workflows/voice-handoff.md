@@ -1,5 +1,5 @@
 ---
-description: "Package voice mastery into a transferable format for teams, VAs, or AI systems"
+description: Package voice mastery
 ---
 
 # /voice-handoff — Voice Handoff Kit

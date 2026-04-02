@@ -1,5 +1,5 @@
 ---
-description: Study trending/viral content, reverse-engineer the mechanic that made it work, then create 3 original remixes in your voice using parallel agents
+description: Study trending/viral content, reverse-engineer the mechanic that made
 ---
 
 # /watch-and-remix — Viral Mechanic Reverse Engineering

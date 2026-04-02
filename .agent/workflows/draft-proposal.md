@@ -1,5 +1,5 @@
 ---
-description: "Draft a tailored freelance proposal from a job description — auto-matches skills, pulls proof points, writes in Farrice's voice"
+description: Draft a tailored freelance proposal
 ---
 
 # /draft-proposal — Freelance Proposal Generator

@@ -1,5 +1,5 @@
 ---
-description: Extract transferable one-sentence principles from content breakdowns — the bridge between analysis and original creation
+description: Extract transferable one-sentence principles from content breakdowns
 ---
 
 # Principle Extraction

@@ -1,5 +1,5 @@
 ---
-description: Generate a complete NPQ conversation flow from opening to close for any industry or offer
+description: Generate a complete NPQ conversation flow
 ---
 
 # /npq-script

@@ -1,5 +1,5 @@
 ---
-description: Map the distance between a subject's public mythology and private truth — the tension where every great profile lives
+description: the tension where every great profile lives
 ---
 
 # Wright Thompson Myth/Reality Gap Finder

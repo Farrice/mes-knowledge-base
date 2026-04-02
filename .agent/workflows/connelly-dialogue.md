@@ -1,5 +1,5 @@
 ---
-description: Cut dialogue in half using Newspaper Economy — every line carries information, zero filler
+description: Cut dialogue in half using Newspaper Economy
 ---
 
 # /connelly-dialogue

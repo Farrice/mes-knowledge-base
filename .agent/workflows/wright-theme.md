@@ -1,5 +1,5 @@
 ---
-description: Use theme as a gravitational field that organizes every structural decision — without ever stating it explicitly
+description: without ever stating it explicitly
 ---
 
 # Wright Thompson Thematic Compass

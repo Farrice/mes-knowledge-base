@@ -1,5 +1,5 @@
 ---
-description: Rebuild or update the conversation index to make all past sessions searchable
+description: Rebuild or update the conversation index to make
 ---
 
 # /index-conversations — Rebuild the Conversation Index

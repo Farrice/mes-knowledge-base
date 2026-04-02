@@ -1,5 +1,5 @@
 ---
-description: Name a proprietary framework, method, content series, newsletter, or course using a condensed Placek naming sprint with sound symbolism and proof-of-concept presentation
+description: Name a proprietary framework, method, content series, newsletter
 ---
 
 # `/name-framework` — Framework Naming Sprint

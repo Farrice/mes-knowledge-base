@@ -1,5 +1,5 @@
 ---
-description: Deep research on any topic with organized, actionable deliverable
+description: Deep research on any topic
 ---
 
 # /research-topic

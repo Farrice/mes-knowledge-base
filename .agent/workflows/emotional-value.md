@@ -1,5 +1,5 @@
 ---
-description: Transform products/offers into emotional experiences using Greg Hoffman's Identity Uniform mapping, Edition-Based Storytelling, and Brand as Club architecture
+description: Transform products/offers into emotional experiences using Greg Hoffman's
 ---
 
 # /emotional-value

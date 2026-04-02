@@ -1,5 +1,5 @@
 ---
-description: "24-hour quickstart → 7-day sprint → 30-day integration — the 'new brand in 30 days' command"
+description: 24-hour quickstart → 7-day sprint → 30-day integration
 ---
 
 # /grace-quickstart

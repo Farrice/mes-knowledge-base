@@ -1,5 +1,5 @@
 ---
-description: Write novelistic, immersive scene descriptions with five-layer sensory composition using Eric Roth's visual prose cinematography
+description: Write novelistic, immersive scene descriptions
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

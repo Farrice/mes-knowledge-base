@@ -1,5 +1,5 @@
 ---
-description: Worldview Porn Generator — create identity-resonant belief statements that validate your audience's existing worldview
+description: Worldview Porn Generator
 ---
 
 ## Workflow: Worldview Porn Generator

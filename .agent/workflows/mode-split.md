@@ -1,5 +1,5 @@
 ---
-description: "Restructure your creative workflow — separate workhorse speed from deep creative immersion"
+description: Restructure your creative workflow
 ---
 
 # /mode-split — Mode-Split Protocol

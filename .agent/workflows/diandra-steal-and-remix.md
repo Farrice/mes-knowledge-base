@@ -1,5 +1,5 @@
 ---
-description: "Content sourcing flywheel — find viral LinkedIn posts → extract structural patterns → produce 3 original remixes in your voice. Diandra Escobar's steal-like-an-artist methodology fully operationalized."
+description: Content sourcing flywheel
 ---
 
 # `/diandra-steal-and-remix` — The Content Sourcing Flywheel

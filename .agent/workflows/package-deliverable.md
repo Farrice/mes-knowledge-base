@@ -1,5 +1,5 @@
 ---
-description: Turn raw strategy documents (.md files) into premium visual deliverables for clients. The "last mile" that turns world-class content into world-class presentation.
+description: Turn raw strategy documents
 ---
 
 # /package-deliverable — Premium Client Deliverable Packaging

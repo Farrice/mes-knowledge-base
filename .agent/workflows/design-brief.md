@@ -1,5 +1,5 @@
 ---
-description: Generate a complete creative direction brief (typography, color, copy, layout) for any visual asset. Optimized for handoff to Pencil or external design tools.
+description: Generate a complete creative direction brief
 ---
 
 # /design-brief — Creative Direction Generator

@@ -1,5 +1,5 @@
 ---
-description: Transform flat content into writing that grips — tension threads, paragraph pull, insight landing architecture, and the "can't stop reading" effect
+description: Transform flat content into writing that grips
 ---
 
 # /word-grip

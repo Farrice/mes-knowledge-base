@@ -1,5 +1,5 @@
 ---
-description: Structure email sequences as narrative arcs using Pressfield's gravitational forces
+description: Structure email sequences as narrative arcs
 ---
 
 # /email-narrative — Email Sequence Architect

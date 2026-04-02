@@ -1,5 +1,5 @@
 ---
-description: "Luke Iha proof ladder deployed across oral/written culture modes — platform-aware proof stacking with culturally native proof types per channel"
+description: Luke Iha proof ladder deployed
 ---
 
 # /proof-across-platforms — Culturally Native Proof Deployment

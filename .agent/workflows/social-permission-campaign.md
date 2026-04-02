@@ -1,5 +1,5 @@
 ---
-description: "Social Permission & Norm-Shift Campaign — for when the barrier is social cost not information deficit, designs campaigns that reduce the social cost of adoption using pluralistic ignorance surfacing, permission architecture, and face-saving narrative design"
+description: Social Permission & Norm-Shift Campaign
 ---
 
 # Social Permission Campaign

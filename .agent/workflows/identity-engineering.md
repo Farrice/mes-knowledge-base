@@ -1,5 +1,5 @@
 ---
-description: Design identities as instruments for getting things done using Joscha Bach's identity engineering framework — construction, deployment, and release protocols
+description: construction, deployment, and release protocols
 ---
 
 # Identity Engineering

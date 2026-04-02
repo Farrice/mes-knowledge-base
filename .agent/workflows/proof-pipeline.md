@@ -1,5 +1,5 @@
 ---
-description: Proof-Fortified Ad Pipeline — end-to-end ad production integrating all 3 Luke Iha skills for maximum conversion
+description: Proof-Fortified Ad Pipeline
 ---
 
 ## Workflow: Proof-Fortified Ad Pipeline

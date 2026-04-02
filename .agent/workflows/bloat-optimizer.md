@@ -1,5 +1,5 @@
 ---
-description: Reduce multi-agent system complexity without sacrificing capability — simplify coordination instead of adding more agents
+description: Reduce multi-agent system complexity without sacrificing capability
 ---
 
 # /bloat-optimizer — Multi-Agent Complexity Reduction

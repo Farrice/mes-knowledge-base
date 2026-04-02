@@ -1,5 +1,5 @@
 ---
-description: "Full proof-engineered funnel: ad → proof-braided landing page → proof-stacked email sequence → conversion"
+description: Full proof-engineered funnel: ad → proof-braided landing page
 ---
 
 # Cold-to-Close Proof Funnel

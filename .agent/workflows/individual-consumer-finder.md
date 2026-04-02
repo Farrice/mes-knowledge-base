@@ -1,5 +1,5 @@
 ---
-description: Find the ONE real, specific individual who embodies your ideal consumer — with search methodology and candidate profiles
+description: with search methodology and candidate profiles
 ---
 
 # /individual-consumer-finder — Real Human Consumer Search

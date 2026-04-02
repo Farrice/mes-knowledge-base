@@ -1,5 +1,5 @@
 ---
-description: Run a forensic Detail Stack breakdown on any content — map all invisible decisions that made it work
+description: map all invisible decisions that made it work
 ---
 
 # Detail Stack Breakdown

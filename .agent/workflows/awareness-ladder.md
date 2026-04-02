@@ -1,5 +1,5 @@
 ---
-description: Awareness Ladder Converter — create ads tailored to each of Schwartz's 5 awareness levels for any product
+description: Awareness Ladder Converter
 ---
 
 ## Workflow: Awareness Ladder Converter

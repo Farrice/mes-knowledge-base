@@ -1,5 +1,5 @@
 ---
-description: "Run a full old-media vs new-media diagnostic on any organization's communication posture — scored audit + structural rebuild plan using Andreessen/Horowitz new media doctrine"
+description: scored audit + structural rebuild plan
 ---
 
 # /new-media-audit — New Media Strategy Audit

@@ -1,5 +1,5 @@
 ---
-description: Refine drafts through erosion — wearing away what doesn't belong rather than adding what's missing
+description: Refine drafts through erosion
 ---
 
 # Wright Thompson Erosion Protocol

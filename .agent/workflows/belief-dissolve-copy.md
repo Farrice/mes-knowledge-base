@@ -1,5 +1,5 @@
 ---
-description: "Belief Dissolution Copywriting — end-to-end pipeline that identifies a specific blocking belief, traces its origin, engineers metacognitive activation, and produces copy that dissolves the belief from within"
+description: Belief Dissolution Copywriting
 ---
 
 # Belief Dissolution Copywriting

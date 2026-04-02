@@ -1,5 +1,5 @@
 ---
-description: Transform boring-but-valuable topics into irresistible content by mapping them onto domains your audience already loves
+description: Transform boring-but-valuable topics
 ---
 
 # Analogy Engineering

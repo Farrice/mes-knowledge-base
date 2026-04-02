@@ -1,5 +1,5 @@
 ---
-description: Enrich any content draft with relevant data, statistics, quotes, and stories to increase authority and engagement
+description: Enrich any content draft
 ---
 
 # /content-enrich — Content Enrichment Engine

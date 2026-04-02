@@ -1,5 +1,5 @@
 ---
-description: "Land ghostwriting clients without portfolio, testimonials, or case studies — 5 strategies from Nicolas Cole"
+description: 5 strategies from Nicolas Cole
 ---
 
 # No-Portfolio Client Landing

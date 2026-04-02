@@ -1,5 +1,5 @@
 ---
-description: Dashboard of all active and completed evolution loops — iteration counts, scores, improvement trajectories
+description: Dashboard of all active and completed evolution loops
 ---
 
 # Evolution Status

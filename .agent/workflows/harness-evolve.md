@@ -1,5 +1,5 @@
 ---
-description: Evolve a specific workflow's prompts, flow, and gates through automated iteration — focused harness evolution
+description: Evolve a specific workflow's prompts, flow, and gates
 ---
 
 # Harness Evolve

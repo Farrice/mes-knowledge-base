@@ -1,5 +1,5 @@
 ---
-description: Engineer a cold-audience video intro using Caleb Ralston's 4C's Framework (Callout → Credibility → Compass → Core Learning) and Gift/Wrapping Paper model
+description: Engineer a cold-audience video intro
 ---
 
 # /caleb-4c-intro — 4C Intro Content Architect

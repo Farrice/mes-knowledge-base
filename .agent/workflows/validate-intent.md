@@ -1,5 +1,5 @@
 ---
-description: Validate raw user intent before building. Runs the 4-stage intent pipeline.
+description: Validate raw user intent
 ---
 
 # Pre-Flight Intent Validation

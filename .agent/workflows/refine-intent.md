@@ -1,5 +1,5 @@
 ---
-description: On-demand intent refinement — sharpen a raw idea, redirect a drifting conversation, or re-align mid-task at any point
+description: On-demand intent refinement
 ---
 
 # Refine Intent (On-Demand, Mid-Flight)

@@ -1,5 +1,5 @@
 ---
-description: Build the structural hinge that expands a piece from micro to macro — the second section that asks the broad thematic question
+description: the second section that asks the broad thematic
 ---
 
 # Wright Thompson Second-Section Verb Engine

@@ -1,5 +1,5 @@
 ---
-description: Create manifestos, mission statements, and belief declarations using Pressfield's Curse → Sacrifice → Identity Revelation structure
+description: Create manifestos, mission statements, and belief declarations
 ---
 
 # /manifesto — Manifesto & Declaration Engine

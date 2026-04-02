@@ -1,5 +1,5 @@
 ---
-description: "Map content to oral/written cultural modes — produce a platform-culture architecture with production flow, staffing recommendations, and weekly calendar"
+description: Map content to oral/written cultural modes
 ---
 
 # /content-culture-map — Oral/Written Culture Content Architect

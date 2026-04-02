@@ -1,5 +1,5 @@
 ---
-description: "Belief-Layer Creative Brief — the master pre-production document combining full belief architecture with ELM routing, rebuttal prediction, and proof prescription — feeds every downstream McRaney workflow"
+description: Belief-Layer Creative Brief
 ---
 
 # Belief-Layer Creative Brief

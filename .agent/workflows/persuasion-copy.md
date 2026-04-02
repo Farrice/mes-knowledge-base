@@ -1,5 +1,5 @@
 ---
-description: "Persuasion-Engineered Copy Engine — McRaney × Luke Iha cross-stack that produces finished copy with ELM routing, rebuttal defense, accommodation design, and proof prescription baked into every line"
+description: Persuasion-Engineered Copy Engine
 ---
 
 # Persuasion-Engineered Copy Engine

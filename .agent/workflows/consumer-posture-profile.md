@@ -1,5 +1,5 @@
 ---
-description: Generate a complete 3D Consumer Posture Profile for any brand — the radical individual, not a demographic
+description: the radical individual, not a demographic
 ---
 
 # /consumer-posture-profile — 3D Consumer Portrait Generator

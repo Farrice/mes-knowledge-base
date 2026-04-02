@@ -1,5 +1,5 @@
 ---
-description: "Position a founder CEO for go-direct communication — Joe Rogan test, original idea mining, unscripting protocol, and 30-day launch plan"
+description: Position a founder CEO for go-direct communication
 ---
 
 # /founder-voice — Founder Go-Direct Positioning Engine

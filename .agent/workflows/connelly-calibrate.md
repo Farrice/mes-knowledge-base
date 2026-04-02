@@ -1,5 +1,5 @@
 ---
-description: Pre-writing taste calibration — read one perfect example to set quality ceiling before starting
+description: Pre-writing taste calibration
 ---
 
 # /connelly-calibrate

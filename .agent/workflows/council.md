@@ -1,5 +1,5 @@
 ---
-description: Spin up an AI council for any decision with multi-perspective deliberation
+description: Spin up an AI council
 ---
 
 # /council

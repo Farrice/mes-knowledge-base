@@ -1,5 +1,5 @@
 ---
-description: Design and architect an AI utility website with embedded affiliate monetization — not reviews, but tools people actually use
+description: not reviews, but tools people actually use
 ---
 
 # AI Affiliate Site Builder

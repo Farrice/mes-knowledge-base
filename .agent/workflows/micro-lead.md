@@ -1,5 +1,5 @@
 ---
-description: Generate 7+ micro leads using each proven type for the same offer
+description: Generate 7+ micro leads
 ---
 
 # Micro Lead Generator

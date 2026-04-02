@@ -1,5 +1,5 @@
 ---
-description: "Build and execute a complete outreach pipeline — Leaks/Faucets network map, cold outreach with prospect research, and 5x follow-up system"
+description: Build and execute a complete outreach pipeline
 ---
 
 # Outreach & Follow-Up Engine

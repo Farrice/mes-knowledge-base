@@ -1,5 +1,5 @@
 ---
-description: Start a personal brand from absolute zero — credibility inventory, pond sizing, customer pain mapping, and 30-day ignition calendar using Caleb Ralston's methodology
+description: Start a personal brand from absolute zero
 ---
 
 # /zero-to-brand — Zero-to-Brand Launchpad

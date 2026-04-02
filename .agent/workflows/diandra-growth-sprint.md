@@ -1,5 +1,5 @@
 ---
-description: "End-to-end growth post flywheel — takes any brand, person, or news event → auto-detects jack type → researches → produces 3 post variations with boomerang strategy. Diandra Escobar's borrowed-attention system fully operationalized."
+description: End-to-end growth post flywheel
 ---
 
 # `/diandra-growth-sprint` — The Growth Post Engine

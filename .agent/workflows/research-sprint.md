@@ -1,5 +1,5 @@
 ---
-description: Deploy 3 research agents with a synthesis lead that can send follow-up questions — business intelligence with Agent Teams coordination
+description: business intelligence with Agent Teams coordination
 ---
 
 # /research-sprint — Business Intelligence Sprint

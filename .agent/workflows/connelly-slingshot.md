@@ -1,5 +1,5 @@
 ---
-description: Design the slingshot opener — the trigger point that drops the story into drive
+description: Design the slingshot opener
 ---
 
 # /connelly-slingshot

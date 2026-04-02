@@ -1,5 +1,5 @@
 ---
-description: Execute the Seena Rez "Early Adopter" Innovation Strategy to find, validate, and brand a product in 30 minutes.
+description: Execute the Seena Rez "Early Adopter" Innovation Strategy
 ---
 
 # 🚀 Seena Rez Launch Monitor

@@ -1,5 +1,5 @@
 ---
-description: Winning Angle Generator — use Luke Iha's 3-vector system (Time × Behavior × Object) to produce 20+ hooks for any offer
+description: Winning Angle Generator
 ---
 
 ## Workflow: Winning Angle Generator

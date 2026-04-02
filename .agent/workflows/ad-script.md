@@ -1,5 +1,5 @@
 ---
-description: Write a complete ad script with hook variants, body copy, and CTA built from copy blocks
+description: Write a complete ad script
 ---
 
 # Ad Script Writer

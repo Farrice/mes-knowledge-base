@@ -1,5 +1,5 @@
 ---
-description: Engineer the moments that stay with you after reading — the emotional residue that separates forgettable content from unforgettable writing
+description: Engineer the moments that stay
 ---
 
 # Wright Thompson Emotional Residue Engineer

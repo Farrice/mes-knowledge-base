@@ -1,5 +1,5 @@
 ---
-description: Decompose any concept into its engineering specs using Joscha Bach's 4-step method — function, mechanism, substrate test, phase transition
+description: function, mechanism, substrate test, phase transition
 ---
 
 # Computational Phenomenology

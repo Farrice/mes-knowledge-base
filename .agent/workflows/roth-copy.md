@@ -1,5 +1,5 @@
 ---
-description: Sales copy with displacement selling — visual proof, off-center CTAs, resonance over pressure
+description: Sales copy with displacement selling
 ---
 
 # Roth Copywriting Elevation

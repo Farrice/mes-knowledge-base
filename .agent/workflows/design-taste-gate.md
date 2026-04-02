@@ -1,5 +1,5 @@
 ---
-description: Run a multi-lens taste audit on a finished design using CEV framework, typography critique, composition analysis, and assumption scanning. Outputs scored report with specific refinement directives.
+description: Run a multi-lens taste audit on a finished
 ---
 
 # /design-taste-gate — Design Quality Critique & Refinement

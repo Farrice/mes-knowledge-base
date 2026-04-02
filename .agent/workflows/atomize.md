@@ -1,5 +1,5 @@
 ---
-description: Take one long-form source (YouTube video, blog post, podcast) and produce 11 derivative content pieces in parallel across multiple platforms
+description: Take one long-form source and produce 11 derivative
 ---
 
 # /atomize — Content Atomization Engine

@@ -1,5 +1,5 @@
 ---
-description: "Generate a personalized cold outreach message with prospect research and 5x follow-up sequence using Nicolas Cole's Free Consulting methodology"
+description: Generate a personalized cold outreach message
 ---
 
 # Cold Outreach Generator

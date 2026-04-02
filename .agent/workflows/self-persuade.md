@@ -1,5 +1,5 @@
 ---
-description: Design self-persuasion question sequences where prospects convince themselves — for copy, content, or sales
+description: Design self-persuasion question sequences where prospects convince themselves
 ---
 
 # /self-persuade

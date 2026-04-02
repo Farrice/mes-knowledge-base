@@ -1,5 +1,5 @@
 ---
-description: "Resistance-Matched Proof Prescription — diagnoses the specific resistance type, maps it to proof types from Luke Iha's arsenal, and produces proof-fortified copy with the right proof in the right order"
+description: Resistance-Matched Proof Prescription
 ---
 
 # Resistance-Matched Proof Prescription

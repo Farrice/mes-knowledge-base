@@ -1,5 +1,5 @@
 ---
-description: "Subscriber acquisition strategy for newsletters — multi-expert growth audit"
+description: Subscriber acquisition strategy for newsletters
 ---
 
 # Newsletter Growth Audit

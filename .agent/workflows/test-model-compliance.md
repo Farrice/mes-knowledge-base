@@ -1,5 +1,5 @@
 ---
-description: Test whether a model instruction file (CLAUDE.md or GEMINI.md) actually produces Chain compliance
+description: Test whether a model instruction file actually produces
 ---
 
 # /test-model-compliance — Model Instruction Compliance Test

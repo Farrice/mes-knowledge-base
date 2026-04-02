@@ -1,5 +1,5 @@
 ---
-description: Audit any content for inauthenticity signals — flag phrases that feel foreign, scripted, or robotic, then prescribe voice-pocket rewrites
+description: Audit any content for inauthenticity signals
 ---
 
 # /word-audit

@@ -1,5 +1,5 @@
 ---
-description: Time-boxed, fixed-iteration improvement sprint — define target, iterations, metric, get the best variant
+description: Time-boxed, fixed-iteration improvement sprint
 ---
 
 # Proposer Sprint

@@ -1,5 +1,5 @@
 ---
-description: "Compressed trust timeline — move cold audiences to purchase in 2-3 touches using tiered proof injection at awareness transitions"
+description: Compressed trust timeline
 ---
 
 # Trust Accelerator

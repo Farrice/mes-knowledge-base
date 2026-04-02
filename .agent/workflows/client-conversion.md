@@ -1,5 +1,5 @@
 ---
-description: "The complete CR × OU formula deployment — volume tracking, POP stack audit, daily outreach systems for client acquisition diagnostics"
+description: The complete CR × OU formula deployment
 ---
 
 ## Workflow: Client Conversion Formula

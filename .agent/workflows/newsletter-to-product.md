@@ -1,5 +1,5 @@
 ---
-description: "Free newsletter → $350 product pipeline — bridge newsletter flywheel to digital products for monetization"
+description: Free newsletter → $350 product pipeline
 ---
 
 # Newsletter-to-Product

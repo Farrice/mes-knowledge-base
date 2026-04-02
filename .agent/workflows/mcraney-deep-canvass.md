@@ -1,5 +1,5 @@
 ---
-description: "Deep Canvassing Research Sprint — 5-phase research pipeline producing a complete Belief Architecture Document grounded in real audience data via Perplexity deep research"
+description: Deep Canvassing Research Sprint
 ---
 
 # Deep Canvassing Research Sprint

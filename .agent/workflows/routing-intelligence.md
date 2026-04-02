@@ -1,5 +1,5 @@
 ---
-description: View the routing intelligence dashboard — expert utilization, domain distribution, feedback analytics, and suggestions.
+description: View the routing intelligence dashboard
 ---
 
 # /routing-intelligence — Routing Analytics Dashboard

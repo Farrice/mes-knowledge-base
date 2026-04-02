@@ -1,5 +1,5 @@
 ---
-description: "Daily content production engine — topic + bucket → body-first pipeline → finished post with 5 hook candidates, 3 format variations, and cross-platform adaptations. Diandra Escobar's writing system fully operationalized."
+description: Daily content production engine
 ---
 
 # `/diandra-content-engine` — The Daily Content Production Line

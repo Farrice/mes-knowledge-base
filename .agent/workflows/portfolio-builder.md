@@ -1,5 +1,5 @@
 ---
-description: Build a portfolio demonstrating competence across every Luke Iha domain
+description: Build a portfolio demonstrating competence
 ---
 
 # Client Portfolio Builder

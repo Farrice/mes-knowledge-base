@@ -1,5 +1,5 @@
 ---
-description: Make the deeply particular resonate universally — write about one person so precisely that every reader recognizes themselves
+description: Make the deeply particular resonate universally
 ---
 
 # Wright Thompson Universal-Specific Bridge

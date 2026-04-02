@@ -1,5 +1,5 @@
 ---
-description: Set up a fully context-loaded, scope-defined AI session with quality gates at every phase using Dan Koe's 4C framework
+description: Set up a fully context-loaded, scope-defined AI session
 ---
 
 # /4c-architect — Architect a High-Stakes AI Work Session

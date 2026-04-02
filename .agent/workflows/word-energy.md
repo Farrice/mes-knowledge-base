@@ -1,5 +1,5 @@
 ---
-description: Flip extraction energy → service energy — transform content from "asking for a favor" to "doing you a favor"
+description: Flip extraction energy → service energy
 ---
 
 # Energy Transmutation Engine

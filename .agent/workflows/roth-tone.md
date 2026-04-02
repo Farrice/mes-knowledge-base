@@ -1,5 +1,5 @@
 ---
-description: Tone Compass for marketing — brand voice calibration using displacement and off-center techniques
+description: Tone Compass for marketing
 ---
 
 # Roth Tone Compass for Marketing

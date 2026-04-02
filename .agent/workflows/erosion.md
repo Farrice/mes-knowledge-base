@@ -1,5 +1,5 @@
 ---
-description: Apply Eric Roth's page-one daily rewrite methodology to any draft — erosion, not revision
+description: Apply Eric Roth's page-one daily rewrite methodology
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

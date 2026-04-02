@@ -1,5 +1,5 @@
 ---
-description: End-to-end enriched extraction — vision + extraction + amplification in one shot, producing 8-15 practitioner-grade workflows with cross-expert stacking
+description: End-to-end enriched extraction
 ---
 
 # /extract-forge — The Master Extraction Pipeline

@@ -1,5 +1,5 @@
 ---
-description: Generate 10+ mechanism candidates using Universal Matrix + insight vectors
+description: Generate 10+ mechanism candidates
 ---
 
 # Mechanism Discovery Engine

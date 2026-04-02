@@ -1,5 +1,5 @@
 ---
-description: Rapid wireframe-to-production shortcut — for when you already know what you want and just need it built
+description: Rapid wireframe-to-production shortcut
 ---
 
 # /sketch-to-build — Rapid Visual Execution

@@ -1,5 +1,5 @@
 ---
-description: Run the Vonnegut Conflict Audit — ensure every character wants something on every page
+description: Run the Vonnegut Conflict Audit
 ---
 
 # /connelly-conflict

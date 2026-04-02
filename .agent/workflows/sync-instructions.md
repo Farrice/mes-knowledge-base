@@ -1,5 +1,5 @@
 ---
-description: Sync system intent changes from CLAUDE.md to GEMINI.md without breaking model-native formatting
+description: Sync system intent changes
 ---
 
 # /sync-instructions — Cross-Model Instruction Sync

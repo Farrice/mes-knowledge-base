@@ -1,5 +1,5 @@
 ---
-description: Construct cinematic scene sequences where every section hits a different note — narrative architecture that makes long-form feel inevitable
+description: narrative architecture that makes long-form feel inevitable
 ---
 
 # Wright Thompson Scene Architecture Builder

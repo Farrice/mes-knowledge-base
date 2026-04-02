@@ -1,5 +1,5 @@
 ---
-description: Design ignition conditions for system coherence using Joscha Bach's phase transition model — find the spark that makes a product, brand, or project click
+description: find the spark that makes a product, brand
 ---
 
 # Phase Transition

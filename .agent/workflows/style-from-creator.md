@@ -1,5 +1,5 @@
 ---
-description: Clone any creator's content style by analyzing their published work — reverse-engineer voice, structure, and patterns into a style card
+description: reverse-engineer voice, structure, and patterns
 ---
 
 # /style-from-creator — Creator Voice Cloner

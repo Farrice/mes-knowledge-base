@@ -1,5 +1,5 @@
 ---
-description: Run Karpathy-style experiment loops with git-branch isolation — propose hypothesis, test, commit only if improvement, iterate
+description: Run Karpathy-style experiment loops with git-branch isolation
 ---
 
 # Auto-Experiment

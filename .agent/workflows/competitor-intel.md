@@ -1,5 +1,5 @@
 ---
-description: Build a systematic competitive intelligence system — database, trend scanning, opportunity mapping — for data-driven content strategy
+description: Build a systematic competitive intelligence system
 ---
 
 # Competitor Intelligence System

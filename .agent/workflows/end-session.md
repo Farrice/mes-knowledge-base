@@ -1,5 +1,5 @@
 ---
-description: Run at the end of a deep-work session to generate a handoff for the next session. Optionally clean and organize workspace.
+description: Run at the end of a deep-work session
 ---
 
 # 🧹 /end-session — Session Handoff

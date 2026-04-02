@@ -1,5 +1,5 @@
 ---
-description: Build a complete character from scratch using all 6 Connelly layers — name, outsider lens, telling detail, nod economy, ambient conflict, geography trigger
+description: Build a complete character
 ---
 
 # /connelly-character

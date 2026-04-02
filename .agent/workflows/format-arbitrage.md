@@ -1,5 +1,5 @@
 ---
-description: Identify viral outlier content and new platform formats to plan your next content pivot — data-backed format arbitrage strategy
+description: Identify viral outlier content and new platform formats
 ---
 
 # Format Arbitrage & Ideation Roadmap

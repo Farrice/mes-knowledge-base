@@ -1,5 +1,5 @@
 ---
-description: Always create both a markdown file and a readable plain-text version of synthesis/research documents
+description: Always create markdown and companion docs
 ---
 
 # Dual-Format Document Delivery

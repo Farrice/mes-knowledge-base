@@ -1,5 +1,5 @@
 ---
-description: "Create tangible prompts that extend coaching ability — the 'extension of you' newsletter engine"
+description: Create tangible prompts that extend coaching ability
 ---
 
 # Prompt as Product

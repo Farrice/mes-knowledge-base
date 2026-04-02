@@ -1,5 +1,5 @@
 ---
-description: Produce 50+ vicious hooks using full relevance × format matrix — volume sprint with full scoring and tiering
+description: volume sprint with full scoring and tiering
 ---
 
 # Vicious Hook Sprint

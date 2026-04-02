@@ -1,5 +1,5 @@
 ---
-description: Build a real estate Business Operating System (BOS) — KPI tracking, daily schedule architecture, and data-driven decision making
+description: Build a real estate Business Operating System
 ---
 
 # Data-Driven Operations System

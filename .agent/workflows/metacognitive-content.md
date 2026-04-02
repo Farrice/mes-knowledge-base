@@ -1,5 +1,5 @@
 ---
-description: "Metacognitive Thought Leadership Engine — produces content that triggers genuine self-examination in the reader using metacognitive activation, evaluation mode engineering, and accommodation design"
+description: Metacognitive Thought Leadership Engine
 ---
 
 # Metacognitive Thought Leadership

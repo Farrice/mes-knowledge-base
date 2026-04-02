@@ -1,5 +1,5 @@
 ---
-description: Generate sound-symbolism-scored hooks — phonemically optimized opening words for any platform using Placek's linguistic science
+description: Generate sound-symbolism-scored hooks
 ---
 
 # `/placek-hooks` — Sonic Hook Generator

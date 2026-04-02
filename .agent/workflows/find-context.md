@@ -1,5 +1,5 @@
 ---
-description: Search across all past conversations and artifacts by keyword, domain, expert, or date
+description: Search across all past conversations and artifacts
 ---
 
 # /find-context — Context Search & Retrieval

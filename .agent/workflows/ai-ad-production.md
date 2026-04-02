@@ -1,5 +1,5 @@
 ---
-description: "AI production pipeline + human judgment layer — the creative strategist as orchestrator, not writer"
+description: AI production pipeline + human judgment layer
 ---
 
 ## Workflow: AI-Orchestrated Ad Production

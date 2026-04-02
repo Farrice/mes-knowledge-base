@@ -1,5 +1,5 @@
 ---
-description: Adapt source material (novel, article, true story) into an original screenplay with 60%+ invention using Eric Roth's transmutation methodology
+description: Adapt source material
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

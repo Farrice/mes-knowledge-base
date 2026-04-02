@@ -1,5 +1,5 @@
 ---
-description: Pre-build objection prevention frames — identity, intention, and necessity — for any selling context
+description: Pre-build objection prevention frames
 ---
 
 # /prevent-objection

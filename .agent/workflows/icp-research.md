@@ -1,5 +1,5 @@
 ---
-description: Run the ICP research phase — Consumer Gap Diagnostic + Voice-of-Customer deep research mining
+description: Run the ICP research phase
 ---
 
 # /icp-research — Consumer Intelligence Research Phase

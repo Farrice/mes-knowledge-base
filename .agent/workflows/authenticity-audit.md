@@ -1,5 +1,5 @@
 ---
-description: Audit content for neediness, inauthenticity, and energy misalignment — the resonance and refinement tool
+description: Audit content for neediness, inauthenticity, and energy misalignment
 ---
 
 # /authenticity-audit — Content Authenticity Audit

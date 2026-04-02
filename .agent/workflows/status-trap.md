@@ -1,5 +1,5 @@
 ---
-description: "Diagnose status game traps, audit fuel sources, and design a role-of-best-self protocol"
+description: Diagnose status game traps, audit fuel sources
 ---
 
 # Status Trap Escape

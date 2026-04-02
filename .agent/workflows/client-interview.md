@@ -1,5 +1,5 @@
 ---
-description: "Conduct multi-round interviews that extract what the client doesn't know they know"
+description: Conduct multi-round interviews that extract what the client
 ---
 
 # /client-interview — Client Interview Engine

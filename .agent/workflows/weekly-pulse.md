@@ -1,5 +1,5 @@
 ---
-description: Monday planning ritual — scan your situation, set priorities, and generate a daily breakdown for your compressed 1-3 hour work windows
+description: Monday planning ritual
 ---
 
 # /weekly-pulse — Weekly Operating System

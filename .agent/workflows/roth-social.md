@@ -1,5 +1,5 @@
 ---
-description: Social media posts with cinematic depth — visual prose hooks, theme-driven, off-center across platforms
+description: Social media posts with cinematic depth
 ---
 
 # Roth Social Media Craft

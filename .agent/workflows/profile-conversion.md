@@ -1,5 +1,5 @@
 ---
-description: Build a high-converting LinkedIn profile architecture — transform your profile from resume to landing page using social proof taglines
+description: Build a high-converting LinkedIn profile architecture
 ---
 
 # LinkedIn Profile Conversion Blueprint

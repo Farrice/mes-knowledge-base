@@ -1,5 +1,5 @@
 ---
-description: Build the AI Brain Context Layer — structured knowledge base from discovery output
+description: Build the AI Brain Context Layer
 ---
 
 # /ai-brain-context — Context Layer Builder

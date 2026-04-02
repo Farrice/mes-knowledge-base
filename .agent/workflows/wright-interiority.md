@@ -1,5 +1,5 @@
 ---
-description: Connect subterranean interior lives to exterior action — write from inside without interiority privilege
+description: Connect subterranean interior lives to exterior action
 ---
 
 # Wright Thompson Interiority Bridge

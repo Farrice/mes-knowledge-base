@@ -1,5 +1,5 @@
 ---
-description: Scan trending formats from unrelated niches and map them to your domain — the anti-copycat innovation engine
+description: Scan trending formats
 ---
 
 # Cross-Niche Format Scanner

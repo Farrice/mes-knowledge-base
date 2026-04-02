@@ -1,5 +1,5 @@
 ---
-description: Spy on Amazon Best Sellers to find underserved niches (KDP/Products).
+description: Spy on Amazon Best Sellers to find underserved
 ---
 
 1. Ask the user for the **Category** or **Type** they want to investigate (e.g., "Non-fiction books", "Pet Supplies").

@@ -1,5 +1,5 @@
 ---
-description: "Plan a thought leader's first book — Authorship Pyramid positioning + hero's journey structure"
+description: Plan a thought leader's first book
 ---
 
 # /memoir-architect — Memoir Architect
