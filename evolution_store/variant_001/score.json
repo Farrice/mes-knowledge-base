@@ -1,0 +1,10 @@
+{
+  "variant": "001",
+  "metrics": {
+    "size_bytes": 1609,
+    "line_count": 33,
+    "clarity_score": 9,
+    "rule_integrity": 9
+  },
+  "notes": "Replaced markdown table with bulleted list. Compressed prose in headers and environment setup. Saved ~250 bytes."
+}

@@ -1,0 +1,10 @@
+{
+  "variant": "baseline",
+  "metrics": {
+    "size_bytes": 1855,
+    "line_count": 36,
+    "clarity_score": 8,
+    "rule_integrity": 9
+  },
+  "notes": "Good baseline. Clear, precise rules. Table format is slightly token-heavy. Prose can be tightened."
+}
