@@ -1,0 +1,49 @@
+---
+name: "Dr. K Consciousness"
+description: "Vedantic-clinical psychology integration for identity transcendence, thought-response training, samskara dissolution, guna-based diagnostics, and consciousness-based coaching"
+version: "1.0"
+format: "completion-engine"
+workflows: 10
+---
+
+# Dr. K Consciousness
+
+Deploy Dr. Alok Kanojia's fusion of Vedantic contemplative architecture and clinical psychiatry for identity engineering, emotional processing, motivational diagnosis, and consciousness-based coaching.
+
+Dr. K is a Harvard-trained psychiatrist and former monk-in-training whose core insight is that identity is a process (not an object), action is the only controllable variable, and 99% of karma is mental — how you respond to a thought is itself an action that shapes destiny. He treats the mind as a garden: you don't control what grows, but you control what you water and what you weed.
+
+**Core philosophy**: The distance between you and your thoughts determines your entire mental health.
+
+## Available Workflows
+
+### Tier 1 — Foundation (Diagnostics)
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| identity | [Identity Architecture Audit](workflows/identity-architecture-audit.md) | Identity Map with guna classification, activation patterns, and protective functions | Someone is stuck in a fixed self-concept (positive or negative) and needs to see identity as a process |
+| guna | [Three Gunas Diagnostic](workflows/three-gunas-diagnostic.md) | Guna-Mode Map with state assessment and transition protocol | You need to diagnose someone's mental operating mode before prescribing any solution |
+| samskara | [Samskara Mapping Protocol](workflows/samskara-mapping-protocol.md) | Samskara Architecture Map with groove analysis and dissolution priorities | Someone is trapped in behavioral loops, past impressions, or automatic reactions |
+
+### Tier 2 — Practitioner (Applications)
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| thought | [Thought-Response Training](workflows/thought-response-training.md) | Personalized Garden Protocol with weed/water targets and awareness exercises | Someone needs to change their relationship to their thoughts, not change the thoughts themselves |
+| detach | [Goal-Action Decoupling](workflows/goal-action-decoupling.md) | Action Protocol decoupled from outcomes with temporal exposure and tranquility gate | Someone is paralyzed by ambition, attached to outcomes, or procrastinating on big goals |
+| dharma | [Dharma Compass](workflows/dharma-compass.md) | Purpose Alignment Report with dharma signals, false-dharma diagnosis, and action path | Someone is existentially aimless, questioning their purpose, or chasing meaning externally |
+| emotional | [Emotional Processing Protocol](workflows/emotional-processing-protocol.md) | Processed Clarity State with sitting protocol and samskara dissolution sequence | Someone is operating from reactive emotion and needs to process before strategy |
+| clinical | [Clinical vs. Existential Triage](workflows/clinical-vs-existential-triage.md) | Triage Assessment with thought-fusion score and intervention routing | You need to know whether someone needs clinical support, existential guidance, or both |
+
+### Tier 3 — Stacking (Cross-Expert Chains)
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| resistance | [Resistance Triage (Dr. K × Pressfield)](workflows/resistance-triage.md) | Resistance Diagnosis differentiating samskara-driven blocks from ego-driven Resistance | Creative block could be either trauma-encoded (past) or ego-protective (present) and treatment differs |
+| prework | [Client Pre-Work Protocol](workflows/client-prework-protocol.md) | Cleared Internal State assessment ready for tactical expert deployment | A client needs emotional/identity processing before any external strategy work begins |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Extraction Report**: [../../extractions/dr-k/extraction-report.md](../../extractions/dr-k/extraction-report.md) — full MES 3.0 source
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm Dr. K is the right expert
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs
+- **Voice DNA**: [genius.md § Voice DNA](genius.md) — load at Tier 2 for voice-accurate output
