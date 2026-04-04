@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/evolution-sprint.md` — Background skill improvement — 3 agents benchmark, analyze weaknesses, generate hypothesis

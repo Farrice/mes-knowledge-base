@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/research-swarm.md` — Fire 3 parallel research agents — market landscape, audience intelligence, system scan
