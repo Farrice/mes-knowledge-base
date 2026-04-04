@@ -2,122 +2,255 @@
 description: Generate 3-5 expert variants of the same deliverable in parallel
 ---
 
-# /variant-sprint — Multi-Expert Variant Generation
+# /variant-sprint -- Parallel Expert Variants
 
-Fire 3-5 agents simultaneously, each embodying a different expert, to produce genuinely different takes on the same brief. Three perspectives > one perspective iterated three times.
+Generate 3-5 full variants of the same deliverable, each produced by a different expert operating from their own methodology. Returns all variants side by side, a comparison matrix, the best standalone pick, and a recommended "Frankenstein" combining the strongest elements from each.
 
 ## Usage
 
 ```
 /variant-sprint [brief or task description]
-/variant-sprint --experts "luke-iha, lara-acosta, nicolas-cole" [brief]
-/variant-sprint --count 5 [brief]
+/variant-sprint --experts "lara-acosta, nicolas-cole, shaan-puri" [task]
+/variant-sprint --count 5 [task]
 ```
 
 ## When to Use
 
-- Hooks, headlines, copy, pitches — anything where multiple angles matter
-- When you're stuck on one approach and need fresh perspectives
-- When the deliverable is high-stakes and you want the best possible output
-- Creative work where the "best" approach isn't obvious
+- You need creative options, not a single "best guess"
+- The task has multiple valid approaches and you want to see them before choosing
+- Farrice's 3-variant creative process: generate variants, then Frankenstein the best parts
+- High-stakes deliverables where the first expert choice might not be the best one
+- Content where tone/angle matters more than information (LinkedIn posts, headlines, hooks, emails)
 
 ## When NOT to Use
 
-- Technical/structural tasks with one correct answer
-- Simple edits or revisions (use `/adversarial-review` instead)
-- When speed matters more than quality (just use one expert)
+- The deliverable has a single correct answer (data analysis, factual research, technical docs)
+- You already know which expert and approach you want (use `/ship` or load the expert directly)
+- You need critique of existing work, not new variants (use `/adversarial-review`)
+- The task requires deep research before writing (run `/research-swarm` first, then variant-sprint)
+- Budget-constrained: this fires 3-5 full agent runs simultaneously
 
 ---
 
 ## Steps
 
-### 1. Accept Brief
+### 1. Accept Brief and Select Experts
 
-Get the task from the user. Identify:
-- What's being produced (hooks? copy? pitch? post?)
-- Who's the audience?
-- Any constraints (length, tone, platform)?
+Take the user's task/brief. Determine:
+- **Deliverable type**: What are we producing? (LinkedIn post, email, headline set, strategy doc, etc.)
+- **Core constraint**: What must ALL variants share? (topic, audience, key message, word count)
+- **Differentiation axis**: What should VARY between experts? (tone, angle, structure, framework)
 
-### 2. Select Experts
+**Expert selection** (one of two paths):
 
-If user specified experts, use those. Otherwise, auto-select 3 experts from the relevant domain with **genuinely different approaches**:
+**Path A: User specifies experts**
+Use the exact experts provided via `--experts`.
 
-**Copywriting variants:**
-- Luke Iha (proof-first, mechanism-driven)
-- Harry Dry (short, punchy, example-heavy)
-- Stefan Georgi (emotional, story-led)
+**Path B: Auto-select (default)**
+Read `DOMAIN_REGISTRY.md` to identify 3 experts with different approaches to the same domain.
 
-**LinkedIn variants:**
-- Lara Acosta (SLAY framework, story-first)
-- Nicolas Cole (compression, educational)
-- Jasmin Alic (engagement-optimized, listicle)
+Selection criteria:
+- All experts must be relevant to the deliverable type
+- Experts should have genuinely different methodologies (not three copywriters who think alike)
+- Prefer complementary tensions: one structural, one emotional, one provocative
 
-**Brand/Strategy variants:**
-- April Dunford (positioning-first)
-- Donald Miller (StoryBrand narrative)
-- Oren John (taste + luxury psychology)
+Default routing by deliverable type:
 
-**Sales variants:**
-- Dai Media (consumer posture, awareness ladder)
-- Chris Cimorelli (proof-stacking)
-- Jeremy Miner (identity persuasion)
+| Deliverable | Expert 1 | Expert 2 | Expert 3 | Why These 3 |
+|------------|----------|----------|----------|-------------|
+| LinkedIn post | Lara Acosta | Nicolas Cole | Kallaway | Platform native vs. digital writing vs. psychology |
+| Sales copy | Cardinal Mason | Luke Iha | Sabri Suby | Direct response vs. insight vectors vs. selling systems |
+| Email sequence | Cardinal Mason | Joanna Wiebe | Erica Mallet | Conversion vs. persuasion vs. belief architecture |
+| Brand positioning | Oren | Lulu Cheng Meservey | Seth Godin | Brand framework vs. comms strategy vs. permission marketing |
+| Strategy/offer | Daniel Priestley | Shaan Puri | Alex Hormozi | Oversubscribed vs. content leverage vs. value equation |
+| Hook/headline | Harry Dry | Lara Acosta | Robert Mack | Marketing examples vs. scroll-stop vs. comedy/tension |
+| Long-form article | Nicolas Cole | Jonathan Franzen | Mitch Albom | Digital writing vs. literary craft vs. thematic architecture |
+| Video script | Seena Rez | Kallaway | Ali Abdaal | Launch mechanics vs. content psychology vs. productivity media |
 
-### 3. Fire Agents in Parallel
-
-Launch 3-5 Agent tool calls in a **single message**. Each agent:
+Present the plan:
 
 ```
-You are [Expert Name], producing [deliverable type] for [audience].
+## Variant Sprint Plan
 
-Load context:
-- Read skills/[expert-skill]/SKILL.md for methodology
-- Read skills/[expert-skill]/genius.md for quality rubric and exemplars
+**Task**: [task description]
+**Deliverable**: [type]
+**Core constraint**: [what all variants must include]
 
-Task: [The user's brief]
+| # | Expert | Approach | What Makes This Variant Different |
+|---|--------|----------|----------------------------------|
+| 1 | [Expert 1] | [their methodology in 5 words] | [angle/tone/structure difference] |
+| 2 | [Expert 2] | [their methodology in 5 words] | [angle/tone/structure difference] |
+| 3 | [Expert 3] | [their methodology in 5 words] | [angle/tone/structure difference] |
 
-Produce a complete [deliverable] using YOUR methodology and voice. 
-This should be genuinely different from what other experts would produce — 
-not a generic version with your name on it.
-
-End with a 1-line "Why This Approach" note explaining your angle.
+Launch all [N] variants in parallel? Or adjust experts/approaches?
 ```
 
-### 4. Synthesize Results
+Wait for user approval (or proceed if intent is clear and Score >= 4).
 
-After all agents return, present:
+### 2. Fire 3-5 Agents IN PARALLEL
 
-**A. All Variants** — Each labeled by expert name, with their "Why This Approach" note
-
-**B. Comparison Matrix:**
-
-| Dimension | Expert A | Expert B | Expert C |
-|-----------|----------|----------|----------|
-| Hook strength | | | |
-| Proof density | | | |
-| Emotional pull | | | |
-| Voice authenticity | | | |
-| Actionability | | | |
-
-**C. Recommended Frankenstein** — Best elements from each, combined:
-- Hook from [Expert X] because...
-- Structure from [Expert Y] because...
-- Close from [Expert Z] because...
-
-**D. Best Standalone** — If you had to ship one as-is, which one and why
-
-### 5. User Decides
-
-Present options:
-1. Ship one variant as-is
-2. Build the Frankenstein
-3. Take the best and run `/adversarial-review` on it before shipping
-4. Use as inspiration and write something new
+Spawn one Agent tool call per variant **in a single message**. Each agent loads its own expert and works independently.
 
 ---
 
+**Agent template (repeat for each expert)**:
+
+```
+You are [Expert Name], producing a [deliverable type] about: [task]
+
+**Your expert identity**: You think, write, and create using [Expert Name]'s methodology exclusively. This is not about referencing their ideas -- it's about BEING them.
+
+**Core constraint (all variants share this)**:
+[The shared requirement -- topic, audience, key message, length, etc.]
+
+**Your unique angle**:
+[What makes THIS variant different from the others -- specific to this expert's approach]
+
+**Instructions**:
+1. Read the expert's skill: skills/[skill-name]/SKILL.md
+2. Read the expert's genius patterns: skills/[skill-name]/genius.md
+3. Read the most relevant workflow: skills/[skill-name]/workflows/[best-match].md
+4. Produce the full deliverable using this expert's frameworks and thinking patterns
+5. The output should be RECOGNIZABLY this expert's work -- someone familiar with [Expert Name] should be able to identify the methodology
+
+**Quality test**: If the output could have been produced without loading this expert's files, it fails. The expert's thinking must be visible in the structure, language choices, and approach -- not just in terminology.
+
+**Include at the end**:
+### Why This Approach
+[1-2 sentences: What does [Expert Name]'s methodology bring to this task that others don't?]
+
+Write output to: .tmp/variant-sprint/variant-[expert-slug].md
+```
+
+### 3. Wait for All Agents to Return
+
+All agents run independently and write to `.tmp/variant-sprint/`. Wait for all to complete.
+
+### 4. Compare and Present
+
+Read all variant outputs. Produce the full comparison:
+
+```markdown
+# Variant Sprint: [Task]
+
+**Date**: [date]
+**Variants produced**: [N]
+**Core constraint**: [what was shared]
+
+---
+
+## Variant 1: [Expert Name] Approach
+
+**Why this approach**: [expert's 1-2 sentence rationale]
+
+[Full deliverable text]
+
+---
+
+## Variant 2: [Expert Name] Approach
+
+**Why this approach**: [expert's 1-2 sentence rationale]
+
+[Full deliverable text]
+
+---
+
+## Variant 3: [Expert Name] Approach
+
+**Why this approach**: [expert's 1-2 sentence rationale]
+
+[Full deliverable text]
+
+---
+
+## Comparison Matrix
+
+| Dimension | Variant 1 ([Expert]) | Variant 2 ([Expert]) | Variant 3 ([Expert]) |
+|-----------|---------------------|---------------------|---------------------|
+| Hook strength | [1-10 + note] | [1-10 + note] | [1-10 + note] |
+| Emotional depth | [1-10 + note] | [1-10 + note] | [1-10 + note] |
+| Structural clarity | [1-10 + note] | [1-10 + note] | [1-10 + note] |
+| Voice authenticity | [1-10 + note] | [1-10 + note] | [1-10 + note] |
+| Audience fit | [1-10 + note] | [1-10 + note] | [1-10 + note] |
+| Uniqueness | [1-10 + note] | [1-10 + note] | [1-10 + note] |
+
+## Best Standalone Variant
+
+**Winner**: Variant [N] ([Expert Name])
+**Why**: [2-3 sentences -- what makes this the strongest single version]
+**Score**: [Overall average from comparison matrix]
+
+## Recommended Frankenstein
+
+The strongest deliverable combines elements from multiple variants:
+
+| Element | Take From | Why |
+|---------|-----------|-----|
+| Opening/Hook | Variant [N] | [reason -- e.g., "strongest scroll-stop, creates immediate tension"] |
+| Structure/Flow | Variant [N] | [reason] |
+| Core argument | Variant [N] | [reason] |
+| Emotional beats | Variant [N] | [reason] |
+| Closing/CTA | Variant [N] | [reason] |
+
+### Frankenstein Draft
+[If the pieces fit naturally, produce the combined version. If they'd require significant rewriting to merge, describe the combination instead and let the user choose whether to proceed.]
+```
+
+### 5. Save and Deliver
+
+Save the full comparison to `.tmp/variant-sprint/sprint-[task-slug].md`.
+
+Offer next steps:
+- **Pick a variant**: "Go with Variant [N]" -- polish and finalize
+- **Build the Frankenstein**: Merge the recommended elements into a single deliverable
+- **Review before shipping**: Run `/adversarial-review` on the chosen variant
+- **Writers' room treatment**: Run `/writers-room` on the chosen variant for final polish
+- **Generate more variants**: Add experts or regenerate with adjusted constraints
+
+---
+
+## Expert Selection Guidelines
+
+When auto-selecting experts:
+
+**Maximize tension, not similarity.** Three experts who all prioritize "emotional storytelling" will produce three versions of the same thing. Pick experts with genuinely different first principles:
+- One structural/systematic (Cole, Mason, Priestley)
+- One emotional/psychological (Mallet, Mack, Kallaway)
+- One provocative/unconventional (Suby, Puri, Godin)
+
+**Match the stakes to the expert count.**
+- 3 variants (default): Most tasks. Enough diversity without overwhelm.
+- 4 variants: High-stakes deliverables or when the domain spans multiple disciplines.
+- 5 variants: Maximum. Only for critical client work or when genuinely unsure about direction.
+
+**Check for expert compatibility with the deliverable format.** Not every expert maps to every format. A screenwriting expert won't produce a useful LinkedIn post variant. A direct response copywriter won't produce a useful brand manifesto variant. Match the expert's output mode to the deliverable.
+
+## Anti-Patterns
+
+- **Don't select 3 experts from the same school of thought.** If all three are "hook-first content creators," you'll get three flavors of the same approach. The point is genuine diversity.
+- **Don't force the Frankenstein.** If the best variant is clearly the best and the others don't contribute meaningful elements, just say so. Not every sprint produces a useful combination.
+- **Don't let variants share language.** If Variant 2 opens with the same metaphor as Variant 1, the expert wasn't loaded deeply enough. Each variant should feel like a different person wrote it.
+- **Don't skip the "Why This Approach" note.** It forces each agent to articulate what's distinctive about their expert's method, which improves output quality.
+- **Don't inflate comparison scores.** If all three variants score 8-9 on everything, the matrix is useless. Find the real differences. One variant's hook will be stronger. Another's structure will be tighter. Be honest.
+
 ## Integration Points
 
-- **Quality Gate**: Each variant can be scored independently for comparison
-- **Prose Classifier**: Run on the chosen variant before delivery
-- **Ground Truth**: If a variant scores well on blind test, the expert selection was right
-- **Performance Log**: Log which expert's variant was chosen (trains future routing)
+- **Quality Gate**: Each variant can be scored independently via `/adversarial-review`
+- **Prose Classifier**: Run `execution/prose_classifier.py` on the chosen variant before shipping
+- **Performance Log**: Log which expert's variant was chosen -- trains future routing decisions
+- **Writers' Room**: The chosen variant (or Frankenstein) feeds directly into `/writers-room` for polish
+
+## Limits
+
+- **3-5 agents max** (more variants = diminishing returns + context window pressure)
+- Each agent loads skill files fresh (clean context, no cross-contamination)
+- Variants are generated independently -- no agent sees another's output
+- Total generation time: 2-5 minutes depending on deliverable complexity and agent count
+- For deeper treatment of the chosen variant, follow up with `/writers-room` or `/adversarial-review`
+
+---
+
+*Created: 2026-04-03*
+*Updated: 2026-04-03 -- Expanded with full agent prompt templates, routing tables, Frankenstein protocol*
+*Related workflows: `/parallel-content` (different formats, same topic), `/adversarial-review` (critique), `/writers-room` (polish)*
+*Origin: Farrice's 3-variant creative process -- "Generate 3 variants, then Frankenstein best parts"*
