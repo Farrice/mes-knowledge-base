@@ -1,0 +1,14 @@
+---
+description: Dedicated reverse causation mining engine — flip causal arrows for the highest-leverage insight vectors
+---
+
+# Reverse Cause
+
+Run the dedicated reverse causation engine to flip audience "X causes Y" beliefs.
+
+## Steps
+
+1. Load `skills/luke-iha-insight-vectors/SKILL.md`
+2. For deep work, also load `skills/luke-iha-insight-vectors/genius.md`
+3. Execute `skills/luke-iha-insight-vectors/workflows/reverse-causation-engine.md`
+4. Requires market/niche and audience causal beliefs as input
