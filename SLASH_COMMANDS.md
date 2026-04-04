@@ -572,16 +572,21 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/create-agent` | Create an expert agent from an existing skill or extraction |
 | `/create-skill` | Create a new skill (routes between skill types) |
 | `/deploy-skill` | Deploy any skill's prompts to execute a specific task |
+| `/evolution-sprint` | Background skill improvement — 3 agents benchmark, analyze, hypothesis |
 | `/extract` | Extract expert knowledge from source material |
 | `/gap-report` | Monthly intelligence gap report — weak skills, missing coverage |
 | `/ground-truth` | Expert benchmark calibration — add samples, run blind comparisons |
 | `/prose-check` | AI-prose detection — check files/text for AI patterns before delivery |
 | `/query-notebook` | Query a specific NotebookLM notebook for domain-specific research |
 | `/revenue-track` | Revenue attribution — connect quality scores to business outcomes |
+| `/adversarial-review` | Stress-test deliverable with Scorer + Critic agent pair |
+| `/calibrate` | Full calibration check — ground truth + prose + revenue in parallel |
 | `/rate` | Quick-rate the last expert output for routing quality |
 | `/recommend` | Contextual skill recommendation based on current work |
+| `/research-swarm` | 3 parallel research agents — market, audience, system scan |
 | `/routing-intelligence` | View routing analytics dashboard |
 | `/skill-evolution` | Run evolution cycle — benchmark, test variants, keep improvements |
+| `/variant-sprint` | 3-5 expert variants of same deliverable in parallel |
 | `/system-audit` | Comprehensive health audit on the Antigravity system |
 | `/self-evolve` | MetaHarness-style self-improvement loop on any component — workflow, prompt, retrieval logic, or orchestration pattern |
 | `/harness-evolve` | Evolve a specific workflow's prompts, flow, and gates through automated iteration |
@@ -646,6 +651,11 @@ You don't need to remember command names. These common phrases automatically map
 | "compare against expert" / "blind test" / "how good is this really" / "calibrate quality" | `ground-truth` |
 | "does this sound like AI" / "check for AI prose" / "prose check" / "AI detection" | `prose-check` |
 | "track revenue" / "did this make money" / "ROI report" / "what converted" | `revenue-track` |
+| "research this topic" / "scan this market" / "what do we know about" / "research swarm" | `research-swarm` |
+| "stress test this" / "is this good enough" / "review before I ship" / "red team this" | `adversarial-review` |
+| "give me options" / "different angles" / "multiple takes" / "variant sprint" | `variant-sprint` |
+| "improve this skill in the background" / "evolve while I work" / "evolution sprint" | `evolution-sprint` |
+| "how good is the system" / "calibrate" / "honest assessment" / "system scorecard" | `calibrate` |
 | "evolve a skill" / "improve this skill" / "benchmark my skills" | `skill-evolution` |
 | "end of session" / "wrap up" / "save my work" | `end-session` |
 | "start a session" / "kick things off" / "new session" | `session-kickoff` |

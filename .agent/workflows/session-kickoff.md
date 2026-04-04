@@ -45,6 +45,15 @@ Output a single compact block:
 
 No protocol declarations. No system health check. No intent pipeline file read.
 
+### Step 2.5: Maintenance Pulse (Silent — 1 Read)
+// turbo
+Read `.agent/session-state.md` and check:
+- If "days since /maintenance" > 7 → append to kickoff: `⚡ /maintenance overdue`
+- If "days since /calibrate" > 30 → append: `⚡ /calibrate due`
+- If revenue-outcomes.json has 0 entries for current month → append: `⚡ /revenue-track pipeline`
+
+Only show alerts that apply. No alerts = no output. This adds zero friction when everything is current.
+
 ### Step 3: Begin Work
 Proceed directly to the task. Workspace folder creation is **deferred** — it only happens when the first asset is produced (via `session_workspace.py create-if-needed`).
 
