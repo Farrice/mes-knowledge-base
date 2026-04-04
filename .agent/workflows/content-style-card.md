@@ -1,5 +1,5 @@
 ---
-description: Build a platform-specific style card that defines voice
+description: Platform-specific style card that defines voice
 ---
 
 # /content-style-card — Platform Style Card Builder

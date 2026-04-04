@@ -1,5 +1,5 @@
 ---
-description: Build a complete character
+description: Complete character
 ---
 
 # /connelly-character

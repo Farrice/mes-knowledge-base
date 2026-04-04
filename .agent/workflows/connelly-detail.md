@@ -1,5 +1,5 @@
 ---
-description: replace descriptive paragraphs with 1-2 surgical details
+description: Replace descriptive paragraphs with 1-2 surgical details
 ---
 
 # /connelly-detail

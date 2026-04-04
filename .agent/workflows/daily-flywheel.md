@@ -1,5 +1,5 @@
 ---
-description: Run the Daily Flywheel Engine
+description: Daily Flywheel Engine
 ---
 
 # `/daily-flywheel` — The Daily Flywheel Engine

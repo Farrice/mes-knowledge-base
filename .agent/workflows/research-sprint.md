@@ -1,5 +1,5 @@
 ---
-description: business intelligence with Agent Teams coordination
+description: Business intelligence with Agent Teams coordination
 ---
 
 # /research-sprint — Business Intelligence Sprint

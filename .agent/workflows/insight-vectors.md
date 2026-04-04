@@ -1,5 +1,5 @@
 ---
-description: Generate insight vectors from audience mental models — the upstream idea engine for all Luke Iha copy
+description: Generate insight vectors from audience mental models —
 ---
 
 # Insight Vectors

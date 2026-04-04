@@ -1,5 +1,5 @@
 ---
-description: Diagnose whether creative block is samskara-driven or ego-driven Resistance (× Pressfield)
+description: Diagnose whether creative block is samskara-driven or ego-driven
 ---
 
 # Dr. K × Pressfield — Resistance Triage

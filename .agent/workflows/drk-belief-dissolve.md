@@ -1,5 +1,5 @@
 ---
-description: Samskara vs. epistemic belief diagnosis + dissolution sequence (Dr. K × McRaney)
+description: Samskara vs. epistemic belief diagnosis + dissolution sequence
 ---
 
 # Dr. K × McRaney — Belief Dissolution Engine

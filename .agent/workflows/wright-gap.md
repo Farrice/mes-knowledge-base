@@ -1,5 +1,5 @@
 ---
-description: the tension where every great profile lives
+description: The tension where every great profile lives
 ---
 
 # Wright Thompson Myth/Reality Gap Finder

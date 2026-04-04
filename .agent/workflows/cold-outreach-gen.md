@@ -1,5 +1,5 @@
 ---
-description: Generate a personalized cold outreach message
+description: Personalized cold outreach message
 ---
 
 # Cold Outreach Generator

@@ -1,5 +1,5 @@
 ---
-description: Create a new skill
+description: New skill
 ---
 
 # /create-skill — Skill Creation Workflow

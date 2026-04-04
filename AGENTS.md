@@ -53,6 +53,17 @@ python execution/sync_registries.py
 - `projects/` — active project workspaces
 - Deliverables → cloud services (Google Sheets/Slides)
 
+## Artifact-First Delivery Rule (HARD RULE — No Exceptions)
+
+Every deliverable the user needs to review MUST be published as a **conversation artifact** (in the `brain/<conversation-id>/` directory with `IsArtifact: true`), not only as a raw workspace file.
+
+- **All reports, briefs, trend reports, research outputs, analyses, strategy documents, and any file the user will read** → conversation artifact FIRST. This is the primary deliverable.
+- A workspace copy (to `strategy_briefs/`, `research_outputs/`, `deliverables/`, etc.) may also be saved for LLM portability and file-system persistence — this is the secondary copy.
+- Use GitHub-style alert boxes (`NOTE`, `TIP`, `IMPORTANT`, `WARNING`, `CAUTION`) for key callouts.
+- Use blockquotes, strikethrough, visual hierarchy, and clean table formatting to make documents scannable and premium.
+- **Never deliver a user-facing deliverable as only a workspace file.** If the user will read it, it gets an artifact.
+- Exceptions: pure system files (configs, scripts, logs, `.py`, `.json`).
+
 ---
 
 # The Chain (Every Request — No Exceptions)
@@ -105,45 +116,18 @@ Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
 ---
 
-### When Steps Narrow (Not Skip the Chain)
-
-| Condition | Steps shortened | Steps still required |
-|-----------|----------------|---------------------|
-| Score 4-5 (sharp intent) | Skip Step 2 | 1, 3, 4, 5, 6 |
-| "Just do it" / "go ahead" | Skip Step 2, skip PRESENT in Step 3 | 1, 3 (route silently), 4, 5, 6 |
-| Follow-up, same plan | Skip Step 2, reuse Step 3 route | 1, 4, 5, 6 |
-| Bug fix, clear scope | Skip Step 2 if scope obvious | 1, 3 (verify if expert needed), 5, 6* |
-| Pure system command (ls, git, file read) | Chain does not apply | No deliverable = no chain |
-
-*Step 6 fires only when expert output was produced in Step 5.
-
-**"Trivial" is NOT a skip condition.** If the user asks for content, copy, strategy, research, or any expert-domain deliverable, the chain runs regardless of perceived simplicity. "I need LinkedIn headlines" is a content task requiring routing to Lara Acosta — not a trivial question.
-
-### Chain Efficiency Rules (Token Optimization)
-
-**Steps 1-2 (SCORE + SHARPEN): Internalized — no file reads required.**
-The scoring formula (+1 Deliverable, +1 Audience, +1 Context, +1 End state, +1 Specific language)
-is memorized. Do NOT read `directives/intent-pipeline.md` to score intent.
-Only read it if running `/validate-intent` explicitly.
-
-**Step 3 (ROUTE): Internalized for known domains.**
-If the domain maps to an obvious expert (LinkedIn → Lara Acosta, copywriting → Luke Iha,
-SEO → Nathan Gotch, brand → Oren/Grace, ghostwriting → Nicolas Cole, content psychology → Kallaway,
-consumer posture → Dai Media, agentic workflows → Nick Saraev), route without reading
-`DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
-
-**Step 4 (LOAD): Deferred Tier escalation.**
-Start at Tier 1 (SKILL.md only). Load genius.md ONLY if:
-- The first-pass output doesn't meet quality expectations
-- The task is explicitly creative/complex (screenwriting, brand strategy, deep extraction)
-- The user asks for "the best" or "world-class" output
-
-**Step 6 (FINALIZE): Required only for expert-domain output.**
-Quick answers, system commands, file organization, and conversations do NOT require finalize.
+### Chain Narrowing Rules
+- Score 4-5: Skip Step 2. Score ≤3: SHARPEN first.
+- "Just do it": Route silently, skip PRESENT.
+- Follow-up: Reuse Step 3 route.
+- No deliverable (system commands): Chain does not apply.
+- **"Trivial" is NOT a skip condition.** Content/strategy/research always runs the chain.
+- Steps 1-3 are internalized (no file reads). Known routes: LinkedIn→Lara, Copy→Luke, SEO→Gotch, Brand→Oren/Grace, Ghost→Cole, Psychology→Kallaway, Consumer→Dai, Agentic→Saraev.
+- Start Tier 1. Escalate to genius.md only for creative/complex or quality misses.
+- FINALIZE fires only for expert-domain output.
 
 ### Workflow Override
-
-If the user invokes a workflow name from `SLASH_COMMANDS.md` — as `/command`, `@command`, "run command", or bare name — read `.agent/workflows/[command].md` and execute. The workflow incorporates the chain internally. Full list: `SLASH_COMMANDS.md`.
+If user invokes `/command`, `@command`, or bare name → read `.agent/workflows/[command].md` and execute.
 
 ---
 
@@ -191,78 +175,8 @@ Push complexity into deterministic code. You focus on decision-making.
 
 ---
 
-## Directive Index
+## Directives
 
-All SOPs live in `directives/`. Fire at their trigger point — do NOT preload.
-
-### Chain Protocols (fire during the 6-step chain)
-| Directive | When |
-|-----------|------|
-| `quality_assurance.md` | Step 5 — anti-patterns, entity classification, no phantom research |
-| `quality_gate.md` | After Step 5 — silent self-annealing quality gate |
-| `feedback-ratchet.md` | After Step 6 — logs quality scores for longitudinal tracking |
-| `content_creation_gate.md` | Step 4 — pre-flight gate for content tasks (min 2 skill files) |
-| `deep_self_annealing.md` | On any error — tiered recovery system |
-| `ai-slop-detector.md` | Step 5 — prose-level pattern awareness for AI-shaped writing |
-| `verification-agent-protocol.md` | Between Step 5-6 — adversarial verification for implementations |
-| `collaboration-protocol.md` | Always — anti-sycophancy mandate |
-| `operating-principles.md` | Development workflows |
-| `user-state-awareness.md` | Every turn — lightweight frustration detection |
-
-### Routing & Loading
-| Directive | When |
-|-----------|------|
-| `intent-pipeline.md` | Step 2-3 — full DICE dimensions + routing tables |
-| `agent-loading-protocol.md` | Step 4 — tiered loading chain (Hot → Tier 3) |
-| `expert_auto_routing.md` | Step 3 — domain tables + ensemble patterns |
-| `multi-expert-synthesis.md` | Multi-domain tasks — combining expert perspectives |
-| `skill-paths-reference.md` | Quick lookup: expert → skill file paths |
-
-### Research & Knowledge
-| Directive | When |
-|-----------|------|
-| `research-protocol.md` | Research tasks — grounded intelligence standard |
-| `hybrid-knowledge-retrieval.md` | Smart routing across all knowledge sources |
-| `perplexity-usage-policy.md` | Budget: $30/mo, track in `.agent/perplexity-usage.json` |
-| `notebooklm-usage-policy.md` | Budget: 100/mo, track in `.agent/notebooklm-usage.json` |
-
-### Extraction & Skills
-| Directive | When |
-|-----------|------|
-| `extraction-workflow.md` | Processing new expert extractions into agents/skills |
-| `extraction-to-skill.md` | Converting MES 3.0 extractions into production skills |
-| `mes-3.0-extract.md` | MES 3.0 extraction from source material |
-| `mes-3.0-validate.md` | Validation: mechanical rubric + Oren CEV taste check |
-| `skill-evolution-protocol.md` | 20+ Performance Log entries or regression — variant testing |
-| `cross-pollination.md` | After a skill evolution KEEP — propagate to related skills |
-| `expertise-gap-protocol.md` | No expert covers the task — self-healing knowledge loop |
-
-### Session & System
-| Directive | When |
-|-----------|------|
-| `session-state-protocol.md` | After Step 2, after Step 4, after 10+ reads |
-| `session-end-commit.md` | End of session — commit protocol |
-| `token-efficiency-protocol.md` | Every workflow — minimize context pollution |
-| `sub_agent_protocol.md` | 2+ experts loaded, or 10+ files in context |
-| `parallel_thought.md` | Complex/swarm-worthy tasks — parallel build orchestrator |
-| `parallelism-cheat-sheet.md` | Quick reference for parallel execution patterns |
-| `workflow-chains.md` | Multi-step workflows — output-to-input contracts |
-
-### Domain-Specific
-| Directive | When |
-|-----------|------|
-| `ghostwriting-delivery.md` | Any ghostwriting task — full delivery SOP |
-| `sales-conversation.md` | Sales prep — Miner + Bernoff frameworks |
-| `content-creation.md` | Content creation using expert council |
-| `daily-council.md` | Morning routine — daily focus via expert council |
-| `decision-council.md` | Major decisions — expert council framework |
-| `notion-databases.md` | Notion API — database IDs, schemas, registry |
-
-### Setup & Reference
-| Directive | When |
-|-----------|------|
-| `mcp-server-setup.md` | MCP server setup — Workspace, Notion, SQLite |
-| `mcp-research-setup.md` | MCP research setup — Perplexity Sonar + Tavily |
-| `gemini-reference.md` | On-demand reference material stripped from GEMINI.md |
+All SOPs live in `directives/`. Fire at trigger point — do NOT preload. List `directives/` to discover available protocols. Key ones: `quality_assurance.md` (Step 5), `quality_gate.md` (after Step 5), `content_creation_gate.md` (Step 4 gate), `agent-loading-protocol.md` (Step 4 loading), `intent-pipeline.md` (Step 2-3), `session-state-protocol.md` (after major decisions).
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.

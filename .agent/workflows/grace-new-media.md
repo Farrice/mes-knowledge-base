@@ -1,5 +1,5 @@
 ---
-description: the full media company build
+description: The full media company build
 ---
 
 # /grace-new-media — City Blueprint with New Media Physics

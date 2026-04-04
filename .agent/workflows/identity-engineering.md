@@ -1,5 +1,5 @@
 ---
-description: construction, deployment, and release protocols
+description: Construction, deployment, and release protocols
 ---
 
 # Identity Engineering

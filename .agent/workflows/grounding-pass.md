@@ -1,5 +1,5 @@
 ---
-description: Run a Grounding Pass on agent outputs
+description: Grounding Pass on agent outputs
 ---
 
 # /grounding-pass Workflow

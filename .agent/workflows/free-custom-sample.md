@@ -1,5 +1,5 @@
 ---
-description: voice-matched content that IS the pitch
+description: Voice-matched content that IS the pitch
 ---
 
 # Free Custom Sample

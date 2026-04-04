@@ -1,5 +1,5 @@
 ---
-description: Internal dharma + external StoryBrand positioning (Dr. K × Miller)
+description: Internal dharma + external StoryBrand positioning (Dr. K
 ---
 
 # Dr. K × Donald Miller — Purpose-to-Position Pipeline

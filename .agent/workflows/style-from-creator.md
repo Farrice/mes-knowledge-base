@@ -1,5 +1,5 @@
 ---
-description: reverse-engineer voice, structure, and patterns
+description: Reverse-engineer voice, structure, and patterns
 ---
 
 # /style-from-creator — Creator Voice Cloner

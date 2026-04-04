@@ -1,5 +1,5 @@
 ---
-description: Run a universal structural integrity audit
+description: Universal structural integrity audit
 ---
 
 # /verify — Universal System Verification

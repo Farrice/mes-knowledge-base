@@ -1,5 +1,5 @@
 ---
-description: Audit existing copy for insight vector coverage, density, and quality
+description: Audit existing copy for insight vector coverage, density,
 ---
 
 # Insight Audit

@@ -1,5 +1,5 @@
 ---
-description: Run the full AI Brain Builder pipeline
+description: Full AI Brain Builder pipeline
 ---
 
 # /ai-brain — Full AI Brain Builder Pipeline

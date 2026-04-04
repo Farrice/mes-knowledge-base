@@ -1,5 +1,5 @@
 ---
-description: Build a complete funnel
+description: Complete funnel
 ---
 
 # High-Ticket Cohort Launch Funnel

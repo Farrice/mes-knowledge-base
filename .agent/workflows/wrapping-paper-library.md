@@ -1,5 +1,5 @@
 ---
-description: hooks, formats, and structures from outside your niche
+description: Hooks, formats, and structures from outside your niche
 ---
 
 # /wrapping-paper-library — Wrapping Paper Library Builder

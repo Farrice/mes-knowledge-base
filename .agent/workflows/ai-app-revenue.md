@@ -1,5 +1,5 @@
 ---
-description: calculator, converter, and analyzer apps
+description: Calculator, converter, and analyzer apps
 ---
 
 # AI App Revenue Builder

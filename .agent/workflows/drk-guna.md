@@ -1,5 +1,5 @@
 ---
-description: Diagnose mental operating mode (tamas/rajas/sattva) and design transition protocol
+description: Diagnose mental operating mode (tamas/rajas/sattva) and design transition
 ---
 
 # Dr. K — Three Gunas Diagnostic

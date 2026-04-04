@@ -1,5 +1,5 @@
 ---
-description: Dedicated reverse causation mining engine — flip causal arrows for the highest-leverage insight vectors
+description: Dedicated reverse causation mining engine — flip causal
 ---
 
 # Reverse Cause

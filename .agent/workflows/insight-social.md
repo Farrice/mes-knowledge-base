@@ -1,5 +1,5 @@
 ---
-description: Generate platform-native social content built on insight vectors for LinkedIn, X, Instagram, TikTok
+description: Generate platform-native social content built on insight vectors
 ---
 
 # Insight Social

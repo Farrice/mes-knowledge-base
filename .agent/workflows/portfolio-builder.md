@@ -1,5 +1,5 @@
 ---
-description: Build a portfolio demonstrating competence
+description: Portfolio demonstrating competence
 ---
 
 # Client Portfolio Builder

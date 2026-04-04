@@ -35,6 +35,7 @@
 | **Lara Acosta** | LinkedIn Content, B2B Personal Branding | Active | `@lara-acosta` |
 | **Josh Sanders** | LinkedIn Growth & Funnels | Active | `@josh-sanders` |
 | **Omar Eltakrori** | Personal Brand Business, Challenges, High-Ticket Coaching | Active | `@omar-eltakrori` |
+| **Enrico Incarnati** | Real Estate Instagram, Content-to-Client Systems | Active | `@enrico-incarnati` |
 
 **Status Key:**
 - **Active** = Agent folder exists with full AGENT.md, ready to invoke
@@ -227,6 +228,13 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 - **Key Frameworks:** Business Blueprint Framework, Go-To Expert Framework, Challenge Model, Five F's of Likability, Framework Creation Method
 - **Invoke:** `@omar-eltakrori` or personal brand business/challenge launch/high-ticket coaching requests
 - **Status:** Active (skill)
+
+#### Enrico Incarnati
+- **Domain:** Real Estate Instagram, Content-to-Client Systems, Lead Generation
+- **Skill Path:** `skills/enrico-incarnati-instagram-realestate/`
+- **Key Frameworks:** Lifestyle Intersection Method, Proximity Play, 5× Content Expansion, Digital Curb Appeal, Friday Night Strategy
+- **Invoke:** `@enrico-incarnati` or Instagram real estate / agent content requests
+- **Status:** Active (skill, 10 workflows)
 
 ---
 
@@ -424,6 +432,6 @@ This registry integrates with:
 
 ---
 
-*Last updated: 2026-01-24*
-*Total Experts: 25 (25 active, 0 pending)*
+*Last updated: 2026-04-04*
+*Total Experts: 26 (26 active, 0 pending)*
 *Total Councils: 5*

@@ -1,5 +1,5 @@
 ---
-description: pre-empt objections before they form
+description: Pre-empt objections before they form
 ---
 
 # Objection-Proof Mapping

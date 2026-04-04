@@ -1,5 +1,5 @@
 ---
-description: Run a skill evolution cycle
+description: Skill evolution cycle
 ---
 
 # /skill-evolution — Skill Evolution Workflow

@@ -1,5 +1,5 @@
 ---
-description: Take anyone from zero to revenue-generating personal brand
+description: Anyone from zero to revenue-generating personal brand
 ---
 
 # /caleb-brand-build — Full Personal Brand Operating System

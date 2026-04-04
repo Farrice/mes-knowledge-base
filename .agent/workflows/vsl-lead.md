@@ -1,5 +1,5 @@
 ---
-description: Write a complete VSL lead for any offer
+description: Complete VSL lead for any offer
 ---
 
 # VSL Lead Writer

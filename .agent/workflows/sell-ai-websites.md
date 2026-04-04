@@ -1,5 +1,5 @@
 ---
-description: Build a local business AI website sales pipeline
+description: Local business AI website sales pipeline
 ---
 
 # Sell AI Websites

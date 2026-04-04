@@ -1,5 +1,5 @@
 ---
-description: Generate a complete NPQ conversation flow
+description: Complete NPQ conversation flow
 ---
 
 # /npq-script

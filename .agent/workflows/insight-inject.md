@@ -1,5 +1,5 @@
 ---
-description: Inject insight vectors into existing flat copy at structural weak points
+description: Inject insight vectors into existing flat copy at
 ---
 
 # Insight Inject

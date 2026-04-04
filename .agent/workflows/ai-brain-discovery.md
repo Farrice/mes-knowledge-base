@@ -1,5 +1,5 @@
 ---
-description: Run the AI Brain Discovery intake
+description: AI Brain Discovery intake
 ---
 
 # /ai-brain-discovery — AI Brain Discovery (Intake)

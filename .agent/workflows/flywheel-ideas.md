@@ -1,5 +1,5 @@
 ---
-description: Run the Ideation Flywheel
+description: Ideation Flywheel
 ---
 
 # `/flywheel-ideas` — The Ideation Engine

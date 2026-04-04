@@ -1,5 +1,5 @@
 ---
-description: Generate a McKinsey-Grade Strategic Dossier
+description: McKinsey-Grade Strategic Dossier
 ---
 
 # 🏛️ McKinsey-Grade Strategic Dossier Generator

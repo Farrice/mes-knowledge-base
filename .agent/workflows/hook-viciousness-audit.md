@@ -1,5 +1,5 @@
 ---
-description: full audit with rewrite prescriptions
+description: Full audit with rewrite prescriptions
 ---
 
 # Hook Viciousness Audit

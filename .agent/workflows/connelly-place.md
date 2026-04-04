@@ -1,5 +1,5 @@
 ---
-description: Write a Character-Through-Place scene where geography triggers memory
+description: Character-Through-Place scene where geography triggers memory
 ---
 
 # /connelly-place

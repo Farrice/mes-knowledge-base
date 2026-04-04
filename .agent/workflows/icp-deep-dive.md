@@ -1,5 +1,5 @@
 ---
-description: Run the complete ICP Deep Dive pipeline end-to-end
+description: Complete ICP Deep Dive pipeline end-to-end
 ---
 
 # /icp-deep-dive — Full ICP Intelligence Pipeline

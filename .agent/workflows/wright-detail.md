@@ -1,5 +1,5 @@
 ---
-description: making a detail do the work of 50
+description: Making a detail do the work of 50
 ---
 
 # Wright Thompson Detail as Metaphor Engine

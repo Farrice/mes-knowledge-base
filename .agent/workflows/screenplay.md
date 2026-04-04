@@ -1,5 +1,5 @@
 ---
-description: Build a complete screenplay structure
+description: Complete screenplay structure
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

@@ -1,5 +1,5 @@
 ---
-description: not reformatting but genuine platform-native rewriting
+description: Not reformatting but genuine platform-native rewriting
 ---
 
 # /platform-adapt — Deep Platform Adaptation

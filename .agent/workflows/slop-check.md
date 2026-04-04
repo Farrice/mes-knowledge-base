@@ -1,5 +1,5 @@
 ---
-description: Run the AI Slop Detector as a final
+description: AI Slop Detector as a final
 ---
 
 # AI Slop Detection Pass

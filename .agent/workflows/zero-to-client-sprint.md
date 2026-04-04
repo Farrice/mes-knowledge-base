@@ -1,5 +1,5 @@
 ---
-description: removal list through first 3 paying clients
+description: Removal list through first 3 paying clients
 ---
 
 # Zero-to-Client Sprint

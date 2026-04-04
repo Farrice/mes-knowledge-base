@@ -1,5 +1,5 @@
 ---
-description: Content written from processed emotion with cinematic depth (Dr. K × Roth)
+description: Content written from processed emotion with cinematic depth
 ---
 
 # Dr. K × Eric Roth — Mind-Garden Content

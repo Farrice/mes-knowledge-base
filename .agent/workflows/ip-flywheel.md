@@ -1,5 +1,5 @@
 ---
-description: Run the Interactive IP Flywheel
+description: Interactive IP Flywheel
 ---
 
 # `/ip-flywheel` — The Interactive IP Flywheel (v2.1)

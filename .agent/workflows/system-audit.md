@@ -1,5 +1,5 @@
 ---
-description: Run a comprehensive health audit on the Antigravity
+description: Comprehensive health audit on the Antigravity
 ---
 
 # /system-audit

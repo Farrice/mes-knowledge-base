@@ -1,5 +1,5 @@
 ---
-description: Build a complete Proof Ladder strategy
+description: Complete Proof Ladder strategy
 ---
 
 # Proof Ladder Builder

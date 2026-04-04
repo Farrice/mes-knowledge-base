@@ -1,5 +1,5 @@
 ---
-description: from talking points through creation through enrichment
+description: From talking points through creation through enrichment
 ---
 
 # /content-orchestrate — Full Content Production Session

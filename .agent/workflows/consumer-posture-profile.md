@@ -1,5 +1,5 @@
 ---
-description: the radical individual, not a demographic
+description: The radical individual, not a demographic
 ---
 
 # /consumer-posture-profile — 3D Consumer Portrait Generator

@@ -1,5 +1,5 @@
 ---
-description: the meta-skill for the agent era
+description: The meta-skill for the agent era
 ---
 
 # /sniff-check — Agent Output Quality Protocol Builder

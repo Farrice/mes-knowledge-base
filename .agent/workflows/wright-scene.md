@@ -1,5 +1,5 @@
 ---
-description: narrative architecture that makes long-form feel inevitable
+description: Narrative architecture that makes long-form feel inevitable
 ---
 
 # Wright Thompson Scene Architecture Builder

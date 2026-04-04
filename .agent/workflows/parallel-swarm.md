@@ -1,5 +1,5 @@
 ---
-description: Deploy a true parallel agent swarm
+description: True parallel agent swarm
 ---
 
 # /parallel-swarm — True Parallel Orchestration

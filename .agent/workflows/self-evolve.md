@@ -1,5 +1,5 @@
 ---
-description: workflow, prompt, retrieval logic, or orchestration pattern
+description: Workflow, prompt, retrieval logic, or orchestration pattern
 ---
 
 # Self-Evolve

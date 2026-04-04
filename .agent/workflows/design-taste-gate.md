@@ -1,5 +1,5 @@
 ---
-description: Run a multi-lens taste audit on a finished
+description: Multi-lens taste audit on a finished
 ---
 
 # /design-taste-gate — Design Quality Critique & Refinement

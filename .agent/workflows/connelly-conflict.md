@@ -1,5 +1,5 @@
 ---
-description: Run the Vonnegut Conflict Audit
+description: Vonnegut Conflict Audit
 ---
 
 # /connelly-conflict

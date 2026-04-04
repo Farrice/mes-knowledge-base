@@ -1,5 +1,5 @@
 ---
-description: the second section that asks the broad thematic
+description: The second section that asks the broad thematic
 ---
 
 # Wright Thompson Second-Section Verb Engine

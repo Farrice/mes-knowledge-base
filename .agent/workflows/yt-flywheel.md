@@ -1,5 +1,5 @@
 ---
-description: Run the Deep Engine Flywheel
+description: Deep Engine Flywheel
 ---
 
 # `/yt-flywheel` — The Deep Engine (v1.1)

@@ -1,5 +1,5 @@
 ---
-description: Build a 5-stage proof portfolio
+description: 5-stage proof portfolio
 ---
 
 # Proof Portfolio Builder

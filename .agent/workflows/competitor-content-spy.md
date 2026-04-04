@@ -1,5 +1,5 @@
 ---
-description: Build a systematic competitive intelligence system
+description: Systematic competitive intelligence system
 ---
 
 # /competitor-content-spy — Competitive Content Intelligence

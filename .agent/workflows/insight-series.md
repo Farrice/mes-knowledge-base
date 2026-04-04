@@ -1,5 +1,5 @@
 ---
-description: Design a multi-part content series with stacked insight vectors for progressive audience conviction
+description: Multi-part content series with stacked insight vectors for
 ---
 
 # Insight Series

@@ -1,5 +1,5 @@
 ---
-description: map all invisible decisions that made it work
+description: Map all invisible decisions that made it work
 ---
 
 # Detail Stack Breakdown

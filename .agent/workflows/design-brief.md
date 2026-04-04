@@ -1,5 +1,5 @@
 ---
-description: Generate a complete creative direction brief
+description: Complete creative direction brief
 ---
 
 # /design-brief — Creative Direction Generator

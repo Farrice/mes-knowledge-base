@@ -1,5 +1,5 @@
 ---
-description: Take one long-form source and produce 11 derivative
+description: One long-form source and produce 11 derivative
 ---
 
 # /atomize — Content Atomization Engine

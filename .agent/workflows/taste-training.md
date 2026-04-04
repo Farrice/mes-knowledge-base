@@ -1,5 +1,5 @@
 ---
-description: Build a personalized taste-training system
+description: Personalized taste-training system
 ---
 
 # /taste-training

@@ -1,5 +1,5 @@
 ---
-description: volume sprint with full scoring and tiering
+description: Volume sprint with full scoring and tiering
 ---
 
 # Vicious Hook Sprint

@@ -1,5 +1,5 @@
 ---
-description: Build a high-converting LinkedIn profile architecture
+description: High-converting LinkedIn profile architecture
 ---
 
 # LinkedIn Profile Conversion Blueprint

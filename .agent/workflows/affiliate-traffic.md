@@ -1,5 +1,5 @@
 ---
-description: Generate a complete multi-channel traffic strategy
+description: Complete multi-channel traffic strategy
 ---
 
 # Affiliate Traffic Engine

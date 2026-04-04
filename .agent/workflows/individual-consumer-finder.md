@@ -1,5 +1,5 @@
 ---
-description: with search methodology and candidate profiles
+description: With search methodology and candidate profiles
 ---
 
 # /individual-consumer-finder — Real Human Consumer Search

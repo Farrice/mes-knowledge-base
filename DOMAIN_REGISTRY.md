@@ -1,7 +1,7 @@
 # Domain Registry
 
 > Authoritative routing guide for expert orchestration. Defines swim lanes, routing logic, and handoff protocols.
-> **95 agents across 15 domains.** Some agents appear in multiple domains.
+> **96 agents across 15 domains.** Some agents appear in multiple domains.
 >
 > **Tier 2 Upgrades**: All skills upgraded with genius.md Decision Framework + Anti-Patterns + Voice DNA. Workflows harmonized with Pre-Flight Gate + Anti-Pattern Guard. See `invocation-cards.md` for current status.
 > **Last Updated**: 2026-03-19
@@ -593,7 +593,8 @@ When you make a request, I route to the right expert using this registry. I will
 
 | Expert | Owns | Use For |
 |--------|------|---------|
-| **Joshua Smith** | REAL ESTATE | KPI-driven production, market agnosticism, conversion optimization |
+| **Joshua Smith** | REAL ESTATE PRODUCTION | KPI-driven production, market agnosticism, conversion optimization |
+| **Enrico Incarnati** | REAL ESTATE INSTAGRAM | Instagram content strategy, lead generation, personal branding for agents |
 | **Jonathan Courtney** | DESIGN THINKING | UX sprints, design process, product design |
 | **Sabri Suby** | PAID ADVERTISING | AI-powered ads, direct response marketing, campaign scaling |
 
@@ -601,7 +602,14 @@ When you make a request, I route to the right expert using this registry. I will
 
 ```
 "Real estate help"
-└── Joshua Smith
+├── Production/KPIs/team management → Joshua Smith
+└── Instagram/social media/content/personal brand → Enrico Incarnati
+
+"Instagram for real estate"
+└── Enrico Incarnati
+
+"Real estate agent Instagram audit"
+└── Enrico Incarnati
 
 "Design sprint / UX"
 └── Jonathan Courtney
@@ -665,6 +673,17 @@ When you make a request, I route to the right expert using this registry. I will
 4. [Stockton Walbeck] → Lead magnet
 ```
 
+### Instagram for Real Estate (Agent or Team)
+```
+1. [Enrico Incarnati] → /enrico-audit → Diagnose current state
+2. [Enrico Incarnati] → /enrico-curb-appeal → Profile optimization
+3. [Enrico Incarnati] → /enrico-format → Signature format discovery
+4. [Enrico Incarnati] → /enrico-leads → ManyChat pipeline
+5. [Luke Iha] → Proof architecture for lead magnets (optional)
+6. [Enrico Incarnati] → /enrico-sprint → Weekly production mode
+7. [Enrico Incarnati] → /enrico-team → Scale to team/brokerage
+```
+
 ### Premium Content Pipeline
 ```
 1. [Oren] → Visual direction, taste
@@ -701,6 +720,8 @@ Certain expert pairings produce force-multiplier results that exceed what either
 | **Vincent Hu** + **Luke Iha** | Ecosystem copy — Hu architects the growth system, Iha writes the conversion copy within it | Info business needing both system design and high-converting copy |
 | **Omar Eltakrori** + **Luke Iha** | Challenge funnel copy — Eltakrori architects the challenge model, Iha writes the ad copy + proof stacking for challenge enrollment | Running paid ads to web class/challenge funnel |
 | **Omar Eltakrori** + **Lara Acosta** | Brand-to-business pipeline — Eltakrori maps the monetization architecture (content → challenge → offer), Acosta executes LinkedIn personal brand content | Personal brand needing both platform execution and revenue architecture |
+| **Enrico Incarnati** + **Joshua Smith** | Full-stack real estate — Incarnati builds the Instagram brand + lead generation, Smith optimizes production KPIs + closings | Real estate agent/team needing both social media system AND business optimization |
+| **Enrico Incarnati** + **Luke Iha** | Proof-stacked real estate content — Incarnati architects the Instagram strategy, Iha fortifies lead magnets + CTAs with proof engineering | Real estate content that needs higher conversion rates on lead capture |
 
 > [!TIP]
 > When a task matches a compound trigger, route to **both** experts — either via council or sequential handoff. The lead expert (listed first) sets strategy; the second expert executes their specialty within that frame.

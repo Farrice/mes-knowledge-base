@@ -1,5 +1,5 @@
 ---
-description: the universal pre-flight for all design work
+description: The universal pre-flight for all design work
 ---
 
 # /wireframe — Visual Pre-Flight

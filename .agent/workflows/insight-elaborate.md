@@ -1,5 +1,5 @@
 ---
-description: 8-fold elaboration of a raw insight vector into full copy ammunition
+description: 8-fold elaboration of a raw insight vector into
 ---
 
 # Insight Elaborate

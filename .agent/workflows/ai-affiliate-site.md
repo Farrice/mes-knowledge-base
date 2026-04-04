@@ -1,5 +1,5 @@
 ---
-description: not reviews, but tools people actually use
+description: Not reviews, but tools people actually use
 ---
 
 # AI Affiliate Site Builder

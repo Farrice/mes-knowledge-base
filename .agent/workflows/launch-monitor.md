@@ -1,5 +1,5 @@
 ---
-description: Execute the Seena Rez "Early Adopter" Innovation Strategy
+description: Seena Rez "Early Adopter" Innovation Strategy
 ---
 
 # 🚀 Seena Rez Launch Monitor

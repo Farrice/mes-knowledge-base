@@ -1,5 +1,5 @@
 ---
-description: Convert insight vectors to SIN-scored mechanism candidates — bridge to Million Dollar Mechanisms
+description: Convert insight vectors to SIN-scored mechanism candidates —
 ---
 
 # Insight Bridge

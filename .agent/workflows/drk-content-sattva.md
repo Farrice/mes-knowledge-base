@@ -1,5 +1,5 @@
 ---
-description: Content strategy from sattva state with psychological depth (Dr. K × Kallaway)
+description: Content strategy from sattva state with psychological depth
 ---
 
 # Dr. K × Kallaway — Sattva Content Engine

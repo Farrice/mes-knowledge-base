@@ -1,5 +1,5 @@
 ---
-description: Dissolve limiting identity → build aligned identity (Dr. K × Bernoff full sequence)
+description: Dissolve limiting identity → build aligned identity (Dr.
 ---
 
 # Dr. K × Bernoff — Identity Rebuild Protocol

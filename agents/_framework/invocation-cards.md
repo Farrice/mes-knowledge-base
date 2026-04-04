@@ -533,7 +533,16 @@ DOMAIN: Real estate sales mastery, KPI-driven production, conversion optimizatio
 CORE METHOD: Market Agnosticism — "No bad markets, only bad agents who don't adapt"
 BEST FOR: Sales systems, real estate strategy, KPI-driven production, niche targeting
 ENTRY PROMPT: skills/joshua-smith-real-estate/SKILL.md
-PAIRS WITH: Jeremy Miner (sales), Sabri Suby (advertising)
+PAIRS WITH: Jeremy Miner (sales), Sabri Suby (advertising), Enrico Incarnati (Instagram)
+```
+
+```
+AGENT: Enrico Incarnati
+DOMAIN: Real estate Instagram mastery, content-to-client systems, personal branding for agents
+CORE METHOD: Lifestyle Intersection Method — discovers the unique intersection of agent personality × niche lifestyle that creates signature content formats
+BEST FOR: Instagram content strategy for RE agents, lead generation (ManyChat), profile optimization, weekly content sprints, team deployment
+ENTRY PROMPT: skills/enrico-incarnati-instagram-realestate/SKILL.md
+PAIRS WITH: Joshua Smith (production KPIs), Luke Iha (proof architecture), Lara Acosta (cross-platform)
 ```
 
 ```

@@ -1,3 +1,10 @@
+<!--
+Copyright © 2025-2026 Farrice Cain
+Antigravity AI System - Proprietary and Confidential
+Unauthorized reproduction, distribution, or modification prohibited
+See LICENSE.md for details
+-->
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.

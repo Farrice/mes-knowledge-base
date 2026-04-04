@@ -1,5 +1,5 @@
 ---
-description: function, mechanism, substrate test, phase transition
+description: Function, mechanism, substrate test, phase transition
 ---
 
 # Computational Phenomenology

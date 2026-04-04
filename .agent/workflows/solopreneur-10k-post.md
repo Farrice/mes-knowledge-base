@@ -1,5 +1,5 @@
 ---
-description: Write a SubStack post
+description: SubStack post
 ---
 
 # Solopreneur 10K Post

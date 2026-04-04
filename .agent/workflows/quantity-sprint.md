@@ -1,5 +1,5 @@
 ---
-description: Design a volume-focused content sprint
+description: Volume-focused content sprint
 ---
 
 # /quantity-sprint — Quantity Sprint Architect

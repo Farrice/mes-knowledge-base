@@ -1,5 +1,5 @@
 ---
-description: Build a deep audience profile
+description: Deep audience profile
 ---
 
 # /content-audience-profile — Audience Intelligence Profile Builder

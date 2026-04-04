@@ -1,5 +1,5 @@
 ---
-description: find the spark that makes a product, brand
+description: Find the spark that makes a product, brand
 ---
 
 # Phase Transition

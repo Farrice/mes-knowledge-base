@@ -1,5 +1,5 @@
 ---
-description: scored audit + structural rebuild plan
+description: Scored audit + structural rebuild plan
 ---
 
 # /new-media-audit — New Media Strategy Audit

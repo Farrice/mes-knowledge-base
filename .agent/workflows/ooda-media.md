@@ -1,5 +1,5 @@
 ---
-description: Build a rapid-response OODA loop media warfare system
+description: Rapid-response OODA loop media warfare system
 ---
 
 # /ooda-media — OODA Loop Media Warfare

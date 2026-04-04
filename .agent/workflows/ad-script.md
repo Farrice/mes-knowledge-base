@@ -1,5 +1,5 @@
 ---
-description: Write a complete ad script
+description: Complete ad script
 ---
 
 # Ad Script Writer

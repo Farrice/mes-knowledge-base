@@ -1,5 +1,5 @@
 ---
-description: Determine if distress needs clinical support, existential guidance, or both
+description: Determine if distress needs clinical support, existential guidance,
 ---
 
 # Dr. K — Clinical vs. Existential Triage

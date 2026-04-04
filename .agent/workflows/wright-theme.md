@@ -1,5 +1,5 @@
 ---
-description: without ever stating it explicitly
+description: Without ever stating it explicitly
 ---
 
 # Wright Thompson Thematic Compass

@@ -1,5 +1,5 @@
 ---
-description: your content launch day on autopilot
+description: Your content launch day on autopilot
 ---
 
 # /launch-day — Content Launch Day Sprint

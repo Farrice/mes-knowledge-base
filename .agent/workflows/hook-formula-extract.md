@@ -1,5 +1,5 @@
 ---
-description: discover what patterns work specifically for you
+description: Discover what patterns work specifically for you
 ---
 
 # /hook-formula-extract — Personal Hook Formula Miner

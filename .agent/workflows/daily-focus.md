@@ -1,5 +1,5 @@
 ---
-description: ruthless prioritization, time blocks, and exit criteria
+description: Ruthless prioritization, time blocks, and exit criteria
 ---
 
 # /daily-focus — Compressed Work Block Optimizer

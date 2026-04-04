@@ -1,5 +1,5 @@
 ---
-description: Run the Lifestyle Business Operating System
+description: Lifestyle Business Operating System
 ---
 
 # /lifestyle-business

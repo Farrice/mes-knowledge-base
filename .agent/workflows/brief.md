@@ -1,5 +1,5 @@
 ---
-description: Generate a strategic brief
+description: Strategic brief
 ---
 
 # /brief — Strategic Intelligence Brief

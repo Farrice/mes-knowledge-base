@@ -1,5 +1,5 @@
 ---
-description: Generate a 'CMO
+description: 'CMO
 ---
 
 # CMO for a Day

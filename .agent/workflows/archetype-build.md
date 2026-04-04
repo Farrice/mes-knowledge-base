@@ -1,5 +1,5 @@
 ---
-description: Build a 3-5 archetype typing system for any audience domain
+description: 3-5 archetype typing system for any audience domain
 ---
 
 # Archetype Build

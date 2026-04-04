@@ -1,5 +1,5 @@
 ---
-description: Run the ICP research phase
+description: ICP research phase
 ---
 
 # /icp-research — Consumer Intelligence Research Phase

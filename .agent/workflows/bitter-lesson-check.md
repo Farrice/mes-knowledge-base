@@ -1,5 +1,5 @@
 ---
-description: the Bitter Lesson applied to Antigravity
+description: The Bitter Lesson applied to Antigravity
 ---
 
 # Bitter Lesson Check

@@ -1,5 +1,5 @@
 ---
-description: Process emotional objections → deploy proof ladder from clarity (Dr. K × Luke Iha)
+description: Process emotional objections → deploy proof ladder from
 ---
 
 # Dr. K × Luke Iha — Proof-from-Clarity Engine

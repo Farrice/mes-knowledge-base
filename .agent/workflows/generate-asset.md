@@ -1,5 +1,5 @@
 ---
-description: Generate a high-fidelity "Rank and Rent" website asset
+description: High-fidelity "Rank and Rent" website asset
 ---
 
 # ⚠️ This workflow has been ELEVATED to use Agentic Research and AI-generated visuals.

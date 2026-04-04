@@ -1,5 +1,5 @@
 ---
-description: Map all constructed identities with guna classification and protective functions
+description: Map all constructed identities with guna classification and
 ---
 
 # Dr. K — Identity Architecture Audit

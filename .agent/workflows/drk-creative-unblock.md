@@ -1,5 +1,5 @@
 ---
-description: Full creative block diagnosis → treatment → output protocol (Dr. K × Pressfield × Cole)
+description: Full creative block diagnosis → treatment → output
 ---
 
 # Dr. K × Pressfield × Cole — Creative Unblock Protocol

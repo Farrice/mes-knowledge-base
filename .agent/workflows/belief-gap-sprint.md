@@ -1,5 +1,5 @@
 ---
-description: McRaney belief dissolution × insight vectors — deep cross-expert sprint for conversion-blocking beliefs
+description: McRaney belief dissolution × insight vectors — deep
 ---
 
 # Belief Gap Sprint

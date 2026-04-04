@@ -1,5 +1,5 @@
 ---
-description: Build a real estate Business Operating System
+description: Real estate Business Operating System
 ---
 
 # Data-Driven Operations System

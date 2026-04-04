@@ -1,5 +1,5 @@
 ---
-description: chains 5+ expert skills through a16z kingmaker methodology
+description: Chains 5+ expert skills through a16z kingmaker methodology
 ---
 
 # /kingmaker-sprint — Invisible to Dominant in 30 Days

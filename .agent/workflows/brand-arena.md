@@ -1,5 +1,5 @@
 ---
-description: Build a complete brand foundation
+description: Complete brand foundation
 ---
 
 # /brand-arena

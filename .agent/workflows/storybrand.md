@@ -1,5 +1,5 @@
 ---
-description: Generate a complete SB7 BrandScript
+description: Complete SB7 BrandScript
 ---
 
 # /storybrand — BrandScript Generator

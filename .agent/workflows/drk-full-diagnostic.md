@@ -1,5 +1,5 @@
 ---
-description: Complete consciousness audit: identity + guna + samskara in one pass (Dr. K full diagnostic)
+description: Complete consciousness audit: identity + guna + samskara
 ---
 
 # Dr. K — Full Diagnostic

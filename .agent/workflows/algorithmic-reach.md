@@ -1,5 +1,5 @@
 ---
-description: Build a daily engagement and commenting schedule
+description: Daily engagement and commenting schedule
 ---
 
 # Algorithmic Reach Hijack

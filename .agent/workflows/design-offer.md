@@ -1,5 +1,5 @@
 ---
-description: Design a complete digital offer
+description: Complete digital offer
 ---
 
 # /design-offer — Alias for /design-digital-product-offer

@@ -1,5 +1,5 @@
 ---
-description: Generate a creative strategy brief built on insight vector architecture
+description: Creative strategy brief built on insight vector architecture
 ---
 
 # Insight Brief

@@ -1,5 +1,5 @@
 ---
-description: Design a multi-agent orchestration architecture
+description: Multi-agent orchestration architecture
 ---
 
 # /orchestration-blueprint — Multi-Agent Architecture Design

@@ -1,5 +1,5 @@
 ---
-description: affiliate + services + automation + content
+description: Affiliate + services + automation + content
 ---
 
 # Revenue Stream Stacker
