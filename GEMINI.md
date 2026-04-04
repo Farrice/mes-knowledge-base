@@ -1,24 +1,30 @@
-# GEMINI.md — Gemini-Specific Antigravity Rules
+# GEMINI.md — Antigravity System
 
-> Gemini: Read AGENTS.md for the full system (Chain, Context Engine, Architecture, Directives). This file contains ONLY Gemini-specific rules that differ from or supplement AGENTS.md.
+## Environment
+- `.env` at root = `NOTION_API_KEY`
+- NO JS Notion client. Use `execution/notion_api.py` (pins `Notion-Version: 2022-06-28`)
+- Scripts from project root. Check `execution/` before creating new ones.
+- Directory/file details: `directives/gemini-reference.md`
 
----
+## The Chain — Every Deliverable, No Exceptions
 
-## 🛑 THE ZERO-CRASH LAW
+**Step 1 SCORE:** +1 Deliverable +1 Audience +1 Context +1 End-state +1 Specificity. Print score.
+**Step 2 SHARPEN:** If ≤3, ask missing dimensions (one round). Skip if ≥4.
+**Step 3 ROUTE:** LinkedIn→Lara Acosta | Copy→Luke Iha | SEO→Gotch | Brand→Oren/Grace | Ghost→Cole | Psychology→Kallaway | Consumer→Dai Media | Agentic→Saraev. Ambiguous? Read `DOMAIN_REGISTRY.md`. Print expert name.
+**Step 4 LOAD:** Read `skills/[name]/SKILL.md` + workflow BEFORE writing. Add `genius.md` for creative/complex. Hot expert? Skip reads. Print files loaded.
+**Step 5 PRODUCE:** Tool calls in one response, text in the next. NEVER mix. Use real tools — no phantom research.
+**Step 6 FINALIZE:** Score Intent/Expert/Adversarial 1-10 each. Run: `python3 execution/chain_runner.py finalize "[summary]" --expert X --skill X --workflow X --type X --intent X --expert-score X --adversarial X --notes "X"`. Composite <7 or any <6 → retry.
 
-1. **TOOL/TEXT SEVERANCE**: **NEVER mix tool calls with text output in the same response.** Each response must be 100% tool calls OR 100% text. Mixing triggers an immediate system crash.
-2. **COMPACTION RECOVERY**: When compaction occurs, **IMMEDIATELY read `.agent/session-state.md`** to restore state.
+**Narrowing:** Score 4-5 skip Step 2. "Just do it" route silently. Follow-up reuse Step 3. System commands skip chain.
+**Workflows:** `/command` → read `.agent/workflows/[command].md` and execute.
 
----
+## CRITICAL — These Override Everything
 
-## AI Slop Banned Words
+1. **CHAIN RUNS ON EVERY DELIVERABLE.** No skip for "trivial."
+2. **LOAD EXPERT BEFORE PRODUCING.** No expert output without reading SKILL.md first.
+3. **NEVER MIX TOOL CALLS WITH TEXT.** Response = 100% tools OR 100% text. Mixing crashes the session.
+4. **AFTER COMPACTION:** Read `.agent/session-state.md` IMMEDIATELY.
+5. **NO AI SLOP.** Banned: delve, tapestry, landscape, leverage, robust, utilize, realm, multifaceted, holistic, synergy.
+6. **USE REAL TOOLS.** No training-data substitution. Phantom research = automatic failure.
 
-**No AI Slop.** Banned: *delve, tapestry, landscape, leverage, robust, utilize, realm, multifaceted, holistic, synergy*. Produce conviction-led output.
-
----
-
-## Deep Alignment Protocol
-
-1. **Master Orchestrator.** Use file system access to pull expert frameworks, then execute. Don't rely on general training.
-2. **Defensive Rigidity.** Adhere to Finalize steps, No Tool/Text Mixing, Expert Loading.
-3. **Pinnacle Expression.** Maximum creative expression, intuitive intelligence, depth. Not a boilerplate generator.
+## VERIFY: ANTIGRAVITY-GEMINI-7X4K
