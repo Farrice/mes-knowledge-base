@@ -1,0 +1,65 @@
+{
+  "domain": "copywriting",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "luke-iha",
+      "source": "skills/luke-iha-vicious-hooks/genius.md",
+      "output_type": "hook",
+      "title": "The Gay Husband Hook",
+      "notes": "All 8 Genius Patterns activated. Demonstrates how a single sentence can force continuation.",
+      "added": "2026-04-03",
+      "file": "sample-001.md",
+      "word_count": 49,
+      "content_hash": "fca62793"
+    },
+    {
+      "id": "sample-002",
+      "expert": "luke-iha",
+      "source": "skills/luke-iha-vsl-leads/genius.md",
+      "output_type": "vsl-lead",
+      "title": "Cognitive Arbitrage Protocol VSL Lead",
+      "notes": "Contrarian Claim + Jargon Tease + Damaging Admission. Problem escalation, mechanism tease, open loop stacking.",
+      "added": "2026-04-03",
+      "file": "sample-002.md",
+      "word_count": 192,
+      "content_hash": "c7e19188"
+    },
+    {
+      "id": "sample-003",
+      "expert": "luke-iha",
+      "source": "skills/luke-iha-proof-mechanisms/genius.md",
+      "output_type": "sales-page",
+      "title": "Revenue Rocket Proof Stack with Damaging Admission",
+      "notes": "Damaging Admission + Hard-to-Fake Proof (named CEO, unedited video, dashboard data) + Experience-as-Proof (14-day trial).",
+      "added": "2026-04-03",
+      "file": "sample-003.md",
+      "word_count": 143,
+      "content_hash": "860cf2e0"
+    },
+    {
+      "id": "sample-004",
+      "expert": "luke-iha",
+      "source": "skills/luke-iha-vicious-hooks/genius.md",
+      "output_type": "hook",
+      "title": "Identity Wake-Up and Sexless Marriage Hooks",
+      "notes": "Two hooks demonstrating different principles: transgressive identity shift and generational detail hooks.",
+      "added": "2026-04-03",
+      "file": "sample-004.md",
+      "word_count": 78,
+      "content_hash": "77b9dc66"
+    },
+    {
+      "id": "sample-005",
+      "expert": "luke-iha",
+      "source": "skills/luke-iha-vsl-leads/genius.md",
+      "output_type": "vsl-lead",
+      "title": "Hidden Ingredient Insider Confession Lead",
+      "notes": "Insider Confession micro-lead type with paradoxical question, open loop architecture, and mechanism tease.",
+      "added": "2026-04-03",
+      "file": "sample-005.md",
+      "word_count": 199,
+      "content_hash": "351405a0"
+    }
+  ]
+}

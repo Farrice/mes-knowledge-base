@@ -160,6 +160,50 @@ The gate is the referee. The ratchet is the scoreboard. Together they create acc
 
 ---
 
+## Ground Truth Calibration (Added 2026-04-03)
+
+The feedback ratchet is self-referential (AI scoring AI) unless grounded against real expert output. Use the ground truth system to validate that quality scores reflect actual expert-level quality.
+
+### When to Run Ground Truth Comparison
+
+- After a skill evolution cycle produces a new variant
+- When Expert Standard scores plateau at 7-8 but output feels generic
+- Monthly, for the top 5 revenue-generating skills
+- When a skill has 10+ consecutive "Keep" entries (possible score inflation)
+
+### How to Run
+
+```bash
+# Check which domains have expert benchmarks
+python execution/ground_truth.py gap-report
+
+# Run blind comparison (AI output vs real expert)
+python execution/ground_truth.py compare <domain> <path-to-ai-output>
+
+# After scoring both outputs, reveal which was AI
+python execution/ground_truth.py reveal <comparison-filename>
+```
+
+### Integration with Revenue Tracking
+
+Quality scores without revenue data are incomplete. After client delivery:
+
+```bash
+python execution/revenue_tracker.py log "deliverable" --revenue <$> --outcome "what happened"
+python execution/revenue_tracker.py pipeline  # See what needs tracking
+```
+
+### Prose Classifier Pre-Check
+
+The prose classifier is now integrated into `chain_runner.py finalize()`. It automatically warns if:
+- Banned AI vocabulary detected (delve, tapestry, landscape, etc.)
+- Sentence rhythm is suspiciously uniform
+- Expert Standard score may be inflated for AI-prose
+
+Manual check: `python execution/prose_classifier.py check <file>`
+
+---
+
 ## Workflow Integration Template
 
 Add this step to any workflow that produces a deliverable. Copy-paste and fill in the brackets:
@@ -195,8 +239,8 @@ log_output(
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-03 (chain_runner finalize for nathan-gotch-ai-seo,ethan-smith-aeo,luke-iha-copy-blocks) |
-| **Activation Count** | 59 |
+| **Last Activated** | 2026-04-03 (chain_runner finalize for system) |
+| **Activation Count** | 70 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (performance logged after any output), update the "Last Activated" date and increment the count.

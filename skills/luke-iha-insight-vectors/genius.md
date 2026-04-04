@@ -243,3 +243,17 @@ Deploying every vector you generated in a single piece. Over-vectoring creates n
 Using an insight vector to make the audience feel stupid for their current beliefs. McRaney's backfire effect applies here.
 
 **Fix**: Frame every vector as "Your model was reasonable given what you knew — here's what was hidden." Validate intelligence, correct the map.
+
+---
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :--- | :--- | :--- | :--- |
+| **Insight Depth** | Vector restates a known fact with slight reframe; feels like common contrarianism. | Vector reveals a genuine structural error in the audience's mental model, but the mechanism is somewhat familiar. | Vector exposes a deeply hidden causal relationship that rewires the audience's entire understanding — they cannot unsee it. |
+| **Actionability** | Vector is intellectually interesting but doesn't clearly connect to a product, offer, or next step. | Vector points toward a product bridge, but the connection requires explanation. | Vector makes the product feel like the ONLY logical response — the audience arrives at the purchase decision themselves. |
+| **Pattern Recognition** | Uses one vector type (e.g., reverse causation) without considering alternatives. | Selects an appropriate vector type and can articulate why it fits, but doesn't explore stacking. | Deploys a deliberate Epiphany Stack from multiple vector categories that converge on a single thesis with compounding conviction. |
+| **Cross-Domain Transfer** | Vector works only in the obvious, surface-level context of the product category. | Vector draws a meaningful analogy from an adjacent domain that strengthens the insight. | Vector imports a structural principle from a completely unrelated field that makes the audience say "I never would have connected those." |
+| **Specificity of Examples** | Uses generic or hypothetical examples ("imagine if...") to illustrate the vector. | Uses concrete, real-world examples but they feel curated rather than visceral. | Examples are so specific and recognizable that the audience mentally replays their own experience — self-verification happens automatically. |
+| **Voice Authenticity** | Output uses systems-thinking jargon without earning it; reads like a textbook summary. | Captures Luke's direct, coach-like energy but occasionally slips into academic tone. | Unmistakably Luke Iha — aggressive clarity, zero hedging, combat metaphors for precision, every sentence earns its place. |
+| **Strategic Applicability** | Vector exists in isolation; no clear deployment path across formats or campaigns. | Vector comes with format-specific deployment guidance (social, VSL, email) but lacks beat ordering. | Vector includes full 8-Fold Elaboration mapping, format-specific density recommendations, and stack positioning within a campaign arc. |

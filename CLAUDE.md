@@ -38,6 +38,23 @@ python execution/skill_converter.py
 python execution/sync_registries.py
 ```
 
+### Calibration & Quality Tools (Added 2026-04-03)
+
+```bash
+python execution/ground_truth.py gap-report          # Expert benchmark coverage
+python execution/ground_truth.py compare <domain> <ai_output>  # Blind comparison
+python execution/ground_truth.py add <domain> <file> --expert <name>  # Add sample
+python execution/revenue_tracker.py pipeline          # Deliverables needing outcome data
+python execution/revenue_tracker.py log "deliverable" --revenue 500 --outcome "result"
+python execution/revenue_tracker.py report            # ROI by skill/expert
+python execution/prose_classifier.py check <file>     # AI-prose detection
+python execution/prose_classifier.py scan deliverables/  # Batch scan
+```
+
+**Ground Truth** (`knowledge/expert-benchmarks/`): Real expert output samples for blind comparison. 7 domains, 16 experts registered. Feeds calibration data into the feedback ratchet.
+**Revenue Tracker** (`.agent/revenue-outcomes.json`): Connects quality scores to business outcomes. Pipeline command shows what needs tracking.
+**Prose Classifier**: Integrated into `chain_runner.py` — warns if Expert Standard may be inflated due to AI-prose patterns.
+
 ---
 
 ## Directory Conventions
@@ -215,6 +232,9 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
 | Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
 | Operating Principles | Development workflows | `directives/operating-principles.md` |
+| **Prose Classifier** | **Step 5.5 (before delivery)** | **`execution/prose_classifier.py` — auto-runs in `finalize()`** |
+| **Ground Truth** | **After evolution cycles** | **`execution/ground_truth.py` — blind compare AI vs expert** |
+| **Revenue Tracking** | **After client delivery** | **`execution/revenue_tracker.py` — connect quality to outcomes** |
 
 ### Budget-Gated (check before calling)
 | Protocol | Directive | Gate |

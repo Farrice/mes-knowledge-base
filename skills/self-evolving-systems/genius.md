@@ -152,3 +152,30 @@ This skill speaks in **engineering pragmatism**:
 - Specificity over abstraction. "6x performance gap" not "significant improvement."
 - Let the data lead. "Run 3-5 short cycles to debug the skill" — concrete, actionable.
 - Humility about hand-engineering. "This simplicity is deliberate" — trust the system.
+
+---
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :--- | :--- | :--- | :--- |
+| **6x Lever Application** | Identifies that harness matters, but defaults to model upgrades when quality is low. | Diagnoses whether a quality issue is model-level or harness-level, and targets the right one. | Produces a 2x+ improvement by evolving prompts, retrieval, or state management without changing model weights. |
+| **Proposer Agent Quality** | Proposer is a static prompt with summarized history; loses diagnostic signal. | Proposer has trace access and can navigate prior versions, but search strategy is manual. | Proposer autonomously inspects traces, diffs prior versions, and generates targeted hypotheses with measurable predictions. |
+| **Evaluation Rigor** | Uses a single score or subjective assessment; no holdout validation. | Fixed benchmark tasks with consistent rubric; detects obvious regressions. | Multi-dimensional scoring with holdout sets, statistical significance checks, and regression detection across all quality dimensions. |
+| **Trace Architecture** | Logs final scores only; no execution traces or intermediate state. | Logs prompts sent and outputs received; traces are searchable but not systematically analyzed. | Full trace pipeline: prompts, outputs, timing, token counts, and per-step quality signals — all indexed and diff-able across iterations. |
+| **Evolution Discipline** | Runs evolution without clear stopping criteria; iterates until budget exhausted. | Defined iteration budget with keep/discard protocol, but may over-iterate on diminishing returns. | Precise stopping criteria (convergence detection, plateau detection), binary keep/discard after each cycle, and deliberate scope constraints on what the proposer can change. |
+| **Anti-Pattern Avoidance** | Falls into 2+ anti-patterns (score worship, trace amnesia, success bias) without recognizing them. | Avoids major anti-patterns but occasionally runs premature optimization or iteration inflation. | Actively monitors for all 7 anti-patterns, self-corrects when detected, and documents the correction in evolution logs. |
+
+---
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :--- | :--- | :--- | :--- |
+| **Harness-First Diagnosis** | Blames model capability for poor output without examining the workflow, prompts, or retrieval logic. | Investigates the harness before considering model upgrades, but doesn't systematically isolate the failure point. | Applies the 6x Lever principle — exhaustively diagnoses prompt construction, state management, and retrieval logic before any model-level intervention. |
+| **Trace Diagnostic Richness** | Logs only final scores or pass/fail without capturing the execution trace that produced the result. | Logs prompts and outputs but misses intermediate state (retrieval queries, file access, state updates). | Captures complete execution traces in queryable format — every prompt sent, response received, state mutation, and retrieval query — enabling causal hypothesis formation. |
+| **Search Set Construction** | Evaluates evolution against easy examples where the baseline already performs well. | Uses a mix of easy and hard cases, but doesn't specifically mine quality gate failures or low-scoring outputs. | Constructs the search set exclusively from the system's hardest cases — quality gate failures, expert-standard scores below 7, and edge cases where the current harness breaks down. |
+| **Proposer Agency** | Summarizes evolution history into a fixed prompt and asks "what should change?" — losing diagnostic signal. | Gives the proposer access to prior versions and scores, but limits navigation and inspection capabilities. | Proposer operates as a full coding agent with file system access, grep/diff tools, access to ALL prior harnesses (including failures), and freedom to make local edits or full rewrites. |
+| **Skill Text Investment** | Runs long evolution loops with mediocre skill descriptions, expecting iteration count to compensate. | Invests some effort in skill text quality but doesn't run dedicated short cycles to debug the instructions before the main evolution run. | Runs 3-5 short diagnostic cycles specifically to refine the skill/instruction text BEFORE the main evolution loop — recognizing that skill text quality determines the ceiling. |
+| **Code-Space Representation** | Evolves free-form prompt text where the proposer can generate arbitrary, unstructured content. | Uses some structured format but doesn't fully leverage executable code representation for regularization. | Represents all evolved artifacts as executable code or structured workflows, exploiting coding models' natural regularization bias toward generalizable solutions. |
+| **Bitter Lesson Alignment** | Treats hand-engineered workflows as sacred and resists evolution on the grounds of time invested. | Acknowledges evolution potential but only applies it to low-value or peripheral components. | Every manually-tuned component is a candidate for evolution — the question is "when," not "whether." Hand-crafted effort is respected as a warm-start, not a ceiling. |

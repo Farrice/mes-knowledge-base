@@ -574,7 +574,10 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/deploy-skill` | Deploy any skill's prompts to execute a specific task |
 | `/extract` | Extract expert knowledge from source material |
 | `/gap-report` | Monthly intelligence gap report — weak skills, missing coverage |
+| `/ground-truth` | Expert benchmark calibration — add samples, run blind comparisons |
+| `/prose-check` | AI-prose detection — check files/text for AI patterns before delivery |
 | `/query-notebook` | Query a specific NotebookLM notebook for domain-specific research |
+| `/revenue-track` | Revenue attribution — connect quality scores to business outcomes |
 | `/rate` | Quick-rate the last expert output for routing quality |
 | `/recommend` | Contextual skill recommendation based on current work |
 | `/routing-intelligence` | View routing analytics dashboard |
@@ -640,6 +643,9 @@ You don't need to remember command names. These common phrases automatically map
 | "audit the system" / "check system health" / "is everything working" | `health-check` |
 | "what workflows do I have" / "show me my commands" / "help me find a workflow" | `workflows` |
 | "how are my skills doing" / "gap analysis" / "what am I missing" | `gap-report` |
+| "compare against expert" / "blind test" / "how good is this really" / "calibrate quality" | `ground-truth` |
+| "does this sound like AI" / "check for AI prose" / "prose check" / "AI detection" | `prose-check` |
+| "track revenue" / "did this make money" / "ROI report" / "what converted" | `revenue-track` |
 | "evolve a skill" / "improve this skill" / "benchmark my skills" | `skill-evolution` |
 | "end of session" / "wrap up" / "save my work" | `end-session` |
 | "start a session" / "kick things off" / "new session" | `session-kickoff` |

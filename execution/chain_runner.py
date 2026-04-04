@@ -57,6 +57,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 from log_performance import log_output, check_regression, get_baseline
 from protocol_tracker import activate_protocol
 from checkpoint_manager import save_session_state
+from prose_classifier import classify_prose, quick_check
+from revenue_tracker import get_pipeline as get_revenue_pipeline
 
 # Evolution trace directory
 TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "traces"
@@ -119,6 +121,7 @@ def finalize(
         "output": output_description,
         "expert": expert,
         "skill": skill,
+        "task_type": task_type,
         "timestamp": datetime.now().isoformat(),
     }
 
@@ -142,6 +145,25 @@ def finalize(
     result["intent_alignment"] = intent_alignment
     result["expert_standard"] = expert_standard
     result["adversarial_resilience"] = adversarial_resilience
+
+    # ── Step 2.5: Prose classifier check (advisory) ───────────────
+    prose_result = None
+    if output_description and len(output_description) > 100:
+        try:
+            prose_result = classify_prose(output_description)
+            result["prose_check"] = {
+                "verdict": prose_result["verdict"],
+                "ai_score": prose_result["ai_score"],
+                "signal_count": prose_result["signal_count"],
+            }
+            if prose_result["verdict"] == "FLAGGED" and expert_standard and expert_standard > 6:
+                result["prose_warning"] = (
+                    f"Prose classifier FLAGGED (AI score {prose_result['ai_score']}/10). "
+                    f"Expert Standard may be inflated at {expert_standard}. "
+                    f"Consider cap at 6 per quality_gate.md."
+                )
+        except Exception:
+            pass  # Prose check is advisory, never blocks
 
     # ── Step 3: Quality Gate pass/fail ───────────────────────────
     failed_dimensions = []
@@ -315,11 +337,31 @@ def print_result(result: Dict) -> None:
     for p in protocols:
         print(f"    • {p}")
 
+    # Prose check
+    prose = result.get("prose_check")
+    if prose:
+        verdict = prose.get("verdict", "N/A")
+        ai_score = prose.get("ai_score", 0)
+        if verdict == "FLAGGED":
+            print(f"\n  Prose:      ⚠️  FLAGGED (AI score {ai_score}/10) — Expert Standard may be inflated")
+        elif verdict == "WARNING":
+            print(f"\n  Prose:      ⚡ WARNING (AI score {ai_score}/10) — review before delivery")
+
+    # Prose warning (if Expert Standard seems inflated)
+    if result.get("prose_warning"):
+        print(f"  ⚠️  {result['prose_warning']}")
+
     # Session state
     if result.get("session_state_written"):
         print(f"  Session state: ✅ Written")
     else:
         print(f"  Session state: ⚠️  Not written")
+
+    # Revenue tracking reminder (for client/content deliverables)
+    task_type = result.get("task_type", "")
+    if task_type in ("Client Work", "Content", "Creative", "Strategy"):
+        print(f"\n  💰 Revenue tracking: Log outcome when results come in →")
+        print(f"     python execution/revenue_tracker.py log \"{result['output'][:50]}...\" --revenue <$> --outcome \"<result>\"")
 
     print("=" * 60)
 
