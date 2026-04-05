@@ -1,5 +1,5 @@
 ---
-description: Generate 3-5 expert variants of the same deliverable in parallel
+description: Generate 3-5 expert variants of the same deliverable
 ---
 
 # /variant-sprint -- Parallel Expert Variants

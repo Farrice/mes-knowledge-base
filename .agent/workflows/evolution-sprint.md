@@ -1,5 +1,5 @@
 ---
-description: Background skill improvement — benchmark, analyze, generate evolution hypothesis
+description: Background skill improvement
 ---
 
 # /evolution-sprint — Background Skill Improvement

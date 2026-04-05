@@ -1,5 +1,5 @@
 ---
-description: Track revenue outcomes from deliverables — connect quality scores to money
+description: Track revenue outcomes from deliverables
 ---
 
 # /revenue-track — Revenue Attribution Pipeline

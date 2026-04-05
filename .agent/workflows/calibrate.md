@@ -1,5 +1,5 @@
 ---
-description: Full calibration check — honest assessment of system quality, no sugarcoating
+description: Full calibration check
 ---
 
 # /calibrate — System Calibration Scorecard

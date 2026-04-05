@@ -1,5 +1,5 @@
 ---
-description: Check any text or file for AI-prose patterns before delivery
+description: Check text file AI-prose patterns before delivery
 ---
 
 # /prose-check — AI Prose Detection

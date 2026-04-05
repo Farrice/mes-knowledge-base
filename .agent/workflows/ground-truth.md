@@ -1,5 +1,5 @@
 ---
-description: Manage expert benchmark samples and run blind comparisons against AI output
+description: Manage expert benchmark samples and run blind comparisons
 ---
 
 # /ground-truth — Expert Benchmark Calibration

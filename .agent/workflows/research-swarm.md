@@ -1,5 +1,5 @@
 ---
-description: Fire 3 parallel research agents to scan a topic/market/space before building
+description: Deploy orchestrated parallel research swarm
 ---
 
 # /research-swarm -- Pre-Build Intelligence Scan

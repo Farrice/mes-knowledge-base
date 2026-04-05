@@ -1,24 +1,61 @@
 ---
 name: "Jun Yuh Creator Vision"
-description: "Methodology for psychographic content alignment, silent storytelling architecture, and 1-to-7 systemized repurposing."
-version: "2.0"
+description: "Methodology for psychographic content alignment, Creator Vision identity architecture, permutation-based ideation, silent storytelling, and 1-to-7 systemized repurposing."
+version: "3.0"
 format: "completion-engine"
-workflows: 3
+workflows: 13
 ---
 
 # Jun Yuh Creator Vision
 
 This skill encapsulates Jun Yuh's engine for creating deep trust and audience longevity by decoupling production effort from perceived value. He systemizes authenticity through extreme operational efficiency (batching, repurposing) and psychographic storytelling.
-He treats content creation as an energy management game rather than an attention-seeking game. His "You Are The Niche" philosophy completely rejects traditional topical niching, utilizing demographic/psychographic intersections to guara
+
+His "You Are The Niche" philosophy completely rejects traditional topical niching, utilizing a 3-Branch Creator Vision model (Skills × Perspective × Lifestyle) anchored by psychographic targeting and multiple origin stories (Problem/Pursuit/Payoff). Content ideation is mechanical (hook × branch permutation), not creative — creativity is reserved for execution.
 
 ## Available Workflows
 
+### Core Identity Workflows
 | # | Workflow | Produces | Use When |
 |---|---------|----------|----------|
-| personal | [Personal Brand Architecture & Operational Roadmap](workflows/personal-brand-architecture-roadmap.md) | Creator Vision Strategy & Sustainable Content Calendar | Setting up a new personal brand or pivoting an existing one to focus on psychographic resonance rather than a narrow topic. |
-| silent | [Silent Storytelling Production Suite](workflows/silent-storytelling-production-suite.md) | High-Retention Short-Form Production Script & Storyboard | Creating high-impact short-form video content that builds deep emotional rapport without relying on spoken dialogue. |
-| multi | [Multi-Format Repurposing Engine](workflows/multi-format-repurposing-engine.md) | 7-Day High-Utility Content Distribution Plan | Converting a single high-effort video or personal update into a week's worth of high-value, low-intensity assets. |
+| 1 | [Niche-of-One Identity Engine](workflows/niche-of-one-identity.md) | Complete "I Am The Niche" Identity Blueprint | Building a Creator Vision from scratch — the foundational workflow |
+| 2 | [Creator Vision Coaching Protocol](workflows/creator-vision-coaching.md) | Guided coaching session → complete Creator Vision | Walking a client through the CV framework interactively |
+| 3 | [Multi-Origin Story Architect](workflows/multi-origin-story-architect.md) | 3-5 distinct Problem/Pursuit/Payoff stories | Mining a creator's life for deployable origin stories |
+| 4 | [Authentic Expression Audit](workflows/authentic-expression-audit.md) | Performative vs. authentic diagnosis + prescriptions | Content feels draining, fake, or forced — burnout diagnosis |
+
+### Content System Workflows
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 5 | [Content Permutation Engine](workflows/content-permutation-engine.md) | 50+ brand-aligned content ideas | Ideation block, editorial calendar planning, batch ideation |
+| 6 | [Content Pillar & Bucket Builder](workflows/content-pillar-builder.md) | Content pillars + branded buckets + weekly architecture | Defining what to post and when — content structure |
+| 7 | [Content Flywheel Architect](workflows/content-flywheel-architect.md) | Self-reinforcing content production system | Building a sustainable, zero-waste content machine |
+| 8 | [Content Marketing Playbook](workflows/content-marketing-playbook.md) | Full content marketing operating system | Complete strategy → production → distribution → analytics |
+
+### Production Workflows
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 9 | [Silent Storytelling Production Suite](workflows/silent-storytelling-production-suite.md) | High-Retention Short-Form Script & Storyboard | Creating emotional short-form video without dialogue |
+| 10 | [Multi-Format Repurposing Engine](workflows/multi-format-repurposing-engine.md) | 7-Day Content Distribution Plan | Converting one high-effort asset into 7 derivatives |
+
+### Brand System Workflows
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 11 | [Personal Brand Playbook Generator](workflows/personal-brand-playbook.md) | Complete end-to-end brand operating playbook | A creator needs everything in one document |
+| 12 | [Brand Book Generator](workflows/brand-book-generator.md) | Visual + verbal brand identity guide | Building a professional brand identity system |
+| 13 | [Personal Brand Architecture Roadmap](workflows/personal-brand-architecture-roadmap.md) | Creator Vision Strategy & Content Calendar | Setting up or pivoting a personal brand |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+
+## Decision Tree
+1. **No Creator Vision yet?** → `niche-of-one-identity` or `creator-vision-coaching`
+2. **Vision exists, need ideas?** → `content-permutation-engine`
+3. **Need content structure?** → `content-pillar-builder`
+4. **Need production system?** → `content-flywheel-architect`
+5. **Content feels fake/draining?** → `authentic-expression-audit`
+6. **Need origin stories?** → `multi-origin-story-architect`
+7. **Need everything in one doc?** → `personal-brand-playbook`
+8. **Need visual brand identity?** → `brand-book-generator`
+9. **Need full marketing system?** → `content-marketing-playbook`
+10. **Making short-form video?** → `silent-storytelling-production-suite`
+11. **Repurposing one asset?** → `multi-format-repurposing-engine`

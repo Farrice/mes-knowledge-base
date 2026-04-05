@@ -1,5 +1,5 @@
 ---
-description: Stress-test any deliverable with a Creator+Critic agent pair before shipping
+description: Stress-test deliverable Creator+Critic agent pair before shipping
 ---
 
 # /adversarial-review -- Ship-Ready Quality Gate
