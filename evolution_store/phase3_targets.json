@@ -1,0 +1,25 @@
+{
+  "version": "v2",
+  "created": "2026-04-09T04:13:00-07:00",
+  "description": "Phase 3 evolution targets ranked by deployment frequency from Notion Performance Log",
+  "source": "58 entries from Performance Log DB (31f49875a89781dbb599dee5e7961b5c)",
+  "top_10_experts": [
+    {"rank": 1, "expert": "nicolas-cole", "deployments": 8, "skill": "nicolas-cole-newsletter-flywheel / nicolas-cole-client-acquisition", "priority": "highest"},
+    {"rank": 2, "expert": "luke-iha", "deployments": 6, "skill": "luke-iha-proof-ladder / luke-iha-vicious-hooks", "priority": "highest"},
+    {"rank": 3, "expert": "lara-acosta", "deployments": 5, "skill": "lara-acosta-linkedin-mastery", "priority": "highest"},
+    {"rank": 4, "expert": "dai-media", "deployments": 4, "skill": "dai-media-consumer-posture", "priority": "high"},
+    {"rank": 5, "expert": "grace-andrews", "deployments": 2, "skill": "grace-andrews-media-company", "priority": "high"},
+    {"rank": 6, "expert": "donald-miller", "deployments": 2, "skill": "donald-miller-storybrand", "priority": "high"},
+    {"rank": 7, "expert": "caleb-ralston", "deployments": 2, "skill": "caleb-ralston-personal-brand", "priority": "medium"},
+    {"rank": 8, "expert": "marc-andreessen-ben-horowitz", "deployments": 2, "skill": "new-media-kingmaker", "priority": "medium"},
+    {"rank": 9, "expert": "maria-wendt", "deployments": 3, "skill": "maria-wendt-digital-products", "priority": "medium"},
+    {"rank": 10, "expert": "david-placek", "deployments": 3, "skill": "david-placek-naming", "priority": "medium"}
+  ],
+  "top_5_skills": [
+    {"rank": 1, "skill": "lara-acosta-linkedin-mastery", "deployments": 8},
+    {"rank": 2, "skill": "luke-iha-proof-ladder", "deployments": 3},
+    {"rank": 3, "skill": "nicolas-cole-newsletter-flywheel", "deployments": 3},
+    {"rank": 4, "skill": "maria-wendt-digital-products", "deployments": 3},
+    {"rank": 5, "skill": "david-placek-naming", "deployments": 3}
+  ]
+}

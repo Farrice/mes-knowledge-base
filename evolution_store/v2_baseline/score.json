@@ -1,0 +1,30 @@
+{
+  "version": "v2",
+  "timestamp": "2026-04-09T04:09:00-07:00",
+  "save_point_commit": "e615c30136b8cab8b2132c27aeff31701c591415",
+  "components": {
+    "AGENTS.md": {
+      "size_bytes": 10187,
+      "line_count": 153,
+      "clarity_score": null,
+      "rule_integrity": null,
+      "notes": "Never evolved. First baseline capture. 10KB monolith loaded on every Claude conversation."
+    },
+    "GEMINI.md": {
+      "size_bytes": 2119,
+      "line_count": 31,
+      "clarity_score": null,
+      "rule_integrity": null,
+      "notes": "Self-contained rewrite from 2026-04-04. Diverged from v1 evolution store variants."
+    }
+  },
+  "system_stats": {
+    "skills": 206,
+    "agents": 114,
+    "workflows": 479,
+    "execution_scripts": 61,
+    "total_components": 862,
+    "evolution_coverage_pct": 0.12,
+    "last_quality_score": 9.7
+  }
+}

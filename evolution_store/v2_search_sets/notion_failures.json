@@ -1,0 +1,36 @@
+{
+  "cases": [
+    {
+      "title": "LinkedIn headline + About section - 2/10 session failure",
+      "score": 3,
+      "intent": 4,
+      "expert_standard": 3,
+      "adversarial": 2,
+      "composite": 3.0,
+      "expert": "n/a",
+      "skill": "lara-acosta-linkedin-mastery",
+      "workflow": "n/a",
+      "status": "Needs Improvement",
+      "notes": "",
+      "is_failure": true,
+      "page_id": "32049875-a897-81da-b7c0-d40d3cb9659e"
+    },
+    {
+      "title": "test",
+      "score": 5,
+      "intent": 5,
+      "expert_standard": 5,
+      "adversarial": 5,
+      "composite": 5.0,
+      "expert": "test",
+      "skill": "test",
+      "workflow": "test",
+      "status": "Needs Improvement",
+      "notes": "diagnostic test",
+      "is_failure": true,
+      "page_id": "33549875-a897-812b-a559-e87dc04a0ffb"
+    }
+  ],
+  "total": 2,
+  "source": "notion_performance_log"
+}

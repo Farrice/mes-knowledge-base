@@ -1,0 +1,11 @@
+{
+  "variant": "v001",
+  "bytes": 5602,
+  "lines": 93,
+  "compression_pct": 45.0,
+  "rule_integrity": 10.0,
+  "rules_checked": 28,
+  "rules_passed": 28,
+  "missing_rules": [],
+  "baseline_bytes": 10187
+}
