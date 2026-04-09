@@ -1,0 +1,21 @@
+{
+  "skill": "nate-b-jones-agent-deployment-strategy",
+  "workflow": "agent-implementation-master-blueprint",
+  "date": "2026-04-09",
+  "hypothesis": "Adding Autonomy Gradient Calibration (Phase 2) — 3-axis task risk scoring mapped to 4 autonomy tiers with promotion/demotion triggers — makes deployment plans risk-calibrated per task instead of applying uniform 70/30 split.",
+  "new_layer": "Autonomy Gradient Calibration",
+  "baseline_scores": [7, 6, 5],
+  "variant_scores": [9, 8, 8],
+  "baseline_composite": 6.0,
+  "variant_composite": 8.3,
+  "delta": 2.3,
+  "result": "KEPT",
+  "benchmark_task": "Design agent deployment tiers for Authority Flywheel — which tasks get full autonomy, which need human oversight",
+  "changes": [
+    "Added Phase 2: Autonomy Gradient Calibration (4 steps: Task Risk Scoring, Tier Assignment A-D, Promotion/Demotion Triggers, Tier Allocation Table)",
+    "Added Autonomy Tier Matrix to Output Contract",
+    "Added Autonomy Justification Test to Quality Gate",
+    "Renumbered Phases 2-4 to 3-5"
+  ],
+  "lesson": "The biggest gap was not 'how tight the spec' but 'how much rope each task deserves.' Adversarial resilience jumps +3 when every autonomy assignment has a visible, challengeable score."
+}

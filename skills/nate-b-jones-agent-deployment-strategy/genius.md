@@ -77,6 +77,18 @@ The 70/30 split isn't just deployment architecture — it's a culture change man
 *   **Dual-Path Auditing**: Insists that agent performance metrics and operational logs are written to an entirely separate, immutable system managed by an independent team. This ensures the agent cannot report its own success or failure, nor can it modify its own audit trail. → **Deploy when**: Designing the monitoring, accountability, and compliance framework for any agent system.
 *   **The J-Curve Pre-Mortem**: Before any significant agent launch, Nate gathers all stakeholders and explicitly communicates the expected "J-Curve" pattern: an initial 2-4 week period of increased friction and reduced productivity, explaining *why* this dip is normal and outlining the specific strategies to navigate it successfully. → **Deploy when**: Planning communication and setting realistic expectations for any agent rollout beyond simple, contained tasks.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Autonomy Gradient Calibration (Agent Implementation Master Blueprint)
+- **Hypothesis**: Adding a Phase 2 that scores every candidate task on Blast Radius (1-5), Reversibility (1-5), and Judgment Complexity (1-5) to assign autonomy tiers (A: Full Autonomy, B: Supervised, C: Collaborative, D: Human-Only) with explicit promotion/demotion triggers would make deployment plans risk-calibrated per task instead of applying a uniform 70/30 split to everything.
+- **Result**: KEPT — Score improved from 6.0 to 8.3 (+2.3)
+- **Change**: Added Phase 2 (Autonomy Gradient Calibration) with 4 steps: Task Risk Scoring (3-axis), Tier Assignment (A-D mapping), Promotion/Demotion Triggers (20-clean-run promotion, 1-incident demotion, Emergency Lock), Tier Allocation Table. Added Autonomy Tier Matrix to Output Contract. Added Autonomy Justification Test to Quality Gate. Renumbered Phases 2-4 to 3-5. Strictly additive — all original phases and genius patterns preserved.
+- **Benchmark scores**: Baseline [7, 6, 5] → Variant [9, 8, 8]
+- **Lesson**: The biggest gap in agent deployment strategy was not "how tight should the spec be" but "how much rope does each task deserve." Adversarial resilience jumps +3 when every autonomy assignment has a visible, challengeable score rather than a blanket ratio.
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                          | Score 4 (Acceptable)                                                                        | Score 7 (Good)                                                                                  | Score 10 (Savant)                                                                                                    |
