@@ -123,6 +123,52 @@ Run the **Co-Founder Test** on the completed Context Layer:
 
 Flag any test that fails and identify which knowledge gap caused the failure.
 
+### Phase 4.5: Expert Fidelity Verification (Knowledge Depth Stress Test)
+
+The Co-Founder Test validates that the brain knows WHAT the business does. This phase validates that the brain knows the domain DEEPLY ENOUGH to produce output a real expert would validate. An AI Brain that sounds confident but operates at generalist depth is worse than one that flags its own uncertainty — because the founder trusts it.
+
+**Step 1: Domain Expertise Inventory**
+Map every domain the brain claims competence in. For each:
+- **Stated competence**: What the context layer says the brain knows (e.g., "S&C coaching methodology")
+- **Depth classification**: Surface (terminology + definitions), Operational (can execute tasks), Expert (can make judgment calls under ambiguity)
+- **Evidence level**: What source material supports this depth? (Extraction transcripts = high. Paraphrased summaries = medium. Inferred from context = low.)
+
+**Step 2: Adversarial Domain Probes**
+For each domain classified as "Expert," run 3 stress tests:
+1. **The Edge Case Probe**: Present a scenario where two principles from the domain conflict. Does the brain resolve the tension with domain-specific reasoning, or retreat to generic advice? (e.g., "A client wants to increase training frequency but is showing signs of overtraining — what's the protocol?")
+2. **The Why-Behind-Why Probe**: Ask the brain to explain the reasoning behind a domain practice THREE levels deep. Generalist depth fails at level 2. (e.g., "Why periodization? → Why that specific wave pattern? → Why does the CNS respond that way?")
+3. **The Practitioner Smell Test**: Have the brain produce a domain-specific artifact (program, recommendation, analysis). Would a 10-year practitioner read it and say "this person works in the field" or "this reads like someone who Googled it"?
+
+Score each probe: PASS (expert-level response) / SHALLOW (correct but generic) / FAIL (wrong or evasive).
+
+**Step 3: Knowledge Depth Gap Map**
+For each SHALLOW or FAIL result:
+- **Gap type**: Missing knowledge (needs more source material) vs. Missing reasoning (has facts but not judgment patterns) vs. Missing vocabulary (has knowledge but uses outsider language)
+- **Closure action**: Specific extraction, document, or founder interview that would close the gap
+- **Priority**: Critical (brain will produce bad advice) / Important (brain will sound generic) / Nice-to-have (edge case only)
+
+**Step 4: Confidence Calibration Protocol**
+Install a self-awareness layer in BRAIN.md:
+```markdown
+## Knowledge Depth Map (Updated: [date])
+| Domain | Depth Level | Confidence | Known Gaps |
+|--------|-------------|------------|------------|
+| [domain] | Expert/Operational/Surface | High/Medium/Low | [specific gaps] |
+
+## Uncertainty Protocol
+When operating in a domain classified below "Expert":
+1. Flag the response: "Note: My depth in [domain] is [level] — this recommendation should be verified by [specific expert/source]"
+2. Never present Operational-depth knowledge with Expert-level certainty
+3. Log the query as a gap-closure signal for the next context update
+```
+
+**Step 5: Usage-Driven Gap Detection (Living Protocol)**
+After deployment, the brain tracks its own uncertainty signals:
+- Questions it couldn't answer with domain-specific depth
+- Responses where the founder corrected or overrode the recommendation
+- Topics where the brain defaulted to general reasoning instead of domain-specific frameworks
+These feed back into the Knowledge Depth Gap Map at each maintenance cycle, creating a self-improving accuracy ratchet.
+
 ---
 
 ## Output
@@ -171,6 +217,9 @@ Before delivering the Context Layer:
 - [ ] Is every file actionable (could an AI operate from it, not just reference it)?
 - [ ] Does the maintenance protocol make it clear how to keep the brain current?
 - [ ] Would the founder read BRAIN.md and say "Yes, this IS my business"?
+- [ ] Has Expert Fidelity Verification (Phase 4.5) been run on all Expert-classified domains?
+- [ ] Does the Knowledge Depth Map exist in BRAIN.md with honest depth classifications?
+- [ ] Are zero domains classified "Expert" without passing all 3 adversarial probes?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
