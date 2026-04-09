@@ -114,6 +114,7 @@
 | 2026-04-09 | lucas-alpay-storytelling | Add Structural Inevitability Architecture (Phase 2.5) to Strategic Brand Narrative System | KEPT | 7.3→8.7 (+1.4) | 5 mechanics (Seed Planting, Convergence Design, Dramatic Irony Architecture, Emergent Moral, Retroactive Revaluation). Endings feel inevitable because planted details become load-bearing at climax. First storytelling-native skill evolved. |
 | 2026-04-09 | david-bayer-elite-communication | Add Listener Decision-Mode Diagnosis (Phase 0) to High-Stakes Interaction & Power Mastery | KEPT | 7.0→8.3 (+1.3) | 5 decision modes, 4 proof appetites, 3 conversation tempos, calibration directive. Transforms monologue optimization into two-way power dynamic calibration. Adversarial +2. |
 | 2026-04-09 | donald-miller-culture-turnaround | Add Culture Pulse Diagnostics to Culture Turnaround Strategic Roadmap | KEPT | 6.7→8.3 (+1.6) | Phase 4.5: 5 leading indicators (Language Adoption, Identity Claim, Behavioral Initiative, Correction, Narrative), 3 stall detectors (Compliance Plateau, Cynicism Pocket, Leader Fatigue Drop), Hallway Test for adoption-vs-compliance at Day 14/28. Adversarial +3. |
+| 2026-04-09 | andrew-wilkinson-ai-entrepreneurship | Add Portfolio Risk Calibration Architecture (Phase 0) to AI-Native Scaling & Exit | KEPT | 5.3→8.3 (+3.0) | 4-position bet classification (Core/Call Option/Hedge/Cash Cow), correlation stress test, reversibility-based sizing, rebalancing triggers. Captures Tiny holding company logic missing from single-business workflow. Largest delta this cycle. |
 | 2026-04-09 | dan-martell-business-scaling | Add Delegation Timing Calculus (Phase 0) to Buyback Time Audit | KEPT | 6.0→8.3 (+2.3) | Break-even revenue formula per function, TOO EARLY/NOW/OVERDUE status flags, revenue-gated roadmap (not time-gated). Prevents premature cash burn AND late opportunity cost. Intent Alignment +3, Adversarial +3. |
 | 2026-04-09 | oren-repositioning | Add Identity Bridge Sequencing (Phase 2.5) to Strategic Repositioning Brief | KEPT | 6.3→8.3 (+2.0) | 4 mechanics (Foreshadowing Inventory, Permission Artifacts, Audience Segmentation for Transition, Inevitability Sequence). Solves "stuck between old and new identity" — engineers audience's cognitive journey so visible shift feels LATE not sudden. 80/20 ratio inversion over 6-8 weeks. Adversarial +3. |
 | 2026-04-09 | seena-rez-tiktok-commerce | Add Self-Recognition Trigger Architecture (Phase 3.5) to Viral Video Production Engine | KEPT | 6.3→8.3 (+2.0) | 5 trigger mechanics (Private Behavior Mirror, Temporal Self-Comparison, Unspoken Internal Monologue, Environmental Detail Anchoring, Identity Gap Crystallization). Bridges attention-to-intent gap at seconds 12-18. Viewer becomes participant, not spectator. Adversarial +3. |
@@ -121,6 +122,7 @@
 | 2026-04-09 | jonathan-franzen-storytelling | Add Flaw-as-Plot-Engine Diagnostic (Phase 2.5) to Character-Driven Narrative Blueprint | KEPT | 7.0→8.3 (+1.3) | Causal chain: flaw→misperception→reasonable wrong choice→consequence. Load-Bearing Test + Dual-Identification Test in quality gate. Characters whose flaws generate plot, not just react to it. Adversarial +2. |
 | 2026-04-09 | jim-oshaughnessy-philosopher-financier | Add Decision Forcing Function (Phase 5.5) to Systematic Edge & Risk Audit | KEPT | 6.3→8.3 (+2.0) | 72-Hour Rule, Inversion Kill Shot, Regret Minimization Compression, Irreversibility Gradient. Reclassifies decisions after removing emotional distortion. Adversarial +3. |
 | 2026-04-09 | michael-bernoff-identity-engineering | Add Behavioral Evidence Reconstruction (Phase 2.5) to Identity-Shift Transformation Protocol | KEPT | 7.0→8.3 (+1.3) | Behavioral Archaeology + Evidence Reframing + Evidence Stack + Stress Inoculation Anchor. Anchors identity shifts to existing behaviors, not aspirations. Regression requires denying observable reality. Adversarial +2. |
+| 2026-04-09 | ai-chris-lee-zero-testimonial-sales | Add Prospect Self-Evidence Architecture (Phase 0) to Zero-Resistance Closing System | KEPT | 7.0→8.3 (+1.3) | 5-step self-evidence extraction: Problem Reconstruction, Hidden Competence Surfacing, Cost Self-Calculation, Solution Self-Design, The Reveal. Prospect's own words become the proof — no external testimonial needed. Adversarial +2 (biggest gain). |
 
 ---
 
@@ -139,7 +141,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 40 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 41 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
