@@ -93,6 +93,14 @@ Start here → What stage are you at?
 - **Pairs with**: Luke Iha copy skills (for sales copy that uses the client's voice)
 - **Does NOT replace**: The Ghostwriting Voice Engine handles LinkedIn voice capture and production — Mabry handles book-level voice mastery and strategic authorship positioning
 
+## Workflows (Completion Engine v2.0)
+
+### WF01 — Voice DNA Capture
+- **File**: [workflows/01-voice-dna-capture.md](workflows/01-voice-dna-capture.md)
+- **Use when**: Onboarding a new client, building voice profile from voice memos/podcasts/interviews
+- **Key addition**: Phase 4 — Cognitive Architecture Mapping (argument construction pattern, humor deployment logic, vulnerability architecture). Captures HOW someone thinks, not just what they sound like.
+- **Evolution**: Added 2026-04-09. Addresses the gap between surface voice capture (vocabulary, rhythm) and deep voice DNA (thinking patterns that hold across all content formats).
+
 ## Resources
 
 - [Genius Patterns](genius.md) — core patterns and mental models

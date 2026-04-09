@@ -1,0 +1,24 @@
+{
+  "skill": "sean-mabry-voice-mastery",
+  "timestamp": "2026-04-09T13:35:00Z",
+  "hypothesis": "Adding Cognitive Architecture Mapping (Phase 4) to voice capture — argument construction pattern, humor deployment logic, vulnerability architecture — will produce voice profiles that capture HOW someone thinks, not just what they sound like",
+  "test_task": "Capture the voice DNA of an S&C coach from a 5-minute voice memo for Authority Flywheel content production",
+  "baseline_scores": {
+    "intent_alignment": 6,
+    "expert_standard": 6,
+    "adversarial_resilience": 5,
+    "composite": 5.67
+  },
+  "variant_scores": {
+    "intent_alignment": 9,
+    "expert_standard": 8,
+    "adversarial_resilience": 8,
+    "composite": 8.33
+  },
+  "delta": 2.67,
+  "result": "KEPT",
+  "variant_file": "skills/sean-mabry-voice-mastery/workflows/01-voice-dna-capture.md",
+  "notes": "3 structural dimensions added: Argument Construction Pattern (6 types with primary/secondary ratio as fingerprint), Humor Deployment Logic (type/trigger/recovery/frequency/boundaries), Vulnerability Architecture (depth gradient/entry pattern/trigger topics/recovery move/boundary markers). Baseline captured surface style; variant captures cognitive DNA. Created first workflow for this skill (had 0). Key insight: the primary/secondary argument pattern RATIO is the real fingerprint — most people oscillate between two patterns and the ratio is unique.",
+  "strictly_additive": true,
+  "new_cognitive_layer": "Cognitive Architecture Mapping — structural analysis of how someone constructs arguments, deploys humor, and reveals vulnerability"
+}
