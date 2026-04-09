@@ -1,0 +1,11 @@
+{
+  "domain": "copywriting",
+  "expert_sample": "sample-003",
+  "expert_name": "luke-iha",
+  "timestamp": "2026-04-09T12:02:17.632962",
+  "key": {
+    "A": "ai",
+    "B": "expert"
+  },
+  "instructions": "Score each output 1-10 on: (1) Craft Quality, (2) Persuasion Power, (3) Voice Authenticity, (4) Would-Buy/Would-Hire Factor. Do NOT try to guess which is AI. Score on quality alone."
+}
