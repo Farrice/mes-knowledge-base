@@ -142,6 +142,45 @@ Isolate what makes them instantly recognizable — the elements that exist in th
 
 ---
 
+### Phase 3.5: Reasoning Architecture Extraction
+
+**Goal**: Capture HOW the client thinks through problems — not just what they believe, but the specific cognitive pathway they take from observation to conclusion. Belief Mapping captures static positions ("I believe X"). Reasoning Architecture captures the dynamic sequence: how they arrive at X, how they build an argument, how they connect evidence to verdict. This is what makes ghostwritten content feel like it was THOUGHT by the client, not just written in their vocabulary.
+
+**Why this matters**: Two coaches who believe "movement quality beats load" will THINK about it differently. One starts from a principle and works down to application. The other starts from what they saw in the gym and traces upstream to the root cause. The second coach's content has a diagnostic quality — a "follow my eyes" feeling — that no amount of vocabulary matching or rhythm engineering can replicate. Reasoning Architecture is the layer between belief and expression.
+
+**Steps:**
+
+1. **Cognitive Sequence Mapping.** Analyze the transcript (especially Block 2: Live Coaching and Block 3: Contrarian Takes) for the ORDER in which the client builds their points. Do they:
+   - Start from a specific observation and generalize? (Inductive — practitioner-thinker)
+   - Start from a principle and apply it? (Deductive — framework-thinker)
+   - Start from what's wrong and work backward to the fix? (Diagnostic — problem-first thinker)
+   - Start from what others believe and systematically dismantle it? (Contrarian — deconstruction-thinker)
+   - Start from a story and extract the lesson? (Narrative — meaning-maker)
+
+   Most people have a PRIMARY sequence and a SECONDARY they shift to under specific conditions. Map both. Express as: "Primary: [type]. Secondary: [type] when [trigger]."
+
+2. **Proof Construction Pattern.** How does the client PROVE their points? Not what evidence they use — the structural pattern of how evidence enters their argument:
+   - **Scene-first**: Concrete visual (what you'd see) -> explanation (why it matters) -> implication (what it costs/gains)
+   - **Claim-then-evidence**: Bold statement -> supporting data/example -> restatement with authority
+   - **Elimination**: List wrong answers -> knock each down -> what's left standing is the point
+   - **Trace-back**: Observe symptom -> trace upstream 2-3 links -> arrive at hidden root cause
+   - **Accumulation**: Stack small observations -> pattern emerges -> "see what I see now?"
+
+   Pull 1-2 direct examples from the transcript that demonstrate their dominant proof pattern.
+
+3. **Characteristic Reasoning Move.** Every expert has ONE cognitive move that's distinctly theirs — the thing they do when making their strongest points that nobody else does quite the same way. Examples:
+   - The trace-back (symptoms to upstream root cause nobody else connects)
+   - The inversion (flip the question to reveal the real question)
+   - The reduction (strip away complexity until the simple truth is undeniable)
+   - The analogy bridge (pull from a completely different domain to illuminate their point)
+   - The time-shift (project current behavior forward to reveal compounding consequences)
+
+   Identify their signature reasoning move. Write one sentence describing it. Pull one example from the transcript.
+
+4. **Reasoning Validation Test.** Present yourself with a novel scenario in the client's domain — something NOT covered in the transcript. Predict: What would they notice first? What would their diagnosis be? What reasoning sequence would they use to get there? If you can trace the cognitive pathway confidently, proceed. If you can only guess the conclusion but not the path to it, return to the transcript and re-analyze Block 2 (Live Coaching), which is where reasoning patterns are most visible.
+
+---
+
 ### Phase 4: Voice Crystallization (Erica Mallet)
 
 **Goal**: Document the voice so precisely that any writer who reads this profile — without ever meeting the client — can produce content that passes the Voice Consistency Checklist.
