@@ -277,3 +277,15 @@ A large, established tech company issues a press release announcing a "strategic
 | **Evanescent Moment Conversion**   | Viral moments generate buzz but lack a clear, immediate path to business conversion. | Viral moments have a call-to-action, but the conversion path is clunky or delayed. | Every attention spike is pre-wired with a 2-click, friction-free path to a measurable business outcome (e.g., job application, demo request, investor outreach) within 48 hours. |
 | **Negative Space Readout Accuracy** | Focus is solely on positive comments and direct engagement metrics, ignoring subtle cues. | Monitors for overt criticism, but may miss nuanced signals of disengagement. | Actively triangulates public engagement with silence from key supporters and influencers, accurately identifying "cringe territory" or irrelevance before it's explicitly stated. |
 | **Business Goal Gravity Well Alignment** | Communication efforts are driven by a desire for general attention or "good vibes" rather than specific objectives. | Communications broadly support business objectives, but specific conversion paths and ROI are often weak or unmeasured. | Every communication initiative is explicitly tied to and rigorously measured against its direct contribution to recruiting, fundraising, sales, or regulatory protection. |
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Behavioral Commitment Architecture (Founder Narrative Workflow)
+- **Hypothesis**: Articulated gaps create recognition but not behavioral change. Adding a micro-commitment layer (5 mechanics: Self-Test Invitation, Public Micro-Declaration, Sunk Cost Seed, Private Litmus Test, Identity Threshold) ensures each named truth is paired with an identity-consistent action that makes the new belief self-reinforcing. The reader acts first, then constructs the belief to justify the action.
+- **Result**: KEPT — Score improved from 7.0 to 8.0 (+1.0)
+- **Change**: Added Phase 3b (Behavioral Commitment Architecture) with 5 commitment mechanics, sequencing rules, and quality checks. Added Commitment Carry-Through to Phase 4. Added Commitment Map to Output Contract. Added Behavioral Change Test and Discovery Test to Quality Gate.
+- **Benchmark scores**: Current [8, 7, 6] → Variant [8, 8, 8]
+- **Lesson**: The gap between "names what people feel" and "changes what people do" is the behavioral commitment layer. Communications that engineer action before belief produce stickier identity shifts than those that argue for belief change directly. Discovery > persuasion.
