@@ -87,6 +87,7 @@
 | 2026-04-09 | rory-sutherland-marketing | Add Reframe Stress Test to Psychological Brand Strategy Blueprint | KEPT | 6.3→8.3 (+2.0) | 3 behavioral prediction filters (Identity Congruence, Comparison Frame Prediction, Implementation Clarity Gate). Bridges gap between clever reframe and deployable positioning. Adversarial +3. |
 | 2026-04-09 | david-mcraney-belief-change | Add Keystone Belief Triangulation to Belief Dissolution Copywriting | KEPT | 7.0→8.7 (+1.7) | Maps belief dependency graph, identifies structural keystone, designs cascade sequence. 1 reframe dissolves 5 beliefs. Inverts HK7 (load-bearing beliefs) from defensive to offensive. |
 | 2026-04-09 | erica-mallet-brand-magnetism | Add Magnetism Pulse Diagnostics to Brand Magnetism Bible | KEPT | 7.0→8.3 (+1.3) | Phase 6: Leading indicators (language matching, unsolicited forwarding, identity declaration), 5 decay signals, monthly pulse check, corrective actions. Closes "how do you know it's working?" gap. Adversarial +2. |
+| 2026-04-09 | monk-ai-offer-architecture | Add Decision Architecture Layer to Offer Ecosystem Design | KEPT | 7.0→8.3 (+1.3) | 3 DA mechanics (Asymmetric Dominance Positioning, Pre-Regret Inoculation, Rational Self-Evidence Engineering). Buyers construct their own logical argument for the target tier. Adversarial +2. |
 
 ---
 
@@ -105,7 +106,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 14 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 15 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
