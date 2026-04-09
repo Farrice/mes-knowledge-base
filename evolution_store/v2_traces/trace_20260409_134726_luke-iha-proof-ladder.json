@@ -1,0 +1,30 @@
+{
+  "trace_id": "20260409_134726",
+  "timestamp": "2026-04-09T13:47:26.931907",
+  "component": "luke-iha-proof-ladder",
+  "operation": "skill_evolution",
+  "expert": "luke-iha",
+  "workflow": "skepticism-profile-matching",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "First evolution of luke-iha-proof-ladder. Added Skepticism Profile Matching cognitive layer \u2014 6 skepticism profiles (Empiricist, Practitioner, Burned Buyer, Identity Protector, Craft Purist, Risk Calculator) determine proof-type selection and sequencing. Baseline proof-ladder-builder scored 5.3 on S&C coaches benchmark; variant scored 8.3. +3.0 composite, +4 adversarial resilience. Strictly additive \u2014 new workflow, no existing files modified except SKILL.md registration.",
+  "context": {
+    "output": "New workflow: skepticism-profile-matching.md (14th workflow). Diagnoses audience skepticism type before selecting proof weapons. Tested against Authority Flywheel for S&C coaches skeptical of done-for-you content.",
+    "task_type": "System",
+    "experiment_tag": "evolution-v2",
+    "evolution": {
+      "baseline_workflow": "proof-ladder-builder",
+      "baseline_score": 5.3,
+      "variant_score": 8.3,
+      "delta": 3.0,
+      "result": "KEPT",
+      "benchmark_task": "Build a proof ladder for Authority Flywheel targeting S&C coaches who are skeptical of done-for-you content"
+    }
+  },
+  "is_failure": false
+}

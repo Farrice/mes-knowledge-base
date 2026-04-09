@@ -3,7 +3,7 @@ name: "Luke Iha: Proof Ladder Architecture"
 description: "The meta-framework for progressive trust engineering. Maps proof hierarchically from psychological to social, compresses cold-to-purchase timelines, and turns proof into the #1 competitive differentiator for both copy and career. Includes the master Proof Copy Engine for end-to-end multi-platform copywriting."
 version: "1.0"
 format: "completion-engine"
-workflows: 13
+workflows: 14
 ---
 
 # Luke Iha: Proof Ladder Architecture
@@ -33,6 +33,7 @@ The **`/proof-copy-engine`** is the end-to-end master workflow for producing the
 | authority-manufacture | [Authority Manufacturing](workflows/authority-manufacturing.md) | Authority strategy for zero-proof situations using psychological + empirical proof | You have no testimonials and need to establish credibility from scratch |
 | proof-narrative | [Proof as Story](workflows/proof-as-story.md) | Case study narratives, origin stories, and experiential proof written as stories | You need to turn dry proof into compelling narrative content |
 | objection-annihilator | [Objection-Proof Mapping](workflows/objection-proof-mapping.md) | A complete map of objections → doubt types → specific proof weapon antidotes | You need to pre-empt every possible objection with matched proof |
+| skepticism-profile | [Skepticism Profile Matching](workflows/skepticism-profile-matching.md) | Audience skepticism diagnosis + proof-type calibration — matches proof weapons to how this specific audience builds trust | You need proof strategy calibrated to a specific audience's trust architecture, not generic proof stacking |
 
 ## Skill Stacking
 
