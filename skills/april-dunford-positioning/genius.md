@@ -258,3 +258,19 @@
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                    | Score 10 (Savant)
+
+---
+
+## Evolution Log
+
+### Evolution 1: Positioning Siege Test (2026-04-09)
+- **Target**: Adversarial Resilience (scored 5/10 on baseline positioning output)
+- **Hypothesis**: Adding a competitive siege layer (counter-positioning attacks, market shift scenarios, constraint-based inevitability proof) produces positioning that is more defensible and harder to copy.
+- **New Cognitive Layer**: Phase 6 "Siege Test" — three sequential attacks on completed positioning:
+  1. **Competitive Counter-Positioning**: Simulate top competitors' counter-moves, score vulnerabilities, build fortifications
+  2. **Market Shift Stress Test**: Extract implicit assumptions, construct break scenarios, classify resilience (Robust/Conditional/Fragile)
+  3. **Inevitability Proof**: Map hard constraints (capability, market, competitive, identity) and chain into logical proof that the position is discovered, not chosen. Score copy-resistance 1-10.
+- **Benchmark Task**: "Position an Authority Flywheel service for S&C coaches against generic ghostwriting agencies and DIY content tools"
+- **Results**: Baseline composite 6.7 (Intent 8, Expert 7, Adversarial 5) vs Variant composite 8.0 (Intent 8, Expert 8, Adversarial 8). Delta: +1.3 composite, +3 on target dimension.
+- **Key Insight**: The siege test exposed that "voice-first methodology" is a claim any ghostwriter makes — the fortification forced it to become a PROVABLE MECHANISM (voice memo extraction). Also forced reframe from "content service" to "strategic authority system" to defend against AI commoditization. These upgrades would not have emerged from the standard workflow alone.
+- **Verdict**: KEEP. Promoted to `workflows/positioning-siege-test.md`.
