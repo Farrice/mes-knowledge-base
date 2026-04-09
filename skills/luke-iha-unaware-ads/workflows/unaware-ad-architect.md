@@ -33,6 +33,26 @@ Map the unaware reader's internal world.
 3. **Information Diet**: Where do they get their information? YouTube? Reddit? TikTok? Friends?
 4. **Belief to Shift**: What ONE belief must change for them to see your product as necessary?
 
+### Phase 1.5: Pre-Awareness Trigger Mapping
+Identify the private behavioral evidence the reader already has but hasn't connected to the problem.
+
+People don't become problem-aware through information. They become problem-aware through **pattern recognition of their own behavior.** The ad's job is not to TELL them they have a problem — it's to describe a moment so precisely that they can't avoid recognizing themselves in it.
+
+1. **Behavioral Inventory**: List 5-7 specific, observable behaviors the target does regularly that are SYMPTOMS of the unrecognized problem. Not feelings — actions. Not abstractions — scenes.
+   - Bad: "They feel frustrated with their business growth"
+   - Good: "They check a competitor's Instagram, see 4x their followers, and tell themselves 'that guy just posts more, his coaching isn't better'"
+   
+2. **The Private Moment**: From the inventory, identify the ONE behavior that happens in private, that the person has never told anyone about, and that they've rationalized away. This is the trigger — the crack where awareness enters.
+   - Test: Would the reader feel slightly exposed reading this? If yes, you've found it.
+   - Test: Has the reader done this in the last 7 days? If no, go more mundane.
+
+3. **The Rationalization Map**: Document the exact self-talk the reader uses to dismiss this behavior. The ad must name the rationalization BEFORE the reader can deploy it — this cuts off the escape route.
+   - Pattern: "[Private behavior] → [Their rationalization] → [What it actually means]"
+   - Example: "Checking a competitor's page → 'I'm just seeing what they're doing' → You're measuring a gap you won't name"
+
+4. **Trigger-to-Hook Bridge**: Convert the private moment into the ad's opening. The hook doesn't assert a problem — it RECREATES the moment of behavioral self-recognition.
+   - The reader should think "how does this person know I do that?" not "interesting point about visibility"
+
 ### Phase 2: Hook Generation
 Generate 10+ hooks using the hook archetypes.
 1. **Paradox Hook** (2-3 variations): "[Common practice] is actually killing your [desired result]"
@@ -80,6 +100,7 @@ A complete .md file containing:
 3. **Worldview Shift Test**: If someone read only the hook + payoff, would their worldview start shifting?
 4. **Open Loop Integrity**: Are there at least 3 nested open loops that resolve at the product?
 5. **No Template Smell**: Does this feel like a thought-provoking piece of content, NOT an ad?
+6. **Trigger Precision**: Does the opening recreate a specific private behavior the reader will recognize as their own — or does it merely assert a problem they can dismiss?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
