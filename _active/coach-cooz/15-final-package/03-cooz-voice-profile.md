@@ -122,6 +122,7 @@ Every draft MUST be scannable for this rhythm. If three consecutive sentences ex
 ### D2. Platform-Artifact Bans (added from Ignition Plan)
 
 - "founder" / "executive" / "creator" / "C-suite" / "high performer"
+- "resurrection" / "resurrect" in client-facing COPY (Instagram posts, DMs, voice memos, offer page body copy, Triage Audit scripts). The word is the BRAND NAME ONLY — it appears in the brand header, the bio, the URL. It does NOT appear in the body text of posts. Instead use: "rebuild," "get back," "comeback," "strongest version," "came back." Independent verification (April 2026) confirmed zero organic use of "resurrection" by men in the target demographic across 15+ Reddit threads. Men say "get back in shape," "rebuild," "comeback." The brand creates intrigue; the copy creates recognition.
 - Reason: these are the polluted ICP framing that the Ignition Plan killed. The buyer Cooz is reaching is "the man who's been quietly losing the war with his own body" — not a job title.
 
 ### D3. AI-Tell Bans (added from Parallax feedback 2026-04-05)

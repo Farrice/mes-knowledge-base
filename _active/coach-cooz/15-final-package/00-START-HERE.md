@@ -11,9 +11,10 @@ This folder is everything you need to run the next 90 days. Don't read it all at
 **Read in this order**:
 
 1. **This page** (you're on it).
-2. **`01-THE-IGNITION-PLAN.md`** — Sections 1, 3, 5, 6, 8, 10 first. Skip Section 9 (self-critique) until after we talk.
-3. **`09-COMMITMENT-QUESTIONS.md`** — we run through this together on a 30-min call before you read anything else. 7 questions. Answer each one out loud.
-4. **`07-WEEK-0-CHECKLIST.md`** — your literal Monday morning punch list.
+2. **`04-COOZ-MARCHING-ORDERS.md`** — THE 80/20 ACTION DOC. Read this first. It tells you what to do, when, and in what order. Everything else is the reasoning behind these moves.
+3. **`09-COMMITMENT-QUESTIONS.md`** — we run through this together on a 30-min call. 7 questions. Answer each one out loud.
+4. **`01-THE-IGNITION-PLAN.md`** — Sections 1, 3, 6, 8 first. Skip Section 9 (self-critique) until after we talk. This is the deep reasoning behind the Marching Orders.
+5. **`07-WEEK-0-CHECKLIST.md`** — your literal Monday morning punch list (the Marching Orders also cover this, but the checklist has checkboxes).
 
 Everything else (files starting with `02-`, `03-`, `05-`, `06-`) is internal infrastructure Farrice uses to support the plan. You don't need to read it, but it's there if you want to see what's under the hood.
 
@@ -33,6 +34,7 @@ This is the complete deliverable stack. The Ignition Plan is the document Cooz r
 |---|---|---|---|
 | `00-START-HERE.md` | This file — orientation | Cooz first, Farrice for reference | Day 0 |
 | `01-THE-IGNITION-PLAN.md` | The 14,000-word plan with 10 sections + appendices | Cooz (Sections 1, 3, 5, 6, 8, 10 are the core read) | Day 0 |
+| `04-COOZ-MARCHING-ORDERS.md` | **THE 80/20 ACTION DOC** — what to do, when, in what order. Read FIRST. | Cooz reads and acts on this FIRST | Day 0 |
 | `02-man-in-the-valley-playbook.md` | Unified ICP dossier synthesized from 4-expert swarm | Farrice internal only | Day 0 (Farrice reads before the Cooz call) |
 | `03-cooz-voice-profile.md` | Machine-readable voice DNA for the Cooz Flywheel | Farrice (flywheel operator) | Day 0 |
 | `05-website-design-brief.md` | Full Squarespace rebuild brief + 5 ASCII wireframes + implementation notes | Farrice (or whoever builds the site) | Week 1-2 |
@@ -153,6 +155,8 @@ If the canary dies, stop and go back to the Playbook.
 - [x] Cooz Flywheel Quickstart (operator guide for Farrice)
 - [x] Week 0 Checklist (pre-ship punch list)
 - [x] 7 Commitment Questions (the blocker gate)
+- [x] Cooz Marching Orders (the 80/20 action doc — read FIRST, act FIRST)
+- [x] Verification Report (independent validation from Perplexity + Gemini — 9 of 10 claims verified)
 - [x] 4 complete expert swarm dossiers (Dai Media, Dan Koe, Jun Yuh, Sabri Suby)
 
 **Total**: 9 documents in this folder, 4 dossiers in `avatar-swarm-v2/`, 1 workflow in `.agent/workflows/`, all ready to execute.

@@ -16,7 +16,7 @@
 
 ## THE ONE PARAGRAPH
 
-The Man in the Valley is 32 to 52. He runs his own thing — a shop, a trade, a practice, a crew, a service. He does not call himself a founder. He calls himself "the guy who keeps this thing alive." He has hit his own bottom — occupational, medical, or photographic — and the body he has been ignoring is now the constraint on the work he built. He is pre-optimization in his awareness: he sees his body as a failure and a wound, not as operational data to be hacked. He is drawn to story over credentials because credentials smell like the thing that already failed him. He listens to masculine personal development podcasts alone in his truck. He trusts the body more than he trusts any story he tells himself about the body. He carries an inherited inner critic — usually his father's voice — that taught him *push through*. His body is no longer letting him push through. He is looking for permission to stop performing a version of himself that was installed by the job, the wife, the kids, and the culture — without it meaning he failed. The word he secretly recognizes for that is *resurrection*, and the moment someone finally says it out loud in his register, the sale is made in his head before the price is mentioned. He can pay $2K–$4K. It is a scheduling decision, not a budgeting decision. He is solvent, not rich. He is not a Dan Go buyer. He is not a Daily Body Coach buyer. He is the man those coaches cannot reach because he is earlier in the arc — and Cooz is uniquely positioned to call him in because Cooz lived his version of this exact arc.
+The Man in the Valley is 32 to 52. He runs his own thing — a shop, a trade, a practice, a crew, a service. He does not call himself a founder. He calls himself "the guy who keeps this thing alive." He has hit his own bottom — medical, photographic, occupational, or relational — and the body he has been ignoring is now the constraint on the work he built. He is pre-optimization in his awareness: he sees his body as a failure and a wound, not as operational data to be hacked. He is drawn to story over credentials because credentials smell like the thing that already failed him. He listens to masculine personal development podcasts alone in his truck. He trusts the body more than he trusts any story he tells himself about the body. He carries an inherited inner critic — usually his father's voice — that taught him *push through*. His body is no longer letting him push through. He is looking for permission to stop performing a version of himself that was installed by the job, the wife, the kids, and the culture — without it meaning he failed. He uses words like "rebuild," "get back," "comeback" — never "resurrection." But the emotional territory "resurrection" names is the one he's living in. The brand uses the word. The copy uses his words. He can pay $2K–$4K. It is a scheduling decision, not a budgeting decision. He is solvent, not rich. He is not a Dan Go buyer. He is not a Daily Body Coach buyer. He is the man those coaches cannot reach because he is earlier in the arc — and Cooz is uniquely positioned to call him in because Cooz lived his version of this exact arc.
 
 ---
 
@@ -84,7 +84,7 @@ All four frameworks independently produced the same core findings. This is the s
 - **Physical state at purchase**: the body has become visible to him in a new, punishing way — a photograph he didn't know was being taken, a mirror in a hotel, a scale that errored out, a paramedic, a neurosurgeon's ultimatum, max-dose Advil just to get through a shift.
 
 ### ACTIVITY — what he is literally doing in the 48 hours before purchase
-- **Hour 0 — the trigger event**: occupational, medical, or photographic. Almost never existential. He does not show up at "I want to find my purpose." He shows up at "my body is breaking the work I do."
+- **Hour 0 — the trigger event**: medical (36%), photographic (17%), occupational (12%), or relational (11%). Almost never existential (5%). He does not show up at "I want to find my purpose." He shows up at "my doctor wrote 'obese' on the chart," or "my wife took a photo I didn't know about," or "my body is breaking the work I do," or "my kids sat me down and said 'dad, time to do you.'" Trigger data from 66 documented instances across Reddit, coaching testimonials, and academic literature — independently verified April 2026.
 - **Hours 1–6 — silent rumination**. He does not tell anyone. He finishes the day. *"Nobody talks about it. The silence makes it worse. Because then you think it's just you."* This silence is the most expensive internal move he has to make.
 - **Hours 6–24 — the search**. Phone at midnight. Tabs. He does not search "best transformation coach." He searches the symptom. Reads case studies end to end. Reads them twice.
 - **Hours 24–36 — the podcast phase**. Joe Rogan, Modern Wisdom, Rich Roll, Rich Cooper, Cal Newport. These don't sell him a program. They sell him *a vocabulary for what he's feeling*.
@@ -144,6 +144,43 @@ He is looking for permission to **stop defending a version of himself he never c
 *Resurrection* is the word that grants the permission. Not because it's dramatic. Because it implies *the real him was buried under the performance, and the real him can come back*. He doesn't have to become new. He has to unarchive.
 
 **Pull-quote test**: If a piece of content makes him say *"thank god somebody finally said that"* out loud while reading it alone in his truck, it hit the secret permission. Every other response (agreement, interest, "good post") is a miss.
+
+---
+
+## THE PROVIDER TRAP (the meta-mechanism underneath every objection)
+
+> **Named Phenomenon**: The psychological mechanism by which a man's provider identity — his greatest source of pride — becomes the barrier that prevents him from investing in his own health. He has given so much to everyone else that spending on himself feels like theft from his family. The counter: investing in his body IS the ultimate provider act, because a broken provider can't provide.
+
+This is the single insight that sits UNDER all 6 objection blockers. Every time a Man in the Valley says "I don't have time" (provider guilt disguised as scheduling), "it's too expensive" (provider guilt disguised as budget), "I should do this myself" (provider guilt disguised as self-reliance), or "my wife will roll her eyes" (provider guilt stated directly) — the Provider Trap is the lock.
+
+The key that opens it is NOT a discount. NOT a "you deserve this" message. The key is a reframe: **"A broken provider can't provide. This is the most unselfish thing you'll ever do."**
+
+From the independently verified research (r/daddit, 2026): *"I feel awful and guilty as hell spending money on me."* And: *"Whenever I do buy something just for me, I feel overwhelming guilt and spend time agonizing over what else I could have done with that money."*
+
+**Content deployment**: The Provider Trap should be named directly in Cooz's content — not abstractly, but through I-led confession: *"I spent ten years pouring into every client who walked through my door. I forgot to maintain the engine. The engine is me."* Per Pillar 3 (The Provider Guilt Reframe): language should frame investing in the body as the ULTIMATE provider act, not a selfish detour.
+
+---
+
+## "RESURRECTION" IS BRAND — NOT COPY (verified correction)
+
+Independent verification across 15 Reddit threads in r/fitness30plus, r/loseit, r/AskMenOver30, r/daddit, r/selfimprovement found **zero organic use** of the word "resurrection" by men describing what they want from a body transformation.
+
+**What men actually say** (frequency-ranked from verified research):
+
+| Term | Organic Frequency |
+|---|---|
+| "Get back / get back in shape" | Very high — dominant spontaneous phrase |
+| "Comeback" | High — used freely, no stigma |
+| "Rebuild" | Moderate-high — especially men 40+ |
+| "Transform / transformation" | Moderate — used positively when not paired with shirtless before/after photos |
+| "Reclaim" | Low — copywriter-used, not organic |
+| **"Resurrection"** | **Near zero — faith-based contexts only** |
+
+A 2024 UTS study found men respond to metaphors grounded in **physical health, sports, and machinery** ("recharge your battery," "checking under the hood") — not religious or spiritual metaphors.
+
+**The rule**: "The Resurrection Coach" stays as the brand name — it's memorable, differentiating, and Cooz is non-negotiable on it. But ALL client-facing copy (Instagram posts, DMs, offer page, Triage Audit scripts, warm-network voice memos) should use the buyer's actual language: **"rebuild," "get back," "strongest version," "came back."** The brand name creates intrigue and memorability. The copy creates recognition and trust. Don't ask the buyer to adopt a metaphor he wouldn't use about himself.
+
+**In practice**: Cooz's Instagram bio can say "The Resurrection Coach." His posts should say "I rebuilt myself" and "this is how you get back." The sales page headline can be "The Resurrection Coach" as the brand header; the hero copy underneath says "For men who are ready to rebuild."
 
 ---
 
@@ -359,12 +396,12 @@ The real buyer — validated by Richard Hughes, Patrick Hayes, David Sell, Danie
 ## QUICK REFERENCE — THE 10 THINGS TO REMEMBER
 
 1. **Anchor**: Richard Hughes, 49, massage therapist. Pin everything to him before generalizing.
-2. **Trigger type**: occupational > medical > photographic. Almost never existential.
+2. **Trigger type**: medical (36%) > photographic (17%) > occupational (12%) > relational (11%). Almost never existential (5%).
 3. **Not a founder**. Not an executive. Not a creator. Not high-performer. A guy who runs his thing.
 4. **Income**: $2K–$4K is a scheduling decision, not a budget decision. Solvent, not rich.
 5. **Inner critic**: his father's voice. *Push through*. Cooz counters by being the older brother.
 6. **The secret permission**: let the installed version die without it meaning failure.
-7. **The word that fits**: resurrection. Not transformation. Not comeback.
+7. **The brand word**: resurrection. **The copy words**: rebuild, get back, comeback, strongest version. Resurrection is BRAND, not copy. He doesn't use "resurrection" about himself — but he lives in the emotional territory it names.
 8. **Integration > optimization**: master a quieter version so the rest of the life can get loud again.
 9. **Shame gets the click. Numbness is the enemy.** Hook with shame, dismantle numbness.
 10. **Speak to actual-resonance, not performed-membership.** Hustle-culture language confirms his worst fear.

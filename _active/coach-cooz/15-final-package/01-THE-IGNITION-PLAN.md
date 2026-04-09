@@ -395,6 +395,12 @@ When a post lands and someone DMs (or comments "Resurrection" or any of Cooz's c
 
 3 founding clients at $1,997 requires roughly 30–40 qualified DM conversations. 30–40 conversations requires roughly 150–300 qualified Instagram signals (profile visits, DMs, comments). Sheedy's mid-list posts (200–500 likes per post on a small-but-engaged account) produce roughly 5–15 qualified signals per post. Cooz needs 12–15 high-quality posts in 90 days to manufacture enough signal volume to close the founding cohort through Instagram alone. He will not do it on Instagram alone, which is why Section 6 exists. But the math is the math.
 
+### Channel rebalancing note (from independent verification, April 2026)
+
+Independent research confirmed that **69–84% of personal training clients come through word-of-mouth referrals** (Insurance Canopy 2025, Athletech News). Of trainers working with **clients 46+**, only **29% use social media** for client recruitment versus **81%** for under-45 clients. Google search and YouTube are stronger discovery channels for men 35–50 than Instagram. Facebook outperforms Instagram for the 40–52 demographic.
+
+**What this means for the Ignition Plan**: Instagram is where the brand LIVES. It is NOT the primary acquisition channel. The acquisition happens through warm-network referrals (Tactic 1), podcast guesting (Tactic 3), YouTube presence (Cooz's most consistent existing channel), and free audits (Tactic 4). The Instagram content engine builds the proof stack and shelf presence so that when a referral or podcast listener lands on Cooz's Instagram, the proof is there. But the close comes from the human-to-human channels, not from Instagram reach. Do not measure the content engine's success by follower count or likes. Measure it by whether a referred prospect who visits the Instagram profile books a Triage Audit.
+
 ---
 
 ## Section 6 — The First Client Acquisition Playbook
