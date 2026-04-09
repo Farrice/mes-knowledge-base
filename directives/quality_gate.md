@@ -146,8 +146,8 @@ This is how the ratchet accumulates data. Without logging, the system cannot det
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-09 (chain_runner finalize for andreessen-horowitz-new-media) |
-| **Activation Count** | 87 |
+| **Last Activated** | 2026-04-09 (chain_runner finalize for grace-andrews-media-company) |
+| **Activation Count** | 89 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (3-point check on any output), update the "Last Activated" date and increment the count.
