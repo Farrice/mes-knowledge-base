@@ -1,0 +1,18 @@
+{
+  "skill": "oren-operational-systems",
+  "workflow": "team-operations-infrastructure",
+  "hypothesis": "Add Adoption Friction Inversion (Phase 0) — engineer systems easier to use than skip",
+  "aspect": "Adoption resilience — preventing system abandonment after initial rollout",
+  "baseline_score": {"intent": 7, "expert": 7, "adversarial": 5, "composite": 6.3},
+  "variant_score": {"intent": 9, "expert": 8, "adversarial": 8, "composite": 8.3},
+  "delta": 2.0,
+  "result": "KEPT",
+  "benchmark_task": "Design operational systems for Authority Flywheel that the team actually uses after week 2",
+  "changes": [
+    "Added Phase 0: Adoption Friction Inversion with 4 sub-steps (Bypass Inventory, Friction Inversion Design, Early Win Engineering, Decay Detection Triggers)",
+    "Added 3 output contract items (Adoption Friction Map, Week 1 Win Statement, Decay Detection Dashboard)",
+    "Added Bypass Test to quality gate"
+  ],
+  "key_insight": "Current workflow assumed adoption — built perfect systems with zero mechanism for what happens Day 15 when texting is faster than the tracker. Friction Inversion forces every component through a seconds-measurement bypass test before shipping.",
+  "timestamp": "2026-04-09T13:45:00Z"
+}
