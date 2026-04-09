@@ -83,6 +83,8 @@
 | 2026-04-09 | nicolas-cole-newsletter-flywheel | Add Serial Investment Architecture to Newsletter Flywheel | KEPT | 7.0→8.3 (+1.3) | 5 mechanics (Conceptual Deposit, Belief Escalation, Identity Ratchet, Callback Yield, Incomplete Transfer). Each edition compounds reader investment. Powers Parallax. |
 | 2026-04-09 | bond-halbert-copywriting | Add Scroll Momentum Architecture to Velocity-Optimized Sales Copy | KEPT | 7.0→8.3 (+1.3) | Fold-level velocity-locks (Incomplete Transfer, Micro-Action, Pattern Break, Anxiety Anchor, Section-Entry Independence). DR power preserved, digital survival added. Adversarial +2. |
 | 2026-04-09 | steven-pressfield-narrative-mastery | Add Narrative Debt Architecture to Sales Narrative Engine | KEPT | 7.3→9.0 (+1.7) | Phase 0 debt chain: Tension Deposits, Inheritance Chain, Partial Resolution Hooks, Accumulation Marker, Compound Payoff. Transforms sequential phases into compounding narrative. Each sentence makes ending more inevitable. |
+| 2026-04-09 | donald-miller-storybrand | Add Specificity Excavation Layer to BrandScript Generator | KEPT | 6.6→9.0 (+2.4) | Step 0 reconstructs customer's private world (vocabulary, friction scenes, identity gap, competitor jealousy) before SB7 slot-filling. Villain specificity +4. Largest delta yet. |
+| 2026-04-09 | rory-sutherland-marketing | Add Reframe Stress Test to Psychological Brand Strategy Blueprint | KEPT | 6.3→8.3 (+2.0) | 3 behavioral prediction filters (Identity Congruence, Comparison Frame Prediction, Implementation Clarity Gate). Bridges gap between clever reframe and deployable positioning. Adversarial +3. |
 
 ---
 
@@ -101,7 +103,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 10 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 12 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
