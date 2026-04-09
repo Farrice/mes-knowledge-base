@@ -106,6 +106,43 @@ Produce a problem articulation script:
 **NDA Deflection** (when they ask for proof):
 *"As a ghostwriter, my work is confidential. I'm not at liberty to share who I work with. However, I can tell you I've worked with people just like you — and if you have specific questions about the service, I'm happy to answer them."*
 
+---
+
+### Strategy 6: Conversion Sequence Architecture (Content Funnel Design)
+
+**The Principle**: Standalone content pitches are coin flips — each post independently hopes to convert. A conversion sequence is a ratchet — each post creates a psychological state that makes the NEXT post land harder, until the reader initiates the conversation themselves. The reader never feels "sold to" because each post delivers genuine value. The sequence does the selling.
+
+**The Two Content Types** (every topic is one or the other):
+
+| Type | Purpose | Topic Signature | Example |
+|------|---------|----------------|---------|
+| **Follow-Drivers** | Expand audience, build authority | Industry-wide problems, pattern recognition, contrarian takes on common advice | "Why most [industry] content strategies fail" |
+| **DM-Drivers** | Convert existing followers to conversations | Personal pain, specific situations, "this is about ME" recognition | "If your LinkedIn posts get likes but zero inbound leads, here's what's actually broken" |
+
+**The rule**: Follow-Drivers cast a wide net. DM-Drivers pull the net tight. A sequence alternates strategically — never 3 Follow-Drivers in a row (audience grows but nobody converts) and never 3 DM-Drivers in a row (converts but pool shrinks).
+
+**The 5-Post Conversion Sequence Framework**:
+
+Each post maps to a psychological stage. The reader cannot skip stages — each one builds the precondition for the next.
+
+| Post # | Stage | Reader Psychology | Content Move | Type |
+|--------|-------|-------------------|-------------|------|
+| 1 | **Problem Exposure** | "I didn't realize this was a problem" | Name a problem the audience experiences but hasn't articulated. Use Cole's problem articulation dominance — describe their situation with more precision than they could. Do NOT mention your service. | Follow-Driver |
+| 2 | **Self-Diagnosis** | "Wait — that's exactly me" | Give the reader a diagnostic they can run on themselves. A checklist, a question sequence, a "if you see X, Y, and Z, you have this problem." The reader categorizes themselves INTO the problem. | DM-Driver |
+| 3 | **Solution Education** | "So THAT'S how this gets fixed" | Educate on the solution framework — not your service, the underlying approach. Show the mechanism. Be generous enough that a DIYer could attempt it. This filters: serious prospects realize they need help executing; tire-kickers self-select out. | Follow-Driver |
+| 4 | **Proof of Concept** | "This person actually does this" | Deploy CMO-for-a-Day or a real case example. Show the solution applied to a specific situation. If no client examples exist, use Guinea Pig Positioning — show your own before/after. The reader sees the gap between knowing and executing. | DM-Driver |
+| 5 | **Low-Friction Initiation** | "I should just ask" | Create an obvious, low-commitment entry point. Not "hire me" — "reply with [X] and I'll send you [specific thing]" or "DM me [word] and I'll do a quick audit." The reader has been primed through 4 posts to see the problem, diagnose themselves, understand the solution, and see proof. The DM is the natural next step, not a leap. | DM-Driver |
+
+**Sequence Design Protocol** (when building a 5-post sequence):
+
+1. **Start with the conversion action** — what DM or conversation do you want? Work backward.
+2. **Identify the belief chain** — what must someone believe before they'd send that DM? Each post installs one belief.
+3. **Topic-test each post** — ask "does this make someone follow me (broad) or message me (specific)?" Assign type accordingly.
+4. **Check the ratchet** — does Post 3 land harder BECAUSE of Posts 1 and 2? If Post 3 works equally well as a standalone, the sequence isn't sequencing.
+5. **Time the sequence** — 2-3 posts per week. Full sequence = ~2 weeks. The reader needs time to absorb each stage. Posting all 5 in 5 days kills the psychological progression.
+
+**What makes this different from a "content calendar"**: A content calendar organizes topics by date. A conversion sequence organizes topics by psychological progression. The calendar asks "what should I post Tuesday?" The sequence asks "what must the reader believe before Post 4 lands?"
+
 ## Output
 
 For the user's specific situation, produce:
@@ -114,6 +151,7 @@ For the user's specific situation, produce:
 3. **Templates**: Outreach scripts, follow-up sequences, and call talk tracks customized to their service
 4. **Psychology Briefing**: Personalized Idiot-Genius Roller Coaster management plan — what to expect and how to handle it
 5. **Success Metrics**: Clear 7-day, 14-day, 30-day milestones
+6. **Conversion Sequence Map** (if Strategy 6 is ranked): Complete 5-post sequence with topic, type assignment, belief each post installs, and timing
 
 ## Creative Latitude
-These five strategies aren't sequential — they're combinable. A savant deploys 2-3 simultaneously. A free custom sample that becomes a pitch-in-public post that leads to a sales call where you educate the client — that's the compound play.
+These six strategies aren't sequential — they're combinable. A savant deploys 2-3 simultaneously. A free custom sample that becomes a pitch-in-public post that leads to a sales call where you educate the client — that's the compound play. Strategy 6 (Conversion Sequence) is the compound play systematized — it turns Pitch in Public from individual swings into a deliberate funnel.
