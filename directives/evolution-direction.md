@@ -96,6 +96,8 @@
 | 2026-04-09 | lulu-cheng-meservey-communications | Add Behavioral Commitment Architecture to Founder Narrative workflow | KEPT | 7.0→8.0 (+1.0) | 5 commitment mechanics (Self-Test, Micro-Declaration, Sunk Cost Seed, Private Litmus, Identity Threshold). Bridges gap between naming what people feel and changing what people do. Adversarial +2. |
 | 2026-04-09 | luke-iha-creative-strategy | Add Category Pattern Disruption layer to Creative Strategy Brief | KEPT | 7.0→8.3 (+1.3) | Phase 2.5: Category Creative Inventory, Pattern Convergence Map, Disruption Candidates, uncopiability test. Maps how category LOOKS/FEELS/MOVES, not just what it says. Adversarial +2. |
 | 2026-04-09 | dai-media-consumer-posture | Add Decision Trigger Mapping to Consumer Identity Discovery Blueprint | KEPT | 7.0→8.7 (+1.7) | 5 trigger mechanics (Identity Confirmation Threshold, Permission Structure, Environmental Catalyst, Cost-of-Inaction Crystallization, Social Proof Alignment Check). Bridges posture-to-purchase gap. Copy-actionable synthesis paragraph. Adversarial +2. |
+| 2026-04-09 | mitch-albom-writing-mastery | Add Emotional Frequency Selection to High-Density Manuscript Polish | KEPT | 7.3→8.3 (+1.0) | Phase 0: 3 frequencies (Recognition, Revelation, Catharsis) + Mirror/Window test + Manipulation Check. Tunes emotional register before writing begins. Recognition = naming what reader already feels. Baseline told reader about tragedy; variant made reader recognize their own. |
+| 2026-04-09 | ward-farnsworth-rhetorical-mastery | Add Emotional State Matching (Phase 0) to Visceral Persuasion Bridge | KEPT | 6.0→8.3 (+2.3) | Reader State Diagnosis, Device-to-State Map (5 states to 5 devices), Intensity Calibration (one device per section, 60/40 rule, Pub Test). Rhetoric becomes invisible -- devices serve emotional moments instead of showcasing technique. Adversarial +3. |
 
 ---
 
@@ -114,7 +116,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 22 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 24 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
