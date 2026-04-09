@@ -144,6 +144,20 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 *   **The "Architect or Victim?" Check-in**: At the start of a challenging day or project, consciously asks, "Am I operating from an 'architect' mindset (I can design my circumstances) or a 'victim' mindset (circumstances control me)?" and then chooses to embody the architect.
     → **Deploy when**: Feeling stuck, facing a major decision, or needing a mindset shift.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Temporal Cost Accounting (Strategic Clarity Engine)
+- **Hypothesis**: Adding a "Temporal Cost Accounting" phase between obstacle triage and positioning lock will force users to calculate what delay is already costing them — in trust ungained, identity unearned, and compounding unlocked — making Godin's timeless philosophy produce time-bound action.
+- **Result**: KEPT — Score improved from 6.3 to 8.0 (+1.7)
+- **Change**: Added Phase 3.5 with three cost dimensions (Trust Ungained, Identity Unearned, Compounding Unlocked) + Honest Deadline derivation. First Generous Act deadline now emerges from cost analysis, not arbitrary 48-hour rule.
+- **Benchmark scores**: Current [7, 7, 5] → Variant [8, 8, 8]
+- **Lesson**: Godin's philosophy is uniquely vulnerable to "beautiful inaction" because every insight is eternally true. Temporal Cost Accounting uses Godin's own Pattern 13 (action-first identity) and Tacit Knowledge 5 (Safe Hiding Place) as a mirror that shows the cost of waiting. The biggest jump was Adversarial Resilience (+3) — the variant survives "this is just another positioning document" criticism.
+
+---
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                          | Score 7 (Good)                                                    | Score 10 (Savant)                                                               |
