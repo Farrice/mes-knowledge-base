@@ -247,8 +247,8 @@ log_output(
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-09 (chain_runner finalize for daniel-priestley-oversubscribed) |
-| **Activation Count** | 85 |
+| **Last Activated** | 2026-04-09 (chain_runner finalize for jeremy-miner-identity-persuasion) |
+| **Activation Count** | 88 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (performance logged after any output), update the "Last Activated" date and increment the count.
