@@ -72,6 +72,7 @@
 
 | Date | Skill | Hypothesis | Result | Score Delta | Notes |
 |------|-------|-----------|--------|-------------|-------|
+| 2026-04-09 | alex-content-science | Add Content-Market Fit Prediction layer to Competitor Intelligence System | KEPT | 6.0→8.3 (+2.3) | 5-dimension CMF scoring model (Demand Density, Competition Vacuum, Tension Potential, Principle Density, Timing Fit) + demand signal extraction from comments + post-publication feedback loop with self-correcting weights. Transforms reactive gap-finding into predictive content intelligence. Intent +3, Adversarial +3. |
 | 2026-04-09 | lara-acosta-linkedin-mastery | Add Phase 4b Proof Layer Audit + adversarial quality gate checks | KEPT | 7.8 → 8.3 (+0.5) | First evolution cycle. Targets adversarial resilience. |
 | 2026-04-09 | kallaway-word-mastery | Add Emotional Stakes Architecture to Grip & Tension Engine | KEPT | 8.3 (tie, qualitative win) | 5 stakes mechanics (Personal Mirror, Cost Made Concrete, Belief Collision, Near-Miss Story, Identity Bridge). Reader becomes protagonist. |
 | 2026-04-09 | nicolas-cole-sentence-craft | Add Sentence Demand Architecture to Terminal Power & Rhythm Engineering | KEPT | 8.3 (tie, 43% vs 32% compression) | 5 demand mechanics (Incomplete Transfer, Expectation Violation, Specificity Spike, Reversal Bridge, Compression Cliffhanger) + Energy Crescendo Mapping. |
