@@ -3,7 +3,7 @@ name: "Robert Mack: Comedy Writing Mastery"
 description: "Deploy professional comedy mechanics across marketing, social media, presentations, and creative content — turning observations into engineered laughs. Includes domain application system, LinkedIn comedy engine, and voice layer integration."
 version: "3.0"
 format: "completion-engine"
-workflows: 7
+workflows: 8
 prompts: 30
 domain-applications: 10
 ---
@@ -25,6 +25,7 @@ Extracted from Robert Mack's deep-dive podcast with David Perell on "How I Write
 | voice | [Comedy Voice Layer](workflows/comedy-voice-layer.md) | Comedy-enhanced content | You want to activate comedy intelligence as a writing style overlay on any existing content |
 | domain | [Domain Application Deployment](workflows/domain-application-deployment.md) | Domain-specific comedy strategy | You want to apply comedy mechanics to a specific business domain (copywriting, positioning, virality, etc.) |
 | linkedin | [LinkedIn Comedy Engine](workflows/linkedin-comedy-engine.md) | Algorithm-optimized LinkedIn content with comedy intelligence | You need LinkedIn posts that are both emotionally resonant and engagement-optimized |
+| authority | [Authority-Comedy Calibration](workflows/authority-comedy-calibration.md) | Comedy that amplifies authority rather than diluting it | You need humor in professional/authority contexts where credibility matters |
 
 ## Domain Applications (DA-1 through DA-10)
 
