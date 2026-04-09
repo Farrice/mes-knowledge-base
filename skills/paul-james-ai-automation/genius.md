@@ -190,3 +190,15 @@ Tacit insights for zero-cost workflow monetization.
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+---
+
+## Evolution Log
+
+### Evolution 1 — Pre-Build Value Verification Protocol (2026-04-09)
+**Hypothesis**: Adding a build/no-build decision gate (Phase 0) before architecture design will prevent automation-for-automation's-sake and produce more value-verified outputs.
+**What changed**: `workflows/zero-cost-solution-architecture.md` — added Phase 0 with four steps: Baseline Measurement, ROI Forecast, Compound Value Test, Success Metric Lock. Strictly additive; no existing content modified.
+**Benchmark task**: "Design the automation stack for Authority Flywheel — which processes to automate first and expected ROI"
+**Result**: Baseline composite 6.7 (Intent 7, Expert 7, Adversarial 6) → Variant composite 9.0 (Intent 9, Expert 9, Adversarial 9). Delta: +2.3.
+**Key insight**: Pattern 4 (Time-Recovery Value Prop) was only used as a sales technique. Elevating it to a structural gate — where low-ROI automations get killed before design begins — makes the entire downstream workflow more focused and credible.
+**Verdict**: KEPT.
