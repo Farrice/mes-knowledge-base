@@ -247,8 +247,8 @@ log_output(
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-09 (chain_runner finalize for sam-goddard-media-scaling) |
-| **Activation Count** | 116 |
+| **Last Activated** | 2026-04-09 (chain_runner finalize for tyler-denk-audience-monetization) |
+| **Activation Count** | 123 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (performance logged after any output), update the "Last Activated" date and increment the count.

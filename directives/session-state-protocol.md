@@ -215,7 +215,7 @@ These items can be safely compressed:
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-04-09 (chain_runner session checkpoint) |
-| **Activation Count** | 103 |
+| **Activation Count** | 110 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (checkpoint written to `.agent/session-state.md`), update the date and increment count.
