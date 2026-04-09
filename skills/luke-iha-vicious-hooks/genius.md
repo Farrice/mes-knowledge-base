@@ -194,3 +194,13 @@ Before writing any hook, answer these diagnostic questions:
 | **Anti-Ad Authenticity** | Hook reads like good marketing copy — polished, purposeful, clearly selling something. | Hook could pass as organic content in most contexts, but a cynical reader might suspect an ad. | Indistinguishable from a confession, piece of gossip, or breaking personal revelation. Cover the brand name and nobody can tell it's an ad. |
 | **Caveman Language** | Most words are simple but 2-3 multi-syllable or Latinate words create friction. | Consistently simple and earthy, readable by a 12-year-old, with rare exceptions. | A caveman could grunt-translate every word. Monosyllabic where possible. Anglo-Saxon roots throughout. Zero cognitive friction. |
 | **Specificity** | Hook uses general claims or round numbers that feel manufactured. | Includes 1-2 concrete details that ground the hook in reality ("26 years," "guest bedroom"). | Specific details are the TELLING details — each one does double duty as both grounding AND emotional charge, making the story feel undeniably true. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Vicious Hook Writer: Identity Infiltration Architecture
+- **Hypothesis**: Adding Identity Infiltration Architecture (5 mechanics: Private Behavior Call, Unsaid Thought, Gap Exposure, Ritual Naming, Time-Stamp Specificity) between relevance selection and hook writing would produce hooks that feel personally targeted rather than broadly relevant.
+- **Result**: KEPT — 6.67 → 8.0 (+1.33 composite). Adversarial Resilience jumped +2 (6→8). Variant hooks name what the reader DID last Tuesday, not just what category of problem they have.
+- **Change**: Added Phase 1.5 (Identity Infiltration Diagnostic) with 5 IM mechanics, new scoring dimension (Identity Resonance), new quality gate check (Infiltration Check).
+- **Lesson**: Hooks that name private behaviors ("11pm rewriting your bio again") are uncopyable and unfakeable. They demonstrate understanding at a level that builds instant trust. The gap between "topic-level" hooks and "experience-level" hooks is the gap between stopping the scroll and making someone screenshot it.

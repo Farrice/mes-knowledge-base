@@ -75,6 +75,11 @@
 | 2026-04-09 | lara-acosta-linkedin-mastery | Add Phase 4b Proof Layer Audit + adversarial quality gate checks | KEPT | 7.8 → 8.3 (+0.5) | First evolution cycle. Targets adversarial resilience. |
 | 2026-04-09 | kallaway-word-mastery | Add Emotional Stakes Architecture to Grip & Tension Engine | KEPT | 8.3 (tie, qualitative win) | 5 stakes mechanics (Personal Mirror, Cost Made Concrete, Belief Collision, Near-Miss Story, Identity Bridge). Reader becomes protagonist. |
 | 2026-04-09 | nicolas-cole-sentence-craft | Add Sentence Demand Architecture to Terminal Power & Rhythm Engineering | KEPT | 8.3 (tie, 43% vs 32% compression) | 5 demand mechanics (Incomplete Transfer, Expectation Violation, Specificity Spike, Reversal Bridge, Compression Cliffhanger) + Energy Crescendo Mapping. |
+| 2026-04-09 | harry-dry-copywriting | Add Moment-of-Encounter Simulation to Landing Page Blueprint | KEPT | 8.2→8.5 (qualitative) | Reader-state reconstruction produces headlines that name private frustrations, not category benefits. Conflict Architecture 7→9. |
+| 2026-04-09 | luke-iha-vicious-hooks | Add Identity Infiltration Architecture to Vicious Hook Writer | KEPT | 6.67→8.0 (+1.33) | 5 IM mechanics for naming private behaviors, unsaid thoughts, public/private gaps. Biggest adversarial jump (+2). |
+| 2026-04-09 | lara-acosta-content-system | Add Signal-to-Pivot Feedback Loop to Authority Strategy Blueprint | KEPT | 31→39/50 (+25.8%) | Signal Classification, Adaptation Moves, One-Variable Rule. Turns static plans into living systems. |
+| 2026-04-09 | oren-taste-development | Add Decision Pressure Architecture to Taste-Led Brand Authority | KEPT | 6.3→8.3 (+2.0) | Tradeoff matrix, calibration protocol, pressure inoculation scripts, taste-to-revenue bridge. Largest delta. |
+| 2026-04-09 | chris-cimorelli-copywriting | Add Consumer Posture Translation Layer to Front-End Promotion | KEPT | 7.0→8.3 (+1.3) | Phase 0 builds linguistic palette from Dai Media consumer posture. Identity Resonance 5→9. Cross-pollination with dai-media skill. |
 
 ---
 
@@ -93,7 +98,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 3 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 8 |
 | Cross-Pollination (Phase 3) | WAITING | Never | 0 |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |

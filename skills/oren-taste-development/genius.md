@@ -158,3 +158,13 @@ True taste evaluates quality with brand and price tags removed. Most "taste" is 
 | **Stakes & Care Integration** | Presents information or advice without prompting active engagement or critical reflection. | Encourages reflection and personal opinion, but doesn't explicitly link it to "stakes" or "care." | Challenges the audience to engage critically, articulate their opinions, and explicitly frames "care" and intellectual discourse as the ultimate virtues of taste development, with implied social stakes. |
 | **Connoisseurship Progression** | Offers a single level of advice or a flat product/service. | Provides distinct tiers or levels of engagement, but the progression may not feel like an intentional "game" or clear path. | Structures knowledge, offers, or experiences as a clear, compelling "video game of taste" progression, where each level requires more knowledge/investment and grants access to greater insight/exclusivity. |
 | **Abundance-Waste Signaling** | Focuses on direct value exchange, emphasizing features and benefits for the price. | Offers some free value, but it feels like a lead magnet rather than pure generosity. | Demonstrates a casual generosity by giving away high-value insights, frameworks, or time without expectation, signaling a premium level of operation where resources are abundant. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Taste-Led Brand Authority: Decision Pressure Architecture
+- **Hypothesis**: Adding Decision Pressure Architecture (tradeoff stress-testing, calibration mechanics, pressure inoculation scripts) and Taste-to-Revenue Bridge would make taste development survive real business pressure rather than remaining philosophical.
+- **Result**: KEPT — 6.3 → 8.3 (+2.0). Adversarial Resilience 5→8 (+3). Largest improvement of any evolution cycle.
+- **Change**: Added Phase 2.5 (Decision Pressure Architecture with tradeoff matrix, decision thresholds, calibration protocol with falsification triggers, pressure inoculation scripts) and Phase 4.5 (Taste-to-Revenue Bridge with premium attribution map, anti-revenue audit, 6-month tracking template).
+- **Lesson**: Taste frameworks that can't survive "does this make money?" are decoration. The tradeoff matrix forces every principle to confront its cost — and the principles that survive with explicit costs documented are 10x more defensible than principles that were never tested. Executives stress-test everything; a manifesto without pressure testing is a pitch deck that falls apart in Q&A.
