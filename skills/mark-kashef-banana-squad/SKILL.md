@@ -3,7 +3,7 @@ name: "Mark Kashef — Banana Squad Image Agent Team"
 description: "AI-powered image generation via multi-agent orchestration using the PaperBanana framework + Gemini 3 Pro API"
 version: "2.0"
 format: "completion-engine"
-workflows: 2
+workflows: 3
 ---
 
 # Mark Kashef — Banana Squad Image Agent Team
@@ -16,6 +16,7 @@ A deployable Claude Code agent team ("Banana Squad") that generates professional
 |---|---------|----------|----------|
 | banana | [Banana Squad System Deployment & Quality Tuning](workflows/banana-squad-system-deployment.md) | A fully configured multi-agent image generation environment with calibrated quality thresholds | Initializing the agentic pipeline in Claude Code and setting the performance benchmarks for the Critic agent |
 | style | [Style-Driven Visual Asset Production](workflows/style-driven-visual-production.md) | A set of high-fidelity images or infographics matching a specific visual DNA | Recreating a specific aesthetic from reference images or producing editorial-grade data visualizations |
+| lattice | [Peer-to-Peer Value Lattice](workflows/peer-value-lattice.md) | A self-sustaining community architecture where member output becomes member input | Designing community roles and rituals that compound belonging without perpetual facilitation |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
