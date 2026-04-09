@@ -31,6 +31,18 @@
 *   **The "System Over Outcome" Reframing**: Shifts the focus from achieving a grand, distant goal to consistently executing a tiny, repeatable process that naturally leads to desired outcomes over time. → **Deploy when**: The user is fixated on a daunting end-goal and struggling with motivation, consistency, or feeling overwhelmed by the scale of ambition.
 *   **The "Minimum Viable Action" Prompt**: Challenges the user to identify and commit to the absolute bare minimum action they can take *today* to move forward, rather than waiting for ideal conditions or resources. → **Deploy when**: The user is stuck in planning, research, waiting for external validation, or seeking "the perfect moment."
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Diagnostic Action Sequencing (First-Dollar Execution Roadmap)
+- **Hypothesis**: Adding a Phase 1.5 that classifies actions as SIGNAL (produces learning) vs BUILD (produces infrastructure) and sequences signals before builds will produce more strategically precise launch plans. Actions become an information dependency graph, not a generic timeline.
+- **Result**: KEPT — Score improved from 5.7 to 8.3 (+2.6)
+- **Change**: Added Phase 1.5 (Diagnostic Action Sequencing) with 5 steps: Action Classification (SIGNAL vs BUILD), Uncertainty Stack Ranking (Plan-Changing > Direction-Changing > Optimization), Minimum Viable Signal design, Dependency Mapping, and Signal Calendar. Updated Phase 4 to be signal-sequenced rather than time-sequenced. Added Signal-Before-Build Test and Dependency Test to Quality Gate. Added Signal Map to Output Contract.
+- **Lesson**: Action bias's weakness is treating all actions as equally valuable. The fix isn't slowing down — it's ordering actions by information yield. "Do something" becomes "do THIS because it tells you whether THAT is worth doing." The dependency graph transforms velocity into trajectory without sacrificing speed.
+- **Benchmark scores**: Current [6, 6, 5] → Variant [9, 8, 8]
+
 ## Expert-Specific Quality Rubric
 
 | Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
