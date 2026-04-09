@@ -31,17 +31,18 @@
 | [erosion-not-revision](workflows/erosion-not-revision.md) | `/wt-erosion` | Refine drafts through subtractive re-reading |
 | [universal-specific-bridge](workflows/universal-specific-bridge.md) | `/wt-universal` | Make hyper-specific details resonate universally |
 | [emotional-residue-engineer](workflows/emotional-residue-engineer.md) | `/wt-residue` | Engineer the moment that "stays with" the reader |
+| [emotional-pressure-map](workflows/emotional-pressure-map.md) | `/wt-pressure` | Design emotional dynamics across sections — pressure curve, carry mechanisms, false rests |
 
 ## Stacking Guide
 
 ### End-to-End Story Build (Full Pipeline)
 ```
-/wt-complication → /wt-myth-gap → /wt-hammer → /wt-second-section → /wt-scenes → /wt-interiority → /wt-details → /wt-residue
+/wt-complication → /wt-myth-gap → /wt-hammer → /wt-pressure → /wt-second-section → /wt-scenes → /wt-interiority → /wt-details → /wt-residue
 ```
 
 ### Profile Writing (Core Path)
 ```
-/wt-complication → /wt-interiority → /wt-hammer → /wt-details
+/wt-complication → /wt-interiority → /wt-hammer → /wt-pressure → /wt-details
 ```
 
 ### Draft Repair
@@ -73,6 +74,7 @@
 - **You have scenes but they feel disconnected** — Run Thematic Compass
 - **You have a good piece but the ending doesn't land** — Run Hammer-First (even retroactively)
 - **You want the piece to haunt the reader** — Run Emotional Residue Engineer
+- **Your piece maintains one emotional level** — Run Emotional Pressure Map (after Hammer-First)
 
 ### Thompson vs. Roth — When to Choose
 
