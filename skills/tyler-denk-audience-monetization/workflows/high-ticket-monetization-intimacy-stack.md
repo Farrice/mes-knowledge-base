@@ -50,6 +50,24 @@ Codify the `[FOUNDER_VOICE]` into a scalable system. You are building a **Founde
     - **Scenario B: The Social Mention**: A response to a tag on `[PLATFORM]`.
     - **Scenario C: The High-Value Lead**: A response to someone who answered "VP/C-Suite" in the Phase 2 survey.
 
+### Phase 4.5: Subscriber Value Staging (Lifecycle Monetization Layer)
+Design the behavioral classification system that determines WHEN each subscriber receives WHICH monetization touch. This prevents the two LTV killers: premature monetization (pitching a mastermind to someone who opened 2 emails) and under-monetization (treating a Champion like a casual reader).
+
+1. **Stage Classification Signals**: Define the observable engagement thresholds for each stage:
+   - **Stage 1 — Warming** (Weeks 1-4, <40% open rate): Pure value delivery only. No sponsor CTAs, no product pitches. Goal: build the reading habit.
+   - **Stage 2 — Engaged** (4+ weeks, >50% open rate, 1+ click): Introduce sponsor content, activate referral prompts. Subscriber has proven they consume — now they can amplify.
+   - **Stage 3 — Invested** (8+ weeks, >60% open rate, 2+ replies or referrals, survey completed): Direct product offers, premium community invitations, exclusive content tiers. This subscriber has given signals of deep trust.
+   - **Stage 4 — Champion** (12+ weeks, >70% open rate, 3+ referrals, has replied or engaged on social): High-ticket invitations only — masterminds, consulting, co-creation opportunities. These are the 2% who drive 40% of revenue.
+
+2. **Stage-Gated Monetization Rules**: Map each revenue stream to its minimum stage:
+   - Sponsor exposure: Stage 2+
+   - Referral program activation: Stage 2+
+   - Digital product offers: Stage 3+
+   - High-ticket offers (mastermind, consulting): Stage 4 only
+   - Re-engagement sequence trigger: Any subscriber dropping below their current stage thresholds for 3 consecutive issues
+
+3. **Churn Prevention Tripwire**: Design a 3-email "Value Surge" sequence that fires when a Stage 2+ subscriber shows regression signals (2 consecutive unopened, or 30-day click drought). The sequence delivers the highest-performing back-catalog content — no asks, no monetization, pure value re-delivery. Goal: arrest the slide before the subscriber ghosts.
+
 ### Phase 5: The VA Execution & Escalation Protocol
 Create the operational guidelines for a Virtual Assistant to manage the **Intimacy Stack** without the founder's manual labor.
 - **The Triage Workflow**: How to scan replies and social mentions daily.
@@ -59,14 +77,16 @@ Create the operational guidelines for a Virtual Assistant to manage the **Intima
 ## Output Contract
 1. **B2B Intelligence Survey**: 4 specific questions with multiple-choice options optimized for sponsor data.
 2. **Media Kit "Kill Shot" Copy**: A 3-paragraph "Why Us" section for sponsors based on the data capture.
-3. **Automated Authenticity Matrix**: 3 response templates in the founder's voice with "humanization" placeholders.
-4. **VA Standard Operating Procedure (SOP)**: A 5-step daily workflow for managing intimacy at scale.
+3. **Subscriber Value Stage Map**: 4-stage classification with signal thresholds, monetization rules per stage, and churn prevention tripwire sequence outline.
+4. **Automated Authenticity Matrix**: 3 response templates in the founder's voice with "humanization" placeholders.
+5. **VA Standard Operating Procedure (SOP)**: A 5-step daily workflow for managing intimacy at scale.
 
 ## Quality Gate
 1. **The "One-of-One" Test**: Could a generic AI or a competitor send these responses? (If yes, rewrite for more specific founder narrative).
 2. **The "Sponsor Value" Test**: Does the survey capture at least one data point that directly relates to the `[TARGET_SPONSORS]`' sales criteria?
 3. **The "Friction" Test**: Is the survey 4 questions or fewer? (Anything longer kills the conversion rate).
 4. **The "Intimacy" Test**: Do the automated scripts avoid corporate jargon and sound like a text from a peer?
+5. **The "Timing" Test**: Does every monetization touch have a minimum stage gate? If a high-ticket offer could reach a Stage 1 subscriber, the staging system has failed.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
