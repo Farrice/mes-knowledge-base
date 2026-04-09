@@ -93,6 +93,7 @@
 | 2026-04-09 | luke-iha-million-dollar-mechanisms | Add Process Autopsy Protocol to Mechanism Discovery Engine | KEPT | 6.0→8.3 (+2.3) | Phase 1.5: Method Decomposition, 4 Proprietary Edge lenses (Counterintuitive Step, Invisible Step, Sequence Dependency, Client Inflection Point), competitor-claim gate. Mechanisms grounded in actual process, not category abstraction. Adversarial +3. |
 | 2026-04-09 | kallaway-content-psychology | Add Resonance Prediction & Signal Feedback to Strategic Market Architecture | KEPT | 7.3→8.7 (+1.4) | 5 resonance indicators, falsifiable predictions, signal reading protocol, adaptation triggers. Largest genius file (868 lines). Turns static strategy into self-correcting system. Adversarial +2. |
 | 2026-04-09 | nicolas-cole-niche-positioning | Add Compounding Signal Analysis to Specificity Drill | KEPT | 6.3→8.3 (+2.0) | 5 compounding signals (Referral Density, Problem Recurrence, Expertise Accumulation, Authority Snowball, Adjacent Expansion). Scores niche /15. Transforms "is this specific enough?" into "will this compound?" Adversarial +3. |
+| 2026-04-09 | lulu-cheng-meservey-communications | Add Behavioral Commitment Architecture to Founder Narrative workflow | KEPT | 7.0→8.0 (+1.0) | 5 commitment mechanics (Self-Test, Micro-Declaration, Sunk Cost Seed, Private Litmus, Identity Threshold). Bridges gap between naming what people feel and changing what people do. Adversarial +2. |
 
 ---
 
@@ -111,7 +112,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 18 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 20 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
