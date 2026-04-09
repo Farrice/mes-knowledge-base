@@ -186,3 +186,15 @@ The Row's Instagram contains paintings and "cool shit"—no product, no lifestyl
 | **Inverse Psychology Depth** | Focuses solely on positive desires and ideal behaviors. | Touches on some dislikes or frustrations, but superficially. | Reveals what the consumer actively repels, struggles with, or dislikes about themselves/others, and how they show up when NOT at their best, offering a complete psychological map. |
 | **Brand World Coherence** | Brand elements are loosely aligned with consumer needs. | Brand elements show intentional alignment with consumer values. | Every brand policy, channel, and message is an intentional reflection and reinforcement of the consumer's core posture, designed as a world for them to inhabit. |
 | **Unarticulated Identity Resonance** | Uses generic language to describe consumer aspirations. | Attempts to articulate consumer feelings, sometimes missing the mark. | Precisely names and validates the consumer's unspoken feelings, identity struggles, or hidden aspirations, creating a profound 'How did they know I needed this?' reaction. |
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Decision Trigger Mapping (Consumer Identity Discovery Blueprint)
+- **Hypothesis**: Adding a Decision Trigger Mapping phase (Phase 2b) between posture construction and real-world validation will make profiles predictively actionable by mapping the specific internal conditions that convert identity alignment into purchase behavior.
+- **Result**: KEPT — Score improved from 7.0 to 8.7 (+1.7)
+- **Change**: Added Phase 2b with 5 trigger mechanics (Identity Confirmation Threshold, Permission Structure, Environmental Catalyst, Cost-of-Inaction Crystallization, Social Proof Alignment Check) + Decision Trigger Synthesis paragraph. Added Decision Trigger Validation Protocol to Phase 3. Added two quality gate criteria (Decision Trigger Specificity, Copy-Actionability).
+- **Benchmark scores**: Current [8, 7, 6] → Variant [9, 9, 8]
+- **Lesson**: Consumer posture profiles that stop at identity description are descriptive, not predictive. The bridge between "who they are" and "when they buy" is the consumer's internal permission structure — not external marketing triggers. Mapping this makes profiles directly copy-actionable.
