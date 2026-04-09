@@ -164,3 +164,15 @@ Sales comes from the Norse word "sal" meaning "to serve." Hold this etymological
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Behavioral Evidence Reconstruction (Identity Permanence)
+- **Hypothesis**: Adding Phase 2.5 (Behavioral Evidence Reconstruction) between Identity Diagnostic and Certainty Implanting anchors new identity to EXISTING behaviors — making the shift feel like discovery, not imposition. Under stress, people revert to what they KNOW is true; behavioral evidence survives where aspirational framing collapses.
+- **Result**: KEPT — Score improved from 7.0 to 8.3 (+1.3)
+- **Change**: Added Phase 2.5 with 4 steps (Behavioral Archaeology, Evidence Reframing, Evidence Stack, Stress Inoculation Anchor) + 2 new Quality Gate checks (Evidence Grounding, Stress Survival) + 2 new Output Contract items (Evidence Stack, Stress Inoculation Line)
+- **Benchmark scores**: Current [8, 7, 6] → Variant [9, 8, 8] (Intent, Expert, Adversarial)
+- **Lesson**: Bernoff's patterns already gesture at "you're already this person" (Pattern 4, Pattern 14) but the workflow never operationalized the PROOF step. The gap between "you're becoming" and "you already did" is the difference between aspiration (fragile) and evidence (durable). Biggest gain was Adversarial Resilience (+2) — the stress inoculation anchor referencing a specific action the prospect took is genuinely harder to dismiss than a motivational frame.
