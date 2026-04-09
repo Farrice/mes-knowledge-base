@@ -60,8 +60,15 @@ from checkpoint_manager import save_session_state
 from prose_classifier import classify_prose, quick_check
 from revenue_tracker import get_pipeline as get_revenue_pipeline
 
-# Evolution trace directory
-TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "traces"
+# Evolution trace directory (v2)
+TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "v2_traces"
+
+# Import v2 evolution tracer for auto-logging
+try:
+    from evolution_tracer import log_trace as evo_log_trace
+    _HAS_EVO_TRACER = True
+except ImportError:
+    _HAS_EVO_TRACER = False
 
 
 # Quality Gate thresholds (from directives/quality_gate.md)
@@ -261,9 +268,30 @@ def finalize(
 
     result["success"] = True
 
-    # ── Step 8 (optional): Write evolution trace ─────────────────
-    if write_trace:
-        try:
+    # ── Step 8: Write v2 evolution trace (ALWAYS, not optional) ──
+    try:
+        if _HAS_EVO_TRACER:
+            # V2 tracer: auto-populates search set on failures
+            evo_log_trace(
+                component=skill or expert or task_type,
+                operation="chain_finalize",
+                expert=expert,
+                workflow=workflow,
+                quality_score=composite,
+                intent=intent_alignment,
+                expert_score=expert_standard,
+                adversarial=adversarial_resilience,
+                notes=notes,
+                context={
+                    "output": output_description[:200],
+                    "task_type": task_type,
+                    "experiment_tag": experiment_tag,
+                    "regression": result.get("regression_check", {}),
+                },
+            )
+            result["v2_trace"] = True
+        else:
+            # Fallback: legacy trace writing
             TRACE_DIR.mkdir(parents=True, exist_ok=True)
             trace = {
                 "timestamp": result["timestamp"],
@@ -288,8 +316,9 @@ def finalize(
             with open(trace_file, "w") as f:
                 json.dump(trace, f, indent=2)
             result["trace_file"] = str(trace_file)
-        except Exception as e:
-            result["trace_file"] = f"ERROR: {e}"
+    except Exception as e:
+        result["v2_trace"] = False
+        result["trace_error"] = str(e)
 
     return result
 
