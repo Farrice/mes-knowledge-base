@@ -35,6 +35,21 @@ Apply **Pattern 1 (Subagent Council Architecture)**. Do not design "personalitie
 - **Apply Pattern 4 (Anti-Sycophancy Architecture)**: Explicitly mandate that Agents A and B *cannot* agree on the first pass.
 - **Apply Pattern 7 (Steelman Requirements)**: Embed a requirement that agents must articulate the strongest version of the opposing view before rebutting.
 
+### Phase 2.5: Assumption Excavation Protocol
+Before any council member argues a position, force them to surface the hidden premises their argument depends on. Positional debate (conclusion vs. conclusion) produces compromise. Foundational debate (premise vs. premise) produces insight.
+
+1. **Load-Bearing Assumption Declaration**: Each agent must declare exactly 3 assumptions their position DEPENDS ON — premises that, if wrong, would collapse their entire argument. These are not caveats or disclaimers; they are the invisible load-bearing walls.
+   - *Format*: "My position requires that [assumption]. If this is false, my argument fails because [consequence]."
+   - *Example (LinkedIn Maximalist)*: "My position requires that LinkedIn's organic reach advantage persists for 12+ months. If this is false, concentration becomes a trap."
+
+2. **Assumption Attack Round**: After all agents declare assumptions, each agent must identify the ONE opposing assumption they believe is MOST LIKELY WRONG and mount a specific, evidence-based challenge. Agents attack foundations, not conclusions.
+   - *Mandate*: Challenges must cite observable evidence, historical precedent, or structural logic — not opinion or speculation.
+
+3. **Crux Crystallization**: After the assumption attack round, the council must produce a **Crux Map** — the 1-2 assumptions where the council's disagreement ACTUALLY lives. These are the load-bearing premises that, if resolved, would make the decision obvious.
+   - *Test*: "If we knew the answer to [crux], would 80%+ of the disagreement dissolve?" If yes, it is a true crux. If no, dig deeper.
+
+4. **Synthesis from Crux**: The final recommendation must directly address each identified crux with: (a) what evidence would resolve it, (b) what to do if it resolves in each direction, and (c) a conditional strategy that performs well across crux outcomes rather than betting on one resolution.
+
 ### Phase 3: Behavioral Mandate Engineering
 Replace personality traits with **Pattern 2 (Behavioral Mandates)**.
 - **Draft Mandates**: Instead of "be critical," use "Must identify three ways this plan will fail in the first 90 days."
@@ -72,6 +87,7 @@ The user receives a single code block containing the complete directory and file
 3.  **Copy-Paste Ready**: Could a user create this folder structure and have a working Council in 15 minutes?
 4.  **80/20 Clarity**: Are the organization-specific placeholders clearly marked with `[CUSTOMIZE]`?
 5.  **Context Preservation**: Does the architecture use subagents to prevent main-thread context degradation?
+6.  **Assumption Excavation**: Does each agent declare load-bearing assumptions BEFORE arguing conclusions? Is the final crux map present — and does it identify WHERE the disagreement actually lives, not just THAT disagreement exists?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
