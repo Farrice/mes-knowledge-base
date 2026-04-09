@@ -81,6 +81,7 @@
 | 2026-04-09 | oren-taste-development | Add Decision Pressure Architecture to Taste-Led Brand Authority | KEPT | 6.3→8.3 (+2.0) | Tradeoff matrix, calibration protocol, pressure inoculation scripts, taste-to-revenue bridge. Largest delta. |
 | 2026-04-09 | chris-cimorelli-copywriting | Add Consumer Posture Translation Layer to Front-End Promotion | KEPT | 7.0→8.3 (+1.3) | Phase 0 builds linguistic palette from Dai Media consumer posture. Identity Resonance 5→9. Cross-pollination with dai-media skill. |
 | 2026-04-09 | nicolas-cole-newsletter-flywheel | Add Serial Investment Architecture to Newsletter Flywheel | KEPT | 7.0→8.3 (+1.3) | 5 mechanics (Conceptual Deposit, Belief Escalation, Identity Ratchet, Callback Yield, Incomplete Transfer). Each edition compounds reader investment. Powers Parallax. |
+| 2026-04-09 | bond-halbert-copywriting | Add Scroll Momentum Architecture to Velocity-Optimized Sales Copy | KEPT | 7.0→8.3 (+1.3) | Fold-level velocity-locks (Incomplete Transfer, Micro-Action, Pattern Break, Anxiety Anchor, Section-Entry Independence). DR power preserved, digital survival added. Adversarial +2. |
 
 ---
 
