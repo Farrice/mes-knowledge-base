@@ -116,6 +116,8 @@
 | 2026-04-09 | donald-miller-culture-turnaround | Add Culture Pulse Diagnostics to Culture Turnaround Strategic Roadmap | KEPT | 6.7→8.3 (+1.6) | Phase 4.5: 5 leading indicators (Language Adoption, Identity Claim, Behavioral Initiative, Correction, Narrative), 3 stall detectors (Compliance Plateau, Cynicism Pocket, Leader Fatigue Drop), Hallway Test for adoption-vs-compliance at Day 14/28. Adversarial +3. |
 | 2026-04-09 | dan-martell-business-scaling | Add Delegation Timing Calculus (Phase 0) to Buyback Time Audit | KEPT | 6.0→8.3 (+2.3) | Break-even revenue formula per function, TOO EARLY/NOW/OVERDUE status flags, revenue-gated roadmap (not time-gated). Prevents premature cash burn AND late opportunity cost. Intent Alignment +3, Adversarial +3. |
 | 2026-04-09 | oren-repositioning | Add Identity Bridge Sequencing (Phase 2.5) to Strategic Repositioning Brief | KEPT | 6.3→8.3 (+2.0) | 4 mechanics (Foreshadowing Inventory, Permission Artifacts, Audience Segmentation for Transition, Inevitability Sequence). Solves "stuck between old and new identity" — engineers audience's cognitive journey so visible shift feels LATE not sudden. 80/20 ratio inversion over 6-8 weeks. Adversarial +3. |
+| 2026-04-09 | seena-rez-tiktok-commerce | Add Self-Recognition Trigger Architecture (Phase 3.5) to Viral Video Production Engine | KEPT | 6.3→8.3 (+2.0) | 5 trigger mechanics (Private Behavior Mirror, Temporal Self-Comparison, Unspoken Internal Monologue, Environmental Detail Anchoring, Identity Gap Crystallization). Bridges attention-to-intent gap at seconds 12-18. Viewer becomes participant, not spectator. Adversarial +3. |
+| 2026-04-09 | luke-iha-unaware-ads | Add Pre-Awareness Trigger Mapping (Phase 1.5) to Unaware Ad Architect | KEPT | 7.0→8.3 (+1.3) | Behavioral inventory, private moment ID, rationalization mapping, trigger-to-hook bridge. Ads recreate the moment of self-recognition instead of asserting the problem. Adversarial +2 (biggest gain). |
 
 ---
 
@@ -134,7 +136,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 36 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 37 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
