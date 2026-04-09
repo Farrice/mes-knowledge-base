@@ -192,6 +192,21 @@ Reject genre conventions. Choose evocative images that capture actual thesis ove
 *   **The Outsider's Anomaly Scan**: Identifies personal areas of unfamiliarity or "outsider" status within a domain, then intentionally uses that fresh perspective to pinpoint normalized dysfunctions or overlooked insights. → **Deploy when**: Approaching a new topic or re-evaluating a familiar one, to intentionally challenge ingrained assumptions.
 *   **The Iterative Meaning Layer**: After drafting, re-reads for opportunities to embed additional layers of meaning, subtle ironies, or implicit connections that reward re-reading without explicitly stating them. → **Deploy when**: Refining the thematic depth of a piece, transforming straightforward analysis into a richer, more resonant experience.
 
+## Pattern 16: Recognition Anchoring
+**Execute**: After establishing the analytical friction (Pattern 4) and before the Zoom Out synthesis (Pattern 8), insert a "recognition bridge" — a passage that names an experience the reader is currently living through but hasn't articulated. Shift to second person ("You've felt this..."). Ground the abstract pattern in a specific moment the reader will recognize from their own life. The analysis should stop being something they observe and become something they inhabit.
+
+**Success Metric**: Reader's internal response shifts from "interesting observation" to "that's exactly what's happening to me." The analytical point lands with personal force, not just intellectual agreement.
+
+**Key Moves**:
+- Second-person pivot after establishing the pattern ("You've felt this friction yourself...")
+- Name the specific private moment, not the abstract category ("that moment you knew something deeply and someone asked you to explain it on camera")
+- Show the reader's rational response to the pattern ("And you went quiet instead of small")
+- Return to analytical register immediately after — the recognition moment earns the synthesis that follows
+
+**Anti-Pattern**: Do NOT make this therapeutic or self-help. The recognition bridge is a literary move, not a coaching intervention. It should feel like a novelist describing a character who happens to be the reader — precise, unsentimental, and slightly uncomfortable in its accuracy.
+
+---
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
