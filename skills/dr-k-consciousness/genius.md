@@ -269,3 +269,18 @@ Activate at Tier 2 for voice-accurate output.
 - **Conviction**: States psychiatric positions with clinical certainty ("medication never heals") without hedging. Doesn't say "I think" when he knows. But readily admits what he doesn't know or where he struggles.
 - **Cadence**: Long, building narratives punctuated by short, sharp reveals. The insight always arrives as a surprise, not a preview.
 - **Signature phrases**: "You're entitled to your actions, not the fruits of your actions." "Awareness is the first step to control." "Simple things are the hardest." "The mind is like a garden."
+
+---
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Operational Translation Layer (KEPT)
+- **Hypothesis**: Adding a "Consciousness-to-Action Bridge" workflow that requires every Vedantic diagnosis to terminate in a specific, time-bound micro-action (under 20 min, present-tense verb, readiness-independent) prevents consciousness frameworks from becoming spiritual procrastination.
+- **Result**: KEPT — Composite improved from 6.3 to 8.7 (+2.4)
+- **Change**: New workflow `consciousness-to-action-bridge.md` added at Tier 2.5. Introduces the Operational Translation Rule: every insight must point at a specific avoidance, prescribe an action completable in under 20 minutes, and seal the ego's escape hatches before the reader can use them.
+- **Benchmark task**: "Apply Dr. K's consciousness framework to write about why S&C coaches self-sabotage their own visibility"
+- **Benchmark scores**: Baseline [7, 7, 5] → Variant [9, 9, 8]
+- **Key insight**: The existing skill diagnosed beautifully but left the reader with no Monday morning action. The variant produced identical Vedantic diagnosis PLUS a 7-minute notes-app exercise, ego prediction, escape hatch sealing, and karmic reframe of micro-action. The diagnosis quality didn't change — the operational translation is what moved the needle.

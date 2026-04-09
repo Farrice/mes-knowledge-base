@@ -1,9 +1,9 @@
 ---
 name: "Dr. K Consciousness"
 description: "Vedantic-clinical psychology integration for identity transcendence, thought-response training, samskara dissolution, guna-based diagnostics, and consciousness-based coaching"
-version: "1.0"
+version: "1.1"
 format: "completion-engine"
-workflows: 10
+workflows: 11
 ---
 
 # Dr. K Consciousness
@@ -33,6 +33,12 @@ Dr. K is a Harvard-trained psychiatrist and former monk-in-training whose core i
 | dharma | [Dharma Compass](workflows/dharma-compass.md) | Purpose Alignment Report with dharma signals, false-dharma diagnosis, and action path | Someone is existentially aimless, questioning their purpose, or chasing meaning externally |
 | emotional | [Emotional Processing Protocol](workflows/emotional-processing-protocol.md) | Processed Clarity State with sitting protocol and samskara dissolution sequence | Someone is operating from reactive emotion and needs to process before strategy |
 | clinical | [Clinical vs. Existential Triage](workflows/clinical-vs-existential-triage.md) | Triage Assessment with thought-fusion score and intervention routing | You need to know whether someone needs clinical support, existential guidance, or both |
+
+### Tier 2.5 — Operational Translation
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| bridge | [Consciousness-to-Action Bridge](workflows/consciousness-to-action-bridge.md) | Operational Translation — converts Vedantic diagnosis into a specific, time-bound micro-action executable Monday morning | A consciousness diagnosis risks becoming spiritual procrastination — the person understands their pattern but has no specific action to take tomorrow |
 
 ### Tier 3 — Stacking (Cross-Expert Chains)
 
