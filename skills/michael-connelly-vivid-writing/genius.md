@@ -199,3 +199,13 @@ Making violence or spectacle the centerpiece. Even in murder mysteries, Connelly
 | **Prose Transparency** | Prose calls attention to itself with "beautiful" or "clever" phrasing, adjective stacking, forced metaphors, or unnecessary adverbs. | Prose is generally clear but occasionally uses slightly decorative language or unnecessary words that could be cut without losing meaning. | Prose is invisible, allowing the reader to see *through* the words directly to the story; every word is functional, never decorative, self-conscious, or calling attention to itself. |
 | **Outsider Lens Clarity** | Character's perspective is mostly that of a comfortable insider or a generic observer, lacking unique tension. | Character has some unique insights, but the tension between insider access and outsider belonging isn't consistently or strongly felt. | The character consistently possesses insider access coupled with a palpable outsider's critical, sardonic, or uncomfortable perspective, generating automatic conflict and unique observation. |
 | **Economy of Expression** | Uses full sentences or explicit dialogue where a gesture, nod, or single word would suffice; verbose where brevity would be more impactful. | Generally concise, but occasionally includes unnecessary verbal padding, redundant phrases, or could achieve more with less. | Achieves maximum impact with minimum material; uses nods, single telling details, and highly compressed language to convey complex information or emotion, making every word earn its place. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Telling Detail Engine: Narrative Load Ranking
+- **Hypothesis**: Adding a Narrative Load Ranking step that scores candidate details against 7 vectors (character, stakes, tension, foreshadowing, world-building, subtext, mood) before the 3-Question Filter would transform detail selection from "find one that passes" to "find the one that works hardest."
+- **Result**: KEPT — +1.7 composite. Control selected a 2-vector object (Theraband on bag strap). Variant selected a 7-vector behavior (shoulder hitching on handshake) that revealed both characters and drove momentum.
+- **Change**: Added Step 3 (Narrative Load Ranking) before existing filter. Renumbered subsequent steps. Added 2 quality gate checks.
+- **Lesson**: High-vector details are BEHAVIORS, not OBJECTS. A prop on a bag is decoration. A body flinch during a handshake is a diagnostic event. When selecting telling details, rank by narrative load — the detail that fires across the most vectors wins.
