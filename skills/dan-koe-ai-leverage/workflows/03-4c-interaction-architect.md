@@ -24,6 +24,45 @@ Internalize the full 4C Cognitive Architecture. This workflow IS the 4C framewor
 
 ---
 
+## PHASE 0.5: LEVERAGE AUDIT (The "Where, Not How" Gate)
+
+**Principle**: Before optimizing HOW you use AI, decide WHERE AI multiplies you vs. where it dilutes you. Most people default to "automate everything" — this audit prevents that.
+
+Before proceeding to context loading, map the user's task (or business) onto the **Leverage Audit Matrix**:
+
+### The Two Axes
+
+| Axis | Low | High |
+|------|-----|------|
+| **Differentiation Sensitivity** | Generic/commodity task — anyone could do it | This IS your competitive edge — your taste, judgment, or lived experience makes it irreplaceable |
+| **Volume / Repetition** | One-off or rare | You do this weekly or daily at scale |
+
+### The Four Quadrants
+
+| | Low Volume | High Volume |
+|---|-----------|-------------|
+| **High Differentiation** | **PROTECT** — Do it yourself, use AI only for preparation/research. (Ex: client 1:1 coaching calls, keynote talks, original methodology design) | **AUGMENT** — You stay in the driver's seat, AI drafts/iterates under your direction. (Ex: weekly newsletter in your voice, content from your IP, client program design) |
+| **Low Differentiation** | **DELEGATE** — Hand it to AI entirely with light QA. (Ex: scheduling, formatting, data entry, invoice generation) | **AUTOMATE** — Build AI workflows that run with minimal oversight. (Ex: social media repurposing, email sequences from templates, CRM updates, transcript summaries) |
+
+### How to Use This
+
+1. **List the user's top 10-15 recurring tasks** (or have them list their typical week)
+2. **Place each task on the matrix** — be honest about what's truly differentiated vs. what feels important but is actually commodity
+3. **The hardest call is AUGMENT vs. AUTOMATE** — the test: "If a client compared YOUR version to a generic AI version, would they notice the difference within 30 seconds?" If yes → AUGMENT. If no → AUTOMATE.
+4. **Red flag**: If everything lands in PROTECT, the user is afraid of AI, not strategically deploying it. If everything lands in AUTOMATE, they're outsourcing their differentiation.
+
+### The Voice Preservation Test (for AUGMENT quadrant)
+
+When a task lands in AUGMENT (high differentiation + high volume), apply this test before building the AI workflow:
+
+- **Can you articulate what makes YOUR version different in 2 sentences?** If you can't, it might actually be AUTOMATE.
+- **Does the AI draft need >50% rewriting to sound like you?** If yes, the context loading is insufficient — go back to C1 and load better source material.
+- **Would your best client recognize this as yours vs. generic?** The 30-second test. If it passes, the workflow is working.
+
+> **Transition**: Once the Leverage Audit is complete, proceed to Phase 1 with clarity on what THIS specific session is producing and which quadrant it falls in. The quadrant determines the rigor level for the rest of the 4C workflow.
+
+---
+
 ## PHASE 1: SESSION SCOPING
 
 Before loading any context or producing any output, establish the session architecture:
