@@ -29,6 +29,7 @@ This is not self-*correction* (recovering from errors). This is self-*evolution*
 | Proposer Sprint | Time-boxed, fixed-iteration improvement sprint |
 | Evolution Status | Dashboard of all active/completed evolution loops |
 | Bitter Lesson Check | Audit hand-coded heuristics for evolution replacement potential |
+| **Trajectory Ratchet** | **Multi-cycle evolution protocol with monotonic progress enforcement — prevents drift, local optima, and coherence loss across hundreds of changes** |
 
 ## When to Deploy
 
