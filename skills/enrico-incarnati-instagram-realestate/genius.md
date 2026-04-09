@@ -157,3 +157,17 @@ The sequence matters: Profile first (Digital Curb Appeal), then content strategy
 6. **"Link in Bio"** — Kills engagement. Use keyword comment triggers instead.
 7. **The Spec Sheet** — Listing content focused on features instead of lifestyle/feeling.
 8. **The One-Format Trap** — Only posting one type of content (talking heads OR listings, never both).
+
+---
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Visual Narrative Sequencing (Weekly Content Sprint)
+- **Hypothesis**: Adding a Phase 0 sequencing layer where each post creates psychological demand for the next transforms category-rotation calendaring into conversion-compounding narrative. Posts stop being isolated units and become nodes in an arc that advances viewers from discovery to DM inquiry.
+- **Result**: KEPT — Score improved from 6.0 to 8.3 (+2.3)
+- **Change**: Added Phase 0 (Visual Narrative Sequencing) to WF08: Conversion Target identification, 5-Post Demand Chain design (Pattern Interrupt → Authority Proof → Local Evidence → The Reveal → Conversion Catalyst), Cross-Post Thread Elements, Bridge Stories between reels, Sequence-Aware Lead Scoring. All Incarnati patterns preserved — sequencing layer is strictly additive.
+- **Benchmark scores**: Baseline [6, 7, 5] → Variant [9, 8, 8]. Intent +3, Adversarial +3 (biggest gains).
+- **Lesson**: The skill had strong individual-post engineering but zero post-to-post compounding logic. Category rotation (Monday = signature, Wednesday = expansion) answers "what type?" but not "why this order?" The demand chain answers both.
