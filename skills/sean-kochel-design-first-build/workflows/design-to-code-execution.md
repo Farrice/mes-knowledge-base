@@ -52,6 +52,37 @@ Layer the researched copy into the approved scaffold. This is a design act, not 
 2.  **Identify Tension Points**: Flag where copy length destroys visual rhythm. Suggest "The Cut" (shortening copy) or "The Pivot" (adjusting layout).
 3.  **Final Integration Prompt**: Produce the master prompt that tells the design tool: "Keep the DNA, keep the layout, but replace placeholders with THIS specific copy."
 
+### Phase 3.5: Conversion Signal Audit (Pre-Build Validation)
+Before any code is written, validate the integrated design against behavioral conversion signals. Beautiful designs that don't convert are the most expensive failure mode — they FEEL done.
+
+1.  **Eye-Flow Trace**: Map the visual reading path through the page. For each fold:
+    - **Entry Point**: What does the eye land on first? (Must be the highest-value element for that fold's objective.)
+    - **Flow Direction**: Does the visual hierarchy guide toward the CTA, or does it dead-end on decorative elements?
+    - **Exit Risk**: Identify any element that pulls attention OFF the conversion path (competing links, visual noise, ambiguous navigation).
+
+2.  **Decision Friction Inventory**: For each CTA on the page, audit the 3 friction dimensions:
+    - **Cognitive Load**: Can a visitor understand the offer in under 5 seconds at this fold? If explaining requires scrolling back up, friction is too high.
+    - **Commitment Clarity**: Does the CTA communicate what happens NEXT? ("Get Started" = ambiguous. "See your first draft in 24 hours" = clear.)
+    - **Risk Signal**: Is there an unaddressed objection within 200px of the CTA? (Missing: money-back, no-commitment, social proof.) Add a proximity proof element if absent.
+
+3.  **Skepticism-Proof Placement Audit**: Map where audience skepticism peaks (typically after the first benefit claim) and verify that proof elements (testimonials, logos, numbers) are positioned AT those peaks, not clustered in a single "social proof" section.
+
+4.  **The 3-Second Fold Test**: For EACH visible fold (not just the hero):
+    - Cover everything except that fold. In 3 seconds, can you answer: (a) What is this about? (b) Why should I care? (c) What do I do?
+    - Any fold that fails all 3 = conversion dead zone. Redesign or remove before building.
+
+5.  **Conversion Signal Scorecard**:
+    | Signal | Status | Fix Required |
+    | :--- | :--- | :--- |
+    | Hero CTA visible without scroll | ✅/🔴 | |
+    | Proof within 200px of primary CTA | ✅/🔴 | |
+    | Zero competing exit links above fold | ✅/🔴 | |
+    | Each fold passes 3-Second Test | ✅/🔴 | |
+    | Objection handling precedes final CTA | ✅/🔴 | |
+    | Mobile CTA reachable by thumb | ✅/🔴 | |
+
+    **Gate**: All 6 signals must pass before proceeding to Phase 4. Any 🔴 = design revision, NOT a code fix.
+
 ### Phase 4: MCP-Powered Build (The Lossless Handoff)
 Translate the approved visual design into code using the Antigravity AI system and MCP bridges.
 
@@ -74,6 +105,7 @@ Compare the generated code against the original design DNA.
 - **Design DNA Specification**: A table of hex codes, font pairings, and spacing tokens.
 - **3 Scaffolding Prompts**: Copy-paste ready for visual generation tools.
 - **Copy-Fit Audit**: Identification of layout/copy friction points.
+- **Conversion Signal Scorecard**: Pre-build validation of eye-flow, decision friction, skepticism-proof placement, and 3-second fold tests with pass/fail status and required fixes.
 - **Integrated Design Prompt**: The final prompt to merge copy and visuals.
 - **Production Codebase**: Clean, componentized code (Next.js/Tailwind or specified framework) reflecting the design with 95%+ fidelity.
 
@@ -82,6 +114,7 @@ Compare the generated code against the original design DNA.
 - [ ] **Copy-Design Harmony**: Does the text fit within the containers without breaking the grid or requiring overflow?
 - [ ] **Token Integrity**: Are colors and fonts pulled from the Design DNA, or are they generic framework defaults (e.g., default Tailwind blue)?
 - [ ] **Responsive Fidelity**: Does the layout maintain its "mood" on mobile, or does it collapse into a generic vertical stack?
+- [ ] **Conversion Signal Gate**: Did all 6 signals in the Conversion Signal Scorecard pass BEFORE code was written? Any design-phase fix made AFTER build = process failure.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
