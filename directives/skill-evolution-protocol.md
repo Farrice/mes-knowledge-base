@@ -236,8 +236,8 @@ Pause evolution and reassess when:
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
+| **Last Activated** | 2026-04-09 |
+| **Activation Count** | 32 |
 | **30-Day Review Date** | 2026-04-09 |
 | **Phase 1 Entries (threshold: 20)** | 76 (THRESHOLD MET) |
 

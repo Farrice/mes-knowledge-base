@@ -251,3 +251,15 @@ In today's fast-paced world, it's more important than ever to stay ahead of the 
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Cognitive Fingerprint Injection (Workflow 03)
+- **Hypothesis**: Subtractive AI-scrubbing (remove tells) is necessary but insufficient. Adding active injection of human cognitive fingerprints — asymmetric rhythm, mid-thought pivots, lived-experience specificity, imperfect sentence architecture, voice temperature shifts — will make copy pass the "would a real person write this?" test.
+- **Result**: KEPT — Score improved from 6.3 to 8.3 (+2.0)
+- **Change**: Added Phase 5.5 (Cognitive Fingerprint Injection) with 5 mechanics: Rhythm Sabotage, Mid-Thought Pivot, Lived-Detail Anchoring, Imperfect Architecture, Voice Temperature Shifts. Added Fingerprint Test to Quality Gate.
+- **Benchmark scores**: Current [8, 6, 5] → Variant [9, 8, 8]
+- **Lesson**: The biggest human-voice gap was not what AI does wrong (tells) but what AI doesn't do at all (cognitive irregularity). Additive fingerprinting produced a larger quality jump (+2.0) than any amount of subtractive scrubbing could.
