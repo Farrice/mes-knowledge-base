@@ -47,6 +47,27 @@ Generate 5-7 alternative problem definitions that reveal 10x cheaper, 10x more e
     - **Loss Aversion**: What are they "losing" by staying with their current status quo?
 - **Leverage Ranking**: Create a table comparing the **Conventional Solution Cost** (e.g., $2M engineering) vs. the **Psychological Solution Cost** (e.g., $50k reframe).
 
+### Phase 3b: The Reframe Stress Test
+*Objective: Predict which reframes will survive contact with the audience's actual psychology — not just sound clever on paper.*
+
+Before advancing any reframe, run it through three behavioral prediction filters:
+
+1.  **Identity Congruence Check**: Does this reframe require the buyer to see themselves differently? If yes, how much identity-distance must they travel?
+    - **Low distance** (safe): "You're already an expert — we just make that visible." (Confirms current identity.)
+    - **High distance** (risky): "You need to become a media company." (Requires identity overhaul.)
+    - **Rule**: If the reframe asks them to become someone they don't recognize, it will fail no matter how logical it is. Score each reframe 1-5 on identity congruence (5 = confirms who they already believe they are).
+
+2.  **Comparison Frame Prediction**: What mental category will the buyer file this reframe into? People don't evaluate offerings in isolation — they slot them into existing categories and compare.
+    - Map the **default comparison set** the buyer will use (e.g., "content creation" slots into "freelancer/agency" → price comparison → race to bottom).
+    - For each reframe, predict the **new comparison set** it triggers. Does "referral multiplication system" get compared to "marketing tools" (bad — now competing with HubSpot) or "practice growth investments" (good — compared to hiring an associate)?
+    - **Rule**: A reframe only works if it moves the offering INTO a favorable comparison set AND OUT of the commodity set. If the new frame still triggers the old comparison, discard it.
+
+3.  **Implementation Clarity Gate**: Can the buyer immediately picture what happens on Monday morning?
+    - For each surviving reframe, write one sentence describing the **first concrete action** the buyer takes after saying yes.
+    - **Rule**: If the reframe is brilliant but the buyer can't see the first step, it creates anxiety instead of desire. "Expertise amplification" sounds great — but what does week 1 actually look like? The reframe must carry an implicit action, not just a new label.
+
+**Stress Test Output**: A ranked shortlist (max 3) with scores on Identity Congruence (1-5), Comparison Frame Quality (Favorable/Neutral/Unfavorable), and Implementation Clarity (Clear/Vague). Only reframes scoring 4+ on identity, Favorable on comparison, and Clear on implementation advance to Phase 4.
+
 ### Phase 4: Market Psychology Gap Finder
 Identify the "Royal Mail Postman" equivalent in the industry—the dimension everyone ignores.
 - **Competitive Dimension Map**: List the "table stakes" everyone competes on (Price, Speed, Quality).
@@ -67,8 +88,9 @@ The user receives a **Strategic Brand Reframe & Market Positioning Roadmap** (.m
 1. **The Doorman Audit**: List of hidden value-drivers being ignored.
 2. **Psychological Purchase Decode**: Deep-dive into the "Actual" product being bought.
 3. **The Reframe Matrix**: 5+ alternative strategies with Leverage Scores.
-4. **The Unoccupied Territory**: A map of the psychological gap in the market.
-5. **The Brandquake Roadmap**: Specific copy angles, trust signals, and intervention tactics ready for deployment.
+4. **The Reframe Stress Test**: Ranked shortlist with Identity Congruence, Comparison Frame, and Implementation Clarity scores — only validated reframes advance.
+5. **The Unoccupied Territory**: A map of the psychological gap in the market.
+6. **The Brandquake Roadmap**: Specific copy angles, trust signals, and intervention tactics ready for deployment.
 
 ## Quality Gate
 1. **The Sutherland Test**: Does this solution solve a "technical" problem with a "psychological" intervention that is significantly cheaper?
