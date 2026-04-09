@@ -39,6 +39,44 @@ They hired an 18-year-old (Richard) straight from high school for Instagram beca
 - Optimize for "saying nothing and making no news" (the CEO who makes no news doesn't exist)
 - Judge hires by media experience rather than platform-native taste
 
+## Solo Media Economics (The One-Person Operator Layer)
+
+a16z's thesis assumes teams. When the founder IS the entire media operation, the same physics apply but the execution model inverts. Speed advantage comes from zero approval gates, not from volume.
+
+### The Anchor Channel Decision
+Pick ONE written-culture channel. This is your context-length defense and your extraction source. Everything else derives from it.
+
+| If You... | Your Anchor Is | Why |
+|-----------|---------------|-----|
+| Talk well, think out loud | Podcast (solo or guest-based) | Lowest friction to depth; record → publish same day |
+| Write well, build arguments | Newsletter / Substack | Highest authority signal; becomes reference material |
+| Demonstrate well, show process | YouTube long-form | Visual proof of expertise; compounds via search |
+
+**The selection test**: Which format could you sustain WEEKLY for 52 weeks without dreading it? That's your anchor. Everything else is extraction.
+
+### The 1→3 Extraction Rule
+From one anchor piece per week, extract exactly 3 oral-mode derivative pieces. No more. This is the sustainable rate for one person operating without a team.
+
+- Anchor (written-culture, 1x/week) → 2 LinkedIn posts + 1 short-form video clip, OR → 3 LinkedIn posts if video isn't viable.
+- Each extraction is BORN on LinkedIn (rewritten for the platform), not cross-posted.
+- Total weekly output: 4 pieces (1 anchor + 3 extractions). This is the floor AND the ceiling until revenue justifies hiring.
+
+### Own / Rent / Ignore Matrix
+| Tier | Channels | Effort Level | Purpose |
+|------|----------|-------------|---------|
+| OWN | Anchor channel + LinkedIn | Full native creation | Authority building + where your ICP lives |
+| RENT | YouTube Shorts, Instagram, or X | Low-effort repurposing from anchor clips | Discoverability; never native creation at this tier |
+| IGNORE | Everything else | Zero | Adding channels without team = quality collapse on ALL channels |
+
+**Promotion trigger**: A channel moves from IGNORE → RENT when you have 8+ weeks of consistent anchor output. A channel moves from RENT → OWN only when you hire or revenue exceeds cost of additional native content.
+
+### The Solo OODA Advantage
+For a one-person operation, OODA speed is measured by decision-to-publish latency, NOT by volume. The structural advantage of having no team is having no approval gates.
+
+- **Target metric**: Idea → published anchor piece in under 4 hours (for podcast/video) or under 24 hours (for written).
+- **Competitive kill shot**: A solo practitioner who publishes a take on a trending industry topic SAME DAY permanently lives inside the OODA loop of competitors running agency review cycles.
+- **Anti-pattern**: Batching content 2 weeks in advance. This destroys the solo OODA advantage by making you slow on purpose.
+
 ## Quality Rubric — Am I Doing This Right?
 
 | Criterion | Score 4 | Score 7 | Score 10 |
@@ -48,3 +86,9 @@ They hired an 18-year-old (Richard) straight from high school for Instagram beca
 | Format-Culture | Same content across platforms | Adapts for platforms | Creates genuinely different content matched to each platform's oral/written culture mode |
 | Founder Voice | CEO has scripted talking points | CEO does prepared interviews | CEO holds 3-hour unscripted Rogan and people wish it went longer |
 | Controversy | Avoids all controversy | Takes positions with hedges | Bold positions with long-form context — controversial enough to be interesting, contextualized enough to be resilient |
+
+## Evolution Log
+
+| Date | Cycle | Layer Added | Hypothesis | Benchmark Task | Baseline Score | Variant Score | Verdict |
+|------|-------|-------------|-----------|----------------|---------------|---------------|---------|
+| 2026-04-09 | 1 | Solo Media Economics | Adding operational realism for one-person media operations will make a16z's thesis actionable for solo practitioners without diluting the core physics (OODA speed, written-first, platform-native) | Apply a16z's media thesis to a solo S&C coach building Authority Flywheel — what media stack is realistic? | 6.0 | 8.3 | KEPT |
