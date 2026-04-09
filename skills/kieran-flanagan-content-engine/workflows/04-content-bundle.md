@@ -60,6 +60,32 @@ For each additional platform, create a platform-native adaptation:
 - Visual cues and B-roll suggestions
 - Clear sections with time-stamped chapters
 
+### Phase 2.5: Production Drift Detection (Cross-Piece Quality Consistency)
+Before finalizing any piece in a multi-piece production window (2+ posts/week), run horizontal quality audit across ALL pieces in the current window. This prevents the quality degradation that happens when production scales.
+
+**Step 1: Vocabulary Freshness Scan**
+Compare the current piece against every other piece in the same production window (week or batch):
+- **Hook Uniqueness**: Is this hook structurally different from the other hooks this window? Same hook TYPE (question, contrarian, data-led) used twice in the same week = mandatory rewrite of the second one.
+- **Transition Inventory**: List every transitional phrase in this piece. Flag any that appear in another piece from the same window. Threshold: 0 shared transitions.
+- **Closing Mechanism Diversity**: Map the CTA/closing type of each piece. No two pieces in the same window should close the same way (question close, imperative close, story close, callback close, etc.).
+
+**Step 2: Talking Point Depletion Check**
+- Map which talking points from the library have been used in the current window AND in the previous 2 windows.
+- **Depletion Signal**: If 60%+ of this window's posts draw from the same talking point category (e.g., all Educational), flag and rebalance. The 4-category system exists to prevent this.
+- **Exhaustion Signal**: If a specific talking point has been used in 3+ posts within 4 weeks, it needs REST. Either retire it for 2 weeks or find a genuinely new angle (not a rephrasing).
+
+**Step 3: Structural Pattern Diversity Audit**
+- For each piece in the window, identify the structural pattern: hook type + argument flow + emotional arc + closing mechanism.
+- Render as a simple grid. If any two pieces in the same window share 3 of 4 structural elements, the second piece gets a structural rewrite.
+- Cross-reference with the previous 2 windows. If a structural pattern has appeared 3+ times in 6 weeks, flag for replacement with a new lookalike pattern from the pattern library.
+
+**Step 4: Voice Energy Variance Check**
+- Score each piece on a 1-5 energy scale (1 = reflective/quiet, 5 = provocative/high-energy).
+- A healthy production window has variance of 2+ points across pieces. If all pieces cluster within 1 point, one piece gets deliberately retuned to a different energy register.
+- Check sentence length variance WITHIN each piece (standard deviation). If std dev drops below the creator's baseline (measured from their best-performing historical posts), the writing is flattening toward a comfortable mean.
+
+**Drift Detection Output**: A single-paragraph "Drift Report" appended to the bundle output, noting: (a) any flags raised, (b) any rewrites triggered, (c) the diversity scores for vocabulary, structure, category, and energy across the window. If zero flags: "No drift detected -- production window is healthy."
+
 ### Phase 3: Cross-Platform Quality Check
 Verify platform isolation and consistency.
 - **Isolation Check**: Read all versions side by side — they should sound like different voices on the same idea, not copies
