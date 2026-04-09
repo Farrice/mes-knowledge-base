@@ -80,6 +80,42 @@ Work through ALL 4 categories. For each, generate 2-4 candidate vectors specific
 
 ---
 
+## Phase 3.5: Purchase Belief Isolation
+
+Before SIN scoring, identify which vector targets the **load-bearing belief** — the single belief that, once shifted, makes the purchase feel self-evident rather than merely interesting.
+
+### Step 1: Classify Each Vector's Conversion Role
+
+For every candidate from Phase 3, assign ONE role:
+
+| Role | Definition | Test | Example |
+|------|-----------|------|---------|
+| **Educator** | Creates understanding. Reader thinks "that's interesting" or "I didn't know that." | Would this insight improve someone's thinking WITHOUT changing their behavior? If yes → Educator. | "Your fat tissue slows metabolism" — interesting, but doesn't demand a specific product. |
+| **Destabilizer** | Dissolves a blocking belief. Reader thinks "wait, then what I've been doing is wrong." | Does this make the reader's CURRENT approach feel broken? If yes → Destabilizer. | "The Invisibility Trap" — makes DIY content feel structurally doomed. |
+| **Activator** | Installs the purchase-triggering belief. Reader thinks "I need THIS specifically." | If this vector lands, does the reader's next thought involve YOUR offer (not just any solution)? If yes → Activator. | "The bottleneck is translation, not creation — you have the ideas, you need the bridge" → Authority Flywheel IS the bridge. |
+
+**Rule**: A healthy vector set needs at least 1 Destabilizer AND 1 Activator. A set of pure Educators builds audience but doesn't convert.
+
+### Step 2: Load-Bearing Belief Identification
+
+From your Destabilizers and Activators, identify the **keystone**:
+
+1. **Dependency test**: Which belief, if unchanged, makes ALL other vectors ineffective? (That's the load-bearing belief.)
+2. **Collapse test**: Which belief, once shifted, causes 2+ other objections to dissolve automatically?
+3. **Specificity test**: Does the Activator vector point to YOUR offer specifically, or to a generic category? If generic ("I need help with content"), the Activator needs sharpening until the conclusion is YOUR product.
+
+**Output**: Tag each vector [E], [D], or [A]. Circle the keystone. If no Activator exists, generate one — return to Phase 3 categories and mine specifically for a vector that makes the product the ONLY logical response.
+
+### Step 3: Activation Bridge
+
+For the identified Activator vector, write the **bridge sentence** — the single sentence a prospect would say to themselves that connects the insight to the purchase:
+
+> "If [insight is true], then [my current approach is broken], and what I actually need is [specific product feature/approach]."
+
+If this bridge sentence requires more than one logical leap, the Activator vector isn't precise enough. Refine until the bridge is ONE step.
+
+---
+
 ## Phase 4: SIN Filter
 
 Score each candidate (minimum 8 candidates entering this phase):
@@ -124,14 +160,16 @@ From SIN survivors, select **3-5 vectors** that:
 
 ## Shortlisted Vectors (3-5, SIN ≥21)
 
-### [Vector Name 1] — [Type]
+### [Vector Name 1] — [Type] — [E/D/A]
 - **Vector**: [one sentence]
+- **Conversion Role**: Educator / Destabilizer / Activator (+ keystone flag if applicable)
 - **SIN Score**: [X/30]
 - **Suspicion tapped**: [which one]
+- **Activation bridge** (Activators only): "If [insight], then [current approach broken], and I need [specific product]."
 - **Discovery story seed**: [60-second narrative hook]
 - **Deploy as**: [mechanism / hook / content angle / campaign concept]
 
-### [Vector Name 2] — [Type]
+### [Vector Name 2] — [Type] — [E/D/A]
 [same format]
 
 ## Stack Map
@@ -151,6 +189,9 @@ Before delivering:
 - ☐ Shortlisted vectors tap at least one audience suspicion
 - ☐ All shortlisted vectors have characterization names
 - ☐ Stack map shows convergent logic (not random collection)
+- ☐ Shortlisted vectors include at least 1 Destabilizer [D] and 1 Activator [A]
+- ☐ Activator vector has a one-step bridge sentence connecting insight → specific product
+- ☐ Keystone belief identified with dependency + collapse tests passed
 - ☐ No fabricated research, fake biology, or invented mechanisms
 
 > **🛡️ Anti-Pattern Check**: Review output against `genius.md` § Anti-Patterns. Flag fabricated systems, claimed vectors (not earned), and complexity without clarity.

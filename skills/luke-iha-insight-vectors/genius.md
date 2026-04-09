@@ -257,3 +257,19 @@ Using an insight vector to make the audience feel stupid for their current belie
 | **Specificity of Examples** | Uses generic or hypothetical examples ("imagine if...") to illustrate the vector. | Uses concrete, real-world examples but they feel curated rather than visceral. | Examples are so specific and recognizable that the audience mentally replays their own experience — self-verification happens automatically. |
 | **Voice Authenticity** | Output uses systems-thinking jargon without earning it; reads like a textbook summary. | Captures Luke's direct, coach-like energy but occasionally slips into academic tone. | Unmistakably Luke Iha — aggressive clarity, zero hedging, combat metaphors for precision, every sentence earns its place. |
 | **Strategic Applicability** | Vector exists in isolation; no clear deployment path across formats or campaigns. | Vector comes with format-specific deployment guidance (social, VSL, email) but lacks beat ordering. | Vector includes full 8-Fold Elaboration mapping, format-specific density recommendations, and stack positioning within a campaign arc. |
+
+---
+
+## Evolution Log
+
+| Date | Change | Workflow | Result | Score Delta |
+|------|--------|----------|--------|-------------|
+| 2026-04-09 | Add Purchase Belief Isolation (Phase 3.5) to Insight Vector Generator — E/D/A classification, keystone identification, activation bridge | `insight-vector-generator.md` | KEPT | 6.7→8.3 (+1.6) |
+
+### Evolution: Purchase Belief Isolation (2026-04-09)
+
+**Hypothesis**: Insight vectors are generated and SIN-scored democratically, but not all high-SIN vectors drive purchase. A cognitive layer that classifies vectors by conversion role (Educator/Destabilizer/Activator) and isolates the load-bearing belief would make vector selection more precisely targeted to purchase tipping points.
+
+**What changed**: Phase 3.5 added between Grammar Mining and SIN Filter. Three-role classification (E/D/A), keystone belief identification via dependency + collapse + specificity tests, one-step activation bridge sentence. Quality gate now requires at least 1 [D] and 1 [A] in shortlist, plus bridge sentence for Activators.
+
+**Key finding**: In the benchmark (S&C coach → Authority Flywheel), baseline generated 5 solid vectors but treated them as equal candidates. Variant identified that only 1 of 5 was an Activator (translation bottleneck), 1 was a Destabilizer (Invisibility Trap), and 3 were Educators. The keystone — "the bottleneck is translation, not creation" — dissolves 3 objections simultaneously and points directly to the product. Biggest gain was Adversarial Resilience (+2): the E/D/A classification makes "but which one converts?" unanswerable as a critique.
