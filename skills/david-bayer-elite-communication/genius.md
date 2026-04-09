@@ -37,6 +37,17 @@
 *   **The "Empathetic Acknowledgment Bridge"**: Validates the other person's perspective, feelings, or perceived challenges *before* introducing a reframing, an alternative viewpoint, or a challenging truth. → **Deploy when**: Navigating conflict, delivering difficult news, encountering strong emotional reactions, or when the audience holds a deeply ingrained, counterproductive belief.
 *   **The "Actionable Insight Anchor"**: Translates abstract concepts or complex frameworks into immediate, concrete questions or tangible next steps, ensuring the insight is practical, not just intellectual. → **Deploy when**: Explaining a new methodology, offering advice, concluding a teaching point, or when the goal is to prompt immediate behavior change.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+
+### 2026-04-09 — Listener Decision-Mode Diagnosis (Phase 0)
+- **Hypothesis**: Adding a Phase 0 that diagnoses the listener's decision-making mode (analytical, operational-burned, status-protective, fear-based, curiosity-open), proof appetite, and conversation tempo BEFORE any speaker optimization will calibrate all subsequent phases to the specific human across the table.
+- **Result**: KEPT — Score improved from 7.0 to 8.3 (+1.3)
+- **Change**: Added Phase 0 (4 steps: Decision Mode Classification, Proof Appetite Mapping, Conversation Tempo Read, Calibration Directive) to high-stakes-interaction-power-mastery workflow.
+- **Benchmark scores**: Baseline [8, 7, 6] → Variant [9, 8, 8]. Biggest gain: Adversarial Resilience +2.
+- **Lesson**: The workflow was treating high-stakes conversations as monologue optimization. Diagnosing the listener first transforms it into a two-way power dynamic calibrated to the specific person. The variant script adapted proof type (local gym example), close structure (cost-avoidance, not upside), and tempo (slower, more silence) — all driven by the Phase 0 diagnosis.
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                                  | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                              | Score 10 (Savant)                                                                                                                                                                                                                                                                                                                                                                                                                              |
