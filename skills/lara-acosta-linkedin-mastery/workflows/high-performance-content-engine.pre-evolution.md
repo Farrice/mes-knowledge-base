@@ -3,23 +3,6 @@ produces: "Monthly Multi-Persona Content System"
 expert: "Lara Acosta - LinkedIn Content Mastery"
 load_context: "genius.md"
 
-# Evolution Variant — Adversarial Resilience
-
-## Hypothesis
-**Skill**: lara-acosta-linkedin-mastery
-**Target**: Adversarial Resilience dimension in high-performance-content-engine
-**Current Score**: 7.3/10 avg
-**Problem**: The workflow's quality gate checks structural completeness (hook virality, SLAY compliance, 4-3-2-1 ratio) but has no check for claim defensibility or proof density. Posts heavy on positioning can read as unsupported assertions to skeptical LinkedIn audiences. Genius patterns P5 (Authority Trigger Stack) and P6 (Social Proof Archaeology) are mentioned once as a sub-bullet in Phase 4 but not enforced.
-**Hypothesis**: Adding an explicit "Proof Layer" step after Phase 4 (copy execution) and two adversarial quality gate checks will force every post to contain at least one verifiable claim, increasing Adversarial Resilience without degrading other dimensions.
-**Expected Impact**: Adversarial Resilience from 7.3 → 8.0+
-
-## Changes from Current
-1. **New Phase 4b**: "Proof Layer Audit" — applies P5 Authority Trigger Stack and P6 Social Proof Archaeology as a mandatory pass on all posts
-2. **Two new Quality Gate checks**: "Skeptic Scan" and "Proof Density Check"
-3. All other phases unchanged
-
----
-
 # Lara Acosta - LinkedIn Content Mastery — High-Performance Content Engine
 
 ## Role
@@ -76,23 +59,6 @@ Execute the highest-priority posts using specific frameworks:
     - **Y (Your Turn)**: The engagement-driving question.
 3. **Authority Stacking**: Embed specific proof (numbers, names, timelines) into the body copy.
 
-### Phase 4b: Proof Layer Audit *(NEW — Adversarial Resilience)*
-*Genius Patterns: P5 Authority Trigger Stack + P6 Social Proof Archaeology.*
-
-After copy execution, run every post through this mandatory proof pass:
-
-1. **Claim Scan**: Identify every assertion in the post. For each one:
-   - Is it backed by a specific number, named example, or verifiable timeline?
-   - If not, either add proof OR reframe as opinion ("In my experience..." / "What I've seen...")
-   - Apply the Authority Trigger Stack: specific numbers > vague claims, named clients > "clients", timeline specificity > "eventually"
-
-2. **Proof Archaeology**: For posts that feel proof-thin:
-   - Mine for micro-proof: DM screenshots, email replies, before/after metrics, client quotes
-   - Stack at least ONE of: specific metric, named transformation, time-bounded result
-   - If no hard proof exists, apply "borrowed authority" — cite industry data, reference known figures, or use "when I worked with [type of client]" framing
-
-3. **Skeptic's Red-Pen**: Read each post as someone who thinks personal branding is a scam. Mark every sentence where they'd write "prove it" or "says who." Address each mark with specificity or reframing.
-
 ### Phase 5: The Growth Engine Integration
 1. **Sequence for Narrative Flow**: Ensure the Education posts build the logic for the Promotional posts.
 2. **Lead Magnet Teasers**: Create "Snippet" posts that pull high-value sections from the lead magnet to create desire before the "Drop" post.
@@ -106,7 +72,6 @@ A single, comprehensive **Monthly Content System** document containing:
     - 3 Hook variations per post.
     - Full body copy using SLAY or Framework structures.
     - ICP/IFP appeal annotations.
-    - **Proof annotations** *(NEW)*: Each post tagged with its proof type (metric, named example, borrowed authority, opinion reframe).
 4. **Promotional Sequence**: A specific 3-post "Launch" sequence for the Lead Magnet.
 5. **Overflow Topic Bank**: 5 extra ideas for each content type to ensure the user never runs out of ideas.
 
@@ -116,8 +81,6 @@ A single, comprehensive **Monthly Content System** document containing:
 3. **The 4-3-2-1 Check**: Does the monthly mix avoid being "too salesy" or "too generic"?
 4. **Positioning Integrity**: Does every post reinforce the core "I help..." statement?
 5. **SLAY Compliance**: Do the story posts bridge directly into actionable authority, or are they just "diary entries"?
-6. **Skeptic Scan** *(NEW)*: Could a LinkedIn cynic dismiss any post as "guru platitudes"? If yes, it needs specificity.
-7. **Proof Density Check** *(NEW)*: Does every post contain at least ONE of: specific metric, named example, timeline, or explicit opinion framing? Zero-proof posts fail this gate.
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 ---
