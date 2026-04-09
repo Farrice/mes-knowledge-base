@@ -35,7 +35,18 @@ Execute **Workflow 01 (ASCII Wireframe Generator)** to produce the initial wiref
 Key additions at this phase:
 1. **Component Inventory**: Before wireframing, enumerate every element required. Group by section. Identify hierarchy (primary, secondary, supporting).
 2. **User Flow Mapping**: If the asset has interactive elements (CTAs, forms, navigation), map the user flow BEFORE wireframing. This ensures spatial placement serves the intended journey.
-3. Produce the wireframe. Iterate until approved.
+3. **Conversion Traceability Matrix**: Before finalizing the wireframe, build a CTM table that forces every element to justify its existence in conversion terms. For each wireframe element, define:
+
+   | Element | Conversion Role | Decision Influenced | Test Statement |
+   |---------|----------------|--------------------:|----------------|
+   | [element name] | One of: **Attention Capture** (stops the scroll), **Desire Building** (creates want), **Friction Removal** (kills objections), **Action Triggering** (drives the click) | The specific viewer decision this element moves (e.g., "Should I keep reading?" / "Is this credible?" / "Is this worth my money?" / "Should I act now?") | How you would test whether this element helps or hurts conversion (e.g., "Remove this section — does bounce rate change?" / "Swap stat for testimonial — does CTA click rate change?") |
+
+   **Rules**:
+   - Any element that cannot fill all three columns gets CUT or MERGED. If you cannot articulate what decision it influences, the viewer's eye has no reason to land there.
+   - Elements in the wireframe must be ORDERED by the decision sequence: Attention Capture → Desire Building → Friction Removal → Action Triggering. This is the natural conversion flow — fight it and conversion drops.
+   - The CTM is delivered alongside the wireframe as a companion artifact. The wireframe shows WHERE. The CTM shows WHY.
+
+4. Produce the wireframe with CTM annotations. Iterate until approved.
 
 **GATE**: Do NOT proceed past this phase until the user confirms: "Wireframe is locked."
 

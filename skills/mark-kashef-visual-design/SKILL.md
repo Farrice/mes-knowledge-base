@@ -35,3 +35,15 @@ A universal visual planning protocol that uses ASCII art wireframes as the "cont
 - **With `sean-kochel-design-first-build`**: Wireframe as the design-first artifact
 - **With `kittl-graphic-design`**: Blueprint graphic layouts before Kittl production
 - **With `/generate-image`**: Translate wireframe specs into image gen prompts
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Add Conversion Traceability Matrix to Blueprint-to-Build Pipeline
+- **Hypothesis**: Adding a Conversion Traceability Matrix (CTM) to Phase 1 of workflow 02 — where every wireframe element must declare its conversion role, the viewer decision it influences, and a testability statement — will make visual hierarchy decisions conversion-traceable rather than purely structural.
+- **What changed**: New step 3 in Phase 1 of `workflows/02-visual-blueprint-to-build.md`. Four conversion roles (Attention Capture, Desire Building, Friction Removal, Action Triggering). Elements that can't fill the matrix get cut or merged. Element order must follow the natural conversion decision sequence.
+- **Benchmark task**: "Design the visual hierarchy for an Authority Flywheel landing page — every element justified by conversion impact"
+- **Baseline score**: Intent 7 / Expert 7 / Adversarial 5 / Composite 6.3
+- **Variant score**: Intent 9 / Expert 8 / Adversarial 8 / Composite 8.3 (+2.0)
+- **Result**: KEPT — strictly additive. Biggest gain in adversarial resilience (+3): every element now has a testable conversion justification. Original wireframe methodology untouched.
