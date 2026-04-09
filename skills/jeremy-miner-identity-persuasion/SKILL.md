@@ -8,7 +8,7 @@ description: >
   content, and any persuasive context.
 expert: Jeremy Miner
 domain: Sales Psychology, Identity Persuasion, Behavioral Influence, Frame Engineering
-workflows: 10
+workflows: 11
 ---
 
 # Jeremy Miner: Identity-Based Persuasion & Psychological Framing
@@ -35,6 +35,7 @@ Transforms how you persuade by shifting WHO the prospect believes they are — r
 | 8 | NPQ Conversation Architect | `npq-conversation-architect.md` | Generate complete sales conversation flows |
 | 9 | Self-Persuasion Question Designer | `self-persuasion-question-designer.md` | Design questions where prospects convince themselves |
 | 10 | Copy Psychology Injector | `copy-psychology-injector.md` | Upgrade any existing copy with psychological triggers |
+| 11 | NPQ Conversation Architect v2 — Identity Cartography | `npq-conversation-architect-v2-identity-cartography.md` | Pre-map prospect's identity architecture before asking questions (evolved variant of #8) |
 
 ## Slash Commands
 
