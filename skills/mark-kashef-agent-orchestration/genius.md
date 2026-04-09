@@ -68,6 +68,30 @@ Tacit expertise regarding agent performance that must be applied to orchestratio
 *   **The 3-to-5 Team Sizing Rule**: Consciously limits agent teams to 3 to 5 members, resisting the urge to add more, knowing that exceeding this range leads to diminishing returns, over-engineering, and excessive token burn.
     → **Deploy when**: Designing any multi-agent workflow to optimize for efficiency, clarity, and cost-effectiveness.
 
+## Circuit Breaker Architecture (Failure Resilience Layer)
+
+Multi-agent pipelines fail silently. One bad agent produces plausible-looking garbage that poisons every downstream agent. The Circuit Breaker Architecture prevents cascade failures by treating every agent handoff as a potential failure point.
+
+### Quality Tripwires (Handoff Gates)
+- **What they are**: Lightweight quality checks inserted between every agent handoff in a sequential chain, or before synthesis in a parallel chain.
+- **Three checks per tripwire**: (1) Output meets minimum density threshold for the role — a Researcher who returns 2 sentences tripped. (2) Output references the input payload — detects hallucinated pivots where an agent ignores its input and generates from training data. (3) Transformation check — output must meaningfully differ from input, catching agents that just reformatted without adding value.
+- **Deploy when**: Any sequential handoff or before a Synthesis Lead aggregates parallel outputs.
+
+### Fallback Paths (Graceful Degradation)
+- **What they are**: Pre-planned alternative routes when an agent trips a quality tripwire.
+- **The Execution**: On first trip — re-prompt the same agent with a tighter constraint and explicit correction ("Your output lacked X, regenerate focusing on Y"). On second trip — spawn a replacement agent with a different angle prompt using the same upstream payload. On third trip — insert an emergency Human Tollbooth ("Agent [role] has failed twice; here is the best attempt — should we proceed, redirect, or abort?").
+- **Why it works**: Prevents the two worst outcomes: (a) garbage flowing downstream unchecked, and (b) entire pipeline restart from scratch when only one agent failed.
+
+### Blast Radius Containment (Checkpoint Caching)
+- **What it is**: Caching each successful agent's output as a checkpoint, so failures downstream never require restarting the entire pipeline.
+- **The Execution**: After each agent passes its quality tripwire, the orchestrator stores that output as a named checkpoint (e.g., `checkpoint_researcher`, `checkpoint_strategist`). If Agent 3 fails, recovery starts from `checkpoint_agent2`, not from the original input.
+- **Why it works**: In a 5-agent pipeline, a failure at Agent 4 without checkpoints wastes all work from Agents 1-3. With checkpoints, you only re-run from the last good state.
+
+### Degradation Signals (Pipeline Health Monitor)
+- **What they are**: A running confidence score tracked by the Omniscient Observer across the entire pipeline.
+- **The Execution**: Each quality tripwire reports PASS (no issues), WARN (marginal quality, passed but flagged), or FAIL (tripped). Two consecutive WARNs automatically insert a Human Tollbooth before the next agent engages. Any FAIL triggers the Fallback Path. The orchestrator surfaces the confidence trajectory to the user at the final Tollbooth: "Pipeline health: 4/5 PASS, 1 WARN at Strategist stage."
+- **Why it works**: Makes invisible quality erosion visible. Without this, a pipeline can produce a 6/10 deliverable where every agent was individually 7/10 but small losses compounded.
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
