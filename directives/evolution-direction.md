@@ -107,6 +107,7 @@
 | 2026-04-09 | eric-roth-screenwriting-mastery | Add Subconscious Accumulation Architecture to Screenplay Architect | KEPT | 7.3→8.7 (+1.4) | 5 accumulation mechanics (Echo Planting, Absence Architecture, Behavioral Drift Mapping, Thematic Pressure Points, Convergence Tightening). Engineers invisible emotional pressure — endings feel inevitable. Expert Standard +2, Adversarial +1. First SCREENWRITING skill evolved (not content adaptation). |
 | 2026-04-09 | brock-johnson-shareworthy-content | Add Sharer Identity Casting (Phase 1.5) to Shareworthy Content Factory | KEPT | 7.0→8.3 (+1.3) | Separates SHARER from READER psychology. 5 steps: identify actual sharers, name performed identity role, draft forwarding sentence, map second-order audience, design identity payoff into content. Sharing becomes self-presentation, not favor-to-creator. Adversarial +2, Expert Standard +1. |
 | 2026-04-09 | authority-hacker-ai-social-media | Add Momentum Sequencing — post-to-post compounding via signal classification, 3-post sequences, callback yield | KEPT | 6.7→8.3 (+1.6) | Fills gap between Pattern 6 (weekly audit) and creative compounding. Posts become nodes in serialized narrative, not isolated events. Adversarial +2. |
+| 2026-04-09 | alex-copper-creative-strategy | Add Creative Collision Architecture to Performance Creative Production | KEPT | 7.0→8.3 (+1.3) | Phase 0: Category Creative Inventory, Audience Expectation Set, Collision Design (one-violation rule), Uncopiability Test. Engineers genuine surprise by violating one category expectation while preserving strategic alignment. "Right but boring" eliminated. Adversarial +2. |
 
 ---
 
@@ -125,7 +126,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 29 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 30 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |

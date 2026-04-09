@@ -280,3 +280,40 @@
 | **Niche Pain Resonance**      | Broadly relatable, but doesn't hit a specific, deep nerve within any audience segment. | Clearly targets a niche, but the pain described is common or somewhat superficial.                 | Articulates a specific, often unsaid, deep-seated frustration or aspiration of a narrow, passionate niche, leading to intense "they get me" reactions and high save/share rates from that micro-audience.                                                                                                    |
 | **Algorithmic Feedback Potential** | Standard post; any engagement is a bonus without explicit design for data capture.   | Designed for general engagement (e.g., "what do you think?"), but without clear, trackable intent. | Engineered to elicit specific, trackable engagement types (e.g., "save this if...", "comment your side if...", "share with someone who needs this") that directly feed into a self-improving content system and inform future strategy.                                                                           |
 | **Hook-Dominance Ratio**      | Hook is weak or generic, requiring the body copy to do all the heavy lifting.        | Hook is decent, but relies on the first few sentences of body copy to fully capture attention.    | The hook (visual + first 3 seconds of text) captures 80% of the attention, making the body copy's job simply to fulfill the hook's promise to an already engaged audience, not to earn initial interest.                                                                                                     |
+
+---
+
+## Pattern 13: Momentum Sequencing (Evolution: 2026-04-09)
+
+**The Pattern**: Most content strategies treat each post as an independent event. Momentum Sequencing treats your content feed as a serialized narrative where each post's engagement data becomes the creative fuel for the next post, creating algorithmic compound interest. Posts don't just perform -- they compound.
+
+**Five Mechanics**:
+
+1. **Signal Classification**: After each post, classify the dominant engagement signal. Saves = audience wants reference value (lean into frameworks next). Comments = audience wants debate (lean into duality next). Shares = audience sees social currency (engineer forwarding hooks next). DMs = audience trusts you with vulnerability (go deeper on personal stakes next). The strongest signal determines the emotional entry point of the next post -- not a blank-slate brainstorm.
+
+2. **3-Post Momentum Sequences**: Every 3 posts form a compound unit. Post A opens an emotional or intellectual loop. Post B escalates using real audience reactions to Post A ("47 of you DM'd me after that last post -- here's what every single one said..."). Post C resolves the loop AND opens the next one. The audience experiences a serialized story, not disconnected content.
+
+3. **Callback Yield**: Reference prior posts' audience reactions explicitly. This creates insider community feeling, rewards consistent followers, and signals to the algorithm that your account sustains ongoing conversation (not isolated spikes). The callback is never manufactured -- it uses actual engagement data as proof of resonance.
+
+4. **Algorithmic Compound Interest**: Platform algorithms evaluate account-level engagement velocity -- the *trend direction* matters more than absolute numbers. Momentum sequences engineer each post's performance to lift the floor for the next post. Three ascending posts create more algorithmic lift than three equally strong but disconnected posts.
+
+5. **Signal-to-Strategy Translation Table**:
+   - Saves dominate → next post: reference frameworks, checklists, "save this for later" hooks
+   - Comments dominate → next post: sharper duality, identity challenges, "which side are you on?" hooks
+   - Shares dominate → next post: social currency engineering, "send this to someone who..." hooks
+   - DMs dominate → next post: deeper vulnerability, insider knowledge, "I don't usually share this..." hooks
+   - Silence → don't post more. Diagnose. Revisit niche targeting (Pattern 5).
+
+**Deploy When**: Any content calendar planning that spans 2+ weeks. Particularly powerful for launch sequences (Authority Flywheel, product launches, audience building sprints) where compounding matters more than individual post performance. Activates after minimum 1 week of posting data exists.
+
+**What This Changes**: The organic-content-factory workflow gains a Phase 0 (Signal Read) that ingests prior week's engagement data before emotional mining begins, and a Phase 6.5 (Sequence Threading) that ensures the 7-day calendar contains at least two 3-post momentum sequences with explicit callback points.
+
+**Success Metric**: Average engagement per post trends upward week-over-week (not flat or declining). Follower-to-engagement ratio improves over 4-8 weeks. The content calendar for Week 4 is measurably sharper than Week 1 because the system learned from 21 posts of data.
+
+---
+
+## Evolution Log
+
+| Date | Hypothesis | Result | Score Delta | Notes |
+|------|-----------|--------|-------------|-------|
+| 2026-04-09 | Add Momentum Sequencing — post-to-post compounding via engagement signal classification, 3-post sequences, callback yield, algorithmic compound interest | KEPT | 6.7→8.3 (+1.6) | Fills the gap between Pattern 6 (weekly audit) and actual creative compounding. Baseline treats each post as independent; variant creates serialized narrative where engagement data is creative fuel. Biggest gain on Adversarial (+2) — survives "what happens in week 8?" |
