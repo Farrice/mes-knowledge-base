@@ -195,6 +195,17 @@
 
 **The "Open-Loop Anchor" Close**: Ends paragraphs and scenes by subtly introducing a new, small question or unresolved tension, often linked to an emotional state, ensuring the reader is always leaning forward. → **Deploy when**: Concluding any paragraph, scene, or chapter to create the "just one more chapter" effect (Pattern 5, 6).
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+
+### 2026-04-09 — Structural Inevitability Architecture (KEPT)
+- **Hypothesis**: Adding a Phase 2.5 "Structural Inevitability Architecture" to the strategic-brand-narrative-system workflow will produce stories where endings feel both surprising and the only possible conclusion, by engineering seed planting, convergence design, dramatic irony, emergent moral, and retroactive revaluation.
+- **Result**: KEPT — Score improved from 7.3 to 8.7 (+1.4)
+- **Change**: Added Phase 2.5 between Proof-First Positioning and Cognitive Dissonance with 5 mechanics (Seed Planting, Convergence Design, Dramatic Irony Architecture, Emergent Moral, Retroactive Revaluation) and Inevitability Audit quality gate.
+- **Benchmark**: "200-word Authority Flywheel origin story" — Baseline [8, 7, 7] = 7.3 → Variant [9, 9, 8] = 8.7
+- **Lesson**: The skill had strong engagement mechanics (forward-pull, tension) but no convergence mechanics (making endings feel inevitable). The notebook-as-structural-seed technique demonstrated the difference: a detail that appears to characterize the client actually becomes the load-bearing element that makes the voice memo payoff land. Dramatic irony (reader knows the answer before the narrator) is the most reliable path to the "of course" feeling.
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
