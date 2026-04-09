@@ -1,143 +1,105 @@
-# Coach Cooz — Master Index
-## Complete Project Compilation | April 2026
+# Coach Cooz — Project Index
+## Current as of 2026-04-09
 
 **Client**: Acusio Bivona ("Coach Cooz" / The Resurrection Coach)
 **Website**: coachcooz.com
-**Niche**: Executive health & vitality coaching — body-first transformation
-**ICP**: Executive founders, high-achieving men ($150K+)
-**Price Point**: $5,000 (90-Day Resurrection Protocol), down from $10K aspiration
-**Status**: Pre-revenue on coaching side, pivoting to organic-first LinkedIn strategy
+**Niche**: Body-first transformation coaching for men
+**ICP**: The Man in the Valley — adult men 32-52, small business owners/tradesmen/operators, $2K-$4K price range
+**Offer**: The Ignition — 12 weeks, $1,997 founding / $2,997 list / $4,000 post-proof
+**Status**: Ignition Plan ready to ship. Pre-revenue. 7 commitment questions pending with Cooz.
+**Strategist**: Farrice Cain
 
 ---
 
-## File Count: 169 files across 9 categories
+## HOW TO NAVIGATE THIS FOLDER
+
+### Start here — the 3 things that matter
+
+| Priority | Folder | What's inside | Status |
+|---|---|---|---|
+| **1** | **`15-final-package/`** | The complete handoff package — 11 documents, 45K words. Start with `04-COOZ-MARCHING-ORDERS.md`. | **CURRENT — ship this** |
+| **2** | **`14-ignition-plan/`** | The source Ignition Plan (also copied into 15-final-package as `01-THE-IGNITION-PLAN.md`) | CURRENT |
+| **3** | **`13-pmf-investigation/`** | 3 research reports (McBroom reverse-engineer, buyer investigation, business architecture). Referenced by the Ignition Plan. | CURRENT (reference only) |
+
+### Supporting materials (Farrice internal reference)
+
+| Folder | What's inside | Status |
+|---|---|---|
+| `02-source-docs/` | 8 Tenets Framework, Voice Guide, 4-expert avatar swarm v2 dossiers | CURRENT — the swarm v2 outputs are the live ICP intelligence |
+| `03-research/` | WS1, WS1.5, WS1.6 research (voice validation, Apify data, market reality), Perplexity findings | CURRENT — research data still valid, referenced throughout |
+| `07-client-artifacts-pdfs/` | 50+ PDFs from all phases (Aug 2025 through 2026). Sales scripts, brand docs, business plans. | HISTORICAL — not updated, not current strategy |
+| `09-latest-context-april-2026.md` | Cooz voice memos + text messages from early April 2026 | CURRENT — Cooz's own words and current state |
+
+### Dead work (do not use for current strategy)
+
+| Folder | What it is | Why it's here |
+|---|---|---|
+| `_DEPRECATED/` | **ALL prior work** — 6 pivots, 100+ files, May 2025 through April 2026. Executive-founder avatar, $10K pricing, LinkedIn-first strategy, CAPS system, Manus research, etc. | Preserved for historical reference. See `_DEPRECATED/README.md` for the full inventory. **Nothing in here is current.** |
 
 ---
 
-### 00-strategic-core/ (6 files)
-The most important documents — read these first for full context.
+## THE FINAL PACKAGE (what ships to Cooz)
 
-| File | What It Is |
-|------|-----------|
-| `COACH_COOZ_STRATEGIC_OVERVIEW.md` | 13-expert swarm strategic analysis (Feb 2026) |
-| `DIRECT_MESSAGE_TO_ACUSIO_HONEST_ASSESSMENT.md` | Farrice's honest assessment + data-backed diagnosis |
-| `coach-cooz-deep-dive-march-2026.md` | March 2026 deep dive — content audit, engagement analysis, jargon diagnosis |
-| `2026-03-06-coaching-ghostwriting-gtm.md` | Go-to-market strategy brief for coaching vertical |
-| `2026-03-06-coaching-consumer-posture-profile.md` | Consumer posture analysis for coaching buyers |
-| `2026-03-06-coaching-ghostwriting-vertical-research.md` | Vertical research plan for coaching ghostwriting |
+All in `15-final-package/`. Read in this order:
 
-### 01-deliverables-feb-2026/ (8 files)
-The full deliverable package from the February 2026 expert swarm.
-
-| File | What It Is |
-|------|-----------|
-| `01-narrative-and-positioning.md` | "The Dormant Quarterback" origin story + 4 executive archetypes |
-| `02-linkedin-10-post-series.md` | 10-post LinkedIn series (dormant power framing) |
-| `03-email-sequences.md` | Email sequences for lead nurturing |
-| `04-gemini-gem-content-engine.md` | Gemini Gem prompt for content generation |
-| `05-gemini-gem-podcast-engine.md` | Gemini Gem prompt for podcast content |
-| `06-gemini-gem-business-coach.md` | Gemini Gem prompt for business strategy |
-| `07-notebooklm-and-launch-sequence.md` | NotebookLM setup + launch sequence |
-| `08-claude-cowork-sop.md` | Claude coworking SOP for ongoing work |
-
-### 02-source-docs/ (15 files + 8 avatar swarm outputs)
-Supporting research and intelligence that fed the deliverables.
-
-- `AVATAR_DOSSIERS_UNIFIED.md` — Unified avatar profiles
-- `CEO-CASE-STUDY.md` — Case study format
-- `COMPETITIVE_INTELLIGENCE_EXECUTIVE_COACHES_2026.md` — Competitive landscape
-- `coach_cooz_icp_avatars_luke_iha_15_dimension_framework.md` — Luke Iha framework ICPs
-- `AI_PROMPT_LIBRARY.md` — Collection of AI prompts
-- `avatar-swarm-outputs/` — 8-expert avatar intelligence (consumer posture, psychology, psychographic, buyer profile, identity persuasion, emotional outcome, market intel, brand magnetism)
-
-### 03-research/ (3 files)
-Raw research and competitive intelligence.
-
-- `research-coach-frustrations.md` — Coach market frustrations research
-- `research-coaching-benchmarks.md` — Coaching industry benchmarks
-- `perplexity_findings.md` — Perplexity web research findings
-
-### 04-content/ (2 files)
-Content assets and calendars.
-
-- `cooz-linkedin-posts.md` — LinkedIn post collection (141KB)
-- `90_DAY_CONTENT_CALENDAR_RESURRECTION_COACH.md` — 90-day content calendar
-
-### 05-offers-and-frameworks/ (16 files)
-Offer architecture, frameworks, sales materials, and voice guides.
-
-- `OFFER_1_THE_INTENSIVE_4997_REVISED_V2.md` — The Intensive ($4,997)
-- `OFFER_2_THE_REBUILD_10K_REVISED_V2.md` — The Rebuild ($10K)
-- `BOOKING_PAGE_8_QUESTIONS_REVISED_V2.md` — Revised booking questions
-- `NAMED-FRAMEWORKS-REFERENCE.md` — Named frameworks reference
-- `8-TENETS-FRAMEWORK.md` — 8 Tenets framework
-- `VOICE-GUIDE.md` — Voice and tone guide
-- `COACH COOZ COMPREHENSIVE VOICE STYLE GUIDE.md` — Comprehensive style guide
-- `first_48_hours_body_led_recovery_coach_cooz.md` — First 48 hours protocol
-- `coach_cooz_coaching_call_kit_slides_talk_track.md` — Coaching call kit
-- `coach_cooz_call_brief_avatar_problem_uvp_offers_script.md` — Call brief + scripts
-- `coach_cooz_uvp_brand_copy_pitch_content_playbooks_ash_maurya_method.md` — Ash Maurya method playbooks
-- `autoresponder_sequence_partner_referral_one_pager_coach_cooz.md` — Autoresponder sequence
-- `coach_cooz_one_page_sales_sheet_minimum_viable_website_mvw.md` — One-page sales sheet
-- `productized_offers_deliverables_transformation_narrative_coach_cooz.md` — Productized offers
-- `PHASE_3_LEAD_GEN_MACHINE.md` — Phase 3 lead gen machine
-- `MASTER_DELIVERABLE_PACKAGE_V2.md` — Master deliverable package overview
-
-### 06-manus-research/ (17 files)
-ManusAI deep research outputs (earlier phase — local Burbank market focus).
-
-- Partnership proposals (Warner Bros, Whole Foods, EnrichFit)
-- Platform selection strategy
-- Client acquisition strategy
-- Fitness business strategy playbook
-- 21-day action plan
-- Content system + marketing templates
-
-### 07-client-artifacts-pdfs/ (50+ files)
-PDFs, images, and assets from all phases of work.
-
-- Aug 2025 deliverables (positioning, content strategy, offers, video scripts, partnerships)
-- Sales scripts, objection handling systems
-- Brand analyses, purpose blueprints
-- Content calendars, marketing playbooks
-- Lean canvas, business plans
-- Gym photo, LinkedIn banners
-
-### 08-earlier-work/ (18 files + website)
-Previous iterations and archived approaches.
-
-- `CAPS-system/` — 6 versions of the CAPS Transformation System (v1.0 through Virtuoso Edition)
-- `archive-package/` — Original Resurrection Coach Complete Package including:
-  - Brand identity system guidebook
-  - Website audit and copy overhaul
-  - LinkedIn/Instagram profile overhaul
-  - Email sequences
-  - Custom Gemini system prompt
-  - Static website (HTML/CSS/JS)
-- `Coach Cooz-MY BRAVE TRANSFORMATION COACHING PIVOT.md` — Earlier "Brave Transformation" pivot
-
-### 09-latest-context-april-2026.md (1 file)
-Current state compiled from April 2026 text/voice messages.
+| # | File | Who reads it | What it is |
+|---|---|---|---|
+| 00 | `00-START-HERE.md` | Cooz + Farrice | Orientation — read order, critical decisions, hard rules |
+| 04 | `04-COOZ-MARCHING-ORDERS.md` | **Cooz reads FIRST** | The 80/20 action doc — what to do, when, in what order. Offer card, voice card, week-by-week milestones. |
+| 09 | `09-COMMITMENT-QUESTIONS.md` | Farrice leads, Cooz answers | 7 commitment questions. Run on a 30-min call before the plan ships. |
+| 01 | `01-THE-IGNITION-PLAN.md` | Cooz (Sections 1, 3, 6, 8) | The 14.5K-word plan with 10 sections + 5 appendices + 3 offer variations |
+| 02 | `02-man-in-the-valley-playbook.md` | Farrice only | Unified ICP from 4-expert swarm + Provider Trap + verified trigger hierarchy |
+| 03 | `03-cooz-voice-profile.md` | Farrice only | Machine-readable voice DNA for the Cooz Flywheel |
+| 05 | `05-website-design-brief.md` | Farrice / designer | UP-modeled Squarespace brief + 5 wireframes + implementation notes |
+| 06 | `06-cooz-flywheel-quickstart.md` | Farrice only | How to operate the Cooz content flywheel weekly |
+| 07 | `07-WEEK-0-CHECKLIST.md` | Both | Pre-ship punch list — Farrice weekend tasks + Cooz Monday morning |
+| 10 | `10-verification-report.md` | Farrice only | Independent verification summary (9/10 claims confirmed) |
+| — | `GROUNDING-RESEARCH-PROMPT.md` | Farrice (for re-verification) | Copy-paste prompt for running independent AI verification |
 
 ---
 
-## Timeline of Pivots
+## WHAT COOZ GETS (the handoff)
 
-| When | Direction | What Happened |
-|------|-----------|--------------|
-| May 2025 | Local fitness + online hybrid | CAPS system, Burbank market, ManusAI research, partnerships |
-| Aug 2025 | "Brave Transformation" coaching | Content strategy, video scripts, offer architecture |
-| Late 2025 | Back to "Resurrection Coach" | Doubled down on moniker, executive focus |
-| Feb 2026 | 13-expert swarm package | Full strategic overhaul, "dormant power" reframe, $10K targeting |
-| Mar 2026 | Honest content audit | Jargon diagnosis, 0 engagement reality check, "Ferrari without driving instructor" |
-| Apr 2026 | Organic-first, $5K pricing | LinkedIn paused, website rewritten, authority flywheel deployment |
+Send Cooz exactly these files, in this order:
+1. `15-final-package/00-START-HERE.md`
+2. `15-final-package/04-COOZ-MARCHING-ORDERS.md`
+3. `15-final-package/09-COMMITMENT-QUESTIONS.md`
+4. `15-final-package/01-THE-IGNITION-PLAN.md`
+5. `15-final-package/07-WEEK-0-CHECKLIST.md`
+
+**Do NOT send**: files 02, 03, 05, 06, 10, or the grounding prompt. Those are Farrice internal.
 
 ---
 
-## Source Locations (Original)
-- `Google Antigravity/deliverables/coach-cooz-final/` — Feb 2026 deliverables
-- `Google Antigravity/_archive/ACUSIO_RESURRECTION_COACH_COMPLETE_PACKAGE/` — Archived package
-- `Downloads/00_CLIENTS/Coach_Cooz/` — Client artifacts and PDFs
-- `Google Antigravity/.tmp/` — Research and content files
-- `Google Antigravity/strategy_briefs/` — Strategy briefs
-- `Google Antigravity/docs/plans/` — Planning docs
+## KEY DATES
+
+| Date | What happened |
+|---|---|
+| May 2025 | Project started — local fitness + online hybrid, CAPS system, Burbank market |
+| Aug 2025 | "Brave Transformation" pivot — content strategy, video scripts, offer architecture |
+| Late 2025 | Back to "Resurrection Coach" — executive focus, $10K targeting |
+| Feb 2026 | 13-expert swarm package — full strategic overhaul, "dormant power" reframe |
+| Mar 2026 | Honest content audit — jargon diagnosis, 0 engagement reality check |
+| Apr 6-7, 2026 | WS1/WS1.5/WS1.6 research — voice validation, Apify data, market reality |
+| Apr 8, 2026 | PMF Investigation (3 reports) — McBroom reverse-engineer, buyer investigation, business architecture |
+| **Apr 8-9, 2026** | **Ignition Plan + complete handoff package built. 4-expert ICP swarm rebuilt. Independent verification run. Package ready to ship.** |
+
+---
+
+## COOZ FLYWHEEL
+
+The content generation workflow for Cooz is at `.agent/workflows/cooz-flywheel.md`. Run via `/cooz-flywheel [voice memo transcript]`.
+
+---
+
+## THE RULE
+
+**If you're looking at a file and you're not sure whether it's current, check the folder it's in.**
+- `15-final-package/` → current, ship it
+- `14-ignition-plan/` → current, source of truth
+- `13-pmf-investigation/` → current, reference
+- `02-source-docs/` → current (8 Tenets, Voice Guide, avatar-swarm-v2)
+- `03-research/` → current (research data)
+- `09-latest-context-april-2026.md` → current (Cooz's own words)
+- `_DEPRECATED/` → dead. Do not use for current strategy.
+- Everything else → check the INDEX (this file) first.
