@@ -119,6 +119,7 @@
 | 2026-04-09 | seena-rez-tiktok-commerce | Add Self-Recognition Trigger Architecture (Phase 3.5) to Viral Video Production Engine | KEPT | 6.3→8.3 (+2.0) | 5 trigger mechanics (Private Behavior Mirror, Temporal Self-Comparison, Unspoken Internal Monologue, Environmental Detail Anchoring, Identity Gap Crystallization). Bridges attention-to-intent gap at seconds 12-18. Viewer becomes participant, not spectator. Adversarial +3. |
 | 2026-04-09 | luke-iha-unaware-ads | Add Pre-Awareness Trigger Mapping (Phase 1.5) to Unaware Ad Architect | KEPT | 7.0→8.3 (+1.3) | Behavioral inventory, private moment ID, rationalization mapping, trigger-to-hook bridge. Ads recreate the moment of self-recognition instead of asserting the problem. Adversarial +2 (biggest gain). |
 | 2026-04-09 | jonathan-franzen-storytelling | Add Flaw-as-Plot-Engine Diagnostic (Phase 2.5) to Character-Driven Narrative Blueprint | KEPT | 7.0→8.3 (+1.3) | Causal chain: flaw→misperception→reasonable wrong choice→consequence. Load-Bearing Test + Dual-Identification Test in quality gate. Characters whose flaws generate plot, not just react to it. Adversarial +2. |
+| 2026-04-09 | jim-oshaughnessy-philosopher-financier | Add Decision Forcing Function (Phase 5.5) to Systematic Edge & Risk Audit | KEPT | 6.3→8.3 (+2.0) | 72-Hour Rule, Inversion Kill Shot, Regret Minimization Compression, Irreversibility Gradient. Reclassifies decisions after removing emotional distortion. Adversarial +3. |
 
 ---
 
@@ -137,7 +138,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 38 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 39 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |

@@ -1,5 +1,5 @@
 name: "Systematic Edge & Risk Audit"
-produces: "A comprehensive investment or strategic decision framework that identifies behavioral arbitrage opportunities while neutralizing cognitive bias."
+produces: "A comprehensive investment or strategic decision framework that identifies behavioral arbitrage opportunities while neutralizing cognitive bias — ending with an irreversible commitment protocol."
 expert: "Jim O'Shaughnessy: Philosopher-Financier Skill"
 load_context: "genius.md"
 
@@ -47,13 +47,29 @@ Execute **Genius Pattern 9 (The Four Horsemen Defense)** to detect the emotional
 Apply **Genius Pattern 11 (Consensus Reality Check)** to find the edge.
 1. **Consensus Mapping**: Define the "Obvious Trade" or "Standard View."
 2. **Evidence Audit**: Identify where the data contradicts the narrative. Is this a "This Time is Different" scenario?
-3. **Behavioral Leverage Points**: Identify where the crowd’s hardwired impatience or discomfort creates an arbitrage opportunity (e.g., Time Arbitrage: being willing to wait 5 years when the market demands results in 5 months).
+3. **Behavioral Leverage Points**: Identify where the crowd's hardwired impatience or discomfort creates an arbitrage opportunity (e.g., Time Arbitrage: being willing to wait 5 years when the market demands results in 5 months).
 
 ### Phase 5: The Practitioner Reality Filter
 Execute **Genius Pattern 5 (Practitioners Over Academics)** to ensure the strategy survives contact with reality.
 1. **Assumption Audit**: List every "must-be-true" condition for this strategy to work.
 2. **Constraint Collision**: Stress-test the strategy against your **[CONSTRAINTS]**. Where does the theory die on contact with your actual budget, time, or skill?
 3. **Edge Case Mapping**: Identify the "Face-Punch" scenario. If the worst happens, does the system survive, or is it fragile?
+
+### Phase 5.5: The Philosopher's Commitment Gate (Decision Forcing Function)
+Apply the Barron's Gambit principle: philosophical clarity that doesn't convert to irreversible action is expensive entertainment, not strategy.
+
+1. **The 72-Hour Rule**: Name the ONE decision this analysis demands. State it as: "I will [specific action] by [specific date no more than 72 hours out], and I cannot undo it because [irreversibility mechanism]." If you cannot write this sentence, the analysis has failed — go back to Phase 1 and identify which "Human Nature Constant" you are avoiding.
+
+2. **The Inversion Kill Shot**: State the decision's opposite. "I will NOT [action] because [reasons]." Now score both options on a single axis: *Which choice do I learn more from in 90 days?* The option with higher learning value wins ties. This exploits Pattern 6 (Feedback Obsession) — choose the path that generates the most signal, not the one that feels safest.
+
+3. **The Regret Minimization Compression**: Project forward 10 years. Which version of this decision would you regret NOT having made? Compress the philosophical insight into: "The human nature constant at play is [X]. The crowd is wrong about [Y]. Therefore I must [Z] before [date]." This is the Arbitrage Thesis made executable.
+
+4. **The Irreversibility Gradient**: Classify the commitment level required:
+    - **Reversible test** (< 5% of resources): Execute immediately, no further deliberation needed
+    - **Costly pivot** (5-25% of resources): Execute within 72 hours with one pre-commitment guardrail
+    - **Burning ship** (> 25% of resources): Execute only after writing a Pre-Mortem — "If this fails, I will know by [signal] at [date], and my exit is [specific action]"
+    
+    **Critical**: Most decisions people agonize over are Reversible Tests disguised as Burning Ships by the Four Horsemen. If Phase 3 detected Fear or Hope distortion, re-classify the commitment level AFTER removing the emotional distortion.
 
 ### Phase 6: The Decision Architecture
 Consolidate the audit into a final execution framework.
@@ -67,14 +83,17 @@ The user receives a **Systematic Edge & Risk Audit Report** (.md) containing:
 2. **Intuition Trust Map**: A clear directive on whether to trust your gut or follow the data in this specific domain.
 3. **The Four Horsemen Scorecard**: Intensity levels and specific distortions for Fear, Greed, Hope, and Ignorance.
 4. **The Arbitrage Thesis**: A 1-sentence statement of your behavioral edge (e.g., "Exploiting the market's current fear of X by utilizing a 3-year time horizon").
-5. **The Practitioner's Guardrails**: 3-5 non-negotiable rules for execution.
-6. **Pre-Commitment Contract**: A list of decisions made today to bind your future self.
+5. **The Commitment Sentence**: "I will [action] by [date] because [constant], and I cannot undo it because [mechanism]."
+6. **The Irreversibility Classification**: Reversible test / Costly pivot / Burning ship — with the emotional distortion adjustment.
+7. **The Practitioner's Guardrails**: 3-5 non-negotiable rules for execution.
+8. **Pre-Commitment Contract**: A list of decisions made today to bind your future self.
 
 ## Quality Gate
 1. **The O'Shaughnessy Test**: Does the strategy rely on a "Human Nature Constant" or a "Surface Variable"? (Must be the former).
 2. **The Face-Punch Check**: Has the strategy been adjusted for real-world constraints, or is it still "spreadsheet-perfect"?
 3. **The Horseman Neutralizer**: Are there specific, actionable guardrails for every detected emotion?
 4. **The Arbitrage Clarity**: Is the edge behavioral (doing what others won't/can't) rather than just informational?
+5. **The Commitment Test**: Does the output contain a specific action with a specific date? If the user can read the entire report and still not know what to DO on Monday morning, it fails.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

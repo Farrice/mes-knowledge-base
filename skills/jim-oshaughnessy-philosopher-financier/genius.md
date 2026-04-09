@@ -189,6 +189,18 @@ An investment guru gains popularity during a bull market by advocating for "hot"
 
 **The Counter-Consensus Probe**: Upon encountering widespread agreement or a dominant narrative, reflexively initiates a mental search for the underlying truth vs. the collective belief. → **Deploy when**: Reading mainstream financial news, evaluating popular investment themes, or observing cultural phenomena.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Decision Forcing Function (Adversarial Resilience)
+- **Hypothesis**: Adding a "Philosopher's Commitment Gate" phase (5.5) between analysis and output forces philosophical depth to resolve into concrete action — preventing analysis paralysis, which is philosophical thinking's biggest failure mode.
+- **Result**: KEPT — Score improved from 6.3 to 8.3 (+2.0)
+- **Change**: Added Phase 5.5 with four sub-steps: 72-Hour Rule, Inversion Kill Shot, Regret Minimization Compression, Irreversibility Gradient. Added Commitment Sentence and Irreversibility Classification to Output Contract. Added Commitment Test to Quality Gate.
+- **Lesson**: The original workflow was excellent at diagnosis but never forced a decision. Adversarial Resilience jumped +3 because critics can no longer say "great analysis, but what should I DO?" The Irreversibility Gradient is the key innovation — it reclassifies decisions after removing emotional distortion, which is O'Shaughnessy's own pattern (systems that work WITH human nature).
+- **Benchmark scores**: Current [7, 7, 5] → Variant [9, 8, 8]
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
