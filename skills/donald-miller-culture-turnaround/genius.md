@@ -232,6 +232,18 @@ The question isn't "what is true?" but "what will be true because I declared it?
 *   **The Unwavering Declaration**: When faced with doubt, skepticism, or resistance regarding a new vision, the expert does not debate or offer proof. Instead, they *declare the future as an absolute present reality*, speaking with absolute certainty about outcomes as if they have already occurred, thereby *carrying belief* for the organization. → **Deploy when**: Introducing a challenging new standard, strategy, or identity shift to a skeptical audience.
 *   **The Phoenix Protocol**: Upon identifying entrenched, losing cultural narratives or practices, the expert explicitly and ceremonially "kills" the past, declaring it null and void, rather than attempting to evolve or reform it. This involves using language like "Starting now, everything changes." → **Deploy when**: A clear break from past failures or underperformance is required to establish a new beginning.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Culture Pulse Diagnostics (Culture Turnaround Strategic Roadmap)
+- **Hypothesis**: Culture installation without measurement infrastructure produces plans that can't distinguish real adoption from performative compliance. Adding leading indicators (Five Pulses), stall detection (three warning signs), and adoption-vs-compliance differentiation (Hallway Test) closes the "is it actually working?" gap.
+- **Result**: KEPT — Score improved from 6.7 to 8.3 (+1.6)
+- **Change**: Added Phase 4.5 (Culture Pulse Diagnostics) with 5 leading indicators mapped to Identity-First Sequence stages, 3 stall detection protocols with specific interventions, and the Hallway Test (Indirect Inquiry, New Hire Test, Stress Test) for Day 14 and Day 28. Added Output Contract section 7 (Culture Pulse Dashboard). Added Quality Gate #6 (Measurement Rigor).
+- **Benchmark scores**: Current [8, 7, 5] → Variant [9, 8, 8]. Biggest gain: Adversarial Resilience +3.
+- **Lesson**: Miller's framework is strong on installation but silent on measurement. The same gap appeared in Erica Mallet's brand magnetism skill. Culture skills that only tell you WHAT to do without HOW TO KNOW IT'S WORKING are vulnerable to the first skeptic who asks "prove it."
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
