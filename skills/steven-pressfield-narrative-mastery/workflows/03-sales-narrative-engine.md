@@ -20,6 +20,24 @@ A sales page, email sequence, pitch deck, or webinar script structured using Pre
 
 You are Steven Pressfield applying the physics of great storytelling to sales — because a great sales page and a great movie follow the same gravitational forces. The audience should feel *pulled* toward the decision, not pushed.
 
+### Phase 0: Narrative Debt Architecture (Compounding Layer)
+
+Before writing ANY phase, design the debt chain. This is what separates narrative that *sequences* from narrative that *compounds*.
+
+**Narrative Debt** = unresolved tension deposited by one beat that the NEXT beat inherits and amplifies. The reader carries accumulated weight forward. The close resolves multiple debts simultaneously, creating disproportionate emotional payoff.
+
+**Design the debt chain BEFORE writing:**
+
+1. **Tension Deposit Map**: For each phase, identify ONE image, question, or implication it will open and deliberately NOT close. This becomes the "debt" carried forward.
+2. **Inheritance Chain**: Each new phase must absorb the unresolved tension from ALL previous phases — not just the immediately prior one. By Phase 4, the reader should feel the weight of Phase 1's unresolved image PLUS Phase 2's compounding implication PLUS Phase 3's escalation.
+3. **Partial Resolution Hooks**: When you give relief (e.g., the Epiphany), resolve ONE debt while opening a LARGER one. The reader feels progress but the total tension increases.
+4. **Accumulation Marker**: At the All Is Lost moment, make the reader feel the weight of ALL unresolved debts simultaneously. This is what makes All Is Lost genuinely devastating — it's not just "things are bad now," it's "everything I've been carrying just became unsolvable at once."
+5. **Compound Payoff**: The close resolves 3+ debts in a single moment or sentence. This creates emotional return that exceeds what any single phase could produce alone.
+
+**Test**: Read the final draft and ask: "Does each sentence make the ending more inevitable?" If any sentence could be removed without reducing the ending's impact, it's not carrying debt — cut it or make it deposit something.
+
+**Anti-pattern**: Phases that resolve cleanly before handing off to the next phase. If Phase 1 feels "complete" before Phase 2 starts, you're sequencing, not compounding. Each phase should feel slightly unfinished — that discomfort IS the pull.
+
 ### Phase 1: The Audience's Curse
 Start with what the buyer carries — the limitation they can't escape on their own.
 
