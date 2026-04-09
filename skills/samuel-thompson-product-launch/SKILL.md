@@ -3,7 +3,7 @@ name: "Samuel Thompson - AI Product Launch System"
 description: "AI-powered info product launch methodology from serial entrepreneur Samuel Thompson (100 companies in 10 years). Complete system for launching profitable AI-generated info products in under $300 with proven unit economics."
 version: "2.0"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Samuel Thompson - AI Product Launch System
@@ -16,6 +16,7 @@ Samuel Thompson's methodology treats every business as a "rigged slot machine"â€
 
 | # | Workflow | Produces | Use When |
 |---|---------|----------|----------|
+| thermo | [Pre-Commitment Demand Thermometer](workflows/pre-commitment-demand-thermometer.md) | A demand confidence score (0-100) with signal evidence map â€” tells you whether a launch will hit BEFORE you build anything | You have a concept but want to read demand signals before committing any resources |
 | shadow | [Shadow Market Validation Report](workflows/shadow-market-validation-report.md) | A comprehensive market intelligence report identifying underserved niches and psychological entry points | You need to find a high-probability, low-competition niche before building a product |
 | mvp | [Minimum Viable Sales Engine Builder](workflows/mvp-sales-engine-builder.md) | A complete 100-page info product and high-conversion sales page with a visceral narrative | You have a validated niche and need to create the product and sales copy in under 48 hours |
 | rigged | [Rigged Slot Machine Launch Plan](workflows/rigged-slot-machine-launch-plan.md) | A 30-day execution roadmap with optimized unit economics and creative assets | You are ready to put money into ads and need to ensure a guaranteed return on investment |
