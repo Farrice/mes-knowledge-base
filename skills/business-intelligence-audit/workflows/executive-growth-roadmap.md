@@ -44,15 +44,46 @@ Filter the raw gaps through a **Hypothesis-Driven Approach**. Do not boil the oc
     | :--- | :--- | :--- | :--- | :--- | :--- |
 - **Priority Quadrant**: Categorize findings into Quick Wins (High Impact/Low Effort), Strategic Priorities (High/High), Easy Extras (Low/Low), and Avoid (Low Impact/High Effort).
 
+### Phase 2.5: Revenue-Sequenced Cascade
+
+**Purpose**: Transform the prioritized gap list into a self-funding investment chain. Every recommendation must answer: "What does this unlock, and what does it fund?"
+
+**The Cascade Principle**: Audit recommendations are not independent items — they are moves in a sequence where early wins generate the revenue, proof, or capacity that makes later moves possible. A report that lists 12 recommendations without sequencing them is a menu, not a roadmap.
+
+**Build the Cascade**:
+
+1. **Identify the Ignition Move** — the single action that:
+   - Requires the LEAST new resources (time, money, skills)
+   - Produces VISIBLE proof of progress within 7-14 days
+   - Generates either revenue, a case study, or freed capacity
+   - *Test*: "Could they start this Monday with what they have right now?" If no, it's not the Ignition Move.
+
+2. **Map Funding Dependencies** — for every remaining recommendation, answer:
+   - **Funded by**: Which earlier move generates the revenue/proof/capacity this requires?
+   - **Unlocks**: Which later moves become possible only after this one succeeds?
+   - **Kill condition**: What signal tells you to abandon this move and skip to the next?
+
+3. **Build the Cascade Chain**:
+   | Move # | Action | Funded By | Revenue/Proof Generated | Unlocks | Kill Signal |
+   | :--- | :--- | :--- | :--- | :--- | :--- |
+   | 1 | [Ignition Move] | Existing resources | [specific output] | Move 2, 3 | [what failure looks like] |
+   | 2 | ... | Move 1 output | ... | Move 4 | ... |
+
+4. **The Monday Morning Test** — the final cascade must answer three questions a CEO asks at 9am:
+   - "What do I do THIS WEEK?" (Ignition Move, specific first step)
+   - "How do I know it's working?" (Success signal for Move 1, measured how)
+   - "When do I hire/invest/scale?" (Which move in the chain triggers the resource commitment)
+
+*Anti-pattern: Recommendations bucketed only by time horizon (0-7 days, 30 days, 90 days) without funding dependencies. Time-bucketing creates a calendar; cascade-sequencing creates a strategy.*
+
 ### Phase 3: Recommendation Engineering
-Transform the prioritized gaps into a time-horizoned action plan.
+Transform the cascade into a detailed action plan. Each move in the cascade sequence gets full recommendation depth.
 
-- **Tier 1: Quick Wins (0-7 Days)**: Immediate tactical adjustments.
-- **Tier 2: Short-Term (30 Days)**: Significant impact requiring moderate coordination.
-- **Tier 3: Medium-Term (90 Days)**: Resource-heavy structural changes.
-- **Tier 4: Strategic (6-12 Months)**: Foundational shifts in business posture.
+- **Move 1 (Ignition)**: Full tactical playbook — what, why, how, first 3 steps, success signal, timeline.
+- **Move 2-3 (Momentum)**: Detailed recommendations triggered by Move 1 success signals.
+- **Move 4+ (Scale)**: Strategic moves that deploy revenue/proof from earlier wins.
 
-*Each recommendation must include: The "What," the "Why" (linked to the gap), the "How" (step-by-step), and the "Risk" (potential friction).*
+*Each recommendation must include: The "What," the "Why" (linked to the gap), the "How" (step-by-step), the "Funded By" (which earlier move makes this possible), and the "Kill Signal" (when to abandon and redirect).*
 
 ### Phase 4: Pyramid Principle Synthesis (The Executive Report)
 Synthesize all findings into a professional, top-down deliverable. Lead with the answer, then provide the supporting evidence.
@@ -70,14 +101,15 @@ The user will receive a comprehensive **Executive Growth Roadmap (.md)** contain
 - **Executive Summary**: Using the Pyramid Principle to lead with the "One Thing."
 - **Gap Summary Matrix**: MECE-categorized opportunities with impact/effort scores.
 - **The Four Horsemen Audit**: Analysis of cognitive biases affecting the current strategy.
-- **Prioritized Action Plan**: Tiered recommendations (Quick Wins through Strategic).
-- **Investment/Return Matrix**: A clear table of resource allocation vs. expected outcomes.
+- **Revenue-Sequenced Cascade**: Self-funding investment chain with ignition move, funding dependencies, and kill signals.
+- **Prioritized Action Plan**: Cascade-sequenced recommendations (Ignition → Momentum → Scale).
+- **Investment/Return Matrix**: A clear table of resource allocation vs. expected outcomes, mapped to cascade moves.
 - **The "Stop Doing" List**: Specific activities to cease immediately to preserve resources.
 
 ## Quality Gate
 1.  **MECE Compliance**: Are the categories distinct and exhaustive? Is there any double-counting of issues?
 2.  **Pyramid Principle**: Does the report lead with the "So What" before diving into the data?
-3.  **Actionability**: Does every recommendation include a "Quick Start" first step?
+3.  **Actionability**: Does every recommendation include a "Quick Start" first step? Does the cascade pass the Monday Morning Test (what this week, how to measure, when to invest)?
 4.  **Evidence-Based**: Is every identified gap backed by specific evidence from the input data or market context?
 5.  **High-Stakes Tone**: Does the language reflect the authority of a world-class business intelligence expert?
 
