@@ -47,6 +47,14 @@ A product is "done" when the customer can DO THE THING. Stop selling "informatio
     *   **Length**: Estimated word count or video minutes.
 4.  **The Cut List**: Explicitly list topics that are "nice-to-have" but don't serve the binary outcome. Remove them to prevent learner's paralysis.
 
+### Phase 2B: Buyer Broadcast Architecture
+Products that sell themselves produce visible, shareable evidence of transformation. Applying **Genius Pattern 9 (Buyer Broadcast Architecture)**, audit every module for organic distribution potential.
+
+1.  **Artifact Audit**: For each module, answer: "What tangible output does the buyer SHOW after completing this?" If nothing — redesign the deliverable to produce a screenshot-ready scorecard, profile card, assessment result, or blueprint. The artifact carries the product's brand in its design.
+2.  **Vocabulary Map**: Identify 2-3 proprietary terms the product introduces that become the buyer's default language for describing the problem/solution. Terms must be genuinely easier than generic alternatives. Test: "Would the buyer use this term when explaining the concept to a peer?"
+3.  **Transformation Marker**: Design a before/after capture prompt into the product experience. The buyer screenshots Day 0 and Day X. The comparison IS the testimonial — visible, public, attributed to the product.
+4.  **Bonus Stack Upgrade**: Reframe bonuses as broadcast tools — artifact generators, vocabulary guides, transformation templates. Each bonus should produce something the buyer shares, not just uses.
+
 ### Phase 3: Pricing Psychology & Revenue Modeling
 Applying **Genius Pattern 4 (The $350 Threshold)**, price the product based on purchasing psychology, not "market averages."
 
@@ -72,6 +80,7 @@ The user will receive a **Digital Product Launch Specification** containing:
 2.  **Architecture Blueprint**: The Binary Outcome statement, the Minimum Path Table of Contents, and the "Cut List" of removed bloat.
 3.  **Pricing Strategy**: Recommended price point, $350 threshold justification, and the 3-tier Revenue Projection table.
 4.  **Expectation Audit**: A status table (Met/Unmet) for customer expectations and a prioritized Fix List for launch readiness.
+5.  **Broadcast Blueprint**: Artifact inventory (what buyers show), vocabulary map (terms buyers adopt), transformation marker design (before/after capture), and upgraded bonus stack.
 
 ## Quality Gate
 1.  **Is the outcome binary?** (Can the customer prove they finished it?)
@@ -79,6 +88,7 @@ The user will receive a **Digital Product Launch Specification** containing:
 3.  **Is the "Cut List" aggressive?** (Does it remove everything that isn't essential to the outcome?)
 4.  **Does the vehicle match the audience size?** (No Level 5 coaching for an audience of 10 people).
 5.  **Is the $350 Threshold respected?** (No information-only products priced above $350 without live components).
+6.  **Does every module produce something shareable?** (Broadcast Audit — if a module produces no visible artifact, vocabulary, or transformation marker, it's a distribution dead end).
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

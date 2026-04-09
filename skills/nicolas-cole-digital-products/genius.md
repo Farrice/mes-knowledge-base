@@ -38,6 +38,14 @@ Quality = customer can DO THE THING after completing it. Define ONE specific out
 Communities bundle: (a) content library, (b) courses, (c) live elements, (d) networking — running perpetually. Only launch AFTER validating standalones, courses, and cohorts.
 → **Deploy**: "Should I start a community?" decisions, platform planning.
 
+### Pattern 9: Buyer Broadcast Architecture
+Design every product so buyers ADVERTISE it through their natural behavior — not referral links, not "share with a friend" pop-ups. Three mechanisms:
+- **(a) Artifact Design** — The product produces a tangible, visual output (scorecard, profile card, assessment result, blueprint) that buyers screenshot, reference in conversations, or post publicly. The artifact carries the product's brand in its design. The deliverable IS the ad.
+- **(b) Vocabulary Injection** — The product introduces 2-3 proprietary terms that become the buyer's default way of describing the problem/solution space. Terms must be genuinely easier to use than generic alternatives. When buyers say "I ran my Authority Audit," that sentence IS marketing with zero friction.
+- **(c) Visible Transformation Marker** — The product prompts a before/after capture (screenshots, metrics, public artifacts) that makes the transformation undeniable and shareable. The product doesn't just CREATE results — it makes results VISIBLE to the buyer's network.
+→ **Deploy**: Product design phase (after scoping, before pricing). Add to every module: "What does the buyer SHOW after completing this?"
+→ **Success**: Buyers organically reference the product in their own content, conversations, or profiles without being asked.
+
 ---
 
 ## Hidden Knowledge
@@ -71,6 +79,7 @@ Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, cours
 3. **Outcome Scythe** — Define single measurable outcome, cut everything that doesn't serve it → Deploy when scoping products
 4. **Price Ceiling Default** — Default highest viable price below $350 → Deploy when setting prices
 5. **Async-First Blueprint** — Validate self-serve version before live counterpart → Deploy when planning product level-up
+6. **Broadcast Audit** — For every module, answer: "What does the buyer SHOW after this?" If nothing → redesign the deliverable to produce a visible, shareable artifact → Deploy during product scoping
 
 ## Quality Rubric
 
@@ -83,3 +92,4 @@ Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, cours
 | Operational Sustainability | Minimal thought to recurring work | Basic plan, likely underestimated | Explicitly models "invisible tax," sustainable systems |
 | Level-Up Readiness | Dead-end product | Could expand but path not explicit | Pre-planned pathways to higher-tier offerings |
 | Asset Reusability | One-off templates | Occasionally repurposed | Every asset registered and deployed across multiple products |
+| Buyer Broadcast Design | No shareability consideration | One shareable element (e.g., certificate) | Every module produces a visible artifact, vocabulary, or transformation marker that buyers naturally broadcast |
