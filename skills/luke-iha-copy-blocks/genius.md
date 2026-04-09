@@ -69,3 +69,15 @@ Every sentence in persuasive copy serves exactly one function:
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Belief-State Sequencing (ad-script-writer)
+- **Hypothesis**: Adding a Belief-State Sequencing phase that maps reader psychology at each block transition — diagnosing what the reader believes and what they need next — will produce sequences tailored to specific audiences rather than generic template order.
+- **Result**: KEPT — Score improved from 5.3 to 8.3 (+3.0)
+- **Change**: Added Phase 3.5 (Belief-State Sequencing) with Entry State Diagnosis, decision logic for block transitions based on reader psychology, and Belief-State Map output. Replaced fixed template order with adaptive sequencing.
+- **Benchmark scores**: Current [6, 5, 5] → Variant [9, 8, 8]
+- **Lesson**: The original ad-script-writer had a fixed 7-step template that produced the same sequence regardless of audience. For identity-resistant audiences (like the Invisible Expert ICP), standard Pain-first sequences trigger defensive rejection. Conditions-first sequencing — qualifying the reader through recognition before surfacing pain — bypasses identity-level resistance. The key insight: block ORDER is a persuasion decision, not a formatting decision.
