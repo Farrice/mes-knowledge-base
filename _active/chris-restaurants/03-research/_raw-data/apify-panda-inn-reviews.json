@@ -1,0 +1,2237 @@
+[
+  {
+    "title": "Panda Inn",
+    "description": "Local chain offering Mandarin & Sichuan entrees, noodles & more in an informal setting.",
+    "price": "$20\u201330",
+    "categoryName": "Chinese restaurant",
+    "address": "201 N Maryland Ave, Glendale, CA 91206",
+    "neighborhood": "Downtown",
+    "street": "201 N Maryland Ave",
+    "city": "Glendale",
+    "postalCode": "91206",
+    "state": "California",
+    "countryCode": "US",
+    "website": "http://www.pandainn.com/locations/glendale/",
+    "phone": "(818) 502-1234",
+    "phoneUnformatted": "+18185021234",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 34.1482809,
+      "lng": -118.253988
+    },
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJF3OFaVXAwoAR-fc6aAQmrxk",
+    "categories": [
+      "Chinese restaurant",
+      "Asian restaurant"
+    ],
+    "fid": "0x80c2c05569857317:0x19af2604683af7f9",
+    "cid": "1850739772242982905",
+    "reviewsCount": 544,
+    "imagesCount": 944,
+    "imageCategories": [
+      "All",
+      "Latest",
+      "Videos",
+      "Menu",
+      "Food & drink",
+      "Vibe",
+      "Soup",
+      "Chow mein",
+      "Fried rice",
+      "Edamame",
+      "Noodle",
+      "Mongolian beef",
+      "Hot and sour soup",
+      "Egg drop soup",
+      "Kung Pao chicken",
+      "Orange chicken",
+      "By owner",
+      "Street View & 360\u00b0"
+    ],
+    "scrapedAt": "2026-04-07T05:19:47.985Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/VE1SKxK5TK0?source=pa&opi=79508299&hl=en-US&gei=85PUaY2rIvShptQP_tyT8QY&sourceurl=https://www.google.com/maps/preview/place?authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!1m16!1s0x80c2c05569857317:0x19af2604683af7f9!3m8!1m3!1d7382757.991878375!2d-81.5013765!3d25.375927499999996!3m2!1i489!2i906!4f13.1!4m2!3d40.7606891!4d-73.9991868!15m2!1m1!4s/m/053lrp6!12m4!2m3!1i360!2i120!4i8!13m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!14m2!1sMcYNaceANdnbi-gPt5PjyQQ!7e81!15m110!1m31!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m20!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!30b1!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!21m0!22m1!1e81!30m6!3b1!6m1!2b1!7m1!2b1!9b1!34m5!7b1!10b1!14b1!15m1!1b0!37i757!39sPanda%2BInn%26q%3DPanda%2BInn",
+    "googleFoodUrl": null,
+    "hotelAds": [],
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "11:30\u202fAM to 9:30\u202fPM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "11:30\u202fAM to 9:30\u202fPM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11:30\u202fAM to 9:30\u202fPM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11:30\u202fAM to 9:30\u202fPM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11:30\u202fAM to 10\u202fPM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "12 to 10\u202fPM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "12 to 9:30\u202fPM"
+      }
+    ],
+    "peopleAlsoSearch": [
+      {
+        "category": "People also search for",
+        "title": "Panda Express",
+        "reviewsCount": 259,
+        "totalScore": 3.9
+      },
+      {
+        "category": "People also search for",
+        "title": "California Wok Glendale",
+        "reviewsCount": 56,
+        "totalScore": 4.4
+      },
+      {
+        "category": "People also search for",
+        "title": "Din Tai Fung \u9f0e\u6cf0\u8c50",
+        "reviewsCount": 2890,
+        "totalScore": 4.5
+      }
+    ],
+    "placesTags": [],
+    "reviewsTags": [
+      {
+        "title": "fortune cookies",
+        "count": 15
+      },
+      {
+        "title": "entrees",
+        "count": 10
+      },
+      {
+        "title": "server",
+        "count": 9
+      },
+      {
+        "title": "party",
+        "count": 9
+      },
+      {
+        "title": "hot and sour soup",
+        "count": 9
+      },
+      {
+        "title": "orange chicken",
+        "count": 7
+      },
+      {
+        "title": "parking",
+        "count": 7
+      },
+      {
+        "title": "white chocolate",
+        "count": 6
+      },
+      {
+        "title": "honey walnut shrimp",
+        "count": 6
+      },
+      {
+        "title": "renovated",
+        "count": 5
+      }
+    ],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Fast service": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Serves local specialty": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Comfort food": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Healthy options": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegan options": true
+        },
+        {
+          "Vegetarian options": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Trendy": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Groups": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Lunch reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "High chairs": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Panda%20Inn&query_place_id=ChIJF3OFaVXAwoAR-fc6aAQmrxk",
+    "searchPageUrl": "https://www.google.com/maps/search/Panda%20Inn/@34.20720026916658,-118.27051517220355,16z?hl=en",
+    "searchString": "Panda Inn",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepNXC--bbYXgJTEdl6sFwvGoleX5RvZ5n-YqWRbWWlgvLCwaBHrFINO1kIXgxOK4t8g_P2n3WKH1plUyYplowzYde086m1eV7zgGL8hwx4--bWTXZd6l9kKlTrG1_DAgibM30w0KA=w408-h307-k-no",
+    "kgmid": "/g/1td3g8rs",
+    "subTitle": null,
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": "4PXW+8C Glendale, California",
+    "menu": null,
+    "reviewsDistribution": {
+      "oneStar": 33,
+      "twoStar": 15,
+      "threeStar": 27,
+      "fourStar": 98,
+      "fiveStar": 371
+    },
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "similarHotelsNearby": null,
+    "hotelReviewSummary": null,
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {
+      "Su": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 67
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 74
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 82
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 90
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 98
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 98
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 83
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 65
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 36
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Mo": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 17
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 27
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 24
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 25
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 27
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 37
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 41
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 31
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 17
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Tu": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 18
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 34
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 39
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 30
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 31
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 52
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 56
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 46
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 29
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "We": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 18
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 32
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 32
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 26
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 30
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 40
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 50
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 49
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 40
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 24
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Th": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 14
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 24
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 28
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 31
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 31
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 36
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 49
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 60
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 63
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 49
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 29
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Fr": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 20
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 35
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 45
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 48
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 46
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 44
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 53
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 66
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 77
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 74
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 58
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ],
+      "Sa": [
+        {
+          "hour": 6,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 7,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 8,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 9,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 10,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 11,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 12,
+          "occupancyPercent": 42
+        },
+        {
+          "hour": 13,
+          "occupancyPercent": 59
+        },
+        {
+          "hour": 14,
+          "occupancyPercent": 67
+        },
+        {
+          "hour": 15,
+          "occupancyPercent": 72
+        },
+        {
+          "hour": 16,
+          "occupancyPercent": 80
+        },
+        {
+          "hour": 17,
+          "occupancyPercent": 90
+        },
+        {
+          "hour": 18,
+          "occupancyPercent": 99
+        },
+        {
+          "hour": 19,
+          "occupancyPercent": 100
+        },
+        {
+          "hour": 20,
+          "occupancyPercent": 83
+        },
+        {
+          "hour": 21,
+          "occupancyPercent": 59
+        },
+        {
+          "hour": 22,
+          "occupancyPercent": 0
+        },
+        {
+          "hour": 23,
+          "occupancyPercent": 0
+        }
+      ]
+    },
+    "additionalOpeningHours": null,
+    "openingHoursBusinessConfirmationText": null,
+    "questionsAndAnswers": [],
+    "updatesFromCustomers": {
+      "text": "Mai tai",
+      "language": "ro",
+      "postDate": "6 hours ago",
+      "postedBy": {
+        "name": "Christian Yassa",
+        "url": "https://www.google.com/maps/contrib/102059521612123920591?hl=en-US",
+        "title": "Local Guide",
+        "totalReviews": 3
+      },
+      "media": [
+        {
+          "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptXkvK5foYIovbUoAEHmx2UO8YI20prRjoKJ69JoOMlFA80rWMplu-PgG3XuSDbIr9uMt4WPmr5WvX3KQPbl7O2rlmxVE494Dz-gFinCbUp_6B476onC9UFP8BgxzJBqh0qGXaCEOuJUwNR",
+          "postDate": "7 hours ago"
+        }
+      ]
+    },
+    "inputPlaceId": null,
+    "inputStartUrl": null,
+    "userPlaceNote": null,
+    "webResults": [],
+    "tableReservationLinks": [
+      {
+        "name": "opentable.com",
+        "url": "https://www.opentable.com/restaurant/profile/64093?ref=1068"
+      }
+    ],
+    "bookingLinks": [],
+    "orderOnline": {
+      "pickUps": [
+        {
+          "name": "Caviar",
+          "orderUrl": "https://www.trycaviar.com/store/panda-inn-glendale-543045/?utm_campaign=gpa&pickup=true&rwg_token=AFd1xnEUvkoG304gCbQodLeOkHTnwCXl_tX_bVZcAJDfTO8XIOE_w47QRZMqZDRx83TpFWS62GiEhJ5d1H37qJLDmTpkT7hyzQ%3D%3D",
+          "pickUpTime": "Ready in 23 min",
+          "pickUpFees": "No fee"
+        },
+        {
+          "name": "DoorDash",
+          "orderUrl": "https://www.doordash.com/store/panda-inn-glendale-543045/?utm_campaign=gpa&pickup=true&rwg_token=AFd1xnEAbzEkHIZzWbAjoR1cSwz8C_kE4As0_eY4wnx36xMrcyC3jE2Pe4e0XIugaV_oHJODNzF-HLZivDZkJBRN-Ch_hPWu4Q%3D%3D",
+          "pickUpTime": "Ready in 23 min",
+          "pickUpFees": "No fee"
+        },
+        {
+          "name": "Grubhub",
+          "orderUrl": "https://www.grubhub.com/restaurant/panda-express-201-n-maryland-ave-glendale/7232128?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&pickup=true&rwg_token=AFd1xnHS3VCZlS07SkVmBxn7FJZyGDuNtz8dVQ0ku1s6g-PLcBXzLSrUQtH6RwSu8MIvt4Nb2bPfHWLmqgLhaf9Jvd6YCImmHg%3D%3D",
+          "pickUpTime": "Ready in 10 min",
+          "pickUpFees": "No fee"
+        },
+        {
+          "name": "Seamless",
+          "orderUrl": "https://www.seamless.com/menu/panda-express-201-n-maryland-ave-glendale/7232128?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&pickup=true&rwg_token=AFd1xnGjn7ev4jQCgb8iJh3n7KTx8ws5vooF-LURO2xW7Snr5gd071ZnvSkCtx_pdSJghKyBK-xYBDjdR33QtNYKt9jm0-J7sg%3D%3D",
+          "pickUpTime": "Ready in 10 min",
+          "pickUpFees": "No fee"
+        },
+        {
+          "name": "pandainn.com",
+          "orderUrl": "https://orders.pandainn.com/menu/glendale-panda-inn",
+          "pickUpTime": null,
+          "pickUpFees": null
+        }
+      ],
+      "deliveries": [
+        {
+          "name": "Caviar",
+          "url": "https://www.trycaviar.com/store/panda-inn-glendale-543045/?utm_campaign=gpa&rwg_token=AFd1xnEXwMK5BMbjyvsVvvZhJXhjeKZlx-Oc9axohfSMNu00ZyBgcyZJqinvgQIwF3NO6-FLOWgHx7K9AsFX1fBuwvLREgFKjg%3D%3D",
+          "deliveryTime": "Delivers in 47 min",
+          "deliveryFees": "Service fee 15%"
+        },
+        {
+          "name": "DoorDash",
+          "url": "https://www.doordash.com/store/panda-inn-glendale-543045/?utm_campaign=gpa&rwg_token=AFd1xnEbtw77mWM1nuNsLVqyx-qBDGgju7XPfDvkr7ViieiLrAJ3F8Zdg0I4TLbt_Ao3eqOvuk-wwTOEFDdrkAlgQTOObaNmSw%3D%3D",
+          "deliveryTime": "Delivers in 47 min",
+          "deliveryFees": "Service fee 15%"
+        },
+        {
+          "name": "Grubhub",
+          "url": "https://www.grubhub.com/restaurant/panda-express-201-n-maryland-ave-glendale/7232128?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&delivery=true&rwg_token=AFd1xnGJHcxx5R7nDhA7nS6b6ZBhYbfwms6MvF2MF7RRiarETjvlGxXUZHtNUTOvajPXC09Tkn4G6Mcx0T2r3MWd7LeBlG6eWA%3D%3D",
+          "deliveryTime": "Delivers in 25 min",
+          "deliveryFees": "Service fee 5%\u201315%"
+        },
+        {
+          "name": "Seamless",
+          "url": "https://www.seamless.com/menu/panda-express-201-n-maryland-ave-glendale/7232128?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&delivery=true&rwg_token=AFd1xnE3bnyaGkLBStLVHR2mTOoDQr1jDY4BRuknMt8aTUU4i8UFPPAjBQvBVp3f77yNGJBgFwIZ-3BXxflTc4U19Tcs_vlzMw%3D%3D",
+          "deliveryTime": "Delivers in 25 min",
+          "deliveryFees": "Service fee 5%\u201315%"
+        }
+      ]
+    },
+    "orderBy": [
+      {
+        "name": "Caviar",
+        "orderUrl": "https://www.trycaviar.com/store/panda-inn-glendale-543045/?utm_campaign=gpa&rwg_token=AFd1xnEXwMK5BMbjyvsVvvZhJXhjeKZlx-Oc9axohfSMNu00ZyBgcyZJqinvgQIwF3NO6-FLOWgHx7K9AsFX1fBuwvLREgFKjg%3D%3D"
+      },
+      {
+        "name": "DoorDash",
+        "orderUrl": "https://www.doordash.com/store/panda-inn-glendale-543045/?utm_campaign=gpa&rwg_token=AFd1xnEbtw77mWM1nuNsLVqyx-qBDGgju7XPfDvkr7ViieiLrAJ3F8Zdg0I4TLbt_Ao3eqOvuk-wwTOEFDdrkAlgQTOObaNmSw%3D%3D"
+      },
+      {
+        "name": "Grubhub",
+        "orderUrl": "https://www.grubhub.com/restaurant/panda-express-201-n-maryland-ave-glendale/7232128?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&delivery=true&rwg_token=AFd1xnGJHcxx5R7nDhA7nS6b6ZBhYbfwms6MvF2MF7RRiarETjvlGxXUZHtNUTOvajPXC09Tkn4G6Mcx0T2r3MWd7LeBlG6eWA%3D%3D"
+      },
+      {
+        "name": "Seamless",
+        "orderUrl": "https://www.seamless.com/menu/panda-express-201-n-maryland-ave-glendale/7232128?utm_source=google&utm_medium=organic&utm_campaign=place-action-link&delivery=true&rwg_token=AFd1xnE3bnyaGkLBStLVHR2mTOoDQr1jDY4BRuknMt8aTUU4i8UFPPAjBQvBVp3f77yNGJBgFwIZ-3BXxflTc4U19Tcs_vlzMw%3D%3D"
+      }
+    ],
+    "restaurantData": {
+      "tableReservationProvider": {
+        "name": "OpenTable",
+        "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/VE1SKxK5TK0?source=pa&opi=79508299&hl=en-US&gei=85PUaY2rIvShptQP_tyT8QY&sourceurl=https://www.google.com/maps/preview/place?authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!1m16!1s0x80c2c05569857317:0x19af2604683af7f9!3m8!1m3!1d7382757.991878375!2d-81.5013765!3d25.375927499999996!3m2!1i489!2i906!4f13.1!4m2!3d40.7606891!4d-73.9991868!15m2!1m1!4s/m/053lrp6!12m4!2m3!1i360!2i120!4i8!13m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m8!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!14m2!1sMcYNaceANdnbi-gPt5PjyQQ!7e81!15m110!1m31!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m20!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!30b1!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!21m0!22m1!1e81!30m6!3b1!6m1!2b1!7m1!2b1!9b1!34m5!7b1!10b1!14b1!15m1!1b0!37i757!39sPanda%2BInn%26q%3DPanda%2BInn"
+      }
+    },
+    "ownerUpdates": [],
+    "imageUrls": [],
+    "images": null,
+    "reviews": [
+      {
+        "reviewerId": "105895276306945543864",
+        "reviewerUrl": "https://www.google.com/maps/contrib/105895276306945543864?hl=en",
+        "name": "Blaze Drinkwine",
+        "reviewerNumberOfReviews": 60,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWQYYBnbXeiXDo_H35n2wJ_drJucv5_gP4Ab9ckDf7b9HtMrAYg=s1920-c-rp-mo-ba4-br100",
+        "text": "We flew in from Tampa, Florida, for a wedding and a late anniversary celebration; deciding that the Panda Inn was at the very top of our list of things we couldn't miss. Both being originally from California and huge fans of Panda Express, it felt like an honor to finally experience where it all began.\n\nFrom the moment we walked in until the moment we left, the entire experience was an absolute pleasure. The staff was incredibly kind, welcoming, and accommodating, making our special occasion feel even more memorable.\n\nThe food was everything we had hoped for and more. The dumplings were amazing to start, and the Mai Tai I ordered was exceptionally well-balanced and delicious. For our entrees, we got the Orange Chicken and the Chow Fun, and both were absolutely incredible. You can taste the quality and care that goes into each dish \u2013 everything was cooked to perfection.\n\nWe had zero issues and loved every minute of our dining experience. For anyone who loves the quick-service Panda Express and has been thinking of trying the original restaurant, I cannot recommend it enough. It's a fantastic dining experience that lives up to the legacy. We will definitely be back on our next trip to California! Thank you @Panda for making this such a great experience.",
+        "textTranslated": null,
+        "publishAt": "5 months ago",
+        "publishedAtDate": "2025-10-14T19:19:41.381Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2s1S1owdDBkVkV0TUZaTFUwYzFSV1ZMYVRsYVYwRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2s1S1owdDBkVkV0TUZaTFUwYzFSV1ZMYVRsYVYwRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOk5KZ0t0dVEtMFZLU0c1RWVLaTlaV0E%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puFWP9BGrtnCcZyLcd1B0_-TPnZBGF9A9KM78MRKn98s9s4b51n8qYeOgKbNKuRm09HKIURtHM3fOcB_r4Sq5WK3cid4fB4sdGrVywx-jwARmTy1sACIb3MEynBiZ9_-pWGSu2g5CGqdmU",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psZdeHGtgNORZaXb-uzpe9hYH_luWskMR41AfLa99FYqB9l8-58Nst8yj9okWeOlmZcpy3cvA2A6OWewKHTeZBBGOnhTOZtL8WN_wWTUlgtzv4uQMbnAnQ1RLmdE9n5FwMtgr6x3cD4O1Y",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puOUww__bbzpHqeDarvW378S6pzRanJXM1jpKMpo07AHFZN_g4iyfsjFOLlsKVTPBMLS5bo53TWSIykp_hDQHooe9V91B6cA3I1y9myHlsPtpqE_T5C1UQ5A5ybxgqwtTMyA86jlFp6ylU5",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptPg2VBftT5qYZOtsdPxV0gK9L93nCWFkXriVPkJO2V2cuekyimDqjIN1wNijVZqZb-mXkO3Zww-OSo_AoVsvD68g5FV4UCOhf9P-VUtZRxNxXb8mMFBCvmjLE1Fsz13gbhFcF1zV9SIgA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptkfObeDqU4f27URTa7uyrTzfYcHNT_2yjJGRJ7lko59Cq6uU6Z5_giJG8PFEFERgHlS6aRqgU5lo0Kh2JYkXejhI_ZgmkxLxvGJ6MjgF_FOXD2YdIGpc-QG1UCIdjU-tA1o_YofWtPi2zZ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvKLp2jPXTOnUzVPDrHGbODHGlYf8QPKMZI768uLjGyKSwk7usXgz5zFK6Wn4I3kkAIS2xgqRs6J03pbJSkyvy2NW24EBpzw6_8SiaD6o54qDXoOpWCLQXOsmKLFCKeb1qf48JOwQGi3s5M",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvwkKum1U0H3-ssh_WKMp2eLKUmR5fuZ_9h2TtYl_8QjHNQPJgFGyHTtXVG6P39DepydX2iYgeMH9zcX6iT4B8yrc9og6PcdA3N031hWq_J0fTYkkeQReyj22Wu4J_l0nEcRFOqETG8p1h_"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$30\u201350",
+          "Group size": "Suitable for all group sizes"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "100681234206776632251",
+        "reviewerUrl": "https://www.google.com/maps/contrib/100681234206776632251?hl=en",
+        "name": "Anina Zamfir",
+        "reviewerNumberOfReviews": 17,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXxzEH9YLlC23YK7hfLeEmiJLdXFBM_CbVDndiajIHTUEAFU1ZeQQ=s1920-c-rp-mo-ba2-br100",
+        "text": "Had the best food. My cousin ordered a dish we didn't really like, the server immediately asked, if we were enjoying the food, we said it was not what we thought it would be... Nothing wrong with the dish... Just different... The server asked if we wanted to replace the dish... Which we did. Was absolutely beautiful... At no extra expense...we enjoyed the food, can't wait for next time...",
+        "textTranslated": null,
+        "publishAt": "4 months ago",
+        "publishedAtDate": "2025-12-01T08:51:22.160Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pOSlpYa3paRGRoVWpkM1ltOTNORmxtUlV0dGVIYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pOSlpYa3paRGRoVWpkM1ltOTNORmxtUlV0dGVIYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOjNJZXkzZDdhUjd3Ym93NFlmRUtteHc%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psE97X3CeiSuCEsnTwWPG9-RmzDcorawILOz3JbyfPU2yg3XhioGQ8gy2ajS6AAEXEIrOpA9O1ucdxoX03Vc6-HlCmt3P2oTRkCHUrizeCiRsfx3-Lgtt3dAmEfqOrCPTEQ23wiU4IpYR6u",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvCz7O9KvsaMblpGDXbugiinUnXfj2kGgBiy6zbwVfsjVKkGZj7JZLiOGvyn2rjVQF7hYHUGrHpdZjENPlWIQBvSfnmgwlJCD9R_zvNjdtdqLzSEGXJhcC-BhYcDjHqyKf-n4vkOBMfgX50",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvG1VhLrxYbU5QDrx-FWIGQlk7Bzu5tnbX7WnFJ5cj1HRRQbuhgkscf2n7x1ZBQjNMkEqWbwyixSDL0WZl88ZdbZ0bJEkFo78OtbTMLq8pbfxL11uO5fGjbpzW8sea3xjfY38DQwTCpLr-T"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$10\u201320",
+          "Group size": "Suitable for all group sizes"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "115453568536210096960",
+        "reviewerUrl": "https://www.google.com/maps/contrib/115453568536210096960?hl=en",
+        "name": "Roupen Tavitian",
+        "reviewerNumberOfReviews": 48,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUmlqmIyMyWIr5qCqtTFUnHT78-CPpzWH3w-23knz7UFHXd06Pedw=s1920-c-rp-mo-ba4-br100",
+        "text": "We got takeout, and Panda Inn delivers excellent Chinese food. Every dish we tried tasted great, showing good quality and flavor across the board. The standout item (for me) is the Hot and Sour Soup\u2026it's the perfect balance between hot, sour, and all the right notes in one place. Great food and attentive service make Panda Inn a 5/5.",
+        "textTranslated": null,
+        "publishAt": "5 months ago",
+        "publishedAtDate": "2025-10-11T06:13:14.436Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xsSFZsWmlObXhLWTFwNWNqY3pTbWRhVFdGWFUzYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xsSFZsWmlObXhLWTFwNWNqY3pTbWRhVFdGWFUzYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOllHVlZiNmxKY1p5cjczSmdaTWFXU3c%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pucHFw551hMZQM4fuYyoUII1T1ZoTUXt-ExVKxfIlS1S1hg53z3idSQPKM7hG8178Vl95VHDnghPP_In1MdpUmem1Tk88hOc4J0kuSf0hh-H4e2wX47rQygojAhf8iMillw43cRM_oHHS9A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psBvrZz_Ro1b_40JGC0WdvFT6sOFZIGnr24mO6Z25M5ZB2k5rUaJBLPNAr1pZYDvzb9UXWxpQHzZ2gMp64P_v-kINOWV8DLq4g-wNa7P77PvGX1FPF7rxpzNtuF5x_Hk6YAiXpR1bdaJvZa",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puR9KnqCWjMKLMssKB6mpPX3cUcb8Fb_2-6ndjDh1nDqFddNuBY2cC30ujsx7SDWMAY22ZeltCkfXFvlXAfMT9sqrpVFyfYxwBZ7gNV1aHAHGWz7gwJq2XGxncsPNBD0XmjhgyLdU_UXFgu",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvf_UXXqwJOPHR071kLLPicA_fs3WwrcOOu_x-ZviybBBL6BR7hWqffCRv7_djJS7-dRCrXo0NpDUJ9KtxNAF8Q7JJNnIcbYo2sEqXjIQeio6Gg22YKK3smbGY7WJ2AZcxHjFSxghdwOlze",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps46LNcNipvrK-Jg_NVTvM1JpNZ-hl0sAjQ9GWebcsZKYcVox3CdXzya_7TWu5c096S0b6-EzZMdluCRWPyFasLV1Ne6CnD37zUNzRsNUX2i7GRx8ksRMMNJNtF3-AXiPTaIrcHfBm2pI-f",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvppY2OSpJzM4m89Ws_Y09eR2XeJ36hyEgZJCXOv8clNobTsJFDJOvNkyiU1pRG9nct5ep63KxxYN6SVg1MVdNHi7ye98gQuBlI9nu2TQBNCNB9vK35JISUCbeCAUP58Z-uT5Mntm30bDv-",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt3pQQgYnT0mK2wR9_6sqDOpqv7vnI2584lzKscPRce7bfs-5r2Nci_jqdpHfRiCr5bErgEKqKfafzBEXUp46VpcDStPoZKC7SRURTBAZ2S2geRP2WOBPnvxk11ZkNykbLOM2PShDVn6-M",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pufF4QRA1h_Hw0DjBz6jGJjUD2j5UcSy1R74jtg_7P3-Je0VyBZ_ZBwVrtYq_UWZgV6y0W96GhBEGte3GdzY9ZYI4BJYjcZ8ba_wISspzVTRT4PwYffT5LtK_7AB_7tiysZ3JDuPcr9938",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pumi9JBhR1O7gu161ieTvGJj6mxwj9ur-R4IuLO3x93X2p7JLZUWFW_myzCXxPrMDkyKpLYsHmyEIeWVHBtq964ZcACu76vbe1Ae0dAHmiU5dfGp3G7v1ywsclkpZuafSY4EKYXh_loxCcs"
+        ],
+        "reviewContext": {
+          "Order type": "Take out",
+          "Meal type": "Dinner",
+          "Price per person": "$20\u201330",
+          "Seating type": "Indoor dining area"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "105496317702770149751",
+        "reviewerUrl": "https://www.google.com/maps/contrib/105496317702770149751?hl=en",
+        "name": "Arn014 W",
+        "reviewerNumberOfReviews": 136,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXnpPUD2wCFqq8Cd2_Xbv6ctGnEzcL0YFe0gjq4F1ZTPQn4ElcL=s1920-c-rp-mo-ba5-br100",
+        "text": "If you like Panda Express then Panda Inn is a must try place for you. It is owned by the same company of the Panda Express but upscaled it towards a more fine dining experience. You can pretty much expect all the dishes of express plus extra other unique dishes. The service was excellent, the interior design is classy, but it does come with the higher price tag.",
+        "textTranslated": null,
+        "publishAt": "5 months ago",
+        "publishedAtDate": "2025-10-22T04:53:41.714Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2kxeFYyTXpSbFl6TW1wU05uQTJkRTkyYlhoTVozYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kxeFYyTXpSbFl6TW1wU05uQTJkRTkyYlhoTVozYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOi1xV2MzRlYzMmpSNnA2dE92bXhMZ3c%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvHfgYZOc0VZzD3qhsv43BWIBzoLVPQ4cB4KIqhhh8T3MLUNwIDorXeNUXDqERWvYajctamKnf_DhrKhDgzC9kPPJi-6H5pE1IzYMAl9VVbmLSSacc4xRuY31b2Qp3qUMoCHghC-b04s82h",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptBe6biqjaBGWZIqOPazWaKwry4_kbAUsXDu0EZzB26j9SFyjWuvWWk_oxlsRSgeakZE_j0jVgpPNFsft-KdCnt3ReswBWP-u02EvT1du2tbPZ7ODwkKwbsa2wYB2b6O_MdBL0lPxsYx-Xa",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvlki5_ezMoes5Ai9eXFNUf0ePsDnBrdKyNAxoXx4-l7f8uEDhDthfkEwcILIKRJHfZlXBWXlkNNrviLaIhgcpwSl0LLyeb0K2LDCtkZoaQFVnnVwa25qjrv4Vwb6oyxl8ey0zUz6VZs298",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu_cs_RIo3gHwR4Ha5Vl5tMpjAs_wZkhyxVBfj5CuBob5cBY5m_lq5QCMIdxjOWvdn1T92ZCxDgXvsVa4qCFIItokYnlYrSrO1_W40L9TTIXc7wjwyMIJvYtm6u_cefxb4CIuphvtUijHvN",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psoeupOYHaEhitOVPIw1ENaNKkhquaI69B3tKYVdVoqhqBksqcta8f1YjdHTBVblia_OEwoedhrr799OP3Vi9LHsxuuXkAiv5ABro7NYzLz3z2tKbvYAvsEDchSuFGYB3IvnyzbbTbmnJMS",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psmCWPpXig_jQqUPJOCrKI1n5LQ6Oq68adjoFqhxdWrh5J02pWzehGYJkp9q_y3F9_u_KswMQ8Sjvh5Knn31vC_bvGmNvR2knmuxgzrKgSk4HHLtAqWXSIODOWyFsL-zp4TBHckwWiVMoEZ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psdZ3qhlNUs0PM5ZL-JeQjjyIiDWwCNIWUwoWkAEPK4NXjUq3AhZS0lA45uks7v9C56CjKF-1cvUFWShX0O8HJO3YtmexNDWornItFGoqZ-xdfwI9ysUcJuXQZj82Yw2FiMOvSL0exlwRY",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptKjqZDIrMd9SygZ9JaLBodMzOQcKRPyMekNbn2nCEfq4QzJKO6iMXyC54UJqUDwidyP-obwpkp1wFXlWTcS8hz25C_a_3Ou7PIwDBbJ96V3AMnMcXlyhJdqQYWiF5Xcjfbbx_U1Pyvj2A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puUzH8x4mM342gjg0MG0IPaJkzMgBdoxig6VcMtPvs0VhjaNOCpl04NWfkTQ0drgjYtPhGrFKSOnUk0Tt7K6r_TbbgUZzyVkdlFfxTdkppUl_leKaP_ap8rGwmeVVIYs0TIFWBJrakOpbOL",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psDp9aCd6Bdl1qJpPgl7fbRNCKuQEh4dDa3IwQ30RzigmqvsaDUkEKKy7Qe3LinotUnNSZ8ZeUoO8N_lIdBTPh45iLTGHlxE8B0SoTnSuRCnn-7a7WIotmz7VlOwseqGcui2a2owxB9ISnW"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$20\u201330",
+          "Wait time": "No wait"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "107075982640574015971",
+        "reviewerUrl": "https://www.google.com/maps/contrib/107075982640574015971?hl=en",
+        "name": "Sebastian N.",
+        "reviewerNumberOfReviews": 1,
+        "isLocalGuide": false,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVzqif15K7G4Kjr4hBMlYvLu4QLoPzsGjAvDYzpLAuy4knU29Cd=s1920-c-rp-mo-br100",
+        "text": "Great food sweet and sour chicken was great shrimp fried rice was great! Also had lo-main and beef and broccoli still good dishes! Everyhting very hot and fresh . The service was fantastic everyone very attentive and polite and will take their time with you.. will be visiting again!",
+        "textTranslated": null,
+        "publishAt": "6 months ago",
+        "publishedAtDate": "2025-10-03T00:32:54.974Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25BNVNXRTBTbHBDWjFCSFYzVlBUMU5wT0dnelZGRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25BNVNXRTBTbHBDWjFCSFYzVlBUMU5wT0dnelZGRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOnA5SWE0SlpCZ1BHV3VPT1NpOGgzVFE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvJHA49jSrLvjMI8d-bKfoGIMEUeYa2SRcwctLJjCvnx2QtRAnP2H2nuTWb00lKlddaOruPhpEdIWM03-ShIkS-eD8PbqjMFFQJhULXkNcn7iOYSpKMm3BifnsU68uTapDeCycBLBrf2PA"
+        ],
+        "reviewContext": {
+          "Price per person": "$30\u201350",
+          "Recommended dishes": "Shrimp Fried Rice",
+          "Noise level": "Quiet, easy to talk",
+          "Wait time": "No wait"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "109099989657158688227",
+        "reviewerUrl": "https://www.google.com/maps/contrib/109099989657158688227?hl=en",
+        "name": "Hyeongwoo Kim",
+        "reviewerNumberOfReviews": 148,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVyhJA1mNqma40za_VnwFuEQn44EkysWQRjdw_Qu89jxdOjXGFA=s1920-c-rp-mo-ba4-br100",
+        "text": "Original panda express restaurant. Up side down noodle is a very interesting surprise. Great food and wonderful servers.",
+        "textTranslated": null,
+        "publishAt": "3 months ago",
+        "publishedAtDate": "2025-12-25T04:33:20.107Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT25SeFlUZHROVXd6WDBOSk9EVkthbTVhVldJNFluYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25SeFlUZHROVXd6WDBOSk9EVkthbTVhVldJNFluYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOnRxYTdtNUwzX0NJODVKam5aVWI4Ync%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvvrvKFBJ47ocP0crxl3tIgY7Fv4QOPTLJmehJV-PXcOZY4hkkSw1UGa7eVH-tyuAcu2XQpDMoJ9OrRmZ9TfZrLpnU5V8_cgj2meSYBGX6eUoali8lE_2-TAGnL4rnvqtUFcgWYRwPB3eXc",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puW5aw8kwR-VHSP5Ww0fgaSutI8P3m8Pe67zE9uYae8yzaLgGzZDkG3Nl6Gb1hC3b-NU6FTd2XNoYSnT9yHLxd8lu5jlCpPqMmoOAe021l4Rxt39yTj3NYU7aM_n25gXFha5bpJfiD1SDe4",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pudPO5mellcNPQgFQLbzJ2GPNFCoh5tswvWsjdlrhZg_dWC6zfXOWQzT58az0EccgCb039-De8FCDePj1WARzdTploP-OfiCJ16-I55BDNQIFUWiq9q5RwGIrMAvC7O9mngEadxTkdHa_sf",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pudUEREUcRfbtnP43R-7-j8bKSFUfBqqHB2OqJdPs3_HdPD66UXMrMUSpKBSBBiao6yCg_eWBwILoJ3V4iFOBCvUwHN6c29wbWN7qcp25WilwlZXWBhYJyCq6vBvmI5DjYMPWuv3EDDcNA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psHLZnXPsp0GevMibm8grnEDGL1tVp8sJJjen0l3yhfTmlfuFsQQBNZ3Xp3Ll5ZijYNOVg58Vy-b1g8U0QGB6Ee-Usbm90br0U8a9WlODfAMEWhPoJ081Tnf3kyzkQ-KBbP8YilF9Fx0O89"
+        ],
+        "reviewContext": {
+          "Noise level": "Moderate noise",
+          "Group size": "Suitable for all group sizes"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "110619159155913045822",
+        "reviewerUrl": "https://www.google.com/maps/contrib/110619159155913045822?hl=en",
+        "name": "A Q",
+        "reviewerNumberOfReviews": 154,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWtgglJ9BiazQ7kj6wKSwzdmqIhgI10H5s9OBQBhMfyG0vsZMnv=s1920-c-rp-mo-ba4-br100",
+        "text": "This place has been a hit/miss as of late. On my most recent visit, the paper menus offered were stained and I found that my soup spoon still had remnants of sticker adhesive from a price tag on it and. That being said, my hot and sour soup was still very tasty.\nThe dishes are very Americanized, and there\u2019s options for different spice levels to cater to different palettes. I wouldn\u2019t recommend the sushi personally, as the one baked roll dish we got was covered in melted shredded cheese. The mapo tofu on the other hand was flavorful and worth taking home for leftovers. This place has had its stamp on the downtown Glendale area for over two decades now, but I think it could really afford to step up its menu. The aesthetic of the restaurant and its design is on one level, and unfortunately the food was just not meeting my expectations in comparison. There\u2019s something about going to a mid-priced Asian dining establishment and not seeing any Asian families there that should be indicative of a problem here. I hope to have my mind changed about this place soon.",
+        "textTranslated": null,
+        "publishAt": "a month ago",
+        "publishedAtDate": "2026-02-08T10:09:57.147Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWaGNIZElZWFpqTnpOVmFscERjVFI0Vmt4MlkwRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWaGNIZElZWFpqTnpOVmFscERjVFI0Vmt4MlkwRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOjVhcHdIYXZjNzNValpDcTR4Vkx2Y0E%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 4,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$30\u201340",
+          "Group size": "3-4 people, 5-8 people",
+          "Recommendation for vegetarians": "Somewhat recommend",
+          "Parking space": "Somewhat difficult to find parking",
+          "Parking options": "Paid parking lot"
+        },
+        "reviewDetailedRating": {
+          "Food": 4,
+          "Service": 5,
+          "Atmosphere": 4
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "104828743111211689909",
+        "reviewerUrl": "https://www.google.com/maps/contrib/104828743111211689909?hl=en",
+        "name": "Timothy Ng",
+        "reviewerNumberOfReviews": 55,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJUFlzSmzGIZN8l9L6D369lhb3hgoHLW3-YXxALQGdTuVFlRg=s1920-c-rp-mo-ba4-br100",
+        "text": "It is a very nice place which sets high expectations but the food was just decent/good not very good. Some of the dishes including the soup were not very hot. The Wagyu beef chowfun came out hot and was pretty good, tho I wouldn\u2019t pay for the Wagyu option next time. Sweet and sour pork was on par with most Chinese restaurants. Spent $150 for five people before tip, so it wasn\u2019t super expensive.",
+        "textTranslated": null,
+        "publishAt": "3 months ago",
+        "publishedAtDate": "2025-12-20T18:07:01.202Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2w4eVVVMHRRbHBMVjBGMWF6RXRTMnB6Wkd4alVYYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2w4eVVVMHRRbHBMVjBGMWF6RXRTMnB6Wkd4alVYYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOl8yUU0tQlpLV0F1azEtS2pzZGxjUXc%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 3,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$30\u201350",
+          "Wait time": "Up to 10 min"
+        },
+        "reviewDetailedRating": {
+          "Food": 3,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "107915691496088828246",
+        "reviewerUrl": "https://www.google.com/maps/contrib/107915691496088828246?hl=en",
+        "name": "Tony Gomez",
+        "reviewerNumberOfReviews": 26,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXVVyr1yMeXmDNA33_9UJSkyHy9gs5FpMC7MHxFHZBtKZDc3F-PNg=s1920-c-rp-mo-ba4-br100",
+        "text": "This is my second time at Panda Inn and it is worth the visit.\n\nSome might say it's the same as Panda Express, and let me tell you, it's not!\n\nThe service, food and options as well as the portions, is worth every dollar!\n\nThe Honey Walnut shrimp is amazing!!\n\nPanda Express always gives me 5-7 shrimps, but that isn't enough for me so that's how I ended up here for my first time earlier this year. Haha!\n\nOH!! The Crab Wontons... If you're not allergic, please do yourself a favor and order this delicious delicacy.\n\nFortune cookies are a bit different too - don't forget to ask for them.",
+        "textTranslated": null,
+        "publishAt": "9 months ago",
+        "publishedAtDate": "2025-06-25T18:35:18.710Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2xwRVRsVmZiM2xPUkV0ek5VMUhZVUprYWtWd1ZGRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xwRVRsVmZiM2xPUkV0ek5VMUhZVUprYWtWd1ZGRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOlpETlVfb3lOREtzNU1HYUJkakVwVFE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psa20N4-8JEWNlAVEKmDLfkPK9Lc9tuCF9t25a0gHaGtzAb3gnfsLIiPJvy-Rn-Nx3ipCGlPftweBUt12h2jhduF5Ha3t_8Qnnpo0zP_6EhdeC4co1waHYGXK3Jl8VSXAf647Kgn6I-28p9",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puwQGFsDXoCJ0ntcZfaN8bo6C2R82XIM7sUJ4oTWC6ZPh_RJTfjuwd-TkUtgnpUi1jWkF_XoyvrLUhTmVeDn6odcwbn5X3hXdh53PBMOl5TMvEdPqNLDnkiOPIFKW7SJoBpTwC4kfRScQSO",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps3R8WMDcr6DQ5gaZ5OIzQi_890BA-RRwJROI4Tn56sp-wswXhuDVgH1VgE4s5VDjBbtbWkenz1tGZ46m1gqDowZltchEeCnBM4iqphaZDtA3w3my-AG_rVcGVkaLLusxEIAS8k0B0V2e_Y"
+        ],
+        "reviewContext": {
+          "Price per person": "$20\u201330",
+          "Group size": "Suitable for all group sizes",
+          "Seating type": "Indoor dining area, Private dining room"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "109089709947510920321",
+        "reviewerUrl": "https://www.google.com/maps/contrib/109089709947510920321?hl=en",
+        "name": "Striker 50",
+        "reviewerNumberOfReviews": 248,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW6vup7_pK0kWJMN936RKZP4hsgvDaJuTfkc-WAJM_B4Po128MK=s1920-c-rp-mo-ba6-br100",
+        "text": "Great service I was far impressed! As for the flavors, there was a lot left to desire. Nothing punched with memorable impact and left me wanting more. Soups were so-so and portions can be made larger if desired for all of the dishes.\nI personally wouldn't rush back, but it offers a nice ambience so it's always an option on a blue moon.",
+        "textTranslated": null,
+        "publishAt": "2 years ago",
+        "publishedAtDate": "2023-09-14T08:00:19.836Z",
+        "likesCount": 0,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNaaGFfQ0h3EAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNaaGFfQ0h3EAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICZha_CHw%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 4,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvIvhCEf4EPr7eafc40KRaz3GOKqPkPr4m5rTuRS1q33Nz2xx0o_u7lUXpsthSgBRUvyJ3Xdc6zA2EJblB6ccENoAuA3t8TqjIsX0EcJWTAjkllyqn3RxlPlAQ_p5AkJ9056jQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptIBJQ8BvwFl6fVS0al4qrvEeHGofcboJKJPXz2UAVbNipT9Pe3BEcGKlMyZyhZYFXUodgjvlsMmIvpENF2ok3K2uNIyPMsTHpT4sJACbhZTC7OwmKr65Ip3CJOhkQ7h_O_udI5sg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puff5gL24oxBW2ao72VaZ1jkckHO_hLDZENxbSCC98FQpthTIZ-tc1AOnGL3pj0ZcAxnvcO_dEXhsdWmvDvbq1Z4ogqF5m_fp-o-pu1XnpjP3tKL2L5yCq6BuE5Ljv87GgC2GPa",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pso41ifkByxI_9Q0N3RByx68f0W-g0luuv3ewhQkv3lDV5z0qPUsieltMsPDN8_5hWxcvflSvjCKO7lJiP9lZmS9BsKl8bULklALOvcO3akQ31RXwNm2YQxj9yuZFTgbU92LKHM",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt_Qd6GD79ufodflpsi8gxOxndFkNN0j_0TMG8UyoYiHkh5H8fDrFWM4jeWaSteao4kgHa_MwrVdqu7iCdyQM0j2dGBSa3eiO8UYh4ZOTg4F28MfBwC_wsoNlfhoIvtxxRZLIED",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvtRZv_k7ZA7b50NyjSkWW0Rl93XFi_S7svsxba7YqZwWn6O6439bjlFDlmcN-WBp6CDs72DfqLpgZr3ctxPq0-XmgRtX4dUsYhWFgdhomr-w0boVh3jtnoTyRf3coNJDa1fuYt",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puCfsdzhMKbHhsDvFrXn40_JiMUqGyrshcogLTaiIBfYs6KlEISnhebjA5zofG2lcrI2Yd-d4MePuQZbkwOMt0YLhmlolSBECKwW1GDlOYSc154ZPzE31YbR_Goy4NDbdNlW9x4",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puPwxwV78iHO935XxzAMM1QC8wyt-FMsUGoW92qYTqk4e-KWcTiWFAVORturOnX3dEU7yspd8w-1xMRs3IrrdTtD2Hyt0Dh5kG-fbS_paZuhNkOB8eKMcGRR1_pUJgFE_KtNc795Q"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in"
+        },
+        "reviewDetailedRating": {
+          "Food": 3,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "118018090931106552347",
+        "reviewerUrl": "https://www.google.com/maps/contrib/118018090931106552347?hl=en",
+        "name": "Alan",
+        "reviewerNumberOfReviews": 543,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXnaYKYHQEBeHezG1ZdSrZgrbu6sPtSXAULjgY-V7eway8yBasC=s1920-c-rp-mo-ba6-br100",
+        "text": "Noisy patrons. Lots of choices on the menu. Excellent wine list, surprisingly. Polite service.  Food arrived hot and freshly prepared. Yes, the kitchen will tone down the spice level on request. Tablecloths!",
+        "textTranslated": null,
+        "publishAt": "2 months ago",
+        "publishedAtDate": "2026-01-27T15:35:54.151Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT205RFRqRlJiWEpKTTI5QmVVRkhXalZYT1RWaVJYYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205RFRqRlJiWEpKTTI5QmVVRkhXalZYT1RWaVJYYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOm9DTjFRbXJJM29BeUFHWjVXOTViRXc%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$40\u201350",
+          "Seating type": "Indoor dining area",
+          "Recommendation for vegetarians": "Somewhat recommend",
+          "Parking space": "Somewhat difficult to find parking",
+          "Parking options": "Paid parking lot, Paid street parking"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "116917579967819255524",
+        "reviewerUrl": "https://www.google.com/maps/contrib/116917579967819255524?hl=en",
+        "name": "Brittany",
+        "reviewerNumberOfReviews": 613,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVzpRJfEKhvJeycXogmXdGXdJ5uSP3_EXXIeN_DJkEyaVXANbLF=s1920-c-rp-mo-ba6-br100",
+        "text": "We finally came here for dinner a few weeks ago and already can't wait to go back!!! They have generous portions (the regular size portions was enough for 3 of us) and the food is top notch. Service was quick and curtious. The one dish that won us all over was the Panda Beef!! It was so good!! We couldn't get enough.  Prices are a bit up there but the food is worth it. Expect to pay above $18 a plate (regular size). My favorite part was the white chocolate dipped fortune cookie that came with the check. Restaurant is clean and fancy. Definitely come here for a special occasion or date night!",
+        "textTranslated": null,
+        "publishAt": "Edited 3 years ago",
+        "publishedAtDate": "2022-07-25T04:16:00.888Z",
+        "likesCount": 3,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURtc2RPd0l3EAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURtc2RPd0l3EAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIDmsdOwIw%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puZH8jqUPaBnG6XjVY2UyQmgIAbHY6X53EZWrgGR79-PepYrq3wqAIFrtQQ1-PAt3RLil1-lFvpf6Gr3ccFWyjDljW6CV1nCBsIskABF9_xLcUOkpnOGBfFrINudx8R7Vpoyzo",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt-ESc_70u0VYKI2B1s54wWHRtmSi5FRwgSJKY9X07wEXKAWFGZv_yQZYllxpDb36Y6GLhvwTPRQED4eR2q9NF6D_Yvw5GvgJSqVOC_Pl5-15HQDA98vOuVHAhLBKxvdIp8w-SW",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pugL6q6T6J86lAXjaP1J3yuHkLqlieuH0FDd5Xp05u9hyIKl_Z0iYWU-oekzbsl7EbLBfsT5atxSBuHglS04SYhJOkl3xOAyQzqXXgIjv9wrUFnEjA_cstv3DfAtDBQlWw7EcWW",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pueeyqOX81HyE8-qGAt8slbZ1bmHM73V09UXiVWr6juAqXxTN_B0hSHvU7mUQvXCHTURkCdE3tZRP6XQDMfc0pVRq5c0IvFVBqF7rRBhaTZWO_CkJqa755cBMdubR4MwoSjGSbV"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$100+"
+        },
+        "reviewDetailedRating": {},
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "111488905286087650300",
+        "reviewerUrl": "https://www.google.com/maps/contrib/111488905286087650300?hl=en",
+        "name": "Marlene Lee",
+        "reviewerNumberOfReviews": 429,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXTtN3p1GwFCxxf-Sg_PCh4sVDzbYPV5Tlf9K0qehUjWQHLfyY=s1920-c-rp-mo-ba6-br100",
+        "text": "Nice Chinese foods coming from a Chinese prospective. All good.",
+        "textTranslated": null,
+        "publishAt": "a month ago",
+        "publishedAtDate": "2026-03-02T16:26:57.167Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSbVYxZGpjV1ZKZEhGTWJIQXpObkJVV0VaV2RWRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSbVYxZGpjV1ZKZEhGTWJIQXpObkJVV0VaV2RWRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOjRmV1djcWVJdHFMbHAzNnBUWEZWdVE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 4,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puMpIhWG7f0nXRwCROkl2CQxjIIF-fsZg_K2Xw4E0dYgVE8n7nd3dCAkHckd9_DcozjCWeJlMlFexVXgM61IYtITBf4dqEUo7p9xV3VQnbSqBjULzkWpUqGIOCZUhCdCuGL6AmIRqJCcD0",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt9sf_PMcOh6HQZVtyk1G-p5JnWRXbmXgudHj8imgqYYU6fh-4T2f7-4K5OLtCo12VYoBGLk5BJuw9QOgb2ABUXJUzTUhz9UFgPe0XDWSXQc5FVJGyyXDjcLsPR3M1MJs_wWk9WpJ3bf780",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psfx0wdrUn3CCu0bi6Yj9JdK_JIjszdcKJjP8uzcg5f6aNUrl8skufYKOzCWJ97wG8tVUbE-1wtnId57_hkFtYfdXvIFJBNI-M8LNP8sKKgGffArLkrmB5q6fykPMFaL1Um-121U2qnAd8w",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptZGvxALpOWrRD148r_noU-DPTemPdhY6DZI5r1T6AQZNiKdkychp0FOhIRlC09UEcmFLqV4T-UDv5fEQesL3IdgiHtOHjBEHBqc3YDl1I8J_bHoFWBYRJK9GHRAFi181WxrY-csOKZEqIA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psrpkxr5RpVp7MCPPqP_TjfW6JsNQSzwTcD02HqUzIYxfHZzkY0yc7eGBqdW_UAtIMjBPqZmkRy6NzGW7Yzjbhe19uvl3QbFKUuVoQ07oph9GxwMCb5M1iFCzkNuUdI-B4hzWUcW8OxtOc9",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt-F7yXCvq6-EmhaLN9LbAjhvnycXm0is6TKax_28z-mHHL0MIHjZ-Gg3FHTxPw47-wcQIW6CEGRTrPl6RNTUx9VzABKfz4stT8UALasz41c6Iy2RqUyqp_H46Jj722Boys8oZKnDBnWrlL"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$30\u201340",
+          "Noise level": "Moderate noise"
+        },
+        "reviewDetailedRating": {
+          "Food": 4,
+          "Service": 3,
+          "Atmosphere": 3
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "116997131706240757352",
+        "reviewerUrl": "https://www.google.com/maps/contrib/116997131706240757352?hl=en",
+        "name": "Helen Lee",
+        "reviewerNumberOfReviews": 7,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKTEJwkfU4ldPts3XZJKCDbuowShLD0WHhtJ_tUJw_HlhIRIQ=s1920-c-rp-mo-ba2-br100",
+        "text": "We were truly amazed by how good the service was! The waiter and waitress were very friendly, and very attentive to us. They kept making sure that we had everything we needed. The food was excellent! We ordered lemon chicken and honey walnut shrimp. We were surprised they also offer sashimi! We love this restaurant and we are absolutely going to return soon!",
+        "textTranslated": null,
+        "publishAt": "a year ago",
+        "publishedAtDate": "2024-08-27T04:16:02.136Z",
+        "likesCount": 0,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUQ3emFyaVlREAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUQ3emFyaVlREAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgID7zariYQ%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psWx498RVLOULVUc-CEKDQU2SKjrm1Wb7NEYsI_V0myIS9fFMdJ1g_V4NfoYlo2QYVKSgVHQQUIaDI8bS_bZGd9hdfXUO638mVT-w-G7zw3sSydJ0pWwmgEKMt9SYTsj52W9D20",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptU9G9DTad9uWGoAyuWV_aB8JH542Jiv8oCEtjgkv6ZKk-m2EqcryKLgRi7EsJKSn9xwDn3x27nPymApQev-YZfH7b0UyxNl--W-YHkfSngp8JQ4WY9q-H8nbRd77s_ZM98CXh1",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psgZOdymqQMS4-Ey_4bwo_n7103iN1q6ZoeRXprgpGzGZr_cz2U9qp9ZUMw4WtHmm0DC49-29wt_n3xHcXsl973C05ngGimOjc1Idfy7B6E6d6gZcnxMSQb_JOvwejYU0X4F5RBng"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$30\u201350"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "112301601813878161653",
+        "reviewerUrl": "https://www.google.com/maps/contrib/112301601813878161653?hl=en",
+        "name": "Kevin Nguyen",
+        "reviewerNumberOfReviews": 16,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWV7zsqVboTqNFfNAQo0tM687TH_B9ovXL20Cr6iwr_frWyPX1ZbQ=s1920-c-rp-mo-ba4-br100",
+        "text": "My girlfriend and I were about to head home to the Bay Area and needed a place to have lunch. We learned about Panda Inn from a friend who LOVES Panda Express so we wanted to give it a try. Honestly, I had low expectations since my friend mentioned \"Panda Express\" but my overall experience greatly surpassed my expectations.\n\nWe got there a few minutes after they opened so there was no wait and there were few customers. We were seated and the environment was very nice and clean. Even the bathrooms were beautiful.\n\nConsidering this was our first time at Panda Inn, we wanted to order things that we could not find at Panda Express. We ordered panda rice, fish in black bean sauce, hot and sour soup, and a fortune cookie milk tea. Yelp had a check-in offer so we also got a free order of vegetable egg rolls.\n\nThe food was absolutely delicious. I feel bad for having preconceived opinions of the place because the food and experience was greatly better than getting food at Panda Express. The panda rice was addicting and we could have honestly ordered more. The fish in black bean sauce was really good with good texture and not too salty. Hot and sour soup was really yummy and a must-have with your meal.\n\nThe only downside from our meal was the fortune cookie milk tea. It was supposed to taste like a fortune cookie but it's not noticeable to me or my girlfriend. Our server, Carla, was very sweet and even gave us some fortune cookies to compare the tastes. Truthfully, it's not too noticeable and it tasted like a normal black milk tea.\n\nThe staff here were so friendly. Carla took care of us and made sure we had everything we needed. She visited the table frequently but not to the point of it being too much. Plus she was kind and chatted with us a bit about our visit to LA. At the end of our meal, Carla was very sweet and gifted us a bag of fortune cookies to take home. Best friendly service I've had at a restaurant in a long time.\n\nI very much recommend stopping by here. By the end of the meal, I was already messaging friends and family about the positive experience we had at Panda Inn. My girlfriend and I had a 6 hour drive back home to the Bay and we kept talking about lunch at Panda Inn. We can't wait to come back and try the other dishes.\n\nThank you Carla and Panda Inn!",
+        "textTranslated": null,
+        "publishAt": "3 years ago",
+        "publishedAtDate": "2022-12-19T22:42:01.988Z",
+        "likesCount": 7,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNCM0xYUnpnRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNCM0xYUnpnRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICB3LXRzgE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9purnJTD2xIaC81uuwzZ-eex5fHlazm9HLKEX1ob_PcCsgLab3JW77rSxkII-atQs8Z26fl_-OrXLwDyqFbevfLECraOaj2DCCr80DLfNddVsVvBXRYanjW49teSqMNolThOst0Uhg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvJkudGX4Ut0CpUNARIkX7l0jwBBZicaD1md0Wcdb03SJSoJ2LlVfhj7FtTIWvcGTtZVxrjc7T7AEExORFPjjYU9EwmMxTc2RXOHjWI7sIPGrZMu_5iHsgjoTec4hsnJenze7Q",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptRRICgWOZhBH2dyEnAV4ZxuFvB9PPD_s0-FL-JXSyMVOQaUIFRpuQOrHC2-9yfXfNYqUSCfxBMWtx0-J1gr4uX9RI4PNkeVi-2PB8RE2fvW5zLXuwNdGO2YVGwJ-pr2Rlhbkew0A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puO5Z-q62JdpxhOfztepLHft-8gjnTEdmnCQEy_Q7zTDYsCL4bJqtQMZt0HdWZDDPBPfDt-UDNFy4lsYyPQ0YAr4eDtEJQeA35nI_imNmz0cFN9fxAmumkIKYil4qcdqBNwzrA"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Lunch",
+          "Price per person": "$20\u201330",
+          "Recommended dishes": "Hot & Sour Soup"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "114466548646420049001",
+        "reviewerUrl": "https://www.google.com/maps/contrib/114466548646420049001?hl=en",
+        "name": "Lucy Abassian",
+        "reviewerNumberOfReviews": 10,
+        "isLocalGuide": false,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLY9J4T7QuMT7ICGEw-z4WXshhSWN4MrnE51utkR84NSi9WXg=s1920-c-rp-mo-br100",
+        "text": "We dined in a couple weeks back and our waiter Alfredo was absolutely amazing. He was so very nice, patient and super attentive. He made sure our drinks were always filled, we had napkins and anything else we needed. The food was amazing as well. Thank you Alfredo our whole table noticed how amazing you were.",
+        "textTranslated": null,
+        "publishAt": "5 months ago",
+        "publishedAtDate": "2025-11-03T01:30:52.474Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pSR1FWbG1NVlphTFhsVk0wd3haV2hLYnpKeVJHYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pSR1FWbG1NVlphTFhsVk0wd3haV2hLYnpKeVJHYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOjRGQVlmMVZaLXlVM0wxZWhKbzJyRGc%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [],
+        "reviewContext": {},
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "114501948060247383552",
+        "reviewerUrl": "https://www.google.com/maps/contrib/114501948060247383552?hl=en",
+        "name": "Anna A",
+        "reviewerNumberOfReviews": 105,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJy-nI4t98IpWVvy7yK9gElxlB-KkA0M8H_Tgxzy5ZTd4XjDNkr=s1920-c-rp-mo-ba5-br100",
+        "text": "This a very quiet, clean and high-end service restaurant with quality food with affordable prices! The menu is very rich and it is not easy to get tired of the food served here.\n\nThe staff is very prompt and kind and attends all customers in a timely manner!\n\nThank you for your business here in lovely Glendale.",
+        "textTranslated": null,
+        "publishAt": "Edited 3 years ago",
+        "publishedAtDate": "2022-12-20T07:35:25.480Z",
+        "likesCount": 2,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUR1MDZiY1lBEAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUR1MDZiY1lBEAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIDu06bcYA%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvUxOsKWfWV42rjmmi9q19XwkxKMvwPBPgQ0nPpBrErgiIYH7ka19sJIcgDVEJH4IcuhfgBgfd3BHP88Kc-Me6U4GWDCQhgz520nwH3gVvYmZFP06gUrIrXymFxS-rAbqe-_GM",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pucLPxJ3LCSNd7Oexnwtj_ystc_x9SB3AiJ6Mj6nyj9FQPVUj4gVLsTUxPleRO46c9Iyp2uUr5g0BIwi-_2dqamYVS2o5lYUfpVy3RtkFJgjafVuPo8w4eM-M-xlwdJ7OWD_QBZGg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptQloZ7QkIApMcSGMqW2Wyo8H9AeShtbL9oXoJ9w2W8FVptWuIJyC0zXjB28DecKnW2w6TKsRwoGwZ-Oe4SolGUzlrrtJZyTQbh6F6vznYpz6RCBnymrVfq_ni-34L9xTMWUzeA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puDC9iu1M7Axd6-sfO1Ed8qmnCBNA52XaTiw0b_B6ixNQ0e-xtXowp4WmrkW93Q6Ksh98w6SalNsOXt0-MeNVbBrU2brtmHbSBTqbXM9El_W3if70In-42l2rK4UIC6BHMBAZIBcw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvV8-7IfBf_y4rotLsR3poaulKCvROgkF1BAqmggXaMzivMsgjHobwMZJb0Nhf09IRsKSr4yzrWw2594Lt3W7whNjTp2bK2lGdiJtlCJWx15Q3VPFnzhUzU9btQT2xXGaGoqgY",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pupz46BiQURcqdXkDeisfaT8d2mluLPNp9zwbSZEhsoSxS1gHyxsrsogyb_JKVQu9W6Vy_wbeTrHS37f43GgsCOfH8g6KVuV1bO4Y4jVrLyG8vX2H5i9YiZU8zL04CAXXHRCl6TAA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puBuEuiySqrSiHkLuwV9K6wmgdP9_aVF42WJwBfrYdh9N_5JOP4LKJsoYutrJCkd-itL4MKCUhv2R0VtMTmXTA7DCw3MGvuUb19rkN9fsHTqO4LoRJM5h62zGyeycqkQ6IhgYAw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvsYtA4akPe3ivrpmUj4nCHXfgcIzDhChrX3ilaWBPJ5pv52kHOkqdimSylH9TJo_eJp7nwRbP9PB6FWUe25TM3uVVwHuKnzNuAZYBsF2kd_otUyz_HVov0vTFGeaRlbGef21E4kA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puV3Gq9MFo-jXzBvm4WrsMTyUeqnB1Bns7vDpEeck-ZhCUv5v9k8rpaOYYYDs2WEL2SYBwaRtC12YKWXxRZ8fcfUI58mvCJdoheiBY8sSFs8jOGw-prmw_W2Zhzrqs--I34GnMt",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptjfE-5vEFD8IJaG7fnO7p_Qyv-_ltrNa-SxIumoiJLlChCxnUk8azBKFMq44oObM7sm-Cb85hiAqPwoKUiHiKO-y4WDX0UL5Fz6wMQrP4dWP12zzExixjlQ4ILSM7E1CmNdzQ1hw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psSIKwEZQ0qh_LfZeCLDI4DopS3kLOMC9ALX4sRYgsmUb5x8ARE9MsXowELS8LHGK6AYvUEUfY3wzQOvLV2FyhDoGYbyo_FEFJJSzWYx04Mq3fgzNwji0WrJ7W-tK7uVcYAWcU",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pukNNTaWl53fVOUMtI-M28hjHCrTLYSx5fR9KzXGgTIK6iSD4DdkLHhzm9eRTHPVxMJn9eAZMIIUEeEx7lUZ871XzQQzcsV_m5xE7SZzc0PiZOIBkR0kQmZZTfDcKBGTMJmvi7O",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvvTEgK7L_sTcOCE58J-5TPtV3cxfEOpGEwmsq3321LadmquAtlIkfvatBKjMjycOmZJ87tTzDSKLgbszLTmyR0IwRSgD4vBqiRiavPvvIw2QjDHfwm0Q15ojQgCrDx6_eYVuZj",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv1OniqdBuH2Sv35ahRlMMhwHsdASB8F1Dbdl9IZv9h5EpZxq0TURZe4otx_xKb6PGHlMmF-edX9wBDgnQqCCJdzGfZumCny2MxGM9bGdCU8N7c_2OPGm9p8D64eJZ4u1-00y3VhQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvmO8WZSYRR78YiwVEIlEx5SuUIB7wYOb93Mq8UNTlEG5RhaH_NrMYsP7pqizcyDLnOx6WBX_Po1OgfVYwwMv9D9vcpQvQkPrJtxxPY8qCQF7MdGexW7zr25H0aTGa9l9iCCjU6",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9punbkuluQVYfvtBF26DGdcn0DYmcpnfRgMG95OzRifaQ-9s1rGHonTkPTwVcLsS_2A6ZGqFT4CmnHVXjMZyKnIpm15lhcAcqTKrLO60Y081x0QCltr5FsUdMRrhwn9j_uADRjEo-A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pskspflJ7EhxmWEfEfykloTgtTvyy1VHCXNaB_jpiRMDOromZdqe-kqyQBavA4M4q0uPwf1s75u1TELTrsR8qYAVwL2kwx3_Q87ysOO0j0UOgrZjn75lxOk82pAYO0j3l1qjwWT",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps2RPaMWEx0eSUvmNTsFr16fHzwRFgg6atcVLvidu6qeYkM7AxavbSUHcU1t3S7dvwvGEvuZRrlPthah76DgO4zZnNayg1WtIerW5NlM_DYSHgiVzT3OGsWhtzhGJgppItmB6JR_w",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvL-rjIfWTK4MOE3fpE1lG_JxbZ1y-NyCLzV3K5Vmu9N9WYzn5ZQupwNlpXIZS3x-GIrGO9-1snh1rc48ZNhRicCZI72xCr83UHP5FMRVa_wlMRxny5v2POGgCMhdiPI1Qx7_Dr",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puHWXQiq0dEoy6fMs9VLCzOwFLl4SiZl5hcpmUGVJvUE_qM-e-7Dexs6mBB-HewBq324nF9v_mk7lzT05v8dy1U4LrJcDLdWdshcy1XkFZFzW-tfd7B4Nz-j0FEudo--iGUdCKsPQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puuXgOfl8i_znCnLeH1h8xZK4pAb0sODu8tORCFgpU9jEy4SLqDz3v12stzji7A-RKWGuHB_wj05kdAgBHC8K3OK6uExRpHvwxrR1Oh_9iBzaUEw6oHn27MBCfdi1FB-gSwVJg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptYWNkwKseMB8pw3fdbBjuis0tUP3WKQO8xxRYhNOlU5qalwGHncjZLFXCSaJ8ZwOGWBa0J0mYf9wiHAJF0HF8AFgkTTUn_MJTq5WHuE5m4xbJQOLtgAx-ZNAqKybS0BcEMCqTfaQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu6AxWRxR_1-oQ1sAgR4iC8LvSeQgO255BOP5CXjBXxUfPWDRpzg_rkj6tXyDfKUhxLwFU9PQbixJ9M50CLSDnTKeo0zDh_r28ZWJIar-OQg_VYZzJ4OWtwueqXaRUuC6fVfu8K",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pugfsuyzT7fJffkipYEyuGyrNs8xZKjOC3CiGo9nDzR-CDBam1NZGNGrwfB_GxnJ_fAfDM4rnKBewQMwVBy4p3Z6zmE7Y1rh6Ovknou-HuZIROhfjGdIWzIlKjIIP37GFD_O8B-zw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvpL6tLyrm8CteVwPVlr3vxTTHf8A3xh4U60cuWxBivN48Xjyb6oT3azsFNM3Pp4vAA2AqN-wU4ucjxPGmOnJ_b_6Y0Ru4sUtP_aA_4iEP-yIFdrcW-8QR7qw2_R5FR7_dwN3xX",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puHQHsZ0c3qDhQ_SrfOGgrpCtVE0hQI0hEVuZNtNdLULh7wxrm0M7zdteHGz5XpO6nJLDZpviKQ9bmqpve1eh4775WDF19lizgi-vr5lzYstDy29-PniPQQn-Afq-5cttWrwb9h",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psyeqcu_DIURTO4zazTA1rRA1xK3SIUbNzKhtxhdD5lFe4tppI3pLo8aCUqm7g65ZxVjQm5Q7Lz0srLkagWs7DFzhfFMjsbl14qfTtjvgX2RFkqsSRRpIoFlhEbKhEYS1BpQRgY8g"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$20\u201330",
+          "Parking space": "Plenty of parking",
+          "Parking options": "Paid parking lot, Paid street parking"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "103909619681930302534",
+        "reviewerUrl": "https://www.google.com/maps/contrib/103909619681930302534?hl=en",
+        "name": "M M",
+        "reviewerNumberOfReviews": 66,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWIY92RVDepN2R-gRQ20QiapP3gA66M8SWstRIDHNVIf_UY_3T1=s1920-c-rp-mo-ba4-br100",
+        "text": "I love coming to this location. Delicious food always and great location. Today the service was incredible. Thanks to 'Simon\" he has got to be the best server on the planet. Its very rare these days to have exceptional service. What a treat! Just hope we are always served by him in the future.",
+        "textTranslated": null,
+        "publishAt": "Edited 2 years ago",
+        "publishedAtDate": "2024-03-03T10:49:31.274Z",
+        "likesCount": 0,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUR4a3FXNTB3RRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUR4a3FXNTB3RRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIDxkqW50wE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu2xWZiDFE51bQxHcc4K1BxRcV1dn9creeLR4OVAMySPB79WP5sjT75MGM78eA7cgqKlr2DHodupHovzBHvSXSvMe8pxNcKFpYmGxFFpYXQpKq3dx79Ye-okOC5b-fysxjjWuSE",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv9j2VXTw-5ZjtH2GqIEmINPfU8YBHXLzHlORS61g0bfSdI_U45ppCkpYd_IMRASJtbtk7ZSY8QADPZ1dS08f8HWCkg5voKkyGyTmIFPhHadBt1NvJPyAxrlHgJBI-bpaEhDm5p",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pthDRacmpMMS1-92mZkyhSZ4W9524MgcWnAXExmrfgkwBPHGnHIqMhV66tmzVWokIKxeasdcn7cOR2_S7RpnEsgN8s_I4XH74QHZ2_lK1pLm1k4AABYG5b9o5pnaigxc4Y9aE96ig"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$50\u2013100"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "111118137120273693340",
+        "reviewerUrl": "https://www.google.com/maps/contrib/111118137120273693340?hl=en",
+        "name": "Nellie Bee",
+        "reviewerNumberOfReviews": 224,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWbOxYQGR0uHo4lWp118YBHZuMpyA_iO9bLUqSwv6EMJsXhD5RAsQ=s1920-c-rp-mo-ba6-br100",
+        "text": "Been coming here since in the late 90s when the restaurant was in that small corner with a big parking lot. The place is much bigger now and the foods have remained the same, if not better. Tasty. Yummy. Savory. Bec we went on a Friday, and just 2 of us, we stick to no-meat dinner. We started with mushu shrimp and got veggies and seafood meals only. Great service, Ray! You made our dinner more special.\n\nBest to come with the family and devour on our favorites: beans, crispy beef,  honey walnut shrimps, kung pao, pan fried noodles, shrimp fried rice. The place is so clean. There's a bar. Has 2 function rooms.",
+        "textTranslated": null,
+        "publishAt": "2 years ago",
+        "publishedAtDate": "2024-02-27T07:04:03.436Z",
+        "likesCount": 1,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURkaTd2bVlBEAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURkaTd2bVlBEAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIDdi7vmYA%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psvvPzcpxYOqjgPRfVLc7ci9MtgdvcyyDpIEDhv09OSAOCTMrrFMvRZgmR7r-F3Zv1byQE8iuyTrcN47t5ghpEvqrV022JRSY3FXsZBvbYZhYcQGDe6FVpMLKkSrj-LWmM_SFjD",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv6gUS806GwOhvujHoSGN7leq9lLISCeChCn8n5PLYHgaSL3M6SftvADSLbKVsRfyOSAkp5ChEa9Abb_IVh_Yhkpmpwc18-YWf1BvVuzXuldXI2S_PBb_sCOOPsqveyDr5ebET1",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puWUwJU1sL-b-7vx2i77kDINM9tSSVwi0287M3TQYEWhZU5kMn5GB_OjGc1d0WlGeudUVIcBfQAGQCOf3T0pvjN8n0Fh80TqG1Z6Xi4SQmbLqSwMMtnfUCITHokcPBXYw4DhXSV",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pukp_LAXwp45MJYWFbtv8P0E5pbt94leg3V-EY-PL31kLp3qheZpEpbZrDvxMjgM1J3qqd5OESDfmkLilf7QfVzUk42VAea1t9q5tlGARvP8f0SyUCb-p5s4RadWJQ2lVsQ64d5",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puWZkiW_XBPX1k5xxy_QxoeH5O2e-pGtpLFmsVa1S0PuRrDt2MVHgIy3CoRHJsbjXNyGs4m8UdHdhhGiL-cMqwgzkWYiMu3dtx2_lH8kbQx2TT8OMjeYiU1IDLUnxL8TycjUF2B",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptc05tBtKY6U7VR7wbdrmQngGB8Bjhaz0YuW8dDG--1NNCcbD1TT73gXDTm2jhdjuGmf37JJLF7vCGifak4gbV1NNlyvDDZGiHJboYBKFJY1o4HIIvBmROi0wd7JXY2H2j98O8p",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt2A_e-q-Aef_FRUTIwb772WtoJDBuy9O1PmePo9dCOCMwiTDE5n0cgFI8xf8LFkcKH-onpyhNmd0BjJ-K3dt7Tq3XtLojen6I9J-J3ly0MPHWHXQST5ukWfFBsKfcaog_gRO4O",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptOil7u0ZB6uIsaUE1KaSnh4CfcYPVsorxlBbCy3kTpLaFgsBHrd0oRI9iwmkzl4rrgkYdudRpuISW-bX61c8N7JerMzNqUKledFVyNiCmeICCzkYV8qUMo1Eigx8za565Ic8Ml"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$30\u201350",
+          "Recommended dishes": "Pan-Fried Noodles"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "101875998493251463525",
+        "reviewerUrl": "https://www.google.com/maps/contrib/101875998493251463525?hl=en",
+        "name": "Catherine A. Montgomery",
+        "reviewerNumberOfReviews": 300,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVt4c3uH37R21Ka-MtuKzcbQZQPvFYzD1DgyXujuVmUIg9tyfq30A=s1920-c-rp-mo-ba8-br100",
+        "text": "Conveniently located next to Glendale Laemmle Theatre, this is a great choice to dine before or after seeing a movie. They are open weekdays until 10pm, and little later on weekends.\n\nEXCELLENT food, friendly fast service, ambience - the lobby has cushioned seating, art, and there is also a full service cocktail bar. It is very welcoming and has been at this location since 1973.\n\nThe menu has a few rarities you won't find at other Chinese restaurants including Forbidden Rice, which is a black rice served with vegetable medley and Upside Down Crispy Noodles, served with cabbage, mushrooms, snow peas, shitake mushroom, bamboo shoots and bean sprouts. There is a good variety here in appetizers, soup and entrees. Many of the dishes served here are highly seasoned, however, if you ask, they will make any dish without peppers or seasoning.\n\nPortions here are generous, so if you and your date fancy the same thing, you can share it and still have food leftover.\n\nI was quite pleased with Honey Walnut Shrimp - tiger shrimp was cooked perfectly, and each bite the perfect blend of honey and walnuts.\n\nOther dishes you must try are Tea Smoked Duck, Mushu Wraps or ANY of the Signature Dishes.  Additionally, fortune cookies, delivered in colored foil, have white chocolate accent.\n\nExcellent place, service and food. I look forward to working my way down the menu and trying everything.",
+        "textTranslated": null,
+        "publishAt": "Edited 7 years ago",
+        "publishedAtDate": "2019-03-03T02:55:27.107Z",
+        "likesCount": 2,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNvamIybXZBRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNvamIybXZBRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICojb2mvAE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu_Q7tZGdGFboXrc07RJyTvjsxCr3XfABnAgKLzeysn5IyUH7_ogh0AQgouDRdNmZv8GNrXcC6FpSpaur9jpCSd54HuKy-9JWZ6fzHzbVM7GR4qB6GGVkTHZscy-GdfnxVAJQ5K",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pso77dRmxSCma8B2R2CvJVkE-2OkCU9zOr_dXo3dhIG8_aJG6SIL52YW4Bp1iFj70iP--ItDVTc7F7CJoxtf642z0C9Y2f-AGUcHowIVtNhrMVlnOIVL4qXEzxBxfEFtFIJm_PhhA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptsSkMRHX37yK0oP2fXoq1edVludoOlHiCVOirWWCa8rL9NnqVBXvfTp7mC0XW4QTiUXtNX92E1y6ebx_vj1qlWpnrCQwhf_Rr9sKmbgSn22kEcoEw4z2-reSVkn0ulJ-Xc-GjGeg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puIzO2Jg-kyXfCQzbAeqpPQ02sHR61U6OgQWsuPewNtuox1ah9hjuRl_QMSgveFwIDTvTcCn07D9NJHFF-3xKPI4sqZPYTKb4_p5STOrkSTrbKNwJ8TZ2frpe7hcltM4TNv3Ro",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puDOxdYeaFz6zo1ZujJq3ieFFUhA3m_Zgw81T_GsoWXho2TmLNr2_MKvywOa6EIjq-V3yzyJda797U2s39pkSc1q6jikrJm1IgRTToI97fwDJyJHui4dTSp-vmAvEp3BUPIbLe9",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptKttis8YZD5qINVnrrxtfvmCxTrwC5LSronU-Pc7egjAZrm80nFpce8HA88Iiyz92Zg9nzoNJJj0GX3k8GA2C8JybzudThbaf0t4TeJumAku1olUEx93dc3iHECBUR7mPmm-gc",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvSHONlW_7vWRH9ivxaAbYWfpNPthycVV0TBeCS9PTARjQ9l7nhNXbuSgliEdlyHOyIoQgy70ulN-PPNvCunjc1fBlBFlF4SZpWZy-Dasig-_14WL-L2rLnKmLBRBlAXtw22jgsmw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvoxJYKtpEubpCbhpGFrNokLb1IaWIESBKt2xhqFzARpZElo656NNzCI4Y0JTMou45ERYpewfdqHZItA_RtIlt0PZOIU6pWeEhuMMrymCdYYFyEw7l_G1vUhMbd89b_xVT5Yog",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvTNlVSbZemcPNJjcaHXTW2A7P02AltvI0kcMVMA5lkXpCvjKfroKnyrD3IF9nvfMorgoDj2prZzE_zHgJGiAoClREnXIsJR9HMqjCw-XK8TaKZGCGgXqaKJNe-1VlX4O_b5Pfg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puz-nOEULB013ZIVPVwt7y1oez879SmUjNMwjwipqdwSpNnE7DdylZ2sSjAOtKWOGNv46V2L00qvtzcSiw7Dvl-YuraWGMMsjJ5-QjhPyx-HwTMC0ltR7M3RuvrTC_dUWtudAnieQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv-KBaEbtS0b7PCjMO62rFQueJntYLgL4rQ0lJJ3aO62YRxvyqP0BmXiPaEaKWYOdgbheZuzI-imuX_Xi1psOHJzLleccawpUTDwrA2qyIMqADX4mB8d47qYjq7-ZbHXOkac6ew1Q",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puK_oyihmDzv9jfTKGY6l-58EU1WijAj0mJnYoqdYIyEWRHfw6h1BHK8PIjLrNiCCjNHfKljRw5ldLpwkoU7X2Ne13GM_qxhjpbMot_Pq6o0CYCmhNWeEYhfrGv-pia5BPUkEtu",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psNXfNAMuNWNHBv2dWIXNI26gCJM96PUsebVNXlzpSpUSSOIQLqpGl_k5ODXRkDazkBqYRDnQXXHAclj13z--2aOjZK4IutBdRoDboJskI27XzgGfJjq149cnAf5HeOYfopQAnf",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvvvl2hBVe2xwnDo4yIFLIl7IttBjyvqkRURO6tp1J_Svjm1xMdu4M0d_D-nysZYVTkt285sWkQOVyYQJ9gWKaVd0c6S0X3MOS0ROAsE2iU7Z8H9nH4h0LaVEJOG66pPbOPdYzd",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptvT8fc_ukDh6YE5T4wtFHXH3GYHOs75paVp_gQx0YETsNEVF12qEzoM-l5ToBWOQhDdgIJBnwSYADkufHcSGPJ7LHeYJlBfngrVh2304c_4VngHWvfJUKPLGPP5eHiLYDsBtrQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puyzIKl5TEug_lMzpDibbfD5DS2dPWas9R8LWFKMkgOfpprgb3O4AE0fhyZyJ9a_ESSioCvkky8hdHYcvmjazkU6y-QzDGP6h6MbH1wx86VarC3wGwi-zUQZtr3-YbtZzYboTY",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptYKbMPNCDEhrtrKpp38uOJUcmXpRuiRx7jY6AomO4jhHvQKvuhfWBRPdR7yxDbJ8LGyjRq6OQ6mutSa5j28fwsPqFMV5N1-BXIHRuu3Ojbpe1xWhveZh-o7wN8mE403ZUEKwhvmQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvTYYaRUmh1MrJHwbGp0WRl9-hExHr5G1TlWt_qiwCJfK9KMfLLXG2vQTbKDYuuVgu9WA2iFYlh4IzysLL4gTPG0AHdcrjxzP9TTOBeqvhRh0cTHrDUK_q2G3imMew3ewTi7pGb",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvbu9VyYUtkceRq5SzqMkTBmIsPhcV7c1aJy9mdwsH0Vg8EIjZ1Wc79wC8G8gOJHgxPZkDQLsrkl2WP77KNENblaPW0lJRVhGhPT1W68jCWgfmSAuRvpHRUClrZhtQqgNxr-G-S5A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv_cK6-VE3z6roWghnChFY-cL27Ph_nrbRmjiMCUzbcUD4B_gK-wung818zThB9fS7TwaFH29QQdcTC32FJbNhmrhpMLTlmmPoUgELEsKhne8PrmN4e9rlS6yPfpArJFGBUONGn"
+        ],
+        "reviewContext": {},
+        "reviewDetailedRating": {},
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "116377276345527804378",
+        "reviewerUrl": "https://www.google.com/maps/contrib/116377276345527804378?hl=en",
+        "name": "Michael Dibeh",
+        "reviewerNumberOfReviews": 63,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVhebNu94gPNqt6dxKuzT0bBu0P9V0DQzsDeZDQrjE7rVbVXimXSw=s1920-c-rp-mo-ba5-br100",
+        "text": "Let me start by saying that this Panda Inn location is under a beta opening. The place has been remodeled. They are fully functional. You can go and eat there right now. You can call in and reserve. But they yet to have their grand opening which is happening in January of 2019 as they have told me.\nTo review this place I will follow my 5* pillars that define a good restaurant:\n\nFOOD QUALITY (0-10): 10\nTheir food quality is great and that's nothing new with Panda Inn places. Everything is well cooked and fresh. Their meat is delicious. The sauces are on point. The variety of dishes gives everyone a chance to choice something they like. You can find alot of great and famous Chinese dishes available on their menu. I have attached couple of dishss I tried myself and they were great.\n\nSERVICE (0-10): 8\nThe place is newly remodeled and just opened therefore their servers are new and are still getting used it to the new places and the new base customers. Otherwise, there were very good. We called in and reserved. Once we got their it took them a minute to seat us. Our server was ready to take our orders. He knew the menu well and was able to suggest the right dishes. But when it came to the bill they had hard time splitting it up on the whole group using multiple credit cards therefore I suggest if you are a party of 3 or more to pay with one credit card and then divided amount yourselves\n\nCLEANNESS (0-10): 7\nThe place is really clean since it has been just remodeled. Yet, we noticed that couple of the dishes and cups were not fully clean and that could be due to the new machines they are using which they are not used to yet so I will update this once they do their grand opening\n\nAESTHETICS of the PLACE (0-10): 10\nThe place is newly remodeled. Everything is brand new. The interior design is just gorgeous. They used the right colors and a modern open design that just makes you feel at home. Very fancy with lots of granite. Everything screams quality even the utensils that are heavy and great to hold\n\nLOCATION (0-10)\nGlendale is a great location for any food business. The streets around the restaurant are super clean and nice. It is very save to park somewhere and walk there even at night. It is a great area that has been remodeled completely.\n-----------------------------------------------------------------------\nPRICE ($$)\nThe price is very reasonable with the food quality\n\nABOUT THIS PLACE :\nIN 1973, ANDREW AND HIS FATHER, MASTER CHEF MING-TSAI CHERNG,\nOPENED THE DOORS TO THE FIRST PANDA INN IN PASADENA, CALIFORNIA\nIt all began with their vision to create timeless Mandarin and Szechwan dishes mixed with an innovative style.\nAt Panda Inn, the variety of delicious entrees celebrates the remarkable history and authentic taste of China\u2019s regional flavors",
+        "textTranslated": null,
+        "publishAt": "7 years ago",
+        "publishedAtDate": "2018-12-18T08:27:07.446Z",
+        "likesCount": 1,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSURJOE95THRnRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSURJOE95THRnRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIDI8OyLtgE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 4,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psLb5ZPHaEpAhHYgOb5UQvQHKOggWKMZGpkdWafMpZSNmBssooY_m1XV4EcHis7WC8U1Sn13Rfak7F0gJm2dqkrEv0r_bZHJfwjCKaEe3Eoyryqe9a8qdh3qAEF_01JmUIpaWoJ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvtVJiPqmBuT3x0UIZKcLNbDweJW8QS6jmj3Zrut88qxUSuuSFJeICBnPMlcDY2m7OlxO-mIuotUiUbUrFMuNQfTtWSEujpmKXi_20hVRAdltcBlVn0WDeyzaPZX36YhRezsgGa",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puQ-RSLYtQEJFaXSfti0q0EI8aOMGci0tD53ObMv3uFqlcY4e6PtdcOD17R_u_QEockQq0-qU-1U4tAuN_V5dLRrhjIO4mGPIDbGaet4K5JJy_liQU1WtWFX_k3ECSZegL_cJAP",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptcLEENPBNH--3JIU_6FB8g_lRpxDS2EYSTb11WAfUG-utL_aNbfSIf0GKQf1HK0PH8m0cWM6QVoQhxnvFBmFggV7sgPJng2CuKimw0SsaEyhU9aQzSwhsWmJ3098X-ylIg1uA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psyuQINhKeGxcXOJn7Xee5ZHHZBACR4BNtpbfBoTHqQoAKaRUxIyl52dFCC3I8R49Pp5q0XNnsOhUY15Sd1beXri2aZ0Y2efJBHmtUVg-NE54EFrSzx4xqKPpnSer9cRnMu-fZP",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptmDPUajc9pbJ9RJuubBol4nL5ke8RlYDlh_CQZh1mXz0OYtytI3T92CaqsLdtFP3gDhM70vosPgS3R62RL7FqYg3ZsWgokU490BQYhR6GLlQd_eeil_M5fCFVU0mv3sWMYbiMzrg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptyiDFFZyL7HtkiVE6vvFpPPt-HDVlpmAUEt9pI4r4KXNZb-dH4rVCxTue_5L7pHU2xwQ_62ETeTICI3JU35ClDCT0MKGeGY0q7qlwlHgts2mPZ5yEfT739DpajCU__Zeg4RBw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puDHqP9hD5AzmGn9sLxZjSG297Najn2FuD9Bp8gYqxDn1U3yO6oZAWyXQo9N1lDqpcGvzRLQIgCxumKLsN939ln-la7pf-UT2xYndCH-0J7GtYlb51R7HJ1JTTD--p0icBMly0-tQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvgEslidg7csnrB-k_gqENSC85mkS0kWWOylXfjTaaxAQVE8H8gWIhZm15d2J9G4FWnyRvs__W4E6yeQC9892en-nv-3HnsJpkLSb_FUsr7LnaEZBxAATuxGWqMZraDf5yuu0Z8",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pv7R1W6wagY-Zp3zPQKrhxV6Kbv1ATvGtSYXE8BPB3qGUGAg6R2rEjp990C-vrHNeqSC2pSr_9RbttSydOBmhOgtJHxqa_xq8pDUs7hioTEuWVFfZjxISEg-F0yK22UFPSbGmiq",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptHnqwF6-VCsfSFwUm-dJEYPb1V9HZpiVqN3-1MrDGiytwsLaJUqYAeMfLWOysu6u4Jo6lLssXGd7VlY1gZCjaXgTN_GKMD-4qiOENh1kHglpUbGmnxd0PLnwbnKJ1sCQhkSNcFYA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvCNLKb3GpsSuVlzDu3AxAp_CHnGMkSwc17-ltdO6IZClGH2q0cFUmGde_ZxwrnUq8ppOwJogw0jJkd2_fyiIojIeey-7HEeThNybpr6gwGhO7rJ6jcStZ6iijph8NRjTmc6qYF",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps7F5aiNkpJsxSdNM6BceDxrvjtDoX1ax8bbqIedZP1iMJsLd3MxWQhSrVeFAzPl3KLnjy_WSDafMwr41Nbb5-_5-eZPgIZxmg_-D_VElVYtibgMmeL3ixGGlihTcsaNvqrvqKAUQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptCMWqDZvFdqlrmGdqLFARhiz2NMJNopAxHBW2qacvqueEjfHf84_Mnsx4fm6f5yPTHvshLETpXxhQZOqYzAfA-20eBy4foyPzz6fBfkGwypyfA-xf3_VlxidG-iDnzTxazYB_xTA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvr6sumGYRN87Hf8CmWR9zRRQyn3rvAxrMcX5g0gzc_4JFdHKaloOeizVqHEQClwTL8r39aBlL6Ks9XWb0MpqekBnZf3Wv-wAYCL37Z80twdSxBZ6oYFDydcI_AlwgZ9nzTmdkg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puY94IhKWpP_T3aExfmW9rJeJAcdh9eHOw2RLjhAzGcpJ9rfXxG2KCDh2BM6gHdboQwNzMMXsj7WX0ll9ITCkRod_wiNb7H3PMWjkqFYpCujfVL3gBJYEfgt1t6qrbPFBfrC7k",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psZOVOwUg6zTr44lMFGnI8HhMo7OKeNQ11SnXgtR-emyM-g5yZqdHKyvc8fScZTYJzuiiWKnJrW2Hoo0oSHa4FZdf3PfJjzcM8cmwRl3PRI1p8pPYPTvX-vKLt5BKN-uz3VQPuH",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptWpWT9wX6iH9Vpgx1RnPgQeNZyxQlJjfi6dd-N-wQf9TCNcodwnkS8NTz7l7cEsQBEdTvdbeM2NRT_vLDVxd3mShPXvcDwuz8SWN5SRUEApVO28quM04QMV4ZnTiAlZlVLPZnI",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pukT21I-u-9q7VwHX0Yff-ZRXnnu0XnABmHgK6hSE0BStp39nDwQqADiw_mijcEjXdzVpq4tXOutqgIrmgQci09Sz9sAZFuPuAUzbKsj-dB06M_O30U4FH9-hd0cy5diIDw5FFKIQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psXbQf8q2OyA0peecqu3JteBY1zHAiXOv2iPHVeoWrvMRcfetfBmbcqy-fhuca7rUUDSIjOfSl7nTimoyMSK1XSVuoh5H37LjMBY1x7d1ysprAvNSMo9h9DhgCSVox090sefvZ0BQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psuTPtBAzJtrJtPs1H1CER1e2AqTSlmT03_XeRFfdIkjMJiRTkKmWpzXwoUAsRrv6r08zwFLfBiD7ML6CA5rxxH28lKXgNZpdaeMqRM0j96J93d0dWNaOyi1UC1EkwMJWHeKjBr",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pufHe_rwUZhW_VlO4QuwG20R7NhceRUPLR4uDhfFE0V1l0pa0oRHWyhf1lhJJmc_VLh9OtlKQKk6UBr0CkKXqXBXmoGxsY1cwYj7K7bpiEqAPqD8A_kLKqYwSeCJzkPTsDmQNeK",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu3X7YxrZTzuc-KltqLEYCie5hUDoycAcEkMFGkWUbHsdj8uHg9m9enVapAeTDlYg1dlUb5GL-VT7A8qGS45B9nwxxZOKdQiJAvxDse-pnusZo_S3QsbOOkf3Os5cuNhyt7JgaB8Q",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puVmV-QUVi1awzNOZkUZz0sfZd-1AccaFRSeCsDOLixD17BJKK-z6baiMnsQus9XT0WhhMcv4O2UhR7NuDd7tw94viktgEXiu_6Dzji1Rq4RdY8PE6XhBYPL_VWosZ8q1DxL6tx5A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptrWNV02moryPoYMsFSfifiKmmmn5vdXj2L_KvW-yxDijEUrhAGnTuuBemB2M2l6Ykdcz5uqn3aLbFw-s6aGP-D0SmwwkgNF3ykjRSbSk-4OChMQ-hEwNFcCJgUx62KHm5PW9c",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psiWWLEi77SdSWPgUOJ1h1WkEKd3-kiETu3vcbowHW4Gvqf0lGZs7kdDApBkieTb88Myolzr9d2cjWkZyTnX9QT8LsA8iHkRLPYQk7cBPysNBCHqmZSsiZ-VazuL69dpqItr3E",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9putOHO-auQAC1_f1OOZTwl_hIGeLvVpSRFB3vJnN6nhJZn4sxuybDu2RrZ_q_qhQaZmtvqYTlOyyANr9sNFVBaGV2ZLaH-C9dhNS0WziGOsk1HzQViSbqD3inSXCee5Ms-kqjntzQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puYNdAocQdgjEBUNHshYz9CBjO56TPovU30BfahNicTO8HKsv_1h055xyicVPvJfMLBXirA1lhCxYCdCTXnpvFgNn7gzmXKs6Cx0sTkQ-Za6fxy7nnc8hqF6xhBSXQ86D00aNm1Cw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptj4BtysjHpijfNXPYcBLqqVHJTwOfQFCXbAed7LjpGq_9zLPUPKaIU8sMBPs53Si2NOCvU6hRbiJSJgobjqr-f1ToYvsrZXaAu1XEI1HQ65mmPH15sb6QS667hXAcNBnUpAs3H",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puIwoMYGmjW25PuRGGH1dVzvV6H5sFJSOpgw3LB-p2Tt-zFLmnwAI1olfhH5LuBg2CZ3sxo2a4iAHhGxfWXWyLmtzOHPQk67fNJkNH9rc4k8nJ5QUJBZSBmggzVqwQtmeRlQK5Ekg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptMGwMZDG5WFICUMIo0HHRdoXipFyGu9MH-_MU79vTV95MvQxmbBwbz9Wnir-xkTA3p28VbmFIfGCKhtZtYEquKZk5wIT6hMOUrKxJ3VoJBYkTHsUALErr_g2XLaswiWcqTvzNz",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psZMYx92dmvF7fZ_qLfeeenm6xgT6R89rfMypocCGiqCwuCLKYtiUCbdOrmsMk5he3pGU9MXIalsYx92C_KLN_-jecxlpYiBD3hqXqNOe_sKqky6gk5BCikKD3THIAtgvJv-0Nh",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvRiyLLSgflJc3Yru0CzZ0m8q4-auaLHFZxvcNNuK9UHO_KbE5Yp4K7-FWhq9J4l78GV40uvRmr6KQlq0uMbjbrGty-lpmDOBv_U4FOA_H4w_SRWBC7Xm5Mgs1kBhxdgY491RB7Ew",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9purVoaB2EUduJUYT2vr35pmG-DeLniq3c7B5QBgyB9dt8LnB5ypWqZ8yW70kVTFe9n5xNxQy2s_dBre5ggnVptmjPF0LcELKtB5bnn-wLkeh9uWQHIOY79RNjVj_UBZXjBiXZzs",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvOxG0Hxne-7FjTPHuxPOD1PQBuFVN6u0FHp9CFJ5wNCMSjhCncjhvjhJuP6qB8X52TNcdrNbP7FwnAVG0Ab9W1OnoLlBBbDyLSGkZVA7RYzvy_WdwkCe5zsZaFF84tDFGaYSabAw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psRgF2hRGd5TKGYypSjTKM-bHslGpFr3ERX3EmiNeknShhVnpoeSZ_40X3-Z_Z-UE845SqOUbU32yChuer-2PaqEgZdw0jktTzHZeaQLDgUcmEF937cjL6A2MaMYTXfGStiI6N_",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psFdaw5PdPfXMoUO4pQ3stgPoxQATPzUDLEt1IBHyX4WSbZ034e94AzLYd3hZ3h3u31m6Z5g412ER9GNzCwzw8gSci8NGugMDGn_T3c7VKuqQtyC-UDHjGkctPqF1-BUqeImxc",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pswdifaa_Bzdwy5wv63KYSembCsucZ3oCVbKq6lQGBPBszaCcR0uBbQcwBdlFLs70G6IrbqrUjku6EpA0GjwmVbDpuSdV6ON9XC_4cWs7INwXVeIhcDo8MT9uAR4LBjZZg3TsNP7w",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psyIgqlHO6emqx5cZL_cFami4KYwjZa5OPyHFEUZlZZZsdE8oK7agbTPmEZm5WJZIsyoKWck_XMyXKoI7X-tDICpsA4KDhmdJJXcCWYLiNPaWi1VeXtitTMjimoePqu3FE7MT3T",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pseEfh6viCU7P7SajWF-RR6FO5JFS9lcfxliUwApLJa9g6Bl0eTtet5Jlu-4nHwIG7Xgmp3Hj67sAN_N2bMBzP9kGQgVu_SBDKyGBgKsTf_t_vLP3cOgVY5PQzXx5-tk_UJo2XQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt-SD4P9AwMhZjkyMGDxLe_Sw4L47P1BUpE1pM3TY6DTpBX4TwAU3SFHj5ndNU0nW8B7HXkTb69Yu12B5TBjQ_wWbx-8b3UUpUm6_yjoDAo8d3Gk3d6a1kiplnX2EgU0aGMRRGN",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvyRO0KgsmwMtIJb6tVI1IyKCKbyXo8SEBvYQLT_a_OYvRKPDPAsv4cDh4bEYfLwON6ACXA_9px6TWi5SRza__WBy4ge2GDfdGFuKsHVCc3vI-ruAP5-qS16dSzDEaUAXtjmyLq",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pseIDAq8OnbErqGbjmY3v4GBrWN3hoYB-4Z9d6sa8kALw_Dwrtb0LgwzLvN7cqI3ZByqn0SlmkudnVqHai7qbTyWEn3wHVo4yS__ak1p79fwVtCVNpQV8rJQhA8qWCcpSS2rDPOfw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvJnXjLaeIGBpfGF_S76iUcj-xiaCFU8hpE3tr3D_odmzF4g-JXbIQnMve_4gVI8GXySXUB6pxTOF7LY085pQ8xn4u997PLuAJkGhQ4h8t0aQf8ZUdgeOBKs9ckhZCd44Gvd5I",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puuzuY0ZfIKQVVf36x-fGC1SjpO9H6kR5awXymmMUNlfcGmUxNWcSyUTb-myCieJGPF3hpRuVjXD44S5_fqOcqox9LXk5rukSXvbkmMqzeEN0--vunwlhJWqTdNTJz_8dWCzP_R",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptyWlGb64vcFU7A0yc0asIjK2O_5UfFV3xAPsqm12YPc2ac3bKFY9C0dxFQl5LGrkprO4XRm2ENVDBHUGHhJvl02-zh8D3q3MUufhbUWHtnp50IECiWzXY293-U8TWIdy2sfyIp",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puDadrehMBIVB71Dpk1ISESTvy2vAVFr9CcYHKEPFGuHAHAFx9V4wS2J7j9x7x35Isaw_7wGqVmGWeEAOWAuV5LlT0KcZ6lz0Sy0ALFF_dCH2a0jG8JqhV7PoLArzbrHuRK3bly",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt00u3nfcfOCPygSBsPs74y1x1vWYlp3x4twJyJJ3t7lEuO6I78OL5csMxx7KBeIyRuZShJuobI5Sav8P0_KvHH34flylfWngEly53VuvicI-b_SjG8wr-aoF6alV2mKejaMA2N",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puaN74jkU4ldSoMsIrAejYwagpvS7iXdlcCgMuCl6WaK_x2FlzNb-ZWNTYU0sIh_LDsAyLiN4T7WFFkIzWy7g1Ly05r7rUCAwJurQhVTdYG65jfg37CsJIkQvRSh8BLfGlcY1Y"
+        ],
+        "reviewContext": {},
+        "reviewDetailedRating": {},
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "110202062697078442422",
+        "reviewerUrl": "https://www.google.com/maps/contrib/110202062697078442422?hl=en",
+        "name": "MrCopper King",
+        "reviewerNumberOfReviews": 188,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWXywVV7LmKm9RehKhdFjfls9Hub0UbhniEywnlP4vq7SW7MQOHBQ=s1920-c-rp-mo-ba5-br100",
+        "text": "The food I order was good, however the wonton and the adult beverage wasn\u2019t.\nService was a little slow.\n\nI\u2019ve never had my food come out at different times, food was being served as it was being cooked. I would recommend this place.",
+        "textTranslated": null,
+        "publishAt": "2 years ago",
+        "publishedAtDate": "2023-07-10T02:38:37.261Z",
+        "likesCount": 1,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSURKcU9XTVp3EAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSURKcU9XTVp3EAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIDJqOWMZw%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 4,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pucasXPgxpk815jVMbnbJq0ZzmkxGYpYRz8BdCUHMEwyPI3d9FtbTobj6JcFISijJQjqESrA3o8z6gduVk220SsgK7UQDSK1UP5SH0Z7CgaeD-t8bxaJXPfyuY_uhTYhbArVj1-",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptYT8aCXiLVw-fvAcrfBTnuzSK-FhKkK9ARy-LYQc4z5hlFCkX2aCi45vmgL52va0kSm2KLDhmIvXCrH6Rg8INs1MkY0Z61MujAAmLmB6lLq72bwSrKoRStotsx6V-ysF16vmb9",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvHGUPMXw2-9WI8Cf8_V7TfZiGB6VvNnHWUIkPZ_aI_ZfQp6zcGDEIM5XJoazb_BoOmvx9v_ide-XnCurpzqNPkRztOv2hku5S206Z7N9qZCbZQlCmjVYcBRw1pnmpTxo6Nvb-X"
+        ],
+        "reviewContext": {},
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 4,
+          "Atmosphere": 4
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "102673194887677135206",
+        "reviewerUrl": "https://www.google.com/maps/contrib/102673194887677135206?hl=en",
+        "name": "G S",
+        "reviewerNumberOfReviews": 80,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWK3K97lzDsVqnxqMMNhTEn0zKQWhH1sDB93Bqj9YWInEn3eoOPwg=s1920-c-rp-mo-ba5-br100",
+        "text": "I have been coming to Panda Inn since I was 12 years old.  Back when I was a young punk living in Arcadia, my parents used to take us to the original location near Hastings Ranch.  Back then I always wanted the Kun Pao Chicken, but with my tastes evolved i now order the fish with black bean sauce and some iteration of eggplant.  I can assure you that over 40+ years the quality of their food is just as high as it was back in the day.",
+        "textTranslated": null,
+        "publishAt": "2 years ago",
+        "publishedAtDate": "2023-12-21T21:24:07.949Z",
+        "likesCount": 0,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUMxNkpxZXFBRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUMxNkpxZXFBRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgIC16JqeqAE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psJctCWclGwZdFQNOffN4HeaolWGxx-8VFbsmlctcOLdUH8Zu78qG5vpa4VvUoSj3vNTqSVUFtZlCHDrh2XBBLf5yxy83CsiJJUa4z-YrObp5M9Qk--yGiG-vp7dCtyBlYiBgB6",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pslpuqv3ICZOISoKUOTGr-33TOploxY8D2O_O9hR_QPxrplEqIs0DKLmWTbnNExHphCXF2zQBe7iZ1kCbfYb5XudJfcWKIxOTyQAdmJW8GV7pJ32RLHopdXNIpgQs8NSzxYLc9x",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptTBmXb0vhIjCBqWD4icN1RK9lxtxLOls1XreSiuMSxytEDeRPm9mjUzFRRJYRhyu6XfwMxOi1-mhoY3xLo_0sR62zhUTdpa4sB0vRsATjCG87ty3MFFUXW4mG5pVLAj40FRH_w"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Lunch",
+          "Price per person": "$10\u201320"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 4
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "100197020573753144259",
+        "reviewerUrl": "https://www.google.com/maps/contrib/100197020573753144259?hl=en",
+        "name": "Reyna Alonzo",
+        "reviewerNumberOfReviews": 1,
+        "isLocalGuide": false,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKs7hlaIPb1Mu5zJt6iwsIcUSxS-FZ3IVKMu9oc60A9s0WGlQ=s1920-c-rp-mo-br100",
+        "text": "Horrible experience  my parents love panda, this is their got to place. There was a potluck for my mom\u2019s birthday. My brother and I both picked up food from this restaurant at different times and my food looks so much worse, it\u2019s embarrassing. It has a word smell. My wonton soup is pink and the vegetables look wilted. It looks awful",
+        "textTranslated": null,
+        "publishAt": "a year ago",
+        "publishedAtDate": "2024-12-27T00:43:19.607Z",
+        "likesCount": 0,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUNmbk5hb1V3EAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUNmbk5hb1V3EAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICfnNaoUw%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 1,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptCqYEUzXKY0EyrQ9L39K-RIwO0jeBsIY4Bgk_jVVsYPjl31swMhdTGC-r6jH4-cqrusYOLTVQsxrJlIv00Qs7J7-gaaCc-n3ZK6o-n8rizjnsR3NvKKVtA_xGLVND1oXVpAmqdaQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptJ0slmeKR4O2GClbfePIhaAcqHtQTxZd_OpNmXNnkM4K8lyKAzJkFKH0Z-ff7tcC1hJz7GABuNE0HZZP_8OtjCwjESQeyttHbvGH3NTkeQbIK-76Q4w_iAEG32F30kxCeTdnFh"
+        ],
+        "reviewContext": {
+          "Order type": "Take out",
+          "Meal type": "Dinner",
+          "Price per person": "$20\u201330"
+        },
+        "reviewDetailedRating": {
+          "Food": 1,
+          "Service": 1
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "113604251192425607007",
+        "reviewerUrl": "https://www.google.com/maps/contrib/113604251192425607007?hl=en",
+        "name": "Marcia C",
+        "reviewerNumberOfReviews": 60,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX88so05KAdvTaeBmrB0xfareUtzKVna0YE1vTOQSuwYsd0J4teKA=s1920-c-rp-mo-ba3-br100",
+        "text": "Found out this is the brainchild restaurant for Panda Express. it did not disappoint. The food was fresh & plentiful and although busy the service was quick for lunch time. Ordered wonton soup which came with huge shrimp and veggies. Not your typical wonton soul",
+        "textTranslated": null,
+        "publishAt": "a year ago",
+        "publishedAtDate": "2025-03-28T12:43:45.364Z",
+        "likesCount": 0,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnTUR3MjZiWnBnRRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnTUR3MjZiWnBnRRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgMDw26bZpgE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt3h2MWwh8_BkwbJmLy1RCmBgEx1c3PCFpjc1a2rv23mcE75uPodTdbXsY9BhX2wmveQpRM-vUI38yZxbfG-hOUESesERYtR46uua7nzEzmO5gVoOK64HaIjZPmFBYiPgtU5tY"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "110775068660783482176",
+        "reviewerUrl": "https://www.google.com/maps/contrib/110775068660783482176?hl=en",
+        "name": "H H",
+        "reviewerNumberOfReviews": 4,
+        "isLocalGuide": false,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV3mZiTyNBcAT3ewM3WJcVAOH5QEiyF2tsFoKu4LoYYBVHwNak=s1920-c-rp-mo-br100",
+        "text": "would give zero if I could. our favorite restaurant for years but no longer. made a Rez for large party for a very special occasion weeks ago and when I called to confirm the week of they had given it to someone else. I guess we will have to find a new favorite spot.",
+        "textTranslated": null,
+        "publishAt": "4 months ago",
+        "publishedAtDate": "2025-11-13T00:03:07.080Z",
+        "likesCount": 0,
+        "reviewId": "Ci9DQUlRQUNvZENodHljRjlvT2pWdlRHczVhalJ6YldoT1ZGbERjV2hYYzBaRmNuYxAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2pWdlRHczVhalJ6YldoT1ZGbERjV2hYYzBaRmNuYxAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CAIQACodChtycF9oOjVvTGs5ajRzbWhOVFlDcWhXc0ZFcnc%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 1,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [],
+        "reviewContext": {},
+        "reviewDetailedRating": {},
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "117816527153991694240",
+        "reviewerUrl": "https://www.google.com/maps/contrib/117816527153991694240?hl=en",
+        "name": "Henry Gonzales",
+        "reviewerNumberOfReviews": 153,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWx4wbvqV3M1WiaP1t7dUCQVINELUAdtsUHImPgbyh9zJIRwhdt=s1920-c-rp-mo-ba5-br100",
+        "text": "Been year's since we been here portions seem like they got bigger tastier atmosphere relaxing parking  accessible.well it's been another year and we are back for some more delicious food \ud83d\ude0b service was great very attentive a lil out of are way but worth it.",
+        "textTranslated": null,
+        "publishAt": "Edited a year ago",
+        "publishedAtDate": "2024-05-28T03:45:11.687Z",
+        "likesCount": 1,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN4dXUtRUhBEAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN4dXUtRUhBEAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICxuu-EHA%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvYQicIcDtKA9iiKm49R6m0m1sH1CGT6DHHywnEy_wlJaaP-RRU9a167jn8dIbIQlf48JF8v5tFuxE1eGDQweJlfNc3XAxSnuwdREfpoonJyAsORRLi7HsbTYvLyo8Q-K98AFxq",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psCpkdzwFUHNNETzh4ePuaTkEDyVhQGM_mwPoaWsAAkEcRsYvvOh-1IejJ7gSz_3Zn75DDgRD8MScaUgc_gjTjtcQtEM2tyIbScACivJ4RcOjz6rOheQRcTkVsoWZfTG9BPmDWqXA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptGe_iT6gYvkZEjbBMTdfE0Y-kqXJj9oDGsi0n0nGDdC0Vs6BLXKQ5ESBKTt0TFkMZf_q_Qpj15nX1mPzubP1RGzZ6eb-UhGB1OSS2a_DzQlj9mV2A7yTzdvO-flGLq-jA7TLI",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptaTyIjwMLmfBrT6RGtlKKK8NMlq3B4xUJRu9Ce2JhwJ_X4wsygqh2Y888wYBex3nDyIG5T8NMty2FldKk_Ou_ez8Ux9molcU4smBuFQ2YD8elqqgxeTF0BlUeNGO-M9unoX6TT6A",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puXPpfACglRiuvJMWnz1T0QZe7SgJogZ0ViFIrOBc5rQd4wvv4vpbeqyR2XV-3HPWAMVXpbUJQ6Qp4_TnEGtCXjriyKLbLrWbfbxnT9dzIoQ9aYF4jB8cm_uaZVTJkCi2nLXv9b",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptgeYqknWMMLf67s4tiJt0xi7GjEM1NH47ovJmO-44TYlwgYC_iM-7KC-fdas5eLJR6VjZEWkb4kzn-SqcPqflZa5vFXEFS8-56g8w4E5syAcaArmE9IdTiR6YJHuZ0HX7DsHtE",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ps74AyipStPDO-lFEneaQrzPdsxTH6yVQxkSm3ocyCHjh4SUVtZcRs55iwZNDwOnxf2TT24N573Z9ptTlXnsRWi77e1r8LvWECS2rVs8So22EXDW_TsMoVUmwO3SmiF-1wweKI",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psPgSrbqEBaFt1EaNYCLlN_AMBO9YliibpenTTNFOYqTCSIgWYm4wAi3FZnYRKg-nI8PLzIZqA7XFz6zuI4BwM3wFJPRne3JP_e12Jf0QXO_6ZYC7yOq9pYhCsZBsW537YOIG8",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psyi_6TairTvjB6ZYnKL-8kcG4GTlAEa25Q0DNQVBImBvhxuzdYDGQ0y1TO7AnaEyBzpE9Gw31Ctm9PKXUPoab3PSQ-IRD8EXOxFlMJa1M-Cy1cpHRoUNV33m_3gSixGbQMFxA4nw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psW2lGblHrfoYEYxubyp0511Lumtje9ZCcjxqu0RetcLotUwAOB4BMiBO1vqm1Cq15Ib6DftpzqjuL9O3flWQFkiO6x2HjiclwTyuBRs7KlALW4UoRLlKWz5QSYGccNf9WkQM15",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvrXoX7huZV0h6_iOASFO4kaKQf5BOmkrHTJXdAp0QUSN3FqCTj0b8xIoCwnyZKj7s9JEELRXmn9tRBSX_y3C6aO9FE4EDKxl7EooK-DAfsoXDoEtIbwmSbIQz_RsRm6SIlmp_1Pw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puAyRZnCVfKPS2NgPx6akJA3Bj-HGhZd9_Qt0hqFXXXX12LY1lsIVrYtZnKKvixBAnZBhzGTfnEG5FwiMCHNMf3B84lQqSEJWc0--dH0s_36CezGs6471WMUYDl0aG5jdlx23fa",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puylOmgOpIiPGptMmcY7AmoQKbosiUtbDObPojLMTzVhIvDREGbDMeg5fB-n1PVWLzGaIJqWo_t6JtV3Ehw9NrC5M0Qx_HAdXbJzsMGYdlPZh0UiR4EB4yU23fOi270ovrjooFO5g",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptVd4M6wJx0Q49NsefSliRVm6woQFjgF9rR92hXenPqP80SQUWIxs1pexId5qWCj-nt8V2fXIHfM2d3Sb7k7p0iXiY3oHW_lF0vcz9bSlkhU_g5ViNOd89ArYMfvWfPD-cTXT7V",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptSBXxKxaCym4CryvVx7UYm_IzwZNL__F6RKhQ63UXshgoJM8Zn4a4lzWSZZASc-Z5ZswC_DhGUMtT1Ph4cQc2rWPt_SodVuUwFGo51tQhKYsN9DTczHg2152ZR0OHG4TOdH_J2",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvhqpkIXrQNwO_eRuBXbEAunvyD6oe0B5KNXxzBOmspJiADZNTlx4Jr3h4cJHuYXUxxNl8Prwevoq-Rirvyd8kLcIPOTikQn7UUiWrRUjrq8xFSD6Y5bn6JY37tx0goejw2ysg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptODZnr4uNsS7kvPnDw0_2qR1aDfGjisxRngPUXOQNinoUiUZ8KUzauhG9NC5zXc_i6i61S4vL2cRp8wL_VTYmSpJu-rpTcMrAxDHrNb3eK5xnlGHHbh2nl7uHJd1v-x79vztnXzA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pu93pt6AFoMoFNWGCX693T_ChrZcRaRXG_5B_TTjeNvR65poMG73prXBCI5Qs3VNRf06KYLZkRaswx05xec5D1RgrtAfibd5A4HlMXjeBL3gUGtjVUAPyf0hKzHN7UcHYZLfdvx"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$20\u201330",
+          "Recommended dishes": "Panda Beef"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "104638854162473435770",
+        "reviewerUrl": "https://www.google.com/maps/contrib/104638854162473435770?hl=en",
+        "name": "David Mickelbury",
+        "reviewerNumberOfReviews": 309,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXPX4yfGdzn1ICn-rdbVj6oQ-yqLUTp_eAD_EFYyuvJX7o7s8Y=s1920-c-rp-mo-ba5-br100",
+        "text": "Far exceeded my expectations. Came here over 15 years ago and it was ok. Now I have Grown into their taste \ud83d\ude0b it was a Fantastic Experience.....",
+        "textTranslated": null,
+        "publishAt": "2 years ago",
+        "publishedAtDate": "2023-10-22T20:44:58.066Z",
+        "likesCount": 1,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUQ1NnZUdnd3RRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUQ1NnZUdnd3RRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgID56vTvwwE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 4,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pttXNFqbOQ-PK9WVyYcg0LyOSNwG2CH4T4illldte5zjUEFkU9C9uysghZGzkaCD4XmmA--r6z1LjXsQy15K8vMTxgr2dtr3SBgiZhpp-jpFxVjNMvwo_gExDMjlPBpmF1FYv8bRA",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pshO6YrQ8menaRH1ibjtGUMW3G8nIYLzuiiq3lUKQE9-_9rSokEoOHB7Ye9qVi3PqWfUiNjLPH9UuSqYxS0MDKQ00KQ1Xs498XrTbjgZBAnIBQqP2KuZ0jlA6Iyx-HAbdCW2HDm",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psQsobXpq1OsaRtXBGd2OJX4awPawumi7APMfXEw9jyh28Q18iS9RjOUPl5-ZK9uI612Xjrp4Ja6ltA029we8ZEq8pDdkIFKPIB3aXMT8rUg5MfDxx3DXwhuB5Gll3C9QoT5QPF",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptK96vtQDy2Muba-vJyeEZscIsCV6USLCh5Li6265tBZYkFnK8WZDZbWTlQ0oM2mKnHzWLlFbyXqBw_etJGSBJuRDnWjgMtESIm_2iDFEiX73Wj2O6t_XIINgyQA9k5j9dHf4F_",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pur42q3C59H0NrQxEox8eCGsJYaVAF6amT1XP3avnIqUrUEyv8dyWhvoJcw29jT0MlCZksp26OoS5ja0AAGXedkFFs8qW7Y6kVmqnmNvSAUTZ3OLoH4irNUTBD3Or81b9PRePLwBg",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pt28jRqaHWtsdgofJNqEUqmIWux4r1L6_4ZkprW012WjgTiOoFpE9xvPxFVu8H73GC0McQ2oGbrCfg3wXOOapQpGZMjqWZXoyo2Jx32TDT9QbFZ67GxIV9QPA1fhsHn_zuVAl7J",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptMpA2hHEY96SihEgfPRBhnObhqNtBljLDUP25gpAeAXJnSUFVIU3SxDZ4NccEjxFvhq0bGFf1H9RkXI3Wo4VPKjJwfNJIBPxvcisMTpH-80njBTpVcx88jbbhV_OIWDbr7t8hbIg"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Dinner",
+          "Price per person": "$50\u2013100"
+        },
+        "reviewDetailedRating": {
+          "Food": 4,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "109843191746281643777",
+        "reviewerUrl": "https://www.google.com/maps/contrib/109843191746281643777?hl=en",
+        "name": "The Party Crasher",
+        "reviewerNumberOfReviews": 180,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXLTrF3gvTw5dqBfci-jhreTFP8xGvWdW40gvnresGKLdtCEjbC=s1920-c-rp-mo-ba5-br100",
+        "text": "First time to a panda Inn restaurant with linen, beautiful mid-century modern furniture service was one of the best I\u2019ve had. I forget her name, but there\u2019s a picture of her table service.",
+        "textTranslated": null,
+        "publishAt": "a year ago",
+        "publishedAtDate": "2024-07-10T17:42:28.692Z",
+        "likesCount": 0,
+        "reviewId": "ChdDSUhNMG9nS0VJQ0FnSUNyd19paHZ3RRAB",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChdDSUhNMG9nS0VJQ0FnSUNyd19paHZ3RRAB!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICrw_ihvwE%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvtpZNwdeSzQISqGZJWnFTUlmfcHAbn5mroL56suZG-9i3PpFufZ7VqrPGtAc2189FPpGlpgM3q58m0Cu9bKioFohuFRj1XYzXRqc1KikPDb05wjHO-Iu6XI9mKLYCaRyREPQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvr7ciGuL65ALYXDdY73uJW8_rZA9SF_2nqhRrnCO8JsiXBWUjmQtq10Rp_9v9Sk9Loc4xVNigpWUuXmBM5GNMD1kxztNMD-nhTwJRUTJYNTCTII_w2XrGo9jM4cjqPCZCdWlLdIw",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvQqZzrAVoel7Umpxdf5L16IUS2GBWCEAONvyaAuwKb3zIMwCatcr-J6pTiWKlWFjDwUEPYvMfDZJda8NUQTW4o5tn4RAL0vfBIvxve_Ha-RWXVAoCkBRhzXWwj6epG0t8TJTio",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psksz2J1WP8CjePVuMyHm5hEbIQqB0Yoa8FTv46dBH03KvYFlgIgCNcll4Vo5PaofbId_ESgDy2UB2fyIWuRM_P0M2uLnWpvY91xY3YJEJGnq0CZNdaAf-Ibm3z8Kqx-AenWEoH8Q",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pulfpov6aeaXA1mNDaMx9UzYkFO7mywVS-liAeOKXiO4hEv96dk0mz8PHy6KQgIY30HJTpMXRgDBad8girlGHZfBwV29iEolxhZYxNczNFnIZtgvMwcaFaeXaC9iEgIH86vb4_n",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvYfYvNMBhlUZ-EMQYRr8v6jdFTI0bnb55-QuEF0p19a891z9Y_8btuY7X_zGKFlMv6plK34-6PDohoEkD8M_hTu1WBdXaHYQJgLsEBpb4qV_dUjuF-GmCmF_rtpJLLBbQVxtk2",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvBDJAwYVI5HgcEgrmkk4OcmuMDQOofQJqVC8wE8-r6sfH3G_wgSe9P6xOtpASv2TvPy4zcOSYn29-SFlL-ujcdtOxp-ldMEZV_5hL1PRKUOdQvBWbNTm5HmG_4RFfGeJ6nHEc"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Lunch",
+          "Price per person": "$20\u201330",
+          "Recommended dishes": "Hot & Sour Soup"
+        },
+        "reviewDetailedRating": {
+          "Food": 5,
+          "Service": 5,
+          "Atmosphere": 5
+        },
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      },
+      {
+        "reviewerId": "113559117764599318906",
+        "reviewerUrl": "https://www.google.com/maps/contrib/113559117764599318906?hl=en",
+        "name": "Reinz Kevin Luber",
+        "reviewerNumberOfReviews": 35,
+        "isLocalGuide": true,
+        "reviewerPhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUQVcER1bEnwjtXE600CSQW_9tjKCo9YQ61PdjRhUgGXN-3kSA=s1920-c-rp-mo-ba3-br100",
+        "text": "Delicious food, especially the Phoenix Chicken \ud83d\udc13, can\u2019t go wrong with that choice. Bak Choi was great with the black garlic, Mapo Tofu was decent, just wish there was some sort of meat added to it, Crispy Noodles were refreshing and light, and the Pork Fried Rice was very filling. Their White Chocolate dipped Fortune Cookies were a nice touch at the end \ud83d\udc4c\ud83c\udffb",
+        "textTranslated": null,
+        "publishAt": "3 years ago",
+        "publishedAtDate": "2022-08-01T08:49:34.312Z",
+        "likesCount": 2,
+        "reviewId": "ChZDSUhNMG9nS0VJQ0FnSUN1MmRHTEdnEAE",
+        "reviewUrl": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChZDSUhNMG9nS0VJQ0FnSUN1MmRHTEdnEAE!2m1!1s0x0:0x19af2604683af7f9!3m1!1s2@1:CIHM0ogKEICAgICu2dGLGg%7C%7C?hl=en",
+        "reviewOrigin": "Google",
+        "stars": 5,
+        "rating": null,
+        "responseFromOwnerDate": null,
+        "responseFromOwnerText": null,
+        "reviewImageUrls": [
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9psDwcvRKViKGcrjTUY0-0pO2d3j5176vXDqbDKTjYmsILuaUU7iE7ajYuvN79BkWr2QwEAqQQfdkBmFAv9Dom2CXKPeC18adaPYzRVyuL0I-FbWSGfcqcDFbVs2v2WjGQ48DguKeQ",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puUThEwAzDPMdD6qTR9SD02OWlwiyX_IH0TlDp4adJwaQQv6H4RaAmp2d9U821RwAd90HAKv2oUvNxaU5QobAkWqUna7APjd5676jMP3n2figmm2HgxHlRKTm-Cz8EPRTnvJQbi",
+          "https://lh3.googleusercontent.com/geougc-cs/ABOP9puZRsVwMzE_1moXtXM9f9pr7TF1hFuMhah6MkXpUNGSzRFw30ap70zVdorBQJx286p-JE_whRhjQpGF__qxo8b_ldtDJmkAG-N1m0fh8FzZWY6iWNm4S9DyC2qZS4JGLZ0GplAHDw"
+        ],
+        "reviewContext": {
+          "Order type": "Dine in",
+          "Meal type": "Lunch",
+          "Price per person": "$30\u201350"
+        },
+        "reviewDetailedRating": {},
+        "visitedIn": null,
+        "originalLanguage": "en",
+        "translatedLanguage": null
+      }
+    ],
+    "leadsEnrichment": []
+  }
+]

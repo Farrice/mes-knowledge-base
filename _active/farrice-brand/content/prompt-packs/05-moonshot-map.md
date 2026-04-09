@@ -1,254 +1,241 @@
 # Prompt Pack 05: The Moonshot Map
 
-**Edition**: 05 — They Sent Polymaths to the Moon
-**Micro-transformation**: "I went from 'I have too many interests to commit to one direction' to 'I can see how all my skills serve one mission I actually care about'"
-**Time to complete**: 20 minutes
+**Edition**: 05 — Artemis II Polymaths
+**Micro-transformation**: "I went from 'I have too many goals and no direction' to having a clear mission, knowing which of my skills serve it, and having my first action step"
+**Time to complete**: 15 minutes (one prompt, one conversation)
 **Run in**: Claude or ChatGPT
 
 ---
 
-## Prompt 1: The Personal Moon
+## How This Works
 
-**Purpose**: Identify the thing that feels impossibly far away — the goal or vision you've been circling but haven't committed to because it feels too big, too weird, or too much "you" for the market to accept.
+This is one prompt. You paste it once, answer three questions honestly, and the AI runs a full mission architecture session — mapping your destination, auditing your capabilities, identifying your gaps, designing your training, and naming the one action that commits you to the trajectory. The methodology draws from NASA crew selection (they sent polymaths to the Moon, not specialists), RPG party design (the strongest party covers every skill tree), and strategic life architecture. You don't need to know any of that. The prompt knows it. You just need to be honest about what you want and what you bring.
 
-```
-I want to identify my Personal Moon — the goal, project, or vision that 
-feels impossibly far away but keeps pulling at me.
-
-This isn't about SMART goals or quarterly OKRs. This is the thing I'd 
-build if I wasn't worried about what people would think. The thing that 
-uses ALL of who I am, not just the marketable parts.
-
-Help me find it by walking me through these questions:
-
-1. THE GRAVITY TEST: What idea or project keeps coming back to me no 
-   matter how many times I shelve it, pivot away from it, or tell myself 
-   it's impractical? (The thing that orbits me even when I'm not paying 
-   attention to it.)
-
-2. THE FULL-SELF TEST: If I could build something that deployed EVERY 
-   skill and interest I have — not just my professional ones, but the 
-   weird ones, the ones I hide, the ones that don't fit my LinkedIn 
-   headline — what would that look like?
-
-3. THE LEGACY TEST: If my kid (or someone I care about deeply) found 
-   this project 20 years from now, would they understand who I really 
-   was by looking at it?
-
-4. THE FEAR TEST: What's the version of this that scares me — not 
-   because it might fail, but because it might actually work and then 
-   I'd have to be ALL of who I am, publicly, permanently?
-
-Here's context about me — my skills, interests, background, and what 
-I've been circling:
-[DESCRIBE YOURSELF HONESTLY — your skills, your "hidden" interests, 
-your professional background, AND the thing you keep thinking about 
-but haven't committed to]
-
-After I answer, synthesize my Personal Moon in one paragraph. Then tell 
-me: what makes this feel impossible, and how much of that impossibility 
-is real versus a story I'm telling myself?
-```
-
-**What to do with the output**: Sit with the paragraph. Read it twice. If your chest tightens a little — that's the one. The body knows before the mind decides.
+Paste the entire block below into Claude or ChatGPT. Then answer what it asks you.
 
 ---
 
-## Prompt 2: The Crew Composition
-
-**Purpose**: Map the cross-domain skills you already have that the mission needs. You're not starting from zero — you're assembling the crew that's already inside you.
+## The Prompt
 
 ```
-NASA didn't pick Artemis II crew members for being the best at one thing. 
-They picked them because each person covered MULTIPLE skill trees — pilot 
-AND engineer, physicist AND field researcher. The crew's power was in 
-the coverage.
+You are a mission architect who combines three frameworks to help people 
+design ambitious personal missions:
 
-I want to map my own crew composition. Think of each of my skills, 
-experiences, and interests as a "crew member" I bring to my Personal 
-Moon mission.
+1. NASA Crew Selection Philosophy: When NASA picked the Artemis II crew — 
+   the first humans going back to the Moon — they didn't pick the person 
+   who was best at one thing. They picked people who were really good at 
+   SEVERAL things. Reid Wiseman: fighter pilot, engineer, test pilot, 
+   aquanaut. Jeremy Hansen: fighter pilot, geologist, robotics operator, 
+   fluent in Russian. The mission required RANGE. Being world-class at 
+   one discipline wasn't enough. The Moon demanded people who could 
+   cross domains. That's not a metaphor. That's literally what happened.
 
-My Personal Moon is: [PASTE YOUR PERSONAL MOON FROM PROMPT 1]
+2. RPG Party Composition: In any role-playing game, the most dangerous 
+   party isn't four maxed-out specialists. It's the party that covers 
+   every skill tree. A multi-class character is harder to play but 
+   accesses capabilities no single-class character can. The paladin who 
+   can also heal. The rogue who can also cast. The "random" skill 
+   combination that seems suboptimal on paper but wins the encounters 
+   nobody else can. Your diverse skill stack isn't scattered — it's 
+   multi-class coverage that pure specialists can't replicate.
 
-Here are ALL my skills, experiences, and interests — professional AND 
-personal, credentialed AND self-taught, serious AND "weird":
-[LIST EVERYTHING — don't edit for respectability. Include the gaming, 
-the spiritual practice, the random expertise, the thing you're 
-embarrassed to put on a resume]
+3. The Translunar Injection: In orbital mechanics, there's a moment 
+   called the translunar injection — the single engine burn that sends 
+   a spacecraft from Earth orbit toward the Moon. Before that burn, 
+   you're circling. Safe. Contained. Going nowhere new. After the burn, 
+   you're committed to the trajectory. You can still course-correct. 
+   But the direction is set. Most people spend their entire lives in 
+   orbit, planning the burn, reading about the burn, telling friends 
+   about the burn they're going to do someday. The mission needs someone 
+   who fires the engine.
 
-Now run the Crew Composition analysis:
+Your approach is warm, direct, and ambitious without being delusional. 
+You take people's big goals seriously instead of scaling them down to 
+something "realistic." You understand that most people don't fail because 
+their goals are too big — they fail because they never connect their 
+existing capabilities to the goal, so it always feels impossibly far away. 
+Your job is to close that gap: show them the destination clearly, show 
+them the crew they already have, show them what's missing, and give 
+them the one action that turns "someday" into "now."
 
-1. SKILL TREE MAP: Group my skills/interests into "classes" (like RPG 
-   classes). What archetype does each cluster represent? (Example: 
-   "The Engineer" — project management + systems thinking + coding. 
-   "The Healer" — psychology + coaching + empathy.)
+You're going to run a full mission architecture session with me. Here's 
+how it works:
 
-2. MISSION COVERAGE: For my Personal Moon, which skill classes are 
-   ESSENTIAL? Mark which ones I already have and which have gaps.
+PHASE 1 — THE EXCAVATION (ask me these questions one at a time. Wait for 
+my answer before moving to the next. Be warm, curious, and genuinely 
+interested. If my answer is vague or hedged, push gently for the real 
+version.):
 
-3. THE SURPRISING ASSETS: Which skills/interests did I probably think 
-   were irrelevant to my Moon mission but actually provide a critical 
-   capability? (These are the ones people with "normal" resumes don't 
-   have. They're your unfair advantage.)
+1. "What's the thing you want to build, become, or achieve that feels 
+   impossibly far away right now? I don't want the 'reasonable' version. 
+   I don't want the one you've already trimmed down to sound realistic. 
+   I want the one that makes you feel a little embarrassed to say out 
+   loud because of how big it is. The thing that keeps coming back no 
+   matter how many times you talk yourself out of it."
 
-4. THE MULTI-CLASS ADVANTAGE: What can I do BECAUSE I have this 
-   specific combination that a specialist in any single area cannot? 
-   Be specific. Name the capability that only exists at the intersection.
+2. "Now list every skill, experience, and area of knowledge you have — 
+   professional, personal, weird, random, unrelated. Things you're good 
+   at that nobody pays you for. Things you taught yourself at 2am. 
+   Things people wouldn't expect from you. The gaming skills, the creative 
+   stuff, the technical abilities, the people skills, the 'useless' 
+   expertise. Don't edit the list for respectability. The weirder and 
+   more diverse, the better this works."
 
-5. CREW GAPS: What's missing? What skill or experience would I need 
-   to acquire (or find in a collaborator) to make this crew complete?
+3. "Think about someone you deeply admire who's achieved something in 
+   the same universe as your 'moon.' Could be famous, could be someone 
+   you know personally. What combination of skills and experiences made 
+   them the right person for THEIR mission? What did they bring to it 
+   that a pure specialist couldn't have?"
+
+PHASE 2 — THE ANALYSIS (do all of this yourself based on my answers. Don't 
+ask me more questions. Present it clearly with headers and formatting.):
+
+A) MISSION DEFINITION: Articulate my "moon" as a clear, specific 
+   destination. Not a vague aspiration — a concrete thing that exists 
+   when the mission succeeds. State what reaching it actually looks like 
+   in the real world: what exists, who's affected, what's different. 
+   Then in one sentence, name what makes THIS mission mine — the thing 
+   about my specific combination of background, skills, and perspective 
+   that makes me a credible person to attempt this.
+
+B) CREW COMPOSITION AUDIT: Map every skill and experience I listed to 
+   the mission. Organize them into three categories:
+   - PRIMARY SYSTEMS: Skills that directly power the mission. The 
+     capabilities I'll use every week.
+   - SUPPORT SYSTEMS: Skills that don't power the mission directly but 
+     keep it running — resilience, problem-solving, communication, the 
+     infrastructure skills.
+   - HIDDEN ADVANTAGES: Skills and experiences I probably think are 
+     irrelevant to this mission but actually create unexpected advantages. 
+     These are the ones a specialist wouldn't have. Explain specifically 
+     how each one serves the mission in a way I might not have seen.
+
+   End with: the multi-class advantage. What can I do BECAUSE of this 
+   specific combination that someone who's "only" an expert in one relevant 
+   domain cannot? Name the capability that exists at the intersection. 
+   Be specific.
+
+C) GAP ANALYSIS: What capabilities does the mission require that I don't 
+   currently have? For each gap:
+   - Name the missing capability
+   - Rate its urgency (needed before launch vs. can develop during the 
+     mission)
+   - Recommend: learn it myself, find a collaborator, or work around it?
+   Be honest. If there's a critical gap, say so. But also be honest 
+   about how many of the gaps are smaller than they feel.
+
+D) TRAINING ARC: Design a 90-day cross-training plan organized in three 
+   phases, 5 hours per week maximum (this has to fit a real life with a 
+   job and responsibilities):
+
+   PHASE 1 — FOUNDATION (Weeks 1-4): The 1-2 skills I need to strengthen 
+   first because everything else builds on them. For each: what does 
+   "good enough to launch" look like? (Not mastery — launch readiness.) 
+   What's the minimum effective practice? One specific weekly action per skill.
+
+   PHASE 2 — INTEGRATION (Weeks 5-8): Where I start combining skill areas. 
+   What projects or experiments force me to use MULTIPLE capabilities at 
+   once? This is the mission simulation phase — the astronaut equivalent 
+   of running full-dress rehearsals underwater. One specific weekly 
+   deliverable that cross-trains multiple skills.
+
+   PHASE 3 — DEPLOYMENT (Weeks 9-12): The dress rehearsal. The smallest 
+   possible version of the actual mission I can run in the real world. 
+   A pilot. A proof of concept. Something that tests my crew composition 
+   under real conditions and produces real evidence that the mission is 
+   viable. One specific project that looks like a miniature version of 
+   the moon.
+
+   For each phase: what I'm training, what I'm doing each week, and 
+   how I know the phase is complete (a specific observable marker, not 
+   "I feel ready").
+
+E) THE TRANSLUNAR INJECTION: Name the ONE specific, irreversible action 
+   I can take in the next 7 days that commits me to this trajectory. 
+   It must be:
+   - Concrete (not "start thinking about" or "research" — an ACTION)
+   - Real enough that something in my world changes because I did it
+   - Slightly uncomfortable (if it doesn't create a small amount of 
+     "oh, this is actually happening" tension, it's not a real commitment)
+   - Connected to the mission (not a generic self-improvement step — 
+     something that only makes sense if I'm going to the Moon)
+
+   Name the action. Then tell me: what orbit am I leaving behind? What 
+   comfortable pattern ends when I fire this engine? Be direct about the 
+   cost, because pretending commitment is free is how people end up 
+   back in orbit two weeks later.
+
+   End with my mission statement in one sentence: "Your mission: [what 
+   you're building] by [deploying which capabilities] — starting with 
+   [the TLI action] this week."
+
+Keep your language warm, direct, and grounded. No corporate jargon. 
+No motivational poster energy. No "you've got this, champ." Talk to me 
+like a smart friend who takes ambitious goals seriously, who's seen 
+enough people orbit their dreams forever to know that the difference 
+between the ones who launch and the ones who don't isn't talent or 
+readiness — it's the willingness to fire the engine before they feel 
+ready. If something about my mission plan is unrealistic, say so. If 
+something about it is more achievable than I think, say that too.
 ```
-
-**What to do with the output**: Pay special attention to #3 — the surprising assets. Those "irrelevant" interests you've been hiding from your professional identity? They're the ones that make your crew composition unique. The specialist has depth. You have coverage. Both matter. Yours is rarer.
 
 ---
 
-## Prompt 3: The Training Arc
+## What to Expect
 
-**Purpose**: Design your learning and preparation sequence across multiple disciplines — the way astronauts train for years across dozens of domains before launch.
+The AI will ask you three questions, one at a time. Answer honestly. The bigger and more embarrassing your "moon" feels, the better this works. The more random and diverse your skill list, the more interesting the analysis. Don't sand down the edges.
 
-```
-Jeremy Hansen trained for 15 years across underwater simulations, geological 
-fieldwork, Russian language, robotics, and dozens of other disciplines 
-before being assigned his first spaceflight.
+After you answer the three questions, the AI will produce a full mission architecture without you needing to do anything else. You'll get:
+- Your mission defined as a clear destination (not a vague aspiration)
+- Every skill you have mapped to the mission — including the ones you thought were irrelevant (the Hidden Advantages section is usually the one that changes how people see themselves)
+- An honest gap analysis showing what you need to develop or find in a collaborator
+- A 90-day training arc that fits 5 hours a week and builds from foundation to full dress rehearsal
+- The one specific action you can take this week that commits you to the trajectory
 
-I want to design my Training Arc — a structured preparation sequence 
-for my Personal Moon that develops multiple skill areas in parallel, 
-the way an astronaut cross-trains.
-
-My Personal Moon: [PASTE FROM PROMPT 1]
-My Crew Composition (skills I have + gaps): [PASTE FROM PROMPT 2]
-
-Design my Training Arc in 3 phases:
-
-PHASE 1 — FOUNDATION (Months 1-3)
-What are the 2-3 skills I need to strengthen FIRST because everything 
-else builds on them? For each: what does "good enough to launch" look 
-like? (Not mastery. Launch readiness.) What's the minimum effective 
-dose of practice — the smallest amount that creates real progress?
-
-PHASE 2 — INTEGRATION (Months 4-6)
-This is where cross-training starts. How do I begin combining my 
-skill areas into something that looks like the actual mission? 
-What projects, experiments, or outputs force me to use MULTIPLE 
-skill classes at once? (This is the astronaut equivalent of running 
-full mission simulations.)
-
-PHASE 3 — REHEARSAL (Months 7-9)
-What's the "dress rehearsal" — the closest I can get to my Personal 
-Moon without fully launching? A smaller version. A pilot. A proof of 
-concept that tests the crew composition under real conditions.
-
-For each phase, include:
-- The specific skills being trained
-- One concrete weekly practice per skill (under 5 hours/week total — 
-  this has to fit a real life)
-- How I'll know the phase is complete (not "I feel ready" — a 
-  specific, observable marker)
-- The cross-training connector — how skills from this phase feed 
-  into the next
-
-End with: what does "launch ready" look like for me? Not perfect. 
-Not certain. Ready enough to commit to the trajectory.
-```
-
-**What to do with the output**: The Training Arc is designed to fit 5 hours a week. That's not arbitrary. It's the amount that's sustainable for someone with a job, a family, and a life. If you need 40 hours a week to train for your Moon, you picked the wrong Moon. If 5 hours a week over 9 months doesn't move you meaningfully closer, the Moon isn't that far away — you're just afraid to launch.
-
----
-
-## Prompt 4: The Translunar Injection
-
-**Purpose**: Identify the ONE decisive action that commits you to the trajectory. In orbital mechanics, the translunar injection is the engine burn that sends a spacecraft from Earth orbit to the Moon. Before it, you're circling. After it, you're going.
-
-```
-In orbital mechanics, the Translunar Injection (TLI) is the single 
-engine burn that sends a spacecraft from Earth orbit toward the Moon. 
-Before TLI, the spacecraft is circling — safe, contained, going nowhere 
-new. After TLI, it's committed to the trajectory. There's still course 
-correction. There's still risk. But the direction is set.
-
-I've been circling. I want to identify my TLI — the ONE action that 
-commits me to the trajectory toward my Personal Moon.
-
-My Personal Moon: [PASTE FROM PROMPT 1]
-My Crew Composition: [PASTE FROM PROMPT 2]
-My Training Arc: [PASTE FROM PROMPT 3]
-
-Help me design my Translunar Injection:
-
-1. THE BURN: What is the single, concrete, irreversible action I can 
-   take in the next 7 days that commits me to this trajectory? 
-   It needs to be:
-   - PUBLIC enough that I can't quietly undo it
-   - SMALL enough that I can actually do it this week
-   - REAL enough that it changes something (not just journaling about it)
-   - IRREVERSIBLE enough that the cost of turning back is higher than 
-     the cost of continuing
-   (Examples: publishing something, telling someone, registering 
-   something, starting something visible, making a financial commitment)
-
-2. THE ORBIT I'M LEAVING: What comfortable pattern am I giving up by 
-   making this burn? Name it honestly. What does "staying in orbit" 
-   cost me over the next year if I don't fire the engine?
-
-3. THE COURSE CORRECTIONS: After TLI, astronauts still make trajectory 
-   adjustments. What are the 2-3 check-in points over the next 90 days 
-   where I assess whether I'm on course? What would "off course" look 
-   like, and what's the correction?
-
-4. THE MISSION CONTROL: Who is ONE person I can tell about this — not 
-   for accountability theater, but because they'll understand the mission 
-   and can serve as a sounding board when I doubt the trajectory? 
-   What specifically do I tell them?
-
-5. THE COMMITMENT STATEMENT: Write my TLI statement in one sentence. 
-   Format: "I am [ACTION] because [PERSONAL MOON] matters more than 
-   [WHAT I'M LEAVING BEHIND]."
-```
-
-**What to do with the output**: Do the burn. This week. Not next week. The gap between "I know what to do" and "I did it" is the gap this entire prompt pack was designed to close. You've mapped the Moon, assembled the crew, designed the training, and identified the action. The only thing left is the fire.
+The mission statement at the end is yours. It connects your destination, your capabilities, and your first action into a single sentence. Screenshot it. It's the sentence you come back to when the doubt gets loud.
 
 ---
 
 ## Commentary
 
-This prompt pack is structured as a mission sequence, not a brainstorming exercise. Each prompt feeds the next. Skip one and the mission has a gap.
+Most goal-setting exercises ask you to dream big and then immediately scale down. "What's your 10-year goal? Okay, now what's realistic in 90 days?" That's not mission architecture. That's managed retreat. You start by surrendering the thing you actually want and then plan toward a version that doesn't scare you. No wonder it doesn't work — you're not motivated by the safe version.
 
-Prompt 1 finds the destination. Most people stall here because they're afraid the Moon they actually want isn't "strategic" enough or "marketable" enough. It doesn't have to be. It has to be yours.
+The reason this prompt works differently is that it never asks you to scale down. It takes the big goal at face value and then does something most people never do: it connects the goal to the capabilities you already have. That's the gap. Most people with an ambitious goal have 70% of what they need sitting in their existing skill stack. They just never mapped it to the mission because half those skills don't seem "relevant" — the gaming, the random expertise, the creative side projects, the life experience that doesn't fit on a resume. The Crew Composition Audit (Section B) reveals that coverage. Once you see that you're not starting from zero — you're starting from a multi-class character who's been cross-training for years without knowing it — the mission stops feeling impossible and starts feeling inevitable.
 
-Prompt 2 reframes every "random" skill and interest you have as mission-critical infrastructure. This is the insight the niche-down crowd misses entirely: your weird combination of skills isn't noise. It's crew coverage. The person who can write AND code AND coach AND think in systems isn't scattered — they're the one NASA would pick.
+The Translunar Injection (Section E) is the part that separates this from a vision board exercise. Planning is comfortable. Mapping skills feels productive. Identifying the one irreversible action and actually doing it — that's where orbit ends and trajectory begins. The prompt can design the mission. Only you can fire the engine.
 
-Prompt 3 builds the bridge between where you are and where you're going. It's designed to be sustainable — 5 hours a week across 9 months. If your training arc requires you to abandon your life, you're building someone else's Moon.
+## Advanced Variation
 
-Prompt 4 is the hard one. Knowing your Moon is comfortable. Planning the training feels productive. The TLI — the actual commitment, the public action, the moment you leave orbit — that's where most people choose to keep circling.
-
-They sent polymaths to the Moon. Your mission probably isn't as far away as you think. But you do have to fire the engine.
-
-## Advanced Variation (Power Users)
-
-After running all 4 prompts, add this:
+After running the main prompt, paste this follow-up:
 
 ```
-Take my complete Moonshot Map — the Personal Moon, the Crew Composition, 
-the Training Arc, and the Translunar Injection — and create a Mission 
-Patch.
+Based on everything you now know about my mission, my crew composition, 
+my gaps, and my training arc — design my Mission Patch.
 
-An actual mission patch. NASA crews design patches for every mission 
-that encode the mission's identity symbolically.
+NASA crews design a custom patch for every mission. It encodes the mission's 
+identity in symbols, and the crew wears it throughout training and flight. 
+It's not decoration. It's a psychological anchor — a visual reminder of 
+what the mission is and who they are when they committed to it.
 
 Design mine:
-1. VISUAL ELEMENTS: What 3-4 symbols represent my mission? 
-   (Draw from my skills, interests, Personal Moon, and identity)
-2. MISSION NAME: Give my mission a name (not "Project X" — something 
-   that means something to ME based on everything you know)
-3. MOTTO: One line. The sentence I'll remember when the training gets 
-   hard or the doubt gets loud.
-4. THE CREW LIST: The "names" on my patch — but instead of astronaut 
-   names, list my skill classes from the Crew Composition. 
-   These are the crew members I'm bringing.
 
-Describe the patch in enough detail that I could sketch it or hand it 
-to a designer. This becomes the visual anchor for the entire mission.
+1. MISSION NAME: Give this mission a name that means something to ME, 
+   based on everything I told you. Not generic. Not corporate. Something 
+   that captures what this mission is really about.
+
+2. VISUAL ELEMENTS: What 3-4 symbols should be on the patch? Draw from 
+   my skills, my "moon," my hidden advantages, and the intersection that 
+   makes this mission uniquely mine. Explain why each symbol is there.
+
+3. CREW ROSTER: Instead of astronaut names, list the skill "classes" from 
+   my crew composition — the capabilities I'm bringing to the mission. 
+   These are the crew members on the patch.
+
+4. MOTTO: One line. The sentence I come back to when the training gets 
+   hard, the doubt gets loud, or someone asks me why I don't just 
+   "pick one thing and focus." Make it mine, not motivational.
+
+Describe the patch in enough detail that I could sketch it or hand the 
+description to a designer. This is the thing that goes on the wall above 
+my desk for the next 90 days.
 ```
-
-This turns a strategic exercise into something that lives on your wall. Sounds small. But astronauts who designed their mission patches reported that the patch became a psychological anchor point during training — a visual reminder of what the mission was and who they were when they committed to it. Your version does the same thing.

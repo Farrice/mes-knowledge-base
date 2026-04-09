@@ -80,9 +80,16 @@ AI-shaped prose cannot score above 6 on Expert Standard regardless of methodolog
 
 **Quality Score = average of all three sub-scores**, rounded to nearest integer.
 
+**Standard mode (normal output):**
 - **7+**: Pass — deliver as-is
 - **5-6**: Marginal — retry the weakest dimension
 - **< 5**: Fail — retry required
+
+**Evolution mode** (during `/skill-evolution` variant testing):
+- **>= 7**: KEEP (variant passes)
+- **< 7**: DISCARD (variant fails — no retries)
+
+During evolution runs, the "marginal" zone does not exist. Binary keep/discard prevents ambiguity from killing loop velocity. See `directives/skill-evolution-protocol.md` Step 6.
 
 ---
 
@@ -139,8 +146,8 @@ This is how the ratchet accumulates data. Without logging, the system cannot det
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-05 (chain_runner finalize for system) |
-| **Activation Count** | 64 |
+| **Last Activated** | 2026-04-09 (chain_runner finalize for self-evolving-systems) |
+| **Activation Count** | 68 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (3-point check on any output), update the "Last Activated" date and increment the count.

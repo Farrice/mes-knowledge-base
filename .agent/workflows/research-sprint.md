@@ -81,11 +81,30 @@ You are a research specialist on team "research-sprint". Your name is "researche
 3. [question 3]
 
 **Instructions**:
-1. Use `search_web` (5-7 calls) to find current data (2025-2026 sources preferred)
-2. Use `read_url_content` (2-3 calls) to read full pages from the most promising search results
-3. For each finding, record: the data point, the source URL, and one actionable implication
-4. Write your findings to: .tmp/research-sprint/[angle-slug].md
-5. After writing, send a message to "synthesizer" with a 3-sentence summary of your top findings
+
+**Tool routing — pick the right tool for the angle:**
+
+| Angle type | Primary tool | Why |
+|---|---|---|
+| Market size, pricing, competitor landscape | Perplexity (`perplexity_ask`) + `search_web` | Synthesis task, citation-backed |
+| Audience signals (Reddit, IG, TikTok, reviews) | **Apify** (`apify_client.py`) | Raw structured extraction, not parsed SERPs |
+| Buyer intent / language mining | **Apify Reddit + Amazon** | Verbatim quotes from real threads |
+| General trends | Perplexity (`perplexity_ask`) | Synthesis across many sources |
+| Specific known URLs | `read_url_content` or `apify_client.py web` | Direct fetch |
+
+**Apify call examples** (for audience/language angles):
+```bash
+python execution/apify_client.py reddit "[angle keyword]" --limit 50 --comments
+python execution/apify_client.py amazon "[adjacent product]" --limit 30
+python execution/apify_client.py instagram [handle] --limit 20
+```
+
+1. Use the right tool per the table above (5-7 total tool calls budget)
+2. Use `read_url_content` (2-3 calls) for any URLs that need deep reading after extraction
+3. **Fallback Contract**: If any Apify call returns `{"fallback": true}`, the cap is hit. Reroute that source to Perplexity or `search_web`. Workflows degrade, never break.
+4. For each finding, record: the data point, the source URL, and one actionable implication
+5. Write your findings to: .tmp/research-sprint/[angle-slug].md
+6. After writing, send a message to "synthesizer" with a 3-sentence summary of your top findings
 
 **Output format**:
 ## [Angle Name] — Research Findings

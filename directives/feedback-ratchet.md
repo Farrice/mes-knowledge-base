@@ -113,6 +113,14 @@ result = check_regression(skill="[skill-name]", latest_score=[score])
 2. Check if the improvement is transferable to related skills (Phase 3)
 3. Update the skill's Evolution Log (Phase 2)
 
+### Evolution Activation Reminder
+
+After logging 5+ outputs in a session using expert skills, surface this prompt:
+
+> **Evolution checkpoint**: You've shipped 5+ expert outputs this session. Consider running `/skill-evolution` on the most-used skill to close the improvement loop. Current priorities: `directives/evolution-direction.md`.
+
+This is a reminder, not a gate — the human decides when to run evolution.
+
 ---
 
 ## Status Definitions
@@ -239,13 +247,13 @@ log_output(
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-05 (chain_runner finalize for system) |
-| **Activation Count** | 76 |
+| **Last Activated** | 2026-04-09 (chain_runner finalize for self-evolving-systems) |
+| **Activation Count** | 80 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (performance logged after any output), update the "Last Activated" date and increment the count.
 
-**Phase 2 Activation**: 20 entries needed. Currently at 13. 7 more entries to unlock Skill Evolution Engine.
+**Phase 2 Activation**: 20 entries needed. Currently at 76. **THRESHOLD MET** — Skill Evolution Engine is unlocked. Run `/skill-evolution` after significant shipping sessions. Read `directives/evolution-direction.md` for current priorities.
 
 ---
 

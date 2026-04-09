@@ -1,0 +1,25 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "web",
+  "result_count": 1,
+  "cost_dollars": 0.003,
+  "spent_total": 0.1655,
+  "remaining_dollars": 28.8345,
+  "items": [
+    {
+      "crawl": {
+        "httpStatusCode": 500,
+        "httpStatusMessage": "500 - Internal Server Error: <!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\" data-next-head=\"\"/><meta name=\"viewport\" ",
+        "loadedAt": "2026-04-07T05:14:16.964Z",
+        "uniqueKey": "wmFlwmBgiO",
+        "requestStatus": "failed"
+      },
+      "metadata": {
+        "url": "https://www.yakiya-us.com/menu-beef-course-2.php",
+        "title": ""
+      },
+      "text": ""
+    }
+  ]
+}

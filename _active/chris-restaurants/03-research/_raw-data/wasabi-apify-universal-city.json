@@ -1,0 +1,1608 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 6,
+  "cost_dollars": 0.042,
+  "spent_total": 0.1595,
+  "remaining_dollars": 28.8405,
+  "items": [
+    {
+      "title": "Wasabi",
+      "description": "Adorned with red lanterns, this relaxed Japanese eatery serves sushi, sashimi, teriyaki & hot pots.",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "1000 Universal City Plaza #112, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal City Plaza #112",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.wasabi-citywalk.com/",
+      "phone": "(818) 763-8813",
+      "phoneUnformatted": "+18187638813",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.136213,
+        "lng": -118.3529462
+      },
+      "totalScore": 4.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJEx7xL0y-woARkh406LvW-iU",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2be4c2ff11e13:0x25fad6bbe8341e92",
+      "cid": "2736735826123955858",
+      "reviewsCount": 395,
+      "imagesCount": 548,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:13:36.996Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Wasabi&query_place_id=ChIJEx7xL0y-woARkh406LvW-iU",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoOhSm_bHu_Uc7RjOGeUtBDHlkPW4kVBgwc8Ro7W8UnGZnJ3u-bqjGPGgFwLS5Vkz4YdD7zka4YycYQZ3m2DKFHh2MXXy_6ee-0JplslgJ8zYHGATEvf0czFtFIF_gwkWSGkQAFjg=w426-h240-k-no",
+      "kgmid": "/g/1233d2mr_"
+    },
+    {
+      "title": "Cafe Sierra | Seafood Buffet",
+      "description": "Airy spot in the Hilton tower for Californian & Pan-Asian eats, a prime rib-seafood buffet & brunch.",
+      "price": "$$",
+      "categoryName": "Seafood restaurant",
+      "address": "555 Universal Hollywood Dr, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "555 Universal Hollywood Dr",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.cafesierrala.com/?utm_source=gbp&utm_medium=profile",
+      "phone": "(818) 509-2030",
+      "phoneUnformatted": "+18185092030",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1374814,
+        "lng": -118.3583816
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJw9YsA0a-woARpmxFAu2jYPU",
+      "categories": [
+        "Seafood restaurant",
+        "Brunch restaurant",
+        "Buffet restaurant"
+      ],
+      "fid": "0x80c2be46032cd6c3:0xf560a3ed02456ca6",
+      "cid": "17681312375397248166",
+      "reviewsCount": 1327,
+      "reviewsDistribution": {
+        "oneStar": 88,
+        "twoStar": 68,
+        "threeStar": 79,
+        "fourStar": 195,
+        "fiveStar": 897
+      },
+      "imagesCount": 1640,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:13:37.804Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/868DIfUoWkQ?source=pa&opi=79508299&hl=en-US&gei=gZLUaYCzD4WmptQPyJXT2A0&sourceurl=https://www.google.com/search?authuser%3D0%26tbm%3Dmap%26q%3Dsushi%26psi%3DfZLUaYetO_ioptQP9q6-uAw.1775538817073.1%26hl%3Den%26pb%3D!4m12!1m3!1d3302.215657327819!2d-118.35265045!3d34.140824359152504!2m3!1f0!2f0!3f0!3m2!1i1920!2i1080!4f13.1!7i20!8i0!10b1!12m36!1m1!18b1!2m3!5m1!6e2!20e3!6m18!4b1!49b1!63m0!73m0!74i150000!75b1!85b1!89b1!91b1!101i97!110m0!114b1!149b1!171b1!176f8!179f90!182b1!183m0!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1sfZLUaYetO_ioptQP9q6-uAw!2s1i:0,t:20588,p:fZLUaYetO_ioptQP9q6-uAw:22!4m1!2i20588!7e81!12e3!24m92!1m26!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m15!3b1!4b1!5b1!6b1!13b1!14b1!15b1!17b1!21b1!22b0!25b1!27m1!1b0!28b0!31b0!2b1!5m5!2b1!5b1!6b1!7b1!10b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m17!1m5!1b1!2b1!3b1!5b1!7b1!4b1!8m8!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_reviews!9b1!89b1!103b1!113b1!117b1!122m1!1b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!31b1!34m19!2b1!3b1!4b1!6b1!7b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!37m1!1e81!42b1!46m1!1e10!47m0!49m7!3b1!6m2!1b1!2b1!7m2!1e3!2b1!50m25!1m21!2m7!1u3!4zT3RldsWZZW7DqQ!5e1!9s0ahUKEwiV_rPD_dqTAxU6kYkEHT2aAIQQ_KkBCAkoAw!10m2!3m1!1e1!2m7!1u2!4zTmVqbMOpcGUgaG9kbm9jZW7DqQ!5e1!9s0ahUKEwiV_rPD_dqTAxU6kYkEHT2aAIQQ_KkBCAgoAg!10m2!2m1!1e1!3m1!1u2!3m1!1u3!4BIAE!2e2!3m1!3b1!59BQ2dBd0Fn!61b1!67m3!7b1!10b1!14b0!69i675",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Friday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great dessert": true
+          },
+          {
+            "Live music": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Salad bar": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Brunch reservations recommended": true
+          },
+          {
+            "Reservations required": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "updatesFromCustomers": {
+        "text": "Chef Pvel and jose hooked us up with the fatest juiciest lobsters and king crab legs and he gave us garlic butter and cajun butter as well \ud83d\ude0b  gotta be exclusive to get some exotic butter lol just kidding all you gotta do is ask. He was so nice and thoughtful! Thank you chef for hooking us up. \ud83d\ude4f  all the food was great i wasnt disappointed with the food at all there was such a big variety even the desserts were so good. It is worth the money! If you make early reservations you get a discount and dont forget to get your valet parking discount as well. The waiters were fast and clean and thorough!  Overall this was my best buffet visit so far. Prime rib was my favorite!  They offered tender beef ribs as well it is a must try at least once! I definitely recommend to all the food lovers.",
+        "language": "en",
+        "postDate": "5 months ago",
+        "postedBy": {
+          "name": "Roseanne Smith",
+          "url": "https://www.google.com/maps/contrib/115999668114947038322?hl=en-US",
+          "title": "Local Guide",
+          "totalReviews": 29
+        },
+        "media": [
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvR71bTXyjMcNFeId72wNJRpJV3ZRhdMIvOf2fyJ9hjTistR_kK7osDpnj8zLKO1YbdGbfh9WVan5QiU7YH_iXWkAPxg-gS1DWoJsaHOncc293IdEQEz67RsZMk8Exh_FeHDFz1JgIjA1tZ",
+            "postDate": "5 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pulWUQ7rrfQlkNfjBtChp5gF9O3O6XNXNS29JR81o2fH5Z25xSjRUFAXmRv6ZfkNVeZZS3zf7NL0mWyrADu1yS7tTeFezGoxXJvVrKL956Z5FpKhCdpfgECVPg48GBHAXCeinBRJ_95f-4",
+            "postDate": "5 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9psDDYNDfneY1QmGtnnN3PZb89apw951MN3OsiEe9ndFBVBExoINf8o3LrJtIpVOhPP2f8fz7z2CZXz33Xbx1SuJHYl-OxoXLJ07ri_z_6YjW2pprUDvhsAEj_3RG9IFPJD_55oTLU7LbL6_",
+            "postDate": "5 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptLWNneCOi6L7ck3TJtSD7JTlt7Xn7qhNHrnVXd11n5QiV7oValLDIbJrs5ocRB0a8qMzNL0zqW42ZiEAL0WWzJv8w5ePEsYlO_1nRcwMBup_z3MViV9qNXpbfG5co4mh6uxVtQ-IF-tN_Z",
+            "postDate": "5 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9puaAwVl7mP2Hw0Mof2Qylnyxg3HbYZiSXtPXKXoBwQQRFjHBSMAlNa6eK9BWsWFQtzCgGmpV9QdzRHac4F8u6UKU38HlgJXBfqcls1tI0xf2vBTJUp09Vf9fhRRSwjUWWgYyC9HaY13_Bwg",
+            "postDate": "5 months ago"
+          }
+        ]
+      },
+      "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Sierra%20%7C%20Seafood%20Buffet&query_place_id=ChIJw9YsA0a-woARpmxFAu2jYPU",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 21,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwero9HBxqouvX7jkFUKZovoWmTvhNR9Qi64TZrOuiG7TljPnmpVCOrvNVVE_5LhUKC6F3Aezdbg76zzmj-Zst-DbQ628SI0FepYabtjliqJVbbP_CWXYP-0OfWMFMPuOQzXAzaa2GA=w426-h240-k-no",
+      "kgmid": "/g/1vd765d_"
+    },
+    {
+      "title": "Bubba Gump Shrimp Co.",
+      "description": "Family-friendly restaurant offering shrimp & classic southern fare in a casual setting.",
+      "price": "$20\u201330",
+      "categoryName": "Seafood restaurant",
+      "address": "1000 Universal Studios Blvd Suite 114, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal Studios Blvd Suite 114",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.bubbagump.com/location/bubba-gump-hollywood-ca/",
+      "phone": "(818) 753-4867",
+      "phoneUnformatted": "+18187534867",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.136074,
+        "lng": -118.3533629
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJE6rCL0y-woARmlvB7KcqGsQ",
+      "categories": [
+        "Seafood restaurant",
+        "American restaurant"
+      ],
+      "fid": "0x80c2be4c2fc2aa13:0xc41a2aa7ecc15b9a",
+      "cid": "14130653681548352410",
+      "reviewsCount": 2328,
+      "imagesCount": 3598,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:13:41.891Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great dessert": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Bubba%20Gump%20Shrimp%20Co.&query_place_id=ChIJE6rCL0y-woARmlvB7KcqGsQ",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.1337127408475,-118.35265045,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq_z1VwsRXNsdyVviH9E8bJ9svEpQ5tbj583ZgnpODJARCJADjoQKNUUKhbSQCEKEl6KeEXcCxiamwdIloRUoKUkKFKc3Iez8pSnuc0Mep7OCh5xlWaqVlYAB5oeY2SAp5xOLjf=w408-h306-k-no",
+      "kgmid": "/g/1tm695xz"
+    },
+    {
+      "title": "Uncle Sharkii Poke Bar",
+      "price": null,
+      "categoryName": "Poke bar",
+      "address": "1000 Universal Studios Blvd V206, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal Studios Blvd V206",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.unclesharkii.com/",
+      "phone": "(818) 210-0251",
+      "phoneUnformatted": "+18182100251",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1361859,
+        "lng": -118.352332
+      },
+      "totalScore": 3.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJXTqE2Yi_woAR5iBDLgWJNoI",
+      "categories": [
+        "Poke bar"
+      ],
+      "fid": "0x80c2bf88d9843a5d:0x823689052e4320e6",
+      "cid": "9382837529017000166",
+      "reviewsCount": 43,
+      "reviewsDistribution": {
+        "oneStar": 15,
+        "twoStar": 3,
+        "threeStar": 2,
+        "fourStar": 1,
+        "fiveStar": 22
+      },
+      "imagesCount": 132,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:13:43.295Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Fireplace": true
+          },
+          {
+            "Live music": true
+          },
+          {
+            "Rooftop seating": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "Has changing table(s)": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Uncle%20Sharkii%20Poke%20Bar&query_place_id=ChIJXTqE2Yi_woAR5iBDLgWJNoI",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.1337127408475,-118.35265045,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 23,
+      "isAdvertisement": false,
+      "imageUrl": "http://t3.gstatic.com/images?q=tbn:ANd9GcRbHFH3jpv8MdiirvqQOLocPDJtDEGB68w6qUxIKuodWVTIO7Wf",
+      "kgmid": "/g/11vjc87kg9"
+    },
+    {
+      "title": "Hilton Los Angeles/Universal City",
+      "description": "Sleek 24-story hotel near Universal Studios, featuring Hollywood views, an outdoor pool & a lounge.",
+      "price": "$601",
+      "categoryName": "Hotel",
+      "address": "555 Universal Hollywood Dr, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "555 Universal Hollywood Dr",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.hilton.com/en/hotels/buruchf-hilton-los-angeles-universal-city/?SEO_id=GMB-AMER-HH-BURUCHF&y_source=1_MTIyMDkyOC03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+      "phone": "(818) 506-2500",
+      "phoneUnformatted": "+18185062500",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1369506,
+        "lng": -118.3584005
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJpxDCnk6-woARzaOGEVKvwpg",
+      "categories": [
+        "Hotel"
+      ],
+      "fid": "0x80c2be4e9ec210a7:0x98c2af521186a3cd",
+      "cid": "11007553206263129037",
+      "reviewsCount": 6043,
+      "reviewsDistribution": {
+        "oneStar": 326,
+        "twoStar": 239,
+        "threeStar": 502,
+        "fourStar": 1385,
+        "fiveStar": 3591
+      },
+      "imagesCount": 9926,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:13:43.296Z",
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": "A block from the main entrance of Universal Studios Hollywood, this upscale 24-story hotel is 3 miles from Pantages Theatre in downtown Hollywood.\n Polished rooms offer panoramic views of the Hollywood Hills and Universal Studios, along with custom-designed beds, minifridges, flat-screen TVs and Wi-Fi (fee). Suites add separate living areas and free breakfast.\n A free shuttle to Universal Studios is offered. Amenities include an informal restaurant, a lobby lounge and a coffee shop, plus a fitness center, and an outdoor pool with a seasonal bar and a hot tub. There's also a business center and 35,000 sq ft of meeting space.",
+      "checkInDate": "2026-05-14",
+      "checkOutDate": "2026-05-16",
+      "hotelAds": [
+        {
+          "title": "Catchit.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszN59tNp2_kxVBVE0G7waentTxzo5ojNJO3o_x_BKNIDbX3WhsRZ2Dycd1Ie6QatehEEl1JkjaHTeVQmJhdozSp7q69P-x63GWvY2wyBYIGnMfnQhVrgDaoBlXR2neMg_uNPKpVA8xfnEempAC1ij4tqvOA90DncQnZve7RIKUPyx1YotOc0hU&pcurl=https://www.catchit.com/tracking/A6-6524-HO-131606_1405202616052026_99300_1500_460_104100_31_payclick/hoteles/131606-0_x?atoken%3Dn20216x95ex95gxax0x2zzzzzzzzzzzzz%26utoken%3D1%253A1%253A77778020%253A0%253Ade7b8%26chash%3Db366f0b1225e104ad6990b945f002081%26odata%3Dsj8kxn4ht8dypjcpkAhbj5wdpfcc0ls16lfj2k3slt6bA2l81qc8hs6kcnp73xgm8hphl5stjsxtbh8d5j4d7qp33mflblwtgkp30Anl9xmswyjgl5lww0zjpkgqxtkm%26craw%3DMzEqKjQxMjU5NioqMl8yMDBfMF8wXzBfMF8wKipTQSoqTyoqKipkNWJmYWI5ZTcwNTIxYTBmNTI3ZTBhYzdhNTgzZTFmYSoqWQ%3D%3D%26fco%3Dus%26mcc%3Dusd%26utm_source%3Dgoogle_hotel%26utm_medium%3Dmetabuscadores%26utm_campaign%3Dhoteles-afiliacion%26hotelID%3D131606%26hotel_campaign%3D&s=AD1XQnlGgiWTRvgehTSiSx5GVUsU",
+          "isOfficialSite": false,
+          "price": "$601",
+          "url": "https://www.catchit.com/tracking/A6-6524-HO-131606_1405202616052026_99300_1500_460_104100_31_payclick/hoteles/131606-0_x?atoken=n20216x95ex95gxax0x2zzzzzzzzzzzzz&utoken=1:1:77778020:0:de7b8&chash=b366f0b1225e104ad6990b945f002081&odata=sj8kxn4ht8dypjcpkAhbj5wdpfcc0ls16lfj2k3slt6bA2l81qc8hs6kcnp73xgm8hphl5stjsxtbh8d5j4d7qp33mflblwtgkp30Anl9xmswyjgl5lww0zjpkgqxtkm&craw=MzEqKjQxMjU5NioqMl8yMDBfMF8wXzBfMF8wKipTQSoqTyoqKipkNWJmYWI5ZTcwNTIxYTBmNTI3ZTBhYzdhNTgzZTFmYSoqWQ==&fco=us&mcc=usd&utm_source=google_hotel&utm_medium=metabuscadores&utm_campaign=hoteles-afiliacion&hotelID=131606&hotel_campaign="
+        },
+        {
+          "title": "Pilot",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyXEGQmTlDS1jMXRhEanWK05-XtG9EbIRAPrRZhcMjNgLJzRYDHyDTIF_6Wb4CgX1NiKLx_dTgnnbbEwOCh7UqRvwKt1vaWrWbfzYv8_NiPguhVBPFvfjn_mMBnYE_YyBEjgjncVfBsOweMDAdhhHZNVABdO8EYHFXlVHlSpRsEZVerBUMJw1hPklk5hZylBKPVWXt-NRH8RPLORPmw0uZBNLKM5m-U0HLP&pcurl=https://pilotplans.com/stays/hilton-los-angeles-universal-lp1e5b7?checkInDate%3D2026-05-14%26checkOutDate%3D2026-05-16%26rooms%3D2%26currency%3DUSD%26ratePlanId%3DGIYDENRNGA2S2MJUPQZDAMRWFUYDKLJRGZ6DE7BRGQ2TSNBWHE3DCN34GEZDCNJOHAYHYOBXFY4DS7BRGMYDGLRWHF6DALRQGB6DCMZQGMXDMOL4KVJUI7DCGEZGEYTDHFQS2MLGGZTC2NBTMQ2S2YTEGRQS2OJTHA4GIZLGHE3TOOBYPRSXQZLDOV2GS5TFEBZG633NFQZCA4LVMVSW4IDCMVSHGLDON5XCA43NN5VWS3TH%26ua%3Dg%26roomId%3D1459469617%26utm_source%3Dgoogle_travel_free%26v%3Dfalse&s=AD1XQnnPPM7bWnD12kMC6Q4dPUZQ",
+          "isOfficialSite": false,
+          "price": "$652",
+          "url": "https://pilotplans.com/stays/hilton-los-angeles-universal-lp1e5b7?checkInDate=2026-05-14&checkOutDate=2026-05-16&rooms=2&currency=USD&ratePlanId=GIYDENRNGA2S2MJUPQZDAMRWFUYDKLJRGZ6DE7BRGQ2TSNBWHE3DCN34GEZDCNJOHAYHYOBXFY4DS7BRGMYDGLRWHF6DALRQGB6DCMZQGMXDMOL4KVJUI7DCGEZGEYTDHFQS2MLGGZTC2NBTMQ2S2YTEGRQS2OJTHA4GIZLGHE3TOOBYPRSXQZLDOV2GS5TFEBZG633NFQZCA4LVMVSW4IDCMVSHGLDON5XCA43NN5VWS3TH&ua=g&roomId=1459469617&utm_source=google_travel_free&v=false"
+        },
+        {
+          "title": "pricetravel.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxHEngH6CaiHMTpMNuYxYgPvs5jxtdxvrO1XdZ-c5e20ZGvAqqXrITxQktgDI7qOrrA_JLPGouRqmb1hS9SW0ljhp19wQtzdoK9M43ZY31hA5N7iMyOUYIMcwgGqE4lOzGx1fa0porNsm_5AM4AcqwXU__ODRr6KWRHnMSlYLoJAqzSLHQygzwlJ3AAGKk&pcurl=https://www.pricetravel.com/en/hotel/hilton-los-angelesuniversal-city?source%3Dgoogle-ha-usa%26currency%3DUSD%26ct%3DUS%26room1.adults%3D2%26room1.kids%3D%26room1.agekids%3D%26rooms%3D1%26checkin%3D2026-05-14%26checkout%3D2026-05-16%26hotelid%3D111466%26CampaignToken%3D8e98a835a2478df8e4f7e8099259c516%26utm_source%3Dgha%26utm_medium%3Dppc%26utm_campaign%3Dghamx%26pr%3D938.21%7C150.11%7Ctrue%7C11431114&s=AD1XQnnNDGN9XPkIImDicZt4swzu",
+          "isOfficialSite": false,
+          "price": "$1,144",
+          "url": "https://www.pricetravel.com/en/hotel/hilton-los-angelesuniversal-city?source=google-ha-usa&currency=USD&ct=US&room1.adults=2&room1.kids=&room1.agekids=&rooms=1&checkin=2026-05-14&checkout=2026-05-16&hotelid=111466&CampaignToken=8e98a835a2478df8e4f7e8099259c516&utm_source=gha&utm_medium=ppc&utm_campaign=ghamx&pr=938.21|150.11|true|11431114"
+        },
+        {
+          "title": "Billabook.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oswbw3Z_tkve4Ayc5Bzn-Ak8jt1gggBF1yE1T22TqYaMI9xELakkuUsVZ1aqmDgpNUeOh6_wczjBo3WWk3VgHo8-8OR2_iLy2p_EM6CNLEYqYi6m_0l13N38Z2EwYMjXpt_wyCiKt3rl5yIuaGkvoZZfUaRpZ8AGiZWLjRR5FXxDyzfTYU31Rrv0&pcurl=https://www.billabook.com/hotel/2015850?a%3D30002%26in%3D2026-05-14%26out%3D2026-05-16%26occ%3D%5B%5B30,30%5D%5D%26user_curr%3DUSD%26quote_id%3D019d660e-966a-79a7-aa95-cc9f20e7ee07%26source%3Dfree-links%26campaign%3D%26user_country%3DUS%26query_type%3Dpcn%26device%3Ddesktop%26lang%3Den%26adults%3D2%26children%3D0%26&s=AD1XQnkWZcUIatRbxMVtzO79R1v0",
+          "isOfficialSite": false,
+          "price": "$1,069",
+          "url": "https://www.billabook.com/hotel/2015850?a=30002&in=2026-05-14&out=2026-05-16&occ=[[30,30]]&user_curr=USD&quote_id=019d660e-966a-79a7-aa95-cc9f20e7ee07&source=free-links&campaign=&user_country=US&query_type=pcn&device=desktop&lang=en&adults=2&children=0&"
+        },
+        {
+          "title": "Trip.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszMfkIAREHVsaShy-3yV4KU6kHP-X9gI7ACoPU5hDqgQD8-eKXHwUY0E3R5u0o-AH8SBzN21SN8oSx7o5DBskHgUvk-hifM6xBjyofM68hbrOMn1NhZCiyU-HBie0M76GJC3ACzfMegp5Qj1zuw41IXkjYu_33g2voSFY0xU1u9GZL5evc&pcurl=https://us.trip.com/hotels/redirect?hotelid%3D2216831%26city%3D26626%26shoppingid%3DMWWljn4UHOZQ%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2026-05-14%26checkout%3D2026-05-16%26curr%3DUSD%26Allianceid%3D15214%26Sid%3D1209572%26prid%3DLANG_US%26trip_sub1%3D14_05_2026_2_mapresults_2216831_US_desktop_default___0_0-LANG_US-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-Py5WKSYBJi4mCUcub40fD8CqsQo5EBq8VnwQCOGYz_l7UzrmBk3MHIdJGx_9BXjZgDUx0eMgbtkGt9zbvS4QXj7nXfuTtZGECgwcFhAQujFI9veHhOVp5JqId_VKACo8afOZfOsXkwBbG5Grg6WzpGyXAxhwa7CPqvn5La0SztIAXiKcJ4SaypebqhwRlNol2MTB6MqxjZuZgNjAwFmD4x8iGbG28IAAdakU63AAAA%5Dfgt%5B1%5D%26br%3D3206.96%26tf%3D422.79%26display%3Dexavg%26locale%3Den_us%26crn%3D1%26roomid%3D1520025720%26allianceid%3D15214%26sid%3D1209572&s=AD1XQnlrxoyZHvGZ0DOayGb-yZ2i",
+          "isOfficialSite": false,
+          "price": "$1,603",
+          "url": "https://us.trip.com/hotels/redirect?hotelid=2216831&city=26626&shoppingid=MWWljn4UHOZQ&adult=2&children=0&ages=&checkin=2026-05-14&checkout=2026-05-16&curr=USD&Allianceid=15214&Sid=1209572&prid=LANG_US&trip_sub1=14_05_2026_2_mapresults_2216831_US_desktop_default___0_0-LANG_US-landing&hpaopts=stand[H4sIAAAAAAAA_-Py5WKSYBJi4mCUcub40fD8CqsQo5EBq8VnwQCOGYz_l7UzrmBk3MHIdJGx_9BXjZgDUx0eMgbtkGt9zbvS4QXj7nXfuTtZGECgwcFhAQujFI9veHhOVp5JqId_VKACo8afOZfOsXkwBbG5Grg6WzpGyXAxhwa7CPqvn5La0SztIAXiKcJ4SaypebqhwRlNol2MTB6MqxjZuZgNjAwFmD4x8iGbG28IAAdakU63AAAA]fgt[1]&br=3206.96&tf=422.79&display=exavg&locale=en_us&crn=1&roomid=1520025720&allianceid=15214&sid=1209572"
+        },
+        {
+          "title": "Bluepillow.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osz2SCpE3_K1o3Hk9ntnnTIrgT60mTpLc9cer25S-SM5j_IJirFgGIbg7hprCZlTJ0w73IsW0yGhoP_vErKWkZEL_b-l-AbGpQyH7W_jvkVi7Dz1UP7mwAj_gzWiXr6HUtUUTPCoZaVLd94xo-dXWbRtR0AlD4v9z1iPhtVNOX87rFKP0a-iH-n1cQ&pcurl=https://www.bluepillow.com/search/648085191f174c21709f8329?begin%3D2026-05-14%26end%3D2026-05-16%26block_id%3D-b,D2zku5csu4G_ZK6diyrmzpMyk_xQwndrr1Y38gZb3V7fnF3RJRqIPKxQ_5vRQyIO,-bpctrip-Hotel%26adults%3D2%26childs%3D0%26infants%3D0%26childrens%3D0%26country%3DUS%26currency%3DUSD%26language%3Den%26source%3Dmapresults%26utm_campaign%3Dhotel%26prid%3Dmember&s=AD1XQnkKBq6gqbXq8bhCLfesBzBz",
+          "isOfficialSite": false,
+          "price": "$1,643",
+          "url": "https://www.bluepillow.com/search/648085191f174c21709f8329?begin=2026-05-14&end=2026-05-16&block_id=-b,D2zku5csu4G_ZK6diyrmzpMyk_xQwndrr1Y38gZb3V7fnF3RJRqIPKxQ_5vRQyIO,-bpctrip-Hotel&adults=2&childs=0&infants=0&childrens=0&country=US&currency=USD&language=en&source=mapresults&utm_campaign=hotel&prid=member"
+        },
+        {
+          "title": "Hilton Los Angeles/Universal City",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszLpMbNr2LWUKDhxXwYk_MSlbM-S0xZRc0YrYKbRk1sTstPSfUy4GI8QbJW4MSoPwxEaclC67aXHwi5GYEVcwg0ceCiwQjUI5_KujgYuKAyE3JmHuKTNecQm4rwoncaRa-qfXTepbGfOYH6mJ8AT5_sfRBsZuWPeoq-VHCTUsoKJ1p3E8rO&pcurl=https://linkcenterus.derbysoftca.com/dplatform-linkcenter/booking.htm?hotelCode%3DHILTON-BURUC%26providerHotelCode%3DBURUC%26checkInDate%3D2026-05-14%26checkOutDate%3D2026-05-16%26identifier%3Dgoogle-hilton%26price%3D3346.45%26roomTypeCode%3DQ2ROU1%26ratePlanCode%3DR3X%26currency%3DUSD%26language%3Den%26userCountry%3DUS%26dateType%3Ddefault%26testClick%3Dfalse%26sitetype%3Dmapresults%26occupancy%3D2%26partnerId%3Dhilton%26campaignid%3D%26rateRuleId%3D%26userlistid%3D%26ifDefaultDate%3Ddefault%26isPromoted%3Dfalse%26isRuleIdsClosed%3Dfalse%26s_is_ad%3Dfalse%26adType%3D0%26adults%3D2%26children%3D0%26clk_src%3D%26is_ds_account%3Dtrue&s=AD1XQnmCS6bLPrz21ysk_wtVmOhS",
+          "isOfficialSite": true,
+          "price": "$1,673",
+          "url": "https://linkcenterus.derbysoftca.com/dplatform-linkcenter/booking.htm?hotelCode=HILTON-BURUC&providerHotelCode=BURUC&checkInDate=2026-05-14&checkOutDate=2026-05-16&identifier=google-hilton&price=3346.45&roomTypeCode=Q2ROU1&ratePlanCode=R3X&currency=USD&language=en&userCountry=US&dateType=default&testClick=false&sitetype=mapresults&occupancy=2&partnerId=hilton&campaignid=&rateRuleId=&userlistid=&ifDefaultDate=default&isPromoted=false&isRuleIdsClosed=false&s_is_ad=false&adType=0&adults=2&children=0&clk_src=&is_ds_account=true"
+        },
+        {
+          "title": "Agoda",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswIKYoXQxFQS61hvbHsxUXszVAVQSBVwszfAE67pBkWE8Ro2TjxMbKTHmcDXWDiFaFgnNSDN-Nn8JsPBoVbQSTpGvtEY5zfNEYI_4iZDNgprevZ6AgpLLlJv1TlM9PumBBaR3-0ZjtFOltnkhd5Z2HEtrvaFApjwCPCfSjuroMHU4xdDJ5iV1iNyw7-Qg&pcurl=https://www.agoda.com/partners/partnersearch.aspx?site_id%3D1917614%26CkInDay%3D14%26CkInMonth%3D05%26CkInYear%3D2026%26CkOutDay%3D16%26campaignid%3D%26CkOutMonth%3D05%26CkOutYear%3D2026%26SearchDateType%3Ddefault%26NumberOfAdults%3D2%26LT%3D38%26NumberOfChildren%3D0%26childages%3D%26NumberOfRooms%3D1%26gsite%3Dmapresults%26los%3D2%26PartnerCurrency%3DUSD%26hid%3D170120%26RoomID%3D15402655%26masterRoomId%3D15402655%26PriceTax%3D562.39%26PriceTotal%3D3346.57%26RatePlan%3D40725b6d-6a34-154a-273f-d7a9a77a50f0%26UserCountry%3DUS%26Currency%3DUSD%26UserDevice%3Ddesktop%26Verif%3Dfalse%26rr%3Drow_desktop%26audience_list%3D%26mcid%3D29005%26booking_source%3Dcpc%26adType%3D0%26mpt%3DdHcvQ2RyRXEwUk50NWczRmM2My9nMUhrc1NsVDdVLzVWRXdTVmhLUkhoeWlUNE5TSHZtNDBXeTc4Z0psNXFkbkhYKy9McUQxb3hHZA%26original_rr%3D&s=AD1XQnnnaVnd1-ec4_mroNwnW1nF",
+          "isOfficialSite": false,
+          "price": "$1,673",
+          "url": "https://www.agoda.com/partners/partnersearch.aspx?site_id=1917614&CkInDay=14&CkInMonth=05&CkInYear=2026&CkOutDay=16&campaignid=&CkOutMonth=05&CkOutYear=2026&SearchDateType=default&NumberOfAdults=2&LT=38&NumberOfChildren=0&childages=&NumberOfRooms=1&gsite=mapresults&los=2&PartnerCurrency=USD&hid=170120&RoomID=15402655&masterRoomId=15402655&PriceTax=562.39&PriceTotal=3346.57&RatePlan=40725b6d-6a34-154a-273f-d7a9a77a50f0&UserCountry=US&Currency=USD&UserDevice=desktop&Verif=false&rr=row_desktop&audience_list=&mcid=29005&booking_source=cpc&adType=0&mpt=dHcvQ2RyRXEwUk50NWczRmM2My9nMUhrc1NsVDdVLzVWRXdTVmhLUkhoeWlUNE5TSHZtNDBXeTc4Z0psNXFkbkhYKy9McUQxb3hHZA&original_rr="
+        },
+        {
+          "title": "Priceline",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswuZrJL7-2o22P5XqBxaxAZ93XDjqwVVLW7wNhnM0b9hIw8FP6xgmG5EResPUvAA7mCvzkq92NpIIVT4pKrIRVTNCf5HpQMjN_iShyLihC5GgMOMKdcjD54tm3eeIvLxlKo40KaX6kCYnz6eSs_qZN-bYj2Bzk5XWGX0L2rP35Hwne8G3rSLvP1-B2P04Q6w-k&pcurl=https://www.priceline.com/r/?channel%3Dmeta%26product%3Dhotel%26theme%3Dghalistings%26refid%3DPLGOOGLEMSS%26refclickid%3DUS_HP%257C39617_mapresults_2%257C20260514%257Cdesktop%257Cdefaultdate%7Cpublic%7C%7C%7C38%257C2%257C0%7C0%7CEN%26hotelid%3D39617%26checkin%3D20260514%26checkout%3D20260516%26rooms%3D1%26currency%3DUSD%26displayedCurr%3DUSD%26POSCountryCode%3DUS%26taxDisplayMode%3DBP%26cityID%3D3000002412%26adults%3D2%26land%3DL%26metaid%3D9LNYYNV1n9JmPoQTuEJxVZEmSFSAcxoGtKSy4ox05VCT7FCdUIEIWL_QS84Wpjk7MuCzmTr2xFJep0WGVIDkKeDc0zyViXeA3jwz6EEiKvcbbjOZEs1sSeo2pudLe3Lrj6lXIof7I-tkKclRK9FKSwfXYRc80L8B6dU-go9b4_pCbzTYLLNtq1sxGzQjsEngd77Q1--kwNa-WOx042GeMZOe92_ILeVj9JxIq4exg7vxWXeqKPZZcy5AuoDxyGOCdoUH1mCrgXEx4aqJM0tsKlPqxeKg4kp2i2kSyDLnj3eDV4ZlG7khXsKXAHcuyx_TanCWPzepOyfrwEVVz8_KF0HTLIiJ-eIoy1MvsLYatY_qM0dnUx3YYYEtYpE5-qp1hpZ7sF6N0DviLCgfU6WcSbmwk4lbhhlU-_LmdkAqflQPJWrEqkMeNGkYA3sUCVqPIbezts5znOFEknb4N3Pb2V69-xKLZTFD74SDnkpg1HoPcAuc3Hhgx1ZDWbMAj5RN%26dblcnt%3Dtrue%26user_num_adults%3D2%26hc%3D1%26pdtax%3D562.41%26pdf%3D95.84%26pdt%3D3346.59%26locale%3Den-us%26ad-src%3D%26numChild%3D0&s=AD1XQnm-ms3N_bvlNfbwSwrtVIpf",
+          "isOfficialSite": false,
+          "price": "$1,673",
+          "url": "https://www.priceline.com/r/?channel=meta&product=hotel&theme=ghalistings&refid=PLGOOGLEMSS&refclickid=US_HP|39617_mapresults_2|20260514|desktop|defaultdate|public|||38|2|0|0|EN&hotelid=39617&checkin=20260514&checkout=20260516&rooms=1&currency=USD&displayedCurr=USD&POSCountryCode=US&taxDisplayMode=BP&cityID=3000002412&adults=2&land=L&metaid=9LNYYNV1n9JmPoQTuEJxVZEmSFSAcxoGtKSy4ox05VCT7FCdUIEIWL_QS84Wpjk7MuCzmTr2xFJep0WGVIDkKeDc0zyViXeA3jwz6EEiKvcbbjOZEs1sSeo2pudLe3Lrj6lXIof7I-tkKclRK9FKSwfXYRc80L8B6dU-go9b4_pCbzTYLLNtq1sxGzQjsEngd77Q1--kwNa-WOx042GeMZOe92_ILeVj9JxIq4exg7vxWXeqKPZZcy5AuoDxyGOCdoUH1mCrgXEx4aqJM0tsKlPqxeKg4kp2i2kSyDLnj3eDV4ZlG7khXsKXAHcuyx_TanCWPzepOyfrwEVVz8_KF0HTLIiJ-eIoy1MvsLYatY_qM0dnUx3YYYEtYpE5-qp1hpZ7sF6N0DviLCgfU6WcSbmwk4lbhhlU-_LmdkAqflQPJWrEqkMeNGkYA3sUCVqPIbezts5znOFEknb4N3Pb2V69-xKLZTFD74SDnkpg1HoPcAuc3Hhgx1ZDWbMAj5RN&dblcnt=true&user_num_adults=2&hc=1&pdtax=562.41&pdf=95.84&pdt=3346.59&locale=en-us&ad-src=&numChild=0"
+        },
+        {
+          "title": "HomeToGo",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxTZi222SkZWX2IZYepIjPlOK-FfDqstGkCD3EQI0wPQnjuHOAZj-vpACXjZVL7C5S7f0rPZLwXl-IWsTrjidQye6kOYf166o4wjlV3h2ILv6ydkmDfTgg2tNUetc6nOqquM-eWpD6RJOK0s7Bn56VrF9CgMCcUYcb9rqw0bnhw_ylutRPELFo&pcurl=https://www.hometogo.com/search/5460aeb794b06?arrival%3D2026-05-14%26duration%3D2%26id%3Dzc753ff32d83b51f2%2540f%2540s%26adults%3D2%26tpp%3Dtsmluhfq.69d47328%26adword%3Dghf/us/zc753ff32d83b51f2/ct%3Dhs/n-a/n-a/5460aeb794b06%26utm_source%3Dghf%26hl%3Den_US%26ghf_acc%3Dhtg_ghf%26c%3DUSD%26type%5B%5D%3Dhotel%26gValidation%3Dfalse%26gSite%3Dmapresults&s=AD1XQnm3j1K-OmJMc15ndwpP4cdm",
+          "isOfficialSite": false,
+          "price": "$1,673",
+          "url": "https://www.hometogo.com/search/5460aeb794b06?arrival=2026-05-14&duration=2&id=zc753ff32d83b51f2@f@s&adults=2&tpp=tsmluhfq.69d47328&adword=ghf/us/zc753ff32d83b51f2/ct=hs/n-a/n-a/5460aeb794b06&utm_source=ghf&hl=en_US&ghf_acc=htg_ghf&c=USD&type[]=hotel&gValidation=false&gSite=mapresults"
+        },
+        {
+          "title": "Tripadvisor.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszGoOiWLz1sxlUkqYnd9F_H_-E1-Q7Skrms3Ii9dRMaR_R2wdE3a0UwYgI5V6IR5DQTEaIb2Qr2RErZ6Rmc-UYAzg_oBTRqLiuVbvxrN0S_GA64CHziF-u2zbnIaXDWGMXS2c_XFjRaFdJMYsw0uaRC-QIAB5bU-koQBXK7FXSqql5qLkF139xFzIs&pcurl=https://www.tripadvisor.com/HotelHighlight?detail%3D78694%26m%3D66081%26staydates%3D2026_05_14_2026_05_16%26uguests%3D1_2_%26supdv%3Ddesktop%26supbl%3Dmapresults%26supkl%3Ddefault%26supuc%3DUS%26supul%3Den%26supia%3D0%26supip%3D0%26supmb%3DxVloKjPrbg7ZjJnbbP2vRPSphUaRjEJ3z65X22svRgwiBRY1zeV05yFTRR_bRoMvNaWQvvhvTO2zc7B6pmQz6eBdSwAW3yKmotcfWnslp73jxnHoWOykVOl3URlRlwT53RlFjV49ejyQwpfsXl-004OvnihI2Gt_vlxoHAOk3-AIrJqmhXzQ6NG85_spgN%26supmc%3Dyk3OmdzDh1bbGjEpVlAAa7Ur2XKtMxtRlV6WUObyX7YS9ScvNiGsDl_5M8nmWOgB0WdUf5I5iMKFieA5mgx1-SvTWw7OkvE%26supts%3D%26supey%3Dm%7C108054%7CPL_GPC_query%26supcd%3D%26suptp%3DADD8c4h-haaKmszMABEBIznuo2xyToGgGWYdsvwlhMyOnees6DG4aMj1RAQl-Te6vtilhgY4ZF_mILTABF2mDYQGBMYq4zwKjVXbiahEPHlOI0mqHpBByREIkmQQZNy-UACHRotksSCbQquYSNoI0ym498uHW_3sUrv9iex5vMqqzGGMyQW5zjm-jy_vcO%26supas%3D&s=AD1XQnmPZTJnfjNAJf_FK4tVFOtf",
+          "isOfficialSite": false,
+          "price": "$1,673",
+          "url": "https://www.tripadvisor.com/HotelHighlight?detail=78694&m=66081&staydates=2026_05_14_2026_05_16&uguests=1_2_&supdv=desktop&supbl=mapresults&supkl=default&supuc=US&supul=en&supia=0&supip=0&supmb=xVloKjPrbg7ZjJnbbP2vRPSphUaRjEJ3z65X22svRgwiBRY1zeV05yFTRR_bRoMvNaWQvvhvTO2zc7B6pmQz6eBdSwAW3yKmotcfWnslp73jxnHoWOykVOl3URlRlwT53RlFjV49ejyQwpfsXl-004OvnihI2Gt_vlxoHAOk3-AIrJqmhXzQ6NG85_spgN&supmc=yk3OmdzDh1bbGjEpVlAAa7Ur2XKtMxtRlV6WUObyX7YS9ScvNiGsDl_5M8nmWOgB0WdUf5I5iMKFieA5mgx1-SvTWw7OkvE&supts=&supey=m|108054|PL_GPC_query&supcd=&suptp=ADD8c4h-haaKmszMABEBIznuo2xyToGgGWYdsvwlhMyOnees6DG4aMj1RAQl-Te6vtilhgY4ZF_mILTABF2mDYQGBMYq4zwKjVXbiahEPHlOI0mqHpBByREIkmQQZNy-UACHRotksSCbQquYSNoI0ym498uHW_3sUrv9iex5vMqqzGGMyQW5zjm-jy_vcO&supas="
+        },
+        {
+          "title": "Qantas Hotels",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy0TBVpHD0-H8wRzteUqE2qVniG_WXFJJw1pDHxNu1MhVqf_bZRwaqOoFRqyt6VI_YpYg1ih4U_s1ZHcUPPt8OXQsgbJya0yFdFzlc_2aae8yab8ma9nqZvtViThEgXSMW21X-JNP9EwIiaUGPncvJjfjbli7YdYHTt68JaJtfGPEDlngl7&pcurl=https://www.qantas.com/hotels/properties/24692?adults%3D2%26children%3D0%26infants%3D0%26checkIn%3D2026-05-14%26checkOut%3D2026-05-16%26utm_campaign%3DGoogleHotels%26adType%3D0%26utm_medium%3Dorganic-search%26utm_source%3DGoogle-Hotels%26utm_term%3D24692%26hotelID%3D24692%26hotel_campaign%3D&s=AD1XQnn-7XkoPSIpnqs6OIJey_mt",
+          "isOfficialSite": false,
+          "price": "$1,681",
+          "url": "https://www.qantas.com/hotels/properties/24692?adults=2&children=0&infants=0&checkIn=2026-05-14&checkOut=2026-05-16&utm_campaign=GoogleHotels&adType=0&utm_medium=organic-search&utm_source=Google-Hotels&utm_term=24692&hotelID=24692&hotel_campaign="
+        },
+        {
+          "title": "Skyscanner",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osx0zZO3L6YZgg_4I0emtYaScBNFhRasYMV-bcRxi5Ral6Yjbqf305w2JYwf0NCAJHSJcarb5F9hE-DMFJQgIcpIQEr_zd98wpqb3Z_tt-TzyZtiuGiODP56GJkJ95RHsJQQw5WgKB3jtaWsd7dyFLO3NqHR6B6JSV_zjQZz2yNAfXZ_AVP5l4yNuKtQemaqDpfq&pcurl=https://www.skyscanner.net/hotels/search?entity_id%3D115084450%26upsort_hotels%3D115084450%26adults%3D2%26checkin%3D2026-05-14%26checkout%3D2026-05-16%26currency%3DUSD%26market%3DUS%26device%3Ddesktop%26utm_medium%3Dhpa%26utm_source%3Dgoogle_free%26utm_campaign%3Dgoogle_free_click%26associateID%3DHPA_HTL_01975_00000%26source%3DGoogleHpa%26hpa_verification%3Dfalse%26trace_info%3D2HtQJeIEav-1SMWMA_HBVYtAQkgWYTNed3XyWPzK_Fi9Lv96PnTlog8r23qdNcmGSrG-qJmU75Hpn2OUhJt60u2NzH1yj9B-nsXKuEmcVhiOf1OeJvtkop0npifmVUV-Jxfas59kAAiJaWzMxB7TXuy5jB_jXHfUQtKPlFnEpQ%3D%3D%26user_country%3DUS%26extra_trace_info%3D%26hotel_campaign%3D%26gclid%3D%7Bgclid%7D%26date_type%3Ddefault%26filters%3D%257B%2522cancellation%2522%253A%2522free_cancellation%2522%257D&s=AD1XQnnC3Pu29-mPRB7IcdZXdDhl",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.skyscanner.net/hotels/search?entity_id=115084450&upsort_hotels=115084450&adults=2&checkin=2026-05-14&checkout=2026-05-16&currency=USD&market=US&device=desktop&utm_medium=hpa&utm_source=google_free&utm_campaign=google_free_click&associateID=HPA_HTL_01975_00000&source=GoogleHpa&hpa_verification=false&trace_info=2HtQJeIEav-1SMWMA_HBVYtAQkgWYTNed3XyWPzK_Fi9Lv96PnTlog8r23qdNcmGSrG-qJmU75Hpn2OUhJt60u2NzH1yj9B-nsXKuEmcVhiOf1OeJvtkop0npifmVUV-Jxfas59kAAiJaWzMxB7TXuy5jB_jXHfUQtKPlFnEpQ==&user_country=US&extra_trace_info=&hotel_campaign=&gclid={gclid}&date_type=default&filters={\"cancellation\":\"free_cancellation\"}"
+        },
+        {
+          "title": "dealbase.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy5HiSIGaHXQwWRU4Ptx59fYatUkR0GXGqT7gfL6kCUCJEyu-hFEe1eJNUe1b9fz-TAE3Rqm886zZbjv380nmUJoGoECBAG0j6LgTt9zkV5sVvDEdgfdr5530bt47_kpqa2hR0ersvF0Q6GW_5bdqN24fy8vHBZIhScuhvPH5_bIJ8aSDuG-ndPYUZkyGlSDKytWA&pcurl=https://deals.dealbase.com/?sig%3Dd24b78db5ff27b2a7633c125e8c1eb65fcdd29bfbe8d2468da3702f8e475011131373338383435313339%26turl%3Dhttps%253A%252F%252Fwww.dealbase.com%252FHotel%252FSearch%253FcheckIn%253D2026-05-14%2526checkOut%253D2026-05-16%2526currency%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Den%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1081461%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D3364.47%2526deviceType%253Ddesktop%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1081461%252526day%25253D14%252526month%25253D05%252526year%25253D2026%252526los%25253D2%252526price%25253D3364.47%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253DnvdouAKnGt4CgtfbjFOWkZ6ZXd3bxijldLOBiACONHd_Y4IQhoI2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRA&s=AD1XQnmyE2GwsTMV96ufKshtmdxe",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://deals.dealbase.com/?sig=d24b78db5ff27b2a7633c125e8c1eb65fcdd29bfbe8d2468da3702f8e475011131373338383435313339&turl=https://www.dealbase.com/Hotel/Search?checkIn=2026-05-14&checkOut=2026-05-16&currency=USD&forceCurrencyChange=1&lang=en&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1081461&userCountry=US&profile=r2d2m73kn8&preferredRate=3364.47&deviceType=desktop&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1081461%26day%3D14%26month%3D05%26year%3D2026%26los%3D2%26price%3D3364.47%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=nvdouAKnGt4CgtfbjFOWkZ6ZXd3bxijldLOBiACONHd_Y4IQhoI2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRA"
+        },
+        {
+          "title": "Etrip.net",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswuFZmFR7XVKHM7OtwJ6FfikbFS4eLYhRMLtmlmeAONaPie9vYiPX4z2hO8JsJdxCufEYoMjRa2li1OY8ua1raWCejux6qMvC7pYX7l6A17LFLq7p9hIeHLM2ztoXO0u6F85kguLoGC1m_2NDXPFfm4iM9zAkqC09fyC7MQC3B3r0DH0wc&pcurl=https://deals.etrip.net/?sig%3De9cc68956712e1e5d60f579a67e54afadd83f5d631dc9782cc50d47864de2f2c2d32303330363031313335%26turl%3Dhttps%253A%252F%252Fsearch.etrip.net%252FHotel%252FSearch%253FcheckIn%253D2026-05-14%2526checkOut%253D2026-05-16%2526currency%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Den%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1081461%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D3364.47%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1081461%252526day%25253D14%252526month%25253D05%252526year%25253D2026%252526los%25253D2%252526price%25253D3364.47%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253DIqYAwtHf6jkCgtNVWp6Q3NZT0t0dxjd_9HOBiACONvQ59sGQiII2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRDABOLTZgNAG&s=AD1XQnnsRYRVjEQoPxuk6jUTrbp6",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://deals.etrip.net/?sig=e9cc68956712e1e5d60f579a67e54afadd83f5d631dc9782cc50d47864de2f2c2d32303330363031313335&turl=https://search.etrip.net/Hotel/Search?checkIn=2026-05-14&checkOut=2026-05-16&currency=USD&forceCurrencyChange=1&lang=en&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1081461&userCountry=US&profile=r2d2m73kn8&preferredRate=3364.47&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1081461%26day%3D14%26month%3D05%26year%3D2026%26los%3D2%26price%3D3364.47%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=IqYAwtHf6jkCgtNVWp6Q3NZT0t0dxjd_9HOBiACONvQ59sGQiII2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRDABOLTZgNAG"
+        },
+        {
+          "title": "goseek.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osz_LgnX2Jd9_okFx8-SDrVFLs1TasGa5VUoRimPIy4itQBaSNVnJKVg2-Ly6ZJnIrWzbOaKxX073Cr5X1E_hcILuhXLzDKUboltQgFfxGKBbsC8os1eiIRuL7HNwPrnjpvbbX6cUnQi3hGisqNZo2heZh2UoBbkBazHbQ5EsD6EH_0-Dn7iaf49VOb-j31qBQ&pcurl=https://deals.goseek.com/?sig%3D34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931%26turl%3Dhttps%253A%252F%252Fwww.goseek.com%252FHotel%252FSearch%253FcheckIn%253D2026-05-14%2526checkOut%253D2026-05-16%2526currency%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Den%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1081461%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D3364.47%2526deviceType%253Ddesktop%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1081461%252526day%25253D14%252526month%25253D05%252526year%25253D2026%252526los%25253D2%252526price%25253D3364.47%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253DtHO5L-xM6fgCgtfbjFOWkZ6ZXd3bxj4i9LOBiADOPWdw6QOQiII2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRDABOLTZgNAG&s=AD1XQnlIy3NsmeJBTokDG5EvWLDg",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://deals.goseek.com/?sig=34c47a49c3e8320dca5a5dda0da2a460c1bc23afde972e2894a4ff0b6052fb53383131303836353931&turl=https://www.goseek.com/Hotel/Search?checkIn=2026-05-14&checkOut=2026-05-16&currency=USD&forceCurrencyChange=1&lang=en&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1081461&userCountry=US&profile=r2d2m73kn8&preferredRate=3364.47&deviceType=desktop&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1081461%26day%3D14%26month%3D05%26year%3D2026%26los%3D2%26price%3D3364.47%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=tHO5L-xM6fgCgtfbjFOWkZ6ZXd3bxj4i9LOBiADOPWdw6QOQiII2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRDABOLTZgNAG"
+        },
+        {
+          "title": "Vio.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsyV0vrbAltN6Sh5TOiVZZbOwciIRDikMDjo_EVio7SQbvPXfcc5jJTjKOS6xkUaqbn0DAB3inn7mxhTFJ6f5W0tfoQjoiY77OaOXsE6LgTptAzJOC9AZv2VOLWZ68HPWwJ4aeHXUR-jiOsAL4b-cWV3Gfb9ZjQoYSfO1Sx821edLWAdsytxjul5&pcurl=https://deals.vio.com/?sig%3D73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233%26turl%3Dhttps%253A%252F%252Fwww.vio.com%252FHotel%252FSearch%253FcheckIn%253D2026-05-14%2526checkOut%253D2026-05-16%2526currency%253DUSD%2526forceCurrencyChange%253D1%2526lang%253Den%2526forceLanguageChange%253D1%2526rooms%253D2%253A%2526utm_source%253Dgha%2526utm_medium%253Dcpc%2526hotelId%253D1081461%2526userCountry%253DUS%2526profile%253Dr2d2m73kn8%2526preferredRate%253D3364.47%2526deviceType%253Ddesktop%2526label%253Dsrc%25253Dgha%252526cltype%25253Dhotel%252526datype%25253Ddefault%252526gsite%25253Dmapresults%252526vf%25253D0%252526ucountry%25253DUS%252526udevice%25253Ddesktop%252526hotel%25253D1081461%252526day%25253D14%252526month%25253D05%252526year%25253D2026%252526los%25253D2%252526price%25253D3364.47%252526currency%25253DUSD%252526cid%25253D%252526listid%25253D%252526rateid%25253DUS_D%252526closerateid%25253D%252526promo%25253D0%252526isPrivateRate%25253D0%252526isAudienceUser%25253D0%252526isPaidClick%25253D0%252526%2526cp%253DIqYAwtHf6jkCgtNVWp6Q3NZT0t0dxjd_9HOBiACONvQ59sGQiII2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRDABOLTZgNAG&s=AD1XQnkF3gTnR0QbbaBh4q7i_yPe",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://deals.vio.com/?sig=73aca13c7f952d2641c156f3e69125e1eb497c325f122828ee5aa8797168b9a12d32303331333438363233&turl=https://www.vio.com/Hotel/Search?checkIn=2026-05-14&checkOut=2026-05-16&currency=USD&forceCurrencyChange=1&lang=en&forceLanguageChange=1&rooms=2:&utm_source=gha&utm_medium=cpc&hotelId=1081461&userCountry=US&profile=r2d2m73kn8&preferredRate=3364.47&deviceType=desktop&label=src%3Dgha%26cltype%3Dhotel%26datype%3Ddefault%26gsite%3Dmapresults%26vf%3D0%26ucountry%3DUS%26udevice%3Ddesktop%26hotel%3D1081461%26day%3D14%26month%3D05%26year%3D2026%26los%3D2%26price%3D3364.47%26currency%3DUSD%26cid%3D%26listid%3D%26rateid%3DUS_D%26closerateid%3D%26promo%3D0%26isPrivateRate%3D0%26isAudienceUser%3D0%26isPaidClick%3D0%26&cp=IqYAwtHf6jkCgtNVWp6Q3NZT0t0dxjd_9HOBiACONvQ59sGQiII2YbX_7WDoZUOEJL_EBiNZSCg4AIqA1VTRDABOLTZgNAG"
+        },
+        {
+          "title": "Brek",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy1pcKr1z_b2Nq4vjCIKOeQsICgU_wn6n2gVdB6pDq3w_EPG2fq0-Ta38Qknx4gyJLr8OC_jQkMygw7K6oMqAa3KqFOKY8JnkJV374QCSEoy6PdkFCDrTuSCQrsWq4Ucvfa2uvWgybtYx1B6tXQkJZETMUf7M5iscWnVHs0PbNcyN6djxCEc6-0ybQQ5F-c&pcurl=https://www.brek.com/search?lat%3D34.136735%26lng%3D-118.358647%26checkin%3D2026-05-14%26checkout%3D2026-05-16%26pinned%3D6475514109317edd78e2b40a%26utm_source%3Dgha%26ep%3D7f51dcbc8ed03f8df50a8a49eb040265d02a17241d9833699d702989285258e271541e618bb0548f9d9b7309b06d9e76f97fb1df992713370347b70e47cb150c%26user_currency%3DUSD%26user_country%3DUS%26user_language%3Den%26user_displayed_total%3D3364.47%26user_displayed_tax%3D580.29&s=AD1XQnmJxiId-nkZV4-3eoviZwvv",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.brek.com/search?lat=34.136735&lng=-118.358647&checkin=2026-05-14&checkout=2026-05-16&pinned=6475514109317edd78e2b40a&utm_source=gha&ep=7f51dcbc8ed03f8df50a8a49eb040265d02a17241d9833699d702989285258e271541e618bb0548f9d9b7309b06d9e76f97fb1df992713370347b70e47cb150c&user_currency=USD&user_country=US&user_language=en&user_displayed_total=3364.47&user_displayed_tax=580.29"
+        },
+        {
+          "title": "Closest Hotel",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsypThOhDOQjeS4MpD4xfr90M3E4yu9njyflBwT44MUpT50nevgrDBEcPM5s-x6B2MqURcHkcdvCPXNWgZt0szREE24I-DKK1V98rZtaqmzPYT9ENbdnbnXCLf5gH8F40-B974IMJ93OGMAX4XAyY5J4LU03oMnTwsqSXvmtS3FfeLAucBNTwbRomlpjwEAr7W2CI-tkuiKQtF2pVQtU&pcurl=https://closesthotel.com/googleRedirMainSearch.php?checkInYear%3D2026%26checkInMonth%3D05%26checkInDay%3D14%26checkOutYear%3D2026%26checkOutMonth%3D05%26checkOutDay%3D16%26numberOfNights%3D2%26numberOfAdults%3D2%26numberOfChildren%3D0%26numberOfGuests%3D2%26hotelID%3D20611%26roomID%3D201307435%26currency%3DUSD%26deviceType%3Ddesktop&s=AD1XQnkcDZyHvLUGBHmpGVxAKZj9",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://closesthotel.com/googleRedirMainSearch.php?checkInYear=2026&checkInMonth=05&checkInDay=14&checkOutYear=2026&checkOutMonth=05&checkOutDay=16&numberOfNights=2&numberOfAdults=2&numberOfChildren=0&numberOfGuests=2&hotelID=20611&roomID=201307435&currency=USD&deviceType=desktop"
+        },
+        {
+          "title": "Expedia.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Oswx_Myx6ZtFtvU6YTy2ruepwjgeY6RVhRhz190KXrEczdLiSYcsrHdh6xBRQ5eT-Hr1Va6zr3_bA7C7r29cGdiH6PGKZVyFu-gTA621ylzk5eG1r02Td9fIWIwJyLZqzyd0jn2K3JRVxBvBXew89WzKObYRWnV31rrxn7wlyfFGfnsWM5hFd_iz3_H0qQsE&pcurl=https://www.expedia.com/Hotel-Search?selected%3D20611%26startDate%3D2026-05-14%26endDate%3D2026-05-16%26MDPCID%3DUS.META.HPA.HOTEL-ORGANIC-desktop.HOTEL%26MDPDTL%3DHTL.20611.20260514.20260516.DDT.38.CID..AUDID..RRID.bex_us_desktop%26mctc%3D10%26ct%3Dhotel%26mpg%3DUSD%26mpf%3D3364.49%26mpj%3D580.31%26mpr%3D111.37%26mpl%3DUSD%26exp_pg%3Dgoogle%26langid%3Den%26ad%3D2%26tp%3D%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_term%3D20611%26utm_content%3Dmapresults%26utm_campaign%3DHotelAds%26langid%3D1033%26adults%3D2%26children%3D%26rateplanid%3D280035113%26mpm%3D24%26mpn%3D201307435%26mpo%3DEC%26mpp%3D1&s=AD1XQnnRSJ6JAn4tKRmkxANU_MqB",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.expedia.com/Hotel-Search?selected=20611&startDate=2026-05-14&endDate=2026-05-16&MDPCID=US.META.HPA.HOTEL-ORGANIC-desktop.HOTEL&MDPDTL=HTL.20611.20260514.20260516.DDT.38.CID..AUDID..RRID.bex_us_desktop&mctc=10&ct=hotel&mpg=USD&mpf=3364.49&mpj=580.31&mpr=111.37&mpl=USD&exp_pg=google&langid=en&ad=2&tp=&utm_source=google&utm_medium=cpc&utm_term=20611&utm_content=mapresults&utm_campaign=HotelAds&langid=1033&adults=2&children=&rateplanid=280035113&mpm=24&mpn=201307435&mpo=EC&mpp=1"
+        },
+        {
+          "title": "Hotwire.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxwcDbWo-0WJHh-nFrpK-cmBh6GaYZbr92BzKmYS_2-OKfTyxNyt3dB5mBrUKXUKFWOYj4foKAoyNyh4zY8eYr5IRfoSpEhjcmyeGr-1xlfXDzMn6PCAKPbDfJDWwrd8fHdf75xtLRRbjjNxYX8mLAhx4spQwz2MwKu43k1Hu9XWSduNj3-NQ&pcurl=http://www.hotwire.com/hotel/details/direct-retail-details?startDate%3D05/14/2026%26endDate%3D05/16/2026%26selectedExpediaHotelId%3D20611%26numAdults%3D2%26numChildren%3D0%26sid%3DS537%26bid%3DB381549%26rpid%3DRPE20611%26mctc%3D10&s=AD1XQnlkZrpnPKzAz3WtxrSc73nB",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "http://www.hotwire.com/hotel/details/direct-retail-details?startDate=05/14/2026&endDate=05/16/2026&selectedExpediaHotelId=20611&numAdults=2&numChildren=0&sid=S537&bid=B381549&rpid=RPE20611&mctc=10"
+        },
+        {
+          "title": "Hotels.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osy5NP4frNgBLWMwS34NbXr3Rw4JZbIEM-FKTABwXYHRAA6Hb31gaEzmmDP7QuuqPc0GFZAg1nYtzMdgwTJH-NnuE1CjJoB9-hPsckTVKhpcPbXY3n7_QoH6oXUYv7hCixQzQkfGj3Vn0JDqj9cTVWJheayTT5DdG53MT13l7bXhevN3Sg6jw3SlLsllEBQ&pcurl=https://www.hotels.com/Hotel-Search?selected%3D20611%26startDate%3D2026-05-14%26endDate%3D2026-05-16%26mdpcid%3DHCOM-US.META.HPA.HOTEL-ORGANIC-desktop.HOTEL%26MDPDTL%3DHTL.20611.20260514.20260516.DDT.38.CID..AUDID.%26adults%3D2%26children%3D%26mctc%3D10%26mpf%3D3364.49%26mpg%3DUSD%26mpl%3DUSD%26mpj%3D580.31%26mpr%3D111.37%26rffrid%3Dsem.hcom.US.156.024.mapresults.02.desktop-2.kwrd%3DGGMETA.20611USen-20260514-D-ABW%3D38-camp%3D-aud%3D-N%26rateplanid%3D280035113%26mpm%3D24%26mpn%3D201307435%26mpo%3DEC%26mpp%3D1%26locale%3Den_US%26siteid%3D300000001&s=AD1XQnn0XyxQGUBE7wjrimLYAGhY",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.hotels.com/Hotel-Search?selected=20611&startDate=2026-05-14&endDate=2026-05-16&mdpcid=HCOM-US.META.HPA.HOTEL-ORGANIC-desktop.HOTEL&MDPDTL=HTL.20611.20260514.20260516.DDT.38.CID..AUDID.&adults=2&children=&mctc=10&mpf=3364.49&mpg=USD&mpl=USD&mpj=580.31&mpr=111.37&rffrid=sem.hcom.US.156.024.mapresults.02.desktop-2.kwrd=GGMETA.20611USen-20260514-D-ABW=38-camp=-aud=-N&rateplanid=280035113&mpm=24&mpn=201307435&mpo=EC&mpp=1&locale=en_US&siteid=300000001"
+        },
+        {
+          "title": "m\u00fcv AI",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszeZBW9moKO-KyzkQy9QlWWZPriqiWJGAq2CyOmsxTctN5f5kN_h2nOcaEuVpqSI1STcNc5u2kGrf6xaa6wP5CnBxOeRC851O4jA9Lo7lEvr_ndXHg2T7ITCer9hVaVNWUjktW6m6jErej94HenM9-OaqOFlVRQZerjn_24u-EiXQa-T96NvCtGKhjntw&pcurl=https://muvtravel.com/xp-hotel?hotelID%3D113915922%26checkinDay%3D14%26checkinMonth%3D05%26checkinYear%3D2026%26nights%3D2%26num-guests%3D2%26checkoutDay%3D16%26checkoutMonth%3D05%26checkoutYear%3D2026%26PROMO-CODE%3D98010&s=AD1XQnmmVblK38tcCPmg6kFUej48",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://muvtravel.com/xp-hotel?hotelID=113915922&checkinDay=14&checkinMonth=05&checkinYear=2026&nights=2&num-guests=2&checkoutDay=16&checkoutMonth=05&checkoutYear=2026&PROMO-CODE=98010"
+        },
+        {
+          "title": "Orbitz.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsxT-BLlBlwLXK_-mB0XFAaP3D7ZoEyFICSh0Zl5lufXjtBl0GydMCYf8KCJ7SQ2w5Ept6TXGYTlJrnCeWrYdVreazOi0vo3RtMGt-1nCruWXA5jHEQpiqOiD6A8a9UB0vHjwXmDjK5uc_KzIe4KO7qHIw-AJODlpGIJNt6SEabHdHrKMhjVzKmR_0iH-kc&pcurl=https://www.orbitz.com/Hotel-Search?selected%3D20611%26startDate%3D2026-05-14%26endDate%3D2026-05-16%26adults%3D2%26children%3D%26MDPCID%3DORBITZ-US.META.HPA.ORGANIC-desktop.HOTEL%26MDPDTL%3Dhtl.20611.20260514.20260516.DDT.38.CID..AUDID..mapresults%26mpg%3DUSD%26mpf%3D3364.49%26mpj%3D580.31%26mpr%3D111.37%26mctc%3D10%26rateplanid%3D280035113%26mpm%3D24%26mpn%3D201307435%26mpo%3DEC%26mpp%3D1&s=AD1XQnkvZ69LmIhneQsL9918iD-O",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.orbitz.com/Hotel-Search?selected=20611&startDate=2026-05-14&endDate=2026-05-16&adults=2&children=&MDPCID=ORBITZ-US.META.HPA.ORGANIC-desktop.HOTEL&MDPDTL=htl.20611.20260514.20260516.DDT.38.CID..AUDID..mapresults&mpg=USD&mpf=3364.49&mpj=580.31&mpr=111.37&mctc=10&rateplanid=280035113&mpm=24&mpn=201307435&mpo=EC&mpp=1"
+        },
+        {
+          "title": "eDreams",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OszeUH1FtiP8b3P8QTSFrPbPjNVIb8DrkC4rI2TmrRqigFE_93v5y2u5R_R56TepuRxNtD77uc34rvCoqO0XqM7YPbWiQcjRQuU4JVahoFOVbELoP7cD6zASOktLdGUScIp1JiXP_dLnWCdWUReRIjSDEzqlEm6CrS-X2lfsdAU7vD7RFGg3&pcurl=https://accommodation.edreams.net/Hotel-Search?selected%3D20611%26startDate%3D2026-05-14%26endDate%3D2026-05-16%26adults%3D2%26children%3D%26mpf%3D3364.49%26cur%3DUSD%26mpj%3D580.31%26wapb3%3D%7Cc.506950%7Cl.en_US%7Ct.meta%7Cs.ghs%26MDPCID%3DeDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL%26mpl%3DUSD%26numberOfRooms%3D1%26locale%3Den_US%26rffrid%3Dh4p.hcom.US.ghaodigeo.000.000.kwrd%3D%26pos%3DEDREAMS_US%26rateplanid%3D280035113%26mctc%3D10%26utm_medium%3Dmetasearch%26utm_campaign%3D124343%26utm_term%3Dhotel%26utm_source%3DFREEBOOKING&s=AD1XQnkHBHnbZ2nT3M5NTxNUcXD-",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://accommodation.edreams.net/Hotel-Search?selected=20611&startDate=2026-05-14&endDate=2026-05-16&adults=2&children=&mpf=3364.49&cur=USD&mpj=580.31&wapb3=|c.506950|l.en_US|t.meta|s.ghs&MDPCID=eDreams-US.DPS.Edreams.MetaSearch-GHA.HOTEL&mpl=USD&numberOfRooms=1&locale=en_US&rffrid=h4p.hcom.US.ghaodigeo.000.000.kwrd=&pos=EDREAMS_US&rateplanid=280035113&mctc=10&utm_medium=metasearch&utm_campaign=124343&utm_term=hotel&utm_source=FREEBOOKING"
+        },
+        {
+          "title": "Travelocity.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OsymwBhxHkGPhY98mL0COZPZ2tQpEKyTTgSYBFCVePcuAr_djiRu0H0aYnHh24lznkmjDuFeYZn-Ub7VKcJpS2SfpAStz49k1m9UIOKgNeS4_TKVqFi42zCLzeXtS70ChdqJnuFiUrLJvGSX-GBx0uxiigwWLEqZZU43Y8INJn6xMXaSD2B7l8b1LnMKjB5A&pcurl=https://www.travelocity.com/Hotel-Search?selected%3D20611%26startDate%3D2026-05-14%26endDate%3D2026-05-16%26adults%3D2%26children%3D%26MDPCID%3Dtravelocity-US.META.HPA.ORGANIC.HOTEL%26MDPDTL%3DHTL.20611.20260514.20260516.DDT.38.CID..AUDID..mapresults%26mpg%3DUSD%26mpf%3D3364.49%26mpj%3D580.31%26mpr%3D111.37%26mctc%3D10%26rateplanid%3D280035113%26mpm%3D24%26mpn%3D201307435%26mpo%3DEC%26mpp%3D1&s=AD1XQnmZM-7TUtKyKZ5_OcEok4xU",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.travelocity.com/Hotel-Search?selected=20611&startDate=2026-05-14&endDate=2026-05-16&adults=2&children=&MDPCID=travelocity-US.META.HPA.ORGANIC.HOTEL&MDPDTL=HTL.20611.20260514.20260516.DDT.38.CID..AUDID..mapresults&mpg=USD&mpf=3364.49&mpj=580.31&mpr=111.37&mctc=10&rateplanid=280035113&mpm=24&mpn=201307435&mpo=EC&mpp=1"
+        },
+        {
+          "title": "CheapTickets.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osxy6NV9lJjViNh5awXW8lYHqutyXiKLszmN6iKcxVHpxmcdlpp2zxmGkcLRNqZEiZJXcq-9u3a8pkjNzzHS7wcfoS9ELsuEuXE7Zc9fIabghMAodehE_hLaoynEEPmXkgUBGw5_VyjTw5CX0Frm0H_16DcSVgwc2QANgjtejZykePuriYP3Pbh59mH2_r_i0scKElQ&pcurl=https://www.cheaptickets.com/Hotel-Search?selected%3D20611%26startDate%3D2026-05-14%26endDate%3D2026-05-16%26MDPCID%3DCHEAPTICKETS-US.META.HPA.ORGANIC-desktop.HOTEL%26langid%3D1033%26adults%3D2%26children%3D%26MDPDTL%3Dhtl.20611.20260514.20260516.DDT.38.CID..AUDID..mapresults%26mpg%3DUSD%26mpf%3D3364.49%26mpj%3D580.31%26mpr%3D111.37%26mctc%3D10%26rateplanid%3D280035113%26rateplanid%3D280035113%26mpm%3D24%26mpn%3D201307435%26mpo%3DEC%26mpp%3D1&s=AD1XQnkCl_Gofj2IQb5FulSdrh9t",
+          "isOfficialSite": false,
+          "price": "$1,682",
+          "url": "https://www.cheaptickets.com/Hotel-Search?selected=20611&startDate=2026-05-14&endDate=2026-05-16&MDPCID=CHEAPTICKETS-US.META.HPA.ORGANIC-desktop.HOTEL&langid=1033&adults=2&children=&MDPDTL=htl.20611.20260514.20260516.DDT.38.CID..AUDID..mapresults&mpg=USD&mpf=3364.49&mpj=580.31&mpr=111.37&mctc=10&rateplanid=280035113&rateplanid=280035113&mpm=24&mpn=201307435&mpo=EC&mpp=1"
+        },
+        {
+          "title": "BusinessHotels.com",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80OswY4dUs8hAVz9fMiuu2BrwLPHfZxwcfsvuOL0Shmjv_5nA4iJN6_sg9BkUngc4WSPCrQ7d8y4cE0j5wp3PhxKepgBNVwcbIUs8vkfDneEe5MhJYNpSS_B5kzGC793ycKZK4vybq8rOtjR8cjAz3IajYA0Hntwim12gO8cLny_eHrEbLCZEhZ3M07Oflkdqo9nXc&pcurl=https://www.businesshotels.com/reservation.php?hotel-id%3D700014172%26checkin-date%3D2026-05-14%26checkout-date%3D2026-05-16%26language%3Den%26USER-CURRENCY%3DUSD%26USER-COUNTRY%3DUS%26NUM-ADULTS%3D2%26NUM-CHILDREN%3D0%26prid%3D&s=AD1XQnk02W7W24K1dF52nhbI9UlO",
+          "isOfficialSite": false,
+          "price": "$1,701",
+          "url": "https://www.businesshotels.com/reservation.php?hotel-id=700014172&checkin-date=2026-05-14&checkout-date=2026-05-16&language=en&USER-CURRENCY=USD&USER-COUNTRY=US&NUM-ADULTS=2&NUM-CHILDREN=0&prid="
+        },
+        {
+          "title": "Tripening Hotels",
+          "googleUrl": "https://www.google.com/travel/clk?pc=AA80Osx_Zw8LGoo0KVI9CEJkM2VltkqE6d-DqANpcsXQ5laEhzYe24Q7e0ye6stYA8ZhaLdojuu1KcCEgnrN87vJm-59QzYQJ58oEmnJhSiHF_1DNLBPqSIcumPCrljKo5yOEdUZBGDkr5i6TZPirXWChn5gni9RAZsDNQqzx_KzLu_AoHy_GRizRHs8h0Mc7w&pcurl=https://www.tripening.com/hotels/-/3911421-hilton-los-angeles-universal-city?checkin-date%3D2026-05-14%26checkout-date%3D2026-05-16%26adults%3D2%26currency%3DUSD%26lang%3Den%26google-package-id%3D%26rate-rule-id%3D%26google-displayed-price%3D3589.23%26children%3D0%26google-displayed-tax%3D349.52%26google-displayed-currency%3DUSD%26utm_source%3Dgoogle_hotel_ads%26utm_medium%3Dfree%26utm_campaign%3Dgha_property&s=AD1XQnk8WpUAv2PXDIaCWjcuRZmd",
+          "isOfficialSite": false,
+          "price": "$1,795",
+          "url": "https://www.tripening.com/hotels/-/3911421-hilton-los-angeles-universal-city?checkin-date=2026-05-14&checkout-date=2026-05-16&adults=2&currency=USD&lang=en&google-package-id=&rate-rule-id=&google-displayed-price=3589.23&children=0&google-displayed-tax=349.52&google-displayed-currency=USD&utm_source=google_hotel_ads&utm_medium=free&utm_campaign=gha_property"
+        }
+      ],
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Crowd": [
+          {
+            "LGBTQ+ friendly": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Hilton%20Los%20Angeles%2FUniversal%20City&query_place_id=ChIJpxDCnk6-woARzaOGEVKvwpg",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.1337127408475,-118.35265045,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 25,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqMMHnpHZXdP_SzIOy8C-Zwjw-cf_cE2oZnSNl0AMEOn4cwVf0JGAJe6z6jJZx6sudFICNJJHsfJjXDg1TyPFRJSMZBpMeRSm9XyeZb8xxzzejspdMcLhEy8sTxVbB2WMst8sxHJ-Sj57ZZ=w408-h255-k-no",
+      "kgmid": "/m/0m3kz_y"
+    },
+    {
+      "title": "Panda Express",
+      "description": "Fast-food chain for Chinese standards, including some health-conscious options.",
+      "price": "$",
+      "categoryName": "Chinese restaurant",
+      "address": "1000 Universal City Plaza V202, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal City Plaza V202",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.pandaexpress.com/locations/ca/universal-city/530?utm_source=google_gbp&utm_medium=organic&utm_campaign=websitelink",
+      "phone": "(818) 761-8689",
+      "phoneUnformatted": "+18187618689",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1362432,
+        "lng": -118.3519704
+      },
+      "totalScore": 3.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJf0cnbQe_woARImjuEQBG62M",
+      "categories": [
+        "Chinese restaurant",
+        "Asian restaurant",
+        "Caterer",
+        "Chinese noodle restaurant",
+        "Chinese takeaway",
+        "Delivery Chinese restaurant",
+        "Fast food restaurant",
+        "Takeout Restaurant",
+        "Restaurant",
+        "Wok restaurant"
+      ],
+      "fid": "0x80c2bf076d27477f:0x63eb460011ee6822",
+      "cid": "7199925395396651042",
+      "reviewsCount": 165,
+      "reviewsDistribution": {
+        "oneStar": 56,
+        "twoStar": 10,
+        "threeStar": 19,
+        "fourStar": 17,
+        "fiveStar": 63
+      },
+      "imagesCount": 222,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:13:43.297Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Panda%20Express&query_place_id=ChIJf0cnbQe_woARImjuEQBG62M",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.1337127408475,-118.35265045,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 26,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCI58NcpmrwIhZtoHJqZ6tzgPllQ2EeKAJfpT5tPQHo3XPywpq2dOLzIe-kXjLTPQcdeCxa93FVOD-4MOVGhEFxcai-1_3HlYEvXg41REYiWLYHxVpNwizPHsOdJF4PBA-s7DP=w408-h408-k-no",
+      "kgmid": "/g/1ths9mhz"
+    }
+  ]
+}

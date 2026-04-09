@@ -55,6 +55,23 @@ python execution/prose_classifier.py scan deliverables/  # Batch scan
 **Revenue Tracker** (`.agent/revenue-outcomes.json`): Connects quality scores to business outcomes. Pipeline command shows what needs tracking.
 **Prose Classifier**: Integrated into `chain_runner.py` — warns if Expert Standard may be inflated due to AI-prose patterns.
 
+### Knowledge Compiler (Added 2026-04-06)
+
+```bash
+python execution/knowledge_compiler.py stats             # Quick overview
+python execution/knowledge_compiler.py full              # Full compilation (all stages)
+python execution/knowledge_compiler.py briefing          # Session-start briefing
+python execution/knowledge_compiler.py inventory         # Full manifest
+python execution/knowledge_compiler.py stale             # Stale content (>30d)
+python execution/knowledge_compiler.py overlap           # Overlapping files
+```
+
+**Knowledge Compiler** (`execution/knowledge_compiler.py`): Karpathy-inspired self-healing knowledge base. Scans `knowledge/`, `extractions/`, `research_outputs/` (217 files, 1.7M words). Generates manifest, session briefing, stale/overlap reports in `knowledge/compiled/`. Run monthly or after extraction sessions. Workflow: `/compile-knowledge`.
+
+### Evolution Direction (Added 2026-04-06)
+
+**Evolution Direction** (`directives/evolution-direction.md`): Karpathy's `program.md` analog — single source of truth for what to evolve, current priorities, constraints, stopping criteria. Read before every `/skill-evolution` run. Updated after every evolution cycle.
+
 ---
 
 ## Directory Conventions
@@ -241,5 +258,6 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 |----------|-----------|------|
 | Perplexity | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json` |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
+| Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.

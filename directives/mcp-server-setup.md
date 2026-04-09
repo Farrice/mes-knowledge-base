@@ -11,6 +11,7 @@ Quick-start guide for Google Workspace, Notion, and SQLite MCP servers for your 
 | **Google Workspace** (`gws`) | Read/write Drive, Docs, Sheets, Gmail, Calendar, Chat, 50+ services | Free (OAuth) |
 | **Notion** | Read/write Notion pages/databases | Free (API key) |
 | **Perplexity** (`perplexity-ask`) | Deep research, web search, reasoning via Sonar models | $30/mo budget |
+| **Apify** (`apify`) | Scraping, social listening, structured data (Reddit, IG, TikTok, YouTube, Amazon, Maps, web) | $29/mo Starter plan |
 | **SQLite** | Query local SQLite databases | Free |
 
 ---
@@ -155,7 +156,83 @@ If MCP tools unavailable, use `execution/perplexity_client.py` (Python client wi
 
 ---
 
-## 4. SQLite MCP
+## 4. Apify MCP (`apify`)
+
+Apify provides web scraping and social listening for sites generic web search can't reach (Reddit, Instagram, TikTok, YouTube, Amazon, Google Maps, JS-rendered pages).
+
+### Step 1: Get API Token
+
+1. Go to [Apify Console](https://console.apify.com/account/integrations)
+2. Copy your personal API token (starts with `apify_api_`)
+
+### Step 2: Add to .env
+
+```
+APIFY_TOKEN=apify_api_xxxxxxxxxxxxxxxxxxxx
+```
+
+### Step 3: Register MCP Server (Curated Tool List)
+
+```bash
+set -a; source .env; set +a
+claude mcp add apify -s project --env APIFY_TOKEN="$APIFY_TOKEN" -- \
+  npx -y @apify/actors-mcp-server \
+  --tools apify/rag-web-browser,trudax/reddit-scraper-lite,apify/instagram-scraper,clockworks/free-tiktok-scraper,apidojo/youtube-scraper,junglee/amazon-scraper,compass/crawler-google-places
+```
+
+This installs only the 7 curated actors. **No expensive enterprise actors are loaded** — even if Claude tries to call something else, the MCP server doesn't have it.
+
+### The 7 Curated Actors
+
+| Actor | Purpose | Cost class |
+|---|---|---|
+| `apify/rag-web-browser` | JS-rendered page fetch | Cheap |
+| `trudax/reddit-scraper-lite` | Reddit posts/comments | Cheap |
+| `apify/instagram-scraper` | IG profiles, posts | Cheap |
+| `clockworks/free-tiktok-scraper` | TikTok hashtags | Medium |
+| `apidojo/youtube-scraper` | YouTube + transcripts | Medium |
+| `junglee/amazon-scraper` | Amazon products/reviews | Cheap-Medium |
+| `compass/crawler-google-places` | Google Maps places | Medium |
+
+### Python Wrapper (for Gemini + workflows)
+
+Gemini Antigravity does NOT support MCP. For Gemini and any non-MCP workflow, use the Python wrapper:
+
+```bash
+python execution/apify_client.py budget-status
+python execution/apify_client.py reddit "first time home buyer" --limit 50 --comments
+python execution/apify_client.py instagram realestatewithjing --limit 20
+python execution/apify_client.py youtube "pilates day in life" --limit 5 --transcript
+# (full CLI: reddit, instagram, tiktok, youtube, amazon, maps, web, budget-status, budget-reset)
+```
+
+The wrapper:
+- Reads `APIFY_TOKEN` from `.env` automatically
+- Enforces a hard 90% cap against the $29/mo Starter plan
+- Returns `{"fallback": true}` instead of raising on cap exhaustion (workflows degrade, never break)
+- Logs every call to `.agent/apify-usage.json`
+- Auto-resets on calendar month change
+
+### Fallback Contract (CRITICAL)
+
+If an Apify call returns `{"fallback": true}`, **the workflow must reroute** to:
+1. Perplexity (`perplexity_client.py`)
+2. Tavily search
+3. Generic `read_url_content`
+
+This is what makes Apify safe at the budget edge. Full policy: `directives/apify-usage-policy.md`.
+
+### Python Dependencies
+
+The wrapper uses `requests` and `python-dotenv`, both already installed for other execution scripts. No new pip installs needed.
+
+### Security Note
+
+`.mcp.json` contains the literal `APIFY_TOKEN` value because `claude mcp add --env` stores it inline. **`.mcp.json` is gitignored** to prevent token leakage. Each developer registers their own MCP server locally.
+
+---
+
+## 5. SQLite MCP
 
 ### Step 1: Add to MCP Config
 

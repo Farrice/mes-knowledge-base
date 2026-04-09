@@ -15,11 +15,23 @@ description: Seena Rez "Early Adopter" Innovation Strategy
 
 ## Phase 2: The "Day in the Life" Extraction
 **Agent Action**:
-1. Search YouTube for: `"[Niche] day in the life"`, `"[Niche] morning routine"`, `"[Niche] vlog"`.
-2. Select top 3 videos from *micro-influencers* (10k-100k subs) - NOT mega celebs.
-3. Extract Transcripts.
-4. **Analyze** (LLM Call):
-   - Prompt: "Identify products mentioned that are being used daily but called by generic names (e.g., 'grippy socks' not 'BrandX'). Look for pain points like 'I wish I had' or 'I finally found'."
+
+1. **Pull YouTube videos + transcripts via Apify** (PRIMARY — replaces manual transcript extraction):
+
+   ```bash
+   python execution/apify_client.py youtube "[Niche] day in the life" --limit 5 --transcript
+   python execution/apify_client.py youtube "[Niche] morning routine" --limit 5 --transcript
+   python execution/apify_client.py youtube "[Niche] vlog" --limit 5 --transcript
+   ```
+
+   The actor returns video metadata (channel name, sub count, view count) AND the transcript in a single call. Filter for **micro-influencers (10k-100k subs)** — NOT mega celebs.
+
+   **Fallback Contract**: If response contains `{"fallback": true}`, Apify cap is hit. Reroute to:
+   - Manual YouTube search via web interface
+   - OR `perplexity_ask`: "Find 5 day-in-the-life vlogs from micro-influencers (10k-100k subs) in [Niche]. List video URLs, channel names, and key product mentions."
+
+2. **Analyze the transcripts** (LLM call on the data Apify returned):
+   - Prompt: "Identify products mentioned that are being used daily but called by generic names (e.g., 'grippy socks' not 'BrandX'). Look for pain points like 'I wish I had' or 'I finally found'. Cross-reference across all 15 transcripts to find recurring generic-product mentions — those are your supply-demand gap signals."
 
 ## Phase 3: Identity & Aesthetics Match
 **Agent Action**:

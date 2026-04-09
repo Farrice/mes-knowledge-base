@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "web",
+  "result_count": 1,
+  "cost_dollars": 0.003,
+  "spent_total": 0.1625,
+  "remaining_dollars": 28.8375,
+  "items": [
+    {
+      "crawl": {
+        "httpStatusCode": 200,
+        "httpStatusMessage": "OK",
+        "loadedAt": "2026-04-07T05:14:06.353Z",
+        "uniqueKey": "9DSKsqTGkK",
+        "requestStatus": "handled"
+      },
+      "metadata": {
+        "title": "Yakiya - Hacienda Heights Japanese Steakhouse Menu",
+        "languageCode": "en",
+        "url": "https://www.yakiya-us.com/menu-beef-course-1.php",
+        "redirectedUrl": "https://www.yakiya-us.com/menu/hacienda-heights-japanese-steakhouse-menu#beverage"
+      },
+      "query": "https://www.yakiya-us.com/menu-beef-course-1.php",
+      "markdown": "Yakiya - Hacienda Heights Japanese Steakhouse Menu"
+    }
+  ]
+}

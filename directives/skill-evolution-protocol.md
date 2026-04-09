@@ -4,7 +4,8 @@
 > **Inspired by**: Karpathy's autoresearch — the agent modifying train.py and keeping winning changes.
 > **Purpose**: Systematically improve skill workflows through variant testing, not random edits.
 > **Extends**: Feedback Ratchet (Phase 1) — uses its data to drive improvement.
-> **Effective**: 2026-03-10
+> **Direction**: Read `directives/evolution-direction.md` before every evolution run.
+> **Effective**: 2026-03-10 | **Updated**: 2026-04-06 (Karpathy speed principles)
 
 ---
 
@@ -81,24 +82,45 @@ The variant MUST:
 - Modify only the targeted aspect (process steps, inline patterns, quality gate criteria)
 - Document what changed at the top of the file
 
-### Step 5: Test Variant
+### Step 5: Test Variant (Time-Boxed)
 
-Run the variant against all 3 benchmark tasks for the skill's domain:
+Run the variant against all 3 benchmark tasks for the skill's domain.
 
-1. Execute the **current** workflow against each benchmark task
-2. Execute the **variant** workflow against the same benchmark tasks
+**Time limit: 10 minutes per benchmark task.** If a task isn't producing output within 10 minutes, the approach is wrong — score it as-is. This constraint (inspired by Karpathy's 5-minute training runs) prevents over-deliberation and forces decisive evaluation.
+
+1. Execute the **current** workflow against each benchmark task (10 min max each)
+2. Execute the **variant** workflow against the same benchmark tasks (10 min max each)
 3. Score both outputs using the Quality Gate (`directives/quality_gate.md`)
 4. Compare scores across all 3 dimensions
 
 **Scoring must be blind** — score the current version first, then the variant, without comparing during scoring.
 
-### Step 6: Decide
+### Step 6: Decide (Binary — No "Marginal")
 
 | Result | Action |
 |--------|--------|
-| Variant wins by 1+ avg | **KEEP**: Replace current workflow with variant |
-| Variant ties (< 0.5 diff) | **DISCARD**: Not enough improvement to justify change |
-| Variant loses | **DISCARD**: Current version is better |
+| Variant composite >= 7 AND wins by 1+ avg | **KEEP**: Replace current workflow with variant |
+| Variant composite < 7 OR ties/loses | **DISCARD**: Not enough improvement |
+
+**No retries during evolution runs.** The "marginal" zone (5-6) that exists in the Quality Gate for normal output does NOT apply during evolution testing. Karpathy's key insight: ambiguity in the decision step kills loop velocity. >= 7 = KEEP, < 7 = DISCARD. Period.
+
+### Step 6b: Git-Commit (If KEPT)
+
+Every KEPT variant gets a structured git commit immediately:
+
+```bash
+git add skills/[skill-name]/workflows/[workflow-name].md
+git add skills/[skill-name]/genius.md  # Evolution Log entry
+git commit -m "evolution: [skill-name] — [hypothesis-summary]
+
+Result: KEPT — Score improved from [X] to [Y] (+[delta])
+Hypothesis: [what was tested]
+Target: [workflow or dimension]
+
+Co-Authored-By: Claude <noreply@anthropic.com>"
+```
+
+This creates an auditable evolution history in git (Karpathy's most underrated practice — every successful experiment is a commit).
 
 ### Step 7: Log the Result
 
@@ -170,7 +192,9 @@ Add this section to any `genius.md` that has been through evolution:
 3. **Always keep the variant file** until testing is complete — don't overwrite the current workflow before scoring
 4. **Log every attempt** — even failures are data
 5. **Human approval required** for workflow replacements — present the comparison, wait for confirmation
-6. **Rollback plan**: Git history preserves every previous workflow version
+6. **Rollback plan**: Git history preserves every previous workflow version (every KEPT variant is committed)
+7. **Read `directives/evolution-direction.md` before starting** — check priorities, constraints, stopping criteria
+8. **Update `directives/evolution-direction.md` after finishing** — log result in Evolution History table, update system status
 
 ---
 
@@ -198,6 +222,16 @@ When `check_regression()` returns `is_regression: True`:
 
 ---
 
+## Stopping Criteria
+
+Pause evolution and reassess when:
+- **3 consecutive DISCARD results** on the same skill (hypothesis space may be exhausted)
+- **A KEPT variant causes downstream regression** in a different skill
+- **Quality scores diverge >2 points** from Ground Truth blind comparison results
+- **Revenue Tracker shows lower outcomes** for KEPT variants vs originals
+
+---
+
 ## Usage Tracking
 
 | Field | Value |
@@ -205,10 +239,12 @@ When `check_regression()` returns `is_regression: True`:
 | **Last Activated** | *Not yet activated* |
 | **Activation Count** | 0 |
 | **30-Day Review Date** | 2026-04-09 |
+| **Phase 1 Entries (threshold: 20)** | 76 (THRESHOLD MET) |
 
-**Update Rule**: When this protocol fires (evolution cycle completed), update the date and increment count.
+**Update Rule**: When this protocol fires (evolution cycle completed), update the date and increment count. Also update `directives/evolution-direction.md` Evolution History table.
 
 ---
 
 *Created: 2026-03-10 | Phase 2 of Autoresearch Integration*
-*Depends on: Phase 1 (Feedback Ratchet) — needs performance data to operate*
+*Updated: 2026-04-06 | Added Karpathy speed principles: time-boxing, binary keep/discard, git commits, evolution direction document*
+*Depends on: Phase 1 (Feedback Ratchet) — needs performance data to operate (THRESHOLD MET)*

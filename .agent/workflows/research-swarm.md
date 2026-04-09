@@ -119,12 +119,26 @@ You are an audience intelligence researcher specializing in consumer posture ana
 
 **Instructions**:
 1. Read `skills/dai-media-consumer-posture/SKILL.md` for consumer posture framework
-2. Use `search_web` (5-7 calls) to find audience discussions:
-   - Reddit threads, forum posts, review sites, social media discussions
-   - Search for "[topic] frustrations reddit", "[topic] reviews", "[topic] community"
-3. Use `read_url_content` (3-5 calls) to read the most revealing audience discussions
+2. **Apify-First Audience Extraction** (raw structured data > parsed SERPs):
+   ```bash
+   # Reddit deep dive — broad and targeted
+   python execution/apify_client.py reddit "[topic]" --limit 50 --comments
+   python execution/apify_client.py reddit --subreddit [SubredditName] --limit 30 --comments
+
+   # Optional: IG profile audit if there's a known category figurehead
+   python execution/apify_client.py instagram [handle] --limit 20
+
+   # Optional: Amazon review mining if there's an adjacent product
+   python execution/apify_client.py amazon "[adjacent product]" --limit 30
+   ```
+3. **Fallback Contract**: If any Apify call returns `{"fallback": true}` (monthly cap hit), reroute to:
+   - `search_web` (5-7 calls): "[topic] frustrations reddit", "[topic] reviews", "[topic] community"
+   - `read_url_content` (3-5 calls) on most revealing results
+   - OR `perplexity_ask` for citation-backed audience research
 4. Extract direct quotes -- the actual language real people use
 5. Build the posture profile: what do they believe, fear, desire, resist?
+
+**Architectural rule**: Apify gathers raw voices, the LLM synthesizes the posture profile. Don't ask Apify to interpret — only to extract.
 
 **Output format**:
 ## Target Audience Profile: [topic]
@@ -289,16 +303,18 @@ Present to user with suggested next moves:
 ## Limits
 
 - **3 agents always** -- this is a breadth scan, not a depth drill
-- Each external research agent gets 5-7 `search_web` + 3-5 `read_url_content` calls
-- System Scanner uses only local file search (no API calls)
+- Agent 1 (Market Scanner): 3-5 Perplexity + 5-7 `search_web` + 3-5 `read_url_content` calls
+- Agent 2 (Audience Scanner): Apify-first (2-4 actor calls) with `search_web` + Perplexity fallback
+- Agent 3 (System Scanner): Local file search only, no API calls
 - Total scan time: 2-5 minutes depending on topic complexity
 - For deeper research on any single angle, follow up with `/deep-research` or `/research-sprint`
 
 ## Cost
 
-- Agent 1 + Agent 2: Perplexity budget (3-5 queries each, check `.agent/perplexity-usage.json`) + free search_web calls
+- Agent 1: Perplexity budget (3-5 queries, check `.agent/perplexity-usage.json`) + free `search_web`
+- Agent 2: Apify budget (~$0.05-0.15 per swarm, check `.agent/apify-usage.json`) — falls back to `search_web` + Perplexity if cap hit
 - Agent 3: Zero cost (local file search only)
-- Total: ~$0.10-0.30 depending on Perplexity usage
+- Total: ~$0.15-0.45 depending on Perplexity + Apify usage
 
 ---
 
