@@ -152,6 +152,7 @@
 | 2026-04-09 | kieran-flanagan-content-ops | Add Constraint Pulse Diagnostics (Phase 0) to Content Orchestrate — bottleneck-aware orchestration | KEPT | 5.3→8.3 (+3.0) | 5-dimension constraint scan (Talking Point Depletion, Structural Monotony, Tonal Flatline, Proof Poverty, Approval Bottleneck) + Constraint Routing Rule + Constraint Shift Detection log. Goldratt applied to content ops. Baseline had no answer for "what breaks at scale?" Variant diagnoses ONE constraint per session, routes effort there first. Adversarial +4. First content-ops skill evolved. |
 
 | 2026-04-09 | lance-yichao-context-engineering | Add Context Sufficiency Diagnosis (Phase 0) to Context Management & Efficiency Engine | KEPT | 5.3→8.3 (+3.0) | Output Reverse-Engineering, Gap Prediction Matrix (HALT/FLAG severity), 4-type Context Classification (Generative/Constraining/Navigational/Ambient), Self-Correcting Signals (confidence markers, diagnostic prompts, degradation signatures). Fills gap between "will context fit?" and "will context WORK?" First context-engineering skill evolved. Intent +3, Adversarial +4. |
+| 2026-04-09 | luke-iha-insight-vectors | Add Purchase Belief Isolation (Phase 3.5) to Insight Vector Generator — E/D/A classification, keystone belief ID, activation bridge | KEPT | 6.7→8.3 (+1.6) | Classifies vectors as Educator/Destabilizer/Activator. Keystone identification via dependency + collapse + specificity tests. One-step bridge sentence for Activators. Benchmark: 5 vectors generated, only 1 was Activator — baseline could not distinguish. Intent +2, Adversarial +2. First insight-vectors skill evolved. |
 
 ---
 
@@ -170,7 +171,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 59 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 60 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
