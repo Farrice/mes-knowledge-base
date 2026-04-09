@@ -54,6 +54,12 @@ You can nail Rules 1-4 (one person one promise, clear in one line, fast win, asy
 ### The Compounding Trust Stack
 When a customer experiences all 4 types — clarifier (reveals their gap), sampler (proves you can help), starter (gives momentum), shortcut (saves their time) — they stop asking "should I buy?" and start asking "what can I buy?" This psychological shift only happens when lead magnets are deployed as a *system* rather than isolated tactics.
 
+### Buyer Identity Crystallization (Evolution: 2026-04-09)
+The highest-converting lead magnets don't just diagnose a problem — they force the consumer to declare *which type of person they are*. Design diagnostic moments where the user must categorize themselves: "I'm the kind of person who fixes this" vs. "I'm the kind of person who collects information about this." This self-declaration is the pre-qualification mechanism. Once someone has told *themselves* they are the type who acts, the paid offer stops being a purchase decision and becomes identity-consistent behavior. Structure: embed 2-3 "fork" moments in the lead magnet where the user's choice reveals their buyer readiness — not to you (for segmentation), but to *them* (for self-persuasion). The lead magnet becomes a mirror that reflects back either "you're ready" or "you're not there yet" — and the people who see "you're ready" experience the paid offer as the obvious next move because declining it would contradict the identity they just claimed.
+
+**Deploy when**: Designing any diagnostic/clarifier lead magnet. Layer this on top of Rule 5 — Rule 5 creates the problem, Identity Crystallization creates the self-identified solver.
+**Critical distinction**: This is NOT segmentation (sorting people into buckets for YOUR benefit). This is self-persuasion architecture — the user sorts THEMSELVES and experiences the result as their own conclusion, not your manipulation.
+
 ---
 
 ## Expert Heuristics
