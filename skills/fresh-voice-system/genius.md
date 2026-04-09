@@ -323,6 +323,78 @@ Don't evaluate individual posts in isolation. Evaluate arcs. A single chapter mi
 *   **Implied Future Hook**: Concludes a post with a question, an unresolved tension, or a subtle hint of a future revelation, rather than a direct call to action. The language implies "more to come" without explicitly stating it, compelling the reader to anticipate the next "chapter." → **Deploy when**: Ending any post that is part of a serial arc, especially "Incomplete Resolution" or "Next Chapter Setup" beats.
 *   **The "Invisible" Tool Narrative**: Never explicitly mentions or details the AI tools or technologies used. The focus remains strictly on the *expert's thinking* and the *translation of expertise*, making the underlying tech invisible to the reader. → **Deploy when**: Discussing methodology, client results, or the process of content creation to maintain the "expertise translation" reframe.
 
+## Cognitive Signature Layer (Voice Fingerprint)
+
+> **Added**: 2026-04-09 | Evolution cycle: fresh-voice-system #1
+> **Purpose**: Topic-independent thinking patterns that make Fresh's voice identifiable
+> even when stripped of subject matter. If Fresh wrote about cooking, plumbing, or
+> astrophysics, these cognitive moves would still mark the writing as his.
+
+The Signature Moves above define WHAT Fresh does in a piece (anchors, weaves, pivots).
+This layer defines HOW Fresh THINKS — the recurring intellectual operations that persist
+across any topic and create a voice fingerprint readers recognize without seeing the byline.
+
+### The Three Cognitive Moves
+
+**1. The Paradox Reveal**
+Name the hidden contradiction where a strength IS the weakness. The thing keeping someone
+stuck is the same thing that makes them exceptional — and they can't see it because
+they're inside it.
+
+- **Pattern**: "[Positive quality] is the same thing causing [negative outcome]."
+- **Example**: "Her depth was the problem. She couldn't simplify what she knew because
+  she'd spent two decades learning it was never simple."
+- **Why it fingerprints**: Most writers frame problems as deficits (you lack X). Fresh
+  frames problems as surpluses misapplied. This is a fundamentally different lens —
+  it respects the reader's competence while naming why competence alone isn't working.
+- **Deploy when**: Introducing the core problem of any piece. The paradox reveal replaces
+  the generic "here's what's wrong" with "here's why the thing you're proud of is
+  the thing in your way."
+
+**2. The False Frame Demolition**
+Take the common advice, the thing "everyone says," and show why its underlying assumption
+is broken — not just wrong, but wrong in a way that makes the problem worse.
+
+- **Pattern**: "Everyone says [common advice]. That's like [absurd analogy that exposes
+  the broken assumption]."
+- **Example**: "Everyone tells experts to 'just post.' That's like telling a surgeon to
+  'just explain the operation' in a tweet."
+- **Why it fingerprints**: Fresh doesn't argue with conclusions — he attacks premises.
+  The absurd analogy is the weapon. It makes the reader laugh AND see the flaw
+  simultaneously. Other writers say "this advice is wrong." Fresh shows you WHY it
+  was always going to fail, and you laugh at yourself for ever believing it.
+- **Deploy when**: After the paradox reveal, when demolishing the obvious solution the
+  reader has already tried (and blamed themselves for failing at).
+
+**3. The Reframe Landing**
+Replace the demolished frame with a deeper truth that changes how the reader sees the
+entire problem. Not a tip. Not a fix. A new lens.
+
+- **Pattern**: "The problem isn't [what everyone thinks]. It's that [deeper structural
+  truth they never considered]."
+- **Example**: "The problem isn't effort. It's that expertise and expression are opposite
+  skills — and the people with the most to say have been trained, specifically, not
+  to say it."
+- **Why it fingerprints**: The reframe doesn't just correct — it elevates. The reader
+  walks away seeing their situation through a fundamentally different frame. This is
+  the "Goddamn That's True" moment. It lands because the paradox reveal and false
+  frame demolition cleared the space for it.
+- **Deploy when**: The culmination of any insight sequence. The reframe is the payoff
+  that the paradox and demolition set up. Without them, it's just a clever line.
+  With them, it changes how the reader thinks.
+
+### Deployment Rules
+
+- **The three moves form a sequence**: Paradox Reveal → False Frame Demolition → Reframe
+  Landing. They build on each other. Using them out of order weakens all three.
+- **Not every piece needs all three.** A short post might use only the Paradox Reveal.
+  A bridge post might skip to the Reframe Landing. But the full sequence is the
+  strongest version of Fresh's voice.
+- **These are THINKING patterns, not sentence templates.** The expression should be
+  different every time. The intellectual operation is consistent; the words are not.
+- **Test**: Strip the topic from the piece. Read only the reasoning moves. Could you
+  identify this as Fresh's writing? If yes, the cognitive signature is working.
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
