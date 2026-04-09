@@ -198,6 +198,20 @@ A talented writer consistently charges $75/hour for blog posts and website copy.
 *   **The Door-Opener Design**: Strategically crafts initial small, high-impact projects that are designed to demonstrate clear, measurable ROI and naturally reveal larger, systemic problems the writer can then solve. These are often positioned as audits or focused optimizations. → **Deploy when**: Onboarding a new client or trying to expand an existing relationship beyond a single deliverable.
 *   **The Message Mining Deep Dive**: Before writing a single word, actively seeks out and synthesizes verbatim customer language from sales calls, customer reviews, support tickets, and direct interviews. This raw customer voice forms the bedrock of all subsequent messaging. → **Deploy when**: Starting any new copywriting or content strategy project, especially for high-value assets.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Revenue-Stage Diagnostic (Phase 0) Added to Career Positioning Engine
+- **Hypothesis**: Adding a Phase 0 Revenue-Stage Diagnostic that classifies writers into 5 revenue stages ($0→$15K+), identifies ONE bottleneck per stage, and gates against premature diversification will make career roadmaps more precisely actionable.
+- **Result**: KEPT — Score improved from 6.0 to 8.3 (+2.3)
+- **Change**: Added 5-stage revenue classification (Pre-Revenue, Survival, Foundation, Leverage, Scale), stage-specific bottleneck diagnosis, premature diversification warnings, graduation metrics, and stage-calibrated consultant framing/pricing/differentiation throughout all workflow steps. 4 new quality gate checks.
+- **Benchmark scores**: Baseline [6, 7, 5] → Variant [9, 8, 8] (Intent +3, Expert +1, Adversarial +3)
+- **Lesson**: The skill's genius patterns were strong but the workflow deployed them generically. Revenue-stage gating operationalizes Joanna's Financial Foundation Strategy (Pattern 10) from a philosophical principle into a diagnostic tool. Biggest gain was adversarial resilience — "what do I do first?" is now always answered.
+
+---
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
