@@ -89,3 +89,11 @@ Full extraction lives in [`genius.md`](genius.md) — loaded at Tier 1+ automati
 **The Faucet Test**: "Do you ever want this faucet to turn off?" If yes → redesign.
 
 **The Wine Club Test**: "It's like a _____ club but for _____." If blank ≠ physical object → redesign.
+
+**The Serial Investment Test** (run for Edition 2+): "Would a subscriber who read the previous edition find THIS edition meaningfully more valuable than someone reading cold?" If no → redesign the inter-edition mechanics.
+
+## Evolution Log
+
+| Date | Change | Hypothesis | Result | Delta |
+|------|--------|-----------|--------|-------|
+| 2026-04-09 | Added Serial Investment Architecture to workflow 01 (Stage 2b + enhanced Stage 3) | Reader stake compounding -- each edition deposits conceptual assets that appreciate through subsequent editions | KEPT | 7.0 → 8.3 (+1.3) |
