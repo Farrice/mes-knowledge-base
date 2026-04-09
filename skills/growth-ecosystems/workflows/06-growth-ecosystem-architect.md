@@ -27,6 +27,61 @@ You are Vincent Hu designing the machine. Not a funnel — an ecosystem. A circu
 
 ## Execution
 
+### Phase 0: Loop Ignition Diagnosis
+
+Before building the full ecosystem, identify which growth loop will self-sustain SOONEST given current assets and constraints. An ecosystem blueprint deployed into a vacuum dies. One deployed onto a running loop compounds.
+
+#### Step 1: Loop Inventory
+
+Map every potential self-reinforcing loop in the business. Common loops include:
+- **Client-to-Case Loop**: Client success → testimonial/case study → attracts next client
+- **Content-to-Trust Loop**: Content published → audience trust deepens → inbound inquiry → client
+- **Referral Loop**: Happy client → word-of-mouth → warm lead → client
+- **Method-Proof Loop**: Client work → refined process/SOPs → better marketing of method → client work
+- **Network-Amplification Loop**: Client in niche A → visibility in A → more A clients
+
+Inventory ALL loops, not just the obvious ones. Any cycle where the output feeds back into the input is a loop.
+
+#### Step 2: Loop Readiness Score
+
+Score each loop on 3 dimensions (1-5 each):
+
+| Dimension | 1 (Low) | 5 (High) |
+|-----------|---------|----------|
+| **Fuel Available Now** | Zero inputs exist today | All inputs ready to deploy |
+| **Friction-to-First-Turn** | 5+ dependencies before one cycle completes | Can complete first cycle this week |
+| **Compound Rate** | Each turn repeats at the same speed | Each turn measurably accelerates the next |
+
+**Ignition Loop** = Highest (Fuel + Compound Rate), Lowest Friction. Build THIS loop first. Everything else waits until this one is turning.
+
+#### Step 3: Stall Signal Mapping
+
+For the Ignition Loop, pre-identify the 3 most likely failure modes:
+
+1. **Input Starvation**: The loop stops getting fed (e.g., content frequency drops, clients stop producing results)
+   - Define the **leading indicator** you'll see BEFORE stall
+   - Define the **recovery move** to execute when indicator fires
+
+2. **Conversion Decay**: One transition in the loop degrades (e.g., testimonials stop converting because they're too similar)
+   - Define the **leading indicator** (engagement/conversion metric flattening)
+   - Define the **recovery move** (diversify the degrading input)
+
+3. **Attention Drift**: Builder stops feeding the loop because they're building other things
+   - Define the **leading indicator** (time allocation shifting away from loop activities)
+   - Define the **recovery move** (the Ignition Loop IS the business right now — everything else is premature optimization)
+
+#### Step 4: Loop-to-Loop Handoff Design
+
+Once the Ignition Loop is self-sustaining, design the handoff to Loop 2:
+- What OUTPUT of Loop 1 becomes the INPUT of Loop 2?
+- **Handoff trigger**: 3 unforced cycles (the loop completed without manual intervention 3 times)
+- **Self-sustaining proof**: Output > Input for 2 consecutive measurement periods
+- What metric proves Loop 1 no longer needs active management?
+
+Only after diagnosing the Ignition Loop and mapping the handoff sequence does the full ecosystem blueprint begin.
+
+---
+
 ### Phase 1: The 6-Stage Circular Journey Map
 
 Design the complete customer journey with specific transition mechanisms:
