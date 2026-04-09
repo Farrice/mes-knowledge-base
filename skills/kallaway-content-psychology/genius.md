@@ -863,6 +863,12 @@ When using these patterns:
 *   **Conversion Outlier Deconstruction**: When seeking new content ideas or optimizing underperforming content, Kallaway immediately filters for "conversion outliers" (high lead-to-view ratio, not just high views) in the target niche and extracts their 11 "Lego Bricks" for remixing. → **Deploy when**: Starting a new content campaign or diagnosing low-conversion content.
 *   **Grayscale Visual Pre-flight**: Before finalizing a visual hook (thumbnail, first frame), Kallaway converts it to grayscale to ensure it still commands attention and curiosity purely through contrast, composition, and implied motion, before color is added. → **Deploy when**: Approving any visual asset designed to capture initial attention.
 
+## Evolution Log
+
+| Date | Hypothesis | Result | Score Delta | Notes |
+|------|-----------|--------|-------------|-------|
+| 2026-04-09 | Add Resonance Prediction & Signal Feedback layer (Phase 2.5) to Strategic Market Architecture | KEPT | 7.3→8.7 (+1.4) | 5-indicator resonance scoring (Conversation Velocity, Emotional Polarity, Solution Vacuum, Identity Proximity, Timing Tension), falsifiable prediction statements, post-publish signal reading protocol (save-to-like, comment specificity, DM velocity, negative signals), pre-defined adaptation triggers. Turns static strategy into self-correcting system. Adversarial +2. |
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.

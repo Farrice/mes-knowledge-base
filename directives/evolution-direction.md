@@ -89,6 +89,9 @@
 | 2026-04-09 | erica-mallet-brand-magnetism | Add Magnetism Pulse Diagnostics to Brand Magnetism Bible | KEPT | 7.0→8.3 (+1.3) | Phase 6: Leading indicators (language matching, unsolicited forwarding, identity declaration), 5 decay signals, monthly pulse check, corrective actions. Closes "how do you know it's working?" gap. Adversarial +2. |
 | 2026-04-09 | monk-ai-offer-architecture | Add Decision Architecture Layer to Offer Ecosystem Design | KEPT | 7.0→8.3 (+1.3) | 3 DA mechanics (Asymmetric Dominance Positioning, Pre-Regret Inoculation, Rational Self-Evidence Engineering). Buyers construct their own logical argument for the target tier. Adversarial +2. |
 | 2026-04-09 | dan-koe-multipassionate-mastery | Add Convergence Inevitability Architecture to Personal Monopoly Foundation | KEPT | 6.0→8.3 (+2.3) | Phase 2.5: Dependency Mapping, Removal Test, Origin Story Convergence, Audience Translation Formula. Transforms "I have many interests" from declaration to structural proof. Adversarial +3. |
+| 2026-04-09 | jason-fladlien-marketing | Add Cost-of-Keeping Calculus to Identity-Based Offer & Funnel Design | KEPT | 6.0→8.0 (+2.0) | Phase 0: 4-dimension cost ledger (Time, Status, Opportunity, Identity Tax) + Self-Evidence Test + Identity Layer Reveal. Makes subtraction self-evident instead of marketer-asserted. Adversarial +3. |
+| 2026-04-09 | luke-iha-million-dollar-mechanisms | Add Process Autopsy Protocol to Mechanism Discovery Engine | KEPT | 6.0→8.3 (+2.3) | Phase 1.5: Method Decomposition, 4 Proprietary Edge lenses (Counterintuitive Step, Invisible Step, Sequence Dependency, Client Inflection Point), competitor-claim gate. Mechanisms grounded in actual process, not category abstraction. Adversarial +3. |
+| 2026-04-09 | kallaway-content-psychology | Add Resonance Prediction & Signal Feedback to Strategic Market Architecture | KEPT | 7.3→8.7 (+1.4) | 5 resonance indicators, falsifiable predictions, signal reading protocol, adaptation triggers. Largest genius file (868 lines). Turns static strategy into self-correcting system. Adversarial +2. |
 
 ---
 
@@ -107,7 +110,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Component | Status | Last Activated | Entries |
 |-----------|--------|---------------|---------|
 | Feedback Ratchet (Phase 1) | ACTIVE | 2026-04-05 | 76 |
-| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 16 |
+| Skill Evolution (Phase 2) | **ACTIVE** | 2026-04-09 | 17 |
 | Cross-Pollination (Phase 3) | **READY** | 2026-04-09 (scanned) | 7 improvements mapped, 0 transferred |
 | Ground Truth | READY | Manual only | — |
 | Intelligence Gap Detector | READY | On-demand | — |
