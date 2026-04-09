@@ -148,6 +148,29 @@ The most memorable messages feel like insights the audience generated themselves
 *   **The "Curiosity Catalyst"**: Deliberately structures the information flow to create a knowledge gap or an unexpected element early on, posing a question or presenting a counter-intuitive fact before providing the resolution. → **Deploy when**: Attention needs to be captured and sustained, applying **Pattern 2: Schema Violation for Attention** and **Pattern 3: Knowledge Gap Creation**.
 *   **The "Proverbial Polish"**: After crafting a message, attempts to distill its core essence into a short, memorable, easily repeatable phrase, often using analogy or unexpected comparison. → **Deploy when**: The message needs to be simple and portable, drawing on **Tacit 5: Proverbs Survived Because They're Sticky** and **Pattern 1: Commander's Intent**.
 
+## Pattern 11: Audience Stickiness Profiling (Pre-SUCCESs Diagnostic)
+**Execute**: Before applying SUCCESs, diagnose which dimension the specific audience is MOST receptive to (Primary Stick), which reinforces it (Secondary Stick), and which triggers resistance if led with (Resistance Dimension). Reorder SUCCESs execution: lead with Primary Stick, layer Secondary, deploy Resistance Dimension only via its least threatening sub-pattern.
+
+**Diagnostic Protocol**:
+1. **Primary Stick** — What form of evidence does this audience trust in their daily work? Practitioners (coaches, engineers, clinicians) stick on CONCRETE. Executives stick on CREDIBLE. Consumers stick on EMOTIONAL/STORIES. Creators stick on UNEXPECTED.
+2. **Secondary Stick** — What identity tension does the message resolve? Frame the message through this dimension second. Identity appeal ("you didn't become X to do Y") amplifies any primary stick.
+3. **Resistance Dimension** — What makes this audience's BS detector fire? Practitioners resist authority-based credibility (use testable credentials instead). Analytical audiences resist emotion-first appeals (use concrete-to-emotion bridge). Creative audiences resist oversimplification (use layered simplicity).
+4. **Dormant Dimension** — Which SUCCESs element has lowest natural receptivity? Don't lead with it. Deploy it inside the mechanism or narrative, not as the hook.
+5. **Reorder** — Execute SUCCESs phases in Primary → Secondary → remaining order. The hook, opening line, and Commander's Intent should all be expressed through the Primary Stick's language.
+
+**Audience Archetype Quick-Map**:
+| Audience Type | Primary Stick | Secondary | Resistance Dimension | Deploy Resistance Via |
+|:---|:---|:---|:---|:---|
+| Practitioners (coaches, clinicians, engineers) | Concrete | Identity | Credible (authority) | Testable credentials only |
+| Executives / Buyers | Credible | Simple | Emotional | Concrete-to-emotion bridge |
+| Consumers / End Users | Emotional / Stories | Unexpected | Simple (patronizing) | Layered simplicity |
+| Creators / Innovators | Unexpected | Concrete | Credible (conformity) | Anti-authority proof |
+| Skeptics / Academics | Credible (testable) | Concrete | Emotional / Stories | Individual zoom after data |
+
+**Success Metric**: The message's opening line and core hook use the Primary Stick's language. The Resistance Dimension never appears in the first 30% of the message. The retell version (what they'd say to a peer) naturally uses Primary Stick framing.
+
+---
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                          | Score 4 (Acceptable)                                  | Score 7 (Good)                                            | Score 10 (Savant)                                                               |
