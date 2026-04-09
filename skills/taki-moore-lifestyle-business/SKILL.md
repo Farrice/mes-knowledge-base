@@ -3,7 +3,7 @@ name: "Taki Moore & Tony Bash — Lifestyle Business Mastery"
 description: "Build a 6-figure lifestyle business from your expertise — without sales teams, sales calls, or sacrificing your life. Covers the full journey from life design through category creation, offer architecture, cohort delivery, beginner acceleration, and content authority."
 version: "2.0"
 format: "completion-engine"
-workflows: 5
+workflows: 6
 ---
 
 # Taki Moore & Tony Bash — Lifestyle Business Mastery
@@ -21,6 +21,7 @@ Together, they embody the anti-scale-bro movement: enough, elegant, free.
 | 03 | [Cohort Launch Engine](workflows/03-cohort-launch-engine.md) | Monthly operations playbook — intake to retention | You want a repeatable monthly enrollment system |
 | 04 | [Beginner Acceleration](workflows/04-beginner-acceleration-system.md) | Onboarding system with DAFY tools, timers, belief scripts | Your students aren't taking action or getting results fast enough |
 | 05 | [Anti-Scale Content Engine](workflows/05-anti-scale-content-engine.md) | 3-5 authority content pieces for lifestyle positioning | You want content that attracts lifestyle-focused clients |
+| 06 | [Profit Floor Architecture](workflows/06-profit-floor-architecture.md) | Revenue autopsy + profit floor blueprint + constraint audit | You want to make lifestyle constraints financially sustainable — prevent lifestyle from eroding profit or vice versa |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md)

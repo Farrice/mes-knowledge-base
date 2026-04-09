@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260409_154154",
+  "timestamp": "2026-04-09T15:41:54.352023",
+  "component": "taki-moore-lifestyle-business",
+  "operation": "chain_finalize",
+  "expert": "taki-moore",
+  "workflow": "profit-floor-architecture",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "New cognitive layer: Founder Dependency Scoring (FDS 0-3), Generative vs Degenerative Constraint Classification, Three-Number Dashboard, Quarterly Profit Floor Ratchet. Resolves core tension between lifestyle freedom and business profitability. Baseline 6.0 -> Variant 8.0 (+2.0). KEPT.",
+  "context": {
+    "output": "Skill evolution: taki-moore-lifestyle-business \u2014 Add Profit Floor Architecture (Workflow 06)",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 0,
+      "delta": 0,
+      "message": "Insufficient data (0 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}
