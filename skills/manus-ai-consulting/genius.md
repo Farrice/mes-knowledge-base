@@ -6,7 +6,21 @@
 
 ## Genius Patterns
 
-*No genius patterns extracted yet. Run extraction to populate.*
+### Self-Executing Deliverable Architecture
+
+Every consulting deliverable must be designed so the client can maintain, update, and extend it **without the consultant present**. This is the difference between a deliverable that creates dependency and one that creates capability.
+
+**Three components built into every deliverable:**
+
+1. **The Maintenance Manual Layer** — Each deliverable section includes a "How to Update This" annotation. Not a separate document — embedded inline, right next to the content it governs. Example: A competitive analysis slide includes a footnote: "Re-run this comparison quarterly using [specific data source]. If Metric X shifts >15%, revisit the strategic thesis on Slide 4." The client never has to guess what's stale or how to refresh it.
+
+2. **The Decision Fork Map** — Every recommendation includes an explicit "If/Then" tree for the 2-3 most likely future scenarios the client will face. Example: "If pilot reduces stockouts by <15% (vs. target 30%), check data quality on supplier lead times first (most common root cause). If data quality is >95%, the model needs retraining on seasonal patterns — here's the trigger criteria and who to contact." The client doesn't need the consultant to handle predictable forks.
+
+3. **The Implementation Verification Protocol** — Built-in checkpoints that tell the client whether they're implementing correctly. Not vague ("check progress regularly") but specific and binary: "By Week 4, you should see [specific metric] at [specific threshold]. If yes, proceed to Phase 2. If no, the most likely failure points are [A, B, C] — diagnose in that order." The client can self-assess without calling the consultant.
+
+**Deploy when:** Producing ANY client-facing deliverable. This is not optional — a deliverable without self-execution architecture creates a dependency flywheel that undermines the client's stated goal of independent operation.
+
+**Anti-pattern:** Separate "implementation guide" documents that live outside the deliverable. These get lost, go unread, or become stale. The maintenance logic must be INSIDE the artifact it governs.
 
 ---
 
