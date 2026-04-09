@@ -60,6 +60,18 @@
 
 **Success Metric**: Model reveals assumptions that would otherwise cause failures.
 
+## Pattern 9: Intent Signal Field (Anticipatory Intent Capture)
+**Execute**: Before the user finishes articulating intent, read the GRADIENT of their expression across three signal types:
+- **Emphasis Signals**: What they repeat, slow down on, or get energetic about — these are their real priorities, even if unlabeled.
+- **Omission Signals**: What they skip or treat as obvious — often their deepest expertise, so internalized they forget it's valuable. Flag the gap: "You didn't mention X — is that because it's obvious to you, or because you don't address it?"
+- **Contradiction Signals**: Where stated positioning conflicts with actual examples (e.g., "I help beginners" but every case study is advanced). These reveal true intent vs. marketed intent.
+
+After signal analysis, generate a "Here's what I think you actually need" prediction BEFORE asking clarification questions. This inverts Pattern 4 — instead of "what did you mean?", present "I think you meant X, Y, Z — correct what's wrong." Faster, builds trust, surfaces assumptions the user didn't know they had. Each interaction updates the predictive model: track confirmed vs. corrected predictions to build increasingly accurate intent capture across sessions.
+
+**Success Metric**: System anticipates user needs before full articulation; prediction accuracy improves with each interaction cycle.
+
+---
+
 ## Hidden Knowledge
 
 ## Tacit 1: Answer-Shaped Text Problem
