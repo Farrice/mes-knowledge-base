@@ -69,6 +69,30 @@ Build the MASTER Specs to turn prompts into portable infrastructure. For every A
 2.  **Process Context Layer**: Document upstream dependencies, downstream consumers, and the **Fallback Plan** (what happens when the AI fails the quality bar?).
 3.  **Prompt Architecture**: Generate the production-ready prompt template based on the MASTER spec.
 
+### Phase 3.5: Drift Detection & Auto-Correction Architecture (Self-Healing Layer)
+Design the monitoring and auto-correction system that keeps the AI workflow healthy without proportional human oversight as it scales.
+
+1.  **Signal Definition**: For every AI-handled task in the Hybrid Workflow Map, define three drift signals:
+    - **Quality Drift**: Output scores falling below the Quality Bar (e.g., approval rate drops from 85% to 70% over 10 cycles). Metric: rolling approval rate vs. baseline.
+    - **Throughput Decay**: Processing time or backlog growing beyond threshold (e.g., task queue > 2x normal). Metric: cycle time percentile vs. first 30 days.
+    - **Dependency Failure**: Upstream inputs arriving malformed, late, or missing (e.g., API schema change breaks ingestion). Metric: input validation pass rate.
+
+2.  **Threshold & Window Design**: For each signal, specify:
+    - **Alert Threshold**: The number that triggers investigation (e.g., quality < 75% over 5-cycle window).
+    - **Correction Threshold**: The number that triggers automatic remediation (e.g., quality < 60% over 3-cycle window).
+    - **Window Size**: How many cycles to evaluate — too short creates false alarms, too long lets drift compound.
+
+3.  **Auto-Correction Protocol**: For each task, pre-define the correction action that fires WITHOUT human approval:
+    - **Quality Drift** → Fallback to higher human-review ratio (e.g., shift from spot-check to 100% review until baseline restores).
+    - **Throughput Decay** → Throttle incoming volume OR activate parallel processing path.
+    - **Dependency Failure** → Switch to cached/default inputs + alert upstream owner.
+    - **Escalation Gate**: Define the ceiling — what level of drift ALWAYS requires human intervention (e.g., 3 consecutive auto-corrections on the same task = human redesign trigger).
+
+4.  **Health Dashboard Spec**: Design the single-view operational health surface:
+    - **Per-Task Health Score**: Green/Yellow/Red based on signal thresholds.
+    - **System-Level Drift Index**: Weighted composite across all tasks (weights = task criticality from Phase 1 ARS scores).
+    - **Correction Log**: Every auto-correction logged with timestamp, trigger signal, action taken, and outcome.
+
 ### Phase 4: Feedback & Team Rollout (The Operator's Handover)
 Design the system for long-term survival and organizational adoption.
 
@@ -86,8 +110,9 @@ The user receives a single **AI Workflow Implementation Blueprint** containing:
 1.  **Process Audit**: Full decomposition map with ARS scores.
 2.  **Hybrid Workflow Map**: The redesigned AI/Human process flow.
 3.  **MASTER Spec Library**: Complete specifications and prompt templates for every AI task.
-4.  **Implementation Roadmap**: Prioritized "Quick Wins" vs. "Strategic Investments" with estimated ROI (hours saved).
-5.  **Operator's Manual**: Testing protocol, fallback procedures, and rollout plan.
+4.  **Self-Healing Spec**: Drift signals, thresholds, auto-correction protocols, and health dashboard design for every AI task.
+5.  **Implementation Roadmap**: Prioritized "Quick Wins" vs. "Strategic Investments" with estimated ROI (hours saved).
+6.  **Operator's Manual**: Testing protocol, fallback procedures, and rollout plan.
 
 ## Quality Gate
 - **Decomposition Depth**: No "Expert" task is left un-decomposed if it contains automatable sub-tasks.
@@ -95,3 +120,4 @@ The user receives a single **AI Workflow Implementation Blueprint** containing:
 - **Failure Safeguards**: Every AI step has a defined fallback plan and human checkpoint.
 - **Outcome Focus**: The blueprint calculates specific "Time Recaptured" metrics, not just "efficiency" platitudes.
 - **Anti-Pattern Check**: The prompts are built from MASTER specs, not just "chatty" instructions.
+- **Self-Healing Coverage**: Every AI task has defined drift signals, thresholds, and pre-approved auto-correction actions. No AI task runs "open loop" without monitoring.
