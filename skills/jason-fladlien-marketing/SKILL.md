@@ -9,7 +9,7 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 - **Indirect Communication Mastery**: At the highest levels, get them to sell themselves
 - **Radical Candor as Scarcity**: Honesty is the rarest differentiator in a manipulative market
 
-## Workflows (19)
+## Workflows (23)
 
 ### Tier 1 — Foundation (7)
 | Workflow | Command | Produces |
@@ -42,7 +42,15 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 | Offer Incomparability Audit | `/fladlien-audit` | — | Offer Incomparability Audit Report |
 | Double Bind Persuasion Engine | `/fladlien-double-bind` | David McRaney | Double Bind Persuasion Copy & Sequences |
 
+### Tier 4 — Empowerment & Brand Philosophy (4)
+| Workflow | Command | Produces |
+|---------|---------|----------|
+| Empowerment Content Engine | `/fladlien-empower` | Empowerment-First Content Strategy & Drafts |
+| Book-as-Sales-Letter Engine | `/fladlien-book` | Long-Form Asset Blueprint & Sample Chapter |
+| Information-to-Brand Conversion | `/fladlien-info-brand` | Brand Positioning & Content Architecture |
+| Patience Marketing System | `/fladlien-patience` | Tree-Model Marketing System & 30-Day Calendar |
+
 ## Expert Context
 - **genius.md**: Full extraction intelligence — 15 genius patterns, 10 hidden knowledge items, 5 exemplars, 10 signature moves, 10-criterion quality rubric
 - **Source Material**: 2 transcript extractions, interview with extended analysis
-- **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research
+- **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing
