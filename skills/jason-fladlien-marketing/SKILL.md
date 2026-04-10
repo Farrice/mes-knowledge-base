@@ -1,24 +1,48 @@
----
-name: "Jason Fladlien: High-Status Marketing & Closing"
-description: "Jason Fladlien - High-Status Marketing & Closing"
-version: "2.0"
-format: "completion-engine"
-workflows: 4
----
+# Jason Fladlien — High-Status Marketing & Closing
 
-# Jason Fladlien: High-Status Marketing & Closing
+Expert in persuasion physics, subtractive psychology, fear-first conversion, incomparable offer engineering, indirect communication, and spoken copy. The "Guru's Guru" — the man Alex Hormozi, Iman Gadzhi, and the biggest names hire when they need someone who can move millions.
 
-Jason Fladlien: High-Status Marketing & Closing's core methodology, extracted and deployed as end-to-end completion workflows.
+## Core Philosophy
+- **Success by Subtraction**: Remove the one weight, don't add ten tactics
+- **Fear-First Conversion**: Get them to run out of reasons to say no, not decide to say yes
+- **Incomparable Offer Engineering**: Don't make a better offer — make an incomparable one
+- **Indirect Communication Mastery**: At the highest levels, get them to sell themselves
+- **Radical Candor as Scarcity**: Honesty is the rarest differentiator in a manipulative market
 
-## Available Workflows
+## Workflows (19)
 
-| # | Workflow | Produces | Use When |
-|---|---------|----------|----------|
-| high | [High-Status Authority & Content Engine](workflows/high-status-authority-content-engine.md) | High-Status Brand & Content Blueprint | You need to establish yourself as a 'Guru to the Guru' and create a content ecosystem that attracts high-level clients without chasing them. |
-| inertia | [The Inertia-Breaker Conversion Architecture](workflows/inertia-breaker-conversion-architecture.md) | High-Ticket Sales Presentation & Script | You are building a webinar, VSL, or sales letter designed to move a prospect from total inertia to a high-ticket purchase. |
-| identity | [Identity-Based Offer & Funnel Design](workflows/identity-based-offer-funnel-design.md) | Identity-Transmutation Offer & Funnel Map | You need to engineer an offer and a launch sequence that doesn't just sell a product, but facilitates an identity shift in the buyer. |
-| subtractive | [Subtractive Psychology & Belief Intervention](workflows/subtractive-psychology-belief-intervention.md) | Belief-Dissolution & Performance Audit | You or your clients are facing a performance plateau or deep-seated psychological objections that tactics cannot solve. |
+### Tier 1 — Foundation (7)
+| Workflow | Command | Produces |
+|---------|---------|----------|
+| High-Status Authority Content Engine | `/fladlien-authority` | High-Status Brand & Content Blueprint |
+| Inertia-Breaker Conversion Architecture | `/fladlien-inertia` | High-Ticket Sales Presentation & Script |
+| Identity-Based Offer & Funnel Design | `/fladlien-identity-offer` | Identity-Transmutation Offer & Funnel Map |
+| Subtractive Psychology & Belief Intervention | `/fladlien-subtraction` | Belief-Dissolution & Performance Audit |
+| Fear-First Conversion Engine | `/fladlien-fear-engine` | Fear-Mapped Sales Copy & Conversion Architecture |
+| Incomparable Offer Architect | `/fladlien-offer` | Incomparable Offer Stack & Positioning Blueprint |
+| Blair Warren Market Intelligence | `/fladlien-research` | 5-Dimensional Market Research & Avatar Intelligence |
 
-## Quick Reference
-- **Genius Context**: [genius.md](genius.md) — load before any workflow
-- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+### Tier 2 — Practitioner (6)
+| Workflow | Command | Produces |
+|---------|---------|----------|
+| Key Ring Multi-Close Engine | `/fladlien-keys` | Sequential Multi-Close Sequence |
+| The 10% Self-Selection Close | `/fladlien-self-select` | Self-Selection Close Copy & Sequence |
+| Radical Candor Copy Engine | `/fladlien-candor` | Radical Candor Copy & Positioning Assets |
+| Spoken Copy & Live Close Architecture | `/fladlien-spoken` | Live Close Frameworks & Spoken Copy Scripts |
+| Constraint Labeling & Disarmament Engine | `/fladlien-constraints` | Constraint Labeling Sequences & Fear Dissolution Copy |
+| Indirect Communication & Hypnotic Copy | `/fladlien-indirect` | Indirect-Communication Copy with Embedded Persuasion |
+
+### Tier 3 — Stacking & Strategic (6)
+| Workflow | Command | Stacking Partners | Produces |
+|---------|---------|-------------------|----------|
+| Proof-Fortified Fear Engine | `/fladlien-proof-fear` | Luke Iha | Fear-First Copy Fortified with Proof Ladders |
+| Brand-First DR Fusion Strategy | `/fladlien-brand-dr` | Grace Andrews, Kallaway | Brand Strategy with DR Economics |
+| Market Deep Truth Diagnostic | `/fladlien-deep-truth` | Dai Media | Consumer Deep Truth Intelligence Report |
+| Copywriter Accelerator | `/fladlien-copywriter` | Nicolas Cole, Joanna Wiebe | Copywriter Career Blueprint & Skill Roadmap |
+| Offer Incomparability Audit | `/fladlien-audit` | — | Offer Incomparability Audit Report |
+| Double Bind Persuasion Engine | `/fladlien-double-bind` | David McRaney | Double Bind Persuasion Copy & Sequences |
+
+## Expert Context
+- **genius.md**: Full extraction intelligence — 15 genius patterns, 10 hidden knowledge items, 5 exemplars, 10 signature moves, 10-criterion quality rubric
+- **Source Material**: 2 transcript extractions, interview with extended analysis
+- **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research
