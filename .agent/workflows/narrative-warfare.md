@@ -1,5 +1,5 @@
 ---
-description: "OODA-powered competitive narrative dominance — win any narrative war permanently using speed advantage + proof stacking + flood tactics"
+description: OODA-powered competitive narrative dominance
 ---
 
 # /narrative-warfare — Competitive Narrative Dominance

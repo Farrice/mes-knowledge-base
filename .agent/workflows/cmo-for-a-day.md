@@ -1,5 +1,5 @@
 ---
-description: "Generate a 'CMO for a Day' public pitch post that doubles as authority-building content and prospect outreach"
+description: 'CMO
 ---
 
 # CMO for a Day

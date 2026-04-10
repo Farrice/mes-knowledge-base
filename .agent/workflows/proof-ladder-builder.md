@@ -1,5 +1,5 @@
 ---
-description: "Build a complete Proof Ladder strategy — map your proof assets to the 5-tier hierarchy, identify gaps, and get a 30-60-90 day build plan"
+description: Complete Proof Ladder strategy
 ---
 
 # Proof Ladder Builder

@@ -1,5 +1,5 @@
 ---
-description: Transplant narrative architecture from one domain (film, myth, novel) into a different context (sales funnel, pitch deck, course)
+description: Transplant narrative architecture
 ---
 
 # /narrative-transfer — Cross-Domain Narrative Transfer Engine

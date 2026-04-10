@@ -66,6 +66,49 @@ Infiltrate the linguistic DNA of the target audience to move from "interpreting"
 2.  **Language Mapping**: Organize these into a **Private Conversation Map**, ranked by Emotional Intensity and Frequency.
 3.  **The "Seen" Validation**: Cross-reference extracted language against Phase 1 signals. Where does their "private pain" intersect with a "market trend"? This is the **High-Resonance Zone**.
 
+### Phase 2.5: Resonance Prediction & Signal Feedback (The "Will It Land?")
+Before committing to a strategic architecture, score each content direction against predictive resonance indicators. This phase turns strategy from "best guess" into "calibrated bet" — and builds the feedback system that makes the strategy self-correcting after launch.
+
+**Step 1 — Resonance Score Matrix**: For each candidate content direction from Phase 2, score against 5 predictive indicators (1-5 scale each, 25 max):
+
+| Indicator | What It Measures | Scoring Logic |
+|-----------|-----------------|---------------|
+| **Conversation Velocity** | How fast is this topic spreading in private channels (DMs, Slack, group chats) vs. public feeds? | 5 = appearing in private channels before public; 1 = only visible on main feeds |
+| **Emotional Polarity** | Does this topic trigger strong agree/disagree splits, or does everyone nod politely? | 5 = visible camps forming; 1 = consensus (boring, no engagement driver) |
+| **Solution Vacuum** | How many people are asking about this problem vs. how many credible answers exist? | 5 = high question volume, near-zero quality answers; 1 = saturated with solutions |
+| **Identity Proximity** | Does this topic touch how the audience sees THEMSELVES (not just what they do)? | 5 = challenges or validates self-image; 1 = purely tactical/informational |
+| **Timing Tension** | Is there external pressure making this topic feel urgent RIGHT NOW? | 5 = news event, platform change, cultural shift creating urgency; 1 = evergreen, no urgency |
+
+**Scoring Rule**: Content directions scoring 18+ are high-confidence bets. 12-17 are testable. Below 12, deprioritize — the audience isn't ready regardless of execution quality.
+
+**Step 2 — Pre-Publish Prediction Statement**: For each high-scoring direction, write a falsifiable prediction:
+```
+"If we publish [content type] about [topic] using [angle], we predict [specific metric]
+will exceed [threshold] because [resonance indicator] is at [level]."
+```
+This forces specificity. Vague strategies ("post good content about X") cannot be evaluated. Falsifiable predictions can.
+
+**Step 3 — Signal Reading Protocol** (post-publish, built into the strategy):
+Define the behavioral signals that will tell you whether resonance is hitting or missing:
+
+| Signal Type | High Resonance Indicator | Low Resonance Indicator | Strategic Response |
+|-------------|------------------------|------------------------|-------------------|
+| **Save-to-Like Ratio** | >15% saves-per-like (content worth returning to) | <5% (consumed and forgotten) | High saves = deepen this topic into a series |
+| **Comment Specificity** | Comments reference personal situations ("this is exactly what happened to me") | Generic comments ("great post", emoji-only) | Specific comments = you've hit a private conversation. Mine them for next batch. |
+| **Share Context** | Shared with personal commentary or tags ("@friend you need to see this") | Shared without commentary (algorithmic reshare) | Personal tags = identity-level resonance. Double down. |
+| **DM Velocity** | Unprompted DMs asking follow-up questions | Zero DMs despite high view count | DMs = conversion-ready audience. Activate ramp immediately. |
+| **Negative Signal** | Vocal disagreement or debate in comments | Silence or polite agreement | Disagreement = emotional polarity working. Silence = you're in No Man's Land. |
+
+**Step 4 — Adaptation Triggers**: Define in advance what signals would cause a strategy pivot vs. doubling down:
+- **3+ posts with <12 resonance score AND low save-to-like**: Topic direction is wrong. Return to Phase 2, re-mine private conversations.
+- **High saves but zero DMs**: Content is valuable but not conversion-ready. The gap is in the ramp (Pattern 24), not the content.
+- **High DMs but low saves**: Conversion potential is there but content isn't "reference-worthy." Improve the framework density — give them something to screenshot.
+- **One post hits 3x above average**: Treat as an outlier signal. Extract its bricks immediately (Pattern 2) and test 3 variations in next batch.
+
+> This phase ensures the strategy document isn't a one-time deliverable that gathers dust — it's a living system with built-in sensors and response protocols.
+
+---
+
 ### Phase 3: Strategic Category Architecture (The "How")
 Apply the **2x2 Strategy Matrix** to define the brand’s lane and develop the proprietary mechanism.
 
@@ -108,11 +151,16 @@ The user receives a **Strategic Market Architecture Blueprint** (.md) containing
 2.  **Private Conversation Map**:
     - Verbatim Language Library (Problems, Failed Solutions, Hidden Beliefs, Aspirations).
     - Emotional Intensity Heatmap.
-3.  **Strategic Foundation**:
+3.  **Resonance Prediction Report**:
+    - Resonance Score Matrix for top 3-5 content directions (scored /25).
+    - Falsifiable prediction statements for each high-scoring direction.
+    - Signal Reading Protocol (what to watch post-publish, what each signal means).
+    - Adaptation Triggers (pre-defined pivot vs. double-down thresholds).
+4.  **Strategic Foundation**:
     - 2x2 Strategy Matrix Placement.
     - Proprietary Mechanism Definition (The "Non-Obvious Insight").
     - The 88/12 Lego Brick Template for the category.
-4.  **Deployment Asset Suite**:
+5.  **Deployment Asset Suite**:
     - 10 Infiltration Hooks (Curiosity Loop Engineered).
     - 5 Body Copy Frameworks (Dopamine Ladder Optimized).
     - 5 Stage-Matched Objection Handlers.
@@ -125,9 +173,10 @@ The user receives a **Strategic Market Architecture Blueprint** (.md) containing
 4.  **Packaging First**: Are title + thumbnail concepts defined BEFORE content structures? Is packaging treated as equal priority to content?
 5.  **Magnetic Brand Check**: Are all 3 content buckets (Positioning, Execution, Psychology) addressed in the blueprint? Is the contrarian lane clearly defined?
 6.  **6 Mistakes Pre-Flight** (Pattern 31): Does the blueprint avoid all 6 failure modes? (Bad sampling, No Man's Land, Bad Ideas, Poor Storytelling, Topic Inconsistency, Low Volume)
-7.  **The Wave Alignment**: Is the content timed to a "Forming" or "Accelerating" signal, or chasing a "Cresting" trend?
-8.  **Lego Integrity**: Does the blueprint hold 88% of proven niche patterns constant while clearly defining the 12% unique remix?
-9.  **Curiosity Gap**: Does every hook create an "Open Loop" that can only be closed by consuming the content?
+7.  **Resonance Calibration**: Does every recommended content direction have a resonance score and a falsifiable prediction? Are adaptation triggers defined BEFORE launch, not improvised after failure?
+8.  **The Wave Alignment**: Is the content timed to a "Forming" or "Accelerating" signal, or chasing a "Cresting" trend?
+9.  **Lego Integrity**: Does the blueprint hold 88% of proven niche patterns constant while clearly defining the 12% unique remix?
+10.  **Curiosity Gap**: Does every hook create an "Open Loop" that can only be closed by consuming the content?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

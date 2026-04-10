@@ -118,6 +118,18 @@ Don't campaign your product. STORY your product through editions celebrating mom
 *   **The "Evolve Immediately" Post-Launch Protocol**: The moment a product or campaign ships, he initiates a mandatory feedback loop and iteration cycle, actively seeking ways to evolve the offering within 90 days, rejecting any notion of "finished" work.
     *   **Deploy when**: A product or campaign has just launched, evaluating post-launch performance, or fostering a culture of continuous improvement.
 
+## Evolution Log
+
+### 2026-04-09 — Emotional Specificity Engine (KEPT)
+- **Hypothesis**: Adding an Emotional Specificity diagnostic between insight mining and campaign architecture produces brand storytelling that feels like truth-telling rather than marketing — by forcing identification of ONE precise emotion through elimination, not accumulation.
+- **New cognitive layer**: Phase 2 "Emotional Specificity Engine" in `workflows/02-campaign-architecture-engine-v2.md`
+- **Method**: 4-filter elimination gauntlet (Tattoo Test, Competitor Test, Whisper Test, Accumulation Test) reduces 8-12 candidate emotions to ONE Emotional Signature with physical anchor.
+- **Benchmark task**: "Design a brand story architecture for the Authority Flywheel that captures why it exists"
+- **Baseline score**: 6.0 (Intent 7, Expert 6, Adversarial 5) — competent but generic, interchangeable with any ghostwriting service
+- **Variant score**: 8.3 (Intent 9, Expert 8, Adversarial 8) — "quiet recognition" Emotional Signature shaped every creative decision
+- **Key insight**: The biggest gain was Adversarial Resilience (+3). Emotional specificity makes the output impossible to swap onto a competitor — the Signature cascades into visual language, narrative shape, and campaign architecture.
+- **Promoted**: `02-campaign-architecture-engine.md` → `02-campaign-architecture-engine-v2.md`
+
 ## Expert-Specific Quality Rubric
 
 | Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |

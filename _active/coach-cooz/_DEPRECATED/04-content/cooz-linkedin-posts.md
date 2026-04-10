@@ -1,0 +1,1665 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - region "Toast message":
+      - heading "0 notifications total" [level=2] [ref=e3]
+      - alert
+  - region [ref=e4]
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - button "Skip to search" [ref=e8] [cursor=pointer]:
+        - generic [ref=e9]: Skip to search
+      - button "Skip to main content" [ref=e10] [cursor=pointer]:
+        - generic [ref=e11]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: Keyboard shortcuts
+      - button "Close jump menu" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+        - generic [ref=e17]: Close jump menu
+    - banner "Global Navigation" [ref=e18]:
+      - generic [ref=e19]:
+        - link "LinkedIn" [ref=e20] [cursor=pointer]:
+          - /url: https://www.linkedin.com/feed/?nis=true
+          - img "LinkedIn" [ref=e23]:
+            - img [ref=e24]
+        - generic [ref=e28]:
+          - combobox "I’m looking for..." [ref=e29]
+          - generic:
+            - img
+        - navigation "Primary Navigation" [ref=e30]:
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - link "new feed updates notifications Home" [ref=e33] [cursor=pointer]:
+                - /url: https://www.linkedin.com/feed/?nis=true&
+                - generic [ref=e34]:
+                  - generic [ref=e37]: new feed updates notifications
+                  - img [ref=e41]
+                - generic "Home" [ref=e43]
+            - listitem [ref=e44]:
+              - link "1 new network update notification My Network" [ref=e45] [cursor=pointer]:
+                - /url: https://www.linkedin.com/mynetwork/?
+                - generic [ref=e46]:
+                  - generic [ref=e47]:
+                    - generic [ref=e48]: "1"
+                    - generic [ref=e49]: 1 new network update notification
+                  - img [ref=e53]
+                - generic "My Network" [ref=e55]
+            - listitem [ref=e56]:
+              - link "Jobs" [ref=e57] [cursor=pointer]:
+                - /url: https://www.linkedin.com/jobs/?
+                - img [ref=e61]
+                - generic "Jobs" [ref=e63]
+            - listitem [ref=e64]:
+              - link "Messaging" [ref=e65] [cursor=pointer]:
+                - /url: https://www.linkedin.com/messaging/?
+                - img [ref=e69]
+                - generic "Messaging" [ref=e71]
+            - listitem [ref=e72]:
+              - link "5 new notifications Notifications" [ref=e73] [cursor=pointer]:
+                - /url: https://www.linkedin.com/notifications/?
+                - generic [ref=e74]:
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: "5"
+                    - generic [ref=e77]: 5 new notifications
+                  - img [ref=e81]
+                - generic "Notifications" [ref=e83]
+            - listitem [ref=e84]:
+              - button "Farrice Cain Me" [ref=e86] [cursor=pointer]:
+                - img "Farrice Cain" [ref=e87]
+                - generic [ref=e88]:
+                  - text: Me
+                  - img [ref=e89]
+            - listitem [ref=e91]:
+              - button "For Business" [ref=e93] [cursor=pointer]:
+                - img [ref=e97]
+                - generic "For Business" [ref=e99]:
+                  - text: For Business
+                  - img [ref=e100]
+            - listitem [ref=e102]:
+              - link "Get 50% Off Sales Nav" [ref=e104] [cursor=pointer]:
+                - /url: http://www.linkedin.com/premium/redeem/?_ed=CwEAAAFyYb66UAQiKvLejf0aKxNzmjJ3ryfkxyqehLZPKD7vWLOgM5wR4lxRr-QUIgT_FeKS2NQ&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text_winback%3ANav%3AIn-Product&referenceId=Z%2Bw6o%2FCyTDaKD%2F2%2FOkEWiQ%3D%3D&customKey=wb_s&redeemTypeV2=DISCOUNT&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcoachcooz%2Frecent-activity%2Fall%2F
+                - generic [ref=e106]: Get 50% Off Sales Nav
+    - generic [ref=e112]:
+      - complementary [ref=e113]:
+        - generic [ref=e116]:
+          - link "Acusio Bivona" [ref=e119] [cursor=pointer]:
+            - /url: /in/coachcooz/
+            - img "Acusio Bivona" [ref=e120]
+          - generic [ref=e121]:
+            - link "Acusio Bivona" [ref=e122] [cursor=pointer]:
+              - /url: /in/coachcooz/
+              - heading "Acusio Bivona" [level=3] [ref=e123]
+            - heading "Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [level=4] [ref=e124]
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128]: Followers
+              - generic [ref=e129]: "837"
+            - button "Message Acusio" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Message
+      - main [ref=e134]:
+        - generic [ref=e136]:
+          - heading "All activity" [level=2] [ref=e137]
+          - group "Select type of recent activity" [ref=e140]:
+            - button "Posts" [pressed] [ref=e141] [cursor=pointer]:
+              - generic [ref=e142]: Posts
+            - button "Comments" [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]: Comments
+            - button "Videos" [ref=e145] [cursor=pointer]:
+              - generic [ref=e146]: Videos
+            - button "Images" [ref=e147] [cursor=pointer]:
+              - generic [ref=e148]: Images
+            - button "More" [ref=e149] [cursor=pointer]:
+              - generic [ref=e150]: More
+              - img [ref=e151]
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - generic [ref=e441]: Loaded 20 Posts posts
+              - list [ref=e442]:
+                - listitem [ref=e443]:
+                  - article [ref=e448]:
+                    - generic [ref=e450]:
+                      - heading "Feed post number 1" [level=2] [ref=e451]
+                      - generic [ref=e452]:
+                        - generic [ref=e453]:
+                          - generic [ref=e455]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e456] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e460]
+                            - generic [ref=e461]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e462] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e463]:
+                                  - generic [ref=e465]:
+                                    - generic [ref=e466]: Acusio Bivona
+                                    - generic [ref=e467]: Acusio Bivona
+                                  - generic [ref=e468]:
+                                    - generic [ref=e469]:
+                                      - img [ref=e470]
+                                      - text: • 1st
+                                    - generic [ref=e472]: Verified • 1st
+                                - generic [ref=e473]:
+                                  - generic [ref=e474]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e475]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e476]:
+                                - generic [ref=e477]:
+                                  - text: 1d •
+                                  - img [ref=e480]
+                                - generic [ref=e482]: 1 day ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e485] [cursor=pointer]:
+                            - img [ref=e486]
+                        - generic [ref=e489]:
+                          - generic [ref=e492]:
+                            - text: It's 11:00 PM. You're sitting in the dark of your home office, and the house is completely silent.
+                            - text: You are carrying a massive, undeclared liability. Maybe the quarterly revenue is stalling. Maybe your marriage has devolved into a logistical partnership. Maybe the latest metabolic panels from your physician are alarming.
+                            - text: Whatever the specific nature of the lag in your operating system, you have made a definitive decision. You are going to go dark. You're going to put your head down, isolate the variable, and work the problem in complete silence.
+                            - text: You tell yourself this is what a leader does. You tell yourself the lone operator is the most lethal force in the room.
+                            - text: It's a cinematic illusion. When we look at the clinical data, executive isolation is a biological error.
+                            - text: Apex operators don't rely on a single point of failure. They build redundant systems. When you isolate, your physical presence goes offline. The people in your environment are highly attuned to your biological telemetry. They feel the distance. They feel your dormant energy buried under the stress.
+                            - text: By refusing to declare the issue, you force your team and your family to guess what's wrong. You don't project authority by hiding in the silence. You project authority by calmly stating there is a lag in the system, and communicating exactly how you plan to re-architect the ship.
+                            - text: You cannot wait for the schedule to clear to restore what you lost. You must install a new protocol and reclaim your edge today.
+                            - text: In Episode 18 of The Resurrection Series (The Lone Wolf is a Liability), I map out the exact sequence to exit the echo chamber. We run a precise diagnostic on your daily routines and begin the meticulous calibration required to rebuild your biological infrastructure.
+                            - text: It's time to reactivate the hardware and resurrect the operator.
+                            - text: If this hit different - I have space for two executives this month. DM 'Resurrection' and I'll send the application.
+                            - text: "Listen to the full strategic briefing here:"
+                            - text: Spotify -
+                            - link "https://lnkd.in/gg4xd_ib" [ref=e493] [cursor=pointer]:
+                              - /url: https://lnkd.in/gg4xd_ib
+                            - text: Apple Podcasts -
+                            - link "https://lnkd.in/giEUYUa5" [ref=e494] [cursor=pointer]:
+                              - /url: https://lnkd.in/giEUYUa5
+                            - text: YouTube -
+                            - link "https://lnkd.in/g8WrqqPU" [ref=e495] [cursor=pointer]:
+                              - /url: https://lnkd.in/g8WrqqPU
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e496] [cursor=pointer]:
+                            - generic [ref=e497]: …more
+                        - generic [ref=e498]:
+                          - 'link "Open video: Ep. 18 | The Lone Wolf is a Liability: Why Executive Isolation is a Biological Error on youtu.be, graphic" [ref=e500] [cursor=pointer]':
+                            - /url: https://youtu.be/pwUA3xU4xPA
+                          - 'link "Ep. 18 | The Lone Wolf is a Liability: Why Executive Isolation is a Biological Error" [ref=e505] [cursor=pointer]':
+                            - /url: https://youtu.be/pwUA3xU4xPA
+                            - generic [ref=e508]:
+                              - generic [ref=e509]: "Ep. 18 | The Lone Wolf is a Liability: Why Executive Isolation is a Biological Error"
+                              - generic [ref=e510]: youtube.com
+                        - generic [ref=e511]:
+                          - list [ref=e515]:
+                            - listitem [ref=e516]:
+                              - button "1 reaction" [ref=e517] [cursor=pointer]:
+                                - img "like" [ref=e518]
+                                - generic [ref=e519]: "1"
+                          - generic [ref=e520]:
+                            - generic [ref=e521]:
+                              - button "React Like" [ref=e522] [cursor=pointer]:
+                                - generic [ref=e524]:
+                                  - img [ref=e525]
+                                  - generic [ref=e527]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e529] [cursor=pointer]
+                            - button "Comment" [ref=e533] [cursor=pointer]:
+                              - img [ref=e534]
+                              - generic [ref=e536]: Comment
+                            - button "Repost" [ref=e539] [cursor=pointer]:
+                              - img [ref=e540]
+                              - generic [ref=e542]: Repost
+                            - button "Send in a private message" [ref=e545] [cursor=pointer]:
+                              - img [ref=e546]
+                              - generic [ref=e549]: Send
+                - listitem [ref=e550]:
+                  - article [ref=e555]:
+                    - generic [ref=e557]:
+                      - heading "Feed post number 2" [level=2] [ref=e558]
+                      - generic [ref=e559]:
+                        - generic [ref=e560]:
+                          - generic [ref=e562]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e563] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e567]
+                            - generic [ref=e568]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e569] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e570]:
+                                  - generic [ref=e572]:
+                                    - generic [ref=e573]: Acusio Bivona
+                                    - generic [ref=e574]: Acusio Bivona
+                                  - generic [ref=e575]:
+                                    - generic [ref=e576]:
+                                      - img [ref=e577]
+                                      - text: • 1st
+                                    - generic [ref=e579]: Verified • 1st
+                                - generic [ref=e580]:
+                                  - generic [ref=e581]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e582]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e583]:
+                                - generic [ref=e584]:
+                                  - text: 2d •
+                                  - img [ref=e587]
+                                - generic [ref=e589]: 2 days ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e592] [cursor=pointer]:
+                            - img [ref=e593]
+                        - generic [ref=e596]:
+                          - generic [ref=e599]: Society sells you the cinematic illusion of the lone operator - the stoic executive who goes dark to solve massive liabilities in total silence. In reality, isolation is a biological error that creates severe system drag and alienates your relational infrastructure. Discover why relying on a single point of failure keeps your executive edge buried, and learn how to install a redundant protocol to reactivate your presence and reclaim your command.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e600] [cursor=pointer]:
+                            - generic [ref=e601]: …more
+                        - article [ref=e602]:
+                          - generic [ref=e603]:
+                            - 'link "Open article: The Lone Wolf is a Liability (Why Executive Isolation is a Biological Error) by Acusio Bivona • 5 min read" [ref=e605] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/lone-wolf-liability-why-executive-isolation-error-acusio-bivona-niedc?trackingId=%2Bm3sqT8ZQ24TueWrMj6MXA%3D%3D
+                            - 'link "Open article: The Lone Wolf is a Liability (Why Executive Isolation is a Biological Error) by Acusio Bivona • 5 min read" [ref=e609] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/lone-wolf-liability-why-executive-isolation-error-acusio-bivona-niedc?trackingId=%2Bm3sqT8ZQ24TueWrMj6MXA%3D%3D
+                              - generic [ref=e611]:
+                                - generic [ref=e613]: The Lone Wolf is a Liability (Why Executive Isolation is a Biological Error)
+                                - generic [ref=e614]: Acusio Bivona
+                        - generic [ref=e616]:
+                          - generic [ref=e617]:
+                            - button "React Like" [ref=e618] [cursor=pointer]:
+                              - generic [ref=e620]:
+                                - img [ref=e621]
+                                - generic [ref=e623]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e625] [cursor=pointer]
+                          - button "Comment" [ref=e629] [cursor=pointer]:
+                            - img [ref=e630]
+                            - generic [ref=e632]: Comment
+                          - button "Repost" [ref=e635] [cursor=pointer]:
+                            - img [ref=e636]
+                            - generic [ref=e638]: Repost
+                          - button "Send in a private message" [ref=e641] [cursor=pointer]:
+                            - img [ref=e642]
+                            - generic [ref=e645]: Send
+                - listitem [ref=e646]:
+                  - article [ref=e651]:
+                    - generic [ref=e653]:
+                      - heading "Feed post number 3" [level=2] [ref=e654]
+                      - generic [ref=e655]:
+                        - generic [ref=e656]:
+                          - generic [ref=e658]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e659] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e663]
+                            - generic [ref=e664]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e665] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e666]:
+                                  - generic [ref=e668]:
+                                    - generic [ref=e669]: Acusio Bivona
+                                    - generic [ref=e670]: Acusio Bivona
+                                  - generic [ref=e671]:
+                                    - generic [ref=e672]:
+                                      - img [ref=e673]
+                                      - text: • 1st
+                                    - generic [ref=e675]: Verified • 1st
+                                - generic [ref=e676]:
+                                  - generic [ref=e677]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e678]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e679]:
+                                - generic [ref=e680]:
+                                  - text: 2d • Edited •
+                                  - img [ref=e683]
+                                - generic [ref=e685]: 2 days ago • Edited • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e688] [cursor=pointer]:
+                            - img [ref=e689]
+                        - generic [ref=e692]:
+                          - generic [ref=e695]:
+                            - text: It's 6:30 PM. You just walked through the front door after ten hours of high-velocity decision-making.
+                            - text: You're operating on the absolute margins of your cognitive bandwidth. Before you even take off your coat, your wife asks a simple logistical question. You snap. Your voice raises an octave. Your tone becomes absolute and dictatorial. You demand silence and retreat to the office.
+                            - text: You think you just established a boundary to protect your peace. You think you projected authority.
+                            - text: You did not. You reacted out of uncalibrated fear.
+                            - text: As operators, we are conditioned to believe that volume and dominance are the metrics of command. But when we look at the clinical data, aggression is a cheap biological reflex. It is the sympathetic nervous system hijacking your software because your baseline is severely degraded.
+                            - text: Love, on the other hand, is an expensive executive discipline. It requires you to be fully composed, sovereign, and deeply anchored in your biological infrastructure.
+                            - text: Right now, your true capability is dormant. It's buried under chronic stress, and your optimal presence is completely offline. You can't lead your family when your hardware is constantly redlining. When fear runs the operating system, the people who matter most to you eventually go silent.
+                            - text: You must install a new protocol. You must re-architect the machine and reclaim your edge.
+                            - text: "In Episode 17 of The Resurrection Podcast (The Love Protocol: Why Fear is a Reaction and Love is an Executive Discipline), I map out the exact sequence to restore your internal command. We run a precise diagnostic on your daily routines and begin the meticulous calibration required to shift from reactive fear to sovereign discipline."
+                            - text: Stop managing the lag. Rebuild the foundation. Reactivate the man and resurrect your life.
+                            - text: If this hit different - I have space for two executives this month. DM 'Resurrection' and I'll send the application.
+                            - text: "Listen to the full strategic briefing here:"
+                            - text: Spotify -
+                            - link "https://lnkd.in/gCzTBHuU" [ref=e696] [cursor=pointer]:
+                              - /url: https://lnkd.in/gCzTBHuU
+                            - text: Apple Podcasts -
+                            - link "https://lnkd.in/gdtZbd3N" [ref=e697] [cursor=pointer]:
+                              - /url: https://lnkd.in/gdtZbd3N
+                            - text: YouTube -
+                            - link "https://lnkd.in/gr9G5SbH" [ref=e698] [cursor=pointer]:
+                              - /url: https://lnkd.in/gr9G5SbH
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e699] [cursor=pointer]:
+                            - generic [ref=e700]: …more
+                        - generic [ref=e701]:
+                          - 'link "Open video: Ep. 17 | The Love Protocol: Why Fear is a Reaction and Love is an Executive Discipline on youtu.be, graphic" [ref=e703] [cursor=pointer]':
+                            - /url: https://youtu.be/0Khmiyqvgh4
+                          - 'link "Ep. 17 | The Love Protocol: Why Fear is a Reaction and Love is an Executive Discipline" [ref=e708] [cursor=pointer]':
+                            - /url: https://youtu.be/0Khmiyqvgh4
+                            - generic [ref=e711]:
+                              - generic [ref=e712]: "Ep. 17 | The Love Protocol: Why Fear is a Reaction and Love is an Executive Discipline"
+                              - generic [ref=e713]: youtube.com
+                        - generic [ref=e714]:
+                          - list [ref=e718]:
+                            - listitem [ref=e719]:
+                              - button "1 reaction" [ref=e720] [cursor=pointer]:
+                                - img "like" [ref=e721]
+                                - generic [ref=e722]: "1"
+                          - generic [ref=e723]:
+                            - generic [ref=e724]:
+                              - button "React Like" [ref=e725] [cursor=pointer]:
+                                - generic [ref=e727]:
+                                  - img [ref=e728]
+                                  - generic [ref=e730]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e732] [cursor=pointer]
+                            - button "Comment" [ref=e736] [cursor=pointer]:
+                              - img [ref=e737]
+                              - generic [ref=e739]: Comment
+                            - button "Repost" [ref=e742] [cursor=pointer]:
+                              - img [ref=e743]
+                              - generic [ref=e745]: Repost
+                            - button "Send in a private message" [ref=e748] [cursor=pointer]:
+                              - img [ref=e749]
+                              - generic [ref=e752]: Send
+                - listitem [ref=e753]:
+                  - article [ref=e758]:
+                    - generic [ref=e760]:
+                      - heading "Feed post number 4" [level=2] [ref=e761]
+                      - generic [ref=e762]:
+                        - generic [ref=e763]:
+                          - generic [ref=e765]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e766] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e770]
+                            - generic [ref=e771]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e772] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e773]:
+                                  - generic [ref=e775]:
+                                    - generic [ref=e776]: Acusio Bivona
+                                    - generic [ref=e777]: Acusio Bivona
+                                  - generic [ref=e778]:
+                                    - generic [ref=e779]:
+                                      - img [ref=e780]
+                                      - text: • 1st
+                                    - generic [ref=e782]: Verified • 1st
+                                - generic [ref=e783]:
+                                  - generic [ref=e784]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e785]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e786]:
+                                - generic [ref=e787]:
+                                  - text: 6d •
+                                  - img [ref=e790]
+                                - generic [ref=e792]: 6 days ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e795] [cursor=pointer]:
+                            - img [ref=e796]
+                        - generic [ref=e799]:
+                          - generic [ref=e802]: You believe your dictatorial tone at home projects authority. In reality, it’s an uncalibrated biological reaction driven by fear. When your executive bandwidth is depleted, your operating system defaults to survival mode, leaving your relational infrastructure dormant. Discover how to install the Love Protocol - not as a soft sentiment, but as a rigorous executive discipline to reclaim your sovereignty and reactivate your true presence.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e803] [cursor=pointer]:
+                            - generic [ref=e804]: …more
+                        - article [ref=e805]:
+                          - generic [ref=e806]:
+                            - 'link "Open article: The Love Protocol (Why Fear is a Reaction and Love is a Discipline) by Acusio Bivona • 5 min read" [ref=e808] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/love-protocol-why-fear-reaction-discipline-acusio-bivona-2cw9c?trackingId=FMZD0CUJZXJt2KJKkB84%2Fw%3D%3D
+                            - 'link "Open article: The Love Protocol (Why Fear is a Reaction and Love is a Discipline) by Acusio Bivona • 5 min read" [ref=e812] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/love-protocol-why-fear-reaction-discipline-acusio-bivona-2cw9c?trackingId=FMZD0CUJZXJt2KJKkB84%2Fw%3D%3D
+                              - generic [ref=e814]:
+                                - generic [ref=e816]: The Love Protocol (Why Fear is a Reaction and Love is a Discipline)
+                                - generic [ref=e817]: Acusio Bivona
+                        - generic [ref=e818]:
+                          - list [ref=e822]:
+                            - listitem [ref=e823]:
+                              - button "1 reaction" [ref=e824] [cursor=pointer]:
+                                - img "like" [ref=e825]
+                                - generic [ref=e826]: "1"
+                            - listitem [ref=e827]:
+                              - list [ref=e828]:
+                                - listitem [ref=e829]:
+                                  - button "1 repost of Acusio Bivona’s post" [ref=e830] [cursor=pointer]:
+                                    - generic [ref=e831]: 1 repost
+                          - generic [ref=e832]:
+                            - generic [ref=e833]:
+                              - button "React Like" [ref=e834] [cursor=pointer]:
+                                - generic [ref=e836]:
+                                  - img [ref=e837]
+                                  - generic [ref=e839]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e841] [cursor=pointer]
+                            - button "Comment" [ref=e845] [cursor=pointer]:
+                              - img [ref=e846]
+                              - generic [ref=e848]: Comment
+                            - button "Repost" [ref=e851] [cursor=pointer]:
+                              - img [ref=e852]
+                              - generic [ref=e854]: Repost
+                            - button "Send in a private message" [ref=e857] [cursor=pointer]:
+                              - img [ref=e858]
+                              - generic [ref=e861]: Send
+                - listitem [ref=e862]:
+                  - article [ref=e867]:
+                    - generic [ref=e869]:
+                      - heading "Feed post number 5" [level=2] [ref=e870]
+                      - generic [ref=e871]:
+                        - generic [ref=e872]:
+                          - generic [ref=e874]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e875] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e879]
+                            - generic [ref=e880]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e881] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e882]:
+                                  - generic [ref=e884]:
+                                    - generic [ref=e885]: Acusio Bivona
+                                    - generic [ref=e886]: Acusio Bivona
+                                  - generic [ref=e887]:
+                                    - generic [ref=e888]:
+                                      - img [ref=e889]
+                                      - text: • 1st
+                                    - generic [ref=e891]: Verified • 1st
+                                - generic [ref=e892]:
+                                  - generic [ref=e893]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e894]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e895]:
+                                - generic [ref=e896]:
+                                  - text: 1w •
+                                  - img [ref=e899]
+                                - generic [ref=e901]: 1 week ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e904] [cursor=pointer]:
+                            - img [ref=e905]
+                        - generic [ref=e908]:
+                          - generic [ref=e911]:
+                            - text: I want you to calculate the exact year you last woke up operating at 100% capacity.
+                            - text: Zero physical lag. Zero mental friction. A day where your biological infrastructure was fully online and your kinetic presence was undeniable.
+                            - text: If you're the founder or executive carrying the weight of an entire organization, you probably have to go back a decade to find that baseline.
+                            - text: Here is the clinical truth. The conditions will never be perfect again. The schedule will not magically clear.
+                            - text: If you're waiting for the demands to drop before you begin the process of rebuilding your physical and mental hardware, you will remain dormant forever.
+                            - text: Society tells you that when you feel the 3 PM crashes and the degraded sleep, you need to step back. The market tells you to ignore it entirely and sacrifice the machine for the output. Both protocols are structurally unsound.
+                            - text: You must learn the executive discipline of Playing Hurt.
+                            - text: You don't pause your career. You learn to compartmentalize the stress, isolate the physical lag, and re-architect the machine while the system is still live.
+                            - text: Right now, your true capability is silent. It's buried underneath a decade of corporate demands. You optimized the company, but you ignored the operator. Now, it's time to reactivate the hardware and resurrect the man running it.
+                            - text: "In Episode 24 of The Resurrection Series (The Redundancy Protocol: The Executive Requirement of Playing Hurt), I map out the exact sequence to reclaim your edge."
+                            - text: We install new software. We run a precise diagnostic on your daily routines and begin the meticulous calibration required to restore your optimal presence.
+                            - text: Stop managing the decline. Start the reconstruction.
+                            - text: If this hit different - I have space for two executives this month. DM 'Resurrection' and I'll send the application.
+                            - text: "Listen to the full strategic briefing here:"
+                            - link "https://lnkd.in/gzeuxdzF" [ref=e912] [cursor=pointer]:
+                              - /url: https://lnkd.in/gzeuxdzF
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e913] [cursor=pointer]:
+                            - generic [ref=e914]: …more
+                        - generic [ref=e915]:
+                          - 'link "Open video: The Redundancy Protocol: The Executive Requirement of Playing Hurt | The Resurrection Series Ep. 24 on youtu.be, graphic" [ref=e917] [cursor=pointer]':
+                            - /url: https://youtu.be/M3IwE-oK44A
+                          - 'link "The Redundancy Protocol: The Executive Requirement of Playing Hurt | The Resurrection Series Ep. 24" [ref=e922] [cursor=pointer]':
+                            - /url: https://youtu.be/M3IwE-oK44A
+                            - generic [ref=e925]:
+                              - generic [ref=e926]: "The Redundancy Protocol: The Executive Requirement of Playing Hurt | The Resurrection Series Ep. 24"
+                              - generic [ref=e927]: youtube.com
+                        - generic [ref=e929]:
+                          - generic [ref=e930]:
+                            - button "React Like" [ref=e931] [cursor=pointer]:
+                              - generic [ref=e933]:
+                                - img [ref=e934]
+                                - generic [ref=e936]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e938] [cursor=pointer]
+                          - button "Comment" [ref=e942] [cursor=pointer]:
+                            - img [ref=e943]
+                            - generic [ref=e945]: Comment
+                          - button "Repost" [ref=e948] [cursor=pointer]:
+                            - img [ref=e949]
+                            - generic [ref=e951]: Repost
+                          - button "Send in a private message" [ref=e954] [cursor=pointer]:
+                            - img [ref=e955]
+                            - generic [ref=e958]: Send
+                - listitem [ref=e959]:
+                  - article [ref=e1025]:
+                    - generic [ref=e1027]:
+                      - heading "Feed post number 6" [level=2] [ref=e1028]
+                      - generic [ref=e1029]:
+                        - generic [ref=e1030]:
+                          - generic [ref=e1032]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1033] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1037]
+                            - generic [ref=e1038]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1039] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1040]:
+                                  - generic [ref=e1042]:
+                                    - generic [ref=e1043]: Acusio Bivona
+                                    - generic [ref=e1044]: Acusio Bivona
+                                  - generic [ref=e1045]:
+                                    - generic [ref=e1046]:
+                                      - img [ref=e1047]
+                                      - text: • 1st
+                                    - generic [ref=e1049]: Verified • 1st
+                                - generic [ref=e1050]:
+                                  - generic [ref=e1051]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1052]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1053]:
+                                - generic [ref=e1054]:
+                                  - text: 1w •
+                                  - img [ref=e1057]
+                                - generic [ref=e1059]: 1 week ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1062] [cursor=pointer]:
+                            - img [ref=e1063]
+                        - generic [ref=e1066]:
+                          - generic [ref=e1069]: The phrase "I'll start tomorrow" is not a strategy; it’s a sedative. For the high-performing operator, writing uncashable checks to your own biology ensures your capabilities remain buried. Discover how to audit your liquidated self-trust ledger, install the proper protocols, and re-architect your biological infrastructure to reclaim your executive edge.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1070] [cursor=pointer]:
+                            - generic [ref=e1071]: …more
+                        - article [ref=e1072]:
+                          - generic [ref=e1073]:
+                            - 'link "Open article: The \"I''ll Start Tomorrow\" Sedative (Rebuilding a Liquidated Self-Trust Ledger) by Acusio Bivona • 5 min read" [ref=e1075] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/ill-start-tomorrow-sedative-rebuilding-liquidated-ledger-bivona-5eijc?trackingId=hvnZ1AX1%2FyfM3C9xs%2Fe99w%3D%3D
+                            - 'link "Open article: The \"I''ll Start Tomorrow\" Sedative (Rebuilding a Liquidated Self-Trust Ledger) by Acusio Bivona • 5 min read" [ref=e1079] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/ill-start-tomorrow-sedative-rebuilding-liquidated-ledger-bivona-5eijc?trackingId=hvnZ1AX1%2FyfM3C9xs%2Fe99w%3D%3D
+                              - generic [ref=e1081]:
+                                - generic [ref=e1083]: The "I'll Start Tomorrow" Sedative (Rebuilding a Liquidated Self-Trust Ledger)
+                                - generic [ref=e1084]: Acusio Bivona
+                        - generic [ref=e1086]:
+                          - generic [ref=e1087]:
+                            - button "React Like" [ref=e1088] [cursor=pointer]:
+                              - generic [ref=e1090]:
+                                - img [ref=e1091]
+                                - generic [ref=e1093]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e1095] [cursor=pointer]
+                          - button "Comment" [ref=e1099] [cursor=pointer]:
+                            - img [ref=e1100]
+                            - generic [ref=e1102]: Comment
+                          - button "Repost" [ref=e1105] [cursor=pointer]:
+                            - img [ref=e1106]
+                            - generic [ref=e1108]: Repost
+                          - button "Send in a private message" [ref=e1111] [cursor=pointer]:
+                            - img [ref=e1112]
+                            - generic [ref=e1115]: Send
+                - listitem [ref=e963]:
+                  - article [ref=e1118]:
+                    - generic [ref=e1120]:
+                      - heading "Feed post number 7" [level=2] [ref=e1121]
+                      - generic [ref=e1122]:
+                        - generic [ref=e1123]:
+                          - generic [ref=e1125]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1126] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1130]
+                            - generic [ref=e1131]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1132] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1133]:
+                                  - generic [ref=e1135]:
+                                    - generic [ref=e1136]: Acusio Bivona
+                                    - generic [ref=e1137]: Acusio Bivona
+                                  - generic [ref=e1138]:
+                                    - generic [ref=e1139]:
+                                      - img [ref=e1140]
+                                      - text: • 1st
+                                    - generic [ref=e1142]: Verified • 1st
+                                - generic [ref=e1143]:
+                                  - generic [ref=e1144]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1145]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1146]:
+                                - generic [ref=e1147]:
+                                  - text: 1w •
+                                  - img [ref=e1150]
+                                - generic [ref=e1152]: 1 week ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1155] [cursor=pointer]:
+                            - img [ref=e1156]
+                        - generic [ref=e1159]:
+                          - generic [ref=e1162]:
+                            - text: It's 10:45 PM on Sunday. You're sitting at the kitchen island. The house is completely silent.
+                            - text: The only illumination in the room is the ambient glow of your laptop. You are looking at the calendar for the week ahead. The blocks of time are stacked like concrete. Back-to-back meetings, strategic reviews, board demands.
+                            - text: In this narrow window of quiet, you feel the lag. Your joints ache. Your breathing is shallow. The physical toll of running the company is undeniable.
+                            - text: And right there, in the silence, you tell yourself the exact same lie you have repeated for the last 50 Sundays in a row.
+                            - text: "\"I will start tomorrow.\""
+                            - text: Tomorrow, the diet begins. Tomorrow, the scotch stays in the cabinet. Tomorrow, you'll wake up at 5:00 AM, hit the pavement, and restore your edge.
+                            - text: It sounds like a plan. It's actually a sedative.
+                            - text: When you say "tomorrow," you get the chemical relief of making a decision without the friction of taking action. You are writing a fraudulent check to your own biology. You have liquidated your self-trust ledger, and your operating system knows you don't have the funds to back the claim.
+                            - text: You can't resolve a fundamental code error with a sudden burst of Monday morning motivation. The kinetic energy you once commanded is offline. It is dormant, buried under years of neglected hardware.
+                            - text: If you are tired of the system lag, it's time to re-architect the machine. In Episode 16 of The Resurrection Series (The "I'll Start Tomorrow" Sedative), I map out the exact sequence to rebuild a liquidated self-trust ledger.
+                            - text: We do not rely on willpower. We install a precise clinical protocol. We run a complete diagnostic on your daily routines to locate the exact point of friction. We reclaim your biological infrastructure and reactivate the baseline required for optimal presence.
+                            - text: It requires meticulous calibration. But it's the only way to resurrect the operator and rebuild the foundation.
+                            - text: Stop managing the slow decline. Stop writing checks your biology can't cash.
+                            - text: If this hit different - I have space for two executives this month. DM 'Resurrection' and I'll send the application.
+                            - text: "Listen to the full system audit here:"
+                            - text: Spotify -
+                            - link "https://lnkd.in/g_aEWDbt" [ref=e1163] [cursor=pointer]:
+                              - /url: https://lnkd.in/g_aEWDbt
+                            - text: Apple Podcasts -
+                            - link "https://lnkd.in/gaxWM-7q" [ref=e1164] [cursor=pointer]:
+                              - /url: https://lnkd.in/gaxWM-7q
+                            - text: YouTube -
+                            - link "https://lnkd.in/g9vHqhCY" [ref=e1165] [cursor=pointer]:
+                              - /url: https://lnkd.in/g9vHqhCY
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1166] [cursor=pointer]:
+                            - generic [ref=e1167]: …more
+                        - generic [ref=e1168]:
+                          - 'link "Open video: Ep. 16 | The &quot;I&#39;ll Start Tomorrow&quot; Sedative: Rebuilding a Liquidated Self-Trust Ledger on youtu.be, graphic" [ref=e1170] [cursor=pointer]':
+                            - /url: https://youtu.be/wIF6XWuUnic
+                          - 'link "Ep. 16 | The \"I''ll Start Tomorrow\" Sedative: Rebuilding a Liquidated Self-Trust Ledger" [ref=e1175] [cursor=pointer]':
+                            - /url: https://youtu.be/wIF6XWuUnic
+                            - generic [ref=e1178]:
+                              - generic [ref=e1179]: "Ep. 16 | The \"I'll Start Tomorrow\" Sedative: Rebuilding a Liquidated Self-Trust Ledger"
+                              - generic [ref=e1180]: youtube.com
+                        - generic [ref=e1182]:
+                          - generic [ref=e1183]:
+                            - button "React Like" [ref=e1184] [cursor=pointer]:
+                              - generic [ref=e1186]:
+                                - img [ref=e1187]
+                                - generic [ref=e1189]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e1191] [cursor=pointer]
+                          - button "Comment" [ref=e1195] [cursor=pointer]:
+                            - img [ref=e1196]
+                            - generic [ref=e1198]: Comment
+                          - button "Repost" [ref=e1201] [cursor=pointer]:
+                            - img [ref=e1202]
+                            - generic [ref=e1204]: Repost
+                          - button "Send in a private message" [ref=e1207] [cursor=pointer]:
+                            - img [ref=e1208]
+                            - generic [ref=e1211]: Send
+                - listitem [ref=e967]:
+                  - article [ref=e1214]:
+                    - generic [ref=e1216]:
+                      - heading "Feed post number 8" [level=2] [ref=e1217]
+                      - generic [ref=e1218]:
+                        - generic [ref=e1219]:
+                          - generic [ref=e1221]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1222] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1226]
+                            - generic [ref=e1227]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1228] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1229]:
+                                  - generic [ref=e1231]:
+                                    - generic [ref=e1232]: Acusio Bivona
+                                    - generic [ref=e1233]: Acusio Bivona
+                                  - generic [ref=e1234]:
+                                    - generic [ref=e1235]:
+                                      - img [ref=e1236]
+                                      - text: • 1st
+                                    - generic [ref=e1238]: Verified • 1st
+                                - generic [ref=e1239]:
+                                  - generic [ref=e1240]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1241]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1242]:
+                                - generic [ref=e1243]:
+                                  - text: 1w •
+                                  - img [ref=e1246]
+                                - generic [ref=e1248]: 1 week ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1251] [cursor=pointer]:
+                            - img [ref=e1252]
+                        - generic [ref=e1255]:
+                          - generic [ref=e1258]: When a professional detonation occurs, society offers civilian sentiment - soft, passive advice about looking on the bright side. For the high-performing operator, this is useless. You don’t need a sedative to tolerate the smoke; you need a weapon to extract the hidden tactical assets. Discover how to deploy the Forged Gratitude protocol to reclaim your presence, restore your biological infrastructure, and reactivate your dormant edge.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1259] [cursor=pointer]:
+                            - generic [ref=e1260]: …more
+                        - article [ref=e1261]:
+                          - 'link "Open article: Executive Intelligence: The Weaponization of Gratitude by Acusio Bivona • 5 min read" [ref=e1263] [cursor=pointer]':
+                            - /url: https://www.linkedin.com/pulse/executive-intelligence-weaponization-gratitude-acusio-bivona-hdgmc?trackingId=Y2O9RBjV1A8wPR2Xtj%2F1Rw%3D%3D
+                            - generic [ref=e1265]:
+                              - generic [ref=e1267]: "Executive Intelligence: The Weaponization of Gratitude"
+                              - generic [ref=e1268]: Acusio Bivona
+                        - generic [ref=e1270]:
+                          - generic [ref=e1271]:
+                            - button "React Like" [ref=e1272] [cursor=pointer]:
+                              - generic [ref=e1274]:
+                                - img [ref=e1275]
+                                - generic [ref=e1277]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e1279] [cursor=pointer]
+                          - button "Comment" [ref=e1283] [cursor=pointer]:
+                            - img [ref=e1284]
+                            - generic [ref=e1286]: Comment
+                          - button "Repost" [ref=e1289] [cursor=pointer]:
+                            - img [ref=e1290]
+                            - generic [ref=e1292]: Repost
+                          - button "Send in a private message" [ref=e1295] [cursor=pointer]:
+                            - img [ref=e1296]
+                            - generic [ref=e1299]: Send
+                - listitem [ref=e971]
+                - listitem [ref=e975]
+                - listitem [ref=e979]
+                - listitem [ref=e983]
+                - listitem [ref=e987]:
+                  - article [ref=e1302]:
+                    - generic [ref=e1304]:
+                      - heading "Feed post number 13" [level=2] [ref=e1305]
+                      - generic [ref=e1306]:
+                        - generic [ref=e1307]:
+                          - generic [ref=e1309]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1310] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1314]
+                            - generic [ref=e1315]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1316] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1317]:
+                                  - generic [ref=e1319]:
+                                    - generic [ref=e1320]: Acusio Bivona
+                                    - generic [ref=e1321]: Acusio Bivona
+                                  - generic [ref=e1322]:
+                                    - generic [ref=e1323]:
+                                      - img [ref=e1324]
+                                      - text: • 1st
+                                    - generic [ref=e1326]: Verified • 1st
+                                - generic [ref=e1327]:
+                                  - generic [ref=e1328]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1329]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1330]:
+                                - generic [ref=e1331]:
+                                  - text: 2w •
+                                  - img [ref=e1334]
+                                - generic [ref=e1336]: 2 weeks ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1339] [cursor=pointer]:
+                            - img [ref=e1340]
+                        - generic [ref=e1343]:
+                          - generic [ref=e1346]: A professional detonation - a lost contract, a dissolved partnership, a physical decline - is not the end; it is a divine invitation to begin your reconstruction. When your executive operating system crashes, you don't need motivation. You need a sequential reboot protocol to clear corrupted code, progressively rebuild your biological hardware, and forge an unbreakable new foundation. Here is the 8-point protocol to get the machine back online.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1347] [cursor=pointer]:
+                            - generic [ref=e1348]: …more
+                        - article [ref=e1349]:
+                          - generic [ref=e1350]:
+                            - 'link "Open article: The 8-Point System Reboot: Rebuilding After a Professional Detonation by Acusio Bivona • 4 min read" [ref=e1352] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/8-point-system-reboot-rebuilding-after-professional-acusio-bivona-vsvqc?trackingId=LKgYCk7qDViZnRFr4w9r%2FQ%3D%3D
+                            - 'link "Open article: The 8-Point System Reboot: Rebuilding After a Professional Detonation by Acusio Bivona • 4 min read" [ref=e1356] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/8-point-system-reboot-rebuilding-after-professional-acusio-bivona-vsvqc?trackingId=LKgYCk7qDViZnRFr4w9r%2FQ%3D%3D
+                              - generic [ref=e1358]:
+                                - generic [ref=e1360]: "The 8-Point System Reboot: Rebuilding After a Professional Detonation"
+                                - generic [ref=e1361]: Acusio Bivona
+                        - generic [ref=e1362]:
+                          - list [ref=e1366]:
+                            - listitem [ref=e1367]:
+                              - button "2 reactions" [ref=e1368] [cursor=pointer]:
+                                - img "like" [ref=e1369]
+                                - generic [ref=e1370]: "2"
+                          - generic [ref=e1371]:
+                            - generic [ref=e1372]:
+                              - button "React Like" [ref=e1373] [cursor=pointer]:
+                                - generic [ref=e1375]:
+                                  - img [ref=e1376]
+                                  - generic [ref=e1378]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e1380] [cursor=pointer]
+                            - button "Comment" [ref=e1384] [cursor=pointer]:
+                              - img [ref=e1385]
+                              - generic [ref=e1387]: Comment
+                            - button "Repost" [ref=e1390] [cursor=pointer]:
+                              - img [ref=e1391]
+                              - generic [ref=e1393]: Repost
+                            - button "Send in a private message" [ref=e1396] [cursor=pointer]:
+                              - img [ref=e1397]
+                              - generic [ref=e1400]: Send
+                - listitem [ref=e991]:
+                  - article [ref=e1403]:
+                    - generic [ref=e1405]:
+                      - heading "Feed post number 14" [level=2] [ref=e1406]
+                      - generic [ref=e1407]:
+                        - generic [ref=e1408]:
+                          - generic [ref=e1410]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1411] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1415]
+                            - generic [ref=e1416]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1417] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1418]:
+                                  - generic [ref=e1420]:
+                                    - generic [ref=e1421]: Acusio Bivona
+                                    - generic [ref=e1422]: Acusio Bivona
+                                  - generic [ref=e1423]:
+                                    - generic [ref=e1424]:
+                                      - img [ref=e1425]
+                                      - text: • 1st
+                                    - generic [ref=e1427]: Verified • 1st
+                                - generic [ref=e1428]:
+                                  - generic [ref=e1429]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1430]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1431]:
+                                - generic [ref=e1432]:
+                                  - text: 3w •
+                                  - img [ref=e1435]
+                                - generic [ref=e1437]: 3 weeks ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1440] [cursor=pointer]:
+                            - img [ref=e1441]
+                        - generic [ref=e1444]:
+                          - generic [ref=e1447]:
+                            - text: Society tells you to "feel your feelings." The market tells you to be a robot. Both will destroy your operating system.
+                            - text: You are in a high-stakes negotiation, and a massive emotional spike hits.
+                            - text: If you break down in the boardroom, you lose the leverage.
+                            - text: If you pretend the emotion doesn't exist, you eventually suffer a cardiac event at 45.
+                            - text: Most executives think they are being stoic by shoving the data down. They aren't. They are just suppressed.
+                            - text: Suppression is a system error. It is a background process eating up 40% of your CPU just to hold a beach ball underwater. It is the exact reason you have unexplainable brain fog at 2 PM and wake up with your heart racing at 3 AM.
+                            - text: "In Episode 22, we install a new upgrade: The Submarine Protocol."
+                            - text: We break down the critical, mechanical difference between Suppression (denial) and Compartmentalization (a tactical advantage).
+                            - text: When a submarine takes a hit, the captain does not ignore the water. He seals the watertight doors. He isolates the flooded compartment so the ship can keep fighting, and he schedules a time to drain the water when they surface.
+                            - text: "In this briefing, we cover:"
+                            - text: "- System Drag: Why emotional suppression is causing your insomnia."
+                            - text: "- The Submarine Metaphor: How to consciously compartmentalize under pressure."
+                            - text: "- The Decompression Window: The non-negotiable daily protocol to clear the cache."
+                            - text: Emotions are high-density data. Stop flying blind.
+                            - text: "Watch the full protocol here:"
+                            - link "https://lnkd.in/gu9XWYGc" [ref=e1448] [cursor=pointer]:
+                              - /url: https://lnkd.in/gu9XWYGc
+                            - link "hashtag TheResurrectionSeries" [ref=e1449] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23theresurrectionseries&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1450]: hashtag
+                              - generic [ref=e1451]: "#TheResurrectionSeries"
+                            - link "hashtag ExecutivePerformance" [ref=e1452] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23executiveperformance&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1453]: hashtag
+                              - generic [ref=e1454]: "#ExecutivePerformance"
+                            - link "hashtag Compartmentalization" [ref=e1455] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23compartmentalization&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1456]: hashtag
+                              - generic [ref=e1457]: "#Compartmentalization"
+                            - link "hashtag LeadershipPsychology" [ref=e1458] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23leadershippsychology&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1459]: hashtag
+                              - generic [ref=e1460]: "#LeadershipPsychology"
+                            - link "hashtag Stoicism" [ref=e1461] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23stoicism&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1462]: hashtag
+                              - generic [ref=e1463]: "#Stoicism"
+                            - link "hashtag SystemOptimization" [ref=e1464] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23systemoptimization&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1465]: hashtag
+                              - generic [ref=e1466]: "#SystemOptimization"
+                            - link "hashtag TheResurrectionCoach" [ref=e1467] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23theresurrectioncoach&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1468]: hashtag
+                              - generic [ref=e1469]: "#TheResurrectionCoach"
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1470] [cursor=pointer]:
+                            - generic [ref=e1471]: …more
+                        - generic [ref=e1472]:
+                          - 'link "Open video: Suppression vs. Compartmentalization (The Executive Protocol) on youtu.be, graphic" [ref=e1474] [cursor=pointer]':
+                            - /url: https://youtu.be/k1_bV6mCPOc
+                          - link "Suppression vs. Compartmentalization (The Executive Protocol)" [ref=e1479] [cursor=pointer]:
+                            - /url: https://youtu.be/k1_bV6mCPOc
+                            - generic [ref=e1482]:
+                              - generic [ref=e1483]: Suppression vs. Compartmentalization (The Executive Protocol)
+                              - generic [ref=e1484]: youtube.com
+                        - generic [ref=e1486]:
+                          - generic [ref=e1487]:
+                            - button "React Like" [ref=e1488] [cursor=pointer]:
+                              - generic [ref=e1490]:
+                                - img [ref=e1491]
+                                - generic [ref=e1493]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e1495] [cursor=pointer]
+                          - button "Comment" [ref=e1499] [cursor=pointer]:
+                            - img [ref=e1500]
+                            - generic [ref=e1502]: Comment
+                          - button "Repost" [ref=e1505] [cursor=pointer]:
+                            - img [ref=e1506]
+                            - generic [ref=e1508]: Repost
+                          - button "Send in a private message" [ref=e1511] [cursor=pointer]:
+                            - img [ref=e1512]
+                            - generic [ref=e1515]: Send
+                - listitem [ref=e995]:
+                  - article [ref=e1518]:
+                    - generic [ref=e1520]:
+                      - heading "Feed post number 15" [level=2] [ref=e1521]
+                      - generic [ref=e1522]:
+                        - generic [ref=e1523]:
+                          - generic [ref=e1525]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1526] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1530]
+                            - generic [ref=e1531]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1532] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1533]:
+                                  - generic [ref=e1535]:
+                                    - generic [ref=e1536]: Acusio Bivona
+                                    - generic [ref=e1537]: Acusio Bivona
+                                  - generic [ref=e1538]:
+                                    - generic [ref=e1539]:
+                                      - img [ref=e1540]
+                                      - text: • 1st
+                                    - generic [ref=e1542]: Verified • 1st
+                                - generic [ref=e1543]:
+                                  - generic [ref=e1544]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1545]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1546]:
+                                - generic [ref=e1547]:
+                                  - text: 3w •
+                                  - img [ref=e1550]
+                                - generic [ref=e1552]: 3 weeks ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1555] [cursor=pointer]:
+                            - img [ref=e1556]
+                        - generic [ref=e1559]:
+                          - generic [ref=e1562]:
+                            - text: The "I Am" Error will destroy you.
+                            - text: If I stripped the title from your LinkedIn today...
+                            - text: If I liquidated the assets and erased the public reputation...
+                            - text: Who is left in the chair?
+                            - text: "For most high-performing executives, the brutal answer is: No one. We are conditioned to build our entire sense of self on the fragile foundation of our professional success. You have built a Single-Point-of-Failure Identity. When a partnership detonates or a seven-figure deal vanishes, you don't just lose your job. You experience an identity death. You are an identity in exile."
+                            - text: "I know this fire. Two months after losing a massive contract and a dream project, my entire professional identity was devastated. I was left staring at the ceiling at 3:00 a.m. asking: \"If I'm not that, then what the hell am I?\""
+                            - text: You cannot network your way out of this wreckage. You must execute a tactical intervention to build your way out.
+                            - text: In Episode 13, we execute The Phoenix Protocol.
+                            - text: "This is the 4-step framework to re-architect your core identity:"
+                            - text: "1. The Black Box Analysis: An unflinching assessment of what you own."
+                            - text: "2. Strategic Silence: A 7-day digital fast to starve the voice of comparison."
+                            - text: "3. The Momentum Engine: Forging the first piece of new evidence to build self-trust."
+                            - text: "4. The Kernel Rewrite: Forcing the answer of \"Who am I?\" to be about character, not accomplishments."
+                            - text: The career collapse feels like a curse, but it is a divine gift. The fire burned away a false, fragile identity that was always one bad meeting away from destruction.
+                            - text: Stop grieving what you did. Start forging who you are.
+                            - text: "Listen to the full briefing here:"
+                            - text: "- Spotify:"
+                            - link "https://lnkd.in/g6D7XYKa" [ref=e1563] [cursor=pointer]:
+                              - /url: https://lnkd.in/g6D7XYKa
+                            - text: "- Apple Podcasts:"
+                            - link "https://lnkd.in/gJPaDEP4" [ref=e1564] [cursor=pointer]:
+                              - /url: https://lnkd.in/gJPaDEP4
+                            - text: "- Youtube:"
+                            - link "https://lnkd.in/gH-_Nrd8" [ref=e1565] [cursor=pointer]:
+                              - /url: https://lnkd.in/gH-_Nrd8
+                            - link "hashtag ExecutivePerformance" [ref=e1566] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23executiveperformance&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1567]: hashtag
+                              - generic [ref=e1568]: "#ExecutivePerformance"
+                            - link "hashtag ThePhoenixProtocol" [ref=e1569] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23thephoenixprotocol&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1570]: hashtag
+                              - generic [ref=e1571]: "#ThePhoenixProtocol"
+                            - link "hashtag Founders" [ref=e1572] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23founders&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1573]: hashtag
+                              - generic [ref=e1574]: "#Founders"
+                            - link "hashtag IdentityReboot" [ref=e1575] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23identityreboot&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1576]: hashtag
+                              - generic [ref=e1577]: "#IdentityReboot"
+                            - link "hashtag TheResurrectionCoach" [ref=e1578] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23theresurrectioncoach&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1579]: hashtag
+                              - generic [ref=e1580]: "#TheResurrectionCoach"
+                            - link "hashtag CareerTransition" [ref=e1581] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23careertransition&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1582]: hashtag
+                              - generic [ref=e1583]: "#CareerTransition"
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1584] [cursor=pointer]:
+                            - generic [ref=e1585]: …more
+                        - generic [ref=e1586]:
+                          - 'link "Open video: The Phoenix Protocol: Surviving Professional Execution (Ep. 13) on youtu.be, graphic" [ref=e1588] [cursor=pointer]':
+                            - /url: https://youtu.be/FFdLmABR6AY
+                          - 'link "The Phoenix Protocol: Surviving Professional Execution (Ep. 13)" [ref=e1593] [cursor=pointer]':
+                            - /url: https://youtu.be/FFdLmABR6AY
+                            - generic [ref=e1596]:
+                              - generic [ref=e1597]: "The Phoenix Protocol: Surviving Professional Execution (Ep. 13)"
+                              - generic [ref=e1598]: youtube.com
+                        - generic [ref=e1599]:
+                          - list [ref=e1603]:
+                            - listitem [ref=e1604]:
+                              - button "1 reaction" [ref=e1605] [cursor=pointer]:
+                                - img "like" [ref=e1606]
+                                - generic [ref=e1607]: "1"
+                            - listitem [ref=e1608]:
+                              - list [ref=e1609]:
+                                - listitem [ref=e1610]:
+                                  - button "1 repost of Acusio Bivona’s post" [ref=e1611] [cursor=pointer]:
+                                    - generic [ref=e1612]: 1 repost
+                          - generic [ref=e1613]:
+                            - generic [ref=e1614]:
+                              - button "React Like" [ref=e1615] [cursor=pointer]:
+                                - generic [ref=e1617]:
+                                  - img [ref=e1618]
+                                  - generic [ref=e1620]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e1622] [cursor=pointer]
+                            - button "Comment" [ref=e1626] [cursor=pointer]:
+                              - img [ref=e1627]
+                              - generic [ref=e1629]: Comment
+                            - button "Repost" [ref=e1632] [cursor=pointer]:
+                              - img [ref=e1633]
+                              - generic [ref=e1635]: Repost
+                            - button "Send in a private message" [ref=e1638] [cursor=pointer]:
+                              - img [ref=e1639]
+                              - generic [ref=e1642]: Send
+                - listitem [ref=e999]:
+                  - article [ref=e1645]:
+                    - generic [ref=e1647]:
+                      - heading "Feed post number 16" [level=2] [ref=e1648]
+                      - generic [ref=e1649]:
+                        - generic [ref=e1650]:
+                          - generic [ref=e1652]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1653] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1657]
+                            - generic [ref=e1658]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1659] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1660]:
+                                  - generic [ref=e1662]:
+                                    - generic [ref=e1663]: Acusio Bivona
+                                    - generic [ref=e1664]: Acusio Bivona
+                                  - generic [ref=e1665]:
+                                    - generic [ref=e1666]:
+                                      - img [ref=e1667]
+                                      - text: • 1st
+                                    - generic [ref=e1669]: Verified • 1st
+                                - generic [ref=e1670]:
+                                  - generic [ref=e1671]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1672]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1673]:
+                                - generic [ref=e1674]:
+                                  - text: 3w •
+                                  - img [ref=e1677]
+                                - generic [ref=e1679]: 3 weeks ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1682] [cursor=pointer]:
+                            - img [ref=e1683]
+                        - generic [ref=e1686]:
+                          - generic [ref=e1689]: Society tells you to "feel your feelings." The market tells you to be a robot. Both are wrong. There is a critical difference between Suppression (a system error) and Compartmentalization (a tactical advantage). Learn how to use the Submarine Protocol to function under fire without sinking the ship.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1690] [cursor=pointer]:
+                            - generic [ref=e1691]: …more
+                        - article [ref=e1692]:
+                          - generic [ref=e1693]:
+                            - 'link "Open article: Suppression vs. Compartmentalization: The Executive’s Guide to Emotional Control by Acusio Bivona • 3 min read" [ref=e1695] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/suppression-vs-compartmentalization-executives-guide-emotional-wd3ic?trackingId=FTFfbjPeCEjWpeExlPPH5A%3D%3D
+                            - 'link "Open article: Suppression vs. Compartmentalization: The Executive’s Guide to Emotional Control by Acusio Bivona • 3 min read" [ref=e1699] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/suppression-vs-compartmentalization-executives-guide-emotional-wd3ic?trackingId=FTFfbjPeCEjWpeExlPPH5A%3D%3D
+                              - generic [ref=e1701]:
+                                - generic [ref=e1703]: "Suppression vs. Compartmentalization: The Executive’s Guide to Emotional Control"
+                                - generic [ref=e1704]: Acusio Bivona
+                        - generic [ref=e1706]:
+                          - generic [ref=e1707]:
+                            - button "React Like" [ref=e1708] [cursor=pointer]:
+                              - generic [ref=e1710]:
+                                - img [ref=e1711]
+                                - generic [ref=e1713]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e1715] [cursor=pointer]
+                          - button "Comment" [ref=e1719] [cursor=pointer]:
+                            - img [ref=e1720]
+                            - generic [ref=e1722]: Comment
+                          - button "Repost" [ref=e1725] [cursor=pointer]:
+                            - img [ref=e1726]
+                            - generic [ref=e1728]: Repost
+                          - button "Send in a private message" [ref=e1731] [cursor=pointer]:
+                            - img [ref=e1732]
+                            - generic [ref=e1735]: Send
+                - listitem [ref=e1003]:
+                  - article [ref=e1738]:
+                    - generic [ref=e1740]:
+                      - heading "Feed post number 17" [level=2] [ref=e1741]
+                      - generic [ref=e1742]:
+                        - generic [ref=e1743]:
+                          - generic [ref=e1745]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1746] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1750]
+                            - generic [ref=e1751]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1752] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1753]:
+                                  - generic [ref=e1755]:
+                                    - generic [ref=e1756]: Acusio Bivona
+                                    - generic [ref=e1757]: Acusio Bivona
+                                  - generic [ref=e1758]:
+                                    - generic [ref=e1759]:
+                                      - img [ref=e1760]
+                                      - text: • 1st
+                                    - generic [ref=e1762]: Verified • 1st
+                                - generic [ref=e1763]:
+                                  - generic [ref=e1764]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1765]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1766]:
+                                - generic [ref=e1767]:
+                                  - text: 1mo •
+                                  - img [ref=e1770]
+                                - generic [ref=e1772]: 1 month ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1775] [cursor=pointer]:
+                            - img [ref=e1776]
+                        - generic [ref=e1779]:
+                          - generic [ref=e1782]:
+                            - text: If I took the company away today... who is left?
+                            - text: I want you to sit with that question. If I stripped the Founder title from your LinkedIn... If I liquidated the assets and erased the public reputation... Who is left in the chair?
+                            - text: "For most high-performing men, the answer is terrifying: \"No one.\""
+                            - text: You have spent the last decade building a Kingdom to hide the fact that there is no King. You have confused Function (what you do) with Identity (who you are).
+                            - text: Grammatically, saying "I am a CEO" is a lie. CEO is a role you play. It is a hat you wear. It is not You.
+                            - text: When you make this error, you become Fragile.
+                            - text: "- When the P&L is red, you feel like a failure."
+                            - text: "- When the deal stalls, your self-worth collapses."
+                            - text: "- You are terrified that if the business stops, you cease to exist."
+                            - text: In Episode 21, we perform surgery on your Identity. I introduce the Pilot vs. Plane protocol.
+                            - text: The Business is the Jet. You are the Pilot. A good pilot loves his machine, but he never thinks he is the machine. If the engine fails, he ejects. He doesn't die with the asset.
+                            - text: "In this briefing, we cover:"
+                            - text: "- The \"I Am\" Error: Why success makes you fragile."
+                            - text: "- Lethal Detachment: How to negotiate with absolute power by needing nothing."
+                            - text: "- The Audit: Finding out who you are when the room is quiet."
+                            - text: You are not the machine. You are the operator.
+                            - text: "Watch the full episode here:"
+                            - link "https://lnkd.in/gi4-tyKy" [ref=e1783] [cursor=pointer]:
+                              - /url: https://lnkd.in/gi4-tyKy
+                            - link "hashtag TheResurrectionSeries" [ref=e1784] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23theresurrectionseries&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1785]: hashtag
+                              - generic [ref=e1786]: "#TheResurrectionSeries"
+                            - link "hashtag FounderIdentity" [ref=e1787] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23founderidentity&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1788]: hashtag
+                              - generic [ref=e1789]: "#FounderIdentity"
+                            - link "hashtag ExecutiveCoaching" [ref=e1790] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23executivecoaching&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1791]: hashtag
+                              - generic [ref=e1792]: "#ExecutiveCoaching"
+                            - link "hashtag Stoicism" [ref=e1793] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23stoicism&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1794]: hashtag
+                              - generic [ref=e1795]: "#Stoicism"
+                            - link "hashtag LeadershipPsychology" [ref=e1796] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23leadershippsychology&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1797]: hashtag
+                              - generic [ref=e1798]: "#LeadershipPsychology"
+                            - link "hashtag AntiFragile" [ref=e1799] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23antifragile&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1800]: hashtag
+                              - generic [ref=e1801]: "#AntiFragile"
+                            - link "hashtag TheResurrectionCoach" [ref=e1802] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23theresurrectioncoach&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1803]: hashtag
+                              - generic [ref=e1804]: "#TheResurrectionCoach"
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1805] [cursor=pointer]:
+                            - generic [ref=e1806]: …more
+                        - generic [ref=e1807]:
+                          - 'link "Open video: Who Are You Without the Money? (The Founder&#39;s Trap) on youtu.be, graphic" [ref=e1809] [cursor=pointer]':
+                            - /url: https://youtu.be/RBtdbJIHl20
+                          - link "Who Are You Without the Money? (The Founder's Trap)" [ref=e1814] [cursor=pointer]:
+                            - /url: https://youtu.be/RBtdbJIHl20
+                            - generic [ref=e1817]:
+                              - generic [ref=e1818]: Who Are You Without the Money? (The Founder's Trap)
+                              - generic [ref=e1819]: youtube.com
+                        - generic [ref=e1820]:
+                          - list [ref=e1824]:
+                            - listitem [ref=e1825]:
+                              - button "2 reactions" [ref=e1826] [cursor=pointer]:
+                                - img "like" [ref=e1827]
+                                - generic [ref=e1828]: "2"
+                            - listitem [ref=e1829]:
+                              - list [ref=e1830]:
+                                - listitem [ref=e1831]:
+                                  - button "1 repost of Acusio Bivona’s post" [ref=e1832] [cursor=pointer]:
+                                    - generic [ref=e1833]: 1 repost
+                          - generic [ref=e1834]:
+                            - generic [ref=e1835]:
+                              - button "React Like" [ref=e1836] [cursor=pointer]:
+                                - generic [ref=e1838]:
+                                  - img [ref=e1839]
+                                  - generic [ref=e1841]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e1843] [cursor=pointer]
+                            - button "Comment" [ref=e1847] [cursor=pointer]:
+                              - img [ref=e1848]
+                              - generic [ref=e1850]: Comment
+                            - button "Repost" [ref=e1853] [cursor=pointer]:
+                              - img [ref=e1854]
+                              - generic [ref=e1856]: Repost
+                            - button "Send in a private message" [ref=e1859] [cursor=pointer]:
+                              - img [ref=e1860]
+                              - generic [ref=e1863]: Send
+                - listitem [ref=e1007]:
+                  - article [ref=e1866]:
+                    - generic [ref=e1868]:
+                      - heading "Feed post number 18" [level=2] [ref=e1869]
+                      - generic [ref=e1870]:
+                        - generic [ref=e1871]:
+                          - generic [ref=e1873]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1874] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1878]
+                            - generic [ref=e1879]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1880] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1881]:
+                                  - generic [ref=e1883]:
+                                    - generic [ref=e1884]: Acusio Bivona
+                                    - generic [ref=e1885]: Acusio Bivona
+                                  - generic [ref=e1886]:
+                                    - generic [ref=e1887]:
+                                      - img [ref=e1888]
+                                      - text: • 1st
+                                    - generic [ref=e1890]: Verified • 1st
+                                - generic [ref=e1891]:
+                                  - generic [ref=e1892]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e1893]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e1894]:
+                                - generic [ref=e1895]:
+                                  - text: 1mo •
+                                  - img [ref=e1898]
+                                - generic [ref=e1900]: 1 month ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e1903] [cursor=pointer]:
+                            - img [ref=e1904]
+                        - generic [ref=e1907]:
+                          - generic [ref=e1910]:
+                            - text: You are winning on paper. You are dying in reality.
+                            - text: I see this constantly in the biometrics of the Founders I work with. Revenue is up. Status is high. The Success metrics are green. But the internal operating system is flashing red.
+                            - text: You are running on a specific fuel source I call Hot Fusion. You are generating power through friction, pressure, and brute force. You believe that Stress is necessary fuel. You believe that Anxiety is the cost of doing business.
+                            - text: This is an obsolete physics model. It works... until the reactor melts down.
+                            - text: In Episode 12, we audit the physics of leadership. We stop talking about "work-life balance" and start talking about Cold Resonance.
+                            - text: It is the difference between a combustion engine that explodes at 8,000 RPM and a superconductor that transfers infinite power with zero resistance.
+                            - text: "In this briefing, we cover:"
+                            - text: "- Dirty Energy: Why Hustle creates heat (inflammation, insomnia, rage)."
+                            - text: "- The Superconductor: How to align your life so friction disappears."
+                            - text: "- The Protocol: How to cool the reactor before the meltdown occurs."
+                            - text: Stop trying to defy the laws of physics. Heat does not scale.
+                            - text: "Listen to the full protocol here:"
+                            - text: "- Spotify:"
+                            - link "https://lnkd.in/g9ziCU6x" [ref=e1911] [cursor=pointer]:
+                              - /url: https://lnkd.in/g9ziCU6x
+                            - text: "- Apple Podcasts:"
+                            - link "https://lnkd.in/gH4y-RKR" [ref=e1912] [cursor=pointer]:
+                              - /url: https://lnkd.in/gH4y-RKR
+                            - text: "- YouTube:"
+                            - link "https://lnkd.in/gjJbEJja" [ref=e1913] [cursor=pointer]:
+                              - /url: https://lnkd.in/gjJbEJja
+                            - link "hashtag TheResurrectionPodcast" [ref=e1914] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23theresurrectionpodcast&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1915]: hashtag
+                              - generic [ref=e1916]: "#TheResurrectionPodcast"
+                            - link "hashtag ExecutiveBurnout" [ref=e1917] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23executiveburnout&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1918]: hashtag
+                              - generic [ref=e1919]: "#ExecutiveBurnout"
+                            - link "hashtag LeadershipPhysics" [ref=e1920] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23leadershipphysics&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1921]: hashtag
+                              - generic [ref=e1922]: "#LeadershipPhysics"
+                            - link "hashtag ColdResonance" [ref=e1923] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23coldresonance&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1924]: hashtag
+                              - generic [ref=e1925]: "#ColdResonance"
+                            - link "hashtag FounderMentalHealth" [ref=e1926] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23foundermentalhealth&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1927]: hashtag
+                              - generic [ref=e1928]: "#FounderMentalHealth"
+                            - link "hashtag Stoicism" [ref=e1929] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23stoicism&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1930]: hashtag
+                              - generic [ref=e1931]: "#Stoicism"
+                            - link "hashtag SystemOptimization" [ref=e1932] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/search/results/all/?keywords=%23systemoptimization&origin=HASH_TAG_FROM_FEED
+                              - generic [ref=e1933]: hashtag
+                              - generic [ref=e1934]: "#SystemOptimization"
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e1935] [cursor=pointer]:
+                            - generic [ref=e1936]: …more
+                        - generic [ref=e1937]:
+                          - 'link "Open video: The Cold Resonance Protocol: Why &quot;Hustle&quot; Is Inefficient (Ep. 12) on youtu.be, graphic" [ref=e1939] [cursor=pointer]':
+                            - /url: https://youtu.be/geozVX88-6I
+                          - 'link "The Cold Resonance Protocol: Why \"Hustle\" Is Inefficient (Ep. 12)" [ref=e1944] [cursor=pointer]':
+                            - /url: https://youtu.be/geozVX88-6I
+                            - generic [ref=e1947]:
+                              - generic [ref=e1948]: "The Cold Resonance Protocol: Why \"Hustle\" Is Inefficient (Ep. 12)"
+                              - generic [ref=e1949]: youtube.com
+                        - generic [ref=e1951]:
+                          - generic [ref=e1952]:
+                            - button "React Like" [ref=e1953] [cursor=pointer]:
+                              - generic [ref=e1955]:
+                                - img [ref=e1956]
+                                - generic [ref=e1958]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e1960] [cursor=pointer]
+                          - button "Comment" [ref=e1964] [cursor=pointer]:
+                            - img [ref=e1965]
+                            - generic [ref=e1967]: Comment
+                          - button "Repost" [ref=e1970] [cursor=pointer]:
+                            - img [ref=e1971]
+                            - generic [ref=e1973]: Repost
+                          - button "Send in a private message" [ref=e1976] [cursor=pointer]:
+                            - img [ref=e1977]
+                            - generic [ref=e1980]: Send
+                - listitem [ref=e1011]:
+                  - article [ref=e1983]:
+                    - generic [ref=e1985]:
+                      - heading "Feed post number 19" [level=2] [ref=e1986]
+                      - generic [ref=e1987]:
+                        - generic [ref=e1988]:
+                          - generic [ref=e1990]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e1991] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e1995]
+                            - generic [ref=e1996]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e1997] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e1998]:
+                                  - generic [ref=e2000]:
+                                    - generic [ref=e2001]: Acusio Bivona
+                                    - generic [ref=e2002]: Acusio Bivona
+                                  - generic [ref=e2003]:
+                                    - generic [ref=e2004]:
+                                      - img [ref=e2005]
+                                      - text: • 1st
+                                    - generic [ref=e2007]: Verified • 1st
+                                - generic [ref=e2008]:
+                                  - generic [ref=e2009]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e2010]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e2011]:
+                                - generic [ref=e2012]:
+                                  - text: 1mo •
+                                  - img [ref=e2015]
+                                - generic [ref=e2017]: 1 month ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e2020] [cursor=pointer]:
+                            - img [ref=e2021]
+                        - generic [ref=e2024]:
+                          - generic [ref=e2027]: If I stripped the "CEO" title from your LinkedIn and drained the bank account, who is left in the chair? For most high-performers, the answer is "No one." This is a structural failure. In this report, I explain why collapsing your Identity into your Function is lethal, and how to separate the Pilot from the Plane.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e2028] [cursor=pointer]:
+                            - generic [ref=e2029]: …more
+                        - article [ref=e2030]:
+                          - generic [ref=e2031]:
+                            - 'link "Open article: Who Are You Without the Title? (The Founder''s Trap) by Acusio Bivona • 3 min read" [ref=e2033] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/who-you-without-title-founders-trap-acusio-bivona-v7aoc?trackingId=Y7vFEmeGVj50ehlPkJb3AQ%3D%3D
+                            - 'link "Open article: Who Are You Without the Title? (The Founder''s Trap) by Acusio Bivona • 3 min read" [ref=e2037] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/who-you-without-title-founders-trap-acusio-bivona-v7aoc?trackingId=Y7vFEmeGVj50ehlPkJb3AQ%3D%3D
+                              - generic [ref=e2039]:
+                                - generic [ref=e2041]: Who Are You Without the Title? (The Founder's Trap)
+                                - generic [ref=e2042]: Acusio Bivona
+                        - generic [ref=e2043]:
+                          - list [ref=e2047]:
+                            - listitem [ref=e2048]:
+                              - button "10 reactions" [ref=e2049] [cursor=pointer]:
+                                - img "like" [ref=e2050]
+                                - generic [ref=e2051]: "10"
+                            - listitem [ref=e2052]:
+                              - list [ref=e2053]:
+                                - listitem [ref=e2054]:
+                                  - button "5 comments on Acusio Bivona’s post" [ref=e2055] [cursor=pointer]:
+                                    - generic [ref=e2056]: 5 comments
+                                  - text: ·
+                                - listitem [ref=e2057]:
+                                  - button "2 reposts of Acusio Bivona’s post" [ref=e2058] [cursor=pointer]:
+                                    - generic [ref=e2059]: 2 reposts
+                          - generic [ref=e2060]:
+                            - generic [ref=e2061]:
+                              - button "React Like" [ref=e2062] [cursor=pointer]:
+                                - generic [ref=e2064]:
+                                  - img [ref=e2065]
+                                  - generic [ref=e2067]: Like
+                              - button "Open reactions menu":
+                                - img [ref=e2069] [cursor=pointer]
+                            - button "Comment" [ref=e2073] [cursor=pointer]:
+                              - img [ref=e2074]
+                              - generic [ref=e2076]: Comment
+                            - button "Repost" [ref=e2079] [cursor=pointer]:
+                              - img [ref=e2080]
+                              - generic [ref=e2082]: Repost
+                            - button "Send in a private message" [ref=e2085] [cursor=pointer]:
+                              - img [ref=e2086]
+                              - generic [ref=e2089]: Send
+                - listitem [ref=e1015]:
+                  - article [ref=e2092]:
+                    - generic [ref=e2094]:
+                      - heading "Feed post number 20" [level=2] [ref=e2095]
+                      - generic [ref=e2096]:
+                        - generic [ref=e2097]:
+                          - generic [ref=e2099]:
+                            - link "View Acusio Bivona’s graphic link" [ref=e2100] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                              - img "View Acusio Bivona’s graphic link" [ref=e2104]
+                            - generic [ref=e2105]:
+                              - 'link "View: Acusio Bivona Verified • 1st Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol" [ref=e2106] [cursor=pointer]':
+                                - /url: https://www.linkedin.com/in/coachcooz?miniProfileUrn=urn%3Ali%3Afsd_profile%3AACoAACyxy2sBnSXzkkpNrx3h37-jrBDG1F2Xz00
+                                - generic [ref=e2107]:
+                                  - generic [ref=e2109]:
+                                    - generic [ref=e2110]: Acusio Bivona
+                                    - generic [ref=e2111]: Acusio Bivona
+                                  - generic [ref=e2112]:
+                                    - generic [ref=e2113]:
+                                      - img [ref=e2114]
+                                      - text: • 1st
+                                    - generic [ref=e2116]: Verified • 1st
+                                - generic [ref=e2117]:
+                                  - generic [ref=e2118]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                                  - generic [ref=e2119]: Human Performance Architect | Executive System Optimization | Founder, The Resurrection Protocol
+                              - generic [ref=e2120]:
+                                - generic [ref=e2121]:
+                                  - text: 1mo •
+                                  - img [ref=e2124]
+                                - generic [ref=e2126]: 1 month ago • Visible to anyone on or off LinkedIn
+                          - button "Open control menu for post by Acusio Bivona" [ref=e2129] [cursor=pointer]:
+                            - img [ref=e2130]
+                        - generic [ref=e2133]:
+                          - generic [ref=e2136]: Most founders run on Hot Fusion - generating power through friction, stress, and brute force. It works, until the reactor melts down. In this post, we explore a new operating system for leaders called Cold Resonance, where you generate infinite output with zero heat.
+                          - button "see more, visually reveals content which is already detected by screen readers" [ref=e2137] [cursor=pointer]:
+                            - generic [ref=e2138]: …more
+                        - article [ref=e2139]:
+                          - generic [ref=e2140]:
+                            - 'link "Open article: The Physics of Leadership: Why \"Hustle\" Is Inefficient by Acusio Bivona • 4 min read" [ref=e2142] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/physics-leadership-why-hustle-inefficient-acusio-bivona-3xdoc?trackingId=j3yqR1L03UbPesCROJ1ihA%3D%3D
+                            - 'link "Open article: The Physics of Leadership: Why \"Hustle\" Is Inefficient by Acusio Bivona • 4 min read" [ref=e2146] [cursor=pointer]':
+                              - /url: https://www.linkedin.com/pulse/physics-leadership-why-hustle-inefficient-acusio-bivona-3xdoc?trackingId=j3yqR1L03UbPesCROJ1ihA%3D%3D
+                              - generic [ref=e2148]:
+                                - generic [ref=e2150]: "The Physics of Leadership: Why \"Hustle\" Is Inefficient"
+                                - generic [ref=e2151]: Acusio Bivona
+                        - generic [ref=e2153]:
+                          - generic [ref=e2154]:
+                            - button "React Like" [ref=e2155] [cursor=pointer]:
+                              - generic [ref=e2157]:
+                                - img [ref=e2158]
+                                - generic [ref=e2160]: Like
+                            - button "Open reactions menu":
+                              - img [ref=e2162] [cursor=pointer]
+                          - button "Comment" [ref=e2166] [cursor=pointer]:
+                            - img [ref=e2167]
+                            - generic [ref=e2169]: Comment
+                          - button "Repost" [ref=e2172] [cursor=pointer]:
+                            - img [ref=e2173]
+                            - generic [ref=e2175]: Repost
+                          - button "Send in a private message" [ref=e2178] [cursor=pointer]:
+                            - img [ref=e2179]
+                            - generic [ref=e2182]: Send
+            - button "Show more results" [ref=e1021] [cursor=pointer]:
+              - generic [ref=e1022]: Show more results
+      - complementary "Interests" [ref=e173]:
+        - iframe [ref=e175]:
+          - main "Work With Us Container" [ref=f27e3]:
+            - generic [ref=f27e4]:
+              - img [ref=f27e23]
+              - generic [ref=f27e6]:
+                - img "Farrice" [ref=f27e7]
+                - link "EVERSANA INTOUCH" [ref=f27e8] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F81914625%2Flife&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGdBpJXQ_fDiI5s2HKLpb6fhdeaqp4F79Cn18rLSq3cg9dyTLn2vZ0Ut3GjdgzlZ44sQ3X0eecdfLzV31nPAC6U1pdTo7UF7hSs5cDg1xzZjJLU8trL4VEMid3GPy0FfxJ_j2WP3Y9BmuNLSdqB48zWJw5cZ5NVrfUi2WlpueNzX4OXHpKgdc1vvnL5F83_OleRo8GKsjFa9TWvnKXsjzsVD4h0dD2kxqsyflWLM7H9heBcZcP6RBSwTTCEzZ_onWGDo3X59WWoM8EULbbKFODucfTmFvy06OlgxuW4Cdzj1SubfjvEP2svqrZe2ZYK9PEQQ6gbXd7DZ3u5Uk6oEMWxcmRRdgoOl_aVid-3rWhIlqeTzzNFX5EtsCT5RYnbVjuh2v7GjalIacZ27KwePagbc1sGiB7TVuoXQXbP6DfKk1NEvYCUeHy3Euy0ygH-6v0FRDRfo5GFiCCgIfLBXu0bhXsIZa4WPHsdHN6dH-aF9WjYDMpI7C30XrUjHJMhPQ8mEARjGmeaHIJ0sV241Sg_8PS9Xf4huQp0WbozxyQq4iMfRd34ztV8foTQ2YwV9X_YowbNZALOuu73Ruw1DO-cZQKVFOrcgPK6pbqINtgWAkxl4R-AOq2dNMsnAVyl-OE5vQMLTq5KM83EQujd1c7Tox_X2NefynSZnXD6kzODxI5pTi1gA3E_VUD9uVFEOKU3URpcV5XNEjDikixm9pqfqChN_jUz4BLt2kPx9SEryGyRwSXBXQ2oZH3n51sLWoqGeyO5_BucpwWLReAbqFu81Op_TK7dXS12dAZKo4k33E4xQNsJOdovwHqhEzc-xY8rQWnCOv8zKPz4IRPZOvvFl7QWEN1xAFHLgHvf_L4vERZDDP6dvpHK4PGnSkJWriC8Ac3xQRsUJgLIm7XJ-ac0ERSObR9kqz4eG1nOpIxu-_SEJJwWR2uuKtQzVtUiwh3I6MHuuUaXP5qk4_SYZ6OxKmHAjTd5U6w68ZvRE5XuznDyNlg3LBC4E74DGlG9CZCkTAO7Kiyh3mo10gs3onptDMoN7bsYYfFGUgI-Cm2sX2y_PSwaUkQmc9B49JF3eV_soNrmYin34Q%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%22%2C%22trackingId%22%3A%224967e1aa-ceb4-4db5-9af4-e0aa68acfa56%22%7D%2C%22time%22%3A1773931747106%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_recent_activity_content_view%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A1547201393040534469
+                  - img "EVERSANA INTOUCH" [ref=f27e9]
+            - generic [ref=f27e10]:
+              - generic [ref=f27e11]:
+                - paragraph [ref=f27e12]: Farrice, explore relevant opportunities with EVERSANA INTOUCH
+                - paragraph [ref=f27e13]: Get the latest jobs and industry news
+              - link "Follow" [ref=f27e14] [cursor=pointer]:
+                - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F81914625%2Flife%3FisFollowingPage%3Dtrue&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGdBpJXQyhBaiMMDyZdfhdGc92Dp75FD03fpjdYn5KzOELCDop6wZzXU9l8jnBB-COl5qz9-X8szsfy4_ep3ZazI5RghQ7BxEK--oPByF2fH96eWaGwEzgjyPFA6Izg7xcCnhOqndt7TJE44aptKCBBrePVvzYMW8MHcTlv-bxwJQl-Um0ozuHi8E9XQtk4XAuF5x0a37JltVrvZZ9oRe6_hxRNzC82p_YaS__SY3D8qz30ygh32UN14vlAzRmiQ-ryJHkClXaypEN1cZOCGmHmqKo8OEoZk2udBXhes_0J1SbH22wul-_Os3s-bosimKJBjrunsUHb2FsYFuzh2g3CzGne5vQI9kkcRS4IqD7MY35aQRQw28ywFFIWy_oklluZxe2TzXScQ-wjjn-UCmE7YY-Q3cWHmNqNMCWdnbdMfeYi355jL7J1oe_mttDwcJ1myRoHr2wyngWfgQjE6Io33ucZXGG1QBtLgxoGxwM6Gy4EAuT7NL2vsp28MVuEMrilEZG8saidP9rkPpu2og1SlD6bvNQgGDObUzwg_qZz26kpzA-psTk6vFG3lDEcV6_npBjnIo5nTUbrkC6bUqzCIWhrV6D7nOag7nTHqCLfjkYtj14tjaOaZ29kvGgKhK0k6XQ8c3oKXdK3M6oCcPus7bektENm0ytsqddcccOjSlo5svWh9VWX-dofrH6ylsyPbb6VEgx5Fv21tOUwqcr_gdrgJ5n3C_b2N1w5qYbHEb9CFmKvcJklh8wY3fqQRuWKC77-Sax2OdPnuZLA1fm_CUPD22tyclxg0VRy1qR1ShXK1vth3Kb8fMU8KmYcrYd4_Bc5sM-YquptUiXwkaN9Z-WWYJiNraGEUupTNLpGqPrdTNdczLfhcsLSpxnGNr4H4JPtCQkgR35GYWu5Ip8_wDos8NF92PohB9ASCLBFVK_S2g3OffVuXjtUknKzWCjpA-2vOcxQJ_geaMgW4JOExwaT8u5-99YrZ2R0pTQglI49RbX3PKPnBK9vbBGkQwpI-vfKhM_3BToaBvjlu3XFLrGf0z84lVk55IQUcak3W_sgETpeFL7TccYz7dRZCy7K90uhcc1QhT6ifK1fYfmYJEt0VaRRAGSmHnOgaxIWf797Epi0IKkhzg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%22%2C%22trackingId%22%3A%22f6db5d6d-c36e-4376-9400-9e9249269a9b%22%7D%2C%22time%22%3A1773931747106%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_recent_activity_content_view%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A1547201393040534469
+            - generic [ref=f27e15]:
+              - paragraph [ref=f27e16]: Promoted
+              - button "Ad Options" [ref=f27e17] [cursor=pointer]:
+                - img [ref=f27e18]
+                - generic [ref=f27e22]: Ad Options
+        - generic [ref=e176]:
+          - generic [ref=e180]:
+            - heading "People you may know" [level=2] [ref=e181]:
+              - generic [ref=e182]: People you may know
+              - generic [ref=e183]: People you may know
+            - paragraph [ref=e184]:
+              - generic [ref=e185]: From Acusio's school
+              - generic [ref=e186]: From Acusio's school
+          - generic [ref=e187]:
+            - list [ref=e188]:
+              - listitem [ref=e189]:
+                - generic [ref=e190]:
+                  - link "Stacey Kanavos, M. Ed" [ref=e192] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/stacey-kanavos-m-ed-593377257
+                    - img "Stacey Kanavos, M. Ed" [ref=e195]
+                  - generic [ref=e196]:
+                    - link "Stacey Kanavos, M. Ed Learning & Training Specialist | Professional Learning & Implementation | 20+ Years in Education" [ref=e198] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/stacey-kanavos-m-ed-593377257?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD88fX8BiWabqiz6hGYZSY-bYTKvX3IBm-k
+                      - generic [ref=e199]:
+                        - generic [ref=e202]:
+                          - generic [ref=e203]: Stacey Kanavos, M. Ed
+                          - generic [ref=e204]: Stacey Kanavos, M. Ed
+                        - img [ref=e207]:
+                          - img [ref=e208]
+                      - generic [ref=e213]:
+                        - generic [ref=e214]: Learning & Training Specialist | Professional Learning & Implementation | 20+ Years in Education
+                        - generic [ref=e215]: Learning & Training Specialist | Professional Learning & Implementation | 20+ Years in Education
+                    - list [ref=e217]:
+                      - listitem [ref=e218]:
+                        - button "Invite Stacey Kanavos, M. Ed to connect" [ref=e220] [cursor=pointer]:
+                          - img [ref=e221]
+                          - generic [ref=e223]: Connect
+              - listitem [ref=e224]:
+                - generic [ref=e225]:
+                  - link "Kathy Gebhardt" [ref=e227] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/kathy-gebhardt-16a07b12
+                    - img "Kathy Gebhardt" [ref=e230]
+                  - generic [ref=e231]:
+                    - link "Kathy Gebhardt Vice-President for Student Success/Dean of Students at Concordia University Chicago" [ref=e233] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/kathy-gebhardt-16a07b12?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAKAYiIBhnSv1Asq3bM9LH5MeW1_VKgDwBs
+                      - generic [ref=e234]:
+                        - generic [ref=e237]:
+                          - generic [ref=e238]: Kathy Gebhardt
+                          - generic [ref=e239]: Kathy Gebhardt
+                        - img [ref=e242]
+                      - generic [ref=e247]:
+                        - generic [ref=e248]: Vice-President for Student Success/Dean of Students at Concordia University Chicago
+                        - generic [ref=e249]: Vice-President for Student Success/Dean of Students at Concordia University Chicago
+                    - list [ref=e251]:
+                      - listitem [ref=e252]:
+                        - button "Invite Kathy Gebhardt to connect" [ref=e254] [cursor=pointer]:
+                          - img [ref=e255]
+                          - generic [ref=e257]: Connect
+              - listitem [ref=e258]:
+                - generic [ref=e259]:
+                  - link "Linda Pigue" [ref=e261] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/linda-pigue-13142429a
+                    - img "Linda Pigue" [ref=e264]
+                  - generic [ref=e265]:
+                    - link "Linda Pigue Project Management Consultant/Senior Business Analyst/Domestic & International Business Solution Specialist & Revenue-cycle Management" [ref=e267] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/linda-pigue-13142429a?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEhSTbUBYZhtOZuJtK5McngPvbtfHywlvuA
+                      - generic [ref=e268]:
+                        - generic [ref=e271]:
+                          - generic [ref=e272]: Linda Pigue
+                          - generic [ref=e273]: Linda Pigue
+                        - img [ref=e276]
+                      - generic [ref=e281]:
+                        - generic [ref=e282]: Project Management Consultant/Senior Business Analyst/Domestic & International Business Solution Specialist & Revenue-cycle Management
+                        - generic [ref=e283]: Project Management Consultant/Senior Business Analyst/Domestic & International Business Solution Specialist & Revenue-cycle Management
+                    - list [ref=e285]:
+                      - listitem [ref=e286]:
+                        - button "Invite Linda Pigue to connect" [ref=e288] [cursor=pointer]:
+                          - img [ref=e289]
+                          - generic [ref=e291]: Connect
+              - listitem [ref=e292]:
+                - generic [ref=e293]:
+                  - link "JR Bussard" [ref=e295] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/jr-bussard-0937bb122
+                    - img "JR Bussard" [ref=e298]
+                  - generic [ref=e299]:
+                    - link "JR Bussard General Manager at Cornerstone Companies FL" [ref=e301] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/jr-bussard-0937bb122?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB5f-a8BEPFsLL6XdTtfcABdZ8lmu-X3Z1U
+                      - generic [ref=e302]:
+                        - generic [ref=e305]:
+                          - generic [ref=e306]: JR Bussard
+                          - generic [ref=e307]: JR Bussard
+                        - img [ref=e310]
+                      - generic [ref=e315]:
+                        - generic [ref=e316]: General Manager at Cornerstone Companies FL
+                        - generic [ref=e317]: General Manager at Cornerstone Companies FL
+                    - list [ref=e319]:
+                      - listitem [ref=e320]:
+                        - button "Invite JR Bussard to connect" [ref=e322] [cursor=pointer]:
+                          - img [ref=e323]
+                          - generic [ref=e325]: Connect
+              - listitem [ref=e326]:
+                - generic [ref=e327]:
+                  - link "Jessica Aurilio" [ref=e329] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/in/jessica-aurilio-84b436233
+                    - img "Jessica Aurilio" [ref=e332]
+                  - generic [ref=e333]:
+                    - link "Jessica Aurilio Customer Advocacy Team Lead @ PowerSchool | Elevating Customer Voices • Driving Strategic Engagement • Creating Impactful Experiences" [ref=e335] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/jessica-aurilio-84b436233?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADpDQDsBy7pBCms4pTVnUgbMYfgFol4phAg
+                      - generic [ref=e336]:
+                        - generic [ref=e339]:
+                          - generic [ref=e340]: Jessica Aurilio
+                          - generic [ref=e341]: Jessica Aurilio
+                        - img [ref=e344]
+                      - generic [ref=e349]:
+                        - generic [ref=e350]: Customer Advocacy Team Lead @ PowerSchool | Elevating Customer Voices • Driving Strategic Engagement • Creating Impactful Experiences
+                        - generic [ref=e351]: Customer Advocacy Team Lead @ PowerSchool | Elevating Customer Voices • Driving Strategic Engagement • Creating Impactful Experiences
+                    - list [ref=e353]:
+                      - listitem [ref=e354]:
+                        - button "Invite Jessica Aurilio to connect" [ref=e356] [cursor=pointer]:
+                          - img [ref=e357]
+                          - generic [ref=e359]: Connect
+            - button "Show more" [ref=e362] [cursor=pointer]:
+              - img [ref=e363]
+              - generic [ref=e365]: Show more
+        - generic [ref=e368]:
+          - iframe [ref=e370]:
+            - main "Work With Us Container" [ref=f28e3]:
+              - generic [ref=f28e4]:
+                - img [ref=f28e6]
+                - generic [ref=f28e7]:
+                  - img "Farrice" [ref=f28e8]
+                  - link "ONE Jeanswear Group" [ref=f28e9] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F5396553%2Flife&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGdBpL5jlK3TajKHGMrt9bLv1IQb0Ih2VdT_sir6QLEBpS0Tnml0YXZ21SZ_YoKohgFW5oedPVy0fP3Mu0LeYAjtwWr9cFyRh6zwLeRGl3h2qYs5H1hvii-3qpRXGtPtD1LcFMlB_1o4fTj1J0iukLvsjQb97kfogQhHJmSmzISZsaVShKQkXEK-hQEyfaEuZJt9qZMtLO6obfnfY2OBA3Q05STDy2n7agJJNYbMbsqFec0S4hIQZDl-2sO2sD1H4XKeWSWisSHsnXQ_QFecoDj0_tExPXZB8FtGUwYRxnf0gxFl4v2k9ccmhKZcPwtEcS4h8OXs5s3lpPMFVSOg9pgiQiS1ckrXUmXMZt2WmCEStt-nODPxg55ZvA_-d6TCRH3UWeW9gotTR0zTfjQRQYZNmrtsqDl1bGNQ2BoT5A_sjGADqPcuoGfShjlntZHJbdOco4zC3nIfqFH6jcb2ZMCA_BEJM0v2-1WLj6fwQ1oy1jm2CJWhMwR3MpxFZWSLu2GM8RAGah0dZQ0qAI9OuBCd80TSvDL_aV37Rcv7zE5VBdGP3BS5GLcOZitSwEYdU3pvnNP-1953tG3FJF7CwgYQZtg_HjNxtPZpsGNVtW7lkbwMpvqBO-RZ3s4TTEQRACYAWYPjyJYzu8l1AQmr_ZXgH0nB_IGU5T8wCwwiTtTfI6thouKWq662X-HsjF8mnPGB6sk5D44NsLMEYHZlwGaaBQnMfm_pLqfDkrKd99oafG4KVyVTTXnrDzHZ5GI6l9GJ14XdoQ3G4l7OSVJSO8QgTWHT4MltRLLMfqYzCWj2j4OxaeKHEqFDnlCrgGn5-VyRrqRY2YUU5NOkSOezH-6nhULaWFk8JK4zh8-aIlInRZinUeGR2MrpBmjYBP5pwfAVdSS2Q-prMAnNz6hyk6eqyt-7dPMsBh8fn5yMeU8b6RuftVM-GaYgn0xWuaeJtEKt93Vr_eZWEt54w6Lg5Ny66hvAHOolJbFZ8ijeCi4Gfma7s2WqpecuGoO4ziWiwPS6KbeFnYiocbPpTAD_qra6ej5EobFVeUHriis1BbOipePHZonbdk8kttmxYHCmDlfVDJ0lrTBs7DH%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%22%2C%22trackingId%22%3A%2230ad99fc-46cc-45a0-a233-d7bb686a3e3f%22%7D%2C%22time%22%3A1773931788660%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_recent_activity_content_view%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A1547201393040534469
+                    - img "ONE Jeanswear Group" [ref=f28e10]
+              - generic [ref=f28e11]:
+                - generic [ref=f28e12]:
+                  - paragraph [ref=f28e13]: Farrice, explore relevant opportunities with ONE Jeanswear Group
+                  - paragraph [ref=f28e14]: Get the latest jobs and industry news
+                - link "Follow" [ref=f28e15] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F5396553%2Flife%3FisFollowingPage%3Dtrue&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGdBpL5jubjuC0JIZ0uj_xgPSqGmgv7FCukhTnN8RSv5lOvrLCeu3lCjajn7pDBTgFelw6ZIU4rFDpxJcSfZbPIWCo7FQd3E1oTj2mC67FYxKbdggj2gTL5-sVwZEWfkFaLiIeoQRo4H8tdqJz5ri2u8kIO6mma5UarSeJR95I4s5N901ptIGv3xMdfGiTFR51bjmFfP6mi9NFlXyILg-dCyVesJbuXzqMNtGIEnvTy163H5W1SAt0G1G0SgBJZ8yHbhRpuJUjLSagjKd8qTal1YsDkXfGWzQZIuvf3wbcxlLfm8P35uPwSWTss7VBtTUCLxXFlEIt1HtNZG_2J4eslx0dxJIPHzDsjtIt8ARAHus1B3-Xz2hM1aJtjDrLLsgD-prOTwQm9dJpStuHAwfvvx9MSSrsDfC10yueRRlLsjlvaCnyy58FNddshAdgL-8rfjpM7iVkTq3SuUFhBczMRq9W3fZW7mWlinZc3cBCcb92b4kNL40muwCDq7GJqw99UbtcDRvaqSM7js0iOIDm6jtSu2CIS5mezA7zD8NhIvgTcmL0FjmvpjtYABCrqKMSmpK8c76_vF2T1a7E3VliS2uyaEljdzCmPdRfu80n2-7c49cpTanS2IWkGDe0MMVVJb7HD-o1QwrIeLI9eaGN9TlxzpRRzCLWQgPIMHaevhhyW31nMKUVPVDhex-r7ejqaTLOe1fXI0o8sGWAOgkuAKQKake2MNPBIZM-17syO1CkRFN9RG37qTUGqHgX7B6RT8Sp7uSSvKi1d38PtZKkMiaTlplLMEhMOPOCAjyU-HOBY5h82PcYV3nwIoqgK1dbwrVm7xBJXwZb3rlcvWwgxJ-wHWaiQUr8YW2fynh0SwmHn_QjJALZR6kZT7KFHm6hcZ7tjZx1YNHtmlLNcbH5BhMJSMc3FTsUEiiVGTFlUX1e6aMCWsBf6n_ILYR8mdNsHrkHrSkZAhBL6asHkjnsA8nF0FlbLGgISu7HvxVV9Yj2QyN-YQ4pfNYeK1fTqZ8SJ6FzxrQz6c6WrZUC8qKKZstNGpdcHGZjGRC-I1lYGfqeM3y1oYYK2YtagVIy93p193MRzGVX06_cgFG5dUANavHc8ju_rArEfgmh8BFYpYEAW2nfM5vHrz2w%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_recent_activity_content_view%22%2C%22trackingId%22%3A%22afd990be-6ed4-4a42-a2e1-17d1b5787796%22%7D%2C%22time%22%3A1773931788660%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_view_base_recent_activity_content_view%22%2C%22interfaceLocale%22%3A%22en-US%22%7D%7D%7D%5D&csrfToken=ajax%3A1547201393040534469
+              - generic [ref=f28e16]:
+                - paragraph [ref=f28e17]: Promoted
+                - button "Ad Options" [ref=f28e18] [cursor=pointer]:
+                  - img [ref=f28e19]
+                  - generic [ref=f28e23]: Ad Options
+          - generic "LinkedIn Footer Content" [ref=e371]:
+            - generic [ref=e372]:
+              - list [ref=e373]:
+                - listitem [ref=e374]:
+                  - link "About" [ref=e375] [cursor=pointer]:
+                    - /url: https://about.linkedin.com/
+                    - generic [ref=e376]: About
+                - listitem [ref=e377]:
+                  - link "Accessibility" [ref=e378] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/accessibility
+                    - generic [ref=e379]: Accessibility
+                - listitem [ref=e380]:
+                  - link "Help Center" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/help/linkedin?trk=footer_d_flagship3_profile_view_base_recent_activity_content_view
+                    - generic [ref=e382]: Help Center
+                - listitem [ref=e383]:
+                  - button "Privacy & Terms" [ref=e385] [cursor=pointer]:
+                    - generic [ref=e387]:
+                      - text: Privacy & Terms
+                      - img [ref=e388]
+                - listitem [ref=e390]:
+                  - link "Ad Choices" [ref=e391] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/help/linkedin/answer/62931
+                    - generic [ref=e392]: Ad Choices
+                - listitem [ref=e393]:
+                  - link "Advertising" [ref=e394] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/ad/start?trk=n_nav_ads_rr
+                    - generic [ref=e395]: Advertising
+                - listitem [ref=e396]:
+                  - button "Business Services" [ref=e398] [cursor=pointer]:
+                    - generic [ref=e400]:
+                      - text: Business Services
+                      - img [ref=e401]
+                - listitem [ref=e403]:
+                  - button "Get the LinkedIn app" [ref=e406] [cursor=pointer]
+                - listitem [ref=e407]:
+                  - button "More options" [ref=e408] [cursor=pointer]: More
+              - generic [ref=e409]:
+                - img "LinkedIn" [ref=e410]:
+                  - img [ref=e411]
+                - text: LinkedIn Corporation © 2026
+    - generic:
+      - generic:
+        - complementary:
+          - generic [ref=e414]:
+            - generic [ref=e416] [cursor=pointer]:
+              - generic [ref=e417]:
+                - img "Farrice Cain" [ref=e418]
+                - generic [ref=e420]: Status is online
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e421]:
+                - generic [ref=e422]:
+                  - generic [ref=e423]: Messaging
+                  - generic [ref=e424]: You are on the messaging overlay. Press enter to open the list of conversations.
+            - generic [ref=e425]:
+              - button "Open messenger dropdown menu" [ref=e427] [cursor=pointer]:
+                - img "Open messenger dropdown menu" [ref=e428]
+              - button "Compose message" [ref=e431] [cursor=pointer]:
+                - img [ref=e432]
+                - generic [ref=e434]: Compose message
+              - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e435] [cursor=pointer]:
+                - img [ref=e436]
+                - generic [ref=e438]: You are on the messaging overlay. Press enter to open the list of conversations.
+        - complementary "AI-powered assistant to get help with your career, jobs etc"

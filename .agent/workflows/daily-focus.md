@@ -1,5 +1,5 @@
 ---
-description: Generate today's focused task breakdown for a compressed 1-3 hour work window — ruthless prioritization, time blocks, and exit criteria
+description: Ruthless prioritization, time blocks, and exit criteria
 ---
 
 # /daily-focus — Compressed Work Block Optimizer

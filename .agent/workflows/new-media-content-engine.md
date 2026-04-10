@@ -1,5 +1,5 @@
 ---
-description: "Master copy engine with oral/written culture awareness — produces platform-native content using cultural physics to match proof types, voice register, and format to each medium"
+description: Master copy engine with oral/written culture awareness
 ---
 
 # /new-media-content-engine — Platform-Aware Copy Production

@@ -1,5 +1,5 @@
 ---
-description: "Mine podcast appearances for powerful untold stories the client doesn't realize they have"
+description: Mine podcast appearances
 ---
 
 # /hidden-gems — Hidden Gems Story Miner

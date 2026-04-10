@@ -1,5 +1,5 @@
 ---
-description: Ad-to-Funnel Architect — build a complete funnel from unaware ad through landing page to conversion using all 3 Luke Iha skills
+description: Ad-to-Funnel Architect
 ---
 
 ## Workflow: Ad-to-Funnel Architect

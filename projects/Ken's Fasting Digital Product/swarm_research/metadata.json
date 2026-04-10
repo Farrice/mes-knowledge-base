@@ -1,0 +1,66 @@
+{
+  "objective": "Fasting first 72 hours survival protocol: Exact scientific electrolyte formulas to stop headaches, physiological hacks to prevent evening binge eating, and the precise transition mechanics into fat-burning mode. The goal is to build an over-delivering  digital product that guarantees a Day 3 transformation, seamlessly setting up an upsell to 'The 30-Day Fasting Lifestyle Blueprint' by Ken.",
+  "timestamp": "20260331_133237",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 40564,
+  "total_cost_usd": 0.0479,
+  "duration_seconds": 68.2,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5188,
+      "cost": 0.002871,
+      "duration": 14.5,
+      "thinking_tokens": 1646,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "michael-bernoff",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5731,
+      "cost": 0.0034268000000000002,
+      "duration": 14.8,
+      "thinking_tokens": 1693,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "nicolas-cole",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7367,
+      "cost": 0.0041588,
+      "duration": 12.6,
+      "thinking_tokens": 1263,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 4978,
+      "cost": 0.002797,
+      "duration": 11.8,
+      "thinking_tokens": 1360,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "josh-sanders",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 4343,
+      "cost": 0.0027862,
+      "duration": 12.1,
+      "thinking_tokens": 1421,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

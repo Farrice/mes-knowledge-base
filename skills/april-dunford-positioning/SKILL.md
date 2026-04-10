@@ -3,7 +3,7 @@ name: "April Dunford: B2B Positioning & Sales Pitch Architecture"
 description: "Position any B2B product using the 5-component methodology and construct sales pitches using the Setup → Follow-Through framework. The world's most actionable system for answering 'Why should customers pick us?"
 version: "2.0"
 format: "completion-engine"
-workflows: 4
+workflows: 5
 ---
 
 # April Dunford: B2B Positioning & Sales Pitch Architecture
@@ -21,6 +21,7 @@ She operates two interlocking systems:
 | sales | [Sales Narrative & Pitch Deck](workflows/sales-narrative-pitch-deck.md) | Strategic Sales Pitch Deck & Narrative Script | The sales team is struggling to differentiate from competitors or the current pitch feels like a feature-dump. |
 | deal | [Deal Acceleration & Champion Toolkit](workflows/deal-acceleration-champion-toolkit.md) | Internal Champion Enablement Kit | Deals are stalling in late stages or internal champions are failing to get executive buy-in due to buyer indecision. |
 | gtm | [GTM Validation & Expansion Roadmap](workflows/gtm-validation-expansion-roadmap.md) | Sequential GTM Roadmap & Pitch Testing Protocol | Scaling from a single niche to adjacent markets or validating a positioning pivot before a full rebrand. |
+| siege | [Positioning Siege Test](workflows/positioning-siege-test.md) | Stress-Tested Positioning with Competitive Resilience Map | Positioning must survive competitive counter-moves, market shifts, and copy attempts. When defensibility matters more than speed. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

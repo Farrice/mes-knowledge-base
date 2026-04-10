@@ -1,5 +1,5 @@
 ---
-description: "Complete map of every possible objection matched to its doubt type and specific proof weapon antidote — pre-empt objections before they form"
+description: Pre-empt objections before they form
 ---
 
 # Objection-Proof Mapping

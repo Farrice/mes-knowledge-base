@@ -1,5 +1,5 @@
 ---
-description: Anchor narratives in verifiable real-world details for instant believability
+description: Anchor narratives in verifiable real-world details
 ---
 
 # /connelly-anchor

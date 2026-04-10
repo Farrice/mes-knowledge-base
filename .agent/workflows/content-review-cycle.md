@@ -1,5 +1,5 @@
 ---
-description: Monthly content system audit — review all profiles, style cards, talking points, and propose targeted improvements based on performance data
+description: Monthly content system audit
 ---
 
 # /content-review-cycle — Monthly Content System Review

@@ -45,6 +45,26 @@ Translate the strategy into a script built for the 5-role production model (Writ
    - **Audio/VO**: Narrative-heavy, avoiding complex lip-sync/multi-character dialogue (uncanny valley risk).
    - **Sound Design**: Specify the "Audio Anchor"—high-fidelity sound is what makes AI visuals feel "real."
 
+### Phase 2.5: Emotional Pulse Architecture
+Before any visual specification, design the viewer's internal emotional journey. AI video defaults to flat information delivery — this phase engineers the feeling-state curve that separates "content" from "cinema."
+
+1. **Emotional Pulse Map**: Plot the intended viewer feeling-state at each scene boundary on a simple tension scale (1-10). The shape of this curve IS the creative direction — not the visuals, not the VO. Every other decision serves this curve.
+   - **Rule**: No two adjacent scenes at the same tension level. Flatlines kill engagement. Even a 1-point shift creates felt movement.
+   - **Peak Placement**: The single highest-tension moment lands at 65-75% of total duration (not the end). The final 25% is resolution — tension DESCENDING into clarity. Endings that spike feel like ads. Endings that resolve feel like experiences.
+
+2. **Silence and Breath Engineering**: Identify exactly one moment (minimum 2 seconds) where ALL audio drops or reduces to ambient-only. This is the emotional fulcrum — the moment the viewer stops watching and starts feeling. Place it immediately before or after the tension peak.
+   - Silence in AI video is a power move because AI defaults to filling every frame with motion and sound. Stillness signals human direction.
+
+3. **Recognition Beat Design**: Script one moment where the viewer sees their own experience reflected — not described, but shown. This is not a "pain point" slide. It is a specific, observable micro-moment the target audience has lived (e.g., staring at a blinking cursor, re-reading their own bio and wincing, hearing "you should post more" for the hundredth time). The recognition beat carries more emotional weight than any spectacle shot.
+   - **Placement**: First 15 seconds. Recognition before aspiration. The viewer must feel KNOWN before they can feel moved.
+
+4. **Pacing Contrast Ratio**: Ensure the edit rhythm shifts at least once between "fast/compressed" (cuts every 1-2s) and "slow/held" (single shot held 4-6s). The contrast — not the speed itself — creates felt intensity. Specify which scenes use which rhythm and why.
+   - Fast pacing = external energy, momentum, possibility
+   - Slow pacing = internal processing, weight, significance
+   - The transition between them is where emotion lives
+
+> **Quality Gate for Emotional Pulse**: (a) Can you draw the tension curve without looking at the script? If not, the arc isn't designed — it's accidental. (b) Is there at least one moment of genuine silence? (c) Does the recognition beat pass the "wince test" — would the ICP physically react to seeing it?
+
 ### Phase 3: Visual Pre-Viz & Figma Storyboard
 Transform the script into a technical blueprint where every frame is a generation target.
 1. **Consistency Architecture**: Organize frames into "Consistency Groups" (e.g., Group A: The Journey, Group B: The Product). Specify which frames should be generated as 2x2 grids in Midjourney/Ideogram to maintain character/environment lock.

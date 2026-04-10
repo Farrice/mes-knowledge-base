@@ -69,6 +69,41 @@ Deliver a single, high-leverage prescription:
 4. **Strategic Errors to Kill**: [Current activities to stop immediately]
 5. **Predicted Next Bottleneck**: [What breaks after this one is fixed — so they're ready]
 
+### Phase 4.5: Constraint Cascade Architecture
+
+> **Purpose**: Model the full chain of bottlenecks that will surface as each prior constraint is relieved — transforming reactive whack-a-mole into predictive cascade planning.
+
+The current bottleneck is Stage 1. But widening Stage 1 shifts pressure downstream. This phase maps the entire constraint cascade BEFORE execution begins, so every fix is pre-positioned for the next break.
+
+**Step 1: Pressure Propagation Mapping**
+For the current bottleneck, ask: *"If this constraint were fully relieved tomorrow, which stage would break first under the new throughput?"*
+
+Trace the pressure wave through the pipeline:
+- **Stage N** (current bottleneck) gets widened → throughput increases X%
+- **Stage N+?** (next-to-break) — what is its current capacity? At what throughput level does it crack?
+- **Stage N+??** (third-to-break) — same analysis, assuming the second constraint is also resolved
+
+Map at least 3 constraints deep. This is the **Cascade Sequence** — the predictable chain of breaks.
+
+**Step 2: Constraint Interdependency Check**
+Not all constraints are independent. Scan for:
+- **Coupled constraints**: Widening Stage A creates a NEW bottleneck in Stage B that didn't exist before (e.g., scaling lead gen without sales capacity creates a response-time bottleneck that poisons close rate)
+- **Parasitic constraints**: Fixing the current bottleneck consumes resources that were load-bearing elsewhere (e.g., hiring a fulfillment person to fix delivery depletes cash that was funding lead gen)
+- **Oscillation traps**: Constraints that ping-pong between two stages indefinitely — the system oscillates instead of progressing (Nick's lead-gen/fulfillment oscillation, but diagnosed BEFORE it starts)
+
+For each dependency found, note: *Does solving Constraint 1 make Constraint 2 worse, or merely reveal it?*
+
+**Step 3: Pre-Position Protocol**
+For each constraint in the cascade (Constraints 2 and 3), identify:
+- **Zero-cost pre-positioning**: What can be set up NOW, while fixing Constraint 1, that costs nothing extra but prevents Constraint 2 from becoming a crisis? (e.g., building a fulfillment SOP template while doing outreach — no extra time, massive time saved later)
+- **Trigger signals**: What observable metric tells you Constraint 2 is about to become active? (Not "when it breaks" — when it's about to break)
+- **Severity classification**: Is this next constraint a WIDEN (optimize existing stage) or REPLACE (fundamentally different approach needed)? Knowing this in advance prevents the "optimization treadmill" on a stage that needs replacement.
+
+**Step 4: Cascade Integrity Test**
+Stress-test the cascade model:
+- If you solve all 3 constraints in sequence, does the business arrive at the desired revenue/scale target — or does the cascade reveal a structural ceiling that requires a fundamentally different business model?
+- Does the cascade end at a **Sovereignty Choice Point** (Nick's $72K decision)? If so, flag it now — not after 6 months of constraint-widening toward a business the owner doesn't want.
+
 ---
 
 ## Output Contract
@@ -106,6 +141,19 @@ Downstream starvation: [what's being blocked]
 
 ## Next Bottleneck Forecast
 After widening [current constraint], expect **[next stage]** to become the new constraint because [reasoning]. Prepare by [specific pre-action].
+
+## Constraint Cascade Map
+**Cascade Sequence** (3 constraints deep):
+
+| Order | Constraint | Breaks When | Severity | Pre-Position Action |
+|-------|-----------|-------------|----------|-------------------|
+| 1 (NOW) | [Current] | Already active | WIDEN/REPLACE | [Prescription above] |
+| 2 (NEXT) | [Stage] | [Throughput reaches X] | WIDEN/REPLACE | [Zero-cost setup now] |
+| 3 (AFTER) | [Stage] | [Throughput reaches Y] | WIDEN/REPLACE | [Zero-cost setup now] |
+
+**Trigger Signals**: [What to watch for Constraint 2 activation]
+**Interdependencies**: [Any coupled/parasitic/oscillation risks between constraints]
+**Cascade Terminus**: [Does this cascade reach the revenue target, or hit a structural ceiling / sovereignty choice point?]
 ```
 
 ---
@@ -116,6 +164,9 @@ After widening [current constraint], expect **[next stage]** to become the new c
 - [ ] Is every non-bottleneck activity explicitly labeled as keep or strategic error?
 - [ ] Does the prescription focus ALL resources on the bottleneck?
 - [ ] Is the next bottleneck predicted?
+- [ ] Is the cascade mapped at least 3 constraints deep with trigger signals?
+- [ ] Are constraint interdependencies identified (coupled, parasitic, oscillation)?
+- [ ] Does the cascade terminus align with the owner's actual goals?
 - [ ] Would Nick look at this and say "yeah, that's the move" — or would he say you're overcomplicating it?
 
 

@@ -125,3 +125,15 @@ LLM traffic is massively underreported. Users don't click citations — they cop
 | **Experimental Validation**   | Strategy based on anecdotal evidence or unverified "best practices."                | Some data collected, but lacks robust control groups or clear reproducibility.                    | Strategy is rigorously tested with control groups, and results are demonstrably reproducible, confirming causality. |
 | **Multi-Surface Citation Diversity** | Optimization focused on a single LLM surface or general web search.                   | Awareness of different LLM surfaces, but optimization isn't tailored for each.                    | Content is specifically engineered and tracked for optimal citation across 3+ distinct LLM surfaces, recognizing their divergent retrieval patterns. |
 | **Authenticity Signal**       | Content feels generic, corporate, or disingenuous; lacks a human touch.             | Attempts to be authentic, but might still contain marketing-speak or feel slightly forced.        | Content clearly comes from a real person/company, offers genuine value, and builds trust naturally, passing the "Reddit Authenticity Protocol" test. |
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Citation Compulsion Architecture (Content Weaponization Plan)
+- **Hypothesis**: Adding a "Citation Compulsion Architecture" phase (Phase 1.5) with 5 mechanics for engineering attribution dependency will produce AEO strategies that force AI engines to credit sources by name, not just be "citable"
+- **Result**: KEPT — Score improved from 6.0 to 8.3 (+2.3)
+- **Change**: Added Phase 1.5 with 5 compulsion mechanics (Named Framework Engineering, Quantitative Anchor Points, Definitional Ownership, Methodology Specificity Lock, Contrarian Claim with Evidence Chain), Citation Compulsion Audit (0-5 scoring), Compulsion Minimum quality gate, Attribution Dependency Test, Column D in Weaponization Matrix
+- **Benchmark scores**: Current [7, 6, 5] → Variant [9, 8, 8] (Intent, Expert, Adversarial)
+- **Lesson**: The gap between "be unique" and "force attribution" is the difference between content AI can summarize anonymously vs. content AI must credit. Named frameworks and contrarian claims with evidence are the strongest compulsion mechanics.

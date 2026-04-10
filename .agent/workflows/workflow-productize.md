@@ -1,5 +1,5 @@
 ---
-description: Package and sell n8n/Make automations as standalone products ($500-$5K per workflow)
+description: Package and sell n8n/Make automations as standalone products
 ---
 
 # Workflow Productizer

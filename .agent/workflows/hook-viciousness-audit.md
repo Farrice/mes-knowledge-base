@@ -1,5 +1,5 @@
 ---
-description: Score any set of hooks against Luke Iha's 8 Vicious Hook Principles — full audit with rewrite prescriptions
+description: Full audit with rewrite prescriptions
 ---
 
 # Hook Viciousness Audit

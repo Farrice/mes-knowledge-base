@@ -1,10 +1,12 @@
 ---
-description: Run a skill evolution cycle — benchmark, identify weaknesses, generate and test variants
+description: Skill evolution cycle
 ---
 
 # /skill-evolution — Skill Evolution Workflow
 
 Run the autoresearch-inspired evolution loop on a skill to improve its weakest dimension or workflow.
+
+**Before starting**: Read `directives/evolution-direction.md` for current priorities and constraints.
 
 ## Usage
 
@@ -15,6 +17,14 @@ Run the autoresearch-inspired evolution loop on a skill to improve its weakest d
 ```
 
 ## Steps
+
+### 0. Read Evolution Direction
+
+Read `directives/evolution-direction.md`. Check:
+- Current priorities (which skills to target)
+- Constraints (what not to change)
+- Stopping criteria (when to pause)
+- Evolution History (avoid re-testing failed hypotheses)
 
 ### 1. Identify Target Skill
 
@@ -94,16 +104,18 @@ The variant must:
 - Modify only the targeted aspect
 - Document what changed at the top
 
-### 6. Test Both Versions
+### 6. Test Both Versions (Time-Boxed: 10 min/task)
+
+**Time limit: 10 minutes per benchmark task.** This prevents over-deliberation and forces decisive evaluation (Karpathy principle: constrained cycle time).
 
 For each of the 3 benchmark tasks (from `skill_benchmark.py`):
 
-**A.** Execute the current workflow → score output (Quality Gate 3-point check)
-**B.** Execute the variant workflow → score output (same rubric)
+**A.** Execute the current workflow → score output (Quality Gate 3-point check) — 10 min max
+**B.** Execute the variant workflow → score output (same rubric) — 10 min max
 
-Record all scores.
+Record all scores. Scoring must be blind (score current first, then variant, without comparing).
 
-### 7. Compare Results
+### 7. Compare Results (Binary Decision)
 
 ```markdown
 ## Evolution Results
@@ -118,6 +130,12 @@ Record all scores.
 **Verdict**: [KEEP / DISCARD]
 **Reason**: [Why]
 ```
+
+**Decision rule (binary — no "marginal"):**
+- Variant composite >= 7 AND wins by 1+ avg → **KEEP**
+- Everything else → **DISCARD**
+
+No retries during evolution. Ambiguity kills velocity.
 
 ### 8. CHECKPOINT: User Approval
 
@@ -136,6 +154,16 @@ If the variant loses or ties:
 - Delete the .variant.md file
 - Add Evolution Log entry to genius.md
 - Log to Performance Log (status: "Keep", experiment_tag: "evolution-[date]")
+- **Git commit the change:**
+  ```bash
+  git add skills/[skill-name]/workflows/[workflow-name].md
+  git add skills/[skill-name]/genius.md
+  git commit -m "evolution: [skill-name] — [hypothesis-summary]
+  
+  Result: KEPT — Score improved from [X] to [Y] (+[delta])
+  Hypothesis: [what was tested]
+  Target: [workflow or dimension]"
+  ```
 
 **If DISCARDED:**
 - Delete the .variant.md file
@@ -169,7 +197,14 @@ candidates = find_related_skills(skill_name, pattern_type)
 
 If candidates found, note them for the next cross-pollination cycle.
 
-### 11. Report
+### 11. Update Evolution Direction
+
+Update `directives/evolution-direction.md`:
+- Add row to **Evolution History** table with date, skill, hypothesis, result, score delta, notes
+- Update **System Status** table (increment activation count, update last activated date)
+- If 3 consecutive DISCARDs on same skill, note in Stopping Criteria that skill should be paused
+
+### 12. Report
 
 ```markdown
 ## Evolution Complete
@@ -180,10 +215,13 @@ If candidates found, note them for the next cross-pollination cycle.
 **Score Change**: [X] → [Y] ([+/-])
 **Hypothesis**: [summary]
 **Cross-Pollination Candidates**: [list or "None"]
+**Git Commit**: [hash if KEPT, N/A if DISCARDED]
+**Evolution Direction Updated**: Yes
 ```
 
 ## Protocol Reference
 
 Full protocol: `directives/skill-evolution-protocol.md`
+Evolution compass: `directives/evolution-direction.md`
 Benchmark tool: `execution/skill_benchmark.py`
 Performance logger: `execution/log_performance.py`

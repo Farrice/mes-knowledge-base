@@ -1,5 +1,5 @@
 ---
-description: Diagnose whether you're stuck in the Sheep Cycle copy trap and build a concrete escape plan
+description: Diagnose whether you're stuck in the Sheep Cycle
 ---
 
 # Sheep Cycle Diagnostic

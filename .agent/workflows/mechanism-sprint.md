@@ -1,5 +1,5 @@
 ---
-description: Start from mechanism, generate CASH-method ads targeting each awareness level
+description: Start from mechanism, generate CASH-method ads targeting each
 ---
 
 # Mechanism-First Ad Sprint

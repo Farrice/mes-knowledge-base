@@ -1,5 +1,5 @@
 ---
-description: Rank on Google in weeks using Medium, LinkedIn, and Reddit authority — parasite SEO execution playbook
+description: Rank on Google in weeks
 ---
 
 # Parasite SEO Playbook

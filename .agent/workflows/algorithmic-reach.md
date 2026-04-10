@@ -1,5 +1,5 @@
 ---
-description: Build a daily engagement and commenting schedule to generate inbound awareness and authority before publishing your own content
+description: Daily engagement and commenting schedule
 ---
 
 # Algorithmic Reach Hijack

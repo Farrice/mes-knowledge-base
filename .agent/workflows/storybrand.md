@@ -1,5 +1,5 @@
 ---
-description: Generate a complete SB7 BrandScript for any business using Donald Miller's StoryBrand framework. Creates all 7 elements, a one-liner, and 5 survival sound bites.
+description: Complete SB7 BrandScript
 ---
 
 # /storybrand — BrandScript Generator

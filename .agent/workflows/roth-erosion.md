@@ -1,5 +1,5 @@
 ---
-description: Cross-domain erosion protocol — iterative refinement for any content type, not just screenplays
+description: Cross-domain erosion protocol
 ---
 
 # Roth Cross-Domain Erosion

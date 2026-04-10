@@ -1,5 +1,5 @@
 ---
-description: "Build a 5-stage proof portfolio from zero to authority — systematic proof accumulation roadmap for freelancers and creative strategists"
+description: 5-stage proof portfolio
 ---
 
 # Proof Portfolio Builder

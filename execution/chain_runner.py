@@ -57,6 +57,18 @@ sys.path.insert(0, str(Path(__file__).parent))
 from log_performance import log_output, check_regression, get_baseline
 from protocol_tracker import activate_protocol
 from checkpoint_manager import save_session_state
+from prose_classifier import classify_prose, quick_check
+from revenue_tracker import get_pipeline as get_revenue_pipeline
+
+# Evolution trace directory (v2)
+TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "v2_traces"
+
+# Import v2 evolution tracer for auto-logging
+try:
+    from evolution_tracer import log_trace as evo_log_trace
+    _HAS_EVO_TRACER = True
+except ImportError:
+    _HAS_EVO_TRACER = False
 
 
 # Quality Gate thresholds (from directives/quality_gate.md)
@@ -82,6 +94,7 @@ def finalize(
     user_rating: Optional[float] = None,
     experiment_tag: str = "",
     skip_notion: bool = False,
+    write_trace: bool = False,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -115,6 +128,7 @@ def finalize(
         "output": output_description,
         "expert": expert,
         "skill": skill,
+        "task_type": task_type,
         "timestamp": datetime.now().isoformat(),
     }
 
@@ -138,6 +152,25 @@ def finalize(
     result["intent_alignment"] = intent_alignment
     result["expert_standard"] = expert_standard
     result["adversarial_resilience"] = adversarial_resilience
+
+    # ── Step 2.5: Prose classifier check (advisory) ───────────────
+    prose_result = None
+    if output_description and len(output_description) > 100:
+        try:
+            prose_result = classify_prose(output_description)
+            result["prose_check"] = {
+                "verdict": prose_result["verdict"],
+                "ai_score": prose_result["ai_score"],
+                "signal_count": prose_result["signal_count"],
+            }
+            if prose_result["verdict"] == "FLAGGED" and expert_standard and expert_standard > 6:
+                result["prose_warning"] = (
+                    f"Prose classifier FLAGGED (AI score {prose_result['ai_score']}/10). "
+                    f"Expert Standard may be inflated at {expert_standard}. "
+                    f"Consider cap at 6 per quality_gate.md."
+                )
+        except Exception:
+            pass  # Prose check is advisory, never blocks
 
     # ── Step 3: Quality Gate pass/fail ───────────────────────────
     failed_dimensions = []
@@ -234,6 +267,59 @@ def finalize(
         result["session_state_written"] = False
 
     result["success"] = True
+
+    # ── Step 8: Write v2 evolution trace (ALWAYS, not optional) ──
+    try:
+        if _HAS_EVO_TRACER:
+            # V2 tracer: auto-populates search set on failures
+            evo_log_trace(
+                component=skill or expert or task_type,
+                operation="chain_finalize",
+                expert=expert,
+                workflow=workflow,
+                quality_score=composite,
+                intent=intent_alignment,
+                expert_score=expert_standard,
+                adversarial=adversarial_resilience,
+                notes=notes,
+                context={
+                    "output": output_description[:200],
+                    "task_type": task_type,
+                    "experiment_tag": experiment_tag,
+                    "regression": result.get("regression_check", {}),
+                },
+            )
+            result["v2_trace"] = True
+        else:
+            # Fallback: legacy trace writing
+            TRACE_DIR.mkdir(parents=True, exist_ok=True)
+            trace = {
+                "timestamp": result["timestamp"],
+                "output": output_description,
+                "expert": expert,
+                "skill": skill,
+                "workflow": workflow,
+                "task_type": task_type,
+                "intent_alignment": intent_alignment,
+                "expert_standard": expert_standard,
+                "adversarial_resilience": adversarial_resilience,
+                "composite_score": composite,
+                "status": status,
+                "passed": passed,
+                "failed_dimensions": failed_dimensions,
+                "regression": result.get("regression_check", {}),
+                "notes": notes,
+                "experiment_tag": experiment_tag,
+            }
+            ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+            trace_file = TRACE_DIR / f"trace_{ts}_{skill or expert or 'unknown'}.json"
+            with open(trace_file, "w") as f:
+                json.dump(trace, f, indent=2)
+            result["trace_file"] = str(trace_file)
+    except Exception as e:
+        result["v2_trace"] = False
+        result["trace_error"] = str(e)
+
     return result
 
 
@@ -280,11 +366,31 @@ def print_result(result: Dict) -> None:
     for p in protocols:
         print(f"    • {p}")
 
+    # Prose check
+    prose = result.get("prose_check")
+    if prose:
+        verdict = prose.get("verdict", "N/A")
+        ai_score = prose.get("ai_score", 0)
+        if verdict == "FLAGGED":
+            print(f"\n  Prose:      ⚠️  FLAGGED (AI score {ai_score}/10) — Expert Standard may be inflated")
+        elif verdict == "WARNING":
+            print(f"\n  Prose:      ⚡ WARNING (AI score {ai_score}/10) — review before delivery")
+
+    # Prose warning (if Expert Standard seems inflated)
+    if result.get("prose_warning"):
+        print(f"  ⚠️  {result['prose_warning']}")
+
     # Session state
     if result.get("session_state_written"):
         print(f"  Session state: ✅ Written")
     else:
         print(f"  Session state: ⚠️  Not written")
+
+    # Revenue tracking reminder (for client/content deliverables)
+    task_type = result.get("task_type", "")
+    if task_type in ("Client Work", "Content", "Creative", "Strategy"):
+        print(f"\n  💰 Revenue tracking: Log outcome when results come in →")
+        print(f"     python execution/revenue_tracker.py log \"{result['output'][:50]}...\" --revenue <$> --outcome \"<result>\"")
 
     print("=" * 60)
 
@@ -307,6 +413,7 @@ def main():
     fin.add_argument("--rating", type=float, help="User rating (1-10)")
     fin.add_argument("--tag", default="", help="Experiment tag")
     fin.add_argument("--skip-notion", action="store_true", help="Skip Notion logging (test mode)")
+    fin.add_argument("--trace", action="store_true", help="Write JSON trace to evolution_store/traces/")
 
     args = parser.parse_args()
 
@@ -324,6 +431,7 @@ def main():
             user_rating=args.rating,
             experiment_tag=args.tag,
             skip_notion=args.skip_notion,
+            write_trace=args.trace,
         )
         print_result(result)
     else:

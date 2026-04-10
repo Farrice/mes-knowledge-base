@@ -46,8 +46,17 @@ Rebuild the content from the Meaning Statements using the Statistical Unpredicta
 3. **Order Reversal Technique**: Reshuffle every list or enumeration. If the AI listed "Efficiency, Growth, and Innovation," reconstruct it as "Innovation—and the growth it triggers—while maintaining baseline efficiency."
 4. **Voice Injection**: Apply the signature structural moves of the desired persona (e.g., parenthetical asides for an academic voice, or sentence fragments for a casual voice).
 
+### Phase 3.5: Cognitive Wake Injection (Live Thinking Artifacts)
+Before the naturalness pass, inject traces of a mind that is **discovering its own argument in real time**. This is NOT the same as "imperfection injection" (Phase 4) — imperfections are cosmetic; cognitive wake is process-based. The goal: make the text read like someone who changed their mind, remembered something, or had an emotional reaction to their own words mid-paragraph.
+
+1. **Mid-Thought Pivot**: At least once per 200 words, insert a moment where the writer visibly changes direction because of what they just wrote. Signals: "actually," "wait," "no — what I mean is," "let me back up." The pivot must lead somewhere DIFFERENT, not just restate.
+2. **Memory Intrusion**: At least once per piece, let a personal observation, anecdote fragment, or temporal reference ("I didn't fully get this until...") enter the text as if the writer's memory surfaced because the argument triggered it — not because it was planned.
+3. **Emotional Micro-Reaction**: Let the writer respond to their own claim. "That's the part nobody explains well enough" or "which, honestly, surprised me" — these are not rhetorical devices but traces of a mind evaluating its own output in real time.
+4. **Discovery Arc**: The text should feel like it arrives at its conclusion, not that it started there. The first sentence should feel like a question or entry point. The last sentence should feel like something the writer figured out BY writing the preceding sentences.
+5. **Cognitive Wake Test**: Read the full output and ask: "Does this text have a visible moment where the writer's thinking CHANGED because of their own argument?" If no — the wake is missing. Add one genuine pivot.
+
 ### Phase 4: Imperfection Injection & Naturalness Pass
-Apply the "Worse is Better" test to ensure the text feels organic.
+Apply the "Worse is Better" test to ensure the text feels organic. **Note**: Phase 3.5 handles cognitive-process artifacts. This phase handles surface-level structural imperfections. Both are needed — they serve different detection layers.
 1. **Strategic Imperfection**: Insert 2-3 "human signals" per 200 words:
    - A transitional connector in an unusual spot (e.g., starting a sentence with "And" or "But").
    - A moment of self-reference or uncertainty ("I'm not entirely sure why, but...").
@@ -66,6 +75,7 @@ The user receives a single markdown file containing:
 2. **The SUP Check**: Does the text contain at least two moments of "deliberate imperfection" or structural surprise per 200 words?
 3. **The Prediction Test**: Is the flow of ideas non-linear enough that a detector cannot predict the next word with high confidence?
 4. **The Fact-Check**: Are all core constraints and data points from the original preserved despite the structural overhaul?
+5. **The Cognitive Wake Test**: Does the text contain at least one visible moment where the writer's thinking changed direction because of their own argument? If the text reads like it always knew where it was going, the cognitive wake is missing — inject a genuine discovery moment.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

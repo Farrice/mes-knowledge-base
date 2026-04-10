@@ -1,5 +1,5 @@
 ---
-description: "Universal domain research — maps any topic into a tiered landscape with depth mining, audience resonance mapping, and strategic throughline. The creative bridge between 'I need to understand this domain' and 'I know exactly what to create.'"
+description: Universal domain research
 ---
 
 # /research-landscape — Universal Domain Research

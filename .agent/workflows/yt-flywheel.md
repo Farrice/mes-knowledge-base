@@ -1,5 +1,5 @@
 ---
-description: Run the Deep Engine Flywheel — The Long-Form workflow anchored by a high-retention YouTube Script. Enforces a mandatory Deep-Dive Creative Brief approval step.
+description: Deep Engine Flywheel
 ---
 
 # `/yt-flywheel` — The Deep Engine (v1.1)

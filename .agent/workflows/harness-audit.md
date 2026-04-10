@@ -1,5 +1,5 @@
 ---
-description: Audit any existing agent system's scaffolding for reliability gaps and harness design weaknesses
+description: Audit any existing agent system's scaffolding
 ---
 
 # /harness-audit — Agent Scaffolding Reliability Audit

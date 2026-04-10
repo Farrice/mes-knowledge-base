@@ -1,5 +1,5 @@
 ---
-description: Deploy a true parallel agent swarm using the Gemini API for simultaneous multi-expert execution
+description: True parallel agent swarm
 ---
 
 # /parallel-swarm — True Parallel Orchestration

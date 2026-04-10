@@ -1,5 +1,5 @@
 ---
-description: Generate a strategic brief — scans your situation against your full skill arsenal and recommends highest-ROI moves
+description: Strategic brief
 ---
 
 # /brief — Strategic Intelligence Brief

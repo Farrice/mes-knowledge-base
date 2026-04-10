@@ -78,6 +78,29 @@
 
 ---
 
+### Tier 4: Self-Evolution
+**Scope**: Error *classes* that recur 3+ times despite Tier 2 fixes. The system component itself needs evolution, not just patching.
+
+**Trigger**: Same failure pattern detected 3+ times across different invocations (check Lesson Learned entries for recurring patterns).
+
+| Step | Action |
+|------|--------|
+| 1. **Pattern Detection** | Identify the recurring error class from Lesson Learned logs |
+| 2. **Search Set Construction** | Gather all past instances of this failure as the evolution search set |
+| 3. **Evolution Sprint** | Run `/proposer-sprint` (5-10 iterations) on the failing component |
+| 4. **Pareto Evaluation** | Evaluate evolved variant against both failure cases AND normal cases |
+| 5. **Deploy or Escalate** | If evolution produces >1 point improvement: deploy. If not: escalate to user with analysis. |
+
+**Rules**:
+- Evolution targets the *component* (workflow, skill, prompt), not the individual error instance
+- The search set MUST include past failures AND normal cases (prevent regression)
+- Always run `/evolution-audit` after deploying an evolved variant
+- Log the evolution result to `evolution_store/[component_name]/`
+
+**Reference**: `skills/self-evolving-systems/SKILL.md` and `genius.md` for full evolution methodology.
+
+---
+
 ## Permanent Learning Protocol
 
 The difference between "retry" and "self-anneal" is that self-annealing makes the system *permanently stronger*. Every Tier 2+ failure must produce a lasting artifact:
@@ -115,6 +138,8 @@ Recovery: Resume from Step 3 checkpoint, not Step 1
 - **Replaces**: The "Self-annealing loop" summary in Operating Principles (summary remains, this is the full protocol)
 - **Works with**: `directives/quality_gate.md` (quality failures follow this recovery protocol)
 - **Works with**: `directives/workflow-chains.md` (chain failures follow tiered recovery)
+- **Works with**: `skills/self-evolving-systems/` (Tier 4 evolution methodology)
+- **Tier 4 workflows**: `/self-evolve`, `/proposer-sprint`, `/evolution-audit`, `/skill-anneal`
 - **Referenced from**: GEMINI.md/CLAUDE.md/AGENTS.md Operating Principles
 - **Checkpoint tool**: `execution/checkpoint_manager.py`
 
@@ -126,6 +151,7 @@ Recovery: Resume from Step 3 checkpoint, not Step 1
 Error occurred
   ├── Known fix exists? → Tier 1 (Auto-Fix)
   ├── Root cause diagnosable? → Tier 2 (Diagnose & Document)
+  ├── Same error class 3+ times? → Tier 4 (Self-Evolution)
   └── Needs human judgment/credentials? → Tier 3 (Escalate)
 ```
 

@@ -1,5 +1,5 @@
 ---
-description: Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research and Expert Ensembles.
+description: McKinsey-Grade Strategic Dossier
 ---
 
 # 🏛️ McKinsey-Grade Strategic Dossier Generator

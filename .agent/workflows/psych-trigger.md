@@ -1,5 +1,5 @@
 ---
-description: Deploy psychological trigger sequences — frame/deframe/reframe — for sales, copy, presentations, content
+description: Deploy psychological trigger sequences
 ---
 
 # /psych-trigger

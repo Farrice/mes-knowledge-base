@@ -1,0 +1,77 @@
+{
+  "version": "v2",
+  "created": "2026-04-09T04:12:00-07:00",
+  "description": "Top 5 ground truth benchmark samples by quality score. Use these for blind comparison when validating evolution variants.",
+  "samples": [
+    {
+      "rank": 1,
+      "title": "Slash command portability + system activation audit \u2014 made 144 workflows prefix-",
+      "score": 10,
+      "composite": 10.0,
+      "intent": 10,
+      "expert_standard": 10,
+      "adversarial": 10,
+      "expert": "n/a",
+      "skill": "system-architecture",
+      "workflow": "n/a",
+      "status": "Keep",
+      "page_id": "31f49875-a897-81e1-9248-c2d034cb8bbf"
+    },
+    {
+      "rank": 2,
+      "title": "Universal System Verification Suite \u2014 built verify_system.py (6-phase structural",
+      "score": 10,
+      "composite": 10.0,
+      "intent": 10,
+      "expert_standard": 10,
+      "adversarial": 10,
+      "expert": "n/a",
+      "skill": "system-health",
+      "workflow": "n/a",
+      "status": "Keep",
+      "page_id": "32049875-a897-8115-9654-ccda5712fd54"
+    },
+    {
+      "rank": 3,
+      "title": "Told the user they need to run the tests in a fresh session because I am primed ",
+      "score": 10,
+      "composite": 10.0,
+      "intent": 10,
+      "expert_standard": 10,
+      "adversarial": 10,
+      "expert": "Nick Saraev",
+      "skill": "nick-saraev-agentic-workflows",
+      "workflow": "test-model-compliance",
+      "status": "Keep",
+      "page_id": "33449875-a897-8126-ab7d-de7d16ee2780"
+    },
+    {
+      "rank": 4,
+      "title": "Tested GEMINI.md for The Chain compliance using the 3 tests in /test-model-compl",
+      "score": 10,
+      "composite": 10.0,
+      "intent": 10,
+      "expert_standard": 10,
+      "adversarial": 10,
+      "expert": "orchestration",
+      "skill": "system",
+      "workflow": "test-model-compliance",
+      "status": "Keep",
+      "page_id": "33449875-a897-8176-9577-ed9b33d093a5"
+    },
+    {
+      "rank": 5,
+      "title": "High-Ticket Offer Architecture: AI Brain Build",
+      "score": 10,
+      "composite": 10.0,
+      "intent": 10,
+      "expert_standard": 10,
+      "adversarial": 10,
+      "expert": "maria-wendt",
+      "skill": "maria-wendt-digital-products",
+      "workflow": "06-strategic-price-and-launch-engine.md",
+      "status": "Keep",
+      "page_id": "33649875-a897-8152-9d40-e33e0c3c53b8"
+    }
+  ]
+}

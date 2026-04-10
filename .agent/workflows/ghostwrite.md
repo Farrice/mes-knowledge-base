@@ -1,5 +1,5 @@
 ---
-description: "Ghostwriting Voice Engine -- capture a coach's voice and write LinkedIn content as them"
+description: Ghostwriting Voice Engine -- capture a coach's voice
 ---
 
 # /ghostwrite — Ghostwriting Voice Engine

@@ -1,0 +1,5474 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 25,
+  "cost_dollars": 0.175,
+  "spent_total": 0.5795,
+  "remaining_dollars": 28.4205,
+  "items": [
+    {
+      "title": "Buca di Beppo Italian Restaurant",
+      "description": "Chain serving family-style Italian fare in a kitschy setting featuring red-&-white tablecloths.",
+      "price": "$$",
+      "categoryName": "Italian restaurant",
+      "address": "1000 Universal Studios Blvd, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal Studios Blvd",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://dineatbuca.com/locations/universal-citywalk/?utm_campaign=local&utm_source=gbp&utm_medium=organic&utm_content=universal-citywalk",
+      "phone": "(818) 509-9463",
+      "phoneUnformatted": "+18185099463",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.136403,
+        "lng": -118.351148
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJE6rCL0y-woARF7qwmA1hgzg",
+      "categories": [
+        "Italian restaurant",
+        "Family restaurant"
+      ],
+      "fid": "0x80c2be4c2fc2aa13:0x3883610d98b0ba17",
+      "cid": "4072205199097248279",
+      "reviewsCount": 3028,
+      "imagesCount": 1765,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.690Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/S7PhbLDXbE8?source=pa&opi=79508299&hl=en-US&gei=VJPUacq9BfC0qtsP--b0oQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.215657327819!2d-118.34405898002565!3d34.140824359152504!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sUZPUabigL8CxqtsPxsiHuAk!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurant%2BUniversal%2BCityWalk%26ech%3D1%26psi%3DUZPUabigL8CxqtsPxsiHuAk.1775539025934.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "10:30\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "10:30\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "10:30\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "10:30\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "10:30\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:30\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "10:30\u202fAM\u201310\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great coffee": true
+          },
+          {
+            "Great dessert": true
+          },
+          {
+            "Great wine list": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Romantic": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Buca%20di%20Beppo%20Italian%20Restaurant&query_place_id=ChIJE6rCL0y-woARF7qwmA1hgzg",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepSj-SIVcgopXgEk-lK_i3Yi5RuJW9XGk_YUGt-m_BdzUJ45NMKUsx51eZ3HlKpr9HqU1nytXhZxZWyCOx6t9P125wTUsEu96UY8FA9lAHbXmVK4QOcnY5rZvZf0rtwgz4zahQafQ=w408-h306-k-no",
+      "kgmid": "/g/1wl4qwcr"
+    },
+    {
+      "title": "Bubba Gump Shrimp Co.",
+      "description": "Family-friendly restaurant offering shrimp & classic southern fare in a casual setting.",
+      "price": "$20\u201330",
+      "categoryName": "Seafood restaurant",
+      "address": "1000 Universal Studios Blvd Suite 114, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal Studios Blvd Suite 114",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.bubbagump.com/location/bubba-gump-hollywood-ca/",
+      "phone": "(818) 753-4867",
+      "phoneUnformatted": "+18187534867",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.136074,
+        "lng": -118.3533629
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJE6rCL0y-woARmlvB7KcqGsQ",
+      "categories": [
+        "Seafood restaurant",
+        "American restaurant"
+      ],
+      "fid": "0x80c2be4c2fc2aa13:0xc41a2aa7ecc15b9a",
+      "cid": "14130653681548352410",
+      "reviewsCount": 2328,
+      "imagesCount": 3598,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.694Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great dessert": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Bubba%20Gump%20Shrimp%20Co.&query_place_id=ChIJE6rCL0y-woARmlvB7KcqGsQ",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoGi9nWl0yXuwv2OeSw5zlrUmz2m7fZtn0APFTKTDO4bP2xoJNxz3urHyispNBLl8PUplZ3_ZFNu4WVlbE2GL4O-jgltuOasc8aCdFVC4VT0_5bJKcoJL65PHyQb-FBAF-WgyaB=w427-h240-k-no",
+      "kgmid": "/g/1tm695xz"
+    },
+    {
+      "title": "Jimmy Buffett\u2019s Margaritaville",
+      "price": "$20\u201330",
+      "categoryName": "American restaurant",
+      "address": "Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": null,
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/citywalk/margaritaville",
+      "phone": "(818) 622-7833",
+      "phoneUnformatted": "+18186227833",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1370843,
+        "lng": -118.3514206
+      },
+      "totalScore": 3.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJA6xNI0y-woARW5NO1hZFtMw",
+      "categories": [
+        "American restaurant",
+        "Bar & grill",
+        "Family restaurant"
+      ],
+      "fid": "0x80c2be4c234dac03:0xccb44516d64e935b",
+      "cid": "14750490643932287835",
+      "reviewsCount": 1440,
+      "imagesCount": 1001,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.694Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "2\u20136\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "2\u20136\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "2\u20136\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "2\u20136\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "2\u20136\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Live music": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Jimmy%20Buffett%E2%80%99s%20Margaritaville&query_place_id=ChIJA6xNI0y-woARW5NO1hZFtMw",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerweskmYVdKh4-QPDfwGQcwzYRBGUsfvUX1KQD_J05XKHB8TAGacub5vhDt94wOXpFxCh487dcXLatYxgdtMiOvK-arCNQRAlcoUCkBkROXe1VPyQfPkta7TWy2n3pyi2tBN2wS=w426-h240-k-no",
+      "kgmid": "/g/11dxd1y8_7"
+    },
+    {
+      "title": "The Three Broomsticks",
+      "description": "Rustic counter-serve fixture with a Harry Potter motif providing British pub grub & outdoor seats.",
+      "price": "$20\u201330",
+      "categoryName": "British restaurant",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/things-to-do/dining/three-broomsticks/",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.138817,
+        "lng": -118.3541696
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ_2zDMkm-woARN2MMszkn0Y0",
+      "categories": [
+        "British restaurant",
+        "Family restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be4932c36cff:0x8dd12739b30c6337",
+      "cid": "10218992158250918711",
+      "reviewsCount": 755,
+      "imagesCount": 1659,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.694Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "9\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=The%20Three%20Broomsticks&query_place_id=ChIJ_2zDMkm-woARN2MMszkn0Y0",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqIOO1zX9dCvQOaNeq-kEkmQEOUSpyfRI6MRfRFLELX_HWnUxwZipCjJyvFnjaLLB4tYDCD1jGJ9WczGRRjlwa_276IvdFVvqu2Qr7X9RCVqWfK-JWDhq9Ou5pQdzdTKhDKoUSQ=w426-h240-k-no",
+      "kgmid": "/g/11cm3ny6zx"
+    },
+    {
+      "title": "NBC Sports Grill & Brew",
+      "price": "$20\u201330",
+      "categoryName": "Bar & grill",
+      "address": "167 Universal City Plaza, Los Angeles, CA 90068",
+      "neighborhood": "Universal City",
+      "street": "167 Universal City Plaza",
+      "city": "Los Angeles",
+      "postalCode": "90068",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/citywalk/nbc-sports-grill",
+      "phone": "(818) 622-0431",
+      "phoneUnformatted": "+18186220431",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1359464,
+        "lng": -118.3537883
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJG67Y2Qy_woARiCUArVKWABU",
+      "categories": [
+        "Bar & grill"
+      ],
+      "fid": "0x80c2bf0cd9d8ae1b:0x15009652ad002588",
+      "cid": "1513374756630439304",
+      "reviewsCount": 395,
+      "imagesCount": 436,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.695Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/WqXolWArXaQ?source=pa&opi=79508299&hl=en-US&gei=VJPUacq9BfC0qtsP--b0oQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.215657327819!2d-118.34405898002565!3d34.140824359152504!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sUZPUabigL8CxqtsPxsiHuAk!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurant%2BUniversal%2BCityWalk%26ech%3D1%26psi%3DUZPUabigL8CxqtsPxsiHuAk.1775539025934.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Sports": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Food": true
+          },
+          {
+            "Food at bar": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=NBC%20Sports%20Grill%20%26%20Brew&query_place_id=ChIJG67Y2Qy_woARiCUArVKWABU",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwere4Qi8VlaWfIfqGl9_BiZq0Df7xU7yjmyZu3LIV-S880EUZGqkmUrLkKen70gvSPCW5Pd4AfDzXml0OB0lEKkWZ58BAzmQFUImK72QNzTeUjDCzlUDj6B0qNMXZdLJFrlXIEEF-Q=w427-h240-k-no",
+      "kgmid": "/g/11q8g64700"
+    },
+    {
+      "title": "The Toothsome Chocolate Emporium & Savory Feast Kitchen",
+      "price": "$20\u201330",
+      "categoryName": "Restaurant",
+      "address": "Universal Studios Hollywood, 26 Universal City Plaza, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "Universal Studios Hollywood, 26 Universal City Plaza",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/citywalk/toothsome-chocolate-emporium-and-savory-feast-kitchen",
+      "phone": "(818) 622-2222",
+      "phoneUnformatted": "+18186222222",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1365026,
+        "lng": -118.352044
+      },
+      "totalScore": 3.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJhzk33A-_woAR-Sjf1Jw480A",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2bf0fdc373987:0x40f3389cd4df28f9",
+      "cid": "4680146684005525753",
+      "reviewsCount": 938,
+      "imagesCount": 2864,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.696Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/b5rOnHZKc7k?source=pa&opi=79508299&hl=en-US&gei=VJPUacq9BfC0qtsP--b0oQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.215657327819!2d-118.34405898002565!3d34.140824359152504!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sUZPUabigL8CxqtsPxsiHuAk!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurant%2BUniversal%2BCityWalk%26ech%3D1%26psi%3DUZPUabigL8CxqtsPxsiHuAk.1775539025934.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great coffee": true
+          },
+          {
+            "Great dessert": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=The%20Toothsome%20Chocolate%20Emporium%20%26%20Savory%20Feast%20Kitchen&query_place_id=ChIJhzk33A-_woAR-Sjf1Jw480A",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweokAsx9vuCU9riosC92ANu2FvCDhUImB6dqkNt5OXcmmY6bNwNIYnmDIkP14OsZ_-mmdJg71GQno44qNhfBJm9kG0d_IjNhmRv8aevscAJgBPy7JthgvsAxdZWUgOQIAU6uXf8DfpQ_ths=w426-h240-k-no",
+      "kgmid": "/g/11tg772nnr"
+    },
+    {
+      "title": "VIVO Italian Kitchen",
+      "price": "$20\u201330",
+      "categoryName": "Italian restaurant",
+      "address": "100 Universal City Plaza, Los Angeles, CA 90068",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Los Angeles",
+      "postalCode": "90068",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/citywalk/vivo-italian-kitchen",
+      "phone": "(818) 622-0424",
+      "phoneUnformatted": "+18186220424",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1361168,
+        "lng": -118.354473
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJl02drEq_woARidB3NCqosME",
+      "categories": [
+        "Italian restaurant"
+      ],
+      "fid": "0x80c2bf4aac9d4d97:0xc1b0a82a3477d089",
+      "cid": "13956840144443527305",
+      "reviewsCount": 418,
+      "imagesCount": 656,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.696Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great wine list": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=VIVO%20Italian%20Kitchen&query_place_id=ChIJl02drEq_woARidB3NCqosME",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer397jpqO9vRP1vl1OYwdAyi2F5BD_ok1Qg0XT2pwB_fhkbl25piD4yLeT_-m2AuqpxCesitB6BKehA0F7z4svuS3roHib-BHxbHt8rHvDJVGnAmYDcbyIE1LIVO7WuK1msZ38=w408-h272-k-no",
+      "kgmid": "/g/11f8ly6k2j"
+    },
+    {
+      "title": "Universal CityWalk Hollywood",
+      "description": "High-energy hub featuring shops, eateries & bars, as well as a 7-story IMAX theater.",
+      "price": null,
+      "categoryName": "Shopping mall",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/citywalk?utm_source=google&utm_medium=organic&utm_campaign=GMB",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1361697,
+        "lng": -118.3537322
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJdzBcVka-woARXKXAmSS8NW4",
+      "categories": [
+        "Shopping mall",
+        "Amusement center",
+        "Tourist attraction"
+      ],
+      "fid": "0x80c2be46565c3077:0x6e35bc2499c0a55c",
+      "cid": "7941460383322121564",
+      "reviewsCount": 69970,
+      "imagesCount": 97325,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.696Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Has changing table(s)": true
+          },
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Universal%20CityWalk%20Hollywood&query_place_id=ChIJdzBcVka-woARXKXAmSS8NW4",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweraCBCGaRBfJ7ajublf8GN47qK8Dh6POlDxUI7OG_CIlAfQH_i0tbiMbrzwSjGQk9A4-IIVcXPdMviECSZ18AM6dIMoUPRH9_LTSYpWQbTtzL_Eg_G3p4KNGDLEwMtM7VcqAQrI=w408-h301-k-no",
+      "kgmid": "/m/025shr0"
+    },
+    {
+      "title": "Antojitos Cocina Mexicana",
+      "price": "$20\u201330",
+      "categoryName": "Mexican restaurant",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/citywalk/antojitos",
+      "phone": "(818) 622-0451",
+      "phoneUnformatted": "+18186220451",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1362975,
+        "lng": -118.3538719
+      },
+      "totalScore": 3.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJUdNbq9O_woARN1rXWeykPro",
+      "categories": [
+        "Mexican restaurant"
+      ],
+      "fid": "0x80c2bfd3ab5bd351:0xba3ea4ec59d75a37",
+      "cid": "13420345274637179447",
+      "reviewsCount": 667,
+      "imagesCount": 875,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.696Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/sswlcVgHO5M?source=pa&opi=79508299&hl=en-US&gei=VJPUacq9BfC0qtsP--b0oQg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.215657327819!2d-118.34405898002565!3d34.140824359152504!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sUZPUabigL8CxqtsPxsiHuAk!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Drestaurant%2BUniversal%2BCityWalk%26ech%3D1%26psi%3DUZPUabigL8CxqtsPxsiHuAk.1775539025934.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Antojitos%20Cocina%20Mexicana&query_place_id=ChIJUdNbq9O_woARN1rXWeykPro",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 9,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepv6kurKfuTA2CLVSzczpUN1StnVoorhOZ3iu0Q3LTnFnGSZt2zB0syKZ3FtG1X09_AY_5rgKmc_sNvqduRIGVZDZ6_Hdu7EdGEcl7xDUC-0fqz7fuQoCnzayD5x_h7WBbv-lVU=w462-h240-k-no",
+      "kgmid": "/g/11fncqyd2t"
+    },
+    {
+      "title": "Krusty Burger",
+      "description": "Theme-park counter-serve joint offering Simpsons-inspired burgers, sandwiches, fries & hot dogs.",
+      "price": "$10\u201320",
+      "categoryName": "Hamburger restaurant",
+      "address": "49 Production Plaza, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "49 Production Plaza",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://m.universalstudioshollywood.com/things-to-do/dining/krusty-burger/",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1392141,
+        "lng": -118.3544234
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJPwG1G0m-woARSGU7XGk2Dhk",
+      "categories": [
+        "Hamburger restaurant"
+      ],
+      "fid": "0x80c2be491bb5013f:0x190e36695c3b6548",
+      "cid": "1805440326769009992",
+      "reviewsCount": 3659,
+      "imagesCount": 1655,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.696Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Krusty%20Burger&query_place_id=ChIJPwG1G0m-woARSGU7XGk2Dhk",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqU6MiRLwntv0KvM7_JnnHV4onBlcrbL0XJmPzNGvPLOzsnBF1zQN2CxdPNCbQzJ6JLwws8SCY2000LN9I5ddvmDlfiuSJJ__RTEGVGOc70ndbw0srA6nxJu837mO5RzoC_llrn1w=w408-h306-k-no",
+      "kgmid": "/g/11cs5xvxyt"
+    },
+    {
+      "title": "Jurassic Cafe",
+      "description": "Low-key eatery offering personal pizzas, burgers, roast chicken with veggies & signature salads.",
+      "price": "$20\u201330",
+      "categoryName": "American restaurant",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/jurassic-cafe",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1405508,
+        "lng": -118.3572689
+      },
+      "totalScore": 3.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJsTPTHEa-woARvdQU2NjHdgM",
+      "categories": [
+        "American restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be461cd333b1:0x376c7d8d814d4bd",
+      "cid": "249606563517748413",
+      "reviewsCount": 299,
+      "imagesCount": 546,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.697Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 5\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Jurassic%20Cafe&query_place_id=ChIJsTPTHEa-woARvdQU2NjHdgM",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 11,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweplG7cjhJYus7HCK6Zwk99mu60pl9T7kp06nFCKgJ3oSADQvblAf64HfVPN1YH9ApbY7OMabKI0KnC16swLw9drg4cjeouzBsUD9bUQ4upnCYjOF_dh_7U0vmWKz6aaJa3WU7oggg=w426-h240-k-no",
+      "kgmid": "/g/11c2j89ph0"
+    },
+    {
+      "title": "Wasabi",
+      "description": "Adorned with red lanterns, this relaxed Japanese eatery serves sushi, sashimi, teriyaki & hot pots.",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "1000 Universal City Plaza #112, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal City Plaza #112",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.wasabi-citywalk.com/",
+      "phone": "(818) 763-8813",
+      "phoneUnformatted": "+18187638813",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.136213,
+        "lng": -118.3529462
+      },
+      "totalScore": 4.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJEx7xL0y-woARkh406LvW-iU",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2be4c2ff11e13:0x25fad6bbe8341e92",
+      "cid": "2736735826123955858",
+      "reviewsCount": 395,
+      "imagesCount": 548,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.697Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Wasabi&query_place_id=ChIJEx7xL0y-woARkh406LvW-iU",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepRL0zFZLZIaoJ3zjie134b0WLdz9D1oY1g3Buq0sm2_j1pJ9wPsnr1kGYrM7HXKXCQ65Osg5X2mL4LW-beqAVN_Sd8Ciu3igPPPzxbuAYVLwN1AVmjj6nI-OWBGgJGpYShBYym=w508-h240-k-no",
+      "kgmid": "/g/1233d2mr_"
+    },
+    {
+      "title": "Power Up Cafe",
+      "price": "$10\u201320",
+      "categoryName": "Restaurant",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://universalstudioshollywood.com/",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1380277,
+        "lng": -118.3547837
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJxdUmJgC_woARUWxphwQs9Ko",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2bf002626d5c5:0xaaf42c0487696c51",
+      "cid": "12318519278728473681",
+      "reviewsCount": 33,
+      "imagesCount": 161,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.697Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Counter service": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Power%20Up%20Cafe&query_place_id=ChIJxdUmJgC_woARUWxphwQs9Ko",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 13,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweovGpVSGtVXDXcbP4q4PThFz7cftBcTUHyRYZb7mZcrOaRIM3k0t-5y0FB0hAoYNhRn41-vEvKIUDKdlDz3wuITzHnNm_tivMSgmgai5WVRn5R9htAO_4IO_IvSCAW2iEXDWZOJpg=w408-h544-k-no",
+      "kgmid": "/g/11vqmfj9cd"
+    },
+    {
+      "title": "Hog's Head Pub",
+      "price": "$20\u201330",
+      "categoryName": "Bar",
+      "address": "4426 Main Way Universal, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "4426 Main Way Universal",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/things-to-do/dining/hogs-head/",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1387001,
+        "lng": -118.3541166
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJydowPUm-woAR7J2xlsmkT_Y",
+      "categories": [
+        "Bar"
+      ],
+      "fid": "0x80c2be493d30dac9:0xf64fa4c996b19dec",
+      "cid": "17748585842214018540",
+      "reviewsCount": 134,
+      "imagesCount": 152,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.697Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Food": true
+          },
+          {
+            "Food at bar": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Hog's%20Head%20Pub&query_place_id=ChIJydowPUm-woAR7J2xlsmkT_Y",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoGmpvvTKznmlAvQWTV5sWjXLBBL1k--Wx5VPjsZ5qxAXmbqwZVeRuK0pHa65O5w8bX4v0sNrYeGvwMFoax-KgYDOW20fDb6mMluum5C_R8EDq53nwHKL5Wes_lw9DFvh3Ff94g9Q=w408-h306-k-no",
+      "kgmid": "/g/11csr3zmj7"
+    },
+    {
+      "title": "Firehouse Subs Universal Citywalk Hollywood",
+      "description": "Counter-serve sandwich chain offering made-to-order hot & cold subs, plus a variety of hot sauces.",
+      "price": "$10\u201320",
+      "categoryName": "Sandwich shop",
+      "address": "1000 Universal City Plaza V 201, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "1000 Universal City Plaza V 201",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.firehousesubs.com/",
+      "phone": "(818) 287-7687",
+      "phoneUnformatted": "+18182877687",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.13611,
+        "lng": -118.353714
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJnRy6Wk6_woARNMGHmnqJNy0",
+      "categories": [
+        "Sandwich shop",
+        "Caterer"
+      ],
+      "fid": "0x80c2bf4e5aba1c9d:0x2d37897a9a87c134",
+      "cid": "3258224015097446708",
+      "reviewsCount": 47,
+      "imagesCount": 171,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.697Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Firehouse%20Subs%20Universal%20Citywalk%20Hollywood&query_place_id=ChIJnRy6Wk6_woARNMGHmnqJNy0",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 17,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerHH6o-s1ed5jov2w0TTVO8xMUsV-cjFEDSqCvI2Q1vr_bMKnguSigNTmpByN_q8ycTxTUvDQD-d0Y_YXp1ja8nKnFOnveVHHodXpi_Ul7hWrujjj6X4JMeHwJ6tIR82OJ8cfHSMPp3TIRv=w408-h544-k-no",
+      "kgmid": "/g/11p5rr65kv"
+    },
+    {
+      "title": "Duff Brewery Beer Garden",
+      "description": "Easygoing beer garden with shaded tables offering brews alongside a stand with tacos & nachos.",
+      "price": "$10\u201320",
+      "categoryName": "Brewpub",
+      "address": "49 Production Plaza, Toluca Lake, CA 91602",
+      "neighborhood": "Toluca Lake",
+      "street": "49 Production Plaza",
+      "city": "Toluca Lake",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/things-to-do/dining/duff-brewery-beer-garden/",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1394297,
+        "lng": -118.354518
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJMfq0BEm-woARyjgP5t3U6kY",
+      "categories": [
+        "Brewpub"
+      ],
+      "fid": "0x80c2be4904b4fa31:0x46ead4dde60f38ca",
+      "cid": "5110130776717867210",
+      "reviewsCount": 373,
+      "imagesCount": 191,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:08.697Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 6\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Food": true
+          },
+          {
+            "Food at bar": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Seating": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Duff%20Brewery%20Beer%20Garden&query_place_id=ChIJMfq0BEm-woARyjgP5t3U6kY",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.34405898002565,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 18,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdpQrd290TyycGg3DSkO_Pqlp-_I6QWRvLNDuh7lclqAtWq8Qa1fpMOJqnckfwC-wsggy-s6sf-G6dH9UFcdT2gIfjzbELHzYOakU_1i9jn6nW-EqZlamLrOG2sjSPgkQPYCU1og=w426-h240-k-no",
+      "kgmid": "/g/11c6ppjpqg"
+    },
+    {
+      "title": "Moe's Tavern",
+      "price": "$10\u201320",
+      "categoryName": "Bar & grill",
+      "address": "49 Production Plaza, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "49 Production Plaza",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/things-to-do/dining/moes-tavern/",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1392896,
+        "lng": -118.3542551
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJz97QG0m-woARL2b7O4vD8Ms",
+      "categories": [
+        "Bar & grill",
+        "Bar"
+      ],
+      "fid": "0x80c2be491bd0decf:0xcbf0c38b3bfb662f",
+      "cid": "14695460586884130351",
+      "reviewsCount": 225,
+      "imagesCount": 389,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:09.875Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 5:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Moe's%20Tavern&query_place_id=ChIJz97QG0m-woARL2b7O4vD8Ms",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep9ZRjg0RXLYSc1NFTyBQ7BTKpDo5uBwPuLii2ODAWmth9zgiaZcObdvtEEbzcGTNrX3OBEA3cHkFHfQwohVGV8bKbKx9wxRZTTlCZQTkXmYdqd8j75K-Ki471f7__D23QU7YNoXw=w408-h306-k-no",
+      "kgmid": "/g/11g6jvjth9"
+    },
+    {
+      "title": "French Street Bistro",
+      "description": "French-themed studio spot offering sandwiches, salads & pastries with wine in casual quarters.",
+      "price": "$10\u201320",
+      "categoryName": "French restaurant",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/french-street-bistro",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1388578,
+        "lng": -118.3554893
+      },
+      "totalScore": 3.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJsTPTHEa-woARSZ93wpjR2_I",
+      "categories": [
+        "French restaurant",
+        "Bistro"
+      ],
+      "fid": "0x80c2be461cd333b1:0xf2dbd198c2779f49",
+      "cid": "17499811231106047817",
+      "reviewsCount": 155,
+      "imagesCount": 544,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:09.875Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great coffee": true
+          },
+          {
+            "Great dessert": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=French%20Street%20Bistro&query_place_id=ChIJsTPTHEa-woARSZ93wpjR2_I",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqiq6dtIca9p4g3EeWQBGE_HH_qO4pF8E-M4Awl1M8wloZmKf2MX_8vGIIITEd88gkMQECyPJOaok0dDC6h5aplYOZaPAKd7LysbHFiakhhleH2K-TmOLW2k-bUW3ScrtCBComk=w408-h544-k-no",
+      "kgmid": "/g/11csp8rq1t"
+    },
+    {
+      "title": "Mel's Diner",
+      "description": "1950s-style restaurant in a theme park serving burgers, chicken sandwiches & fries, plus shakes.",
+      "price": null,
+      "categoryName": "Diner",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.universalstudioshollywood.com/",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1386127,
+        "lng": -118.3554973
+      },
+      "totalScore": 3.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJsTPTHEa-woARpXLryBjDgpM",
+      "categories": [
+        "Diner"
+      ],
+      "fid": "0x80c2be461cd333b1:0x9382c318c8eb72a5",
+      "cid": "10629272581765296805",
+      "reviewsCount": 505,
+      "reviewsDistribution": {
+        "oneStar": 135,
+        "twoStar": 57,
+        "threeStar": 77,
+        "fourStar": 91,
+        "fiveStar": 145
+      },
+      "imagesCount": 205,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.142Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "8\u202fAM to 1\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 5\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "8\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "8\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "8\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "8\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "8\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Mel's%20Diner&query_place_id=ChIJsTPTHEa-woARpXLryBjDgpM",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 31,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweroP0oKVwKGHFNpenZIcuYr4EUSIowovbjcal6oDsFw-NTP00m-gFku2boPExXlaKduFVMBS5s3pP3FrOX56qyZA-8OdLf2x1KkPsYlUs8FC5i2f6efHnTkfeNCI4QImsacZPpQ=w408-h287-k-no",
+      "kgmid": "/g/11csp863np"
+    },
+    {
+      "title": "Cafe Sierra | Seafood Buffet",
+      "description": "Airy spot in the Hilton tower for Californian & Pan-Asian eats, a prime rib-seafood buffet & brunch.",
+      "price": "$$",
+      "categoryName": "Seafood restaurant",
+      "address": "555 Universal Hollywood Dr, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "555 Universal Hollywood Dr",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.cafesierrala.com/?utm_source=gbp&utm_medium=profile",
+      "phone": "(818) 509-2030",
+      "phoneUnformatted": "+18185092030",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1374814,
+        "lng": -118.3583816
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJw9YsA0a-woARpmxFAu2jYPU",
+      "categories": [
+        "Seafood restaurant",
+        "Brunch restaurant",
+        "Buffet restaurant"
+      ],
+      "fid": "0x80c2be46032cd6c3:0xf560a3ed02456ca6",
+      "cid": "17681312375397248166",
+      "reviewsCount": 1327,
+      "reviewsDistribution": {
+        "oneStar": 88,
+        "twoStar": 68,
+        "threeStar": 79,
+        "fourStar": 195,
+        "fiveStar": 897
+      },
+      "imagesCount": 1640,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.142Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/868DIfUoWkQ?source=pa&opi=79508299&hl=en-US&gei=VpPUaf2WD7r7kPIPrc6g8QU&sourceurl=https://www.google.com/search?authuser%3D0%26tbm%3Dmap%26q%3Drestaurant%2BUniversal%2BCityWalk%26psi%3DUpPUafutBaWWkPIP6Iaz6Q4.1775539029935.1%26hl%3Den%26pb%3D!4m12!1m3!1d3302.215657327819!2d-118.35265045!3d34.140824359152504!2m3!1f0!2f0!3f0!3m2!1i1920!2i1080!4f13.1!7i20!8i0!10b1!12m36!1m1!18b1!2m3!5m1!6e2!20e3!6m18!4b1!49b1!63m0!73m0!74i150000!75b1!85b1!89b1!91b1!101i97!110m0!114b1!149b1!171b1!176f8!179f90!182b1!183m0!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1sUpPUafutBaWWkPIP6Iaz6Q4!2s1i:0,t:20588,p:UpPUafutBaWWkPIP6Iaz6Q4:22!4m1!2i20588!7e81!12e3!24m92!1m26!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m15!3b1!4b1!5b1!6b1!13b1!14b1!15b1!17b1!21b1!22b0!25b1!27m1!1b0!28b0!31b0!2b1!5m5!2b1!5b1!6b1!7b1!10b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m17!1m5!1b1!2b1!3b1!5b1!7b1!4b1!8m8!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_reviews!9b1!89b1!103b1!113b1!117b1!122m1!1b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!31b1!34m19!2b1!3b1!4b1!6b1!7b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!37m1!1e81!42b1!46m1!1e10!47m0!49m7!3b1!6m2!1b1!2b1!7m2!1e3!2b1!50m25!1m21!2m7!1u3!4zT3RldsWZZW7DqQ!5e1!9s0ahUKEwja0O2o_tqTAxWaIkQIHT1vLaYQ_KkBCBYoAw!10m2!3m1!1e1!2m7!1u2!4zTmVqbMOpcGUgaG9kbm9jZW7DqQ!5e1!9s0ahUKEwja0O2o_tqTAxWaIkQIHT1vLaYQ_KkBCBUoAg!10m2!2m1!1e1!3m1!1u2!3m1!1u3!4BIAE!2e2!3m1!3b1!59BQ2dBd0Fn!61b1!67m3!7b1!10b1!14b0!69i675",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Friday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great dessert": true
+          },
+          {
+            "Live music": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Salad bar": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Brunch reservations recommended": true
+          },
+          {
+            "Reservations required": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Cafe%20Sierra%20%7C%20Seafood%20Buffet&query_place_id=ChIJw9YsA0a-woARpmxFAu2jYPU",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 32,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepDuQGi5-4EtjSI1cPuhBjV_0je834cEGlDGcfGqfqwDvuw2XjoS44fxJyb0sh-tkbHeluMOuJZffuSICmm_HdHBDm2i-Q581p8V9DtDGpJWX4M8axBKYWOguIcMxUwam1HnzGM=w722-h240-k-no",
+      "kgmid": "/g/1vd765d_"
+    },
+    {
+      "title": "Despicable Delights",
+      "description": "Theme-park counter-serve joint offering \"Despicable Me\"-inspired sweets & ice cream treats.",
+      "price": null,
+      "categoryName": "Fast food restaurant",
+      "address": "49 Production Plaza, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "49 Production Plaza",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/things-to-do/dining/despicable-delights/",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1383873,
+        "lng": -118.3562545
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJN9V36ki-woAR8PAxGbwTkhw",
+      "categories": [
+        "Fast food restaurant"
+      ],
+      "fid": "0x80c2be48ea77d537:0x1c9213bc1931f0f0",
+      "cid": "2058729678259220720",
+      "reviewsCount": 24,
+      "reviewsDistribution": {
+        "oneStar": 0,
+        "twoStar": 1,
+        "threeStar": 5,
+        "fourStar": 2,
+        "fiveStar": 16
+      },
+      "imagesCount": 33,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.142Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 6\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Popular for": [
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Despicable%20Delights&query_place_id=ChIJN9V36ki-woAR8PAxGbwTkhw",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 33,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXQhKQQ0CnJzMjpSFvMdvjyIX2RUueT_Q61mMjXgwiVuWpYIMLgxCmLa-uPfXsjCDsXgcbQAOrC5ZtNizJCGKskkb7BOEpMldeB4voNMCY-9KrYxZPtGqoK9F9sFiqwL5wOO3e=w408-h725-k-no",
+      "kgmid": "/g/11cn30wljs"
+    },
+    {
+      "title": "Wolfgang Puck Catering",
+      "price": "$$$",
+      "categoryName": "Caterer",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://wolfgangpuck.com/catering/los-angeles-location/",
+      "phone": "(818) 254-5042",
+      "phoneUnformatted": "+18182545042",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1378776,
+        "lng": -118.3528567
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJnYLHsk6-woARK8vpoPLDJFc",
+      "categories": [
+        "Caterer",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be4eb2c7829d:0x5724c3f2a0e9cb2b",
+      "cid": "6279359227310492459",
+      "reviewsCount": 4,
+      "reviewsDistribution": {
+        "oneStar": 0,
+        "twoStar": 0,
+        "threeStar": 1,
+        "fourStar": 0,
+        "fiveStar": 3
+      },
+      "imagesCount": 2,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.142Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "9\u202fAM to 6\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Wolfgang%20Puck%20Catering&query_place_id=ChIJnYLHsk6-woARK8vpoPLDJFc",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 34,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweofhPqWIxrSCu6q4yhO0VyUpEdq8tzc3IXXA_L_ANtmFB3L0TIk5Q3sxyXC9DoxKGsUh6BKVTmUbjrnGnN5GXGS68IlDKExOuoAyTP32ZzZdKBtj2YkyaimLOF4AM4UTqzVJ0_i=w408-h272-k-no",
+      "kgmid": "/g/11fz9x6q13"
+    },
+    {
+      "title": "Studio Cafe",
+      "price": null,
+      "categoryName": "Restaurant",
+      "address": "55 Lower Lot Universal, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "55 Lower Lot Universal",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.universalstudioshollywood.com/web/en/us/things-to-do/dining/studio-cafe",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.141045,
+        "lng": -118.3569571
+      },
+      "totalScore": 2.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJJ6Vq4yu_woARBvLZBd3oUws",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2bf2be36aa527:0xb53e8dd05d9f206",
+      "cid": "816251993467777542",
+      "reviewsCount": 24,
+      "reviewsDistribution": {
+        "oneStar": 11,
+        "twoStar": 3,
+        "threeStar": 1,
+        "fourStar": 2,
+        "fiveStar": 7
+      },
+      "imagesCount": 77,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.142Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great coffee": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dessert": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Studio%20Cafe&query_place_id=ChIJJ6Vq4yu_woARBvLZBd3oUws",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 35,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwereYXDKemUwZspzjD4zWLwqqlKkB95WLKttdyAQvRsVk8Kv6Iv4v5dKrp8N-T7xNjiBYnoICF8LNVRnJwQikjyi_nfPi3ZIGavUy25Zb54UmAxuhyoIxnt1fkPyoqA8JapDAIpK0XecT-Ff=w408-h534-k-no",
+      "kgmid": "/g/11j4sk_967"
+    },
+    {
+      "title": "Hollywood & Dine",
+      "description": "American fast food outlet at landmark studios whipping up burgers, wings, pizzas & veggie options.",
+      "price": null,
+      "categoryName": "Asian restaurant",
+      "address": "4461 Main Way Universal, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "4461 Main Way Universal",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://universalstudioshollywood.com/things-to-do/dining/hollywood-dine/",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1375455,
+        "lng": -118.3549941
+      },
+      "totalScore": 3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJe9dz1Ui-woARBXfvqsBLt2Y",
+      "categories": [
+        "Asian restaurant",
+        "Gluten-free restaurant",
+        "Hamburger restaurant",
+        "Restaurant",
+        "Snack bar"
+      ],
+      "fid": "0x80c2be48d573d77b:0x66b74bc0aaef7705",
+      "cid": "7401467803480323845",
+      "reviewsCount": 120,
+      "reviewsDistribution": {
+        "oneStar": 42,
+        "twoStar": 7,
+        "threeStar": 16,
+        "fourStar": 17,
+        "fiveStar": 38
+      },
+      "imagesCount": 1906,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.143Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Hollywood%20%26%20Dine&query_place_id=ChIJe9dz1Ui-woARBXfvqsBLt2Y",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 36,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqDnVRn4X2Wwx74tk2kxB2UKtSCMTAhCzqyb9LPYidHliavWYkxSVb2P3kkfSEJnwPny7I5-QQ9KKgBTVGrJmQjSJKS_aoCPGrPX-8gvmbCBwt9552aEVP9CsB8SbTW8j1RZOIq=w408-h544-k-no",
+      "kgmid": "/g/11csqysf9v"
+    },
+    {
+      "title": "Bumblebee Man's Taco Truck",
+      "description": "Low-key mobile eatery offering a range of tacos with meat, chicken & pork plus loaded nachos.",
+      "price": null,
+      "categoryName": "Taco restaurant",
+      "address": "100 Universal City Plaza, Universal City, CA 91608",
+      "neighborhood": "Universal City",
+      "street": "100 Universal City Plaza",
+      "city": "Universal City",
+      "postalCode": "91608",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.universalstudioshollywood.com/",
+      "phone": "(800) 864-8377",
+      "phoneUnformatted": "+18008648377",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1394513,
+        "lng": -118.3543309
+      },
+      "totalScore": 3.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJsTPTHEa-woARq0JuW_W05Yg",
+      "categories": [
+        "Taco restaurant"
+      ],
+      "fid": "0x80c2be461cd333b1:0x88e5b4f55b6e42ab",
+      "cid": "9864489524718879403",
+      "reviewsCount": 60,
+      "reviewsDistribution": {
+        "oneStar": 20,
+        "twoStar": 4,
+        "threeStar": 8,
+        "fourStar": 7,
+        "fiveStar": 21
+      },
+      "imagesCount": 81,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:11.143Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "9\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Bumblebee%20Man's%20Taco%20Truck&query_place_id=ChIJsTPTHEa-woARq0JuW_W05Yg",
+      "searchPageUrl": "https://www.google.com/maps/search/restaurant%20Universal%20CityWalk/@34.140824359152504,-118.35265045,17z?hl=en",
+      "searchString": "restaurant Universal CityWalk",
+      "language": "en",
+      "rank": 37,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqbMOmWctOUG4BFr-psomMHhIwxhIoT9QxxpdF4e8dFqzZoQFJ0H98bntdlAZGd8jBC4D2dpUFPHxNPXxb1iohJybIeIaW7fElfTOkx1_aKAJErD5UV6kAqbRgw5MpiVBhn5-h2=w426-h240-k-no",
+      "kgmid": "/g/11c1ty6_5l"
+    }
+  ]
+}

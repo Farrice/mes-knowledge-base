@@ -40,6 +40,13 @@ Analyze the workarounds revealed by the friction. If the formal system is failin
 - **Action**: Identify "Informal Systems"—unwritten rules, badge-access hierarchies, or "shadow" decision-making processes.
 - **Action**: Apply **Pattern 3 (Texture Over Tectonic Plates)**. Start each analytical point with a specific, sensory detail (a specific meal, a conversation, a physical layout) as the gateway to the insight.
 
+### Phase 3.5: Recognition Anchoring
+Before synthesizing into strategic intelligence, ground the friction in the reader's lived experience using **Pattern 16**.
+- **Action**: For each major Friction Point, identify the private moment where the reader has personally encountered this pattern — not as an observer, but as a participant.
+- **Action**: Write a brief second-person bridge ("You've felt this...") that names the experience with novelistic precision. Be specific and unsentimental.
+- **Action**: Return immediately to analytical register. The recognition moment earns the synthesis that follows.
+- **Anti-Pattern**: This is NOT therapy, self-help, or "you're not alone." It's a literary move — the reader as a character in the pattern you're analyzing.
+
 ### Phase 4: The Zoom In/Zoom Out Oscillation
 Synthesize the observations into strategic intelligence using **Pattern 8**.
 - **Action**: For every concrete detail identified in Phase 3, elevate to what it means for the broader system.
@@ -66,6 +73,7 @@ A single, integrated document containing:
 - **Cadence Check**: Does the prose have a musical rhythm (short/long variation), or is it dry corporate-speak?
 - **X-Ray Check**: Did we successfully ignore the "potted history" and "obligated padding"?
 - **Irony Check**: Does the audit acknowledge the tension between how things *look* and how they *are*?
+- **Recognition Check**: Does at least one section make the reader say "that's me"? Is the second-person bridge precise and unsentimental, not therapeutic?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

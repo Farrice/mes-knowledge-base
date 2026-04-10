@@ -1,5 +1,5 @@
 ---
-description: Produce 3-5 content pieces in parallel with Brand Voice consistency review via Agent Teams — your content launch day on autopilot
+description: Your content launch day on autopilot
 ---
 
 # /launch-day — Content Launch Day Sprint

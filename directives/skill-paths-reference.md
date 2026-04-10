@@ -19,6 +19,7 @@
 | Sean Kochel | skills/sean-kochel-design-first-build/SKILL.md | .../references/genius-patterns.md | .../prompts/competitive-research-brief.md |
 | Nicolas Cole | skills/nicolas-cole-digital-products/SKILL.md | .../references/genius-patterns.md | .../prompts/product-vehicle-selector.md |
 | Luke Iha | skills/luke-iha-proof-mechanisms/SKILL.md | .../references/genius-patterns.md | .../prompts/proof-audit-injector.md |
+| Luke Iha (Insight Vectors) | skills/luke-iha-insight-vectors/SKILL.md | .../genius.md | .../workflows/insight-vectors.md |
 | Ward Farnsworth | skills/ward-farnsworth-rhetorical-mastery/SKILL.md | .../references/genius-patterns.md | .../prompts/saxon-punch-closer.md |
 | Tommy Clark | skills/tommy-clark-linkedin-growth/SKILL.md | .../references/genius-patterns.md | .../prompts/how-i-narrative-pivot.md |
 | Ross McKay | skills/ross-mckay-premium-at-scale/SKILL.md | .../references/genius-patterns.md | .../prompts/premium-at-scale-positioner.md |

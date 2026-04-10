@@ -1,5 +1,5 @@
 ---
-description: "Map newsletter to revenue — free→$350 product pathway or paid subscription with pricing"
+description: Map newsletter to revenue
 ---
 
 # Newsletter Monetize

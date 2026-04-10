@@ -1,5 +1,5 @@
 ---
-description: "Fresh Voice System — plan and produce serial narrative LinkedIn content for Farrice's personal brand"
+description: Fresh Voice System
 ---
 
 # /serial-arc — Serial Narrative Content Engine

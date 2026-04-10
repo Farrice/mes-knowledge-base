@@ -1,5 +1,5 @@
 ---
-description: "Ad spend track record acceleration through agency partnerships, free-work-with-value positioning, and documentation systems"
+description: Ad spend track record acceleration
 ---
 
 ## Workflow: Track Record Builder

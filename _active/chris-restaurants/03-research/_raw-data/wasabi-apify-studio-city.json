@@ -1,0 +1,6102 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 25,
+  "cost_dollars": 0.175,
+  "spent_total": 0.3345,
+  "remaining_dollars": 28.6655,
+  "items": [
+    {
+      "title": "SUSHI BAR TETSUYA",
+      "price": "$50\u2013100",
+      "categoryName": "Sushi restaurant",
+      "address": "11440 Ventura Blvd Ste 106, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11440 Ventura Blvd Ste 106",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://sushibartetsuya.com/",
+      "phone": "(818) 747-2055",
+      "phoneUnformatted": "+18187472055",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1391758,
+        "lng": -118.3802101
+      },
+      "totalScore": 5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ7-t6M9-_woARcTxwUUB2KO0",
+      "categories": [
+        "Sushi restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2bfdf337aebef:0xed28764051703c71",
+      "cid": "17089038804673641585",
+      "reviewsCount": 75,
+      "imagesCount": 282,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.394Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/wzM6sea_97M?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "4:30 to 9:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "4:30\u20135:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "4:30\u20135:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "4:30\u20135:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "4:30\u20135:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "4:30\u20135:30\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "4:30\u20135:30\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=SUSHI%20BAR%20TETSUYA&query_place_id=ChIJ7-t6M9-_woARcTxwUUB2KO0",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoo7LJPv9z42qIOBrXRd2EKmNjZ336qToTq6jUNnQUgtTRxBfIgsVuwzV-waKr888U42KwufRI1sq_5JtA0XlbYwhGkiLfpiYoTQK0pLwEJlJkf0XZnYw78DVBVxTCRjF87eKhL=w426-h240-k-no",
+      "kgmid": "/g/11w329y61r"
+    },
+    {
+      "title": "Sushi Katsu-ya (Studio City)",
+      "description": "Acclaimed go-to for both inventive & traditional sushi, plus Japanese entrees & bento boxes.",
+      "price": "$$$",
+      "categoryName": "Sushi restaurant",
+      "address": "11680 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11680 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.katsu-yagroup.com/studio-city-menu/",
+      "phone": "(818) 985-6976",
+      "phoneUnformatted": "+18189856976",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1408027,
+        "lng": -118.3874229
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJO3qXNAm-woARW3Fu0RIVOT8",
+      "categories": [
+        "Sushi restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be0934977a3b:0x3f391512d16e715b",
+      "cid": "4555695668629238107",
+      "reviewsCount": 604,
+      "imagesCount": 544,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.396Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 2\u202fPM, 5 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          },
+          {
+            "Wheelchair accessible entrance": false
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually difficult to find a space": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Katsu-ya%20(Studio%20City)&query_place_id=ChIJO3qXNAm-woARW3Fu0RIVOT8",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqaC1LmGchAD-nvDmzeN6RClcJoMo_hniSFbbl3U9zyMzogLXmt0I-MFqRKMd3qE-z6ZCcGtEUd7rdREwovcD9a8kInB7pGMOTpS8XEnket6ECArVV8D3befSiNsFR7DbrWLH9H=w408-h544-k-no",
+      "kgmid": "/g/1tdg81nw"
+    },
+    {
+      "title": "Leona's Sushi House",
+      "price": "$50\u2013100",
+      "categoryName": "Restaurant",
+      "address": "11814 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11814 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.leonasla.com/",
+      "phone": "(818) 985-9222",
+      "phoneUnformatted": "+18189859222",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1420234,
+        "lng": -118.3897292
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJAaMAGce_woARENwqwFZ__Ik",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2bfc71900a301:0x89fc7f56c02adc10",
+      "cid": "9942962087895161872",
+      "reviewsCount": 136,
+      "imagesCount": 287,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.397Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/VrxtuWBx_oM?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12:30 to 1\u202fAM, 11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12:30 to 1\u202fAM, 11:30\u202fAM to 2:30\u202fPM, 5:30\u202fPM to 12\u202fAM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Cozy": true
+          },
+          {
+            "Romantic": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Leona's%20Sushi%20House&query_place_id=ChIJAaMAGce_woARENwqwFZ__Ik",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwept5U12YlvNZPxSBRNnxXNW06ZgtB9myh7AnM4vj68KsUR5mlNimnqIlN5HuTiSI0L8yx2gYi5MNKiuSCULAF26_CDdnXpMFaqYwqsSZWS3yS-xUBzZdd2MPyy3NkK63wv_f2s=w408-h408-k-no",
+      "kgmid": "/g/11tcwlnbft"
+    },
+    {
+      "title": "The Sushi House",
+      "description": "Classic sushi, sashimi & cooked entrees are served at this unassuming, minimalist Japanese outpost.",
+      "price": "$$",
+      "categoryName": "Sushi restaurant",
+      "address": "11388 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11388 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.thesushihousestudiocity.com/",
+      "phone": "(818) 506-3162",
+      "phoneUnformatted": "+18185063162",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1396643,
+        "lng": -118.3785629
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJvwGeURK-woARECJEpXsmr6M",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2be12519e01bf:0xa3af267ba5442210",
+      "cid": "11794688261602157072",
+      "reviewsCount": 432,
+      "imagesCount": 494,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.397Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Locals": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=The%20Sushi%20House&query_place_id=ChIJvwGeURK-woARECJEpXsmr6M",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "http://t3.gstatic.com/images?q=tbn:ANd9GcS4aNlGVXtghbeo8V9AxZrDwVaBEqlLJYbtO0z3VYUn8-tU72NL",
+      "kgmid": "/g/1pzp_rxbk"
+    },
+    {
+      "title": "Daichan",
+      "description": "This quirky, knickknack-filled Japanese eatery offers a wide array of stews, rice bowls & sushi.",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "11288 Ventura Blvd F, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11288 Ventura Blvd F",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 980-8450",
+      "phoneUnformatted": "+18189808450",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1401944,
+        "lng": -118.3757333
+      },
+      "totalScore": 4.8,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJj77jhhO-woARyE3GYmx0bFE",
+      "categories": [
+        "Japanese restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be1386e3be8f:0x516c746c62c64dc8",
+      "cid": "5867192423419366856",
+      "reviewsCount": 398,
+      "imagesCount": 631,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.398Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30 to 8:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30 to 8:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30 to 8:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30 to 8:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 5:30 to 8:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 2:30\u202fPM, 5 to 8:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Daichan&query_place_id=ChIJj77jhhO-woARyE3GYmx0bFE",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo5nmLfky6SkObMGi8hUoDNuIXZO-iU7oSPF0NYNZtdwhB2mdPFFCzimYDA9VjLOj8mezpT8EQMXFi-m5rWFW8M1Vp7PgxnjVnf5VtVuA3Fcw1TFZ15RpGt_LXt7BmZRHfDOpamFA=w408-h306-k-no",
+      "kgmid": "/g/1v6l7rs8"
+    },
+    {
+      "title": "Teru Sushi",
+      "description": "Traditional Japanese fare, including sushi, sashimi & teriyaki, in a rustic & relaxing atmosphere.",
+      "price": "$$$",
+      "categoryName": "Sushi restaurant",
+      "address": "11940 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11940 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.terusushi.com/",
+      "phone": "(818) 763-6201",
+      "phoneUnformatted": "+18187636201",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1430722,
+        "lng": -118.3921668
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJhSgzDwi-woARGsH60GD149w",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2be080f332885:0xdce3f560d0fac11a",
+      "cid": "15916835304229224730",
+      "reviewsCount": 466,
+      "imagesCount": 589,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.398Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/UAP3pJ39Tr8?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "5 to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "5 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "5 to 9:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "5\u20136\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "5\u20136\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "5\u20136\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "5\u20136\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "5\u20136\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Great wine list": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Romantic": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Teru%20Sushi&query_place_id=ChIJhSgzDwi-woARGsH60GD149w",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqq4hW6jDkyaRWny0Xh2NbT64UIQaRWnLK9Ieb4wg0O_m7buV2pV_egK0zKk5uMrmTqTtbVfOjMAQ8DRMJ08rakYpFcUN1sXQnk2cFSwtNIKDy4tl0iGfFr9Kz6RwPXXDWb7Og=w408-h397-k-no",
+      "kgmid": "/g/1tggnxp5"
+    },
+    {
+      "title": "Asanebo",
+      "description": "Renowned upscale restaurant serving sushi, grilled fish & other Japanese fare in unassuming digs.",
+      "price": "$100+",
+      "categoryName": "Japanese restaurant",
+      "address": "11941 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11941 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 760-3348",
+      "phoneUnformatted": "+18187603348",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1435667,
+        "lng": -118.3918694
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJO6ES4ge-woARQ-_ip6PvEUk",
+      "categories": [
+        "Japanese restaurant",
+        "Restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2be07e212a13b:0x4911efa3a7e2ef43",
+      "cid": "5265252925548195651",
+      "reviewsCount": 363,
+      "imagesCount": 612,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.398Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "5 to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "On-site parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Asanebo&query_place_id=ChIJO6ES4ge-woARQ-_ip6PvEUk",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepMxl8d059nEjf4ANZt4R48LbOQg8N8xv-HLZDCxVFrL11ymM70O7mciRz1bbId7UrJooR8dcz7gXgK1RVWxKgs8g3EOWsFiekjzEL2V2GSBZ5KjqzcQu-YoR4tMYZV3uKedFo6=w426-h240-k-no",
+      "kgmid": "/g/1tl7nzyw"
+    },
+    {
+      "title": "Sumi Sushi Japanese Restaurant",
+      "price": null,
+      "categoryName": "Restaurant",
+      "address": "12229 Ventura Blvd, Sherman Oaks, CA 91423",
+      "neighborhood": "Sherman Oaks",
+      "street": "12229 Ventura Blvd",
+      "city": "Sherman Oaks",
+      "postalCode": "91423",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(323) 348-0910",
+      "phoneUnformatted": "+13233480910",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1435564,
+        "lng": -118.3996511
+      },
+      "totalScore": 5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJYacf-u-9woAR3akhyh3fNnE",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2bdeffa1fa761:0x7136df1dca21a9dd",
+      "cid": "8157953094066481629",
+      "reviewsCount": 1,
+      "imagesCount": 1,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.398Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sumi%20Sushi%20Japanese%20Restaurant&query_place_id=ChIJYacf-u-9woAR3akhyh3fNnE",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=R1nhYI2bp_bpzYmNt-2R8Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=343.95792&pitch=0&thumbfov=100",
+      "kgmid": "/g/11y0m_xg6f"
+    },
+    {
+      "title": "Yume Sushi Bar",
+      "price": "$50\u201360",
+      "categoryName": "Japanese restaurant",
+      "address": "12254 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "12254 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://yumesushibar.com/yumesushibar-studiocity?utm_source=google",
+      "phone": "(818) 747-2051",
+      "phoneUnformatted": "+18187472051",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1429526,
+        "lng": -118.4004294
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJM5rjgGi9woARDx9qWxWbdN0",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Caterer",
+        "Cocktail bar",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2bd6880e39a33:0xdd749b155b6a1f0f",
+      "cid": "15957549895710809871",
+      "reviewsCount": 210,
+      "imagesCount": 561,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.398Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/ENmzyy7Ca0U?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 2:30\u202fPM, 5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 2:30\u202fPM, 5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 2:30\u202fPM, 5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 2:30\u202fPM, 5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 2:30\u202fPM, 5:30 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 2:30\u202fPM, 5:30 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "4:30 to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "4:45\u20139\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u20132\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "4:45\u20139\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Yume%20Sushi%20Bar&query_place_id=ChIJM5rjgGi9woARDx9qWxWbdN0",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 9,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerIOOlCRg66e_E6jfxMC4ce1FNxMOJ50xCpXBp6Qz14MlSHQBV_a9iO7DrtjB6w6inuRJ64TpjOpnFczGyLyjvllOqh9YK3bEkoKq52tB9zwg6Elxrl0BYSYKSn_cfwIuPwWJZdyQ=w408-h544-k-no",
+      "kgmid": "/g/11j6dr4bnw"
+    },
+    {
+      "title": "KIWAMI by Katsu-ya",
+      "description": "Upscale Japanese choice plating sushi, tempura & small plates in serene, snug digs, plus happy hour.",
+      "price": "$30\u201340",
+      "categoryName": "Sushi restaurant",
+      "address": "11920 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11920 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.katsu-yagroup.com/kiwami-by-katsu-ya/",
+      "phone": "(818) 763-3910",
+      "phoneUnformatted": "+18187633910",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1428528,
+        "lng": -118.3916083
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJacT9Egi-woARmeE9do91v0g",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2be0812fdc469:0x48bf758f763de199",
+      "cid": "5242037750307086745",
+      "reviewsCount": 357,
+      "imagesCount": 370,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.399Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/AipdmkIa8SY?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 2:30\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 2:30\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 2:30\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 2:30\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 2:30\u202fPM, 5 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12:30 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12:30 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=KIWAMI%20by%20Katsu-ya&query_place_id=ChIJacT9Egi-woARmeE9do91v0g",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepvv-5LozFYDKCMjXpRxqx3ZgHPhNZsBc6CKRCPwVPUujaCxSZ-ewxm9L9Q17NpbK_oTWi-tU2_Ul0ZJH_TG2Ry8oq55bixoMXeNZaGUjidFVp6El6gZzuD__05MZTCrYiT3SkU=w408-h725-k-no",
+      "kgmid": "/g/1tk6ql87"
+    },
+    {
+      "title": "Studio Sushi",
+      "price": "$30\u201350",
+      "categoryName": "Sushi restaurant",
+      "address": "4037 Radford Ave, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "4037 Radford Ave",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://studiosushila.com/",
+      "phone": "(818) 760-0313",
+      "phoneUnformatted": "+18187600313",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.145,
+        "lng": -118.3927778
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJAdfLiQe-woAR_ifdWrY-9lU",
+      "categories": [
+        "Sushi restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be0789cbd701:0x55f63eb65add27fe",
+      "cid": "6194207290424109054",
+      "reviewsCount": 206,
+      "imagesCount": 285,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.399Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Sports": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Studio%20Sushi&query_place_id=ChIJAdfLiQe-woAR_ifdWrY-9lU",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 11,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepsd9Eqrc39Fy1Fg8zrjWluIHUE5fZ2r0YV4Todu4JlXhLLXcDIhcjGWH0_NxaXIb0pX0JXhTDyAesbaGK9itOmb1tMJ3oUIjlKlnJlLSApKK8c0Lm2MSTyNoYrALq1TxL7uD8=w408-h544-k-no",
+      "kgmid": "/g/1td7tfyt"
+    },
+    {
+      "title": "Sushi Dan | Studio City",
+      "description": "Vibrant spot with large TVs known for inventive sushi rolls & sashimi, plus beer & sake.",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "11056 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11056 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.sushidanstudiocity.com/",
+      "phone": "(818) 985-2254",
+      "phoneUnformatted": "+18189852254",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1407782,
+        "lng": -118.372042
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJQZ7mCRW-woARslnvI5uvWa0",
+      "categories": [
+        "Sushi restaurant",
+        "Asian restaurant",
+        "Authentic Japanese restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2be1509e69e41:0xad59af9b23ef59b2",
+      "cid": "12491208122346461618",
+      "reviewsCount": 665,
+      "imagesCount": 692,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.399Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/Sp8isXmeuZw?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12:30 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Lunch": [
+          {
+            "day": "Monday",
+            "hours": "12\u20134\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "12\u20134\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "12\u20134\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "12\u20134\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "12\u20134\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ],
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "4\u20137\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12:30\u20135\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20135\u202fPM"
+          }
+        ],
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "12\u20139:30\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "12\u20139:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "12\u20139:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "12\u20139:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "12\u201310:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12:30\u201310:30\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20139:30\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Dan%20%7C%20Studio%20City&query_place_id=ChIJQZ7mCRW-woARslnvI5uvWa0",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqsP_h_2HibcBNVdorDoVOYRGHcvr8fQMm6Ebr-bSpFOWpGanryHtPvVSIIgjOurSBH-XIk6IMSM_NMhhblABNSZyIO9gXA40StzuekdsKpln7pyHLkJR7IkWe1Dcbpx65L4sk=w408-h306-k-no",
+      "kgmid": "/g/1vm_y4fw"
+    },
+    {
+      "title": "REDWHITE BONELESS RAMEN",
+      "price": "$$",
+      "categoryName": "Ramen restaurant",
+      "address": "11044 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11044 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://redwhiteusa.com/redwhitebonelessramenstudiocity?utm_source=google",
+      "phone": "(818) 579-4190",
+      "phoneUnformatted": "+18185794190",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1406124,
+        "lng": -118.3718086
+      },
+      "totalScore": 4.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJaQzp4v2_woARnoNPtXE135g",
+      "categories": [
+        "Ramen restaurant",
+        "Asian restaurant",
+        "Caterer",
+        "Gluten-free restaurant",
+        "Japanese restaurant",
+        "Sushi restaurant",
+        "Vegan restaurant",
+        "Vegetarian restaurant"
+      ],
+      "fid": "0x80c2bffde2e90c69:0x98df3571b54f839e",
+      "cid": "11015581976060986270",
+      "reviewsCount": 1012,
+      "imagesCount": 657,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.399Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 5\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 5\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 5\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 5\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 5\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 2\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:30\u202fAM\u20131:30\u202fAM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11:30\u202fAM\u201311:30\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:30\u202fAM\u20131:30\u202fAM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11:30\u202fAM\u201311:30\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Quiet": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=REDWHITE%20BONELESS%20RAMEN&query_place_id=ChIJaQzp4v2_woARnoNPtXE135g",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 13,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepuEK2rE2jWwqdCC0qnEJj_kgcOOjyihxI-NRu4mgDF7eB63mK4sAGVgpEE9TT2MZsn0Kwf250Pdv9ZESR3OwMnEXbWHuyPsPHVpHj36k8eB4Yv64P_kRiAafu0EQ8Vf7TSWWa64LjJYrE=w408-h272-k-no",
+      "kgmid": "/g/11ssvhx8g2"
+    },
+    {
+      "title": "Burosu ramen & Sushi \u6700\u597d\u7684\u62c9\u9762\u548c\u5bff\u53f8",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "Unit102, 12265 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "Unit102, 12265 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.burosuramen.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=3564268095591501075",
+      "phone": "(818) 505-3596",
+      "phoneUnformatted": "+18185053596",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1433829,
+        "lng": -118.4004062
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJyW565J69woARLk0Y9fiy7eE",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Brunch restaurant",
+        "Bubble tea store",
+        "Japanese curry restaurant",
+        "Takeout Restaurant",
+        "Ramen restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2bd9ee47a6ec9:0xe1edb2f8f5184d2e",
+      "cid": "16279865010347855150",
+      "reviewsCount": 235,
+      "imagesCount": 677,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.400Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/emBssy8MF0E?source=pa&opi=79508299&hl=en-US&gei=mpLUadK6J7SpptQPgdG6iQ4&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3302.4679616158423!2d-118.38680152777476!3d34.134367962030396!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUaZ6BDMOLptQPrNzuqQ0!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUaZ6BDMOLptQPrNzuqQ0.1775538840451.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "3\u20137\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "3\u20137\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "3\u20137\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "3\u20137\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "3\u20137\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "3\u20137\u202fPM"
+          }
+        ],
+        "Breakfast": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Thursday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Friday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10:30\u201311:30\u202fAM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "10:30\u201311:30\u202fAM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Fireplace": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          },
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Burosu%20ramen%20%26%20Sushi%20%E6%9C%80%E5%A5%BD%E7%9A%84%E6%8B%89%E9%9D%A2%E5%92%8C%E5%AF%BF%E5%8F%B8&query_place_id=ChIJyW565J69woARLk0Y9fiy7eE",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 14,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoVeenxMHJDUt08KShs3gTUx2RMsLpI03g_Ve4-iy0IgsW5Rjb_mFpng6DqbvPFiTC6UcvvxW_vVsUr4hgsbzV96qZM22ZIYJLDE0wIbPEXQGGk-ejOJE_WkhFXBf5BvSS7yMVw=w408-h408-k-no",
+      "kgmid": "/g/11lh395r01"
+    },
+    {
+      "title": "SushiStop Studio City",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "11837 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11837 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://sushistop.com/locations/studio-city/",
+      "phone": "(818) 760-4444",
+      "phoneUnformatted": "+18187604444",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1426309,
+        "lng": -118.3902421
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJh7mAYAi-woARhDFqnpDFwE8",
+      "categories": [
+        "Sushi restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2be086080b987:0x4fc0c5909e6a3184",
+      "cid": "5746810349448475012",
+      "reviewsCount": 661,
+      "imagesCount": 600,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.400Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=SushiStop%20Studio%20City&query_place_id=ChIJh7mAYAi-woARhDFqnpDFwE8",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepaTG_mZuDcvJEcOFTVmQD0g9R3nQoZca9QDV8BkBjnwdXmia9XDQLCCjR7kkWmluJI-8TTvGQpaMz-tgqMLUyjyTpIPsaAhsTM1I4Slbi0dLZZozSp03tI31FaKftroONVKAvL=w426-h240-k-no",
+      "kgmid": "/g/11cs48jq_7"
+    },
+    {
+      "title": "Katsu-ya Delivery (Studio City)",
+      "description": "A sushi alternative from the Katsu-ya group, featuring open-faced hand-rolls.",
+      "price": "$$",
+      "categoryName": "Sushi restaurant",
+      "address": "11928 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11928 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.katsu-yagroup.com/washoku-of-la/",
+      "phone": "(747) 203-1192",
+      "phoneUnformatted": "+17472031192",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1429888,
+        "lng": -118.3918285
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ-xjUDQi-woARYphTDg4K9nw",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2be080dd418fb:0x7cf60a0e0e539862",
+      "cid": "9004395560460064866",
+      "reviewsCount": 58,
+      "imagesCount": 96,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.400Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Katsu-ya%20Delivery%20(Studio%20City)&query_place_id=ChIJ-xjUDQi-woARYphTDg4K9nw",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 17,
+      "isAdvertisement": false,
+      "imageUrl": "http://t2.gstatic.com/images?q=tbn:ANd9GcQVNlXG779CCYWPV-CzrJnSA_zDn4Rjr5cK8AHe49KQIC4pTLmH",
+      "kgmid": "/g/11c6vvbzgp"
+    },
+    {
+      "title": "KazuNori: The Original Hand Roll Bar",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "11288 Ventura Blvd Suite C, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11288 Ventura Blvd Suite C",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.handrollbar.com/locations/studio-city/",
+      "phone": "(747) 212-2600",
+      "phoneUnformatted": "+17472122600",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1403961,
+        "lng": -118.3754474
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJD89y_Me_woARPm0lUpKOB44",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2bfc7fc72cf0f:0x8e078e9252256d3e",
+      "cid": "10234305437317295422",
+      "reviewsCount": 149,
+      "imagesCount": 98,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.400Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 11:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 11:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Seating": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=KazuNori%3A%20The%20Original%20Hand%20Roll%20Bar&query_place_id=ChIJD89y_Me_woARPm0lUpKOB44",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 18,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerwDK1B_mL-gNrWC6ahAifklRjTdvvPRi-LuirZYBqeBM9tg00ZIpPCz1kI6ruf5VyX8cHLKRC3_1SVwLi6e19uacb3ykoj4dW5wsjfUOxC-wNIyReURQ5h-qw-4kGlHYRn0M5t=w408-h272-k-no",
+      "kgmid": "/g/11t7r44_c0"
+    },
+    {
+      "title": "Sushi 101",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "11331 Moorpark St, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "11331 Moorpark St",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://ordersushi101.com/",
+      "phone": "(818) 766-9170",
+      "phoneUnformatted": "+18187669170",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1505656,
+        "lng": -118.3781224
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJm6MioRu-woARV8iZSrisYiM",
+      "categories": [
+        "Japanese restaurant",
+        "Authentic Japanese restaurant",
+        "Restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2be1ba122a39b:0x2362acb84a99c857",
+      "cid": "2549790246570674263",
+      "reviewsCount": 112,
+      "imagesCount": 164,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.400Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 2\u202fPM, 6 to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 2\u202fPM, 6 to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 2\u202fPM, 6 to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 2\u202fPM, 6 to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "6 to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "6:30 to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushi%20101&query_place_id=ChIJm6MioRu-woARV8iZSrisYiM",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.134367962030396,-118.38680152777476,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 20,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer_-rfEDr7aLtmu4FyFUW2r77FJcIhGsQuK2jkuNSE4J08Vbg7Kg0REiAl6m95Zzr1sElos6pfEz48ZUW7IbdhJnnhDWXbun0uil3n4neVBDvJu-16X_4aak1i8pKob2YHN5OO0Mw=w408-h306-k-no",
+      "kgmid": "/g/1v6qhx37"
+    },
+    {
+      "title": "SHIKI SUSHI",
+      "description": "Japanese eatery selling sushi, yakitori & tempura in colorful surrounds with a large covered patio.",
+      "price": "$$",
+      "categoryName": "Sushi restaurant",
+      "address": "12745 A Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "12745 A Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://myshikisushi.com/",
+      "phone": "(818) 487-3938",
+      "phoneUnformatted": "+18184873938",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1460081,
+        "lng": -118.4110279
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJgcsCJfS9woARRHZJJlBzufc",
+      "categories": [
+        "Sushi restaurant",
+        "Asian restaurant",
+        "Japanese restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2bdf42502cb81:0xf7b9735026497644",
+      "cid": "17850425386136598084",
+      "reviewsCount": 683,
+      "imagesCount": 836,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.455Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/MqXvSNyLMOA?source=pa&opi=79508299&hl=en-US&gei=mpLUaYGaI8moqtsP0o2y2AE&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d3301.9121770765546!2d-118.40397921667574!3d34.14858891390878!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1smJLUacPrC7GvqtsPk_CP-Qo!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%26ech%3D1%26psi%3DmJLUacPrC7GvqtsPk_CP-Qo.1775538840399.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=SHIKI%20SUSHI&query_place_id=ChIJgcsCJfS9woARRHZJJlBzufc",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14858891390878,-118.40397921667574,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "http://t2.gstatic.com/images?q=tbn:ANd9GcQZTP5wHiZdK6VfggeIUnNnjSWvhsev0QR9FV-MJkrzWdCFGcch",
+      "kgmid": "/g/1tmpks8f"
+    },
+    {
+      "title": "SUGARFISH by sushi nozawa",
+      "description": "Celebrated local sushi chain serving traditional rolls & sake in a chic, intimate space.",
+      "price": "$30\u201350",
+      "categoryName": "Sushi restaurant",
+      "address": "12833 Ventura Blvd Suite 129, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "12833 Ventura Blvd Suite 129",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://sugarfishsushi.com/our-locations/studio-city",
+      "phone": "(747) 212-2688",
+      "phoneUnformatted": "+17472122688",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1456257,
+        "lng": -118.4131961
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJBaHjhhO-woARzuMdn4gIOBY",
+      "categories": [
+        "Sushi restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2be1386e3a105:0x163808889f1de3ce",
+      "cid": "1601039050408321998",
+      "reviewsCount": 908,
+      "imagesCount": 658,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.456Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=SUGARFISH%20by%20sushi%20nozawa&query_place_id=ChIJBaHjhhO-woARzuMdn4gIOBY",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14858891390878,-118.40397921667574,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo9C5XXzeM8BaR508XySKXeNBMVK0mwzQUGvGaHA7iewdLFcX2cnZ4Wj7bNoiaeJPHsTmgrGzQPWEAeT4jD__zQy5CrK1ogftpfGOO4mEyt2pR17Qi7vfwBW6bhT-TzLJLm1dkZvFKt8Qoa=w426-h240-k-no",
+      "kgmid": "/g/1262hq40n"
+    },
+    {
+      "title": "Iroha Sushi of Tokyo",
+      "description": "Creative sushi rolls & other Japanese fare served in digs accented with Asian decor.",
+      "price": "$$$",
+      "categoryName": "Japanese restaurant",
+      "address": "12953 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "12953 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.irohasushistudiocity.com/",
+      "phone": "(818) 990-9559",
+      "phoneUnformatted": "+18189909559",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1458274,
+        "lng": -118.4155787
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJpYv0L_W9woAR4vFTG3LpTgQ",
+      "categories": [
+        "Japanese restaurant",
+        "Restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2bdf52ff48ba5:0x44ee9721b53f1e2",
+      "cid": "310442100629172706",
+      "reviewsCount": 756,
+      "imagesCount": 800,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.456Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Romantic": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Reservations required": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Iroha%20Sushi%20of%20Tokyo&query_place_id=ChIJpYv0L_W9woAR4vFTG3LpTgQ",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14858891390878,-118.40397921667574,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "http://t1.gstatic.com/images?q=tbn:ANd9GcQQTqT2UwkpI6gL9tDm_trTijTlUR2uNKtYSwxmKxXq8G3MWqlb",
+      "kgmid": "/g/1tfd779d"
+    },
+    {
+      "title": "LA LA SUSHI",
+      "price": "$50\u2013100",
+      "categoryName": "Sushi restaurant",
+      "address": "12415 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "12415 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://lalasushi.com/",
+      "phone": "(818) 760-7280",
+      "phoneUnformatted": "+18187607280",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1430684,
+        "lng": -118.4035951
+      },
+      "totalScore": 4.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJNc1-Dw69woART-vbLhOeJCw",
+      "categories": [
+        "Sushi restaurant",
+        "Asian fusion restaurant",
+        "Asian restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2bd0e0f7ecd35:0x2c249e132edbeb4f",
+      "cid": "3180841042058144591",
+      "reviewsCount": 186,
+      "imagesCount": 520,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.456Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "5\u202fPM to 1\u202fAM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Checks": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=LA%20LA%20SUSHI&query_place_id=ChIJNc1-Dw69woART-vbLhOeJCw",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14858891390878,-118.40397921667574,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "http://t3.gstatic.com/images?q=tbn:ANd9GcT_o795nIzudneM8lg7CePd2MUiTgF8iVNjA4MUp40oabCQXm6C",
+      "kgmid": "/g/11h9lfy2db"
+    },
+    {
+      "title": "Yen Izakaya & Sushi",
+      "description": "Sleek, stylish venue serving creative sushi rolls, ramen & meat entrees, plus hot & cold sake.",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "12930 Ventura Blvd APT 120, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "12930 Ventura Blvd APT 120",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(747) 247-2371",
+      "phoneUnformatted": "+17472472371",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1450591,
+        "lng": -118.4145994
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJWRR04PS9woARpu4qk8ctoFA",
+      "categories": [
+        "Sushi restaurant",
+        "Japanese restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2bdf4e0741459:0x50a02dc7932aeea6",
+      "cid": "5809693854498746022",
+      "reviewsCount": 111,
+      "imagesCount": 313,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:03.458Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Yen%20Izakaya%20%26%20Sushi&query_place_id=ChIJWRR04PS9woARpu4qk8ctoFA",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14858891390878,-118.40397921667574,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 18,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwergYgW9FvBJfYyxU96p_LWDmY9lR2plgwz8mEtZ_vHsnk7ggp03EOW8jj1iTwGGArv8COkV_7Q5gjHJdaYJ-r7wrvO4ZlGcJm7m9EbYGWOEU20Y7LfZcBKT8MrvyRUmdGYO2E2EtmeLUUg=w426-h240-k-no",
+      "kgmid": "/g/1thlzq8d"
+    },
+    {
+      "title": "JINYA Ramen Bar - Studio City",
+      "description": "Casual branch of a local chain specializing in Japanese noodle soup, located in a shopping center.",
+      "price": "$20\u201330",
+      "categoryName": "Ramen restaurant",
+      "address": "11239 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11239 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.jinyaramenbar.com/locations/studio-city/?utm_medium=soci&utm_source=gmb",
+      "phone": "(818) 980-3977",
+      "phoneUnformatted": "+18189803977",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.142123,
+        "lng": -118.3746357
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJySPiDhS-woAR02hhc8DIYuo",
+      "categories": [
+        "Ramen restaurant",
+        "Asian restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2be140ee223c9:0xea62c8c0736168d3",
+      "cid": "16889282281487821011",
+      "reviewsCount": 2456,
+      "imagesCount": 1891,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:12.060Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "3\u20135\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "3\u20135\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=JINYA%20Ramen%20Bar%20-%20Studio%20City&query_place_id=ChIJySPiDhS-woAR02hhc8DIYuo",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14147843796959,-118.37821268332428,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "http://t2.gstatic.com/images?q=tbn:ANd9GcTP6AvSmMDxQdgd3ZelguCUzkI-cJ-jnl59bQBPxDVv2bfa9a3x",
+      "kgmid": "/g/1vkxmjfb"
+    },
+    {
+      "title": "8oz poke",
+      "description": "Customizable poke bowls to eat in or take out in an unassuming strip-mall locale.",
+      "price": "$10\u201320",
+      "categoryName": "Restaurant",
+      "address": "11273 Ventura Blvd, Studio City, CA 91604",
+      "neighborhood": "Studio City",
+      "street": "11273 Ventura Blvd",
+      "city": "Studio City",
+      "postalCode": "91604",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.8ozstudiocity.com/",
+      "phone": "(818) 853-7809",
+      "phoneUnformatted": "+18188537809",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1411556,
+        "lng": -118.375971
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJk_SGixO-woART1nlTfm79QY",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2be138b86f493:0x6f5bbf94de5594f",
+      "cid": "501513612949805391",
+      "reviewsCount": 100,
+      "imagesCount": 63,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:12.060Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Quiet": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=8oz%20poke&query_place_id=ChIJk_SGixO-woART1nlTfm79QY",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi/@34.14147843796959,-118.37821268332428,17z?hl=en",
+      "searchString": "sushi",
+      "language": "en",
+      "rank": 9,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerFeU0KuYkrEtjUKH-Y8sbLCCmgKWRshnnwgP3WEBeCykpA0LdOgLWp0w_VlUTdg1apiotbeZSvHwBZcutMxXaBfq9AC-iNi4vi6Kv3eMrtgiaL8YoBZ5fqB5xIiqS8TIWGk_l5UNo3pVU1=w408-h307-k-no",
+      "kgmid": "/g/11fll6_7vj"
+    }
+  ]
+}

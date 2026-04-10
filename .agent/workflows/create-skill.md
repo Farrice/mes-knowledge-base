@@ -1,5 +1,5 @@
 ---
-description: Create a new skill — routes between Claude Code skills, workflow commands, and expert completion engine skills
+description: New skill
 ---
 
 # /create-skill — Skill Creation Workflow

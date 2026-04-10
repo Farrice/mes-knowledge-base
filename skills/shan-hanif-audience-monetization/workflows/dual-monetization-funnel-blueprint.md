@@ -36,6 +36,31 @@ Design the "Accelerator" product that solves the Micro-Pain without requiring yo
 3. **The Delivery Mechanism**: Define the format (Video vault, 4-week cohort, or "System-in-a-Box" templates).
 4. **Pricing Logic**: Position the price ($97–$497) as a "tax" they stop paying once they own the system.
 
+### Phase 2.5: Purchase Readiness Intelligence Layer
+Map the behavioral signals that reveal where each audience member sits on the readiness spectrum — and design the digital product to surface high-ticket candidates automatically.
+
+1. **Readiness Signal Classification**: Define 5 observable behaviors that distinguish readiness tiers within the audience:
+   - **Tier 1 — Browsers** (consume content, never engage): Signal = passive views, no comments, no lead magnet downloads. Action = serve awareness content only.
+   - **Tier 2 — Learners** (download lead magnets, ask questions): Signal = lead magnet consumption, educational comments, reply to emails. Action = serve digital product offers with implementation framing.
+   - **Tier 3 — Implementers** (buy digital product, attempt to apply): Signal = digital product purchase, support questions, partial implementation evidence. Action = serve case-study content that shows the gap between DIY and done-for-you.
+   - **Tier 4 — Ceiling-Hitters** (implemented digital product, hit limits): Signal = repeat purchases, "how do I scale this?" questions, frustration signals in emails/DMs, requests for 1:1 help. Action = serve high-ticket bridge content (strategy session offers, diagnostic CTAs).
+   - **Tier 5 — Ready-Now** (explicit buying signals): Signal = direct inquiry, budget language, timeline language, competitor comparison questions. Action = immediate sales conversation trigger.
+
+2. **Signal Capture Architecture**: Design the digital product and email sequence to GENERATE diagnostic signals, not just sell:
+   - **In-Product Diagnostic Triggers**: Embed 3 moments in the digital product where the user's response reveals their ceiling (e.g., "Which of these 3 scenarios matches you?" where Option C = high-ticket candidate).
+   - **Email Engagement Scoring**: Assign weighted scores to email behaviors — open = 1, click = 3, reply = 10, reply with specific problem = 25, reply with budget/timeline = 50. Threshold of 75+ triggers personal outreach.
+   - **Content Engagement Heatmap**: Map which content pillars (Awareness/Educational/Storytelling/Conversion) each segment engages with most. Ceiling-Hitters disproportionately engage with Educational and Storytelling. Track this.
+
+3. **The Invisible Upgrade Path**: Design 3 "bridge moments" where digital product buyers self-select into high-ticket consideration WITHOUT feeling sold to:
+   - **Bridge 1 — The Diagnostic Gap**: After the digital product's core transformation, show the user what they've achieved AND what remains ("You now have X. The companies doing $Y have X + Z + W. Here's why Z requires a strategist, not a template.").
+   - **Bridge 2 — The Implementation Ceiling**: Surface the specific moment where DIY hits diminishing returns ("If you spent 40+ hours on this and your results look like [specific metric], you've extracted the system's full value. The next level requires custom architecture.").
+   - **Bridge 3 — The Peer Comparison**: Use anonymized case studies of digital-product-buyers-turned-high-ticket-clients ("One of our [Product Name] users implemented the framework in 3 weeks. When they hit [ceiling], they booked a strategy session. 90 days later: [specific result].").
+
+4. **Anti-Alienation Protocol**: Ensure premium offers NEVER contaminate the digital product experience:
+   - **The 80/20 Content Rule**: 80% of all content serves the digital product buyer with zero mention of high-ticket. The 20% that references premium is ALWAYS framed as "here's what the next level looks like" — never "you need this."
+   - **The Dignity Gate**: Every bridge moment must pass this test: "Would a digital product buyer who NEVER upgrades still feel respected and well-served?" If no, rewrite.
+   - **The Contamination Check**: Review all conversion content for language that implies the digital product is "incomplete" or "just a start." The digital product must be positioned as a complete solution for its tier — the high-ticket offer solves a DIFFERENT problem at a DIFFERENT scale.
+
 ### Phase 3: The Dual-Sided Content Matrix (14-Day Calendar)
 Construct a 14-day content plan using the 4-Pillar framework. Every post must act as a "Public Sales Call."
 - **Awareness (Days 1, 8)**: Use "Plagiarized Structures"—pre-validated broad truisms reformatted into your voice to maximize reach.
@@ -70,6 +95,8 @@ A comprehensive **Monetization Strategy Document (.md)** including:
 2. **The Specificity Test**: Is the "One Transformation" a generic benefit (e.g., "better ROI") or a lethal specific (e.g., "The 3-Email Sequence for 40% Re-engagement")?
 3. **The Dual-Revenue Logic**: Does the content simultaneously attract $20k clients while selling $200 products?
 4. **The Sprint Intensity**: Does the 7-day schedule feel like an active campaign rather than a static "link in bio" strategy?
+5. **The Readiness Intelligence Test**: Does the strategy include specific observable signals that distinguish readiness tiers? Can you identify the exact moment a digital product buyer becomes a high-ticket candidate? If the answer is "when they inquire," the intelligence layer is missing.
+6. **The Dignity Gate**: Would a digital product buyer who never upgrades still feel respected and well-served by the entire experience? If any bridge moment implies the digital product is "incomplete," it fails.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

@@ -1,5 +1,5 @@
 ---
-description: Run the Lifestyle Business Operating System — design a 6-figure business around your ideal life, not the other way around. From life design through category creation, offer architecture, cohort delivery, and authority content.
+description: Lifestyle Business Operating System
 ---
 
 # /lifestyle-business

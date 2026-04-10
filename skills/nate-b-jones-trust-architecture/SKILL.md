@@ -1,9 +1,9 @@
 ---
 name: "Nate B Jones - AI Trust Architecture"
 description: "Zero-Trust Agentic Architecture & Systemic Hallucination Defense"
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Nate B Jones - AI Trust Architecture
@@ -17,6 +17,7 @@ This skill embodies Nate B Jones's methodology for "Structural Trust Architectur
 | zero | [Zero-Trust System Architecture](workflows/zero-trust-system-architecture.md) | Zero-Trust Agent Architecture Blueprint | Designing a new agentic workflow or multi-agent swarm from scratch to ensure structural safety. |
 | cognitive | [Cognitive Integrity & Governance](workflows/cognitive-integrity-governance.md) | Decision-Grade Governance Framework | Deploying agents into live environments where human operators must interact with AI outputs without falling victim to sycophancy or cognitive overload. |
 | adversarial | [Adversarial Resilience & Recovery](workflows/adversarial-resilience-recovery.md) | Structural Resilience & Incident Response Manual | Conducting security audits, red-teaming existing AI deployments, or diagnosing complex system failures. |
+| evidential | [Evidential Trust Calibration](workflows/evidential-trust-calibration.md) | Trust Calibration Architecture & Evidence Ledger Blueprint | Designing how an AI system earns graduated trust through verified track records — trust ladders, small win sequences, trust repair after errors, anti-gaming defenses. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

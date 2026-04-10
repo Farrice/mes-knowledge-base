@@ -1,5 +1,5 @@
 ---
-description: Diagnose creative blocks and build a "Turning Pro" protocol using Pressfield's War of Art methodology
+description: Diagnose creative blocks and build a "Turning Pro"
 ---
 
 # /resistance — War of Art Resistance Warfare

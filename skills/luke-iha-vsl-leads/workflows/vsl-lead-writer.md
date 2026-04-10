@@ -28,6 +28,20 @@ Collect from user:
 - **Story Elements** (optional): Origin story, client story, discovery narrative
 - **Competitor Landscape**: What claims/solutions has the audience already seen?
 
+## PHASE 2.5: VIEWER STATE CALIBRATION (VSC)
+
+Before selecting the micro lead type, diagnose the viewer's emotional state using the VSC matrix in `genius.md` § Viewer State Calibration:
+
+1. **Identify traffic source**: Where is the viewer coming from? (cold ad, email, referral, search)
+2. **Map emotional state**: What are they feeling at the moment of click? (interrupted, receptive, high-intent, problem-focused)
+3. **Determine trust brought**: How much trust does the viewer carry from the traffic source?
+4. **Set opening register**: Peer-to-peer (cold/warm) vs. authority-forward (hot/search)
+5. **Determine permission threshold**: How much trust-building must happen BEFORE deploying curiosity?
+
+For cold and warm traffic: structure the first 60 seconds as a Trust Bridge (Context Echo → Recognition Moment → Tension Introduction → Curiosity Ignition). Do NOT skip straight to curiosity architecture.
+
+For hot traffic and search: proceed directly to micro lead selection — curiosity architecture works immediately.
+
 ## PHASE 3: MICRO LEAD
 
 Write the micro lead (50-200 words) using the highest-impact type for this audience's awareness level:

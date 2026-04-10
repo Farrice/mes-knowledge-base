@@ -1,5 +1,5 @@
 ---
-description: Nuclear VSL Architect — build a portfolio-grade VSL/landing page that pre-sells your copywriting competence
+description: Nuclear VSL Architect
 ---
 
 ## Workflow: Nuclear VSL Architect

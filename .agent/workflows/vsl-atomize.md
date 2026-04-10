@@ -1,5 +1,5 @@
 ---
-description: Decompose one VSL lead into 10+ standalone ads using copy block extraction
+description: Decompose one VSL lead
 ---
 
 # VSL-to-Ad Atomizer

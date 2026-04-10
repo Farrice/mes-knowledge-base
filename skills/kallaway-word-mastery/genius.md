@@ -366,3 +366,15 @@ Run against any content piece before publishing:
 | **Proof-to-Claim Specificity** | Uses rounded numbers or vague claims (e.g., "grew fast," "lots of money"). | Provides specific, measurable results (e.g., "2,000 to 47,000 followers"). | Integrates "ugly numbers" ($4,192 instead of $4,000) and concrete, verifiable examples that boost both external credibility and the writer's internal conviction. |
 | **Service Energy Readability** | Content feels informative but with a subtle undercurrent of "selling" or "asking." | Clearly focuses on providing value; reader feels somewhat served. | The tone is an undeniable "doing the reader a favor" energy; the utility is so clear it feels like a gift, creating an immediate sense of gratitude and reciprocity. |
 | **Anti-Dropping Phrase Discipline** | Sentences frequently end with qualifiers, hedges, or weak connectors, losing energy. | Most sentences end strong, but some still trail off with minor padding. | Every sentence cuts at its energy peak, ending on strong nouns or verbs, leaving no room for qualification or energy leakage. |
+
+---
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+
+### 2026-04-09 — Grip & Tension Engine: Emotional Stakes Architecture
+- **Hypothesis**: Adding an Emotional Stakes Architecture step (5 mechanics: Personal Mirror, Cost Made Concrete, Belief Collision, Near-Miss Story, Identity Bridge) between tension threading and paragraph pull would create content that grips intellectually AND emotionally.
+- **Result**: KEPT — Both versions scored 8.3 composite, but variant produces qualitatively richer output: reader becomes protagonist (not observer), costs are visualized (not abstract), identity stakes persist after the piece ends.
+- **Change**: Added Step 3.5 (Emotional Stakes Architecture with 5 SM mechanics), enhanced Step 5 (stakes-weighted insight landing with identity echo), added stakes bridge to Step 4, enhanced Quality Gate with emotional investment checks, added dual filter to Step 7 compression pass.
+- **Lesson**: Tension without stakes is suspense without consequences. The variant's Personal Mirror mechanic ("You've felt this") is the single highest-impact addition — it converts the reader from audience to protagonist in one sentence. Identity Close > CTA for LinkedIn content.

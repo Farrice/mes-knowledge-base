@@ -66,6 +66,10 @@
 **Execute**: Monthly anonymous MVP vote. Winner receives bonus + recognition. Reward needle-moving behavior.
 **Success Metric**: 90%+ retention + proactive initiative
 
+## Pattern 16: The Engagement-as-IP-Factory Architecture
+**Execute**: Structure every client engagement with Triple-Output Design: (1) the client deliverable they paid for, (2) an abstracted playbook module stripped of client specifics that captures the transferable pattern, (3) a proof narrative (anonymized case arc) that pre-sells future clients. Build IP extraction checkpoints INTO delivery milestones — not as post-hoc documentation. At each milestone, ask: "What reusable pattern did this engagement reveal?" Classify it: new module, refinement of existing module, or edge case that sharpens a constraint. The engagement template itself contains slots for these outputs so they are produced DURING delivery, not remembered afterward.
+**Success Metric**: After 10 engagements, 60%+ of new client delivery uses existing playbook modules rather than custom-built work. Each engagement makes the next one faster AND better.
+
 ---
 
 ## Hall of Fame Exemplars

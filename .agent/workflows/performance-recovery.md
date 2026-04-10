@@ -1,5 +1,5 @@
 ---
-description: Rescue a stalled pipeline or diagnose agent underperformance — accountability framework and recovery protocol for real estate teams
+description: Rescue a stalled pipeline or diagnose agent underperformance
 ---
 
 # Performance Recovery & Leadership

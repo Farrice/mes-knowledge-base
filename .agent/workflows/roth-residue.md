@@ -1,5 +1,5 @@
 ---
-description: Memorable residue engineering — craft "stays in your soul" moments for any written form
+description: Memorable residue engineering
 ---
 
 # Roth Memorable Residue Engineering

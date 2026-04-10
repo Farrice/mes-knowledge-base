@@ -1,5 +1,5 @@
 ---
-description: "Break a memoir or book into 50+ content pieces across all platforms"
+description: Break a memoir or book
 ---
 
 # /book-atomize — Book-to-Content Atomizer

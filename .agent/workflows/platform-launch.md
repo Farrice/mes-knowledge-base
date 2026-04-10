@@ -1,5 +1,5 @@
 ---
-description: "Platform-native launch-as-a-service — design a product/feature launch with different content per platform, founder go-direct activation, and ally amplification"
+description: Platform-native launch-as-a-service
 ---
 
 # /platform-launch — Launch as a Service

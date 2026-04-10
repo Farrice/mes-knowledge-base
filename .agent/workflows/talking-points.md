@@ -1,5 +1,5 @@
 ---
-description: Extract and score talking points from source material — build a curated library of your strongest perspectives for consistent content
+description: Extract and score talking points from source material
 ---
 
 # /talking-points — Talking Point Extractor

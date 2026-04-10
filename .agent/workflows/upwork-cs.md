@@ -1,5 +1,5 @@
 ---
-description: "Creative strategist-specific Upwork mastery — DTC-focused proposals, ad-spend portfolio showcasing, certification stacking"
+description: Creative strategist-specific Upwork mastery
 ---
 
 ## Workflow: Upwork CS Domination

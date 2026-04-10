@@ -1,0 +1,13 @@
+{
+  "skill": "sean-kochel-design-first-build",
+  "workflow": "design-to-code-execution",
+  "hypothesis": "Add Conversion Signal Audit (Phase 3.5) — pre-build conversion validation gate between design approval and code generation",
+  "benchmark_task": "Apply design-first principles to validate the Authority Flywheel landing page design before building",
+  "baseline_scores": {"intent": 6, "expert": 7, "adversarial": 5, "composite": 6.0},
+  "variant_scores": {"intent": 9, "expert": 8, "adversarial": 8, "composite": 8.3},
+  "delta": 2.3,
+  "result": "KEPT",
+  "what_changed": "Added Phase 3.5 between Copy-Fit Integration and MCP Build. 5 validation steps: Eye-Flow Trace (entry point, flow direction, exit risk per fold), Decision Friction Inventory (cognitive load, commitment clarity, risk signal proximity to CTAs), Skepticism-Proof Placement Audit (proof at skepticism peaks not clustered), 3-Second Fold Test (what/why/do per fold), Conversion Signal Scorecard (6 binary pass/fail signals). All 6 must pass before build. Design-phase fix, not code-phase fix.",
+  "why_it_works": "Baseline workflow validated aesthetic fidelity (does the code match the design?) but never validated conversion fidelity (will the design convert?). Beautiful non-converting designs are the most expensive failure because they feel complete. The audit catches CTA ambiguity, proof misplacement, cognitive dead zones, and decision friction before a single line of code is written. Fixes are design changes, not code patches.",
+  "timestamp": "2026-04-09T13:35:00Z"
+}

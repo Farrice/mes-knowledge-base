@@ -1,5 +1,5 @@
 ---
-description: "Train body-sensation judgment for AI-era creative strategy — AI produces, human judges via the Feeling Test"
+description: Train body-sensation judgment for AI-era creative strategy
 ---
 
 ## Workflow: Paid to Feel — Judgment Training

@@ -24,6 +24,7 @@ Design, audit, and optimize multi-agent orchestration systems using the DPVI pat
 | Domain Verifiability Mapper | Work classification into machine-checkable / expert-checkable / unverifiable tiers |
 | Sniff-Check Protocol Builder | Evaluation criteria and quality gates for any domain |
 | Bloat-to-Depth Optimizer | Multi-agent simplification plan that strips overhead while preserving capability |
+| Orchestration Telemetry Feedback | Self-optimizing layer — instruments coordination decisions, detects inefficiency patterns, feeds retrospectives into future runs |
 
 ## When to Deploy
 
@@ -32,6 +33,7 @@ Design, audit, and optimize multi-agent orchestration systems using the DPVI pat
 - Deciding what work to delegate to agents vs. retain for humans
 - Agent system growing complex and showing diminishing returns
 - Building evaluation criteria for AI-generated work in any domain
+- Multi-agent pipeline runs repeatedly and should get more efficient over time
 
 ## Stacking Opportunities
 

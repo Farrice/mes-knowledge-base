@@ -300,3 +300,13 @@ Claims trigger skepticism in direct proportion to their specificity of promise. 
 | **System 1 Flow / Toll Booth Avoidance** | Contains jargon, complex sentences, or awkward phrasing that requires conscious effort to process. | Mostly smooth; occasional minor friction points or moments of cognitive load. | Effortless read; no discernible "toll booths" that would activate System 2; language feels natural and intuitive. |
 | **Catchy Phrasing (Meme Test)** | Phrases are long, complex, and unmemorable; lack distinctiveness or portability. | Some attempts at conciseness, but key lines lack a unique hook or strong compression. | Key lines are compressed, distinctive, and portable; pass the "T-Shirt Test" with memorable impact. |
 | **Strategic Trust-Building (Stealing Thunder & Anti-Hype)** | Purely positive, overly enthusiastic sales pitch; avoids any perceived negatives. | Attempts to be balanced or authentic, but still leans heavily on overt positive claims. | Proactively disqualifies non-ideal fits and uses understated language to build deep, authentic trust and credibility. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Funnel Trigger Rewrite: Reader State Sequencing
+- **Hypothesis**: Adding Reader State Sequencing — mapping the reader's moment-to-moment psychological micro-states within a section and deploying triggers in the ORDER those states unfold — would produce more persuasive copy than deploying triggers as a batch by funnel stage.
+- **Result**: KEPT — 6.2→8.4 (+2.2). Baseline deployed proof before the objection formed (wasted), choice framing before price shock was absorbed (premature). Variant deployed triggers at the exact micro-state they're needed.
+- **Change**: Added Phase 1.5 (Reader State Sequence Map) with 6 section-type templates, trigger-to-state pinning, transition beat writing, and 3 new quality gate tests (Sequence Test, Transition Beat Test, Regression Test).
+- **Lesson**: Persuasion isn't just WHAT triggers to use — it's WHEN. A pricing section reader moves through anticipation → price shock → objection formation → justification search → commitment threshold. Deploy proof when the reader is hungry for justification and it converts. Deploy it before the objection forms and it's wasted ammunition.

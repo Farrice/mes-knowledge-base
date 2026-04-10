@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu Intelligence — Three Panda Restaurant Group Concepts</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F4F1EA;
+    --bg-edge: #e8e3d6;
+    --ink: #1a1a1a;
+    --ink-soft: #2b2926;
+    --ink-mid: #4a4641;
+    --accent: #7B1E1E;
+    --accent-soft: rgba(123,30,30,0.10);
+    --gray: #9a948b;
+    --gray-strong: #6B6660;
+    --rule: #d8d1c0;
+    --rule-strong: #2b2926;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg-edge);
+    color: var(--ink);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-feature-settings: "kern", "liga", "ss01", "cv11";
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    font-size: 10.5pt;
+    line-height: 1.65;
+  }
+
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0.45in auto;
+    padding: 1in 1.05in 0.9in;
+    background: var(--bg);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 18px 50px rgba(0,0,0,0.10);
+    page-break-after: always;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .page:last-child { page-break-after: auto; }
+
+  .header-rule {
+    position: absolute;
+    top: 0.55in; left: 1.05in; right: 1.05in;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 7pt;
+    border-bottom: 0.5px solid var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7pt;
+    color: var(--gray-strong);
+    letter-spacing: 1.6pt;
+    text-transform: uppercase;
+  }
+  .header-rule .left { font-weight: 500; }
+  .header-rule .right { color: var(--gray); }
+
+  .pageno {
+    position: absolute;
+    bottom: 0.55in; left: 1.05in; right: 1.05in;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 9pt;
+    border-top: 0.5px solid var(--rule);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7pt;
+    color: var(--gray);
+    letter-spacing: 1.6pt;
+    text-transform: uppercase;
+  }
+  .pageno .num { color: var(--ink); font-weight: 500; }
+
+  h1, h2, h3, h4, .serif {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 144, "SOFT" 30;
+    color: var(--ink);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+  }
+  h1 {
+    font-size: 72pt;
+    font-weight: 900;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+    margin: 0 0 0.35in;
+    letter-spacing: -2.6pt;
+  }
+  h2 {
+    font-size: 34pt;
+    font-weight: 700;
+    margin: 0 0 0.22in;
+    letter-spacing: -1pt;
+    line-height: 1.02;
+  }
+  h3 {
+    font-size: 16pt;
+    font-weight: 600;
+    margin: 0.32in 0 0.12in;
+    letter-spacing: -0.4pt;
+    line-height: 1.18;
+  }
+  h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    margin: 0 0 0.06in;
+    letter-spacing: -0.2pt;
+  }
+
+  .display-italic {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  .eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7pt;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 2.4pt;
+    font-weight: 500;
+    margin-bottom: 0.22in;
+    display: flex;
+    align-items: center;
+    gap: 10pt;
+  }
+  .eyebrow::before {
+    content: "";
+    display: inline-block;
+    width: 22pt;
+    height: 1.5px;
+    background: var(--accent);
+  }
+
+  p {
+    margin: 0 0 0.14in;
+    max-width: 60ch;
+    color: var(--ink-mid);
+    font-size: 10pt;
+    line-height: 1.72;
+  }
+  p strong, p b { color: var(--ink); font-weight: 600; }
+
+  .lede {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 24, "SOFT" 50;
+    font-size: 15pt;
+    line-height: 1.45;
+    color: var(--ink);
+    max-width: 30ch;
+    font-weight: 300;
+    letter-spacing: -0.3pt;
+  }
+
+  .rule { border: 0; border-top: 0.5px solid var(--rule-strong); margin: 0.32in 0; }
+  .rule-thin { border: 0; border-top: 0.5px solid var(--rule); margin: 0.22in 0; }
+
+  .mono { font-family: 'JetBrains Mono', monospace; font-size: 7.5pt; color: var(--gray-strong); letter-spacing: 0.4pt; }
+
+  .hero-stat {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 144;
+    font-weight: 900;
+    font-size: 168pt;
+    color: var(--ink);
+    line-height: 0.85;
+    letter-spacing: -8pt;
+    margin: 0;
+  }
+  .hero-stat.medium { font-size: 116pt; letter-spacing: -4pt; }
+  .hero-stat.small { font-size: 80pt; letter-spacing: -2.4pt; }
+  .hero-sub {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 24, "SOFT" 50;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16pt;
+    color: var(--ink);
+    max-width: 5.4in;
+    line-height: 1.4;
+    margin-top: 0.32in;
+    letter-spacing: -0.3pt;
+  }
+
+  .two-col { display: flex; gap: 0.55in; margin: 0.3in 0; }
+  .two-col > div { flex: 1; min-width: 0; }
+
+  table.data {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Inter', sans-serif;
+    font-size: 8.8pt;
+    color: var(--ink);
+    margin: 0.18in 0;
+  }
+  table.data td, table.data th {
+    padding: 7pt 8pt 7pt 0;
+    border-bottom: 0.5px solid var(--rule);
+    text-align: left;
+    vertical-align: top;
+    line-height: 1.4;
+  }
+  table.data th {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-size: 6.5pt;
+    letter-spacing: 1.5pt;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 7pt;
+  }
+  table.data td.num, table.data th.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: "tnum";
+  }
+  table.data td:first-child { color: var(--ink); font-weight: 500; }
+  table.data tr.subj td { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+  table.data tr.subj td:first-child { color: var(--accent); }
+
+  .accent { color: var(--accent); }
+
+  .table-cap {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 6.5pt;
+    color: var(--accent);
+    letter-spacing: 1.4pt;
+    text-transform: uppercase;
+    margin: 0.25in 0 0.05in;
+    font-weight: 500;
+  }
+
+  .callout {
+    border-top: 0.5px solid var(--rule-strong);
+    border-bottom: 0.5px solid var(--rule-strong);
+    padding: 0.32in 0 0.34in;
+    margin: 0.32in 0;
+  }
+  .callout h3 { margin: 0 0 0.14in; font-size: 16pt; }
+  .callout p { font-size: 10pt; line-height: 1.7; max-width: 56ch; margin: 0; color: var(--ink-soft); }
+
+  .pull-quote {
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22pt;
+    line-height: 1.32;
+    color: var(--ink);
+    border-top: 0.5px solid var(--rule-strong);
+    border-bottom: 0.5px solid var(--rule-strong);
+    padding: 0.4in 0;
+    margin: 0.32in 0 0.16in;
+    max-width: 6in;
+    letter-spacing: -0.4pt;
+  }
+  .pull-quote::before {
+    content: "\201C";
+    color: var(--accent);
+    font-size: 1.2em;
+    line-height: 0;
+    position: relative;
+    top: 0.18em;
+    margin-right: 0.05em;
+  }
+
+  .attribution {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7pt;
+    color: var(--gray-strong);
+    letter-spacing: 1.4pt;
+    text-transform: uppercase;
+    margin: 0 0 0.2in 0;
+  }
+
+  ol.efficiency { padding-left: 0; margin: 0.22in 0; counter-reset: eff; list-style: none; }
+  ol.efficiency li {
+    counter-increment: eff;
+    margin-bottom: 0.22in;
+    max-width: 60ch;
+    padding: 0.02in 0 0 0.55in;
+    position: relative;
+    font-size: 10pt;
+    line-height: 1.7;
+    color: var(--ink-mid);
+  }
+  ol.efficiency li::before {
+    content: counter(eff, decimal-leading-zero);
+    position: absolute;
+    left: 0;
+    top: 0.04in;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7.5pt;
+    color: var(--accent);
+    font-weight: 500;
+    letter-spacing: 1pt;
+  }
+  ol.efficiency li b {
+    font-weight: 600;
+    color: var(--ink);
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 24;
+    font-size: 12pt;
+    display: block;
+    margin-bottom: 0.04in;
+    letter-spacing: -0.3pt;
+    line-height: 1.25;
+  }
+  ol.efficiency li i {
+    color: var(--accent);
+    font-style: italic;
+    font-family: 'Fraunces', serif;
+    font-variation-settings: "opsz" 24, "SOFT" 50;
+    font-size: 10pt;
+    display: block;
+    margin-top: 0.06in;
+    font-weight: 400;
+  }
+
+  .cover-meta {
+    display: flex;
+    gap: 0.6in;
+    margin-top: 0.5in;
+    padding-top: 0.28in;
+    border-top: 0.5px solid var(--rule-strong);
+  }
+  .cover-meta > div { flex: 1; }
+  .cover-meta .roman {
+    font-family: 'Fraunces', serif;
+    font-size: 11pt;
+    color: var(--accent);
+    font-weight: 500;
+    letter-spacing: 1pt;
+    margin-bottom: 0.05in;
+  }
+  .cover-meta .place {
+    font-family: 'Fraunces', serif;
+    font-size: 15pt;
+    line-height: 1.15;
+    color: var(--ink);
+    font-weight: 500;
+    letter-spacing: -0.3pt;
+  }
+  .cover-meta .city {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 7pt;
+    color: var(--gray-strong);
+    letter-spacing: 1.4pt;
+    text-transform: uppercase;
+    margin-top: 0.05in;
+  }
+
+  @page { size: Letter; margin: 0; }
+  @media print {
+    html, body { background: var(--bg); }
+    .page { width: 100%; min-height: 100vh; margin: 0; padding: 0.95in 1.05in 0.9in; box-shadow: none; page-break-after: always; }
+  }
+
+  /* ---------- MOBILE / PHONE VIEW ---------- */
+  @media screen and (max-width: 820px) {
+    html, body { font-size: 15px; line-height: 1.6; background: var(--bg); }
+    .page {
+      width: 100%;
+      min-height: 0;
+      margin: 0;
+      padding: 64px 22px 56px;
+      box-shadow: none;
+      page-break-after: auto;
+      border-bottom: 0.5px solid var(--rule);
+    }
+    .header-rule, .pageno {
+      position: static;
+      left: auto; right: auto; top: auto; bottom: auto;
+      padding: 0 0 8px;
+      margin-bottom: 18px;
+      font-size: 9px;
+      letter-spacing: 1.2px;
+    }
+    .pageno { margin: 28px 0 0; padding: 10px 0 0; border-top: 0.5px solid var(--rule); border-bottom: none; }
+    h1 { font-size: 44pt; letter-spacing: -1.4pt; }
+    h2 { font-size: 26pt; letter-spacing: -0.6pt; }
+    h3 { font-size: 17pt; }
+    h4 { font-size: 13pt; }
+    .lede { font-size: 16pt; max-width: 100%; }
+    .hero-stat { font-size: 92pt; letter-spacing: -4pt; }
+    .hero-stat.medium { font-size: 72pt; letter-spacing: -2pt; }
+    .hero-stat.small { font-size: 44pt; letter-spacing: -1pt; }
+    .hero-sub { font-size: 14pt; max-width: 100%; margin-top: 18px; }
+    p { max-width: 100%; font-size: 14px; line-height: 1.7; }
+    .two-col { flex-direction: column; gap: 22px; }
+    .cover-meta { flex-direction: column; gap: 18px; }
+    .pull-quote { font-size: 18pt; padding: 22px 0; max-width: 100%; }
+    .callout { padding: 22px 0; }
+    table.data { font-size: 12px; }
+    table.data td, table.data th { padding: 8px 6px 8px 0; }
+    table.data th { font-size: 9px; letter-spacing: 1pt; }
+    .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -22px; padding: 0 22px; }
+    .table-cap { font-size: 9px; letter-spacing: 1.2pt; }
+    ol.efficiency li { padding-left: 38px; font-size: 14px; max-width: 100%; }
+    ol.efficiency li b { font-size: 15pt; }
+    ol.efficiency li i { font-size: 13pt; }
+    .header-rule { display: flex; flex-wrap: wrap; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- 01 COVER -->
+<section class="page">
+  <div class="header-rule"><span class="left">Panda Restaurant Group · Confidential</span><span class="right">April 2026</span></div>
+  <div style="margin-top: 1.3in;">
+    <div class="eyebrow">A Menu Intelligence Report</div>
+    <h1>Three<br>Concepts.<br><span class="display-italic">One read.</span></h1>
+    <p class="lede" style="margin-top: 0.32in; font-size: 17pt; max-width: 5.2in;">The menu analysis Chris asked for, executed at the level the question deserved.</p>
+  </div>
+  <div class="cover-meta">
+    <div><div class="roman">I.</div><div class="place">Wasabi at CityWalk</div><div class="city">Universal City, CA</div></div>
+    <div><div class="roman">II.</div><div class="place">Yakiya</div><div class="city">Pasadena, CA</div></div>
+    <div><div class="roman">III.</div><div class="place">Panda Inn</div><div class="city">Glendale, CA</div></div>
+  </div>
+  <div class="pageno"><span>Prepared for Chris</span><span class="num">001 / 022</span></div>
+</section>
+
+<!-- 02 CHRIS'S ASK -->
+<section class="page">
+  <div class="header-rule"><span class="left">Menu Intelligence Report</span><span class="right">The Ask</span></div>
+  <div style="margin-top: 1.1in;">
+    <div class="eyebrow">The brief, verbatim</div>
+    <h2>What Chris<br>asked for.</h2>
+  </div>
+  <div class="pull-quote" style="margin-top: 0.5in;">
+    Just want to run a market analysis around the area to see what the average price for main dish, app, etc., is, and another market set to the surrounding sushi area within a five-mile radius. See what items are common, and make the menu more efficient.
+  </div>
+  <p class="attribution">Chris · Multi-unit store manager · Panda Restaurant Group</p>
+  <div class="rule"></div>
+  <div class="two-col">
+    <div>
+      <h4>How this document answers the four parts.</h4>
+      <p>Each restaurant gets its own pricing band table (computed from the official menu), its own five-mile competitive set (sourced from Apify Google Maps pulls), its own common-items map split into table-stakes / near-table-stakes / differentiators, and its own efficiency moves ranked by leverage.</p>
+      <p>No POS access. No proprietary data. Every figure traceable to the published menus, the public reviews, and a small number of named industry benchmarks.</p>
+    </div>
+    <div>
+      <h4>Reading order.</h4>
+      <p>I — Wasabi at CityWalk (pages 3–8). II — Yakiya Pasadena (pages 9–14). III — Panda Inn Glendale (pages 15–19). The three patterns that travel across all three concepts (page 20). Cross-restaurant summary (page 21). Sources (page 22).</p>
+    </div>
+  </div>
+  <div style="flex:1;"></div>
+  <div class="pageno"><span>The Ask</span><span class="num">002 / 022</span></div>
+</section>
+
+<!-- 03 WASABI ESTABLISHING -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">Establishing the Position</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Concept I · Universal City</div>
+    <h2>Wasabi at<br>Universal CityWalk.</h2>
+  </div>
+  <div style="margin-top: 0.4in;">
+    <div class="hero-stat">4.1<span style="color: var(--accent);">★</span></div>
+    <div class="hero-sub">Zero-point-four stars below the median Japanese restaurant in the five-mile competitive set, on a captive theme-park footprint with no direct cuisine competitor inside CityWalk itself.</div>
+  </div>
+  <div class="two-col" style="margin-top: 0.4in;">
+    <div>
+      <p><b>Address.</b> 1000 Universal City Plaza, Suite #112. PRG store #1432. Google 4.1 / 395 reviews. Yelp 1,729 reviews. Restaurantji 4.0 / 233 ratings.</p>
+      <p><b>POS constraint.</b> Wasabi runs Digital Dining, a Windows-based legacy POS by Menusoft / Heartland. No native APIs to modern AI restaurant tools. Everything that follows is built to ship value without waiting for a POS bridge.</p>
+    </div>
+    <div>
+      <table class="data">
+        <tr><th>Metric</th><th class="num">Value</th></tr>
+        <tr><td>Google rating</td><td class="num">4.1</td></tr>
+        <tr><td>Google reviews</td><td class="num">395</td></tr>
+        <tr><td>Yelp reviews</td><td class="num">1,729</td></tr>
+        <tr><td>Yelp photos</td><td class="num">1,789</td></tr>
+        <tr><td>Restaurantji rating</td><td class="num">4.0</td></tr>
+        <tr><td>Categories on menu</td><td class="num">9</td></tr>
+        <tr><td>Items on menu</td><td class="num">~50</td></tr>
+        <tr><td>Direct sushi rivals inside CityWalk</td><td class="num">0</td></tr>
+      </table>
+    </div>
+  </div>
+  <div style="flex:1;"></div>
+  <div class="pageno"><span>I · Wasabi · Establishing</span><span class="num">003 / 022</span></div>
+</section>
+
+<!-- 04 WASABI PRICING -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">Own-Menu Pricing Bands</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Pricing · Computed from the official PDF</div>
+    <h3 style="margin-top:0; font-size: 22pt;">What the menu is doing right now.</h3>
+  </div>
+  <p style="margin-top: 0.18in;">Wasabi runs nine categories and roughly fifty items across a single one-page PDF. Two facts in the table do load-bearing work later: signature rolls cluster in a three-dollar spread across ten items, and every nigiri is nine dollars and every sashimi sixteen regardless of fish.</p>
+
+  <div class="table-cap">Table 1.1 · Category structure</div>
+  <table class="data">
+    <tr><th>Section</th><th class="num">Items</th><th class="num">Price band</th></tr>
+    <tr><td>Starters (soup, edamame, gyoza, tempura)</td><td class="num">4</td><td class="num">$3 – $13</td></tr>
+    <tr><td>Salads (mixed green, seaweed)</td><td class="num">2</td><td class="num">$8</td></tr>
+    <tr><td>Signature Rolls (Hollywood-themed)</td><td class="num">10</td><td class="num">$18 – $21</td></tr>
+    <tr><td>Sashimi Specialties</td><td class="num">3</td><td class="num">$19 flat</td></tr>
+    <tr><td>Nigiri (10 fish)</td><td class="num">10</td><td class="num">$9 flat</td></tr>
+    <tr><td>Sashimi (10 fish)</td><td class="num">10</td><td class="num">$16 flat</td></tr>
+    <tr><td>Traditional Rolls</td><td class="num">7</td><td class="num">$8 – $11</td></tr>
+    <tr><td>Udon Dinner (sm/lrg)</td><td class="num">3</td><td class="num">$8 – $14</td></tr>
+    <tr><td>Tempura Dinner</td><td class="num">2</td><td class="num">$18 – $24</td></tr>
+    <tr><td>Teriyaki Dinner</td><td class="num">4</td><td class="num">$21 – $28</td></tr>
+    <tr><td>Drinks</td><td class="num">5</td><td class="num">$3 – $14/glass</td></tr>
+  </table>
+
+  <div class="table-cap">Table 1.2 · Computed price bands</div>
+  <table class="data">
+    <tr><th>Section</th><th class="num">n</th><th class="num">Min</th><th class="num">Avg</th><th class="num">Median</th><th class="num">Max</th></tr>
+    <tr><td>Appetizers (starters + salads)</td><td class="num">6</td><td class="num">$3</td><td class="num">$8.33</td><td class="num">$8</td><td class="num">$13</td></tr>
+    <tr><td>Traditional rolls</td><td class="num">7</td><td class="num">$8</td><td class="num">$9.57</td><td class="num">$10</td><td class="num">$11</td></tr>
+    <tr><td>Signature rolls</td><td class="num">10</td><td class="num">$18</td><td class="num">$19.90</td><td class="num">$20</td><td class="num">$21</td></tr>
+    <tr><td>Nigiri (per piece)</td><td class="num">10</td><td class="num">$9</td><td class="num">$9.00</td><td class="num">$9</td><td class="num">$9</td></tr>
+    <tr><td>Sashimi (per order)</td><td class="num">10</td><td class="num">$16</td><td class="num">$16.00</td><td class="num">$16</td><td class="num">$16</td></tr>
+    <tr><td>Sashimi specialties</td><td class="num">3</td><td class="num">$19</td><td class="num">$19.00</td><td class="num">$19</td><td class="num">$19</td></tr>
+    <tr><td>Udon dinner (large)</td><td class="num">3</td><td class="num">$13</td><td class="num">$13.67</td><td class="num">$14</td><td class="num">$14</td></tr>
+    <tr><td>Tempura dinner</td><td class="num">2</td><td class="num">$18</td><td class="num">$21.00</td><td class="num">$21</td><td class="num">$24</td></tr>
+    <tr><td>Teriyaki dinner</td><td class="num">4</td><td class="num">$21</td><td class="num">$25.00</td><td class="num">$25.50</td><td class="num">$28</td></tr>
+    <tr class="subj"><td>All mains (dinner entrees)</td><td class="num">9</td><td class="num">$13</td><td class="num">$20.33</td><td class="num">$21</td><td class="num">$28</td></tr>
+  </table>
+  <div style="flex:1;"></div>
+  <div class="pageno"><span>I · Wasabi · Pricing</span><span class="num">004 / 022</span></div>
+</section>
+
+<!-- 05 WASABI COMPETITIVE SET -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">5-Mile Competitive Set · Layer A &amp; B</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">25+ restaurants pulled · Apify Google Maps · 2026-04-06</div>
+    <h3 style="margin-top:0; font-size: 22pt;">The five-mile competitive set.</h3>
+  </div>
+
+  <div class="table-cap">Table 1.3 · Layer A — Inside CityWalk (share of stomach)</div>
+  <table class="data">
+    <tr><th>Restaurant</th><th>Cuisine</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th></tr>
+    <tr><td>Buca di Beppo</td><td>Italian family-style</td><td class="num">$$</td><td class="num">4.5</td><td class="num">3,028</td></tr>
+    <tr><td>Bubba Gump Shrimp Co.</td><td>Seafood / American</td><td class="num">$20–30</td><td class="num">4.3</td><td class="num">2,328</td></tr>
+    <tr><td>Cafe Sierra (Hilton)</td><td>Asian-fusion buffet</td><td class="num">$$</td><td class="num">4.3</td><td class="num">1,327</td></tr>
+    <tr><td>Jimmy Buffett's Margaritaville</td><td>American / Tropical</td><td class="num">$20–30</td><td class="num">3.9</td><td class="num">1,440</td></tr>
+    <tr><td>Toothsome Chocolate Emporium</td><td>Dessert / American</td><td class="num">$20–30</td><td class="num">3.4</td><td class="num">938</td></tr>
+    <tr><td>Three Broomsticks</td><td>Themed British</td><td class="num">$20–30</td><td class="num">4.2</td><td class="num">755</td></tr>
+    <tr><td>Antojitos Cocina Mexicana</td><td>Mexican</td><td class="num">$20–30</td><td class="num">3.1</td><td class="num">667</td></tr>
+    <tr><td>VIVO Italian Kitchen</td><td>Italian</td><td class="num">$20–30</td><td class="num">4.0</td><td class="num">418</td></tr>
+    <tr><td>NBC Sports Grill &amp; Brew</td><td>American sports bar</td><td class="num">$20–30</td><td class="num">4.0</td><td class="num">395</td></tr>
+    <tr class="subj"><td>Wasabi at CityWalk</td><td>Japanese / sushi</td><td class="num">$20–30</td><td class="num">4.1</td><td class="num">395</td></tr>
+    <tr><td>Panda Express (CityWalk)</td><td>Chinese fast-casual</td><td class="num">$</td><td class="num">3.1</td><td class="num">165</td></tr>
+    <tr><td>Uncle Sharkii Poke Bar</td><td>Poke</td><td class="num">—</td><td class="num">3.3</td><td class="num">43</td></tr>
+  </table>
+  <p style="font-size: 9pt; margin-top: 0.18in;">Wasabi sits mid-pack. Buca di Beppo (4.5, 3,028) owns sit-down family mindshare. Wasabi owns the sushi category by default and rates below two Italian operators and a themed burger shop. Worth flagging: <b>Wasabi does not appear in Universal CityWalk's official "Guide to Dining" blog post</b> that enumerates 24+ CityWalk restaurants.</p>
+  <div style="flex:1;"></div>
+  <div class="pageno"><span>I · Wasabi · Competitive Set A</span><span class="num">005 / 022</span></div>
+</section>
+
+<!-- 06 WASABI STUDIO CITY / NOHO -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">5-Mile Competitive Set · Studio City &amp; NoHo</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Layer B · The drive-to threat</div>
+    <h3 style="margin-top:0; font-size: 20pt;">Studio City, NoHo, Burbank.</h3>
+  </div>
+  <p>Four miles over Cahuenga Pass sits one of the densest sushi corridors in the United States. The local who works at Universal, the parent leaving the park, the anniversary dinner — all of them drive 3–5 miles for options operating at a higher level.</p>
+
+  <div class="table-cap">Table 1.4 · Studio City premium tier ($$$–$$$$)</div>
+  <table class="data">
+    <tr><th>Restaurant</th><th>Tier</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th><th class="num">Dist.</th></tr>
+    <tr><td>Asanebo</td><td>Omakase fine dining</td><td class="num">$100+</td><td class="num">4.6</td><td class="num">363</td><td class="num">4.0</td></tr>
+    <tr><td>Sushi Katsu-ya (Studio City)</td><td>Premium izakaya</td><td class="num">$$$</td><td class="num">4.5</td><td class="num">604</td><td class="num">4.2</td></tr>
+    <tr><td>SUGARFISH by sushi nozawa</td><td>Premium quick-service</td><td class="num">$30–50</td><td class="num">4.5</td><td class="num">908</td><td class="num">4.4</td></tr>
+    <tr><td>Teru Sushi</td><td>Premium traditional</td><td class="num">$$$</td><td class="num">4.5</td><td class="num">466</td><td class="num">4.1</td></tr>
+    <tr><td>Iroha Sushi of Tokyo</td><td>Premium traditional</td><td class="num">$$$</td><td class="num">4.5</td><td class="num">756</td><td class="num">4.5</td></tr>
+    <tr><td>Yume Sushi Bar</td><td>Mid-premium</td><td class="num">$50–60</td><td class="num">4.6</td><td class="num">210</td><td class="num">4.5</td></tr>
+    <tr><td>KIWAMI by Katsu-ya</td><td>Premium</td><td class="num">$30–40</td><td class="num">4.5</td><td class="num">357</td><td class="num">4.1</td></tr>
+    <tr><td>Leona's Sushi House</td><td>Premium</td><td class="num">$50–100</td><td class="num">4.4</td><td class="num">136</td><td class="num">4.2</td></tr>
+    <tr><td>Sushi Bar Tetsuya</td><td>Omakase</td><td class="num">$50–100</td><td class="num">5.0</td><td class="num">75</td><td class="num">3.8</td></tr>
+  </table>
+
+  <div class="table-cap">Table 1.5 · Studio City mid &amp; casual + NoHo / Toluca / Burbank</div>
+  <table class="data">
+    <tr><th>Restaurant</th><th>Tier</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th><th class="num">Dist.</th></tr>
+    <tr><td>SHIKI SUSHI</td><td>Mid-premium</td><td class="num">$$</td><td class="num">4.5</td><td class="num">683</td><td class="num">4.6</td></tr>
+    <tr><td>The Sushi House</td><td>Mid</td><td class="num">$$</td><td class="num">4.4</td><td class="num">432</td><td class="num">4.0</td></tr>
+    <tr><td>Sushi Dan</td><td>Casual</td><td class="num">$20–30</td><td class="num">4.3</td><td class="num">665</td><td class="num">4.0</td></tr>
+    <tr><td>Studio Sushi</td><td>Mid</td><td class="num">$30–50</td><td class="num">4.4</td><td class="num">206</td><td class="num">1.6</td></tr>
+    <tr><td>SushiStop Studio City</td><td>Casual</td><td class="num">$20–30</td><td class="num">4.0</td><td class="num">661</td><td class="num">4.1</td></tr>
+    <tr><td>Daichan (Japanese soul food)</td><td>Casual mid</td><td class="num">$20–30</td><td class="num">4.8</td><td class="num">398</td><td class="num">3.7</td></tr>
+    <tr><td>JINYA Ramen Bar</td><td>Ramen</td><td class="num">$20–30</td><td class="num">4.6</td><td class="num">2,456</td><td class="num">3.9</td></tr>
+    <tr><td>REDWHITE BONELESS RAMEN</td><td>Ramen specialty</td><td class="num">$$</td><td class="num">4.9</td><td class="num">1,012</td><td class="num">4.0</td></tr>
+    <tr><td>KazuNori (Hand Roll Bar)</td><td>Premium handroll</td><td class="num">$20–30</td><td class="num">4.2</td><td class="num">149</td><td class="num">3.7</td></tr>
+    <tr><td>Maki-Noho</td><td>Mid</td><td class="num">$20–30</td><td class="num">4.9</td><td class="num">122</td><td class="num">2.3</td></tr>
+    <tr><td>UMIAI Hand Roll &amp; Sake Bar</td><td>Premium handroll</td><td class="num">—</td><td class="num">4.8</td><td class="num">247</td><td class="num">3.0</td></tr>
+    <tr><td>KITA Ramen and Sushi Bar</td><td>Mid</td><td class="num">$20–30</td><td class="num">4.7</td><td class="num">73</td><td class="num">2.8</td></tr>
+    <tr><td>Ramen Izakaya NoHo</td><td>Ramen-izakaya</td><td class="num">$$</td><td class="num">4.7</td><td class="num">316</td><td class="num">2.5</td></tr>
+    <tr><td>Sunny's Sushi Hut</td><td>Casual</td><td class="num">$10–20</td><td class="num">4.6</td><td class="num">263</td><td class="num">2.6</td></tr>
+    <tr><td>Maki Shabu</td><td>Shabu-shabu</td><td class="num">$30–40</td><td class="num">4.4</td><td class="num">171</td><td class="num">2.7</td></tr>
+    <tr><td>Tamashii Ramen House</td><td>Ramen</td><td class="num">$10–20</td><td class="num">4.0</td><td class="num">515</td><td class="num">2.9</td></tr>
+  </table>
+  <div class="pageno"><span>I · Wasabi · Competitive Set B</span><span class="num">006 / 022</span></div>
+</section>
+
+<!-- 07 WASABI HOW PRICING SITS + COMMON ITEMS -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">Pricing Position &amp; Common Items</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">How Wasabi prices against the set</div>
+    <h3 style="margin-top:0; font-size: 20pt;">Casual-mid Ventura prices, half a star low.</h3>
+  </div>
+
+  <div class="table-cap">Table 1.6 · Wasabi vs. 5-mile Japanese median</div>
+  <table class="data">
+    <tr><th>Metric</th><th class="num">Wasabi</th><th class="num">5-mile Japanese median</th></tr>
+    <tr><td>Google rating</td><td class="num">4.1 ★</td><td class="num">4.50 ★ (40 deduped)</td></tr>
+    <tr><td>Google review volume</td><td class="num">395</td><td class="num">241 (median)</td></tr>
+    <tr><td>Signature roll average</td><td class="num">$19.90</td><td class="num">$22–28 prem · $14–18 casual</td></tr>
+    <tr><td>Mains average</td><td class="num">$20.33</td><td class="num">$28–40 prem · $16–22 casual</td></tr>
+    <tr><td>Nigiri per piece</td><td class="num">$9 flat</td><td class="num">$5–9 cheap fish · $12–22 premium</td></tr>
+  </table>
+
+  <p style="margin-top:0.18in;"><b>The bimodal problem.</b> Restaurantji's 233-rating distribution: 5★ <b>64%</b> · 4★ 10% · 3★ 5% · 2★ 7% · 1★ <b>14%</b>. Two distributions stacked. The pattern that produces this shape is a <b>service-consistency failure at peak hours</b>: 1-star reviews cluster on evening waits and forgotten dishes. This is throughput rolling downhill onto servers, not server attitude. Throughput fix precedes menu expansion.</p>
+
+  <h3>Common items across the set</h3>
+  <p><b>Table-stakes (20+ of 25 menus).</b> Spicy Tuna Roll · California Roll · Salmon nigiri · Tuna nigiri · Yellowtail nigiri · Miso soup · Edamame · Spicy Tuna Handroll.</p>
+  <p><b>Near-table-stakes (15+ of 25).</b> Rainbow Roll · Dragon Roll · Caterpillar Roll · Chirashi · Seaweed Salad · Albacore sashimi · Hamachi sashimi · Shrimp tempura.</p>
+  <p><b>Differentiators (8 or fewer — the real menu identity).</b> Handroll-only programs (KazuNori, UMIAI) · Yellowtail Jalapeño · Bone Marrow Bibimbap (Yakiya exclusive in this set) · Crispy Rice with Spicy Tuna (Katsu-ya signature) · <b style="color:var(--accent);">Garlic Edamame</b>.</p>
+  <p style="margin-top:0.14in;"><b>Wasabi's status on this map.</b> Wasabi carries the table stakes and near-table-stakes. What it does not carry, and what would move review velocity against the 4.50-star median, is any dish built around the single differentiator Wasabi already accidentally owns: <b>the Garlic Edamame</b>.</p>
+  <div style="flex:1;"></div>
+  <div class="pageno"><span>I · Wasabi · Position</span><span class="num">007 / 022</span></div>
+</section>
+
+<!-- 08 WASABI FLAT-GRID + GARLIC EDAMAME -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">The Margin Leak &amp; The Unreached Signature</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Where the margin is hiding</div>
+    <h3 style="margin-top:0; font-size: 20pt;">The flat-priced sushi grid is a margin leak.</h3>
+  </div>
+  <p>Every nigiri is $9, every sashimi $16, regardless of fish. The kitchen is paying ~$0.40 per tamago piece and selling it for $9. It is also paying ~$3.50 per scallop piece and selling it for $9. <b>Cheap fish subsidizes premium fish on every check.</b> Premium items run high-50s food cost; cheap items run 9–12%. The blended average lands near 30%, which masks two things: review-driving items (scallop, yellowtail, tuna, ikura) are the least profitable per piece, and the platter customer feels like they got great scallop and mediocre tamago for the same money.</p>
+
+  <div class="table-cap">Table 1.7 · The flat grid in detail</div>
+  <table class="data">
+    <tr><th>Fish</th><th class="num">Nigiri</th><th class="num">Sashimi</th><th>Cost profile</th></tr>
+    <tr><td>Tamago (sweet egg)</td><td class="num">$9</td><td class="num">$16</td><td>Very low</td></tr>
+    <tr><td>Inari</td><td class="num">$9</td><td class="num">$16</td><td>Very low</td></tr>
+    <tr><td>Salmon (farmed)</td><td class="num">$9</td><td class="num">$16</td><td>Low</td></tr>
+    <tr><td>Shrimp (ebi)</td><td class="num">$9</td><td class="num">$16</td><td>Low</td></tr>
+    <tr><td>Albacore</td><td class="num">$9</td><td class="num">$16</td><td>Mid</td></tr>
+    <tr><td>Eel</td><td class="num">$9</td><td class="num">$16</td><td>Mid-high</td></tr>
+    <tr><td>Tuna</td><td class="num">$9</td><td class="num">$16</td><td>High</td></tr>
+    <tr><td>Yellowtail</td><td class="num">$9</td><td class="num">$16</td><td>High</td></tr>
+    <tr><td>Scallop</td><td class="num">$9</td><td class="num">$16</td><td>High</td></tr>
+    <tr><td>Salmon Roe (ikura)</td><td class="num">$9</td><td class="num">$16</td><td>High</td></tr>
+  </table>
+
+  <div class="table-cap">Table 1.8 · The fix — tiered nigiri pricing (illustrative)</div>
+  <table class="data">
+    <tr><th>Tier</th><th>Fish</th><th class="num">Nigiri / Sashimi</th></tr>
+    <tr><td>Essential</td><td>Tamago, inari, shrimp, salmon</td><td class="num">$6 / $10</td></tr>
+    <tr><td>Standard</td><td>Albacore, eel, spicy tuna</td><td class="num">$9 / $16</td></tr>
+    <tr><td>Premium</td><td>Scallop, yellowtail, tuna, ikura</td><td class="num">$12 / $22</td></tr>
+  </table>
+  <p style="font-size: 9pt;">Recovers 2–3 points of margin on the high-cost items, lets cheap fish become a value entry for families, creates a price ladder the guest can read, and signals to the server which items to recommend on upsell. <i>Conservative expected lift: 3–5% on sushi-category PPA within 90 days.</i></p>
+  <div class="pageno"><span>I · Wasabi · Margin Leak</span><span class="num">008 / 022</span></div>
+</section>
+
+<!-- 09 WASABI EFFICIENCY MOVES -->
+<section class="page">
+  <div class="header-rule"><span class="left">I · Wasabi at CityWalk</span><span class="right">Five Efficiency Moves</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Efficiency · In order of impact</div>
+    <h3 style="margin-top:0; font-size: 22pt;">The five moves.</h3>
+  </div>
+  <ol class="efficiency">
+    <li><b>The Garlic Edamame becomes a named signature.</b> Restaurantji and Yelp both flag Spicy Garlic Edamame as a recurring obsession with its own dedicated photo gallery. Dedicate it to its own visual block on the menu (not "starters"). Reprice from $8 to $9 or $10. Add a three-pod "Garlic Edamame Flight" at $14 (roasted, spicy, black-garlic). Photograph it as the Google profile cover dish. <i>1–2 points on appetizer attachment within 60 days.</i></li>
+    <li><b>The missing $32–$38 anchor signature roll.</b> Wasabi's signature rolls cluster $18–$21 across ten items; Studio City premium rolls run $22–$28 with at least one anchor at $32+. Add one Hollywood-themed roll at $34 — the <i>Studio Tour Roll</i> (A5 wagyu, truffle, uni, gold leaf) or the <i>Director's Cut</i> (whole soft-shell crab). Its job is to make the $20 Terminator Roll feel like the value choice. <i>2–4% lift on signature-roll PPA within 60 days.</i></li>
+    <li><b>The missing sake and cocktail program.</b> Wasabi's entire drinks section is fountain soda $3, green tea $3, Japanese beer $8, "Sake — varies," and house wine $14. Inside an entertainment district with a 5 Towers concert stage and Universal Cinema, "sake bomb" is a tourist ritual and Wasabi has no sake menu. Build a 6–8 line program in three tiers ($8 entry, $14–18 mid, $22–32 ceremony) plus three Hollywood-themed cocktails $14–16. <i>3–5% revenue lift on alcoholic attach within 90 days.</i></li>
+    <li><b>The missing kids' menu.</b> Restaurantji praise themes include "kid-friendly" repeatedly; the menu has none. Three items at $8–$11 (chicken teriyaki bites, kids' California Roll, udon bowl) with a juice pour included. <i>4–8% on family cover count within 60 days.</i></li>
+    <li><b>The "Wasabi Trust" set at $35 (the Sugarfish mechanic).</b> SUGARFISH 4.4 miles away has 908 reviews built on a "Trust Me" fixed-course menu that removes paralysis for guests who don't know what to order. In a captive theme-park market where 60%+ are tourists who rarely eat sushi, paralysis is the friction. Build a single set: 4 nigiri across the three new tiers, one Hollywood signature roll, the Garlic Edamame, miso. Frame as <i>"new to sushi? let us choose for you."</i> <i>5–8% on first-time-guest PPA within 90 days.</i></li>
+  </ol>
+  <p style="font-size: 9pt; margin-top: 0.14in;"><b>One free recommendation that doesn't touch the menu.</b> Wasabi is not listed in Universal CityWalk's official "Guide to Dining" blog post that enumerates 24+ CityWalk restaurants. A 30-minute call with the CityWalk marketing coordinator and a single inline photo fixes it. The opportunity cost of <i>not</i> being on that list compounds daily across 9 million annual visitors.</p>
+  <div class="pageno"><span>I · Wasabi · Efficiency</span><span class="num">009 / 022</span></div>
+</section>
+
+<!-- 10 YAKIYA ESTABLISHING -->
+<section class="page">
+  <div class="header-rule"><span class="left">II · Yakiya Pasadena</span><span class="right">Establishing the Position</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Concept II · Pasadena</div>
+    <h2>Yakiya<br>Pasadena.</h2>
+  </div>
+  <div style="margin-top: 0.4in;">
+    <div class="hero-stat medium">$128<span style="color: var(--accent);">.</span></div>
+    <div class="hero-sub">Per person on the 15-course Chef's Tasting. Priced in the upper third of the Pasadena omakase median; reviewed as the mid option in the same set.</div>
+  </div>
+  <div class="two-col" style="margin-top: 0.4in;">
+    <div>
+      <p><b>Address.</b> 3455 E Foothill Blvd, Pasadena. PRG (U.S. franchise of Taiwan-based YakiYan; per the Cherng Family Trust Office). Opened 2016. Google 4.5/88 · Yelp ~4.0–4.5/265 · OpenTable 4.8/49.</p>
+      <p><b>Format.</b> Three pre-fixe tasting menus, an à la carte fringe, a deep beverage cellar, a 90-minute table cap. Pasadena opens 4:30 PM Mon–Sat — lunch revenue is unmonetized six days a week.</p>
+    </div>
+    <div>
+      <table class="data">
+        <tr><th>Tasting menu</th><th class="num">Price/pp</th></tr>
+        <tr><td>Yakiniku Tasting (signature, 15 course)</td><td class="num">$128</td></tr>
+        <tr><td>Yakiniku Tasting (lighter, 10 course)</td><td class="num">$78</td></tr>
+        <tr><td>Shabu Tasting (Pasadena exclusive)</td><td class="num">$78</td></tr>
+        <tr><td>Kids meal (under 12)</td><td class="num">$28</td></tr>
+        <tr><td>Mon–Thu promo on $128 menu</td><td class="num">$98</td></tr>
+      </table>
+    </div>
+  </div>
+  <div style="flex:1;"></div>
+  <div class="pageno"><span>II · Yakiya · Establishing</span><span class="num">010 / 022</span></div>
+</section>
+
+<!-- 11 YAKIYA TASTING + RECEIPT -->
+<section class="page">
+  <div class="header-rule"><span class="left">II · Yakiya Pasadena</span><span class="right">The 15-Course Lineup &amp; The Verified Receipt</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">What is on the plate</div>
+    <h3 style="margin-top:0; font-size: 20pt;">The signature 15-course tasting.</h3>
+  </div>
+
+  <div class="table-cap">Table 2.1 · The lineup (reconstructed from Parkzer eyewitness receipt + Yelp triangulation)</div>
+  <table class="data">
+    <tr><th>#</th><th>Course</th><th>Dish</th></tr>
+    <tr><td>1</td><td>Welcome</td><td>Warm hand towel + yuzu refresher</td></tr>
+    <tr><td>2</td><td>Appetizer (raw)</td><td>Raw ground A5 Miyazaki, ponzu jelly, truffle, sancho pepper</td></tr>
+    <tr><td>3</td><td>Appetizer (raw)</td><td>USDA Prime ribeye tataki, ponzu, garlic, kaiware</td></tr>
+    <tr><td>4</td><td>Sashimi</td><td>Bluefin tuna + hamachi, Kaluga caviar, scallion oil, wasabi</td></tr>
+    <tr><td>5</td><td>Egg</td><td>Chawanmushi, Dungeness crab, ikura, shiitake</td></tr>
+    <tr><td>6</td><td>Vegetable</td><td>Farmer's market crudité, multigrain cracker, house red miso</td></tr>
+    <tr><td>7</td><td>Soup</td><td>Wagyu meatballs + radish, oxtail broth</td></tr>
+    <tr><td>8</td><td>Grill #1</td><td>American wagyu beef tongue, scallion kosho</td></tr>
+    <tr><td>9</td><td>Grill #2</td><td>USDA Prime ribeye + skirt + A5 chuck, wasabi sauce</td></tr>
+    <tr><td>10</td><td>Palate cleanser</td><td>Heirloom tomato, shishito, truffle mushroom</td></tr>
+    <tr><td>11</td><td>Grill #3</td><td>Wagyu short rib + Prime filet chateaubriand, marrow, garlic miso, kimchi, nori</td></tr>
+    <tr><td>12</td><td>Grill #4</td><td>A5 Miyazaki strip loin, poached egg, Maldon sea salt</td></tr>
+    <tr><td>13</td><td>Rice</td><td>Bone Marrow Bibimbap (hot stone bowl, two roasted marrow cuts)</td></tr>
+    <tr><td>14</td><td>Dessert #1</td><td>Lemon sorbet, basil oil</td></tr>
+    <tr><td>15</td><td>Dessert #2</td><td>Matcha balls (interactive tableside crack)</td></tr>
+  </table>
+
+  <div class="table-cap">Table 2.2 · The Parkzer receipt — verified party of four, July 2024</div>
+  <table class="data">
+    <tr><th>Item</th><th class="num">Subtotal</th></tr>
+    <tr><td>Chef's Tasting Menu × 4</td><td class="num">$512.00</td></tr>
+    <tr><td>Soft Pagoda mocktail</td><td class="num">$13.00</td></tr>
+    <tr><td>Cherry Blossom mocktail</td><td class="num">$13.00</td></tr>
+    <tr><td>S.Pellegrino sparkling</td><td class="num">$8.00</td></tr>
+    <tr><td>S.Pellegrino still</td><td class="num">$8.00</td></tr>
+    <tr><td>Gratuity</td><td class="num">$90.00</td></tr>
+    <tr><td>Sales tax</td><td class="num">$56.79</td></tr>
+    <tr class="subj"><td>Total for four</td><td class="num">$700.79</td></tr>
+  </table>
+  <p style="font-size: 9pt;"><b>Per-cover average: $175.20 including tax and tip. Beverage attach: $10.50/guest. That is 6% of the check.</b> Hold this number. It is the load-bearing fact of the next four pages.</p>
+  <div class="pageno"><span>II · Yakiya · Lineup</span><span class="num">011 / 022</span></div>
+</section>
+
+<!-- 12 YAKIYA COMPETITIVE SET -->
+<section class="page">
+  <div class="header-rule"><span class="left">II · Yakiya Pasadena</span><span class="right">5-Mile Competitive Set</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">34 unique restaurants · Apify Google Maps · 2 queries</div>
+    <h3 style="margin-top:0; font-size: 20pt;">The Pasadena five-mile set.</h3>
+  </div>
+
+  <div class="table-cap">Table 2.3 · Premium tier — $100+ / omakase / wagyu specialists</div>
+  <table class="data">
+    <tr><th>Dist.</th><th>Restaurant</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th><th>Notes</th></tr>
+    <tr class="subj"><td>0</td><td>Yakiya Pasadena</td><td class="num">$100+</td><td class="num">4.5</td><td class="num">88</td><td>Subject</td></tr>
+    <tr><td>3.94</td><td>Sushi Enya Pasadena</td><td class="num">—</td><td class="num">4.5</td><td class="num">504</td><td>$200/pp omakase, Chef Kimiyasu Enya</td></tr>
+    <tr><td>3.98</td><td>KAVIAR Pasadena</td><td class="num">$100+</td><td class="num">4.6</td><td class="num">386</td><td>$109 Chef's / $89 Dine LA</td></tr>
+    <tr><td>4.06</td><td>Sushi Karen</td><td class="num">$50–100</td><td class="num">4.9</td><td class="num">121</td><td>$65–96 omakase, 14-seat</td></tr>
+    <tr><td>3.67</td><td>Wagyu Master Shabu House</td><td class="num">—</td><td class="num">4.9</td><td class="num">365</td><td>AYCE A5 wagyu shabu</td></tr>
+  </table>
+
+  <div class="table-cap">Table 2.4 · Mid-premium · $30–$100</div>
+  <table class="data">
+    <tr><th>Dist.</th><th>Restaurant</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th><th>Notes</th></tr>
+    <tr><td>4.16</td><td>Sushi Roku Pasadena</td><td class="num">$$$</td><td class="num">4.5</td><td class="num">674</td><td>Chef's selection $85/2</td></tr>
+    <tr><td>4.00</td><td>Osawa Shabu Shabu &amp; Sushi</td><td class="num">$$</td><td class="num">4.7</td><td class="num">922</td><td>Saga Wagyu shabu $89; rib eye $21 à la carte</td></tr>
+    <tr><td>4.00</td><td>Soh Grill House</td><td class="num">$50–100</td><td class="num">4.5</td><td class="num">284</td><td>Korean BBQ — direct format rival</td></tr>
+    <tr><td>4.09</td><td>Mills Alley Izakaya</td><td class="num">$30–50</td><td class="num">4.7</td><td class="num">130</td><td>Omakase available, chirashi $38</td></tr>
+  </table>
+
+  <div class="table-cap">Table 2.5 · Mid · $20–$30 (and the closest competitor — Panda Inn Pasadena, 200 ft away)</div>
+  <table class="data">
+    <tr><th>Dist.</th><th>Restaurant</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th></tr>
+    <tr><td>0.08</td><td>Panda Inn Pasadena (same PRG owner)</td><td class="num">$$</td><td class="num">—</td><td class="num">—</td></tr>
+    <tr><td>0.22</td><td>ICHIMA</td><td class="num">$20–30</td><td class="num">4.4</td><td class="num">1,170</td></tr>
+    <tr><td>0.26</td><td>Shogun Restaurant</td><td class="num">$$</td><td class="num">4.3</td><td class="num">1,480</td></tr>
+    <tr><td>0.73</td><td>Oseyo Shabu Shabu</td><td class="num">$20–30</td><td class="num">4.6</td><td class="num">430</td></tr>
+    <tr><td>0.94</td><td>Kabuki Japanese</td><td class="num">$20–30</td><td class="num">4.4</td><td class="num">1,234</td></tr>
+    <tr><td>1.41</td><td>Go Go Sushi</td><td class="num">$20–30</td><td class="num">4.5</td><td class="num">380</td></tr>
+    <tr><td>2.96</td><td>Kyushu Sushi</td><td class="num">$20–30</td><td class="num">4.7</td><td class="num">128</td></tr>
+    <tr><td>3.34</td><td>Oji Sushi &amp; Sake Bar</td><td class="num">$20–30</td><td class="num">4.6</td><td class="num">621</td></tr>
+    <tr><td>4.01</td><td>Sushigah</td><td class="num">$20–30</td><td class="num">4.7</td><td class="num">250</td></tr>
+    <tr><td>4.04</td><td>MAMA M Sushi</td><td class="num">$$</td><td class="num">4.5</td><td class="num">317</td></tr>
+    <tr><td>4.18</td><td>Gyu-Kaku Japanese BBQ</td><td class="num">$$</td><td class="num">4.4</td><td class="num">1,334</td></tr>
+  </table>
+  <div class="pageno"><span>II · Yakiya · Competitive Set</span><span class="num">012 / 022</span></div>
+</section>
+
+<!-- 13 YAKIYA PRICING LADDERS -->
+<section class="page">
+  <div class="header-rule"><span class="left">II · Yakiya Pasadena</span><span class="right">Pricing Position &amp; Common Items</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Where Yakiya sits on three different ladders</div>
+    <h3 style="margin-top:0; font-size: 20pt;">Priced as premium, reviewed as mid.</h3>
+  </div>
+
+  <div class="table-cap">Table 2.6 · Tasting / omakase pricing in the Pasadena premium set</div>
+  <table class="data">
+    <tr><th>Restaurant</th><th>Format</th><th class="num">Lowest tier</th><th class="num">Top tier</th></tr>
+    <tr><td>Sushi Enya Pasadena</td><td>Sushi omakase</td><td class="num">—</td><td class="num">$200/pp</td></tr>
+    <tr class="subj"><td>Yakiya Pasadena</td><td>Yakiniku tasting</td><td class="num">$78 (10c)</td><td class="num">$128 (15c)</td></tr>
+    <tr><td>KAVIAR Pasadena</td><td>Sushi omakase</td><td class="num">$89 (Dine LA)</td><td class="num">$109 (Chef's)</td></tr>
+    <tr><td>Sushi Karen</td><td>Sushi omakase</td><td class="num">$65</td><td class="num">$96</td></tr>
+  </table>
+  <p style="font-size: 9pt;">The Pasadena omakase median is approximately $98/pp. Yakiya's $128 is in the upper third. KAVIAR charges $20 less, has four times the review count, and occupies the higher-traffic corridor. Sushi Karen at $65–$96 has the highest rating in the 5-mile radius (4.9). Yakiya is priced as the premium option and reviewed as the mid option.</p>
+
+  <div class="table-cap">Table 2.7 · Shabu pricing ladder (for the Pasadena-exclusive shabu tasting)</div>
+  <table class="data">
+    <tr><th>Restaurant</th><th>Format</th><th class="num">Price</th></tr>
+    <tr><td>Osawa Sukiyaki</td><td>À la carte rib-eye</td><td class="num">$21</td></tr>
+    <tr class="subj"><td>Yakiya</td><td>Shabu tasting set, all-inclusive</td><td class="num">$78/pp</td></tr>
+    <tr><td>Osawa Sukiyaki</td><td>Saga Wagyu single cut à la carte</td><td class="num">$89</td></tr>
+    <tr><td>Wagyu Master Shabu</td><td>AYCE tiered</td><td class="num">variable (top = unlimited A5)</td></tr>
+  </table>
+  <p style="font-size: 9pt;">A hard middle to defend. Yakiya's $78 shabu sits between cheap à la carte and unlimited Wagyu. The Pasadena-exclusive format differentiation (grill swaps for hot pot) is not priced at premium.</p>
+
+  <h3>Common items across the Pasadena premium set</h3>
+  <p><b>Near-universal in the premium tier (5+ of 8 menus).</b> Raw wagyu/tuna opener · A5 Miyazaki showpiece · premium sashimi (bluefin + hamachi) · uni course (Yakiya doesn't carry) · chawanmushi (Yakiya does) · signature rice (Bone Marrow Bibimbap for Yakiya) · dessert ritual.</p>
+  <p><b>What Yakiya has the set doesn't.</b> Bone Marrow Bibimbap (genuinely differentiated; named in nearly every top review). Four separate grill courses (unusual structure). The "switch grill for shabu" Pasadena-exclusive feature.</p>
+  <p><b>What the set has Yakiya doesn't.</b> A credentialed chef story (Sushi Enya names Chef Enya; KAVIAR names its chef; Sushi Karen names its chef — <b>Yakiya's chef is invisible</b>). À la carte flexibility (Osawa's 922 reviews prove Pasadena rewards "I just want the rib-eye"). Uni features.</p>
+  <div class="pageno"><span>II · Yakiya · Position</span><span class="num">013 / 022</span></div>
+</section>
+
+<!-- 14 YAKIYA BEVERAGE LEVERAGE -->
+<section class="page">
+  <div class="header-rule"><span class="left">II · Yakiya Pasadena</span><span class="right">The $300K – $700K Beverage Gap</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">The single highest-impact revenue recommendation in the file</div>
+    <h3 style="margin-top:0; font-size: 22pt;">The 6% beverage attach.</h3>
+  </div>
+  <p>Industry benchmark for upscale Asian tasting concepts is <b>20–30% beverage attach</b> (eatapp.co, financialmodelslab.com, restroworks.com). Yakiya's verified Parkzer receipt: 6%. The gap math, conservative:</p>
+
+  <div class="table-cap">Table 2.8 · Beverage gap math at conservative cover counts</div>
+  <table class="data">
+    <tr><th>Scenario</th><th class="num">Covers/yr</th><th class="num">Food rev</th><th class="num">Bev attach</th><th class="num">Bev rev</th><th class="num">Gap</th></tr>
+    <tr><td>Current state</td><td class="num">10,000</td><td class="num">$1.28M</td><td class="num">6%</td><td class="num">$76.8K</td><td class="num">—</td></tr>
+    <tr><td>20% benchmark</td><td class="num">10,000</td><td class="num">$1.28M</td><td class="num">20%</td><td class="num">$256K</td><td class="num">+$180K</td></tr>
+    <tr><td>30% benchmark</td><td class="num">10,000</td><td class="num">$1.28M</td><td class="num">30%</td><td class="num">$384K</td><td class="num">+$307K</td></tr>
+    <tr><td>30% at 15K covers</td><td class="num">15,000</td><td class="num">$1.92M</td><td class="num">30%</td><td class="num">$576K</td><td class="num">+$500K</td></tr>
+    <tr class="subj"><td>30% at 18K covers (Karen-velocity)</td><td class="num">18,000</td><td class="num">$2.30M</td><td class="num">30%</td><td class="num">$700K</td><td class="num">+$623K</td></tr>
+  </table>
+
+  <p style="margin-top:0.18in;"><b>Why the attach is 6% — three structural causes.</b></p>
+  <p style="margin:0;"><b>1.</b> Cocktails are $13–$15 in a $128 tasting concept. The Pasadena premium floor for craft cocktails at $100+ concepts is $16–$22. The cocktail price reads "casual" — guests order water instead because the price doesn't match the occasion. Multiple Yelp reviewers describe the cocktails as "$20+" — a misperception. <b>Yakiya is taking the price-perception hit without capturing the price.</b></p>
+  <p style="margin:0;"><b>2.</b> The sake ladder has a $106 gap — $10 → $13–14 → $16 → $18 → $24 → <b>$130 (Dassai Daiginjo)</b>. A guest who wants $40–60 has nowhere to land. Most stay at $24 or order water.</p>
+  <p style="margin:0;"><b>3.</b> No beverage pairing program. Sushi Enya, KAVIAR, and Sushi Karen all offer pairing flights. The pairing question — <i>"would you like the pairing or à la carte?"</i> — shifts the guest from "beverage optional" to "beverage part of the meal."</p>
+
+  <div class="callout" style="margin-top:0.22in;">
+    <h3>The fix, in three lines.</h3>
+    <p>Reprice cocktails to $16–$18 baseline / $20–$22 for two signatures. Fill the $40–$80 sake gap with 2–3 mid-tier bottles. Introduce a $48–$65 four-pour pairing flight. Total cost under $5K. Visible lift in 60 days. Modeled lift: attach from 6% to 15–20%, worth $120K–$250K incremental annual at current cover counts.</p>
+  </div>
+  <div class="pageno"><span>II · Yakiya · Beverage Leverage</span><span class="num">014 / 022</span></div>
+</section>
+
+<!-- 15 YAKIYA FORENSIC + LEVERS -->
+<section class="page">
+  <div class="header-rule"><span class="left">II · Yakiya Pasadena</span><span class="right">The Wagyu Failure Mode &amp; Six Levers</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">The forensic finding</div>
+    <h3 style="margin-top:0; font-size: 20pt;">$40-per-pound wagyu, cooked by waitstaff.</h3>
+  </div>
+  <div class="pull-quote" style="font-size: 16pt; padding: 0.28in 0;">
+    She picked up the tongs and it showed she was neither experienced nor confident. The tongue came out overcooked. The next batch was still very undercooked even by my rare-loving standards… Yakiya did not give us a side of salt — or any seasonings or sauces, for that matter… they took the chef's tasting menu concept and tried to mass-produce it.
+  </div>
+  <p class="attribution">Adam Parkzer · parkzer.com · 2024-07-17 · Verified receipt</p>
+  <p>A5 Miyazaki at ~$40/lb raw × 3 oz × four grill courses ≈ $15–$20 of raw wagyu cost per guest, executed by FoH servers with visibly inconsistent technique. <b>Fix:</b> a tableside grill SOP (photographic doneness checklist + pre-portioned salt ramekin), one hour of training per server (recorded), one shift lead assigned grill accountability per night. One training day. Zero new headcount.</p>
+
+  <h3>The six efficiency levers, in order of leverage</h3>
+  <ol class="efficiency">
+    <li><b>Solve the category before optimizing the items.</b> Rebrand the listing from "Japanese steakhouse" to <i>"Wagyu Tasting House"</i> or <i>"Wagyu Omakase"</i> on Google Business, OpenTable, and the website. Same kitchen, different category entry. <i>Zero cost. The Pasadena omakase searcher now finds Yakiya. Highest-leverage single move in the file.</i></li>
+    <li><b>The beverage leverage fix.</b> Page 14, modeled at $120K–$250K incremental annual. Under $5K cost. 60-day lift.</li>
+    <li><b>The tableside grill SOP + training.</b> Above. Protects the most expensive protein on the menu.</li>
+    <li><b>Reveal the chef.</b> Name the executive chef on the menu, on Google, on OpenTable, and on the site. Three sentences of background. Shifts Yakiya from "PRG concept" to "chef-led concept" in the diner's mental model.</li>
+    <li><b>Introduce à la carte flexibility (early-dinner window).</b> Osawa has 922 reviews on à la carte; Yakiya has 265 on rigid tasting-only. Build a 4–5 item à la carte menu that runs 4:30–6 PM: Bone Marrow Bibimbap $28, wagyu grill trio $58, pairing flight $48, dessert $14. <i>10–15% lift in 4:30–6 PM covers within 60 days.</i></li>
+    <li><b>Reprice the shabu differentiation to $88–$92.</b> A one-line menu reprint that captures the Pasadena-only feature. Plus a Sunday Family Yakiniku ($88/pp, 4-person minimum, 10-course) — Sunday family dinner in Pasadena is enormous and the kids' meal already proves families are coming.</li>
+  </ol>
+  <div class="pageno"><span>II · Yakiya · Forensic &amp; Levers</span><span class="num">015 / 022</span></div>
+</section>
+
+<!-- 16 PANDA INN ESTABLISHING -->
+<section class="page">
+  <div class="header-rule"><span class="left">III · Panda Inn Glendale</span><span class="right">Establishing the Position</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Concept III · Glendale</div>
+    <h2>Panda Inn<br>Glendale.</h2>
+  </div>
+  <div style="margin-top: 0.4in;">
+    <div class="hero-stat small">12 cats · 80 items</div>
+    <div class="hero-sub">Heritage Mandarin / Sichuan sit-down with cocktails, private dining, named-server service intensity, and a two-portion pricing architecture that delivery apps cannot express.</div>
+  </div>
+  <div class="two-col" style="margin-top: 0.4in;">
+    <div>
+      <p><b>Address.</b> 201 N Maryland Ave, Glendale. PRG flagship sit-down (founded 1973). The second Panda Inn ever built (1982). One block from where the first Panda Express opened in October 1983.</p>
+      <p><b>Ratings.</b> Google 4.4 / 544. Postmates 4.6 / 1,500+. Hours: Mon–Thu 11:30–9:30, Fri 11:30–10, Sat 12–10, Sun 12–9:30.</p>
+    </div>
+    <div>
+      <table class="data">
+        <tr><th>Section</th><th class="num">Items</th><th class="num">Price band</th></tr>
+        <tr><td>Tasters / Starters</td><td class="num">10</td><td class="num">$11 – $16</td></tr>
+        <tr><td>Bowl Soups</td><td class="num">2</td><td class="num">$5.50</td></tr>
+        <tr><td>Family Soups</td><td class="num">3</td><td class="num">$15 – $16</td></tr>
+        <tr><td>Salads</td><td class="num">3</td><td class="num">$13 – $18</td></tr>
+        <tr><td>Specialties</td><td class="num">11</td><td class="num">$20 – $45</td></tr>
+        <tr><td>Poultry</td><td class="num">9</td><td class="num">$17 – $22</td></tr>
+        <tr><td>Beef &amp; Pork (sm/lg)</td><td class="num">5</td><td class="num">$17 – $33</td></tr>
+        <tr><td>Seafood</td><td class="num">8</td><td class="num">$19 – $45</td></tr>
+        <tr><td>Vegetables</td><td class="num">6</td><td class="num">$19 – $21</td></tr>
+        <tr><td>Noodles &amp; Rice</td><td class="num">9</td><td class="num">$14 – $23</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="pageno"><span>III · Panda Inn · Establishing</span><span class="num">016 / 022</span></div>
+</section>
+
+<!-- 17 PANDA INN PRICING BANDS -->
+<section class="page">
+  <div class="header-rule"><span class="left">III · Panda Inn Glendale</span><span class="right">Computed Pricing Bands</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Pricing · Postmates + Uber Eats cross-reference + Allmenus</div>
+    <h3 style="margin-top:0; font-size: 22pt;">The two-portion architecture nobody sees.</h3>
+  </div>
+  <p>The two numbers in this table that matter most are <b>$33</b> and <b>$45</b>. That is the large-portion pricing the menu leans on for margin — and it is functionally invisible everywhere customers actually look.</p>
+
+  <div class="table-cap">Table 3.1 · Computed price bands</div>
+  <table class="data">
+    <tr><th>Category</th><th class="num">Average</th><th class="num">Median</th><th class="num">Range</th></tr>
+    <tr><td>Cold/Hot Starters</td><td class="num">$13.20</td><td class="num">$13.00</td><td class="num">$11 – $16</td></tr>
+    <tr><td>Salads</td><td class="num">$15.50</td><td class="num">$17.00</td><td class="num">$13 – $18</td></tr>
+    <tr><td>Bowl Soups (single)</td><td class="num">$5.50</td><td class="num">$5.50</td><td class="num">$5.50</td></tr>
+    <tr><td>Family Soups (shareable)</td><td class="num">$15.40</td><td class="num">$15.40</td><td class="num">$15 – $16</td></tr>
+    <tr><td>Vegetable Mains</td><td class="num">$19.80</td><td class="num">$19.80</td><td class="num">$19 – $21</td></tr>
+    <tr><td>Chicken Mains (small)</td><td class="num">$18</td><td class="num">$18</td><td class="num">$17 – $22</td></tr>
+    <tr><td>Beef/Pork Mains (small)</td><td class="num">$19</td><td class="num">$18</td><td class="num">$17 – $25</td></tr>
+    <tr class="subj"><td>Beef/Pork Mains (large/family)</td><td class="num">$33</td><td class="num">$33</td><td class="num">$25 – $45</td></tr>
+    <tr><td>Seafood Premium</td><td class="num">$30</td><td class="num">$28</td><td class="num">$21 – $45</td></tr>
+    <tr><td>Premium Specialties</td><td class="num">$32</td><td class="num">$30</td><td class="num">$25 – $45</td></tr>
+  </table>
+
+  <h3>Signature dishes (review-validated)</h3>
+  <p><b>Hot &amp; Sour Soup</b> ($5.50). The most-mentioned dish across 30 Apify-pulled Google reviews. Smallest ticket, biggest brand association. <b>Honey Walnut Shrimp</b> — "Panda Express always sells out; here I can actually get it." <b>Panda Beef</b>, the house-named signature. <b>Tea-Smoked Duck</b>, heritage Mandarin/Sichuan. <b>Asian Spiced Beef Ribs</b>, USDA Prime short ribs. <b>Upside Down Crispy Noodles</b>, named in 5-star reviews as "an interesting surprise."</p>
+  <div class="pageno"><span>III · Panda Inn · Pricing</span><span class="num">017 / 022</span></div>
+</section>
+
+<!-- 18 PANDA INN COMPETITIVE SET -->
+<section class="page">
+  <div class="header-rule"><span class="left">III · Panda Inn Glendale</span><span class="right">5-Mile Competitive Set · 28 Asian Restaurants</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">3 Apify Google Maps runs · Chinese · Sushi · Korean BBQ</div>
+    <h3 style="margin-top:0; font-size: 20pt;">Twenty-eight restaurants in five miles.</h3>
+  </div>
+
+  <div class="table-cap">Table 3.2 · Chinese (regional + Chinese-American)</div>
+  <table class="data">
+    <tr><th>Dist.</th><th>Restaurant</th><th>Style</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th></tr>
+    <tr class="subj"><td>0</td><td>Panda Inn Glendale</td><td>Heritage Mandarin / CN-Am</td><td class="num">$20–30</td><td class="num">4.4</td><td class="num">544</td></tr>
+    <tr><td>0.5</td><td>California Wok Glendale</td><td>CN-Am casual</td><td class="num">$10–20</td><td class="num">4.4</td><td class="num">56</td></tr>
+    <tr><td>0.7</td><td>Din Tai Fung</td><td>Taiwanese / Shanghainese</td><td class="num">$$</td><td class="num">4.5</td><td class="num">2,891</td></tr>
+    <tr><td>0.9</td><td>Wong's Wok Chinese Kitchen</td><td>Takeout</td><td class="num">$</td><td class="num">4.2</td><td class="num">229</td></tr>
+    <tr><td>0.9</td><td>Fu House Chinese Food &amp; Sushi</td><td>Combo</td><td class="num">$10–20</td><td class="num">3.8</td><td class="num">172</td></tr>
+    <tr><td>2.6</td><td>Chinese Fast Food</td><td>Quick-serve</td><td class="num">$10–20</td><td class="num">4.0</td><td class="num">165</td></tr>
+    <tr><td>4.1</td><td>New Moon (Montrose)</td><td>CN-Am</td><td class="num">$20–30</td><td class="num">4.5</td><td class="num">831</td></tr>
+    <tr><td>~4.5</td><td>House of Joy (La Crescenta)</td><td>CN-Am family</td><td class="num">$20–30</td><td class="num">4.2</td><td class="num">345</td></tr>
+    <tr><td>—</td><td>Lao Sze Chuan (PERMANENTLY CLOSED)</td><td>Authentic Sichuan</td><td class="num">$$</td><td class="num">4.0</td><td class="num">377</td></tr>
+  </table>
+
+  <div class="table-cap">Table 3.3 · Japanese / Sushi (8 restaurants)</div>
+  <table class="data">
+    <tr><th>Dist.</th><th>Restaurant</th><th>Style</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th></tr>
+    <tr><td>0.4</td><td>UMI by Eden</td><td>Upscale sushi</td><td class="num">$50–100</td><td class="num">4.7</td><td class="num">15</td></tr>
+    <tr><td>0.5</td><td>Sasabune Glendale</td><td>High-end omakase</td><td class="num">$100+</td><td class="num">4.7</td><td class="num">209</td></tr>
+    <tr><td>0.5</td><td>Cavi Sushi</td><td>Mid-upscale</td><td class="num">$30–50</td><td class="num">4.7</td><td class="num">99</td></tr>
+    <tr><td>0.5</td><td>Iki Toro Japanese</td><td>Casual</td><td class="num">—</td><td class="num">4.8</td><td class="num">28</td></tr>
+    <tr><td>0.6</td><td>Seabutter Glendale</td><td>Mid-upscale</td><td class="num">$40–50</td><td class="num">4.7</td><td class="num">73</td></tr>
+    <tr><td>0.7</td><td>Kura Revolving Sushi</td><td>Conveyor</td><td class="num">$20–30</td><td class="num">4.3</td><td class="num">734</td></tr>
+    <tr><td>1.1</td><td>Fuji Buffet &amp; Grill</td><td>Buffet</td><td class="num">$$</td><td class="num">4.0</td><td class="num">3,007</td></tr>
+    <tr><td>1.3</td><td>MOTO SUSHI Glendale</td><td>Mid-tier</td><td class="num">$$</td><td class="num">4.5</td><td class="num">255</td></tr>
+  </table>
+
+  <div class="table-cap">Table 3.4 · Korean (KBBQ + casual) and Other Asian / Fusion</div>
+  <table class="data">
+    <tr><th>Dist.</th><th>Restaurant</th><th>Style</th><th class="num">Price</th><th class="num">Rating</th><th class="num">Reviews</th></tr>
+    <tr><td>0.4</td><td>Gen Korean BBQ House</td><td>AYCE KBBQ</td><td class="num">$20–30</td><td class="num">4.0</td><td class="num">1,486</td></tr>
+    <tr><td>0.5</td><td>bb.q Chicken</td><td>KFC</td><td class="num">$10–20</td><td class="num">4.4</td><td class="num">112</td></tr>
+    <tr><td>0.5</td><td>Jincook</td><td>Korean comfort</td><td class="num">$20–30</td><td class="num">4.5</td><td class="num">334</td></tr>
+    <tr><td>0.7</td><td>Beulah Kitchen</td><td>Korean casual</td><td class="num">$$</td><td class="num">4.4</td><td class="num">200</td></tr>
+    <tr><td>1.1</td><td>Mitzee Cafe</td><td>Korean casual</td><td class="num">$10–20</td><td class="num">4.4</td><td class="num">157</td></tr>
+    <tr><td>4.2</td><td>Cho Dang Tofu &amp; BBQ</td><td>Soondubu/BBQ</td><td class="num">$20–30</td><td class="num">4.2</td><td class="num">205</td></tr>
+    <tr><td>0.4</td><td>Dragon Garden Family</td><td>CN/JP fusion</td><td class="num">$40–50</td><td class="num">4.5</td><td class="num">26</td></tr>
+    <tr><td>0.5</td><td>Gam Tu Bop</td><td>Asian fusion</td><td class="num">$10–20</td><td class="num">4.5</td><td class="num">280</td></tr>
+    <tr><td>1.0</td><td>Taste of Windsor</td><td>Pan-Asian</td><td class="num">$10–20</td><td class="num">4.4</td><td class="num">27</td></tr>
+  </table>
+  <div class="pageno"><span>III · Panda Inn · Competitive Set</span><span class="num">018 / 022</span></div>
+</section>
+
+<!-- 19 PANDA INN POSITION + COMMON ITEMS + LEVERS -->
+<section class="page">
+  <div class="header-rule"><span class="left">III · Panda Inn Glendale</span><span class="right">Position, Common Items &amp; Five Levers</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Where Panda Inn sits in the price ladder</div>
+    <h3 style="margin-top:0; font-size: 19pt;">The crowded $20–30 band, owned on four axes.</h3>
+  </div>
+  <p><b>Cheaper than:</b> Sasabune ($100+), UMI by Eden, Cavi, Dragon Garden, Seabutter. <b>Same $20–30 band as:</b> Din Tai Fung, Gen Korean BBQ, Jincook, Kura, New Moon. <b>More expensive than:</b> California Wok, Wong's Wok, Fu House, bb.q, Beulah, Gam Tu Bop, Mitzee, Chinese Fast Food.</p>
+  <p>The $20–30 band is the most crowded segment in central Glendale. Panda Inn competes there on <b>heritage + sit-down service + cocktails + private room + named servers</b>. None of the other $20–30 restaurants offer all four.</p>
+
+  <div class="table-cap">Table 3.5 · The rating picture</div>
+  <table class="data">
+    <tr><th>Metric</th><th class="num">Panda Inn</th><th class="num">5-mile Chinese median</th><th class="num">5-mile Asian median</th></tr>
+    <tr><td>Google rating</td><td class="num">4.4</td><td class="num">4.3</td><td class="num">4.5</td></tr>
+    <tr><td>Review volume</td><td class="num">544</td><td class="num">229</td><td class="num">335</td></tr>
+  </table>
+
+  <h3>Common items across the Glendale Chinese set</h3>
+  <p><b>Table-stakes (5+ of 8 menus).</b> Orange Chicken · Beef &amp; Broccoli · Kung Pao Chicken · Mongolian Beef · Sweet &amp; Sour Pork · Hot &amp; Sour Soup · Egg Drop Soup · Vegetable fried rice · Lo-mein.</p>
+  <p><b>Near-table-stakes (3+ of 8).</b> Honey Walnut Shrimp · Mapo Tofu · Dan Dan Noodles · Crab Rangoon · Potstickers · General Tso's Chicken.</p>
+  <p><b>What Panda Inn has that the set doesn't.</b> Tea-Smoked Duck (nobody else carries it). Panda Beef (proprietary). USDA Prime short ribs. Wagyu Chow Fun. Upside Down Crispy Noodles. Cocktail bar + wine list.</p>
+  <p><b>What the set has that Panda Inn doesn't.</b> Peking Duck (nobody in the set has it either; Din Tai Fung owns the "celebration dish" slot with XLB). Xiao Long Bao (Din Tai Fung owns this — not a fight worth picking). And — <b>the empty Sichuan seat</b>. Lao Sze Chuan permanently closed; the authentic Sichuan slot is open in a city of 190,000 with zero walking-distance alternatives.</p>
+
+  <h3>The five Panda Inn levers</h3>
+  <ol class="efficiency">
+    <li><b>Two-portion pricing transparency.</b> $17/$33 Mongolian Beef. $21/$40 Honey Walnut Shrimp. Postmates / Uber Eats / DoorDash all show "Priced by add-ons" — the small portion defaults first, the large portion is hidden, and walk-in guests learn the architecture from the server (45 minutes of server time per shift). Redesign the in-house menu to show both prices: <i>"Mongolian Beef, $17 small / $33 family."</i> Call the platform reps to update the modifier display. <i>8–12% lift on family-size attachment on delivery within 60 days.</i></li>
+    <li><b>Surface the lunch-specials program.</b> The lunch URL exists at <span class="mono">pandainn.com/menu_type/lunch-specials/</span> and 99% of customers never see it. Add a "Lunch Specials" tile to the homepage, a lunch category to the delivery listings, a lunch photo to the Google profile. <i>10–20% incremental lunch covers within 90 days.</i></li>
+    <li><b>The Sichuan adjacency repositioning.</b> The Cherng family's 1973 menu was Mandarin + Sichuan. Mapo Tofu, Dan Dan Noodles, Szechuan Tofu, Kon Pao San Yan are already on the menu. Pull the Sichuan items into a named "Sichuan Heritage" section. Add Dry-Fried Green Beans with Sichuan Peppercorn. Pitch the story to Eater LA, Pasadena Now, LA Times Food. <i>Zero new dishes, zero new training. 8–15% lift on Sichuan category items within 60 days.</i></li>
+    <li><b>Surface the cocktail program.</b> Reviewers mention "excellent wine list, surprisingly." Cocktails and wine are invisible on the delivery apps and buried on the website. None of the direct $20–30 Chinese competitors (Wong's, California Wok, Fu House, New Moon) have a serious bar. Build a dedicated cocktails+wine page; pair two signatures with two specific dishes. <i>5–10% beverage attach lift on dine-in within 90 days.</i></li>
+    <li><b>Activate the named-server moat.</b> Servers Alfredo and Simon are named in 4 of the top 30 Google reviews. At a $20–30 Chinese price point, named-server callouts are unusual and meaningful. Build a server-tenure honor roll near the host stand. Pitch the story to LA food writers as "the soul of a Glendale dining institution." <i>Cost: ~$200 in framed photos.</i></li>
+  </ol>
+  <div class="pageno"><span>III · Panda Inn · Levers</span><span class="num">019 / 022</span></div>
+</section>
+
+<!-- 20 THREE PATTERNS -->
+<section class="page">
+  <div class="header-rule"><span class="left">Cross-restaurant</span><span class="right">Three Patterns</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">What three menu audits in one week revealed</div>
+    <h2>Three patterns<br>that travel.</h2>
+  </div>
+
+  <h3>1 · Each concept is a category monopolist that behaves like it has competition it doesn't have.</h3>
+  <p>Wasabi is the only sushi restaurant inside a free-to-enter entertainment district visited by ~9 million people a year, and CityWalk's own "Guide to Dining" doesn't list it. Panda Inn is the only sit-down heritage Chinese restaurant within walking distance of both The Americana at Brand and the Glendale Galleria, and the "birthplace of Panda Express" line is nowhere on anything customer-facing. Yakiya is the only premium Japanese restaurant for 2.5 miles in any direction in East Pasadena, while the discerning premium customer drives four miles west to Old Pasadena out of habit. <b>In each case the category is owned and the category ownership is not being pressed.</b></p>
+
+  <h3>2 · The expensive things and the cheap things are wearing the same prices.</h3>
+  <p>Wasabi's nigiri grid is flat at $9 across ten fish — inari and sweet egg cost what scallop costs. Yakiya's $78 shabu sits between Osawa's $21 rib-eye à la carte and Wagyu Master's unlimited A5, with nothing in the beverage ladder between a $24 sake and a $130 bottle of Dassai. Panda Inn's large-portion family entrees are hidden behind a small-portion sticker price on every delivery app. Three different PPA problems, same shape: <b>the pricing architecture isn't working as an architecture, it's working as a single line.</b></p>
+
+  <h3>3 · Each restaurant has one piece of brand capital sitting on the table, uncashed.</h3>
+  <p>The Garlic Edamame at Wasabi has its own dedicated photo gallery on Yelp and is still being treated like an $8 side. The Bone Marrow Bibimbap at Yakiya is named in nearly every top review and the restaurant is not building marketing around it. The Panda Express founding story at Panda Inn — the actual address where Andrew Cherng was asked to build the food-court version that became the first Panda Express in October 1983 — is not on the menu, the website, the Google profile, or the wall. <b>Reviewers are naming all three unprompted. The menus, the websites, and the host-stand stories are not.</b></p>
+  <div class="pageno"><span>Three Patterns</span><span class="num">020 / 022</span></div>
+</section>
+
+<!-- 21 CROSS-RESTAURANT SUMMARY -->
+<section class="page">
+  <div class="header-rule"><span class="left">Cross-restaurant</span><span class="right">Summary Table</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">The whole deliverable in one table</div>
+    <h2>What Chris asked,<br>answered.</h2>
+  </div>
+
+  <div class="table-cap">Table 4.1 · The cross-restaurant summary</div>
+  <table class="data">
+    <tr><th>—</th><th>Wasabi (CityWalk)</th><th>Yakiya (Pasadena)</th><th>Panda Inn (Glendale)</th></tr>
+    <tr><td>Avg apps</td><td>$8.33</td><td>(15-course tasting)</td><td>$13.20</td></tr>
+    <tr><td>Avg mains</td><td>$20.33</td><td>$128 / pp</td><td>$19 sm · $33 lg</td></tr>
+    <tr><td>5-mile set size</td><td>25+ Japanese</td><td>34 Japanese</td><td>28 Asian</td></tr>
+    <tr><td>Position vs median</td><td>−0.4 ★ below 4.50</td><td>+0.0 vs 4.5; priced upper-third</td><td>+0.1 above Chinese; at Asian median</td></tr>
+    <tr><td>Common items captured</td><td>Yes (all table-stakes)</td><td>Yes (premium opener pattern)</td><td>Yes (Chinese-Am classics)</td></tr>
+    <tr><td>The uncashed signature</td><td>Garlic Edamame</td><td>Bone Marrow Bibimbap</td><td>The founding story</td></tr>
+    <tr><td>Highest-leverage move</td><td>Throughput fix → tiered nigiri</td><td>Category rebrand → pairing flight</td><td>Two-portion transparency</td></tr>
+    <tr><td>Modeled annual lift (single move)</td><td>3–8% PPA</td><td>$120K – $250K</td><td>8–12% delivery attach</td></tr>
+    <tr><td>POS constraint</td><td>Digital Dining (legacy)</td><td>Modern; not the bottleneck</td><td>Standard</td></tr>
+  </table>
+
+  <p style="margin-top:0.2in;">Three full menu intelligence files exist as the spine of this work, one per restaurant, each defensible line by line from public data. The pattern behind the answers is incidental — the kind of thing you only see when you look at three restaurants in the same portfolio in the same week — but the answers stand on their own without it.</p>
+  <div class="pageno"><span>Cross-restaurant Summary</span><span class="num">021 / 022</span></div>
+</section>
+
+<!-- 22 SOURCES -->
+<section class="page">
+  <div class="header-rule"><span class="left">Menu Intelligence Report</span><span class="right">Sources</span></div>
+  <div style="margin-top: 0.9in;">
+    <div class="eyebrow">Source discipline</div>
+    <h2>Sources.</h2>
+  </div>
+
+  <h3>Menu and pricing</h3>
+  <p><b>Wasabi.</b> Official PDF at wasabi-citywalk.com/wasabi_menu.pdf (extracted via pypdf, 2026-04-06). Wasabi-citywalk.com/about.php (PRG ownership confirmation). NetWaiter listing. Restaurantji customer-favorites page. <b>Yakiya.</b> Parkzer.com eyewitness 15-course review with full itemized receipt (2024-07-17). yakiya.res-menu.net (community-maintained beverage mirror, current 2026 pricing). yakiya-us.com. OpenTable Yakiya Pasadena (49 reviews, 4.8). <b>Panda Inn.</b> Postmates Panda Inn store page. Uber Eats cross-reference. Allmenus PDF references for two-portion structure ($17/$33 Mongolian Beef, $21/$40 Honey Walnut Shrimp). pandainn.com/glendale.</p>
+
+  <h3>Competitive sets (Apify Google Maps)</h3>
+  <p><b>Wasabi:</b> wasabi-apify-studio-city.json, wasabi-apify-noho.json, wasabi-apify-universal-city.json, wasabi-apify-citywalk-internal.json. Total spend ~$0.57. <b>Yakiya:</b> competitors-sushi-pasadena.json (30), competitors-yakiniku-pasadena.json (10), competitors-table.json (merged + distance-computed). ~$0.35. <b>Panda Inn:</b> apify-glendale-chinese.json (15), apify-glendale-sushi.json (15), apify-glendale-korean.json (10), apify-panda-inn-reviews.json, apify-competitors-reviews.json. ~$0.55.</p>
+
+  <h3>Industry benchmarks (named, not generic)</h3>
+  <p>Sushi food-cost ranges 28–35%: altametrics.com, dojobusiness.com, financialmodelslab.com fine-dining KPIs. Restaurant prime-cost target (60% rule): whipplewood.com 2025, wearetris.com. Toast Sous Chef 6% AOV upsell lift: PYMNTS coverage of Toast Q1 2024 earnings, May 8 2024. Upscale tasting beverage attach 20–30%: restaurant.eatapp.co, financialmodelslab.com, restroworks.com. Wagyu raw cost ($40/lb specialty): Snake River Farms, Holy Grail Steak Co. Multi-portion menu engineering: Kasavana-Smith Restaurant Management; restroworks.com menu engineering guides. Family-style PPA: getbento.com, chowbus.com turn-rate benchmarks. Delivery commission and attachment: trykitchenhub.com 2026, getsauce.com.</p>
+
+  <h3>Founding myth, ownership, and adjacency</h3>
+  <p>Wikipedia: Panda Inn, Panda Restaurant Group, Andrew Cherng, Glendale California, Americana at Brand. ABC7: "Original Panda Inn reopens in Pasadena." Pasadena Now: "Founder of Pasadena's Panda Inn Gifts City of Hope $100 Million for Cancer Research." pandarg.com/our-brands and /andrea-cherng. Restaurant Hospitality and Nation's Restaurant News: PRG / YakiYan ownership. Yelp: Lao Sze Chuan Glendale CLOSED listing. LinkedIn job posting confirming Wasabi store #1432.</p>
+
+  <p style="margin-top: 0.32in; font-style: italic; color: var(--gray-strong); font-size: 9pt;">Every figure, competitor statistic, and review citation in this document is documented inline in the three menu intelligence working files (02-menu-intelligence-wasabi.md, 03-menu-intelligence-yakiya.md, 04-menu-intelligence-panda-inn.md) and in the raw-data folder. All dollar attributions are conservative ranges derived from public data and the named industry benchmarks above. No POS access was required to produce this work.</p>
+  <div class="pageno"><span>Sources</span><span class="num">022 / 022</span></div>
+</section>
+
+</body>
+</html>

@@ -1,5 +1,5 @@
 ---
-description: Combine multiple AI revenue streams into a compound income model — affiliate + services + automation + content
+description: Affiliate + services + automation + content
 ---
 
 # Revenue Stream Stacker

@@ -1,5 +1,5 @@
 ---
-description: Rewrite any draft with optimal sentence rhythm — breathers, compression, downward inflection, and anti-dropping phrases
+description: Rewrite any draft with optimal sentence rhythm
 ---
 
 # /word-rhythm

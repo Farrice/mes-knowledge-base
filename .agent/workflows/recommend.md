@@ -1,5 +1,5 @@
 ---
-description: Contextual skill recommendation — analyzes what you're working on right now and deploys the right experts
+description: Contextual skill recommendation
 ---
 
 # /recommend — Contextual Skill Deployment

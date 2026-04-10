@@ -1,5 +1,5 @@
 ---
-description: "Build the foundational voice reference document for writing in any client's voice"
+description: Build the foundational voice reference document
 ---
 
 # /voice-document — Voice Document Builder

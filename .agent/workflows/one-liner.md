@@ -1,5 +1,5 @@
 ---
-description: Generate the single most important marketing sentence for any business — the StoryBrand one-liner. Produces core one-liner plus variants for social media, email, conversation, and pitch contexts.
+description: Generate the single most important marketing sentence
 ---
 
 # /one-liner — StoryBrand One-Liner Generator

@@ -1,5 +1,5 @@
 ---
-description: Deploy world-class expertise through the optimal vehicle — story, hot take, proof stack, vulnerability arc, demonstration, analogy — so knowledge RADIATES
+description: Deploy world-class expertise through the optimal vehicle
 ---
 
 # Expertise Deployment Engine

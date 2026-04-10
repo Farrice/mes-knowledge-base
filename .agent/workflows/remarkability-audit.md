@@ -1,5 +1,5 @@
 ---
-description: "Assess whether any idea/product/content is worth remarking about and build an improvement plan"
+description: Assess whether any idea/product/content is worth remarking about
 ---
 
 # Remarkability Audit

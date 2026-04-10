@@ -1,5 +1,5 @@
 ---
-description: Run a universal structural integrity audit across all skills, agents, indexes, workflows, and registries
+description: Universal structural integrity audit
 ---
 
 # /verify — Universal System Verification

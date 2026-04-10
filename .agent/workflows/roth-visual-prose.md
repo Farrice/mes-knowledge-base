@@ -1,5 +1,5 @@
 ---
-description: Visual prose deployment for any content — sensory openings that create "stop scrolling" moments
+description: Visual prose deployment for any content
 ---
 
 # Roth Visual Prose for Content

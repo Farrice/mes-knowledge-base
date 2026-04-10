@@ -66,6 +66,10 @@
 **Execute**: Every product promises specific transformation with tangible before/after states.
 **Success Metric**: Customer can articulate transformation in one sentence.
 
+## Pattern 15: Buyer Signal Architecture
+**Execute**: Design products to emit behavioral signals at every buyer micro-decision point. Three signal classes: Engagement Depth (where buyers stop consuming), Activation (what buyers DO after consuming), Expansion (what buyers request that you don't offer). Instrument before launching, not after plateauing.
+**Success Metric**: Every iteration decision traceable to a specific behavioral signal, not creator intuition.
+
 ## Hidden Knowledge
 
 6 tacit insights from $5B+ platform data.
@@ -127,6 +131,7 @@ A founder spent 18 months planning an "ultimate" business blueprint course, aimi
 *   **The "Checkout Funnel Stack" Blueprint**: Automatically designs the entire post-purchase flow (order bump, upsell, downsell) *before* finalizing the core product's sales page, treating the checkout sequence as integral to the offer itself, not an afterthought. → **Deploy when**: Developing any new core digital product.
 *   **The "Seven Iteration Pledge"**: Before launching a new product, publicly commits to at least seven distinct iterations, each with specific learning objectives, irrespective of initial sales performance. This ensures sufficient data for pattern recognition. → **Deploy when**: Initiating a new product launch or evaluating early product performance.
 *   **The "Bottleneck First Diagnostic"**: When analyzing underperforming sales, immediately applies the Three Levers Model (Traffic, Conversion, LTV) to identify the *single* primary bottleneck before suggesting any solutions. Resists the urge to optimize multiple levers simultaneously. → **Deploy when**: Diagnosing a struggling product or sales funnel.
+*   **The "Three Tripwires" Signal Setup**: Before launching any product, instruments exactly three behavioral signals (one per class: Engagement Depth, Activation, Expansion) with pre-defined trigger thresholds. Applies the Weekend Standard to signal design — one signal per class, set up in the first weekend, no dashboards. → **Deploy when**: Preparing any product for launch or beginning an iteration cycle.
 *   **The "Transformation Tagline Test"**: Challenges any product concept to articulate its specific, tangible transformation in a single, concise sentence, ensuring a clear before/after state. If it can't, the product promise is too vague. → **Deploy when**: Defining a new product's value proposition or reviewing marketing copy.
 
 ## Expert-Specific Quality Rubric
@@ -140,3 +145,4 @@ A founder spent 18 months planning an "ultimate" business blueprint course, aimi
 | **Iteration Readiness** | Product is built for a 'one-and-done' launch, requiring significant rework for changes or improvements. | Product allows for minor adjustments, but major iterations would be costly or time-consuming to implement. | Product is designed for rapid, low-cost iterations (e.g., Weekend Product Standard), allowing for quick market feedback and adaptation. |
 | **LTV Optimization Potential** | Focus is solely on the initial sale; no clear strategy for increasing customer lifetime value post-purchase. | Some attempts at LTV (e.g., a single upsell), but not integrated into a holistic, compounding ecosystem. | Multiple, strategically placed opportunities (order bumps, upsells, cross-sells, recurring) are integrated to maximize LTV from day one. |
 | **Bottleneck Focus** | Strategy attempts to improve multiple growth levers (Traffic, Conversion, LTV) simultaneously, or misdiagnoses the primary bottleneck. | Strategy identifies a primary bottleneck but doesn't fully commit to fixing it before moving on to other areas. | Strategy accurately diagnoses the single most impactful bottleneck (Traffic, Conversion, or LTV) and focuses all resources on resolving it before addressing others. |
+| **Signal-Driven Iteration** | Iteration decisions based on creator intuition or generic timelines; no behavioral data instrumentation. | Some metrics tracked but iteration decisions still mix intuition with data; no pre-defined trigger thresholds. | Every iteration decision traceable to a specific behavioral signal (Engagement Depth, Activation, or Expansion) with pre-defined thresholds; improvement decay detection prevents iteration fatigue. |

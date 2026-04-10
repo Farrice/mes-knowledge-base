@@ -1,5 +1,5 @@
 ---
-description: "Universal borrowed-attention post engine — auto-detects jack type, researches entity, produces platform-native content for LinkedIn, X, Substack, or email. Diandra Escobar's growth methodology made platform-agnostic."
+description: Universal borrowed-attention post engine
 ---
 
 # `/jackpost` — Universal Borrowed-Attention Engine

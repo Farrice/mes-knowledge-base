@@ -1,5 +1,5 @@
 ---
-description: "Identify and validate the repeatable tangible asset for any newsletter concept"
+description: Identify and validate the repeatable tangible asset
 ---
 
 # Tangible Faucet

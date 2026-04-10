@@ -1,5 +1,5 @@
 ---
-description: Quick ASCII wireframe generation and iteration for any visual asset — the universal pre-flight for all design work
+description: The universal pre-flight for all design work
 ---
 
 # /wireframe — Visual Pre-Flight

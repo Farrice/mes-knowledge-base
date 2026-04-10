@@ -1,5 +1,5 @@
 ---
-description: Build a systematic competitive intelligence system — database, trend scanning, opportunity mapping — for data-driven content strategy
+description: Systematic competitive intelligence system
 ---
 
 # /competitor-content-spy — Competitive Content Intelligence

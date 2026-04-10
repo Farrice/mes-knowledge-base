@@ -1,5 +1,5 @@
 ---
-description: Run the AI Slop Detector as a final pass on any content — catches vocabulary kills, em-dash overuse, structural tropes, rhythm uniformity, and emotional tells
+description: AI Slop Detector as a final
 ---
 
 # AI Slop Detection Pass

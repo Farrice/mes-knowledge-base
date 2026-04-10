@@ -1,5 +1,5 @@
 ---
-description: Generate 30+ fascination bullets from a product's feature/benefit list
+description: Generate 30+ fascination bullets
 ---
 
 # Fascination Bullet Factory

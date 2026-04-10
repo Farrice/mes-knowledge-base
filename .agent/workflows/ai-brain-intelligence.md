@@ -1,5 +1,5 @@
 ---
-description: Design the Intelligence & Automation Engine — data integration, morning briefs, and automation roadmap
+description: Design the Intelligence & Automation Engine
 ---
 
 # /ai-brain-intelligence — Intelligence & Automation Engine

@@ -1,5 +1,5 @@
 ---
-description: "Dissolve hardened audience beliefs using backward-dissolution proof sequences — attack foundational observations first, reframe identity last"
+description: Dissolve hardened audience beliefs using backward-dissolution proof sequences
 ---
 
 # Belief Dissolution Engine

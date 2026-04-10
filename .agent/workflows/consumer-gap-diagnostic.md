@@ -1,5 +1,5 @@
 ---
-description: Run the Consumer Posture Gap Diagnostic — audit what a brand doesn't know about its consumer
+description: Consumer Posture Gap Diagnostic
 ---
 
 # /consumer-gap-diagnostic — Consumer Understanding Audit

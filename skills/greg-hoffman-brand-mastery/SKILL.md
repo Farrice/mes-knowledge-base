@@ -21,7 +21,7 @@ Hoffman doesn't theorize about brands — he built one of the most iconic brands
 | # | Workflow | Produces | Use When |
 |---|---------|----------|----------|
 | 01 | [Brand Arena Builder](workflows/01-brand-arena-builder.md) | Complete brand foundation (Seen→Felt→Proven audit, Functional Purity, Brand Franchises) | Starting a new brand, repositioning, or auditing personal brand foundations |
-| 02 | [Campaign Architecture Engine](workflows/02-campaign-architecture-engine.md) | Multi-dimensional campaign plan with insight-driven storytelling | Planning any campaign, content strategy, or launch — for self or clients |
+| 02 | [Campaign Architecture Engine](workflows/02-campaign-architecture-engine-v2.md) | Multi-dimensional campaign plan with Emotional Specificity Engine + insight-driven storytelling | Planning any campaign, content strategy, or launch — for self or clients |
 | 03 | [Creative Culture Diagnostic](workflows/03-creative-culture-diagnostic.md) | Innovation capacity assessment + prescriptions across 5 dimensions | When creative output feels stale, mediocre, or template-driven |
 | 04 | [Emotional Value Architect](workflows/04-emotional-value-architect.md) | Product/offer emotional positioning with Edition-Based Storytelling and Club architecture | Launching products, designing offers, building community |
 | 05 | [Taste Development System](workflows/05-taste-development-system.md) | Personalized taste-training plan with immersion, proximity, and curiosity systems | Personal brand elevation, creative skill development, team taste training |

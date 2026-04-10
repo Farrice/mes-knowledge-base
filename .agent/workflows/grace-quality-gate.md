@@ -1,5 +1,5 @@
 ---
-description: "Pre-publish quality gate — bar-raising audit + emotional residue check + slop check + niche precision verification"
+description: Pre-publish quality gate
 ---
 
 # /grace-quality-gate

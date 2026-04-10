@@ -1,5 +1,5 @@
 ---
-description: Transform any existing copy (landing page, email, pitch, bio) into StoryBrand-structured narrative using the 7-element formula. Instant upgrade for any underperforming text.
+description: Transform any existing copy
 ---
 
 # /storybrand-copy — Narrative Copy Transformer

@@ -1,5 +1,5 @@
 ---
-description: "Productize the newsletter flywheel as a bolt-on service with SOW, pricing, and delivery SOP"
+description: Productize the newsletter flywheel as a bolt-on service
 ---
 
 # Newsletter Service Pack

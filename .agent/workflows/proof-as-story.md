@@ -1,5 +1,5 @@
 ---
-description: "Turn dry proof into compelling narrative — case study narratives, origin stories, and experiential proof written as stories where proof IS the plot"
+description: Turn dry proof into compelling narrative
 ---
 
 # Proof as Story

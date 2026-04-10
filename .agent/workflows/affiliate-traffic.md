@@ -1,5 +1,5 @@
 ---
-description: Generate a complete multi-channel traffic strategy for affiliate offers across long-form, short-form, and parasite SEO
+description: Complete multi-channel traffic strategy
 ---
 
 # Affiliate Traffic Engine

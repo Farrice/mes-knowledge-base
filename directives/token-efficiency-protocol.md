@@ -109,15 +109,44 @@ Key principle: Don't read full skill files until you need them. Use invocation c
 
 ---
 
-## Token Budget Guidelines
+## Rule 5: Chain Step Internalization
 
-| Operation | Token Budget | Enforcement |
-|-----------|-------------|-------------|
-| System prompt (CLAUDE.md/AGENTS.md/GEMINI.md) | ~750 tokens | Slimmed from ~5,700 — uses on-demand directive pointers |
-| Skill invocation (per expert) | ~500 tokens | Use invocation card first |
-| Workflow chain step | ~2,000 tokens | Use handoff summaries |
-| Research output | ~5,000 tokens | Summarize before injecting into next step |
-| Sub-agent handoff | ~300 tokens | Structured JSON, not prose |
+**Steps 1-3 of The Chain should be executed in-head, not via file reads.**
+
+| Step | Old Behavior | New Behavior | Savings |
+|------|-------------|--------------|---------|
+| 1. SCORE | Read intent-pipeline.md | Internalized formula | ~500 tokens |
+| 2. SHARPEN | Read intent-pipeline.md Stage 2 | Ask directly if needed | ~500 tokens |
+| 3. ROUTE | Read DOMAIN_REGISTRY.md + invocation-cards.md | Internalized for known domains | ~1,200 tokens |
+
+Total per-request savings: **~2,200 tokens** for routine tasks.
+
+### Known Domain Routes (Internalized)
+
+| Domain | Expert | No file read needed |
+|--------|--------|-------------------|
+| LinkedIn | Lara Acosta | ✅ |
+| Copywriting | Luke Iha | ✅ |
+| SEO | Nathan Gotch | ✅ |
+| Brand Strategy | Oren / Grace | ✅ |
+| Ghostwriting | Nicolas Cole | ✅ |
+| Content Psychology | Kallaway | ✅ |
+| Consumer Posture | Dai Media | ✅ |
+| Agentic Workflows | Nick Saraev | ✅ |
+
+For ambiguous or multi-domain requests, read `DOMAIN_REGISTRY.md` + `invocation-cards.md` as before.
+
+---
+
+## Rule 6: Hot Context Cache
+
+**Don't re-read expert files already loaded in the current conversation.**
+
+| Scenario | Action | Savings |
+|----------|--------|---------|
+| Expert loaded at Tier 1, same task arrives | Skip all reads (Hot) | ~1,350 tokens |
+| Expert hot at Tier 1, Tier 2 needed | Read only genius.md (incremental) | ~1,350 tokens |
+| Expert hot at Tier 2, any task arrives | Skip all reads (Hot) | ~2,550 tokens |
 
 ---
 
@@ -130,6 +159,9 @@ Key principle: Don't read full skill files until you need them. Use invocation c
 | Manually count files and cross-check registries | Run validation scripts |
 | Load all 86 agents' keywords for every request | Use tiered routing (quick-ref → search → index) |
 | Carry raw research data into content creation steps | Summarize findings, cite only actionable insights |
+| Re-read SKILL.md for the same expert twice in one conversation | Check Hot Context Stack first (~1,350 tokens saved) |
+| Read intent-pipeline.md to score a routine request | Internalized formula: +1 per DICE dimension |
+| Read DOMAIN_REGISTRY.md for LinkedIn/Copywriting/SEO routing | Use internalized known domain routes |
 
 ---
 
@@ -143,16 +175,49 @@ This protocol fires **alongside** (not instead of):
 
 ---
 
+## Rule 7: System Prompt Hygiene
+
+**The system prompt (AGENTS.md + GEMINI.md + workflow list) is injected into EVERY message. Bloat here is the most expensive kind — it compounds on every single turn.**
+
+### Limits
+- **Workflow descriptions**: ≤8 words. The model needs a routing hint, not a sentence.
+- **AGENTS.md + GEMINI.md combined**: Target < 12,000 chars. Currently ~9,300 + ~1,500 = ~10,800.
+- **No duplication between AGENTS.md and GEMINI.md**. If it's in AGENTS.md, don't repeat it in GEMINI.md.
+- **Workflow count**: If workflows exceed 400, audit for dormant/redundant ones quarterly.
+
+### Why This Matters
+- 416 workflows × ~140 chars each = ~58K chars injected per message
+- Gemini models crash at `could not convert a single message before hitting truncation` when system prompt exceeds their budget
+- Claude tolerates it (200K+ context) but still wastes tokens on every turn
+
+### Audit Command
+```bash
+# Check workflow injection size
+python3 -c "
+import os, re
+d='.agent/workflows'; total=0
+for f in sorted(os.listdir(d)):
+    if f.endswith('.md'):
+        with open(os.path.join(d,f)) as fh: c=fh.read(500)
+        m=re.search(r'description:\s*(.+)',c)
+        if m: total+=len(f'- /{f[:-3]} (path): {m.group(1).strip()}')
+print(f'Workflow injection: {total} chars (~{total//4} tokens)')
+"
+```
+
+---
+
 ## Usage Tracking
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-02-27 |
-| **Activation Count** | 1 |
-| **30-Day Review Date** | 2026-03-29 |
-| **Status** | **ACTIVELY ENFORCED** — Context Engine integration |
+| **Last Activated** | 2026-04-03 |
+| **Activation Count** | 2 |
+| **30-Day Review Date** | 2026-05-03 |
+| **Status** | **ACTIVELY ENFORCED** — System Prompt Hygiene added |
 
 ---
 
-*Created: 2026-02-18 | Updated: 2026-02-27 (Context Engine — ACTIVE)*
+*Created: 2026-02-18 | Updated: 2026-04-03 (Rule 7: System Prompt Hygiene — ACTIVE)*
 *Classification: Mandatory Optimization Protocol*
+

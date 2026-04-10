@@ -1,5 +1,5 @@
 ---
-description: "Manage the client relationship progression from trial to autonomous publishing"
+description: Manage the client relationship progression
 ---
 
 # /trust-ladder — Trust Ladder Navigator

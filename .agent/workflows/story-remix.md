@@ -1,5 +1,5 @@
 ---
-description: "Deploy the same story across multiple formats without repetition fatigue"
+description: Deploy the same story
 ---
 
 # /story-remix — Story Remix Engine

@@ -1,5 +1,5 @@
 ---
-description: "Landing recognizable brand clients for portfolio halo effect — brand identification, free pitch framework, name-drop leverage"
+description: Landing recognizable brand clients for portfolio halo effect
 ---
 
 ## Workflow: Blue-Chip Client Strategy

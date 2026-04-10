@@ -1,5 +1,5 @@
 ---
-description: "Score any ghostwritten content against voice fidelity markers — find and fix every voice break"
+description: Score any ghostwritten content against voice fidelity markers
 ---
 
 # /voice-audit — Voice Accuracy Audit

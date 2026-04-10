@@ -1,5 +1,5 @@
 ---
-description: Turn any expert video, article, or course into a reusable AI coaching prompt using Dan Koe's three-stage Knowledge Alchemy Pipeline
+description: Turn any expert video, article, or course
 ---
 
 # /knowledge-alchemy — Expert Content → AI Coaching Prompt

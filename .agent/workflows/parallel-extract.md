@@ -1,5 +1,5 @@
 ---
-description: Run 2-5 extractions in parallel using sub-agents — each processes a different source simultaneously
+description: Run 2-5 extractions in parallel using sub-agents
 ---
 
 # /parallel-extract — Parallel Extraction Swarm

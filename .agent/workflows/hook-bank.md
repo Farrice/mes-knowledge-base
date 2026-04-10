@@ -1,5 +1,5 @@
 ---
-description: Hook Bank Builder — systematically collect and adapt hooks from organic viral content for ad creation
+description: Hook Bank Builder
 ---
 
 ## Workflow: Hook Bank Builder

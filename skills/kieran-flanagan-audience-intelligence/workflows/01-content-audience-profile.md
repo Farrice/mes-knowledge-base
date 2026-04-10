@@ -51,7 +51,38 @@ Build the "what works" profile.
 - **Length Sweet Spot**: What content length performs best on this platform?
 - **Timing Signals**: Any day/time patterns in performance data?
 
-### Phase 5: Profile Assembly
+### Phase 5.5: Purchase Decision Trigger Layer
+Segment the audience by BUYING BEHAVIOR, not just engagement behavior. Within every engaged audience, there are distinct purchase psychologies. This phase identifies them.
+
+**Step 1: Behavioral Segmentation by Commercial Intent**
+Classify audience members into three cohorts based on observable signals:
+- **Buyers** — People who DM, click sales links, ask "how do I work with you?", request pricing, share with a specific person ("my business partner needs to see this"). Signal: ACTION toward transaction.
+- **Amplifiers** — People who share, tag others, comment publicly, repost. High engagement but no purchase intent. Signal: SOCIAL CURRENCY extraction (sharing makes THEM look smart/helpful).
+- **Lurkers-to-Buyers** — Silent consumers who suddenly purchase. No prior engagement visible. Signal: PRIVATE consumption patterns (saves, link clicks, repeated profile visits).
+
+**Step 2: Purchase Trigger Identification**
+For each buyer cohort, map the specific psychological trigger that converts attention to purchase:
+- **Situational Catalyst**: What external event creates purchase urgency? (Lost a client, got passed over, competitor launched content, hit a revenue ceiling, had an embarrassing visibility failure)
+- **Belief Threshold**: What belief must be in place before purchase feels safe? ("This person understands MY specific situation," "This won't make me look fake," "The ROI is concrete, not aspirational")
+- **Permission Structure**: What gives them permission to invest? (Spouse approval, seeing a peer do it, a specific price-to-outcome ratio, a risk reversal)
+- **Cost-of-Inaction Crystallization**: At what point does NOT buying become more painful than buying? Map the specific moment this tips.
+
+**Step 3: Messaging-to-Segment Prediction Matrix**
+For each segment, predict which messaging approach triggers purchase behavior:
+- **Impulse Buyers** (high trust, low analysis): Social proof + urgency + low-friction entry point
+- **Analytical Buyers** (high analysis, trust-building required): Case studies + ROI frameworks + cost-of-inaction math
+- **Identity Buyers** (purchase = identity statement): Permission narratives + peer modeling + "people like us do this"
+- **Pain-Threshold Buyers** (purchase only when pain peaks): Situational catalyst content + "you're here because X just happened" recognition moments
+
+**Step 4: Content-to-Commerce Bridge Map**
+Identify which content types move each segment toward purchase:
+- Which posts generate DMs vs. shares vs. saves? (Different commercial signals)
+- What content sequence precedes a purchase? (The 3-5 posts someone consumes before buying)
+- Where does the audience DROP from engagement to purchase? (The specific friction point in the journey)
+
+> **Quality Gate Addition**: The **Purchase Prediction Test** — Can this profile predict which of 10 new audience members will buy within 90 days, based on their engagement pattern? If the profile can only describe WHO engages but not WHO buys, it fails this test.
+
+### Phase 6: Profile Assembly
 Compile into a structured, deployable audience profile.
 
 ---
@@ -64,8 +95,9 @@ The user will receive a **Content-Reactive Audience Profile** containing:
 4. **Emotional Profile** — What drives engagement (aspiration, validation, fear, curiosity)
 5. **Content Reactivity Map** — Topics, formats, hooks, and lengths that win
 6. **Vocabulary Library** — USE words, AVOID words, Identity words
-7. **Content Strategy Implications** — What to create more of, what to stop creating
-8. **Update Triggers** — When to refresh this profile (monthly, quarterly, or after significant audience shift)
+7. **Purchase Decision Trigger Map** — Buyer segments, purchase triggers, messaging-to-segment predictions, content-to-commerce bridge
+8. **Content Strategy Implications** — What to create more of, what to stop creating
+9. **Update Triggers** — When to refresh this profile (monthly, quarterly, or after significant audience shift)
 
 ## Quality Gate
 1. **The Reactivity Test**: Is every claim in this profile supported by actual content performance data, not assumptions?
@@ -73,6 +105,7 @@ The user will receive a **Content-Reactive Audience Profile** containing:
 3. **The Actionability Test**: Can a content creator read this profile and immediately know what to create next?
 4. **The Anti-Persona Test**: Does this profile describe behavior and engagement, not demographics and fictional day-in-the-life stories?
 5. **The Living Document Test**: Are there clear "update triggers" that tell the creator when this profile needs refreshing?
+6. **The Purchase Prediction Test**: Can this profile predict which audience members will BUY, not just engage? If the profile describes who reads but not who reaches for their wallet, it fails.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

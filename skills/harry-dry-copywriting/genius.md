@@ -227,3 +227,13 @@ Constantly collects 3/3 ads—copy that passes all three rules. This personal re
 | **Conflict Architecture**     | Flat, descriptive; lacks any inherent tension or opposition.                        | Some implicit tension, but not clearly structured around a conflict.                | Explicitly structured around a compelling conflict (e.g., before/after, problem/solution) that creates narrative momentum. |
 | **Word Economy (Kaplan's Law)** | Contains filler words, redundancies, or words that don't add value.                 | Mostly concise, but a few words could be trimmed without loss of meaning.           | Every single word is essential, actively contributing to meaning or rhythm. No neutral words remain.                 |
 | **Paragraph Constraint**      | Frequent paragraphs exceeding two lines, indicating underdeveloped clarity.         | Mostly adheres to two-line maximum, with occasional slips.                          | Strict adherence; every paragraph is two lines or less, forcing maximum conciseness and impact.                     |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Landing Page Blueprint: Moment-of-Encounter Simulation
+- **Hypothesis**: Adding a reader-state reconstruction step (Phase 2.5) that simulates the exact emotional moment the reader encounters the headline would produce copy that names PRIVATE frustrations rather than CATEGORY benefits.
+- **Result**: KEPT — Conflict Architecture jumped 7→9, Uniqueness 8→9. Variant headlines ("Your ideas are already getting likes. Just on someone else's page.") hit identity-level recognition vs. control's benefit statements ("You coach athletes. We make athletes find you.").
+- **Change**: Added Phase 2.5 (Moment-of-Encounter Simulation) with arrival path mapping, interrupted task context, recent failure recall, internal monologue reconstruction, and stop-scroll trigger identification.
+- **Lesson**: Headlines that name what someone privately thinks but would never say out loud have 10x the stopping power of headlines that name a benefit they'd agree with publicly. The Encounter Simulation forces this specificity.

@@ -1,5 +1,5 @@
 ---
-description: Convert MES 3.0 extractions to completion-engine skills with end-to-end workflows
+description: Convert MES 3.0 extractions to completion-engine skills
 ---
 
 # /convert-extraction Workflow (v2.0 — Completion Engine)

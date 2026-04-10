@@ -1,5 +1,5 @@
 ---
-description: "Grace → Copy pipeline — convert city strategy into executable copy via Cardinal Mason, Luke Iha, and Lara Acosta"
+description: Grace → Copy pipeline
 ---
 
 # /grace-to-copy — Strategy to Copy Pipeline

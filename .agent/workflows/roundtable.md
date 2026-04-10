@@ -1,5 +1,5 @@
 ---
-description: Convene an AI expert roundtable — auto-selects 3-5 agents to analyze a topic from multiple perspectives and produce consensus recommendations
+description: Convene an AI expert roundtable
 ---
 
 # `/roundtable` — AI Expert Roundtable

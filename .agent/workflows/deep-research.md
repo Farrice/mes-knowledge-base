@@ -1,5 +1,5 @@
 ---
-description: "Deep Research — Perplexity Deep Research foundation + 3 grounded parallel specialist agents + adversarial challenge + McKinsey-grade strategic intelligence report"
+description: Deep Research
 ---
 
 # /deep-research — Deep Research

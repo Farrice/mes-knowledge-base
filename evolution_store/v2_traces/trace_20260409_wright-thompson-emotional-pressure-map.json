@@ -1,0 +1,29 @@
+{
+  "trace_id": "20260409_evo_wright_thompson",
+  "timestamp": "2026-04-09T14:00:00.000000",
+  "component": "wright-thompson-mastery",
+  "operation": "skill_evolution",
+  "expert": "wright-thompson",
+  "workflow": "emotional-pressure-map",
+  "evolution": {
+    "type": "new_workflow",
+    "aspect": "Emotional Pressure Mapping — section-by-section emotional dynamics orchestration",
+    "hypothesis": "Adding a deliberate pressure curve design step (between Hammer-First outline and production) will produce longform output that crescendos rather than flatlines, by mapping pressure levels, carry mechanisms, and false rests across sections",
+    "benchmark_task": "Write a 200-word longform opening about the Invisible Expert phenomenon using Wright Thompson principles",
+    "baseline_composite": 6.8,
+    "variant_composite": 8.4,
+    "delta": 1.6,
+    "strongest_improvement": "Structural Inevitability (+2) and Emotional Residue (+2)",
+    "key_mechanism": "False rest — a section that appears to release pressure but loads a subsurface detonator, creating contrast that makes the next peak hit harder",
+    "verdict": "KEEP",
+    "promoted": true
+  },
+  "quality": {
+    "composite": 8.4,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "notes": "First evolution of wright-thompson-mastery. New cognitive layer: Emotional Pressure Map. Fills gap between Hammer (endpoint) and Residue (aftermath) — the GRADIENT across sections. Strictly additive: 1 new workflow, SKILL.md updated with workflow registration + stacking guide + deployment trigger. No genius.md modifications.",
+  "is_failure": false
+}

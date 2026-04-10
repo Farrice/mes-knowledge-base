@@ -1,5 +1,5 @@
 ---
-description: Structure content as a trust transaction — promise, deliver, compound. The anti-hack content engine.
+description: Structure content as a trust transaction
 ---
 
 # /promise-payoff — Promise-Payoff Content Engine

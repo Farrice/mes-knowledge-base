@@ -1,0 +1,10 @@
+{
+  "variant": "003",
+  "metrics": {
+    "size_bytes": 956,
+    "line_count": 21,
+    "clarity_score": 9,
+    "rule_integrity": 10
+  },
+  "notes": "Maximal compression. Condensed the modular rules list into a single comma-separated inline reference. Preserved all critical constraints. Size reduced to 956 bytes (899 bytes saved vs baseline, almost a 50% reduction!)."
+}

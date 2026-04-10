@@ -1,5 +1,5 @@
 ---
-description: Map platforms to distinct purposes and design a content format strategy using Caleb Ralston's Accordion Method and platform purpose separation
+description: Map platforms to distinct purposes and design
 ---
 
 # /caleb-format-strategy — Content Format Strategy Engine

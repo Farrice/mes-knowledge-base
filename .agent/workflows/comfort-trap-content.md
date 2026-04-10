@@ -1,5 +1,5 @@
 ---
-description: Audit any content for invisible zone signals — diagnose forgettable content using Placek's comfort trap framework and prescribe tension-zone rewrites
+description: Audit any content for invisible zone signals
 ---
 
 # `/comfort-trap-content` — Content Differentiation Audit

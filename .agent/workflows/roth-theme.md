@@ -1,5 +1,5 @@
 ---
-description: Theme Compass for content strategy — thematic coherence across any content series
+description: Theme Compass for content strategy
 ---
 
 # Roth Theme Compass for Content Strategy

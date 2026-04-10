@@ -1,5 +1,5 @@
 ---
-description: Build a complete funnel from LinkedIn audience segmentation to a $5K+ cohort sales pitch — high-ticket monetization system
+description: Complete funnel
 ---
 
 # High-Ticket Cohort Launch Funnel

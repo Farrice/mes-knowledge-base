@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/adversarial-review.md` — Stress-test deliverables with Scorer + Critic agent pair before shipping

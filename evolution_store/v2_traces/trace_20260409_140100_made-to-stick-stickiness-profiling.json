@@ -1,0 +1,30 @@
+{
+  "trace_id": "20260409_140100",
+  "timestamp": "2026-04-09T14:01:00.000000",
+  "component": "made-to-stick-messaging",
+  "operation": "skill_evolution",
+  "expert": "dan-chip-heath",
+  "workflow": "success-content-architecture",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "First evolution of made-to-stick-messaging. Added Audience Stickiness Profiling (Pattern 11 in genius.md + Phase 0 in success-content-architecture.md). Diagnoses audience Primary Stick, Secondary Stick, Resistance Dimension, and Dormant Dimension before executing SUCCESs — reorders framework execution for maximum adhesion. Baseline scored 6.1 on S&C coaches benchmark (uniform SUCCESs led with wrong dimensions); variant scored 8.3 (+2.2). Largest gains: Concreteness +2, Identity +4, Credibility +3. Strictly additive — new pattern in genius.md, new Phase 0 in workflow. Zero existing content modified.",
+  "context": {
+    "output": "Pattern 11: Audience Stickiness Profiling added to genius.md. Phase 0 added to success-content-architecture.md. 5 audience archetype profiles (Practitioners, Executives, Consumers, Creators, Skeptics) with Primary/Secondary/Resistance mapping.",
+    "task_type": "System",
+    "experiment_tag": "evolution-v2",
+    "evolution": {
+      "baseline_workflow": "success-content-architecture",
+      "baseline_score": 6.1,
+      "variant_score": 8.3,
+      "delta": 2.2,
+      "result": "KEPT",
+      "benchmark_task": "Create a sticky message for Authority Flywheel that S&C coaches remember and repeat to peers"
+    }
+  },
+  "is_failure": false
+}

@@ -1,5 +1,5 @@
 ---
-description: Run a "Search Gap" analysis to find low-competition keywords (Spy Tool).
+description: "Search Gap" analysis to find low-competition
 ---
 
 1. Ask the user for the **Target Keyword** or **Niche + City** (e.g., "Roofing in Denver").

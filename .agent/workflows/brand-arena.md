@@ -1,5 +1,5 @@
 ---
-description: Build a complete brand foundation using Greg Hoffman's Nike methodology — Seen→Felt→Proven audit, Self-Reflection Brand Question, Functional Purity diagnosis, and Brand Franchise naming
+description: Complete brand foundation
 ---
 
 # /brand-arena

@@ -35,6 +35,16 @@ Using the "Past-Self Targeting" pattern, excavate the specific human being the u
 - **Belief Mapping**: Identify the false assumptions and "mainstream lies" keeping the past-self stuck.
 - **The Gap**: Define exactly what the user wished existed when they were struggling.
 
+### Phase 2.5: Convergence Inevitability Architecture
+Engineer how the audience experiences the synthesis — making diverse interests feel irreducible rather than additive. The goal: an outsider cannot imagine removing ANY interest without the whole thing collapsing.
+
+- **Dependency Mapping**: For each interest pair, articulate what insight or capability ONLY exists at their intersection. Not "I do X and Y" but "X is what makes my Y impossible to replicate." (e.g., "S&C coaching gives me periodization thinking — the same structure that makes my content systems compound instead of plateau.")
+- **Removal Test**: For each interest, answer: "If I removed this, what specific capability would the audience lose that they can't get anywhere else?" If the answer is "nothing changes," the interest is decoration, not load-bearing. Cut it from the positioning or find its structural role.
+- **Origin Story Convergence**: Identify the single moment, problem, or realization where the interests FIRST collided in practice (not in theory). This is the "proof of inevitability" — the moment where the person didn't choose to combine interests; reality forced the combination. Frame this as the origin myth.
+- **Audience Translation Formula**: Convert the internal logic ("I see connections between X and Y") into audience-facing value ("The reason your [problem] keeps recurring is that everyone solving it only understands [one domain]. I see the [hidden variable] because I live in both.")
+
+> **Diagnostic**: If the convergence can be explained as "I'm interested in many things," Phase 2.5 has failed. The output must make each interest feel like a REQUIREMENT for the others to function.
+
 ### Phase 3: Personal Monopoly Moat Construction
 Synthesize the Skill Stack, Worldview, and Story into a defensible market position.
 - **The Inversion Principle**: Flip conventional wisdom in the user's domain to create cognitive dissonance. (e.g., "Why your 'great salary' is keeping you poor").
@@ -68,6 +78,7 @@ The user receives a **Personal Monopoly Brand Strategy** (.md) including:
 2. **The "Past-Self" Resonance**: Does the avatar profile feel like a visceral diary entry or a generic marketing persona? (It must feel "too personal").
 3. **The "Multi-Passionate" Integrity**: Does the vessel actually hold ALL the user's listed interests, or does it force them to "niche down" and abandon parts of themselves?
 4. **Idea Density**: Does the strategy use Dan Koe's terminology (Vessel, Agency, Sovereignty, Eternal Markets) to create high-insight-per-word density?
+5. **Convergence Inevitability**: Does the positioning make each interest feel structurally necessary — not just present? Can the reader articulate why removing any single domain would break the value proposition?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

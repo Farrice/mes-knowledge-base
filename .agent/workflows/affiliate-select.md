@@ -1,5 +1,5 @@
 ---
-description: Select optimal affiliate programs for any niche with commission analysis, risk filtering, and join strategy
+description: Select optimal affiliate programs
 ---
 
 # Affiliate Program Selector

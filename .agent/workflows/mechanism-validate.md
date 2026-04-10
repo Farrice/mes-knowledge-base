@@ -1,5 +1,5 @@
 ---
-description: Validate mechanism candidates via SIN score, triangle test, and competitive uniqueness
+description: Validate mechanism candidates
 ---
 
 # Mechanism Validator

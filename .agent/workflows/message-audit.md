@@ -1,5 +1,5 @@
 ---
-description: Audit any business's messaging against all 7 StoryBrand elements. Produces a scored diagnostic report with prioritized fix recommendations and example copy.
+description: Audit any business's messaging against all 7 StoryBrand
 ---
 
 # /message-audit — StoryBrand Messaging Audit

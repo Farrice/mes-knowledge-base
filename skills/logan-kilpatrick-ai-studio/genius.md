@@ -52,3 +52,15 @@
 | **Use-Case Practicality** | The solution addresses a general problem, but its real-world application or immediate value is somewhat vague. | The solution addresses a clear problem, and its practical application is evident. | The solution solves a clearly defined, high-value real-world problem, providing immediately actionable steps and a tangible benefit that can be implemented and validated directly within Google AI Studio. |
 | **Error Diagnosis & Resolution** | Common errors are mentioned, but troubleshooting steps are generic. | Specific errors are identified, and some practical solutions are offered within the Studio context. | Output anticipates common Google AI Studio-specific errors (e.g., API key issues, prompt parsing failures, model limitations) and provides a structured diagnostic workflow with precise, Studio-native resolution steps and examples. |
 | **Clarity of Studio Workflow** | Steps are described, but a user might need to guess how to navigate or interact with specific Studio elements. | Workflow steps are mostly clear, with some guidance on Studio navigation. | Every step of the Google AI Studio workflow is explicitly articulated and visually guided, making the process frictionless and immediately reproducible for any user, regardless of prior Studio experience. |
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Demand Signal Extraction (Phase 0) Added to Rapid Prototyping
+- **Hypothesis**: Adding pre-build demand validation prevents building AI products nobody wants. Phase 0 extracts problem reconstruction, existing alternative audit, feature demand hierarchy, and viability verdict before any code.
+- **Result**: KEPT — Score improved from 3.7 to 8.3 (+4.6)
+- **Change**: New Phase 0 inserted before all existing phases in rapid-visual-prototyping-vibe-coding.md. Problem Reconstruction (who/when/what/how much), Existing Alternative Audit (free/paid/good-enough threshold), Feature Demand Hierarchy (hair-on-fire/nice-to-have/demo candy), Viability Verdict (BUILD/VALIDATE FIRST/PAUSE). Demand Validation Gate added to Quality Gate. Phase 0 Integration added to Step 1.
+- **Benchmark scores**: Baseline [3, 5, 3] → Variant [9, 8, 8]
+- **Lesson**: The largest delta in evolution history (+4.6) because baseline workflow had zero validation capability — it was a pure build tool applied to a "should I build?" question. AI product skills need demand extraction as standard equipment.

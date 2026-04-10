@@ -1,5 +1,5 @@
 ---
-description: Debug creative blocks, suffering, and internal conflicts by tracing them to their generators using Joscha Bach's consciousness debugging model
+description: Debug creative blocks, suffering, and internal conflicts
 ---
 
 # Consciousness Debug

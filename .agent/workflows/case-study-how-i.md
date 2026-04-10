@@ -1,5 +1,5 @@
 ---
-description: "Convert tracked results into compelling 'How I' narrative case studies with before/intervention/iterations/results structure"
+description: Convert tracked results
 ---
 
 ## Workflow: Case Study Architect

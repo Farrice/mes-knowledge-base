@@ -1,5 +1,5 @@
 ---
-description: Write a complete VSL lead (micro lead + body + fascinations + close) for any offer
+description: Complete VSL lead for any offer
 ---
 
 # VSL Lead Writer

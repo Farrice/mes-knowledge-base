@@ -1,5 +1,5 @@
 ---
-description: Design multi-dimensional campaigns using Greg Hoffman's Overground/On-the-Ground/Underground framework with insight-driven storytelling
+description: Design multi-dimensional campaigns
 ---
 
 # /campaign-architect

@@ -1,5 +1,5 @@
 ---
-description: "Episodic content series from topic — Research → Series Arc → Episode Plans → Hook Engineering → Production Calendar"
+description: Episodic content series from topic
 ---
 
 # /grace-content-series — Episodic Content Series Builder

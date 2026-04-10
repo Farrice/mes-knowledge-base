@@ -1,5 +1,5 @@
 ---
-description: "Pair newsletter output with LinkedIn/ghostwriting proof — cross-platform amplification"
+description: Pair newsletter output with LinkedIn/ghostwriting proof
 ---
 
 # Newsletter Social Proof

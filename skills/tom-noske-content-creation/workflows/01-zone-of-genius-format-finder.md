@@ -76,6 +76,44 @@ Design the specific content format that eliminates all five gaps. Be concrete �
 - **Dream client alignment**: [How this naturally attracts the right people]
 - **Moat created**: [Why no competitor can replicate this]
 
+### Phase 4.5: Creative Energy Allocation Map
+
+Once the format is defined, diagnose WHERE within a single creation session the creator should invest peak creative energy — and where they should deliberately coast. Most creators spread energy evenly across all phases of creation, which means their highest-leverage moments get the same investment as their lowest. This is the micro-complement to GP-3 (Effort Topology): GP-3 maps the macro journey across months; this maps the energy landscape within a single session.
+
+**The Energy Triage Principle**: In any content format, only 2-3 moments carry disproportionate weight. Everything else is connective tissue. Identify the load-bearing moments, pour energy there, and deliberately under-invest everywhere else.
+
+**Step 1: Moment Mapping**
+
+For the creator's identified format, map every phase of a single creation session and classify each:
+
+| Creation Phase | Energy Classification | Rationale |
+|---------------|----------------------|-----------|
+| ? | **PEAK** — Full creative investment | This moment IS the content. Quality here = quality everywhere. |
+| ? | **CRUISE** — Functional execution only | Necessary but not differentiating. Good enough IS good enough. |
+| ? | **COAST** — Minimal viable effort | Audience barely registers this. Over-investing here is energy theft from PEAK moments. |
+
+**Classification rules:**
+- **PEAK moments** are where the creator's zone of genius is most visible to the audience. For a coach recording client calls, PEAK = the moment of insight delivery. For a writer, PEAK = the core argument paragraph. For a video creator, PEAK = the first 8 seconds and the payoff moment.
+- **CRUISE moments** are structurally necessary but interchangeable. Transitions, context-setting, standard formatting. Competent execution is enough.
+- **COAST moments** are invisible labor the audience never rewards. Thumbnail tweaking, description optimization, hashtag selection, minor audio cleanup. Delegate, template, or skip entirely.
+
+**Step 2: Energy Budget**
+
+Assign a concrete time/energy allocation based on the map:
+
+```
+Total creation session: [X] minutes
+├── PEAK moments: 60-70% of creative energy → [X] minutes
+├── CRUISE moments: 20-25% → [X] minutes  
+└── COAST moments: 5-15% → [X] minutes (or delegate entirely)
+```
+
+**The Anti-Pattern**: If a creator is spending more than 20% of their energy on COAST activities, they are subsidizing invisible work at the expense of visible quality. This is the hidden reason "high effort" content often feels flat — the effort went to the wrong places.
+
+**Step 3: Pre-Session Energy Priming**
+
+Before each creation session, the creator answers ONE question: "What is the PEAK moment in this piece?" This primes creative focus. Everything else becomes permission to be rough, fast, and imperfect — because the energy is being saved for the moment that matters.
+
 ### Phase 5: Shield Removal Protocol
 
 Identify 3-5 specific things the creator should STOP doing, with rationale from HK-4:
@@ -93,8 +131,9 @@ The deliverable is a **Content Format Blueprint** containing:
 2. Current format audit with gap analysis
 3. Effort topology position and trajectory
 4. Specific format blueprint (capture method, cadence, editing, publishing)
-5. Shield removal protocol (3-5 behaviors to stop)
-6. First-week action plan (what to do Monday)
+5. Creative energy allocation map (PEAK/CRUISE/COAST classification + energy budget + pre-session prime)
+6. Shield removal protocol (3-5 behaviors to stop)
+7. First-week action plan (what to do Monday)
 
 ---
 
@@ -105,6 +144,8 @@ Before finalizing, validate:
 - [ ] Could someone replicate this content by hiring a substitute? (must be NO)
 - [ ] Does it naturally demonstrate authority without performing authority?
 - [ ] Does it speak directly to the creator's dream client?
+- [ ] Does the energy allocation map identify specific PEAK moments (not generic "be authentic")?
+- [ ] Is more than 60% of creative energy directed at PEAK moments?
 - [ ] Are all shield behaviors identified and addressed?
 - [ ] Is the action plan specific enough to execute Monday?
 

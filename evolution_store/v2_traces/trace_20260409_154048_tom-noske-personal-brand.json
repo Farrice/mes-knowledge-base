@@ -1,0 +1,13 @@
+{
+  "skill": "tom-noske-personal-brand",
+  "workflow": "magnetic-brand-identity-blueprint",
+  "hypothesis": "Adding Adaptive Brand Topology (Phase 3.5) — a cognitive layer for brands that evolve WITH the person — will improve the workflow's ability to handle long-term brand evolution without losing audience recognition",
+  "layer_added": "Adaptive Brand Topology: Core Invariant Extraction + Expression Frontier Mapping + Evolution Signaling Protocol + Anti-Cage Audit",
+  "benchmark_task": "Design a personal brand for Authority Flywheel that can evolve as Farrice's expertise expands",
+  "baseline_score": {"intent": 6, "expert": 7, "adversarial": 5, "composite": 6.0},
+  "variant_score": {"intent": 9, "expert": 8, "adversarial": 8, "composite": 8.3},
+  "decision": "KEEP",
+  "rationale": "Variant directly addresses evolution gap absent in baseline. Strictly additive — no existing content modified. Core invariant + expression frontier is the operational mechanism for Pattern 18 (Compounding Equity) that was previously abstract.",
+  "timestamp": "2026-04-09T15:40:48Z",
+  "cycle": "first_evolution"
+}

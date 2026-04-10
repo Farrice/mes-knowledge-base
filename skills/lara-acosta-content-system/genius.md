@@ -150,3 +150,13 @@
 | **Audience Resonance (Broad-Narrow-Niche)** | Targets only one audience segment (e.g., too broad or too niche from the start), missing the funnel. | Attempts Broad-Narrow-Niche, but the narrowing or niche content isn't sharp enough or feels forced. | Flawlessly executes Broad-Narrow-Niche, hooking masses, qualifying buyers, and delivering deep, relevant expertise without losing anyone. |
 | **Authority Positioning (Humble Brag)** | Direct boasting or generic authority claims; success announcements feel self-serving or provoke envy. | Attempts humble brag, but still centers "me" too much; achievements are mentioned but not woven in seamlessly as context. | Achievements are framed through others or as incidental context; success announcements generate goodwill and inspiration, not envy. |
 | **Visual Anchor Integration**       | No visual, or a generic stock photo that adds little to no value or scroll-stopping power. | Relevant visual present, but not a strong scroll-stopper or founder-centric, missing the high-status effect. | High-status, founder-centric visual that immediately stops the scroll and enhances the text hook, buying crucial attention.     |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Authority Strategy Blueprint: Signal-to-Pivot Feedback Loop
+- **Hypothesis**: Adding a Signal-to-Pivot layer that teaches content systems to self-correct based on audience feedback would address the #1 failure mode of content plans.
+- **Result**: KEPT — Adaptability 3→8 (+5), Week 3+ Survivability 4→8 (+4). Total 31→39/50 (+25.8%).
+- **Change**: Added Phase 5.5 (Signal-to-Pivot Architecture) with Signal Classification (6 types), 6 Adaptation Moves, One-Variable Rule, Baseline Signal Expectations, and Weekly Signal Read 5-minute ritual.
+- **Lesson**: A content system without a feedback loop is a content plan with an expiration date. The one-variable rule makes adaptation safe — without it, founders panic-pivot after one bad post and destroy what was working.

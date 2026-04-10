@@ -113,3 +113,18 @@ Patty, mid-sentence about her new gluten-free diet, paused, fork hovering over a
 | **Shame-to-Insight Conversion** | Difficult material is handled earnestly, sometimes veering into sentimentality.     | Shameful or uncomfortable truths are presented with a degree of detachment or dark humor, yielding insight.        | Transforms the most embarrassing or ugly aspects of human nature into universally relatable and often hilarious insights, using comic distance to liberate the material from sentiment. |
 | **Iron Bridge Integrity**     | Individual sections are functional but show signs of needing further revision later. | Sections are well-crafted and hold together, with minor opportunities for polish.                                  | Each page/section stands as a finished, meticulously polished work, contributing seamlessly to the whole without relying on future fixes; the narrative feels structurally robust.          |
 | **Organic Inevitability**     | Plot points feel somewhat pre-determined or occasionally coincidental.             | The plot unfolds logically from character actions, feeling mostly natural and surprising.                         | The narrative journey feels utterly surprising yet, in retrospect, completely inevitable, driven solely by the internal logic of character wants and their natural, often messy, consequences. |
+| **Flaw Load-Bearing Score**   | Character has a flaw, but the plot could proceed without it; flaw is decorative.   | Flaw drives most key decisions; removing it would weaken the story but not collapse it.                          | Every plot turn traces causally to the character's core misperception; removing the flaw collapses the entire narrative. Reader simultaneously roots for and cringes at the protagonist.    |
+
+---
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Flaw-as-Plot-Engine Cognitive Layer (KEPT)
+- **Hypothesis**: Adding a "Flaw-as-Plot-Engine" diagnostic (Phase 2.5) between Character Architecture and Want-Collision would produce characters whose psychology is structurally load-bearing rather than decorative — forcing writers to prove the causal chain from flaw to misperception to wrong decision to consequence.
+- **Result**: KEPT — Composite improved from 7.0 to 8.3 (+1.3). Biggest gain in Adversarial Resilience (+2).
+- **Change**: Added Phase 2.5 (Flaw-as-Plot-Engine Diagnostic) with 4 sub-steps: Misperception, Reasonable Wrong Choice Generator, Load-Bearing Test, Dual-Identification Setup. Added Flaw-Generated Collision to Phase 3. Added Load-Bearing Test and Dual-Identification Test to Quality Gate. Added Flaw Load-Bearing Score to rubric.
+- **Benchmark**: "150-word Invisible Expert character sketch" — Current [8,7,6]=7.0 vs Variant [9,8,8]=8.3
+- **Lesson**: The gap between "character has a flaw" and "flaw generates the plot" is where psychological precision lives. The key insight: forcing the writer to articulate the character's misperception (what they consistently get wrong about others) makes want-collisions emerge organically rather than being mapped as static attributes.

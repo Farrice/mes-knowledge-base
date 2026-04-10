@@ -1,5 +1,5 @@
 ---
-description: "Rewrite any draft with proof braided after every claim using the Siamese Twins technique — eliminate naked claims"
+description: Rewrite any draft
 ---
 
 # Proof Braid Engine

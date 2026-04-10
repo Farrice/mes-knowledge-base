@@ -1,5 +1,5 @@
 ---
-description: Engineer the invisible "it factor" in writing — the gestalt that makes people follow the WRITER, not just the information
+description: Engineer the invisible "it factor" in writing
 ---
 
 # Written Charisma Engineering

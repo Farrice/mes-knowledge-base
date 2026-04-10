@@ -1,5 +1,5 @@
 ---
-description: Analyze published content performance and propose specific improvements to audience profiles, style cards, and talking points
+description: Analyze published content performance and propose specific improvements
 ---
 
 # /content-feedback — Content Performance Feedback Loop

@@ -1,15 +1,70 @@
 ---
-description: Run at the start of every new chat to label the conversation, declare active protocols, and set the system to full operating level
+description: Run at the start of every new chat
 ---
 
 # 🚀 Session Kickoff
 
-Run this at the **start of every new conversation** (or auto-trigger when detecting a new chat). Two jobs: label the conversation for retrieval, and activate the right protocols so we're operating at system level from word one.
+Two modes: **Sport Mode** (fast, default) and **Race Mode** (full ceremony, for deep work).
 
-## Step 1: Label the Conversation
+## Mode Detection
 
 // turbo
-Read the user's first message (or the context that triggered this chat) and generate a **conversation label** — a short, descriptive title that will make this conversation findable later in the sidebar.
+Determine which mode to use:
+
+**Race Mode activates when ANY of these are true:**
+- User explicitly passes `--deep` flag
+- Request involves an `/extract` workflow
+- Request involves `/parallel-swarm`, `/swarm`, or `/deep-research`
+- Request involves client deliverable work
+- Request invokes `/big-project`
+- Complexity assessment would be Heavy (20+ tools)
+
+**Sport Mode is the default for everything else.**
+
+---
+
+## 🏎️ Sport Mode (Default — 3 Tool Calls Max)
+
+### Step 1: Label + Assess
+// turbo
+Generate a conversation label from the user's first message. Do this in-head — no file reads needed.
+
+**Format**: `[Domain] — [Specific Goal]`
+**Rules**: Max 6 words. Lead with domain.
+
+Score intent in-head using the memorized formula:
++1 Deliverable | +1 Audience | +1 Context | +1 End state | +1 Specific language
+
+### Step 2: Present Compact Kickoff
+// turbo
+Output a single compact block:
+
+```
+🏎️ Sport Mode | **[Label]** | Intent: [X/5] | Ready.
+```
+
+No protocol declarations. No system health check. No intent pipeline file read.
+
+### Step 2.5: Maintenance Pulse (Silent — 1 Read)
+// turbo
+Read `.agent/session-state.md` and check:
+- If "days since /maintenance" > 7 → append to kickoff: `⚡ /maintenance overdue`
+- If "days since /calibrate" > 30 → append: `⚡ /calibrate due`
+- If revenue-outcomes.json has 0 entries for current month → append: `⚡ /revenue-track pipeline`
+
+Only show alerts that apply. No alerts = no output. This adds zero friction when everything is current.
+
+### Step 3: Begin Work
+Proceed directly to the task. Workspace folder creation is **deferred** — it only happens when the first asset is produced (via `session_workspace.py create-if-needed`).
+
+---
+
+## 🏁 Race Mode (Full Ceremony — `--deep`)
+
+### Step 1: Label the Conversation
+
+// turbo
+Read the user's first message and generate a **conversation label**.
 
 **Format**: `[Domain] — [Specific Goal]`
 
@@ -26,9 +81,23 @@ Read the user's first message (or the context that triggered this chat) and gene
 - Be specific enough to distinguish from similar conversations
 - If the session involves multiple domains, use the primary one
 
-**Output**: State the label clearly so the user can copy it to the sidebar or so the system can auto-apply it.
+**Output**: State the label clearly so the user can copy it to the sidebar.
 
-## Step 1.5: Register in Conversation Index
+### Step 1.5: Create Session Workspace & Register
+
+// turbo
+Create the session's working directory immediately:
+
+```bash
+python3 execution/session_workspace.py create "[Domain]" "[Label]" --conv-id "[conversation-id-if-available]"
+```
+
+Capture the `SESSION_PATH` from the output. Subfolders: `assets/`, `drafts/`, `deliverables/`, `research/`.
+
+When producing an asset during the session, log it:
+```bash
+python3 execution/session_workspace.py log-asset "/path/to/file" --type "Deliverable" --desc "Description"
+```
 
 // turbo
 Update the master conversation index with this new session:
@@ -37,7 +106,7 @@ python execution/conversation_index.py update <current-conversation-id>
 ```
 This ensures this conversation is findable via `/find-context` even before the session completes.
 
-## Step 2: Detect Task Type & Complexity
+### Step 2: Detect Task Type & Complexity
 
 // turbo
 Assess the incoming request:
@@ -46,19 +115,20 @@ Assess the incoming request:
 |-------|---------|
 | **Task Type** | Creative / Research / Strategy / Build / Debug / Extraction / Multi-Domain |
 | **Complexity** | Light (1-5 tools) / Medium (5-20 tools) / Heavy (20+ tools) |
-| **Domain(s)** | Match against expert routing table in GEMINI.md |
+| **Domain(s)** | Match against expert routing table |
 
 If **Heavy** complexity → recommend `/big-project` workflow.
 
-## Step 3: Declare Active Protocols
+### Step 3: Declare Active Protocols
 
 // turbo
-Present the kickoff block:
+Present the full kickoff block:
 
 ```
-## 🚀 Session Kickoff
+## 🏁 Race Mode Session
 
 **Conversation Label**: [Domain — Specific Goal]
+**Session Workspace**: `sessions/[folder-name]/`
 **Task Type**: [type]
 **Complexity**: [level]
 
@@ -80,7 +150,7 @@ Ready to go.
 - Be honest about skips — "skipped: no research needed" beats silence
 - If complexity is Heavy, add session boundary guidance (when to suggest a new chat)
 
-## Step 3.5: Autoresearch Evolution Check
+### Step 3.5: Autoresearch Evolution Check
 
 // turbo
 Run the autoresearch readiness check to surface any skills due for evolution or recurring intelligence gaps:
@@ -100,7 +170,7 @@ python3 execution/gap_analysis.py recommendations 2>/dev/null || echo "gap_analy
 **If any flags fire**, append them to the kickoff block:
 
 ```
-**🔄 Autoresearch Alerts**:
+**Autoresearch Alerts**:
 - [flag 1]
 - [flag 2]
 ```
@@ -115,18 +185,18 @@ tail -20 .agent/gap-log.md 2>/dev/null || echo "gap-log: empty"
 
 ---
 
-## Step 4: Score Intent & Route
+### Step 4: Score Intent & Route
 
 // turbo
-Read `directives/intent-pipeline.md` and score the user's input:
+Score the user's input:
 
 - **Score 1-3**: Run `/validate-intent` before proceeding
 - **Score 4-5**: Confirm interpretation and proceed to execution
 - **If a deployed skill matches**: Run `/recommend` to surface the right tools
 
-## Step 5: Begin Work
+### Step 5: Begin Work
 
-After the kickoff block is presented and any needed intent refinement is complete, proceed with the task.
+After the kickoff block is presented and any needed intent refinement is done, proceed with the task.
 
 ---
 
@@ -134,6 +204,8 @@ After the kickoff block is presented and any needed intent refinement is complet
 - **Every new conversation** where work is expected (not quick questions)
 - When the user explicitly runs `/session-kickoff`
 - When switching to a fundamentally different task mid-conversation
+- **Sport Mode**: Default. Quick tasks, follow-ups, conversations, single-expert work
+- **Race Mode**: Extractions, swarms, client work, complex multi-expert sessions
 
 ## When NOT to Use
 - Quick factual lookups ("what time is it?")
@@ -146,13 +218,14 @@ After the kickoff block is presented and any needed intent refinement is complet
 ## Why This Exists
 
 Two problems this solves:
-1. **Retrieval**: The sidebar is a graveyard of untitled conversations. Labels make every session findable.
-2. **Operating level**: Without explicit protocol activation, conversations drift into generic LLM mode. The kickoff block forces system-level work from the start.
+1. **Retrieval**: Labels make every session findable in the sidebar.
+2. **Operating level**: Race Mode ensures deep-work sessions get full protocol activation.
+
+**Why two modes**: Sport Mode prevents the system from spending 10+ tool calls on ceremony for tasks that only need 5 tool calls total. Race Mode preserves the full power for sessions that need it.
 
 ---
 
 ## Reference
 This workflow implements:
-- `directives/intent-pipeline.md` — Stages 1-2 (SCORE + SHARPEN)
-- `directives/intent-pipeline.md` — Sharpness scoring (via Stage 1)
-- `directives/expert_auto_routing.md` — Domain detection (via Step 3)
+- `directives/intent-pipeline.md` — Stages 1-2 (Race Mode only)
+- `directives/expert_auto_routing.md` — Domain detection (Race Mode only)

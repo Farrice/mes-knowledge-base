@@ -1,5 +1,5 @@
 ---
-description: Create an expert agent from an existing skill or directly from an extraction
+description: Create an expert agent
 ---
 
 # /create-agent

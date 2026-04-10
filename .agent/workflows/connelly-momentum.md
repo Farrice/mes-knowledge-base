@@ -1,5 +1,5 @@
 ---
-description: Run a Momentum Writing Audit on any piece of content — find and fix speed bumps
+description: Find and fix speed bumps
 ---
 
 # /connelly-momentum

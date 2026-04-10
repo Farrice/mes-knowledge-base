@@ -1,3 +1,10 @@
+<!--
+Copyright © 2025-2026 Farrice Cain
+Antigravity AI System - Proprietary and Confidential
+Unauthorized reproduction, distribution, or modification prohibited
+See LICENSE.md for details
+-->
+
 # JARVIS Interaction Protocol
 
 > Your unified interface for invoking and interacting with the Expert Council. The "Jarvis layer" that makes expert knowledge instantly accessible.

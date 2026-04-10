@@ -1,0 +1,17 @@
+{
+  "domain": "seo",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "nathan-gotch",
+      "source": "skills/nathan-gotch-ai-seo/genius.md",
+      "output_type": "content-strategy",
+      "title": "Digital Health Atlas - AEO Case Study",
+      "notes": "Demonstrates AI SEO execution: knowledge base construction, citation source domination, retrieval layer optimization.",
+      "added": "2026-04-03",
+      "file": "sample-001.md",
+      "word_count": 106,
+      "content_hash": "4dec206a"
+    }
+  ]
+}

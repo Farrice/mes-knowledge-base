@@ -1,5 +1,5 @@
 ---
-description: Long-form articles and newsletters with cinematic structure — sensory openings, thematic arcs, memorable closings
+description: Long-form articles and newsletters with cinematic structure
 ---
 
 # Roth Content Writing

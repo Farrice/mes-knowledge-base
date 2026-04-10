@@ -1,5 +1,5 @@
 ---
-description: Generate the AIOS Deployment Blueprint — phased rollout plan, 7-Day Sprint, and optimization protocol
+description: Generate the AIOS Deployment Blueprint
 ---
 
 # /ai-brain-deploy — AIOS Deployment Blueprint

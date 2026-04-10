@@ -1,5 +1,5 @@
 ---
-description: Run the ICP research phase — Consumer Gap Diagnostic + Voice-of-Customer deep research mining
+description: ICP research phase
 ---
 
 # /icp-research — Consumer Intelligence Research Phase
@@ -39,29 +39,50 @@ Using the inputs above and the `consumer-gap-diagnostic.md` prompt, produce:
 
 ### 3. Voice-of-Customer Deep Research Mining
 
-This is the AI-augmented research layer. Mine REAL consumer conversations:
+This is the AI-augmented research layer. Mine REAL consumer conversations. **Apify is the primary tool for this section** because it returns raw structured threads/posts/reviews rather than fragmented SERP snippets. The pipeline is: Apify extracts → LLM synthesizes themes.
 
-**Reddit Mining** (primary source):
-- Use `search_web` for targeted searches: `"site:reddit.com [industry] [consumer pain point]"`
-- Use `read_url_content` to read the top 3-5 most relevant Reddit threads in full
-- Extract 30-50 verbatim quotes
-- Organize by theme (frustrations, desires, identity tensions, decision factors)
+**Reddit Mining** (primary source — Apify):
+```bash
+# Broad search across Reddit for category + pain point
+python execution/apify_client.py reddit "[industry] [consumer pain point]" --limit 50 --comments
 
-**Review Mining**:
-- Use `search_web` for Amazon reviews, G2, Trustpilot, app store reviews for competitors
-- Use `read_url_content` to read full review pages
-- Extract: What people love, hate, and wish existed
-- Look for "finally" moments — "I finally found..."
+# Drill into specific subreddits where ICP lives (if known from Posture analysis)
+python execution/apify_client.py reddit --subreddit [SubredditName] --limit 30 --comments
+```
 
-**Forum/Community Mining**:
-- Use `search_web` for Facebook groups, Quora, niche forums
-- Use `read_url_content` to read full discussion threads
-- Find decision-making language, objections, what they've tried before
+Extract 30-50 verbatim quotes. Organize by theme (frustrations, desires, identity tensions, decision factors).
 
-**Deep Research** (tiered tool strategy from `directives/research-protocol.md`):
+**Review Mining** (Amazon — Apify):
+```bash
+# Pull adjacent product reviews (find a category-relevant product first)
+python execution/apify_client.py amazon "[adjacent product or category]" --limit 30
+```
+
+Extract: What people love, hate, and wish existed. Look for "finally" moments — "I finally found...".
+
+**Social Listening — Instagram/TikTok** (Apify, optional but powerful):
+```bash
+# IG audit of a competitor or category-relevant handle
+python execution/apify_client.py instagram [relevant_handle] --limit 20
+
+# TikTok hashtag scan (medium cost — use sparingly)
+python execution/apify_client.py tiktok [niche_hashtag] --limit 50
+```
+
+**Forum/Community Mining** (Apify web fetch + targeted Perplexity):
+- For known forum URLs that JS-render or rate-limit: `python execution/apify_client.py web "<url>"`
+- For broader Quora/Facebook group discovery: `perplexity_ask` (Apify doesn't have these)
+
+**Deep Research** (Perplexity for synthesis, NOT raw extraction):
 - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — check `.agent/perplexity-usage.json` budget first
-- **Priority 2**: `search_web` (free, unlimited) — for additional gap-filling
 - Topics: Industry trends affecting consumer behavior, emerging needs, competitive landscape consumer positioning
+- Use Perplexity to *synthesize the raw Apify quotes into themes*, not to gather them
+
+**Fallback Contract**: If ANY Apify call returns `{"fallback": true}`, the Apify cap is hit. Reroute that source to:
+1. `perplexity_ask` with a query like: "Find 30 verbatim quotes from real [ICP description] discussing [pain point]. Source from Reddit, forums, and review sites. Return as JSON array with quote + source URL."
+2. Then `search_web` + `read_url_content` as final fallback
+
+**Architectural rule**: Apify gathers raw voices, Perplexity synthesizes themes, the LLM produces the deliverable. Never collapse those layers — that's what produces "structurally sound but flat" outputs (see `feedback_*` memories).
 
 ### 4. Compile Research Deliverables
 

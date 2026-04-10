@@ -39,11 +39,17 @@ Rebuild the core narrative using **Classroom Story Architecture (Pattern 10)**.
 3. **Narrative Without Selling (Pattern 12)**: Embed the offer into the transformation of the characters. The "sale" is the natural resolution of the story's friction.
 4. **Oscillation Design (Pattern 11)**: Create deliberate tension between the "Before" (Adversity) and "After" (Breakthrough) to drive the narrative forward.
 
+### Phase 2.5: Silence Architecture
+Design the **negative space** that makes emotional peaks devastating. If sound is umami, silence is the palate cleanser.
+1. **Breath Mapping**: Mark 2-3 moments in the narrative where ALL sensory input drops — no description, no action, no sound cues. These are "nerve reset" beats that let the audience's body catch up to the emotional freight. A single short sentence or a line break after dense sensory writing. The contrast creates involuntary attention snap.
+2. **Rhythmic Interruption**: Identify the single most important emotional beat. Place a silence beat IMMEDIATELY before it — not after. The silence is not a rest; it is a coiled spring. The audience's nervous system fills the absence with anticipation, making the next beat land harder than any amount of layering could.
+3. **Subtractive Editing Pass**: After drafting, find the 3 densest sensory paragraphs. Remove one sensory layer from each. The goal: arrive at the point where removing anything further would collapse the image, but the current version has exactly enough empty space for the reader's own experience to fill in. Over-described emotion is felt by nobody. Under-described emotion is felt by everyone who has lived it.
+
 ### Phase 3: Sensory Layering & Body-Resonance
-Upgrade the prose into **Body-Copy (Pattern 2)**.
+Upgrade the prose into **Body-Copy (Pattern 2)**. Execute AFTER Silence Architecture — layer onto the negative space, not over it.
 1. **Body-Based Truth Connection**: Replace abstract adjectives with physical sensations (e.g., instead of "stressful," use "the cold sweat at the base of the neck").
-2. **Multi-Sensory Layering (Pattern 9)**: Add "Sound Umami." Describe the auditory landscape—the hum, the silence, the rhythm of the dialogue. Ensure the reader *hears* the content.
-3. **Physical Response Triggers**: Write specifically to trigger a biological response (goosebumps, heart rate increase, deep exhale).
+2. **Multi-Sensory Layering (Pattern 9)**: Add "Sound Umami." Describe the auditory landscape — the hum, the silence, the rhythm of the dialogue. Ensure the reader *hears* the content. **Constraint from Phase 2.5**: Sensory layers must respect the breath map. Never layer over a silence beat.
+3. **Physical Response Triggers**: Write specifically to trigger a biological response (goosebumps, heart rate increase, deep exhale). **The strongest trigger is always the return of sensation after its absence.**
 
 ### Phase 4: Infinite Consumption Engineering
 Engineer the content to be worth experiencing repeatedly **(Pattern 8)**.
@@ -71,9 +77,10 @@ A complete **High-Nourishment Narrative Campaign** including:
 ## Quality Gate
 1. **The Umami Test**: Does the content produce a "taste" you can’t place but can’t forget? (Is it evocative beyond the literal words?)
 2. **The Body Test**: Does a specific line trigger a physical sensation (chills, tension, release)?
-3. **The Retell-ability Factor**: Is the "Classroom Story" simple and vivid enough that the audience could retell it to a friend without looking at the text?
-4. **The Self-Proving Check**: Does the content *demonstrate* its own truth, or does it rely on external citations and "trust me" logic?
-5. **The Michelin Standard**: Is this content worth consuming three times, or is it "empty calories" that will be forgotten in ten minutes?
+3. **The Silence Test**: Are there at least 2 deliberate "breath beats" where sensory input drops to zero? Does the most important emotional moment have a silence beat immediately before it? If every second is "on," the piece fails — nervous systems need recovery to register peaks.
+4. **The Retell-ability Factor**: Is the "Classroom Story" simple and vivid enough that the audience could retell it to a friend without looking at the text?
+5. **The Self-Proving Check**: Does the content *demonstrate* its own truth, or does it rely on external citations and "trust me" logic?
+6. **The Michelin Standard**: Is this content worth consuming three times, or is it "empty calories" that will be forgotten in ten minutes?
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

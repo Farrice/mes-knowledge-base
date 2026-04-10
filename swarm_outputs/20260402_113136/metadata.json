@@ -1,0 +1,66 @@
+{
+  "objective": "Conduct deep VoC (Voice of Customer) research on 'The Paralyzed Polymath'\u2014highly competent creators, developers, or system builders who hoard knowledge, buy courses/prompts, but struggle to ship or monetize due to perfectionism, over-engineering, or fear of the 'guru' label. Extract raw verbatim quotes from Reddit, forums, and reviews showing their frustrations, desires, identity pains, and unmet needs.",
+  "timestamp": "20260402_113136",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 56862,
+  "total_cost_usd": 0.0541,
+  "duration_seconds": 79.4,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7013,
+      "cost": 0.0035509,
+      "duration": 13.0,
+      "thinking_tokens": 1454,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "michael-bernoff",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8717,
+      "cost": 0.0042492,
+      "duration": 18.6,
+      "thinking_tokens": 2605,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8171,
+      "cost": 0.0046994,
+      "duration": 18.0,
+      "thinking_tokens": 2047,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 9474,
+      "cost": 0.0041796,
+      "duration": 20.1,
+      "thinking_tokens": 3066,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 8348,
+      "cost": 0.0047776,
+      "duration": 19.6,
+      "thinking_tokens": 2418,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

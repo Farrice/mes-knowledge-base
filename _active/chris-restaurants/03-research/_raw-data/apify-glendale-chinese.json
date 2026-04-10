@@ -1,0 +1,3509 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 15,
+  "cost_dollars": 0.105,
+  "spent_total": 0.6845,
+  "remaining_dollars": 28.3155,
+  "items": [
+    {
+      "title": "House of Joy - La Crescenta",
+      "price": "$20\u201330",
+      "categoryName": "Chinese restaurant",
+      "address": "3220 Foothill Blvd, La Crescenta-Montrose, CA 91214",
+      "neighborhood": "Crescenta Highlands",
+      "street": "3220 Foothill Blvd",
+      "city": "La Crescenta-Montrose",
+      "postalCode": "91214",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 248-5884",
+      "phoneUnformatted": "+18182485884",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.229844,
+        "lng": -118.2494781
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJkY9F1lTqwoARS-NJIXKI3Aw",
+      "categories": [
+        "Chinese restaurant"
+      ],
+      "fid": "0x80c2ea54d6458f91:0xcdc88722149e34b",
+      "cid": "926765647097619275",
+      "reviewsCount": 345,
+      "imagesCount": 362,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.161Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 8:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Quiet": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=House%20of%20Joy%20-%20La%20Crescenta&query_place_id=ChIJkY9F1lTqwoARS-NJIXKI3Aw",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq6LEItMABiHqg0KJZ4GQJZOHtIFicR7uXYple_XdStslrqFUBxACn7UAkwSMzsSjZnraf0eLHNisUwcEVhPJ8sFLwwz5WoAo9e4Zv-uqszrBKlVWb4Njq0pNX13vdAwt1-YoIM=w408-h240-k-no",
+      "kgmid": "/g/1thnp13c"
+    },
+    {
+      "title": "New Moon",
+      "description": "Stylish eatery with outdoor seating offering a large menu of traditional & modern Chinese dishes.",
+      "price": "$20\u201330",
+      "categoryName": "Chinese restaurant",
+      "address": "2138 Verdugo Blvd, Montrose, CA 91020",
+      "neighborhood": "Montrose",
+      "street": "2138 Verdugo Blvd",
+      "city": "Montrose",
+      "postalCode": "91020",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.newmoonrestaurants.com/?orderThrough=newmoon",
+      "phone": "(818) 249-4393",
+      "phoneUnformatted": "+18182494393",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.2046376,
+        "lng": -118.2244072
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJPRcO5w3qwoARaOPAaW2S2tY",
+      "categories": [
+        "Chinese restaurant",
+        "Bar",
+        "Restaurant"
+      ],
+      "fid": "0x80c2ea0de70e173d:0xd6da926d69c0e368",
+      "cid": "15481847667662840680",
+      "reviewsCount": 831,
+      "imagesCount": 430,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.164Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20139:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u20139:30\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20139\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20139:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u20139:30\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20139\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as women-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Great wine list": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=New%20Moon&query_place_id=ChIJPRcO5w3qwoARaOPAaW2S2tY",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKJr3K6fsIRIA4xVmk0eBvkO2JA71xF9uvwLTYcxBgqz3-6OKfciNBbIx6ZfWfqlffmXxExDWoCirTGlzB3m6EHm96kMJv34wNZwhS22yf_CinVnZBRie588Hg2HPWphekSbtJ=w426-h240-k-no",
+      "kgmid": "/g/1tl9mvq8"
+    },
+    {
+      "title": "Panda Inn",
+      "description": "Local chain offering Mandarin & Sichuan entrees, noodles & more in an informal setting.",
+      "price": "$20\u201330",
+      "categoryName": "Chinese restaurant",
+      "address": "201 N Maryland Ave, Glendale, CA 91206",
+      "neighborhood": "Downtown",
+      "street": "201 N Maryland Ave",
+      "city": "Glendale",
+      "postalCode": "91206",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.pandainn.com/locations/glendale/",
+      "phone": "(818) 502-1234",
+      "phoneUnformatted": "+18185021234",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1482809,
+        "lng": -118.253988
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJF3OFaVXAwoAR-fc6aAQmrxk",
+      "categories": [
+        "Chinese restaurant",
+        "Asian restaurant"
+      ],
+      "fid": "0x80c2c05569857317:0x19af2604683af7f9",
+      "cid": "1850739772242982905",
+      "reviewsCount": 544,
+      "imagesCount": 944,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.165Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/VE1SKxK5TK0?source=pa&opi=79508299&hl=en-US&gei=aZPUaZaCAr3Xi-gP1Zfc-Ag&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6599.23875258949!2d-118.27051517220355!3d34.20720026916658!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sZZPUacabKveF9u8PucuWuQ4!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3DChinese%2Brestaurant%26ech%3D1%26psi%3DZZPUacabKveF9u8PucuWuQ4.1775539046094.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Panda%20Inn&query_place_id=ChIJF3OFaVXAwoAR-fc6aAQmrxk",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoq3CcoQy4vT1BmLm9IonWHbGh7wUZU4h6GQaNLluNoGXUg0_SEbNa6UOFWWfbfQwN7BcpVrs0s0grYEnoKD6Lx606nYjrT6jYg0vEEPcAAhGxp6ghFbw4BsI56gJ9xcIufdl6x=w408-h306-k-no",
+      "kgmid": "/g/1td3g8rs"
+    },
+    {
+      "title": "California Wok Glendale",
+      "price": "$10\u201320",
+      "categoryName": "Chinese restaurant",
+      "address": "906 E Colorado St, Glendale, CA 91205",
+      "neighborhood": "Mariposa",
+      "street": "906 E Colorado St",
+      "city": "Glendale",
+      "postalCode": "91205",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.californiawok.net/",
+      "phone": "(818) 649-3636",
+      "phoneUnformatted": "+18186493636",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1423632,
+        "lng": -118.2440256
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJf6lv-WrBwoARfMGkadTJ9rw",
+      "categories": [
+        "Chinese restaurant"
+      ],
+      "fid": "0x80c2c16af96fa97f:0xbcf6c9d469a4c17c",
+      "cid": "13616292437543928188",
+      "reviewsCount": 56,
+      "imagesCount": 415,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.166Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/0kUOZQn7v-g?source=pa&opi=79508299&hl=en-US&gei=aZPUaZaCAr3Xi-gP1Zfc-Ag&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6599.23875258949!2d-118.27051517220355!3d34.20720026916658!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sZZPUacabKveF9u8PucuWuQ4!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3DChinese%2Brestaurant%26ech%3D1%26psi%3DZZPUacabKveF9u8PucuWuQ4.1775539046094.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11:50\u202fAM\u20139\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Drive-through": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=California%20Wok%20Glendale&query_place_id=ChIJf6lv-WrBwoARfMGkadTJ9rw",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer2ah0gE2Md8Y1QQQD2nZBawjE0mwIU1cvSD_QFm0n3smasUPowtOgOQWPDcqdD9FcDTXbPwHRmOR-M02yyseFxd7nvur_XW5K1Ds6AdhT81LQH7trdAwJ4xQVnknQIlt6F2djA=w408-h544-k-no",
+      "kgmid": "/g/11y54vx6b7"
+    },
+    {
+      "title": "Wong's Wok Chinese Kitchen",
+      "price": "$",
+      "categoryName": "Chinese restaurant",
+      "address": "1415 E Colorado St, Glendale, CA 91205",
+      "neighborhood": "Citrus Grove",
+      "street": "1415 E Colorado St",
+      "city": "Glendale",
+      "postalCode": "91205",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://wongswokgdl.com/?utm_source=google",
+      "phone": "(818) 662-9717",
+      "phoneUnformatted": "+18186629717",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1429157,
+        "lng": -118.2335144
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ3cu9lA3BwoARI5BA4T4aFk8",
+      "categories": [
+        "Chinese restaurant",
+        "Asian restaurant",
+        "Chinese noodle restaurant",
+        "Family restaurant",
+        "Rice restaurant",
+        "Seafood restaurant",
+        "Soup restaurant",
+        "Vegetarian restaurant"
+      ],
+      "fid": "0x80c2c10d94bdcbdd:0x4f161a3ee1409023",
+      "cid": "5698771235853340707",
+      "reviewsCount": 229,
+      "imagesCount": 584,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.166Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u20139\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Wong's%20Wok%20Chinese%20Kitchen&query_place_id=ChIJ3cu9lA3BwoARI5BA4T4aFk8",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerL_73tZ1HTLHrDQDnnzmQSkwWk1Cbj9wKhDbw_OfGpIjEYO25-wwXPsso-fUcBFRGKQ_JfGoS_sIwUeDPWa3b755wLNsX9R4i8K51FvIlimvSDF2nus0NbL1yS94ME5dem8KXz=w408-h306-k-no",
+      "kgmid": "/g/1tfbh_8k"
+    },
+    {
+      "title": "Chinese Fast Food",
+      "description": "No-frills stop offering a range of familiar Chinese fare, including chow mein & orange chicken.",
+      "price": "$10\u201320",
+      "categoryName": "Chinese restaurant",
+      "address": "6348 San Fernando Rd, Glendale, CA 91201",
+      "neighborhood": "Grandview",
+      "street": "6348 San Fernando Rd",
+      "city": "Glendale",
+      "postalCode": "91201",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://chinese-fast-food.cafes-nearby.com/",
+      "phone": "(818) 244-6160",
+      "phoneUnformatted": "+18182446160",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1661134,
+        "lng": -118.2877826
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ78OeIQ7AwoARloKAJquGk_g",
+      "categories": [
+        "Chinese restaurant",
+        "Fast food restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c00e219ec3ef:0xf89386ab26808296",
+      "cid": "17911808212626080406",
+      "reviewsCount": 165,
+      "imagesCount": 83,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.166Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Chinese%20Fast%20Food&query_place_id=ChIJ78OeIQ7AwoARloKAJquGk_g",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 13,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6jkQ7DmBYkm6txNGzqrYgLm15n7kdu9NdikjcOIV7vdrwyFk1MiDq0_c7oGEVtT4d6qvMlGmnzRwCF0-z51muiOcrghNP3y0ZkafAacswWEMXB7cgAYyOyrZjhKAqvfLVPtSh=w408-h306-k-no",
+      "kgmid": "/g/1tk4rf1j"
+    },
+    {
+      "title": "Din Tai Fung \u9f0e\u6cf0\u8c50",
+      "description": "Modern Glendale outpost of a Taiwanese chain known for its handmade soup dumplings & Chinese fare.",
+      "price": "$$",
+      "categoryName": "Chinese restaurant",
+      "address": "1164 Galleria Way, Glendale, CA 91210",
+      "neighborhood": "Downtown",
+      "street": "1164 Galleria Way",
+      "city": "Glendale",
+      "postalCode": "91210",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://dtf.com/en/locations/glendale",
+      "phone": "(818) 551-5561",
+      "phoneUnformatted": "+18185515561",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.144386,
+        "lng": -118.2583313
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ7XjkYP7AwoARYyeBPtsNUPw",
+      "categories": [
+        "Chinese restaurant",
+        "Taiwanese restaurant",
+        "Dumpling restaurant"
+      ],
+      "fid": "0x80c2c0fe60e478ed:0xfc500ddb3e812763",
+      "cid": "18181046930992342883",
+      "reviewsCount": 2891,
+      "imagesCount": 5107,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.167Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/GjqtnAY01XE?source=pa&opi=79508299&hl=en-US&gei=aZPUaZaCAr3Xi-gP1Zfc-Ag&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6599.23875258949!2d-118.27051517220355!3d34.20720026916658!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sZZPUacabKveF9u8PucuWuQ4!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3DChinese%2Brestaurant%26ech%3D1%26psi%3DZZPUacabKveF9u8PucuWuQ4.1775539046094.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 9:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Access": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20139:30\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20139:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20139:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20139:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "10\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "10\u202fAM\u20139:30\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Brunch reservations recommended": true
+          },
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Din%20Tai%20Fung%20%E9%BC%8E%E6%B3%B0%E8%B1%90&query_place_id=ChIJ7XjkYP7AwoARYyeBPtsNUPw",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 18,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoIaGY2-ypakpsR-HH-rctS69iSvQSF4HHexBODghCNJcPXllaKqByMwxHuK9UqivfoG-sPe4fjhI0K4WNinwblGh8gSWE8QQBLQjBqTAwbcW0SzJZZ4NlcsG51-0284n-7SUp6=w408-h306-k-no",
+      "kgmid": "/g/1yf_9rvl_"
+    },
+    {
+      "title": "Fu House Chinese Food and Sushi",
+      "description": "Strip-center option for Chinese & Japanese food including sushi offered in a simple setting.",
+      "price": "$10\u201320",
+      "categoryName": "Chinese restaurant",
+      "address": "1428 E Colorado St ste e, Glendale, CA 91205",
+      "neighborhood": "Somerset",
+      "street": "1428 E Colorado St ste e",
+      "city": "Glendale",
+      "postalCode": "91205",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://smorefood.com/order-online/fu-house-chinese-food-and-sushi-glendale-91205-rlpce5rh?utm_source=gmb&utm_medium=website",
+      "phone": "(818) 241-3988",
+      "phoneUnformatted": "+18182413988",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.142592,
+        "lng": -118.232416
+      },
+      "totalScore": 3.8,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ4zilgA3BwoARlze5uh08kik",
+      "categories": [
+        "Chinese restaurant",
+        "Japanese restaurant",
+        "Delivery Restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2c10d80a538e3:0x29923c1dbab93797",
+      "cid": "2995522800539219863",
+      "reviewsCount": 172,
+      "imagesCount": 249,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:30.168Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "4 to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "4\u201310\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u201310\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u201310:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "4\u201310:30\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u201310:30\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "4\u201311\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "4\u201311\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Fu%20House%20Chinese%20Food%20and%20Sushi&query_place_id=ChIJ4zilgA3BwoARlze5uh08kik",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 20,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoAD34kGU_6kwWT6XdHcU-P4CTVqGlrl0fbpVO4HklEgqW9ghShMykI33bt57S_TL1eR4EVuarFtCS7PI0d0OqfZt3OoiB8yE-tW2UwOypzlllCw29M0gFOfchRZ96Ef_uTZIVq=w408-h306-k-no",
+      "kgmid": "/g/1pwftk4vv"
+    },
+    {
+      "title": "Fuji Buffet & Grill",
+      "description": "Enormous, casual Japanese buffet serving everything from sushi & barbecue to salads & dessert.",
+      "price": "$$",
+      "categoryName": "Japanese restaurant",
+      "address": "300 Harvey Dr, Glendale, CA 91206",
+      "neighborhood": "Woodbury",
+      "street": "300 Harvey Dr",
+      "city": "Glendale",
+      "postalCode": "91206",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://fujibuffetgrill.co/",
+      "phone": "(818) 553-1688",
+      "phoneUnformatted": "+18185531688",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1482729,
+        "lng": -118.2277356
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ4_UlZ3PBwoARN_1DczlLyQw",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Buffet restaurant",
+        "Seafood restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2c1736725f5e3:0xcc94b397343fd37",
+      "cid": "921350308893031735",
+      "reviewsCount": 3007,
+      "imagesCount": 2349,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:32.665Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Drive-through": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Salad bar": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Fuji%20Buffet%20%26%20Grill&query_place_id=ChIJ4_UlZ3PBwoARN_1DczlLyQw",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoFWJZxiqWxJ3L8ssPteA_XrhE2FPYdm6pFh7CfOHWhDAKstXC0ikBHmj36F1IATFxpgYgG1YerwwQJ2ynAtH4ak5-KTaf3epV3MVm4aop-EucpfbQVgRFLshF58BulS8kHW6h_=w426-h240-k-no",
+      "kgmid": "/g/11_53xnvf"
+    },
+    {
+      "title": "Taste of Windsor",
+      "price": "$10\u201320",
+      "categoryName": "Asian restaurant",
+      "address": "123 W Windsor Rd, Glendale, CA 91204",
+      "neighborhood": "Pacific - Edison",
+      "street": "123 W Windsor Rd",
+      "city": "Glendale",
+      "postalCode": "91204",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 242-2789",
+      "phoneUnformatted": "+18182422789",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1368779,
+        "lng": -118.2561798
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJQwrI1NLBwoARJLGzw41HSBE",
+      "categories": [
+        "Asian restaurant"
+      ],
+      "fid": "0x80c2c1d2d4c80a43:0x1148478dc3b3b124",
+      "cid": "1245323971167236388",
+      "reviewsCount": 27,
+      "imagesCount": 105,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:32.666Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Taste%20of%20Windsor&query_place_id=ChIJQwrI1NLBwoARJLGzw41HSBE",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqYBM7-MdgtEUIuzP5vm9VYrQlz5Ag8GFRD9y_qJsYAUeYQiVvwaJ02xpCO8-RfkZQ0RPeZL4OtuqLO_TxcNej7BhKDn-AfiKqZ-0Q_DtY34VmMh-5ZiezEg01RON8lpauIY63C=w408-h272-k-no",
+      "kgmid": "/g/11h7qh8qzp"
+    },
+    {
+      "title": "Jincook",
+      "description": "Small pub with traditional dishes like short rib or Japanese favorites like katsu.",
+      "price": "$20\u201330",
+      "categoryName": "Korean restaurant",
+      "address": "310 N Brand Blvd, Glendale, CA 91203",
+      "neighborhood": "Downtown",
+      "street": "310 N Brand Blvd",
+      "city": "Glendale",
+      "postalCode": "91203",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.jincooks.com/",
+      "phone": "(818) 637-7820",
+      "phoneUnformatted": "+18186377820",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1503726,
+        "lng": -118.2546657
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ_a53wXrBwoARnaE_33vFSrY",
+      "categories": [
+        "Korean restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c17ac177aefd:0xb64ac57bdf3fa19d",
+      "cid": "13135528398996611485",
+      "reviewsCount": 334,
+      "imagesCount": 948,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:32.667Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Jincook&query_place_id=ChIJ_a53wXrBwoARnaE_33vFSrY",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep0TeEKvQKodSg2jA6Pbd9xHT1eWc554E1SpKwgwcTbFg1EPLEH24lYjfcvA1kQgRcR_hy-ONJ_IE7tqANME2GAaA6jqs8-Rv3mB4xRCilhJl-wVSn5w_xke8HWXzJaYxQxt3o=w408-h306-k-no",
+      "kgmid": "/g/11h_t62x04"
+    },
+    {
+      "title": "Gam Tu Bop",
+      "price": "$10\u201320",
+      "categoryName": "Asian fusion restaurant",
+      "address": "132 N Brand Blvd, Glendale, CA 91203",
+      "neighborhood": "Downtown",
+      "street": "132 N Brand Blvd",
+      "city": "Glendale",
+      "postalCode": "91203",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://order.toasttab.com/online/gam-tu-bop-glendale-132-n-brand-blvd",
+      "phone": "(818) 696-1236",
+      "phoneUnformatted": "+18186961236",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.147454,
+        "lng": -118.254637
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJe6GHY1XAwoARR0FB03j3kC4",
+      "categories": [
+        "Asian fusion restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c0556387a17b:0x2e90f778d3414147",
+      "cid": "3355453820703424839",
+      "reviewsCount": 280,
+      "imagesCount": 189,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:32.667Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Salad bar": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          }
+        ],
+        "Planning": [
+          {
+            "Reservations required": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Gam%20Tu%20Bop&query_place_id=ChIJe6GHY1XAwoARR0FB03j3kC4",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 17,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerTYbW2MOoBJNKFGkqg9Ln3tAOLGxI80c3SqnhmzWCIZfOgj2YLRwTRp-7IV8bKczXdrFLxDcctIJlprercwBfHOiJ6UcktZg-24GESZBnFSHzTDVwIY0R4552fn1g4SdSyRsCp3Q=w408-h306-k-no",
+      "kgmid": "/g/11bzv818h7"
+    },
+    {
+      "title": "Moonlight Family Restaurant",
+      "price": null,
+      "categoryName": "Family restaurant",
+      "address": "1022 E Chevy Chase Dr unit d, Glendale, CA 91205",
+      "neighborhood": "Adams Hill",
+      "street": "1022 E Chevy Chase Dr unit d",
+      "city": "Glendale",
+      "postalCode": "91205",
+      "state": "California",
+      "countryCode": "US",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1334467,
+        "lng": -118.2420818
+      },
+      "totalScore": 5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJs_6LfgDBwoAR1bEXrYkslEQ",
+      "categories": [
+        "Family restaurant"
+      ],
+      "fid": "0x80c2c1007e8bfeb3:0x44942c89ad17b1d5",
+      "cid": "4941623660958429653",
+      "reviewsCount": 3,
+      "imagesCount": 2,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:32.667Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Moonlight%20Family%20Restaurant&query_place_id=ChIJs_6LfgDBwoAR1bEXrYkslEQ",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 19,
+      "isAdvertisement": false,
+      "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=8AZ0UdUhrY3oFVklHY9Fkg&cb_client=search.gws-prod.gps&w=408&h=240&yaw=151.20004&pitch=0&thumbfov=100",
+      "kgmid": "/g/11x6g23xbl"
+    },
+    {
+      "title": "In-N-Out Burger",
+      "description": "Classic burger chain serving customizable burgers, hand-cut fries & shakes.",
+      "price": "$",
+      "categoryName": "Hamburger restaurant",
+      "address": "310 Harvey Dr, Glendale, CA 91206",
+      "neighborhood": "Woodbury",
+      "street": "310 Harvey Dr",
+      "city": "Glendale",
+      "postalCode": "91206",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://locations.in-n-out.com/157",
+      "phone": "(800) 786-1000",
+      "phoneUnformatted": "+18007861000",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1486551,
+        "lng": -118.2273294
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ-TTKY3PBwoARUi52zuHAUNM",
+      "categories": [
+        "Hamburger restaurant",
+        "American restaurant",
+        "Diner",
+        "Fast food restaurant",
+        "Lunch restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c17363ca34f9:0xd350c0e1ce762e52",
+      "cid": "15226882416203673170",
+      "reviewsCount": 6164,
+      "reviewsDistribution": {
+        "oneStar": 131,
+        "twoStar": 80,
+        "threeStar": 294,
+        "fourStar": 980,
+        "fiveStar": 4679
+      },
+      "imagesCount": 1360,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:34.429Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10:30\u202fAM to 1\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:30\u202fAM to 1\u202fAM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:30\u202fAM to 1\u202fAM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:30\u202fAM to 1\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:30\u202fAM to 1:30\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 1:30\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10:30\u202fAM to 1\u202fAM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Drive-through": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=In-N-Out%20Burger&query_place_id=ChIJ-TTKY3PBwoARUi52zuHAUNM",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 22,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepAYnWa7dv9T0aGqJYGPL5oKNBVkTiteB-S-lR4ffrTOfDyyd2NU7_b3YCoh9aCags5T71afBRZNhF7Z5OXchhCy7CnqPCPkMJuJ6_pXBWxbi1yEXg2g9KPW66PCj4L72neLB4JNA=w408-h271-k-no",
+      "kgmid": "/g/1tjtjjvz"
+    },
+    {
+      "title": "Mitzee Cafe",
+      "price": "$10\u201320",
+      "categoryName": "Korean restaurant",
+      "address": "721 S Central Ave B, Glendale, CA 91204",
+      "neighborhood": "Pacific - Edison",
+      "street": "721 S Central Ave B",
+      "city": "Glendale",
+      "postalCode": "91204",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://mitzeecafe.com/",
+      "phone": "(818) 243-8078",
+      "phoneUnformatted": "+18182438078",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1368979,
+        "lng": -118.2583901
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ9d4hpfzAwoARIrp3Y-nS934",
+      "categories": [
+        "Korean restaurant"
+      ],
+      "fid": "0x80c2c0fca521def5:0x7ef7d2e96377ba22",
+      "cid": "9149013067864455714",
+      "reviewsCount": 157,
+      "imagesCount": 53,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:17:43.832Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Mitzee%20Cafe&query_place_id=ChIJ9d4hpfzAwoARIrp3Y-nS934",
+      "searchPageUrl": "https://www.google.com/maps/search/Chinese%20restaurant/@34.13618867333372,-118.27051517220355,16z?hl=en",
+      "searchString": "Chinese restaurant",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqKSz1d4zRnr75dy4fQkCCwk-FOrQ5qQBHga-dyg950fEnbViAwnNyOg2_fdtMYfaf1v6WapIg4lgMdPZcG1BsnRTEWqWT70fF-sKIC3Tib7ta4wImo6s7U0bEihcbgTFSG2FII5g=w408-h408-k-no",
+      "kgmid": "/g/1wv_sh3n"
+    }
+  ]
+}

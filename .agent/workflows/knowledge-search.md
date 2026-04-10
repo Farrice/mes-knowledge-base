@@ -1,5 +1,5 @@
 ---
-description: Hybrid search across all knowledge sources with smart routing
+description: Hybrid search across all knowledge sources with smart
 ---
 
 # /knowledge-search — Unified Knowledge Retrieval

@@ -210,3 +210,11 @@ For every finding, ask: **"So what?"**
 | **Competitive Framing Depth** | Mentions competitors generally or provides basic comparisons without deeper analysis of strategic implications. | Compares client to competitors (X vs Y) but the "Z" (strategic implication/opportunity) is somewhat generic or high-level. | Every key finding is precisely framed (X vs Y = Z), revealing a specific, high-leverage competitive opportunity or threat with clear strategic direction. |
 | **Bias Detection & Mitigation** | Acknowledges potential biases generally, but doesn't specifically identify them in the client's current approach or decision-making. | Identifies 1-2 "Four Horsemen" biases relevant to client decisions, with plausible suggestions for mitigation. | Deeply diagnoses multiple "Four Horsemen" biases influencing the client's current strategy, offering targeted, actionable interventions to re-align decision-making processes. |
 | **Root Cause Depth** | Identifies symptoms or immediate causes, but the underlying systemic issue or fundamental drivers remain unaddressed. | Traces problems back to a plausible root cause, though deeper systemic factors or interdependencies might be missed. | Consistently identifies the ultimate, systemic root cause of issues, meticulously distinguishing it from symptoms and superficial drivers. |
+
+---
+
+## Evolution Log
+
+| Date | Hypothesis | Result | Score Delta | Notes |
+|------|-----------|--------|-------------|-------|
+| 2026-04-09 | Add Revenue-Sequenced Cascade (Phase 2.5) to Executive Growth Roadmap — self-funding investment chain with ignition move, funding dependencies, kill signals, Monday Morning Test | KEPT | 6.7→8.3 (+1.6) | Transforms audit from prioritized list into sequenced strategy where Move 1 funds Move 2. Biggest gains: Adversarial Resilience +2 (kills "great report, now what?"), Intent Alignment +2 (Monday Morning Test forces specificity). Anti-pattern identified: time-bucketing without funding dependencies creates calendars, not strategies. |

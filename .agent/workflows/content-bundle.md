@@ -1,5 +1,5 @@
 ---
-description: Take one finished content piece and produce platform-native versions for 3-5 platforms simultaneously
+description: One finished content piece and produce platform-native
 ---
 
 # /content-bundle — Cross-Platform Content Bundler

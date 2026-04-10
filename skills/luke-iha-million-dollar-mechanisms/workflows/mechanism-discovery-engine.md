@@ -1,10 +1,12 @@
 ---
-description: Generate 10+ candidate mechanisms using the Universal Mechanism Matrix and insight vectors
+description: Generate 10+ candidate mechanisms using Process Autopsy + Universal Mechanism Matrix + insight vectors
+variant_of: mechanism-discovery-engine
+hypothesis: Adding Process Autopsy Protocol (Phase 1.5) before Matrix generation surfaces mechanism candidates from the client's actual delivery method, making discovery faster and mechanisms more defensible
 ---
 
-# Mechanism Discovery Engine
+# Mechanism Discovery Engine v2
 
-Systematically brainstorm unique mechanisms for any product or offer using Luke Iha's Universal Mechanism Matrix + 6 insight vectors. Produces a ranked shortlist filtered through the SIN framework.
+Systematically brainstorm unique mechanisms for any product or offer using Luke Iha's Universal Mechanism Matrix + 6 insight vectors. **v2 adds Process Autopsy Protocol** — mining the client's real process for mechanism candidates before running the Matrix.
 
 ---
 
@@ -39,6 +41,45 @@ Before generating mechanisms, determine the strategic direction:
 
 ---
 
+## Phase 1.5: Process Autopsy Protocol (NEW)
+
+> **Core insight**: The strongest mechanisms for service/method/info-product businesses are already hiding inside the practitioner's delivery process. They just haven't been named. This phase mines the actual method for mechanism candidates BEFORE the Matrix runs — so the Matrix has real process intelligence to work with, not just category abstractions.
+
+### Step 1: Method Decomposition
+
+Break the delivery process into 5-10 sequential steps. For each step, answer:
+
+| Step | What happens? | What would most competitors SKIP or do differently? | What does the client notice/remark on at this step? |
+|------|--------------|------------------------------------------------------|-----------------------------------------------------|
+| 1 | | | |
+| 2 | | | |
+| ... | | | |
+
+### Step 2: Proprietary Edge Detection
+
+From the decomposition, identify candidates using these 4 lenses:
+
+1. **The Counterintuitive Step** — Which step would a reasonable person say "why do you do THAT?" about? (Mechanisms live in the counterintuitive.)
+2. **The Invisible Step** — Which step does the practitioner consider "obvious" but competitors literally do not do? (The expert's blind spot is often their biggest edge.)
+3. **The Sequence Dependency** — Where does the ORDER of steps matter? Where does doing Step 3 before Step 2 break everything? (Sequence dependencies are hard to copy.)
+4. **The Client Inflection Point** — At which step does the client's understanding/behavior/result visibly shift? (Inflection points are where the mechanism "lives" in the audience's experience.)
+
+### Step 3: Candidate Extraction
+
+For each edge detected, draft a one-sentence mechanism candidate:
+
+> "[Product/Method] works because of [named edge] — the [what it does] that [why it matters]."
+
+**Carry these candidates INTO Phase 2.** They become pre-loaded rows in the Matrix — real process truth that the Matrix then stress-tests and expands.
+
+### Process Autopsy Quality Check:
+- ☐ At least 5 steps decomposed with genuine process detail (not category-level platitudes)
+- ☐ At least 2 proprietary edges identified across the 4 lenses
+- ☐ Candidates are grounded in OBSERVABLE practitioner behavior, not abstract claims
+- ☐ "Can a competitor claim this?" gut check run on each candidate — if YES without changing their process, it's not proprietary enough
+
+---
+
 ## Phase 2: Universal Mechanism Matrix
 
 Run the core problem through the 3×4 matrix:
@@ -53,10 +94,11 @@ Run the core problem through the 3×4 matrix:
 | **Dysfunctional** | "[structure] is damaged by [external cause]" | "[process] has been hijacked by [thing]" | "[External element] has corrupted your [system]" |
 
 ### Instructions:
-1. Fill each cell with a specific mechanism candidate related to the product's problem
-2. Don't force cells that don't apply — aim for ≥ 8/12
-3. Each candidate should be ONE sentence
-4. Frame candidates through the UMP/UMS lens chosen in Phase 1
+1. **Seed the Matrix with Process Autopsy candidates** — place each in the cell that best describes its mechanism type
+2. Fill remaining cells with additional mechanism candidates related to the product's problem
+3. Don't force cells that don't apply — aim for ≥ 8/12
+4. Each candidate should be ONE sentence
+5. Frame candidates through the UMP/UMS lens chosen in Phase 1
 
 ---
 
@@ -119,8 +161,12 @@ For each mechanism that passes SIN, generate 5+ name candidates using the naming
 ```
 ## Strategic Direction: [UMP/UMS] — [one-sentence justification]
 
+## Process Autopsy Findings (NEW)
+[2-3 sentence summary of proprietary edges found]
+[Which candidates emerged from the method itself vs. the Matrix]
+
 ## Matrix Candidates (8-12)
-[Numbered list with cell location]
+[Numbered list with cell location — flag which were seeded from Process Autopsy]
 
 ## SIN-Filtered Finalists (2-3)
 [Name, SIN score, one-paragraph description]
@@ -129,9 +175,11 @@ For each mechanism that passes SIN, generate 5+ name candidates using the naming
 Name: [Characterization]
 Type: [UMP/UMS]
 SIN Score: [X/30]
+Process-Grounded: [Yes/No — did this come from the actual method?]
 One-sentence: [Mechanism in plain language]
 Story hook: [60-second discovery narrative seed]
 Audience suspicion it taps: [What they already half-believe]
+Competitor defensibility: [Why a competitor can't just claim this]
 
 ## Runner-Up Mechanisms
 [1-2 alternatives with brief justification for why they're secondary]
@@ -148,6 +196,8 @@ Before delivering:
 - ☐ Name passes all 5 characterization tests
 - ☐ Can articulate why UMP/UMS was chosen in one sentence
 - ☐ Mechanism taps into a pre-existing audience suspicion (not invented from nothing)
+- ☐ **Process Autopsy completed with ≥ 2 proprietary edges identified** (NEW)
+- ☐ **Winning mechanism passes "can a competitor claim this?" test** (NEW)
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

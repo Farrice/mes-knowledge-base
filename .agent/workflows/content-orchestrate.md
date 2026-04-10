@@ -1,5 +1,5 @@
 ---
-description: Run a complete content production session with all Kieran Flanagan skills chained — from talking points through creation through enrichment
+description: From talking points through creation through enrichment
 ---
 
 # /content-orchestrate — Full Content Production Session

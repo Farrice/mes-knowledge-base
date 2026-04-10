@@ -251,6 +251,33 @@
 
 **Success Metric**: Exponential opportunity growth. "I remember when you first started" conversations.
 
+## Pattern 28: The Demand Thermometer (Systematic Scarcity Calibration)
+**Description**: Oversubscribed status is not a launch event — it's a temperature you read and manipulate continuously. Most people either manufacture fake scarcity (which prospects smell) or passively hope demand materializes. The Demand Thermometer gives you a 5-zone reading with specific interventions for each zone, making scarcity AUTHENTIC because it's calibrated to real signals, not invented urgency.
+
+**The 5 Zones**:
+
+| Zone | Temperature | Signal Indicators | Intervention |
+|------|------------|-------------------|-------------|
+| **1 — Cold** (0-10% capacity interest) | No inbound. Crickets after posting. DMs are you reaching out, not them. | **Don't launch.** Return to Pattern 2 (96% Market Unlock). You have a messaging problem, not a demand problem. Create 3 problem-aware content pieces. Test which gets response. |
+| **2 — Cool** (10-30% capacity interest) | Some engagement. A few "interesting" replies. No one asking "how do I work with you?" | **Seed social proof.** Deploy 1-2 specific client transformation stories (not testimonials — STORIES with before/after stakes). Open a "priority notification list" (softer than waitlist). Run the Assessment (Pattern 9) as free value — it surfaces hidden demand. |
+| **3 — Warm** (30-60% capacity interest) | People asking questions. DMs saying "tell me more." Assessment completions trickling in. Friends-of-clients reaching out. | **Declare capacity publicly.** This is the moment Pattern 11 activates — "I take 10 clients per quarter." Announce the waitlist is open. Share ONE slot being filled (visible demand, Pattern 20). The social proof cascade begins: assessment results → waitlist count → first client announced. |
+| **4 — Hot** (60-90% capacity interest) | Waitlist exceeds capacity. People asking "when does the next round open?" Referrals arriving without prompting. | **Tighten criteria, not availability.** Add an application step. Announce that you're "selecting" not "accepting." Share that applications are being reviewed. This shifts power from "please buy" to "prove you're a fit." Scarcity is now REAL — you're genuinely choosing. |
+| **5 — Oversubscribed** (90%+ capacity interest, waitlist > 2x capacity) | You are turning away qualified buyers. People offering to pay more for priority. Your current clients become evangelists because being chosen feels exclusive. | **Lock and extend.** Close applications. Announce next intake date. Create an "alumni" tier for current clients. The waitlist for next round IS your anticipation architecture for the next launch. You never start from Cold again. |
+
+**The Social Proof Cascade Sequence** (deploy IN THIS ORDER as temperature rises):
+1. **Proof of Problem** (Cold→Cool): Share the specific problem you solve with data/stories. Not "I help with X" — "Here's what happens when X goes unsolved."
+2. **Proof of Process** (Cool→Warm): Show your assessment/diagnostic in action. "Here's what we uncovered for [client type]." The method itself becomes proof.
+3. **Proof of Selection** (Warm→Hot): "We just welcomed [client] after reviewing 14 applications." Selection = exclusivity = demand signal.
+4. **Proof of Overflow** (Hot→Oversubscribed): "Applications closed. Next intake: [date]. Join the priority list." This is where visible demand becomes self-perpetuating — the waitlist MARKETS for you.
+
+**Why Authentic Scarcity Beats Manufactured Scarcity**: Manufactured scarcity is "Only 3 spots left!" when you'd take anyone who pays. Authentic scarcity is "I reviewed 20 applications and selected 8." The difference: manufactured scarcity creates urgency but erodes trust. Authentic scarcity creates urgency AND elevates perceived value — because the prospect now wants to be CHOSEN, not just served.
+
+**Execute**: Before any launch or offer announcement, read your Demand Thermometer. What zone are you in RIGHT NOW? Deploy the intervention for THAT zone — not the zone you wish you were in. If you're at Cold and you declare capacity limits, you look desperate. If you're at Hot and you don't tighten criteria, you're leaving positioning on the table.
+
+**Success Metric**: You never launch from Cold. You always know your zone. Scarcity is always real (even if you engineered the conditions that created it). Prospects say "I heard you're selective" not "I heard you're available."
+
+---
+
 ## Hidden Knowledge
 
 > Tacit expertise that Priestley knows but rarely teaches explicitly. Made deployable through specific application instructions.

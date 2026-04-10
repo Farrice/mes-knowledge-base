@@ -1,5 +1,5 @@
 ---
-description: "Free vs Paid newsletter business model architect with revenue projections"
+description: Free vs Paid newsletter business model architect
 ---
 
 # Newsletter Biz Model

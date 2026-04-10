@@ -1,5 +1,5 @@
 ---
-description: Deploy an agent swarm to execute complex tasks with 10-50 experts working in orchestrated parallel
+description: Deploy an agent swarm to execute complex tasks
 ---
 
 # /swarm Workflow

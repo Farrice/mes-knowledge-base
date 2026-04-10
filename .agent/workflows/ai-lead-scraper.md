@@ -1,5 +1,5 @@
 ---
-description: Build an AI lead generation workflow (n8n/Make) for any industry with automated scraping, scoring, and delivery
+description: Build an AI lead generation workflow
 ---
 
 # AI Lead Scraper

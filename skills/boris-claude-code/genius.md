@@ -206,3 +206,15 @@
 | **Plan Mode Efficacy**        | Initial plan was generic or required significant human revision; led to rework.     | Plan was sound, but some execution details still required adjustment post-approval.  | Initial AI-generated plan was near-perfect, preventing >90% of potential errors and rework in execution.           |
 | **Underfunding Leverage**     | Project had ample human resources, resulting in traditional, human-centric solutions. | Resource constraint led to some AI assistance, but not full automation.             | Extreme human resource constraint (e.g., "1-person constraint") forced an entirely AI-native, robust solution.      |
 | **"Layer Under the Layer" Depth** | Solution treats the AI as a black box; relies solely on prompt engineering.         | Shows some understanding of model behavior, but occasional unpredictable outputs.    | Accurately predicts agent behavior and tool-use distribution, shaping prompts and architectures for optimal "on-distribution" paths. |
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Orchestration Calculus (Task Decomposition Intelligence)
+- **Hypothesis**: Adding a 4-question decision framework (Dependency Depth, Context Cost, Complexity Threshold, Reversibility) to Phase 2 of the AI Workforce Orchestration workflow would produce strategically specific decomposition plans instead of generic allocation matrices.
+- **Result**: KEPT — Score improved from 5.7 to 8.0 (+2.3)
+- **Change**: Added Phase 2.5 "Orchestration Calculus" to `workflows/ai-workforce-orchestration-system.md`. Includes 4-question decomposition, composed strategy codes, Speed Bias Rule, and Convergence Point Protocol. Added 2 quality gate criteria (Decomposition Specificity, Speed Bias Enforcement) and 1 output contract item (Orchestration Calculus Breakdown).
+- **Benchmark scores**: Current [7, 5, 5] → Variant [9, 8, 7]
+- **Lesson**: The skill had strong identity-level patterns (be a manager, use parallel instances) but lacked the decision logic layer between identity and execution. The gap was not "what to do" but "how to decide what each task needs." This is likely a common gap across orchestration-focused skills — check cross-pollination candidates.

@@ -1,5 +1,5 @@
 ---
-description: "Audit any newsletter concept against Cole's Two Rules — pass/fail with fix prescriptions"
+description: Audit any newsletter concept against Cole's Two Rules
 ---
 
 # Book Never Ends

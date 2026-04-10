@@ -1,5 +1,5 @@
 ---
-description: Generate video assets using the Keyframe-to-Video method for AI video tools
+description: Generate video assets
 ---
 
 # /generate-video-asset

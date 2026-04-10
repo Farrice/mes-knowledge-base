@@ -2,6 +2,10 @@
 .env
 credentials.json
 token.json
+# MCP server config — contains API tokens injected via `claude mcp add --env`
+.mcp.json
+# Apify transient flag files
+.agent/apify-budget-warning.flag
 
 # Temporary files
 .tmp/

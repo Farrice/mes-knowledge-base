@@ -1,5 +1,5 @@
 ---
-description: Convert one-time sales into subscription revenue — the recurring revenue conversion playbook
+description: Convert one-time sales into subscription revenue
 ---
 
 # Recurring Revenue Converter

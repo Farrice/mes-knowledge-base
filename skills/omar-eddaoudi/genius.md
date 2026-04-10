@@ -62,6 +62,18 @@
 *   **The Silence Premium Edit**: Ruthlessly removes explanatory or "value for money" copy, allowing the visual presentation and the price point to communicate the product's inherent worth and exclusivity. → **Deploy when**: Reviewing ad copy, website headlines, product packaging, or any direct-to-consumer communication for luxury items.
 *   **The Anonymity Cure Statement**: Articulates the deeper, unspoken problem of being "just another person" that the luxury product uniquely solves, subtly positioning the product as a pathway to distinction. → **Deploy when**: Developing core brand messaging, high-level strategic positioning, or internal brand alignment documents.
 
+## Competence Rarity Architecture (The Earned Exclusivity Layer)
+
+For service businesses where expertise IS the product, manufactured exclusivity (artificial waitlists, cold aesthetics, application gates) feels performative. The prospect senses theater rather than scarcity. This layer addresses how luxury positioning becomes authentically earned when the bottleneck is cognitive, not material.
+
+- **What This Solves**: The existing frameworks assume a physical artifact with provenance. When applied to expertise-based businesses (consulting, coaching, advisory, content strategy), Controlled Distance can feel like hiding behind process, and Silence Premium can feel like hiding incompetence. This layer makes the exclusivity real.
+- **The Core Mechanism — Diagnostic Transparency**: Instead of removing utility language, demonstrate utility so advanced it becomes its own exclusion mechanism. The provider reveals their exact thinking process on the prospect's specific problem — not a generic framework, but a live diagnosis that exposes what the prospect has been missing. The prospect who cannot follow the reasoning self-selects out. The prospect who can follow it realizes no one else sees this way.
+- **Executable Behavior**: Replace friction gates (applications, waitlists) with **Cognitive Proof Events** — a single interaction where the provider demonstrates irreplaceable thinking on the prospect's actual situation. This is not a "free consultation" (which signals desperation). It is a controlled demonstration of what the prospect's current advisors are incapable of seeing. The scarcity is real: this level of diagnosis cannot be templated, automated, or delegated.
+- **The Inversion**: Traditional luxury says "I won't explain why I'm expensive." Earned exclusivity says "I will show you exactly why I'm expensive — and that explanation itself proves no one else can do this." The transparency IS the moat.
+- **Anti-Pattern**: Manufactured friction on expertise businesses (fake waitlists, "application required" when capacity exists, cold aesthetics on a warm-relationship service). These signal insecurity, not status. The test: if the friction disappeared tomorrow, would the service still feel premium? If not, the positioning is costume, not architecture.
+- **Deployment Context**: Service businesses, advisory firms, expert-led brands, coaching practices, agencies — any offer where the deliverable is thinking rather than a physical object.
+- **Success Metric**: Prospects who say "I've never had anyone explain my problem that way before" rather than "I love the aesthetic." The former signals genuine cognitive scarcity; the latter signals good graphic design.
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                      | Score 10 (Savant)                                                                                                    |

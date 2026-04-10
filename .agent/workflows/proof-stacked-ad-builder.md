@@ -1,5 +1,5 @@
 ---
-description: "Ads with multi-tier proof architecture — personal + social + third-party proof stacking for maximum cold-audience conversion"
+description: Ads with multi-tier proof architecture
 ---
 
 # Proof-Stacked Ad Builder

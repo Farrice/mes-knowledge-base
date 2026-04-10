@@ -1,5 +1,5 @@
 ---
-description: Find the ONE real, specific individual who embodies your ideal consumer — with search methodology and candidate profiles
+description: With search methodology and candidate profiles
 ---
 
 # /individual-consumer-finder — Real Human Consumer Search
@@ -38,6 +38,39 @@ Following the prompt's execution protocol:
 4. **GENERATE** — Search methodology: concrete, step-by-step protocol using available tools, organized into a 7-day timeline.
 5. **PRODUCE** — 3 candidate profiles with enough specificity to recognize them in the wild.
 6. **ESTABLISH** — Validation questions to confirm you found the right person.
+
+### 2.5. Pull Live Consumer Voices (Apify-First, Perplexity Fallback)
+
+Before producing candidate profiles, gather **raw consumer voices** from where they actually talk. Apify is the primary tool because it returns structured raw threads/posts, not parsed SERP fragments.
+
+**Step A — Reddit deep dive** (catches the introspective, problem-naming voices):
+
+```bash
+python execution/apify_client.py reddit "[brand category + specific pain point]" --limit 50 --comments
+# Optional: pull from specific subreddits if you know them
+python execution/apify_client.py reddit --subreddit [SubredditName] --limit 30 --comments
+```
+
+**Step B — Instagram/TikTok** (catches the performative, identity-signaling voices):
+
+```bash
+python execution/apify_client.py instagram [relevant_handle] --limit 20
+python execution/apify_client.py tiktok [relevant_hashtag] --limit 50
+```
+
+**Step C — Amazon reviews** (catches the post-purchase honest voices, only if there's a relevant product):
+
+```bash
+python execution/apify_client.py amazon "[adjacent product]" --limit 30
+```
+
+**Fallback Contract**: If ANY of the above returns `{"fallback": true}`, the Apify monthly cap is hit. Reroute that source to Perplexity:
+
+```
+Use perplexity_ask: "Find 20 representative quotes from real first-time home buyers in California discussing their specific pain points with the buying process. Focus on Reddit, Quora, and forum sources. Return verbatim quotes with source URLs."
+```
+
+**Synthesis**: After gathering raw voices, hand them to Perplexity (or the LLM if data is sufficient) for synthesis. Apify gathers, Perplexity interprets — never the reverse.
 
 ### 3. Deliver Output
 

@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "web",
+  "result_count": 1,
+  "cost_dollars": 0.003,
+  "spent_total": 0.1205,
+  "remaining_dollars": 28.8795,
+  "items": [
+    {
+      "crawl": {
+        "httpStatusCode": 200,
+        "httpStatusMessage": "OK",
+        "loadedAt": "2026-04-07T05:13:53.487Z",
+        "uniqueKey": "hwHTT8RPsl",
+        "requestStatus": "handled"
+      },
+      "metadata": {
+        "title": "Yakiya - Menu",
+        "languageCode": "en",
+        "url": "https://www.yakiya-us.com/menu",
+        "redirectedUrl": "https://www.yakiya-us.com/menu"
+      },
+      "query": "https://www.yakiya-us.com/menu",
+      "markdown": "Yakiya - Menu"
+    }
+  ]
+}

@@ -142,3 +142,14 @@ When deploying Roth's intelligence beyond screenwriting, maintain:
 *   **Score 4 (Acceptable)**: The content is informative, but after reading, no specific lines, images, or emotional moments stand out.
 *   **Score 7 (Good)**: Contains a few strong lines or ideas, but they might not coalesce into a truly unforgettable impression.
 *   **Score 10 (Savant)**: The content leaves a distinct "residue" – specific lines, vivid images, or profound emotional beats that stick with the reader long after they've finished. These elements emerge organically from the narrative, becoming the piece's identity in the reader's memory and defining its impact.
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Social Subtext Engine: Cinematic Stakes Architecture (Cross-Pollination)
+- **Source**: kallaway-word-mastery Emotional Stakes Architecture
+- **Hypothesis**: Adapting Emotional Stakes from rhetorical mode to cinematic/displacement mode would make Roth-informed writing create personal implication through scene, not direct address.
+- **Result**: KEPT — 7.5→8.3 (+0.8). Primary gain in emotional investment (6.5→8.5). Cinematic stakes operate THROUGH Roth's displacement, not alongside it.
+- **Change**: Added Phase 3.5 (Cinematic Stakes Architecture) with 5 CS mechanics: Recognition Shot (show scene reader lives), Erosion of Cost (render consequence as scene), Quiet Collision (erode belief through what happens, not what's said), Near-Miss Recognition (reader already knew), Identity Cast (who they become). 3 new quality gate checks.
+- **Lesson**: "Personal Mirror" becomes "Recognition Shot" in cinematic mode — you don't TELL the reader they do this, you SHOW the scene they live in. The adaptation preserves Roth's core principle: never address the reader directly, let the scene do the work.

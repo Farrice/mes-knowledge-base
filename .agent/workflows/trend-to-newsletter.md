@@ -1,5 +1,5 @@
 ---
-description: "Trending topic → audience pain → underserved opportunity → newsletter content angle"
+description: Trending topic → audience pain → underserved opportunity
 ---
 
 # Trend to Newsletter

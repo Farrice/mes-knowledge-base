@@ -1,5 +1,5 @@
 ---
-description: Rate the last expert output — quick feedback on routing quality.
+description: Rate the last expert output
 ---
 
 # /rate — Quick Output Rating

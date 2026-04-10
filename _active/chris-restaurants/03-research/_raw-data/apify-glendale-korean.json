@@ -1,0 +1,2088 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 10,
+  "cost_dollars": 0.07,
+  "spent_total": 0.5415,
+  "remaining_dollars": 28.4585,
+  "items": [
+    {
+      "title": "Beulah Kitchen",
+      "description": "Bulgolgi, soups & noodle dishes feature at this neighborhood go-to for Korean fare.",
+      "price": "$$",
+      "categoryName": "Korean restaurant",
+      "address": "1229 E Colorado St, Glendale, CA 91205",
+      "neighborhood": "Citrus Grove",
+      "street": "1229 E Colorado St",
+      "city": "Glendale",
+      "postalCode": "91205",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.beulahkitchen.com/",
+      "phone": "(818) 507-1185",
+      "phoneUnformatted": "+18185071185",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1427778,
+        "lng": -118.2383639
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ55HvrQ_BwoARw1d8k_e5iJg",
+      "categories": [
+        "Korean restaurant"
+      ],
+      "fid": "0x80c2c10fadef91e7:0x9888b9f7937c57c3",
+      "cid": "10991239363580155843",
+      "reviewsCount": 200,
+      "imagesCount": 153,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:02.919Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Beulah%20Kitchen&query_place_id=ChIJ55HvrQ_BwoARw1d8k_e5iJg",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer7j44Q3vMiiMNpSvN3t77U36KJiAO9NzUsIHu__32qS_RukRLTbiuieZLT5uO6pLt6rlnMQw138EMWtPbWNS5FFDKvtEnoLAk1-_w0CGCMu870w9beWCKwsv3db5NuyWSqMH0_=w426-h240-k-no",
+      "kgmid": "/g/1tg6ktpl"
+    },
+    {
+      "title": "Gen Korean BBQ House",
+      "description": "Local chain offering Korean BBQ grilled tableside & ban-chan in a trendy, modern setting.",
+      "price": "$20\u201330",
+      "categoryName": "Korean barbecue restaurant",
+      "address": "126 North N Artsakh Ave, Glendale, CA 91206",
+      "neighborhood": "Downtown",
+      "street": "126 North N Artsakh Ave",
+      "city": "Glendale",
+      "postalCode": "91206",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://genkoreanbbq.com/",
+      "phone": "(818) 637-6600",
+      "phoneUnformatted": "+18186376600",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.14732,
+        "lng": -118.253707
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJCVU89v_AwoARGX3B7AOhQrQ",
+      "categories": [
+        "Korean barbecue restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c0fff63c5509:0xb442a103ecc17d19",
+      "cid": "12989121313519009049",
+      "reviewsCount": 1486,
+      "imagesCount": 1019,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:02.919Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 11:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 11:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Gen%20Korean%20BBQ%20House&query_place_id=ChIJCVU89v_AwoARGX3B7AOhQrQ",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepPfXkUElD8bGOmpPqQm4v0qv7CuR-coCFUGN9EnYnvJP6_SqCaWbadzWebeSBRuaiCthmnsBUhiOrTNZRvxCiV_Rr03180bSOf1A3F0R-N_EWTlnn6coMK6t3C8YhDTP8OSBtMAA=w408-h272-k-no",
+      "kgmid": "/g/11g6xr9jm0"
+    },
+    {
+      "title": "Jincook",
+      "description": "Small pub with traditional dishes like short rib or Japanese favorites like katsu.",
+      "price": "$20\u201330",
+      "categoryName": "Korean restaurant",
+      "address": "310 N Brand Blvd, Glendale, CA 91203",
+      "neighborhood": "Downtown",
+      "street": "310 N Brand Blvd",
+      "city": "Glendale",
+      "postalCode": "91203",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.jincooks.com/",
+      "phone": "(818) 637-7820",
+      "phoneUnformatted": "+18186377820",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1503726,
+        "lng": -118.2546657
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ_a53wXrBwoARnaE_33vFSrY",
+      "categories": [
+        "Korean restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c17ac177aefd:0xb64ac57bdf3fa19d",
+      "cid": "13135528398996611485",
+      "reviewsCount": 334,
+      "imagesCount": 948,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:02.921Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 12\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Jincook&query_place_id=ChIJ_a53wXrBwoARnaE_33vFSrY",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 19,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep0TeEKvQKodSg2jA6Pbd9xHT1eWc554E1SpKwgwcTbFg1EPLEH24lYjfcvA1kQgRcR_hy-ONJ_IE7tqANME2GAaA6jqs8-Rv3mB4xRCilhJl-wVSn5w_xke8HWXzJaYxQxt3o=w408-h306-k-no",
+      "kgmid": "/g/11h_t62x04"
+    },
+    {
+      "title": "Fuji Buffet & Grill",
+      "description": "Enormous, casual Japanese buffet serving everything from sushi & barbecue to salads & dessert.",
+      "price": "$$",
+      "categoryName": "Japanese restaurant",
+      "address": "300 Harvey Dr, Glendale, CA 91206",
+      "neighborhood": "Woodbury",
+      "street": "300 Harvey Dr",
+      "city": "Glendale",
+      "postalCode": "91206",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://fujibuffetgrill.co/",
+      "phone": "(818) 553-1688",
+      "phoneUnformatted": "+18185531688",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1482729,
+        "lng": -118.2277356
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ4_UlZ3PBwoARN_1DczlLyQw",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Buffet restaurant",
+        "Seafood restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2c1736725f5e3:0xcc94b397343fd37",
+      "cid": "921350308893031735",
+      "reviewsCount": 3007,
+      "reviewsDistribution": {
+        "oneStar": 263,
+        "twoStar": 165,
+        "threeStar": 343,
+        "fourStar": 727,
+        "fiveStar": 1509
+      },
+      "imagesCount": 2349,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:04.017Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Drive-through": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Salad bar": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "updatesFromCustomers": {
+        "text": "Omg everything is so delicious. A variety of food and everything is so fresh. Service is exceptional. It's definitely worth every penny.",
+        "language": "en",
+        "postDate": "3 months ago",
+        "postedBy": {
+          "name": "Aranda's",
+          "url": "https://www.google.com/maps/contrib/106316855205427271809?hl=en-US",
+          "title": null,
+          "totalReviews": 8
+        },
+        "media": [
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9puSGS25afKFLibj2RnsX-Cck9lF720rdDHeO6GUnXxcmSVccU5D_OsdHRG5hT0fO7uTRyPJ5q316MdQrVgFq44Ar6CMncWyQbziAvVe9MogDBLGikkeas_OveP-HoDMWmPHMUDThwRPP0hz",
+            "postDate": "3 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9ptPbCFMz59-oYQjWzmAXFNy4jIxl5UDbYsNtZr2CgOUFYk3gzJxtrhgbGrMD0slHjNHt1iwntiWoOXIvmpOODS_F3FeDhHu9yeC_3Ld5yEktTgHQf9uuDB4Z5Gnf9O2HUfPvzSCIC0ZMqr-",
+            "postDate": "3 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9punTyruReb8jFYqhJ2FkwwIiyTx9h0l1ony24Xkb6kUYY_sWdEBy_u6nw2rTgfCsdr-ULft7JyOkqbP4XMVXsgLPngGS9R8hsTofkDy4KvqyRz_rCdLCA5YStcmhpTsX6ZRpblI0MXkc5F5",
+            "postDate": "3 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9pvSGsSzgk02s2r5FnTHIgB5o5f96BgO_rMtMAyl5XyX7_VOY4X4SgjHy6yfD7VvlJ_DIpi0YFqnPHdBXQkCjZVk9oLfx3e2D6vyYiEwpmGMEaW6AKp4Xr8gFl64QL4ib6Mmdkey3FwRxhs",
+            "postDate": "3 months ago"
+          },
+          {
+            "link": "https://lh3.googleusercontent.com/geougc-cs/ABOP9puPjQTlIWyNhxAqjgaumOWN7oPJY-GseQCnWxor4HyRCCW3M4-qR0hVF2KTUDVHadcMUd2lsV9lL8uFJOmjwOHe0XIcSi9eRkWOdDSPhI-vwnd01nZIPPlb2gRIxG2AI2IlA_9_oykc905o",
+            "postDate": "3 months ago"
+          }
+        ]
+      },
+      "url": "https://www.google.com/maps/search/?api=1&query=Fuji%20Buffet%20%26%20Grill&query_place_id=ChIJ4_UlZ3PBwoARN_1DczlLyQw",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.15039099250029,-118.2190498277965,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 21,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerA3n6zoysf40Z9hzQ1u4hq-YiTm1FNEjqJ8GlPDF2CK4mEn6_hu2mGXLYtKhR4GgSgDUdZGo1-m7hGiOfHcVXDOuGdfxrMbvbkTsLkdkxvqNf5k3c3QZdzBSHpV99dK1JRrNE=w426-h240-k-no",
+      "kgmid": "/g/11_53xnvf"
+    },
+    {
+      "title": "Mitzee Cafe",
+      "price": "$10\u201320",
+      "categoryName": "Korean restaurant",
+      "address": "721 S Central Ave B, Glendale, CA 91204",
+      "neighborhood": "Pacific - Edison",
+      "street": "721 S Central Ave B",
+      "city": "Glendale",
+      "postalCode": "91204",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://mitzeecafe.com/",
+      "phone": "(818) 243-8078",
+      "phoneUnformatted": "+18182438078",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1368979,
+        "lng": -118.2583901
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ9d4hpfzAwoARIrp3Y-nS934",
+      "categories": [
+        "Korean restaurant"
+      ],
+      "fid": "0x80c2c0fca521def5:0x7ef7d2e96377ba22",
+      "cid": "9149013067864455714",
+      "reviewsCount": 157,
+      "imagesCount": 53,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:07.379Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:30\u202fAM to 7:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Mitzee%20Cafe&query_place_id=ChIJ9d4hpfzAwoARIrp3Y-nS934",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.13618867333372,-118.27051517220355,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 15,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoN6qtKNZniWCyPLsqDLzb0fAEdkW4WxO1QY_D-rDYpIvhtJlOGoiZRBSVXZjfcnnnXoSbuyhfE4ON3m3nawt09-vOX6PfnYzQJ0U-EjarfDZHAHMK_CeTrfpueWLsSH0XJqFUJ=w426-h240-k-no",
+      "kgmid": "/g/1wv_sh3n"
+    },
+    {
+      "title": "bb.q Chicken Glendale",
+      "price": "$10\u201320",
+      "categoryName": "Korean restaurant",
+      "address": "107 E Broadway, Glendale, CA 91205",
+      "neighborhood": "Downtown",
+      "street": "107 E Broadway",
+      "city": "Glendale",
+      "postalCode": "91205",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://bbqchicken.com/",
+      "phone": "(818) 822-6522",
+      "phoneUnformatted": "+18188226522",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1464143,
+        "lng": -118.2544159
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJrRs2lajBwoARDy8mmZn-bCU",
+      "categories": [
+        "Korean restaurant",
+        "Chicken restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c1a895361bad:0x256cfe9999262f0f",
+      "cid": "2696810212540952335",
+      "reviewsCount": 112,
+      "imagesCount": 138,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:07.379Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=bb.q%20Chicken%20Glendale&query_place_id=ChIJrRs2lajBwoARDy8mmZn-bCU",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.13618867333372,-118.27051517220355,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXgf97FrYqCYDTShHSvgAEKHeEl8KtzVotfLx26zZcd3h10RFLO878lkrBrfFaSGn7OBRSFC4aBMRHnqlhpcYcX5T_FfycXYz7EQc4wNVIbNTZo_AqIjbwBFPqpf2zKbjRVyj19A=w408-h408-k-no",
+      "kgmid": "/g/11vd273p3_"
+    },
+    {
+      "title": "Chamsutgol BBQ",
+      "price": "$30\u201350",
+      "categoryName": "Korean barbecue restaurant",
+      "address": "3731 Foothill Blvd suite H&J, Glendale, CA 91214",
+      "neighborhood": "Crescenta Highlands",
+      "street": "3731 Foothill Blvd suite H&J",
+      "city": "Glendale",
+      "postalCode": "91214",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.seoulchamsootbbq.com/",
+      "phone": "(818) 369-7844",
+      "phoneUnformatted": "+18183697844",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.2375049,
+        "lng": -118.2606989
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJvZyM1P3rwoARre8NWJpVGM8",
+      "categories": [
+        "Korean barbecue restaurant"
+      ],
+      "fid": "0x80c2ebfdd48c9cbd:0xcf18559a580defad",
+      "cid": "14922771486682771373",
+      "reviewsCount": 42,
+      "imagesCount": 71,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:08.456Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Chamsutgol%20BBQ&query_place_id=ChIJvZyM1P3rwoARre8NWJpVGM8",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo5KHhVj08wLNkgqNTB6Iosx1TiFVcJ_dG48JZTuAVEe3ih7ny96cXTrY_KR6bqrfACzXTuRWS4t_0Zh9iaBteXDWZZhha90NKQpMFDgH__SPQwuIZlXaWU40EGSOkQ-NsS5i7z=w408-h544-k-no",
+      "kgmid": "/g/11l2w2_ytz"
+    },
+    {
+      "title": "Cho Dang Tofu & BBQ",
+      "price": "$20\u201330",
+      "categoryName": "Korean restaurant",
+      "address": "2043 Verdugo Blvd, Montrose, CA 91020",
+      "neighborhood": "Montrose",
+      "street": "2043 Verdugo Blvd",
+      "city": "Montrose",
+      "postalCode": "91020",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://chodangtofuandbbq.great-site.net/",
+      "phone": "(818) 249-2182",
+      "phoneUnformatted": "+18182492182",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.2055904,
+        "lng": -118.2219229
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJjQKauuvBwoARV0zuXuHfkXk",
+      "categories": [
+        "Korean restaurant",
+        "Restaurant",
+        "Tofu restaurant"
+      ],
+      "fid": "0x80c2c1ebba9a028d:0x7991dfe15eee4c57",
+      "cid": "8760028909265636439",
+      "reviewsCount": 205,
+      "imagesCount": 246,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:08.457Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Cho%20Dang%20Tofu%20%26%20BBQ&query_place_id=ChIJjQKauuvBwoARV0zuXuHfkXk",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 11,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo_fusQQLxQ9dnMYZdZwbrMJSw-Trcdm9M3jDxZpOz07MM4fmzFKw5osGA8NcIeS0LBJdCccmC1p_GxIcgscMKj7QQ8y3m3fIfW4vib3Mr4WeoRzsYoDxRIGdXixXZAnMSg9XqTXDWXWis=w426-h240-k-no",
+      "kgmid": "/g/1tksnmt5"
+    },
+    {
+      "title": "MISO",
+      "price": "$20\u201330",
+      "categoryName": "Restaurant",
+      "address": "3839 Foothill Blvd, Glendale, CA 91214",
+      "neighborhood": "Crescenta Highlands",
+      "street": "3839 Foothill Blvd",
+      "city": "Glendale",
+      "postalCode": "91214",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 369-7711",
+      "phoneUnformatted": "+18183697711",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.2387489,
+        "lng": -118.263073
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJTaLYxg_rwoARiJbrBgMHsEA",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2eb0fc6d8a24d:0x40b0070306eb9688",
+      "cid": "4661233323910862472",
+      "reviewsCount": 194,
+      "imagesCount": 191,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:08.462Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 8\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=MISO&query_place_id=ChIJTaLYxg_rwoARiJbrBgMHsEA",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.20720026916658,-118.27051517220355,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 19,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKfbLWHU75TfLQoHW0N8jeP3VCu_6jMUK4_dfivY2leGQGFUYNNHI9ha5sodrHNsXM5VmlwanMDGGe6cr5rsLzr5rPS_-CKfLJB-0EPd4IKsdlnji_u2DPWDMVmnj0TW9qtWioDhwN-Xi4=w408-h306-k-no",
+      "kgmid": "/g/11g7zffqz3"
+    },
+    {
+      "title": "HOT WINGS PARADISE",
+      "price": "$10\u201320",
+      "categoryName": "Restaurant",
+      "address": "604 W Glenoaks Blvd, Glendale, CA 91202",
+      "neighborhood": "Fremont Park",
+      "street": "604 W Glenoaks Blvd",
+      "city": "Glendale",
+      "postalCode": "91202",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 927-0077",
+      "phoneUnformatted": "+18189270077",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1592401,
+        "lng": -118.2672573
+      },
+      "totalScore": 4.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ50vxDgDBwoARSAjQ9_kdMOc",
+      "categories": [
+        "Restaurant",
+        "Fried chicken takeaway"
+      ],
+      "fid": "0x80c2c1000ef14be7:0xe7301df9f7d00848",
+      "cid": "16658847981085132872",
+      "reviewsCount": 128,
+      "imagesCount": 54,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:18:22.483Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12\u202fPM to 12\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=HOT%20WINGS%20PARADISE&query_place_id=ChIJ50vxDgDBwoARSAjQ9_kdMOc",
+      "searchPageUrl": "https://www.google.com/maps/search/Korean%20BBQ%20restaurant/@34.16459331166686,-118.27051517220355,16z?hl=en",
+      "searchString": "Korean BBQ restaurant",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq-oH7crQ7orJNIlf3uAstc9SDDGvH9-zoGSG2FX65yIClziCVMA1uvqK4Q0k83z4k7QKalvPJ0B1bPBP9H40nYBoW6zBuU7vCQCNoQZdycqxzP3yCmR9Lpg_p3MKwhECDDb1ut=w408-h544-k-no",
+      "kgmid": "/g/11wxphs3xd"
+    }
+  ]
+}

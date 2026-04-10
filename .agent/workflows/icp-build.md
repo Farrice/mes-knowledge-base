@@ -1,5 +1,5 @@
 ---
-description: Build the ICP intelligence output — Consumer Posture Profile + Individual Finder + Internal World Stories from research data
+description: Build the ICP intelligence output
 ---
 
 # /icp-build — Consumer Intelligence Build Phase

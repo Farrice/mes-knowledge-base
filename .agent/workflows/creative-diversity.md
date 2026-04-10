@@ -1,5 +1,5 @@
 ---
-description: "Meta Andromeda creative diversity system — Composition × Vibe matrix, awareness-level segmentation, creative fatigue rotation"
+description: Meta Andromeda creative diversity system
 ---
 
 ## Workflow: Creative Diversity Engine

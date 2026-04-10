@@ -1,5 +1,5 @@
 ---
-description: Upwork Domination Blueprint — 90-day system for freelance copywriting success on Upwork using Luke Iha's methodology
+description: Upwork Domination Blueprint
 ---
 
 ## Workflow: Upwork Domination Blueprint

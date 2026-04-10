@@ -133,6 +133,18 @@
 *   **The Profile Funnel Map**: Approaches the LinkedIn profile (banner, tagline, featured section) not as a biography, but as a multi-stage landing page. Each element is visually and semantically optimized to guide visitors towards a single, primary conversion objective (e.g., newsletter signup, waitlist registration). → **Deploy when**: Before launching any major growth initiative or when conversion rates from profile views are low.
 *   **The Gravedigger Detail Injection**: Systematically balances data-driven "cheat sheets" with "failure" and "storytelling" carousels or anecdotes. Understands that while tactics attract, human vulnerability and narrative depth are essential for building the para-social bond required for high-ticket conversion. → **Deploy when**: Balancing the weekly content calendar, ensuring a mix of analytical and emotionally resonant content.
 
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+> Each entry documents a hypothesis, result, and lesson.
+
+### 2026-04-09 — Visitor Intent Triage (Profile Conversion Blueprint)
+- **Hypothesis**: Adding a Phase 0 that maps 5 visitor entry points (Post Reader, Search Discoverer, Comment Stalker, Referral Visitor, Cold Outreach Target) to awareness states, assigns profile sections to primary visitor types, engineers 3-tier pre-qualification, and provides a conversion drop-off diagnostic would make profiles convert across visitor types instead of treating all visitors identically.
+- **Result**: KEPT — Score improved from 6.3 to 8.3 (+2.0)
+- **Change**: Added Phase 0 (Visitor Intent Triage) with 4 steps: Entry Point Mapping, Section-to-Visitor Conversion Map, Pre-Qualification Engineering (Ready Now/Warming/Just Looking), Conversion Drop-Off Diagnosis Template. Added Visitor-Aware Tagline Test, Visitor-Aware About Test, Readiness-Tier Alignment, 3-Second Rule, and 2 new Quality Gate checks. Strictly additive — all original phases preserved.
+- **Benchmark scores**: Baseline [7, 7, 5] → Variant [9, 8, 8]
+- **Lesson**: The biggest gap in profile optimization is not "how to write each section" but "who is each section FOR." Adversarial resilience jumps +3 when you can answer "why does a search discoverer and a post reader need to see different things?"
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                                  | Score 4 (Acceptable)                                                                                                                             | Score 7 (Good)                                                                                                                                                           | Score 10 (Savant)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |

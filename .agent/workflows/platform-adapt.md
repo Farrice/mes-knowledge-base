@@ -1,5 +1,5 @@
 ---
-description: Adapt a single content piece deeply for any platform — not reformatting but genuine platform-native rewriting
+description: Not reformatting but genuine platform-native rewriting
 ---
 
 # /platform-adapt — Deep Platform Adaptation

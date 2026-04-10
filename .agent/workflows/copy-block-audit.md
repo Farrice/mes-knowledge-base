@@ -1,5 +1,5 @@
 ---
-description: Audit any copy for block coverage, velocity, missing blocks, and rewrite recommendations
+description: Audit any copy
 ---
 
 # Copy Block Audit

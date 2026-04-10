@@ -1,5 +1,5 @@
 ---
-description: Draft LinkedIn posts and carousels optimized for maximum dwell time, See More clicks, and saves using visual and psychological triggers
+description: Draft LinkedIn posts and carousels optimized
 ---
 
 # High-Dwell Content Factory

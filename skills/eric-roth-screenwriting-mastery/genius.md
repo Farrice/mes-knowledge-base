@@ -97,3 +97,15 @@ When embodying Roth's voice:
 | **Character "Wallet" Resonance** | Characters are defined by their actions and visible traits; internal lives are broadly sketched. | Characters have a few distinct quirks, but their inner contradictions or hidden details are rarely felt. | Each character feels like an aggregate of specific, often contradictory, inner and outer details, giving them a psychologically true, distinct voice. |
 | **Thematic Gravitational Pull** | Theme is a message or lesson explicitly stated or clearly demonstrated by the plot. | Theme is identifiable, but its presence can feel heavy-handed or disconnected from some scenes. | Theme acts as a subtle gravitational field, unifying every scene and character choice without ever being stated, creating profound coherence. |
 | **Fanciful-Real Paradox** | Characters are either strictly realistic (documentary-like) or purely caricatured (unbelievable). | Characters lean towards realism but occasionally feel generic, or lean towards caricature but lack emotional depth. | Characters are explicitly "fanciful" and "unreal" yet possess such specific, authentic psychology that audiences weep for them. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Screenplay Architect: Subconscious Accumulation Architecture
+
+- **Hypothesis**: Adding invisible emotional pressure engineering (scene-over-scene micro-deposits that compound beneath conscious awareness) will make screenplay output feel more emotionally inevitable — endings that arrive as if they were always the only destination.
+- **Change**: Added Step 5.5 (Subconscious Accumulation Architecture) with 5 mechanics: Echo Planting (sensory details that mutate across acts), Absence Architecture (the shape of what's never said), Behavioral Drift Mapping (invisible incremental character shift), Thematic Pressure Points (3 scenes forming the invisible spine), Convergence Tightening (parallel threads that begin rhyming gravitationally). Accumulation Map output format. 3 new quality gate checks.
+- **Benchmark**: "Write a 1-page screenplay scene: S&C coach's first meeting with a skeptical executive client who doesn't believe in coaching"
+- **Result**: KEPT. Baseline 7.3 → Variant 8.7 (+1.4). Phone drift from single beat to four-stage behavioral sequence. "My wife" absence seed. Standing-vs-sitting physical vocabulary. Window washer posture rhyming with protagonist's refusal to lean. Expert Standard +2, Adversarial +1.
+- **File**: `workflows/screenplay-architect.md` (baseline preserved as `screenplay-architect.baseline.md`)

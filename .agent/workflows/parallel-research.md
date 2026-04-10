@@ -1,5 +1,5 @@
 ---
-description: Deploy 3 research agents in parallel to investigate different angles of a topic simultaneously
+description: Deploy 3 research agents in parallel to investigate
 ---
 
 # /parallel-research — Parallel Research Team

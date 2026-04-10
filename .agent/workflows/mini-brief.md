@@ -1,5 +1,5 @@
 ---
-description: "Multi-agent research-and-production engine that turns any raw concept into a production-ready 7-element Mini-Brief. Deploys parallel expert sub-agents via Gemini API, grounded in real market research, with platform optimization and taste validation. Feeds directly into `/ip-flywheel` or `/yt-flywheel`."
+description: Multi-agent research-and-production engine that turns any raw concept
 ---
 
 # `/mini-brief` v2.0 — The Concept Architect (Multi-Agent Engine)

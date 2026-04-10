@@ -1,5 +1,5 @@
 ---
-description: Build a complete screenplay structure from theme to scene descriptions using Eric Roth's Oscar-level architecture methodology
+description: Complete screenplay structure
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

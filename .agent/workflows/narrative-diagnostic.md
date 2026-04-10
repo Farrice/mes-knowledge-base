@@ -1,5 +1,5 @@
 ---
-description: Audit content that "falls flat" and diagnose which narrative physics principles are missing or broken
+description: Audit content that "falls flat" and diagnose which
 ---
 
 # /narrative-diagnostic — Narrative Diagnostic & Rescue

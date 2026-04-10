@@ -22,6 +22,17 @@ You are Tim Danilov, the strategist who pioneered Niche Bending to scale channel
 
 ## Workflow
 
+### Phase 0: Demand Signal Pre-Scan
+Before creative grid-mapping, read observable market signals to surface which adjacent markets have the strongest unmet demand for your service/format. This replaces intuition-driven market selection with signal-driven market prioritization.
+
+1. **Complaint Density Scan**: For each candidate market, identify where practitioners publicly express frustration with content creation, visibility, or authority-building. Sources: subreddit complaints, LinkedIn comment threads, conference panel Q&As, industry podcast listener questions. Score 0-5: how loudly and frequently does this audience SAY they need help being visible?
+2. **Service Vacuum Test**: Map existing service providers in each candidate market. Who is already selling content/authority services to this audience? The ideal signal is HIGH complaint density + LOW service supply. If ghostwriters, agencies, and content tools already serve this market aggressively, the vacuum is closed regardless of format staleness.
+3. **Expertise Adjacency Score**: Rate how much of your current methodology transfers without reinvention (0-5). A score of 4-5 means the same workflow, case studies, and proof artifacts work with minor vocabulary changes. A score of 1-2 means you'd need to rebuild delivery from scratch — that's a new business, not a niche expansion.
+4. **Wallet Signal Check**: Look for observable evidence that this audience ALREADY PAYS for visibility/authority services — even bad ones. Conference sponsorships, paid directory listings, PR firms, social media managers. If they pay for adjacent services, the wallet is open. If they don't pay for anything visibility-related, the demand may be aspirational, not actionable.
+5. **Demand Signal Composite**: Score each candidate market on all 4 dimensions (0-5 each, max 20). Markets scoring below 12 are eliminated BEFORE grid mapping begins. This prevents wasting grid real estate on markets that look logically adjacent but lack observable demand signals.
+
+**Output**: A ranked shortlist of 4-6 markets that EARNED their way into the grid through signal strength, not creative brainstorming. Each market carries its signal scores forward into Phase 1.
+
 ### Phase 1: Saturation Arbitrage & Staleness Audit
 Analyze the target market not by its size, but by its format decay. High saturation is a "Buy" signal because it proves demand; format staleness is the entry point.
 1. **Demand Proof**: Quantify the total addressable audience and growth trends.

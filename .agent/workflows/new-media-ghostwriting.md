@@ -1,5 +1,5 @@
 ---
-description: "Premium ghostwriting with new media positioning — build media empires, not just write posts. Nicolas Cole + a16z founder voice + oral/written culture"
+description: Premium ghostwriting with new media positioning
 ---
 
 # /new-media-ghostwriting — Build Media Empires, Not Just Posts

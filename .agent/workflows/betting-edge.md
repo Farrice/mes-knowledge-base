@@ -1,5 +1,5 @@
 ---
-description: "NBA Betting Edge — systematic player prop analysis using behavioral finance principles, statistical edge detection, and correlation-aware parlay construction with Kelly criterion bankroll discipline"
+description: NBA Betting Edge
 ---
 
 # /betting-edge — NBA Betting Edge

@@ -1,0 +1,24 @@
+{
+  "skill": "tom-noske-content-creation",
+  "workflow": "01-zone-of-genius-format-finder",
+  "timestamp": "2026-04-09T13:35:00Z",
+  "hypothesis": "Adding Creative Energy Allocation Architecture (Phase 4.5) — PEAK/CRUISE/COAST energy triage within single creation sessions — will make the Format Blueprint actionable at the session level, not just the format level",
+  "target": "Intent Alignment + Adversarial Resilience",
+  "benchmark_task": "Design a content creation system for Authority Flywheel that maximizes quality while minimizing creative drain",
+  "baseline_scores": {
+    "intent_alignment": 6,
+    "expert_standard": 7,
+    "adversarial_resilience": 6,
+    "composite": 6.3
+  },
+  "variant_scores": {
+    "intent_alignment": 8,
+    "expert_standard": 8,
+    "adversarial_resilience": 8,
+    "composite": 8.0
+  },
+  "delta": 1.7,
+  "result": "KEPT",
+  "change_description": "Phase 4.5: Creative Energy Allocation Map. 3-step process: (1) Moment Mapping — classify every phase of creation session as PEAK/CRUISE/COAST, (2) Energy Budget — 60-70% to PEAK, 20-25% CRUISE, 5-15% COAST, (3) Pre-Session Energy Priming — one question before each session. Micro-complement to GP-3 Effort Topology. Anti-pattern: spending >20% on COAST = subsidizing invisible work at expense of visible quality.",
+  "notes": "Baseline diagnosed WHAT format to use but not WHERE to invest energy within each session. Variant fills the 'I know my format but still spend 2 hours per piece' gap. Strictly additive — inserted between Phase 4 (Format Blueprint) and Phase 5 (Shield Removal). First tom-noske-content-creation evolution."
+}

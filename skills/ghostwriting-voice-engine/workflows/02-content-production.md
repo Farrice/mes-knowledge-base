@@ -90,6 +90,26 @@ Default distribution (no pillar mix specified): 3 posts = 1 edu/1 story/1 opinio
 
 ---
 
+### Phase 3.5: Reasoning Pattern Deployment
+
+*Goal: Make the post THINK like the client, not just sound like them. Deploy the Reasoning Architecture extracted in the Voice Profile to ensure the argument unfolds through the client's cognitive pathway.*
+
+**Pre-Check**: Locate the Reasoning Architecture section in the Voice Profile. If absent (older profiles), skip this phase — but flag the profile for Phase 3.5 extraction at the next capture cycle.
+
+**Steps:**
+
+1. **Verify Cognitive Sequence.** Check each draft: does the argument follow the client's documented PRIMARY reasoning sequence? If the client is an inductive thinker (observation -> principle), the post must START from something concrete they'd observe, not from an abstract claim. If they're a diagnostic thinker (problem-first), the post opens with what's broken. Match the sequence, not just the content.
+
+2. **Deploy Proof Construction Pattern.** Check how evidence enters each draft. If the client uses scene-first proof (concrete visual -> explanation -> implication), ensure at least one proof moment follows that structure. If they use trace-back (symptom -> upstream cause -> root), the post should contain at least one moment where the argument moves BACKWARD through a causal chain to a non-obvious root.
+
+3. **Signature Reasoning Move Check.** Does at least one post in the batch deploy the client's characteristic reasoning move? This is the moment in the post where the reader thinks "this person SEES things differently." It's the cognitive equivalent of a voice marker — protect it the same way you'd protect a signature phrase.
+
+4. **The Thinking Test.** For each draft, ask: "Could I reconstruct the client's reasoning process from this post? Does the reader come away understanding not just WHAT the client thinks, but HOW they arrived there?" If the post delivers a conclusion without showing the cognitive pathway, it's a belief statement, not a thought piece. Revise to show the path.
+
+**Integration note**: Reasoning patterns are PROTECTED during refinement (Phase 4) the same way voice markers are. If a reasoning sequence feels "inefficient" but matches how the client actually thinks through problems, it stays. The client's cognitive pathway is a feature, not a bug.
+
+---
+
 ### Phase 4: Nicolas Cole Refinement Pass
 
 *Goal: Sharpen every sentence without destroying a single voice marker. Surgery, not demolition.*

@@ -1,5 +1,5 @@
 ---
-description: "Choose high-sensitivity niches where voice writing commands premium fees and irreplaceability"
+description: Choose high-sensitivity niches where voice writing commands premium
 ---
 
 # /voice-niche — Voice Niche Positioner

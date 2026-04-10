@@ -1,5 +1,5 @@
 ---
-description: "End-to-end master copywriting engine — produces the highest-level copy for ANY platform (YouTube scripts, LinkedIn, Instagram, articles, Substack, newsletters, emails, ads, sales pages, Twitter threads, carousels) with proof ladder + storytelling + mechanism fusion"
+description: End-to-end master copywriting engine
 ---
 
 # Proof Copy Engine — Master Workflow

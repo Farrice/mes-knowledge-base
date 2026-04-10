@@ -178,6 +178,81 @@ After 2 weeks of tracked data:
 
 ---
 
+## Step 6: Client Commitment Compounding Architecture
+
+### Purpose
+The CR × OU formula gets clients in the door. This phase keeps them — and compounds their value. Retention is the highest-leverage variable in the business: a 12-month client at $3K/mo is worth 12× more than a one-month project, with zero acquisition cost after month 1.
+
+**Core extension of Luke's proof philosophy**: The proof ladder doesn't stop at acquisition. Every month inside a client relationship adds a rung that makes you harder to replace.
+
+### 6A: Satisfaction Drift Detection
+
+Five early warning signals that precede cancellation by 2-6 weeks. Monitor weekly.
+
+| Signal | What It Looks Like | Severity |
+|--------|-------------------|----------|
+| **Response Lag Acceleration** | Reply times increasing >50% over 2-week window | Early |
+| **Feedback Flattening** | Specific praise/critique → "looks good" / "fine" | Early |
+| **Scope Creep Silence** | Accepting deliverables without pushback — they've stopped caring enough to critique | Medium |
+| **Meeting Energy Drop** | Shorter calls, fewer questions, camera off, cancellations | Medium |
+| **Results Disengagement** | Stopped asking about metrics they used to obsess over | Critical |
+
+**The key insight**: Clients don't cancel when they're angry. They cancel when they're indifferent. Anger means they still care. Silence is the real threat.
+
+### 6B: Commitment Milestone Architecture
+
+Structured wins that make leaving feel like losing accumulated value.
+
+| Timing | Milestone | What It Creates |
+|--------|-----------|----------------|
+| **Week 1** | Quick Win Delivery — visible result before first invoice lands | Reciprocity + "this was the right decision" confirmation |
+| **Month 1** | Proof Artifact — co-create a case study about THEIR results (they now have skin in your success) | Shared ownership of the narrative |
+| **Month 3** | System Ownership — they start using your language/frameworks internally | Switching cost = retraining their own team |
+| **Month 6** | Institutional Memory — you know things about their business no replacement could quickly learn | Replacement cost = months of ramp-up |
+| **Month 9** | Strategic Partner Status — invited to planning conversations, not just execution briefs | Identity shift: you're "their strategist," not "a vendor" |
+
+**Anti-pattern**: Milestones must be EARNED, not manufactured. If Month 3 system ownership hasn't happened naturally, the work isn't good enough — fix the work, don't fake the milestone.
+
+### 6C: Partner Transformation Protocol
+
+Three behavioral shifts that convert a customer into a partner:
+
+1. **Proactive Intelligence Sharing** — Send relevant industry insight, competitor creative, or market shifts BEFORE they ask. Cost: 10 minutes/week. Signal: "I'm watching your space even when you're not paying me to."
+
+2. **Honest Pushback Moments** — Disagree with a client request using data at least once per quarter. Proves you're invested in outcomes, not compliance. "I know you want X, but here's why Y will perform better — here's the data." Clients who get pushback retain 2-3× longer than clients who get yes-men.
+
+3. **Future-State Conversations** — Discuss where they'll be in 6 months during every monthly check-in. Anchors the relationship to forward trajectory, not backward deliverables. "By Q3, if we keep this trajectory, you'll have [specific outcome]."
+
+### 6D: Intervention Playbook
+
+When drift signals trigger, respond by tier — don't wait for the cancellation email.
+
+| Tier | Trigger | Response |
+|------|---------|----------|
+| **Tier 1** (1-2 signals) | Proactive win delivery — surface a quick result or insight without being asked. Re-engage with value, not with "checking in." |
+| **Tier 2** (3 signals) | Direct conversation: "I want to make sure we're maximizing value for you. What's changed in your priorities?" Frame as strategic alignment, not desperation. |
+| **Tier 3** (4-5 signals) | Relationship reset — propose restructured scope/deliverables that show you've noticed the shift. "Here's what I'd change if we were starting fresh today." |
+
+**Never**: Send a "just checking in" email. It signals you have nothing to offer.
+**Always**: Lead interventions with value — a win, an insight, a restructured plan.
+
+### 6E: Retention Compounding Formula
+
+Extension of CR × OU into lifetime value:
+
+```
+Lifetime Value = Retention Rate × Referral Rate × Scope Expansion
+```
+
+Track monthly:
+- **Retention**: Are they renewing without negotiation?
+- **Referral**: Have they sent you a lead this quarter? (Highest CR channel — Step 5)
+- **Expansion**: Is scope growing? New channels, higher budgets, strategic involvement?
+
+**The compound effect**: A client who stays 12 months, refers 2 others, and expands scope 2× is worth 24× a one-month project. This is where the real CR × OU leverage lives — acquisition gets you started, retention makes you wealthy.
+
+---
+
 ## Quality Gate
 
 - [ ] CR × OU formula understood and articulated
@@ -185,6 +260,9 @@ After 2 weeks of tracked data:
 - [ ] POP stack diagnosed (which element is weakest?)
 - [ ] Daily outreach system scheduled with specific time block
 - [ ] 2-week tracking commitment made with review date set
+- [ ] Drift detection signals identified for current/target clients
+- [ ] First 3 commitment milestones mapped with specific deliverables
+- [ ] Partner transformation behaviors scheduled (intelligence sharing, pushback, future-state)
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

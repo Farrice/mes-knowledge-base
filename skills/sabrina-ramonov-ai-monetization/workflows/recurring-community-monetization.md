@@ -80,12 +80,54 @@ The user will receive a **High-Retention Community Offer & Moat Blueprint** cont
 4.  **Moat System**: A Win-Collection framework and a "Spotlight" template for turning results into marketing.
 5.  **Retention Playbook**: Monthly rituals and re-engagement campaigns to minimize churn.
 
+### Phase 6: Revenue Portfolio Architecture (Post-Stability Diversification)
+*Activates ONLY after the community reaches stable recurring revenue (60+ members, <8% monthly churn). This is NOT Phase 1 thinking — it is the strategic evolution that prevents single-platform collapse once the foundation is proven.*
+
+**The Principle**: A single revenue stream is a single point of failure. Sabrina's Lock-In Protocol correctly prevents premature diversification — most people scatter before anything works. But once the community IS working, staying mono-stream is a different kind of risk: platform dependency, subscription fatigue, and ceiling effects. Revenue Portfolio Architecture sequences additional streams so each one HEDGES the others while being FED BY the community.
+
+**The Portfolio Hedging Matrix**:
+
+Every revenue stream has a vulnerability. The portfolio is designed so that when one stream weakens, another strengthens.
+
+| Stream | Vulnerability | Hedged By | Fed By |
+|--------|--------------|-----------|--------|
+| **Community (Skool)** | Platform risk, subscription fatigue | Owned asset (newsletter/course vault) | Learn-in-Public brand engine |
+| **Digital Products (templates, prompt packs, workflows)** | One-time revenue, commoditization | Community upsell path + continuous iteration | Community member requests ("I wish someone would just give me the...") |
+| **Async Consulting (audits, reviews)** | Time-bound, doesn't scale | Productized service with fixed scope + AI leverage | Community members who outgrow the group format |
+| **Licensing/White-Label** | Relationship-dependent, lumpy | Portfolio diversity absorbs gaps | Wins library proves methodology works at scale |
+| **Newsletter/Owned Media** | Slow to monetize, requires consistency | Repurposed from community content (zero marginal effort) | Community discussions become newsletter content |
+
+**The Sequencing Rule** (when to add each stream):
+
+The order is non-negotiable. Each stream creates the CONDITIONS for the next. Skipping ahead recreates the exact "product before brand" failure the Lock-In Protocol prevents.
+
+| Sequence | Stream | Activation Trigger | Why This Order |
+|----------|--------|-------------------|---------------|
+| 1 (Foundation) | Community | Brand-first audience is asking for it | Sabrina's core playbook — this never changes |
+| 2 (Owned Hedge) | Newsletter/Owned Media | Community at 60+ members | Extracts value from community content; creates platform-independent distribution you OWN |
+| 3 (Productize Patterns) | Digital Products | 3+ members ask for the same resource | Community reveals exactly what to build; zero guesswork. Sells to audience beyond community price point |
+| 4 (High-Ticket Capture) | Async Consulting | Community members hit ceiling | Natural graduation path; proves premium value; case studies feed back into community wins |
+| 5 (Scale Without You) | Licensing/White-Label | 10+ documented transformation wins | Methodology is proven and documented enough for others to deliver; passive income layer |
+
+**The Productize-vs-Service Decision Filter**:
+
+When a community member request emerges, run it through this filter:
+
+1. **Can it be delivered identically to 100 people?** → Productize (template, tool, prompt pack)
+2. **Does it require understanding their specific situation?** → Service (consulting, audit)
+3. **Does it require YOUR ongoing involvement?** → Dangerous. Either (a) AI-leverage it so you're reviewing not creating, or (b) license the methodology to trained operators.
+
+**The "No New Platform" Constraint**: Each new stream must run on infrastructure you already operate OR on a platform you fully own (your domain, your email list). Adding a new SaaS dependency for each stream recreates platform risk. Community content becomes newsletter content becomes product material — one content engine, multiple revenue expressions.
+
+**Anti-Shiny-Object Integration**: This phase does NOT override the Anti-Shiny-Object Protocol. The difference: shiny objects are NEW DOMAINS (switching from AI video to AI coding). Portfolio streams are ADDITIONAL MONETIZATION of the SAME domain expertise. The lock-in applies to the domain. The portfolio applies to how that domain generates revenue.
+
 ## Quality Gate
 1.  **Does it prioritize Wins over Content?** If the plan focuses more on the course library than the win-collection system, it fails.
 2.  **Is the Price-Ramp present?** The strategy must include increasing prices as the community value compounds.
 3.  **Is the "Learning-in-Public" engine the primary growth driver?** It must reject "expert-posturing" in favor of documented learning.
 4.  **Is the 12-month Lock-In explicit?** The blueprint must demand a commitment to a single niche to prevent "Shiny Object Syndrome."
 5.  **Is the Skool platform utilized correctly?** The architecture must leverage Skool's specific strengths (gamification, simplicity, forum/course integration).
+6.  **Does the portfolio hedge platform risk?** At least one revenue stream must operate on fully owned infrastructure (newsletter, own domain). No mono-platform dependency.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

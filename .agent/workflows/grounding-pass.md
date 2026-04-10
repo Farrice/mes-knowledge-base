@@ -1,5 +1,5 @@
 ---
-description: Run a Grounding Pass on agent outputs or research documents — validate factual claims against Perplexity research data and tag provenance
+description: Grounding Pass on agent outputs
 ---
 
 # /grounding-pass Workflow

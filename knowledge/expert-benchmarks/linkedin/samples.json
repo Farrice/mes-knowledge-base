@@ -1,0 +1,29 @@
+{
+  "domain": "linkedin",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "lara-acosta",
+      "source": "skills/lara-acosta-linkedin-growth/genius.md",
+      "output_type": "post",
+      "title": "First Millionaire in the Family",
+      "notes": "Generational impact framing, humble brag naturally embedded, vulnerability + strength, identity transformation, reader identification.",
+      "added": "2026-04-03",
+      "file": "sample-001.md",
+      "word_count": 196,
+      "content_hash": "bda4303d"
+    },
+    {
+      "id": "sample-002",
+      "expert": "lara-acosta",
+      "source": "skills/lara-acosta-linkedin-growth/genius.md",
+      "output_type": "post",
+      "title": "Perfectionism Cost Me Everything",
+      "notes": "SLAY framework execution. Contrarian claim, personal transformation, 4-step actionable, vulnerability admission, direct CTA.",
+      "added": "2026-04-03",
+      "file": "sample-002.md",
+      "word_count": 184,
+      "content_hash": "01e55b1d"
+    }
+  ]
+}

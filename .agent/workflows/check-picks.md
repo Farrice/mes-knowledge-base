@@ -1,5 +1,5 @@
 ---
-description: "Fast-path NBA picks — auto-detects mode (tonight's slate or review past results) and runs the betting edge system with minimal ceremony. Say 'check my picks' and go."
+description: Fast-path NBA picks
 ---
 
 # /check-picks — Quick NBA Picks Gateway

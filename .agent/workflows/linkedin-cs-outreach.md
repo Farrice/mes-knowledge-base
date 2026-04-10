@@ -1,5 +1,5 @@
 ---
-description: "LinkedIn-specific creative strategist outreach — profile optimization, Trapdoor Posts, 5-10 daily outreach system"
+description: LinkedIn-specific creative strategist outreach
 ---
 
 ## Workflow: LinkedIn CS Outreach Engine

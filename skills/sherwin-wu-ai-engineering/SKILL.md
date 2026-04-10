@@ -3,7 +3,7 @@ name: "Sherwin Wu: AI Engineering Leadership"
 description: "Platform-level AI engineering strategy, agent fleet management, deployment diagnostics, and model upgrade planning from the Head of Engineering at OpenAI's API Platform."
 version: "2.0"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Sherwin Wu: AI Engineering Leadership
@@ -17,6 +17,7 @@ Sherwin Wu is Head of Engineering at OpenAI's API Platform — the infrastructur
 | ai | [AI Strategic Foresight Roadmap](workflows/ai-strategic-foresight-roadmap.md) | AI Strategic Opportunity & Obsolescence Report | Planning long-term AI product strategy or evaluating new market trends |
 | agentic | [Agentic Infrastructure Lifecycle](workflows/agentic-infrastructure-lifecycle.md) | Agentic Operating System & Migration Blueprint | Building, managing, or upgrading a fleet of autonomous AI agents |
 | ai | [AI Adoption & Alignment Audit](workflows/ai-adoption-alignment-audit.md) | AI Deployment Recovery & Communication Plan | AI initiatives are failing to show ROI or there is friction between engineering and product teams |
+| ai | [Production Hardening Sentinel](workflows/production-hardening-sentinel.md) | AI Production Reliability Blueprint | Moving AI from demo to production, building unattended AI pipelines, or after silent quality degradation |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

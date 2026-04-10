@@ -1,5 +1,5 @@
 ---
-description: Extract expert knowledge from source material and convert to a completion-engine skill
+description: Extract expert knowledge
 ---
 
 # /extract — Mastery Extraction Workflow (v2.1)

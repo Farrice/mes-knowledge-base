@@ -1,5 +1,5 @@
 ---
-description: "Define the spec, diagnose perfectionism, and make the shipping decision for anything 80%+ done"
+description: Define the spec, diagnose perfectionism, and make
 ---
 
 # Ship It Protocol

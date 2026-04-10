@@ -1,0 +1,5068 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 23,
+  "cost_dollars": 0.161,
+  "spent_total": 0.4955,
+  "remaining_dollars": 28.5045,
+  "items": [
+    {
+      "title": "KITA RAMEN AND SUSHI BAR",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "11009 Burbank Blvd Ste 108, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "11009 Burbank Blvd Ste 108",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.kitaramenandsushi.com/",
+      "phone": "(818) 985-5101",
+      "phoneUnformatted": "+18189855101",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1723409,
+        "lng": -118.3709465
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJc4OKcT2VwoARjKG0Y8L470s",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2953d718a8373:0x4beff8c263b4a18c",
+      "cid": "5471865586058568076",
+      "reviewsCount": 73,
+      "imagesCount": 430,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.225Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          },
+          {
+            "Identifies as women-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=KITA%20RAMEN%20AND%20SUSHI%20BAR&query_place_id=ChIJc4OKcT2VwoARjKG0Y8L470s",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwephtR7eP7lvbRkE3800uwSDwchNYv-IbdyUwIvCK1ytat42_bcXMiIu-QX-V_2_9OwHe4h1l5TDI4bvGh8d3oMoCg4RDuPGLBrc0otqrxspkmj6sY-3Bs-HU-yu3FnY329nAM0X=w408-h271-k-no",
+      "kgmid": "/g/11wwshmy4l"
+    },
+    {
+      "title": "Maki-Noho",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "5077 Lankershim Blvd unit b, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5077 Lankershim Blvd unit b",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://maki-noho.com/",
+      "phone": "(213) 557-0234",
+      "phoneUnformatted": "+12135570234",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1627355,
+        "lng": -118.3737926
+      },
+      "totalScore": 4.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ46uhSACVwoARzdvo_myEHnk",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2950048a1abe3:0x791e846cfee8dbcd",
+      "cid": "8727558731558607821",
+      "reviewsCount": 122,
+      "imagesCount": 350,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.254Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 10:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Maki-Noho&query_place_id=ChIJ46uhSACVwoARzdvo_myEHnk",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepldpgDLnHmQAgyOqi_wCcb9C_LOX5JWLOMi7gi22PACQRaIGIPBBVu0DR_-b_M0A9Chw9PT-vcOZIcZO29jeO1wxm_xYT_7LuyGtVFr_pL0BZZX0XwS_BGAWv5i7Jsw-oFje81Mw=w408-h544-k-no",
+      "kgmid": "/g/11v5dzpb72"
+    },
+    {
+      "title": "Maki Shabu",
+      "price": "$30\u201340",
+      "categoryName": "Japanese restaurant",
+      "address": "5560 Vineland Ave C, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5560 Vineland Ave C",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.makishabu.com/",
+      "phone": "(818) 985-3777",
+      "phoneUnformatted": "+18189853777",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1719542,
+        "lng": -118.3698534
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ597W3PmVwoARFDGQw8p3sjE",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Hot pot restaurant",
+        "Restaurant",
+        "Shabu-shabu restaurant"
+      ],
+      "fid": "0x80c295f9dcd6dee7:0x31b277cac3903114",
+      "cid": "3581056366461071636",
+      "reviewsCount": 171,
+      "imagesCount": 126,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.254Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 11\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Dinner": [
+          {
+            "day": "Monday",
+            "hours": "12\u201310:30\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "12\u201310:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "12\u201310:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "12\u201310:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "12\u201311\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u201311\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u201310:30\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Maki%20Shabu&query_place_id=ChIJ597W3PmVwoARFDGQw8p3sjE",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweojRae3kpM0oY2v5CesLOzkKmz2uSYBvgv9Zx4VaaXi-MXvnjVz1SOSF-wwtLPyXO5YpLye6SsWu1TBLpDnN16-wJgGMCwByCsrKJEpag2OjIZPkcIKOlMWAnCSZc6qBH8VRaw5=w408-h306-k-no",
+      "kgmid": "/g/11tf59ns6l"
+    },
+    {
+      "title": "Ramen Izakaya NoHo",
+      "price": "$$",
+      "categoryName": "Ramen restaurant",
+      "address": "10829 Oxnard St, North Hollywood, CA 91606",
+      "neighborhood": "North Hollywood",
+      "street": "10829 Oxnard St",
+      "city": "North Hollywood",
+      "postalCode": "91606",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.ramenizakaya.com/",
+      "phone": "(818) 579-4091",
+      "phoneUnformatted": "+18185794091",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1797022,
+        "lng": -118.3670982
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJCbYJTjeVwoARpc9Sb7kiyG0",
+      "categories": [
+        "Ramen restaurant",
+        "Authentic Japanese restaurant",
+        "Japanese curry restaurant",
+        "Izakaya restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c295374e09b609:0x6dc822b96f52cfa5",
+      "cid": "7910610925308268453",
+      "reviewsCount": 316,
+      "imagesCount": 518,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.255Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9:15\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9:15\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9:15\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 9:15\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 9:15\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11:30\u202fAM\u20137\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Ramen%20Izakaya%20NoHo&query_place_id=ChIJCbYJTjeVwoARpc9Sb7kiyG0",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSjWsuv3B0K2vtB1OrHxgpr3zmF4PdSD5IBRJKfDWUKfMvqnLc3c-vJ997zfJiDUFW-WdtWvEnYyYwIVy4a1Ef0Pol0HEdvDdrhvMC9dgBSyvboGRDG9oSVoUkGlqFdrQOldcnTGvEeb8=w408-h306-k-no",
+      "kgmid": "/g/11rsc22zm1"
+    },
+    {
+      "title": "Tamashii Ramen House",
+      "description": "Casual, fashionable Japanese eatery specializing in ramen bowls with many toppings & small plates.",
+      "price": "$10\u201320",
+      "categoryName": "Japanese restaurant",
+      "address": "11024 Magnolia Blvd C, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "11024 Magnolia Blvd C",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://tamashiiramenusa.com/",
+      "phone": "(818) 980-2388",
+      "phoneUnformatted": "+18189802388",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1647622,
+        "lng": -118.3714113
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJR_I6b_OVwoARDf37hAZakpQ",
+      "categories": [
+        "Japanese restaurant",
+        "Ramen restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c295f36f3af247:0x94925a0684fbfd0d",
+      "cid": "10705718248260500749",
+      "reviewsCount": 515,
+      "imagesCount": 463,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.255Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Tamashii%20Ramen%20House&query_place_id=ChIJR_I6b_OVwoARDf37hAZakpQ",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer0xZGNl7hygt5hurZ1As3EeDCHhwrAy3V-Gf6J1-sXEkI8I6y3qNApboyrxeCQluN8AI6N_ruVmUjW_PkLNH8GqbjrlRLye94AOuZdvubmGSG3DFyLQp3e3cHXZpaQMSCzoy4=w408-h306-k-no",
+      "kgmid": "/g/1q5gnngt6"
+    },
+    {
+      "title": "UMIAI Hand Roll & Sake Bar",
+      "price": null,
+      "categoryName": "Restaurant",
+      "address": "6130 Laurel Canyon Blvd Ste 150, North Hollywood, CA 91606",
+      "neighborhood": "North Hollywood",
+      "street": "6130 Laurel Canyon Blvd Ste 150",
+      "city": "North Hollywood",
+      "postalCode": "91606",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.umiaihandroll.com/",
+      "phone": "(818) 927-4000",
+      "phoneUnformatted": "+18189274000",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1806363,
+        "lng": -118.3945681
+      },
+      "totalScore": 4.8,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJeXHiGz-XwoARYrBMoWGQCP0",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2973f1be27179:0xfd089061a14cb062",
+      "cid": "18232981840401838178",
+      "reviewsCount": 247,
+      "imagesCount": 299,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.256Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=UMIAI%20Hand%20Roll%20%26%20Sake%20Bar&query_place_id=ChIJeXHiGz-XwoARYrBMoWGQCP0",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo8RuSk7VGygb8FsTYYrTciC9am73ctmb0_KutpzatjX209ggFtHunq6aikGPilTxcKUHSgu5x2OJI0imImh9nYCZjRLU1An9pQ6E554T0azUp5y3jxldZvGuFjcO25AUFPjA-jLw=w408-h272-k-no",
+      "kgmid": "/g/11sw1h7pxd"
+    },
+    {
+      "title": "Sunny's Sushi Hut",
+      "description": "Compact sushi house serving Japanese specialties in an unassuming strip-mall setting.",
+      "price": "$10\u201320",
+      "categoryName": "Sushi restaurant",
+      "address": "11672 Burbank Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "11672 Burbank Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.sunnysushihut.com/",
+      "phone": "(818) 508-8680",
+      "phoneUnformatted": "+18185088680",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1717855,
+        "lng": -118.3868317
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ8SC4y-aVwoARmNSLCIzyIdA",
+      "categories": [
+        "Sushi restaurant",
+        "Delivery Restaurant"
+      ],
+      "fid": "0x80c295e6cbb820f1:0xd021f28c088bd498",
+      "cid": "14997534917373187224",
+      "reviewsCount": 263,
+      "imagesCount": 362,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.256Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          }
+        ],
+        "Planning": [
+          {
+            "Reservations required": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sunny's%20Sushi%20Hut&query_place_id=ChIJ8SC4y-aVwoARmNSLCIzyIdA",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepUj-QwQVWaVQ2zQyh0QOBJrthWt0dPA_8RaJA_BdzpLZ1GDz4suBoU_6igjtub9WdpELMn7fZwIJbnhdzf3KY4-NVOa-xLFRVBbzAjtzyrVuY2Wz_eF_Bp3yPdUSMOVj_uYToCwg=w426-h240-k-no",
+      "kgmid": "/g/11bw4jb20t"
+    },
+    {
+      "title": "Ramen Crave",
+      "price": "$$",
+      "categoryName": "Ramen restaurant",
+      "address": "5528 Satsuma Ave K10, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5528 Satsuma Ave K10",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.ramencrave.com/",
+      "phone": "(818) 232-8424",
+      "phoneUnformatted": "+18182328424",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1710651,
+        "lng": -118.3672589
+      },
+      "totalScore": 3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJU5cCyNqVwoARw8cls9HQsQg",
+      "categories": [
+        "Ramen restaurant"
+      ],
+      "fid": "0x80c295dac8029753:0x8b1d0d1b325c7c3",
+      "cid": "626511422253549507",
+      "reviewsCount": 2,
+      "imagesCount": 141,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.262Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "2\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "2\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "2\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Friday",
+          "hours": "2\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "2\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "2\u202fPM to 2\u202fAM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Ramen%20Crave&query_place_id=ChIJU5cCyNqVwoARw8cls9HQsQg",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 11,
+      "isAdvertisement": false,
+      "imageUrl": "http://t2.gstatic.com/images?q=tbn:ANd9GcQs98YSucsS1z2mi8BWB3I1GYTEcGuaKd6LrJc8t1d74nCcUJ3p",
+      "kgmid": "/g/11w7s_glns"
+    },
+    {
+      "title": "Moby's Coffee & Tea Co.",
+      "description": "Neighborhood hangout for organic, locally roasted coffees, teas, baked goods & yoga classes.",
+      "price": "$10\u201320",
+      "categoryName": "Coffee shop",
+      "address": "10513 Burbank Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "10513 Burbank Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 579-4761",
+      "phoneUnformatted": "+18185794761",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1723859,
+        "lng": -118.3599596
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJSd8eppGVwoAR2jg-V1lk2u0",
+      "categories": [
+        "Coffee shop",
+        "Brunch restaurant",
+        "Espresso bar",
+        "Lunch restaurant"
+      ],
+      "fid": "0x80c29591a61edf49:0xedda6459573e38da",
+      "cid": "17139121666790406362",
+      "reviewsCount": 282,
+      "imagesCount": 239,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:31.562Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "7\u202fAM to 4:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "3\u20135\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "3\u20135\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "3\u20135\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "3\u20135\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "3\u20135\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great coffee": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Solo dining": true
+          },
+          {
+            "Good for working on laptop": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Prepared foods": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          },
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Moby's%20Coffee%20%26%20Tea%20Co.&query_place_id=ChIJSd8eppGVwoAR2jg-V1lk2u0",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.35717703408902,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 9,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqMnSXM47xTyjXyts6HDN2lqZR6oLug1TtDJfxsfoHZM2qUwqxLBPH3LItuYwcHvTgPmRfQsBf9CLlqi-lqr-JP99YPCFA2igQfFFQWvANhVl4HZYua3Z5SZ7WgS-iR9tZzdGjenw=w408-h306-k-no",
+      "kgmid": "/g/1261cjxr3"
+    },
+    {
+      "title": "Aki Shabu Asian Kitchen",
+      "price": "$$",
+      "categoryName": "Ramen restaurant",
+      "address": "5560 Vineland Ave D, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5560 Vineland Ave D",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(818) 980-8777",
+      "phoneUnformatted": "+18189808777",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1716757,
+        "lng": -118.3700036
+      },
+      "totalScore": 3.8,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJPw-RK-2VwoARw6hD7Kz_kcc",
+      "categories": [
+        "Ramen restaurant",
+        "Asian restaurant",
+        "Pho restaurant",
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c295ed2b910f3f:0xc791ffacec43a8c3",
+      "cid": "14380556203334019267",
+      "reviewsCount": 278,
+      "reviewsDistribution": {
+        "oneStar": 43,
+        "twoStar": 19,
+        "threeStar": 27,
+        "fourStar": 56,
+        "fiveStar": 133
+      },
+      "imagesCount": 207,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:32.185Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 10:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Aki%20Shabu%20Asian%20Kitchen&query_place_id=ChIJPw-RK-2VwoARw6hD7Kz_kcc",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 24,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoPz8jKcV0za5HlQNit8blKwUKCLw3IAfRDS8AnK13Wm4GDjmNJVrVrbVT1bU3mfz1qzZvSjEzI-zLyTcojGHSf-1gYJYXMa-p3Y8x57b9xtCZaaFNLkp9ZLeXHbCujvDeUez75Tw=w408-h306-k-no",
+      "kgmid": "/g/11bccgvcqj"
+    },
+    {
+      "title": "iku iku",
+      "price": "$$",
+      "categoryName": "Restaurant",
+      "address": "5528 Satsuma Ave #14, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5528 Satsuma Ave #14",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(626) 632-0418",
+      "phoneUnformatted": "+16266320418",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1710651,
+        "lng": -118.3672588
+      },
+      "totalScore": null,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJY07PR5SVwoARjHWN1yHvXSo",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2959447cf4e63:0x2a5def21d78d758c",
+      "cid": "3052859051056395660",
+      "reviewsCount": null,
+      "imagesCount": 1,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:32.185Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 8:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 8:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=iku%20iku&query_place_id=ChIJY07PR5SVwoARjHWN1yHvXSo",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 25,
+      "isAdvertisement": false,
+      "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=DFhtmL44iTeuwr70n3fH8Q&cb_client=search.gws-prod.gps&w=408&h=240&yaw=90.76505&pitch=0&thumbfov=100",
+      "kgmid": "/g/11txpqty8p"
+    },
+    {
+      "title": "goop Kitchen",
+      "price": "$20\u201330",
+      "categoryName": "Restaurant",
+      "address": "5643 Lankershim Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5643 Lankershim Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://order.goopkitchen.com/",
+      "phone": "(310) 954-1286",
+      "phoneUnformatted": "+13109541286",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1733903,
+        "lng": -118.3800808
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJaWoVj9iVwoARinwTBst4wm8",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c295d88f156a69:0x6fc278cb06137c8a",
+      "cid": "8053131897067502730",
+      "reviewsCount": 156,
+      "imagesCount": 383,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:36.265Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=goop%20Kitchen&query_place_id=ChIJaWoVj9iVwoARinwTBst4wm8",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.17657560394552,-118.38294453318218,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer4ejyJTbmgiOjXE_LJztow_WSQuU_ZPtvXZuRSHBj1qtLZI6JZH9kjM6ZGqLKiL-pRiJ_u9QmjeXGXr8KUlXhzfATfONjFkoDyf1LkB2_pxJ2BjzI1pQrJydvycPShPGgw3TKqL9pnckNd=w408-h408-k-no",
+      "kgmid": "/g/11s0zhgf2z"
+    },
+    {
+      "title": "Yoshinoya",
+      "description": "Fast-food-style Japanese chain serving rice bowls with beef, veggies & more, plus soups & salads.",
+      "price": "$",
+      "categoryName": "Japanese restaurant",
+      "address": "6050 Lankershim Blvd, North Hollywood, CA 91606",
+      "neighborhood": "North Hollywood",
+      "street": "6050 Lankershim Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91606",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.yoshinoyaamerica.com/?olonwp=JjBtp_vMLk25gkYh_bnoiQ",
+      "phone": "(818) 762-3888",
+      "phoneUnformatted": "+18187623888",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1813494,
+        "lng": -118.3842918
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ0VCMfdyVwoAR71pdniCTRmo",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Gyudon restaurant",
+        "Fast food restaurant",
+        "Authentic Japanese restaurant",
+        "Restaurant",
+        "Rice restaurant"
+      ],
+      "fid": "0x80c295dc7d8c50d1:0x6a4693209e5d5aef",
+      "cid": "7657969984695261935",
+      "reviewsCount": 476,
+      "imagesCount": 292,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:36.266Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10\u202fAM to 11\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Quiet": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Yoshinoya&query_place_id=ChIJ0VCMfdyVwoAR71pdniCTRmo",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.17657560394552,-118.38294453318218,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqgx9AoZSJghCmla0xn_4QD98jvMWyf0LsuzBj3wifcekx7JPx2Vk6NgTUAyljM21ys0ZVt9qXiyfFXU0eTefXQMIjUpcixfF16aL997vhkOXsjtArtNCuqm6aColX0rZ9SIn_RQ=w408-h306-k-no",
+      "kgmid": "/g/1v0ll0tc"
+    },
+    {
+      "title": "Silverlake Ramen",
+      "price": "$20\u201330",
+      "categoryName": "Ramen restaurant",
+      "address": "6130 Laurel Canyon Blvd #145, North Hollywood, CA 91606",
+      "neighborhood": "North Hollywood",
+      "street": "6130 Laurel Canyon Blvd #145",
+      "city": "North Hollywood",
+      "postalCode": "91606",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://silverlakeramen.com/",
+      "phone": "(818) 308-7175",
+      "phoneUnformatted": "+18183087175",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1809767,
+        "lng": -118.3947531
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJLXGvIgCXwoARwKeo9CywlSE",
+      "categories": [
+        "Ramen restaurant"
+      ],
+      "fid": "0x80c2970022af712d:0x2195b02cf4a8a7c0",
+      "cid": "2420034081911252928",
+      "reviewsCount": 46,
+      "imagesCount": 226,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:40.798Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Quiet": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Silverlake%20Ramen&query_place_id=ChIJLXGvIgCXwoARwKeo9CywlSE",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.18368355789105,-118.39153369954657,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerxNMXDqIN1J-xRGXgQGZBzwaVdn_8j6XwTM9PmAVA-D1C84JyBlTfYXMkUp2bd_-_JdSv6FyjYvnNwBnv-_fNk_H4Y64_lxg6lFl-b58AILBL1O2uK8fXj8YFNTgF6-NNhWkw=w408-h306-k-no",
+      "kgmid": "/g/11wn59ydm7"
+    },
+    {
+      "title": "Teriyaki Madness",
+      "description": "Cheery counter-serve branch doling out rice & noodle bowls with Asian-style proteins & veggies.",
+      "price": "$10\u201320",
+      "categoryName": "Japanese restaurant",
+      "address": "5160 Vineland Ave #107, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5160 Vineland Ave #107",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://teriyakimadness.com/locations/ca-north-hollywood/",
+      "phone": "(818) 508-6767",
+      "phoneUnformatted": "+18185086767",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1641667,
+        "lng": -118.3694444
+      },
+      "totalScore": 3.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ8eQ0a-SVwoAR52s9JSOu0Fc",
+      "categories": [
+        "Japanese restaurant",
+        "Asian restaurant",
+        "Caterer",
+        "Chicken restaurant",
+        "Gluten-free restaurant",
+        "Asian fusion restaurant",
+        "Rice restaurant",
+        "Yakisoba Restaurant"
+      ],
+      "fid": "0x80c295e46b34e4f1:0x57d0ae23253d6be7",
+      "cid": "6327748942427417575",
+      "reviewsCount": 35,
+      "imagesCount": 564,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:45.168Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "Has changing table(s)": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Teriyaki%20Madness&query_place_id=ChIJ8eQ0a-SVwoAR52s9JSOu0Fc",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.162359696054466,-118.36576620045341,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepM9dk5drai58-8o6z6rLYebAigRf-p4rkwMkcSdRAcy5IpRwZTvwSPt_BUu26X7te3H7hEyKG6l32_zRXDVWdXNFVncancSuoDXPSujawK1-vMSU2MAkjjYBO0tQ1KfAr6b0D_vA=w426-h240-k-no",
+      "kgmid": "/g/11w1cwzss5"
+    },
+    {
+      "title": "The Seafood Shop Gourmet & Charcuterie",
+      "price": null,
+      "categoryName": "Seafood restaurant",
+      "address": "4873 Lankershim Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "4873 Lankershim Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://theseafoodshopgourmet.org/",
+      "phone": "(747) 203-8123",
+      "phoneUnformatted": "+17472038123",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1594814,
+        "lng": -118.3715983
+      },
+      "totalScore": 4.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJlWqIZfWVwoARLDMVbOF_5Xo",
+      "categories": [
+        "Seafood restaurant",
+        "Charcuterie",
+        "Restaurant"
+      ],
+      "fid": "0x80c295f565886a95:0x7ae57fe16c15332c",
+      "cid": "8855624848451646252",
+      "reviewsCount": 90,
+      "reviewsDistribution": {
+        "oneStar": 1,
+        "twoStar": 0,
+        "threeStar": 0,
+        "fourStar": 3,
+        "fiveStar": 86
+      },
+      "imagesCount": 81,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:45.725Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/LlvJsf3oyNg?source=pa&opi=79508299&hl=en-US&gei=xZLUacfEFICy5NoP6r-yqQw&sourceurl=https://www.google.com/search?authuser%3D0%26tbm%3Dmap%26q%3Djapanese%2Brestaurant%26psi%3DwZLUae7UOcGs5NoP55jWsAE.1775538885261.1%26hl%3Den%26pb%3D!4m12!1m3!1d3301.373792255764!2d-118.36576620045341!3d34.162359696054466!2m3!1f0!2f0!3f0!3m2!1i1920!2i1080!4f13.1!7i20!8i0!10b1!12m36!1m1!18b1!2m3!5m1!6e2!20e3!6m18!4b1!49b1!63m0!73m0!74i150000!75b1!85b1!89b1!91b1!101i97!110m0!114b1!149b1!171b1!176f8!179f90!182b1!183m0!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1swZLUae7UOcGs5NoP55jWsAE!2s1i:0,t:20588,p:wZLUae7UOcGs5NoP55jWsAE:22!4m1!2i20588!7e81!12e3!24m92!1m26!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m15!3b1!4b1!5b1!6b1!13b1!14b1!15b1!17b1!21b1!22b0!25b1!27m1!1b0!28b0!31b0!2b1!5m5!2b1!5b1!6b1!7b1!10b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m17!1m5!1b1!2b1!3b1!5b1!7b1!4b1!8m8!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_reviews!9b1!89b1!103b1!113b1!117b1!122m1!1b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!31b1!34m19!2b1!3b1!4b1!6b1!7b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!37m1!1e81!42b1!46m1!1e10!47m0!49m7!3b1!6m2!1b1!2b1!7m2!1e3!2b1!50m25!1m21!2m7!1u3!4zT3RldsWZZW7DqQ!5e1!9s0ahUKEwi99-nj_dqTAxWbGFkFHX4xAiUQ_KkBCBcoAw!10m2!3m1!1e1!2m7!1u2!4zTmVqbMOpcGUgaG9kbm9jZW7DqQ!5e1!9s0ahUKEwi99-nj_dqTAxWbGFkFHX4xAiUQ_KkBCBYoAg!10m2!2m1!1e1!3m1!1u2!3m1!1u3!4BIAE!2e2!3m1!3b1!59BQ2dBd0Fn!61b1!67m3!7b1!10b1!14b0!69i675",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Tourists": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=The%20Seafood%20Shop%20Gourmet%20%26%20Charcuterie&query_place_id=ChIJlWqIZfWVwoARLDMVbOF_5Xo",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.162359696054466,-118.36576620045341,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 22,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep4MqNwY_vVzr92zXKVd3MosRra0Ogs7A9cn91yevNKG5q1BEppMmrwQIP9X-G-LELkLESVKJrl_ZfOw4mdWuy76A7mOBT34pT_LsYmarrciFdIH19Yx77laNpOq_bXXtQKMgg=w514-h240-k-no",
+      "kgmid": "/g/11qg2y6ffs"
+    },
+    {
+      "title": "EAT",
+      "description": "Counter-serve outlet for breakfast and coffee, sandwiches, soups and salads.",
+      "price": "$$",
+      "categoryName": "Breakfast restaurant",
+      "address": "11108 Magnolia Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "11108 Magnolia Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.eatnoho.com/",
+      "phone": "(818) 760-4787",
+      "phoneUnformatted": "+18187604787",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1646798,
+        "lng": -118.3728011
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJf4hGn_OVwoARqBOPzWTnknM",
+      "categories": [
+        "Breakfast restaurant",
+        "Brunch restaurant",
+        "Cafe",
+        "Lunch restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c295f39f46887f:0x7392e764cd8f13a8",
+      "cid": "8327973081092920232",
+      "reviewsCount": 1214,
+      "reviewsDistribution": {
+        "oneStar": 47,
+        "twoStar": 23,
+        "threeStar": 80,
+        "fourStar": 246,
+        "fiveStar": 818
+      },
+      "imagesCount": 1233,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:45.725Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "8\u202fAM to 3\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "8\u202fAM to 3\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "8\u202fAM to 3\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "8\u202fAM to 3\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "8\u202fAM to 3\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "8\u202fAM to 4\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "8\u202fAM to 4\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great coffee": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=EAT&query_place_id=ChIJf4hGn_OVwoARqBOPzWTnknM",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.162359696054466,-118.36576620045341,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 23,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepdi9G-JLz26LJqVmGCsUwfFlkFcENgKd-KVtO4qegj3wErN867eePxH_YQ4XqDR8cMT5CSHw-rvxQolLUuBFquri-oqb4hAM5Rk3kXfh0HAbBQWsHgBZq188sGLqFZdz2MPjA=w408-h302-k-no",
+      "kgmid": "/g/1tcv6kz7"
+    },
+    {
+      "title": "Slusheeland - Frozen Treats and Snacks",
+      "description": "Pit stop for all kinds of frozen treats, including: slushies, smoothies, frozen yogurt & shaved ice.",
+      "price": "$1\u201310",
+      "categoryName": "Snack bar",
+      "address": "6005 Vineland Ave UNIT 105, North Hollywood, CA 91606",
+      "neighborhood": "North Hollywood",
+      "street": "6005 Vineland Ave UNIT 105",
+      "city": "North Hollywood",
+      "postalCode": "91606",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.slusheeland.com/",
+      "phone": "(818) 505-3763",
+      "phoneUnformatted": "+18185053763",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1798859,
+        "lng": -118.3705139
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJA6XRG8CVwoARWPlZEYsJTPY",
+      "categories": [
+        "Snack bar",
+        "Dessert shop",
+        "Frozen yogurt shop",
+        "Mexican goods store"
+      ],
+      "fid": "0x80c295c01bd1a503:0xf64c098b1159f958",
+      "cid": "17747570724456495448",
+      "reviewsCount": 304,
+      "imagesCount": 617,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:49.179Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "12 to 7\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12 to 7\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 7\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 7\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 7\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 7\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Latino-owned": true
+          },
+          {
+            "Identifies as women-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great dessert": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": false
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Slusheeland%20-%20Frozen%20Treats%20and%20Snacks&query_place_id=ChIJA6XRG8CVwoARWPlZEYsJTPY",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.17657560394552,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 18,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer9G2lU7T-zG0dLotD3ac4FdsFqBHRQ-OX624EHInNXPfKF9r6tNDPlqSflraV-J0MiyD-I8AAAvGwCzYwY5fRcjBqRTcV32MthzE6YRNGqvJrYOxokg17dNkQOB_pajnWiW6Jg=w408-h306-k-no",
+      "kgmid": "/g/119v5mft7"
+    },
+    {
+      "title": "Ono Hawaiian BBQ",
+      "description": "Plate lunches served with rice & macaroni salad are the mainstays of this Hawaiian-inspired chain.",
+      "price": "$",
+      "categoryName": "Hawaiian restaurant",
+      "address": "5300 Lankershim Blvd # 150, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5300 Lankershim Blvd # 150",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.onohawaiianbbq.com/",
+      "phone": "(818) 980-3188",
+      "phoneUnformatted": "+18189803188",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1674064,
+        "lng": -118.3758539
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJkaMs-PGVwoARcwd-po0nTfo",
+      "categories": [
+        "Hawaiian restaurant",
+        "American restaurant",
+        "Barbecue restaurant"
+      ],
+      "fid": "0x80c295f1f82ca391:0xfa4d278da67e0773",
+      "cid": "18036115572025853811",
+      "reviewsCount": 552,
+      "reviewsDistribution": {
+        "oneStar": 29,
+        "twoStar": 18,
+        "threeStar": 44,
+        "fourStar": 102,
+        "fiveStar": 359
+      },
+      "imagesCount": 276,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:51.654Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Ono%20Hawaiian%20BBQ&query_place_id=ChIJkaMs-PGVwoARcwd-po0nTfo",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.169467649999994,-118.38294453318218,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 22,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqObFEwFMNFlO1XJGCfiMLFmY6w6YaUy37lx5BxhaCnVveHjR1aOcMK-Q7ngOJFlUStZWic156lfki669TL3atpzpdM4Anz616RRHICuRNnuT1H4BTZMOPJcUuy36n2QpAos2bAew=w408-h297-k-no",
+      "kgmid": "/g/11csrsrbmf"
+    },
+    {
+      "title": "Lotus Vegan",
+      "description": "Thai option specializing in vegan versions of classic eats in casual surrounds with outdoor seating.",
+      "price": "$$",
+      "categoryName": "Vegan restaurant",
+      "address": "4715 Lankershim Blvd, North Hollywood, CA 91602",
+      "neighborhood": "North Hollywood",
+      "street": "4715 Lankershim Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91602",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://lotusveganla.com/",
+      "phone": "(818) 760-8088",
+      "phoneUnformatted": "+18187608088",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1560223,
+        "lng": -118.36951
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJgaqM0fSVwoARTLJPTp64pNM",
+      "categories": [
+        "Vegan restaurant",
+        "Dessert shop",
+        "Fusion restaurant",
+        "Noodle shop",
+        "Thai restaurant",
+        "Vegetarian restaurant"
+      ],
+      "fid": "0x80c295f4d18caa81:0xd3a4b89e4e4fb24c",
+      "cid": "15250517228241531468",
+      "reviewsCount": 614,
+      "reviewsDistribution": {
+        "oneStar": 21,
+        "twoStar": 6,
+        "threeStar": 28,
+        "fourStar": 77,
+        "fiveStar": 482
+      },
+      "imagesCount": 601,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:14:51.876Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 3:30\u202fPM, 4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 3:30\u202fPM, 4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 3:30\u202fPM, 4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 3:30\u202fPM, 4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 3:30\u202fPM, 4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 3:30\u202fPM, 4:30 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          },
+          {
+            "Identifies as Black-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great dessert": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Quiet": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          },
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Lotus%20Vegan&query_place_id=ChIJgaqM0fSVwoARTLJPTp64pNM",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.15525174210894,-118.3743553668178,17z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 21,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer-qwo7afICBsouL-A_gG_moNMZjS_r2w9atNfaBQsoSZ9mebSaVZZDPII9eiHoobD_mLtcQlY5E8Nq_cWw61FfOdcw-mz7AgBL4lU5beWWfBXZRuyHMvYcXx6JUpJk0-tT4rE=w408-h306-k-no",
+      "kgmid": "/g/12hl8z7d0"
+    },
+    {
+      "title": "Jungla Noho",
+      "price": "$$$",
+      "categoryName": "Mexican restaurant",
+      "address": "5156 Lankershim Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5156 Lankershim Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.lajunglanoho.com/",
+      "phone": "(818) 452-9380",
+      "phoneUnformatted": "+18184529380",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1645044,
+        "lng": -118.3740665
+      },
+      "totalScore": 4.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJq05Hvf2VwoARAUMdZ8atj7A",
+      "categories": [
+        "Mexican restaurant",
+        "Bar",
+        "Lounge bar",
+        "Sports bar"
+      ],
+      "fid": "0x80c295fdbd474eab:0xb08fadc6671d4301",
+      "cid": "12722578539990041345",
+      "reviewsCount": 148,
+      "reviewsDistribution": {
+        "oneStar": 22,
+        "twoStar": 6,
+        "threeStar": 9,
+        "fourStar": 13,
+        "fiveStar": 98
+      },
+      "imagesCount": 150,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:06.998Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Thursday",
+          "hours": "8:30\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "8\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "8\u202fPM to 2\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Latino-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Live music": true
+          },
+          {
+            "Serves local specialty": true
+          },
+          {
+            "Sports": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Jungla%20Noho&query_place_id=ChIJq05Hvf2VwoARAUMdZ8atj7A",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.1627355,-118.3737926,17.729440139990086z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 24,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqizOlQtV_zWYKy_v65FV9e40zCWg81EyiFA8o3U-4e6jX_FQjsNkV5iKt2f4rmO1JBLPLzC9a895hD4mWiyukToW8qUdirU3Ctk0ROSgBF3qTlctU5wBLqLZjjZ4eO7kWTLbPF=w426-h240-k-no",
+      "kgmid": "/g/11h1ltrqhb"
+    },
+    {
+      "title": "Big Mama's & Papa's Pizzeria - North Hollywood",
+      "description": "No-frills, counter-serve chain known for jumbo-size pizzas, including gluten-free options.",
+      "price": "$$",
+      "categoryName": "Pizza restaurant",
+      "address": "5219 Lankershim Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "5219 Lankershim Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://bmpp.com/",
+      "phone": "(818) 766-2660",
+      "phoneUnformatted": "+18187662660",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1654139,
+        "lng": -118.375175
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJKV9Z0_OVwoAReT05XCz83lQ",
+      "categories": [
+        "Pizza restaurant",
+        "Delivery service",
+        "Family restaurant",
+        "Fast food restaurant",
+        "Italian restaurant",
+        "Delivery Restaurant",
+        "Restaurant",
+        "Sandwich shop"
+      ],
+      "fid": "0x80c295f3d3595f29:0x54defc2c5c393d79",
+      "cid": "6115602611471727993",
+      "reviewsCount": 174,
+      "reviewsDistribution": {
+        "oneStar": 22,
+        "twoStar": 8,
+        "threeStar": 8,
+        "fourStar": 19,
+        "fiveStar": 117
+      },
+      "imagesCount": 252,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:21.855Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Sports": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Big%20Mama's%20%26%20Papa's%20Pizzeria%20-%20North%20Hollywood&query_place_id=ChIJKV9Z0_OVwoAReT05XCz83lQ",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.1674064,-118.3758539,17.729360315573622z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 22,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweru9jsG2alOeMM3BhKCdDIx87UmRn_id-CPIQ8P-uUaQyHCslR15i2Z21FkMoK9cBuklK5jFZBnAEWCaxphgl2UNGtFm-8RcUk5pcLL-7MBzjwnZNJdM56g2jOItNUsAPzKv1AdAQ=w408-h303-k-no",
+      "kgmid": "/g/1tq4rbl7"
+    },
+    {
+      "title": "PokeMotto Noho",
+      "price": "$$",
+      "categoryName": "Hawaiian restaurant",
+      "address": "11114 Magnolia Blvd, North Hollywood, CA 91601",
+      "neighborhood": "North Hollywood",
+      "street": "11114 Magnolia Blvd",
+      "city": "North Hollywood",
+      "postalCode": "91601",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.pokemotto.site/",
+      "phone": "(818) 358-3217",
+      "phoneUnformatted": "+18183583217",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1647184,
+        "lng": -118.3730964
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": true,
+      "placeId": "ChIJye9fmPOVwoAR98XPGKmgq9M",
+      "categories": [
+        "Hawaiian restaurant",
+        "Seafood restaurant"
+      ],
+      "fid": "0x80c295f3985fefc9:0xd3aba0a918cfc5f7",
+      "cid": "15252461211146503671",
+      "reviewsCount": 141,
+      "reviewsDistribution": {
+        "oneStar": 12,
+        "twoStar": 2,
+        "threeStar": 4,
+        "fourStar": 6,
+        "fiveStar": 117
+      },
+      "imagesCount": 114,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:23.206Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Breakfast": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          }
+        ],
+        "Payments": [
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=PokeMotto%20Noho&query_place_id=ChIJye9fmPOVwoAR98XPGKmgq9M",
+      "searchPageUrl": "https://www.google.com/maps/search/japanese%20restaurant/@34.1645044,-118.3740665,18.72940991161554z?hl=en",
+      "searchString": "japanese restaurant",
+      "language": "en",
+      "rank": 23,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerqf2juQJYb_xfnJteVZTD7CSh61fCbAHLFA7Jvse82v_kNIk5MkVj2zwBz5TgC3b3CbqO6OHATko3DP4FhhOsJISFGgeyc3weRAQtT25D77S9tknB4irSZWaVS0pGwPcdANqqn=w408-h306-k-no",
+      "kgmid": "/g/11hdb8lvx9"
+    }
+  ]
+}

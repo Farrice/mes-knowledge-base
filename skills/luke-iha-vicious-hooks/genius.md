@@ -180,3 +180,27 @@ Before writing any hook, answer these diagnostic questions:
 - **Signature phrases**: "dead on arrival," "vicious," "go right for the gut," "doesn't let up for one second," "every word must earn its place"
 - **Energy**: High-intensity coach energy — not theoretical, not gentle. Like a fight trainer before a bout.
 - **Critical distinction**: The violence is in the METAPHORS about how seriously to take hooks — the actual hooks themselves are crafted, precise, and psychologically sophisticated.
+
+---
+
+## Expert-Specific Quality Rubric
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :--- | :--- | :--- | :--- |
+| **First-Line Compulsion** | Hook is relevant but feels like a strong headline rather than something you MUST read further. | Hook stops the scroll and creates genuine curiosity, but the pull weakens after the first sentence. | Hook is physically impossible to scroll past — the reader's thumb freezes, their brain demands the next line before conscious choice kicks in. |
+| **Emotional Charge** | Uses some emotionally weighted words but the overall tone stays safe and professional. | Language is visceral and earthy with 1-2 power words, but occasional Latinate/abstract words dilute the charge. | Every word is Germanic, guttural, concrete — the hook hits like a body blow. Zero abstraction. The reader FEELS it before they think about it. |
+| **Open Loop Architecture** | Hook implies a topic but the reader can predict the general direction of the content. | Loop is tight enough that casual readers can't guess the answer, but sophisticated readers might. | Loop is airtight — no human on earth can confidently predict what comes next. The Prediction Test yields zero consensus across 3+ people. |
+| **Stakes Communication** | Something is mildly at risk (convenience, minor frustration) but nothing that triggers rubbernecking. | Real stakes are present (health, money, identity) but communicated indirectly or abstractly. | Stakes are visceral, immediate, and undeniable — death, marriage, identity destruction. The reader feels the gravitational pull of consequence. |
+| **Anti-Ad Authenticity** | Hook reads like good marketing copy — polished, purposeful, clearly selling something. | Hook could pass as organic content in most contexts, but a cynical reader might suspect an ad. | Indistinguishable from a confession, piece of gossip, or breaking personal revelation. Cover the brand name and nobody can tell it's an ad. |
+| **Caveman Language** | Most words are simple but 2-3 multi-syllable or Latinate words create friction. | Consistently simple and earthy, readable by a 12-year-old, with rare exceptions. | A caveman could grunt-translate every word. Monosyllabic where possible. Anglo-Saxon roots throughout. Zero cognitive friction. |
+| **Specificity** | Hook uses general claims or round numbers that feel manufactured. | Includes 1-2 concrete details that ground the hook in reality ("26 years," "guest bedroom"). | Specific details are the TELLING details — each one does double duty as both grounding AND emotional charge, making the story feel undeniably true. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Vicious Hook Writer: Identity Infiltration Architecture
+- **Hypothesis**: Adding Identity Infiltration Architecture (5 mechanics: Private Behavior Call, Unsaid Thought, Gap Exposure, Ritual Naming, Time-Stamp Specificity) between relevance selection and hook writing would produce hooks that feel personally targeted rather than broadly relevant.
+- **Result**: KEPT — 6.67 → 8.0 (+1.33 composite). Adversarial Resilience jumped +2 (6→8). Variant hooks name what the reader DID last Tuesday, not just what category of problem they have.
+- **Change**: Added Phase 1.5 (Identity Infiltration Diagnostic) with 5 IM mechanics, new scoring dimension (Identity Resonance), new quality gate check (Infiltration Check).
+- **Lesson**: Hooks that name private behaviors ("11pm rewriting your bio again") are uncopyable and unfakeable. They demonstrate understanding at a level that builds instant trust. The gap between "topic-level" hooks and "experience-level" hooks is the gap between stopping the scroll and making someone screenshot it.

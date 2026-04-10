@@ -1,5 +1,5 @@
 ---
-description: Generate 30+ hooks using positioning types, psychological triggers, and proof-of-work patterns
+description: Generate 30+ hooks
 ---
 
 # Hook Forge

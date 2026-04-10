@@ -1,5 +1,5 @@
 ---
-description: Angle Swarm — high-volume hook generation sprint producing 50+ hooks using all Luke Iha hook generation systems
+description: Angle Swarm
 ---
 
 ## Workflow: Angle Swarm

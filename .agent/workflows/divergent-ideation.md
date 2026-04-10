@@ -1,5 +1,5 @@
 ---
-description: Three-frame divergent ideation sprint — replace single-angle brainstorming with structural creative diversity to produce 15+ content concepts
+description: Three-frame divergent ideation sprint
 ---
 
 # `/divergent-ideation` — Three-Frame Content Sprint

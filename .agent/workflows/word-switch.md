@@ -1,5 +1,5 @@
 ---
-description: Architect creative register shifts within a single piece — casual → authoritative → comedic → intimate — for entertainment and texture
+description: Architect creative register shifts within a single piece
 ---
 
 # Code-Switch Architect

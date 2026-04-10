@@ -1,5 +1,5 @@
 ---
-description: Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation.
+description: Audit a keyword
 ---
 
 # ⚠️ CRITICAL: This workflow requires LIVE SERP VALIDATION.

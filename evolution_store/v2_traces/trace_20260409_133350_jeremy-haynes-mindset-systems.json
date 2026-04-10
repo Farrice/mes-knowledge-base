@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260409_133350",
+  "timestamp": "2026-04-09T13:33:50.758851",
+  "component": "jeremy-haynes-mindset-systems",
+  "operation": "chain_finalize",
+  "expert": "jeremy-haynes",
+  "workflow": "revenue-breakthrough-blueprint",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "Phase 0 detects 5 sabotage signatures (Price Flinch, Visibility Avoidance, Complexity Hoarding, Delegation Paralysis, Validation Stalling) in daily business decisions. Maps each to identity belief, installs real-time pattern interrupts. Bridges gap between strategic mindset planning and operational self-sabotage detection. Baseline 6.0 -> Variant 8.3 (+2.3). KEPT.",
+  "context": {
+    "output": "Skill evolution: jeremy-haynes-mindset-systems \u2014 Added Decision Friction Diagnostic (Phase 0) to Revenue Breakthrough Blueprint",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 0,
+      "delta": 0,
+      "message": "Insufficient data (0 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}

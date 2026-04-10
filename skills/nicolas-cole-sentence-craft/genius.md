@@ -195,3 +195,15 @@ Tacit insights Cole operates from that most writers never discover.
 | **Adverb Elimination** | Adverbs are used frequently to modify verbs, often unnecessarily, weakening the prose. | Adverbs are used sparingly, with most weak verb+adverb combinations replaced by stronger, more precise verbs. | Adverbs are virtually absent, with every verb chosen for its inherent precision and power, requiring no modification. |
 | **Vocabulary Anchoring** | Vocabulary fluctuates, sometimes too complex for the audience, sometimes overly simplistic without impact. | Primarily fourth-grade vocabulary with occasional, effective, and well-placed elevations (max 1 per sentence/paragraph). | Consistently uses a fourth-grade base, with precisely one strategically elevated word per sentence or paragraph for maximum intellectual reward. |
 | **Opening Sentence Impact** | The first sentence is generic, throat-clearing, or lacks an immediate hook, failing to compel continuation. | The first sentence captures attention, but could be more specific, controversial, or impactful to increase engagement. | The first sentence immediately hooks the reader with curiosity, controversy, or specificity, ensuring continuation within the first 10 words. |
+
+---
+
+## Evolution Log
+
+> Tracks all evolution attempts — kept AND discarded.
+
+### 2026-04-09 — Terminal Power & Rhythm Engineering: Sentence Demand Architecture
+- **Hypothesis**: Adding Sentence Demand Architecture (5 mechanics: Incomplete Transfer, Expectation Violation, Specificity Spike, Reversal Bridge, Compression Cliffhanger) + Energy Crescendo Mapping to Phase 4 would create writing where readers can't stop at ANY sentence boundary.
+- **Result**: KEPT — Both versions scored 8.3 composite. Variant achieved 43% compression vs 32% (Cole's primary metric), deployed all 5 demand mechanics at every sentence boundary, and produced writing with auditable energy trajectories.
+- **Change**: Split Phase 4 into 4A (rhythmic orchestration) + 4B (Sentence Demand Architecture with 5 DM mechanics). Added Phase 4.5 (Energy Crescendo Mapping with Build/Spike/Cascade types). Enhanced Quality Gate with Demand Test and Flat Paragraph Kill Rule.
+- **Lesson**: Sentence-level demand is distinct from paragraph-level grip (Kallaway). Cole's terminal word power already creates echo — adding demand mechanics makes that echo POINT FORWARD into the next sentence. The Compression Cliffhanger (DM5) is the most powerful mechanic because it leverages Cole's existing terminal word strength.

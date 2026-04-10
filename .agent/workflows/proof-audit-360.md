@@ -1,5 +1,5 @@
 ---
-description: "Comprehensive audit of any copy against the full 22-type proof arsenal and Proof Ladder positioning with specific fix prescriptions"
+description: Comprehensive audit of any copy against the full
 ---
 
 # 360° Proof Audit

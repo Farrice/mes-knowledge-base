@@ -1,0 +1,13 @@
+{
+  "variant": "v003",
+  "bytes": 2212,
+  "lines": 31,
+  "compression_pct": 78.3,
+  "rule_integrity": 9.6,
+  "rules_checked": 28,
+  "rules_passed": 27,
+  "missing_rules": [
+    "content_creation_gate.md"
+  ],
+  "baseline_bytes": 10187
+}

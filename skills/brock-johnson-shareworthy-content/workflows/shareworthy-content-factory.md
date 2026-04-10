@@ -28,6 +28,17 @@ Before ideating, define the "Why." According to the **Share-Trigger Architecture
 3. **Status/Intelligence**: "I found this high-value thing first."
 4. **Tribal Belonging**: "We all feel this way."
 
+### Phase 1.5: Sharer Identity Casting
+Before building content, separate the SHARER from the READER. Sharing is not consumption — it is a performance act. When someone forwards your content, they are casting themselves in a role in front of their own network. Engineer for that role.
+
+1. **Who actually shares this type of content?** (Not who consumes it — who forwards it, screenshots it, DMs it. These are often different people with different motivations.)
+2. **What identity does the sharer perform by forwarding this?** Name the specific role: The Protector, The Discoverer, The Contrarian, The Generous Expert, The Insider. The share must let them BE someone desirable.
+3. **Write the forwarding sentence.** Draft the exact words the sharer would type when sending this to someone: "You need to see this," "This is exactly what I was telling you," "This is why I do X differently." If you can't write a natural forwarding sentence, the share trigger is too weak.
+4. **Map the second-order audience.** Who will SEE that the sharer shared this? How does the content make the sharer look to THAT audience? The sharer's reputation with their network is the real currency — engineer for it.
+5. **Design the identity payoff into the content itself.** The final slide, closing line, or CTA should make sharing feel like a character-consistent move, not a favor to the creator. The sharer should feel "of course I'd share this — it's what I stand for."
+
+> **Gate**: If you cannot name the specific identity the sharer performs, do not proceed to Phase 2. The content may be save-worthy but it is not share-worthy.
+
 ### Phase 2: The 5-Category Content Matrix
 Generate one core concept for each of the 5 Shareworthy Types, applying the **Relatability Reflex** and **Aspiration Gap Engineering**:
 

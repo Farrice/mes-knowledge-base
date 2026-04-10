@@ -137,3 +137,13 @@
 | **Momentum Copy Flow**        | Copy is readable but may have dense sections or slow pacing.                        | Copy flows well, with good paragraph breaks and occasional story beats.              | Copy maintains relentless forward momentum through strategic pacing: story beats every ~200 words, micro-CTAs every ~500, and short, engaging paragraphs. |
 | **"Sell the Vacation" Adherence** | Front-end copy explains some "how-to" alongside the outcome.                      | Front-end copy primarily sells the outcome, with minimal "how-to" details.          | Front-end copy exclusively sells the desirable outcome, lifestyle, or feeling, completely omitting *how* the product or strategy works to build maximum curiosity. |
 | **A/B Testing Mentality**     | 1-3 headline/hook variations are provided.                                          | 5-10 distinct headline/hook variations are provided, showing some exploration.       | 50+ distinct headline/hook variations are generated, demonstrating a deep exploration of angles, with scoring for Curiosity, Specificity, and Credibility. |
+
+---
+
+## Evolution Log
+
+### 2026-04-09 — Front-End Promotion: Consumer Posture Translation Layer
+- **Hypothesis**: Adding a Phase 0 that builds a posture-informed linguistic palette from Dai Media's identity-level consumer understanding BEFORE the Big Idea produces copy that resonates at identity level, not just curiosity level.
+- **Result**: KEPT — 7.0 → 8.3 (+1.3). Identity Resonance 5→9 (+4), Proof Texture 6→9 (+3). Slight cost to Momentum (-1) and Asymmetry (-1), recoverable through editing.
+- **Change**: Added Phase 0 (Consumer Posture Translation Layer) with Individual naming, 5-dimension Linguistic Palette (Identity Words, Proof Texture, Emotional Cadence, Sentence Posture, The Unnamed Feeling), Kristen Stewart Test validation, and palette carry-forward into all subsequent phases.
+- **Lesson**: Copy that names what the reader feels but can't articulate ("The Unnamed Feeling") creates trust at a level that proof alone can't reach. The Linguistic Palette changes what the copywriter THINKS ABOUT before writing — which changes the words on the page. Cross-pollination with Dai Media's consumer posture framework is natural and powerful.

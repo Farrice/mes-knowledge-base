@@ -1,5 +1,5 @@
 ---
-description: Apply the Outsider Lens Filter — insider access with outsider perspective — to any character or brand voice
+description: Apply the Outsider Lens Filter
 ---
 
 # /connelly-outsider

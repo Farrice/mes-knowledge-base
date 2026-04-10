@@ -1,5 +1,5 @@
 ---
-description: Query a specific NotebookLM notebook for domain-specific research and context
+description: Query a specific NotebookLM notebook
 ---
 
 # /query-notebook — Direct NotebookLM Query

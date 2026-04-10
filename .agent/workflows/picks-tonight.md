@@ -1,5 +1,5 @@
 ---
-description: "Generate tonight's NBA picks — fully automated. Pulls games, lines, injuries, runs projections, outputs a clean shareable pick card. Just run it."
+description: Generate tonight's NBA picks
 ---
 
 # /picks-tonight — Tonight's NBA Picks

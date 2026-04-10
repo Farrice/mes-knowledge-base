@@ -1,5 +1,5 @@
 ---
-description: Diagnose creative culture health across 5 dimensions and prescribe interventions using Greg Hoffman's Nike innovation framework
+description: Diagnose creative culture health
 ---
 
 # /creative-culture

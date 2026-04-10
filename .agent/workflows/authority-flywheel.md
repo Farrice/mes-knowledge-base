@@ -1,5 +1,5 @@
 ---
-description: "Authority Flywheel — voice memo to newsletter + LinkedIn posts via parallel research and creative briefing"
+description: Authority Flywheel
 ---
 
 # /authority-flywheel — The Authority Flywheel Engine

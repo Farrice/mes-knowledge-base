@@ -1,5 +1,5 @@
 ---
-description: "Batch growth format production — scan trending entities, rank by potential, produce 3-5 growth posts in parallel across all jack types. One sprint = one week of growth content."
+description: Batch growth format production
 ---
 
 # `/growth-format-sprint` — Batch Growth Format Production

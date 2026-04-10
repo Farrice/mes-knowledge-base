@@ -1,5 +1,5 @@
 ---
-description: "Build a rapid-response OODA loop media warfare system — compress decision-to-publish time, benchmark competitors, build crisis protocol and proactive disruption calendar"
+description: Rapid-response OODA loop media warfare system
 ---
 
 # /ooda-media — OODA Loop Media Warfare

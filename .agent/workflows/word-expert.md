@@ -1,5 +1,5 @@
 ---
-description: Transform content to hit both high-authority AND high-affinity — proof injection, admission lines, HTBT energy, and usefulness framing
+description: Transform content to hit both high-authority AND high-affinity
 ---
 
 # /word-expert

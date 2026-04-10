@@ -229,3 +229,48 @@
 | **Objection Pre-emption Architecture** | Some common objections are addressed, often in a separate FAQ section. | Key objections are addressed within the copy, but may feel slightly forced or out of flow. | Top 5-7 objections are identified and seamlessly woven into the narrative, anticipating and neutralizing skepticism before it arises, feeling like a natural conversation. |
 | **Proof & Demonstration Strength** | Generic testimonials or weak social proof (e.g., small follower count). | Multiple forms of proof (testimonials, case studies) are present, but product demonstration is static. | Features unedited, specific, and plentiful proof (e.g., actual results screenshots, interactive demos, "before/after" experiences), or "shows the product working" directly. |
 | **Identity Targeting Precision** | Targets a broad demographic (e.g., "small business owners"). | Targets a specific niche (e.g., "e-commerce store owners"). | Targets a hyper-specific identity with language that immediately makes qualified prospects self-select and unqualified ones disengage (e.g., "7-Figure Amazon FBA Sellers in Texas"). |
+
+## Evolved Pattern: Defensive Permeability Calibration
+
+> **Added**: 2026-04-09 | **Evolution Cycle**: 1 (first evolution) | **Status**: KEPT
+
+**Problem Solved**: Suby's full-volume Bleeding Neck approach is optimized for desperate buyers in commodity markets. When targeting sophisticated professionals (coaches, consultants, experts) who are in a state of *comparative observation* rather than *acute desperation*, the intensity triggers ad-detection defenses and causes rejection. The skill had no mechanism to diagnose audience psychological armor and adjust persuasion intensity accordingly.
+
+**The Layer — Pre-Production Awareness Diagnostic**:
+
+Before writing any ad, diagnose the target audience on two axes:
+
+1. **Ad-Detection Sophistication** (Low / Medium / High)
+   - Low: Consumer markets, impulse buyers, commodity pain. → Deploy Patterns 3, 12, 13 at full volume.
+   - Medium: Small business owners, semi-informed buyers. → Deploy full patterns but soften language from "desperate" to "frustrated."
+   - High: Experts, consultants, coaches, B2B professionals who've seen hundreds of ads. → Deploy **Recognition Mode** (see below).
+
+2. **Emotional State** (Desperate / Frustrated / Observing / Skeptical)
+   - Desperate: Full Bleeding Neck. Visceral urgency. "You're losing money every day."
+   - Frustrated: Agitation with empathy. "You've tried everything and nothing sticks."
+   - Observing: Recognition without agitation. "You've noticed it. Not dramatically — more like a slow background hum."
+   - Skeptical: Proof-first, claims-last. Lead with demonstration, not promises.
+
+**Recognition Mode** (for High Sophistication + Observing/Skeptical audiences):
+- Replace agitation with *articulation of what they already feel but haven't named*
+- Use "not jealous — confused" framing instead of "sick of / losing to"
+- Open with observation ("You've noticed...") not accusation ("You're failing...")
+- Lower CTA friction: "See how it works" not "Get the free blueprint"
+- The ad should read as a peer's LinkedIn post, not a marketer's funnel entry
+
+**Integration with Existing Patterns**:
+- Pattern 3 (Bleeding Neck): Still applies, but intensity scaled by Emotional State axis
+- Pattern 10 (Non-Ad Standard): Amplified — Recognition Mode makes organic blending easier
+- Pattern 12 (Three-Element Formula): All three elements still required; intrigue shifts from "shocking revelation" to "named recognition"
+- Pattern 13 (Identity Trigger): Unchanged — specificity is always maximum
+- Pattern 14 (Objection Anticipation): In Recognition Mode, objections are *acknowledged as reasonable* not *overcome*
+
+**When NOT to use**: If the market scores Low sophistication + Desperate emotional state, this layer adds unnecessary friction. Full Suby volume is correct for commodity pain markets. This layer exists for the growing segment of sophisticated professional audiences.
+
+---
+
+## Evolution Log
+
+| Date | Cycle | Layer Added | Hypothesis | Benchmark Task | Baseline Score | Variant Score | Verdict |
+|------|-------|-------------|-----------|----------------|---------------|---------------|---------|
+| 2026-04-09 | 1 | Defensive Permeability Calibration | Matching ad intensity to audience psychological armor thickness will increase resonance with sophisticated professional audiences without sacrificing Suby's core patterns | LinkedIn ad for Authority Flywheel targeting S&C coaches who've seen competitors succeed online | 6.2 | 8.0 | KEPT |

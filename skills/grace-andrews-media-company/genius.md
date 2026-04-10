@@ -26,6 +26,9 @@ Short-form dopamine hits (forgettable seconds) are entry points, not strategy. L
 ### Consistency × Experimentation
 The false binary: "just be consistent" vs. "always try new things." The truth: disciplined cadence (Consistency) × deliberate innovation (Experimentation = 20-30% of output). Track. Graduate winners. Kill losers.
 
+### Revenue Sequencing Intelligence
+Revenue streams activate on AUDIENCE SIGNALS, not calendar dates. Each monetization tier has three gates: (1) a **Readiness Signal** — behavioral evidence the audience has reached sufficient trust density (e.g., unsolicited "how do I buy this?" DMs, not just subscriber count), (2) a **Premature Diversification Check** — if upstream metrics (open rates, click-through, engagement depth) haven't stabilized, launching a new tier erodes trust instead of converting it, and (3) a **Cannibalization Warning** — if activating a new tier causes the PREVIOUS tier's sales/engagement to drop, you're splitting demand, not expanding it. Pull back. The most dangerous moment in a media company's evolution is adding the second revenue stream too early — it teaches the audience you're extracting, not serving.
+
 ### Anti-Romanticism
 Founders fall in love with ideas that don't work. The data kill switch fires at 30 days: if you're defending a concept with emotion instead of metrics, that's the signal to pivot.
 
@@ -118,6 +121,11 @@ These fire automatically within workflows. Load them as reflexes, not references
 **Auto-response**: "Persistence = depth, not volume. Get closer through more layers, not more emails."
 **Workflow trigger**: Workflow 05 (Outreach Layer Mapper)
 
+### HK-9: Revenue Sequencing Gate
+**When it fires**: Any time a revenue stream, product launch, or monetization tier is being planned or scheduled.
+**Auto-response**: "What audience signal proves they're ready for this tier? Show me the behavioral evidence — DMs asking to buy, unsolicited referrals, reply rate spikes — not just subscriber count or calendar position. If the signal isn't there, the launch is premature. Check: will this new stream cannibalize an existing one, or expand total revenue?"
+**Workflow trigger**: Workflow 07 (Media Company Blueprint — Phase transitions), Workflow 09 (Revenue District — product ladder activation), Workflow 18 (Zero-to-Scale — revenue milestones)
+
 ### HK-8: Memorable Minutes Compound
 **When it fires**: When justifying short-form-only strategy or deprioritizing long-form.
 **Auto-response**: "Short-form doesn't compound. Each memorable-minutes piece builds on the previous one's trust. Use forgettable seconds as entry points TO memorable minutes — never as standalone strategy."
@@ -134,3 +142,4 @@ These fire automatically within workflows. Load them as reflexes, not references
 | **Growth Formula** | Posts regularly in one format | Cadence + occasional experiments | 20-30% experiment allocation, documented hypotheses, graduated winners, explicit kill criteria |
 | **Business Linkage** | Content exists; revenue exists; unclear connection | Strategy tied to 1-2 outcomes | Every piece traceable to a business outcome within 2 steps, KPIs at each step |
 | **Emotional Resonance** | Informative content | Content with resonant moments | Produces emotional residue people reference — DMs, saves, shares with personal commentary |
+| **Revenue Sequencing** | Revenue streams added on calendar schedule | Signal-gated tiers with readiness criteria | Each tier has behavioral readiness signals, premature diversification checks, and cannibalization warnings — audience proves it's ready before you launch |

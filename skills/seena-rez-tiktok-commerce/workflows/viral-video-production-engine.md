@@ -48,12 +48,28 @@ Execute **Pattern 3: Authority Speed-Stacking**. Build a 5-7 second sequence tha
 - **Layer 5 (Testimonial)**: Rapid-fire 3-frame "Before/After" or text review (1.3s).
 *Note: The goal is for the viewer to feel the weight of evidence without having time to read it.*
 
+### Phase 3.5: Self-Recognition Trigger Design (Conversion Layer)
+Before scripting, design the moment that converts attention into intent. This fires BETWEEN authority and explanation — the viewer has stopped scrolling (hook worked) and been impressed (authority worked), but hasn't yet decided to ACT. Self-recognition creates internal motivation that outlasts the video.
+
+**Build ONE trigger from this menu** (pick the one that maps to the target audience's private experience):
+
+1. **Private Behavior Mirror** — Name a specific private behavior the viewer does but has never seen articulated. Not a general habit — the EXACT micro-behavior. ("You do that thing where you screenshot the post but never actually do anything with it." / "You open the app, scroll for 10 minutes, close it, then open it again.")
+2. **Temporal Self-Comparison** — Show the gap between who the viewer was becoming and where they stalled. ("Remember when you used to actually finish the things you started? What happened wasn't laziness — it was this.")
+3. **Unspoken Internal Monologue** — Voice the exact thought they have in a specific recurring moment, with uncanny precision. ("That thing you tell yourself right after you close your laptop — 'I'll figure it out tomorrow' — you've been saying that for 8 months.")
+4. **Environmental Detail Anchoring** — Describe the physical environment of their problem so specifically the viewer feels surveilled. Name the app, the time of day, the position they're sitting in, the tab they have open.
+5. **Identity Gap Crystallization** — Name the gap between their public presentation and private reality, with zero judgment. ("Everyone thinks you have it figured out. You don't correct them. But you know.")
+
+**Placement**: Seconds 12-18 (between authority stack and product demo). Delivered as direct-address voiceover or text overlay — NOT as part of the product explanation. The recognition moment must land BEFORE the product appears.
+
+**Quality test**: Show the trigger line to someone in the target audience. If they don't physically react (laugh, wince, say "okay wow") — it's too generic. Rewrite.
+
 ### Phase 4: The PSAEP Master Script
 Consolidate the best hook and the authority stack into a surgical 45-second script.
 - **Problem Hook (0-3s)**: Use the highest-rated Hyperdopamine Hook.
 - **Solution Bridge (3-8s)**: "But you know what's also [Hook Reference]? This [Solution Concept]."
 - **Authority Stack (8-15s)**: The rapid-fire sequence from Phase 3.
-- **Explanation/Demo (15-35s)**: UGC-style demonstration. Show the product "doing the work." Use **Pattern 7: Problem Agitation Through Visualization** (e.g., showing the dirt leaving the pore).
+- **Self-Recognition Trigger (12-18s)**: The trigger designed in Phase 3.5 — delivered as voiceover or text overlay that creates the "that's literally me" moment. This OVERLAPS with the tail of the authority stack, creating a seamless transition from external proof to internal recognition.
+- **Explanation/Demo (18-35s)**: UGC-style demonstration. Show the product "doing the work." Use **Pattern 7: Problem Agitation Through Visualization** (e.g., showing the dirt leaving the pore). The demo now ANSWERS the recognition moment — "here's what fixes the thing you just admitted to yourself."
 - **Product/CTA (35-45s)**: Direct action. Frame it as "getting in before the gate closes" or "the secret is out."
 
 ### Phase 5: Visual Strategy & Asset Brief
@@ -69,9 +85,10 @@ Produce the creative brief for the editor/videographer.
 The user receives a single `.md` file containing:
 1. **10 Hyperdopamine Hook Variations**: Table with Visual, Audio, Text, and Strangeness Rating.
 2. **Authority Speed-Stack Map**: 5-7 specific assets with timing and sourcing instructions.
-3. **Master PSAEP Script**: Second-by-second breakdown (Visual, Audio, VO, Text Overlay).
-4. **Visual Creative Brief**: Shot list, typography specs, and motion architecture.
-5. **Variation Multiplication Guide**: Instructions on how to swap the 10 hooks into the master script for a 10-video testing blitz.
+3. **Self-Recognition Trigger**: The selected trigger type, exact script line, placement notes, and quality test result.
+4. **Master PSAEP Script**: Second-by-second breakdown (Visual, Audio, VO, Text Overlay) — now includes the recognition trigger at seconds 12-18.
+5. **Visual Creative Brief**: Shot list, typography specs, and motion architecture.
+6. **Variation Multiplication Guide**: Instructions on how to swap the 10 hooks into the master script for a 10-video testing blitz.
 
 ## Quality Gate
 - **The Scroll-Stop Test**: Does the first frame of the hook make a user say "What the hell is that?"
@@ -79,6 +96,7 @@ The user receives a single `.md` file containing:
 - **The PSAEP Lock**: Is the sequence exactly Problem -> Solution -> Authority -> Explanation -> Product?
 - **Caption Check**: Are all captions <7 words and positioned in the TikTok safe zone?
 - **Emotional Resonance**: Does the "Before" state create a visceral negative reaction (disgust, fear, or intense FOMO)?
+- **Self-Recognition Test**: Does the trigger line at seconds 12-18 name a specific private behavior or thought — not a generic pain point? Could the viewer say "how did they know I do that?" If it could apply to everyone equally, it's too vague.
 
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

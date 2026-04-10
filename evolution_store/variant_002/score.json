@@ -1,0 +1,10 @@
+{
+  "variant": "002",
+  "metrics": {
+    "size_bytes": 1334,
+    "line_count": 28,
+    "clarity_score": 10,
+    "rule_integrity": 10
+  },
+  "notes": "Aggressively trimmed prose into sentence fragments. Clarity actually improved because instructions are punchier. Score 10 for clarity. Size reduced to 1334 bytes (520 bytes saved vs baseline)."
+}

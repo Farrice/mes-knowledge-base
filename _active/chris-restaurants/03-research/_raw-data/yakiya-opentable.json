@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "web",
+  "result_count": 1,
+  "cost_dollars": 0.003,
+  "spent_total": 0.1685,
+  "remaining_dollars": 28.8315,
+  "items": [
+    {
+      "crawl": {
+        "httpStatusCode": 200,
+        "httpStatusMessage": "OK",
+        "loadedAt": "2026-04-07T05:14:23.473Z",
+        "uniqueKey": "5aGN4cWB5q",
+        "requestStatus": "handled"
+      },
+      "metadata": {
+        "title": "",
+        "languageCode": "en",
+        "url": "https://www.opentable.com/r/yakiya-pasadena",
+        "redirectedUrl": "https://www.opentable.com/r/yakiya-pasadena"
+      },
+      "query": "https://www.opentable.com/r/yakiya-pasadena",
+      "markdown": "Powered and protected by\n\n![Akamai](https://www.akamai.com/site/ko/images/logo/akamai-logo1.svg)\n\n[Privacy](https://www.akamai.com/privacy)"
+    }
+  ]
+}

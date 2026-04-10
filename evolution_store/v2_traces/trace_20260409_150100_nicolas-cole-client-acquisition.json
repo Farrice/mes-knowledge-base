@@ -1,0 +1,27 @@
+{
+  "skill": "nicolas-cole-client-acquisition",
+  "workflow": "no-portfolio-client-landing",
+  "hypothesis": "Add Conversion Sequence Architecture (Strategy 6) — 5-post belief chain with Follow-Driver vs DM-Driver classification and ratchet check",
+  "benchmark_task": "Design a content-driven client acquisition sequence for Authority Flywheel — 5 posts that build to a DM conversation",
+  "baseline": {
+    "intent": 6,
+    "expert_standard": 7,
+    "adversarial": 6,
+    "composite": 6.3,
+    "notes": "Produced 5 standalone CMO-for-a-Day posts, each independently pitching. No psychological progression. No topic-type differentiation. Cannot answer 'why these 5 in this order?'"
+  },
+  "variant": {
+    "intent": 9,
+    "expert_standard": 8,
+    "adversarial": 8,
+    "composite": 8.3,
+    "notes": "5-post belief chain with deliberate sequencing: Problem Exposure (F) → Self-Diagnosis (D) → Solution Education (F) → Proof of Concept (D) → Low-Friction Initiation (D). Ratchet check ensures each post lands harder because of prior posts. Follow-Driver vs DM-Driver classification answers 'what drives follows vs DMs?'"
+  },
+  "delta": 2.0,
+  "result": "KEPT",
+  "change_description": "Added Strategy 6: Conversion Sequence Architecture to no-portfolio-client-landing.md. New cognitive layer: 5-stage psychological progression (Problem Exposure→Self-Diagnosis→Solution Education→Proof of Concept→Low-Friction Initiation), Follow-Driver vs DM-Driver topic classification, ratchet check, and Sequence Design Protocol. Transforms Pitch in Public from standalone content pitches into a deliberately sequenced conversion funnel where each post creates the psychological precondition for the next.",
+  "files_modified": [
+    "skills/nicolas-cole-client-acquisition/workflows/no-portfolio-client-landing.md"
+  ],
+  "timestamp": "2026-04-09T15:01:00Z"
+}

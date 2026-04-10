@@ -1,5 +1,5 @@
 ---
-description: Transform explicit "on-the-nose" dialogue into layered subtext using Eric Roth's off-center displacement and dream-logic methodology
+description: Transform explicit "on-the-nose" dialogue
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

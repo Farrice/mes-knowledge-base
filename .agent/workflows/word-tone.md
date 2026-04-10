@@ -1,5 +1,5 @@
 ---
-description: Rewrite any content in a precision-targeted tone — casual, professional, entertaining, comedic, or authoritative — with word-level annotations
+description: Rewrite any content in a precision-targeted tone
 ---
 
 # /word-tone

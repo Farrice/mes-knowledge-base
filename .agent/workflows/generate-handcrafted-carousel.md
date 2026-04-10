@@ -1,5 +1,5 @@
 ---
-description: Generate consistent handcrafted artwork backgrounds for LinkedIn carousel slides using Nano Banana 2. Outputs clean parchment-style illustrations ready for Canva text composition.
+description: Generate consistent handcrafted artwork backgrounds
 ---
 
 # /generate-handcrafted-carousel

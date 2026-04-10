@@ -1,5 +1,5 @@
 ---
-description: Creative Strategy Brief Generator — build the strategic foundation (who, what, why) before writing a single word of copy
+description: Creative Strategy Brief Generator
 ---
 
 ## Workflow: Creative Strategy Brief Generator

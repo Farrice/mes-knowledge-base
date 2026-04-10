@@ -1,5 +1,5 @@
 ---
-description: Fix lead conversion failures — appointments, listing presentations, and pipeline leaks using a high-conversion sales execution playbook
+description: Fix lead conversion failures
 ---
 
 # Lead-to-Close Conversion Engine

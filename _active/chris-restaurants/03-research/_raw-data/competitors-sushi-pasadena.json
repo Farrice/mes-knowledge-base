@@ -1,0 +1,7320 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "maps",
+  "result_count": 30,
+  "cost_dollars": 0.21,
+  "spent_total": 0.3925,
+  "remaining_dollars": 28.6075,
+  "items": [
+    {
+      "title": "Osawa",
+      "description": "Chic blond-wood-accented space with sushi chefs posted at a long bar, plus Japanese small plates.",
+      "price": "$$",
+      "categoryName": "Sushi restaurant",
+      "address": "77 N Raymond Ave, Pasadena, CA 91101",
+      "neighborhood": "Old Pasadena",
+      "street": "77 N Raymond Ave",
+      "city": "Pasadena",
+      "postalCode": "91101",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.theosawa.com/",
+      "phone": "(626) 683-1150",
+      "phoneUnformatted": "+16266831150",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1472699,
+        "lng": -118.1490738
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJcTagjXHDwoARAYFF2dBmmTc",
+      "categories": [
+        "Sushi restaurant",
+        "Japanese restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2c3718da03671:0x379966d0d9458101",
+      "cid": "4006346390707208449",
+      "reviewsCount": 922,
+      "imagesCount": 1595,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.111Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/trsnjNaHVko?source=pa&opi=79508299&hl=en-US&gei=BpPUaa3ZF-SMwbkPnpaCiAc&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6601.551688629101!2d-118.19197471061415!3d34.17764826701327!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sBJPUafqsCIScwbkPzO6mmAQ!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DBJPUafqsCIScwbkPzO6mmAQ.1775538948290.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 2:15\u202fPM, 5 to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 2:15\u202fPM, 5 to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 2:15\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 2:15\u202fPM, 5 to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11:30\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11:30\u202fAM\u20132\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          },
+          {
+            "Identifies as women-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Reservations required": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Osawa&query_place_id=ChIJcTagjXHDwoARAYFF2dBmmTc",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.17764826701327,-118.19197471061415,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqgL8gbPl9ptRWl6xZjs0dZv6nGm3B_s4kiZ4n2sYzawyX4N8aTGiDKo_iQXsJE2G7Dfuv_Ujd9hZwCOHywxbZez8d5pt9iMlHzOKBaUDQyuJmLoFbGIIPlgZNrqNHO62Z2ME8_Iw=w426-h240-k-no",
+      "kgmid": "/g/12ht30dfc"
+    },
+    {
+      "title": "Sushigah",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "63 S Raymond Ave, Pasadena, CA 91105",
+      "neighborhood": "Old Pasadena",
+      "street": "63 S Raymond Ave",
+      "city": "Pasadena",
+      "postalCode": "91105",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://sushigah.com/",
+      "phone": "(626) 345-5337",
+      "phoneUnformatted": "+16263455337",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1446357,
+        "lng": -118.1490266
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ71BfC03DwoARZliAHKjLbW4",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2c34d0b5f50ef:0x6e6dcba81c805866",
+      "cid": "7957240039526652006",
+      "reviewsCount": 250,
+      "imagesCount": 514,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.113Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 12:30\u202fAM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 12:30\u202fAM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 12:30\u202fAM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushigah&query_place_id=ChIJ71BfC03DwoARZliAHKjLbW4",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.17764826701327,-118.19197471061415,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "http://t1.gstatic.com/images?q=tbn:ANd9GcTFJ8WCIlhxgn8TlN2xPk4M0IddTTsWZyEMMfPEqm5C2YRpzirn",
+      "kgmid": "/g/11sj83_xjk"
+    },
+    {
+      "title": "Mills Alley",
+      "price": "$30\u201350",
+      "categoryName": "Japanese restaurant",
+      "address": "33 S Fair Oaks Ave, Pasadena, CA 91105",
+      "neighborhood": "Old Pasadena",
+      "street": "33 S Fair Oaks Ave",
+      "city": "Pasadena",
+      "postalCode": "91105",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(626) 765-6622",
+      "phoneUnformatted": "+16267656622",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1452216,
+        "lng": -118.15061
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJSZTYDgDDwoAR4L2uaWnkCG0",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2c3000ed89449:0x6d08e46969aebde0",
+      "cid": "7856780691343588832",
+      "reviewsCount": 130,
+      "imagesCount": 227,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.113Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Mills%20Alley&query_place_id=ChIJSZTYDgDDwoAR4L2uaWnkCG0",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.17764826701327,-118.19197471061415,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 14,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepjSkQvFgRoUS3tYqcsiFV5r_z6e9Aw8_7mIMD4d9EDFZvOsoZiThARVhNIEDrkpfSpQbm23i7QgBcn85Oo_nxdcOXtMv6rR746IbImCzMarEJIGTNUk-tLZSu0BnLwPLRxAZOPJF4O5fgJ=w408-h306-k-no",
+      "kgmid": "/g/11y28z0p4q"
+    },
+    {
+      "title": "Kyushu Sushi",
+      "price": "$20\u201330",
+      "categoryName": "Japanese restaurant",
+      "address": "950 E Colorado Blvd #101, Pasadena, CA 91106",
+      "neighborhood": null,
+      "street": "950 E Colorado Blvd #101",
+      "city": "Pasadena",
+      "postalCode": "91106",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.kyushusushica.com/",
+      "phone": "(626) 817-9007",
+      "phoneUnformatted": "+16268179007",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1457543,
+        "lng": -118.1307155
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ_evIlpvDwoAR4GEyL6IZYrc",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2c39b96c8ebfd:0xb76219a22f3261e0",
+      "cid": "13214152441025683936",
+      "reviewsCount": 128,
+      "imagesCount": 570,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.113Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "3 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Kyushu%20Sushi&query_place_id=ChIJ_evIlpvDwoAR4GEyL6IZYrc",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.17764826701327,-118.19197471061415,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 16,
+      "isAdvertisement": false,
+      "imageUrl": "http://t3.gstatic.com/images?q=tbn:ANd9GcTap9xrvu46nBfw1vgVUrdtZJIJhMH1CqkcPNJqdjxnC8l6i1Mp",
+      "kgmid": "/g/11wq58p_fv"
+    },
+    {
+      "title": "Sushi Karen",
+      "price": "$50\u2013100",
+      "categoryName": "Restaurant",
+      "address": "633 S Arroyo Pkwy, Pasadena, CA 91105",
+      "neighborhood": null,
+      "street": "633 S Arroyo Pkwy",
+      "city": "Pasadena",
+      "postalCode": "91105",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(626) 395-9977",
+      "phoneUnformatted": "+16263959977",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1343894,
+        "lng": -118.1475875
+      },
+      "totalScore": 4.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJY--zVirDwoARX9Nhzoi3OWo",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2c32a56b3ef63:0x6a39b788ce61d35f",
+      "cid": "7654350839898821471",
+      "reviewsCount": 121,
+      "imagesCount": 156,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.113Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12 to 2\u202fPM, 5 to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12 to 2\u202fPM, 5 to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12 to 2\u202fPM, 5 to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5 to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Karen&query_place_id=ChIJY--zVirDwoARX9Nhzoi3OWo",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.17764826701327,-118.19197471061415,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 17,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerH4ZuPg5bPr6ME_Q9gJ8VwhIvTuyyauPvmhH5L6smHul2X6dqkRmjvj1BtT9nLlXUIIwX3hC42DfBy-yr7GSbXA0MNtX8Yzr_ARkU4lsZPCUn8pG0rJnWNU6p1Ij_n87h1HybF=w426-h240-k-no",
+      "kgmid": "/g/11jvlp8jq4"
+    },
+    {
+      "title": "Kabuki Japanese Restaurant",
+      "description": "Japanese chain with a clubby vibe offering sushi, entrees, lunch specials & happy hours.",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "2675 E Colorado Blvd, Pasadena, CA 91107",
+      "neighborhood": "Lamanda Park",
+      "street": "2675 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.kabukirestaurants.com/",
+      "phone": "(626) 351-8963",
+      "phoneUnformatted": "+16263518963",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1463525,
+        "lng": -118.0949392
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJcQVRqYLcwoAR6VsRxbrPeko",
+      "categories": [
+        "Sushi restaurant",
+        "Asian restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2dc82a9510571:0x4a7acfbac5115be9",
+      "cid": "5366830307042483177",
+      "reviewsCount": 1234,
+      "imagesCount": 1444,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.313Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "2\u20135\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "2\u20135\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Kabuki%20Japanese%20Restaurant&query_place_id=ChIJcQVRqYLcwoAR6VsRxbrPeko",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "http://t2.gstatic.com/images?q=tbn:ANd9GcTKBEqtPee-u-g3lwmy8Q5uK0ztkNZN8LR5LaUSfs47oQGVoIkJ",
+      "kgmid": "/g/1tj52wch"
+    },
+    {
+      "title": "Yakiya",
+      "price": "$100+",
+      "categoryName": "Japanese restaurant",
+      "address": "3455 E Foothill Blvd, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "3455 E Foothill Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.yakiya-us.com/",
+      "phone": "(626) 514-2147",
+      "phoneUnformatted": "+16265142147",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1503922,
+        "lng": -118.079298
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJH1CiR83dwoARLdmxfHoJ9Z0",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2ddcd47a2501f:0x9df5097a7cb1d92d",
+      "cid": "11382014054931487021",
+      "reviewsCount": 88,
+      "imagesCount": 621,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/V9d3-iyEGmM?source=pa&opi=79508299&hl=en-US&gei=BpPUaYuQIP7cptQP_MiI4Q0&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6603.773582965342!2d-118.08902583527563!3d34.14923833506636!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sBJPUadOSB5-aptQPgqihwA4!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DBJPUadOSB5-aptQPgqihwA4.1775538948436.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "4:30 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          },
+          {
+            "Takeout": false
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Yakiya&query_place_id=ChIJH1CiR83dwoARLdmxfHoJ9Z0",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerSPpyt1hAa1-K0wyj9HaQd7fKJTGqOYDiHRQKUCyU8TziBPvhDFJOJqDIoRecapq21RERQ9jBOwRxgu3YF-LdwoCX1KG_92cu3UH3OdHMnksfIlJuSNbZBRdFs_6BviItJ4CK9oKUD1aFd=w408-h269-k-no",
+      "kgmid": "/g/11vhgf_twq"
+    },
+    {
+      "title": "Oseyo Shabu Shabu",
+      "price": "$20\u201330",
+      "categoryName": "Shabu-shabu restaurant",
+      "address": "2879 E Colorado Blvd, Pasadena, CA 91107",
+      "neighborhood": "Lamanda Park",
+      "street": "2879 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://oseyoshabushabu.net/",
+      "phone": "(626) 844-0150",
+      "phoneUnformatted": "+16268440150",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1464361,
+        "lng": -118.0910806
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJY8yrml_bwoARR0iEsZuWKFg",
+      "categories": [
+        "Shabu-shabu restaurant",
+        "Asian fusion restaurant",
+        "Hot pot restaurant",
+        "Japanese restaurant",
+        "Sukiyaki and Shabu Shabu restaurant"
+      ],
+      "fid": "0x80c2db5f9aabcc63:0x5828969bb1844847",
+      "cid": "6352492869848418375",
+      "reviewsCount": 430,
+      "imagesCount": 837,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 2\u202fPM, 5 to 9:30\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          }
+        ],
+        "Online service hours": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          }
+        ],
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20132\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Oseyo%20Shabu%20Shabu&query_place_id=ChIJY8yrml_bwoARR0iEsZuWKFg",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerlubw25lKejRj2ScoGpi1xShFrXxjJoqTXSV69gancnsSKCufNUbfSeJzCTP3XIenAH8bWIn4sEABgTmmXRAl0deEtNR7O0mybZpV4AFA9RgS7bYKNrN69UHObRtQnKFgEOeeGWuO3PmUi=w408-h307-k-no",
+      "kgmid": "/g/11b6b90p77"
+    },
+    {
+      "title": "ICHIMA",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "325 N Rosemead Blvd, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "325 N Rosemead Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.ichimasushi.com/",
+      "phone": "(626) 351-0560",
+      "phoneUnformatted": "+16263510560",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1520119,
+        "lng": -118.0759582
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJdQV-nILcwoAR983wqw8Adxg",
+      "categories": [
+        "Sushi restaurant",
+        "Asian restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2dc829c7e0575:0x1877000fabf0cdf7",
+      "cid": "1762877846448033271",
+      "reviewsCount": 1170,
+      "imagesCount": 1805,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=ICHIMA&query_place_id=ChIJdQV-nILcwoAR983wqw8Adxg",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerjiUNF1wvDmn2Mq6VselsCEnh4n7FeWBKmbxTj0rDixpj_rShjGMG0cDxiJ4treJi3l3N46G2JxUd0KHM43Bx4ulzLzlhX20rO0-2HXxIUGB5WZzLXBLnNilNC79RXaRe9jBNj=w408-h272-k-no",
+      "kgmid": "/g/1ptyf68hh"
+    },
+    {
+      "title": "SUSHIYA (Pasadena)",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "2525 E Foothill Blvd, Pasadena, CA 91107",
+      "neighborhood": "Lamanda Park",
+      "street": "2525 E Foothill Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.sushiyapasadenaca.com/#/",
+      "phone": "(626) 795-1311",
+      "phoneUnformatted": "+16267951311",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1501985,
+        "lng": -118.0983124
+      },
+      "totalScore": 3.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJIbv1TTfdwoARfEOvV_89cWM",
+      "categories": [
+        "Sushi restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2dd374df5bb21:0x63713dff57af437c",
+      "cid": "7165576649020228476",
+      "reviewsCount": 85,
+      "imagesCount": 456,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 3\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5:30 to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 11\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20133\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "7:30\u201311\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20133\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "7:30\u201311\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "11\u202fAM\u201311\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=SUSHIYA%20(Pasadena)&query_place_id=ChIJIbv1TTfdwoARfEOvV_89cWM",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqQVO7z3EQjq0uQ3E8ALgeDpy1dGiRn25A-QFRhv4v3Ow_opbUuR9a9c0TO1jw7zE5JmH4-muCFytjrLohTQXvsMvCI-NDMVkOjMcYsG7UXUbVMj2Jpl9xwPLay3DTbYJNBgJPILg=w408-h408-k-no",
+      "kgmid": "/g/11hzwck88s"
+    },
+    {
+      "title": "Tomikawa Japanese Restaurant",
+      "price": null,
+      "categoryName": "Sushi restaurant",
+      "address": "3539 E Foothill Blvd, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "3539 E Foothill Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.tomikawasushi.com/",
+      "phone": "(626) 995-9191",
+      "phoneUnformatted": "+16269959191",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.150713,
+        "lng": -118.0767537
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ99Bvc6LdwoAR2woo4lCzXGo",
+      "categories": [
+        "Sushi restaurant",
+        "Buffet restaurant"
+      ],
+      "fid": "0x80c2dda2736fd0f7:0x6a5cb350e2280adb",
+      "cid": "7664197825850772187",
+      "reviewsCount": 156,
+      "imagesCount": 729,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "3\u20136\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "3\u20136\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "All you can eat": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Tomikawa%20Japanese%20Restaurant&query_place_id=ChIJ99Bvc6LdwoAR2woo4lCzXGo",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCsCESTBv2S66YdrHql1YgwAO_z0G4TWvzbmt_mxac8EIGfxIe3nkgxjfpIWE96PBal3_A9AieQABXPOPj4XsqNrr_YS3pHo6dd10awvtUS4fpA4YXbJMxI2mFXo4a7vtQbH8H=w408-h326-k-no",
+      "kgmid": "/g/11vx19579k"
+    },
+    {
+      "title": "Shogun Restaurant",
+      "description": "Local outpost of a chain of casual Japanese eateries specializing in table-side teppanyaki & sushi.",
+      "price": "$$",
+      "categoryName": "Sushi restaurant",
+      "address": "470 N Halstead St, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "470 N Halstead St",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://restaurantshogun.com/",
+      "phone": "(626) 351-8945",
+      "phoneUnformatted": "+16263518945",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1541936,
+        "lng": -118.0790696
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJyezWlpzcwoAR__hUhONwn2Y",
+      "categories": [
+        "Sushi restaurant",
+        "Asian restaurant",
+        "Japanese restaurant",
+        "Japanese steakhouse",
+        "Seafood restaurant",
+        "Sukiyaki and Shabu Shabu restaurant",
+        "Restaurant",
+        "Teppanyaki restaurant"
+      ],
+      "fid": "0x80c2dc9c96d6ecc9:0x669f70e38454f8ff",
+      "cid": "7394753235645692159",
+      "reviewsCount": 1480,
+      "imagesCount": 1129,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/d0UJHJE0Y9Y?source=pa&opi=79508299&hl=en-US&gei=BpPUaYuQIP7cptQP_MiI4Q0&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6603.773582965342!2d-118.08902583527563!3d34.14923833506636!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sBJPUadOSB5-aptQPgqihwA4!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DBJPUadOSB5-aptQPgqihwA4.1775538948436.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Curbside pickup": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Romantic": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Shogun%20Restaurant&query_place_id=ChIJyezWlpzcwoAR__hUhONwn2Y",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 9,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep-0AWhFKnNNN_YPka9sLJIK01zbaGg5dHK5FWy_QHQroRayBfgGp_F-gCwApKpv9efdWMQ_VhryvJ_Z4QKtyCREoMag1seHNITjkXwWBcIsJtlUpIxcpxIY3Ba2wBeNe6RjPBvnA=w426-h240-k-no",
+      "kgmid": "/g/1tkc2cs1"
+    },
+    {
+      "title": "Go Go Sushi",
+      "description": "Sushi spot serving rolls & Japanese eats off a conveyor belt or at tables in snug, strip-mall digs.",
+      "price": "$20\u201330",
+      "categoryName": "Conveyor belt sushi restaurant",
+      "address": "2269 E Colorado Blvd, Pasadena, CA 91107",
+      "neighborhood": "Mid Central",
+      "street": "2269 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.gogosushibar.com/",
+      "phone": "(626) 585-9990",
+      "phoneUnformatted": "+16265859990",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1463901,
+        "lng": -118.1035481
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJZzZ-VKjcwoARcoHXAxnZOLA",
+      "categories": [
+        "Conveyor belt sushi restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2dca8547e3667:0xb038d91903d78172",
+      "cid": "12698137850832978290",
+      "reviewsCount": 380,
+      "imagesCount": 428,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.314Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "3 to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Quiet": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Go%20Go%20Sushi&query_place_id=ChIJZzZ-VKjcwoARcoHXAxnZOLA",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweojTBDnNpVlNQB1mBNmAR8J2oNIWb64-L7RoAK_dzPaygLpTOki-GND9ZUQIkCpKDCAlBOEGv1ElnPpGEuN8jkQ1xQAwwxX77765EGD-O8gZt-WE8kd6NByVjYXj7L6n88Mg0I=w408-h408-k-no",
+      "kgmid": "/g/1tf07yj_"
+    },
+    {
+      "title": "Kaiba Japanese Ramen, Sushi & Grill - Pasadena",
+      "price": "$10\u201320",
+      "categoryName": "Sushi restaurant",
+      "address": "1713 E Colorado Blvd, Pasadena, CA 91106",
+      "neighborhood": "Mid Central",
+      "street": "1713 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91106",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(626) 683-3309",
+      "phoneUnformatted": "+16266833309",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1461901,
+        "lng": -118.1150656
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJUZc205fDwoARXT2hPlzrECA",
+      "categories": [
+        "Sushi restaurant",
+        "Ramen restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2c397d3369751:0x2010eb5c3ea13d5d",
+      "cid": "2310605390261337437",
+      "reviewsCount": 541,
+      "imagesCount": 941,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.315Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Kaiba%20Japanese%20Ramen%2C%20Sushi%20%26%20Grill%20-%20Pasadena&query_place_id=ChIJUZc205fDwoARXT2hPlzrECA",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 11,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweorBw1GdQdYcg-sYm1QYjVHR-KMR_0WiXn1gNlY0dU66mjCeKqIJ-mYubuBaAvG3HLM2slYXLqYkSnP7E7f21eUYZizYrcRBRpDzv9ydchrHoLmj9pTNKT-dFwO_fU4GA7ZcFZu=w408-h306-k-no",
+      "kgmid": "/g/11h38k9wwq"
+    },
+    {
+      "title": "King of Ramen Pasadena",
+      "price": "$10\u201320",
+      "categoryName": "Ramen restaurant",
+      "address": "2391 E Colorado Blvd, Pasadena, CA 91107",
+      "neighborhood": "Mid Central",
+      "street": "2391 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(626) 421-6688",
+      "phoneUnformatted": "+16264216688",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.146388,
+        "lng": -118.100782
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJH7CBd6jcwoARheBuA7PCMZY",
+      "categories": [
+        "Ramen restaurant"
+      ],
+      "fid": "0x80c2dca87781b01f:0x9631c2b3036ee085",
+      "cid": "10822645453660545157",
+      "reviewsCount": 279,
+      "imagesCount": 421,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.315Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 8\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Quiet": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=King%20of%20Ramen%20Pasadena&query_place_id=ChIJH7CBd6jcwoARheBuA7PCMZY",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 12,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweocvGToYu2KVQ7bTWE1RIzirZoI6n1VjRh8WKnzqMNNy1UFolzTCcAGjtazqASBpgH-KVh63umSeSqPnG0qVTzq3ssvkjhr1cnleavrMaXFh4LAgYNEIzH1GaXKsOd-e7emZoieJQ=w408-h320-k-no",
+      "kgmid": "/g/11ggn87c8c"
+    },
+    {
+      "title": "CM Ghost Kitchen by Chef Maezaki",
+      "price": null,
+      "categoryName": "Japanese restaurant",
+      "address": "296 Allen Ave Ste 1, Pasadena, CA 91106",
+      "neighborhood": "Mid Central",
+      "street": "296 Allen Ave Ste 1",
+      "city": "Pasadena",
+      "postalCode": "91106",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.chefmaezaki.com/ghost",
+      "phone": "(213) 666-2097",
+      "phoneUnformatted": "+12136662097",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1513137,
+        "lng": -118.1129308
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJP0sKOCDHwoAR8X9WV3hQ3fQ",
+      "categories": [
+        "Japanese restaurant",
+        "Catering food and drink supplier",
+        "Caterer",
+        "Cooking class",
+        "Authentic Japanese restaurant",
+        "Sushi takeaway",
+        "Takeout Restaurant",
+        "Personal chef service"
+      ],
+      "fid": "0x80c2c720380a4b3f:0xf4dd507857567ff1",
+      "cid": "17644347392899055601",
+      "reviewsCount": 47,
+      "imagesCount": 296,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.315Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 8\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "4 to 8\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "4\u20138\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "4\u20138\u202fPM"
+          }
+        ],
+        "Online service hours": [
+          {
+            "day": "Monday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "11\u202fAM\u20138\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "4\u20138\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          },
+          {
+            "Wheelchair accessible restroom": false
+          }
+        ],
+        "Offerings": [
+          {
+            "Healthy options": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegan options": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=CM%20Ghost%20Kitchen%20by%20Chef%20Maezaki&query_place_id=ChIJP0sKOCDHwoAR8X9WV3hQ3fQ",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 14,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoqMMRjuo7gvBds-zNE6zAW2TI4HiFKB_JJurzI-SPWUklPXUqeNqA8E6--qhCWPAIcO8x73RYuldrL52SZLrnl3IsKCV25_y11BfyvXSt0wfjKIMcTxsvnvz-Xa7PF3lvvLqKi=w408-h376-k-no",
+      "kgmid": "/g/11swzwl0nx"
+    },
+    {
+      "title": "Oji Sushi & Sake Bar",
+      "price": "$20\u201330",
+      "categoryName": "Sushi restaurant",
+      "address": "624 E Colorado Blvd, Pasadena, CA 91101",
+      "neighborhood": "Playhouse Village",
+      "street": "624 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91101",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://ojisushipasadena.com/",
+      "phone": "(626) 585-1313",
+      "phoneUnformatted": "+16265851313",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1456529,
+        "lng": -118.1374771
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJg-j447zDwoARfEt58udQ7Ec",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2c3bce3f8e883:0x47ec50e7f2794b7c",
+      "cid": "5182606228332301180",
+      "reviewsCount": 621,
+      "imagesCount": 790,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.315Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 11\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Oji%20Sushi%20%26%20Sake%20Bar&query_place_id=ChIJg-j447zDwoARfEt58udQ7Ec",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 18,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo6xwDQbanJH4q8RDrlMUo-Z4AUSwqfFvAgcpR2swEimHkjLMibk_8sRznP7tfvAQ8LC585nzb_hcya4onRFM7f32jwDcnU7wamAgS3ukR0520g4dsbcKOJ7WDiNbWHE96QICNrMQ=w408-h306-k-no",
+      "kgmid": "/g/11f7r624y9"
+    },
+    {
+      "title": "Mako Bowl",
+      "description": "Japanese fast-food joint known for teriyaki chicken bowls also offers noodles & a variety of rolls.",
+      "price": "$10\u201320",
+      "categoryName": "Japanese restaurant",
+      "address": "3621 E Foothill Blvd #3121, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "3621 E Foothill Blvd #3121",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.makobowl.com/",
+      "phone": "(626) 351-3344",
+      "phoneUnformatted": "+16263513344",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": 34.1508945,
+        "lng": -118.0750023
+      },
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJW6YFcH3bwoARpBzee2bg0j8",
+      "categories": [
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2db7d7005a65b:0x3fd2e0667bde1ca4",
+      "cid": "4598984900268137636",
+      "reviewsCount": 197,
+      "imagesCount": 117,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:51.316Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Mako%20Bowl&query_place_id=ChIJW6YFcH3bwoARpBzee2bg0j8",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 19,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepCC19jHe3EH3IIp4s5f0qf2VYrHP_ZbqSCdP-j_mOzwpwzXTTgfNKHrYj8wyZ4RAowaFg3ePQbXYPviql7KfrfxxLfzUDFChK1ZklEj4junfoMpbcpRVLTaeH1yj-LWSf8yIjWbQ=w408-h306-k-no",
+      "kgmid": "/g/1tdp59p5"
+    },
+    {
+      "title": "ZENSHI Handcrafted Sushi",
+      "price": null,
+      "categoryName": "Restaurant",
+      "address": "2355 E Colorado Blvd, Pasadena, CA 91107",
+      "neighborhood": "Mid Central",
+      "street": "2355 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.zenshisushi.com/",
+      "phone": "(626) 744-2615",
+      "phoneUnformatted": "+16267442615",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.147471,
+        "lng": -118.1022092
+      },
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJqyYwZDbdwoARVvHrcOljt_Y",
+      "categories": [
+        "Restaurant",
+        "Sushi takeaway"
+      ],
+      "fid": "0x80c2dd36643026ab:0xf6b763e970ebf156",
+      "cid": "17777787908341363030",
+      "reviewsCount": 1,
+      "reviewsDistribution": {
+        "oneStar": 0,
+        "twoStar": 0,
+        "threeStar": 0,
+        "fourStar": 1,
+        "fiveStar": 0
+      },
+      "imagesCount": 16,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:52.139Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=ZENSHI%20Handcrafted%20Sushi&query_place_id=ChIJqyYwZDbdwoARVvHrcOljt_Y",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 31,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepUAQcQQXZ4g6Nq1401i7nMg60XESphU37953uAvZLDF7D9LN4DnPhoV0jwPGCoqjCPEnrj8VN3vNfbBT--74sxKN2auBOk1YjJvYyrKyGTDa0Gp3vc2jP4dxCsKCUdx5k4TgyP=w408-h408-k-no",
+      "kgmid": "/g/11wqf74934"
+    },
+    {
+      "title": "ZENSHI Handcrafted Sushi",
+      "price": null,
+      "categoryName": "Restaurant",
+      "address": "3601 E Foothill Blvd, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "3601 E Foothill Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.zenshisushi.com/",
+      "phone": "(626) 351-8806",
+      "phoneUnformatted": "+16263518806",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1513401,
+        "lng": -118.0755476
+      },
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJtYDndL_dwoARrzCv5PHIAKo",
+      "categories": [
+        "Restaurant",
+        "Sushi takeaway"
+      ],
+      "fid": "0x80c2ddbf74e780b5:0xaa00c8f1e4af30af",
+      "cid": "12250011927697109167",
+      "reviewsCount": null,
+      "imagesCount": 14,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:52.139Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "9\u202fAM to 7\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Quick bite": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=ZENSHI%20Handcrafted%20Sushi&query_place_id=ChIJtYDndL_dwoARrzCv5PHIAKo",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 34,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweozYnS38eLeqqYZPPmdTOx0llq-73zvKJi14dGZwTrfZkcfYjM8x6y26rGCqNv-agnd-K_YVaOalWx-ADnIppCiZPHAHS7s-XY8Ku6a9reDssa21V_d9kURBPcqCg2G_arYmTPv0Q=w408-h408-k-no",
+      "kgmid": "/g/11wqf8xt5t"
+    },
+    {
+      "title": "Bay Poke",
+      "price": "$",
+      "categoryName": "Hawaiian restaurant",
+      "address": "2345 E Colorado Blvd #195, Pasadena, CA 91107",
+      "neighborhood": "Mid Central",
+      "street": "2345 E Colorado Blvd #195",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.baypoke.com/",
+      "phone": "(626) 219-6380",
+      "phoneUnformatted": "+16262196380",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1464705,
+        "lng": -118.1020327
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ-1xzXqjcwoARu77JxA4P4qs",
+      "categories": [
+        "Hawaiian restaurant",
+        "Restaurant"
+      ],
+      "fid": "0x80c2dca85e735cfb:0xabe20f0ec4c9bebb",
+      "cid": "12385478481327799995",
+      "reviewsCount": 366,
+      "reviewsDistribution": {
+        "oneStar": 10,
+        "twoStar": 6,
+        "threeStar": 23,
+        "fourStar": 72,
+        "fiveStar": 255
+      },
+      "imagesCount": 191,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:52.139Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": false
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Quiet": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          },
+          {
+            "Kids' menu": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Bay%20Poke&query_place_id=ChIJ-1xzXqjcwoARu77JxA4P4qs",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 35,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweooxAWzq4Rs0MEr8cY1RYTGilRa_q52pQ2_78fHjXe83_1cgitMqLozGgfhDXdwR50tuHKUC6pMdd7polJzo3PgKIk_WBnOS1XPxbqAagTEoY1iH_t3HtUKVnwHPZw1LgOJ8FGm=w408-h306-k-no",
+      "kgmid": "/g/11fx9lp_5_"
+    },
+    {
+      "title": "JS Foothill Restaurant",
+      "price": "$$",
+      "categoryName": "Chinese restaurant",
+      "address": "3591 E Foothill Blvd, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "3591 E Foothill Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.jsfoothill.com/",
+      "phone": "(626) 351-6888",
+      "phoneUnformatted": "+16263516888",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.151169,
+        "lng": -118.0755727
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJUd-zOBfdwoARGX_1zasp9Kg",
+      "categories": [
+        "Chinese restaurant",
+        "Chinese takeaway",
+        "Restaurant"
+      ],
+      "fid": "0x80c2dd1738b3df51:0xa8f429abcdf57f19",
+      "cid": "12174401510560857881",
+      "reviewsCount": 63,
+      "reviewsDistribution": {
+        "oneStar": 3,
+        "twoStar": 0,
+        "threeStar": 1,
+        "fourStar": 2,
+        "fiveStar": 57
+      },
+      "imagesCount": 126,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:52.139Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Small plates": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Planning": [
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=JS%20Foothill%20Restaurant&query_place_id=ChIJUd-zOBfdwoARGX_1zasp9Kg",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 36,
+      "isAdvertisement": false,
+      "imageUrl": "http://t1.gstatic.com/images?q=tbn:ANd9GcS8o2v6LzPDf_TVO-Y2_tD-wBbpEq5WkTvpyI6Ta0KLTtY2YDsU",
+      "kgmid": "/g/11kjmf5mn4"
+    },
+    {
+      "title": "Beau Thai Colorado",
+      "price": "$$",
+      "categoryName": "Restaurant",
+      "address": "2486 E Colorado Blvd, Pasadena, CA 91107",
+      "neighborhood": "Lamanda Park",
+      "street": "2486 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "http://www.beauthaipasadena.com/",
+      "phone": "(626) 696-3645",
+      "phoneUnformatted": "+16266963645",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1458839,
+        "lng": -118.0991686
+      },
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJxZF3pYjdwoARFTeY_fnOD0c",
+      "categories": [
+        "Restaurant"
+      ],
+      "fid": "0x80c2dd88a57791c5:0x470fcef9fd983715",
+      "cid": "5120538874440333077",
+      "reviewsCount": 105,
+      "reviewsDistribution": {
+        "oneStar": 2,
+        "twoStar": 0,
+        "threeStar": 5,
+        "fourStar": 13,
+        "fiveStar": 85
+      },
+      "imagesCount": 305,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:52.140Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 9:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 9:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9:30\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Quiet": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Beau%20Thai%20Colorado&query_place_id=ChIJxZF3pYjdwoARFTeY_fnOD0c",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 37,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqFk18zwuQ5m55CJhoENfiyPx8Ozpm_XeBAicG2PjArXutBccd5iT6QUL_c93eDElAn_CwC7gothMaqxW8gKfph6nTztoTjSFBd-iSyePrraLAica1DSh3cYRVTyWndAfCTsaaVag=w408-h438-k-no",
+      "kgmid": "/g/11s9gpy0nk"
+    },
+    {
+      "title": "Panda Inn",
+      "description": "Local chain offering Mandarin & Sichuan entrees, noodles & more in an informal setting.",
+      "price": "$$",
+      "categoryName": "Chinese restaurant",
+      "address": "3488 E Foothill Blvd, Pasadena, CA 91107",
+      "neighborhood": "Hastings Ranch",
+      "street": "3488 E Foothill Blvd",
+      "city": "Pasadena",
+      "postalCode": "91107",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.pandainn.com/pasadena-location/",
+      "phone": "(626) 793-7300",
+      "phoneUnformatted": "+16267937300",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1498516,
+        "lng": -118.0781556
+      },
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJ9zkVp2LbwoARQCBaAnWpzOU",
+      "categories": [
+        "Chinese restaurant"
+      ],
+      "fid": "0x80c2db62a71539f7:0xe5cca975025a2040",
+      "cid": "16558796249950199872",
+      "reviewsCount": 1607,
+      "reviewsDistribution": {
+        "oneStar": 59,
+        "twoStar": 47,
+        "threeStar": 104,
+        "fourStar": 312,
+        "fiveStar": 1085
+      },
+      "imagesCount": 1901,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:52.140Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/CcE6ArSEuGc?source=pa&opi=79508299&hl=en-US&gei=B5PUadChIt6EwbkPz4G7-QY&sourceurl=https://www.google.com/search?authuser%3D0%26tbm%3Dmap%26q%3Dsushi%2Brestaurant%26psi%3DBJPUadOSB5-aptQPgqihwA4.1775538951482.1%26hl%3Den%26pb%3D!4m12!1m3!1d6603.773582965342!2d-118.08902583527563!3d34.14923833506636!2m3!1f0!2f0!3f0!3m2!1i1920!2i1080!4f13.1!7i20!8i0!10b1!12m36!1m1!18b1!2m3!5m1!6e2!20e3!6m18!4b1!49b1!63m0!73m0!74i150000!75b1!85b1!89b1!91b1!101i97!110m0!114b1!149b1!171b1!176f8!179f90!182b1!183m0!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1sBJPUadOSB5-aptQPgqihwA4!2s1i:0,t:20588,p:BJPUadOSB5-aptQPgqihwA4:22!4m1!2i20588!7e81!12e3!24m92!1m26!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m15!3b1!4b1!5b1!6b1!13b1!14b1!15b1!17b1!21b1!22b0!25b1!27m1!1b0!28b0!31b0!2b1!5m5!2b1!5b1!6b1!7b1!10b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m17!1m5!1b1!2b1!3b1!5b1!7b1!4b1!8m8!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_reviews!9b1!89b1!103b1!113b1!117b1!122m1!1b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!31b1!34m19!2b1!3b1!4b1!6b1!7b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!37m1!1e81!42b1!46m1!1e10!47m0!49m7!3b1!6m2!1b1!2b1!7m2!1e3!2b1!50m25!1m21!2m7!1u3!4zT3RldsWZZW7DqQ!5e1!9s0ahUKEwiLq7mD_tqTAxV-rokEHXwkItwQ_KkBCBYoAw!10m2!3m1!1e1!2m7!1u2!4zTmVqbMOpcGUgaG9kbm9jZW7DqQ!5e1!9s0ahUKEwiLq7mD_tqTAxV-rokEHXwkItwQ_KkBCBUoAg!10m2!2m1!1e1!3m1!1u2!3m1!1u3!4BIAE!2e2!3m1!3b1!59BQ2dBd0Fn!61b1!67m3!7b1!10b1!14b0!69i675",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great beer selection": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          },
+          {
+            "Great wine list": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Brunch": true
+          },
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Brunch reservations recommended": true
+          },
+          {
+            "Lunch reservations recommended": true
+          },
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking garage": true
+          },
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Panda%20Inn&query_place_id=ChIJ9zkVp2LbwoARQCBaAnWpzOU",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.14923833506636,-118.08902583527563,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 38,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer7nJpI8tnTcfd32gvvTP7x9RDiw6GfIIoaRrvtI_ACZ4sTXoez9OIRY0HEKeT8qCxnKk4K1mopSn508apyK9o7KoAARV8so_hg5EHKixmuzCR1DvaQQpUoYXCQI1ic78DpFNAr7Q=w408-h306-k-no",
+      "kgmid": "/g/1w0r05cx"
+    },
+    {
+      "title": "Wagyu Master Shabu House | Pasadena",
+      "price": null,
+      "categoryName": "Shabu-shabu restaurant",
+      "address": "300 E Colorado Blvd suite 240, Pasadena, CA 91101",
+      "neighborhood": null,
+      "street": "300 E Colorado Blvd suite 240",
+      "city": "Pasadena",
+      "postalCode": "91101",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://wagyumastershabu.com/project/wagyu-master-shabu-pasadena/",
+      "phone": "(626) 628-9982",
+      "phoneUnformatted": "+16266289982",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1455699,
+        "lng": -118.1431488
+      },
+      "totalScore": 4.9,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJuWHm-g_DwoARcWECr6iWtFs",
+      "categories": [
+        "Shabu-shabu restaurant"
+      ],
+      "fid": "0x80c2c30ffae661b9:0x5bb496a8af026171",
+      "cid": "6608072204494201201",
+      "reviewsCount": 365,
+      "imagesCount": 246,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:56.704Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/joxxo49pD3Q?opi=79508299&gei=C5PUaZ7mI_SHqtsPs6W9gAg&source=pa&hl=en-US&gei=C5PUaZ7mI_SHqtsPs6W9gAg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6602.662838716941!2d-118.15765841883464!3d34.16344330103981!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sCZPUad-BAd6uqtsPireY6Ag!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DCZPUad-BAd6uqtsPireY6Ag.1775538953403.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "5 to 9\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "5 to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "5 to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "5 to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "5 to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Kitchen": [
+          {
+            "day": "Monday",
+            "hours": "5\u20139:30\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "5\u20139:30\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "5\u20139:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "5\u20139:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "5\u201310:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u201310:30\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20139:30\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Dine-in": true
+          },
+          {
+            "Delivery": false
+          },
+          {
+            "Takeout": false
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Comfort food": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Dinner": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Wagyu%20Master%20Shabu%20House%20%7C%20Pasadena&query_place_id=ChIJuWHm-g_DwoARcWECr6iWtFs",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.16344330103981,-118.15765841883464,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo1wtfxMmGgRAvZWaE7M_eNakja5McWjrAShSHJAUoLUL1GnZtef7ixIoivb8YCDhc_1dCTyOd-sLtXkZnnaCakPgU4KA5zR_O3qr2YkCBPAOCHAfF79oauhA5xqmQfXLY9GtsPI7WpWmA=w408-h541-k-no",
+      "kgmid": "/g/11mrnqxr1q"
+    },
+    {
+      "title": "SushiStop Pasadena",
+      "description": "Casual, compact kitchen whipping up specialty rolls, nigiri & other traditional Japanese cuisine.",
+      "price": "$10\u201320",
+      "categoryName": "Sushi restaurant",
+      "address": "58 E Colorado Blvd, Pasadena, CA 91105",
+      "neighborhood": "Old Pasadena",
+      "street": "58 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91105",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://sushistop.com/locations/pasadena/",
+      "phone": "(626) 405-1518",
+      "phoneUnformatted": "+16264051518",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1456466,
+        "lng": -118.1492398
+      },
+      "totalScore": 4.3,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJu7_rsHHDwoAR-q0s26NmSbk",
+      "categories": [
+        "Sushi restaurant",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2c371b0ebbfbb:0xb94966a3db2cadfa",
+      "cid": "13351315424259386874",
+      "reviewsCount": 1101,
+      "imagesCount": 940,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:56.704Z",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 11:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 11:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Late-night food": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Usually a wait": true
+          },
+          {
+            "Accepts reservations": false
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=SushiStop%20Pasadena&query_place_id=ChIJu7_rsHHDwoAR-q0s26NmSbk",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.16344330103981,-118.15765841883464,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoK0WMJvfRcCv6-QMu6myhewtQSD94LS0x6T_9XPNijX92k9RBdrs4KHw9zYnPs2usVzzNFtGqLvNmcI5qzwNmOWKAVU3lrS7ZRiFzZOIEhwbxF5_pljqNA2ZHVCWQkLqhOdvs=w426-h240-k-no",
+      "kgmid": "/g/1q5ggz678"
+    },
+    {
+      "title": "Sushi Roku",
+      "description": "Bustling operation serving up innovative Japanese fare & drinks amid modern decor.",
+      "price": "$$$",
+      "categoryName": "Sushi restaurant",
+      "address": "33 Miller Alley, Pasadena, CA 91103",
+      "neighborhood": "Old Pasadena",
+      "street": "33 Miller Alley",
+      "city": "Pasadena",
+      "postalCode": "91103",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://www.sushiroku.com/",
+      "phone": "(626) 683-3000",
+      "phoneUnformatted": "+16266833000",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1463951,
+        "lng": -118.1519463
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJlw-aQnHDwoARi4Cuuo9wf1E",
+      "categories": [
+        "Sushi restaurant"
+      ],
+      "fid": "0x80c2c371429a0f97:0x517f708fbaae808b",
+      "cid": "5872536201729048715",
+      "reviewsCount": 674,
+      "imagesCount": 1025,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:56.704Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/NGMmaVoCnoU?opi=79508299&gei=C5PUaZ7mI_SHqtsPs6W9gAg&source=pa&hl=en-US&gei=C5PUaZ7mI_SHqtsPs6W9gAg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6602.662838716941!2d-118.15765841883464!3d34.16344330103981!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sCZPUad-BAd6uqtsPireY6Ag!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DCZPUad-BAd6uqtsPireY6Ag.1775538953403.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "4:30 to 9:30\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11:30\u202fAM to 10\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11:30\u202fAM to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Happy hours": [
+          {
+            "day": "Monday",
+            "hours": "4:30\u20136\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "4:30\u20136\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "4:30\u20136\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "4:30\u20136\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "4:30\u20136\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "Closed"
+          },
+          {
+            "day": "Sunday",
+            "hours": "Closed"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Great tea selection": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Organic dishes": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Counter service": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Romantic": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Roku&query_place_id=ChIJlw-aQnHDwoARi4Cuuo9wf1E",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.16344330103981,-118.15765841883464,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqBIq6Vns8O-Uoba6Sqeggc9Ps5deQWWw6NnC78QtqVNcrmGkCSnFDI1nCHwcnSthMRLq4UG9p5kiQtgttFf4uFSYlr0zP2f87Buy4EiawBF_l-5dMYgG58U85bKsJNdOoDUOIu=w408-h408-k-no",
+      "kgmid": "/g/1vvr6gzl"
+    },
+    {
+      "title": "KAVIAR Restaurants",
+      "price": "$100+",
+      "categoryName": "Sushi restaurant",
+      "address": "70 N Raymond Ave #250, Pasadena, CA 91103",
+      "neighborhood": "Old Pasadena",
+      "street": "70 N Raymond Ave #250",
+      "city": "Pasadena",
+      "postalCode": "91103",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://kaviarrestaurants.com/",
+      "phone": "(626) 605-0330",
+      "phoneUnformatted": "+16266050330",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1470523,
+        "lng": -118.1487553
+      },
+      "totalScore": 4.6,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJTTpFvjPDwoARL0Hm4XeEjXs",
+      "categories": [
+        "Sushi restaurant",
+        "Asian fusion restaurant",
+        "Bar",
+        "Cocktail bar",
+        "Fine dining restaurant",
+        "Seafood restaurant",
+        "Steak house",
+        "Japanese restaurant"
+      ],
+      "fid": "0x80c2c333be453a4d:0x7b8d8477e1e6412f",
+      "cid": "8902917688807276847",
+      "reviewsCount": 386,
+      "imagesCount": 824,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:56.704Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/C2Kzq3THgFg?opi=79508299&gei=C5PUaZ7mI_SHqtsPs6W9gAg&source=pa&hl=en-US&gei=C5PUaZ7mI_SHqtsPs6W9gAg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6602.662838716941!2d-118.15765841883464!3d34.16344330103981!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sCZPUad-BAd6uqtsPireY6Ag!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DCZPUad-BAd6uqtsPireY6Ag.1775538953403.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "6 to 9:45\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "6 to 9:45\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "6 to 9:45\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "5 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "5 to 9\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fireplace": true
+          },
+          {
+            "Great cocktails": true
+          },
+          {
+            "Serves local specialty": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Coffee": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Private dining room": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Bar onsite": true
+          },
+          {
+            "Restroom": true
+          },
+          {
+            "Wi-Fi": true
+          },
+          {
+            "Free Wi-Fi": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually plenty of parking": true
+          },
+          {
+            "Valet parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=KAVIAR%20Restaurants&query_place_id=ChIJTTpFvjPDwoARL0Hm4XeEjXs",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.16344330103981,-118.15765841883464,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJluJdA-MberSi-lzmPG8FmUnACB641fVJ2YMR9djJPuyqB8_aREi3NDL_lwxPEd3Ni4gXLPuzHmw6Z92llfz4uZJpppT53K9bYm5Weuyxql2TLlHmK7uecKApSHSLwInt26sg=w408-h306-k-no",
+      "kgmid": "/g/11j9bjw035"
+    },
+    {
+      "title": "Sushi Enya Pasadena",
+      "description": "Warm, timber-clad local chain offering sushi & other Japanese staples as well as lunch specials.",
+      "price": null,
+      "categoryName": "Sushi restaurant",
+      "address": "124 E Colorado Blvd, Pasadena, CA 91105",
+      "neighborhood": "Old Pasadena",
+      "street": "124 E Colorado Blvd",
+      "city": "Pasadena",
+      "postalCode": "91105",
+      "state": "California",
+      "countryCode": "US",
+      "phone": "(626) 365-3512",
+      "phoneUnformatted": "+16263653512",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1456489,
+        "lng": -118.1478899
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJsWzbLHDDwoARflCXGcL75iA",
+      "categories": [
+        "Sushi restaurant",
+        "Asian restaurant",
+        "Japanese restaurant",
+        "Raw food restaurant",
+        "Restaurant",
+        "Seafood restaurant"
+      ],
+      "fid": "0x80c2c3702cdb6cb1:0x20e6fbc21997507e",
+      "cid": "2370859064928718974",
+      "reviewsCount": 504,
+      "imagesCount": 1696,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:56.705Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/p9ljRDv6T-s?opi=79508299&gei=C5PUaZ7mI_SHqtsPs6W9gAg&source=pa&hl=en-US&gei=C5PUaZ7mI_SHqtsPs6W9gAg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6602.662838716941!2d-118.15765841883464!3d34.16344330103981!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sCZPUad-BAd6uqtsPireY6Ag!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DCZPUad-BAd6uqtsPireY6Ag.1775538953403.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "5:30 to 10\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "5:30 to 10:30\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "5:30 to 10:30\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "5 to 10\u202fPM"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Dinner": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          },
+          {
+            "Upscale": true
+          }
+        ],
+        "Crowd": [
+          {
+            "Tourists": true
+          }
+        ],
+        "Planning": [
+          {
+            "Dinner reservations recommended": true
+          },
+          {
+            "Accepts reservations": true
+          },
+          {
+            "Usually a wait": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Sushi%20Enya%20Pasadena&query_place_id=ChIJsWzbLHDDwoARflCXGcL75iA",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.16344330103981,-118.15765841883464,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepWmpL6Xli2G5xQV65erTgYqHYsvbZYnzR9TmilKYYoRhJz4LmDhAZBcQ9l14z6jehN_7oBavSKlwAIlabdscP_WDDQrj2V8G1qjmLxn63vT7UqzR_U8EGZB1eGjARPQqA1LuDV=w408-h408-k-no",
+      "kgmid": "/g/11c6rh28lt"
+    },
+    {
+      "title": "MAMA M SUSHI",
+      "description": "One in a local chain of Japanese spots serving sushi & cooked fare in a contemporary, colorful room.",
+      "price": "$$",
+      "categoryName": "Sushi restaurant",
+      "address": "29 E Holly St, Pasadena, CA 91103",
+      "neighborhood": "Old Pasadena",
+      "street": "29 E Holly St",
+      "city": "Pasadena",
+      "postalCode": "91103",
+      "state": "California",
+      "countryCode": "US",
+      "website": "https://themamamsushi.com/?utm_source=google",
+      "phone": "(626) 568-1500",
+      "phoneUnformatted": "+16265681500",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": 34.1478107,
+        "lng": -118.1498034
+      },
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJqWSwKXLDwoARcRhI0o89C9s",
+      "categories": [
+        "Sushi restaurant",
+        "Asian fusion restaurant",
+        "Bar",
+        "Caterer",
+        "Family restaurant",
+        "Japanese restaurant",
+        "Ramen restaurant",
+        "Seafood restaurant",
+        "Udon noodle restaurant",
+        "Vegetarian restaurant"
+      ],
+      "fid": "0x80c2c37229b064a9:0xdb0b3d8fd2481871",
+      "cid": "15783777006967593073",
+      "reviewsCount": 317,
+      "imagesCount": 830,
+      "imageCategories": [],
+      "scrapedAt": "2026-04-07T05:15:56.705Z",
+      "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/-6pdaVuP6fk?opi=79508299&gei=C5PUaZ7mI_SHqtsPs6W9gAg&source=pa&hl=en-US&gei=C5PUaZ7mI_SHqtsPs6W9gAg&sourceurl=https://www.google.com/search?tbm%3Dmap%26authuser%3D0%26hl%3Den%26gl%3Dus%26pb%3D!4m8!1m3!1d6602.662838716941!2d-118.15765841883464!3d34.16344330103981!3m2!1i1475!2i1327!4f13.1!7i20!10b1!12m25!1m5!18b1!30b1!31m1!1b1!34e1!2m4!5m1!6e2!20e3!39b1!10b1!12b1!13b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!46m1!1b0!96b1!99b1!19m4!2m3!1i360!2i120!4i8!20m65!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m33!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!1m3!1e9!2b1!3e2!2b1!9b0!15m16!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!1m7!1m2!1m1!1e2!2m2!1i195!2i195!3i20!22m2!1sCZPUad-BAd6uqtsPireY6Ag!7e81!24m109!1m30!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m19!3b1!4b1!5b1!6b1!9b1!13b1!14b1!17b1!20b1!21b1!22b1!27m1!1b0!28b0!32b1!33m1!1b1!34b1!36e2!10m1!8e3!11m1!3e1!14m1!3b0!17b1!20m2!1e3!1e6!24b1!25b1!26b1!27b1!29b1!30m1!2b1!36b1!37b1!39m3!2m2!2i1!3i1!43b1!52b1!54m1!1b1!55b1!56m1!1b1!61m2!1m1!1e1!65m5!3m4!1m3!1m2!1i224!2i298!72m22!1m8!2b1!5b1!7b1!12m4!1b1!2b1!4m1!1e1!4b1!8m10!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_google_review_posts__and__hotel_and_vr_partner_review_posts!6m1!1e1!9b1!89b1!98m3!1b1!2b1!3b1!103b1!113b1!114m3!1b1!2m1!1b1!117b1!122m1!1b1!126b1!127b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i530!2i1327!1m6!1m2!1i1425!2i0!2m2!1i1475!2i1327!1m6!1m2!1i0!2i0!2m2!1i1475!2i20!1m6!1m2!1i0!2i1307!2m2!1i1475!2i1327!34m19!2b1!3b1!4b1!6b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!31b1!37m1!1e81!49m10!3b1!6m2!1b1!2b1!7m2!1e3!2b1!8b1!9b1!10e2!50m3!2e2!3m1!3b1!61b1!67m5!7b1!10b1!14b1!15m1!1b0!69i757%26q%3Dsushi%2Brestaurant%26ech%3D1%26psi%3DCZPUad-BAd6uqtsPireY6Ag.1775538953403.1",
+      "googleFoodUrl": null,
+      "hotelAds": [],
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "11:30\u202fAM to 3\u202fPM, 4:30 to 8\u202fPM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 9\u202fPM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 9\u202fPM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 9\u202fPM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11:30\u202fAM to 2:30\u202fPM, 4:30 to 9\u202fPM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12 to 3\u202fPM, 4:30 to 9\u202fPM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "12 to 3\u202fPM, 4:30 to 9\u202fPM"
+        }
+      ],
+      "additionalOpeningHours": {
+        "Delivery": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20133\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20132:15\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u20133\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20133\u202fPM"
+          }
+        ],
+        "Takeout": [
+          {
+            "day": "Monday",
+            "hours": "11:30\u202fAM\u20133\u202fPM"
+          },
+          {
+            "day": "Tuesday",
+            "hours": "11:30\u202fAM\u20132:15\u202fPM"
+          },
+          {
+            "day": "Wednesday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Thursday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Friday",
+            "hours": "11:30\u202fAM\u20132:30\u202fPM"
+          },
+          {
+            "day": "Saturday",
+            "hours": "12\u20133\u202fPM"
+          },
+          {
+            "day": "Sunday",
+            "hours": "12\u20133\u202fPM"
+          }
+        ]
+      },
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "From the business": [
+          {
+            "Identifies as Asian-owned": true
+          },
+          {
+            "Identifies as women-owned": true
+          }
+        ],
+        "Service options": [
+          {
+            "Outdoor seating": true
+          },
+          {
+            "Curbside pickup": true
+          },
+          {
+            "No-contact delivery": true
+          },
+          {
+            "Delivery": true
+          },
+          {
+            "Onsite services": true
+          },
+          {
+            "Takeout": true
+          },
+          {
+            "Dine-in": true
+          }
+        ],
+        "Highlights": [
+          {
+            "Fast service": true
+          },
+          {
+            "Sports": true
+          }
+        ],
+        "Popular for": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Solo dining": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "Alcohol": true
+          },
+          {
+            "Beer": true
+          },
+          {
+            "Cocktails": true
+          },
+          {
+            "Comfort food": true
+          },
+          {
+            "Happy hour drinks": true
+          },
+          {
+            "Happy hour food": true
+          },
+          {
+            "Hard liquor": true
+          },
+          {
+            "Healthy options": true
+          },
+          {
+            "Quick bite": true
+          },
+          {
+            "Small plates": true
+          },
+          {
+            "Vegetarian options": true
+          },
+          {
+            "Wine": true
+          }
+        ],
+        "Dining options": [
+          {
+            "Lunch": true
+          },
+          {
+            "Dinner": true
+          },
+          {
+            "Catering": true
+          },
+          {
+            "Dessert": true
+          },
+          {
+            "Seating": true
+          },
+          {
+            "Table service": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Gender-neutral restroom": true
+          },
+          {
+            "Restroom": true
+          }
+        ],
+        "Atmosphere": [
+          {
+            "Casual": true
+          },
+          {
+            "Cozy": true
+          },
+          {
+            "Trendy": true
+          }
+        ],
+        "Crowd": [
+          {
+            "College students": true
+          },
+          {
+            "Family-friendly": true
+          },
+          {
+            "Groups": true
+          },
+          {
+            "LGBTQ+ friendly": true
+          },
+          {
+            "Tourists": true
+          },
+          {
+            "Transgender safespace": true
+          }
+        ],
+        "Planning": [
+          {
+            "Reservations required": true
+          },
+          {
+            "Accepts reservations": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "High chairs": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking garage": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          },
+          {
+            "Usually somewhat difficult to find a space": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          },
+          {
+            "Dogs allowed outside": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=MAMA%20M%20SUSHI&query_place_id=ChIJqWSwKXLDwoARcRhI0o89C9s",
+      "searchPageUrl": "https://www.google.com/maps/search/sushi%20restaurant/@34.16344330103981,-118.15765841883464,16z?hl=en",
+      "searchString": "sushi restaurant",
+      "language": "en",
+      "rank": 11,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerRbA5m57xWcUtay64f4z0gudzzUdsW2Y4fWx_XH-G3oQsOVoJS0LSzJzGJhgVrew9pXDEeaLvJRp9NzFyeWub5mWwO4ceDCPZe6kiIIcH3ogIWlUUPUgcHHIsAd32AovsDstUjfg=w408-h320-k-no",
+      "kgmid": "/g/1262bc799"
+    }
+  ]
+}

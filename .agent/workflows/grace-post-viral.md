@@ -1,5 +1,5 @@
 ---
-description: "Post-viral response protocol — virality autopsy + trust damage repair + city map recalibration"
+description: Post-viral response protocol
 ---
 
 # /grace-post-viral

@@ -1,5 +1,5 @@
 ---
-description: Execute the full Connelly Dual-Pass Rewrite Protocol — micro-erosion + macro-erosion
+description: Full Connelly Dual-Pass Rewrite Protocol
 ---
 
 # /connelly-rewrite

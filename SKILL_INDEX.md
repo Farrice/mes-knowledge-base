@@ -40,7 +40,7 @@
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** |  | 4 | 14 |
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | elite communication | 3 | 17 |
 | `david-deutsch-copywriting` | **David Deutsch - Copywriting Legend** | transform boring material into brilliant narrative, 29 prompts, copywriting legend | 5 | 29 |
-| `david-mcraney-belief-change` | **David McRaney: Belief Change Architecture** | belief change architecture | 3 | 14 |
+| `david-mcraney-belief-change` | **David McRaney: Belief Change Architecture** | belief change architecture | 14 | 14 |
 | `david-placek-naming` | **David Placek — Brand Naming Science** | brand naming science | 6 | 11 |
 | `design-md` | **design-md** | analyze stitch projects and synthesize a semantic design system into design, md files | 0 | 0 |
 | `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | linkedin growth mastery | 14 | 0 |
@@ -165,6 +165,7 @@
 | `sean-mabry-voice-mastery` | **sean-mabry-voice-mastery** |  | 0 | 12 |
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** |  | 4 | 23 |
 | `seena_rez_early_adopter` | **Seena Rez - Early Adopter Innovation Strategy** | the early adopter innovation system | 0 | 0 |
+| `self-evolving-systems` | **Self-Evolving Systems** |  | 0 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | ideavirus mastery | 5 | 26 |
 | `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | strategic philosophy | 5 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** |  | 4 | 16 |

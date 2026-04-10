@@ -1,5 +1,5 @@
 ---
-description: Full end-to-end visual blueprint pipeline — concept → wireframe → annotation → build → validate
+description: Full end-to-end visual blueprint pipeline
 ---
 
 # /visual-blueprint — Full Blueprint-to-Build Pipeline

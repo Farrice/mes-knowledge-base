@@ -6,7 +6,27 @@
 
 ## Genius Patterns
 
-*No genius patterns extracted yet. Run extraction to populate.*
+### AI Moat Decay Analysis (Added 2026-04-09)
+
+Every AI capability sits on a **commoditization timeline**. The question isn't "Does AI make this better?" — it's "Will AI *still* make this better than everyone else's AI in 18 months?" This pattern forces defensibility thinking into every AI business assessment.
+
+**The Moat Decay Spectrum** — classify every AI capability into one of four tiers:
+
+| Tier | Half-Life | Example | Defensibility Source |
+|------|-----------|---------|---------------------|
+| **Evaporating** | 3-6 months | Generic chatbots, basic content generation, simple classification | None — API wrappers on foundation models. Anyone with $20/month has this tomorrow. |
+| **Eroding** | 6-18 months | Fine-tuned models on public data, standard RAG pipelines, template automation | Temporary lead — competitors replicate once they see it working. |
+| **Durable** | 18-36 months | Proprietary data flywheels, workflow-embedded AI that generates its own training data, multi-step orchestration with domain logic | Compounding data advantage + switching costs. Hard to replicate without the same usage history. |
+| **Structural** | 3+ years | Network-effect AI (every user makes it better for all users), AI that creates new data types competitors can't access, platform lock-in where AI is the integration layer | The moat IS the business model, not a feature of it. |
+
+**Deploy when**: Any AI product/feature evaluation, competitive audit, or investment decision. Before building anything, classify it on the spectrum. If it's Evaporating or Eroding, the question becomes: "What Durable or Structural layer can we build ON TOP of this capability?"
+
+**The Compounding Test** — three questions that separate real moats from temporary leads:
+1. **Does usage make it better?** (Data flywheel) — If 1,000 users produce the same output quality as 1 user, there's no compounding. If 1,000 users means the system learns patterns no competitor can match, that's structural.
+2. **Does switching cost increase over time?** (Workflow lock-in) — If a customer can export their data and replicate the setup in a weekend, the moat is illusory. If the AI has woven itself into their decision-making process with 6 months of learned context, that's durable.
+3. **Does the AI create data that didn't exist before?** (Proprietary data generation) — Using public data = Eroding. Generating novel data through user interactions that only you can access = Durable minimum.
+
+**Anti-pattern**: "We use GPT-4 so we have AI" — this is a *feature*, not a moat. The moat question is always: "What do we have that someone can't replicate by signing up for the same API?"
 
 ---
 

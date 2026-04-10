@@ -25,7 +25,7 @@ Cole's thesis: You don't have a position until you can name a real human being w
 
 | Workflow | File | Use When |
 |----------|------|----------|
-| The Specificity Drill | `workflows/01-specificity-drill.md` | Any positioning block — run first |
+| The Specificity Drill | `workflows/01-specificity-drill.md` | Any positioning block — run first (includes Compounding Signal Analysis) |
 | Category of One | `workflows/02-category-of-one.md` | After niche is narrowed, crystallize into positioning statement |
 
 ## Load Sequence
@@ -40,5 +40,6 @@ Cole's thesis: You don't have a position until you can name a real human being w
 ## Output
 
 - 1 Named Person profile (not persona — a real human being)
+- 1 Compounding Signal Score (/15) — stress-tests niche durability before commitment
 - 1 Category of One positioning statement
 - 3 positioning variants leaning into different unfair advantage angles

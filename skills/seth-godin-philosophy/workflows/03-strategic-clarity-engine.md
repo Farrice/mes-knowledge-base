@@ -1,11 +1,20 @@
 ---
-description: "Define your smallest viable audience, lock 'Who/What' positioning, and triage obstacles into problems vs situations"
+description: "Define your smallest viable audience, lock 'Who/What' positioning, triage obstacles, and calculate the compounding cost of delay"
 ---
 
 # Workflow 03: Strategic Clarity Engine
 
 > **Prerequisite**: Load [genius.md](../genius.md) before running this workflow.
 > **Uses**: Patterns 3, 5, 7, 10 + Tacit Knowledge 1, 2
+> **Evolution**: Added Phase 3.5 — Temporal Cost Accounting (2026-04-09)
+
+## What Changed (Evolution Variant)
+
+**Added**: Phase 3.5 — Temporal Cost Accounting, inserted between obstacle triage and positioning lock.
+
+**Why**: Godin's philosophy is eternally true, which makes it equally easy to act on Monday or never. The original workflow produces correct, beautiful positioning with an arbitrary 48-hour "first action" deadline that doesn't emerge from the user's situation. This phase makes delay costs concrete, personal, and accumulating — not through artificial urgency (anti-Godin) but through honest accounting of what "serving everyone" already costs every week.
+
+**What stays identical**: All 5 original phases, output template structure, cross-references, quality gate.
 
 ## When to Use
 - Starting something new and need clarity on who you serve
@@ -17,8 +26,9 @@ description: "Define your smallest viable audience, lock 'Who/What' positioning,
 1. Smallest Viable Audience (SVA) definition
 2. "Who's it for / What's it for" lock
 3. Problems vs Situations triage
-4. Positioning statement
-5. First generous action
+4. **Temporal Cost Ledger — what delay is already costing**
+5. Positioning statement
+6. First generous action (deadline emerges from cost analysis, not arbitrary)
 
 ---
 
@@ -114,6 +124,63 @@ If victim → rewrite your three biggest obstacles using "and" instead of "but":
 
 ---
 
+## Phase 3.5: Temporal Cost Accounting (NEW)
+
+> **Purpose**: Godin's insights are timeless. Your situation is not. This phase makes the cost of delay concrete, personal, and compounding — so the "First Generous Act" deadline emerges from real stakes, not an arbitrary countdown.
+>
+> **This is NOT artificial urgency.** Artificial urgency manufactures scarcity ("only 3 spots left!"). Temporal Cost Accounting reveals costs that are ALREADY happening while you perfect your positioning document.
+
+### Step 7b: The Weekly Cost of Inaction
+
+For each week you delay acting on the SVA + Change Statement you just defined, calculate what you're already losing in three dimensions:
+
+```
+TEMPORAL COST LEDGER
+════════════════════
+
+1. TRUST UNGAINED (Relationship Cost)
+   Every week without shipping, your SVA is solving their problem without you
+   — or worse, deciding the problem can't be solved.
+
+   → Who in your SVA struggled THIS WEEK that you could have helped?
+   → Name them if you can: [                    ]
+   → What did that cost THEM? [                    ]
+
+2. IDENTITY UNEARNED (Action-First Cost — Pattern 13)
+   "We become what we do." Every week you plan instead of ship,
+   you're becoming a planner, not a [maker/writer/coach/builder].
+
+   → What identity are you trying to earn? [                    ]
+   → How many weeks have you been "about to start"? [     ]
+   → What identity has THAT pattern been building instead? [                    ]
+
+3. COMPOUNDING UNLOCKED (Flywheel Cost)
+   Authority, trust, and audience compound. Week 1 of shipping is worth
+   more than Week 52 — not because it's better, but because every subsequent
+   week builds on it. Delay doesn't pause the flywheel. It means the flywheel
+   never existed.
+
+   → If you had started [X weeks ago], where would you be today? [                    ]
+   → What's the compound gap between "started then" and "starting now"? [                    ]
+```
+
+### Step 7c: The Honest Deadline
+
+Now set the First Generous Act deadline — not from an arbitrary rule, but from this question:
+
+**"Given what delay is costing me and my SVA every week, what is the LATEST acceptable date to ship the smallest version?"**
+
+This reframes the deadline from "aspirational target" to "latest responsible date." The answer is almost always sooner than 48 hours — because you just realized you're already late.
+
+```
+HONEST DEADLINE
+═══════════════
+Latest responsible ship date: [        ]
+Why this date (what cost makes it irresponsible to wait longer): [        ]
+```
+
+---
+
 ## Phase 4: Lock the Positioning
 
 ### Step 8: Positioning Statement
@@ -144,7 +211,7 @@ Write the actual names of people who would know about your failure. Usually it's
 ## Phase 5: First Action
 
 ### Step 10: Design the Smallest Generous Act
-What's the tiniest version of this work you could deliver to ONE person in your SVA within 48 hours?
+What's the tiniest version of this work you could deliver to ONE person in your SVA by the **Honest Deadline** (from Phase 3.5)?
 
 ```
 FIRST GENEROUS ACT
@@ -152,8 +219,9 @@ FIRST GENEROUS ACT
 What: [The micro-deliverable]
 For whom: [One named person from your SVA]
 Delivered how: [Email / DM / In person / Published]
-By when: [Within 48 hours]
+By when: [Honest Deadline from Phase 3.5 — not arbitrary]
 Success = : [They received it. That's it. Not "they loved it."]
+Why this can't wait: [One sentence from your Temporal Cost Ledger]
 ```
 
 ---
@@ -184,6 +252,12 @@ This is a [Gift / Performance]. [If performance, how to redesign as gift]
 Currently: [Architect / Victim]
 [Reframes if needed]
 
+### Temporal Cost Ledger
+- **Trust Ungained**: [Who in SVA struggled this week without you?]
+- **Identity Unearned**: [What identity is delay building instead?]
+- **Compounding Unlocked**: [Where would you be if you'd started X weeks ago?]
+- **Honest Deadline**: [Date + why waiting longer is irresponsible]
+
 ### Positioning Lock
 [Full positioning statement]
 
@@ -193,7 +267,8 @@ People who would know if this fails: [names — usually 0-5]
 ### First Generous Act
 - What: [deliverable]
 - For: [named person]
-- By: [date within 48 hours]
+- By: [Honest Deadline]
+- Why this can't wait: [from cost ledger]
 ```
 
 ---
@@ -209,3 +284,4 @@ People who would know if this fails: [names — usually 0-5]
 ## Quality Gate
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+> **🕐 Temporal Test**: If the output could sit in a drawer for 6 months and still feel equally relevant, the Temporal Cost Ledger was filled generically. The costs must be THIS week's costs, not abstract future costs.

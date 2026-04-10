@@ -3,7 +3,7 @@ name: "Luke Iha: Proof Mechanisms in Copywriting"
 description: "Injects strategic psychological, empirical, and credible proof points to make conversion feel utterly safe to the prospect."
 version: "3.0"
 format: "completion-engine"
-workflows: 5
+workflows: 6
 ---
 
 # Luke Iha: Proof Mechanisms in Copywriting
@@ -19,6 +19,7 @@ Luke Iha is a world-class copywriter who has generated over $100 million for his
 | omnipresence | [360-Degree Proof Distribution Kit](workflows/omnipresence-proof-ecosystem.md) | A multi-channel distribution plan including email sequences, social content, and visual creative briefs | You have a core offer and need to scale trust across the entire customer journey via retargeting, email, and social media. |
 | copy-doctor | [Copy Doctor](workflows/copy-doctor.md) | A diagnostic audit of any copy asset across proof, strategy, and awareness-level calibration | You have existing copy that underperforms and need a systematic diagnosis across all 3 Luke Iha domains. |
 | proof-pipeline | [Proof-Fortified Ad Pipeline](workflows/proof-fortified-ad-pipeline.md) | A complete, proof-heavy ad produced end-to-end using all 3 Luke Iha skills | You need to produce a fully integrated ad from strategic brief through proof-fortification to final delivery. |
+| proof-cascade | [Proof Cascade Sequencing](workflows/proof-cascade-sequencing.md) | A psychologically sequenced proof chain where each element primes the next for compounding believability | Your audience starts at low or negative trust and you need proof ORDER, not just proof volume — especially for burned buyers or cold traffic. |
 
 ## Skill Stacking
 

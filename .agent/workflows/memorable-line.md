@@ -1,5 +1,5 @@
 ---
-description: Engineer iconic lines, visual moments, and scenes designed to "stay in your soul" using Eric Roth's methodology
+description: Engineer iconic lines, visual moments, and scenes designed
 ---
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)

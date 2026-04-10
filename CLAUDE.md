@@ -1,8 +1,15 @@
+<!--
+Copyright © 2025-2026 Farrice Cain
+Antigravity AI System - Proprietary and Confidential
+Unauthorized reproduction, distribution, or modification prohibited
+See LICENSE.md for details
+-->
+
 # CLAUDE.md
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-<!-- Mirrored: CLAUDE.md, AGENTS.md, and GEMINI.md must stay identical. Edit one → update all three. -->
+<!-- CLAUDE.md and AGENTS.md share identical format. GEMINI.md is Gemini-native (same intent, different format). When system intent changes here, run /sync-instructions to update GEMINI.md. -->
 
 ---
 
@@ -30,6 +37,40 @@ python execution/generate_image.py "prompt"
 python execution/skill_converter.py
 python execution/sync_registries.py
 ```
+
+### Calibration & Quality Tools (Added 2026-04-03)
+
+```bash
+python execution/ground_truth.py gap-report          # Expert benchmark coverage
+python execution/ground_truth.py compare <domain> <ai_output>  # Blind comparison
+python execution/ground_truth.py add <domain> <file> --expert <name>  # Add sample
+python execution/revenue_tracker.py pipeline          # Deliverables needing outcome data
+python execution/revenue_tracker.py log "deliverable" --revenue 500 --outcome "result"
+python execution/revenue_tracker.py report            # ROI by skill/expert
+python execution/prose_classifier.py check <file>     # AI-prose detection
+python execution/prose_classifier.py scan deliverables/  # Batch scan
+```
+
+**Ground Truth** (`knowledge/expert-benchmarks/`): Real expert output samples for blind comparison. 7 domains, 16 experts registered. Feeds calibration data into the feedback ratchet.
+**Revenue Tracker** (`.agent/revenue-outcomes.json`): Connects quality scores to business outcomes. Pipeline command shows what needs tracking.
+**Prose Classifier**: Integrated into `chain_runner.py` — warns if Expert Standard may be inflated due to AI-prose patterns.
+
+### Knowledge Compiler (Added 2026-04-06)
+
+```bash
+python execution/knowledge_compiler.py stats             # Quick overview
+python execution/knowledge_compiler.py full              # Full compilation (all stages)
+python execution/knowledge_compiler.py briefing          # Session-start briefing
+python execution/knowledge_compiler.py inventory         # Full manifest
+python execution/knowledge_compiler.py stale             # Stale content (>30d)
+python execution/knowledge_compiler.py overlap           # Overlapping files
+```
+
+**Knowledge Compiler** (`execution/knowledge_compiler.py`): Karpathy-inspired self-healing knowledge base. Scans `knowledge/`, `extractions/`, `research_outputs/` (217 files, 1.7M words). Generates manifest, session briefing, stale/overlap reports in `knowledge/compiled/`. Run monthly or after extraction sessions. Workflow: `/compile-knowledge`.
+
+### Evolution Direction (Added 2026-04-06)
+
+**Evolution Direction** (`directives/evolution-direction.md`): Karpathy's `program.md` analog — single source of truth for what to evolve, current priorities, constraints, stopping criteria. Read before every `/skill-evolution` run. Updated after every evolution cycle.
 
 ---
 
@@ -121,6 +162,28 @@ Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
 **"Trivial" is NOT a skip condition.** If the user asks for content, copy, strategy, research, or any expert-domain deliverable, the chain runs regardless of perceived simplicity. "I need LinkedIn headlines" is a content task requiring routing to Lara Acosta — not a trivial question.
 
+### Chain Efficiency Rules (Token Optimization)
+
+**Steps 1-2 (SCORE + SHARPEN): Internalized — no file reads required.**
+The scoring formula (+1 Deliverable, +1 Audience, +1 Context, +1 End state, +1 Specific language)
+is memorized. Do NOT read `directives/intent-pipeline.md` to score intent.
+Only read it if running `/validate-intent` explicitly.
+
+**Step 3 (ROUTE): Internalized for known domains.**
+If the domain maps to an obvious expert (LinkedIn → Lara Acosta, copywriting → Luke Iha,
+SEO → Nathan Gotch, brand → Oren/Grace, ghostwriting → Nicolas Cole, content psychology → Kallaway,
+consumer posture → Dai Media, agentic workflows → Nick Saraev), route without reading
+`DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
+
+**Step 4 (LOAD): Deferred Tier escalation.**
+Start at Tier 1 (SKILL.md only). Load genius.md ONLY if:
+- The first-pass output doesn't meet quality expectations
+- The task is explicitly creative/complex (screenwriting, brand strategy, deep extraction)
+- The user asks for "the best" or "world-class" output
+
+**Step 6 (FINALIZE): Required only for expert-domain output.**
+Quick answers, system commands, file organization, and conversations do NOT require finalize.
+
 ### Workflow Override
 
 If the user invokes a workflow name from `SLASH_COMMANDS.md` — as `/command`, `@command`, "run command", or bare name — read `.agent/workflows/[command].md` and execute. The workflow incorporates the chain internally. Full list: `SLASH_COMMANDS.md`.
@@ -155,14 +218,17 @@ Push complexity into deterministic code. You focus on decision-making.
 
 ## Context Engine
 
-**Tiered loading chain — always start at Tier 0, escalate only when needed.**
+**Tiered loading chain — check Hot first, then start at Tier 0, escalate only when needed.**
 
 | Tier | What to Read | Token Cost | When |
 |------|-------------|-----------|------|
+| **Hot** | Nothing (already loaded) | 0 | Expert was loaded earlier this conversation |
 | **0 — Card** | `agents/_framework/invocation-cards.md` | ~80 | Routing, ensemble selection |
 | **1 — Standard** | SKILL.md + specific workflow | ~1,350 | Single expert, clear task |
 | **2 — Deep** | SKILL.md + genius.md + workflow | ~2,550 | Creative/complex work |
 | **3 — Sub-Agent** | Spawn sub-agent (fresh context) | ~300 main | Multi-expert, 10+ files loaded |
+
+**Hot Context Rule**: Before loading any expert, check if they were already loaded this conversation. If hot at Tier 1 and Tier 2 is needed, only read genius.md (incremental). If hot at Tier 2, skip all reads. Anti-pattern: re-reading SKILL.md for the same expert twice in one conversation (~1,350 tokens wasted).
 
 **Never rely on general training when expert skills exist.** Route via invocation cards first. Routing: `DOMAIN_REGISTRY.md` + `directives/expert_auto_routing.md`. Full protocol: `directives/agent-loading-protocol.md`.
 
@@ -175,34 +241,23 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Protocol | Fires During | Directive |
 |----------|-------------|-----------|
 | Quality Assurance | Step 5 (production) | `directives/quality_assurance.md` |
+| **Verification Agent** | **Step 5.5 (implementation tasks)** | **`directives/verification-agent-protocol.md`** |
 | Token Efficiency | Every workflow | `directives/token-efficiency-protocol.md` |
 | Session State | After Step 2, after Step 4, after 10+ reads | `directives/session-state-protocol.md` |
 | Self-Annealing | On any error | `directives/deep_self_annealing.md` |
 | Collaboration | Always | `directives/collaboration-protocol.md` |
 | Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
 | Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
-| AI Slop Detection | Step 5d (production) | `directives/ai-slop-detector.md` |
 | Operating Principles | Development workflows | `directives/operating-principles.md` |
-
-### Research Routing
-
-Research is the foundation of everything. Route by depth:
-
-| Depth | Trigger | Workflow | Cost |
-|-------|---------|----------|------|
-| **Deep** | Strategy, positioning, market entry, competitive intel, avatar research, product launch, going zero-to-expert, foundation for downstream work | `/deep-research` | ~$0.75-1.50 |
-| **Standard** | Single-topic research, fact verification, trend analysis | `/research-topic` | ~$0.05-0.15 |
-| **Sprint** | Multi-angle business question evaluation | `/research-sprint` | Free (WebSearch) |
-| **Quick** | Simple fact lookup | Direct WebSearch | Free |
-
-**Default for foundation research: `/deep-research`.** If output becomes input for content, strategy, positioning, offer design, or product decisions — MUST use deep research. Building on shallow research is building on sand.
-
-**The standard**: Research that finds the real psychological movers, jobs-to-be-done, and hidden patterns — not surface-level market data. The research itself should be the unfair advantage.
+| **Prose Classifier** | **Step 5.5 (before delivery)** | **`execution/prose_classifier.py` — auto-runs in `finalize()`** |
+| **Ground Truth** | **After evolution cycles** | **`execution/ground_truth.py` — blind compare AI vs expert** |
+| **Revenue Tracking** | **After client delivery** | **`execution/revenue_tracker.py` — connect quality to outcomes** |
 
 ### Budget-Gated (check before calling)
 | Protocol | Directive | Gate |
 |----------|-----------|------|
 | Perplexity | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json` |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
+| Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.

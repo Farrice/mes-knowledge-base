@@ -1,5 +1,5 @@
 ---
-description: Design multi-part content series (YouTube, podcast, newsletter, course) as chapters in a larger narrative
+description: Design multi-part content series as chapters
 ---
 
 # /content-series-plan — Multi-Part Content Series Architect

@@ -1,5 +1,5 @@
 ---
-description: "360° brand diagnostic — audit all 24 Caleb Ralston patterns, score quality rubric, diagnose weaknesses, route to exact fix workflows with 30-day recovery plan"
+description: 360° brand diagnostic
 ---
 
 # /caleb-brand-audit — 360° Brand Health Diagnostic

@@ -1,5 +1,5 @@
 ---
-description: Deploy comedy intelligence as a writing style filter on any content — lightweight deployment, maximum impact. Includes zeitgeist calibration for cultural relevance.
+description: Deploy comedy intelligence as a writing style filter
 ---
 
 # /comedy — Comedy Intelligence Engine

@@ -1,5 +1,5 @@
 ---
-description: Complete articulation overhaul — full stack applied (anxiety → rhythm → tone → grip → likable expert → polish) for maximum content transformation
+description: Complete articulation overhaul
 ---
 
 # /word-sprint

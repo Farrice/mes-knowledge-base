@@ -1,5 +1,5 @@
 ---
-description: "Zero-to-first-post SubStack launch — positioning, naming, about page, first 3 posts planned"
+description: Zero-to-first-post SubStack launch
 ---
 
 # SubStack Launch

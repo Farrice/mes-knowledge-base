@@ -1,5 +1,5 @@
 ---
-description: "Authority strategy for zero-proof situations — manufacture credibility using psychological + empirical proof when you have no testimonials or track record"
+description: Authority strategy for zero-proof situations
 ---
 
 # Authority Manufacturing

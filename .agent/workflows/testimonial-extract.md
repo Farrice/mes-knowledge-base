@@ -1,5 +1,5 @@
 ---
-description: "Systematic testimonial collection with ghost-written templates, follow-up cadence, and fear-override psychology"
+description: Systematic testimonial collection
 ---
 
 ## Workflow: Testimonial Extraction Engine
