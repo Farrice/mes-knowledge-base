@@ -9,7 +9,7 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 - **Indirect Communication Mastery**: At the highest levels, get them to sell themselves
 - **Radical Candor as Scarcity**: Honesty is the rarest differentiator in a manipulative market
 
-## Workflows (23)
+## Workflows (27)
 
 ### Tier 1 — Foundation (7)
 | Workflow | Command | Produces |
@@ -50,7 +50,15 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 | Information-to-Brand Conversion | `/fladlien-info-brand` | Brand Positioning & Content Architecture |
 | Patience Marketing System | `/fladlien-patience` | Tree-Model Marketing System & 30-Day Calendar |
 
+### Tier 5 — Indirect, Hypnotic & Candor Writing (4)
+| Workflow | Command | Produces |
+|---------|---------|----------|
+| Hypnotic Writing Patterns Engine | `/fladlien-hypnotic` | Pattern-Enhanced Copy with Embedded Commands |
+| Indirect Selling Copy Architecture | `/fladlien-indirect-sell` | Einsteinian Copy That Sells by Not Selling |
+| Radical Candor Writing Engine | `/fladlien-candor-write` | Candor-First Copy, Emails, Ads & Content |
+| Conversational Persuasion Copy Engine | `/fladlien-conversational` | Spoken-to-Written Conversational Copy |
+
 ## Expert Context
 - **genius.md**: Full extraction intelligence — 15 genius patterns, 10 hidden knowledge items, 5 exemplars, 10 signature moves, 10-criterion quality rubric
 - **Source Material**: 2 transcript extractions, interview with extended analysis
-- **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing
+- **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing, indirect persuasion, conversational copy
