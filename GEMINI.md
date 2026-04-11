@@ -46,6 +46,7 @@ Composite <7 or any <6 → retry weakest. Non-negotiable. FINALIZE for expert ou
 
 ## Context Engine
 Hot (0) → Tier 0 (cards, ~80) → Tier 1 (SKILL.md+workflow, ~1350) → Tier 2 (+genius.md, ~2550) → Tier 3 (sub-agent, ~300). Hot first. Hot@T1 needing T2: only read genius.md. Never re-read SKILL.md for same expert.
+**Tier 0 cards:** `directives/tier0-cards.md` — 8 most-used experts. Use Tier 0 for simple tasks; escalate to Tier 1 only when frameworks/methodology needed.
 
 **Context Budget Rules:**
 - Every file read compounds: re-sent on EVERY subsequent turn. Minimize reads.

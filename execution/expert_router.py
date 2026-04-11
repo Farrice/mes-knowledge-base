@@ -278,9 +278,9 @@ def route(query, top_n=5):
             if word in info["owns"]:
                 score += 1
             if word in info["use"].lower():
-                score += 1
+                score += 0.5
 
-        if score > 0:
+        if score >= 2.0:
             scored.append((score, name, info))
 
     scored.sort(key=lambda x: -x[0])
