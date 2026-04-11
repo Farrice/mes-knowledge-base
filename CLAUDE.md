@@ -188,6 +188,20 @@ Quick answers, system commands, file organization, and conversations do NOT requ
 
 If the user invokes a workflow name from `SLASH_COMMANDS.md` — as `/command`, `@command`, "run command", or bare name — read `.agent/workflows/[command].md` and execute. The workflow incorporates the chain internally. Full list: `SLASH_COMMANDS.md`.
 
+### Compressed Slash Command Convention (MANDATORY)
+
+The slash command registration files at `.claude/commands/<name>.md` use a **compressed format**: they contain ONLY a brief description of what the command does. They do NOT contain execution instructions. The description is for routing/discovery — it tells you WHAT the command does, not HOW to run it.
+
+When a user invokes `/<name>`:
+
+1. The slash command file `.claude/commands/<name>.md` describes the command's purpose.
+2. **You MUST then read `.agent/workflows/<name>.md`** — that file contains the actual workflow instructions.
+3. **You MUST execute the workflow's instructions**, not respond to the description text.
+
+This convention is non-negotiable. Slash command name maps 1:1 to workflow file name. If `.agent/workflows/<name>.md` does not exist for a slash command, surface that as an error rather than improvising — it indicates a missing or broken workflow that needs investigation.
+
+Why this exists: the compressed format saves ~2,500 tokens per turn in system-prompt injection cost without losing any functionality. The previous format duplicated the "Read and execute the workflow at..." instruction in every single command file. This rule replaces that duplication.
+
 ---
 
 ## Architecture (3-Layer)
