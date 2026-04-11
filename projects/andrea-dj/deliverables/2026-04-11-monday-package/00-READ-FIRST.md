@@ -35,13 +35,17 @@ Read them in order. Total time: ~40 minutes.
 
 ## The Core Bet
 
-Chicago is where house music was born. In 1977, at a club called **The Warehouse**, a DJ named Frankie Knuckles built a room that was spiritual, communal, and free of pretense. People didn't come to hook up. They came to dance, to feel, to be around each other. That room is the reason we call it *house music* — "house" from *The Warehouse*.
+Pulse isn't competing with other Chicago events. It's offering something none of them are offering: a daytime, sober, curated room where the music is shaped by Andrea's actual taste and the only reason to be there is to meet someone real.
 
-That's Pulse's lineage. You're not importing a daytime sober trend from LA or Brooklyn. You're bringing Chicago back to what Chicago invented.
+Three things are true at once, and when you combine them, you have something no other event in Chicago is doing:
 
-No other event in the city can claim that. Not Daybreaker. Not Single in the City. Not any rooftop brunch party. **You own it because it's true.**
+1. **The music is curated by you, not by a genre.** Pulse isn't a house night. It isn't a disco night. It isn't an afrobeats night. It's whatever moves the room, played by DJs who share the intention. Your ear is the filter.
+2. **Daytime, sober, intentional.** We're pulling people out of the bar + app paradigm entirely. Nobody is drunk. Nobody is pretending. The ask is presence, not performance.
+3. **Curation is the product.** Who walks in the door matters more than anything else. Forty carefully-chosen people will generate more stories than four hundred random ones.
 
-This isn't marketing. It's the thing that makes everything downstream — the manifesto, the IG copy, the venue pitch, the "why should I come to this instead of X" — write itself.
+**No other event in the city is stacking all three.** Daybreaker is sober-community without matchmaking. Rooftop parties are alcohol-drenched social theater. Speed dating is transactional. Pulse is the room where all three layers come together.
+
+This isn't marketing. It's the reason everything downstream — the manifesto, the IG copy, the venue pitch, the "why should I come to this instead of X" — writes itself.
 
 ---
 
