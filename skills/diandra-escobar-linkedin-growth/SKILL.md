@@ -1,9 +1,9 @@
 ---
 name: "Diandra Escobar - LinkedIn Growth Mastery"
 description: "Complete LinkedIn growth operating system — audience acquisition through borrowed-attention formats (brandjacking, newsjacking, namejacking, hot takes), content funnel architecture (4-bucket system), infrastructure setup (Notion + Drive + Claude), body-first writing process, strategic engagement layer, and steal-like-an-artist content sourcing."
-version: "3.0"
+version: "3.1"
 format: "completion-engine"
-workflows: 14
+workflows: 19
 ---
 
 # Diandra Escobar — LinkedIn Growth Mastery
@@ -61,6 +61,16 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 | 11 | [Content Mine & Collect](workflows/11-content-mine-and-collect.md) | Categorized content bank from sales calls, docs, and expert interviews | Mining existing material for content ideas (the "extraction" approach) |
 | 12 | [Outlier Study & Remix](workflows/12-outlier-study-and-remix.md) | Competitive analysis with 3+ remix concepts per outlier studied | Researching what's working for competitors and adapting it to your voice |
 | 13 | [Content-Market Fit Sprint](workflows/13-content-market-fit-sprint.md) | 90-day posting sprint blueprint with phase milestones and format testing | Starting a brand from scratch or resetting a stalled LinkedIn presence |
+
+### Algorithm Intelligence
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 15 | [Algorithm Suppression Audit](workflows/15-algorithm-suppression-audit.md) | 6-layer diagnosis of what's suppressing reach with scored findings + fix prescriptions | Reach dropped, new account isn't gaining traction, or you suspect pod suppression |
+| 16 | [AI-Optimized Headline Engineer](workflows/16-ai-optimized-headline-engineer.md) | 5 headline candidates scored on AI retrieval matching AND human conversion | Profile setup, headline rewrite, or fixing 5-Field score from audit |
+| 17 | [First-50 Hook Rewriter](workflows/17-first-50-hook-rewriter.md) | Audit + rewrite of the first 50 words for AI retrieval + human scroll-stop | Before publishing any post — the final pre-publish quality gate |
+| 18 | [Save-Worthy Content Architect](workflows/18-save-worthy-content-architect.md) | Content idea → save-optimized format (1 save ≈ 5x reach of 1 like) | Building authority/growth posts that need maximum algorithmic reach |
+| 19 | [90-Day Semantic Lane Strategy](workflows/19-semantic-lane-strategy.md) | Topic lane selection + 90-day commitment plan with anti-scatter guardrails | Quarterly strategy, new brand build, or fixing topic scatter |
 
 ### Meta
 

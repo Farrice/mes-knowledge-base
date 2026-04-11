@@ -1,10 +1,8 @@
 ---
-description: Complete digital offer
+description: "Complete digital offer (→ use /design-digital-product-offer)"
 ---
 
-# /design-offer — Alias for /design-digital-product-offer
+# /design-offer — Redirected
 
-This is a convenience alias. Read and execute the full workflow:
-
-1. Read `.agent/workflows/design-digital-product-offer.md`
-2. Execute all phases as documented there
+> This workflow has been consolidated into **/design-digital-product-offer**.
+> Run `/design-digital-product-offer` instead.

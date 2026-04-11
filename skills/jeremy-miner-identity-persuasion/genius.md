@@ -25,7 +25,7 @@ Decoded virtuoso behaviors from the NPQ (Neuro Emotional Persuasion Questions) m
 
 ---
 
-## Pattern 2: The Self-Question Pattern
+## 2. Self-Question Pattern
 
 **The Insight:** Direct claims trigger skepticism. Questions trigger self-discovery.
 
@@ -70,7 +70,7 @@ Decoded virtuoso behaviors from the NPQ (Neuro Emotional Persuasion Questions) m
 
 ---
 
-## Pattern 5: The 4 Identity Types Framework
+## 5. 4 Identity Types Framework
 
 **The Insight:** Markets aren't demographics—they're identity types. Create a spectrum where everyone wants to be at the top.
 
@@ -130,7 +130,7 @@ Decoded virtuoso behaviors from the NPQ (Neuro Emotional Persuasion Questions) m
 
 ---
 
-## Pattern 9: The Reframe Flip
+## 9. Reframe Flip
 
 **The Insight:** Every negative contains a positive. Find it and name it.
 
@@ -175,7 +175,7 @@ Decoded virtuoso behaviors from the NPQ (Neuro Emotional Persuasion Questions) m
 
 ---
 
-## Pattern 12: The Permission Close
+## 12. Permission Close
 
 **The Insight:** Asking permission creates choice. Choice creates ownership.
 
@@ -223,10 +223,10 @@ Decoded virtuoso behaviors from the NPQ (Neuro Emotional Persuasion Questions) m
 ## Integration Note
 
 These patterns compound. A single conversation might use:
-1. Pre-Frame Formula (Pattern 3) → 
-2. 4 Identity Types (Pattern 5) → 
-3. Binary Identity Lock (Pattern 8) → 
-4. Consequence Stack (Pattern 6) → 
+1. Pre-Frame Formula (Pattern 3) →
+2. 4 Identity Types (Pattern 5) →
+3. Binary Identity Lock (Pattern 8) →
+4. Consequence Stack (Pattern 6) →
 5. Permission Close (Pattern 12)
 
 Mastery isn't knowing the patterns—it's flowing between them based on what the moment requires.

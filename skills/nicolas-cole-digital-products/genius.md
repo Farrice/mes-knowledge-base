@@ -46,6 +46,26 @@ Design every product so buyers ADVERTISE it through their natural behavior — n
 → **Deploy**: Product design phase (after scoping, before pricing). Add to every module: "What does the buyer SHOW after completing this?"
 → **Success**: Buyers organically reference the product in their own content, conversations, or profiles without being asked.
 
+### Pattern 10: The Unbundling Architecture
+Take a single digital product and break it into 3-5 named, individually-priced sub-products. Content stays identical — only presentation changes. Each section gets its own name and perceived standalone value. Sum of individual perceived prices must exceed the bundle price by 2x+. This transforms "one product for $350" into "four products worth $1,200+ bundled for $350."
+→ **Deploy**: Product architecture, landing page design, perceived value engineering
+→ **Success**: Customer perceives they're getting 4+ products for the price of 1
+
+### Pattern 11: The Question-to-Asset Engine
+Don't brainstorm bonuses — inventory the questions a prospect has after seeing the core offer, then create or surface an existing asset that **directly answers each question**. The asset IS the answer. Not "we cover that in the product" — an entire dedicated template, checklist, blueprint, or calendar FOR that specific question.
+→ **Deploy**: Landing page copy, offer construction, bonus strategy, sales page optimization
+→ **Success**: Every bonus on the page exists because it answers a *specific, named question* — zero orphan bonuses
+
+### Pattern 12: The Congruence Filter
+Reject any bonus that doesn't directly serve the core offer's promise. Incongruent bonuses don't just fail to add value — they **actively decrease** perceived value. A LinkedIn writing product bundled with "health wellness cheat sheets" and "dog training routines" makes the entire offer feel scattered and untrustworthy.
+→ **Deploy**: Bonus selection, offer auditing, landing page review
+→ **Success**: 100% of bonuses pass the congruence test — zero "padding" bonuses
+
+### Pattern 13: The Financial ROI Bridge
+Even for products with zero obvious financial outcome (yoga, wellness, creative pursuits), bridge to financial or time ROI by finding the economic implication one step removed. "15-minute yoga → saves $200/mo gym membership + 30 min commute per session. Anti-brain-fog afternoon routines → sharper decisions during $10M fundraise."
+→ **Deploy**: Copy for non-business products, any offer where the value isn't obviously financial
+→ **Success**: The reader connects the product to either money saved, money earned, or time recovered
+
 ---
 
 ## Hidden Knowledge
@@ -70,6 +90,18 @@ Cole's PGA ($3K-$10K+) requires 30 FT team members, ~2M Zaps/month. Margins drop
 Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, course bonus, community content, upsell add-on. Single template appears in 5+ products.
 **Action**: Every template/prompt/checklist → register as reusable asset deployable across all 6 vehicles. Build asset library first, product creation becomes assembly.
 
+### 6. The Inverse Effect
+Adding bonuses that don't directly answer buyer questions doesn't just fail to increase value — it **actively decreases perceived value**. Incongruent bonuses signal scattershot thinking and erode trust that the creator understands the buyer's problem.
+**Action**: Before finalizing any offer, remove every bonus that can't be directly linked to a specific buyer question. Less is more when congruence is weak.
+
+### 7. Education-as-Sales
+"Sales has very little to do with sales. Sales has everything to do with education." If you sufficiently answer someone's questions, they sell themselves. Reframes the entire landing page from "persuasion document" to "education document."
+**Action**: When writing any sales page, replace persuasion framing with education framing. Instead of "buy now because X," write "here's what you're probably wondering about X, and here's exactly how we solve it."
+
+### 8. The 3-7 Question Sweet Spot
+Optimal offer stacking range is 3-7 questions answered with dedicated assets. Fewer than 3 feels thin. More than 7 causes overwhelm and decision fatigue. Each question-asset pair is a rung on the slippery slope.
+**Action**: Audit any landing page's bonus section. Count the distinct questions being answered. If <3, add. If >7, consolidate or cut.
+
 ---
 
 ## Signature Moves
@@ -80,6 +112,10 @@ Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, cours
 4. **Price Ceiling Default** — Default highest viable price below $350 → Deploy when setting prices
 5. **Async-First Blueprint** — Validate self-serve version before live counterpart → Deploy when planning product level-up
 6. **Broadcast Audit** — For every module, answer: "What does the buyer SHOW after this?" If nothing → redesign the deliverable to produce a visible, shareable artifact → Deploy during product scoping
+7. **Question Inventory First** — Before creating any bonus, list every question the buyer has after seeing the core offer. Questions drive asset creation, never the reverse → Deploy when starting any offer/landing page design
+8. **Asset Naming Precision** — Every bonus gets a specific, standalone-sounding name (not "Bonus 1" but "The 90-Day Content Calendar"). The name alone must communicate what question it answers → Deploy when naming any bonus or micro-asset
+9. **Congruence Kill** — Ruthlessly cut any bonus that doesn't directly answer a named question, even if the asset is genuinely good. Wrong context = value destruction → Deploy when auditing any existing offer
+10. **The Copy Sandwich** — Present the question → name the asset → explain why this matters financially or practically. Three-layer structure per bonus section → Deploy when writing the bonus section of any landing page
 
 ## Quality Rubric
 
@@ -93,3 +129,6 @@ Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, cours
 | Level-Up Readiness | Dead-end product | Could expand but path not explicit | Pre-planned pathways to higher-tier offerings |
 | Asset Reusability | One-off templates | Occasionally repurposed | Every asset registered and deployed across multiple products |
 | Buyer Broadcast Design | No shareability consideration | One shareable element (e.g., certificate) | Every module produces a visible artifact, vocabulary, or transformation marker that buyers naturally broadcast |
+| Question-Asset Congruence | Most bonuses relate to core offer | Every bonus answers a specific question | Every bonus answers a NAMED question AND is named precisely enough to feel like a standalone product |
+| Slippery Slope Acceleration | Bonuses exist but don't build momentum | Each bonus increases perceived value | Each successive bonus makes the reader feel the deal is becoming *absurdly* more valuable — measurable acceleration |
+| Financial ROI Bridge | No financial framing | Basic time/money comparison | Multi-layered bridge connecting the product to specific dollar amounts the buyer faces |

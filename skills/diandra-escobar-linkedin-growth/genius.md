@@ -90,6 +90,42 @@ Diandra Escobar treats LinkedIn growth as an **attention redirection problem**, 
 - **Deployment Context**: Content review gate before publishing.
 - **Success Metric**: Stranger can read your last 10 posts and accurately describe what you believe and who you serve.
 
+### Pattern 13: The 5-Field Author Signal
+- **What She Does Unconsciously**: Optimizes the five fields that travel with every piece of content into the AI retrieval system: name, headline, company, industry, and title. These are the only author-level signals the unified model uses to decide WHO should see your content.
+- **Executable Behavior**: Before optimizing post content, audit these 5 fields. Your headline isn't a vanity tagline — it's metadata the AI uses to match you to audiences. Headline should contain the skill/domain your ICP cares about, not your job title. "LinkedIn Growth Strategist for B2B SaaS" beats "Founder & CEO at Distinctiva."
+- **Deployment Context**: Profile optimization, client onboarding, any time reach drops without content quality changing.
+- **Success Metric**: Profile views from target ICP increase within 7-14 days of headline rewrite. Posts reach new audience segments that match updated fields.
+
+### Pattern 14: The 60-Token Audition
+- **What She Does Unconsciously**: Front-loads the first ~50 words of every post with topic-specific, semantically rich language because that's all the retrieval model reads to decide candidate-pool inclusion.
+- **Executable Behavior**: Write the post body-first (Pattern 6), then audit the first 50 words. Ask: "If the AI only read these words, would it know EXACTLY what topic this is about and WHO it's for?" Remove throat-clearing, generic openers, and vague setups. The first 50 words are your audition for the candidate pool — not for human readers.
+- **Deployment Context**: Every post, after body-first writing is complete. This is the final filter before publishing.
+- **Success Metric**: First 50 words contain at least 3 topic-specific terms the AI can use for semantic matching. No filler openers like "I've been thinking about..." or "Here's the thing about..."
+
+### Pattern 15: The Depth-Over-Breadth Principle
+- **What She Does Unconsciously**: Commits to deep coverage of 2-3 topic lanes rather than scattering across 10+ topics. The unified LLM has "world knowledge" — it connects related subtopics semantically without needing exact keyword matches.
+- **Executable Behavior**: Define your 2-3 topic lanes (e.g., "LinkedIn growth systems" + "content strategy for B2B SaaS" + "building an agency from zero"). Post deeply within those lanes. The AI will AUTOMATICALLY connect your "LinkedIn algorithm" post to someone who engaged with "social media marketing" — you don't need to cover every adjacent topic yourself.
+- **Deployment Context**: Content strategy architecture. Replace the instinct to "cover everything" with commitment to depth.
+- **Success Metric**: Your last 20 posts can be grouped into 2-3 clear topic lanes. The AI starts surfacing your content to increasingly precise audiences.
+
+### Pattern 16: The Save Economy
+- **What She Does Unconsciously**: Architects content for saves (reference value) not just likes (momentary agreement). Based on Authored Up data analysis, 1 save ≈ 5x the reach impact of 1 like.
+- **Executable Behavior**: Before publishing, ask: "Would someone save this to reference later?" If not, restructure around a framework, checklist, data point, or step-by-step process that has revisit value. Saves signal to the AI that this content has durable value, not just fleeting engagement.
+- **Deployment Context**: Authority and Growth bucket posts especially. Any post that teaches, frameworks, or provides data.
+- **Success Metric**: Save-to-like ratio above 1:10. Posts with high save rates should show disproportionate reach expansion within 24-48 hours.
+
+### Pattern 17: The Percentile Threshold
+- **What She Does Unconsciously**: Understands that the AI converts raw engagement numbers to percentiles — your 50 likes are compared to what's typical for YOUR follower count, not to a 500K-follower creator's 5,000 likes.
+- **Executable Behavior**: Stop comparing raw numbers to bigger creators. Focus on your own engagement VELOCITY and PERCENTILE position. A post that gets 3x your average engagement in the first hour is algorithmically equivalent to a viral post from someone with 100x your audience — both signal "unusually high engagement" to the percentile model.
+- **Deployment Context**: Performance analysis, content audit, client reporting. Kills the "my numbers are too small to matter" objection.
+- **Success Metric**: Track engagement as a multiple of your 30-day average, not raw counts. Identify your percentile breakpoints.
+
+### Pattern 18: The Small Account Advantage
+- **What She Does Unconsciously**: Leverages the structural fact that LinkedIn's new retrieval system matches by INTEREST, not by network size. Data shows a 3.29% revenue increase for smaller accounts under the new system.
+- **Executable Behavior**: Tell new creators and small accounts: the old system favored big networks. The new AI system favors relevant content for specific interests. If your content precisely matches someone's professional learning arc, the AI will surface it regardless of your follower count. This is the best time in LinkedIn's history to start from zero.
+- **Deployment Context**: New brand builds, client onboarding when account is small, 90-day sprint framing.
+- **Success Metric**: New accounts seeing impression growth within first 30 days that outpaces network growth — signal that AI discovery is working.
+
 ---
 
 ## Hidden Knowledge
@@ -112,6 +148,14 @@ Tacit expertise Diandra demonstrates but doesn't explicitly teach:
 
 - **The 500+ Word Context Dump**: When setting up any AI writing tool, provide 500+ words about your service, wins, "musts," and cliché blacklist. Generic inputs produce generic outputs. The quality ceiling is set by the quality of context you provide.
 
+- **The Negative Signal Trap**: LinkedIn tested including negative signals (hide, unfollow, report) in the retrieval model and it made the AI WORSE at recommendations. They stripped negative signals entirely. The system only amplifies positive engagement. This means being ignored is neutral — not punishing. You can't get "algorithmically buried" by bad posts. You just don't get amplified.
+
+- **The Generative Recommender Sequence**: The AI treats your engagement history as a SEQUENCE — a professional learning journey, not random data points. What you liked on Monday shapes what the AI shows you Tuesday and Wednesday. It's reading your curiosity arc. This means your audience's feed is a moving target — the content they need TODAY is shaped by what they consumed yesterday.
+
+- **The Pod Detection Layer**: LinkedIn is actively building dwell-time analysis to distinguish real reading from scripted pod engagement. Short dwell times followed by immediate comments signal automation. Pod members are getting systematically deprioritized because the AI can detect "rapid comment, no actual reading" behavioral patterns. Authentic engagement with real dwell time is now the only safe engagement strategy.
+
+- **The Adam Bird Correction**: A common myth is that engaging with other posts gives YOUR content a "boost." Diandra clarifies via Adam Bird's research: your outbound engagement shapes YOUR feed (what you see), not your content's reach (what others see). However, what you see shapes what you CREATE — so strategic engagement is still critical for inspiration, not algorithm manipulation.
+
 ---
 
 ## Hall of Fame Exemplars
@@ -131,9 +175,23 @@ Tacit expertise Diandra demonstrates but doesn't explicitly teach:
 - **The Example**: 390 comments, 300 reposts, 3,198 likes. Binary engagement — people either agreed strongly or disagreed strongly. No "it depends" hedging. A clear position that forced a reaction.
 - **What makes this excellent**: Passed the anxiety test — the poster was genuinely nervous to publish it. That nervousness is the signal that the take is contrarian enough to move people. The specificity ("not by a little, by a lot") prevented fence-sitting.
 
+### Exemplar 4: The Algorithm Post That Saved Itself
+- **Context**: Diandra's own post breaking down the 2026 LinkedIn algorithm changes — specifically the "saves are worth 5x likes" data from Authored Up.
+- **The Example**: The post itself was architected as a save-worthy reference piece: a numbered list of the 8 algorithm changes with one actionable takeaway per change. The irony — a post about saves being the most important engagement signal became a heavily-saved post. Engagement velocity in the first hour was 4x her 30-day average.
+- **What makes this excellent**: Meta-demonstration of Pattern 16 (Save Economy). The content format (numbered reference list with actionable data points) is exactly what triggers saves. She practiced what she preached, and the AI rewarded it because save-heavy engagement pushes content into broader candidate pools.
+
+### Exemplar 5: The Small Account Client Win
+- **Context**: New client with 1,200 followers, B2B fintech niche. First month using the 5-field optimization + semantic lane commitment strategy.
+- **The Example**: Client rewrote headline from "CEO | Fintech | Builder" to "Making compliance painless for startup CFOs | Fintech regulatory strategy." Within 3 weeks, posts were reaching CFOs and compliance officers who had zero connection to the client — pure AI-driven discovery. Impressions went from 800 average to 4,200 average without follower growth.
+- **What makes this excellent**: Proves Pattern 18 (Small Account Advantage) and Pattern 13 (5-Field Author Signal) in combination. The headline rewrite gave the AI semantic data to work with. The topic-lane posts gave the AI consistent signal. Small account, big reach — exactly what the new system enables.
+
 ### Anti-Exemplar: The Generic Industry Summary
 - **What mediocre looks like**: "Big news! [Company] just announced [thing]. Here are 5 takeaways..." followed by bullet points that summarize the press release without any original analysis or position.
 - **Why it fails**: No "So What?" answer. No original insight. The 200 people who already follow the creator might skim it. The algorithm sees low engagement velocity and kills distribution. The creator is reporting, not analyzing — and nobody needs another reporter when the press release is already public.
+
+### Anti-Exemplar 2: The Pod-Boosted Post
+- **What mediocre looks like**: Post gets 40 comments in 12 minutes, all from the same pod group. Comments are generic: "So true!" "Great insight!" "Absolutely agree!" Average dwell time: 3 seconds per commenter.
+- **Why it fails**: The 2026 retrieval model actively detects this pattern — rapid engagement with near-zero dwell time signals automation, not genuine interest. LinkedIn's anti-pod layer deprioritizes these posts from candidate pools. The short-term engagement spike produces long-term reach suppression. Authentic engagement with real dwell time is the only sustainable strategy.
 
 ---
 

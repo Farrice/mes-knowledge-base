@@ -8,7 +8,7 @@
 
 > The decoded mental models and tacit expertise that separate viral content engineers from content gamblers
 
-## Pattern 1: The Dopamine Ladder Architecture
+## 1. Dopamine Ladder Architecture
 
 **What Kallaway Sees**: Every piece of content is a neurological journey with six distinct levels. Most creators hit 1-2 levels randomly. Kallaway designs for all six in sequence.
 
@@ -26,7 +26,7 @@
 
 ---
 
-## Pattern 2: The 11 Lego Brick Decomposition (v2 — Internet Money Machine)
+## 2. 11 Lego Brick Decomposition (v2 — Internet Money Machine)
 
 **What Kallaway Sees**: Content isn't a mysterious creative act—it's LEGO. Every viral video is built from 11 extractable, recombineable bricks. (Upgraded from the original 7-brick model.)
 
@@ -58,7 +58,7 @@
 
 ---
 
-## Pattern 3: The Curiosity Loop Engineering
+## 3. Curiosity Loop Engineering
 
 **What Kallaway Sees**: Curiosity isn't magic—it's a gap between what you know and what you want to know. That gap can be engineered with precision.
 
@@ -85,7 +85,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 4: The 2x2 Strategy Matrix
+## 4. 2x2 Strategy Matrix
 
 **What Kallaway Sees**: Most creators pick content strategy based on what's popular, not what's right for their business. There's a systematic way to choose.
 
@@ -104,7 +104,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 5: The Outlier Research Method
+## 5. Outlier Research Method
 
 **What Kallaway Sees**: Success leaves patterns. Outliers (5x+ average performance) contain extractable bricks that can be validated and remixed.
 
@@ -123,7 +123,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 6: The Pain-Solution-Trust Triangle
+## 6. Pain-Solution-Trust Triangle
 
 **What Kallaway Sees**: Content that converts hits all three vertices. Content that entertains but doesn't sell misses at least one.
 
@@ -154,7 +154,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 7: The Buyer Journey Mapping
+## 7. Buyer Journey Mapping
 
 **What Kallaway Sees**: Content isn't random acts of creation—it's strategic movement of buyers through a funnel.
 
@@ -173,7 +173,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 8: The Same-Type Transfer Rule
+## 8. Same-Type Transfer Rule
 
 **What Kallaway Sees**: Patterns don't transfer across format types. A viral short-form video teaches nothing about long-form success.
 
@@ -186,7 +186,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 9: The Grayscale Test
+## 9. Grayscale Test
 
 **What Kallaway Sees**: Color isn't decoration—it's a neurological trigger. If your content is equally interesting in grayscale, your stimulation strategy is failing.
 
@@ -199,7 +199,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 10: The Brick Dependency Hierarchy
+## 10. Brick Dependency Hierarchy
 
 **What Kallaway Sees**: Not all bricks have equal causal power. Optimizing in the wrong order wastes effort.
 
@@ -216,7 +216,7 @@ Example: "I wasted 3 years on productivity systems before I found the one thing 
 
 ---
 
-## Pattern 11: The Transformation vs. Information Split
+## 11. Transformation vs. Information Split
 
 **What Kallaway Sees**: Information creates consumers. Transformation creates believers.
 
@@ -240,7 +240,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 
 ---
 
-## Pattern 12: The One-Niche-One-List Rule
+## 12. One-Niche-One-List Rule
 
 **What Kallaway Sees**: Patterns don't transfer between niches. A fitness outlier list tells you nothing about finance.
 
@@ -254,7 +254,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 
 ---
 
-## Pattern 13: The Trust Speed Differential
+## 13. Trust Speed Differential
 
 **What Kallaway Sees**: People trust individuals 3-5x faster than brands. This is why personal brands win on social.
 
@@ -268,7 +268,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 
 ---
 
-## Pattern 14: The Entertainment Ceiling
+## 14. Entertainment Ceiling
 
 **What Kallaway Sees**: Entertainment content caps at Level 5 (Affection) for most creators. Level 6 (Revelation) requires world-class consistency that only top 0.1% achieve.
 
@@ -281,7 +281,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 
 ---
 
-## Pattern 15: The Workflow Pain Point Mining
+## 15. Workflow Pain Point Mining
 
 **What Kallaway Sees**: Most creators run out of ideas. Buyer-focused creators have unlimited topic pipelines because they map the buyer's workflow and extract pain at every step.
 
@@ -296,7 +296,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 
 ---
 
-## Pattern 16: The Avatar Language Matching
+## 16. Avatar Language Matching
 
 **What Kallaway Sees**: Creators use expert language. Buyers use pain language. The gap kills conversion.
 
@@ -313,7 +313,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 
 ---
 
-## Pattern 17: The Content Multiplication System
+## 17. Content Multiplication System
 
 **What Kallaway Sees**: One idea should become 20-30 pieces, not 1. Most creators create once and move on. Masters extract maximum value.
 
@@ -327,7 +327,7 @@ Level 6 (Revelation) only comes from consistent transformation delivery.
 ```
 Core Idea: "Your pricing problem is actually a positioning problem"
     → Contrarian post
-    → Story post  
+    → Story post
     → Framework carousel
     → Problem video
     → How-to thread
@@ -336,7 +336,7 @@ Core Idea: "Your pricing problem is actually a positioning problem"
 
 ---
 
-## Pattern 18: The Anticipation Engineering
+## 18. Anticipation Engineering
 
 **What Kallaway Sees**: Level 3 (Anticipation) is where most creators lose viewers. The body of content needs tension mechanics.
 
@@ -350,7 +350,7 @@ Core Idea: "Your pricing problem is actually a positioning problem"
 
 ---
 
-## Pattern 19: The Validation Paradox
+## 19. Validation Paradox
 
 **What Kallaway Sees**: The best CTAs don't ask for anything. They make viewers want MORE of what you just gave.
 
@@ -363,7 +363,7 @@ Core Idea: "Your pricing problem is actually a positioning problem"
 
 ---
 
-## Pattern 20: The Platform-Native Adaptation
+## 20. Platform-Native Adaptation
 
 **What Kallaway Sees**: Platforms have unique mechanics. Cross-posting without adaptation fails.
 
@@ -395,7 +395,7 @@ If any link is broken, your content attracts the wrong avatar. Fix C.A.P. Fit be
 
 ---
 
-## Pattern 22: The Batched Scientific Testing Protocol
+## 22. Batched Scientific Testing Protocol
 
 **What Kallaway Sees**: Treats content creation as systematic A/B testing, not creative guessing. Every video is part of a batch with a hypothesis.
 
@@ -438,7 +438,7 @@ If any link is broken, your content attracts the wrong avatar. Fix C.A.P. Fit be
 
 ---
 
-## Pattern 24: The Ramp Architecture (Content → Revenue Pipeline)
+## 24. Ramp Architecture (Content → Revenue Pipeline)
 
 **What Kallaway Sees**: Views without ramps = vanity metrics. Every video must feed a conversion pipeline.
 
@@ -459,7 +459,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 25: The 4 Blockers Framework
+## 25. 4 Blockers Framework
 
 **What Kallaway Sees**: Diagnoses client failures into exactly 4 buckets, each with a targeted intervention.
 
@@ -477,7 +477,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 26: The Brand Deal vs. Owned Product Decision
+## 26. Brand Deal vs. Owned Product Decision
 
 **What Kallaway Sees**: Brand deals scale linearly (more deals = more work). Owned products scale exponentially (content compounds, products convert without your time).
 
@@ -492,7 +492,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 27: The 6-Power-Word Hook Formula
+## 27. 6-Power-Word Hook Formula
 
 **What Kallaway Sees**: You don't need great writing to engineer a hook — you need 6 specific word types assembled in order. This is the atomized structure behind every hook that creates an unstoppable curiosity loop.
 
@@ -517,7 +517,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 28: The 3-Step Hook Formula (Context Lean → Stun Gun → Haymaker)
+## 28. 3-Step Hook Formula (Context Lean → Stun Gun → Haymaker)
 
 **What Kallaway Sees**: A hook is not one line — it's a 3-beat sequence that physically stops a scrolling viewer. Each step serves a distinct neurological function.
 
@@ -541,7 +541,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 29: The 3-Hook Alignment Rule (Visual Dominance)
+## 29. 3-Hook Alignment Rule (Visual Dominance)
 
 **What Kallaway Sees**: Every hook is actually 3 simultaneous tracks that must be perfectly aligned. Misalignment = "comprehension loss" = viewer exits. Visual leads because eyes process information 10-100x faster than ears.
 
@@ -565,7 +565,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 30: The 5 Desire-Based Hook Templates
+## 30. 5 Desire-Based Hook Templates
 
 **What Kallaway Sees**: Every high-performing conversion hook maps onto one of 5 character-based desire templates. The goal is to frame the viewer's desire through a relatable character they see themselves in — without intimidating conditions.
 
@@ -591,7 +591,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 31: The 6 Content Mistakes Diagnostic
+## 31. 6 Content Mistakes Diagnostic
 
 **What Kallaway Sees**: Every underperforming channel fails at one of 6 specific points. The diagnostic is sequential — fixing a downstream mistake without fixing an upstream one wastes time.
 
@@ -613,7 +613,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 32: The 8 Psychology Principles for Viewer Trust
+## 32. 8 Psychology Principles for Viewer Trust
 
 **What Kallaway Sees**: Social media mastery is applied psychology. These 8 principles govern whether viewers trust you enough to buy. All 8 must be present at some level in any conversion-focused content series.
 
@@ -645,7 +645,7 @@ Content → ManyChat CTA → Lead Magnet → Email Capture → 5-Day Drip → Pu
 
 ---
 
-## Pattern 33: The Game Theory Framework (7 Players, 2 Games)
+## 33. Game Theory Framework (7 Players, 2 Games)
 
 **What Kallaway Sees**: Social media is a strategic game. Understanding the incentives of every player in the ecosystem reveals the exact optimal strategy for any creator. "You can apply game theory principles to figure out the optimal strategy."
 
@@ -776,7 +776,7 @@ Loop Opening (Context) → Partial Reveal → Head-Fake → Loop Close (Reveal)
 
 ---
 
-## Pattern 37: The YouTube for Business Owners System (4-System Blueprint)
+## 37. YouTube for Business Owners System (4-System Blueprint)
 
 **What Kallaway Sees**: Standard creator advice optimizes for fame. Business owners need the opposite: "You're not a YouTuber — you're an entrepreneur using YouTube as an effective free traffic source." This requires a completely different system.
 

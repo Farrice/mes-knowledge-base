@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260410_213844",
+  "timestamp": "2026-04-10T21:38:44.824122",
+  "component": "nicolas-cole-digital-products",
+  "operation": "chain_finalize",
+  "expert": "Nicolas Cole",
+  "workflow": "offer-stacking-optimizer",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "Light tier \u2014 single-concept but extremely dense and actionable. Fills the gap between product architecture (Workflow 1) and ecosystem planning (Workflow 2) with the offer presentation layer.",
+  "context": {
+    "output": "MES 3.0 Light extraction of Nicolas Cole offer stacking methodology. 4 new genius patterns (10-13: Unbundling Architecture, Question-to-Asset Engine, Congruence Filter, Financial ROI Bridge). 3 new hi",
+    "task_type": "extraction",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 8.3,
+      "delta": 0,
+      "message": "Insufficient data (1 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}
