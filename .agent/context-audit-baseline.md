@@ -1,50 +1,107 @@
-# Context Injection Baseline Audit
+# Context Injection Baseline Audit (Corrected)
 
-> Measured: 2026-04-11 06:18:17 UTC
+> Measured: 2026-04-11 06:35:54 UTC
 > Branch: context-optimization
 > Script: `execution/measure_injection.py`
 
-## Summary
+## What This Measures
 
-| Source | Files | Chars | Est. Tokens |
+The Antigravity / Claude Code harness injects three things into the system prompt on every turn:
+
+1. **`.claude/commands/*.md`** — slash command registrations. Each file is a single-line delegator. Listed in the system reminder as the available skills/workflows. **THIS is the actual workflow injection source**, not `.agent/workflows/`.
+2. **`CLAUDE.md`** — project instructions, loaded as part of the system prompt.
+3. **`MEMORY.md`** — auto-memory index, loaded by the auto-memory system every turn.
+
+Files in `.agent/workflows/` are workflow CONTENT — they load on invocation, not every turn. They cost zero per-turn injection.
+
+## Summary (per-turn fixed injection)
+
+| Source | Files | Chars (truncated) | Est. Tokens | Notes |
+|---|---|---|---|---|
+| `.claude/commands/` slash command registrations | 199 | 20,099 | ~5,024 | each entry capped ~100 chars in actual injection |
+| `CLAUDE.md` | 1 | 14,911 | ~3,727 | full file always loaded |
+| `MEMORY.md` | 1 | 17,556 | ~4,389 | full file always loaded |
+| **Total fixed injection per turn** | | **52,566** | **~13,141** | |
+
+### For reference (NOT injected, no per-turn cost)
+
+| Source | Files | Total Chars | Notes |
 |---|---|---|---|
-| `.agent/workflows/` (top-level, auto-injected) | 524 | 37,862 | ~9,465 |
-| `.agent/workflows/_library/` (deferred) | 0 | 0 | ~0 |
-| `CLAUDE.md` | 1 | 14,911 | ~3,727 |
-| `MEMORY.md` | 1 | 17,556 | ~4,389 |
-| **Total fixed injection per turn** | | **70,329** | **~17,582** |
+| `.claude/commands/` untruncated | 199 | 31,574 | ~7,893 tokens if no truncation |
+| `.agent/workflows/` (workflow content) | 524 | 1,150,412 | content store — loads on invocation only |
 
-Top-level workflow scan: 524 `.md` files, 517 with a `description:` frontmatter field.
+## Registration vs Content Mismatch
 
-## Top 20 Heaviest Top-Level Workflows (by injection line length)
+- Slash commands registered in `.claude/commands/`: **199**
+- Workflow files present in `.agent/workflows/`: **524**
+- Workflows with NO slash command registration (dormant on disk): **325**
+- Slash commands pointing to MISSING workflow files (broken delegators): **0**
 
-| Slug | Chars | Description |
+### Dormant workflows (file exists but no slash command — zero injection cost)
+
+First 30 of 325:
+
+- `aar`
+- `accommodation-audit`
+- `affiliate-select`
+- `affiliate-traffic`
+- `ai-ad-production`
+- `ai-affiliate-site`
+- `ai-app-revenue`
+- `ai-lead-scraper`
+- `algorithmic-reach`
+- `analogy-engine`
+- `anti-homogenization-audit`
+- `archetype-build`
+- `authority-flywheel`
+- `authority-manufacturing`
+- `auto-experiment`
+- `belief-creative-brief`
+- `belief-dissolution-engine`
+- `belief-dissolve-copy`
+- `belief-first-audience-intelligence`
+- `belief-gap-sprint`
+- `betting-edge`
+- `bitter-lesson-check`
+- `blue-chip-client`
+- `book-atomize`
+- `book-never-ends`
+- `caleb-4c-intro`
+- `caleb-brand-audit`
+- `caleb-brand-build`
+- `caleb-content-sprint`
+- `caleb-format-strategy`
+- ... and 295 more
+
+## Top 20 Heaviest Slash Commands (by untruncated injection length)
+
+| Slug | Untruncated Chars | Content (first 80 chars) |
 |---|---|---|
-| `haunt-story` | 276 | "Full narrative haunting architecture — write scenes, stories, and long-form pie… |
-| `etymology-engine` | 241 | "Etymological depth deployment — take the 5 most important words in any piece, t… |
-| `literary-edging` | 233 | "Strategic denial as standalone composition tool — map where readers predict you… |
-| `haunt-social` | 229 | "Platform-specific haunting deployment. Residue-first (not hook-first) social me… |
-| `daring-disobedience` | 221 | "Deploy Pattern 13 — the Skater's Mindset. Diagnose where you're self-censoring,… |
-| `anti-homogenization-audit` | 218 | Audit any content against Ocean Vuong's 7-dimension anti-homogenization protocol… |
-| `perception-lab` | 216 | "Language R&D laboratory — dedicated space for sentence experimentation without … |
-| `haunt-audit` | 213 | "Post-completion quality gate scoring any finished piece on haunting potential. … |
-| `haunt` | 198 | "The master Haunting Engine — take ANY piece of writing and elevate it from atte… |
-| `haunt-copy` | 196 | "Marketing copy that doesn't just convert — it HAUNTS. The prospect can't stop t… |
-| `species-test` | 192 | Run Ocean Vuong's Species Test on any content — "Has the species had this senten… |
-| `estrangement-engine` | 185 | Transform mimetic writing into estranged prose using Ocean Vuong's behavioral di… |
-| `parallax` | 173 | Produce Parallax Substack editions — trending research, briefing, drafting, prom… |
-| `offer-stack` | 158 | Make any digital product offer irresistible with question-to-asset mapping, cong… |
-| `diandra-first-50` | 120 | Audit + rewrite the first 50 words of any LinkedIn post for AI retrieval + human… |
-| `diandra-save-architect` | 119 | Transform any content idea into a save-optimized format (1 save ≈ 5x reach of 1 … |
-| `diandra-headline-engineer` | 116 | LinkedIn headline optimized for both AI retrieval matching AND human conversion |
-| `taste-declare` | 116 | Declare your taste identity — what you want to say, why, and the cultural lineag… |
-| `taste-stage` | 115 | Diagnose whether you are at good taste (follow rules) or great taste (break rule… |
-| `belief-dissolution-engine` | 114 | Dissolve hardened audience beliefs using backward-dissolution proof sequences |
+| `/check-picks` | 275 | Read and execute the workflow at `.agent/workflows/check-picks.md` — Fast-path N… |
+| `/picks-tonight` | 243 | Read and execute the workflow at `.agent/workflows/picks-tonight.md` — Tonight's… |
+| `/build` | 242 | Read and execute the workflow at `.agent/workflows/build.md` — System Improvemen… |
+| `/maintenance` | 238 | Read and execute the workflow at `.agent/workflows/maintenance.md` — Weekly Inte… |
+| `/deep-work` | 236 | Read and execute the workflow at `.agent/workflows/deep-work.md` — Full Chain St… |
+| `/parallax` | 234 | Read and execute the workflow at `.agent/workflows/parallax.md` — Produce Parall… |
+| `/picks-status` | 225 | Read and execute the workflow at `.agent/workflows/picks-status.md` — Full track… |
+| `/picks-review` | 211 | Read and execute the workflow at `.agent/workflows/picks-review.md` — Morning re… |
+| `/roth-content` | 199 | Read and execute the workflow at `.agent/workflows/roth-content.md` — Long-form … |
+| `/roth-ghostwrite` | 196 | Read and execute the workflow at `.agent/workflows/roth-ghostwrite.md` — Premium… |
+| `/design-digital-product-offer` | 194 | Read and execute the workflow at `.agent/workflows/design-digital-product-offer.… |
+| `/research-landscape` | 191 | Read and execute the workflow at `.agent/workflows/research-landscape.md` — Univ… |
+| `/roth-visual-prose` | 191 | Read and execute the workflow at `.agent/workflows/roth-visual-prose.md` — Visua… |
+| `/ship` | 191 | Read and execute the workflow at `.agent/workflows/ship.md` — Quick Content Spri… |
+| `/roth-social` | 187 | Read and execute the workflow at `.agent/workflows/roth-social.md` — Social medi… |
+| `/domain-verifiability-map` | 185 | Read and execute the workflow at `.agent/workflows/domain-verifiability-map.md` … |
+| `/evolution-sprint` | 184 | Read and execute the workflow at `.agent/workflows/evolution-sprint.md` — Backgr… |
+| `/roth-email` | 184 | Read and execute the workflow at `.agent/workflows/roth-email.md` — Cinematic em… |
+| `/connelly-detail` | 183 | Read and execute the workflow at `.agent/workflows/connelly-detail.md` — Deploy … |
+| `/connelly-conflict` | 182 | Read and execute the workflow at `.agent/workflows/connelly-conflict.md` — Run t… |
 
 ## Notes on Methodology
 
 - Token counts use the 4-chars-per-token approximation (accurate within ~5% for English markdown).
-- Only the `description:` frontmatter field is counted for workflows — full bodies only load on invocation.
-- Injection format simulated: `- /<slug> (path): <description>` (matches observed system-reminder output).
-- MEMORY.md is loaded by the auto-memory system on every turn; CLAUDE.md by the harness project-instructions loader.
-- This report is regenerated after each Phase 1 batch to track lossless deferral progress.
+- Each `.claude/commands/X.md` file is a single-line delegator: `Read and execute the workflow at .agent/workflows/X.md — <desc>`.
+- The system reminder displays each entry as `- <slug>: <content>` truncated at ~100 chars with `…`. We use a 100-char cap for the realistic injection cost.
+- Files in `.agent/workflows/` are workflow content. They load on invocation, not every turn. Zero per-turn cost. The historical '524 workflows' count is real but only ~199 of those have a `.claude/commands/` registration.
+- This report is regenerated after each optimization step to track progress losslessly.
