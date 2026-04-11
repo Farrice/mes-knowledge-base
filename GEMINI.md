@@ -23,7 +23,7 @@ Every user-facing deliverable → conversation artifact (`brain/<id>/`, `IsArtif
 
 **Step 1 SCORE** (1-5): +1 Deliverable +1 Audience +1 Context +1 End-state +1 Specificity. Print score.
 **Step 2 SHARPEN** (if ≤3): Ask DICE dimensions, one round. `directives/intent-pipeline.md`. Skip if ≥4.
-**Step 3 ROUTE**: LinkedIn→Lara | Copy→Luke | SEO→Gotch | Brand→Oren/Grace | Ghost→Cole | Psychology→Kallaway | Consumer→Dai | Agentic→Saraev. Ambiguous? `directives/expert_auto_routing.md`. Always route explicitly. Print expert.
+**Step 3 ROUTE**: `python3 execution/expert_router.py route "problem description"` → selects from 96 agents across 15 domains. Compounds: `python3 execution/expert_router.py compounds "query"`. Fallback: `DOMAIN_REGISTRY.md`. Always route explicitly. Print expert.
 **Step 4 LOAD**: Tier 0→1→2→3. Hot? Skip. Content: min 2 files per `directives/content_creation_gate.md`. **Never produce without loading.** Print files loaded.
 **Step 5 PRODUCE**: Expert frameworks, not terminology. Tool calls in one response, text in the next — NEVER mix. Enforce `directives/quality_assurance.md`.
 **Step 6 FINALIZE**: Score Intent/Expert/Adversarial 1-10. Run:
