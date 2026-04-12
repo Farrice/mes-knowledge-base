@@ -18,9 +18,9 @@ You don't have to figure out the strategy. You have to execute it. My job is to 
 
 ---
 
-## The Six Files
+## The Seven Files
 
-Read them in order. Total time: ~40 minutes.
+Read them in order. Total time: ~50 minutes.
 
 | # | File | What's In It | Your Action |
 |---|------|--------------|-------------|
@@ -30,6 +30,7 @@ Read them in order. Total time: ~40 minutes.
 | **04** | `04-content-week-1.md` | 3 Instagram posts ready to ship + how we capture stories at Event #1 | Read + tell me which post you'd delete or rewrite |
 | **05** | `05-substack-merge.md` | The Substack decision — merge with Pulse or keep parallel | Read + decide |
 | **06** | `06-monday-agenda.md` | Our call agenda for Monday | Read + show up |
+| **07** | `07-claude-pro-setup.md` | How to set up your Claude Pro project + a prompt library for Pulse work and self-work | Read + do Steps 1-5 before Monday (20 min) |
 
 ---
 
@@ -53,11 +54,11 @@ This isn't marketing. It's the reason everything downstream — the manifesto, t
 
 Three things. Nothing else.
 
-1. **Read all six files.** Comment in the margins on anything that doesn't feel like you. Anything. If a single sentence makes you wince, mark it.
-2. **Sign up for Claude at $20/month** ([claude.ai](https://claude.ai)) so we can work together in the tool on Monday. Best $20 you'll spend this month.
+1. **Read all seven files.** Comment in the margins on anything that doesn't feel like you. Anything. If a single sentence makes you wince, mark it.
+2. **Set up your Claude Pro project** — follow file 07 (takes ~20 minutes). This is the infrastructure that lets us actually use Claude as a creative partner on Monday instead of just talking about it.
 3. **Text me one message:** either "I'm all in, let's ship it Monday" or "here's what I'm nervous about." Both are useful. I need to know where your head is before we get on the call.
 
-That's the whole ask for the weekend. Don't start executing anything yet. Don't DM people. Don't post anything. Just read, react, and show up Monday.
+That's the whole ask for the weekend. Don't start executing anything yet. Don't DM people. Don't post anything. Just read, react, set up Claude, and show up Monday.
 
 ---
 

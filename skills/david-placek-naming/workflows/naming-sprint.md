@@ -81,12 +81,22 @@ If the user wants deeper linguistic analysis, deploy `sound-symbolism-scorer` pr
 - **Low score (1-4)**: Name requires spelling out, is easily confused with existing words/brands, or has multiple plausible spellings.
 - **Compound effect**: Every referral that fails because someone can't remember or spell the name is LOST compounding. This is the most undervalued dimension in naming.
 
+#### Dimension 6: Lived Cultural Connotation (Added 2026-04-11)
+*What does the target audience ALREADY feel when they hear this word — based on where they live, what they've experienced, and what emotions the word triggers in daily life?*
+- **Test**: Put yourself in the body of someone who has lived in the target geography for 10+ years. Say the name. What's the FIRST image, memory, or feeling? Not the second. Not the "well, if you think about it differently." The first.
+- **High score (8-10)**: First association is neutral-to-positive AND aligned with the brand's emotional territory (e.g., "Daybreaker" — first association is dawn, new energy. Positive and aligned).
+- **Low score (1-4)**: First association is negative, painful, or misaligned with brand intent (e.g., "Lake Effect" in Chicago — first association is snow, frozen pipes, car won't start).
+- **Auto-eliminate at 3 or below**: If the target audience's first association is negative, no amount of "reframing" saves it. The name fights the audience's lived experience on every impression.
+- **Critical rule**: This dimension CANNOT be scored by the naming team alone. It requires validation from someone with lived experience in the target geography or culture. If no one on the team has that experience, ASK before presenting. A confident presentation of a culturally tone-deaf name is worse than a hesitant presentation of a mediocre one.
+- **Origin**: Naming sprint produced "Lake Effect" and "Thaw" for a Chicago event brand. Both scored 8.6+ on dimensions 1-5. Both were immediately disqualified by a 30-year Chicago resident because the cultural connotations (winter misery, scraping windshields) were the opposite of the brand's intent. Rigorous methodology, 2/10 output.
+
 #### Compounding Defensibility Score
-- Calculate average across 5 dimensions
+- Calculate average across **6** dimensions
 - **8+ = Compounding Asset** — this name will be worth MORE in 5 years than today
 - **6-7 = Neutral** — name serves the brand but doesn't actively compound
 - **Below 6 = Depreciating** — name will require increasing marketing spend to stay relevant
 - **Auto-eliminate any name scoring below 4 on ANY single dimension** — one fatal weakness overrides overall average
+- **Auto-eliminate any name scoring 3 or below on Dimension 6** — culturally tone-deaf names are trust-destroying
 
 #### Integration Rule
 If the top-scoring name from Phase 3/4 (creative evaluation) has a Compounding Defensibility Score below 6, ESCALATE: return to the treasure hunting pool and pull the next 5 candidates for this audit. The best name TODAY is not the best name if it depreciates.
@@ -112,8 +122,13 @@ Present:
 - [ ] All names presented in context (never on a list)
 - [ ] At least one name sits in the tension zone (polarizing)
 - [ ] Sound symbolism alignment verified for finalists
-- [ ] Compounding Defensibility Audit completed for all finalists
+- [ ] Compounding Defensibility Audit completed for all finalists (all 6 dimensions)
 - [ ] No finalist scores below 6 on Compounding Defensibility
 - [ ] No finalist scores below 4 on any single compounding dimension
+- [ ] **Dimension 6 (Lived Cultural Connotation) validated by someone with target-geography lived experience** — if no validator available, flag uncertainty explicitly in presentation
+- [ ] **Emotional Alignment Check**: Do the finalists carry the same emotional energy the client originally fell in love with? If client loves rhythm/vibration and you're presenting weather words, you've failed regardless of scores
+- [ ] **Confidence Calibration**: Score reflects output quality, not just process adherence. Ask: "Would I stake my reputation on recommending this name to a real person?" If hesitation, re-evaluate before presenting with high confidence
 
 > **Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+
+> **Added 2026-04-11**: Three new gate items after a naming sprint passed all original gates at 9.3/10 while producing culturally tone-deaf output. Process rigor ≠ output quality when inputs are flawed.

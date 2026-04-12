@@ -76,6 +76,16 @@ AI-shaped prose cannot score above 6 on Expert Standard regardless of methodolog
 
 **Fail signal (score < 6)**: "A domain expert would pick this apart in 30 seconds."
 
+#### Cultural Connotation Check (when output targets a specific geography or community) — Added 2026-04-11
+
+Before scoring Adversarial Resilience, ask: **"Would someone who has lived in the target geography/community for 10+ years find this culturally tone-deaf?"** This is not about being "woke" — it's about whether the output's core assumptions align with the target audience's lived experience.
+
+- If the user HAS lived experience in the target geography: **ask them** before assigning a high adversarial score. "Does this land for someone from [city/community]?" takes 10 seconds.
+- If the user does NOT have that experience: flag the gap explicitly. "I'm not confident about cultural connotation here — do you know someone who can gut-check this?"
+- **A confident presentation of culturally tone-deaf output is WORSE than a hesitant presentation of mediocre output.** The confidence gap is where trust dies.
+
+**Origin**: Naming sprint produced "Lake Effect" and "Thaw" for a Chicago event brand. Adversarial Resilience scored 9/10 because the methodology was rigorous. A 30-year Chicago resident scored it 2/10 because both names evoke winter misery. The methodology was sound. The output was wrong. This check closes that gap.
+
 ### Composite Quality Score
 
 **Quality Score = average of all three sub-scores**, rounded to nearest integer.
@@ -146,8 +156,8 @@ This is how the ratchet accumulates data. Without logging, the system cannot det
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-11 (chain_runner finalize for erica-mallet-brand-magnetism) |
-| **Activation Count** | 114 |
+| **Last Activated** | 2026-04-11 (chain_runner finalize for david-placek-naming) |
+| **Activation Count** | 115 |
 | **30-Day Review Date** | 2026-04-11 |
 
 **Update Rule**: When this protocol fires (3-point check on any output), update the "Last Activated" date and increment the count.
