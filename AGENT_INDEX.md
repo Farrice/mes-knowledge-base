@@ -34,6 +34,7 @@
 | `david-placek` | **Agent: David Placek** | david placek |
 | `diandra-escobar` | **diandra-escobar** | 4-bucket content funnel, attention redirection, audience acquisition, body-first writing process, content sourcing at scale, content system architecture, growth content formats, infrastructure architecture, linkedin algorithmic growth, strategic engagement |
 | `donald-miller` | **donald-miller** | business messaging, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, narrative marketing, peace framework mastery, storybrand, storybrand sb7 mastery, strategic messaging |
+| `dr-k` | **Dr. K (Alok Kanojia)** | consciousness architect |
 | `dr-kriukow` | **Dr. Kriukow** | agent configuration, ai detection mechanics, ai text humanization, meaning-first rewriting, platform-specific humanization, structural analysis |
 | `eric-roth` | **Eric Roth: Oscar-Level Writing Virtuoso** | oscar-level writing virtuoso |
 | `erica-mallet` | **Erica Mallet: Brand Magnetism Architect** | belief-based brand architecture, brand magnetism architect, differentiation engineering, enemy effect deployment, psychological loop creation, tone word quality filter |
@@ -45,7 +46,7 @@
 | `harry-dry` | **Harry Dry: Copywriting Precision Master** | conflict architecture, copywriting precision master, rewrite discipline, three rules evaluation, visual-verbal synthesis, zoom-in technique |
 | `heath-brothers` | **heath-brothers** | commander's intent extraction, concrete translation, emotional authenticity, idea stickiness, knowledge gap creation, message design, schema violation engineering |
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
-| `jason-fladlien` | **Jason Fladlien** | behavioral decoding, closing, high-status framing, high-status marketing, inertia breaking, time-tense shifting |
+| `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
 | `jeremy-haynes` | **Jeremy Haynes** | agent |
 | `jeremy-miner` | **Jeremy Miner: Identity-Based Persuasion Master** | frame/deframe/reframe engineering, gap building architecture, identity frame engineering, identity-based persuasion master, indirect framing, objection prevention, pre-frame architecture, reframe mastery, tonality mastery |
 | `jim-oshaughnessy` | **jim-oshaughnessy** | behavioral finance, cross-domain synthesis, four horsemen defense, human nature arbitrage, pre-fall/post-fall assessment, saturated intuition calibration, strategic thinking, wisdom transmission |
@@ -94,6 +95,7 @@
 | `sabri-suby` | **sabri-suby** | ad creation, ai-powered advertising and direct response marketing, direct response funnel, market validation, pain extraction, systematic scaling |
 | `sabrina-ramonov` | **Agent: Sabrina Ramonov** | sabrina ramonov |
 | `sam-goddard` | **Sam Goddard** | agent configuration, signature advantage |
+| `sam-parr` | **Sam Parr** | sam parr, taste acquisition • identity architecture • competitive moat |
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |
@@ -115,3 +117,4 @@
 | `vincent-hu` | **Vincent Hu** | agent, growth ecosystems, info business scaling, offer architecture |
 | `ward-farnsworth` | **ward-farnsworth** | agent configuration |
 | `wordsatscale` | **wordsatscale** | authority arbitrage, competition vacuum hunting, index velocity, lsi bypass, seo rapid ranking, speed-to-publish |
+| `wright-thompson` | **Wright Thompson: Narrative Journalism Virtuoso** | narrative journalism virtuoso |
