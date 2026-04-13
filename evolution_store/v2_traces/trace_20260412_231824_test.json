@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260412_231824",
+  "timestamp": "2026-04-12T23:18:24.670281",
+  "component": "test",
+  "operation": "chain_finalize",
+  "expert": "test",
+  "workflow": "test",
+  "quality": {
+    "composite": 8.0,
+    "intent_alignment": 8.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "Testing auto-memory hook integration",
+  "context": {
+    "output": "Sprint 5 auto-hooks integration test",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 6.85,
+      "delta": 0,
+      "message": "Insufficient data (2 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}
