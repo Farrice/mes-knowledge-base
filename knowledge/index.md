@@ -273,5 +273,17 @@
 - [03-content-to-lead-magnet](../extractions/jonathan-courtney/prompts/03-content-to-lead-magnet.md) — 913 words
 - [sample-003](expert-benchmarks/sales-psychology/sample-003.md) [dai-media] — 852 words
 
+## Synthesis (Cross-Domain)
+
+- [backward-dissolution-principle](knowledge/synthesis/backward-dissolution-principle.md)
+- [constraint-as-creative-input](knowledge/synthesis/constraint-as-creative-input.md)
+- [dwell-time-narrative-gravity](knowledge/synthesis/dwell-time-narrative-gravity.md)
+- [gap-sales-psychology-screenwriting-bridge](knowledge/synthesis/gap-sales-psychology-screenwriting-bridge.md)
+- [gap-seo-content-psychology-bridge](knowledge/synthesis/gap-seo-content-psychology-bridge.md)
+- [machine-readable-identity](knowledge/synthesis/machine-readable-identity.md)
+- [mechanism-over-outcome](knowledge/synthesis/mechanism-over-outcome.md)
+- [single-truth-convergence](knowledge/synthesis/single-truth-convergence.md)
+- [universal-proof-architecture](knowledge/synthesis/universal-proof-architecture.md)
+
 ---
 *Auto-maintained by `execution/knowledge_compiler.py`. Updated on every ingest, extraction, and compilation.*
