@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (383 Commands)
+# 🚀 Antigravity Workflows — Complete Index (384 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -605,6 +605,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/ship` | Quick content sprint — 1 expert, write, publish, auto-log. No perfectionism. |
 | `/deep-work` | Full chain strategic session — multi-expert, writers' room, complete quality gate |
 | `/build` | System improvement session — extractions, skills, architecture, auto-logged |
+| `/reflect` | Knowledge reflection pass — generate cross-domain synthesis articles from 240+ source knowledge base. Finds patterns, contradictions, and gaps nobody manually connected. Monthly or after 5+ extractions. |
 | `/maintenance` | Weekly intelligence check — Phases 2-4, agent health, research pulse |
 | `/4c-architect` | Set up fully context-loaded AI session with quality gates |
 | `/adversarial-refine` | Stress-test ideas through 5 adversarial attack vectors |
@@ -678,6 +679,7 @@ You don't need to remember command names. These common phrases automatically map
 | "let's ship" / "ship something" / "quick post" / "get it out" | `ship` |
 | "deep work" / "strategic piece" / "full chain" / "high-stakes content" | `deep-work` |
 | "build session" / "let's build" / "system work" / "extraction time" | `build` |
+| "reflect on knowledge" / "cross-domain patterns" / "synthesis pass" / "what connects these domains" / "run reflect" | `reflect` |
 | "run maintenance" / "system check" / "intelligence check" / "how are my agents" | `maintenance` |
 | "elevate my writing" / "cinematic content" / "Roth style" | `roth-content` |
 | "displacement copy" / "off-center CTA" / "Roth copy" | `roth-copy` |
