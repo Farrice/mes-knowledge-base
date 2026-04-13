@@ -1,7 +1,7 @@
 # Edition 04: Digital Nicotine
 
 **Publication**: Parallax
-**Subject line**: A jury just proved what your midnight doom-scroll already knew.
+**Subject line**: 2,000 families are suing Big Tech for addiction. You already know why.
 **Preview text**: The same reward loop that hooks you on loot boxes is running your feed.
 **CTA type**: Reply
 **Prompt pack**: The Attention Audit (4 prompts)
@@ -9,17 +9,13 @@
 
 ---
 
-On March 25th, a jury in Los Angeles awarded $6 million to a 20-year-old who had been addicted to Instagram and YouTube since he was six.
+Right now, over 2,000 families are suing Meta, YouTube, TikTok, and Snapchat for designing products that addict children. Forty-two state attorneys general have filed suit. Congress has hauled executives to the stand. Internal documents leaked from Meta show executives tracking strategies to, and I'm quoting the filings here, "bring in tweens." Not "reach younger audiences." Not "expand the user base." Bring. In. Tweens. The way a dealer talks about a new block.
 
-Six years old. 2012. I was 23 and grinding through personal training certifications, and this kid was already being fed into the machine.
+Jon Haidt called it "the rewiring of childhood." The US Surgeon General issued an advisory. The phrase gaining traction in congressional testimony is "digital nicotine."
 
-The jury found Meta and YouTube negligent. Not just negligent. *Designed to addict*. Internal documents showed Meta executives tracking strategies to, and I'm quoting the filings here, "bring in tweens." Not "reach younger audiences." Not "expand the user base." Bring. In. Tweens. The way a dealer talks about a new block.
+And all I keep thinking is: *we already knew this.*
 
-The phrase going around now is "digital nicotine." The press is calling it Big Tech's Big Tobacco moment. Over 2,000 similar lawsuits are pending.
-
-And all I could think, reading that verdict, was: *we already knew this.*
-
-Every single one of us already knew.
+Every single one of us already knew. Not because we read the lawsuits. Because we live it every night at midnight when we pick up our phone for "one quick check" and surface 40 minutes later wondering where the time went.
 
 ---
 
@@ -75,7 +71,7 @@ And then there's the version where you pick up your phone to check one notificat
 
 The first version is a tool. The second version is a tool using you.
 
-The jury in LA put a dollar amount on that distinction: $6 million. But the real cost is the thing money can't calculate. The hours. The creative energy. The presence you didn't bring to the conversation with your kid or your partner because some algorithm decided what you needed to see next.
+The lawsuits are trying to put a dollar amount on that distinction. But the real cost is the thing money can't calculate. The hours. The creative energy. The presence you didn't bring to the conversation with your kid or your partner because some algorithm decided what you needed to see next.
 
 ---
 
@@ -85,7 +81,7 @@ The prompt pack for this edition is called **The Attention Audit**. Four prompts
 
 One hour doesn't sound like much. But one hour a day, redirected from consumption to creation, is 365 hours a year. That's fifteen 24-hour days. That's a book. A business. A skill that compounds. A presence your family can feel.
 
-A jury proved what you already knew. The question is what you do with the knowing.
+Two thousand families are suing because they already know what you know. The question is what you do with the knowing.
 
 *(Prompt pack follows — see [prompt-packs/04-attention-audit.md](../prompt-packs/04-attention-audit.md))*
 

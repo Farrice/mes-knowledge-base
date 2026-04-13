@@ -1,243 +1,113 @@
 # Intent Pipeline (MANDATORY)
 
-> **Purpose**: Single pipeline for processing every user request — from raw thought to expert execution.
-> **Replaces**: The 3-way collision between `intent_refiner.md`, `pre_flight_validation.md`, and `expert_auto_routing.md`.
-> **Effective**: 2026-03-02
+> Single pipeline for processing every user request. Replaces intent_refiner, pre_flight_validation, expert_auto_routing.
 
 ---
 
-## The Pipeline (4 Stages, Always in Order)
+## Stage 1: SCORE (Rate 1-5)
 
-### Stage 1: SCORE
++1 each: specific **deliverable** | defined **audience** | stated **context** | clear **end state** | **specific language**
 
-Rate intent sharpness 1-5. Award 1 point for each:
+| Score | Next Step |
+|-------|-----------|
+| 1-2 | → Stage 2 (full DICE) |
+| 3 | → Stage 2 (present sharpened version, confirm) |
+| 4-5 | → Stage 3 (route directly) |
 
-- [ ] Has a specific **deliverable** type (copy, strategy, research, system, content)
-- [ ] Has a defined **audience** (who consumes this)
-- [ ] Has **context** or constraints stated
-- [ ] Has a clear **end state** / success criteria
-- [ ] Uses **specific language** (numbers, names, concrete nouns) vs. abstract
+## Stage 2: SHARPEN (DICE on missing dimensions only, 1 round max)
 
-| Score | Label | Next Step |
-|-------|-------|-----------|
-| **1** | Raw thought | → Stage 2 (full DICE) |
-| **2** | Directional | → Stage 2 (2-3 DICE questions) |
-| **3** | Formed | → Stage 2 (present sharpened version, confirm) |
-| **4** | Sharp | → Stage 3 (confirm briefly, route) |
-| **5** | Razor | → Stage 3 (execute immediately) |
-
-### Stage 2: SHARPEN
-
-Run DICE on **missing dimensions only**. One round of questions max.
-
-- **D — Deliverable**: "What concrete thing do you want in your hands when this is done?"
-- **I — Intended Audience**: "Who specifically will consume or be affected?"
+- **D — Deliverable**: "What concrete thing do you want when this is done?"
+- **I — Intended Audience**: "Who specifically will consume this?"
 - **C — Context**: "Any constraints, deadlines, or prior work?"
 - **E — End State**: "What does 'nailed it' look like?"
 
-**Rules:**
-- Do NOT ask all 4 if some are already clear from context
-- Fill in what you can infer, then confirm: "Here's what I heard — is this right?"
-- If Score 1-2 and multiple valid interpretations exist, present 2-3 options (from pre-flight pattern)
-- Anti-interrogation: one concise block, not a 20-question survey
+Rules: Don't ask all 4 if some are clear. Fill in inferences, confirm. Anti-interrogation: one concise block. After sharpening, present refined intent with score change.
 
-**After sharpening**, present:
-```
-## Intent Refined
+## Stage 3: ROUTE
 
-**What you said**: "[original]"
-**Score**: X/5 → Y/5
+**Step 1 — Domain match** (primary tool: `python3 execution/expert_router.py route "query"`):
 
-**Sharpened objective**:
-"[One-paragraph razor-sharp version]"
-
-Ready to route? Or adjust?
-```
-
-### Stage 3: ROUTE
-
-Match the sharpened intent to the right experts. Use the domain detection table below.
-
-**Step 1 — Domain match:**
-
-| Request Type | Signals | Default Experts | Registry Domain |
+| Request Type | Signals | Default Route | Domain |
 |:---|:---|:---|:---|
-| Research/Intelligence (Deep) | "deep research", "analyze market", "competitive intel", "strategic research", "market entry", "avatar research", "product research", "zero to expert" | `/deep-research` workflow + Manus.AI | 12 |
-| Research/Intelligence (Standard) | "research", "find out", "quick lookup", "fact check" | `/research-topic` | 12 |
-| Content Creation | "write", "create", "draft", "content" | Appropriate content expert(s) | 2, 7 |
-| Strategy/Decision | "should I", "what's the best", "how do I approach" | Jim O'Shaughnessy + domain experts | 12 |
-| Copywriting | "sales page", "email", "headline", "convert" | Cardinal Mason + Harry Dry | 1 |
-| Personal Brand | "LinkedIn", "positioning", "brand", "authority" | Lara Acosta + Caleb Ralston | 3 |
-| Ghostwriting | "ghostwrite", "write as", "voice capture", "proof run" | Ghostwriting Voice Engine (`/ghostwrite`) | — |
-| Product/Offer | "product", "offer", "pricing", "launch" | Nicolas Cole + Monk.AI | 8 |
-| Sales/Persuasion | "objection", "close", "persuade", "sell" | Jeremy Miner + Jason Fladlien | 4 |
-| Storytelling | "story", "narrative", "hook", "engage" | Shaan Puri + Lucas Alpay | 7 |
-| Video/Media | "video", "TikTok", "cinematic", "storyboard" | Seena Rez + Tao Prompts | 11 |
-| AI/Automation | "automate", "workflow", "agent", "AI", "Claude" | Nick Saraev + Boris | 6 |
-| SEO/Search | "rank", "SEO", "keywords", "traffic", "answer engine" | Nathan Gotch + Ethan Smith | 9 |
-| Design/Visual | "design", "visual", "aesthetic", "website", "typography" | Oren + Kittl + Andy Lo | 10 |
-| Audience/Growth | "grow", "newsletter", "subscriber", "community" | Tyler Denk + Dan Koe | 13 |
-| Mindset/Messaging | "stuck", "blocked", "mindset", "messaging", "movement" | Jeremy Haynes + Heath Brothers | 14 |
-| Consumer Research | "customer", "persona", "buyer", "psychology" | Dai Media + Kallaway | 5 |
-| Monetization | "monetize", "revenue", "recurring", "service" | Paul James + Sabrina Ramonov | 8 |
-| Advertising | "ads", "paid", "campaign", "Facebook", "Google Ads" | Sabri Suby | 15 |
-| Real Estate | "real estate", "listing", "property" | Joshua Smith | 15 |
-| Launch/Innovation | "launch", "validate", "early adopter" | Seena Rez + Samuel Thompson | 8, 12 |
+| Research (Deep) | deep research, analyze market, competitive intel | `/deep-research` + Manus.AI | 12 |
+| Research (Standard) | research, find out, fact check | `/research-topic` | 12 |
+| Content Creation | write, create, draft, content | Content experts | 2, 7 |
+| Strategy/Decision | should I, what's the best, how do I approach | Jim O'Shaughnessy + domain | 12 |
+| Copywriting | sales page, email, headline, convert | Cardinal Mason + Harry Dry | 1 |
+| Personal Brand | LinkedIn, positioning, brand, authority | Lara Acosta + Caleb Ralston | 3 |
+| Ghostwriting | ghostwrite, voice capture, proof run | `/ghostwrite` | — |
+| Product/Offer | product, offer, pricing, launch | Nicolas Cole + Monk.AI | 8 |
+| Sales/Persuasion | objection, close, persuade, sell | Jeremy Miner + Jason Fladlien | 4 |
+| Storytelling | story, narrative, hook, engage | Shaan Puri + Lucas Alpay | 7 |
+| Video/Media | video, TikTok, cinematic | Seena Rez + Tao Prompts | 11 |
+| AI/Automation | automate, workflow, agent, AI | Nick Saraev + Boris | 6 |
+| SEO/Search | rank, SEO, keywords, traffic | Nathan Gotch + Ethan Smith | 9 |
+| Design/Visual | design, visual, website, typography | Oren + Kittl + Andy Lo | 10 |
+| Audience/Growth | grow, newsletter, subscriber | Tyler Denk + Dan Koe | 13 |
+| Mindset/Messaging | stuck, blocked, mindset, messaging | Jeremy Haynes + Heath Brothers | 14 |
+| Consumer Research | customer, persona, buyer, psychology | Dai Media + Kallaway | 5 |
+| Monetization | monetize, revenue, recurring | Paul James + Sabrina Ramonov | 8 |
+| Advertising | ads, paid, campaign, Facebook | Sabri Suby | 15 |
+| Real Estate | real estate, listing, property | Joshua Smith | 15 |
+| Launch/Innovation | launch, validate, early adopter | Seena Rez + Samuel Thompson | 8, 12 |
 
-> **Full routing trees**: See `DOMAIN_REGISTRY.md` (15 domains, 94 agents with swim lanes).
+Full routing trees: `DOMAIN_REGISTRY.md`
 
-**Step 2 — Determine mode (Output vs. Expertise):**
+**Step 2 — Mode:**
 
 | Mode | Signals | Effect |
 |:---|:---|:---|
-| **OUTPUT** | "write me", "create", "build", "draft", "make" — wants a deliverable | Load at Tier 1-2, produce the artifact |
-| **EXPERTISE** | "how should I", "what's the best way", "advise me", "review" — wants thinking | Load at Tier 0-1, present expert analysis/recommendations |
-| **HYBRID** | "help me with" — could go either way | Ask: "Do you want me to produce [X] or advise on the approach?" |
+| OUTPUT | write me, create, build, draft | Load T1-2, produce artifact |
+| EXPERTISE | how should I, advise, review | Load T0-1, expert analysis |
+| HYBRID | help me with | Ask: produce or advise? |
 
-This distinction prevents over-producing when the user wants advice, and under-delivering when they want an artifact.
+**Step 3 — Multi-domain?** Select ensemble via `DOMAIN_REGISTRY.md`.
 
-**Step 3 — Multi-domain?** If request spans 2+ domains, select an ensemble. Reference `DOMAIN_REGISTRY.md` for compound combinations and force-multiplier pairings.
+**Step 3b — Gap Check:** Verify expert coverage → `invocation-cards.md` → `DOMAIN_REGISTRY.md` → if none: trigger `directives/expertise-gap-protocol.md`.
 
-**Step 3b — Gap Check (after domain match):**
+**Step 4 — Load via Context Engine** (semantic-first: `context_retriever.py search "query"`, fallback: T0→T1→T2→T3). Full protocol: `directives/agent-loading-protocol.md`.
 
-After matching intent to domain, verify expert coverage exists:
-1. Scan `agents/_framework/invocation-cards.md` for relevant experts
-2. If no match: scan `DOMAIN_REGISTRY.md` swim lanes
-3. If still no match: **trigger Expertise Gap Protocol** (`directives/expertise-gap-protocol.md`)
-   - Classify severity (Low / Medium / High)
-   - Execute appropriate mode (Advisory / Guided / Autonomous)
-   - If extraction resolves the gap, re-run ROUTE with the new expert loaded
-
-**Gap Check skip**: system/meta tasks only. "Close enough" (>70% overlap) is not a skip — route to the closest expert and note the gap for future extraction.
-
-**Step 4 — Load experts via Context Engine:**
-1. **Tier 0**: Read invocation cards (~50 tokens each) for routing confirmation
-2. **Tier 1**: Read SKILL.md + specific workflow (~1,350 tokens) for clear tasks
-3. **Tier 2**: Add genius.md (~2,550 tokens) for creative/complex work
-4. **Tier 3**: Spawn sub-agent for 3+ experts or 10+ files loaded
-
-Full loading protocol: `directives/agent-loading-protocol.md`
-
-**Step 5 — Log routing decision (fire-and-forget):**
-
-After routing completes, log the decision for the intelligence layer:
-
+**Step 5 — Log routing** (fire-and-forget, never block for analytics):
 ```bash
-python execution/routing_intelligence.py log \
-    --request "[1-line summary of user request]" \
-    --score [intent_score] \
-    --domain "[N]-[slug]" \
-    --experts "[comma-separated expert names]" \
-    --tier [0-3] \
-    --mode [output|expertise|hybrid] \
-    --workflow "[skill/workflow path if applicable]" \
-    --session "[session_id]" \
-    [--ensemble if multi-expert] \
-    [--pairing "Pairing Name" if compound]
+python execution/routing_intelligence.py log --request "[summary]" --score [N] --domain "[slug]" --experts "[names]" --tier [N] --mode [mode]
 ```
 
-If the script fails, continue — never block routing for analytics. Skip logging for: trivial questions, system commands, follow-ups within an already-logged route.
+## Stage 4: PRESENT (for complex/multi-expert only)
 
-Dashboard: `/routing-intelligence`. Quick feedback: `/rate`.
-
-### Stage 4: PRESENT
-
-For complex or multi-step requests, present before executing:
-
-```
-## Expert Recommendation
-
-**Domain**: [detected domain(s)]
-
-| Expert | Role |
-|:---|:---|
-| **[Expert 1]** | [1-line reason] |
-| **[Expert 2]** | [1-line reason] |
-
-**Approach**: [How this will be tackled]
-
-Proceed? Or swap anyone?
-```
-
-**Skip PRESENT for**: single-expert tasks where the user has previously approved this expert in the current session, or "just do it." Always show for multi-expert ensembles or first-time expert deployment.
+Show domain, expert table, approach. Skip for: single-expert tasks with prior approval, or "just do it."
 
 ---
 
-## Step Narrowing (Pipeline Always Runs)
+## Step Narrowing
 
-The pipeline ALWAYS runs. These conditions shorten specific steps — they never skip the pipeline:
+| Condition | Steps shortened |
+|-----------|----------------|
+| Score 4-5 | Skip Stage 2 |
+| Follow-up, same plan | Reuse Stage 3 route |
+| "Just do it" | Skip Stage 2 + PRESENT |
 
-| Condition | Steps shortened | Steps still required |
-|-----------|----------------|---------------------|
-| Score 4-5 | Skip Stage 2 | 1, 3, 4 |
-| Bug fix, clear scope | Skip Stage 2 | 1, 3 (verify if expert needed) |
-| Factual question, no expert domain | Skip Stages 3-4 | 1, 2 (if vague) |
-| Follow-up, same plan | Skip Stage 2, reuse Stage 3 route | 1 |
-| "Just do it" | Skip Stage 2, skip PRESENT block | 1, 3, 4 |
-
-**Removed**: "Trivial single-line tasks" is not a valid narrowing condition. If the request touches an expert domain (content, copy, strategy, research), all stages fire.
+If request touches expert domain, all stages fire.
 
 ---
 
-## Proactive Deployment (From FARRICE.md)
-
-Don't wait for slash commands. When conversational cues match a domain:
+## Proactive Deployment
 
 | Cue | Auto-Action |
 |-----|-------------|
-| Mentions LinkedIn, posts, content, hooks | Route to content/brand experts (Domain 2, 3, 13) |
-| Working on sales page, offer page, email | Route to copywriting experts (Domain 1) |
-| Asks about positioning, brand, differentiation | Route to brand experts (Domain 3, 12) |
-| Discusses products, pricing, monetization | Route to product experts (Domain 8) |
-| Mentions SEO, ranking, traffic, blog | Route to SEO experts (Domain 9) |
-| Discusses video, TikTok, AI video | Route to video/content experts (Domain 11, 2) |
-| Mentions AI tools, automation, agents, Claude | Route to AI experts (Domain 6) |
-| Says "I'm stuck", mindset, blocked, afraid | Route to mindset experts (Domain 14) |
-| Discussing design, website, visual identity | Route to design experts (Domain 10) |
-| Pastes transcript or mentions "I watched this video" | Run `/extract` |
-| Says things feel broken, cluttered, slow | Run `/system-audit` |
-| Excited, firing off ideas without clear deliverable | Pause → reflect intent → sharpen → execute |
+| LinkedIn, posts, content, hooks | Content/brand (2, 3, 13) |
+| Sales page, offer page, email | Copywriting (1) |
+| Positioning, brand, differentiation | Brand (3, 12) |
+| Products, pricing, monetization | Product (8) |
+| SEO, ranking, traffic | SEO (9) |
+| Video, TikTok, AI video | Video (11, 2) |
+| AI tools, automation, agents | AI (6) |
+| Stuck, blocked, afraid | Mindset (14) |
+| Design, website, visual identity | Design (10) |
+| Pastes transcript / "I watched video" | `/extract` |
+| Feels broken, cluttered, slow | `/system-audit` |
+| Excited, firing off ideas | Pause → sharpen → execute |
 
-**Fallback**: When unsure which workflow, run `/recommend`.
-
----
-
-## Mid-Flight Refinement
-
-This pipeline also works mid-conversation (what `/refine-intent` triggers):
-- Same 4 stages, but start from current context, not fresh
-- If the session goal changed, update session state
-- If new experts needed, re-route
-
----
-
-## Reference Docs (for deep protocol details)
-
-| Detail | Reference |
-|--------|-----------|
-| DICE protocol specifics | Stage 2 above (full DICE questions inline) |
-| Domain swim lanes (15 domains, 94 agents) | `DOMAIN_REGISTRY.md` |
-| Compound combinations & handoff chains | `DOMAIN_REGISTRY.md` |
-| Domain detection signals (quick-match) | `directives/expert_auto_routing.md` |
-| McKinsey-grade output standard | `directives/expert_auto_routing.md` |
-| Expert loading tiers | `directives/agent-loading-protocol.md` |
-| Expertise gap self-healing | `directives/expertise-gap-protocol.md` |
-| High-leverage expert combos | See table below |
-
----
-
-## High-Leverage Expert Combos
-
-| Goal | Best Combo | Why |
-|------|-----------|-----|
-| Killer sales copy | cardinal-mason + harry-dry + alen-sultanic | System + concrete + psychology |
-| Viral content | seena-rez + shaan-puri + kallaway | Hooks + story + retention |
-| LinkedIn authority | lara-acosta + nicolas-cole + dan-koe | Platform + sentences + philosophy |
-| Product launch | samuel-thompson + daniel-priestley + jeremy-miner | Economics + demand + close |
-| Brand positioning | erica-mallet + tom-noske + alex-copper | Belief + magnetism + visual |
-| Strategic analysis | jim-oshaughnessy + rory-sutherland + manus-ai | Cross-domain + behavioral + research |
-| Storytelling | shaan-puri + lucas-alpay + jonathan-franzen | Emotion + structure + depth |
-| AI consulting sales | lindsay + monk-ai + sean-kochel | Outreach + offer + strategy |
+Fallback: `/recommend`
 
 ---
 
@@ -245,13 +115,8 @@ This pipeline also works mid-conversation (what `/refine-intent` triggers):
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-11 (should have fired — retroactive diagnosis) |
-| **Activation Count** | 0 (still 0 — was NOT run, this is the failure marker) |
+| **Last Activated** | 2026-03-11 |
+| **Activation Count** | 0 |
 | **30-Day Review Date** | 2026-04-11 |
 
-**Update Rule**: When this pipeline fires (scoring + routing), update the date and increment count.
-
----
-
-*Created: 2026-03-02 | Replaces: intent_refiner (routing), pre_flight_validation (entirely), expert_auto_routing (intent handling)*
-*Classification: Mandatory Orchestration Protocol*
+*Created: 2026-03-02 | Compressed: 2026-04-13*

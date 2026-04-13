@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260412_115638",
+  "timestamp": "2026-04-12T11:56:38.593050",
+  "component": "lara-acosta-linkedin-growth",
+  "operation": "chain_finalize",
+  "expert": "lara-acosta",
+  "workflow": "slay-narrative-engine",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "Each post follows 8-word rehook architecture, F-shape formatting, SLAY progression, Farrice voice (show not tell, no guru energy, comedy beats, specific over general). No structural tropes repeated across 6 posts. Disney principle enforced. Each post delivers standalone value independent of newsletter. CTA questions calibrated for comment generation.",
+  "context": {
+    "output": "6 LinkedIn cross-promotion posts (3 per edition) for Parallax Editions 4-5. Edition 4 (Digital Nicotine): Variant A = variable reward loop insight, Variant B = Attention Audit prompt teaser, Variant C",
+    "task_type": "Content",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 9.7,
+      "delta": 0,
+      "message": "Insufficient data (2 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}
