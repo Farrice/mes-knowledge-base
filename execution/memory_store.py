@@ -98,6 +98,36 @@ def get_db():
         CREATE INDEX IF NOT EXISTS idx_memories_created ON memories(created_at);
         CREATE INDEX IF NOT EXISTS idx_memories_accessed ON memories(last_accessed);
     """)
+
+    # FTS5 full-text search index
+    try:
+        conn.execute("""
+            CREATE VIRTUAL TABLE IF NOT EXISTS memories_fts USING fts5(
+                content, metadata,
+                content='memories',
+                content_rowid='rowid'
+            )
+        """)
+        # Triggers to keep FTS in sync
+        conn.executescript("""
+            CREATE TRIGGER IF NOT EXISTS memories_ai AFTER INSERT ON memories BEGIN
+                INSERT INTO memories_fts(rowid, content, metadata)
+                VALUES (new.rowid, new.content, new.metadata);
+            END;
+            CREATE TRIGGER IF NOT EXISTS memories_ad AFTER DELETE ON memories BEGIN
+                INSERT INTO memories_fts(memories_fts, rowid, content, metadata)
+                VALUES ('delete', old.rowid, old.content, old.metadata);
+            END;
+            CREATE TRIGGER IF NOT EXISTS memories_au AFTER UPDATE ON memories BEGIN
+                INSERT INTO memories_fts(memories_fts, rowid, content, metadata)
+                VALUES ('delete', old.rowid, old.content, old.metadata);
+                INSERT INTO memories_fts(rowid, content, metadata)
+                VALUES (new.rowid, new.content, new.metadata);
+            END;
+        """)
+    except Exception:
+        pass  # FTS5 may not be available on all SQLite builds; fall back gracefully
+
     conn.commit()
     return conn
 
@@ -106,15 +136,17 @@ def get_db():
 # CORE OPERATIONS
 # ─────────────────────────────────────────────────────────
 
-def store_memory(tier, category, content, metadata=None, source_ids=None):
+def store_memory(tier, category, content, metadata=None, source_ids=None, silent=False):
     """Store a new memory in the specified tier."""
     if tier not in VALID_CATEGORIES:
-        print(f"Error: Invalid tier '{tier}'. Valid: {list(VALID_CATEGORIES.keys())}")
+        if not silent:
+            print(f"Error: Invalid tier '{tier}'. Valid: {list(VALID_CATEGORIES.keys())}")
         return None
 
     if category not in VALID_CATEGORIES[tier]:
-        print(f"Error: Invalid category '{category}' for tier '{tier}'.")
-        print(f"Valid categories: {VALID_CATEGORIES[tier]}")
+        if not silent:
+            print(f"Error: Invalid category '{category}' for tier '{tier}'.")
+            print(f"Valid categories: {VALID_CATEGORIES[tier]}")
         return None
 
     conn = get_db()
@@ -136,8 +168,14 @@ def store_memory(tier, category, content, metadata=None, source_ids=None):
     conn.commit()
     conn.close()
 
-    print(f"Stored [{tier}/{category}] id={memory_id} freshness={freshness}")
+    if not silent:
+        print(f"Stored [{tier}/{category}] id={memory_id} freshness={freshness}")
     return memory_id
+
+
+def store_memory_silent(tier, category, content, metadata=None, source_ids=None):
+    """Store a memory without printing — for programmatic use from chain_runner etc."""
+    return store_memory(tier, category, content, metadata, source_ids, silent=True)
 
 
 def recall_memories(tier=None, category=None, top_k=10, include_dormant=False):
@@ -178,9 +216,44 @@ def recall_memories(tier=None, category=None, top_k=10, include_dormant=False):
 
 
 def search_memories(query_text, top_k=5, tier=None):
-    """Search memories by content similarity (keyword-based for MVP)."""
+    """Search memories using FTS5 BM25 ranking, with keyword fallback."""
     conn = get_db()
 
+    # Try FTS5 first (ranked BM25 scoring)
+    try:
+        fts_sql = """
+            SELECT m.*, rank AS fts_rank
+            FROM memories_fts fts
+            JOIN memories m ON m.rowid = fts.rowid
+            WHERE memories_fts MATCH ?
+        """
+        fts_params = [query_text]
+
+        if tier:
+            fts_sql += " AND m.tier = ?"
+            fts_params.append(tier)
+
+        fts_sql += " AND m.freshness >= ?"
+        fts_params.append(FRESHNESS_COLD)
+
+        fts_sql += " ORDER BY rank LIMIT ?"
+        fts_params.append(top_k)
+
+        rows = conn.execute(fts_sql, fts_params).fetchall()
+
+        if rows:
+            results = []
+            for row in rows:
+                d = dict(row)
+                # BM25 rank is negative (lower = better), invert for display
+                score = abs(d.pop("fts_rank", 0)) * (0.5 + d["freshness"] / 10.0)
+                results.append((round(score, 2), d))
+            conn.close()
+            return results
+    except Exception:
+        pass  # FTS5 not available or query syntax issue, fall back
+
+    # Fallback: keyword-based search
     sql = "SELECT * FROM memories WHERE freshness >= ?"
     params = [FRESHNESS_COLD]
 
@@ -194,30 +267,19 @@ def search_memories(query_text, top_k=5, tier=None):
     if not rows:
         return []
 
-    # Simple keyword scoring
     query_words = set(query_text.lower().split())
     scored = []
 
     for row in rows:
         content_lower = row["content"].lower()
         content_words = set(content_lower.split())
-
-        # Exact substring bonus
         substring_score = sum(3 for w in query_words if w in content_lower and len(w) > 3)
-
-        # Word overlap
         overlap = len(query_words & content_words)
-
-        # Category/metadata bonus
         meta = json.loads(row["metadata"]) if row["metadata"] else {}
         meta_str = json.dumps(meta).lower()
         meta_bonus = sum(1 for w in query_words if w in meta_str)
-
         total_score = substring_score + overlap + meta_bonus
-
-        # Weight by freshness
         total_score *= (0.5 + row["freshness"] / 10.0)
-
         if total_score > 0:
             scored.append((total_score, dict(row)))
 
@@ -306,6 +368,138 @@ def boost_memory(memory_id, amount):
     else:
         print(f"Memory {memory_id} not found.")
     conn.close()
+
+
+# ─────────────────────────────────────────────────────────
+# DEDUPLICATION & PRUNING
+# ─────────────────────────────────────────────────────────
+
+def _jaccard(a, b):
+    """Jaccard similarity between two strings."""
+    sa = set(a.lower().split())
+    sb = set(b.lower().split())
+    if not sa or not sb:
+        return 0.0
+    return len(sa & sb) / len(sa | sb)
+
+
+def deduplicate(threshold=0.7, dry_run=False):
+    """Find and merge near-duplicate memories (Jaccard > threshold)."""
+    conn = get_db()
+    rows = conn.execute("SELECT * FROM memories ORDER BY freshness DESC").fetchall()
+    memories = [dict(r) for r in rows]
+    conn.close()
+
+    if len(memories) < 2:
+        print("Not enough memories to deduplicate.")
+        return []
+
+    seen = set()
+    duplicates = []
+
+    for i, a in enumerate(memories):
+        if a["id"] in seen:
+            continue
+        for j in range(i + 1, len(memories)):
+            b = memories[j]
+            if b["id"] in seen:
+                continue
+            if a["tier"] != b["tier"]:
+                continue
+            sim = _jaccard(a["content"], b["content"])
+            if sim >= threshold:
+                # Keep the one with higher freshness (a, since sorted DESC)
+                duplicates.append({
+                    "keep": a["id"],
+                    "remove": b["id"],
+                    "similarity": round(sim, 3),
+                    "keep_preview": a["content"][:80],
+                    "remove_preview": b["content"][:80],
+                })
+                seen.add(b["id"])
+
+    if not duplicates:
+        print("No duplicates found.")
+        return []
+
+    print(f"Found {len(duplicates)} duplicate pair(s):\n")
+    for d in duplicates:
+        print(f"  KEEP   [{d['keep']}]: {d['keep_preview']}...")
+        print(f"  REMOVE [{d['remove']}]: {d['remove_preview']}...")
+        print(f"  Similarity: {d['similarity']}\n")
+
+    if dry_run:
+        print("(dry run — no changes made)")
+    else:
+        conn = get_db()
+        for d in duplicates:
+            conn.execute("DELETE FROM memories WHERE id = ?", (d["remove"],))
+        conn.commit()
+        conn.close()
+        print(f"Removed {len(duplicates)} duplicate(s).")
+
+    return duplicates
+
+
+def prune_cold(dry_run=False):
+    """Permanently remove memories below FRESHNESS_COLD threshold."""
+    conn = get_db()
+    rows = conn.execute(
+        "SELECT id, tier, category, content, freshness FROM memories WHERE freshness < ? AND pinned = 0",
+        (FRESHNESS_COLD,)
+    ).fetchall()
+
+    if not rows:
+        print("No cold memories to prune.")
+        return 0
+
+    print(f"Found {len(rows)} cold memory/memories:\n")
+    for r in rows:
+        print(f"  [{r['id']}] {r['tier']}/{r['category']} (freshness: {r['freshness']:.4f})")
+        print(f"    {r['content'][:100]}...\n")
+
+    if dry_run:
+        print("(dry run — no changes made)")
+        conn.close()
+        return len(rows)
+
+    conn.execute("DELETE FROM memories WHERE freshness < ? AND pinned = 0", (FRESHNESS_COLD,))
+    conn.commit()
+    conn.close()
+    print(f"Pruned {len(rows)} cold memory/memories.")
+    return len(rows)
+
+
+def batch_store(file_path):
+    """Batch-store memories from a JSON file.
+
+    Expected format: [{"tier": ..., "category": ..., "content": ..., "metadata": {}}, ...]
+    """
+    with open(file_path) as f:
+        items = json.load(f)
+
+    if not isinstance(items, list):
+        print("Error: JSON file must contain an array of memory objects.")
+        return 0
+
+    stored = 0
+    for item in items:
+        tier = item.get("tier")
+        category = item.get("category")
+        content = item.get("content")
+        metadata = item.get("metadata", {})
+        source_ids = item.get("source_ids", [])
+
+        if not all([tier, category, content]):
+            print(f"  Skipping incomplete entry: {json.dumps(item)[:80]}")
+            continue
+
+        mid = store_memory(tier, category, content, metadata, source_ids)
+        if mid:
+            stored += 1
+
+    print(f"\nBatch complete: {stored}/{len(items)} memories stored.")
+    return stored
 
 
 # ─────────────────────────────────────────────────────────
@@ -473,6 +667,19 @@ def main():
     boost_p.add_argument("memory_id")
     boost_p.add_argument("amount", type=float)
 
+    # deduplicate
+    dedup_p = sub.add_parser("deduplicate", help="Find and merge near-duplicate memories")
+    dedup_p.add_argument("--threshold", type=float, default=0.7, help="Jaccard similarity threshold (0-1)")
+    dedup_p.add_argument("--dry-run", action="store_true", help="Preview without deleting")
+
+    # prune
+    prune_p = sub.add_parser("prune", help="Remove cold memories permanently")
+    prune_p.add_argument("--dry-run", action="store_true", help="Preview without deleting")
+
+    # batch-store
+    batch_p = sub.add_parser("batch-store", help="Batch-store from JSON file")
+    batch_p.add_argument("file", help="Path to JSON file with memory array")
+
     # stats
     sub.add_parser("stats", help="Show memory statistics")
 
@@ -523,6 +730,15 @@ def main():
 
     elif args.command == "boost":
         boost_memory(args.memory_id, args.amount)
+
+    elif args.command == "deduplicate":
+        deduplicate(threshold=args.threshold, dry_run=args.dry_run)
+
+    elif args.command == "prune":
+        prune_cold(dry_run=args.dry_run)
+
+    elif args.command == "batch-store":
+        batch_store(args.file)
 
     elif args.command == "stats":
         show_stats()

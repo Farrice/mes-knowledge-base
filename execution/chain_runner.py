@@ -70,6 +70,13 @@ try:
 except ImportError:
     _HAS_EVO_TRACER = False
 
+# Import sovereign memory store for auto-hooks
+try:
+    from memory_store import store_memory_silent
+    _HAS_MEMORY_STORE = True
+except ImportError:
+    _HAS_MEMORY_STORE = False
+
 
 # Quality Gate thresholds (from directives/quality_gate.md)
 COMPOSITE_PASS_THRESHOLD = 7
@@ -319,6 +326,57 @@ def finalize(
     except Exception as e:
         result["v2_trace"] = False
         result["trace_error"] = str(e)
+
+    # ── Step 9: Auto-store sovereign memory ──────────────────────
+    if _HAS_MEMORY_STORE:
+        try:
+            mem_meta = {
+                "source": "chain_runner",
+                "expert": expert,
+                "skill": skill,
+                "workflow": workflow,
+                "task_type": task_type,
+                "composite": composite,
+                "status": status,
+                "experiment_tag": experiment_tag,
+            }
+
+            # Always store an episodic/milestone memory for the output
+            mid = store_memory_silent(
+                tier="episodic",
+                category="milestone",
+                content=f"[{status}] {task_type}: {output_description[:200]} (composite: {composite}/10, expert: {expert or 'n/a'}, skill: {skill or 'n/a'})",
+                metadata=mem_meta,
+            )
+            result["memory_id"] = mid
+
+            # On FAIL: also store an error memory capturing failure dimensions
+            if not passed:
+                fail_content = f"QUALITY GATE FAIL: {output_description[:150]}. Failed dimensions: {', '.join(failed_dimensions)}. Composite: {composite}/10."
+                if notes:
+                    fail_content += f" Notes: {notes[:100]}"
+                store_memory_silent(
+                    tier="episodic",
+                    category="error",
+                    content=fail_content,
+                    metadata={**mem_meta, "failed_dimensions": failed_dimensions},
+                )
+                result["memory_error_stored"] = True
+
+            # On regression: store a semantic/error_pattern memory
+            reg = result.get("regression_check", {})
+            if reg.get("regression_detected"):
+                reg_content = f"REGRESSION: {skill or expert} dropped from baseline {reg.get('baseline', '?')} to {composite}/10. {reg.get('message', '')}"
+                store_memory_silent(
+                    tier="semantic",
+                    category="pattern",
+                    content=reg_content,
+                    metadata={**mem_meta, "regression": reg},
+                )
+                result["memory_regression_stored"] = True
+
+        except Exception as e:
+            result["memory_store_error"] = str(e)
 
     return result
 
