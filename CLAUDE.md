@@ -109,6 +109,8 @@ python execution/knowledge_compiler.py archive "query" result.md --domain X
 
 # The Chain (Every Request — No Exceptions)
 
+> **Operating Principle** (from Reflection Pass): The Chain's 6 steps, tiered loading, quality gate, and evolution engine are complex BY DESIGN — but the OUTPUT should be simple. Complex process → simple result. All this machinery exists for ONE purpose: to find the single truth and deliver it through the right mechanism with the right proof at the right identity level (see `knowledge/synthesis/the-persuasion-stack.md`). If a session produces "comprehensive" output instead of "singular" output, the system failed regardless of quality score.
+
 Complete these 6 steps IN ORDER for every user request that produces a deliverable. There is no skip path for the chain itself — individual steps may narrow (see table below), but the chain always runs.
 
 ### Step 1: SCORE intent (1-5)

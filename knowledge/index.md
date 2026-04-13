@@ -283,6 +283,8 @@
 - [machine-readable-identity](knowledge/synthesis/machine-readable-identity.md)
 - [mechanism-over-outcome](knowledge/synthesis/mechanism-over-outcome.md)
 - [single-truth-convergence](knowledge/synthesis/single-truth-convergence.md)
+- [the-2026-identity-convergence](knowledge/synthesis/the-2026-identity-convergence.md)
+- [the-persuasion-stack](knowledge/synthesis/the-persuasion-stack.md)
 - [universal-proof-architecture](knowledge/synthesis/universal-proof-architecture.md)
 
 ---

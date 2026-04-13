@@ -25,6 +25,21 @@ Would this survive domain scrutiny? Unsupported assertions? Embarrassing claims?
 - **Cultural Check:** "Would a 10+ year resident find this tone-deaf?" If user has lived experience → ask. If not → flag gap.
 - **Fail (<6):** "A domain expert would pick this apart in 30 seconds."
 
+### Quick Diagnostics (from Reflection Pass synthesis)
+
+**Attention Equation** (if content/copy): `Attention = Signal ÷ Noise × Pull`
+- **Signal**: Does it have a single truth? (Single Truth Convergence) — if not, it's covering too much
+- **Noise**: Are there unconstrained additions? (Constraint as Creative Input) — if yes, delete until focused
+- **Pull**: Does it have narrative gravity? (Dwell Time = Narrative Gravity) — if not, import screenwriting mechanics
+- "Structurally sound but flat" = low noise (good) + low signal (no single truth) + zero pull (no gravity). Diagnose which is missing.
+
+**Persuasion Stack Check** (if persuasive output): Does it have all 4 layers?
+1. [ ] Single truth (one sentence)
+2. [ ] Mechanism (why it's true)
+3. [ ] Matched proof (right tier for claim weight + attention budget)
+4. [ ] Identity awareness (if audience is identity-resistant, layer 4 tools loaded)
+- Any layer at 0 = fail regardless of composite score.
+
 ### Composite Score
 Average of 3 sub-scores. **≥7: Pass** | **5-6: Retry weakest** | **<5: Fail**
 Evolution mode: ≥7 KEEP, <7 DISCARD (binary, no marginal zone).
@@ -43,8 +58,8 @@ After delivery, log via `execution/log_performance.py`: output, agent, skill, wo
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-13 (chain_runner finalize for knowledge-compiler) |
-| **Activation Count** | 124 |
+| **Last Activated** | 2026-04-13 (chain_runner finalize for stefan-georgi-dopamine-copy) |
+| **Activation Count** | 125 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
