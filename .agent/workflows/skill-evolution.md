@@ -90,7 +90,27 @@ Write the hypothesis:
 
 Present to user for approval.
 
-### 5. Generate Variant
+### 5. Git Checkpoint (Karpathy Ratchet)
+
+Before generating the variant, create a checkpoint so the ratchet can auto-revert on failure:
+
+```bash
+# Save current state as a checkpoint tag
+git stash push -m "evolution-checkpoint-[skill-name]-$(date +%Y%m%d)" -- skills/[skill-name]/
+# Immediately unstash to keep working (the stash is the checkpoint)
+git stash pop
+```
+
+Or if the workflow file is already committed:
+```bash
+# Record the current commit hash as the revert target
+CHECKPOINT=$(git rev-parse HEAD)
+echo "Checkpoint: $CHECKPOINT"
+```
+
+This enables automatic revert if the variant is DISCARDED — the ratchet can only move forward.
+
+### 6. Generate Variant
 
 Create a variant workflow file:
 
@@ -101,10 +121,10 @@ skills/[skill-name]/workflows/[workflow-name].variant.md
 The variant must:
 - Keep the same Output Contract
 - Keep the same genius.md reference
-- Modify only the targeted aspect
+- Modify ONLY ONE targeted aspect (single variable — Karpathy constraint)
 - Document what changed at the top
 
-### 6. Test Both Versions (Time-Boxed: 10 min/task)
+### 7. Test Both Versions (Time-Boxed: 10 min/task)
 
 **Time limit: 10 minutes per benchmark task.** This prevents over-deliberation and forces decisive evaluation (Karpathy principle: constrained cycle time).
 
@@ -115,7 +135,7 @@ For each of the 3 benchmark tasks (from `skill_benchmark.py`):
 
 Record all scores. Scoring must be blind (score current first, then variant, without comparing).
 
-### 7. Compare Results (Binary Decision)
+### 8. Compare Results (Binary Decision)
 
 ```markdown
 ## Evolution Results
@@ -137,7 +157,7 @@ Record all scores. Scoring must be blind (score current first, then variant, wit
 
 No retries during evolution. Ambiguity kills velocity.
 
-### 8. CHECKPOINT: User Approval
+### 9. CHECKPOINT: User Approval
 
 Present the comparison. If the variant wins:
 - Show the specific changes made
@@ -147,14 +167,14 @@ If the variant loses or ties:
 - Recommend discarding
 - Note what was learned
 
-### 9. Apply Result
+### 10. Apply Result (Ratchet Forward or Revert)
 
-**If KEPT:**
+**If KEPT (ratchet forward):**
 - Replace current workflow with variant content
 - Delete the .variant.md file
 - Add Evolution Log entry to genius.md
 - Log to Performance Log (status: "Keep", experiment_tag: "evolution-[date]")
-- **Git commit the change:**
+- **Git commit the change (ratchet moves forward):**
   ```bash
   git add skills/[skill-name]/workflows/[workflow-name].md
   git add skills/[skill-name]/genius.md
@@ -165,9 +185,10 @@ If the variant loses or ties:
   Target: [workflow or dimension]"
   ```
 
-**If DISCARDED:**
+**If DISCARDED (ratchet reverts):**
+- **Auto-revert**: `git checkout -- skills/[skill-name]/workflows/[workflow-name].md` (restore from checkpoint)
 - Delete the .variant.md file
-- Add Evolution Log entry to genius.md (marked as discarded)
+- Add Evolution Log entry to genius.md (marked as discarded, with lesson learned)
 - Log to Performance Log (status: "Discard", experiment_tag: "evolution-[date]")
 
 ```python
@@ -185,7 +206,7 @@ log_output(
 )
 ```
 
-### 10. Cross-Pollination Check
+### 11. Cross-Pollination Check
 
 If the variant was KEPT and the improvement is pattern-based (not skill-specific):
 
@@ -197,14 +218,56 @@ candidates = find_related_skills(skill_name, pattern_type)
 
 If candidates found, note them for the next cross-pollination cycle.
 
-### 11. Update Evolution Direction
+### 11b. Wiki Cascade + Pattern Archive (Karpathy Ingest)
+
+After applying result, feed back into the knowledge wiki:
+
+```bash
+# Log the evolution event
+python3 execution/knowledge_compiler.py log evolve "[skill_name] — [KEPT/DISCARDED]" --domain [domain] --expert [expert] --notes "delta:[score_delta] hypothesis:[hypothesis_summary]"
+
+# If KEPT: regenerate briefing so future sessions know about the improvement
+python3 execution/knowledge_compiler.py briefing
+```
+
+**If KEPT and score improvement >= 1.0**: Write the evolved pattern to `knowledge/patterns/`:
+
+Create `knowledge/patterns/evolved-[skill-name]-[date].md`:
+```markdown
+---
+type: evolved-pattern
+skill: [skill-name]
+date: [YYYY-MM-DD]
+delta: [+X.X]
+---
+
+# [Skill Name] — [Hypothesis Summary]
+
+## What Changed
+[Describe the specific modification that improved the output]
+
+## Why It Worked
+[Analysis of why this change improved the target dimension]
+
+## Transferability
+[Could this pattern help other skills? Which ones?]
+```
+
+**If DISCARDED**: Append the lesson to `knowledge/patterns/discarded-lessons.md`:
+```
+- [YYYY-MM-DD] [skill-name]: [hypothesis] → DISCARDED because [reason]
+```
+
+This ensures evolution discoveries compound in the wiki — both successes AND failures inform future cycles.
+
+### 12. Update Evolution Direction
 
 Update `directives/evolution-direction.md`:
 - Add row to **Evolution History** table with date, skill, hypothesis, result, score delta, notes
 - Update **System Status** table (increment activation count, update last activated date)
 - If 3 consecutive DISCARDs on same skill, note in Stopping Criteria that skill should be paused
 
-### 12. Report
+### 13. Report
 
 ```markdown
 ## Evolution Complete

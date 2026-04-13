@@ -55,18 +55,27 @@ python execution/prose_classifier.py scan deliverables/  # Batch scan
 **Revenue Tracker** (`.agent/revenue-outcomes.json`): Connects quality scores to business outcomes. Pipeline command shows what needs tracking.
 **Prose Classifier**: Integrated into `chain_runner.py` — warns if Expert Standard may be inflated due to AI-prose patterns.
 
-### Knowledge Compiler (Added 2026-04-06)
+### Knowledge Compiler — Karpathy Wiki Engine (Updated 2026-04-13)
 
 ```bash
 python execution/knowledge_compiler.py stats             # Quick overview
-python execution/knowledge_compiler.py full              # Full compilation (all stages)
+python execution/knowledge_compiler.py full              # Full compilation (all 6 stages)
 python execution/knowledge_compiler.py briefing          # Session-start briefing
 python execution/knowledge_compiler.py inventory         # Full manifest
+python execution/knowledge_compiler.py index             # Living index (knowledge/index.md)
+python execution/knowledge_compiler.py lint              # Full wiki health check
 python execution/knowledge_compiler.py stale             # Stale content (>30d)
 python execution/knowledge_compiler.py overlap           # Overlapping files
+python execution/knowledge_compiler.py auto-archive      # Auto-archive stale (dry run)
+python execution/knowledge_compiler.py auto-archive --execute  # Actually move files
+python execution/knowledge_compiler.py log <action> "title" --domain X --expert Y
+python execution/knowledge_compiler.py archive "query" result.md --domain X
 ```
 
-**Knowledge Compiler** (`execution/knowledge_compiler.py`): Karpathy-inspired self-healing knowledge base. Scans `knowledge/`, `extractions/`, `research_outputs/` (217 files, 1.7M words). Generates manifest, session briefing, stale/overlap reports in `knowledge/compiled/`. Run monthly or after extraction sessions. Workflow: `/compile-knowledge`.
+**Knowledge Compiler** (`execution/knowledge_compiler.py`): Karpathy LLM Wiki engine. 240 files, 1.8M words across `knowledge/`, `extractions/`, `research_outputs/`. Three Karpathy operations: **ingest** (cascade updates via index + log), **query** (search write-back via archive), **lint** (contradictions, orphans, dead links, stale detection). Living index at `knowledge/index.md`, chronological log at `knowledge/log.md`. Compilation outputs in `knowledge/compiled/`. Reflection pass via `/reflect` generates second-order synthesis articles in `knowledge/synthesis/`.
+
+**Notion Knowledge Vault Sync**: `python execution/notion_api.py vault-create "Title" --expert X --domain Y` — auto-triggered by `chain_runner.py finalize` for quality >= 7. Notion is pointer + metadata layer; files stay local.
+**Autofill Config**: `directives/notion-autofill-guide.md` — step-by-step for Performance Log, Content Pipeline, Knowledge Vault AI autofill properties + Custom Agents setup.
 
 ### Evolution Direction (Added 2026-04-06)
 

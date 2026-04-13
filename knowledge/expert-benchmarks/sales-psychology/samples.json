@@ -1,0 +1,53 @@
+{
+  "domain": "sales-psychology",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "dai-media",
+      "source": "genius.md: Consumer Posture Architecture + Kristen Stewart Test + World Design",
+      "output_type": "icp-profile",
+      "title": "Dai Media Consumer Posture \u2014 Premium Fitness Coaching",
+      "notes": "Demonstrates the full 3D Consumer Posture Scan (Occupation/Activity/Thought Process), the Kristen Stewart Test (would a peer feel embarrassed?), and World Design (describing the after-state). Expert-level because it rejects demographics entirely in favor of interior psychology and social identity mechanics.",
+      "added": "2026-04-12",
+      "file": "sample-001.md",
+      "word_count": 694,
+      "content_hash": "65abb51d"
+    },
+    {
+      "id": "sample-002",
+      "expert": "kallaway",
+      "source": "genius.md: Dopamine Ladder + 11 Lego Brick Decomposition + C.A.P. Fit + Revenue Ramp",
+      "output_type": "funnel-copy",
+      "title": "Kallaway Revenue Ramp \u2014 Creator Coaching Business",
+      "notes": "Demonstrates Kallaway's full system: C.A.P. Fit diagnosis (Content-Audience-Product alignment), Dopamine Ladder (5-rung content escalation), 11 Lego Brick Decomposition (testable content components), and Revenue Ramp economics. Expert-level because it treats content monetization as a scientific system with falsifiable testing protocols.",
+      "added": "2026-04-12",
+      "file": "sample-002.md",
+      "word_count": 786,
+      "content_hash": "31ee6b29"
+    },
+    {
+      "id": "sample-003",
+      "expert": "dai-media",
+      "source": "skills/dai-media-consumer-posture/genius.md",
+      "output_type": "objection-handling",
+      "title": "Posture-Based Objection Handling \u2014 Five Reframes",
+      "notes": "Demonstrates Consumer Posture Architecture (P4), Emotional Outcome Over Problem-Solution (P7), Co-Conspirator (TK2), Consumer Waiting to Be Articulated (TK3), Brand World Design (TK4), Kristen Stewart Test (P3). Every objection diagnosed through the identity lens, not the rational lens.",
+      "added": "2026-04-13",
+      "file": "sample-003.md",
+      "word_count": 838,
+      "content_hash": "04789396"
+    },
+    {
+      "id": "sample-004",
+      "expert": "kallaway",
+      "source": "skills/kallaway-content-psychology/genius.md",
+      "output_type": "awareness-ladder",
+      "title": "Revenue Ramp Awareness Ladder \u2014 Four Rungs with Metrics",
+      "notes": "Demonstrates Dopamine Ladder, C.A.P. Fit, Lego Bricks decomposition, Revenue Ramp architecture, Ugly Numbers, Batched Testing Protocol. Each rung has specific format, mechanism, success metric, and example. Includes three anti-patterns.",
+      "added": "2026-04-13",
+      "file": "sample-004.md",
+      "word_count": 817,
+      "content_hash": "5d45dd4a"
+    }
+  ]
+}

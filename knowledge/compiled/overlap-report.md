@@ -1,186 +1,186 @@
 # Overlap Report
-*Generated: 2026-04-06*
+*Generated: 2026-04-13*
 
-**710 potential overlaps** detected.
+**745 potential overlaps** detected.
 
 These file pairs share domain, expert, and significant naming overlap. Consider consolidating.
 
 ### Overlap 1
-- **A**: `extractions/luke-iha/extraction-report.md`
-- **B**: `extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md`
-- **Shared**: extraction, report
+- **A**: `knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md`
+- **B**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass) p.2.md`
+- **Shared**: claude, !
 - **Domain**: copywriting
 
 ### Overlap 2
-- **A**: `extractions/luke-iha/extraction-report.md`
-- **B**: `extractions/luke-iha/video-3-levels-of-awareness/extraction-report.md`
-- **Shared**: extraction, report
+- **A**: `knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md`
+- **B**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass).md`
+- **Shared**: claude, !
 - **Domain**: copywriting
 
 ### Overlap 3
-- **A**: `extractions/luke-iha/extraction-report.md`
-- **B**: `extractions/luke-iha/video-4-copy-blocks/extraction-report.md`
-- **Shared**: extraction, report
+- **A**: `knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md`
+- **B**: `research_outputs/ai_authority_architect_agents/harry_dry.md`
+- **Shared**: harry, dry
 - **Domain**: copywriting
 
 ### Overlap 4
-- **A**: `extractions/luke-iha/extraction-report.md`
-- **B**: `extractions/luke-iha/video-5-vsl-leads/extraction-report.md`
-- **Shared**: extraction, report
+- **A**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass) p.2.md`
+- **B**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass).md`
+- **Shared**: (full, masterclass), claude, top, !, miner, skill, separating, jeremy, one, from, 💰💡💎, sales, you, performers
 - **Domain**: copywriting
 
 ### Overlap 5
-- **A**: `extractions/luke-iha/extraction-report.md`
-- **B**: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
+- **A**: `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
+- **B**: `knowledge/extractions/inbox/Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2.md`
+- **Shared**: claude, (showing, dropshipping, tiktok, viral, videos, 30, 💎💎💎, my, days, you, actual
+- **Domain**: content
 
 ### Overlap 6
-- **A**: `extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md`
-- **B**: `extractions/luke-iha/video-3-levels-of-awareness/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/Jun Yuh/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 7
-- **A**: `extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md`
-- **B**: `extractions/luke-iha/video-4-copy-blocks/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/Ward Farnsworth/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 8
-- **A**: `extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md`
-- **B**: `extractions/luke-iha/video-5-vsl-leads/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/brand-master/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 9
-- **A**: `extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md`
-- **B**: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 10
-- **A**: `extractions/luke-iha/video-3-levels-of-awareness/extraction-report.md`
-- **B**: `extractions/luke-iha/video-4-copy-blocks/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 11
-- **A**: `extractions/luke-iha/video-3-levels-of-awareness/extraction-report.md`
-- **B**: `extractions/luke-iha/video-5-vsl-leads/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 12
-- **A**: `extractions/luke-iha/video-3-levels-of-awareness/extraction-report.md`
-- **B**: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 13
-- **A**: `extractions/luke-iha/video-4-copy-blocks/extraction-report.md`
-- **B**: `extractions/luke-iha/video-5-vsl-leads/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 14
-- **A**: `extractions/luke-iha/video-4-copy-blocks/extraction-report.md`
-- **B**: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 15
-- **A**: `extractions/luke-iha/video-5-vsl-leads/extraction-report.md`
-- **B**: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: copywriting
-
-### Overlap 16
-- **A**: `extractions/lara-acosta/extraction-report.md`
-- **B**: `extractions/lara-acosta-content-system/extraction-report.md`
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/caleb-ralston/caleb-ralston-2026-extraction-report.md`
 - **Shared**: extraction, report
 - **Domain**: content
 
+### Overlap 10
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/comedy-writing/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
+
+### Overlap 11
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/dan-koe/extraction-report-ai-leverage.md`
+- **Shared**: extraction, report
+- **Domain**: content
+
+### Overlap 12
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/dan-martell/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
+
+### Overlap 13
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/darrel-wilson-affiliate-marketing/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
+
+### Overlap 14
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/dr-k/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
+
+### Overlap 15
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`
+- **Shared**: extraction, report
+- **Domain**: content
+
+### Overlap 16
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/jonathan-courtney/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
+
 ### Overlap 17
-- **A**: `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2.md`
-- **B**: `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.3.md`
-- **Shared**: 💎💰, ✍️, how, ai, claude, make, free, mason, cardinal, $500k!year, 2026, copywriting, course, !
-- **Domain**: copywriting
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/joscha-bach/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 18
-- **A**: `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2.md`
-- **B**: `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md`
-- **Shared**: 💎💰, ✍️, how, ai, claude, make, free, mason, cardinal, $500k!year, 2026, copywriting, course, !
-- **Domain**: copywriting
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/josh-sanders/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 19
-- **A**: `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.3.md`
-- **B**: `knowledge/extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md`
-- **Shared**: 💎💰, ✍️, how, ai, claude, make, free, mason, cardinal, $500k!year, 2026, copywriting, course, !
-- **Domain**: copywriting
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/joshua-smith/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 20
-- **A**: `knowledge/extractions/inbox/Claude-⭐️ 📱💎 Erica Mallet 505 Podcast ! How to Make Your Brand So Magnetic They Stop Scrolling.md`
-- **B**: `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
-- **Shared**: your, how, claude, brand, !
-- **Domain**: brand
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/lifestyle-business-experts/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 21
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/marc-andreessen/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 22
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.3.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/marc-andreessen-ben-horowitz/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 23
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/mark-kashef-claude-claw/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 24
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/mark-kashef-visual-design/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 25
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/mike-foutia-marketing-tools/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 26
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time pt.2.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/nate-herk/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 27
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎💎💰 Jim O'Shaughnessy ! How To Be a Thinker & a Doer At The Same Time.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/ocean-vuong/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 28
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 JARVIS Protocol! Nate B Jones ! The AI Failure Mode Nobody Warned You About (And how to .md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/rachel-woods/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 29
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average pt.2.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/sabrina-ramonov/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content
 
 ### Overlap 30
-- **A**: `knowledge/extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md`
-- **B**: `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
-- **Shared**: claude, !
-- **Domain**: general
+- **A**: `extractions/Josh Sanders/extraction-report.md`
+- **B**: `extractions/sam-goddard-media-scaling/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: content

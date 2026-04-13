@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-04-06 | 217 sources | 1,766,130 words*
+*Generated: 2026-04-13 | 240 sources | 1,788,005 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **substack-brandjack-trends-april-2026** (content) — 3,555 words — `research_outputs/substack-brandjack-trends-april-2026.md`
-- **sample-001** (copywriting [luke-iha]) — 63 words — `knowledge/expert-benchmarks/copywriting/sample-001.md`
-- **sample-002** (copywriting [luke-iha]) — 206 words — `knowledge/expert-benchmarks/copywriting/sample-002.md`
-- **sample-003** (copywriting [luke-iha]) — 157 words — `knowledge/expert-benchmarks/copywriting/sample-003.md`
-- **sample-004** (copywriting [luke-iha]) — 92 words — `knowledge/expert-benchmarks/copywriting/sample-004.md`
-- **sample-005** (copywriting [luke-iha]) — 213 words — `knowledge/expert-benchmarks/copywriting/sample-005.md`
-- **sample-001** (content [lara-acosta]) — 210 words — `knowledge/expert-benchmarks/linkedin/sample-001.md`
-- **sample-002** (content [lara-acosta]) — 198 words — `knowledge/expert-benchmarks/linkedin/sample-002.md`
-- **sample-001** (seo [nathan-gotch]) — 120 words — `knowledge/expert-benchmarks/seo/sample-001.md`
-- **extraction-report** (content) — 4,451 words — `extractions/dr-k/extraction-report.md`
+- **sample-001** (strategy [oren-john]) — 448 words — `knowledge/expert-benchmarks/brand-strategy/sample-001.md`
+- **sample-002** (brand [oren-john]) — 628 words — `knowledge/expert-benchmarks/brand-strategy/sample-002.md`
+- **sample-003** (brand [oren-john]) — 740 words — `knowledge/expert-benchmarks/brand-strategy/sample-003.md`
+- **sample-001** (content [kieran-flanagan]) — 1,014 words — `knowledge/expert-benchmarks/content-strategy/sample-001.md`
+- **sample-002** (content) — 947 words — `knowledge/expert-benchmarks/content-strategy/sample-002.md`
+- **sample-003** (strategy [kieran-flanagan]) — 877 words — `knowledge/expert-benchmarks/content-strategy/sample-003.md`
+- **sample-004** (content) — 733 words — `knowledge/expert-benchmarks/content-strategy/sample-004.md`
+- **sample-006** (copywriting [cardinal-mason]) — 1,108 words — `knowledge/expert-benchmarks/copywriting/sample-006.md`
+- **sample-007** (copywriting [cardinal-mason]) — 503 words — `knowledge/expert-benchmarks/copywriting/sample-007.md`
+- **sample-003** (copywriting [nicolas-cole]) — 328 words — `knowledge/expert-benchmarks/linkedin/sample-003.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 91 | lara-acosta |
-| copywriting | 32 | luke-iha |
+| content | 100 | nicolas-cole |
+| copywriting | 38 | luke-iha |
 | strategy | 26 | april-dunford |
-| general | 20 | jason-fladlien |
+| general | 20 | pressfield |
 | systems | 13 | nick-saraev |
-| brand | 11 | dai-media |
-| screenwriting | 8 | pressfield |
-| seo | 6 | nathan-gotch |
-| research | 6 | nicolas-cole |
-| sales | 4 | — |
+| brand | 12 | oren-john |
+| screenwriting | 11 | connelly |
+| seo | 8 | nathan-gotch |
+| research | 7 | dai-media |
+| sales | 5 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

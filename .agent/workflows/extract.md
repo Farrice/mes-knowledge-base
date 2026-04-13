@@ -92,7 +92,15 @@ python3 execution/chain_runner.py finalize "[Expert] — [Domain] extraction" \
     --notes "[genius patterns count], [workflows count], [key insight]"
 ```
 
-### 10. Report
+### 10. Wiki Cascade (Karpathy Ingest)
+After extraction completes, update the knowledge wiki:
+```bash
+python3 execution/knowledge_compiler.py log ingest "[Expert] — [Domain] extraction" --domain [domain] --expert [expert-name] --notes "[workflows count] workflows, [genius patterns count] patterns"
+python3 execution/knowledge_compiler.py briefing
+```
+This closes the compounding loop: new expert knowledge updates the session briefing and living index so future sessions start smarter.
+
+### 11. Report
 Present: expert name/domain, tier used, genius + hidden knowledge counts, workflows created, applied intelligence highlights, skill location, quality score.
 
 ## Options

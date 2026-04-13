@@ -60,6 +60,30 @@
       "file": "sample-005.md",
       "word_count": 199,
       "content_hash": "351405a0"
+    },
+    {
+      "id": "sample-006",
+      "expert": "cardinal-mason",
+      "source": "skills/cardinal-mason-ai-copywriting/genius.md",
+      "output_type": "email-sequence",
+      "title": "5-Email Delegation Stack Launch Sequence",
+      "notes": "Demonstrates Context Brain Dump (P1), 7 Copywriting Principles (P8), Human Taste Layer (P7), Cognitive Fingerprint Injection. Zero AI tells. Specific numbers, real-feeling stories, buyer-centric language throughout. Anti-guru tone with dry humor.",
+      "added": "2026-04-13",
+      "file": "sample-006.md",
+      "word_count": 1094,
+      "content_hash": "543fff57"
+    },
+    {
+      "id": "sample-007",
+      "expert": "cardinal-mason",
+      "source": "skills/cardinal-mason-ai-copywriting/genius.md",
+      "output_type": "ad-copy",
+      "title": "SaaS Re-Engagement Meta Ad Set (3 Variants)",
+      "notes": "Demonstrates 7 Copywriting Principles (P8), Case Study Leverage (P10), Swiss Army Knife positioning. Specific numbers, buyer-centric language, benefits over features, radical honesty frame. Zero AI tells \u2014 each ad has distinct format and angle.",
+      "added": "2026-04-13",
+      "file": "sample-007.md",
+      "word_count": 489,
+      "content_hash": "1649d0ce"
     }
   ]
 }

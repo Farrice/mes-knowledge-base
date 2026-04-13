@@ -49,10 +49,14 @@
 
 1. **Never modify genius.md content** — expert frameworks are the bedrock. Only workflow files and Evolution Log sections change.
 2. **Never test more than one hypothesis per cycle** — isolated variables prevent false positives.
-3. **Keep the human in the loop** — present comparisons, wait for approval before replacing workflows.
-4. **Time-box all benchmark runs** — 10 minutes max per task. If it's not producing in 10 minutes, the approach is wrong.
-5. **Binary decisions during evolution** — composite >= 7 = KEEP, < 7 = DISCARD. No "marginal" retries.
-6. **Git-commit every KEPT variant** — auditable evolution history, always.
+3. **Single file per cycle** — evolution can only modify ONE workflow file per experiment (Karpathy constrained arena principle).
+4. **Keep the human in the loop** — present comparisons, wait for approval before replacing workflows.
+5. **Time-box all benchmark runs** — 10 minutes max per task. If it's not producing in 10 minutes, the approach is wrong.
+6. **Binary decisions during evolution** — composite >= 7 = KEEP, < 7 = DISCARD. No "marginal" retries.
+7. **Git-commit every KEPT variant** — auditable evolution history, always.
+8. **Auto-revert every DISCARDED variant** — `git checkout` restores original. Ratchet only moves forward.
+9. **Volume target** — aim for 10+ experiments per evolution sprint, not 1-2. Karpathy's 700-experiment benchmark shows volume reveals insights that careful selection misses. Each session should batch 3-5 cycles minimum.
+10. **Wiki feedback** — every result (KEPT or DISCARDED) writes to `knowledge/patterns/`. Evolution discoveries must compound in the wiki.
 
 ---
 

@@ -37,6 +37,12 @@ Search across files, Notion, NotebookLM, Perplexity, and skills with intelligent
 2. Execute hybrid search via `notebooklm_knowledge_retrieval.py`
 3. Results ranked by relevance, compressed to 1,500 tokens
 4. Present unified output with source attribution
+5. **Query Write-Back** (Karpathy compounding loop):
+   - If the search produced a high-value insight (novel finding, cross-domain connection, or user confirms value):
+     - Archive to wiki: `python3 execution/knowledge_compiler.py archive "[query]" [result_file] --domain [domain]`
+     - Or inline: save result to `knowledge/[domain]/search-[slug].md` with frontmatter
+   - If routine retrieval: skip archival (don't create stubs for every lookup)
+   - **Rule**: Archive when the result teaches something NEW that future sessions should know. Skip when it's just retrieving existing knowledge.
 
 ## Smart Routing (scope=auto)
 

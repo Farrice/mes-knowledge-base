@@ -1,0 +1,53 @@
+{
+  "domain": "content-strategy",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "kieran-flanagan",
+      "source": "genius.md: Multi-Source Talking Point Extraction + Enrichment-Before-Creation + Lookalike Content Engine + Content Bundling + Anti-Vocabulary",
+      "output_type": "content-audit",
+      "title": "Kieran Flanagan Content System Audit \u2014 SaaS Founder Newsletter",
+      "notes": "Demonstrates all 6 Kieran layers: Talking Point Fidelity, Enrichment Sequencing, Structural Architecture (Lookalike Engine), Platform Specificity (Style Cards), Content Bundling Economics, and Anti-Vocabulary Compliance. Expert-level because it diagnoses systemic pipeline failures rather than surface content issues.",
+      "added": "2026-04-12",
+      "file": "sample-001.md",
+      "word_count": 985,
+      "content_hash": "340a6f46"
+    },
+    {
+      "id": "sample-002",
+      "expert": "nate-b-jones",
+      "source": "genius.md: Five Vectors of Memory Attack + Context Compression Playbook + Concurrency Cascade",
+      "output_type": "growth-plan",
+      "title": "Nate B. Jones Content Operations Growth Plan",
+      "notes": "Demonstrates The Five Vectors of Memory Attack applied to content operations (not just AI systems), the Concurrency Cascade (first/second/third order effects), and the Context Compression Playbook. Expert-level because it translates AI systems theory into actionable content operations strategy.",
+      "added": "2026-04-12",
+      "file": "sample-002.md",
+      "word_count": 921,
+      "content_hash": "308302c7"
+    },
+    {
+      "id": "sample-003",
+      "expert": "kieran-flanagan",
+      "source": "skills/kieran-flanagan-content-engine/genius.md",
+      "output_type": "content-calendar",
+      "title": "4-Week B2B Content Calendar \u2014 Enrichment Engine Architecture",
+      "notes": "Demonstrates Enrichment-Before-Creation (never publish without research), Lookalike Content Engine (scan\u2192enrich\u2192derivative), Content Bundling (1 anchor\u21925 formats), 6-Layer Engine. Every day has a specific output and measurement. Includes operational principles.",
+      "added": "2026-04-13",
+      "file": "sample-003.md",
+      "word_count": 863,
+      "content_hash": "38b89ebd"
+    },
+    {
+      "id": "sample-004",
+      "expert": "nate-b-jones",
+      "source": "skills/nate-b-jones-context-engineering/genius.md",
+      "output_type": "distribution-strategy",
+      "title": "Five-Vector Distribution Strategy \u2014 Context-Engineered Deployment",
+      "notes": "Demonstrates Five Vectors of Memory Attack (recency, frequency, relevance, salience, association), Context Compression principle, Concurrency Cascade timeline. Each vector has specific tactical deployment. Includes format ladder, audience segmentation, and compression test.",
+      "added": "2026-04-13",
+      "file": "sample-004.md",
+      "word_count": 719,
+      "content_hash": "aabdc6e8"
+    }
+  ]
+}

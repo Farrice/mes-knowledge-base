@@ -1,0 +1,53 @@
+{
+  "domain": "screenwriting",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "steven-pressfield",
+      "source": "genius.md: Three-Act Gravitational Field + The Curse + War of Art (Resistance)",
+      "output_type": "pitch",
+      "title": "Pressfield Pitch Bible \u2014 The Forge (1-Hour Drama)",
+      "notes": "Demonstrates Pressfield's Three-Act Gravitational Field, The Curse (character flaw driving narrative), and Resistance as invisible antagonist. Expert-level because the professional world literally embodies the thematic arc\u2014demolitions expert learning to build.",
+      "added": "2026-04-12",
+      "file": "sample-001.md",
+      "word_count": 674,
+      "content_hash": "091fd8a4"
+    },
+    {
+      "id": "sample-002",
+      "expert": "michael-connelly",
+      "source": "genius.md: Newspaper Economy + Outsider Lens + Procedural Detail as Character",
+      "output_type": "cold-open",
+      "title": "Connelly Cold Open \u2014 Fault Lines Episode 1",
+      "notes": "Demonstrates Connelly's Newspaper Economy (dialogue cut to bone), Outsider Lens (detective who notices what doesn't matter), and procedural detail as character revelation. Expert-level because every object (the coffee, the door scratch, the trash can) does psychological work without the writer announcing it.",
+      "added": "2026-04-12",
+      "file": "sample-002.md",
+      "word_count": 541,
+      "content_hash": "e0c00aac"
+    },
+    {
+      "id": "sample-003",
+      "expert": "steven-pressfield",
+      "source": "skills/steven-pressfield-narrative-mastery/genius.md",
+      "output_type": "logline",
+      "title": "Pressfield Logline Construction \u2014 Four Genre Exemplars",
+      "notes": "Demonstrates GP2 (Future-Flash), GP3 (Start at End), GP4 (Genre Spin), GP5 (Curse), GP6 (Hero Changes), GP7 (Sacrifice), GP8 (Extraordinary World), GP14 (Badge), GP18 (Child). Includes anti-exemplar with full physics diagnosis and Five-Force test.",
+      "added": "2026-04-13",
+      "file": "sample-003.md",
+      "word_count": 633,
+      "content_hash": "2b5173a6"
+    },
+    {
+      "id": "sample-004",
+      "expert": "michael-connelly",
+      "source": "skills/michael-connelly-vivid-writing/genius.md",
+      "output_type": "dialogue",
+      "title": "The Quiet Interview \u2014 Dialogue Scene with Craft Diagnosis",
+      "notes": "Demonstrates Newspaper Economy (dialogue cut in half), Subtext Architecture (nothing said directly), Power Through Restraint, Character-Specific Cadence. 267 words, zero adverbs, body language carries all emotion. The vending machine functions as compressed emotional arc.",
+      "added": "2026-04-13",
+      "file": "sample-004.md",
+      "word_count": 511,
+      "content_hash": "1d53b486"
+    }
+  ]
+}

@@ -24,6 +24,42 @@
       "file": "sample-002.md",
       "word_count": 184,
       "content_hash": "01e55b1d"
+    },
+    {
+      "id": "sample-003",
+      "expert": "nicolas-cole",
+      "source": "skills/nicolas-cole-sentence-craft/genius.md",
+      "output_type": "post",
+      "title": "The Delegation Illusion \u2014 LinkedIn Post",
+      "notes": "Demonstrates Terminal Word Power (P1), Economic Compression (P2), Fourth-Grade Vocabulary Anchoring (P7), Adverb Elimination (P9), Opening Sentence Power (P10), Two-Comma Rule (P8). Every Cole signature move is deployed: Echo Audit, Compression Gauntlet, Friction Meter, Adverb Search & Destroy, New Information Filter.",
+      "added": "2026-04-13",
+      "file": "sample-003.md",
+      "word_count": 314,
+      "content_hash": "917d828c"
+    },
+    {
+      "id": "sample-004",
+      "expert": "nicolas-cole",
+      "source": "skills/nicolas-cole-sentence-craft/genius.md",
+      "output_type": "newsletter",
+      "title": "The Writing System That Replaced My Talent \u2014 Newsletter",
+      "notes": "Demonstrates full Cole methodology: Compression Gauntlet (P2), Redundancy Elimination (P5), Information Density (P11), Terminal Word Power (P1), Voice Preservation (P12). Teaches the method while executing it \u2014 meta-demonstration of the craft principles.",
+      "added": "2026-04-13",
+      "file": "sample-004.md",
+      "word_count": 531,
+      "content_hash": "9781a652"
+    },
+    {
+      "id": "sample-005",
+      "expert": "nicolas-cole",
+      "source": "skills/nicolas-cole-sentence-craft/genius.md",
+      "output_type": "carousel",
+      "title": "7 Sentences Carousel \u2014 Cole Craft Applied to Visual Format",
+      "notes": "Demonstrates all 12 Cole patterns deployed in carousel format: Terminal Word Power (P1), Compression (P2), Redundancy Elimination (P5), Fourth-Grade Vocabulary (P7), Two-Comma Rule (P8), Adverb Elimination (P9), Opening Sentence Power (P10), Information Density (P11). Meta-craft: teaches the method while perfectly executing it.",
+      "added": "2026-04-13",
+      "file": "sample-005.md",
+      "word_count": 520,
+      "content_hash": "ec7ea42f"
     }
   ]
 }

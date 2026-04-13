@@ -1,0 +1,41 @@
+{
+  "domain": "brand-strategy",
+  "samples": [
+    {
+      "id": "sample-001",
+      "expert": "oren-john",
+      "source": "genius.md: CEV Critique Matrix + Taste Gap Diagnosis",
+      "output_type": "positioning",
+      "title": "Oren Brand Positioning Audit \u2014 Meridian Coaching",
+      "notes": "Demonstrates the full CEV scoring rubric, Thrift Store Test, and Knowing-Acting Gap\u2014three signature Oren frameworks. Expert-level because it diagnoses the emotional root of bad positioning rather than just rewriting copy.",
+      "added": "2026-04-12",
+      "file": "sample-001.md",
+      "word_count": 427,
+      "content_hash": "362caa66"
+    },
+    {
+      "id": "sample-002",
+      "expert": "david-placek",
+      "source": "genius.md: Quantity-Quality Inversion + Category Escape Heuristic",
+      "output_type": "naming",
+      "title": "Placek Naming Sprint \u2014 AI Financial Planning Tool",
+      "notes": "Demonstrates the full Placek method: Strategic Question Cascade, Category Escape Heuristic, Quantity-Quality Inversion (100+ names before filtering), and the Name Physics Test. Expert-level because it treats naming as a discipline with falsifiable criteria, not subjective preference.",
+      "added": "2026-04-12",
+      "file": "sample-002.md",
+      "word_count": 608,
+      "content_hash": "b677821d"
+    },
+    {
+      "id": "sample-003",
+      "expert": "grace-beverley",
+      "source": "genius.md: Trust Pathway Sequencing + Revenue Sequencing Intelligence + Media Company Default",
+      "output_type": "identity",
+      "title": "Grace Andrews Media Company Identity \u2014 Forge Collective",
+      "notes": "Demonstrates Grace's three core frameworks: Media Company Default (structural thinking over personality cult), Trust Pathway Sequencing (collision \u2192 investment), and Revenue Sequencing Intelligence (earn before sell). Expert-level because it integrates brand identity with business architecture.",
+      "added": "2026-04-12",
+      "file": "sample-003.md",
+      "word_count": 715,
+      "content_hash": "8ba4dee3"
+    }
+  ]
+}

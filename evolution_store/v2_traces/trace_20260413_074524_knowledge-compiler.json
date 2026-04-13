@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260413_074524",
+  "timestamp": "2026-04-13T07:45:24.394209",
+  "component": "knowledge-compiler",
+  "operation": "chain_finalize",
+  "expert": "nick-saraev",
+  "workflow": "karpathy-wiki-deployment",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0
+  },
+  "token_estimate": 0,
+  "notes": "Verifying wiki cascade + Knowledge Vault sync from CLI",
+  "context": {
+    "output": "Integration verification \u2014 full pipeline test",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 8.7,
+      "delta": 0,
+      "message": "Insufficient data (1 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}

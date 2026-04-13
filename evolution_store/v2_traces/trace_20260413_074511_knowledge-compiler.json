@@ -1,0 +1,28 @@
+{
+  "trace_id": "20260413_074511",
+  "timestamp": "2026-04-13T07:45:11.850216",
+  "component": "knowledge-compiler",
+  "operation": "chain_finalize",
+  "expert": "nick-saraev",
+  "workflow": "test",
+  "quality": {
+    "composite": 8.0,
+    "intent_alignment": 8,
+    "expert_standard": 8,
+    "adversarial_resilience": 8
+  },
+  "token_estimate": 0,
+  "notes": "",
+  "context": {
+    "output": "Wiki cascade test",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 8.7,
+      "delta": 0,
+      "message": "Insufficient data (1 entries). Need 3+ for regression detection."
+    }
+  },
+  "is_failure": false
+}

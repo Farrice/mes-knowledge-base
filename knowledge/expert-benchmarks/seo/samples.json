@@ -12,6 +12,30 @@
       "file": "sample-001.md",
       "word_count": 106,
       "content_hash": "4dec206a"
+    },
+    {
+      "id": "sample-002",
+      "expert": "ethan-smith",
+      "source": "genius.md: 2007 Pattern Recognition + Citation Frequency + Information Gain + Longtail Resurrection + 5% Landing Page Rule + Citation Compulsion Architecture",
+      "output_type": "keyword-research",
+      "title": "Ethan Smith AEO Keyword Research \u2014 B2B Project Management",
+      "notes": "Demonstrates the full Ethan Smith AEO methodology: 2007 Pattern Recognition Filter, Citation Landscape Analysis (multi-surface), Information Gain Audit, Longtail Resurrection (zero-answer queries), 5% Landing Page Strategy, Citation Compulsion Architecture, and experimental measurement with control groups. Expert-level because it treats SEO as AI Engine Optimization, not traditional keyword ranking.",
+      "added": "2026-04-12",
+      "file": "sample-002.md",
+      "word_count": 1084,
+      "content_hash": "13ef1b43"
+    },
+    {
+      "id": "sample-003",
+      "expert": "ethan-smith",
+      "source": "skills/ethan-smith-aeo/genius.md",
+      "output_type": "meta-titles",
+      "title": "10 AEO-Optimized Meta Titles \u2014 Citation Compulsion Framework",
+      "notes": "Demonstrates Citation Frequency (data-density for citation probability), Information Gain (what does this source have that others don't?), Longtail Resurrection (targeting AI question format). 10 exemplars with per-title citation signal diagnosis + 3 anti-patterns.",
+      "added": "2026-04-13",
+      "file": "sample-003.md",
+      "word_count": 722,
+      "content_hash": "18f27d54"
     }
   ]
 }

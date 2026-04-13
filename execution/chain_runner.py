@@ -88,6 +88,25 @@ FEEDBACK_RATCHET_PATH = "directives/feedback-ratchet.md"
 SESSION_STATE_PATH = "directives/session-state-protocol.md"
 
 
+def _classify_domain_from_skill(skill_name: str) -> str:
+    """Infer knowledge domain from a skill directory name."""
+    skill_lower = skill_name.lower()
+    domain_hints = {
+        'linkedin': 'content', 'content': 'content', 'social': 'content',
+        'copy': 'copywriting', 'vsl': 'copywriting', 'email': 'copywriting',
+        'seo': 'seo', 'gotch': 'seo',
+        'brand': 'brand', 'naming': 'brand', 'storybrand': 'brand',
+        'screen': 'screenwriting', 'dialogue': 'screenwriting', 'connelly': 'screenwriting',
+        'strategy': 'strategy', 'positioning': 'strategy', 'audit': 'strategy',
+        'research': 'research', 'consumer': 'research', 'icp': 'research',
+        'sales': 'sales', 'objection': 'sales', 'persuasion': 'sales',
+    }
+    for hint, domain in domain_hints.items():
+        if hint in skill_lower:
+            return domain
+    return 'general'
+
+
 def finalize(
     output_description: str,
     expert: str = "",
@@ -377,6 +396,73 @@ def finalize(
 
         except Exception as e:
             result["memory_store_error"] = str(e)
+
+    # ── Step 10: Wiki cascade (Karpathy compounding loop) ───────
+    # High-quality outputs trigger wiki updates so future sessions
+    # start with enriched knowledge. Log all finalize events;
+    # only regenerate briefing/index for quality >= 8.
+    try:
+        try:
+            from knowledge_compiler import log_activity, update_index, generate_briefing as gen_briefing
+        except ImportError:
+            from execution.knowledge_compiler import log_activity, update_index, generate_briefing as gen_briefing
+        domain = _classify_domain_from_skill(skill) if skill else task_type.lower()
+        log_activity(
+            action='finalize',
+            title=output_description[:100],
+            domain=domain,
+            expert=expert or '',
+            notes=f"composite:{composite} status:{status}",
+        )
+        if composite >= 8:
+            gen_briefing()
+        result["wiki_cascade"] = True
+    except Exception as e:
+        result["wiki_cascade"] = False
+        result["wiki_cascade_error"] = str(e)
+
+    # ── Step 11: Knowledge Vault sync (Notion activation) ───────
+    # High-quality outputs (>= 7) auto-create a Knowledge Vault entry
+    # in Notion so the knowledge base is discoverable from Notion search/AI.
+    # Files stay local — Notion entries are pointers + metadata.
+    if composite >= 7 and not skip_notion:
+        try:
+            try:
+                from notion_api import NotionAPI
+            except ImportError:
+                from execution.notion_api import NotionAPI
+            notion = NotionAPI()
+            domain = _classify_domain_from_skill(skill) if skill else task_type.lower()
+
+            # Map task_type to Knowledge Vault entry type
+            type_map = {
+                'Extraction': 'MES 3.0 Extraction',
+                'Research': 'Research Brief',
+                'Strategy': 'Framework',
+                'Content': 'Pattern Library',
+                'Client Work': 'Case Study',
+            }
+            entry_type = type_map.get(task_type, 'Research Brief')
+
+            # Determine tags based on quality
+            tags = ['Actionable']
+            if composite >= 9:
+                tags.append('Crown Jewel')
+
+            vault_result = notion.create_knowledge_vault_entry(
+                name=output_description[:100],
+                source=f"chain_runner finalize ({workflow or 'direct'})",
+                expert=expert or '',
+                domain=domain,
+                entry_type=entry_type,
+                key_patterns=notes[:200] if notes else '',
+                genius_score=min(5, max(2, int(composite / 2))),
+                antigravity_skill=skill or '',
+                tags=tags,
+            )
+            result["knowledge_vault_sync"] = {"success": True, "url": vault_result}
+        except Exception as e:
+            result["knowledge_vault_sync"] = {"success": False, "error": str(e)}
 
     return result
 

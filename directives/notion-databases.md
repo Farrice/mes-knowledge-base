@@ -58,8 +58,15 @@ The Notion API key is stored in the Antigravity root `.env`.
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
-| **30-Day Review Date** | 2026-04-11 |
+| **Last Activated** | 2026-04-13 (Karpathy Wiki deployment — Knowledge Vault auto-sync) |
+| **Activation Count** | 1 |
+| **30-Day Review Date** | 2026-05-13 |
 
 **Update Rule**: When this protocol fires (database ID referenced), update the date and increment count.
+
+## Karpathy Wiki Integration (2026-04-13)
+
+- **Knowledge Vault auto-sync**: `chain_runner.py finalize` creates entries for quality >= 7 outputs
+- **CLI**: `python3 execution/notion_api.py vault-create "Title" --expert X --domain Y --type "Research Brief"`
+- **Autofill config**: See `directives/notion-autofill-guide.md` for AI autofill + Custom Agents
+- **Architecture**: Notion = pointer + metadata layer. Files stay local (knowledge/, extractions/). Notion enables discoverability via search/AI Q&A.
