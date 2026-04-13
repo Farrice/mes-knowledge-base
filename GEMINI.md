@@ -4,8 +4,8 @@
 - `.env` at root = `NOTION_API_KEY`
 - Python deps: `python-dotenv`, `requests` (no requirements.txt)
 - **Notion:** Always `execution/notion_api.py` (pins `Notion-Version: 2022-06-28`). Never JS client. DB schemas: `directives/notion-databases.md`.
-- Scripts from project root. Check `execution/` before creating new ones.
-- Directory/file details: `directives/gemini-reference.md`
+- Scripts from project root. Check `execution/` before creating new.
+- File map: `directives/gemini-reference.md`
 
 ## Directories
 - `skills/[name]/`: `SKILL.md` + `genius.md` + `workflows/*.md`
@@ -15,60 +15,47 @@
 - `councils/` | `research_outputs/` | `strategy_briefs/` | `deliverables/` | `.tmp/` (never commit)
 
 ## Artifact-First (HARD RULE)
-Every user-facing deliverable → conversation artifact (`brain/<id>/`, `IsArtifact: true`). Workspace copy optional. Alert boxes + tables for premium formatting. Exception: system files only.
+Every deliverable → artifact (`brain/<id>/`, `IsArtifact: true`). Workspace copy optional. Premium formatting (alerts+tables). Exception: system files.
 
 ---
 
-## The Chain — Every Deliverable, No Exceptions
+## The Chain
 
-**Step 1 SCORE** (1-5): +1 Deliverable +1 Audience +1 Context +1 End-state +1 Specificity. Print score.
-**Step 2 SHARPEN** (if ≤3): Ask DICE dimensions, one round. `directives/intent-pipeline.md`. Skip if ≥4.
-**Step 3 ROUTE**: `python3 execution/expert_router.py route "problem description"` → selects from 96 agents across 15 domains. Compounds: `python3 execution/expert_router.py compounds "query"`. Fallback: `DOMAIN_REGISTRY.md`. Always route explicitly. Print expert.
-**Step 4 LOAD**: Tier 0→1→2→3. Hot? Skip. Content: min 2 files per `directives/content_creation_gate.md`. **Never produce without loading.** Print files loaded.
-**Step 5 PRODUCE**: Expert frameworks, not terminology. Tool calls in one response, text in the next — NEVER mix. Enforce `directives/quality_assurance.md`.
-**Step 6 FINALIZE**: Score Intent/Expert/Adversarial 1-10. Run:
-```bash
-python3 execution/chain_runner.py finalize "[output]" \
-    --expert X --skill X --workflow X --type X \
-    --intent X --expert-score X --adversarial X --notes "X"
-```
-Composite <7 or any <6 → retry weakest. Non-negotiable. FINALIZE for expert output only.
+1. **SCORE** (1-5): +1 Deliverable +1 Audience +1 Context +1 End-state +1 Specificity. Print.
+2. **SHARPEN** (if ≤3): DICE dimensions, one round. Ref: `directives/intent-pipeline.md`.
+3. **ROUTE**: `python3 execution/expert_router.py route "query"` → 96 agents/15 domains. Compounds: `compounds "query"`. Fallback: `DOMAIN_REGISTRY.md`. Print expert.
+4. **LOAD**: Tier 0→1→2→3. Hot→skip. Content: min 2 files per `directives/content_creation_gate.md`. Never produce unloaded. Print files.
+5. **PRODUCE**: Expert frameworks, not terminology. Tools OR text per response—never both. Enforce `directives/quality_assurance.md`.
+6. **FINALIZE**: Score Intent/Expert/Adversarial 1-10. `python3 execution/chain_runner.py finalize "[output]" --expert X --skill X --workflow X --type X --intent X --expert-score X --adversarial X --notes "X"` Composite<7 or any<6→retry. Expert output only.
 
-**Narrowing:** Score ≥4 skip Step 2. "Just do it" route silently. Follow-up reuse route. No deliverable = no chain. System commands skip chain. Start Tier 1, escalate for creative/complex.
+**Skip:** Score ≥4→skip Step 2. "Just do it"→route silently. Follow-ups reuse route. No deliverable=no chain. System commands skip. Start Tier 1, escalate for creative/complex.
 
 ---
 
 ## Architecture
-**L1** Directives → **L2** You (routing/decisions) → **L3** Execution (Python). Push complexity into code.
-
-**Sources:** Local files | Notion (5 DBs) | NotebookLM (5 notebooks, 100/mo, `/query-notebook`) | Perplexity
-**On-demand:** `COUNCIL.md` (experts), `DOMAIN_REGISTRY.md` (routing), `JARVIS.md` (invocation), `FARRICE.md` (voice)
+L1 Directives → L2 You (routing) → L3 Execution (Python). Push complexity into code.
+Sources: Local | Notion (5 DBs) | NotebookLM (5 notebooks, 100/mo, `/query-notebook`) | Perplexity
+On-demand: `COUNCIL.md` | `DOMAIN_REGISTRY.md` | `JARVIS.md` | `FARRICE.md` (voice)
 
 ## Context Engine
-Hot (0) → Tier 0 (cards, ~80) → Tier 1 (SKILL.md+workflow, ~1350) → Tier 2 (+genius.md, ~2550) → Tier 3 (sub-agent, ~300). Hot first. Hot@T1 needing T2: only read genius.md. Never re-read SKILL.md for same expert.
-**Tier 0 cards:** `directives/tier0-cards.md` — 8 most-used experts. Use Tier 0 for simple tasks; escalate to Tier 1 only when frameworks/methodology needed.
+Hot→T0(cards,~80)→T1(SKILL.md+workflow,~1350)→T2(+genius.md,~2550)→T3(sub-agent,~300). Hot first. T1→T2: genius.md only. Never re-read SKILL.md same expert.
+**T0:** `directives/tier0-cards.md` (8 experts). T0 for simple; T1 when frameworks needed.
 
-**Context Budget Rules:**
-- Every file read compounds: re-sent on EVERY subsequent turn. Minimize reads.
-- Prefer Tier 1 for execution tasks. Tier 2 only for creative/complex work.
-- After 15+ turns, suggest new conversation to reset accumulation.
-- Route workflows via `python3 execution/workflow_router.py search "query"` — don't scan the full listing.
-- Read only the sections of directives you need, not entire files.
+**Budget:** Reads compound every turn—minimize. T1 for execution, T2 for creative/complex. 15+ turns→new conversation. Workflows: `python3 execution/workflow_router.py search "query"`. Read directive sections, not full files.
 
 ## Directives
-All in `directives/`. Fire at trigger — don't preload. Key directives have modular sub-files:
-- QA: `directives/qa/anti_patterns.md` (anti-patterns only) | `directives/qa/mandates.md` (mandates only) | Full: `directives/quality_assurance.md`
+All in `directives/`. Fire on trigger—never preload. Sub-files over full directives.
+- QA: `qa/anti_patterns.md` | `qa/mandates.md` | Full: `quality_assurance.md`
 - Other: `quality_gate.md`, `content_creation_gate.md`, `agent-loading-protocol.md`, `intent-pipeline.md`, `session-state-protocol.md`
-- **Prefer loading sub-files over full directives.** Load the full file only when you need all sections.
 Session state: `.agent/session-state.md` after intent/deployment/decisions/10+ reads. Read after compaction.
 
 ## CRITICAL — These Override Everything
 
-1. **CHAIN RUNS ON EVERY DELIVERABLE.** No skip for "trivial."
-2. **LOAD EXPERT BEFORE PRODUCING.** No expert output without reading SKILL.md first.
-3. **NEVER MIX TOOL CALLS WITH TEXT.** Response = 100% tools OR 100% text.
-4. **AFTER COMPACTION:** Read `.agent/session-state.md` IMMEDIATELY.
+1. **CHAIN ON EVERY DELIVERABLE.** No trivial skip.
+2. **LOAD BEFORE PRODUCING.** No output without SKILL.md load.
+3. **NEVER MIX TOOL CALLS WITH TEXT.** 100% tools OR 100% text.
+4. **AFTER COMPACTION:** Read `.agent/session-state.md` immediately.
 5. **NO AI SLOP.** Banned: delve, tapestry, landscape, leverage, robust, utilize, realm, multifaceted, holistic, synergy.
-6. **USE REAL TOOLS.** No training-data substitution. Phantom research = automatic failure.
+6. **REAL TOOLS ONLY.** No training-data substitution. Phantom research = failure.
 
 ## VERIFY: ANTIGRAVITY-GEMINI-7X4K
