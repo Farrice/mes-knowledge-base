@@ -14,4 +14,4 @@ Architecture: LLM reasons, deterministic code executes.
 The LLM never holds private keys or places orders.
 """
 
-__version__ = "0.2.5"
+__version__ = "0.3.0"

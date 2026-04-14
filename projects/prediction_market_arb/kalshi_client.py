@@ -8,16 +8,20 @@ Key differences from Polymarket:
   - Market IDs: Tickers ("FED-26MAY-T4.50") not condition IDs
   - Orders: side "yes"/"no" + action "buy"/"sell" (not token-based)
   - Fees: 0.07 * P * (1-P) per contract, max 1.75 cents. Makers 0%.
+  - No market orders (simulate via limit at $0.99/$0.01)
+  - Mandatory UUID4 client_order_id on every order (dedup protection)
   - Full sandbox available at demo-api.kalshi.co
 
-This module provides:
-  1. Market data reads (list markets, get prices, get orderbook)
-  2. Market search and filtering by category
-  3. Normalization to our common Market/KalshiMarket format
+Rate limits (Basic tier):
+  - 20 reads/second, 10 writes/second
+  - 429 responses require exponential backoff
+  - BatchCancel counts each cancel as 0.2 transactions
 
-Order placement is deferred — for Phase 3 paper trading, we only need
-to READ Kalshi prices to detect cross-platform opportunities.
-The paper trader simulates execution on both sides.
+Hardening notes (from April 2026 audit):
+  - Dollar-string prices ("0.6500") replaced legacy integer cents as of March 2026
+  - count_fp is a string ("10.00"), not an integer
+  - Cursor-based pagination for large result sets (>200 markets)
+  - 5 documented settlement disputes since 2025 — cross-platform arb must account for this
 
 Auth requires KALSHI_API_KEY_ID and KALSHI_PRIVATE_KEY_PATH env vars.
 For read-only sandbox access during paper trading, these can be demo credentials.
@@ -28,6 +32,7 @@ import hashlib
 import logging
 import os
 import time
+import uuid
 from datetime import datetime, timezone
 from typing import Optional
 
@@ -151,24 +156,74 @@ class KalshiClient:
         mode = "sandbox" if use_sandbox else "production"
         logger.info(f"[KALSHI] Client initialized ({mode})")
 
-    def _get(self, path: str, params: dict = None) -> Optional[dict]:
-        """Authenticated GET request to Kalshi API."""
+    def _request(self, method: str, path: str, params: dict = None,
+                  json_body: dict = None, max_retries: int = 3) -> Optional[dict]:
+        """
+        Authenticated request to Kalshi API with rate-limit backoff.
+
+        Handles:
+          - RSA-PSS authentication headers
+          - 429 rate limit responses with exponential backoff
+          - Connection errors with retry
+          - Timeout handling
+        """
         url = f"{self.api_url}{path}"
 
-        headers = {}
-        if self._authenticated:
-            headers = _auth_headers(
-                self.api_key_id, self.private_key_path,
-                "GET", f"/trade-api/v2{path}",
-            )
+        for attempt in range(max_retries):
+            headers = {}
+            if self._authenticated:
+                headers = _auth_headers(
+                    self.api_key_id, self.private_key_path,
+                    method.upper(), f"/trade-api/v2{path}",
+                )
 
-        try:
-            resp = self._session.get(url, params=params, headers=headers, timeout=15)
-            resp.raise_for_status()
-            return resp.json()
-        except requests.RequestException as e:
-            logger.error(f"Kalshi GET {path} failed: {e}")
-            return None
+            try:
+                if method.upper() == "GET":
+                    resp = self._session.get(url, params=params, headers=headers, timeout=15)
+                elif method.upper() == "POST":
+                    resp = self._session.post(url, json=json_body, headers=headers, timeout=15)
+                elif method.upper() == "DELETE":
+                    resp = self._session.delete(url, params=params, headers=headers, timeout=15)
+                else:
+                    resp = self._session.request(method, url, params=params,
+                                                  json=json_body, headers=headers, timeout=15)
+
+                # Handle rate limiting (429)
+                if resp.status_code == 429:
+                    retry_after = float(resp.headers.get("Retry-After", 2 ** attempt))
+                    logger.warning(f"[KALSHI] Rate limited on {path}, "
+                                   f"backing off {retry_after:.1f}s (attempt {attempt + 1})")
+                    time.sleep(min(retry_after, 30))  # Cap at 30s
+                    continue
+
+                resp.raise_for_status()
+                return resp.json()
+
+            except requests.ConnectionError as e:
+                logger.warning(f"[KALSHI] Connection error on {path} "
+                               f"(attempt {attempt + 1}/{max_retries}): {e}")
+                time.sleep(2 ** attempt)
+            except requests.Timeout:
+                logger.warning(f"[KALSHI] Timeout on {path} "
+                               f"(attempt {attempt + 1}/{max_retries})")
+                time.sleep(2 ** attempt)
+            except requests.HTTPError as e:
+                logger.error(f"[KALSHI] HTTP error on {path}: {e}")
+                return None
+            except requests.RequestException as e:
+                logger.error(f"[KALSHI] Request failed on {path}: {e}")
+                return None
+
+        logger.error(f"[KALSHI] All {max_retries} retries exhausted for {path}")
+        return None
+
+    def _get(self, path: str, params: dict = None) -> Optional[dict]:
+        """Authenticated GET request with rate-limit backoff."""
+        return self._request("GET", path, params=params)
+
+    def _post(self, path: str, body: dict = None) -> Optional[dict]:
+        """Authenticated POST request with rate-limit backoff."""
+        return self._request("POST", path, json_body=body)
 
     # -------------------------------------------------------------------------
     # Market Data
@@ -180,8 +235,9 @@ class KalshiClient:
         Fetch active markets from Kalshi.
 
         Returns list of KalshiMarket objects normalized to our format.
+        Uses _parse_market for consistent parsing across all methods.
         """
-        params = {"status": status, "limit": limit}
+        params = {"status": status, "limit": min(limit, 200)}
         if category:
             params["series_ticker"] = category
 
@@ -191,23 +247,9 @@ class KalshiClient:
 
         markets = []
         for m in data.get("markets", []):
-            km = KalshiMarket(
-                ticker=m.get("ticker", ""),
-                title=m.get("title", ""),
-                subtitle=m.get("subtitle", ""),
-                category=m.get("category", ""),
-                status=m.get("status", ""),
-                yes_price=self._parse_price(m.get("yes_bid_dollars", "0")),
-                no_price=self._parse_price(m.get("no_bid_dollars", "0")),
-                yes_bid=self._parse_price(m.get("yes_bid_dollars", "0")),
-                yes_ask=self._parse_price(m.get("yes_ask_dollars", "0")),
-                volume=int(m.get("volume", 0) or 0),
-                open_interest=int(m.get("open_interest", 0) or 0),
-                end_date=m.get("expiration_time", ""),
-                settlement_source=m.get("settlement_source_url", ""),
-                result=m.get("result", ""),
-            )
-            markets.append(km)
+            km = self._parse_market(m)
+            if km:
+                markets.append(km)
 
         logger.info(f"[KALSHI] Fetched {len(markets)} markets"
                     f"{f' (category: {category})' if category else ''}")
@@ -312,9 +354,158 @@ class KalshiClient:
         except (ValueError, TypeError):
             return 0.0
 
+    # -------------------------------------------------------------------------
+    # Paginated Market Fetch (handles >200 markets via cursor)
+    # -------------------------------------------------------------------------
+
+    def get_all_markets(self, status: str = "open",
+                        max_pages: int = 5) -> list[KalshiMarket]:
+        """
+        Fetch ALL active markets using cursor-based pagination.
+
+        Kalshi returns max 200 markets per request. For full scans,
+        we follow the cursor until exhausted or max_pages reached.
+        """
+        all_markets = []
+        cursor = None
+
+        for page in range(max_pages):
+            params = {"status": status, "limit": 200}
+            if cursor:
+                params["cursor"] = cursor
+
+            data = self._get("/markets", params=params)
+            if not data:
+                break
+
+            markets_data = data.get("markets", [])
+            if not markets_data:
+                break
+
+            for m in markets_data:
+                km = self._parse_market(m)
+                if km:
+                    all_markets.append(km)
+
+            cursor = data.get("cursor")
+            if not cursor:
+                break  # No more pages
+
+            logger.debug(f"[KALSHI] Page {page + 1}: {len(markets_data)} markets, "
+                         f"total so far: {len(all_markets)}")
+
+        logger.info(f"[KALSHI] Fetched {len(all_markets)} total markets "
+                    f"across {min(page + 1, max_pages)} pages")
+        return all_markets
+
+    def _parse_market(self, m: dict) -> Optional[KalshiMarket]:
+        """Parse a single market JSON object into KalshiMarket."""
+        try:
+            return KalshiMarket(
+                ticker=m.get("ticker", ""),
+                title=m.get("title", ""),
+                subtitle=m.get("subtitle", ""),
+                category=m.get("category", ""),
+                status=m.get("status", ""),
+                yes_price=self._parse_price(m.get("yes_bid_dollars", m.get("last_price", "0"))),
+                no_price=self._parse_price(m.get("no_bid_dollars", "0")),
+                yes_bid=self._parse_price(m.get("yes_bid_dollars", "0")),
+                yes_ask=self._parse_price(m.get("yes_ask_dollars", "0")),
+                volume=int(m.get("volume", 0) or 0),
+                open_interest=int(m.get("open_interest", 0) or 0),
+                end_date=m.get("expiration_time", ""),
+                settlement_source=m.get("settlement_source_url", ""),
+                result=m.get("result", ""),
+            )
+        except (ValueError, TypeError) as e:
+            logger.warning(f"[KALSHI] Failed to parse market {m.get('ticker', '?')}: {e}")
+            return None
+
+    # -------------------------------------------------------------------------
+    # Order Placement (Phase 5 — live trading only)
+    # -------------------------------------------------------------------------
+
+    def place_order(self, ticker: str, side: str, action: str,
+                    count: float, price: float,
+                    order_type: str = "limit") -> Optional[dict]:
+        """
+        Place an order on Kalshi.
+
+        IMPORTANT:
+          - Kalshi has NO market orders. For immediate fill, use limit at
+            $0.99 (buy yes) or $0.01 (buy no). This simulates a market order.
+          - Every order MUST have a unique client_order_id (UUID4) to prevent
+            duplicate execution on retry.
+          - Prices are dollar strings ("0.6500"), counts are float strings ("10.00")
+          - side: "yes" or "no"
+          - action: "buy" or "sell"
+
+        Returns order response dict or None on failure.
+        """
+        # Generate unique client order ID for dedup
+        client_order_id = str(uuid.uuid4())
+
+        # Validate inputs
+        if side not in ("yes", "no"):
+            logger.error(f"[KALSHI] Invalid side: {side}. Must be 'yes' or 'no'")
+            return None
+        if action not in ("buy", "sell"):
+            logger.error(f"[KALSHI] Invalid action: {action}. Must be 'buy' or 'sell'")
+            return None
+
+        # Convert price to dollar string format
+        price_str = f"{price:.4f}" if isinstance(price, float) else str(price)
+        count_str = f"{count:.2f}" if isinstance(count, float) else str(count)
+
+        body = {
+            "ticker": ticker,
+            "client_order_id": client_order_id,
+            "side": side,
+            "action": action,
+            "count_fp": count_str,
+            "type": order_type,
+        }
+
+        # Kalshi limit orders require yes_price_dollars
+        if order_type == "limit":
+            body["yes_price_dollars"] = price_str
+
+        logger.info(f"[KALSHI] Placing order: {action} {count_str} {side} @ ${price_str} "
+                     f"on {ticker} (id: {client_order_id[:8]}...)")
+
+        return self._post("/portfolio/orders", body=body)
+
+    def cancel_order(self, order_id: str) -> bool:
+        """Cancel a Kalshi order by order ID."""
+        result = self._request("DELETE", f"/portfolio/orders/{order_id}")
+        if result is not None:
+            logger.info(f"[KALSHI] Order {order_id} cancelled")
+            return True
+        return False
+
+    def get_positions(self) -> list[dict]:
+        """Fetch current Kalshi positions."""
+        data = self._get("/portfolio/positions")
+        if not data:
+            return []
+        return data.get("market_positions", [])
+
+    def get_balance(self) -> float:
+        """Fetch current Kalshi account balance in dollars."""
+        data = self._get("/portfolio/balance")
+        if not data:
+            return 0.0
+        # Balance is in cents
+        return float(data.get("balance", 0)) / 100.0
+
+    # -------------------------------------------------------------------------
+    # Helpers
+    # -------------------------------------------------------------------------
+
     def scan_categories(self, categories: list = None) -> list[KalshiMarket]:
         """
         Scan all configured categories and return combined market list.
+        Uses paginated fetch for completeness, then filters by category.
         Used by the contract matcher to find cross-platform candidates.
         """
         if categories is None:
@@ -322,18 +513,22 @@ class KalshiClient:
             if isinstance(categories, str):
                 categories = [categories]
 
-        all_markets = []
-        seen_tickers = set()
+        # Fetch all markets once (paginated), then filter locally
+        # This is more efficient than N separate API calls per category
+        all_markets = self.get_all_markets(status="open", max_pages=5)
 
-        for cat in categories:
-            markets = self.get_markets(status="open", limit=200)
-            for m in markets:
-                if m.ticker not in seen_tickers:
-                    # Filter by category if the market has category info
-                    if not cat or cat.lower() in m.category.lower() or cat.lower() in m.title.lower():
-                        all_markets.append(m)
-                        seen_tickers.add(m.ticker)
+        if not categories:
+            return all_markets
 
-        logger.info(f"[KALSHI] Scanned {len(all_markets)} unique markets "
-                    f"across {len(categories)} categories")
-        return all_markets
+        # Filter by category keywords
+        cat_lower = {c.lower() for c in categories}
+        filtered = []
+        for m in all_markets:
+            m_cat = m.category.lower() if m.category else ""
+            m_title = m.title.lower() if m.title else ""
+            if any(c in m_cat or c in m_title for c in cat_lower):
+                filtered.append(m)
+
+        logger.info(f"[KALSHI] Scanned {len(filtered)} markets matching categories "
+                    f"{categories} (from {len(all_markets)} total)")
+        return filtered

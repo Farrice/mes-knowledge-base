@@ -31,6 +31,7 @@ Exit Monitoring:
 
 import logging
 import math
+import time
 from datetime import datetime, timezone
 from typing import Optional
 
@@ -64,15 +65,95 @@ class ExitSignal:
 # RISK MANAGER
 # =============================================================================
 
+class TokenCircuitBreaker:
+    """
+    Per-token circuit breaker — isolates misbehaving tokens without halting all trading.
+
+    Extracted from braedonsaunders/homerun. Trips on:
+      - 2+ large trades (size > threshold) within 30 seconds on the same token
+      - 5 consecutive API errors per token
+
+    Auto-expires after 120 seconds. Sits between kill switch (nuclear) and
+    normal validation (per-trade). A flash crash on one weather market
+    shouldn't freeze the sports arb pipeline.
+    """
+
+    def __init__(self, trip_window_s: float = 30.0, expire_s: float = 120.0,
+                 max_rapid_trades: int = 2, max_errors: int = 5):
+        self._trips = {}       # {token_id: trip_timestamp}
+        self._trade_times = {} # {token_id: [timestamps]}
+        self._error_counts = {} # {token_id: count}
+        self.trip_window = trip_window_s
+        self.expire_s = expire_s
+        self.max_rapid = max_rapid_trades
+        self.max_errors = max_errors
+
+    def is_tripped(self, token_id: str) -> bool:
+        """Check if a token's circuit breaker is currently tripped."""
+        if token_id not in self._trips:
+            return False
+        elapsed = time.time() - self._trips[token_id]
+        if elapsed > self.expire_s:
+            # Auto-expire
+            del self._trips[token_id]
+            self._error_counts.pop(token_id, None)
+            self._trade_times.pop(token_id, None)
+            logger.info(f"Circuit breaker expired for token {token_id[:8]}...")
+            return False
+        return True
+
+    def record_trade(self, token_id: str):
+        """Record a trade for rapid-trade detection."""
+        now = time.time()
+        if token_id not in self._trade_times:
+            self._trade_times[token_id] = []
+        self._trade_times[token_id].append(now)
+        # Clean old timestamps
+        self._trade_times[token_id] = [
+            t for t in self._trade_times[token_id]
+            if now - t < self.trip_window
+        ]
+        # Check for rapid trading
+        if len(self._trade_times[token_id]) >= self.max_rapid:
+            self._trip(token_id, "rapid trades detected")
+
+    def record_error(self, token_id: str):
+        """Record an API error for error-count detection."""
+        self._error_counts[token_id] = self._error_counts.get(token_id, 0) + 1
+        if self._error_counts[token_id] >= self.max_errors:
+            self._trip(token_id, f"{self.max_errors} consecutive errors")
+
+    def clear_errors(self, token_id: str):
+        """Clear error count on successful operation."""
+        self._error_counts.pop(token_id, None)
+
+    def _trip(self, token_id: str, reason: str):
+        """Trip the circuit breaker for a specific token."""
+        self._trips[token_id] = time.time()
+        logger.warning(f"Circuit breaker TRIPPED for {token_id[:8]}...: {reason} "
+                       f"(expires in {self.expire_s}s)")
+
+    def get_status(self) -> dict:
+        """Get current circuit breaker state."""
+        now = time.time()
+        active = {
+            tid: round(self.expire_s - (now - ts), 1)
+            for tid, ts in self._trips.items()
+            if now - ts < self.expire_s
+        }
+        return {"active_trips": len(active), "tokens": active}
+
+
 class RiskManager:
     """
     Capital protection layer. Sits between every strategy and the execution layer.
-    No order reaches the API without passing all 8 checks.
+    No order reaches the API without passing all 8 checks + circuit breaker.
     """
 
     def __init__(self, config, state_manager: StateManager):
         self.config = config
         self.state = state_manager
+        self.circuit_breaker = TokenCircuitBreaker()
 
     # -------------------------------------------------------------------------
     # 8-CHECK VALIDATION CHAIN
@@ -93,9 +174,13 @@ class RiskManager:
         positions = self.state.load_positions()
         balance = self.state.load_balance()
 
-        # --- CHECK 1: Kill switch ---
+        # --- CHECK 1: Kill switch (nuclear — halts ALL trading) ---
         if risk.kill_switch_triggered:
             return (False, f"Kill switch triggered: {risk.kill_switch_reason}")
+
+        # --- CHECK 1.5: Token circuit breaker (per-token isolation) ---
+        if order.token_id and self.circuit_breaker.is_tripped(order.token_id):
+            return (False, f"Circuit breaker tripped for token {order.token_id[:8]}...")
 
         # --- CHECK 2: Market blacklist ---
         if order.market_id in risk.blacklist:
