@@ -7,6 +7,8 @@ Usage:
   python execution/strategy_orchestrator.py scan-weather  # Weather only (Phase 1)
   python execution/strategy_orchestrator.py scan-sports   # Sports arb only
   python execution/strategy_orchestrator.py status        # Show orchestrator status
+  python execution/strategy_orchestrator.py dashboard     # Generate + open live dashboard
+  python execution/strategy_orchestrator.py report        # Performance report
   python execution/strategy_orchestrator.py run           # Continuous multi-strategy mode
   python execution/strategy_orchestrator.py run-weather   # Continuous weather-only mode
 """
@@ -65,6 +67,17 @@ def main():
     elif command == "status":
         orch = StrategyOrchestrator()
         orch.status()
+
+    elif command == "dashboard":
+        # Generate production dashboard from live state
+        from projects.prediction_market_arb.dashboard import generate
+        path = generate(open_browser=True)
+        print(f"Dashboard generated: {path}")
+
+    elif command == "report":
+        # Generate daily performance report
+        trader = PaperTrader()
+        trader.report()
 
     elif command == "run":
         # Continuous multi-strategy mode
