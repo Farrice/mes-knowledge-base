@@ -20,6 +20,7 @@ The LLM NEVER touches the order book.
 """
 
 import logging
+import os
 from datetime import datetime, timezone
 
 from projects.prediction_market_arb.config import load_config
@@ -30,6 +31,8 @@ from projects.prediction_market_arb.sportsbook import (
     SportsbookClient, match_events_to_polymarket, find_sports_edges,
 )
 from projects.prediction_market_arb.ensemble import EnsembleEngine
+from projects.prediction_market_arb.kalshi_client import KalshiClient
+from projects.prediction_market_arb.contract_matcher import ContractMatcher
 from projects.prediction_market_arb.market_selector import (
     pre_filter_markets, rank_opportunities, allocate_capital,
 )
@@ -85,6 +88,9 @@ class StrategyOrchestrator:
         self.weather = WeatherPipeline(self.config, self.state)
         self.sportsbook = SportsbookClient(self.config)
         self.ensemble = EnsembleEngine(self.config)
+        # Cross-platform (Kalshi)
+        self.kalshi = KalshiClient(self.config)
+        self.matcher = ContractMatcher(self.config)
 
     # -------------------------------------------------------------------------
     # FULL SCAN — runs all strategy pipelines
@@ -126,10 +132,16 @@ class StrategyOrchestrator:
         print(f"  {C.GREEN}Found {len(sports_opps)} sports arb opportunities{C.RESET}")
 
         # --- ENSEMBLE PIPELINE (Phase 2 new) ---
-        print(f"\n{C.BOLD}{C.MAGENTA}[3/3] AI Ensemble{C.RESET}")
+        print(f"\n{C.BOLD}{C.MAGENTA}[3/4] AI Ensemble{C.RESET}")
         ensemble_opps = self._scan_ensemble()
         all_opportunities.extend(ensemble_opps)
         print(f"  {C.MAGENTA}Found {len(ensemble_opps)} ensemble opportunities{C.RESET}")
+
+        # --- CROSS-PLATFORM PIPELINE (Phase 2.5 — Kalshi) ---
+        print(f"\n{C.BOLD}{C.YELLOW}[4/4] Cross-Platform (Polymarket ↔ Kalshi){C.RESET}")
+        cross_opps = self._scan_cross_platform()
+        all_opportunities.extend(cross_opps)
+        print(f"  {C.YELLOW}Found {len(cross_opps)} cross-platform opportunities{C.RESET}")
 
         # --- RANK AND SELECT ---
         print(f"\n{C.BOLD}Ranking {len(all_opportunities)} total opportunities...{C.RESET}")
@@ -285,6 +297,47 @@ class StrategyOrchestrator:
 
         return opportunities
 
+    def _scan_cross_platform(self) -> list[Opportunity]:
+        """
+        Run the cross-platform matching pipeline (Phase 2.5 — Kalshi integration).
+        Compares Polymarket and Kalshi markets to find cross-platform arbitrage.
+        """
+        if not self.config.cross_platform.enabled:
+            return []
+
+        # Step 1: Get Polymarket markets
+        try:
+            poly_markets = self.client.get_markets(active=True, limit=200)
+        except Exception as e:
+            logger.error(f"Failed to fetch Polymarket markets for cross-platform: {e}")
+            return []
+
+        # Step 2: Get Kalshi markets
+        try:
+            kalshi_markets = self.kalshi.scan_categories()
+        except Exception as e:
+            logger.error(f"Failed to fetch Kalshi markets: {e}")
+            return []
+
+        if not poly_markets or not kalshi_markets:
+            logger.info("Cross-platform scan: insufficient markets on one or both platforms")
+            return []
+
+        logger.info(f"Cross-platform: comparing {len(poly_markets)} Polymarket "
+                    f"x {len(kalshi_markets)} Kalshi markets")
+
+        # Step 3: Run 3-stage matching pipeline
+        try:
+            use_llm = bool(os.environ.get("ANTHROPIC_API_KEY"))
+            matches = self.matcher.find_matches(poly_markets, kalshi_markets, use_llm=use_llm)
+        except Exception as e:
+            logger.error(f"Contract matching failed: {e}")
+            return []
+
+        # Step 4: Convert matches to opportunities
+        opportunities = self.matcher.matches_to_opportunities(matches)
+        return opportunities
+
     # -------------------------------------------------------------------------
     # STATUS
     # -------------------------------------------------------------------------
@@ -319,7 +372,11 @@ class StrategyOrchestrator:
         ])
         print(f"    {C.MAGENTA}Ensemble{C.RESET}:    "
               f"{'Active' if has_api_keys and self.config.ensemble.enabled else 'Disabled'}")
-        print(f"    {C.YELLOW}Market Making{C.RESET}: Deferred (Phase 4)")
+
+        has_kalshi = self.kalshi._authenticated
+        print(f"    {C.YELLOW}Cross-Platform{C.RESET}: "
+              f"{'Active (Polymarket ↔ Kalshi)' if has_kalshi else 'Ready — Awaiting Kalshi API credentials'}")
+        print(f"    {C.GRAY}Market Making{C.RESET}:  Deferred (Phase 4)")
 
         # Current positions by strategy
         if positions:

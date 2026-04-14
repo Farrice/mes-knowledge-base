@@ -37,6 +37,23 @@
     "data_dir": ".agent/polymarket-paper"
   },
 
+  "kalshi": {
+    "api_url": "https://api.elections.kalshi.com/trade-api/v2",
+    "sandbox_url": "https://demo-api.kalshi.co/trade-api/v2",
+    "use_sandbox": true,
+    "enabled": true,
+    "scan_interval": 1800,
+    "categories": ["politics", "economics", "crypto", "sports", "weather"]
+  },
+
+  "cross_platform": {
+    "enabled": true,
+    "min_match_confidence": 0.75,
+    "min_net_edge": 0.03,
+    "max_structural_flags": 0,
+    "scan_interval": 1800
+  },
+
   "sports": {
     "odds_api_url": "https://api.oddspapi.io/v4",
     "preferred_bookmaker": "pinnacle",

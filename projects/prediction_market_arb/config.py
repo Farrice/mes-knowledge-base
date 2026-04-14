@@ -91,6 +91,23 @@ DEFAULTS = {
 
     # --- Phase 2: Intelligence Layer ---
 
+    "kalshi": {
+        "api_url": "https://api.elections.kalshi.com/trade-api/v2",
+        "sandbox_url": "https://demo-api.kalshi.co/trade-api/v2",
+        "use_sandbox": True,            # Use sandbox by default (safe)
+        "enabled": True,                # Enable Kalshi data ingestion
+        "scan_interval": 1800,          # Scan Kalshi every 30 min
+        "categories": ["politics", "economics", "crypto", "sports", "weather"],
+    },
+
+    "cross_platform": {
+        "enabled": True,
+        "min_match_confidence": 0.75,   # Minimum confidence to consider a match valid
+        "min_net_edge": 0.03,           # Minimum edge after combined fees (3%)
+        "max_structural_flags": 0,      # Any structural flag blocks the trade
+        "scan_interval": 1800,          # Cross-platform scan every 30 min
+    },
+
     "sports": {
         "odds_api_url": "https://api.oddspapi.io/v4",
         "preferred_bookmaker": "pinnacle",

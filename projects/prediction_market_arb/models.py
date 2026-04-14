@@ -58,12 +58,19 @@ class KillSwitchLevel(int, Enum):
     EMERGENCY = 3   # Full unwind, manual review required
 
 
+class Platform(str, Enum):
+    """Trading venue / prediction market platform."""
+    POLYMARKET = "polymarket"
+    KALSHI = "kalshi"
+
+
 class StrategyType(str, Enum):
     """Which strategy pipeline generated this opportunity."""
     WEATHER = "weather"         # Weather forecast arbitrage (ECMWF/HRRR/METAR)
     SPORTS_ARB = "sports_arb"   # Sportsbook reference price arbitrage (Vegas Anchor)
     ENSEMBLE = "ensemble"       # Multi-model LLM ensemble (politics/econ/tech)
     MARKET_MAKING = "market_making"  # Reward-optimized liquidity provision
+    CROSS_PLATFORM = "cross_platform"  # Cross-platform arb (Polymarket vs Kalshi)
 
 
 class MarketCategory(str, Enum):
@@ -314,6 +321,7 @@ class Opportunity:
     strategy: str                     # StrategyType value
     market_id: str
     token_id: str
+    platform: str = "polymarket"      # Platform value (polymarket or kalshi)
     question: str = ""
     category: str = ""                # MarketCategory value
     # Probability estimates
@@ -446,6 +454,100 @@ class RewardEstimate:
 
     @classmethod
     def from_dict(cls, d: dict) -> "RewardEstimate":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+# =============================================================================
+# CROSS-PLATFORM MATCHING (Phase 2.5 — Kalshi Integration)
+# =============================================================================
+
+@dataclass
+class CrossPlatformMatch:
+    """
+    A matched pair of contracts across Polymarket and Kalshi.
+
+    The contract matcher identifies markets on both platforms that refer
+    to the same underlying event, scores confidence, and flags structural
+    differences that could create false arbitrage.
+    """
+    # Polymarket side
+    poly_market_id: str
+    poly_question: str = ""
+    poly_price_yes: float = 0.0
+    poly_price_no: float = 0.0
+    poly_volume: float = 0.0
+    poly_end_date: str = ""
+    # Kalshi side
+    kalshi_ticker: str = ""
+    kalshi_title: str = ""
+    kalshi_price_yes: float = 0.0       # Kalshi uses cents (0-100), normalize to 0-1
+    kalshi_price_no: float = 0.0
+    kalshi_volume: int = 0
+    kalshi_end_date: str = ""
+    # Matching analysis
+    match_confidence: float = 0.0       # 0-1 overall confidence
+    text_similarity: float = 0.0        # Semantic similarity of questions
+    resolution_match: bool = False      # Do they resolve from the same source?
+    time_window_match: bool = False     # Do they close at the same time?
+    category: str = ""
+    # Structural differences (false arb flags)
+    structural_flags: list = field(default_factory=list)
+    # e.g., ["different_resolution_source", "different_cutoff_time", "different_settlement_rules"]
+    # Price gap
+    price_gap: float = 0.0             # poly_price - kalshi_price (signed)
+    price_gap_pct: float = 0.0         # As percentage
+    # Cross-platform fee drag (both platforms' fees combined)
+    combined_fee_drag: float = 0.0
+    net_edge: float = 0.0              # price_gap - combined_fee_drag
+    is_actionable: bool = False        # Net edge > 0 AND confidence > threshold AND no structural flags
+    timestamp: str = ""
+
+    def to_dict(self) -> dict:
+        return asdict(self)
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "CrossPlatformMatch":
+        return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
+
+
+@dataclass
+class KalshiMarket:
+    """A Kalshi prediction market contract."""
+    ticker: str                         # Kalshi ticker (e.g., "FED-26MAY-T4.50")
+    title: str = ""                     # Human-readable title
+    subtitle: str = ""                  # Additional context
+    category: str = ""                  # e.g., "Economics", "Politics"
+    status: str = ""                    # "open", "closed", "settled"
+    yes_price: float = 0.0             # Current yes price (cents, 1-99)
+    no_price: float = 0.0              # Current no price (cents, 1-99)
+    yes_bid: float = 0.0               # Best bid for yes
+    yes_ask: float = 0.0               # Best ask for yes
+    volume: int = 0                     # Total contracts traded
+    open_interest: int = 0              # Open contracts
+    end_date: str = ""                  # Expiration / close time (ISO)
+    settlement_source: str = ""         # What resolves the market
+    result: str = ""                    # "yes", "no", "" if not settled
+
+    @property
+    def yes_price_normalized(self) -> float:
+        """Normalize Kalshi cents (1-99) to 0-1 probability for Polymarket comparison."""
+        return self.yes_price / 100.0
+
+    @property
+    def no_price_normalized(self) -> float:
+        return self.no_price / 100.0
+
+    def to_dict(self) -> dict:
+        d = asdict(self)
+        d["yes_price_normalized"] = self.yes_price_normalized
+        d["no_price_normalized"] = self.no_price_normalized
+        return d
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "KalshiMarket":
+        d = dict(d)
+        d.pop("yes_price_normalized", None)
+        d.pop("no_price_normalized", None)
         return cls(**{k: v for k, v in d.items() if k in cls.__dataclass_fields__})
 
 

@@ -119,8 +119,44 @@ METAR_URL = "https://aviationweather.gov/api/data/metar"
 VISUAL_CROSSING_URL = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline"
 
 # =============================================================================
-# MONTHS (for Polymarket slug construction)
+# KALSHI API (Phase 2.5 — Cross-platform integration)
 # =============================================================================
+
+KALSHI_API_URL = "https://api.elections.kalshi.com/trade-api/v2"
+KALSHI_SANDBOX_URL = "https://demo-api.kalshi.co/trade-api/v2"
+KALSHI_WS_URL = "wss://api.elections.kalshi.com/trade-api/ws/v2"
+KALSHI_WS_SANDBOX_URL = "wss://demo-api.kalshi.co/trade-api/ws/v2"
+
+# Kalshi fee: 0.07 * P * (1-P) per contract, max 1.75 cents. Makers 0%.
+KALSHI_TAKER_FEE_RATE = 0.07
+KALSHI_MAX_FEE_CENTS = 1.75
+
+# Kalshi rate limits (Basic tier — upgrade via application)
+KALSHI_RATE_LIMITS = {
+    "basic": {"read_per_sec": 20, "write_per_sec": 10},
+    "advanced": {"read_per_sec": 30, "write_per_sec": 30},
+    "premier": {"read_per_sec": 100, "write_per_sec": 100},
+    "prime": {"read_per_sec": 400, "write_per_sec": 400},
+}
+
+# Cross-platform category overlap (for contract matching)
+CROSS_PLATFORM_CATEGORIES = [
+    "politics",     # Elections, legislation, appointments
+    "economics",    # Fed rates, CPI, GDP, unemployment
+    "crypto",       # BTC/ETH price targets, regulatory events
+    "sports",       # NFL, NBA, MLB game outcomes
+    "weather",      # Named storms, temperature records
+]
+
+# Combined fee drag for cross-platform arb (both sides)
+# Polymarket taker + Kalshi taker at p=0.50
+CROSS_PLATFORM_FEE_DRAG = {
+    "politics": 0.01 + 0.0175,    # ~2.75% combined
+    "economics": 0.01 + 0.0175,   # ~2.75%
+    "crypto": 0.018 + 0.0175,     # ~3.55%
+    "sports": 0.0075 + 0.0175,    # ~2.50%
+    "weather": 0.0125 + 0.0175,   # ~3.00%
+}
 
 # =============================================================================
 # SPORTSBOOK ODDS API (Phase 2 — Vegas Anchor strategy)
