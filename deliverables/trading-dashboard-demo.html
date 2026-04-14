@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prediction Market AI Trading System</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #111827;
+    --bg-card: #151c2e;
+    --bg-card-hover: #1a2338;
+    --bg-row-alt: #0d1220;
+    --border: #1e293b;
+    --border-light: #2a3548;
+    --text-primary: #e2e8f0;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --green: #22c55e;
+    --green-dim: #166534;
+    --green-glow: rgba(34,197,94,0.15);
+    --red: #ef4444;
+    --red-dim: #991b1b;
+    --yellow: #eab308;
+    --yellow-dim: #854d0e;
+    --blue: #3b82f6;
+    --blue-dim: #1e3a5f;
+    --purple: #a855f7;
+    --purple-dim: #581c87;
+    --cyan: #06b6d4;
+    --mono: 'SF Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  /* Header */
+  .header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo-mark {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, var(--blue), var(--cyan));
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.75rem;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+
+  .header-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .badge-yellow {
+    background: rgba(234,179,8,0.15);
+    color: var(--yellow);
+    border: 1px solid rgba(234,179,8,0.3);
+  }
+
+  .clock {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    min-width: 85px;
+    text-align: right;
+  }
+
+  /* Main Layout */
+  .main {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.25rem 1.5rem 2rem;
+  }
+
+  /* Summary Cards */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+
+  .card:hover {
+    border-color: var(--border-light);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+  }
+
+  .card-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-value {
+    font-family: var(--mono);
+    font-size: 1.75rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .card-sub {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+  }
+
+  .card-value.loss { color: var(--red); }
+  .card-value.neutral { color: var(--text-primary); }
+
+  /* Strategy Pipeline */
+  .section-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 0.75rem;
+  }
+
+  .pipeline-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pipeline-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
+
+  .dot-green {
+    background: var(--green);
+    box-shadow: 0 0 8px var(--green);
+    animation: pulse-green 2s ease-in-out infinite;
+  }
+
+  .dot-yellow {
+    background: var(--yellow);
+    box-shadow: 0 0 6px rgba(234,179,8,0.4);
+    animation: pulse-yellow 2.5s ease-in-out infinite;
+  }
+
+  .dot-gray {
+    background: var(--text-muted);
+  }
+
+  @keyframes pulse-green {
+    0%, 100% { box-shadow: 0 0 4px var(--green); }
+    50% { box-shadow: 0 0 12px var(--green), 0 0 20px rgba(34,197,94,0.2); }
+  }
+
+  @keyframes pulse-yellow {
+    0%, 100% { box-shadow: 0 0 4px rgba(234,179,8,0.4); }
+    50% { box-shadow: 0 0 10px rgba(234,179,8,0.5); }
+  }
+
+  .pipeline-info h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+  }
+
+  .pipeline-info p {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+  }
+
+  /* Tables */
+  .table-container {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+
+  .table-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .table-header h2 {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .table-header .live-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.75rem;
+    color: var(--green);
+    font-weight: 500;
+  }
+
+  .live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--green);
+    animation: pulse-green 1.5s ease-in-out infinite;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead th {
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-secondary);
+  }
+
+  tbody tr {
+    border-bottom: 1px solid rgba(30,41,59,0.5);
+    transition: background 0.15s;
+  }
+
+  tbody tr:nth-child(even) {
+    background: var(--bg-row-alt);
+  }
+
+  tbody tr:hover {
+    background: var(--bg-card-hover);
+  }
+
+  td {
+    padding: 0.7rem 1rem;
+    font-size: 0.85rem;
+    vertical-align: middle;
+  }
+
+  .strategy-badge {
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  .badge-weather {
+    background: var(--blue-dim);
+    color: var(--blue);
+    border: 1px solid rgba(59,130,246,0.3);
+  }
+
+  .badge-sports {
+    background: var(--green-dim);
+    color: var(--green);
+    border: 1px solid rgba(34,197,94,0.3);
+  }
+
+  .badge-ensemble {
+    background: var(--purple-dim);
+    color: var(--purple);
+    border: 1px solid rgba(168,85,247,0.3);
+  }
+
+  .market-text {
+    max-width: 280px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--text-primary);
+  }
+
+  .mono {
+    font-family: var(--mono);
+    font-size: 0.85rem;
+  }
+
+  .edge-positive {
+    color: var(--green);
+    font-weight: 700;
+    font-family: var(--mono);
+  }
+
+  .confidence-bar {
+    width: 60px;
+    height: 6px;
+    background: var(--bg-secondary);
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.4rem;
+  }
+
+  .confidence-fill {
+    height: 100%;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--blue), var(--cyan));
+  }
+
+  .confidence-text {
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+  }
+
+  .score-text {
+    font-family: var(--mono);
+    font-weight: 600;
+    color: var(--cyan);
+  }
+
+  .btn-buy {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 0.3rem 0.75rem;
+    border-radius: 5px;
+    border: 1px solid var(--border-light);
+    background: var(--bg-secondary);
+    color: var(--text-muted);
+    cursor: not-allowed;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+
+  /* Risk Dashboard */
+  .risk-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .risk-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+  }
+
+  .risk-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.5rem;
+  }
+
+  .risk-value {
+    font-family: var(--mono);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .risk-bar-track {
+    width: 100%;
+    height: 6px;
+    background: var(--bg-secondary);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .risk-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.5s ease;
+  }
+
+  .risk-bar-fill.safe { background: var(--green); }
+  .risk-bar-fill.warning { background: var(--yellow); }
+  .risk-bar-fill.danger { background: var(--red); }
+
+  .risk-sub {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+  }
+
+  .kill-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-family: var(--mono);
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--green);
+  }
+
+  .kill-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(34,197,94,0.15);
+    border: 2px solid var(--green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .kill-icon::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 8px var(--green);
+  }
+
+  /* Trade History */
+  .result-win {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    background: rgba(34,197,94,0.1);
+    border: 1px solid rgba(34,197,94,0.25);
+    border-radius: 4px;
+  }
+
+  .result-loss {
+    color: var(--red);
+    font-weight: 600;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    background: rgba(239,68,68,0.1);
+    border: 1px solid rgba(239,68,68,0.25);
+    border-radius: 4px;
+  }
+
+  .pnl-positive { color: var(--green); font-family: var(--mono); font-weight: 600; }
+  .pnl-negative { color: var(--red); font-family: var(--mono); font-weight: 600; }
+
+  .exit-type {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 1.25rem 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .footer-line {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+  }
+
+  .footer-line.version {
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  .footer-line.demo {
+    color: var(--yellow);
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-top: 0.25rem;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .cards-grid, .pipeline-grid, .table-container, .risk-grid {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+
+  .pipeline-grid { animation-delay: 0.1s; }
+  .table-container { animation-delay: 0.15s; }
+  .risk-grid { animation-delay: 0.2s; }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .cards-grid, .pipeline-grid, .risk-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .market-text { max-width: 200px; }
+  }
+
+  @media (max-width: 768px) {
+    .header { flex-wrap: wrap; gap: 0.5rem; }
+    .cards-grid, .pipeline-grid, .risk-grid {
+      grid-template-columns: 1fr;
+    }
+    .main { padding: 1rem; }
+    table { font-size: 0.8rem; }
+    td, th { padding: 0.5rem 0.6rem; }
+    .card-value { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-left">
+    <div class="logo-mark">AI</div>
+    <span class="header-title">Prediction Market AI Trading System</span>
+  </div>
+  <div class="header-right">
+    <span class="badge badge-yellow">Paper Mode</span>
+    <span class="clock" id="utc-clock">--:--:-- UTC</span>
+  </div>
+</header>
+
+<main class="main">
+
+  <!-- Portfolio Summary -->
+  <div class="cards-grid">
+    <div class="card">
+      <div class="card-label">Balance</div>
+      <div class="card-value neutral">$980.00</div>
+      <div class="card-sub">Started $1,000.00 &middot; -2.0%</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Open Positions</div>
+      <div class="card-value neutral">1</div>
+      <div class="card-sub">$20.00 deployed</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Win Rate</div>
+      <div class="card-value" style="color: var(--green);">66.7%</div>
+      <div class="card-sub">2W / 1L &middot; +$20.80 net</div>
+    </div>
+    <div class="card">
+      <div class="card-label">Total Trades</div>
+      <div class="card-value neutral">3</div>
+      <div class="card-sub">Avg hold: 1.8 days</div>
+    </div>
+  </div>
+
+  <!-- Strategy Pipeline -->
+  <div class="section-title">Strategy Pipeline</div>
+  <div class="pipeline-grid">
+    <div class="pipeline-card">
+      <div class="status-dot dot-green"></div>
+      <div class="pipeline-info">
+        <h3>Weather Arbitrage</h3>
+        <p>Active &mdash; 20 cities, 3 forecast sources</p>
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <div class="status-dot dot-yellow"></div>
+      <div class="pipeline-info">
+        <h3>Sports Arbitrage</h3>
+        <p>Ready &mdash; Awaiting API key activation</p>
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <div class="status-dot dot-yellow"></div>
+      <div class="pipeline-info">
+        <h3>AI Ensemble</h3>
+        <p>Ready &mdash; 3 models configured</p>
+      </div>
+    </div>
+    <div class="pipeline-card">
+      <div class="status-dot dot-gray"></div>
+      <div class="pipeline-info">
+        <h3>Market Making</h3>
+        <p>Phase 4 &mdash; Scoring built, execution deferred</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live Opportunities Table -->
+  <div class="table-container">
+    <div class="table-header">
+      <h2>Live Opportunities</h2>
+      <div class="live-indicator"><div class="live-dot"></div> Scanning 4 strategies</div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Strategy</th>
+          <th>Market</th>
+          <th>Our Est.</th>
+          <th>Mkt Price</th>
+          <th>Edge</th>
+          <th>Confidence</th>
+          <th>Score</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="strategy-badge badge-weather">Weather</span></td>
+          <td><span class="market-text">Highest temp in NYC on April 15 &mdash; 68-72&deg;F?</span></td>
+          <td class="mono">73%</td>
+          <td class="mono">$0.12</td>
+          <td><span class="edge-positive">+18.5%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:89%"></span></span>
+            <span class="confidence-text">0.89</span>
+          </td>
+          <td class="score-text">92.4</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-weather">Weather</span></td>
+          <td><span class="market-text">Highest temp in London on April 15 &mdash; 18-20&deg;C?</span></td>
+          <td class="mono">62%</td>
+          <td class="mono">$0.45</td>
+          <td><span class="edge-positive">+8.2%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:81%"></span></span>
+            <span class="confidence-text">0.81</span>
+          </td>
+          <td class="score-text">78.6</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-sports">Sports</span></td>
+          <td><span class="market-text">Will Lakers beat Celtics tonight?</span></td>
+          <td class="mono">58%</td>
+          <td class="mono">$0.51</td>
+          <td><span class="edge-positive">+7.0%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:74%"></span></span>
+            <span class="confidence-text">0.74</span>
+          </td>
+          <td class="score-text">71.2</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-sports">Sports</span></td>
+          <td><span class="market-text">Will Man City beat Arsenal?</span></td>
+          <td class="mono">44%</td>
+          <td class="mono">$0.38</td>
+          <td><span class="edge-positive">+6.0%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:68%"></span></span>
+            <span class="confidence-text">0.68</span>
+          </td>
+          <td class="score-text">65.8</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-ensemble">Ensemble</span></td>
+          <td><span class="market-text">Will Fed cut rates in May?</span></td>
+          <td class="mono">31%</td>
+          <td class="mono">$0.25</td>
+          <td><span class="edge-positive">+6.0%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:72%"></span></span>
+            <span class="confidence-text">0.72</span>
+          </td>
+          <td class="score-text">63.1</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-weather">Weather</span></td>
+          <td><span class="market-text">Highest temp in Tokyo on April 16 &mdash; 20-22&deg;C?</span></td>
+          <td class="mono">55%</td>
+          <td class="mono">$0.40</td>
+          <td><span class="edge-positive">+5.8%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:65%"></span></span>
+            <span class="confidence-text">0.65</span>
+          </td>
+          <td class="score-text">58.4</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-ensemble">Ensemble</span></td>
+          <td><span class="market-text">Will OpenAI release GPT-5 before June?</span></td>
+          <td class="mono">22%</td>
+          <td class="mono">$0.16</td>
+          <td><span class="edge-positive">+5.5%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:58%"></span></span>
+            <span class="confidence-text">0.58</span>
+          </td>
+          <td class="score-text">52.7</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+        <tr>
+          <td><span class="strategy-badge badge-sports">Sports</span></td>
+          <td><span class="market-text">Will Djokovic win French Open?</span></td>
+          <td class="mono">38%</td>
+          <td class="mono">$0.32</td>
+          <td><span class="edge-positive">+5.2%</span></td>
+          <td>
+            <span class="confidence-bar"><span class="confidence-fill" style="width:55%"></span></span>
+            <span class="confidence-text">0.55</span>
+          </td>
+          <td class="score-text">48.9</td>
+          <td><button class="btn-buy">BUY</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Risk Dashboard -->
+  <div class="section-title">Risk Dashboard</div>
+  <div class="risk-grid">
+    <div class="risk-card">
+      <div class="risk-label">Kill Switch</div>
+      <div class="kill-switch">
+        <span class="kill-icon"></span>
+        NORMAL
+      </div>
+      <div class="risk-sub">All 8 checks passing</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-label">Daily P&amp;L</div>
+      <div class="risk-value" style="color: var(--text-primary);">$0.00</div>
+      <div class="risk-bar-track">
+        <span class="risk-bar-fill safe" style="width: 0%;"></span>
+      </div>
+      <div class="risk-sub">Limit: -$10.00</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-label">Drawdown</div>
+      <div class="risk-value" style="color: var(--yellow);">2.0%</div>
+      <div class="risk-bar-track">
+        <span class="risk-bar-fill warning" style="width: 13%;"></span>
+      </div>
+      <div class="risk-sub">Limit: 15.0%</div>
+    </div>
+    <div class="risk-card">
+      <div class="risk-label">Global Exposure</div>
+      <div class="risk-value" style="color: var(--blue);">$20 / $50</div>
+      <div class="risk-bar-track">
+        <span class="risk-bar-fill safe" style="width: 40%;"></span>
+      </div>
+      <div class="risk-sub">40% utilized</div>
+    </div>
+  </div>
+
+  <!-- Trade History -->
+  <div class="table-container">
+    <div class="table-header">
+      <h2>Trade History</h2>
+      <div style="font-size:0.75rem; color:var(--text-muted);">3 completed trades</div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Market</th>
+          <th>Strategy</th>
+          <th>Entry</th>
+          <th>Exit</th>
+          <th>P&amp;L</th>
+          <th>Result</th>
+          <th>Exit Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>London Weather April 12</td>
+          <td><span class="strategy-badge badge-weather">Weather</span></td>
+          <td class="mono">$0.08</td>
+          <td class="mono">$0.92</td>
+          <td class="pnl-positive">+$16.80</td>
+          <td><span class="result-win">WIN</span></td>
+          <td class="exit-type">Resolution</td>
+        </tr>
+        <tr>
+          <td>NYC Weather April 11</td>
+          <td><span class="strategy-badge badge-weather">Weather</span></td>
+          <td class="mono">$0.15</td>
+          <td class="mono">$0.04</td>
+          <td class="pnl-negative">-$11.00</td>
+          <td><span class="result-loss">LOSS</span></td>
+          <td class="exit-type">Stop-loss</td>
+        </tr>
+        <tr>
+          <td>Chicago Weather April 10</td>
+          <td><span class="strategy-badge badge-weather">Weather</span></td>
+          <td class="mono">$0.10</td>
+          <td class="mono">$0.85</td>
+          <td class="pnl-positive">+$15.00</td>
+          <td><span class="result-win">WIN</span></td>
+          <td class="exit-type">Resolution</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-line version">System v0.2.0 &mdash; Phase 2: Intelligence Layer Complete</div>
+  <div class="footer-line">13 modules &middot; 4 strategies &middot; 8-check risk validation &middot; Quarter-Kelly sizing</div>
+  <div class="footer-line demo">DEMO MODE &mdash; All data simulated for demonstration purposes</div>
+</footer>
+
+<script>
+  // UTC Clock
+  function updateClock() {
+    const now = new Date();
+    const h = String(now.getUTCHours()).padStart(2, '0');
+    const m = String(now.getUTCMinutes()).padStart(2, '0');
+    const s = String(now.getUTCSeconds()).padStart(2, '0');
+    document.getElementById('utc-clock').textContent = h + ':' + m + ':' + s + ' UTC';
+  }
+  updateClock();
+  setInterval(updateClock, 1000);
+</script>
+
+</body>
+</html>
