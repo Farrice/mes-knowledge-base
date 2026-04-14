@@ -87,6 +87,7 @@
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
 | `paul-james` | **paul-james** | agency arbitrage, ai workflow automation monetization, modular service design, recurring revenue architecture, time-to-revenue translation, zero-cost positioning |
 | `pj-accetturo` | **PJ Accetturo** | ai video, brand-safe, production-grade, viral by design |
+| `prediction-market-strategist` | **prediction-market-strategist** | market making, prediction market trading — weather, risk management, sports/events |
 | `rachel-woods` | **Rachel Woods** | ai operations architect |
 | `remotion` | **Remotion** | ai video creation |
 | `robert-mack` | **Robert Mack** | comedy writing architect |

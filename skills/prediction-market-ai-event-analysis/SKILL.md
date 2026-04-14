@@ -1,0 +1,85 @@
+---
+name: "Prediction Market AI Event Analysis"
+description: "Information-transfer arbitrage for prediction markets — detect when market price deviates from superior reference price and capture convergence. Not forecasting."
+version: "1.0"
+format: "completion-engine"
+workflows: 3
+source: "MES 3.0 Deep Extraction — sovereign2013 + PolySwarm + ensemble bots (11 sources, 607 lines)"
+---
+
+# Prediction Market AI Event Analysis
+
+## Core Insight
+
+Prediction market trading is NOT a forecasting problem. It is an **information-transfer arbitrage** problem. The 7.6% of wallets that profit do not predict outcomes better than the market. They detect when the market's price deviates from a superior reference price (sportsbook odds, exchange spot prices, multi-model ensemble consensus) and capture the convergence.
+
+sovereign2013's $1-to-$3.3M run is the proof case: 37,247 bets in ~8 months, almost exclusively sports, Claude-powered. The bot does not "know" sports. It knows that Vegas knows sports, and that Polymarket participants don't know what Vegas knows.
+
+## What This Skill Does
+
+Three workflows covering the full prediction market trading pipeline:
+
+1. **Odds Discrepancy Scanner** (`workflows/odds-discrepancy-scanner.md`) — Scans active Polymarket sports/event markets against sportsbook reference odds. Converts to implied probabilities, identifies gaps exceeding fee drag, outputs ranked opportunity list with confidence levels and action recommendations.
+
+2. **Edge Validation & Sizing** (`workflows/edge-validation-sizing.md`) — Takes an identified discrepancy through a 6-point validation framework: data integrity, gap explanation, fee-adjusted edge, position sizing (quarter-Kelly), timing check, and kill conditions. Outputs a validated trade plan or rejection with reasons.
+
+3. **Multi-Model Ensemble** (`workflows/multi-model-ensemble.md`) — Runs independent analysis through 3 weighted perspectives (analytical 40%, credibility 35%, contrarian 25%), aggregates via Bayesian mixture with 30% market weight, outputs probability estimate with confidence, disagreement analysis, and trade recommendation.
+
+## Domain Context
+
+| Fact | Number | Source |
+|------|--------|--------|
+| Profitable wallets | 7.6% of 50,000+ | Wallet analysis |
+| Bot dominance | 14 of 20 top wallets | 2026 data |
+| Arbitrage window (2024) | 12.3 seconds avg | Market data |
+| Arbitrage window (2026) | 2.7 seconds avg | Market data |
+| Paper-to-live gap | 522x paper vs -49.5% live | Jung-Hua Liu v2 |
+| Annual extraction | ~$40M from Polymarket | Apr 2024-Apr 2025 |
+| Human underperformance | ~18% vs bots on same strategy | Behavioral analysis |
+
+## Critical Warnings
+
+1. **The paper-to-live gap is the central risk.** Multiply any paper edge by 0.5-0.7 before committing capital. If it doesn't survive the haircut, it isn't real.
+
+2. **Execution is 70% of success.** Slippage (2-4 cents), fees (0.75-2%), latency, and liquidity collectively destroy edges that look massive on paper.
+
+3. **Start with sports arbitrage, not crypto.** Sports have the best reference prices (sportsbook odds), the widest Polymarket inefficiency, and don't require sub-100ms infrastructure.
+
+4. **92.4% of wallets are unprofitable.** The three killers: oversized positions, late entries, inconsistent risk management.
+
+## Expert Weights (Multi-Model Ensemble)
+
+| Model | Weight | Strength |
+|-------|--------|----------|
+| GPT-4o | 40% | Broad analytical reasoning, statistical pattern recognition |
+| Claude | 35% | Source credibility evaluation, nuanced uncertainty reasoning |
+| Gemini | 25% | Contrarian perspective, alternative data interpretation |
+
+## Position Sizing Formula
+
+```
+Edge = (Your_Probability - Market_Price) / (1 - Market_Price)
+Position = 0.25 * Edge * Bankroll
+Cap at min(Position, 0.05 * Bankroll)
+```
+
+Hard caps: 5% single position, 15% correlated exposure, 5% daily drawdown circuit breaker.
+
+## Market Segmentation
+
+| Segment | Speed Required | Reference Price | Who Wins |
+|---------|---------------|----------------|----------|
+| Ultra-short crypto (5-15 min) | Sub-100ms | Exchange spot | Infrastructure bots only |
+| Sports events | Seconds | Sportsbook odds | Claude-speed bots |
+| Political/economic | Minutes | Polling/models | AI ensembles + judgment |
+
+## When to Use Each Workflow
+
+- **Known sportsbook odds + active Polymarket markets** -> Odds Discrepancy Scanner
+- **Identified gap needs validation before capital deployment** -> Edge Validation & Sizing
+- **Complex event market without clean reference price** -> Multi-Model Ensemble
+- **Full pipeline**: Scanner -> Ensemble (if scanner flags INVESTIGATE) -> Edge Validation -> Execute/Pass
+
+## Genius File
+
+`genius.md` contains: 12 Genius Patterns, 10 Hidden Knowledge items, 3 Exemplars + 1 Anti-Exemplar, 7 Signature Moves, and the Quality Rubric. Load for deep analysis, complex market evaluation, or when output quality needs to exceed score 7.

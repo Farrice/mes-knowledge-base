@@ -1,0 +1,91 @@
+{
+  "mode": "paper",
+  "trading": {
+    "kelly_fraction": 0.25,
+    "max_bet": 20.0,
+    "min_ev": 0.10,
+    "max_price": 0.45,
+    "max_slippage": 0.03,
+    "min_volume": 500,
+    "min_hours_to_resolution": 2.0,
+    "max_hours_to_resolution": 72.0
+  },
+  "risk": {
+    "max_position_per_market": 15.0,
+    "max_global_exposure": 50.0,
+    "max_daily_loss": 10.0,
+    "max_drawdown_pct": 0.15,
+    "min_24h_volume": 10000
+  },
+  "weather": {
+    "sigma_f": 2.0,
+    "sigma_c": 1.2,
+    "calibration_min": 30,
+    "scan_interval": 3600,
+    "monitor_interval": 600
+  },
+  "exits": {
+    "stop_loss_pct": 0.20,
+    "trailing_stop_trigger": 0.20,
+    "take_profit_48h_plus": 0.75,
+    "take_profit_24_48h": 0.85,
+    "forecast_change_buffer_f": 2.0,
+    "forecast_change_buffer_c": 1.0
+  },
+  "paper": {
+    "initial_balance": 1000.0,
+    "data_dir": ".agent/polymarket-paper"
+  },
+
+  "sports": {
+    "odds_api_url": "https://api.oddspapi.io/v4",
+    "preferred_bookmaker": "pinnacle",
+    "min_edge_pct": 0.055,
+    "vig_strip_method": "multiplicative",
+    "vig_strip_power_threshold": 300,
+    "match_confidence_min": 0.7,
+    "scan_interval": 1800,
+    "sports": [
+      "basketball_ncaab",
+      "basketball_nba",
+      "soccer_epl",
+      "soccer_uefa_champs",
+      "mma_mixed_martial_arts",
+      "cricket_ipl",
+      "americanfootball_nfl"
+    ]
+  },
+
+  "ensemble": {
+    "enabled": true,
+    "models": {
+      "analytical": {"provider": "openai", "model": "gpt-4o-mini", "weight": 0.40},
+      "credibility": {"provider": "anthropic", "model": "claude-haiku-4-5-20251001", "weight": 0.35},
+      "contrarian": {"provider": "google", "model": "gemini-2.5-flash", "weight": 0.25}
+    },
+    "market_weight": 0.30,
+    "min_edge_pct": 0.05,
+    "max_std_dev": 0.30,
+    "categories": ["politics", "economics", "ai_tech", "crypto"],
+    "max_calls_per_scan": 20,
+    "scan_interval": 3600
+  },
+
+  "market_selection": {
+    "strategy_allocation": {
+      "weather": 0.30,
+      "sports_arb": 0.50,
+      "ensemble": 0.20
+    },
+    "mm_reserve_pct": 0.0,
+    "min_composite_score": 0.5,
+    "max_concurrent_positions": 10,
+    "pre_filter": {
+      "min_volume": 5000,
+      "min_price": 0.05,
+      "max_price": 0.95,
+      "min_hours_to_resolution": 2.0,
+      "max_hours_to_resolution": 168.0
+    }
+  }
+}

@@ -155,6 +155,10 @@
 | `pdf` | **pdf** |  | 0 | 0 |
 | `pj-accetturo-ai-video` | **PJ Accetturo: AI Video Mastery** | ai video mastery | 4 | 14 |
 | `pptx` | **pptx** | presentation creation, editing, and analysis, when claude needs to work with presentations ( | 0 | 0 |
+| `prediction-market-ai-event-analysis` | **Prediction Market AI Event Analysis** | not forecasting | 3 | 0 |
+| `prediction-market-making` | **Prediction Market Making** |  | 3 | 0 |
+| `prediction-market-risk-management` | **Prediction Market Risk Management** | position sizing, portfolio risk, kill switches, and the paper-to-live gap | 3 | 0 |
+| `prediction-market-weather-trading` | **Prediction Market Weather Trading** |  | 3 | 0 |
 | `rachel-woods-ai-operations` | **Rachel Woods: AI Operations Mastery** | ai operations mastery | 3 | 7 |
 | `react-components` | **react:components** |  | 0 | 0 |
 | `remotion-video-creation` | **remotion-best-practices** | best practices for remotion - video creation in react | 0 | 0 |
