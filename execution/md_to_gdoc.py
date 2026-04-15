@@ -324,7 +324,34 @@ def upload_html_as_gdoc(html_path, name, folder_id=None):
         return None
 
 
-def convert_and_upload(md_path, folder_id=None):
+def set_pageless(doc_id):
+    """Set a Google Doc to pageless format (per project standard — ALL docs pageless)."""
+    payload = json.dumps({
+        "requests": [{
+            "updateDocumentStyle": {
+                "documentStyle": {
+                    "pageSize": {
+                        "width": {"magnitude": 612, "unit": "PT"},
+                        "height": {"magnitude": 1000000, "unit": "PT"},
+                    }
+                },
+                "fields": "pageSize",
+            }
+        }]
+    })
+    cmd = [
+        'gws', 'docs', 'documents', 'batchUpdate',
+        '--params', json.dumps({"documentId": doc_id}),
+        '--json', payload,
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"  ⚠ Pageless format failed: {result.stderr[:100]}")
+    else:
+        print(f"  ✓ Pageless format applied")
+
+
+def convert_and_upload(md_path, folder_id=None, name=None, pageless=True):
     """Convert a single markdown file and upload as Google Doc."""
     md_path = Path(md_path)
 
@@ -341,12 +368,22 @@ def convert_and_upload(md_path, folder_id=None):
 
     try:
         # Upload as Google Doc
-        doc_name = md_path.stem.replace('-', ' ').title()
-        # Keep number prefix for ordering
-        if md_path.stem[:2].isdigit():
-            doc_name = md_path.stem[:3] + doc_name[3:]
+        if name is None:
+            doc_name = md_path.stem.replace('-', ' ').title()
+            # Keep number prefix for ordering
+            if md_path.stem[:2].isdigit():
+                doc_name = md_path.stem[:3] + doc_name[3:]
+        else:
+            doc_name = name
 
         result = upload_html_as_gdoc(html_path, doc_name, folder_id)
+
+        # Apply pageless format
+        if result and pageless:
+            doc_id = result.get('id')
+            if doc_id:
+                set_pageless(doc_id)
+
         return result
     finally:
         os.unlink(html_path)
@@ -419,6 +456,7 @@ if __name__ == '__main__':
     parser.add_argument('--folder-id', help='Existing Google Drive folder ID to upload into')
     parser.add_argument('--create-folder', help='Create a new Drive folder with this name')
     parser.add_argument('--parent-id', help='Parent folder ID for new folder')
+    parser.add_argument('--name', help='Document title (overrides auto-generated name)')
     parser.add_argument('--html-only', action='store_true', help='Save as HTML locally (no upload)')
 
     args = parser.parse_args()
@@ -444,7 +482,7 @@ if __name__ == '__main__':
             parent_id=args.parent_id
         )
     elif input_path.is_file():
-        convert_and_upload(input_path, folder_id=args.folder_id)
+        convert_and_upload(input_path, folder_id=args.folder_id, name=args.name)
     else:
         print(f"Error: {input_path} not found")
         sys.exit(1)
