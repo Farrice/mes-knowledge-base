@@ -1,5 +1,5 @@
 # Knowledge Index
-*240 sources | 1,788,005 words | Updated: 2026-04-13*
+*240 sources | 1,788,005 words | Updated: 2026-04-14*
 
 ---
 
@@ -278,12 +278,17 @@
 - [backward-dissolution-principle](knowledge/synthesis/backward-dissolution-principle.md)
 - [constraint-as-creative-input](knowledge/synthesis/constraint-as-creative-input.md)
 - [dwell-time-narrative-gravity](knowledge/synthesis/dwell-time-narrative-gravity.md)
+- [emotional-frequency-engineering](knowledge/synthesis/emotional-frequency-engineering.md)
+- [four-act-revenue-sequence](knowledge/synthesis/four-act-revenue-sequence.md)
 - [gap-sales-psychology-screenwriting-bridge](knowledge/synthesis/gap-sales-psychology-screenwriting-bridge.md)
 - [gap-seo-content-psychology-bridge](knowledge/synthesis/gap-seo-content-psychology-bridge.md)
+- [insider-code-deployment](knowledge/synthesis/insider-code-deployment.md)
 - [machine-readable-identity](knowledge/synthesis/machine-readable-identity.md)
 - [mechanism-over-outcome](knowledge/synthesis/mechanism-over-outcome.md)
 - [single-truth-convergence](knowledge/synthesis/single-truth-convergence.md)
+- [tension-relief-architecture](knowledge/synthesis/tension-relief-architecture.md)
 - [the-2026-identity-convergence](knowledge/synthesis/the-2026-identity-convergence.md)
+- [the-3-percent-disruption-principle](knowledge/synthesis/the-3-percent-disruption-principle.md)
 - [the-persuasion-stack](knowledge/synthesis/the-persuasion-stack.md)
 - [universal-proof-architecture](knowledge/synthesis/universal-proof-architecture.md)
 
