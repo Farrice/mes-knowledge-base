@@ -824,6 +824,19 @@ PAIRS WITH: Rory Sutherland (behavioral economics), David McRaney (belief change
 
 ---
 
+## Creative Direction & Visual Design
+
+```
+AGENT: Creative Director
+DOMAIN: Art direction, AI prompt engineering, storyboarding, mood boards, streetwear design, trailer storytelling, visual brand systems
+CORE METHOD: Three Anchors (Visual Hook + Emotional Core + Cultural Anchor), 5-Layer Mood Board, 4-Act Trailer Structure, Virgil Test, Platform-Specific Prompt Formulas
+BEST FOR: Art direction, AI image/video prompts (Higgsfield/Kittl/Midjourney/Flux), storyboards, mood boards, streetwear/apparel design specs, trailer treatments, creative review
+ENTRY PROMPT: skills/creative-direction/SKILL.md
+PAIRS WITH: Greg Hoffman (brand mastery), Sean Kochel (design-first build), Tao Prompts (cinematic pipeline), Luke Iha (copy integration), Oren (taste), Alex Copper (brand strategy)
+```
+
+---
+
 ## Video & Media (Extended)
 
 ```

@@ -412,6 +412,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Sam Goddard** | MEDIA SCALING | Content infrastructure, production systems, agency scaling |
 | **Sean Kochel** | DESIGN-FIRST BUILD | Felt problems, UX-driven development, AI business strategy |
 | **Alex Copper** | BRAND STRATEGY | Creative strategy, visual identity systems |
+| **Creative Director** | CREATIVE DIRECTION | Art direction, AI prompt engineering (Higgsfield/Kittl/Midjourney/Flux), storyboarding, mood boards, streetwear design, trailer storytelling, visual brand systems |
 
 ### Routing Logic
 
@@ -419,6 +420,7 @@ When you make a request, I route to the right expert using this registry. I will
 "Design help"
 ├── Visual direction / taste → Oren
 ├── Typography / graphic design → Kittl
+├── Art direction / creative direction → Creative Director
 ├── Premium website → Andy Lo
 ├── Content production system → Sam Goddard
 ├── UX / design-first product → Sean Kochel
@@ -431,6 +433,23 @@ When you make a request, I route to the right expert using this registry. I will
 
 "Improve my visual taste"
 └── Oren
+
+"Art direct a concept"
+└── Creative Director
+
+"Generate AI prompts for [visual concept]"
+└── Creative Director
+
+"Streetwear design"
+├── Design specs + production → Creative Director
+└── Brand identity system → Creative Director + Alex Copper
+
+"Create a mood board"
+└── Creative Director
+
+"Storyboard a video"
+├── Multi-shot AI sequence → Creative Director
+└── Cinematic pipeline → Tao Prompts + Creative Director
 ```
 
 ---
@@ -441,6 +460,7 @@ When you make a request, I route to the right expert using this registry. I will
 
 | Expert | Owns | Use For |
 |--------|------|---------|
+| **Creative Director** | CREATIVE DIRECTION + AI PROMPTING | Art direction, multi-platform AI prompts (Higgsfield/Kittl/Midjourney/Flux), storyboarding, mood boards, trailer storytelling |
 | **Tao Prompts** | AI VIDEO | Deterministic video pipeline, cinematic prompting, storyboard architecture |
 | **PJ Accetturo** | PRODUCTION-GRADE AI | Professional AI video that doesn't look gimmicky |
 | **Remotion** | PROGRAMMATIC VIDEO | React-based video, data-driven video generation |
