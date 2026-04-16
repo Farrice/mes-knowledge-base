@@ -1,0 +1,1 @@
+Read and execute the workflow at `.agent/workflows/fladlien-candor.md` — "Radical candor copy and positioning"
