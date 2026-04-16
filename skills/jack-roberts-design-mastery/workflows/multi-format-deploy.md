@@ -106,6 +106,23 @@ For each format:
 3. Validate format-specific requirements
 4. Run Anti-Slop audit on each output
 
+### Phase 3.5: Image Generation Per Format
+
+For formats that need custom visuals (website heroes, presentation backgrounds, social graphics):
+
+1. Generate via **Kia API** (Nano Banana 2, ~$0.06/image)
+2. Write prompts that reference the DESIGN.md mood and color palette
+3. Ensure the same illustration style carries across formats — consistency includes imagery, not just layout
+4. Never use different stock photo styles across formats — one visual language everywhere
+
+### Phase 3.6: Emotional Consistency Check (Optional — Stack with Hoffman)
+
+If deploying a brand where emotional resonance matters:
+
+1. Run `/emotional-value` to define the brand's emotional core
+2. Map emotions to design tokens: Which colors evoke the target feeling? Which typography personality?
+3. Verify each format communicates the same emotion — a presentation shouldn't feel "corporate" if the website feels "warm"
+
 ### Phase 4: Cross-Format Consistency Check
 
 Place all generated formats side-by-side and verify:

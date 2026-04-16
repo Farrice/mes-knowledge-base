@@ -99,6 +99,11 @@ Final pass from the user's perspective:
 
 If any answer is "no" — identify the specific element causing doubt and fix it.
 
+5. **Sub-agent factcheck.** If the design contains any data, stats, claims, or research:
+   - Spin up sub-agents to verify every factual claim independently
+   - Replace anything unverifiable with confirmed data
+   - Source: *"I want you to spin up sub agents and fact check that research"* — this is non-negotiable for client-facing work
+
 ### Iteration Protocol
 
 After each round, document changes:

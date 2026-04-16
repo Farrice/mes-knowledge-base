@@ -183,6 +183,34 @@ After perfecting a design workflow, explicitly ask the AI to codify it as a reus
 | `kittl-graphic-design` | Specialist Feeder | Kittl handles typography and font psychology. Jack Roberts handles full design systems. Kittl's typography blueprints feed into DESIGN.md typography sections. |
 | `@oren` (taste-development) | Taste Calibration | Oren's CEV framework evaluates whether a design achieves excellence. Use Oren to judge; use Jack Roberts to build. |
 
+### Cross-Expert Stacking Chains
+
+| Chain | Produces | Deploy When |
+|-------|----------|-------------|
+| `/design-system-forge` × Oren `/taste-cev` | DESIGN.md that passes taste calibration — technically correct AND aesthetically excellent | Building for a premium brand where "good enough" isn't acceptable |
+| `/brand-dna-extraction` × Grace `/grace-city-blueprint` | Full city-level media brand with extracted visual identity | Building a new-media brand for a specific geographic market |
+| `/website-build` × Kochel `/design-first-build` | Research-validated, conversion-optimized website with professional design system | Client-facing website where conversion matters as much as aesthetics |
+| `/presentation-build` × Runia `/story-compass` | Presentations with narrative structural integrity — story that transforms | Any presentation meant to persuade, sell, or educate |
+| `/anti-slop-audit` × Kallaway `/five-input-content-gate` | Design that passes both visual quality AND content psychology gates | Any design asset that needs to convert (landing pages, sales presentations) |
+| `/design-skill-enshrine` × Saraev `/self-evolve` | Design skills that self-improve over time through automated annealing | A design skill used 5+ times that should auto-optimize |
+| `/multi-format-deploy` × Hoffman `/emotional-value` | Cross-format expression that feels emotionally consistent at every touchpoint | Deploying a brand where emotional resonance matters across channels |
+
+---
+
+## Application Patterns
+
+### 1. Design-as-Proof (Visual Proposal System)
+The proposal itself becomes the proof of competence. Extract the prospect's brand DNA → build an interactive HTML proposal in their visual language → send a 7-slide deck that says "I already understand your world" before they read a single word. Transforms the `/free-custom-sample` pipeline from voice-matched copy to voice-matched copy inside a branded presentation. Use `/visual-proposal-build`.
+
+### 2. White-Label Deliverable Packaging
+Every client deliverable — strategy docs, ICP profiles, research reports — gets auto-branded in the client's own visual language. Extract client DESIGN.md on intake → all future deliverables render in their brand automatically. A $2,000 strategy document in a branded PDF commands $5,000. Use `/branded-deliverable-package`.
+
+### 3. Brand-in-a-Box (Productized Service)
+Package the entire design pipeline as a sellable service: "Complete code-first design system in 48 hours" for $2,500-$5,000. Client gets DESIGN.md + sample website + presentation template + social templates + Anti-Slop certification. Effective rate: $208-$625/hour. The workflows do 90% of the production. Use `/brand-in-a-box`.
+
+### 4. Content Brand Recognition Engine
+Build a personal DESIGN.md for your content brand → auto-generate branded templates for carousels, newsletters, social cards, and thumbnails that are visually distinctive across platforms. Content becomes recognizable at a glance before anyone reads a word. Compounding recognition: every post reinforces the same visual language. Use `/content-brand-forge`.
+
 ---
 
 ## Hidden Knowledge
@@ -198,3 +226,15 @@ The final blocker isn't design capability — it's memory. Long design sessions 
 
 ### The One-Shot Proof
 Jack's demos show full websites built in a single prompt using DESIGN.md files — Lovable-style, Ollama-style, SpaceX-style. The quality proves the system works when the design philosophy is properly codified. One-shot quality is the benchmark.
+
+### Google Stitch Formalization
+The DESIGN.md format Jack Roberts demonstrates has been formalized by Google under the name **"Stitch"** — a structured markdown specification for AI-readable design systems. This means:
+- DESIGN.md is not a hack or workaround. It's becoming an industry standard.
+- Interoperability: DESIGN.md files built to Stitch spec work across tools, not just Claude.
+- Community: The `awesome-design-md` repository (56,100+ stars as of April 2026) has collected 55+ brand design systems in this format — Stripe, Linear, Vercel, Apple, Nike, Spotify, and more.
+- Cold-start elimination: Instead of building from scratch, fork a proven template and customize.
+
+Source: `github.com/xb1g/awesome-design-md` — grew from ~46k stars (at time of Jack's video) to 56.1k stars in weeks.
+
+### The Library-First Shortcut
+Jack explicitly demos the awesome-design-md library as the primary entry point for new design projects. The pattern: browse the library → find a brand system that matches your target aesthetic → fork it → customize tokens → generate. This eliminates the cold-start problem entirely and ensures your starting point is already at professional quality. Use `/design-library-import` to execute this pattern.

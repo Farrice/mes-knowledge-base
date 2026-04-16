@@ -10,6 +10,7 @@
 - **Option A — From Brand URL**: A website URL to extract design language from
 - **Option B — From References**: 2-5 visual references the user admires (screenshots, URLs, mood boards)
 - **Option C — From Scratch**: A verbal description of the desired aesthetic, audience, and purpose
+- **Option D — From Library (Fast Path)**: Fork a pre-built DESIGN.md from awesome-design-md (55+ brands, Google Stitch format). See `/design-library-import` for the full fork-and-customize workflow. Use this when the target brand exists in the library or when you want a proven starting point before customizing.
 
 ## Workflow
 

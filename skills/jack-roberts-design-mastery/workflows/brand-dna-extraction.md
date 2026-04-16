@@ -121,7 +121,38 @@ its values, market position, and target audience]
 What is the #1 thing that makes this brand visually distinctive?]
 ```
 
+### Step 9: Competitive Comparison Mode (Optional)
+
+If building a NEW brand that needs to differentiate from existing competitors:
+
+1. **Run Steps 1-8 on 2-3 competitor URLs** — produce a DESIGN.md for each
+2. **Build the Contrast Map:**
+
+```markdown
+## Competitive Brand DNA Comparison
+
+| Element | Competitor A | Competitor B | Competitor C | Gap / Opportunity |
+|---------|-------------|-------------|-------------|-------------------|
+| Primary Color | #______ | #______ | #______ | [What no one uses] |
+| Font Personality | [trait] | [trait] | [trait] | [Underserved register] |
+| Layout Density | [dense/airy] | [dense/airy] | [dense/airy] | [Unoccupied territory] |
+| Visual Signature | [their move] | [their move] | [their move] | [Differentiation angle] |
+| Animation Style | [approach] | [approach] | [approach] | [Unclaimed treatment] |
+| Overall Mood | [adjective] | [adjective] | [adjective] | [Emotional whitespace] |
+```
+
+3. **Differentiation Prescription:**
+   - Where ALL competitors cluster → go opposite
+   - Where competitors are weak → go strong
+   - What would make YOUR brand instantly distinguishable in a side-by-side screenshot?
+
+4. **Generate a Differentiated DESIGN.md** — deliberately built to occupy the visual whitespace competitors have left open.
+
+> **When to use**: Always run this mode when building a brand that will compete directly with established players. Never build a brand in a vacuum.
+
 ## Output
 - `DESIGN.md` — Complete design system extracted from the brand
 - `brand-assets/` — Extracted logos, screenshots, reference images
 - Confidence assessment: How complete is the extraction?
+- Competitive Contrast Map (if comparison mode used)
+- Differentiation Prescription (if comparison mode used)

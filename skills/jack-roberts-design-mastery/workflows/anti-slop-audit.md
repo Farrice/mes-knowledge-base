@@ -89,9 +89,42 @@ Drift Points:    [list of deviations]
 Missing Tokens:  [tokens needed but not in DESIGN.md]
 ```
 
+### Step 6: Content Truth Audit
+
+If the design contains any factual claims, statistics, quotes, or data:
+
+1. **Extract all truth-bearing elements:**
+   - Statistics and percentages
+   - Named sources, quotes, and attributions
+   - Product claims and feature descriptions
+   - Case study numbers and results
+   - Dates, timelines, and company names
+
+2. **Sub-agent factcheck deployment:**
+   > Jack Roberts: "I want you to spin up sub agents and fact check that research so the presentation is with actual truth."
+   
+   For each claim, verify:
+   | Check | Method |
+   |-------|--------|
+   | **Stat accuracy** | Cross-reference against original source — is the number correct? |
+   | **Source validity** | Does the cited source exist and actually say that? |
+   | **Currency** | Is this data still current, or has it been superseded? |
+   | **Context** | Is the stat presented in proper context, or misleading? |
+
+3. **Content Truth Score:**
+   ```
+   Claims Verified:    __/__ (percentage)
+   Corrections Needed: [list with corrected values]
+   Sources Missing:    [claims that need citation]
+   Outdated Data:      [stats that need refreshing]
+   ```
+
+> **Gate rule**: A design that scores 15/15 visually but contains false data is STILL slop. Content truth is the 16th dimension.
+
 ## Output
-- Anti-Slop Scorecard (15-point with pass/fail per item)
+- Anti-Slop Scorecard (15-point visual + content truth audit)
 - Grade (Zero Slop → Full Slop)
 - Prescription Document (specific fixes for each failure)
+- Content Truth Report (if factual claims present)
 - DESIGN.md Compliance Report (if applicable)
 - Revised design (optional — apply the fixes automatically)

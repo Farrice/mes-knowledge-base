@@ -82,6 +82,18 @@ Before presenting the build, run these checks:
 | **Typography has personality** | Weight, spacing, size variation creates rhythm |
 | **Mobile isn't an afterthought** | Mobile layout is deliberately designed, not just stacked |
 
+### Phase 4.5: Image Generation (Optional)
+
+If the site needs custom visuals (hero images, illustrations, icons):
+
+1. **Identify image needs** — list every visual element that can't be text/CSS alone
+2. **Generate via Kia API** (Nano Banana 2, ~$0.06/image):
+   - Write prompts that match the DESIGN.md mood and color palette
+   - Generate 2-3 options per image slot
+   - Select the one that best fits the brand personality
+3. **Optimize**: proper dimensions, lazy-loading, alt text
+4. **Never use stock placeholders** in the final output — generate or photograph
+
 ### Phase 5: Serve & Present
 1. Start a local development server
 2. Open in browser at correct viewport

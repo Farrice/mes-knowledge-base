@@ -17,6 +17,31 @@
 
 ## Workflow
 
+### Phase 0: Context Injection (Meeting-Aware Presentations)
+
+If this presentation is for a specific meeting, client, or project:
+
+1. **Check Granola for meeting transcripts:**
+   - Search for recent meetings with the client/stakeholder
+   - Extract key discussion points, decisions, and action items
+   - Pull direct quotes that should appear in the deck
+   - Note any commitments or metrics mentioned
+
+2. **Check Gmail/Calendar for context:**
+   - Upcoming meeting details (attendees, agenda, time constraints)
+   - Previous email threads with relevant data points
+   - Attachments or documents referenced in correspondence
+
+3. **Synthesize context brief:**
+   ```
+   Meeting Context: [who, when, what was discussed]
+   Key Points to Address: [from transcript/email]
+   Audience Expectations: [derived from prior interactions]
+   Data Points Available: [stats, metrics, claims from context]
+   ```
+
+> This phase is what separates a generic deck from a context-aware presentation. Jack Roberts: "I want you to pull the meeting transcript and use that to populate the content." Skip this phase ONLY for topic-driven (non-meeting) presentations.
+
 ### Phase 1: Presentation Architecture
 
 1. **Define the deck structure:**

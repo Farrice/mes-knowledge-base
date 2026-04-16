@@ -59,6 +59,11 @@ Search these sources systematically:
 3. **Mobbin** — Mobile UI patterns
 4. **Refero Design** — Real product screenshots
 
+**For DESIGN.md Systems (Google Stitch Format):**
+1. **awesome-design-md** (`github.com/xb1g/awesome-design-md`, 56k+ stars) — 55+ complete brand DESIGN.md files (Stripe, Linear, Vercel, Apple, Nike, etc.). Browse these to understand what world-class design systems look like in plain-text markdown before building your own.
+2. **Google Stitch** — The emerging standard for AI-readable design system specifications. All DESIGN.md files should follow or reference this format for maximum interoperability.
+3. Use `/design-library-import` to fork any of these as a starting point instead of building from scratch.
+
 ### Step 3: Reference Evaluation
 
 For each collected reference, document:
