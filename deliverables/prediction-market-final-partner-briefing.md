@@ -113,23 +113,26 @@ Importantly, the system doesn't only do cross-platform arbitrage — it also run
 
 ## The Real Numbers — What It Costs to Operate
 
-These are the system's operating costs — the data feeds, AI analysis, and infrastructure the trading system needs to run. These are separate from my compensation.
+These are the system's operating costs — the data feeds, AI analysis, and infrastructure the trading system needs to run. These are separate from my compensation. All costs below are on your card, not mine.
 
-### Phase 1: Paper Testing (No Real Money at Risk)
+I'm showing you the math behind every number so you can verify it yourself. The system runs 4 strategies on scheduled intervals: weather scans every 60 minutes, sports every 30 minutes, AI ensemble every 60 minutes (analyzing up to 20 markets per scan with 3 AI models each), and cross-platform matching every 30 minutes. That scan frequency drives the API costs.
 
-| Expense | Monthly Cost | Notes |
-|---------|-------------|-------|
-| Claude AI analysis | $7 | AI credibility model |
-| OpenAI analysis | $1 | AI analytical model |
-| Gemini analysis | $3 | AI contrarian model |
-| Sportsbook data feed (The Odds API) | $30 | Aggregated data covering 348 books |
-| Weather data (NOAA) | $0 | Free public data |
-| Polymarket / Kalshi API access | $0 | Free |
-| Server hosting (basic VPS) | $8 | Cloud server |
-| **Total** | **~$58/month** | |
+### Phase 1: Paper Testing — All 4 Strategies, 24/7 (No Real Money at Risk)
+
+| Expense | Monthly Cost | How the math works |
+|---------|-------------|---------------------|
+| Claude AI (Haiku 4.5) | $72 | ~480 calls/day × 2,000 input + 500 output tokens = 28.8M input ($28.80) + 7.2M output ($36) + contract matching (~$7). Pricing: [$1/$5 per M tokens](https://docs.anthropic.com/en/docs/about-claude/pricing) |
+| OpenAI (gpt-4o-mini) | $9 | ~480 calls/day, same token volume. Pricing: [$0.15/$0.60 per M tokens](https://platform.openai.com/pricing) |
+| Gemini (2.5 Flash) | $27 | ~480 calls/day. Pricing: [$0.30/$2.50 per M tokens](https://ai.google.dev/gemini-api/docs/pricing). Note: scheduled for deprecation June 2026; successor expected at comparable pricing |
+| Sportsbook data (The Odds API) | $30 | 7 sports × 2 credits/call × 48 scans/day = 672 credits/day = 20,160/mo. [$30/mo plan = 20,000 credits](https://the-odds-api.com/) — tight fit |
+| Weather data (NOAA) | $0 | [Free public API](https://weather-gov.github.io/api/general-faqs), no key required |
+| Polymarket API | $0 | [Free access](https://docs.polymarket.com/trading/fees) |
+| Kalshi API | $0 | [Free access](https://kalshi.com/fee-schedule) |
+| Server hosting (VPS) | $8 | Basic cloud server for paper testing |
+| **Total** | **~$146/month** | |
 | Trading capital at risk | **$0** | Paper trading = simulated money |
 
-The first paper trade was placed on April 14 — a London weather market. The test runs 30-60 days, targeting 200+ simulated trades against real market data. At the end, we'll have hard numbers: win rate, profit factor, and edge size by strategy. Total exposure to prove or disprove the system: roughly $60-$120.
+The first paper trade was placed on April 14 — a London weather market. The test runs 30-60 days, targeting 200+ simulated trades against real market data. At the end, we'll have hard numbers: win rate, profit factor, and edge size by strategy. Total exposure to prove or disprove the system: **roughly $300-$450 over 2-3 months.**
 
 **Important note on paper trading**: Simulation fills at quoted prices without modeling market slippage — a known optimism in all paper trading systems. On thin markets (weather, niche events), live fills may execute at slightly less favorable prices. This is factored into the conservative 50% discount applied to all return projections.
 
@@ -137,34 +140,44 @@ The first paper trade was placed on April 14 — a London weather market. The te
 
 | Expense | Monthly Cost | Notes |
 |---------|-------------|-------|
-| AI analysis (3 models combined) | $42 | Increased scan frequency |
-| Sportsbook data feed | $30 | Same plan |
-| Weather data | $0 | Still free |
+| Claude AI (Haiku 4.5) | $72 | Same scan frequency as testing |
+| OpenAI (gpt-4o-mini) | $9 | Same |
+| Gemini (2.5 Flash) | $27 | Same |
+| Sportsbook data (The Odds API) | $30 | Same plan |
+| Weather data (NOAA) | $0 | Still free |
 | Platform APIs | $0 | Still free |
 | Server hosting (production VPS) | $30 | More reliable, lower latency |
-| Trading fees (variable) | $15-50 | Comes out of trading returns |
-| **Total infrastructure** | **~$150/month** | |
+| Trading fees (variable) | $15-75 | [Polymarket taker: 0.75-1.80%](https://docs.polymarket.com/trading/fees); [Kalshi taker: max $0.02/contract](https://kalshi.com/fee-schedule). Comes out of returns |
+| **Total infrastructure** | **~$200-250/month** | |
 | Trading capital deployed | **$2,000 - $5,000** | Graduated, small positions |
 
-### Phase 3: Full Production (24/7, All Strategies)
+### Phase 3: Full Production (24/7, All Strategies, Scaled Up)
 
 | Expense | Monthly Cost | Notes |
 |---------|-------------|-------|
-| Claude AI analysis | $81 | High-frequency scanning |
-| OpenAI analysis | $11 | Full production load |
-| Gemini analysis | $33 | Full production load |
-| Sportsbook data feed | $59 | Higher-tier plan for 7 sports |
-| Weather data | $0-35 | Depends on source expansion |
+| Claude AI (Haiku 4.5) | $100-130 | Higher scan frequency + more markets analyzed per scan |
+| OpenAI (gpt-4o-mini) | $12-18 | Same scaling |
+| Gemini (2.5 Flash or successor) | $35-50 | Same scaling |
+| Sportsbook data (The Odds API) | $59 | [100K credit plan](https://the-odds-api.com/) — needed for 15-min scan intervals across 7 sports |
+| Weather data | $0-35 | NOAA free; [Visual Crossing paid tier at $35/mo](https://www.visualcrossing.com/weather-data-editions/) if expanded |
 | Platform APIs | $0 | Still free |
-| Server hosting (trading-grade VPS) | $60-100 | Low-latency, high-reliability |
+| Server hosting (trading-grade VPS) | $60-100 | [QuantVPS $60-$133/mo](https://www.quantvps.com/pricing) for low-latency |
 | Monitoring + domain | $16 | Uptime monitoring, alerts |
-| Trading fees (variable) | $50-200 | Scales with volume |
-| **Total infrastructure** | **~$400-650/month** | |
+| Trading fees (variable) | $75-300 | Higher volume = higher fees. These come out of returns, not overhead |
+| **Total infrastructure** | **~$450-750/month** | |
 | Trading capital deployed | **$25,000 - $100,000** | Full multi-strategy deployment |
 
-*Pricing sources: [Anthropic](https://docs.anthropic.com/en/docs/about-claude/pricing), [OpenAI](https://openai.com/api/pricing/), [Google AI](https://ai.google.dev/gemini-api/docs/pricing), [The Odds API](https://the-odds-api.com/), [QuantVPS](https://www.quantvps.com/pricing) — all verified April 2026. Note: one of the AI models (Gemini 2.5 Flash) is scheduled for deprecation in June 2026; the system will migrate to its successor at comparable pricing.*
+### Cost Summary — All Three Phases
 
-**Key point**: Infrastructure costs are manageable at every phase. The documented profitable bots spend $80-150/month on infrastructure while generating $24,000-$3,300,000 in returns. The constraint is finding real edges, not overhead costs.
+| Phase | Infrastructure/Mo | Trading Capital | Your Risk |
+|-------|------------------|----------------|-----------|
+| Paper testing (2-3 months) | ~$146 | $0 | API costs only — no capital at risk |
+| Small live (2-3 months) | ~$200-250 | $2,000-$5,000 | Small positions, graduated |
+| Full production (ongoing) | ~$450-750 | $25,000-$100,000 | Full deployment |
+
+*All pricing verified April 15, 2026 against official documentation: [Anthropic](https://docs.anthropic.com/en/docs/about-claude/pricing), [OpenAI](https://platform.openai.com/pricing), [Google AI](https://ai.google.dev/gemini-api/docs/pricing), [The Odds API](https://the-odds-api.com/), [Polymarket](https://docs.polymarket.com/trading/fees), [Kalshi](https://kalshi.com/fee-schedule), [QuantVPS](https://www.quantvps.com/pricing)*
+
+**Key point**: The biggest line item is AI analysis (~$108/month at paper testing volume). The documented profitable bots spend $80-200/month on infrastructure while generating $24,000-$3,300,000 in returns. The constraint is finding real edges, not overhead costs.
 
 ---
 
@@ -287,10 +300,10 @@ This is why Option A (retainer) is my recommendation. It acknowledges the realit
 
 Before committing to the full build or significant capital, we answer the most important question: **does this system actually find profitable edges in live market conditions?**
 
-Fund 30-60 days of paper trading — roughly $58/month in API and data costs, zero trading capital at risk. The system's first paper trade was placed April 14; data collection has begun. Over the full test period, the system runs all 4 strategies against real market data in simulation mode, targeting 200+ trades. At the end, we have hard numbers: win rate by strategy, profit factor, edge distribution.
+Fund 30-60 days of paper trading — roughly $146/month in API and data costs (see cost table above), zero trading capital at risk. The system's first paper trade was placed April 14; data collection has begun. Over the full test period, the system runs all 4 strategies against real market data in simulation mode, targeting 200+ trades. At the end, we have hard numbers: win rate by strategy, profit factor, edge distribution.
 
 If the numbers work: proceed with confidence.
-If they don't: total loss is $120, not $25,000.
+If they don't: total loss is $300-$450, not $25,000.
 
 ### Path 2: Go Straight to Full Build
 

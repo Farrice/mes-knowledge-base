@@ -68,16 +68,17 @@ Key facts to drop naturally:
 
 **What Kuya Pays (Ongoing Infrastructure — Vetted Numbers):**
 
-| Expense | Testing | Small Live | Full Production | Notes |
+| Expense | Testing (24/7) | Small Live | Full Production | Notes |
 |---------|---------|------------|-----------------|-------|
-| Claude Haiku API | $7 | $27 | $81 | Credibility model, every scan |
-| OpenAI gpt-4o-mini API | $1 | $4 | $11 | Analytical model |
-| Gemini Flash API | $3 | $11 | $33 | Contrarian model |
+| Claude Haiku API | $72 | $72 | $100-130 | Credibility model + contract matching |
+| OpenAI gpt-4o-mini API | $9 | $9 | $12-18 | Analytical model |
+| Gemini Flash API | $27 | $27 | $35-50 | Contrarian model |
 | Sportsbook data (Odds API) | $30 | $30 | $59 | 7 sports, 30min scans |
 | Weather data (NOAA) | $0 | $0 | $0-35 | Free public data |
 | Server hosting (VPS) | $8 | $30 | $60-100 | Production-grade for live |
 | Monitoring + domain | $0 | $1 | $16 | UptimeRobot/Datadog |
-| **Total infrastructure** | **~$58/mo** | **~$150/mo** | **~$400-650/mo** | |
+| Trading fees | $0 | $15-75 | $75-300 | Comes out of returns |
+| **Total infrastructure** | **~$146/mo** | **~$200-250/mo** | **~$450-750/mo** | |
 | Trading capital (when live) | $0 | $2,000-$5,000 | $25,000-$100,000 | Only after paper testing proves out |
 
 **Who Bears What Risk:**

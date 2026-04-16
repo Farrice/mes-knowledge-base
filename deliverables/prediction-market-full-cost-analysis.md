@@ -45,34 +45,33 @@ The original briefing's cost estimates were **correct for testing** (~$58/mo) bu
 
 ### Original Briefing vs Reality
 
-| Phase | Original Estimate | **Real Cost** | Delta |
-|-------|------------------|---------------|-------|
-| Testing (paper trading) | $38-64/mo | **~$58/mo** | Roughly correct |
-| Small Live ($2-5K capital) | $55-280/mo | **~$141-183/mo** | Low end was too low |
-| Full Production (24/7, $25-100K) | $55-280/mo | **~$396-654/mo** | **2-3x understated** |
+| Phase | Original Estimate | **Corrected (24/7 all strategies)** | Delta |
+|-------|------------------|--------------------------------------|-------|
+| Testing (paper trading, 24/7) | $38-64/mo | **~$146/mo** | **Was 2.5x too low** — didn't account for ensemble LLM calls |
+| Small Live ($2-5K capital) | $55-280/mo | **~$200-250/mo** | Midpoint was understated |
+| Full Production (24/7, $25-100K) | $55-280/mo | **~$450-750/mo** | **Significantly understated** |
 
 ### Full Production Breakdown (Worst Case — What to Actually Plan For)
 
 | Line Item | Monthly Cost | Source |
 |-----------|-------------|--------|
-| Claude Haiku 4.5 API | $81 | Anthropic pricing page |
-| OpenAI gpt-4o-mini API | $11 | OpenAI pricing page |
-| Gemini 2.5 Flash API | $33 | Google AI pricing page |
-| The Odds API (100K plan) | $59 | the-odds-api.com |
+| Claude Haiku 4.5 API | $100-130 | [$1/$5 per M tokens](https://docs.anthropic.com/en/docs/about-claude/pricing) |
+| OpenAI gpt-4o-mini API | $12-18 | [$0.15/$0.60 per M tokens](https://platform.openai.com/pricing) |
+| Gemini 2.5 Flash API | $35-50 | [$0.30/$2.50 per M tokens](https://ai.google.dev/gemini-api/docs/pricing) |
+| The Odds API (100K plan) | $59 | [the-odds-api.com](https://the-odds-api.com/) |
 | Weather data | $0-35 | NOAA free, Visual Crossing paid tier |
-| VPS (trading-grade) | $60-100 | QuantVPS / DigitalOcean |
+| VPS (trading-grade) | $60-100 | [QuantVPS](https://www.quantvps.com/pricing) |
 | Monitoring + domain | $16 | Datadog + registrar |
-| Polygon RPC node | $0-30 | Alchemy/Infura |
-| Trading fees (variable) | $50-200 | Polymarket/Kalshi fee schedules |
-| **TOTAL** | **$396-654/mo** | All cited |
+| Trading fees (variable) | $75-300 | [Polymarket](https://docs.polymarket.com/trading/fees) / [Kalshi](https://kalshi.com/fee-schedule) |
+| **TOTAL** | **$450-750/mo** | All cited |
 
 ### Critical Cost Insights
 
-1. **The Odds API is mandatory** — $30/mo minimum. Free tier (500 credits) is useless at your scan frequency (672 credits/day needed).
+1. **Claude Haiku is the biggest AI line item** ($72/mo at testing, $100-130/mo at production). The ensemble runs 3 models × 20 markets × 24 scans/day = 1,440 LLM calls/day. Claude handles the credibility model + contract matching. If upgraded to Sonnet ($3/$15 per M tokens), this triples.
 
-2. **Claude Haiku is the biggest AI line item** ($81/mo at full production). If you ever upgrade to Sonnet for better analysis, this triples to ~$243/mo.
+2. **The Odds API is mandatory** — $30/mo minimum. Free tier (500 credits) is useless at the configured scan frequency (672 credits/day needed). At production scale (15-min intervals), the $59 plan is required.
 
-3. **Trading fees are real but variable** — they come out of returns, not fixed overhead. At 200 trades/day with taker fees of 0.75-1.80%, this is $50-200/mo.
+3. **Trading fees are real but variable** — they come out of returns, not fixed overhead. Polymarket taker fees: 0.75-1.80% depending on category. Kalshi: max $0.02/contract.
 
 4. **Weather data and Polymarket/Kalshi APIs are genuinely free.** Original estimates were correct on these.
 
