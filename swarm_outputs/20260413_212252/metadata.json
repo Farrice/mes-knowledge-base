@@ -1,0 +1,33 @@
+{
+  "objective": "Polymarket weather bot trading strategy K niche markets data edge 2026",
+  "timestamp": "20260413_212252",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 11988,
+  "total_cost_usd": 0.0069,
+  "duration_seconds": 22.3,
+  "api_calls": 2,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5507,
+      "cost": 0.0031599,
+      "duration": 12.2,
+      "thinking_tokens": 1156,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6481,
+      "cost": 0.0037384000000000002,
+      "duration": 17.4,
+      "thinking_tokens": 1793,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

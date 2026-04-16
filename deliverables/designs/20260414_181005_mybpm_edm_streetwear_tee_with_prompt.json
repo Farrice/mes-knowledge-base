@@ -1,0 +1,12 @@
+{
+  "concept_name": "My.BPM Pulse Grid Tee",
+  "thesis": "A streetwear graphic that fuses the energetic, geometric aesthetic of EDM culture with minimalist design, embodying the PLUR ethos.",
+  "three_anchors": {
+    "visual_hook": "Intricate neon geometric pattern on a crisp black t-shirt.",
+    "emotional_core": "Community, positive energy, precision, modern rave nostalgia.",
+    "cultural_anchor": "EDM / Rave culture (PLUR visual aesthetics), high-end streetwear design."
+  },
+  "prompt": "A black premium cotton crew-neck t-shirt, laid perfectly flat, smooth and wrinkle-free, displaying a vibrant, intricate geometric graphic centered on the chest. The graphic features interlocking polygons, sharp angles, and radiating lines, forming an abstract representation of sound waves and fractal patterns. Integrated seamlessly within the geometric structure is the stylized text 'My.BPM' in a bold, angular geometric sans-serif typeface. The graphic uses a precise color palette of electric blue (#00FFFF), vibrant magenta (#FF00FF), and neon green (#00FF00) against the black fabric, creating a high-contrast, glowing effect. Seamless dark charcoal grey (#1A1A1A) studio background. Soft, diffused overhead studio lighting from a large softbox, casting minimal, subtle shadows to reveal fabric texture without obscuring the graphic. Overhead flat lay shot, Canon EOS R5, 50mm f/2.8 lens, ISO 100. Neutral 5500K. Futuristic, energetic, precise, clean, modern rave aesthetic. High-end streetwear catalog photography, influenced by 90s rave flyer geometry, Swiss graphic design principles.",
+  "negative_elements": "Wrinkles, creases, reflections, human model, distracting background elements, blurry details, overly complex or messy design, generic 'EDM' visuals like DJ decks or crowds, poor fabric texture.",
+  "art_direction_notes": "The design aims for a sophisticated take on rave aesthetics, using precise geometry and a limited, high-impact neon palette. The flat lay presentation ensures focus on the graphic itself, positioning it as a collectible art piece. The dark background enhances the graphic's glow, aligning with the electrifying energy of EDM. The integration of 'My.BPM' within the geometric design makes it a cohesive 'Art Piece' archetype."
+}

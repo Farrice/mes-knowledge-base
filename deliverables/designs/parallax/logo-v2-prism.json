@@ -1,0 +1,24 @@
+{
+  "concept": "Extreme close-up photograph of a triangular glass prism on a matte black surface, refracting a single beam of white light into violet and teal spectral bands. Shot on Hasselblad H6D-100c, 100mm macro lens, f/8, ISO 100. Studio lighting: single focused beam from left, otherwise complete darkness. The prism is crystal clear with razor-sharp edges catching the light. The refracted colors cast onto the black surface in clean geometric bands. Minimal, scientific, elegant. The photograph should feel like it belongs in a Wallpaper Magazine editorial about optics. No text, no other objects. Pure glass, pure light, pure precision.",
+  "design_type": "logo",
+  "style": "auto",
+  "aspect_ratio": "1:1",
+  "resolution": "2K",
+  "creative_direction": {
+    "concept_name": "Prism of Precision",
+    "thesis": "An extreme macro photograph capturing a triangular glass prism meticulously refracting a single white light beam into distinct violet and teal spectral bands on an absolute matte black surface, epitomizing scientific elegance and minimalist design.",
+    "three_anchors": {
+      "visual_hook": "Extreme macro close-up of a razor-sharp glass prism dramatically refracting vivid spectral light against an absolute black void.",
+      "emotional_core": "A sense of pristine scientific beauty, controlled precision, and sophisticated minimalist elegance.",
+      "cultural_anchor": "Editorial aesthetic of Wallpaper Magazine, high-end minimalist product photography, elevated scientific illustration."
+    },
+    "prompt": "Extreme macro close-up of a perfectly clear, equilateral triangular glass prism, its razor-sharp edges catching light, positioned centrally on an absolute matte black (#000000) surface. The background is pure, infinite inky blackness. A single, intensely focused beam of white light strikes the prism's top-left face at a precise 45-degree angle, causing crisp refraction. Two distinct, parallel geometric bands of vivid violet (#8A2BE2) and brilliant teal (#008080) light are cast onto the matte black surface directly beneath the prism's base. The remainder of the scene is in complete darkness. CAMERA: Hasselblad H6D-100c, 100mm macro lens, f/8 aperture, ISO 100. COLOR TEMPERATURE: Clinical, cool. MOOD/ATMOSPHERE: Scientific precision, minimalist elegance, controlled optical phenomenon, abstract beauty, stark. STYLE REFERENCE: Wallpaper Magazine editorial photography, minimalist luxury product photography, high-fidelity scientific illustration.",
+    "negative_elements": "Vague colors, soft focus, blurry edges, additional objects, reflections, dust, fingerprints, text, busy background, warm tones, diffused light, any elements distracting from the prism and refracted light.",
+    "art_direction_notes": "This prompt focuses on hyper-realistic macro photography to highlight the intricate beauty of optical physics. The extreme close-up and precise lighting transform a scientific phenomenon into a luxury aesthetic, aligning with the clean, sophisticated visual language of publications like Wallpaper Magazine. The stark contrast between the absolute black and the razor-sharp, vibrant spectral bands creates a powerful, iconic visual mark, suitable for a 'logo' type image through its simplicity and strong graphic impact."
+  },
+  "final_prompt": "Extreme macro close-up of a perfectly clear, equilateral triangular glass prism, its razor-sharp edges catching light, positioned centrally on an absolute matte black (#000000) surface. The background is pure, infinite inky blackness. A single, intensely focused beam of white light strikes the prism's top-left face at a precise 45-degree angle, causing crisp refraction. Two distinct, parallel geometric bands of vivid violet (#8A2BE2) and brilliant teal (#008080) light are cast onto the matte black surface directly beneath the prism's base. The remainder of the scene is in complete darkness. CAMERA: Hasselblad H6D-100c, 100mm macro lens, f/8 aperture, ISO 100. COLOR TEMPERATURE: Clinical, cool. MOOD/ATMOSPHERE: Scientific precision, minimalist elegance, controlled optical phenomenon, abstract beauty, stark. STYLE REFERENCE: Wallpaper Magazine editorial photography, minimalist luxury product photography, high-fidelity scientific illustration.",
+  "iterations": 1,
+  "total_cost_usd": 0.0055,
+  "total_tokens": 5044,
+  "output_path": "deliverables/designs/parallax/logo-v2-prism.png"
+}

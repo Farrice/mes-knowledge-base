@@ -1,6 +1,6 @@
 # AI SETUP GUIDE FOR COACH COOZ
 ## How to use Google Gemini + NotebookLM to execute the Ignition Plan
-## Date: 2026-04-09
+## Date: 2026-04-14
 
 ---
 

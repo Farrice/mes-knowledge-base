@@ -204,6 +204,12 @@ The index lives at `/results`. Not `/case-studies` — `/results` is shorter, mo
 - Fraunces 400 italic subhead: `[No avatars. No cropped shots. No anonymous quotes.]`
 - Below the subhead, a small honest-state disclosure (Ignition Phase only): `[As of [date], the published proof stack holds [N] cases. New cases ship as clients complete the 12 weeks.]`
 
+**Week 1 empty-shelf state** (CRITICAL — what `/results` looks like with zero case studies):
+- Do NOT publish `/results` until at least 1 case study exists. An empty results page is worse than no results page.
+- Instead, during Weeks 1-4, the CTA everywhere points to the Triage Audit booking, not to `/results`.
+- When Brian's case study publishes (target: Week 4), `/results` goes live with one card and the honest-state disclosure: "As of [date], the published proof stack holds 1 case. New cases ship as clients complete the 12 weeks."
+- The page grows organically — 1 card in Week 4, 2-3 by Week 8, 4+ by Week 13. Premium brands never show empty shelves.
+
 **Filter bar** (sticky at top of grid when scrolling on desktop):
 - Three filters, matching UP's structure exactly:
   1. **Sex** — All / Male / Female

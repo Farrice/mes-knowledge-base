@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "paris",
+      "timestamp": "2026-04-14T06:29:50.122652+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 18.2,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 18.2,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    },
+    {
+      "city": "paris",
+      "timestamp": "2026-04-14T06:31:24.344631+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 18.2,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 18.2,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    }
+  ]
+}

@@ -1,146 +1,140 @@
-# THE 7 COMMITMENT QUESTIONS
-## For Farrice to run with Cooz BEFORE the Ignition Plan goes live
-## Date: 2026-04-08
+# THE 7 ALIGNMENT QUESTIONS
+## A conversation for Farrice and Cooz to have BEFORE the Ignition Plan goes live
+## Date: 2026-04-14
 
-These are the questions that govern execution. They are not strategy questions — they are commitment questions, discipline questions, and reality-check questions. The Ignition Plan only works if Cooz can answer each one without flinching.
+These aren't test questions. There are no wrong answers. These are the 7 things I want us to be aligned on before we start running. If any of them feel uncertain, that's just a conversation we need to have — not a problem.
 
-**Run these as a 30-minute conversation**, not as a form. Cooz should answer out loud. Farrice writes down the answers in a shared note. The soft answers (any hesitation, any "let me think about it," any reframing of the question to avoid the answer) become blockers for the week they govern.
+The Ignition Plan is built on specific assumptions. These questions are how we check those assumptions together, out loud, so we're not 3 weeks in wondering why something isn't landing.
 
----
-
-## Question 1 — The Archetype Recognition Test
-
-*"The plan calls your Ignition buyer 'The Man in the Valley' — an adult man who's hit his own bottom, runs his own thing, can pay $2K to $4K, drawn to your story over your credentials. He's a tradesman, a small-business operator, a coach, a creative practice owner. Not a founder. Not an executive. Not a C-suite.*
-
-*Can you name 3 real men you ALREADY KNOW — not invent, name — who match that description? Say their names out loud. If you can't name 3 right now, we don't have an archetype, we have a theory, and Tactic 1 dies on day one."*
-
-**What passes**: 3 first names, immediate, with a one-sentence description of each man's actual situation. Bonus if any of them are in Cooz's warm network.
-
-**What fails**: "Well, probably some of my LinkedIn connections..." / "I'd have to think about it..." / "Most of the guys I train already have their shit together..." — any of these mean we don't have the archetype. Go back to the Playbook and read it together until 3 real names come up.
-
-**Why it matters**: Tactic 1 (warm-network voice memo activation) requires Cooz to personally message specific men he thinks match the archetype. If he can't name 3, the warm network activation has no direction and dies.
+**Best as a 30-minute conversation**, not a form. Talk through them. I'll take notes so we both have something to reference. If anything feels off or unclear, that's the most useful signal we can get right now — it means we need to adjust something before we start, not after.
 
 ---
 
-## Question 2 — The Warm Network Voice Memo Commitment
+## Question 1 — Who Are We Talking To?
 
-*"Are you willing to record and send 20 personalized voice memos in Week 1 — recorded voice, not text, not mass DMs, not video that took 30 minutes to set up — actual 60-second voice memos sent through the warmest channel you have to each person? Yes or no. If you're going to think about it or post on Instagram first, Tactic 1 dies and the plan loses its fastest channel."*
+*"The plan is built around a specific buyer — 'The Man in the Valley.' An adult man who's hit his own bottom, runs his own thing, can invest $2K to $4K in himself, and is drawn to your story over your credentials. He's a tradesman, a small-business operator, a coach, a creative practice owner. Not a founder. Not an executive. Not C-suite.*
 
-**What passes**: "Yes. I'll send the first 5 by end of day Monday." Specific. Time-bound. No hedging.
+*Can you think of 3 real men you already know who fit that description? Even loosely. Say their names — I want to see if we're picturing the same person."*
 
-**What fails**: "I'll try" / "Maybe not voice, maybe just text for some of them" / "I'd rather post on LinkedIn first and see what happens" — any of these mean Cooz is looking for a lower-friction way out, and the plan's fastest channel is already degrading before Week 1 starts.
+**What we're looking for**: Real names. Guys Cooz has actually met, trained, or talked to. If 3 come to mind quickly, we know the archetype is grounded in reality. If it's hard to think of anyone, that's not a failure — it just means we need to sharpen who we're actually going after before we start reaching out.
 
-**Why it matters**: Warm network voice memos are the FASTEST-velocity channel in the Ignition Plan (per Carlos Salas + Kelly Coffey precedents). If Cooz substitutes a lower-friction tactic (mass DM, text, Instagram post), the channel underperforms and the founding cohort doesn't close by Week 4. The cash runway breaks.
-
----
-
-## Question 3 — The Brand Lane Discipline
-
-*"Will you hold the 3-lane content split — Mon/Wed/Fri grounded practical, Sunday mythic, sales page only at full voltage — for 13 straight weeks?*
-
-*When a Lane A post gets 12 likes in Week 4 and you want to ratchet up the resurrection language to compensate, will you hold the line?*
-
-*This is a discipline question, not a strategy question. The plan only works if you can hold it."*
-
-**What passes**: "Yes. I'll hold the line. If a post underperforms I'll look at the hook, not the lane." Clear. Committed. Owns the discipline.
-
-**What fails**: "Well, if the mythic stuff works better I might just do more of that" / "I like the mythic voice — why do I need to hold back?" — these mean Cooz will collapse the lanes into mythic-everywhere within 2 weeks, repel the adjacent buyer, and lose the signal.
-
-**Why it matters**: The tribal code gap in the Playbook is clear — the Man in the Valley performs hustle culture but actually resonates with slow craftsman energy. Mythic-everywhere repels him by making Cooz sound like a spiritual guru instead of a peer who walked the same valley. The lane discipline is what keeps the adjacent buyer from closing the tab in the first 4 seconds.
+**How this connects**: Tactic 1 (warm-network voice memo activation) asks Cooz to personally message men who match this archetype. The clearer the picture, the more natural those messages feel.
 
 ---
 
-## Question 4 — The Founding Rate Commitment
+## Question 2 — Voice Memos: Are You In?
 
-*"Are you OK quoting $1,997 in writing AND in conversation for the first 3 founding clients?*
+*"The fastest path to founding clients is personalized voice memos — 60-second recorded messages sent through whatever channel feels most natural for each person. The plan calls for 20 of these in Week 1.*
 
-*Not $5K. Not 'starts at $1,997 but for you it's $5K.' Not 'I'll make a special exception.' $1,997, founding-rate, named as a discount in exchange for case study participation.*
+*Not text. Not mass DMs. Not a polished video that takes 30 minutes to set up. Just you, talking to one person at a time.*
 
-*If you can't say that price out loud without flinching, the founding cohort doesn't close and the price-drift cycle continues for another 90 days."*
+*How does that feel? Are you good with that approach?"*
 
-**What passes**: "Yes. $1,997 for the first 3. Named as a founding rate. I'll commit to it in writing before Monday." Clean. Unambiguous.
+**What we're looking for**: A genuine yes. It doesn't have to sound like a military commitment — just honest willingness. If something about the format feels off (maybe text feels more natural for some people, maybe 20 feels like a lot for one week), let's talk about it now. We can adjust the number or the pacing. What we can't do is substitute a lower-effort channel and expect the same result.
 
-**What fails**: "I mean, I could do $2,500?" / "What if someone can pay $5K, shouldn't I take it?" / "$1,997 feels low for what I'm offering" — any of these mean Cooz will silently push the price up in conversation, break the founding framing, and continue the discount-but-don't-commit cycle that's already cost him 6 months of closes.
-
-**Why it matters**: The price drift ($10K → $5K → $4K → closing nothing) is the loudest business signal in the entire engagement. Cooz's emotional attachment to higher prices is the exact thing killing the close rate. The founding rate is LOWER than any price he's attempted, which is precisely why it will work — it's calibrated for a different buyer at a different proof level. If Cooz can't commit to the number, the test doesn't run.
+**How this connects**: Voice memos are the highest-warmth, fastest-velocity channel in the plan (based on Carlos Salas and Kelly Coffey precedents). They're what closes the founding cohort by Week 4. If we go with a different approach, we need to recalibrate the timeline.
 
 ---
 
-## Question 5 — The In-Person Cut-Off Trigger
+## Question 3 — Holding the Content Lanes
 
-*"The trigger to permanently close in-person intake is first $10K MRR from online-only clients OR 3 published online-only case studies, whichever happens first.*
+*"The content strategy runs on a 3-lane split — Mon/Wed/Fri grounded and practical, Sunday mythic, sales page at full voltage. Each lane speaks to a different part of the buyer's brain.*
 
-*After the trigger fires, no new in-person clients. Are you committing to that trigger now, in writing, before you take the first hybrid client? Or do you want a different trigger?"*
+*Here's the hard part: if a Lane A post gets 12 likes in Week 4 while the mythic stuff is popping off, the move is to fix the hook — not to abandon the lane and go mythic-everywhere.*
 
-**What passes**: "Yes. First $10K MRR online OR 3 online case studies. Committed." OR "I want a different trigger — let's define it now." Either is acceptable, as long as the trigger is specific and written down.
+*Can you hold that discipline for 13 weeks? And if it gets frustrating, can you bring it to me instead of just pivoting on your own?"*
 
-**What fails**: "Let's figure it out when we get there" / "It depends on the client" / "I kind of like the hybrid thing long-term" — these mean the plan's end-state (fully online per Farrice's clarification) collapses into a hybrid-permanent Burbank gig, and the $10K–$20K online revenue target never materializes.
+**What we're looking for**: Honest commitment to the structure, with the understanding that frustration is normal and expected. The key isn't that Cooz never feels the pull to go all-mythic — it's that when he does, we talk about it instead of silently shifting.
 
-**Why it matters**: The hybrid model is comfortable. In-person clients pay faster, show up more consistently, and are easier to close. Without a structural trigger, the business will calcify into a local gig and the online tier will never get the attention it needs to compound. The trigger is the commitment device that makes the online-only end-state possible.
-
----
-
-## Question 6 — Brian's Publish Readiness
-
-*"When is Brian's case study actually shippable?*
-
-*The plan assumes Brian's case study publishes in Week 4 as the first male proof asset. If it's weeks away, the content engine starts later, and we need a backup male case study from your archive — at least one earlier client willing to be packaged retroactively.*
-
-*Who's the backup if Brian isn't ready?"*
-
-**What passes**: A specific date ("Brian is done Week 3, testimonial captured Week 4, I can publish by Friday of Week 4") OR a named backup ("If Brian isn't ready, I'll package [name] — he finished his transformation last summer and would say yes to a case study").
-
-**What fails**: "Brian's close but not there yet, we'll figure it out" / "I don't really have anyone to fall back on" — these mean the proof asset pipeline has no real start date, and the whole content engine is running without proof for 6+ weeks instead of 4.
-
-**Why it matters**: Brian is the ONLY male case study in the pipeline right now. Cooz's strongest photo proof is with women. Without Brian's case study by Week 4, the content engine has no male proof asset to showcase, and the Man in the Valley's beliefs-that-block kick in ("I'm not the guy in the transformation photos"). The timing matters for the compounding.
+**How this connects**: The Man in the Valley does hustle culture on the surface but actually resonates with slow craftsman energy. Mythic-everywhere makes Cooz sound like a spiritual guru instead of a peer who walked the same valley. The lane discipline is what keeps that buyer from closing the tab in the first 4 seconds.
 
 ---
 
-## Question 7 — The Release Form Baseline
+## Question 4 — The Founding Rate
 
-*"Do you have a written publication release for Brian, Angie, Mari, and any other client whose photos and story you intend to publish?*
+*"For the first 3 clients, the plan uses a founding rate: $1,997. Named openly as a discount in exchange for their participation as case studies.*
 
-*If the answer is 'no' or 'I think so,' Week 1 has a legal task: write the one-page release form and get it signed by every published client before any case study goes live.*
+*Not $5K. Not 'starts at $1,997 but for you it's more.' A clean number, positioned as a founding offer.*
 
-*Are you OK doing that this week?"*
+*How does that number feel to you? Can you say it in conversation without second-guessing it?"*
 
-**What passes**: "No, I don't have one. I'll write and sign them this week." Honest. Action-oriented.
+**What we're looking for**: Comfort with the number. If $1,997 feels too low for what Cooz is offering, that's worth talking about — but the reasoning matters. The price drift from $10K to $5K to $4K without closing is the loudest signal in the whole engagement. This founding rate is intentionally lower because it's calibrated for a different buyer at a different proof level. It's not undervaluing the work — it's buying the proof that lets Cooz charge more later.
 
-**What fails**: "I mean, they said it was fine verbally" / "I don't want to make it weird with Brian" — these mean the plan ships without legal baseline, and any client who later changes their mind creates a real problem (takedowns, legal threats, brand damage).
+**How this connects**: If the number doesn't feel right, Cooz will unconsciously push it up in conversation and break the founding framing. Better to land on a number we both believe in now than to have the price drift continue for another 90 days.
 
-**Why it matters**: A one-page release form takes 20 minutes to draft and 2 minutes per client to sign. The cost of skipping it is a published case study that has to be pulled months later because the client "didn't realize how public it would be." This is a baseline professionalism check, not a legal trap.
+---
+
+## Question 5 — When Does In-Person End?
+
+*"The plan's end-state is fully online. But the transition needs a specific trigger — a moment where we both look at the numbers and say 'OK, the online side is real.'*
+
+*The suggested trigger: first $10K MRR from online-only clients OR 3 published online-only case studies, whichever comes first. After that, no new in-person clients.*
+
+*Does that trigger feel right to you? If you'd rather define a different one, let's do that now."*
+
+**What we're looking for**: Agreement on a specific, written trigger — whether it's this one or a different one Cooz prefers. Either works. What doesn't work is "we'll figure it out when we get there," because the hybrid model is comfortable, and without a clear marker, the online tier never gets the attention it needs to compound.
+
+**How this connects**: In-person clients pay faster and are easier to close. That's exactly why the transition needs a structural commitment — left to gravity, the business stays local. The trigger is a tool for Cooz, not a constraint on him.
+
+---
+
+## Question 6 — Brian's Timeline
+
+*"The plan assumes Brian's case study publishes in Week 4 as the first male proof asset. Is that realistic?*
+
+*If Brian's further out than that, no problem — we just need a backup. Someone from your archive who finished a transformation and would be willing to be packaged as a case study retroactively.*
+
+*What's the honest timeline on Brian, and who's the backup if he's not ready?"*
+
+**What we're looking for**: A realistic date for Brian, and ideally a backup name. If the answer is "Brian's close but I'm not sure," that's fine — we just plan around it. The content engine can start without male proof, but it's significantly stronger with it.
+
+**How this connects**: Brian is currently the only male case study in the pipeline. Cooz's strongest visual proof is with women. Without a male proof asset by Week 4, the Man in the Valley's inner voice says "I'm not the guy in the transformation photos." Having a backup ready means the timeline holds even if Brian needs more time.
+
+---
+
+## Question 7 — Release Forms
+
+*"Quick practical one. Do you have a written publication release for Brian, Angie, Mari, and anyone else whose photos and story you plan to publish?*
+
+*If not, it's a 20-minute task — write a one-page form, get it signed before any case study goes live. Nothing fancy. Just protection for both you and your clients.*
+
+*Can you knock that out this week?"*
+
+**What we're looking for**: A yes, or an honest "no, but I'll handle it." If it feels awkward to ask clients to sign something, we can talk about how to frame it. Most clients appreciate it — it shows professionalism and makes them feel like their story is being handled with care.
+
+**How this connects**: A verbal "yeah, it's fine" from a client can turn into "I didn't realize how public it would be" six months later. The release form takes 20 minutes to draft and 2 minutes per client to sign. It's a small task that prevents a real problem.
 
 ---
 
 ## HOW TO USE THIS DOCUMENT
 
-1. **Schedule a 30-minute call** with Cooz. Not async. Voice or video.
-2. **Ask the questions in order.** Do not paraphrase. Read them out loud.
-3. **Write the answers down** in a shared note while Cooz is still on the call.
-4. **If any question gets a soft answer**, mark it with a ⚠️ in the notes. The soft-answer question becomes a BLOCKER for the specific milestone it governs.
-5. **Send the notes back to Cooz** within 24 hours as the commitment record. Ask him to reply "confirmed" or flag any answer he wants to change.
+1. **Have the conversation.** 30 minutes, voice or video. Not async.
+2. **Go through the questions in order.** Use the wording above or put it in your own words — whatever feels natural.
+3. **Take notes together.** Write down where you're aligned and where anything feels uncertain.
+4. **If something feels shaky, talk it through.** Better to spend 30 minutes getting aligned than 30 days pulling in different directions. Uncertainty isn't a blocker — it's a starting point for a better conversation.
+5. **Send the notes back to Cooz** within 24 hours so you both have a shared reference point.
 
 ---
 
-## THE BLOCKER MATRIX
+## WHERE EACH QUESTION CONNECTS
 
-| Question | What it blocks if soft |
+| Question | What it feeds in the plan |
 |---|---|
-| Q1 — Archetype recognition | Warm-network activation (Tactic 1) cannot start |
-| Q2 — Voice memo commitment | Tactic 1 collapses; fastest channel dies |
-| Q3 — Brand lane discipline | Instagram content engine cannot be trusted; flywheel output can't ship without voice check |
-| Q4 — Founding rate commitment | Offer page cannot go live; founding cohort doesn't close |
-| Q5 — In-person cut-off trigger | End-state (fully online) is at risk; hybrid trap activates |
-| Q6 — Brian's timeline | Content engine has no male proof; Week 4 milestone slips |
-| Q7 — Release form | Legal baseline missing; any published case study is at risk |
+| Q1 — Who are we talking to | Warm-network activation (Tactic 1) — gives direction to outreach |
+| Q2 — Voice memo approach | Tactic 1 velocity — the founding cohort's fastest path |
+| Q3 — Content lane discipline | Instagram content engine — keeps the signal clean for the right buyer |
+| Q4 — Founding rate | Offer page and founding cohort — clean pricing that closes |
+| Q5 — In-person transition trigger | End-state (fully online) — structural commitment to the bigger vision |
+| Q6 — Brian's timeline | Content engine proof assets — male case study by Week 4 |
+| Q7 — Release forms | Legal baseline — protection for Cooz and his clients |
 
-**Hard rule**: **Do not start Week 1 until all 7 questions have firm answers.** Running the plan with soft commitments is worse than delaying by 2 days to get firm ones.
+If any of these conversations surface something that changes the plan, that's a good thing. It means we caught it before Week 1 instead of Week 4. Adjust the plan, then go.
 
 ---
 
 ## WHAT HAPPENS AFTER
 
-Once all 7 questions are answered firmly, Farrice:
+Once you've talked through all 7 and feel aligned, Farrice:
 1. Ships the full handoff package to Cooz (everything in `15-final-package/`)
 2. Publishes the Ignition offer page
 3. Helps Cooz record the Loom proof asset

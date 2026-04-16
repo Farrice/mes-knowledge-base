@@ -1,0 +1,66 @@
+{
+  "objective": "What is Google Gemini 2.5 Flash API pricing as of April 2026? Exact per-token costs. Check ai.google.dev/pricing",
+  "timestamp": "20260415_184159",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 42428,
+  "total_cost_usd": 0.046,
+  "duration_seconds": 75.5,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5350,
+      "cost": 0.0023565,
+      "duration": 9.1,
+      "thinking_tokens": 583,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6886,
+      "cost": 0.0027676999999999997,
+      "duration": 9.8,
+      "thinking_tokens": 696,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5392,
+      "cost": 0.0024117,
+      "duration": 10.8,
+      "thinking_tokens": 880,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "nathan-gotch",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6309,
+      "cost": 0.0045989,
+      "duration": 18.4,
+      "thinking_tokens": 1502,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "sabri-suby",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 4960,
+      "cost": 0.002988,
+      "duration": 10.1,
+      "thinking_tokens": 535,
+      "grounding_queries": 1,
+      "error": null
+    }
+  ]
+}

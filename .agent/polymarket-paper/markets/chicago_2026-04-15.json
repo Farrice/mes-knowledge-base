@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "chicago",
+      "timestamp": "2026-04-14T06:29:40.140844+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 72.7,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 72.7,
+      "best_source": "ecmwf",
+      "sigma": 2.0,
+      "unit": "F"
+    },
+    {
+      "city": "chicago",
+      "timestamp": "2026-04-14T06:31:16.798130+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 72.7,
+      "hrrr_temp": 73.5,
+      "metar_temp": null,
+      "best_temp": 73.5,
+      "best_source": "hrrr",
+      "sigma": 2.0,
+      "unit": "F"
+    }
+  ]
+}

@@ -1,12 +1,12 @@
 # MARCHING ORDERS
-## The 80/20 — What Coach Cooz does and when
-## Ship date: 2026-04-09
+## The clarity doc — what we're doing, when, and why
+## Ship date: 2026-04-14
 
 ---
 
-This is the action document. Not strategy. Not psychology. Not frameworks. This tells you WHAT to do, WHEN to do it, and in WHAT ORDER. Everything else in this package exists to support these moves.
+This is the action document. Not strategy. Not psychology. Not frameworks. This is the plan laid out in order — what happens, when it happens, and why it matters. Everything else in the package is the reasoning behind these moves. You'll reference those when you want the "why" behind any decision.
 
-Read this first. Act on this first. Reference the other documents only when you need the reasoning behind a move.
+Start here. Move through it in order. The rest supports this.
 
 ---
 
@@ -20,9 +20,9 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 ## BEFORE MONDAY (this weekend)
 
-### With Farrice (30 minutes)
-- [ ] Answer the 7 commitment questions out loud on a call (see `09-COMMITMENT-QUESTIONS.md`)
-- [ ] Pick your offer variation: **A** (standard), **B** (concierge), or **C** (hybrid intensive). If unsure, pick A.
+### Together (30 minutes)
+- [ ] Walk through the 7 commitment questions out loud on a call (see `09-COMMITMENT-QUESTIONS.md`)
+- [ ] Pick your offer variation: **A** (standard), **B** (concierge), or **C** (hybrid intensive). If you're torn, go with A — we can adjust later.
 - [ ] Confirm Brian's case study timeline — when can it publish?
 - [ ] Name 3 real men you already know who match the archetype (not invent — name)
 
@@ -37,17 +37,27 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 ### Morning (before 11am)
 - [ ] Confirm your offer variation pick with Farrice
-- [ ] Confirm price: **$1,997** for the first 3 founding clients (not $5K, not "we'll figure it out" — $1,997, said out loud)
+- [ ] Lock the price: **$1,997** for the first 3 founding clients. That's the number we're testing. Say it out loud so it's real.
 - [ ] Review the offer page Farrice published on Squarespace — does it look right?
 
 ### Midday (11am-1pm)
 - [ ] Record 5 personal voice memos to your Tier 1 warm-network contacts
 - [ ] Each voice memo: 45-60 seconds, your actual voice, personalized by name
-- [ ] Use this script (adapt to your voice — don't read it robotically):
 
-> "Hey [name] — it's Cooz. I know it's been a while. I'm doing 3 founding client slots on a new program at a price I won't run again. The trade is they go through the work and I document the transformation as a case study. You're one of the first people I thought of — not because I think you need it, but because you'd know if I was offering it to the right person. If this isn't for you — totally fine. But if there's someone in your circle who's been quietly losing the war with his own body and would be open to having one honest witness for 12 weeks, send me his name."
+**TWO-STEP SEQUENCE** (not one cold pitch):
+
+**Step 1 — Touch Zero (Day 1-2)**: A genuine reconnection. No ask. No pitch. Just a human being talking to another human being.
+
+> "Hey [name] — it's Cooz. I know it's been a while. Thought about you the other day when [something real — a gym moment, a conversation, something you saw]. Hope the [business/family/thing you know about them] is going well. No agenda — just wanted to say hey."
+
+**Step 2 — The Founding Pitch (Day 3-5)**: Only after they respond to Touch Zero. Now you have a live conversation, not a cold ask.
+
+> "Hey [name] — appreciate you getting back to me. Listen, I'm doing something different. I've got 3 founding client slots on a new 12-week program — the trade is they go through the work and I document the transformation as a case study. The price is one I won't run again. I'm not telling you this because I think you need it. I'm telling you because you'd know if someone in your circle does — a guy who's been quietly losing the war with his own body and would be open to having one honest witness for 12 weeks."
+
+**Note the closer**: end on "one honest witness for 12 weeks" — that's the phrase that sticks. The referral ask is implicit. The man who hears that line already knows what to do.
 
 ### Afternoon (1pm-3pm)
+- [ ] **Hero photo shoot** (15 minutes, iPhone): One environmental portrait of you in the Burbank gym, mid-protocol, not staged. Natural window light from camera-left. This single photo becomes your hero image, Instagram profile photo, Loom thumbnail, and podcast pitch avatar. One shoot anchors premium perception across every channel.
 - [ ] Record the 3-minute Loom proof asset with Farrice (single take, no editing):
   1. Who you are + what you do (30 sec)
   2. Where you were before McBroom coached you (30 sec)
@@ -60,11 +70,11 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 - [ ] Record 5-10 minutes of raw voice memo on whatever's on your mind — send to Farrice
 - [ ] This becomes the FIRST input to the content flywheel — your first week of content comes from this
 
-### DO NOT do these things Monday:
-- Do not post on Instagram yet (content comes Tuesday from the flywheel)
-- Do not rewrite the offer page
-- Do not message LinkedIn connections (voice memos first, LinkedIn second)
-- Do not pitch podcasts yet (that's week 2)
+### What we're saving for later (not Monday):
+- Instagram posting starts Tuesday once the flywheel has something to work with
+- The offer page is already live — no need to touch it
+- LinkedIn comes after voice memos get traction
+- Podcast pitches start Week 2
 
 ---
 
@@ -72,14 +82,14 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 ### Every day
 - [ ] Check warm-network responses. Reply to anyone who responded (conversation, not pitch)
-- [ ] Send 3-5 more voice memos per day (stagger — do NOT mass-deploy)
+- [ ] Send 3-5 more voice memos per day — stagger them so each one feels personal, not batch-blasted
 - [ ] Record 3-5 minutes of raw voice memo for Farrice (the flywheel feed)
 - [ ] Review and edit the content draft Farrice sends from the flywheel
-- [ ] Post the day's scheduled piece (Mon/Wed/Fri = grounded practical, Sun = mythic)
+- [ ] Post the day's scheduled piece when ready (Weeks 1-4: 2 posts/week + 1 reel. Your energy goes to voice memos and direct conversations, not the feed.)
 
 ### By end of week 1
-- [ ] 25 warm-network voice memos sent total
-- [ ] 3 Lane A posts + 1 Lane B post published on Instagram
+- [ ] 25 warm-network voice memos sent total (Touch Zero first, founding pitch 2-3 days later)
+- [ ] 2 posts published on Instagram (1 Lane A + 1 Lane B) — keep it light, your energy goes to direct conversations
 - [ ] 1 reel recorded and published
 - [ ] Loom live and embedded in every follow-up DM
 - [ ] At least 3 conversations in progress with potential Triage Audit bookings
@@ -87,7 +97,7 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 ---
 
-## WEEK 2-4
+## WEEKS 2-4
 
 ### Week 2 focus: Convert the warm network + start podcast pitches
 - [ ] Follow up on all week-1 voice memo responses
@@ -122,15 +132,15 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 ---
 
-## THE 7 HARD RULES (memorize these)
+## THE GUIDING PRINCIPLES (the things that keep us honest)
 
-1. **No Instagram post ships without Farrice voice check for the first 4 weeks.** No exceptions.
-2. **No voice memo script deploys past the first 5 until Farrice reviews responses.** Test the script. Don't mass-deploy a broken script.
-3. **The price is $1,997 for founding clients.** If someone pushes for $5K: *"This is the founding rate. It's the cheapest I'll ever run. The deal is you become a case study."* That's it.
-4. **No "founder" / "executive" / "C-suite" language.** In any DM, voice memo, post, or page. The old avatar is dead. The new buyer is "a man who runs his own thing."
-5. **No "Here's what" or "Here's how" openers.** The flywheel filters for this, but manual edits can sneak it back in.
-6. **Every post starts in I, never in you.** If the first word is "you," it's broken.
-7. **Cash runway check every Friday.** If zero MRR by end of Week 3, stop the plan. Don't push harder on the same plan. Reassess with Farrice.
+1. **Farrice voice-checks every Instagram post for the first 4 weeks.** Fresh eyes catch what you can't see yet. After 4 weeks the voice will be locked in and you won't need this.
+2. **We test the first 5 warm-network voice memos before going wider.** Farrice reviews responses, we adjust if the script isn't landing, then you scale it. Small test, then deploy.
+3. **The founding rate is $1,997.** If someone pushes for $5K: *"This is the founding rate. It's the cheapest I'll ever run. The deal is you become a case study."* That's the whole conversation.
+4. **The language is "a man who runs his own thing" — never "founder" / "executive" / "C-suite."** In DMs, voice memos, posts, and pages. The old avatar is retired. This is who we're talking to now.
+5. **Watch for AI-sounding openers in content.** "Here's what" and "Here's how" creep in through the flywheel. The editing pass catches them, but keep an eye out.
+6. **Every post starts in I, never in you.** If the first word is "you," flip it. The voice structure explains why.
+7. **Weekly check-in on Fridays.** We look at what's working, what's not, and whether anything needs adjusting. If by end of Week 4 nothing has closed, we pause and rethink together — same team, different play.
 
 ---
 
@@ -144,6 +154,8 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 - Founding rate: **$1,997** (first 3 clients — they agree to case study documentation)
 - List rate: **$2,997** (clients 4-5, after founding slots fill)
 - Post-proof rate: **$4,000** (after first case studies publish)
+
+**Waitlist**: Once all 3 founding slots fill, every prospect who showed interest but missed the founding window gets captured on a Cohort 2 interest list. Simple Google Form or Typeform: name, email, "What made you reach out?" This does two things — (1) holds warm demand for the $2,997 list-price phase, (2) creates visible demand that signals the offer is real. Interested prospects shouldn't evaporate because the founding slots are full.
 
 **What's included**:
 - 13 weekly 30-min 1:1 video calls
@@ -163,7 +175,11 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 **Risk reversal**: If by week 6 there's no measurable body fat reduction AND no visible strength progress on the three benchmark lifts, you refund the second half.
 
-**The funnel**: Instagram content / warm-network voice memo / podcast appearance → DM conversation → Triage Audit (90 min, free) → Ignition offer pitch
+**The funnel**: Instagram content / warm-network voice memo / podcast appearance → DM conversation → Triage Audit (90 min, free during Ignition) → Ignition offer pitch
+
+**Two different audits — know the difference:**
+- **Triage Audit** = the 90-minute sales conversation. Free during Ignition. This is where you diagnose, build the plan live, and pitch the Ignition offer at the end.
+- **Free Resurrection Audit** = the 20-minute prospect warmer (Tactic 3). You review their current state, give 3 concrete shifts, deliver a Loom. This converts skeptics into Triage Audit bookings. Different purpose, different length, different outcome.
 
 ---
 
@@ -190,7 +206,7 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 ### Words you use in copy:
 "rebuild" / "get back" / "comeback" / "strongest version" / "came back" / "dormant" / "reactivate" / "hardware" / "infrastructure" / "the man"
 
-### Words you NEVER use in copy:
+### Words to stay away from in copy:
 "resurrection" (brand name only, not body copy) / "founder" / "executive" / "journey" / "mindset" / "wellness" / "holistic" / "crush it" / "level up" / "amazing" / "game-changer" / "Here's what" / "Here's how"
 
 ---
@@ -225,6 +241,43 @@ Print this. Put it on the wall. Read it every morning for 13 weeks.
 
 ---
 
+## THE TRIAGE AUDIT CLOSE FRAMEWORK (what happens in the 90 minutes)
+
+The Triage Audit is where the sale happens. Not before, not after. Here's the structure:
+
+**Minutes 0-30 — Diagnose** (let him talk):
+- "Walk me through a normal week. Training, nutrition, sleep, stress. Don't dress it up."
+- "What's the thing your body won't let you do anymore that you used to do without thinking?"
+- "When was the last time you looked in a mirror and recognized the man looking back?"
+- Listen. Take notes. Let him talk.
+
+**Minutes 30-60 — Cost of Inaction** (make him say it):
+- "If nothing changes in the next 12 months — same training, same nutrition, same schedule — where does your body end up?"
+- "What does that cost your work? Your family? Your energy on a Tuesday at 3pm?"
+- "What have you already tried? What happened?"
+- He needs to hear HIMSELF say the cost. You don't say it for him.
+
+**Minutes 60-75 — The Bridge** (build the plan live):
+- "Here's what I'd change in the first 3 weeks based on what you just told me." Give him 3 concrete shifts — real coaching, not a teaser.
+- "The full version of this is 12 weeks. I call it the Ignition. Here's what it includes." Walk through the deliverables from the offer card above.
+- "The founding rate is $1,997. You'd be one of my first 3 case study partners — I document the transformation, you get the work at a price I won't run again."
+
+**Minutes 75-90 — Close or Capture**:
+- If yes: "I'll send the intake form tonight. We start Monday."
+- If "let me think about it": "Understood. I'll send you a Loom with the 3 shifts we talked about — they work whether you sign up or not. Take the weekend. If you want in, the founding slots close when the third one fills."
+- If no: "Respect that. The Loom is yours either way."
+
+**One-breath objection responses** (worth having ready):
+
+| Objection | Response |
+|---|---|
+| "$1,997 is a lot of money" | "It is. And you've spent more than that on things that didn't work. This is the first time you'd be paying for a witness, not a plan." |
+| "I can get a trainer for $200/month" | "You can. You probably have. How'd that go?" |
+| "You don't have case studies yet" | "That's why you're getting the founding rate. You're paying $1,997 for what will be a $4,000 program in 90 days. The trade is I document the work." |
+| "Let me talk to my wife" | "You should. Tell her a broken provider can't provide — and this is the most unselfish thing you'll do this year." |
+
+---
+
 ## THE FIRST CLIENT ACQUISITION PLAYBOOK (ranked by speed)
 
 ### Tactic 1 — Warm-network voice memos (FASTEST — days 7-14)
@@ -246,20 +299,20 @@ Embed in 1-2 local communities (BJJ, men's group, recovery circle) as a PARTICIP
 
 ---
 
-## THE WEEK 4 TEST (the canary)
+## THE WEEK 4 CHECK-IN (the signal we're watching)
 
 By end of Week 4, the plan should have closed at least 1 founding client.
 
-**If the canary lives**: run the plan as written through Week 13.
-**If the canary dies**: stop. Reassess with Farrice. The most likely break is the archetype — go back to the Playbook.
+**If it has**: we keep running the plan as written through Week 13.
+**If it hasn't**: we pause and figure out why together. The most likely break is the archetype — and we go back to the Playbook to adjust.
 
-Do not push harder on the same plan if Week 4 produces zero. That is the discipline.
+The smart move is never pushing harder on the same play when the signal says something's off. We adjust. That's what this partnership is for.
 
 ---
 
-## WHAT FARRICE IS DOING (so you know)
+## WHAT FARRICE IS HANDLING (so you know what's covered)
 
-Farrice is handling:
+Farrice is taking care of:
 - The content flywheel (turns your voice memos into drafts you edit and post)
 - The voice check on every post for the first 4 weeks
 - The script review on your first 5 warm-network voice memos
@@ -268,7 +321,7 @@ Farrice is handling:
 - The release form template
 - Weekly revenue tracking
 
-You handle:
+You're focused on:
 - Recording voice memos (5-10 min/week for the flywheel + 3-5 min/day for the daily log)
 - Sending the warm-network voice memos
 - Running the Triage Audits
@@ -278,15 +331,17 @@ You handle:
 
 ---
 
-## WHAT DOES NOT MATTER RIGHT NOW
+## WHAT WE'RE SETTING ASIDE FOR NOW
 
-- Follower count (irrelevant until proof stacks)
-- LinkedIn (paused — don't touch it)
-- The book (secondary — focus after the Ignition machine is running)
-- YouTube optimization (keep posting consistently, don't over-invest)
-- Paid ads (no ads in the Ignition Phase)
-- A community/Discord/Facebook group (no community until proof stacks)
-- Any tool, app, or software you don't already use
+These are real priorities — just not yet. We're sequencing, not ignoring.
+
+- **Follower count** — irrelevant until proof stacks
+- **LinkedIn** — paused for now, we'll come back to it
+- **The book** — secondary until the Ignition machine is running
+- **YouTube optimization** — keep posting consistently, and repurpose your weekly reel as a 3-5 min YouTube video. YouTube is a stronger discovery channel for men 35-50 than Instagram. Low extra effort, high extra reach.
+- **Paid ads** — not during the Ignition Phase
+- **A community/Discord/Facebook group** — not until proof stacks
+- **Any tool, app, or software you don't already use** — keep it simple
 
 ---
 
@@ -298,4 +353,4 @@ Every client you close becomes a case study. Every case study becomes 3 Instagra
 
 You are not building a brand. You are manufacturing proof. The brand is what proof leaves behind.
 
-Go.
+Let's go.

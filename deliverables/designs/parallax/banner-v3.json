@@ -1,0 +1,24 @@
+{
+  "concept": "Wide photograph taken through a scratched industrial window at twilight. Through the window glass on the left side: a city skyline with warm amber streetlights and muted neon. Through the window glass on the right side: distant mountains under a deep blue twilight sky. The window glass is old with real scratches, fingerprints, and rain spots catching the light. The interior is dark with exposed brick at the edges. Shot on 35mm Fuji Superia 400 film with a Nikon FM2 and 28mm lens. Heavy film grain, muted colors, warm color cast. A silhouette of someone leaning against the window frame. Imperfect, analog, real. Like a photojournalist's contact sheet.",
+  "design_type": "editorial",
+  "style": "auto",
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "creative_direction": {
+    "concept_name": "Twilight Contemplation",
+    "thesis": "A wide, analog photograph capturing a solitary silhouette against a grimy industrial window, juxtaposing a glowing city with serene mountains at twilight, evoking raw introspection.",
+    "three_anchors": {
+      "visual_hook": "The heavily scratched industrial window pane acting as a dirty lens, framing contrasting urban glow and serene natural twilight.",
+      "emotional_core": "A profound sense of melancholy, quiet introspection, and the beauty found in urban decay and imperfection.",
+      "cultural_anchor": "The raw, unpolished aesthetic of 1970s photojournalism and neo-realist street photography contact sheets."
+    },
+    "prompt": "Wide photograph, through a heavily scratched and rain-spotted industrial window pane. On the left through the glass: a distant city skyline, warm amber streetlights (#FFBF00) glowing, muted neon signs. On the right through the glass: distant, soft-peaked mountains under a deep blue twilight sky (#1E3C72). The window glass exhibits prominent, real scratches, visible fingerprints, and distinct rain spots catching scattered light. The interior foreground is dark, revealing exposed brick edges on the left and right. A gender-neutral silhouette is leaning subtly against the interior window frame, facing outwards. Shot on a Nikon FM2, 28mm f/2.8 lens, ISO 400, using Fuji Superia 400 film. Heavy film grain, desaturated color palette, warm color cast overall. Twilight ambient lighting, warm city glow juxtaposed with cool mountain light. Gritty realism, authentic, raw, analog aesthetic.",
+    "negative_elements": "Clean window, perfect reflections, bright interior, vibrant colors, clear sky, modern architecture, digital noise, artificial lighting, posed subject, high-contrast black and white, overly dramatic clouds.",
+    "art_direction_notes": "The concept hinges on the contrast between decay and beauty, urban and natural, achieved through specific lens choices and film stock. The window's imperfections are crucial for establishing the raw, authentic visual hook. The silhouette adds human element without distracting from the primary visual contrast. The specific film and camera choices ensure the desired analog texture and color fidelity, aligning with the photojournalistic cultural anchor."
+  },
+  "final_prompt": "Wide photograph, through a heavily scratched and rain-spotted industrial window pane. On the left through the glass: a distant city skyline, warm amber streetlights (#FFBF00) glowing, muted neon signs. On the right through the glass: distant, soft-peaked mountains under a deep blue twilight sky (#1E3C72). The window glass exhibits prominent, real scratches, visible fingerprints, and distinct rain spots catching scattered light. The interior foreground is dark, revealing exposed brick edges on the left and right. A gender-neutral silhouette is leaning subtly against the interior window frame, facing outwards. Shot on a Nikon FM2, 28mm f/2.8 lens, ISO 400, using Fuji Superia 400 film. Heavy film grain, desaturated color palette, warm color cast overall. Twilight ambient lighting, warm city glow juxtaposed with cool mountain light. Gritty realism, authentic, raw, analog aesthetic.",
+  "iterations": 1,
+  "total_cost_usd": 0.0054,
+  "total_tokens": 4211,
+  "output_path": "deliverables/designs/parallax/banner-v3.png"
+}

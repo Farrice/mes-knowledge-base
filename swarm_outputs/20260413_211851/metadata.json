@@ -1,0 +1,66 @@
+{
+  "objective": "sovereign2013 Polymarket Claude AI bot strategy sports betting  to .3 million 2026",
+  "timestamp": "20260413_211851",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 29577,
+  "total_cost_usd": 0.0157,
+  "duration_seconds": 36.2,
+  "api_calls": 5,
+  "agents": [
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6037,
+      "cost": 0.0031922999999999995,
+      "duration": 14.0,
+      "thinking_tokens": 1534,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 4942,
+      "cost": 0.0031463,
+      "duration": 12.4,
+      "thinking_tokens": 1113,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5351,
+      "cost": 0.0031661,
+      "duration": 14.3,
+      "thinking_tokens": 1456,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "nathan-gotch",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6438,
+      "cost": 0.0030659999999999997,
+      "duration": 21.9,
+      "thinking_tokens": 3104,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "sabri-suby",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6809,
+      "cost": 0.0031226,
+      "duration": 23.5,
+      "thinking_tokens": 3169,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

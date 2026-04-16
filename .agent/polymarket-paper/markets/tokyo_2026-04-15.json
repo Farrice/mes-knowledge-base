@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "tokyo",
+      "timestamp": "2026-04-14T06:29:51.866308+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 20.9,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 20.9,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    },
+    {
+      "city": "tokyo",
+      "timestamp": "2026-04-14T06:31:25.729639+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 20.9,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 20.9,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    }
+  ]
+}

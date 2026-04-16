@@ -1,0 +1,33 @@
+{
+  "objective": "What are the current pricing tiers for The Odds API at the-odds-api.com as of April 2026? Include all plan names, prices, and credit amounts",
+  "timestamp": "20260415_184209",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 19203,
+  "total_cost_usd": 0.0085,
+  "duration_seconds": 25.5,
+  "api_calls": 2,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 12424,
+      "cost": 0.0062274,
+      "duration": 23.0,
+      "thinking_tokens": 1613,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6779,
+      "cost": 0.0023084,
+      "duration": 13.7,
+      "thinking_tokens": 1715,
+      "grounding_queries": 1,
+      "error": null
+    }
+  ]
+}

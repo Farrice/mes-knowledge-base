@@ -1,6 +1,6 @@
 # WEEK 0 CHECKLIST
 ## What Farrice does BEFORE Monday. What Cooz does Monday morning.
-## Date: 2026-04-08
+## Date: 2026-04-14
 
 This is the punch list that gets run BEFORE the Ignition Plan goes live. Everything here has to be done before Cooz sends his first voice memo, posts his first Lane A piece, or DMs his first warm connection.
 
@@ -10,7 +10,7 @@ This is the punch list that gets run BEFORE the Ignition Plan goes live. Everyth
 
 ### Documentation handoff
 - [ ] Send Cooz `00-START-HERE.md` (the one-page orientation) via whatever channel is warmest
-- [ ] Send Cooz `01-THE-IGNITION-PLAN.md` with a cover note: *"Read Sections 1, 3, 5, 6, 8, 10 first. Skip Section 9 until after we talk through the 7 questions. The rest is reference."*
+- [ ] Send Cooz `01-THE-IGNITION-PLAN.md` with a cover note: *"Read Sections 1, 3, 6, 8 first. Skip everything else for now. We'll do the commitment questions after you've read the plan."*
 - [ ] Do NOT send the avatar swarm v2 dossier to Cooz. That's Farrice's internal intelligence. Cooz only needs the distilled version in the Ignition Plan.
 
 ### The 7 Commitment Questions conversation
@@ -68,32 +68,31 @@ This is the punch list that gets run BEFORE the Ignition Plan goes live. Everyth
 
 ### Before 9am
 - [ ] Read the cover note from Farrice
-- [ ] Read Section 1 of THE IGNITION PLAN — the Honest Starting Line. Re-read if any part of it stings. If it doesn't sting, re-read it again until it does.
-- [ ] Read Section 3 of THE IGNITION PLAN — The Entry Offer. Note that there are three variations (A / B / C). Pick ONE before 10am.
+- [ ] Read Sections 1 and 3 of THE IGNITION PLAN — the Honest Starting Line + The Entry Offer. Note three offer variations (A / B / C). Pick ONE before 10am.
 
 ### 9am–11am
-- [ ] Answer the 7 commitment questions in writing, send back to Farrice. Do NOT skip any.
-- [ ] Confirm the offer variation pick (A / B / C) with Farrice
-- [ ] Confirm the price ladder Farrice has written on the offer page: $1,997 founding (first 3) / $2,997 list / $4,000 post-proof
+- [ ] Confirm your offer variation pick with Farrice
+- [ ] Confirm price: **$1,997** for the first 3 founding clients (said out loud, no hedging)
+- [ ] Review the offer page Farrice published on Squarespace — does it look right?
+- [ ] Read Sections 6 and 8 of THE IGNITION PLAN — the acquisition playbook + 90-day calendar
 
 ### 11am–1pm
-- [ ] Pull together the warm-network list. Not from LinkedIn — from LIFE. Every person you'd be willing to offer a founding slot to, regardless of platform. Target 20 names.
-- [ ] Sort the 20 names into Tier 1 (direct offer), Tier 2 (referral source), Tier 3 (friend catch-up)
-- [ ] Draft the first 5 personal voice memos (record them on your phone, don't think too hard)
+- [ ] Record 5 personal voice memos to your Tier 1 warm-network contacts (use the script in Marching Orders)
+- [ ] Each voice memo: 45-60 seconds, your actual voice, personalized by name
+- [ ] Send the first 5. Wait for responses — do NOT send the next 5 yet.
 
 ### 1pm–3pm
-- [ ] Send the first 5 voice memos
-- [ ] Wait for responses — do NOT send the next 5 yet
-- [ ] While waiting: record your ONE Loom proof asset with Farrice (30-min session, single take, no editing)
+- [ ] Record your ONE Loom proof asset with Farrice (30-min session, single take, no editing)
+- [ ] Export the first 3 seconds as a GIF for DM embedding
+- [ ] **Hero photo**: Take one golden-hour environmental portrait in the Burbank gym (iPhone, natural window light, mid-protocol not staged). This becomes hero image, profile photo, Loom thumbnail, podcast pitch avatar.
 
 ### 3pm–5pm
 - [ ] Record 5–10 minutes of raw voice memo on whatever's on your mind. Send to Farrice. This is the FIRST input to the Cooz Flywheel — it becomes this week's content.
-- [ ] Read Section 5 of THE IGNITION PLAN — The Instagram Content Engine. Internalize the 6 rules (no "you" openers, one specific moment, one you-pivot, short closer, word count caps, cadence)
 - [ ] Do NOT write Instagram content yourself this week. The flywheel will produce drafts Monday evening. You edit and ship. That's the division of labor.
 
 ### 5pm–7pm (optional — can defer to Tuesday)
 - [ ] Look at the rebuilt website offer page
-- [ ] Write a 2-minute video selfie: "I'm Cooz. This is the Ignition. This is why I'm running it." No script. One take. This becomes the "coach before" video for your own case study documentation.
+- [ ] Record a 2-minute video selfie: "I'm Cooz. This is the Ignition. This is why I'm running it." No script. One take. This becomes the "coach before" video for your own case study documentation.
 
 ---
 
@@ -120,7 +119,7 @@ This is the punch list that gets run BEFORE the Ignition Plan goes live. Everyth
 ### Sunday (end of Week 1)
 - [ ] Review the week with Farrice
 - [ ] Count warm-network outreach (target: 25 voice memos sent by end of Week 1)
-- [ ] Count content shipped (target: 3 Lane A posts + 1 Lane B post + 1 reel)
+- [ ] Count content shipped (target: 2 posts + 1 reel — Weeks 1-4 your energy goes to conversations, not the feed)
 - [ ] Count Triage Audit bookings (target: 1-3)
 - [ ] Count founding-client conversations in progress (target: 1-2 in serious consideration)
 

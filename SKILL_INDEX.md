@@ -83,6 +83,7 @@
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | personal brand mastery | 4 | 34 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** |  | 15 | 0 |
+| `kallaway-audience-obsession` | **Kallaway Audience Obsession Engineering** | bankshot suggestion, power of suggestion, obsession levels, indirect persuasion, belief implantation | 12 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |
 | `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | content engine | 8 | 0 |
 | `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content ops | 3 | 0 |

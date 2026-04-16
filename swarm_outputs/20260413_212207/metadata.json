@@ -1,0 +1,33 @@
+{
+  "objective": "Polymarket market making strategy liquidity rewards spreads 2026",
+  "timestamp": "20260413_212207",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 21752,
+  "total_cost_usd": 0.0298,
+  "duration_seconds": 83.1,
+  "api_calls": 4,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5922,
+      "cost": 0.0030431,
+      "duration": 15.6,
+      "thinking_tokens": 1799,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5945,
+      "cost": 0.0030840999999999998,
+      "duration": 14.8,
+      "thinking_tokens": 1700,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

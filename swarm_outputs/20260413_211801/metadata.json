@@ -1,0 +1,44 @@
+{
+  "objective": "Polymarket BTC 15 minute market latency arbitrage bot strategy 2026 mechanics Binance WebSocket",
+  "timestamp": "20260413_211801",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 31751,
+  "total_cost_usd": 0.0364,
+  "duration_seconds": 83.3,
+  "api_calls": 5,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7140,
+      "cost": 0.0036001999999999996,
+      "duration": 19.5,
+      "thinking_tokens": 2370,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6606,
+      "cost": 0.0031287,
+      "duration": 15.0,
+      "thinking_tokens": 1919,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "josh-sanders",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7122,
+      "cost": 0.0039003999999999996,
+      "duration": 22.1,
+      "thinking_tokens": 2818,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

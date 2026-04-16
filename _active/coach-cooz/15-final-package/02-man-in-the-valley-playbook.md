@@ -372,14 +372,25 @@ These are the positions that instantly signal to the Man in the Valley *"this gu
 
 ## THE OBJECTION HANDLING SCRIPTS (deploy in sales conversations)
 
+Two versions for each: the **one-breath response** (what you actually say on a call or in a DM) and the **full script** (your internal prep — read this before the Triage Audit so the one-breath version comes naturally).
+
 ### "$1,997 is a lot of money."
-*"It is. And I am not going to pretend it isn't. Here is what I will tell you. You have spent more than that on things that did not work. You have spent more than that on the apps, the programs, the 6-week things your buddies recommended. The difference is those were you paying for information. This is you paying for somebody to watch you, every day, for 13 weeks, so you cannot disappear again. If that does not sound worth $1,997 to you, you are not the guy for this. And that is okay. But if the part of you that is reading this is saying 'yeah, that is the thing I've been missing' — the price is not the problem. The price is the permission."*
+
+**One-breath**: *"It is. And you've spent more than that on things that didn't work. This is the first time you'd be paying for a witness, not a plan."*
+
+**Full prep**: The difference between $1,997 on this and $1,997 on apps, programs, and 6-week things his buddies recommended is the difference between paying for information and paying for someone to watch him every day for 13 weeks so he cannot disappear again. The price is not the problem. The price is the permission.
 
 ### "I should be able to do this myself."
-*"You are right. You should. And you have tried, and it has not held. The thing nobody tells you is that the guys who do this themselves are rare, and almost none of them did it the first time. They had a coach, a training partner, a brother, somebody. Doing it alone is not a sign of strength in this. It is the reason you are where you are. The question is not whether you can do it yourself. The question is whether you are willing to stop pretending you have to."*
+
+**One-breath**: *"You should. You've tried. It didn't hold. The question isn't whether you can do it alone — it's whether you're willing to stop pretending you have to."*
+
+**Full prep**: The guys who did it themselves are rare, and almost none of them did it the first time. They had a coach, a training partner, a brother. Doing it alone isn't strength in this context — it's the reason he's where he is.
 
 ### "My wife will not understand me spending this on myself."
-*"Then do not frame it as spending on yourself. Frame it as what it is — the cost of coming back to your family. Your wife is not married to a number in a bank account. She is married to a man who is currently running on fumes and faking it. The $1,997 is not for you. It is for the version of you who shows up at dinner, gets on the floor with the kids, and sleeps through the night. If she cannot see that, we should talk before you sign anything. But in my experience — she has been waiting for you to do this for longer than you think."*
+
+**One-breath**: *"A broken provider can't provide. This is the most unselfish thing you'll do this year. Tell her that."*
+
+**Full prep**: Frame it as what it is — the cost of coming back to his family. His wife isn't married to a number in a bank account. She's married to a man currently running on fumes. The $1,997 is for the version of him who shows up at dinner, gets on the floor with the kids, and sleeps through the night. In Cooz's experience — she's been waiting for him to do this longer than he thinks.
 
 ---
 

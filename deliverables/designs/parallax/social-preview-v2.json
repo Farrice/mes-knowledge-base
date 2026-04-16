@@ -1,0 +1,24 @@
+{
+  "concept": "Elegant editorial photograph from above: a matte black desk surface with a single open notebook, a glass prism refracting violet and teal light across the pages, and a cup of black coffee. The notebook has handwritten text visible but not readable. Morning light from a window creates sharp geometric shadows across the scene. Shot on Fujifilm GFX 100S, 63mm lens, f/4, natural window light. The color palette is restrained: deep blacks, bone white paper, the violet and teal refraction from the prism are the only color accents. Styled like a Kinfolk magazine flat lay. Minimal, intentional, every object placed with purpose. The word PARALLAX is embossed subtly on the notebook cover in a clean sans-serif. No clutter.",
+  "design_type": "social",
+  "style": "auto",
+  "aspect_ratio": "16:9",
+  "resolution": "2K",
+  "creative_direction": {
+    "concept_name": "Parallax Contemplation",
+    "thesis": "An elegant editorial flat lay that captures focused creativity and minimalist contemplation through precise object arrangement, sharp light, and subtle color refraction.",
+    "three_anchors": {
+      "visual_hook": "A clear glass prism refracting distinct violet and teal light across the open notebook pages, contrasted by sharp geometric shadows.",
+      "emotional_core": "A sense of serene intentionality, intellectual focus, and sophisticated calm.",
+      "cultural_anchor": "The meticulously curated and understated aesthetic of Kinfolk magazine photography."
+    },
+    "prompt": "Overhead editorial flat lay photograph: An open notebook, bone white pages (#F8F8F8) with subtle, illegible handwritten text, lies on a smooth, matte black desk surface (#000000). The notebook cover features the word 'PARALLAX' embossed in a clean, understated sans-serif typeface. Adjacent to the notebook, a clear glass prism refracts distinct violet (#8A2BE2) and teal (#008080) light across the paper. A matte black ceramic cup filled with black coffee is positioned deliberately to the side. Sharp, directional morning sunlight streams from a window at a 45-degree angle, casting crisp, geometric shadows across the entire scene. Shot on Fujifilm GFX 100S, 63mm f/4 lens, ISO 100, no flash. Cool daylight color temperature. Mood is minimalist, intentional, and contemplative. Styled as a high-end Kinfolk magazine flat lay. Aspect ratio 16:9.",
+    "negative_elements": "Clutter, messy composition, vibrant colors outside of prism refraction, blurry text, artificial lighting, warm color tones, any objects not specified, reflections on desk.",
+    "art_direction_notes": "The prompt prioritizes extreme specificity to achieve the desired minimalist editorial aesthetic. The matte black surface and bone white paper create high contrast, while the prism's violet and teal add the only controlled color accents, preventing visual noise. The 'PARALLAX' embossing grounds the conceptual theme. Sharp morning light and geometric shadows introduce tension and visual interest, a key component of the Virgil Test. Camera settings are chosen for high resolution and shallow depth of field, typical of editorial work. The Kinfolk reference anchors the sophisticated, curated mood."
+  },
+  "final_prompt": "Overhead editorial flat lay photograph: An open notebook, bone white pages (#F8F8F8) with subtle, illegible handwritten text, lies on a smooth, matte black desk surface (#000000). The notebook cover features the word 'PARALLAX' embossed in a clean, understated sans-serif typeface. Adjacent to the notebook, a clear glass prism refracts distinct violet (#8A2BE2) and teal (#008080) light across the paper. A matte black ceramic cup filled with black coffee is positioned deliberately to the side. Sharp, directional morning sunlight streams from a window at a 45-degree angle, casting crisp, geometric shadows across the entire scene. Shot on Fujifilm GFX 100S, 63mm f/4 lens, ISO 100, no flash. Cool daylight color temperature. Mood is minimalist, intentional, and contemplative. Styled as a high-end Kinfolk magazine flat lay. Aspect ratio 16:9.",
+  "iterations": 1,
+  "total_cost_usd": 0.0051,
+  "total_tokens": 3895,
+  "output_path": "deliverables/designs/parallax/social-preview-v2.png"
+}

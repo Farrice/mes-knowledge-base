@@ -1,0 +1,66 @@
+{
+  "objective": "What is the current Anthropic API pricing for Claude Haiku 4.5 as of April 2026? Include exact per-token costs for input and output. Check anthropic.com/pricing",
+  "timestamp": "20260415_184005",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 39377,
+  "total_cost_usd": 0.0403,
+  "duration_seconds": 81.7,
+  "api_calls": 7,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5791,
+      "cost": 0.0026967000000000002,
+      "duration": 10.2,
+      "thinking_tokens": 739,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "cardinal-mason",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 7236,
+      "cost": 0.0025578999999999997,
+      "duration": 10.9,
+      "thinking_tokens": 956,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "samuel-thompson",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5560,
+      "cost": 0.0026369,
+      "duration": 9.9,
+      "thinking_tokens": 738,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "nathan-gotch",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5060,
+      "cost": 0.0023491000000000002,
+      "duration": 13.2,
+      "thinking_tokens": 1346,
+      "grounding_queries": 1,
+      "error": null
+    },
+    {
+      "name": "sabri-suby",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 4677,
+      "cost": 0.0020782,
+      "duration": 7.9,
+      "thinking_tokens": 607,
+      "grounding_queries": 1,
+      "error": null
+    }
+  ]
+}

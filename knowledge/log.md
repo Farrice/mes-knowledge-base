@@ -35,3 +35,5 @@
 - `[2026-04-14 19:55]` **reflect** | Insider Code Deployment | brand+design+content — Oren Insider Codes + Abloh Quotation Marks + Cole headline filtering. Identity gatekeeping via selective articulation.
 - `[2026-04-14 19:55]` **reflect** | Emotional Frequency Engineering | brand+film+content — Hoffman Seen>Felt>Proven + Trailer Emotional Map. Missing engineering layer for brand maturity transitions.
 - `[2026-04-14 19:55]` **reflect** | Tension-Relief Architecture | comedy+content+film+copywriting — 3-domain convergence: Mack comedy + Acosta rehook + Trailer Riser>Silence>Hit + Iha Damaging Admission.
+- `[2026-04-16 07:49]` **finalize** | Kallaway Audience Obsession Engineering — 12 workflows, 12 slash commands, SKILL.md, genius.md, AGEN | general | kallaway — composite:8.7 status:Keep
+- `[2026-04-16 08:11]` **finalize** | Jack Roberts Design Mastery — 10 workflows + 10 slash commands deployed | general | jack-roberts — composite:8.7 status:Keep

@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "nyc",
+      "timestamp": "2026-04-14T06:29:39.048543+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 84.9,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 84.9,
+      "best_source": "ecmwf",
+      "sigma": 2.0,
+      "unit": "F"
+    },
+    {
+      "city": "nyc",
+      "timestamp": "2026-04-14T06:31:15.553321+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 84.9,
+      "hrrr_temp": 85.3,
+      "metar_temp": null,
+      "best_temp": 85.3,
+      "best_source": "hrrr",
+      "sigma": 2.0,
+      "unit": "F"
+    }
+  ]
+}

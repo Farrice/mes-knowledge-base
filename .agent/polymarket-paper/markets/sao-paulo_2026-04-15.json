@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "sao-paulo",
+      "timestamp": "2026-04-14T06:29:53.737601+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 27.1,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 27.1,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    },
+    {
+      "city": "sao-paulo",
+      "timestamp": "2026-04-14T06:31:27.529794+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 27.1,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 27.1,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # THE IGNITION PLAN
 ## Coach Cooz / The Resurrection Coach
 ### 90 Days from Zero Proof to First Cohort
-**Date**: 2026-04-08
+**Date**: 2026-04-14
 **Author**: Farrice Cain (with Claude Opus 4.6)
 **Status**: Executable Monday morning
 
@@ -9,7 +9,7 @@
 
 ## Section 1 — The Honest Starting Line
 
-This is where Cooz actually is. Not where the prior strategy decks say he is. Not where the brand promises he'll be. Where he is on April 8, 2026, before any of this work begins.
+This is where Cooz actually is. Not where the prior strategy decks say he is. Not where the brand promises he'll be. Where he is on April 14, 2026, before any of this work begins.
 
 **The proof stack is empty on the male side.** Brian's 90-day transformation is in progress; the testimonial is being gathered, not yet published. There is no other published male case study from a premium online client. The strongest visual proof Cooz has is with women — Angie and Mari — and a new female in-person client starts this week. The brand voice is masculine, the marketing is masculine, and the published proof stack is functionally female. That gap is the loudest signal in the engagement.
 
@@ -22,7 +22,7 @@ This is where Cooz actually is. Not where the prior strategy decks say he is. No
 - The 8 Tenets framework is built and ready to deploy as the curriculum spine of any 12-week container — `_active/coach-cooz/05-offers-and-frameworks/8-TENETS-FRAMEWORK.md`. Phase 1 (weeks 1–4) Stabilization, Phase 2 (weeks 5–8) Installation, Phase 3 (weeks 9–13) Integration. The 13-week installation sequence is ALREADY designed. The Ignition offer doesn't have to invent a curriculum — it has to package one that already exists.
 - The voice rule is validated. WS1.6 confirmed it against 13 top-performing 2025–26 hooks and 15 live Sheedy posts: I-led confession, you-pivot at the universal moment, never sustained second-person scene narration. This rule survives.
 - The McBroom lineage is real — Cooz was personally coached by Cody before becoming a coach himself. That is authority transfer, not name-dropping. It is the single most defensible credibility claim Cooz has.
-- The Triage Audit (90-min, $1K credit) is already a working sales mechanism on the live site. The booking flow exists. It does not need to be rebuilt.
+- The Triage Audit (90-min, free during Ignition) is already a working sales mechanism on the live site. The booking flow exists. It does not need to be rebuilt.
 
 **The real constraint is proof availability, not positioning, voice, or content strategy.** Until Cooz has at least three published transformation case studies — male, female, or both — every other lever moves nothing. The plan has to lead with proof manufacturing. Everything else is downstream.
 
@@ -491,7 +491,7 @@ Cooz hosts the Resurrection Series podcast. That's his content, not his reach. T
 
 When a warm-network reach-out doesn't bite on tactic 1, Cooz offers a free 20-minute Zoom: he reviews their current state (training split, nutrition snapshot, recovery, daily structure) and records a 5-minute Loom giving them 3 concrete shifts. Deliverable is the Loom plus a 1-page PDF action sheet.
 
-This is NOT the Triage Audit. The Triage Audit is the paid front door ($497, with $1K credit). The free Resurrection Audit is the prospect-warming asset that converts skeptics into Triage Audit bookings.
+This is NOT the Triage Audit. The Triage Audit is the 90-minute diagnostic sales conversation (free during Ignition — charging for it before proof exists creates unnecessary friction). The free Resurrection Audit is the 20-minute prospect-warming asset that converts skeptics into Triage Audit bookings. Different purpose, different length, different outcome.
 
 **Volume target**: 10 free audits in the first 30 days. Expected conversion to Triage Audit: 30%. Expected conversion of Triage Audit to founding client: 50%. Expected first-clients from this channel: 1–2 in 30 days.
 

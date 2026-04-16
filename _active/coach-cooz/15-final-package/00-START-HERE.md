@@ -1,6 +1,6 @@
 # START HERE
 ## The Coach Cooz Ignition Package — Complete, Ready, Shippable
-## Date: 2026-04-08
+## Date: 2026-04-14
 
 ---
 
@@ -12,8 +12,8 @@ This folder is everything you need to run the next 90 days. Don't read it all at
 
 1. **This page** (you're on it).
 2. **`04-COOZ-MARCHING-ORDERS.md`** — THE 80/20 ACTION DOC. Read this first. It tells you what to do, when, and in what order. Everything else is the reasoning behind these moves.
-3. **`09-COMMITMENT-QUESTIONS.md`** — we run through this together on a 30-min call. 7 questions. Answer each one out loud.
-4. **`01-THE-IGNITION-PLAN.md`** — Sections 1, 3, 6, 8 first. Skip Section 9 (self-critique) until after we talk. This is the deep reasoning behind the Marching Orders.
+3. **`01-THE-IGNITION-PLAN.md`** — Sections 1, 3, 6, 8 only. Skip Sections 2, 4, 5, 7, 9, 10 for now. This is the deep reasoning behind the Marching Orders.
+4. **`09-COMMITMENT-QUESTIONS.md`** — we run through this together on a 30-min call AFTER you've read the plan. 7 questions. Answer each one out loud. The plan earns the commitment first.
 5. **`07-WEEK-0-CHECKLIST.md`** — your literal Monday morning punch list (the Marching Orders also cover this, but the checklist has checkboxes).
 
 Everything else (files starting with `02-`, `03-`, `05-`, `06-`) is internal infrastructure Farrice uses to support the plan. You don't need to read it, but it's there if you want to see what's under the hood.
@@ -33,7 +33,7 @@ This is the complete deliverable stack. The Ignition Plan is the document Cooz r
 | File | What it is | Who reads it | When |
 |---|---|---|---|
 | `00-START-HERE.md` | This file — orientation | Cooz first, Farrice for reference | Day 0 |
-| `01-THE-IGNITION-PLAN.md` | The 14,000-word plan with 10 sections + appendices | Cooz (Sections 1, 3, 5, 6, 8, 10 are the core read) | Day 0 |
+| `01-THE-IGNITION-PLAN.md` | The 14,000-word plan with 10 sections + appendices | Cooz (Sections 1, 3, 6, 8 are the core read) | Day 0 |
 | `04-COOZ-MARCHING-ORDERS.md` | **THE 80/20 ACTION DOC** — what to do, when, in what order. Read FIRST. | Cooz reads and acts on this FIRST | Day 0 |
 | `02-man-in-the-valley-playbook.md` | Unified ICP dossier synthesized from 4-expert swarm | Farrice internal only | Day 0 (Farrice reads before the Cooz call) |
 | `03-cooz-voice-profile.md` | Machine-readable voice DNA for the Cooz Flywheel | Farrice (flywheel operator) | Day 0 |
@@ -89,7 +89,7 @@ The honesty is the quality signal. Every file in this folder is built on what's 
 1. **Run the 30-min Commitment Questions call with Cooz** — all 7 questions, answers written down in real time.
 2. **If any question gets a soft answer**, flag it and address it before the plan ships. No exceptions.
 3. **Send Cooz the package** — `00-START-HERE.md` + `01-THE-IGNITION-PLAN.md` + `07-WEEK-0-CHECKLIST.md`. Do NOT send `02`, `03`, `05`, `06`, `09` — those are Farrice's internal infrastructure.
-4. **Tell Cooz**: *"Read Sections 1, 3, 5, 6, 8, 10 first. Skip Section 9. We'll talk through the self-critique after you've committed to the plan."*
+4. **Tell Cooz**: *"Read Sections 1, 3, 6, 8 first. Skip everything else. We'll talk through the commitment questions after you've read the plan."*
 
 ### Monday morning
 
@@ -103,7 +103,7 @@ The honesty is the quality signal. Every file in this folder is built on what's 
 
 ### First week end (Sunday review)
 
-1. **Count the work shipped**: warm-network voice memos sent (target: 25), Instagram posts shipped (target: 4), Triage Audit bookings (target: 1–3), founding-client conversations in progress (target: 1–2).
+1. **Count the work shipped**: warm-network voice memos sent (target: 25), Instagram posts shipped (target: 2 + 1 reel), Triage Audit bookings (target: 1–3), founding-client conversations in progress (target: 1–2).
 2. **Tune the plan** based on what's landing and what isn't. The founding cohort closes by Week 4. That's the test.
 
 ---

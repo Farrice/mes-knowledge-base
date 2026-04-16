@@ -1,0 +1,24 @@
+{
+  "concept": "Abstract conceptual art for a newsletter called Parallax about seeing from multiple perspectives. Multiple translucent vertical planes receding in perspective, each a different color: deep indigo #1A1B2E, violet #7B61FF, teal #3ECFB4, bronze #C4854C. The planes are evenly spaced creating visible depth between them. A single point of warm white light at the vanishing point. Frosted glass texture on each plane. Deep atmospheric haze between layers. Moody, intellectual, premium. James Turrell light installation meets architectural rendering. No text, no people. Pure abstract depth.",
+  "design_type": "campaign",
+  "style": "auto",
+  "aspect_ratio": "1:1",
+  "resolution": "1K",
+  "creative_direction": {
+    "concept_name": "Parallax Convergence",
+    "thesis": "An abstract visual metaphor using receding translucent planes and a vanishing point light source to represent multiple viewpoints and intellectual depth.",
+    "three_anchors": {
+      "visual_hook": "The dramatic one-point perspective of intersecting, multi-colored translucent frosted glass planes, illuminated by a singular vanishing point light source.",
+      "emotional_core": "A sense of intellectual contemplation, serene mystery, and premium sophistication through depth and light.",
+      "cultural_anchor": "The ethereal spatial manipulation of James Turrell's light installations combined with the precise, volumetric rendering of high-end architectural visualizations."
+    },
+    "prompt": "Multiple, evenly spaced, translucent vertical planes of frosted glass receding into a sharp one-point perspective within an infinite, minimalist abstract space. The planes are colored deep indigo #1A1B2E, violet #7B61FF, teal #3ECFB4, and bronze #C4854C, layered sequentially. A single, intense warm white point light source is positioned precisely at the vanishing point, casting soft, volumetric atmospheric haze between each plane, creating subtle gradients and ethereal glow. Dramatic backlighting originates exclusively from the vanishing point, illuminating the planes from behind. CAMERA: Canon EOS R5, 24mm f/2.8 prime lens, ISO 100, low angle, crisp focus on the nearest plane. COLOR TEMPERATURE: Warm, contrasting with the cool and warm tones of the planes. MOOD: Moody, intellectual, contemplative, premium, and profoundly atmospheric. STYLE REFERENCE: James Turrell light installation meets high-end architectural rendering.",
+    "negative_elements": "Text, numbers, people, discernible objects, harsh shadows, blurred foreground, complex geometry, excessive detail, busy background.",
+    "art_direction_notes": "The prompt prioritizes specificity in color (hex codes), texture (frosted glass), lighting (point light, vanishing point, atmospheric haze), and composition (one-point perspective, low angle). The combination of James Turrell's mastery of light and space with the precision of architectural rendering creates a visual tension that perfectly embodies the 'multiple perspectives' concept in a premium, intellectual style. The wide-angle lens and low angle exaggerate the depth and scale, while the specific f/2.8 aperture ensures clarity with subtle depth."
+  },
+  "final_prompt": "Multiple, evenly spaced, translucent vertical planes of frosted glass receding into a sharp one-point perspective within an infinite, minimalist abstract space. The planes are colored deep indigo #1A1B2E, violet #7B61FF, teal #3ECFB4, and bronze #C4854C, layered sequentially. A single, intense warm white point light source is positioned precisely at the vanishing point, casting soft, volumetric atmospheric haze between each plane, creating subtle gradients and ethereal glow. Dramatic backlighting originates exclusively from the vanishing point, illuminating the planes from behind. CAMERA: Canon EOS R5, 24mm f/2.8 prime lens, ISO 100, low angle, crisp focus on the nearest plane. COLOR TEMPERATURE: Warm, contrasting with the cool and warm tones of the planes. MOOD: Moody, intellectual, contemplative, premium, and profoundly atmospheric. STYLE REFERENCE: James Turrell light installation meets high-end architectural rendering.",
+  "iterations": 1,
+  "total_cost_usd": 0.0056,
+  "total_tokens": 4524,
+  "output_path": "deliverables/designs/parallax/cover-depth-map.png"
+}

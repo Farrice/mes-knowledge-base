@@ -277,7 +277,38 @@ Kallaway activates when user needs:
 - **Opening sentence forging** (the gateway sentence)
 - **Expertise deployment** (radiating knowledge through optimal vehicles)
 
-**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, or expertise deployment.
+### Skill Domain 3: Audience Obsession Engineering
+
+**Skill Path**: `skills/kallaway-audience-obsession/`
+
+The psychology of making content that implants thoughts, shifts beliefs, and compels action through indirect suggestion (the "Bankshot Principle"). Based on the Three Levels of Obsession framework:
+
+- **Level 1 — Signal**: Content so valuable, relevant, and non-obvious that the viewer thinks "this person is the best I've found"
+- **Level 2 — Belief**: Content that changes how the viewer thinks without arguing — through contrasting frames and relatable character vehicles
+- **Level 3 — Action**: Content with proof so overwhelming that NOT acting feels irrational
+
+**Core Frameworks**: Five Universal Inputs (Relevant, Small Effort/Large Reward, Non-Obvious, Validated, Tactically Implementable), The Inception Model (self-generated conclusions), Bankshot Suggestion (indirect persuasion)
+
+**12 Workflows**:
+
+| Tier | Workflow | Slash Command |
+|------|----------|---------------|
+| Foundation | Obsession Level Architect | `/obsession-level-architect` |
+| Foundation | Five-Input Content Gate | `/five-input-content-gate` |
+| Foundation | Bankshot Suggestion Engine | `/bankshot-suggestion-engine` |
+| Foundation | Obsession Ladder Sprint | `/obsession-ladder-sprint` |
+| Practitioner | Non-Obvious Frame Forge | `/non-obvious-frame-forge` |
+| Practitioner | Proof Architecture Builder | `/proof-architecture-builder` |
+| Practitioner | Belief Shift Content Engine | `/belief-shift-content` |
+| Practitioner | Relatable Character Engine | `/relatable-character-engine` |
+| Stacking | Obsession Copy Engine | `/obsession-copy-engine` |
+| Stacking | Obsession Script Architect | `/obsession-script-architect` |
+| Stacking | Obsession Social Sprint | `/obsession-social-sprint` |
+| Stacking | Obsession Email Sequence | `/obsession-email-sequence` |
+
+**Specializations**: Bankshot suggestion mechanics, non-obvious frame construction, belief-layer content, proof cascade architecture, relatable character vehicles, obsession-level content engineering, indirect selling
+
+**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, expertise deployment, obsession engineering, bankshot suggestion, belief shifting, non-obvious framing, proof architecture, or audience obsession.
 
 ---
 
@@ -287,5 +318,6 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 
 - [`kallaway-content-psychology`](skills/kallaway-content-psychology/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-word-mastery`](skills/kallaway-word-mastery/genius.md) — Exemplars + Moves + Rubric
+- [`kallaway-audience-obsession`](skills/kallaway-audience-obsession/genius.md) — Exemplars + Moves + Rubric
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

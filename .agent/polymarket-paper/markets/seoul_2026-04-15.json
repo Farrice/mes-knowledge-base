@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "seoul",
+      "timestamp": "2026-04-14T06:29:52.552557+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 18.9,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 18.9,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    },
+    {
+      "city": "seoul",
+      "timestamp": "2026-04-14T06:31:26.533899+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 18.9,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 18.9,
+      "best_source": "ecmwf",
+      "sigma": 1.2,
+      "unit": "C"
+    }
+  ]
+}

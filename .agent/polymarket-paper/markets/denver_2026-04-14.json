@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "denver",
+      "timestamp": "2026-04-14T06:29:46.065408+00:00",
+      "date": "2026-04-14",
+      "ecmwf_temp": 71.0,
+      "hrrr_temp": null,
+      "metar_temp": 50.0,
+      "best_temp": 50.0,
+      "best_source": "metar",
+      "sigma": 2.0,
+      "unit": "F"
+    },
+    {
+      "city": "denver",
+      "timestamp": "2026-04-14T06:31:21.392313+00:00",
+      "date": "2026-04-14",
+      "ecmwf_temp": 71.0,
+      "hrrr_temp": 69.0,
+      "metar_temp": 50.0,
+      "best_temp": 50.0,
+      "best_source": "metar",
+      "sigma": 2.0,
+      "unit": "F"
+    }
+  ]
+}

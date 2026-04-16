@@ -57,7 +57,7 @@
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |
 | `joshua-smith` | **Joshua Smith** | conversion optimization, kpi-driven production, market agnosticism, niche targeting, real estate sales mastery, real estate sales mastery agent, the game |
 | `jun-yuh` | **jun-yuh** | creator vision, jun yuh, non-verbal storytelling, psychographic growth |
-| `kallaway` | **Kallaway** | content psychology, viral engineering strategist |
+| `kallaway` | **Kallaway** | audience obsession engineering, bankshot suggestion, belief implantation, content psychology, indirect persuasion, obsession levels, power of suggestion, viral engineering strategist |
 | `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, performance feedback loops, platform adaptation |
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
 | `lance-yichao` | **Lance Martin & Yichao "Peak" Ji** | context engineering expert |

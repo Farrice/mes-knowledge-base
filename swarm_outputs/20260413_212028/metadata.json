@@ -1,0 +1,55 @@
+{
+  "objective": "Polymarket Kalshi cross platform arbitrage mechanics fees spread 2026",
+  "timestamp": "20260413_212028",
+  "model": "gemini-2.5-flash",
+  "total_tokens": 34659,
+  "total_cost_usd": 0.0412,
+  "duration_seconds": 73.7,
+  "api_calls": 6,
+  "agents": [
+    {
+      "name": "lulu-cheng-meservey",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 6180,
+      "cost": 0.0034114999999999996,
+      "duration": 15.7,
+      "thinking_tokens": 1555,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "tommy-clark",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5698,
+      "cost": 0.0032024999999999996,
+      "duration": 11.6,
+      "thinking_tokens": 1051,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "josh-sanders",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5296,
+      "cost": 0.0033567,
+      "duration": 14.4,
+      "thinking_tokens": 1279,
+      "grounding_queries": 0,
+      "error": null
+    },
+    {
+      "name": "linkedin-2026-format-arbitrage",
+      "status": "success",
+      "model": "gemini-2.5-flash",
+      "tokens": 5443,
+      "cost": 0.0029601000000000002,
+      "duration": 15.9,
+      "thinking_tokens": 2088,
+      "grounding_queries": 0,
+      "error": null
+    }
+  ]
+}

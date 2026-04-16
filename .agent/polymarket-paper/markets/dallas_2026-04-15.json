@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "dallas",
+      "timestamp": "2026-04-14T06:29:42.583058+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 77.9,
+      "hrrr_temp": null,
+      "metar_temp": null,
+      "best_temp": 77.9,
+      "best_source": "ecmwf",
+      "sigma": 2.0,
+      "unit": "F"
+    },
+    {
+      "city": "dallas",
+      "timestamp": "2026-04-14T06:31:18.801280+00:00",
+      "date": "2026-04-15",
+      "ecmwf_temp": 77.9,
+      "hrrr_temp": 80.4,
+      "metar_temp": null,
+      "best_temp": 80.4,
+      "best_source": "hrrr",
+      "sigma": 2.0,
+      "unit": "F"
+    }
+  ]
+}

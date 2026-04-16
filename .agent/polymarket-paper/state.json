@@ -1,0 +1,25 @@
+{
+  "balance": {
+    "initial": 1000.0,
+    "current": 980.0,
+    "high_water_mark": 1000.0,
+    "total_trades": 1,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0.0,
+    "total_return_pct": -2.0
+  },
+  "risk": {
+    "daily_pnl": 0.0,
+    "daily_pnl_date": "2026-04-14",
+    "peak_balance": 0.0,
+    "current_drawdown": 0.0,
+    "global_exposure": 0.0,
+    "kill_switch_triggered": false,
+    "kill_switch_level": 0,
+    "kill_switch_reason": "",
+    "kill_switch_time": "",
+    "blacklist": [],
+    "whitelist": []
+  }
+}

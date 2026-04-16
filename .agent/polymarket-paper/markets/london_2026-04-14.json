@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    {
+      "city": "london",
+      "timestamp": "2026-04-14T06:29:49.187882+00:00",
+      "date": "2026-04-14",
+      "ecmwf_temp": 16.3,
+      "hrrr_temp": null,
+      "metar_temp": 6.0,
+      "best_temp": 6.0,
+      "best_source": "metar",
+      "sigma": 1.2,
+      "unit": "C"
+    },
+    {
+      "city": "london",
+      "timestamp": "2026-04-14T06:31:23.335824+00:00",
+      "date": "2026-04-14",
+      "ecmwf_temp": 16.3,
+      "hrrr_temp": null,
+      "metar_temp": 6.0,
+      "best_temp": 6.0,
+      "best_source": "metar",
+      "sigma": 1.2,
+      "unit": "C"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "concept": "Social media preview card for a newsletter called Parallax. Deep indigo #1A1B2E background. Centered: a geometric P logo mark in violet #7B61FF (two overlapping planes forming a P). Below the logo: the word PARALLAX in clean geometric sans-serif, white #F5F0EB, generously letterspaced. Below that in smaller text: 'For people who see everything from more than one angle.' in teal #3ECFB4. Subtle atmospheric haze in the background. Premium, clean, confident. No clutter. The kind of card that makes you click.",
+  "design_type": "social",
+  "style": "auto",
+  "aspect_ratio": "16:9",
+  "resolution": "1K",
+  "creative_direction": {
+    "concept_name": "Parallax Newsletter Preview",
+    "thesis": "A minimalist social media preview card for the 'Parallax' newsletter, featuring a geometric 'P' logo and precise typography against a deep indigo, subtly hazy background, designed to evoke intellectual curiosity and confident clarity.",
+    "three_anchors": {
+      "visual_hook": "The geometric 'P' logo with its overlapping planes, rendered in vibrant violet against a deep indigo, immediately draws the eye, hinting at 'parallax'.",
+      "emotional_core": "A sense of premium sophistication, intellectual curiosity, and confident clarity, inviting engagement.",
+      "cultural_anchor": "Modern minimalist graphic design, reminiscent of Swiss Style principles, emphasizing clarity, functionality, and elegant precision."
+    },
+    "prompt": "A perfectly centered graphic design featuring a stylized geometric 'P' logo mark, constructed from two distinct, overlapping flat planes in solid violet #7B61FF. Directly below the logo, the word 'PARALLAX' in uppercase, rendered in a crisp, clean white #F5F0EB geometric sans-serif font (e.g., Gotham Bold), with generous and consistent letter-spacing. Positioned below 'PARALLAX', in smaller font size, the tagline 'For people who see everything from more than one angle.' in teal #3ECFB4, using a geometric sans-serif font (e.g., Gotham Light). Against a deep indigo #1A1B2E solid background, subtly animated by a very faint, uniform atmospheric haze that creates minimal depth without obscuring any elements. Even, soft, diffused studio lighting, creating no harsh shadows. A very subtle, internal digital glow emanates imperceptibly from the violet 'P' logo, contributing to the background haze effect. Digital graphic render, perfectly centered, orthogonal view, 16:9 aspect ratio. Neutral color temperature. Premium, clean, confident, intellectual, minimalist, intriguing mood. Modern minimalist graphic design, Swiss Style typography, corporate branding, digital art.",
+    "negative_elements": "Clutter, gradients that obscure text, photorealistic textures, shadows that obscure text, other objects, busy backgrounds, inconsistent font styles, anything abstract or chaotic, lens flares, film grain.",
+    "art_direction_notes": "The deep indigo background provides a sophisticated, stable foundation, allowing the vibrant violet and teal elements to achieve maximum contrast and visual pop. The geometric 'P' logo visually represents the newsletter's theme of 'parallax' through its overlapping planes. The chosen geometric sans-serif typography (e.g., Gotham) ensures modern, clean legibility and conveys a confident, accessible tone. The subtle atmospheric haze adds a premium, almost ethereal quality without distracting from the core message, enhancing the digital, refined aesthetic. The symmetrical and hierarchical composition ensures immediate understanding and a strong, clickable impression on social media."
+  },
+  "final_prompt": "A perfectly centered graphic design featuring a stylized geometric 'P' logo mark, constructed from two distinct, overlapping flat planes in solid violet #7B61FF. Directly below the logo, the word 'PARALLAX' in uppercase, rendered in a crisp, clean white #F5F0EB geometric sans-serif font (e.g., Gotham Bold), with generous and consistent letter-spacing. Positioned below 'PARALLAX', in smaller font size, the tagline 'For people who see everything from more than one angle.' in teal #3ECFB4, using a geometric sans-serif font (e.g., Gotham Light). Against a deep indigo #1A1B2E solid background, subtly animated by a very faint, uniform atmospheric haze that creates minimal depth without obscuring any elements. Even, soft, diffused studio lighting, creating no harsh shadows. A very subtle, internal digital glow emanates imperceptibly from the violet 'P' logo, contributing to the background haze effect. Digital graphic render, perfectly centered, orthogonal view, 16:9 aspect ratio. Neutral color temperature. Premium, clean, confident, intellectual, minimalist, intriguing mood. Modern minimalist graphic design, Swiss Style typography, corporate branding, digital art.",
+  "iterations": 1,
+  "total_cost_usd": 0.0055,
+  "total_tokens": 5538,
+  "output_path": "deliverables/designs/parallax/social-preview.png"
+}
