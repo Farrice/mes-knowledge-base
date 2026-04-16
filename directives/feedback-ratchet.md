@@ -47,7 +47,7 @@ Manual: When user gives feedback, update User Rating on the most recent entry.
 
 ## Scoring: 9-10 Exceptional (publishable) | 7-8 Strong (minor polish) | 5-6 Adequate | 3-4 Weak (generic) | 1-2 Failed
 
-Sub-scores (Intent Alignment, Expert Standard, Adversarial Resilience) map to Quality Gate's 3-point check.
+Sub-scores (Intent Alignment, Expert Standard, Adversarial Resilience, + Factual Grounding when applicable) map to Quality Gate's 4-point check.
 
 ---
 
@@ -75,7 +75,7 @@ python execution/log_performance.py check --skill [name] --score 5
 
 ## Quality Gate Integration
 
-Quality Gate runs DURING output (silent 3-point check). Feedback Ratchet runs AFTER delivery (captures signal permanently). Gate = referee. Ratchet = scoreboard.
+Quality Gate runs DURING output (silent check on all applicable dimensions — 4 when factual claims present, 3 for pure creative/strategic). Feedback Ratchet runs AFTER delivery (captures signal permanently). Gate = referee. Ratchet = scoreboard. When Factual Grounding fires, include in notes: confidence label counts (VERIFIED/LIKELY/UNCONFIRMED) and verification verdict (PASS/FAIL/PARTIAL).
 
 ## Notion DB: `31f49875a89781dbb599dee5e7961b5c` | Script: `execution/log_performance.py`
 
@@ -101,8 +101,8 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-13 (chain_runner finalize for stefan-georgi-dopamine-copy) |
-| **Activation Count** | 137 |
+| **Last Activated** | 2026-04-13 (chain_runner finalize for prediction-market-weather-trading) |
+| **Activation Count** | 139 |
 
 **Phase 2**: ✅ ACTIVATED (2026-03-30, 123 entries). Run `/skill-evolution` after shipping sessions.
 **Phase 3**: ✅ ACTIVATED (2026-03-30). Cross-pollinated adversarial resilience to 5 skills.

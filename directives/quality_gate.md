@@ -5,7 +5,7 @@
 
 ---
 
-## The 3-Point Gate (Score 1-10 each)
+## The 4-Point Gate (Score 1-10 each)
 
 ### 1. Intent Alignment
 Does output match what user asked for? Check scope drift, format expectations.
@@ -25,6 +25,19 @@ Would this survive domain scrutiny? Unsupported assertions? Embarrassing claims?
 - **Cultural Check:** "Would a 10+ year resident find this tone-deaf?" If user has lived experience → ask. If not → flag gap.
 - **Fail (<6):** "A domain expert would pick this apart in 30 seconds."
 
+### 4. Factual Grounding
+Are real-world claims in this output verified against primary sources? Policies, names, dates, prices, specs, APIs — anything that can be checked, was it checked?
+- 9-10: Every factual claim cross-referenced against primary sources. Unverifiable items explicitly flagged | 7-8: Core claims verified, minor details flagged as unverified | 5-6: Some claims unverified, none flagged — user would discover errors on their own | <5: Claims presented as fact without verification. False confidence throughout
+- **Confidence Labeling:** Every factual claim in the deliverable must carry implicit or explicit grounding. If a claim cannot be verified, it MUST be flagged — not presented with the same confidence as verified facts. Presenting uncertain info as certain = automatic score ≤4.
+- **Source Diversity:** Single-source claims score lower than multi-source claims. A fact confirmed across 3+ independent sources is grounded. A fact from one ambiguous paragraph is a guess wearing a suit.
+- **Verification Timing:** Verify BEFORE writing, not after being pushed. If the verification pass happens only because the user pushed back, the system failed regardless of the final accuracy.
+- **Fail (<6):** "The user had to fact-check their own deliverable."
+
+**When Dimension 4 Fires:**
+- Any deliverable referencing real-world facts: policies, regulations, prices, dates, names, technical specs, API behavior, legal terms, event schedules, weather data, product features
+- Does NOT fire for: pure creative/strategic output where claims are opinions or frameworks, not verifiable facts
+- When in doubt: it fires. Better to verify something that didn't need it than to skip something that did
+
 ### Quick Diagnostics (from Reflection Pass synthesis)
 
 **Attention Equation** (if content/copy): `Attention = Signal ÷ Noise × Pull`
@@ -41,13 +54,15 @@ Would this survive domain scrutiny? Unsupported assertions? Embarrassing claims?
 - Any layer at 0 = fail regardless of composite score.
 
 ### Composite Score
-Average of 3 sub-scores. **≥7: Pass** | **5-6: Retry weakest** | **<5: Fail**
+Average of all applicable sub-scores (3 dimensions for creative/strategic, 4 dimensions when Factual Grounding fires). **≥7: Pass** | **5-6: Retry weakest** | **<5: Fail**
 Evolution mode: ≥7 KEEP, <7 DISCARD (binary, no marginal zone).
+**Factual Grounding veto:** If Dimension 4 fires and scores <6, the deliverable CANNOT pass regardless of composite. A factually wrong document that's well-written and on-strategy is worse than a rough draft that's accurate — because the user trusts the polish.
 
 ---
 
 ## On Failure (composite <7 OR any dimension <6)
 1. Diagnose (1 sentence) → 2. Fix failing section only → 3. Re-check → 4. Max 1 retry. Still fails → deliver with confidence note.
+**Factual Grounding failure (Dim 4 <6):** Do NOT retry the writing. Go back to research. The problem is upstream — the claims weren't verified. Re-research, re-verify, THEN rewrite.
 
 ## Performance Logging
 After delivery, log via `execution/log_performance.py`: output, agent, skill, workflow, task_type, quality_score, sub-scores, status, notes.
@@ -58,8 +73,8 @@ After delivery, log via `execution/log_performance.py`: output, agent, skill, wo
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-13 (chain_runner finalize for stefan-georgi-dopamine-copy) |
-| **Activation Count** | 125 |
+| **Last Activated** | 2026-04-13 (chain_runner finalize for prediction-market-weather-trading) |
+| **Activation Count** | 127 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

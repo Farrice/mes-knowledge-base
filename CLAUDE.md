@@ -137,11 +137,19 @@ For content: minimum 2 skill files loaded per `directives/content_creation_gate.
 Execute using loaded expert frameworks — their thinking, not their terminology.
 During production, enforce `directives/quality_assurance.md` anti-patterns: entity classification, no phantom research, no template slop.
 
+### Step 5.5: VERIFY (Factual Grounding — fires for deliverables with real-world claims)
+Before finalizing, run verification per `directives/verification-agent-protocol.md`:
+- **Implementation**: Run it, break it (adversarial checks)
+- **Factual deliverables**: Claim inventory → source verification → confidence labeling (VERIFIED/LIKELY/UNCONFIRMED) → contradiction scan
+- Verify BEFORE the user sees the document. Research → verify → compile → deliver. Not: compile → deliver → get caught → fix.
+- If VERDICT: PASS → proceed to Step 6. If FAIL → re-research, re-verify before rewriting.
+
 ### Step 6: FINALIZE (Quality Gate + Log + Protocol Tracking — Single Call)
-After producing expert output, score it mentally on 3 dimensions (1-10 each):
+After producing expert output, score it mentally on 4 dimensions (1-10 each):
 - **Intent Alignment**: Does it match what the user actually asked for?
 - **Expert Standard**: Would the real expert recognize this as quality work?
 - **Adversarial Resilience**: Would it survive critical scrutiny?
+- **Factual Grounding** (when applicable): Are real-world claims verified against primary sources? Unverifiable items flagged?
 
 Then run the chain finalize command — this handles EVERYTHING (quality gate, regression check, Notion performance log, protocol activation tracking, session state):
 ```bash
@@ -151,9 +159,10 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
     --workflow [workflow-name] \
     --type [Content|Strategy|Research|Extraction|Client Work|System|Creative|Analysis] \
     --intent [1-10] --expert-score [1-10] --adversarial [1-10] \
-    --notes "[what worked, what didn't]"
+    --notes "[what worked, what didn't] | Factual Grounding: [1-10] | Verification: [PASS/FAIL/PARTIAL/N/A]"
 ```
 **If composite < 7 or any dimension < 6**: Retry the weakest section once, then re-finalize.
+**Factual Grounding veto**: If Dimension 4 fires and scores <6, delivery is blocked regardless of composite. A polished document with wrong facts is worse than a rough draft with right facts — because the user trusts the polish.
 **This is non-negotiable.** Expert output without `finalize` is incomplete. This feeds the autoresearch loop — skipping it kills Phases 2-4.
 Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
@@ -252,7 +261,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Protocol | Fires During | Directive |
 |----------|-------------|-----------|
 | Quality Assurance | Step 5 (production) | `directives/quality_assurance.md` |
-| **Verification Agent** | **Step 5.5 (implementation tasks)** | **`directives/verification-agent-protocol.md`** |
+| **Verification Agent** | **Step 5.5 (implementation AND factual deliverables)** | **`directives/verification-agent-protocol.md`** |
 | Token Efficiency | Every workflow | `directives/token-efficiency-protocol.md` |
 | Session State | After Step 2, after Step 4, after 10+ reads | `directives/session-state-protocol.md` |
 | Self-Annealing | On any error | `directives/deep_self_annealing.md` |
