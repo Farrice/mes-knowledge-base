@@ -31,6 +31,7 @@ import base64
 import hashlib
 import logging
 import os
+import random
 import time
 import uuid
 from datetime import datetime, timezone
@@ -41,7 +42,11 @@ import requests
 from projects.prediction_market_arb.constants import (
     KALSHI_API_URL, KALSHI_SANDBOX_URL, KALSHI_TAKER_FEE_RATE, KALSHI_MAX_FEE_CENTS,
 )
-from projects.prediction_market_arb.models import KalshiMarket
+from projects.prediction_market_arb.models import (
+    KalshiMarket, OrderResult, OrderStatus, Position, OrderSide,
+)
+from projects.prediction_market_arb.resilience import retry_transient
+from projects.prediction_market_arb.state import StateManager
 
 logger = logging.getLogger("polymarket.kalshi")
 
@@ -156,6 +161,7 @@ class KalshiClient:
         mode = "sandbox" if use_sandbox else "production"
         logger.info(f"[KALSHI] Client initialized ({mode})")
 
+    @retry_transient()
     def _request(self, method: str, path: str, params: dict = None,
                   json_body: dict = None, max_retries: int = 3) -> Optional[dict]:
         """
@@ -532,3 +538,210 @@ class KalshiClient:
         logger.info(f"[KALSHI] Scanned {len(filtered)} markets matching categories "
                     f"{categories} (from {len(all_markets)} total)")
         return filtered
+
+
+# =============================================================================
+# PAPER KALSHI CLIENT — reads real data, simulates order execution
+# =============================================================================
+
+class PaperKalshiClient(KalshiClient):
+    """
+    Paper trading client for Kalshi. Inherits ALL market data reads from
+    KalshiClient (so paper trading uses actual Kalshi prices). Order
+    operations write to local JSON state instead of the real API.
+
+    Mirrors the PaperPolymarketClient pattern:
+      - Real market data reads (get_markets, get_market, get_orderbook, etc.)
+      - Simulated order fills with configurable fill probability
+      - State persistence via StateManager (Kalshi-namespaced positions)
+
+    Kalshi-specific differences from Polymarket paper client:
+      - Prices are in cents internally (1-99), normalized to 0-1 for position tracking
+      - Orders use side ("yes"/"no") + action ("buy"/"sell"), not token IDs
+      - Separate positions file (kalshi_positions.json) to avoid collision
+      - Fee calculation uses Kalshi's formula: min(0.07 * P * (1-P), 0.0175)
+    """
+
+    def __init__(self, config, state_manager: StateManager):
+        super().__init__(config)
+        self.state = state_manager
+        self._fill_probability = config.paper.get("fill_probability", 0.8)
+
+        # Kalshi positions stored in a separate file to avoid collision
+        # with Polymarket positions
+        self._kalshi_positions_file = "kalshi_positions.json"
+
+        logger.info("[KALSHI-PAPER] Paper client initialized — "
+                    "orders will NOT hit the real Kalshi API")
+
+    # -------------------------------------------------------------------------
+    # Kalshi Position Persistence (separate namespace from Polymarket)
+    # -------------------------------------------------------------------------
+
+    def _load_kalshi_positions(self) -> list[Position]:
+        """Load Kalshi-specific paper positions."""
+        path = self.state.data_dir / self._kalshi_positions_file
+        data = self.state._load_json(path, [])
+        if isinstance(data, list):
+            return [Position.from_dict(p) for p in data]
+        return []
+
+    def _save_kalshi_positions(self, positions: list[Position]):
+        """Save Kalshi-specific paper positions."""
+        data = [p.to_dict() for p in positions]
+        path = self.state.data_dir / self._kalshi_positions_file
+        self.state._atomic_write(path, data)
+
+    def _add_kalshi_position(self, position: Position):
+        """Add a position to the Kalshi paper positions."""
+        positions = self._load_kalshi_positions()
+        positions.append(position)
+        self._save_kalshi_positions(positions)
+
+    # -------------------------------------------------------------------------
+    # Paper Order Execution
+    # -------------------------------------------------------------------------
+
+    def paper_place_order(self, ticker: str, side: str, action: str,
+                          count: float, price_cents: float) -> OrderResult:
+        """
+        Simulate a Kalshi order execution for paper trading.
+
+        Args:
+            ticker: Kalshi market ticker (e.g., "FED-26MAY-T4.50")
+            side: "yes" or "no"
+            action: "buy" or "sell"
+            count: Number of contracts
+            price_cents: Price in cents (1-99)
+
+        Returns:
+            OrderResult with fill details or failure reason.
+
+        Price handling:
+            Kalshi prices are in cents (1-99). We normalize to 0-1
+            for position tracking so it's compatible with the existing
+            Position model and PnL calculations used by paper_trader.py.
+        """
+        # Validate inputs
+        if side not in ("yes", "no"):
+            return OrderResult(
+                order_id=str(uuid.uuid4()),
+                status=OrderStatus.FAILED,
+                error=f"Invalid side: {side}. Must be 'yes' or 'no'",
+                is_paper=True,
+                timestamp=datetime.now(timezone.utc).isoformat(),
+            )
+        if action not in ("buy", "sell"):
+            return OrderResult(
+                order_id=str(uuid.uuid4()),
+                status=OrderStatus.FAILED,
+                error=f"Invalid action: {action}. Must be 'buy' or 'sell'",
+                is_paper=True,
+                timestamp=datetime.now(timezone.utc).isoformat(),
+            )
+
+        # Normalize price to 0-1 for position tracking
+        price_normalized = price_cents / 100.0
+
+        # Calculate Kalshi taker fee
+        fee_per_contract = kalshi_taker_fee(price_normalized)
+        total_fee = fee_per_contract * count
+
+        # Simulate fill
+        filled = random.random() < self._fill_probability
+
+        if not filled:
+            logger.info(f"[KALSHI-PAPER] Order not filled (simulated miss) "
+                        f"for {ticker}")
+            return OrderResult(
+                order_id=str(uuid.uuid4()),
+                status=OrderStatus.CANCELLED,
+                is_paper=True,
+                timestamp=datetime.now(timezone.utc).isoformat(),
+            )
+
+        # Fill simulation
+        order_id = str(uuid.uuid4())
+
+        if action == "buy":
+            # Cost to buy = price * count + fees
+            cost = price_normalized * count + total_fee
+
+            # Check paper balance
+            balance = self.state.load_balance()
+            if cost > balance.current:
+                return OrderResult(
+                    order_id=order_id,
+                    status=OrderStatus.FAILED,
+                    error=f"Insufficient balance: need ${cost:.2f}, "
+                          f"have ${balance.current:.2f}",
+                    is_paper=True,
+                    timestamp=datetime.now(timezone.utc).isoformat(),
+                )
+
+            # Deduct cost from balance
+            balance.current -= cost
+            balance.total_trades += 1
+            self.state.save_balance(balance)
+
+            # Record position
+            # Use ticker as market_id, side as token_id (Kalshi doesn't have token IDs)
+            position = Position(
+                market_id=f"kalshi:{ticker}",
+                token_id=f"{side}",  # "yes" or "no"
+                side=OrderSide.BUY,
+                entry_price=price_normalized,
+                size=count,
+                current_price=price_normalized,
+                entry_time=datetime.now(timezone.utc).isoformat(),
+                question=f"[Kalshi] {ticker} ({side})",
+            )
+            self._add_kalshi_position(position)
+
+            logger.info(f"[KALSHI-PAPER] Order filled: {action} {count:.0f} "
+                        f"{side} @ {price_cents:.0f}c on {ticker} "
+                        f"(cost: ${cost:.2f}, fee: ${total_fee:.4f})")
+
+        else:  # action == "sell"
+            # For sell, we receive (price * count - fees)
+            proceeds = price_normalized * count - total_fee
+
+            balance = self.state.load_balance()
+            balance.current += proceeds
+            balance.total_trades += 1
+            self.state.save_balance(balance)
+
+            logger.info(f"[KALSHI-PAPER] Order filled: {action} {count:.0f} "
+                        f"{side} @ {price_cents:.0f}c on {ticker} "
+                        f"(proceeds: ${proceeds:.2f}, fee: ${total_fee:.4f})")
+
+        return OrderResult(
+            order_id=order_id,
+            status=OrderStatus.CONFIRMED,
+            fill_price=price_normalized,
+            fill_size=count,
+            is_paper=True,
+            timestamp=datetime.now(timezone.utc).isoformat(),
+        )
+
+    def get_paper_positions(self) -> list[Position]:
+        """Get current Kalshi paper positions."""
+        return self._load_kalshi_positions()
+
+    def get_paper_balance(self) -> float:
+        """Get current paper balance (shared with Polymarket paper balance)."""
+        return self.state.load_balance().current
+
+
+# =============================================================================
+# FACTORY
+# =============================================================================
+
+def create_kalshi_client(config, state_manager: StateManager) -> PaperKalshiClient:
+    """
+    Create a PaperKalshiClient for paper trading.
+
+    Currently only supports paper mode. Live Kalshi trading will be
+    added in a future phase (requires RSA-PSS auth + sandbox testing).
+    """
+    return PaperKalshiClient(config, state_manager)

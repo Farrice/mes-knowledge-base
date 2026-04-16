@@ -28,6 +28,7 @@ from datetime import datetime, timezone
 from typing import Optional
 
 from projects.prediction_market_arb.models import EnsembleEstimate, Opportunity, StrategyType, EdgeType
+from projects.prediction_market_arb.resilience import retry_transient
 
 logger = logging.getLogger("polymarket.ensemble")
 
@@ -82,6 +83,7 @@ where probability is 0.01-0.99 and confidence is 1-10.""",
 # LLM CLIENTS (multi-provider)
 # =============================================================================
 
+@retry_transient(max_attempts=2, backoff_base=2.0)
 def _call_openai(model: str, system: str, user: str) -> dict:
     """Call OpenAI API. Returns parsed JSON response."""
     import requests as req
@@ -110,6 +112,7 @@ def _call_openai(model: str, system: str, user: str) -> dict:
     return json.loads(content)
 
 
+@retry_transient(max_attempts=2, backoff_base=2.0)
 def _call_anthropic(model: str, system: str, user: str) -> dict:
     """Call Anthropic API. Returns parsed JSON response."""
     import requests as req
@@ -144,6 +147,7 @@ def _call_anthropic(model: str, system: str, user: str) -> dict:
     return json.loads(content.strip())
 
 
+@retry_transient(max_attempts=2, backoff_base=2.0)
 def _call_google(model: str, system: str, user: str) -> dict:
     """Call Google Gemini API. Returns parsed JSON response."""
     import requests as req
@@ -249,17 +253,23 @@ class EnsembleEngine:
                 logger.info(f"  {role} ({model}): p={prob:.2f}, conf={conf}/10")
             except Exception as e:
                 logger.error(f"  {role} ({model}) failed: {e}")
-                results[role] = {
-                    "probability": 0.5,
-                    "confidence": 1,
-                    "reasoning": f"Error: {e}",
-                    "weight": weight,
-                }
+                # Do NOT add failed models to results — they would inject
+                # 0.5 noise into the weighted average
 
-        if not results:
+        total_models = len(model_configs)
+        succeeded = len(results)
+        failed = total_models - succeeded
+        logger.info(f"Ensemble models: {succeeded}/{total_models} succeeded, {failed} failed")
+
+        if succeeded == 0:
+            logger.error("All ensemble models failed — cannot produce estimate")
             return None
 
-        # Weighted aggregation
+        if succeeded == 1:
+            logger.warning("Only 1 model succeeded — single model is not an ensemble, skipping")
+            return None
+
+        # Weighted aggregation (renormalize weights to sum to 1.0)
         roles = list(results.keys())
         probs = [results[r]["probability"] for r in roles]
         weights = [results[r]["weight"] for r in roles]

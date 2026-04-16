@@ -430,7 +430,23 @@ class RiskManager:
 
     def _hours_to_resolution(self, position: Position) -> float:
         """Estimate hours until a position's market resolves."""
-        # Use the date from the market question if available
+        import re
+        from projects.prediction_market_arb.constants import MONTHS
+
+        if position.question:
+            for i, month in enumerate(MONTHS):
+                pattern = rf'{month}\s+(\d+),?\s+(\d{{4}})'
+                m = re.search(pattern, position.question, re.IGNORECASE)
+                if m:
+                    day = int(m.group(1))
+                    year = int(m.group(2))
+                    # Assume resolution at end of day UTC
+                    resolution_dt = datetime(year, i + 1, day, 23, 59, 59,
+                                             tzinfo=timezone.utc)
+                    now = datetime.now(timezone.utc)
+                    hours = (resolution_dt - now).total_seconds() / 3600.0
+                    return max(hours, 0.0)
+
         # Fallback: assume 48 hours
         return 48.0
 

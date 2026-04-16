@@ -36,6 +36,7 @@ from projects.prediction_market_arb.constants import (
     OPEN_METEO_ECMWF_URL, OPEN_METEO_HRRR_URL, METAR_URL, VISUAL_CROSSING_URL,
 )
 from projects.prediction_market_arb.models import ForecastSnapshot
+from projects.prediction_market_arb.resilience import retry_transient
 from projects.prediction_market_arb.state import StateManager
 
 logger = logging.getLogger("polymarket.weather")
@@ -125,6 +126,7 @@ class WeatherPipeline:
     # Forecast Sources
     # -------------------------------------------------------------------------
 
+    @retry_transient()
     def fetch_ecmwf(self, lat: float, lon: float, date: str,
                     unit: str = "F") -> Optional[float]:
         """Fetch max temperature from Open-Meteo ECMWF model."""
@@ -149,6 +151,7 @@ class WeatherPipeline:
             logger.warning(f"ECMWF fetch failed ({lat}, {lon}): {e}")
         return None
 
+    @retry_transient()
     def fetch_hrrr(self, lat: float, lon: float, date: str,
                    unit: str = "F") -> Optional[float]:
         """
@@ -177,6 +180,7 @@ class WeatherPipeline:
             logger.warning(f"HRRR fetch failed ({lat}, {lon}): {e}")
         return None
 
+    @retry_transient()
     def fetch_metar(self, icao_code: str, unit: str = "F") -> Optional[float]:
         """
         Fetch latest temperature from METAR aviation weather observations.
@@ -202,6 +206,7 @@ class WeatherPipeline:
             logger.warning(f"METAR fetch failed ({icao_code}): {e}")
         return None
 
+    @retry_transient()
     def fetch_visual_crossing(self, city_name: str, date: str,
                               unit: str = "F") -> Optional[float]:
         """

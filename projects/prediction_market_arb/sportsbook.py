@@ -31,6 +31,7 @@ import requests
 
 from projects.prediction_market_arb.constants import ODDSPAPI_URL, SPORT_KEYS, FEE_DRAG
 from projects.prediction_market_arb.models import SportsOdds, Opportunity, StrategyType, EdgeType
+from projects.prediction_market_arb.resilience import retry_transient
 
 logger = logging.getLogger("polymarket.sportsbook")
 
@@ -141,6 +142,7 @@ class SportsbookClient:
         if not self.api_key:
             logger.warning("ODDSPAPI_KEY not set — sportsbook scanning disabled")
 
+    @retry_transient()
     def fetch_odds(self, sport: str) -> list[SportsOdds]:
         """
         Fetch current odds for a sport from OddsPapi.

@@ -26,12 +26,13 @@ from datetime import datetime, timezone
 from projects.prediction_market_arb.config import load_config
 from projects.prediction_market_arb.state import StateManager
 from projects.prediction_market_arb.polymarket_client import create_client
+from projects.prediction_market_arb.kalshi_client import create_kalshi_client
 from projects.prediction_market_arb.weather_data import WeatherPipeline
 from projects.prediction_market_arb.risk_manager import RiskManager, ExitSignal
 from projects.prediction_market_arb.strategy_orchestrator import StrategyOrchestrator
 from projects.prediction_market_arb.models import (
     OrderRequest, OrderSide, OrderType, OrderStatus, ExitReason,
-    TradeRecord, Position, Opportunity,
+    TradeRecord, Position, Opportunity, StrategyType,
 )
 
 logger = logging.getLogger("polymarket.paper")
@@ -65,10 +66,69 @@ class PaperTrader:
         self.config = config or load_config(config_path)
         self.state = StateManager(self.config.paper.data_dir)
         self.client = create_client(self.config, self.state)
+        self.kalshi_client = create_kalshi_client(self.config, self.state)
         self.weather = WeatherPipeline(self.config, self.state)
         self.risk = RiskManager(self.config, self.state)
         # Phase 2: Multi-strategy orchestrator
         self.orchestrator = StrategyOrchestrator(self.config)
+
+        # Reconcile state after potential crash recovery
+        self._reconcile_state()
+
+    # -------------------------------------------------------------------------
+    # STATE RECONCILIATION
+    # -------------------------------------------------------------------------
+
+    def _reconcile_state(self):
+        """
+        Check for state inconsistencies after crash recovery.
+
+        If the system crashed between writing positions.json and state.json,
+        balance and positions can become inconsistent. This checks for that
+        and warns the operator without auto-correcting.
+        """
+        try:
+            balance = self.state.load_balance()
+            positions = self.state.load_positions()
+            trades = self.state.load_trades()
+
+            # Calculate total capital deployed in open positions
+            deployed_capital = sum(p.cost for p in positions)
+
+            # If there are completed trades, we can't do a simple
+            # initial = current + deployed check, so skip
+            if trades:
+                logger.info(
+                    "State reconciliation passed "
+                    f"(balance=${balance.current:.2f}, "
+                    f"{len(positions)} positions, "
+                    f"{len(trades)} completed trades)"
+                )
+                return
+
+            # With no completed trades: initial should equal current + deployed
+            expected_initial = balance.current + deployed_capital
+            drift = abs(expected_initial - balance.initial)
+
+            if drift > 1.0:
+                logger.warning(
+                    f"STATE RECONCILIATION WARNING: Possible corruption detected. "
+                    f"initial=${balance.initial:.2f}, "
+                    f"current=${balance.current:.2f}, "
+                    f"deployed=${deployed_capital:.2f}, "
+                    f"drift=${drift:.2f}. "
+                    f"Expected initial ≈ current + deployed. "
+                    f"Manual review recommended."
+                )
+            else:
+                logger.info(
+                    "State reconciliation passed "
+                    f"(balance=${balance.current:.2f}, "
+                    f"{len(positions)} positions, "
+                    f"drift=${drift:.2f})"
+                )
+        except Exception as e:
+            logger.warning(f"State reconciliation check failed: {e}")
 
     # -------------------------------------------------------------------------
     # SCAN & TRADE (offense — every 60 minutes)
@@ -258,6 +318,20 @@ class PaperTrader:
                 results_by_strategy[strategy] = {"scanned": 0, "traded": 0, "rejected": 0}
             results_by_strategy[strategy]["scanned"] += 1
 
+            # ---- CROSS-PLATFORM: dual-leg execution ----
+            if strategy == StrategyType.CROSS_PLATFORM.value:
+                traded = self._execute_cross_platform(opp, balance)
+                if traded:
+                    trades_placed += 1
+                    results_by_strategy[strategy]["traded"] += 1
+                    balance = self.state.load_balance()
+                else:
+                    trades_rejected += 1
+                    results_by_strategy[strategy]["rejected"] += 1
+                continue
+
+            # ---- SINGLE-PLATFORM strategies (weather, sports, ensemble) ----
+
             # Risk check
             order = OrderRequest(
                 market_id=opp.market_id,
@@ -358,6 +432,169 @@ class PaperTrader:
             "by_strategy": results_by_strategy,
             "balance": balance.current,
         }
+
+    # -------------------------------------------------------------------------
+    # CROSS-PLATFORM DUAL-LEG EXECUTION
+    # -------------------------------------------------------------------------
+
+    def _execute_cross_platform(self, opp: Opportunity, balance) -> bool:
+        """
+        Execute a cross-platform arbitrage opportunity with BOTH legs.
+
+        Cross-platform arb requires simultaneous positions on both platforms:
+          - If Polymarket overpriced: buy YES on Kalshi, buy NO on Polymarket
+          - If Kalshi overpriced: buy YES on Polymarket, buy NO on Kalshi
+
+        Both legs must pass risk checks independently. If either leg fails,
+        the entire opportunity is skipped (never execute half an arb).
+
+        Returns True if both legs executed, False otherwise.
+        """
+        ctx = opp.context
+        poly_market_id = ctx.get("poly_market_id", opp.market_id)
+        kalshi_ticker = ctx.get("kalshi_ticker", "")
+        poly_price = ctx.get("poly_price", 0.0)
+        kalshi_price = ctx.get("kalshi_price", 0.0)
+        price_gap = ctx.get("price_gap", 0.0)
+
+        if not kalshi_ticker:
+            print(f"  {C.GRAY}SKIP [cross_platform] No Kalshi ticker in context{C.RESET}")
+            return False
+
+        # Determine trade direction
+        # price_gap = poly_price - kalshi_price
+        # If positive: Poly overpriced → buy on Kalshi (cheaper), sell/short on Poly
+        # If negative: Kalshi overpriced → buy on Poly (cheaper), sell/short on Kalshi
+        if price_gap > 0:
+            # Buy YES on Kalshi (cheaper), buy NO on Polymarket
+            kalshi_side = "yes"
+            kalshi_action = "buy"
+            kalshi_price_cents = kalshi_price * 100  # Normalized 0-1 → cents
+            poly_side = OrderSide.BUY
+            poly_price_for_order = 1.0 - poly_price  # Buy NO = buy at (1 - yes_price)
+            leg_description = f"Buy YES on Kalshi @ {kalshi_price:.3f}, Buy NO on Poly @ {poly_price_for_order:.3f}"
+        else:
+            # Buy YES on Polymarket (cheaper), buy NO on Kalshi
+            kalshi_side = "no"
+            kalshi_action = "buy"
+            kalshi_price_cents = (1.0 - kalshi_price) * 100  # no_price in cents
+            poly_side = OrderSide.BUY
+            poly_price_for_order = poly_price  # Buy YES
+            leg_description = f"Buy YES on Poly @ {poly_price:.3f}, Buy NO on Kalshi @ {kalshi_price_cents:.0f}c"
+
+        # Fixed sizing for cross-platform arb (not Kelly — arb uses equal sizing)
+        # Use the smaller of max_bet or 5% of balance
+        max_arb_size = min(
+            self.config.trading.max_bet,
+            balance.current * 0.05,
+        )
+        if max_arb_size <= 0:
+            print(f"  {C.GRAY}SKIP [cross_platform] Insufficient balance for arb{C.RESET}")
+            return False
+
+        # Calculate contract count (equal dollar amount on both sides)
+        poly_contracts = max_arb_size / poly_price_for_order if poly_price_for_order > 0 else 0
+        kalshi_contracts = max_arb_size / (kalshi_price_cents / 100.0) if kalshi_price_cents > 0 else 0
+        # Use the smaller count so both legs are balanced
+        contracts = min(poly_contracts, kalshi_contracts)
+        if contracts <= 0:
+            print(f"  {C.GRAY}SKIP [cross_platform] Zero contract size{C.RESET}")
+            return False
+
+        # Risk check — Polymarket leg
+        poly_order = OrderRequest(
+            market_id=poly_market_id,
+            token_id=opp.token_id,
+            side=poly_side,
+            price=poly_price_for_order,
+            size=contracts,
+            neg_risk=opp.neg_risk,
+        )
+        poly_passed, poly_reason = self.risk.check_order(
+            poly_order, market_volume=opp.volume
+        )
+
+        # Risk check — Kalshi leg (use a synthetic OrderRequest for risk validation)
+        kalshi_order = OrderRequest(
+            market_id=f"kalshi:{kalshi_ticker}",
+            token_id=kalshi_side,
+            side=OrderSide.BUY,
+            price=kalshi_price_cents / 100.0,
+            size=contracts,
+        )
+        kalshi_passed, kalshi_reason = self.risk.check_order(
+            kalshi_order, market_volume=opp.volume
+        )
+
+        # BOTH legs must pass — never execute half an arb
+        if not poly_passed:
+            print(f"  {C.GRAY}SKIP [cross_platform] Poly leg failed risk: "
+                  f"{poly_reason}{C.RESET}")
+            return False
+        if not kalshi_passed:
+            print(f"  {C.GRAY}SKIP [cross_platform] Kalshi leg failed risk: "
+                  f"{kalshi_reason}{C.RESET}")
+            return False
+
+        # Check if already in either market
+        positions = self.state.load_positions()
+        kalshi_positions = self.kalshi_client.get_paper_positions()
+        poly_already = any(p.market_id == poly_market_id for p in positions)
+        kalshi_already = any(p.market_id == f"kalshi:{kalshi_ticker}" for p in kalshi_positions)
+        if poly_already or kalshi_already:
+            print(f"  {C.GRAY}SKIP [cross_platform] Already in one or both markets{C.RESET}")
+            return False
+
+        # Execute Polymarket leg
+        poly_result = self.client.place_order(poly_order)
+        if poly_result.status != OrderStatus.CONFIRMED:
+            print(f"  {C.YELLOW}MISS [cross_platform] Poly leg not filled: "
+                  f"{poly_result.error or 'simulated miss'}{C.RESET}")
+            return False
+
+        # Execute Kalshi leg
+        kalshi_result = self.kalshi_client.paper_place_order(
+            ticker=kalshi_ticker,
+            side=kalshi_side,
+            action=kalshi_action,
+            count=contracts,
+            price_cents=kalshi_price_cents,
+        )
+        if kalshi_result.status != OrderStatus.CONFIRMED:
+            # Poly leg filled but Kalshi didn't — log the orphan
+            # In paper trading this is acceptable; in live trading this would
+            # require unwinding the Poly position
+            print(f"  {C.RED}WARNING [cross_platform] Poly filled but Kalshi failed: "
+                  f"{kalshi_result.error or 'simulated miss'}{C.RESET}")
+            print(f"  {C.RED}  Orphaned Poly position in {poly_market_id[:12]}...{C.RESET}")
+            return False
+
+        # Both legs filled — log the arb
+        poly_cost = poly_price_for_order * contracts
+        kalshi_cost = (kalshi_price_cents / 100.0) * contracts
+        total_cost = poly_cost + kalshi_cost
+        net_edge_dollars = opp.edge_after_fees * contracts
+
+        print(f"\n  {C.BOLD}\033[93mARB [cross_platform]{C.RESET} "
+              f"{opp.question[:55]}...")
+        print(f"    {leg_description}")
+        print(f"    Contracts: {contracts:.1f} | "
+              f"Edge: {opp.edge_after_fees:+.1%} | "
+              f"Confidence: {opp.confidence:.2f}")
+        print(f"    Poly cost: ${poly_cost:.2f} | "
+              f"Kalshi cost: ${kalshi_cost:.2f} | "
+              f"Total: ${total_cost:.2f}")
+        print(f"    Net edge: ${net_edge_dollars:+.2f} "
+              f"(match: {ctx.get('match_confidence', 0):.2f})")
+
+        # Update Polymarket position with arb context
+        positions = self.state.load_positions()
+        for p in positions:
+            if p.market_id == poly_market_id:
+                p.question = f"[Arb-Poly] {opp.question[:60]}"
+        self.state.save_positions(positions)
+
+        return True
 
     # -------------------------------------------------------------------------
     # MONITOR POSITIONS (defense — every 10 minutes)

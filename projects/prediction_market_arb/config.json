@@ -34,7 +34,8 @@
   },
   "paper": {
     "initial_balance": 1000.0,
-    "data_dir": ".agent/polymarket-paper"
+    "data_dir": ".agent/polymarket-paper",
+    "fill_probability": 0.80
   },
 
   "kalshi": {

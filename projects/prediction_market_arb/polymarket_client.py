@@ -29,6 +29,7 @@ from projects.prediction_market_arb.constants import (
 from projects.prediction_market_arb.models import (
     Market, OrderRequest, OrderResult, Position, OrderSide, OrderStatus,
 )
+from projects.prediction_market_arb.resilience import retry_transient
 from projects.prediction_market_arb.state import StateManager
 
 logger = logging.getLogger("polymarket.client")
@@ -76,6 +77,7 @@ class PaperPolymarketClient:
     # Market Data (reads from REAL APIs — same in paper and live mode)
     # -------------------------------------------------------------------------
 
+    @retry_transient()
     def get_markets(self, active: bool = True, limit: int = 100,
                     category: str = None) -> list:
         """Fetch markets from Gamma API."""
@@ -106,6 +108,7 @@ class PaperPolymarketClient:
             logger.error(f"Failed to fetch markets: {e}")
             return []
 
+    @retry_transient()
     def get_market(self, condition_id: str) -> Optional[Market]:
         """Fetch a single market by condition ID."""
         try:
@@ -129,6 +132,7 @@ class PaperPolymarketClient:
             logger.error(f"Failed to fetch market {condition_id}: {e}")
             return None
 
+    @retry_transient()
     def get_event(self, slug: str) -> Optional[dict]:
         """Fetch event by slug (used for weather market discovery)."""
         try:
@@ -144,6 +148,7 @@ class PaperPolymarketClient:
             logger.error(f"Failed to fetch event {slug}: {e}")
             return None
 
+    @retry_transient()
     def get_orderbook(self, token_id: str) -> dict:
         """Fetch orderbook for a token from CLOB API."""
         try:
@@ -169,6 +174,7 @@ class PaperPolymarketClient:
         best_ask = min((p for p, _ in book["asks"]), default=1.0) if book["asks"] else 1.0
         return (best_bid, best_ask)
 
+    @retry_transient()
     def get_market_price(self, market_id: str) -> Optional[dict]:
         """Get current prices for a market from Gamma API."""
         try:
@@ -187,6 +193,7 @@ class PaperPolymarketClient:
             logger.error(f"Failed to get price for {market_id}: {e}")
             return None
 
+    @retry_transient()
     def search_events(self, query: str) -> list:
         """Search events by text query."""
         try:
@@ -448,6 +455,7 @@ class LivePolymarketClient(PaperPolymarketClient):
             logger.error(f"[LIVE] Cancel all failed: {e}")
             return 0
 
+    @retry_transient()
     def get_positions(self) -> list:
         """Get positions from the real Data API."""
         try:

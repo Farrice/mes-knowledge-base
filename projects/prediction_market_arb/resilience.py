@@ -250,9 +250,57 @@ def _summarize_by_period(trades: list, date_format: str) -> list:
 # PUSH NOTIFICATIONS (macOS)
 # =============================================================================
 
+def _notify_webhook(title: str, message: str):
+    """Send alert via webhook (Discord, Slack, or any HTTP endpoint)."""
+    webhook_url = os.environ.get("ALERT_WEBHOOK_URL")
+    if not webhook_url:
+        return
+    try:
+        requests.post(
+            webhook_url,
+            json={"content": f"{title}: {message}"},
+            timeout=10,
+        )
+    except Exception as e:
+        logger.warning(f"Webhook notification failed: {e}")
+
+
+def _notify_email(title: str, message: str):
+    """Send alert via email if SMTP env vars are configured."""
+    import smtplib
+    from email.mime.text import MIMEText
+
+    email_to = os.environ.get("ALERT_EMAIL")
+    smtp_host = os.environ.get("SMTP_HOST")
+    smtp_port = os.environ.get("SMTP_PORT")
+    smtp_user = os.environ.get("SMTP_USER")
+    smtp_pass = os.environ.get("SMTP_PASS")
+
+    if not all([email_to, smtp_host, smtp_port, smtp_user, smtp_pass]):
+        return
+
+    try:
+        msg = MIMEText(f"{title}\n\n{message}")
+        msg["Subject"] = f"[PolyTrader] {title}"
+        msg["From"] = smtp_user
+        msg["To"] = email_to
+
+        with smtplib.SMTP(smtp_host, int(smtp_port)) as server:
+            server.starttls()
+            server.login(smtp_user, smtp_pass)
+            server.send_message(msg)
+    except Exception as e:
+        logger.warning(f"Email notification failed: {e}")
+
+
 def notify(title: str, message: str, sound: str = "default"):
     """
-    Send a macOS push notification via osascript.
+    Send push notifications via all available channels.
+
+    Channels (checked in order, all fire independently):
+      1. Webhook (ALERT_WEBHOOK_URL env var) — Discord, Slack, any HTTP endpoint
+      2. Email (ALERT_EMAIL + SMTP_* env vars) — plain text email
+      3. macOS (osascript) — native push notification
 
     Used for critical events:
       - Kill switch triggered
@@ -260,9 +308,17 @@ def notify(title: str, message: str, sound: str = "default"):
       - Market resolution (position auto-closed)
       - Trade executed
 
-    Falls back to logger.info on non-macOS systems.
+    Falls back to logger.info if no channel is available.
     """
     import platform
+
+    # Webhook — works on any platform
+    _notify_webhook(title, message)
+
+    # Email — works on any platform
+    _notify_email(title, message)
+
+    # macOS native notification
     if platform.system() != "Darwin":
         logger.info(f"[NOTIFY] {title}: {message}")
         return
@@ -318,20 +374,52 @@ def notify_daily_summary(balance: float, daily_pnl: float, trades: int):
 # MARKET RESOLUTION POLLING
 # =============================================================================
 
+_resolution_candidates: dict = {}  # market_id -> first_seen_timestamp (UTC)
+
+_RESOLUTION_HOLD_MINUTES = 10  # Must stay at extreme price for this long
+
+
+def _parse_end_date_from_question(question: str) -> Optional[datetime]:
+    """Parse resolution date from a market question string."""
+    import re
+    from projects.prediction_market_arb.constants import MONTHS
+
+    if not question:
+        return None
+    for i, month in enumerate(MONTHS):
+        pattern = rf'{month}\s+(\d+),?\s+(\d{{4}})'
+        m = re.search(pattern, question, re.IGNORECASE)
+        if m:
+            day = int(m.group(1))
+            year = int(m.group(2))
+            return datetime(year, i + 1, day, 23, 59, 59, tzinfo=timezone.utc)
+    return None
+
+
 def check_resolutions(client, state_manager) -> list:
     """
     Poll for resolved markets and auto-settle positions.
 
     Checks Gamma API for markets where our positions have resolved.
+    Uses three-gate confirmation:
+      1. Price at extreme (<= 0.01 or >= 0.99)
+      2. Market end date has passed (if parseable from question)
+      3. Price has been at extreme for 10+ minutes (consecutive polls)
+
     Auto-credits/debits paper balance and logs the trade.
 
     Returns list of settled position dicts.
     """
+    global _resolution_candidates
+
     positions = state_manager.load_positions()
     if not positions:
         return []
 
+    now = datetime.now(timezone.utc)
     settled = []
+    seen_market_ids = set()
+
     for pos in positions:
         # Check if market has resolved via Gamma API
         try:
@@ -342,7 +430,45 @@ def check_resolutions(client, state_manager) -> list:
             # A resolved market typically has price at 0.0 or 1.0
             yes_price = prices["yes"]
             if yes_price <= 0.01 or yes_price >= 0.99:
-                # Market likely resolved
+                seen_market_ids.add(pos.market_id)
+
+                # Gate 2: Check if market end date has passed
+                end_date = _parse_end_date_from_question(pos.question)
+                if end_date and now < end_date:
+                    logger.debug(
+                        f"[RESOLUTION] Skipping {pos.question[:50]}... — "
+                        f"extreme price but end date {end_date.date()} not yet passed"
+                    )
+                    continue
+
+                # Gate 3: Require price at extreme for 10+ minutes
+                if pos.market_id not in _resolution_candidates:
+                    _resolution_candidates[pos.market_id] = now
+                    if end_date:
+                        # End date passed + first time at extreme — wait for confirmation
+                        logger.debug(
+                            f"[RESOLUTION] Candidate: {pos.question[:50]}... — "
+                            f"first seen at extreme, waiting {_RESOLUTION_HOLD_MINUTES}min"
+                        )
+                        continue
+                    else:
+                        # No date parseable — warn but still require hold time
+                        logger.warning(
+                            f"[RESOLUTION] Candidate (no end date parseable): "
+                            f"{pos.question[:50]}... — waiting {_RESOLUTION_HOLD_MINUTES}min"
+                        )
+                        continue
+
+                first_seen = _resolution_candidates[pos.market_id]
+                elapsed_minutes = (now - first_seen).total_seconds() / 60.0
+                if elapsed_minutes < _RESOLUTION_HOLD_MINUTES:
+                    logger.debug(
+                        f"[RESOLUTION] Candidate: {pos.question[:50]}... — "
+                        f"{elapsed_minutes:.1f}min at extreme, need {_RESOLUTION_HOLD_MINUTES}min"
+                    )
+                    continue
+
+                # All gates passed — settle
                 settled.append({
                     "market_id": pos.market_id,
                     "question": pos.question,
@@ -352,6 +478,11 @@ def check_resolutions(client, state_manager) -> list:
                 })
                 logger.info(f"[RESOLUTION] Market resolved: {pos.question[:50]}... "
                             f"→ {'YES' if yes_price >= 0.99 else 'NO'}")
+                # Clean up candidate tracking
+                _resolution_candidates.pop(pos.market_id, None)
+            else:
+                # Price no longer at extreme — remove from candidates
+                _resolution_candidates.pop(pos.market_id, None)
         except Exception as e:
             logger.debug(f"Resolution check failed for {pos.market_id}: {e}")
 
