@@ -128,10 +128,11 @@ Multi-domain? Check ensemble patterns in `directives/expert_auto_routing.md`.
 **Always route.** The result may be one Tier 1 expert, but the routing decision is explicit and logged.
 
 ### Step 4: LOAD via Context Engine
-Tier 0 (cards) → Tier 1 (SKILL.md + workflow) → Tier 2 (+ genius.md) → Tier 3 (sub-agent).
+Tier 0 (cards) → **Tier 1.5 (Recall source grounding — automatic, silent)** → Tier 1 (SKILL.md + workflow) → Tier 2 (+ genius.md) → Tier 3 (sub-agent).
 Protocol: `directives/agent-loading-protocol.md`.
 **Never produce expert-domain output without loading the expert first.**
 For content: minimum 2 skill files loaded per `directives/content_creation_gate.md`.
+**Recall grounding (Tier 1.5):** For grounding-relevant domains (content, copy, brand, voice, storytelling, positioning, strategy, sales, marketing, persuasion, comms, creative), auto-fire `mcp__recall__search` before skill load. Inject 1-3 high-signal cards as source material. Silent skip if <2 cards or weak signal. Full protocol: `directives/recall-grounding-protocol.md`.
 
 ### Step 5: PRODUCE output
 Execute using loaded expert frameworks — their thinking, not their terminology.
@@ -221,6 +222,7 @@ Push complexity into deterministic code. You focus on decision-making.
 **Knowledge Sources:**
 - **Local Files**: Skills, agents, directives (primary)
 - **Notion Databases**: 5 databases for projects, knowledge vault, content pipeline
+- **Recall** (3,000+ saved cards — YouTube transcripts, articles, extractions): Auto-queried at Tier 1.5 for content/brand/voice/strategy work via `directives/recall-grounding-protocol.md`. Invisible infrastructure — no manual trigger needed. Tools: `mcp__recall__search`, `mcp__recall__get_document_content`, `mcp__recall__explore_kb`, `mcp__recall__filter_by_metadata`.
 - **NotebookLM**: Domain-specific research notebooks (RAG layer)
   - 5 notebooks: Higgsfield Cinema Studio, AI Brain Build Sprint, LinkedIn Ghostwriting, Lara Acosta, Luke Iha Copywriting
   - Query count: 100/month
@@ -268,6 +270,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Collaboration | Always | `directives/collaboration-protocol.md` |
 | Sub-Agent | 2+ experts loaded, or 10+ files in context | `directives/sub_agent_protocol.md` |
 | Content Gate | Step 4, for content tasks | `directives/content_creation_gate.md` |
+| **Recall Grounding** | **Step 4 (Tier 1.5), auto-fires for grounding-relevant domains** | **`directives/recall-grounding-protocol.md`** |
 | Operating Principles | Development workflows | `directives/operating-principles.md` |
 | **Prose Classifier** | **Step 5.5 (before delivery)** | **`execution/prose_classifier.py` — auto-runs in `finalize()`** |
 | **Ground Truth** | **After evolution cycles** | **`execution/ground_truth.py` — blind compare AI vs expert** |
