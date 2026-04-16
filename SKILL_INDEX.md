@@ -179,6 +179,7 @@
 | `self-evolving-systems` | **Self-Evolving Systems** |  | 1 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | ideavirus mastery | 5 | 26 |
 | `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | strategic philosophy | 5 | 0 |
+| `seth-godin-brand` | **Seth Godin — Brand Operations** | brand promise architecture, trust engineering, consistency systems, remarkability, false proxy purge, AI permission | 10 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** |  | 4 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | audience monetization | 2 | 4 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | ai engineering leadership | 4 | 7 |

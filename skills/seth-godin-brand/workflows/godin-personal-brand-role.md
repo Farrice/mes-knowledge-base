@@ -1,0 +1,160 @@
+# Godin Personal Brand Role
+
+> **Expert**: Seth Godin | **Skill**: seth-godin-brand | **Tier**: Stacking
+> **Produces**: Personal Brand Role Definition + Face-of-Brand Architecture
+> **Slash Command**: `/godin-personal-brand-role`
+
+---
+
+## Purpose
+
+Define the ROLE a personal brand plays — distinct from the person behind it. Architecture for when a human face represents a brand, managing the tension between person and role, and preventing the authenticity trap from derailing brand consistency.
+
+---
+
+## Inputs Required
+
+1. **Person** — Whose personal brand are we defining?
+2. **Associated Brand/Business** — What does this person represent?
+3. **Current Content** — How does this person currently show up online?
+4. **Tension Points** — Where does "being real" conflict with "serving the brand"?
+
+---
+
+## Workflow
+
+### Step 1: The Seth Godin Model
+
+> "There is a role named Seth Godin and it's not the person you might have dinner with. It's not the person you went to summer camp with. It's the role of Seth Godin. The same way Patagonia has that voice."
+
+**Define the Role**:
+1. **Role Name**: [Your Name] as a brand entity
+2. **Role Purpose**: What does this role exist to do for the audience?
+3. **Role Boundaries**: What topics/behaviors are IN the role vs. OUT of the role?
+
+| Element | The Person (private) | The Role (public) |
+|---------|---------------------|-------------------|
+| Mood | Variable | Consistent |
+| Topics | Unlimited | Brand-relevant only |
+| Opinions | All of them | Curated for audience value |
+| Mistakes | Human and messy | Owned and fixed publicly |
+| Stories | Personal archive | Filtered for audience transformation |
+
+### Step 2: The Human Advantage Audit
+
+> Godin: "The magic of a human being as an avatar for a brand is human beings are complicated. They have a lot of surface area. They can do things that are appropriately remarkable that a faceless brand has trouble with."
+
+**Map your surface area**:
+- What topics can you credibly speak on that a faceless brand cannot?
+- What experiences give you narrative authority?
+- What personality traits make you memorable?
+- What contradictions make you interesting?
+
+**The Downside Acknowledgment**: "You can't own a person and that person might let you down."
+- What's the risk if the person behind the role has a bad day publicly?
+- What guardrails prevent personal moments from becoming brand liability?
+
+### Step 3: The Authenticity Firewall
+
+> Godin: "If they try to do the authenticity thing and talk about how annoyed they were when they dropped their kid off at school this morning — now it's not a person helping a brand. It's a brand giving a person a platform to just talk about themselves, which isn't the point."
+
+**The Content Filter**:
+
+For every piece of personal content, ask:
+1. Does this help the audience or does this help ME feel seen?
+2. Is this the ROLE speaking or the PERSON venting?
+3. Would this make someone trust the brand MORE or just know the person BETTER?
+4. If 1,000 people see this, how many benefit vs. how many just scrolled past?
+
+**Red Lines**:
+- ❌ Personal drama shared for connection
+- ❌ Bad moods expressed as "being real"
+- ❌ Internal struggles unrelated to audience transformation
+- ❌ Hot takes for engagement that don't serve the brand promise
+
+**Green Lines**:
+- ✅ Vulnerability that teaches (not just confesses)
+- ✅ Behind-the-scenes that demonstrates process/values
+- ✅ Personal stories that serve as proof of concept
+- ✅ Opinions that position and differentiate
+
+### Step 4: Scale Assessment
+
+> Godin: "I don't think this really makes sense for a public company unless it's some crazy billionaire who owns a lot of the stock. I do think it makes a lot of sense for smaller organizations."
+
+**When personal brand works**:
+- Small businesses where the founder IS the differentiator
+- Solo practitioners where trust is personal
+- Creators where the audience follows the human, not the entity
+
+**When personal brand is risky**:
+- Public companies where the person can't speak freely
+- Organizations planning to sell (person can't be transferred)
+- Teams where one person's platform overshadows others
+
+**Your assessment**: Does personal branding serve this business stage?
+
+### Step 5: The Yahoo Warning
+
+> Godin at Yahoo: "The first few months they were delighted to have me going around being a personal brand. But as the stock price went up and they decided to get more conservative, they said, 'We don't want anybody to be the face of Yahoo.'"
+
+**Build exit protocols**:
+1. What happens if the person leaves the brand?
+2. What happens if the brand wants to distance from the person?
+3. How much brand equity lives in the PERSON vs. the ENTITY?
+4. Is there a transition plan if the personal brand becomes too big/small?
+
+### Step 6: Personal Brand Role Output
+
+```
+PERSONAL BRAND ROLE ARCHITECTURE
+===================================
+
+Person: [Name]
+Brand: [Entity]
+
+ROLE DEFINITION:
+- Role name: "[Name]" the brand entity
+- Role purpose: [what it exists to do for audience]
+- Role is NOT: [what the person is privately]
+
+HUMAN ADVANTAGE:
+- Surface area assets: [topics, experiences, traits]
+- Remarkable capacity: [what a faceless brand can't do]
+- Risk containment: [guardrails]
+
+AUTHENTICITY FIREWALL:
+- Red lines: [what never gets posted]
+- Green lines: [what always gets posted]
+- Filter question: "Does this help the audience or help me feel seen?"
+
+CONTENT ROLE TEST:
+- Every piece passes: "Is this the ROLE or the PERSON?"
+
+SCALE ASSESSMENT:
+- Current stage fit: [yes/no + why]
+- Exit protocol: [if person/brand separate]
+- Equity split: [% in person vs. entity]
+```
+
+---
+
+## Quality Gate
+
+| Dimension | Minimum Standard |
+|-----------|-----------------|
+| Role Separation | Clear distinction between person and role |
+| Authenticity Firewall | Red/green lines defined and specific |
+| Human Advantage | At least 3 surface-area assets mapped |
+| Exit Protocol | Transition plan exists |
+
+---
+
+## Cross-Expert Stacking
+
+| Stack With | Compound Effect |
+|-----------|----------------|
+| `/godin-consistency-protocol` | Role definition feeds consistency system |
+| `/junyuh-identity` | "I Am The Niche" identity built within role boundaries |
+| `/voice-document` | Voice reference captures the ROLE's voice, not the person's |
+| `/caleb-brand-build` | Personal brand built with role architecture from day one |

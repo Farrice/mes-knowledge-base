@@ -100,7 +100,7 @@
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |
-| `seth-godin` | **seth-godin** | strategic philosophy + shipping + self-leadership + marketing + viral engineering |
+| `seth-godin` | **seth-godin** | strategic philosophy + shipping + self-leadership + marketing + viral engineering + brand operations, brand promise, trust engineering, false proxy, consistency, remarkability, AI permission |
 | `shaan-puri` | **Shaan Puri: Storytelling & Audience Alchemy Master** | audience alchemy, audience alchemy master, emotional resonance, hook engineering, story architecture, storytelling, voice development |
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |
