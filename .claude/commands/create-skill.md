@@ -1,1 +1,5 @@
+---
+description: "Create a new skill (routes between skill types)"
+---
+
 Read and execute the workflow at `.agent/workflows/create-skill.md` — Create a new skill (routes between skill types)

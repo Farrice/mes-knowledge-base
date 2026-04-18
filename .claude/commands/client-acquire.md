@@ -1,1 +1,5 @@
+---
+description: "Build proposals, objection handling, and over-delivery strategy"
+---
+
 Read and execute the workflow at `.agent/workflows/client-acquire.md` — Build proposals, objection handling, and over-delivery strategy

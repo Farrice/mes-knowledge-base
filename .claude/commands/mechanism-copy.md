@@ -1,1 +1,5 @@
+---
+description: "Transform mechanism into hooks, lead angles, ads, VSL outline"
+---
+
 Read and execute the workflow at `.agent/workflows/mechanism-copy.md` — Transform mechanism into hooks, lead angles, ads, VSL outline

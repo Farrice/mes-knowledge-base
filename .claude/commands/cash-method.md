@@ -1,1 +1,5 @@
+---
+description: "Generate 20+ ad concepts from Concept × Angle × Style × Hook"
+---
+
 Read and execute the workflow at `.agent/workflows/cash-method.md` — Generate 20+ ad concepts from Concept × Angle × Style × Hook

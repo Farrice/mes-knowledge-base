@@ -1,1 +1,5 @@
+---
+description: "Full calibration check — ground truth + prose scan + revenue report in parallel"
+---
+
 Read and execute the workflow at `.agent/workflows/calibrate.md` — Full calibration check — ground truth + prose scan + revenue report in parallel

@@ -1,1 +1,5 @@
+---
+description: "Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research"
+---
+
 Read and execute the workflow at `.agent/workflows/generate-brief.md` — Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research

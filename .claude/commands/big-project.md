@@ -1,1 +1,5 @@
+---
+description: "Manage complex, multi-step projects with checkpointing and quality gates"
+---
+
 Read and execute the workflow at `.agent/workflows/big-project.md` — Manage complex, multi-step projects with checkpointing and quality gates

@@ -1,1 +1,5 @@
+---
+description: "Run complete ICP pipeline end-to-end (research through delivery)"
+---
+
 Read and execute the workflow at `.agent/workflows/icp-deep-dive.md` — Run complete ICP pipeline end-to-end (research through delivery)

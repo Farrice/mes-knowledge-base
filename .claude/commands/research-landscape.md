@@ -1,1 +1,5 @@
+---
+description: "Universal domain research — maps any topic into a tiered landscape with strategic throughline"
+---
+
 Read and execute the workflow at `.agent/workflows/research-landscape.md` — Universal domain research — maps any topic into a tiered landscape with strategic throughline

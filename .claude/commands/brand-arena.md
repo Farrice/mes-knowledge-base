@@ -1,1 +1,5 @@
+---
+description: "Complete brand foundation using Greg Hoffman's Nike methodology"
+---
+
 Read and execute the workflow at `.agent/workflows/brand-arena.md` — Complete brand foundation using Greg Hoffman's Nike methodology

@@ -1,1 +1,5 @@
+---
+description: "Generate 10+ mechanism candidates using Universal Matrix"
+---
+
 Read and execute the workflow at `.agent/workflows/mechanism-discover.md` — Generate 10+ mechanism candidates using Universal Matrix

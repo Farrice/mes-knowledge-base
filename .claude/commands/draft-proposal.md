@@ -1,1 +1,5 @@
+---
+description: "Draft a tailored freelance proposal from a job description"
+---
+
 Read and execute the workflow at `.agent/workflows/draft-proposal.md` — Draft a tailored freelance proposal from a job description

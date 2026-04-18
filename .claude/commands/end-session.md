@@ -1,1 +1,5 @@
+---
+description: "Clean workspace, organize assets, generate handoff"
+---
+
 Read and execute the workflow at `.agent/workflows/end-session.md` — Clean workspace, organize assets, generate handoff

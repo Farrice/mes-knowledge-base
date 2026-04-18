@@ -1,1 +1,5 @@
+---
+description: "Browse and search all available workflows"
+---
+
 Read and execute the workflow at `.agent/workflows/workflows.md` — Browse and search all available workflows

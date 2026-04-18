@@ -1,1 +1,5 @@
+---
+description: "Run evolution cycle — benchmark, test variants, keep improvements"
+---
+
 Read and execute the workflow at `.agent/workflows/skill-evolution.md` — Run evolution cycle — benchmark, test variants, keep improvements

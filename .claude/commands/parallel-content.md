@@ -1,1 +1,5 @@
+---
+description: "Generate 3-5 content pieces in parallel using different experts"
+---
+
 Read and execute the workflow at `.agent/workflows/parallel-content.md` — Generate 3-5 content pieces in parallel using different experts

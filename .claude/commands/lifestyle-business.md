@@ -1,1 +1,5 @@
+---
+description: "Design a 6-figure business around your ideal life"
+---
+
 Read and execute the workflow at `.agent/workflows/lifestyle-business.md` — Design a 6-figure business around your ideal life

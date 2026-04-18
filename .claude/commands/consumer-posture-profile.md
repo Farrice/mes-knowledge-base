@@ -1,1 +1,5 @@
+---
+description: "Generate complete 3D Consumer Posture Profile"
+---
+
 Read and execute the workflow at `.agent/workflows/consumer-posture-profile.md` — Generate complete 3D Consumer Posture Profile

@@ -1,1 +1,5 @@
+---
+description: "Generate images using Nano Banana 2 (Gemini image generation)"
+---
+
 Read and execute the workflow at `.agent/workflows/generate-image.md` — Generate images using Nano Banana 2 (Gemini image generation)

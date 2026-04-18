@@ -1,1 +1,5 @@
+---
+description: "Turn raw strategy docs into premium visual deliverables"
+---
+
 Read and execute the workflow at `.agent/workflows/package-deliverable.md` — Turn raw strategy docs into premium visual deliverables

@@ -1,1 +1,5 @@
+---
+description: "Today's task breakdown for compressed 1-3 hour work windows"
+---
+
 Read and execute the workflow at `.agent/workflows/daily-focus.md` — Today's task breakdown for compressed 1-3 hour work windows

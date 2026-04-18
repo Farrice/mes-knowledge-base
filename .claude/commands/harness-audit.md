@@ -1,1 +1,5 @@
+---
+description: "Audit agent system scaffolding for reliability gaps and harness design weaknesses"
+---
+
 Read and execute the workflow at `.agent/workflows/harness-audit.md` — Audit agent system scaffolding for reliability gaps and harness design weaknesses

@@ -1,1 +1,5 @@
+---
+description: "Write a Character-Through-Place scene — geography triggers memory that reveals character"
+---
+
 Read and execute the workflow at `.agent/workflows/connelly-place.md` — Write a Character-Through-Place scene — geography triggers memory that reveals character

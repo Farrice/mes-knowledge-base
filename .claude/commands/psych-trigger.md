@@ -1,1 +1,5 @@
+---
+description: "Deploy psychological trigger sequences for sales, copy, presentations"
+---
+
 Read and execute the workflow at `.agent/workflows/psych-trigger.md` — Deploy psychological trigger sequences for sales, copy, presentations

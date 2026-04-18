@@ -1,1 +1,5 @@
+---
+description: "Viral video hooks for Instagram real estate property tours"
+---
+
 Read and execute the workflow at `.agent/workflows/listing-content.md` — Viral video hooks for Instagram real estate property tours

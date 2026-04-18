@@ -1,1 +1,5 @@
+---
+description: "Apply page-one daily rewrite methodology — erosion, not revision"
+---
+
 Read and execute the workflow at `.agent/workflows/erosion.md` — Apply page-one daily rewrite methodology — erosion, not revision

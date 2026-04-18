@@ -1,1 +1,5 @@
+---
+description: "Apply the Outsider Lens Filter — insider access with outsider perspective"
+---
+
 Read and execute the workflow at `.agent/workflows/connelly-outsider.md` — Apply the Outsider Lens Filter — insider access with outsider perspective

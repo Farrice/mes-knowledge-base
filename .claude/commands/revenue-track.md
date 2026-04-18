@@ -1,1 +1,5 @@
+---
+description: "Revenue attribution — connect quality scores to business outcomes, ROI by skill/expert"
+---
+
 Read and execute the workflow at `.agent/workflows/revenue-track.md` — Revenue attribution — connect quality scores to business outcomes, ROI by skill/expert

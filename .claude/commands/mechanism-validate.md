@@ -1,1 +1,5 @@
+---
+description: "Validate mechanisms via SIN score, triangle test, competitive uniqueness"
+---
+
 Read and execute the workflow at `.agent/workflows/mechanism-validate.md` — Validate mechanisms via SIN score, triangle test, competitive uniqueness

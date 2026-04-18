@@ -1,1 +1,5 @@
+---
+description: "Diagnose creative culture health across 5 dimensions"
+---
+
 Read and execute the workflow at `.agent/workflows/creative-culture.md` — Diagnose creative culture health across 5 dimensions

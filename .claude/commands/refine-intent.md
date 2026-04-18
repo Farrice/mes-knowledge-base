@@ -1,1 +1,5 @@
+---
+description: "On-demand intent refinement at any point"
+---
+
 Read and execute the workflow at `.agent/workflows/refine-intent.md` — On-demand intent refinement at any point

@@ -1,1 +1,5 @@
+---
+description: "Run multi-lens taste audit on finished design using CEV framework"
+---
+
 Read and execute the workflow at `.agent/workflows/design-taste-gate.md` — Run multi-lens taste audit on finished design using CEV framework

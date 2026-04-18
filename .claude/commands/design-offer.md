@@ -1,1 +1,5 @@
+---
+description: "Design a complete digital offer (alias for `/design-digital-product-offer`)"
+---
+
 Read and execute the workflow at `.agent/workflows/design-offer.md` — Design a complete digital offer (alias for `/design-digital-product-offer`)

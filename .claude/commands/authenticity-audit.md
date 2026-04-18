@@ -1,1 +1,5 @@
+---
+description: "Audit content for neediness, inauthenticity, and energy misalignment"
+---
+
 Read and execute the workflow at `.agent/workflows/authenticity-audit.md` — Audit content for neediness, inauthenticity, and energy misalignment

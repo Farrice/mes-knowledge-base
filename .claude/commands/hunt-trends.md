@@ -1,1 +1,5 @@
+---
+description: "Scan for rising trends and \"Shadow Market\" opportunities using Agentic Research"
+---
+
 Read and execute the workflow at `.agent/workflows/hunt-trends.md` — Scan for rising trends and "Shadow Market" opportunities using Agentic Research

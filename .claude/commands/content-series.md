@@ -1,1 +1,5 @@
+---
+description: "Design multi-part content series as chapters in a larger narrative"
+---
+
 Read and execute the workflow at `.agent/workflows/content-series.md` — Design multi-part content series as chapters in a larger narrative

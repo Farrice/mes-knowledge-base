@@ -1,1 +1,5 @@
+---
+description: "Run 2-5 extractions in parallel using sub-agents"
+---
+
 Read and execute the workflow at `.agent/workflows/parallel-extract.md` — Run 2-5 extractions in parallel using sub-agents

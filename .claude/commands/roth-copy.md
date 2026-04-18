@@ -1,1 +1,5 @@
+---
+description: "Sales copy with displacement selling — visual proof, off-center CTAs, resonance over pressure"
+---
+
 Read and execute the workflow at `.agent/workflows/roth-copy.md` — Sales copy with displacement selling — visual proof, off-center CTAs, resonance over pressure

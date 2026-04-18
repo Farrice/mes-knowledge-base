@@ -1,1 +1,5 @@
+---
+description: "Deep Engine Flywheel for long-form YouTube scripts"
+---
+
 Read and execute the workflow at `.agent/workflows/yt-flywheel.md` — Deep Engine Flywheel for long-form YouTube scripts

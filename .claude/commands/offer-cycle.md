@@ -1,1 +1,5 @@
+---
+description: "Detect hot offers, design entry offers, plan cycle rotation"
+---
+
 Read and execute the workflow at `.agent/workflows/offer-cycle.md` — Detect hot offers, design entry offers, plan cycle rotation

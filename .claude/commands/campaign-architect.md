@@ -1,1 +1,5 @@
+---
+description: "Design multi-dimensional campaigns using 3-layer framework"
+---
+
 Read and execute the workflow at `.agent/workflows/campaign-architect.md` — Design multi-dimensional campaigns using 3-layer framework

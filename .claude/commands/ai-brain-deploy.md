@@ -1,1 +1,5 @@
+---
+description: "Generate AIOS Deployment Blueprint (phased rollout + 7-Day Sprint)"
+---
+
 Read and execute the workflow at `.agent/workflows/ai-brain-deploy.md` — Generate AIOS Deployment Blueprint (phased rollout + 7-Day Sprint)

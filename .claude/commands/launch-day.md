@@ -1,1 +1,5 @@
+---
+description: "Content launch day sprint — 3-5 pieces in parallel with Brand Voice review"
+---
+
 Read and execute the workflow at `.agent/workflows/launch-day.md` — Content launch day sprint — 3-5 pieces in parallel with Brand Voice review

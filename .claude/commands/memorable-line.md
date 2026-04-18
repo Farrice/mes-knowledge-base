@@ -1,1 +1,5 @@
+---
+description: "Engineer iconic lines and scenes designed to \"stay in your soul\""
+---
+
 Read and execute the workflow at `.agent/workflows/memorable-line.md` — Engineer iconic lines and scenes designed to "stay in your soul"

@@ -1,1 +1,5 @@
+---
+description: "Deploy 3 research agents in parallel to investigate different angles"
+---
+
 Read and execute the workflow at `.agent/workflows/parallel-research.md` — Deploy 3 research agents in parallel to investigate different angles

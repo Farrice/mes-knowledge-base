@@ -1,1 +1,5 @@
+---
+description: "Generate a high-fidelity \"Rank and Rent\" website asset"
+---
+
 Read and execute the workflow at `.agent/workflows/generate-asset.md` — Generate a high-fidelity "Rank and Rent" website asset

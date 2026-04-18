@@ -1,1 +1,5 @@
+---
+description: "Run the Vonnegut Conflict Audit — ensure every character wants something on every page"
+---
+
 Read and execute the workflow at `.agent/workflows/connelly-conflict.md` — Run the Vonnegut Conflict Audit — ensure every character wants something on every page

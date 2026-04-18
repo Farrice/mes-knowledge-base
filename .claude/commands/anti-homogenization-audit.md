@@ -1,1 +1,5 @@
+---
+description: "Audit any content against Ocean Vuong's 7-dimension anti-homogenization protocol — detect AI sameness, mimetic default"
+---
+
 Read and execute the workflow at `.agent/workflows/anti-homogenization-audit.md` — Audit any content against Ocean Vuong's 7-dimension anti-homogenization protocol — detect AI sameness, mimetic default

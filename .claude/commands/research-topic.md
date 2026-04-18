@@ -1,1 +1,5 @@
+---
+description: "Deep research on any topic with organized, actionable deliverable"
+---
+
 Read and execute the workflow at `.agent/workflows/research-topic.md` — Deep research on any topic with organized, actionable deliverable

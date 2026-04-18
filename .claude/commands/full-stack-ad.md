@@ -1,1 +1,5 @@
+---
+description: "Complete campaign: mechanism → lead → ad scripts × variations"
+---
+
 Read and execute the workflow at `.agent/workflows/full-stack-ad.md` — Complete campaign: mechanism → lead → ad scripts × variations

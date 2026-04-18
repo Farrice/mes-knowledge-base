@@ -1,1 +1,5 @@
+---
+description: "Audit a keyword for \"Buyer Intent\" using linguistic analysis and live SERP validation"
+---
+
 Read and execute the workflow at `.agent/workflows/analyze-intent.md` — Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation

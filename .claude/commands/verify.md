@@ -1,1 +1,5 @@
+---
+description: "Run a universal structural integrity audit across all skills, agents, indexes, workflows, and registries"
+---
+
 Read and execute the workflow at `.agent/workflows/verify.md` — Run a universal structural integrity audit across all skills, agents, indexes, workflows, and registries

@@ -1,1 +1,5 @@
+---
+description: "Set up fully context-loaded AI session with quality gates"
+---
+
 Read and execute the workflow at `.agent/workflows/4c-architect.md` — Set up fully context-loaded AI session with quality gates

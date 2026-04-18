@@ -138,9 +138,11 @@ For content: minimum 2 skill files loaded per `directives/content_creation_gate.
 Execute using loaded expert frameworks — their thinking, not their terminology.
 During production, enforce `directives/quality_assurance.md` anti-patterns: entity classification, no phantom research, no template slop.
 
-### Step 5.5: VERIFY (Factual Grounding — fires for deliverables with real-world claims)
-Before finalizing, run verification per `directives/verification-agent-protocol.md`:
-- **Implementation**: Run it, break it (adversarial checks)
+### Step 5.5: VERIFY (Factual Grounding)
+**Trigger**: Output contains any claim about real people (names, titles, companies), specific events/dates, statistics or metrics, technical facts (API behavior, library versions, syntax), market/industry claims, or source attributions. Does NOT fire for: pure creative writing, personal voice content, brainstorming lists, stylistic drafts, or opinion pieces without factual load.
+
+Run verification per `directives/verification-agent-protocol.md`:
+- **Implementation deliverables**: Run it, break it (adversarial checks)
 - **Factual deliverables**: Claim inventory → source verification → confidence labeling (VERIFIED/LIKELY/UNCONFIRMED) → contradiction scan
 - Verify BEFORE the user sees the document. Research → verify → compile → deliver. Not: compile → deliver → get caught → fix.
 - If VERDICT: PASS → proceed to Step 6. If FAIL → re-research, re-verify before rewriting.
@@ -150,7 +152,7 @@ After producing expert output, score it mentally on 4 dimensions (1-10 each):
 - **Intent Alignment**: Does it match what the user actually asked for?
 - **Expert Standard**: Would the real expert recognize this as quality work?
 - **Adversarial Resilience**: Would it survive critical scrutiny?
-- **Factual Grounding** (when applicable): Are real-world claims verified against primary sources? Unverifiable items flagged?
+- **Factual Grounding**: Are real-world claims verified against primary sources? Unverifiable items flagged? Mark **N/A** for pure creative/opinion work with no factual claims (matches Step 5.5 trigger conditions); otherwise score 1-10.
 
 Then run the chain finalize command — this handles EVERYTHING (quality gate, regression check, Notion performance log, protocol activation tracking, session state):
 ```bash
@@ -163,7 +165,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
     --notes "[what worked, what didn't] | Factual Grounding: [1-10] | Verification: [PASS/FAIL/PARTIAL/N/A]"
 ```
 **If composite < 7 or any dimension < 6**: Retry the weakest section once, then re-finalize.
-**Factual Grounding veto**: If Dimension 4 fires and scores <6, delivery is blocked regardless of composite. A polished document with wrong facts is worse than a rough draft with right facts — because the user trusts the polish.
+**Factual Grounding veto**: If Dimension 4 is scored (not marked N/A) and scores <6, delivery is blocked regardless of composite. A polished document with wrong facts is worse than a rough draft with right facts — because the user trusts the polish.
 **This is non-negotiable.** Expert output without `finalize` is incomplete. This feeds the autoresearch loop — skipping it kills Phases 2-4.
 Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
@@ -284,3 +286,21 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.
+
+---
+
+## Model & SDK Notes (Opus 4.7 Aligned — 2026-04-17)
+
+**Primary model**: Claude Opus 4.7 (1M context variant, `claude-opus-4-7[1m]`). Sonnet 4.6 for single-turn content; Haiku 4.5 for routing/classification.
+
+**What changed from 4.6 → 4.7 (relevant to this system):**
+- **Stricter instruction following**: 4.7 reads directives literally. "When applicable" and "fires for X" phrasings now trigger more consistently — tightened in Step 5.5 and Step 6 above.
+- **Anthropic SDK param restrictions**: If any future Python code calls Anthropic's SDK directly, do NOT set `temperature`, `top_p`, or `top_k` — 4.7 rejects non-default values with 400 errors. Also: `thinking.budget_tokens` is deprecated; use `effort: "low|medium|high|xhigh"` instead.
+- **Tokenizer change**: Text may consume 1.0x–1.35x more tokens vs 4.6. Tier-1 loads (~1,350 tokens) may run ~1,400-1,800. Factor into caching decisions.
+- **Prompt caching**: 5-minute TTL (default), 1-hour TTL available at higher cost. Cache writes = 25% premium; cache reads = 10% of input. Large context (skills + genius.md) benefits most from caching within a session.
+
+**SDK safety check — Python scripts in `execution/`:**
+- `gemini_client.py`, `skill_converter.py`, `parallel_swarm.py`, `extraction_swarm.py`, `generate_*.py`, `memory_selector.py` call **Gemini** (not Anthropic). Their `temperature`/`thinking_budget` usage is Gemini-API valid — NO changes needed.
+- No Python files currently call the Anthropic SDK directly. If that changes, enforce the param restrictions above.
+
+**Claude Code harness**: This conversation runs on Opus 4.7 via Claude Code itself — you do not call the Anthropic API from scripts. Harness handles model config.

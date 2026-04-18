@@ -1,1 +1,5 @@
+---
+description: "Build the AI Brain Context Layer (structured knowledge base)"
+---
+
 Read and execute the workflow at `.agent/workflows/ai-brain-context.md` — Build the AI Brain Context Layer (structured knowledge base)

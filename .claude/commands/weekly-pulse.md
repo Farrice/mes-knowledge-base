@@ -1,1 +1,5 @@
+---
+description: "Monday planning ritual — scan situation, set 5-day breakdown"
+---
+
 Read and execute the workflow at `.agent/workflows/weekly-pulse.md` — Monday planning ritual — scan situation, set 5-day breakdown

@@ -1,1 +1,5 @@
+---
+description: "Build a complete character from scratch using all 6 Connelly layers"
+---
+
 Read and execute the workflow at `.agent/workflows/connelly-character.md` — Build a complete character from scratch using all 6 Connelly layers

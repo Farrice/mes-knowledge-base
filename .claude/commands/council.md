@@ -1,1 +1,5 @@
+---
+description: "Spin up an AI council for any decision with multi-perspective deliberation"
+---
+
 Read and execute the workflow at `.agent/workflows/council.md` — Spin up an AI council for any decision with multi-perspective deliberation

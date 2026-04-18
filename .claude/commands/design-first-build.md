@@ -1,1 +1,5 @@
+---
+description: "Build visual assets using design-first pipeline"
+---
+
 Read and execute the workflow at `.agent/workflows/design-first-build.md` — Build visual assets using design-first pipeline

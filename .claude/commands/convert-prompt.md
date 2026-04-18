@@ -1,1 +1,5 @@
+---
+description: "Convert external prompts into completion-engine skills"
+---
+
 Read and execute the workflow at `.agent/workflows/convert-prompt.md` — Convert external prompts into completion-engine skills

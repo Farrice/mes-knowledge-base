@@ -1,1 +1,5 @@
+---
+description: "Write complete VSL lead (micro lead + body + fascinations + close)"
+---
+
 Read and execute the workflow at `.agent/workflows/vsl-lead.md` — Write complete VSL lead (micro lead + body + fascinations + close)

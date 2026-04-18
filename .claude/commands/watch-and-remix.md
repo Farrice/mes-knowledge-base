@@ -1,1 +1,5 @@
+---
+description: "Study trending content, reverse-engineer the mechanic, create 3 original remixes"
+---
+
 Read and execute the workflow at `.agent/workflows/watch-and-remix.md` — Study trending content, reverse-engineer the mechanic, create 3 original remixes

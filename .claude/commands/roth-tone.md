@@ -1,1 +1,5 @@
+---
+description: "Tone Compass for marketing — brand voice calibration using displacement and off-center techniques"
+---
+
 Read and execute the workflow at `.agent/workflows/roth-tone.md` — Tone Compass for marketing — brand voice calibration using displacement and off-center techniques

@@ -1,1 +1,5 @@
+---
+description: "Generate video assets using Keyframe-to-Video method"
+---
+
 Read and execute the workflow at `.agent/workflows/generate-video-asset.md` — Generate video assets using Keyframe-to-Video method

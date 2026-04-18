@@ -1,1 +1,5 @@
+---
+description: "Interactive IP Flywheel for LinkedIn & Substack dominance"
+---
+
 Read and execute the workflow at `.agent/workflows/ip-flywheel.md` — Interactive IP Flywheel for LinkedIn & Substack dominance

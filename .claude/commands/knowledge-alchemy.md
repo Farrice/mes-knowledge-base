@@ -1,1 +1,5 @@
+---
+description: "Turn expert content into reusable AI coaching prompt"
+---
+
 Read and execute the workflow at `.agent/workflows/knowledge-alchemy.md` — Turn expert content into reusable AI coaching prompt

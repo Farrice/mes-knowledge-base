@@ -1,1 +1,5 @@
+---
+description: "Fast-path NBA picks. Say \"check my picks\" and get tonight's full edge analysis instantly. Auto-detects mode: default = tonight's slate, `review` = past results, player name = quick prop check"
+---
+
 Read and execute the workflow at `.agent/workflows/check-picks.md` — Fast-path NBA picks. Say "check my picks" and get tonight's full edge analysis instantly. Auto-detects mode: default = tonight's slate, `review` = past results, player name = quick prop check

@@ -1,1 +1,5 @@
+---
+description: "Find the ONE real individual who embodies your ideal consumer"
+---
+
 Read and execute the workflow at `.agent/workflows/individual-consumer-finder.md` — Find the ONE real individual who embodies your ideal consumer

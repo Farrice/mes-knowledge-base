@@ -1,1 +1,5 @@
+---
+description: "System Improvement Session. Extractions, agent creation, skill building, workflow development. Anti-hoarding check before building new things. Auto-logged at session end."
+---
+
 Read and execute the workflow at `.agent/workflows/build.md` — System Improvement Session. Extractions, agent creation, skill building, workflow development. Anti-hoarding check before building new things. Auto-logged at session end.

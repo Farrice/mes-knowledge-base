@@ -1,1 +1,5 @@
+---
+description: "Run the ICP research phase (Gap Diagnostic + Voice-of-Customer)"
+---
+
 Read and execute the workflow at `.agent/workflows/icp-research.md` — Run the ICP research phase (Gap Diagnostic + Voice-of-Customer)

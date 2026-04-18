@@ -1,1 +1,5 @@
+---
+description: "Create identity-resonant belief statements that validate audience worldview"
+---
+
 Read and execute the workflow at `.agent/workflows/worldview-porn.md` — Create identity-resonant belief statements that validate audience worldview

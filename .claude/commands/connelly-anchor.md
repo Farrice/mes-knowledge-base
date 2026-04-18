@@ -1,1 +1,5 @@
+---
+description: "Anchor narratives in verifiable real-world details for instant believability"
+---
+
 Read and execute the workflow at `.agent/workflows/connelly-anchor.md` — Anchor narratives in verifiable real-world details for instant believability

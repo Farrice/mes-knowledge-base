@@ -1,1 +1,5 @@
+---
+description: "Generate video content"
+---
+
 Read and execute the workflow at `.agent/workflows/create-video.md` — Generate video content

@@ -1,1 +1,5 @@
+---
+description: "Generate 7+ micro leads using each proven type for the same offer"
+---
+
 Read and execute the workflow at `.agent/workflows/micro-lead.md` — Generate 7+ micro leads using each proven type for the same offer

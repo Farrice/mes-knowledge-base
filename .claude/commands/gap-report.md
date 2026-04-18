@@ -1,1 +1,5 @@
+---
+description: "Monthly intelligence gap report — weak skills, missing coverage"
+---
+
 Read and execute the workflow at `.agent/workflows/gap-report.md` — Monthly intelligence gap report — weak skills, missing coverage

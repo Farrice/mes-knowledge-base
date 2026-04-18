@@ -1,1 +1,5 @@
+---
+description: "Build ICP intelligence output from research data"
+---
+
 Read and execute the workflow at `.agent/workflows/icp-build.md` — Build ICP intelligence output from research data

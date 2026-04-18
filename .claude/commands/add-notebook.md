@@ -1,1 +1,5 @@
+---
+description: "Register a new NotebookLM notebook for RAG integration"
+---
+
 Read and execute the workflow at `.agent/workflows/add-notebook.md` — Register a new NotebookLM notebook for RAG integration

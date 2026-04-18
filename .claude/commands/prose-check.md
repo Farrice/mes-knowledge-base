@@ -1,1 +1,5 @@
+---
+description: "AI-prose detection — check files or text for AI patterns before delivery"
+---
+
 Read and execute the workflow at `.agent/workflows/prose-check.md` — AI-prose detection — check files or text for AI patterns before delivery
