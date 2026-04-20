@@ -1,0 +1,17 @@
+{
+  "history": [
+    {
+      "audit_id": "20260420_150223",
+      "timestamp": "2026-04-20T15:02:23.244246",
+      "summary": {
+        "total_run": 14,
+        "passed": 14,
+        "warnings": 0,
+        "regressions": 0,
+        "no_data": 0
+      }
+    }
+  ],
+  "last_passing": "20260420_150223",
+  "last_updated": "2026-04-20T15:02:28.596126"
+}

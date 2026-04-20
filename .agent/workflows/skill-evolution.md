@@ -262,6 +262,24 @@ log_output(
 )
 ```
 
+### 10b. Regression Audit (Upgrade 3 — Silent Degradation Defense)
+
+Every **5th KEPT cycle** (by count of KEPT entries in Evolution History), run the golden-set regression audit:
+
+```bash
+python3 execution/regression_suite.py audit
+```
+
+**Why**: Phase 2's 100% KEEP rate across 100+ cycles is a red flag. A variant that KEEPs can pass its own benchmark while silently degrading canonical domain output (Nate GP-12 Silent Degradation). The regression audit runs a permanent golden set against current Performance Log proxies to detect drift.
+
+**Cycle-count gating**: Look at `directives/evolution-direction.md` → count KEPT rows in the Evolution History table. If that count is divisible by 5, run the audit. Otherwise skip.
+
+**Reading the result**:
+- `✅` and all PASS → proceed to Step 11
+- `🚨 BLOCKING: N regression(s)` → do NOT proceed to future cycles until the regression is investigated. Present the failing domain/task to the user, surface the weakened workflow (use `git log` and recent KEEP entries to identify likely culprit), and wait for approval before any further evolution.
+
+**Additive-only guarantee**: regression blocking applies to FUTURE cycles, not the cycle that just KEPT. The ratchet stays forward; the audit gates the *next* evolution only.
+
 ### 11. Cross-Pollination Check
 
 If the variant was KEPT and the improvement is pattern-based (not skill-specific):

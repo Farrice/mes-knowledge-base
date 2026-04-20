@@ -1,0 +1,44 @@
+{
+  "trace_id": "20260420_150228",
+  "timestamp": "2026-04-20T15:02:28.600194",
+  "schema_version": "v3",
+  "component": "regression_audit/20260420_150223",
+  "operation": "regression_audit",
+  "expert": "",
+  "workflow": "",
+  "quality": {
+    "composite": 10.0,
+    "intent_alignment": 0.0,
+    "expert_standard": 0.0,
+    "adversarial_resilience": 0.0,
+    "factual_grounding": 0.0
+  },
+  "reasoning": {
+    "hypothesis": "",
+    "variant_diff": "",
+    "reasoning_chain": [],
+    "failure_signals": []
+  },
+  "evaluation": {
+    "benchmark_tasks": [],
+    "held_out_score": 0.0,
+    "held_out_delta": 0.0,
+    "gaming_flag": false
+  },
+  "token_estimate": 0,
+  "notes": "Regression audit: 14 pass / 0 warn / 0 regress / 0 no-data",
+  "context": {
+    "audit_id": "20260420_150223",
+    "domains": [
+      "copywriting",
+      "content",
+      "strategy",
+      "sales",
+      "research",
+      "brand",
+      "default"
+    ],
+    "blocking": false
+  },
+  "is_failure": false
+}

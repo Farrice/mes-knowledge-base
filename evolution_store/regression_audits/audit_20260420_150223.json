@@ -1,0 +1,181 @@
+{
+  "timestamp": "2026-04-20T15:02:23.244246",
+  "audit_id": "20260420_150223",
+  "audit_type": "regression",
+  "domains_audited": [
+    "copywriting",
+    "content",
+    "strategy",
+    "sales",
+    "research",
+    "brand",
+    "default"
+  ],
+  "sample_per_domain": 2,
+  "results": [
+    {
+      "domain": "copywriting",
+      "task": "Write a direct-response sales letter opener (first 200 words) for a $97 info product on email deliverability, cold traffic.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 6.0,
+      "delta": -1.5,
+      "status": "REGRESSION",
+      "scoring_method": "manual",
+      "notes": "Classic DR fundamentals \u2014 should score strong on hook, pattern interrupt, problem agitation.",
+      "scorer": "test-deliberate-regression"
+    },
+    {
+      "domain": "copywriting",
+      "task": "Draft a cold outreach email to a VP Marketing at a Series B SaaS (ARR ~$30M) pitching a $5K/mo content retainer. Single email, <150 words, must earn a reply.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.53,
+      "delta": 1.53,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Specificity test \u2014 generic cold email patterns fail this; domain voice + proof signals succeed."
+    },
+    {
+      "domain": "content",
+      "task": "Write a LinkedIn post (180-220 words) for a solo consultant sharing a counterintuitive lesson from a client engagement. Must drive substantive comments, not reactions.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 8.43,
+      "delta": 0.93,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "LinkedIn-native content test \u2014 platform constraints + psychological specificity."
+    },
+    {
+      "domain": "content",
+      "task": "Write a Twitter/X thread opener (first 3 posts) on \"the real reason most creators plateau at 10K followers\" \u2014 must sound like a practitioner, not a guru.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.43,
+      "delta": 1.43,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Voice calibration test \u2014 generic advice fails, lived-experience signals succeed."
+    },
+    {
+      "domain": "strategy",
+      "task": "Write a one-page positioning statement (~300 words) for a solo fractional CMO targeting Series A-B SaaS companies spending $20K-$80K/mo on content but seeing <2x pipeline contribution.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 8.23,
+      "delta": 0.73,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Positioning test \u2014 specificity of ICP + mechanism + differentiation must all land."
+    },
+    {
+      "domain": "strategy",
+      "task": "Design a 60-day go-to-market plan for a $2,997 cohort course teaching AI automation to marketing operators, zero prior audience, founder has 8 years of in-house ops experience.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.23,
+      "delta": 1.23,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "GTM test \u2014 constrained inputs force strategy not template. Audience-build vs. authority-build tradeoff must surface."
+    },
+    {
+      "domain": "sales",
+      "task": "Handle this live objection: \"I need to think about it\" \u2014 prospect is a $2M-ARR founder evaluating a $15K/mo content retainer. You are on a Zoom call, already 45 min in.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 8.75,
+      "delta": 1.25,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Live objection handling \u2014 real-talk vs. scripted manipulation separates expert from generic."
+    },
+    {
+      "domain": "sales",
+      "task": "Write a 4-email nurture sequence for a lead who downloaded a free guide titled \"5 Mistakes First-Time SaaS Founders Make With Pricing.\" Goal: book a $1K strategy call.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.75,
+      "delta": 1.75,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Email sequence architecture \u2014 each email must earn the next open, escalate commitment."
+    },
+    {
+      "domain": "research",
+      "task": "Build a consumer persona for a first-time buyer of a $3K+ productivity coaching program. Focus on the pre-purchase window: triggers, objections, emotional state, search behavior.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 8.64,
+      "delta": 1.14,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Persona depth test \u2014 generic demographic vs. psychographic specificity separates junior from expert research."
+    },
+    {
+      "domain": "research",
+      "task": "Map the top 3 underserved niches in the AI-automation market where Zapier and Make have structural weaknesses. Include TAM estimate + entry cost for each.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.64,
+      "delta": 1.64,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Market intelligence test \u2014 structural reasoning, not surface trend-spotting."
+    },
+    {
+      "domain": "brand",
+      "task": "Develop a positioning statement for the personal brand of a corporate lawyer pivoting to content creation about M&A deal structure, targeting mid-market founders ($10M-$100M ARR).",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 8.49,
+      "delta": 0.99,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Pivot positioning \u2014 credibility transfer + audience-narrowing test."
+    },
+    {
+      "domain": "brand",
+      "task": "Write a 250-word brand voice guide for a $497/mo paid community for female founders scaling $1M\u2192$10M ARR. Must avoid both hustle-culture and soft-empowerment tropes.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.49,
+      "delta": 1.49,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Voice precision test \u2014 negative constraints force specificity."
+    },
+    {
+      "domain": "default",
+      "task": "Write a one-page executive summary (400 words) of your domain expertise tailored to a CEO who has 3 minutes to read it and must decide whether to engage your services.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.55,
+      "delta": 1.55,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Executive-summary test \u2014 compression + credibility + CTA discipline."
+    },
+    {
+      "domain": "default",
+      "task": "Design a 5-question self-assessment a prospect could take to determine if they need your services. Each question must segment seriously vs casually interested.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 8.55,
+      "delta": 1.55,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Qualification mechanism test \u2014 good questions force honest self-diagnosis."
+    }
+  ],
+  "summary": {
+    "total_run": 14,
+    "passed": 13,
+    "warnings": 0,
+    "regressions": 1,
+    "no_data": 0
+  },
+  "blocking": true,
+  "last_updated": "2026-04-20T15:02:35.287497"
+}
