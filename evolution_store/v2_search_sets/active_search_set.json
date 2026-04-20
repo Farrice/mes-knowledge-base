@@ -1,0 +1,8 @@
+{
+  "created": "2026-04-20T13:00:37.142917",
+  "threshold": 7.0,
+  "description": "All traces with composite < 7.0 or any dimension < 6.0",
+  "cases": [],
+  "total_cases": 0,
+  "last_updated": "2026-04-20T13:00:37.156086"
+}

@@ -53,46 +53,132 @@ AGENTS_DIR = Path(__file__).parent.parent / 'agents'
 
 
 # ─── Standard Benchmark Tasks ────────────────────────────────────
-# Each domain has 3 standard test prompts. When benchmarking a skill,
-# we match the skill's domain to the right test set.
+# v3 (2026-04-20) — Split into 'seen' (visible during evolution) and 'held_out'
+# (rotated per cycle, NOT shown during variant generation). Per Nate B Jones
+# GP-12 Metric Gaming Detection: variants that score high on seen but low on
+# held-out are gaming the rubric.
+#
+# Held-out rotation: cycle_number % len(held_out) picks which held-out task
+# runs this cycle. Gaming flag fires if (mean(seen_scores) - held_out_score) > 1.5.
 
 BENCHMARK_TASKS = {
-    'copywriting': [
-        'Write a cold email for a B2B SaaS product that reduces churn by 40%.',
-        'Create 3 headline variations for a landing page selling an AI writing tool to content agencies.',
-        'Rewrite this weak copy into something compelling: "Our product is good and helps businesses grow."',
-    ],
-    'content': [
-        'Create a TikTok script hook + first 15 seconds for a personal finance channel targeting 25-35 year olds.',
-        'Write a LinkedIn post announcing a new AI tool launch — needs to drive comments, not just likes.',
-        'Outline a YouTube video on "Why most people fail at freelancing" using storytelling structure.',
-    ],
-    'strategy': [
-        'Position a new AI writing assistant in a market dominated by Jasper and Copy.ai.',
-        'Design a go-to-market strategy for a $97/month community for first-time founders.',
-        'Create a competitive analysis framework for entering the AI video generation space.',
-    ],
-    'sales': [
-        'Handle this objection: "I need to think about it" — the prospect is a small business owner considering a $5K consulting package.',
-        'Write a 3-email nurture sequence for leads who downloaded a free AI automation guide.',
-        'Create a VSL outline for a $2,000 course on building an AI agency.',
-    ],
-    'research': [
-        'Analyze the competitive landscape for AI-powered SEO tools in 2026.',
-        'Create a consumer persona for someone buying their first online course on personal branding.',
-        'Identify 3 underserved niches in the AI services market with unit economics.',
-    ],
-    'brand': [
-        'Develop a positioning statement for a personal brand that teaches AI to non-technical founders.',
-        'Create a brand voice guide for a premium newsletter about wealth building.',
-        'Design a content pillar strategy for a creator who covers AI, productivity, and business.',
-    ],
-    'default': [
-        'Create a professional deliverable in your domain of expertise for a small business owner.',
-        'Analyze a common problem in your domain and provide an actionable framework.',
-        'Write educational content explaining a complex concept in your field to a beginner audience.',
-    ],
+    'copywriting': {
+        'seen': [
+            'Write a cold email for a B2B SaaS product that reduces churn by 40%.',
+            'Create 3 headline variations for a landing page selling an AI writing tool to content agencies.',
+            'Rewrite this weak copy into something compelling: "Our product is good and helps businesses grow."',
+        ],
+        'held_out': [
+            'Write an email sequence opener (subject + first 100 words) for a $997 course on productized consulting, cold list.',
+            'Create a PAS-format Facebook ad for a meal-prep delivery service targeting working parents with kids under 10.',
+            'Turn this founder quote into a landing-page hero section: "We built this because we got tired of watching our clients pay 3x for worse results."',
+        ],
+    },
+    'content': {
+        'seen': [
+            'Create a TikTok script hook + first 15 seconds for a personal finance channel targeting 25-35 year olds.',
+            'Write a LinkedIn post announcing a new AI tool launch — needs to drive comments, not just likes.',
+            'Outline a YouTube video on "Why most people fail at freelancing" using storytelling structure.',
+        ],
+        'held_out': [
+            'Write an Instagram Reels hook for a fitness coach whose ICP is busy moms at home (opener must make them stop scrolling within 2 seconds).',
+            'Draft a Twitter/X thread (7 posts) on "The one mindset shift that tripled my consulting revenue" — must sound like a real operator, not generic advice.',
+            'Create a newsletter edition opener (first 150 words) for a weekly B2B SaaS founders newsletter; topic is the "build vs buy" decision for AI tools.',
+        ],
+    },
+    'strategy': {
+        'seen': [
+            'Position a new AI writing assistant in a market dominated by Jasper and Copy.ai.',
+            'Design a go-to-market strategy for a $97/month community for first-time founders.',
+            'Create a competitive analysis framework for entering the AI video generation space.',
+        ],
+        'held_out': [
+            'Design a positioning statement for a solo practitioner wealth advisor targeting tech employees with $500K-$2M net worth post-IPO.',
+            'Build a GTM sequence for a $2K/mo vertical SaaS for HVAC contractors — zero existing users, founder has industry expertise but no marketing team.',
+            'Create a differentiation strategy for a productized web design agency competing with Webflow template marketplaces at a 5x price point.',
+        ],
+    },
+    'sales': {
+        'seen': [
+            'Handle this objection: "I need to think about it" — the prospect is a small business owner considering a $5K consulting package.',
+            'Write a 3-email nurture sequence for leads who downloaded a free AI automation guide.',
+            'Create a VSL outline for a $2,000 course on building an AI agency.',
+        ],
+        'held_out': [
+            'Handle this objection: "Your competitor is 40% cheaper" — prospect is a VP Marketing at a mid-market e-commerce brand considering a $15K/mo retainer.',
+            'Write a cold LinkedIn DM opener for outreach to CFOs at 50-200 employee companies pitching a $20K financial forecasting audit.',
+            'Design a discovery-call script outline for qualifying leads for a $50K 6-month consulting engagement (must eliminate tire-kickers in first 15 min).',
+        ],
+    },
+    'research': {
+        'seen': [
+            'Analyze the competitive landscape for AI-powered SEO tools in 2026.',
+            'Create a consumer persona for someone buying their first online course on personal branding.',
+            'Identify 3 underserved niches in the AI services market with unit economics.',
+        ],
+        'held_out': [
+            'Map the competitive landscape for AI-native CRMs positioned for solo consultants and micro-agencies (<10 employees) in 2026.',
+            'Build a consumer persona for a first-time buyer of a $3K+ productivity coaching program; focus on triggers + objections specific to the pre-purchase window.',
+            'Identify 3 underserved niches in the B2B AI automation market where incumbents (Zapier, Make) have structural weaknesses; include TAM estimate + entry cost.',
+        ],
+    },
+    'brand': {
+        'seen': [
+            'Develop a positioning statement for a personal brand that teaches AI to non-technical founders.',
+            'Create a brand voice guide for a premium newsletter about wealth building.',
+            'Design a content pillar strategy for a creator who covers AI, productivity, and business.',
+        ],
+        'held_out': [
+            'Develop a positioning statement for a personal brand of a corporate lawyer pivoting to content creation about M&A deal structure for mid-market founders.',
+            'Create a brand voice guide for a paid community ($497/mo) aimed at female founders scaling from $1M to $10M ARR — must avoid both "hustle culture" and "soft empowerment" tropes.',
+            'Design a 4-pillar content strategy for an ex-FAANG engineer building a personal brand around AI engineering + founder storytelling, targeting CTOs and VPs of Engineering.',
+        ],
+    },
+    'default': {
+        'seen': [
+            'Create a professional deliverable in your domain of expertise for a small business owner.',
+            'Analyze a common problem in your domain and provide an actionable framework.',
+            'Write educational content explaining a complex concept in your field to a beginner audience.',
+        ],
+        'held_out': [
+            'Produce a one-page executive summary of your domain expertise tailored to a CEO who has 3 minutes to read it and must decide whether to engage your services.',
+            'Design a diagnostic assessment (5-10 questions) a prospect in your domain could self-administer to determine if they need your help.',
+            'Write a "what I would do in your first 30 days" document for a new client who just hired you — demonstrate domain mastery through sequenced, actionable steps.',
+        ],
+    },
 }
+
+
+def select_held_out_task(domain: str, cycle_number: int = 0) -> str:
+    """v3 — Rotate which held-out task is used this cycle.
+
+    Per Nate GP-12 and Pattern 8 from emergent-behaviors-catalog: rotating the
+    held-out prevents the meta-agent from ever seeing the held-out set
+    predictably. Rotation is deterministic (cycle_number % len) so post-hoc
+    auditing works.
+    """
+    domain_tasks = BENCHMARK_TASKS.get(domain, BENCHMARK_TASKS['default'])
+    held_out_list = domain_tasks.get('held_out', [])
+    if not held_out_list:
+        return ""
+    return held_out_list[cycle_number % len(held_out_list)]
+
+
+def compute_gaming_delta(seen_scores: list, held_out_score: float) -> dict:
+    """v3 — Return {delta, flag} for gaming detection.
+
+    Gaming flag fires when variant scores dramatically better on seen tasks
+    than held-out. Threshold 1.5 per Nate recommendation.
+    """
+    if not seen_scores or held_out_score <= 0:
+        return {"delta": 0.0, "flag": False, "seen_avg": 0.0}
+    seen_avg = sum(seen_scores) / len(seen_scores)
+    delta = seen_avg - held_out_score
+    return {
+        "delta": round(delta, 2),
+        "flag": delta > 1.5,
+        "seen_avg": round(seen_avg, 2),
+    }
 
 # Domain mapping — maps skill name keywords to benchmark domains
 DOMAIN_KEYWORDS = {
@@ -218,7 +304,8 @@ def benchmark_skill(skill_name: str) -> dict:
         'performance': _analyze_performance(history),
         'weakest_workflow': None,
         'weakest_dimension': None,
-        'benchmark_tasks': BENCHMARK_TASKS.get(info['domain'], BENCHMARK_TASKS['default']),
+        'benchmark_tasks': BENCHMARK_TASKS.get(info['domain'], BENCHMARK_TASKS['default'])['seen'],
+        'held_out_pool': BENCHMARK_TASKS.get(info['domain'], BENCHMARK_TASKS['default'])['held_out'],
         'recommendations': [],
     }
 

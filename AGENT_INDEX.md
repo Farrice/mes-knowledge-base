@@ -22,6 +22,7 @@
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | 4c's intro architecture, brand statement craft, buyer optimization, content authenticity & ai workflow, content format strategy, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
 | `chris-cimorelli` | **chris-cimorelli** | big idea architecture, copy diagnostics, financial direct response copywriting, front-end / back-end funnel strategy, momentum copy craft, promotion architecture, proof hierarchy engineering |
+| `creative-director` | **Creative Director** |  |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
@@ -57,7 +58,7 @@
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |
 | `joshua-smith` | **Joshua Smith** | conversion optimization, kpi-driven production, market agnosticism, niche targeting, real estate sales mastery, real estate sales mastery agent, the game |
 | `jun-yuh` | **jun-yuh** | creator vision, jun yuh, non-verbal storytelling, psychographic growth |
-| `kallaway` | **Kallaway** | audience obsession engineering, bankshot suggestion, belief implantation, content psychology, indirect persuasion, obsession levels, power of suggestion, viral engineering strategist |
+| `kallaway` | **Kallaway** | content psychology, viral engineering strategist |
 | `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, performance feedback loops, platform adaptation |
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
 | `lance-yichao` | **Lance Martin & Yichao "Peak" Ji** | context engineering expert |
@@ -100,7 +101,7 @@
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |
-| `seth-godin` | **seth-godin** | strategic philosophy + shipping + self-leadership + marketing + viral engineering + brand operations, brand promise, trust engineering, false proxy, consistency, remarkability, AI permission |
+| `seth-godin` | **seth-godin** | strategic philosophy + shipping + self-leadership + marketing + viral engineering + brand operations |
 | `shaan-puri` | **Shaan Puri: Storytelling & Audience Alchemy Master** | audience alchemy, audience alchemy master, emotional resonance, hook engineering, story architecture, storytelling, voice development |
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |
@@ -111,6 +112,7 @@
 | `tao-prompts` | **Tao Prompts** | ai video pipeline architect |
 | `thrivecart` | **thrivecart** | digital product business building and scaling, grocery store psychology, product ecosystem, seven iterations protocol, three levers model, weekend product standard |
 | `tim-danilov` | **Tim Danilov** | niche bending strategist, signature advantage |
+| `tim-runia` | **Tim Runia** | agent configuration, signature advantage |
 | `tobias-allen` | **Tobias Allen** | agent profile |
 | `tom-noske` | **tom-noske** | and content creation methodology, creator business, personal brand monetization |
 | `tommy-clark` | **Tommy Clark: LinkedIn Growth & Founder-Led Content Master** | audience architecture, founder-led content master, interview extraction, linkedin growth, narrative pivoting, stealth hook engineering |

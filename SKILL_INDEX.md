@@ -30,6 +30,7 @@
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | built from agora's #1 newsletter promo copywriter, financial direct response copywriting | 5 | 0 |
 | `consumer-posture-research` | **consumer-posture-research** | produces complete consumer posture profiles for strategic clarity | 0 | 0 |
 | `creative-assembly` | **creative-assembly** |  | 0 | 3 |
+| `creative-direction` | **creative-direction** | covers higgsfield, kittl, midjourney, and flux platforms | 0 | 0 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dan-koe-ai-leverage` | **Dan Koe - AI Leverage Methodology** | turn ai into a creative expansion partner, not a replacement, context-loaded coaching, adversarial refinement, and knowledge alchemy, ai leverage methodology | 3 | 0 |
 | `dan-koe-multipassionate-mastery` | **Dan Koe - Multipassionate Mastery** | multipassionate mastery | 4 | 26 |
@@ -66,6 +67,7 @@
 | `growth-ecosystems` | **Growth Ecosystems — Vincent Hu** | complete system from niche to $100k/month with <5k followers, vincent hu | 10 | 0 |
 | `harry-dry-copywriting` | **Harry Dry Copywriting** |  | 5 | 14 |
 | `internal-comms` | **internal-comms** |  | 0 | 0 |
+| `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | linkedin organic growth | 3 | 14 |
 | `jason-fladlien-marketing` | **Jason Fladlien Marketing** | high-status marketing & closing | 27 | 26 |
 | `jen-santulan-listing-content` | **Jen Santulan Listing Content** |  | 0 | 0 |
@@ -81,9 +83,9 @@
 | `joshua-smith-real-estate` | **Joshua Smith: Real Estate Sales Mastery** | real estate sales mastery | 4 | 12 |
 | `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** |  | 13 | 7 |
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | personal brand mastery | 4 | 34 |
+| `kallaway-audience-obsession` | **Kallaway Audience Obsession** | audience obsession engineering | 12 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** |  | 15 | 0 |
-| `kallaway-audience-obsession` | **Kallaway Audience Obsession Engineering** | bankshot suggestion, power of suggestion, obsession levels, indirect persuasion, belief implantation | 12 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |
 | `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | content engine | 8 | 0 |
 | `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content ops | 3 | 0 |
@@ -127,6 +129,7 @@
 | `monk-ai-offer-architecture` | **Monk.Ai - AI Consulting Offer Architecture** | ai consulting offer architecture | 4 | 17 |
 | `nate-b-jones-agent-deployment-strategy` | **Nate B. Jones — Agent Deployment Strategy** | agent deployment strategy | 2 | 6 |
 | `nate-b-jones-ai-taste-mastery` | **Nate B Jones - AI Taste Mastery** | ai taste mastery | 3 | 15 |
+| `nate-b-jones-auto-improvement-loops` | **Nate B Jones — Auto-Improvement Loops** | design, deploy, and safeguard self-improving agent systems, the karpathy loop applied to business harnesses — not just training code, auto-improvement loops | 8 | 0 |
 | `nate-b-jones-context-engineering` | **Nate B. Jones — Context Engineering** | context engineering | 6 | 0 |
 | `nate-b-jones-intent-engineering` | **Nate B Jones Intent Engineering** |  | 3 | 7 |
 | `nate-b-jones-orchestration-intelligence` | **Nate B. Jones — Orchestration Intelligence** | orchestration intelligence | 11 | 0 |
@@ -177,9 +180,9 @@
 | `seena-rez-tiktok-commerce` | **Seena Rez TikTok Commerce** |  | 4 | 23 |
 | `seena_rez_early_adopter` | **Seena Rez - Early Adopter Innovation Strategy** | the early adopter innovation system | 0 | 0 |
 | `self-evolving-systems` | **Self-Evolving Systems** |  | 1 | 0 |
+| `seth-godin-brand` | **Seth Godin Brand** | brand building & marketing operations | 10 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | ideavirus mastery | 5 | 26 |
 | `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | strategic philosophy | 5 | 0 |
-| `seth-godin-brand` | **Seth Godin — Brand Operations** | brand promise architecture, trust engineering, consistency systems, remarkability, false proxy purge, AI permission | 10 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** |  | 4 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | audience monetization | 2 | 4 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | ai engineering leadership | 4 | 7 |
@@ -190,6 +193,7 @@
 | `steven-pressfield-narrative-mastery` | **Steven Pressfield — Narrative Mastery** | diagnose and defeat the resistance, not formula, physics | 15 | 0 |
 | `stitch-loop` | **stitch-loop** |  | 0 | 0 |
 | `stockton-walbeck-lead-magnets` | **Stockton Walbeck — Lead Magnet Mastery** | lead magnet mastery | 3 | 5 |
+| `story-compass` | **Story Compass** | tim runia's idea-to-story transformation | 13 | 0 |
 | `swarm-commander` | **swarm-commander** |  | 0 | 4 |
 | `taki-moore-lifestyle-business` | **Taki Moore & Tony Bash — Lifestyle Business Mastery** | lifestyle business mastery | 6 | 0 |
 | `tao-prompts-ai-video` | **Tao Prompts: AI Video Pipeline Architecture** | ai video pipeline architecture | 2 | 4 |

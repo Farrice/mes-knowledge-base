@@ -38,3 +38,5 @@
 - `[2026-04-16 07:49]` **finalize** | Kallaway Audience Obsession Engineering — 12 workflows, 12 slash commands, SKILL.md, genius.md, AGEN | general | kallaway — composite:8.7 status:Keep
 - `[2026-04-16 08:11]` **finalize** | Jack Roberts Design Mastery — 10 workflows + 10 slash commands deployed | general | jack-roberts — composite:8.7 status:Keep
 - `[2026-04-16 13:24]` **finalize** | 4 expert takes + LinkedIn post drafts for Parallax pivot positioning (Kallaway, Lara Acosta, Seth Go | general | multi-expert-council — composite:9.0 status:Keep
+- `[2026-04-20 12:38]` **finalize** | Nate B Jones — Auto-Improvement Loops (Karpathy Loop mastery extraction via /extract-forge) | general | nate-b-jones — composite:8.7 status:Keep
+- `[2026-04-20 12:49]` **finalize** | Phase 2 Karpathy Audit (18-pattern advisory on live Antigravity evolution system) | general | nate-b-jones — composite:8.3 status:Keep

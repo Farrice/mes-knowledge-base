@@ -4,6 +4,26 @@
 > **Purpose**: Single source of truth for what to evolve, why, and when to stop.
 > **Updated**: After every evolution cycle. Read before every `/skill-evolution` run.
 > **Created**: 2026-04-06
+> **Karpathy Triplet added**: 2026-04-20 (via Nate B Jones Auto-Improvement Loops extraction)
+
+---
+
+## The Karpathy Triplet (for this system)
+
+Per Nate B Jones — "The magic isn't in the agent's intelligence — it's in the constraints."
+
+**Editable Surface**: Single workflow file per cycle (one `.md` file in `skills/<skill>/workflows/`). One file only. The agent reads the entire workflow in a single pass, understands full context, evaluates changes in minutes.
+
+**Metric**: Composite quality score — sum of (Intent Alignment + Expert Standard + Adversarial Resilience + Factual Grounding), each 1-10.
+- Acceptance threshold: composite ≥7.0 average, no single dimension <6
+- Evaluation method: benchmark task run via `execution/skill_benchmark.py`
+- Factual Grounding marked N/A for pure creative/opinion work
+
+**Time Budget**: 10 minutes per benchmark run. Maximum 3 consecutive cycles per skill before human review.
+
+**Minimalism Rationale**: Constraining evolution to one file per cycle is deliberate. Multi-file changes would fragment the search space, reduce interpretability, and break the ability to cleanly revert. This follows Karpathy's original auto-research architecture.
+
+**Upgrade path**: See `skills/nate-b-jones-auto-improvement-loops/workflows/08-phase2-karpathy-audit.md` for full Karpathy-pattern audit of this system. Run `/nate-auto-phase2` quarterly.
 
 ---
 
@@ -57,6 +77,8 @@
 8. **Auto-revert every DISCARDED variant** — `git checkout` restores original. Ratchet only moves forward.
 9. **Volume target** — aim for 10+ experiments per evolution sprint, not 1-2. Karpathy's 700-experiment benchmark shows volume reveals insights that careful selection misses. Each session should batch 3-5 cycles minimum.
 10. **Wiki feedback** — every result (KEPT or DISCARDED) writes to `knowledge/patterns/`. Evolution discoveries must compound in the wiki.
+11. **Same-model meta/task pairing** — Variant generation and benchmark evaluation must use the same model family (currently Claude ↔ Claude). Cross-model pairings (e.g., Claude generates, GPT evaluates) are prohibited without documented justification. Rationale per Nate B Jones GP-5 (Model Empathy): shared weights give the meta-agent implicit understanding of the inner model's reasoning, tendencies, and failure modes — it reads failure traces "from the inside." Cross-model meta-agents are guessing at reasoning; same-model meta-agents are reading their own dialect. Expected degradation if violated: 20-40% drop in improvement rate.
+12. **v3 trace logging required for every cycle** — Every KEPT or DISCARDED variant must log to `execution/evolution_tracer.py` with reasoning-chain fields (hypothesis, variant_diff, reasoning_chain or failure_signals). Score-only logging is prohibited going forward (per 2026-04-20 Phase 2 Karpathy Audit, Upgrade 1). Rationale per Nate B Jones GP-6 (Traces Over Scores): you cannot optimize what you cannot interpret.
 
 ---
 

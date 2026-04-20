@@ -128,12 +128,38 @@ The variant must:
 
 **Time limit: 10 minutes per benchmark task.** This prevents over-deliberation and forces decisive evaluation (Karpathy principle: constrained cycle time).
 
-For each of the 3 benchmark tasks (from `skill_benchmark.py`):
+For each of the 3 **SEEN** benchmark tasks (from `skill_benchmark.py` `BENCHMARK_TASKS[domain]['seen']`):
 
 **A.** Execute the current workflow → score output (Quality Gate 3-point check) — 10 min max
 **B.** Execute the variant workflow → score output (same rubric) — 10 min max
 
 Record all scores. Scoring must be blind (score current first, then variant, without comparing).
+
+**Then run the HELD-OUT check (v3 — Nate GP-12 Metric Gaming Detection):**
+
+```python
+from execution.skill_benchmark import select_held_out_task, compute_gaming_delta
+
+# Determine cycle number (use git commit count on the skill dir as simple rotation index)
+# Or track in .agent/evolution-cycle-counter.json if you want stateful rotation
+
+held_out_task = select_held_out_task(domain, cycle_number)
+```
+
+**C.** Execute the variant workflow on the HELD-OUT task → score output (same rubric) — 10 min max
+
+This task was NOT shown to the meta-agent during variant generation. If variant scores dramatically lower here than on seen tasks, it's gaming the rubric.
+
+```python
+gaming_check = compute_gaming_delta(
+    seen_scores=[variant_seen_score_1, variant_seen_score_2, variant_seen_score_3],
+    held_out_score=variant_held_out_score,
+)
+
+# gaming_check = {'delta': X.X, 'flag': bool, 'seen_avg': X.X}
+```
+
+**If `gaming_check['flag'] is True` (delta > 1.5)**: auto-DISCARD the variant regardless of seen-task scores. Log failure signal: `{"step": "held_out", "signal_type": "gaming", "severity": "blocker", "description": f"seen_avg {seen_avg} vs held_out {held_out_score}, delta {delta}"}`. This variant was optimizing the wrong thing.
 
 ### 8. Compare Results (Binary Decision)
 
@@ -174,6 +200,21 @@ If the variant loses or ties:
 - Delete the .variant.md file
 - Add Evolution Log entry to genius.md
 - Log to Performance Log (status: "Keep", experiment_tag: "evolution-[date]")
+- **Log v3 reasoning trace (Nate GP-6 — Traces Over Scores):**
+  ```bash
+  python3 execution/evolution_tracer.py log \
+    --component "skills/[skill-name]/workflows/[workflow-name].md" \
+    --operation "evolution_cycle_kept" \
+    --expert "[expert-name]" \
+    --workflow "[workflow-name]" \
+    --quality-score [variant_avg] \
+    --intent [X] --expert-score [Y] --adversarial [Z] --factual [W] \
+    --hypothesis "[what was tested, one sentence]" \
+    --variant-diff "[what changed, summary — or git diff -U0 output]" \
+    --reasoning-chain '[{"step":1,"thought":"...","decision":"...","alternatives_considered":["..."]}]' \
+    --benchmark-tasks "[task-1,task-2,task-3]" \
+    --notes "KEPT. Target: [target]. Delta: +[delta]."
+  ```
 - **Git commit the change (ratchet moves forward):**
   ```bash
   git add skills/[skill-name]/workflows/[workflow-name].md
@@ -190,6 +231,21 @@ If the variant loses or ties:
 - Delete the .variant.md file
 - Add Evolution Log entry to genius.md (marked as discarded, with lesson learned)
 - Log to Performance Log (status: "Discard", experiment_tag: "evolution-[date]")
+- **Log v3 reasoning trace with failure signals (Nate GP-6) — critical for diagnosis:**
+  ```bash
+  python3 execution/evolution_tracer.py log \
+    --component "skills/[skill-name]/workflows/[workflow-name].md" \
+    --operation "evolution_cycle_discarded" \
+    --expert "[expert-name]" \
+    --workflow "[workflow-name]" \
+    --quality-score [variant_avg] \
+    --intent [X] --expert-score [Y] --adversarial [Z] --factual [W] \
+    --hypothesis "[what was tested]" \
+    --variant-diff "[what changed]" \
+    --failure-signals '[{"step":N,"signal_type":"[type]","severity":"[minor|major|blocker]","description":"[where direction was lost]"}]' \
+    --notes "DISCARDED. Lesson: [what was learned]."
+  ```
+  **Why this matters**: discarded traces with failure signals are the fuel for future evolution cycles. Score-only logging of a discard teaches nothing. Reasoning-chain logging teaches the pattern to avoid.
 
 ```python
 from execution.log_performance import log_output
