@@ -1,0 +1,49 @@
+{
+  "timestamp": "2026-04-20T15:05:42.023163",
+  "audit_id": "20260420_150542",
+  "skill_kept": "nate-b-jones-auto-improvement-loops",
+  "sample_size": 3,
+  "regression_threshold": 0.5,
+  "downstream_checked": [
+    "nate-b-jones-intent-engineering",
+    "nate-b-jones-orchestration-intelligence",
+    "nate-b-jones-trust-architecture"
+  ],
+  "sampled": [
+    {
+      "skill": "nate-b-jones-intent-engineering",
+      "confidence": 5.5,
+      "reasons": [
+        "same-expert",
+        "stacking-declared"
+      ],
+      "baseline_score": null,
+      "current_score": null,
+      "delta": null
+    },
+    {
+      "skill": "nate-b-jones-orchestration-intelligence",
+      "confidence": 5.5,
+      "reasons": [
+        "same-expert",
+        "stacking-declared"
+      ],
+      "baseline_score": 8.77,
+      "current_score": 8.3,
+      "delta": -0.47
+    },
+    {
+      "skill": "nate-b-jones-trust-architecture",
+      "confidence": 5.5,
+      "reasons": [
+        "same-expert",
+        "stacking-declared"
+      ],
+      "baseline_score": null,
+      "current_score": null,
+      "delta": null
+    }
+  ],
+  "regressions": [],
+  "flag": false
+}

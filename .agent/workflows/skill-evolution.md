@@ -280,7 +280,9 @@ python3 execution/regression_suite.py audit
 
 **Additive-only guarantee**: regression blocking applies to FUTURE cycles, not the cycle that just KEPT. The ratchet stays forward; the audit gates the *next* evolution only.
 
-### 11. Cross-Pollination Check
+### 11. Cross-Pollination Check + Cascade Audit (Upgrade 5)
+
+**11a. Pattern-family candidates (existing)**
 
 If the variant was KEPT and the improvement is pattern-based (not skill-specific):
 
@@ -291,6 +293,28 @@ candidates = find_related_skills(skill_name, pattern_type)
 ```
 
 If candidates found, note them for the next cross-pollination cycle.
+
+**11b. Downstream cascade audit (Upgrade 5 — Nate GP-12 Compounding Errors)**
+
+After every KEEP, check whether the change silently regressed closely-related skills:
+
+```bash
+python3 execution/cascade_detector.py check <skill-name> --sample 3
+```
+
+Relationship types checked (weighted):
+- **Same-expert siblings** (3.0) — share genius.md context
+- **Shared reference files** (2.0/overlap) — both load references/X.md
+- **Stacking declarations** (2.5) — SKILL.md Stacking Guide partners
+- **Pattern-transfer history** (1.5) — prior cross-pollinations from knowledge/patterns/
+
+For the top 3 downstream skills, the detector pulls their baseline (5-entry rolling avg) and current score from Performance Log, then flags any delta < -0.5 as a regression.
+
+**Reading the result**:
+- `✅` → proceed. No silent downstream damage detected.
+- `🚨 REGRESSION DETECTED` → non-blocking on this cycle (ratchet still moves forward) but surface the flagged skill(s) to the user in the final Report (Step 13). Recommend investigating whether the KEPT change needs re-scoped or whether the downstream skill needs its own cycle.
+
+**Additive guarantee**: cascade audit NEVER auto-reverts. It surfaces candidates for human inspection.
 
 ### 11b. Wiki Cascade + Pattern Archive (Karpathy Ingest)
 
