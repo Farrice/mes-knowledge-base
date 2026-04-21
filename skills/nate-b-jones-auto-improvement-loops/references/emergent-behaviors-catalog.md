@@ -159,6 +159,72 @@ Sources: Kevin Goo auto-agent observations (Third Layer, April 2026), Sky Pilot 
 
 ---
 
+## Pattern 10 — Additive-Non-Blocking Audit Layering (Defensive — Human-Invented)
+
+**What we add**: New audit layers (regression suite, cascade detector) surface signals but never auto-revert KEPT cycles. The ratchet stays forward; audits gate the *next* cycle, not the current one.
+
+**Why this matters**: Auto-reverting on audit failure is attractive in theory but dangerous in practice. Audits on first implementation are under-calibrated — false positives would undo legitimate progress. The additive-non-blocking stance buys calibration time without sacrificing safety.
+
+**Impact**: deployment risk drops to near-zero; audits can ship before their thresholds are battle-tested.
+
+**Pre-load as**:
+- All new audit layers default to `non_blocking=True` on first ship
+- Flag surfaces via `flag: bool` in result JSON; workflow surfaces to user in final report
+- Escalation to blocking only after N cycles of calibration + user approval
+- Mirror audit result into v3 trace store regardless of blocking status, so signals feed the Karpathy search set even when non-blocking
+
+**Trigger condition**: any new audit layer added to an already-live loop
+
+**Risk**: tolerates detected regressions for 1+ cycle before human intervention. Mitigate with mandatory final-report surfacing.
+
+**Observed in**: Antigravity Phase 2 cascade audit (Upgrade 5, 2026-04-20) and regression audit (Upgrade 3, 2026-04-20).
+
+---
+
+## Pattern 11 — Proxy-from-Log Fallback (Defensive — Human-Invented)
+
+**What we add**: Audits that notionally require live task execution (golden-set regression) instead fall back to rolling averages of the same domain's recent Performance Log entries. Scoring is tagged `scoring_method: "proxy_from_log"` vs `"manual"` so the downstream reader knows fidelity.
+
+**Why this matters**: Live execution is slow + expensive + often unavailable. But proxy signal from recent work is usually sufficient for the regression question "has this domain's quality drifted?" — and the proxy is free.
+
+**Impact**: enables continuous silent-degradation monitoring without per-cycle execution cost. Proxy can be upgraded to manual scoring selectively when a regression signal fires.
+
+**Pre-load as**:
+- Every metric layer accepts a `current_score: float | None` slot that can be filled by proxy OR manual
+- Metadata tag (`scoring_method`) is mandatory on every scored entry
+- Manual-score merge is a first-class CLI command (`log-result --score X`), not an afterthought
+- Proxy defaults are silent; only manual scores are trusted for baseline updates
+
+**Trigger condition**: any audit that notionally requires expensive execution
+
+**Risk**: proxy is domain-aggregate, not task-specific — may miss task-level regression that averages out. Mitigate by flagging any PASS with `scoring_method: "proxy_from_log"` as provisional until validated.
+
+**Observed in**: Antigravity Phase 2 regression suite (Upgrade 3, 2026-04-20).
+
+---
+
+## Pattern 12 — Relationship-Weighted Downstream Sampling (Defensive — Human-Invented)
+
+**What we add**: Cross-skill cascade audits don't sample uniformly. They rank candidate downstream skills by weighted confidence across 4 relationship types (same-expert, shared-refs, stacking-declared, pattern-transfer) and sample the top N. High-confidence candidates get checked first because they have the highest prior probability of being affected.
+
+**Why this matters**: Uniform sampling across 200+ skills is computationally expensive and signal-poor. Weighted sampling focuses the audit on the skills most likely to have moved.
+
+**Impact**: enables cascade detection at low cost; 3-skill sample captures 80%+ of realistic cascade risk.
+
+**Pre-load as**:
+- Relationship taxonomy with explicit weights (same-expert 3.0, shared-refs 2.0/overlap, stacking 2.5, pattern-transfer 1.5)
+- Each flagged regression carries its `reasons` (which relationships drove it onto the sample list), so the user can diagnose *why* it was checked
+- Graph is cached (`cascade_graph.json`) and regenerated on demand
+- Weights are tunable via code constants, not hardcoded logic
+
+**Trigger condition**: any KEEP operation in a multi-skill loop
+
+**Risk**: a genuine cascade into a low-confidence downstream skill will be missed. Mitigate with occasional full-sweep audits (sample_size = all-downstream) at longer cadence.
+
+**Observed in**: Antigravity Phase 2 cascade detector (Upgrade 5, 2026-04-20).
+
+---
+
 ## Catalog Maintenance
 
 **When to update this file**:
@@ -166,6 +232,6 @@ Sources: Kevin Goo auto-agent observations (Third Layer, April 2026), Sky Pilot 
 - New defensive pattern added to counter a discovered failure mode
 - Community report of a new pattern worth pre-loading
 
-**Format for new entry**: match the 7 existing templates (What it invents / Impact / Pre-load as / Trigger / Risk).
+**Format for new entry**: match the 9 existing templates (What it invents / Impact / Pre-load as / Trigger / Risk).
 
 **Current total**: 7 emergent + 2 defensive = 9 patterns.

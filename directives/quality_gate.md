@@ -69,6 +69,34 @@ After delivery, log via `execution/log_performance.py`: output, agent, skill, wo
 
 ---
 
+## Rubric Variants (Upgrade 4 — Pattern 9 Anti-Rubric-Gaming)
+
+Rotate these phrasings across benchmark scoring runs to detect variants that optimize for specific rubric wording rather than underlying quality. Pick one phrasing per dimension per task via `phrasing_idx = (cycle_number + task_idx) % 3`.
+
+### Intent Alignment
+- **Phrasing A**: Does the output match what the user actually asked for?
+- **Phrasing B**: If the user read this output blind, would they say "yes, that's what I wanted"?
+- **Phrasing C**: Does the deliverable resolve the specific question/task, or does it answer an adjacent one?
+
+### Expert Standard
+- **Phrasing A**: Would the real expert recognize this as quality work?
+- **Phrasing B**: If posted under the expert's name, would it damage or enhance their reputation?
+- **Phrasing C**: Does this output demonstrate the expert's actual thinking, or is it generic with expert-branded terminology?
+
+### Adversarial Resilience
+- **Phrasing A**: Would this output survive critical scrutiny from a hostile reader?
+- **Phrasing B**: What's the strongest counterargument to this, and does the output pre-empt it?
+- **Phrasing C**: If a skeptical peer reviewer picked this apart for 30 minutes, what would they find?
+
+### Factual Grounding (when applicable)
+- **Phrasing A**: Are real-world claims verified against primary sources?
+- **Phrasing B**: If every factual claim had to be cited, could it be?
+- **Phrasing C**: Which claims would survive a fact-check from a domain expert, and which would not?
+
+**Gaming detection**: Score variance on the same variant across phrasings > 1.5 on the same dimension = rubric gaming flag.
+
+---
+
 ## Usage Tracking
 
 | Field | Value |

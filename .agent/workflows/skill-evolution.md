@@ -124,16 +124,54 @@ The variant must:
 - Modify ONLY ONE targeted aspect (single variable — Karpathy constraint)
 - Document what changed at the top
 
+### 6b. Forced Verification (Upgrade 4 — Pattern 2 Pre-Load)
+
+Before the variant goes into benchmark testing, the meta-agent re-reads the variant against the hypothesis spec and answers three questions explicitly:
+
+1. **Does the variant change exactly ONE targeted aspect?** (Karpathy single-variable constraint)
+2. **Does it preserve the Output Contract and genius.md reference?**
+3. **Is the change directly traceable to the written hypothesis, or did scope creep in?**
+
+If any answer is "no" → discard the variant now, before wasting benchmark time. Log as a pre-benchmark failure (signal_type="spec_drift", severity="major"). Regenerate variant with tightened scope.
+
+**Why this matters**: Pattern 2 from `emergent-behaviors-catalog.md` — task-agents that submit output without re-checking against spec fail 15-30% more. Forced verification is a cheap pre-gate that catches scope drift before expensive benchmark scoring runs.
+
 ### 7. Test Both Versions (Time-Boxed: 10 min/task)
 
 **Time limit: 10 minutes per benchmark task.** This prevents over-deliberation and forces decisive evaluation (Karpathy principle: constrained cycle time).
+
+**7a. Spot-Check Gate (Upgrade 4 — Pattern 1 Pre-Load)**
+
+Before running the full 3-task benchmark, run the variant on **1 randomly-selected seen task** as a cheap spot-check. If the variant scores < 6.0 on the spot-check, auto-DISCARD without running the full benchmark (saves ~70% of per-cycle execution cost for clearly-failed variants).
+
+```python
+import random
+from execution.skill_benchmark import BENCHMARK_TASKS
+
+spot_task = random.choice(BENCHMARK_TASKS[domain]['seen'])
+spot_score = run_variant(spot_task)  # returns composite
+if spot_score < 6.0:
+    # Log as early-discard; skip Step 7 full benchmark
+    failure_signals = [{"step": "spot_check", "signal_type": "early_fail", "severity": "major", "description": f"Spot-check on '{spot_task[:50]}' scored {spot_score}; full benchmark skipped."}]
+    # Proceed to Step 10 DISCARD path
+```
+
+**Why this matters**: Pattern 1 — meta-agents naturally invent spot-checking to save compute on variants that are clearly broken. Pre-loading the affordance means every cycle gets the savings.
+
+**7b. Full Benchmark with Rubric Phrasing Rotation (Upgrade 4 — Pattern 9 Pre-Load)**
 
 For each of the 3 **SEEN** benchmark tasks (from `skill_benchmark.py` `BENCHMARK_TASKS[domain]['seen']`):
 
 **A.** Execute the current workflow → score output (Quality Gate 3-point check) — 10 min max
 **B.** Execute the variant workflow → score output (same rubric) — 10 min max
 
-Record all scores. Scoring must be blind (score current first, then variant, without comparing).
+**Rubric phrasing rotation (anti-rubric-gaming)**: For each of the 3 tasks, vary the scoring rubric wording across 3 calibrated phrasings per dimension (intent-alignment, expert-standard, adversarial-resilience). If variant performs well only on specific rubric wording, score variance will flag it as rubric-overfitting, not genuine improvement.
+
+Phrasings live in `directives/quality_gate.md` under "Rubric Variants" (3 phrasings per dimension). Rotate per-task using: `phrasing_idx = (cycle_number + task_idx) % 3`.
+
+Record all scores AND phrasing_idx used. Variance across phrasings > 1.5 on the same variant = rubric gaming flag.
+
+Scoring must be blind (score current first, then variant, without comparing).
 
 **Then run the HELD-OUT check (v3 — Nate GP-12 Metric Gaming Detection):**
 

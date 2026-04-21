@@ -229,6 +229,7 @@ These are ideas for future evolution cycles, not current commitments:
 | Revenue Tracker | READY | Manual only | — |
 | Regression Suite (Upgrade 3) | **ACTIVE** | 2026-04-20 (shipped) | 37 golden-set tasks, 7 domains |
 | Cascade Detector (Upgrade 5) | **ACTIVE** | 2026-04-20 (shipped) | 205 skills mapped, 19 expert clusters |
+| Pre-Loaded Affordances (Upgrade 4) | **ACTIVE** | 2026-04-20 (shipped) | Spot-check + forced-verify + rubric-rotation pre-loaded |
 
 ---
 
@@ -239,6 +240,7 @@ These are ideas for future evolution cycles, not current commitments:
 | 1 — Trace Infrastructure Depth (v3) | ✅ SHIPPED | `execution/evolution_tracer.py` + reasoning chains |
 | 2 — Held-Out Benchmark Rotation | ✅ SHIPPED | `execution/skill_benchmark.py` seen/held_out split |
 | 3 — Regression Suite (Silent Degradation) | ✅ SHIPPED | `execution/regression_suite.py` + golden set |
+| 4 — Pre-Loaded Emergent Affordances | ✅ SHIPPED | `.agent/workflows/skill-evolution.md` Steps 6b, 7a, 7b + `directives/quality_gate.md` Rubric Variants |
 | 5 — Cross-Skill Cascade Detection | ✅ SHIPPED | `execution/cascade_detector.py` + cascade_graph.json |
 | 6 — Model Empathy Constraints | ✅ SHIPPED | Constraints 11-12 above |
 | 7 — Revenue Tracker Auto-Link | ⏳ PLANNED | Deferred |
