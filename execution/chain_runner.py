@@ -464,6 +464,36 @@ def finalize(
         except Exception as e:
             result["knowledge_vault_sync"] = {"success": False, "error": str(e)}
 
+    # ── Step 12: Revenue Tracker auto-link (Upgrade 7) ──────────
+    # Passed deliverables in revenue-relevant task_types get a pending
+    # outcome stub registered so `revenue_tracker pipeline` surfaces
+    # them without manual follow-up. User later updates with actual
+    # revenue via `python execution/revenue_tracker.py log ...`.
+    # Non-fatal: any error is swallowed so revenue tracking never
+    # breaks the quality gate.
+    if passed:
+        try:
+            try:
+                from revenue_tracker import auto_register_outcome
+            except ImportError:
+                from execution.revenue_tracker import auto_register_outcome
+            notion_page_id = ""
+            if isinstance(result.get("notion_result"), dict):
+                notion_page_id = result["notion_result"].get("page_id", "")
+            reg = auto_register_outcome(
+                deliverable=output_description[:200],
+                expert=expert,
+                skill=skill,
+                workflow=workflow,
+                task_type=task_type,
+                composite=composite,
+                notion_page_id=notion_page_id,
+                experiment_tag=experiment_tag,
+            )
+            result["revenue_autolink"] = reg
+        except Exception as e:
+            result["revenue_autolink"] = {"skipped": True, "error": str(e)}
+
     return result
 
 

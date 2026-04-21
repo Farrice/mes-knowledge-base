@@ -139,6 +139,63 @@ def log_outcome(
     return entry
 
 
+def auto_register_outcome(
+    deliverable: str,
+    expert: str = "",
+    skill: str = "",
+    workflow: str = "",
+    task_type: str = "",
+    composite: float = 0.0,
+    notion_page_id: str = "",
+    experiment_tag: str = "",
+) -> Dict[str, Any]:
+    """Upgrade 7 — Phase 2 auto-link hook.
+
+    Called from chain_runner.finalize() on every PASSED deliverable in a
+    revenue-relevant task_type. Creates a pending-outcome stub so the
+    deliverable appears in `revenue_tracker pipeline` without manual
+    follow-up. User later updates via `revenue_tracker log` with actual
+    revenue + outcome description.
+
+    Idempotent: re-registering the same deliverable is a no-op.
+    Non-fatal: any exception is swallowed — revenue tracking is never
+    allowed to break the quality gate.
+    """
+    REVENUE_TASK_TYPES = {
+        "Content", "Strategy", "Client Work", "Research",
+        "Creative", "Analysis", "Extraction",
+    }
+    if task_type and task_type not in REVENUE_TASK_TYPES:
+        return {"skipped": True, "reason": f"task_type '{task_type}' not revenue-relevant"}
+
+    try:
+        data = _load_outcomes()
+        existing = [o for o in data["outcomes"] if o.get("deliverable") == deliverable]
+        if existing:
+            return {"skipped": True, "reason": "already registered", "entry": existing[-1]}
+
+        entry = {
+            "deliverable": deliverable,
+            "revenue": 0.0,
+            "outcome": "pending tracking",
+            "expert": expert,
+            "skill": skill,
+            "workflow": workflow,
+            "task_type": task_type,
+            "composite_at_delivery": composite,
+            "experiment_tag": experiment_tag,
+            "notion_page_id": notion_page_id,
+            "outcome_type": "pending",
+            "date": date.today().isoformat(),
+            "auto_registered": True,
+        }
+        data["outcomes"].append(entry)
+        _save_outcomes(data)
+        return {"registered": True, "entry": entry}
+    except Exception as e:
+        return {"skipped": True, "error": str(e)}
+
+
 def get_roi_report(skill: str = "", expert: str = "") -> Dict[str, Any]:
     """
     Generate an ROI report showing which skills/experts generate revenue.
