@@ -121,6 +121,12 @@ def finalize(
     experiment_tag: str = "",
     skip_notion: bool = False,
     write_trace: bool = False,
+    # Step-level telemetry (Kimi K2.6-inspired; see directives/feedback-ratchet.md)
+    tool_calls: Optional[int] = None,
+    file_reads: Optional[int] = None,
+    sub_agents_spawned: Optional[int] = None,
+    session_duration_seconds: Optional[float] = None,
+    critical_path_depth: Optional[int] = None,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -157,6 +163,19 @@ def finalize(
         "task_type": task_type,
         "timestamp": datetime.now().isoformat(),
     }
+
+    # ── Telemetry (optional; Kimi K2.6-inspired step counting) ───
+    telemetry = {
+        k: v for k, v in {
+            "tool_calls": tool_calls,
+            "file_reads": file_reads,
+            "sub_agents_spawned": sub_agents_spawned,
+            "session_duration_seconds": session_duration_seconds,
+            "critical_path_depth": critical_path_depth,
+        }.items() if v is not None
+    }
+    if telemetry:
+        result["telemetry"] = telemetry
 
     # ── Step 1: Validate scores ──────────────────────────────────
     missing = []
@@ -233,6 +252,13 @@ def finalize(
         result["regression_check"] = {"message": "No skill specified — skipping regression check."}
 
     # ── Step 5: Log to Notion Performance DB ─────────────────────
+    # Telemetry is appended to notes so it persists in Notion without
+    # requiring a schema change to the Performance Log database.
+    notion_notes = notes
+    if telemetry:
+        telemetry_str = " | ".join(f"{k}={v}" for k, v in telemetry.items())
+        notion_notes = f"{notes} | telemetry: {telemetry_str}" if notes else f"telemetry: {telemetry_str}"
+
     if not skip_notion:
         try:
             notion_result = log_output(
@@ -247,7 +273,7 @@ def finalize(
                 expert_standard=expert_standard,
                 adversarial_resilience=adversarial_resilience,
                 status=status,
-                notes=notes,
+                notes=notion_notes,
                 experiment_tag=experiment_tag,
             )
             result["notion_result"] = {"success": True, "url": notion_result.get("url", "logged")}
@@ -313,6 +339,7 @@ def finalize(
                     "task_type": task_type,
                     "experiment_tag": experiment_tag,
                     "regression": result.get("regression_check", {}),
+                    "telemetry": telemetry or None,
                 },
             )
             result["v2_trace"] = True
@@ -336,6 +363,7 @@ def finalize(
                 "regression": result.get("regression_check", {}),
                 "notes": notes,
                 "experiment_tag": experiment_tag,
+                "telemetry": telemetry or None,
             }
             ts = datetime.now().strftime("%Y%m%d_%H%M%S")
             trace_file = TRACE_DIR / f"trace_{ts}_{skill or expert or 'unknown'}.json"
@@ -588,6 +616,11 @@ def main():
     fin.add_argument("--tag", default="", help="Experiment tag")
     fin.add_argument("--skip-notion", action="store_true", help="Skip Notion logging (test mode)")
     fin.add_argument("--trace", action="store_true", help="Write JSON trace to evolution_store/traces/")
+    fin.add_argument("--tool-calls", type=int, default=None, help="Telemetry: number of tool calls this session")
+    fin.add_argument("--file-reads", type=int, default=None, help="Telemetry: number of file reads this session")
+    fin.add_argument("--sub-agents", type=int, default=None, help="Telemetry: number of sub-agents spawned this session")
+    fin.add_argument("--duration", type=float, default=None, help="Telemetry: session duration in seconds")
+    fin.add_argument("--critical-path", type=int, default=None, help="Telemetry: critical-path depth (from mission-decomposer)")
 
     args = parser.parse_args()
 
@@ -606,6 +639,11 @@ def main():
             experiment_tag=args.tag,
             skip_notion=args.skip_notion,
             write_trace=args.trace,
+            tool_calls=args.tool_calls,
+            file_reads=args.file_reads,
+            sub_agents_spawned=args.sub_agents,
+            session_duration_seconds=args.duration,
+            critical_path_depth=args.critical_path,
         )
         print_result(result)
     else:

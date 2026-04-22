@@ -98,6 +98,39 @@ Independent tasks, agents need each other's output? → **Agent Teams** (2-5, co
 
 ---
 
+## Adaptive Re-Routing on Failure
+
+PARL-inspired pattern (Moonshot Kimi K2.6): when a sub-agent fails, do not return the failure silently. Re-route to an ensemble fallback before escalating.
+
+**When it fires** (in `execution/parallel_swarm.py::execute_agent_with_fallback`):
+| Trigger | Detection |
+|---|---|
+| Exception during generation | `status = "failed"` |
+| Empty output | `output` is empty or whitespace |
+| Thin output | `len(output.strip()) < MIN_VIABLE_OUTPUT` (default 400 chars) — likely truncation, refusal, or token collapse |
+
+**Re-routing logic**:
+1. Look up primary expert in `ENSEMBLE_FALLBACKS` (mirrors `directives/expert_auto_routing.md` ensemble table)
+2. If no fallback defined → mark result `needs_refine`, return
+3. Retry once with first fallback expert
+4. If fallback succeeds → status becomes `rerouted`, `original_agent` records primary, `failure_trace` records what failed
+5. If fallback also fails → mark `needs_refine`, return with full trace
+
+**After needs_refine**: orchestrator should escalate to `/jcc-refine` (human-in-loop). Never auto-retry a second fallback — that path is Phase D autonomous, which was explicitly rejected (see `feedback_phase2-activation-gap.md`).
+
+**Status values** (expanded):
+- `success` — primary expert produced usable output
+- `rerouted` — fallback expert succeeded after primary failed
+- `needs_refine` — both primary and fallback failed; human intervention required
+- `failed` — legacy; only used when fallback isn't attempted (e.g., token budget exhausted pre-retry)
+- `skipped` — work order skipped (e.g., budget exceeded before execution)
+
+**Synthesis inclusion**: `_is_usable(result)` returns True for both `success` and `rerouted`. Synthesis consumes both; `needs_refine` is excluded and surfaced to user.
+
+**Logging**: `original_agent` and `failure_trace` are persisted in `metadata.json` of every swarm run. Use these to track ensemble quality over time and feed the evolution engine.
+
+---
+
 ## Anti-Patterns
 
 - ❌ Share full conversation with sub-agent (defeats purpose)

@@ -66,7 +66,7 @@ class WorkOrder:
 class AgentResult:
     """Result from a single agent execution."""
     agent_name: str
-    status: str  # "success", "failed", "skipped"
+    status: str  # "success", "failed", "skipped", "rerouted", "needs_refine"
     output: str
     tokens_used: int
     estimated_cost: float
@@ -76,6 +76,8 @@ class AgentResult:
     grounding_queries: int = 0
     retries: int = 0
     error: Optional[str] = None
+    original_agent: Optional[str] = None  # primary expert if this result came from an ensemble fallback
+    failure_trace: List[str] = field(default_factory=list)  # record of failures during adaptive re-routing
 
 
 @dataclass
@@ -131,6 +133,35 @@ EXPERT_DOMAINS = {
     "caleb-ralston": "Trust-based personal brand, contrarian positioning, credibility",
     "linkedin-2026-format-arbitrage": "LinkedIn algorithm, format selection, platform optimization",
 }
+
+
+# Ensemble fallbacks for adaptive re-routing on failure.
+# Mirrors `directives/expert_auto_routing.md` — keep in sync when that directive changes.
+# On first failure of primary expert, retry with ordered fallbacks from same domain.
+ENSEMBLE_FALLBACKS = {
+    "lara-acosta":      ["tom-noske", "nicolas-cole", "jasmin-alic"],
+    "tom-noske":        ["lara-acosta", "dan-koe"],
+    "nicolas-cole":     ["lara-acosta", "nicolas-cole-new-media"],
+    "cardinal-mason":   ["harry-dry", "alen-sultanic", "sabri-suby"],
+    "harry-dry":        ["cardinal-mason", "nicolas-cole"],
+    "seena-rez":        ["kallaway", "shaan-puri"],
+    "kallaway":         ["seena-rez", "shaan-puri"],
+    "shaan-puri":       ["lucas-alpay", "kallaway"],
+    "samuel-thompson":  ["monk-ai", "seena-rez"],
+    "monk-ai":          ["samuel-thompson", "sabri-suby"],
+    "jeremy-miner":     ["alen-sultanic", "michael-bernoff"],
+    "nathan-gotch":     ["adam-enfroy"],
+    "adam-enfroy":      ["nathan-gotch"],
+    "oren":             ["kittl", "tom-noske"],
+    "jim-oshaughnessy": ["rory-sutherland"],
+    "lulu-cheng-meservey": ["donald-miller", "lara-acosta"],
+}
+
+# Minimum output length (characters) below which we treat as a thin-output failure
+# even if no exception was raised. Empirically: anything shorter than this is either
+# truncation, refusal, or token-budget collapse — all cases the PARL-style adaptive
+# re-routing should catch.
+MIN_VIABLE_OUTPUT = 400
 
 
 # --------------------------------------------------------------------------
@@ -482,16 +513,16 @@ async def execute_coordinated_swarm(
         if batch_num > 0 and all_results:
             assembled = "\n\n---\n\n".join(
                 f"## {r.agent_name} Output:\n{r.output}"
-                for r in all_results if r.status == "success"
+                for r in all_results if _is_usable(r)
             )
             for wo in batch:
                 wo.context += f"\n\n## ASSEMBLED OUTPUTS FROM PREVIOUS AGENTS\n{assembled}"
 
-        tasks = [execute_agent(wo, client, grounded=grounded) for wo in batch]
+        tasks = [execute_agent_with_fallback(wo, client, grounded=grounded) for wo in batch]
         results = await asyncio.gather(*tasks)
         all_results.extend(results)
 
-        successful = sum(1 for r in results if r.status == "success")
+        successful = sum(1 for r in results if _is_usable(r))
         print(f"\n   ✅ Batch {batch_num + 1} complete: {successful}/{len(batch)} succeeded")
 
     # Phase 4: VERIFY
@@ -788,6 +819,83 @@ Respond with:
         )
 
 
+def _is_thin_output(result: AgentResult) -> bool:
+    """Detect low-quality output that looks 'successful' but is effectively a failure.
+    PARL-style adaptive re-routing treats these as stalls, same as exceptions."""
+    if result.status != "success":
+        return False
+    if not result.output or len(result.output.strip()) < MIN_VIABLE_OUTPUT:
+        return True
+    return False
+
+
+def _is_usable(result: AgentResult) -> bool:
+    """True if the result produced usable output (primary success OR successful fallback)."""
+    return result.status in ("success", "rerouted")
+
+
+async def execute_agent_with_fallback(work_order: WorkOrder, client: GeminiClient,
+                                      grounded: bool = False) -> AgentResult:
+    """Execute an agent with adaptive re-routing to ensemble fallback on failure.
+
+    Inspired by Moonshot Kimi K2.6's PARL-style orchestration: when an agent fails
+    (exception, empty output, or thin output), retry once with the next expert
+    from the same ensemble (defined in `directives/expert_auto_routing.md`,
+    mirrored in ENSEMBLE_FALLBACKS above). If the fallback also fails, mark the
+    result as `needs_refine` so the orchestrator can escalate to `/jcc-refine`
+    (human-in-loop) rather than silently returning a failure.
+
+    Returns an AgentResult with:
+    - status="success" if primary or fallback succeeded
+    - status="rerouted" if fallback succeeded (original_agent records the primary)
+    - status="needs_refine" if both primary and fallback failed
+    """
+    primary = work_order.agent_name
+    result = await execute_agent(work_order, client, grounded=grounded)
+
+    primary_failed = (result.status == "failed") or _is_thin_output(result)
+    if not primary_failed:
+        return result
+
+    failure_trace = [f"{primary}: {result.error or 'thin output'}"]
+    fallbacks = ENSEMBLE_FALLBACKS.get(primary, [])
+
+    if not fallbacks:
+        print(f"  ⚠️  {primary} failed and has no ensemble fallback — flagging for /jcc-refine")
+        result.status = "needs_refine"
+        result.failure_trace = failure_trace
+        return result
+
+    fallback = fallbacks[0]
+    print(f"  🔄 {primary} failed — re-routing to {fallback} (adaptive re-routing)")
+
+    fallback_order = WorkOrder(
+        agent_name=fallback,
+        objective=work_order.objective,
+        context=work_order.context,
+        mandate=work_order.mandate,
+        output_schema=work_order.output_schema,
+        constraints=work_order.constraints,
+        depends_on=work_order.depends_on,
+        batch=work_order.batch,
+    )
+    fallback_result = await execute_agent(fallback_order, client, grounded=grounded)
+    fallback_failed = (fallback_result.status == "failed") or _is_thin_output(fallback_result)
+
+    if fallback_failed:
+        failure_trace.append(f"{fallback}: {fallback_result.error or 'thin output'}")
+        print(f"  ⚠️  Fallback {fallback} also failed — flagging for /jcc-refine")
+        fallback_result.status = "needs_refine"
+        fallback_result.original_agent = primary
+        fallback_result.failure_trace = failure_trace
+        return fallback_result
+
+    fallback_result.status = "rerouted"
+    fallback_result.original_agent = primary
+    fallback_result.failure_trace = failure_trace
+    return fallback_result
+
+
 # --------------------------------------------------------------------------
 # Parallel Execution Engine
 # --------------------------------------------------------------------------
@@ -839,16 +947,16 @@ async def _execute_swarm_with_orders(objective: str, work_orders: List[WorkOrder
         if batch_num > 0 and all_results:
             assembled = "\n\n---\n\n".join(
                 f"## {r.agent_name} Output:\n{r.output}"
-                for r in all_results if r.status == "success"
+                for r in all_results if _is_usable(r)
             )
             for wo in batch:
                 wo.context += f"\n\n## ASSEMBLED OUTPUTS FROM PREVIOUS AGENTS\n{assembled}"
 
-        tasks = [execute_agent(wo, client, grounded=grounded) for wo in batch]
+        tasks = [execute_agent_with_fallback(wo, client, grounded=grounded) for wo in batch]
         results = await asyncio.gather(*tasks)
         all_results.extend(results)
 
-        successful = sum(1 for r in results if r.status == "success")
+        successful = sum(1 for r in results if _is_usable(r))
         print(f"\n   ✅ Batch {batch_num + 1} complete: {successful}/{len(batch)} succeeded")
 
     # Synthesis
@@ -924,11 +1032,11 @@ async def execute_swarm(objective: str, agents: List[str], client: GeminiClient,
         print(f"\n⚡ BATCH {batch_num + 1}: Launching {len(batch)} agents in PARALLEL")
         print(f"   Agents: {', '.join(batch_agents)}")
 
-        tasks = [execute_agent(wo, client, grounded=grounded) for wo in batch]
+        tasks = [execute_agent_with_fallback(wo, client, grounded=grounded) for wo in batch]
         results = await asyncio.gather(*tasks)
         all_results.extend(results)
 
-        successful = sum(1 for r in results if r.status == "success")
+        successful = sum(1 for r in results if _is_usable(r))
         print(f"\n   ✅ Batch {batch_num + 1} complete: {successful}/{len(batch)} succeeded")
 
     # Synthesis
@@ -966,7 +1074,7 @@ async def execute_swarm(objective: str, agents: List[str], client: GeminiClient,
 async def synthesize_results(objective: str, results: List[AgentResult],
                              client: GeminiClient, grounded: bool = False) -> str:
     """Synthesize all agent outputs into a unified deliverable."""
-    successful = [r for r in results if r.status == "success"]
+    successful = [r for r in results if _is_usable(r)]
 
     if not successful:
         return "❌ No agents completed successfully. Cannot synthesize."
@@ -1149,9 +1257,17 @@ def save_outputs(objective: str, results: List[AgentResult], synthesis: str,
         shutil.rmtree(latest)
     latest.symlink_to(run_dir)
 
+    STATUS_EMOJI = {
+        "success": "✅",
+        "rerouted": "🔄",
+        "needs_refine": "⚠️",
+        "failed": "❌",
+        "skipped": "⏭️",
+    }
+
     for result in results:
         agent_file = agents_dir / f"{result.agent_name}.md"
-        status_emoji = "✅" if result.status == "success" else "❌"
+        status_emoji = STATUS_EMOJI.get(result.status, "❌")
         content = f"""# {result.agent_name} {status_emoji}
 
 **Status:** {result.status}
@@ -1162,6 +1278,10 @@ def save_outputs(objective: str, results: List[AgentResult], synthesis: str,
 **Thinking Tokens:** {result.thinking_tokens:,}
 **Grounding Queries:** {result.grounding_queries}
 """
+        if result.original_agent:
+            content += f"**Original Agent:** {result.original_agent} (re-routed via ensemble fallback)\n"
+        if result.failure_trace:
+            content += f"**Failure Trace:** {' → '.join(result.failure_trace)}\n"
         if result.error:
             content += f"**Error:** {result.error}\n"
         if result.output:
@@ -1189,6 +1309,8 @@ def save_outputs(objective: str, results: List[AgentResult], synthesis: str,
                 "thinking_tokens": r.thinking_tokens,
                 "grounding_queries": r.grounding_queries,
                 "error": r.error,
+                "original_agent": r.original_agent,
+                "failure_trace": r.failure_trace,
             }
             for r in results
         ]

@@ -81,6 +81,44 @@ Quality Gate runs DURING output (silent check on all applicable dimensions — 4
 
 ---
 
+## Step-Level Telemetry (Kimi K2.6-Inspired)
+
+Optional telemetry fields capture *process* signals alongside *quality* signals. Pair step counts with quality scores to identify cost/quality inflection points (where adding more steps stops improving output) and validate critical-path scheduling.
+
+**Available fields** (all optional; pass via `chain_runner.py finalize` CLI or `finalize()` kwargs):
+
+| Field | CLI flag | What it measures |
+|---|---|---|
+| `tool_calls` | `--tool-calls N` | Count of tool invocations in the session |
+| `file_reads` | `--file-reads N` | Count of Read tool calls (subset of tool_calls; high file-reads without matching quality gain = context bloat signal) |
+| `sub_agents_spawned` | `--sub-agents N` | Count of Agent tool invocations (sub-agent spawns) |
+| `session_duration_seconds` | `--duration S` | Wall-clock session duration |
+| `critical_path_depth` | `--critical-path K` | For JCC Campaign/Full Deploy: longest sequential workstream chain (from mission-decomposer) |
+
+**Example:**
+```bash
+python3 execution/chain_runner.py finalize "Parallax edition 03" \
+    --expert lara-acosta --skill lara-acosta-linkedin --workflow ghostwrite \
+    --type Content --intent 8 --expert-score 8 --adversarial 7 \
+    --tool-calls 23 --file-reads 9 --sub-agents 3 --duration 1420 \
+    --notes "strong hook, weak close | Factual Grounding: N/A"
+```
+
+**Persistence**: Telemetry appears in three places:
+1. `result["telemetry"]` dict returned by `finalize()`
+2. Appended to `notes` field in Notion Performance Log (no schema change required)
+3. `context.telemetry` in evolution_store v2 traces (queryable by evolution engine)
+
+**Interpretation rules**:
+- **Rising tool_calls without quality gain** → investigate context bloat or ineffective workflow
+- **Rising sub_agents_spawned without quality gain** → sub-agent delegation isn't compounding; consider Solo at higher Tier
+- **Falling critical_path_depth on Campaign/Full Deploy missions over time** → decomposition is maturing (good)
+- **Critical_path / workstream_count ≥ 0.7** → parallelism is ineffective; scale down
+
+**Use this data** when running `/skill-evolution` to identify which skills are becoming step-efficient vs. step-bloated.
+
+---
+
 ## Ground Truth Calibration
 
 Run ground truth comparison when: skill evolution produces new variant, Expert Standard plateaus at 7-8, monthly for top 5 revenue skills, 10+ consecutive "Keep" entries.
@@ -101,8 +139,8 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-20 (chain_runner finalize for nate-b-jones-auto-improvement-loops) |
-| **Activation Count** | 145 |
+| **Last Activated** | 2026-04-22 (chain_runner finalize for antigravity-upgrade) |
+| **Activation Count** | 148 |
 
 **Phase 2**: ✅ ACTIVATED (2026-03-30, 123 entries). Run `/skill-evolution` after shipping sessions.
 **Phase 3**: ✅ ACTIVATED (2026-03-30). Cross-pollinated adversarial resilience to 5 skills.
