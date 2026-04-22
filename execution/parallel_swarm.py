@@ -136,25 +136,122 @@ EXPERT_DOMAINS = {
 
 
 # Ensemble fallbacks for adaptive re-routing on failure.
-# Mirrors `directives/expert_auto_routing.md` — keep in sync when that directive changes.
+# Mirrors `DOMAIN_REGISTRY.md` swim lanes — keep in sync when that registry changes.
 # On first failure of primary expert, retry with ordered fallbacks from same domain.
+# Covers ~70 of 94 experts; unlisted primaries (or fallbacks with no agent dir)
+# escalate to needs_refine for /jcc-refine (human-in-loop).
 ENSEMBLE_FALLBACKS = {
-    "lara-acosta":      ["tom-noske", "nicolas-cole", "jasmin-alic"],
-    "tom-noske":        ["lara-acosta", "dan-koe"],
-    "nicolas-cole":     ["lara-acosta", "nicolas-cole-new-media"],
+    # Domain 1 — Copywriting (Conversion & Sales)
     "cardinal-mason":   ["harry-dry", "alen-sultanic", "sabri-suby"],
     "harry-dry":        ["cardinal-mason", "nicolas-cole"],
-    "seena-rez":        ["kallaway", "shaan-puri"],
+    "alen-sultanic":    ["cardinal-mason", "david-deutsch", "harry-dry"],
+    "nicolas-cole":     ["harry-dry", "mitch-albom", "ward-farnsworth"],
+    "mitch-albom":      ["nicolas-cole", "jonathan-franzen", "ocean-vuong"],
+    "bond-halbert":     ["david-deutsch", "alen-sultanic", "cardinal-mason"],
+    "david-deutsch":    ["bond-halbert", "alen-sultanic", "ward-farnsworth"],
+    "luke-iha":         ["cardinal-mason", "harry-dry", "alen-sultanic"],
+    "ward-farnsworth":  ["david-deutsch", "nicolas-cole", "mitch-albom"],
+    "joanna-wiebe":     ["cardinal-mason", "harry-dry"],
+
+    # Domain 2 — Content Strategy & Viral (Top-of-Funnel)
     "kallaway":         ["seena-rez", "shaan-puri"],
-    "shaan-puri":       ["lucas-alpay", "kallaway"],
-    "samuel-thompson":  ["monk-ai", "seena-rez"],
-    "monk-ai":          ["samuel-thompson", "sabri-suby"],
+    "seena-rez":        ["kallaway", "shaan-puri"],
+    "shaan-puri":       ["kallaway", "lucas-alpay", "mitch-albom"],
+    "jun-yuh":          ["kallaway", "lara-acosta", "dan-koe"],
+    "brock-johnson":    ["kallaway", "shaan-puri", "seena-rez"],
+    "grace-andrews":    ["dan-koe", "tyler-denk"],
+
+    # Domain 3 — Personal Brand
+    "lara-acosta":      ["tom-noske", "jasmin-alic", "josh-sanders"],
+    "tom-noske":        ["lara-acosta", "caleb-ralston", "dan-koe"],
+    "caleb-ralston":    ["tom-noske", "lara-acosta", "dan-koe"],
+    "omar-eddaoudi":    ["erica-mallet", "oren", "daniel-priestley"],
+    "erica-mallet":     ["tom-noske", "seth-godin", "lara-acosta"],
+    "josh-sanders":     ["lara-acosta", "jasmin-alic", "tom-noske"],
+    "dan-koe":          ["jun-yuh", "caleb-ralston", "tom-noske"],
+    "tommy-clark":      ["lara-acosta", "caleb-ralston", "josh-sanders"],
+    "jasmin-alic":      ["lara-acosta", "josh-sanders", "jun-yuh"],
+    "omar-eltakrori":   ["monk-ai", "daniel-priestley"],
+
+    # Domain 4 — Sales & Persuasion
     "jeremy-miner":     ["alen-sultanic", "michael-bernoff"],
+    "michael-bernoff":  ["jeremy-miner", "david-mcraney"],
+    "lindsay":          ["monk-ai", "nate-herk"],
+    "ai-chris-lee":     ["luke-iha", "cardinal-mason"],
+    "nate-herk":        ["lindsay", "monk-ai"],
+    "jason-fladlien":   ["jeremy-miner", "alen-sultanic", "tobias-allen"],
+    "david-mcraney":    ["michael-bernoff", "tobias-allen"],
+    "tobias-allen":     ["cardinal-mason", "alen-sultanic", "david-mcraney"],
+
+    # Domain 5 — Consumer Research
+    "dai-media":        ["kallaway", "rory-sutherland"],
+    "samuel-thompson":  ["monk-ai", "dai-media"],
+    "rory-sutherland":  ["jim-oshaughnessy", "samuel-thompson"],
+
+    # Domain 6 — AI & Automation
+    "nick-saraev":      ["boris", "sherwin-wu"],
+    "boris":            ["nick-saraev", "sherwin-wu"],
+    "rachel-woods":     ["boris", "nick-saraev"],
+    "sherwin-wu":       ["nick-saraev", "boris"],
+    "futurepedia":      ["nate-b-jones"],
+    "nate-b-jones":     ["futurepedia", "nick-saraev"],
+    "darrel-wilson":    ["paul-james", "monk-ai"],
+    "andrew-wilkinson": ["logan-kilpatrick", "nick-saraev"],
+
+    # Domain 7 — Writing & Storytelling
+    "dan-wang":         ["fareed-zakaria", "mitch-albom", "jonathan-franzen"],
+    "jonathan-franzen": ["mitch-albom", "lucas-alpay", "ocean-vuong"],
+    "lucas-alpay":      ["shaan-puri", "jonathan-franzen", "mitch-albom"],
+    "fareed-zakaria":   ["dan-wang", "jim-oshaughnessy"],
+    "robert-mack":      ["shaan-puri", "lucas-alpay"],
+    "ocean-vuong":      ["jonathan-franzen", "mitch-albom", "nicolas-cole"],
+
+    # Domain 8 — Products & Monetization
+    "monk-ai":          ["samuel-thompson", "sabri-suby"],
+    "stockton-walbeck": ["samuel-thompson", "monk-ai"],
+    "sabrina-ramonov":  ["paul-james"],
+    "paul-james":       ["darrel-wilson", "monk-ai"],
+    "vincent-hu":       ["monk-ai", "daniel-priestley", "omar-eltakrori"],
+
+    # Domain 9 — SEO & Search
     "nathan-gotch":     ["adam-enfroy"],
     "adam-enfroy":      ["nathan-gotch"],
-    "oren":             ["kittl", "tom-noske"],
+
+    # Domain 10 — Design & Web
+    "oren":             ["kittl", "alex-copper"],
+    "kittl":            ["oren", "alex-copper"],
+    "andy-lo":          ["sean-kochel"],
+    "sean-kochel":      ["andy-lo", "alex-copper"],
+    "alex-copper":      ["oren", "kittl"],
+
+    # Domain 11 — Video & Media
+    "tao-prompts":      ["pj-accetturo"],
+    "pj-accetturo":     ["tao-prompts", "seena-rez"],
+
+    # Domain 12 — Strategy & Business Architecture
     "jim-oshaughnessy": ["rory-sutherland"],
+    "april-dunford":    ["daniel-priestley", "monk-ai"],
+    "daniel-priestley": ["april-dunford", "monk-ai"],
+    "marc-andreessen":  ["jim-oshaughnessy"],
+    "manus-ai":         ["jim-oshaughnessy", "dai-media"],
     "lulu-cheng-meservey": ["donald-miller", "lara-acosta"],
+
+    # Domain 13 — Audience & Growth
+    "tyler-denk":       ["daniel-priestley", "dan-koe", "grace-andrews"],
+    "ali-abdaal":       ["michael-bernoff", "jeremy-haynes"],
+    "seth-godin":       ["erica-mallet", "tyler-denk"],
+
+    # Domain 14 — Mindset, Messaging & Consciousness
+    "jeremy-haynes":    ["michael-bernoff", "david-mcraney"],
+    "david-bayer":      ["michael-bernoff", "jeremy-haynes"],
+    "donald-miller":    ["heath-brothers", "lulu-cheng-meservey"],
+    "heath-brothers":   ["donald-miller", "seth-godin"],
+    "joscha-bach":      ["michael-bernoff", "jim-oshaughnessy"],
+
+    # Domain 15 — Industry-Specific
+    "joshua-smith":     ["enrico-incarnati"],
+    "enrico-incarnati": ["joshua-smith", "lara-acosta"],
+    "sabri-suby":       ["cardinal-mason", "alen-sultanic"],
 }
 
 # Minimum output length (characters) below which we treat as a thin-output failure
