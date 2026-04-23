@@ -2,9 +2,17 @@
 description: Contextual skill recommendation
 ---
 
-# /recommend — Autonomous Orchestration Engine
+# /recommend — System Intelligence Advisor
 
-Analyze what Farrice is currently working on and deploy the exact right experts, workflows, and execution chains — then offer to execute immediately. This engine uses predictive intent, awareness classification, emotional subtext detection, prerequisite intelligence, and revenue proximity scoring to produce world-class recommendations.
+Analyze what Farrice is currently working on — or thinking about — and **recommend** the best approach, experts, workflows, and execution paths from the entire Antigravity system. This is his universal "what should I do?" command.
+
+> **CRITICAL BEHAVIORAL RULE**: This workflow is an **advisor**, not an executor. Your job is to **present a strategic recommendation and wait for Farrice to choose**. Do NOT start loading experts, running workflows, generating content, or executing anything until he explicitly says to proceed. Think of yourself as a strategist presenting options at a whiteboard, not a soldier running into battle.
+
+This engine uses predictive intent, awareness classification, emotional subtext detection, prerequisite intelligence, and revenue proximity scoring to produce world-class recommendations. It works equally well for:
+- **Task-oriented requests**: "I need to write a sales page"
+- **Raw context dumps**: "Here's what I'm dealing with... what's the best approach?"
+- **Planning & strategy**: "I want to figure out my next move"
+- **System navigation**: "What tools do we have for X?"
 
 ## Usage
 
@@ -26,20 +34,24 @@ Examples:
 
 ### 0. Most-Aware Bypass Check
 
-**Before anything else**, check if the user already knows exactly what they want:
+**Only bypass** if the user explicitly names a specific `/workflow` or `@expert` in their query — meaning they literally typed a slash command or @mention.
 
-If the query contains explicit workflow/expert references (e.g., "run /proof-copy-engine", "use @david-deutsch", "deploy /storybrand"), **skip the entire recommendation engine** and go straight to execution:
+Examples that trigger bypass:
+- "Run /proof-copy-engine on my draft" → has explicit `/command`
+- "Load @david-deutsch" → has explicit `@expert`
+- "Deploy /storybrand for my coaching brand" → has explicit `/command`
 
-> "You know exactly what you need. Loading @[expert] and deploying /[workflow] now. Give me [any needed inputs]."
+Examples that do **NOT** trigger bypass (these need full recommendation):
+- "I want to write better copy" → no explicit command
+- "How should I approach building my brand?" → strategic question  
+- "I need to figure out my pricing" → raw context dump
+- "Run me through what we have for content strategy" → asking for system overview, not a specific command
 
-Detect via pattern: query starts with "run", "deploy", "execute", "load", "use", "do", "start" followed by a `/command` or `@expert` reference. If in doubt:
+If bypassed, still confirm before executing:
 
-// turbo
-```bash
-python3 execution/expert_router.py awareness "[user's query]"
-```
+> "You're calling for `/[workflow]` specifically. Want me to go ahead, or would you like to see alternative approaches first?"
 
-If result = `MOST_AWARE` with `instant_execution` routing → bypass. Otherwise continue.
+**If in doubt, do NOT bypass. Continue to Step 1.**
 
 ---
 
@@ -324,23 +336,32 @@ Revenue Distance: [lowest distance in chain] — [label]
 
 ---
 
-### 10. Offer Immediate Execution
+### 10. Present & Wait
 
-Don't just recommend — offer to **DO it**:
+After presenting the recommendation, **stop and wait for Farrice to direct next steps**. End with a clear menu of what he can do:
 
-> "Want me to deploy this now? I'll load the expert context, embody the methodology, and produce the deliverable. Just give me [any needed inputs]."
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-If the task is suitable for a swarm (3+ experts needed):
+What would you like to do?
 
-> "This is a swarm candidate. I can deploy @[agent-1], @[agent-2], and @[agent-3] simultaneously. Want me to run `/swarm` on this?"
+  A. Execute the primary recommendation now
+  B. See alternative approaches
+  C. Adjust the scope or intent
+  D. Just needed the map — I'll take it from here
 
-If handoff chains apply:
+[If swarm candidate:]
+  S. Deploy as a swarm (3+ experts simultaneously)
 
-> "This is a multi-step mission. Recommended chain: @[expert-1] → @[expert-2] → @[expert-3]. Want me to run `/campaign` or `/strike` to coordinate?"
+[If chain detected:]
+  M. Run as a multi-step mission (/campaign or /strike)
+```
 
 If emotional subtext was detected but overridden:
 
 > "You overrode the emotional gate. That's fine — but if you hit a wall during execution, circle back to @[pre_expert] for Phase 1 processing."
+
+**NEVER start executing without explicit user direction.** The recommendation IS the deliverable. Execution is a separate step that the user initiates.
 
 ---
 
