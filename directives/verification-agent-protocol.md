@@ -67,6 +67,42 @@ You have three failure patterns to guard against:
 - **Proper noun check**: Every person, company, product, artist, or named entity — verify it exists and is described correctly. "Nine Inch Noize is a heavy electronic act" when it's actually NIN + Boys Noize = the kind of error that destroys trust.
 - **Policy/rule check**: Any claim about what's allowed, banned, required, or costs money — verify against the official source, not a third-party summary. Third-party summaries paraphrase and introduce errors.
 - **Contradiction scan**: If two sources disagree, flag the contradiction and present both — don't pick the one that sounds better.
+- **Internal consistency scan (added 2026-04-23)**: Before delivery, check whether two of your own outputs in this session contradict each other. If file A says "Gemini 3.1 Pro-backed" and file B says "Gemini 2.5 Pro," one of them is wrong. Origin: Gemini 2.5 vs 3.1 naming error where both claims coexisted in session context but no mechanism forced a cross-check.
+
+### Freshness Tax (added 2026-04-23 — mechanical enforcement via hookify)
+
+**Any of these claim categories MUST fire verification before delivery.** Non-optional. Not willpower-gated. The `.claude/hookify.freshness-tax.local.md` hook mechanically blocks session end when these patterns appear without verification evidence.
+
+| Category | Examples | Must verify against |
+|---|---|---|
+| **Model names + versions** | `Gemini 3.1 Pro`, `Claude Opus 4.7`, `GPT-5`, `Sonnet 4.6` | Primary source fetched THIS SESSION (not memory). Model lineups change monthly. |
+| **Pricing** | `$20/mo`, `$249.99/month`, `$0.05 per query`, `$100 Cloud credits` | Official pricing page with date stamp. |
+| **Dates / "as of" claims** | `as of April 2026`, `launched Dec 2025`, `released last week` | Primary source + confirm the date is actually current. |
+| **Status claims** | `beta`, `GA`, `preview`, `deprecated`, `early access`, `public API`, `trusted testers only` | Official announcement or changelog. |
+| **Benchmark numbers** | `93.3% on DeepSearchQA`, `top quartile`, `outperforms X` | Original benchmark source, not a summary article. |
+| **Superlatives** | `latest`, `newest`, `state-of-the-art`, `most advanced`, `current` | Force yourself to name the primary source. If you can't, remove the superlative. |
+
+**How to satisfy the Freshness Tax** (any ONE of these closes the hook):
+
+1. **Verified live this session** — ran `/deep-research-gemini`, `/grounding-pass`, or `WebFetch` against a primary source dated within 30 days. Cite the URL.
+2. **Confidence labels applied** — every freshness-sensitive claim in the deliverable is tagged `[VERIFIED]`, `[LIKELY]`, or `[UNCONFIRMED]` with explicit reasoning for the label.
+3. **No factual claims** — the deliverable is purely creative/strategic with no version/price/date assertions.
+4. **Explicitly flagged to user** — you told the user these claims are unverified and why (matches the `Say I don't know` memory rule).
+
+**Why this exists**: The system has failed this exact class of check repeatedly — Coachella 2026 family plan (6+ factual errors), Gemini 2.5 vs 3.1 naming (today), Parallax Edition 02 fabrications. Every failure had the same shape: research → compile → polish → deliver → user catches. Verification was willpower-gated. The hook moves it into the harness layer where it runs regardless of my state. State + mechanical enforcement beats discipline every time.
+
+### Source Hierarchy for Factual Verification
+
+When checking a claim, prefer sources in this order — each has different strengths:
+
+1. **Primary source** (official website, documentation, authoritative org). Always highest priority. No API needed, use WebFetch.
+2. **Recall** (3,038 saved cards — extractions, transcripts, prior research). Free, zero-latency. Use `mcp__recall__search` to check if claim is grounded in your own knowledge base. Often catches claims that external search misses because Recall indexes long-form expert content.
+3. **Deep Research / Deep Research Max** (Gemini Interactions API). Highest-accuracy external research (93.3% DeepSearchQA for Max). Use `/deep-research-gemini` or `execution/deep_research_client.py` for foundation-level verification. Budget-safe: Ultra-covered with $10 prepaid ceiling. See `directives/google-api-usage-policy.md`.
+4. **Perplexity sonar-deep-research** (via `perplexity_client.py`). Proven track record, $30/mo budget, fast. Preferred when Deep Research budget is low or rate-limited.
+5. **Perplexity sonar-pro** (via `perplexity_client.py`). Tier 2 validation, fact-check, trend verification.
+6. **Web search** (search_web + read_url_content). Fallback when budgeted tools exhausted. Only as last resort because raw search results can be wrong/paraphrased.
+
+**Fallback chain**: Deep Research → Perplexity sonar-deep-research → Perplexity sonar-pro → web search. Tag the output with which source actually ran if a fallback fired.
 
 ---
 
@@ -188,3 +224,9 @@ The same agent can hold both, but you must _switch modes_ between Step 5 and Ste
 | **30-Day Review Date** | 2026-05-01 |
 
 *Created: 2026-04-01 | Adapted from Claude Code verification agent architecture*
+
+---
+
+## Cross-Reference: /parallax Phase 2.5
+
+For Parallax Substack editions, verification is front-loaded into Phase 2.5 GROUND + ZEITGEIST CHECK (`.agent/workflows/parallax.md`) — claim extraction + Recall/Perplexity routing + zeitgeist scan runs BEFORE drafting, not between production and finalize. This prevents fabrications from entering the draft in the first place rather than catching them at Step 5.5. Phase 2.5 uses the same claim-category taxonomy (PERSON/BRAND/EVENT/STAT/QUOTE/CULTURAL/TECHNICAL/PERSONAL) documented here, with an added PERSONAL category for inner-circle facts that bypass external verification.

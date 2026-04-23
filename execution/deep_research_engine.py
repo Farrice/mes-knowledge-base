@@ -2,10 +2,12 @@
 """
 Deep Research Engine — Universal grounded research for all Antigravity workflows.
 
-Three depth levels:
+Four depth levels:
   - Quick:    3-5 web searches, summarize. Free. ~15-30s.
   - Standard: 10-15 web searches + read top pages + Perplexity synthesis. ~$0.04. ~1-3min.
   - Deep:     sonar-deep-research + wide search + full page reads. ~$0.50-0.75. ~3-8min.
+  - Max:      Gemini Deep Research Max (autonomous multi-step agent). Ultra-covered. ~3-10min.
+              See directives/google-api-usage-policy.md for billing safety architecture.
 
 Every finding MUST have a source URL. No source = not grounded = gets flagged.
 
@@ -393,12 +395,15 @@ class ResearchEngine:
     Universal research engine with depth-controlled grounding.
 
     Uses search_web + read_url_content for free research,
-    perplexity_client for premium research when budget allows.
+    perplexity_client for premium research when budget allows,
+    deep_research_client (Gemini) for max-tier research when Ultra-linked.
     """
 
     def __init__(self):
         self.perplexity_client = None
+        self.deep_research_client = None
         self._init_perplexity()
+        self._init_deep_research()
 
     def _init_perplexity(self):
         """Try to initialize the Perplexity client. Fails gracefully."""
@@ -407,6 +412,18 @@ class ResearchEngine:
             self.perplexity_client = PerplexityClient()
         except Exception:
             self.perplexity_client = None
+
+    def _init_deep_research(self):
+        """Try to initialize the Gemini Deep Research client. Fails gracefully.
+
+        Requires GOOGLE_AI_STUDIO_KEY (Ultra-linked AI Studio key).
+        See directives/google-api-usage-policy.md.
+        """
+        try:
+            from deep_research_client import DeepResearchClient
+            self.deep_research_client = DeepResearchClient()
+        except Exception:
+            self.deep_research_client = None
 
     # ----- Public API -----
 
@@ -431,8 +448,10 @@ class ResearchEngine:
             result = self._research_standard(query)
         elif depth == "deep":
             result = self._research_deep(query)
+        elif depth == "max":
+            result = self._research_max(query)
         else:
-            raise ValueError(f"Unknown depth: {depth}. Use 'quick', 'standard', or 'deep'.")
+            raise ValueError(f"Unknown depth: {depth}. Use 'quick', 'standard', 'deep', or 'max'.")
 
         result.duration_seconds = round(time.monotonic() - start, 2)
         result.quality_score = self._score_quality(result)
@@ -627,6 +646,101 @@ class ResearchEngine:
             result.synthesis = self._quick_synthesize(query, result.findings)
 
         return result
+
+    def _research_max(self, query: str) -> ResearchResult:
+        """Max research: Gemini Deep Research Max + fallback to _research_deep if unavailable.
+
+        Uses the Interactions API — autonomous multi-step research with Google Search
+        grounding, URL Context, and synthesis. Highest accuracy tier (93.3% DeepSearchQA).
+
+        Billing: Ultra subscription should cover most calls at $0. Prepaid $10 ceiling
+        prevents any overspend. See directives/google-api-usage-policy.md.
+        """
+        print(f"  🚀 Max research (Gemini Deep Research Max): {query}")
+
+        result = ResearchResult(query=query, depth="max")
+
+        # Guardrail: if Deep Research client didn't initialize, fall back to deep
+        if self.deep_research_client is None:
+            print("  ⚠️  Deep Research client unavailable. Falling back to _research_deep (Perplexity).")
+            fallback = self._research_deep(query)
+            fallback.depth = "max (fallback → deep)"
+            return fallback
+
+        # Attempt Deep Research Max
+        try:
+            dr_result = self.deep_research_client.research(
+                query,
+                mode="max",
+                task_context="research-engine-max",
+                query_type="research",
+            )
+        except Exception as e:
+            # Any error from Deep Research → graceful fallback, tagged
+            print(f"  ⚠️  Deep Research Max failed: {e}. Falling back to _research_deep.")
+            fallback = self._research_deep(query)
+            fallback.depth = "max (fallback → deep)"
+            return fallback
+
+        # Parse Deep Research output into ResearchFindings
+        findings = self._parse_deep_research_response(
+            dr_result.text, dr_result.citations
+        )
+
+        # Optional: supplement with the existing wide-search layer for extra coverage
+        sub_questions = self.decompose(query)
+        result.sub_questions = sub_questions
+
+        result.findings = self._deduplicate_findings(findings)
+        result.contradictions = self._detect_contradictions(result.findings)
+        result.source_count = len(result.findings)
+        result.unique_domains = len(set(f.source_domain for f in result.findings))
+        result.synthesis = dr_result.text
+        result.estimated_cost = dr_result.estimated_cost
+
+        return result
+
+    def _parse_deep_research_response(
+        self, text: str, citations: List[str]
+    ) -> List[ResearchFinding]:
+        """Parse a Deep Research Interactions API response into ResearchFindings.
+
+        Deep Research returns a long synthesized report with embedded citations.
+        We split by paragraph and attach citations using the same pattern as
+        _parse_perplexity_response.
+        """
+        findings = []
+        paragraphs = [p.strip() for p in text.split("\n") if p.strip() and len(p.strip()) > 30]
+
+        for i, para in enumerate(paragraphs):
+            # Match numeric citations like [1], [2]
+            citation_idx = None
+            citation_match = re.search(r"\[(\d+)\]", para)
+            if citation_match:
+                idx = int(citation_match.group(1)) - 1
+                if 0 <= idx < len(citations):
+                    citation_idx = idx
+
+            source_url = citations[citation_idx] if citation_idx is not None else (
+                citations[min(i, len(citations) - 1)] if citations else ""
+            )
+
+            confidence = "high" if citation_idx is not None else "medium"
+            finding_type = "data"
+            if '"' in para:
+                finding_type = "quote"
+            elif any(c in para for c in ["$", "%", "billion", "million"]):
+                finding_type = "statistic"
+
+            findings.append(ResearchFinding(
+                claim=re.sub(r"\[\d+\]", "", para).strip(),
+                source_url=source_url,
+                excerpt=para[:300],
+                confidence=confidence,
+                finding_type=finding_type,
+            ))
+
+        return findings
 
     # ----- Internal: Search & Extract -----
 
@@ -967,8 +1081,8 @@ def main():
     )
     parser.add_argument("query", help="The research question")
     parser.add_argument(
-        "--depth", choices=["quick", "standard", "deep"], default="standard",
-        help="Research depth level (default: standard)"
+        "--depth", choices=["quick", "standard", "deep", "max"], default="standard",
+        help="Research depth level (default: standard). 'max' uses Gemini Deep Research Max."
     )
     parser.add_argument(
         "--decompose-only", action="store_true",

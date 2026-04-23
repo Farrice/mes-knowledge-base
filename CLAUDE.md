@@ -211,6 +211,20 @@ Quick answers, system commands, file organization, and conversations do NOT requ
 
 If the user invokes a workflow name from `SLASH_COMMANDS.md` — as `/command`, `@command`, "run command", or bare name — read `.agent/workflows/[command].md` and execute. The workflow incorporates the chain internally. Full list: `SLASH_COMMANDS.md`.
 
+### Mandatory Workflow Routing (Domain → Workflow Bindings)
+
+Some domains have dedicated production workflows. If the user's task matches the domain, deploy the bound workflow **even if the user names a different workflow in their prompt**. Override literal ask with correct routing.
+
+| Domain signal | Mandatory workflow | Never substitute |
+|---|---|---|
+| Parallax Substack editions, "parallax edition", "next substack", parallax prompt packs | `/parallax` | `writers-room` (diagnostic-on-draft, not production-from-raw-take) |
+| LinkedIn post production from scratch | `/ghostwrite` or Lara Acosta skill | `writers-room` (for refinement only) |
+| Writers' room refinement of an existing draft | `writers-room` | `/parallax` or other production workflows |
+
+**Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
+
+**Phase 2.5 GROUND + ZEITGEIST CHECK is non-optional for Parallax Editions 02+.** After raw-take capture (Phase 2) and before drafting (Phase 3), `/parallax` runs claim extraction, budget-tiered verification (Recall → Perplexity), zeitgeist scan, and a halt/proceed gate. This exists because Edition 02 shipped with 7 fabrications that slipped past mechanical audits (Madeon as unknown DJ, wrong day, invented distance, song-age math, etc.). The only way to skip is an explicit `--no-ground` flag, which should only be used when the edition has zero external factual surface (pure memoir with no public figures, events, brands, or stats). Full protocol in `.agent/workflows/parallax.md` Phase 2.5.
+
 ---
 
 ## Architecture (3-Layer)
@@ -279,9 +293,13 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | **Revenue Tracking** | **After client delivery** | **`execution/revenue_tracker.py` — connect quality to outcomes** |
 
 ### Budget-Gated (check before calling)
+
+**Research priority order (2026-04-23 — Gemini primary)**: Foundation/Standard/Deep research → Gemini Deep Research FIRST (`/deep-research-gemini`). Perplexity is fallback + quick-facts only. See `directives/research-protocol.md` for the full priority matrix.
+
 | Protocol | Directive | Gate |
 |----------|-----------|------|
-| Perplexity | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json` |
+| **Deep Research (Gemini) — PRIMARY** | `directives/google-api-usage-policy.md` | 3-layer defense: Ultra covers AI Studio (primary) + pay-as-you-go explicitly OFF + $10 prepaid ceiling. Track in `.agent/gemini-api-usage.json`. Invoked via `/deep-research-gemini` or `execution/deep_research_client.py`. Max possible spend: $10. **Use this first for any foundation/strategic research.** |
+| Perplexity — FALLBACK + quick facts | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json`. Fires automatically when Gemini Deep Research unavailable. Also for single-claim fact checks via sonar-pro/ask. |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 | Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
 
