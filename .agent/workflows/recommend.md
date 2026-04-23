@@ -4,386 +4,211 @@ description: Contextual skill recommendation
 
 # /recommend — System Intelligence Advisor
 
-Analyze what Farrice is currently working on — or thinking about — and **recommend** the best approach, experts, workflows, and execution paths from the entire Antigravity system. This is his universal "what should I do?" command.
+Analyze what Farrice is working on — or thinking about — and **recommend** the best approach, experts, workflows, and execution paths from the entire Antigravity system. His universal "what should I do?" command.
 
-> **CRITICAL BEHAVIORAL RULE**: This workflow is an **advisor**, not an executor. Your job is to **present a strategic recommendation and wait for Farrice to choose**. Do NOT start loading experts, running workflows, generating content, or executing anything until he explicitly says to proceed. Think of yourself as a strategist presenting options at a whiteboard, not a soldier running into battle.
+> **CRITICAL**: This is an **advisor**, not an executor. Present a strategic recommendation and **wait for Farrice to choose**. Do NOT load experts, run workflows, or generate content until he explicitly says to proceed.
 
-This engine uses predictive intent, awareness classification, emotional subtext detection, prerequisite intelligence, and revenue proximity scoring to produce world-class recommendations. It works equally well for:
-- **Task-oriented requests**: "I need to write a sales page"
-- **Raw context dumps**: "Here's what I'm dealing with... what's the best approach?"
-- **Planning & strategy**: "I want to figure out my next move"
-- **System navigation**: "What tools do we have for X?"
+Works for task requests, raw context dumps, planning questions, and system navigation.
 
 ## Usage
 
 ```
-/recommend [describe what you're working on or trying to accomplish]
-/recommend --discovery  (interactive narrowing mode)
+/recommend [what you're working on or trying to accomplish]
+/recommend --discovery  (interactive narrowing)
 ```
-
-Examples:
-- `/recommend I'm writing a sales page for my coaching offer`
-- `/recommend I need to figure out my first product to launch`
-- `/recommend I'm stuck on my LinkedIn content strategy`
-- `/recommend I want to build an agent that does X`
-- `/recommend --discovery` (I don't know what I need)
 
 ---
 
 ## Steps
 
-### 0. Most-Aware Bypass Check
+### 0. Bypass Check
 
-**Only bypass** if the user explicitly names a specific `/workflow` or `@expert` in their query — meaning they literally typed a slash command or @mention.
+**Only bypass** if the query contains a literal `/command` or `@expert` reference (e.g., "Run /proof-copy-engine", "Load @david-deutsch"). Natural language like "I want to write better copy" is NOT a bypass — it needs the full recommendation. If in doubt, don't bypass.
 
-Examples that trigger bypass:
-- "Run /proof-copy-engine on my draft" → has explicit `/command`
-- "Load @david-deutsch" → has explicit `@expert`
-- "Deploy /storybrand for my coaching brand" → has explicit `/command`
-
-Examples that do **NOT** trigger bypass (these need full recommendation):
-- "I want to write better copy" → no explicit command
-- "How should I approach building my brand?" → strategic question  
-- "I need to figure out my pricing" → raw context dump
-- "Run me through what we have for content strategy" → asking for system overview, not a specific command
-
-If bypassed, still confirm before executing:
-
-> "You're calling for `/[workflow]` specifically. Want me to go ahead, or would you like to see alternative approaches first?"
-
-**If in doubt, do NOT bypass. Continue to Step 1.**
+If bypassed, confirm: "You're calling for `/[workflow]`. Want me to go ahead, or see alternatives first?"
 
 ---
 
-### 1. Anti-Hoarding Recall (Capability Check)
+### 1. Anti-Hoarding Recall
 
-Before recommending new work, check if Farrice already has deployed assets for this:
+Check if Farrice already has deployed assets for this:
 
 // turbo
 ```bash
 python3 execution/memory_store.py search "[user's query]" 2>/dev/null || echo "No memory hits"
 ```
 
-Also mentally scan: Has this exact expert/workflow combination been used in a recent session? If so:
-
-```
-🔄 CAPABILITY RECALL
-You already have this:
-- @[expert-name] + /[workflow] (used [N]x)
-- Deliverable: [description] (conversation [id])
-→ Want me to re-run with updates, or are you looking for something different?
-```
-
-This is the antidote to the "1,000 extractions, forgot to use them" pattern. The system remembers so Farrice doesn't have to.
-
-**If the user confirms they want the existing asset**: Load and re-deploy. **Skip remaining steps.**
-**If the user wants something different**: Continue to Step 2.
+If a match exists, surface it: "You already have @[expert] + /[workflow] — want to re-run it, or looking for something different?" If re-running, skip remaining steps.
 
 ---
 
-### 2. Intelligence Diagnostic (Pre-Routing)
-
-Run the full intelligence diagnostic to classify the query before routing:
+### 2. Intelligence Diagnostic
 
 // turbo
 ```bash
 python3 execution/expert_router.py diagnose "[user's query]"
 ```
 
-This produces three intelligence layers simultaneously:
-- **Awareness Stage**: Where the user is in their journey (Unaware → Most Aware)
-- **Emotional Subtext**: Hidden emotional states disguised as tactical questions
-- **Revenue Proximity**: How close matched experts are to income generation
+This produces **awareness stage**, **emotional subtext**, and **revenue proximity** simultaneously. Apply these rules:
 
-**Read the output and apply these routing rules:**
+**Awareness routing:**
+- **Unaware** → Jump to Step 3 (Discovery Mode)
+- **Problem Aware** → Prioritize diagnostic/audit workflows
+- **Solution Aware** → Standard routing (Step 4)
+- **Product Aware** → Comparison mode — show side-by-side capabilities
+- **Most Aware** → Should have been caught in Step 0
 
-#### Awareness-Based Routing
-
-| Stage | Routing Behavior |
-|-------|-----------------|
-| **Unaware** | Jump to Step 3 (Discovery Mode) |
-| **Problem Aware** | Prioritize diagnostic/audit workflows first |
-| **Solution Aware** | Standard routing (continue to Step 4) |
-| **Product Aware** | Switch to comparison mode — show side-by-side expert capabilities |
-| **Most Aware** | Should have been caught in Step 0 — execute immediately |
-
-#### Emotional Subtext Gate
-
-If the diagnostic detects emotional subtext, the recommendation becomes a **two-phase protocol**:
-
+**Emotional subtext detected?** Present a two-phase protocol:
 ```
-⚠️ EMOTIONAL INTELLIGENCE GATE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-I notice [matched patterns]. Before we deploy tactical expertise,
-let's process this first:
-
-Phase 1: @[pre_expert] → /[pre_workflow]
-  → [message — why this comes first]
-
-Phase 2: THEN your tactical request
-  → [original expert/workflow recommendation]
-
-This sequence matters. [Expert source] found that emotional processing
-must precede cognitive change for lasting results.
-
-Want to start with Phase 1, or override and go straight to tactical?
+⚠️ EMOTIONAL GATE: I notice [patterns]. Recommended sequence:
+Phase 1: @[pre_expert] → /[pre_workflow] (process first)
+Phase 2: THEN your tactical request → [recommendation]
+Want Phase 1 first, or override to tactical?
 ```
-
-**Hard rule**: Never suppress the emotional gate. Always surface it. The user can override, but we always flag it.
+Never suppress the gate. User can override, but always flag it.
 
 ---
 
-### 3. Discovery Mode (Interactive Narrowing)
+### 3. Discovery Mode
 
-**Trigger**: User says `/recommend --discovery`, query is too vague (Awareness = `unaware`), or the router returns zero matches.
+**Trigger**: `--discovery` flag, vague query (Awareness = unaware), or zero router matches.
 
-Instead of asking "what do you want?", use the **Intent Signal Field** (Nate B. Jones) to generate a prediction:
-
+Use the **Intent Signal Field** to predict rather than interrogate:
 ```
-🔍 DISCOVERY MODE — Predictive Intent
-
-Based on [what I observed], here's what I think you need:
-
-📌 Prediction: [Predicted deliverable/workflow]
-   Why I think this: [Signal evidence — emphasis, omission, contradiction]
-
-Is this close? Tell me what's wrong with my prediction, and I'll
-sharpen it in one correction round.
-
-If you're truly blank, quick diagnostic:
-
-1. What are you trying to produce?
-   □ Written content (copy, posts, scripts, emails)
-   □ A strategy or plan (business, brand, launch)
-   □ A product or offer (digital product, service, funnel)
-   □ Clarity on a decision (what to do, which path, priorities)
-   □ Something else: ___
-
-2. Where are you in the process?
-   □ Starting from zero — I need direction
-   □ I have a rough idea — I need a framework
-   □ I have a draft — I need to improve it
-   □ I'm blocked — something's stopping me
-
-3. What's the emotional temperature?
-   □ Energized — I'm ready to build
-   □ Overwhelmed — too many options
-   □ Stuck — I can't move forward
-   □ Frustrated — something isn't working
+🔍 DISCOVERY MODE
+Prediction: [predicted deliverable] — Why: [signal evidence]
+Is this close? One correction round to sharpen.
 ```
 
-Based on answers, re-run Steps 4-7 with a sharpened query. If emotional temperature is "Stuck" or "Overwhelmed", trigger the Emotional Subtext Gate from Step 2.
+If truly blank, offer quick 3-question diagnostic: (1) What to produce? (2) Where in process? (3) Emotional temperature? Then re-run Steps 4-6 with sharpened query.
 
 ---
 
-### 4. Layer 1: Expert Match (Intelligent Routing)
+### 4. Four-Layer Search
+
+Run all four in parallel:
 
 // turbo
-Run the expert router with synonym expansion:
 ```bash
 python3 execution/expert_router.py route "[user's query]" -n 5
 ```
 
-This engine:
-- Expands natural language through a 200-term synonym map
-- Scores 96 experts across 15 domains
-- Falls back to triage paths for vague queries (emotional blocks → Dr. K, decisions → Jim O'Shaughnessy, beginner → AI Chris Lee)
-
-**Capture the top 3-5 expert matches and their domains.**
-
----
-
-### 5. Layer 2: Workflow Match (Precision Commands)
-
 // turbo
-Cross-reference against the 630+ available workflows:
 ```bash
 python3 execution/workflow_router.py search "[user's query]"
 ```
 
-From the results:
-- Surface the **top 3-5 most relevant `/command` workflows**
-- Prioritize workflows that produce tangible deliverables over diagnostic/audit workflows
-- Note any workflow that belongs to a matched expert (these are highest-signal)
-
----
-
-### 6. Layer 3: Compound Detection
-
 // turbo
-Check for force-multiplier expert pairings:
 ```bash
 python3 execution/expert_router.py compounds "[user's query]"
 ```
 
-Compounds = two experts whose combined output is greater than the sum of parts. When detected, this triggers the **Mission Blueprint** in the output (Step 7).
-
----
-
-### 7. Layer 4: Context Retriever (Semantic Deep Search)
-
 // turbo
-Search the full knowledge base for relevant chunks:
 ```bash
 python3 execution/context_retriever.py search "[user's query]"
 ```
 
-This searches 3,200+ indexed chunks across all skills, agents, and genius files. Use the results to:
-- Surface **specific prompts** within a SKILL.md that match the intent
-- Identify genius-file patterns that apply to this task
-- Find prior work or methodology that's relevant but wouldn't be found by keyword matching
+Capture: top 3-5 experts, top 3-5 workflows, any compound pairings, and relevant knowledge chunks.
 
 ---
 
-### 8. Prerequisite & Revenue Check
+### 5. Prerequisite & Revenue Check
 
-For the top recommended workflows, check prerequisites and revenue distance:
+For the top recommendations:
 
 // turbo
 ```bash
-python3 execution/expert_router.py prereqs "[top recommended workflow]"
+python3 execution/expert_router.py prereqs "[top workflow]"
 ```
 
 // turbo
 ```bash
-python3 execution/expert_router.py revenue "[top expert match]"
+python3 execution/expert_router.py revenue "[top expert]"
 ```
 
-If prerequisites are detected, **automatically prepend them** to the execution chain. Do not recommend a workflow without its required precursors.
+If prerequisites exist, prepend them to the execution chain. Never recommend a workflow without its precursors.
 
 ---
 
-### 9. Produce Recommendation
+### 6. Produce Recommendation
 
-Synthesize all layers into a single actionable brief. The output format depends on complexity:
-
-#### Standard Output (Solution Aware, no compounds)
+Synthesize all layers into a single brief:
 
 ```
-🎯 SKILL DEPLOYMENT RECOMMENDATION
+🎯 RECOMMENDATION
 
 ## What You're Doing
-[Restate the task in clear terms — demonstrate you understood the real intent]
+[Restate the real intent]
 
-## Awareness Level
-[Stage] — [description of what this means for routing]
+## Awareness: [Stage] | Revenue Distance: [0-3]
 
 ## Primary Expert
-**@[expert-name]** → [specific skill/prompt to use]
-- **Why this one**: [What makes it the right tool — not just domain match, but WHY]
-- **What it produces**: [Expected deliverable]
-- **Revenue Distance**: [0-3] — [label: e.g., "Direct revenue" or "Two steps from revenue"]
+@[expert] → [specific skill/prompt] — Why: [rationale]
+Produces: [expected deliverable]
 
-## Recommended Workflows
-1. `/[workflow-1]` — [what it does] ⭐ Primary
-2. `/[workflow-2]` — [what it adds as a stacking option]
-3. `/[workflow-3]` — [quality gate or polish step]
+## Workflows
+1. /[primary] — [what it does] ⭐
+2. /[enhancer] — [what it adds]
+3. /[quality-gate] — [what it catches]
 
-## Execution Chain (Prerequisite-Aware Order)
-[If prerequisites detected:]
-⚠️ This workflow has prerequisites. Full chain:
-1. **Prerequisite**: `/[prereq-1]` → produces [output]
-2. **Prerequisite**: `/[prereq-2]` → produces [output]
-3. **Primary**: `/[main-workflow]` → produces [deliverable]
-4. **Enhance**: `/[support-workflow]` → adds [dimension]
-5. **Validate**: `/[quality-gate]` → catches [failure modes]
+## Execution Chain
+[If prereqs: list prerequisite → primary → enhance → validate]
+[If no prereqs: start → enhance → validate → deploy]
 
-[If no prerequisites:]
-1. **Start**: Deploy `/[primary-workflow]` → produces [output]
-2. **Enhance**: Run `/[support-workflow]` on the output → adds [dimension]
-3. **Validate**: Run `/[quality-gate]` → catches [failure modes]
-4. **Deploy**: [Final output step]
+## Pre-Mortem
+- Risk: [what could go wrong]
+- Reversibility: [two-way door / one-way door]
 
-## ⚠️ Pre-Mortem Check
-- **What could go wrong**: [e.g., "Running /proof-copy-engine before your offer is designed
-  will produce beautiful copy for the wrong product"]
-- **Prerequisite check**: [Already addressed above, or "All clear — no missing prerequisites"]
-- **Reversibility**: [Two-way door: can redo cheaply | One-way door: needs more validation]
+## Deep Knowledge
+📚 [Relevant chunk from genius file or methodology]
 
-## Deep Knowledge Surfaced
-📚 Context retriever found: [relevant chunk from genius file or methodology]
-→ Key insight: "[specific principle or framework that applies]"
-
-## Support Experts (Stack For Better Results)
-1. **@[expert-2]** → [what they add] (Revenue Distance: [N])
-2. **@[expert-3]** → [what they add] (Revenue Distance: [N])
+## Support Experts
+@[expert-2] → [value-add] | @[expert-3] → [value-add]
 ```
 
-#### Compound Pipeline Output (When compounds detected)
-
-When compounds are detected, replace the standard "Compound Pairing" section with a **Mission Blueprint**:
-
+**When compounds detected**, add a Mission Blueprint:
 ```
-## ⚡ MISSION BLUEPRINT: [Goal]
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-Phase 1: [ROLE]          @[expert-1] → [deliverable]
-  Handoff: [What Phase 2 receives from Phase 1]
-
-Phase 2: [ROLE]          @[expert-2] → [deliverable]  
-  Handoff: [What Phase 3 receives from Phase 2]
-
-Phase 3: [ROLE]          @[expert-3] → [deliverable]
-  Handoff: [What Phase 4 receives from Phase 3]
-
-Phase 4: [ROLE]          @[quality-gate] → [validation]
-  Handoff: Final validated output
-
-Estimated workflow count: [N] | Swarm candidate: [YES/NO]
-Revenue Distance: [lowest distance in chain] — [label]
+⚡ MISSION BLUEPRINT: [Goal]
+Phase 1: @[expert-1] → [deliverable] → handoff to Phase 2
+Phase 2: @[expert-2] → [deliverable] → handoff to Phase 3
+Phase N: @[quality-gate] → validation
+Swarm candidate: [YES/NO]
 ```
 
 ---
 
-### 10. Present & Wait
+### 7. Present & Wait
 
-After presenting the recommendation, **stop and wait for Farrice to direct next steps**. End with a clear menu of what he can do:
+End with a clear menu. **Never execute without explicit direction.**
 
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 What would you like to do?
-
-  A. Execute the primary recommendation now
+  A. Execute the primary recommendation
   B. See alternative approaches
   C. Adjust the scope or intent
   D. Just needed the map — I'll take it from here
-
-[If swarm candidate:]
-  S. Deploy as a swarm (3+ experts simultaneously)
-
-[If chain detected:]
-  M. Run as a multi-step mission (/campaign or /strike)
+  [S. Deploy as swarm | M. Run as multi-step mission]
 ```
-
-If emotional subtext was detected but overridden:
-
-> "You overrode the emotional gate. That's fine — but if you hit a wall during execution, circle back to @[pre_expert] for Phase 1 processing."
-
-**NEVER start executing without explicit user direction.** The recommendation IS the deliverable. Execution is a separate step that the user initiates.
 
 ---
 
-## Matching Priority Logic
+## Matching Priority
 
-When multiple skills could apply, prioritize:
-
-1. **Revenue proximity** — Closer to revenue beats further from revenue (tie-breaker #1, not #4)
-2. **Prerequisite completeness** — A workflow whose prerequisites are already met beats one that requires new work
-3. **Specificity** — A workflow designed for exactly this task beats a general skill
-4. **Practitioner mode** — Skills that PRODUCE the deliverable beat skills that advise on it
-5. **Compound potential** — Skills that compound with others create more value
-6. **Recency** — Recently forged or evolved skills may have deeper coverage
+1. **Revenue proximity** — closer to revenue wins
+2. **Prerequisite completeness** — already-met beats new-work-required
+3. **Specificity** — exact-fit beats general
+4. **Practitioner mode** — produces deliverable beats advises on it
+5. **Compound potential** — multiplier pairings create more value
+6. **Recency** — recently evolved skills may have deeper coverage
 
 ## Error Handling
 
 | Scenario | Action |
 |---|---|
-| Zero expert matches + zero triage | Offer Discovery Mode |
-| Expert match but no workflow match | Load that expert's SKILL.md and recommend manually |
-| All matches feel tangential | Ask one clarifying question, then re-route |
-| User says "that's not what I meant" | Switch to Discovery Mode immediately |
-| Emotional subtext + user overrides | Flag and continue, but note the override |
-| Prerequisite missing + user insists | Execute but add pre-mortem warning |
-| Memory store unavailable | Skip Anti-Hoarding gracefully, proceed with routing |
+| Zero matches | Offer Discovery Mode |
+| Expert but no workflow | Load SKILL.md, recommend manually |
+| Tangential matches | One clarifying question, re-route |
+| "That's not what I meant" | Switch to Discovery Mode |
+| Emotional override | Flag, continue, note override |
+| Missing prereq + user insists | Execute with pre-mortem warning |
+| Memory store unavailable | Skip recall, proceed with routing |
