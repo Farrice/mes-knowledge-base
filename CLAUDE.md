@@ -166,6 +166,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 ```
 **If composite < 7 or any dimension < 6**: Retry the weakest section once, then re-finalize.
 **Factual Grounding veto**: If Dimension 4 is scored (not marked N/A) and scores <6, delivery is blocked regardless of composite. A polished document with wrong facts is worse than a rough draft with right facts — because the user trusts the polish.
+**Calibrated rubric (Fix 1 / 2026-04-24)**: Score against the anchored rubric at `evolution_store/ground_truth/rubric_v1.md`. Each dimension has worked examples at 3 / 6 / 9 anchors. **If you score ≥8 on any dimension, name which anchor matches and why** — if you can't name the anchor, lower the score. The 2026-04-24 calibration check found 94-99% of recent finalize scores were 8+, which is statistically implausible and confirms grade inflation. The rubric exists to prevent this. Use `python3 execution/eval_harness.py anchor --dimension <dim> --score <n>` to look up an anchor mid-scoring.
 **This is non-negotiable.** Expert output without `finalize` is incomplete. This feeds the autoresearch loop — skipping it kills Phases 2-4.
 Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 
@@ -224,6 +225,12 @@ Some domains have dedicated production workflows. If the user's task matches the
 **Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
 
 **Phase 2.5 GROUND + ZEITGEIST CHECK is non-optional for Parallax Editions 02+.** After raw-take capture (Phase 2) and before drafting (Phase 3), `/parallax` runs claim extraction, budget-tiered verification (Recall → Perplexity), zeitgeist scan, and a halt/proceed gate. This exists because Edition 02 shipped with 7 fabrications that slipped past mechanical audits (Madeon as unknown DJ, wrong day, invented distance, song-age math, etc.). The only way to skip is an explicit `--no-ground` flag, which should only be used when the edition has zero external factual surface (pure memoir with no public figures, events, brands, or stats). Full protocol in `.agent/workflows/parallax.md` Phase 2.5.
+
+**Routing enforcement (deterministic, not advisory)**: The bindings table above is mirrored in `execution/routing_enforcer.py`. Before producing for any task that matches a binding signal, run a pre-flight check:
+```bash
+python3 execution/routing_enforcer.py check --request "<user request>" --workflow <chosen-workflow> --quiet
+```
+Non-zero exit means the chosen workflow violates a mandatory binding. Pivot to the mandatory workflow OR invoke the documented override (e.g., `--no-ground` for Parallax memoir editions). Every check is logged to `evolution_store/traces/routing_decisions.jsonl`. `chain_runner.py finalize()` also runs a post-hoc check when `--workflow` is supplied, so violations surface in the gate output even if the pre-flight was skipped. **Update both this table and `routing_enforcer.py BINDINGS` together when adding new bindings — code is the source of truth.**
 
 ---
 

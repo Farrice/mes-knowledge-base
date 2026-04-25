@@ -60,6 +60,15 @@ from checkpoint_manager import save_session_state
 from prose_classifier import classify_prose, quick_check
 from revenue_tracker import get_pipeline as get_revenue_pipeline
 
+# Routing enforcer (Fix 2 / 2026-04-24) — post-finalize observability for
+# workflow choices so we can detect drift from CLAUDE.md mandatory bindings.
+try:
+    from routing_enforcer import check_routing as _check_routing
+    from routing_enforcer import log_decision as _log_routing_decision
+    _HAS_ROUTING_ENFORCER = True
+except ImportError:
+    _HAS_ROUTING_ENFORCER = False
+
 # Evolution trace directory (v2)
 TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "v2_traces"
 
@@ -240,6 +249,17 @@ def finalize(
             result["gate_message"] = f"⚠️  QUALITY GATE MARGINAL — Composite: {composite} (below {COMPOSITE_PASS_THRESHOLD}). Consider improving weakest dimension."
     else:
         result["gate_message"] = f"✅  QUALITY GATE PASS — Composite: {composite}"
+
+    # ── Inflation guardrail (Fix 1 / 2026-04-24) ──────────────────
+    # Calibration found 94-99% of recent traces scored 8+ across all dimensions.
+    # If all 3 dims are ≥9, surface a reminder to spot-check against rubric anchors.
+    # Inflation in scoring corrupts every downstream evolution decision.
+    if intent_alignment >= 9 and expert_standard >= 9 and adversarial_resilience >= 9:
+        result["inflation_warning"] = (
+            "All 3 dimensions scored ≥9. Verify each matches the Anchor 9 worked example in "
+            "evolution_store/ground_truth/rubric_v1.md. If you can't name the anchor, lower the score. "
+            "Reference: python3 execution/eval_harness.py anchor --dimension <dim> --score 9"
+        )
 
     # ── Step 4: Regression check ─────────────────────────────────
     if skill:
@@ -492,6 +512,31 @@ def finalize(
         except Exception as e:
             result["knowledge_vault_sync"] = {"success": False, "error": str(e)}
 
+    # ── Step 11.5: Post-finalize routing trace (Fix 2 / 2026-04-24) ──
+    # Records every workflow that actually completed a chain so we can
+    # later detect drift between intended routing (routing_decisions.jsonl
+    # source=cli) and actual usage (source=post_finalize). Non-fatal.
+    if _HAS_ROUTING_ENFORCER and workflow:
+        try:
+            validation = _check_routing(output_description, workflow)
+            _log_routing_decision(
+                request=output_description,
+                chosen_workflow=workflow,
+                validation=validation,
+                source="post_finalize",
+            )
+            if not validation["valid"]:
+                # Surface as a warning in the result — don't block, just flag
+                result["routing_violation"] = {
+                    "binding": validation["binding_matched"],
+                    "matched_signal": validation["matched_signal"],
+                    "mandatory": validation["mandatory_workflow"],
+                    "chosen": workflow,
+                    "reason": validation["violation_reason"],
+                }
+        except Exception:
+            pass
+
     # ── Step 12: Revenue Tracker auto-link (Upgrade 7) ──────────
     # Passed deliverables in revenue-relevant task_types get a pending
     # outcome stub registered so `revenue_tracker pipeline` surfaces
@@ -587,6 +632,20 @@ def print_result(result: Dict) -> None:
         print(f"  Session state: ✅ Written")
     else:
         print(f"  Session state: ⚠️  Not written")
+
+    # Inflation warning (rubric calibration from Fix 1)
+    iw = result.get("inflation_warning")
+    if iw:
+        print(f"\n  ⚠️  INFLATION GUARDRAIL: {iw[:300]}")
+
+    # Routing violation (post-hoc detection from routing_enforcer)
+    rv = result.get("routing_violation")
+    if rv:
+        print(f"\n  ⚠️  ROUTING VIOLATION DETECTED")
+        print(f"     Signal:    {rv['matched_signal']!r} → binding {rv['binding']}")
+        print(f"     Mandatory: {rv['mandatory']}")
+        print(f"     Chosen:    {rv['chosen']}")
+        print(f"     {rv['reason'][:200]}{'...' if len(rv['reason']) > 200 else ''}")
 
     # Revenue tracking reminder (for client/content deliverables)
     task_type = result.get("task_type", "")

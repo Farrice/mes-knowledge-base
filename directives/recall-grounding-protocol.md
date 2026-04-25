@@ -101,19 +101,40 @@ Silent skip is mandatory. Never announce "I tried Recall but…" — it creates 
 
 ---
 
-## Logging — in Step 6 finalize
+## Logging — `recall_logger` is mandatory (Fix 5 / 2026-04-24)
 
-The `--notes` field of `finalize` should include one line about grounding:
+**Every grounding decision (fire OR skip OR fail) must be logged to `evolution_store/traces/recall_grounding.jsonl` via `execution/recall_logger.py`.** Silent skip is still the user-facing behavior, but silent in the traces is the failure mode that this fix exists to prevent — a feature you can't measure can't be tuned and can't be trusted.
 
+**Call pattern** — fire ONE of these immediately after each grounding decision:
+
+```bash
+# When grounding fired successfully
+python3 execution/recall_logger.py log --status fired \
+    --domain content --expert lara-acosta \
+    --query "Lara Acosta LinkedIn hook" \
+    --cards-returned 3 --signal high
+
+# When grounding was skipped (use canonical reasons)
+python3 execution/recall_logger.py log --status skipped \
+    --reason {disconnected|no_signal|low_signal|timeout|no_ground_flag|non_grounding_domain} \
+    --domain content --query "..."
+
+# When grounding failed mid-flight
+python3 execution/recall_logger.py log --status failed \
+    --reason timeout --domain content --query "..."
+```
+
+**Also keep the `--notes` line in `finalize` for human readability:**
 ```
 Recall grounding: {N} cards | top: "{title}" | signal: HIGH
 ```
-or
-```
-Recall grounding: skipped ({reason: no_signal | not_grounding_domain | mcp_unavailable})
+
+**Weekly correlation check** — produces a hypothesis test on whether grounding actually lifts Expert Standard scores:
+```bash
+python3 execution/recall_logger.py report --days 7
 ```
 
-This feeds the feedback ratchet — over time we learn which domains benefit most from grounding, which experts have rich vs. thin Recall coverage, and whether grounding correlates with higher Expert Standard scores.
+If after ≥30 fired-grounding sessions the lift_vs_baseline is ≤0 or near-zero, the Tier 1.5 design hypothesis is wrong and the relevance gate or query construction needs revision. Until that data exists, grounding is theoretically useful — not measurably useful.
 
 ---
 
