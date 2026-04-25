@@ -150,6 +150,7 @@
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
 | `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | personal brand business architect | 4 | 0 |
+| `oren-content-team-architecture` | **Oren — Content-Team Architecture** | content-first media company transformation, pod-based team design, marketing flywheel, paid-organic bridge, creator network management, founder content identity, signature series, multi-pod scaling, agentic commerce | 12 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | luxury psychology & premium market positioning | 3 | 9 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational systems | 3 | 7 |
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | repositioning & creative direction | 3 | 7 |
@@ -205,6 +206,7 @@
 | `tom-noske-personal-brand` | **Tom Noske Personal Brand** |  | 4 | 26 |
 | `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | linkedin founder growth | 2 | 4 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | tyler denk (audience monetization) | 2 | 4 |
+| `velocity-scaling` | **Danny Yeung — Velocity Scaling** | $0-$100m dtc scaling, cac/ltv subscription economics, celebrity equity partnerships, creative factory scaling, founder-operator velocity, guerrilla acquisition, infrastructure pivots, speed-as-moat | 18 | 7 |
 | `ward-farnsworth-rhetorical-mastery` | **Ward Farnsworth — Rhetorical Mastery** | mastery of immortal english prose and structural rhetorical patterns, rhetorical mastery | 2 | 4 |
 | `web-artifacts-builder` | **web-artifacts-builder** | suite of tools for creating elaborate, multi-component claude | 0 | 0 |
 | `webapp-testing` | **webapp-testing** |  | 0 | 0 |
