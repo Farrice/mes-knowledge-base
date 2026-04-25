@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-20 (chain_runner finalize for nate-b-jones-auto-improvement-loops) |
-| **Activation Count** | 133 |
+| **Last Activated** | 2026-04-25 (chain_runner finalize for verify) |
+| **Activation Count** | 143 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

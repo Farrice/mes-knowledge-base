@@ -101,6 +101,7 @@ Present a summary table:
 - **When reviewing old outputs** that were created before Perplexity research was available
 - **After receiving new research data** that should update existing documents
 - **Anytime a document will become a FOUNDATION** for downstream strategy or copy
+- **Note**: `/parallax` Phase 2.5 uses the same claim-tagging logic (PERSON/BRAND/EVENT/STAT/QUOTE/CULTURAL/TECHNICAL/PERSONAL) and budget-tiered Recall → Perplexity routing, specialized for Substack editions where fabrications must be caught before drafting, not after.
 
 ## Notes
 

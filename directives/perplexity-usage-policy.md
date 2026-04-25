@@ -1,5 +1,6 @@
 # Perplexity API Usage Policy
 
+> **Role (as of 2026-04-23)**: Quick facts and Gemini fallback. **Gemini Deep Research is primary** for foundation/strategic research — see `directives/google-api-usage-policy.md`.
 > **Monthly Budget: $30** | Tracked in `.agent/perplexity-usage.json` | Reset: 1st of month
 > Applies to ALL agents, workflows, and research tasks.
 
@@ -9,11 +10,15 @@
 
 | Tool | Use When |
 |------|----------|
-| **Perplexity** (MANDATORY) | Market intel, competitor analysis, social listening, trend verification, deep research, fact-checking with citations, any research-as-foundation task |
-| **Basic web search** (fallback) | Quick facts, general browsing, budget exhausted (notify user) |
-| **LLM-only** (no tool) | Creative copy, framework application, synthesis of gathered data, persona embodiment, code gen |
+| **Gemini Deep Research** (primary — see google-api-usage-policy.md) | Foundation research, strategic intelligence, any research whose output becomes the basis for decisions. Use FIRST. |
+| **Perplexity `sonar-deep-research`** (fallback only) | When Gemini Deep Research errors, hits rate limits, or prepaid is exhausted. Tag output "Perplexity fallback." |
+| **Perplexity `sonar-pro` / `ask`** (quick facts) | Single-claim fact checks, narrow citation-needed synthesis, trend verification where depth isn't needed |
+| **Basic web search** | Quick facts, general browsing, final fallback |
+| **LLM-only** (no tool) | Creative copy, framework application, synthesis of already-gathered data, persona embodiment, code gen |
 
-> **False Foundation Rule**: If LLM-generated output becomes input for downstream agents/deliverables, it MUST use Tier 1 or Tier 2 research. No building strategy on unverified projections.
+> **False Foundation Rule**: If LLM-generated output becomes input for downstream agents/deliverables, it MUST use Gemini Deep Research as primary (or Perplexity fallback if Gemini unavailable). No building strategy on unverified projections.
+
+> **Why the demotion (2026-04-23)**: Perplexity Sonar responses have proven shallow on foundation-grade research tasks — surface-level synthesis that misses the insight layer needed for strategy work. Gemini Deep Research (Dec 2025 + April 2026 Max variant, 93.3% DeepSearchQA) produces deeper multi-source analysis. Perplexity retains its role as fast fact-checker and reliable fallback.
 
 ---
 

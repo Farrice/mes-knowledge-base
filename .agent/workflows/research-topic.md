@@ -69,18 +69,24 @@ Evaluate every source against this 4-point rubric:
 - **Define 3-5 specific questions** that constitute "complete" research
 - Set the depth level and tab budget
 
-### 2. Perplexity-First Research ⚠️ MANDATORY
+### 2. Foundation Research ⚠️ MANDATORY (Gemini primary, Perplexity fallback)
 // turbo
-- **Check budget**: Read `.agent/perplexity-usage.json` for remaining budget
-- Run 1-3 **collapsed** queries using the tiered tool strategy:
-  - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — for collapsed multi-dimensional queries
-  - **Priority 2**: `search_web` (free, unlimited) — for targeted gap-filling
-  - **Priority 3**: `read_url_content` (free, unlimited) — for deep page reads from top results
+- **Depth classifier**:
+  - **Standard/Deep**: Use Gemini Deep Research (`execution/deep_research_client.py`) as primary. Perplexity sonar-deep-research is fallback.
+  - **Quick/single-claim**: Perplexity `ask` MCP is fine — it's still the fast path for citation-backed fact checks.
+- **Check budget before calling**:
+  - Gemini primary → read `.agent/gemini-api-usage.json` (prepaid must be ≥ $0.50)
+  - Perplexity fallback → read `.agent/perplexity-usage.json`
+- Run 1-3 **collapsed** queries using tiered tool strategy:
+  - **Priority 1**: Gemini Deep Research for foundation/strategic angles
+  - **Priority 2**: `mcp_perplexity-ask_perplexity_ask` (Sonar) — for quick narrow citations
+  - **Priority 3**: `search_web` (free, unlimited) — for gap-filling
+  - **Priority 4**: `read_url_content` (free, unlimited) — for deep page reads
   - Combine related questions into single prompts (The Collapsing Rule)
-- **Log each Perplexity query** to `.agent/perplexity-usage.json`
+- **Log each call** to the relevant usage file (`gemini-api-usage.json` or `perplexity-usage.json`)
 - Extract: cited facts, data points, source URLs, verbatim quotes
-- **If budget exhausted**: Proceed with `search_web` + `read_url_content` only (still produces good research)
-- **Reference**: `directives/perplexity-usage-policy.md`, `directives/research-protocol.md`
+- **If both budgets exhausted**: Proceed with `search_web` + `read_url_content` only
+- **Reference**: `directives/research-protocol.md` (priority matrix), `directives/google-api-usage-policy.md`, `directives/perplexity-usage-policy.md`
 
 **Alternative — Research Engine** (for automatic decomposition + parallel execution):
 ```bash

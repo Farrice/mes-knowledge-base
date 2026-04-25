@@ -55,7 +55,10 @@ def build_index():
     index = []
     for f in sorted(WF_DIR.glob("*.md")):
         name = f.stem
-        content = f.read_text(errors="ignore")
+        try:
+            content = f.read_text(errors="ignore")
+        except (FileNotFoundError, OSError):
+            continue  # Skip missing/inaccessible workflow files gracefully
 
         # Extract description from YAML frontmatter
         desc_match = re.search(r"^description:\s*(.+)$", content, re.MULTILINE)

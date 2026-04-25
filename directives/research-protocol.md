@@ -15,17 +15,29 @@ If a finding cannot be sourced, it is labeled as "unverified inference" and trea
 
 ## Research Tools — Priority Order
 
-Use tools in this order, starting with the cheapest:
+Two orderings: **depth-first** (for insight-grade research, the default for Standard and Deep tasks) and **speed-first** (for quick fact-checks and sanity checks).
+
+### Depth-first (Standard + Deep research — DEFAULT)
 
 | Priority | Tool | Cost | When to Use |
 |----------|------|------|-------------|
-| 1 | `search_web` | Free | Always. First line of research. 3-15 calls per topic. |
-| 2 | `read_url_content` | Free | Read full pages from search results. 2-6 per topic. |
-| 3 | `perplexity_ask` (sonar MCP) | ~$0.01 | Quick synthesis or when you need AI-structured summaries |
-| 4 | Tavily MCP (`tavily_search`) | Free* | High-quality structured search. Unlimited within plan. |
-| 5 | `perplexity_client.py` (sonar-deep-research) | ~$0.25 | Strategic intelligence only. Budget-gated. |
+| **1** | **Gemini Deep Research** (`deep_research_client.py`, via `/deep-research-gemini`) | $0 under Ultra; ~$0.25-1.50/query on prepaid | **Primary** for foundation research, strategic intelligence, any research feeding downstream decisions. 93.3% DeepSearchQA accuracy. Budget-gated via 3-layer defense. |
+| 2 | Gemini Deep Research Max (same client, `--mode max`) | $0 under Ultra; ~$0.50-1.50/query | When maximum comprehensiveness matters over speed. |
+| 3 | `perplexity_client.py` (sonar-deep-research) | ~$0.25/query | **Fallback only** — when Gemini Deep Research is rate-limited, errors, or budget-exhausted. Tag output as "Perplexity fallback." |
+| 4 | Tavily MCP (`tavily_search`) | Free* | Structured search supplementation. Unlimited within plan. |
+| 5 | `search_web` + `read_url_content` | Free | Supplementation when Deep Research results need URL-level verification. |
 
-*Tavily free tier: 1,000 calls/month. Paid: unlimited.
+*Tavily free tier: 1,000 calls/month.
+
+### Speed-first (Quick fact checks, single-claim verification)
+
+| Priority | Tool | Cost | When to Use |
+|----------|------|------|-------------|
+| 1 | `search_web` | Free | Always first for quick checks. 1-3 calls. |
+| 2 | `perplexity_ask` (Sonar MCP) | ~$0.01 | Single fact-check with citation, quick synthesis of a narrow question. |
+| 3 | Tavily MCP | Free | Structured alternative to Perplexity ask. |
+
+**Rule**: If the task is Standard or Deep depth, default to Gemini Deep Research. Do NOT start with Perplexity for foundation work — it has historically produced shallower synthesis that misses the insight layer.
 
 ---
 

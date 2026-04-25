@@ -4,7 +4,9 @@ description: Deep Research
 
 # /deep-research — Deep Research
 
-Deploy the full research stack: Perplexity Deep Research as the foundation layer, 3 parallel specialist agents (Pattern Hunter, Psychology Miner, Contrarian Scout) to deepen each angle grounded in real data, synthesis with contradiction resolution, adversarial challenge round, and a McKinsey-grade Strategic Intelligence Report.
+Deploy the full research stack: **Gemini Deep Research (primary) or Perplexity sonar-deep-research (fallback)** as the foundation layer, 3 parallel specialist agents (Pattern Hunter, Psychology Miner, Contrarian Scout) to deepen each angle grounded in real data, synthesis with contradiction resolution, adversarial challenge round, and a McKinsey-grade Strategic Intelligence Report.
+
+**Foundation backend (as of 2026-04-23)**: This workflow now invokes `deep_research_client.py` (Gemini Deep Research) as Step 1's foundation call. Perplexity sonar-deep-research fires only when Gemini is unavailable (budget, rate limit, API error). Output is tagged with which backend served the foundation call.
 
 **The standard**: Research that finds the real psychological movers, jobs-to-be-done, and hidden patterns — not surface-level market data. The research itself is the unfair advantage. Every decision downstream (product, pricing, positioning, copy) should have a high likelihood of success because the foundation is grounded in truth.
 
@@ -38,11 +40,14 @@ Deploy the full research stack: Perplexity Deep Research as the foundation layer
 
 ### Step 0 — Budget Gate
 
-Read `.agent/perplexity-usage.json`. Estimate ~$0.75-1.50 for this run (2-3 `sonar-deep-research` queries at $0.25 each).
+**Primary path (Gemini Deep Research)**: Read `.agent/gemini-api-usage.json`.
+- **If `prepaid_balance_usd >= 0.50`**: Proceed with Gemini Deep Research as the foundation layer (Ultra typically covers at $0 marginal cost).
+- **If `prepaid_balance_usd < 0.50`**: Fall back to Perplexity budget gate below.
 
-- **If budget > $3**: Proceed with full deep research.
+**Fallback path (Perplexity)**: Read `.agent/perplexity-usage.json`. Estimate ~$0.75-1.50 for this run (2-3 `sonar-deep-research` queries at $0.25 each).
+- **If budget > $3**: Proceed with Perplexity fallback, tag output "Perplexity fallback."
 - **If budget $1-3**: Run with 1 deep research query instead of 2-3. Notify user.
-- **If budget < $1**: Degrade to `/research-sprint` (free, `search_web` + `read_url_content` only). Notify user: "Perplexity budget low — running research sprint instead of deep research."
+- **If budget < $1**: Degrade to `/research-sprint` (free, `search_web` + `read_url_content` only). Notify user: "Both Gemini and Perplexity budgets exhausted — running research sprint instead."
 
 ### Step 1 — Scope & Deploy Plan
 
@@ -88,13 +93,18 @@ Wait for user approval.
 
 ---
 
-### Step 2 — Perplexity Deep Research Foundation
+### Step 2 — Deep Research Foundation (Gemini primary, Perplexity fallback)
 
-Execute 2-3 `sonar-deep-research` queries ($0.25 each).
+Execute 2-3 Deep Research queries as the foundation layer.
 
 **Tool Selection** (in priority order):
-1. **Perplexity Sonar MCP** (preferred): If the Perplexity Sonar MCP server is configured and supports `sonar-deep-research`, use it directly. See `directives/mcp-research-setup.md` for setup.
-2. **Python Client** (reliable fallback): Run via `execution/perplexity_client.py`:
+1. **Gemini Deep Research (PRIMARY)**: Run via `execution/deep_research_client.py`:
+   ```bash
+   cd "/Users/farricecain/Google Antigravity" && python3 execution/deep_research_client.py "[QUERY]" --mode standard --task-context "deep-research"
+   ```
+   Use `--mode max` when maximum comprehensiveness is needed. Ultra subscription covers most calls at $0; prepaid $10 is the absolute ceiling.
+2. **Perplexity Sonar MCP (FALLBACK)**: If Gemini Deep Research errors, rate-limits, or prepaid exhausts, fall back to `mcp_perplexity-ask_perplexity_research` or the Python client. Tag output "Perplexity fallback."
+3. **Python Perplexity Client (fallback alternative)**: Run via `execution/perplexity_client.py`:
    ```bash
    cd "/Users/farricecain/Google Antigravity" && python3 -c "
    from execution.perplexity_client import PerplexityClient, load_env
