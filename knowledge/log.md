@@ -41,3 +41,13 @@
 - `[2026-04-20 12:38]` **finalize** | Nate B Jones — Auto-Improvement Loops (Karpathy Loop mastery extraction via /extract-forge) | general | nate-b-jones — composite:8.7 status:Keep
 - `[2026-04-20 12:49]` **finalize** | Phase 2 Karpathy Audit (18-pattern advisory on live Antigravity evolution system) | general | nate-b-jones — composite:8.3 status:Keep
 - `[2026-04-20 20:26]` **finalize** | Phase 2 Karpathy Audit — 7 upgrades shipped (trace v3, held-out rotation, regression suite, pre-load | general | nate-b-jones — composite:9.3 status:Keep
+- `[2026-04-21 15:44]` **finalize** | Parallax Edition 02: The Coachella Reckoning — published-ready. 1226-word essay + Presence Audit pro | general | nicolas-cole — composite:9.7 status:Keep
+- `[2026-04-21 20:28]` **finalize** | Parallax Edition 03: Filter Babel — 1127-word essay + Friction Inventory prompt pack. The 11pm EllaO | general | nicolas-cole — composite:9.0 status:Keep
+- `[2026-04-22 10:10]` **finalize** | Kimi comparison Tier 1 shipped — 3 gaps closed | general | system — composite:8.0 status:Keep
+- `[2026-04-22 10:40]` **finalize** | Kallaway Addictive Storytelling — 10-workflow skill domain built: 3 Tier 1 (Foundation), 4 Tier 2 (P | general | Kallaway — composite:8.7 status:Keep
+- `[2026-04-24 14:09]` **finalize** | Sharran Srivatsaa Scaling skill — 7 production workflows deployed with system-wide slash command reg | general | Sharran Srivatsaa — composite:8.7 status:Keep
+- `[2026-04-24 19:15]` **finalize** | Parallax substack edition 03 — drafted from raw morning take | general — composite:7.0 status:Keep
+- `[2026-04-24 19:23]` **finalize** | test inflation guardrail | general — composite:9.0 status:Keep
+- `[2026-04-24 19:24]` **finalize** | Smoke test of integrated fixes | general — composite:7.7 status:Keep
+- `[2026-04-25 08:27]` **finalize** | Verification test post-Phase B | general — composite:7.0 status:Keep
+- `[2026-04-25 08:31]` **finalize** | Final verification test | general — composite:7.0 status:Keep
