@@ -61,6 +61,25 @@ EXPERT_ROUTER = ROOT / "execution" / "expert_router.py"
 TIER_A_MIN_TRACE_SCORE = 7.5
 TIER_TRACE_WINDOW_DAYS = 60
 
+# UTILITY tier — Anthropic-provided or system-utility skills.
+# These provide infrastructure (file conversion, design tools, code scaffolding)
+# rather than expert thinking. They should NOT be archived as C-tier and should
+# NOT be tier-graded against the expert quality rubric. Match by exact name.
+UTILITY_SKILLS = {
+    # Document/file conversion utilities (Anthropic-provided)
+    "pdf", "docx", "pptx", "xlsx",
+    # Design/visual scaffolding
+    "algorithmic-art", "asset_generator", "brand-guidelines", "canvas-design",
+    "creative-assembly", "creative-direction", "design-md", "frontend-design",
+    "theme-factory", "remotion-video-creation", "slack-gif-creator",
+    # Development/code utilities
+    "doc-coauthoring", "gemini-api-dev", "mcp-builder", "react-components",
+    "skill-creator", "stitch-loop", "swarm-commander", "web-artifacts-builder",
+    "webapp-testing", "internal-comms",
+    # Research/utility scaffolding
+    "consumer-posture-research", "market_intelligence",
+}
+
 
 # ─────────────────────────────────────────────────────────
 # Skill structural fingerprint
@@ -187,6 +206,14 @@ def classify_tier(fp: Dict[str, Any], trace: Optional[Dict[str, Any]],
     """Return (tier, confidence, reasoning) for a skill."""
     reasons = []
 
+    # UTILITY tier — Anthropic/system utilities. Bypass expert quality grading.
+    if fp["name"] in UTILITY_SKILLS:
+        return {
+            "tier": "UTILITY",
+            "confidence": "high",
+            "reasoning": ["system/Anthropic utility skill — not graded against expert rubric"],
+        }
+
     # Structural completeness
     full_structure = (
         fp["has_skill_md"]
@@ -232,18 +259,22 @@ def classify_tier(fp: Dict[str, Any], trace: Optional[Dict[str, Any]],
     elif full_structure and not has_traces and not cross_referenced:
         tier = "REVIEW"
         reasons.append("full structure but never used (no traces, no cross-references)")
-    elif minimal_structure or (not fp["has_skill_md"]):
+    elif not fp["has_skill_md"]:
+        # Truly missing structure — no SKILL.md = orphan/backup folder
         tier = "C"
-        reasons.append("minimal/missing structure")
-        if not fp["has_skill_md"]:
-            reasons.append("MISSING SKILL.md")
-        if not fp["has_genius"]:
-            reasons.append("no genius.md")
-        if fp["workflow_count"] < 2:
-            reasons.append(f"only {fp['workflow_count']} workflows")
+        reasons.append("MISSING SKILL.md — likely orphan or backup folder")
+    elif minimal_structure and not has_traces and not cross_referenced:
+        # SKILL.md only, no genius, <2 workflows, no usage signal
+        tier = "C"
+        reasons.append("minimal structure (SKILL.md only) AND no traces AND no cross-references")
     elif partial_structure and not has_traces and not cross_referenced:
-        tier = "C"
-        reasons.append("partial structure but never used")
+        # Has SKILL.md + (genius OR ≥3 workflows) but never invoked — judgment call
+        tier = "REVIEW"
+        reasons.append("partial structure (intentional but unused) — review priority")
+    elif minimal_structure and (has_traces or cross_referenced):
+        # SKILL.md only but has SOME usage signal — needs attention, not archive
+        tier = "REVIEW"
+        reasons.append("minimal structure but used — enrich with genius.md/workflows")
     elif low_trace:
         tier = "REVIEW"
         reasons.append(f"low trace scores (avg {trace['trace_avg']}) — degrading?")
@@ -323,7 +354,7 @@ def write_audit_report(audit: Dict[str, Any]) -> Path:
     ]
 
     # Per-tier breakdown
-    for tier in ["A", "B", "REVIEW", "C"]:
+    for tier in ["A", "B", "REVIEW", "C", "UTILITY"]:
         bucket = [r for r in audit["records"] if r["tier"] == tier]
         if not bucket:
             continue
@@ -336,7 +367,9 @@ def write_audit_report(audit: Dict[str, Any]) -> Path:
         elif tier == "REVIEW":
             lines.append("Heuristics conflict — these need human eyes before tier finalization.")
         elif tier == "C":
-            lines.append("Archive candidates. Low evidence of value. **Do not delete — move to `_archive/skills/` for provenance.**")
+            lines.append("Archive candidates. Low evidence of value. **Do not delete — move to `_archive/skills/` for provenance.** Review individually before archiving (some may be load-bearing user domain skills).")
+        elif tier == "UTILITY":
+            lines.append("Anthropic-provided or system utility skills. Provide infrastructure (file conversion, design scaffolding, code utilities) rather than expert thinking. **Do not archive** — these are kept for usage. Update `UTILITY_SKILLS` in `skill_auditor.py` to add new entries.")
         lines.append("")
         lines.append("| Skill | Workflows | Genius | Traces | Cross-ref | Reasoning |")
         lines.append("|---|---|---|---|---|---|")
@@ -416,7 +449,7 @@ def update_skill_index(records: List[Dict[str, Any]], apply: bool) -> Dict[str, 
         f"From `execution/skill_auditor.py audit`. Total: {len(records)} skills.",
         "",
     ]
-    for tier in ["A", "B", "REVIEW", "C"]:
+    for tier in ["A", "B", "REVIEW", "C", "UTILITY"]:
         names = sorted(by_tier.get(tier, []))
         section.append(f"### Tier {tier} ({len(names)})")
         section.append("")
@@ -485,7 +518,7 @@ def main():
     upd.add_argument("--apply", action="store_true", help="Actually write (default: preview)")
 
     arc = sub.add_parser("archive", help="Move skills of a given tier to _archive/skills/")
-    arc.add_argument("--tier", required=True, choices=["A", "B", "C", "REVIEW"])
+    arc.add_argument("--tier", required=True, choices=["A", "B", "C", "REVIEW", "UTILITY"])
     arc.add_argument("--apply", action="store_true", help="Actually move (default: preview)")
 
     args = parser.parse_args()

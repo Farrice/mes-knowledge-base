@@ -216,7 +216,7 @@
 
 ## Tier Annotations (auto-generated 2026-04-25)
 
-From `execution/skill_auditor.py audit`. Total: 210 skills.
+From `execution/skill_auditor.py audit`. Total: 209 skills.
 
 ### Tier A (56)
 
@@ -277,7 +277,7 @@ From `execution/skill_auditor.py audit`. Total: 210 skills.
 - `tobias-allen-marketing-mastery`
 - `wright-thompson-mastery`
 
-### Tier B (107)
+### Tier B (106)
 
 - `adam-enfroy-affiliate-marketing`
 - `ai-chris-lee-zero-testimonial-sales`
@@ -295,7 +295,6 @@ From `execution/skill_auditor.py audit`. Total: 210 skills.
 - `caleb-ralston-personal-brand`
 - `cardinal-mason-ai-copywriting`
 - `chris-cimorelli-copywriting`
-- `creative-direction`
 - `dai-media-consumer-posture`
 - `dan-martell-business-scaling`
 - `dan-wang-literary-analysis`
@@ -387,7 +386,7 @@ From `execution/skill_auditor.py audit`. Total: 210 skills.
 - `velocity-scaling`
 - `ward-farnsworth-rhetorical-mastery`
 
-### Tier REVIEW (16)
+### Tier REVIEW (18)
 
 - `dr-k-consciousness`
 - `greg-hoffman-brand-mastery`
@@ -396,6 +395,7 @@ From `execution/skill_auditor.py audit`. Total: 210 skills.
 - `kieran-flanagan-content-ops`
 - `liam-mley-ai-brain-builder`
 - `nba-betting-edge`
+- `new-media-ghostwriting`
 - `oren-content-team-architecture`
 - `oren-luxury-psychology`
 - `oren-operational-systems`
@@ -404,33 +404,35 @@ From `execution/skill_auditor.py audit`. Total: 210 skills.
 - `prediction-market-ai-event-analysis`
 - `prediction-market-making`
 - `prediction-market-risk-management`
+- `sean-mabry-voice-mastery`
 - `wordsatscale-seo-ranking`
 
-### Tier C (31)
+### Tier C (2)
 
-- `.genius_backups`
+- `jen-santulan-listing-content`
+- `seena_rez_early_adopter`
+
+### Tier UTILITY (27)
+
 - `algorithmic-art`
 - `asset_generator`
 - `brand-guidelines`
 - `canvas-design`
 - `consumer-posture-research`
 - `creative-assembly`
+- `creative-direction`
 - `design-md`
 - `doc-coauthoring`
 - `docx`
 - `frontend-design`
 - `gemini-api-dev`
 - `internal-comms`
-- `jen-santulan-listing-content`
 - `market_intelligence`
 - `mcp-builder`
-- `new-media-ghostwriting`
 - `pdf`
 - `pptx`
 - `react-components`
 - `remotion-video-creation`
-- `sean-mabry-voice-mastery`
-- `seena_rez_early_adopter`
 - `skill-creator`
 - `slack-gif-creator`
 - `stitch-loop`

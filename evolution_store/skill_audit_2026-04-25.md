@@ -1,7 +1,7 @@
 # Skill Audit — 2026-04-25
 
-**Total skills**: 210
-**Tier distribution**: A=56, B=107, C=31, REVIEW=16
+**Total skills**: 209
+**Tier distribution**: A=56, B=106, C=2, REVIEW=18, UTILITY=27
 
 ## Methodology
 
@@ -79,7 +79,7 @@ These are the system's strongest skills. Prioritize for promotion, ground-truth 
 | `tobias-allen-marketing-mastery` | 3 | ✓ | 1 (avg 8.3) | ✓ | full structure (3 workflows + genius.md); trace avg 8.3 ≥ 7.5 (1 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `wright-thompson-mastery` | 13 | ✓ | 1 (avg 8.4) | ✓ | full structure (13 workflows + genius.md); trace avg 8.4 ≥ 7.5 (1 traces); cross-referenced from CLAUDE/COUNCIL/router |
 
-## Tier B (107 skills)
+## Tier B (106 skills)
 
 Solid skills that are working. Candidates for B→A promotion via genius.md enrichment or workflow expansion.
 
@@ -101,7 +101,6 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `caleb-ralston-personal-brand` | 11 | ✓ | - | ✓ | full structure (11 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `cardinal-mason-ai-copywriting` | 5 | ✓ | - | ✓ | full structure (5 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `chris-cimorelli-copywriting` | 5 | ✓ | - | ✓ | full structure (5 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
-| `creative-direction` | 0 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
 | `dai-media-consumer-posture` | 3 | ✓ | - | ✓ | full structure (3 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `dan-martell-business-scaling` | 10 | ✓ | - | ✓ | full structure (10 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `dan-wang-literary-analysis` | 2 | ✓ | 1 (avg 8.3) | ✓ | has genius.md but <3 workflows; 1 traces, avg 8.3 |
@@ -193,7 +192,7 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `velocity-scaling` | 18 | ✓ | - | ✓ | full structure (18 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `ward-farnsworth-rhetorical-mastery` | 2 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
 
-## Tier REVIEW (16 skills)
+## Tier REVIEW (18 skills)
 
 Heuristics conflict — these need human eyes before tier finalization.
 
@@ -206,6 +205,7 @@ Heuristics conflict — these need human eyes before tier finalization.
 | `kieran-flanagan-content-ops` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `liam-mley-ai-brain-builder` | 4 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `nba-betting-edge` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
+| `new-media-ghostwriting` | 1 |  | - | ✓ | minimal structure but used — enrich with genius.md/workflows |
 | `oren-content-team-architecture` | 12 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `oren-luxury-psychology` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `oren-operational-systems` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
@@ -214,45 +214,51 @@ Heuristics conflict — these need human eyes before tier finalization.
 | `prediction-market-ai-event-analysis` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `prediction-market-making` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `prediction-market-risk-management` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
+| `sean-mabry-voice-mastery` | 1 | ✓ | - |  | partial structure (intentional but unused) — review priority |
 | `wordsatscale-seo-ranking` | 4 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 
-## Tier C (31 skills)
+## Tier C (2 skills)
 
-Archive candidates. Low evidence of value. **Do not delete — move to `_archive/skills/` for provenance.**
+Archive candidates. Low evidence of value. **Do not delete — move to `_archive/skills/` for provenance.** Review individually before archiving (some may be load-bearing user domain skills).
 
 | Skill | Workflows | Genius | Traces | Cross-ref | Reasoning |
 |---|---|---|---|---|---|
-| `.genius_backups` | 0 |  | - |  | minimal/missing structure; MISSING SKILL.md; no genius.md |
-| `algorithmic-art` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `asset_generator` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `brand-guidelines` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `canvas-design` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `consumer-posture-research` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `creative-assembly` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `design-md` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `doc-coauthoring` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `docx` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `frontend-design` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `gemini-api-dev` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `internal-comms` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `jen-santulan-listing-content` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `market_intelligence` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `mcp-builder` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `new-media-ghostwriting` | 1 |  | - | ✓ | minimal/missing structure; no genius.md; only 1 workflows |
-| `pdf` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `pptx` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `react-components` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `remotion-video-creation` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `sean-mabry-voice-mastery` | 1 | ✓ | - |  | partial structure but never used |
-| `seena_rez_early_adopter` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `skill-creator` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `slack-gif-creator` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `stitch-loop` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `swarm-commander` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `theme-factory` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `web-artifacts-builder` | 0 |  | - | ✓ | minimal/missing structure; no genius.md; only 0 workflows |
-| `webapp-testing` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
-| `xlsx` | 0 |  | - |  | minimal/missing structure; no genius.md; only 0 workflows |
+| `jen-santulan-listing-content` | 0 |  | - |  | minimal structure (SKILL.md only) AND no traces AND no cross-references |
+| `seena_rez_early_adopter` | 0 |  | - |  | minimal structure (SKILL.md only) AND no traces AND no cross-references |
+
+## Tier UTILITY (27 skills)
+
+Anthropic-provided or system utility skills. Provide infrastructure (file conversion, design scaffolding, code utilities) rather than expert thinking. **Do not archive** — these are kept for usage. Update `UTILITY_SKILLS` in `skill_auditor.py` to add new entries.
+
+| Skill | Workflows | Genius | Traces | Cross-ref | Reasoning |
+|---|---|---|---|---|---|
+| `algorithmic-art` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `asset_generator` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `brand-guidelines` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `canvas-design` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `consumer-posture-research` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `creative-assembly` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `creative-direction` | 0 | ✓ | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `design-md` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `doc-coauthoring` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `docx` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `frontend-design` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `gemini-api-dev` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `internal-comms` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `market_intelligence` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `mcp-builder` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `pdf` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `pptx` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `react-components` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `remotion-video-creation` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `skill-creator` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `slack-gif-creator` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `stitch-loop` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `swarm-commander` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `theme-factory` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `web-artifacts-builder` | 0 |  | - | ✓ | system/Anthropic utility skill — not graded against expert rubric |
+| `webapp-testing` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
+| `xlsx` | 0 |  | - |  | system/Anthropic utility skill — not graded against expert rubric |
 
 ## Next steps
 
