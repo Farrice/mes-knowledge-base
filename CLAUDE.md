@@ -55,6 +55,39 @@ python execution/prose_classifier.py scan deliverables/  # Batch scan
 **Revenue Tracker** (`.agent/revenue-outcomes.json`): Connects quality scores to business outcomes. Pipeline command shows what needs tracking.
 **Prose Classifier**: Integrated into `chain_runner.py` — warns if Expert Standard may be inflated due to AI-prose patterns.
 
+### Audit Infrastructure (Added 2026-04-25 — Phases A+B from system audit)
+
+```bash
+# Routing enforcement (Fix 2)
+python3 execution/routing_enforcer.py check --request "..." --workflow <name> --quiet
+python3 execution/routing_enforcer.py list                # Show all mandatory bindings
+
+# Recall grounding observability (Fix 5)
+python3 execution/recall_logger.py log --status fired|skipped|failed [...]
+python3 execution/recall_logger.py report --days 7        # Grounding × Expert Standard correlation
+
+# Calibrated rubric + eval harness (Fix 1)
+python3 execution/eval_harness.py status                  # Calibration progress
+python3 execution/eval_harness.py calibrate --days 7      # Inflation drift detection
+python3 execution/eval_harness.py anchor --dimension <d> --score <n>  # Look up rubric anchor
+
+# Evolution orchestrator — closes Phase 1-4 loop (Fix 4)
+python3 execution/evolution_orchestrator.py auto          # Run all due cycles
+python3 execution/evolution_orchestrator.py daily         # Daily report
+python3 execution/evolution_orchestrator.py weekly        # Weekly baselines
+python3 execution/evolution_orchestrator.py monthly       # Phase 4 gap analysis
+python3 execution/evolution_orchestrator.py status        # Last-run state + grounded skills
+python3 execution/evolution_orchestrator.py queue         # Phase 2 + binding review queues
+
+# Skill auditor — tier-grade 210 skills (Fix 3)
+python3 execution/skill_auditor.py audit                  # A/B/C/REVIEW classification
+python3 execution/skill_auditor.py duplication            # Skills × agents overlap
+python3 execution/skill_auditor.py update-index --apply   # Annotate SKILL_INDEX.md with tiers
+python3 execution/skill_auditor.py archive --tier C --apply  # Move tier to _archive/skills/ (PREVIEW FIRST)
+```
+
+**Audit infrastructure rationale**: The 2026-04-24 system audit (`_active/system-audit/audit-2026-04-24.md`) found that scaffolding had outpaced evals — 210 skills + 117 agents + 58 directives but only 16 ground-truth benchmarks. These 6 tools close the measurement gap: routing is now deterministic (not advisory), grounding is observable (not silent), the rubric is anchored (not vibes), the orchestrator closes the Phase 1-4 loop (not just logging), and the skill auditor surfaces tier evidence (not estimates). Calibrate first run found 94-99% of finalize scores were 8+ — empirical confirmation of grade inflation. **Read the audit report before significantly changing the system.** Directive navigation map: `directives/INDEX.md`.
+
 ### Knowledge Compiler — Karpathy Wiki Engine (Updated 2026-04-13)
 
 ```bash
