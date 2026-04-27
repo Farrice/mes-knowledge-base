@@ -331,6 +331,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | **Prose Classifier** | **Step 5.5 (before delivery)** | **`execution/prose_classifier.py` — auto-runs in `finalize()`** |
 | **Ground Truth** | **After evolution cycles** | **`execution/ground_truth.py` — blind compare AI vs expert** |
 | **Revenue Tracking** | **After client delivery** | **`execution/revenue_tracker.py` — connect quality to outcomes** |
+| **Browser Automation Safety** | **Any Playwright/browser MCP invocation** | **`directives/browser-automation-safety.md` — Tier 1 reads auto-fire; Tier 2 state-changes (post/send/submit/buy) require explicit confirmation; never type credentials** |
 
 ### Budget-Gated (check before calling)
 

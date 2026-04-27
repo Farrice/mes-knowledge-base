@@ -19,10 +19,11 @@ Produces publish-ready Substack editions for Parallax at will. Each run: trendin
 
 ## What This Produces (Per Edition)
 
-1. **The Edition** — 800-1200 word essay, Parallax voice, anti-slop certified
-2. **The Prompt Pack** — Single-prompt coaching session (Nate B. Jones / IP Flywheel standard)
-3. **3 LinkedIn Posts** — Insight variant, prompt teaser, output screenshot concept
-4. **Substack Notes** — 2-3 Notes per edition for platform discovery
+1. **The Edition** — 800-1200 word essay, Parallax voice, anti-slop certified (Phase 3)
+2. **The Prompt Pack** — Single-prompt coaching session (Nate B. Jones / IP Flywheel standard) (Phase 4)
+3. **5 Substack Notes** — Trailer-quality launch-week batch following the Notes Trailer Playbook (Phase 4.5). The 5 archetypes: Origin Wound (T-2), Asset Drop (T+0 AM), Counterintuitive Truth (T+0 PM, restack-bait), Public Reckoning (T+2-3), Bridge (T+5-6). Voice-compatibility-tested.
+4. **3 LinkedIn Posts** — Insight variant, prompt teaser, output screenshot concept (Phase 5)
+5. **Package File** — Canonical ship file at `parallax-packages/0N-[slug].md` with everything inlined for one-scroll review and direct copy-paste to Substack (Phase 5.5)
 
 ---
 
@@ -474,6 +475,55 @@ Structure: Title + metadata → "How This Works" → The Prompt (code block) →
 
 ---
 
+## Phase 4.5: NOTES TRAILER BATCH (New — 2026-04-25)
+
+**Time**: 8-12 min (AI)
+**Authority**: [_active/farrice-brand/content/parallax-packages/NOTES_TRAILER_PLAYBOOK.md](../../_active/farrice-brand/content/parallax-packages/NOTES_TRAILER_PLAYBOOK.md)
+
+Generate the 5-Note launch-week batch that primes readers for this edition. Notes are **trailers, not clips** — original compositions in manifesto voice, not extractions from the edition.
+
+### Generation procedure
+
+1. **Load playbook + edition draft**: Read `NOTES_TRAILER_PLAYBOOK.md` and the just-finished edition body. Identify the edition's most quotable line (for Archetype 3 / Counterintuitive Truth) and its central thesis (for the Bridge).
+
+2. **Generate 5 Notes, one per archetype**:
+   - **Note 1 — Origin Wound** (T-2): Story Note + statement hook. Concrete opening, vulnerable narrative, hint at thesis without spoiling.
+   - **Note 2 — Asset Drop** (T+0 morning): Copy-Paste Asset (3.4x lift). Statement hook, 3-5 lines of usable asset, tie to edition + link.
+   - **Note 3 — Counterintuitive Truth** (T+0 evening): Restack-bait. Single resonant line + minimal context. The line must work as quoted material when restacked.
+   - **Note 4 — Public Reckoning** (T+2-3): Vulnerable admission + statement hook. Different angle from Note 1 (no thematic collision).
+   - **Note 5 — Bridge** (T+5-6): Forward tease for next edition. Statement hook naming next thesis without delivering it.
+
+3. **Run Voice Compatibility Test on each Note** (5 questions, all must pass):
+   - Concrete opening test (first 7-10 words contain specific element)
+   - Authorship test (could only have been written by Farrice)
+   - Rhythm test (varies within Note: long → short or vice versa)
+   - Slot machine test (uncertain payoff close, NOT vending machine)
+   - Standalone test (worth reading without the edition link)
+
+4. **Run cross-batch audit**:
+   - Em dash count across all 5 Notes: target 0, max 1
+   - Italicized words: 0 or 1 per Note, never phrases
+   - Structural variance: all 5 Notes use distinct opening patterns and closing gestures
+   - Statement hooks only (no question hooks — 52% conversion penalty per 19,471-Note research)
+   - Length: 32-63 words per Note (Bridge can be tighter)
+   - No banned moves: no "It's not X. It's Y." reveals, no twin-sentence aphoristic endings, no triple-beat anaphora unless quoted from manifesto
+
+5. **Assign cadence**: Each Note gets a scheduling target (T-2, T+0 morning, T+0 evening, T+2-3, T+5-6).
+
+### Anti-patterns (kill on sight)
+
+- Question hooks → 52% conversion penalty
+- "Edition X is live" announcements → vending-machine pattern
+- Verbatim extracts from edition without re-composition → clip behavior
+- Generic "subscribe to my newsletter" CTAs → use value-rooted invitations
+- More than 1 em dash → AI tell per existing voice rules
+
+### Output
+
+5 Notes with archetype labels, scheduling targets, and Voice Test status. These get assembled into the package file in Phase 5.5.
+
+---
+
 ## Phase 5: GENERATE CROSS-PROMOTION ASSETS
 
 **Time**: 5 min (AI)
@@ -489,10 +539,37 @@ Show a preview of what the prompt pack does (not the full prompt). Describe the 
 ### Variant C: The Output Screenshot Concept
 Describe what a screenshot of the prompt output would look like. Include the hook: "I ran this prompt and here's what came back..." (For actual posting, Farrice runs the prompt himself and screenshots the real output.)
 
-### Also produce:
-- 2-3 Substack Notes using tribal vocabulary ("Course graveyard" observations, "training arc" reflections, "alignment gap" insights — drawn from this edition's theme)
+> **Note**: Substack Notes are NOT generated here. Notes are produced in Phase 4.5 via the Notes Trailer Playbook (5 archetypes, voice-compatibility-tested). LinkedIn variants in this phase are separate cross-platform assets.
 
 Write to: `_active/farrice-brand/content/linkedin-posts/parallax-[edition-number]/`
+
+---
+
+## Phase 5.5: PACKAGE ASSEMBLY (New — 2026-04-25)
+
+**Time**: 3-5 min (AI)
+
+Assemble everything produced in Phases 3-5 into a single canonical package file at `_active/farrice-brand/content/parallax-packages/0N-[slug].md`. This is the file Farrice opens at ship time — top-to-bottom review, copy-paste to Substack, sync to Notion.
+
+### Procedure
+
+1. **Copy `_template.md`** to a new file: `parallax-packages/0N-[slug].md` (matching the edition number and slug)
+2. **Fill metadata**: edition number, title, slug, status=`review`, target publish date, source paths
+3. **Inline the edition body** (from Phase 3) into the Substack Post block
+4. **Inline the prompt pack** (from Phase 4) at the bottom of the Substack Post body — embedded in the same post, not a separate post
+5. **Inline the 5 Notes** (from Phase 4.5) into the Notes Batch section, each with archetype label, scheduling cadence, and pre-checked Voice Test boxes
+6. **Pre-fill the ship checklist** items that are auto-verifiable (subject line length, voice rules passed, etc.) — leave human-verifiable items unchecked (mobile preview, prompt pack tested in Claude/ChatGPT)
+7. **Fill the Notion sync checklist** with the actual `notion_api.py vault-create` command pre-baked with this edition's title and domain
+
+### What this produces
+
+A single 350-500 line package file Farrice can open, scroll through top-to-bottom, copy-paste from, and ship in one sitting. No file-hopping. No re-formatting at ship time.
+
+### Status flow
+
+`draft → review → scheduled → published → archived`
+
+Status is updated in the metadata header as the package moves through the pipeline.
 
 ---
 

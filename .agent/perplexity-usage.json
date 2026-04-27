@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-04",
     "usage": {
-        "total_queries": 10,
-        "estimated_cost_usd": 0.5,
+        "total_queries": 11,
+        "estimated_cost_usd": 0.75,
         "queries": [
             {
                 "timestamp": "2026-04-14T04:16:29.542936+00:00",
@@ -84,6 +84,14 @@
                 "description": "What are the contrarian views, criticisms, and failure cases related to: Polymarket weather bot trading strategy K niche markets data edge 2026? Include Reddit/forum sentiment where available.",
                 "task_context": "swarm-research: Polymarket weather bot trading strategy K niche markets data edge 2026",
                 "estimated_cost": 0.05
+            },
+            {
+                "timestamp": "2026-04-25T19:19:32.424060+00:00",
+                "type": "research",
+                "model": "sonar-deep-research",
+                "description": "In 2026, what are 5-10 specific examples of viral Substack Notes from publications less than 12 months old that drove visible subscriber spikes? For each example, provide: the actual Note text or clos",
+                "task_context": "",
+                "estimated_cost": 0.25
             }
         ]
     },
@@ -92,9 +100,9 @@
         "block_at_percent": 100
     },
     "loop_detection": {
-        "current_task_query_count": 2,
-        "current_task_name": "swarm-research: Polymarket weather bot trading strategy K niche markets data edge 2026",
-        "last_query_timestamp": "2026-04-14T04:22:30.092417+00:00",
+        "current_task_query_count": 1,
+        "current_task_name": "",
+        "last_query_timestamp": "2026-04-25T19:19:32.424060+00:00",
         "consecutive_low_info_queries": 0
     }
 }

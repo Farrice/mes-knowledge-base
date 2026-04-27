@@ -11,7 +11,7 @@
 
 ### Decisions already locked
 - **Publication name**: Parallax
-- **URL slug**: `parallax` → `parallax.substack.com` (if available). If taken: `parallaxletter`, `readparallax`, or `parallaxedition`.
+- **URL slug**: `parallaxletter` → `parallaxletter.substack.com` (claimed 2026-04-25; `parallax` was taken)
 - **Tagline**: `For people who were never meant to fit in one box.`
 - **Sections**: Two — `Editions` and `Prompt Packs`
 - **Discovery categories**: Culture, Philosophy, Technology
@@ -253,15 +253,15 @@ Some Substack versions let you pick a default section new posts land in. If your
 - This becomes your hero — the first thing every visitor sees
 
 **E2. Remove clutter**
-- Go to your homepage as a logged-out visitor would see it (open an incognito window → `parallax.substack.com`)
+- Go to your homepage as a logged-out visitor would see it (open an incognito window → `parallaxletter.substack.com`)
 - Check: is there a Leaderboard, Chat tab, or other default element that dilutes focus?
 - Back in Settings → look for **Homepage** / **Layout** / **Navigation** options and hide anything that isn't: Home, About, Subscribe button
 - For now, keep it minimal. You can enable Chat, Podcast, etc. later if you use them.
 
 **E3. Final visual sanity check**
 Open three URLs in incognito and confirm:
-- `parallax.substack.com` — pinned post visible, About link in nav, subscribe button prominent
-- `parallax.substack.com/about` — the §1.4 copy renders, no broken images
+- `parallaxletter.substack.com` — pinned post visible, About link in nav, subscribe button prominent
+- `parallaxletter.substack.com/about` — the §1.4 copy renders, no broken images
 - Subscribe flow — click Subscribe from the homepage, enter a test email you can access, check: welcome email arrives, subject and body match §1.6
 
 ---
@@ -286,7 +286,7 @@ Before hitting publish on Edition 01:
 
 - [ ] Publication name is `Parallax` everywhere (homepage, About, email signature)
 - [ ] Tagline is live and visible under the logo
-- [ ] URL is `parallax.substack.com` (or your chosen alt)
+- [ ] URL is `parallaxletter.substack.com` (or your chosen alt)
 - [ ] Logo / avatar shows on homepage and in email preview
 - [ ] About page shows §1.4 copy — no lorem ipsum, no default text
 - [ ] Welcome email is ON, subject and body match §1.6
