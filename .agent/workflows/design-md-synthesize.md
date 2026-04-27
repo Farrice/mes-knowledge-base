@@ -1,0 +1,1 @@
+../../skills/design-md/workflows/04-synthesize-from-brief.md

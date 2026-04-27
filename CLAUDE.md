@@ -165,7 +165,7 @@ Tier 0 (cards) → **Tier 1.5 (Recall source grounding — automatic, silent)** 
 Protocol: `directives/agent-loading-protocol.md`.
 **Never produce expert-domain output without loading the expert first.**
 For content: minimum 2 skill files loaded per `directives/content_creation_gate.md`.
-**Recall grounding (Tier 1.5):** For grounding-relevant domains (content, copy, brand, voice, storytelling, positioning, strategy, sales, marketing, persuasion, comms, creative), auto-fire `mcp__recall__search` before skill load. Inject 1-3 high-signal cards as source material. Silent skip if <2 cards or weak signal. Full protocol: `directives/recall-grounding-protocol.md`.
+**Recall grounding (Tier 1.5):** For grounding-relevant domains (content, copy, brand, voice, storytelling, positioning, strategy, sales, marketing, persuasion, comms, creative, **design / UI / brand-system / DESIGN.md synthesis**), auto-fire `mcp__recall__search` before skill load. Inject 1-3 high-signal cards as source material. Silent skip if <2 cards or weak signal. Full protocol: `directives/recall-grounding-protocol.md`.
 
 ### Step 5: PRODUCE output
 Execute using loaded expert frameworks — their thinking, not their terminology.
@@ -229,8 +229,11 @@ Only read it if running `/validate-intent` explicitly.
 **Step 3 (ROUTE): Internalized for known domains.**
 If the domain maps to an obvious expert (LinkedIn → Lara Acosta, copywriting → Luke Iha,
 SEO → Nathan Gotch, brand → Oren/Grace, ghostwriting → Nicolas Cole, content psychology → Kallaway,
-consumer posture → Dai Media, agentic workflows → Nick Saraev), route without reading
-`DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
+consumer posture → Dai Media, agentic workflows → Nick Saraev,
+**design system / DESIGN.md / "make it look like [brand]" / brand tokens → `skills/design-md/`,
+UI/component/page code from a DESIGN.md → `skills/product-design-build/`,
+art direction / cinematic / streetwear / AI image-or-video prompts → `skills/creative-direction/` (via Creative Director agent)**),
+route without reading `DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
 
 **Step 4 (LOAD): Deferred Tier escalation.**
 Start at Tier 1 (SKILL.md only). Load genius.md ONLY if:
@@ -254,6 +257,9 @@ Some domains have dedicated production workflows. If the user's task matches the
 | Parallax Substack editions, "parallax edition", "next substack", parallax prompt packs | `/parallax` | `writers-room` (diagnostic-on-draft, not production-from-raw-take) |
 | LinkedIn post production from scratch | `/ghostwrite` or Lara Acosta skill | `writers-room` (for refinement only) |
 | Writers' room refinement of an existing draft | `writers-room` | `/parallax` or other production workflows |
+| DESIGN.md authoring / extract / synthesize / brand-system / "make it look like [brand]" | `/design-md-synthesize` or `/design-md-extract` or `/brand-library` (via Creative Director agent) | Generic Tailwind/CSS suggestions |
+| UI / component / page code generation from a DESIGN.md | `/product-build` or `/component-build` (skills/product-design-build/) | Hand-rolling without DESIGN.md as source-of-truth |
+| Existing DESIGN.md needs lint / WCAG / refinement | `/design-md-validate` | Eyeballing — always run `npx @google/design.md lint` |
 
 **Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
 

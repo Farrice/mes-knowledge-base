@@ -412,7 +412,9 @@ When you make a request, I route to the right expert using this registry. I will
 | **Sam Goddard** | MEDIA SCALING | Content infrastructure, production systems, agency scaling |
 | **Sean Kochel** | DESIGN-FIRST BUILD | Felt problems, UX-driven development, AI business strategy |
 | **Alex Copper** | BRAND STRATEGY | Creative strategy, visual identity systems |
-| **Creative Director** | CREATIVE DIRECTION | Art direction, AI prompt engineering (Higgsfield/Kittl/Midjourney/Flux), storyboarding, mood boards, streetwear design, trailer storytelling, visual brand systems |
+| **Creative Director** | CREATIVE DIRECTION + PRODUCT DESIGN | Art direction, AI prompt engineering (Higgsfield/Kittl/Midjourney/Flux), storyboarding, mood boards, streetwear design, trailer storytelling, **DESIGN.md authoring/extraction/synthesis, brand systems-as-code, UI component generation, 58-brand library** |
+| **DESIGN.md skill** | DESIGN SYSTEMS AS CODE | YAML+markdown brand system spec (Google Labs Apr 2026), extract/synthesize/validate/import, WCAG via `npx @google/design.md lint`, 58 vendored brand files |
+| **product-design-build skill** | UI CODE GENERATION | DESIGN.md → React+Tailwind components/pages, Playwright preview-iterate loop, accessibility patterns, codebase deployment |
 
 ### Routing Logic
 
@@ -450,6 +452,22 @@ When you make a request, I route to the right expert using this registry. I will
 "Storyboard a video"
 ├── Multi-shot AI sequence → Creative Director
 └── Cinematic pipeline → Tao Prompts + Creative Director
+
+"Build a design system" / "DESIGN.md" / "design tokens"
+├── Author from brief → /design-md-synthesize (Creative Director + design-md skill)
+├── Extract from URL → /design-md-extract
+├── Extract from codebase → /design-md-extract --codebase
+├── Import from brand library → /brand-library use [slug]
+└── Validate existing → /design-md-validate
+
+"Make it look like [Apple/Stripe/Linear/etc.]"
+└── /brand-library use [slug] → customize per workflow 03-import-brand
+
+"Build UI / page / component from a DESIGN.md"
+├── Component → /component-build
+├── Page → /product-build
+├── Wire DESIGN.md into codebase → /design-system-deploy
+└── Render & critique loop → /preview-iterate
 ```
 
 ---

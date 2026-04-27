@@ -828,11 +828,12 @@ PAIRS WITH: Rory Sutherland (behavioral economics), David McRaney (belief change
 
 ```
 AGENT: Creative Director
-DOMAIN: Art direction, AI prompt engineering, storyboarding, mood boards, streetwear design, trailer storytelling, visual brand systems
-CORE METHOD: Three Anchors (Visual Hook + Emotional Core + Cultural Anchor), 5-Layer Mood Board, 4-Act Trailer Structure, Virgil Test, Platform-Specific Prompt Formulas
-BEST FOR: Art direction, AI image/video prompts (Higgsfield/Kittl/Midjourney/Flux), storyboards, mood boards, streetwear/apparel design specs, trailer treatments, creative review
-ENTRY PROMPT: skills/creative-direction/SKILL.md
-PAIRS WITH: Greg Hoffman (brand mastery), Sean Kochel (design-first build), Tao Prompts (cinematic pipeline), Luke Iha (copy integration), Oren (taste), Alex Copper (brand strategy)
+DOMAIN: Art direction, AI prompt engineering, storyboarding, mood boards, streetwear design, trailer storytelling, **product/UI design, brand systems-as-code (DESIGN.md), 58-brand library, UI component code generation**
+CORE METHOD: Three Anchors (Visual Hook + Emotional Core + Cultural Anchor), 5-Layer Mood Board, 4-Act Trailer Structure, Virgil Test, Platform-Specific Prompt Formulas, **DESIGN.md spec (Google Labs Apr 2026), token-first UI generation, Playwright preview-iterate loop, WCAG-validated brand systems**
+BEST FOR: Art direction, AI image/video prompts (Higgsfield/Kittl/Midjourney/Flux), storyboards, mood boards, streetwear/apparel design specs, trailer treatments, creative review, **DESIGN.md authoring (synthesize/extract/validate/import), brand-system-as-code, UI component & page generation from a DESIGN.md, codebase deployment of design tokens**
+ENTRY PROMPT: skills/creative-direction/SKILL.md (cinema/graphic), skills/design-md/SKILL.md (brand-as-code), skills/product-design-build/SKILL.md (UI codegen)
+PAIRS WITH: Greg Hoffman (brand mastery), Sean Kochel (design-first build), Tao Prompts (cinematic pipeline), Luke Iha (copy integration), Oren (taste), Alex Copper (brand strategy), **Mark Kashef (visual design), Andy Lo (premium websites), Frontend Design (code architecture), Jack Roberts (design philosophy)**
+COMMANDS: /art-direct, /creative-prompt, /storyboard, /mood-board, /design-spec, /trailer-treatment, /creative-review, **/design-md-synthesize, /design-md-extract, /design-md-validate, /brand-library, /product-build, /component-build, /preview-iterate, /design-system-deploy**
 ```
 
 ---

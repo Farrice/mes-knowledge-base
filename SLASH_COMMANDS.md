@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (384 Commands)
+# 🚀 Antigravity Workflows — Complete Index (401 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -537,7 +537,36 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🎨 Design & Visual (9)
+## 🎨 Design & Visual (26)
+
+### DESIGN.md — Brand Systems as Code (10) — *NEW 2026-04-27*
+The DESIGN.md spec (Google Labs, Apr 21 2026) is the universal brand-system-as-code format. Workflows below cover authoring, extraction, validation, brand library, and forward-generation to working UI code. Routes via Creative Director agent.
+| Command | What It Does |
+|---------|-------------|
+| `/design-md-synthesize` | Generate fresh DESIGN.md from a creative brief — taste-calibrated, Recall-grounded, lint-validated |
+| `/design-md-extract` | Reverse-engineer DESIGN.md from a live URL via Playwright (heuristic token extraction + computed-style sampling) |
+| `/design-md-validate` | Run `npx @google/design.md lint` + WCAG AA check + auto-refine warnings in priority order |
+| `/design-md-export` | Export DESIGN.md to Tailwind config / DTCG tokens.json / agent prompt context |
+| `/design-md-evolve` | Diff two DESIGN.md versions, surface regressions, author merge proposal |
+| `/brand-library` | Browse / search / import from 58-brand library (Apple, Stripe, Linear, Spotify, Tesla, Notion, etc.) — `/brand-library use linear` imports as project starter |
+| `/product-build` | Generate full page from DESIGN.md (React + Tailwind, token-first, accessible) |
+| `/component-build` | Generate single component (Button, Card, etc.) from DESIGN.md with variant API |
+| `/preview-iterate` | Playwright preview-screenshot-critique loop for visual fidelity to DESIGN.md |
+| `/design-system-deploy` | Wire DESIGN.md as canonical source of truth in a real codebase (tailwind.config, CI, pre-commit) |
+
+### Creative Direction — Cinema, Mood, Brand Identity (7)
+The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates these. Pairs with DESIGN.md commands above for end-to-end brand+UI work.
+| Command | What It Does |
+|---------|-------------|
+| `/art-direct` | Full creative direction — 3 concept directions with execution specs and AI prompts |
+| `/creative-prompt` | Platform-specific AI prompts (Higgsfield, Kittl, Midjourney, Flux) |
+| `/storyboard` | Multi-shot storyboard sequences with connected prompts |
+| `/mood-board` | Strategic mood boards using the 5-layer system |
+| `/design-spec` | Graphic design specifications for apparel, logos, posters |
+| `/trailer-treatment` | Movie trailer storytelling frameworks applied to any content |
+| `/creative-review` | Senior creative director critique with the Virgil Test |
+
+### Visual Production & Tooling (9)
 | Command | What It Does |
 |---------|-------------|
 | `/create-video` | Generate video content |

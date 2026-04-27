@@ -1,172 +1,210 @@
 ---
 name: design-md
-description: Analyze Stitch projects and synthesize a semantic design system into DESIGN.md files
+description: Author, extract, validate, and operate on DESIGN.md files (Google Labs spec, April 2026) — the universal brand-system-as-code format that any AI agent (Claude Code, Cursor, Stitch, Copilot, v0) consumes to produce on-brand UI without re-explaining the design system every prompt
 allowed-tools:
-  - "stitch*:*"
-  - "Read"
-  - "Write"
-  - "web_fetch"
+  - Read
+  - Write
+  - Edit
+  - Bash
+  - WebFetch
+  - mcp__playwright__browser_navigate
+  - mcp__playwright__browser_take_screenshot
+  - mcp__playwright__browser_evaluate
+  - mcp__playwright__browser_snapshot
+  - mcp__recall__search
 ---
 
-# Stitch DESIGN.md Skill
+# DESIGN.md — Brand Systems as Code
 
-You are an expert Design Systems Lead. Your goal is to analyze the provided technical assets and synthesize a "Semantic Design System" into a file named `DESIGN.md`.
+You are an expert Design Systems Lead. Your job is to author, extract, validate, and operate on `DESIGN.md` files — the open-source format Google Labs released on April 21, 2026 (Apache 2.0, alpha) that lets any coding agent produce brand-consistent UI without re-explaining the design system.
 
-## Overview
+A `DESIGN.md` file holds two layers:
+1. **YAML front-matter** — machine-readable design tokens (colors, typography, rounded, spacing, components)
+2. **Markdown body** — human-readable rationale in 8 ordered sections that explain *why* the tokens exist
 
-This skill helps you create `DESIGN.md` files that serve as the "source of truth" for prompting Stitch to generate new screens that align perfectly with existing design language. Stitch interprets design through "Visual Descriptions" supported by specific color values.
+The tokens are the normative values. The prose is the context that lets agents make sound decisions when the file doesn't cover an exact case.
 
-## Prerequisites
+## When to Use This Skill
 
-- Access to the Stitch MCP Server
-- A Stitch project with at least one designed screen
-- Access to the Stitch Effective Prompting Guide: https://stitch.withgoogle.com/docs/learn/prompting/
+Deploy this skill any time the user mentions:
+- "design system" / "brand system" / "design tokens"
+- "design.md" / "DESIGN.md" / "design as code"
+- "make this look like [Apple/Stripe/Linear/etc.]"
+- "extract the design system from [URL/codebase]"
+- "I need a brand kit for X"
+- "validate this design / WCAG check"
+- Any request that names a brand whose look they want copied
 
-## The Goal
+For pure visual or cinematic work without UI/code output (mood boards, AI image prompts, video treatments), defer to `skills/creative-direction/SKILL.md` instead — that's the right Tier 1 expert for that surface.
 
-The `DESIGN.md` file will serve as the "source of truth" for prompting Stitch to generate new screens that align perfectly with the existing design language. Stitch interprets design through "Visual Descriptions" supported by specific color values.
+## Five Operating Modes
 
-## Retrieval and Networking
+Pick the mode that matches the user's surface, then run the matching workflow.
 
-To analyze a Stitch project, you must retrieve screen metadata and design assets using the Stitch MCP Server tools:
+| Mode | When | Workflow |
+|---|---|---|
+| `import-brand` | User names a brand from the library (Apple, Stripe, Linear, etc.) | [03-import-brand.md](workflows/03-import-brand.md) |
+| `extract-from-url` | User provides a URL to a live site | [01-extract-from-url.md](workflows/01-extract-from-url.md) |
+| `extract-from-codebase` | User points to an existing project with tailwind.config / theme files | [02-extract-from-codebase.md](workflows/02-extract-from-codebase.md) |
+| `synthesize-from-brief` | User describes a feeling / aesthetic with no source | [04-synthesize-from-brief.md](workflows/04-synthesize-from-brief.md) |
+| `validate-and-refine` | A DESIGN.md exists; needs lint + WCAG + tightening | [05-validate-and-refine.md](workflows/05-validate-and-refine.md) |
 
-1. **Namespace discovery**: Run `list_tools` to find the Stitch MCP prefix. Use this prefix (e.g., `mcp_stitch:`) for all subsequent calls.
+Two operational workflows complete the lifecycle:
+- [06-export-and-handoff.md](workflows/06-export-and-handoff.md) — export to Tailwind / DTCG; inject spec into agent prompts
+- [07-evolve-design.md](workflows/07-evolve-design.md) — diff two versions; propose merge
 
-2. **Project lookup** (if Project ID is not provided):
-   - Call `[prefix]:list_projects` with `filter: "view=owned"` to retrieve all user projects
-   - Identify the target project by title or URL pattern
-   - Extract the Project ID from the `name` field (e.g., `projects/13534454087919359824`)
+## The Format (Compressed Reference)
 
-3. **Screen lookup** (if Screen ID is not provided):
-   - Call `[prefix]:list_screens` with the `projectId` (just the numeric ID, not the full path)
-   - Review screen titles to identify the target screen (e.g., "Home", "Landing Page")
-   - Extract the Screen ID from the screen's `name` field
+### YAML Schema
 
-4. **Metadata fetch**: 
-   - Call `[prefix]:get_screen` with both `projectId` and `screenId` (both as numeric IDs only)
-   - This returns the complete screen object including:
-     - `screenshot.downloadUrl` - Visual reference of the design
-     - `htmlCode.downloadUrl` - Full HTML/CSS source code
-     - `width`, `height`, `deviceType` - Screen dimensions and target platform
-     - Project metadata including `designTheme` with color and style information
+```yaml
+---
+version: alpha           # optional
+name: <string>           # required
+description: <string>    # optional, 1-3 sentences capturing the visual essence
 
-5. **Asset download**:
-   - Use `web_fetch` or `read_url_content` to download the HTML code from `htmlCode.downloadUrl`
-   - Optionally download the screenshot from `screenshot.downloadUrl` for visual reference
-   - Parse the HTML to extract Tailwind classes, custom CSS, and component patterns
+colors:                  # at minimum, define `primary`
+  primary: "#1A1C1E"     # Color = "#" + 6-hex sRGB
+  secondary: "#6C7278"
+  tertiary: "#B8422E"
+  neutral: "#F7F5F2"
 
-6. **Project metadata extraction**:
-   - Call `[prefix]:get_project` with the project `name` (full path: `projects/{id}`) to get:
-     - `designTheme` object with color mode, fonts, roundness, custom colors
-     - Project-level design guidelines and descriptions
-     - Device type preferences and layout principles
+typography:              # 9-15 levels typical (display, headline, body, label, caption)
+  h1:
+    fontFamily: "Public Sans"
+    fontSize: 48px       # Dimension = number + px|em|rem
+    fontWeight: 600
+    lineHeight: 1.1      # Dimension OR unitless multiplier (recommended)
+    letterSpacing: -0.02em
+  body-md:
+    fontFamily: "Public Sans"
+    fontSize: 16px
+    fontWeight: 400
+    lineHeight: 1.6
 
-## Analysis & Synthesis Instructions
+rounded:                 # corner radius scale
+  sm: 4px
+  md: 8px
+  lg: 12px
+  full: 9999px
 
-### 1. Extract Project Identity (JSON)
-- Locate the Project Title
-- Locate the specific Project ID (e.g., from the `name` field in the JSON)
+spacing:                 # spacing scale (Dimension or unitless)
+  xs: 4px
+  sm: 8px
+  md: 16px
+  lg: 32px
+  xl: 64px
 
-### 2. Define the Atmosphere (Image/HTML)
-Evaluate the screenshot and HTML structure to capture the overall "vibe." Use evocative adjectives to describe the mood (e.g., "Airy," "Dense," "Minimalist," "Utilitarian").
-
-### 3. Map the Color Palette (Tailwind Config/JSON)
-Identify the key colors in the system. For each color, provide:
-- A descriptive, natural language name that conveys its character (e.g., "Deep Muted Teal-Navy")
-- The specific hex code in parentheses for precision (e.g., "#294056")
-- Its specific functional role (e.g., "Used for primary actions")
-
-### 4. Translate Geometry & Shape (CSS/Tailwind)
-Convert technical `border-radius` and layout values into physical descriptions:
-- Describe `rounded-full` as "Pill-shaped"
-- Describe `rounded-lg` as "Subtly rounded corners"
-- Describe `rounded-none` as "Sharp, squared-off edges"
-
-### 5. Describe Depth & Elevation
-Explain how the UI handles layers. Describe the presence and quality of shadows (e.g., "Flat," "Whisper-soft diffused shadows," or "Heavy, high-contrast drop shadows").
-
-## Output Guidelines
-
-- **Language:** Use descriptive design terminology and natural language exclusively
-- **Format:** Generate a clean Markdown file following the structure below
-- **Precision:** Include exact hex codes for colors while using descriptive names
-- **Context:** Explain the "why" behind design decisions, not just the "what"
-
-## Output Format (DESIGN.md Structure)
-
-```markdown
-# Design System: [Project Title]
-**Project ID:** [Insert Project ID Here]
-
-## 1. Visual Theme & Atmosphere
-(Description of the mood, density, and aesthetic philosophy.)
-
-## 2. Color Palette & Roles
-(List colors by Descriptive Name + Hex Code + Functional Role.)
-
-## 3. Typography Rules
-(Description of font family, weight usage for headers vs. body, and letter-spacing character.)
-
-## 4. Component Stylings
-* **Buttons:** (Shape description, color assignment, behavior).
-* **Cards/Containers:** (Corner roundness description, background color, shadow depth).
-* **Inputs/Forms:** (Stroke style, background).
-
-## 5. Layout Principles
-(Description of whitespace strategy, margins, and grid alignment.)
+components:              # token references in {curly.path} syntax
+  button-primary:
+    backgroundColor: "{colors.primary}"
+    textColor: "{colors.neutral}"
+    rounded: "{rounded.md}"
+    padding: 12px
+  button-primary-hover:
+    backgroundColor: "{colors.tertiary}"
+---
 ```
 
-## Usage Example
+### Required Markdown Sections (in order)
 
-To use this skill for the Furniture Collection project:
+`##` headings only. Sections may be omitted but must appear in this sequence:
 
-1. **Retrieve project information:**
-   ```
-   Use the Stitch MCP Server to get the Furniture Collection project
-   ```
+1. **Overview** (also "Brand & Style") — brand personality, target audience, emotional response
+2. **Colors** — palette rationale, semantic role per palette
+3. **Typography** — font stack, hierarchy logic, usage rules
+4. **Layout** (also "Layout & Spacing") — grid model, spacing rhythm, density philosophy
+5. **Elevation & Depth** — shadow strategy or flat-design alternative
+6. **Shapes** — corner-radius philosophy, geometric language
+7. **Components** — per-component style rules (buttons, chips, lists, tooltips, inputs, etc.)
+8. **Do's and Don'ts** — practical guardrails (e.g., "Do use primary only for the single most important action per screen")
 
-2. **Get the Home page screen details:**
-   ```
-   Retrieve the Home page screen's code, image, and screen object information
-   ```
+### Token Reference Syntax
 
-3. **Reference best practices:**
-   ```
-   Review the Stitch Effective Prompting Guide at:
-   https://stitch.withgoogle.com/docs/learn/prompting/
-   ```
+Inside the YAML, refer to other tokens with `{path.to.token}`:
+- `"{colors.primary}"` — must point to a primitive value, not a group
+- Inside `components:`, references to composite values are allowed: `"{typography.body-md}"`
 
-4. **Analyze and synthesize:**
-   - Extract all relevant design tokens from the screen
-   - Translate technical values into descriptive language
-   - Organize information according to the DESIGN.md structure
+### Component Property Tokens
 
-5. **Generate the file:**
-   - Create `DESIGN.md` in the project directory
-   - Follow the prescribed format exactly
-   - Ensure all color codes are accurate
-   - Use evocative, designer-friendly language
+`backgroundColor`, `textColor`, `typography`, `rounded`, `padding`, `size`, `height`, `width`. Variants use suffixed keys: `button-primary`, `button-primary-hover`, `button-primary-active`.
 
-## Best Practices
+## CLI — `@google/design.md`
 
-- **Be Descriptive:** Avoid generic terms like "blue" or "rounded." Use "Ocean-deep Cerulean (#0077B6)" or "Gently curved edges"
-- **Be Functional:** Always explain what each design element is used for
-- **Be Consistent:** Use the same terminology throughout the document
-- **Be Visual:** Help readers visualize the design through your descriptions
-- **Be Precise:** Include exact values (hex codes, pixel values) in parentheses after natural language descriptions
+The official npm package provides four commands. Always run via `npx` to use the pinned version from `package.json`:
 
-## Tips for Success
+```bash
+# Validate structure + WCAG contrast checks
+npx @google/design.md lint DESIGN.md [--format json]
 
-1. **Start with the big picture:** Understand the overall aesthetic before diving into details
-2. **Look for patterns:** Identify consistent spacing, sizing, and styling patterns
-3. **Think semantically:** Name colors by their purpose, not just their appearance
-4. **Consider hierarchy:** Document how visual weight and importance are communicated
-5. **Reference the guide:** Use language and patterns from the Stitch Effective Prompting Guide
+# Compare two versions
+npx @google/design.md diff DESIGN.md DESIGN-v2.md [--format json]
 
-## Common Pitfalls to Avoid
+# Convert to other formats
+npx @google/design.md export --format tailwind DESIGN.md
+npx @google/design.md export --format dtcg DESIGN.md
 
-- ❌ Using technical jargon without translation (e.g., "rounded-xl" instead of "generously rounded corners")
-- ❌ Omitting color codes or using only descriptive names
-- ❌ Forgetting to explain functional roles of design elements
-- ❌ Being too vague in atmosphere descriptions
-- ❌ Ignoring subtle design details like shadows or spacing patterns
+# Output the spec itself (handy for agent injection)
+npx @google/design.md spec [--rules] [--rules-only] [--format markdown|json]
+```
+
+### The 7 Lint Rules
+
+| Rule | Severity | Auto-fix? |
+|---|---|---|
+| `broken-ref` | **error** | Yes — replace with literal value or correct path |
+| `missing-primary` | warning | Yes — promote most-used color to `primary` |
+| `contrast-ratio` | warning | Yes — adjust shade to meet WCAG AA (4.5:1 normal, 3:1 large) |
+| `orphaned-tokens` | warning | Manual — remove if truly unused, or document use |
+| `token-summary` | info | N/A (informational) |
+| `missing-sections` | info | Yes — generate stub from prose |
+| `section-order` | warning | Yes — reorder to canonical sequence |
+
+When linting reports findings, **fix in order**: broken-ref first, contrast next, then warnings, then info. Re-lint after each fix.
+
+## The Brand Library
+
+Local at `knowledge/design-libraries/brands/` — 59 production-quality DESIGN.md files cloned from the getdesign.md corpus (MIT license, attribution preserved at `knowledge/design-libraries/LICENSE`).
+
+Browse: [knowledge/design-libraries/INDEX.md](../../knowledge/design-libraries/INDEX.md) — slug → path → 1-line aesthetic descriptor.
+
+Lookup: `python3 execution/design_md_brand_lookup.py search "minimal dev tools"` — semantic search across the library.
+
+Import: `python3 execution/design_md_brand_lookup.py use linear --to ./project/DESIGN.md` — copies a brand file as a project starter.
+
+Fallback: if the user names a brand not in the local library, fall back to `npx getdesign@latest add <slug>` to fetch from upstream.
+
+## The Tier 1.5 Recall Hook
+
+Synthesizing fresh DESIGN.md from a brief is grounding-relevant (brand/voice/aesthetic domain). Per `directives/recall-grounding-protocol.md`, fire `mcp__recall__search` automatically before drafting tokens — pull 1-3 high-signal cards on the named aesthetic, brand archetypes, or design movements. Inject as source material; skip silently if signal is weak.
+
+## Quality Bar
+
+Every DESIGN.md you produce must:
+1. **Pass lint** with 0 errors and ≤ 2 warnings
+2. **Pass WCAG AA** for every defined component pair (4.5:1 normal text, 3:1 large)
+3. **Earn its tokens** — every color, typography level, and component must appear in the markdown rationale, not just the YAML
+4. **Carry intent** — the `description` must be evocative and specific (not "a clean, modern design system" — name the cultural anchor: "Bauhaus precision meets neon-noir," "Scandinavian editorial gallery," etc.)
+5. **Be composable** — components reference tokens, not literal values, so future swaps cascade
+
+## Cross-Skill Routing
+
+| Need | Defer to |
+|---|---|
+| Generate UI components from this DESIGN.md | `skills/product-design-build/` |
+| Cinematic video / AI image prompts inheriting these tokens | `skills/creative-direction/` (with DESIGN.md attached as context) |
+| Premium website build using this brand | `skills/andy-lo-premium-websites/` |
+| Frontend code architecture beyond styling | `skills/frontend-design/` |
+| Deep design philosophy / first principles | `skills/jack-roberts-design-mastery/workflows/design-philosophy-architect.md` |
+| Taste calibration before token decisions | `skills/oren-taste-development/`, `skills/nate-b-jones-ai-taste-mastery/` |
+
+## Compound Pairings
+
+Best results come from chaining: **synthesize → validate → product-design-build → creative-direction (for marketing assets in same brand)**. The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates this chain end-to-end.
+
+## See Also
+
+- Tier 2 deep reference: [genius.md](genius.md) — token theory, WCAG math, lint-fix patterns, brand-library decision tree, cross-domain bridges
+- Examples: [examples/yaml-token-format.md](examples/yaml-token-format.md), [examples/full-spec.md](examples/full-spec.md)
+- Legacy descriptive-prose format (preserved): [examples/legacy-prose-format.md](examples/legacy-prose-format.md)
+- Official spec: https://github.com/google-labs-code/design.md

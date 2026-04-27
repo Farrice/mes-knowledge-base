@@ -1,0 +1,22 @@
+Design Library Attribution
+==========================
+
+The DESIGN.md files in `brands/` are sourced from the getdesign.md project
+(https://getdesign.md/) and the VoltAgent/awesome-design-md collection
+(https://github.com/VoltAgent/awesome-design-md), distributed under the MIT
+License (see LICENSE in this directory).
+
+These files are inspired by publicly-visible design choices of named brands.
+They are not affiliated with, endorsed by, or representative of the
+trademark holders. They serve as design system references for AI agents.
+
+Each file contains the design language interpretation as authored by the
+upstream contributors. Modifications to vendored files in this repository
+should preserve attribution at the top of the file.
+
+Vendored: 2026-04-27 via `npx getdesign@latest add <slug>`
+Brand count: 58 (of 59 attempted; semrush failed and was skipped)
+
+For attribution to specific brands referenced (Apple, Stripe, Linear, etc.):
+all trademarks remain with their respective owners. The DESIGN.md files
+represent design-system interpretations, not official brand assets.
