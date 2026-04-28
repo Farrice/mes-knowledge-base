@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parallax LinkedIn Carousel Cover</title>
+<!--
+  PARALLAX LINKEDIN CAROUSEL COVER (first slide)
+  Aspect ratio 4:5 (1080×1350) — LinkedIn-optimized vertical document carousel.
+  Cross-promotes a Parallax edition. Same brand language as everything else; the carousel slides that follow inherit the system.
+
+  USAGE:
+    Edit data-edition, data-title, data-hook
+    Open in browser, screenshot 1080×1350
+
+  Internal slides (slides 2-N) use the same color system, Source Serif 4 for body, Space Grotesk for slide headlines, single violet element per slide max.
+  Final slide is a CTA-card pointing to the Parallax URL.
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Source+Serif+4:ital,wght@1,400&family=JetBrains+Mono:wght@500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #2a2a2c; min-height: 100vh; }
+  body { display: flex; align-items: center; justify-content: center; padding: 40px; }
+
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    background: #1C1C1E;
+    color: #F5F0EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.5);
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .edition-number {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7B61FF;
+  }
+
+  .swipe-cue {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F5F0EB;
+    opacity: 0.5;
+  }
+
+  .body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hook {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    color: #F5F0EB;
+    margin-bottom: 32px;
+  }
+
+  .slide.long-hook .hook { font-size: 52px; }
+  .slide.very-long-hook .hook { font-size: 44px; }
+
+  .tagline-edition {
+    font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+    font-style: italic;
+    font-size: 24px;
+    color: #F5F0EB;
+    opacity: 0.7;
+    line-height: 1.5;
+    margin-top: 16px;
+  }
+
+  .rule {
+    width: 80px;
+    height: 1px;
+    background: #7B61FF;
+    margin-top: 48px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .wordmark {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #F5F0EB;
+  }
+  .wordmark .accent { color: #7B61FF; }
+
+  .read-cue {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F5F0EB;
+    opacity: 0.5;
+    text-align: right;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide" id="slide"
+     data-edition="002"
+     data-hook="The pick-one-thing advice is a cage with better lighting."
+     data-title="The Coachella Reckoning">
+  <div class="top">
+    <div class="edition-number" id="edition-number">EDITION 002</div>
+    <div class="swipe-cue">SWIPE →</div>
+  </div>
+  <div class="body">
+    <h1 class="hook" id="hook">Loading…</h1>
+    <p class="tagline-edition" id="title">Loading…</p>
+    <div class="rule"></div>
+  </div>
+  <div class="footer">
+    <div class="wordmark">PARAL<span class="accent">L</span>AX</div>
+    <div class="read-cue">read the<br>full edition →</div>
+  </div>
+</div>
+
+<script>
+  const s = document.getElementById('slide');
+  const edition = s.dataset.edition || '001';
+  const hook = s.dataset.hook || '';
+  const title = s.dataset.title || '';
+
+  document.getElementById('edition-number').textContent = `EDITION ${edition.padStart(3, '0')}`;
+  document.getElementById('hook').textContent = hook;
+  document.getElementById('title').textContent = title;
+
+  if (hook.length > 80) s.classList.add('long-hook');
+  if (hook.length > 130) s.classList.add('very-long-hook');
+</script>
+
+</body>
+</html>

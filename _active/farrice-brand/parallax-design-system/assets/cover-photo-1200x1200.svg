@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Parallax Substack Publication Cover (1200x1200)
+  Wordmark at 40% from top, tagline below, 1px violet rule, generous negative space.
+  Spec: parallax-design-system/DESIGN.md → components.cover-frame
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="1200" height="1200" role="img" aria-label="Parallax — for people who see everything from more than one angle">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Source+Serif+4:ital,wght@1,400&display=swap');
+      .wordmark {
+        font-family: 'Space Grotesk', system-ui, sans-serif;
+        font-weight: 700;
+        font-size: 140px;
+        letter-spacing: 0.02em;
+      }
+      .tagline {
+        font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 24px;
+        opacity: 0.5;
+      }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="1200" height="1200" fill="#1C1C1E"/>
+
+  <!-- Wordmark, centered horizontally, ~40% from top -->
+  <g transform="translate(600, 480)" text-anchor="middle">
+    <text class="wordmark" dominant-baseline="middle">
+      <tspan fill="#F5F0EB">PARAL</tspan><tspan fill="#7B61FF">L</tspan><tspan fill="#F5F0EB">AX</tspan>
+    </text>
+  </g>
+
+  <!-- Tagline -->
+  <text class="tagline" x="600" y="565" text-anchor="middle" fill="#F5F0EB">For people who see everything from more than one angle</text>
+
+  <!-- Violet rule below tagline -->
+  <line x1="450" y1="610" x2="750" y2="610" stroke="#7B61FF" stroke-width="1"/>
+</svg>

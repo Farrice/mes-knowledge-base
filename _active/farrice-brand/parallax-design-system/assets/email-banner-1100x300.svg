@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Parallax Email Banner (1100x300) — for Substack email header
+  Minimal: wordmark at ~32px cap height, left-aligned, vertically centered, 48px from left edge.
+  The header should be invisible to the eye, confident in stance.
+  Spec: parallax-design-system/DESIGN.md → components.email-banner
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" role="img" aria-label="PARALLAX">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+      .wordmark-sm {
+        font-family: 'Space Grotesk', system-ui, sans-serif;
+        font-weight: 700;
+        font-size: 44px;
+        letter-spacing: 0.02em;
+      }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="1100" height="300" fill="#1C1C1E"/>
+  <g transform="translate(48, 150)">
+    <text class="wordmark-sm" dominant-baseline="middle">
+      <tspan fill="#F5F0EB">PARAL</tspan><tspan fill="#7B61FF">L</tspan><tspan fill="#F5F0EB">AX</tspan>
+    </text>
+  </g>
+</svg>

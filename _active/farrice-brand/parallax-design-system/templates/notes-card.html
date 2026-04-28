@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parallax Notes Visual Card Template</title>
+<!--
+  PARALLAX NOTES VISUAL CARD
+  Optional visual treatment for major Substack Notes when a graphic enhances the text.
+  Substack Notes are primarily text — only use this when the Note is a major asset drop, manifesto moment,
+  or a counterintuitive line that benefits from visual amplification. Default to text-only Notes.
+
+  Five archetype variants — match the Notes Trailer Playbook archetypes:
+    - origin-wound: vulnerability moment, slightly desaturated
+    - asset-drop: a Copy-Paste Asset (e.g., a framework, a list)
+    - counterintuitive: the resonant line, all-caps treatment
+    - public-reckoning: confessional, italic emphasis
+    - bridge: forward anticipation, small footer line
+
+  Default size: 1080×1350 (Substack Notes vertical-friendly aspect ratio)
+  Spec: parallax-design-system/DESIGN.md (extends Components section)
+
+  USAGE:
+    Edit data-archetype, data-text, data-edition on the .note-card element.
+    Open in browser, screenshot the 1080×1350 region.
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=Source+Serif+4:ital,wght@0,400;1,400&family=JetBrains+Mono:wght@500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #2a2a2c; min-height: 100vh; }
+  body { display: flex; align-items: center; justify-content: center; padding: 40px; }
+
+  .note-card {
+    width: 1080px;
+    height: 1350px;
+    background: #1C1C1E;
+    color: #F5F0EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.5);
+  }
+
+  .archetype-label {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7B61FF;
+    margin-bottom: 48px;
+  }
+
+  .text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: #F5F0EB;
+  }
+
+  /* Archetype-specific tweaks */
+  .note-card[data-archetype="counterintuitive"] .text {
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .note-card[data-archetype="public-reckoning"] .text {
+    font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .note-card[data-archetype="origin-wound"] {
+    color: #d8d4ce;
+  }
+  .note-card[data-archetype="origin-wound"] .text {
+    font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  .note-card[data-archetype="bridge"] .text {
+    font-size: 44px;
+  }
+
+  .note-card.long .text { font-size: 44px; }
+  .note-card.very-long .text { font-size: 36px; }
+
+  .footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .edition-tag {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F5F0EB;
+    opacity: 0.6;
+  }
+
+  .wordmark-mini {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #F5F0EB;
+  }
+  .wordmark-mini .accent { color: #7B61FF; }
+
+  .rule {
+    width: 100%;
+    height: 1px;
+    background: rgba(123, 97, 255, 0.3);
+    margin-bottom: 24px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Demo: Counterintuitive Truth (Edition 01 launch) -->
+<div class="note-card" id="card"
+     data-archetype="counterintuitive"
+     data-text="The pick-one-thing advice is a cage with better lighting. You're not free. People just clap for you in a smaller room."
+     data-edition="Edition 001">
+  <div class="archetype-label" id="archetype-label">COUNTERINTUITIVE TRUTH</div>
+  <div class="text" id="text">Loading…</div>
+  <div class="footer">
+    <div class="edition-tag" id="edition-tag">PARALLAX · EDITION 001</div>
+    <div class="wordmark-mini">PARAL<span class="accent">L</span>AX</div>
+  </div>
+</div>
+
+<script>
+  const card = document.getElementById('card');
+  const archetypeLabels = {
+    'origin-wound': 'ORIGIN WOUND',
+    'asset-drop': 'ASSET DROP',
+    'counterintuitive': 'COUNTERINTUITIVE TRUTH',
+    'public-reckoning': 'PUBLIC RECKONING',
+    'bridge': 'BRIDGE',
+  };
+  const a = card.dataset.archetype || 'counterintuitive';
+  const t = card.dataset.text || '';
+  const e = card.dataset.edition || 'Edition 001';
+
+  document.getElementById('archetype-label').textContent = archetypeLabels[a] || a.toUpperCase();
+  document.getElementById('text').textContent = t;
+  document.getElementById('edition-tag').textContent = `PARALLAX · ${e.toUpperCase()}`;
+
+  if (t.length > 120) card.classList.add('long');
+  if (t.length > 200) card.classList.add('very-long');
+</script>
+
+</body>
+</html>

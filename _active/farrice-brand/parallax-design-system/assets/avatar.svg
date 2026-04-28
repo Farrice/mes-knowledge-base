@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Parallax Avatar — circular, for Substack profile + author byline
+  Solid #1C1C1E ink fill, single "P" in violet at 144px (large text — passes WCAG 4.05:1 for ≥48px).
+  Spec: parallax-design-system/DESIGN.md → components.avatar
+  Native size 256x256; Substack auto-scales for byline (32-48px) and profile (256px). Always export at 512px+ for retina.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Parallax avatar">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+      .avatar-letter {
+        font-family: 'Space Grotesk', system-ui, sans-serif;
+        font-weight: 700;
+        font-size: 144px;
+        letter-spacing: 0;
+        dominant-baseline: central;
+      }
+    ]]></style>
+  </defs>
+  <circle cx="128" cy="128" r="128" fill="#1C1C1E"/>
+  <text class="avatar-letter" x="128" y="138" text-anchor="middle" fill="#7B61FF">P</text>
+</svg>

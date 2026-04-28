@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parallax Pull-Quote Template</title>
+<!--
+  PARALLAX PULL-QUOTE GRAPHIC
+  For amplifying restack-worthy lines from editions on Substack Notes / LinkedIn / X.
+  Default size: 1200×1200 (square — works for Notes + LinkedIn). Variant: 1080×1080 for Instagram.
+  Spec: parallax-design-system/DESIGN.md → components.pull-quote
+
+  USAGE:
+    1. Edit data-quote and data-attribution on the .quote-card element
+    2. Open in browser, screenshot the 1200×1200 region
+
+  RULES:
+    - Solid #1C1C1E background
+    - Quote in Space Grotesk Bold, 32-40px (auto-shrinks for length)
+    - Single 1px violet rule, 100px, between quote and attribution
+    - Attribution in JetBrains Mono, violet, uppercase, +12% letter-spacing
+    - Max 6 lines of quote
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #2a2a2c; min-height: 100vh; }
+  body { display: flex; align-items: center; justify-content: center; padding: 40px; }
+
+  .quote-card {
+    width: 1200px;
+    height: 1200px;
+    background: #1C1C1E;
+    color: #F5F0EB;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.5);
+  }
+
+  .quote {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: #F5F0EB;
+    max-width: 100%;
+  }
+
+  .quote-card.long .quote { font-size: 44px; }
+  .quote-card.very-long .quote { font-size: 36px; }
+
+  .quote-card .quote::before {
+    content: '"';
+    color: #7B61FF;
+    margin-right: 8px;
+  }
+  .quote-card .quote::after {
+    content: '"';
+    color: #7B61FF;
+    margin-left: 4px;
+  }
+
+  .rule {
+    width: 100px;
+    height: 1px;
+    background: #7B61FF;
+    margin-top: 60px;
+  }
+
+  .attribution {
+    margin-top: 32px;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #7B61FF;
+  }
+
+  .wordmark-corner {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #F5F0EB;
+    opacity: 0.7;
+  }
+  .wordmark-corner .accent { color: #7B61FF; }
+</style>
+</head>
+<body>
+
+<div class="quote-card" id="card"
+     data-quote="The pick-one-thing advice is a cage with better lighting."
+     data-attribution="Parallax · Edition 001">
+  <p class="quote" id="quote-text">The pick-one-thing advice is a cage with better lighting.</p>
+  <div class="rule"></div>
+  <p class="attribution" id="attribution-text">Parallax · Edition 001</p>
+  <div class="wordmark-corner">PARAL<span class="accent">L</span>AX</div>
+</div>
+
+<script>
+  const card = document.getElementById('card');
+  const quoteEl = document.getElementById('quote-text');
+  const attrEl = document.getElementById('attribution-text');
+
+  const quote = card.dataset.quote || quoteEl.textContent;
+  const attribution = card.dataset.attribution || attrEl.textContent;
+
+  quoteEl.textContent = quote;
+  attrEl.textContent = attribution;
+
+  if (quote.length > 100) card.classList.add('long');
+  if (quote.length > 160) card.classList.add('very-long');
+</script>
+
+</body>
+</html>

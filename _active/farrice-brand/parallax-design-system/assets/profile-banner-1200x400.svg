@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Parallax Profile Banner (1200x400) — Substack profile + LinkedIn cover
+  Two-plane composition:
+    LEFT: vertical word stack (the polymath list) in JetBrains Mono, violet at 40% opacity
+    RIGHT: wordmark at ~32px cap height
+  The two planes at different opacities, fonts, alignments create depth through contrast — the parallax made visible.
+  Spec: parallax-design-system/DESIGN.md → components.profile-banner
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Parallax profile banner">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@400&display=swap');
+      .wordmark-sm {
+        font-family: 'Space Grotesk', system-ui, sans-serif;
+        font-weight: 700;
+        font-size: 56px;
+        letter-spacing: 0.02em;
+      }
+      .stack {
+        font-family: 'JetBrains Mono', ui-monospace, monospace;
+        font-weight: 400;
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        opacity: 0.45;
+      }
+    ]]></style>
+  </defs>
+  <rect x="0" y="0" width="1200" height="400" fill="#1C1C1E"/>
+
+  <!-- LEFT plane: polymath stack -->
+  <g transform="translate(80, 110)" fill="#7B61FF">
+    <text class="stack" y="0">psychology</text>
+    <text class="stack" y="32">AI systems</text>
+    <text class="stack" y="64">fatherhood</text>
+    <text class="stack" y="96">anime</text>
+    <text class="stack" y="128">spirituality</text>
+    <text class="stack" y="160">strategy</text>
+  </g>
+
+  <!-- RIGHT plane: wordmark -->
+  <g transform="translate(1120, 200)" text-anchor="end">
+    <text class="wordmark-sm" dominant-baseline="middle">
+      <tspan fill="#F5F0EB">PARAL</tspan><tspan fill="#7B61FF">L</tspan><tspan fill="#F5F0EB">AX</tspan>
+    </text>
+  </g>
+</svg>

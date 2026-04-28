@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax — Brand Book</title>
+<meta name="description" content="The complete brand system for Parallax. Visual identity, voice, photography direction, content templates.">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+  :root {
+    --ink: #1C1C1E;
+    --violet: #7B61FF;
+    --warm: #F5F0EB;
+    --warm-50: rgba(245, 240, 235, 0.5);
+    --warm-30: rgba(245, 240, 235, 0.3);
+    --warm-15: rgba(245, 240, 235, 0.15);
+    --violet-30: rgba(123, 97, 255, 0.3);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--ink);
+    color: var(--warm);
+    font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+
+  /* ─── Type system ─── */
+  h1, h2, h3, .wordmark, .label-mono {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+  }
+  .label-mono, .mono {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--violet);
+    font-weight: 500;
+  }
+
+  /* ─── Cover section ─── */
+  .cover {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 40px;
+  }
+  .cover .wordmark {
+    font-size: clamp(80px, 14vw, 180px);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1;
+  }
+  .cover .wordmark .accent { color: var(--violet); }
+  .cover .tagline {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: clamp(20px, 2.4vw, 28px);
+    color: var(--warm-50);
+    margin-top: 32px;
+    max-width: 720px;
+  }
+  .cover .rule {
+    width: 200px; height: 1px; background: var(--violet);
+    margin: 48px 0 64px;
+  }
+  .cover .meta {
+    margin-top: 0;
+  }
+  .cover .meta .label-mono { display: block; opacity: 0.6; }
+  .cover .meta strong {
+    display: block;
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 18px;
+    color: var(--warm);
+    margin-top: 8px;
+    font-weight: 400;
+  }
+
+  /* ─── Section structure ─── */
+  section {
+    padding: 120px 0;
+    border-top: 1px solid var(--warm-15);
+  }
+  .section-num {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 14px;
+    color: var(--violet);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  h2 {
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+    margin-bottom: 32px;
+  }
+  h2 .accent { color: var(--violet); }
+  h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 64px;
+    margin-bottom: 24px;
+    letter-spacing: -0.005em;
+  }
+  p {
+    margin-bottom: 24px;
+    max-width: 70ch;
+  }
+  p strong { color: var(--warm); font-weight: 600; }
+  em { color: var(--warm); font-style: italic; }
+  a { color: var(--violet); text-decoration: none; border-bottom: 1px dotted var(--violet); }
+
+  ul {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+  ul li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    max-width: 70ch;
+  }
+  ul li::before {
+    content: '·';
+    color: var(--violet);
+    font-weight: 700;
+    position: absolute;
+    left: 8px;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  /* ─── Brand essence card ─── */
+  .essence-card {
+    background: rgba(123, 97, 255, 0.05);
+    border-left: 1px solid var(--violet);
+    padding: 32px 40px;
+    margin: 48px 0;
+    max-width: 720px;
+  }
+  .essence-card .label-mono { display: block; margin-bottom: 16px; }
+  .essence-card .essence-text {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 28px;
+    line-height: 1.3;
+    color: var(--warm);
+    font-weight: 700;
+    letter-spacing: -0.005em;
+  }
+
+  /* ─── Color swatches ─── */
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin: 32px 0;
+  }
+  .swatch {
+    border: 1px solid var(--warm-15);
+    padding: 32px 24px;
+    border-radius: 0;
+  }
+  .swatch.violet { background: var(--violet); border-color: var(--violet); }
+  .swatch.warm { background: var(--warm); color: var(--ink); border-color: var(--warm); }
+  .swatch.ink { background: var(--ink); }
+  .swatch .swatch-name {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .swatch .swatch-hex {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-bottom: 16px;
+  }
+  .swatch .swatch-role {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .swatch.warm .swatch-hex,
+  .swatch.warm .swatch-role { color: var(--ink); opacity: 0.7; }
+  .swatch.violet .swatch-name,
+  .swatch.violet .swatch-hex,
+  .swatch.violet .swatch-role { color: var(--warm); }
+
+  /* ─── Type specimens ─── */
+  .type-spec {
+    border-top: 1px solid var(--warm-15);
+    padding: 24px 0;
+  }
+  .type-spec .label-mono { margin-bottom: 12px; }
+  .type-spec.display .specimen {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+  }
+  .type-spec.headline .specimen {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .type-spec.body .specimen {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  .type-spec.italic .specimen {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 600px;
+  }
+  .type-spec.mono .specimen {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  /* ─── Asset gallery ─── */
+  .asset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin: 32px 0 16px;
+  }
+  .asset-card {
+    border: 1px solid var(--warm-15);
+    overflow: hidden;
+  }
+  .asset-card .asset-frame {
+    background: #2a2a2c;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .asset-card.wide .asset-frame { aspect-ratio: 11 / 3; padding: 16px; }
+  .asset-card.banner .asset-frame { aspect-ratio: 3 / 1; padding: 16px; }
+  .asset-card.og .asset-frame { aspect-ratio: 1.91 / 1; padding: 16px; }
+  .asset-card .asset-frame svg,
+  .asset-card .asset-frame embed,
+  .asset-card .asset-frame iframe {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: auto;
+  }
+  .asset-card .asset-meta {
+    padding: 16px 24px;
+    border-top: 1px solid var(--warm-15);
+  }
+  .asset-card .asset-meta .label-mono { display: block; margin-bottom: 4px; }
+  .asset-card .asset-meta .desc {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--warm-50);
+  }
+
+  /* ─── Two-column ─── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    margin: 32px 0;
+  }
+  @media (max-width: 720px) { .two-col { grid-template-columns: 1fr; } }
+  .col h3 { margin-top: 0; }
+  .col.do h3 { color: var(--violet); }
+  .col.dont h3 { color: var(--warm); }
+  .col.dont h3::before { content: '✗  '; color: var(--warm-30); }
+  .col.do h3::before { content: '✓  '; color: var(--violet); }
+
+  /* ─── Footer ─── */
+  footer {
+    padding: 80px 40px 48px;
+    border-top: 1px solid var(--warm-15);
+    text-align: center;
+    color: var(--warm-50);
+    font-size: 14px;
+  }
+  footer .wordmark-small {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.02em;
+    color: var(--warm);
+    margin-bottom: 16px;
+  }
+  footer .wordmark-small .accent { color: var(--violet); }
+
+  /* ─── Inline wordmark in headers ─── */
+  .inline-wordmark {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .inline-wordmark .accent { color: var(--violet); }
+
+  /* ─── TOC ─── */
+  .toc {
+    margin: 32px 0 48px;
+    padding: 32px 40px;
+    border-left: 1px solid var(--violet);
+    background: rgba(123, 97, 255, 0.04);
+  }
+  .toc ol {
+    list-style: none;
+    counter-reset: section;
+    column-count: 2;
+    column-gap: 32px;
+  }
+  @media (max-width: 720px) { .toc ol { column-count: 1; } }
+  .toc ol li {
+    counter-increment: section;
+    margin-bottom: 8px;
+    padding-left: 0;
+    break-inside: avoid;
+    line-height: 1.4;
+  }
+  .toc ol li::before { content: ''; }
+  .toc ol li a {
+    border-bottom: none;
+    color: var(--warm);
+    font-family: 'Source Serif 4', Georgia, serif;
+    display: inline-block;
+  }
+  .toc ol li a::before {
+    content: counter(section, decimal-leading-zero);
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    color: var(--violet);
+    font-size: 13px;
+    margin-right: 12px;
+    letter-spacing: 0.1em;
+  }
+  .toc ol li a:hover { border-bottom: 1px solid var(--violet); }
+
+  /* ─── Cultural anchors ─── */
+  .anchors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin: 48px 0;
+  }
+  @media (max-width: 720px) { .anchors { grid-template-columns: 1fr; } }
+  .anchor {
+    border: 1px solid var(--warm-15);
+    padding: 32px 28px;
+  }
+  .anchor .label-mono { display: block; margin-bottom: 16px; }
+  .anchor .anchor-name {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  .anchor .anchor-desc {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--warm-50);
+  }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     COVER
+═══════════════════════════════════════════════════════════════ -->
+<section class="cover">
+  <div class="wordmark">PARAL<span class="accent">L</span>AX</div>
+  <p class="tagline">For people who see everything from more than one angle</p>
+  <div class="rule"></div>
+  <div class="meta">
+    <div class="label-mono">Brand Book · Version 1.0</div>
+    <strong>2026-04-27 · Authored by Creative Director</strong>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     TABLE OF CONTENTS
+═══════════════════════════════════════════════════════════════ -->
+<section>
+  <div class="container">
+    <div class="section-num">CONTENTS</div>
+    <h2>The complete <span class="accent">brand</span> system in one document.</h2>
+
+    <p>The <span class="inline-wordmark">PARAL<span class="accent">L</span>AX</span> brand sits on a single design philosophy: <strong>the Virgil Abloh 3% Rule</strong>. Take the most familiar premium-newsletter format — clean typography on a solid background — and change exactly 3% of it. The 3% is the offset. One letter in violet. The visual hook of an editorial publication that doesn't apologize for being plural.</p>
+
+    <p>This document is the canonical reference. Everything else — assets, templates, voice, photography — derives from it.</p>
+
+    <div class="toc">
+      <ol>
+        <li><a href="#essence">Brand Essence</a></li>
+        <li><a href="#anchors">The Three Anchors</a></li>
+        <li><a href="#color">Color System</a></li>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#wordmark">The Wordmark</a></li>
+        <li><a href="#assets">Asset Library</a></li>
+        <li><a href="#templates">Content Templates</a></li>
+        <li><a href="#voice">Voice & Tone</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#ai-prompts">AI Image Prompts</a></li>
+        <li><a href="#dos-donts">Do's & Don'ts</a></li>
+        <li><a href="#future">Future Spec</a></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     1. BRAND ESSENCE
+═══════════════════════════════════════════════════════════════ -->
+<section id="essence">
+  <div class="container">
+    <div class="section-num">01 · Brand Essence</div>
+    <h2>The brand in <span class="accent">one</span> sentence.</h2>
+
+    <div class="essence-card">
+      <div class="label-mono">Brand Essence</div>
+      <div class="essence-text">A polymath's newsletter that flatters the reader's intelligence through restraint — and quietly refuses to pick a lane.</div>
+    </div>
+
+    <h3>What this is</h3>
+    <p><span class="inline-wordmark">PARAL<span class="accent">L</span>AX</span> is the publication for people who were told to pick one thing and never could. The visual identity is built on the premise that <em>recognition is more valuable than sophistication</em> at the early-brand stage. A wordmark with one violet letter is recognizable after a single exposure. Translucent geometric planes are not.</p>
+
+    <p>The cultural intersection is specific: <strong>Japanese minimalism meets hip-hop typography</strong>. Muji meets Madlib. Tadao Ando concrete walls with Griselda Records swagger. This is the founder's actual cultural register — biracial, polymath, technologist, modern philosopher, stay-at-home dad. Not cyberpunk. Not tech-startup. Not wellness-blog. Editorial gravitas with a quiet kind of confidence.</p>
+
+    <h3>The emotional architecture</h3>
+    <p>When a reader encounters anything <span class="inline-wordmark">PARAL<span class="accent">L</span>AX</span>, the emotional response should be — in order:</p>
+    <ul>
+      <li><strong>Recognition</strong> — "this is for people like me"</li>
+      <li><strong>Relief</strong> — "I don't have to explain myself here"</li>
+      <li><strong>Intrigue</strong> — "what's the slight shift I'm noticing?"</li>
+    </ul>
+    <p>Never: "this looks cool." Never: "this is sophisticated." Never: "this is a tech newsletter."</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     2. THE THREE ANCHORS
+═══════════════════════════════════════════════════════════════ -->
+<section id="anchors">
+  <div class="container">
+    <div class="section-num">02 · The Three Anchors</div>
+    <h2>Visual hook. Emotional core. Cultural anchor.</h2>
+
+    <p>Every <span class="inline-wordmark">PARAL<span class="accent">L</span>AX</span> asset, sentence, and decision passes through these three filters. If a piece doesn't carry one of the three, cut it or rewrite it.</p>
+
+    <div class="anchors">
+      <div class="anchor">
+        <div class="label-mono">Visual Hook</div>
+        <div class="anchor-name">The Offset</div>
+        <div class="anchor-desc">Every typographic element carries a subtle, deliberate misalignment that creates visual tension. Not random. Not chaotic. The kind of thing a designer notices immediately and a non-designer feels without knowing why. The second L in violet — that's the offset.</div>
+      </div>
+      <div class="anchor">
+        <div class="label-mono">Emotional Core</div>
+        <div class="anchor-name">Quiet Defiance</div>
+        <div class="anchor-desc">The feeling of someone who stopped apologizing for seeing the world differently. Not aggressive. Not rebellious. Settled. The visual equivalent of a person who walks into a room and doesn't adjust themselves to fit it.</div>
+      </div>
+      <div class="anchor">
+        <div class="label-mono">Cultural Anchor</div>
+        <div class="anchor-name">Muji × Madlib</div>
+        <div class="anchor-desc">Japanese minimalism meets hip-hop album typography. Tadao Ando concrete walls with Griselda Records swagger. The restraint of editorial publishing with the swagger of confessional rap. This is the actual cultural intersection of the founder.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     3. COLOR
+═══════════════════════════════════════════════════════════════ -->
+<section id="color">
+  <div class="container">
+    <div class="section-num">03 · Color System</div>
+    <h2>Two colors. <span class="accent">That's the whole system.</span></h2>
+
+    <p>Every iconic publication identity uses 1-2 colors, maximum. Five colors is a committee decision that never punched. When everything is monochrome except one color, that one color becomes <em>yours</em>.</p>
+
+    <div class="swatches">
+      <div class="swatch ink">
+        <div class="swatch-name">Ink</div>
+        <div class="swatch-hex">#1C1C1E</div>
+        <div class="swatch-role">Near-black. Not indigo, not navy. The absence of pretension. The dark canvas on which Parallax lives.</div>
+      </div>
+      <div class="swatch violet">
+        <div class="swatch-name">Violet</div>
+        <div class="swatch-hex">#7B61FF</div>
+        <div class="swatch-role">The 3%. The single point of attention. Used only where intent should land — never as decoration.</div>
+      </div>
+      <div class="swatch warm">
+        <div class="swatch-name">Warm White</div>
+        <div class="swatch-hex">#F5F0EB</div>
+        <div class="swatch-role">Body text on dark. Softer than pure white. Reads warmer at long-form length. Carries craft.</div>
+      </div>
+    </div>
+
+    <p><strong>Pure <code>#FFFFFF</code> never appears.</strong> <strong>Pure <code>#000000</code> never appears.</strong> Both feel cheap by comparison. The palette commits to its specific darks and warms with conviction.</p>
+
+    <h3>Color usage matrix</h3>
+    <ul>
+      <li><strong>Ink</strong> — All primary surfaces (covers, banners, cards, web body). Default background.</li>
+      <li><strong>Warm White</strong> — All body text on ink. Always. (Pure white if-and-only-if Substack's editor forces it.)</li>
+      <li><strong>Violet</strong> — Reserved for: the second L of the wordmark, primary CTA buttons, edition numbers, divider rules under wordmarks/quotes. <em>One violet element per composition is the maximum.</em> Two is sprawl. Zero is acceptable.</li>
+    </ul>
+
+    <h3>Accessibility</h3>
+    <p>Warm white on ink: <strong>14:1 contrast</strong> — well over WCAG AAA. Violet on ink: <strong>4.05:1</strong> — passes AA for large/bold text only (≥18pt regular, ≥14pt bold). Violet on warm white: <strong>4.4:1</strong> — same large/bold restriction. Never use violet for body copy.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     4. TYPOGRAPHY
+═══════════════════════════════════════════════════════════════ -->
+<section id="typography">
+  <div class="container">
+    <div class="section-num">04 · Typography</div>
+    <h2>Three typefaces. <span class="accent">Three jobs.</span> No overlap.</h2>
+
+    <p>The discipline is the brand. Never use Space Grotesk for body. Never use Source Serif for the wordmark. The system holds because the assignments are absolute.</p>
+
+    <div class="type-spec display">
+      <div class="label-mono">Space Grotesk Bold · 700 · Headlines + Wordmark</div>
+      <div class="specimen">Quiet Defiance.</div>
+    </div>
+
+    <div class="type-spec headline">
+      <div class="label-mono">Space Grotesk Bold · 700 · Section heads</div>
+      <div class="specimen">For people who see everything from more than one angle.</div>
+    </div>
+
+    <div class="type-spec body">
+      <div class="label-mono">Source Serif 4 Regular · 400 · Body</div>
+      <div class="specimen">The pick-one-thing advice is a cage with better lighting. You're not free. People just clap for you in a smaller room.</div>
+    </div>
+
+    <div class="type-spec italic">
+      <div class="label-mono">Source Serif 4 Italic · 400 · Taglines, emphasis</div>
+      <div class="specimen">For people who see everything from more than one angle.</div>
+    </div>
+
+    <div class="type-spec mono">
+      <div class="label-mono">JetBrains Mono · 400-500 · Edition numbers, labels</div>
+      <div class="specimen">EDITION 002 · PARALLAXLETTER.SUBSTACK.COM</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     5. THE WORDMARK
+═══════════════════════════════════════════════════════════════ -->
+<section id="wordmark">
+  <div class="container">
+    <div class="section-num">05 · The Wordmark</div>
+    <h2>The <span class="accent">wordmark</span> is the logo. One artifact, not two.</h2>
+
+    <p><span class="inline-wordmark">PARAL<span class="accent">L</span>AX</span> does not have a logo mark. The "Shifting P" / "Prism Mark" / "Layered Lens" instinct is wrong — the word <em>is</em> the brand.</p>
+
+    <div class="asset-grid">
+      <div class="asset-card wide">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <object data="assets/wordmark.svg" type="image/svg+xml" style="width: 100%; height: 100%;"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">Wordmark · Dark Variant</div>
+          <div class="desc">Primary identity asset. Warm-white letters with the second L in violet. 1344×256.</div>
+        </div>
+      </div>
+      <div class="asset-card wide">
+        <div class="asset-frame" style="background: #F5F0EB;">
+          <object data="assets/wordmark-on-light.svg" type="image/svg+xml" style="width: 100%; height: 100%;"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">Wordmark · Light Variant</div>
+          <div class="desc">Ink letters on warm-white surfaces. Violet L stays — that's the brand constant.</div>
+        </div>
+      </div>
+    </div>
+
+    <h3>The rule of the violet L</h3>
+    <p>Counting <code>P-A-R-A-L-L-A-X</code>, the <strong>6th letter — the second L — is the one in violet</strong>. Every other letter is warm white (or ink, on light). Buried in the middle, the letter you don't expect to notice. The first letter would be obvious. The last would be try-hard. A letter that quietly breaks the pattern in the middle — that's <span class="inline-wordmark">PARAL<span class="accent">L</span>AX</span> made visible.</p>
+
+    <h3>Wordmark specs</h3>
+    <ul>
+      <li>Font: <strong>Space Grotesk Bold (700)</strong></li>
+      <li>Letter-spacing: <strong>+20</strong> (tight and confident, not loose and airy)</li>
+      <li>All caps. Always.</li>
+      <li>Padding: minimum 40px on all sides</li>
+      <li>Never cropped. Never rotated. Never stretched.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     6. ASSET LIBRARY
+═══════════════════════════════════════════════════════════════ -->
+<section id="assets">
+  <div class="container">
+    <div class="section-num">06 · Asset Library</div>
+    <h2>Nine core assets. <span class="accent">Ship-ready.</span></h2>
+
+    <p>All assets are <strong>SVG-native</strong> and live at <code>assets/</code> in this directory. Import directly into Substack, email clients, social platforms. Export to PNG at any size needed via Playwright or browser screenshot.</p>
+
+    <div class="asset-grid">
+
+      <div class="asset-card">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <object data="assets/avatar.svg" type="image/svg+xml" style="max-width: 256px;"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">avatar.svg · 256×256</div>
+          <div class="desc">Substack profile photo. Round crop. Single violet "P" — the minimum brand signature at smallest scale.</div>
+        </div>
+      </div>
+
+      <div class="asset-card">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <div style="display:flex; gap:24px; align-items:center;">
+            <object data="assets/favicon.svg" type="image/svg+xml" style="width: 32px; height: 32px;"></object>
+            <object data="assets/favicon.svg" type="image/svg+xml" style="width: 64px; height: 64px;"></object>
+          </div>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">favicon.svg · 32×32 + 64×64</div>
+          <div class="desc">Browser tab favicon. Square, sharp corners. Same logic as avatar but never circular.</div>
+        </div>
+      </div>
+
+      <div class="asset-card">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <object data="assets/cover-photo-1200x1200.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">cover-photo-1200x1200.svg</div>
+          <div class="desc">Substack publication cover. Wordmark + tagline + violet rule. Generous negative space.</div>
+        </div>
+      </div>
+
+      <div class="asset-card og">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <object data="assets/social-preview-1200x630.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">social-preview-1200x630.svg</div>
+          <div class="desc">Open Graph image for link shares on LinkedIn, X, Slack. Reads cleanly at thumbnail size.</div>
+        </div>
+      </div>
+
+      <div class="asset-card banner">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <object data="assets/email-banner-1100x300.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">email-banner-1100x300.svg</div>
+          <div class="desc">Substack email header. Wordmark left-aligned, vertically centered. Invisible-but-confident.</div>
+        </div>
+      </div>
+
+      <div class="asset-card banner">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <object data="assets/profile-banner-1200x400.svg" type="image/svg+xml"></object>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">profile-banner-1200x400.svg</div>
+          <div class="desc">The signature asset. Polymath stack on left + wordmark on right. Two visual planes — the parallax made visible.</div>
+        </div>
+      </div>
+
+      <div class="asset-card">
+        <div class="asset-frame" style="background: #1C1C1E;">
+          <iframe src="assets/edition-cover-template.html" style="width: 100%; height: 100%; border: 0; transform: scale(0.22); transform-origin: top left; width: 455%; height: 455%;"></iframe>
+        </div>
+        <div class="asset-meta">
+          <div class="label-mono">edition-cover-template.html</div>
+          <div class="desc">Parametric edition cover. Edit data attributes for number + title. Screenshot at 1200×1200.</div>
+        </div>
+      </div>
+
+    </div>
+
+    <h3>Production rules</h3>
+    <ul>
+      <li>Default to <strong>typographic-only</strong> covers for editions. AI imagery is seasoning, never the main course.</li>
+      <li>The wordmark is identical across every surface. Same font, same letter-spacing, same color logic, same proportions. Recognition compounds when the asset never changes.</li>
+      <li>If exporting to PNG: render at 2× retina resolution and export with transparent background where SVG is transparent.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     7. CONTENT TEMPLATES
+═══════════════════════════════════════════════════════════════ -->
+<section id="templates">
+  <div class="container">
+    <div class="section-num">07 · Content Templates</div>
+    <h2>Three packaging templates for <span class="accent">cross-platform</span> amplification.</h2>
+
+    <p>Three parametric HTML templates extend the brand into the social/restack/cross-promotion surfaces beyond the core asset kit. All in <code>templates/</code>.</p>
+
+    <ul>
+      <li><strong>pull-quote.html</strong> — restack-worthy lines from editions, formatted for sharing on Notes, LinkedIn, X. The memorable-line amplification surface.</li>
+      <li><strong>notes-card.html</strong> — visual treatment for major Substack Notes (Asset Drops, Counterintuitive Truths, Public Reckonings). Five archetype variants matching the Notes Trailer Playbook.</li>
+      <li><strong>linkedin-carousel-cover.html</strong> — first-slide template for LinkedIn carousel cross-promotion. Inherits the wordmark + violet L system.</li>
+    </ul>
+
+    <p><em>Most Notes are text-only.</em> Reach for visual cards only when the Note is a major asset drop or the line genuinely benefits from amplification. Default to text.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     8. VOICE & TONE
+═══════════════════════════════════════════════════════════════ -->
+<section id="voice">
+  <div class="container">
+    <div class="section-num">08 · Voice & Tone</div>
+    <h2><span class="accent">PARAL<span class="accent">L</span>AX</span> sounds like a friend who happens to be twelve people at once — and stopped apologizing for it.</h2>
+
+    <p>Not a guru. Not a thought leader. Not a coach. A specific, plural, deeply curious person who writes the way they think — and who will tell you the embarrassing truth before they tell you the marketable insight.</p>
+
+    <p>The full voice & tone guide lives at <a href="voice-and-tone.md">voice-and-tone.md</a>. The five non-negotiable rules:</p>
+
+    <ul>
+      <li><strong>Open with the thing itself, never the setup.</strong> No preamble. The first 7-10 words are the scene, not a runway to it.</li>
+      <li><strong>Confession beats observation.</strong> When Farrice inserts himself ("I spent years…", "I have a son"), the content becomes unmistakable.</li>
+      <li><strong>Rhythm varies intentionally.</strong> Short sentences land punches. Long sentences build pressure. Walls of text die in feed.</li>
+      <li><strong>Never summarize what the reader will find.</strong> Make them feel something, then leave the door open.</li>
+      <li><strong>Slot machine close.</strong> Every piece is satisfying on its own. The link is the full payoff, not the only payoff.</li>
+    </ul>
+
+    <h3>The narrative spine</h3>
+    <p style="font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; color: var(--warm); line-height: 1.3;">Scene or confession → The reframe that changes how you see it → One quiet invitation</p>
+
+    <h3>Banned phrases (do not use)</h3>
+    <ul>
+      <li>"Here's what/why/how…" — generic AI opener; rob the reader of the moment.</li>
+      <li>"Let's dive in" — performative.</li>
+      <li>"thought leader" — status word; brand is anti-status.</li>
+      <li>"It's not X. It's Y." — twin-sentence aphorism. AI structural tell.</li>
+      <li>"Picture this:" / "Imagine:" — cheesy hook stem.</li>
+      <li>Triple anaphora. Em-dashes &gt;2 per piece. Mid-essay "But here's the thing:" bridges.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     9. PHOTOGRAPHY
+═══════════════════════════════════════════════════════════════ -->
+<section id="photography">
+  <div class="container">
+    <div class="section-num">09 · Photography</div>
+    <h2>Real faces. <span class="accent">No AI humans.</span></h2>
+
+    <p>Editorial author photography aesthetic. Think Ta-Nehisi Coates' <em>New Yorker</em> portrait, Ocean Vuong's bookjacket, Rick Rubin on <em>The Creative Act</em> — direct gaze, no smile or just the suggestion, soft natural light, neutral wardrobe, neutral background.</p>
+
+    <p>Full direction at <a href="photography-direction.md">photography-direction.md</a>. The condensed version:</p>
+
+    <ul>
+      <li><strong>Frame:</strong> chest-up medium-close. 85mm equivalent at f/2.0-2.8.</li>
+      <li><strong>Expression:</strong> direct eye contact, mouth at rest. The breath between sentences.</li>
+      <li><strong>Wardrobe:</strong> solid black, charcoal, navy, or warm cream. No patterns, no logos.</li>
+      <li><strong>Background:</strong> solid wall — concrete, plaster, painted neutral. No props.</li>
+      <li><strong>Lighting:</strong> single window source or large soft key. No rim light. Slightly warm of pure daylight.</li>
+      <li><strong>Output:</strong> one photo. Use it everywhere. Recognition compounds when the asset never changes.</li>
+    </ul>
+
+    <p><strong>Do-not-shoot list:</strong> stock-photo aesthetic, glamour-style portraits, group photos, brand-asset shots, studio backdrops, smiling-with-teeth headshots, AI-generated humans of any kind.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     10. AI IMAGE PROMPTS
+═══════════════════════════════════════════════════════════════ -->
+<section id="ai-prompts">
+  <div class="container">
+    <div class="section-num">10 · AI Image Prompts</div>
+    <h2>Seasoning, <span class="accent">never the main course.</span></h2>
+
+    <p>For special editions where content demands a visual metaphor, AI imagery enters the system. Default editions use the typographic edition cover template. Full prompt library at <a href="prompts/special-edition-covers.md">prompts/special-edition-covers.md</a>.</p>
+
+    <h3>The working formula</h3>
+    <pre style="background: rgba(123,97,255,0.05); border-left: 1px solid var(--violet); padding: 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--warm); white-space: pre-wrap; line-height: 1.6; max-width: 720px; margin-bottom: 24px;">[Concrete physical subject], [specific lighting direction and color temperature],
+[specific real-world surface or environment], [specific film stock reference],
+editorial still-life photography, shallow depth of field, [mood],
+no text, no logos, no humans
+--ar 1:1 --s 200 --v 6.1</pre>
+
+    <h3>Aesthetic constants</h3>
+    <ul>
+      <li>Warm neutral palette — concrete grays, warm whites, ink shadows. No cinematic teal-orange grading.</li>
+      <li>Single directional light source — window, harsh sun, single Edison bulb. Long shadows.</li>
+      <li>Real materials — concrete, raw wood, matte paper, plaster, fabric.</li>
+      <li>Reference film stocks — Kodak Portra 400, Tri-X. Never digital VSCO/Instagram looks.</li>
+      <li>No people. No faces. No tech products. No screens. No branded objects.</li>
+    </ul>
+
+    <p>The image goes at 20-30% opacity, bottom-right of the edition cover template. Typography stays primary; the image is texture. Reserve full-frame imagery for ~1-in-10 editions maximum (manifestos, milestone editions).</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     11. DO'S AND DON'TS
+═══════════════════════════════════════════════════════════════ -->
+<section id="dos-donts">
+  <div class="container">
+    <div class="section-num">11 · Do's & Don'ts</div>
+    <h2>The brand <span class="accent">discipline</span> in two columns.</h2>
+
+    <div class="two-col">
+      <div class="col do">
+        <h3>Do</h3>
+        <ul>
+          <li>Use violet only where attention should land. One violet element per composition is the maximum.</li>
+          <li>Keep the wordmark identical across every surface — same font, same spacing, same color logic.</li>
+          <li>Use Space Grotesk Bold for all headlines and the wordmark. Always.</li>
+          <li>Use Source Serif 4 for all body text, taglines, italic emphasis.</li>
+          <li>Use JetBrains Mono only for edition numbers, technical labels, and the polymath stack.</li>
+          <li>Ship typographic-only covers as the default for editions.</li>
+          <li>Use generous padding. 80px on edition covers, 48px+ on email banners.</li>
+          <li>Maintain WCAG AA on every text/background pair.</li>
+          <li>Lock edition numbering: "EDITION 001" pattern. JetBrains Mono uppercase.</li>
+        </ul>
+      </div>
+      <div class="col dont">
+        <h3>Don't</h3>
+        <ul>
+          <li>Generate a logo mark. The wordmark IS the logo.</li>
+          <li>Introduce a third color. Two colors. One dark, one accent.</li>
+          <li>Use AI image generation for the wordmark, banners, or core identity.</li>
+          <li>Mix rounded and sharp corners in the same view.</li>
+          <li>Use drop shadows, gradients, glows, or any depth effect.</li>
+          <li>Use violet for body copy on warm white (4.4:1 contrast — large/bold only).</li>
+          <li>Use more than two type weights on a single composition.</li>
+          <li>Describe parallax visually. The word carries the concept.</li>
+          <li>Use AI-generated faces or human imagery anywhere.</li>
+          <li>Ship without the wordmark. Every public asset carries it.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     12. FUTURE SPEC
+═══════════════════════════════════════════════════════════════ -->
+<section id="future">
+  <div class="container">
+    <div class="section-num">12 · Future Spec</div>
+    <h2>What to add when <span class="accent">growth</span> demands it.</h2>
+
+    <p>Deliberately out of scope for v1.0. Add when the surface becomes real, not before — premature spec is brand-bloat.</p>
+
+    <ul>
+      <li><strong>Motion / animation direction</strong> — for video Notes, motion graphics, animated banners. Currently zero spec; add when Farrice ships first video edition.</li>
+      <li><strong>Print / merch direction</strong> — if Parallax ever ships swag (T-shirts, notebooks, stickers). The wordmark scales; the system needs guidelines for tactile materials.</li>
+      <li><strong>Podcast cover system</strong> — if Parallax podcast launches. Square 3000×3000, leveraging the wordmark + violet L identity.</li>
+      <li><strong>Email signature system</strong> — for Farrice's transactional emails (client work, partnerships). Wordmark + role + URL minimum.</li>
+      <li><strong>Edition typology refinement</strong> — different edition types (Manifesto / Deep Dive / Case Study / Reader Response) may want subtly different cover treatments. Current system uses one cover template; subtype variants can extend it.</li>
+      <li><strong>Lead magnet / Prompt Pack visual treatment</strong> — Prompt Packs currently inherit the publication design. A dedicated visual lockup can emerge once the Pack format matures.</li>
+      <li><strong>Conference / speaking presentation deck system</strong> — if Farrice speaks publicly representing Parallax, a Keynote/Slides template carries the brand.</li>
+      <li><strong>Custom domain</strong> — currently <code>parallaxletter.substack.com</code>. If a custom domain (<code>parallax.[tld]</code>) is acquired, update wordmark deployment, social previews, email banners.</li>
+    </ul>
+
+    <p>The DESIGN.md file is the source of truth. Adding to this future spec means proposing additions to <code>DESIGN.md</code> first, getting them lint-clean, then producing assets.</p>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════════════════════ -->
+<footer>
+  <div class="wordmark-small">PARAL<span class="accent">L</span>AX</div>
+  <p>For people who see everything from more than one angle.</p>
+  <p style="margin-top: 24px;"><a href="DESIGN.md">DESIGN.md</a> · <a href="voice-and-tone.md">Voice</a> · <a href="photography-direction.md">Photography</a> · <a href="prompts/special-edition-covers.md">AI Prompts</a></p>
+  <p style="margin-top: 24px; opacity: 0.5;">Brand Book v1.0 · 2026-04-27 · parallaxletter.substack.com</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Parallax Edition Cover Template</title>
+<!--
+  PARALLAX EDITION COVER TEMPLATE
+  Parametric HTML+CSS — replace [EDITION_NUMBER] and [EDITION_TITLE] for any edition.
+  Spec: parallax-design-system/DESIGN.md → components.edition-cover
+
+  USAGE:
+    1. Edit the data attributes on the .cover element below:
+         data-number="002"  ← three-digit zero-padded
+         data-title="Your edition title here, set in sentence case"
+    2. Open this file in a browser (Chrome/Safari/Firefox)
+    3. Screenshot the 1200×1200 region (or use Playwright to render headlessly)
+
+  EXPORT TO PNG (Playwright, headless):
+    mcp__playwright__browser_navigate("file:///path/to/edition-cover-template.html")
+    mcp__playwright__browser_resize(width: 1200, height: 1200)
+    mcp__playwright__browser_take_screenshot(filename: "edition-002-cover.png")
+
+  RULES (do not modify the CSS without updating DESIGN.md):
+    - Solid #1C1C1E background — no gradients, no images
+    - Edition number top-left in JetBrains Mono, violet, uppercase, +12% letter-spacing
+    - Title in Space Grotesk Bold, warm-white, left-aligned, 48-64px depending on length
+    - 1px violet rule below title at 200px wide
+    - Bottom 30%+ intentionally empty
+    - Optional small atmospheric AI image at bottom-right at 20-30% opacity for special editions only — NOT included in this default template; add manually for special covers
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&family=JetBrains+Mono:wght@500&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: #2a2a2c;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+  }
+
+  .cover {
+    width: 1200px;
+    height: 1200px;
+    background: #1C1C1E;
+    color: #F5F0EB;
+    padding: 80px;
+    position: relative;
+    box-sizing: border-box;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.5);
+  }
+
+  .edition-number {
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    color: #7B61FF;
+    text-transform: uppercase;
+  }
+
+  .title {
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: 0;
+    color: #F5F0EB;
+    margin-top: 32px;
+    max-width: 80%;
+  }
+
+  /* Auto-shrink for longer titles — JS sets a class if needed */
+  .cover.long-title .title { font-size: 48px; }
+  .cover.very-long-title .title { font-size: 40px; }
+
+  .rule {
+    width: 200px;
+    height: 1px;
+    background: #7B61FF;
+    margin-top: 48px;
+  }
+
+  .wordmark-corner {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #F5F0EB;
+    opacity: 0.7;
+  }
+  .wordmark-corner .accent { color: #7B61FF; }
+
+  /* Auto-render edition data from data attributes */
+  .cover::before {
+    content: attr(data-number-display);
+  }
+</style>
+</head>
+<body>
+
+<div class="cover" id="cover" data-number="002" data-title="The Coachella Reckoning">
+  <div class="edition-number" id="edition-number">EDITION 002</div>
+  <h1 class="title" id="edition-title">The Coachella Reckoning</h1>
+  <div class="rule"></div>
+  <div class="wordmark-corner">PARAL<span class="accent">L</span>AX</div>
+</div>
+
+<script>
+  // Auto-fill from data attributes + auto-shrink for long titles
+  const cover = document.getElementById('cover');
+  const titleEl = document.getElementById('edition-title');
+  const numberEl = document.getElementById('edition-number');
+
+  const number = cover.dataset.number || '001';
+  const title = cover.dataset.title || 'Edition Title';
+
+  numberEl.textContent = `EDITION ${number.padStart(3, '0')}`;
+  titleEl.textContent = title;
+
+  // Auto-shrink for long titles
+  const titleLength = title.length;
+  if (titleLength > 60) cover.classList.add('very-long-title');
+  else if (titleLength > 35) cover.classList.add('long-title');
+</script>
+
+</body>
+</html>
