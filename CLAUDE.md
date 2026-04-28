@@ -114,6 +114,26 @@ python execution/knowledge_compiler.py archive "query" result.md --domain X
 
 **Evolution Direction** (`directives/evolution-direction.md`): Karpathy's `program.md` analog — single source of truth for what to evolve, current priorities, constraints, stopping criteria. Read before every `/skill-evolution` run. Updated after every evolution cycle.
 
+### Real Claude Code Subagents (Added 2026-04-28) — 12 Virtuoso-Tier Workers
+
+12 production-grade subagents in `.claude/agents/` (distinct from the 119 expert personas in `agents/<expert>/`). Personas are thinking lenses loaded as Tier 2 context; subagents are repeatable workers with isolated context invokable via the Agent tool.
+
+**Foundation:** `deep-research`, `fact-verifier`, `prose-doctor`
+**Production:** `expert-extractor`, `icp-deep-canvasser`, `synthesis-engine`
+**Quality:** `adversarial-reviewer`, `content-finalizer`
+**Outcomes/Specialty:** `master-copywriter`, `brand-system-builder`, `competitive-intel`, `swarm-orchestrator`
+
+**Canonical chains:**
+- Strategic brief: `deep-research` → `synthesis-engine` → `master-copywriter` → `prose-doctor` → `adversarial-reviewer` → `content-finalizer`
+- LinkedIn post: persona-load (Lara) → `master-copywriter` → `prose-doctor` → `adversarial-reviewer` → `content-finalizer`
+- Parallax edition: raw take → `fact-verifier` → persona-load (Cole) → `master-copywriter` → `prose-doctor` → `adversarial-reviewer` → `content-finalizer`
+- New extraction: `expert-extractor` → `synthesis-engine` → `content-finalizer`
+- Brand launch: `icp-deep-canvasser` → `competitive-intel` → `brand-system-builder` → `master-copywriter` → `adversarial-reviewer` → `content-finalizer`
+
+Full roster, invocation patterns, and architecture: **`directives/subagent-roster.md`**.
+
+Each subagent embodies a top-1% practitioner identity, inherits the user's accumulated knowledge infrastructure (Recall, extractions, knowledge), encodes hard rules from documented past failures (Parallax 02 fabrications, 8 banned structural moves, voice rules from MEMORY.md), and self-checks before returning. Generic LLM output is the failure mode — these agents are designed to be the exception.
+
 ---
 
 ## Directory Conventions
