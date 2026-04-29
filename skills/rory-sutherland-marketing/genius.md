@@ -12,11 +12,11 @@
 
 ## CONTENT ASSESSMENT
 
-**Type**: Long-form podcast interview (~90 minutes, ~12,000 words)
+**Type**: Long-form podcast interview (~90 min) + Adcom 2026 London keynote (~60 min, ~10,000 words)
 **Expert**: Rory Sutherland - Vice Chairman of Ogilvy UK, 36-year advertising veteran, Author of "Alchemy: The Surprising Power of Ideas That Don't Make Sense"
-**Domain**: Behavioral Marketing + Applied Consumer Psychology + Value Creation Economics
-**Depth**: MASTER - Synthesizes evolutionary psychology, economics, decision science, and real-world marketing into unified operating system
-**Virtuoso Patterns**: 23 unconscious mastery behaviors identified
+**Domain**: Behavioral Marketing + Applied Consumer Psychology + Value Creation Economics + Perception Engineering
+**Depth**: MASTER+ - Synthesizes evolutionary psychology, economics, decision science, and real-world marketing into unified operating system. 2026 keynote adds Reverse Benchmarking, Perception Arbitrage, and Asymmetric Bet frameworks.
+**Virtuoso Patterns**: 29 unconscious mastery behaviors identified (original 23 + 6 new from Adcom 2026)
 **Extraction Value**: VIRTUOSO - This is the hidden operating system behind billions in brand value creation
 
 ---
@@ -35,6 +35,12 @@
 - Design customer experiences that build irrational loyalty
 - Spot "Doorman Fallacy" opportunities competitors miss
 - Transform cost centers into value-creation engines
+- **[NEW]** Reverse-benchmark competitors to find unoccupied psychological territory
+- **[NEW]** Re-express prices, speeds, and metrics using perception-first units (Paceometer)
+- **[NEW]** Evaluate decisions using Two-Way Door asymmetric bet logic
+- **[NEW]** Engineer subscription/pricing alchemy that transforms identical economics into radically different feelings
+- **[NEW]** Apply the Churchill Reframe: conspiratorial vs. accusatorial framing
+- **[NEW]** Design "Departure Lounge" unexpected-value moments that create permanent loyalty
 
 **Virtuoso Elements Captured**:
 - The "Feels Like Temperature" framework for business decisions
@@ -43,6 +49,12 @@
 - Costly signaling mechanics for premium positioning
 - Fat-tailed opportunity identification in marketing
 - The "Brandquake" creation methodology
+- **[NEW]** Reverse Benchmarking methodology (Guidara / Eleven Madison Park)
+- **[NEW]** The Paceometer — perception-first metric re-expression
+- **[NEW]** Two-Way Door asymmetric bet evaluation (Bezos method)
+- **[NEW]** Subscription Alchemy — Netflix/Klarna pricing psychology
+- **[NEW]** The Churchill Reframe — conspiratorial problem-solving
+- **[NEW]** The Overground Effect — recontextualization without product change
 
 **Time to Mastery**: 30 days to internalize core frameworks; 90 days to deploy instinctively
 
@@ -195,6 +207,102 @@ Use these deep drives, not surface preferences, to shape messaging and experienc
 
 ---
 
+### Pattern 11: Reverse Benchmarking
+**What He Does Unconsciously**: Instead of copying what competitors do well (standard benchmarking), Sutherland instinctively scans for what competitors do poorly or ignore entirely—then invests disproportionately in those gaps. He cites Will Guidara's Eleven Madison Park methodology: visit the best, ignore what's great, find what's "just slightly disappointing," and turn those gaps into your signature.
+
+**Executable Behavior**: Visit or analyze your top 3 competitors. Ignore everything they do well. List 5+ things that are "just slightly meh." Then pick 2-3 of those neglected areas and make them your signature obsession. Appoint internal "sommeliers" for those neglected domains.
+
+**Deployment Context**: Competitive strategy, service design, product differentiation, customer experience architecture.
+
+**Success Metric**: Customers cite your "unexpected" strength as their primary reason for loyalty. Your differentiation is impossible to compare on procurement spreadsheets.
+
+**Case Studies**:
+- **Buc-ee's**: Gas station chain that reverse-benchmarked by making toilets immaculate. Became a destination brand.
+- **Moxy Hotels**: Tiny basic rooms, but world-class public/coworking space. Opposite of industry standard.
+- **Uber**: Didn't make cabs arrive faster. Made *waiting* feel less stressful via real-time map tracking.
+- **Jumeirah Departure Lounge**: Created a post-checkout lounge that solved the "homeless after 11 AM" problem no hotel addresses.
+
+---
+
+### Pattern 12: The Paceometer — Perception-First Metric Re-expression
+**What He Does Unconsciously**: Sutherland automatically re-expresses objective metrics in perceptual terms to reveal hidden truths. The paceometer (minutes per 10 miles vs. miles per hour) exposes that going from 60→70 mph saves almost no time, while going from 20→30 mph saves enormous time. Same data, radically different decision calculus.
+
+**Executable Behavior**: For any metric your business uses (price, speed, performance), express it in at least 2 alternative units. Ask: "Which expression reveals the truth that changes behavior?" Specifically:
+1. Express price as cost-per-use, cost-per-hour-of-entertainment, or payment-per-period
+2. Express speed/delivery as time-saved-per-unit rather than units-per-time
+3. Express quality as compared-to-what rather than absolute score
+
+**Deployment Context**: Pricing strategy, product positioning, speed/performance claims, investment justification, public policy.
+
+**Success Metric**: Re-expressed metric changes customer (or internal) decision without changing the underlying reality.
+
+---
+
+### Pattern 13: Two-Way Door Asymmetric Betting
+**What He Does Unconsciously**: Sutherland immediately classifies decisions into reversible (two-way doors) and irreversible (one-way doors), then aggressively pursues reversible bets with asymmetric upside. He detects when organizations waste massive energy debating decisions that are cheap to try and easy to reverse.
+
+**Executable Behavior**: For any proposed initiative, complete this assessment:
+1. **Reversibility**: If this fails, can we undo it in < 6 months at < 10% of the upside cost?
+2. **Asymmetry**: Is the best-case outcome 10x+ larger than the worst-case downside?
+3. **Debate cost**: Are we spending more time/money arguing about it than it would cost to just try it?
+If all three answers are yes → stop arguing, run the experiment.
+
+**Deployment Context**: Marketing budget allocation, new channel testing, pricing experiments, product feature launches.
+
+**Success Metric**: Portfolio of active experiments replaces portfolio of unresolved debates. Time-to-learning drops by 5x+.
+
+---
+
+### Pattern 14: Subscription Alchemy — Price-as-Feeling Engineering
+**What He Does Unconsciously**: Sutherland sees price not as a number but as a psychological experience. Three payments of £150 *feels* completely different from one payment of £450. A £19.95/month subscription for unlimited DVDs *feels* like the price of one DVD you were buying anyway. He instinctively searches for the price expression that unlocks the "it's basically free" feeling.
+
+**Executable Behavior**: For any product priced above the impulse threshold:
+1. Express total price as payment-per-period (monthly, weekly, daily)
+2. Compare each period payment to something the customer already spends ("less than your daily coffee")
+3. Test subscription/installment models where the per-period cost falls below the psychological pain threshold
+4. Add the "Hotel Rwanda" check: does the subscription create inventory anxiety? (Netflix's 3-DVD model solved this; 1-DVD didn't)
+
+**Deployment Context**: SaaS pricing, course/coaching pricing, physical product subscriptions, B2B contract structuring.
+
+**Success Metric**: Conversion increases without changing the total economic value exchanged. Customers describe the price as "no-brainer" despite identical total cost.
+
+---
+
+### Pattern 15: The Overground Effect — Recontextualization Without Product Change
+**What He Does Unconsciously**: Sutherland recognizes when a product's failure is 100% perceptual—the product itself is fine, but how it's categorized, named, or presented prevents people from seeing it. London's Overground (formerly Silverlink Metro) got 400% usage increase on day one by appearing on the Tube map. Same trains, same routes.
+
+**Executable Behavior**: Before investing in product improvement, run this diagnostic:
+1. What mental category does the customer file this product into?
+2. Is there a higher-status, more familiar category it could legitimately belong to?
+3. What's the "Tube map" equivalent—the framing device that would make people suddenly see it?
+4. Can renaming, repackaging, or repositioning achieve more than engineering?
+
+**Deployment Context**: Rebranding, market repositioning, product launches that are underperforming despite good product-market fit.
+
+**Success Metric**: Usage or sales increase of 50%+ with zero product changes—only presentation/framing changes.
+
+**Case Studies**:
+- **London Overground**: 400% usage increase from appearing on the Tube map
+- **Saga Holidays**: "Over 49s" vs. "Over 50s" completely changed perception
+- **Hotel room naming**: "Gym Access" and "Pool Access" rooms vs. generic numbering created premium pricing from zero-cost asset
+
+---
+
+### Pattern 16: The Churchill Reframe — Conspiratorial vs. Accusatorial Framing
+**What He Does Unconsciously**: Sutherland instinctively reframes confrontational situations into collaborative ones. Churchill's salt-shaker maneuver—presenting himself as a fellow offender rather than an accuser—achieves the same behavioral outcome (return the stolen item) with a radically different emotional result (making a friend vs. making an enemy). The restaurant mobile phone sign does the same: "Don't forget to turn your phone back on when leaving" achieves compliance without bossiness.
+
+**Executable Behavior**: When you need someone to change behavior:
+1. Never frame yourself as the authority/accuser/enforcer
+2. Instead, frame yourself as a fellow participant in the desired behavior
+3. Make compliance feel like joining a conspiracy, not obeying a command
+4. Test: "Am I bossing them around, or am I inviting them in?"
+
+**Deployment Context**: Customer communications, policy enforcement, feedback delivery, sales objection handling, copywriting CTAs.
+
+**Success Metric**: Compliance rates increase while complaint/resistance rates decrease simultaneously.
+
+---
+
 ## HIDDEN KNOWLEDGE REVEALED
 
 ### Tacit Knowledge 1: "Feels Like Temperature" for Business
@@ -229,6 +337,27 @@ Use these deep drives, not surface preferences, to shape messaging and experienc
 **The Hidden Insight**: In most business contexts, rationality is the gold standard—if you can argue it logically, you win. In advertising (and entrepreneurship, and innovation), rationality is the bronze standard—it's where you START, not where you finish. The job is to find something better than the rational solution.
 
 **Now Deployable**: Use rational analysis to establish baseline, then actively search for solutions that are better than rational—emotionally resonant, memorable, delightful, or surprising.
+
+---
+
+### Tacit Knowledge 6: The Procurement Paradox
+**The Hidden Insight**: Procurement departments systematically destroy innovation because their operating model requires five identical bids compared on price. If your idea is genuinely different, it can't be compared—and procurement rejects what it can't compare. The hidden cost of procurement in large organizations is immense because it selects for sameness.
+
+**Now Deployable**: When selling to organizations with procurement departments, always frame your differentiated offer as fitting within an existing category they can evaluate, while making the differentiation the reason you win within that category. Never present something so novel that procurement has no comparison framework.
+
+---
+
+### Tacit Knowledge 7: The Disproportionate Response Principle
+**The Hidden Insight**: The human brain doesn't have a great sense of proportion. You can give someone a huge pay rise but a slightly crap mobile phone, and they hate you. Conversely, small unexpected gestures (DoubleTree cookies, AO teddy bears, Dishoom dice games) create disproportionate loyalty that CFOs can never quantify but that drives decades of repeat business.
+
+**Now Deployable**: Identify one small, cheap, memorable gesture and invest in it disproportionately. The ROI won't show up in quarterly reports but will dominate word-of-mouth and retention for years. Stop measuring loyalty interventions on acquisition timelines.
+
+---
+
+### Tacit Knowledge 8: The Hotels.com Second Try
+**The Hidden Insight**: The hotels.com refund story reveals a powerful pattern: the second unexpected attempt matters more than the first expected one. The first try was expected service—"at least you tried." The second try, after the customer had already accepted the outcome, was a brandquake moment that converted a transactional relationship into permanent loyalty.
+
+**Now Deployable**: Build "second try" moments into service recovery. After the first resolution attempt (expected), follow up days later with an unexpected second effort. The customer has already adjusted their expectations downward—exceeding them now creates a multiplicative loyalty effect.
 
 ---
 
@@ -380,6 +509,18 @@ Type 'continue' or 'next' to proceed.
 **Description**: If you're buying a used car and the seller is a vicar, you're likely to trust their assessment of the car's condition more than if the seller is someone who looks like they've just woken up after a heavy night out and is selling the car in their underwear. The car's objective quality is the same, but your *proxy evaluation* of the seller determines your trust in the product.
 **What makes this excellent**: This example perfectly illustrates the Human Proxy Heuristic. When we can't objectively evaluate something complex (like a car's mechanics), we unconsciously look for human trust signals. It highlights that optimizing for trust and social signals can be more effective than listing features.
 
+### Exemplar 3: Eleven Madison Park — The Beer Sommelier
+**Description**: Will Guidara takes his team to the world's #1 restaurant. Instead of copying what's amazing, he asks: "What was slightly disappointing?" Two things: beer drinkers felt shortchanged, and the coffee was unremarkable. He appoints a coffee sommelier and a beer sommelier from existing staff. A beer drinker asks for options and instead of "Sam Adams in bottles," gets curated food pairings with craft IPAs. The restaurant goes from #50 to #1 in the world.
+**What makes this excellent**: This is the Reverse Benchmarking playbook executed flawlessly. It demonstrates that the path to #1 isn't copying the leader—it's finding their neglected blind spots and turning those into your signature obsessions.
+
+### Exemplar 4: The London Overground — 400% Growth From a Map
+**Description**: London's Silverlink Metro rail network was underused despite excellent coverage. They improved rolling stock and stations modestly, but the breakthrough was putting the routes on the Tube map and calling it "The Overground." Day one: 400% usage increase. Same trains, same routes, same timetable.
+**What makes this excellent**: The purest demonstration of Pattern 15 (Overground Effect). Zero product change, pure recontextualization. Londoners think the Tube map IS London—appearing on it made the Overground "real" in a way that years of excellent service couldn't.
+
+### Exemplar 5: Churchill's Salt Shaker
+**Description**: At a Buckingham Palace dinner, a guest steals a solid gold pepper pot. Churchill pockets the matching salt shaker, sidles up to the thief, and says: "I think we've both been spotted. We'd better put these back." Same behavioral result (item returned), radically different emotional outcome (ally made, not enemy).
+**What makes this excellent**: The perfect execution of conspiratorial vs. accusatorial framing. Achieves 100% compliance with 0% confrontation. This is Pattern 16 in its purest form.
+
 ### Anti-Exemplar: Google's "I'm Feeling Lucky" Button
 **Description**: Google rigorously tested and found that removing the "I'm Feeling Lucky" button would save the company millions in bandwidth because people rarely used it, and it bypassed ads. From a purely rational, efficiency-driven perspective, removing it was a no-brainer. However, they kept it because it provided a psychological reassurance, a sense of choice, and a touch of whimsy that contributed to the overall brand experience – a form of "transaction utility" for the search experience itself.
 **What makes this mediocre (from a Sutherland perspective)**: A purely rational decision to remove a feature based on low usage and cost savings completely misses the *psychological value* and *choice architecture* it provides. It's an example of the Doorman Fallacy in action, where an "inefficient" element provides tacit value that's invisible to spreadsheet optimization.
@@ -395,6 +536,14 @@ Type 'continue' or 'next' to proceed.
 **The "Feels Like" Translation**: For any objective business metric (e.g., service level, product performance), identify its "feels like" equivalent (e.g., perceived service quality, emotional impact) and prioritize optimizing for that subjective experience. → **Deploy when**: Analyzing customer satisfaction, service delivery, or brand perception data.
 
 **The Choice Architecture Choreography**: Never present a single recommendation or product option. Always structure choices (e.g., 3-5 options, including decoys) to guide the customer towards the preferred option through strategic comparison and the psychological satisfaction of choosing. → **Deploy when**: Presenting proposals, designing product lines, or structuring pricing tiers.
+
+**The Reverse Benchmarking Sweep**: Visit or analyze the top 3 competitors in any space. Deliberately ignore what they do well. Hunt exclusively for what's "slightly meh" or neglected. Pick 2-3 of those gaps and make them your signature obsession. → **Deploy when**: Entering a new market, designing competitive strategy, or breaking out of commodity competition.
+
+**The Paceometer Flip**: For any metric used in decision-making (price, speed, performance), re-express it in at least one alternative unit that reveals the non-linear perceptual truth. Ask: "Which expression changes behavior?" → **Deploy when**: Pricing presentations, speed/performance claims, investment ROI justification, or any metric that "sounds" wrong in its default expression.
+
+**The Two-Way Door Test**: Before any debate exceeds 30 minutes, ask: "Is this reversible? Is the upside 10x the downside? Are we spending more arguing than testing?" If all three = yes, stop debating and start experimenting. → **Deploy when**: Any organizational decision-making bottleneck, marketing budget allocation, or new initiative evaluation.
+
+**The Churchill Move**: When you need compliance, never be the accuser—be the co-conspirator. Frame the desired behavior as something you're both doing together, not something you're imposing on them. → **Deploy when**: Customer communications, policy changes, feedback delivery, sales objection handling, or any situation requiring behavioral change without confrontation.
 
 ## Expert-Specific Quality Rubric
 

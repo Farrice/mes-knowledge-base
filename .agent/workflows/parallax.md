@@ -475,29 +475,43 @@ Structure: Title + metadata → "How This Works" → The Prompt (code block) →
 
 ---
 
-## Phase 4.5: NOTES TRAILER BATCH (New — 2026-04-25)
+## Phase 4.5: NOTES TRAILER BATCH (Updated 2026-04-27 — v1.2)
 
 **Time**: 8-12 min (AI)
-**Authority**: [_active/farrice-brand/content/parallax-packages/NOTES_TRAILER_PLAYBOOK.md](../../_active/farrice-brand/content/parallax-packages/NOTES_TRAILER_PLAYBOOK.md)
+**Authority**: [_active/farrice-brand/content/parallax-packages/NOTES_TRAILER_PLAYBOOK.md](../../_active/farrice-brand/content/parallax-packages/NOTES_TRAILER_PLAYBOOK.md) v1.2
 
 Generate the 5-Note launch-week batch that primes readers for this edition. Notes are **trailers, not clips** — original compositions in manifesto voice, not extractions from the edition.
 
+### The narrative spine (use this first — playbook v1.2 Section 0)
+
+Every Note follows: **Scene or confession → Reframe that changes how you see it → Quiet invitation.**
+
+If the spine doesn't fit (e.g., Asset Drop where the asset itself is the middle beat), fall back to the WHAT/HOW/WHY trailer formula in playbook v1.1.
+
+### The 5 voice rules (non-negotiable, every Note)
+
+1. Open with the thing itself, never the setup.
+2. Confession beats observation. Insert Farrice into the story.
+3. Vary rhythm — short punches + long pressure-builders.
+4. Never summarize what the reader will find. The link is for people already walking through the door.
+5. Slot-machine close — every Note worth reading on its own.
+
 ### Generation procedure
 
-1. **Load playbook + edition draft**: Read `NOTES_TRAILER_PLAYBOOK.md` and the just-finished edition body. Identify the edition's most quotable line (for Archetype 3 / Counterintuitive Truth) and its central thesis (for the Bridge).
+1. **Load playbook + edition draft**: Read `NOTES_TRAILER_PLAYBOOK.md` Section 0 (spine + voice rules + 4 canonical examples from Ed 01 launch) and the just-finished edition body. Identify the edition's most quotable line (Counterintuitive Truth archetype) and its central thesis (Bridge archetype).
 
-2. **Generate 5 Notes, one per archetype**:
-   - **Note 1 — Origin Wound** (T-2): Story Note + statement hook. Concrete opening, vulnerable narrative, hint at thesis without spoiling.
-   - **Note 2 — Asset Drop** (T+0 morning): Copy-Paste Asset (3.4x lift). Statement hook, 3-5 lines of usable asset, tie to edition + link.
-   - **Note 3 — Counterintuitive Truth** (T+0 evening): Restack-bait. Single resonant line + minimal context. The line must work as quoted material when restacked.
-   - **Note 4 — Public Reckoning** (T+2-3): Vulnerable admission + statement hook. Different angle from Note 1 (no thematic collision).
-   - **Note 5 — Bridge** (T+5-6): Forward tease for next edition. Statement hook naming next thesis without delivering it.
+2. **Generate 5 Notes, one per archetype** — each obeys the Scene → Reframe → Invitation spine:
+   - **Note 1 — Origin Wound** (T-2): Vulnerable scene from before the thesis was discovered. Reframe hints at the edition's central insight. Invitation = drop date.
+   - **Note 2 — Asset Drop** (T+0 morning): Scene = the question or framework itself; Reframe = the recognition the asset triggers; Invitation = edition link. Copy-Paste Asset = 3.4x conversion lift.
+   - **Note 3 — Counterintuitive Truth** (T+0 evening): Scene opens with the manifesto's signature line. Reframe = personal confession that grounds it. Invitation = "That's what Edition X is about" + link. Restack-bait — line must hold quoted out of context.
+   - **Note 4 — Public Reckoning** (T+2-3): Scene = vulnerable admission, different angle from Note 1. Reframe = what that admission reveals about the work. Invitation = soft, screenshot-quality close.
+   - **Note 5 — Bridge** (T+5-6): Scene from the next edition's territory. Reframe = the question that edition asks. Invitation = drop date, NO LINK (anticipation is the payoff).
 
 3. **Run Voice Compatibility Test on each Note** (5 questions, all must pass):
-   - Concrete opening test (first 7-10 words contain specific element)
-   - Authorship test (could only have been written by Farrice)
+   - Concrete opening test (first 7-10 words contain specific element — scene, not setup)
+   - Authorship test (could only have been written by Farrice — confession present)
    - Rhythm test (varies within Note: long → short or vice versa)
-   - Slot machine test (uncertain payoff close, NOT vending machine)
+   - Slot machine test (uncertain payoff close, NOT vending machine, NOT summary)
    - Standalone test (worth reading without the edition link)
 
 4. **Run cross-batch audit**:
@@ -507,8 +521,9 @@ Generate the 5-Note launch-week batch that primes readers for this edition. Note
    - Statement hooks only (no question hooks — 52% conversion penalty per 19,471-Note research)
    - Length: 32-63 words per Note (Bridge can be tighter)
    - No banned moves: no "It's not X. It's Y." reveals, no twin-sentence aphoristic endings, no triple-beat anaphora unless quoted from manifesto
+   - **Confession check**: at least 3 of 5 Notes contain explicit first-person confession ("I spent years…", "I have a son", "I used to…"). Pure-observation Notes are weaker.
 
-5. **Assign cadence**: Each Note gets a scheduling target (T-2, T+0 morning, T+0 evening, T+2-3, T+5-6).
+5. **Assign cadence**: Each Note gets a scheduling target (T-2, T+0 morning, T+0 evening, T+2-3, T+5-6). If the next edition drops sooner than T+6, compress the Bridge forward (Ed 01 → Ed 02 example: Bridge moved to T+0 evening, day before Ed 02 drop).
 
 ### Anti-patterns (kill on sight)
 
@@ -517,6 +532,17 @@ Generate the 5-Note launch-week batch that primes readers for this edition. Note
 - Verbatim extracts from edition without re-composition → clip behavior
 - Generic "subscribe to my newsletter" CTAs → use value-rooted invitations
 - More than 1 em dash → AI tell per existing voice rules
+- **Summary in the closer** ("Edition X covers A, B, and C") → violates voice rule 4 (never summarize what the reader will find)
+
+### Substack technical reference (production-critical — playbook v1.2 Section 0.5)
+
+| Topic | Truth |
+|---|---|
+| Notes scheduling | Native since March 2026. Calendar icon in composer. Scheduled lives in Drafts tab. Edit by clicking schedule banner. |
+| Post card auto-embed | Paste Substack URL → auto-expands as post card. No manual embed needed. |
+| Pages vs Posts | Pages = permanent/evergreen but DON'T show in sections/feeds/emails. Posts = visible everywhere. **Prompt Packs must ship as Posts in the "Prompt Packs" section, NOT as Pages**, for section visibility. |
+| First-line truncation | Mobile ~200 chars before "…read more." First 7-10 words carry load. |
+| Email digest selection | Algorithmic. First 50 chars must work as standalone hook. |
 
 ### Output
 

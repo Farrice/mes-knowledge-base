@@ -14,7 +14,7 @@
 | `ali-abdaal` | **Ali Abdaal** | action bias, experiment cycles, overthinking tax, two-way door thinking |
 | `andrew-wilkinson` | **andrew-wilkinson** | adhd productivity engineering, ai entrepreneurship, ai workforce deployment, exit-ready architecture, problem-to-product translation, rapid execution, vibe coding, vibe coding mastery |
 | `andy-lo` | **Agent: Andy Lo (@andy-lo)** | andy lo (@andy-lo), asset pipeline management, deployment, headless cms architecture, motion design, visual direction, website assembly |
-| `april-dunford` | **April Dunford** | 5-component positioning, b2b positioning, champion enablement, go-to-market strategy, market insight derivation, pitch testing & iteration, positioning diagnostics, sales pitch architecture, sales pitch expert, target customer sharpening |
+| `april-dunford` | **April Dunford** | 5-component positioning, b2b decision fear architecture, b2b positioning, b2b/b2c bifurcation, category strategy, market context engine, niche domination sequencing, positioning diagnostics, sales pitch architecture, sales pitch expert |
 | `authority-hacker` | **Gael Breton** | ai social media mastery |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
@@ -27,8 +27,8 @@
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
 | `dan-wang` | **Dan Wang: Observational Writing Master** | literary essay production, observational travel, observational writing master, single beautiful sentence construction, x-ray vision reading, year-long note accumulation |
-| `danny-yeung` | **Danny Yeung: Founder-Operator Velocity Strategist** | $0-$100m dtc scaling, 3-month subscription aov play, ai-native operations, cac/ltv subscription economics, celebrity equity partnership architecture, creative factory scaling, founder-operator velocity, guerrilla customer acquisition, infrastructure pivot methodology, speed-as-moat doctrine |
 | `daniel-priestley` | **daniel-priestley** | demand engineering, ip mining, key person of influence, oversubscribed methodology, problem-aware positioning, stakes-based pricing |
+| `danny-yeung` | **Danny Yeung** | celebrity partnerships, dtc scaling, infrastructure pivots, subscription economics, velocity strategist |
 | `darrel-wilson` | **darrel-wilson** | ai-augmented affiliate marketing, digital revenue systems, flip the process, recurring revenue lock-in, system sales, utility-first affiliate architecture, warm lead philosophy |
 | `david-bayer` | **David Bayer** | approval independence, elite communication, friend coffee frame, grounded presence |
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
@@ -41,6 +41,7 @@
 | `eric-roth` | **Eric Roth: Oscar-Level Writing Virtuoso** | oscar-level writing virtuoso |
 | `erica-mallet` | **Erica Mallet: Brand Magnetism Architect** | belief-based brand architecture, brand magnetism architect, differentiation engineering, enemy effect deployment, psychological loop creation, tone word quality filter |
 | `ethan-smith` | **Ethan Smith** | aeo, answer engine optimization, experimental search methodology, rag citation mechanics, search optimization architect |
+| `evan-spiegel` | **Evan Spiegel** | distribution strategy, distribution-first product architect, dual-org innovation, ecosystem building, founder evolution, moat construction |
 | `fareed-zakaria` | **Fareed Zakaria** | argument architecture, clarity first, one idea discipline, writing mastery |
 | `futurepedia` | **Futurepedia: Prompt Engineering Virtuoso** | context extraction interview, expert discovery protocol, expert framework extraction, meta-prompt synthesis, plan abandonment prevention, prompt engineering virtuoso |
 | `grace-andrews` | **Grace Andrews** | media company brand architect |
@@ -85,7 +86,7 @@
 | `nick-saraev` | **Nick Saraev** | agentic workflows, do framework, horizontal leverage, self-annealing systems |
 | `nicolas-cole` | **nicolas-cole** | digital product creation strategy, ghostwriting client acquisition, newsletter flywheel architecture, niche positioning, sentence-level writing optimization |
 | `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
-| `oren-taste-development` | **Oren** | aesthetic evaluation, brand repositioning, connoisseurship, content-team architecture, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, media company transformation, operational systems, pod-based team design, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
+| `oren-taste-development` | **Oren** | aesthetic evaluation, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
 | `paul-james` | **paul-james** | agency arbitrage, ai workflow automation monetization, modular service design, recurring revenue architecture, time-to-revenue translation, zero-cost positioning |
 | `pj-accetturo` | **PJ Accetturo** | ai video, brand-safe, production-grade, viral by design |
@@ -93,7 +94,7 @@
 | `rachel-woods` | **Rachel Woods** | ai operations architect |
 | `remotion` | **Remotion** | ai video creation |
 | `robert-mack` | **Robert Mack** | comedy writing architect |
-| `rory-sutherland` | **Rory Sutherland** | costly signaling, marketing psychology, psychological value, reframing |
+| `rory-sutherland` | **Rory Sutherland** | costly signaling, marketing psychology, perception engineering, psychological value, reframing |
 | `ross-mckay` | **ross-mckay** | and scaling operations, cpg brand positioning, radical single-sku focus, retail distribution, speed as the ultimate moat, the "anchor customer" distribution hack, the "premium at scale" positioning |
 | `sabri-suby` | **sabri-suby** | ad creation, ai-powered advertising and direct response marketing, direct response funnel, market validation, pain extraction, systematic scaling |
 | `sabrina-ramonov` | **Agent: Sabrina Ramonov** | sabrina ramonov |
@@ -101,6 +102,7 @@
 | `sam-parr` | **Sam Parr** | sam parr, taste acquisition • identity architecture • competitive moat |
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
+| `sean-macintyre` | **sean-macintyre** | awareness-armor diagnostic, career-architecture diagnostics, classical rhetoric deployment, cross-domain diagnostic copywriting, genealogy-of-ideas tracing, mechanism substance testing, persuasion philosophy / cross-domain diagnostic copywriting, post-hook architecture, three-vector idea engineering |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |
 | `seth-godin` | **seth-godin** | strategic philosophy + shipping + self-leadership + marketing + viral engineering + brand operations |
 | `shaan-puri` | **Shaan Puri: Storytelling & Audience Alchemy Master** | audience alchemy, audience alchemy master, emotional resonance, hook engineering, story architecture, storytelling, voice development |

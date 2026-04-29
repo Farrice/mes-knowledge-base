@@ -54,3 +54,12 @@
 - `[2026-04-25 08:38]` **finalize** | Post-cleanup verification | general — composite:7.0 status:Keep
 - `[2026-04-27 07:14]` **finalize** | Evan Spiegel Distribution-First Product Architecture — Complete skill domain with SKILL.md, genius.m | general | Evan Spiegel — composite:8.7 status:Keep
 - `[2026-04-27 07:26]` **finalize** | April Dunford Positioning Mastery v3.0 — 8 new workflows registered, SKILL.md expanded to 13 workflo | strategy | April Dunford — composite:8.7 status:Keep
+- `[2026-04-27 13:34]` **finalize** | DESIGN.md v2 integration: Google Labs spec + 58-brand library + UI codegen wired into Creative Direc | general | creative-director — composite:8.7 status:Keep
+- `[2026-04-27 23:55]` **finalize** | Rory Sutherland v4.0 — 8 cross-expert stacking workflows created and registered: perception-dopamine | general | Rory Sutherland — composite:8.7 status:Keep
+- `[2026-04-28 08:00]` **finalize** | Perception Engineering Product Blueprint — 8-part creative guide and productization workbook mapping | general | Nicolas Cole + Rory Sutherland — composite:8.7 status:Keep
+- `[2026-04-28 11:17]` **finalize** | Parallax brand system shipped end-to-end via the new Creative Director infrastructure. 17 files: lin | general | creative-director — composite:9.0 status:Keep
+- `[2026-04-28 12:27]` **finalize** | Sean Macintyre — Persuasion Philosophy mastery extraction (forge): 12 genius patterns, 10 signature  | sales | sean-macintyre — composite:8.7 status:Keep
+- `[2026-04-28 13:48]` **finalize** | Sean Macintyre — Persuasion Philosophy mastery extraction (forge): 17 workflows in 4 tiers (Foundati | sales | sean-macintyre — composite:8.7 status:Keep
+- `[2026-04-29 11:17]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
+- `[2026-04-29 11:48]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240
+- `[2026-04-29 12:10]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240

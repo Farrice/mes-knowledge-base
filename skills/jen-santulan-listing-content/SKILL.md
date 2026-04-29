@@ -1,59 +1,113 @@
+---
+name: jen-santulan-listing-content
+description: Real estate social media content engine for Jen Santulan — Instagram Reels, Stories, and Carousels engineered for SFV first-time home buyers
+version: "2.0"
+format: completion-engine
+workflows: 3
+expert: Jennifer Santulan (@realestatewithjing)
+domain: Real estate social media (LA / San Fernando Valley specialist)
+---
+
 # Jen Santulan Listing Content Engine
 
-**Domain:** Real estate social media content — Instagram Reels video hooks
-**Platform:** Instagram-first (optimized for shares/saves, not just watch time)
-**Voice:** Jen Santulan (@realestatewithjing) — LA real estate agent, San Fernando Valley specialist
-**Niche:** First-time home buyers (dual income, $800K+ budget, want education and guidance)
+> Expert-powered viral mechanics calibrated to Jen's authentic warm-friend voice. Two-pass architecture across all workflows: expert engineering → Jen voice polish.
 
-## What This Skill Does
+## Domain
 
-Takes any property address and generates a complete expert-powered video hook package:
-- 6 video hooks (80-120 words each, 12-18 seconds spoken, ready to read on camera)
-- Hook #2 is ALWAYS a dedicated first-time home buyer hook (Jen's niche)
-- Expert Analysis Pass (scrollstop inventory, share triggers, FTHB permission moment)
-- Performance Enhancement Notes (visual strategy, delivery guidelines, share engineering)
+**Real estate social media** — Instagram-first content for Jen Santulan, an LA real estate agent specializing in the San Fernando Valley with a deliberate niche in first-time home buyers (dual-income couples, $100K-$200K HHI, $800K+ budget, currently renting).
 
-## Two-Pass Architecture
+## Voice Foundation
 
-**Pass 1 — Expert Mechanics:** Viral content frameworks from 5 domain experts engineer the psychological structure of each hook (scrollstop openers, curiosity loops, share triggers, emotion targeting).
+Jen sounds like a warm, knowledgeable friend telling you about a listing she just saw and can't stop thinking about. Educational, encouraging, and genuinely excited — never the high-pressure salesperson, never the brochure copy.
 
-**Pass 2 — Jen Voice Polish:** Expert-engineered concepts are rewritten in Jen's authentic warm, enthusiastic, conversational voice. The mechanics are invisible — viewers only feel Jen's genuine excitement.
+**The voice test**: read every line out loud. If Jen wouldn't say it to her best friend over coffee, rewrite it.
 
-## Expert Frameworks Integrated
+Full voice DNA, signature patterns, anti-patterns, and quality bar in `genius.md`.
 
-| Expert | What They Contribute |
-|--------|---------------------|
-| **Kallaway** | Dopamine Ladder (scrollstop), Curiosity Loop formula, Contrast Mapping |
-| **Brock Johnson** | Share Hierarchy (5 triggers), Pattern Interrupt Instinct, Save-Worthy Density |
-| **Seena Rez** | Hyperdopamine Hook Architecture, 3-second scrollstop engineering |
-| **Shaan Puri** | One Emotion Rule, Frame > Hook, emotional precision |
-| **Harry Dry** | Three Rules Test (visualize, falsify, uniqueness), copy validation |
+## Workflows
 
-## The 6 Hook Formats
+| # | Workflow | Produces | When to Use |
+|---|---|---|---|
+| **01** | `listing-content` | 6 video hooks per property (Reels) | New listing hits market — need scrollable hook variants |
+| **02** | `buyer-education-story` | Educational Reels / Stories for FTHBs | Authority + DM list growth, NOT tied to specific listing |
+| **03** | `neighborhood-deep-dive-carousel` | 7-slide SFV neighborhood carousels | SFV specialist positioning, save-rate optimization |
 
-1. **Scrollstop Discovery** — Pattern interrupt → curiosity gap → reveal → invite
-2. **First-Time Buyer Permission** — Pain naming → permission pivot → proof → invite (ALWAYS generated)
-3. **Lifestyle Transformation** — Vivid micro-moment → neighborhood → share trigger → invite
-4. **Smart Money** — Contrarian data → curiosity gap → education → invite
-5. **Scarcity / Urgency** — Genuine scarcity → rare features → urgency invite (never manufactured)
-6. **Complete Package** — Checklist callout → rapid feature stacking in 3s → save trigger → invite
+### Workflow Selection
 
-## What Makes It Different
+**Got a new listing?** → Workflow 01 (listing-content)
+**Want to build trust without a property?** → Workflow 02 (buyer-education-story)
+**Want to own a neighborhood in search/saves?** → Workflow 03 (neighborhood-deep-dive-carousel)
 
-- **Expert-powered, Jen-delivered** — Viral mechanics from 5 domain experts, polished into Jen's authentic voice
-- **Dedicated FTHB hook every time** — Hook #2 always speaks directly to first-time buyers with rent-vs-mortgage math and permission language
-- **Scrollstop engineered** — First 5-8 words of every hook designed to freeze the scroll (pattern interrupts, contradictions, specificity shocks)
-- **Share-optimized** — Every hook has an identified share trigger; Lifestyle and Complete Package hooks engineered for DM sends and saves
-- **Scarcity is always genuine** — Never manufactured urgency. Jen's trust-first brand means real scarcity or "hidden gem" framing
-- **11-point quality gate** — 7 must-pass tests (warmth, scrollstop, FTHB, length, factual, hashtag, diversity) + 4 expert should-pass tests
+## Expert Frameworks Embedded
 
-## Entry Point
+Across all 3 workflows, viral mechanics are powered by:
 
-**Workflow:** `.agent/workflows/listing-content.md`
-**Master Prompt:** `skills/jen-santulan-listing-content/PROMPT.md`
+| Expert | Contribution |
+|---|---|
+| **Kallaway** | Dopamine Ladder (scrollstop), Curiosity Loop, Contrast Mapping |
+| **Brock Johnson** | Share Hierarchy (5 triggers), Pattern Interrupt, Save-Worthy Density |
+| **Seena Rez** | Hyperdopamine Hook Architecture, 3-second scrollstop |
+| **Shaan Puri** | One Emotion Rule, Frame > Hook |
+| **Harry Dry** | Three Rules Test (visualize, falsify, uniqueness) |
+| **Made to Stick** | Concrete + Emotional principle (Workflow 02 educational frames) |
 
-## Usage
+The mechanics are invisible to viewers — they only feel Jen's warmth and genuine excitement. Pass 1 engineers the structure. Pass 2 polishes into voice.
+
+## ICP — The "Trapped Millennial" Buyer
+
+| Attribute | Detail |
+|---|---|
+| Age | 30-42 (median FTHB nationally is 40) |
+| Income | $100K-$200K dual-income |
+| Current rent | $2,500-$3,500/mo |
+| Emotional state | Frustrated, "priced out," scrolling Zillow at midnight |
+| Primary fear | Stuck renting into retirement |
+| Primary hope | A program, neighborhood, or path they didn't know about |
+
+Strategy brief: `strategy_briefs/Strategy_Brief_First_Time_Home_Buyers_in_SoCal.md`
+
+## What Makes This Skill Different
+
+1. **Voice authenticity** — every line passes the "would Jen say this to a friend" test
+2. **Trust-first** — genuine scarcity only, math transparency, never manufactured urgency
+3. **FTHB Permission Mechanic** — niche-specific move that names midnight pain → flips with proof → invites action (genius.md Section 8)
+4. **SFV specialist depth** — sub-neighborhoods, local landmarks, cross-neighborhood comps, FTHB programs (HOP80/120, LIPA, Greenline, MyHome)
+5. **Educational surplus** — every piece teaches something the buyer didn't expect
+
+## Quality Gate
+
+Before publishing anything from this skill, run against `genius.md` Section 10 quality bar:
+- Voice (6 checks — must pass all)
+- Trust (4 checks — must pass all for FTHB content)
+- SFV Authority (3+ of 5)
+- Engagement Mechanics (2+ of 4)
+
+## Quick Start
 
 ```
-/listing-content 21212 Ingomar Ct, Canoga Park, CA 91304
+/listing-content [address]                              # Workflow 01
+/buyer-education-story [topic angle]                    # Workflow 02
+/neighborhood-deep-dive-carousel [neighborhood]         # Workflow 03
 ```
+
+Or invoke directly via skill files:
+```
+Load: skills/jen-santulan-listing-content/genius.md
+Execute: skills/jen-santulan-listing-content/workflows/0[N]-[name].md
+```
+
+## Related Skills
+
+- `voice-calibrate` — for content authored by other experts that needs Jen-voice polish
+- `kallaway-addictive-storytelling` — deeper dopamine/curiosity engineering
+- `brock-johnson-shareworthy-content` — share-trigger architecture
+- `nicolas-cole-newsletter-flywheel` — if Jen ever wants long-form content (out of scope here)
+
+## Files
+
+- `SKILL.md` — this file
+- `genius.md` — voice DNA, signature patterns, quality bar
+- `PROMPT.md` — original master prompt (reference; superseded by workflow 01)
+- `workflows/01-listing-content.md` — listing video hooks
+- `workflows/02-buyer-education-story.md` — FTHB educational content
+- `workflows/03-neighborhood-deep-dive-carousel.md` — SFV neighborhood authority

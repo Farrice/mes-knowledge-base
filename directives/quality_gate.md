@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-04-27 (chain_runner finalize for april-dunford-positioning) |
-| **Activation Count** | 146 |
+| **Last Activated** | 2026-04-28 (chain_runner finalize for sean-macintyre-persuasion-philosophy) |
+| **Activation Count** | 152 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
