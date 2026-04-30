@@ -193,6 +193,37 @@ Top-right corner: a tiny minimal brokerage wordmark in deep navy. Portrait orien
     build: (i) => `An evening hospitality poster, portrait orientation, deep velvet jewel-tone aesthetic. Background: rich emerald-green (#0E3B2E) with a subtle moiré or velvet texture. Brass and champagne metallic accents — thin hairline rules in burnished brass framing the layout. ${f(i.subject, 'A single inset photograph centred upper-third — a moody close-up of a wine glass on a marble bar, candlelight catching the rim, dressed in soft amber haze')}. Classical engraved small-caps display serif for the headline, set in champagne-gold: "${f(i.title, '[VENUE]')}". Below in fine italic ivory: "${f(i.subtitle, '[OCCASION]')}". Body block in centred Caslon-style serif, ivory: "${f(i.body, '[DETAILS]')}". Bottom plate, tracked small caps in brass: "${f(i.footer, '[DATE · ADDRESS]')}". Refined late-night menu-card energy, no clutter. Print quality, faint paper-press grain.`,
   },
 
+  // ───────────────────────────────────────────────────────────────
+  // Typography-first presets — harvested from robonuggets/gpt-image-2-skill (MIT).
+  // GPT Image 2 is best-in-class for legible text inside images. These styles
+  // optimize for that strength: surfaces where the *typography* IS the picture.
+  // ───────────────────────────────────────────────────────────────
+
+  'chalkboard-sign': {
+    label: 'Chalkboard Sign (typography-first)',
+    build: (i) => `A weathered black slate chalkboard sign on a brick or wood-panel wall, portrait orientation, photographed at golden hour with warm tungsten light spilling in from the left. Hand-lettered chalk typography fills the board, with the visible scuffs and ghost-marks of previously erased messages giving authentic café-board texture. ${f(i.subject, 'A small chalk drawing in the corner — a steaming coffee cup with three rising curls of vapor')}. Composition: top of board has a small flourish, headline dominates the middle, footer line at bottom. Headline in tall hand-drawn chalk script, white with subtle pink highlights: "${f(i.title, 'TODAY’S SPECIAL')}". Sub-line in smaller serif chalk caps, slightly off-square: "${f(i.subtitle, 'LOBSTER ROLL · $24')}". Bottom line in tight cursive chalk: "${f(i.footer, 'all day · while supplies last')}". Slight chalk dust at the base of the lettering. Text must read perfectly clearly — quote it exactly as written.`,
+  },
+
+  'store-window': {
+    label: 'Storefront Window (typography-first)',
+    build: (i) => `A boutique storefront window viewed from the sidewalk, portrait orientation, hand-painted sign-painter typography centered on clean glass with a softly out-of-focus shop interior visible behind. Late afternoon street reflection adds subtle warmth. ${f(i.subject, 'Inside the shop a single warm pendant lamp glows over a wooden counter, blurred figures moving in the background')}. Layout: a small ornament at top, the headline in large gold-leaf serif sign-painter caps with a subtle drop-shadow: "${f(i.title, 'NORTH & PINE')}". Below in smaller hand-painted italic, deep navy: "${f(i.subtitle, 'apothecary · since 1974')}". Bottom line in elegant tracked sans-serif, painted in cream: "${f(i.footer, 'open daily · 9 — 7')}". Hairline gold underscore separating elements. The painted lettering has authentic brush-stroke variation — not vector. Text must render perfectly legibly.`,
+  },
+
+  'menu-board': {
+    label: 'Menu Board (typography-first)',
+    build: (i) => `A printed restaurant menu card, portrait orientation, premium thick cream cardstock photographed flat on a dark walnut tabletop with soft side light. Refined editorial typography, generous tracking, classical layout. Top of the card: a small ornamental glyph in burgundy. Below it the restaurant wordmark in tall thin Didone serif caps: "${f(i.title, 'MAISON CLAIRE')}". Below in italic light: "${f(i.subtitle, 'tasting menu · five courses')}". The body of the card is a vertical list of dishes, each with a single-line description and price aligned right via leader dots: ${f(i.body, '"Heirloom tomato · burrata · basil oil ............ 18 / Cured trout · fennel · meyer lemon ............ 22 / Wild mushroom risotto · brown butter ............ 26 / Slow lamb · merguez crumble · harissa jus ............ 34 / Olive oil cake · candied citrus ............ 14"')}. Bottom plate in tracked small caps: "${f(i.footer, 'available evenings · 6 — 10pm')}". A faint deboss line frames the menu. The text must read perfectly clearly with proper kerning — restaurant-grade print.`,
+  },
+
+  'packaging-mockup': {
+    label: 'Packaging Mockup (typography-first)',
+    build: (i) => `A premium product packaging mockup, portrait orientation, photographed in studio with soft directional key light and a single subtle reflected fill. ${f(i.subject, 'A tall matte-finish glass apothecary bottle with a cork stopper, sitting on a smooth bone-white surface against a softly graduated cream backdrop')}. Camera positioned eye-level, shallow depth of field, slight specular highlight on the bottle’s left edge. The label is the hero: a clean rectangular paper label wrapped on the bottle’s front, hand-letterpress aesthetic. Label layout top-to-bottom: a small monogram crest, a thin rule, the product name in tall thin serif caps: "${f(i.title, 'BERGAMOT NO. 04')}". Sub-line in smaller spaced italic: "${f(i.subtitle, 'cold-pressed botanical tonic')}". Body block in tracked tiny caps, three short lines: ${f(i.body, '"NET 250 ML · NATURALLY FERMENTED · BATCH 037"')}. Bottom in small monospace: "${f(i.footer, 'crafted in oregon')}". The typography on the label must be perfectly legible and crisply printed — every word readable at thumbnail. Premium DTC brand feel.`,
+  },
+
+  'ui-mockup': {
+    label: 'UI / App Mockup (typography-first)',
+    build: (i) => `A clean UI mockup of a mobile app screen, portrait orientation 9:19, framed inside a thin matte-black smartphone bezel rendered as a flat illustration on a soft gradient backdrop (pale lavender top → cream bottom). The app screen content is the hero. Top of screen: a status bar (time 9:41 left, signal/battery right). Below that, a clean app header with a back-chevron icon left, the screen title in medium-weight sans-serif: "${f(i.title, 'Today')}", and a small avatar circle right. Below the header, a primary content card with rounded corners and a subtle drop-shadow occupies the upper third: ${f(i.subject, 'a card showing a large bold dollar amount $1,247.50 in tabular figures, a smaller line below reading "available balance," and a small green up-arrow with "+ 4.2% this week"')}. Below that, a vertical list of three secondary rows, each with a small left-aligned icon, a primary label and a smaller secondary line: ${f(i.body, '"Coffee · Bluestone · -$6.40 / Rent · Apr · -$2,400.00 / Salary · Apr · +$5,800.00"')}. Bottom of screen: a tab bar with five icons, the leftmost ("Home") active in deep indigo. All UI text must render perfectly legibly with consistent kerning — Inter/SF Pro-style geometric sans-serif throughout. Footer caption beneath the phone in small grey caps: "${f(i.footer, 'IOS · LIGHT MODE')}".`,
+  },
+
   'absurd-transit-map': {
     label: 'Absurd Transit Map',
     experimental: true,
@@ -233,6 +264,12 @@ const PICK_RULES = [
   ['minimal-tech-keynote', /\b(tech product|keynote|gadget reveal|product launch|apple.style)\b/i],
   ['brutalist-broadcast', /\b(brutalist|broadcast|tabloid|jersey number|hyrox|crossfit|race day|combat sport)\b/i],
   ['emerald-nocturne', /\b(restaurant|wine bar|cocktail|nightclub|jazz lounge|brasserie|menu card|hospitality)\b/i],
+  // Typography-first presets (harvested from gpt-image-2-skill — surfaces where the lettering IS the picture)
+  ['chalkboard-sign', /\b(chalkboard|chalk board|cafe board|coffee shop sign|bistro chalk|specials board|hand[- ]?lettered chalk)\b/i],
+  ['store-window', /\b(store ?front|shop window|boutique window|store window|sign[- ]?painter|hand[- ]?painted sign|window sign)\b/i],
+  ['menu-board', /\b(menu card|tasting menu|prix fixe|wine list|restaurant menu|printed menu|food menu)\b/i],
+  ['packaging-mockup', /\b(packaging|product label|bottle label|tin label|product mockup|cpg packaging|skincare label|dtc label)\b/i],
+  ['ui-mockup', /\b(ui mockup|app mockup|app screenshot|app store|interface mockup|product screenshot|app screen|ios mockup|android mockup)\b/i],
   // Experimental styles (excluded from auto-picker by default; reachable via --style= or --include-experimental)
   ['absurd-transit-map', /\b(transit map|subway|vignelli|mood map|diagram)\b/i, { experimental: true }],
 ];

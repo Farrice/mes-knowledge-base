@@ -1,43 +1,134 @@
-# Fal API Usage Policy (fantastic-posters skill)
+# Fal API Usage Policy (fantastic-posters skill, v2 mode-aware)
 
 > **Wallet**: $20.00 funded, auto-refills when balance drops below $5.00 → effective rolling $15-20 budget per cycle
-> **Tracker**: `.agent/fal-usage.json` | **Guard**: `execution/fal_budget_guard.py` | **Hookify**: `.claude/hookify.fal-budget.local.md`
-> Applies to ALL invocations of `./gen.sh` in `skills/fantastic-posters/`.
+> **Tracker**: `.agent/fal-usage.json` (v2 schema) | **Guard**: `execution/fal_budget_guard.py` | **Hookify**: `.claude/hookify.fal-budget.local.md`
+> Applies to ALL Fal calls: posters (`./gen.sh`), Kling video (`fal_video_kling.py`), Seedance video (`fal_video_seedance.py`).
 
 ---
 
 ## Hard Rule (Non-Negotiable)
 
-**Every `./gen.sh` call MUST be preceded by a budget guard check, and followed by a budget guard log.** No exceptions, even for "just one quick test."
+**Every Fal call (poster OR video) MUST be preceded by a mode-aware budget guard check, and followed by a budget guard log.** No exceptions, even for "just one quick test."
 
-> **Why `./gen.sh` and not `node generate.js`?** `gen.sh` is the wrapper that sources `FAL_KEY` from the project root `.env` (single source of truth). Direct `node generate.js` calls fail with "FAL_KEY missing" unless you manually export it. Always use the wrapper.
+> **Why `./gen.sh` and not `node generate.js`?** `gen.sh` is the wrapper that sources `FAL_KEY` from the project root `.env` (single source of truth). Same principle for video wrappers — they auto-load FAL_KEY from `.env`.
 
+### Poster (default — backward compatible)
 ```bash
-# 1. PRE-FLIGHT — gate the call
-python3 execution/fal_budget_guard.py check --quality=<low|medium|high> --n=<count>
+# 1. PRE-FLIGHT
+python3 execution/fal_budget_guard.py check --mode=poster --quality=<low|medium|high> --n=<count>
 
-# 2. RUN — only if check returned exit code 0
+# 2. RUN
 cd "/Users/farricecain/Google Antigravity/skills/fantastic-posters/" && \
   ./gen.sh "<brief>" --quality=<...> --n=<...>
 
-# 3. POST-FLIGHT — record actual spend (status=success or failed)
-python3 execution/fal_budget_guard.py log --quality=<...> --n=<...> --status=success
+# 3. POST-FLIGHT
+python3 execution/fal_budget_guard.py log --mode=poster --quality=<...> --n=<...> --status=success
 ```
+
+### Kling video
+```bash
+# 1. PRE-FLIGHT
+python3 execution/fal_budget_guard.py check --mode=kling --duration=<3-15> --audio=<off|on|voice_control>
+
+# 2. RUN
+python3 execution/fal_video_kling.py --prompt="<motion>" --start-image="<path|url>" --duration=<N> --audio=<...>
+
+# 3. POST-FLIGHT (use --actual-cost from generator output)
+python3 execution/fal_budget_guard.py log --mode=kling --duration=<N> --audio=<...> --status=success --actual-cost=<N>
+```
+
+### Seedance video
+```bash
+# 1. PRE-FLIGHT
+python3 execution/fal_budget_guard.py check --mode=seedance-720p --duration=<4-15>
+
+# 2. RUN
+python3 execution/fal_video_seedance.py --prompt="<motion>" --image="<path|url>" --duration=<N> --resolution=720p --audio=on
+
+# 3. POST-FLIGHT
+python3 execution/fal_budget_guard.py log --mode=seedance-720p --duration=<N> --audio=on --status=success --actual-cost=<N>
+```
+
+### Edit (image-to-image — fantastic-posters)
+
+Triggered by any of `--input=`, `--refs=`, `--logo=`, `--template=`, or a style flagged `needsPhoto`. Use `--mode=edit` in the guard. Optional `--mask=<url>` constrains the change to a region (white = edit, black = preserve).
+
+```bash
+# 1. PRE-FLIGHT
+python3 execution/fal_budget_guard.py check --mode=edit --quality=medium --n=1
+
+# 2. RUN — explicit edit on a known URL with optional mask
+cd "/Users/farricecain/Google Antigravity/skills/fantastic-posters/" && \
+  ./gen.sh "swap the headline to 'TODAY: Lobster Roll $24'" \
+    --input=https://v3b.fal.media/files/b/.../poster.png \
+    --mask=https://example.com/mask.png \
+    --quality=medium
+
+# 3. POST-FLIGHT
+python3 execution/fal_budget_guard.py log --mode=edit --quality=medium --n=1 --status=success
+```
+
+See `directives/fal-edit-mode-guide.md` for when to edit vs. regenerate, mask format requirements, and ref-URL hosting options.
+
+### Variant batching (cheaper than --n loop)
+
+`--variants=N` (1-4) returns N images in a **single API call**. Total cost is `N × per-image` — same dollars as `--n=N`, but fewer round trips and the per-call ceiling treats it as one request. Use this when you want sibling variants of the same prompt; use `--n=N` when you want the script's per-call diversity nudge.
+
+```bash
+# 4 variants in 1 API call — costs 4 × $0.04 = $0.16 at medium
+python3 execution/fal_budget_guard.py check --mode=poster --quality=medium --n=4
+./gen.sh "boutique wellness retreat" --variants=4 --quality=medium
+python3 execution/fal_budget_guard.py log --mode=poster --quality=medium --n=4 --status=success
+```
+
+### Background removal — `--rembg`
+
+When `--rembg` is set, after each generated image the script chains a `fal-ai/imageutils/rembg` call (~$0.005) to produce a transparent PNG (`*_alpha.png`) alongside the original. **Two guard cycles fire** — one for generation, one for rembg.
+
+```bash
+# Gate generation + rembg separately
+python3 execution/fal_budget_guard.py check --mode=poster --quality=medium --n=1
+python3 execution/fal_budget_guard.py check --mode=rembg --n=1
+
+# Run with --rembg flag (script handles the chained call)
+./gen.sh "logo for a coffee brand on white background" --rembg --quality=medium
+
+# Log both calls
+python3 execution/fal_budget_guard.py log --mode=poster --quality=medium --n=1 --status=success
+python3 execution/fal_budget_guard.py log --mode=rembg --n=1 --status=success
+```
+
+### Large dimensions (up to 3840×2160)
+
+GPT Image 2 supports up to 3840×2160 at ≤ 3:1 aspect, multiples of 16. Use new size presets (`--size=banner-3to1` for 3072×1024, `--size=hero-2to1` for 2560×1280, `--size=poster-xl` for 2048×3072) or pass `--size=WxH` directly. Cost is the same regardless of dimensions — only `--quality` changes the price. Invalid sizes are rejected before the API call with a helpful error.
 
 ---
 
 ## Multi-Layer Safeguards
 
-The guard enforces six independent limits. A call is denied if ANY of them trip:
+The guard enforces independent limits at multiple layers. A call is denied if ANY of them trip:
+
+### Per-call ceilings (mode-aware, v2)
+
+| Mode | Ceiling | What it covers |
+|---|---|---|
+| `poster` | $1.00 | Catches `--batch=` runaway, `--n=10 --quality=high` mistakes |
+| `edit` | $1.00 | Same as poster (similar token cost) |
+| `rembg` | $0.10 | Chained `fal-ai/imageutils/rembg` call when `--rembg` flag is set (~$0.005/call) |
+| `kling` | $2.00 | ~10s with audio on, ~17s audio off (capped at 15s by API) |
+| `seedance-480p` | $1.50 | ~11s at 480p ($0.13/s) |
+| `seedance-720p` | $3.00 | ~10s at 720p ($0.30/s) |
+| `seedance-1080p` | **HARD-BLOCKED** | $0.68/s — single 15s call ~$10 (50% of wallet). Refused at script level + guard level. |
+
+### Cross-mode caps (single budget, no per-mode allocation)
 
 | Layer | Limit | Why |
 |---|---|---|
-| **Per-call ceiling** | $1.00 estimated | Catches `--batch=` runaway and `--n=10 --quality=high` mistakes |
 | **Per-call warn** | $0.30 estimated | Forces conscious choice on expensive single calls |
-| **Per-day block** | $4.00 today | Prevents same-day bursts (max ~3 high-quality + medium calls) |
+| **Per-day block** | $6.00 today | Allows 1 video + 1 poster batch per day; caps daily damage |
 | **Per-cycle block** | $15.00 cycle | Preserves $5 refill buffer in the wallet |
 | **Low-balance cap** | $0.50/call when balance < $5 | Ensures refill threshold isn't burned through |
-| **Rate limit** | 5 calls / 5 minutes | Catches accidental retry loops |
+| **Rate limit** | 5 calls / 5 minutes | Catches accidental retry loops (especially relevant for video) |
 | **Failure circuit** | 2 consecutive failures → halt | Prevents wasted spend on config errors |
 
 ---

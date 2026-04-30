@@ -253,7 +253,8 @@ consumer posture → Dai Media, agentic workflows → Nick Saraev,
 **design system / DESIGN.md / "make it look like [brand]" / brand tokens → `skills/design-md/`,
 UI/component/page code from a DESIGN.md → `skills/product-design-build/`,
 art direction / cinematic / streetwear / AI image-or-video prompts → `skills/creative-direction/` (via Creative Director agent),
-stylized poster generation (vintage, Swiss, Ukiyo-e, brutalism, neon-noir, editorial, real-estate, etc.) / "make a poster" → `skills/fantastic-posters/` (Fal + GPT Image 2, 33 styles, MUST gate via `execution/fal_budget_guard.py check`)**),
+stylized poster generation (vintage, Swiss, Ukiyo-e, brutalism, neon-noir, editorial, real-estate, etc.) / "make a poster" → `skills/fantastic-posters/` (Fal + GPT Image 2, 33 styles, MUST gate via `execution/fal_budget_guard.py check --mode=poster`),
+image-to-video / "animate this poster" / "make a video" / "video trailer" → `skills/fantastic-posters/` video wrappers (Kling v3 Pro for multi-shot/cheaper, Seedance 2.0 720p for cinematic+audio; MUST gate via `execution/fal_budget_guard.py check --mode=<kling|seedance-720p>`; 1080p HARD-BLOCKED)**),
 route without reading `DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
 
 **Step 4 (LOAD): Deferred Tier escalation.**
@@ -373,7 +374,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Perplexity — FALLBACK + quick facts | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json`. Fires automatically when Gemini Deep Research unavailable. Also for single-claim fact checks via sonar-pro/ask. |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 | Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
-| **Fal API (fantastic-posters)** | `directives/fal-usage-policy.md` | $20 wallet w/ $5 refill threshold, track in `.agent/fal-usage.json`. **MANDATORY pre-flight gate**: every `node generate.js` call must pass `python3 execution/fal_budget_guard.py check` first. Multi-layer caps: per-call $1.00, per-day $4.00, per-cycle $15.00, rate-limit 5/5min, halt after 2 consecutive failures. Hookify enforced. |
+| **Fal API (fantastic-posters + video)** | `directives/fal-usage-policy.md` | $20 wallet w/ $5 refill threshold, track in `.agent/fal-usage.json` (v2 mode-aware). **MANDATORY pre-flight gate**: every Fal call must pass `python3 execution/fal_budget_guard.py check --mode=<...>` first. Modes: `poster` ($1 ceiling), `edit` ($1), `kling` ($2), `seedance-480p` ($1.50), `seedance-720p` ($3), `seedance-1080p` (HARD-BLOCKED, no override). Cross-mode: per-day $6, per-cycle $15, rate-limit 5/5min, halt after 2 consecutive failures. Hookify enforced. Wrappers: `./gen.sh` (posters), `execution/fal_video_kling.py`, `execution/fal_video_seedance.py`. |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.
 

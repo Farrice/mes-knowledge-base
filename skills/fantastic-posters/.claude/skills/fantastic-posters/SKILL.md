@@ -1,13 +1,35 @@
 ---
 name: fantastic-posters
-description: Generate fantastic posters across 33 distinct visual styles using GPT Image 2 (via Fal). Auto-picks the right style from the user's brief, builds a templated prompt, and renders. Multi-ref + logo + brief + batch + template modes. Triggers on "fantastic posters", "quality posters", "make a poster", "poster style", "generate poster".
+description: Generate fantastic posters across 33 distinct visual styles using GPT Image 2 (via Fal), AND animate posters into video via Seedance 2.0 + Kling v3 Pro. Auto-picks the right style from the user's brief, builds a templated prompt, and renders. Multi-ref + logo + brief + batch + template modes. Image-to-video bridge: any poster output becomes a video input. Triggers on "fantastic posters", "make a poster", "poster style", "generate poster", "make a video", "animate this poster", "image to video", "video trailer".
 ---
 
-# Fantastic Posters
+# Fantastic Posters (+ Video)
 
 A poster generator with a curated catalog of 33 visual styles. The agent picks the style that fits the brief, builds the prompt, and generates with GPT Image 2 (via Fal). Multi-reference uploads, brand-book PDFs, structured briefs, batch generation, and template replication are all first-class.
 
+**Video extension (added 2026-04-30)**: Posters can be animated into video via Seedance 2.0 (cinematic + audio) or Kling v3 Pro (multi-shot narrative). The bridge pattern — poster output as video input frame — is the killer use case. See `workflows/poster-to-video.md`, `workflows/kling-multishot.md`, `workflows/seedance-cinematic.md`.
+
 After generation, layer separation is handled outside this skill — open the PNG in Canva and use Magic / Smart Layers to split foreground/background/text.
+
+## Video Generation (Mode-Aware Budget Required)
+
+Three video modes, each with its own budget ceiling enforced by `execution/fal_budget_guard.py`:
+
+| Mode | Endpoint | Per-call ceiling | Use |
+|---|---|---|---|
+| `kling` | `fal-ai/kling-video/v3/pro/image-to-video` | $2.00 | Multi-shot narratives, character consistency, default for most cases |
+| `seedance-720p` | `bytedance/seedance-2.0/image-to-video` | $3.00 | Cinematic single-shot, lipsync-grade audio, start→end frame transitions |
+| `seedance-480p` | same | $1.50 | Budget option for quick experiments |
+| `seedance-1080p` | same | **HARD-BLOCKED** | Single 15s call ~$10; refused at script level |
+
+**MANDATORY pre-flight** before any video call:
+```bash
+python3 execution/fal_budget_guard.py check --mode=<kling|seedance-720p|...> --duration=<N> [--audio=<off|on|voice_control>]
+```
+
+**Wrappers** (handle FAL_KEY loading from project root .env, image upload to Fal storage, MP4 download):
+- `python3 execution/fal_video_kling.py --prompt="..." --start-image="<path|url>" --duration=5 --audio=on`
+- `python3 execution/fal_video_seedance.py --prompt="..." --image="<path|url>" --duration=6 --resolution=720p`
 
 ## How to Run
 

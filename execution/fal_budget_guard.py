@@ -1,22 +1,45 @@
 #!/usr/bin/env python3
 """
-Fal API budget guard for fantastic-posters skill.
+Fal API budget guard for fantastic-posters skill (v2 — mode-aware).
 
 Wallet model: $20 funded, refills when balance drops below $5 (rolling $15-20 budget).
-Multi-layer safeguards prevent runaway spend:
-  1. Per-call ceiling      — block any single call estimated > $1.00
-  2. Per-day ceiling       — block once today's spend hits $4.00
-  3. Per-cycle ceiling     — block once cycle spend hits $15.00 (preserves $5 refill buffer)
-  4. Low-balance mode      — when balance < $5, only allow calls < $0.50
-  5. Rate limit            — max 5 calls per 5 minutes (catches accidental loops)
-  6. Failure circuit       — halt after 2 consecutive failures (probably config error)
 
-Usage:
-  python3 fal_budget_guard.py check --quality=low --n=1 [--brief="..."]
-  python3 fal_budget_guard.py log --quality=low --n=1 --status=success [--actual-cost=0.011]
+Modes (each with its own per-call ceiling):
+  - poster              | GPT Image 2 text-to-image     | ceiling $1.00
+  - edit                | GPT Image 2 image-to-image    | ceiling $1.00
+  - rembg               | fal-ai/imageutils/rembg       | ceiling $0.10  (chained transparency)
+  - kling               | Kling v3 Pro video            | ceiling $2.00
+  - seedance-480p       | Seedance 2.0 480p video       | ceiling $1.50
+  - seedance-720p       | Seedance 2.0 720p video       | ceiling $3.00
+  - seedance-1080p      | Seedance 2.0 1080p video      | HARD-BLOCKED (null ceiling)
+
+Multi-layer safeguards:
+  1. Per-call ceiling      — mode-specific (above)
+  2. Per-day block         — $6.00 across all modes (raised from $4 to fit video)
+  3. Per-cycle block       — $15.00 (preserves $5 refill buffer)
+  4. Low-balance cap       — $0.50/call when wallet < $5
+  5. Rate limit            — 5 calls / 5 min
+  6. Failure circuit       — halt after 2 consecutive failures
+
+Usage (poster — backward compatible):
+  python3 fal_budget_guard.py check --quality=low --n=1
+  python3 fal_budget_guard.py log --quality=low --n=1 --status=success
+
+Usage (poster — explicit mode):
+  python3 fal_budget_guard.py check --mode=poster --quality=high --n=1
+
+Usage (Kling video):
+  python3 fal_budget_guard.py check --mode=kling --duration=5 --audio=on
+  python3 fal_budget_guard.py log --mode=kling --duration=5 --audio=on --status=success --actual-cost=0.84
+
+Usage (Seedance video):
+  python3 fal_budget_guard.py check --mode=seedance-720p --duration=8
+  python3 fal_budget_guard.py log --mode=seedance-720p --duration=8 --status=success --actual-cost=2.42
+
+Other commands:
   python3 fal_budget_guard.py status
-  python3 fal_budget_guard.py refill-confirm   # call after you fund the Fal wallet
-  python3 fal_budget_guard.py reset-failures   # clear consecutive failure counter
+  python3 fal_budget_guard.py refill-confirm   # call after Fal auto-refill
+  python3 fal_budget_guard.py reset-failures   # clear consecutive failure halt
 """
 from __future__ import annotations
 
@@ -28,6 +51,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 TRACKER_PATH = ROOT / ".agent" / "fal-usage.json"
+
+POSTER_MODES = {"poster", "edit"}
+UTILITY_MODES = {"rembg"}  # Chained image-utility calls (background removal, etc.)
+VIDEO_MODES = {"kling", "seedance-480p", "seedance-720p", "seedance-1080p"}
+ALL_MODES = POSTER_MODES | UTILITY_MODES | VIDEO_MODES
 
 
 def now_iso() -> str:
@@ -56,20 +84,13 @@ def reset_today_if_needed(data: dict) -> None:
         data["totals"]["today_date"] = today_str()
         data["totals"]["today_calls"] = 0
         data["totals"]["today_spent_usd"] = 0.00
-
-
-def estimate_cost(quality: str, n: int) -> float:
-    data = load()
-    price = data["pricing_estimates_usd"].get(quality)
-    if price is None:
-        sys.exit(f"ERROR: unknown quality '{quality}'. Use low|medium|high.")
-    return round(price * n, 4)
+        data["totals"]["today_spent_by_mode"] = {"poster": 0.0, "edit": 0.0, "rembg": 0.0, "kling": 0.0, "seedance": 0.0}
 
 
 def prune_old_timestamps(data: dict) -> None:
     """Keep only timestamps from the last 5 minutes for rate-limit check."""
     now = datetime.now(timezone.utc).timestamp()
-    cutoff = now - 300  # 5 minutes
+    cutoff = now - 300
     fresh = []
     for ts in data["state"]["recent_call_timestamps"]:
         try:
@@ -81,6 +102,57 @@ def prune_old_timestamps(data: dict) -> None:
     data["state"]["recent_call_timestamps"] = fresh
 
 
+def mode_aggregate_key(mode: str) -> str:
+    """Map specific mode to aggregate bucket: seedance-720p → 'seedance', kling → 'kling'."""
+    if mode.startswith("seedance"):
+        return "seedance"
+    return mode  # poster, edit, rembg, kling
+
+
+def estimate_cost(mode: str, *, quality: str | None = None, n: int = 1,
+                  duration: int | None = None, audio: str | None = None) -> float:
+    """Estimate cost in USD for a given call configuration.
+
+    For poster/edit: requires quality (low/medium/high) and n.
+    For kling: requires duration (3-15) and audio (off/on/voice_control).
+    For seedance-*: requires duration (4-15). Resolution is encoded in mode.
+    """
+    data = load()
+    pricing = data["pricing_estimates_usd"]
+
+    if mode in POSTER_MODES:
+        if quality is None:
+            sys.exit(f"ERROR: mode={mode} requires --quality")
+        price = pricing[mode].get(quality)
+        if price is None:
+            sys.exit(f"ERROR: unknown quality '{quality}' for mode={mode}. Use low|medium|high.")
+        return round(price * n, 4)
+
+    if mode == "rembg":
+        # Flat per-call pricing — no quality tier. Quality flag (if passed) is ignored.
+        per_call = pricing.get("rembg", {}).get("per_call", 0.005)
+        return round(per_call * n, 4)
+
+    if mode == "kling":
+        if duration is None:
+            sys.exit("ERROR: mode=kling requires --duration")
+        audio = audio or "on"
+        per_sec_map = pricing["kling_per_second"]
+        key = {"off": "audio_off", "on": "audio_on", "voice_control": "voice_control"}.get(audio)
+        if key is None:
+            sys.exit(f"ERROR: unknown audio '{audio}'. Use off|on|voice_control.")
+        return round(per_sec_map[key] * duration, 4)
+
+    if mode in {"seedance-480p", "seedance-720p", "seedance-1080p"}:
+        if duration is None:
+            sys.exit(f"ERROR: mode={mode} requires --duration")
+        res_key = mode.split("-")[1]  # 480p / 720p / 1080p
+        per_sec = pricing["seedance_per_second"][res_key]
+        return round(per_sec * duration, 4)
+
+    sys.exit(f"ERROR: unknown mode '{mode}'. Valid: {sorted(ALL_MODES)}")
+
+
 # ─────────────────────────────────────────────────────────────────
 # CHECK — pre-flight gate
 # ─────────────────────────────────────────────────────────────────
@@ -89,11 +161,37 @@ def cmd_check(args) -> int:
     reset_today_if_needed(data)
     prune_old_timestamps(data)
 
-    estimated = estimate_cost(args.quality, args.n)
+    mode = args.mode
+
+    # Hard-block 1080p Seedance — no override path
+    if mode == "seedance-1080p":
+        print("=" * 60)
+        print("FAL BUDGET GUARD: ❌ DENIED (HARD-BLOCKED)")
+        print("=" * 60)
+        print("  • mode=seedance-1080p is hard-blocked. Single 15s call costs ~$10.21 (50% of wallet).")
+        print("  • Use --mode=seedance-720p instead (max ~$4.54 for 15s, ceiling $3.00 → ~10s max).")
+        print("  • If you genuinely need 1080p, edit fal_budget_guard.py limits — runtime override is intentionally absent.")
+        print("  • Policy: directives/fal-usage-policy.md")
+        return 1
+
+    estimated = estimate_cost(
+        mode,
+        quality=args.quality,
+        n=args.n,
+        duration=args.duration,
+        audio=args.audio,
+    )
+
     limits = data["limits"]
     state = data["state"]
     totals = data["totals"]
     wallet = data["wallet"]
+    per_call_ceilings = limits["per_call_block_usd_by_mode"]
+    mode_ceiling = per_call_ceilings.get(mode)
+    if mode_ceiling is None:
+        # Already handled 1080p above; this catches any future null entries.
+        print(f"❌ DENIED: mode={mode} has no ceiling configured (hard-block).")
+        return 1
 
     blocks = []
     warns = []
@@ -116,11 +214,11 @@ def cmd_check(args) -> int:
             f"Wait or investigate loop."
         )
 
-    # 3. Per-call ceiling
-    if estimated > limits["per_call_block_usd"]:
+    # 3. Per-call ceiling (mode-aware)
+    if estimated > mode_ceiling:
         blocks.append(
-            f"BLOCKED: estimated ${estimated:.3f} exceeds per-call ceiling "
-            f"${limits['per_call_block_usd']:.2f}. Lower quality or reduce --n."
+            f"BLOCKED: estimated ${estimated:.3f} exceeds per-call ceiling for "
+            f"mode={mode} (${mode_ceiling:.2f}). Lower duration/quality or pick a cheaper mode."
         )
     elif estimated > limits["per_call_warn_usd"]:
         warns.append(f"WARN: single call ~${estimated:.3f} (>${limits['per_call_warn_usd']:.2f}).")
@@ -169,7 +267,7 @@ def cmd_check(args) -> int:
     # ─── Verdict ───
     if blocks:
         print("=" * 60)
-        print("FAL BUDGET GUARD: ❌ DENIED")
+        print(f"FAL BUDGET GUARD: ❌ DENIED  (mode={mode}, est=${estimated:.4f})")
         print("=" * 60)
         for b in blocks:
             print(f"  • {b}")
@@ -177,22 +275,23 @@ def cmd_check(args) -> int:
             print("\nAlso noted:")
             for w in warns:
                 print(f"  • {w}")
-        print(f"\nEstimated cost of this call: ${estimated:.4f}")
+        print(f"\nMode ceiling for {mode}: ${mode_ceiling:.2f}")
         print(f"Cycle spent: ${totals['current_cycle_spent_usd']:.2f} / ${limits['per_cycle_block_usd']:.2f}")
         print(f"Today spent: ${totals['today_spent_usd']:.2f} / ${limits['per_day_block_usd']:.2f}")
         return 1
 
     print("=" * 60)
-    print(f"FAL BUDGET GUARD: ✅ ALLOWED — est. ${estimated:.4f}")
+    print(f"FAL BUDGET GUARD: ✅ ALLOWED  (mode={mode}, est=${estimated:.4f})")
     print("=" * 60)
     if warns:
         for w in warns:
             print(f"  • {w}")
+    print(f"Mode ceiling: ${mode_ceiling:.2f}")
     print(f"Cycle spent: ${totals['current_cycle_spent_usd']:.2f} / ${limits['per_cycle_block_usd']:.2f}")
     print(f"Today spent: ${totals['today_spent_usd']:.2f} / ${limits['per_day_block_usd']:.2f}")
-    print(f"Wallet est: ${wallet['current_balance_estimate']:.2f}")
-    print(f"\nAfter `node generate.js`, run:")
-    print(f"  python3 execution/fal_budget_guard.py log --quality={args.quality} --n={args.n} --status=success")
+    print(f"Wallet est:  ${wallet['current_balance_estimate']:.2f}")
+    print(f"\nAfter the call, run:")
+    print(f"  python3 execution/fal_budget_guard.py log --mode={mode} ...args... --status=success [--actual-cost=N]")
     return 0
 
 
@@ -204,14 +303,27 @@ def cmd_log(args) -> int:
     reset_today_if_needed(data)
     prune_old_timestamps(data)
 
-    estimated = estimate_cost(args.quality, args.n)
+    mode = args.mode
+
+    if mode == "seedance-1080p":
+        # Should never reach log for blocked mode, but guard anyway
+        print("ERROR: cannot log mode=seedance-1080p (hard-blocked, should not have run).")
+        return 1
+
+    estimated = estimate_cost(
+        mode,
+        quality=args.quality,
+        n=args.n,
+        duration=args.duration,
+        audio=args.audio,
+    )
     actual = args.actual_cost if args.actual_cost is not None else estimated
 
-    # Update state
     state = data["state"]
+    agg_key = mode_aggregate_key(mode)
+
     if args.status == "success":
         state["consecutive_failures"] = 0
-        # Bill it
         data["totals"]["lifetime_calls"] += 1
         data["totals"]["lifetime_spent_usd"] = round(data["totals"]["lifetime_spent_usd"] + actual, 4)
         data["totals"]["current_cycle_calls"] += 1
@@ -223,10 +335,13 @@ def cmd_log(args) -> int:
         data["wallet"]["current_balance_estimate"] = round(
             data["wallet"]["current_balance_estimate"] - actual, 4
         )
+        # Per-mode aggregates
+        for bucket in ("today_spent_by_mode", "cycle_spent_by_mode", "lifetime_spent_by_mode"):
+            data["totals"][bucket][agg_key] = round(data["totals"][bucket].get(agg_key, 0.0) + actual, 4)
+
     elif args.status == "failed":
         state["consecutive_failures"] += 1
         if args.fal_billed:
-            # Even on failure, if Fal billed us, count it
             data["totals"]["lifetime_spent_usd"] = round(data["totals"]["lifetime_spent_usd"] + actual, 4)
             data["totals"]["current_cycle_spent_usd"] = round(
                 data["totals"]["current_cycle_spent_usd"] + actual, 4
@@ -235,6 +350,8 @@ def cmd_log(args) -> int:
             data["wallet"]["current_balance_estimate"] = round(
                 data["wallet"]["current_balance_estimate"] - actual, 4
             )
+            for bucket in ("today_spent_by_mode", "cycle_spent_by_mode", "lifetime_spent_by_mode"):
+                data["totals"][bucket][agg_key] = round(data["totals"][bucket].get(agg_key, 0.0) + actual, 4)
         if state["consecutive_failures"] >= data["limits"]["max_consecutive_failures"]:
             state["halt_reason"] = (
                 f"{state['consecutive_failures']} consecutive failures at {now_iso()}"
@@ -243,21 +360,36 @@ def cmd_log(args) -> int:
     state["recent_call_timestamps"].append(now_iso())
 
     # Append log
-    data["log"].append({
+    entry = {
         "ts": now_iso(),
+        "mode": mode,
         "brief": args.brief or "",
-        "style": args.style or "auto",
-        "quality": args.quality,
-        "n": args.n,
         "estimated_cost_usd": estimated,
         "actual_cost_usd": actual,
         "status": args.status,
         "fal_billed": args.fal_billed,
         "output_path": args.output_path or "",
-    })
+    }
+    if mode in POSTER_MODES:
+        entry["quality"] = args.quality
+        entry["n"] = args.n
+        entry["style"] = args.style or ""
+    elif mode == "rembg":
+        entry["n"] = args.n
+    elif mode == "kling":
+        entry["duration"] = args.duration
+        entry["audio"] = args.audio or "on"
+    elif mode.startswith("seedance"):
+        entry["duration"] = args.duration
+        entry["resolution"] = mode.split("-")[1]
+        entry["audio"] = args.audio or "on"
 
+    data["log"].append(entry)
     save(data)
-    print(f"Logged: {args.status}, ${actual:.4f}, cycle total ${data['totals']['current_cycle_spent_usd']:.2f}")
+
+    print(f"Logged: mode={mode}, {args.status}, ${actual:.4f}")
+    print(f"  Cycle total: ${data['totals']['current_cycle_spent_usd']:.2f} / ${data['limits']['per_cycle_block_usd']:.2f}")
+    print(f"  Cycle by mode: {data['totals']['cycle_spent_by_mode']}")
     if state.get("halt_reason"):
         print(f"⚠️  HALTED: {state['halt_reason']}")
     return 0
@@ -274,9 +406,9 @@ def cmd_status(_args) -> int:
     t = data["totals"]
     l = data["limits"]
     s = data["state"]
-    print("─" * 60)
-    print("FAL BUDGET GUARD — STATUS")
-    print("─" * 60)
+    print("─" * 64)
+    print("FAL BUDGET GUARD — STATUS  (v2 mode-aware)")
+    print("─" * 64)
     print(f"Wallet (estimated):  ${w['current_balance_estimate']:.2f} / ${w['funded_total']:.2f}")
     print(f"Refill threshold:    ${w['refill_threshold']:.2f}  (auto-refill: {w['auto_refill']})")
     print(f"Cycle started:       {w['cycle_started_at']}")
@@ -285,7 +417,15 @@ def cmd_status(_args) -> int:
     print(f"Today spent:         ${t['today_spent_usd']:.2f} / ${l['per_day_block_usd']:.2f}  (warn at ${l['per_day_warn_usd']:.2f})")
     print(f"Lifetime spent:      ${t['lifetime_spent_usd']:.2f}  ({t['lifetime_calls']} calls)")
     print()
-    print(f"Per-call block:      ${l['per_call_block_usd']:.2f}  (warn at ${l['per_call_warn_usd']:.2f})")
+    print("Per-call ceilings by mode:")
+    for mode, ceiling in l["per_call_block_usd_by_mode"].items():
+        cstr = f"${ceiling:.2f}" if ceiling is not None else "HARD-BLOCKED"
+        print(f"  {mode:<20s} {cstr}")
+    print()
+    print("Cycle spent by mode:")
+    for mode, spent in t.get("cycle_spent_by_mode", {}).items():
+        print(f"  {mode:<20s} ${spent:.4f}")
+    print()
     print(f"Low-balance cap:     ${l['low_balance_max_call_usd']:.2f}/call when balance < ${w['refill_threshold']:.2f}")
     print(f"Rate limit:          {l['max_calls_per_5min']} calls / 5 min")
     print(f"Consecutive fails:   {s['consecutive_failures']} / {l['max_consecutive_failures']}")
@@ -293,17 +433,25 @@ def cmd_status(_args) -> int:
         print(f"⚠️  HALTED:           {s['halt_reason']}")
     print()
     if data["log"]:
-        print(f"Last 3 calls:")
-        for entry in data["log"][-3:]:
-            print(f"  {entry['ts']}  {entry['quality']:6s} n={entry['n']}  ${entry['actual_cost_usd']:.4f}  {entry['status']}")
+        print(f"Last 5 calls:")
+        for entry in data["log"][-5:]:
+            ts = entry["ts"]
+            mode = entry.get("mode", "poster")
+            cost = entry.get("actual_cost_usd", 0)
+            status = entry.get("status", "?")
+            extra = ""
+            if mode in POSTER_MODES:
+                extra = f"q={entry.get('quality','?')} n={entry.get('n','?')}"
+            elif mode == "kling":
+                extra = f"d={entry.get('duration','?')}s audio={entry.get('audio','?')}"
+            elif mode.startswith("seedance"):
+                extra = f"d={entry.get('duration','?')}s {entry.get('resolution','?')}"
+            print(f"  {ts}  {mode:<16s} {extra:<20s} ${cost:.4f}  {status}")
     else:
         print("No calls logged yet.")
     return 0
 
 
-# ─────────────────────────────────────────────────────────────────
-# REFILL CONFIRM — call after Fal auto-refill happens
-# ─────────────────────────────────────────────────────────────────
 def cmd_refill_confirm(_args) -> int:
     data = load()
     data["wallet"]["current_balance_estimate"] = data["wallet"]["funded_total"]
@@ -311,6 +459,7 @@ def cmd_refill_confirm(_args) -> int:
     data["wallet"]["cycle_started_at"] = now_iso()
     data["totals"]["current_cycle_calls"] = 0
     data["totals"]["current_cycle_spent_usd"] = 0.00
+    data["totals"]["cycle_spent_by_mode"] = {"poster": 0.0, "edit": 0.0, "rembg": 0.0, "kling": 0.0, "seedance": 0.0}
     save(data)
     print(f"✅ Refill confirmed. Cycle reset. Wallet: ${data['wallet']['funded_total']:.2f}")
     return 0
@@ -329,22 +478,32 @@ def cmd_reset_failures(_args) -> int:
 # ─────────────────────────────────────────────────────────────────
 # CLI
 # ─────────────────────────────────────────────────────────────────
+def add_call_args(p: argparse.ArgumentParser) -> None:
+    """Args common to check + log."""
+    p.add_argument("--mode", default="poster", choices=sorted(ALL_MODES),
+                   help="Generation mode. Default: poster (backward compatible).")
+    p.add_argument("--quality", choices=["low", "medium", "high"],
+                   help="For mode=poster|edit: quality tier.")
+    p.add_argument("--n", type=int, default=1, help="For mode=poster|edit: number of images.")
+    p.add_argument("--duration", type=int,
+                   help="For mode=kling|seedance-*: video duration in seconds (kling 3-15, seedance 4-15).")
+    p.add_argument("--audio", choices=["off", "on", "voice_control"],
+                   help="For mode=kling: audio mode (off=no audio, on=audio, voice_control=audio+voice). Default: on.")
+    p.add_argument("--brief", default="", help="Free-text brief / prompt for logging.")
+
+
 def main() -> int:
-    p = argparse.ArgumentParser(description="Fal API budget guard for fantastic-posters")
+    p = argparse.ArgumentParser(description="Fal API budget guard for fantastic-posters (v2 mode-aware)")
     sub = p.add_subparsers(dest="cmd", required=True)
 
     pc = sub.add_parser("check", help="Pre-flight: gate this call against budget rules")
-    pc.add_argument("--quality", required=True, choices=["low", "medium", "high"])
-    pc.add_argument("--n", type=int, default=1)
-    pc.add_argument("--brief", default="")
+    add_call_args(pc)
 
     pl = sub.add_parser("log", help="Post-flight: record actual spend")
-    pl.add_argument("--quality", required=True, choices=["low", "medium", "high"])
-    pl.add_argument("--n", type=int, default=1)
+    add_call_args(pl)
     pl.add_argument("--status", required=True, choices=["success", "failed"])
     pl.add_argument("--actual-cost", type=float, default=None)
-    pl.add_argument("--brief", default="")
-    pl.add_argument("--style", default="")
+    pl.add_argument("--style", default="", help="(poster only) selected style id")
     pl.add_argument("--output-path", default="")
     pl.add_argument("--fal-billed", action="store_true",
                     help="If failed but Fal billed us anyway, set this to count the spend.")
