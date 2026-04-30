@@ -308,7 +308,71 @@ The psychology of making content that implants thoughts, shifts beliefs, and com
 
 **Specializations**: Bankshot suggestion mechanics, non-obvious frame construction, belief-layer content, proof cascade architecture, relatable character vehicles, obsession-level content engineering, indirect selling
 
-**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, expertise deployment, obsession engineering, bankshot suggestion, belief shifting, non-obvious framing, proof architecture, or audience obsession.
+---
+
+### Skill Domain 4: Addictive Storytelling (2026 Premium Expansion)
+
+**Skill Path**: `skills/kallaway-addictive-storytelling/`
+
+The retention substrate — engineers neurochemically addictive content using the Four-Step Addiction Loop (Stakes → Big Question → Head Fake → Rehook). The 2026 expansion adds Premium Storytelling as a differentiation moat against AI-generated volume.
+
+**2026 Expansion Workflow**:
+
+| Workflow | Slash Command | Produces |
+|----------|---------------|----------|
+| Premium Story Pillar Architect | `/premium-story-pillar` | Premium content architecture (pillar → supporting → derivative pyramid) |
+
+**Specializations**: Addiction loop engineering, prediction cycle management, retention mechanics, premium long-form storytelling, pillar content architecture, story-commerce bridge
+
+---
+
+### Skill Domain 5: AI-Enabled Content Engine
+
+**Skill Path**: `skills/kallaway-ai-content-engine/`
+
+The operational intelligence layer — determines WHERE AI multiplies human creativity and where it must stay out. Enforces the Transactional-Creative Split: AI handles research, mining, and pattern extraction; humans provide the creative reaction, taste, and vulnerability that make content irreplaceable.
+
+**Workflows**:
+
+| Workflow | Slash Command | Produces |
+|----------|---------------|----------|
+| AI Topic Mining Engine | `/ai-topic-mining` | Data-validated topic pipeline (Sandcastles → Claude) |
+| AI Hook Pattern Extractor | `/ai-hook-extractor` | Clustered hook formats with performance data |
+| AI Creative Reaction Sprint | `/ai-creative-reaction` | Human-in-the-loop creative perspective capture |
+| AI Content Operations | `/ai-content-ops` | Compound AI research + production system design |
+
+**Core Principle**: AI does the transactional work (research, mining, clustering, scheduling). Humans do the creative work (reaction, taste, vulnerability, originality). Never reverse this.
+
+**Specializations**: AI-augmented research, topic mining, hook pattern clustering, creative reaction capture, compound content operations, transactional-creative split enforcement
+
+---
+
+### Skill Domain 6: Social Commerce 3.0
+
+**Skill Path**: `skills/kallaway-social-commerce/`
+
+The monetization infrastructure layer — architects how every piece of content becomes a commerce opportunity. Based on the thesis that social media is transitioning from an attention game to a commerce game, and distribution skill is becoming the most valuable business asset.
+
+**Workflows**:
+
+| Workflow | Slash Command | Produces |
+|----------|---------------|----------|
+| Social Commerce Landscape Audit | `/social-commerce-audit` | Opportunity map across 4 monetization tailwinds |
+| Distribution Value Calculator | `/distribution-value` | Economic valuation of distribution skill |
+| Instagram Shops Strategy | `/instagram-shops` | Product selection + tagging monetization blueprint |
+| Agentic Commerce Blueprint | `/agentic-commerce` | AI-powered DM selling + commerce automation |
+| Creator Brand Architect | `/creator-brand` | Creator-led brand launch plan |
+
+**Core Frameworks**:
+- **Three Eras of Social Media**: Social (1.0) → Interest Media (2.0) → Social Commerce (3.0)
+- **Four Monetization Tailwinds**: Instagram Shops, Agentic Commerce, Production Cost Collapse, AI Visual Recognition
+- **Three-Role Commerce Architecture**: Brand Owner, Content Creator, Facilitator
+
+**Specializations**: Social commerce strategy, distribution valuation, Instagram Shops optimization, agentic commerce automation, creator-led brand building, monetization tailwind positioning
+
+---
+
+**Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, expertise deployment, obsession engineering, bankshot suggestion, belief shifting, non-obvious framing, proof architecture, audience obsession, AI content operations, topic mining, hook pattern extraction, creative reaction, social commerce, distribution valuation, Instagram Shops, agentic commerce, creator brands, or premium storytelling.
 
 ---
 
@@ -319,5 +383,7 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 - [`kallaway-content-psychology`](skills/kallaway-content-psychology/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-word-mastery`](skills/kallaway-word-mastery/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-audience-obsession`](skills/kallaway-audience-obsession/genius.md) — Exemplars + Moves + Rubric
+- [`kallaway-ai-content-engine`](skills/kallaway-ai-content-engine/genius.md) — Exemplars + Moves + Rubric
+- [`kallaway-social-commerce`](skills/kallaway-social-commerce/genius.md) — Exemplars + Moves + Rubric
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
