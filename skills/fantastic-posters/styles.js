@@ -232,6 +232,14 @@ Top-right corner: a tiny minimal brokerage wordmark in deep navy. Portrait orien
 };
 
 const PICK_RULES = [
+  // Typography-first presets (harvested from gpt-image-2-skill — surfaces where the lettering IS the picture).
+  // Placed FIRST because their surface keywords (chalkboard, menu, packaging, etc.) are highly specific —
+  // when these match, they should win over generic typography/design rules below.
+  ['chalkboard-sign', /\b(chalkboard|chalk board|cafe board|coffee shop sign|bistro chalk|specials board|hand[- ]?lettered chalk)\b/i],
+  ['store-window', /\b(store ?front|shop window|boutique window|store window|sign[- ]?painter|hand[- ]?painted sign|window sign)\b/i],
+  ['menu-board', /\b(menu card|tasting menu|prix fixe|wine list|restaurant menu|printed menu|food menu)\b/i],
+  ['packaging-mockup', /\b(packaging|product label|bottle label|tin label|product mockup|cpg packaging|skincare label|dtc label)\b/i],
+  ['ui-mockup', /\b(ui mockup|app mockup|app screenshot|app store|interface mockup|product screenshot|app screen|ios mockup|android mockup)\b/i],
   ['cinematic-neonoir', /\b(noir|thriller|crime|detective|dark cinematic|moody)\b/i],
   ['vintage-travel', /\b(travel|destination|tourism|alpine|railway|vintage poster)\b/i],
   ['swiss-minimal-typo', /\b(swiss|minimal|typography|helvetica|design lecture)\b/i],
@@ -264,12 +272,6 @@ const PICK_RULES = [
   ['minimal-tech-keynote', /\b(tech product|keynote|gadget reveal|product launch|apple.style)\b/i],
   ['brutalist-broadcast', /\b(brutalist|broadcast|tabloid|jersey number|hyrox|crossfit|race day|combat sport)\b/i],
   ['emerald-nocturne', /\b(restaurant|wine bar|cocktail|nightclub|jazz lounge|brasserie|menu card|hospitality)\b/i],
-  // Typography-first presets (harvested from gpt-image-2-skill — surfaces where the lettering IS the picture)
-  ['chalkboard-sign', /\b(chalkboard|chalk board|cafe board|coffee shop sign|bistro chalk|specials board|hand[- ]?lettered chalk)\b/i],
-  ['store-window', /\b(store ?front|shop window|boutique window|store window|sign[- ]?painter|hand[- ]?painted sign|window sign)\b/i],
-  ['menu-board', /\b(menu card|tasting menu|prix fixe|wine list|restaurant menu|printed menu|food menu)\b/i],
-  ['packaging-mockup', /\b(packaging|product label|bottle label|tin label|product mockup|cpg packaging|skincare label|dtc label)\b/i],
-  ['ui-mockup', /\b(ui mockup|app mockup|app screenshot|app store|interface mockup|product screenshot|app screen|ios mockup|android mockup)\b/i],
   // Experimental styles (excluded from auto-picker by default; reachable via --style= or --include-experimental)
   ['absurd-transit-map', /\b(transit map|subway|vignelli|mood map|diagram)\b/i, { experimental: true }],
 ];

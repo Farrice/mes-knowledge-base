@@ -1,11 +1,13 @@
 ---
 name: fantastic-posters
-description: Generate fantastic posters across 33 distinct visual styles using GPT Image 2 (via Fal), AND animate posters into video via Seedance 2.0 + Kling v3 Pro. Auto-picks the right style from the user's brief, builds a templated prompt, and renders. Multi-ref + logo + brief + batch + template modes. Image-to-video bridge: any poster output becomes a video input. Triggers on "fantastic posters", "make a poster", "poster style", "generate poster", "make a video", "animate this poster", "image to video", "video trailer".
+description: Generate, edit, or transparency-strip images across 38 visual styles using GPT Image 2 (via Fal), AND animate posters into video via Seedance 2.0 + Kling v3 Pro. Full GPT-Image-2 surface — text-to-image, mask-based edits (--input + --mask), multi-variant batching (--variants 1-4 in single API call), background removal (--rembg → transparent PNG), and large dimensions up to 3840×2160 (banner-3to1, hero-2to1, poster-xl, custom WxH). Multi-ref + logo + brief + batch + template modes. 5 typography-first presets (chalkboard, store window, menu, packaging, UI mockup) for surfaces where the lettering IS the picture. Image-to-video bridge: any poster output becomes a video input. Triggers on "fantastic posters", "make a poster", "poster style", "generate poster", "edit this poster", "swap the headline", "make a transparent logo", "make a video", "animate this poster", "image to video", "video trailer".
 ---
 
 # Fantastic Posters (+ Video)
 
-A poster generator with a curated catalog of 33 visual styles. The agent picks the style that fits the brief, builds the prompt, and generates with GPT Image 2 (via Fal). Multi-reference uploads, brand-book PDFs, structured briefs, batch generation, and template replication are all first-class.
+A poster generator with a curated catalog of 38 visual styles (33 original + 5 typography-first harvested from `robonuggets/gpt-image-2-skill`). The agent picks the style that fits the brief, builds the prompt, and generates with GPT Image 2 (via Fal). Multi-reference uploads, brand-book PDFs, structured briefs, batch generation, template replication, mask-based edits, multi-variant batching, and chained background removal are all first-class.
+
+> **Upstream credit (2026-04-30)**: Edit-endpoint patterns, multi-variant batching (`num_images`), large-dimension support (up to 3840×2160), `rembg` chaining for transparency, and the 5 typography-first style presets were harvested from [`robonuggets/gpt-image-2-skill`](https://github.com/robonuggets/gpt-image-2-skill) (MIT) into the existing fantastic-posters skill rather than installed as a parallel skill. One skill, full GPT-Image-2 surface — see `directives/fal-edit-mode-guide.md` for edit-mode usage and `directives/fal-usage-policy.md` for budget gating.
 
 **Video extension (added 2026-04-30)**: Posters can be animated into video via Seedance 2.0 (cinematic + audio) or Kling v3 Pro (multi-shot narrative). The bridge pattern — poster output as video input frame — is the killer use case. See `workflows/poster-to-video.md`, `workflows/kling-multishot.md`, `workflows/seedance-cinematic.md`.
 
@@ -39,17 +41,35 @@ python3 execution/fal_budget_guard.py check --mode=<kling|seedance-720p|...> --d
 cd <repo-root>
 node generate.js "<brief>"                                     # auto-pick, 1 image
 node generate.js "<brief>" --style=<style_id>                  # force a style
-node generate.js "<brief>" --n=3                               # 3 variations
+node generate.js "<brief>" --n=3                               # 3 variations (3 separate API calls)
+node generate.js "<brief>" --variants=4                        # 4 variants in 1 API call (cheaper, faster)
 node generate.js "<brief>" --refs=hero.jpg,brand.pdf,logo.png  # multi-ref edit
 node generate.js "<brief>" --logo=<path>                       # logo-anchored edit
 node generate.js --brief=path/to/brief.{md,yaml}               # structured brief
 node generate.js --batch=path/to/listings.json                 # iterate many briefs
 node generate.js --template=existing.png "<brief>"             # replicate-template
+
+# Harvested from gpt-image-2-skill (2026-04-30):
+node generate.js "<edit instruction>" --input=<url|path>       # explicit edit mode (no style needed)
+node generate.js "<edit instruction>" --input=<url> --mask=<url>  # surgical mask-based edit
+node generate.js "<brief>" --rembg                             # chain background removal → *_alpha.png alongside original
+node generate.js "<brief>" --size=banner-3to1                  # 3072×1024 ultra-wide hero
+node generate.js "<brief>" --size=hero-2to1                    # 2560×1280 wide social header
+node generate.js "<brief>" --size=poster-xl                    # 2048×3072 large-print poster
+node generate.js "<brief>" --size=3840x1280                    # custom (multiples of 16, ≤3:1 aspect, ≤8.3MP)
 ```
 
-Flags: `--size=portrait|landscape|square|WxH`, `--quality=low|medium|high`, `--palette="#hex,..."`, `--yes`, `--include-experimental`.
+Flags: `--size=portrait|landscape|square|banner-3to1|hero-2to1|poster-xl|WxH`, `--quality=low|medium|high`, `--palette="#hex,..."`, `--yes`, `--include-experimental`, `--variants=N` (1-4), `--input=<url|path>`, `--mask=<url|path>`, `--rembg`.
 
-The script reads `FAL_KEY` (and optional `KIE_KEY`) from `.env` at the project root. Output PNGs go to `./out/`.
+The script reads `FAL_KEY` (and optional `KIE_KEY`) from `.env` at the project root. Output PNGs go to `./out/`. When `--rembg` is set, transparent variants are saved as `<original>_alpha.png` alongside.
+
+### When to use the new flags
+
+- **`--input` (explicit edit mode)**: User wants to modify an existing image. Pass the image URL/path and describe ONLY the change. Example: `"swap the headline to 'TONIGHT'" --input=https://.../poster.png`. See `directives/fal-edit-mode-guide.md` for full guidance.
+- **`--mask` (surgical edit)**: Pair with `--input` (or `--refs`/`--template`) when the change is region-specific. Mask is B/W: white = edit, black = preserve. Same dimensions as input.
+- **`--variants=N` (cheap multi-variant)**: Use when you want N siblings of the same prompt (1 API call, N images, total cost N × per-image). For diverse interpretations, use `--n=N` instead (N separate API calls with per-call diversity nudge).
+- **`--rembg` (transparency)**: Use for logos, stickers, cutouts. Adds ~$0.005/image. Requires a separate budget guard log entry under `--mode=rembg` per `directives/fal-usage-policy.md`.
+- **`--size=banner-3to1|hero-2to1|poster-xl|WxH`**: Use for hero banners, large social headers, billboards. Cost is the same regardless of dimensions — only `--quality` changes the price. Invalid sizes (>3840 edge, aspect >3:1, pixels outside [655K, 8.3M]) rejected before the API call.
 
 ## When the User Says "Make a Poster"
 
