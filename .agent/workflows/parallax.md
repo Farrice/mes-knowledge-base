@@ -98,6 +98,8 @@ Once Farrice selects a topic:
 **Purpose**: Kill fabrications and cultural inaccuracies before they reach the plan file. Every anchor that enters Phase 3 is either VERIFIED (external source) or VERIFIED-FROM-USER (Farrice's personal experience). No exceptions.
 **Bypass**: Only via `--no-ground` flag (Edition 01 pure-personal pattern). Not Farrice's call to skip mid-session; this is the pre-draft gate that makes /parallax one-shot reliable.
 
+**Browser tools available in Phase 2.5**: For PERSON, BRAND, and EVENT claims where the primary source is JS-rendered (LinkedIn profiles, modern brand sites, festival lineup pages, news sites with dynamic content) or login-gated, Playwright (`mcp__playwright__browser_navigate` + `browser_evaluate` or `browser_take_screenshot`) is the highest-fidelity verification path. Use it as a tier above `perplexity_ask` when the claim is high-stakes (named public figure, specific quote, exact date) and the source URL is known. WebFetch on these surfaces returns hydration shells that lead to false UNCONFIRMED labels. See `directives/browser-automation-routing.md` for the full decision matrix; `directives/browser-automation-safety.md` governs Tier 2 actions (none should fire during verification — Phase 2.5 is read-only).
+
 ### 2.5.0 — Short-Circuit Detection (runs first, before any tool call)
 
 Scan the raw take + topic + planned anchors for **External Factual Surface**:
@@ -596,6 +598,16 @@ A single 350-500 line package file Farrice can open, scroll through top-to-botto
 `draft → review → scheduled → published → archived`
 
 Status is updated in the metadata header as the package moves through the pipeline.
+
+### Optional: Cover-art generation
+
+After the package is assembled, optionally generate a Substack header image via `skills/fantastic-posters/`. Recommended styles by edition mood:
+- Memoir / contemplative → `editorial-fashion`, `documentary-portrait`, `surreal-dreamscape`
+- Counterintuitive / sharp → `swiss-minimal-typo`, `saul-bass-minimal`, `bauhaus-geometric`
+- Cultural / nostalgic → `vintage-travel`, `art-deco`, `ukiyo-e`
+- Cyber / future → `vaporwave-synth`, `neon-noir-cyberpunk`
+
+Default quality: `medium` ($0.04/image). **Always pre-flight via `python3 execution/fal_budget_guard.py check --quality=medium --n=1`.** Output saved to `_active/farrice-brand/content/substack-v2-drafts/[edition]/cover.png`. Workflow file: `skills/fantastic-posters/workflows/deliverable-cover.md`.
 
 ---
 

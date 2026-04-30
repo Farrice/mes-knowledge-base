@@ -252,7 +252,8 @@ SEO → Nathan Gotch, brand → Oren/Grace, ghostwriting → Nicolas Cole, conte
 consumer posture → Dai Media, agentic workflows → Nick Saraev,
 **design system / DESIGN.md / "make it look like [brand]" / brand tokens → `skills/design-md/`,
 UI/component/page code from a DESIGN.md → `skills/product-design-build/`,
-art direction / cinematic / streetwear / AI image-or-video prompts → `skills/creative-direction/` (via Creative Director agent)**),
+art direction / cinematic / streetwear / AI image-or-video prompts → `skills/creative-direction/` (via Creative Director agent),
+stylized poster generation (vintage, Swiss, Ukiyo-e, brutalism, neon-noir, editorial, real-estate, etc.) / "make a poster" → `skills/fantastic-posters/` (Fal + GPT Image 2, 33 styles, MUST gate via `execution/fal_budget_guard.py check`)**),
 route without reading `DOMAIN_REGISTRY.md` or `invocation-cards.md`. Only read routing files for ambiguous or multi-domain requests.
 
 **Step 4 (LOAD): Deferred Tier escalation.**
@@ -280,6 +281,8 @@ Some domains have dedicated production workflows. If the user's task matches the
 | DESIGN.md authoring / extract / synthesize / brand-system / "make it look like [brand]" | `/design-md-synthesize` or `/design-md-extract` or `/brand-library` (via Creative Director agent) | Generic Tailwind/CSS suggestions |
 | UI / component / page code generation from a DESIGN.md | `/product-build` or `/component-build` (skills/product-design-build/) | Hand-rolling without DESIGN.md as source-of-truth |
 | Existing DESIGN.md needs lint / WCAG / refinement | `/design-md-validate` | Eyeballing — always run `npx @google/design.md lint` |
+| Competitive intelligence requiring live primary-source quotes / screenshots / JS-rendered pages | `competitive-intel` subagent (Playwright wired) per `directives/browser-automation-routing.md` | Generic WebFetch text scrape (returns hydration shells on Webflow / Framer / Next.js sales pages) |
+| Login-gated source verification (LinkedIn profile facts, Substack analytics, MLS data, paywalled research) | Playwright via `deep-research` / `fact-verifier` subagent with persistent profile per `directives/browser-automation-routing.md` | WebFetch (returns login wall HTML, not actual content) |
 
 **Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
 
@@ -358,6 +361,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | **Ground Truth** | **After evolution cycles** | **`execution/ground_truth.py` — blind compare AI vs expert** |
 | **Revenue Tracking** | **After client delivery** | **`execution/revenue_tracker.py` — connect quality to outcomes** |
 | **Browser Automation Safety** | **Any Playwright/browser MCP invocation** | **`directives/browser-automation-safety.md` — Tier 1 reads auto-fire; Tier 2 state-changes (post/send/submit/buy) require explicit confirmation; never type credentials** |
+| **Browser Automation Routing** | **Step 4 (LOAD) + Step 5 (PRODUCE) — when task involves live web** | **`directives/browser-automation-routing.md` — when to use Playwright vs WebFetch vs Perplexity vs Apify; Playwright primary for JS-rendered, login-gated, screenshot-evidence, multi-step navigation** |
 
 ### Budget-Gated (check before calling)
 
@@ -369,6 +373,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | Perplexity — FALLBACK + quick facts | `directives/perplexity-usage-policy.md` | $30/mo, track in `.agent/perplexity-usage.json`. Fires automatically when Gemini Deep Research unavailable. Also for single-claim fact checks via sonar-pro/ask. |
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 | Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
+| **Fal API (fantastic-posters)** | `directives/fal-usage-policy.md` | $20 wallet w/ $5 refill threshold, track in `.agent/fal-usage.json`. **MANDATORY pre-flight gate**: every `node generate.js` call must pass `python3 execution/fal_budget_guard.py check` first. Multi-layer caps: per-call $1.00, per-day $4.00, per-cycle $15.00, rate-limit 5/5min, halt after 2 consecutive failures. Hookify enforced. |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.
 

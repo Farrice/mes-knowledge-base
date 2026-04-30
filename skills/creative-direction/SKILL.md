@@ -57,6 +57,22 @@ Every strong concept has:
 | Character consistency | Higgsfield + SoulID |
 | Quick social | Kittl + Seedance 1.5 Pro |
 
+### Render Backend Router (in-stack image generation)
+
+Once the strategic call is made (concept, mood, style family), route to the right render backend:
+
+| Brief shape | Backend | Why |
+|---|---|---|
+| Photoreal, cinematic, character-driven, scene-specific | `execution/generate_image.py` (Gemini Nano Banana 2) | Best at photoreal + scene composition; cheaper at scale |
+| Stylized poster, typographic, vintage / Swiss / Ukiyo-e / brutalism / neon-noir / editorial | `skills/fantastic-posters/` (Fal + GPT Image 2) | 33 curated styles + auto-picker; GPT Image 2 stronger at typographic poster aesthetics |
+| Ad creative / lookbook / lifestyle still | Either — Gemini for photoreal, fantastic-posters `streetwear-lookbook` style for editorial |
+| Real estate listing poster | `skills/fantastic-posters/` `luxury-real-estate` or `luxury-estate-cover` styles | Native-fit styles purpose-built for the use case |
+| Strategy brief / deliverable cover | `skills/fantastic-posters/` `corporate-report` / `swiss-minimal-typo` / `editorial-fashion` | Premium typographic covers |
+
+**Rule of thumb**: if the brief mentions a *style family* by name (vintage, Swiss, brutalist, neon-noir, vapor, editorial, etc.) → fantastic-posters. If it mentions a *real scene* (a person doing something, a specific environment, a product photographed in context) → Gemini.
+
+**Budget**: fantastic-posters runs on a $20 Fal wallet (refills at $5). Every call MUST go through `execution/fal_budget_guard.py check` first. Full policy: `directives/fal-usage-policy.md`. The guard blocks single calls > $1.00, daily spend > $4.00, cycle spend > $15.00, and rate-limits to 5 calls / 5 min.
+
 ## Workflows
 
 | Workflow | File | Deliverable |

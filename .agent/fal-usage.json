@@ -1,0 +1,72 @@
+{
+  "_schema": "fal-usage v1",
+  "_doc": "Tracks Fal API spend for fantastic-posters skill. See execution/fal_budget_guard.py for read/write logic and directives/fal-usage-policy.md for policy.",
+  "wallet": {
+    "funded_total": 20.0,
+    "refill_threshold": 5.0,
+    "auto_refill": true,
+    "current_balance_estimate": 19.978,
+    "last_refill_confirmed_at": "2026-04-30T00:00:00Z",
+    "cycle_started_at": "2026-04-30T00:00:00Z"
+  },
+  "limits": {
+    "per_call_warn_usd": 0.3,
+    "per_call_block_usd": 1.0,
+    "per_day_warn_usd": 2.0,
+    "per_day_block_usd": 4.0,
+    "per_cycle_warn_usd": 10.0,
+    "per_cycle_block_usd": 15.0,
+    "low_balance_max_call_usd": 0.5,
+    "max_calls_per_5min": 5,
+    "max_consecutive_failures": 2
+  },
+  "pricing_estimates_usd": {
+    "low": 0.011,
+    "medium": 0.04,
+    "high": 0.17
+  },
+  "state": {
+    "consecutive_failures": 0,
+    "halt_reason": null,
+    "halt_until": null,
+    "recent_call_timestamps": [
+      "2026-04-30T20:04:50Z",
+      "2026-04-30T20:05:34Z"
+    ]
+  },
+  "totals": {
+    "lifetime_calls": 2,
+    "lifetime_spent_usd": 0.022,
+    "current_cycle_calls": 2,
+    "current_cycle_spent_usd": 0.022,
+    "today_calls": 2,
+    "today_spent_usd": 0.022,
+    "today_date": "2026-04-30"
+  },
+  "log": [
+    {
+      "ts": "2026-04-30T20:04:50Z",
+      "brief": "synthwave product poster for My.BPM",
+      "style": "vaporwave-synth",
+      "quality": "low",
+      "n": 1,
+      "estimated_cost_usd": 0.011,
+      "actual_cost_usd": 0.011,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/vaporwave-synth_1777579481928_v1.png"
+    },
+    {
+      "ts": "2026-04-30T20:05:34Z",
+      "brief": "vintage editorial cover Parallax",
+      "style": "editorial-fashion",
+      "quality": "low",
+      "n": 1,
+      "estimated_cost_usd": 0.011,
+      "actual_cost_usd": 0.011,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "skills/fantastic-posters/out/editorial-fashion_1777579522210_v1.png"
+    }
+  ]
+}
