@@ -1,0 +1,1 @@
+../../skills/creative-campaign-strategy/workflows/lynch-contest-architect.md
