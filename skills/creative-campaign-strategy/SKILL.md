@@ -91,6 +91,16 @@ Ron Lynch is a screenwriter-turned-DRTV pioneer-turned-CEO. He sold billions in 
 | `/lynch-perception-identity` | ×Rory Sutherland | Perception reframe → identity campaign |
 | `/lynch-strategist-career` | ×Cole, Wiebe | Career architecture: copywriter → CMO |
 
+### Tier 4 — Strategy Backbone (5)
+
+| Command | Purpose | Pipeline Position |
+|---|---|---|
+| `/lynch-product-prequalify` | 3-Question gate to filter non-viable products | Step 1 — Before ANY work |
+| `/lynch-customer-voice-mine` | Extract real customer language for voice accuracy | Step 2 — Before creative |
+| `/lynch-creative-brief` | 14-20 page business-plan-level campaign blueprint | Step 3 — The strategy |
+| `/lynch-brief-audit` | 7-Dimension quality gate before production | Step 4 — QA gate |
+| `/lynch-deal-structure` | Cost + royalty deal architecture | Step 5 — Get paid |
+
 ## Cross-Expert Stacking (8 Chains)
 
 - **× Dai Media** → Identity campaign validated against psychological consumer profiling
