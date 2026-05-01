@@ -2,6 +2,8 @@
 description: Audit a keyword
 ---
 
+> **Browser tools**: For live SERP validation when results are JS-rendered (Google's increasingly dynamic results, Bing AI panels, Perplexity-style answer cards) or when screenshot evidence of the SERP is needed for the Intent Report, use Playwright (`mcp__playwright__browser_navigate` + `browser_take_screenshot`) per `directives/browser-automation-routing.md`. `search_web` works for static SERP scraping but misses ad-block, dynamic snippets, and visual layout signals.
+
 # ⚠️ CRITICAL: This workflow requires LIVE SERP VALIDATION.
 
 ## Overview

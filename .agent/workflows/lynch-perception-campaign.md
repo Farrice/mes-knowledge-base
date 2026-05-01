@@ -1,1 +1,0 @@
-../../skills/creative-campaign-strategy/workflows/lynch-perception-campaign.md

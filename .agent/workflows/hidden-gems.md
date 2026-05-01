@@ -2,6 +2,8 @@
 description: Mine podcast appearances
 ---
 
+> **Browser tools**: When source material is a YouTube/Spotify/Apple Podcasts episode page that needs live navigation (transcripts behind JS, episode lists requiring scroll-load, host comment sections), use Playwright (`mcp__playwright__browser_*`) per `directives/browser-automation-routing.md`. For static transcript text, plain reads work.
+
 # /hidden-gems — Hidden Gems Story Miner
 
 Systematically mine a thought leader's podcast appearances, interviews, and casual content for stories they tell naturally but would never suggest for content.

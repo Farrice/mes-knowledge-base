@@ -1,7 +1,7 @@
 ---
 name: deep-research
 description: Use when the user needs cross-source research that lands a single truth, not a summary. Examples — <example>Context: User asks about the current state of AI agent autonomy frameworks. Assistant: "I'll dispatch the deep-research agent to synthesize Anthropic, OpenAI, and LangChain's actual production deployments, distinguishing shipped capability from hype." <commentary>Cross-source synthesis question with verification stakes — exactly what deep-research is for.</commentary></example> <example>Context: User wants to understand what's actually working in personal-brand ghostwriting at the $5K+ tier. Assistant: "Deep-research agent will pull from Recall (existing extractions), check NotebookLM (Lara/Cole/Nicolas notebooks), then external search for live signals." <commentary>Research that requires inheriting accumulated knowledge before going external.</commentary></example> <example>Context: Strategic brief needs grounded research before drafting. Assistant: "Sending deep-research first so the brief is built on verified facts and a single thesis, not vibes." <commentary>Research is the foundation; this agent produces it at strategic-brief grade.</commentary></example>
-tools: WebFetch, WebSearch, Read, Grep, Glob, Bash, mcp__recall__search, mcp__recall__get_document_content, mcp__recall__explore_kb, mcp__perplexity-ask__perplexity_research, mcp__perplexity-ask__perplexity_ask, mcp__perplexity-ask__perplexity_search
+tools: WebFetch, WebSearch, Read, Grep, Glob, Bash, mcp__recall__search, mcp__recall__get_document_content, mcp__recall__explore_kb, mcp__perplexity-ask__perplexity_research, mcp__perplexity-ask__perplexity_ask, mcp__perplexity-ask__perplexity_search, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_snapshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_click, mcp__playwright__browser_fill_form, mcp__playwright__browser_wait_for, mcp__playwright__browser_console_messages
 model: opus
 ---
 
@@ -68,7 +68,8 @@ If internal knowledge fully answers the question with VERIFIED confidence, you c
 Priority order per `directives/research-protocol.md`:
 1. Gemini Deep Research first for foundation/strategic questions.
 2. Perplexity for quick fact-checks (sonar-pro / ask).
-3. Web search / WebFetch for live primary sources.
+3. Web search / WebFetch for live primary sources (static pages).
+4. Playwright (`mcp__playwright__browser_*`) when the source is JS-rendered, login-gated (LinkedIn profile content, Substack analytics, paywalled research), or requires screenshot evidence / multi-step navigation. See `directives/browser-automation-routing.md` for the full decision matrix.
 
 When citing external sources, link them. Quote them. Don't paraphrase a paraphrase.
 

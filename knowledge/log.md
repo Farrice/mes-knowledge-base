@@ -67,3 +67,6 @@
 - `[2026-04-30 01:23]` **finalize** | Completed Kallaway 2026 Mastery Expansion: 2 new skill domains (AI-Enabled Content Engine with 4 wor | content | kallaway — composite:8.7 status:Keep
 - `[2026-04-30 14:32]` **finalize** | Ron Lynch 12-workflow skill domain build — full creative-campaign-strategy operationalization | strategy | Ron Lynch — composite:8.7 status:Keep
 - `[2026-05-01 06:42]` **finalize** | Jason Fladlien extraction-forge complete — 27 workflows deployed across 5 tiers, agent identity fina | general | jason-fladlien — composite:8.7 status:Keep
+- `[2026-05-01 06:53]` **finalize** | Anne Lamott Skill Domain — Complete 12-workflow architecture across 3 tiers. | general | Anne Lamott — composite:8.7 status:Keep
+- `[2026-05-01 06:59]` **finalize** | Anne Lamott lamott-craft skill domain — 12 production workflows across 3 tiers, 3 cross-expert stack | general | Anne Lamott — composite:8.7 status:Keep
+- `[2026-05-01 12:21]` **finalize** | SUBLINE brand identity package: full multi-agent deployment for Farrice's client Josh — performance  | brand | brand-system-builder — composite:8.3 status:Keep

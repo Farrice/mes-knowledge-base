@@ -2,6 +2,8 @@
 description: Rank on Google in weeks
 ---
 
+> **Browser tools**: For live ranking verification on JS-rendered SERPs and screenshot evidence of competitor positions, use Playwright (`mcp__playwright__browser_navigate` + `browser_take_screenshot`) per `directives/browser-automation-routing.md`.
+
 # Parasite SEO Playbook
 
 Deploy Darrel Wilson's parasite SEO execution strategy:

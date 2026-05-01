@@ -2,6 +2,8 @@
 description: Scan trending formats
 ---
 
+> **Browser tools**: When format identification requires actually viewing live content on platforms (Instagram Reels, TikTok, LinkedIn carousels) — most of which is JS-rendered and login-gated — use Playwright (`mcp__playwright__browser_*`) per `directives/browser-automation-routing.md`.
+
 # Cross-Niche Format Scanner
 
 Find fresh format inspiration from completely unrelated niches.

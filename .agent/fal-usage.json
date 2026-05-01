@@ -5,7 +5,7 @@
     "funded_total": 20.0,
     "refill_threshold": 5.0,
     "auto_refill": true,
-    "current_balance_estimate": 19.642,
+    "current_balance_estimate": 19.152,
     "last_refill_confirmed_at": "2026-04-30T00:00:00Z",
     "cycle_started_at": "2026-04-30T00:00:00Z"
   },
@@ -58,33 +58,35 @@
     "halt_reason": null,
     "halt_until": null,
     "recent_call_timestamps": [
-      "2026-04-30T21:07:39Z"
+      "2026-05-01T19:15:08Z",
+      "2026-05-01T19:16:31Z",
+      "2026-05-01T19:17:52Z"
     ]
   },
   "totals": {
-    "lifetime_calls": 3,
-    "lifetime_spent_usd": 0.358,
-    "current_cycle_calls": 3,
-    "current_cycle_spent_usd": 0.358,
-    "today_calls": 3,
-    "today_spent_usd": 0.358,
-    "today_date": "2026-04-30",
+    "lifetime_calls": 12,
+    "lifetime_spent_usd": 0.848,
+    "current_cycle_calls": 12,
+    "current_cycle_spent_usd": 0.848,
+    "today_calls": 9,
+    "today_spent_usd": 0.49,
+    "today_date": "2026-05-01",
     "today_spent_by_mode": {
-      "poster": 0.022,
+      "poster": 0.49,
       "edit": 0.0,
       "rembg": 0.0,
-      "kling": 0.336,
+      "kling": 0.0,
       "seedance": 0.0
     },
     "cycle_spent_by_mode": {
-      "poster": 0.022,
+      "poster": 0.512,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
       "seedance": 0.0
     },
     "lifetime_spent_by_mode": {
-      "poster": 0.022,
+      "poster": 0.512,
       "edit": 0.0,
       "rembg": 0.0,
       "kling": 0.336,
@@ -129,6 +131,123 @@
       "output_path": "(download failed locally; Fal generation succeeded \u2014 see fix in fal_video_kling.py download_video)",
       "duration": 3,
       "audio": "off"
+    },
+    {
+      "ts": "2026-05-01T19:05:53Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.17,
+      "actual_cost_usd": 0.17,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "high",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:07:02Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:08:11Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:09:14Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:10:24Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:11:32Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:15:08Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:16:31Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
+    },
+    {
+      "ts": "2026-05-01T19:17:52Z",
+      "mode": "poster",
+      "brief": "",
+      "estimated_cost_usd": 0.04,
+      "actual_cost_usd": 0.04,
+      "status": "success",
+      "fal_billed": false,
+      "output_path": "",
+      "quality": "medium",
+      "n": 1,
+      "style": ""
     }
   ]
 }

@@ -2,6 +2,8 @@
 description: "Search Gap" analysis to find low-competition
 ---
 
+> **Browser tools**: For SERP analysis with JS-heavy results, Reddit/Quora threads with login walls, or screenshot evidence of weak top-10 results, use Playwright (`mcp__playwright__browser_navigate` + `browser_take_screenshot`) per `directives/browser-automation-routing.md`. `search_web` works for static SERP scraping but misses behavior signals visible only in the live page.
+
 1. Ask the user for the **Target Keyword** or **Niche + City** (e.g., "Roofing in Denver").
 
 2. Perform a "Search Gap" analysis using the `search_web` tool:

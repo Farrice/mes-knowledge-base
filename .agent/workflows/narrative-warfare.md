@@ -2,6 +2,8 @@
 description: OODA-powered competitive narrative dominance
 ---
 
+> **Browser tools**: Step 1 (Intelligence Gathering) and Step 6 (Monthly Warfare Review) require live competitor channel monitoring (LinkedIn / Twitter / Substack — all JS-rendered or login-gated). Use Playwright (`mcp__playwright__browser_*`) per `directives/browser-automation-routing.md`. WebFetch returns hydration shells on these surfaces and silently degrades the OODA assessment.
+
 # /narrative-warfare — Competitive Narrative Dominance
 
 Combine OODA loop speed advantage with proof-stacked content and flood-zone tactics. After this, competitors are always responding to YOU — never the reverse.

@@ -2,6 +2,8 @@
 description: Systematic competitive intelligence system
 ---
 
+> **Browser tools**: WebFetch handles most public marketing pages (Webflow / Framer / Next.js typically SSR their hero + pricing). Reach for Playwright (`mcp__playwright__browser_*`) when you need screenshot evidence for the brief, login-gated competitor content (LinkedIn profile facts, Substack analytics, paywalled research), multi-step navigation (drilling into pricing or checkout flows), or when WebFetch returns visibly degraded content. See `directives/browser-automation-routing.md`.
+
 # Competitor Intelligence System
 
 Build systematic competitive research for content strategy.

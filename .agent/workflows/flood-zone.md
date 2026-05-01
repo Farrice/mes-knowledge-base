@@ -2,6 +2,8 @@
 description: Crisis response that buries attacks under volume
 ---
 
+> **Browser tools**: Step 2 (viral lifecycle position assessment) and Step 6 (48-hour assessment checklist) require live tracking of share velocity, audience sentiment, and SERP position for the brand name — most of which is on JS-rendered or login-gated platforms. Use Playwright (`mcp__playwright__browser_navigate` + `browser_take_screenshot`) per `directives/browser-automation-routing.md`. Real-time intelligence via WebFetch is unreliable on these surfaces.
+
 # /flood-zone — Flood the Zone Crisis Protocol
 
 Deploy when under narrative attack. Never defend — PRODUCE. Bury the attacking narrative under 3-5 pieces of genuinely interesting content within 36 hours, exploiting the viral post lifecycle (12h up, 24h down, 36h forgotten). Produces a minute-by-minute crisis response playbook with content slate, ally coordination plan, and 48-hour assessment protocol.

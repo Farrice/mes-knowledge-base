@@ -1,7 +1,7 @@
 ---
 name: expert-extractor
 description: Use when the user wants to extract a new expert from source material (YouTube transcript, podcast, article, course, book) into a deployable persona + skill + workflows. Examples — <example>Context: User wants to extract Sharran Srivatsaa from his recent interview. Assistant: "Dispatching expert-extractor on the source material — full MES 3.0 extraction with genius patterns, signature workflows, agent persona, and skill scaffold." <commentary>This is the user's most-repeated workflow. Subagent makes it parallelizable.</commentary></example> <example>Context: User just dropped a YouTube URL of a master copywriter and wants the full extraction. Assistant: "Expert-extractor will fetch the transcript, run MES 3.0 protocol, propose workflows, and generate the deployable skill." <commentary>End-to-end extraction with a single invocation.</commentary></example> <example>Context: Multiple sources for one expert (5 podcasts of Lara Acosta). Assistant: "Expert-extractor in deep mode: cross-source synthesis, deduplication of patterns, signature-move identification with frequency-weighted importance." <commentary>Multi-source extraction is where this agent earns its keep.</commentary></example>
-tools: WebFetch, Read, Write, Edit, Grep, Glob, Bash, mcp__recall__search, mcp__recall__get_document_content
+tools: WebFetch, Read, Write, Edit, Grep, Glob, Bash, mcp__recall__search, mcp__recall__get_document_content, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_snapshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_wait_for, mcp__playwright__browser_console_messages
 model: opus
 ---
 
@@ -51,6 +51,8 @@ For YouTube specifically:
 python3 execution/fetch-transcript.py "<youtube_url>" "<expert-name>"
 ```
 Saves to `extractions/<expert-name>/transcript.txt`.
+
+**For live channel/profile metadata** (subscriber counts, recent post titles, podcast episode lists from JS-rendered pages like Spotify / Apple Podcasts / YouTube channel pages), use Playwright (`mcp__playwright__browser_navigate` + `browser_evaluate`) rather than WebFetch — these surfaces are JS-rendered and WebFetch returns empty shells. See `directives/browser-automation-routing.md` for the decision matrix.
 
 ### Step 2: Identify the expert correctly (CRITICAL)
 - Check video title, channel name, and content

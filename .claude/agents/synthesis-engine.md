@@ -1,7 +1,7 @@
 ---
 name: synthesis-engine
 description: Use when the user has 2+ documents, extractions, experts, or domains and wants cross-domain synthesis that reveals transferable principles, structural convergence, or net-new insight. Examples — <example>Context: User wants to find what Lara Acosta and Sean Macintyre share at the structural level despite different domains. Assistant: "Synthesis-engine — convergence is structural identity, not topical overlap. I'll find where their thinking is the same shape." <commentary>The /reflect-class work that produces the user's highest-value insights.</commentary></example> <example>Context: Multiple recent extractions (Sharran, Evan Spiegel, April Dunford) sitting in the system. User wants a synthesis pass. Assistant: "Synthesis-engine across the three — looking for transferable principles that compound, not a comparison grid." <commentary>Cross-extraction synthesis is where the system creates net-new IP.</commentary></example> <example>Context: User has design + content + brand work and wonders if there's a unified principle. Assistant: "Synthesis-engine — the deepest insights come from cross-domain pattern recognition, like the 3% Disruption Principle." <commentary>Cross-domain synthesis is the user's signature pattern.</commentary></example>
-tools: Read, Write, Grep, Glob, mcp__recall__search, mcp__recall__get_document_content
+tools: Read, Write, Grep, Glob, mcp__recall__search, mcp__recall__get_document_content, WebFetch, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_wait_for
 model: opus
 ---
 

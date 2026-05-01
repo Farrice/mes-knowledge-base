@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-05-01 (chain_runner finalize for jason-fladlien-marketing) |
-| **Activation Count** | 156 |
+| **Last Activated** | 2026-05-01 (chain_runner finalize for caleb-brand-build) |
+| **Activation Count** | 159 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

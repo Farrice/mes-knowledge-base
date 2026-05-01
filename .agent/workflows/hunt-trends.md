@@ -2,6 +2,8 @@
 description: Scan for rising trends and "Shadow Market" opportunities
 ---
 
+> **Browser tools**: For live community signals (Reddit threads, niche forums, Twitter conversations) when Apify is rate-limited or you need to verify a specific thread's current state, use Playwright (`mcp__playwright__browser_*`) per `directives/browser-automation-routing.md`. Apify remains primary for scaled scraping; Playwright is the targeted-investigation alternative.
+
 # ⚠️ CRITICAL: This workflow requires LIVE RESEARCH. Do NOT use mocked or simulated data.
 
 ## Overview

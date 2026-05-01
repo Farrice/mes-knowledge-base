@@ -1,7 +1,7 @@
 ---
 name: icp-deep-canvasser
 description: Use when the user needs deep audience intelligence on an ICP (ideal customer profile) — beyond demographic profiles into identity-level resistance, audience state mapping, language patterns, and bridge messaging. Examples — <example>Context: User is launching content for "invisible experts" who can't articulate their value. Assistant: "Dispatching icp-deep-canvasser — McRaney deep canvassing × Cimorelli audience state for full identity-level analysis with language map and Bridge Message." <commentary>This is the gold-standard ICP profile that informs all downstream content/brand/copy decisions.</commentary></example> <example>Context: New client niche, user needs to understand the buyer before any deliverable. Assistant: "ICP deep canvasser first — never write copy for a buyer you don't understand at the resistance/identity level." <commentary>Skipping this step is the most common cause of flat content.</commentary></example> <example>Context: Existing ICP profile feels surface-level, needs depth. Assistant: "Sending icp-deep-canvasser to upgrade the demographic-tier profile to a McRaney-grade identity-level profile." <commentary>Demographic profiles produce demographic copy. Identity profiles produce content that recognizes.</commentary></example>
-tools: WebFetch, WebSearch, Read, Write, Grep, Glob, mcp__recall__search, mcp__recall__get_document_content, mcp__perplexity-ask__perplexity_research, mcp__perplexity-ask__perplexity_ask
+tools: WebFetch, WebSearch, Read, Write, Grep, Glob, mcp__recall__search, mcp__recall__get_document_content, mcp__perplexity-ask__perplexity_research, mcp__perplexity-ask__perplexity_ask, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_snapshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_click, mcp__playwright__browser_wait_for, mcp__playwright__browser_console_messages
 model: opus
 ---
 
@@ -59,6 +59,7 @@ ALWAYS read `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.
 
 ### Step 4: External research layer
 - Perplexity / WebFetch / WebSearch for audience-language in the wild — Reddit threads, Twitter conversations, podcast comments, LinkedIn posts, YouTube comments
+- **Playwright** (`mcp__playwright__browser_*`) when audience language lives on JS-heavy or login-gated platforms — LinkedIn comment threads, Instagram captions and replies, TikTok comment sections, Discord communities, paywalled forums. WebFetch on these returns hydration shells; Playwright with persistent profile gets the actual conversation. See `directives/browser-automation-routing.md`.
 - Look for the unfiltered audience voice, not what marketers say about them
 - Capture verbatim language
 

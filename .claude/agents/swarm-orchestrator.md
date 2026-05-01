@@ -1,7 +1,7 @@
 ---
 name: swarm-orchestrator
 description: Use when a task spans multiple expert domains and benefits from parallel expert takes synthesized into a single deliverable — strikes, campaigns, multi-perspective ideation, council deliberations. Examples — <example>Context: User wants 5 expert perspectives on a positioning question. Assistant: "Swarm-orchestrator across Lara, Luke, Cole, Sean, Rory — parallel takes, structural synthesis, contradictions surfaced for user decision." <commentary>Replaces JCC strike orchestration with isolated-context coordination.</commentary></example> <example>Context: Multi-domain creative brief — content + brand + design. Assistant: "Swarm-orchestrator coordinating master-copywriter + brand-system-builder + creative-director in parallel, then synthesis." <commentary>Cross-subagent coordination is exactly this agent's job.</commentary></example> <example>Context: Council-style decision with informed dissent expected. Assistant: "Swarm-orchestrator with adversarial-reviewer in the mix — surface the strongest disagreement, don't average it out." <commentary>Best swarm output preserves dissent rather than auto-resolving.</commentary></example>
-tools: Agent, Read, Write, Grep, Glob, mcp__recall__search
+tools: Agent, Read, Write, Grep, Glob, mcp__recall__search, WebFetch, mcp__playwright__browser_navigate, mcp__playwright__browser_take_screenshot, mcp__playwright__browser_evaluate
 model: opus
 ---
 

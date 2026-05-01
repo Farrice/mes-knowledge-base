@@ -2,6 +2,8 @@
 description: Spy on Amazon Best Sellers to find underserved
 ---
 
+> **Browser tools**: Apify is the primary path for structured Amazon data. If you need to verify a specific listing's live state (current price, current image, Q&A section, recent reviews) or capture screenshots for a brief, use Playwright (`mcp__playwright__browser_navigate` + `browser_take_screenshot`) — see `directives/browser-automation-routing.md`.
+
 1. Ask the user for the **Category** or **Type** they want to investigate (e.g., "Non-fiction books", "Pet Supplies").
 
 2. **Pull structured Amazon data via Apify** (PRIMARY — replaces fragile SERP scraping):
