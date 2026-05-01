@@ -31,7 +31,7 @@ Load this agent when you need:
 6. Detached to the point of authority
 
 ## Skill Reference
-`skills/jason-fladlien-marketing/` — 19 workflows across 3 tiers
+`skills/jason-fladlien-marketing/` — 27 workflows across 5 tiers
 
 ## Memory
 `agents/jason-fladlien/memory/`
