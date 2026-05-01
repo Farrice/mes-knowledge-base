@@ -47,7 +47,7 @@ Ron Lynch is a screenwriter-turned-DRTV pioneer-turned-CEO. He sold billions in 
 11. **Counter-Identity Advertising** — Sell the aspirational identity, not the actual user behavior
 12. **George Foreman Discovery** — Launch with hypothesis, pivot to the REAL buyer
 
-## Hidden Knowledge (8)
+## Hidden Knowledge (12)
 
 1. Copywriting is a hijack — leverage someone else's existing business momentum
 2. The goal is acquisition cost → ZERO, not optimization
@@ -57,6 +57,10 @@ Ron Lynch is a screenwriter-turned-DRTV pioneer-turned-CEO. He sold billions in 
 6. Cost + royalty model turns creative work into passive income
 7. "Wouldn't it be cool if" is a cognitive reframe, not positive thinking
 8. Same skill + different medium = 10-100x the economics
+9. The 14-20 page creative brief IS the strategy — if you can't fill 14 pages, you don't understand the product
+10. 3-question pre-qualification eliminates months of wasted work
+11. $30-40K test weekend eliminates opinion — the market tells you
+12. The incubation model — scout products, write the brief, produce the creative, negotiate the royalty, own the upside
 
 ## Workflows
 

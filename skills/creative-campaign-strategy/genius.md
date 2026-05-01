@@ -114,6 +114,18 @@ When opportunity presents itself, Ron's internal monologue isn't "I can't do tha
 ### HK-8: The Grocery Store to Television Translation
 Ron was a CEO of a grocery company doing in-store product demonstrations. Then he did the same demonstrations on television and "added a few zeros to the salary." The SKILL is the same; the MEDIUM determines the economics.
 
+### HK-9: The 14-20 Page Creative Brief as Business Plan
+Most agencies write 1-2 page creative briefs. Ron writes 14-20 page briefs that function as business plans — diving into every aspect of marketability, expected audience, competitive landscape, pricing mechanics, and sales argument perspective outlines. The brief IS the strategy. If you can't fill 14 pages, you don't understand the product well enough to sell it.
+
+### HK-10: The 3-Question Pre-Qualification
+Before investing in a full creative brief, Ron pre-qualifies products with 3 questions that determine marketability: (1) Is the USP "super unique"? (2) Does the pricing support the media economics? (3) Does it need explanation that a demonstration can provide? If any answer is no, the product isn't ready for his model. Most creatives waste months on products that fail question one.
+
+### HK-11: The Test Weekend — $30-40K to Know
+Ron's risk management: spend $30-40K on a test weekend (media, tape dubs, call center, fulfillment) to get real market data before committing to a full campaign. If it works, scale. If it doesn't, you've lost the cost of a bad dinner party, not a bad marriage. The test weekend eliminates opinion — the market tells you.
+
+### HK-12: The Incubation Pipeline (Bonfire Enterprises)
+Ron runs Bonfire Enterprises as the incubation arm of Guthy-Renker Ventures — sourcing products, test-launching them with DRTV creative, and scaling winners. The creative strategist isn't waiting for clients to come to them — they're scouting products and bringing the strategy to the table. This is the hidden model: find the product, write the brief, produce the creative, negotiate the royalty, and own the upside.
+
 ---
 
 ## Hall of Fame Exemplars
@@ -132,6 +144,11 @@ Ron was a CEO of a grocery company doing in-store product demonstrations. Then h
 **Context**: 20-year-old Ron, not an actor, in an audition with two actual actors. No credentials.
 **The Example**: Mid-conversation, Ron took his sunglasses off, put them backwards on top of his ponytail, turned his head toward the casting director. She saw it, thought "that guy's a ham," excused the other two actors. Ron got the lead role, a SAG card, and launched a screenwriting career.
 **What makes this excellent**: The receptive filter in action. Pure "wouldn't it be cool if" energy channeled into a specific, memorable micro-action. The instinct to CREATE attention rather than wait for it.
+
+### Exemplar 4: The Billy Mays Partnership Model
+**Context**: Billy Mays was "very good creative" who helped Ron enormously. But most people see Mays as a pitchman. Ron saw the deeper architecture.
+**The Example**: Ron didn't just write scripts for Billy Mays — he engineered a collaboration model where the creative strategy (Ron's domain) and the on-camera performance (Mays's domain) were separated into distinct skill sets. The pitchman is the FACE; the strategist is the ARCHITECT. Products like Total Trolley succeeded because Ron designed the demos, offers, and campaign ecosystem BEHIND the pitchman. When people see Billy Mays selling a ladder, they see a charismatic pitchman. Ron sees a calculated system: exciting demos + irresistible offers + strategic pricing + fulfillment infrastructure.
+**What makes this excellent**: The model separates the creative architect from the on-screen talent — a division of labor that translates directly to modern content creators, influencers, and personal brands. The strategist is the highest-leverage role because they design the system, not just the performance.
 
 ### Anti-Exemplar: The Feature-First Product Pitch
 **What mediocre looks like**: Leading with product specs, technology, "revolutionary design." Showing the pool, the bar, the hotel room for a vacation destination. Advertising megapixels instead of bravery.
@@ -198,3 +215,48 @@ The CMO path for creative professionals.
 - Skill Progression: Copywriter → Creative (write both columns) → Creative Director → Creative Strategist → CMO/Founder
 - Business Acumen Layer: Learn sales mix, margin, supply chain, labor.
 - Portfolio Development: Campaigns, not copy.
+
+---
+
+## Big Baby Agency Operational Model
+
+The production-grade methodology for running a creative strategy business at scale.
+
+### Client Onboarding Pipeline
+1. **3-Question Pre-Qualification**: Is the USP super unique? Does pricing support media economics? Does it need demonstration?
+2. **14-20 Page Creative Brief**: Not a 1-2 page agency brief — a full business plan covering marketability, audience, competitive landscape, pricing mechanics, and sales argument perspective outlines
+3. **Test Weekend Commitment**: $30-40K to get real market data (media, tape dubs, call center, fulfillment) before full campaign investment
+
+### Creative Suite Deliverables
+- Long-form infomercials (30-minute shows with testimonials and 2+ CTAs)
+- Short-form spots (atomized from long-form via staple-removal)
+- Supporting website
+- Demonstration sequences
+- Pitchman/talent scripts
+- Offer architecture (pricing, bonuses, guarantees)
+
+### Deal Structure Economics
+- **Startup cost**: $30-40K minimum for test weekend
+- **Creative fee**: Production costs + base strategy fee
+- **Royalty layer**: 1-5% of attributed sales (the real income)
+- **Equity option**: For startups with high-growth potential (the GoPro model)
+- **Audit rights**: Transparent reporting and attribution verification
+
+### Scaling Architecture
+Ron runs 4-5 companies simultaneously as fractional CMO using:
+- Standardized creative brief templates (14-20 pages per product)
+- Inverted org with bumper roles handling 80-90% of operational noise
+- Incubation pipeline via Bonfire Enterprises (Guthy-Renker Ventures)
+- Portfolio approach: 70+ brands managed through templated processes
+
+### Product Selection Criteria
+- Super unique USP that needs explanation
+- Pricing mechanics that support infomercial/media margins
+- Demonstrable transformation (can you SHOW it working?)
+- Categories: housewares, skincare, natural medicine, pharma, hardware, pain relief, tech, IP
+- The product must earn a slot in the customer's 5-6 identity stack
+
+### Education + IP Assets
+- *Buy Now: Creative Marketing that Gets Your Product Sold* (book)
+- *Marketing Mercenary*: 9-week program delivering a "marketing MBA + life coach clarity" — assignments include life reflection, USP definition, and campaign drafting
+- Free 15-page creative brief template via BigBabyAgency.com
