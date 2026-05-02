@@ -70,3 +70,8 @@
 - `[2026-05-01 06:53]` **finalize** | Anne Lamott Skill Domain — Complete 12-workflow architecture across 3 tiers. | general | Anne Lamott — composite:8.7 status:Keep
 - `[2026-05-01 06:59]` **finalize** | Anne Lamott lamott-craft skill domain — 12 production workflows across 3 tiers, 3 cross-expert stack | general | Anne Lamott — composite:8.7 status:Keep
 - `[2026-05-01 12:21]` **finalize** | SUBLINE brand identity package: full multi-agent deployment for Farrice's client Josh — performance  | brand | brand-system-builder — composite:8.3 status:Keep
+- `[2026-05-01 14:01]` **finalize** | SUBLINE brand identity package — Swing Dance Extension. Pivoted to founder Josh's actual community ( | general | creative-director — composite:8.7 status:Keep
+- `[2026-05-02 00:52]` **finalize** | Coach Cooz May 2026 pivot package — full chain delivery: ICP recalibration, LinkedIn algorithm audit | content | diandra-escobar + lara-acosta + maria-wendt + mcraney-deep-canvassing + sabri-suby — composite:7.7 status:Keep
+- `[2026-05-02 01:11]` **finalize** | SUBLINE brand identity package — Grounded Set v2. Critical course-correction: the prior 12 visuals r | general | creative-director — composite:9.3 status:Keep
+- `[2026-05-02 07:24]` **finalize** | Andrew Dun Vibe Consulting — Full MES 3.0 Deep Extraction + 10-Workflow Skill Architecture | general | andrew-dun — composite:8.7 status:Keep
+- `[2026-05-02 07:44]` **finalize** | Completed extract-amplify for andrew-dun-vibe-consulting: 5 new workflows (11-15), enriched genius.m | general | andrew-dun — composite:8.7 status:Keep
