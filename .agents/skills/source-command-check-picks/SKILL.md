@@ -1,0 +1,12 @@
+---
+name: "source-command-check-picks"
+description: "Fast-path NBA picks. Say \"check my picks\" and get tonight's full edge analysis instantly. Auto-detects mode: default = tonight's slate, `review` = past results, player name = quick prop check"
+---
+
+# source-command-check-picks
+
+Use this skill when the user asks to run the migrated source command `check-picks`.
+
+## Command Template
+
+Read and execute the workflow at `.agent/workflows/check-picks.md` — Fast-path NBA picks. Say "check my picks" and get tonight's full edge analysis instantly. Auto-detects mode: default = tonight's slate, `review` = past results, player name = quick prop check

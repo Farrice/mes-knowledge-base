@@ -1,0 +1,19 @@
+[mcp_servers.perplexity-ask]
+args = [
+    "-y",
+    "@perplexity-ai/mcp-server",
+]
+command = "npx"
+
+[mcp_servers.perplexity-ask.env]
+PERPLEXITY_API_KEY = "${PERPLEXITY_API_KEY}"
+
+[mcp_servers.playwright]
+args = [
+    "-y",
+    "@playwright/mcp@latest",
+]
+command = "npx"
+
+[mcp_servers.recall]
+url = "https://backend.getrecall.ai/mcp/"
