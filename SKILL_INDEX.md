@@ -11,9 +11,12 @@
 | `alen-sultanic-copywriting` | **Alen Sultanic Copywriting Mastery** |  | 7 | 31 |
 | `alex-content-science` | **Alex Content Science** | content science | 7 | 0 |
 | `alex-copper-creative-strategy` | **Alex Copper Creative Strategy Skill** |  | 4 | 24 |
+| `alex-m-smith-natural-strategy` | **alex-m-smith-natural-strategy** | natural strategy skill | 5 | 0 |
+| `alex-myatt-creative-engine` | **Alex Myatt: Creative Engine System (CES)** | creative engine system (ces) v1.0 | 12 | 0 |
 | `algorithmic-art` | **algorithmic-art** | creating algorithmic art using p5, js with seeded randomness and interactive parameter exploration | 0 | 0 |
 | `ali-abdaal-action-bias` | **Ali Abdaal: Action Bias** | action bias | 4 | 17 |
 | `andreessen-horowitz-new-media` | **Marc Andreessen & Ben Horowitz: New Media Strategy** | new media strategy | 4 | 6 |
+| `andrew-dun-vibe-consulting` | **Andrew Dun — Vibe Consulting Mastery** | vibe consulting mastery | 15 | 0 |
 | `andrew-wilkinson-ai-entrepreneurship` | **Andrew Wilkinson AI Entrepreneurship** |  | 2 | 6 |
 | `andy-lo-premium-websites` | **Andy Lo — Premium AI Website Creation** | premium ai website creation | 5 | 14 |
 | `april-dunford-positioning` | **April Dunford: B2B Positioning & Sales Pitch Architecture** | the world's most actionable system for answering 'why should customers pick us?, b2b positioning & sales pitch architecture | 16 | 13 |
@@ -27,9 +30,13 @@
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 11 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai copywriting mastery | 5 | 45 |
+| `chase-hughes-conversational-influence` | **Chase Hughes — Conversational Influence** | conversational influence | 6 | 0 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | built from agora's #1 newsletter promo copywriter, financial direct response copywriting | 5 | 0 |
+| `cinematic-documentary` | **Cinematic Documentary** | skill manifest | 13 | 0 |
 | `consumer-posture-research` | **consumer-posture-research** | produces complete consumer posture profiles for strategic clarity | 0 | 0 |
+| `corey-mcclain-persona-engineering` | **Corey McClain — Persona-First Context Engineering** | persona-first context engineering | 20 | 0 |
 | `creative-assembly` | **creative-assembly** |  | 0 | 3 |
+| `creative-campaign-strategy` | **Creative Campaign Strategy** | ron lynch | 17 | 0 |
 | `creative-direction` | **creative-direction** | covers higgsfield, kittl, midjourney, and flux platforms | 0 | 0 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dan-koe-ai-leverage` | **Dan Koe - AI Leverage Methodology** | turn ai into a creative expansion partner, not a replacement, context-loaded coaching, adversarial refinement, and knowledge alchemy, ai leverage methodology | 3 | 0 |
@@ -58,6 +65,7 @@
 | `erica-mallet-brand-magnetism` | **Erica Mallet: Brand Magnetism Mastery** | brand magnetism mastery | 5 | 52 |
 | `ethan-smith-aeo` | **Ethan Smith — AEO (Answer Engine Optimization)** | aeo (answer engine optimization) | 3 | 8 |
 | `evan-spiegel-distribution-architecture` | **Evan Spiegel Distribution Architecture** | evan spiegel | 13 | 0 |
+| `fantastic-posters` | **fantastic-posters** | 0 + kling v3 pro, multi-ref + logo + brief + batch + template modes, image-to-video bridge: any poster output becomes a video input | 5 | 0 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | writing mastery | 5 | 36 |
 | `fresh-voice-system` | **Fresh Voice System** |  | 3 | 0 |
 | `frontend-design` | **frontend-design** |  | 0 | 0 |
@@ -75,6 +83,7 @@
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** |  | 3 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** |  | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner - Identity-Based Persuasion & Psychological Framing** | identity-based persuasion & psychological framing | 11 | 14 |
+| `jessica-jensen-platform-intelligence` | **Jessica Jensen — LinkedIn Platform Intelligence** | insider platform intelligence from linkedin's cmo, the 'why behind the why' for every tactical decision, linkedin platform intelligence | 12 | 0 |
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | philosopher-financier skill | 5 | 30 |
 | `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery | 9 | 6 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | writing career monetization | 5 | 0 |
@@ -85,14 +94,17 @@
 | `joshua-smith-real-estate` | **Joshua Smith: Real Estate Sales Mastery** | real estate sales mastery | 4 | 12 |
 | `jun-yuh-creator-vision` | **Jun Yuh Creator Vision** |  | 13 | 7 |
 | `jun-yuh-personal-brand` | **Jun Yuh — Personal Brand Mastery** | personal brand mastery | 4 | 34 |
-| `kallaway-addictive-storytelling` | **Kallaway Addictive Storytelling** | skill.md | 10 | 0 |
+| `kallaway-addictive-storytelling` | **Kallaway Addictive Storytelling** | skill.md | 11 | 0 |
+| `kallaway-ai-content-engine` | **Kallaway Ai Content Engine** | skill.md | 4 | 0 |
 | `kallaway-audience-obsession` | **Kallaway Audience Obsession** | audience obsession engineering | 12 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
+| `kallaway-social-commerce` | **Kallaway Social Commerce** | skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** |  | 15 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |
 | `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | content engine | 8 | 0 |
 | `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content ops | 3 | 0 |
 | `kittl-graphic-design` | **Kittl Graphic Design** |  | 4 | 23 |
+| `lamott-craft` | **Lamott Craft** | skill manifest | 12 | 0 |
 | `lance-yichao-context-engineering` | **Lance Martin & Yichao "Peak" Ji - Context Engineering** | context engineering | 3 | 17 |
 | `lara-acosta-content-system` | **Lara Acosta: Tech Founder Content System** | tech founder content system | 4 | 4 |
 | `lara-acosta-linkedin-growth` | **Lara Acosta — LinkedIn Audience Mastery** | master-level b2b personal branding on linkedin, linkedin audience mastery | 4 | 3 |
@@ -153,6 +165,7 @@
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
 | `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | personal brand business architect | 4 | 0 |
+| `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | brand social media archetypes | 0 | 0 |
 | `oren-content-team-architecture` | **Oren — Content-Team Architecture** | content-team architecture | 12 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | luxury psychology & premium market positioning | 3 | 9 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational systems | 3 | 7 |
@@ -160,6 +173,7 @@
 | `oren-taste-development` | **Oren - Taste Development Mastery** | taste development mastery | 5 | 11 |
 | `oscar-hoglund-sound-storytelling` | **Oscar Hoglund - Sound Storytelling** | create content that is felt in the body, not just read by the eyes, sound storytelling | 4 | 23 |
 | `paul-james-ai-automation` | **Paul James AI Automation** |  | 4 | 14 |
+| `patrick-debois-cdlc` | **Patrick Debois — Context Development Life Cycle (CDLC)** | treat ai context as code with a full development lifecycle — generate, test, distribute, observe, adapt; from the founder of devops applied to ai engineering | 4 | 0 |
 | `pdf` | **pdf** |  | 0 | 0 |
 | `pj-accetturo-ai-video` | **PJ Accetturo: AI Video Mastery** | ai video mastery | 4 | 14 |
 | `pptx` | **pptx** | presentation creation, editing, and analysis, when claude needs to work with presentations ( | 0 | 0 |

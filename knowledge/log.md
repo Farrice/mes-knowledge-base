@@ -75,3 +75,23 @@
 - `[2026-05-02 01:11]` **finalize** | SUBLINE brand identity package — Grounded Set v2. Critical course-correction: the prior 12 visuals r | general | creative-director — composite:9.3 status:Keep
 - `[2026-05-02 07:24]` **finalize** | Andrew Dun Vibe Consulting — Full MES 3.0 Deep Extraction + 10-Workflow Skill Architecture | general | andrew-dun — composite:8.7 status:Keep
 - `[2026-05-02 07:44]` **finalize** | Completed extract-amplify for andrew-dun-vibe-consulting: 5 new workflows (11-15), enriched genius.m | general | andrew-dun — composite:8.7 status:Keep
+- `[2026-05-02 08:35]` **finalize** | Sinem Günel — Substack Business Architecture — 12 workflows deployed | general | sinem-gunel — composite:8.7 status:Keep
+- `[2026-05-02 08:49]` **finalize** | Publication audit — Parallax | general | sinem-gunel — composite:8.7 status:Keep
+- `[2026-05-02 14:59]` **finalize** | Corey McClain Persona-First Context Engineering — Stacking Tier Complete (workflows 10-12) | general | Corey McClain × Nate B. Jones × Oren × Dai Media — composite:8.7 status:Keep
+- `[2026-05-02 15:02]` **finalize** | About page — Farrice | general | sinem-gunel — composite:7.7 status:Keep
+- `[2026-05-02 15:04]` **finalize** | Coach Cooz V3 complete handoff package: Transformation Promise (REBUILT identity, bridge message, co | strategy | ron-lynch + diandra-escobar + lara-acosta + maria-wendt + mcraney-deep-canvassing + sabri-suby + hormozi — composite:8.3 status:Keep
+- `[2026-05-02 15:12]` **finalize** | Publication setup — Parallax | general | sinem-gunel — composite:8.3 status:Keep
+- `[2026-05-02 17:15]` **finalize** | Coach Cooz V4 Pivot Package — complete rewrite of V3 with real market deep research (V4-01, 22 verif | general | Lara Acosta + Lynch + McRaney + master-copywriter + adversarial-reviewer ensemble — composite:7.7 status:Keep
+- `[2026-05-02 21:04]` **finalize** | Coach Cooz V5 clean handoff package — complete reset of V4 with three user caveats integrated: (1) c | general | Lara Acosta + Nicolas Cole + Sean Macintyre + Kallaway + April Dunford + Rory Sutherland + Ron Lynch + Maria Wendt + David McRaney + Chris Cimorelli + Sabri Suby + Daniel Priestley + Andrew Dun (curated expert ensemble) — composite:8.3 status:Keep
+- `[2026-05-03 00:34]` **finalize** | V5-UPDATE Coach Cooz package: 6 new client-facing docs (V5-LINKEDIN-PROFILE · V5-VISUAL-BRAND-BRIEF  | brand | donald-miller-josh-sanders-rory-sutherland-multi-expert — composite:8.3 status:Keep
+- `[2026-05-03 01:13]` **finalize** | V5-UPDATE Coach Cooz package — ENHANCED v2: (1) V5-LINKEDIN-PROFILE Phase 2 About fully rewritten wi | research | ron-lynch-dai-media-mcraney-cimorelli-bernoff-writers-room-multi-expert — composite:9.0 status:Keep
+- `[2026-05-03 01:13]` **finalize** | V5-UPDATE v2 final — 3 user feedback loops addressed: (1) LinkedIn About fully rewritten via writers | research | ron-lynch-dai-media-mcraney-cimorelli-bernoff-writers-room-multi-expert — composite:8.3 status:Keep
+- `[2026-05-03 07:29]` **finalize** | TEST: LinkedIn carousel for Lara Acosta voice | content | lara-acosta — composite:7.7 status:Keep
+- `[2026-05-03 07:29]` **finalize** | TEST: brand strategy doc, no grounding announced | brand | oren-john — composite:7.0 status:Keep
+- `[2026-05-03 07:29]` **finalize** | TEST: system audit script execution | general — composite:8.0 status:Keep
+- `[2026-05-03 09:40]` **finalize** | Alex Myatt — Andromeda-era Meta creative strategy mastery extraction (forge). 12 practitioner workfl | general | alex-myatt — composite:8.7 status:Keep
+- `[2026-05-03 11:06]` **finalize** | Alex M H Smith — Natural Strategy mastery extraction (5 workflows, 12 genius patterns, 6 signature m | strategy | alex-m-smith — composite:8.0 status:Keep
+- `[2026-05-03 11:06]` **ingest** | Alex M H Smith — Natural Strategy extraction | strategy | alex-m-smith — 5 workflows, 12 genius patterns, gate-first protocol applied, Path A (standard extract) chosen over forge
+- `[2026-05-03 11:09]` **finalize** | Chase Hughes — Conversational Influence skill (Path B lightweight extract): 5 techniques + 1 composi | general | chase-hughes — composite:8.3 status:Keep
+- `[2026-05-03 11:43]` **finalize** | Patrick Debois — CDLC (Context Development Life Cycle) extraction | general | patrick-debois — composite:8.7 status:Keep
+- `[2026-05-03 11:43]` **ingest** | Patrick Debois — CDLC extraction | ai-engineering | patrick-debois — 4 workflows, 8 genius patterns, 5 hidden knowledge insights — DevOps founder applies SDLC→CDLC to AI context
