@@ -25,6 +25,7 @@
 | `bitbranding-fashion-shopify` | **bitbranding-fashion-shopify** | christian pinyon (bitbranding) — fashion dtc shopify execution, free-tier-fluent, gap-honest, mobile-first, fashion shopify execution | 4 | 0 |
 | `bond-halbert-copywriting` | **Bond Halbert - Ultimate Copywriting Mastery** | ultimate copywriting mastery | 4 | 26 |
 | `boris-claude-code` | **Boris Claude Code** | ai-augmented productivity systems using claude code and claude cowork | 4 | 21 |
+| `brad-bonanno-explainer-architecture` | **Brad Bonanno — Explainer-Video Architecture** | structural patterns for technical explainer videos: 15% demo rule, matrix moment, trust-anchor infographics, compound cliffhanger | 4 | 7 |
 | `brand-guidelines` | **brand-guidelines** |  | 0 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** |  | 3 | 10 |

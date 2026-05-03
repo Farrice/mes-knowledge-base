@@ -23,6 +23,7 @@
 | `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
+| `brad-bonanno` | **Brad Bonanno** | explainer-video architecture, 15% demo rule, matrix moment temporal proof, trust-anchor infographics, compound cliffhanger, single-source demo discipline, pause test |
 | `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | 4c's intro architecture, brand statement craft, buyer optimization, content authenticity & ai workflow, content format strategy, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |

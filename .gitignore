@@ -87,4 +87,5 @@ evolution_store/v2_search_sets/
 # See directives/video-vision-protocol.md
 extractions/*/frames/
 extractions/*/visual-context.md
+extractions/*/download/
 .agent/video-vision-log.jsonl
