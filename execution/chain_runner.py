@@ -116,6 +116,90 @@ def _classify_domain_from_skill(skill_name: str) -> str:
     return 'general'
 
 
+# Grounding-relevance set per directives/recall-grounding-protocol.md trigger conditions.
+# Used by Step 11.7 (Fix 5b / 2026-05-03) to auto-log grounding events so observability
+# survives the AI forgetting manual recall_logger CLI invocation.
+_GROUNDING_RELEVANT_DOMAINS = {
+    'content', 'copywriting', 'brand', 'voice', 'storytelling',
+    'positioning', 'strategy', 'sales', 'persuasion', 'creative',
+    'screenwriting', 'research',
+}
+_GROUNDING_RELEVANT_TASK_TYPES = {
+    'Content', 'Strategy', 'Creative', 'Client Work', 'Copy',
+}
+
+
+def _auto_log_grounding(skill: str, expert: str, task_type: str, notes: str) -> Dict[str, Any]:
+    """Auto-log a Recall grounding decision so observability is deterministic.
+
+    Why this exists: the original recall_logger design required Claude to manually
+    invoke `python3 execution/recall_logger.py log ...` after every grounding
+    decision. The May 2026 audit found that approach went silent within 24 hours
+    of shipping (12.8% fire rate over 14 days; only 1 of 10 expected domains).
+    This backstop ensures every chain finalize produces a baseline log entry.
+
+    Inference rules:
+    - If task_type or skill domain is grounding-relevant AND notes contain an
+      explicit fire signal → status=fired (source: explicit).
+    - If grounding-relevant but no explicit signal → status=skipped, reason=not_observed
+      (the gap between expected and observed is now visible).
+    - If not grounding-relevant → status=skipped, reason=non_grounding_domain.
+
+    This does NOT replace explicit logging by the AI when Recall MCP is actually
+    called — that signal (cards returned, signal level) is still richer. It just
+    guarantees a floor of observability when the AI forgets.
+    """
+    try:
+        from recall_logger import log_decision
+    except ImportError:
+        try:
+            from execution.recall_logger import log_decision
+        except ImportError:
+            return {"logged": False, "reason": "import_failed"}
+
+    domain = _classify_domain_from_skill(skill) if skill else (task_type or "system").lower()
+    is_relevant = (
+        task_type in _GROUNDING_RELEVANT_TASK_TYPES
+        or domain in _GROUNDING_RELEVANT_DOMAINS
+    )
+
+    notes_lower = (notes or '').lower()
+    explicit_fire = (
+        'recall grounding:' in notes_lower
+        or 'recall fired' in notes_lower
+        or 'cards returned' in notes_lower
+        or 'grounded with' in notes_lower
+    )
+
+    if not is_relevant:
+        log_decision(
+            status="skipped",
+            domain=domain,
+            expert=expert,
+            reason="non_grounding_domain",
+            note="auto-logged from chain_runner finalize",
+        )
+        return {"status": "skipped", "reason": "non_grounding_domain", "source": "auto_inferred"}
+
+    if explicit_fire:
+        log_decision(
+            status="fired",
+            domain=domain,
+            expert=expert,
+            note="auto-logged from chain_runner finalize; explicit signal in notes",
+        )
+        return {"status": "fired", "source": "explicit_in_notes"}
+
+    log_decision(
+        status="skipped",
+        domain=domain,
+        expert=expert,
+        reason="not_observed",
+        note="auto-logged from chain_runner finalize; grounding-relevant domain but no explicit fire signal in notes",
+    )
+    return {"status": "skipped", "reason": "not_observed", "source": "auto_inferred"}
+
+
 def finalize(
     output_description: str,
     expert: str = "",
@@ -536,6 +620,19 @@ def finalize(
                 }
         except Exception:
             pass
+
+    # ── Step 11.7: Recall grounding auto-log (Fix 5b / 2026-05-03) ──
+    # The original Fix 5 (recall_logger.py) required manual CLI invocation by
+    # the AI after every grounding decision. The May 2026 audit found that
+    # approach went silent within 24 hours of shipping. This backstop ensures
+    # every chain finalize produces a baseline grounding log entry — automatic,
+    # inference-based, never depends on AI memory. Non-fatal: any error is
+    # swallowed so grounding observability never breaks the quality gate.
+    try:
+        grounding_log = _auto_log_grounding(skill, expert, task_type, notes)
+        result["grounding_log"] = grounding_log
+    except Exception as e:
+        result["grounding_log_error"] = str(e)
 
     # ── Step 12: Revenue Tracker auto-link (Upgrade 7) ──────────
     # Passed deliverables in revenue-relevant task_types get a pending

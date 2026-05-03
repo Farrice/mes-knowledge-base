@@ -136,6 +136,22 @@ python3 execution/recall_logger.py report --days 7
 
 If after ≥30 fired-grounding sessions the lift_vs_baseline is ≤0 or near-zero, the Tier 1.5 design hypothesis is wrong and the relevance gate or query construction needs revision. Until that data exists, grounding is theoretically useful — not measurably useful.
 
+### Auto-backstop logging (Fix 5b / 2026-05-03)
+
+The May 2026 audit found that the manual CLI invocation pattern above went silent within 24 hours of shipping (12.8% fire rate over 14 days; only 1 of ~10 expected domains firing). Root cause: the AI assistant has to remember to invoke the CLI after every grounding decision, and that memory failed.
+
+**`chain_runner.finalize()` now auto-logs a grounding event on every call** as an inference-based backstop. Semantics:
+
+| finalize context | Logged status | Logged reason |
+|---|---|---|
+| Notes contain explicit signal (`"recall grounding:"`, `"cards returned"`, `"grounded with"`, `"recall fired"`) | `fired` | (note: `explicit_in_notes`) |
+| Grounding-relevant task_type or skill domain, no explicit signal | `skipped` | `not_observed` |
+| Non-grounding task_type and non-relevant domain | `skipped` | `non_grounding_domain` |
+
+The `not_observed` reason is the new bucket — it surfaces the gap between "should have grounded" and "was observed grounding." If `not_observed` dominates over time, it means the AI is not announcing grounding events in finalize notes, and the explicit logging discipline above still needs work.
+
+**Manual CLI invocation remains the higher-fidelity signal** — it captures cards_returned, signal level, query text. The auto-backstop guarantees a floor of observability; explicit logging provides the ceiling. Continue to invoke `recall_logger.py log --status fired --cards-returned N --signal high ...` whenever you actually call `mcp__recall__search` and want the richer signal in correlation reports.
+
 ---
 
 ## Manual overrides
