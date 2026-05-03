@@ -32,18 +32,22 @@ This is the "do it all" command. One invocation, one conversation, one complete 
 
 ### Phase 1: Source Acquisition
 
-1. **If YouTube URL**: Fetch transcript
+1. **If YouTube URL**: Fetch transcript AND visual context **in parallel**
 ```bash
 // turbo
-python3 execution/fetch-transcript.py "<url>" "<expert-name>"
+python3 execution/fetch-transcript.py "<url>" "<expert-name>" &
+python3 execution/fetch-video-context.py "<url>" "<expert-name>" || true &
+wait
 ```
+
+Visual context (frame extraction + grounded transcript) is additive — auto-skips non-video sources, >10min videos, uncaptioned-no-Whisper-key, or plugin-not-installed. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). For mastery-level extraction (forge), visual context is critical for visual creators (on-camera teachers, screen-recordings, slide-heavy content).
 
 2. **Expert identification** (same as `/extract` Step 1.5):
    - Verify the actual expert (not the transcription tool)
    - Check `AGENT_INDEX.md` for existing agents
    - If expert exists, this becomes an EXPANSION, not a new extraction
 
-3. **Read the full source material**. Do NOT skim. Forge requires complete comprehension.
+3. **Read the full source material**. Do NOT skim. Forge requires complete comprehension. If `extractions/<expert-name>/visual-context.md` exists, **read it alongside the transcript** — it contains frame paths and visual notes Claude can reason over directly via the `Read` tool, and forge-tier extraction must capture visual genius patterns when present.
 
 ### Phase 2: Vision (from `/extract-vision`)
 

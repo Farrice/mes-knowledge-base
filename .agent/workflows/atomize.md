@@ -33,7 +33,7 @@ Handle input based on type:
 
 | Input Type | Action |
 |------------|--------|
-| YouTube URL | Run `python3 execution/fetch-transcript.py "[url]" "source"` to get transcript |
+| YouTube URL | Run `python3 execution/fetch-transcript.py "[url]" "source"` to get transcript AND `python3 execution/fetch-video-context.py "[url]" "source" \|\| true` for visual context (frames, on-screen text, B-roll). Visual context enables pulling **visual quote cards** (slide screenshots, demonstration moments) and **video script remixes** that match the original's visual cadence. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). |
 | Blog URL | Use `read_url_content` to extract content |
 | File path (`.md`, `.txt`) | Read directly |
 | Pasted text | Save to `.tmp/atomize/source-raw.md` |

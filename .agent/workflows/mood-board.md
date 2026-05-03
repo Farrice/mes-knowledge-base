@@ -8,6 +8,17 @@ Load `skills/creative-direction/SKILL.md` at Tier 1. For brand-level or campaign
 
 ## Workflow
 
+### Step 0: Reference Capture (when references include video)
+
+If the concept references video material ("the mood of this short film", "this commercial's vibe", "this music video's palette"), fetch frame-grounded visual context first — Layer 4 (Photography/Image Direction) and Layer 5 (Cultural References) become MUCH stronger when grounded in actual frames vs. verbal descriptions:
+
+```bash
+// turbo
+python3 execution/fetch-video-context.py "<video-reference-url>" "ref-$(echo "$url" | shasum | head -c 8)" || true
+```
+
+See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Read `extractions/ref-*/visual-context.md` and 3-5 representative frames before constructing the 5 layers. The Reference Image Prompts in Step 4 can then directly pull composition, lighting, and color from the actual frames.
+
 ### Step 1: Clarify the Concept
 
 What is this mood board for?

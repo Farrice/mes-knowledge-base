@@ -24,6 +24,19 @@ python3 execution/fetch-transcript.py "<youtube_url>" "<expert-name>"
 ```
 Saves to `extractions/<expert-name>/transcript.txt`. If expert unknown, omit name — move after identification.
 
+### 1.6. Visual Context Capture (Auto, additive)
+
+If the source is a video URL or local video file, fetch frame-grounded visual context **in parallel with transcript**. Adds a sidecar `visual-context.md` (frame paths + grounded transcript + visual notes) when available — never blocks transcript-only flow.
+
+```bash
+// turbo
+python3 execution/fetch-video-context.py "<youtube_url>" "<expert-name>" || true
+```
+
+Auto-skips for: non-video sources, videos > 10min, uncaptioned-no-Whisper-key, plugin not installed. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Exit 2 = SKIPPED (silent), exit 0 = OK (visual-context.md ready), exit 1 = FAILED (logged warning, continue with transcript).
+
+If `extractions/<expert-name>/visual-context.md` exists after this step, load it alongside `transcript.txt` for all downstream extraction passes — visual hooks, on-screen text, gestures, and B-roll patterns become extractable.
+
 ### 1.5. Expert Identification (CRITICAL)
 - The "by [Name]" in transcript headers is often the **transcription tool**, NOT the speaker
 - Check video title, channel name, and content for the actual expert

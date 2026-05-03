@@ -8,6 +8,17 @@ Load `skills/creative-direction/SKILL.md` at Tier 1. Load `genius.md` at Tier 2 
 
 ## Workflow
 
+### Step 0: Reference Capture (when storyboarding from video reference)
+
+If the storyboard is being built from or against a reference video ("storyboard a video like THIS", "these are the shots I want to match"), fetch frame-grounded visual context first:
+
+```bash
+// turbo
+python3 execution/fetch-video-context.py "<reference-url>" "ref-$(echo "$url" | shasum | head -c 8)" || true
+```
+
+See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Read `extractions/ref-*/visual-context.md` and 5-8 representative frames as direct visual anchors. Step 3 (Design Each Frame) becomes far more precise when shot types, camera movements, and lighting are grounded in citable reference frames.
+
 ### Step 1: Define the Narrative Arc
 
 - **What is the story?** (product reveal, brand story, campaign video, social content, music video)

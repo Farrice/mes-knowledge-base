@@ -82,3 +82,9 @@ evolution_store/v2_search_sets/
 
 # DESIGN.md validation telemetry — append-only JSONL
 .agent/design-md-validations.jsonl
+
+# Video-vision sidecar artifacts (regenerable from source URLs via /watch)
+# See directives/video-vision-protocol.md
+extractions/*/frames/
+extractions/*/visual-context.md
+.agent/video-vision-log.jsonl

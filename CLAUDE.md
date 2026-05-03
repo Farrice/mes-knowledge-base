@@ -36,6 +36,8 @@ python execution/parallel_swarm.py "objective"       # --grounded, --research
 python execution/generate_image.py "prompt"
 python execution/skill_converter.py
 python execution/sync_registries.py
+python execution/fetch-transcript.py "<youtube_url>" "<expert>"          # transcript-only
+python execution/fetch-video-context.py "<video_url>" "<expert>"          # frame-grounded vision (claude-video wrapper)
 ```
 
 ### Calibration & Quality Tools (Added 2026-04-03)
@@ -264,6 +266,7 @@ Some domains have dedicated production workflows. If the user's task matches the
 | Existing DESIGN.md needs lint / WCAG / refinement | `/design-md-validate` | Eyeballing — always run `npx @google/design.md lint` |
 | Competitive intelligence requiring live primary-source quotes / screenshots / JS-rendered pages | `/competitor-intel` or `/spy-market` skill + Playwright per `directives/browser-automation-routing.md` for primary-source quotes/screenshots | Generic WebFetch text scrape (returns hydration shells on Webflow / Framer / Next.js sales pages) |
 | Login-gated source verification (LinkedIn profile facts, Substack analytics, MLS data, paywalled research) | Playwright with persistent profile per `directives/browser-automation-safety.md` + `directives/browser-automation-routing.md` (Tier 1 read-only — auth content access) | WebFetch (returns login wall HTML, not actual content) |
+| Source material includes a video URL or local video file (extract / extract-forge / parallel-extract / extract-vision / extract-amplify / convert-extraction / extract-principle / sinem-50-notes-extract / watch-and-remix / lookalike-content / format-scan / hidden-gems / style-from-creator / hook-formula-extract / talking-points / 4c-architect / atomize / knowledge-alchemy / mcclain-source-to-agent / art-direct / mood-board / storyboard / parallax) | `python3 execution/fetch-video-context.py "<source>" "<expert>"` (auto-fires from each workflow's `// turbo` block) per `directives/video-vision-protocol.md` | Transcript-only ingestion when source is video — visual hooks, on-screen text, gesture, B-roll patterns are 30-50% of meaning for visual creators. Wrapper auto-skips non-video, >10min videos, uncaptioned-no-Whisper-key, plugin not installed — never blocks parent workflow |
 
 **Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
 
@@ -289,6 +292,7 @@ Push complexity into deterministic code. You focus on decision-making.
 - **Local Files**: Skills, agents, directives (primary)
 - **Notion Databases**: 5 databases for projects, knowledge vault, content pipeline
 - **Recall** (3,000+ saved cards — YouTube transcripts, articles, extractions): Auto-queried at Tier 1.5 for content/brand/voice/strategy work via `directives/recall-grounding-protocol.md`. Invisible infrastructure — no manual trigger needed. Tools: `mcp__recall__search`, `mcp__recall__get_document_content`, `mcp__recall__explore_kb`, `mcp__recall__filter_by_metadata`.
+- **Video Vision** (claude-video / `/watch` plugin + `execution/fetch-video-context.py` wrapper): Frame-grounded vision over any video URL or local video file. Auto-fires from 23 workflow integrations whenever source material is a video — adds `extractions/<expert>/visual-context.md` (frame paths + grounded transcript) and `extractions/<expert>/frames/` sidecars. See `directives/video-vision-protocol.md`. Naming: `/watch` (claude-video plugin slash command for interactive use) is distinct from `/watch-and-remix` (existing skill workflow).
 - **NotebookLM**: Domain-specific research notebooks (RAG layer)
   - 5 notebooks: Higgsfield Cinema Studio, AI Brain Build Sprint, LinkedIn Ghostwriting, Lara Acosta, Luke Iha Copywriting
   - Query count: 100/month
@@ -343,6 +347,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | **Revenue Tracking** | **After client delivery** | **`execution/revenue_tracker.py` — connect quality to outcomes** |
 | **Browser Automation Safety** | **Any Playwright/browser MCP invocation** | **`directives/browser-automation-safety.md` — Tier 1 reads auto-fire; Tier 2 state-changes (post/send/submit/buy) require explicit confirmation; never type credentials** |
 | **Browser Automation Routing** | **Step 4 (LOAD) + Step 5 (PRODUCE) — when task involves live web** | **`directives/browser-automation-routing.md` — when to use Playwright vs WebFetch vs Perplexity vs Apify; Playwright primary for JS-rendered, login-gated, screenshot-evidence, multi-step navigation** |
+| **Video Vision Auto-Fire** | **Source-ingestion step of any of 23 video-aware workflows (extract family, video-study workflows, Creative Director, parallax)** | **`directives/video-vision-protocol.md` — wrapper at `execution/fetch-video-context.py` invokes the claude-video plugin (`/watch`) to produce frame-grounded `visual-context.md` sidecars. Exit codes: 0 OK / 2 SKIPPED / 1 FAILED. Never blocks parent workflow.** |
 
 ### Budget-Gated (check before calling)
 
@@ -355,6 +360,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | NotebookLM | `directives/notebooklm-usage-policy.md` | 100/mo, track in `.agent/notebooklm-usage.json` |
 | Apify | `directives/apify-usage-policy.md` | $29/mo Starter plan, track in `.agent/apify-usage.json`. Use for scraping/social listening; falls back to Perplexity at 90% cap |
 | **Fal API (fantastic-posters + video)** | `directives/fal-usage-policy.md` · `directives/fal-edit-mode-guide.md` | $20 wallet w/ $5 refill threshold, track in `.agent/fal-usage.json` (v2 mode-aware). **MANDATORY pre-flight gate**: every Fal call must pass `python3 execution/fal_budget_guard.py check --mode=<...>` first. Modes: `poster` ($1 ceiling), `edit` ($1), `rembg` ($0.10, chained transparency), `kling` ($2), `seedance-480p` ($1.50), `seedance-720p` ($3), `seedance-1080p` (HARD-BLOCKED, no override). Cross-mode: per-day $6, per-cycle $15, rate-limit 5/5min, halt after 2 consecutive failures. Hookify enforced. Wrappers: `./gen.sh` (posters/edit/rembg), `execution/fal_video_kling.py`, `execution/fal_video_seedance.py`. |
+| **Whisper API (video-vision fallback)** | `directives/video-vision-protocol.md` | Deferred — only fires when claude-video processes an uncaptioned video AND `--whisper` flag is passed. Default behavior: `fetch-video-context.py` exits 2 (SKIPPED) with `reason=uncaptioned_no_whisper_key`. To activate: set `GROQ_API_KEY` in `.env` (Groq Whisper preferred — pennies per video; OpenAI Whisper fallback if Groq unavailable). Most YouTube has native captions — Whisper rarely needed. |
 
 **Session state**: Write `.agent/session-state.md` after intent validation, expert deployment, major decisions, or 10+ file reads. Read after compaction or returning from sub-agents.
 

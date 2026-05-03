@@ -17,6 +17,12 @@ Take any published long-form post and extract 50 potential notes from it. Every 
 
 4. Gather input:
    - The full text of the long-form post to extract from
+   - **If the post embeds or references a video** (YouTube, TikTok, Loom), fetch visual context to mine on-screen content for additional note candidates:
+     ```bash
+     // turbo
+     python3 execution/fetch-video-context.py "<video-url>" "<post-slug>" || true
+     ```
+     See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Visual quotes (on-screen text, slide content, demonstration moments) often produce the highest-engagement standalone notes because they're rare in the "screenshot-able" feed.
    - Target reader profile (who should these notes attract?)
    - Any notes from this post that have already been published
 

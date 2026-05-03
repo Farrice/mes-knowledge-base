@@ -21,11 +21,15 @@ Read these files in order:
 2. `skills/dan-koe-ai-leverage/workflows/01-knowledge-alchemy-engine.md`
 
 ### 2. Source Intake
-Accept the user's source material. If a YouTube URL is provided:
+Accept the user's source material. If a YouTube URL is provided, fetch transcript AND visual context in parallel:
 ```bash
 // turbo
-python3 execution/fetch-transcript.py "<youtube_url>" "<expert-name>"
+python3 execution/fetch-transcript.py "<youtube_url>" "<expert-name>" &
+python3 execution/fetch-video-context.py "<youtube_url>" "<expert-name>" || true &
+wait
 ```
+
+Visual context is critical for coaching prompts derived from on-camera teaching: gestures, demonstrations, slide content, and energy patterns are part of the methodology being captured. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Wrapper auto-skips non-video sources.
 
 Confirm:
 - Expert identity

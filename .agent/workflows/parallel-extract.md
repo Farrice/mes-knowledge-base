@@ -42,16 +42,21 @@ Launch all [N] extractions in parallel? Or adjust?
 
 Wait for user approval.
 
-### 2. Fetch Transcripts (if YouTube URLs)
+### 2. Fetch Transcripts AND Visual Context (if YouTube URLs)
 
 // turbo
-Run transcript fetches in parallel:
+Run transcript + visual fetches in parallel — visual context is additive and auto-skips non-video sources, >10min videos, etc. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md):
 ```bash
 python3 execution/fetch-transcript.py "<url_1>" "<expert-1>" &
 python3 execution/fetch-transcript.py "<url_2>" "<expert-2>" &
 python3 execution/fetch-transcript.py "<url_3>" "<expert-3>" &
+python3 execution/fetch-video-context.py "<url_1>" "<expert-1>" || true &
+python3 execution/fetch-video-context.py "<url_2>" "<expert-2>" || true &
+python3 execution/fetch-video-context.py "<url_3>" "<expert-3>" || true &
 wait
 ```
+
+After fetch completes, sub-agents in Step 3 should be told to load `extractions/<expert>/visual-context.md` alongside `transcript.txt` if the visual file exists.
 
 ### 3. Launch Parallel Sub-Agents
 
@@ -62,6 +67,7 @@ Each sub-agent prompt:
 You are an extraction specialist. Read and execute these steps:
 
 1. Read the source material: [file path]
+   If extractions/[expert-name]/visual-context.md exists, READ THAT TOO — it contains frame paths and visual notes that supplement the transcript with on-screen text, gestures, B-roll patterns, and visual hooks.
 2. Read the extraction methodology: directives/mes-3.0-extract.md
 3. Determine extraction tier (Light / Standard / Deep)
 4. Produce the extraction report with:

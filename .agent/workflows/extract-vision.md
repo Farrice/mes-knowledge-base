@@ -16,6 +16,14 @@ Run this alongside or immediately after `/extract`. It replaces the long-winded 
 
 Run AFTER source material is available (transcript fetched, article read) but BEFORE workflow planning begins.
 
+**Visual context note**: If the source is a video and `extractions/<expert-name>/visual-context.md` exists (auto-fetched by `/extract` Phase 1.6), **load it alongside the transcript** before answering the 5 vision questions below. Visual material directly informs Question 1 ("What grabs you?") — emotional center of gravity often lives in gesture, energy, on-screen choices, not just words. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md).
+
+If visual-context.md does not exist but the source is a video URL, you can opportunistically fetch it now:
+```bash
+// turbo
+python3 execution/fetch-video-context.py "<source>" "<expert-name>" || true
+```
+
 ## Steps
 
 ### 1. Capture the User's Creative Direction

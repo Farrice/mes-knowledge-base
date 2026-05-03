@@ -33,6 +33,13 @@ Set quality threshold based on stakes level.
 Curate and load context sources:
 - Check `SKILL_INDEX.md` and `AGENT_INDEX.md` for relevant Antigravity skills
 - If user provides external sources (YouTube URLs, articles), process them
+- **For YouTube URLs**, fetch BOTH transcript AND visual context — visual material is part of the C1 context for any video-sourced session:
+  ```bash
+  // turbo
+  python3 execution/fetch-transcript.py "<url>" "<source-slug>" || true
+  python3 execution/fetch-video-context.py "<url>" "<source-slug>" || true
+  ```
+  See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Wrapper auto-skips non-video sources, >10min videos.
 - If no expert source exists, generate top approaches and let user select
 - Compress each source into operational methodology
 

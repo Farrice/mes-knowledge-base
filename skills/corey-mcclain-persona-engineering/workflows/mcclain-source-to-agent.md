@@ -36,13 +36,16 @@ Before starting, verify:
 
 ### Phase 1 — Source Acquisition & Comprehension
 
-1. **If YouTube URL**: Fetch transcript
+1. **If YouTube URL**: Fetch transcript AND visual context **in parallel**. Persona-based agents need to capture the WHOLE person — including gesture, energy, on-camera presence, and how they communicate visually. Transcript-only is the cardinal failure mode for visual creators in this pipeline.
 ```bash
 // turbo
-python3 execution/fetch-transcript.py "<url>" "<expert-name>"
+python3 execution/fetch-transcript.py "<url>" "<expert-name>" &
+python3 execution/fetch-video-context.py "<url>" "<expert-name>" || true &
+wait
 ```
+See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Visual context becomes part of Phase 3 Identity Excavation — voice texture and personality signals hide in video frames the transcript can't show.
 
-2. **Read the complete source material**. Not a skim. Not key takeaways. Full comprehension. You are about to build a person from this material — you need to know them.
+2. **Read the complete source material**. Not a skim. Not key takeaways. Full comprehension. You are about to build a person from this material — you need to know them. **If `extractions/<expert>/visual-context.md` exists, READ IT** — and read 5-10 representative frames directly via the `Read` tool. The persona's mannerisms, energy patterns, and on-camera presence are extractable only with vision.
 
 3. **Initial Assessment** — answer internally:
    - Who is this expert? What are they actually good at (not their title — their gift)?

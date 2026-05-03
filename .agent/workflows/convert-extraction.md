@@ -26,6 +26,7 @@ Read the extraction report and extract:
 - **Genius patterns** (count and names)
 - **Hidden knowledge** (count and items)
 - **Core methodology/frameworks**
+- **Visual genius patterns** — if `extractions/<expert>/visual-context.md` is present, audit it for visual-only patterns (cut timing, on-screen text choices, gesture, B-roll structure, slide design) that should become workflows. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md).
 - **Hall of Fame Exemplars** (count — may be absent in older extractions)
 - **Signature Moves** (count — may be absent in older extractions)
 - **Quality Rubric** (present/absent — may be absent in older extractions)

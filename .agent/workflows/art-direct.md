@@ -8,6 +8,17 @@ Load `skills/creative-direction/SKILL.md` at Tier 1. For high-stakes or complex 
 
 ## Workflow
 
+### Step 0: Reference Capture (when references include video)
+
+If the brief references a video URL ("make it look like THIS music video", "the energy of THIS spot", "this director's style"), fetch frame-grounded visual context FIRST — then art direction can cite specific frames as visual anchors:
+
+```bash
+// turbo
+python3 execution/fetch-video-context.py "<reference-url>" "ref-$(echo "$url" | shasum | head -c 8)" || true
+```
+
+See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Wrapper auto-skips non-video and >10min references. When `extractions/ref-*/visual-context.md` exists, read it and 3-5 representative frames before designing the 3 concept directions — you'll generate stronger color palettes, composition rules, and lighting setups grounded in the actual reference rather than verbal descriptions.
+
 ### Step 1: Deconstruct the Brief
 
 Ask clarifying questions if the concept is vague. Identify:
@@ -16,6 +27,7 @@ Ask clarifying questions if the concept is vague. Identify:
 - **Medium** — Where will this live? (social, print, video, web, apparel)
 - **Emotional target** — What should the viewer feel? (primary + secondary)
 - **Constraints** — Budget, timeline, platform, format
+- **Visual references** — Any video reference URLs (films, music videos, ads, social content)? If yes, Step 0 has already pulled the frames.
 
 ### Step 2: Develop 3 Concept Directions
 

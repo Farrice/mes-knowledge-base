@@ -22,10 +22,17 @@ Can also be invoked contextually mid-conversation: "amplify this extraction" or 
 
 Read, in order:
 1. The source material (transcript/article) — `extractions/[expert]/transcript.txt` or equivalent
-2. The current skill files — `skills/[skill-name]/SKILL.md`, `genius.md`
-3. All existing workflow files — `skills/[skill-name]/workflows/*.md`
+2. **Visual context (if present)** — `extractions/[expert]/visual-context.md` contains frame paths and on-screen content that may have been overlooked in the first-pass transcript-only extraction. This is often where the highest-leverage MISSED items hide for visual creators. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md).
+3. The current skill files — `skills/[skill-name]/SKILL.md`, `genius.md`
+4. All existing workflow files — `skills/[skill-name]/workflows/*.md`
 
-Build a coverage map: what is currently captured vs. what exists in the source.
+If the source was a video and visual-context.md does NOT exist (e.g., extraction predates 2026-05-03), opportunistically fetch it now to enrich the amplification pass:
+```bash
+// turbo
+python3 execution/fetch-video-context.py "<original-source-url>" "<expert>" || true
+```
+
+Build a coverage map: what is currently captured vs. what exists in the source (including visual material).
 
 ### 2. Run the Four Scans
 

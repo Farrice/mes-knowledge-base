@@ -35,7 +35,7 @@ Handle input based on type:
 | LinkedIn URL | Playwright (`browser_navigate` + `browser_evaluate`) — `read_url_content` returns empty hydration shells on LinkedIn |
 | Twitter/X URL | Playwright (`browser_navigate` + `browser_evaluate`) — same JS-rendering issue |
 | Instagram / TikTok URL | Playwright with persistent profile (login-gated) per `directives/browser-automation-routing.md` |
-| YouTube URL | Run `python3 execution/fetch-transcript.py "[url]" "source"` |
+| YouTube URL | Run `python3 execution/fetch-transcript.py "[url]" "source"` AND `python3 execution/fetch-video-context.py "[url]" "source" \|\| true` (visual frames are critical for video viral mechanics — visual hooks, B-roll cadence, on-screen text are 50% of why short-form video goes viral). See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). |
 | Blog/article URL (static) | Use `read_url_content` to extract content |
 | Pasted text | Save to `.tmp/watch-and-remix/source.md` |
 
@@ -57,6 +57,9 @@ Read these files:
 
 ## SOURCE CONTENT
 [Full text of the viral piece]
+
+## VISUAL CONTEXT (if source was video)
+If `extractions/source/visual-context.md` exists, READ IT — and READ the first 5 frames in `extractions/source/frames/` directly via the Read tool. The visual hook is often a different beat than the verbal hook (cut-driven, on-screen text, gesture). Analyze BOTH the verbal hook AND the visual hook patterns.
 
 ## YOUR ANALYSIS
 Focus ONLY on the hook — the first 1-3 lines that stopped the scroll. Analyze:

@@ -21,8 +21,18 @@ Read these files:
 2. `skills/kieran-flanagan-audience-intelligence/genius.md`
 3. `skills/kieran-flanagan-audience-intelligence/workflows/03-style-from-creator.md`
 
+### 1.5. Fetch Visual Context for Video Sources
+If any of the creator's content is video (YouTube, TikTok, Instagram Reels, on-camera LinkedIn), fetch frame-grounded context — voice DNA includes gesture, pacing, energy, and on-screen choices that are invisible in transcripts:
+```bash
+// turbo
+for url in "<creator-video-url-1>" "<creator-video-url-2>" "..."; do
+  python3 execution/fetch-video-context.py "$url" "<creator-slug>" || true
+done
+```
+See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md).
+
 ### 2. Execute Workflow
-Follow the workflow in `03-style-from-creator.md` using the loaded genius context.
+Follow the workflow in `03-style-from-creator.md` using the loaded genius context. If visual-context.md exists, the style card MUST capture visual style markers (camera angle, gesture cadence, on-screen text choices, B-roll patterns) alongside verbal style markers.
 
 ### 3. Save Output
 Save the derived style card to `.tmp/kieran-flanagan/style-card-[creator].md`.

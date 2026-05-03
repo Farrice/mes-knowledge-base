@@ -100,6 +100,15 @@ Once Farrice selects a topic:
 
 **Browser tools available in Phase 2.5**: For PERSON, BRAND, and EVENT claims where the primary source is JS-rendered (LinkedIn profiles, modern brand sites, festival lineup pages, news sites with dynamic content) or login-gated, Playwright (`mcp__playwright__browser_navigate` + `browser_evaluate` or `browser_take_screenshot`) is the highest-fidelity verification path. Use it as a tier above `perplexity_ask` when the claim is high-stakes (named public figure, specific quote, exact date) and the source URL is known. WebFetch on these surfaces returns hydration shells that lead to false UNCONFIRMED labels. See `directives/browser-automation-routing.md` for the full decision matrix; `directives/browser-automation-safety.md` governs Tier 2 actions (none should fire during verification — Phase 2.5 is read-only).
 
+**Video tools available in Phase 2.5**: When a claim references a specific video moment (a DJ's set, a viral clip, a livestream, a music video sequence, an interview moment), `execution/fetch-video-context.py` is the canonical evidence path — it pulls actual frames from the source video that can be cited as VERIFIED evidence. **This directly addresses the Edition 02 fabrication failure mode** (Madeon set citation hallucinated visual details that didn't exist). When a video claim must be verified, fetch frames first, then verify the claim against the actual frames before tagging it VERIFIED. See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Wrapper auto-skips non-video sources, >10min videos.
+
+```bash
+# Example: verify a "Madeon at <festival>" claim
+// turbo
+python3 execution/fetch-video-context.py "<festival-set-youtube-url>" "verify-$(echo "$url" | shasum | head -c 8)" || true
+# Then read extractions/verify-*/visual-context.md and 5-10 frames before tagging VERIFIED
+```
+
 ### 2.5.0 — Short-Circuit Detection (runs first, before any tool call)
 
 Scan the raw take + topic + planned anchors for **External Factual Surface**:

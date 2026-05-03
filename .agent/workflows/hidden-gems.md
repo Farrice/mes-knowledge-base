@@ -31,6 +31,16 @@ Ask the user:
 - **Known stories**: What stories does the client already use consciously?
 - **Content purpose**: What will the stories be used for? (book, LinkedIn series, email, keynotes)
 
+### 3.5. Fetch Visual Context for Video Appearances
+For YouTube interviews and video podcast appearances, visual cues (host reaction shots, body language, animated retellings) are where the highest-leverage hidden gems hide — moments the client's verbal-only transcripts won't surface:
+```bash
+// turbo
+for url in "<appearance-url-1>" "<appearance-url-2>" "<appearance-url-3>"; do
+  python3 execution/fetch-video-context.py "$url" "<client-slug>" || true
+done
+```
+See [`directives/video-vision-protocol.md`](../../directives/video-vision-protocol.md). Wrapper auto-skips non-video sources, >10min videos.
+
 ### 4. Execute
 Follow the prompt:
 1. Story detection pass — flag every narrative moment
