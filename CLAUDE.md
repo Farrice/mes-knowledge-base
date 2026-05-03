@@ -114,26 +114,6 @@ python execution/knowledge_compiler.py archive "query" result.md --domain X
 
 **Evolution Direction** (`directives/evolution-direction.md`): Karpathy's `program.md` analog — single source of truth for what to evolve, current priorities, constraints, stopping criteria. Read before every `/skill-evolution` run. Updated after every evolution cycle.
 
-### Real Claude Code Subagents (Added 2026-04-28) — 12 Virtuoso-Tier Workers
-
-12 production-grade subagents in `.claude/agents/` (distinct from the 119 expert personas in `agents/<expert>/`). Personas are thinking lenses loaded as Tier 2 context; subagents are repeatable workers with isolated context invokable via the Agent tool.
-
-**Foundation:** `deep-research`, `fact-verifier`, `prose-doctor`
-**Production:** `expert-extractor`, `icp-deep-canvasser`, `synthesis-engine`
-**Quality:** `adversarial-reviewer`, `content-finalizer`
-**Outcomes/Specialty:** `master-copywriter`, `brand-system-builder`, `competitive-intel`, `swarm-orchestrator`
-
-**Canonical chains:**
-- Strategic brief: `deep-research` → `synthesis-engine` → `master-copywriter` → `prose-doctor` → `adversarial-reviewer` → `content-finalizer`
-- LinkedIn post: persona-load (Lara) → `master-copywriter` → `prose-doctor` → `adversarial-reviewer` → `content-finalizer`
-- Parallax edition: raw take → `fact-verifier` → persona-load (Cole) → `master-copywriter` → `prose-doctor` → `adversarial-reviewer` → `content-finalizer`
-- New extraction: `expert-extractor` → `synthesis-engine` → `content-finalizer`
-- Brand launch: `icp-deep-canvasser` → `competitive-intel` → `brand-system-builder` → `master-copywriter` → `adversarial-reviewer` → `content-finalizer`
-
-Full roster, invocation patterns, and architecture: **`directives/subagent-roster.md`**.
-
-Each subagent embodies a top-1% practitioner identity, inherits the user's accumulated knowledge infrastructure (Recall, extractions, knowledge), encodes hard rules from documented past failures (Parallax 02 fabrications, 8 banned structural moves, voice rules from MEMORY.md), and self-checks before returning. Generic LLM output is the failure mode — these agents are designed to be the exception.
-
 ---
 
 ## Directory Conventions
@@ -282,8 +262,8 @@ Some domains have dedicated production workflows. If the user's task matches the
 | DESIGN.md authoring / extract / synthesize / brand-system / "make it look like [brand]" | `/design-md-synthesize` or `/design-md-extract` or `/brand-library` (via Creative Director agent) | Generic Tailwind/CSS suggestions |
 | UI / component / page code generation from a DESIGN.md | `/product-build` or `/component-build` (skills/product-design-build/) | Hand-rolling without DESIGN.md as source-of-truth |
 | Existing DESIGN.md needs lint / WCAG / refinement | `/design-md-validate` | Eyeballing — always run `npx @google/design.md lint` |
-| Competitive intelligence requiring live primary-source quotes / screenshots / JS-rendered pages | `competitive-intel` subagent (Playwright wired) per `directives/browser-automation-routing.md` | Generic WebFetch text scrape (returns hydration shells on Webflow / Framer / Next.js sales pages) |
-| Login-gated source verification (LinkedIn profile facts, Substack analytics, MLS data, paywalled research) | Playwright via `deep-research` / `fact-verifier` subagent with persistent profile per `directives/browser-automation-routing.md` | WebFetch (returns login wall HTML, not actual content) |
+| Competitive intelligence requiring live primary-source quotes / screenshots / JS-rendered pages | `/competitor-intel` or `/spy-market` skill + Playwright per `directives/browser-automation-routing.md` for primary-source quotes/screenshots | Generic WebFetch text scrape (returns hydration shells on Webflow / Framer / Next.js sales pages) |
+| Login-gated source verification (LinkedIn profile facts, Substack analytics, MLS data, paywalled research) | Playwright with persistent profile per `directives/browser-automation-safety.md` + `directives/browser-automation-routing.md` (Tier 1 read-only — auth content access) | WebFetch (returns login wall HTML, not actual content) |
 
 **Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
 

@@ -93,22 +93,6 @@ When a task is ambiguous (e.g., "research what competitors charge"), apply both 
 
 ---
 
-## Subagent Tool Access
-
-Subagents inherit Playwright access via their `tools:` frontmatter. As of 2026-04-30, the following production subagents in `.claude/agents/` have Playwright wired:
-
-- `competitive-intel` — primary-source competitor research, screenshot evidence
-- `deep-research` — login-gated and JS-rendered source access
-- `fact-verifier` — primary-source verification of public-figure claims
-- `icp-deep-canvasser` — live forum / Reddit / Quora navigation
-- `expert-extractor` — live channel metadata and podcast platform extraction
-- `synthesis-engine` — revisit live sources during cross-source synthesis
-- `swarm-orchestrator` — needs full tool surface to delegate appropriately
-
-Subagents NOT given Playwright (no clear value-add): `prose-doctor`, `content-finalizer`, `master-copywriter`, `brand-system-builder`, `adversarial-reviewer`. These can be retrofitted later if a use case appears.
-
----
-
 ## Future Capability — Computer Use API
 
 Anthropic's Computer Use API offers full OS-level control (mouse, keyboard, arbitrary applications) beyond the browser. **Not currently integrated** into this system. Surface as a deferred option for the day a workflow needs to control desktop applications (native Notion, design tools like Figma desktop, accounting software, native AI tools) rather than the browser.
