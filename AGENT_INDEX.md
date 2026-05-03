@@ -20,6 +20,7 @@
 | `anne-lamott` | **Anne Lamott** | agent configuration |
 | `april-dunford` | **April Dunford** | 5-component positioning, b2b decision fear architecture, b2b positioning, b2b/b2c bifurcation, category strategy, market context engine, niche domination sequencing, positioning diagnostics, sales pitch architecture, sales pitch expert |
 | `authority-hacker` | **Gael Breton** | ai social media mastery |
+| `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
 | `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
@@ -96,8 +97,8 @@
 | `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
+| `patrick-debois` | **patrick-debois** | ai-augmented engineering / context engineering / lifecycle architecture, distribution maturity diagnosis, honest skill quality classification, lifecycle thinking, observability loop closure, test-tier discipline |
 | `paul-james` | **paul-james** | agency arbitrage, ai workflow automation monetization, modular service design, recurring revenue architecture, time-to-revenue translation, zero-cost positioning |
-| `patrick-debois` | **Patrick Debois** | ai-augmented engineering, cdlc (context development life cycle), context engineering, devops applied to ai, error-budget eval discipline, lifecycle architecture, observability loop closure, skill-distribution maturity |
 | `pj-accetturo` | **PJ Accetturo** | ai video, brand-safe, production-grade, viral by design |
 | `prediction-market-strategist` | **prediction-market-strategist** | market making, prediction market trading — weather, risk management, sports/events |
 | `rachel-woods` | **Rachel Woods** | ai operations architect |

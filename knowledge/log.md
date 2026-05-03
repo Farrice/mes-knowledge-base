@@ -95,3 +95,5 @@
 - `[2026-05-03 11:09]` **finalize** | Chase Hughes — Conversational Influence skill (Path B lightweight extract): 5 techniques + 1 composi | general | chase-hughes — composite:8.3 status:Keep
 - `[2026-05-03 11:43]` **finalize** | Patrick Debois — CDLC (Context Development Life Cycle) extraction | general | patrick-debois — composite:8.7 status:Keep
 - `[2026-05-03 11:43]` **ingest** | Patrick Debois — CDLC extraction | ai-engineering | patrick-debois — 4 workflows, 8 genius patterns, 5 hidden knowledge insights — DevOps founder applies SDLC→CDLC to AI context
+- `[2026-05-03 13:20]` **finalize** | BitBranding (Christian Pinyon) — Fashion DTC Shopify execution extraction | brand | bitbranding — composite:8.0 status:Keep
+- `[2026-05-03 13:20]` **ingest** | BitBranding (Christian Pinyon) — Fashion DTC Shopify execution extraction | fashion-ecommerce-shopify | bitbranding — 4 workflows, 6 genius patterns, single-source standard extraction, gate-first protocol applied

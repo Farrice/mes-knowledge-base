@@ -22,6 +22,7 @@
 | `april-dunford-positioning` | **April Dunford: B2B Positioning & Sales Pitch Architecture** | the world's most actionable system for answering 'why should customers pick us?, b2b positioning & sales pitch architecture | 16 | 13 |
 | `asset_generator` | **Rank & Rent Asset Generator** | elevated) | 0 | 1 |
 | `authority-hacker-ai-social-media` | **Authority Hacker: AI Social Media Mastery** | ai social media mastery | 3 | 12 |
+| `bitbranding-fashion-shopify` | **bitbranding-fashion-shopify** | christian pinyon (bitbranding) — fashion dtc shopify execution, free-tier-fluent, gap-honest, mobile-first, fashion shopify execution | 4 | 0 |
 | `bond-halbert-copywriting` | **Bond Halbert - Ultimate Copywriting Mastery** | ultimate copywriting mastery | 4 | 26 |
 | `boris-claude-code` | **Boris Claude Code** | ai-augmented productivity systems using claude code and claude cowork | 4 | 21 |
 | `brand-guidelines` | **brand-guidelines** |  | 0 | 0 |
@@ -172,8 +173,8 @@
 | `oren-repositioning` | **Oren — Repositioning & Creative Direction** | repositioning & creative direction | 3 | 7 |
 | `oren-taste-development` | **Oren - Taste Development Mastery** | taste development mastery | 5 | 11 |
 | `oscar-hoglund-sound-storytelling` | **Oscar Hoglund - Sound Storytelling** | create content that is felt in the body, not just read by the eyes, sound storytelling | 4 | 23 |
+| `patrick-debois-cdlc` | **patrick-debois-cdlc** | from the founder of devops applied to ai engineering, context development life cycle (cdlc) | 4 | 0 |
 | `paul-james-ai-automation` | **Paul James AI Automation** |  | 4 | 14 |
-| `patrick-debois-cdlc` | **Patrick Debois — Context Development Life Cycle (CDLC)** | treat ai context as code with a full development lifecycle — generate, test, distribute, observe, adapt; from the founder of devops applied to ai engineering | 4 | 0 |
 | `pdf` | **pdf** |  | 0 | 0 |
 | `pj-accetturo-ai-video` | **PJ Accetturo: AI Video Mastery** | ai video mastery | 4 | 14 |
 | `pptx` | **pptx** | presentation creation, editing, and analysis, when claude needs to work with presentations ( | 0 | 0 |
