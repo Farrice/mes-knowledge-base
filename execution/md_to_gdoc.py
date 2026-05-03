@@ -325,17 +325,18 @@ def upload_html_as_gdoc(html_path, name, folder_id=None):
 
 
 def set_pageless(doc_id):
-    """Set a Google Doc to pageless format (per project standard — ALL docs pageless)."""
+    """Set a Google Doc to pageless rendering. Docs API v1 has no native pageless
+    toggle; the documented workaround is a very large pageSize.height. 14400 PT
+    (200 inches) is well within accepted bounds — 1,000,000 PT broke the renderer."""
     payload = json.dumps({
         "requests": [{
             "updateDocumentStyle": {
                 "documentStyle": {
                     "pageSize": {
-                        "width": {"magnitude": 612, "unit": "PT"},
-                        "height": {"magnitude": 1000000, "unit": "PT"},
+                        "height": {"magnitude": 14400, "unit": "PT"}
                     }
                 },
-                "fields": "pageSize",
+                "fields": "pageSize.height",
             }
         }]
     })
@@ -345,10 +346,17 @@ def set_pageless(doc_id):
         '--json', payload,
     ]
     result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        print(f"  ⚠ Pageless format failed: {result.stderr[:100]}")
-    else:
-        print(f"  ✓ Pageless format applied")
+
+    failed = result.returncode != 0 or '"error"' in (result.stdout or '')
+    if failed:
+        print(f"  ✗ Pageless format FAILED for doc {doc_id}")
+        if result.stderr:
+            print(f"    stderr: {result.stderr.strip()}")
+        if result.stdout:
+            print(f"    stdout: {result.stdout.strip()[:500]}")
+        return False
+    print(f"  ✓ Pageless format applied")
+    return True
 
 
 def convert_and_upload(md_path, folder_id=None, name=None, pageless=True):
@@ -382,7 +390,9 @@ def convert_and_upload(md_path, folder_id=None, name=None, pageless=True):
         if result and pageless:
             doc_id = result.get('id')
             if doc_id:
-                set_pageless(doc_id)
+                if not set_pageless(doc_id):
+                    print(f"  ⚠ Doc uploaded but pageless not applied — open in Drive "
+                          f"and toggle manually, or rerun set_pageless('{doc_id}')")
 
         return result
     finally:
