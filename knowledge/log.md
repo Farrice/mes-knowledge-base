@@ -97,3 +97,9 @@
 - `[2026-05-03 11:43]` **ingest** | Patrick Debois — CDLC extraction | ai-engineering | patrick-debois — 4 workflows, 8 genius patterns, 5 hidden knowledge insights — DevOps founder applies SDLC→CDLC to AI context
 - `[2026-05-03 13:20]` **finalize** | BitBranding (Christian Pinyon) — Fashion DTC Shopify execution extraction | brand | bitbranding — composite:8.0 status:Keep
 - `[2026-05-03 13:20]` **ingest** | BitBranding (Christian Pinyon) — Fashion DTC Shopify execution extraction | fashion-ecommerce-shopify | bitbranding — 4 workflows, 6 genius patterns, single-source standard extraction, gate-first protocol applied
+- `[2026-05-03 13:31]` **finalize** | Brad Bonanno — Explainer-Video Architecture extraction (first visual-aware in system) | general | brad-bonanno — composite:8.7 status:Keep
+- `[2026-05-03 13:32]` **ingest** | Brad Bonanno — Explainer-Video Architecture extraction | explainer-video architecture | brad-bonanno — 4 workflows, 7 genius patterns (6 visual-only), 6 hidden knowledge, 3 hall-of-fame exemplars. First visual-aware extraction validates the video-vision integration.
+- `[2026-05-03 14:20]` **finalize** | Satori Graphics — graphic-design composition + logo mastery extraction (forge) | general | satori-graphics — composite:8.7 status:Keep
+- `[2026-05-03 14:32]` **finalize** | Satori Graphics — post-adversarial-review fixes (LIFT attribution + poster-think rewrite + AI-tell s | general | satori-graphics — composite:9.0 status:Keep
+- `[2026-05-03 14:33]` **finalize** | Dara Denney — DTC Meta Ads Creative Strategy extraction | general | dara-denney — composite:8.0 status:Keep
+- `[2026-05-03 14:33]` **ingest** | Dara Denney — DTC Meta Ads Creative Strategy extraction | dtc-meta-ads | dara-denney — 5 workflows, 10 genius patterns, 9 hidden knowledge insights, 8-archetype format library

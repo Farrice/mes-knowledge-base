@@ -23,7 +23,7 @@
 | `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
-| `brad-bonanno` | **Brad Bonanno** | explainer-video architecture, 15% demo rule, matrix moment temporal proof, trust-anchor infographics, compound cliffhanger, single-source demo discipline, pause test |
+| `brad-bonanno` | **Brad Bonanno** | agent, explainer-video architecture |
 | `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | 4c's intro architecture, brand statement craft, buyer optimization, content authenticity & ai workflow, content format strategy, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
@@ -37,6 +37,7 @@
 | `dan-wang` | **Dan Wang: Observational Writing Master** | literary essay production, observational travel, observational writing master, single beautiful sentence construction, x-ray vision reading, year-long note accumulation |
 | `daniel-priestley` | **daniel-priestley** | demand engineering, ip mining, key person of influence, oversubscribed methodology, problem-aware positioning, stakes-based pricing |
 | `danny-yeung` | **Danny Yeung** | celebrity partnerships, dtc scaling, infrastructure pivots, subscription economics, velocity strategist |
+| `dara-denney` | **Dara Denney** | dtc creative strategy, meta ads performance creative, format archetype selection, david & goliath ads, yapper script architecture, objection-handling ads, format × messaging matrix testing, annual arbitrage hunting, partnership ads pipeline |
 | `darrel-wilson` | **darrel-wilson** | ai-augmented affiliate marketing, digital revenue systems, flip the process, recurring revenue lock-in, system sales, utility-first affiliate architecture, warm lead philosophy |
 | `david-bayer` | **David Bayer** | approval independence, elite communication, friend coffee frame, grounded presence |
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
@@ -113,6 +114,7 @@
 | `sam-goddard` | **Sam Goddard** | agent configuration, signature advantage |
 | `sam-parr` | **Sam Parr** | sam parr, taste acquisition • identity architecture • competitive moat |
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
+| `satori-graphics` | **Satori Graphics** | design psychology, graphic design — composition, layout, logo systems, satori graphics |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
 | `sean-macintyre` | **sean-macintyre** | awareness-armor diagnostic, career-architecture diagnostics, classical rhetoric deployment, cross-domain diagnostic copywriting, genealogy-of-ideas tracing, mechanism substance testing, persuasion philosophy / cross-domain diagnostic copywriting, post-hook architecture, three-vector idea engineering |
 | `seena-rez` | **seena-rez** | gatekeeping psychology, hyperdopamine hooks, psaep framework, speed = legitimacy, tiktok viral commerce, variation multiplication |

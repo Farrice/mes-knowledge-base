@@ -25,7 +25,7 @@
 | `bitbranding-fashion-shopify` | **bitbranding-fashion-shopify** | christian pinyon (bitbranding) — fashion dtc shopify execution, free-tier-fluent, gap-honest, mobile-first, fashion shopify execution | 4 | 0 |
 | `bond-halbert-copywriting` | **Bond Halbert - Ultimate Copywriting Mastery** | ultimate copywriting mastery | 4 | 26 |
 | `boris-claude-code` | **Boris Claude Code** | ai-augmented productivity systems using claude code and claude cowork | 4 | 21 |
-| `brad-bonanno-explainer-architecture` | **Brad Bonanno — Explainer-Video Architecture** | structural patterns for technical explainer videos: 15% demo rule, matrix moment, trust-anchor infographics, compound cliffhanger | 4 | 7 |
+| `brad-bonanno-explainer-architecture` | **Brad Bonanno — Explainer-Video Architecture** | explainer-video architecture | 4 | 0 |
 | `brand-guidelines` | **brand-guidelines** |  | 0 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** |  | 3 | 10 |
@@ -46,6 +46,7 @@
 | `dan-martell-business-scaling` | **Dan Martell — Business Scaling & Operational Leverage** | saas founder (3x exit) and author of buy back your time, business scaling & operational leverage | 10 | 0 |
 | `dan-wang-literary-analysis` | **Dan Wang Literary Analysis** |  | 2 | 7 |
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 4 | 27 |
+| `dara-denney-meta-ads` | **Dara Denney — Meta Ads Creative Strategy** | dtc creative strategy for meta ads, 8-archetype format library (david & goliath, yapper, objection-handling), format × messaging matrix testing, annual arbitrage discipline, performance creative for ecommerce | 5 | 0 |
 | `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-powered affiliate marketing | 12 | 0 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** |  | 4 | 14 |
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | elite communication | 3 | 17 |
@@ -195,6 +196,7 @@
 | `sam-goddard-media-scaling` | **Sam Goddard — Media Scaling & Attention Monetization** | media scaling & attention monetization | 5 | 14 |
 | `sam-parr-taste-acquisition` | **Sam Parr - Taste Acquisition Mastery** | taste acquisition mastery | 12 | 0 |
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai product launch system | 4 | 11 |
+| `satori-graphics` | **Satori Graphics: Composition + Logo Thinker** | composition + logo thinker | 14 | 0 |
 | `sean-kochel-ai-business` | **Sean Kochel: AI Business Mastery** | ai business mastery | 4 | 23 |
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | design-first web building | 2 | 6 |
 | `sean-mabry-voice-mastery` | **sean-mabry-voice-mastery** |  | 1 | 12 |
