@@ -50,6 +50,27 @@
 
 ---
 
+## Pending Workflow Evolution: Voice-Rule Final-Pass Checklist (Proposed 2026-05-04)
+
+**Proposal**: Add Phase 5 (Voice-Rule Final Pass) to `.agent/workflows/writers-room.md`. Currently Layer 3 (Voice Authenticity) does general voice checks but doesn't grep against the user's specific voice rules captured in memory feedback files.
+
+**Why**: 2026-05-04 LinkedIn post shipped with 3 em dashes despite `feedback_ai-writing-tells.md` rule "Max 1-2 em dashes per piece, prefer ellipses." User flagged post-finalize. The rule existed, the memory loaded, the workflow didn't apply it as a final-pass checklist.
+
+**Spec**:
+1. Phase 5 fires AFTER Layer 3 (Voice Authenticity) and BEFORE finalize
+2. Reads all `feedback_*.md` files in user memory matching `.*writing.*|.*voice.*|.*ai-tells.*|.*structural.*` patterns
+3. Extracts specific voice rules (banned phrases, punctuation preferences, ellipsis-vs-em-dash, banned structural moves)
+4. Greps draft against each rule
+5. Reports violations with line + suggested fix
+6. Auto-fixes deterministic patterns (em dash → ellipsis where Farrice's rule applies)
+7. Surfaces ambiguous cases for user decision
+
+**Implementation**: Edit `.agent/workflows/writers-room.md` to add Phase 5. Build `execution/voice_rule_check.py` that loads memory feedback files and greps draft against extracted rules. Test with next creative-domain task.
+
+**Status**: Pending. Captured here for next session implementation.
+
+---
+
 ## The Karpathy Triplet (for this system)
 
 Per Nate B Jones — "The magic isn't in the agent's intelligence — it's in the constraints."
