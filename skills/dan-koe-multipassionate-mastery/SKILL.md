@@ -1,6 +1,6 @@
 ---
 name: "Dan Koe - Multipassionate Mastery"
-description: ""
+description: "Dan Koe's one-person business system for operators who refuse to niche down. Personal monopoly framing, infinite content engine, philosophical authority, creator commerce. Use when the user IS the niche and needs to monetize multi-interest expression. Do NOT use for traditional niche-down strategy (use Justin Welsh), B2B service businesses, or single-vertical brand work."
 version: "2.0"
 format: "completion-engine"
 workflows: 4

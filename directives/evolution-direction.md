@@ -8,6 +8,21 @@
 
 ---
 
+## ACTIVE FREEZE — 2026-05-03 → 2026-05-10
+
+**No new skills, agents, or workflows ship until the rubric is human-calibrated and the 4.7 drift fix verifies.**
+
+**Why**: The 2026-04-24 audit found 94-99% finalize-score inflation. Fix 1 (calibrated rubric) shipped 2026-04-25 but `human_calibrated: 0` of 12 entries — the inflation guardrail is dormant. Concurrently, 25+ new skill domains shipped in the 14 days after the 4.7 alignment (commit `cb0b3138`), which the audit explicitly warned would be dilutive at the current eval state. The user reports felt-quality drift since ~2026-04-26 across creative-domain work.
+
+**How to apply during freeze**:
+- Reject new SKILL.md / AGENT.md / `.agent/workflows/*.md` additions unless they fix existing drift (e.g., empty descriptions, vibey triggers)
+- Continue allowed: bug fixes, calibration data entry, description patches, preamble edits, archival of REVIEW/C-tier skills
+- Re-evaluate freeze on 2026-05-10 OR when `python3 execution/eval_harness.py status` returns `rubric_load_bearing: true` AND a creative-domain end-to-end test (e.g., `/parallax`) recovers felt-quality at 8+/10
+
+**Authority**: Plan file `/Users/farricecain/.claude/plans/i-ve-been-noticing-performance-abstract-unicorn.md` (approved 2026-05-03). Audit at `_active/system-audit/audit-2026-04-24.md`.
+
+---
+
 ## The Karpathy Triplet (for this system)
 
 Per Nate B Jones — "The magic isn't in the agent's intelligence — it's in the constraints."

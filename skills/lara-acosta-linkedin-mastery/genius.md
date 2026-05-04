@@ -2,6 +2,20 @@
 
 > Load before any LinkedIn workflow. Full extraction intelligence — patterns, hidden knowledge, signature moves.
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Lara Acosta recognize this as her own thinking? If unsure, the answer is no — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name (no "Here's the SLAY hook...")
+- Do NOT explain the framework — embody it
+- The reader should never see the scaffolding, only feel the result
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Without this guidance, 4.7 may treat the patterns below as a checklist to enumerate rather than intuitions to absorb. The patterns are the water the writing swims in, not the fence the writing follows.
+
+---
+
 ## Expert Profile
 **Lara Acosta** — LinkedIn Personal Brand Strategist. 300K+ followers from zero. 3 six/seven-figure businesses via content. Pioneer of written LinkedIn strategies.
 

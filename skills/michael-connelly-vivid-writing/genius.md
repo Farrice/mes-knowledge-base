@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Michael Connelly recognize this as cinematic prose — or as someone filling vivid-writing slots? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT mechanically place "telling details" — let the world come through
+- Connelly's craft is selection: ONE detail doing the work of five paragraphs. Don't deploy five.
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Vivid writing dies under mechanical detail-stacking — the whole point is restraint. Checklist execution produces over-detailed prose, the opposite of cinematic.
+
+---
+
 ## The Novelist Who Writes by Subtraction
 
 Michael Connelly didn't build a 100-million-copy career by writing *more*. He built it by writing *less* — and making every surviving word carry the weight of a full paragraph. His 14 years at the Los Angeles Times taught him that you get six inches to tell a crime story, and his greatest skill transfer was realizing that the same economy that makes a news story land makes a 400-page novel *pull* the reader forward. Where other writers add detail, Connelly subtracts until only the one telling detail remains — the groove in a detective's eyeglass earpiece that reveals clenched teeth at crime scenes, the nod that replaces a spoken "yes" and signals a man uncomfortable with institutional language.

@@ -1,6 +1,6 @@
 ---
 name: "Oren — Luxury Psychology & Premium Market Positioning"
-description: ""
+description: "Oren's luxury psychology — insider codes, connoisseurship ladders, premium positioning against established luxury incumbents. Use for high-ticket offer architecture, premium brand world-building, and language-level audits stripping 'outsider' tells. Do NOT use for mass-market positioning, value-pricing strategy, or commodity-service branding."
 version: "2.0"
 format: "completion-engine"
 workflows: 3

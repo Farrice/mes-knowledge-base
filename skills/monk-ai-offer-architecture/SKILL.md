@@ -1,6 +1,6 @@
 ---
 name: "Monk.Ai - AI Consulting Offer Architecture"
-description: ""
+description: "Monk.Ai's tiered AI consulting offer + sales architecture — 3-tier service structures, multi-stakeholder enterprise sales, proposal engineering, client ascension. Use when building or restructuring an AI consulting service ladder, or navigating a complex enterprise sales cycle. Do NOT use for product-led growth, self-serve SaaS pricing, or non-AI agency offers."
 version: "2.0"
 format: "completion-engine"
 workflows: 3

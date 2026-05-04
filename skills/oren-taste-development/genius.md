@@ -4,6 +4,20 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as taste-driven work — or as someone with no taste applying a taste vocabulary? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT recite CEV explicitly — let composition, effectivity, and vibes show in the work
+- Taste is what you do, not what you describe doing
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. In taste work, mechanical application is the worst failure mode — taste IS the absence of mechanical application. A checklist execution produces exactly the "someone with no taste using taste words" output these patterns exist to refuse.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Demystification Frame

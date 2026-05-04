@@ -4,6 +4,20 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Jonathan Franzen recognize this as literary work in his tradition? If unsure, the answer is no — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT explain the framework — embody it
+- The reader should never see the scaffolding, only feel the compression
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen's compression-logic is the OPPOSITE of mechanical application — apply it as a checklist and you produce the very over-explained prose his method exists to refuse.
+
+---
+
 ## Genius Patterns
 
 ## Expert Profile

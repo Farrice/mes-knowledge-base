@@ -1,6 +1,6 @@
 ---
 name: "Mike Foutia — Marketing Tools"
-description: ""
+description: "Mike Foutia's universal market intelligence engine — turns data from ANY source (SEO, social, reviews, marketplaces) into deployable ad briefs and internal tool blueprints. Use for cross-platform trend analysis, ad-brief generation from research, and low-code marketing automation builds. Do NOT use for brand strategy (use Oren), creative direction, or organic content pillars."
 version: "2.0"
 format: "completion-engine"
 workflows: 3

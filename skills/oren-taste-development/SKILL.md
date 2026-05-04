@@ -1,6 +1,6 @@
 ---
 name: "Oren - Taste Development Mastery"
-description: ""
+description: "Oren's taste-as-competitive-advantage system — CEV framework (Composition/Effectivity/Vibes), critique vocabulary, deliberate-exposure curricula. Use for creative-direction roles, taste-gap diagnostics, brand quality audits, and positioning a specific 'eye' as the product. Do NOT use for analytical positioning (use April Dunford), revenue strategy, or production execution."
 version: "2.0"
 format: "completion-engine"
 workflows: 3

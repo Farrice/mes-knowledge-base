@@ -1,6 +1,6 @@
 ---
 name: "Lara Acosta - LinkedIn Content Mastery"
-description: ""
+description: "Lara Acosta's LinkedIn personal brand system — content engine, ghostwriting voice scaling, $1M revenue bridge. Use for LinkedIn-first content strategy, executive ghostwriting, LinkedIn-to-email funnel design. Do NOT use for general copywriting (use Luke Iha), short-form video (use Brock Johnson), or non-LinkedIn social platforms."
 version: "2.0"
 format: "completion-engine"
 workflows: 5

@@ -1,6 +1,6 @@
 ---
 name: "Nicolas Cole — Digital Product Creation Strategy"
-description: ""
+description: "Nicolas Cole's digital product strategy — vehicle selection (ebook vs course vs cohort vs community vs coaching), price-context sequencing, multi-tier ecosystem roadmaps. Use when choosing or pricing a digital product, or building a product ladder. Do NOT use for live launches (use Jeff Walker), VSL copy (use Luke Iha), or LinkedIn content (use Lara Acosta)."
 version: "2.1"
 format: "completion-engine"
 workflows: 3

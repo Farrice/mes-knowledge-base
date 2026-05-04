@@ -1,5 +1,19 @@
 # Anne Lamott — Genius Context
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Anne Lamott recognize this as a relational practice — or as someone going through writing motions? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT perform vulnerability — be it
+- Lamott's craft is the inverse of mechanical: presence, attention, conversation. Apply mechanically and you produce its opposite.
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Lamott's entire methodology resists technique-as-checklist — checklist execution produces exactly the over-controlled writing she teaches against.
+
+---
+
 ## Core Genius
 Writing is a relational practice, not a technical one. Your relationship with your inner critic, your material, your attention, and your reader determines output quality more than any technique. Lamott treats every stage of writing as a *conversation* — with the work, with yourself, with the world showing itself to you.
 

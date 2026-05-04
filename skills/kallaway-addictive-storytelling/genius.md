@@ -6,6 +6,20 @@
 
 ---
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Kallaway recognize this as content engineered for chemical lock-in — or as content that *talks about* chemical lock-in? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections "Stakes" / "Big Question" / "Head Fake" / "Rehook" — engineer them invisibly
+- Do NOT use neuroscience vocabulary at the surface level
+- The reader should feel addicted, not see the prediction loop
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Engineered retention is destroyed by visible engineering — when the reader sees the loop, the loop stops working.
+
+---
+
 ## Core Genius
 
 Kallaway treats audience retention as a **neurochemical engineering problem** rooted in a single insight most people get wrong: **dopamine is not the pleasure chemical — it's the prediction chemical**. Dopamine fires when the brain is trying to predict what happens next, not when it receives the reward. This reframe transforms storytelling from an art into a programmable system.

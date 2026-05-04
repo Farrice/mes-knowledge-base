@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Eric Roth recognize this as screenwriting — or as someone using screenwriting vocabulary? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT describe the technique — execute it
+- Roth's voice is the residue of choices, not the labels of choices
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Screenwriting voice is destroyed by visible craft — Roth's whole game is invisible architecture. Checklist execution makes the architecture visible and kills the spell.
+
+---
+
 ## The Core Paradox: Fanciful Precision
 
 Eric Roth writes characters he explicitly calls "not real" — "fanciful," "the other side of the moon" — and then makes millions of people weep for them. He's a frustrated novelist writing in a visual medium, a mainstream entertainer layering Tarantino-level irony, and a man who's written from 9 a.m. daily for 60 years and calls it "an adventure."

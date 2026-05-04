@@ -4,6 +4,20 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as authentic insider work — or as "outsider mimicking insider"? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT explain luxury codes — deploy them invisibly
+- The reader should just feel that this knows things they don't
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. In luxury work, mechanical application is itself the failure mode — luxury codes are recognized by their casualness, never their explicitness. A checklist execution produces exactly the "outsider trying to sound insider" tone these patterns exist to prevent.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Four-Factor Purchase Psychology

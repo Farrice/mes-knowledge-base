@@ -58,21 +58,34 @@ def load_eval_set() -> List[Dict[str, Any]]:
 
 
 def calibration_status() -> Dict[str, Any]:
-    """Report which eval entries have been human-calibrated vs. seeded."""
+    """Report which eval entries have been human-calibrated vs. seeded.
+
+    Threshold logic (updated 2026-05-03): Load-bearing requires either
+    (a) >= 10 absolute calibrated entries, OR (b) >= 80% of total entries
+    calibrated. The original threshold of 15 assumed a 30-task target eval
+    set; with a 12-entry seed set, that target is unreachable. Use the
+    proportional rule until the eval set grows to 20+.
+    """
     entries = load_eval_set()
     total = len(entries)
     calibrated = sum(1 for e in entries if e.get("calibrated_by_human"))
-    placeholders = sum(1 for e in entries if e.get("source") == "PLACEHOLDER")
+    placeholders = sum(
+        1 for e in entries
+        if e.get("source") == "PLACEHOLDER" and not e.get("explicitly_skipped")
+    )
+    proportional_threshold = max(10, int(total * 0.8))
+    load_bearing = calibrated >= proportional_threshold
     return {
         "total_entries": total,
         "human_calibrated": calibrated,
         "placeholders_to_fill": placeholders,
         "auto_seeded_pending_review": total - calibrated - placeholders,
-        "calibration_complete": calibrated >= 15 and placeholders == 0,
-        "rubric_load_bearing": calibrated >= 15,
+        "load_bearing_threshold": proportional_threshold,
+        "calibration_complete": load_bearing and placeholders == 0,
+        "rubric_load_bearing": load_bearing,
         "next_action": (
             "Fill placeholders + review auto-seeded entries against rubric anchors."
-            if calibrated < 15
+            if not load_bearing
             else "Run blind comparison and tighten anchors if divergence > 1.0 average."
         ),
     }

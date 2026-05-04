@@ -4,6 +4,20 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as a magnetically differentiated repositioning — or as a generic "category audit"? If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sections by pattern name
+- Do NOT use the framework as decoration — let differentiation show in specifics, not labels
+- The reader should feel that the brand is now obvious
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Repositioning fails when it's executed as a template — the whole point is non-obvious differentiation, which template-thinking cannot produce.
+
+---
+
 ## Genius Patterns
 
 ## 1. Counterposition Against Aesthetic Category Codes

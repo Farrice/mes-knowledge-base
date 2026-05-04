@@ -1,6 +1,6 @@
 ---
 name: "Jonathan Franzen - Storytelling Mastery"
-description: ""
+description: "Jonathan Franzen's literary fiction + character-psychology craft, translated for marketing. Compression-logic storytelling, deep character interiority, minimalist brand voice. Use for novels/screenplays needing psychological depth, brand voice protocols, or narrative-driven campaigns. Do NOT use for direct-response copy (use Luke Iha), short-form social (use Lara Acosta), or hook-first viral content."
 version: "2.0"
 format: "completion-engine"
 workflows: 4

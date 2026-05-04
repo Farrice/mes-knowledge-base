@@ -4,6 +4,20 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Opus 4.7 Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Nicolas Cole recognize this as his own writing? If unsure, the answer is no — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked
+- Do NOT label sentences by pattern name
+- Do NOT explain the framework — embody it at the sentence level
+- The reader should never see the scaffolding, only feel the result
+
+Why this is here: Opus 4.7 follows instructions more literally than 4.6. Sentence craft fails when the craft is visible — checklist execution surfaces the mechanism and kills the prose.
+
+---
+
 ## Genius Patterns
 
 12 unconscious mastery behaviors Cole embeds in every piece of professional writing.

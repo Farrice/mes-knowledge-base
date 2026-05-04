@@ -1,0 +1,20 @@
+{
+  "paused": true,
+  "paused_at": "2026-05-03T14:35:00Z",
+  "paused_until": "rubric_load_bearing == true",
+  "reason": "Auto-evolution paused while rubric is uncalibrated. Calibrate first, then unlock. Per plan: i-ve-been-noticing-performance-abstract-unicorn.md",
+  "paused_components": [
+    "evolution_orchestrator.py daily",
+    "evolution_orchestrator.py weekly",
+    "evolution_orchestrator.py monthly",
+    "skill_auditor.py audit (auto-promotion)",
+    "scheduled trigger: trig_01G58JWBASrig5UAoL5wGnhW (May 9 calibration check)"
+  ],
+  "kept_active": [
+    "eval_harness calibrate (drift detection — this is the alarm)",
+    "routing_enforcer.py (incident-class prevention)",
+    "recall_logger (observability)",
+    "chain_runner finalize traces (data capture, scores not load-bearing)"
+  ],
+  "unlock_condition": "python3 execution/eval_harness.py status returns rubric_load_bearing: true"
+}
