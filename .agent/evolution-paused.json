@@ -1,20 +1,29 @@
 {
-  "paused": true,
-  "paused_at": "2026-05-03T14:35:00Z",
-  "paused_until": "rubric_load_bearing == true",
-  "reason": "Auto-evolution paused while rubric is uncalibrated. Calibrate first, then unlock. Per plan: i-ve-been-noticing-performance-abstract-unicorn.md",
-  "paused_components": [
-    "evolution_orchestrator.py daily",
+  "paused": false,
+  "lifted_at": "2026-05-04T11:00:00Z",
+  "lifted_reason": "Verification test passed. Rubric load-bearing (11/12 calibrated). Real-world creative test (trace_20260504_105639) produced non-uniform scoring 9/9/8 composite 8.7 matching user gut at 9. Grade compression broken.",
+  "previous_pause": {
+    "paused_at": "2026-05-03T14:35:00Z",
+    "duration_hours": 20.4,
+    "reason": "Auto-evolution paused while rubric was uncalibrated. Pattern: AI-system measuring itself against itself with no human-calibrated ground truth in the loop."
+  },
+  "now_allowed": [
+    "evolution_orchestrator.py daily (supervise first 3 runs)",
     "evolution_orchestrator.py weekly",
     "evolution_orchestrator.py monthly",
-    "skill_auditor.py audit (auto-promotion)",
-    "scheduled trigger: trig_01G58JWBASrig5UAoL5wGnhW (May 9 calibration check)"
+    "skill_auditor.py audit (with new requirement: A-tier needs eval coverage, not just trace presence)",
+    "new skill/agent/workflow ship (with discipline: add at least 1 eval entry per ship)"
   ],
-  "kept_active": [
-    "eval_harness calibrate (drift detection — this is the alarm)",
-    "routing_enforcer.py (incident-class prevention)",
-    "recall_logger (observability)",
-    "chain_runner finalize traces (data capture, scores not load-bearing)"
+  "still_paused": [
+    "Phase 3 cross-pollination (defer until tier classification verified)",
+    "Autonomous skill modification on skills without ground-truth benchmarks"
   ],
-  "unlock_condition": "python3 execution/eval_harness.py status returns rubric_load_bearing: true"
+  "verification_evidence": {
+    "rubric_status": "rubric_load_bearing: true (11/12 calibrated)",
+    "test_trace": "evolution_store/v2_traces/trace_20260504_105639_lara-acosta-linkedin-mastery.json",
+    "test_composite": 8.7,
+    "test_distribution": "Intent 9 / Expert 9 / Adversarial 8 — non-uniform scoring proves grade compression broken",
+    "user_gut_score": 9,
+    "calibration_consistency": "User's V1=7, V2=8, V2-WR=8, V2-WR-3=9 progression matched rubric's honest scoring at each iteration"
+  }
 }

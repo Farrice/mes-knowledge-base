@@ -8,18 +8,45 @@
 
 ---
 
-## ACTIVE FREEZE — 2026-05-03 → 2026-05-10
+## FREEZE LIFTED — 2026-05-04
 
-**No new skills, agents, or workflows ship until the rubric is human-calibrated and the 4.7 drift fix verifies.**
+**Status**: Partial unlock after verification test passed.
 
-**Why**: The 2026-04-24 audit found 94-99% finalize-score inflation. Fix 1 (calibrated rubric) shipped 2026-04-25 but `human_calibrated: 0` of 12 entries — the inflation guardrail is dormant. Concurrently, 25+ new skill domains shipped in the 14 days after the 4.7 alignment (commit `cb0b3138`), which the audit explicitly warned would be dilutive at the current eval state. The user reports felt-quality drift since ~2026-04-26 across creative-domain work.
+**What verified the unlock**:
+- `python3 execution/eval_harness.py status` returns `rubric_load_bearing: true` (11/12 entries human-calibrated by user gut)
+- Real-world creative-domain test produced honest non-uniform scoring: LinkedIn post `trace_20260504_105639` scored 9/9/8 (composite 8.7) — distribution that matches user's gut after 3 refinement passes, no auto-9 inflation
+- Grade compression broken: rubric distinguished Intent (perfect delivery) from Expert Standard (voice match) from Adversarial (defensible but not bulletproof)
 
-**How to apply during freeze**:
-- Reject new SKILL.md / AGENT.md / `.agent/workflows/*.md` additions unless they fix existing drift (e.g., empty descriptions, vibey triggers)
-- Continue allowed: bug fixes, calibration data entry, description patches, preamble edits, archival of REVIEW/C-tier skills
-- Re-evaluate freeze on 2026-05-10 OR when `python3 execution/eval_harness.py status` returns `rubric_load_bearing: true` AND a creative-domain end-to-end test (e.g., `/parallax`) recovers felt-quality at 8+/10
+**What's now allowed**:
+- New skill / agent / workflow ship — REQUIREMENT: must include at least one new eval entry to extend calibration coverage (the discipline that prevents the 8-day-dormant-rubric pattern from recurring)
+- Skill auditor auto-promotion — A-tier classification must require ≥1 eval coverage going forward (not just trace presence)
+- Daily / weekly evolution orchestrator runs — supervise first 3 runs to confirm calibrated scoring holds under autonomous loop
 
-**Authority**: Plan file `/Users/farricecain/.claude/plans/i-ve-been-noticing-performance-abstract-unicorn.md` (approved 2026-05-03). Audit at `_active/system-audit/audit-2026-04-24.md`.
+**What stays paused** until evidence of stable behavior:
+- Phase 3 cross-pollination (audit's prescription remains: don't activate until tier classification is verified)
+- Autonomous skill modification on skills WITHOUT ground-truth coverage
+
+**Authority**: Plan file `/Users/farricecain/.claude/plans/i-ve-been-noticing-performance-abstract-unicorn.md` (verification test passed). Audit at `_active/system-audit/audit-2026-04-24.md`. Verification trace: `evolution_store/v2_traces/trace_20260504_105639_lara-acosta-linkedin-mastery.json`.
+
+---
+
+## Pending Workflow Evolution: Zeitgeist Layer in Writers-Room (Proposed 2026-05-04)
+
+**Proposal**: Add `jackpost` mechanics (brandjack / newsjack / namejack entity research) as Layer 0 of `.agent/workflows/writers-room.md`. Currently writers-room has 3 layers (Structure, Emotion, Platform/Voice) but no zeitgeist anchoring — every refinement is craft-pure but contextually blind.
+
+**Why**: User insight from 2026-05-04 LinkedIn-post session — "what keeps the writers-room fresh and gives context for tapping into the zeitgeist and ethos of what's going on." Without zeitgeist context, refined posts can be polished but out-of-step with current cultural conversation. With it, every refinement auto-anchors to entities the audience is paying attention to.
+
+**Evidence it works**: The LinkedIn post `trace_20260504_105639` used jackpost mechanics (Claude 4.7 brandjack with Anthropic primary-source citation) layered ON TOP of writers-room polish. The result scored 8.7 composite with user gut at 9. Brandjack is what made the post current; writers-room is what made it land.
+
+**Spec**:
+1. Layer 0 fires BEFORE Layers 1-3
+2. Inputs: piece topic + current date
+3. Output: 1-3 brandjack/newsjack/namejack opportunities surfaced for refinement layers to draw on
+4. Constraint: Layer 0 only fires for content with public-facing distribution (LinkedIn, Substack, X, email) — not for internal docs
+
+**Implementation**: Edit `.agent/workflows/writers-room.md` to add Phase 0 (Zeitgeist Anchoring) before Phase 1 (Load Writers Room). Reference `.agent/workflows/jackpost.md` Phase 2 (Entity Research). Test with next creative-domain task.
+
+**Status**: Captured as feedback memory `feedback_writers-room-zeitgeist-layer.md`. Implementation pending next creative session.
 
 ---
 
