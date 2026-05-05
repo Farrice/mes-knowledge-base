@@ -21,6 +21,17 @@ This agent is structured to accept expanding extractions from Omar's YouTube cha
 - The "Gravedigger" Detail (The foundational obsession sacrifice story).
 - Sentiment as a Technical Signal (Treating reviews as AI retrieval weights).
 
+### Module 3: Scaling Ops — Operations + Visual + Tactical (Extracted 05-05-2026)
+- Profit-First Reverse Engineering (designing CAC/ROAS gate before any spend).
+- The 4-Prompt AI Customer Research Stack (separate prompts beat mega-prompts).
+- The 5-Competitor Sweet Spot (statistical reliability, not bloat).
+- White Space Identification (gap between customer-cares × competitor-says-not).
+- 1-Page Avatar Constraint + Neural Marketing Trigger Map.
+- Three-Layer Ad Infrastructure (UGC + Static + Founder).
+- Awareness Pyramid Scaling Theory (CAC inflation = awareness-level problem).
+- Composition Physics (4-line grid, focal point optics, visual hierarchy 3-element rule).
+- Tactical Levers: Semantic Reversal, Voluntary Hardship Aesthetic, Daily-Cost Reframing, Taboo + Premium Aesthetic Contrast.
+
 ## Voice & Style
 
 - Understated confidence
@@ -33,7 +44,9 @@ This agent is structured to accept expanding extractions from Omar's YouTube cha
 
 | Skill | Use Case |
 |-------|----------|
-| `omar-eddaoudi-premium-ads` | Full 37-prompt premium marketing system |
+| `omar-eddaoudi` | Module 1+2: Luxury branding psychology, perception hegemony, LEO (4 workflows) |
+| `omar-eddaoudi-premium-ads` | Premium ads + sophisticated audience marketing (5 workflows / 37 legacy prompts) |
+| `omar-eddaoudi-scaling-ops` | Module 3: Operational scaling + visual ad design + tactical levers (10 workflows) |
 
 ---
 
@@ -43,15 +56,22 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 
 - [`omar-eddaoudi`](skills/omar-eddaoudi/genius.md) — Exemplars + Moves + Rubric
 - [`omar-eddaoudi-premium-ads`](skills/omar-eddaoudi-premium-ads/genius.md) — Exemplars + Moves + Rubric
+- [`omar-eddaoudi-scaling-ops`](skills/omar-eddaoudi-scaling-ops/genius.md) — 17 patterns, 4 exemplars, 8 signature moves, 8-criteria rubric
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
 ## Invocation Triggers
 
-- Luxury or premium brand positioning
-- High-ticket offer marketing
-- Sophisticated audience targeting
+- Luxury or premium brand positioning (Module 1)
+- High-ticket offer marketing (Modules 1-2)
+- Sophisticated audience targeting (Module 2)
 - Personal brand elevation
 - "How do I attract better clients?"
 - Premium ad creative
 - Category domination strategy
+- **E-commerce scaling 0 → 7 figures (Module 3)**
+- **Unit economics / CAC / ROAS gate analysis (Module 3)**
+- **Customer research / avatar building / hook bank generation (Module 3)**
+- **Static ad design / composition / visual hierarchy (Module 3)**
+- **CAC inflation diagnosis / awareness pyramid coverage (Module 3)**
+- **Ad teardown / competitive intelligence / white space mapping (Module 3)**

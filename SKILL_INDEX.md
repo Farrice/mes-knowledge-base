@@ -42,11 +42,11 @@
 | `creative-direction` | **creative-direction** | covers higgsfield, kittl, midjourney, and flux platforms | 0 | 0 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dan-koe-ai-leverage` | **Dan Koe - AI Leverage Methodology** | turn ai into a creative expansion partner, not a replacement, context-loaded coaching, adversarial refinement, and knowledge alchemy, ai leverage methodology | 3 | 0 |
-| `dan-koe-multipassionate-mastery` | **Dan Koe - Multipassionate Mastery** | multipassionate mastery | 4 | 26 |
+| `dan-koe-multipassionate-mastery` | **Dan Koe - Multipassionate Mastery** | dan koe's one-person business system for operators who refuse to niche down, use when the user is the niche and needs to monetize multi-interest expression, multipassionate mastery | 4 | 26 |
 | `dan-martell-business-scaling` | **Dan Martell — Business Scaling & Operational Leverage** | saas founder (3x exit) and author of buy back your time, business scaling & operational leverage | 10 | 0 |
 | `dan-wang-literary-analysis` | **Dan Wang Literary Analysis** |  | 2 | 7 |
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 4 | 27 |
-| `dara-denney-meta-ads` | **Dara Denney — Meta Ads Creative Strategy** | dtc creative strategy for meta ads, 8-archetype format library (david & goliath, yapper, objection-handling), format × messaging matrix testing, annual arbitrage discipline, performance creative for ecommerce | 5 | 0 |
+| `dara-denney-meta-ads` | **dara-denney-meta-ads** | engine for performance creative built on dara denney's agency methodology, meta ads creative strategy | 5 | 0 |
 | `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-powered affiliate marketing | 12 | 0 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** |  | 4 | 14 |
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | elite communication | 3 | 17 |
@@ -160,13 +160,14 @@
 | `nick-saraev-agentic-workflows` | **Nick Saraev: Agentic Workflows Mastery** | agentic workflows mastery | 5 | 39 |
 | `nick-saraev-bottleneck-thinking` | **Nick Saraev: Bottleneck Thinking** | bottleneck thinking | 3 | 0 |
 | `nicolas-cole-client-acquisition` | **Nicolas Cole Client Acquisition** |  | 3 | 9 |
-| `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | digital product creation strategy | 3 | 6 |
+| `nicolas-cole-digital-products` | **Nicolas Cole — Digital Product Creation Strategy** | use when choosing or pricing a digital product, or building a product ladder, digital product creation strategy | 3 | 6 |
 | `nicolas-cole-newsletter-flywheel` | **Nicolas Cole Newsletter Flywheel** | newsletter flywheel | 17 | 0 |
 | `nicolas-cole-niche-positioning` | **nicolas-cole-niche-positioning** | niche positioning | 3 | 0 |
 | `nicolas-cole-sentence-craft` | **Nicolas Cole Sentence Craft** |  | 5 | 14 |
 | `ocean-vuong-perceptual-writing` | **Ocean Vuong Perceptual Writing** |  | 12 | 0 |
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
+| `omar-eddaoudi-scaling-ops` | **Omar Eddaoudi: Scaling Ops** | unit economics, customer research stack, avatar trigger map, static composition, ad teardown, white space positioning, launch portfolio, awareness pyramid audit | 10 | 0 |
 | `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | personal brand business architect | 4 | 0 |
 | `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | brand social media archetypes | 0 | 0 |
 | `oren-content-team-architecture` | **Oren — Content-Team Architecture** | content-team architecture | 12 | 0 |
@@ -230,6 +231,7 @@
 | `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | linkedin founder growth | 2 | 4 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | tyler denk (audience monetization) | 2 | 4 |
 | `velocity-scaling` | **Velocity Scaling** | danny yeung | 18 | 0 |
+| `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc operator system | 14 | 0 |
 | `ward-farnsworth-rhetorical-mastery` | **Ward Farnsworth — Rhetorical Mastery** | mastery of immortal english prose and structural rhetorical patterns, rhetorical mastery | 2 | 4 |
 | `web-artifacts-builder` | **web-artifacts-builder** | suite of tools for creating elaborate, multi-component claude | 0 | 0 |
 | `webapp-testing` | **webapp-testing** |  | 0 | 0 |

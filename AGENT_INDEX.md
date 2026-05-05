@@ -37,7 +37,7 @@
 | `dan-wang` | **Dan Wang: Observational Writing Master** | literary essay production, observational travel, observational writing master, single beautiful sentence construction, x-ray vision reading, year-long note accumulation |
 | `daniel-priestley` | **daniel-priestley** | demand engineering, ip mining, key person of influence, oversubscribed methodology, problem-aware positioning, stakes-based pricing |
 | `danny-yeung` | **Danny Yeung** | celebrity partnerships, dtc scaling, infrastructure pivots, subscription economics, velocity strategist |
-| `dara-denney` | **Dara Denney** | dtc creative strategy, meta ads performance creative, format archetype selection, david & goliath ads, yapper script architecture, objection-handling ads, format × messaging matrix testing, annual arbitrage hunting, partnership ads pipeline |
+| `dara-denney` | **dara-denney** | agent configuration, dtc-meta-ads |
 | `darrel-wilson` | **darrel-wilson** | ai-augmented affiliate marketing, digital revenue systems, flip the process, recurring revenue lock-in, system sales, utility-first affiliate architecture, warm lead philosophy |
 | `david-bayer` | **David Bayer** | approval independence, elite communication, friend coffee frame, grounded presence |
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
@@ -96,7 +96,7 @@
 | `nathan-gotch` | **nathan-gotch** | "what ai can't fake" filter, ai seo and retrieval layer optimization, brand narrative control, citation intelligence, measurement-first philosophy, retrieval layer positioning |
 | `nick-saraev` | **Nick Saraev** | agentic workflows, do framework, horizontal leverage, self-annealing systems |
 | `nicolas-cole` | **nicolas-cole** | digital product creation strategy, ghostwriting client acquisition, newsletter flywheel architecture, niche positioning, sentence-level writing optimization |
-| `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
+| `omar-eddaoudi` | **Omar Eddaoudi** | luxury branding psychology, perception hegemony, premium ads mastery, scaling operations (0→7 figures), unit economics, customer research stack, awareness pyramid scaling, visual composition physics, white space positioning, ad teardown methodology |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
 | `patrick-debois` | **patrick-debois** | ai-augmented engineering / context engineering / lifecycle architecture, distribution maturity diagnosis, honest skill quality classification, lifecycle thinking, observability loop closure, test-tier discipline |
@@ -135,6 +135,7 @@
 | `tom-noske` | **tom-noske** | and content creation methodology, creator business, personal brand monetization |
 | `tommy-clark` | **Tommy Clark: LinkedIn Growth & Founder-Led Content Master** | audience architecture, founder-led content master, interview extraction, linkedin growth, narrative pivoting, stealth hook engineering |
 | `tyler-denk` | **tyler-denk** | "one-of-one" narrative moat, audience monetization, compounding growth stack, founder-led growth, post-subscribe intelligence capture, the "automated authenticity" paradox, zero-cost referral lever |
+| `vince-nijhof` | **vince-nijhof** | agent, creative pod architecture, customer voice mining, dtc-operator-system, emotional angle engineering, foundation triad gating, guard-down vssl architecture, intent-first launch discipline, messaging-market fit, vssl ideation pipeline |
 | `vincent-hu` | **Vincent Hu** | agent, growth ecosystems, info business scaling, offer architecture |
 | `ward-farnsworth` | **ward-farnsworth** | agent configuration |
 | `wordsatscale` | **wordsatscale** | authority arbitrage, competition vacuum hunting, index velocity, lsi bypass, seo rapid ranking, speed-to-publish |
