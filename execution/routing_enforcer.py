@@ -108,6 +108,45 @@ BINDINGS = [
             "creation from raw input. Wrong direction = wrong tool."
         ),
     },
+    {
+        "id": "brand_operating_system",
+        "signal_phrases": [
+            "brand operating system",
+            "brand os",
+            " bos ",
+            "build a bos",
+            "build a complete brand system",
+            "full brand system for",
+            "resonance-style package",
+            "the kind of thing we built for andrea",
+            "creative briefs and business documents and ai handoff",
+            "6-layer brand",
+            "six-layer brand",
+        ],
+        "mandatory_workflow": "build-bos",
+        "forbidden_workflows": [
+            "brand-system-builder",
+            "design-md-synthesize",
+            "brand-library",
+        ],
+        "reason": (
+            "A complete Brand Operating System requires the orchestrated 7-phase "
+            "build (Discovery → Foundation → Visual → Briefs → Marketing → AI Handoff "
+            "→ Wrap) producing 43 docs across 6 layers. Single-component invocations "
+            "(brand-system-builder agent, design-md-synthesize, brand-library) are "
+            "Phase B/C components, not replacements for the orchestrated build. "
+            "Skipping the orchestration loses the master-creative-brief inheritance, "
+            "the AI Brain Master compression discipline, and the cross-phase quality "
+            "gates that catch structural bugs (Resonance had a CRITICAL file-numbering "
+            "bug that only Phase G1 adversarial review caught after 6 human reviews)."
+        ),
+        "override_flag": None,
+        "override_warning": (
+            "If the scope is genuinely a single layer (e.g., 'just make me a "
+            "DESIGN.md'), use the component skill directly — the binding only fires "
+            "when the request signals a complete BOS scope."
+        ),
+    },
 ]
 
 

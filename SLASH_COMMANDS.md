@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (401 Commands)
+# 🚀 Antigravity Workflows — Complete Index (436 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -137,6 +137,51 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/prevent-objection` | Pre-build objection prevention frames (identity, intention, necessity) |
 | `/psych-trigger` | Deploy psychological trigger sequences for sales, copy, presentations |
 | `/self-persuade` | Design self-persuasion question sequences where prospects convince themselves |
+
+---
+
+## 🧪 Perception Engineering & Behavioral Economics — Rory Sutherland (17)
+
+**Cross-Expert Stacks** (8) — Sutherland's perception substrate fused with other masters:
+| Command | What It Does |
+|---------|-------------|
+| `/perception-dominance-campaign` | Sutherland × Georgi × Iha × Dunford × Kallaway — Maximum-firepower 5-expert campaign architecture (positioning + insight + dopamine + retention) |
+| `/perception-dopamine-engine` | Sutherland × Stefan Georgi — Sales assets that sell a perception through dopamine architecture |
+| `/insight-perception-sprint` | Sutherland × Luke Iha — Perception-grounded insight vectors that exploit perceptual gaps |
+| `/positioning-perception-siege` | Sutherland × April Dunford — Market positions procurement can't compare and competitors can't copy |
+| `/addictive-perception-content` | Sutherland × Kallaway — Perception shifts delivered through neurochemical addiction loops |
+| `/consumer-perception-alchemy` | Sutherland × Dai Media — Brands that exist in the customer's felt experience of reality |
+| `/blind-spot-social-engine` | Sutherland × Kallaway × Iha — Social content that changes how audiences SEE, not just what they know |
+| `/behavioral-copy-audit` | Sutherland × Stefan Georgi × Iha — Three-lens copy forensics (perception × dopamine × insight) on existing copy |
+
+**Solo Sutherland** (9) — Behavioral economics applied to specific assets:
+| Command | What It Does |
+|---------|-------------|
+| `/reverse-benchmarking-audit` | Find differentiation by hunting what competitors neglect, not what they do well |
+| `/perception-metric-reframe` | Re-express price, speed, or performance metrics to change decisions without changing reality |
+| `/asymmetric-bet-evaluator` | Two-Way Door decision analysis — calculate whether arguing costs more than experimenting |
+| `/conspiratorial-reframe-engine` | Change behavior without being bossy. Churchill with the salt shaker, not the accuser with handcuffs |
+| `/alchemy-content-relationship-engine` | Long-term brand equity through storytelling, viral content, and behavioral nurturing |
+| `/behavioral-value-offer-architecture` | Structure offers to maximize perceived value and minimize transaction friction |
+| `/high-stakes-persuasion-copy-protocol` | Sales copy using costly signaling, trust physics, and behavioral proof |
+| `/psychological-brand-strategy-blueprint` | Redefine a brand's core value proposition using behavioral psychology to escape commodity competition |
+| `/psychological-conversion-funnel-design` | Optimize funnels by aligning the user journey with human decision-making heuristics |
+
+---
+
+## 💉 Dopamine Copywriting — Stefan Georgi (10)
+| Command | What It Does |
+|---------|-------------|
+| `/georgi-copy` | Dopamine Copy Engine — master copy generator using RMBC-derived dopamine architecture |
+| `/georgi-hook` | Dopamine Hook Forge — hooks engineered for retention spikes and curiosity escalation |
+| `/georgi-social` | Dopamine Social Engine — social posts architected for sustained attention loops |
+| `/georgi-emotion-map` | Emotion Mapping Engine — map every emotional beat in a piece of copy |
+| `/georgi-mechanism` | Mechanism Architect — build proprietary mechanisms with dopamine sequencing |
+| `/georgi-curiosity-loop` | Curiosity Loop Designer — open and close curiosity loops at architectural level |
+| `/georgi-paradox` | Paradox Generator — engineer dopamine spikes through paradox positioning |
+| `/georgi-nostalgia` | Nostalgia Lead Builder — lead generators using nostalgic emotional anchoring |
+| `/georgi-post-purchase` | Post-Purchase Dopamine Drip — retention sequences engineered for the post-sale window |
+| `/georgi-audit` | Dopamine Audit — score existing copy on dopamine architecture and emotional sequencing |
 
 ---
 
@@ -538,6 +583,12 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 ---
 
 ## 🎨 Design & Visual (26)
+
+### Brand Operating System — Universal Build (1) — *NEW 2026-05-05*
+Orchestrates 7-phase build (Discovery → Foundation → Visual → Briefs → Marketing → AI Handoff → Wrap) producing 43 docs across 6 layers, optionally auto-uploaded to Drive as native Google Docs in pageless format. Reference implementation: Resonance for Andrea (shipped 2026-05-04). See `skills/brand-operating-system/SKILL.md` and `directives/brand-operating-system-protocol.md`.
+| Command | What It Does |
+|---------|-------------|
+| `/build-bos` | Build a complete 6-layer Brand Operating System for any brand — `--source <doc>` (canonical-input mode) or `--discovery` (founder-interview mode) + `--name <Brand>` + `--output <path>` + optional `--drive-parent <id>` |
 
 ### DESIGN.md — Brand Systems as Code (10) — *NEW 2026-04-27*
 The DESIGN.md spec (Google Labs, Apr 21 2026) is the universal brand-system-as-code format. Workflows below cover authoring, extraction, validation, brand library, and forward-generation to working UI code. Routes via Creative Director agent.

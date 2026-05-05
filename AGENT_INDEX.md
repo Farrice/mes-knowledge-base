@@ -96,7 +96,7 @@
 | `nathan-gotch` | **nathan-gotch** | "what ai can't fake" filter, ai seo and retrieval layer optimization, brand narrative control, citation intelligence, measurement-first philosophy, retrieval layer positioning |
 | `nick-saraev` | **Nick Saraev** | agentic workflows, do framework, horizontal leverage, self-annealing systems |
 | `nicolas-cole` | **nicolas-cole** | digital product creation strategy, ghostwriting client acquisition, newsletter flywheel architecture, niche positioning, sentence-level writing optimization |
-| `omar-eddaoudi` | **Omar Eddaoudi** | luxury branding psychology, perception hegemony, premium ads mastery, scaling operations (0→7 figures), unit economics, customer research stack, awareness pyramid scaling, visual composition physics, white space positioning, ad teardown methodology |
+| `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
 | `patrick-debois` | **patrick-debois** | ai-augmented engineering / context engineering / lifecycle architecture, distribution maturity diagnosis, honest skill quality classification, lifecycle thinking, observability loop closure, test-tier discipline |

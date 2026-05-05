@@ -431,6 +431,75 @@ def batch_convert_and_upload(input_dir, folder_id=None, folder_name=None, parent
     return results
 
 
+def mirror_folders_and_upload(root_dir, drive_parent_id, dated_folder_name=None, exclude_dirs=None):
+    """Walk root_dir, mirror its subfolder structure into Drive, upload all .md files as native Google Docs.
+
+    Built for the Brand Operating System (BOS) build pipeline — preserves the 6-layer
+    folder structure (00-foundation, 01-visual, etc.) when uploading.
+
+    Args:
+        root_dir: Local directory containing the layer subfolders (e.g., projects/<client>/brand-operating-system/)
+        drive_parent_id: Drive folder ID where the dated subfolder gets created
+        dated_folder_name: If provided, creates an intermediate dated folder; otherwise uploads directly into drive_parent_id
+        exclude_dirs: Set of subfolder names to skip (default: {'_working'})
+    """
+    root_dir = Path(root_dir)
+    if exclude_dirs is None:
+        exclude_dirs = {'_working'}
+
+    if not root_dir.is_dir():
+        print(f"Error: {root_dir} is not a directory")
+        return []
+
+    # Step 1: Create the dated folder under drive_parent_id (if requested)
+    if dated_folder_name:
+        target_root_id = gws_create_folder(dated_folder_name, drive_parent_id)
+        if not target_root_id:
+            print("Failed to create dated folder. Aborting.")
+            return []
+    else:
+        target_root_id = drive_parent_id
+
+    # Step 2: Discover all subfolders containing .md files
+    subfolders = []
+    for entry in sorted(root_dir.iterdir()):
+        if not entry.is_dir():
+            continue
+        if entry.name in exclude_dirs:
+            print(f"  ⊘ Skipping {entry.name} (excluded)")
+            continue
+        if any(entry.glob('*.md')):
+            subfolders.append(entry)
+
+    # Also check for .md files in the root itself (non-subfolder docs like README.md)
+    root_md_files = [f for f in sorted(root_dir.glob('*.md')) if f.is_file()]
+
+    print(f"\nMirroring {len(subfolders)} subfolders + {len(root_md_files)} root files into Drive\n")
+
+    # Step 3: Create matching Drive subfolder + upload .md files for each
+    all_results = []
+    for subfolder in subfolders:
+        print(f"\n→ {subfolder.name}/")
+        subfolder_id = gws_create_folder(subfolder.name, target_root_id)
+        if not subfolder_id:
+            print(f"  ⚠ Failed to create Drive subfolder for {subfolder.name}, skipping uploads")
+            continue
+        results = batch_convert_and_upload(subfolder, folder_id=subfolder_id)
+        all_results.extend(results)
+
+    # Step 4: Upload root-level .md files (if any)
+    if root_md_files:
+        print(f"\n→ (root)")
+        for md_file in root_md_files:
+            result = convert_and_upload(md_file, folder_id=target_root_id)
+            if result:
+                all_results.append(result)
+
+    print(f"\n✅ Mirror complete: {len(all_results)} total files uploaded as native Google Docs")
+    print(f"📁 Root folder: https://drive.google.com/drive/folders/{target_root_id}")
+    return all_results
+
+
 def save_html_locally(input_dir, output_dir=None):
     """Convert markdown to HTML and save locally (for testing without Drive)."""
     input_dir = Path(input_dir)
@@ -468,11 +537,30 @@ if __name__ == '__main__':
     parser.add_argument('--parent-id', help='Parent folder ID for new folder')
     parser.add_argument('--name', help='Document title (overrides auto-generated name)')
     parser.add_argument('--html-only', action='store_true', help='Save as HTML locally (no upload)')
+    parser.add_argument('--mirror-folders', action='store_true',
+                        help='Walk input dir and mirror subfolder structure into Drive (BOS build pipeline)')
+    parser.add_argument('--drive-parent', help='Drive parent folder ID (alias for --parent-id when used with --mirror-folders)')
+    parser.add_argument('--exclude-dirs', help='Comma-separated list of subfolder names to skip when mirroring (default: _working)')
 
     args = parser.parse_args()
     input_path = Path(args.input)
 
-    if args.html_only:
+    if args.mirror_folders:
+        if not input_path.is_dir():
+            print(f"Error: --mirror-folders requires a directory, got {input_path}")
+            sys.exit(1)
+        drive_parent = args.drive_parent or args.parent_id or args.folder_id
+        if not drive_parent:
+            print("Error: --mirror-folders requires --drive-parent (or --parent-id / --folder-id)")
+            sys.exit(1)
+        exclude = set((args.exclude_dirs or '_working').split(','))
+        mirror_folders_and_upload(
+            input_path,
+            drive_parent_id=drive_parent,
+            dated_folder_name=args.create_folder,
+            exclude_dirs=exclude,
+        )
+    elif args.html_only:
         if input_path.is_dir():
             save_html_locally(input_path)
         else:

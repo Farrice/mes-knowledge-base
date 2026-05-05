@@ -27,6 +27,7 @@
 | `boris-claude-code` | **Boris Claude Code** | ai-augmented productivity systems using claude code and claude cowork | 4 | 21 |
 | `brad-bonanno-explainer-architecture` | **Brad Bonanno — Explainer-Video Architecture** | explainer-video architecture | 4 | 0 |
 | `brand-guidelines` | **brand-guidelines** |  | 0 | 0 |
+| `brand-operating-system` | **brand-operating-system** | optional auto-upload to drive as native google docs in pageless format, reference implementation: resonance for andrea (shipped 2026-05-04), 6-layer build | 7 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** |  | 3 | 10 |
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** |  | 11 | 19 |
@@ -167,7 +168,7 @@
 | `ocean-vuong-perceptual-writing` | **Ocean Vuong Perceptual Writing** |  | 12 | 0 |
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
-| `omar-eddaoudi-scaling-ops` | **Omar Eddaoudi: Scaling Ops** | unit economics, customer research stack, avatar trigger map, static composition, ad teardown, white space positioning, launch portfolio, awareness pyramid audit | 10 | 0 |
+| `omar-eddaoudi-scaling-ops` | **Omar Eddaoudi: Scaling Ops** | scaling ops (module 3) | 10 | 0 |
 | `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | personal brand business architect | 4 | 0 |
 | `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | brand social media archetypes | 0 | 0 |
 | `oren-content-team-architecture` | **Oren — Content-Team Architecture** | content-team architecture | 12 | 0 |
