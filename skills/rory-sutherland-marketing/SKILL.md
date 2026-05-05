@@ -3,7 +3,7 @@ name: "Rory Sutherland: Marketing Psychology Mastery"
 description: "Rory Sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture, value perception, reverse benchmarking, perception engineering, and asymmetric bet evaluation. Cross-expert stacking with Georgi, Iha, Dunford, Kallaway, and Dai Media for full-spectrum marketing dominance."
 version: "4.0"
 format: "completion-engine"
-workflows: 16
+workflows: 17
 ---
 
 # Rory Sutherland: Marketing Psychology Mastery

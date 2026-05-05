@@ -103,3 +103,7 @@
 - `[2026-05-03 14:32]` **finalize** | Satori Graphics — post-adversarial-review fixes (LIFT attribution + poster-think rewrite + AI-tell s | general | satori-graphics — composite:9.0 status:Keep
 - `[2026-05-03 14:33]` **finalize** | Dara Denney — DTC Meta Ads Creative Strategy extraction | general | dara-denney — composite:8.0 status:Keep
 - `[2026-05-03 14:33]` **ingest** | Dara Denney — DTC Meta Ads Creative Strategy extraction | dtc-meta-ads | dara-denney — 5 workflows, 10 genius patterns, 9 hidden knowledge insights, 8-archetype format library
+- `[2026-05-04 07:41]` **finalize** | Vince Nijhof — DTC operator/portfolio CEO mastery extraction (forge): 14 workflows + 4 references +  | general | vince-nijhof — composite:8.0 status:Keep
+- `[2026-05-04 10:56]` **finalize** | LinkedIn classic post — 'My AI told me everything was 9/10 for 8 days.' Hybrid Parallax-methodology  | content | lara-acosta — composite:8.7 status:Keep
+- `[2026-05-04 13:19]` **finalize** | Resonance Brand Operating System v1 — 43 docs across 6 layers (Foundation, Visual, Briefs, Marketing | general | brand-system-builder — composite:8.3 status:Keep
+- `[2026-05-05 01:53]` **finalize** | Omar Eddaoudi Module 3 — Scaling Ops mastery extraction (forge): 17 genius patterns, 4 HOF exemplars | general | omar-eddaoudi — composite:8.7 status:Keep
