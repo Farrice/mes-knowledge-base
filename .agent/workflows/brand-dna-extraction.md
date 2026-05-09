@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/brand-dna-extraction.md
+../../skills/jack-roberts-design-mastery/workflows/brand-dna-extraction.md

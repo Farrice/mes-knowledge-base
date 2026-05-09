@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland — Calculate whether arguing costs more than experimenting. Two-Way Door decision analysis"
+---
+
 # /asymmetric-bet-evaluator
 
 > Rory Sutherland — Calculate whether arguing costs more than experimenting. Two-Way Door decision analysis.

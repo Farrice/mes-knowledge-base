@@ -2,7 +2,7 @@
 name: "Hole Frame — Copy That Names the Audience's Perceived Hole AND the Lie of Filling It from Outside"
 produces: "Aspirational/info-product copy that operates ethically — naming the reader's perceived inner-hole, explicitly distinguishing it from external solutions, and offering only what the product actually delivers"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md, references/source-quotes.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md, sean-macintyre-persuasion-philosophy/references/source-quotes.md"
 ---
 
 # Sean Macintyre — Hole Frame

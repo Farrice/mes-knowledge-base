@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland — Re-express price, speed, or performance metrics to change decisions without changing reality"
+---
+
 # /perception-metric-reframe
 
 > Rory Sutherland — Re-express price, speed, or performance metrics to change decisions without changing reality.

@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/visual-proposal-build.md
+../../skills/jack-roberts-design-mastery/workflows/visual-proposal-build.md

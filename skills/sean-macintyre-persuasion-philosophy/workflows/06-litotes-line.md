@@ -2,7 +2,7 @@
 name: "Litotes Line — Engineer Rhetorical-Understatement Lines That Flip Big Claims into Entertaining Hooks"
 produces: "5-15 candidate lines using litotes (rhetorical understatement) to render large claims as casual asides, scored and ranked"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md"
 ---
 
 # Sean Macintyre — Litotes Line

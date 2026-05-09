@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland — Find differentiation by hunting what competitors neglect, not what they do well"
+---
+
 # /reverse-benchmarking-audit
 
 > Rory Sutherland — Find differentiation by hunting what competitors neglect, not what they do well.

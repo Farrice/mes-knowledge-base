@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland × Stefan Georgi × Luke Iha — Three-lens copy forensics (perception, dopamine, insight)"
+---
+
 # /behavioral-copy-audit
 
 > Rory Sutherland × Stefan Georgi × Luke Iha — Three-lens copy forensics.

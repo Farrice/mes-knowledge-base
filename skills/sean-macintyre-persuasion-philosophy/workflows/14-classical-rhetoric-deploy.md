@@ -2,7 +2,7 @@
 name: "Classical Rhetoric Deploy — Systematic Deployment of Ancient Rhetorical Figures in Modern Copy"
 produces: "Multi-figure rhetorical-rich rewrite of any copy passage, with each deployed figure named, justified, and three-vector verified"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md (Greek Rhetoric section)"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md (Greek Rhetoric section)"
 ---
 
 # Sean Macintyre — Classical Rhetoric Deploy

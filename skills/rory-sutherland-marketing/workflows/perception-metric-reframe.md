@@ -1,7 +1,7 @@
 name: "Perception Metric Reframe"
 produces: "Paceometer Analysis + Alternative Metric Expressions + Decision-Shifting Presentation"
 expert: "Rory Sutherland: Marketing Psychology Mastery"
-load_context: "genius.md"
+load_context: "rory-sutherland-marketing/genius.md"
 
 # Rory Sutherland: Marketing Psychology Mastery — Perception Metric Reframe
 

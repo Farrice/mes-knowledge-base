@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland × Kallaway × Luke Iha — Social content that changes how audiences SEE, not what they know"
+---
+
 # /blind-spot-social-engine
 
 > Rory Sutherland × Kallaway × Luke Iha — Social content that changes how audiences SEE.

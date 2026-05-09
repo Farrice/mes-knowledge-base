@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland × Stefan Georgi — Sales assets that sell a perception through dopamine architecture"
+---
+
 # /perception-dopamine-engine
 
 > Rory Sutherland × Stefan Georgi — Sales assets that sell a perception through dopamine architecture.

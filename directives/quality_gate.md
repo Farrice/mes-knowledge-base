@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-05-05 (chain_runner finalize for omar-eddaoudi-scaling-ops) |
-| **Activation Count** | 191 |
+| **Last Activated** | 2026-05-08 (chain_runner finalize for oren-brand-archetypes) |
+| **Activation Count** | 194 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

@@ -1,3 +1,7 @@
+---
+description: "5-expert simultaneous orchestration — maximum firepower perception engineering campaign"
+---
+
 # /perception-dominance-campaign
 
 > Rory Sutherland × Georgi × Iha × Dunford × Kallaway — Maximum-firepower marketing campaign.

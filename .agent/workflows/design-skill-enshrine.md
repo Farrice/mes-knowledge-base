@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/design-skill-enshrine.md
+../../skills/jack-roberts-design-mastery/workflows/design-skill-enshrine.md

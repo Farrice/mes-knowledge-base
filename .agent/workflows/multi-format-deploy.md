@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/multi-format-deploy.md
+../../skills/jack-roberts-design-mastery/workflows/multi-format-deploy.md

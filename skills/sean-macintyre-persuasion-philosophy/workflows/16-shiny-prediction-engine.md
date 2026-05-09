@@ -2,7 +2,7 @@
 name: "Shiny Prediction Engine — Predict the Next Marketing Rebrand Before It Peaks"
 produces: "Genealogy-based prediction of the next 'creative strategy → quantum marketing → money models' rebrand likely to dominate the next 6-24 months + offensive/defensive positioning options"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md"
 ---
 
 # Sean Macintyre — Shiny Prediction Engine

@@ -130,4 +130,4 @@ WIZARD OF OZ AUDIT:
 | `/storybrand` | Promise becomes the story's resolution |
 | `/taste-declare` | Promise calibrated against taste identity |
 | `/icp-build` | Promise aligned to ICP's actual hiring criteria |
-| `/dai-media` consumer posture | Promise mapped to consumer's identity dimensions |
+| `/consumer-posture-profile` | Promise mapped to consumer's identity dimensions (Dai Media framework) |

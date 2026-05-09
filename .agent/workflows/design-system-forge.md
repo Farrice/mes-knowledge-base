@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/design-system-forge.md
+../../skills/jack-roberts-design-mastery/workflows/design-system-forge.md

@@ -1,7 +1,7 @@
 name: "Conspiratorial Reframe Engine"
 produces: "Behavioral Change Communications + Compliance-Without-Confrontation Copy"
 expert: "Rory Sutherland: Marketing Psychology Mastery"
-load_context: "genius.md"
+load_context: "rory-sutherland-marketing/genius.md"
 
 # Rory Sutherland: Marketing Psychology Mastery — Conspiratorial Reframe Engine
 
@@ -118,4 +118,4 @@ Score each deliverable:
 - **→ Joanna Wiebe** (`/persuasion-copy`): Apply the 5-Level Persuasion Hierarchy to the reframed copy.
 - **→ Kallaway** (`/bankshot-suggestion-engine`): Transform direct behavioral requests into indirect suggestion sequences.
 - **→ Dr. K** (`/drk-emotional`): For high-stakes interpersonal reframes, process the emotional substrate before engineering the communication.
-- **→ Tim Runia** (`/story-compass-diagnostic`): Ensure the reframed communication has narrative tension — the audience needs to feel the want/tension/change, not just receive instructions.
+- **→ Tim Runia** (`/runia-tension-dig`): Ensure the reframed communication has narrative tension — the audience needs to feel the want/tension/change, not just receive instructions.

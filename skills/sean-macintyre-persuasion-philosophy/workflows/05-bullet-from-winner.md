@@ -2,7 +2,7 @@
 name: "Bullet From Winner — Generate Promo Bullets from Previously-Winning Headlines"
 produces: "10-30 fascination bullets sourced from previously-winning promo headlines, scored and stack-ordered for a target promo"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/source-quotes.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/source-quotes.md"
 ---
 
 # Sean Macintyre — Bullet From Winner

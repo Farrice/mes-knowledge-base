@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland — Change behavior without being bossy. Conspiratorial reframing for compliance and persuasion"
+---
+
 # /conspiratorial-reframe-engine
 
 > Rory Sutherland — Change behavior without being bossy. Churchill with the salt shaker, not the accuser with handcuffs.

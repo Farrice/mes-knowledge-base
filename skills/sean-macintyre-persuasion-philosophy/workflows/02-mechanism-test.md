@@ -2,7 +2,7 @@
 name: "Mechanism Test — Substance vs. Fluff Pressure-Test"
 produces: "Substance score (0-10) for any claimed mechanism + dig-test simulation + rebuild path if mechanism fails"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/source-quotes.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/source-quotes.md"
 ---
 
 # Sean Macintyre — Mechanism Test

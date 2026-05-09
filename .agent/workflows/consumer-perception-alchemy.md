@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland × Dai Media — Brands that exist in the customer's felt experience of reality"
+---
+
 # /consumer-perception-alchemy
 
 > Rory Sutherland × Dai Media — Brands that exist in the customer's felt experience of reality.

@@ -2,7 +2,7 @@
 name: "Local-Maxima Flywheel — Career-Trajectory Diagnostic Before Doubling Down on Authority Flywheel"
 produces: "Honest classification of current career/business position (local maximum exploiting / local maximum plateaued / global-bound exploring) + Authority Flywheel deployment recommendation"
 expert: "Sean Macintyre × Authority Flywheel"
-load_context: "genius.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md"
 stacks_with: "skills/authority-flywheel"
 ---
 

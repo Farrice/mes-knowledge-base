@@ -2,7 +2,7 @@
 name: "Adherence Protocol — Discipline-Motivation-Habit Scaffold for Copywriting Practice"
 produces: "Personalized 90-day practice protocol with oscillation triggers, habit formation milestones, and failure-mode interventions"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md"
 ---
 
 # Sean Macintyre — Adherence Protocol

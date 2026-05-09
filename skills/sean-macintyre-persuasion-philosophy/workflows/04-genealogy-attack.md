@@ -2,7 +2,7 @@
 name: "Genealogy Attack — Trace Any 'New' Persuasion Idea to Its Real Source"
 produces: "Lineage trace for any claimed 'new' persuasion concept + recovered original mechanism + guru-fakery score"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md"
 ---
 
 # Sean Macintyre — Genealogy Attack

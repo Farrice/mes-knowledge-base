@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland × Luke Iha — Perception-grounded insight vectors that exploit perceptual gaps"
+---
+
 # /insight-perception-sprint
 
 > Rory Sutherland × Luke Iha — Perception-grounded insight vectors that exploit perceptual gaps.

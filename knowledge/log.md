@@ -107,3 +107,6 @@
 - `[2026-05-04 10:56]` **finalize** | LinkedIn classic post — 'My AI told me everything was 9/10 for 8 days.' Hybrid Parallax-methodology  | content | lara-acosta — composite:8.7 status:Keep
 - `[2026-05-04 13:19]` **finalize** | Resonance Brand Operating System v1 — 43 docs across 6 layers (Foundation, Visual, Briefs, Marketing | general | brand-system-builder — composite:8.3 status:Keep
 - `[2026-05-05 01:53]` **finalize** | Omar Eddaoudi Module 3 — Scaling Ops mastery extraction (forge): 17 genius patterns, 4 HOF exemplars | general | omar-eddaoudi — composite:8.7 status:Keep
+- `[2026-05-05 14:41]` **finalize** | Codified Brand Operating System v1 — Reusable Build | brand | brand-system-builder — composite:8.7 status:Keep
+- `[2026-05-07 06:19]` **finalize** | Listing content package for 5421 Bothwell Rd Tarzana — MLS description + brochure + 6 Reels hooks +  | content | jen-santulan — composite:7.0 status:Keep
+- `[2026-05-08 15:41]` **finalize** | Oracle Architecture Stack — Farrice (7-workflow chain: oracle funnel + two-account + revenue bridge  | brand | oren — composite:8.7 status:Keep

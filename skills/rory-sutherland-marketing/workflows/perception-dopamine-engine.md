@@ -94,5 +94,5 @@ Score the finished asset against both expert rubrics.
 
 ## Cross-Expert Stacking
 - **→ Luke Iha** (`/insight-vectors`): Generate insight vectors from the perception blueprint to create 10+ downstream content angles.
-- **→ Kallaway** (`/neuro-chemical-scripting`): If deploying as video, run the perception through Kallaway's retention architecture.
+- **→ Kallaway** (`/addictive-perception-content`): If deploying as video, run the perception through Kallaway's retention architecture (Sutherland × Kallaway addiction loops).
 - **→ April Dunford** (`/dunford-positioning-diagnostic`): Validate that the reframed perception maps to a defensible market category.

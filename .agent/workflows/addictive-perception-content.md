@@ -1,3 +1,7 @@
+---
+description: "Rory Sutherland × Kallaway — Perception shifts delivered through neurochemical addiction loops"
+---
+
 # /addictive-perception-content
 
 > Rory Sutherland × Kallaway — Perception shifts delivered through neurochemical addiction loops.

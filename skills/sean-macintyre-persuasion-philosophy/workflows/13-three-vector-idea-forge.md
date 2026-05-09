@@ -2,7 +2,7 @@
 name: "Three-Vector Idea Forge — Engineer Ideas That Hit Emotionally + Intellectually + Personally Simultaneously"
 produces: "5-10 candidate ideas scored on the three-vector standard, with the top 1-2 promoted to evergreen-control candidates (the 'Last Bull Market' pattern)"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/source-quotes.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/source-quotes.md"
 ---
 
 # Sean Macintyre — Three-Vector Idea Forge

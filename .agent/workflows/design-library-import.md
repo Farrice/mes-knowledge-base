@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/design-library-import.md
+../../skills/jack-roberts-design-mastery/workflows/design-library-import.md

@@ -2,7 +2,7 @@
 name: "Armor + Iha Proof — Audience-Armor-Matched Proof Ladder"
 produces: "Audience-state-matched proof ladder where each rung is selected to address the specific armor state's resistance pattern (not a generic ladder applied uniformly)"
 expert: "Sean Macintyre × Luke Iha"
-load_context: "genius.md, references/awareness-armor-map.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/awareness-armor-map.md"
 stacks_with: "skills/luke-iha-* (proof ladder skills)"
 ---
 

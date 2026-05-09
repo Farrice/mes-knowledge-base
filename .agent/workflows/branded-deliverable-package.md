@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/branded-deliverable-package.md
+../../skills/jack-roberts-design-mastery/workflows/branded-deliverable-package.md

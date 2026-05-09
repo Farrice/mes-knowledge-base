@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/presentation-build.md
+../../skills/jack-roberts-design-mastery/workflows/presentation-build.md

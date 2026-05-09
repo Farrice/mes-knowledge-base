@@ -2,7 +2,7 @@
 name: "Deutsch + Wright Residue — Cross-Domain Analogy → Memorable Line / Residue Moment"
 produces: "Cross-domain analogy mined from a non-copywriting field, transformed into a Wright-quality residue moment (a memorable line that stays after the piece ends)"
 expert: "Sean Macintyre × Wright (theme/residue/detail skills)"
-load_context: "genius.md, references/cross-domain-models.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md"
 stacks_with: "skills/wright-* (theme, residue, detail, hammer, scene, complication)"
 ---
 

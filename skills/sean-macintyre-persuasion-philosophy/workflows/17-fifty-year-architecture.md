@@ -2,7 +2,7 @@
 name: "Fifty-Year Architecture — Sustainable Copywriting/Marketing Career Design (the Mark Ford Model)"
 produces: "Complete personal architecture for a 50-year copywriting/marketing/entrepreneurship career: ethics frame + cross-pollination cadence + local/global maxima triggers + hedonic-treadmill inoculation + sustainable-pleasure portfolio + meaning anchor"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md, references/source-quotes.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md, sean-macintyre-persuasion-philosophy/references/source-quotes.md"
 ---
 
 # Sean Macintyre — Fifty-Year Architecture

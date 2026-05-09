@@ -2,7 +2,7 @@
 name: "Armor Diagnose — Audience Awareness-Armor Classification"
 produces: "Audience awareness-armor state (State 1: Problem-Aware / State 2: Defended / State 3: Apathetic) + sub-state + tool prescription + anti-tool warnings"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/awareness-armor-map.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/awareness-armor-map.md"
 ---
 
 # Sean Macintyre — Armor Diagnose

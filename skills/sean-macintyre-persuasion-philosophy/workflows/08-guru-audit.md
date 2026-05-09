@@ -2,7 +2,7 @@
 name: "Guru Audit — Diagnostic of a Coach / Course / Program for Fakery Signals"
 produces: "Multi-dimensional fakery score for any coach/course/program + specific evidence + go/no-go recommendation"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/source-quotes.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/source-quotes.md"
 ---
 
 # Sean Macintyre — Guru Audit

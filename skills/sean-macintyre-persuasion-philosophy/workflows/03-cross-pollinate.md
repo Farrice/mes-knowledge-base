@@ -2,7 +2,7 @@
 name: "Cross-Pollinate — Solve Stuck Copy via Cross-Domain Mining"
 produces: "A specific cross-domain frame applied to a stuck copy problem, with the resulting copy decision named"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/cross-domain-models.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/cross-domain-models.md"
 ---
 
 # Sean Macintyre — Cross-Pollinate

@@ -2,7 +2,7 @@
 name: "Post-Hook Architecture — The 65 Pages After the Hook"
 produces: "Complete architectural plan for the back of any long-form piece (sales letter, VSL, book promo, evergreen lead) — mechanism deepening, proof cycling, emotional valves, objection pre-positioning, and close — keyed to audience-state transitions"
 expert: "Sean Macintyre"
-load_context: "genius.md, references/awareness-armor-map.md"
+load_context: "sean-macintyre-persuasion-philosophy/genius.md, sean-macintyre-persuasion-philosophy/references/awareness-armor-map.md"
 ---
 
 # Sean Macintyre — Post-Hook Architecture

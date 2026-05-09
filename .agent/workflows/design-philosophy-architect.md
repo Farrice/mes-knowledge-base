@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/design-philosophy-architect.md
+../../skills/jack-roberts-design-mastery/workflows/design-philosophy-architect.md

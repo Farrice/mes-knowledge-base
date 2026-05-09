@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/design-iteration-loop.md
+../../skills/jack-roberts-design-mastery/workflows/design-iteration-loop.md

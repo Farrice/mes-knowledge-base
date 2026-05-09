@@ -143,4 +143,4 @@ SUMMER INTERN BOUNDARIES:
 | `/godin-brand-promise` | AI deepens the specific promise, not generic service |
 | `/ai-brain` | AI Brain architecture designed with permission-first philosophy |
 | `/godin-better-not-louder` | AI serves the Gajist number, not infinite scale |
-| `/nathan-gotch` AI SEO | AI retrieval optimization + AI permission = full AI strategy |
+| `/jensen-gotch-retrieval` | AI retrieval optimization + AI permission = full AI strategy |

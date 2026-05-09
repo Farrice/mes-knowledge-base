@@ -1,7 +1,7 @@
 name: "Asymmetric Bet Evaluator"
 produces: "Two-Way Door Assessment + Experiment Portfolio + Risk-Reward Matrix"
 expert: "Rory Sutherland: Marketing Psychology Mastery"
-load_context: "genius.md"
+load_context: "rory-sutherland-marketing/genius.md"
 
 # Rory Sutherland: Marketing Psychology Mastery — Asymmetric Bet Evaluator
 
@@ -108,5 +108,5 @@ Score each deliverable:
 
 ## Cross-Expert Stacking
 - **→ Sharran Srivatsaa** (`/decision-map`): Run high-stakes one-way door decisions through Sharran's 4-step Decision Mapping Method.
-- **→ Danny Yeung** (`/constraint`): Identify whether the debate bottleneck is itself the constraint limiting business velocity.
-- **→ Tim Runia** (`/story-compass-diagnostic`): If the initiative requires internal buy-in, diagnose whether the pitch has narrative tension (Want → Tension → Change) to move stakeholders past fear.
+- **→ Danny Yeung** (`/velocity-constraint`): Identify whether the debate bottleneck is itself the constraint limiting business velocity.
+- **→ Tim Runia** (`/runia-tension-dig`): If the initiative requires internal buy-in, diagnose whether the pitch has narrative tension (Want → Tension → Change) to move stakeholders past fear.

@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/website-build.md
+../../skills/jack-roberts-design-mastery/workflows/website-build.md

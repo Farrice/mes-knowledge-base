@@ -234,6 +234,8 @@ Specific language that signals "I'm one of you" without excluding anyone else.
 
 **Creative Arsenal**: 60+ tribal triggers across 5 interest areas | 15+ combination stacks | 20 integration scripts with inclusion insurance | 26 interest-stacked hook formulas
 
+**Thought-Bank** (capture → categorize → feed content): `_active/farrice-brand/thought-bank/` — personal ideation + voice bank. Raw thoughts land in `inbox/<date>.md` (verbatim, voice-preserved). Themes mapped to the Interest Stack above + cross-cutting POV themes (parenting-as-marketing, empathy-vs-manipulation, presence-vs-screens). Hooks in `hooks-bank.md`; voice rules in `pov-anchors.md`. Index at `INDEX.md`. Feeds `daily-flywheel`, `voice-first-content`, `parallax --quick`, `serial-arc` workflows. **No new slash command — Farrice dumps in conversation; Claude routes.** See `_active/farrice-brand/thought-bank/README.md` for the operating loop.
+
 ---
 
 ### PREFERENCES & TENDENCIES

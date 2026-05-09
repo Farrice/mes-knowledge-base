@@ -139,8 +139,8 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-05-05 (chain_runner finalize for omar-eddaoudi-scaling-ops) |
-| **Activation Count** | 203 |
+| **Last Activated** | 2026-05-08 (chain_runner finalize for oren-brand-archetypes) |
+| **Activation Count** | 206 |
 
 **Phase 2**: ✅ ACTIVATED (2026-03-30, 123 entries). Run `/skill-evolution` after shipping sessions.
 **Phase 3**: ✅ ACTIVATED (2026-03-30). Cross-pollinated adversarial resilience to 5 skills.

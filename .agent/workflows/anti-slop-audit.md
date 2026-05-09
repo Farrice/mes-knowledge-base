@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/anti-slop-audit.md
+../../skills/jack-roberts-design-mastery/workflows/anti-slop-audit.md

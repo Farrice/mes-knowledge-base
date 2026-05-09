@@ -67,4 +67,4 @@ Score: Pass/Fail per attack + remediation if Fail.
 ## Cross-Expert Stacking
 - **→ Georgi** (`/perception-dopamine-engine`): Full dopamine sales asset from armored position.
 - **→ Iha** (`/insight-perception-sprint`): Perception-grounded insight vectors for content.
-- **→ Kallaway** (`/hook-engineering-matrix`): Weaponize Paceometer metrics as scroll-stopping hooks.
+- **→ Kallaway** (`/hook-forge`): Weaponize Paceometer metrics as scroll-stopping hooks.

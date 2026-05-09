@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/reference-collection-sprint.md
+../../skills/jack-roberts-design-mastery/workflows/reference-collection-sprint.md

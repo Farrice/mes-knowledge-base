@@ -1,7 +1,7 @@
 name: "Reverse Benchmarking Audit"
 produces: "Competitive Blind Spot Map + Signature Obsession Blueprint"
 expert: "Rory Sutherland: Marketing Psychology Mastery"
-load_context: "genius.md"
+load_context: "rory-sutherland-marketing/genius.md"
 
 # Rory Sutherland: Marketing Psychology Mastery — Reverse Benchmarking Audit
 

@@ -1,1 +1,1 @@
-../skills/jack-roberts-design-mastery/workflows/brand-in-a-box.md
+../../skills/jack-roberts-design-mastery/workflows/brand-in-a-box.md

@@ -141,7 +141,7 @@ PSYCHOLOGICAL CURRENCY:
 
 | Stack With | Compound Effect |
 |-----------|----------------|
-| `/ideavirus-architect` | Remarkability feeds into full viral system design |
-| `/sneezer-activation` | Remarkable thing given to right spreaders |
+| `/grace-post-viral` | Remarkability tested against post-viral response architecture |
+| `/runia-to-viral` | Remarkable thing optimized for viral mechanics (Runia framework) |
 | `/obsession-level-architect` | Remarkability mapped to obsession level escalation |
 | `/phase-transition` | Find the spark that makes remarkability tip |
