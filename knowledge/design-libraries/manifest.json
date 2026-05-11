@@ -65,78 +65,78 @@
   {
     "slug": "coinbase",
     "name": "Coinbase",
-    "description": "Coinbase's website is a clean, trustworthy crypto platform that communicates financial reliability through a blue-and-white binary palette. The design uses Coinbase Blue (`#0052ff`) \u2014 a deep, saturated blue \u2014 as the singular brand accent against white and near-black surfaces. The proprietary font fa",
-    "format": "legacy-prose",
+    "description": "An institutional-grade crypto exchange whose marketing surfaces read like a quietly-confident financial-services brand. The base canvas is pure white; Coinbase Blue (`#0052ff`) is the single brand voltage, used scarcely on primary CTAs, signature glyphs, and inline accent moments. Type runs Coinbase",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/coinbase/DESIGN.md"
   },
   {
     "slug": "composio",
     "name": "Composio",
-    "description": "Composio's interface is a nocturnal command center \u2014 a dense, developer-focused darkness punctuated by electric cyan and deep cobalt signals. The entire experience is built on an almost-pure-black canvas (`#0f0f0f`) where content floats within barely-visible containment borders, creating the feeling",
-    "format": "legacy-prose",
+    "description": "A developer-tools brand for AI-agent tool integration whose marketing surfaces lean into a dark, technical aesthetic with a single deep-electric-blue voltage (`#0007cd`). The page floor is near-black (`#0f0f0f`); cards float above on subtle gray-tinted surfaces. abcDiatype carries display and body i",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/composio/DESIGN.md"
   },
   {
     "slug": "cursor",
     "name": "Cursor",
-    "description": "Cursor's website is a study in warm minimalism meets code-editor elegance. The entire experience is built on a warm off-white canvas (`#f2f1ed`) with dark warm-brown text (`#26251e`) -- not pure black, not neutral gray, but a deeply warm near-black with a yellowish undertone that evokes old paper, i",
-    "format": "legacy-prose",
+    "description": "An AI-first code editor whose marketing site reads like a quietly-confident developer-tools brand with a warm-cream editorial canvas (`#f7f7f4`) instead of the typical dark IDE atmosphere. Near-black warm ink (`#26251e`) carries body and display alike \u2014 display sits at weight 400 with negative lette",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/cursor/DESIGN.md"
   },
   {
     "slug": "elevenlabs",
     "name": "ElevenLabs",
-    "description": "ElevenLabs' website is a study in restrained elegance \u2014 a near-white canvas (`#ffffff`, `#f5f5f5`) where typography and subtle shadows do all the heavy lifting. The design feels like a premium audio product brochure: clean, spacious, and confident enough to let the content speak (literally, given El",
-    "format": "legacy-prose",
+    "description": "A voice-AI brand whose marketing surfaces read like a quietly editorial print magazine. The base canvas is off-white (`#f5f5f5`) holding warm near-black ink (`#292524`); the brand voltage is photographic, not chromatic \u2014 soft pastel atmospheric gradient orbs (mint \u2192 peach \u2192 lavender \u2192 sky) drift thr",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/elevenlabs/DESIGN.md"
   },
   {
     "slug": "expo",
     "name": "Expo",
-    "description": "Expo's interface is a luminous, confidence-radiating developer platform built on the premise that tools for building apps should feel as polished as the apps themselves. The entire experience lives on a bright, airy canvas \u2014 a cool-tinted off-white (`#f0f0f3`) that gives the page a subtle technologi",
-    "format": "legacy-prose",
+    "description": "A React Native developer-platform whose marketing site reads like a quietly-confident infrastructure brand. The base canvas is pure white with a soft sky-blue gradient atmospheric wash behind the hero; near-black ink (`#171717`) carries body and display alike. The single brand voltage is **pure blac",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/expo/DESIGN.md"
   },
   {
     "slug": "ferrari",
     "name": "Ferrari",
-    "description": "Ferrari's website is a digital editorial \u2014 a curated magazine where the Prancing Horse brand is presented with the gravitas of an art institution and the precision of Italian coachwork. The page opens onto an expanse of absolute black, broken only by the iconic Prancing Horse emblem floating alone i",
-    "format": "legacy-prose",
+    "description": "A luxury-automotive brand whose marketing surfaces read as cinematic editorial. The base canvas is **near-black** (`#181818`) holding pure white display type; white-canvas bands appear only inside specific editorial contexts (preowned listings, pricing tables). The single brand voltage is **Rosso Co",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/ferrari/DESIGN.md"
   },
   {
     "slug": "figma",
     "name": "Figma",
-    "description": "Figma's interface is the design tool that designed itself \u2014 a masterclass in typographic sophistication where a custom variable font (figmaSans) modulates between razor-thin (weight 320) and bold (weight 700) with stops at unusual intermediates (330, 340, 450, 480, 540) that most type systems never ",
-    "format": "legacy-prose",
+    "description": "\"A confident black-and-white editorial frame interrupted by oversized, hand-cut pastel color blocks. The marketing canvas is rigorously monochrome \u2014 figmaSans variable type, pure white surfaces, pure black ink, pill-shaped CTAs \u2014 while each story section drops the page into a saturated lime, lavende",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/figma/DESIGN.md"
   },
   {
     "slug": "framer",
     "name": "Framer",
-    "description": "Framer's website is a cinematic, tool-obsessed dark canvas that radiates the confidence of a design tool built by designers who worship craft. The entire experience is drenched in pure black \u2014 not a warm charcoal or a cozy dark gray, but an absolute void (`#000000`) that makes every element, every s",
-    "format": "legacy-prose",
+    "description": "\"A confident dark-canvas builder marketing site that treats the page like a working artboard \u2014 pure black surfaces, white display type set in GT Walsheim Medium with aggressive negative tracking, and a single confident blue (#0099ff) reserved for hyperlinks and selection states. The page rhythm is b",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/framer/DESIGN.md"
   },
   {
     "slug": "hashicorp",
     "name": "HashiCorp",
-    "description": "HashiCorp's website is enterprise infrastructure made tangible \u2014 a design system that must communicate the complexity of cloud infrastructure management while remaining approachable. The visual language splits between two modes: a clean white light-mode for informational sections and a dramatic dark",
-    "format": "legacy-prose",
+    "description": "\"An enterprise-infrastructure marketing canvas built around a near-black ground (#000000) and a system of per-product accent colors \u2014 Terraform purple, Vault yellow, Consul pink, Waypoint cyan, Vagrant blue \u2014 that act as identity tokens rather than decorative palette. Display type is hashicorpSans s",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/hashicorp/DESIGN.md"
   },
   {
     "slug": "ibm",
     "name": "IBM",
-    "description": "IBM's website is the digital embodiment of enterprise authority built on the Carbon Design System \u2014 a design language so methodically structured it reads like an engineering specification rendered as a webpage. The page operates on a stark duality: a bright white (`#ffffff`) canvas with near-black (",
-    "format": "legacy-prose",
+    "description": "\"An enterprise-marketing canvas faithful to Carbon Design System: white surfaces, charcoal type, IBM Blue (#0f62fe) as the single confident accent, and a deliberately flat-square aesthetic where corners stay at 0\u20134px. Type runs IBM Plex Sans at light weight 300 for display sizes (a brand signature) ",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/ibm/DESIGN.md"
   },
   {
     "slug": "intercom",
     "name": "Intercom",
-    "description": "Intercom's website is a warm, confident customer service platform that communicates \"AI-first helpdesk\" through a clean, editorial design language. The page operates on a warm off-white canvas (`#faf9f6`) with off-black (`#111111`) text, creating an intimate, magazine-like reading experience. The si",
-    "format": "legacy-prose",
+    "description": "\"An editorial customer-service marketing canvas built around a soft cream-white ground, charcoal type set in Saans (Intercom's proprietary geometric sans), and a single confident Fin Orange (#ff5600) reserved for the Fin AI brand. Cards live as floating white tiles with thin hairline borders and min",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/intercom/DESIGN.md"
   },
   {
@@ -156,8 +156,8 @@
   {
     "slug": "linear-app",
     "name": "Linear",
-    "description": "Linear's website is a masterclass in dark-mode-first product design \u2014 a near-black canvas (`#08090a`) where content emerges from darkness like starlight. The overall impression is one of extreme precision engineering: every element exists in a carefully calibrated hierarchy of luminance, from barely",
-    "format": "legacy-prose",
+    "description": "\"A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2) used as the single chromatic accent. The system reads as software-craft documentation: dense, tec",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/linear-app/DESIGN.md"
   },
   {
@@ -170,141 +170,141 @@
   {
     "slug": "minimax",
     "name": "MiniMax",
-    "description": "MiniMax's website is a clean, product-showcase platform for a Chinese AI technology company that bridges consumer-friendly appeal with technical credibility. The design language is predominantly white-space-driven with a light, airy feel \u2014 pure white backgrounds (`#ffffff`) dominate, letting colorfu",
-    "format": "legacy-prose",
+    "description": "MiniMax presents itself as a premium AI infrastructure brand through a striking duality \u2014 bold black-pill CTAs and stark white canvas for marketing, paired with vibrant gradient product cards (orange-red, magenta-pink, purple, blue) that turn each model release into a distinctive visual identity. Th",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/minimax/DESIGN.md"
   },
   {
     "slug": "mintlify",
     "name": "Mintlify",
-    "description": "Mintlify's website is a study in documentation-as-product design \u2014 a white, airy, information-rich surface that treats clarity as its highest aesthetic value. The page opens with a luminous white (`#ffffff`) background, near-black (`#0d0d0d`) text, and a signature green brand accent (`#18E299`) that",
-    "format": "legacy-prose",
+    "description": "Mintlify presents documentation infrastructure with a dual-mode aesthetic \u2014 atmospheric sky-gradient marketing heroes (cloud illustration backdrops, soft cream-to-blue washes) paired with dense developer-grade documentation surfaces. The system uses Inter for UI prose, Geist Mono for code, and a sig",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/mintlify/DESIGN.md"
   },
   {
     "slug": "miro",
     "name": "Miro",
-    "description": "Miro's website is a clean, collaborative-tool-forward platform that communicates \"visual thinking\" through generous whitespace, pastel accent colors, and a confident geometric font. The design uses a predominantly white canvas with near-black text (`#1c1c1e`) and a distinctive pastel color palette \u2014",
-    "format": "legacy-prose",
+    "description": "Miro presents itself as the AI-powered visual workspace through a confident, almost playful brand voice \u2014 anchored by its signature canary yellow ({colors.brand-yellow}) wordmark over white canvas, broken open by colorful pastel feature tints (rose, teal, coral, orange, mint) that echo the actual st",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/miro/DESIGN.md"
   },
   {
     "slug": "mistral-ai",
     "name": "Mistral AI",
-    "description": "Mistral AI's interface is a sun-drenched landscape rendered in code \u2014 a warm, bold, unapologetically European design that trades the typical blue-screen AI aesthetic for golden amber, burnt orange, and the feeling of late-afternoon light in southern France. Every surface glows with warmth: backgroun",
-    "format": "legacy-prose",
+    "description": "Mistral AI brands itself with a singular signature \u2014 atmospheric sunset gradients (mustard, orange, deep red) layered over photography of mountains, plus a horizontal \"sunset stripe\" bar that closes every page. The system pairs warm cream-yellow surfaces ({colors.cream}) with a saturated orange prim",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/mistral-ai/DESIGN.md"
   },
   {
     "slug": "mongodb",
     "name": "MongoDB",
-    "description": "MongoDB's website is a deep-forest-meets-terminal experience \u2014 a design system rooted in the darkest teal-black (`#001e2b`) that evokes both the density of a database and the depth of a forest canopy. Against this near-black canvas, a striking neon green (`#00ed64`) pulses as the brand accent \u2014 brig",
-    "format": "legacy-prose",
+    "description": "MongoDB carries a strong dual-mode visual identity \u2014 dark deep-teal hero bands with bright MongoDB green ({colors.brand-green}) CTAs paired with stark white documentation surfaces. The signature green pill button is unmistakable across product, pricing, learning, and AI use-case surfaces. The system",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/mongodb/DESIGN.md"
   },
   {
     "slug": "notion",
     "name": "Notion",
-    "description": "Notion's website embodies the philosophy of the tool itself: a blank canvas that gets out of your way. The design system is built on warm neutrals rather than cold grays, creating a distinctly approachable minimalism that feels like quality paper rather than sterile glass. The page canvas is pure wh",
-    "format": "legacy-prose",
+    "description": "Notion presents itself as the all-in-one workspace through a confident, illustration-rich brand voice \u2014 anchored by a deep navy hero band ({colors.brand-navy}) decorated with brand-colored sticky-note dots and mesh wire illustrations, a signature purple pill primary CTA ({colors.primary}), and a ric",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/notion/DESIGN.md"
   },
   {
     "slug": "nvidia",
     "name": "NVIDIA",
-    "description": "NVIDIA's website is a high-contrast, technology-forward experience that communicates raw computational power through design restraint. The page is built on a stark black (`#000000`) and white (`#ffffff`) foundation, punctuated by NVIDIA's signature green (`#76b900`) -- a color so specific it functio",
-    "format": "legacy-prose",
+    "description": "| An engineering-grade marketing system organized around two surface modes \u2014 a deep black canvas for hero and footer chapters and a flat paper-white canvas for body content \u2014 connected by a single, almost violently saturated NVIDIA Green accent that carries every CTA, every active tab, and the small",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/nvidia/DESIGN.md"
   },
   {
     "slug": "ollama",
     "name": "Ollama",
-    "description": "Ollama's interface is radical minimalism taken to its logical conclusion \u2014 a pure-white void where content floats without decoration, shadow, or color. The design philosophy mirrors the product itself: strip away everything unnecessary until only the essential tool remains. This is the digital equiv",
-    "format": "legacy-prose",
+    "description": "| An almost defiantly minimal documentation-first system that treats the home page like a Markdown README \u2014 paper-white canvas, 36px center-aligned heading, a single black pill CTA, an inline terminal install snippet, and a hand-drawn llama mascot as the only ornamental element. No gradient, no hero",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/ollama/DESIGN.md"
   },
   {
     "slug": "opencode-ai",
     "name": "OpenCode",
-    "description": "OpenCode's website embodies a terminal-native, monospace-first aesthetic that reflects its identity as an open source AI coding agent. The entire visual system is built on a stark dark-on-light contrast using a near-black background (`#201d1d`) with warm off-white text (`#fdfcfc`). This isn't a gene",
-    "format": "legacy-prose",
+    "description": "| A terminal-native marketing system rendered entirely in Berkeley Mono \u2014 every word on the page, from the hero headline down to the footer fine print, is monospaced. The page itself reads like a manpage or a static-site README: warm cream canvas (`#fdfcfc`), nearly-black ink (`#201d1d`), 4px-radius",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/opencode-ai/DESIGN.md"
   },
   {
     "slug": "pinterest",
     "name": "Pinterest",
-    "description": "Pinterest's website is a warm, inspiration-driven canvas that treats visual discovery like a lifestyle magazine. The design operates on a soft, slightly warm white background with Pinterest Red (`#e60023`) as the singular, bold brand accent. Unlike the cool blues of most tech platforms, Pinterest's ",
-    "format": "legacy-prose",
+    "description": "| A photography-first discovery system organized around the Pinterest Red CTA, the masonry pin grid, and a soft warm-cream chrome that gets out of the imagery's way. The home page is a content-discovery tool wearing the chrome of a magazine publisher: 70px display headlines, friendly Pin Sans typogr",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/pinterest/DESIGN.md"
   },
   {
     "slug": "posthog",
     "name": "PostHog",
-    "description": "PostHog's website feels like a startup's internal wiki that escaped into the wild \u2014 warm, irreverent, and deliberately anti-corporate. The background isn't the expected crisp white or dark void of developer tools; it's a warm, sage-tinted cream (`#fdfdf8`) that gives every surface a handmade, paper-",
-    "format": "legacy-prose",
+    "description": "| A playful developer-tools system rendered on a warm cream canvas with hand-drawn hedgehog mascots dotted across every page like marginalia in a sketchbook. The chrome reads like a friendly engineering blog: olive-gray ink (#4d4f46) for body, deep olive-charcoal (#23251d) for headlines, IBM Plex Sa",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/posthog/DESIGN.md"
   },
   {
     "slug": "raycast",
     "name": "Raycast",
-    "description": "Raycast's marketing site feels like the dark interior of a precision instrument \u2014 a Swiss watch case carved from obsidian. The background isn't just dark, it's an almost-black blue-tint (`#07080a`) that creates a sense of being inside a macOS native application rather than a website. Every surface, ",
-    "format": "legacy-prose",
+    "description": "| Raycast's marketing system reads like an extended product screenshot. The chrome IS the in-product chrome at marketing scale: pure-near-black canvas, hairline 1px borders, command-palette-style cards, Inter typography with the ss03 stylistic set enabled site-wide, white CTA pill, and a small set o",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/raycast/DESIGN.md"
   },
   {
     "slug": "renault",
     "name": "Renault",
-    "description": "Renault's website is a vibrant digital showroom that balances French automotive elegance with bold, forward-leaning energy \u2014 a departure from the monochromatic austerity of German or Italian luxury brands. The page opens with a full-screen hero that washes the viewport in a sweeping aurora gradient ",
-    "format": "legacy-prose",
+    "description": "| Renault's web presence pairs the freshly-modernised Renault diamond (the 2021 flat-line rhombus mark) with a stark black-and-white canvas, a signature Sunlight Yellow accent, and the proprietary NouvelR display typeface. The system reads as confident, photography-first automotive \u2014 large hero cars",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/renault/DESIGN.md"
   },
   {
     "slug": "replicate",
     "name": "Replicate",
-    "description": "Replicate's interface is a developer playground crackling with creative energy \u2014 a bold, high-contrast design that feels more like a music festival poster than a typical API platform. The hero section explodes with a vibrant orange-red-magenta gradient that immediately signals \"this is where AI mode",
-    "format": "legacy-prose",
+    "description": "| Replicate's marketing surfaces pair the warm-cream developer-tools aesthetic of an indie ML playground with a confident hot-orange brand accent and a signature display typeface (rb-freigeist-neue) sized aggressively large at 72px+. The system reads as \"AI lab notebook crossed with print magazine\":",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/replicate/DESIGN.md"
   },
   {
     "slug": "resend",
     "name": "Resend",
-    "description": "Resend's website is a dark, cinematic canvas that treats email infrastructure like a luxury product. The entire page is draped in pure black (`#000000`) with text that glows in near-white (`#f0f0f0`), creating a theater-like experience where content performs on a void stage. This isn't the typical d",
-    "format": "legacy-prose",
+    "description": "| Resend's marketing surfaces sit on a near-pure black canvas with off-white text and a single signature color \u2014 the deep editorial-serif Domaine Display headline mark \u2014 that gives an otherwise utilitarian developer-tool brand its print-magazine confidence. The system pairs Domaine Display (oversize",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/resend/DESIGN.md"
   },
   {
     "slug": "revolut",
     "name": "Revolut",
-    "description": "Revolut's website is fintech confidence distilled into pixels \u2014 a design system that communicates \"your money is in capable hands\" through massive typography, generous whitespace, and a disciplined neutral palette. The visual language is built on Aeonik Pro, a geometric grotesque that creates billbo",
-    "format": "legacy-prose",
+    "description": "| Revolut's marketing surfaces pair a stark black canvas with the brand's cobalt-violet (`#494fdf`) and a wide accent palette of deep, fully-saturated product colours \u2014 teal, light-blue, deep pink, light-green, warning orange. The system reads as fintech-meets-product-brochure: oversized 80px\u2013136px ",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/revolut/DESIGN.md"
   },
   {
     "slug": "runwayml",
-    "name": "Runway",
-    "description": "Runway's interface is a cinematic reel brought to life as a website \u2014 a dark, editorial, film-production-grade design where full-bleed photography and video ARE the primary UI elements. This is not a typical tech product page; it's a visual manifesto for AI-powered creativity. Every section feels li",
-    "format": "legacy-prose",
+    "name": "Runwai Inspired",
+    "description": "An inspired interpretation of Runwai's design language \u2014 an editorial, gallery-grade marketing system for an AI creative-tools company. Cinematic photographic heroes give way to crisp white reading surfaces, a tight monochrome neutral ladder, and a single proprietary sans (abcNormal) carrying every ",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/runwayml/DESIGN.md"
   },
   {
     "slug": "sanity",
-    "name": "Sanity",
-    "description": "Sanity's website is a developer-content platform rendered as a nocturnal command center -- dark, precise, and deeply structured. The entire experience sits on a near-black canvas (`#0b0b0b`) that reads less like a \"dark mode toggle\" and more like the natural state of a tool built for people who live",
-    "format": "legacy-prose",
+    "name": "Saniti Inspired",
+    "description": "An inspired interpretation of Saniti's design language \u2014 a dark-first, content-platform marketing system that pairs an oversized editorial display sans (waldenburgNormal) with IBM Plex Mono for technical eyebrows. The site reads like a software-engineering trade journal: near-black `{colors.canvas}`",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/sanity/DESIGN.md"
   },
   {
     "slug": "sentry",
-    "name": "Sentry",
-    "description": "Sentry's website is a dark-mode-first developer tool interface that speaks the language of code editors and terminal windows. The entire aesthetic is rooted in deep purple-black backgrounds (`#1f1633`, `#150f23`) that evoke the late-night debugging sessions Sentry was built for. Against this inky ca",
-    "format": "legacy-prose",
+    "name": "Sentri Inspired",
+    "description": "An inspired interpretation of Sentri's design language \u2014 a developer-tools brand built on a deep purple-violet midnight canvas, electric lime accents, and a slightly subversive illustrated personality. The system pairs a custom display sans (chunky, playful, near-condensed) with the open Rubik famil",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/sentry/DESIGN.md"
   },
   {
     "slug": "spacex",
-    "name": "SpaceX",
-    "description": "SpaceX's website is a full-screen cinematic experience that treats aerospace engineering like a film \u2014 every section is a scene, every photograph is a frame, and the interface disappears entirely behind the imagery. The design is pure black (`#000000`) with photography of rockets, space, and planets",
-    "format": "legacy-prose",
+    "name": "Spasex Inspired",
+    "description": "An inspired interpretation of Spasex's design language \u2014 a mission-oriented aerospace brand built on pure black canvas, full-bleed photographic and video heroes of rockets and Mars landscapes, and uppercase D-DIN display type set in tight vertical leading. UI chrome is intentionally minimal: a singl",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/spacex/DESIGN.md"
   },
   {
@@ -316,23 +316,23 @@
   },
   {
     "slug": "stripe",
-    "name": "Stripe",
-    "description": "Stripe's website is the gold standard of fintech design -- a system that manages to feel simultaneously technical and luxurious, precise and warm. The page opens on a clean white canvas (`#ffffff`) with deep navy headings (`#061b31`) and a signature purple (`#533afd`) that functions as both brand an",
-    "format": "legacy-prose",
+    "name": "Stripi Inspired",
+    "description": "An inspired interpretation of Stripi's design language \u2014 a financial-infrastructure brand built on a deep navy ink, an electric indigo primary, and a recurring atmospheric gradient mesh that occupies the upper third of nearly every marketing page. The system pairs the proprietary Sohne family at thi",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/stripe/DESIGN.md"
   },
   {
     "slug": "supabase",
-    "name": "Supabase",
-    "description": "Supabase's website is a dark-mode-native developer platform that channels the aesthetic of a premium code editor \u2014 deep black backgrounds (`#0f0f0f`, `#171717`) with emerald green accents (`#3ecf8e`, `#00c573`) that reference the brand's open-source, PostgreSQL-green identity. The design system feel",
-    "format": "legacy-prose",
+    "name": "Supabaze Inspired",
+    "description": "An inspired interpretation of Supabaze's design language \u2014 an open-source database platform built on a clean white-and-near-black system with a single signature emerald-green CTA, a custom humanist sans display tier, and dense product UI mockups composited above the hero. The brand reads as quietly ",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/supabase/DESIGN.md"
   },
   {
     "slug": "superhuman",
-    "name": "Superhuman",
-    "description": "Superhuman's website feels like opening a luxury envelope \u2014 predominantly white, immaculately clean, with a single dramatic gesture of color that commands attention. The hero section is a cinematic purple gradient, a deep twilight wash of `#1b1938` that evokes the moment just before dawn, overlaid w",
-    "format": "legacy-prose",
+    "name": "Superhumon Inspired",
+    "description": "An inspired interpretation of Superhumon's design language \u2014 a fast-email productivity brand split between an editorial dark hero (deep indigo navy with violet-sky atmospheric backdrop and a portrait subject) and a quiet white content body with off-warm-grey ink. The system uses a single proprietary",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/superhuman/DESIGN.md"
   },
   {
@@ -344,65 +344,65 @@
   },
   {
     "slug": "together-ai",
-    "name": "Together AI",
-    "description": "Together AI's interface is a pastel-gradient dreamscape built for enterprise AI infrastructure \u2014 a design that somehow makes GPU clusters and model inference feel light, airy, and optimistic. The hero section blooms with soft pink-blue-lavender gradients and abstract, painterly illustrations that ev",
-    "format": "legacy-prose",
+    "name": "Together AI Inspired",
+    "description": "An inspired interpretation of Together AI's design language \u2014 an AI infrastructure platform whose surface alternates between near-black hero bands (with a three-color orange-magenta-periwinkle gradient as the single piece of brand chrome) and bright white research / pricing / docs bands, knit togeth",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/together-ai/DESIGN.md"
   },
   {
     "slug": "uber",
-    "name": "Uber",
-    "description": "Uber's design language is a masterclass in confident minimalism -- a black-and-white universe where every pixel serves a purpose and nothing decorates without earning its place. The entire experience is built on a stark duality: jet black (`#000000`) and pure white (`#ffffff`), with virtually no mid",
-    "format": "legacy-prose",
+    "name": "Uber Inspired",
+    "description": "An inspired interpretation of Uber's design language \u2014 a transportation-and-delivery super-app brand whose web surface is a black-and-white duet, framed by a custom geometric display sans, accented by a single signature pill shape (radius 999px) on every interactive element, and decorated only by ed",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/uber/DESIGN.md"
   },
   {
     "slug": "vercel",
-    "name": "Vercel",
-    "description": "Vercel's website is the visual thesis of developer infrastructure made invisible \u2014 a design system so restrained it borders on philosophical. The page is overwhelmingly white (`#ffffff`) with near-black (`#171717`) text, creating a gallery-like emptiness where every element earns its pixel. This isn",
-    "format": "legacy-prose",
+    "name": "Vercel Inspired",
+    "description": "An inspired interpretation of Vercel's design language \u2014 a developer-platform brand whose surface is a stark black-and-ink duet on near-white canvas, broken at hero scale by a multi-color mesh gradient (cyan / blue / magenta / amber) that acts as the entire decorative system, paired with a custom ge",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/vercel/DESIGN.md"
   },
   {
     "slug": "voltagent",
-    "name": "VoltAgent",
-    "description": "VoltAgent's interface is a deep-space command terminal for the AI age \u2014 a developer-facing darkness built on near-pure-black surfaces (`#050507`) where the only interruption is the electric pulse of emerald green energy. The entire experience evokes the feeling of staring into a high-powered IDE at ",
-    "format": "legacy-prose",
+    "name": "Voltagent Inspired",
+    "description": "An inspired interpretation of Voltagent's design language \u2014 a developer-focused AI agent engineering platform whose surface is an unrelenting near-black canvas broken only by a single electric-green brand accent, code-editor mockups inside the hero, and a precise grid of dark feature cards that read",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/voltagent/DESIGN.md"
   },
   {
     "slug": "warp",
-    "name": "Warp",
-    "description": "Warp's website feels like sitting at a campfire in a deep forest \u2014 warm, dark, and alive with quiet confidence. Unlike the cold, blue-tinted blacks favored by most developer tools, Warp wraps everything in a warm near-black that feels like charred wood or dark earth. The text isn't pure white either",
-    "format": "legacy-prose",
+    "name": "Warp Inspired",
+    "description": "An inspired interpretation of Warp's design language \u2014 an agentic terminal-and-development-environment brand whose surface is a warm near-charcoal canvas (a tint warmer than pure black), broken only by clean Inter typography, the occasional Instrument Serif italic moment, and dense terminal-mockup i",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/warp/DESIGN.md"
   },
   {
     "slug": "webflow",
-    "name": "Webflow",
-    "description": "Webflow's website is a visually rich, tool-forward platform that communicates \"design without code\" through clean white surfaces, the signature Webflow Blue (`#146ef5`), and a rich secondary color palette (purple, pink, green, orange, yellow, red). The custom WF Visual Sans Variable font creates a c",
-    "format": "legacy-prose",
+    "name": "Webflow Inspired",
+    "description": "An inspired interpretation of Webflow's design language \u2014 a visual web development platform whose surface contrasts a deep near-black `#080808` primary against a generous white canvas, broken by a five-stop chromatic accent system (purple / pink / blue / orange / green) that maps to the brand's prod",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/webflow/DESIGN.md"
   },
   {
     "slug": "wise",
-    "name": "Wise",
-    "description": "Wise's website is a bold, confident fintech platform that communicates \"money without borders\" through massive typography and a distinctive lime-green accent. The design operates on a warm off-white canvas with near-black text (`#0e0f0c`) and a signature Wise Green (`#9fe870`) \u2014 a fresh, lime-bright",
-    "format": "legacy-prose",
+    "name": "Wise Inspired",
+    "description": "An inspired interpretation of Wise's design language \u2014 a global money-transfer brand whose surface combines an unusually heavy near-black display sans (weight 900 at 64\u2013126 px) with a vivid lime-green brand accent, sage-tinted surface neutrals, and rounded white cards on a pale green-tinted canvas; ",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/wise/DESIGN.md"
   },
   {
     "slug": "x-ai",
-    "name": "xAI",
-    "description": "xAI's website is a masterclass in dark-first, monospace-driven brutalist minimalism -- a design system that feels like it was built by engineers who understand that restraint is the ultimate form of sophistication. The entire experience is anchored to an almost-black background (`#1f2228`) with pure",
-    "format": "legacy-prose",
+    "name": "xAI Inspired",
+    "description": "An inspired interpretation of xAI's design language \u2014 Elon Musk's frontier-AI company whose web surface is a strict near-black canvas broken only by white pill outlines, occasional warm sunset / dusk gradient accents, a custom geometric sans (Universal Sans) for display, and an uppercase tracked mon",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/x-ai/DESIGN.md"
   },
   {
     "slug": "zapier",
-    "name": "Zapier",
-    "description": "Zapier's website radiates warm, approachable professionalism. It rejects the cold monochrome minimalism of developer tools in favor of a cream-tinted canvas (`#fffefb`) that feels like unbleached paper -- the digital equivalent of a well-organized notebook. The near-black (`#201515`) text has a fain",
-    "format": "legacy-prose",
+    "name": "Zapier Inspired",
+    "description": "An inspired interpretation of Zapier's design language \u2014 a workflow-automation platform whose surface combines warm-cream neutrals (`#fffefb` canvas, `#f8f4f0` soft cream) with deep coffee ink (`#201515`) and a single saturated orange CTA accent (`#ff4f00`); typography pairs the proprietary Degular ",
+    "format": "spec-v1",
     "path": "knowledge/design-libraries/brands/zapier/DESIGN.md"
   }
 ]
