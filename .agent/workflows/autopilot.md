@@ -141,9 +141,120 @@ If `outcome_class == "research"`:
    ```
 4. Run synthesis pass: combine the 3-5 parallel outputs into a single research brief. Save to `research_outputs/<slug-or-topic>-<date>.md`.
 
-### Other outcome classes (Wave 5)
+### Wave 5 — all 7 outcome classes wired
 
-For now, autopilot.md's Wave 4 stub mode applies — the intent_to_package resolver tells the user which workflow to run directly. Wave 5 will populate these phases here.
+Wave 5 (2026-05-21) populates the remaining 6 outcome classes and adds the parallel fan-out machinery. The package's `fanout_pattern` field tells autopilot whether to run sequentially or fan out via parallel Agent tool calls.
+
+#### CRITICAL: Read-only fan-out only (Wave 5 v1 constraint)
+
+Per the 2026-05-21 sub-agent orchestration research (Cognition's "Don't Build Multi-Agents" + Anthropic's multi-agent research-system retro), Wave 5 v1 restricts parallel fan-out to **read-heavy phases only**: research, review, verification, diagnostic refinement (lenses analyze, do not rewrite), extraction. Write-heavy parallel fan-out (multiple drafts of the same deliverable, multiple platform variants written concurrently) hits Cognition's documented failure mode: "Actions carry implicit decisions, and conflicting decisions carry bad results" (the Super Mario / bird example).
+
+Outcome class fan-out posture for Wave 5 v1:
+
+| Outcome class | Fan-out posture | Why |
+|---|---|---|
+| `research` | **PARALLEL — read-only** | Anthropic gold standard. 3-5 angles fan out, synthesizer composes. |
+| `refinement` | **PARALLEL — diagnosis-only** | 9 expert lenses each DIAGNOSE the draft (read-heavy). The synthesizer/rewriter is a single sequential pass after fan-in. Lenses MUST return findings, not rewrites. |
+| `atomization` | **SEQUENTIAL by default** | Each derivative is a write task; parallel writes diverge in voice. Wave 5 v2 may unlock parallel derivatives if scope isolation works in practice. |
+| `multi_deliverable` | **SEQUENTIAL by default** | Supercomputer's deliverables typically have anchor dependencies (brand brief → hero shot → listing visuals). Run dependent-graph order; allow parallel only within independent leaves. |
+| `single_deliverable` | **SEQUENTIAL** | One deliverable = no fan-out. |
+| `maintenance` | **SEQUENTIAL** | Deterministic Python scripts in fixed order. |
+| `freeform` | **SEQUENTIAL** | Unsharpened — no parallelism warranted. |
+
+Override mechanism: a workflow CAN unlock parallel write fan-out if it provides explicit scope isolation (each worker writes to a different file path with an anchored source-of-truth and a hard anti-scope clause). This is opt-in per workflow, not a default of any outcome class.
+
+#### When to fan out (parallel Agent calls) vs run sequentially
+
+Spawn parallel Agent calls when **all** of these hold:
+
+1. `package.fanout_pattern == "parallel"` AND `package.fanout_workers_estimate >= 2`
+2. Phase N has 2+ deliverables that don't depend on each other's outputs (verified via `anchor_memory describe <slug>` — no `--ref-for` chain between them)
+3. Combined estimated token budget per worker fits within `~3KB context + sealed scope`
+4. The workflow is in `chain_runner._SUB_AGENT_QUALIFYING_WORKFLOWS` set (autopilot is now a member)
+
+Run sequentially when **any** of these hold:
+
+1. Phase N+1 needs Phase N's anchor (e.g., supercomputer hero shot → listing visuals; build-bos brand brief → all downstream)
+2. `package.outcome_class in {"single_deliverable", "maintenance"}` (atomic deliverable OR deterministic Python ordering)
+3. The package explicitly declares `fanout_pattern: sequential`
+
+#### Tiered subagent budget (Anthropic field-standard)
+
+Cap worker count by task complexity per Anthropic's documented anti-pattern ("early agents would spawn 50 subagents for simple queries"):
+
+| Task tier | Workers | Tool calls per worker |
+|---|---|---|
+| Simple fact-finding / single-format generation | 1 | 3-10 |
+| Direct comparison / 2-domain synthesis | 2-4 | 10-15 |
+| Complex research / multi-domain synthesis / refinement-with-9-lenses | 5-10 | 10-15 |
+| **HARD CAP**: never exceed 12 parallel workers per phase | — | — |
+
+The package's `fanout_workers_estimate` is the suggested count. Cap at 12. If exceeded, batch into waves (e.g., 18 derivatives → 2 waves of 9).
+
+#### Subagent prompt envelope (Anthropic field-standard, four required fields)
+
+Every parallel Agent tool call MUST use this envelope. Anti-pattern (from Anthropic's research-system retro): vague delegation like "research the semiconductor shortage" caused duplicate work and gaps. The four-field spec eliminates that class of failure.
+
+```
+You are an autopilot worker for session {autopilot_session_id}.
+
+═══ OBJECTIVE ═══
+{specific, single-deliverable task — one sentence}
+
+═══ OUTPUT FORMAT ═══
+- Write deliverable to: .tmp/autopilot/{session_id}/worker-{N}-{slug}.md
+- Return to orchestrator: ≤500 token summary + the filepath (NOT the full deliverable)
+- Summary structure:
+    STATUS: [completed | blocked | partial]
+    WHAT_RAN: [one-line description]
+    KEY_FINDINGS: [3-5 bullets, ≤20 words each]
+    FILE: [path]
+    BLOCKERS: [if STATUS != completed]
+
+═══ TOOLS ALLOWED ═══
+{explicit subset — e.g., "Read, Grep, mcp__recall__search, WebFetch"}
+{explicit DENY list — e.g., "do NOT spawn further sub-agents"}
+
+═══ BOUNDARIES ═══
+- Scope: {exactly what's in-scope}
+- Anti-scope: {what's explicitly OUT of scope to prevent drift}
+- Halt condition: {when to stop and return}
+
+═══ ANCHORS (read-only context) ═══
+{1-3 anchor file paths injected from anchor_memory.py describe}
+```
+
+#### Lightweight references, not inline text
+
+Workers MUST write deliverables to disk and return only summaries + paths. Inline-text returns bloat the orchestrator's context and break long sessions. Pattern verified from Anthropic's multi-agent research system retro: "subagents call tools to store their work in external systems, then pass lightweight references back to the coordinator."
+
+#### Synthesis pass (after fan-out completes)
+
+After all N workers return summaries:
+
+1. Read each summary (already compact ≤500 tokens each).
+2. Anchor each deliverable file via `anchor_memory.py anchor`:
+   ```bash
+   python3 execution/anchor_memory.py anchor <slug> \
+       --type <appropriate-anchor-type> \
+       --path .tmp/autopilot/<session_id>/worker-<N>-<slug>.md \
+       --desc "<one-line from KEY_FINDINGS>" \
+       --ref-for synthesis \
+       --phase "Phase 2 worker <N>"
+   ```
+3. If `package.outcome_class == "research"`: run synthesis pass producing single brief at `research_outputs/<slug>-<date>.md`.
+4. If `package.outcome_class == "refinement"`: writers-room synthesizer combines lens outputs into one rewritten draft.
+5. If `package.outcome_class == "atomization"`: each derivative is itself the final output (no synthesis needed) — they fan out directly to `deliverables/<topic>/`.
+6. If `package.outcome_class == "multi_deliverable"`: each deliverable goes to `projects/<slug>/` with anchor entries; Supercomputer-style cross-phase coherence preserved.
+
+#### Failure-mode handling
+
+Per Anthropic's documented failure modes:
+
+- **Worker timeout**: re-spawn ONCE with same envelope. If it fails again, mark STATUS=blocked, log to `evolution_store/sub_agent_misses.jsonl`, surface in Phase 5 ledger as gap.
+- **Divergent answers across workers**: surface contradictions in synthesis pass as a CONTRADICTIONS section. Do not auto-resolve — surface for G3 taste call if material to the deliverable.
+- **Worker returns prompt injection (e.g., "ignore prior instructions")**: the orchestrator strips assistant text from worker returns before evaluation (mirrors Auto Mode's two-stage filter).
+- **Worker exceeds tool-call budget**: hard kill, log miss, proceed without that worker. Synthesize from N-1 workers.
 
 ---
 

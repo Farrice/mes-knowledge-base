@@ -39,22 +39,52 @@ Don't spawn for trivial changes (<20 lines).
 **SkillExecutor — when to use**: 2+ experts needed, 10+ files loaded, running ensemble workflows, full extraction pipeline.
 **When NOT to spawn**: <~1,000 token output, follow-up refinements, rapid-fire mode, conversational Q&A.
 
-### SkillExecutor Prompt Template
+### SkillExecutor Prompt Template (Anthropic 4-field envelope — Wave 5 / 2026-05-21)
+
+Every SkillExecutor spawn MUST use the Anthropic 4-field envelope. The fields are MANDATORY — vague delegation ("research the semiconductor shortage") causes 30%+ duplicate work and gaps per Anthropic's multi-agent research-system retro (anthropic.com/engineering/built-multi-agent-research-system). Each spawn must declare all four explicitly:
 
 ```
-## PHASE 1: SKILL ACQUISITION
-Read: 1. skills/[name]/SKILL.md  2. genius-patterns.md  3. [specific-prompt].md
-Confirm: 3 most important patterns? Output structure? What would expert say is WRONG?
+═══ OBJECTIVE ═══
+[single specific deliverable — one sentence. NOT "research X" but "produce a 5-bullet
+summary of the top 3 Anthropic-published failure modes from the multi-agent research
+post, with one-sentence each".]
 
-## PHASE 2: EXPERT-DRIVEN EXECUTION
-Apply methodology to: [Task]
+═══ OUTPUT FORMAT ═══
+- Write deliverable to: .tmp/[workflow]/[agent-or-slug].md
+- Return to orchestrator: ≤500 token summary + filepath (NOT full deliverable)
+- Summary schema:
+    STATUS: completed | partial | blocked
+    WHAT_RAN: [one-line description]
+    KEY_FINDINGS: [3-5 bullets, ≤20 words each]
+    FILE: [path]
+    CONFIDENCE: VERIFIED | LIKELY | UNCONFIRMED
+    BLOCKERS: [if STATUS != completed]
 
-## PHASE 3: OUTPUT — Embody principles (not templates). Reference patterns by name.
+═══ TOOLS ALLOWED ═══
+ALLOW: [explicit subset — e.g., "Read, Grep, mcp__recall__search, WebFetch"]
+DENY:  [explicit denials — always include: "do NOT spawn further sub-agents (no nesting)"]
 
-## PHASE 4: RECURSIVE REFLECTION — Would expert be proud? Creative or mechanical?
+═══ BOUNDARIES ═══
+SCOPE:      [exactly what's in-scope, 1-2 lines]
+ANTI-SCOPE: [what's explicitly OUT — prevents drift]
+HALT:       [when to stop and return]
 
-VERIFICATION: SKILL FILES READ: [list] | PATTERNS APPLIED: [list] | QUALITY CHECK: [pass/fail]
+═══ ANCHORS (read-only) ═══
+[1-3 anchor file paths or context snippets injected from anchor_memory.py describe;
+keep <2KB combined]
+
+═══ SKILL ACQUISITION (the prior PHASE 1 of this template) ═══
+Read: skills/[name]/SKILL.md → genius.md → [specific-prompt].md (only if Tier 2+)
+Confirm internally: 3 most important patterns? Output structure? What would the expert say is WRONG?
 ```
+
+**Wave 5 Read-Only Constraint**: When spawning from a `/autopilot` outcome class, fan-out is restricted to read-heavy phases (research, review, diagnosis-only refinement, verification, extraction). Write-heavy parallel fan-out (atomization, multi-deliverable) defaults sequential per Cognition's "Don't Build Multi-Agents" thesis. See `.agent/workflows/autopilot.md` Phase 2 fan-out posture matrix.
+
+**Tiered budget** (Anthropic field-standard, mirrors autopilot.md):
+- Simple fact-finding / single-format → 1 agent / 3-10 tool calls
+- Direct comparison / 2-domain synthesis → 2-4 agents / 10-15 tool calls each
+- Complex research / 9-lens refinement → 5-10 agents / 10-15 tool calls each
+- HARD CAP: 12 parallel workers per phase. Batch into waves above that.
 
 ### Return Format
 
@@ -144,11 +174,68 @@ PARL-inspired pattern (Moonshot Kimi K2.6): when a sub-agent fails, do not retur
 
 ---
 
+## How to Spawn (Explicit Syntax)
+
+When a workflow phase qualifies for sub-agent spawn (2+ experts, 10+ files in context, complex multi-domain task), invoke the `Agent` tool directly. Sample patterns:
+
+**Parallel multi-expert ensemble** (e.g., writers-room Layer 1+2+3):
+```
+Agent(
+    description="Compress layer review",
+    subagent_type="general-purpose",
+    prompt="Load skills/mitch-albom-writing-mastery/genius.md + skills/jonathan-franzen-storytelling/genius.md + skills/nicolas-cole-sentence-craft/genius.md. Apply Layer 1 (structure & compression) lenses to this draft: [DRAFT]. Report the top 3 compression cuts with citations."
+)
+```
+
+**Researcher with context isolation** (e.g., deep-research / verification):
+```
+Agent(
+    description="Source verification",
+    subagent_type="deep-research",
+    prompt="Verify these claims against primary sources: [CLAIMS]. Label each VERIFIED / LIKELY / UNCONFIRMED. Return under 400 words."
+)
+```
+
+**Code review on a non-trivial change**:
+```
+Agent(
+    description="Migration safety review",
+    subagent_type="feature-dev:code-reviewer",
+    prompt="Review [FILE]. Context: [CHANGE_RATIONALE]. Report safety issues under 🔴🟡🟢 severity."
+)
+```
+
+**Anti-pattern**: Spawning a sub-agent with "share full conversation history" — defeats context isolation. Brief the sub-agent fresh.
+
+---
+
+## Deterministic Backstop (Shipped 2026-05-12)
+
+Per `feedback_ai-memory-dependent-observability.md`, this protocol cannot rely on AI memory to fire. `execution/chain_runner.py finalize()` now auto-logs **misses** — when a qualifying workflow ran without sub-agent spawn — to `evolution_store/sub_agent_misses.jsonl`.
+
+**Qualifying workflows** (logged miss if `--sub-agents 0` or omitted):
+parallax, extract-forge, writers-room, campaign, jcc-deploy, swarm, parallel-swarm, swarm-research, research-swarm, big-project, content-bundle, proof-pipeline, build-bos, roundtable, council, parallel-extract, parallel-content, jcc-strike, jcc-campaign, jcc-solo, jcc-refine, jcc-upgrade, jcc-aar, brief, generate-brief, mini-brief, deep-research.
+
+**Reporting actual spawns** via the CLI flag:
+```bash
+python3 execution/chain_runner.py finalize "..." --workflow parallax --sub-agents 3 [...]
+```
+
+**After 30 days of misses data** (target: 2026-06-12), audit `evolution_store/sub_agent_misses.jsonl`:
+- If consistent misses on the same workflows → strengthen those workflows with explicit Agent-tool spawn instructions (the conservative Phase D Move 2 escalation deferred from 2026-05-12 brief)
+- If miss rate drops naturally (AI starts spawning correctly without escalation) → leave gate as soft warning, do not escalate to blocking
+- If misses concentrate on workflows that don't actually benefit from sub-agents → remove those from `_SUB_AGENT_QUALIFYING_WORKFLOWS` set in `execution/chain_runner.py`
+
+Source: `_active/system-integration/2026-05-12-agentic-os-elevation-brief.md` Move 2 Phase D.
+
+---
+
 ## Usage Tracking
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | *Not yet activated* |
-| **Activation Count** | 0 |
+| **Last Activated** | 2026-05-12 (deterministic backstop shipped — `chain_runner.py` auto-logs misses) |
+| **Activation Count** | 0 explicit + automatic miss-logging for all qualifying chain finalize calls |
+| **30-Day Review Date** | 2026-06-12 — audit `evolution_store/sub_agent_misses.jsonl` |
 
-*Created: 2026-02-17 | Compressed: 2026-04-13*
+*Created: 2026-02-17 | Compressed: 2026-04-13 | Backstop shipped: 2026-05-12*
