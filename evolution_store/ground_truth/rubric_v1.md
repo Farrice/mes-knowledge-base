@@ -127,3 +127,97 @@ This rubric ships with seeded anchors but is **NOT yet calibrated against ground
 **Until calibration is complete, treat scores as advisory.** The rubric becomes load-bearing once at least 15 of the 30 eval tasks have human-validated scores and the blind-comparison pass shows <1.0 point average divergence.
 
 See: [`eval_set_v1.jsonl`](eval_set_v1.jsonl) | [`execution/eval_harness.py`](../../execution/eval_harness.py)
+
+---
+
+## Bimodal Taste Calibration Profile (Farrice) — Wave 2 / 2026-05-21
+
+This section encodes Farrice's calibration signature as documented in
+`memory/user_taste-calibration-signature.md`. It overlays the rubric above
+with a programmatic filter implemented in [`execution/taste_signature.py`](../../execution/taste_signature.py).
+The filter runs ON TOP of the rubric, not in place of it — the rubric still
+defines what each score MEANS, the filter defines how those scores
+COMBINE into a pass/fail verdict.
+
+### Distribution shape
+
+Farrice's quality judgment is **bimodal**:
+- **Clear PASS**: composite ≥7.5 AND every dimension ≥7
+- **Clear FAIL**: composite <7.0 OR any dimension ≤6
+- **Marginal band (7.0-7.5)**: narrow, treated as FAIL by default ("when in doubt, fail")
+
+This is the inverse of the system's pre-Wave-2 distribution, which had 94-99%
+of finalize scores clustered above 8 (per the 2026-04-24 audit). The bimodal
+filter is how the system mirrors actual human taste instead of drifting
+toward grade inflation.
+
+### The 5 rules (implemented in `taste_signature.apply()`)
+
+**Rule 1 — Failure penalty**: Any dimension at or below 6 is reduced by
+-1.0 on that dimension. The cost of a false PASS (shipping work that isn't
+ready) is much higher than the cost of a false FAIL (one extra iteration).
+When in doubt, fail harder.
+
+**Rule 2 — 8 must be earned**: Any dimension ≥8 without `anchor_named=True`
+is capped at 7.5. To claim an 8 or above on any dimension, Claude must
+name the rubric anchor it matches and explain why. Without that evidence,
+the score reflects an aspiration, not a measurement.
+
+**Rule 3 — Anti-cluster**: If all three dimensions score ≥8 AND
+`anchor_named=False` AND prose_classifier verdict is not CLEAN, the
+combination is suspicious — composite is capped at 7.5 and the verdict
+is forced to MARGINAL. (When Wave 1's AI Prose cap already broke the
+cluster by dropping one dimension, Rule 3 doesn't fire — Wave 1 handled it.)
+
+**Rule 4 — Bimodal verdict mapping**:
+- **PASS**: composite ≥7.5 AND all dims ≥7
+- **MARGINAL**: composite in [7.0, 7.5) — bimodal taste rejects this band
+- **FAIL**: composite <7 OR any dim ≤6
+
+**Rule 5 — Factual veto override**: If `factual_grounding` is set and <6,
+verdict is forced to FAIL regardless of composite. This is defense in
+depth — Wave 1's `_enforce_caps` already blocks delivery on factual veto,
+Rule 5 ensures the taste filter agrees if Wave 1 ever loses the signal.
+
+### Why this works against grade inflation
+
+The 2026-04-24 audit found 94-99% of recent traces scored 8+. Wave 2's
+Rule 2 makes that statistically impossible without explicit anchor naming:
+every claimed 8 must point to a worked example in the rubric. Claude can
+still SELF-SCORE highly, but the system caps the result.
+
+The `anchor_named` flag is the bridge between Claude's introspective
+quality estimate and the rubric's anchored measurement. If Claude sets
+the flag, Claude is asserting "I can name the anchor for this 8." That
+assertion is auditable — every finalize trace stores `anchor_named` in
+the result dict.
+
+### Why `rubric_load_bearing: false` still holds
+
+Wave 2 enforces the bimodal taste signature WITHOUT modifying the rubric
+itself. The rubric stays in its current calibration state (15+ eval entries
+required for promotion to load-bearing). The taste filter is independent —
+it provides PASS/FAIL judgment using the rubric's anchored scores as
+input, not by rewriting the anchors.
+
+This separation matters per `memory/feedback_auto-evolution-cant-substitute-for-ground-truth.md`:
+auto-modification of subjective evaluation criteria drifts toward inflation
+without human calibration. The filter does not modify the rubric, so it
+does not violate the pause.
+
+### Configuration
+
+Tunable thresholds in `execution/taste_signature.py`:
+- `_FAILURE_PENALTY_THRESHOLD = 6.0`
+- `_FAILURE_PENALTY_AMOUNT = 1.0`
+- `_EARNED_8_THRESHOLD = 8.0`
+- `_EARNED_8_CAP = 7.5`
+- `_PASS_COMPOSITE_FLOOR = 7.5`
+- `_PASS_DIMENSION_FLOOR = 7.0`
+- `_FAIL_DIMENSION_CEILING = 6.0`
+- `_FAIL_COMPOSITE_CEILING = 7.0`
+- `_FACTUAL_VETO_FLOOR = 6.0`
+
+These should not be tuned without empirical evidence that the current
+values produce a distribution mismatched to Farrice's actual PASS/FAIL
+judgments on real deliverables.

@@ -44,12 +44,13 @@ what already exists.
 """
 
 import os
+import re
 import sys
 import json
 import argparse
 from datetime import date, datetime
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List, Tuple
 
 # Ensure execution/ is on the path for sibling imports
 sys.path.insert(0, str(Path(__file__).parent))
@@ -57,7 +58,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from log_performance import log_output, check_regression, get_baseline
 from protocol_tracker import activate_protocol
 from checkpoint_manager import save_session_state
-from prose_classifier import classify_prose, quick_check
+from prose_classifier import should_cap_expert_standard
+from taste_signature import apply as apply_taste_signature
+from excellence_predictor import detect_grade_inflation
 from revenue_tracker import get_pipeline as get_revenue_pipeline
 
 # Routing enforcer (Fix 2 / 2026-04-24) — post-finalize observability for
@@ -200,6 +203,249 @@ def _auto_log_grounding(skill: str, expert: str, task_type: str, notes: str) -> 
     return {"status": "skipped", "reason": "not_observed", "source": "auto_inferred"}
 
 
+# Sub-agent qualifying workflows — system-tier multi-expert/multi-phase orchestrations
+# where running without sub-agent context isolation is likely a miss per
+# directives/sub_agent_protocol.md auto-spawn triggers. Source: 2026-05-12 integration
+# brief Move 2 (Phase D activation). Update this set alongside the brief's
+# routing_enforcer bindings — code is source of truth.
+_SUB_AGENT_QUALIFYING_WORKFLOWS = {
+    'parallax', 'extract-forge', 'writers-room', 'campaign', 'jcc-deploy',
+    'swarm', 'parallel-swarm', 'swarm-research', 'research-swarm',
+    'big-project', 'content-bundle', 'proof-pipeline', 'build-bos',
+    'roundtable', 'council', 'parallel-extract', 'parallel-content',
+    'jcc-strike', 'jcc-campaign', 'jcc-solo', 'jcc-refine', 'jcc-upgrade', 'jcc-aar',
+    'brief', 'generate-brief', 'mini-brief', 'deep-research',
+}
+
+
+def _auto_log_sub_agent_miss(
+    workflow: str,
+    skill: str,
+    expert: str,
+    task_type: str,
+    sub_agents_spawned: Optional[int],
+) -> Dict[str, Any]:
+    """Detect when a qualifying multi-expert workflow ran without sub-agent spawn.
+
+    Why this exists: directives/sub_agent_protocol.md had 0 recorded activations since
+    creation (2026-02-17 → 2026-04-24 audit). The protocol relies on the AI remembering
+    to spawn sub-agents at qualifying triggers — exactly the AI-memory-dependent
+    observability anti-pattern banned by feedback_ai-memory-dependent-observability.md
+    (2026-05-03). This function makes the miss visible WITHOUT changing runtime
+    behavior. After 30 days of misses data, the 2026-05-12 integration brief Move 2
+    proposes escalating to gate-blocking when qualifying tasks ran without sub-agents.
+
+    Detection: workflow name in _SUB_AGENT_QUALIFYING_WORKFLOWS AND sub_agents_spawned
+    is None or 0 → MISS logged. False positives are tolerable here — this is
+    observation only, never blocks finalize, never fails the quality gate.
+
+    Source: _active/system-integration/2026-05-12-agentic-os-elevation-brief.md Move 2.
+    """
+    workflow_normalized = (workflow or "").lower().strip()
+    qualifies = workflow_normalized in _SUB_AGENT_QUALIFYING_WORKFLOWS
+    spawned_count = sub_agents_spawned if sub_agents_spawned is not None else 0
+    is_miss = qualifies and spawned_count == 0
+
+    record = {
+        "timestamp": datetime.now().isoformat(),
+        "workflow": workflow,
+        "skill": skill,
+        "expert": expert,
+        "task_type": task_type,
+        "qualifies": qualifies,
+        "sub_agents_spawned": spawned_count,
+        "miss": is_miss,
+    }
+
+    if is_miss:
+        log_path = Path(__file__).parent.parent / "evolution_store" / "sub_agent_misses.jsonl"
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        try:
+            with open(log_path, "a") as f:
+                f.write(json.dumps(record) + "\n")
+            record["logged"] = True
+        except Exception as e:
+            record["logged"] = False
+            record["log_error"] = str(e)
+
+    return record
+
+
+# ─────────────────────────────────────────────────────────
+# Excellence Lift — runtime cap enforcement (Wave 1 / 2026-05-21)
+# ─────────────────────────────────────────────────────────
+# Background: directives/quality_gate.md specifies three caps (AI Prose ≤6,
+# Copy Calibration ≤6, Factual Veto <6) but pre-Wave-1 the gate only logged
+# advisory warnings — the 2026-04-24 audit found 94-99% of finalize scores
+# were 8+ as a result. _enforce_caps() converts those advisory rules into
+# deterministic score mutations so they cannot be ignored.
+#
+# Result-key contract (what _enforce_caps returns is folded into finalize's
+# result dict — see Wave 1 wiring):
+#   intent_alignment        — possibly capped at 6.0 (Copy Calibration)
+#   expert_standard         — possibly capped at 6.0 (AI Prose)
+#   adversarial_resilience  — unchanged by caps (no documented hard rule)
+#   factual_grounding       — passthrough; veto fires separately
+#   caps_applied[]          — audit trail (rule, from, to, reason)
+#   blocked                 — True iff Factual Veto fires
+#   block_reason            — human-readable veto reason
+#   prose_verdict           — CLEAN | WARNING | FLAGGED | NOT_RUN
+#   prose_details           — full classify_prose dict if run
+
+# Heuristic patterns for the Copy Calibration cap. Concrete-result language
+# the user values: numbers + outcome verbs OR explicit second-person promises
+# paired with a specific deliverable. Abstract benefit language ("visibility",
+# "growth", "transformation") without a named result fails the check.
+_COPY_CONCRETE_NUMBER_PATTERN = re.compile(
+    r"\b\d{1,4}(?:[.,]\d+)?\s*(?:%|x|×|hours?|days?|weeks?|months?|years?|"
+    r"customers?|clients?|leads?|posts?|followers?|subscribers?|sales?|"
+    r"dollars?|usd|deals?|booked|opens?|replies|words?|pieces?|episodes?|listings?)\b",
+    re.IGNORECASE,
+)
+_COPY_RESULT_VERBS = re.compile(
+    r"\b(?:get(?:s)?|book(?:s|ed)?|land(?:s|ed)?|close(?:s|d)?|win(?:s)?|"
+    r"convert(?:s|ed)?|generate(?:s|d)?|earn(?:s|ed)?|build(?:s|t)?|ship(?:s|ped)?|"
+    r"finish(?:es|ed)?|publish(?:es|ed)?|sign(?:s|ed)?)\b",
+    re.IGNORECASE,
+)
+_COPY_VAGUE_BENEFITS = re.compile(
+    r"\b(?:visibility|growth|transformation|alignment|clarity|"
+    r"empowerment|elevation|optimization|breakthrough|impact)\b",
+    re.IGNORECASE,
+)
+_COPY_TASK_TYPES = {"Content", "Copy", "Creative"}
+
+
+def _check_concrete_result(text: str) -> Tuple[bool, str]:
+    """Heuristic: does the text name a concrete result (Copy Calibration rule)?
+
+    Returns (passes, reason). passes=True if at least one concrete-result
+    signal is found in the last 30% of the text (where the result-promise
+    typically lives), OR a result-verb appears alongside a number anywhere.
+
+    Tolerates false-positives (favors letting copy through) — the cap is
+    meant to catch egregiously abstract benefit-only copy, not edge cases.
+    """
+    if not text or len(text) < 100:
+        return True, "text_too_short_to_judge"
+
+    tail_start = max(0, int(len(text) * 0.7))
+    tail = text[tail_start:]
+
+    has_number_in_tail = bool(_COPY_CONCRETE_NUMBER_PATTERN.search(tail))
+    has_result_verb_in_tail = bool(_COPY_RESULT_VERBS.search(tail))
+    has_number_anywhere = bool(_COPY_CONCRETE_NUMBER_PATTERN.search(text))
+    has_result_verb_anywhere = bool(_COPY_RESULT_VERBS.search(text))
+    vague_count = len(_COPY_VAGUE_BENEFITS.findall(text))
+
+    # Strong signal: number + result-verb in tail → concrete result named.
+    if has_number_in_tail and has_result_verb_in_tail:
+        return True, "concrete_result_in_close"
+    # Decent signal: number + result-verb anywhere.
+    if has_number_anywhere and has_result_verb_anywhere:
+        return True, "concrete_result_in_body"
+    # Negative signal: heavy vague-benefit language and no concretes.
+    if vague_count >= 3 and not has_number_anywhere and not has_result_verb_anywhere:
+        return False, f"vague_benefits_only ({vague_count} abstract words, 0 concrete results)"
+    # Weak signal: at least one concrete element somewhere.
+    if has_number_anywhere or has_result_verb_anywhere:
+        return True, "minimum_concrete_present"
+    # Last resort: no concretes, no heavy vagueness → judgment call, default pass.
+    return True, "no_strong_signal_either_way"
+
+
+def _enforce_caps(
+    raw_scores: Dict[str, float],
+    output_text: str,
+    task_type: str,
+    factual_grounding: Optional[float],
+) -> Dict[str, Any]:
+    """Apply runtime caps mandated by directives/quality_gate.md.
+
+    Three rules, in order:
+        1. AI Prose Cap — if prose_classifier returns FLAGGED, cap
+           expert_standard at 6.0.
+        2. Copy Calibration — for Content/Copy/Creative tasks with >100
+           chars, cap intent_alignment at 6.0 if no concrete result is named.
+        3. Factual Veto — if factual_grounding < 6, BLOCK delivery
+           (composite still computed; status=BLOCKED, passed=False).
+
+    Each cap that fires writes to caps_applied[] audit trail so
+    print_result() can show the user WHY the composite dropped.
+    """
+    enforced = dict(raw_scores)
+    caps_applied: List[Dict[str, Any]] = []
+    blocked = False
+    block_reason = ""
+    prose_verdict = "NOT_RUN"
+    prose_details: Dict[str, Any] = {}
+
+    # ── Cap 1: AI Prose ──────────────────────────────────────
+    if output_text and len(output_text) > 100:
+        try:
+            cap_required, details = should_cap_expert_standard(output_text)
+            prose_details = details
+            prose_verdict = details.get("verdict", "NOT_RUN")
+            current_expert = enforced.get("expert_standard")
+            if cap_required and current_expert is not None and current_expert > 6:
+                caps_applied.append({
+                    "rule": "ai_prose_cap",
+                    "dimension": "expert_standard",
+                    "from": current_expert,
+                    "to": 6.0,
+                    "reason": (
+                        f"prose_classifier FLAGGED "
+                        f"(ai_score {details.get('ai_score', '?')}/10, "
+                        f"{details.get('signal_count', '?')} signals)"
+                    ),
+                })
+                enforced["expert_standard"] = 6.0
+        except Exception as e:
+            prose_verdict = "ERROR"
+            prose_details = {"error": str(e)}
+
+    # ── Cap 2: Copy Calibration ──────────────────────────────
+    if task_type in _COPY_TASK_TYPES and output_text and len(output_text) > 100:
+        passes, reason = _check_concrete_result(output_text)
+        current_intent = enforced.get("intent_alignment")
+        if not passes and current_intent is not None and current_intent > 6:
+            caps_applied.append({
+                "rule": "copy_calibration_cap",
+                "dimension": "intent_alignment",
+                "from": current_intent,
+                "to": 6.0,
+                "reason": f"copy names no concrete result ({reason})",
+            })
+            enforced["intent_alignment"] = 6.0
+
+    # ── Cap 3: Factual Veto ──────────────────────────────────
+    if factual_grounding is not None and factual_grounding < 6:
+        blocked = True
+        block_reason = (
+            f"Factual Grounding scored {factual_grounding} (< 6 hard floor). "
+            f"Delivery BLOCKED per quality_gate.md — verify claims before re-finalizing."
+        )
+        caps_applied.append({
+            "rule": "factual_veto",
+            "dimension": "factual_grounding",
+            "from": factual_grounding,
+            "to": factual_grounding,  # score unchanged; status changes
+            "reason": block_reason,
+        })
+
+    return {
+        "intent_alignment": enforced.get("intent_alignment"),
+        "expert_standard": enforced.get("expert_standard"),
+        "adversarial_resilience": enforced.get("adversarial_resilience"),
+        "factual_grounding": factual_grounding,
+        "caps_applied": caps_applied,
+        "blocked": blocked,
+        "block_reason": block_reason,
+        "prose_verdict": prose_verdict,
+        "prose_details": prose_details,
+    }
+
+
 def finalize(
     output_description: str,
     expert: str = "",
@@ -220,6 +466,15 @@ def finalize(
     sub_agents_spawned: Optional[int] = None,
     session_duration_seconds: Optional[float] = None,
     critical_path_depth: Optional[int] = None,
+    # Supercomputer anchor-memory integration (added 2026-05-20)
+    project: str = "",
+    anchor_type: str = "",
+    anchor_path: str = "",
+    anchor_ref_for: str = "",
+    # Excellence Lift Wave 1 (added 2026-05-21)
+    factual_grounding: Optional[float] = None,
+    # Excellence Lift Wave 2 (added 2026-05-21)
+    anchor_named: bool = False,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -284,33 +539,65 @@ def finalize(
         result["error"] = f"Missing required quality scores: {', '.join(missing)}. The quality gate requires all 3 sub-scores."
         return result
 
-    # ── Step 2: Calculate composite ──────────────────────────────
-    composite = round((intent_alignment + expert_standard + adversarial_resilience) / 3, 1)
+    # ── Step 2: Calculate raw composite (pre-enforcement) ────────
+    raw_composite = round((intent_alignment + expert_standard + adversarial_resilience) / 3, 1)
+    result["raw_composite_score"] = raw_composite
+    result["raw_intent_alignment"] = intent_alignment
+    result["raw_expert_standard"] = expert_standard
+    result["raw_adversarial_resilience"] = adversarial_resilience
+
+    # ── Step 2.5: Apply runtime caps (Excellence Lift Wave 1) ────
+    # _enforce_caps converts the three quality_gate.md hard rules from
+    # advisory text into deterministic score mutations. See _enforce_caps
+    # docstring above for rule details.
+    enforced = _enforce_caps(
+        raw_scores={
+            "intent_alignment": intent_alignment,
+            "expert_standard": expert_standard,
+            "adversarial_resilience": adversarial_resilience,
+        },
+        output_text=output_description,
+        task_type=task_type,
+        factual_grounding=factual_grounding,
+    )
+
+    # ── Step 2.7: Apply bimodal taste signature (Wave 2) ──────────
+    # taste_signature.apply runs ON TOP of the Wave 1 caps. It encodes
+    # Farrice's bimodal taste signature (rubric_v1.md Bimodal Taste section)
+    # — harsh on failures, 8-must-be-earned, anti-cluster detection.
+    adjusted = apply_taste_signature(
+        scores={
+            "intent_alignment": enforced["intent_alignment"],
+            "expert_standard": enforced["expert_standard"],
+            "adversarial_resilience": enforced["adversarial_resilience"],
+        },
+        anchor_named=anchor_named,
+        prose_verdict=enforced["prose_verdict"],
+        factual_grounding=factual_grounding,
+    )
+
+    intent_alignment = adjusted.intent_alignment
+    expert_standard = adjusted.expert_standard
+    adversarial_resilience = adjusted.adversarial_resilience
+    composite = adjusted.composite
+
     result["composite_score"] = composite
     result["intent_alignment"] = intent_alignment
     result["expert_standard"] = expert_standard
     result["adversarial_resilience"] = adversarial_resilience
-
-    # ── Step 2.5: Prose classifier check (advisory) ───────────────
-    prose_result = None
-    if output_description and len(output_description) > 100:
-        try:
-            prose_result = classify_prose(output_description)
-            result["prose_check"] = {
-                "verdict": prose_result["verdict"],
-                "ai_score": prose_result["ai_score"],
-                "signal_count": prose_result["signal_count"],
-            }
-            if prose_result["verdict"] == "FLAGGED" and expert_standard and expert_standard > 6:
-                result["prose_warning"] = (
-                    f"Prose classifier FLAGGED (AI score {prose_result['ai_score']}/10). "
-                    f"Expert Standard may be inflated at {expert_standard}. "
-                    f"Consider cap at 6 per quality_gate.md."
-                )
-        except Exception:
-            pass  # Prose check is advisory, never blocks
+    result["factual_grounding"] = factual_grounding
+    result["taste_verdict"] = adjusted.taste_verdict
+    result["anchor_named"] = anchor_named
+    # Audit trail: Wave 1 caps + Wave 2 taste adjustments combined
+    result["caps_applied"] = enforced["caps_applied"] + adjusted.adjustments
+    result["prose_check"] = {
+        "verdict": enforced["prose_verdict"],
+        "ai_score": enforced["prose_details"].get("ai_score"),
+        "signal_count": enforced["prose_details"].get("signal_count"),
+    }
 
     # ── Step 3: Quality Gate pass/fail ───────────────────────────
+    # Factual veto (from _enforce_caps) overrides composite arithmetic.
     failed_dimensions = []
     if intent_alignment < SINGLE_DIMENSION_MIN:
         failed_dimensions.append(f"intent_alignment ({intent_alignment})")
@@ -319,31 +606,57 @@ def finalize(
     if adversarial_resilience < SINGLE_DIMENSION_MIN:
         failed_dimensions.append(f"adversarial_resilience ({adversarial_resilience})")
 
-    passed = composite >= COMPOSITE_PASS_THRESHOLD and len(failed_dimensions) == 0
-    status = "Keep" if passed else "Needs Improvement"
+    # Wave 2: bimodal taste verdict is the source of truth for pass/fail.
+    # Wave 1 factual veto (blocked) overrides everything.
+    if enforced["blocked"]:
+        passed = False
+        status = "BLOCKED — Factual Veto"
+        result["block_reason"] = enforced["block_reason"]
+    elif adjusted.taste_verdict == "PASS":
+        passed = True
+        status = "Keep"
+    elif adjusted.taste_verdict == "MARGINAL":
+        passed = False
+        status = "Needs Improvement"
+    else:  # FAIL
+        passed = False
+        status = "Needs Improvement"
 
     result["passed"] = passed
     result["failed_dimensions"] = failed_dimensions
     result["status"] = status
 
-    if not passed:
+    if enforced["blocked"]:
+        result["gate_message"] = f"🚫  QUALITY GATE BLOCKED — {enforced['block_reason']}"
+    elif adjusted.taste_verdict == "FAIL":
         if failed_dimensions:
             result["gate_message"] = f"⚠️  QUALITY GATE FAIL — Composite: {composite}, Failed dimensions: {', '.join(failed_dimensions)}. Retry weakest section."
         else:
-            result["gate_message"] = f"⚠️  QUALITY GATE MARGINAL — Composite: {composite} (below {COMPOSITE_PASS_THRESHOLD}). Consider improving weakest dimension."
-    else:
-        result["gate_message"] = f"✅  QUALITY GATE PASS — Composite: {composite}"
+            result["gate_message"] = f"⚠️  QUALITY GATE FAIL — Composite: {composite} (bimodal verdict FAIL). Retry weakest dimension."
+    elif adjusted.taste_verdict == "MARGINAL":
+        result["gate_message"] = f"⚠️  QUALITY GATE MARGINAL — Composite: {composite} (bimodal narrow band 7.0-7.5). Bimodal taste treats marginal as fail — retry or accept with eyes open."
+    else:  # PASS
+        cap_note = f" (raw {raw_composite}, capped {composite})" if result["caps_applied"] else ""
+        result["gate_message"] = f"✅  QUALITY GATE PASS — Composite: {composite}{cap_note}"
 
-    # ── Inflation guardrail (Fix 1 / 2026-04-24) ──────────────────
-    # Calibration found 94-99% of recent traces scored 8+ across all dimensions.
-    # If all 3 dims are ≥9, surface a reminder to spot-check against rubric anchors.
-    # Inflation in scoring corrupts every downstream evolution decision.
+    # ── Inflation guardrail (Wave 3 / 2026-05-21) ────────────────
+    # Original guardrail (single-call all-9s check) now augmented with
+    # rolling-window drift detection via excellence_predictor. The detector
+    # operates on the LOGGED trace distribution — if it fires, prior runs
+    # collectively show grade inflation, not just this one.
     if intent_alignment >= 9 and expert_standard >= 9 and adversarial_resilience >= 9:
         result["inflation_warning"] = (
-            "All 3 dimensions scored ≥9. Verify each matches the Anchor 9 worked example in "
-            "evolution_store/ground_truth/rubric_v1.md. If you can't name the anchor, lower the score. "
+            "All 3 dimensions scored ≥9 after Wave 1+2 enforcement. Verify each matches "
+            "the Anchor 9 worked example in evolution_store/ground_truth/rubric_v1.md. "
+            "If you can't name the anchor, lower the score and set anchor_named=False. "
             "Reference: python3 execution/eval_harness.py anchor --dimension <dim> --score 9"
         )
+    try:
+        drift = detect_grade_inflation(window=10)
+        if drift:
+            result["calibration_drift_warning"] = drift
+    except Exception:
+        pass  # detector failures are non-fatal
 
     # ── Step 4: Regression check ─────────────────────────────────
     if skill:
@@ -634,6 +947,23 @@ def finalize(
     except Exception as e:
         result["grounding_log_error"] = str(e)
 
+    # ── Step 11.8: Sub-agent miss detection (Phase D / 2026-05-12) ──
+    # Auto-log when a qualifying multi-expert workflow ran without sub-agent spawn.
+    # See _auto_log_sub_agent_miss docstring for full rationale. Observation only —
+    # never blocks finalize. After 30 days of misses data, the 2026-05-12 brief
+    # proposes escalating to gate-blocking when qualifying tasks ran without sub-agents.
+    try:
+        sub_agent_log = _auto_log_sub_agent_miss(
+            workflow=workflow,
+            skill=skill,
+            expert=expert,
+            task_type=task_type,
+            sub_agents_spawned=sub_agents_spawned,
+        )
+        result["sub_agent_log"] = sub_agent_log
+    except Exception as e:
+        result["sub_agent_log_error"] = str(e)
+
     # ── Step 12: Revenue Tracker auto-link (Upgrade 7) ──────────
     # Passed deliverables in revenue-relevant task_types get a pending
     # outcome stub registered so `revenue_tracker pipeline` surfaces
@@ -663,6 +993,62 @@ def finalize(
             result["revenue_autolink"] = reg
         except Exception as e:
             result["revenue_autolink"] = {"skipped": True, "error": str(e)}
+
+    # ── Supercomputer anchor-memory write (added 2026-05-20) ─────────
+    # When a project slug is supplied, log this finalize to the project's
+    # state.yaml history and (optionally) register the deliverable as a
+    # context anchor for downstream supercomputer phases.
+    if project:
+        try:
+            import subprocess
+            root = Path(__file__).resolve().parent.parent
+            anchor_script = root / "execution" / "anchor_memory.py"
+            project_state = root / "projects" / project / "state.yaml"
+            anchor_results: Dict[str, Any] = {"project": project}
+
+            if not project_state.exists():
+                anchor_results["skipped"] = True
+                anchor_results["reason"] = (
+                    f"projects/{project}/state.yaml does not exist. "
+                    f"Run `python3 execution/anchor_memory.py init {project}` first."
+                )
+            else:
+                # Always append a history entry for this finalize
+                log_cmd = [
+                    "python3", str(anchor_script), "log", project,
+                    "--phase", f"finalize:{skill or workflow or 'unknown'}",
+                    "--action", (
+                        f"composite={composite}, status={result.get('status', '?')}, "
+                        f"output='{output_description[:120]}'"
+                    ),
+                ]
+                subprocess.run(log_cmd, capture_output=True, check=False)
+
+                # Register as anchor if all three anchor fields supplied
+                if anchor_type and anchor_path:
+                    anchor_cmd = [
+                        "python3", str(anchor_script), "anchor", project,
+                        "--type", anchor_type,
+                        "--path", anchor_path,
+                        "--desc", output_description[:200],
+                        "--phase", f"finalize:{skill or workflow or 'unknown'}",
+                    ]
+                    if anchor_ref_for:
+                        anchor_cmd.extend(["--ref-for", anchor_ref_for])
+                    ar = subprocess.run(anchor_cmd, capture_output=True, text=True, check=False)
+                    anchor_results["anchor_registered"] = (ar.returncode == 0)
+                    anchor_results["anchor_output"] = ar.stdout.strip()
+                    if ar.returncode != 0:
+                        anchor_results["anchor_error"] = ar.stderr.strip()
+                else:
+                    anchor_results["anchor_registered"] = False
+                    anchor_results["reason"] = (
+                        "No --anchor-type / --anchor-path supplied; history logged but no anchor."
+                    )
+
+            result["anchor_memory"] = anchor_results
+        except Exception as e:
+            result["anchor_memory"] = {"skipped": True, "error": str(e)}
 
     return result
 
@@ -735,6 +1121,16 @@ def print_result(result: Dict) -> None:
     if iw:
         print(f"\n  ⚠️  INFLATION GUARDRAIL: {iw[:300]}")
 
+    # Sub-agent miss (Phase D / 2026-05-12) — surfaces only on actual miss
+    sa = result.get("sub_agent_log") or {}
+    if sa.get("miss"):
+        print(
+            f"\n  ⚠️  SUB-AGENT MISS: workflow={sa.get('workflow')} qualifies but ran with "
+            f"sub_agents_spawned={sa.get('sub_agents_spawned')}. Logged to "
+            f"evolution_store/sub_agent_misses.jsonl. After 30d of misses, the 2026-05-12 brief "
+            f"proposes escalating to gate-blocking. Pass --sub-agents N when invoking finalize."
+        )
+
     # Routing violation (post-hoc detection from routing_enforcer)
     rv = result.get("routing_violation")
     if rv:
@@ -777,6 +1173,15 @@ def main():
     fin.add_argument("--sub-agents", type=int, default=None, help="Telemetry: number of sub-agents spawned this session")
     fin.add_argument("--duration", type=float, default=None, help="Telemetry: session duration in seconds")
     fin.add_argument("--critical-path", type=int, default=None, help="Telemetry: critical-path depth (from mission-decomposer)")
+    # Supercomputer anchor-memory integration (added 2026-05-20)
+    fin.add_argument("--project", default="", help="Project slug for anchor-memory write-back (projects/<slug>/state.yaml)")
+    fin.add_argument("--anchor-type", default="", help="Anchor type (product_sheet|brand_brief|hero_visual|copy|video|ad_concept|...). Requires --project + --anchor-path to register.")
+    fin.add_argument("--anchor-path", default="", help="Path to the deliverable file to register as an anchor. Requires --project + --anchor-type.")
+    fin.add_argument("--anchor-ref-for", default="", help="Comma-separated list of later phase names that must reference this anchor.")
+    # Excellence Lift Wave 1 (added 2026-05-21)
+    fin.add_argument("--factual", type=float, default=None, help="Factual grounding score 1-10. Omit for N/A (pure creative/opinion). Score <6 BLOCKS delivery per quality_gate.md factual veto.")
+    # Excellence Lift Wave 2 (added 2026-05-21)
+    fin.add_argument("--anchor-named", action="store_true", help="Set when scores ≥8 have a named rubric anchor (rubric_v1.md). Without this flag, any dim ≥8 is capped at 7.5 by the bimodal taste filter.")
 
     args = parser.parse_args()
 
@@ -800,6 +1205,12 @@ def main():
             sub_agents_spawned=args.sub_agents,
             session_duration_seconds=args.duration,
             critical_path_depth=args.critical_path,
+            project=args.project,
+            anchor_type=args.anchor_type,
+            anchor_path=args.anchor_path,
+            anchor_ref_for=args.anchor_ref_for,
+            factual_grounding=args.factual,
+            anchor_named=args.anchor_named,
         )
         print_result(result)
     else:

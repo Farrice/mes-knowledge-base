@@ -323,6 +323,31 @@ def quick_check(text: str) -> str:
     return f"[{result['verdict']}] AI Score: {result['ai_score']}/10 — {result['signal_count']} signals"
 
 
+def should_cap_expert_standard(text: str) -> Tuple[bool, Dict[str, Any]]:
+    """Public interface for chain_runner._enforce_caps.
+
+    Returns (cap_required, details). cap_required is True iff classifier
+    verdict is FLAGGED (ai_score >= 4, per the existing threshold). WARNING
+    tier stays advisory — precision over recall, because false positives
+    would cap legitimate human-edited prose. Cap fires only when the
+    classifier is confident the prose reads AI-generated.
+
+    Details dict carries the full classify_prose return so callers can
+    populate audit trails without re-running the classifier.
+    """
+    if not text or len(text.split()) < 50:
+        return False, {
+            "reason": "text_too_short",
+            "word_count": len(text.split()) if text else 0,
+        }
+    try:
+        result = classify_prose(text)
+    except Exception as e:
+        return False, {"reason": "classifier_error", "error": str(e)}
+    cap_required = result["verdict"] == "FLAGGED"
+    return cap_required, result
+
+
 # ── CLI ─────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="Prose Classifier — AI-prose detection")

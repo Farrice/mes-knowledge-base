@@ -140,6 +140,29 @@ python execution/knowledge_compiler.py archive "query" result.md --domain X
 - `projects/` — active project workspaces
 - Deliverables → cloud services (Google Sheets/Slides)
 
+### Per-Client / Per-Project CLAUDE.md Inheritance
+
+Client and brand-specific projects use Claude Code's parent-folder CLAUDE.md inheritance to override root behavior with client-specific voice, non-goals, and constraints. When you `cd` into one of these folders, the child CLAUDE.md loads alongside root.
+
+Active per-project CLAUDE.md files (Phase B Move 3, shipped 2026-05-12):
+
+| Project | File | Domain |
+|---------|------|--------|
+| Andrea / Resonance | `projects/andrea-dj/CLAUDE.md` | Curated daytime sober dance party, Chicago, 12 Non-Negotiables |
+| Jen Santulan | `_active/jen-listings/CLAUDE.md` | LA real estate, SFV specialist, warm-friend voice |
+| Farrice / Parallax | `_active/farrice-brand/CLAUDE.md` | Substack + LinkedIn, memoir-grade interiority, banned structural moves |
+
+**Inheritance contract (required header in every child CLAUDE.md):**
+- Declare inheritance from root: `> Inherits from: /Users/farricecain/Google Antigravity/CLAUDE.md (The Chain, Architecture, Skill tiers, Quality Gate)`
+- Provide a one-paragraph brand identity (NOT a duplicate of the brand bible — a pointer + one-paragraph anchor)
+- "When to Load Full Context" table — task → which existing brand context file to load
+- **Override List** — explicit list of where this project's behavior diverges from root (voice rules, banned patterns, skipped chain steps, etc.)
+- Anti-Patterns specific to the client
+
+**Why this exists:** Pre-2026-05-12, every Antigravity session re-encoded global behavior. Client-specific voice/constraints had to be re-prompted each session. Voice mismatches happened. Per-client CLAUDE.md inheritance lets `cd projects/andrea-dj` auto-load Andrea's 12 Non-Negotiables, `cd _active/jen-listings` auto-load Jen's warm-friend voice rules, etc. Adding new clients: copy the structure from any of the 3 worked examples; the contract is uniform.
+
+**Anti-pattern:** Don't duplicate brand bibles in the child CLAUDE.md. Point to the existing brand context files. The child CLAUDE.md is the *inheritance contract*, not the brand archive.
+
 ---
 
 # The Chain (Every Request — No Exceptions)
@@ -268,8 +291,12 @@ Some domains have dedicated production workflows. If the user's task matches the
 | Login-gated source verification (LinkedIn profile facts, Substack analytics, MLS data, paywalled research) | Playwright with persistent profile per `directives/browser-automation-safety.md` + `directives/browser-automation-routing.md` (Tier 1 read-only — auth content access) | WebFetch (returns login wall HTML, not actual content) |
 | Source material includes a video URL or local video file (extract / extract-forge / parallel-extract / extract-vision / extract-amplify / convert-extraction / extract-principle / sinem-50-notes-extract / watch-and-remix / lookalike-content / format-scan / hidden-gems / style-from-creator / hook-formula-extract / talking-points / 4c-architect / atomize / knowledge-alchemy / mcclain-source-to-agent / art-direct / mood-board / storyboard / parallax) | `python3 execution/fetch-video-context.py "<source>" "<expert>"` (auto-fires from each workflow's `// turbo` block) per `directives/video-vision-protocol.md` | Transcript-only ingestion when source is video — visual hooks, on-screen text, gesture, B-roll patterns are 30-50% of meaning for visual creators. Wrapper auto-skips non-video, >10min videos, uncaptioned-no-Whisper-key, plugin not installed — never blocks parent workflow |
 | Brand Operating System / "BOS" / "build a complete brand system" / Resonance-style package / 6-layer brand build (foundation + visual + briefs + marketing + AI handoff + ops) | `/build-bos` (orchestrates 7-phase build via `skills/brand-operating-system/`) | `agents/brand-system-builder/` direct invocation (Phase B component, not orchestrator), `/design-md-synthesize` alone (Phase C component), `/brand-library` alone (Phase C component) — single-component skills are valid for single-layer scopes only |
+| Multi-deliverable marketing/creative mission — "build me a brand for X", "make me a campaign for X", "launch [product] on [platform]", "full marketing for X", "full content drop on X", "[hero shot] AND [listing visuals] AND [ad concepts] for X" (cross-deliverable cohesion required) | `/supercomputer` (orchestrates anchor-memory + pre-flight cost gate via `skills/supercomputer/` — self-hosted Higgsfield Supercomputer equivalent) | Single-skill execution (`/build-bos` alone, `/parallax` alone, `/fantastic-posters` alone) — Supercomputer mode requires `execution/anchor_memory.py` + `execution/cost_gate.py` enforcement to keep deliverables coherent across phases. Full trigger phrase list in `directives/supercomputer-mode.md`. |
+| Gate-suppressed orchestration — "autopilot", "run end-to-end", "no gates", "just execute the whole thing", "true autopilot", "stop asking just do" — user has explicitly opted into running the full chain with only taste-level gates | `/autopilot` (via `.agent/workflows/autopilot.md` — composes via `execution/intent_to_package.py`, predicts via `execution/excellence_predictor.py`, emits ledger via `execution/orchestration_ledger.py`). Three gates only: G1 (intent score ≤2 → sharpen), G2 (paid cost > $5 aggregate → approve once), G3 (prose FLAGGED at Expert Standard ≥7 → taste call). Wave 4 ships Research outcome populated; other classes the resolver tells the user which workflow to invoke directly until Wave 5. | `/supercomputer`, `/jcc-deploy`, `/campaign`, `/big-project` direct invocation — they halt at Phase 1 "Proceed?" even when user said "no gates". Autopilot wraps them and suppresses the halts. Calibration foundation is the Excellence Lift Layer (Wave 1-3): `_enforce_caps` in `execution/chain_runner.py` (AI prose cap, copy calibration cap, factual veto), `execution/taste_signature.py` (5 bimodal rules), `execution/excellence_predictor.py` (pre-flight prediction + grade-inflation detector). Without those, autopilot would inherit the 94-99%-above-8 grade inflation from the pre-Wave-1 quality gate. |
 
 **Why this exists**: A 2026-04-21 session degraded to 6/10 across 4 iterations on a Parallax edition because `writers-room` was invoked by the user's conversational ask and executed literally. `/parallax` was the correct workflow and was never loaded. Root cause captured in `/Users/farricecain/.claude/plans/additional-edits-this-line-fluffy-cake.md`. When user's conversational prompt and system's correct routing disagree, system wins and explains the override in one sentence.
+
+**Why `/autopilot` exists** (2026-05-21): A user feedback session surfaced that "autopilot-like" workflows today (`/supercomputer`, `/jcc-deploy`, `/campaign`) actually NARRATE more than they execute — they halt at gates, give "here's what to run" recommendations, force a review-then-implement loop. The user wants to move UP to the orchestration / taste / refinement / judgment layer. `/autopilot` is the gate-suppression dispatcher built specifically to deliver that: outcome-class detection → mission package assembly → end-to-end run with only taste-level halts → Orchestration Ledger with copy-pasteable refinement prompts. The full plan is at `/Users/farricecain/.claude/plans/based-on-all-of-sprightly-whale.md`.
 
 **Phase 2.5 GROUND + ZEITGEIST CHECK is non-optional for Parallax Editions 02+.** After raw-take capture (Phase 2) and before drafting (Phase 3), `/parallax` runs claim extraction, budget-tiered verification (Recall → Perplexity), zeitgeist scan, and a halt/proceed gate. This exists because Edition 02 shipped with 7 fabrications that slipped past mechanical audits (Madeon as unknown DJ, wrong day, invented distance, song-age math, etc.). The only way to skip is an explicit `--no-ground` flag, which should only be used when the edition has zero external factual surface (pure memoir with no public figures, events, brands, or stats). Full protocol in `.agent/workflows/parallax.md` Phase 2.5.
 
@@ -306,6 +333,68 @@ Push complexity into deterministic code. You focus on decision-making.
 - `DOMAIN_REGISTRY.md` — Expert swim lanes + compound pairing. Read for routing.
 - `JARVIS.md` — Expert invocation protocol. Read for multi-expert workflows.
 - `FARRICE.md` — Personal context, identity, voice. Read for content/brand work.
+
+---
+
+## Skill Architecture — Atoms vs Systems
+
+> **Operating distinction** (added 2026-05-12): The 232 entries under `skills/` and 886 entries under `.agent/workflows/` divide into two architectural tiers. Naming the distinction makes the compounding layer visible. **Source**: Simon Scrapes ("Agentic OS" + "Skill Systems" videos) integration brief at `_active/system-integration/2026-05-12-agentic-os-elevation-brief.md`.
+
+### Atomic Skill (tier: atom)
+
+Single tool, one job, designed for reuse across many compositions. The smallest functional unit. Atoms compound — upgrading one atom upgrades every system that uses it.
+
+Clear examples in Antigravity:
+- `voice-document` / `voice-calibrate` / `voice-niche` — voice capture primitives
+- `mood-board` / `creative-prompt` / `name-framework` / `one-liner` — single-deliverable creative tools
+- `find-context` / `knowledge-search` / `compile-knowledge` — knowledge retrieval primitives
+- `create-skill` / `add-notebook` / `index-conversations` — system maintenance primitives
+- `prose-check` / `slop-check` / `verify` / `grounding-pass` — audit primitives
+- `generate-image` / `generate-video` / `generate-asset` — single-output generators
+
+**Test**: Does this skill produce one deliverable type via one workflow file with no internal phase gates? → atom.
+
+### Skill System (tier: system)
+
+Multi-phase orchestrated composition. References multiple atoms (or other systems). Has an end-to-end deliverable with explicit phase structure and a clear orchestrator.
+
+Clear examples in Antigravity:
+- `/extract-forge` (8 phases: source → vision → extraction → architecture → build → registration → verification → finalize)
+- `/parallax` (memoir-grade Substack production with Phase 2.5 ground-check gate)
+- `/writers-room` (multi-expert refinement with 9-expert loadout)
+- `/jcc-deploy`, `/campaign`, `/strike`, `/solo`, `/refine`, `/upgrade`, `/aar` (JCC mission types — multi-agent coordination)
+- `/swarm`, `/parallel-swarm`, `/research-swarm`, `/swarm-research` (parallel expert deployment)
+- `/big-project`, `/newsletter-flywheel`, `/authority-flywheel`, `/proof-pipeline`, `/cold-to-close-proof-funnel`, `/launch-day` (production flywheels)
+- `/build-bos`, `/brand-arena`, `/zero-to-brand` (multi-phase brand builds)
+
+The orchestrator (SKILL.md + workflow files of a system) carries five responsibilities:
+1. **Skill architecture** — which atoms/sub-systems run, in what order
+2. **Inputs** — what each phase needs to do its job
+3. **Handoffs** — output of phase N becomes clean input for phase N+1
+4. **Human-in-loop checkpoints** — explicit halt/proceed gates between phases (Parallax 2.5 is the pattern)
+5. **Visual results display** — how output is surfaced (file path, dashboard link, Notion page)
+
+**Test**: Multiple phases that depend on each other? Multiple expert lenses applied in sequence? Explicit gate-and-proceed structure? → system.
+
+### Expert Skills as a Special Case
+
+Many `skills/` entries represent expert methodologies (Lara Acosta, Luke Iha, Cardinal Mason, Wright Thompson, etc.). These are NOT a separate tier — they classify as atom or system depending on scope:
+- Expert with a single workflow producing one deliverable type → atom (e.g., `lara-acosta-headline-engineering`)
+- Expert with a multi-phase end-to-end production line → system (e.g., `luke-iha-cross-domain`)
+
+Expert skills are "lenses" — they apply a person's methodology to a task. The atom/system question is about whether the lens runs once or chains through phases.
+
+### Sub-Agents Are Not a Third Tier
+
+Sub-agents (per `directives/sub_agent_protocol.md`) provide **context isolation between atoms in a system** — they are an execution-time choice, not an architectural tier. A system MAY spawn sub-agents at multi-expert phases; an atom typically does not. Sub-agent protocol currently has 0 recorded activations — this is the dormant-but-documented orchestration tissue the 2026-05-12 brief identifies as load-bearing for the "feels like a unified system" experience.
+
+### Frontmatter Convention
+
+Skills are progressively annotated with `tier: atom | system` in SKILL.md frontmatter. The label is **advisory**, not load-bearing — most skills can stay unlabeled until usage clarifies. Highest-leverage atoms are labeled first; ambiguous cases stay unlabeled. Workflows in `.agent/workflows/*.md` inherit the tier of their parent skill.
+
+### Why This Distinction Matters
+
+When the system feels like "a toolbox, not a unified system," the cause is usually that the same word ("skill") points to both a screwdriver and an entire workshop. Atoms compound across systems; systems are composed from atoms. The compounding layer is where the "feels unified" sensation comes from — and it only becomes visible once atom-vs-system is named.
 
 ---
 
@@ -349,6 +438,7 @@ These fire at their trigger point within the chain. Do NOT wait to "read them on
 | **Browser Automation Safety** | **Any Playwright/browser MCP invocation** | **`directives/browser-automation-safety.md` — Tier 1 reads auto-fire; Tier 2 state-changes (post/send/submit/buy) require explicit confirmation; never type credentials** |
 | **Browser Automation Routing** | **Step 4 (LOAD) + Step 5 (PRODUCE) — when task involves live web** | **`directives/browser-automation-routing.md` — when to use Playwright vs WebFetch vs Perplexity vs Apify; Playwright primary for JS-rendered, login-gated, screenshot-evidence, multi-step navigation** |
 | **Video Vision Auto-Fire** | **Source-ingestion step of any of 23 video-aware workflows (extract family, video-study workflows, Creative Director, parallax)** | **`directives/video-vision-protocol.md` — wrapper at `execution/fetch-video-context.py` invokes the claude-video plugin (`/watch`) to produce frame-grounded `visual-context.md` sidecars. Exit codes: 0 OK / 2 SKIPPED / 1 FAILED. Never blocks parent workflow.** |
+| **Workflow Gate Convention** | **Mid-execution phase boundaries in system-tier workflows (production-from-scratch, multi-expert ensemble, public-facing output, chain_runner-touching code)** | **`directives/workflow-gate-convention.md` — structured halt/proceed gates with explicit conditions + skip syntax. Distinct from quality_gate.md (post-execution 4-dim scoring). Gold-standard implementation: Parallax Phase 2.5. Worked example shipped 2026-05-12: writers-room Phase 2.5.** |
 
 ### Budget-Gated (check before calling)
 

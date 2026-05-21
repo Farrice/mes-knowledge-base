@@ -147,6 +147,82 @@ BINDINGS = [
             "when the request signals a complete BOS scope."
         ),
     },
+    {
+        "id": "supercomputer_mission",
+        "signal_phrases": [
+            "build me a brand for",
+            "build a brand for",
+            "build a brand around",
+            "brand identity for",
+            "launch a brand called",
+            "start a brand called",
+            "make me a campaign for",
+            "make a campaign for",
+            "run a campaign for",
+            "launch a campaign for",
+            "full marketing for",
+            "full content drop on",
+            "full content drop for",
+            "marketing plan and assets for",
+            "drop a campaign for",
+            "ugc ad for",
+            "ad campaign for",
+            "complete asset pack for",
+            "brief and visuals and copy for",
+            "supercomputer",
+        ],
+        "mandatory_workflow": "supercomputer",
+        "forbidden_workflows": [],
+        "reason": (
+            "Multi-deliverable marketing/creative missions require the anchor-memory "
+            "+ pre-flight cost gate pattern. Running single-skill workflows for these "
+            "produces incoherent outputs (each deliverable invents its own brand "
+            "context). The Supercomputer composes existing skills (/build-bos, "
+            "/parallax, /ghostwrite, fantastic-posters, Higgsfield MCP, Veo) and "
+            "enforces project-scoped state via execution/anchor_memory.py + "
+            "execution/cost_gate.py. Self-hosted Higgsfield Supercomputer equivalent. "
+            "Trigger phrases live in directives/supercomputer-mode.md — update both "
+            "this list AND that doc together when adding new triggers."
+        ),
+        "override_flag": None,
+        "override_warning": (
+            "If the request is genuinely single-deliverable (e.g., 'write me one "
+            "LinkedIn post'), use the specific skill directly — the binding fires "
+            "only when the request signals cross-deliverable cohesion."
+        ),
+    },
+    {
+        "id": "autopilot_orchestration",
+        "signal_phrases": [
+            "autopilot",
+            "run end-to-end",
+            "ship it end to end",
+            "no gates",
+            "just execute",
+            "stop asking just do",
+            "run the full thing",
+            "true autopilot",
+        ],
+        "mandatory_workflow": "autopilot",
+        "forbidden_workflows": [
+            "supercomputer", "jcc-deploy", "campaign", "big-project",
+        ],
+        "reason": (
+            "Autopilot is the gate-suppression dispatcher. When the user signals "
+            "'run end-to-end' / 'no gates' / 'autopilot', they want zero "
+            "mid-execution gates. Running supercomputer / jcc-deploy / campaign / "
+            "big-project directly will halt at the Phase 1 'Proceed?' / approve / "
+            "adjust gate. /autopilot picks the right orchestrator under the hood, "
+            "runs it with halts suppressed, surfaces only taste-level gates "
+            "(G1 intent-too-vague, G2 paid-cost > $5, G3 prose FLAGGED at "
+            "Expert Standard ≥ 7). See .agent/workflows/autopilot.md."
+        ),
+        "override_flag": "--manual",
+        "override_warning": (
+            "Use --manual to restore conventional halt-and-confirm gates for "
+            "high-stakes missions. Default autopilot behavior is 3-gates-only."
+        ),
+    },
 ]
 
 
