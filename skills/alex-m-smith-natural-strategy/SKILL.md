@@ -1,12 +1,12 @@
 ---
 name: alex-m-smith-natural-strategy
-description: Brutal strategic differentiation workflows from Alex M H Smith (Basic Arts, "No Bullsh*t Strategy") — sacrifice-led repositioning, supply-side scarcity, Only > Best, anti-JTBD value creation. Use for: positioning audits, sacrifice/sacred-truth inventories, commoditization diagnostics, one-sentence positioning, value-vs-problem-solver mode diagnosis.
+description: 'Brutal strategic differentiation workflows from Alex M H Smith (Basic Arts, "No Bullsh*t Strategy") — sacrifice-led repositioning, supply-side scarcity, Only > Best, anti-JTBD value creation. Use for positioning audits, sacrifice/sacred-truth inventories, commoditization diagnostics, one-sentence positioning, value-vs-problem-solver mode diagnosis.'
 version: "2.0"
 format: completion-engine
 workflows: 5
 expert: Alex M H Smith
 domain: Strategic differentiation, positioning, supply-side strategy
-source_extraction: 2026-05-03 from "The 4 Things Natural Strategists Have Embedded In Their Brains" (4,752-word transcript)
+source_extraction: '2026-05-03 from "The 4 Things Natural Strategists Have Embedded In Their Brains" (4,752-word transcript)'
 ---
 
 # Alex M H Smith — Natural Strategy Skill

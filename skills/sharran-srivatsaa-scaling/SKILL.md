@@ -1,11 +1,11 @@
 ---
-name: Sharran Srivatsaa — Business Scaling & Decision Engineering
+name: sharran-srivatsaa-scaling
 description: Constraint-based business scaling, high-stakes decision architecture, and the operator's playbook for 10X growth — from zero to exit
 expert: Sharran Srivatsaa (Acquisition.com, Real Brokerage, ARC Multifamily)
 version: 1.0.0
 domain: business scaling, decision-making, constraint theory, investing, operational excellence, entrepreneurship
 extraction_date: 2026-04-24
-source_material: "Decision Mapping Method" (Ep. 299), "4-Step Process for Investing" (Ep. 67), "37 Lessons Growing Teles 10x to $3.4B" + Perplexity enrichment
+source_material: '"Decision Mapping Method" (Ep. 299), "4-Step Process for Investing" (Ep. 67), "37 Lessons Growing Teles 10x to $3.4B" + Perplexity enrichment'
 ---
 
 # Sharran Srivatsaa — Business Scaling & Decision Engineering

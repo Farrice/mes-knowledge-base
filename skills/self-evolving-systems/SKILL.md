@@ -1,10 +1,10 @@
 ---
-name: Self-Evolving Systems
+name: self-evolving-systems
 description: Automated harness evolution using MetaHarness propose-evaluate-log-iterate loops, Karpathy autoresearch patterns, and the Bitter Lesson applied to agentic orchestration
 expert: Composite (Yoonho Lee / Andrej Karpathy / Rich Sutton)
 domain: AI/Automation — Self-Improving Systems
 version: 1.0
-source: "MetaHarness: End-to-End Optimization of Model Harnesses" (arXiv:2603.28052v1, Stanford/MIT/Crafted) + "autoresearch" (Karpathy, 2026)
+source: '"MetaHarness — End-to-End Optimization of Model Harnesses" (arXiv:2603.28052v1, Stanford/MIT/Crafted) + "autoresearch" (Karpathy, 2026)'
 ---
 
 # Self-Evolving Systems

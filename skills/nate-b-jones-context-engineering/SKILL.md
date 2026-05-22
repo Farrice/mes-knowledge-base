@@ -1,12 +1,12 @@
 ---
-name: "Nate B. Jones — Context Engineering"
-description: "Memory crisis navigation, context compression architecture, and sovereign persistent memory design for agentic systems"
+name: nate-b-jones-context-engineering
+description: Memory crisis navigation, context compression architecture, and sovereign persistent memory design for agentic systems
 expert: Nate B. Jones
 domain: AI/Automation — Context & Memory Architecture
 version: 1.0
 format: completion-engine
 workflows: 6
-source: "TurboQuant: Google's Breakthrough That Changes Everything About AI Memory" (YouTube, 2026) + Parallel Swarm Research Synthesis
+source: '"TurboQuant — Google''s Breakthrough That Changes Everything About AI Memory" (YouTube, 2026) + Parallel Swarm Research Synthesis'
 ---
 
 # Nate B. Jones — Context Engineering

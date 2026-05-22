@@ -1,10 +1,10 @@
 ---
-name: Nate B Jones — Auto-Improvement Loops
+name: nate-b-jones-auto-improvement-loops
 description: Design, deploy, and safeguard self-improving agent systems. The Karpathy loop applied to business harnesses — not just training code.
 expert: Nate B Jones
 domain: AI/Automation — Self-Improving Agent Systems
 version: 1.0
-source: "The Karpathy Loop — Auto-Research to Auto-Agent, Local Hard Takeoff in Business" (YouTube, April 2026)
+source: '"The Karpathy Loop — Auto-Research to Auto-Agent, Local Hard Takeoff in Business" (YouTube, April 2026)'
 ---
 
 # Nate B Jones — Auto-Improvement Loops

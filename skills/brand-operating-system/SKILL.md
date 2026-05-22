@@ -1,6 +1,7 @@
 ---
 name: brand-operating-system
-description: Build a complete 6-layer Brand Operating System — foundation, visual, briefs, marketing, AI handoff, ops — from canonical inputs (founder anchor + manifesto) or a discovery interview. Produces 43 markdown docs that operate as the brand's AI-pasteable source of truth. Optional auto-upload to Drive as native Google Docs in pageless format. Reference implementation: Resonance for Andrea (shipped 2026-05-04).
+description: 'Build a complete 6-layer Brand Operating System — foundation, visual, briefs, marketing, AI handoff, ops — from canonical inputs (founder anchor + manifesto) or a discovery interview. Produces 43 markdown docs that operate as the brand''s AI-pasteable source of truth. Optional auto-upload to Drive as native Google Docs in pageless format. Reference implementation — Resonance for Andrea (shipped 2026-05-04).'
+tier: system
 allowed-tools:
   - Read
   - Write

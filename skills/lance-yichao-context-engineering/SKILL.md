@@ -1,6 +1,6 @@
 ---
-name: "Lance Martin & Yichao "Peak" Ji - Context Engineering"
-description: "Context engineering methodology for production AI agents from Lance Martin (LangChain) and Yichao "Peak" Ji (Manus)"
+name: lance-yichao-context-engineering
+description: 'Context engineering methodology for production AI agents from Lance Martin (LangChain) and Yichao "Peak" Ji (Manus)'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

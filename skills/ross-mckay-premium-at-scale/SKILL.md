@@ -1,6 +1,6 @@
 ---
-name: "Ross McKay: Premium at Scale"
-description: "Ross McKay's "Premium at Scale" methodology for CPG brand positioning, mass-market retail velocity, and single-SKU manufacturing leverage."
+name: ross-mckay-premium-at-scale
+description: 'Ross McKay''s "Premium at Scale" methodology for CPG brand positioning, mass-market retail velocity, and single-SKU manufacturing leverage.'
 version: "2.0"
 format: "completion-engine"
 workflows: 1

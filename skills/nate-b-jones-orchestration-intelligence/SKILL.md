@@ -1,10 +1,10 @@
 ---
-name: Nate B. Jones — Orchestration Intelligence
+name: nate-b-jones-orchestration-intelligence
 description: Multi-agent coordination architecture using the DPVI pattern (Decompose-Parallelize-Verify-Iterate) and harness-first design principles
 expert: Nate B. Jones
 domain: AI/Automation — Multi-Agent Orchestration
 version: 1.0
-source: "4 AI Labs Built the Same System Without Talking to Each Other" (YouTube, 2026)
+source: '"4 AI Labs Built the Same System Without Talking to Each Other" (YouTube, 2026)'
 ---
 
 # Nate B. Jones — Orchestration Intelligence

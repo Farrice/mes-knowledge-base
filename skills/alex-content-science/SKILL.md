@@ -1,11 +1,11 @@
 ---
-name: Alex Content Science
+name: alex-content-science
 description: Forensic content reverse-engineering — see the 20 invisible decisions behind any viral content and extract transferable principles for original creation
 expert: Alex (Grow with Alex, @growwithalex)
 version: 1.0.0
 domain: content science, content reverse-engineering, viral mechanics, content analysis, principle extraction
 extraction_date: 2026-03-11
-source_material: "Copy Any Video. Do It Better." (DqouVa368SI), "NEW Method Blowing Up Small Channels" (7ToHB6aQalI), "I Studied How Hormozi Creates Content" (P0sjsSzatB0) + Perplexity enrichment
+source_material: '"Copy Any Video. Do It Better." (DqouVa368SI), "NEW Method Blowing Up Small Channels" (7ToHB6aQalI), "I Studied How Hormozi Creates Content" (P0sjsSzatB0) + Perplexity enrichment'
 ---
 
 # Alex — Content Science
