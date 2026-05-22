@@ -1,3 +1,10 @@
+---
+name: new-media-kingmaker
+description: Takes any founder, brand, or organization from invisible to narrative-dominant in 30 days by chaining six expert skill sets through the a16z kingmaker methodology — diagnose media posture (old vs. new media physics) → position for go-direct (Joe Rogan CEO test) → architect content city with oral/written culture awareness → arm with proof ladder across platforms → launch with platform-native campaigns → protect with OODA-speed narrative control. Compound skill orchestrating a16z new-media doctrine, Grace Andrews content cities, Luke Iha proof, Nicolas Cole ghostwriting, Lara Acosta LinkedIn, and Cardinal Mason narrative. Use when launching a founder into the public eye, repositioning an established brand for AI-era media, recovering from a narrative crisis, or when the user mentions "media empire", "narrative dominance", "go-direct strategy", "kingmaker", "Joe Rogan-ready". Trigger proactively when a positioning conversation drifts toward "we need to be everywhere" — the kingmaker methodology beats fragmented per-channel tactics.
+expert: Compound (a16z + Grace Andrews + Luke Iha + Nicolas Cole + Lara Acosta + Cardinal Mason)
+domain: New Media × Copywriting × Content Strategy × Ghostwriting × Marketing
+---
+
 # New Media Kingmaker — Cross-Domain Compound Skill
 
 **Domain**: New Media Strategy × Copywriting × Content Strategy × Ghostwriting × Marketing

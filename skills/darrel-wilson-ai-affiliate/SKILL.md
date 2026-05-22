@@ -1,5 +1,6 @@
 ---
 name: darrel-wilson-ai-affiliate
+description: Builds AI-augmented affiliate revenue systems using Darrel Wilson's utility-first model — build the tool, not the review. In a post-AI-search world where ChatGPT answers "best VPN review" before anyone clicks, the only affiliate sites that survive provide genuine utility (currency converters, crypto analyzers, file converters). Wilson builds them using AI, embeds affiliate links as natural next steps, drives traffic through long-form video (5% conversion rate). $50-60K/month in commissions backs the methodology. Use when designing affiliate revenue strategy, when traditional review-blog affiliate is dying, when building utility tools to monetize, when planning n8n automation + parasite SEO + AI site generation, or when the user mentions "AI affiliate", "utility-first", "Darrel Wilson", "post-AI search", "tool not review". Trigger proactively when an affiliate-marketing discussion assumes review-blog mechanics still work — they don't.
 expert: Darrel Wilson
 domain: AI-Augmented Affiliate Marketing & Digital Revenue Systems
 version: 1.0

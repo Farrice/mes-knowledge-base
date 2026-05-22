@@ -1,3 +1,10 @@
+---
+name: kallaway-social-commerce
+description: Monetizes content distribution at Social Commerce 3.0 economics — designs Revenue-Per-View (RPV) strategy across the four converging tailwinds (instant affiliate infrastructure, agentic commerce, production cost collapse, AI visual recognition) that 5-10x the value of distribution skill. Forces role clarity (Brand Owner / Content Creator / Facilitator) before optimizing for views. Use when monetizing an audience, designing creator-economy revenue rails, deciding between affiliate / direct product / facilitator models, when content has views but no revenue, or when the user mentions "monetize my following", "RPV", "affiliate strategy", "social commerce", "creator economy monetization". Trigger proactively when a content discussion drifts toward "how do I make money from this?" — the RPV diagnosis beats picking monetization tactics in isolation.
+expert: Kallaway
+domain: Social Commerce × Distribution Economics × Monetization Infrastructure
+---
+
 # Kallaway Social Commerce 3.0 — SKILL.md
 
 ## Domain

@@ -1,3 +1,10 @@
+---
+name: luke-iha-insight-vectors
+description: Generates the raw ideas that make persuasion possible — Luke Iha's meta-methodology sitting UPSTREAM of mechanisms, hooks, copy, and content. Identifies structural weaknesses in target audience mental models and engineers vectors (12+ types organized by systems-thinking category) that rewire those maps. Includes the 8-Fold Elaboration structure converting raw vectors into deployable copy/content/hook/mechanism ammunition. Use when ideation is stalling, when copy feels derivative, when needing fresh mechanism candidates, when the same hooks keep getting recycled, when designing a new campaign concept, or when the user mentions "insight vectors", "epiphany generation", "mental model gaps", "new angles", "fresh perspectives". Trigger proactively when the user reaches for hooks/mechanisms/copy WITHOUT first having insight vectors — vectors are the upstream primitive most copy work skips.
+expert: Luke Iha
+domain: Insight generation × Systems-thinking grammar × Mental-model rewiring
+---
+
 # Luke Iha: Insight Vectors — Systems Grammar for Generating Epiphanies
 
 > The meta-methodology that sits UPSTREAM of mechanisms, hooks, copy, and content. Where other Luke Iha skills deploy persuasion, this skill GENERATES the raw ideas that make persuasion possible.

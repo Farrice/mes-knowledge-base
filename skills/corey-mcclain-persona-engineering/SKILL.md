@@ -1,5 +1,6 @@
 ---
-name: Corey McClain — Persona-First Context Engineering
+name: corey-mcclain-persona-engineering
+description: Adds a narrative identity layer (Persona) on top of Logic, Library, and Memory to produce AI agent outputs that cross from "technically accurate" to "recognizably distinct." The LLMP framework (Logic → Library → Memory → Persona) plus the Makoshi state-capture protocol transforms how agents think by changing the world they inhabit. Use when designing AI agents that need a distinct voice / character, when generic agent outputs feel interchangeable, when building expert personas with embodied perspective (not just role-playing prompts), when the user mentions "LLMP framework", "Makoshi protocol", "persona engineering", "agent identity", "context engineering". Trigger proactively when an AI agent is producing technically-correct but flavorless outputs — the missing layer is usually Persona, not more Logic or Library.
 domain: AI Agent Architecture × Context Engineering
 expert: Corey McClain
 version: 1.0

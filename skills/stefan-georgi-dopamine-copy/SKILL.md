@@ -1,3 +1,10 @@
+---
+name: stefan-georgi-dopamine-copy
+description: Engineers direct-response copy as neurochemical pharmacology — Stefan Georgi's RMBC method treats every word as a dopamine event, every structure as a dosage controller. Four-phase architecture (Lead/Open → Rapport/Background → Mechanism → Close/Future Pace) with 70-80% of creative energy in the first 3-5 seconds of the lead. $700M+ in tracked sales behind the methodology. Use when writing direct-response copy, VSL leads, sales pages, sales-email sequences, or any conversion-bearing surface that needs to grip attention and convert to action — especially when the user mentions "RMBC", "Stefan Georgi", "dopamine copy", "direct response", "sales letter", or a draft that's informative but converting poorly. Trigger proactively even when the user just shares an underperforming sales asset without naming Georgi — RMBC's dopamine-dosage diagnosis applies to all conversion copy.
+expert: Stefan Georgi
+domain: Direct-response copywriting × neurochemical pharmacology
+---
+
 # Stefan Georgi — Dopamine Copywriting Architecture
 
 ## Expert Context

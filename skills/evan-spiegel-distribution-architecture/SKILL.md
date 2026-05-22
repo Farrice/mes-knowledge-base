@@ -1,3 +1,10 @@
+---
+name: evan-spiegel-distribution-architecture
+description: Architects products distribution-first — Evan Spiegel's doctrine that distribution is the primary strategic variable and everything else is downstream. Built Snapchat to ~1B users while surviving 15 years of Facebook/Meta feature cloning. Methodology covers defensible distribution moats, "make don't think" velocity, structural innovation vs. operational reliability split, customer-feedback discipline (don't build exactly what they ask), constraint reframing, and founder-builder → founder-leader evolution. Use when launching a product before PMF, when competitors are cloning features, when feedback-driven roadmaps are slowing innovation, when adopting AI without a structured framework, when scaling from founder-builder to founder-leader, or when the user mentions "distribution moat", "Snap strategy", "outlast Meta", "ship-not-think". Trigger proactively when a product discussion is heavy on features and light on distribution — Spiegel's framing flips the priority. Do NOT use for brand aesthetics (→ Oren), content psychology (→ Kallaway), DTC unit economics (→ Danny Yeung).
+expert: Evan Spiegel
+domain: Distribution-first product strategy × defensible moats × founder evolution
+---
+
 # Distribution-First Product Architecture — Evan Spiegel
 
 > The Distribution-First Product Architect. Build products that survive being copied, outspent, and out-distributed by incumbents.

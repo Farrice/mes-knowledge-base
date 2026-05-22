@@ -1,3 +1,10 @@
+---
+name: kallaway-ai-content-engine
+description: Accelerates content production 3-5x using Kallaway's Transactional-Creative Split — automate transactional work (research, outlier mining, hook clustering, scripting structure, analytics) while preserving creative work (unique take, perspective choice, voice, emotional calibration) for humans. Governing metric is Research-to-Reaction Ratio (target 80% AI research / 20% human reaction). Use when scaling content output without losing authenticity, when content production feels like grunt work, when AI is producing technically-correct-but-flavorless content, or when the user mentions "scale content with AI", "AI content engine", "use AI without sounding AI". Trigger proactively when the user describes manual research bottlenecking creative output OR when AI-generated drafts are losing the "sauce" — the Transactional-Creative Split diagnoses both failure modes.
+expert: Kallaway
+domain: AI-Augmented Content Production Infrastructure
+---
+
 # Kallaway AI-Enabled Content Engine — SKILL.md
 
 ## Domain

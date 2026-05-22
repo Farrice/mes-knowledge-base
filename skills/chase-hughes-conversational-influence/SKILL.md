@@ -1,5 +1,6 @@
 ---
-name: Chase Hughes — Conversational Influence
+name: chase-hughes-conversational-influence
+description: Deploys 5 invisible-persuasion techniques rooted in one mechanic — the brain cannot resist what came from within it. Instead of pushing arguments, Hughes arranges cognitive components close enough together that the audience's own pattern-matching produces the conclusion (they feel clever; conviction lands; they never know they were guided). Same machinery in reverse becomes cognitive defense — spotting when someone is doing it to you. Use when designing high-stakes conversations, courtroom-style persuasion, sales-call architecture, defending against manipulation, media-literacy training, or when the user mentions "Chase Hughes", "conversational influence", "invisible persuasion", "cognitive defense". Trigger proactively when copy or content needs to land conviction without explicit argumentation. Honest scope — this skill covers the 5 conversational/persuasion techniques from one Unlearn podcast; does NOT cover Hughes's Behavior Suite (BSuite, AIM, 6MX, SPIES, interrogation) — those need a separate extract.
 domain: Behavioral influence × Courtroom persuasion × Cognitive defense × Media literacy
 expert: Chase Hughes
 version: 1.0

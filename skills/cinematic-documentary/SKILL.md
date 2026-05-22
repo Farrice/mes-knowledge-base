@@ -1,3 +1,10 @@
+---
+name: cinematic-documentary
+description: Architects narrative content as directorial structure using David Gelb's character-first methodology (Jiro Dreams of Sushi, Chef's Table — 6 seasons). Treats documentary not as information delivery but as character architecture — find the protagonist's Spider-Man origin moment, separate want from need, design Bond-style cold opens, plant false victories that shatter at midpoint, demand scene-level change in every section. Emotion over information ("find the egg sushi"). Audience treated as parallel character on transformation arc. Use when transforming topic-centered content into character-driven narrative, fixing flat or explanatory drafts, designing cold-open hooks for video/audio/Substack, structuring brand or founder origin stories, processing feedback through doctor-patient model (symptoms not prescriptions), or when the user mentions "Chef's Table", "David Gelb", "character-first", "Spider-Man moment", "false victory", "egg sushi", "gesamtkunstwerk". Trigger proactively when a draft reads like exposition rather than story — feature-film methodology fixes the flatness.
+expert: David Gelb
+domain: Cinematic Documentary × Character Architecture × Narrative Direction
+---
+
 # Cinematic Documentary — Skill Manifest
 
 ## Overview

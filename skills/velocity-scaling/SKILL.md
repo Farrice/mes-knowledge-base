@@ -1,3 +1,10 @@
+---
+name: velocity-scaling
+description: Operates founder-led businesses at inhuman speed using Danny Yeung's $0→$100M velocity playbook ($800M revenue COVID pivot, IM8 across 31 countries with David Beckham equity partnership, Prenetics NASDAQ listing). Speed itself becomes the moat. Methodology covers founder-in-the-weeds decision compression (same-day cycles), team velocity filter (binary growth-mindset hiring screen), 3.0-3.5x CAC/LTV unit economics with sub-4-month payback, 3-month subscription AOV plays, 1,500+ ad creative factories at 75/25 static-to-video ratio, equity celebrity partnerships (3yr minimum, power-user verified), guerrilla loss-leader CAC, infrastructure-leverage pivots in <30 days, and AI-native operating mandate. Use when building DTC subscription businesses, structuring celebrity/influencer partnerships that actually convert, pivoting an existing business to a new market using existing assets, compressing decision cycles from weeks to hours, scaling creative output 30x, raising capital with operator credibility, or when the user mentions "Danny Yeung", "IM8", "Prenetics", "velocity-as-moat", "loss-leader CAC", "creative factory", "infrastructure pivot". Trigger proactively when founder-operator velocity is the constraint blocking growth.
+expert: Danny Yeung
+domain: Velocity Scaling × DTC Subscription × Celebrity Partnership × Infrastructure Pivot
+---
+
 # Velocity Scaling — Danny Yeung
 
 > The Founder-Operator Velocity Strategist. Build, scale, and pivot companies at inhuman speed using Danny Yeung's $0→$100M operating system.

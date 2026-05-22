@@ -1,3 +1,10 @@
+---
+name: lamott-craft
+description: Manages the writer's relationships with inner critic, material, attention, and reader using Anne Lamott's 45-year craft methodology (Bird by Bird, 21 books). Treats writing as relational craft, not technique execution — the writer who befriends the process outlasts the warrior who fights through it. Workflows include inner-critic dialogue (visualize, name, retire), the Three-Draft system (Poopy → Adult → Dental), the "rag bag" observation pipeline, anti-literary filter ("if it's literary, it isn't"), ABDCE structure, dialogue audit ("said only", read-aloud test), and block dissolution via tenderness rather than force. Use when navigating writer's block, dissolving inner-critic paralysis, structuring drafts via Action-Background-Development-Climax-Ending, stripping pretension from over-written prose, auditing dialogue for naturalness, sourcing fresh observational material, or when the user mentions "Anne Lamott", "Bird by Bird", "shitty first draft", "inner critic", "rag bag", "ABDCE". Trigger proactively when a writer is stuck, force-trying, or producing self-conscious literary prose.
+expert: Anne Lamott
+domain: Writing Craft × Creative Process × Relational Methodology
+---
+
 # Lamott Craft — Skill Manifest
 
 ## Overview

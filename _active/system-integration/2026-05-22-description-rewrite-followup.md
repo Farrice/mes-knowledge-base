@@ -2,8 +2,42 @@
 
 > **Context**: 2026-05-22 audit found 21 of 234 skills (9%) had NO `description:` field in their SKILL.md frontmatter — completely invisible to Anthropic's skill-discovery layer (which matches user intent against the `description` field). The 2026-05-21 best-practices research synthesis identified description rewrites as the single highest-leverage discoverability lift available.
 >
-> **Done this session (2026-05-22)**: 6 of 21 fixed.
-> **Remaining**: 15.
+> **Status (2026-05-22, end of session): COMPLETE — 21 of 21 fixed.**
+> - Commit `22130da1`: first 6 (luke-iha-cross-domain, nicolas-cole-niche-positioning, kallaway-addictive-storytelling, jason-fladlien-marketing, new-media-ghostwriting, seth-godin-brand).
+> - This commit: remaining 15 (Batch 1: stefan-georgi-dopamine-copy, kallaway-ai-content-engine, kallaway-social-commerce, luke-iha-insight-vectors, evan-spiegel-distribution-architecture · Batch 2: new-media-kingmaker, chase-hughes-conversational-influence, corey-mcclain-persona-engineering, darrel-wilson-ai-affiliate, creative-campaign-strategy · Batch 3: cinematic-documentary, lamott-craft, story-compass, velocity-scaling, wright-thompson-mastery).
+>
+> Post-audit verification: 0 SKILL.md files missing the `description:` field (was 21).
+
+## NEW Finding (surfaced during final verification — separate from original audit)
+
+11 SKILL.md files have **description text present** but **broken YAML** that `yaml.safe_load` cannot parse — meaning Anthropic's skill-discovery layer almost certainly cannot read them either. These files were NOT in the original 21-skill audit because the audit checked for missing `description:` lines, not for valid YAML.
+
+Files affected (pre-existing — NOT caused by this batch):
+- `skills/alex-content-science/SKILL.md` — unquoted name with spaces
+- `skills/alex-m-smith-natural-strategy/SKILL.md` — unquoted colon mid-description
+- `skills/brand-operating-system/SKILL.md` — unquoted colon mid-description
+- `skills/fantastic-posters/SKILL.md` — unquoted colon mid-description
+- `skills/lance-yichao-context-engineering/SKILL.md` — nested quotes in name
+- `skills/nate-b-jones-auto-improvement-loops/SKILL.md` — unquoted name with em-dash
+- `skills/nate-b-jones-context-engineering/SKILL.md` — nested quotes + em-dash
+- `skills/nate-b-jones-orchestration-intelligence/SKILL.md` — unquoted name with em-dash
+- `skills/ross-mckay-premium-at-scale/SKILL.md` — unquoted colon
+- `skills/self-evolving-systems/SKILL.md` — unquoted colon
+- `skills/sharran-srivatsaa-scaling/SKILL.md` — unquoted name with em-dash
+
+**Fix pattern**: convert name to hyphenated-lowercase (no em-dashes, no spaces, no nested quotes), and either quote the entire description value or escape internal colons. This is a separate 30-60 minute batch and should be the immediate follow-up.
+
+**Verification command**:
+```bash
+python3 -c "
+import yaml; from pathlib import Path
+for s in sorted(Path('skills').glob('*/SKILL.md')):
+    t = s.read_text()
+    if not t.startswith('---'): continue
+    try: yaml.safe_load(t.split('---', 2)[1])
+    except yaml.YAMLError as e: print(s, '->', str(e)[:120])
+"
+```
 
 ## What's Done (commit-ready)
 

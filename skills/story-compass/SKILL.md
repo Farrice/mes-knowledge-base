@@ -1,3 +1,10 @@
+---
+name: story-compass
+description: Pre-flight diagnostic that determines whether raw material is story-worthy using Tim Runia's Want → Tension → Change → Compass Sentence methodology. Position 0 expert — runs BEFORE all other storytelling/content/copy experts to verify there's actually a story to tell, not just a topic dressed as one. Compresses any idea into one GPS sentence "I wanted ___, but ___, until ___." Binary story-vs-topic test (all three present = story; missing any = still a topic). Workflows for systematic tension mining when none is obvious, engineering meaningful change when ending is weak, applying compass to video scripts, sales copy, VSLs, emails, content calendars, and multi-part series. Use when starting any narrative deliverable, batch-processing content calendar ideas, rescuing stalled mid-creation content, validating brand promises have story fuel, or when the user mentions "Tim Runia", "story compass", "want/tension/change", "compass sentence", "is this actually a story?". Trigger proactively when content drafts feel topic-shaped — the compass surfaces whether there's narrative gravity or just information.
+expert: Tim Runia
+domain: Story Diagnosis × Narrative Architecture × Pre-Creation Compass
+---
+
 # Story Compass — Tim Runia's Idea-to-Story Transformation
 
 > **Position 0 Expert** — Runs BEFORE all other storytelling, content, and copy experts. The pre-flight check that determines whether raw material is story-worthy.

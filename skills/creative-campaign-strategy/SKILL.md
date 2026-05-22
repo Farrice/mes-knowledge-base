@@ -1,3 +1,10 @@
+---
+name: creative-campaign-strategy
+description: Architects identity-first campaigns using Ron Lynch's screenwriter-turned-DRTV-pioneer methodology — don't sell products, sell who the customer becomes. Engineers the customer into a zero-cost media channel, collapsing acquisition cost to zero. Billions sold in cooking appliances; architected GoPro's $600K → $16M campaign in 2 years. Methodology covers identity-transformation naming (one word), campaign element alignment, customer-as-media engineering, food-first / adventure-first creative leads, multi-channel segment-specific creative, and DRTV-to-VSL translation. Use when designing campaigns around identity transformation (not product features), engineering customer-as-media flywheels, writing transformation-led sales creative, building data-capture funnels via contests/giveaways, or when the user mentions "identity-first campaign", "Ron Lynch", "DRTV to VSL", "GoPro playbook". Trigger proactively when product-feature copy isn't converting — Lynch flips to identity. Do NOT use for sentence-level copy craft (→ Joanna Wiebe, Alen Sultanic), viral mechanics (→ Kallaway), consumer identity profiling (→ Dai Media), category design (→ Rory Sutherland).
+expert: Ron Lynch
+domain: Identity-first campaign architecture × DRTV × customer-as-media engineering
+---
+
 # Creative Campaign Strategy — Ron Lynch
 
 > The Campaign Architect. He doesn't sell products — he sells who the customer becomes. Then engineers the customer into an unpaid media channel, collapsing acquisition costs to zero.

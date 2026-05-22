@@ -1,3 +1,10 @@
+---
+name: wright-thompson-mastery
+description: Architects narrative journalism that discovers something both specific AND universal about the human condition, using Wright Thompson's long-form profile methodology (ESPN, Pappyland, The Cost of These Dreams). Treats writing as problem-solving not performance — stories exist in the world like gravity; the writer's job is to see the path that was already there. Hammer-first architecture (build backward from emotional ending), central-complication diagnostic (irreducible tension at the subject's core), reporting truth audit (expose where language hides a gap), interiority bridge (surface hidden interior lives, connect to exterior action), myth-reality gap (distance between public mythology and private truth), erosion-not-revision (refine drafts through subtractive re-reading), detail-as-metaphor, emotional-residue engineering. Use when writing profiles of real people, fixing flat drafts that maintain one emotional level, finding the through-line in scenes that feel disconnected, engineering endings that haunt, or when the user mentions "Wright Thompson", "Pappyland", "central complication", "interiority", "hammer first", "myth-reality gap", "emotional residue". Trigger proactively when long-form content needs to land both specific and universal — the methodology was built for exactly that.
+expert: Wright Thompson
+domain: Narrative Journalism × Long-Form Profile × Cinematic Non-Fiction × Book-Length Architecture
+---
+
 # Wright Thompson — Narrative Mastery
 
 > The art of writing stories that discover something true — both specific and universal — about the human condition.
