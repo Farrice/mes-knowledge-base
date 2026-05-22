@@ -3,8 +3,10 @@
 **Date**: 2026-05-22
 **Author**: Calibration replay session
 **Source code under test**: `execution/chain_runner.py::_enforce_caps` + `execution/taste_signature.py::apply` (commit 82685da6, Wave 1-2)
-**Trace window**: 20 most recent files in `evolution_store/v2_traces/` by mtime (2026-05-08 → 2026-05-22)
+**Trace window**: 20 most recent files in `evolution_store/v2_traces/` by mtime (2026-05-12 → 2026-05-22 09:19)
 **Replay harness**: `.tmp/replay_calibration.py` (not committed)
+
+> **Note on timing**: An earlier draft of this doc ran before four parallel-task finalize() calls (`research-swarm`, `lara-acosta-linkedin-ghostwriting`, `system-audit`, `atomize`) wrote new traces. This re-run includes those four — they replaced the four oldest traces in the prior window (`extract-forge 040155`, `oren-brand-archetypes`, and two older entries). Numbers shifted modestly; the structural findings did not.
 
 ---
 
@@ -14,9 +16,9 @@
 
 | Criterion | Target | Observed | Result |
 |---|---|---|---|
-| Mean composite drops 0.5-1.5 | -0.5 to -1.5 | **-0.55** | PASS (at the low end) |
-| ≥30% (6+) trip a cap | 30%+ | **85% (17/20)** | PASS (overshoots) |
-| Bimodal distribution: clear PASS/FAIL clusters, thin 7.0-7.5 band | thin 7.0-7.5 | **75% (15/20) IN 7.0-7.5 band** | **FAIL** — opposite of bimodal |
+| Mean composite drops 0.5-1.5 | -0.5 to -1.5 | **-0.50** | PASS (right at the floor) |
+| ≥30% (6+) trip a cap | 30%+ | **75% (15/20)** | PASS (overshoots) |
+| Bimodal distribution: clear PASS/FAIL clusters, thin 7.0-7.5 band | thin 7.0-7.5 | **70% (14/20) IN 7.0-7.5 band** | **FAIL** — opposite of bimodal |
 
 The system aggressively caps high scores (good) and aggressively penalizes failures (good), but the two harshness mechanisms collide at exactly 7.50, producing a **MARGINAL plateau** where the bimodal mid-band was supposed to be thin.
 
@@ -26,35 +28,35 @@ The system aggressively caps high scores (good) and aggressively penalizes failu
 
 | # | File | Task | Raw composite | New composite | Δ | Verdict | Caps fired | Rules |
 |---|------|------|--------------:|--------------:|--:|---------|----------:|-------|
-| 1 | trace_20260522_091419_writers-room | Content | 5.83 | 5.17 | **−0.66** | FAIL | 2 | failure_penalty ×2 |
-| 2 | trace_20260522_081942_vince-nijhof-dtc-operator-system | Strategy | 7.50 | 7.50 | 0.00 | **PASS** | 0 | — |
-| 3 | trace_20260522_081253_linkedin-post-production | Content | 7.50 | 7.50 | 0.00 | **PASS** | 0 | — |
-| 4 | trace_20260521_120512_research-landscape | Research | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
-| 5 | trace_20260521_115858_test | Content | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 6 | trace_20260521_115539_test | Strategy | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 7 | trace_20260521_115538_test | Content | 7.33 | 7.33 | 0.00 | MARGINAL | 0 | — |
-| 8 | trace_20260521_115536_test | Content | 6.67 | 6.33 | −0.34 | FAIL | 1 | failure_penalty |
-| 9 | trace_20260521_115503_test | Content | 6.67 | 6.33 | −0.34 | FAIL | 1 | failure_penalty |
-| 10 | trace_20260521_115124_test | Strategy | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 11 | trace_20260521_115056_test-skill | Content | 8.00 | 6.67 | **−1.33** | FAIL | 3 | failure_penalty + earned_8_cap ×2 |
-| 12 | trace_20260521_093655_jen-santulan-listing-content | Client Work | 8.33 | 7.50 | −0.83 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 13 | trace_20260520_213904_supercomputer | Creative | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
-| 14 | trace_20260520_201348_brand-operating-system | Client Work | 9.00 | 7.50 | **−1.50** | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 15 | trace_20260520_190821_deep-research | Research | 8.67 | 7.50 | **−1.17** | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 16 | trace_20260512_043309_extract-forge | System | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
-| 17 | trace_20260512_043131_parallax | Content | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
-| 18 | trace_20260512_040300_extract-forge | System | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
-| 19 | trace_20260512_040155_extract-forge | System | 6.67 | 6.33 | −0.34 | FAIL | 1 | failure_penalty |
-| 20 | trace_20260508_154126_oren-brand-archetypes | Strategy | 8.67 | 7.50 | **−1.17** | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 1 | trace_20260522_091955_research-swarm | Research | 7.17 | 7.17 | 0.00 | MARGINAL | 0 | — |
+| 2 | trace_20260522_091711_lara-acosta-linkedin-ghostwriting | Content | 5.83 | 5.17 | **−0.66** | FAIL | 2 | failure_penalty ×2 |
+| 3 | trace_20260522_091637_system-audit | System | 7.17 | 7.17 | 0.00 | MARGINAL | 0 | — |
+| 4 | trace_20260522_091557_atomize | Content | 5.00 | 4.33 | **−0.67** | FAIL | 2 | failure_penalty ×2 |
+| 5 | trace_20260522_091419_writers-room | Content | 5.83 | 5.17 | **−0.66** | FAIL | 2 | failure_penalty ×2 |
+| 6 | trace_20260522_081942_vince-nijhof-dtc-operator-system | Strategy | 7.50 | 7.50 | 0.00 | **PASS** | 0 | — |
+| 7 | trace_20260522_081253_linkedin-post-production | Content | 7.50 | 7.50 | 0.00 | **PASS** | 0 | — |
+| 8 | trace_20260521_120512_research-landscape | Research | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
+| 9 | trace_20260521_115858_test | Content | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 10 | trace_20260521_115539_test | Strategy | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 11 | trace_20260521_115538_test | Content | 7.33 | 7.33 | 0.00 | MARGINAL | 0 | — |
+| 12 | trace_20260521_115536_test | Content | 6.67 | 6.33 | −0.34 | FAIL | 1 | failure_penalty |
+| 13 | trace_20260521_115503_test | Content | 6.67 | 6.33 | −0.34 | FAIL | 1 | failure_penalty |
+| 14 | trace_20260521_115124_test | Strategy | 8.00 | 7.50 | −0.50 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 15 | trace_20260521_115056_test-skill | Content | 8.00 | 6.67 | **−1.33** | FAIL | 3 | failure_penalty + earned_8_cap ×2 |
+| 16 | trace_20260521_093655_jen-santulan-listing-content | Client Work | 8.33 | 7.50 | −0.83 | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 17 | trace_20260520_213904_supercomputer | Creative | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
+| 18 | trace_20260520_201348_brand-operating-system | Client Work | 9.00 | 7.50 | **−1.50** | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 19 | trace_20260520_190821_deep-research | Research | 8.67 | 7.50 | **−1.17** | MARGINAL | 4 | earned_8_cap ×3 + anti_cluster_verdict_demote |
+| 20 | trace_20260512_043309_extract-forge | System | 7.67 | 7.33 | −0.34 | MARGINAL | 2 | earned_8_cap ×2 |
 
 **Aggregates**
-- Mean raw composite: **7.68**
-- Mean new composite: **7.12** (Δ = **−0.55**)
-- Caps fired on **17/20 (85%)** traces
-- Verdict mix: **2 PASS / 13 MARGINAL / 5 FAIL**
+- Mean raw composite: **7.38**
+- Mean new composite: **6.88** (Δ = **−0.50**)
+- Caps fired on **15/20 (75%)** traces
+- Verdict mix: **2 PASS / 12 MARGINAL / 6 FAIL**
 - Largest single drop: **−1.50** (brand-operating-system, 9.00 → 7.50)
-- All 5 FAILs cluster in 5.2–6.7 (clean failure cluster)
-- All 13 MARGINALs cluster in 7.0–7.5; **10 of those land at exactly 7.50**
+- 6 FAILs cluster in 4.33–6.67 (clean failure cluster, including the two newest organic FAILs at 4.33 and 5.17)
+- 12 MARGINALs cluster in 7.0–7.5; **8 of those land at exactly 7.50**
 
 ---
 
@@ -62,38 +64,53 @@ The system aggressively caps high scores (good) and aggressively penalizes failu
 
 | Bucket | Raw | New |
 |---|---:|---:|
-| < 6.0 | 1 | 1 |
-| 6.0 – 6.4 | 0 | 3 |
-| 6.5 – 6.9 | 3 | 1 |
-| 7.0 – 7.4 | 1 | 5 |
-| **7.5 exact** | 2 | **10** |
-| 7.6 – 7.9 | 4 | 0 |
-| 8.0+ | 9 | 0 |
+| < 6.0 | 3 | 3 |
+| 6.0 – 6.4 | 0 | 2 |
+| 6.5 – 6.9 | 2 | 1 |
+| 7.0 – 7.4 | 3 | 6 |
+| **7.5 exact** | 2 | **8** |
+| 7.6 – 7.9 | 3 | 0 |
+| 8.0+ | 7 | 0 |
 
-The 8.0+ population (9 traces) and the 7.6–7.9 population (4 traces) **all** collapsed into 7.5 or 7.0–7.4. None survived in the "earned excellent" zone — because no historical trace had `anchor_named=True`.
+The 8.0+ population (7 traces) and the 7.6–7.9 population (3 traces) **all** collapsed into 7.5 or 7.0–7.4. None survived in the "earned excellent" zone — because no historical trace had `anchor_named=True`.
+
+---
+
+## What the Four New Parallel-Task Traces Contributed
+
+The 4 traces that landed during the parallel batch (09:15–09:19 on 2026-05-22) added an organic spread to the picture:
+
+| Trace | Raw | Verdict after caps | Note |
+|---|--:|---|---|
+| `research-swarm` | 7.17 | MARGINAL (no caps) | Natural moderate self-score; no caps needed |
+| `system-audit` | 7.17 | MARGINAL (no caps) | Natural moderate self-score; no caps needed |
+| `lara-acosta-linkedin-ghostwriting` | 5.83 | FAIL (failure_penalty ×2) | Real content failure; harsh-on-failure rule did its job |
+| `atomize` | 5.00 | FAIL (failure_penalty ×2) | Lowest composite in the full 20; clean FAIL classification |
+
+Net effect on aggregates vs the pre-parallel-run draft: mean Δ slipped from −0.55 → −0.50 (the new FAILs have a smaller per-trace drop than the high-score MARGINALs they displaced, because `failure_penalty` is bounded by `max(1.0, val − 1.0)`); cap-trip rate slipped 85% → 75% (two of the new traces had zero caps fire on natural-moderate scores); FAIL count went 5 → 6. **The structural finding is unchanged**: high-score traces still pile at 7.50/MARGINAL.
 
 ---
 
 ## Per-Criterion Analysis
 
-### Criterion 1: Mean drop 0.5–1.5 → PASS (low end)
+### Criterion 1: Mean drop 0.5–1.5 → PASS (at the floor)
 
-Observed −0.55 is technically inside the target band but pressed against the floor. Two contributors keep the drop modest:
+Observed −0.50 sits exactly at the bottom of the target band. Two contributors keep the drop modest:
 
-- **Five traces had no cap fire** (`vince-nijhof`, `linkedin-post-production`, `test 115538`, plus the natural-7.5s) because their raw dims were already at 7.5 or below 8 without tripping `failure_penalty`. They contribute Δ = 0.
-- **Three traces had only `failure_penalty` fire** (already-failing items got harsher) and their drops are −0.34 each — small in absolute terms because the penalty is bounded by `max(1.0, val − 1.0)`.
+- **Five traces had no cap fire** (`research-swarm`, `system-audit`, `vince-nijhof`, `linkedin-post-production`, `test 115538`) because their raw dims were already at 7.5 or below 8 without tripping `failure_penalty`. They contribute Δ = 0.
+- **Six traces had only `failure_penalty` fire** (already-failing items got harsher) and their drops are −0.34 to −0.67 each — small in absolute terms because the penalty is bounded by `max(1.0, val − 1.0)`.
 
-The mean would have been more negative (closer to −1.0) if either (a) more of the 20 were in the 8.0+ zone (only 9 of 20 were), or (b) `ai_prose_cap` and `copy_calibration_cap` had fired at least once.
+The mean would have been more negative (closer to −1.0) if either (a) more of the 20 were in the 8.0+ zone (only 7 of 20 were), or (b) `ai_prose_cap` and `copy_calibration_cap` had fired at least once.
 
 **They did not. Neither cap fired on any of the 20 traces.** See "Caps That Did Not Fire" below.
 
 ### Criterion 2: ≥30% trip a cap → PASS (massive overshoot)
 
-85% (17/20) tripped at least one cap. Of those:
+75% (15/20) tripped at least one cap. Of those:
 
-- `earned_8_cap` fired **30 times** across 12 traces (the workhorse rule).
-- `anti_cluster_verdict_demote` fired **7 times** (one per trace whose all-3-dims were originally ≥8).
-- `failure_penalty` fired **7 times** across 6 traces (one trace tripped it twice).
+- `earned_8_cap` fired **24 times** across 10 traces (the workhorse rule).
+- `anti_cluster_verdict_demote` fired **6 times** (one per trace whose all-3-dims were originally ≥8).
+- `failure_penalty` fired **9 times** across 8 traces (some traces tripped it twice).
 - `ai_prose_cap` (Wave 1 Cap 1): **0 times.**
 - `copy_calibration_cap` (Wave 1 Cap 2): **0 times.**
 - `factual_veto` (Wave 1 Cap 3): **0 times** (per spec we used factual=7 when absent).
@@ -104,13 +121,13 @@ The Wave-2 taste-signature rules are doing all the work. The Wave-1 caps mostly 
 
 Wave 2's success criterion was *"distribution becomes bimodal (clear PASS/FAIL clusters with thin 7.0-7.5 band)."* The observed distribution is the **opposite shape**:
 
-- Clear FAIL cluster: 5 traces in 5.17 – 6.33. ✓ (this part worked)
+- Clear FAIL cluster: 6 traces in 4.33 – 6.67. ✓ (this part worked)
 - Clear PASS cluster: 2 traces, both at exactly 7.50. ✗
-- Thin marginal band: 13 traces in 7.0 – 7.5, with **10 at exactly 7.50**. ✗
+- Thin marginal band: 12 traces in 7.0 – 7.5, with **8 at exactly 7.50**. ✗
 
 The mode of the entire new distribution is **7.50 exact**. That is the worst possible outcome for a bimodal-taste design — the "decision band" of MARGINAL is now the majority population.
 
-Mechanism: `earned_8_cap` rewrites every ≥8 dim to **the same constant 7.5**. When all 3 raw dims were ≥8 (12 of 20 traces), the new composite is mathematically forced to be exactly 7.50, which then trips `anti_cluster_verdict_demote` (raw dims all ≥8 + anchor not named + `prose_verdict != "CLEAN"`) and downgrades from PASS to MARGINAL. The result is a 10-deep stack at 7.50/MARGINAL.
+Mechanism: `earned_8_cap` rewrites every ≥8 dim to **the same constant 7.5**. When all 3 raw dims were ≥8 (10 of 20 traces), the new composite is mathematically forced to be exactly 7.50, which then trips `anti_cluster_verdict_demote` (raw dims all ≥8 + anchor not named + `prose_verdict != "CLEAN"`) and downgrades from PASS to MARGINAL. The result is an 8-deep stack at 7.50/MARGINAL.
 
 ---
 
@@ -131,7 +148,7 @@ The classifier returns `verdict=NOT_RUN` (or its equivalent) for any text under 
 
 So this finding is not "the threshold is too lenient." It's a **storage truncation artifact** specific to replay: the classifier could not see enough of the original output to make a call. In live finalize() runs (where the full output is in memory), this cap will fire normally — we just can't validate it from historical traces.
 
-Side-effect: because `prose_verdict` was `NOT_RUN` for all 20, the anti-cluster rule's `prose_verdict != "CLEAN"` check passed for every all-dims-≥8 trace. That contributed to the 7-fire count of `anti_cluster_verdict_demote`. If those outputs' prose had been judged CLEAN in a real finalize() call, several MARGINAL verdicts would have been PASS (composite 7.50, clean prose, all dims ≥ 7.0 → meets `_PASS_COMPOSITE_FLOOR=7.5`).
+Side-effect: because `prose_verdict` was `NOT_RUN` for all 20, the anti-cluster rule's `prose_verdict != "CLEAN"` check passed for every all-dims-≥8 trace. That contributed to the 6-fire count of `anti_cluster_verdict_demote`. If those outputs' prose had been judged CLEAN in a real finalize() call, several MARGINAL verdicts would have been PASS (composite 7.50, clean prose, all dims ≥ 7.0 → meets `_PASS_COMPOSITE_FLOOR=7.5`).
 
 **Implication**: This replay systematically *over*-estimates how many real finalize calls land in MARGINAL. Live calls will pass the prose check more often → fewer anti-cluster demotions → cleaner bimodal shape than what we observed.
 
@@ -160,10 +177,11 @@ Until Claude starts naming rubric anchors when scoring high (`anchor_named=True`
 
 ### Finding 4: The "94-99% scored 8+" baseline in CLAUDE.md is not what these 20 show
 
-CLAUDE.md cites a 2026-04-24 calibration finding that 94-99% of recent finalize scores were 8+. The 20 most recent traces show a raw mean of **7.68** with only 9 of 20 (45%) at composite 8+. Possible explanations:
+CLAUDE.md cites a 2026-04-24 calibration finding that 94-99% of recent finalize scores were 8+. The 20 most recent traces show a raw mean of **7.38** with only 7 of 20 (35%) at composite 8+. Possible explanations:
 
-- The 94-99% figure is per-dimension, not per-composite. The 20 traces have raw composites averaging 7.68, but individual dimensions cluster higher.
+- The 94-99% figure is per-dimension, not per-composite. The 20 traces have raw composites averaging 7.38, but individual dimensions cluster higher.
 - The autopilot test session on 2026-05-21 wrote 7 traces with deliberately moderate self-grades (7.0-8.0) to test the pipeline — these pull the mean down.
+- The parallel-batch finalize calls on 2026-05-22 09:19 included two organic FAILs (composite 5.00 and 5.83) and two natural-MODERATE traces (composite 7.17 each) — recent finalize discipline may already be tightening.
 - The 04-24 measurement window is older than the most recent 20 traces; some grade-deflation may already have started in the 04-25 → 05-22 window.
 
 Worth a separate eval_harness run with a longer window (e.g., 90 days) to compare.
