@@ -1,7 +1,11 @@
 ---
 name: jen-santulan-listing-content
-description: Real estate social media content engine for Jen Santulan — Instagram Reels, Stories, and Carousels engineered for SFV first-time home buyers
-version: "2.0"
+description: Produces warm, conversational real-estate content for Jennifer Santulan's @realestatewithjing Instagram — Reels hooks, Story sequences, and Carousels targeting San Fernando Valley first-time buyers ($800K-1.2M range, currently renting $2.5-3.5K/mo, age 30-42, $100-200K HHI). Use when working on Jen Santulan's listings/social content, drafting listing reels or stories for SFV properties, generating real-estate Instagram hooks, or any task in _active/jen-listings/ or projects/jen-*/ directories. Trigger this proactively even when the user just shares an MLS listing or a property photo without naming Jen — her listing pipeline is the default real-estate context.
+paths:
+  - "_active/jen-listings/**"
+  - "projects/jen-*/**"
+when_to_use: User is producing Instagram content for Jen Santulan's real-estate practice OR working with a SFV property listing OR drafting first-time-buyer-targeted real-estate copy. Specifically NOT for generic real-estate marketing — Jen's voice (warm, enthusiastic, emoji-rich, "Let's check it out!" closers, #realestatewithjing) is distinct and brand-specific.
+version: "2.1"
 format: completion-engine
 workflows: 3
 expert: Jennifer Santulan (@realestatewithjing)

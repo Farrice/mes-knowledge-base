@@ -1,0 +1,24 @@
+--- /Users/farricecain/.claude/plugins/cache/claude-plugins-official/hookify/562a27feec2c/core/rule_engine.py.bak	2026-05-22 08:49:08
++++ /Users/farricecain/.claude/plugins/cache/claude-plugins-official/hookify/562a27feec2c/core/rule_engine.py	2026-05-22 08:50:53
+@@ -167,10 +167,20 @@
+             return self._regex_match(pattern, field_value)
+         elif operator == 'contains':
+             return pattern in field_value
++        elif operator == 'contains_any':
++            # Antigravity patch (2026-05-22): treat as regex alternation match.
++            # Existing rules use pipe-alternation patterns (e.g., "A|B|C") with
++            # regex metachars like \d. _regex_match handles both cases since
++            # plain text is valid regex.
++            return self._regex_match(pattern, field_value)
+         elif operator == 'equals':
+             return pattern == field_value
+         elif operator == 'not_contains':
+-            return pattern not in field_value
++            # Antigravity patch (2026-05-22): treat as regex non-match so
++            # pipe-alternation patterns work as expected (e.g.,
++            # "VERIFIED|grounding-pass" → True iff NONE of those substrings
++            # appear). Backward-compatible: plain text is valid regex.
++            return not self._regex_match(pattern, field_value)
+         elif operator == 'starts_with':
+             return field_value.startswith(pattern)
+         elif operator == 'ends_with':

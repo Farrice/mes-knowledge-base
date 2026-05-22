@@ -1,3 +1,10 @@
+---
+name: new-media-ghostwriting
+description: Elevates ghostwriting from "write LinkedIn posts for someone" to "build their entire media empire." Compounds Nicolas Cole's voice capture, a16z's new-media doctrine (Joe Rogan CEO test, Unscripting Protocol, founder go-direct), Grace Andrews's content city architecture, and Lara Acosta's LinkedIn mastery into one premium service package. Produces voice-captured ghostwriting + founder positioning + content-city map + trust pathways + platform-native production + crisis defense across all channels. Use when designing a $5K+ ghostwriting offer, when a client needs more than per-post copy, when positioning a founder for direct-to-audience media, or when the user mentions "media empire", "founder voice", "ghostwriting service architecture", "new media positioning". Trigger proactively when a client engagement crosses the LinkedIn-only threshold into multi-channel founder media work.
+expert: Compound (Nicolas Cole + a16z + Grace Andrews + Lara Acosta)
+domain: Premium ghostwriting × new media strategy × content architecture
+---
+
 # New Media Ghostwriting — Cross-Domain Compound Skill
 
 **Domain**: Ghostwriting × New Media Strategy × Content Architecture

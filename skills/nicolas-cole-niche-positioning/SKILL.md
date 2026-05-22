@@ -1,5 +1,6 @@
 ---
 name: nicolas-cole-niche-positioning
+description: Resolves positioning ambiguity by running Nicolas Cole's specificity ladder down to a Named Person — the single real human being who IS the ideal client. Every "I don't know which niche" problem is a specificity problem; this skill drills the question until the user can name a specific person, not a demographic. Use when the user says "I don't know which niche to pick", "my positioning feels too broad", "I have lived experience in X but I'm not sure if that's my market", "I need to figure out who specifically I'm serving", OR proactively when positioning copy feels abstract / category-as-noun ("for entrepreneurs", "for creators") rather than person-specific. Trigger even when the user just shares vague offer copy without explicitly asking — drift to category-noun positioning is the signal.
 expert: Nicolas Cole
 domain: Niche positioning, specificity drilling, category creation
 version: 1.0

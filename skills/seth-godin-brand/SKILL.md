@@ -1,3 +1,10 @@
+---
+name: seth-godin-brand
+description: Operationalizes Seth Godin's brand-building methodology — the layer BETWEEN philosophy (why you create) and viral mechanics (how it spreads). Covers brand promise architecture, trust engineering, consistency systems, remarkability design, metric integrity (false-proxy purge), culture alignment, and AI-era permission strategy. Core thesis — a brand is a promise (not a logo), trust = keeping the promise when it's hard, marketing = everything that touches the market, better > louder, consistency > authenticity. Use when defining a brand promise, diagnosing trust gaps, designing remarkability into product/content/service so word-of-mouth is structural not accidental, auditing metrics for false proxies (vanity vs. value), or when the user says "what's our brand actually about?" / "how do we get noticed without going louder?". Trigger proactively when the user reaches for tactical marketing without having defined the promise — Godin's work is the foundation layer.
+expert: Seth Godin
+domain: Brand architecture × trust engineering × marketing operations
+---
+
 # Seth Godin — Brand Building & Marketing Operations
 
 > **Agent**: seth-godin | **Domain**: Brand Architecture + Trust Engineering + Marketing Operations

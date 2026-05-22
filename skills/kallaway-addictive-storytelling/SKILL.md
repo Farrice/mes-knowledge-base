@@ -1,3 +1,10 @@
+---
+name: kallaway-addictive-storytelling
+description: Engineers neurochemical retention — converts "vending machine" content (predictable, zero dopamine, viewer leaves) into "slot machine" content (uncertain outcomes, sustained dopamine drip, viewer locked in) using Kallaway's Four-Step Addiction Loop (Stakes → Big Question → Head Fake → Rehook). Governing metric is Time-Per-Hand — gap between dopamine hits. Use when content "falls flat" despite good information, when retention drops mid-piece, when designing video / YouTube / TikTok / Reels for sustained watch time, when a draft is informative but boring, or when the user asks "why isn't this gripping people?". Trigger proactively even when the user just shares retention-sensitive content without naming Kallaway — the Vending-vs-Slot diagnosis applies to ALL retention-bearing surfaces.
+expert: Kallaway
+domain: Neurochemical Retention Engineering (Content Psychology × Audience Obsession)
+---
+
 # Kallaway Addictive Storytelling — SKILL.md
 
 ## Domain

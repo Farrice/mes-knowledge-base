@@ -1,5 +1,6 @@
 ---
-name: Luke Iha Cross-Domain Campaigns
+name: luke-iha-cross-domain
+description: Orchestrates the full Luke Iha 6-skill stack into end-to-end ad campaign pipelines — mechanism engineering → copy architecture → VSL leads → proof ladder → vicious hooks → atomization to N final ads. Use when building a complete ad campaign from scratch, running mechanism-first sprints that flow into ad production, atomizing one VSL lead into 10+ standalone ads, or assembling a copywriter portfolio that demonstrates competence across every Luke Iha domain. Trigger this proactively even when the user just mentions "full campaign", "mechanism to ad", "build me an ad portfolio", "VSL atomization", or sequences multiple Luke Iha skills in one breath — the cross-domain orchestrator beats picking sub-skills one at a time.
 domain: advertising, copywriting, creative strategy
 expert: Luke Iha
 keywords: full-stack ads, cross-domain, campaign orchestration, mechanism-to-ad, portfolio
