@@ -1,0 +1,120 @@
+{
+  "$schema_note": "Antigravity v1 schema, proposed 2026-05-22. Item K of 2026-05-21 best-practices synthesis brief. The Anthropic monitors/monitors.json public spec is referenced (Stream 4) but no canonical schema URL was retrievable at write time, so this file proposes a minimal shape and documents the decision inline. If/when the Claude Code 2026 plugin manifest publishes a formal schema, migrate field names without breaking the watch+surface intent.",
+  "version": 1,
+  "description": "Declarative live-signal surfaces for an Antigravity session. Each monitor watches a file/path and surfaces changes as session events so the operator (and orchestrator) see drift, burn, violations, and fan-out without manually grepping log files. Closes the AI-Memory-Dependent-Observability failure class for the ledger layer.",
+  "owner_plugin": "jarvis-command-center",
+  "fires_during": "SessionStart, PostToolUse (file writes inside watched paths), session ledger emit",
+  "monitors": [
+    {
+      "id": "routing_violations",
+      "label": "Routing violations (deterministic enforcer)",
+      "purpose": "Surface any task that ran with a workflow choice that violated CLAUDE.md mandatory bindings. The most common drift class.",
+      "watch": "evolution_store/traces/routing_decisions.jsonl",
+      "type": "file_tail_jsonl",
+      "condition": "$.valid == false",
+      "surface_as": "session_event",
+      "severity": "warn",
+      "owner_source": "execution/routing_enforcer.py",
+      "since": "session_start"
+    },
+    {
+      "id": "composite_score_drift",
+      "label": "Composite quality score drift",
+      "purpose": "Detect grade inflation or regression across recent finalize calls. The 2026-04-24 audit found 94-99% of finalize scores were 8+ (statistically implausible). This monitor surfaces drift in real time so the bimodal taste filter can be re-calibrated before it becomes silent.",
+      "watch": "evolution_store/traces/taste_calibration_*.jsonl",
+      "type": "rolling_window_metric",
+      "window": "last_20_entries",
+      "metric": "mean(composite_score)",
+      "alert_when": "mean > 8.0 OR mean < 6.0",
+      "surface_as": "drift_warning",
+      "severity": "warn",
+      "owner_source": "execution/chain_runner.py + execution/taste_signature.py",
+      "fallback_note": "Composite scores currently log to Notion via log_performance.py with no local jsonl mirror. Taste calibration jsonl is the closest local proxy. When chain_runner gains a local mirror at .agent/finalize-log.jsonl, switch the watch path."
+    },
+    {
+      "id": "cost_burn_fal",
+      "label": "Fal wallet burn rate",
+      "purpose": "Surface paid-API spend in-session so cost_gate G2 approvals aren't surprising. Fal is the highest-variance spend (poster + video). 1080p Seedance is hard-blocked, but kling and 720p seedance can drain a $20 wallet in 6-7 calls.",
+      "watch": ".agent/fal-usage.json",
+      "type": "json_field_delta",
+      "field": "$.wallet.current_balance_estimate",
+      "alert_when": "delta_session > $5.00 OR current_balance_estimate < $5.00",
+      "surface_as": "session_event",
+      "severity": "info",
+      "owner_source": "execution/fal_budget_guard.py + execution/cost_gate.py"
+    },
+    {
+      "id": "cost_burn_perplexity",
+      "label": "Perplexity monthly burn",
+      "purpose": "Track Perplexity quota burn. Perplexity is fallback-only as of 2026-04-23 (Gemini Deep Research is primary), but exhaustion still blocks fact-verification at Step 5.5.",
+      "watch": ".agent/perplexity-usage.json",
+      "type": "json_field_delta",
+      "field": "$.monthly_spend",
+      "alert_when": "monthly_spend > $25.00",
+      "surface_as": "session_event",
+      "severity": "info",
+      "owner_source": "directives/perplexity-usage-policy.md + execution/cost_gate.py"
+    },
+    {
+      "id": "cost_burn_gemini",
+      "label": "Gemini Deep Research prepaid ceiling",
+      "purpose": "Surface Gemini Deep Research spend against the $10 prepaid ceiling (3-layer defense: Ultra covers AI Studio, pay-as-you-go OFF, hard $10 ceiling). Primary research tool so burn signal matters.",
+      "watch": ".agent/gemini-api-usage.json",
+      "type": "json_field_delta",
+      "field": "$.total_spend",
+      "alert_when": "total_spend > $7.50",
+      "surface_as": "session_event",
+      "severity": "info",
+      "owner_source": "execution/deep_research_client.py"
+    },
+    {
+      "id": "fanout_count",
+      "label": "Sub-agent fan-out count",
+      "purpose": "Encode Cognition's anti-multi-agent thesis as observable signal: read-heavy parallel fan-out is OK; write-heavy fan-out is forbidden. Surface count + write-flag per session so violations are visible.",
+      "watch": ".tmp/autopilot/*/manifest.json",
+      "type": "json_field_aggregate",
+      "field": "$.workers[*]",
+      "aggregate": "count(workers where write_capable == true)",
+      "alert_when": "count > 0",
+      "surface_as": "constraint_violation",
+      "severity": "block",
+      "owner_source": ".agent/workflows/autopilot.md Phase 2 + execution/orchestration_ledger.py",
+      "forward_looking_note": "Autopilot session manifests do not yet write to .tmp/autopilot/<session>/manifest.json — Wave 5 currently writes worker-N-slug.md files only. This monitor activates when the manifest emit lands (planned Wave 6). Until then it is dormant."
+    },
+    {
+      "id": "recall_grounding_skip_rate",
+      "label": "Recall grounding silent-skip rate",
+      "purpose": "Tier 1.5 Recall grounding skips silently on 6 failure modes. Silent skip means a core architectural feature cannot be measured — if Recall degrades, nobody knows. This monitor surfaces the skip rate so the AI-Memory-Dependent-Observability failure class stays closed.",
+      "watch": "evolution_store/traces/recall_grounding.jsonl",
+      "type": "rolling_window_metric",
+      "window": "last_30_entries",
+      "metric": "ratio(status == 'skipped' OR status == 'failed')",
+      "alert_when": "ratio > 0.5",
+      "surface_as": "drift_warning",
+      "severity": "warn",
+      "owner_source": "execution/recall_logger.py"
+    },
+    {
+      "id": "factual_grounding_veto",
+      "label": "Factual Grounding hard floor vetoes",
+      "purpose": "Surface any finalize() call where Dimension 4 (Factual Grounding) scored <6 and blocked delivery. This is the polished-but-wrong failure pattern — the most reputationally expensive class to ship.",
+      "watch": "evolution_store/traces/taste_calibration_*.jsonl",
+      "type": "file_tail_jsonl",
+      "condition": "$.factual_grounding < 6 AND $.factual_grounding != 'N/A'",
+      "surface_as": "session_event",
+      "severity": "block",
+      "owner_source": "execution/chain_runner.py::_enforce_caps"
+    }
+  ],
+  "surface_routing": {
+    "session_event": "Inline ledger entry at session end (orchestration_ledger.py)",
+    "drift_warning": "Inline ledger entry + recommendation for re-calibration",
+    "constraint_violation": "Block at fan-out emit; surface in red in ledger",
+    "block": "Hard halt in finalize; user must acknowledge before re-run"
+  },
+  "non_goals": [
+    "This file does NOT execute monitors — it declares them. A runner (forthcoming) reads this config and tails the watched paths.",
+    "This file does NOT replace chain_runner.finalize() enforcement — finalize is the deterministic backstop; monitors are the observability surface on top of it.",
+    "This file does NOT include monitors for evolution-pipeline jobs (those live under evolution_store/orchestrator_state.json with their own observability)."
+  ]
+}
