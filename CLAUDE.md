@@ -165,6 +165,29 @@ Active per-project CLAUDE.md files (Phase B Move 3, shipped 2026-05-12):
 
 ---
 
+## System Primitives (Irreducible Parts)
+
+> **Why this table exists** (Item L of 2026-05-21 synthesis brief): Antigravity has 232 skills + 109 agents + 58 directives + many Python execution scripts. When responsibilities drift, the failure is silent. This table names the irreducible *execution-layer* primitives — each row answers "what owns this responsibility, and what triggers it?" If a future session reassigns one of these owners without updating this table, drift is on us. Source-file column is canonical.
+
+| Primitive | Owns | Triggered By | Source File |
+|---|---|---|---|
+| `intent_to_package` | Outcome-class detection → assembled mission package (workflow + skills + experts + plugins + cost tier). Prescriptive routing. | `/autopilot` Phase 1; any explicit mission-package request | `execution/intent_to_package.py` |
+| `routing_enforcer` | Runtime validation of the CLAUDE.md Mandatory Workflow Routing table. Deterministic, not advisory. | Pre-flight before any binding-matching task; `chain_runner.finalize` post-hoc check | `execution/routing_enforcer.py` |
+| `anchor_memory` | Project-scoped persistent context anchors — early-step outputs (brand brief, hero visual) become forced references for every later step. | `/supercomputer` + multi-deliverable missions across phases | `execution/anchor_memory.py` |
+| `cost_gate` | Unified pre-flight approval for every paid creative API (Fal, Perplexity, NotebookLM, Gemini). One approve/deny gate, one cost preview. | Every paid-API invocation; `/autopilot` G2 gate (>$5 aggregate) | `execution/cost_gate.py` |
+| `taste_signature` | Bimodal taste filter on top of the calibrated rubric. Wave 2 Excellence Lift. Encodes Farrice's "clear PASS or clear FAIL, narrow marginal band" signature. | Inside `chain_runner.finalize` after rubric scoring | `execution/taste_signature.py` |
+| `excellence_predictor` | Pre-flight composite prediction + grade-inflation detector. Wave 3. Predicts iteration cost BEFORE execution so effort is budgetable. | `/autopilot` Phase 1 before execution; calibration drift checks | `execution/excellence_predictor.py` |
+| `orchestration_ledger` | Post-run trace emitter — what fired, what's next, copy-pasteable refinement prompts. No interrogative — run ends, ledger surfaces. | End of every `/autopilot` session | `execution/orchestration_ledger.py` |
+| `chain_runner.finalize` | The single atomic call that owns Step 6: quality gate + caps enforcement (`_enforce_caps`) + Notion log + protocol tracking + session state + post-hoc routing check. Expert output without `finalize` is incomplete. | Step 6 of every expert-domain deliverable | `execution/chain_runner.py` |
+| `recall_logger` | Observability for silent Tier 1.5 grounding decisions. Closes the AI-Memory-Dependent-Observability failure class. | Every Recall search attempt; auto-fires from `finalize` as deterministic backstop | `execution/recall_logger.py` |
+| `eval_harness` | Score outputs against the anchored rubric (`evolution_store/ground_truth/rubric_v1.md`). Worked-example calibration drift detection. | Manual scoring; weekly `evolution_orchestrator` runs | `execution/eval_harness.py` |
+
+**Rule of inheritance**: a workflow may compose any number of these primitives, but it does not duplicate their logic. If a workflow's markdown reimplements one of these, that's drift — the primitive's source file is the contract.
+
+**Atom-vs-system taxonomy** (skill-layer architecture) is a *sub-classification* underneath this primitive table, not a competing layer. See the dedicated section below.
+
+---
+
 # The Chain (Every Request — No Exceptions)
 
 > **Operating Principle** (from Reflection Pass): The Chain's 6 steps, tiered loading, quality gate, and evolution engine are complex BY DESIGN — but the OUTPUT should be simple. Complex process → simple result. All this machinery exists for ONE purpose: to find the single truth and deliver it through the right mechanism with the right proof at the right identity level (see `knowledge/synthesis/the-persuasion-stack.md`). If a session produces "comprehensive" output instead of "singular" output, the system failed regardless of quality score.
