@@ -39,9 +39,18 @@ Don't spawn for trivial changes (<20 lines).
 **SkillExecutor — when to use**: 2+ experts needed, 10+ files loaded, running ensemble workflows, full extraction pipeline.
 **When NOT to spawn**: <~1,000 token output, follow-up refinements, rapid-fire mode, conversational Q&A.
 
-### SkillExecutor Prompt Template (Anthropic 4-field envelope — Wave 5 / 2026-05-21)
+### Sub-Agent Prompt Envelope (Anthropic 4-field — Wave 5 / 2026-05-21, scope universalized 2026-05-22)
 
-Every SkillExecutor spawn MUST use the Anthropic 4-field envelope. The fields are MANDATORY — vague delegation ("research the semiconductor shortage") causes 30%+ duplicate work and gaps per Anthropic's multi-agent research-system retro (anthropic.com/engineering/built-multi-agent-research-system). Each spawn must declare all four explicitly:
+**Every sub-agent spawn MUST use the Anthropic 4-field envelope, regardless of archetype** (SkillExecutor, CodeReviewer, DocSyncer, Researcher). The fields are MANDATORY — vague delegation ("research the semiconductor shortage") causes 30%+ duplicate work and gaps per Anthropic's multi-agent research-system retro (anthropic.com/engineering/built-multi-agent-research-system). Each spawn must declare all four explicitly:
+
+**Field-name aliasing** (both forms recognized — substance is identical):
+
+| Box-separator (used below) | YAML-style alias | What it carries |
+|---|---|---|
+| `═══ OBJECTIVE ═══` | `objective:` | One sentence — single specific deliverable |
+| `═══ OUTPUT FORMAT ═══` | `output_format:` | Filepath + ≤500 token summary, per the lightweight-references pattern |
+| `═══ TOOLS ALLOWED ═══` | `tool_allowlist:` | Explicit list — no implicit "all tools"; always include "no nesting" denial |
+| `═══ BOUNDARIES ═══` | `boundaries:` | SCOPE + ANTI-SCOPE + HALT — what NOT to do, scope walls, no further spawns |
 
 ```
 ═══ OBJECTIVE ═══
@@ -176,36 +185,94 @@ PARL-inspired pattern (Moonshot Kimi K2.6): when a sub-agent fails, do not retur
 
 ## How to Spawn (Explicit Syntax)
 
-When a workflow phase qualifies for sub-agent spawn (2+ experts, 10+ files in context, complex multi-domain task), invoke the `Agent` tool directly. Sample patterns:
+When a workflow phase qualifies for sub-agent spawn (2+ experts, 10+ files in context, complex multi-domain task), invoke the `Agent` tool directly. **Every spawn's `prompt` parameter MUST contain the 4-field envelope above** — the examples below show abbreviated illustrative forms, but production spawns expand all four fields.
 
-**Parallel multi-expert ensemble** (e.g., writers-room Layer 1+2+3):
+**Parallel multi-expert ensemble** (SkillExecutor — writers-room Layer 1+2+3):
 ```
 Agent(
     description="Compress layer review",
     subagent_type="general-purpose",
-    prompt="Load skills/mitch-albom-writing-mastery/genius.md + skills/jonathan-franzen-storytelling/genius.md + skills/nicolas-cole-sentence-craft/genius.md. Apply Layer 1 (structure & compression) lenses to this draft: [DRAFT]. Report the top 3 compression cuts with citations."
+    prompt="""
+═══ OBJECTIVE ═══
+Apply Layer 1 (structure & compression) lenses from Albom + Franzen + Cole to the draft below and produce the top 3 compression cuts with citation back to which expert lens identified each.
+
+═══ OUTPUT FORMAT ═══
+- Write deliverable to: .tmp/writers-room/layer1-compression-review.md
+- Return to orchestrator: STATUS + 3-bullet KEY_FINDINGS + FILE + CONFIDENCE
+
+═══ TOOLS ALLOWED ═══
+ALLOW: Read (skills/*), Write (.tmp/writers-room/**)
+DENY:  no further sub-agent spawns (no nesting); no edits outside .tmp/
+
+═══ BOUNDARIES ═══
+SCOPE:      Structure + compression lens only; ignore voice/tone (Layer 2's job)
+ANTI-SCOPE: Do NOT rewrite the draft; identify cuts only
+HALT:       After 3 cuts identified with citations
+
+═══ DRAFT ═══
+[DRAFT]
+"""
 )
 ```
 
-**Researcher with context isolation** (e.g., deep-research / verification):
+**Researcher with context isolation** (deep-research / verification):
 ```
 Agent(
     description="Source verification",
     subagent_type="deep-research",
-    prompt="Verify these claims against primary sources: [CLAIMS]. Label each VERIFIED / LIKELY / UNCONFIRMED. Return under 400 words."
+    prompt="""
+═══ OBJECTIVE ═══
+Verify the claims below against primary sources and label each VERIFIED / LIKELY / UNCONFIRMED.
+
+═══ OUTPUT FORMAT ═══
+- Write to: .tmp/verification/claim-audit.md (one row per claim: claim, label, source URL, confidence)
+- Return: STATUS + count by label + FILE + ≤200 word summary
+
+═══ TOOLS ALLOWED ═══
+ALLOW: WebFetch, WebSearch, mcp__recall__search, mcp__perplexity-ask__perplexity_ask
+DENY:  no further sub-agent spawns; no inference-only labels (must have source)
+
+═══ BOUNDARIES ═══
+SCOPE:      Each claim labeled with one citation
+ANTI-SCOPE: Don't rewrite the draft; verification only
+HALT:       After all claims labeled OR 400 word cap hit
+
+═══ CLAIMS ═══
+[CLAIMS]
+"""
 )
 ```
 
-**Code review on a non-trivial change**:
+**CodeReviewer on a non-trivial change** (envelope applies to non-SkillExecutor archetypes too):
 ```
 Agent(
     description="Migration safety review",
     subagent_type="feature-dev:code-reviewer",
-    prompt="Review [FILE]. Context: [CHANGE_RATIONALE]. Report safety issues under 🔴🟡🟢 severity."
+    prompt="""
+═══ OBJECTIVE ═══
+Review [FILE] for safety issues with [CHANGE_RATIONALE] in mind. Report under 🔴🟡🟢 severity.
+
+═══ OUTPUT FORMAT ═══
+- Write to: .tmp/code-review/[file-slug]-review.md
+- Return: STATUS + count by severity + FILE + top issue summary (≤200 words)
+
+═══ TOOLS ALLOWED ═══
+ALLOW: Read (only the targets listed), Grep, Glob
+DENY:  no Edit / Write / Bash — review only; no further sub-agent spawns
+
+═══ BOUNDARIES ═══
+SCOPE:      Safety, security, perf, logic errors in the listed files
+ANTI-SCOPE: Style nitpicks unless they create real risk
+HALT:       After all targets reviewed
+
+═══ TARGETS ═══
+[FILE]
+"""
 )
 ```
 
 **Anti-pattern**: Spawning a sub-agent with "share full conversation history" — defeats context isolation. Brief the sub-agent fresh.
+**Anti-pattern**: Omitting any of the 4 envelope fields — vague delegation re-introduces the 30% duplicate-work failure mode Anthropic documented.
 
 ---
 
