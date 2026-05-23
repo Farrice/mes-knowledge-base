@@ -10,7 +10,7 @@
 
 ## NEW Finding RESOLVED (2026-05-23)
 
-The 11 YAML-parse files were repaired in commit `d1000857` (2026-05-22) — frontmatter now parses cleanly. **Description quality upgraded to Anthropic spec in commit `<TBD>` (2026-05-23)**. All 11 now satisfy the 5-rule spec: third-person verb opening, ≤1024 chars (max observed 1019), explicit "Use when…" trigger phrases, "Trigger proactively even when…" pushy claim, and anti-scope clauses where siblings exist (the nate-b-jones triplet, the context-engineering pair Lance/Nate, and the self-improvement pair Nate/self-evolving-systems all now carve clean trigger surfaces).
+The 11 YAML-parse files were repaired in commit `d1000857` (2026-05-22) — frontmatter now parses cleanly. **Description quality upgraded to Anthropic spec in commit `8749f214` (2026-05-23)**. All 11 now satisfy the 5-rule spec: third-person verb opening, ≤1024 chars (max observed 1019), explicit "Use when…" trigger phrases, "Trigger proactively even when…" pushy claim, and anti-scope clauses where siblings exist (the nate-b-jones triplet, the context-engineering pair Lance/Nate, and the self-improvement pair Nate/self-evolving-systems all now carve clean trigger surfaces).
 
 Post-rewrite verification: `Total: 234  Errors: 0  Missing-desc: 0`.
 
