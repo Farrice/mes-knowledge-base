@@ -1,6 +1,6 @@
 ---
 name: nate-b-jones-orchestration-intelligence
-description: Multi-agent coordination architecture using the DPVI pattern (Decompose-Parallelize-Verify-Iterate) and harness-first design principles
+description: 'Designs, audits, and optimizes multi-agent orchestration using Nate B. Jones''s DPVI pattern (Decompose → Parallelize → Verify → Iterate) — the convergence architecture independently arrived at by Anthropic, Google DeepMind, OpenAI, and Cursor. Treats harness design (memory, task files, progress tracking, restart procedures) as the primary determinant of agent success, not model intelligence. Classifies work by domain verifiability to determine safe delegation. Use when designing a new multi-agent system, coordinating >3 agents, agents are capable but inconsistent (suspect harness issues), deciding what to delegate vs. retain for humans, or agent systems show diminishing returns. Trigger proactively whenever the user says "coordinate agents", "multi-agent", "swarm", "parallel agents", or "why are my agents inconsistent". For memory/context architecture use nate-b-jones-context-engineering; for self-improvement loops use nate-b-jones-auto-improvement-loops.'
 expert: Nate B. Jones
 domain: AI/Automation — Multi-Agent Orchestration
 version: 1.0

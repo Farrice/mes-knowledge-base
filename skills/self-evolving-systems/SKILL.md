@@ -1,6 +1,6 @@
 ---
 name: self-evolving-systems
-description: Automated harness evolution using MetaHarness propose-evaluate-log-iterate loops, Karpathy autoresearch patterns, and the Bitter Lesson applied to agentic orchestration
+description: 'Runs MetaHarness propose-evaluate-log-iterate loops to permanently improve agentic systems (workflows, prompts, retrieval logic, memory, orchestration). A coding-agent proposer inspects prior code + execution traces, diagnoses failure modes, proposes targeted edits or full rewrites, and iterates until Pareto-optimal — Karpathy''s autoresearch pattern applied to the harness layer (not self-correction, but permanent self-evolution). Use when a workflow has been manually tuned but plateaued, quality-gate scores consistently land in the 6-7 range, the same class of error recurs despite self-annealing, the user wants better approaches than hand-tuned prompts, before upgrading to a more expensive model (evolve the harness first), or running periodic optimization sprints. Trigger proactively whenever the user says "this skill is stuck", "evolve the prompt", or "make this workflow better over time". For the business-harness deployment lifecycle and readiness audits use nate-b-jones-auto-improvement-loops instead.'
 expert: Composite (Yoonho Lee / Andrej Karpathy / Rich Sutton)
 domain: AI/Automation — Self-Improving Systems
 version: 1.0

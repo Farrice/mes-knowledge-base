@@ -1,6 +1,6 @@
 ---
 name: lance-yichao-context-engineering
-description: 'Context engineering methodology for production AI agents from Lance Martin (LangChain) and Yichao "Peak" Ji (Manus)'
+description: 'Designs production-grade context-engineering infrastructure for AI agents using Lance Martin (LangChain) and Yichao "Peak" Ji (Manus) methodologies — action-space layering, sandbox configurations, security guardrails, reversible compaction, structured summarization, KV-cache optimization, and pre-rot benchmarking. Use when designing a new agentic system from scratch, migrating a prototype to production, hitting performance degradation across long sessions, token costs scaling faster than value delivered, benchmarking agent reliability, selecting models per task, or simplifying a bloated harness. Trigger proactively whenever the user asks "why is my agent slower after 100 tool calls" or "how do I deploy this to production" — the Lance/Yichao surface is the production-deployment lane. For memory-crisis architecture, sovereign persistent memory, or TurboQuant compression theory, use nate-b-jones-context-engineering instead.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

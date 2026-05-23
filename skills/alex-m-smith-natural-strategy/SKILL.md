@@ -1,6 +1,6 @@
 ---
 name: alex-m-smith-natural-strategy
-description: 'Brutal strategic differentiation workflows from Alex M H Smith (Basic Arts, "No Bullsh*t Strategy") — sacrifice-led repositioning, supply-side scarcity, Only > Best, anti-JTBD value creation. Use for positioning audits, sacrifice/sacred-truth inventories, commoditization diagnostics, one-sentence positioning, value-vs-problem-solver mode diagnosis.'
+description: 'Executes brutal strategic differentiation using Alex M H Smith''s "Only is better than best" methodology — sacrifice-led repositioning, supply-side scarcity, sacred-truth inventory, and anti-JTBD value creation. Produces positioning audits, sacrifice inventories, commoditization diagnostics, one-sentence positioning, and value-vs-problem-solver mode diagnosis. Use when the user says "we''re stuck in a crowded market", "our pricing power is eroding", "we can''t articulate what makes us different", "is our strategy actually a strategy", or asks for a positioning audit, sacred-truth inventory, or category-creation reframe. Trigger proactively even when the user just describes feeling "undifferentiated" or "lost in a category" — Smith''s subtractive methodology applies whenever "be better" is the implicit (and broken) strategy.'
 version: "2.0"
 format: completion-engine
 workflows: 5

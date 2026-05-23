@@ -1,6 +1,6 @@
 ---
 name: nate-b-jones-context-engineering
-description: Memory crisis navigation, context compression architecture, and sovereign persistent memory design for agentic systems
+description: 'Architects memory and context systems for agentic systems using Nate B. Jones''s TurboQuant-informed methodology — PolarQuant + QJL compression, H2O/SnapKV eviction strategies, sovereign persistent memory, and self-decaying context. Treats the context window as a KV cache where every byte must earn its place. Use when the agent hits context-window limits or "lost in the middle" failures, token costs scale faster than value delivered, agents reload full context every conversation instead of persisting state, 50+ tool definitions create prompt bloat, or moving from static file loading to dynamic semantic retrieval. Trigger proactively whenever the user mentions "memory crisis", "context bloat", "agent forgets", or "compression". For production-deployment harness design (action-space, sandbox, KV-cache benchmarks) use lance-yichao-context-engineering; for the auto-improvement loop layer use nate-b-jones-auto-improvement-loops.'
 expert: Nate B. Jones
 domain: AI/Automation — Context & Memory Architecture
 version: 1.0

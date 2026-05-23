@@ -1,6 +1,6 @@
 ---
 name: brand-operating-system
-description: 'Build a complete 6-layer Brand Operating System — foundation, visual, briefs, marketing, AI handoff, ops — from canonical inputs (founder anchor + manifesto) or a discovery interview. Produces 43 markdown docs that operate as the brand''s AI-pasteable source of truth. Optional auto-upload to Drive as native Google Docs in pageless format. Reference implementation — Resonance for Andrea (shipped 2026-05-04).'
+description: 'Builds a complete 6-layer Brand Operating System (foundation, visual, briefs, marketing, AI handoff, ops) — 43 markdown documents that operate as the brand''s AI-pasteable source of truth, from canonical inputs (founder anchor + manifesto) or a discovery interview. Optional auto-upload to Drive as native Google Docs in pageless format. Reference implementation shipped 2026-05-04 (Resonance for Andrea). Use when the user says "brand operating system", "brand OS", "BOS", "build a complete brand system for [name]", "Resonance-style package", "the kind of thing we built for Andrea", or describes a scope spanning foundation AND production assets AND ops in one mission. Trigger proactively whenever the multi-layer signal fires together (foundation + briefs + AI handoff). Do NOT use for single-layer scopes: DESIGN.md alone (use design-md), voice doc alone (use voice-document), ICP only (use icp-deep-dive), one creative brief (use creative-brief-gen).'
 tier: system
 allowed-tools:
   - Read

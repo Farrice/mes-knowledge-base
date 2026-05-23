@@ -1,6 +1,6 @@
 ---
 name: alex-content-science
-description: Forensic content reverse-engineering — see the 20 invisible decisions behind any viral content and extract transferable principles for original creation
+description: 'Reverse-engineers viral content to surface the 20 invisible decisions behind it — environment, wardrobe, audio design, framing, sentence structure, set dressing — and converts them into transferable one-sentence principles for original creation. Use when studying why a competitor''s post worked, breaking out of derivative copying, mining format inspiration from outside the niche, transforming a boring-but-valuable topic into magnetic content, auditing existing content for sheep-cycle patterns, or running systematic competitive intelligence. Trigger proactively even when the user just says "why did this go viral" or "analyze this post" — Alex''s forensic Detail Stack methodology applies upstream of any content creation work.'
 expert: Alex (Grow with Alex, @growwithalex)
 version: 1.0.0
 domain: content science, content reverse-engineering, viral mechanics, content analysis, principle extraction

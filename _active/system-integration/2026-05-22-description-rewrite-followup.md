@@ -8,7 +8,27 @@
 >
 > Post-audit verification: 0 SKILL.md files missing the `description:` field (was 21).
 
-## NEW Finding (surfaced during final verification — separate from original audit)
+## NEW Finding RESOLVED (2026-05-23)
+
+The 11 YAML-parse files were repaired in commit `d1000857` (2026-05-22) — frontmatter now parses cleanly. **Description quality upgraded to Anthropic spec in commit `<TBD>` (2026-05-23)**. All 11 now satisfy the 5-rule spec: third-person verb opening, ≤1024 chars (max observed 1019), explicit "Use when…" trigger phrases, "Trigger proactively even when…" pushy claim, and anti-scope clauses where siblings exist (the nate-b-jones triplet, the context-engineering pair Lance/Nate, and the self-improvement pair Nate/self-evolving-systems all now carve clean trigger surfaces).
+
+Post-rewrite verification: `Total: 234  Errors: 0  Missing-desc: 0`.
+
+| File | Chars | Sibling anti-scope added |
+|---|---:|---|
+| `alex-content-science` | 731 | n/a |
+| `alex-m-smith-natural-strategy` | 831 | n/a |
+| `brand-operating-system` | 956 | vs design-md / voice-document / icp-deep-dive / creative-brief-gen |
+| `fantastic-posters` | 997 | n/a |
+| `lance-yichao-context-engineering` | 934 | vs nate-b-jones-context-engineering |
+| `nate-b-jones-auto-improvement-loops` | 978 | vs nate-orchestration + nate-context + self-evolving |
+| `nate-b-jones-context-engineering` | 936 | vs lance-yichao + nate-auto-improvement |
+| `nate-b-jones-orchestration-intelligence` | 969 | vs nate-context + nate-auto-improvement |
+| `ross-mckay-premium-at-scale` | 787 | n/a |
+| `self-evolving-systems` | 1019 | vs nate-b-jones-auto-improvement-loops |
+| `sharran-srivatsaa-scaling` | 980 | n/a |
+
+## NEW Finding (original — pre-resolution, kept for historical reference)
 
 11 SKILL.md files have **description text present** but **broken YAML** that `yaml.safe_load` cannot parse — meaning Anthropic's skill-discovery layer almost certainly cannot read them either. These files were NOT in the original 21-skill audit because the audit checked for missing `description:` lines, not for valid YAML.
 

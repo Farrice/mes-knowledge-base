@@ -1,6 +1,6 @@
 ---
 name: sharran-srivatsaa-scaling
-description: Constraint-based business scaling, high-stakes decision architecture, and the operator's playbook for 10X growth — from zero to exit
+description: 'Applies Sharran Srivatsaa''s constraint-based scaling and decision architecture — the operator playbook that took Teles from $300M to $3.4B in 5 years. Treats business as a constraint-identification machine: isolate the bottleneck, pour massive energy into it, find the next one. Produces structured decision memos (4-step framework), constraint-isolation audits, and 4-Goods due-diligence scorecards for high-stakes investments and partnerships. Use when growth has stalled and the user can''t name why, facing a high-stakes decision and wants repeatable process over gut instinct, evaluating an investment or partnership, scaling from $0 to $1M+ with process discipline, auditing for the real constraint vs. the perceived problem, or writing a decision memo that separates emotion from analysis. Trigger proactively whenever the user says "we''re stuck", "where do I focus", "should I do this deal", or "high-stakes call" — Sharran''s layer is upstream of content, funnels, and ads.'
 expert: Sharran Srivatsaa (Acquisition.com, Real Brokerage, ARC Multifamily)
 version: 1.0.0
 domain: business scaling, decision-making, constraint theory, investing, operational excellence, entrepreneurship

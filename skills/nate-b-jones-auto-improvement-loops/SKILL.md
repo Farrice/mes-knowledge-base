@@ -1,6 +1,6 @@
 ---
 name: nate-b-jones-auto-improvement-loops
-description: Design, deploy, and safeguard self-improving agent systems. The Karpathy loop applied to business harnesses — not just training code.
+description: 'Designs, deploys, and safeguards self-improving agent systems using Nate B. Jones''s adaptation of the Karpathy loop to business harnesses (not training code). Covers triplet definition, readiness audit, trace infrastructure, emergent affordances, safety governance, and the 5-layer prerequisite build (context → trace → eval → sandbox → governance). Use when building any auto-optimizing agent, evaluating organizational readiness for auto-improvement, auditing existing Phase 2 / evolution systems against frontier patterns, detecting metric gaming or silent degradation, or upgrading score-only logging to reasoning-trajectory logging. Trigger proactively whenever the user asks "how do I make this agent improve itself" or describes a Phase 2 evolution loop. For agent coordination use nate-b-jones-orchestration-intelligence; for memory/context optimization use nate-b-jones-context-engineering; for the underlying MetaHarness research methodology use self-evolving-systems.'
 expert: Nate B Jones
 domain: AI/Automation — Self-Improving Agent Systems
 version: 1.0
