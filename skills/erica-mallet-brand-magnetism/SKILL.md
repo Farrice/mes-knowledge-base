@@ -1,6 +1,6 @@
 ---
 name: "Erica Mallet: Brand Magnetism Mastery"
-description: "Erica Mallet's complete brand magnetism system: 52 Crown Jewel prompts for belief architecture, entertainment psychology, content domination, and cult-like following creation"
+description: 'Engineers cult-like brand magnetism using Erica Mallet''s methodology — belief architecture (what the audience must believe about themselves), entertainment psychology (why hooks earn attention), content domination (owning a category through volume + identity-resonance), and the mechanics behind followings that feel tribal rather than transactional. Use when a brand has product-market fit but no emotional pull, the audience respects but doesn''t evangelize, content metrics are decent but no one is screenshotting / sharing in their groupchats, or repositioning a clinical/B2B brand toward magnetic-personal. Trigger proactively whenever the user says "brand magnetism", "cult brand", "tribe", "loyal following", "why don''t they care about us", or describes a brand that wants love, not just preference. For institutional brand-building (positioning + visual + campaigns at scale) use greg-hoffman-brand-mastery; for personal-brand fundamentals use seth-godin-brand.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5

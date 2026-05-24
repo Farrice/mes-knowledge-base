@@ -1,6 +1,6 @@
 ---
 name: "Andy Lo — Premium AI Website Creation"
-description: "Premium AI-powered website creation using Google's free tools — visual pipeline (Whisk/Nano Banana → Flow → Firebase Studio), headless CMS integration, parallax animation, and no-code deployment"
+description: 'Builds premium AI-powered websites using Andy Lo''s Google-stack methodology — visual pipeline (Whisk / Nano Banana → Flow → Firebase Studio), headless CMS integration, parallax animation, and no-code deployment that ships sites visually indistinguishable from $20K agency builds at near-zero tooling cost. Use when building a high-end personal-brand or service-business site without a dev team, productizing a "premium website in 48 hours" service, leveraging Google''s free creative tools instead of paying for Webflow / Framer / Wix Pro, or designing a site with cinematic parallax + AI-generated visuals as the differentiator. Trigger proactively whenever the user says "premium website", "Nano Banana", "Whisk", "Firebase Studio", "Flow", "parallax site", or wants to build a portfolio/agency-tier site as a solo operator. For DESIGN.md / brand system extraction use design-md or brand-library; for hand-coded React/Tailwind builds from a DESIGN.md use product-design-build.'
 version: "2.0"
 format: "completion-engine"
 workflows: 4

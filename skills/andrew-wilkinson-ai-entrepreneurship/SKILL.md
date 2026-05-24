@@ -1,6 +1,6 @@
 ---
 name: "Andrew Wilkinson AI Entrepreneurship"
-description: "Build AI-powered personal automation systems, vibe code valuable products, and execute at superhuman speed as a solo entrepreneur"
+description: 'Builds AI-powered solo-entrepreneur infrastructure using Andrew Wilkinson''s methodology — personal automation systems that eliminate repetitive ops, vibe-coded product builds (functional MVPs in days, not months), and the leverage mindset that makes a single operator perform like a 10-person team. Use when planning the solo-entrepreneur stack (no employees, AI + automation as workforce), building an internal-tools product to be productized later, automating high-volume repetitive ops (intake, scheduling, follow-up), or designing the personal-OS that frees the operator from execution to focus on judgment. Trigger proactively whenever the user says "solo founder", "personal automation", "vibe code", "I want to scale without hiring", "AI as my team", or describes burnout from manual operations that should be automated. For business-scaling fundamentals + buyback methodology (founders past solo stage) use dan-martell-business-scaling; for AI-affiliate monetization specifically use darrel-wilson-ai-affiliate.'
 version: "2.0"
 format: "completion-engine"
 workflows: 2

@@ -1,6 +1,6 @@
 ---
 name: "Greg Hoffman: Brand Mastery"
-description: "Greg Hoffman's institutional brand-building system: emotional architecture, campaign design, creative culture engineering, and taste development — extracted from 27 years as Nike's Global CMO"
+description: 'Builds institutional-grade brand architecture using Greg Hoffman''s 27-year Nike-Global-CMO methodology — emotional architecture, big-budget campaign design, creative culture engineering, and the taste-development discipline that distinguishes iconic brands from competent ones. Use when designing a full brand campaign with cohesive emotional throughline, building creative-culture inside an in-house team (not freelance/agency), developing institutional taste over years rather than launches, or pitching enterprise-level brand work where Nike/Apple-tier reference is the bar. Trigger proactively whenever the user says "Nike-level", "iconic campaign", "creative culture", "brand campaign architecture", "develop my team''s taste", or works on a brand with 8-9 figure marketing budget. For personal-brand mechanics use seth-godin-brand; for cult/magnetism on a smaller scale use erica-mallet-brand-magnetism; for messaging clarity at the cognitive-load layer use donald-miller-cognitive-load.'
 version: "1.0"
 format: "completion-engine"
 workflows: 5

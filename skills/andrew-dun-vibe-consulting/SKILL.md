@@ -1,6 +1,6 @@
 ---
 name: "Andrew Dun — Vibe Consulting Mastery"
-description: "Diagnostic-first AI consulting framework: process mapping, ROI quantification, prescriptive transformation, and full-practice operations for business clients"
+description: 'Operates Andrew Dun''s diagnostic-first AI consulting practice — process mapping inside client orgs, ROI quantification before any tool recommendation, prescriptive transformation plans (not advice-and-leave), and the full operating system for running a profitable AI consulting practice serving business clients. Use when starting or scaling an AI consulting business, structuring a client engagement that doesn''t devolve into "I''ll show you ChatGPT prompts", quantifying ROI for an AI implementation before pitching, or building the back-end operations (pricing, contracts, delivery cadence) of a consulting firm that ships transformation rather than reports. Trigger proactively whenever the user says "AI consulting", "consulting practice", "ROI for AI", "diagnostic engagement", "client transformation", or wants to charge $25K+ for an AI engagement instead of $2K for training. For AI-tool-stack monetization for solo operators use darrel-wilson-ai-monetization; for AI-personal-leverage (not client work) use andrew-wilkinson-ai-entrepreneurship.'
 version: "2.0"
 format: "completion-engine"
 workflows: 15

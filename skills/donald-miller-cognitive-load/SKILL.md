@@ -1,6 +1,6 @@
 ---
 name: "Donald Miller — Cognitive Load Messaging Mastery"
-description: "Score, diagnose, and eliminate cognitive friction from all messaging — zero-load sound bites, PEACE framework, three-phase campaign architecture, and cognitive load autopsy"
+description: 'Scores, diagnoses, and eliminates cognitive friction from messaging using Donald Miller''s methodology — zero-load sound bites, the PEACE framework (Problem / Empathy / Authority / Confidence / Examples), three-phase campaign architecture (curiosity → enlightenment → commitment), and cognitive-load autopsies on copy that "tested fine but didn''t convert". Treats every extra word, clause, or concept as a tax the reader either pays or rejects. Use when website copy reads as smart-but-confusing, a sales page has too many ideas competing for attention, sound bites need to land in 5 seconds (interviews, podcast intros, elevator pitches), or training a team to write at the cognitive-load discipline. Trigger proactively whenever the user says "this is too complicated", "make it simpler", "they''re not getting it", "sound bite", or shares messaging that requires the reader to work. For full StoryBrand SB7 narrative architecture use storybrand or the storybrand-copy workflow; for culture-change messaging use donald-miller-culture-turnaround.'
 version: "1.0"
 format: "completion-engine"
 workflows: 8

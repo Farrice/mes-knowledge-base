@@ -1,6 +1,6 @@
 ---
 name: "Dan Koe - AI Leverage Methodology"
-description: "Turn AI into a creative expansion partner, not a replacement. Context-loaded coaching, adversarial refinement, and knowledge alchemy."
+description: 'Operates Dan Koe''s AI-as-expansion-partner methodology — treats AI as a creative thinking amplifier rather than an output replacer, using context-loaded coaching (load your full creative context before generating), adversarial refinement (use AI to break your own ideas before publishing), and knowledge alchemy (turn books / podcasts / extracts into reusable AI-prompting building blocks). Use when the user is creating with AI but the output feels generic, building a personal-knowledge-management system that compounds with AI use, designing prompts that survive multiple model versions, or training the user''s eye on the difference between AI-as-leverage and AI-as-crutch. Trigger proactively whenever the user says "AI output feels generic", "I want AI to think with me", "knowledge alchemy", "context-loaded prompts", or "Dan Koe". For AI affiliate-site building use darrel-wilson-ai-affiliate; for full AI-business architecture use the ai-brain pipeline.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

@@ -1,6 +1,6 @@
 ---
 name: "Darrel Wilson AI Monetization"
-description: "AI monetization systems - lead generation, affiliate tools, website flipping, and workflow sales using warm prospect philosophy"
+description: 'Builds AI monetization systems using Darrel Wilson''s warm-prospect methodology — lead generation funnels powered by AI tools, affiliate-tool stacks that compound passive income, website flipping with AI-built sites, and workflow sales (productize the AI workflow itself, not the output). Use when monetizing existing AI skills without building a product from scratch, designing an affiliate funnel around a niche tool stack, flipping AI-built sites for capital before scaling, or productizing internal workflows as paid services. Trigger proactively whenever the user says "AI side hustle", "AI affiliate", "monetize AI", "flip websites", "warm prospect", or wants to convert AI knowledge into revenue without a 12-month build. For full AI-affiliate-site strategy (not reviews but actually-useful tools) use darrel-wilson-ai-affiliate; for AI-leverage-as-thinking-partner use dan-koe-ai-leverage; for solo-entrepreneur infrastructure use andrew-wilkinson-ai-entrepreneurship.'
 version: "2.0"
 format: "completion-engine"
 workflows: 4

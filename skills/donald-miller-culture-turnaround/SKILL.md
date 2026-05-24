@@ -1,6 +1,6 @@
 ---
 name: "Donald Miller - Culture Turnaround Mastery"
-description: "Transform losing cultures into winning ones through strategic language, obsessive documentation, and identity-installing sound bites"
+description: 'Transforms losing organizational cultures into winning ones using Donald Miller''s methodology — strategic language (the words leadership repeats install the identity), obsessive documentation (verbal becomes institutional), and identity-installing sound bites that shift "what kind of company we are". Use when leading a culture turnaround in a struggling team, scaling a cultural shift past 50+ employees where direct contact stops working, codifying tribal knowledge into transferable language, or replacing a toxic-cultural-pattern with an installed-positive alternative. Trigger proactively whenever the user says "culture problem", "team is unmotivated", "we''re losing our edge", "culture turnaround", or describes leadership that''s tried everything except changing what words they say. For external messaging-clarity (customer-facing copy friction) use donald-miller-cognitive-load; for institutional brand culture (creative teams specifically) use greg-hoffman-brand-mastery.'
 version: "2.0"
 format: "completion-engine"
 workflows: 4
