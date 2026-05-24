@@ -81,14 +81,14 @@ python3 execution/evolution_orchestrator.py monthly       # Phase 4 gap analysis
 python3 execution/evolution_orchestrator.py status        # Last-run state + grounded skills
 python3 execution/evolution_orchestrator.py queue         # Phase 2 + binding review queues
 
-# Skill auditor — tier-grade 210 skills (Fix 3)
+# Skill auditor — tier-grade 234 skills (Fix 3)
 python3 execution/skill_auditor.py audit                  # A/B/C/REVIEW classification
 python3 execution/skill_auditor.py duplication            # Skills × agents overlap
 python3 execution/skill_auditor.py update-index --apply   # Annotate SKILL_INDEX.md with tiers
 python3 execution/skill_auditor.py archive --tier C --apply  # Move tier to _archive/skills/ (PREVIEW FIRST)
 ```
 
-**Audit infrastructure rationale**: The 2026-04-24 system audit (`_active/system-audit/audit-2026-04-24.md`) found that scaffolding had outpaced evals — 210 skills + 117 agents + 58 directives but only 16 ground-truth benchmarks. These 6 tools close the measurement gap: routing is now deterministic (not advisory), grounding is observable (not silent), the rubric is anchored (not vibes), the orchestrator closes the Phase 1-4 loop (not just logging), and the skill auditor surfaces tier evidence (not estimates). Calibrate first run found 94-99% of finalize scores were 8+ — empirical confirmation of grade inflation. **Read the audit report before significantly changing the system.** Directive navigation map: `directives/INDEX.md`.
+**Audit infrastructure rationale**: The 2026-04-24 system audit (`_active/system-audit/audit-2026-04-24.md`) found that scaffolding had outpaced evals — at that time 210 skills + 117 agents + 58 directives with only 16 ground-truth benchmarks. As of 2026-05-23 the system has grown to **234 skills + 134 agents + 64 directives + 888 workflow files + 101 execution scripts** with ground-truth still at 7 domains (brand-strategy, content-strategy, copywriting, linkedin, sales-psychology, screenwriting, seo). The 6 tools above close the measurement gap: routing is now deterministic (not advisory), grounding is observable (not silent), the rubric is anchored (not vibes), the orchestrator closes the Phase 1-4 loop (not just logging), and the skill auditor surfaces tier evidence (not estimates). The 2026-04-24 calibrate-first-run found 94-99% of finalize scores were 8+; Wave 1-3 Excellence Lift (caps + taste_signature + excellence_predictor) and the 2026-05-23 cap-value fix (7.5 → 7.25, commit `807ea9d7`) brought the distribution into genuinely bimodal shape. **Read the audit report before significantly changing the system.** Directive navigation map: `directives/INDEX.md`.
 
 ### Knowledge Compiler — Karpathy Wiki Engine (Updated 2026-04-13)
 
@@ -167,7 +167,7 @@ Active per-project CLAUDE.md files (Phase B Move 3, shipped 2026-05-12):
 
 ## System Primitives (Irreducible Parts)
 
-> **Why this table exists** (Item L of 2026-05-21 synthesis brief): Antigravity has 232 skills + 109 agents + 58 directives + many Python execution scripts. When responsibilities drift, the failure is silent. This table names the irreducible *execution-layer* primitives — each row answers "what owns this responsibility, and what triggers it?" If a future session reassigns one of these owners without updating this table, drift is on us. Source-file column is canonical.
+> **Why this table exists** (Item L of 2026-05-21 synthesis brief): Antigravity has **234 skills + 134 agents + 64 directives + 888 workflow files + 101 Python execution scripts** (counts as of 2026-05-23 — re-grep before assuming). When responsibilities drift, the failure is silent. This table names the irreducible *execution-layer* primitives — each row answers "what owns this responsibility, and what triggers it?" If a future session reassigns one of these owners without updating this table, drift is on us. Source-file column is canonical.
 
 | Primitive | Owns | Triggered By | Source File |
 |---|---|---|---|
