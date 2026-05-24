@@ -1,6 +1,6 @@
 ---
 name: "Fareed Zakaria: Writing Mastery"
-description: "Fareed Zakaria's non-fiction writing system: argument architecture, evidence compression, public intellectual voice, and cross-medium communication mastery"
+description: 'Applies Fareed Zakaria''s non-fiction writing system — argument architecture (every paragraph carries the throughline forward), evidence compression (more proof in fewer words), public-intellectual voice (authoritative without being academic), and cross-medium mastery (writing that works in print, podcast, and TV simultaneously). Use when writing a Foreign Affairs / Atlantic / Time-tier essay or column, compressing a sprawling argument into a 1,500-word version that holds up, finding a voice that signals authority without arrogance, or designing content meant to be quoted in three formats from one draft. Trigger proactively whenever the user says "public intellectual", "Zakaria-style", "argument architecture", "evidence compression", "make this authoritative", or wants writing that operates at policy / foreign-affairs / public-discourse level. For longer literary-essay form with musical pacing use dan-wang-literary-analysis; for memoir / narrative-personal work use lamott-craft.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5

@@ -1,6 +1,6 @@
 ---
 name: "Brad Bonanno — Explainer-Video Architecture"
-description: "Structural patterns for technical explainer videos that survive short attention spans, communicate complete systems, and function as channel-building artifacts"
+description: 'Architects technical explainer videos using Brad Bonanno''s structural patterns — survives short attention spans, communicates complete systems (not just teasers), and functions as a channel-building artifact (one video pulls subscribers, not just views). Use when planning a long-form technical explainer (5-20 min) for YouTube, structuring an explanation of a complex system the user knows but can''t teach yet, balancing depth vs accessibility for a technical audience, or building an evergreen video meant to compound subscriber growth over years rather than spike then die. Trigger proactively whenever the user says "explainer video", "technical explainer", "how do I explain X", "long-form YouTube", "evergreen video", or has a complex system that needs to land with a non-expert. For Instagram-format shareworthy content use brock-johnson-shareworthy-content; for short-form video patterns use a TikTok/Reels-specific skill.'
 version: "2.0"
 format: "completion-engine"
 workflows: 4

@@ -1,6 +1,6 @@
 ---
 name: "Joscha Bach - Computational Consciousness"
-description: "Consciousness as self-organizing software. Engineering stance on mind, identity, suffering, and coherence. Philosophy of mind meets system design."
+description: 'Models consciousness as self-organizing software using Joscha Bach''s computational methodology — engineering-stance treatment of mind, identity, suffering, and coherence; philosophy-of-mind meets system design. Use when reasoning about AI consciousness or sentience claims, debugging the user''s own mental coherence as if it were a software stack, applying computational-phenomenology to a creative or strategic block, or evaluating whether a model / agent / human has crossed a functional consciousness threshold. Trigger proactively whenever the user says "is X conscious", "computational consciousness", "Joscha Bach", "self-model", "coherence", or asks engineering-stance questions about minds (their own, an AI''s, or others''). For Vedantic-clinical integration on personal suffering / samskara / identity-transcendence work use dr-k-consciousness; for action-bias breakthrough on practical blocks use ali-abdaal-action-bias.'
 version: "1.0"
 format: "completion-engine"
 workflows: 5

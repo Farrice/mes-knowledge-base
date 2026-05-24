@@ -1,6 +1,6 @@
 ---
 name: "Caleb Ralston Personal Brand"
-description: "Trust-based personal brand architecture for building brands people buy from, not just watch"
+description: 'Architects a trust-based personal brand using Caleb Ralston''s methodology — the distinction between brands people watch and brands people buy from, built on consistent proof of perspective + judgment over hype, format, or follower counts. Use when building a personal brand from scratch with revenue (not vanity) as the goal, repositioning an attention-rich brand that doesn''t convert to dollars, mapping the trust ladder from cold audience → engaged → buyer, or designing the 4-C intro (Connection / Credibility / Conviction / Call) for cold-audience video. Trigger proactively whenever the user says "personal brand", "build trust", "people watch but don''t buy", "brand strategy for me", "4C intro", or "Caleb". For LinkedIn-specific organic growth use lara-acosta-linkedin-mastery or jasmin-alic-linkedin-growth; for cult-magnetism brand on a more emotional axis use erica-mallet-brand-magnetism; for personal-brand fundamentals via Godin use seth-godin-brand.'
 version: "3.0"
 format: "completion-engine"
 workflows: 11

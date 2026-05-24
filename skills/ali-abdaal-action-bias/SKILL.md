@@ -1,6 +1,6 @@
 ---
 name: "Ali Abdaal: Action Bias"
-description: "Ali Abdaal's system for breaking overthinking paralysis: action bias, two-way doors, experiment cycles, and the psychology of getting unstuck"
+description: 'Breaks overthinking paralysis using Ali Abdaal''s action-bias methodology — two-way doors (most decisions are reversible, treat them as such), experiment cycles (ship to learn, not to be right), and the psychology of converting analysis loops into shipping cadence. Use when the user is stuck planning instead of shipping, evaluating a "high-stakes" decision that''s actually a two-way door, designing weekly experiment cycles for a side project / content / business, or coaching past perfectionism that masquerades as preparation. Trigger proactively whenever the user says "I''m overthinking this", "should I do X or Y", "I''ve been planning for months", "perfectionism", "stuck in analysis", or describes a decision they''ve made and unmade repeatedly. For deeper resistance / creative block diagnosis (Pressfield-style) use resistance or drk-resistance; for high-stakes one-way-door decisions use sharran-srivatsaa-scaling decision architecture.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

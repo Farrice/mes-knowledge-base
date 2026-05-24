@@ -1,6 +1,6 @@
 ---
 name: "Dr. K Consciousness"
-description: "Vedantic-clinical psychology integration for identity transcendence, thought-response training, samskara dissolution, guna-based diagnostics, and consciousness-based coaching"
+description: 'Integrates Vedantic philosophy and clinical psychology using Dr. K (HealthyGamerGG) methodology — identity transcendence (constructed self vs witnessing self), thought-response training, samskara dissolution (unconscious behavioral grooves), guna-based diagnostics (tamasic / rajasic / sattvic mental states), and consciousness-based coaching. Use when diagnosing epistemic belief vs samskara, separating outcome attachment from daily effort, processing reactive emotions before strategic decisions, dissolving identity-level limitations goal-setting can''t reach, or planning content from a processed rather than reactive emotional state. Trigger proactively whenever the user says "I''m stuck on something deeper", "samskara", "dharma", "guna", or describes suffering that tactical fixes don''t resolve. For computational / engineering-stance consciousness work use joscha-bach-consciousness; for lighter action-bias breakthrough use ali-abdaal-action-bias.'
 version: "1.1"
 format: "completion-engine"
 workflows: 11

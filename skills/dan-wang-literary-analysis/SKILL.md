@@ -1,6 +1,6 @@
 ---
 name: "Dan Wang Literary Analysis"
-description: "Transform dense analytical material into literary essays with musical pacing, textured observation, and layered depth that rewards re-reading"
+description: 'Transforms dense analytical material into literary-essay form using Dan Wang''s methodology — musical pacing (sentence-length cadence as instrument), textured observation (specific concrete details that ladder up to abstract argument), and layered depth that rewards re-reading rather than skimming. Use when writing a long-form essay (3K-10K words) where craft must match the analytical density, converting a research report or whitepaper into something publishable in The Atlantic / FT / NYT-tier outlets, training the user''s ear for prose that works at sentence AND structural level, or rewriting analytical work that''s smart-but-dry. Trigger proactively whenever the user says "literary essay", "Dan Wang", "long-form", "essay-grade prose", "make this readable", or shares analytical writing that needs literary lift. For tighter business writing (Zakaria-tier argument architecture for shorter pieces) use fareed-zakaria-writing-mastery; for memoir / personal-narrative literary prose use lamott-craft.'
 version: "2.0"
 format: "completion-engine"
 workflows: 2

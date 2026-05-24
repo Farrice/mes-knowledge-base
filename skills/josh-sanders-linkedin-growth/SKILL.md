@@ -1,6 +1,6 @@
 ---
 name: "Josh Sanders: LinkedIn Growth & High-Ticket Education"
-description: "Manufacture virality through format arbitrage and depth-first monetization to drive high-ticket cohort funnels."
+description: 'Manufactures LinkedIn virality using Josh Sanders'' format-arbitrage methodology — copy proven formats from outside the niche, layer depth-first content (long-form intelligence that filters audience), then funnel filtered demand into high-ticket cohort programs ($5K-$25K range). Use when an established LinkedIn audience (5K+ followers) is plateaued and needs a reach lift, planning a high-ticket cohort launch where audience filter matters more than volume, applying format-arbitrage (steal a Twitter/IG format for LinkedIn before competitors), or designing the depth-first content that drives qualified DMs not just likes. Trigger proactively whenever the user says "high-ticket cohort", "format arbitrage", "depth-first content", "filter my audience", or wants to monetize a mid-sized LinkedIn audience without a low-ticket course. For zero-audience LinkedIn growth use jasmin-alic-linkedin-growth; for general LinkedIn mastery use lara-acosta-linkedin-mastery.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5

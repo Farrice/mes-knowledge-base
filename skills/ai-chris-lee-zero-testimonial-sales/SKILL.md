@@ -1,6 +1,6 @@
 ---
 name: "AI Chris Lee — Zero Testimonial Sales Mastery"
-description: "Complete system for selling AI services with zero testimonials using proof building strategies from AI Chris Lee"
+description: 'Sells AI services with zero testimonials using AI Chris Lee''s proof-building methodology — converts no-portfolio / no-case-study positions into trust signals via demonstrative proof (in-public builds, live problem-solving, deconstruction-of-paid-tools content), and the sales mechanics that work before social proof exists. Use when launching an AI service with no prior client work to reference, repositioning from "trust me" to "watch me solve this", structuring sales calls when the prospect can''t Google your testimonials, or building the in-public content engine that manufactures proof before clients do. Trigger proactively whenever the user says "zero testimonials", "no portfolio", "new AI business", "how do I close without proof", or "AI Chris Lee". For full AI consulting practice ops use andrew-dun-vibe-consulting; for AI monetization tactics (affiliate / lead-gen) use darrel-wilson-ai-monetization.'
 version: "2.0"
 format: "completion-engine"
 workflows: 4
