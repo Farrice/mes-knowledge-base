@@ -1,6 +1,6 @@
 ---
 name: "Chris Cimorelli — Financial Direct Response Copywriting"
-description: "Architect high-converting front-end and back-end promotions using Big Idea methodology, proof hierarchy engineering, and momentum copy craft. Built from Agora's #1 newsletter promo copywriter."
+description: 'Architects high-converting financial direct-response promotions using Chris Cimorelli''s Big Idea methodology, proof hierarchy engineering, and momentum copy craft — built from Agora''s #1 newsletter promo copywriter (newsletter funnels in the $50M+/year range). Use when writing front-end financial / investing / newsletter promos, back-end upsell sequences for paid newsletters, applying the Big Idea framework to a stale promo, engineering proof hierarchy in skeptical financial markets, or diagnosing why a financial promo is converting at 0.3% instead of 1%+. Trigger proactively whenever the user says "newsletter promo", "Agora-style", "financial copy", "Big Idea", "back-end sequence", or works in the investing/finance/crypto/precious-metals space. For non-financial DR campaigns use bond-halbert-copywriting; for sentence-level dopamine copy use stefan-georgi-dopamine-copy.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

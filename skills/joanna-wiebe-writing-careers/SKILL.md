@@ -1,6 +1,6 @@
 ---
 name: "Joanna Wiebe — Writing Career Monetization"
-description: "How to position, price, and architect any writing career around measurable business outcomes — from ghostwriting to brand strategy"
+description: 'Architects a sustainable writing career using Joanna Wiebe''s positioning, pricing, and business-design methodology — built on Copyhackers, the writer-as-business-strategist lineage. Use when a writer is repositioning from "freelance copy for hire" to outcome-priced practice, deciding whether to ghostwrite vs build a personal brand, pricing a copy engagement against measurable business outcomes (lead-gen, AOV lift, retention) instead of word counts, or designing the next 3-5 year arc of a writing career. Trigger proactively whenever the user says "how do I price this", "I want to charge more", "ghostwriting vs my own brand", "what should my writing career look like", or describes burnout from undifferentiated freelance copy work. For tactical sentence-level copy use stefan-georgi-dopamine-copy or harry-dry-copywriting; for AI-leveraged copywriting business use cardinal-mason-ai-copywriting.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5

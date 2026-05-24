@@ -1,6 +1,6 @@
 ---
 name: "Harry Dry Copywriting"
-description: "Copywriting evaluation and creation frameworks using the Three Rules Test, Zoom-In Technique, and precision rewriting methodology"
+description: 'Evaluates and rewrites copy using Harry Dry''s precision frameworks — the Three Rules Test (specific / short / different), Zoom-In Technique (one concrete detail does the work of ten abstractions), and surgical rewriting that strips weak words rather than adding strong ones. Use when auditing existing copy for vague-and-forgettable patterns, rewriting a single high-stakes line (hero headline, CTA, subject line) where every word must earn its place, training the user''s eye on what makes copy concrete vs abstract, or doing fast precision passes on draft copy before shipping. Trigger proactively whenever the user says "audit this line", "is this specific enough", "make this tighter", "the copy feels generic", or shares a single headline or CTA for critique. For full campaign architecture use bond-halbert-copywriting; for dopamine craft use stefan-georgi-dopamine-copy; for big-idea methodology use chris-cimorelli-copywriting.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

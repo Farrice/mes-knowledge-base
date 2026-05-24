@@ -1,6 +1,6 @@
 ---
 name: "Alen Sultanic Copywriting Mastery"
-description: "Advanced buyer psychology, offer economics, and conversion architecture - the unified field theory of buyer behavior"
+description: 'Executes Alen Sultanic''s unified buyer-behavior methodology — advanced buyer psychology, offer economics, and conversion architecture treated as one connected system rather than three separate disciplines. Use when designing offer economics (price ladders, payment structures, anchors), diagnosing why a converting funnel suddenly stops converting, decoding buyer psychology in a vertical the user doesn''t know, or building conversion architecture for high-ticket offers ($2K+). Trigger proactively whenever the user says "why isn''t this converting", "design the offer", "buyer psychology", or shares a funnel that worked at scale and broke. For tactical sentence-level copy use stefan-georgi-dopamine-copy; for insight-vector frameworks use luke-iha-insight-vectors; for niche positioning use nicolas-cole-niche-positioning.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5

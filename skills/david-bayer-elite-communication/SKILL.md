@@ -1,6 +1,6 @@
 ---
 name: "David Bayer: Elite Communication"
-description: "David Bayer's system for speaking like the 1% elite: presence, power dynamics, authenticity, and verbal identity mastery"
+description: 'Trains spoken-communication mastery using David Bayer''s elite-presence system — verbal identity, room dynamics, power-presence under pressure, and the authenticity-as-status mechanics that distinguish 1%-tier communicators from technically-skilled speakers. Use when preparing for high-stakes spoken moments (keynote, podcast appearance, pitch meeting, board presentation, sales call), diagnosing why the user comes across as smaller in person than on paper, rebuilding presence after a confidence-rattling event, or designing the verbal identity that matches the user''s positioning. Trigger proactively whenever the user says "I have a big talk coming up", "I freeze on camera", "I sound smaller than I am", "podcast prep", or describes a written brand that doesn''t carry into spoken settings. For written voice / brand voice use voice-document or voice-calibrate; for sales-call dynamics specifically use chase-hughes-conversational-influence.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

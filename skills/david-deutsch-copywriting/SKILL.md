@@ -1,6 +1,6 @@
 ---
 name: "David Deutsch - Copywriting Legend"
-description: "Legendary copywriting methodology from David Deutsch - billion-dollar copywriter. Transform boring material into brilliant narrative. 29 prompts."
+description: 'Transforms boring source material into brilliant narrative copy using David Deutsch''s methodology — the billion-dollar copywriter whose signature is converting dry research / scientific / technical / financial information into stories that grip and convert. Use when the user has solid proof but flat copy, has dense technical material that needs to land with a lay audience, is writing for a niche where readers already know the basics (and need new framing, not more education), or is rewriting copy that "tested fine but didn''t excite anyone". Trigger proactively whenever the user says "this is too dry", "the proof is there but...", "make the research interesting", "translate this for normies", or shares technically-correct copy that bores. For surface-level dopamine craft use stefan-georgi-dopamine-copy; for big-idea financial promos use chris-cimorelli-copywriting; for pure DR fundamentals use bond-halbert-copywriting.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5

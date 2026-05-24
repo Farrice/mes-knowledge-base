@@ -1,6 +1,6 @@
 ---
 name: "Bond Halbert - Ultimate Copywriting Mastery"
-description: "Master copywriting system from 47-year direct response veteran - 26 Crown Jewel prompts for market research, copy creation, velocity optimization, and complete campaign architecture"
+description: 'Executes Bond Halbert''s 47-year direct-response copywriting system — market research, velocity-optimized copy creation, and complete campaign architecture from the son and protege of Gary Halbert (founder of the modern DR copy lineage). Use when building full direct-response campaigns (sales letter + email sequence + ad), running deep market research before writing copy, optimizing existing copy for measurable velocity gains (CTR, conversion, AOV), or applying old-school DR fundamentals that modern copywriters skip. Trigger proactively whenever the user says "direct response", "sales letter", "DR copy", "Gary Halbert", "market research for copy", or wants to know "what would actually work in the mail". For online-native dopamine-copy mechanics use stefan-georgi-dopamine-copy; for high-stakes financial promos use chris-cimorelli-copywriting.'
 version: "2.0"
 format: "completion-engine"
 workflows: 4

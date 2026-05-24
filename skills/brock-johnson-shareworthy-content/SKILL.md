@@ -1,6 +1,6 @@
 ---
 name: "Brock Johnson - Shareworthy Content Mastery"
-description: "Instagram shareworthy content strategy for beating the algorithm through human psychology and shares"
+description: 'Engineers Instagram content for shareworthiness using Brock Johnson''s methodology — treats shares as the algorithm''s highest-weighted signal and designs content backward from the share-trigger (identity-reinforcement, relatable callout, useful enough to send to a friend). Use when planning Instagram Reels / carousels / posts for organic reach, diagnosing why content gets likes but no shares (the silent algorithmic killer), repositioning a flat IG account around share-mechanics, or training the user''s eye on the difference between consumable content and shareworthy content. Trigger proactively whenever the user says "Instagram strategy", "IG reach", "Reels", "carousels", "shares vs likes", or shares an IG post and asks why it didn''t pop. For LinkedIn-specific organic growth use lara-acosta-linkedin-mastery or jasmin-alic-linkedin-growth; for TikTok/short-form video patterns use a video-specific skill.'
 version: "2.0"
 format: "completion-engine"
 workflows: 3

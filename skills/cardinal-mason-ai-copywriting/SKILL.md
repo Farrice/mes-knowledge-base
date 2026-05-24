@@ -1,6 +1,6 @@
 ---
 name: "Cardinal Mason - AI Copywriting Mastery"
-description: "Complete AI copywriting business system - 45 Crown Jewel prompts for client acquisition, copy creation, and scaling to $500K/year"
+description: 'Runs Cardinal Mason''s end-to-end AI copywriting business system — client acquisition, AI-assisted copy creation workflows, and scaling architecture proven to $500K/year. Treats AI as the production engine and the human as the strategist + closer, rather than competing with AI on output. Use when building a copywriting business that uses AI as leverage (not replacement), designing client-acquisition systems for a copywriter, scaling a freelance copy practice past six figures, or productizing copywriting services. Trigger proactively whenever the user says "AI copywriting business", "scale my copy practice", "copywriter using AI", or "how do AI copywriters get clients". For pure craft (sentence-level copy production) use stefan-georgi-dopamine-copy or bond-halbert-copywriting; for niche positioning of the copywriter''s own brand use nicolas-cole-niche-positioning.'
 version: "2.0"
 format: "completion-engine"
 workflows: 5
