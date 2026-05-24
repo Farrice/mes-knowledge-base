@@ -28,8 +28,12 @@ directives/quality_gate.md):
         ≫ cost of false FAIL; when in doubt, fail harder.
 
     Rule 2 — 8-must-be-earned:
-        Any dimension ≥8 without anchor_named=True is capped at 7.5.
-        Claude must name the rubric anchor to claim the 8.
+        Any dimension ≥8 without anchor_named=True is capped at 7.25.
+        Claude must name the rubric anchor to claim the 8. The cap value
+        (7.25) sits BELOW _PASS_COMPOSITE_FLOOR (7.5) so capped scores
+        cannot land in PASS — fixes the 7.50 MARGINAL plateau observed
+        in 2026-05-22 calibration replay (70% of traces piled at exactly
+        7.50 because the cap value equalled the PASS floor).
 
     Rule 3 — Anti-cluster:
         All 3+ dimensions ≥8 simultaneously AND anchor not named AND
@@ -80,9 +84,9 @@ class AdjustedScores:
 _FAILURE_PENALTY_THRESHOLD = 6.0        # dims at or below this get -1.0
 _FAILURE_PENALTY_AMOUNT = 1.0           # how much to subtract
 _EARNED_8_THRESHOLD = 8.0               # ≥ this requires named anchor
-_EARNED_8_CAP = 7.5                     # what it gets capped to
+_EARNED_8_CAP = 7.25                    # what it gets capped to (BELOW PASS floor; fixes 2026-05-22 plateau)
 _ANTI_CLUSTER_DIM_THRESHOLD = 8.0       # all dims at/above triggers cluster check
-_PASS_COMPOSITE_FLOOR = 7.5             # bimodal PASS threshold
+_PASS_COMPOSITE_FLOOR = 7.5             # bimodal PASS threshold (capped scores at 7.25 cannot reach this)
 _PASS_DIMENSION_FLOOR = 7.0             # every dim must clear this for PASS
 _FAIL_DIMENSION_CEILING = 6.0           # any dim at/below this = FAIL
 _FAIL_COMPOSITE_CEILING = 7.0           # composite below this = FAIL
