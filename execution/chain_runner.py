@@ -475,6 +475,12 @@ def finalize(
     factual_grounding: Optional[float] = None,
     # Excellence Lift Wave 2 (added 2026-05-21)
     anchor_named: bool = False,
+    # Autopilot Wave 5 stabilization (added 2026-05-23): original user intent
+    # used for the post-hoc routing check at line ~918. When None, the call
+    # falls back to checking output_description (legacy behavior). Autopilot's
+    # Phase 4 template MUST pass the original user request here to prevent the
+    # autopilot_orchestration binding from firing on every sub-workflow.
+    source_request: Optional[str] = None,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -915,9 +921,14 @@ def finalize(
     # source=cli) and actual usage (source=post_finalize). Non-fatal.
     if _HAS_ROUTING_ENFORCER and workflow:
         try:
-            validation = _check_routing(output_description, workflow)
+            # Prefer the original user request when supplied (autopilot threads
+            # it via --source-request to prevent the autopilot_orchestration
+            # binding from firing on every sub-workflow). Fall back to
+            # output_description for legacy callers.
+            check_input = source_request or output_description
+            validation = _check_routing(check_input, workflow)
             _log_routing_decision(
-                request=output_description,
+                request=check_input,
                 chosen_workflow=workflow,
                 validation=validation,
                 source="post_finalize",
@@ -1182,6 +1193,8 @@ def main():
     fin.add_argument("--factual", type=float, default=None, help="Factual grounding score 1-10. Omit for N/A (pure creative/opinion). Score <6 BLOCKS delivery per quality_gate.md factual veto.")
     # Excellence Lift Wave 2 (added 2026-05-21)
     fin.add_argument("--anchor-named", action="store_true", help="Set when scores ≥8 have a named rubric anchor (rubric_v1.md). Without this flag, any dim ≥8 is capped at 7.5 by the bimodal taste filter.")
+    # Autopilot Wave 5 stabilization (added 2026-05-23)
+    fin.add_argument("--source-request", default=None, help="Original user request verbatim. Used for the post-hoc routing check instead of the output description. Autopilot's Phase 4 template MUST pass this to prevent false positives on the autopilot_orchestration binding.")
 
     args = parser.parse_args()
 
@@ -1211,6 +1224,7 @@ def main():
             anchor_ref_for=args.anchor_ref_for,
             factual_grounding=args.factual,
             anchor_named=args.anchor_named,
+            source_request=args.source_request,
         )
         print_result(result)
     else:

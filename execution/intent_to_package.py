@@ -255,15 +255,24 @@ def _resolve_atomization(intent_lower: str) -> Optional[MissionPackage]:
         ],
         plugins=["episodic-memory"],
         cost_tier="free",
-        fanout_pattern="parallel",
-        fanout_workers_estimate=6,  # typical: 11 derivative formats, parallel-able in chunks
+        # Wave 5 v1 constraint (per .agent/workflows/autopilot.md and Cognition's
+        # "Don't Build Multi-Agents"): atomization is a WRITE phase. Parallel
+        # writers diverge in voice across the N derivatives (the bird-hat /
+        # bird-body failure mode). Each derivative writes sequentially against
+        # the single anchored source-of-truth. fanout_workers_estimate is kept
+        # as a batch-sizing hint, NOT a parallel-worker count. (Bug #4 fix,
+        # 2026-05-23 — Wave 5 validation surfaced the resolver/workflow contradiction.)
+        fanout_pattern="sequential",
+        fanout_workers_estimate=6,  # batch-size hint; sequential execution
         gates_to_surface=["G3"],
         halt_suppressions=[],
         confidence=0.9,
         reasoning=(
             "Atomization signal matched. /atomize produces N derivatives from "
-            "one source; each derivative is independent → maximal parallel "
-            "fan-out. Each platform-native expert handles their format."
+            "one source. Each derivative writes SEQUENTIALLY against the single "
+            "anchored source-of-truth to prevent voice drift across formats "
+            "(Cognition's bird-hat failure mode). Platform-native experts pick "
+            "the appropriate skill per format in order."
         ),
         matched_signals=hits,
     )

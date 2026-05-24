@@ -53,6 +53,17 @@ BINDINGS = [
             "parallax post",
             "parallax draft",
         ],
+        # Operation-class signals that override this production binding. When ANY
+        # of these are also present, the user wants to OPERATE ON an existing
+        # edition (atomize / polish / extract / refine), not PRODUCE a new one.
+        # Added 2026-05-23 to fix Bug #3 from Wave 5 validation (false halt on
+        # "atomize the most recent Parallax edition into 11 derivatives").
+        "negative_signals": [
+            "atomize", "remix", "platform-adapt", "platform adapt",
+            "polish", "refine", "diagnose", "review", "study", "extract",
+            "derivative", "derivatives", "spin into", "spin this into",
+            "audit", "analyze",
+        ],
         "mandatory_workflow": "parallax",
         "forbidden_workflows": ["writers-room"],
         "reason": (
@@ -273,9 +284,19 @@ def check_routing(request: str, chosen_workflow: str) -> Dict[str, Any]:
         "advisory": None,
     }
 
+    request_lower = request.lower()
     for binding in BINDINGS:
         matched_signal = _request_hits_signal(request, binding["signal_phrases"])
         if not matched_signal:
+            continue
+
+        # Operation-class override (added 2026-05-23 — Bug #3 fix). If the
+        # request also names an operation that supersedes production (atomize,
+        # polish, extract, etc.), this production binding does NOT fire.
+        # Lets atomize-this-existing-edition / polish-this-draft / etc. flow
+        # through the resolver to the correct downstream workflow.
+        negative_signals = binding.get("negative_signals") or []
+        if any(neg.lower() in request_lower for neg in negative_signals):
             continue
 
         # Signal matched — this binding applies.

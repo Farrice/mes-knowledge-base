@@ -1,5 +1,5 @@
 ---
-description: Gate-suppressed orchestration dispatcher. Composes the right mission package, runs end-to-end without mid-flight halts, surfaces only taste-level decisions. Skinny Wave-4 version — Research outcome class populated; Wave 5 fills the rest.
+description: Gate-suppressed orchestration dispatcher across all 7 outcome classes. Composes the right mission package, runs end-to-end with only 3 taste gates (G1 intent, G2 cost, G3 prose), surfaces a copy-pasteable refinement ledger at the end.
 ---
 
 # `/autopilot` — Gate-Suppressed Orchestration
@@ -296,8 +296,15 @@ Per Anthropic's documented failure modes:
        --anchor-named   # only if you can name the rubric anchor for any 8+ score
        --notes "<what worked, what didn't>" \
        --project <slug if set> \
+       --source-request "<original user intent verbatim>" \  # REQUIRED: Bug #1 fix
+       --sub-agents <N Agent workers spawned in Phase 2> \   # REQUIRED: Bug #5 fix
        --trace
    ```
+
+   **Two MANDATORY autopilot args (added 2026-05-23 — Wave 5 stabilization):**
+   - `--source-request "<verbatim user intent>"` — without this, the post-hoc routing check uses the output description and the autopilot_orchestration binding fires falsely on every sub-workflow dispatch. Always pass the original user intent verbatim.
+   - `--sub-agents <N>` — pass the exact number of harness Agent calls you spawned in Phase 2 (0 if none, N if parallel fan-out fired). Without this, qualifying workflows log a false sub-agent miss to `evolution_store/sub_agent_misses.jsonl` even when fan-out succeeded.
+
    Note: Wave 1+2 caps fire automatically. Wave 3 grade-inflation detector fires automatically. If the system caps your composite, that's the bimodal taste signature working — accept the lower score.
 2. If `verification_upfront` was set in Phase 0 (because the predictor flagged factual_surface): run `/verification-agent` BEFORE the finalize, not after.
 3. The LAST finalize call should include any final session metadata.

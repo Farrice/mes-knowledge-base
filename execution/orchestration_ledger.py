@@ -41,15 +41,44 @@ PREDICTIONS = ROOT / "evolution_store" / "predictions"
 LEDGER_OUT_DIR = ROOT / "_active" / "_ledgers"
 
 
+def _parse_ts_to_naive_local(ts: str) -> Optional[datetime]:
+    """Parse an ISO-8601 timestamp string into a naive local datetime.
+
+    - Naive input (no tz info) is assumed to be local time, returned as-is.
+    - Aware input (e.g. ends in 'Z' or '+00:00') is converted to local time
+      and stripped of tzinfo so it can be compared against naive timestamps.
+    - Returns None on parse failure so callers can skip the entry.
+
+    Rationale: chain_runner writes traces with `datetime.now().isoformat()`
+    (naive local). Callers passing UTC-aware `--since` (e.g. from `date -u`)
+    previously failed string lex-compare against local-naive timestamps,
+    silently filtering out the entire session. This normalizer fixes that.
+    """
+    if not ts:
+        return None
+    try:
+        # Accept the 'Z' suffix that strict ISO-8601 uses for UTC.
+        normalized = ts.replace("Z", "+00:00") if ts.endswith("Z") else ts
+        dt = datetime.fromisoformat(normalized)
+    except ValueError:
+        return None
+    if dt.tzinfo is not None:
+        # Convert aware → local naive so we can compare against trace writes.
+        dt = dt.astimezone().replace(tzinfo=None)
+    return dt
+
+
 def _load_traces_since(since_ts: str) -> List[Dict[str, Any]]:
-    """Load v2 traces with timestamp >= since_ts (ISO format)."""
+    """Load v2 traces with timestamp >= since_ts (timezone-aware)."""
     if not TRACES_V2.exists():
         return []
+    cutoff = _parse_ts_to_naive_local(since_ts)
     out = []
     for p in TRACES_V2.glob("trace_*.json"):
         try:
             d = json.loads(p.read_text())
-            if d.get("timestamp", "") >= since_ts:
+            trace_dt = _parse_ts_to_naive_local(d.get("timestamp", ""))
+            if cutoff is None or (trace_dt is not None and trace_dt >= cutoff):
                 out.append(d)
         except Exception:
             continue
@@ -58,9 +87,10 @@ def _load_traces_since(since_ts: str) -> List[Dict[str, Any]]:
 
 
 def _load_jsonl_since(path: Path, since_ts: str) -> List[Dict[str, Any]]:
-    """Load JSONL entries with timestamp >= since_ts."""
+    """Load JSONL entries with timestamp >= since_ts (timezone-aware)."""
     if not path.exists():
         return []
+    cutoff = _parse_ts_to_naive_local(since_ts)
     out = []
     try:
         with open(path) as f:
@@ -70,7 +100,8 @@ def _load_jsonl_since(path: Path, since_ts: str) -> List[Dict[str, Any]]:
                     continue
                 try:
                     d = json.loads(line)
-                    if d.get("timestamp", "") >= since_ts:
+                    entry_dt = _parse_ts_to_naive_local(d.get("timestamp", ""))
+                    if cutoff is None or (entry_dt is not None and entry_dt >= cutoff):
                         out.append(d)
                 except Exception:
                     continue
