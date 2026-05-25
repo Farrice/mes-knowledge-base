@@ -12,7 +12,7 @@ Why it exists: 232 skills + 886 workflows + 24 experts is too much surface
 area to mentally compose for every session. This is the cognitive-
 compression layer — fuzzy intent in, full package out.
 
-Seven outcome classes (full taxonomy):
+Nine outcome classes (full taxonomy):
 
     1. Single Deliverable Production — "draft a LinkedIn post", "write me one X"
     2. Multi-Deliverable Mission     — "build me a brand for X", "campaign for Y"
@@ -21,11 +21,20 @@ Seven outcome classes (full taxonomy):
     5. System / Maintenance          — "audit the system", "evolve skill X"
     6. Refinement / Diagnosis        — "polish this draft", "writers room on this"
     7. Freeform / Unclassified       — fall-through to /big-project
+    8. Conversation / Reflection     — "what do you think", "your take on" (Phase A)
+    9. Exploration                   — "let's explore", "help me figure out" (Phase A)
 
 Resolution order (specificity descending — first match wins):
     refinement → research → atomization → maintenance → multi-deliverable
-    → single-deliverable subroute (parallax/linkedin/seo/brand/design)
-    → freeform fallback
+    → conversation → exploration → single-deliverable subroute (parallax/
+    linkedin/seo/brand/design) → freeform fallback
+
+Classes 8 + 9 (Phase A / 2026-05-25): The "universal front door" — autopilot
+now handles reflective and exploratory intents without punting to freeform.
+Both skip G1 (reflective questions are sharp by being exploratory; forcing
+DICE sharpening on them ruins the dialogue) and skip chain_runner.finalize
+(no deliverable → nothing to score). Ledger still emits so calls get
+tracked for ledger-learning (Phase B).
 
 CLI:
     python3 execution/intent_to_package.py resolve --intent "<text>" --json
@@ -165,6 +174,41 @@ GENERIC_SINGLE_DELIVERABLE_SIGNALS = [
     "write me one", "draft a ", "draft one ", "write a ",
     "write one ", "make one ", "create one ",
     "give me a ", "produce a ",
+]
+
+# Class 8: Conversation / Reflection (Phase A — universal autopilot front door)
+# Strict patterns — explicit opinion solicitation or judgment requests.
+# Deliberately tight so mission intents ("write me a X") catch first.
+CONVERSATION_SIGNALS = [
+    # Direct opinion solicitation
+    "what do you think", "what's your opinion", "what's your read",
+    "in your opinion", "your honest take", "your take on",
+    "your thoughts on", "your thoughts about",
+    "what's your honest", "your honest opinion",
+    # Decision help / judgment requests
+    "if you had to pick", "if forced to choose", "if you were me",
+    "what would you do", "how would you ",
+    "help me think through", "help me decide",
+    "help me weigh ", "weigh in on",
+    # Recommendation requests (judgment-flavored)
+    "what do you recommend", "would you recommend",
+    "which is better between", "which would you pick",
+    # Meta / reflective on the work itself
+    "in your view", "from your perspective",
+    "tell me your read",
+]
+
+# Class 9: Exploration (Phase A — open-ended landscape mapping)
+# Distinct from research signals — exploration is dialogic, not deliverable-shaped.
+EXPLORATION_SIGNALS = [
+    "let's explore", "let me explore", "let's think about",
+    "help me figure out", "help me understand",
+    "i don't know yet but", "i'm not sure where to start",
+    "walk me through your view", "walk me through how you think",
+    "i'm curious about", "i'm wondering about",
+    "where do i start with", "where would you begin",
+    "lay of the land", "give me a lay of",
+    "talk me through", "think out loud about",
 ]
 
 
@@ -519,6 +563,80 @@ def _resolve_single_deliverable(intent_lower: str) -> Optional[MissionPackage]:
     return None
 
 
+def _resolve_conversation(intent_lower: str) -> Optional[MissionPackage]:
+    """Class 8 — Reflective / opinion-solicitation intent. Phase A.
+
+    NO deliverable. NO G1 sharpening (reflective questions are already
+    sharp BY being exploratory). NO chain_runner.finalize (nothing to
+    score). Ledger still emits — these calls inform ledger-learning.
+    """
+    hits = _match_signals(intent_lower, CONVERSATION_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="conversation",
+        primary_workflow="dialogue",  # SIGNAL tag, not a workflow file —
+                                       # autopilot.md Phase 2 handles inline.
+        sub_workflows=[],
+        experts=[],  # the dialogue uses session context; no expert load required
+        skills_to_load=[],
+        plugins=["episodic-memory"],
+        cost_tier="free",
+        fanout_pattern="sequential",
+        fanout_workers_estimate=1,
+        gates_to_surface=[],  # no deliverable, no quality gate
+        halt_suppressions=[
+            "G1 intent sharpening (reflective questions are sharp by being exploratory)",
+            "Step 6 chain_runner.finalize (no deliverable to score)",
+        ],
+        confidence=0.85,
+        reasoning=(
+            "Reflective / opinion-solicitation intent. User wants Claude's "
+            "judgment, ranking, or take — not a deliverable file. Skip G1 "
+            "(forcing DICE sharpening on a reflective question ruins it) and "
+            "skip Step 6 finalize (nothing to score). Ledger still emits so "
+            "the call gets tracked for Phase B ledger-learning."
+        ),
+        matched_signals=hits,
+    )
+
+
+def _resolve_exploration(intent_lower: str) -> Optional[MissionPackage]:
+    """Class 9 — Open-ended landscape mapping. Phase A.
+
+    Distinct from research (which produces an intelligence brief) — this is
+    dialogic. May optionally invoke /research-landscape or /reflect as a
+    sub-workflow if mid-dialogue the user wants structured output.
+    """
+    hits = _match_signals(intent_lower, EXPLORATION_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="exploration",
+        primary_workflow="dialogue",
+        sub_workflows=["research-landscape", "reflect"],
+        experts=[],
+        skills_to_load=["research-landscape", "reflect"],
+        plugins=["episodic-memory"],
+        cost_tier="cheap",  # may pull cards / light research to ground dialogue
+        fanout_pattern="sequential",
+        fanout_workers_estimate=1,
+        gates_to_surface=[],
+        halt_suppressions=[
+            "G1 intent sharpening (exploratory by design)",
+            "Step 6 chain_runner.finalize (no deliverable to score)",
+        ],
+        confidence=0.8,
+        reasoning=(
+            "Open-ended exploration intent. User is mapping a space, not "
+            "requesting a deliverable. Defaults to conversational mode; "
+            "/research-landscape or /reflect are available as optional sub-"
+            "workflows if structured output is needed mid-dialogue."
+        ),
+        matched_signals=hits,
+    )
+
+
 def _freeform_default(reason: str) -> MissionPackage:
     return MissionPackage(
         outcome_class="freeform",
@@ -549,6 +667,8 @@ _RESOLVERS = [
     _resolve_atomization,        # Class 4
     _resolve_maintenance,        # Class 5
     _resolve_multi_deliverable,  # Class 2
+    _resolve_conversation,       # Class 8 (Phase A — universal front door)
+    _resolve_exploration,        # Class 9 (Phase A — landscape mapping)
     _resolve_single_deliverable, # Class 1 (multi-subroute)
 ]
 
@@ -572,9 +692,10 @@ def resolve(intent: str) -> MissionPackage:
             return package
 
     return _freeform_default(
-        "No outcome-class signals matched. Falling back to /big-project "
-        "scaffold. Consider sharpening intent (G1) or invoking a specific "
-        "workflow directly."
+        "No outcome-class signals matched (including conversation and "
+        "exploration patterns). Falling back to /big-project scaffold. "
+        "Consider sharpening intent (G1) or invoking a specific workflow "
+        "directly."
     )
 
 
@@ -630,6 +751,8 @@ def main():
             "4_atomization": ATOMIZATION_SIGNALS,
             "5_maintenance": SYSTEM_MAINTENANCE_SIGNALS,
             "6_refinement": REFINEMENT_SIGNALS,
+            "8_conversation": CONVERSATION_SIGNALS,
+            "9_exploration": EXPLORATION_SIGNALS,
             "7_freeform": "(fallback when no other class matches)",
         }, indent=2))
     else:

@@ -116,6 +116,20 @@ Implicit invocation: any user request matching `routing_enforcer.BINDINGS` `auto
 
 **Goal**: run the package's primary workflow + any sub-workflows in the prescribed fan-out pattern. NO mid-execution gates.
 
+### Dialogue path (Phase A — universal front door, 2026-05-25)
+
+If `outcome_class in {"conversation", "exploration"}`:
+
+1. **No file deliverable.** The user wants Claude's judgment / take / ranking / landscape view — not an artifact on disk.
+2. **No expert load required** by default. The package's `experts` list is empty; the dialogue uses session context. If the user references prior work, load only what's needed.
+3. **For `exploration` only**: if the dialogue would benefit from structured grounding (e.g., user asks about a domain Claude doesn't have strong priors on), invoke `/research-landscape` or `/reflect` mid-dialogue as a sub-workflow. Don't pre-emptively load these — wait for the dialogue to surface the need.
+4. **Skip Phase 3** (no prose deliverable to scan for AI-tells).
+5. **Skip Phase 4** (`chain_runner.finalize` is for scored deliverables; reflective dialogue has nothing to score).
+6. **Proceed to Phase 5** — emit the ledger. Dialogue calls ARE logged (this is the input signal for Phase B ledger-learning).
+7. **Response shape**: brief reasoning, ranked recommendations or perspectives, ONE follow-up question max if a decision is implied. Do NOT produce a "deliverable file" pretending dialogue is a mission.
+
+Anti-pattern: forcing a reflective question into mission mode (sharpening, package assembly, finalize) ruins the conversation and produces unwanted artifacts. The Dialogue path exists specifically to prevent this.
+
 ### Wave-4 Research path (the only fully implemented one)
 
 If `outcome_class == "research"`:
@@ -160,6 +174,8 @@ Outcome class fan-out posture for Wave 5 v1:
 | `single_deliverable` | **SEQUENTIAL** | One deliverable = no fan-out. |
 | `maintenance` | **SEQUENTIAL** | Deterministic Python scripts in fixed order. |
 | `freeform` | **SEQUENTIAL** | Unsharpened — no parallelism warranted. |
+| `conversation` | **N/A — Dialogue path** | No deliverable, no fan-out, no Phases 3+4. Phase 5 ledger still fires. |
+| `exploration` | **N/A — Dialogue path** | Same as conversation; may invoke `/research-landscape` mid-dialogue if grounding needed. |
 
 Override mechanism: a workflow CAN unlock parallel write fan-out if it provides explicit scope isolation (each worker writes to a different file path with an anchored source-of-truth and a hard anti-scope clause). This is opt-in per workflow, not a default of any outcome class.
 
@@ -262,6 +278,8 @@ Per Anthropic's documented failure modes:
 
 **Goal**: run automated checks; surface ONLY taste-level prose decisions.
 
+**Skip if `outcome_class in {"conversation", "exploration"}`** — no deliverable, no prose to scan.
+
 1. For each text deliverable produced in Phase 2:
    ```bash
    python3 execution/prose_classifier.py check <path>
@@ -281,6 +299,8 @@ Per Anthropic's documented failure modes:
 ## Phase 4 — Finalize
 
 **Goal**: run `chain_runner.finalize` for each deliverable. Last call carries the ledger trigger.
+
+**Skip if `outcome_class in {"conversation", "exploration"}`** — reflective dialogue has no scored artifact. Proceed directly to Phase 5 ledger emission.
 
 1. For each deliverable:
    ```bash
@@ -348,7 +368,12 @@ Use `--manual` to restore conventional gates if a specific mission warrants extr
 
 ## What This Workflow Does NOT Do
 
-- Does NOT support outcome classes 1, 2, 4, 5, 6 in Wave 4. The resolver tells you which workflow to invoke directly for now. Wave 5 fills these in.
 - Does NOT modify any existing system workflow. /research-swarm, /parallax, etc. stay as-is. Autopilot calls them.
-- Does NOT skip `chain_runner.finalize`. Quality scoring is non-negotiable — the gate suppression is about HALT behavior, not measurement behavior.
+- Does NOT skip `chain_runner.finalize` for deliverable-producing outcome classes. Quality scoring is non-negotiable for missions — the gate suppression is about HALT behavior, not measurement behavior. (Exception: Phase A's `conversation` and `exploration` classes have no deliverable to score; finalize is skipped by design, not bypassed.)
 - Does NOT create new agents in `.claude/agents/` (those were removed 2026-05-02 per `feedback_no-claude-code-subagents.md`). Fan-out uses parallel Agent tool calls from the harness when phases allow.
+
+### Class coverage history
+
+- Wave 4 (2026-05-21): only the Research path was fully wired; other classes told the user which workflow to run directly.
+- Wave 5 (2026-05-21): all 7 mission-shaped outcome classes wired with parallel fan-out, tiered worker budgets, and four-field subagent envelopes.
+- Phase A (2026-05-25): classes 8 (conversation) and 9 (exploration) added — the universal front door. Autopilot now resolves ANY user intent, not just mission-shaped ones. Reflective and exploratory intents route through the Dialogue path which skips Phases 3+4 by design.

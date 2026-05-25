@@ -1112,6 +1112,35 @@ def finalize(
         except Exception as e:
             result["anchor_memory"] = {"skipped": True, "error": str(e)}
 
+    # ── Phase B (2026-05-25) — Ledger feedback backstop ──────────
+    # If this workflow invocation matches a recently-emitted ledger
+    # suggestion (within 24h), auto-fire record_outcome(action='invoked').
+    # Closes the AI-Memory-Dependent-Observability failure class — the
+    # ledger feedback loop no longer depends on Claude remembering to log.
+    if workflow:
+        try:
+            from execution.orchestration_ledger import (
+                find_pending_match, record_outcome,
+            )
+            match = find_pending_match(workflow, max_age_hours=24)
+            if match:
+                record_outcome(
+                    suggestion_id=match["suggestion_id"],
+                    action="invoked",
+                    workflow=workflow,
+                    session_id=match.get("session_id"),
+                    notes=f"auto-matched via chain_runner.finalize ({skill or 'no-skill'})",
+                )
+                result["ledger_feedback"] = {
+                    "matched_suggestion_id": match["suggestion_id"],
+                    "auto_recorded": True,
+                }
+            else:
+                result["ledger_feedback"] = {"matched_suggestion_id": None}
+        except Exception as e:
+            # NEVER block finalize on ledger-feedback issues
+            result["ledger_feedback"] = {"skipped": True, "error": str(e)}
+
     return result
 
 
