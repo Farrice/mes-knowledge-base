@@ -107,3 +107,4 @@
 - `[2026-05-04 10:56]` **finalize** | LinkedIn classic post — 'My AI told me everything was 9/10 for 8 days.' Hybrid Parallax-methodology  | content | lara-acosta — composite:8.7 status:Keep
 - `[2026-05-04 13:19]` **finalize** | Resonance Brand Operating System v1 — 43 docs across 6 layers (Foundation, Visual, Briefs, Marketing | general | brand-system-builder — composite:8.3 status:Keep
 - `[2026-05-05 01:53]` **finalize** | Omar Eddaoudi Module 3 — Scaling Ops mastery extraction (forge): 17 genius patterns, 4 HOF exemplars | general | omar-eddaoudi — composite:8.7 status:Keep
+- `[2026-05-25 16:10]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240
