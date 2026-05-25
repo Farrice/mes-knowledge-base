@@ -39,6 +39,7 @@ from collections import Counter, defaultdict
 
 DB_DIR = Path(__file__).parent.parent / ".memory"
 DB_PATH = DB_DIR / "sovereign.db"
+EVENTS_DIR = DB_DIR / "events"  # Sprint 0: JSONL sidecars per UTC day
 
 # Freshness thresholds (Ebbinghaus-inspired)
 FRESHNESS_ACTIVE = 3.0     # Actively served in context retrieval
@@ -62,6 +63,53 @@ VALID_CATEGORIES = {
     "semantic": ["preference", "pattern", "rule", "insight", "error_pattern"],
     "procedural": ["config", "workflow", "routing_rule", "template"],
 }
+
+
+# ─────────────────────────────────────────────────────────
+# WORKSPACE DETECTION (Sprint 1)
+# ─────────────────────────────────────────────────────────
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+
+def _detect_workspace():
+    """Detect current workspace for per-client memory scoping.
+
+    Priority:
+      1. ANTIGRAVITY_WORKSPACE env var (explicit override)
+      2. Walk up CWD looking for projects/<slug>/state.yaml (anchor_memory convention)
+      3. CWD parse: if path contains /projects/<slug>/ or /_active/<slug>/, return <slug>
+      4. Fallback: None (treated as global scope by callers)
+    """
+    # 1. ENV override
+    env_ws = os.environ.get("ANTIGRAVITY_WORKSPACE")
+    if env_ws:
+        return env_ws.strip() or None
+
+    cwd = Path.cwd().resolve()
+
+    # 2. Walk up looking for projects/<slug>/state.yaml
+    try:
+        for parent in [cwd] + list(cwd.parents):
+            # Check if we ARE inside projects/<slug>/ (state.yaml at this dir)
+            if (parent / "state.yaml").exists() and parent.parent.name == "projects":
+                return parent.name
+            # Don't walk above repo root
+            if parent == REPO_ROOT or parent == Path("/"):
+                break
+    except (OSError, PermissionError):
+        pass
+
+    # 3. CWD parse
+    cwd_str = str(cwd)
+    repo_str = str(REPO_ROOT)
+    if cwd_str.startswith(repo_str):
+        rel = cwd_str[len(repo_str):].strip("/").split("/")
+        if len(rel) >= 2 and rel[0] in ("projects", "_active"):
+            return rel[1]
+
+    # 4. Fallback
+    return None
 
 
 # ─────────────────────────────────────────────────────────
@@ -98,6 +146,63 @@ def get_db():
         CREATE INDEX IF NOT EXISTS idx_memories_created ON memories(created_at);
         CREATE INDEX IF NOT EXISTS idx_memories_accessed ON memories(last_accessed);
     """)
+
+    # ─── Idempotent migrations (Sprints 4/5/6/3) ───
+    # workspace column + embedding columns + ancillary tables.
+    # Wrapped in try/except OperationalError so re-runs are no-ops.
+    _migrations = [
+        ("ALTER TABLE memories ADD COLUMN workspace TEXT", "workspace col"),
+        ("ALTER TABLE memories ADD COLUMN embedding TEXT", "embedding col"),
+        ("ALTER TABLE memories ADD COLUMN embedding_model TEXT", "embedding_model col"),
+        ("ALTER TABLE memories ADD COLUMN embedded_at TEXT", "embedded_at col"),
+    ]
+    for sql, _label in _migrations:
+        try:
+            conn.execute(sql)
+        except sqlite3.OperationalError:
+            pass  # column already exists
+
+    # Indexes for new columns + ancillary tables
+    conn.executescript("""
+        CREATE INDEX IF NOT EXISTS idx_memories_workspace
+            ON memories(workspace) WHERE workspace IS NOT NULL;
+        CREATE INDEX IF NOT EXISTS idx_memories_has_embedding
+            ON memories(embedded_at) WHERE embedding IS NOT NULL;
+
+        CREATE TABLE IF NOT EXISTS notion_mirror (
+            page_id TEXT PRIMARY KEY,
+            db_id TEXT NOT NULL,
+            db_name TEXT NOT NULL,
+            title TEXT,
+            content_excerpt TEXT,
+            last_edited_at TEXT,
+            mirrored_at TEXT NOT NULL,
+            raw_json TEXT
+        );
+        CREATE INDEX IF NOT EXISTS idx_notion_mirror_db
+            ON notion_mirror(db_id, last_edited_at DESC);
+        CREATE INDEX IF NOT EXISTS idx_notion_mirror_mirrored
+            ON notion_mirror(mirrored_at DESC);
+
+        CREATE TABLE IF NOT EXISTS flagged_review (
+            id TEXT PRIMARY KEY,
+            proposed_tier TEXT NOT NULL,
+            proposed_category TEXT NOT NULL,
+            proposed_content TEXT NOT NULL,
+            proposed_metadata TEXT,
+            source_memory_ids TEXT,
+            judge_score REAL NOT NULL,
+            judge_rationale TEXT,
+            status TEXT NOT NULL DEFAULT 'pending'
+                CHECK(status IN ('pending', 'approved', 'rejected')),
+            created_at TEXT NOT NULL,
+            reviewed_at TEXT,
+            promoted_memory_id TEXT
+        );
+        CREATE INDEX IF NOT EXISTS idx_flagged_status
+            ON flagged_review(status, created_at DESC);
+    """)
+    conn.commit()
 
     # FTS5 full-text search index
     try:
@@ -136,8 +241,13 @@ def get_db():
 # CORE OPERATIONS
 # ─────────────────────────────────────────────────────────
 
-def store_memory(tier, category, content, metadata=None, source_ids=None, silent=False):
-    """Store a new memory in the specified tier."""
+def store_memory(tier, category, content, metadata=None, source_ids=None,
+                 workspace=None, silent=False):
+    """Store a new memory in the specified tier.
+
+    Sprint 5: `workspace` is now a first-class column (was only in metadata).
+    If `workspace` is None, falls back to metadata.workspace, then _detect_workspace().
+    """
     if tier not in VALID_CATEGORIES:
         if not silent:
             print(f"Error: Invalid tier '{tier}'. Valid: {list(VALID_CATEGORIES.keys())}")
@@ -154,32 +264,67 @@ def store_memory(tier, category, content, metadata=None, source_ids=None, silent
     now = datetime.now(timezone.utc).isoformat()
     freshness = INITIAL_FRESHNESS[tier]
 
+    # Workspace resolution: explicit arg → metadata → auto-detect
+    if workspace is None and metadata:
+        workspace = metadata.get("workspace")
+    if workspace is None:
+        try:
+            workspace = _detect_workspace()
+        except Exception:
+            workspace = None
+
     conn.execute(
         """INSERT INTO memories (id, tier, category, content, created_at, last_accessed,
-           access_count, freshness, pinned, metadata, source_ids)
-           VALUES (?, ?, ?, ?, ?, ?, 1, ?, 0, ?, ?)""",
+           access_count, freshness, pinned, metadata, source_ids, workspace)
+           VALUES (?, ?, ?, ?, ?, ?, 1, ?, 0, ?, ?, ?)""",
         (
             memory_id, tier, category, content, now, now,
             freshness,
             json.dumps(metadata or {}),
             json.dumps(source_ids or []),
+            workspace,
         )
     )
     conn.commit()
     conn.close()
+
+    # Sprint 0: JSONL sidecar write (append-only). Never blocks the SQLite write.
+    try:
+        EVENTS_DIR.mkdir(parents=True, exist_ok=True)
+        sidecar_file = EVENTS_DIR / f"{now[:10]}.jsonl"
+        sidecar_entry = {
+            "ts": now,
+            "id": memory_id,
+            "tier": tier,
+            "category": category,
+            "content": content[:200],
+            "freshness": freshness,
+            "metadata": metadata or {},
+        }
+        with open(sidecar_file, "a") as f:
+            f.write(json.dumps(sidecar_entry) + "\n")
+    except Exception:
+        pass  # sidecar failure must not break the primary write
 
     if not silent:
         print(f"Stored [{tier}/{category}] id={memory_id} freshness={freshness}")
     return memory_id
 
 
-def store_memory_silent(tier, category, content, metadata=None, source_ids=None):
+def store_memory_silent(tier, category, content, metadata=None, source_ids=None,
+                        workspace=None):
     """Store a memory without printing — for programmatic use from chain_runner etc."""
-    return store_memory(tier, category, content, metadata, source_ids, silent=True)
+    return store_memory(tier, category, content, metadata, source_ids,
+                        workspace=workspace, silent=True)
 
 
-def recall_memories(tier=None, category=None, top_k=10, include_dormant=False):
-    """Recall active memories, optionally filtered by tier/category."""
+def recall_memories(tier=None, category=None, top_k=10, include_dormant=False,
+                    workspace=None):
+    """Recall active memories, optionally filtered by tier/category/workspace.
+
+    Sprint 5: workspace filter does `workspace = ? OR workspace IS NULL`
+    so global memories surface in every workspace context.
+    """
     conn = get_db()
 
     query = "SELECT * FROM memories WHERE 1=1"
@@ -192,6 +337,10 @@ def recall_memories(tier=None, category=None, top_k=10, include_dormant=False):
     if category:
         query += " AND category = ?"
         params.append(category)
+
+    if workspace:
+        query += " AND (workspace = ? OR workspace IS NULL)"
+        params.append(workspace)
 
     if not include_dormant:
         query += " AND freshness >= ?"
@@ -648,6 +797,7 @@ def main():
     recall_p.add_argument("--category", "-c")
     recall_p.add_argument("--top", "-n", type=int, default=10)
     recall_p.add_argument("--all", action="store_true", help="Include dormant/archived")
+    recall_p.add_argument("--workspace", "-w", help="Filter by workspace (NULL = global)")
 
     # search
     search_p = sub.add_parser("search", help="Search memories by content")
@@ -697,7 +847,8 @@ def main():
     elif args.command == "recall":
         memories = recall_memories(
             tier=args.tier, category=args.category,
-            top_k=args.top, include_dormant=args.all
+            top_k=args.top, include_dormant=args.all,
+            workspace=args.workspace,
         )
         if memories:
             print(f"Recalled {len(memories)} memories:\n")

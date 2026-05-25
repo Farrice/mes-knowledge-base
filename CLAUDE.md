@@ -209,7 +209,15 @@ Multi-domain? Check ensemble patterns in `directives/expert_auto_routing.md`.
 **Always route.** The result may be one Tier 1 expert, but the routing decision is explicit and logged.
 
 ### Step 4: LOAD via Context Engine
-Tier 0 (cards) → **Tier 1.5 (Recall source grounding — automatic, silent)** → Tier 1 (SKILL.md + workflow) → Tier 2 (+ genius.md) → Tier 3 (sub-agent).
+Tier 0 (cards) → **Tier 1.5a (Recall source grounding — automatic, silent)** → **Tier 1.5b (Sovereign memory retrieval — Sprint 4, 2026-05-25)** → Tier 1 (SKILL.md + workflow) → Tier 2 (+ genius.md) → Tier 3 (sub-agent).
+
+**Sovereign memory retrieval (Tier 1.5b)** is a deterministic cascade over `.memory/sovereign.db` (148 embedded memories, 21 pinned voice rules at ship time). Invoke before producing expert-domain output:
+
+```bash
+python3 execution/memory_retrieve.py "<task intent>" --top 10
+```
+
+Returns pinned voice rules + workspace-scoped semantic/procedural matches by cosine + recent episodic decisions by BM25. This is the primary cross-session compounding mechanism — without it, voice rules and prior patterns don't surface to the current session. See `directives/agent-loading-protocol.md` Tier 1.5 for full protocol. Auto-detects workspace from CWD; override with `--workspace <slug>` or env `ANTIGRAVITY_WORKSPACE`.
 Protocol: `directives/agent-loading-protocol.md`.
 **Never produce expert-domain output without loading the expert first.**
 For content: minimum 2 skill files loaded per `directives/content_creation_gate.md`.

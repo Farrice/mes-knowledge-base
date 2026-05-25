@@ -10,6 +10,27 @@
 ### Tier 0: Card Check (ALWAYS FIRST)
 Read `agents/_framework/invocation-cards.md`. ~50-80 tokens/expert. Sufficient for: routing, recommendations, ensemble selection. Stop here if deciding WHICH expert, not executing methodology.
 
+### Tier 1.5: Sovereign Memory Retrieval (NEW — Sprint 4, 2026-05-25)
+Before Tier 1 file loads, invoke the memory cascade for retrieval grounding:
+
+```bash
+python3 execution/memory_retrieve.py "<task intent in 10-20 words>" --top 10
+```
+
+What it returns (in priority order):
+- **Pinned semantic rules** — voice rules, banned moves, identity-layer feedback (always included, cosine-ranked)
+- **Vec-semantic** — workspace-filtered semantic memories by similarity
+- **Vec-procedural** — workspace-filtered operational configs by similarity
+- **BM25 episodic** — recent decision-class memories by keyword match
+
+Inject the top 5-10 results into your working context BEFORE producing output. This is the primary mechanism for cross-session compounding — past voice rules, prior routing decisions, and distilled patterns all surface here.
+
+**When to invoke:** Always, when producing expert-domain output (content, strategy, copy, brand, voice, etc.). Skip for trivial system commands (file reads, git status).
+
+**Token budget:** ~500-1500 tokens for top 10 results (each row ≤300 chars). Add `--top 5` if context-constrained.
+
+**Workspace scoping:** Auto-detects from CWD (looks for `projects/<slug>/state.yaml`). Override with `--workspace <slug>` or env `ANTIGRAVITY_WORKSPACE`.
+
 ### Tier 1: Standard Load
 Read `skills/[skill]/SKILL.md` + specific prompt. Skip genius.md. ~1,350 tokens. For: straightforward tasks where prompt gives everything needed.
 

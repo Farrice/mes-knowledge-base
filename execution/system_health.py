@@ -234,6 +234,110 @@ def check_routing_intelligence():
         }
 
 
+def check_memory():
+    """Sovereign memory system health (Sprint 8 — added 2026-05-25).
+
+    Reports: total memories, pinned count, by-tier, by-workspace,
+    embedding coverage, notion_mirror freshness, latest backup age.
+    """
+    import sqlite3
+    from datetime import timezone
+    db_path = ROOT / ".memory" / "sovereign.db"
+    backups_dir = ROOT / ".memory" / "backups"
+
+    if not db_path.exists():
+        return {
+            "status": "MISSING",
+            "health": "Error",
+            "message": f"sovereign.db not found at {db_path}",
+        }
+
+    try:
+        conn = sqlite3.connect(str(db_path))
+        total = conn.execute("SELECT count(*) FROM memories").fetchone()[0]
+        pinned = conn.execute("SELECT count(*) FROM memories WHERE pinned = 1").fetchone()[0]
+        embedded = conn.execute("SELECT count(*) FROM memories WHERE embedding IS NOT NULL").fetchone()[0]
+        by_tier = dict(conn.execute("SELECT tier, count(*) FROM memories GROUP BY tier").fetchall())
+        by_workspace = dict(conn.execute(
+            "SELECT COALESCE(workspace, '(global)'), count(*) FROM memories GROUP BY workspace"
+        ).fetchall())
+        try:
+            notion_count = conn.execute("SELECT count(*) FROM notion_mirror").fetchone()[0]
+            notion_latest = conn.execute("SELECT MAX(mirrored_at) FROM notion_mirror").fetchone()[0]
+        except sqlite3.OperationalError:
+            notion_count = 0
+            notion_latest = None
+        try:
+            flagged_pending = conn.execute(
+                "SELECT count(*) FROM flagged_review WHERE status = 'pending'"
+            ).fetchone()[0]
+        except sqlite3.OperationalError:
+            flagged_pending = 0
+        conn.close()
+    except Exception as e:
+        return {"status": "ERROR", "health": "Error", "message": str(e)}
+
+    # Notion mirror staleness
+    notion_age_hours = None
+    notion_status = "EMPTY"
+    if notion_latest:
+        try:
+            ts = notion_latest
+            if ts.endswith("Z"):
+                ts = ts[:-1] + "+00:00"
+            mt = datetime.fromisoformat(ts)
+            if mt.tzinfo is None:
+                mt = mt.replace(tzinfo=timezone.utc)
+            notion_age_hours = (datetime.now(timezone.utc) - mt).total_seconds() / 3600.0
+            if notion_age_hours > 72:
+                notion_status = "STALE_HALT"
+            elif notion_age_hours > 36:
+                notion_status = "STALE_WARN"
+            else:
+                notion_status = "OK"
+        except Exception:
+            notion_status = "UNPARSEABLE"
+
+    # Latest backup age
+    backup_age_hours = None
+    backup_status = "MISSING"
+    if backups_dir.exists():
+        backups = sorted(backups_dir.glob("sovereign_*.db.gz"), key=lambda p: p.stat().st_mtime)
+        if backups:
+            latest = backups[-1]
+            backup_age_hours = (datetime.now().timestamp() - latest.stat().st_mtime) / 3600.0
+            backup_status = "STALE" if backup_age_hours > 30 else "OK"
+
+    embed_pct = round(100 * embedded / total, 1) if total else 0.0
+
+    # Health rollup
+    if total == 0:
+        health = "Empty"
+    elif notion_status == "STALE_HALT" or backup_status == "MISSING":
+        health = "Critical"
+    elif notion_status == "STALE_WARN" or backup_status == "STALE" or embed_pct < 80:
+        health = "Degraded"
+    else:
+        health = "Healthy"
+
+    return {
+        "status": "ACTIVE" if total > 0 else "DORMANT",
+        "health": health,
+        "total": total,
+        "pinned": pinned,
+        "embedded": embedded,
+        "embed_pct": embed_pct,
+        "by_tier": by_tier,
+        "by_workspace": by_workspace,
+        "notion_count": notion_count,
+        "notion_age_hours": round(notion_age_hours, 2) if notion_age_hours is not None else None,
+        "notion_status": notion_status,
+        "flagged_pending": flagged_pending,
+        "backup_age_hours": round(backup_age_hours, 2) if backup_age_hours is not None else None,
+        "backup_status": backup_status,
+    }
+
+
 def generate_health_report(quick=False):
     """Generate the full health report."""
     print("Running Antigravity System Health Check...\n")
@@ -244,6 +348,7 @@ def generate_health_report(quick=False):
     session = check_session_state()
     gap_log = check_gap_log()
     routing = check_routing_intelligence()
+    memory = check_memory()
 
     # Derive cascade status
     perf_count = perf_log.get('count', 0)
@@ -275,7 +380,32 @@ def generate_health_report(quick=False):
     report.append(f"| Routing Intelligence | {routing['status']} | — | {routing.get('count', 0)} | {routing['health']} |")
 
     report.append(f"| Gap Log | {gap_log['status']} | — | {gap_log.get('count', 0)} | {gap_log['health']} |")
+    report.append(f"| Sovereign Memory | {memory['status']} | — | {memory.get('total', 0)} | {memory['health']} |")
     report.append("")
+
+    # Sovereign Memory Detail (Sprint 8)
+    if memory.get('status') not in ('MISSING', 'ERROR'):
+        report.append("## Sovereign Memory")
+        report.append("")
+        report.append(f"- **Total memories**: {memory['total']} ({memory['pinned']} pinned, {memory['embedded']} embedded — {memory['embed_pct']}% coverage)")
+        tier_str = ", ".join(f"{t}={c}" for t, c in sorted(memory['by_tier'].items()))
+        report.append(f"- **By tier**: {tier_str}")
+        ws_str = ", ".join(f"{w}={c}" for w, c in sorted(memory['by_workspace'].items()))
+        report.append(f"- **By workspace**: {ws_str}")
+        notion_age = memory.get('notion_age_hours')
+        notion_age_str = f"{notion_age}h ago" if notion_age is not None else "never"
+        report.append(f"- **Notion mirror**: {memory['notion_count']} pages, last mirrored {notion_age_str} ({memory['notion_status']})")
+        backup_age = memory.get('backup_age_hours')
+        backup_age_str = f"{backup_age}h ago" if backup_age is not None else "no backups"
+        report.append(f"- **Latest backup**: {backup_age_str} ({memory['backup_status']})")
+        if memory.get('flagged_pending'):
+            report.append(f"- **⚠ Flagged for review**: {memory['flagged_pending']} pending — run `python3 execution/memory_review.py list`")
+        report.append("")
+    elif memory.get('status') in ('MISSING', 'ERROR'):
+        report.append("## Sovereign Memory")
+        report.append("")
+        report.append(f"- **{memory['status']}**: {memory.get('message', 'unknown')}")
+        report.append("")
 
     # Hookify Guards
     report.append("## Hookify Guards")
@@ -317,6 +447,22 @@ def generate_health_report(quick=False):
     if routing['status'] == 'DORMANT':
         actions.append("**WARNING**: No routing decisions logged. The routing intelligence system needs data to improve over time.")
 
+    if memory.get('notion_status') == 'STALE_HALT':
+        actions.append("**CRITICAL**: Notion mirror is HALT-stale (>72h). chain_runner.finalize will BLOCK. Run `python3 execution/mirror_notion.py` or check `launchctl list | grep mirror-nightly`.")
+    elif memory.get('notion_status') == 'STALE_WARN':
+        actions.append(f"**WARNING**: Notion mirror is {memory.get('notion_age_hours')}h stale (WARN at 36h). Verify the mirror-nightly launchd job ran overnight.")
+
+    if memory.get('backup_status') == 'MISSING':
+        actions.append("**CRITICAL**: No sovereign memory backups found. Run `python3 execution/memory_ops.py backup` and verify `com.antigravity.memory-backup` plist is loaded.")
+    elif memory.get('backup_status') == 'STALE':
+        actions.append(f"**WARNING**: Latest backup is {memory.get('backup_age_hours')}h old. Daily backup may have failed — check `.memory/backups/launchd.log`.")
+
+    if memory.get('embed_pct') is not None and 0 < memory['embed_pct'] < 80:
+        actions.append(f"**INFO**: Embedding coverage at {memory['embed_pct']}% — run `python3 execution/memory_embed.py backfill` to fill gaps.")
+
+    if memory.get('flagged_pending', 0) > 0:
+        actions.append(f"**REVIEW**: {memory['flagged_pending']} distilled memories awaiting human approval. Run `python3 execution/memory_review.py list`.")
+
     if not actions:
         actions.append("All systems operational. Keep logging performance data to maintain the feedback loop.")
 
@@ -343,8 +489,20 @@ def generate_health_report(quick=False):
 def main():
     parser = argparse.ArgumentParser(description='Antigravity System Health Check')
     parser.add_argument('--quick', action='store_true', help='Summary only (no file save)')
+    parser.add_argument('--json', action='store_true', help='Machine-readable JSON output')
     args = parser.parse_args()
-    generate_health_report(quick=args.quick)
+    if args.json:
+        payload = {
+            'performance_log': check_performance_log(),
+            'hookify_hooks': check_hookify_hooks(),
+            'session_state': check_session_state(),
+            'gap_log': check_gap_log(),
+            'routing': check_routing_intelligence(),
+            'memory': check_memory(),
+        }
+        print(json.dumps(payload, indent=2, default=str))
+    else:
+        generate_health_report(quick=args.quick)
 
 
 if __name__ == '__main__':

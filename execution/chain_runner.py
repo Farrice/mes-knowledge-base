@@ -797,6 +797,57 @@ def finalize(
         result["v2_trace"] = False
         result["trace_error"] = str(e)
 
+    # ── Step 8.5: Mirror staleness check ─────────────────────────
+    # Sprint 3 (2026-05-25): notion_mirror is now BLOCKING.
+    # Non-blocking sources (sovereign_db) stay WARN.
+    # Auto-fire is the deterministic backstop per the 2026-05-03
+    # AI-Memory-Dependent Observability feedback rule.
+    # Recall mirror intentionally deferred — see directives/recall-mirror-deferred.md
+    try:
+        try:
+            from memory_ops import check_mirror_freshness
+        except ImportError:
+            from execution.memory_ops import check_mirror_freshness
+        freshness_report = check_mirror_freshness()
+
+        # BLOCKING: notion_mirror stale > 72h (or empty)
+        if freshness_report.get("blocking_halt"):
+            stale_blocking = freshness_report.get("stale_blocking_sources", [])
+            details = [
+                f"{name}: {freshness_report['sources'][name].get('status')}"
+                f" ({freshness_report['sources'][name].get('age_hours')}h)"
+                for name in stale_blocking
+            ]
+            halt_msg = (
+                f"BLOCKING memory mirror stale: {', '.join(details)}. "
+                f"Run `python3 execution/mirror_notion.py` to refresh, "
+                f"or check the nightly launchd job."
+            )
+            result["memory_halt"] = halt_msg
+            result["status"] = "halted"
+            print(f"\n{'🔴 ' * 20}")
+            print(f"🔴 {halt_msg}")
+            print(f"{'🔴 ' * 20}\n")
+            return result
+
+        # WARN: any source past 36h (non-blocking, advisory)
+        if freshness_report.get("warn"):
+            stale_sources = [
+                f"{name} ({info['age_hours']}h)"
+                for name, info in freshness_report.get("sources", {}).items()
+                if info.get("status") in ("warn", "halt")
+            ]
+            warn_msg = (
+                f"Memory mirror staleness: {', '.join(stale_sources)} "
+                f"(WARN threshold 36h; HALT threshold 72h for blocking sources)"
+            )
+            result["memory_warning"] = warn_msg
+            print(f"\n{'⚠️ ' * 20}")
+            print(f"⚠️  {warn_msg}")
+            print(f"{'⚠️ ' * 20}\n")
+    except Exception as e:
+        result["memory_warning_error"] = str(e)
+
     # ── Step 9: Auto-store sovereign memory ──────────────────────
     if _HAS_MEMORY_STORE:
         try:

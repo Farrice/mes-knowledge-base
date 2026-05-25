@@ -379,6 +379,32 @@ def log_decision(request: str, chosen_workflow: str, validation: Dict[str, Any],
         # Logging is non-fatal — never block a chain on observability.
         pass
 
+    # Sprint 1: also store as episodic/decision in sovereign memory so routing
+    # decisions are queryable alongside finalize milestones and cost events.
+    try:
+        try:
+            from memory_store import store_memory_silent, _detect_workspace
+        except ImportError:
+            from execution.memory_store import store_memory_silent, _detect_workspace
+        verdict = "VALID" if validation.get("valid") else "VIOLATION"
+        store_memory_silent(
+            tier="episodic",
+            category="decision",
+            content=f"ROUTING {verdict}: chose={chosen_workflow} for '{request[:80]}'",
+            metadata={
+                "source": "routing_enforcer",
+                "binding": validation.get("binding_matched"),
+                "matched_signal": validation.get("matched_signal"),
+                "mandatory_workflow": validation.get("mandatory_workflow"),
+                "violation": validation.get("violation_reason"),
+                "override_used": override_used,
+                "workspace": _detect_workspace(),
+            },
+        )
+    except Exception:
+        # Memory ingestion is non-fatal — never block a chain on memory failure.
+        pass
+
 
 def list_bindings() -> List[Dict[str, Any]]:
     """Return all mandatory bindings (for inspection / sync with CLAUDE.md)."""

@@ -59,9 +59,12 @@ Thumbs.db
 .agent/evolution_orchestrator.log
 
 # Sovereign memory store (SQLite — binary, not git-friendly)
+# Runtime data: DB + backups + JSONL sidecars are regenerated, never source-of-truth.
 .memory/sovereign.db
 .memory/sovereign.db-shm
 .memory/sovereign.db-wal
+.memory/backups/
+.memory/events/
 
 # Evolution orchestrator runtime state and queues
 evolution_store/orchestrator_state.json
