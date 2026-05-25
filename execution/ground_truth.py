@@ -89,6 +89,94 @@ DOMAINS = {
 }
 
 
+# Phase C (2026-05-25) — Runtime-registered verticals merged at module load.
+# /verticalize and `ground_truth.py init-domain <slug>` write here. The
+# hardcoded DOMAINS dict above stays the source of truth for the 7 seed
+# domains; this file holds everything added at runtime.
+_REGISTERED_DOMAINS_FILE = BENCHMARKS_DIR / '_registered_domains.json'
+
+
+def _load_registered_domains() -> Dict[str, Any]:
+    """Load runtime-registered domains (verticals bootstrapped via init-domain)."""
+    if not _REGISTERED_DOMAINS_FILE.exists():
+        return {}
+    try:
+        return json.loads(_REGISTERED_DOMAINS_FILE.read_text())
+    except Exception:
+        return {}
+
+
+def _save_registered_domains(data: Dict[str, Any]) -> None:
+    _REGISTERED_DOMAINS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    _REGISTERED_DOMAINS_FILE.write_text(json.dumps(data, indent=2))
+
+
+# Merge runtime registry into the hardcoded DOMAINS at import time.
+# Hardcoded entries win on collision (defensive — don't let runtime override seed).
+_REGISTERED = _load_registered_domains()
+for _k, _v in _REGISTERED.items():
+    if _k not in DOMAINS:
+        DOMAINS[_k] = _v
+
+
+def init_domain(
+    slug: str,
+    description: str,
+    experts: List[str],
+    output_types: List[str],
+    skills: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    """Register a new vertical domain for ground-truth calibration.
+
+    Called by /verticalize Phase 4 to bootstrap calibration for a new
+    domain (e.g., "real-estate-sfv", "ai-construction-consulting").
+
+    Args:
+        slug: Hyphenated slug, alphanumeric + hyphens only (no spaces/underscores)
+        description: One-line description of the domain
+        experts: List of expert agent identifiers (or [] if none known yet)
+        output_types: Domain-native output categories (e.g., ["listing-post", "neighborhood-deep-dive"])
+        skills: Optional pre-registered skill IDs (empty by default — verticalize fills this)
+
+    Returns:
+        The registered domain dict.
+    """
+    # Validate slug
+    import re
+    if not re.match(r"^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$", slug):
+        raise ValueError(
+            f"slug must be lowercase, alphanumeric + hyphens, no leading/trailing dash. Got: {slug!r}"
+        )
+
+    if slug in DOMAINS:
+        raise ValueError(f"Domain {slug!r} is already registered.")
+
+    if not description.strip():
+        raise ValueError("description is required.")
+
+    entry = {
+        "experts": list(experts),
+        "skills": list(skills or []),
+        "output_types": list(output_types),
+        "description": description.strip(),
+        "registered_at": date.today().isoformat(),
+        "registered_via": "init_domain",
+    }
+
+    # Write to the runtime registry
+    registered = _load_registered_domains()
+    registered[slug] = entry
+    _save_registered_domains(registered)
+
+    # Mutate in-process DOMAINS so subsequent calls in the same process work
+    DOMAINS[slug] = entry
+
+    # Create the benchmark dir + empty samples index
+    _ensure_domain_dir(slug)
+
+    return entry
+
+
 def _ensure_domain_dir(domain: str) -> Path:
     """Create domain directory and samples.json if they don't exist."""
     domain_dir = BENCHMARKS_DIR / domain
@@ -444,6 +532,26 @@ def main():
     # domains
     sub.add_parser("domains", help="List all domains")
 
+    # init-domain (Phase C — vertical bootstrap)
+    init_cmd = sub.add_parser(
+        "init-domain",
+        help="Register a new vertical for ground-truth calibration (used by /verticalize)",
+    )
+    init_cmd.add_argument("slug", help="Domain slug (lowercase, hyphens, e.g. real-estate-sfv)")
+    init_cmd.add_argument("--description", required=True, help="One-line domain description")
+    init_cmd.add_argument(
+        "--expert", action="append", default=[],
+        help="Expert identifier (repeatable; pass --expert N times)",
+    )
+    init_cmd.add_argument(
+        "--output-type", action="append", default=[], dest="output_types",
+        help="Output type (repeatable; e.g. listing-post, neighborhood-deep-dive)",
+    )
+    init_cmd.add_argument(
+        "--skill", action="append", default=[], dest="skills",
+        help="Optional skill ID (repeatable)",
+    )
+
     args = parser.parse_args()
 
     if args.command == "add":
@@ -461,6 +569,25 @@ def main():
         reveal_comparison(args.filename)
     elif args.command == "domains":
         list_domains()
+    elif args.command == "init-domain":
+        try:
+            entry = init_domain(
+                slug=args.slug,
+                description=args.description,
+                experts=args.expert,
+                output_types=args.output_types,
+                skills=args.skills,
+            )
+        except ValueError as e:
+            import sys
+            print(f"ERROR: {e}", file=sys.stderr)
+            sys.exit(2)
+        print(f"Registered new domain: {args.slug}")
+        print(f"  Description:  {entry['description']}")
+        print(f"  Experts:      {', '.join(entry['experts']) or '(none yet)'}")
+        print(f"  Output types: {', '.join(entry['output_types']) or '(none yet)'}")
+        print(f"  Benchmark dir: knowledge/expert-benchmarks/{args.slug}/")
+        print(f"  Next step: add 5 PASS-marked sample outputs via `ground_truth.py add {args.slug} ...`")
     else:
         parser.print_help()
 

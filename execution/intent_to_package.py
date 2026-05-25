@@ -176,6 +176,54 @@ GENERIC_SINGLE_DELIVERABLE_SIGNALS = [
     "give me a ", "produce a ",
 ]
 
+# Class 11: Long-Running Project (Phase D — agent_tick, 2026-05-25)
+# Matches multi-day / background / scheduled-advance intents. Distinct from
+# multi_deliverable (which produces N artifacts in one session). Long-
+# running means: this work spans days, agent_tick wakes on schedule and
+# advances by one phase per tick.
+LONG_RUNNING_SIGNALS = [
+    # Explicit multi-day framing
+    "over the next week", "over the next few days", "over the next month",
+    "for the next week", "for the next month",
+    "multi-day", "multi day",
+    "across multiple sessions", "spread across days",
+    # Background-work framing
+    "while i sleep", "while i'm away",
+    "in the background", "as a background project",
+    "keep advancing on", "keep moving forward on",
+    "keep working on", "in the background while",
+    # Scheduled / tick framing
+    "agent tick", "daily tick",
+    "wake up tomorrow and", "tomorrow morning continue",
+    "schedule a daily", "schedule daily progress",
+    "autonomous tick", "autonomous mode",
+]
+
+
+# Class 10: Vertical Bootstrap (Phase C — /verticalize, 2026-05-25)
+# Strong, specific patterns. Fires BEFORE multi_deliverable because both
+# could match "build me a brand" — but /verticalize is the right call when
+# the user is bootstrapping a NEW domain from scratch (no existing voice
+# doc, no ICP yet, no expert routing). Multi_deliverable assumes the
+# vertical exists.
+VERTICAL_BOOTSTRAP_SIGNALS = [
+    # Explicit signals
+    "verticalize", "bootstrap a vertical", "bootstrap a new vertical",
+    "bootstrap a domain", "new vertical for",
+    # Entering a new domain
+    "i'm entering", "i am entering",
+    "entering the ", "new niche of ",
+    "set up a new niche", "set up a vertical",
+    "stand up a new vertical", "stand up a domain",
+    # Zero-state bootstrap framing
+    "from zero in ", "from scratch in the ",
+    "no audience yet for ", "no voice doc yet",
+    # Calibration-bootstrap framing
+    "calibrate for ", "build the stack for ",
+    "spin up calibration for",
+]
+
+
 # Class 8: Conversation / Reflection (Phase A — universal autopilot front door)
 # Strict patterns — explicit opinion solicitation or judgment requests.
 # Deliberately tight so mission intents ("write me a X") catch first.
@@ -563,6 +611,97 @@ def _resolve_single_deliverable(intent_lower: str) -> Optional[MissionPackage]:
     return None
 
 
+def _resolve_long_running_project(intent_lower: str) -> Optional[MissionPackage]:
+    """Class 11 — Long-running project (Phase D, 2026-05-25).
+
+    Multi-day work that advances autonomously via agent_tick. The user
+    states the brief once; agent_tick wakes on schedule, loads state.yaml +
+    sovereign memory + anchors, advances exactly ONE phase per tick, and
+    writes a wake-report.
+
+    NON-NEGOTIABLE behaviors (per directives/agent-tick-protocol.md):
+    - One phase per tick. Never auto-execute multiple phases.
+    - Block-on-ambiguity: if next phase needs taste call, halt to
+      blocked.jsonl. Wait for user.
+    - Explicit opt-in required: a project does NOT get a launchd tick
+      unless the user runs `agent_tick.py enable --project <slug>`.
+    """
+    hits = _match_signals(intent_lower, LONG_RUNNING_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="long_running_project",
+        primary_workflow="agent-tick",
+        sub_workflows=[],  # agent_tick chooses sub-workflows per-tick from state.yaml
+        experts=[],         # determined per-tick
+        skills_to_load=["agent-tick"],
+        plugins=["episodic-memory"],
+        cost_tier="standard",  # per-project daily cap enforced by cost_gate extension
+        fanout_pattern="sequential",  # one phase per tick, hard rule
+        fanout_workers_estimate=1,
+        gates_to_surface=["G2"],  # paid-API costs accumulate over days
+        halt_suppressions=[],     # safety gates STAY — no blanket suppression for autonomous mode
+        confidence=0.88,
+        reasoning=(
+            "Long-running / multi-day project. Routes to agent_tick wake "
+            "handler which loads project state.yaml, advances ONE phase per "
+            "tick, and writes a wake-report. Hard rules: one phase per tick "
+            "(no compounding); block-on-ambiguity (no improvising past "
+            "taste calls); explicit opt-in only (no surprise background "
+            "work). Per-project daily cost cap enforced via cost_gate."
+        ),
+        matched_signals=hits,
+    )
+
+
+def _resolve_vertical_bootstrap(intent_lower: str) -> Optional[MissionPackage]:
+    """Class 10 — Vertical bootstrap (Phase C, 2026-05-25).
+
+    Fires when the user is bootstrapping a NEW domain from scratch — no
+    voice doc, no ICP, no expert routing exists yet. /verticalize composes
+    existing atoms (icp-deep-dive, voice-document, extract, ground_truth
+    init-domain, per-project CLAUDE.md generation) into one orchestrated
+    pass. Today this takes 1-2 weeks bespoke per vertical; verticalize
+    cuts it to 1-2 hours.
+
+    Phase 2.5 gate (ICP + voice user-validation) is NON-skippable —
+    without it, the new vertical's ground truth calibrates to auto-seed
+    and grade inflation enters from day one (per 2026-05-03 lesson).
+    """
+    hits = _match_signals(intent_lower, VERTICAL_BOOTSTRAP_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="vertical_bootstrap",
+        primary_workflow="verticalize",
+        sub_workflows=[
+            "icp-deep-dive", "voice-document", "extract",
+            "research-landscape",
+        ],
+        experts=["mcraney", "lulu", "oren-john", "lara-acosta"],
+        skills_to_load=[
+            "verticalize", "icp-deep-dive", "voice-document",
+            "extract", "research-landscape",
+        ],
+        plugins=["hookify", "episodic-memory"],
+        cost_tier="standard",  # Perplexity for landscape research + Gemini for extraction
+        fanout_pattern="sequential",  # phases have hard dependencies (ICP → voice → ground-truth)
+        fanout_workers_estimate=1,
+        gates_to_surface=["G2", "G3"],  # paid research + ICP/voice user-validation gate
+        halt_suppressions=[],  # Phase 2.5 user-validation gate STAYS (load-bearing)
+        confidence=0.92,
+        reasoning=(
+            "Vertical bootstrap signal. /verticalize is a system-tier "
+            "conductor that orchestrates ICP + voice + ground-truth + "
+            "routing + per-project CLAUDE.md generation for a NEW domain. "
+            "Phase 2.5 user-validation gate is non-skippable: without it, "
+            "the new vertical's ground-truth calibrates to auto-seed and "
+            "grade inflation enters from day one (per 2026-05-03 lesson)."
+        ),
+        matched_signals=hits,
+    )
+
+
 def _resolve_conversation(intent_lower: str) -> Optional[MissionPackage]:
     """Class 8 — Reflective / opinion-solicitation intent. Phase A.
 
@@ -662,14 +801,20 @@ def _freeform_default(reason: str) -> MissionPackage:
 
 # Resolution chain — first match wins. Order = specificity descending.
 _RESOLVERS = [
-    _resolve_refinement,         # Class 6
-    _resolve_research,           # Class 3
-    _resolve_atomization,        # Class 4
-    _resolve_maintenance,        # Class 5
-    _resolve_multi_deliverable,  # Class 2
-    _resolve_conversation,       # Class 8 (Phase A — universal front door)
-    _resolve_exploration,        # Class 9 (Phase A — landscape mapping)
-    _resolve_single_deliverable, # Class 1 (multi-subroute)
+    _resolve_refinement,            # Class 6
+    _resolve_research,              # Class 3
+    _resolve_atomization,           # Class 4
+    _resolve_maintenance,           # Class 5
+    _resolve_long_running_project,  # Class 11 (Phase D — fires early because
+                                     #            "build me a brand over the next week"
+                                     #            is long-running, not multi_deliverable)
+    _resolve_vertical_bootstrap,    # Class 10 (Phase C — fires before multi/single
+                                     #            since "build me a brand for [new domain]"
+                                     #            should bootstrap, not assume vertical exists)
+    _resolve_multi_deliverable,     # Class 2
+    _resolve_conversation,          # Class 8  (Phase A — universal front door)
+    _resolve_exploration,           # Class 9  (Phase A — landscape mapping)
+    _resolve_single_deliverable,    # Class 1  (multi-subroute)
 ]
 
 
@@ -753,6 +898,8 @@ def main():
             "6_refinement": REFINEMENT_SIGNALS,
             "8_conversation": CONVERSATION_SIGNALS,
             "9_exploration": EXPLORATION_SIGNALS,
+            "10_vertical_bootstrap": VERTICAL_BOOTSTRAP_SIGNALS,
+            "11_long_running_project": LONG_RUNNING_SIGNALS,
             "7_freeform": "(fallback when no other class matches)",
         }, indent=2))
     else:

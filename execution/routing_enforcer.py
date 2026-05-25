@@ -234,6 +234,52 @@ BINDINGS = [
             "high-stakes missions. Default autopilot behavior is 3-gates-only."
         ),
     },
+    {
+        # Phase C (2026-05-25) — Vertical Bootstrap
+        # Mirrors VERTICAL_BOOTSTRAP_SIGNALS in execution/intent_to_package.py.
+        # Update both together when adding new signal phrases.
+        "id": "vertical_bootstrap",
+        "signal_phrases": [
+            "verticalize",
+            "bootstrap a vertical",
+            "bootstrap a new vertical",
+            "bootstrap a domain",
+            "new vertical for",
+            "i'm entering",
+            "i am entering",
+            "entering the ",
+            "new niche of ",
+            "set up a new niche",
+            "set up a vertical",
+            "stand up a new vertical",
+            "stand up a domain",
+            "from zero in ",
+            "from scratch in the ",
+            "no audience yet for ",
+            "no voice doc yet",
+            "calibrate for ",
+            "build the stack for ",
+            "spin up calibration for",
+        ],
+        "mandatory_workflow": "verticalize",
+        "forbidden_workflows": ["build-bos", "brand-arena", "zero-to-brand"],
+        "reason": (
+            "Vertical bootstrap is zero-state setup for a NEW domain (no voice doc, "
+            "no ICP, no expert routing yet). /verticalize is the system-tier "
+            "conductor that composes ICP + voice + ground-truth + routing + "
+            "per-project CLAUDE.md generation. /build-bos, /brand-arena, and "
+            "/zero-to-brand assume the vertical is CALIBRATED already; they "
+            "produce brand-layer assets ON TOP of an existing voice + ICP. "
+            "Wrong direction = brand layer built on un-calibrated foundation."
+        ),
+        "override_flag": "--skip-2.5",
+        "override_warning": (
+            "Use --skip-2.5 ONLY when verticalizing a domain you're already "
+            "deeply expert in (lived experience) and can confirm ICP + voice "
+            "from memory. Skipping Phase 2.5 in any other case guarantees "
+            "grade inflation in the new vertical from day one."
+        ),
+    },
 ]
 
 
