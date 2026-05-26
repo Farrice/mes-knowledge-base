@@ -1,0 +1,468 @@
+Resonance launch-poster generation v3 — started 2026-05-26T05:52:50Z
+=========================================
+[A1-empty-room] 05:52:50Z size=1024x1536 palette=#B8492E,#0F1A2E,#F5EFE3,#1A1814
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.52 / $15.00
+Today spent: $0.51 / $6.00
+Wallet est:  $17.48
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779774820240_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[A1-empty-room] OK -> variant-a-hero-shots/A1-empty-room.png
+Logged: mode=poster, success, $0.0400
+  Cycle total: $2.56 / $15.00
+  Cycle by mode: {'poster': 2.222, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[A2-gesture-fader] 05:53:44Z size=1024x1536 palette=#B8492E,#0F1A2E,#F5EFE3,#1A1814
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.56 / $15.00
+Today spent: $0.55 / $6.00
+Wallet est:  $17.44
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779774882401_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[A2-gesture-fader] OK -> variant-a-hero-shots/A2-gesture-fader.png
+Logged: mode=poster, success, $0.0400
+  Cycle total: $2.60 / $15.00
+  Cycle by mode: {'poster': 2.262, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[A3-group-from-behind] 05:54:46Z size=1536x1024 palette=#B8492E,#0F1A2E,#F5EFE3,#1A1814
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.60 / $15.00
+Today spent: $0.59 / $6.00
+Wallet est:  $17.40
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779774941897_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[A3-group-from-behind] OK -> variant-a-hero-shots/A3-group-from-behind.png
+Logged: mode=poster, success, $0.0400
+  Cycle total: $2.64 / $15.00
+  Cycle by mode: {'poster': 2.302, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[A5-single-listening] 05:55:46Z size=1024x1536 palette=#B8492E,#0F1A2E,#F5EFE3,#1A1814
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.64 / $15.00
+Today spent: $0.63 / $6.00
+Wallet est:  $17.36
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775001494_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[A5-single-listening] OK -> variant-a-hero-shots/A5-single-listening.png
+Logged: mode=poster, success, $0.0400
+  Cycle total: $2.68 / $15.00
+  Cycle by mode: {'poster': 2.342, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[B1-empty-courtyard-room] 05:56:46Z size=1024x1536 palette=#B8492E,#4A6B3F,#8C6526,#F5EFE3
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.68 / $15.00
+Today spent: $0.67 / $6.00
+Wallet est:  $17.32
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775061827_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[B1-empty-courtyard-room] OK -> variant-b-hero-shots/B1-empty-courtyard-room.png
+Logged: mode=poster, success, $0.0400
+  Cycle total: $2.72 / $15.00
+  Cycle by mode: {'poster': 2.382, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[B2-body-in-room] 05:57:47Z size=1024x1536 palette=#B8492E,#4A6B3F,#8C6526,#F5EFE3
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[B2-body-in-room] BUDGET GUARD BLOCK — halting
+=========================================
+[B3-tile-brick-corner] 05:57:47Z size=1536x1024 palette=#B8492E,#4A6B3F,#8C6526,#F5EFE3
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[B3-tile-brick-corner] BUDGET GUARD BLOCK — halting
+=========================================
+[B4-group-architectural] 05:57:47Z size=1536x1024 palette=#B8492E,#4A6B3F,#8C6526,#F5EFE3
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[B4-group-architectural] BUDGET GUARD BLOCK — halting
+=========================================
+[C1-empty-cream-room] 05:57:47Z size=1024x1536 palette=#1A1814,#7A9B6F,#8C6526,#FBF7F0
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[C1-empty-cream-room] BUDGET GUARD BLOCK — halting
+=========================================
+[C2-hand-resting-fader] 05:57:47Z size=1024x1536 palette=#1A1814,#7A9B6F,#8C6526,#FBF7F0
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[C2-hand-resting-fader] BUDGET GUARD BLOCK — halting
+=========================================
+[C3-two-shoulders] 05:57:47Z size=1024x1536 palette=#1A1814,#7A9B6F,#8C6526,#FBF7F0
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[C3-two-shoulders] BUDGET GUARD BLOCK — halting
+=========================================
+[C4-side-of-face] 05:57:47Z size=1024x1024 palette=#1A1814,#7A9B6F,#8C6526,#FBF7F0
+============================================================
+FAL BUDGET GUARD: ❌ DENIED  (mode=poster, est=$0.0400)
+============================================================
+  • BLOCKED: rate limit (5 calls / 5 min). Wait or investigate loop.
+
+Mode ceiling for poster: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+[C4-side-of-face] BUDGET GUARD BLOCK — halting
+=========================================
+Generation complete — 2026-05-26T05:57:47Z
+/Users/farricecain/Google Antigravity/projects/andrea-dj/launch/03-visual-variants/variant-a-hero-shots:
+total 19616
+drwxr-xr-x@  6 farricecain  staff      192 May 25 22:56 .
+drwxr-xr-x@ 11 farricecain  staff      352 May 25 22:52 ..
+-rw-r--r--@  1 farricecain  staff  2836907 May 25 22:53 A1-empty-room.png
+-rw-r--r--@  1 farricecain  staff  2273878 May 25 22:54 A2-gesture-fader.png
+-rw-r--r--@  1 farricecain  staff  2441045 May 25 22:55 A3-group-from-behind.png
+-rw-r--r--@  1 farricecain  staff  2483783 May 25 22:56 A5-single-listening.png
+
+/Users/farricecain/Google Antigravity/projects/andrea-dj/launch/03-visual-variants/variant-b-hero-shots:
+total 5600
+drwxr-xr-x@  3 farricecain  staff       96 May 25 22:57 .
+drwxr-xr-x@ 11 farricecain  staff      352 May 25 22:52 ..
+-rw-r--r--@  1 farricecain  staff  2865917 May 25 22:57 B1-empty-courtyard-room.png
+
+/Users/farricecain/Google Antigravity/projects/andrea-dj/launch/03-visual-variants/variant-c-hero-shots:
+total 0
+drwxr-xr-x@  2 farricecain  staff   64 May 25 22:43 .
+drwxr-xr-x@ 11 farricecain  staff  352 May 25 22:52 ..
+────────────────────────────────────────────────────────────────
+FAL BUDGET GUARD — STATUS  (v2 mode-aware)
+────────────────────────────────────────────────────────────────
+Wallet (estimated):  $17.28 / $20.00
+Refill threshold:    $5.00  (auto-refill: True)
+Cycle started:       2026-04-30T00:00:00Z
+
+Cycle spent:         $2.72 / $15.00  (warn at $10.00)
+Today spent:         $0.71 / $6.00  (warn at $3.00)
+Lifetime spent:      $2.72  (36 calls)
+
+Per-call ceilings by mode:
+  poster               $1.00
+  edit                 $1.00
+  rembg                $0.10
+  kling                $2.00
+  seedance-480p        $1.50
+  seedance-720p        $3.00
+  seedance-1080p       HARD-BLOCKED
+
+Cycle spent by mode:
+  poster               $2.3820
+  edit                 $0.0000
+  rembg                $0.0000
+  kling                $0.3360
+  seedance             $0.0000
+
+Low-balance cap:     $0.50/call when balance < $5.00
+Rate limit:          5 calls / 5 min
+Consecutive fails:   0 / 2
+
+Last 5 calls:
+  2026-05-26T05:53:41Z  poster           q=medium n=1         $0.0400  success
+  2026-05-26T05:54:43Z  poster           q=medium n=1         $0.0400  success
+  2026-05-26T05:55:43Z  poster           q=medium n=1         $0.0400  success
+  2026-05-26T05:56:43Z  poster           q=medium n=1         $0.0400  success
+  2026-05-26T05:57:44Z  poster           q=medium n=1         $0.0400  success
+=========================================
+[B2-body-in-room] 05:59:36Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.72 / $15.00
+Today spent: $0.71 / $6.00
+Wallet est:  $17.28
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775241579_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[B2-body-in-room] OK -> variant-b-hero-shots/B2-body-in-room.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $2.86 / $15.00
+  Cycle by mode: {'poster': 2.522, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[B3-tile-brick-corner] 06:01:53Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $2.86 / $15.00
+Today spent: $0.85 / $6.00
+Wallet est:  $17.14
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775366447_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[B3-tile-brick-corner] OK -> variant-b-hero-shots/B3-tile-brick-corner.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $3.00 / $15.00
+  Cycle by mode: {'poster': 2.662, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[B4-group-architectural] 06:03:57Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $3.00 / $15.00
+Today spent: $0.99 / $6.00
+Wallet est:  $17.00
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775521699_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[B4-group-architectural] OK -> variant-b-hero-shots/B4-group-architectural.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $3.14 / $15.00
+  Cycle by mode: {'poster': 2.802, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[C1-empty-cream-room] 06:06:33Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $3.14 / $15.00
+Today spent: $1.13 / $6.00
+Wallet est:  $16.86
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775653607_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[C1-empty-cream-room] OK -> variant-c-hero-shots/C1-empty-cream-room.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $3.28 / $15.00
+  Cycle by mode: {'poster': 2.942, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[C2-hand-resting-fader] 06:08:44Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $3.28 / $15.00
+Today spent: $1.27 / $6.00
+Wallet est:  $16.72
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775778130_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[C2-hand-resting-fader] OK -> variant-c-hero-shots/C2-hand-resting-fader.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $3.42 / $15.00
+  Cycle by mode: {'poster': 3.082, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[C3-two-shoulders] 06:10:49Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $3.42 / $15.00
+Today spent: $1.41 / $6.00
+Wallet est:  $16.58
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779775903123_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[C3-two-shoulders] OK -> variant-c-hero-shots/C3-two-shoulders.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $3.56 / $15.00
+  Cycle by mode: {'poster': 3.222, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+[C4-side-of-face] 06:12:54Z
+============================================================
+FAL BUDGET GUARD: ✅ ALLOWED  (mode=poster, est=$0.0400)
+============================================================
+Mode ceiling: $1.00
+Cycle spent: $3.56 / $15.00
+Today spent: $1.55 / $6.00
+Wallet est:  $16.44
+
+After the call, run:
+  python3 execution/fal_budget_guard.py log --mode=poster ...args... --status=success [--actual-cost=N]
+
+Estimated cost: $0.04 (1 images × $0.040 at quality=medium)
+Style: editorial-fashion (Editorial Fashion)
+  generating 1/1... out/editorial-fashion_1779776043427_v1.png
+
+Done. 1 file(s) in /Users/farricecain/Google Antigravity/skills/fantastic-posters/out.
+Tip: open the PNG in Canva and run Magic / Smart Layers to split foreground / background / text.
+[C4-side-of-face] OK -> variant-c-hero-shots/C4-side-of-face.png
+Logged: mode=poster, success, $0.1400
+  Cycle total: $3.70 / $15.00
+  Cycle by mode: {'poster': 3.362, 'edit': 0.0, 'rembg': 0.0, 'kling': 0.336, 'seedance': 0.0}
+=========================================
+Continue complete — 2026-05-26T06:15:14Z
+/Users/farricecain/Google Antigravity/projects/andrea-dj/launch/03-visual-variants/variant-b-hero-shots:
+total 20864
+drwxr-xr-x@  6 farricecain  staff      192 May 25 23:05 .
+drwxr-xr-x@ 12 farricecain  staff      384 May 25 22:59 ..
+-rw-r--r--@  1 farricecain  staff  2865917 May 25 22:57 B1-empty-courtyard-room.png
+-rw-r--r--@  1 farricecain  staff  2640361 May 25 23:00 B2-body-in-room.png
+-rw-r--r--@  1 farricecain  staff  2746872 May 25 23:02 B3-tile-brick-corner.png
+-rw-r--r--@  1 farricecain  staff  2421213 May 25 23:05 B4-group-architectural.png
+
+/Users/farricecain/Google Antigravity/projects/andrea-dj/launch/03-visual-variants/variant-c-hero-shots:
+total 16544
+drwxr-xr-x@  6 farricecain  staff      192 May 25 23:14 .
+drwxr-xr-x@ 12 farricecain  staff      384 May 25 22:59 ..
+-rw-r--r--@  1 farricecain  staff  2349398 May 25 23:07 C1-empty-cream-room.png
+-rw-r--r--@  1 farricecain  staff  2340972 May 25 23:09 C2-hand-resting-fader.png
+-rw-r--r--@  1 farricecain  staff  2340041 May 25 23:11 C3-two-shoulders.png
+-rw-r--r--@  1 farricecain  staff  1431413 May 25 23:14 C4-side-of-face.png
+────────────────────────────────────────────────────────────────
+FAL BUDGET GUARD — STATUS  (v2 mode-aware)
+────────────────────────────────────────────────────────────────
+Wallet (estimated):  $16.30 / $20.00
+Refill threshold:    $5.00  (auto-refill: True)
+Cycle started:       2026-04-30T00:00:00Z
+
+Cycle spent:         $3.70 / $15.00  (warn at $10.00)
+Today spent:         $1.69 / $6.00  (warn at $3.00)
+Lifetime spent:      $3.70  (43 calls)
+
+Per-call ceilings by mode:
+  poster               $1.00
+  edit                 $1.00
+  rembg                $0.10
+  kling                $2.00
+  seedance-480p        $1.50
+  seedance-720p        $3.00
+  seedance-1080p       HARD-BLOCKED
+
+Cycle spent by mode:
+  poster               $3.3620
+  edit                 $0.0000
+  rembg                $0.0000
+  kling                $0.3360
+  seedance             $0.0000
+
+Low-balance cap:     $0.50/call when balance < $5.00
+Rate limit:          5 calls / 5 min
+Consecutive fails:   0 / 2
+
+Last 5 calls:
+  2026-05-26T06:05:23Z  poster           q=medium n=1         $0.1400  success
+  2026-05-26T06:07:34Z  poster           q=medium n=1         $0.1400  success
+  2026-05-26T06:09:39Z  poster           q=medium n=1         $0.1400  success
+  2026-05-26T06:11:44Z  poster           q=medium n=1         $0.1400  success
+  2026-05-26T06:14:04Z  poster           q=medium n=1         $0.1400  success
