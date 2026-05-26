@@ -1,0 +1,167 @@
+slug: andrea-dj
+created_at: '2026-05-26T06:20:42Z'
+updated_at: '2026-05-26T06:22:26Z'
+brand:
+  name: Resonance
+  tagline: ''
+  voice: ''
+  audience: "Single adults 30-40 in Chicago seeking a committed partner \u2014 daytime,\
+    \ sober, curated room"
+  palette: []
+decisions: {}
+anchors:
+- id: anchor-001
+  type: brand_brief
+  path: projects/andrea-dj/brand-operating-system/00-foundation/05-non-negotiables.md
+  created_at: '2026-05-26T06:20:51Z'
+  description: "The 12 Non-Negotiables \u2014 sacred, never paraphrased"
+  ref_for:
+  - all-phases
+- id: anchor-002
+  type: brand_brief
+  path: projects/andrea-dj/brand-operating-system/00-foundation/03-voice-document.md
+  created_at: '2026-05-26T06:20:51Z'
+  description: "Voice document v1.1 \u2014 Section 6 AI Handoff Block is paste-in\
+    \ canonical"
+  ref_for:
+  - announcement
+  - outreach
+  - visuals
+- id: anchor-003
+  type: product_sheet
+  path: projects/andrea-dj/brand-operating-system/01-visual/DESIGN.md
+  created_at: '2026-05-26T06:20:51Z'
+  description: "v1 visual anchor \u2014 editorial broadsheet + daytime mechanic"
+  ref_for:
+  - visual-variants
+- id: anchor-004
+  type: copy
+  path: projects/andrea-dj/launch/01-announcement-package/README.md
+  created_at: '2026-05-26T06:21:06Z'
+  description: "Resonance July launch announcement package \u2014 3-phase content\
+    \ plan, voice-audited"
+  ref_for:
+  - phase1-ship
+  - phase2-event-announce
+  - phase3-ramp
+- id: anchor-005
+  type: copy
+  path: projects/andrea-dj/launch/02-outreach-playbook/README.md
+  created_at: '2026-05-26T06:21:06Z'
+  description: "Resonance outreach playbook \u2014 2-track (friend + paid), 14-day\
+    \ sprint plan, JR follow-up"
+  ref_for:
+  - venue-lock
+  - jr-followup
+  - plan-b-activation
+- id: anchor-006
+  type: brand_brief
+  path: projects/andrea-dj/launch/03-visual-variants/README.md
+  created_at: '2026-05-26T06:21:06Z'
+  description: "3 visual variant comparison + 15 image prompts \u2014 Editorial Broadsheet\
+    \ / Latin-American Daylight / Quiet Luxury Daylight"
+  ref_for:
+  - variant-selection
+  - bos-visual-refresh
+- id: anchor-007
+  type: ad_concept
+  path: projects/andrea-dj/launch/03-visual-variants/variant-a-hero-shots
+  created_at: '2026-05-26T06:21:06Z'
+  description: "Variant A \u2014 4 launch poster prototypes (Editorial Broadsheet,\
+    \ terracotta+midnight on cream)"
+  ref_for:
+  - variant-selection
+- id: anchor-008
+  type: ad_concept
+  path: projects/andrea-dj/launch/03-visual-variants/variant-b-hero-shots
+  created_at: '2026-05-26T06:21:06Z'
+  description: "Variant B \u2014 4 launch poster prototypes (Latin-American Daylight,\
+    \ terracotta+moss+ochre)"
+  ref_for:
+  - variant-selection
+- id: anchor-009
+  type: ad_concept
+  path: projects/andrea-dj/launch/03-visual-variants/variant-c-hero-shots
+  created_at: '2026-05-26T06:21:06Z'
+  description: "Variant C \u2014 4 launch poster prototypes (Quiet Luxury Daylight,\
+    \ ink+sage+gold on cool cream)"
+  ref_for:
+  - variant-selection
+- id: anchor-010
+  type: copy
+  path: projects/andrea-dj/launch/04-gap-action-sprint.md
+  created_at: '2026-05-26T06:21:06Z'
+  description: "Gap-action sprint \u2014 audit must-haves owner-assigned + 8 true\
+    \ gaps + Andrea 24-hour pre-event doctrine"
+  ref_for:
+  - sprint-execution
+  - operational-readiness
+history:
+- ts: '2026-05-26T06:20:42Z'
+  phase: init
+  action: project initialized
+  output_ref: ''
+- ts: '2026-05-26T06:20:51Z'
+  phase: Anchor (foundation)
+  action: 'anchor added: brand_brief'
+  output_ref: anchor-001
+- ts: '2026-05-26T06:20:51Z'
+  phase: Anchor (foundation)
+  action: 'anchor added: brand_brief'
+  output_ref: anchor-002
+- ts: '2026-05-26T06:20:51Z'
+  phase: Anchor (foundation)
+  action: 'anchor added: product_sheet'
+  output_ref: anchor-003
+- ts: '2026-05-26T06:21:06Z'
+  phase: 'Phase 2 step 1 (parallel sub-agent: master-copywriter)'
+  action: 'anchor added: copy'
+  output_ref: anchor-004
+- ts: '2026-05-26T06:21:06Z'
+  phase: 'Phase 2 step 2 (parallel sub-agent: general-purpose)'
+  action: 'anchor added: copy'
+  output_ref: anchor-005
+- ts: '2026-05-26T06:21:06Z'
+  phase: 'Phase 2 step 3 (parallel sub-agent: brand-system-builder)'
+  action: 'anchor added: brand_brief'
+  output_ref: anchor-006
+- ts: '2026-05-26T06:21:06Z'
+  phase: Phase 2 step 4 (Fal/GPT-Image-2 generation, editorial-fashion style)
+  action: 'anchor added: ad_concept'
+  output_ref: anchor-007
+- ts: '2026-05-26T06:21:06Z'
+  phase: Phase 2 step 4 (Fal/GPT-Image-2 generation, editorial-fashion style)
+  action: 'anchor added: ad_concept'
+  output_ref: anchor-008
+- ts: '2026-05-26T06:21:06Z'
+  phase: Phase 2 step 4 (Fal/GPT-Image-2 generation, editorial-fashion style)
+  action: 'anchor added: ad_concept'
+  output_ref: anchor-009
+- ts: '2026-05-26T06:21:06Z'
+  phase: Phase 2 step 5 (synthesis + Andrea-doctrine NEW)
+  action: 'anchor added: copy'
+  output_ref: anchor-010
+- ts: '2026-05-26T06:21:54Z'
+  phase: finalize:supercomputer
+  action: "composite=7.17, status=Needs Improvement, output='Resonance July launch\
+    \ announcement package \u2014 3-phase content plan, voice-audited against 12 Non-Negotiables.\
+    \ 3 IG posts,'"
+  output_ref: ''
+- ts: '2026-05-26T06:22:12Z'
+  phase: finalize:supercomputer
+  action: "composite=7.25, status=Needs Improvement, output='Resonance outreach playbook\
+    \ \u2014 2-track (friend-with-space + paid venue), 14-day sprint plan, 4 warm-script\
+    \ formats, JR fo'"
+  output_ref: ''
+- ts: '2026-05-26T06:22:19Z'
+  phase: finalize:supercomputer
+  action: "composite=7.08, status=Needs Improvement, output='Resonance visual variants\
+    \ \u2014 3 deployable DESIGN.md systems (Editorial Broadsheet / Latin-American\
+    \ Daylight / Quiet Luxur'"
+  output_ref: ''
+- ts: '2026-05-26T06:22:26Z'
+  phase: finalize:supercomputer
+  action: "composite=7.25, status=Needs Improvement, output='Resonance gap-action\
+    \ sprint \u2014 anti-omission audit must-haves owner-assigned + 8 true gaps not\
+    \ in audit (ticketing platfo'"
+  output_ref: ''
