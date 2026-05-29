@@ -1,0 +1,5 @@
+
+{"timestamp": "2026-05-21T12:05:12.810004", "workflow": "research-swarm", "skill": "research-landscape", "expert": "researcher", "task_type": "Research", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-05-22T09:14:19.170927", "workflow": "writers-room", "skill": "writers-room", "expert": "lara-acosta", "task_type": "Content", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-05-22T09:19:55.974845", "workflow": "research-swarm", "skill": "research-swarm", "expert": "researcher", "task_type": "Research", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-05-23T20:28:05.170056", "workflow": "writers-room", "skill": "writers-room", "expert": "lara-acosta", "task_type": "Content", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

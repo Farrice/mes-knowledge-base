@@ -1,0 +1,18 @@
+{
+  "BRAND_NAME": "TestBrand",
+  "BRAND_NAME_LOWER": "testbrand",
+  "FOUNDER_NAME": "Alex",
+  "FOUNDER_FULL_NAME": "Alex Smith",
+  "SPINE_LINE": "Real conversations for people who want to connect authentically. A weekly dinner series in Brooklyn for professionals building things.",
+  "ONE_LINER": "A weekly dinner series in Brooklyn for professionals building things.",
+  "SUCCESS_METRIC": "meaningful connections, not followers",
+  "CITY": "Brooklyn",
+  "REGION": "Northeast",
+  "LAUNCH_DATE": "July 2026",
+  "EVENT_TYPE": "weekly dinner series",
+  "SPINE_FRAME": "Real conversations, not small talk",
+  "SPINE_MECHANISM": "intimacy-first",
+  "KILL_CONDITION": "3 consecutive dinners with sub-40% attendee return rate",
+  "PATIENCE_WINDOW": "6 dinners",
+  "SUCCESS_RATE_TARGET": "60% attendee retention"
+}

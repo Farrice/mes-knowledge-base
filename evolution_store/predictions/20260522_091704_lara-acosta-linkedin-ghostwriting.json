@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-05-22T09:17:04.345895",
+  "task_class": "single_deliverable",
+  "expert": "lara-acosta",
+  "skill": "lara-acosta-linkedin-ghostwriting",
+  "workflow": "ghostwrite",
+  "prediction": {
+    "predicted_composite": 8.0,
+    "predicted_iterations_to_target": 2,
+    "high_risk_dimensions": [],
+    "confidence": 0.6,
+    "recommended_interventions": [
+      "front-load /adversarial-review after first draft",
+      "activate verification-agent-protocol upfront, not at Step 5.5"
+    ],
+    "reasoning": "Bucket: expert=lara-acosta. N=6 traces. Median composite=8.00. High-risk dims: none. Complexity signals: {'output_length_estimate': 400, 'factual_surface': True}",
+    "sample_size": 6,
+    "bucket_used": "expert=lara-acosta",
+    "median_dims": {
+      "intent_alignment": 8.5,
+      "expert_standard": 7.5,
+      "adversarial_resilience": 8.0
+    }
+  }
+}

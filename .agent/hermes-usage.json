@@ -1,0 +1,11 @@
+{
+  "monthly_limit_usd": 20.00,
+  "subscription_type": "nous_research_paid",
+  "current_month": "2026-05",
+  "usage": {
+    "total_invocations": 0,
+    "estimated_cost_usd": 0.00,
+    "calls": []
+  },
+  "notes": "Flat $20/mo Nous Research subscription; tracking invocations for visibility, not for billing. If Nous adds usage caps, update this schema to mirror perplexity-usage.json."
+}

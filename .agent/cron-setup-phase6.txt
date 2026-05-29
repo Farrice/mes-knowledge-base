@@ -1,0 +1,14 @@
+# Add these to `crontab -e` after perception product ships
+# All times in user's local timezone (set in crontab environment)
+
+# Weekly Evolution Auto-Run (Mondays, 6am)
+0 6 * * 1 cd /Users/farricecain/Google\ Antigravity && python3 execution/evolution_orchestrator.py auto >> .agent/evolution-orchestrator-weekly-$(date +\%Y\%m\%d).log 2>&1
+
+# Monthly Calibration Drift (1st, 8am)
+0 8 1 * * cd /Users/farricecain/Google\ Antigravity && python3 execution/eval_harness.py calibrate --days 30 >> .agent/calibration-drift-monthly-$(date +\%Y\%m\%d).log 2>&1
+
+# Perception Spot-Check (15th, 10am)
+0 10 15 * * cd /Users/farricecain/Google\ Antigravity && python3 execution/dependency_validator.py >> .agent/perception-spot-check-monthly-$(date +\%Y\%m\%d).log 2>&1
+
+# Prose Classifier Scan (Wednesdays, 2pm)
+0 14 * * 3 cd /Users/farricecain/Google\ Antigravity && python3 execution/prose_classifier.py scan skills/rory-sutherland-marketing/ skills/stefan-georgi-dopamine-copy/ --severity flagged >> .agent/prose-scan-weekly-$(date +\%Y\%m\%d).log 2>&1

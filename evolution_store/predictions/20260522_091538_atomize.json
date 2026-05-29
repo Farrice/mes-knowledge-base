@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-05-22T09:15:38.607691",
+  "task_class": "atomization",
+  "expert": "lara-acosta",
+  "skill": "atomize",
+  "workflow": "atomize",
+  "prediction": {
+    "predicted_composite": 8.3,
+    "predicted_iterations_to_target": 2,
+    "high_risk_dimensions": [],
+    "confidence": 0.5,
+    "recommended_interventions": [
+      "front-load /adversarial-review after first draft"
+    ],
+    "reasoning": "Bucket: expert=lara-acosta. N=5 traces. Median composite=8.30. High-risk dims: none. Complexity signals: {'output_length_estimate': 4400, 'factual_surface': False}",
+    "sample_size": 5,
+    "bucket_used": "expert=lara-acosta",
+    "median_dims": {
+      "intent_alignment": 9.0,
+      "expert_standard": 8.0,
+      "adversarial_resilience": 8.0
+    }
+  }
+}

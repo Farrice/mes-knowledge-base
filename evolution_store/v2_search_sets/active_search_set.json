@@ -2,7 +2,176 @@
   "created": "2026-04-20T13:00:37.142917",
   "threshold": 7.0,
   "description": "All traces with composite < 7.0 or any dimension < 6.0",
-  "cases": [],
-  "total_cases": 0,
-  "last_updated": "2026-04-20T13:00:37.156086"
+  "cases": [
+    {
+      "trace_id": "20260512_040155",
+      "timestamp": "2026-05-12T04:01:55.087033",
+      "schema_version": "v3",
+      "component": "extract-forge",
+      "expert": "",
+      "workflow": "extract-forge",
+      "quality": {
+        "composite": 6.7,
+        "intent_alignment": 7.0,
+        "expert_standard": 7.0,
+        "adversarial_resilience": 6.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Pattern-Integration Run \u2014 gate-first redirect from /extract-forge per feedback_extract-forge-gate-first.md (sources were tutorial videos, not practitioner methodology). User confirmed redirect at Question 1, chose unified extraction at Question 2, approved Phase A (Move 1 + Move 5 only) at Phase 5 gate. Key finding: 'missing piece' is architectural language + protocol activation, not new capability \u2014 Antigravity already exceeds the system the videos describe in component count but two core orchestration protocols (sub_agent_protocol.md, agent-loading-protocol.md) have 0 activations. Phase A addresses vocabulary; Phase D (Move 2) would address activation. Deliverables on disk: pattern-inventory-and-delta.md, 2026-05-12-agentic-os-elevation-brief.md, CLAUDE.md edit, JARVIS.md rewrite, 5 frontmatter annotations. Factual Grounding: 9 | Verification: PASS"
+    },
+    {
+      "trace_id": "20260521_115503",
+      "timestamp": "2026-05-21T11:55:03.715314",
+      "schema_version": "v3",
+      "component": "test",
+      "expert": "test",
+      "workflow": "test",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 7.5,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 7.5,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": ""
+    },
+    {
+      "trace_id": "20260521_115536",
+      "timestamp": "2026-05-21T11:55:36.075373",
+      "schema_version": "v3",
+      "component": "test",
+      "expert": "test",
+      "workflow": "test",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 7.5,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 7.5,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": ""
+    },
+    {
+      "trace_id": "20260522_091419",
+      "timestamp": "2026-05-22T09:14:19.159691",
+      "schema_version": "v3",
+      "component": "writers-room",
+      "expert": "lara-acosta",
+      "workflow": "writers-room",
+      "quality": {
+        "composite": 5.83,
+        "intent_alignment": 7.5,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 5.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Stress test \u2014 orchestration wiring exercised; full 9-lens writers-room execution skipped to keep validation tractable. Routing PASS, G3 silent pass."
+    },
+    {
+      "trace_id": "20260522_091557",
+      "timestamp": "2026-05-22T09:15:57.788761",
+      "schema_version": "v3",
+      "component": "atomize",
+      "expert": "lara-acosta",
+      "workflow": "atomize",
+      "quality": {
+        "composite": 5.0,
+        "intent_alignment": 7.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 4.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Stress test exposed 2 routing bugs: greedy parallax_editions binding + resolver/workflow contradiction on atomization fanout pattern."
+    },
+    {
+      "trace_id": "20260522_091711",
+      "timestamp": "2026-05-22T09:17:11.725518",
+      "schema_version": "v3",
+      "component": "lara-acosta-linkedin-ghostwriting",
+      "expert": "lara-acosta",
+      "workflow": "ghostwrite",
+      "quality": {
+        "composite": 5.83,
+        "intent_alignment": 7.5,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 5.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Stress test \u2014 routing verified to Lara Acosta as predicted by user plan. No halts. Verification-agent-protocol intervention recommendation logged."
+    }
+  ],
+  "total_cases": 6,
+  "last_updated": "2026-05-22T09:17:11.726783"
 }
