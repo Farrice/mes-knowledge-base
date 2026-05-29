@@ -1,5 +1,6 @@
 ---
 description: End-to-end enriched extraction
+tier: system
 ---
 
 # /extract-forge — The Master Extraction Pipeline

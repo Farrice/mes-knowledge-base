@@ -1,5 +1,6 @@
 ---
 description: Build the foundational voice reference document
+tier: atom
 ---
 
 # /voice-document — Voice Document Builder

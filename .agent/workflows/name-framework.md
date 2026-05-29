@@ -1,5 +1,6 @@
 ---
 description: Name a proprietary framework, method, content series, newsletter
+tier: atom
 ---
 
 # `/name-framework` — Framework Naming Sprint

@@ -1,5 +1,6 @@
 ---
 description: Produce Parallax Substack editions — trending research, briefing, drafting, prompt packs, LinkedIn cross-promo. Full pipeline from zero to publish-ready.
+tier: system
 ---
 
 # `/parallax` — The Parallax Production Engine (v1.0)

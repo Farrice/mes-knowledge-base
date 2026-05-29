@@ -137,6 +137,51 @@ Before editing, articulate:
 
 ---
 
+## Phase 2.5 — Treatment Gate (HALT/PROCEED)
+
+> Added 2026-05-12 per `directives/workflow-gate-convention.md` Move 4. Prevents the "rewrite first, diagnose later" failure mode that produces refined slop on top of misdiagnosed drafts.
+
+**Halt question:** Did the diagnosis identify what's actually broken about this draft, OR did it just produce a 20-point critique because the format demanded one?
+
+**Halt conditions (PROCEED requires all):**
+- [ ] Diagnosis names the **top 3 issues** by impact, not 20 equally-weighted complaints
+- [ ] At least one diagnostic point cites a SPECIFIC line/passage from the draft (not "the writing is generic" — "the opening 'Here's what I learned...' is the AI-tells failure named in feedback_ai-writing-tells.md")
+- [ ] User has confirmed the diagnosis matches their own felt sense of what's broken — OR explicitly waived this check via "diagnosis-confirmed" / "proceed without confirm"
+- [ ] Treatment plan names which of the 3 layers (Structure / Emotion / Platform-Voice) carries the heaviest lift for THIS draft, not all three at uniform weight
+
+**If any halt condition fails:**
+- Re-run Phase 2 with focus on the 3 highest-impact issues only
+- Surface the top 3 to the user for confirmation BEFORE drafting the treatment
+- Do NOT proceed to Phase 3 with a 20-point treatment plan when 3 issues dominate
+
+**Skip syntax:** `--skip-treatment-gate` — only valid when (a) the draft is < 200 words and the issue is obvious, OR (b) the user has explicitly said "just rewrite it, I trust the diagnosis."
+
+**Why this gate exists:** The 5/10 LinkedIn About session (2026-03-11, in MEMORY.md) failed because the writers-room ran end-to-end with all 9 experts applied at uniform weight. The third draft hit 10/10 only after diagnosis isolated "structurally sound but flat" as the load-bearing issue and the treatment concentrated on Layer 2 (heartbeat injection) rather than spreading across all 3 layers. Without this gate, the workflow optimizes the wrong dimension and the draft comes back "different but still flat."
+
+**Output format:**
+
+```
+DIAGNOSIS GATE — Phase 2.5
+
+Top 3 Issues (Ranked by Impact):
+1. [Specific issue + line/passage citation + which layer treats it]
+2. [Same structure]
+3. [Same structure]
+
+Treatment Plan (Layer Distribution):
+- Layer 1 (Compress): [% of treatment effort] — [why]
+- Layer 2 (Heartbeat): [% of treatment effort] — [why]
+- Layer 3 (Platform/Voice): [% of treatment effort] — [why]
+
+User Confirmation Required:
+Does this diagnosis match what you feel is broken about this draft?
+- "Yes, proceed" → Phase 3 fires
+- "No, the real issue is X" → re-diagnose with X as the anchor
+- "Just rewrite it" → skip flag honored, Phase 3 fires without re-confirm
+```
+
+---
+
 ## Phase 3: Apply the Treatment
 
 ### Step 1: Layer 1 — Compress (run first)
