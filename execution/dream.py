@@ -12,7 +12,7 @@ Design contract (mirrors directives + the native Dreams API):
     (feedback rule: "no AI-memory-dependent observability" — detection must not
      depend on Claude remembering to think about it.)
   - NON-DESTRUCTIVE. This script NEVER mutates MEMORY.md or topic files. It only
-    reports findings. The /dream workflow writes a *proposed* rebuild to .tmp/dream/
+    reports findings. The /dream-local workflow writes a *proposed* rebuild to .tmp/dream/
     for human review; applying is a separate, gated, backed-up step.
     (feedback rule: "auto-evolution can't substitute for ground truth.")
 
@@ -74,7 +74,7 @@ class Findings:
 
 
 # --- CONTRIBUTION POINT (pruning / staleness policy) -----------------------
-# This is the one judgment call /dream can't infer: when is a memory "stale
+# This is the one judgment call /dream-local can't infer: when is a memory "stale
 # enough" to flag for archival? Too aggressive and you lose hard-won lessons;
 # too lax and bloat returns. The sensible default below already works — tune
 # the constants or the logic to match how YOU actually use memory.
@@ -243,7 +243,7 @@ def _print_human(f: Findings) -> None:
              + len(f.unindexed_files) + len(f.near_duplicate_index)
              + len(f.bloated_sections) + len(f.stale_candidates))
     print(f"\n  {total} findings. Non-destructive — nothing changed.")
-    print("  Run /dream to consolidate (writes a reviewable proposal first).\n")
+    print("  Run /dream-local to consolidate (manual fallback; native /dream supersedes).\n")
 
 
 def main() -> None:
