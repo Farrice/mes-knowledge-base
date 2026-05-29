@@ -1,7 +1,7 @@
 # 01 — Resonance Brand Bible
 
 *Canonical foundation. Source of truth for every other BOS document.*
-*Last updated: 2026-05-04. Spine: A1-reconciliation.md. Authority: Andrea's anchor + Manifesto v2.*
+*Last updated: 2026-05-11. Spine: A1-reconciliation.md §9. Authority: Andrea's anchor + Manifesto v2 + Story (2026-05-11).*
 
 ---
 
@@ -79,11 +79,15 @@ The cultural assumption that the only legitimate way to meet someone in this cit
 
 Andrea does not name this in the manifesto, but the ICP lives inside it. The apps, the swipe, the optimization loop. *"You've tried the apps. You've tried the bars."* The apps are not the manifesto's rallying cry because every dating brand attacks the apps. Resonance attacks them at a deeper level: the apps are the head-first failure mode the body-first mechanic is designed to bypass. By the time someone is in the Resonance room, they have already left the apps. The room is the answer; the apps are the problem the room solves.
 
+### Enemy 5 — The performance demand (the meta-enemy)
+
+This is the deepest cultural enemy. The four enemies above are formats; this one is the underlying assumption that connects them. The performance demand is the cultural assumption that adult social rooms require armor — that you can't show up as your full self in a room where strangers might be evaluating you, so you bring the armor: the app's curated profile, the bar's loose-but-defended posture, the speed-dating script, the wellness-brand vocabulary. Andrea has lived inside the performance demand twice — once as a bilingual private-school student trained to be "the nice, quiet, well-behaved little Andrea" (her words), once as a Chicago music student walking into US orchestra culture and finding "intense competition and hostile relationships, restraining orders between orchestra members" (her words). Resonance is built against both formats AND the meta-pattern underneath: the assumption that adults can't have a room where the armor comes off without earning permission through alcohol, status performance, or transactional self-presentation. The four mechanics (daytime, sober, curated, music-led) work because together they remove every load-bearing piece of the performance demand. Daytime removes the bar's permission slip. Sober removes the chemical mask. Curated removes the strangers-evaluating-strangers dynamic by closing the door on the wrong people before anyone gets in. Music-led replaces verbal performance with bodily presence. The performance demand is what makes the room feel like the answer. Naming it explicitly is what makes the answer feel obvious.
+
 ---
 
 ## 4. The Voice
 
-Resonance sounds like a person who has been in the room and is telling you, not selling you, what it is like. Warm. Direct. Confident. Poetic when the moment earns it. Never preachy. Never corporate. Never apologetic. It assumes the reader is intelligent and has already lived through what the apps and the bars produce.
+Resonance sounds like a person who has been in the room and is telling you, not selling you, what it is like. Andrea's voice has two registers — the polished register of the manifesto (declarative, period-stacked, frame-then-sharpen) and the conversational register of her story (dictation-energy, bilingual touches, sense-detail anchoring like grandmother's coffee or empanadas at the cafeteria); brand voice work uses the polished register, founder-story and origin work uses the conversational register, and both are Andrea. Warm. Direct. Confident. Poetic when the moment earns it. Never preachy. Never corporate. Never apologetic. It assumes the reader is intelligent and has already lived through what the apps and the bars produce.
 
 ### The voice rules
 
@@ -128,39 +132,37 @@ This test is non-negotiable. If a sentence cannot survive Andrea reading it back
 
 ## 5. The Founding Story
 
-> *Andrea's founder-story voice memo is pending. The version below is a bridge draft from her existing words; it gets regenerated from her actual recording when it lands. Until then, treat this as a working version, not the founder voice.*
-
-The bridge drafts are reconciled to the new spine: heart encounters, not head encounters. Daytime. Sober. Couples as the metric. Drafts honor those even though they predate the voice memo.
+*Andrea's founder story is now canonical, sourced from her written narrative dated 2026-05-11 (`source/andrea-story-2026-05-11.md`). Three versions — Long, Short, Micro — each tuned to a different surface (About page, IG bio context, one-line attribution). Each version is written in Andrea's voice (first person) and uses at least one of the six voice patterns. The Long version is the canonical About page anchor. Andrea adjudicates before public publication.*
 
 ### Long version (About page, longform)
 
-**BRIDGE DRAFT — pending Andrea's voice memo.**
+*Note for Andrea — explicit adjudication required before public deployment:*
 
-> I'm Andrea, and I started Resonance because I got tired of watching the people I love try to find each other through a screen.
+*(1) Costa Rican sensory anchors are deepened — grandmother's coffee table, the bilingual school cafeteria, the music school empanada counter, the NYO audition room. Confirm comfort with each.*
+
+*(2) The mother paragraph (paragraph 5 — "come on, stop crying, put on a happy face, eat this, you'll feel better") deploys family material flagged in your suppression-wound notes as private-not-yet-public. This paragraph is the autobiographical root of "your full self in the room" and the most load-bearing emotional anchor in the Long version. It is also the most personal. Three options: (a) ship as-is; (b) keep the mother voice but strip the direct quote; (c) cut the paragraph entirely and have the close land on the music school → NYO → Chicago arc without the family-of-origin layer. The current draft assumes (a). Confirm or pick a different option before public deployment.*
+
+> I grew up in Costa Rica, in a Latino family, the older daughter, which if you grew up in one of these families you already know what that means. My first memory of what a room is supposed to feel like is coffee at my grandmother's house. The little cups on the table, somebody always pouring, the radio on low, and whoever came by that afternoon got a seat. The room held you because the room was already set up to hold you. Nobody had to perform.
 >
-> I've been DJing for a while. What I figured out is that music doesn't just make people dance — it makes them drop the armor they walk around in. Once the armor is off, people can actually see each other. That's where the heart encounters live. Not on an app, where you're performing the best version of your most defended self. Not at a bar at 11pm, where you need a drink to feel brave enough to cross the room. In a room with daylight, sober, and the right music, where your body starts moving before your mind can object — and someone notices the way you were standing when the song shifted.
+> Then I went to school. A strict bilingual private school where most of the classes were in English and the cafeteria served minimal-salt, minimal-sugar plates and we were forced to finish them. The classmates came from places I didn't recognize, and the unspoken codes were not the ones my grandmother's house had taught me. I learned to be the nice, quiet, well-behaved little Andrea who didn't talk too much. School was a bubble. Home was a different country inside the same country. When I switched schools after sixth grade and the new cafeteria sold empanadas and fried food at the counter, I remember standing there with the coins in my hand and feeling something in my chest unlock. It was so small. It mattered so much.
 >
-> Resonance is a curated daytime dance room for singles in Chicago who want a committed partner and are done trying to find one through formats that make it harder, not easier. The music curates the feeling. The room curates the people. You bring presence — that's it.
+> The room that actually fit me was the music school. I made my first close friends there. I met my first boyfriend there. Orchestra felt like a gathering, not an institution. At sixteen, I auditioned into a national youth orchestra that pulled students from across the whole country. I remember the audition room — overhead light, my hands cold, the moment right before I started playing where the whole rest of my life felt like it was waiting on the next four minutes. I got in. And then I stood in line at our first rehearsal next to kids from rural towns and kids from the city, students whose families had money and students whose families didn't, people who had been playing for a decade and people who had just started. The audition was the gate. The music was the equalizer. We traveled together. We came of age together. The room worked because someone had decided who got into it.
 >
-> I curate the music myself. The rule isn't a genre. The rule is: does this song bend the room toward someone it would have ignored an hour ago?
+> I came to Chicago on a music scholarship expecting the same kind of room. What I found instead was orchestra culture characterized by intense competition and hostile relationships. One player had a restraining order against another player in the same ensemble. I heard that and felt something close in me. The room I came here looking for did not exist here, at least not for musicians, and I had to admit that the version of professional music I'd been preparing for was not the version I wanted.
 >
-> I want to live in a world where kids grow up with parents who say *"we met at Resonance."* So I'm building the room.
+> Growing up, when I brought my feelings to my mother she would say, *come on, stop crying, put on a happy face, eat this, you'll feel better.* I think a lot of us were taught that our full selves were too much for the room. The shy obedient kid who learned to fold herself smaller at home and at school grew into the version of me that learned to take up space at the music school, and now people call me a social butterfly, which is funny, because I didn't become someone new. I just kept finding rooms that let me show up.
 >
-> If you came to Chicago looking for your person, come find them here.
+> So now I'm building one. A daytime, sober, curated dance room in Chicago for adults trying to meet a real partner. The same logic as the orchestra room my sixteen-year-old self auditioned into. The same warmth as my grandmother's coffee table. Different floor, different city, different stakes. Same idea about what a room is for.
 
 ### Short version (IG bio, DMs, intros)
 
-**BRIDGE DRAFT — pending Andrea's voice memo.**
-
-> I'm Andrea. I'm a DJ, and I'm building Resonance — a daytime, sober dance room in Chicago for people who want to meet a committed partner. Heart encounters, not head encounters. Movement before words. Music shaped by whatever opens the room.
+> I'm Andrea — Costa Rican, Chicago-based, a DJ who grew up inside the kind of curated music rooms that change you. The first one was my music school back home. The second was a national youth orchestra that pulled kids from across the country and made the audition the equalizer. I came to Chicago for that same kind of room and didn't find it in the orchestra world here. So I'm building it for adults trying to meet a real partner. Resonance is the room I came to Chicago looking for.
 
 ### Micro version (one-line bio)
 
-**BRIDGE DRAFT — pending Andrea's voice memo.**
+> Andrea — Costa Rican DJ in Chicago, building Resonance: the daytime, sober, curated dance room for adults who want to meet a real partner.
 
-> **Resonance: heart encounters, not head encounters. Daytime. Sober. Chicago.**
-
-When the voice memo lands, all three drafts get regenerated from Andrea's actual words. The micro version is closest to surviving the rewrite; the long version is most likely to change shape entirely.
+*All three versions ship to Andrea for review and edit-in-place. Long is the load-bearing version — it goes on the About page. Short and Micro derive from Long. If Andrea edits Long, Short and Micro regenerate from her edit.*
 
 ---
 
@@ -201,6 +203,10 @@ The three out-loud-asking quotes — *"Why is it so hard to meet a good, nice pe
 - **Profile #3 — pending.** Same status. Andrea adjudicates.
 
 The umbrella description is what every piece of copy targets. The sub-profiles refine. Until Andrea closes Profiles #2 and #3, the umbrella holds and Profile #1 carries the sharpest detail. (See `02-icp-master.md` for the full ICP master file and the open-question detail on the Maya/Simone/Darius mapping.)
+
+### The recognition layer (added 2026-05-11)
+
+Andrea's story names the deepest ICP signal beneath demographics: *people who have been in rooms that didn't let them be their full self, who can sense when a room is the real thing.* This is the autobiographical recognition trigger Andrea now embodies and can speak to from inside. The shy-Costa-Rican-private-school-kid who found her first real room at her music school, then re-found it in the National Youth Orchestra, then lost it in US orchestra culture — that arc is the same arc her ICP is on in dating. They've performed through apps, performed at bars, performed at the friend-of-a-friend setups. They sense when a room is asking them to perform versus when a room lets the performance drop. The umbrella description stays unchanged; this paragraph adds the *interior signal* the umbrella description points at without naming. (See `02-icp-master.md` for the full ICP master file, which is being amended in v1.1 with this same recognition layer plus an Imani-profile recommendation note.)
 
 ---
 
@@ -252,7 +258,7 @@ These are items the bible references but cannot close without Andrea's adjudicat
 
 2. **Maya — retired, or maps to Profile #2/#3?** The Monday Package's most-cited archetype was Maya (34, sober two years). She does not obviously map to Profile #1 (Profile #1 is "open to new things, hasn't quit drinking, just hasn't found connection"). Andrea decides: does Maya stay as Profile #2 or #3, or does she retire entirely? If Maya retires, the "alcohol gap" framing the Monday Package leaned on weakens — and that is fine, because the heart-vs-head frame already supersedes it.
 
-3. **Founder-story voice memo timing.** The Long/Short/Micro drafts in §5 are bridge versions and get regenerated when Andrea's voice memo lands. Question: when can Andrea record? Even 3 minutes of unedited voice memo on *"why I am building Resonance"* unblocks B3 (the voice document) and gives the founder copy its true voice.
+3. **Founder-story voice memo (RESOLVED 2026-05-11, optional v1.2 enhancement).** Andrea delivered the founder-story material as a 1,400-word written narrative on 2026-05-11. That document is now canonical (see `source/andrea-story-2026-05-11.md`) and §5 has been regenerated from it. The voice memo originally requested in this open question is now optional — if/when it lands, it triggers a v1.2 voice-document cadence calibration but does not block v1.1.
 
 4. **3-hour event blueprint daytime port.** The opening-ceremony script in `research/03-event-blueprint.md` is written in evening voice (*"welcome to tonight,"* *"the song that holds you long enough"*). The 8-phase arc itself is format-neutral. Question: does Andrea want to rewrite the opening-ceremony script herself for daytime, or does she want a BOS draft she edits? Either path works; the choice affects sequencing.
 

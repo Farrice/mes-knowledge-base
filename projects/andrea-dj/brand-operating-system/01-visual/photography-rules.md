@@ -144,6 +144,133 @@ If the AI cannot produce a daytime-compliant image after 3 prompt iterations, th
 
 ---
 
+## 6.5. Body Language Register — Connection vs Disconnection (added 2026-05-26)
+
+*Why this section exists: 2026-05-25 generated 12 hero shots that passed the daytime test but failed the resonance test. The bodies were daytime, the room was correct, the palette honored — and Farrice rated them 0/10. Critique: "looks like a group fitness class for elderly people... every image with people showed a representation of disconnect versus a resonance with each other." Root cause: prompts pulled from the museum-coded `aesthetic-references.md` v1 with no party-energy or two-body-recognition reference culture. Daytime mechanic without connection mechanic = sober gathering, not Resonance.*
+
+**Bind this section with `aesthetic-references-v2.md` (Group 6: Boiler Room + Cercle daytime archives; Group 10: Climax, Beats, In the Mood for Love, Y Tu Mamá También cinema references).**
+
+### Connection cues (specific body language to capture)
+
+These ten signals are what "resonance" looks like in a frame. At least 2-3 must be present in any hero shot.
+
+1. One body leaning in to whisper to another, both mid-laugh
+2. Two bodies facing each other on the dance floor, the DJ blurred in background (not facing the DJ — facing each other)
+3. Hand on shoulder, gaze on a third person (active social attention — three-body geometry)
+4. Hand on the small of a back, consensual partner-dance frame
+5. Eye contact between two people across a small room, mid-recognition
+6. Mid-laugh between strangers — teeth visible, eyes crinkled, head tilted toward each other
+7. Multiple bodies blurred in motion, intermingled (not lined up)
+8. A body in the foreground laughing, another body in the middle distance also reacting — proves the laugh is real
+9. One person in conversation with two others — three-body social geometry
+10. A still body in the frame's edge, watching, *also looking happy to be there* — wallflower as participant, not as exile
+
+### Disconnection cues — kill on sight
+
+These ten signals broke the v1 hero shots. ALL of them must be absent.
+
+1. Backs of heads in a line (yoga-class lineup — the v1 failure mode)
+2. All bodies facing the DJ in a stadium-pose (anonymous fan, not connected human)
+3. Solo body isolated in the center of the frame, no other bodies in soft focus
+4. Hands-in-air arena pose (festival grammar)
+5. "Smile at the camera" group portraits
+6. Posed in-line wedding-style shots where everyone is performing for the lens
+7. Bodies in identical wellness uniforms (white linen lineup = retreat, not party)
+8. AI-perfect lighting on every face (real rooms have shadows; perfect even light = AI tell)
+9. Hands holding phones (kills the mechanic — Resonance is a phones-down room)
+10. Glass-of-wine signaling (Resonance is sober; any cocktail visual is a kill)
+
+### AI prompt language — pro-patterns to USE
+
+For Resonance hero shots, prompt language MUST reference the v2 culture, not museum-coded fashion photography. Use these phrasings:
+
+- *"In the energy of Boiler Room's Danny Tenaglia Loft session (NYC, 2013) — real loft, real daylight, real bodies a foot from the DJ"*
+- *"Framing à la Christopher Doyle in 'In the Mood for Love' — two-body recognition, shallow depth of field, corridor-glance composition"*
+- *"Handheld documentary-realist à la Emmanuel Lubezki in 'Y Tu Mamá También' (2001) — natural light, casual wardrobe, dance-as-secondary-to-being-there"*
+- *"Embrace energy of 'Beats' (2019, Brian Welsh) — two friends hugging in a room of strangers"*
+- *"Cercle Adana Twins at Palais Longchamp daytime crowd framing — earth-tone linen, sun on stone, audience composure"*
+- *"Bodies leaning toward each other not facing the DJ"*
+- *"Mid-laugh between strangers, teeth visible, eyes crinkled"*
+- *"Documentary photography, slight natural motion blur from real movement, minimal color grading"*
+
+### AI prompt language — BANNED for Resonance hero shots
+
+These phrases caused the v1 0/10 failure. Forbidden in any prompt:
+
+- *"documentary photography"* used WITHOUT a specific cinematic reference (produces Magnum-reportage solemnity)
+- *"editorial broadsheet"* (matches creative_router Rule 2 → routes to fal-poster → wrong tool)
+- *"photographed entirely from behind"* (produces yoga-class lineup framing)
+- *"Magnum reportage"* (reverential observer-distance, kills connection)
+- *"no posed"* used in isolation without pro-patterns (style overrides the negative)
+- *"editorial fashion magazine cover"* (locks in posed-static-fashion energy)
+
+### The pre-shoot reference deck
+
+Before any human photographer shoots OR any AI image is generated, assemble a 5-frame scout deck:
+
+1. **2 v1 frames** — Tyler Mitchell portrait (for body register) + Sandro Miller Chicago environmental (for room register)
+2. **2 v2 Group 6 frames** — Boiler Room Tenaglia Loft session (audience density) + Cercle Adana Twins Palais Longchamp (architectural crowd composition)
+3. **1 v2 Group 10 film still** — *In the Mood for Love* corridor frame OR *Beats* embrace beat
+
+That's the pre-shoot scout deck. The discipline is to look at these five before pressing the shutter (or pressing generate).
+
+---
+
+## 6.6. Partnership Orientation + Age Band + Anti-AI-Slop (added 2026-05-26 — v2 failure response)
+
+*Why this section exists: v2 hero shots (Higgsfield Nano Banana 2, 2026-05-26) scored 2/10. Three new failure modes: same-sex pairings in hero shots when the brief is heterosexual M/F partnership recognition; age drift to 25-32 when the brief is 30-38; AI-slop anatomy (fused fingers, duplicate limbs, glassy eyes). Full log at `evolution_store/failure_log_2026-05-26_v2-visual-regression.md`.*
+
+### Partnership orientation — REQUIRED in every hero shot
+
+Resonance exists for adults seeking committed partners. The ICP (`00-foundation/02-icp-master.md`) names heterosexual M/F archetypes: Maya (Latina, mid-30s) and LCSW (Black, Caribbean) on the women side; Marcus (Black, late 30s, designer) and Daniel (white, Polish-Italian, architect) on the men side.
+
+- **Hero shots show heterosexual M/F partnership recognition.** This is not exclusionary copy — it is the founder's specific brand thesis.
+- **Group shots may include mixed friendships and same-sex friend clusters.** But the romantic recognition beat is always M/F.
+- **In prompts, name M/F explicitly.** "A Latina woman in her mid-30s and a Black man in his late 30s, facing each other..." Not "diverse couple," not "two adults dancing."
+
+### Age band — TIGHTENED
+
+- **Acceptable range: 30 to 38.** Early 30s to mid-late 30s.
+- **Banned: under 30, over 45.** Resonance is not a 20-something party and not a midlife event.
+- **In prompts**: "early-to-mid 30s, mature faces, eye crinkles when smiling, not in their 20s, no Gen Z styling."
+
+### Specific multicultural cast — NAMED, NOT GENERIC
+
+The ICP names specific ethnicities. Prompts must name specifics, not "diverse":
+
+- Latina (Costa Rican / Mexican / Colombian — name one)
+- Black (mixed-Caribbean or African-American — name one)
+- White with Polish-Italian features (Daniel archetype)
+- Filipino or Korean adult (honor Chicago's actual demographic mix)
+- Mixed-East-Asian or South-Asian secondary
+
+"Diverse cast" / "multicultural" without specifics → produces ambiguously-brown generic-diversity output. Always name.
+
+### Anti-AI-slop paragraph — PASTE VERBATIM at the END of every AI image prompt
+
+```
+Anatomically correct human proportions. Five fingers per hand, no extra digits, no
+fused fingers, no merged limbs, no duplicate body parts. Real photography fidelity.
+Skin texture has pores, not airbrushed. Eyes focused, not glassy. No mutated faces.
+No extra arms or legs in the background. Reject any AI-painting feel; this is a
+photograph, not a render.
+```
+
+If the model produces anatomy errors, move this paragraph to the TOP of the prompt and repeat the slop-rejection clauses twice.
+
+### Deployment routing — when to use MCP vs manual
+
+| Use case | Route |
+|---|---|
+| Iteration speed needed, user has direct platform access (ChatGPT, Gemini) | **Manual deployment** — Claude produces high-density prompts; user deploys in ChatGPT GPT Image 2 or Gemini Nano Banana Pro. See `launch/03-visual-variants/prompt-set-for-manual-deployment.md`. |
+| Bulk generation in pipeline | MCP (Higgsfield Soul or Fal photoreal) — verify response metadata names the requested tier, abort if substituted |
+| Style-family / poster / typography | `fantastic-posters` (Fal) — confirmed-correct route |
+| Stylized-but-real lifestyle | Higgsfield Soul (NOT Nano Banana 2; verify Pro tier explicitly) |
+
+The 2026-05-26 v2 failure cause was tier substitution (Nano Banana Pro → 2) without surfacing. Always verify response metadata on MCP calls or route to manual deployment.
+
+---
+
 ## 7. The Final Test Before Publish
 
 Before any image lands on a Resonance surface, run all three:

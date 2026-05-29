@@ -55,4 +55,10 @@ We count the couples, not the followers.
 
 ---
 
+## Why this room exists *(optional founder-side, for venue pitches and press)*
+
+> Andrea grew up in Costa Rica, the older daughter at a strict bilingual private school where she could not be herself. The first room that fit was her music school. The second was a national youth orchestra that pulled students from across the country and made the audition the equalizer — kids from rural towns and kids from the city, students with money and students without, played together because someone curated who got in. She came to Chicago on a music scholarship expecting that same room and ran into US orchestra culture — intense competition, hostile relationships, restraining orders between members of the same ensemble. The room she came here looking for did not exist. So she's building it for adults who are out loud asking *"why is it so hard to meet a good person."* Resonance is what a curated room looks like when it's built for connection instead of evaluation.
+
+---
+
 *Chicago. First event: June 2026. resonance.[domain TBD] · @itsresonance (Instagram).*

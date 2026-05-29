@@ -92,3 +92,9 @@ extractions/*/frames/
 extractions/*/visual-context.md
 extractions/*/download/
 .agent/video-vision-log.jsonl
+
+# Andrea Resonance — large PNG hero-shot archives (added 2026-05-28 session cleanup)
+# These are render artifacts; keep them local or in cloud storage, not in git
+projects/andrea-dj/launch/03-visual-variants/_archive/
+projects/andrea-dj/launch/03-visual-variants/variant-b-hero-shots-v3/
+projects/andrea-dj/launch/03-visual-variants/variant-c-hero-shots-v3/

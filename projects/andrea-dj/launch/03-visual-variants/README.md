@@ -4,6 +4,8 @@
 
 *Folder shipped: 2026-05-25. Source: the v1 anchor at `01-visual/DESIGN.md`. Decision target: Andrea + Farrice pick one variant, the winner becomes canonical, the BOS visual layer is refreshed accordingly.*
 
+> **Hero shots status (2026-05-28 v3) — UPDATED** — v1 (Fal/fantastic-posters, rated 0/10) and v2 (Higgsfield Nano Banana 2, rated 2/10) both failed Farrice's taste call due to **wrong tool routing**. v3 generated via **Higgsfield Soul 2** — the documented correct tool for photoreal people in scenes (per `directives/visual-tool-routing.md` + memory `feedback_visual-tool-routing`). 23 hero shots delivered: 8 in `variant-a-hero-shots-v3/`, 7 in `variant-b-hero-shots-v3/`, 8 in `variant-c-hero-shots-v3/`. Cost: ~2.76 Higgsfield credits (well under G2 threshold). Open each v3 folder side-by-side for taste call. v1 + v2 directories archived; do not use. The three DESIGN.md specs below remain canonical — palette/type/geometry unchanged. Decision gate: Andrea picks A / B / C, winner promoted to canonical, downstream visual layer regenerates.
+
 ---
 
 ## What This Folder Is

@@ -90,6 +90,23 @@
 
 ---
 
+## 🟡 MEDIUM — Added 2026-05-26 (failure logged)
+
+### 10. Visual generation routing — RESOLVED 2026-05-28 (Soul v3 delivered)
+- **Status**: RESOLVED. v3 hero shots delivered via Higgsfield Soul 2 — the documented correct tool. 23 images across 3 variants, cost ~2.76 credits. Awaiting Andrea taste call to pick winner variant.
+- **Origin risk** (kept for context): v1 (Fal/fantastic-posters) wasted $1.69 on museum-coded posed framing. v2 (Higgsfield Nano Banana 2) regressed to 2/10. Both used wrong routing.
+- **Resolution mechanic**: Always run `python3 execution/creative_router.py route --task "<brief>" --json` BEFORE any visual-gen call. PEOPLE in scene → Soul. STYLE FAMILY → fantastic-posters. Enforced via memory `feedback_visual-tool-routing.md`.
+- **Owner**: Farrice (enforcement remains live as standing rule)
+
+### 11. Document density — Andrea-facing docs default ≤2 pages
+- **Status**: NEW. Logged after Resonance launch package (31,800 words) rated unusable for client.
+- **Risk**: Sub-agents default to completionist output. Client (Andrea) needs decision speed + worked examples, not 5-15K-word strategy docs. Cognitive overload destroys the speed-and-confidence the client needs to execute.
+- **Mitigation**: Client operational docs ≤2 pages with explicit page-count + word-ceiling in the brief. One example per concept. CTA at top. Two-tier output (compressed README + `_v1-detailed.md` internal backup). Use `prose-doctor` for compression + AI-tell scrub; do NOT use `general-purpose` or default `master-copywriter` for client operational.
+- **Owner**: Farrice (orchestrator-enforced; logged to memory `feedback_density-over-completeness.md`)
+- **Origin**: 2026-05-26 Andrea-handoff would have overloaded; ~30K words across 5 docs.
+
+---
+
 ## 🟡 MEDIUM — Added 2026-05-25
 
 ### 9. July compression — 7-8 week runway to event from announcement

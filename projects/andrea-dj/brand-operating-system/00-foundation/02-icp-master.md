@@ -37,6 +37,14 @@ Andrea named the *ready* state — people who would say hell-yes today. That's t
 
 **Implication:** The flagship event holds 50 seats. The IG audience needs to be much larger than 50 — because most of them are in pre-contemplation and contemplation, and the 10–15% in preparation is the portion that fills seats. **Content has to work for all three states without compromising the spine.** Andrea's filter at the door stays hell-yes. Andrea's content at the top of funnel meets people earlier.
 
+### The Recognition Layer (added 2026-05-11)
+
+Andrea's founder story names the deepest ICP signal beneath demographics: *people who have been in rooms that didn't let them be their full self, who can sense when a room is the real thing.* This is the autobiographical recognition trigger Andrea now embodies and can speak to from inside. She grew up the shy obedient kid at a strict bilingual private school where she could not be herself, found her first real room at her music school, re-found it in the National Youth Orchestra (a curated cross-class room that worked precisely because someone curated who came), then came to Chicago expecting that and ran into US orchestra culture — "intense competition and hostile relationships," restraining orders between members. That arc is structurally identical to the arc her ICP is on in dating: they have performed through apps, performed at bars, performed at the friend-of-a-friend setups, and they are running out of patience with rooms that ask them to perform versus rooms that let the performance drop.
+
+The recognition layer is what makes Andrea's voice carry into contemplation-state content. A pre-contemplation reader (Nora at the bar at 11pm, Imani still leaving Hinge open) doesn't yet know the room she wants exists. The recognition layer is the bridge: Andrea telling the story of the room that was created for her ("coffee at my grandma's, the music school as my second home, the youth orchestra") and the room she lost (Chicago orchestra culture) and the room she's building now — that narrative is what crosses the contemplation gap without preaching, without selling, without performing wellness vocabulary. The umbrella description above stays unchanged. This recognition layer adds the *interior signal* the umbrella description points at without naming.
+
+**Implication for content strategy:** founder-pillar content (the new Pillar 5 work in `03-marketing/01-content-pillars.md`) should carry this recognition layer as its load. Hooks rooted in story specifics (music school as first room, NYO as curated equalizer, Chicago orchestra disillusionment) function as recognition triggers for ICPs whose own first-real-room arcs parallel Andrea's. The arc is the work — not Costa Rica or the orchestra as decoration.
+
 ---
 
 ## Section 2 — Profile #1: The Arts Worker (LOCKED)
@@ -129,6 +137,8 @@ This works for Nora because it: (a) leads with the room, not the dating; (b) nam
 
 Andrea's anchor is unusually clear that the ICP is *connected to their values, not necessarily religious* — which is a wider band than "Simone goes to church" implies. A helping professional (therapist, social worker, nurse practitioner, doula, yoga teacher, hospice chaplain, public-school counselor) is the strongest steel-man for the values-aligned slot for three reasons. **One:** they spend 40+ hours a week holding other people's interiority — they recognize spiritual posture without needing it labeled, which means Resonance's no-preaching-sobriety, no-preaching-anything stance is *exactly* what they're starving for. **Two:** they earn $65–95K (right inside Andrea's $70–80K band when widened by ±$10K), have full lives, and are exhausted by app dating in a way that's clinical, not theatrical — the social worker quoted in the research literally writes *"I am just a lady who no longer wanted to date a man who made me feel like I never left work."* That's the register. **Three:** Darius (Profile #3) is the man we struggle to reach. Profile #2 needs to be the woman whose presence in the room makes the men we want feel safe. A therapist or a yoga teacher in the room — who knows how to hold space without performing it — is the female anchor that makes the room read as serious about depth.
 
+**Added 2026-05-11 (story-integration strengthening):** Andrea's founder story makes the Imani case meaningfully stronger. Imani's exhaustion at *holding people for a living* mirrors Andrea's lived experience of being inside US orchestra culture's "intense competition and hostile relationships" — a structurally similar exhaustion at the performance demand of a high-stakes professional room. Andrea's story carries the interior recognition Imani would feel from the first carousel slide: the social worker who has run out of patience with rooms that ask her to perform compassion she has already given out at work all week is the same person, structurally, as the violinist who came to Chicago and realized the orchestra she walked into was the opposite of the curated youth-orchestra room she had been built inside. **Recommendation:** Andrea adjudicates the Imani profile lock at the next session — the story strengthens the case enough that Profile #2 is now ready for her sign-off rather than another round of proposing.
+
 ### Avatar: **Imani — 35, Logan Square / Bucktown.**
 
 Licensed clinical social worker (LCSW) in private practice three days a week, employee assistance program contractor two days a week. Pulls $84K. Lives in a one-bedroom in Logan Square with a fiddle-leaf fig that's actually thriving. Black, mixed-Caribbean roots, raised in Hyde Park. Has a yoga teacher certification she got two years ago and uses for one Saturday class a month at a co-op studio in Avondale. Has been in therapy with the same therapist for four years. Owns more candles than is reasonable. Cooks Sunday-meal-prep without making it a personality. Spotify: Sade, Erykah Badu, Kaytranada, Sault, late Frank Ocean, the occasional Solange deep cut. She has a song that wrecks her too. It's *Cranes in the Sky.*
@@ -198,17 +208,17 @@ Works for Imani because: (a) names the music as the labor-doer (which is true an
 
 ---
 
-## Section 4 — Profile #3: The Quiet Man
+## Section 4 — Profile #3: The Male Avatars (Marcus + Daniel)
 
-**STATUS: PROPOSED — Andrea to adjudicate. Drafted to ensure gender balance and to address the Darius-archetype concern raised in `02-pulse-who.md` ("This is the hardest archetype to reach... the men we want in this room exist, we just haven't found them yet"). Lineage note: this profile draws on the "Darius" archetype from the Monday Package, renamed and refreshed. Critical refresh: in the Monday Package, Darius was specified as Black, spiritual, works out, meditates. That specification stays as a *core inclusion* — but Profile #3 widens slightly to include men of any race who fit the underlying need (non-performative, non-hookup, values-connected, wanting a real meeting). The room cannot be all-Black-men or all-white-men or any single demographic; the ICP umbrella has to flex on race for the room to be honest.**
+**STATUS: LOCKED 2026-05-19 (Path B — Marcus + Daniel as complementary avatars under one Profile #3).** Path B was chosen because Marcus and Daniel serve different acquisition channels in the Male Acquisition Strategy (`pre-launch/02-male-acquisition-strategy.md`). Marcus is dominantly reached through Channels 1 + 3 (founders' personal networks + Andrea's music network — the Chicago Black creative-class and Latin/conservatory circles the founders intersect). Daniel is dominantly reached through Channel 4 (public IG funnel — the broader Chicago competence-coded single-30s pool that sits outside the founders' personal networks). Both are fed by Channel 2 (friend-pair nominations from confirmed women). Either avatar alone is incomplete; together they cover the room's diversity and the acquisition mechanics honestly.
 
-**One critical sentence on Darius from Monday Package — kept here for grounding: "He doesn't drink much but he also doesn't dance much, because he's never felt like there was a space where it was okay to be a Black man being soft and open in public."**
+**Lineage note (preserved from prior PROPOSED draft):** Marcus draws on the "Darius" archetype from the Monday Package. Critical sentence carried forward for grounding: *"He doesn't drink much but he also doesn't dance much, because he's never felt like there was a space where it was okay to be a Black man being soft and open in public."*
 
 ### Why this slot
 
-Andrea's room dies if it's mostly women. The Monday Package was right that *the men we want* — quiet, grown, post-hookup, values-connected, willing to be soft in public — are the hardest to reach because they don't congregate in obvious singles markets. They are in jiu-jitsu gyms. They are at the chess shop. They are at the listening bars in Pilsen. They are alone on long walks. They are in their friend's basement studio. They are not at the singles events. **The job of Profile #3 is to give Andrea a clear language target for finding them, and a clear language frame so they recognize themselves when they see Resonance.** The Monday Package noted this is the *test* of whether the curation works. This profile is the operational version of that test.
+Andrea's room dies if it's mostly women. The Monday Package was right that *the men we want* — quiet, grown, post-hookup, values-connected, willing to be soft in public — are the hardest to reach because they don't congregate in obvious singles markets. They are in jiu-jitsu gyms. They are at the chess shop. They are at the listening bars in Pilsen. They are alone on long walks. They are in their friend's basement studio. They are not at the singles events. **The job of Profile #3 (Marcus AND Daniel) is to give Andrea a clear language target for finding them, and a clear language frame so they recognize themselves when they see Resonance.** The Monday Package noted this is the *test* of whether the curation works. Marcus and Daniel are the operational version of that test, mapped to two different acquisition lanes.
 
-### Avatar: **Marcus — 31, Bronzeville / South Loop edge.**
+### Avatar A: Marcus — 31, Bronzeville / South Loop edge.
 
 Senior product designer at a mid-size health-tech company in the Loop, fully remote three days a week. Pulls $112K, which is above Andrea's stated band — flag this; Marcus might index richer than Profile #1. Black, raised in Calumet Heights. Lives alone in a one-bedroom near 35th and State with a record player his uncle gave him and a small kettle bell collection. Trains BJJ three times a week at a gym in Bridgeport. Lifts twice. Reads — actual books, the last three were Ocean Vuong's *On Earth We're Briefly Gorgeous,* Ta-Nehisi Coates' new one, and a James Baldwin essay collection he started ten months ago and is rationing. Goes to therapy every other Tuesday at 8am. Plays no video games. Cooks. Calls his grandmother. Has a journal.
 
@@ -265,16 +275,97 @@ Morning: he is up at 6. Lifts. Reads. Showers. Makes pour-over coffee that he th
 - **"Ladies' favorite"** event framing — instant out
 - "Shy guy welcome" framing — patronizing; out
 
-### Bridge Message (Profile #3)
-
-> **A daytime room. Sober. The music is good. We curate the floor so you can show up as yourself — not as someone hunting, and not as someone hunted.**
-
-Works for Marcus because: (a) leads with the room, not him; (b) "the music is good" is the non-negotiable he reads first; (c) explicitly names the curation as protective of him, not just protective from him; (d) "as yourself" — the only frame that lands.
-
-### Two test sentences
+### Marcus — Two test sentences
 
 - **The magnet:** *"You don't have to be the loudest person in the room to be the one she remembers."*
 - **The repellent:** *"Conscious kings, find your sacred queen at our high-vibe sober singles container."*
+
+---
+
+### Avatar B: Daniel — 35, Logan Square.
+
+Senior associate at a mid-size Chicago architecture firm — one of the post-Aqua / Studio Gang adjacents, not a megafirm and not a startup. Pulls $112K. White, mixed Polish-Italian, raised in Park Ridge. Lives in a Logan Square garden unit with a steel-frame All-City he had built on a wall mount, a record player his college roommate gave him, and a bookshelf with Pallasmaa's *The Eyes of the Skin*, two Stewart Brand books, and a $40 used copy of *S, M, L, XL.* Has a drafting table in the corner he still uses for hand sketches even though everything ships in Revit at the office. Runs the lakefront path Saturday mornings, then sits on a bench by the water and reads whatever he carried for fifteen minutes before he goes home. Boulders Tuesdays and Thursdays at a gym in Avondale. Cooks dinner four nights a week. Calls his mother on Sundays. Goes to therapy every other Wednesday at 7:30am, which he scheduled before work specifically so he wouldn't have an excuse to cancel. Talks about light the way other people talk about music — *"the light in this place is wrong,"* *"this room has good light at 4pm,"* *"I want a kitchen where I can see what I'm cooking in November light."*
+
+It's 11:38pm on a Tuesday. Daniel just got home from a project review that ran ninety minutes long. He pours a finger of bourbon — neat, half-glass — and sits on the couch with the lamp on, not the overhead. The dog from upstairs is barking at something. His phone is face-down on the coffee table. He has not opened Hinge in two months. He opens it now because his best friend got engaged on Sunday and the group text was eight messages of celebration he sent three of. He swipes for eleven minutes. He sends three messages, two of them with a specific reference to something the woman wrote in her profile. Nobody has responded by the time he closes the app. He puts the phone back down. He thinks about the woman he saw at the bouldering gym on Saturday — they made eye contact between problems, she smiled, he nodded, neither said anything, she left first. He looks at the bourbon and decides he is not going to finish it. The thought he won't quite let himself finish: *I am good at almost everything in my life. I am not good at this. I do not know where to find her.*
+
+### Daniel — Day-in-the-life
+
+Morning: 6:15am alarm he doesn't snooze. Coffee from a Hario v60. Reads thirty pages before work. Bikes to the office when the weather holds. Eats lunch at his desk because the firm runs lean and the deadlines are real. Leaves at 6:30 most nights, 8pm in deadline weeks. Bouldering Tuesday and Thursday at 7:15. Cooks for himself at 9:30. Reads in bed. Asleep by 11:30. Weekends: lakefront run Saturday at 7, coffee from the place on Diversey, fifteen minutes on a bench reading whatever he carried, sometimes a museum, sometimes a record store on Milwaukee, dinner with a rotating cast of three friends who all met each other through him. Two of them got engaged this year. He has been the best man twice. He has not been on a third date in eighteen months.
+
+### Daniel — Identity-Level Resistance (the real blocks)
+
+1. **"Is this a wellness / tantra / sober-curious thing? I will close the tab."** *The taste fear.* Daniel has had wellness culture come for his masculinity in increasingly specific ways for ten years — sound baths at corporate offsites, breathwork at his cousin's wedding, an ex-girlfriend's six-month residency in Joshua Tree. He has a high tolerance for women who are into it. He has a zero tolerance for events that read as it. The identity threat: *I am a person who reads books and trains an actual sport. If this event positions itself with the vocabulary of a cacao circle, I will assume the room is the cacao circle and I am out.* Resonance must signal taste in the first five words. Music-led, daytime, curated — these read as competence cues to him in a way they don't read to Nora. **What changes in copy:** lead with the curation logic and the music. Bury any sober-coded framing one layer deep, never lead with it.
+
+2. **"Will I be the only guy in a room of 35 women and look desperate?"** *The optics fear.* Daniel has done the math on every event he has considered attending in the last three years. He has clocked the gender ratio of the IG content and decided, more than once, that showing up alone to a 70/30 women-skewed room is its own form of self-betrayal. The identity threat: *I am a competent adult man. Showing up alone to a room where I am demographically conspicuous is the opposite of competent.* Operationally, Resonance has engineered a real floor ratio (operator-internal — see Command Center §1, §3, §8); the curation protects him as much as it protects the women. **What changes in copy:** the ratio is operator-internal, never named in male-facing copy. The optics fear gets answered implicitly via curation language and visual proof — *"we curate the floor,"* photos showing men visibly present in past Resonance imagery, the Bridge Message's *"the night-out math doesn't have to be on you."* Saying "60/40 floor" or "we engineer the gender ratio" in any male-targeted hook reads as quota math and breaks Daniel's competence-cue read. The math lives in the Command Center. The copy lives in the room's feel.
+
+3. **"What if I am 'the male energy in the room' and not just a person?"** *The gendered-spotlight fear.* Daniel does not want to be a category. He has been to enough events where the woman running the event narrates the men in the room as "the masculine energy you've all been waiting for" or some softer variant of that, and he has felt his own personhood evaporate. The identity threat: *I am here as Daniel. Not as a representative of my gender, not as "the energy," not as a vibe contributor. I am a person who wants to meet a person.* Resonance must demonstrate, before he RSVPs, that the event is built around *people meeting people*, not around an energetic-gendered architecture. **What changes in copy:** zero "masculine / feminine / polarity / divine / sacred" language in any Daniel-targeted content. The room is a room of people who said yes to the same agreement.
+
+### Daniel — Audience State
+
+**Contemplation, soft.** Daniel has deleted Hinge once and reinstalled it. He has not told his friends he is tired of dating, but the engaged best friend knows because he has been quieter in the group chat for six months. He is one warm referral away from showing up. He will not respond to copy. He will respond to one specific person he trusts saying *"there's a thing on July X, you'd actually like it, the music is good, you don't have to talk to anyone you don't want to talk to, the host curates."* He is the highest-yield Channel 2 conversion in the entire male funnel.
+
+### Language Map — Daniel
+
+#### Words he USES
+
+- *"I'm not on the apps right now."*
+- *"Where the music is good."* — same as Marcus, non-negotiable for both, but Daniel reads it as a competence cue (the curation is competent) where Marcus reads it as a recognition cue (this is a real room).
+- *"A real room."*
+- *"I want to meet someone the way you meet a friend."* — parallels Nora's "meet someone the way you meet a song" but male-tuned; lower stakes than the song version.
+- *"I don't know where to go anymore."*
+- *"I'm tired of formats."*
+- *"Specific."* — as a positive. ("Her profile was specific." "The event was specific about what it is.")
+- *"I like specific things."* — Daniel-true register; competence-coded; doubles as a curation-recognition cue.
+- *"I want to be around grown people."*
+- *"Not at the bar at 11pm."*
+- *"Where do the people I'd actually want to meet hang out."*
+- *"My friends are all coupling up."* — said with affection, not bitterness.
+
+#### Words he AVOIDS / wince-list (aggressive — additive to Marcus's list)
+
+All of Marcus's wince-list PLUS:
+
+- **"Manifest" / "manifesting"** — instant close.
+- **"Container"** — instant close.
+- **"Sacred"** as a modifier — instant close.
+- **"Intentional"** as the primary positioning adjective — wince.
+- **"High-vibe" / "vibrational" / "vibe-aligned"** — instant close.
+- **"Conscious"** — instant close.
+- **"Energy"** as a noun-frame for what the room offers ("come feel the energy") — instant close. The word survives in factual descriptions ("the room has its own energy by 3pm") and in *negation* ("not as the energy in the room").
+- **"Feminine / masculine polarity"** / **"divine feminine / sacred masculine"** — instant close.
+- **"Soul" / "soulmate" / "soul-aligned"** — instant close.
+- **"Journey"** as a noun for what Resonance is or what he's on — wince.
+- **"Embodied" / "embodiment"** — instant close.
+- **"Hold space"** as marketing copy — wince.
+- **"Healing"** as the room's purpose — wince.
+- **"Soft girl summer" / "girl-talk vibes" / "girl-coded" anything** — wince.
+- **"Date night" / "date energy"** — wince.
+- **"Vetted gentlemen"** / **"quality men"** — wince.
+- **"Crafted experience" / "thoughtful design"** as event-marketing — wince. (Daniel works in design; these are wellness-brand appropriations of design vocabulary and read as fake-craft.)
+
+### Daniel — Two test sentences
+
+- **The magnet:** *"You don't need to be drunk to talk to her. You don't need to be on the apps to find her. You need a room built differently — daytime, in Chicago, where the music does the introducing."*
+- **The repellent:** *"Step into a sacred container for high-vibe heart-centered conscious singles ready to manifest their aligned partner."*
+
+---
+
+### Bridge Message (Profile #3, unified)
+
+> **A daytime room in Chicago. Sober. The music is good. We curate the floor so the night-out math doesn't have to be on you — and you show up as yourself, not as a category, not as the energy in the room, just as a person who's tired of formats.**
+
+Why this works for both:
+
+- **For Marcus:** "Show up as yourself, not as a category" addresses the exoticization fear (he is not a demographic). "Curate the floor" reads as "this room protects me from being read as the wrong thing." "The music is good" is his lead-with non-negotiable. "Tired of formats" matches his *"I'm not on that"* register.
+- **For Daniel:** "Daytime room. Sober. The music is good." reads as competence cues from word one. "Curate the floor so the night-out math doesn't have to be on you" addresses the optics fear *implicitly* (he isn't doing demographic-math at the door) without ever naming the ratio. "Not as the energy in the room" addresses the gendered-spotlight fear by name without naming "feminine/masculine." "Tired of formats" matches his *"I'm tired of formats"* register.
+
+Both feel recognized. Neither feels like the room was built for the other one.
+
+### Acquisition-Channel Mapping
+
+Marcus and Daniel are not the same man and are not reached through the same channels. **Marcus is dominantly a Channel 1 + Channel 3 acquisition** — Andrea, Farrice, and JR have him in their phones, in their NYO and music-network adjacents, in the Chicago Black creative-class circles their personal lives intersect. He shows up because a specific person he trusts says *"yes, go."* **Daniel is dominantly a Channel 4 acquisition** — he sits outside the founders' direct networks and lives in the broader Chicago competence-coded single-30s pool that the public IG funnel reaches. He shows up because a piece of Resonance content lands precisely enough that he sends the application himself or, more often, because a confirmed female attendee in Channel 2 nominates him. **Both are fed by Channel 2** — confirmed women in the room are the highest-leverage referral source for both avatars, because the women who become hell-yeses for Profile #1 and #2 each tend to have one Marcus and one Daniel in their lives. The Male Acquisition Strategy (`pre-launch/02-male-acquisition-strategy.md`) operationalizes this split.
+
+*LOCKED 2026-05-19 (Path B — Marcus + Daniel as complementary avatars under one Profile #3). Adjudicated by Male Acquisition Strategist agent + Farrice approval. Andrea reviews at next session.*
 
 ---
 

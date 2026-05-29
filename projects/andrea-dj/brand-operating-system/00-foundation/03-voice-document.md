@@ -1,7 +1,7 @@
 # 03 — The Resonance Voice Document
 
 *Status: Canonical. Source for all Resonance copy across IG, email, About, sponsor decks, venue pitches, member comms, press.*
-*Inputs: A1 reconciliation §4–§5, Andrea's manifesto v2, Andrea's internal anchor.*
+*Inputs: A1 reconciliation §4–§5 + §9, Andrea's manifesto v2, Andrea's internal anchor, Andrea's story (2026-05-11).*
 *Use: paste this entire doc into any AI alongside the task. Voice loads. Output stays Andrea.*
 
 ---
@@ -15,6 +15,8 @@ This is the voice doc. It teaches the voice by demonstrating it. Two practical u
 ## Section 1 — The Voice in One Paragraph
 
 Resonance sounds like Andrea on a good day, telling you about a room she just left. Warm, direct, confident, a little poetic when the moment calls for it, never preachy, never corporate, never apologetic. It sounds like someone who has been in the room and is telling you what it's like, not selling you on it. It assumes you've also tried the apps and the bars and the friend-of-a-friend setups, and you're tired. It doesn't lecture you about sobriety or alcohol or screens. It names the enemy when naming clarifies, and otherwise gets out of the way. It uses the word "community" only when it means it, "vibes" only when it's earned, and "Chicago" only when the city is doing real work in the sentence. The voice respects your intelligence and your time, which is why it leads with the moment and lets the body of the copy land the case.
+
+Andrea has two voice registers and both are her. The **polished register** is the manifesto register — declarative, period-stacked, frame-then-sharpen, the crystallized-phrase creed (*"Clean meetings. In daylight. Sober. With your full self in the room."*). The **conversational register** is the story register — dictation-energy run-ons, bilingual touches (*"lol,"* *"ha ha,"* *"Latino families"*), sense-detail anchoring (*"coffee at my grandma's,"* *"empanadas at the cafeteria,"* *"the song that shifted the room"*), associative transitions (*"coming back to..."*), and self-correcting asides. Brand voice work for hero pages, press, sponsor copy, and venue pitches uses the polished register. Founder-story work, About-page narrative, origin-pillar IG carousels, and any "Andrea talking" first-person content uses the conversational register. Match the register to the surface — both pass the *"would Andrea say this to a friend over coffee"* test, but they sound different in the mouth.
 
 ---
 
@@ -39,6 +41,12 @@ These are the load-bearing moves. Every piece of Resonance copy uses at least on
 **GOOD (fresh):**
 
 > *"You've watched your friends meet people. You've watched your friends meet people on apps you've tried. You've watched your friends meet people on apps you've tried and met no one on. The apps aren't the variable. The room is."*
+
+**GOOD (fresh, conversational register):**
+
+> *"There are spaces that have been created for me — coffee at my grandmother's house. There are spaces I have been built by — the music school that was my second home. There are spaces I lost when I came to Chicago expecting the orchestra to feel the same. The room I'm building now is the room I came here looking for."*
+
+Why this works in the conversational register: longer breath, autobiographical specifics, but the anaphora and landing line still do the diagnostic work. The pattern carries across registers.
 
 **BAD:**
 
@@ -70,6 +78,12 @@ Why: "So have we" is a smug landing that turns a recognition move into a we're-j
 
 > *"This is for the ready, not the exploring. We're not a place to figure out what you want. We're not a stop on the way to clarity. The clarity is the reason you're here."*
 
+**GOOD (fresh, founder-voice variant):**
+
+> *"Resonance is the room I came to Chicago looking for. It's not the bar at 11pm. It's not the friend-of-a-friend setup my best friend keeps suggesting. It's not the orchestra I joined and the orchestra I left."*
+
+Why this works: the third enemy is autobiographical — the orchestra Andrea expected vs. the one she found — which sharpens the frame through founder voice without breaking pattern.
+
 **BAD:**
 
 > *"Resonance is for serious singles who value real connection. We're different from the other options out there. We focus on what matters."*
@@ -99,6 +113,12 @@ Why: "Time-wasters" and "the unserious" are insults dressed as filters. The patt
 **GOOD (fresh, hero copy):**
 
 > *"A room. A song. A floor. People who said yes to the same thing. The body knows first. The words come later. Sometimes the words become a number you save."*
+
+**GOOD (fresh, autobiographical):**
+
+> *"Costa Rica. Coffee at grandma's. Music school. Orchestra. Chicago. Disappointment. The room I'm building."*
+
+Why this works: the crystallized-phrase pattern carries autobiographical material when the surface calls for founder voice — Pillar 5 captions, About-page opening sequences, origin-story trailers.
 
 **BAD:**
 
@@ -138,6 +158,12 @@ Andrea sources voice by listening to what her ICP is already saying out loud. Ma
 
 > *"'I'm done with apps' is a sentence we hear weekly. So we built a room for the people who said it and meant it."*
 
+**GOOD (fresh, family-lineage recognition trigger):**
+
+> *"My mother would say: 'What do you mean you feel that way? Why would you be sad?' If your family talked to you like that growing up, you know what kind of room you've been hungry for."*
+
+Why this works: this is a higher-order use of the pattern — out-loud-asking from the family lineage, not the dating lineage. The story's parental-dismissal phrases function as recognition triggers for ICPs whose families also dismissed their interior life. Use sparingly, only when the surface earns the depth.
+
 **BAD:**
 
 > *"Are you tired of swiping? Are you ready to meet someone real? Resonance might be for you."*
@@ -172,6 +198,12 @@ Why: This is a TED-talk question, not an out-loud one. "Endless options" and "me
 
 > *"This event is for one specific person: someone who's tried everything and still wants to try a room. If that's you, keep reading. If it isn't, this won't land."*
 
+**GOOD (fresh, felt-recognition filter):**
+
+> *"If you remember the first room that ever let you be your full self, this might be the next one. If you don't know what I mean, this isn't your event yet."*
+
+Why this works: filters via the recognition of a felt experience, not via demographic or commitment-status. The right reader feels seen on the first sentence; the wrong reader is told kindly that the room isn't built for where they are right now.
+
 **BAD:**
 
 > *"This event is for everyone who wants to meet someone special. All are welcome. Come as you are."*
@@ -201,6 +233,12 @@ Why: The filter is hostile instead of clarifying. The hell-yes pattern is warm i
 **GOOD (fresh, venue pitch):**
 
 > *"This is a 2pm event with no alcohol service required. We bring the sound, we bring the room, and your bartender stays home with pay if the date is locked."*
+
+**GOOD (fresh, autobiographical precedent):**
+
+> *"The room is built the way the National Youth Orchestra I auditioned into at 16 was built — curated admission, shared love of the medium, equalizer for people who would have never met otherwise."*
+
+Why this works: the mechanic is anchored in the autobiographical precedent. Andrea has literally already architected this kind of room. The sentence carries receipts without the resume-voice.
 
 **BAD:**
 
@@ -416,6 +454,50 @@ Thirty-five paired examples. Clip these directly. Each pair: a Resonance-voice l
 > **BAD:** *"Our carefully curated soundtrack creates the perfect ambiance for connection."*
 > **Why:** The good one names the curator and the rule; the bad one is a Spotify playlist description.
 
+**Founder-origin / About-page openings (added 2026-05-11)**
+
+Ten paired examples drawn from or inspired by Andrea's founder-origin story. These use the conversational register — sense-detail anchoring, autobiographical specifics, no manifesto-polish where it would sound like a TED bio.
+
+> **GOOD (About-page opener, first sentence):** *"I grew up having coffee at my grandmother's house, and I think that's where I first learned what a room is supposed to feel like."*
+> **BAD:** *"From a young age, I knew I was passionate about creating meaningful spaces for human connection."*
+> **Why:** The good one anchors in one sense-detail (coffee at grandmother's) that does the autobiographical work without naming the lesson. The bad one is the LinkedIn-bio voice — "from a young age" + "passionate about" is the founder-bio cliché stack.
+
+> **GOOD (About-page transition into the room):** *"That feeling — the one I had at the music school, the one I had at the orchestra, the one I came to Chicago looking for and didn't find — that's the feeling I'm building Resonance to make available again, for adults trying to meet someone."*
+> **BAD:** *"After years of searching, I realized I needed to create the kind of community I had always wanted to be a part of."*
+> **Why:** The good one uses the conversational-register run-on with three specific room-references doing the work. The bad one paraphrases the journey into wellness-brand-coded "community I had always wanted" — a phrase Andrea has never used.
+
+> **GOOD (origin-moment IG carousel slide 1):** *"At sixteen, I auditioned into a national youth orchestra. Costa Rica, rural and urban, every class background, people who would have never met otherwise. The audition was the curation. The music was the equalizer. I've been building rooms like that one ever since."*
+> **BAD:** *"My journey to founding Resonance started years ago with one transformative experience that shaped everything."*
+> **Why:** The good one is one specific room with the curation logic legible inside it. The bad one is the "journey started years ago" founder-arc cliché that names nothing.
+
+> **GOOD (press intro, "why I built this"):** *"I came to Chicago expecting the orchestra to feel like the one I left in Costa Rica. It didn't. The room I wanted didn't exist here for musicians, and it didn't exist here for adults trying to meet a partner either. So I'm building it."*
+> **BAD:** *"As a Costa Rican DJ in Chicago, I felt called to create a space where authentic connection could flourish."*
+> **Why:** The good one is the arc compressed into four sentences — expectation, disappointment, room-doesn't-exist, building-it. The bad one is identity-prelude + "felt called to" + wellness-brand "authentic connection could flourish" — three banned moves in one sentence.
+
+> **GOOD (founder bio for venue partnership email):** *"I'm Andrea. I DJ, and I'm building a daytime singles room in Chicago because the rooms I grew up inside — a music school in Costa Rica, a national youth orchestra at 16 — are the proof that curated rooms can change what's possible for the people in them."*
+> **BAD:** *"Andrea is a passionate DJ and event curator with a background in classical music and a vision for transforming the singles scene in Chicago."*
+> **Why:** The good one is Andrea talking, first person, with two specific rooms doing the credibility work. The bad one is third-person LinkedIn-bio with vision-statement scaffolding.
+
+> **GOOD (music-school-as-precedent, non-sentimental):** *"The music school in Costa Rica wasn't an institution to me. It was where I made my first close friends, where I met my first boyfriend, where the shy obedient kid I was at home got to be someone else for three hours at a time."*
+> **BAD:** *"Music has always been my safe haven and the foundation of who I am today."*
+> **Why:** The good one is three specific things that happened in the room — the friends, the boyfriend, the shy-kid-dissolving — and the room earns the weight through specifics. The bad one is "safe haven" + "foundation of who I am" which is wellness-brand voice with zero specifics.
+
+> **GOOD (Chicago disillusionment, not bitter):** *"I came on a scholarship to study orchestral performance. Then I learned that orchestras here can run on competition and restraining orders, and the version of professional music I was preparing for stopped being the version I wanted."*
+> **BAD:** *"Chicago's classical music scene was a wake-up call. The toxic culture made me realize I needed to forge my own path."*
+> **Why:** The good one cites one concrete fact (restraining orders) and lets it carry the disillusionment without the editorial. The bad one uses "toxic culture" + "wake-up call" + "forge my own path" — three self-help phrases that turn the story into a TED setup.
+
+> **GOOD (shy-to-architect arc, not self-congratulatory):** *"People call me a 'social butterfly' now, which is funny because I grew up being the shy girl who didn't talk too much. I didn't become someone new. I just kept finding rooms that let me show up — and then started building them."*
+> **BAD:** *"I went from being a shy introvert to becoming a confident community-builder, and now I help others find their voice."*
+> **Why:** The good one is the arc with the load-bearing reframe inside it ("I didn't become someone new. I just kept finding rooms..."). The bad one is the personal-development-coach voice — "find their voice" is exactly the wellness-brand phrasing Andrea avoids.
+
+> **GOOD (Costa Rican specificity as anchor):** *"My grandmother poured coffee for whoever came by, and conversation happened because the room was already set up to hold it. I think about that a lot when I'm building event design — the room does the work, not the host."*
+> **BAD:** *"In Latin American culture, gathering is sacred and community is everything, which deeply influences my work."*
+> **Why:** The good one uses one specific scene (grandmother, coffee, anyone who came by) and pulls one mechanical principle out of it. The bad one is "in Latin American culture..." which is the identity-prelude move — flattens specifics into generalization and reads as written-for-strangers.
+
+> **GOOD (About-page long-version closing line):** *"So if you've ever been in a room that let you be your full self... a music school, a kitchen, an orchestra trip, a friend's living room at 2am... and you've been hungry for that room as an adult trying to meet someone, Resonance is what I'm building for both of us."*
+> **BAD:** *"Join me on this journey to redefine what it means to connect in the modern world."*
+> **Why:** The good one lands on a felt-recognition trigger with four specific examples and the autobiographical "for both of us." The bad one is the "join me on this journey" closer that any founder bio in any category could end with.
+
 **Additional miscellaneous**
 
 > **GOOD:** *"If you've asked yourself why it's so hard to meet a good person, the answer is not another app."*
@@ -468,6 +550,9 @@ Specific phrases and structural moves that fail the voice. Each comes with a one
 - **Twin-sentence aphoristic paragraph endings** (declare, then reverse). The pattern reads as AI even when the words are clean.
 - **Triple-beat anaphora** (three parallel sentences without a fourth landing). Anaphora needs a landing line; without one, it's a beat with nowhere to go.
 - **Italicized mid-paragraph aphorisms.** If a thesis matters enough to italicize, demonstrate it through story instead.
+- **"Founder journey," "I always knew," "I felt called to."** Founder-bio cliché vocabulary. Andrea did not "always know." She tried the orchestra path, watched it fail her, and built the alternative. Show the actual arc.
+- **"Inclusive community," "safe space," "intentional space."** Wellness-brand-coded substitutes for Andrea's actual word: *room*. Andrea has not used the word "community" once in her source docs as a noun describing Resonance. She uses "room." The room is the unit. Substitute "room" for any wellness-coded space-vocabulary.
+- **"Coming from a music background" / "as a former musician" / "as a Costa Rican woman" / any over-explained identity prelude.** Andrea's identity surfaces through specifics (the NYO, the orchestra culture clash, her grandmother's coffee) — not through identity preludes. If a sentence opens with "as a [identity]," the sentence is doing it wrong.
 
 ---
 
@@ -486,6 +571,10 @@ Specific phrases and structural moves that fail the voice. Each comes with a one
 > 4. *Out-loud-asking* — use the ICP's actual sentences (*"Where are all the good guys?"* / *"Why is it so hard to meet a good person?"*) as hooks.
 > 5. *Hell-yes filter* — invite, then filter out the unsure. Two sentences.
 > 6. *Mechanic-as-sentence* — write daytime/sober/curated/phones-off as full sentences with stakes, never as feature bullets.
+>
+> **Two voice registers — match register to surface:**
+> - *Polished register* (manifesto) — declarative, period-stacked, frame-then-sharpen, crystallized phrases. Used for: hero pages, manifesto reprises, sponsor copy, venue pitches, IG bios, press leads, RSVP confirms.
+> - *Conversational register* (story) — dictation-energy, bilingual touches, sense-detail anchoring (coffee at grandma's, empanadas, the song that shifted the room), associative transitions, self-correcting asides. Used for: About-page founder voice, origin-pillar content, "Andrea talking" first-person, founder-side venue pitches, founder-mini-essays.
 >
 > **Top five voice rules:**
 > 1. Show, don't tell. Lead with the moment, not the abstraction.

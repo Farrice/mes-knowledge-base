@@ -116,15 +116,17 @@ That's 18 minutes total. Everything else is reference.
 ### Source / Canonical Inputs
 | File | What it is |
 |---|---|
-| `source/andrea-internal-anchor.md` | Andrea's private decision document (Apr 29, 2026) |
-| `source/andrea-manifesto-v2.md` | Andrea's public-facing manifesto |
+| `source/andrea-internal-anchor.md` | Andrea's private decision document (Apr 29, 2026) — *the room's operating system* |
+| `source/andrea-manifesto-v2.md` | Andrea's public-facing manifesto — *the polished voice register* |
+| `source/andrea-story-2026-05-11.md` | Andrea's founder-origin narrative (May 11, 2026) — *the interior + conversational voice register* |
 
-These two files **supersede the Monday Package on conflict**. The BOS is built from them as canonical.
+These three files **supersede the Monday Package on conflict**. The BOS is built from them as canonical. The story (added in v1.1) carries Andrea's autobiographical material: Costa Rica → music school as first room → National Youth Orchestra as curated-equalizer precedent → Chicago orchestra disillusionment → building Resonance as the room she came to Chicago looking for.
 
 ### Working / Internal
 | File | What it is |
 |---|---|
-| `_working/A1-reconciliation.md` | The synthesis pass that reconciled Andrea's docs vs Monday Package |
+| `_working/A1-reconciliation.md` | The synthesis pass that reconciled Andrea's docs vs Monday Package + Section 9 (story integration, 2026-05-11) |
+| `_working/A1.1-story-integration-map.md` | Per-doc cohesion map: which of the 43 BOS docs require story integration in v1.1 |
 | `_working/A3-discovery.md` | The 8-dimension diagnostic that surfaced gaps |
 
 These are internal scaffolding — Andrea doesn't read them. They exist for anyone updating the BOS to understand why decisions were made.
@@ -159,6 +161,8 @@ The change log (`05-ops/01-change-log.md`) tracks every amendment with date, rea
 
 ## Status
 
-**v1.0** — Initial build, May 2026. Foundation + Visual + Briefs + Marketing + AI Handoff + Ops complete. Profile #2 + #3 in `02-icp-master.md` are PROPOSED, awaiting Andrea's adjudication. Founding-story voice memo still pending; bridge drafts in `01-brand-bible.md` until Andrea's recording lands.
+**v1.0** — Initial build, May 4, 2026. Foundation + Visual + Briefs + Marketing + AI Handoff + Ops complete. Built from anchor + manifesto-v2 (2 canonical sources). Composite quality 8.3/10.
 
-**v1.1 expected** after Event #1 ships (June 2026) — every doc revised against what the room taught us.
+**v1.1 — Story Integration (Session 1 complete, 2026-05-11)**. Andrea delivered her founder-origin story; integrated as third canonical source. Foundation layer regenerated: Brand Bible §3 (Enemy 5 added), §5 (Founder Story Long/Short/Micro replaces bridge draft), §7 (recognition layer); Voice Document (two-register doctrine + 16 new examples + 3 new banned moves); ICP Master (recognition layer + Imani profile recommended for lock); Positioning One-Pager (optional founder-side paragraph); Master Index (this file). Open Question #3 (founder-story voice memo) RESOLVED — voice memo now optional v1.2 enhancement, not a blocker. Session 2 (marketing + AI handoff cascade + cohesion audit + ship) pending Andrea's review of new founder-story Long version.
+
+**v1.2 expected** after Event #1 ships (June 2026) — every doc revised against what the room taught us. If/when Andrea records a founder voice memo, v1.2 also triggers a voice-document cadence calibration.

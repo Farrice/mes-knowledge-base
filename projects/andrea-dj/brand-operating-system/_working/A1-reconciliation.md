@@ -3,6 +3,7 @@
 *Status: Canonical spine. Source of truth for B1 (brand-system), B3 (voice), B4 (ICP), and Phase D (creative briefs).*
 *Reconciliation rule: Andrea wins on conflict. Monday Package supplies depth where it doesn't conflict.*
 *Compiled: 2026-05-04. Inputs: `source/andrea-internal-anchor.md`, `source/andrea-manifesto-v2.md`, full Monday Package, RISKS.md, research/03–05.*
+*Amended: 2026-05-11. Section 9 added integrating the third canonical source — `source/andrea-story-2026-05-11.md` (Andrea's founder-origin story).*
 
 ---
 
@@ -206,7 +207,7 @@ Items that B1/B3/B4/Phase D need Andrea to adjudicate before going to final.
 
 7. **Voice-rule conflict on the word "community"** — Monday 01-pulse-brand.md voice rule: *"It doesn't use the word 'community' unless it means it."* Andrea's anchor §2: *"They have community of some kind, but the partner they want isn't in it."* This is fine — the rule is "use it when you mean it." But B3 (voice doc) should preserve this restriction explicitly.
 
-8. **Founder-story voice memo from Andrea** is referenced in Monday 01-pulse-brand.md ("Andrea is sending a voice memo… these three versions will be regenerated from her words once the voice memo lands"). Has it landed? If yes, the Long/Short/Micro versions in 01-pulse-brand.md need regeneration. If not, flag as blocking for B3.
+8. **Founder-story voice memo from Andrea** is referenced in Monday 01-pulse-brand.md ("Andrea is sending a voice memo… these three versions will be regenerated from her words once the voice memo lands"). Has it landed? If yes, the Long/Short/Micro versions in 01-pulse-brand.md need regeneration. If not, flag as blocking for B3. **RESOLVED 2026-05-11**: Andrea's founder-origin story landed as `source/andrea-story-2026-05-11.md`. See Section 9 for integration synthesis. Brand Bible §5 Long/Short/Micro versions now need v1.1 regeneration from story material.
 
 ---
 
@@ -220,11 +221,88 @@ The 1–2 sentence "spine reminder" that every downstream BOS doc opens with. Tu
 
 ---
 
+## Section 9 — Founder-Origin Synthesis (Story Integration, 2026-05-11)
+
+*Numbering note: original brief asked for "Section 8" but Section 8 already exists as the canonical Tier-1 Reminder String referenced by every downstream doc. To preserve those references, the story-integration synthesis is numbered Section 9. Function is unchanged.*
+
+The third canonical source — `source/andrea-story-2026-05-11.md` — landed on 2026-05-11. It is the autobiographical material the v1.0 BOS was missing. Where the anchor codifies the room Andrea is building (operating system) and the manifesto codifies the public face (creed), the story codifies the **interior** — why this woman is the one building this room. Section 9 integrates the story into the canonical spine without disturbing Sections 1–8.
+
+The integration rule mirrors the original A1 rule: **the story is additive, never contradictory.** No existing canonical decision changes. What changes is the *grounding* under those decisions — the lived experience that gives "your full self in the room" its weight, "heart vs. head" its biographical shape, and "curated rooms" its proof of concept. The story is not a marketing asset; it is the substrate the brand was already standing on without naming.
+
+### Sub-section 9.1 — What the story adds (5 named themes)
+
+These are the five themes the story carries that the anchor + manifesto did not. Each is a new piece of canonical material and each maps to a specific downstream effect inventoried in A1.1.
+
+**(a) Music school as the first room that worked for her.**
+
+Andrea grew up inside two rigid containers — a bilingual private school described as "a bubble," and a Costa Rican family environment where her emotions were physically uncomfortable to her parents. Music school was the third room and the first one that fit. *"It felt like a second home. There I made my first close friends. That's where I met my first boyfriend."* This is the autobiographical foundation of the Resonance thesis: that a curated room can be the place a person finally finds belonging. Before Andrea had language for body-first connection or heart-vs-head encounters, she had a music school where her shy, obedient, well-behaved performance dissolved and she became someone she recognized. The room came before the framework. Downstream this lands in the Brand Bible founder story, in the ICP recognition layer (because the ICP is looking for this same room without knowing what to call it), and in Andrea's Pillar 5 founder content as the originating image.
+
+**(b) National Youth Orchestra as community-building precedent.**
+
+At sixteen, Andrea auditioned into a national youth orchestra that pulled students from across Costa Rica — across class lines, across geography (rural and urban), across skill levels (some had played for years; some had just started). The audition was the curation; the music was the equalizer. *"It was some sort of equalizer, it was a place where we could come to play our instrument which we love, grow and get better at it, meet some friends, and at some point, we traveled across the country and internationally. The sense of camaraderie made it a great place to be in."* This is the proof-of-concept moment. Andrea has already architected the kind of room she is now building publicly — she did it at 16, inside someone else's institution, and watched it work on strangers. Resonance is not a hypothesis she is testing for the first time at 32; it is a pattern she has lived inside, knows how to recognize, and is now choosing to build for adults seeking partners. Downstream this changes the founder-credibility frame in the press one-sheeter (she is not a first-time curator), and it gives the Brand Bible's "why Andrea is the one doing this" a non-resume answer.
+
+**(c) The Chicago disillusionment as enemy-deepening.**
+
+Andrea came to Chicago on a music scholarship, expecting the orchestra community here to feel like the one she left in Costa Rica. It did not. *"I learned more about the orchestra culture here in the US, characterized by intense competition and hostile relationships. I don't even know if we can call that relationships. But one time I heard that one member of the orchestra had sued another person in the same orchestra and had a restraining order against them."* This was the moment Andrea stopped being an orchestra player. The disillusionment is not a side story — it is the moment her professional and personal trajectories both pivoted. It also deepens the brand enemy from a single-domain enemy ("the head-first dating culture") to a broader cultural pattern: **adult social spaces structured around competition, performance, and transaction.** The dating apps are one instance. The competitive orchestra was another. The bar at 11pm is a third. Resonance attacks the whole pattern — and Andrea's enemy frame in Brand Bible §3 can now name a fourth Enemy ("the performance-demand pattern") if Andrea wants to extend the list. Downstream this lands in Brand Bible §3 (enemy expansion, optional), in the Pillar 5 founder content as the bridge between Costa Rica origin and Chicago present, and in press positioning as a moat ("she chose to build the room she had expected to find").
+
+**(d) Emotional dismissal at home as autobiographical root of "your full self in the room."**
+
+The story names something the manifesto only implies. *"I remember bringing up stuff to my parents about how I felt about something or what I thought about something, or something I was struggling with, and it was usually met with disbelief… My parents, mostly my mom, would seem physically uncomfortable with my emotions. They both wanted me to get out of those feelings as soon as possible. Come on stop crying! OK OK, let's just be happy, eat this so you feel better, let's put on a happy face!"* Andrea grew up *knowing the felt difference* between rooms that let her have her full self and rooms that did not. This is not abstract empathy with the ICP. It is autobiographical recognition. *"Your full self in the room"* (manifesto v2) is not a brand promise Andrea read in a copywriting book — it is the thing she physically did not have at home, found at music school, and is now offering to other adults who can also feel the difference but may not yet have language for it. Downstream this lands in the Brand Bible founder story (this is the line nobody else can write), in the ICP master as a recognition layer ("the ICP grew up with their own version of this," which Imani's profile may carry), and in the voice document as the source of Andrea's specific authority on the topic.
+
+**(e) The shy → social-butterfly arc as proof of room-makes-the-person thesis.**
+
+The story closes a recognition loop that the anchor and manifesto could not. *"I find it so interesting and surprising when people now call me a 'people person' or very social, social butterfly, outgoing. Because I grew up being the shy girl, didn't talk too much, keeping to myself."* Andrea is not a different person now than she was at twelve. She found rooms that let her show up. This is the precise recognition trigger for the ICP — adults who feel trapped between who they perform at work and who they suspect they are, who have not yet found the rooms where the gap closes. The brand promise is not "become someone new at Resonance"; it is *"come into a room that lets the person you already are show up."* Downstream this is the load-bearing recognition hook for Imani's profile, for the Pillar 5 founder content, and for the About copy register. It is also, structurally, the answer to the implicit question every ICP has ("if I come to this, will I be the same shy person I am at the bar?") — *no, because the room is built differently.*
+
+### Sub-section 9.2 — How the story SHARPENS existing spine elements (without changing them)
+
+The story does not add new spine elements. It grounds the existing ones in autobiography. Each spine element below already exists in canonical form; the story tells us *where it came from in Andrea's life*, which strengthens the conviction with which downstream copy can deliver it.
+
+- **Heart-vs-head frame.** Sharpened by Andrea's biographical experience of the bilingual private school as the head-first container and the music school as the heart-first one. The frame did not arrive abstractly — it arrived as a felt childhood contrast. The first room ran on test scores, the second on rehearsal energy. Both were "school"; only one was home.
+- **Daytime / sober / curated mechanics.** Reinforced by the National Youth Orchestra's curated-admission-as-equalizer experience. Andrea has already lived inside the mechanic of *audition strips status and surfaces commitment.* The four Resonance mechanics are not invented constraints; they are her existing template ported from music to partner-meeting.
+- **Curation as the product.** Reinforced by Andrea's lived experience as both auditioned-in (she was the student who passed the gate) and architect (she has now built rooms that hold a gate). She knows the felt difference between rooms that curate and rooms that do not, from both sides of the velvet rope. This is why Line #5 — *founder-curated, always* — is non-negotiable: she has personally watched curation fail in Chicago orchestras, and personally watched it succeed in Costa Rica.
+- **"Your full self in the room."** Grounded in her childhood absence of rooms where she could have her full self. The line is not a brand promise borrowed from wellness language; it is a sentence she has been formulating since she was the shy obedient child being told to *put on a happy face.* The line is durable because it is autobiographical.
+- **The hell-yes filter.** Grounded in her felt difference between safe rooms and performance rooms. *"Hell-yes to being in this room"* is the same energy as *"this place feels like a second home"* — both name a room-level commitment that is either present or absent on arrival. Andrea recognized it at twelve; she expects the ICP to recognize it now.
+- **Founder-curated, always.** Grounded in her experience of the National Youth Orchestra working precisely because someone curated who came. The orchestra did not run on vibes or self-selection; it ran on auditions adjudicated by a human with taste. That is the model. Resonance is Andrea-as-that-human.
+
+### Sub-section 9.3 — Conflicts? (Expected: zero)
+
+A careful conflict check ran against all 18 cascading decisions in Section 6 and all 13 conflict resolutions in Section 3. The story is additive, not contradictory.
+
+- It does not contradict Line #1 (daytime) — the story says nothing about time of day.
+- It does not contradict Line #2 (sober) — alcohol does not appear in the story.
+- It does not contradict Line #3 (curated admission) — it provides the autobiographical case *for* curation.
+- It does not contradict any other Line.
+- It does not contradict the heart-vs-head frame — it provides the biographical origin of the frame.
+- It does not contradict the 25% couple-formation metric or the 12-event patience window — these are operating-system numbers; the story is interior material.
+- It does not contradict any voice rule. The conversational register of the story is a *second voice register*, not a competing one (see 9.4).
+- It does not contradict the unified ICP description — it sharpens the recognition layer the ICP will use to identify themselves.
+
+**Conflicts surfaced: zero.** The story integrates clean.
+
+### Sub-section 9.4 — Founder voice register (two registers, both Andrea)
+
+The story introduces a second voice register that the BOS v1.0 voice document did not account for. Both are canonically Andrea.
+
+**Polished register (Manifesto v2).** Declarative. Period-stacked. Frame-then-sharpen. Crystallized phrases. *"Heart encounters, not head encounters."* *"Clean meetings. In daylight. Sober."* This is Andrea writing — sitting down, choosing each word, building a creed. It is the register the voice document (00-foundation/03-voice-document.md) currently teaches. It is the register the brand uses in public.
+
+**Conversational register (Story).** Dictation-energy run-ons. Bilingual touches ("lol", "ha ha", *"Latino families lol"*). Sense-detail anchoring (*"coffee at my grandma's house," "buy an empanada at the school cafeteria," "phone full of contacts"*). Associative transitions (*"coming back to the spaces,"* *"before I keep going, let me make a summarized version"*). Self-correcting asides. This is Andrea talking — recording herself, following the thread, letting the language be loose because the substance is dense. It is the register the founder-content pillar should use. It is the register Andrea uses in podcast interviews and DMs.
+
+Both are her. The polished register stays inside the public brand (manifesto, IG bios, sponsor decks, press one-sheeters). The conversational register lives in founder content (Pillar 5 caption voice, About copy that hits "human" not "creed," IG Story takeovers, podcast prep notes, voice-memo-based emails). The AI handoff layer teaches both — so that when Andrea asks Claude for "an IG caption in my voice for the founder pillar," the AI knows to reach for the conversational register instead of the manifesto-polished one. This is a v1.1 expansion of the voice document, not a rewrite of it. The six voice patterns (anaphora, frame-then-sharpen, crystallized phrase, out-loud-asking, hell-yes filter, mechanic-as-sentence) stay canonical for polished register. A 7th and 8th pattern (the "coming-back-to" transition; the sense-detail anchor) get added for conversational register.
+
+### Sub-section 9.5 — Implications for downstream BOS layers (preview of A1.1)
+
+The story integration is heavily concentrated in three places: the **foundation layer** (Brand Bible §3 enemy expansion, §5 founder story rewrite, §7 ICP recognition note; Voice Document Section 2 pattern expansion; ICP Master umbrella + Imani recommendation), the **AI handoff layer** (AI Brain Master founder paragraph; Prompt Library founder-voice prompts gain a conversational-register variant), and the **marketing founder pillar** (Content Pillars Pillar 5 expansion; Hook Library founder section gains story-derived hooks). These are the docs that carry founder voice as their primary purpose. Six docs total are scored 3 ("section rewrite needed") in the A1.1 map. About six more docs receive micro-touches (one sentence, one reference, one example) — most notably the ICP Master, the Positioning One-Pager, the Press One-Sheeter, the Master Index, the Claude Pro Project Setup, and the Change Log.
+
+The remaining ~31 docs are story-independent or implicitly compatible. The visual layer (DESIGN.md, photography rules, component tokens, brand library, aesthetics) operates on color, type, and image rules that do not change because Andrea has an origin story. The briefs layer (master template + 9 per-asset briefs) operates on inheritance from the foundation — the briefs themselves do not carry the founder story; they reference the docs that do. The ops layer (update protocol, change log, handoff checklist, drift signals, success metrics, exit interview, run-of-show) is procedural — the day-of playbook does not care about Costa Rica. Most marketing docs (channel architecture, curation mechanics, crisis comms, why-gate, funnel, offer card) are operational. The cohesion audit in Stage 2.5 will verify that every score-1 doc still breathes Andrea's vibe with the story-context loaded — any that drift get reclassified to score-2 and patched.
+
+---
+
 ## Citations & Source Inventory
 
 **Canonical (Andrea):**
 - `source/andrea-internal-anchor.md` (last updated 2026-04-29) — 7 sections, 12 Lines, 25% success target, 12-event kill condition, drift signals
 - `source/andrea-manifesto-v2.md` — public-facing manifesto, supersedes Monday Package bridge draft
+- `source/andrea-story-2026-05-11.md` (added 2026-05-11) — founder-origin story; autobiographical material for founder voice, About copy, origin pillar content, press intros
 
 **Supporting (Monday Package, 2026-04-11, defer to Andrea on conflict):**
 - `deliverables/2026-04-11-monday-package/01-pulse-brand.md` (internal title: "Resonance Brand Identity")
@@ -240,4 +318,4 @@ The 1–2 sentence "spine reminder" that every downstream BOS doc opens with. Tu
 - `research/04-instagram-strategy.md` (flagged: pre-Resonance generic placeholders)
 - `research/05-venue-and-pricing.md` (flagged: rooftop-bar-evening orientation, supplanted by 03-launch-60-days.md)
 
-**Reconciliation rule applied throughout**: Where Andrea's anchor or manifesto v2 disagrees with the Monday Package, Andrea's surface language and decisions are canonical. Monday Package depth is preserved where it doesn't conflict. Conflicts are surfaced in Section 3, not silently reconciled.
+**Reconciliation rule applied throughout**: Where Andrea's anchor or manifesto v2 disagrees with the Monday Package, Andrea's surface language and decisions are canonical. Monday Package depth is preserved where it doesn't conflict. Conflicts are surfaced in Section 3, not silently reconciled. Story material (added 2026-05-11) is additive — zero conflicts surfaced; see Section 9.3.
