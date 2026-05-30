@@ -39,7 +39,7 @@ This is why `W` (4.0) eats ~4× the space of `i` (1.0), and why a 30-char ALL-CA
 
 **Universal limits** (apply to all formats):
 - **Max total hook: 210 characters.** Over 210 is too long.
-- **Max single line: 75 characters.** Lines over 75 wrap awkwardly on mobile.
+- **Max single line: 75 characters.** Lines over 75 wrap awkwardly on mobile. *This applies to **author-inserted** lines (Punchy, Stacked). It does NOT apply to a Dense hook's continuous block — Dense has zero breaks and is sized by total chars (140-160) and expected wrap (2-3 mobile lines), not by a 75-char per-line cap. Likewise the ~110 width-per-line check applies to author-broken lines; for Dense, check that `total width ÷ 110 ≈ 2-3` lines.*
 - **Line breaks count as a full visible line** — adding one costs an entire line of the 3-line above-the-fold window. A line break is a major formatting decision, not a cosmetic one.
 - For posts **>300 characters**, end the hook with `?`, `:`, `…`, `.`, or `...` so the truncation feels intentional.
 

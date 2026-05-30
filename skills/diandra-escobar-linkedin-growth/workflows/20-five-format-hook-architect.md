@@ -51,7 +51,7 @@ A topic alone is rarely enough — generic topics produce generic hooks. Push fo
 1. **Count characters** against the format's limit:
    - Dense **140–160** total · Punchy+Context **each line ≤50** · Single-Line Bomb **≤50** · Stacked **each line ≤60** (sub-variant E **≤50**).
    - Universal: total ≤210, any single line ≤75.
-2. **Width-score borderline lines** using the [Width Scoring Guide](../references/hook-examples-library.md) — target **≤110 width units per visible line** on mobile. (W=4.0, caps=2.6, lowercase=2.2, narrow=1.0.)
+2. **Width-score borderline lines** using the [Width Scoring Guide](../references/hook-examples-library.md) — target **≤110 width units per visible line** on mobile. (W=4.0, caps=2.6, lowercase=2.2, narrow=1.0.) *Per-line caps (75 chars / 110 width) apply to **author-broken** lines only. A Dense hook is one continuous block (0 breaks) — validate it by total chars (140-160) and that `total width ÷ 110 ≈ 2-3` mobile lines, NOT by a 75-char single-line cap.*
 3. **Confirm line-break count** matches the format: Dense 0 · Bomb 0 · Punchy+Context 1 · Stacked 1–2.
 4. **Truncation punctuation**: if the post is >300 chars, the hook ends with `?`/`:`/`…`/`.`/`...` so the cut feels intentional.
 5. **On failure → rewrite to fit.** Relabel only as last resort; drop and replace if 2 rewrites can't save it. **Never** output an "OVER LIMIT" warning, a "reclassified" label, or a broken count. The user sees only the final valid set.
