@@ -45,7 +45,7 @@
 | `david-mcraney` | **David McRaney** | belief change architect |
 | `david-placek` | **Agent: David Placek** | david placek |
 | `diandra-escobar` | **diandra-escobar** | 4-bucket content funnel, attention redirection, audience acquisition, body-first writing process, content sourcing at scale, content system architecture, growth content formats, infrastructure architecture, linkedin algorithmic growth, strategic engagement |
-| `donald-miller` | **donald-miller** | business messaging, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, narrative marketing, peace framework mastery, storybrand, storybrand sb7 mastery, strategic messaging |
+| `donald-miller` | **donald-miller** | business messaging, cash flow, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, messaging evolution, narrative marketing, operations, peace framework mastery, positioning discipline, small business growth, storybrand, storybrand sb7 mastery, strategic messaging |
 | `dr-k` | **Dr. K (Alok Kanojia)** | consciousness architect |
 | `dr-kriukow` | **Dr. Kriukow** | agent configuration, ai detection mechanics, ai text humanization, meaning-first rewriting, platform-specific humanization, structural analysis |
 | `eric-roth` | **Eric Roth: Oscar-Level Writing Virtuoso** | oscar-level writing virtuoso |
@@ -112,7 +112,7 @@
 | `sabri-suby` | **sabri-suby** | ad creation, ai-powered advertising and direct response marketing, direct response funnel, market validation, pain extraction, systematic scaling |
 | `sabrina-ramonov` | **Agent: Sabrina Ramonov** | sabrina ramonov |
 | `sam-goddard` | **Sam Goddard** | agent configuration, signature advantage |
-| `sam-parr` | **Sam Parr** | sam parr, taste acquisition • identity architecture • competitive moat |
+| `sam-parr` | **Sam Parr** | copywriting (direct response + short-form) • taste acquisition • identity architecture • competitive moat, sam parr |
 | `samuel-thompson` | **samuel-thompson** | 8-hour launch protocol, ai info products, ai-powered product creation, radical disposability, rapid launch methodology, rigged slot machine economics, shadow market detection |
 | `satori-graphics` | **Satori Graphics** | design psychology, graphic design — composition, layout, logo systems, satori graphics |
 | `sean-kochel` | **Sean Kochel** | ai business, design-first web building, felt problems, sophistication matching, trust before transaction |
@@ -123,6 +123,7 @@
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |
 | `sinem-gunel` | **sinem-gunel** | 4-layer revenue architecture, bestseller badge system, business infrastructure reframe, collaboration physics, creator monetization, notes discovery engine, publication conversion architecture, substack business architecture |
+| `sky-tan` | **sky-tan** | content-to-client conversion, counter-positioning, format discovery, founder/b2b personal brand, short-form video format engineering, testing, testing & scaling, the conversion gate, the strategy spine |
 | `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |
 | `steven-pressfield` | **Steven Pressfield** | narrative mastery agent, physics |
 | `stockton-walbeck` | **Stockton Walbeck: Lead Magnet Strategist** | 5-rule scoring, full-funnel architecture, idea generation, lead magnet classification, lead magnet strategist, rule 5 bridge design |
@@ -133,6 +134,7 @@
 | `tim-runia` | **Tim Runia** | agent configuration, signature advantage |
 | `tobias-allen` | **Tobias Allen** | agent profile |
 | `tom-noske` | **tom-noske** | and content creation methodology, creator business, personal brand monetization |
+| `tom-segura` | **Tom Segura** | agent configuration |
 | `tommy-clark` | **Tommy Clark: LinkedIn Growth & Founder-Led Content Master** | audience architecture, founder-led content master, interview extraction, linkedin growth, narrative pivoting, stealth hook engineering |
 | `tyler-denk` | **tyler-denk** | "one-of-one" narrative moat, audience monetization, compounding growth stack, founder-led growth, post-subscribe intelligence capture, the "automated authenticity" paradox, zero-cost referral lever |
 | `vince-nijhof` | **vince-nijhof** | agent, creative pod architecture, customer voice mining, dtc-operator-system, emotional angle engineering, foundation triad gating, guard-down vssl architecture, intent-first launch discipline, messaging-market fit, vssl ideation pipeline |

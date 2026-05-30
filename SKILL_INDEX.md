@@ -59,6 +59,7 @@
 | `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | linkedin growth mastery | 20 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
+| `donald-miller-business-growth` | **Donald Miller — Small Business Growth & Operations** | the two engines are owned by the messaging skills, small business growth & operations | 6 | 0 |
 | `donald-miller-cognitive-load` | **Donald Miller — Cognitive Load Messaging Mastery** | treats every extra word as a tax, for full storybrand sb7 narrative use storybrand, for internal culture-change messaging use donald-miller-culture-turnaround | 8 | 0 |
 | `donald-miller-culture-turnaround` | **Donald Miller - Culture Turnaround Mastery** | culture turnaround mastery | 4 | 21 |
 | `donald-miller-messaging-evolution` | **Donald Miller — Messaging Evolution & Positioning Discipline** | for the static sb7 story framework use donald-miller-storybrand, for scoring/simplifying a single message use donald-miller-cognitive-load, for internal org culture messaging use donald-miller-culture-turnaround | 6 | 0 |
@@ -198,6 +199,7 @@
 | `sabri-suby-ai-advertising` | **Sabri Suby AI Advertising** |  | 4 | 16 |
 | `sabrina-ramonov-ai-monetization` | **Sabrina Ramonov: AI Monetization & Learn-in-Public Strategy** | from a solo founder who actually did it, ai monetization & learn-in-public strategy | 3 | 7 |
 | `sam-goddard-media-scaling` | **Sam Goddard — Media Scaling & Attention Monetization** | media scaling & attention monetization | 5 | 14 |
+| `sam-parr-copywriting` | **Sam Parr - Copywriting Mastery** | copywriting mastery | 10 | 0 |
 | `sam-parr-taste-acquisition` | **Sam Parr - Taste Acquisition Mastery** | taste acquisition mastery | 12 | 0 |
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai product launch system | 4 | 11 |
 | `satori-graphics` | **Satori Graphics: Composition + Logo Thinker** | composition + logo thinker | 14 | 0 |
@@ -215,6 +217,7 @@
 | `sharran-srivatsaa-scaling` | **sharran-srivatsaa-scaling** | 4b in 5 years, business scaling & decision engineering | 7 | 0 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | ai engineering leadership | 4 | 7 |
 | `skill-creator` | **skill-creator** | guide for creating effective skills | 0 | 0 |
+| `sky-tan-format-engine` | **Sky Tan - Format Engine** | core thesis: formats get views, expertise gets sales, format engine | 12 | 0 |
 | `slack-gif-creator` | **slack-gif-creator** | knowledge and utilities for creating animated gifs optimized for slack, provides constraints, validation tools, and animation concepts | 0 | 0 |
 | `soowei-consulting-leverage` | **SooWei Goh — Consulting Leverage Mastery** | consulting leverage mastery | 4 | 14 |
 | `stefan-georgi-dopamine-copy` | **stefan-georgi-dopamine-copy** | $700m+ in tracked sales behind the methodology, dopamine copywriting architecture | 10 | 0 |
