@@ -4,9 +4,9 @@ expert: Diandra Escobar
 domain: LinkedIn algorithmic growth, audience acquisition, growth content formats, content system architecture, strategic engagement
 skills:
   - diandra-escobar-linkedin-growth
-source: "MES 3.0 Expert Interview Parts 1-3 — Diandra Escobar (Distinctiva)"
+source: "MES 3.0 Expert Interview Parts 1-3 — Diandra Escobar (Distinctiva); + 2026 hook study (131 hooks / 21 creators) — 5-Format Hook System"
 credentials: "Founder of Distinctiva, LinkedIn growth agency. Clients include Semrush, Backlinko, HeyReach. Close to $1M revenue from organic LinkedIn alone."
-last_updated: 2025-07-17
+last_updated: 2026-05-30
 ---
 
 # Diandra Escobar Agent
@@ -39,6 +39,9 @@ Diandra Escobar is a LinkedIn growth strategist who built Distinctiva — a grow
 | Study & remix competitors | [12-outlier-study-and-remix.md](../skills/diandra-escobar-linkedin-growth/workflows/12-outlier-study-and-remix.md) | Competitive analysis + remix production |
 | Run 90-day sprint | [13-content-market-fit-sprint.md](../skills/diandra-escobar-linkedin-growth/workflows/13-content-market-fit-sprint.md) | Starting or resetting a LinkedIn presence |
 | Audit LinkedIn growth | [14-linkedin-growth-audit.md](../skills/diandra-escobar-linkedin-growth/workflows/14-linkedin-growth-audit.md) | Quarterly diagnostic or onboarding a client |
+| Architect scroll-stop hooks | [20-five-format-hook-architect.md](../skills/diandra-escobar-linkedin-growth/workflows/20-five-format-hook-architect.md) | A post/idea needs the strongest 2026-format hook (Dense / Punchy+Context / Bomb / Stacked) |
+
+> Note: workflows 15-20 (algorithm intelligence + hooks) are listed in full in [SKILL.md](../skills/diandra-escobar-linkedin-growth/SKILL.md); this table shows the core set.
 
 ## Decision Framework
 

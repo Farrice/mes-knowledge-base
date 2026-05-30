@@ -1,7 +1,9 @@
 # Diandra Escobar — Genius Context
 
-**Version**: 3.0 — Extracted from 3 sources (7,231 total words)
+**Version**: 4.1 — Extracted from 4 sources + Diandra's own production skill
 **Load before**: All workflows
+**v4.0 addition**: The 5-Format Hook System + pixel-width rendering (Patterns 19-22), from the 2026 "131 hooks / 21 creators" hook study.
+**v4.1 enrichment**: Integrated Diandra's actual `linkedin-hook-writer.skill` (primary source) — exact character limits, format sub-variants, the computable Width Scoring model, register/post-type/media handling, and her 40 hook-writing rules. References: [hook-format-library.md](references/hook-format-library.md) · [hook-writing-rules.md](references/hook-writing-rules.md) · [hook-examples-library.md](references/hook-examples-library.md) (her 131 annotated hooks).
 
 ---
 
@@ -126,6 +128,38 @@ Diandra Escobar treats LinkedIn growth as an **attention redirection problem**, 
 - **Deployment Context**: New brand builds, client onboarding when account is small, 90-day sprint framing.
 - **Success Metric**: New accounts seeing impression growth within first 30 days that outpaces network growth — signal that AI discovery is working.
 
+### Pattern 19: The Pixel-Width Budget (and how she operationalizes it)
+- **What She Does Unconsciously**: Sizes hooks by *visual width on a mobile screen*, not raw character count. The "150-character limit" is a myth — LinkedIn renders by pixels. `W` occupies ~4× the visual space of `i`, so a 30-char ALL-CAPS line can fill a line a 90-char narrow line doesn't.
+- **The reconciliation (key nuance)**: The video teaches *pixels, not characters* as the **mental model**. Her actual skill operationalizes it two ways, because an AI can't see pixels but can count:
+  1. **Width Scoring model** (the real pixel math) — every character has a footprint (narrow `i l 1 . ,`=1.0; lowercase/numbers=2.2; wide `m w`=2.8; caps regular=2.6; caps wide `M W`=4.0; space=1.2). One mobile line ≈ **110 width units** before wrap. Full table in [hook-examples-library.md](references/hook-examples-library.md).
+  2. **Character ceilings** (fast guardrails approximating the budget) — total ≤210, any single line ≤75; per-format: Dense 140-160, Punchy+Context lines ≤50, Bomb ≤50, Stacked lines ≤60. A **line break costs a full visible line**, not one character.
+- **Executable Behavior**: Generate against the character ceilings; width-score any borderline line; **final check is always visual** — paste into a mobile previewer (Cleo's), check mobile first (mobile-optimized ⇒ desktop-optimized, not the reverse). A blank canvas (Notion/Docs) lies about in-feed rendering.
+- **Deployment Context**: Every hook, before publishing. Hook advice that quotes only a character count is half-right; the width model is the truth, the ceilings are the shortcut.
+- **Success Metric**: The hook lands fully above the "see more" fold *on mobile* — verified by width-score and/or previewer, never assumed from raw character count.
+
+### Pattern 20: The Gap Is the Engine
+- **What She Does Unconsciously**: Treats every hook format as packaging around one mechanism — a gap between what the reader expects and what you're claiming. That gap is curiosity. Curiosity is the click.
+- **Executable Behavior**: Before choosing a format, find the gap. The first line states a *what*; the structure withholds the *resolution* — just enough context to feel the stakes, not enough to scroll past. If the hook doesn't open a gap, no format will save it. If it opens a real gap, even a weak format works. The job of a hook is to get the click — not to summarize, explain, or set up the post.
+- **Deployment Context**: Every hook, before format selection. Format is a downstream decision; the gap is upstream.
+- **Success Metric**: A cold reader cannot resolve the hook without clicking. They have to know what comes next.
+
+### Pattern 21: The 5-Format Hook System
+- **What She Does Unconsciously**: Pattern-matches any hookable idea to one of five visual formats that consistently earn the "see more" click in 2026 — derived from studying 131 outlier hooks across 21 working creators (SaaS, agency, e-com, B2B, content, AI). Not a 2022 playbook — what's pulling *now*.
+- **Executable Behavior**: Choose the format the idea wants (exact limits + sub-variants in [hook-format-library.md](references/hook-format-library.md)):
+  1. **Dense** (140-160 chars, 0 breaks) — continuous tension-packed text. Use when the hook *needs context to land* (data point, story setup, multi-clause claim).
+  2. **Punchy + Context** (each line ≤50, 1 break) — short hard line, blank line, context line. Highest hit rate; the workhorse. The punchy line *provokes*; the context line *earns the click*. **Sub-variants** (rotate): Plain · Parenthesis-wrap on line 2 · Strategic ALL-CAPS on one word in line 1 · After-Stack Setup ("After [cost]…").
+  3. **Single-Line Bomb** (≤50, 0 breaks, two manual line breaks beneath) — one sentence, no setup. Highest variance; lands hardest when it lands. Only when the line is genuinely too good to dilute.
+  4. **Stacked** (2-3 lines, each ≤60) — parallel lines on symmetry/pattern recognition; the brain finishes the rhythm and gets curious about the *implied* final line. **Sub-variants** (pick one): A Before/After Timeline · B Parallel Regret Stack · C Data-Question Opener (*the only place a `?` is allowed, and only with data-viz attached*) · D Stacked Jargon Cut-Off · E Problem-Cost-Twist (3-line, ≤50 each). Dies the moment the lines stop forming a predictable series.
+  5. **Hybrid / Custom** — once the four are internalized, think in tension not templates. Earned, not for beginners.
+- **Deployment Context**: Hook drafting and rewriting. Pair with Pattern 6 (body-first) — write the body, mine the line against the [40 rules](references/hook-writing-rules.md), then choose the format that fits the line. **Rewrite before relabel**: a too-short hook gets rewritten longer, never relabeled "Dense."
+- **Success Metric**: The chosen format matches the idea's shape, the sub-variant is rotated across the set, and every hook passes its character ceiling + width-score before the user sees it.
+
+### Pattern 22: The Wallpaper Effect (Format Saturation)
+- **What She Does Unconsciously**: Rotates formats because *psychology always wins* — when one format gets too consistent across the feed, the eye treats it as wallpaper and stops registering it. This is why the format that works keeps shifting: 2023 ≠ 2024 ≠ 2026.
+- **Executable Behavior**: Don't marry one format. Dense hooks emerged precisely *because* everyone saturated Punchy+Context and readers got tired of "everything in one line." Watch what the feed is over-using and lean into the format that breaks the pattern. A hook playbook from two years ago isn't just outdated — it's actively hurting you.
+- **Deployment Context**: Format selection over time; quarterly hook-strategy review. Cross-references Pattern 11 (format-test escalation) — your own data decides, best practices are starting points.
+- **Success Metric**: Your hook formats vary across a month and skew toward whatever the feed is *not* currently saturating.
+
 ---
 
 ## Hidden Knowledge
@@ -155,6 +189,24 @@ Tacit expertise Diandra demonstrates but doesn't explicitly teach:
 - **The Pod Detection Layer**: LinkedIn is actively building dwell-time analysis to distinguish real reading from scripted pod engagement. Short dwell times followed by immediate comments signal automation. Pod members are getting systematically deprioritized because the AI can detect "rapid comment, no actual reading" behavioral patterns. Authentic engagement with real dwell time is now the only safe engagement strategy.
 
 - **The Adam Bird Correction**: A common myth is that engaging with other posts gives YOUR content a "boost." Diandra clarifies via Adam Bird's research: your outbound engagement shapes YOUR feed (what you see), not your content's reach (what others see). However, what you see shapes what you CREATE — so strategic engagement is still critical for inspiration, not algorithm manipulation.
+
+- **360 Brew Reads the Hook First**: LinkedIn's current model (360 Brew) reads your first 40-50 words *before* it decides whether to push the post to anyone — and it specifically tracks whether people *stop and read*. A hook that earns the click tells 360 Brew "this post is worth distributing." So when a hook fails, two things die simultaneously: human curiosity AND algorithmic reach. The hook is the only lever that moves both at once. (This supersedes the older "unified Llama 3 retrieval" framing in Patterns 13-14 — same principle, current model name.)
+
+- **The Two-Line-Break Requirement**: For a Single-Line Bomb (and any hook where blank space is doing structural work), you must *manually* insert two blank line breaks beneath the hook before publishing. Without them, LinkedIn pulls your second sentence up onto the same mobile line above the fold — the bomb effect collapses and the structure breaks. The blank space below the line is the entire point: it should be the *only* thing visible above "see more."
+
+- **The Post-Previewer Is Non-Negotiable**: Spacing in Notion, Docs, or any blank canvas lies to you — it renders differently from LinkedIn's actual feed. Before publishing, paste the hook into a mobile post-previewer / text-formatting tool (Diandra uses Cleo's) and look at the real preview. Always check *mobile* first — if it's optimized for mobile, it's optimized for desktop, not vice versa.
+
+- **AI Thinks Inside the Box**: Diandra's own framing for the human-in-the-loop ceiling: "AI can only think within a box; your job is to think outside it." A hook skill gets you a stronger starting point than a blank page for ~80% of posts — but the creator's judgment about audience and voice is the final filter, never the AI's. Never hand the AI thin context and ask for "a hook about X"; feed it the full post so it can identify the genuinely hookable elements.
+
+- **No Questions in Hooks**: Questions invite the reader to answer in their head and scroll on. Statements, claims, and incomplete thoughts force the click. Replace "What's the one thing top closers do differently?" with "Top closers do one thing differently. Most reps never figure out what it is." The *only* exception is the Stacked Data-Question Opener (4C) when a chart/graph is attached. (This is a sharper rule than the generic "hooks create curiosity" — the *mechanism* matters: an open loop forces completion; a question offers closure.)
+
+- **No Em Dashes (natural Farrice stacking point)**: Diandra's production skill bans em dashes outright (use commas, periods, semicolons, colons, or rephrase), alongside no emojis and a banned-cliché list: "game-changer," "deep dive," "let that sink in," "read that again," "this changed everything," "they called me crazy," "here's the thing," "the truth is," "then it hit me," "I'm excited to share." This **aligns directly with Farrice's own AI-tells ban** — when deploying this skill on Parallax/Farrice content, the two rule-sets reinforce rather than conflict.
+
+- **Register Is a Decision, Not a Default**: Formal/B2B (standard caps, data-first) vs informal/social-native (fully lowercase, intimate) are two different instruments. Lowercase in B2B reads as careless; formal caps in a personal brand reads as stiff. Default to formal/B2B unless the author's voice is *consistently* informal. Explicit user capitalization preferences always override inference.
+
+- **Rewrite Before Relabel**: The subtle quality failure is relabeling a hook to dodge its format's length rule (calling a short hook "Dense," a long line "Punchy+Context") instead of rewriting it to fit. Relabeling is a last resort; after 2 failed rewrites, drop the hook and write a different angle. The user never sees broken counts or "reclassified" notes — only the final valid set.
+
+- **The Primary-Source Corpus**: The skill now carries Diandra's actual production assets — [131 annotated hooks](references/hook-examples-library.md) (44 Dense / 76 Punchy+Context / 3 Bomb / 8 Stacked) across 21 named creators, each tagged with the [rules](references/hook-writing-rules.md) it demonstrates, plus the computable Width Scoring Guide. Format distribution is itself a signal: Punchy+Context is ~58% of working hooks (the workhorse), Single-Line Bomb only ~2% (rare because it's high-variance and hard to land).
 
 ---
 
@@ -256,6 +308,8 @@ Tacit expertise Diandra demonstrates but doesn't explicitly teach:
 6. **Premature Conversion**: Running conversion content before growth + authority have built trust. You can't convert an audience that doesn't trust you yet.
 7. **The "Just Start" Fallacy**: Posting without researching competitors, outlier content, or ICP behavior first. Research before writing is non-negotiable.
 8. **Inspiration Dependency**: Waiting for ideas to come to you instead of extracting from existing material (calls, docs, expert conversations).
+9. **Counting Characters, Not Pixels**: Sizing a hook by character count. The 150-character limit doesn't exist — only a pixel-width budget does (Pattern 19). The fix is always a mobile post-previewer, never a character counter.
+10. **The Overloaded Punchy Line**: In Punchy+Context, making the first line explain, summarize, or hedge. The punchy line's only job is to *provoke*; the context line earns the click. A first line that does everything kills the gap.
 
 ---
 

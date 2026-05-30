@@ -1,9 +1,9 @@
 ---
 name: "Diandra Escobar - LinkedIn Growth Mastery"
 description: "Complete LinkedIn growth operating system — audience acquisition through borrowed-attention formats (brandjacking, newsjacking, namejacking, hot takes), content funnel architecture (4-bucket system), infrastructure setup (Notion + Drive + Claude), body-first writing process, strategic engagement layer, and steal-like-an-artist content sourcing."
-version: "3.1"
+version: "4.1"
 format: "completion-engine"
-workflows: 19
+workflows: 20
 ---
 
 # Diandra Escobar — LinkedIn Growth Mastery
@@ -71,6 +71,7 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 | 17 | [First-50 Hook Rewriter](workflows/17-first-50-hook-rewriter.md) | Audit + rewrite of the first 50 words for AI retrieval + human scroll-stop | Before publishing any post — the final pre-publish quality gate |
 | 18 | [Save-Worthy Content Architect](workflows/18-save-worthy-content-architect.md) | Content idea → save-optimized format (1 save ≈ 5x reach of 1 like) | Building authority/growth posts that need maximum algorithmic reach |
 | 19 | [90-Day Semantic Lane Strategy](workflows/19-semantic-lane-strategy.md) | Topic lane selection + 90-day commitment plan with anti-scatter guardrails | Quarterly strategy, new brand build, or fixing topic scatter |
+| 20 | [5-Format Hook Architect](workflows/20-five-format-hook-architect.md) | 8-10 character-validated, width-scored hooks across the 4 formats (+ sub-variants) with register/post-type/media handling and a top-3 pick — a faithful port of Diandra's own `linkedin-hook-writer.skill` | You have a post/idea and need the strongest scroll-stop hook — or a flopped post you want to re-hook |
 
 ### Meta
 
@@ -80,6 +81,9 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Hook Format Library**: [references/hook-format-library.md](references/hook-format-library.md) — the 4 formats + sub-variants, exact character limits, width-scoring, register/post-type/media (load with workflow 20)
+- **Hook Writing Rules**: [references/hook-writing-rules.md](references/hook-writing-rules.md) — Diandra's 40 named hook-writing rules
+- **Hook Examples Library**: [references/hook-examples-library.md](references/hook-examples-library.md) — her 131 annotated hooks (primary source) + the computable Width Scoring Guide
 - **Decision Framework**: [genius.md § Decision Framework](genius.md) — confirm this is the right expert
 - **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs
 - **Quality Rubric**: [genius.md § Quality Rubric](genius.md) — score outputs across 7 criteria
