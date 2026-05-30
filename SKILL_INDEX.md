@@ -94,6 +94,7 @@
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | philosopher-financier skill | 5 | 30 |
 | `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery | 9 | 6 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | for ai-leveraged copywriting business use cardinal-mason-ai-copywriting, writing career monetization | 5 | 0 |
+| `john-whiting-propaganda-machine` | **john-whiting-propaganda-machine** | john whiting's content-closes-the-sale system, carries a mandatory ethics gate, the propaganda machine | 15 | 0 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy | 2 | 5 |
 | `jonathan-franzen-storytelling` | **Jonathan Franzen - Storytelling Mastery** | storytelling mastery | 4 | 6 |
 | `joscha-bach-consciousness` | **Joscha Bach - Computational Consciousness** | philosophy-of-mind meets system design, for action-bias breakthrough on practical blocks use ali-abdaal-action-bias, computational consciousness | 5 | 0 |

@@ -65,6 +65,7 @@
 | `jessica-jensen` | **Jessica Jensen** | agent configuration |
 | `jim-oshaughnessy` | **jim-oshaughnessy** | behavioral finance, cross-domain synthesis, four horsemen defense, human nature arbitrage, pre-fall/post-fall assessment, saturated intuition calibration, strategic thinking, wisdom transmission |
 | `joanna-wiebe` | **joanna-wiebe** | authority craft, conversion copywriting, persuasive writing, writing career monetization |
+| `john-whiting` | **john-whiting** | buying-psychology architecture, content-as-sales-team systems — selling coaching/high-ticket services without sales calls via belief-shift content + retargeting, data-driven bottleneck diagnosis, data-driven business + wealth engineering, lean leverage + wealth engineering, objection-handling-moved-out-front, the propaganda machine |
 | `jonathan-courtney` | **Jonathan Courtney** | agent persona |
 | `jonathan-franzen` | **Jonathan Franzen** | agent profile, compression, literary fiction • character psychology • narrative compression • storytelling → marketing translation |
 | `joscha-bach` | **Joscha Bach** | agent architecture theory, computational consciousness, existential design, identity engineering, philosophy of mind, system coherence |
