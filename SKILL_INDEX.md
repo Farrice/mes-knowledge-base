@@ -33,6 +33,7 @@
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** | for personal-brand fundamentals via godin use seth-godin-brand | 11 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai copywriting mastery | 5 | 45 |
+| `chase-hughes-context-engineering` | **chase-hughes-context-engineering** | build the perfect recipient first, standalone operating layer (/ce-design, /ce-build) and a chain step-3, 5 front-end that hands a context-design spec to a production expert | 8 | 0 |
 | `chase-hughes-conversational-influence` | **chase-hughes-conversational-influence** | conviction lands, they never know they were guided), conversational influence | 6 | 0 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | 3% instead of 1%+, for non-financial dr campaigns use bond-halbert-copywriting, for sentence-level dopamine copy use stefan-georgi-dopamine-copy | 5 | 0 |
 | `cinematic-documentary` | **cinematic-documentary** | emotion over information ("find the egg sushi"), audience treated as parallel character on transformation arc, skill manifest | 13 | 0 |
@@ -56,7 +57,7 @@
 | `david-placek-naming` | **David Placek — Brand Naming Science** | brand naming science | 6 | 11 |
 | `deliberate` | **deliberate** | built for high-stakes decisions where opaque single-model output is risky, distinct from /council (single-model multi-persona), this is single-prompt multi-model | 0 | 0 |
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |
-| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | linkedin growth mastery | 20 | 0 |
+| `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | linkedin growth mastery | 22 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
 | `donald-miller-business-growth` | **Donald Miller — Small Business Growth & Operations** | the two engines are owned by the messaging skills, small business growth & operations | 6 | 0 |

@@ -1,9 +1,9 @@
 ---
 name: "Diandra Escobar - LinkedIn Growth Mastery"
 description: "Complete LinkedIn growth operating system — audience acquisition through borrowed-attention formats (brandjacking, newsjacking, namejacking, hot takes), content funnel architecture (4-bucket system), infrastructure setup (Notion + Drive + Claude), body-first writing process, strategic engagement layer, and steal-like-an-artist content sourcing."
-version: "4.1"
+version: "4.2"
 format: "completion-engine"
-workflows: 20
+workflows: 22
 ---
 
 # Diandra Escobar — LinkedIn Growth Mastery
@@ -73,6 +73,13 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 | 19 | [90-Day Semantic Lane Strategy](workflows/19-semantic-lane-strategy.md) | Topic lane selection + 90-day commitment plan with anti-scatter guardrails | Quarterly strategy, new brand build, or fixing topic scatter |
 | 20 | [5-Format Hook Architect](workflows/20-five-format-hook-architect.md) | 8-10 character-validated, width-scored hooks across the 4 formats (+ sub-variants) with register/post-type/media handling and a top-3 pick — a faithful port of Diandra's own `linkedin-hook-writer.skill` | You have a post/idea and need the strongest scroll-stop hook — or a flopped post you want to re-hook |
 
+### Hooks & Production Line
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 21 | [Re-Hook Teardown](workflows/21-rehook-teardown.md) | Client-facing diagnostic for 1-10 flopped posts — failure mode + buried gap + 3 validated rebuilds each + the one habit to fix. The productized service ([deployment kit](references/rehook-teardown-kit.md)) | Lead magnet, paid hook audit, client onboarding, or reclaiming reach from your own back catalog |
+| 22 | [Post Finisher (Production Line)](workflows/22-post-finisher.md) | One publish-ready post from a draft: save-architecture (conditional) → format-validated hook → AI-signal confirmation, assembled with receipts | You have a draft body and want the whole line (18→20→17) run in one pass instead of three |
+
 ### Meta
 
 | # | Workflow | Produces | Use When |
@@ -84,6 +91,7 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 - **Hook Format Library**: [references/hook-format-library.md](references/hook-format-library.md) — the 4 formats + sub-variants, exact character limits, width-scoring, register/post-type/media (load with workflow 20)
 - **Hook Writing Rules**: [references/hook-writing-rules.md](references/hook-writing-rules.md) — Diandra's 40 named hook-writing rules
 - **Hook Examples Library**: [references/hook-examples-library.md](references/hook-examples-library.md) — her 131 annotated hooks (primary source) + the computable Width Scoring Guide
+- **Re-Hook Teardown Kit**: [references/rehook-teardown-kit.md](references/rehook-teardown-kit.md) — offer, pricing ladder, outreach copy, client deliverable template (for workflow 21)
 - **Decision Framework**: [genius.md § Decision Framework](genius.md) — confirm this is the right expert
 - **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — quality gate for all outputs
 - **Quality Rubric**: [genius.md § Quality Rubric](genius.md) — score outputs across 7 criteria

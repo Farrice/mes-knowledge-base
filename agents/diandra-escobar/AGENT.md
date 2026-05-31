@@ -40,8 +40,12 @@ Diandra Escobar is a LinkedIn growth strategist who built Distinctiva — a grow
 | Run 90-day sprint | [13-content-market-fit-sprint.md](../skills/diandra-escobar-linkedin-growth/workflows/13-content-market-fit-sprint.md) | Starting or resetting a LinkedIn presence |
 | Audit LinkedIn growth | [14-linkedin-growth-audit.md](../skills/diandra-escobar-linkedin-growth/workflows/14-linkedin-growth-audit.md) | Quarterly diagnostic or onboarding a client |
 | Architect scroll-stop hooks | [20-five-format-hook-architect.md](../skills/diandra-escobar-linkedin-growth/workflows/20-five-format-hook-architect.md) | A post/idea needs the strongest 2026-format hook (Dense / Punchy+Context / Bomb / Stacked) |
+| Re-hook teardown (service) | [21-rehook-teardown.md](../skills/diandra-escobar-linkedin-growth/workflows/21-rehook-teardown.md) | Diagnose + rebuild hooks on 1-10 flopped posts — lead magnet / paid audit / own back catalog |
+| Finish a post (full line) | [22-post-finisher.md](../skills/diandra-escobar-linkedin-growth/workflows/22-post-finisher.md) | A draft body needs save-arch + hook + AI-signal run in one pass |
 
-> Note: workflows 15-20 (algorithm intelligence + hooks) are listed in full in [SKILL.md](../skills/diandra-escobar-linkedin-growth/SKILL.md); this table shows the core set.
+> Note: workflows 15-22 (algorithm intelligence + hooks + production line) are listed in full in [SKILL.md](../skills/diandra-escobar-linkedin-growth/SKILL.md); this table shows the core set.
+
+**Fireable slash commands**: `/diandra-hook-architect` · `/diandra-rehook-teardown` · `/diandra-post-finisher` (+ the earlier `/diandra-*` set).
 
 ## Decision Framework
 
