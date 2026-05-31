@@ -1,0 +1,18 @@
+slug: teardown-skool
+created_at: '2026-05-31T19:03:04Z'
+updated_at: '2026-05-31T19:03:04Z'
+brand:
+  name: ''
+  tagline: ''
+  voice: ''
+  audience: community builders, coaches, and creators who want a paid community plus
+    courses in one place; tired of scattered tools, chasing engagement and recurring
+    revenue, fear of building something nobody sho
+  palette: []
+decisions: {}
+anchors: []
+history:
+- ts: '2026-05-31T19:03:04Z'
+  phase: init
+  action: project initialized
+  output_ref: ''

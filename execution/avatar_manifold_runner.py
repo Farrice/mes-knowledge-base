@@ -66,8 +66,8 @@ DEFAULT_MAX_AGE_DAYS = 30  # grounding freshness window before a --refresh is su
 # cost for depth — and reuse means iterations cost $0.
 COST_EST = {
     "free": {"gemini": 0.0, "apify": 0.0, "label": "FREE (model-side: Recall + WebFetch + search_web + Playwright — real live social listening, $0)"},
-    "lean": {"gemini": 0.0, "apify": 0.11, "label": "LEAN (Apify VOC: reddit ~$0.05 + amazon ~$0.045 + youtube ~$0.05 — real verbatim VOC, no paid synthesis)"},
-    "deep": {"gemini": 1.50, "apify": 0.11, "label": "DEEP (Gemini Deep Research max ~$1.50 + Apify VOC ~$0.11 — full synthesized foundation)"},
+    "lean": {"gemini": 0.0, "apify": 0.11, "label": "LEAN (Apify VOC: reddit ~$0.05 + amazon ~$0.045 + youtube ~$0.05 — real verbatim VOC, no synthesis)"},
+    "deep": {"gemini": 0.01, "apify": 0.11, "label": "DEEP (Gemini fast Search-grounding ~$0 + Tavily free + Apify VOC ~$0.11 — fast grounded foundation, SECONDS). --mode max swaps in slow Deep Research (~$1.50, 5-15min)."},
 }
 
 
@@ -77,9 +77,9 @@ def now() -> str:
 
 def est_cost(tier: str, mode: str) -> float:
     c = COST_EST.get(tier, COST_EST["deep"])
-    g = c["gemini"]
-    if tier == "deep" and mode == "standard":
-        g = 0.50
+    g = c["gemini"]  # deep=0.01 (fast Search-grounding, ~$0)
+    if tier == "deep" and mode == "max":
+        g = 1.50  # --mode max swaps in the slow Deep Research interaction
     return round(g + c["apify"], 2)
 
 
@@ -105,12 +105,29 @@ def log(msg: str) -> None:
 
 
 # ─────────────────────────────────────────────────────────────────────────
-# Gemini foundation (PRIMARY) → Perplexity (fallback) → degrade
+# Foundation grounding — reliable + fast + cost-safe chain:
+#   PRIMARY  : Gemini fast Search-grounding (~3s, ~$0 under the AI Studio key)
+#   --mode max: slow Gemini Deep Research interaction (5-15min async, comprehensive)
+#   FALLBACK : Tavily web research (FREE, 1000/mo)
+#   DEGRADE  : recall-only, model-side, [MODELED] (never fabricate, never escalate paid pools)
+# Perplexity is intentionally NOT in the auto-chain (its API key returns 401
+# quota-exceeded; the consumer Pro sub ≠ API credits). Re-add only if API billing
+# is funded. Rationale + live probe: 2026-05-31 diagnosis.
 # ─────────────────────────────────────────────────────────────────────────
 
-def gemini_foundation(market: str, product: str, slug: str, mode: str) -> tuple[str, str]:
-    """Returns (markdown, status) where status ∈ PASS|FALLBACK|DEGRADED."""
-    query = (
+def _env_vars() -> dict:
+    env = {}
+    try:
+        for l in (ROOT / ".env").read_text().splitlines():
+            if "=" in l and not l.strip().startswith("#"):
+                k, _, v = l.partition("="); env[k.strip()] = v.strip().strip('"').strip("'")
+    except Exception:
+        pass
+    return env
+
+
+def _foundation_query(market: str, product: str) -> str:
+    return (
         f"Comprehensive market intelligence for: {market}"
         + (f" (product context: {product})" if product else "")
         + ". Cover: demographics; the core problem and how it shows up (symptoms); "
@@ -119,66 +136,110 @@ def gemini_foundation(market: str, product: str, slug: str, mode: str) -> tuple[
         "solution; pricing and competitor angles; and the current zeitgeist of this "
         "market. Cite sources with URLs."
     )
-    sys.path.insert(0, str(EXEC))
-    # Resolve BudgetExhaustedError up front so the except clause can distinguish a
-    # budget stop (→ DEGRADE to $0, never escalate pools) from a transient error.
+
+
+def gemini_fast_grounding(query: str, market: str) -> tuple:
+    """FAST Gemini generation + Google Search grounding (~3s, ~$0 under the AI Studio
+    key/Ultra). The right tool for copy grounding — vs the 5-15min Deep Research
+    interaction. Uses `requests` (certifi) to dodge macOS urllib SSL failures.
+    Returns (markdown|None, 'PASS'|'FAIL')."""
     try:
-        from deep_research_client import BudgetExhaustedError
-    except Exception:
-        class BudgetExhaustedError(Exception):  # sentinel if import path is unavailable
-            pass
-    # ---- Gemini (primary) ----
-    try:
-        from deep_research_client import DeepResearchClient, load_env
-        load_env()
-        client = DeepResearchClient()
-        log(f"Gemini Deep Research ({mode}) firing…")
-        res = client.research(query, mode=mode, task_context=f"avatar-{slug}")
-        if not (res.text or "").strip():
-            # Completed but empty = NOT a real success. Never report a false PASS.
-            raise RuntimeError("Gemini Deep Research returned empty text (no usable report)")
-        cites = "\n".join(f"- {c}" for c in (res.citations or [])) or "- (none returned)"
+        import requests
+        env = _env_vars()
+        key = env.get("GEMINI_API_KEY") or env.get("GOOGLE_AI_STUDIO_KEY")
+        model = env.get("GEMINI_MODEL", "gemini-2.5-flash")
+        if not key:
+            return None, "FAIL"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={key}"
+        body = {"contents": [{"parts": [{"text": query}]}], "tools": [{"google_search": {}}]}
+        r = requests.post(url, json=body, timeout=120)
+        r.raise_for_status()
+        cand = r.json()["candidates"][0]
+        text = "".join(p.get("text", "") for p in cand["content"]["parts"] if isinstance(p, dict))
+        if not text.strip():
+            return None, "FAIL"
+        gm = cand.get("groundingMetadata", {})
+        cites = [(ch.get("web") or {}).get("uri") for ch in gm.get("groundingChunks", [])]
+        cite_md = "\n".join(f"- {c}" for c in cites if c) or "- (Google Search grounded; inline)"
         md = (
             f"# Market Landscape — {market}\n"
-            f"_Source: Gemini Deep Research ({mode}) · {now()} · {len(res.text)} chars_\n\n"
-            f"{res.text}\n\n## Citations\n{cites}\n"
+            f"_Source: Gemini {model} + Google Search grounding · {now()} · {len(text)} chars · grounded={bool(gm)}_\n\n"
+            f"{text}\n\n## Grounding Sources\n{cite_md}\n"
         )
         return md, "PASS"
-    except BudgetExhaustedError as e:
-        # Cheap pool exhausted → fail-CLOSED to $0 (recall-only). Do NOT auto-escalate
-        # to the more expensive Perplexity deep-research pool — that would spend MORE
-        # when the budget is already tight (the cost-leak the user explicitly fears).
-        log(f"Gemini budget exhausted ({e}) → DEGRADE to recall-only ($0); NOT escalating to paid Perplexity.")
-        md = (
-            f"# Market Landscape — {market}\n"
-            f"_GROUND STATUS: DEGRADED — Gemini budget exhausted; Perplexity NOT auto-fired "
-            f"(fail-closed on budget). Model: fire `mcp__recall__search` (focused) + free "
-            f"WebFetch/search_web, proceed with `[MODELED]` flags where unfilled._\n"
-        )
-        return md, "DEGRADED"
-    except Exception as e:  # transient/network/API — a different-pool fallback is reasonable
-        log(f"Gemini unavailable ({type(e).__name__}: {e}) → Perplexity fallback")
-    # ---- Perplexity (fallback) ----
-    try:
-        from perplexity_client import PerplexityClient, load_env as pload
-        pload()
-        pclient = PerplexityClient()
-        res = pclient.search(query, model="sonar-deep-research")
-        cites = "\n".join(f"- {c}" for c in (getattr(res, "citations", None) or [])) or "- (none)"
-        md = (
-            f"# Market Landscape — {market}\n"
-            f"_Source: Perplexity sonar-deep-research (Gemini fallback) · {now()}_\n\n"
-            f"{res.text}\n\n## Citations\n{cites}\n"
-        )
-        return md, "FALLBACK"
     except Exception as e:
-        log(f"Perplexity also unavailable ({type(e).__name__}) → DEGRADED (recall-only, model-side)")
-    md = (
-        f"# Market Landscape — {market}\n"
-        f"_GROUND STATUS: DEGRADED — Gemini + Perplexity unavailable. "
-        f"Model: fire `mcp__recall__search` (focused) and proceed with `[MODELED]` flags._\n"
-    )
-    return md, "DEGRADED"
+        log(f"Gemini fast-grounding failed ({type(e).__name__}: {str(e)[:120]})")
+        return None, "FAIL"
+
+
+def tavily_grounding(query: str, market: str, max_results: int = 8) -> tuple:
+    """FREE web research via Tavily (1000/mo). Fallback when Gemini is unavailable.
+    Returns (markdown|None, 'TAVILY'|'FAIL')."""
+    try:
+        import requests
+        tk = _env_vars().get("TAVILY_API_KEY")
+        if not tk:
+            return None, "FAIL"
+        r = requests.post("https://api.tavily.com/search",
+                          json={"api_key": tk, "query": query, "max_results": max_results,
+                                "search_depth": "advanced", "include_answer": True}, timeout=60)
+        r.raise_for_status()
+        d = r.json()
+        ans = d.get("answer", "") or ""
+        rows = "\n".join(f"- [{x.get('title','')[:80]}]({x.get('url','')}) — {x.get('content','')[:220]}"
+                         for x in d.get("results", []))
+        if not (ans or rows):
+            return None, "FAIL"
+        md = (
+            f"# Market Landscape — {market}\n"
+            f"_Source: Tavily web research (FREE) · {now()}_\n\n"
+            f"{ans}\n\n## Sources\n{rows}\n"
+        )
+        return md, "TAVILY"
+    except Exception as e:
+        log(f"Tavily failed ({type(e).__name__}: {str(e)[:120]})")
+        return None, "FAIL"
+
+
+def gemini_foundation(market: str, product: str, slug: str, mode: str) -> tuple:
+    """Returns (markdown, status ∈ PASS|FALLBACK|DEGRADED). Fast-first, cost-safe."""
+    query = _foundation_query(market, product)
+    sys.path.insert(0, str(EXEC))
+
+    # --mode max → slow comprehensive Deep Research interaction (explicit deep dive).
+    if mode == "max":
+        try:
+            from deep_research_client import DeepResearchClient, BudgetExhaustedError, load_env
+            load_env()
+            log("Gemini Deep Research (max) firing — comprehensive async, may take several minutes…")
+            res = DeepResearchClient().research(query, mode="max", task_context=f"avatar-{slug}")
+            if (res.text or "").strip():
+                cites = "\n".join(f"- {c}" for c in (res.citations or [])) or "- (none returned)"
+                return (f"# Market Landscape — {market}\n_Source: Gemini Deep Research (max) · {now()} · "
+                        f"{len(res.text)} chars_\n\n{res.text}\n\n## Citations\n{cites}\n"), "PASS"
+            log("Deep Research (max) returned empty → fast Search-grounding fallback")
+        except BudgetExhaustedError as e:
+            log(f"Gemini budget exhausted ({e}) → fast grounding / degrade; NOT escalating paid pools.")
+        except Exception as e:
+            log(f"Deep Research (max) unavailable ({type(e).__name__}) → fast Search-grounding fallback")
+
+    # PRIMARY: fast Search-grounded generation (seconds, ~$0).
+    log("Gemini fast Search-grounding firing… (~3s)")
+    md, st = gemini_fast_grounding(query, market)
+    if st == "PASS":
+        return md, "PASS"
+
+    # FREE fallback: Tavily web research.
+    log("Gemini fast unavailable → Tavily (free web research) fallback")
+    md, st = tavily_grounding(query, market)
+    if st == "TAVILY":
+        return md, "FALLBACK"
+
+    # Final degrade — recall-only, model-side, [MODELED]. Never fabricate.
+    return (f"# Market Landscape — {market}\n"
+            f"_GROUND STATUS: DEGRADED — Gemini + Tavily unavailable. Model: fire "
+            f"`mcp__recall__search` (focused) + free WebFetch/search_web; proceed with "
+            f"`[MODELED]` flags where unfilled._\n"), "DEGRADED"
 
 
 # ─────────────────────────────────────────────────────────────────────────
@@ -336,11 +397,42 @@ def build_voc_pack(market: str, depth: str, tier: str = "deep") -> tuple[str, in
         seen.add(k)
         rows.append(f'| "{text[:280]}" | {url} | [VOC] | _(classify)_ |')
 
+    # --- FREE Tavily VOC (reliable web sources: reviews, forums, discussions — $0, 1000/mo) ---
+    # The dependable free layer: Reddit 403s server-side and HN skews tech-only, so Tavily
+    # is what actually clears the source-URL floor for most markets at zero cost.
+    try:
+        import requests
+        tk = _env_vars().get("TAVILY_API_KEY")
+        if tk:
+            added = 0
+            for vq in (short_q + " reviews complaints", short_q + " frustrated forum discussion"):
+                try:
+                    tr = requests.post("https://api.tavily.com/search",
+                                       json={"api_key": tk, "query": vq, "max_results": 6,
+                                             "search_depth": "advanced"}, timeout=40)
+                    if tr.ok:
+                        for x in tr.json().get("results", []):
+                            txt = (x.get("content") or x.get("title") or "").strip().replace("\n", " ")
+                            url = x.get("url", "")
+                            k = txt[:60].lower()
+                            if len(txt) >= 40 and url and k not in seen:
+                                seen.add(k)
+                                rows.append(f'| "{txt[:280]}" | {url} | [VOC] | _(classify)_ |')
+                                added += 1
+                except Exception:
+                    pass
+            if added:
+                log(f"free Tavily VOC: {added} source-linked web soundbites ($0)")
+    except Exception as e:
+        log(f"Tavily VOC skipped ({type(e).__name__})")
+
     # --- Optional Apify accelerator (heavy depth, paid tiers only) ---
+    # Tavily (above, free) covers review/forum sources reliably; Apify youtube adds
+    # video VOC. The amazon actor was dropped — it repeatedly hit budget-fallback
+    # (tripping voc_degraded) and Tavily already covers the review layer for $0.
     plan = []
     if depth == "heavy" and tier in ("lean", "deep"):
-        plan = [("amazon", short_q + " book course", 20, False, False),
-                ("youtube", short_q, 8, False, True)]
+        plan = [("youtube", short_q, 8, False, True)]
     for actor, q, lim, com, tr in plan:
         sb, deg = apify_pull(actor, q, lim, comments=com, transcript=tr)
         degraded = degraded or deg

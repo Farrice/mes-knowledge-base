@@ -115,3 +115,5 @@
 - `[2026-05-31 10:20]` **finalize** | VSL lead v2 (hook + ~200 words), $2k Authority Flywheel — The Invisible Expert. SHARPENED close: Ins | copywriting | luke-iha — composite:7.25 status:Needs Improvement
 - `[2026-05-31 10:44]` **finalize** | Invisible Expert VSL lead ($2k Authority Flywheel) — writers-room polished: killed 'It's not X it's  | copywriting | luke-iha — composite:8.67 status:Keep
 - `[2026-05-31 10:44]` **finalize** | Course-graveyard coach cold FB ad / advertorial (AI Brain Build) — writers-room polished: killed ban | general | luke-iha — composite:8.67 status:Keep
+- `[2026-05-31 12:14]` **finalize** | Cold Meta ad + constructive LinkedIn teardown of MasterClass for ambitious lifelong learners who wat | general | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-05-31 12:15]` **finalize** | Skool teardown: beating landing-page hero + constructive brandjack LinkedIn post. Avatar insight = l | general | luke-iha — composite:7.25 status:Needs Improvement

@@ -29,7 +29,10 @@ Three layers, mirroring Fully Booked: **one-time projects** (cash now), **recurr
 | # | Offer | What they actually get | Price | Type | Fully Booked rung |
 |---|-------|------------------------|-------|------|-------------------|
 | 0 | **The Unsolicited Demo** | One of their posts, rewritten in their real voice. No pitch. | Free | Door-opener | (Cole; FB has none) |
+| 0.5 | **The Public Teardown** *(series)* | A recognizable brand's copy reverse-engineered + rewritten, posted publicly + constructively. *The demonstration is the marketing.* | **Free** | **Lead engine** | (`/teardown` → `avatar-copy-engine-offer.md`) |
 | 1 | **The Proof Run** | 8 posts + 1 VSL draft, in their voice. De-risk taste. | $750 *(pilot $500)* | Project | — |
+| 1.5 | **The Competitor Teardown Audit** | Reverse-engineer a named competitor: their customer's Avatar Manifold + before/after rewrite of every live asset + the gap map, packaged. *"I'll know your competitor's customer better than they do."* | **$1,500** *(pilot $1k)* | Project | (new — the avatar+copy wedge) |
+| 1.6 | **The Avatar Intelligence Sprint** | The full Avatar Manifold for THEIR offer + one flagship asset built off it. The "best avatar research on the market" proof, for their own business. | **$2,000** | Project | (new) |
 | 2 | **The Authority Foundation** | Voice extraction + positioning + one-liner + 4 content pillars + their AI voice-brain. The bedrock everything else stands on. | **$2,500** | Project | Brand Messaging ($2.5–5K) |
 | 3 | **The Lead Engine** | Signature lead magnet (or Educational Email Course) + landing copy + 5-email nurture, all on autopilot. | **$3,000–5,000** | Project | Lead Gen ($3–6K) |
 | 4 | **The Authority Engine Build** | The full done-for-you system: positioning + profile rewrite + 10-post launch series + lead magnet + nurture + AI brain. *(absorbs "Launch Machine")* | **$5,000–8,000** | Project | Website + Lead Gen + Email |

@@ -3,7 +3,7 @@
   "plan_dollars": 29.0,
   "soft_warn_pct": 0.7,
   "hard_stop_pct": 0.9,
-  "spent_dollars": 0.068,
+  "spent_dollars": 0.228,
   "runs": [
     {
       "ts": "2026-05-29T14:02:12.995567+00:00",
@@ -37,6 +37,30 @@
     },
     {
       "ts": "2026-05-31T18:24:28.276896+00:00",
+      "actor": "youtube",
+      "results": 8,
+      "cost": 0.04
+    },
+    {
+      "ts": "2026-05-31T19:03:04.564977+00:00",
+      "actor": "youtube",
+      "results": 8,
+      "cost": 0.04
+    },
+    {
+      "ts": "2026-05-31T19:13:36.705996+00:00",
+      "actor": "youtube",
+      "results": 8,
+      "cost": 0.04
+    },
+    {
+      "ts": "2026-05-31T19:15:50.619182+00:00",
+      "actor": "youtube",
+      "results": 8,
+      "cost": 0.04
+    },
+    {
+      "ts": "2026-05-31T19:17:36.441441+00:00",
       "actor": "youtube",
       "results": 8,
       "cost": 0.04

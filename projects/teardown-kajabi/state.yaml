@@ -1,0 +1,36 @@
+slug: teardown-kajabi
+created_at: '2026-05-31T18:46:24Z'
+updated_at: '2026-05-31T19:03:04Z'
+brand:
+  name: ''
+  tagline: ''
+  voice: ''
+  audience: "coaches, course creators, and experts trying to monetize their knowledge\
+    \ online \u2014 overwhelmed by tech and tool-stitching, unsure how to package\
+    \ and sell their expertise, afraid of looking salesy"
+  palette: []
+decisions: {}
+anchors:
+- id: anchor-001
+  type: ground_dossier
+  path: .tmp/copy-engine/teardown-kajabi/ground-dossier.md
+  created_at: '2026-05-31T19:03:04Z'
+  description: GROUND dossier (DEGRADED)
+  ref_for:
+  - build-a-buyer
+  - specific-language
+  - pain-matrix
+  - core-wound
+history:
+- ts: '2026-05-31T18:46:24Z'
+  phase: init
+  action: project initialized
+  output_ref: ''
+- ts: '2026-05-31T19:03:04Z'
+  phase: ''
+  action: 'anchor added: ground_dossier'
+  output_ref: anchor-001
+- ts: '2026-05-31T19:03:04Z'
+  phase: 'Phase 0: GROUND'
+  action: runner cold-start research (DEGRADED)
+  output_ref: ''
