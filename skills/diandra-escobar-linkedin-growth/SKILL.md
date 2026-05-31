@@ -78,7 +78,26 @@ Diandra Escobar is the founder of Distinctiva, a LinkedIn growth agency that has
 | # | Workflow | Produces | Use When |
 |---|---------|----------|----------|
 | 21 | [Re-Hook Teardown](workflows/21-rehook-teardown.md) | Client-facing diagnostic for 1-10 flopped posts — failure mode + buried gap + 3 validated rebuilds each + the one habit to fix. The productized service ([deployment kit](references/rehook-teardown-kit.md)) | Lead magnet, paid hook audit, client onboarding, or reclaiming reach from your own back catalog |
-| 22 | [Post Finisher (Production Line)](workflows/22-post-finisher.md) | One publish-ready post from a draft: save-architecture (conditional) → format-validated hook → AI-signal confirmation, assembled with receipts | You have a draft body and want the whole line (18→20→17) run in one pass instead of three |
+| 22 | [Post Finisher (Production Line)](workflows/22-post-finisher.md) | One publish-ready post from a topic OR draft: writes body (if needed) → save-architecture (conditional) → format-validated hook → AI-signal confirmation, assembled with receipts | You want the whole line run in one pass instead of firing four workflows by hand |
+
+---
+
+## ⭐ The Production Line — Canonical Order (single source of truth)
+
+The full post-production sequence. **Order is load-bearing** because of body-first (Pattern 6): the hook must be mined from the *final* body, and the save-architecture step rewrites the body. Run them in this order — or fire `/diandra-post-finisher` to run the whole thing in one pass.
+
+| Step | Stage | Workflow | Fire it directly | Conditional? |
+|------|-------|----------|------------------|--------------|
+| 1 | Write the body | 09 Writing Engine | `/diandra-content-engine` | Skip if you already have a draft body |
+| 2 | Restructure for saves | 18 Save-Worthy | `/diandra-save-architect` | **Only** for Authority / teaching / data posts — skip for personal/narrative |
+| 3 | Architect the hook | 20 Hook Architect | `/diandra-hook-architect` | Always (authoritative hook engine) |
+| 4 | Confirm AI signal | 17 First-50 | `/diandra-first-50` | Always (confirmation pass) |
+
+**Canonical order: `09 → [18 if save-worthy] → 20 → 17`.**
+
+- ❌ NOT `09 → 20 → 17 → 18` — 18 rewrites the body, so it can't run *after* the hook was mined from it.
+- ❌ NOT `17 → 18 → 20` — 17 confirms signal on the finished hook; nothing exists to check until 20 has run.
+- **One-command version**: `/diandra-post-finisher` runs steps 1-4 in this exact order (step 1 only if you give it a topic instead of a body; step 2 only if the bucket warrants it). Inside the finisher, **20 owns the hook** — 18 shapes the body, 17 only tunes the signal, so the three never produce competing hooks.
 
 ### Meta
 
