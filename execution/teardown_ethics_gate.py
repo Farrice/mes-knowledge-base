@@ -100,6 +100,27 @@ def _hits(patterns: List[str], text: str) -> List[str]:
     return out
 
 
+# Negators that flip a contempt word into a constructive refusal ("NOT lazy",
+# "the opposite of clueless", "never incompetent"). A contempt match preceded by
+# one of these within a short window is the copy *refusing* the slur, not slinging it.
+_NEGATORS = re.compile(
+    r"(not|n'?t|never|opposite of|far from|hardly|isn'?t|aren'?t|wasn'?t|"
+    r"weren'?t|anything but|no longer|nobody'?s)\W+(\w+\W+){0,3}$", re.I)
+
+
+def _contempt_hits(text: str) -> List[str]:
+    """Contempt words that are NOT negated (negation = the copy refusing the slur)."""
+    out = []
+    for p in _CONTEMPT:
+        for m in re.finditer(p, text, re.I):
+            preceding = text[max(0, m.start() - 40): m.start()]
+            if _NEGATORS.search(preceding):
+                continue  # "not lazy" / "the opposite of clueless" → constructive
+            out.append(m.group(0).strip())
+            break
+    return out
+
+
 def _normalize_words(text: str) -> List[str]:
     return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", text.lower())).split()
 
@@ -132,7 +153,7 @@ def _copyright_flags(artifact: str, recon: str) -> List[str]:
 
 def evaluate(mode: str, text: str, recon: str = "") -> Dict[str, Any]:
     """Deterministic structural checks. Returns verdict (PASS/REVIEW/BLOCK) + flags."""
-    contempt = _hits(_CONTEMPT, text)
+    contempt = _contempt_hits(text)
     constructive = _hits(_CONSTRUCTIVE, text)
     flags: List[str] = []
     verdict = "PASS"
