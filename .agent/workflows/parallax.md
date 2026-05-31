@@ -342,6 +342,7 @@ Load based on topic domain (check Hot Context first):
   - Kallaway (`skills/kallaway-content-psychology/`) — dopamine ladder, hooks, anticipation engineering
   - **Erica Mallet** (`skills/erica-mallet-brand-magnetism/`) — Enemy Effect, belief architecture, tribal resonance
   - **Luke Iha Proof Ladder** (`skills/luke-iha-proof-ladder/`) — proof borrowing from brands, papers, cultural events (critical for newsjacking/brandjacking editions)
+  - **David Bayer Radical Distillation** (`skills/david-bayer-elite-communication/genius.md` — load signature move 5 + "Distill up, don't dumb down" pattern only, not the full skill) — the texture layer that makes every insight land. Distill UP (deeper truth, simpler words), never dumb DOWN. Reader feels "I already knew that, I just needed someone to say it," not "wow, he's smart." One everyday analogy carries 90% of a complex idea. This is the always-on delivery filter the other experts get spoken through.
 - **If newsjacking a cultural moment** (Ed 02 Coachella, Ed 04 Berkeley paper, any trending topic): + `skills/shaan-puri-storytelling/` (cultural pulse) + reference `.agent/workflows/jackpost.md` for borrowed-attention patterns
 - **If brandjacking a specific brand or product** (Ed 03 EllaOla): + `skills/harry-dry-copywriting/` (examples-driven punch) + reference `.agent/workflows/proof-braid-engine.md` for weaving proof naturally
 - **If AI/tech topic**: + `skills/seth-godin-ideavirus/` (category creation, spreadability)
@@ -373,6 +374,12 @@ Read and enforce ALL of these:
 - Bridge phrases: NEVER repeat the same bridge across editions. Vary every time.
 - Jargon: any technical term max 2-3 uses per edition, then switch to plain language
 - Cross-edition trope audit: if producing multiple editions, search for repeated structures
+
+**Radical Distillation** (David Bayer texture — always-on, runs on every edition):
+- Distill UP, never dumb DOWN. Take the big idea and say it in the plainest, most human words available — short sentences, one idea at a time. The reader should feel "I already knew that, I just needed someone to say it," NOT "wow, he's smart."
+- One everyday analogy carries 90% of a complex concept. ("A cage with better lighting" did this for the whole Manifesto thesis.) Find the one image that makes the abstraction instantly gut-level, then trust it.
+- The "which means…" test: keep asking "which means…" until you hit what actually matters to the reader, then lead with that. Concrete over abstract every time ("be present for dinner at 5," not "achieve work-life integration").
+- Failure tells (rewrite on sight): jargon, multi-clause sentences the reader has to work to parse, abstraction where a picture would land, anything that sounds like a presentation instead of one friend explaining it to another. If it lands in the head and not the gut, it failed.
 
 **Quality Standards**:
 - Hook grips cold readers immediately (standalone excellence — each piece works alone)

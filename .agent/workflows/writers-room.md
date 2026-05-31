@@ -42,6 +42,16 @@ These three compress, cut, and tighten the architecture:
 - **Three-Pass Compression**: Read through three times. Each pass, find 10-15% more to cut. If it reads the same without it, it goes.
 - **4th Grade Vocabulary Anchoring**: Complex ideas in simple words. Never use a big word when a small one hits harder.
 
+#### David Bayer — The Radical Distillation Editor (texture, always-on)
+**Load**: `skills/david-bayer-elite-communication/genius.md` (signature move 5 + "Distill up, don't dumb down" pattern only)
+**Lenses**:
+- **Distill Up, Don't Dumb Down**: Take the big idea and say it in the deepest-yet-simplest form. The win is the reader thinking "I already knew that, I just needed someone to say it" — NOT "wow, this person is smart." Simpler words carrying a *deeper* truth, never a shallower one.
+- **One Analogy Carries It**: A single everyday image should carry 90% of any complex concept. Find the one picture that makes the abstraction instantly gut-level (e.g., "a cage with better lighting"), then trust it — don't explain it.
+- **The "Which Means…" Test**: For any abstract claim, keep asking "which means…" until you hit what actually matters to the reader, then lead with that. Concrete over abstract every time ("be present for dinner at 5," not "work-life integration").
+- **Head vs. Gut Check**: Does the line land in the gut or just the head? Jargon, multi-clause sentences, and abstraction land in the head. Plain, picture-making language lands in the gut. If it sounds like a presentation instead of one friend explaining it to another, it failed.
+
+> **Note on overlap with Cole**: Cole's "4th Grade Vocabulary" is word-level (small words > big words). Bayer's Radical Distillation is *concept-level* (distill the whole idea to its simplest true form, then carry it on one image). They stack — Cole tightens the words, Bayer makes sure the idea itself is gut-simple. This is the always-on texture layer the rest of the room gets spoken through.
+
 ### Layer 2: Emotion, Psychology & Entertainment
 
 These three inject the heartbeat — tension, wit, belief, and "damn this person can write":
@@ -115,6 +125,7 @@ Before editing, articulate:
 3. **Structural flow**: Map each section's purpose in 3-5 words. Any section that can't be summarized in 5 words is bloated.
 4. **Dead weight**: Which sections are "aunt" passages? Where does momentum die?
 5. **First/Last marriage**: Do opening and closing connect?
+5b. **Distillation check** (Bayer): Find the piece's biggest/most abstract idea. Does it land in the gut (plain words + one image) or the head (jargon, multi-clause abstraction)? Is there one everyday analogy carrying the heavy concept, or is the concept being explained instead of shown? Would the reader think "I already knew that" or "wow, he's smart"? (The first is the win.)
 
 ### Layer 2 Diagnostics (Emotion):
 6. **Enemy** (Erica): What force does this piece fight? Is the enemy clear enough that readers instantly know what side they're on?
@@ -272,6 +283,7 @@ Run ALL checks on the final version:
 - [ ] **Three-year-old test**: Where would a restless listener zone out?
 - [ ] **Terminal word audit**: Check the last word of each key line. Is it the strongest possible?
 - [ ] **Scroll-stop test**: Does the first line work in under 8 words on mobile?
+- [ ] **Distillation test** (Bayer): The biggest idea lands in the gut, not the head — plain words, one carrying analogy. Reader feels "I already knew that," not "wow, they're smart." No abstraction where a picture would land. Distilled UP (deeper truth, simpler words), never dumbed down.
 
 ### Layer 2 Checks (Emotion):
 - [ ] **Enemy test**: Is there a clear force we stand against? Do readers know what side they're on?

@@ -10,7 +10,10 @@ workflows: 3
 
 > Master the psychology of elite communication: grounded presence, power dynamics, verbal identity, and the mechanics that make some speakers magnetic while others fade into noise.
 David Bayer has decoded the communication patterns of top 1% performers—the specific mechanics that create presence, command attention, and build instant authority. This isn't about tricks or techniques; it's about fundamental identity shifts in how you show up verbally.
-**Core Principle**: Desperate energy repels. Gr
+
+**Core Principle**: Desperate energy repels. Grounded presence magnetizes.
+
+**Signature texture (always-on)**: *Distill up, don't dumb down.* Bayer's #1 trait is making big concepts feel obvious — short sentences, plain words, one everyday analogy, landing in the gut. The reader should feel "I already knew that, I just needed someone to say it" — never "wow, they're smart." This texture is the delivery layer for every move in this skill; a structurally-perfect message in complex language is a Bayer failure. See [genius.md](genius.md) signature move 5 + rubric criterion "Radical Simplicity & Instant Relatability".
 
 ## Available Workflows
 
