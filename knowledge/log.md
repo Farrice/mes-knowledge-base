@@ -109,3 +109,9 @@
 - `[2026-05-05 01:53]` **finalize** | Omar Eddaoudi Module 3 — Scaling Ops mastery extraction (forge): 17 genius patterns, 4 HOF exemplars | general | omar-eddaoudi — composite:8.7 status:Keep
 - `[2026-05-25 16:10]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240
 - `[2026-05-29 03:56]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240
+- `[2026-05-31 06:57]` **finalize** | Luke Iha — The AI Avatar Machine (Manifold): upstream ICP/avatar-construction keystone. 12 workflows | general | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-05-31 07:01]` **finalize** | Luke Iha — Copy Blocks & CASH Method v2.0 (Director's Cut) mastery expansion: rebuilt genius.md, 4 n | copywriting | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-05-31 10:19]` **finalize** | VSL lead (hook + 200 words) for $2k Authority Flywheel — The Invisible Expert. Insider-confession/re | copywriting | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-05-31 10:20]` **finalize** | VSL lead v2 (hook + ~200 words), $2k Authority Flywheel — The Invisible Expert. SHARPENED close: Ins | copywriting | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-05-31 10:44]` **finalize** | Invisible Expert VSL lead ($2k Authority Flywheel) — writers-room polished: killed 'It's not X it's  | copywriting | luke-iha — composite:8.67 status:Keep
+- `[2026-05-31 10:44]` **finalize** | Course-graveyard coach cold FB ad / advertorial (AI Brain Build) — writers-room polished: killed ban | general | luke-iha — composite:8.67 status:Keep

@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-05-28 (chain_runner finalize for creative-direction) |
-| **Activation Count** | 242 |
+| **Last Activated** | 2026-05-31 (chain_runner finalize for luke-iha-vicious-hooks) |
+| **Activation Count** | 273 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

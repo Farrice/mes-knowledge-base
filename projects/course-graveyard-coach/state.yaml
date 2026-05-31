@@ -1,0 +1,36 @@
+slug: course-graveyard-coach
+created_at: '2026-05-31T16:22:56Z'
+updated_at: '2026-05-31T16:31:52Z'
+brand:
+  name: ''
+  tagline: ''
+  voice: ''
+  audience: "coaches and consultants drowning in consumed-but-undeployed content \u2014\
+    \ bought 47 courses, bookmarked endless frameworks, but can't deploy any of it;\
+    \ they have a 'course graveyard' and feel behind on AI"
+  palette: []
+decisions: {}
+anchors:
+- id: anchor-001
+  type: ground_dossier
+  path: .tmp/copy-engine/course-graveyard-coach/ground-dossier.md
+  created_at: '2026-05-31T16:31:52Z'
+  description: GROUND dossier (PARTIAL)
+  ref_for:
+  - build-a-buyer
+  - specific-language
+  - pain-matrix
+  - core-wound
+history:
+- ts: '2026-05-31T16:22:56Z'
+  phase: init
+  action: project initialized
+  output_ref: ''
+- ts: '2026-05-31T16:31:52Z'
+  phase: ''
+  action: 'anchor added: ground_dossier'
+  output_ref: anchor-001
+- ts: '2026-05-31T16:31:52Z'
+  phase: 'Phase 0: GROUND'
+  action: runner cold-start research (PARTIAL)
+  output_ref: ''

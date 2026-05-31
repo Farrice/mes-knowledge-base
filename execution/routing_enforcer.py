@@ -120,6 +120,42 @@ BINDINGS = [
         ),
     },
     {
+        "id": "cold_start_converting_copy",
+        "signal_phrases": [
+            "converting copy from scratch",
+            "cold start copy",
+            "cold-start copy",
+            "end-to-end copy",
+            "write converting copy for",
+            "copy that converts for",
+            "vsl from scratch",
+            "sales page from scratch",
+            "ground the market and write",
+        ],
+        # Refinement / operate-on-existing signals route to the lean standalone
+        # copy-blocks workflows (which reuse the market cache at $0), NOT a fresh
+        # cold-start grounding run that would re-pay to ground.
+        "negative_signals": [
+            "refine", "polish", "improve this", "audit", "review this draft",
+            "tweak", "rewrite this", "edit this", "diagnose",
+        ],
+        "mandatory_workflow": "copy-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Cold-start converting copy requires REAL market grounding before "
+            "writing. /copy-engine routes through avatar_manifold_runner (ground "
+            "once, reuse free) and gates proof via verify_proof_ledger. Writing from "
+            "ungrounded context is the 'false confidence / fabricated market' failure "
+            "mode. Refining EXISTING copy reuses the cache via the standalone "
+            "copy-blocks workflows at $0 — those are not forbidden here."
+        ),
+        "override_flag": "--no-ground",
+        "override_warning": (
+            "Only --no-ground when you supply the market intelligence yourself "
+            "(a manifold or VOC file); else the copy is built on [MODELED] guesses."
+        ),
+    },
+    {
         "id": "brand_operating_system",
         "signal_phrases": [
             "brand operating system",
@@ -278,6 +314,100 @@ BINDINGS = [
             "deeply expert in (lived experience) and can confirm ICP + voice "
             "from memory. Skipping Phase 2.5 in any other case guarantees "
             "grade inflation in the new vertical from day one."
+        ),
+    },
+    {
+        # Context Engineering OS (2026-05-30) — skills/chase-hughes-context-engineering.
+        # Mirror of the CLAUDE.md Mandatory Routing row. The deterministic ethics
+        # gate (execution/context_ethics_gate.py) is the backstop for all /ce-* output.
+        "id": "context_engineering",
+        "signal_phrases": [
+            "context engineering",
+            "engineer the context",
+            "engineer conditions",
+            "engineer the conditions",
+            "design the conditions",
+            "make the behavior automatic",
+            "make the outcome inevitable",
+            "make buying feel automatic",
+            "what's upstream of",
+            "what is upstream of",
+            "context where the behavior",
+            "perfect recipient first",
+            "pcp design",
+            "design the context so",
+        ],
+        # Multi-deliverable mission language defers to /supercomputer (which can call
+        # /ce-build internally). Keeps single context-design intent on /ce-design.
+        "negative_signals": [
+            "full campaign for", "build me a brand for", "build a brand for",
+            "complete asset pack", "full content drop",
+        ],
+        "mandatory_workflow": "ce-design",
+        "forbidden_workflows": [],
+        "reason": (
+            "Requests to engineer the CONTEXT/CONDITIONS where a behavior becomes "
+            "automatic (vs. pushing the outcome with a single tactic) route to "
+            "/ce-design — the Context Engineering OS in skills/chase-hughes-context-"
+            "engineering. /ce-design runs upstream -> force-map -> PCP -> conditions -> "
+            "DEFENSE/ETHICS GATE -> followability and emits a Context-Design Spec. "
+            "PRECEDENCE: /ce-design produces the spec; the routed PRODUCTION expert "
+            "(Luke Iha copy, Lara Acosta LinkedIn, Caleb 4C, etc.) then writes INTO it "
+            "— context design first, production second; never a single-tactic copy "
+            "workflow alone when the user asked to engineer the context. The Defense/"
+            "Ethics Gate is enforced deterministically by execution/context_ethics_gate.py "
+            "(avoids the banned AI-memory-dependent-observability pattern). Multi-"
+            "deliverable missions defer to /supercomputer, which composes /ce-build."
+        ),
+        "override_flag": None,
+        "override_warning": (
+            "If the user wants a single finished asset and NOT a context design "
+            "(e.g. 'write me one LinkedIn post'), route to the production skill "
+            "directly. /ce-design fires when the ask is to design the conditions / "
+            "context, not to write one tactic."
+        ),
+    },
+    {
+        # Avatar Manifold cold-start (2026-05-31) — skills/luke-iha-avatar-machine.
+        # Building an avatar/ICP/manifold from scratch for a market with no
+        # pre-provided VOC requires the Phase 0 GROUND research execution
+        # (execution/avatar_manifold_runner.py: Gemini Deep Research foundation +
+        # Apify VOC scrape + FB Ad Library + Recall, gated by research_quality_gate
+        # --strict). The GROUND phase is the deterministic backstop; this binding
+        # makes /avatar-manifold (or the /avatar-machine orchestrator) the enforced
+        # cold-start entry and forbids reasoning-only ICP substitutes that skip
+        # real-VOC research and produce modeled language (genius.md rubric crit 6).
+        "id": "avatar_manifold_coldstart",
+        "signal_phrases": [
+            "build an avatar", "build the avatar", "avatar manifold",
+            "build an icp", "build a manifold", "build the manifold",
+            "plot the market", "market intelligence package",
+            "cold start avatar", "icp from scratch", "manifold for the",
+            "avatar for the", "avatar machine",
+        ],
+        # Operate-on-existing language defers (audit an avatar, route to copy).
+        "negative_signals": [
+            "audit", "score this", "route", "to copy", "manifold to copy",
+            "already have a manifold", "refine the avatar", "existing avatar",
+        ],
+        "mandatory_workflow": "avatar-manifold",
+        "forbidden_workflows": ["icp-build", "icp-research", "icp-deep-dive"],
+        "reason": (
+            "Building an avatar/ICP/manifold from scratch requires the Phase 0 "
+            "GROUND research execution (execution/avatar_manifold_runner.py: Gemini "
+            "Deep Research + Apify VOC + FB Ad Library + Recall, gated by "
+            "research_quality_gate.py --strict). Reasoning-only ICP workflows "
+            "(icp-build, icp-research, icp-deep-dive) model the structure but do NOT "
+            "fire real research, producing modeled language that fails genius.md "
+            "rubric criterion 6 (specific-language). GROUND is the deterministic "
+            "backstop that makes real VOC the default; it cannot be silently skipped. "
+            "Use /avatar-machine for full cold-start → finished-copy orchestration."
+        ),
+        "override_flag": "--no-ground",
+        "override_warning": (
+            "Only use --no-ground when the user supplies their own real VOC (e.g. an "
+            "existing deep ICP via --voc-file). Skipping GROUND on a zero-VOC cold "
+            "start guarantees modeled language and rubric criterion-6 failure."
         ),
     },
 ]

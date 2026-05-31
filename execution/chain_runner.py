@@ -203,6 +203,59 @@ def _auto_log_grounding(skill: str, expert: str, task_type: str, notes: str) -> 
     return {"status": "skipped", "reason": "not_observed", "source": "auto_inferred"}
 
 
+def _auto_log_context_ethics(workflow: str, skill: str, notes: str) -> Dict[str, Any]:
+    """Deterministic backstop for the Context Engineering Defense/Ethics Gate.
+
+    The gate inside /ce-design and /ce-build is a persona-run judgment (name the
+    technique, surface test, destabilization check). Per the banned-pattern rule
+    ("AI-Memory-Dependent Observability is BANNED; always pair with a
+    deterministic backstop"), that judgment must be paired with a deterministic
+    log so the gate cannot silently no-op. When a context-engineering workflow
+    finalizes, this guarantees a verdict entry — inferred from notes when the
+    persona recorded one, else logged as NOT_OBSERVED so the gap is visible.
+    Non-fatal: any error is swallowed so this never breaks the quality gate.
+    """
+    try:
+        from context_ethics_gate import log_verdict, CONTEXT_ENGINEERING_WORKFLOWS
+    except ImportError:
+        try:
+            from execution.context_ethics_gate import log_verdict, CONTEXT_ENGINEERING_WORKFLOWS
+        except ImportError:
+            return {"logged": False, "reason": "import_failed"}
+
+    wf = (workflow or "").strip().lstrip("/")
+    skill_l = (skill or "").lower()
+    is_ce = wf in CONTEXT_ENGINEERING_WORKFLOWS or "context-engineering" in skill_l
+    if not is_ce:
+        return {"status": "skipped", "reason": "non_context_engineering"}
+
+    notes_lower = (notes or "").lower()
+    verdict = None
+    for v in ("block", "review", "pass"):
+        if (f"ethics gate: {v}" in notes_lower
+                or f"defense/ethics verdict: {v}" in notes_lower
+                or f"ethics: {v}" in notes_lower):
+            verdict = v.upper()
+            break
+
+    if verdict:
+        log_verdict(
+            verdict,
+            workflow=wf,
+            note="auto-logged from chain_runner finalize; explicit verdict in notes",
+            source="finalize_explicit",
+        )
+        return {"status": "logged", "verdict": verdict, "source": "explicit_in_notes"}
+
+    log_verdict(
+        "NOT_OBSERVED",
+        workflow=wf,
+        note="auto-logged from chain_runner finalize; context-engineering workflow finalized with no explicit ethics-gate verdict in notes",
+        source="finalize_backstop",
+    )
+    return {"status": "logged", "verdict": "NOT_OBSERVED", "source": "auto_inferred"}
+
+
 # Sub-agent qualifying workflows — system-tier multi-expert/multi-phase orchestrations
 # where running without sub-agent context isolation is likely a miss per
 # directives/sub_agent_protocol.md auto-spawn triggers. Source: 2026-05-12 integration
@@ -215,6 +268,7 @@ _SUB_AGENT_QUALIFYING_WORKFLOWS = {
     'roundtable', 'council', 'parallel-extract', 'parallel-content',
     'jcc-strike', 'jcc-campaign', 'jcc-solo', 'jcc-refine', 'jcc-upgrade', 'jcc-aar',
     'brief', 'generate-brief', 'mini-brief', 'deep-research',
+    'avatar-machine', 'avatar-manifold', 'manifold-to-copy',
 }
 
 
@@ -1025,6 +1079,18 @@ def finalize(
         result["sub_agent_log"] = sub_agent_log
     except Exception as e:
         result["sub_agent_log_error"] = str(e)
+
+    # ── Step 11.9: Context-engineering ethics-gate backstop (2026-05-30) ──
+    # Deterministic floor for the Defense/Ethics Gate inside /ce-design,
+    # /ce-build, /ce-honesty etc. so it cannot silently no-op (the banned
+    # AI-memory-dependent-observability pattern). Logs a verdict for every
+    # context-engineering finalize — explicit when the persona recorded one,
+    # NOT_OBSERVED otherwise so the gap is visible. Non-fatal.
+    try:
+        ce_ethics_log = _auto_log_context_ethics(workflow, skill, notes)
+        result["context_ethics_log"] = ce_ethics_log
+    except Exception as e:
+        result["context_ethics_log_error"] = str(e)
 
     # ── Step 12: Revenue Tracker auto-link (Upgrade 7) ──────────
     # Passed deliverables in revenue-relevant task_types get a pending

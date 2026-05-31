@@ -1,0 +1,108 @@
+---
+description: Cold-start → converting-copy orchestrator. Grounds a market ONCE (real research, cost-previewed), caches it, then assembles + verifies world-class copy. Every later iteration/refinement reuses the cache for $0. "Ground Once, Refine Free."
+tier: system
+---
+
+# /copy-engine — Cold-Start → Converting Copy (Ground Once, Refine Free)
+
+The end-to-end copywriting orchestrator. From a cold prompt ("write converting copy for product X / market Y / objective Z") it: grounds the market in **real research + social listening** (once, cost-previewed), caches the intelligence, then drives the full Luke Iha copy stack to a verified, converting deliverable. **Every subsequent iteration, refinement, or writers-room pass reuses the cache at $0** — research fires only on a cold market or an explicit `--refresh`.
+
+> **The core invariant (deterministic, not a prompt rule):** all market grounding routes through `execution/avatar_manifold_runner.py ground`, whose reuse gate returns `$0` for a fresh market and only cold-starts (paid) on a cache miss. WARM-reuse is a *code property* — Claude cannot accidentally re-spend. (Satisfies `feedback_ai-memory-dependent-observability.md`.)
+
+## Usage
+```
+/copy-engine write a converting VSL lead for <product> / market: <market> / objective: <goal> [--asset vsl|ad|email|landing|headline] [--refresh] [--tier free|lean|deep]
+```
+- **No flags = smart default:** auto-detects COLD vs WARM. You almost never pass a flag.
+- `--refresh` — the one flag you'll reach for: re-ground a market you know has moved (paid, cost-previewed).
+- `--tier` — `deep` (default, Gemini+VOC ~$0.61) / `lean` (Apify VOC ~$0.11) / `free` ($0, model-side live tools). If you decline the cold-start cost gate, it auto-falls to `free` and BANNERS it.
+
+## The cost model (what you're approving)
+| When | Cost |
+|---|---|
+| **Cold-start a new market (one-time)** | ~$0.50–$2.50 (often **$0** under Google AI Ultra). `estimate` prints it before firing. |
+| **Every iteration / refinement / writers-room pass** | **$0.00** (cache reuse) |
+| **`--free` or declined gate** | **$0.00** (Recall + WebFetch + free Reddit/HN + Playwright; Standard-tier, `[MODELED]`-tagged) |
+
+---
+
+## PHASE 0 — INTENT (Gate G0)
+Parse: **product · market · objective · asset type · awareness guess · proof assets on hand.** Slugify the market to a canonical `<slug>` (lowercase → kebab-case → ≤60 chars; reuse an existing slug if the market is already cached — run `ls .tmp/copy-engine/` and match before minting a new one, to avoid double-grounding).
+
+**Gate G0 — Halt question:** "Confirm: product=X · market=Y · objective=Z · asset=A · awareness≈L. Do you have proof assets (testimonials, stats, before/afters)?" PROCEED requires all five named + a yes/no on proof. *(This cheap gate prevents grounding the wrong market.)*
+
+## PHASE 1 — GROUND (the only paid phase; reuse makes it $0 on iterations)
+Route through the chokepoint. It REUSES a fresh dossier at $0 and only cold-starts (paid) on a miss:
+```bash
+// turbo
+python3 execution/avatar_manifold_runner.py ground --slug <slug> --market "<market>" --product "<product>" --tier <tier> 2>&1 | tail -6
+```
+- **WARM** (`♻️` in output) → skip all research, go straight to Phase 2 ($0).
+- **COLD** → the runner prints the cost estimate first. If `--dry-run`/decline → re-run `--tier free` ($0, model fills VOC via free live tools). On approval, it fires Gemini Deep Research + free Reddit/HN + Apify VOC, writes `.tmp/copy-engine/<slug>/ground-dossier.md`.
+- **STALE** (`⏳`) → reuses anyway ($0) with a nudge; pass `--refresh` only if the market truly moved.
+- Recall grounding (free) also fires model-side: `mcp__recall__search` (2-query focused) for expert/voice cards.
+
+**Gate G2 — Grounding sufficiency.** PROCEED requires: dossier exists AND (`voc_source_urls ≥ 15` OR you accept `[MODELED]` explicitly). If thin and budget allows, `--refresh --tier deep`; else proceed with `[MODELED]` flags propagated. *(Prevents world-class-sounding copy on a fabricated market — the Parallax-02 failure mode for sales copy.)*
+
+## PHASE 2 — STRATEGY + WARM_CORE (interpretation; $0)
+Read the dossier and the manifold (run `/avatar-manifold` if a full manifold is wanted; the dossier alone suffices for most assets). Then **write `warm_core`** — the structured intelligence block every refinement workflow consumes — to `.tmp/copy-engine/<slug>/warm-core.json`:
+```json
+{
+  "slug": "<slug>",
+  "grounded_at": "<from ground-status.json ts>",
+  "tier": "deep|lean|free",
+  "dominant_emotion": "...",
+  "core_wound": "...",
+  "pain_to_promise_gap": "<the gap curiosity must bridge>",
+  "market_beliefs": {
+    "external_problem": "what the market thinks the problem is",
+    "internal_problem": "the real problem / your reframe (UMP)",
+    "external_solution": "what the market thinks the fixes are",
+    "internal_solution": "your unique mechanism (UMS)"
+  },
+  "top_voc_soundbites": ["verbatim…", "verbatim…"]
+}
+```
+`market_beliefs` maps **1:1** onto the Curiosity Quadrant's 4 cells; `core_wound`/`dominant_emotion` feed CRAVES + pain-chain. This block is the wiring that lets every later pass be pure craft on real intel. Then:
+- `/copy-equation` at offer level → name the single limiting block.
+- `/little-big-idea` → the through-line. Awareness level from the dossier → Schwartz ladder.
+
+## PHASE 3 — BLOCK SOURCING (parallel sub-agents; $0 — reads warm_core)
+Source the 6 blocks. All read `warm-core.json` + the dossier (no new research). Dispatch the **PROOF** block as a sub-agent with research tools (it's the one factual surface) — it emits the claim ledger:
+- pain → `/pain-chain` (calibrated by Pain Matrix dim) · promise → `/promise-engineering` (identity ceiling) · curiosity → `/curiosity-engine` (Quadrant from `market_beliefs`) · **proof → verify each candidate stat live**, emit `.tmp/copy-engine/<slug>/proof-claims.md` (claim | source | VERIFIED|LIKELY|UNCONFIRMED) · constraints/conditions → `/constraint-dissolution` + `/conditions-stack`.
+
+## PHASE 4 — ASSEMBLE ($0)
+`/copy-from-scratch` with belief-state sequencing + proof-braid → `.tmp/copy-engine/<slug>/draft.md`. No visible block labels. Carries the claim ledger forward.
+
+## PHASE 5 — VERIFY (Gate G5 — the load-bearing gate)
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft .tmp/copy-engine/<slug>/draft.md --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "LEDGER GATE FAIL — label/cut claims before delivery"
+python3 execution/prose_classifier.py check .tmp/copy-engine/<slug>/draft.md || true
+```
+**Gate G5 — PROCEED requires:** `verify_proof_ledger` exits 0 (every stat/price/date/superlative present + labeled) AND no `UNCONFIRMED` claim presented as fact. On FAIL → re-verify (cheap: one `perplexity_ask` per new claim), label, or cut. *Do not deliver on a FAIL.* (The freshness-tax hook is the harness-level backstop if this is skipped.)
+
+## PHASE 6 — POLISH ($0)
+`/craves-polish` on key lines (mechanism name → Specific/Visual) + velocity compression.
+
+## PHASE 7 — FINALIZE (+ optional creative)
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "<asset> for <market>" \
+  --expert luke-iha --skill luke-iha-copy-blocks --workflow copy-engine \
+  --type Content --intent N --expert-score N --adversarial N \
+  --factual <score-from-ledger> --sub-agents <n> \
+  --notes "Factual Grounding: <score> | Verification: PASS | Grounding: <tier>, voc_urls=K | Cache: WARM|COLD"
+```
+**The orchestrator must grep finalize output for `QUALITY GATE BLOCKED` and NOT deliver on a match** (finalize exits 0 even when it blocks). Derive `--factual` from the ledger (all VERIFIED → ≥8; UNCONFIRMED-as-fact → <6).
+Optional ad creative (gated): `python3 execution/creative_router.py route --request "..."` → `python3 execution/fal_budget_guard.py check` → `/fantastic-posters`.
+
+---
+## Iteration contract (why this is "Refine Free")
+Re-running `/copy-engine` on the SAME market, or running ANY standalone refinement (`/craves-polish`, `/curiosity-engine`, `/writers-room`, `/copy-block-audit`, `/pain-chain`), hits **WARM** at Phase 1 → **$0**, and reads `warm-core.json` for the market psychology. Research fires once per market; craft is infinite and free. Cost reappears only for a genuinely NEW factual claim (one `perplexity_ask` ~$0.02) or an explicit `--refresh`.
+
+## Graceful degradation (never fabricate to fill a gap)
+Every external call chains `Gemini → Perplexity → free/recall → [MODELED]`. Budget-exhaustion DEGRADES to $0 (the runner fails closed, never escalates pools). A degraded ground proceeds with `[MODELED]` flags propagated to G5 — the system labels uncertainty, it never invents.
+
+## Quality Gate
+3 halt gates only (G0 intent · G2 grounding · G5 verification) — do not add more (rubber-stamp anti-pattern). Blocks invisible in customer copy. Promise at identity edge. Claim never bigger than proof. Mechanism name passes the portability test. Clarity is King.

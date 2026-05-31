@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fallback": false,
+  "actor": "web",
+  "result_count": 1,
+  "cost_dollars": 0.003,
+  "spent_total": 0.023,
+  "remaining_dollars": 28.977,
+  "items": [
+    {
+      "crawl": {
+        "httpStatusCode": 200,
+        "httpStatusMessage": "OK",
+        "loadedAt": "2026-05-29T14:03:12.737Z",
+        "uniqueKey": "kC2m7m317y",
+        "requestStatus": "handled"
+      },
+      "metadata": {
+        "title": "Equity Union Real Estate | Marty Azoulay | Encino, CA Real Estate | 818-416-4663",
+        "description": "Encino CA Homes for Sale and Real Estate. Marty Azoulay specializes in Homes and Listings, representing both Home Buyers and Home Sellers.",
+        "languageCode": "en",
+        "url": "https://www.myhousesellers.com/",
+        "redirectedUrl": "https://www.myhousesellers.com/"
+      },
+      "query": "https://www.myhousesellers.com/",
+      "markdown": "Equity Union Real Estate | Marty Azoulay | Encino, CA Real Estate | 818-416-4663\n\n# Loading Equity Union Real Estate\n\n[Real Estate Websites](https://www.ihouseweb.com/lp/ihouse-elite-websites/?rcode=lpc_elite&product=elite) by [![iHouseweb company logo](https://storage.googleapis.com/idx-code-gs.ihouseprd.com/idxv3/6-52-06-00000/images/web/icons/ihouseweb_branding.png \"iHOUSE Elite Websites | AR1055242\")iHouseweb](https://www.ihouseweb.com/lp/ihouse-elite-websites/?rcode=lpc_elite&product=elite) | [Admin\u00a0Menu](https://fg2rm.edit.ihouseelite.com/-/EditWebsite/go_to_admin/)"
+    }
+  ]
+}

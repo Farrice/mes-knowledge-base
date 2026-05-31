@@ -22,6 +22,13 @@ Tom Noske is a Personal Brand Monetization Strategist and Content Creation Metho
 6. **Promise-Payoff Architecture**: Content as trust transaction — make a promise, deliver on it, no hacks
 7. **Flow State Engineering**: Eliminate meta-awareness (algorithm, business, hooks) to achieve peak creative performance through service
 
+### Content Funnel — Portfolio Strategy (Module B, 2026-05-30)
+7a. **Two-Brain Trap Diagnosis**: Identify the Influencer Trap (famous, broke) vs. Educator Trap (useful, ignored) and the specific failure mechanisms
+7b. **Four-Layer Content Funnel**: Allocate content across Audience / Inspiration / Education / CTA layers, each judged by its own metric (reach / connection / value / conversion)
+7c. **Earn-the-Right-to-Sell (De-Bloating)**: Strip each piece to one job; education can just teach, CTA can just sell — they convert better naked
+7d. **Diet Heuristic**: Calibrate the split (≈40/25/25/10) as a *correction* of the recent content diet, not a fixed law
+7e. **Origin Story Manufacturing**: Build the Inspiration layer deliberately as content (origin story is manufactured, not inherited)
+
 ### Personal Brand Monetization (Existing)
 8. **Archetype Diagnosis**: Instantly identify Valuable & Boring vs Addictive & Useless
 9. **Mission Architecture**: Broad content mission + specific business mission
@@ -34,13 +41,23 @@ Tom Noske is a Personal Brand Monetization Strategist and Content Creation Metho
 
 ## Available Skills
 
-### Skill 1: Content Creation Methodology (4 Workflows)
+### Skill 1: Content Creation Methodology (8 Workflows)
+
+**Module A — Authenticity Engineering** (make any single piece resonate):
 | Workflow | Slash Command | Produces |
 |----------|--------------|----------|
 | Zone of Genius Format Finder | `/zone-of-genius` | Content format blueprint |
 | Content Authenticity Audit | `/authenticity-audit` | Authenticity diagnostic report |
 | Quantity Sprint Architect | `/quantity-sprint` | Volume-focused sprint plan |
 | Promise-Payoff Content Engine | `/promise-payoff` | Trust-first content brief |
+
+**Module B — The Content Funnel** (portfolio strategy: views AND money):
+| Workflow | Slash Command | Produces |
+|----------|--------------|----------|
+| Content Funnel Architect | `/content-funnel` | Four-layer content portfolio plan |
+| Two-Brain Trap Diagnostic | `/two-brain-trap` | Influencer/Educator trap diagnosis |
+| Content De-Bloat Pass | `/content-debloat` | Single-job, de-bloated piece |
+| Origin Story Engine | `/origin-story-engine` | Inspiration-layer origin-story backlog |
 
 ### Skill 2: Personal Brand Monetization (26 Prompts)
 **Core (1-7)**: archetype-diagnostic, mission-architect, origin-iceberg, content-strategy, product-architect, presold-pipeline, trust-velocity
@@ -55,6 +72,10 @@ Tom Noske is a Personal Brand Monetization Strategist and Content Creation Metho
 - ✅ Authenticity auditing / content resonance
 - ✅ Volume strategy / overcoming perfectionism
 - ✅ Content briefing / promise-payoff architecture
+- ✅ Content portfolio strategy / "I get views but no money" or "good value but no growth"
+- ✅ Balancing reach vs. conversions / content funnel allocation
+- ✅ Content feels bloated / "every post has to do everything"
+- ✅ Origin-story / inspiration-layer content planning
 - ✅ Personal brand building
 - ✅ Creator monetization problems
 - ✅ Content strategy for conversion

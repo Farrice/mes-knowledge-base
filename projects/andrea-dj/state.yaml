@@ -420,3 +420,11 @@ history:
   phase: cleanup:autopilot
   action: "anchors flagged ARCHIVED: 007, 008, 009, 013, 014, 015, 019; new anchors: 028 (MANIFEST), 029 (README refresh)"
   output_ref: anchor-028
+- ts: '2026-05-28T21:30:00Z'
+  phase: v3 Phase H (project root hygiene)
+  action: "deleted: download.html (empty); archived: deliverables/2026-05-04-brand-operating-system-v1 (stale BOS-v1 .docx exports); archived: 10 pre-launch orphans (00-command-center, 01-01c venue x5, 03-this-week, 04-ig-profile, 06-tools-stack, 06a-canva, 06b-claude) + _enrichment/; KEPT: 4 pre-launch active-referenced docs (02-male-acq, 05-photoshoot, 07-anti-omission, 08-andrea-event-role); KEPT: Monday Package (active BOS lineage); KEPT: research/ + source/ (foundational + canonical voice)"
+  output_ref: anchor-028
+- ts: '2026-05-28T21:30:00Z'
+  phase: cleanup:autopilot round 2
+  action: "MANIFEST.md extended with project-wide folder map (research/, source/, deliverables/, pre-launch/, notes/)"
+  output_ref: anchor-028

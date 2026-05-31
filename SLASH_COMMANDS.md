@@ -9,6 +9,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 |---------|-------------|
 | `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
 | `/deep-research` | Perplexity Deep Research + 3 parallel specialist agents (pattern hunter, psychology miner, contrarian scout) + adversarial challenge + McKinsey-grade strategic intelligence report |
+| `/copy-engine` | Cold-start → converting copy. Grounds a market ONCE in real research + social listening (cost-previewed, ~$0.50–2.50 / often $0 under Ultra), caches it, then assembles + proof-verifies world-class copy. Every later iteration/refinement reuses the cache at **$0**. "Ground Once, Refine Free." |
 | `/brief` | Generate a strategic brief — scans your situation and recommends highest-ROI moves |
 | `/generate-brief` | Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research |
 | `/hunt-trends` | Scan for rising trends and "Shadow Market" opportunities using Agentic Research |

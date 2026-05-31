@@ -1,0 +1,16 @@
+---
+description: Score copy/offer on the Copy Blocks Equation and name the limiting factor
+---
+
+# copy-equation (Luke Iha — Copy Blocks)
+
+Deploy Luke Iha's Copy Blocks system.
+
+## PHASE 1: SKILL ACQUISITION
+Read in order:
+1. /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/SKILL.md
+2. /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/genius.md
+3. /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/workflows/copy-blocks-equation-score.md
+
+## PHASE 2: EXECUTION
+Follow the workflow in `copy-blocks-equation-score.md`. Honor its Pre-Flight Gate and Quality Gate. User provides the copy/offer/market.

@@ -1,0 +1,1 @@
+SOURCE: Luke Iha + Mario Castelli — The AI Avatar Machine (Manifold) workshop. Original folder: ~/Downloads/Luke Iha-Ai Avatar Machine (3 course days + 5 live-call transcripts + framework docs + prompt library + worked Manifold brief + 2 pitch decks). Extracted 2026-05-31 into skills/luke-iha-avatar-machine/ (12 workflows, forge-tier).

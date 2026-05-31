@@ -1,0 +1,130 @@
+{
+  "total": 40,
+  "types": {
+    "Sidecar": 12,
+    "Image": 12,
+    "Video": 16
+  },
+  "likes_avg": 107.1,
+  "likes_median": 48.0,
+  "likes_max": 1169,
+  "comments_avg": 12.1,
+  "comments_max": 95,
+  "date_range": [
+    "2025-04-30T17:36:04.000Z",
+    "2026-05-28T20:19:10.000Z"
+  ],
+  "posts_per_month": {
+    "2025-04": 1,
+    "2026-03": 15,
+    "2026-04": 12,
+    "2026-05": 12
+  },
+  "top_hashtags": [
+    [
+      "justsold",
+      9
+    ],
+    [
+      "dreamhome",
+      4
+    ],
+    [
+      "justleased",
+      2
+    ],
+    [
+      "californiahomes",
+      2
+    ],
+    [
+      "realestatelife",
+      2
+    ],
+    [
+      "sanfernandovalleyhomes",
+      2
+    ],
+    [
+      "mybpm",
+      2
+    ],
+    [
+      "listingagent",
+      2
+    ],
+    [
+      "canogaparkhomes",
+      2
+    ],
+    [
+      "realtorlife",
+      2
+    ],
+    [
+      "justlisted",
+      2
+    ],
+    [
+      "luxury",
+      2
+    ],
+    [
+      "losangelesrealestate",
+      2
+    ],
+    [
+      "oxnardrealestate",
+      1
+    ],
+    [
+      "vacationhome",
+      1
+    ],
+    [
+      "southerncaliforniarealestate",
+      1
+    ],
+    [
+      "realestategoals",
+      1
+    ],
+    [
+      "encinoliving",
+      1
+    ],
+    [
+      "luxuryliving",
+      1
+    ],
+    [
+      "justlisted\u2728\ud83c\udfe1",
+      1
+    ],
+    [
+      "luxurylisting",
+      1
+    ],
+    [
+      "forleasela",
+      1
+    ],
+    [
+      "luxuryrealestate",
+      1
+    ],
+    [
+      "northridgerealestate",
+      1
+    ],
+    [
+      "firsttimehomebuyer",
+      1
+    ]
+  ],
+  "theme_counts": {
+    "real_estate": 30,
+    "personal": 10,
+    "other": 0
+  }
+}

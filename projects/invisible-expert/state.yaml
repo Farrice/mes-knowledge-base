@@ -1,0 +1,18 @@
+slug: invisible-expert
+created_at: '2026-05-31T16:23:39Z'
+updated_at: '2026-05-31T16:23:39Z'
+brand:
+  name: ''
+  tagline: ''
+  voice: ''
+  audience: "The Invisible Expert \u2014 accomplished coaches/consultants/therapists/fractional\
+    \ execs who are world-class at their craft but invisible online; a translation\
+    \ gap, not a skill gap; identity-threatened by "
+  palette: []
+decisions: {}
+anchors: []
+history:
+- ts: '2026-05-31T16:23:39Z'
+  phase: init
+  action: project initialized
+  output_ref: ''

@@ -1,0 +1,41 @@
+# Proposed Workflows (total 13)
+
+- **/hughes-upstream** [Foundation] — Upstream Engine
+  - Run 'what is upstream of the thing I want?' + 'what context makes this behavior automatic?' to produce the condition chain. The planning verb for every persuasion, content, offer, or self-change task — replaces reaching for a script or close.
+  - stack: April Dunford (positioning: the category is the top of the condition chain)
+- **/hughes-pcp** [Foundation] — PCP Designer
+  - Design the Perception→Context→Permission drift for a target behavior; pick the single loaded category word that rewrites what's permissible ('this isn't a purchase, it's reclaiming your mornings'); build the perfect recipient first and deliberately delay the ask.
+  - stack: Luke Iha (copy writes INTO the PCP frame)
+- **/hughes-followability** [Foundation] — Followability Engineer
+  - Build genuine followability: eliminate micro-hesitations, drop to low grade level, paint pictures, lead with gratitude and visible discipline; win the impression test ('owns verbal real estate'). Read whether a competitor/leader has engineered theirs.
+  - stack: Lara Acosta (LinkedIn delivery + headline followability)
+- **/ce-design** [Foundation] — CE Design (orchestrator)
+  - The Context Engineering OS front door. Given a desired end-state, runs the 5-stage persona sequence (Architect → Force-Mapper → Conditions Builder → Defense/Ethics Auditor → Followability Engineer) and emits a Context-Design Spec ready for a production expert.
+  - stack: Any production expert (Luke Iha, Lara Acosta, Caleb Ralston)
+- **/ce-conditions** [Practitioner] — Conditions Builder
+  - Turn the upstream condition chain + PCP design into concrete sequenced build steps: funnel touchpoints, content sequence, onboarding flow, environment design, the order belief/identity/permission gets installed. Makes the abstract executable.
+  - stack: Caleb Ralston (4C's intro sequencing) / ad-to-funnel
+- **/ce-force-map** [Practitioner] — Force-Mapper
+  - Before designing, name the FEAR/fractionation/engineered-division/algorithm forces ALREADY acting on the target audience (their feed, news cycle, market anxiety, flattened preferences) plus their childhood source code — so the design works with the current, not against an invisible one.
+  - stack: Dai Media (consumer posture) + McRaney (pre-existing belief field)
+- **/hughes-resonance** [Practitioner] — Contagious Confidence
+  - Set your own state first (awareness in front of the eyes, zero hierarchy thinking), install the two-element confidence cause (willingness to receive social injury + fuzzy belief it'll be okay) so it transmits via resonance. For on-camera, pitch, leadership presence, coaching out social anxiety.
+  - stack: Dai Media (posture) / founder-voice
+- **/hughes-honesty** [Practitioner] — Honesty Protocol (SMRP-benevolent)
+  - Dissolve the four resistance walls (socialize-minimize-rationalize-project) to help someone safely name a hidden truth or the real objection — ethical confession engine for sales discovery, coaching breakthroughs, hard conversations. Aimed at the person's freedom, not entrapment.
+  - stack: McRaney (deep-canvass belief change) / Luke Iha (objection-dissolution copy)
+- **/hughes-read** [Practitioner] — Behavioral Read
+  - Change-cluster-context read of a person, transcript, or video (uses fetch-video-context for visual sources): baseline first, deviations only, blink rate / lip compression / tongue jut / tense-shift / need-asymmetry, rewind ~10-15s to the trigger. Likelihood, never verdict.
+  - stack: Connelly (subtext: what the body says the words don't) / spy-market reads
+- **/ce-defense-audit** [Stacking] — Defense / Ethics Auditor
+  - MANDATORY blocking gate inside /ce-design, also standalone. For any context design: name the technique, run the defensive mirror, the surface test ('would I defend this if the target saw it?'), outcome-on-merits, and the destabilization check (reducing vs manufacturing chaos). Operationalizes the Plato's-Cave ethic.
+  - stack: directives/quality_assurance.md (maps onto the dual-use veto)
+- **/hughes-detect** [Stacking] — Manipulation Detector
+  - Defensive scan of a feed/news/pitch/relationship for the FEAR loop, fractionation up-down, prepackaged enemy, alternative-question trap, symptom-confidence, and the missing-nuance tell. Names the technique AND the resistance move; admits knowing doesn't immunize — prescribes structural defense.
+  - stack: writers-room zeitgeist layer (is the draft running fractionation on the reader?)
+- **/hughes-source-code** [Stacking] — Source-Code Diagnostic
+  - The 8-year-old / emotional-debt root-cause pass for self or a coaching client. Find the childhood friends/safety/rewards driver, see how it hardened from app to source code, reframe the stuck adult pattern as an outdated childhood program — dissolving shame and making someone feel SEEN.
+  - stack: McRaney (belief change) / drk-identity (identity rebuild)
+- **/ce-build** [Stacking] — Full Context-Engineering Build
+  - End-to-end supercomputer-grade composite: upstream → force-map → PCP → conditions → followability → defense/ethics gate → hand to production expert. For a complete offer/campaign/content-system context design in one run.
+  - stack: /supercomputer (anchor memory + cost gate) for multi-deliverable missions

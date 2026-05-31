@@ -101,12 +101,109 @@ These exist per the density-over-completeness architecture: Andrea-facing docs s
 
 - All `.DS_Store` files across the project (macOS junk, never useful)
 - Empty `variant-b-hero-shots/`, `variant-b-hero-shots-v2/`, `variant-c-hero-shots/`, `variant-c-hero-shots-v2/` directories (folders only — files inside were archived, then empty folders removed since v3 is the active candidate for B and C)
+- `download.html` (root-level empty file, 0 bytes)
+
+---
+
+## Project-Wide Folder Map (added 2026-05-28 — full project clarity)
+
+The launch/ folder is the production surface, but the project has 5 other root folders. Here's what each is and its tier:
+
+### `brand-operating-system/` 🟢 ACTIVE — source of truth
+
+47 files across 7 subfolders. The canonical brand operating system. All current. **Untouched in cleanup.**
+
+| Subfolder | What it owns |
+|---|---|
+| `00-foundation/` | Master index, brand bible, ICP master, voice document, positioning, 12 Non-Negotiables |
+| `01-visual/` | DESIGN.md, aesthetic refs, brand library, component tokens, photography rules |
+| `02-briefs/` | 10 creative brief templates (IG feed/reel/story, flyer, email, press, venue pitch, etc.) |
+| `03-marketing/` | Funnel, curation mechanics, awareness ladder, etc. |
+| `04-ai-handoff/` | AI brain master, image-prompt formulas, paste-in blocks for AI sessions |
+| `05-ops/` | Run-of-show, change log, update protocol, drift signals |
+| `_working/` | A1-reconciliation + ongoing reconciliation work |
+
+### `source/` 🟢 ACTIVE — canonical voice source (Andrea's actual writing)
+
+3 files. **Critical — referenced extensively from BOS. Never archive.**
+
+| File | What it is | Referenced by |
+|---|---|---|
+| `andrea-internal-anchor.md` (Apr 29 2026) | Andrea's private decision doc — the room's operating system | brand-bible, icp-master, brand-library |
+| `andrea-manifesto-v2.md` (May 4 2026) | Andrea's public-facing manifesto — polished voice register | brand-bible, ig-feed-post, brand-library |
+| `andrea-story-2026-05-11.md` (May 11 2026) | Andrea's founder-origin narrative — interior + conversational register | brand-bible §5 (canonical) |
+
+### `research/` 🔵 REFERENCE — foundational research (don't archive)
+
+6 files from April 9, 2026. Where the project started. **Actively cited from BOS.**
+
+| File | What it is | Status |
+|---|---|---|
+| `00-START-HERE.md` | Original project orientation | Historical onramp |
+| `01-market-research.md` | Initial Chicago singles-event market scan | Foundational |
+| `02-brand-naming.md` | How "Resonance" was chosen | Historical record |
+| `03-event-blueprint.md` | 8-phase in-room experience arc | **Cited by BOS funnel + run-of-show** (note: written in evening voice, needs daytime port — flagged in BOS) |
+| `04-instagram-strategy.md` | Original IG strategy | Pre-launch package, partially superseded |
+| `05-venue-and-pricing.md` | Venue type research + pricing ranges | **Cited by BOS venue-pitch** (note: evening voice, rates port; framing needs rewrite) |
+
+### `deliverables/` 🔵 REFERENCE — Monday Package lineage source (don't archive)
+
+1 active subfolder. **Critical lineage. BOS was built from this. Cannot archive.**
+
+| Path | What it is | Why kept |
+|---|---|---|
+| `deliverables/2026-04-11-monday-package/` | First major delivery (Apr 11, 2026) — Pulse brand identity, archetype work, working method, 8-week timeline | BOS cites this in ≥12 places: Maya/Simone/Darius archetypes (icp-master), Scripts 1-4 (curation-mechanics), working method (update-protocol), change-log historical record |
+
+### `pre-launch/` 🟢 ACTIVE (4 docs) — operational reference for current launch
+
+After cleanup: only the 4 actively-referenced docs remain.
+
+| File | Referenced by | Status |
+|---|---|---|
+| `02-male-acquisition-strategy.md` | `brand-operating-system/00-foundation/02-icp-master.md` (Path B avatar split) | 🟢 Active |
+| `05-photoshoot-brief.md` | `launch/_04-gap-action-sprint-v1-detailed.md` (Andrea's pre-launch portrait) | 🟢 Active — needed for portrait booking this week |
+| `07-anti-omission-audit.md` | `launch/04-gap-action-sprint.md` (the 42-item audit) | 🟢 Active — Andrea reads weekly |
+| `08-andrea-event-role-doctrine.md` | `launch/_04-gap-action-sprint-v1-detailed.md` (item #11 day-of role) | 🟢 Active — event-day doctrine |
+
+### `notes/` ⚪ EMPTY — placeholder with `.gitkeep`
+
+Trivial. Kept as-is for git tracking. Use if you want ad-hoc project notes outside the launch/ structure.
+
+---
+
+## Newly archived in this cleanup (2026-05-28 round 2)
+
+### `_archive/2026-05-28-cleanup/stale-bos-v1-docx-exports/`
+- `2026-05-04-brand-operating-system-v1/` (full subtree of `.docx` files)
+- **Why archived**: These are the May 4 client-delivery Word exports of the BOS. The live BOS at `brand-operating-system/` is in Markdown and has evolved since May 4. The `.docx` exports are stale. **Restore + regenerate from current BOS** if Andrea ever needs Word format again.
+
+### `_archive/2026-05-28-cleanup/pre-launch-superseded-by-launch-package/`
+10 orphan files + `_enrichment/` subdir — all superseded by the current launch package (`01-announcement-package/`, `02-outreach-playbook/`, `04-gap-action-sprint.md`, `06-genspark-deployment/`):
+
+| Archived file | Superseded by |
+|---|---|
+| `00-command-center.md` | `04-gap-action-sprint.md` + `05-andrea-decisions.md` |
+| `01-venue-target-list-framework.md` | `02-outreach-playbook/_v1-detailed.md` Section C |
+| `01a-venue-warm-pitch.md` | `02-outreach-playbook/_v1-detailed.md` Section B.3 |
+| `01b-venue-cold-pitch-email.md` | `02-outreach-playbook/_v1-detailed.md` Section C.3 |
+| `01c-venue-followup-and-decision-tree.md` | `02-outreach-playbook/_v1-detailed.md` Section C.4 |
+| `03-this-week-action-plan.md` | `04-gap-action-sprint.md` (now-current "this week") |
+| `04-ig-profile-and-first-week-content.md` | `01-announcement-package/README.md` Phase 1 |
+| `06-tools-stack-setup.md` | `06-genspark-deployment/README.md` + `05-andrea-decisions.md` Decision 3 |
+| `06a-canva-pro-action-steps.md` | `06-genspark-deployment/02-social-media-prompt-pack.md` |
+| `06b-claude-pro-action-steps.md` | `06-genspark-deployment/05-model-overrides.md` |
+| `_enrichment/data-brief.md` + `recognition-map.md` + `universal-anchors.md` | Absorbed into BOS / launch package; no live cross-refs |
 
 ---
 
 ## What was NOT touched (intentionally kept in place)
 
-- `brand-operating-system/` — 47 files across 7 subfolders. Source of truth, all current. No cleanup needed.
+- `brand-operating-system/` — 47 files. Source of truth, all current.
+- `source/` — 3 files. Canonical voice. Cited across BOS.
+- `research/` — 6 files. Foundational. Cited in BOS funnel + venue-pitch.
+- `deliverables/2026-04-11-monday-package/` — Active lineage. BOS built FROM this.
+- `pre-launch/` 4 active docs — actively cross-referenced.
+- `notes/` — empty placeholder with `.gitkeep`.
 - `RISKS.md` (project root) — current live risk tracker
 - `CLAUDE.md` (project root) — project inheritance contract
 - `state.yaml` (project root) — anchor registry

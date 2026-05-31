@@ -272,18 +272,32 @@ class DeepResearchClient:
 
         duration = time.monotonic() - start
 
-        # ---- Extract text + citations from outputs ----
+        # ---- Extract text + citations ----
+        # The live Deep Research Interactions API returns `steps` (model_output
+        # steps whose `content[]` parts carry `.text`, plus `.data` base64 image
+        # charts we skip, plus `thought` steps). Older/preview schema used
+        # `outputs[]`. Parse `steps` first, fall back to `outputs`. (Fixed
+        # 2026-05-31 — the old `outputs`-only parser silently returned empty text
+        # for every Gemini Deep Research consumer in the system.)
         text = ""
         citations: List[str] = []
-        for output in final_data.get("outputs", []):
-            if output.get("type") == "text":
-                text += output.get("text", "") + "\n\n"
-            # Citations may appear as separate output blocks or embedded
-            # in metadata — API schema for this is not fully documented.
-            if "citations" in output:
-                citations.extend(output["citations"])
+        steps = final_data.get("steps") or final_data.get("outputs") or []
+        for step in steps:
+            stype = step.get("type")
+            if stype in ("model_output", "text", "output"):
+                for part in (step.get("content") or []):
+                    if isinstance(part, dict) and isinstance(part.get("text"), str):
+                        text += part["text"]
+                if isinstance(step.get("text"), str):  # legacy flat shape
+                    text += step["text"] + "\n\n"
+            if "citations" in step:
+                citations.extend(step["citations"])
         if not citations and "citations" in final_data:
             citations = final_data["citations"]
+        # Surface a non-fatal signal if a completed interaction yielded no text —
+        # prevents the false PASS the runner saw (empty report reported as success).
+        if not text.strip():
+            text = ""  # caller treats empty as failure → fallback
 
         self.call_count += 1
         self.total_cost += est_cost

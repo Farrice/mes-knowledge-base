@@ -199,3 +199,172 @@ Every workflow output must pass:
 | **Shield Deactivation Metric**    | Heavy editing, filters, or highly polished production mask raw delivery.             | Some post-production, but raw moments and imperfections are still present.          | Completely raw, unedited, and unpolished. Imperfections are embraced as proof of authenticity and skill acquisition. |
 | **Imperfect Volume Contribution** | Content is held back due to perfectionism; only "good" pieces are shipped.            | Willingness to ship, but still over-analyzing individual piece quality.             | Consistent, high-volume output, embracing the 60% garbage and 30% mediocre as fuel for the 10% extraordinary.    |
 | **Flow State Resonance**          | Creator appears conscious of the camera, the algorithm, or external factors.         | Creator is mostly focused on the message, with occasional self-awareness.           | Creator is entirely lost in the act of serving, demonstrating deep flow state (the "Fiancée Moment" effect).        |
+
+---
+
+# Module B — The Content Funnel (Portfolio Strategy)
+
+> Source: "The two lies in the creator space" (2025). Added 2026-05-30 as an expansion. This module is **complementary, not competing**, with Module A above. Module A makes any single piece resonate (energy, zone of genius, promise-payoff). Module B governs the **portfolio** — how to allocate content across intent-layers so views AND money compound together. Load this module for `/content-funnel`, `/two-brain-trap`, `/content-debloat`, `/origin-story-engine`.
+
+## Core Thesis (Module B)
+
+There are two lies. Lie #1: *views are the only thing that matter* (more views = more money). Lie #2: *conversions are the only thing that matter* (views don't matter at all). Both are traps. The creator who only chases views gets famous and broke. The creator who only chases conversions gets useful and ignored. **You need a little fame to make money, and you need a money focus to use that fame.** The Content Funnel is the structure that marries them — by letting you produce content at four distinct intent-layers, each judged by its OWN metric, so you stop applying the wrong yardstick to the wrong piece.
+
+The deepest mechanism is psychological, not tactical: **most people cannot hold two definitions of success in their head at once.** They either worship the million-view video (and can't bear to post a 2,000-view conversion piece) or worship conversions (and refuse to post anything that doesn't sell). The funnel's real job is to grant *permission* — permission to get fewer views on purpose, and permission to convert without leading with value.
+
+---
+
+## Genius Patterns (Module B)
+
+### GP-9: The Two-Brain Trap (Influencer vs. Educator)
+
+Every creator runs two brains. The **fame brain** wants to be a household name and doesn't care about money. The **money brain** wants revenue and doesn't care about fame. Optimize either in isolation and you fall into one of two traps.
+
+**The Influencer Trap** — famous and broke. These creators make tons of content, get tons of views, and "make all of nothing." Three failure mechanisms:
+1. **The Industry Prostitute**: selling hard-earned audience trust to the highest bidder. The brand paying you $10K for a post is doing it *because* they net ~$100K off your traffic — by definition you're underpriced, and you've staked your reputation on a post-purchase relationship you don't control. If the brand ships a faulty product, *you* lose trust with your audience for a paycheck smaller than the value you handed over.
+2. **The Algorithm Sock Puppet**: when viewership is your only metric, you become whatever the algorithm rewards, progressively stripping out everything that makes *you* valuable. The content drifts toward whatever every human on earth finds funny/cool — which has nothing to do with you.
+3. **The Unmonetizable Viral Hit**: the 45M-view clip of "a lady tripping over and losing her thong [flip-flop]" — massive reach, zero brand association, impossible to monetize. *"It's 45 million views that thought it was funny, not thought you were interesting or valuable or had something to sell them."*
+
+**The Educator Trap** — useful and broke. These creators reject viewership, preach that "views don't matter," and focus entirely on value. Three failure mechanisms:
+1. **Boring-Valuable**: the tutorials are genuinely useful, but nobody watches them thinking "I want to learn FROM this person / pay this person." They think "useful — next."
+2. **Sales-Pitch White Noise**: every post is a pitch, so the audience learns to zone out the CTA entirely.
+3. **Traffic Starvation**: views dwindle until it doesn't matter how good the conversion rate is — there's not enough traffic to sustain the business.
+
+**The killer insight**: *people don't buy the coaching, they buy the coach.* Unless your audience likes you, relates to you, wants to be led by you — beyond the value you give — they never buy. The pure educator becomes "the professor at the university: people show up because they have to, not because they want to."
+
+**The metaphor**: the bodybuilder ("cardio is a waste") can't climb stairs without getting winded; the endurance junkie ("strength training is pointless") can't lift their own bodyweight. A well-adjusted creator, like a well-adjusted body, needs both.
+
+→ **Deploy as diagnostic**: Which brain is this creator overusing? Which trap are the symptoms pointing to?
+
+---
+
+### GP-10: The Content Funnel (Four-Layer Intent Architecture)
+
+The sales funnel lives in your business (content → leads → sales → clients). The **content funnel lives inside your content alone** — four layers, top (broadest) to bottom (narrowest), each with a different hero and a different success metric.
+
+| Layer | Split | Hero | Success Metric | Permission | Noske's view band |
+|---|---|---|---|---|---|
+| **1. Audience** | 40% | the idea / the audience (you = mouthpiece) | total addressable audience / reach | "play to the algorithm a little," use trends, decrease specificity | 500K–1M |
+| **2. Inspiration** | 25% | YOU, the human (not the business) | connection to the person | tell your origin story, share lifestyle, be vulnerable | 100K–500K |
+| **3. Education** | 25% | the lesson | value / service | just teach — no hook needed, no personality acrobatics | 10K–40K |
+| **4. CTA / Product** | 10% | the offer | conversions ONLY | just sell — no hook, no value-leading, no origin story | 1K–10K |
+
+**Layer mechanics**:
+- **Audience**: maximize total audience size by *decreasing specificity*. You are NOT the main character — the idea is. You're not trying to connect or convert yet, just drive top-of-funnel traffic. A drone clip of the Dolomites: every human says "wow that's cool," makes zero money. That's fine — that's the job.
+- **Inspiration**: now YOU become the hero. Goal is to connect to you the *person*, not you the *business owner*. This is where you manufacture your origin story (see HK-9). The filter: *if a random follower's life depended on recounting your origin story with 100% accuracy, what content would you make?*
+- **Education**: share specific expertise. The relief: once Audience + Inspiration are handled, you can *just teach* — you don't need a killer hook or to weave in your personality, because those jobs are carried elsewhere. Usually clipped coaching calls / tactical wins.
+- **CTA/Product**: pure sell. "Here's what I sell. Here's who it's for. Do you want to buy it?" No ulterior motive, no hook. Testimonials, student wins, offer videos. It will NOT get views — and that's the point.
+
+**The trickle-down**: a fraction of the audience-content viewers wonder "who is this person?" → watch an inspiration piece → a fraction of those want the expertise → education → a fraction convert → CTA. Each layer feeds the next.
+
+**Rising tide raises all ships**: even though only a small % of viewers ever see/act on your CTA layer, more total reach mechanically means more CTA exposure (5M views/mo vs 100K/mo). And brand recognition compounds everywhere — "because more people know my ugly mug, when my face pops up on a Gmail or a YouTube thumbnail, they're more likely to click. Multiplied over years, that's the difference between tens of millions and tens of thousands of dollars."
+
+---
+
+### GP-11: Earn-the-Right-to-Sell (De-Bloating)
+
+Most creators bloat *every single piece* — strong hook + lead-with-value + origin story + personality + bridge + CTA, all crammed into one video — because they're unconsciously asking each piece to do *all* the jobs at once. The funnel distributes the jobs across layers, so each individual piece gets **lighter**.
+
+- Audience content can *just* chase views (no obligation to sell or be deep).
+- Education content can *just* teach (no obligation to hook or entertain).
+- CTA content can *just* sell — "here's what I sell, who it's for, want it?" — and it will *convert better* precisely because it isn't trying to also get views or lead with value.
+
+The emotional tell of a correct de-bloat: **"you felt your shoulders drop."** When a creator realizes they're allowed to make a piece with no connection to their business, or a sell with no value-leading, the relief is physical. That relief is the signal the piece has been returned to its true single job.
+
+→ **Deploy when**: a content idea feels heavy, exhausting, or like it's "trying to do too much."
+
+---
+
+### GP-12: The Diet Heuristic (Dynamic Rebalancing)
+
+The 40/25/25/10 split is a **starting reference, not a law.** "I'm a precious snowflake, what split should *I* use?" — answer: treat it like a diet. Allocation is *corrective*, based on what you've recently over- or under-consumed.
+
+- Over-posted audience content (grown an audience but never sold)? → time to sell.
+- Only ever sold for a while? → time to provide value / be inspiring / build audience.
+- Only ever posted educational value, and your comment section is empty? → time to get people interested in *you*.
+- Only ever posted viral trends and nobody knows what you do? → time to start teaching.
+
+*"There's no science, no math equation. I can't look at your views and tell you the exact split. It's a feeling of what you've been doing up until this point."* The skill is reading your own recent mix and posting the layer you've been starving.
+
+→ **Deploy as the calibration step** inside `/content-funnel`, and as a standalone gut-check.
+
+---
+
+## Hidden Knowledge (Module B)
+
+### HK-6: The Metric-Mismatch Trap (the real reason creators fail)
+The deepest failure isn't bad strategy — it's that most creators can only hold ONE definition of success. They judge a 2,000-view conversion piece as a "failure" against their million-view standard, or refuse to post view-bait because "it doesn't sell." The funnel's true function is permission: *use the right metric per layer.* You can't judge an audience piece for not converting (it never tried) or a CTA piece for not getting views (it never tried). Predictable boundaries remove the false failures.
+
+### HK-7: Specificity Is the Throttle
+You set a piece's view ceiling deliberately, by how many TAM filters you stack. Start with every human on earth → filter to English speakers → filter to those with the niche interest → filter to those who want to *learn* about it. Each filter shrinks the audience and *raises* the money-per-viewer. Broad = big views, no money. Specific = small views, money. Knowing this lets you predict and *accept* a ceiling instead of being blindsided by it.
+
+### HK-8: The Brand-Deal Asymmetry
+A brand pays you $X only because they net several times $X off your traffic — so you are structurally underpaid AND you absorb reputational risk on a customer relationship you don't control. Owning your own product flips both: more margin, and full control of the buyer's experience, which *preserves* the audience trust a bad brand-deal would burn.
+
+### HK-9: Origin Story Is Manufactured, Not Inherited
+The reason you can recount Hormozi's origin story isn't a book or a Wikipedia page — it's that he *made content about it*. Origin story is a deliberate content category (the Inspiration layer), not biography that passively leaks out. If your audience can't recount your origin story, it's because you never built the pieces that tell it.
+
+---
+
+## Hall of Fame Exemplars (Module B)
+
+**Exemplar B1: The Direct-Sell CTA (the de-bloated sell)**
+*Verbatim Reconstruction*: "Hey, I sell Time to Build. It's $200 a month, you can cancel anytime, 90-day money-back guarantee. We help people like you take your expertise and build it into a personal brand and online business that makes $10K a month. If that's you, click the link or comment a word to buy."
+*Why it's excellent*: Pure GP-11. No hook, no value-leading, no origin story, no ulterior motive. It states what's sold, who it's for, and the ask — and it *converts better* for being naked. It only works because the audience/inspiration/education layers already did the other jobs. Gets 1K–10K views from a 460K-follower account, which is fine because conversion, not reach, is the metric (HK-6).
+
+**Anti-Exemplar B1: The 45-Million-View Flip-Flop Video**
+*Reconstructed from source*: A friend's clip of a lady tripping in the rain and losing her flip-flop. 45M views. Has nothing to do with the creator, his brand, or anything he sells. He asks: "How do I monetize this?" Answer: you can't.
+*Why it fails*: Maximal audience-layer reach with zero brand association — pure Influencer Trap (GP-9). It chased views so hard it stripped out 100% of what made the creator valuable (HK-7 taken to the extreme: specificity dialed to zero). Views without identity are unmonetizable. The lesson isn't "don't make audience content" — it's that audience content must still *route back to you* to have value.
+
+**Anti-Exemplar B2: The Coaching-Clips-Only Year (Educator Trap, lived)**
+*Reconstructed from source*: Noske's own 2024 — a full year of nothing but coaching clips, value posts, and teaching carousels, optimized purely for conversions. Views were "fine," but earnings-per-view slowly halved over 12 months, and viewership itself dwindled.
+*Why it fails*: Pure Educator Trap (GP-9). No audience layer (traffic starvation) and no inspiration layer (people never bought *the coach*, only evaluated *the coaching*). Proof that conversion-only is as broken as views-only.
+
+---
+
+## Signature Moves (Module B)
+
+- **The Funnel-Layer Tag**: Before making any piece, name which of the four layers it serves — then commit to *that layer's metric only* and forbid yourself from judging it by any other. → **Deploy**: at the moment of ideation, for every piece.
+- **The Gun-to-Head Origin Filter**: "If a random follower's life depended on recounting my origin story with 100% accuracy, what content would I need to have made?" The gap between that and what you've actually posted is your inspiration-content backlog. → **Deploy**: when planning Inspiration-layer content or `/origin-story-engine`.
+- **The Shoulder-Drop De-Bloat**: When a piece feels heavy, ask "which jobs is this trying to do that a *different* layer should carry?" Strip them until only one job remains and the shoulders drop. → **Deploy**: `/content-debloat`, or any time content feels exhausting to make.
+- **The Diet Check**: Read your last ~10–20 posts, tag each by layer, and post whichever layer you've been starving. → **Deploy**: weekly, or whenever "what should I post?" stalls you.
+- **The Specificity Dial**: Decide a piece's view ceiling *on purpose* by choosing how many TAM filters to apply — then accept that ceiling without flinching. → **Deploy**: whenever a piece "underperforms" on views and you're tempted to call it a failure.
+
+---
+
+## Content Funnel — Decision Framework
+
+Run before any Module B workflow. Answer all five:
+1. **Which brain is dominant right now?** Fame or money? (→ which trap is the risk?)
+2. **Which layer does this piece serve?** Audience / Inspiration / Education / CTA — pick exactly one.
+3. **What is THIS layer's metric?** Reach / connection / value / conversion — and am I forbidding myself from judging it by the others?
+4. **What is this piece's view ceiling, on purpose?** How many TAM filters am I applying, and do I accept the resulting ceiling?
+5. **What's my recent diet?** What have I over-posted and under-posted across the four layers?
+
+If you cannot name the single layer and its single metric, the piece isn't ready to make — it's bloated (GP-11).
+
+---
+
+## Anti-Patterns (Module B)
+
+- **Metric Bleed** — judging a piece by another layer's metric (calling a CTA video a failure for low views, or an audience video a failure for not converting). The #1 sin (HK-6).
+- **The Everything Piece** — cramming hook + value + origin + personality + CTA into one video because you're asking it to do all jobs at once (anti-GP-11). Strip it.
+- **Specificity-Zero Virality** — chasing reach so hard the content has no association to you or what you sell (the 45M-view flip-flop). Reach must route back to identity (anti-HK-7).
+- **The Permanent Pitch** — every post is a CTA, so the audience zones out the sell entirely (Educator Trap, GP-9). The 10% layer only works if the other 90% isn't also selling.
+- **Inherited-Origin Assumption** — assuming people "just know" your story. If you didn't make content about it, they don't (anti-HK-9).
+- **Split-as-Law** — rigidly forcing 40/25/25/10 regardless of what you've recently posted, instead of treating it as a corrective diet (anti-GP-12).
+- **Brand-Deal Default** — taking the $10K post without pricing in the trust risk and the asymmetry that the brand nets more than you off your own audience (anti-HK-8).
+
+---
+
+## Expert-Specific Quality Rubric (Module B — Content Funnel)
+
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+| :-- | :-- | :-- | :-- |
+| **Layer-Intent Clarity** | Piece's layer is ambiguous or hybrid. | Layer is identifiable but some cross-layer bleed remains. | Exactly one layer, one hero, one job — unmistakable. |
+| **Metric-Match Discipline** | Judges the piece partly by the wrong metric. | Mostly right metric, occasional mismatch anxiety. | Ruthlessly judges each piece by its own layer's metric only; zero false-failure framing. |
+| **Specificity Calibration** | View ceiling is accidental, not chosen. | Ceiling roughly understood. | View ceiling set deliberately via named TAM filters and fully accepted. |
+| **De-Bloat Integrity** | Piece tries to do 3+ jobs. | One primary job with minor extra jobs creeping in. | One job. Shoulders drop. Everything else stripped and reassigned to its proper layer. |
+| **Identity Routing** | Reach content has no association to the creator/offer. | Reach loosely routes back to the creator. | Even broad audience content unmistakably routes back to who the creator is / what they sell. |
+| **Diet-Responsiveness** | Ignores recent mix; applies a fixed split. | Some awareness of recent over/under-posting. | Allocation is a live correction of the recent content diet (GP-12). |
+| **Sell Nakedness (CTA layer)** | CTA hides behind value-leading and hooks. | CTA is mostly direct with some hedging. | "Here's what I sell, who it's for, want it?" — naked, unhedged, and converts better for it. |

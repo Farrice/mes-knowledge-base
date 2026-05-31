@@ -1,10 +1,13 @@
 ---
 name: donald-miller
 expert: Donald Miller
-domain: Culture Turnaround, Strategic Messaging, Identity Transformation, StoryBrand, Business Messaging, Narrative Marketing
+domain: Culture Turnaround, Strategic Messaging, Identity Transformation, StoryBrand, Business Messaging, Narrative Marketing, Messaging Evolution, Positioning Discipline, Small Business Growth, Operations, Cash Flow
 skills:
   - donald-miller-culture-turnaround
   - donald-miller-storybrand
+  - donald-miller-cognitive-load
+  - donald-miller-messaging-evolution
+  - donald-miller-business-growth
 ---
 
 # Donald Miller Agent

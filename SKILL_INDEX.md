@@ -123,8 +123,9 @@
 | `linkedin-2026-format-arbitrage` | **LinkedIn 2026 Format Arbitrage** | niche bending and 2026 format arbitrage for linkedin | 2 | 5 |
 | `logan-kilpatrick-ai-studio` | **Logan Kilpatrick: Google AI Studio Mastery** | google ai studio mastery | 3 | 14 |
 | `lucas-alpay-storytelling` | **Lucas Alpay Storytelling** | compelling storytelling for fiction, business copy, and book writing | 4 | 67 |
+| `luke-iha-avatar-machine` | **Luke Iha: The AI Avatar Machine (Manifold)** | the ai avatar machine (manifold) v1.0 | 13 | 0 |
 | `luke-iha-client-mastery` | **Luke Iha: Client Mastery & Business Operations** | the operational complement to luke-iha-creative-strategy (strategic thinking), client mastery & business operations | 12 | 0 |
-| `luke-iha-copy-blocks` | **Luke Iha: Copy Blocks & CASH Method** | copy blocks & cash method | 4 | 0 |
+| `luke-iha-copy-blocks` | **Luke Iha: Copy Blocks & CASH Method** | copy blocks & cash method (v2.0 — director's cut), director's cut) | 12 | 0 |
 | `luke-iha-creative-strategy` | **Luke Iha: Creative Strategy & Freelance Mastery** | creative strategy & freelance mastery v2.0 | 5 | 0 |
 | `luke-iha-cross-domain` | **luke-iha-cross-domain** |  | 4 | 0 |
 | `luke-iha-insight-vectors` | **luke-iha-insight-vectors** | insight vectors — systems grammar for generating epiphanies, systems grammar for generating epiphanies | 12 | 0 |

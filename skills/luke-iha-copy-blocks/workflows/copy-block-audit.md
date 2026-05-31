@@ -1,92 +1,84 @@
 ---
-description: Audit any copy for block composition and velocity — diagnose flat, boring, or non-converting copy
+description: The master diagnostic — map all 6 blocks, flag what's missing, strengthen each via CRAVES, tune velocity. How Luke reviews $2,500/mo client copy.
 ---
 
-# Copy Block Audit
+# Copy Block Audit — The Two-Move Diagnostic
 
-Diagnose any piece of copy by mapping its block composition, velocity, and gaps. Produces a visual block map, velocity chart, and specific rewrite recommendations.
+This is the flagship diagnostic: exactly how Luke Iha reviews copy on the A-list feedback calls. Two moves: **(1) Does it have all 6 blocks? Add the missing ones. (2) Look at the blocks it has — which is weakest? Strengthen it via CRAVES.** Plus a velocity pass for rhythm. Produces a block map, gap analysis, CRAVES strengthening, velocity chart, and rewrites — every weakness paired with a rewritten line (never naked critique).
 
-> **🔒 Pre-Flight Gate**: Before executing, run the **Decision Framework** in `genius.md` § Decision Framework. Confirm all diagnostic questions are answered.
+> **🔒 Pre-Flight Gate**: Run the **Decision Framework** in `genius.md`. Confirm you know the market's Core Wound, the dominant pain dimension (psychological/physiological), and the top identity/value constraints to work around.
 
+## PHASE 0: LOAD MARKET CACHE (warm_core — $0, no re-research)
+If the audited copy targets an already-grounded market, read cached intelligence to judge it against *real* market psychology, not assumptions:
+```bash
+// turbo
+cat .tmp/copy-engine/<slug>/warm-core.json 2>/dev/null || echo "NO CACHE — audit proceeds on the copy alone; for market-grounded critique run /copy-engine for this market first."
+```
+Use `core_wound`, `dominant_emotion`, `pain_to_promise_gap`, `market_beliefs`, `top_voc_soundbites` to check whether the copy's blocks actually match the market. (Optional — the audit also works standalone on structure alone.)
 
 ## PHASE 1: SKILL ACQUISITION (Do this FIRST)
 
-Read these files in order before proceeding:
-1. /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/SKILL.md
-2. /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/genius-patterns.md
-3. /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/hidden-knowledge.md
+Read in order:
+1. `skills/luke-iha-copy-blocks/genius.md`
+2. `skills/luke-iha-copy-blocks/references/craves-and-velocity.md`
+3. `skills/luke-iha-copy-blocks/references/the-six-blocks-deep.md`
 
 ## PHASE 2: INPUT REQUIREMENTS
-
-Collect from user:
-- **The copy to audit** (ad, VSL, email, landing page, sales letter — any persuasive text)
-- **Context** (optional): Target audience, product, performance data if available
+- **The copy to audit** (ad, VSL, email, landing page, headline — any persuasive text)
+- **Context** (optional): target audience, product, awareness level, performance data
 
 ## PHASE 3: BLOCK MAPPING
+Tag every sentence with its primary block:
+- **[P]** Pain · **[PR]** Promise · **[PF]** Proof · **[CN]** Constraints · **[CU]** Curiosity · **[CO]** Conditions
 
-Go through the copy sentence by sentence. Tag each sentence with its primary block:
-- **[P]** Pain — surfaces or amplifies the problem
-- **[PR]** Promise — shows the outcome/result
-- **[PF]** Proof — provides evidence (testimonials, data, credentials, demonstrations)
-- **[CN]** Constraints — creates urgency, scarcity, or exclusivity
-- **[CU]** Curiosity — opens loops, creates questions, teases without resolving
-- **[CO]** Conditions — qualifies the reader in or out
+Output as a numbered list with tags. (Note where a single line carries two blocks — e.g. proof-as-promise.)
 
-Output as numbered list with block tags.
+## PHASE 4: MOVE 1 — GAP ANALYSIS (missing/underweight blocks)
+For each absent or thin block, name the reader reaction it causes — then (Phase 6) write the fix:
+- **No Pain** → "so what?" · **No Promise** → "why care?" · **No Proof** → "I don't believe you" · **No Constraints** → "I'll do it later" · **No Curiosity** → no reason to keep reading · **No Conditions** → "is this for me / why now?"
 
-## PHASE 4: VELOCITY ANALYSIS
+## PHASE 5: MOVE 2 — CRAVES STRENGTHENING (the blocks it HAS)
+Score each present block against CRAVES (Clear · Relevant · Accurate · Visual · Expressive · Specific). Flag the **weakest dimension per block**. Priority order of attack: the **Curiosity** block first (usually weakest — generic mechanism names), then Proof balance, then Visual/Specific gaps in Pain/Promise.
+- Generic-mechanism test: could the curiosity name drop unchanged into an unrelated market? If yes → not Specific, rewrite (see `curiosity-engine.md` Evocative Naming).
 
-Create a velocity map:
-1. **Block Sequence**: List the block tags in order → e.g., P-P-CU-PR-P-PF-CU-CN-PR-PF
-2. **Consecutive Runs**: Flag any block that dominates for 4+ consecutive sentences (VELOCITY DROP)
-3. **Opening Velocity**: How many different blocks appear in the first 5 sentences? (Target: 3+)
-4. **Pre-CTA Velocity**: Does the rhythm slow deliberately before the close? (Intentional = good)
-5. **Block Distribution**: Count total appearances of each block. Score for balance
+## PHASE 6: VELOCITY ANALYSIS
+1. **Block sequence** in order (e.g. P-CU-PR-P-PF-CU-CN-PR).
+2. **Consecutive runs** — flag any block dominating 4+ sentences (velocity drop).
+3. **Opening velocity** — # distinct blocks in first ~5 sentences (target 3+).
+4. **Pre-CTA** — does rhythm slow deliberately before the close? (intentional = good).
+5. **Density** — any padded passages that could compress (informal CVS feel, not a reported number).
 
-## PHASE 5: GAP ANALYSIS
-
-Check for missing or underweight blocks:
-- **No Pain**: Copy doesn't connect to a felt problem → reader says "so what?"
-- **No Promise**: Copy doesn't show the outcome → reader says "why should I care?"
-- **No Proof**: Copy makes claims without evidence → reader says "I don't believe you"
-- **No Constraints**: No urgency → reader says "I'll do it later" (never)
-- **No Curiosity**: No open loops → reader has no reason to keep reading
-- **No Conditions**: No qualification → reader doesn't self-identify ("is this for me?")
-
-## PHASE 6: REWRITE RECOMMENDATIONS
-
-For each issue found:
-1. **Velocity drops**: Suggest block insertion points with specific block type
-2. **Missing blocks**: Write 2-3 example sentences that add the missing block with fresh angles
-3. **Weak openings**: Rewrite first 3-5 sentences with accelerated velocity
-4. **Repetitive angles**: Identify blocks using the same angle twice and suggest alternatives
+## PHASE 7: REWRITE RECOMMENDATIONS (copy-feedback-as-copy)
+**Every flagged issue MUST ship with a rewritten line.** "Add curiosity" is bozo feedback — show the line.
+1. Missing blocks → 2–3 example sentences adding the block with a fresh angle.
+2. Weak curiosity → an Evocative-Named alternative (+ what associations it triggers).
+3. CRAVES weaknesses → the before/after line.
+4. Velocity drops → the compressed/interleaved rewrite.
 
 ## OUTPUT FORMAT
-
 ```
-## Copy Block Audit Report
+## Copy Block Audit
 
 ### Block Map
-[Numbered sentence-by-sentence block tags]
+[Numbered sentence-by-sentence tags]
 
-### Velocity Chart
-Opening velocity: X/5 blocks in first 5 sentences
-Longest consecutive run: [Block] × [count] (sentences [X-Y])
-Block distribution: P:[x] PR:[x] PF:[x] CN:[x] CU:[x] CO:[x]
+### Move 1 — Missing Blocks
+[Block] missing → reader reaction → FIX: "[rewritten line]"
+
+### Move 2 — Strengthen What's There (CRAVES)
+[Block]: weakest = [dimension]. Before: "…" → After: "…"
+
+### Velocity
+Opening: X/5 blocks · Longest run: [Block]×N (sent. A–B) · Distribution: P:_ PR:_ PF:_ CN:_ CU:_ CO:_
+Pre-CTA slowdown: [yes/no]
 
 ### Diagnosis
-[2-3 sentence summary of the copy's structural health]
+[2–3 sentences: structural health + the single highest-leverage fix]
 
-### Critical Issues
-1. [Issue + specific fix]
-2. [Issue + specific fix]
-
-### Rewrite Recommendations
-[Specific sentences to add/modify with block tags]
+### Prioritized Rewrites
+1. [issue → rewritten copy]
 ```
 
 ---
-
 ## Quality Gate
-
-> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+> **🛡️ Anti-Pattern Check**: Review against `genius.md` § Anti-Patterns. No naked critique (every flag has a rewrite). No visible block labels in the rewritten *customer-facing* lines. Clarity never sacrificed for density.
