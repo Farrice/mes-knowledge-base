@@ -34,7 +34,7 @@ const SCHEMA = {
     their_copy_excerpt: { type: 'string', description: 'their LIVE headline/value-prop, short excerpt only (≤25 words) — the BEFORE' },
     avatar_insight: { type: 'string', description: 'the core wound / identity-safe angle / Pain-Matrix leverage dimension their copy MISSES — the differentiator, grounded in the dossier' },
     beating_copy: { type: 'string', description: 'the grounded rewrite of the asset — the AFTER (expert DR copy, real VOC, claim-safe)' },
-    linkedin_post: { type: 'string', description: 'constructive brandjack post: What They Did Right → What They Missed → What This Means For You; no contempt; ends on a soft teardown-offer CTA' },
+    linkedin_post: { type: 'string', description: 'constructive brandjack post. MUST OPEN WITH A BRIEF SETUP FRAME (1-3 short lines) that tells the reader this is a teardown, by the author, of a brand they know — e.g. "Teardown of the week: <brand>." / "Every week I tear down a brand you know. This week, <brand>." — so the insight lands with context and lends authority (without it, the post reads mid-sentence). Vary the frame construction across brands. Then: What They Got Right → What They Missed (the avatar insight) → the before/after → What This Means For You. No contempt; close on a declaration or reader-stake, never a cheap question.' },
     constructive: { type: 'boolean', description: 'true if it tears down the copy not the people, leads with what they got right' },
     real_voc_used: { type: 'boolean' },
     self_score: { type: 'number', description: '1-10 vs the genius.md rubric + heartbeat' },
