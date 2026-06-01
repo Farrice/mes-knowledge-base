@@ -79,9 +79,15 @@ Invoke `/jackpost` with **brandjack** pre-selected, handing it `recon.md` + `tea
 ```
 ```bash
 // turbo
+# FINISH GATE — never ship raw workflow output. ONE deterministic scanner catches
+# every banned MOVE (em-dashes >2, "It's not X. It's Y." reveals, triple anaphora,
+# "here's the part nobody…", cheap-question closes) + LinkedIn format. FAIL = exit 2.
+python3 execution/content_finish_gate.py check --file .tmp/teardown/<slug>/linkedin-post.md --platform linkedin --label "<brand>"
 python3 execution/teardown_ethics_gate.py public --brand "<brand>" --file .tmp/teardown/<slug>/linkedin-post.md --recon .tmp/teardown/<slug>/recon.md --workflow teardown
 ```
-**Gate T5 (strictest):** ethics `public` exits 0 on the FINAL post. *The post is delivered ready — the user posts it.* Auto-posting is out of scope.
+**Gate T5 (strictest — the finish):** PROCEED requires ALL of: `prose_classifier` CLEAN · ≤2 em-dashes · zero "It's not X. It's Y." reveals · zero twin-sentence/triple-anaphora/cheap-question-close (banned per `feedback_ai-structural-tells.md` + `feedback_no-cheap-question-signoffs.md`) · ethics `public` exit 0. If the insight reads as a CLAIM ("they sell X, want Y") rather than a named-mechanism VECTOR with braided proof — send it back through `/writers-room` + insight-vectors before shipping. *The post is delivered ready — the user posts it.* Auto-posting is out of scope.
+
+> **Lesson (2026-06-01):** the first teardown batch shipped raw agent output that tripped 4 bans (8+ em-dashes, twin-sentence endings, cheap-question close, identical skeletons) and finalized at a hollow 8.33 because `chain_runner` doesn't catch structural tells. This FINISH GATE is the deterministic backstop so that can't recur — a teardown is not done until it passes prose_classifier CLEAN + the banned-moves scan, not just finalize.
 
 ## FINALIZE (Gate C — per artifact, never batch) + tracking
 ```bash

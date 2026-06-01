@@ -79,6 +79,14 @@ _CONSTRUCTIVE = [
     r"\bwhat'?s (left on the table|missing)\b", r"\bnot a knock\b",
     r"\bthey'?re not wrong\b", r"\bgreat (brand|product|company)\b",
     r"\bsolid (foundation|positioning|copy)\b", r"\bwith respect\b",
+    # Credit-giving phrasings (broadened 2026-06-01 — posts that genuinely
+    # lead with credit were false-REVIEWing on too-narrow a marker list).
+    r"\bcredit where it'?s due\b", r"\bto be (fair|clear)\b",
+    r"\bthe craft is real\b", r"\bnails? (the )?surface\b",
+    r"\bone of the cleanest\b", r"\b(is|are) (genuinely )?sharp\b",
+    r"\bhonest,? (and )?clear\b", r"\bmost of .{0,25} (copy|site) is\b",
+    r"\bexactly right\b", r"\bclean(est)? (line|copy|promise)\b",
+    r"\band it converts\b", r"\bnobody (finishes|watches) .{0,30}(lied to|feeling)\b",
 ]
 
 # ── Factual-claim-ABOUT-the-brand patterns (must be sourced) ────────────────

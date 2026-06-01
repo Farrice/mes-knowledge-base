@@ -458,6 +458,31 @@ def _enforce_caps(
             prose_verdict = "ERROR"
             prose_details = {"error": str(e)}
 
+    # ── Cap 1.5: Structural Tells (added 2026-06-01) ─────────
+    # The deterministic backstop for the banned MOVES (em-dashes, "It's not X.
+    # It's Y." reveals, triple anaphora, "here's the part nobody…", cheap-question
+    # closes) that prose_classifier's vocab scan misses. Origin: a teardown batch
+    # shipped with all of these and finalized at a hollow 8.33 because nothing
+    # mechanically scanned for structure. A FAIL caps expert_standard at 5.0 —
+    # harder than the prose cap, since these are explicit voice-rule violations.
+    if task_type in _COPY_TASK_TYPES and output_text and len(output_text) > 100:
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import content_finish_gate as _cfg_mod
+            _cfg = _cfg_mod.evaluate(output_text)
+            if _cfg.get("verdict") == "FAIL":
+                cur = enforced.get("expert_standard")
+                if cur is not None and cur > 5:
+                    caps_applied.append({
+                        "rule": "structural_tells_cap",
+                        "dimension": "expert_standard",
+                        "from": cur, "to": 5.0,
+                        "reason": "content_finish_gate FAIL: " + "; ".join(_cfg.get("fails", [])[:3]),
+                    })
+                    enforced["expert_standard"] = 5.0
+        except Exception:
+            pass
+
     # ── Cap 2: Copy Calibration ──────────────────────────────
     if task_type in _COPY_TASK_TYPES and output_text and len(output_text) > 100:
         passes, reason = _check_concrete_result(output_text)
@@ -535,6 +560,12 @@ def finalize(
     # Phase 4 template MUST pass the original user request here to prevent the
     # autopilot_orchestration binding from firing on every sub-workflow.
     source_request: Optional[str] = None,
+    # Content scanning (added 2026-06-01): the path to the ACTUAL deliverable so
+    # the prose + structural-tells caps scan the real artifact, not the short
+    # output_description summary. Without this the caps scanned summaries and slop
+    # (em-dashes, reveals, cheap closes) shipped with a clean score. If given and
+    # readable, its contents become the text the caps scan.
+    content_path: str = "",
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -610,13 +641,24 @@ def finalize(
     # _enforce_caps converts the three quality_gate.md hard rules from
     # advisory text into deterministic score mutations. See _enforce_caps
     # docstring above for rule details.
+    # Scan the ACTUAL deliverable when a content_path is supplied; else fall back
+    # to the description (legacy behavior). This is what lets the caps see the
+    # real post, not a flattering summary of it.
+    _scan_text = output_description
+    if content_path:
+        try:
+            _cp = Path(content_path)
+            if _cp.exists():
+                _scan_text = _cp.read_text()
+        except Exception:
+            pass
     enforced = _enforce_caps(
         raw_scores={
             "intent_alignment": intent_alignment,
             "expert_standard": expert_standard,
             "adversarial_resilience": adversarial_resilience,
         },
-        output_text=output_description,
+        output_text=_scan_text,
         task_type=task_type,
         factual_grounding=factual_grounding,
     )
@@ -1341,6 +1383,7 @@ def main():
     fin.add_argument("--anchor-named", action="store_true", help="Set when scores ≥8 have a named rubric anchor (rubric_v1.md). Without this flag, any dim ≥8 is capped at 7.5 by the bimodal taste filter.")
     # Autopilot Wave 5 stabilization (added 2026-05-23)
     fin.add_argument("--source-request", default=None, help="Original user request verbatim. Used for the post-hoc routing check instead of the output description. Autopilot's Phase 4 template MUST pass this to prevent false positives on the autopilot_orchestration binding.")
+    fin.add_argument("--content-file", default="", dest="content_file", help="Path to the ACTUAL deliverable. The prose + structural-tells caps scan THIS (not the summary), so slop with banned moves cannot finalize clean. Pass the artifact for every Content/Copy/Creative finalize.")
 
     args = parser.parse_args()
 
@@ -1371,6 +1414,7 @@ def main():
             factual_grounding=args.factual,
             anchor_named=args.anchor_named,
             source_request=args.source_request,
+            content_path=getattr(args, "content_file", "") or args.anchor_path or "",
         )
         print_result(result)
     else:

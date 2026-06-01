@@ -51,7 +51,13 @@ const results = await pipeline(
     `• avatar_insight: the deep customer truth their copy misses (grounded in the dossier — quote real VOC where possible).\n` +
     `• beating_copy: a finished ${b.asset} that out-converts theirs — expert DR voice, grounded in real VOC, every claim safe (no unverifiable stats about ${b.brand} or fake numbers), no AI-tells.\n` +
     `• linkedin_post: a CONSTRUCTIVE teardown post. Lead with "What ${b.brand} got right." Then "What they're missing about their own customer" (the avatar insight). Then the before/after (their excerpt vs your rewrite). End on "What this means for you" + a soft CTA ("want this run on your competitor?"). NEVER mock or call them incompetent — tear down the COPY with respect. Excerpt + transform their copy; never reproduce it at length.\n\n` +
-    `HARD RULES: constructive only (no contempt words). Use the real avatar/VOC, do not invent the customer. No unsourced factual claims about ${b.brand} (their revenue/spend/metrics) — speak only about their COPY, which is public. Make it sing: tension, recognition, a heartbeat — expert copy, not a dossier summary.`,
+    `STANDARD (this is the bar — a teardown that reads like Luke Iha, not a summary):\n` +
+    `• INSIGHT MUST BE A VECTOR, NOT A CLAIM. "They sell X, the customer wants Y" is a claim and it's banned. Instead: NAME the mechanism/trap (2-3 words, visual, emotional — e.g. "the Build Trap," "the Spectator's Surplus") and use reverse causation or a vicious cycle ("the arrow runs backwards"), confirming a suspicion the market already half-holds.\n` +
+    `• PROOF BRAIDED, NOT DROPPED. Weave the real VOC quote INTO the claim as its evidence within the same beat, not as a bolted-on citation.\n` +
+    `• BANNED STRUCTURAL MOVES (hard fail): max 2 em-dashes total (prefer 0); ZERO "It's not X. It's Y." / "isn't A, it's B" reveal patterns; no twin-sentence aphoristic paragraph endings; no triple-beat anaphora; no "here's the part nobody..." framing; NO cheap-question close ("drop their name below?" is banned) — close on a declaration, a reader-stake, or naming what they feel.\n` +
+    `• CROSS-PIECE VARIANCE: vary your open, your mechanic, and your close so this post does NOT share a skeleton with the other two brands' posts.\n` +
+    `• CONSTRUCTIVE: lead with genuine credit ("credit where it's due," "to be fair"); tear down the COPY, never the people; no unsourced factual claims about ${b.brand}'s business (revenue/metrics) — speak only about their public copy.\n` +
+    `Make it sing: tension, recognition, a heartbeat. It must pass prose_classifier CLEAN and teardown_ethics_gate public PASS.`,
     { label: `teardown:${b.brand}`, phase: 'Teardown', schema: SCHEMA }
   ).then(r => ({ slug: b.slug, ...r })),
 )
