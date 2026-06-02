@@ -128,3 +128,4 @@
 - `[2026-06-02 01:02]` **finalize** | The TAM is $36 billion at 27% CAGR. According to Forbes, 78% of users churn. Market valued at $9.5 m | general | test — composite:7.25 status:Needs Improvement
 - `[2026-06-02 01:03]` **finalize** | The total addressable market is $36.6 billion in 2026, projected to reach $120 billion by 2031 at a  | general | test — composite:6.5 status:Needs Improvement
 - `[2026-06-02 01:34]` **finalize** | SFV first-time-homebuyer converting copy (lead-magnet opt-in + VSL lead + re-engagement email) — Sta | copywriting | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-06-02 10:10]` **finalize** | SFV FTHB converting copy v2 (CORRECTED) — claims primary-source verified vs LAHD/LACDA/CalHFA; fixed | copywriting | luke-iha — composite:7.25 status:Needs Improvement

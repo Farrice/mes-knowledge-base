@@ -75,12 +75,16 @@ Source the 6 blocks. All read `warm-core.json` + the dossier (no new research). 
 `/copy-from-scratch` with belief-state sequencing + proof-braid → `.tmp/copy-engine/<slug>/draft.md`. No visible block labels. Carries the claim ledger forward.
 
 ## PHASE 5 — VERIFY (Gate G5 — the load-bearing gate)
+**High-stakes detection:** if the market is a **regulated / harm-bearing domain** — real-estate, mortgage/lending, financial/investing, insurance, medical/health, legal, tax, supplements — add `--high-stakes`. In that mode every $/program/rate/eligibility claim must be **primary-source VERIFIED** (an official `.gov`/program page in the ledger), not merely labeled. LIKELY/UNCONFIRMED is rejected. This is non-optional for regulated markets — a wrong DPA amount or eligibility claim is real harm, not a quality nit.
 ```bash
 // turbo
-python3 execution/verify_proof_ledger.py --draft .tmp/copy-engine/<slug>/draft.md --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "LEDGER GATE FAIL — label/cut claims before delivery"
+HS=""   # set HS="--high-stakes" for real-estate / financial / medical / legal / insurance / tax markets
+python3 execution/verify_proof_ledger.py --draft .tmp/copy-engine/<slug>/draft.md --ledger .tmp/copy-engine/<slug>/proof-claims.md $HS || echo "LEDGER GATE FAIL — verify/label/cut claims before delivery"
 python3 execution/prose_classifier.py check .tmp/copy-engine/<slug>/draft.md || true
 ```
-**Gate G5 — PROCEED requires:** `verify_proof_ledger` exits 0 (every stat/price/date/superlative present + labeled) AND no `UNCONFIRMED` claim presented as fact. On FAIL → re-verify (cheap: one `perplexity_ask` per new claim), label, or cut. *Do not deliver on a FAIL.* (The freshness-tax hook is the harness-level backstop if this is skipped.)
+**Important — "VERIFIED to the dossier" ≠ true.** The Gemini grounding can misattribute amounts or miss a cap. For high-stakes claims, the proof sub-agent must cross-check each $/program/eligibility claim against the **primary source** (the official program page), and label the ledger row `VERIFIED via <authority/URL>`. Claims that can't be primary-verified must be cut or explicitly caveated ("as of <date>, verify current"). Any residual high-stakes flags become an **Agent Verify-At-Send checklist** handed to the client (the licensed professional confirms before publishing).
+
+**Gate G5 — PROCEED requires:** `verify_proof_ledger` exits 0 (standard: every claim present + labeled; high-stakes: every claim primary-source VERIFIED) AND no `UNCONFIRMED` claim presented as fact. On FAIL → re-verify to primary source, label, caveat, or cut. *Do not deliver on a FAIL.* (The freshness-tax hook is the harness-level backstop if this is skipped.)
 
 ## PHASE 6 — POLISH ($0)
 `/craves-polish` on key lines (mechanism name → Specific/Visual) + velocity compression.

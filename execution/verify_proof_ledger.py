@@ -142,34 +142,50 @@ def load_labeled_rows(ledger_text: str) -> list[str]:
     return rows
 
 
-def is_covered(claim: dict, labeled_rows: list[str]) -> bool:
-    """A claim is covered if its key (numeric/price/date) or a content word
-    (superlative/attribution) appears in some labeled ledger row."""
+# Markers that a ledger row carries a real primary-source verification (not just a
+# label). Used by --high-stakes mode for regulated markets (real-estate, financial,
+# medical, legal): a number alone isn't enough — it must trace to an authority.
+PRIMARY_SOURCE_HINTS = ("http", "verified via", "primary source", "official",
+                        ".gov", "according to", "per ", "confirmed via")
+
+
+def _matches(claim: dict, row: str) -> bool:
+    """True if a single ledger row covers this claim."""
     key = claim["match_key"]
     if claim["type"] in ("stat", "price", "date"):
-        # numeric-ish: the normalized number must appear in a labeled row
+        rn = _norm(row)
+        if key and key in rn:
+            return True
         digits = re.sub(r"[^\d]", "", key)
-        for row in labeled_rows:
-            rn = _norm(row)
-            if key and key in rn:
-                return True
-            if digits and len(digits) >= 2 and digits in re.sub(r"[^\d]", "", rn):
-                return True
+        if digits and len(digits) >= 2 and digits in re.sub(r"[^\d]", "", rn):
+            return True
         return False
-    else:
-        # superlative / attribution: require a shared significant word (>=4 chars)
-        words = [w for w in re.findall(r"[a-z]{4,}", claim["snippet"].lower())]
-        for row in labeled_rows:
-            rl = row.lower()
-            if any(w in rl for w in words):
+    rl = row.lower()
+    words = re.findall(r"[a-z]{4,}", claim["snippet"].lower())
+    if any(w in rl for w in words):
+        return True
+    ent_words = re.findall(r"[a-z]{3,}", key.lower())
+    return bool(ent_words) and all(w in rl for w in ent_words)
+
+
+def covering_rows(claim: dict, labeled_rows: list[str]) -> list[str]:
+    return [r for r in labeled_rows if _matches(claim, r)]
+
+
+def is_covered(claim: dict, labeled_rows: list[str]) -> bool:
+    """A claim is covered if its key/content appears in some labeled ledger row."""
+    return any(_matches(claim, r) for r in labeled_rows)
+
+
+def is_primary_verified(rows: list[str]) -> bool:
+    """True if any covering row is labeled VERIFIED (not LIKELY/UNCONFIRMED) AND
+    carries a primary-source indicator. The bar for high-stakes claims."""
+    for r in rows:
+        up = r.upper()
+        if "VERIFIED" in up and "LIKELY" not in up and "UNCONFIRMED" not in up:
+            if any(h in r.lower() for h in PRIMARY_SOURCE_HINTS):
                 return True
-        # attribution: the entity name itself
-        ent_words = [w for w in re.findall(r"[a-z]{3,}", key.lower())]
-        for row in labeled_rows:
-            rl = row.lower()
-            if ent_words and all(w in rl for w in ent_words):
-                return True
-        return False
+    return False
 
 
 def main() -> int:
@@ -178,6 +194,9 @@ def main() -> int:
     ap.add_argument("--ledger", required=True, help="Path to proof-claims.md")
     ap.add_argument("--json", action="store_true", help="Machine-readable output")
     ap.add_argument("--quiet", action="store_true", help="Only print on FAIL")
+    ap.add_argument("--high-stakes", action="store_true",
+                    help="Regulated markets (real-estate/financial/medical/legal): every claim "
+                         "must be VERIFIED against a primary source, not merely labeled.")
     args = ap.parse_args()
 
     draft_path = Path(args.draft)
@@ -210,6 +229,36 @@ def main() -> int:
         else:
             print(msg, file=sys.stderr)
         return 1
+
+    # ── HIGH-STAKES MODE: regulated markets need primary-source verification ──
+    if args.high_stakes:
+        problems = []
+        for c in claims:
+            rows = covering_rows(c, labeled_rows)
+            if not rows:
+                problems.append((c, "UNLABELED"))
+            elif not is_primary_verified(rows):
+                problems.append((c, "NOT PRIMARY-VERIFIED (only LIKELY/UNCONFIRMED or no source)"))
+        if args.json:
+            print(json.dumps({"status": "FAIL" if problems else "PASS", "mode": "high-stakes",
+                              "claims": len(claims),
+                              "flagged": [{"type": c["type"], "key": c["key"], "reason": r,
+                                           "snippet": c["snippet"]} for c, r in problems]}, indent=2))
+            return 1 if problems else 0
+        if problems:
+            print(f"🚫 HIGH-STAKES PROOF GATE: FAIL — {len(problems)} of {len(claims)} claim(s) "
+                  f"lack primary-source verification:\n", file=sys.stderr)
+            for c, r in problems:
+                print(f"  [{c['type']}] {c['key']} → {r}", file=sys.stderr)
+                print(f"      …{c['snippet']}…", file=sys.stderr)
+            print(f"\nRegulated-market copy: every $/program/rate/eligibility claim must be VERIFIED "
+                  f"against a primary source (official .gov / program page) in {args.ledger}. "
+                  f"LIKELY/UNCONFIRMED is NOT sufficient — verify to a primary source or cut/caveat.",
+                  file=sys.stderr)
+            return 1
+        if not args.quiet:
+            print(f"✅ HIGH-STAKES PROOF GATE: PASS — all {len(claims)} claim(s) primary-source VERIFIED.")
+        return 0
 
     uncovered = [c for c in claims if not is_covered(c, labeled_rows)]
 

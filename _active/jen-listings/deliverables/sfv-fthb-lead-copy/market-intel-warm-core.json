@@ -1,0 +1,40 @@
+{
+  "slug": "sfv-first-time-homebuyers",
+  "grounded_at": "2026-05-31T19:15:50Z",
+  "tier": "deep",
+  "status": "PASS",
+  "dominant_emotion": "defeated resignation shading into shame — 'it's impossible, the market left me behind' — the quiet grief of watching ownership (and the stability/dignity/future it stands for) close in your own city while peers build equity",
+  "core_wound": "permanent exclusion / being locked out for good — 'I'll be a renter forever, priced out of belonging and a future in the place I already live.' Abandonment + loss: the American-dream door closing in your face.",
+  "pain_to_promise_gap": "'I'll never be able to afford a home in the SFV' → 'you can realistically own here in months, not years — with a fraction of the cash you think you need — once someone shows you which doors are actually open to you.'",
+  "market_beliefs": {
+    "external_problem": "Homes cost too much ($1M+), interest rates are too high (6.51%), and I don't earn enough — so it's just not possible for me right now.",
+    "internal_problem_UMP": "You've been sold the 20%-down myth (~$200k+) and told you need 'perfect' conditions. The real problem isn't the price — it's that nobody has shown you which of the stacked assistance programs you personally qualify for, so you self-disqualify before you ever apply.",
+    "external_solution": "Save for years to hit 20% down, wait for prices to 'crash,' or give up and keep renting indefinitely.",
+    "internal_solution_UMS": "The SFV has 5+ stackable down-payment + closing-cost assistance programs (CalHFA, LAHD LIPA up to $161k, LACDA HOP80/HOP120, Greenline up to $35k) layered on top of 3.5%-down FHA — a guided, income-matched path that gets you in the door with a small fraction of the cash, not a 7-figure savings account."
+  },
+  "mechanism_name": "The Stacked-Door Path",
+  "mechanism_rationale": "Evocative + constraint-baked: a 'side door' you can actually walk through (vs the locked 20%-down front door), and 'stacked' encodes the real mechanism (layering multiple assistance programs). Passes the portability test — it's specific to the SFV-assistance reality, not droppable into another market.",
+  "identity_ceiling": "Renters who believe ownership is years away or permanently out of reach — pitch to 'own within months with the cash you have now,' NOT 'build a real-estate empire.' Meet the identity at 'I could actually be a homeowner,' which is already a stretch for this market.",
+  "top_voc_soundbites": [
+    "The market is just too expensive, it's impossible.",
+    "I can't afford the monthly payments with these interest rates.",
+    "There's nothing good available in my price range/desired area.",
+    "I'm competing against all-cash buyers and investors.",
+    "The process is too complicated and overwhelming.",
+    "I went through a first time homebuyers program and they offered me down payment assistance and they didn't give me all the money they said.",
+    "I don't want to buy a 'fixer-upper' and incur more costs."
+  ],
+  "grounded_facts": {
+    "median_home_price_apr_2026": "$1,034,250 (all types); $1,224,500 single-family",
+    "mortgage_rate_may_2026": "~6.51% 30-yr fixed",
+    "dpa_programs": "CalHFA; LAHD LIPA up to $161,000; LACDA HOP80/HOP120; Greenline up to $35,000",
+    "fha_down": "as low as 3.5%",
+    "entry_neighborhoods": "Reseda, Van Nuys, Chatsworth, Granada Hills, Northridge",
+    "median_income_2024": "$92,311"
+  },
+  "ejection_triggers_do_not_say": [
+    "Do NOT promise 'free house' / 'no money down ever' (DPA has income caps + some have shared-appreciation clauses — overpromising trips the BS detector and echoes the 'they didn't give me all the money' burn).",
+    "Do NOT shame them for renting or 'not trying hard enough.'",
+    "Do NOT say 'just buy a fixer-upper' (explicit stated aversion)."
+  ]
+}
