@@ -30,6 +30,12 @@ from typing import Any, Dict, List, Optional
 
 import requests
 
+# Shared success gate — validates engine content BEFORE any cost accounting.
+try:
+    from research_contract import validate_engine_text
+except ImportError:  # when imported as execution.perplexity_client
+    from execution.research_contract import validate_engine_text
+
 
 # ---------------------------------------------------------------------------
 # Environment
@@ -76,11 +82,13 @@ DEFAULT_QUERY_COST = 0.05
 class SearchResult:
     """Structured result from a Perplexity search."""
 
-    __slots__ = ("text", "citations", "model", "query", "estimated_cost", "duration_seconds")
+    __slots__ = ("text", "citations", "model", "query", "estimated_cost", "duration_seconds", "status")
 
     def __init__(self, **kwargs):
         for k in self.__slots__:
             setattr(self, k, kwargs.get(k, None))
+        if self.status is None:
+            self.status = "completed"
 
     def to_dict(self) -> Dict[str, Any]:
         return {k: getattr(self, k) for k in self.__slots__}
@@ -194,10 +202,27 @@ class PerplexityClient:
 
         citations = data.get("citations", [])
 
+        # --- Success gate: validate content BEFORE any cost accounting ---
+        # This is the honest-accounting fix. An empty / rate-limited / refusal
+        # body must NEVER burn budget or be logged as a completed query. Failures
+        # are recorded separately at $0 so they stay visible without lying.
+        ok, reason = validate_engine_text(text, citations)
+        if not ok:
+            self._log_failure(
+                query=query, model=model, reason=reason,
+                task_context=task_context, query_type=query_type,
+                duration_seconds=round(duration, 2),
+            )
+            return SearchResult(
+                text="", citations=[], model=model, query=query,
+                estimated_cost=0.0, duration_seconds=round(duration, 2),
+                status="failed",
+            )
+
         self.call_count += 1
         self.total_cost += query_cost
 
-        # Log usage
+        # Log usage (only validated content reaches here)
         self._log_usage(
             query=query,
             model=model,
@@ -213,6 +238,7 @@ class PerplexityClient:
             query=query,
             estimated_cost=query_cost,
             duration_seconds=round(duration, 2),
+            status="completed",
         )
 
         return result
@@ -233,6 +259,7 @@ class PerplexityClient:
                 results.append(SearchResult(
                     text="", citations=[], model=kwargs.get("model", "sonar"),
                     query=q, estimated_cost=0, duration_seconds=0,
+                    status="failed",
                 ))
         return results
 
@@ -309,6 +336,30 @@ class PerplexityClient:
         if loop["current_task_query_count"] > 10:
             print(f"  ⚠️  Per-task query cap reached (10). Blocking further queries for '{task_context}'.")
 
+        USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        USAGE_FILE.write_text(json.dumps(usage, indent=4))
+
+    def _log_failure(self, query: str, model: str, reason: str,
+                     task_context: str, query_type: str, duration_seconds: float):
+        """Record a failed/empty call WITHOUT burning budget.
+
+        The honest-accounting half of the success gate: failures are visible
+        (so 'why didn't research fire?' is answerable) but cost $0 and never
+        touch the budget counter or loop-detection. Appends to a 'failures'
+        array — distinct from the 'usage.queries' array of real spend.
+        """
+        usage = self._read_usage()
+        failures = usage.setdefault("failures", [])
+        failures.append({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "type": query_type,
+            "model": model,
+            "description": query[:200],
+            "task_context": task_context,
+            "reason": reason,
+            "duration_seconds": duration_seconds,
+            "estimated_cost": 0.0,  # explicit: failures never cost
+        })
         USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
         USAGE_FILE.write_text(json.dumps(usage, indent=4))
 

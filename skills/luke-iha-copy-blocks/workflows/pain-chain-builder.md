@@ -70,5 +70,21 @@ Core-wound touch (softened): "…"
 | Physiological market | Compress levels 1–4; lead toward the new-solution belief |
 
 ---
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-copy-blocks --workflow pain-chain-builder \
+  --type Content --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 > **🛡️**: Core wound direct or un-softened? Rewrite. Psychological pain not re-triggered via story? Add the cinematic level. Stats cited without a connected feeling? Fix. No assumption of "I know exactly how you feel."

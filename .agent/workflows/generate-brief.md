@@ -77,9 +77,9 @@ Use `search_web` for anything Perplexity didn't cover:
 
 For the top 3-5 most promising results, use `read_url_content` to get full page content.
 
-**Alternative — Research Engine** (automatic decomposition + parallel execution):
+**Alternative — Research Engine** (unified engine: Gemini-first → Perplexity → Tavily floor, honest Research Receipt, $0 on failure):
 ```bash
-python3 execution/deep_research_engine.py --depth deep "[niche] strategic landscape"
+python3 execution/research.py "[niche] strategic landscape" --depth deep
 ```
 
 ### Step 3D: Log & Tag

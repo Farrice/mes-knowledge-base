@@ -44,6 +44,14 @@ Before profiling, conduct current research:
 - Identify behavioral patterns and language used by potential customers
 - Note what they're rejecting from alternatives
 
+**Tool binding (required).** Run validation through the unified research engine — never freehand "web search" or rely on training-data recall:
+```bash
+python3 execution/research.py "<brand/category + consumer signal query>" --depth standard
+```
+(Gemini-first → Perplexity → Tavily bedrock floor; honest Research Receipt; $0 on failure.) For exhaustive VOC mining use `--depth deep` or `--depth max`, which fans out via `.agent/workflows/deep-research-swarm.workflow.js`.
+
+**Source floor (required).** A claim about the consumer (language, behavior, what they reject) may only be called "research-grounded" if it is backed by ≥3 distinct cited sources from the Research Receipt. Claims that fail the floor must be labeled **[MODELED]** — they are creative inference, not research, and may not be presented as observed consumer reality.
+
 See [research-checklist.md](references/research-checklist.md) for validation criteria.
 
 ### Step 2: Generate Profile

@@ -6,7 +6,7 @@ description: Deep Research
 
 Deploy the full research stack: **Gemini Deep Research (primary) or Perplexity sonar-deep-research (fallback)** as the foundation layer, 3 parallel specialist agents (Pattern Hunter, Psychology Miner, Contrarian Scout) to deepen each angle grounded in real data, synthesis with contradiction resolution, adversarial challenge round, and a McKinsey-grade Strategic Intelligence Report.
 
-**Foundation backend (as of 2026-04-23)**: This workflow now invokes `deep_research_client.py` (Gemini Deep Research) as Step 1's foundation call. Perplexity sonar-deep-research fires only when Gemini is unavailable (budget, rate limit, API error). Output is tagged with which backend served the foundation call.
+**Foundation backend (as of 2026-06-01 — Unified Research Engine)**: This workflow now invokes **`execution/research.py`** as the single foundation call. The engine runs **Gemini-first → Perplexity → Claude bedrock floor** internally, logs cost honestly (failed/empty calls cost $0 and never burn budget), and returns a **Research Receipt** showing exactly which engine served the foundation, what failed, what depth was achieved, and what it cost. The bedrock floor (WebSearch + WebFetch + Tavily) means this workflow **cannot break** — if both accelerators fail, the native floor catches it and the receipt says so. **Every report must lead with the Research Receipt** so the reader knows the grounding depth before trusting it.
 
 **The standard**: Research that finds the real psychological movers, jobs-to-be-done, and hidden patterns — not surface-level market data. The research itself is the unfair advantage. Every decision downstream (product, pricing, positioning, copy) should have a high likelihood of success because the foundation is grounded in truth.
 
@@ -38,16 +38,17 @@ Deploy the full research stack: **Gemini Deep Research (primary) or Perplexity s
 
 ## Steps
 
-### Step 0 — Budget Gate
+### Step 0 — Budget Gate (handled by the engine)
 
-**Primary path (Gemini Deep Research)**: Read `.agent/gemini-api-usage.json`.
-- **If `prepaid_balance_usd >= 0.50`**: Proceed with Gemini Deep Research as the foundation layer (Ultra typically covers at $0 marginal cost).
-- **If `prepaid_balance_usd < 0.50`**: Fall back to Perplexity budget gate below.
+**You no longer hand-gate budget here.** The unified engine (`execution/research.py`,
+Step 2) does Gemini-first → Perplexity → free bedrock floor internally, each gated on
+its own budget. Gemini is $0 under Ultra; Perplexity fires only if Gemini fails AND
+budget ≥ $0.50; the floor is always free. A failed/empty accelerator costs **$0** and
+is recorded as a failure — never as spend. The Research Receipt reports the actual path.
 
-**Fallback path (Perplexity)**: Read `.agent/perplexity-usage.json`. Estimate ~$0.75-1.50 for this run (2-3 `sonar-deep-research` queries at $0.25 each).
-- **If budget > $3**: Proceed with Perplexity fallback, tag output "Perplexity fallback."
-- **If budget $1-3**: Run with 1 deep research query instead of 2-3. Notify user.
-- **If budget < $1**: Degrade to `/research-sprint` (free, `search_web` + `read_url_content` only). Notify user: "Both Gemini and Perplexity budgets exhausted — running research sprint instead."
+There is **no "both budgets exhausted → can't research" state** anymore: the bedrock
+floor (WebSearch + WebFetch + Tavily) is always available at $0, so research always
+returns a real, sourced result or an honest FAILED — it never silently produces nothing.
 
 ### Step 1 — Scope & Deploy Plan
 
@@ -93,33 +94,46 @@ Wait for user approval.
 
 ---
 
-### Step 2 — Deep Research Foundation (Gemini primary, Perplexity fallback)
+### Step 2 — Deep Research Foundation (Unified Engine)
 
-Execute 2-3 Deep Research queries as the foundation layer.
+**For `deep`/`max` depth, the PRIMARY is the native expert SWARM** — run the Workflow tool
+with `.agent/workflows/deep-research-swarm.workflow.js` and `args: {query, depth}`. It
+decomposes → casts world-class expert personas (Alen Sultanic / April Dunford / McRaney /
+Harry Dry / …) → fans out 10-12 (deep) or up to ~36 (max) parallel subagents → gap-fill loop
+→ adversarial verify → synthesizes collective insight, **$0 incremental**, with Gemini Deep
+Research merging in parallel. It returns the honest Research Receipt + the cited brief.
 
-**Tool Selection** (in priority order):
-1. **Gemini Deep Research (PRIMARY)**: Run via `execution/deep_research_client.py`:
-   ```bash
-   cd "/Users/farricecain/Google Antigravity" && python3 execution/deep_research_client.py "[QUERY]" --mode standard --task-context "deep-research"
-   ```
-   Use `--mode max` when maximum comprehensiveness is needed. Ultra subscription covers most calls at $0; prepaid $10 is the absolute ceiling.
-2. **Perplexity Sonar MCP (FALLBACK)**: If Gemini Deep Research errors, rate-limits, or prepaid exhausts, fall back to `mcp_perplexity-ask_perplexity_research` or the Python client. Tag output "Perplexity fallback."
-3. **Python Perplexity Client (fallback alternative)**: Run via `execution/perplexity_client.py`:
-   ```bash
-   cd "/Users/farricecain/Google Antigravity" && python3 -c "
-   from execution.perplexity_client import PerplexityClient, load_env
-   load_env()
-   client = PerplexityClient()
-   result = client.search('[QUERY]', model='sonar-deep-research')
-   print(result.text)
-   print('---CITATIONS---')
-   for c in result.citations: print(c)
-   "
-   ```
-3. **Research Engine** (orchestrated): For full decomposed research, use the engine:
-   ```bash
-   python3 execution/deep_research_engine.py --depth deep "[QUERY]"
-   ```
+For `quick`/`standard` (or a fast single call), use the dispatcher directly — Gemini-first →
+Perplexity → bedrock floor, same receipt:
+
+```bash
+cd "/Users/farricecain/Google Antigravity" && python3 execution/research.py "[FOUNDATION QUERY]" --depth standard --task-context "deep-research"
+```
+
+- Use `--depth max` for maximum comprehensiveness (Gemini Deep Research Max when available).
+- The printed **Research Receipt** tells you which engine served the foundation
+  (`gemini_deep` / `perplexity` / `native`), the status (`REAL` / `DEGRADED` / `FAILED`),
+  provenance %, and `$` cost. **Copy the receipt verbatim into the top of the final report.**
+- If `status=DEGRADED` with `engine_used=native` and the warning says *"fan-out pending"*,
+  the engine wrote `.tmp/research/<slug>/native-directive.md` — your Step 3 specialist agents
+  ARE that fan-out. After Step 3, run the ingest call (below) to upgrade the result to `REAL`.
+- For machine-readable output add `--json` (returns the typed `ResearchResult`).
+
+**Ingest the specialist findings** (after Step 3) to fold the agent fan-out into the typed result:
+```bash
+python3 execution/research.py ingest --findings .tmp/research/<slug>/native-findings.jsonl --query "[FOUNDATION QUERY]" --depth deep
+```
+Each specialist writes one JSON object per validated finding (schema in the directive);
+**every finding needs a real `source_url`** or it is dropped on ingest (provenance integrity).
+
+<details><summary>ROLLBACK (deprecated direct-client path — kept one release for instant revert)</summary>
+
+```bash
+# Old direct path — superseded by research.py. Use ONLY if the engine is unavailable.
+# python3 execution/deep_research_client.py "[QUERY]" --mode standard --task-context "deep-research"
+# python3 execution/deep_research_engine.py --depth deep "[QUERY]"
+```
+</details>
 
 **Sub-agents** (Step 3): Each parallel agent uses the free-tier research stack:
 - `search_web` — 5-7 calls per agent (free, unlimited)
@@ -150,10 +164,11 @@ What have skeptics said? What products/approaches have failed in this space and 
 What does the strongest argument AGAINST this opportunity look like? Include specific examples."
 ```
 
-After each query:
-- **If using MCP tool**: Log the query manually to `.agent/perplexity-usage.json` (the MCP server doesn't auto-log to our budget file). Add an entry with timestamp, type "deep-research", model "sonar-deep-research", description, task_context, and estimated_cost 0.25.
-- **If using Python client**: Budget logging happens automatically via `perplexity_client.py`.
-- Save raw results to `.tmp/deep-research/foundation-[query-type].md`
+**Budget logging is automatic and honest** — the engine logs real spend only for calls
+that returned validated content; failed/empty calls cost $0 and go to a separate
+`failures` array, never the budget counter. No manual usage-file editing (that was the
+old AI-memory-dependent step — now deterministic). Save raw foundation output to
+`.tmp/research/<slug>/` (the engine's working dir) or `.tmp/deep-research/foundation-[query-type].md`.
 
 **Foundation Compression** — Extract for agent injection:
 - Top 25 data points with source URLs

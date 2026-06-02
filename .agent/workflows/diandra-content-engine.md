@@ -75,7 +75,9 @@ Lock the bucket BEFORE writing — this determines hook style, structure, and CT
 | `"[topic] reddit linkedin complaints"` | Real verbatim pain points |
 | `"[topic] expert quote thought leader"` | Authoritative quotes to cite |
 
-Use `search_web` + `read_url_content` on top results.
+Route research through the unified engine — `python3 execution/research.py "<query>" --depth quick` (Gemini-first → Perplexity → Tavily bedrock floor, honest Research Receipt, $0 on failure). Use `--depth standard` for higher-stakes posts; for `deep`/`max` the swarm is `.agent/workflows/deep-research-swarm.workflow.js`.
+
+**GROUNDED gate**: The 🟢 GROUNDED label below is earned, not assumed. Mark 🟢 GROUNDED only if `research.py` returns a Research Receipt with ≥2 real source URLs. If research returned $0/empty or you wrote from priors, mark 🟡 UNGROUNDED (modeled) instead — never claim grounding the receipt doesn't support.
 
 ### Produce Enrichment Brief:
 
@@ -242,7 +244,7 @@ From the approved LinkedIn post, produce platform-native adaptations:
 ```markdown
 # ✍️ CONTENT ENGINE: [Topic]
 
-**Bucket**: [type] | **Research**: 🟢 GROUNDED
+**Bucket**: [type] | **Research**: [🟢 GROUNDED if Research Receipt has ≥2 source URLs · else 🟡 UNGROUNDED (modeled)]
 **Date**: [date]
 
 ---
@@ -294,7 +296,7 @@ From the approved LinkedIn post, produce platform-native adaptations:
 [Which north stars this reinforces]
 
 ## PROVENANCE
-Research: [query count] queries | 🟢 GROUNDED
+Research: [query count] queries via execution/research.py | [🟢 GROUNDED — N source URLs from Research Receipt · else 🟡 UNGROUNDED (modeled)]
 Skills: Diandra Escobar genius.md + workflow 09
 ```
 

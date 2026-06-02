@@ -67,9 +67,9 @@ Collect 4 inputs. Ask for anything missing; infer what you can from context.
    - **Priority 2**: `search_web` (free, unlimited) — the workhorse for most queries
    - **Priority 3**: `read_url_content` (free, unlimited) — for deep page reads from top results
 
-   **Alternative — Research Engine** (automatic decomposition + parallel execution):
+   **Alternative — Unified Research Engine** (Gemini-first → Perplexity → Tavily bedrock floor, honest Research Receipt, $0 on failure):
    ```bash
-   python3 execution/deep_research_engine.py --depth standard "[domain] landscape analysis"
+   python3 execution/research.py "[domain] landscape analysis" --depth standard
    ```
 
 | Query Type | Purpose | Template |

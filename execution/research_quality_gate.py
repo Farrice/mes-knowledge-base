@@ -124,6 +124,7 @@ class QualityGate:
 
         # Run all checks
         self._check_source_count(text, lines, report, strict)
+        self._check_modeled_data(text, lines, report, strict)
         self._check_provenance(text, lines, report)
         self._check_recency(text, lines, report)
         self._check_echo_chamber(text, lines, report)
@@ -183,6 +184,28 @@ class QualityGate:
                 category="diversity",
                 message=f"Only {len(unique_domains)} unique domains (minimum 3 needed)",
                 suggestion="Diversify sources — search with different query angles",
+            ))
+
+    def _check_modeled_data(self, text: str, lines: List[str],
+                            report: QualityReport, strict: bool):
+        """Hard-block [MODELED] placeholder data.
+
+        [MODELED] tags mark inference / regenerated content that is NOT real
+        sourced VOC or research. In --strict mode (the floor used by the avatar
+        runner and cold-start grounding), a single [MODELED] flag is CRITICAL and
+        fails the gate — making the long-promised 'hard-block' real in code, not
+        just in docs. Outside --strict it's a warning so drafts can still surface.
+        """
+        modeled = len(re.findall(r"\[MODELED", text, re.IGNORECASE))
+        report.metrics["modeled_flags"] = modeled
+        if modeled > 0:
+            report.issues.append(QualityIssue(
+                severity="critical" if strict else "warning",
+                category="modeled_data",
+                message=(f"{modeled} [MODELED] placeholder(s) present — this is "
+                         f"inferred/regenerated content, not real sourced data"),
+                suggestion=("Replace with real VOC/sources, or re-ground with "
+                            "--refresh --tier deep before treating as grounded truth"),
             ))
 
     def _check_provenance(self, text: str, lines: List[str], report: QualityReport):

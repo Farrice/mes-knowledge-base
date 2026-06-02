@@ -430,6 +430,7 @@ def build_voc_pack(market: str, depth: str, tier: str = "deep") -> tuple[str, in
     # Tavily (above, free) covers review/forum sources reliably; Apify youtube adds
     # video VOC. The amazon actor was dropped — it repeatedly hit budget-fallback
     # (tripping voc_degraded) and Tavily already covers the review layer for $0.
+    modeled_rows = []
     plan = []
     if depth == "heavy" and tier in ("lean", "deep"):
         plan = [("youtube", short_q, 8, False, True)]
@@ -437,19 +438,33 @@ def build_voc_pack(market: str, depth: str, tier: str = "deep") -> tuple[str, in
         sb, deg = apify_pull(actor, q, lim, comments=com, transcript=tr)
         degraded = degraded or deg
         for text, url in sb:
-            tag = "[VOC]" if url else "[MODELED — replace with VOC]"
-            src = url or "(no source — MODELED)"
-            rows.append(f'| "{text[:280]}" | {src} | {tag} | _(classify: emotion/objection/failed-solution/desired-outcome/belief)_ |')
+            if url:
+                rows.append(f'| "{text[:280]}" | {url} | [VOC] | _(classify: emotion/objection/failed-solution/desired-outcome/belief)_ |')
+            else:
+                # Provenance integrity: source-less soundbites are MODELED — they go
+                # BELOW the fence, never mixed into the real-VOC table.
+                modeled_rows.append(f'| "{text[:280]}" | (no source — MODELED) | [MODELED] | _(classify)_ |')
     url_count = sum(1 for r in rows if "http" in r)
-    body = "\n".join(rows) if rows else "| _(no VOC pulled — all sources degraded; mine via /buyer-sourcer)_ | — | [MODELED] | |"
+    voc_body = "\n".join(rows) if rows else "| _(no source-linked VOC pulled — mine via /buyer-sourcer; see MODELED section if present)_ | — | — | |"
     md = (
         f"# VOC Soundbite Bank — {market}\n"
         f"_Raw, source-tagged. The MODEL classifies by emotion/objection/etc. during "
         f"Build-a-Buyer + Specific-Language. {url_count} source-linked soundbites._\n\n"
         f"> MCP enrichment to add model-side: Playwright FB Ad Library (live hooks), "
         f"`mcp__recall__search` (expert grounding), WebFetch raw review/forum pages.\n\n"
-        f"| Verbatim soundbite | Source | Tag | Classify |\n|---|---|---|---|\n{body}\n"
+        f"| Verbatim soundbite | Source | Tag | Classify |\n|---|---|---|---|\n{voc_body}\n"
     )
+    # Structurally separate MODELED placeholders so research_quality_gate --strict
+    # can hard-block them and downstream phases never mistake them for real VOC.
+    if modeled_rows:
+        md += (
+            "\n<!-- MODELED-SECTION-START — NOT real VOC. Hard-blocked by research_quality_gate --strict. "
+            "Replace with sourced soundbites before treating as grounded. -->\n"
+            "### ⚠️ MODELED placeholders (not sourced — replace before shipping)\n\n"
+            "| Verbatim soundbite | Source | Tag | Classify |\n|---|---|---|---|\n"
+            + "\n".join(modeled_rows) + "\n"
+            "<!-- MODELED-SECTION-END -->\n"
+        )
     return md, url_count, degraded
 
 
@@ -602,7 +617,9 @@ def cmd_ground(args) -> int:
     else:
         status = "PASS"
     rqg = quality_gate(dossier)
-    _write_status(status, url_count, args.slug, rqg=rqg, tier=tier, cost=estimate)
+    modeled_count = dossier.read_text().count("[MODELED")
+    _write_status(status, url_count, args.slug, rqg=rqg, tier=tier, cost=estimate,
+                  modeled_count=modeled_count)
     # append status to dossier header
     dossier.write_text(f"<!-- GROUND STATUS: {status} | voc_urls={url_count} | rqg_strict={'pass' if rqg else 'fail'} -->\n"
                        + dossier.read_text())
@@ -620,11 +637,14 @@ def cmd_ground(args) -> int:
 
 
 def _write_status(status: str, urls: int, slug: str, rqg: bool = False,
-                  tier: str = "deep", cost: float = 0.0) -> None:
+                  tier: str = "deep", cost: float = 0.0,
+                  modeled_count: int = 0) -> None:
     STATUS_JSON.write_text(json.dumps({
         "slug": slug, "status": status, "voc_source_urls": urls,
         "rqg_strict_pass": rqg, "ts": now(), "tier": tier,
         "est_cost_usd": cost, "min_voc_urls": MIN_VOC_URLS,
+        # Provenance transparency: how much of this dossier is MODELED (not sourced).
+        "has_modeled": modeled_count > 0, "modeled_flag_count": modeled_count,
     }, indent=2))
 
 

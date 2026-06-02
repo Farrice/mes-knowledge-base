@@ -368,6 +368,8 @@ _COPY_VAGUE_BENEFITS = re.compile(
     re.IGNORECASE,
 )
 _COPY_TASK_TYPES = {"Content", "Copy", "Creative"}
+# Types where factual grounding matters — the grounding_guard backstop runs here.
+_GROUNDING_TASK_TYPES = {"Research", "Strategy", "Analysis", "Content", "Client Work"}
 
 
 def _check_concrete_result(text: str) -> Tuple[bool, str]:
@@ -497,6 +499,41 @@ def _enforce_caps(
             })
             enforced["intent_alignment"] = 6.0
 
+    # ── Cap 4: Grounding Integrity (added 2026-06-02) ────────
+    # The SYSTEMIC backstop for the research-integrity bug class. Catches
+    # ungrounded factual output — unsourced stats, [MODELED]-as-fact, a hardcoded
+    # "GROUNDED" label with no URLs — at finalize, REGARDLESS of which workflow
+    # produced it. So the false-PASS era cannot recur even from a workflow that
+    # bypasses research.py. A FLAG caps expert_standard at 6.0 and tells the user
+    # to re-ground via the unified engine. (Heuristic → cap+warn, not auto-block,
+    # to avoid false positives; the cap still keeps ungrounded work out of the
+    # high-quality band.) Deterministic backstop per feedback_ai-memory-dependent.
+    grounding_verdict = "NOT_RUN"
+    grounding_signals: List[str] = []
+    if task_type in _GROUNDING_TASK_TYPES and output_text and len(output_text) > 200:
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import grounding_guard as _gg
+            _gr = _gg.scan(output_text, task_type)
+            grounding_verdict = _gr.get("verdict", "NOT_RUN")
+            grounding_signals = _gr.get("signals", [])
+            if grounding_verdict == "FLAG":
+                cur = enforced.get("expert_standard")
+                # Always record on FLAG so the user SEES the grounding problem even
+                # if another cap (e.g. prose) already lowered expert_standard.
+                caps_applied.append({
+                    "rule": "grounding_integrity_cap",
+                    "dimension": "expert_standard",
+                    "from": cur,
+                    "to": (6.0 if (cur is not None and cur > 6) else cur),
+                    "reason": ("grounding_guard FLAG: " + "; ".join(grounding_signals[:2])
+                               + " — re-ground via `python3 execution/research.py`"),
+                })
+                if cur is not None and cur > 6:
+                    enforced["expert_standard"] = 6.0
+        except Exception:
+            pass
+
     # ── Cap 3: Factual Veto ──────────────────────────────────
     if factual_grounding is not None and factual_grounding < 6:
         blocked = True
@@ -522,6 +559,8 @@ def _enforce_caps(
         "block_reason": block_reason,
         "prose_verdict": prose_verdict,
         "prose_details": prose_details,
+        "grounding_verdict": grounding_verdict,
+        "grounding_signals": grounding_signals,
     }
 
 
@@ -696,6 +735,10 @@ def finalize(
         "verdict": enforced["prose_verdict"],
         "ai_score": enforced["prose_details"].get("ai_score"),
         "signal_count": enforced["prose_details"].get("signal_count"),
+    }
+    result["grounding_check"] = {
+        "verdict": enforced.get("grounding_verdict", "NOT_RUN"),
+        "signals": enforced.get("grounding_signals", []),
     }
 
     # ── Step 3: Quality Gate pass/fail ───────────────────────────
@@ -1304,6 +1347,15 @@ def print_result(result: Dict) -> None:
             print(f"\n  Prose:      ⚠️  FLAGGED (AI score {ai_score}/10) — Expert Standard may be inflated")
         elif verdict == "WARNING":
             print(f"\n  Prose:      ⚡ WARNING (AI score {ai_score}/10) — review before delivery")
+
+    # Grounding check (the systemic research-integrity backstop)
+    grounding = result.get("grounding_check")
+    if grounding and grounding.get("verdict") == "FLAG":
+        print(f"\n  Grounding:  🔴 FLAG — ungrounded factual output (re-ground via `python3 execution/research.py`):")
+        for s in grounding.get("signals", [])[:3]:
+            print(f"                • {s}")
+    elif grounding and grounding.get("verdict") == "WARN":
+        print(f"\n  Grounding:  🟡 WARN — thin sourcing: {'; '.join(grounding.get('signals', [])[:2])}")
 
     # Prose warning (if Expert Standard seems inflated)
     if result.get("prose_warning"):

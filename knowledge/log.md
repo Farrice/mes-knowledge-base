@@ -117,3 +117,14 @@
 - `[2026-05-31 10:44]` **finalize** | Course-graveyard coach cold FB ad / advertorial (AI Brain Build) — writers-room polished: killed ban | general | luke-iha — composite:8.67 status:Keep
 - `[2026-05-31 12:14]` **finalize** | Cold Meta ad + constructive LinkedIn teardown of MasterClass for ambitious lifelong learners who wat | general | luke-iha — composite:7.25 status:Needs Improvement
 - `[2026-05-31 12:15]` **finalize** | Skool teardown: beating landing-page hero + constructive brandjack LinkedIn post. Avatar insight = l | general | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-05-31 12:21]` **finalize** | Teardown — Kajabi (avatar+copy proof, Gemini-independent live grounding) | copywriting | luke-iha — composite:8.33 status:Keep
+- `[2026-05-31 12:21]` **finalize** | Teardown — Skool (avatar+copy proof, Gemini-independent live grounding) | copywriting | luke-iha — composite:8.33 status:Keep
+- `[2026-05-31 12:21]` **finalize** | Teardown — MasterClass (avatar+copy proof, Gemini-independent live grounding) | copywriting | luke-iha — composite:8.33 status:Keep
+- `[2026-06-01 07:35]` **finalize** | Teardown — Kajabi | copywriting | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-06-01 07:35]` **finalize** | Teardown sample | copywriting | luke-iha — composite:6.17 status:Needs Improvement
+- `[2026-06-01 07:35]` **finalize** | Teardown — MasterClass | copywriting | luke-iha — composite:7.25 status:Needs Improvement
+- `[2026-06-02 01:00]` **finalize** | The TAM is $36 billion at 27% CAGR. According to Forbes, 78% of users churn. Market valued at $9.5 m | general | test — composite:7.25 status:Needs Improvement
+- `[2026-06-02 01:00]` **finalize** | The TAM is $36 billion at 27% CAGR. According to Forbes, 78% of users churn. Market valued at $9.5 m | general | test — composite:7.25 status:Needs Improvement
+- `[2026-06-02 01:02]` **finalize** | The TAM is $36 billion at 27% CAGR. According to Forbes, 78% of users churn. Market valued at $9.5 m | general | test — composite:7.25 status:Needs Improvement
+- `[2026-06-02 01:03]` **finalize** | The total addressable market is $36.6 billion in 2026, projected to reach $120 billion by 2031 at a  | general | test — composite:6.5 status:Needs Improvement
+- `[2026-06-02 01:34]` **finalize** | SFV first-time-homebuyer converting copy (lead-magnet opt-in + VSL lead + re-engagement email) — Sta | copywriting | luke-iha — composite:7.25 status:Needs Improvement

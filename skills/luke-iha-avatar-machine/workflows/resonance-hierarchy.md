@@ -48,5 +48,21 @@ Load `references/framework-library.md` § D (full hierarchy + subsections + Mark
 - 6 constraint lists.
 - A short "Lead Strategy" note: what to appease, what to avoid, which aspirational hook to lead with.
 
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-avatar-machine --workflow resonance-hierarchy \
+  --type Analysis --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 Rubric criterion 3 (Identity-layer fidelity) ≥8: all four tiers + dysmorphic avatars + allies/enemies + explicit lead-conflict flags. Auto-fail: skipping Identity; no dysmorphic avatars; no conflict flags.

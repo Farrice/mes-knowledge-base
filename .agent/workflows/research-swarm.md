@@ -6,6 +6,15 @@ description: Deploy orchestrated parallel research swarm
 
 Fire 3 parallel research agents -- Market Scanner, Audience Scanner, System Scanner -- to generate a unified intelligence brief before you commit to building anything. Returns market landscape, target audience profile, existing system assets, gaps, and recommended next steps.
 
+> **Unified Engine (2026-06-01).** For each scanner's web foundation, prefer
+> `python3 execution/research.py "<scanner query>" --depth standard` — it does
+> Gemini-first → Perplexity → free Claude bedrock floor and returns a **Research
+> Receipt** (engine · status · provenance · $cost). The 3 scanner agents ARE the
+> floor's fan-out: each writes validated findings (every one needs a real
+> `source_url`) to `.tmp/research/<slug>/native-findings.jsonl`, then run
+> `python3 execution/research.py ingest --findings <that file> --query "<query>"`
+> to fold them into a typed, receipt-bearing result. Lead the brief with the receipt.
+
 ## Usage
 
 ```

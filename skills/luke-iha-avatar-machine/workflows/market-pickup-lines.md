@@ -46,5 +46,21 @@ Load `references/framework-library.md` § F (Maze types, dimensions, 32 combos, 
 - 10–15 annotated hooks (type · pain dims · curiosity generator).
 - A Bootleg set. All inside the Goldilocks Zone.
 
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-avatar-machine --workflow market-pickup-lines \
+  --type Analysis --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 Hooks tie to real pain dimensions and stay in the Goldilocks Zone; types are varied (not all "How"). Auto-fail: hooks clashing with Identity; generic hooks with no dimension mapping; everything one hook type.

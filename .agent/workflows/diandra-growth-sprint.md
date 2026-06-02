@@ -79,7 +79,17 @@ Takes any brand, person, or news event and produces **3 publish-ready LinkedIn g
 
 > No research = no post. Diandra's system works because posts contain specific details, not vibes.
 
-### Execute 3-4 targeted queries:
+### Run the foundation through the unified research engine:
+
+The entity deep-dive MUST go through the unified engine — it returns a Research Receipt and costs $0 on failure, so the GROUNDED label below is earned, not assumed:
+
+```bash
+cd "/Users/farricecain/Google Antigravity" && python3 execution/research.py "[entity] [what happened — specific facts, numbers, dates]" --depth standard --task-context "diandra-growth-sprint"
+```
+
+(Gemini-first → Perplexity → Tavily bedrock floor. For a heavier dig use `--depth deep`, which fans out via `.agent/workflows/deep-research-swarm.workflow.js`.)
+
+### Supplementary queries (audience reaction, boomerang recon):
 
 **Tool priority**:
 - **Priority 1**: `search_web` (free, unlimited) — the workhorse
@@ -99,7 +109,7 @@ Save to `.tmp/diandra-growth-sprint/research-[slug].md`:
 
 ```markdown
 ## Research Brief: [Entity]
-**Jack Type**: [type] | **Provenance**: 🟢 GROUNDED
+**Jack Type**: [type] | **Provenance**: [see gate result below]
 
 ### Entity Facts (Specific Details)
 - [Revenue number, campaign detail, strategic decision — NOT vague summaries]
@@ -117,6 +127,18 @@ Save to `.tmp/diandra-growth-sprint/research-[slug].md`:
 - Estimated followers: [range]
 - Recent post engagement: [high / medium / low]
 ```
+
+### Provenance gate (sets the GROUNDED label — do NOT hardcode it):
+
+```bash
+python3 execution/research_quality_gate.py validate .tmp/diandra-growth-sprint/research-[slug].md
+```
+
+The label is **conditional on this result** and carries through every later "Research" field:
+- **Gate PASS** (real `research.py` receipt + source floor met) → 🟢 GROUNDED
+- **Gate FAIL / skipped / engine unavailable / facts unsourced** → 🟡 PROJECTED (post on vibes-not-facts; flag the gap to the user before producing)
+
+Never print 🟢 GROUNDED unless the gate actually passed.
 
 ---
 
@@ -266,7 +288,7 @@ Read `skills/diandra-escobar-linkedin-growth/workflows/05-boomerang-effect-orche
 ```markdown
 # 🚀 GROWTH SPRINT: [Entity Name]
 
-**Jack Type**: [type] | **Research**: 🟢 GROUNDED
+**Jack Type**: [type] | **Research**: [🟢 GROUNDED if Phase 2 gate passed, else 🟡 PROJECTED]
 **Date**: [date]
 
 ---
@@ -308,7 +330,7 @@ Read `skills/diandra-escobar-linkedin-growth/workflows/05-boomerang-effect-orche
 ---
 
 ## PROVENANCE
-- Research: [query count] queries | 🟢 GROUNDED
+- Research: [query count] queries via `research.py` | [🟢 GROUNDED if `research_quality_gate.py` passed, else 🟡 PROJECTED]
 - Skills Loaded: Diandra Escobar genius.md + workflows 01/05/09
 - Patterns Applied: [list]
 ```

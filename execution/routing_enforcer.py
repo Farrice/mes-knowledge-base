@@ -410,6 +410,38 @@ BINDINGS = [
             "start guarantees modeled language and rubric criterion-6 failure."
         ),
     },
+    {
+        # Placed LAST so domain-specific bindings (avatar, copy, parallax, BOS)
+        # take precedence. This is the catch-all for GENERIC research that would
+        # otherwise be answered from training memory instead of grounded in truth.
+        "id": "unified_research",
+        "signal_phrases": [
+            "deep research", "do deep research", "research this", "research the market",
+            "strategic intelligence on", "comprehensive research on", "research report on",
+            "research the landscape", "go deep on", "ground this in research",
+        ],
+        # Domains with their own grounding bindings (above) handle their own research;
+        # operate-on-existing language defers to refinement workflows.
+        "negative_signals": [
+            "avatar", "manifold", "icp", "cold start copy", "cold-start copy",
+            "converting copy", "vsl", "sales page", "brand operating system",
+            "parallax", "refine", "audit", "polish",
+        ],
+        "mandatory_workflow_any_of": ["deep-research", "deep-research-swarm",
+                                       "deep-research-gemini", "research-swarm"],
+        "forbidden_workflows": [],
+        "reason": (
+            "Generic research must route through the Unified Research Engine "
+            "(execution/research.py). For deep/max, the PRIMARY is the native expert "
+            "SWARM (.agent/workflows/deep-research-swarm.workflow.js): decompose → cast "
+            "world-class personas → parallel fan-out → gap-fill → adversarial verify → "
+            "synthesize, $0 incremental, Gemini Deep Research merging in parallel. The "
+            "bedrock floor (Tavily research/extract + WebSearch/WebFetch) guarantees a "
+            "real, sourced result at $0 even if every paid path fails. Every result "
+            "carries an honest Research Receipt. Answering research from training memory "
+            "instead of grounding it in live, cited sources is the failure this prevents."
+        ),
+    },
 ]
 
 

@@ -15,3 +15,5 @@
 {"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-06-01T22:53:00Z", "label": "kajabi", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
+{"ts": "2026-06-01T22:55:04Z", "label": "kajabi", "verdict": "CLEAN", "fails": [], "warns": []}

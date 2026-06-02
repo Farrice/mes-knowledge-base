@@ -46,5 +46,21 @@ Load `references/framework-library.md` § E (the spectrum + 4 categories + belie
 ## Output Requirements
 - Three labeled sets of 10. Goldilocks set must include per-item reasoning + category tag.
 
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-avatar-machine --workflow epiphany-threshold \
+  --type Analysis --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 Rubric criterion 4 (Goldilocks calibration) ≥8: the 7–9 beliefs are surprising AND self-limiting, with reasoning. Auto-fail: Goldilocks items that are actually obvious (under-threshold) or flat over-BS claims dressed up; no reasoning.

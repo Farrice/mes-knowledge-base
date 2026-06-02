@@ -162,7 +162,7 @@ Before analysis, verify:
 - [ ] Homepage extracted
 - [ ] Core value proposition identified
 - [ ] Target audience clear
-- [ ] At least 3 external sources checked
+- [ ] External-source foundation grounded via the unified engine — run `python3 execution/research.py "<company> reviews complaints reputation competitors" --depth standard` (Gemini-first → Perplexity → Tavily bedrock floor; honest Research Receipt; $0 on failure), then validate the saved output with `python3 execution/research_quality_gate.py validate <file> --strict`. Replaces the manual "3 external sources" honor-system check.
 - [ ] Competitor context established
 
 ---

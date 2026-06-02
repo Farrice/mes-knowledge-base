@@ -6,6 +6,13 @@ description: Deploy 3 research agents in parallel to investigate
 
 Deploy 3 independent research agents that investigate different facets of a topic simultaneously, then synthesize their findings into a unified brief.
 
+> **Unified Engine (2026-06-01).** Ground each agent's foundation via
+> `python3 execution/research.py "<facet query>" --depth standard` (Gemini-first →
+> Perplexity → free Claude bedrock floor, with a **Research Receipt**). The 3 agents
+> are the floor's fan-out — each writes validated findings (real `source_url`
+> required) to `.tmp/research/<slug>/native-findings.jsonl`; `research.py ingest`
+> folds them into the typed result. Lead the brief with the receipt.
+
 ## Usage
 
 ```

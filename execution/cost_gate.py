@@ -79,6 +79,14 @@ SERVICES = {
                              "desc": "Gemini Image (Ultra)"},
     "gemini-text":          {"type": "quota", "quota_units": 0, "quota_pool": "ultra-text",
                              "desc": "Gemini text (Ultra, effectively unlimited)"},
+
+    # ─── Unified research engine (execution/research.py) ───
+    # Gemini Deep Research rides the Ultra text pool (≈$0 marginal). Perplexity is
+    # paid fallback. The native floor is free and needs no service entry.
+    "gemini-deep-research": {"type": "quota", "quota_units": 1, "quota_pool": "ultra-text",
+                             "desc": "Gemini Deep Research (Ultra-covered accelerator)"},
+    "perplexity-research":  {"type": "paid", "est_usd": 0.25, "ceiling_usd": 1.00,
+                             "desc": "Perplexity sonar-deep-research (fallback accelerator)"},
 }
 
 # ───────────────────────────────────────────────────────────────────

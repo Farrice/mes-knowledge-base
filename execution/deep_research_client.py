@@ -34,6 +34,12 @@ from typing import Any, Dict, List, Optional
 
 import requests
 
+# Shared success gate — validates engine content BEFORE any cost accounting.
+try:
+    from research_contract import validate_engine_text
+except ImportError:  # when imported as execution.deep_research_client
+    from execution.research_contract import validate_engine_text
+
 
 # ---------------------------------------------------------------------------
 # Environment
@@ -279,30 +285,40 @@ class DeepResearchClient:
         # `outputs[]`. Parse `steps` first, fall back to `outputs`. (Fixed
         # 2026-05-31 — the old `outputs`-only parser silently returned empty text
         # for every Gemini Deep Research consumer in the system.)
-        text = ""
-        citations: List[str] = []
-        steps = final_data.get("steps") or final_data.get("outputs") or []
-        for step in steps:
-            stype = step.get("type")
-            if stype in ("model_output", "text", "output"):
-                for part in (step.get("content") or []):
-                    if isinstance(part, dict) and isinstance(part.get("text"), str):
-                        text += part["text"]
-                if isinstance(step.get("text"), str):  # legacy flat shape
-                    text += step["text"] + "\n\n"
-            if "citations" in step:
-                citations.extend(step["citations"])
-        if not citations and "citations" in final_data:
-            citations = final_data["citations"]
-        # Surface a non-fatal signal if a completed interaction yielded no text —
-        # prevents the false PASS the runner saw (empty report reported as success).
-        if not text.strip():
-            text = ""  # caller treats empty as failure → fallback
+        text, citations = self._parse_final(final_data)
+
+        # --- Success gate: validate content BEFORE any cost accounting ---
+        # The honest-accounting fix. A 'completed' interaction that yielded no
+        # usable text must NOT increment cost, must NOT log as a real query, and
+        # must return status="failed" so the dispatcher degrades to the floor.
+        # (Previously this only blanked the text but still logged $0.50 spend and
+        # returned status="completed" — the exact false-usage / false-PASS bug.)
+        ok, reason = validate_engine_text(text, citations)
+        if not ok:
+            self._log_failure(
+                query=query,
+                agent=AGENT_IDS[mode],
+                reason=reason,
+                duration_seconds=round(duration, 2),
+                task_context=task_context,
+                query_type=query_type,
+                interaction_id=interaction_id,
+            )
+            return DeepResearchResult(
+                text="",
+                citations=citations,
+                agent=AGENT_IDS[mode],
+                query=query,
+                interaction_id=interaction_id,
+                estimated_cost=0.0,
+                duration_seconds=round(duration, 2),
+                status="failed",
+            )
 
         self.call_count += 1
         self.total_cost += est_cost
 
-        # ---- Log usage ----
+        # ---- Log usage (only validated content reaches here) ----
         self._log_usage(
             query=query,
             agent=AGENT_IDS[mode],
@@ -323,6 +339,114 @@ class DeepResearchClient:
             duration_seconds=round(duration, 2),
             status="completed",
         )
+
+    # ----- non-blocking (parallel background) API -----
+
+    def _parse_final(self, final_data: Dict[str, Any]):
+        """Extract (text, citations) from a completed interaction. Handles the
+        live `steps` schema and the legacy `outputs` schema."""
+        text = ""
+        citations: List[str] = []
+        steps = final_data.get("steps") or final_data.get("outputs") or []
+        for step in steps:
+            stype = step.get("type")
+            if stype in ("model_output", "text", "output"):
+                for part in (step.get("content") or []):
+                    if isinstance(part, dict) and isinstance(part.get("text"), str):
+                        text += part["text"]
+                if isinstance(step.get("text"), str):  # legacy flat shape
+                    text += step["text"] + "\n\n"
+            if "citations" in step:
+                citations.extend(step["citations"])
+        if not citations and "citations" in final_data:
+            citations = final_data["citations"]
+        return text, citations
+
+    def start_async(self, query: str, *, mode: str = "standard",
+                    enable_google_search: bool = True,
+                    enable_url_context: bool = True) -> str:
+        """Fire a Deep Research interaction and return its id IMMEDIATELY (no poll).
+        Lets the swarm run Gemini in parallel in the background. $0 to start.
+        Raises BudgetExhaustedError if balance too low, RuntimeError on API error."""
+        if mode not in AGENT_IDS:
+            raise ValueError(f"Unknown mode: {mode}")
+        if self.budget_remaining() < MIN_BALANCE_USD:
+            raise BudgetExhaustedError(
+                f"Deep Research budget too low (${self.budget_remaining():.2f}).")
+        headers = {"Content-Type": "application/json", "x-goog-api-key": self.api_key}
+        tools = []
+        if enable_google_search:
+            tools.append({"type": "google_search"})
+        if enable_url_context:
+            tools.append({"type": "url_context"})
+        payload: Dict[str, Any] = {
+            "agent": AGENT_IDS[mode], "input": query, "background": True,
+            "agent_config": {"type": "deep-research", "thinking_summaries": "auto"},
+        }
+        if tools:
+            payload["tools"] = tools
+        try:
+            resp = requests.post(f"{self.BASE_URL}/interactions", json=payload,
+                                 headers=headers, timeout=60)
+            resp.raise_for_status()
+            iid = resp.json().get("id")
+        except requests.HTTPError as e:
+            status = e.response.status_code if e.response else "?"
+            if status in (402, 403, 429):
+                raise BudgetExhaustedError(f"Deep Research start failed (HTTP {status}).") from e
+            raise RuntimeError(f"Deep Research start failed (HTTP {status}).") from e
+        if not iid:
+            raise RuntimeError("No interaction id in start response.")
+        return iid
+
+    def collect(self, interaction_id: str, *, query: str = "", mode: str = "standard",
+                task_context: str = "swarm-parallel-gemini") -> DeepResearchResult:
+        """Check a backgrounded interaction. If completed, parse + validate + log
+        honestly (real spend only on validated content) and return the result.
+        If still running, returns status='in_progress' (text=''). Never blocks."""
+        headers = {"x-goog-api-key": self.api_key}
+        try:
+            resp = requests.get(f"{self.BASE_URL}/interactions/{interaction_id}",
+                                headers=headers, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+        except Exception as e:
+            return DeepResearchResult(text="", citations=[], agent=AGENT_IDS.get(mode, ""),
+                                      query=query, interaction_id=interaction_id,
+                                      estimated_cost=0.0, duration_seconds=0.0,
+                                      status="error")
+        status = (data.get("status") or "").lower()
+        if status in ("pending", "in_progress", "running", ""):
+            return DeepResearchResult(text="", citations=[], agent=AGENT_IDS.get(mode, ""),
+                                      query=query, interaction_id=interaction_id,
+                                      estimated_cost=0.0, duration_seconds=0.0,
+                                      status="in_progress")
+        if status == "failed":
+            self._log_failure(query=query, agent=AGENT_IDS.get(mode, ""), reason="interaction_failed",
+                              duration_seconds=0.0, task_context=task_context,
+                              query_type="research", interaction_id=interaction_id)
+            return DeepResearchResult(text="", citations=[], agent=AGENT_IDS.get(mode, ""),
+                                      query=query, interaction_id=interaction_id,
+                                      estimated_cost=0.0, duration_seconds=0.0, status="failed")
+        # completed
+        text, citations = self._parse_final(data)
+        ok, reason = validate_engine_text(text, citations)
+        if not ok:
+            self._log_failure(query=query, agent=AGENT_IDS.get(mode, ""), reason=reason,
+                              duration_seconds=0.0, task_context=task_context,
+                              query_type="research", interaction_id=interaction_id)
+            return DeepResearchResult(text="", citations=citations, agent=AGENT_IDS.get(mode, ""),
+                                      query=query, interaction_id=interaction_id,
+                                      estimated_cost=0.0, duration_seconds=0.0, status="failed")
+        est_cost = EST_COST_PER_QUERY.get(mode, 0.5)
+        self.call_count += 1
+        self.total_cost += est_cost
+        self._log_usage(query=query, agent=AGENT_IDS[mode], estimated_cost=est_cost,
+                        duration_seconds=0.0, task_context=task_context,
+                        query_type="research", interaction_id=interaction_id)
+        return DeepResearchResult(text=text.strip(), citations=citations, agent=AGENT_IDS[mode],
+                                  query=query, interaction_id=interaction_id,
+                                  estimated_cost=est_cost, duration_seconds=0.0, status="completed")
 
     # ----- budget tracking -----
 
@@ -421,6 +545,40 @@ class DeepResearchClient:
             loop["current_task_query_count"] = 1
         loop["last_query_timestamp"] = now
 
+        USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        USAGE_FILE.write_text(json.dumps(usage, indent=4))
+
+    def _log_failure(
+        self,
+        *,
+        query: str,
+        agent: str,
+        reason: str,
+        duration_seconds: float,
+        task_context: str,
+        query_type: str,
+        interaction_id: str,
+    ):
+        """Record a failed/empty Deep Research call WITHOUT burning budget.
+
+        This is the honest-accounting half of the success gate. A completed
+        interaction that produced no usable text is a FAILURE — it must stay
+        visible (so 'did Gemini actually deliver?' is answerable) but must never
+        touch estimated_cost_usd, the queries array, or loop_detection counts.
+        """
+        usage = self._read_usage()
+        failures = usage.setdefault("failures", [])
+        failures.append({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "type": query_type,
+            "agent": agent,
+            "description": query[:200],
+            "task_context": task_context,
+            "reason": reason,
+            "duration_seconds": duration_seconds,
+            "interaction_id": interaction_id,
+            "estimated_cost": 0.0,  # explicit: failures never cost
+        })
         USAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
         USAGE_FILE.write_text(json.dumps(usage, indent=4))
 

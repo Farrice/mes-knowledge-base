@@ -402,6 +402,10 @@ class ResearchEngine:
     def __init__(self):
         self.perplexity_client = None
         self.deep_research_client = None
+        # Provenance integrity: claims that arrive with no real source URL are
+        # quarantined here and DROPPED from findings — never persisted with an
+        # empty source_url. The dispatcher surfaces the count as a warning.
+        self._quarantine: List[dict] = []
         self._init_perplexity()
         self._init_deep_research()
 
@@ -721,9 +725,20 @@ class ResearchEngine:
                 if 0 <= idx < len(citations):
                     citation_idx = idx
 
-            source_url = citations[citation_idx] if citation_idx is not None else (
-                citations[min(i, len(citations) - 1)] if citations else ""
-            )
+            if citation_idx is not None:
+                source_url = citations[citation_idx]
+            elif citations:
+                source_url = citations[min(i, len(citations) - 1)]
+            else:
+                source_url = ""
+
+            cleaned_claim = re.sub(r"\[\d+\]", "", para).strip()
+
+            # Provenance integrity: a finding with no real source is NOT a finding.
+            # Quarantine it (visible) and drop it — never persist source_url="".
+            if not source_url:
+                self._quarantine.append({"claim": cleaned_claim, "reason": "no_source_url"})
+                continue
 
             confidence = "high" if citation_idx is not None else "medium"
             finding_type = "data"
@@ -733,7 +748,7 @@ class ResearchEngine:
                 finding_type = "statistic"
 
             findings.append(ResearchFinding(
-                claim=re.sub(r"\[\d+\]", "", para).strip(),
+                claim=cleaned_claim,
                 source_url=source_url,
                 excerpt=para[:300],
                 confidence=confidence,
@@ -842,9 +857,20 @@ class ResearchEngine:
                 if 0 <= idx < len(citations):
                     citation_idx = idx
 
-            source_url = citations[citation_idx] if citation_idx is not None else (
-                citations[min(i, len(citations) - 1)] if citations else ""
-            )
+            if citation_idx is not None:
+                source_url = citations[citation_idx]
+            elif citations:
+                source_url = citations[min(i, len(citations) - 1)]
+            else:
+                source_url = ""
+
+            cleaned_claim = re.sub(r"\[\d+\]", "", para).strip()
+
+            # Provenance integrity: drop URL-less claims into quarantine instead
+            # of persisting a finding with an empty source_url.
+            if not source_url:
+                self._quarantine.append({"claim": cleaned_claim, "reason": "no_source_url"})
+                continue
 
             # Determine confidence
             confidence = "high" if citation_idx is not None else "medium"
@@ -861,7 +887,7 @@ class ResearchEngine:
                 finding_type = "statistic"
 
             findings.append(ResearchFinding(
-                claim=re.sub(r"\[\d+\]", "", para).strip(),
+                claim=cleaned_claim,
                 source_url=source_url,
                 excerpt=para[:200],
                 confidence=confidence,

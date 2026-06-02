@@ -89,12 +89,15 @@ If no input is provided, ask: "What's the concept, pain point, or idea you want 
 
 1. **Check Perplexity budget**: Read `.agent/perplexity-usage.json`
 
-2. **Execute 2-3 targeted queries** using the tiered tool strategy from `directives/research-protocol.md`:
+2. **Execute 2-3 targeted queries** via the unified research engine (Gemini-first → Perplexity → Tavily bedrock floor, honest Research Receipt, $0 on failure):
 
-   **Tool priority**:
-   - **Priority 1**: `mcp_perplexity-ask_perplexity_ask` (Sonar via MCP) — if budget available
-   - **Priority 2**: `search_web` (free, unlimited) — the workhorse for most queries
-   - **Priority 3**: `read_url_content` (free, unlimited) — read top 3 results per query in full
+   ```bash
+   python3 execution/research.py "<query>" --depth standard
+   ```
+
+   - For each query, capture the engine's **Research Receipt** (real source URLs vs. modeled fallback).
+   - Then gate the combined output: `python3 execution/research_quality_gate.py <receipt-or-output>`.
+   - **Set the provenance flag** for this brief: `GROUNDED` ONLY if at least one `research.py` call returned real sources AND `research_quality_gate.py` PASSED. If research was skipped, returned $0/no-sources, or the gate FAILED → flag is `PROJECTED/UNVERIFIED`. This flag is carried into every provenance label below — never hardcode `GROUNDED`.
 
 | Query | Purpose | Example |
 |-------|---------|---------|
@@ -108,7 +111,7 @@ If no input is provided, ask: "What's the concept, pain point, or idea you want 
 
 ```markdown
 ## Research Brief: [Concept]
-**Queries Used**: [count] | **Provenance**: 🟢 GROUNDED
+**Queries Used**: [count] | **Provenance**: [🟢 GROUNDED if research.py returned real sources AND research_quality_gate.py PASSED — otherwise 🟡 PROJECTED/UNVERIFIED]
 
 ### Real Pain Points (Verbatim)
 - "[Actual quote from Reddit/LinkedIn/forum]" — source
@@ -393,10 +396,10 @@ Or orchestrate directly via Claude sub-agents using the SkillExecutor archetype 
    - If any element FAILED: revise inline (max 1 revision per element)
    - If overall PASS: proceed to Phase 5
 4. **Build Element 7** (Expert Stack) — which expert forged which element and which frameworks were applied
-5. **Add provenance tags**:
+5. **Add provenance tags** (use the provenance flag set in Phase 1 — `GROUNDED` only on a real `research.py` call + `research_quality_gate.py` PASS, else `PROJECTED/UNVERIFIED`):
 ```markdown
 **Provenance**:
-RESEARCH: [query count] queries | 🟢 GROUNDED
+RESEARCH: [query count] queries | [🟢 GROUNDED | 🟡 PROJECTED/UNVERIFIED — per Phase 1 flag]
 SKILLS LOADED: [list with file paths]
 PATTERNS APPLIED: [list by name]
 TASTE CHECK: Oren — [PASS/REVISE]
@@ -406,7 +409,7 @@ TASTE CHECK: Oren — [PASS/REVISE]
 
 ```markdown
 ## Mini-Brief: "[Punchy Title — 5-8 words]"
-**Platform**: [target] | **Mode**: [mode] | **Research**: 🟢 GROUNDED
+**Platform**: [target] | **Mode**: [mode] | **Research**: [🟢 GROUNDED | 🟡 PROJECTED/UNVERIFIED — per Phase 1 flag]
 
 ### 1. Shadow Market Pain
 [Forged by [Agent] using [Framework], grounded in research verbatims]
@@ -497,12 +500,12 @@ When developing 3-5 concepts at once:
 ```markdown
 # CONCEPT DOSSIER — [Date]
 
-## Mini-Brief 1: "[Title]" 🟢 GROUNDED
+## Mini-Brief 1: "[Title]" [🟢 GROUNDED | 🟡 PROJECTED/UNVERIFIED — per this concept's Phase 1 flag]
 [Full 7-element brief with platform spec]
 **Production Priority**: [High / Medium / Low]
 **Recommended Engine**: `/ip-flywheel` or `/yt-flywheel`
 
-## Mini-Brief 2: "[Title]" 🟢 GROUNDED
+## Mini-Brief 2: "[Title]" [🟢 GROUNDED | 🟡 PROJECTED/UNVERIFIED — per this concept's Phase 1 flag]
 [Full 7-element brief with platform spec]
 **Production Priority**: [High / Medium / Low]
 ...
@@ -636,4 +639,4 @@ Trending topic → /mini-brief → /ip-flywheel
 >
 > **Platform Spec**: Text post | ~2,300 chars | F-shape formatting | CTA: "DEPLOY" | Posting: Tue-Thu 8-10am EST | Depth target: 50+ saves
 >
-> **Provenance**: 3 queries 🟢 GROUNDED | Kallaway genius.md + hook-engineering-matrix.md, Jasmin Alic genius.md, Josh Sanders genius.md | Oren taste check: PASS
+> **Provenance**: 3 queries 🟢 GROUNDED (real `research.py` sources + `research_quality_gate.py` PASS — had the gate failed, this would read 🟡 PROJECTED/UNVERIFIED) | Kallaway genius.md + hook-engineering-matrix.md, Jasmin Alic genius.md, Josh Sanders genius.md | Oren taste check: PASS

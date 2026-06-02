@@ -26,10 +26,11 @@ Validate and ground any set of documents against live research data. Corrects in
 
 Find the grounding source — the verified research file:
 - Look for `research_data/perplexity_findings.md` in/near the target directory
-- If `--research-first` flag is set, run the research engine at Standard depth:
+- If `--research-first` flag is set, run the unified research engine at Standard depth:
   ```bash
-  python3 execution/deep_research_engine.py --depth standard "[topic from document]"
+  python3 execution/research.py "[topic from document]" --depth standard
   ```
+  (Gemini-first → Perplexity → Tavily bedrock floor, honest Research Receipt, $0 on failure.)
 - **If no research data exists**: The grounding pass can self-verify claims using free-tier tools. For each unverified claim, use `search_web` to fact-check, then `read_url_content` on the best result. This costs $0.
 - The grounding pass no longer requires pre-existing Perplexity research data — it uses `search_web` + `read_url_content` as the workhorse for live verification.
 

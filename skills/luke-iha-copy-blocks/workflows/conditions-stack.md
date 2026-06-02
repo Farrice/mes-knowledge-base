@@ -8,6 +8,14 @@ Conditions are the most powerful block — but in a market where everyone runs t
 
 > **🔒 Pre-Flight Gate**: Conditions require a real offer to deliver — confirm what the offer can actually back. If you're a copywriter without offer control, flag which conditions are out of scope. The edge isn't *having* conditions; it's **baking curiosity into them**.
 
+## PHASE 0: LOAD MARKET CACHE (warm_core — $0, no re-research)
+If this market is already grounded, read its cached intelligence instead of guessing:
+```bash
+// turbo
+cat .tmp/copy-engine/<slug>/warm-core.json 2>/dev/null || echo "NO CACHE — run /copy-engine for this market first (grounds it once, then this is free), or supply the market psychology manually."
+```
+Load the relevant fields (`dominant_emotion`, `core_wound`, `pain_to_promise_gap`, `market_beliefs`{4 cells}, `top_voc_soundbites`) — sourced from real research, not guessed. No cache + not supplied → ground first.
+
 ## PHASE 1: SKILL ACQUISITION
 1. `skills/luke-iha-copy-blocks/references/the-six-blocks-deep.md` § Conditions
 2. `skills/luke-iha-copy-blocks/genius.md` § Conditions + Copy Blocks Equation
@@ -53,5 +61,21 @@ Qualifications: … | Triggers: … | Risk Reversal: … | Value Adds: … | Ter
 | Webinar pitch | Value adds + terms + scarcity stack |
 
 ---
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-copy-blocks --workflow conditions-stack \
+  --type Content --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 > **🛡️**: Conditions naked (sound like everyone else's)? Blend in the mechanism. Fake scarcity/urgency? Cut — it poisons trust. Relying on conditions to rescue a weak promise/proof? Fix the numerator first.

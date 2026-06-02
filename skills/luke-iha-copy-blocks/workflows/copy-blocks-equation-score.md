@@ -10,6 +10,14 @@ $$\text{Value} = \frac{\text{Promise} \times \text{Proof} \times \text{Curiosity
 
 > **🔒 Pre-Flight Gate**: This scores *composition strength*, not a CVS density number. The output is a limiting-factor diagnosis + the highest-leverage fix — not a vanity score to report to clients.
 
+## PHASE 0: LOAD MARKET CACHE (warm_core — $0, no re-research)
+If this market is already grounded, read its cached intelligence instead of guessing:
+```bash
+// turbo
+cat .tmp/copy-engine/<slug>/warm-core.json 2>/dev/null || echo "NO CACHE — run /copy-engine for this market first (grounds it once, then this is free), or supply the market psychology manually."
+```
+Load the relevant fields (`dominant_emotion`, `core_wound`, `pain_to_promise_gap`, `market_beliefs`{4 cells}, `top_voc_soundbites`) — sourced from real research, not guessed. No cache + not supplied → ground first.
+
 ## PHASE 1: SKILL ACQUISITION
 1. `skills/luke-iha-copy-blocks/genius.md` § Copy Blocks Equation + § The 6 Blocks
 2. `skills/luke-iha-copy-blocks/references/the-six-blocks-deep.md` (for any weak term's deep fix)
@@ -55,5 +63,21 @@ Promise:_/10 · Proof:_/10 · Curiosity:_/10 · Constraints:_/10 (↑=worse) · 
 | Full asset | Score, then hand the binding term to its workflow + `copy-block-audit` |
 
 ---
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-copy-blocks --workflow copy-blocks-equation-score \
+  --type Content --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 > **🛡️**: Did you prescribe strengthening a term that isn't the limiting factor? Re-check — multiplicative equations don't reward boosting a 9 to a 10 while a 3 sits in the denominator. Constraint scored as numerator? It divides — recount.

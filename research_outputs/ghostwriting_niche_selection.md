@@ -124,3 +124,22 @@ The fastest path to your first $2.5K+ client is a B2B founder or consultant who 
 *Research conducted: 3 Perplexity sonar-deep-research queries + 3 parallel web search agents*
 *Sources: NSCA salary surveys, Mordor Intelligence, Future Market Insights, Reddit fitness communities, Sweat From Home case study, LinkedIn platform demographics, ghostwriting industry reports*
 *Date: March 23, 2026*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Trust verdict: PARTIAL — the load-bearing structural claims (NSCA membership, S&C salary band, B2B spend, LinkedIn audience size) check out and are decision-grade. But three colorful "proof" numbers the argument leans on emotionally — the $87.3B corporate-wellness figure, the 72% trainer-social-media stat, and the entire Sweat From Home case study — could NOT be sourced and should not be used in client-facing copy or as evidence in a decision until verified.**
+
+| Claim | Status | Source / Note |
+|---|---|---|
+| NSCA has ~60,000 members | **VERIFIED** | "more than 60,000 members and certified professionals throughout the world" — nsca.com (org overview) + us.humankinetics.com. Floor for the "3K–6K affordable prospects" math is sound. |
+| S&C coaches earn $68K–$99K/yr (NSCA 2025 salary survey) | **VERIFIED** | NSCA 2025 Salary Survey (conducted by Employers Council, Feb 2025): average salaries range **$68,089–$98,564**, 6.7% annual growth since 2018 — nsca.com press release + NSCA social. The cited survey is real and the band is near-exact. |
+| B2B firms spend ~5–10% of revenue on positioning/marketing | **VERIFIED** | Forrester: "the average B2B firm invests 8% of revenue in marketing." Directive Consulting: most B2B land **7–12%**, avg ~7.7–8%. Briefing's 5–10% is within (slightly conservative). |
+| ~500,000+ founders/coaches active on LinkedIn | **VERIFIED (conservative)** | Real number is far higher: Jodie Cook citing LinkedIn data — "4.7 million coaches on LinkedIn"; LinkedIn News — US "founder" title adds up 69% YoY into 2026. The 500K floor is easily cleared. |
+| Corporate wellness market "$87.3B by 2026" | **UNCONFIRMED** | No source produces $87.3B-by-2026. Live estimates cluster but disagree: Precedence Research $72.73B (2026, global); MarketsandMarkets $94.6B (2026, "solutions"); Grand View $55.1B (2025); US-only ~$35–37B (2024–25). Market is genuinely large and growing — but the *specific figure* is not citable. Treat as directional only. |
+| 72% of fitness trainers use social media for client acquisition (mostly IG/TikTok) | **LIKELY (directional) / UNCONFIRMED (exact)** | The pattern is well-supported (NASM, NESTA, My PT Hub all treat IG as the primary trainer-acquisition channel). No source states "72%." Use the *direction* (trainers are IG/TikTok-first, not LinkedIn-first), not the number. |
+| Sweat From Home: raised $215K seed, burned $80K on IG/FB/LinkedIn ads at ~0% return, $20K consultant, failed on channel-misfit | **UNCONFIRMED** | No primary source found matching these specifics across multiple search passes (Tavily). Closest hits are unrelated failed-fitness-startup stories (The Hustle). This is the briefing's most vivid persuasion anchor and currently has zero verifiable basis — do NOT cite it to a client. |
+| Close cycle: broad B2B 7–30 days vs S&C 30–60 days | **UNCONFIRMED** | No source measures these windows; they are reasoned estimates, not data. Plausible but not evidence. |
+
+**Decision guidance:** The core thesis — *go broad B2B, use S&C as origin story / wedge* — rests primarily on the VERIFIED claims (small + price-sensitive NSCA pool at $68–99K incomes vs. millions of paying-ready buyers on LinkedIn with budget benchmarks at 7–8% of revenue). Those are decision-grade; **the strategic recommendation is safe to act on.** Before putting *capital, ad spend, or client-facing copy* behind any specific figure, do NOT use: the $87.3B corporate-wellness number, the literal "72%" stat, the "7–30 day close cycle," or the Sweat From Home story — replace them with the verified directional versions or drop them. The argument survives without them; the numbers just need to stop pretending to be facts.

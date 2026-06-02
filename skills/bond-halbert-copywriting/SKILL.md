@@ -22,3 +22,5 @@ The complete direct response copywriting arsenal from Bond Halbert, son and prot
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+
+> **Note on "market research":** The `market` workflow's research is Halbert-style — living in the market, reading the prospect's internal dialogue — not live web/data retrieval. This skill does NOT fetch market data. If you need grounded market claims (real VOC, stats, competitor proof), run `/copy-engine` ground or `python3 execution/research.py "<query>" --depth quick|standard|deep|max` first, then feed the findings in. Do not present this skill's output as "market-researched" on its own.

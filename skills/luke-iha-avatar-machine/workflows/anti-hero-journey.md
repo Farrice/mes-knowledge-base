@@ -43,5 +43,21 @@ Load `references/framework-library.md` § G (the full structure + PIG guidelines
 - All four Part-1 beats as written passages (not bullet summaries).
 - PIG Story explicitly hitting the 4 guidelines.
 
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-avatar-machine --workflow anti-hero-journey \
+  --type Analysis --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 Beats must be *written prose*, reverse-engineered from the actual Core Wound (not generic). PIG Story must have real stakes + real (non-cartoon) antagonists. Auto-fail: arc that doesn't reflect the market's specific wound; summarized beats instead of written scenes; consciousness level ignored.

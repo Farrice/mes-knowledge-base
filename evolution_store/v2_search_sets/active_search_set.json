@@ -170,8 +170,64 @@
         "gaming_flag": false
       },
       "notes": "Stress test \u2014 routing verified to Lara Acosta as predicted by user plan. No halts. Verification-agent-protocol intervention recommendation logged."
+    },
+    {
+      "trace_id": "20260601_073547",
+      "timestamp": "2026-06-01T07:35:47.154010",
+      "schema_version": "v3",
+      "component": "luke-iha-copy-blocks",
+      "expert": "luke-iha",
+      "workflow": "teardown",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 7.25,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": ""
+    },
+    {
+      "trace_id": "20260602_010314",
+      "timestamp": "2026-06-02T01:03:14.817556",
+      "schema_version": "v3",
+      "component": "test",
+      "expert": "test",
+      "workflow": "test",
+      "quality": {
+        "composite": 6.5,
+        "intent_alignment": 7.25,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "test | Factual Grounding: 7"
     }
   ],
-  "total_cases": 6,
-  "last_updated": "2026-05-22T09:17:11.726783"
+  "total_cases": 8,
+  "last_updated": "2026-06-02T01:03:14.818024"
 }

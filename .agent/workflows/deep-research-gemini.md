@@ -8,6 +8,14 @@ Execute grounded research using Google's Deep Research API (Dec 2025) or Deep Re
 
 **This is the PRIMARY deep-research path (as of 2026-04-23).** Perplexity sonar-deep-research is the fallback when this is unavailable. The `/deep-research` umbrella workflow now routes its foundation layer here first.
 
+> **Unified Engine front door (2026-06-01).** Prefer the single call
+> `python3 execution/research.py "<query>" --depth deep` (or `--depth max`). The
+> engine is **Gemini-first** — it runs this exact Deep Research client first, then
+> Perplexity, then the free Claude bedrock floor, and prints a **Research Receipt**
+> (engine used · REAL/DEGRADED/FAILED · provenance · $cost). Failed/empty Gemini
+> calls now cost **$0** and never burn budget. Lead your output with the receipt.
+> The direct `deep_research_client.py` calls below remain valid as the rollback path.
+
 ## Safety
 
 Three layers of defense against overspend — see `directives/google-api-usage-policy.md`:

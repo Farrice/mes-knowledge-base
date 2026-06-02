@@ -58,5 +58,21 @@ V3 (maxed): "…"
 | CTA-adjacent | Clarity dominates; dial expressive *down* for trust |
 
 ---
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-copy-blocks --workflow craves-polish \
+  --type Content --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 > **🛡️**: Did saturation break Clarity or trip the believability/epiphany threshold? If V3 reads as "trying too hard," ship V2. Power words matched to the Core Wound, not sprinkled at random.

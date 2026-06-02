@@ -47,5 +47,21 @@ Load `references/framework-library.md` § C (12 resources, the matrix structure)
 ## Output Requirements
 - Resource matrix table (ranked) + 1-paragraph wound prediction + rub-salt passage + Eden seed + daisy-chain seed.
 
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-avatar-machine --workflow core-wound \
+  --type Analysis --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 Rubric criterion 2 (Core Wound depth) ≥8: specific refraction tied to a ranked resource matrix, not a generic fear. Auto-fail: "fear of failure/missing out" with no resource grounding; rub-salt that reads like clinical copy instead of felt threat.

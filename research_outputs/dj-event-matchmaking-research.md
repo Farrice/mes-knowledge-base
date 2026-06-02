@@ -288,3 +288,33 @@ This is exactly how Daybreaker scaled: the stories ARE the marketing. Every coup
 ---
 
 *Research conducted 2026-03-25. This dossier validates Andrea's concept as commercially viable with strong market tailwinds. The key differentiator is the combination of DJ personal brand + spiritual grounding + intentional romantic matchmaking through movement — a white space no current player occupies.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Trust verdict: MOSTLY TRUSTWORTHY — the thesis and tailwinds are real and well-sourced, but several precise figures (exact app user-loss counts, the $3.2B US market size, the $11B→$19.3B/7.3% CAGR) are not traceable to a primary source as stated and should be treated as directional, not decision-grade.**
+
+This briefing's *strategic direction* (anti-app fatigue + in-person singles boom + sober nightlife = real white space) holds up under verification. What does not fully hold up is the specificity of some headline numbers — they are real-in-spirit but either dated, reframed, or unsourceable at the exact figure quoted. None of the verified claims contradict the briefing's conclusion; the risk is using a precise-looking number in a pitch/pro-forma that a sharp partner or investor could puncture.
+
+| Claim | Status | Source / Note |
+|-------|--------|---------------|
+| Low/no-alcohol events grew **73% globally** (Eventbrite) | **VERIFIED** | Eventbrite's own page: "low- and no-alcohol events grew globally by 73% on the Eventbrite platform between January and September 2023." eventbrite.co.uk/blog (sober-friendly events). Note: it's a *platform* metric, not a market-wide one. |
+| Soft socializing: flower-arranging **+282%**, puzzles **+151%**, music bingo **+149%** | **VERIFIED** | Traces to Eventbrite's *Social Study 2026* report (cited by DivaDance, divadance.com, and Eventbrite's own channels). Briefing implies 2023 framing; figures are from the 2026 report — real numbers, slightly mis-dated. |
+| Singles/dating event attendance **+49% YoY** (Eventbrite) | **VERIFIED (with variance)** | +49% cited by Style My Profile NYC and Charlotte Maracina attributing Eventbrite; Axios reports the closely related figure as **+42% (2022→2023)** and PYMNTS reports +400% for game-based speed dating. Direction is solid; the exact % varies by cut. |
+| **1.5M+** Eventbrite users searching singles events annually | **VERIFIED** | Refinery29: Eventbrite reported "over 1.5 million users in the U.S." for singles events. |
+| **78%** dating-app fatigue/burnout | **VERIFIED (reframe flag)** | Forbes Health Survey: 78% of *dating-app users* report burnout (forbes.com/health/dating). Briefing says "78% of Americans" — the real stat is users/Gen Z, not all Americans. Use the corrected framing. |
+| Daybreaker: 7-figure business, **30+ cities**, founded **2013** by Radha Agrawal, **$2,500** start | **VERIFIED** | Multiple sources (community.inc, Forbes, Today Show, Eventbrite). Bootstrapped seven figures, 30+ cities. |
+| Daybreaker **500K+ members** | **LIKELY (undercount)** | community.inc now cites **800,000** members; 500K is conservative/dated. Order of magnitude verified. |
+| makromusic **$15M valuation, 10M+ downloads** | **VERIFIED** | musically.com: "$15M" seed raise, "over 10 million" users. |
+| Global dating/matchmaking market **$11B (2025) → $19.3B by 2033, 7.3% CAGR** (Straits) | **LIKELY (consensus-adjacent, exact figure unsourced)** | Independent firms cluster around it: FortuneBusinessInsights ~$9.6B (2025)→~$19.5B; AlliedMarketResearch $8.9B (2023)→$21.8B/9.5%; MarketDataForecast $9.65B(2025)→$17.64B/7.83%. Direction + magnitude verified; the precise Straits $11B/$19.3B/7.3% triple was not located in a primary source. Safe to cite as "~$9–12B today, projected high-teens to low-$20sB by 2033 at 7–10% CAGR." |
+| US dating market **$3.2B (2026)** | **UNCONFIRMED** | No primary source surfaced for this exact figure. IBISWorld and Statista cover US dating services but the $3.2B number is not verifiable as stated. **Do not use in a pitch without sourcing.** |
+| App user losses: **Tinder −594K, Bumble −368K, Hinge −131K** (May 2023–May 2024) | **UNCONFIRMED (direction LIKELY)** | The *trend* is strongly verified — Tinder paying users −9% to ~10M (Fast Company), Match Group total payers −3% to 15.2M / 8th straight quarterly decline (Reuters), Bumble −16% payers in a year (multiple). But these exact absolute counts for that exact window do not appear in any primary source found. Treat the −594K/−368K/−131K trio as not decision-grade; the *trend* is safe. |
+| "**A third** of young adults say apps make finding a partner harder" | **LIKELY** | Corroborated in spirit by Pew Research ("nearly half of U.S. adults say dating has gotten harder"); exact "one-third" framing not pinned to a single Pew stat. |
+| Ecstatic Dance **80+ global locations** | **LIKELY** | ecstaticdance.org confirms a global directory in "almost every major city," 18+ years running; exact "80+" count not stated on-site. Directionally verified. |
+| Event-business **profit margins 20–40%** | **LIKELY** | Event-industry benchmarks span 15–25% (planners), 30–40%, and 30–50% (media events) depending on type. The 20–40% band sits inside the credible range but is a generic benchmark, not specific to sober singles events. |
+
+**Decision guidance:**
+- **Safe to build on now** (verified, decision-grade): the *strategic thesis* — sober/soft-socializing and in-person singles are genuine, growing tailwinds (73% sober-event growth, +49%/+42% singles attendance, 1.5M Eventbrite searchers, 78% app burnout); Daybreaker as a proven 7-figure bootstrapped comp; the white-space positioning; the venue-revenue-share cost model.
+- **Use only with corrected framing** (real but reframe before quoting): "78% of Americans" → "78% of dating-app users"; soft-socializing percentages are from the 2026 Eventbrite report; market size as a *range* ("~$9–12B → high-teens$B at 7–10% CAGR"), not the exact Straits triple.
+- **Do NOT put capital, a pitch deck, or a pro-forma behind these until sourced**: the **$3.2B US market** figure and the **exact Tinder/Bumble/Hinge −594K/−368K/−131K** loss counts. The directional decline is fine to cite; the precise numbers are not. None of this changes the go/no-go — the concept is still validated — but a $35-ticket, partner-revenue-share Phase 1 test is the correct first capital commitment regardless, and it does not depend on any of the unconfirmed figures.

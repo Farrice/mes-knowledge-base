@@ -72,7 +72,7 @@ Evaluate every source against this 4-point rubric:
 ### 2. Foundation Research ⚠️ MANDATORY (Gemini primary, Perplexity fallback)
 // turbo
 - **Depth classifier**:
-  - **Standard/Deep**: Use Gemini Deep Research (`execution/deep_research_client.py`) as primary. Perplexity sonar-deep-research is fallback.
+  - **Standard/Deep**: Use the unified engine `python3 execution/research.py "<query>" --depth deep` (or `--depth max`) as primary — Gemini-first → Perplexity → Tavily bedrock floor, honest Research Receipt, $0-on-failure. Skip raw `deep_research_client.py`/`deep_research_engine.py` direct calls.
   - **Quick/single-claim**: Perplexity `ask` MCP is fine — it's still the fast path for citation-backed fact checks.
 - **Check budget before calling**:
   - Gemini primary → read `.agent/gemini-api-usage.json` (prepaid must be ≥ $0.50)
@@ -88,10 +88,11 @@ Evaluate every source against this 4-point rubric:
 - **If both budgets exhausted**: Proceed with `search_web` + `read_url_content` only
 - **Reference**: `directives/research-protocol.md` (priority matrix), `directives/google-api-usage-policy.md`, `directives/perplexity-usage-policy.md`
 
-**Alternative — Research Engine** (for automatic decomposition + parallel execution):
+**Alternative — Unified Research Engine** (for automatic decomposition + parallel execution):
 ```bash
-python3 execution/deep_research_engine.py --depth [quick|standard|deep] "[topic]"
+python3 execution/research.py "[topic]" --depth [quick|standard|deep|max]
 ```
+Gemini-first → Perplexity → Tavily bedrock floor, with an honest Research Receipt and $0-on-failure. For `deep`/`max` the swarm runs `.agent/workflows/deep-research-swarm.workflow.js`.
 
 ### 3. Supplementary Web Search
 // turbo

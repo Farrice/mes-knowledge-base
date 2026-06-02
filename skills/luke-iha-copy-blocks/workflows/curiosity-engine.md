@@ -69,5 +69,21 @@ Ext-Problem | UMP | Ext-Solution | UMS  (1–2 lines each)
 | Organic content | Specific-cell angles ("why THIS thing is bad for X") |
 
 ---
+## FINALIZE
+After producing the deliverable, log it through the quality gate (skip only for pure brainstorming):
+```bash
+// turbo
+python3 execution/chain_runner.py finalize "[what you produced] for <market>" \
+  --expert luke-iha --skill luke-iha-copy-blocks --workflow curiosity-engine \
+  --type Content --intent N --expert-score N --adversarial N --factual N \
+  --notes "Factual Grounding: N | Verification: PASS|N/A | Cache: WARM|COLD"
+```
+If the output contains stats / prices / dates / named entities, FIRST build a proof-claims ledger and run the deterministic G5 gate (see `/copy-engine` Phase 5):
+```bash
+// turbo
+python3 execution/verify_proof_ledger.py --draft <draft-file> --ledger .tmp/copy-engine/<slug>/proof-claims.md || echo "label/cut claims before delivery"
+```
+Grep finalize output for `QUALITY GATE BLOCKED` and do NOT deliver on a match (finalize exits 0 even when it blocks).
+
 ## Quality Gate
 > **🛡️**: Mechanism name fails the portability test? Rewrite. Idea sits at 9–10 (unbelievable)? Pull down. Name surfaced to the reader as "mechanism"? Hide it. Curiosity should create the magnet tension, not give the answer away.
