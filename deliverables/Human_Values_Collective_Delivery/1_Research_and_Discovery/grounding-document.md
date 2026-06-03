@@ -2,7 +2,17 @@
 
 **Prepared by**: Antigravity Intelligence System
 **Date**: March 26, 2026
-**Sources**: 3 parallel research agents (100+ web queries, 30+ sources)
+**Provenance note (added 2026-06-02):** Produced before the research-integrity fix and **not link-verified** — despite the "30+ sources" framing, only ~1 source URL is actually present in-file. The real-person facts below are AI-synthesized and may contain errors.
+
+> ⚠️ **VERIFY BEFORE ANY CLIENT-FACING USE — real-person accuracy/defamation exposure.**
+> Confirm each specific claim about Javier Payano against a live primary source (his site, LinkedIn, the awarding org, the venue) before repeating it to him or in a deliverable:
+> - Employer/role: "Music teacher at Lane Tech College Prep" + "CPS Music Content Specialist"
+> - Education: "BA Music Education + Certificate, North Park University" + "Institute of Sathya Sai Education, Thailand"
+> - Award: "2021 3Arts 'Make a Wave' award recipient"
+> - Band: "Suavi (with Marco De La Rosa, since 2005)" + the named venues (Heartland Cafe, Elbo Room, Abbey Pub)
+> - Org: "CEO and Co-Founder of Human Values Collective" + "founded 2017" + "YOURS Orchestra Project"
+>
+> You know Javier directly — your confirmation is faster and more reliable than a re-scrape. To re-ground the public-record items: `python3 execution/research.py "Javier Payano Chicago musician educator Human Values Collective 3Arts" --depth standard`.
 
 ---
 

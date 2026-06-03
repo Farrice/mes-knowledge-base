@@ -62,7 +62,7 @@ The universal promise: **"We'll make fitness fun by wrapping it in gaming metaph
 
 ### Customer Complaints (What Buyers Say Is Broken)
 
-Sourced from Reddit threads, Nerd Fitness community forums, app store reviews, and Twitter/X discussions:
+_Likely / commonly-reported pain points (AI-inferred — verify against real Reddit/forum/review threads before relying on these):_
 
 1. **"The gamification wears off."** — RPG mechanics feel novel for 2-3 weeks, then the dopamine fades and you are left with workouts you don't actually enjoy. The game layer was a gimmick, not a system.
 

@@ -21,7 +21,7 @@ But after burning out and hitting my heaviest weight, I discovered a biological 
 It’s called the **Metabolic Switch**—and it relies on *when* you eat, not just *what* you eat."
 
 **The Proof (Demonstration & Social):**
-"Using this exact protocol, I dropped 20 pounds of stubborn fat while running my business—and I’ve since helped hundreds of other busy professionals do the same. Their brain fog lifted within 72 hours. Their energy flatlines disappeared."
+"Using this protocol, I lost 20 pounds while running my business—and I’ve since shared it with other busy professionals. Many have told me their focus felt sharper and their energy steadier within the first week. (Individual results vary.)"
 
 ---
 
@@ -37,7 +37,7 @@ So you order takeout. You pour a drink. And the cycle repeats."
 
 I’m talking about a structured, executive-level fasting protocol that shifts your body from burning glucose (sugar) to burning stored body fat for fuel. 
 
-It gives you back hours of your day. It sharpens your focus. And it melts fat automatically while you work."
+It gives you back hours of your day. Many people find it helps their focus — and it's designed to support fat loss as part of a healthy routine."
 
 ---
 
@@ -49,7 +49,7 @@ Introducing: **The 7-Day Fasting Pre-Flight Checklist**
 Inside this checklist, you’ll discover:
 * **The "Black Coffee Bypass":** How to use your morning coffee to accelerate fat burning without breaking your fast.
 * **The Hydration Protocol:** The exact mineral ratios you need to eliminate the "keto flu" and fasting headaches.
-* **The Break-Fast Formula:** The worst 3 foods to eat when breaking your fast (eating these will immediately store fat)—and what to eat instead.
+* **The Break-Fast Formula:** The 3 foods that tend to work against you when breaking your fast—and what to reach for instead.
 * **The Social Shield:** How to navigate business lunches and family dinners while fasting, without looking like a diet fanatic.
 * **The 72-Hour Timeline:** A day-by-day map of exactly what you will feel biologically as your body physically transitions into a fat-burning machine.
 
@@ -69,9 +69,13 @@ Not for $97. Not for $47.
 Less than the cost of a mediocre airport sandwich."
 
 **The Guarantee:**
-"If you download this checklist, follow the steps, and don't feel a massive surge in energy and a drop in bloating within 7 days... I'll refund your $7 and you can keep the checklist."
+"Try the checklist. If you're not satisfied for any reason within 7 days, email me and I'll refund your $7 — and you can keep the checklist."
 
 **The Call To Action (CTA):**
 [Button: YES, SEND ME THE FASTING CHECKLIST FOR $7]
 
 *(Order bump at checkout: The 30-Day Executive Meal Plan for $37)*
+
+---
+
+*Disclaimer: This checklist is for general educational purposes and is not medical advice. These statements have not been evaluated by the FDA, and this product is not intended to diagnose, treat, cure, or prevent any disease. Intermittent fasting is not appropriate for everyone — including people who are pregnant or nursing, have diabetes or a history of disordered eating, or take medications affected by fasting. Consult a qualified healthcare provider before changing your diet. Individual results vary.*
