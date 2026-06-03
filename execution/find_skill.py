@@ -88,14 +88,79 @@ SYNONYMS = {
     "orchestrate": ["orchestration", "multi-agent", "swarm", "dpvi"],
     "swarm": ["swarm", "parallel", "agents", "orchestration"],
     "deploy": ["deploy", "production", "harness"],
+    # Spoken communication / presence / persuasion (Bayer, Chase Hughes, Miner)
+    "keynote": ["spoken", "communication", "presence", "speaking", "stage", "bayer"],
+    "speak": ["spoken", "communication", "presence", "speaking", "bayer"],
+    "speech": ["spoken", "communication", "presence", "bayer"],
+    "stage": ["spoken", "presence", "speaking", "bayer"],
+    "presence": ["presence", "spoken", "authority", "bayer"],
+    "grounded": ["presence", "spoken", "authentic", "bayer"],
+    "authentic": ["authenticity", "presence", "voice", "bayer"],
+    "persuade": ["persuasion", "influence", "framing"],
+    "influence": ["influence", "persuasion", "conversational"],
+    "pitch": ["pitch", "positioning", "persuasion", "sales"],
+    "negotiate": ["negotiation", "influence", "power", "presence"],
+    # Copywriting (the cluster is large; route the common idioms)
+    "copy": ["copywriting", "copy", "dopamine", "direct-response"],
+    "ad": ["ad", "ads", "advertising", "creative"],
+    "ads": ["ads", "advertising", "creative", "meta"],
+    "sales": ["sales", "persuasion", "closing", "offer"],
+    "offer": ["offer", "pricing", "positioning", "product"],
+    "vsl": ["vsl", "video-sales-letter", "lead"],
+    # Positioning / brand strategy
+    "positioning": ["positioning", "differentiation", "brand"],
+    "niche": ["niche", "positioning", "specificity", "multipassionate"],
+    "story": ["story", "storytelling", "narrative"],
+    "storytelling": ["storytelling", "narrative", "story"],
+    # Memoir / literary / narrative prose (Lamott, Ocean Vuong, Connelly, Wright Thompson)
+    "memoir": ["memoir", "narrative", "personal", "lamott", "interiority"],
+    "father": ["memoir", "personal", "narrative"],
+    "mother": ["memoir", "personal", "narrative"],
+    "essay": ["essay", "narrative", "writing", "prose"],
+    "chapter": ["memoir", "narrative", "book", "writing"],
+    "book": ["book", "narrative", "memoir", "writing"],
+    "prose": ["prose", "writing", "sentence", "literary"],
+    "literary": ["literary", "prose", "narrative", "perceptual"],
+    "write": ["writing", "prose", "craft"],
+    "writing": ["writing", "prose", "craft", "narrative"],
+    # Brand identity / design / luxury / visual
+    "identity": ["identity", "brand", "design", "visual"],
+    "luxury": ["luxury", "premium", "positioning", "oren"],
+    "premium": ["premium", "luxury", "positioning"],
+    "logo": ["logo", "design", "visual", "composition"],
+    "design": ["design", "visual", "brand", "system"],
+    "skincare": ["brand", "luxury", "dtc", "ecommerce"],
+    "fashion": ["fashion", "brand", "shopify", "dtc"],
 }
 
 
+def _stem(t: str) -> str:
+    """Light suffix stripping so 'communication'~'communicate', 'authentic'~'authenticity'.
+    Conservative: only strips when >=4 chars remain, avoids over-collapsing."""
+    for suf in ("ization", "ation", "ing", "ed", "ly", "ity", "es", "s"):
+        if len(t) - len(suf) >= 4 and t.endswith(suf):
+            return t[: -len(suf)]
+    return t
+
+
 def tokenize(text: str) -> list[str]:
-    """Lowercase, split on non-word, drop stopwords + short tokens."""
+    """Lowercase, split on non-word, ALSO split hyphenated compounds into subtokens,
+    drop stopwords + short tokens, then light-stem.
+
+    The hyphen-split is the key recall fix: skill descriptions are dense with
+    compounds like 'spoken-communication', 'authenticity-as-status', 'power-presence'.
+    Without splitting, a user typing 'communication' or 'authentic' never matches them.
+    We keep BOTH the whole compound and its parts so exact-compound matches still score.
+    """
     text = text.lower()
-    tokens = re.findall(r"[a-z0-9\-]+", text)
-    return [t for t in tokens if t not in STOPWORDS and len(t) > 2]
+    raw = re.findall(r"[a-z0-9\-]+", text)
+    out = []
+    for t in raw:
+        pieces = [t] + t.split("-") if "-" in t else [t]
+        for p in pieces:
+            if p not in STOPWORDS and len(p) > 2:
+                out.append(_stem(p))
+    return out
 
 
 def expand(tokens: list[str]) -> list[str]:

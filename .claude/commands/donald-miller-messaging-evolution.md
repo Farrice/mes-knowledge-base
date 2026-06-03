@@ -1,0 +1,6 @@
+---
+description: "Treats messaging as a living system that evolves across a company''s entire lifecycle — not a one-time framework. Captures Miller''s longitudinal/positioning genius: date-sequence messaging (first/second/third/fourth-date disclosure so the landing page says one thing and the s..."
+---
+<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+
+Load and embody the skill at `skills/donald-miller-messaging-evolution/SKILL.md`. Also load `skills/donald-miller-messaging-evolution/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.

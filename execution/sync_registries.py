@@ -2,14 +2,23 @@
 """
 Sync Registries — Populates AGENT_INDEX.md and SKILL_INDEX.md
 Enhanced to extract keywords from file content, not just frontmatter.
+
+Also generates one slash command per skill (.claude/commands/<name>.md) so every
+skill is invocable like a workflow (/david-bayer). Clobber-safe: never overwrites
+a command we did not generate (the 598 hand-written workflow shims are untouched).
 """
 import os
 import re
+from collections import Counter
 
 SKILLS_DIR = "skills"
 AGENTS_DIR = "agents"
 SKILL_INDEX = "SKILL_INDEX.md"
 AGENT_INDEX = "AGENT_INDEX.md"
+COMMANDS_DIR = os.path.join(".claude", "commands")
+# Sentinel that marks a command file as one WE generated. Any file lacking this
+# marker is treated as foreign (hand-written workflow shim) and never modified.
+GEN_MARKER = "<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->"
 
 
 def read_file(path):
@@ -281,6 +290,144 @@ def sync_skills():
     print(f"✅ Synced {len(skills)} skills to SKILL_INDEX.md ({populated} with keywords).")
 
 
+def _discover_skill_slugs():
+    """Return sorted list of skill slugs that have a SKILL.md (same filter as sync_skills)."""
+    slugs = []
+    for item in sorted(os.listdir(SKILLS_DIR)):
+        if item.startswith("_") or item.startswith("."):
+            continue
+        skill_path = os.path.join(SKILLS_DIR, item)
+        if not os.path.isdir(skill_path):
+            continue
+        if not os.path.isfile(os.path.join(skill_path, "SKILL.md")):
+            continue
+        slugs.append(item)
+    return slugs
+
+
+def _short_name(slug):
+    """First two hyphen-tokens, e.g. david-bayer-elite-communication -> david-bayer."""
+    parts = slug.split("-")
+    return "-".join(parts[:2]) if len(parts) >= 2 else slug
+
+
+def compute_command_names(slugs):
+    """Map each skill slug -> the command name to use.
+
+    Short (2-token) name where that short is unique across all skills; full slug
+    where the short collides (e.g. the 12 luke-iha-* skills keep their full slugs).
+    Deterministic and stable: same input -> same output every run.
+    """
+    short_counts = Counter(_short_name(s) for s in slugs)
+    names = {}
+    for s in slugs:
+        short = _short_name(s)
+        names[s] = short if short_counts[short] == 1 else s
+    return names
+
+
+def _existing_command_basenames():
+    """All current command basenames (without .md), incl. the 598 workflow shims."""
+    if not os.path.isdir(COMMANDS_DIR):
+        return set()
+    return {f[:-3] for f in os.listdir(COMMANDS_DIR) if f.endswith(".md")}
+
+
+def render_skill_command(slug, command_name):
+    """Build the byte-exact command-file content for a skill.
+
+    Body instructs Tier-2 load (SKILL.md + genius.md) per the investigation:
+    SKILL.md alone is a thin router and under-loads the methodology. Uses the
+    same single-quoted-safe description handling as the rest of this module.
+    """
+    fm, _ = extract_frontmatter_and_content(os.path.join(SKILLS_DIR, slug, "SKILL.md"))
+    desc = fm.get("description") or f"Load and apply the {slug.replace('-', ' ')} skill."
+    desc = desc.replace('"', "'").replace("\n", " ").strip()
+    if len(desc) > 280:
+        desc = desc[:277].rstrip() + "..."
+    has_genius = os.path.isfile(os.path.join(SKILLS_DIR, slug, "genius.md"))
+    genius_clause = (
+        f" Also load `skills/{slug}/genius.md` (Tier 2 — signature moves, exemplars, "
+        f"quality rubric; the methodology lives here, not in SKILL.md)."
+        if has_genius else ""
+    )
+    return (
+        "---\n"
+        f'description: "{desc}"\n'
+        "---\n"
+        f"{GEN_MARKER}\n\n"
+        f"Load and embody the skill at `skills/{slug}/SKILL.md`.{genius_clause} "
+        f"Then apply that expert's methodology — their thinking, not their terminology — "
+        f"to the user's request, and self-score against the expert rubric before delivering.\n"
+    )
+
+
+def sync_skill_commands():
+    """Write one .claude/commands/<name>.md per skill that lacks a command.
+
+    Clobber-safe + idempotent:
+      - never touches a file we did not author (no GEN_MARKER -> skip as foreign)
+      - never overwrites an existing workflow/skill command name
+      - re-running converges to a fixed point (rewrites only on real change)
+    """
+    print("Syncing skill command shims...")
+    os.makedirs(COMMANDS_DIR, exist_ok=True)
+
+    slugs = _discover_skill_slugs()
+    names = compute_command_names(slugs)
+    existing = _existing_command_basenames()
+
+    created = refreshed = unchanged = skipped_foreign = collided = 0
+    manifest = []
+
+    for slug in slugs:
+        name = names[slug]
+        cmd_path = os.path.join(COMMANDS_DIR, f"{name}.md")
+        new_content = render_skill_command(slug, name)
+
+        if os.path.exists(cmd_path):
+            current = read_file(cmd_path)
+            if GEN_MARKER in current:
+                if current != new_content:
+                    with open(cmd_path, "w", encoding="utf-8") as f:
+                        f.write(new_content)
+                    refreshed += 1
+                else:
+                    unchanged += 1
+                manifest.append((f"/{name}", slug))
+            else:
+                # Foreign file (a workflow shim or hand-written) owns this name.
+                skipped_foreign += 1
+                collided += 1
+            continue
+
+        with open(cmd_path, "w", encoding="utf-8") as f:
+            f.write(new_content)
+        created += 1
+        manifest.append((f"/{name}", slug))
+
+    # Write a machine-readable manifest of skill->command for the router + docs.
+    manifest_path = os.path.join(".agent", "skill-commands.json")
+    os.makedirs(".agent", exist_ok=True)
+    import json as _json
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        _json.dump(
+            {"commands": [{"command": c, "skill": s} for c, s in sorted(manifest)]},
+            f, indent=2,
+        )
+
+    print(
+        f"✅ Skill commands: {created} created, {refreshed} refreshed, "
+        f"{unchanged} unchanged, {skipped_foreign} foreign-skipped "
+        f"(name already owned by a workflow/hand-written command)."
+    )
+    if collided:
+        print(
+            f"   ℹ️  {collided} skill(s) could not get a command because the name is "
+            f"already taken by a workflow. Those skills remain reachable by name / /find-skill."
+        )
+
+
 if __name__ == "__main__":
     if not os.path.exists(SKILLS_DIR) or not os.path.exists(AGENTS_DIR):
         print("Run this from the workspace root.")
@@ -288,3 +435,4 @@ if __name__ == "__main__":
 
     sync_agents()
     sync_skills()
+    sync_skill_commands()

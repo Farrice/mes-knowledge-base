@@ -140,7 +140,7 @@
     "directory": "bond-halbert-copywriting",
     "description": "Executes Bond Halbert's 47-year direct-response copywriting system \u2014 market research, velocity-optimized copy creation, and complete campaign architecture from the son and protege of Gary Halbert (founder of the modern DR copy lineage). Use when building full direct-response campaigns (sales letter + email sequence + ad), running deep market research before writing copy, optimizing existing copy for measurable velocity gains (CTR, conversion, AOV), or applying old-school DR fundamentals that modern copywriters skip. Trigger proactively whenever the user says \"direct response\", \"sales letter\", \"DR copy\", \"Gary Halbert\", \"market research for copy\", or wants to know \"what would actually work in the mail\". For online-native dopamine-copy mechanics use stefan-georgi-dopamine-copy; for high-stakes financial promos use chris-cimorelli-copywriting.",
     "when_to_use": "",
-    "mtime": 1779591685.237626,
+    "mtime": 1780387578.1880808,
     "slash": "/bond-halbert-copywriting"
   },
   {
@@ -216,6 +216,14 @@
     "slash": "/cardinal-mason-ai-copywriting"
   },
   {
+    "name": "chase-hughes-context-engineering",
+    "directory": "chase-hughes-context-engineering",
+    "description": "The Context Engineering Operating System \u2014 Chase Hughes's behavioral-influence architecture for designing the CONTEXT where a desired behavior becomes automatic, instead of pushing the outcome. Built on PCP (Perception \u2192 Context \u2192 Permission) and the one inversion \"engineer conditions, not outcomes; build the perfect recipient first.\" Covers the macro layer the conversational-influence skill excluded \u2014 PCP/upstream design, the FEAR brainwashing formula + fractionation, the five trust factors / followability, contagious confidence, the benevolent SMRP honesty protocol, the Behavior Suite (change-cluster-context reading), threat detection (COPE), the emotional-debt substrate, and manipulation DEFENSE. Every offensive mechanic ships with its detection tell + resistance move + ethical deployment (Hughes's Plato's-Cave ethic), and all /ce-* output passes a deterministic Defense/Ethics Gate. Use when the user says \"context engineering\", \"engineer the conditions\", \"make the behavior automatic\", \"what's upstream of the outcome\", \"design the context so they\u2026\", \"build the perfect recipient\", \"Chase Hughes\", \"PCP\", \"followability\", \"read this person/transcript/pitch\", \"is this manipulation\", \"am I being manipulated\", or wants to design an offer/funnel/launch/onboarding where the action feels self-chosen. Standalone operating layer (/ce-design, /ce-build) AND a Chain Step-3.5 front-end that hands a Context-Design Spec to a production expert. Dual-use, uncensored mechanics with defense baked in.",
+    "when_to_use": "- Designing an offer / funnel / launch / onboarding where the action should feel self-chosen, not pushed\n- A direct ask would trigger resistance and the real lever is the context, not the copy\n- \"Agreed but didn't act\" responses (the outcome was pushed; the recipient was never built)\n- Building genuine on-camera / pitch / leadership presence at the cause level\n- Reading a person, transcript, or pitch for stress and change (not \"lie detection\")\n- Surfacing a real objection or hidden truth ethically (sales discovery, coaching)\n- Defending yourself / a team / kids against the FEAR loop, fractionation, and engineered division\n- Content that needs the emotional substrate (shame, never-being-seen, emotional debt) \u2014 memoir-grade",
+    "mtime": 1780173647.112582,
+    "slash": "/chase-hughes-context-engineering"
+  },
+  {
     "name": "chase-hughes-conversational-influence",
     "directory": "chase-hughes-conversational-influence",
     "description": "Deploys 5 invisible-persuasion techniques rooted in one mechanic \u2014 the brain cannot resist what came from within it. Instead of pushing arguments, Hughes arranges cognitive components close enough together that the audience's own pattern-matching produces the conclusion (they feel clever; conviction lands; they never know they were guided). Same machinery in reverse becomes cognitive defense \u2014 spotting when someone is doing it to you. Use when designing high-stakes conversations, courtroom-style persuasion, sales-call architecture, defending against manipulation, media-literacy training, or when the user mentions \"Chase Hughes\", \"conversational influence\", \"invisible persuasion\", \"cognitive defense\". Trigger proactively when copy or content needs to land conviction without explicit argumentation. Honest scope \u2014 this skill covers the 5 conversational/persuasion techniques from one Unlearn podcast; does NOT cover Hughes's Behavior Suite (BSuite, AIM, 6MX, SPIES, interrogation) \u2014 those need a separate extract.",
@@ -244,7 +252,7 @@
     "directory": "consumer-posture-research",
     "description": "Deep consumer psychology profiling that reveals how individuals occupy, act within, and think about brand worlds\u2014going far beyond demographics to enable behavioral prediction. Use when launching products/services, creating brand strategy/positioning, developing resonant messaging, understanding competitive differentiation, or predicting consumer response to brand decisions. Produces complete Consumer Posture Profiles for strategic clarity.",
     "when_to_use": "",
-    "mtime": 1768864119.0361688,
+    "mtime": 1780387580.8953023,
     "slash": "/consumer-posture-research"
   },
   {
@@ -356,7 +364,7 @@
     "directory": "david-bayer-elite-communication",
     "description": "Trains spoken-communication mastery using David Bayer's elite-presence system \u2014 verbal identity, room dynamics, power-presence under pressure, and the authenticity-as-status mechanics that distinguish 1%-tier communicators from technically-skilled speakers. Use when preparing for high-stakes spoken moments (keynote, podcast appearance, pitch meeting, board presentation, sales call), diagnosing why the user comes across as smaller in person than on paper, rebuilding presence after a confidence-rattling event, or designing the verbal identity that matches the user's positioning. Trigger proactively whenever the user says \"I have a big talk coming up\", \"I freeze on camera\", \"I sound smaller than I am\", \"podcast prep\", or describes a written brand that doesn't carry into spoken settings. For written voice / brand voice use voice-document or voice-calibrate; for sales-call dynamics specifically use chase-hughes-conversational-influence.",
     "when_to_use": "",
-    "mtime": 1779591750.4037178,
+    "mtime": 1780184805.5648432,
     "slash": "/david-bayer-elite-communication"
   },
   {
@@ -404,7 +412,7 @@
     "directory": "diandra-escobar-linkedin-growth",
     "description": "Complete LinkedIn growth operating system \u2014 audience acquisition through borrowed-attention formats (brandjacking, newsjacking, namejacking, hot takes), content funnel architecture (4-bucket system), infrastructure setup (Notion + Drive + Claude), body-first writing process, strategic engagement layer, and steal-like-an-artist content sourcing.",
     "when_to_use": "",
-    "mtime": 1775882103.8073375,
+    "mtime": 1780197946.840681,
     "slash": "/diandra-escobar-linkedin-growth"
   },
   {
@@ -424,6 +432,14 @@
     "slash": "/docx"
   },
   {
+    "name": "Donald Miller \u2014 Small Business Growth & Operations",
+    "directory": "donald-miller-business-growth",
+    "description": "Engineers a small business like an airplane so it scales without crashing \u2014 the operational/financial system underneath the messaging. Captures Miller's Small Business Flight Plan from \"How to Grow Your Small Business\": the airplane six-part diagnostic + rule of proportion + S-curve detection, the Business-on-a-Mission Guiding Principles (Mission Statement formula \"X by Y because Z\" + Key Characteristics + Critical Actions), the product-optimization playbook (rank by true profit, the six value categories, the product brief), the Management & Productivity playbook (five meetings + artist/entrepreneur/operator + the operator hire), and the five-checking-account cash-flow system (high-water marks, boil-over transfers, reserve fund). Use when a business is growing but \"everything feels heavy\" (the S-curve), when the owner is firefighting instead of in their sweet spot, when products aren't ranked by profit, when overhead is bloating, when business and personal money are commingled, or when planning a hire/expansion (rule of proportion). Trigger when the user says \"professionalize my operation\", \"my business is growing but chaotic\", \"I don't know which products make money\", \"cash flow is a mess\", \"how do I scale without crashing\", or \"small business growth plan\". DELIBERATELY DEFERS marketing to donald-miller-storybrand/donald-miller-cognitive-load and sales to donald-miller-messaging-evolution \u2014 this skill flies the plane; the two engines are owned by the messaging skills.",
+    "when_to_use": "",
+    "mtime": 1780154590.4183536,
+    "slash": "/donald-miller-business-growth"
+  },
+  {
     "name": "Donald Miller \u2014 Cognitive Load Messaging Mastery",
     "directory": "donald-miller-cognitive-load",
     "description": "Scores, diagnoses, and eliminates cognitive friction from messaging using Donald Miller's methodology \u2014 zero-load sound bites, the PEACE framework (Problem / Empathy / Authority / Confidence / Examples), three-phase campaign architecture (curiosity \u2192 enlightenment \u2192 commitment), and cognitive-load autopsies on copy that \"tested fine but didn't convert\". Treats every extra word as a tax. Use when website copy is smart-but-confusing, a sales page has too many competing ideas, sound bites need to land in 5 seconds (interviews, podcast intros, pitches), or training a team in cognitive-load discipline. Trigger proactively whenever the user says \"this is too complicated\", \"make it simpler\", \"they're not getting it\", or \"sound bite\". For full StoryBrand SB7 narrative use storybrand; for internal culture-change messaging use donald-miller-culture-turnaround.",
@@ -438,6 +454,14 @@
     "when_to_use": "",
     "mtime": 1779591872.0371857,
     "slash": "/donald-miller-culture-turnaround"
+  },
+  {
+    "name": "Donald Miller \u2014 Messaging Evolution & Positioning Discipline",
+    "directory": "donald-miller-messaging-evolution",
+    "description": "Treats messaging as a living system that evolves across a company's entire lifecycle \u2014 not a one-time framework. Captures Miller's longitudinal/positioning genius: date-sequence messaging (first/second/third/fourth-date disclosure so the landing page says one thing and the sales call handles the objection), the bridge word (Milwaukee \"fuel\" \u2014 one word that ports old-category trust into a new one), lane discipline (the net metaphor \u2014 smaller net catches more fish; refusing adjacent revenue), message siloing (one message + one specialized team per segment), the 3-year rebrand-patience rule, and the abracadabra testing loop (\"innovate or become Blockbuster\"). Use when a brand has plateaued despite \"fine\" messaging, when expansion tempts the positioning, when a category triggers a quality objection, when one sales team serves multiple buyer types, or when planning a rename/merger. Trigger when the user says \"our messaging stopped working\", \"should we expand into...\", \"people think our category is lower quality\", \"one message isn't fitting all our buyers\", or \"we're rebranding\". For the static SB7 story framework use donald-miller-storybrand; for scoring/simplifying a single message use donald-miller-cognitive-load; for internal org culture messaging use donald-miller-culture-turnaround.",
+    "when_to_use": "",
+    "mtime": 1780153119.4932976,
+    "slash": "/donald-miller-messaging-evolution"
   },
   {
     "name": "Donald Miller \u2014 StoryBrand Mastery",
@@ -904,6 +928,14 @@
     "slash": "/lucas-alpay-storytelling"
   },
   {
+    "name": "Luke Iha: The AI Avatar Machine (Manifold)",
+    "directory": "luke-iha-avatar-machine",
+    "description": "The upstream keystone of the Luke Iha stack \u2014 the market-intelligence engine that BUILDS the avatar every other Luke skill assumes you already have. Plots a market across 10+ orthogonal dimensions (Pain Matrix), excavates the Core Wound via Ontological Resources, maps the Resonance Hierarchy (Experiences\u2192Beliefs\u2192Values\u2192Identity), calibrates beliefs to the Epiphany Threshold, dissolves constraints via AWE, and architects the Anti-Hero's Journey \u2014 then concatenates it all into the Avatar Manifold, a complete, reusable, sellable market-intelligence package.",
+    "when_to_use": "- Building an ICP/avatar/creative brief that needs to actually *drive* copy (not just describe a demographic).\n- Before any cold-traffic copy for a market you don't deeply understand yet.\n- Producing a sellable market-intelligence deliverable for a client.\n- Upgrading a thin persona, or auditing one (yours or a competitor's).\n- Feeding the rest of the Luke stack \u2014 this is the front door.",
+    "mtime": 1780244449.2299807,
+    "slash": "/luke-iha-avatar-machine"
+  },
+  {
     "name": "Luke Iha: Client Mastery & Business Operations",
     "directory": "luke-iha-client-mastery",
     "description": "The business engine for creative strategists \u2014 client acquisition mechanics, proof portfolio sprinting, the 'Paid to Feel' judgment methodology, Meta Andromeda ad diversity systems, and AI-orchestrated production pipelines. The operational complement to luke-iha-creative-strategy (strategic thinking).",
@@ -914,9 +946,9 @@
   {
     "name": "Luke Iha: Copy Blocks & CASH Method",
     "directory": "luke-iha-copy-blocks",
-    "description": "The foundational writing system \u2014 every piece of persuasive copy is built from 6 atomic blocks (Pain, Promise, Proof, Constraints, Curiosity, Conditions) cycled at variable speeds. Includes the CASH Method (Concept\u2192Angle\u2192Style\u2192Hook) for generating infinite ad variations, hook psychology, and ad body architecture.",
-    "when_to_use": "- Before writing ANY ad, VSL, email, or landing page (run Copy Block Audit on drafts)\n- When you need endless ad variations (CASH Method replaces \"I'm out of ideas\")\n- When hooks are underperforming (Hook Forge generates testable alternatives)\n- When copy \"feels flat\" (usually a velocity problem \u2014 blocks aren't cycling fast enough)\n- When training AI to write copy (Copy Blocks give it structural scaffolding)",
-    "mtime": 1773155644.4823194,
+    "description": "The atomic integration spine of Luke Iha's copywriting system \u2014 every ad, VSL, email, and page built from 6 blocks (Pain, Promise, Proof, Constraints, Curiosity, Conditions) cycled at variable velocity. v2.0 (Director's Cut) adds the full depth grammar: Pain Chain/Matrix/Core Wound, Promise Ladder + Identity Runway, Proof Braid + Feeling of Truth, Resonance Hierarchy + AWE constraint dissolution, the Curiosity Quadrant + 4 thinking tools, CRAVES, the Copy Blocks Equation, plus CASH ideation.",
+    "when_to_use": "- Before writing ANY ad, VSL, email, or landing page \u2192 `copy-from-scratch` (build) or `copy-block-audit` (diagnose a draft)\n- Copy \"feels flat\" \u2192 usually a curiosity or CRAVES problem \u2192 `craves-polish` / `curiosity-engine`\n- Can't get past the blank page \u2192 `copy-from-scratch`\n- Endless ad variations needed \u2192 `cash-method-generator`\n- An offer underperforms but you can't say why \u2192 `copy-blocks-equation-score`\n- A hardened belief blocks the sale \u2192 `constraint-dissolution`\n- Training AI to write copy \u2192 the blocks give it structural scaffolding",
+    "mtime": 1780235957.2491295,
     "slash": "/luke-iha-copy-blocks"
   },
   {
@@ -1076,7 +1108,7 @@
     "directory": "market_intelligence",
     "description": "Advanced trend spotting and keyword intent analysis system. Uses Agentic Research to replicate the \"unfair advantage\" of paid tools like Ahrefs and Google Trends.",
     "when_to_use": "",
-    "mtime": 1770957574.809124,
+    "mtime": 1780387584.7409263,
     "slash": "/market_intelligence"
   },
   {
@@ -1528,6 +1560,14 @@
     "slash": "/sam-goddard-media-scaling"
   },
   {
+    "name": "Sam Parr - Copywriting Mastery",
+    "directory": "sam-parr-copywriting",
+    "description": "The operator's direct-response copywriting playbook \u2014 classic DR (Ogilvy/Sugarman) fused with 2026 short-form-video attention mechanics. Hooks, story ads, the tangibility engine, live ad-rewrite, retention-engineered reels.",
+    "when_to_use": "",
+    "mtime": 1780153023.784626,
+    "slash": "/sam-parr-copywriting"
+  },
+  {
     "name": "Sam Parr - Taste Acquisition Mastery",
     "directory": "sam-parr-taste-acquisition",
     "description": "The 4-step system for building taste from scratch in any domain \u2014 Decide, Copy, Rules, History \u2014 deployed as competitive moat",
@@ -1664,6 +1704,14 @@
     "slash": "/skill-creator"
   },
   {
+    "name": "Sky Tan - Format Engine",
+    "directory": "sky-tan-format-engine",
+    "description": "Short-form video format engineering for founder/B2B personal brands \u2014 discover, build, test, and saturate the ONE winning repeatable format that prints views AND converts to clients. The 20-minute strategy spine (Purpose\u2192Avatar\u2192Market\u2192Format\u2192Hook), the 4 money formats (reaction / process breakdown / authority hijack / live strategy session), cross-niche format theft, 3-hook stacking, the 2x/4-video test, and the saturation blitz. Core thesis: formats get views, expertise gets sales.",
+    "when_to_use": "",
+    "mtime": 1780154478.9593234,
+    "slash": "/sky-tan-format-engine"
+  },
+  {
     "name": "slack-gif-creator",
     "directory": "slack-gif-creator",
     "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
@@ -1788,7 +1836,7 @@
     "directory": "tom-noske-content-creation",
     "description": "Authenticity-first content creation: zone of genius format diagnosis, energy auditing, quantity-driven skill acquisition, and promise-payoff architecture.",
     "when_to_use": "",
-    "mtime": 1772841427.1853802,
+    "mtime": 1780149057.0797043,
     "slash": "/tom-noske-content-creation"
   },
   {
@@ -1798,6 +1846,14 @@
     "when_to_use": "",
     "mtime": 1772339546.6404994,
     "slash": "/tom-noske-personal-brand"
+  },
+  {
+    "name": "Tom Segura: Observational Comedy & Storytelling Craft",
+    "directory": "tom-segura-comedy-storytelling",
+    "description": "The practitioner's pipeline for observational/storytelling comedy \u2014 find material with the 'that's a thing' antenna, install the story 'way in' (stakes), dig past the obvious complaint, play the absurd straight, and edit long-to-tight. The upstream craft Robert Mack's mechanics assume you already have. Use for content ideation, recognition hooks, narrative essays, story openings, satire grounding, and turning annoyance into material.",
+    "when_to_use": "",
+    "mtime": 1780148625.71025,
+    "slash": "/tom-segura-comedy-storytelling"
   },
   {
     "name": "Tommy Clark: LinkedIn Founder Growth",

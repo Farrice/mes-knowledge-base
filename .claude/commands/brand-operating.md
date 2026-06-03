@@ -1,0 +1,6 @@
+---
+description: "Builds a complete 6-layer Brand Operating System (foundation, visual, briefs, marketing, AI handoff, ops) — 43 markdown documents that operate as the brand''s AI-pasteable source of truth, from canonical inputs (founder anchor + manifesto) or a discovery interview. Optional au..."
+---
+<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+
+Load and embody the skill at `skills/brand-operating-system/SKILL.md`. Also load `skills/brand-operating-system/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
