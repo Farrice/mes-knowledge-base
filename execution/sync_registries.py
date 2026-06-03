@@ -333,12 +333,41 @@ def _existing_command_basenames():
     return {f[:-3] for f in os.listdir(COMMANDS_DIR) if f.endswith(".md")}
 
 
+def _detect_primary_workflow(slug, fm):
+    """Pick the skill's flagship internal workflow, if any.
+
+    Priority: explicit `primary_workflow:` frontmatter key > first entry in the
+    `workflows:` frontmatter list > first *.md in skills/<slug>/workflows/.
+    Returns the workflow's bare name (no path, no .md) or None.
+    """
+    # 1. Explicit declaration wins.
+    pw = fm.get("primary_workflow")
+    if pw:
+        return os.path.splitext(os.path.basename(pw.strip()))[0]
+    # 2. First entry of the workflows: list (our simple FM parser stores scalars
+    #    only, so re-scan the raw file for the first 'workflows/<x>.md' mention).
+    skill_md = os.path.join(SKILLS_DIR, slug, "SKILL.md")
+    raw = read_file(skill_md)
+    m = re.search(r"workflows/([A-Za-z0-9._-]+)\.md", raw)
+    if m:
+        return m.group(1)
+    # 3. Fall back to the first file actually on disk.
+    wf_dir = os.path.join(SKILLS_DIR, slug, "workflows")
+    if os.path.isdir(wf_dir):
+        files = sorted(f for f in os.listdir(wf_dir) if f.endswith(".md"))
+        if files:
+            return os.path.splitext(files[0])[0]
+    return None
+
+
 def render_skill_command(slug, command_name):
     """Build the byte-exact command-file content for a skill.
 
     Body instructs Tier-2 load (SKILL.md + genius.md) per the investigation:
-    SKILL.md alone is a thin router and under-loads the methodology. Uses the
-    same single-quoted-safe description handling as the rest of this module.
+    SKILL.md alone is a thin router and under-loads the methodology. If the skill
+    has internal workflows, the body ALSO surfaces the flagship process so
+    /expert-name can offer to run it (load + deploy in one invocation) — closing
+    the skill->workflow gap deterministically instead of relying on memory.
     """
     fm, _ = extract_frontmatter_and_content(os.path.join(SKILLS_DIR, slug, "SKILL.md"))
     desc = fm.get("description") or f"Load and apply the {slug.replace('-', ' ')} skill."
@@ -351,6 +380,17 @@ def render_skill_command(slug, command_name):
         f"quality rubric; the methodology lives here, not in SKILL.md)."
         if has_genius else ""
     )
+    primary_wf = _detect_primary_workflow(slug, fm)
+    deploy_clause = ""
+    if primary_wf:
+        deploy_clause = (
+            f"\n\nThis skill has runnable processes. Its flagship workflow is "
+            f"`skills/{slug}/workflows/{primary_wf}.md`. After loading, if the user's "
+            f"request fits a full structured run (not just a quick application), OFFER to "
+            f"execute it — and if they confirm or the request clearly calls for the full "
+            f"process, read and run that workflow file. See the skill's 'Available Workflows' "
+            f"table for the other processes."
+        )
     return (
         "---\n"
         f'description: "{desc}"\n'
@@ -358,7 +398,8 @@ def render_skill_command(slug, command_name):
         f"{GEN_MARKER}\n\n"
         f"Load and embody the skill at `skills/{slug}/SKILL.md`.{genius_clause} "
         f"Then apply that expert's methodology — their thinking, not their terminology — "
-        f"to the user's request, and self-score against the expert rubric before delivering.\n"
+        f"to the user's request, and self-score against the expert rubric before delivering."
+        f"{deploy_clause}\n"
     )
 
 

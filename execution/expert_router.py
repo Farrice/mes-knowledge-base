@@ -16,6 +16,8 @@ Usage:
 """
 
 import sys
+import os
+import json
 import argparse
 from collections import defaultdict
 
@@ -164,6 +166,70 @@ EXPERTS = {
 }
 
 # ─────────────────────────────────────────────────────────
+# SUPPLEMENTAL SKILLS — disk-backed fallback layer (added 2026-06-03)
+# ─────────────────────────────────────────────────────────
+# The curated EXPERTS dict above (~107) has hand-tuned signal arrays and is the
+# PRIMARY router. But disk has 244 skills — ~137 were invisible to /recommend,
+# the documented "blind spot" that made recent roadmaps thinner than the Javier one.
+# This layer loads those missing skills from the .agent/skill-index.json cache that
+# find_skill.py already maintains, so EVERY skill is reachable. Curated experts always
+# win on ties (supplemental scores are discounted); this only ADDS reach, never overrides.
+
+_REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_SKILL_INDEX_PATH = os.path.join(_REPO_ROOT, ".agent", "skill-index.json")
+
+# Map curated short-names -> their skill-dir prefixes so we can detect which disk
+# skills are ALREADY covered by the curated dict and skip them (no duplicates).
+def _curated_dir_prefixes():
+    # Curated keys are short (luke-iha, lara-acosta). A disk skill dir like
+    # luke-iha-vicious-hooks starts with a curated key -> already represented.
+    return sorted(EXPERTS.keys(), key=len, reverse=True)
+
+
+def _load_supplemental_skills():
+    """Load skills from the find_skill index that aren't covered by curated EXPERTS.
+    Returns dict: skill_dir -> {description, when_to_use, domain, owns, use, signals, supplemental:True}.
+    Fails safe to {} if the index is missing."""
+    try:
+        with open(_SKILL_INDEX_PATH, "r", encoding="utf-8") as f:
+            index = json.load(f)
+    except Exception:
+        return {}
+
+    prefixes = _curated_dir_prefixes()
+    supp = {}
+    for rec in index:
+        slug = rec.get("directory", "")
+        if not slug:
+            continue
+        # Skip if a curated expert already covers this dir (prefix match).
+        if any(slug == p or slug.startswith(p + "-") for p in prefixes):
+            continue
+        desc = (rec.get("description") or "").strip()
+        when = (rec.get("when_to_use") or "").strip()
+        # Derive crude signals from description + when_to_use (lowercased phrases).
+        blob = f"{slug.replace('-', ' ')} {desc} {when}".lower()
+        supp[slug] = {
+            "domain": "supplemental",
+            "owns": "skill",
+            "use": (desc[:120] or slug.replace("-", " ")),
+            "signals": [],          # matched via free-text blob, not curated signals
+            "_blob": blob,
+            "supplemental": True,
+        }
+    return supp
+
+
+# Lazy singleton so CLI calls that don't route don't pay the load cost.
+_SUPP_CACHE = None
+def get_supplemental_skills():
+    global _SUPP_CACHE
+    if _SUPP_CACHE is None:
+        _SUPP_CACHE = _load_supplemental_skills()
+    return _SUPP_CACHE
+
+
+# ─────────────────────────────────────────────────────────
 # COMPOUND COMBINATIONS — Force-multiplier pairings
 # ─────────────────────────────────────────────────────────
 
@@ -216,6 +282,7 @@ DOMAIN_LABELS = {
     "audience": "Audience & Growth",
     "mindset": "Mindset, Messaging & Consciousness",
     "industry": "Industry-Specific",
+    "supplemental": "Skill (extended roster)",
 }
 
 
@@ -719,6 +786,31 @@ def route(query, top_n=5):
 
         if score >= 2.0:
             scored.append((score, name, info))
+
+    # ── Supplemental layer: the ~137 disk skills not in the curated dict ──
+    # Free-text scored against the skill's description blob, then DISCOUNTED so a
+    # curated expert always outranks a supplemental one at equal raw relevance.
+    # This closes the blind spot without disturbing the hand-tuned core.
+    SUPP_DISCOUNT = 0.6
+    for slug, info in get_supplemental_skills().items():
+        blob = info["_blob"]
+        s = 0.0
+        for stem in set(expanded_stems):
+            if len(stem) < 4:
+                continue
+            if stem in blob:
+                s += 1.0
+        # bigram bonus: consecutive query words appearing together in the blob
+        for bg in query_bigrams:
+            if bg in blob:
+                s += 1.5
+        # name match is a strong signal (user typed the expert's name)
+        for word in original_words:
+            if len(word) >= 4 and word in slug:
+                s += 2.0
+        s *= SUPP_DISCOUNT
+        if s >= 2.0:
+            scored.append((s, slug, info))
 
     scored.sort(key=lambda x: -x[0])
     return scored[:top_n]
