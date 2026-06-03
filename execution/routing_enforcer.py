@@ -442,6 +442,37 @@ BINDINGS = [
             "instead of grounding it in live, cited sources is the failure this prevents."
         ),
     },
+    {
+        # Catch-all for multi-expert / collaborative / council-style creative & strategy work.
+        # Routes to the reliable Collective Genius Council engine (not the fragile JCC stubs /
+        # parallel_swarm). Distinct from unified_research (facts) by the negative_signals.
+        "id": "collective_genius",
+        "signal_phrases": [
+            "convene", "the council", "get the experts together", "get the council",
+            "collective genius", "multi-expert", "multiple perspectives", "roundtable",
+            "what would the experts", "have the experts", "deliberate", "strike team",
+            "full deploy", "cross-domain experts", "collaborate on", "experts collaborate",
+        ],
+        "negative_signals": [
+            "deep research", "research the market", "research this", "comprehensive research",
+        ],
+        "mandatory_workflow_any_of": [
+            "convene", "collective-genius-council", "council", "roundtable",
+            "strike", "campaign", "deploy", "jcc-deploy",
+        ],
+        "forbidden_workflows": ["parallel-swarm"],
+        "reason": (
+            "Multi-expert / council / collaborative creative & strategy work must route through "
+            "the reliable Collective Genius Council (.agent/workflows/collective-genius-council."
+            "workflow.js, via /convene + presets /council /roundtable /strike /campaign /deploy). "
+            "It convenes a deliberately diverse cross-domain council + Farrice's lens, runs genuine "
+            "2-round deliberation (genius-loaded, contradictions preserved as forks), synthesizes an "
+            "outcome none could reach alone, and emits a 'How the Masters Thought' learning digest + "
+            "growing rubric — holding the grounding floor at $0 incremental. The old JCC stubs forwarded "
+            "to a missing plugin and parallel_swarm.py is the deprecated fragile subprocess pattern; "
+            "neither should be used."
+        ),
+    },
 ]
 
 

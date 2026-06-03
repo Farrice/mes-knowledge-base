@@ -6,6 +6,11 @@ description: Convene an AI expert roundtable
 
 Assemble 3-5 expert agents for a structured discussion on any topic. Produces a roundtable artifact with each expert's analysis and prioritized recommendations.
 
+> **Now a preset of the Collective Genius Council (2026-06-02).** Default path: invoke the
+> **Workflow tool** with `scriptPath: .agent/workflows/collective-genius-council.workflow.js`,
+> `args: { "task": "<the topic>", "mode": "tight" }` — diverse roster, real 2-round cross-talk,
+> preserved forks, + a learning digest. The runbook below is the manual fallback.
+
 ---
 
 ## Steps

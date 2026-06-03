@@ -6,6 +6,14 @@ description: Spin up an AI council
 
 Instantly create and run an AI council for any decision requiring multiple perspectives.
 
+> **Now a preset of the Collective Genius Council (2026-06-02).** The reliable, default path is
+> the Workflow engine — invoke the **Workflow tool** with `scriptPath:
+> .agent/workflows/collective-genius-council.workflow.js` and `args: { "task": "<the decision>",
+> "mode": "tight" }`. It convenes a diverse cross-domain council + your lens, runs genuine 2-round
+> deliberation (genius-loaded, contradictions preserved as forks), synthesizes, and emits a "How
+> the Masters Thought" learning digest. The manual runbook below is the fallback when the Workflow
+> tool isn't available.
+
 ## Usage
 
 ```

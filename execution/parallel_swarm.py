@@ -2,6 +2,15 @@
 """
 Parallel Swarm Orchestrator — True parallel agent execution for Antigravity.
 
+⚠️ DEPRECATED (2026-06-02) — superseded by the reliable Workflow-tool engines:
+  • Research fan-out  → `.agent/workflows/deep-research-swarm.workflow.js` (via `/deep-research`)
+  • Multi-expert work → `.agent/workflows/collective-genius-council.workflow.js` (via `/convene`)
+This module fans out subagents via Gemini-API asyncio subprocess — the fragile pattern the
+user decommissioned ("subprocess-on-cloud is fragile; use API-based approaches"). It carries no
+provenance/grounding floor and its synthesis can emit claims with no source_url. Kept only for
+legacy callers + the ENSEMBLE_FALLBACKS expert map, which `council_cast.py` now supersedes.
+Do NOT build new orchestration on this — use the Workflow engines above.
+
 Fires multiple Gemini API calls concurrently using asyncio, with safety rails
 to prevent loop disasters and token budget overruns.
 
