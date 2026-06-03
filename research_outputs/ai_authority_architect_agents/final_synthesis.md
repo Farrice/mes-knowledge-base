@@ -1,3 +1,41 @@
+# The Definitive Sourced ICP — The Invisible Expert (LinkedIn Ghostwriting Market)
+
+> **RE-GROUNDED 2026-06-02 via `/convene` (Collective Genius Council).** Canonical, source-verified
+> synthesis — **supersedes** the original 26-agent feasibility study (preserved below). Council:
+> Caleb Ralston · Creative Director · Grace Andrews · Mitch Albom (wildcard) · Farrice. Evidence:
+> the 25 re-grounded dossiers in this directory. Every quote is source-linked; every unverified
+> claim flagged. Full session + deliberation:
+> `knowledge/council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md`.
+> The old "Marcus Chen" persona, "$2,000–$3,500/mo" price, and "Anti-Ghostwriter Ghostwriter"
+> headline are `[MODELED]` and NOT carried forward as fact.
+
+## 1. THE DEFINITIVE ICP
+
+### (1) CORE BUYER — one sentence
+**A genuinely expert founder/operator (a decade-plus in, used to being the smartest person in the room) who is being out-positioned on LinkedIn by louder, less-qualified voices — not because he lacks talent or even time, but because being good and being findable are two different skills, and because being seen mid-process, in a voice that might not even sound like him, feels like exposure without payoff — so he stays silent and calls it being busy.** (Posture, not demographic; old demographics are `[MODELED]`.)
+
+### (2) LOAD-BEARING PAINS — ranked by source density
+- **P1 — INVISIBLE-EXPERT / DISTRIBUTION** (admits out loud; convergent 6+ sources): "this isn't a skill issue. It's a distribution issue" — Khalil, LinkedIn (`…activity-7420888854661914624`, `dai_media.md:167`); "being good and being findable are two completely different skills" — r/knowledgebusiness (`alen_sultanic.md:151`).
+- **P2 — "WON'T SOUND LIKE ME" / BROKEN EXTRACTION** (most-upvoted; #1 relationship-killer): "you've just paid £2K for AI slop in a human suit" — Sarra Richmond (`…activity-7425440647110733824`, `sabri_suby.md:93`); "they move from ghostwriter to ghostwriter, hoping the next one 'gets it'" — McHarris (`ai_chris_lee.md:127`).
+- **P3 — NO TIME / CONSISTENCY** (the COVER STORY, not the root): "founders don't go quiet because they're too busy — they think every post needs to be worth it" — Saidi (`tom_noske.md:145`); "5+ hours a week on 'eh' content" — Devyn Wood (`jim_oshaughnessy.md:134`).
+- **P4 — IDENTITY-FEAR / EXPOSURE-WITHOUT-PAYOFF** (deepest wound; the DEMO payload, never the headline): "in reality, it was fear… Content asks you to be seen mid-process… So they stall" — Entrepreneur.com (`michael_bernoff.md:135`); "LinkedIn can ignite imposter thoughts… a fear of being found out" — Edinburgh Business School (`lucas_alpay.md:135`).
+
+### (3) THE DECISIVE BELIEF THAT MUST SHIFT
+From **"if someone writes for me it won't be me — and if I show up before I'm ready, I'll be exposed as a fraud"** → **"the accurate me, on the record, is safer and stronger than my silence — and I can FEEL that's true before I pay a cent."** Shifts by **experience, not argument** (he hides the fear even from himself).
+
+### (4) POSITIONING CONCLUSION
+**Category: "the accurate you, finally on the record."** Recognition is the product; extraction is the engine; the buyer's own *Recognition Trailer* (a 90-sec cut of his own raw brain-dump, handed back same-session) is the proof. **Headline = distribution/invisibility (what he admits); demo payload = identity-fear (what converts).** The trailer converts the #1 red-team liability — ZERO testimonials — into the trust mechanism, because the proof is the buyer's own undeniable voice. Verified closer: LinkedIn now pays for human voice (Lorenzetti via PYMNTS, May 2026, `jim_oshaughnessy.md:137`).
+
+### ⚠️ FLAGGED [MODELED / UNVERIFIED] — do NOT ship as fact
+**All pricing** — "$1,500–$3,500/mo" is `[MODELED]` (`dai_media.md:114,178`); **contradicted by Cleverly's real ≈$697/mo entry** (`adam_enfroy.md:128`). Re-run the Perplexity VOC leg before setting an offer floor. Also strip: "156% ROI (Forbes)" (probable fabrication), "$2–4/follower" (UNCONFIRMED), Dorian Barker "80/20" (UNVERIFIED); re-pull competitor scores in `harry_dry.md`/`nathan_gotch.md` before any public comparison.
+
+> **Net-new principle (the deliberation's output):** *the same question that sorts the buyer is the thing no competitor asks — so the diagnostic IS the positioning, and the buyer-generated proof IS the testimonial.* Forks (headline · wedge · category · pricing) + next moves are in the linked session digest.
+
+---
+---
+
+# ⤵ SUPERSEDED — Original 26-Agent Feasibility Study (Feb 2026, unsourced — kept for history only)
+
 # AI Authority Architect: Executive Synthesis
 
 > **26-Agent Feasibility Study | February 2026**
