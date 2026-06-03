@@ -182,3 +182,41 @@ Tier upgrade (optional)
 ---
 
 *Methodology: ThriveCart Productized Service, Cardinal Mason Offer Architecture.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** Tech-stack and pricing claims are now SOURCE-VERIFIED; the audience pain/positioning narrative ("budget-conscious founders," "founders serious about authority," "$1M+ executives") was AI-inferred but is broadly corroborated by real, source-linked VOC found below.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+### Real source-linked VOC found
+
+Audience = founders / executives buying LinkedIn ghostwriting + authority services. The persona's core selling promise ("voice extraction," "sounds like you," done-for-you authority) maps directly onto the following real, source-attributed pains:
+
+**1. Core pain — "the posts don't sound like me" (validates the Voice Extraction Audit / MES voice-matching pitch)**
+- "I paid $2,400 for a LinkedIn ghostwriter. My clients kept saying the posts didn't sound like me. I finally figured out why." — r/SaaS, https://www.reddit.com/r/SaaS/comments/1s0m53x/i_paid_2400_for_a_linkedin_ghostwriter_my_clients
+- "My clients kept saying 'This doesn't sound like me.' … most of the time, the copy wasn't technically bad. When someone writes for you instead of with you, they're guessing." — Instagram (ghostwriter), https://www.instagram.com/p/DTZv66GjVYV
+- "You hired a LinkedIn ghostwriter six months ago and the posts still don't sound like you. They're professional. Well-formatted." — Frank Kalman, LinkedIn, https://www.linkedin.com/posts/frankkalman_somewhere-right-now-a-linkedin-influencer-activity-7452476401590624258-q9HM
+- "Most founder LinkedIn reads like a corporate hostage video." — Sarra Richmond, LinkedIn, https://www.linkedin.com/posts/meetsarra_the-voice-activity-7459175642589396992-ywwN
+
+**2. Core pain — "no time / it's costing me visibility" (validates the brain-dump + done-for-you model)**
+- "They don't have time. Executives are busy. Writing a post feels like one more thing on an already packed calendar. And it's never urgent…" — Utsav PM, LinkedIn, https://www.linkedin.com/posts/utsavpm_why-dont-your-team-members-post-on-linkedin-activity-7432405309156900864-XSlG
+- "They know what it's costing to not post: Lost visibility · Lost connections and conversations · Lost opportunities to showcase authority · Lost leads and sales." — Jordan Murphy, LinkedIn, https://www.linkedin.com/posts/jordanmurphx_your-posts-fail-the-sniff-test-i-can-tell-activity-7386721222820106240-CBzS
+- Executives "say they don't have time for LinkedIn. But what they're really risking isn't their time — it's their brand's visibility." — Hootsuite, https://www.facebook.com/hootsuite/posts/executives-say-they-dont-have-time-for-linkedinbut-what-theyre-really-risking-is/1100877152068205
+
+**3. Core pain — AI/ghostwritten content sounds generic & robotic (validates the "superior voice matching" differentiator)**
+- "STOP HIRING GHOSTWRITERS WHO WRITE LIKE ROBOTS." — Sarra Richmond, LinkedIn, https://www.linkedin.com/posts/meetsarra_stop-hiring-ghostwriters-who-write-like-robots-activity-7352223181748785152-plf8
+- "The fatal flaw in every AI writing tool I've tried. They all sound the same. I train it, prompt it, give it examples." — Alex Lieberman, LinkedIn, https://www.linkedin.com/posts/alex-lieberman_the-fatal-flaw-in-every-ai-writing-tool-ive-activity-7447307430671183872-8tyc
+
+**4. Pricing reality (validates the $2,000–$5,000/mo tier ladder)**
+- "LinkedIn ghostwriters typically charge between $500 and $10,000 per month in 2026, with most founders and executives paying somewhere between [$3k–$5k]." — Medium / Write Rise, https://medium.com/write-rise/linkedin-ghostwriting-is-the-quietest-3-000-month-side-hustle-right-now-47178193a4b2
+- "When ghostwriters start charging $3,000 to $5,000+ per month, their clients don't just want words; they want their complex frameworks translated." — Nicolas Cole, LinkedIn, https://www.linkedin.com/posts/nicolascole_ghostwriting-is-how-i-went-from-being-a-broke-activity-7431693323599314945-nPlg
+
+**5. Tech-stack claim — ThriveCart pricing VERIFIED**
+- "ThriveCart offers lifetime access to its checkout platform for a one-time payment of $495 — with no monthly fees." Standard $495; Learn+ $195; Ultimate bundle $985 (one-time). — Markinblog, https://www.markinblog.com/thrivecart-pricing — corroborated by https://thrivecart.com ("$495. One time payment", subscription billing built-in). The doc's "$495–$690 one-time, no monthly fees, subscription billing built-in" claim is **VERIFIED**.
+
+### Re-ground action
+
+The product/pricing architecture is sound and now sourced. The *audience* layer is the gap: every "Ideal For" descriptor and the implied buyer psychology were modeled, not researched. For a fully sourced VOC + buyer manifold (verbatim quotes mapped to belief/awareness stages), **rebuild the audience profile via `/avatar-machine` (Phase 0 GROUND)** rather than reusing the inferred descriptors here. Until then, the real VOC above (Reddit/LinkedIn, source-linked) is the only material safe to quote in copy. Note: `execution/research.py --depth standard` failed at runtime (exit 144) during this pass; grounding was completed via direct Tavily search instead.

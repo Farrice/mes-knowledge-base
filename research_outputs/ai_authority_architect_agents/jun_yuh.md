@@ -150,3 +150,40 @@ First line patterns that work:
 ---
 
 *Methodology: Jun Yuh Personal Brand Content System, Signal Post Framework.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** The audience profiled here (founders / "invisible experts" who want LinkedIn content that sounds like them and who distrust ghostwriters and AI) is REAL and well-attested — but every pain phrasing and hook example in the body above was AI-inferred, not sourced. The themes survive contact with reality; the specific verbatims do not — they happen to align with genuine public voice, which is exactly why they read as VOC and must not be reused as if they were.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+(Applies to all hook/pain phrasings above, e.g. "Your ghostwriter is hurting your business," "Why your content doesn't sound like you," "AI content sounds robotic. Here's the fix.," "The biggest mistake ghostwriters make," "Most founder content sounds the same," "I fired 3 ghostwriters in 2 years." These are plausible reconstructions, NOT captured quotes.)
+
+### Real source-linked VOC found
+
+Pain cluster 1 — "It doesn't sound like me" (the voice-extraction failure):
+- "my clients kept saying 'This doesn't sound like me.'" — LinkedIn ghostwriter Nidhi Kala, describing client feedback. https://www.linkedin.com/posts/nidhikala_4weekpostingchallenge-activity-7374803493100048384-efQu
+- "YOU CAN'T OUTSOURCE THE 'YOU' PART TO A GHOSTWRITER!" — same post, on a founder who wanted posts written with zero input. https://www.linkedin.com/posts/nidhikala_4weekpostingchallenge-activity-7374803493100048384-efQu
+- "You've tried to use AI to produce LinkedIn content, but the output is hot garbage. The tone of voice isn't even CLOSE to your writing style." — TClark Media. https://www.linkedin.com/posts/tclarkmedia_youve-tried-to-use-ai-to-produce-linkedin-activity-7285657832593534977-Y-f9
+- "The result is a post that sounds like the client but says nothing that only the client could say." (the "thinking translation problem") — MagicPost. https://magicpost.in/blog/linkedin-ghostwriting
+
+Pain cluster 2 — AI content sounds robotic / soulless / generic:
+- "Every AI-written post is riddled with em dashes... a rhythm that feels robotic instead of real." — Startups.com. https://www.linkedin.com/posts/startups-co_founders-writing-startups-activity-7369752149565661187-Zlxx
+- "It's all beige. Boring. Bloodless. Soulless... I've even had prospects not go ahead... clients cancel my retainer. And then I see their new AI generated posts... disappearing into the LinkedIn abyss." — ghostwriter Stefan Boyle. https://www.linkedin.com/posts/stefanboyleghostwriter_linkedin-isnt-being-ruined-by-ai-its-activity-7340390966089969664-mvuh
+- "If AI writes your voice, you don't have one." — Harper Carroll. https://www.linkedin.com/posts/harpercarroll_if-you-use-an-em-dash-in-your-content-activity-7370841534033817600-dym9
+- "now I can't hear the experts any more in the sea of AI noise." — Gary Cowan (the "invisible expert" problem, stated by the audience). https://www.linkedin.com/posts/garycowan83_the-amount-of-ai-generated-posts-on-linkedin-activity-7348252169042624512-51hl
+- "There's definitely a lot of dislike for content that is blatantly AI-written." — Rakan Brahedni, via WIRED. https://www.wired.com/story/linkedin-ai-generated-influencers
+
+Pain cluster 3 — ghostwriters fail at extraction, not writing (validates the dossier's core thesis):
+- "If your content sounds like everyone else on LinkedIn, it's not a writing problem... Writing better sentences doesn't matter. Extracting better insights does." — Medium, "Why Most LinkedIn Ghostwriters Fail Data-Driven Founders." https://medium.com/activated-thinker/why-most-linkedin-ghostwriters-fail-data-driven-founders-b9a32a4fc18b
+- "The biggest mistake founders make... Hiring based on price alone. The cheapest agencies often rely on AI-generated content, lack strategy." — Windmill Growth, State of LinkedIn Ghostwriting 2026. https://windmillgrowth.com/blogseo/state-of-linkedin-ghostwriting-2026
+
+Pain cluster 4 — founder time scarcity / can't stay consistent / "no time":
+- "Most execs and founders are willing to be visible on LinkedIn... but stop after 3 posts. They are too busy with client calls and meetings, so they found posting impossible." — Matt Wheeler-Barrett. https://www.linkedin.com/posts/matthew-wheeler-barrett-unyfy_struggling-to-stay-consistent-on-linkedin-activity-7343514671288606720-bGcL
+- "the closer you are to your thoughts, the harder it is to put them out there... That's exactly why I wasn't posting much on LinkedIn, even while spending hours on it." — Nicolas Cole. https://www.linkedin.com/posts/nicolascole_a-question-i-get-asked-all-the-time-isnt-activity-7263185018812821504-SrXD
+- r/Entrepreneurs thread: "Content creation burnout is making me want to quit my business" (founder at $40k/mo). https://www.reddit.com/r/Entrepreneurs/comments/1s5mtvf/content_creation_burnout_is_making_me_want_to
+
+### Re-ground action
+
+Themes are validated, so this dossier is salvageable — but it is currently a content calendar resting on modeled pain language. Before it is used for copy, replace the [MODELED] hooks with the source-linked verbatims above (or fresh captures), and **rebuild via `/avatar-machine` (Phase 0 GROUND) for a full sourced-VOC manifold** rather than continuing to write from inferred voice. Per CLAUDE.md, ungrounded "VOC" fails rubric crit 6; the lines above are the deterministic backstop until that rebuild runs.

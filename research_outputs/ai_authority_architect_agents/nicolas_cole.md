@@ -182,3 +182,31 @@ Connection: 2nd degree
 ---
 
 *Methodology: Nicolas Cole Digital Writing, First Client Acquisition, Warm Network Leverage.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** This dossier is a sound tactical/sequencing plan, but every pain framing and audience-voice claim in it (the "frustrated with ghostwriters who don't sound right," "tried ghostwriters or DIY and failed," "complained about content/ghostwriters," "values authenticity over vanity metrics" lines) was AI-inferred with zero source attribution. A real grounding pass against the actual public voice of this audience (founders/execs using ghostwriters + AI for LinkedIn) found the underlying pains ARE real and well-attested — but the original dossier never quoted a single sourced voice. The structure stands; the "VOC" does not until matched to the sources below.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+### Real source-linked VOC found
+
+Grounding run: `execution/research.py` (Research Receipt: 36 sources · 14 domains · 100% sourced · $0.00) + targeted Tavily searches. Quotes below are verbatim from public posts/threads, each with its URL. Nothing here is fabricated.
+
+- "Everyone noticed that when you are using ChatGPT to write posts that they sound like everyone else's posts." — Milica Vidojkovic, LinkedIn — https://www.linkedin.com (post surfaced via Tavily; title: "Everyone noticed that when you are using ChatGPT to write posts...")
+- "ChatGPT is killing your personality. Your posts are so generic it hurts. I can spot AI generated content from a mile away." — Joe Head, LinkedIn (45 comments) — https://www.linkedin.com (post: "ChatGPT is killing your personality...")
+- "Your AI content sounds like everyone else's because you're using it wrong. The problem isn't the tool... The problem [is the prompt]." — Rui Nunes, LinkedIn — https://www.linkedin.com (post: "Your AI content sounds like everyone else's...")
+- "Founders: Don't 'sloppify' your personal brand with AI... ChatGPT in particular leans heavily into cliché and makes everything sound like lines from a cheesy romcom." — Sifted — https://sifted.eu
+- "If they read it and say 'this doesn't sound like me,' you've failed. Mirror their lingo. If they say 'vibes' and you're giving 'synergy'..." — Harsh Dubey, LinkedIn ("I'm a ghostwriter who hates writing") — https://www.linkedin.com
+- "I help founders and executives fix their AI-flattened content and sound like themselves again." — LinkedIn ghostwriter/content strategist headline (problem-confirming positioning) — https://www.linkedin.com (post: "What LinkedIn Posts Actually Work and What the Ghostwriters Don't...")
+- "Guys the AI written posts are both obvious and out of control." — r/linkedin (168 upvotes, 51 comments) — https://www.reddit.com/r/linkedin/ (thread: "Guys the AI written posts are both obvious and out of control")
+- "AI isn't the problem, it's people copy-pasting generic outputs without adding any real experience or personality." — commenter, r/linkedin — https://www.reddit.com/r/linkedin/
+- "I find AI content very easy to spot now. It's absolutely out of control on LinkedIn." — r/linkedin ("Too much generated content on LinkedIn") — https://www.reddit.com/r/linkedin/
+- "Most of them hesitate to hire a ghostwriter who can adapt to their personality and create content that aligns with their brand tone and voice." — r/Entrepreneur-style thread ("Why do many entrepreneurs hesitate to hire a social media [ghostwriter]") — https://www.reddit.com/
+- "I tested 17 different websites for hiring writers and outsourcing content. I spent an embarrassing amount of money." — Reddit (failed-outsourcing experience, confirms "tried and failed" pain) — https://www.reddit.com/
+- "Started this as an experiment because I was spending 2 to 3 hours a week writing LinkedIn content and still posting inconsistently." — Reddit (confirms the time + consistency pain behind "posted inconsistently / 3+ month gaps") — https://www.reddit.com/
+- AI-tell pattern the audience itself names (validates the "sounds 100% like you" promise as a real wedge): "Common traits of AI posts: sentences starting with 'Most people', em dashes, 'It's not X. It's Y', way too good punctuation." — LinkedIn ("Authenticity in AI-Generated Business Posts") — https://www.linkedin.com
+
+**Re-ground action:** The pains are confirmed real; only the attribution was missing. Two paths: (1) for a quick fix, swap the dossier's [MODELED] pain lines for the sourced quotes above; (2) for a full sourced VOC manifold (verbatim pulls mapped to the 5 awareness levels, with Reddit/forum thread-level extraction rather than search snippets), rebuild via `/avatar-machine` — the snippet-level sources here are thin on direct first-person founder complaints (much of the loudest VOC is from ghostwriters/observers, not buyers), so a Phase 0 GROUND run with Apify VOC mining would harden the buyer-side voice. Until then, do not present any quote in this dossier as customer VOC unless it carries one of the URLs above.

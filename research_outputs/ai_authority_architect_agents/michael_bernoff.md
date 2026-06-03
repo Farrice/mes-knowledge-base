@@ -119,3 +119,26 @@ Pre-frame decision outcomes:
 ---
 
 *Methodology: Michael Bernoff Identity Engineering, Reset Frame, Inner Hero, Wrong Question Pattern.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict**: The dossier's psychology is directionally sound — the "reluctant expert who fears that visibility/ghostwriting compromises authenticity" persona is REAL and well-documented in public founder voice — but every "quote" in the body above (Current/Target Identity statements, the Inner Hero belief table, the dopamine/serotonin/oxytocin lines, and the objection/close scripts) is author-invented and carries no source. They are persona-modeling, not captured VOC.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+### Real source-linked VOC found
+
+Genuine, source-linked language from the "Conscious Founder / Invisible Expert" audience the dossier profiles. Use these as the grounded replacements for the modeled lines above:
+
+- **The hiding-behind-the-brand confession (the actual emotional core of the "I'd rather stay silent than be fake" identity state):** "For the first decade of my career, I hid behind the brand. Not intentionally. I told myself it was professionalism. I told myself it was strategy... In reality, it was fear — fear of being judged, fear of looking inexperienced, fear of saying the wrong thing publicly before I had everything perfectly figured out." — Entrepreneur.com, *How I Unlocked Real Growth By Becoming the Face of My Brand* — https://www.entrepreneur.com/growing-a-business/how-i-unlocked-real-growth-by-becoming-the-face-of-my-brand/501461
+- **Why the reluctant expert stalls (grounds the "expertise locked in your head" / Inner Hero tension better than the modeled table):** "Most high-performing founders are used to being good at things before they do them publicly... Content asks you to be seen mid-process. It exposes thought patterns, opinions and edges before they're perfect. And for founders who've spent years being the responsible one, the expert, the authority in the room, that feels deeply uncomfortable. So they stall." — Entrepreneur.com (same source as above) — https://www.entrepreneur.com/growing-a-business/how-i-unlocked-real-growth-by-becoming-the-face-of-my-brand/501461
+- **The visibility-as-risk frame (real version of the "I'd rather stay silent" objection):** "In practice, this concern usually leads Founders to make a specific choice. They choose not to be visible at all. They keep a low profile... Overexposure feels dangerous, and staying quiet feels safer." — Brand of a Leader, *The Real Risks of Visibility for Founders* — https://www.brandofaleader.com/blog/risks-of-visibility-for-founders
+- **The "doesn't sound like me" failure mode (real version of the modeled "Will it sound like me?" objection):** Executives who tried LinkedIn ghostwriting and stopped report the ghostwriter "produced clean, well-structured posts... but the content did not sound like the executive. Employees noticed, customers who knew the executive personally could tell." — Windmill Growth / SpotByAI ghostwriting buyer guides — https://windmillgrowth.com/blogseo/hire-linkedin-ghostwriter-what-to-look-for and https://spotbyai.com/blogs/linkedin/best-linkedin-ghostwriter-for-startup-founders
+- **The "hustle bros dominate, authentic experts stay invisible" frame (real version of the modeled oxytocin line):** LinkedIn described as "ground zero for hustle culture" and "fake authority with emoji-filled bios claiming 'growth expert' status... just spammed DMs and fake urgency," in contrast to genuine expertise. — admd newsletter, *Hustle Bro Culture Is Making Our Content Shallow* — https://www.admdnewsletter.com/hustle-bro-culture-is-making-our/ and Vice, *The Rise of the Millionaire LinkedIn Influencer* — https://www.vice.com/en/article/the-rise-of-the-millionaire-linkedin-influencer/
+- **The expertise-articulation disconnect (real version of "expertise is locked in your head"):** Experts "deeply understand their field, but struggle to communicate their knowledge in ways that resonate with non-experts," and "know more about their area of expertise than they can possibly convey in a sentence." Imposter syndrome and "fear of bragging" compound the silence. — The Branding Icon, *The 5 Visibility Gaps That Keep Expertise Hidden* — https://www.thebrandingicon.com/iconic-vibe/2025/4/6/the-5-visibility-gaps-that-keep-expertise-hidden
+
+### Re-ground action
+
+This dossier is a **persona-modeling artifact with thin sourced VOC** (6 real source-linked pains found across the audience; zero of the body's own "quotes" were verifiable). Before using any line above the ledger in live copy, **rebuild via `/avatar-machine` (Phase 0 GROUND)** to pull a full sourced VOC set (Apify VOC mining on r/Entrepreneur, r/smallbusiness, LinkedIn-creator subreddits + FB Ad Library hooks), which the WebSearch/Tavily pass here only sampled. The unified `research.py` engine pass returned no Research Receipt (exit 144, empty output) — grounding above came from WebSearch + Tavily extract instead; re-run the engine or `/avatar-machine` for the canonical receipt.

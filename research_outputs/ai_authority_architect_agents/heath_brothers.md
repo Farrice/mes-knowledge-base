@@ -112,3 +112,33 @@ Applied the SUCCESs framework to Farrice's messaging. Key finding: The "30/30" p
 ---
 
 *Methodology: Heath Brothers Made to Stick SUCCESs Framework.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** This dossier is a *messaging-architecture* artifact, not a VOC artifact — its persuasive soundbites and "concrete" reframes were synthesized to fit the SUCCESs framework, never lifted from a sourced audience voice. The good news: a live grounding pass found the underlying pains (ghostwriter doesn't sound like me, AI-slop cringe, $8k for fake voice, no time to post, "excavate not invent") are *real and well-documented* in public founder/coach/consultant voice — so the dossier's instincts are directionally sound, but every quote in the body must be treated as illustrative until matched to a real source below.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+This includes the "Concrete (Use)" column ("Have 3 people per week say 'I love your posts'", "Your own team won't know you didn't write it"), the "Credible" proof points ("18 years studying behavior change", "17 specific question patterns"), the entire 90-second "Core Story" (the "18 years / I was invisible / I built a system / MES 3.0" narrative — this is a constructed origin myth, not a captured testimonial), and the "Sticky Phrases" table. These read as real VOC but originate from the model. The body also internally contradicts its own recommendation ("LEAD WITH 30/30 AND THE **FATHER** STORY" vs. the "**wounded healer**" framing up top and the "18 years" story below — no father story actually appears in the dossier), which is a tell of synthesized rather than sourced content.
+
+### Real source-linked VOC found
+
+Audience profiled = busy founders / coaches / consultants / "invisible experts" who want LinkedIn authority without sounding generic, robotic, or ghostwritten. Below are genuine, public, source-linked quotes that map to the dossier's modeled pains:
+
+- **"Ghostwriter doesn't sound like me" (core fear):** *"You hired a LinkedIn ghostwriter six months ago and the posts still don't sound like you. They're professional. Well-formatted. Grammatically perfect. But when your peer mentions seeing your 'content,' you cringe a little because you know it reads like every other B2B executive's feed."* — Clarevo.ai, LinkedIn — https://www.linkedin.com/posts/getclarevo_you-hired-a-linkedin-ghostwriter-six-months-activity-7457851745432567810-7EW1
+- **"$8k for a fake voice" (anti-authority / villain):** *"Don't Pay $8,000 for a Fake Writing Voice... He believes... that in the coming flood of AI slop the one thing that saves us is your voice — which his agency can develop for $8,000 a month. That guy is selling you a partial fiction."* — Frank Kalman, LinkedIn — https://www.linkedin.com/posts/frankkalman_somewhere-right-now-a-linkedin-influencer-activity-7452476401590624258-q9HM
+- **"Excavate, don't invent" (validates the extraction-not-fabrication premise of MES 3.0):** *"Ghostwriting at its best isn't faking voice. It's taking the moments the client lived and pulling them out before they get buried under the next meeting. The ghostwriter doesn't invent. The ghostwriter excavates."* — John Paul Flores (writes for 15 executives), LinkedIn — https://www.linkedin.com/posts/john-paul-flores_if-your-client-could-write-in-their-authentic-activity-7460437962024173568-kTYL
+- **"Ghostwriters write like robots" (the generic-output pain):** *"STOP HIRING GHOSTWRITERS WHO WRITE LIKE ROBOTS."* — Sarra, LinkedIn — https://www.linkedin.com/posts/meetsarra_stop-hiring-ghostwriters-who-write-like-robots-activity-7352223181748785152-plf8
+- **"Multiple ghostwriters, basic drafts" (churn / frustration):** *"A founder after trying multiple ghostwriters expressed his frustration about ghostwriting. He said ghostwriters are giving me a basic draft."* — Chipra Singh, LinkedIn — https://www.linkedin.com/posts/chiprasingh_a-founder-after-trying-multiple-ghostwriters-activity-7321012499175104512-P_f5
+- **"AI slop is cringe / suppressed" (the platform-level villain the dossier names as 'generic AI content'):** *"We're seeing a rise in what many call 'AI slop' — content that is low-effort, AI-generated... that may sound polished on the surface but lacks any real unique perspective."* — LinkedIn VP of Product (via Yahoo News) — https://ca.news.yahoo.com/linkedin-cracks-down-ai-slop-045111486.html
+- **"AI content kills reach / sounds like a robot" (founder-stated):** *"Founders posting great content that gets 10 views... 9 things you should NOT use AI for on LinkedIn (if you don't want to sound like a robot)."* — Sam Hindman, LinkedIn — https://www.linkedin.com/posts/samhindman_hot-take-ai-isnt-ruining-linkedin-lazy-activity-7382046935886565378-3OXe
+- **"No time to post / expertise stays invisible" (the 30/30 time pain):** *"Most founders miss the 'expertise nowhere to be found' part because they post generic takes instead of pulling from the exact moments buyers"* — r/b2bmarketing, Reddit — https://www.reddit.com/r/b2bmarketing/comments/1sv5v3a/why_founders_dont_post_on_linkedin
+- **"Buying back time" (the rational case the ICP makes to justify the spend):** *"If you're billing $500 an hour as a consultant, spending three hours writing LinkedIn posts every week costs you $1,500. A ghostwriter frees you up to do actual revenue-generating work."* — Jacques Du Toit, LinkedIn — https://www.linkedin.com/posts/jacques-dt_people-think-hiring-a-ghostwriter-is-cheating-activity-7456956843257499648-oMc5
+
+### Re-ground action
+
+Grounding is **directionally confirmed but quote-thin for a finished VOC dossier** (9 real sources found in a fast pass; all the in-body soundbites remain [MODELED]). Recommended: **rebuild via `/avatar-machine` (Phase 0 GROUND, `--strict`) for a full sourced VOC manifold** — Gemini Deep Research + Apify VOC mining + FB Ad Library + Recall, floor-checked at ≥15 source URLs and zero `[MODELED]`. Until then: keep this file's SUCCESs *architecture* (which is fine), but swap every body soundbite for a sourced quote from the list above (or one surfaced by the rebuild) before it is used as real VOC in copy, ads, or positioning.
+
+*Re-grounding tools: `execution/research.py` (unified engine) + Tavily search/extract. Sources verified live 2026-06-02; URLs are real and were returned by the search/extract pass — none fabricated.*

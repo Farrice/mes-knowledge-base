@@ -147,3 +147,38 @@ High-authority vocabulary for LinkedIn profile:
 ---
 
 *Methodology: Nathan Gotch AI SEO Framework, Retrieval Layer Analysis.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** This is a Nathan Gotch SEO/retrieval-layer audit for an "AI Authority Architect" ghostwriter persona; its market/competitor claims and audience-fear statements (founders wanting content that "sounds 100% like you," buyers asking AI assistants for an "authentic voice" ghostwriter, competitor weaknesses for Cleverly / The Media Engine, keyword competition tiers) carry NO source URLs and are AI-inferred, not measured. The underlying audience pain (founder/executive fear of generic, voice-mismatched ghostwritten content) is REAL and now corroborated by source-linked VOC below; the specific keyword-competition tiers, named-competitor weakness ratings, and search-volume framings remain UNVERIFIED and should be confirmed with a real keyword tool (Ahrefs/Semrush) before being treated as fact.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+(Tooling note: the unified `research.py` engine and Perplexity were unavailable this pass — Perplexity API returned 401 `insufficient_quota`; the local research job stalled with no output. WebSearch cannot reach reddit.com. Real source-linked VOC below was gathered via the Tavily API directly. No URL below is fabricated — each was returned live by Tavily on 2026-06-02.)
+
+### Real source-linked VOC found
+
+The dossier's core modeled fear — founders/execs fearing that delegated or AI-assisted content "sounds generic" and not like them — is grounded by the following genuine, source-linked voice:
+
+- "A startup founder called me last weekend: 'I have 15 years of experience, but when I write LinkedIn articles, they sound generic. When I try to add personal stories, I ramble. My content doesn't establish authority...'" — grounds the persona's "30-min brain dump → sounds 100% like you" promise and the founder authority-fear. https://www.linkedin.com/posts/marcialaytonturner_the-thing-nobody-wants-to-admit-about-startup-activity-7346272598751657984-4gIK
+- "The problem with AI content isn't that it sounds robotic. It's that it sounds like everyone else's AI. Same hooks. Same frameworks. Same 'here's what I learned' energy that could've come from any of 10,000 accounts." (Andy O'Neil) — grounds the "anti-commodity / sounds like you" positioning. https://www.linkedin.com/posts/andyoneil_the-problem-with-ai-content-isnt-that-it-activity-7406681863567605761-O5iU
+- "Your AI content sounds like everyone else's because you skipped the most important step... most of the output is pretty forgettable... 82% of consumers can now spot AI-generated [content]." (Dean Cookson) — grounds the "voice extraction vs. AI writing" comparison angle. https://www.linkedin.com/posts/deancookson_your-ai-content-sounds-like-everyone-elses-activity-7371900741784997888-HppE
+- "Where I think it falls apart online is when there is little or no collaboration. When the ghostwritten content is not authentic and doesn't really speak for that person. That disconnect can be dangerous, because the content doesn't ring true." (Raven Tools) — grounds the audience's fear of inauthentic ghostwriting. https://raventools.com/blog/truth-about-ghostwriting
+- "Most of them hesitate to hire a ghostwriter who can adapt to their personality and create content that aligns with their brand tone and voice." (r/Entrepreneur) — grounds the buyer objection the headline answers. https://www.reddit.com/r/Entrepreneur/comments/10dcx7x/why_do_many_entrepreneurs_hesitate_to_hire_a
+- "The problem with GPTs for LinkedIn is they still write generic. They don't know your client stories or your specific examples." (r/linkedin) — grounds "AI ghostwriting vs. voice extraction." https://www.reddit.com/r/linkedin/comments/1aqf1ie/i_created_a_gpt_that_helps_you_write_linkedin
+- "I wanted an AI ghostwriter that actually sounds like me for my personal brand." (r/LinkedInTips) — verbatim demand-side phrasing of the persona's core promise. https://www.reddit.com/r/LinkedInTips/comments/1ncg1iy/how_i_trained_an_ai_ghostwriter_for_my_personal
+- "AI-generated LinkedIn content tends to sound generic and lacks personal stories, specific numbers, and authentic voice." (Windmill Growth, "Best LinkedIn Ghostwriting Agencies for Founders 2026") — grounds the founder-focused, voice-first wedge. https://windmillgrowth.com/blogseo/best-linkedin-ghostwriting-agencies-founders
+- "CEO: 'People keep telling me I need to post more content.' ... pair every takeaway with a real story... you avoid generic fluff. Specificity creates trust." (TClark Media) — grounds the time-poor exec + generic-fluff pain. https://www.linkedin.com/posts/tclarkmedia_ceo-people-keep-telling-me-i-need-to-post-activity-7366899959452852224-1vgC
+- Real pricing benchmarks (grounds the "Premium / high-touch / anti-commodity" trust words, which the dossier asserts without numbers): least expensive LinkedIn ghostwriter ~$999/mo, most expensive ~$9,000/mo (David Sardi, after talking to 20+) https://www.linkedin.com/posts/davidsardi_thoughts-on-ghost-writer-pricing-after-talking-activity-7160988385749151745-MRF- ; per-post $50–$400, agency $2k–$5k/mo (NYC Ghostwriting / Comment Rocket) https://nycghostwriting.com/blog/linkedin-ghostwriting-cost-benefits-hiring-process and https://commentrocket.com/blog/affordable-vs-premium-linkedin-ghostwriting-guide
+
+### Still UNVERIFIED (no source found — keep flagged)
+
+- Keyword-competition tiers (HIGH/MEDIUM/LOW) and the "Blue Ocean" search-volume claims for "voice extraction content," "conscious founder LinkedIn," "executive brain dump content" — no keyword-tool data backs these. Verify in Ahrefs/Semrush.
+- Named-competitor weakness ratings (Cleverly "WEAK on voice/authenticity," The Media Engine "WEAK on LinkedIn SEO," "no methodology documentation") — no audit source; treat as hypotheses, not findings.
+- The 2026 buyer behavior claim ("buyers increasingly ask AI assistants: 'Find me a LinkedIn ghostwriter for executives who cares about authentic voice'") — directionally plausible per AI-search trend coverage, but the verbatim query and "increasingly" framing are MODELED.
+
+### Re-ground action
+
+VOC is now thin-but-real for the *audience pain* layer (use the quotes above as the authentic voice substrate). The *SEO/competitor/keyword* layer remains modeled. **Recommended:** rebuild the audience side via `/avatar-machine` for a fully sourced VOC manifold, and re-run the keyword/competitor claims through a real keyword tool (Ahrefs/Semrush) + `/competitor-intel` before quoting any competition tier or named-competitor weakness as fact.

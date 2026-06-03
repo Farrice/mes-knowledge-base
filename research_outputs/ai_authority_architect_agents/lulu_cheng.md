@@ -118,3 +118,28 @@ Farrice has a unique angle for founder communications: the intersection of AI, p
 ---
 
 *Methodology: Lulu Cheng Meservey Founder Communications, Narrative Positioning, Media Strategy.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** The dossier's "narrative" and "key message" soundbites (the quoted lines under Media-Friendly Story and the three Narrative Lanes) read as real audience/founder voice but carry zero source URLs — they are AI-inferred positioning, not mined VOC. Two of the three core pains (voice-capture failure; the time cost of building authority) DO have real source-linked grounding; the "father-first founder / refuse to sacrifice family for followers" angle could not be matched to any public source and remains modeled.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+### Real source-linked VOC found
+
+Audience = founders/executives/solopreneurs buying ghostwriting or AI content to build LinkedIn authority. Their actual public voice, with sources:
+
+- **Voice-capture failure is the central, documented anxiety.** "Many aspiring authors hesitate, convinced that handing over their story means sacrificing authenticity" — confirmed industry-wide concern. — https://marcialaytonturner.com/blog/for-aspiring-authors/the-art-of-voice-matching-how-professional-ghostwriters-capture-your-unique-perspective/
+- **Voice rarely lands on first draft** (validates the "your ghostwriter doesn't sound like you" pain): "rarely does a ghostwriter nail an author's voice on a first draft… [it] generally doesn't happen until the manuscript is complete." — https://associationofghostwriters.org/cracking-voice-with-ghostwriting-clients/
+- **AI content "writes like no one in particular."** "AI, by its nature, predicts the most statistically average next word… which means it writes like no one in particular." Recurring tells: "I'm excited to share," "Here are 5 key lessons I learned," "Let's dive in." — https://ligosocial.com/blog/why-most-ai-linkedin-tools-make-you-sound-like-everyone-else-and-how-to-fix-it
+- **Audience backlash to robotic AI content is real:** "LinkedIn audiences developed an allergy to AI-sounding content… posts that smelled like ChatGPT output [get] scrolled past, sometimes called out in the comments." — https://magicpost.in/blog/ai-linkedin-posts
+- **The time/treadmill pain is grounded:** "Each quality LinkedIn post requires 2-3 hours of work… ghostwriters [free] up 10-15 hours weekly." Founders "have no time to build a LinkedIn presence." — https://www.foundera.co/blog/linkedin-ghostwriting-for-founders-the-complete-guide-for-2026
+- **Willingness-to-pay is real and quantified** (relevant to ICP/offer pricing, not the narrative): founders/executives "pay somewhere between $2,000 and $5,000 monthly" for quality ghostwriting; per-post $300–$1,000. — https://commentrocket.com/blog/ultimate-guide-linkedin-ghostwriting-rates
+
+**Not found / still modeled:** No source-linked VOC for the "father-first founder," "refuse to sacrifice my family for followers," or "conscious founder" framing. Searches across Reddit/r/Entrepreneur and the open web returned no matching audience voice. Treat that entire emotional/values lane as a hypothesis, not evidence.
+
+### Re-ground action
+
+Two of three core pains are now sourced (voice-capture, time cost). The "father-first / conscious founder" persona is unverified and should NOT anchor the narrative until validated. The unified `research.py` engine returned no Research Receipt in this run (empty output — likely API-key gated), so grounding here came from live WebSearch only. **Recommended:** rebuild this audience layer via `/avatar-machine` (Phase 0 GROUND: Gemini Deep Research + Apify VOC mining + FB Ad Library + Recall, floor-checked ≥15 source URLs / zero `[MODELED]`) to produce a fully sourced VOC dossier before any soundbite above is used as a real quote in copy or pitches.

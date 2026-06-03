@@ -140,3 +140,39 @@ Built one-person "Conscious Founder" archetype: **Marcus Chen, 42, Founder of Et
 ---
 
 *Methodology: Dai Media "Individual Before Community Inversion" — build one person so specifically that others say "that's me."*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** The Marcus Chen profile is internally coherent and its four core pains (invisible-expert, ghostwriter-generic, AI-cringe, no-time) are NOW corroborated by real public VOC — but every quote/claim in the original body above was unsourced when written and must not be cited as evidence on its own.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+The "Internal Monologue" blocks (About Content / Ghostwriters / AI / Time / Authority), the Buying Triggers "Language" column, and the Objections table read as verbatim customer voice but carried zero source attribution. They are persona-authoring, not field VOC. Use the source-linked quotes below for any deck, ad, or landing page where a real-VOC claim is load-bearing.
+
+### Real source-linked VOC found
+
+**1. Ghostwritten content "doesn't sound like me" / reads generic (grounds lines 59, 113, 116):**
+- "You hired a LinkedIn ghostwriter six months ago and the posts still don't sound like you. They're professional. Well-formatted. Grammatically perfect. But when your peer mentions seeing your 'content,' you cringe a little because you know it reads like every other B2B executive's feed. Sophisticated executives and B2B buyers can sense AI fluff instantly... The problem is they never learned how you think." — Frank Kalman, LinkedIn — https://www.linkedin.com/posts/frankkalman_the-people-selling-you-linkedin-ghostwriting-activity-7451240147049897984-nLXc
+- "Most ghostwriting follows the same playbook: a 30-minute intake call, some sample posts you've written, and then they start cranking out content based on 'your industry.'" — Frank Kalman, same post (directly mirrors the dossier's "30-minute brain dump" objection-neutralizer framing) — https://www.linkedin.com/posts/frankkalman_the-people-selling-you-linkedin-ghostwriting-activity-7451240147049897984-nLXc
+- "Don't use so many em dashes — it doesn't sound like me." (cited as a representative client voice-mismatch complaint) — Oiti AI ghostwriter — https://www.ghostwriting-ai.com/
+- "The top-voted complaint on Reddit about LinkedIn ghostwriters is that posts read 'generic' or 'corporate' within 2 to 3 weeks." — summarized across ghostwriting threads — https://postiv.ai/linkedin-ghostwriter
+
+**2. Authenticity / "performative version of me" pain (grounds Values #1 "Authenticity" + identity "reluctant thought leader"):**
+- "the post didn't actually sound like me. it sounded like how i thought i SHOULD sound. bullsh\\t. dry-toast. watered-down versions of the actual thoughts... building a personal brand that's actually personal? one that feels like the real you, not some performative, palatable version?" — Kristina Flynn, comment on the Kalman post — https://www.linkedin.com/posts/frankkalman_the-people-selling-you-linkedin-ghostwriting-activity-7451240147049897984-nLXc
+- "Your authenticity is compromised when you share recycled posts or quotes without adding your own voice... authentic storytelling sets you apart in a sea of generic business content." — Ordinal, SaaS-founder LinkedIn guide — https://www.tryordinal.com/blog/building-a-personal-brand-on-linkedin-as-a-saas-founder-dos-and-donts
+
+**3. Invisible-expert / competitor-envy pain (grounds line 68 "nobody outside my customers knows I exist" + the "competitor has half my experience but 10x my visibility" trigger):**
+- "Expert but invisible. A lot of highly skilled people are stuck here. Not because they lack talent... You can be great at what you do and still be overlooked if no one understands how you think, what you solve, or why your work matters. The mistake many experts make is waiting to be discovered. That rarely happens online... If you're an expert who feels unseen, this isn't a skill issue. It's a distribution issue." — Muhammad Yusuf Khalil, LinkedIn — https://www.linkedin.com/posts/muhammadyusufkhalil_expert-but-invisible-a-lot-of-highly-skilled-activity-7420888854661914624-tVZU
+- "Some of the most gifted people in the room are often the quiet undercurrent. Reliable. Consistent. Overlooked. Meanwhile, less qualified voices sometimes dominate simply because they've learned how to position themselves." — same post (verbatim grounding for "that guy has half my experience but 10x my visibility") — https://www.linkedin.com/posts/muhammadyusufkhalil_expert-but-invisible-a-lot-of-highly-skilled-activity-7420888854661914624-tVZU
+- "Without visibility, firms are indistinguishable... most people who buy professional services are looking for a provider that will solve their challenge quickly — Visible Experts simplify the process of matching expertise with the businesses that need it." — Hinge Marketing, "The Visible Expert" — https://hingemarketing.com/blog/story/the-visible-expert-how-ordinary-professionals-become-thought-leaders
+
+**4. No-time / "should be posting but can't" pain (grounds line 64 "I don't have 5 hours a week"):**
+- "For B2B SaaS founders, maintaining consistency with what to post and when can be the challenging part. The trade-off founders raise is time" — with the counter that it's "the cheapest growth channel they have access to." — SaaSpirate, LinkedIn for SaaS Founders playbook — https://saaspirate.com/linkedin-for-saas-founders/
+- "$30M ARR bootstrapped brand... no paid ads, no outbound team — just one founder posting daily on LinkedIn" (Adam Robinson case — grounds the "buyers are on LinkedIn / distribution moat" worldview at line 93). — Startup Spells — https://startupspells.com/p/adam-robinson-linkedin-playbook-30-million-arr-bootstrapped-brand
+- "A founder today is not only the ultimate person in charge at the company, but often the face of it. Your personal brand can make the difference between standing out in the crowd... what do some SaaS founders do so much better than others to become truly visible and influential?" — Maxiality, research of 100+ SaaS founders — https://maxiality.com/linkedin-authority-marketing-lessons-from-research-of-100-saas-founders/
+
+### Re-ground action
+
+Coverage is strong on the four core pains (10 source-linked quotes across 8 distinct real URLs), so the persona's pain thesis is now defensible. BUT the specifics — the "$2,400 wasted on a ghostwriter," the "My VP of Sales keeps asking," the exact internal-monologue wording, Marcus's demographics/$2.5M ARR/EthicaTech — remain fully MODELED and must stay flagged. Before this dossier feeds ad copy, a VSL, or a sales page, **rebuild via `/avatar-machine`** (Phase 0 GROUND: Gemini Deep Research + Apify VOC mining + FB Ad Library + Recall, floor-checked at ≥15 source URLs, zero `[MODELED]`) to replace the modeled monologue with sourced, attributable buyer language. Note: `mcp__perplexity-ask` was quota-exhausted (401) and `execution/research.py` returned empty this pass — grounding above was completed via Tavily extract + WebSearch. Re-run the Perplexity leg once quota resets for VOC depth on the "$2K willing-to-pay" price-sensitivity claim (line 114), which remains unverified.

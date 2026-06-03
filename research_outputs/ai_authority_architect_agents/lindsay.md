@@ -167,3 +167,32 @@ NOT: Marketing, Content, Social Media (eliminates operators)
 ---
 
 *Methodology: Lindsay AI Consulting Sales, Multi-Channel Outreach Analysis.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** The dossier's strategic thesis (founders are cold-outreach-saturated; value-first/warm pathways beat pitches) is now SUPPORTED by real source-linked data, but every "Reality" claim, success-rate %, the "50–100 cold emails/week" volume figure, and the persona soundbites in the original body were AI-inferred with zero sourcing. Some are directionally close to real benchmarks; others (the precise success-rate percentages, the "90 days → 60–70% close" figures) remain UNVERIFIED and should not be presented as data.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+### Real source-linked VOC found
+
+Audience profiled = *purpose/values-driven founders & CEOs* ("Conscious Founders") who want LinkedIn authority/thought leadership but resist anything that "feels salesy." Persona = "Fresh," an authority architect targeting them via cold outreach.
+
+**A. Cold-outreach saturation & why founders ignore it (grounds Friction 3, 4, 5 + the volume claim)**
+- Decision-makers receive an average of ~15 cold emails/week; nearly 37% get 10+/week, "most being irrelevant." Only 24% say they get a truly valuable email even once a week. — https://www.emailtooltester.com/en/blog/cold-email-statistics/
+- "71% of ignored emails lack relevance, 43% fail on personalization, and 36% lack trust signals." (directly grounds Friction 2 "template-y," Friction 5 "not relevant," and the trust-bar table row) — https://snov.io/blog/cold-email-statistics/
+- "C-level executives are 30.2% less likely to reply to cold emails than non-executive buyers"; they "spend less than three seconds deciding whether to open" and "less than nine seconds reading it"; "executives receive dozens of cold emails daily"; "value offers outperform meeting requests"; reply rates "drop sharply past 100 words." (grounds Friction 4 time-poverty, the zero-ask/value-first strategy, and the <60-second async recommendation) — https://salesmotion.io/blog/cold-email-executives-reply-rates
+- For founders pitching investors specifically, volume runs far higher than the dossier's 50–100 figure — "a partner at an early-stage fund gets 50 to 200 cold pitches a week," and "cold emails to VCs have a ~95% non-reply rate." (the dossier's "50–100/week" is plausible for general founders, LOW for the investor-adjacent slice) — https://founderscapital8.substack.com/p/cold-emails-to-vcs-have-a-95-non
+
+**B. The "everything they despise / bro-marketing" thesis — founders' resistance to self-promotion (grounds Exec Summary + Friction 1 values-mismatch + the zero-ask template's "shared values" claim)**
+- Verbatim founder voice: "I f***ing hate posting on LinkedIn to promote myself." (real practitioner post, exact MODELED-claim match for "everything they despise") — https://www.linkedin.com/posts/langkathryn_i-fking-hate-posting-on-linkedin-to-promote-activity-7110264541598425089-r2Mb
+- Imposter phenomenon as the barrier to visibility — "more than 70% of professionals struggle with feeling like an imposter"; reframing "icky self-promotion" into something authentic. — https://www.amandatobe.com/blog/imposter-syndrome-linkedin-self-sabotage-work
+- Why founders specifically struggle with thought leadership / can't articulate their own value without sounding product-y. — https://www.linkedin.com/pulse/why-founders-struggle-thought-leadership-how-fix-without-chappell-lrqye
+- Build authority "without being annoying" — visibility-vs-value tension founders feel. — https://www.eu-startups.com/2025/07/how-to-build-thought-leadership-and-a-personal-brand-on-linkedin-without-being-annoying/ (note: page returned 403 on direct fetch; surfaced via search index only — treat as LIKELY, re-verify before quoting)
+
+**Not grounded / still [MODELED]:** the specific success-rate percentages (60–70%, 40–50%, 20–30%, 50–60%), the "Time to First Client" day-ranges, the "90 days of content → warm by day 91" formula, and all five verbatim "Reality" lines. No source produced these as measured outcomes; they are persona-authored estimates.
+
+### Re-ground action
+Real VOC found is genuine but thin for this exact segment (most evidence is general cold-email benchmarks + adjacent founder/self-promotion sentiment, not a dedicated "conscious founder" corpus). **Recommend rebuild via `/avatar-machine` (Phase 0 GROUND: Gemini Deep Research + Apify VOC mining of Conscious Capitalism / Pavilion / founder communities + FB Ad Library) to assemble a sourced, segment-specific VOC bank before any of the soundbites, success rates, or the zero-ask template are used in live outreach.** Until then, quote only the source-linked lines above; keep the original body labeled [MODELED].

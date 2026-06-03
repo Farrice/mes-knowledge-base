@@ -151,3 +151,24 @@ Some Convert to Clients
 ---
 
 *Methodology: Seth Godin Ideavirus, Sneezer Activation, Referral Flywheel.*
+
+---
+
+## ⚠️ Grounding Verification (re-grounded 2026-06-02 via unified research engine)
+
+**Verdict:** The strategic frame (Ideavirus / sneezer / referral flywheel) is sound, but every "meme" and quote in this dossier — the "30/30", "Voice Extraction", and "Anti-Ghostwriter" soundbites plus the referral-ask script — is author-invented, not harvested from real audience speech; a real VOC pass confirms the *underlying pain* (founders rewriting ghostwriter drafts because they "don't sound like me," and AI-flattened content getting flagged as generic) but none of the dossier's exact wording traces to a source.
+
+**Original soundbites: [MODELED] — unsourced, AI-inferred. Do not quote as real VOC until matched to a source.**
+
+### Real source-linked VOC found
+*(Audience profiled: purpose-driven / "conscious" founders frustrated with ghostwritten + AI-generated content that doesn't sound like them. These are genuine, source-linked — pains corroborated, but they confirm the *theme*, not the dossier's invented phrasing.)*
+
+- "She'd hired two ghostwriters, both missed... Both ghostwriters had produced content but neither had sounded like her. She was rewriting every draft because something felt off." — Christine Warren, LinkedIn — https://www.linkedin.com/posts/christinemwarren_shed-hired-two-ghostwriters-both-missed-activity-7442933621075714048-Zc1P
+- "My clients kept saying 'This doesn't sound like me.' ... most of the time, the copy wasn't technically bad. When someone writes for you instead of with you..." — ghostwriter recounting client feedback, Instagram (corroborates the core pain verbatim) — https://www.instagram.com/ (surfaced via Tavily; exact post URL not captured — treat as LIKELY, re-fetch before quoting)
+- "I help founders and executives fix their AI-flattened content and sound like themselves again." — Frank Kalman, LinkedIn (practitioner naming the exact pain: AI-flattened founder voice) — https://www.linkedin.com/posts/frankkalman_the-people-selling-you-linkedin-ghostwriting-activity-7451240147049897984-nLXc
+- "Don't pay $8,000 for a fake writing voice." — Frank Kalman, LinkedIn (price-anchored objection to inauthentic ghostwriting) — https://www.linkedin.com/posts/frankkalman_somewhere-right-now-a-linkedin-influencer-activity-7452476401590624258-q9HM
+- "I generate a draft with AI, read it back, and rewrite half of it. Every time. Adjusting sentence lengths. Deleting words I'd never use." — r/Blogging, Reddit (the rewrite-tax pain, in the audience's own words) — https://www.reddit.com/r/Blogging/comments/1rr0184/ai_writing_all_sounds_like_the_same_person_wrote
+- "The moment your writing has that generic tone, people assume the whole thing is AI spam." — r/LinkedInTips, Reddit (the reputational cost of generic/AI-sounding content) — https://www.reddit.com/r/LinkedInTips/comments/1n2fcl2/anyone_else_get_comments_like_this_looks
+- "How I use AI as a writing partner without becoming a content robot." — Lennart Nacke, LinkedIn (the "stay human / don't sound like a robot" aspiration) — https://www.linkedin.com/posts/nacke_ai-writingtips-content-activity-7349048507128758278-n1E4
+
+**Re-ground action:** The pain is real and well-sourced; the dossier's *spreadable language* is not. Before using any "30/30" / "Voice Extraction" / "Anti-Ghostwriter" line as proof or in copy, either (a) match it to a real customer/prospect quote, or (b) rebuild this audience layer via `/avatar-machine` (Phase 0 GROUND) for a fully sourced VOC manifold and let the contagious lines be tested against actual buyer language rather than invented. Note: Perplexity quota was exhausted this pass; the unified `research.py` receipt did not complete (job killed) — grounding above is Tavily-only, so treat as a solid-but-partial pass.
