@@ -28,7 +28,7 @@ This command fronts the reliable engine. Execute it by invoking the **Workflow t
 | `wide` | 12 voices diverge → 6 deliberate (default for big creative problems) | `/convene` |
 | `tight` | 6-7 voices → 4 deliberate (focused decision) | `/council`, `/roundtable` |
 | `strike` | 3-4 voices, fast, no wide pass | `/strike` |
-| `deploy` | 16 voices → 6 deliberate (max breadth) | `/deploy` |
+| `deploy` | 16 voices → 6 deliberate (max breadth) | `/deploy-council` |
 | `wide` + multi-deliverable | wide council, then hand execution to `/supercomputer` | `/campaign` |
 
 ## What it does (phases)

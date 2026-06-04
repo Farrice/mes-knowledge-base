@@ -18,4 +18,4 @@ Invoke the **Workflow tool** with:
 
 Returns: the deliberated synthesis (net-new principle + forks for you + next moves) and a
 "How the Masters Thought" learning digest. Holds the grounding floor; $0 incremental.
-For more breadth use `/convene --mode wide`; for max breadth `/deploy`.
+For more breadth use `/convene --mode wide`; for max breadth `/deploy-council`.
