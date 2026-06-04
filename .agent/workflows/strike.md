@@ -7,9 +7,10 @@ description: Strike Team — 2-4 coordinated experts (preset of /convene)
 A fast, focused council: 3-4 diverse experts, no wide divergent pass, straight to deliberation
 and synthesis. A **preset of the Collective Genius Council** (`/convene`).
 
-> Superseded the old JCC stub (2026-06-02). The previous version forwarded to a
-> `~/.claude/plugins/installed/jarvis-command-center/` plugin that does not exist. It now
-> fronts the reliable Workflow engine.
+> Superseded the old JCC stub (2026-06-02). The previous version forwarded to the
+> `jarvis-command-center` plugin (still installed, accessible as `jarvis-command-center:deploy`).
+> The local workflow implementation now owns the collective-genius domain — more reliable
+> and directly composable with the rest of the system.
 
 ## Execution
 Invoke the **Workflow tool** with:
