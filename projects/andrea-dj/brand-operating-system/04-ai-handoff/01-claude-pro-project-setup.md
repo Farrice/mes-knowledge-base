@@ -27,7 +27,7 @@ This guide assumes Andrea has Claude Pro. If not: the same setup works on Claude
 1. Open `claude.ai`, sign in.
 2. In the left sidebar, click **+ New Project**.
 3. **Project Name**: `Resonance`
-4. **Project Description** (paste verbatim from positioning-one-pager): *A daytime, sober, founder-curated dance event in Chicago for adults 30-40 who want to meet a committed partner. Founder Andrea DJs every flagship event. The room is ~50 people, vetted one-yes-at-a-time. The metric is couples formed, not tickets sold. First event June 2026.*
+4. **Project Description** (paste verbatim from positioning-one-pager): *A daytime, sober, founder-curated dance event in Chicago for adults 30-40 who want to meet a committed partner. Founder Andrea DJs every flagship event. The room is ~50 people, vetted one-yes-at-a-time. The metric is couples formed, not tickets sold. First event July 18, 2026.*
 5. Save. The project shell exists.
 
 ---

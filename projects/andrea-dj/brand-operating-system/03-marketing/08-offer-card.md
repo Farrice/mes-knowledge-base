@@ -81,7 +81,7 @@ A single 200-word description. Quoteable verbatim. Suitable for press, IG bio li
 >
 > Daytime. Sober. Curated. Chicago.
 >
-> First event June 2026.
+> First event July 18, 2026.
 >
 > *Dance with someone new.*
 >

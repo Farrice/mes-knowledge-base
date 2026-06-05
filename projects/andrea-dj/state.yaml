@@ -1,6 +1,6 @@
 slug: andrea-dj
 created_at: '2026-05-26T06:20:42Z'
-updated_at: '2026-05-28T16:42:00Z'
+updated_at: '2026-06-05T00:00:00Z'
 brand:
   name: Resonance
   tagline: ''
@@ -8,7 +8,28 @@ brand:
   audience: "Single adults 30-40 in Chicago seeking a committed partner \u2014 daytime,\
     \ sober, curated room"
   palette: []
-decisions: {}
+decisions:
+  execution-spine:
+    decided_at: '2026-06-05'
+    decision: "V2 Execution Playbook (Kimi Agent) is the canonical Event #1 execution spine. It integrates our operational/legal/content rigor with the seed-and-spread + curation logic, trimmed to a team of 6. Resolves 4 of 5 audit contradictions (team size, Andrea-not-DJ, phone basket, legal/day-of). Source: Kimi_Agent_Resonance Research."
+    open_item: "Event end time unresolved: locked Role Doctrine = ~2:00-4:20pm; V2 = out by 5:00pm. Andrea to lock at 6/5 meeting (recommendation: active close 4:30, soft to 5:00)."
+  research-integration:
+    decided_at: '2026-06-05'
+    decision: "Integration, not replacement. Our launch package stays canonical for content/brand/visual/voice (Kimi is thin here). Pull Kimi psychology + curation science (chemistry killers, vetting scripts, set architecture, seed-dancer protocol) INTO our system. 17 Kimi research docs + 1 alignment briefing live in Drive: 'Andrea's Documents > Resonance — Deep Research & ICP (Kimi Agent)' (folder 1NRYUQgpj4HXWpJM6Ae6snFkA7JyO5bma)."
+  claude-projects-rebuild:
+    decided_at: '2026-06-05'
+    decision: "Rebuilt Andrea's 6 Claude Projects clean. Renamed from metaphors to plain names: 1 Planning & Strategy (Opus), 2 Content & Social (Sonnet), 3 Applications & Vetting (Opus), 4 Partners & Outreach (Sonnet), 5 Music & The Floor (Sonnet), 6 Event Memory after-July-18 (Sonnet). Each is a SELF-CONTAINED Drive folder (knowledge .md + CUSTOM-INSTRUCTIONS.md + '★ SETUP' Google Doc) inside 'Resonance — AI Team (Claude Projects)' (1ID5WYi7WJHhicUD_BCntAcnXHinrhead). Old scattered setup moved to '_archive (old setup)'. Custom instructions KEPT (XML resonance_core, byte-identical) with only project-name routing references swapped. 39 knowledge docs reformatted to one AI-optimized house style + enriched with Kimi research (vetting playbook, room chemistry, set architecture, psych/curation profiles) and current approved docs (IG First-Week, Universal Anchors). Local mirror + build scripts: projects/andrea-dj/ai-team/_build-2026-06-05/."
+    folder_ids:
+      planning_strategy: 1OCVvKln1OLSl3BXYaiEtNOK5FTxeVZCA
+      content_social: 1T9tw4Gr4cVwmLY55ZKkM_NDL4zndNL99
+      applications_vetting: 1P-0fPayUC2I7-MIvFl9p2O2FRBBfdoH3
+      partners_outreach: 1E_OisPC63o0MIQPkhWsVGSEQ1pHtw7KD
+      music_floor: 16O1FGzicGZFLkjp-ixjdqSY4CjXTKQSc
+      event_memory: 1JC_U54aJnfEPJes_R9Tit1xbC3NuC1ac
+  event-date-correction:
+    decided_at: '2026-06-05'
+    decision: "CONFIRMED by Andrea/Farrice: Event #1 is Saturday, JULY 18, 2026 (2-5pm). Source docs had a systemic 'June 2026' error. Context-aware sweep corrected the event date to July 18 across all delivered Drive docs + 35 repo source docs, while PRESERVING legitimate June refs (June 1 application-open date, the June 20/27 count-back timeline, past-tense story anecdotes). Excluded only the historical Pulse-era 2026-04-11 Monday package."
+decisions_legacy: {}
 anchors:
 - id: anchor-001
   type: brand_brief
@@ -69,7 +90,10 @@ anchors:
   created_at: '2026-05-26T06:21:06Z'
   archived_at: '2026-05-28T19:50:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant A v1 \u2014 4 Fal/fantastic-posters prototypes (Editorial Broadsheet, terracotta+midnight on cream). Rejected 0/10 \u2014 wrong tool, MODE masthead leak. Preserved for provenance. Folder variant-a-hero-shots/ now empty drop-zone for user reference images."
+  description: "[ARCHIVED 2026-05-28] Variant A v1 \u2014 4 Fal/fantastic-posters\
+    \ prototypes (Editorial Broadsheet, terracotta+midnight on cream). Rejected 0/10\
+    \ \u2014 wrong tool, MODE masthead leak. Preserved for provenance. Folder variant-a-hero-shots/\
+    \ now empty drop-zone for user reference images."
   ref_for:
   - archived-rejected
 - id: anchor-008
@@ -78,7 +102,9 @@ anchors:
   created_at: '2026-05-26T06:21:06Z'
   archived_at: '2026-05-28T22:30:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant B v1 \u2014 4 Fal/fantastic-posters prototypes. Rejected 0/10. Preserved for provenance. Empty parent folder removed (v3 active candidate)."
+  description: "[ARCHIVED 2026-05-28] Variant B v1 \u2014 4 Fal/fantastic-posters\
+    \ prototypes. Rejected 0/10. Preserved for provenance. Empty parent folder removed\
+    \ (v3 active candidate)."
   ref_for:
   - archived-rejected
 - id: anchor-009
@@ -87,7 +113,9 @@ anchors:
   created_at: '2026-05-26T06:21:06Z'
   archived_at: '2026-05-28T22:30:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant C v1 \u2014 4 Fal/fantastic-posters prototypes. Rejected 0/10. Preserved for provenance. Empty parent folder removed (v3 active candidate)."
+  description: "[ARCHIVED 2026-05-28] Variant C v1 \u2014 4 Fal/fantastic-posters\
+    \ prototypes. Rejected 0/10. Preserved for provenance. Empty parent folder removed\
+    \ (v3 active candidate)."
   ref_for:
   - archived-rejected
 - id: anchor-010
@@ -123,7 +151,9 @@ anchors:
   created_at: '2026-05-26T15:50:46Z'
   archived_at: '2026-05-28T19:50:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant A v2 \u2014 2 hero shots via Higgsfield Nano Banana 2. Rejected 2/10 \u2014 composition struggle. Preserved for provenance. Folder variant-a-hero-shots-v2/ now empty drop-zone for user reference images."
+  description: "[ARCHIVED 2026-05-28] Variant A v2 \u2014 2 hero shots via Higgsfield\
+    \ Nano Banana 2. Rejected 2/10 \u2014 composition struggle. Preserved for provenance.\
+    \ Folder variant-a-hero-shots-v2/ now empty drop-zone for user reference images."
   ref_for:
   - archived-rejected
 - id: anchor-014
@@ -132,7 +162,9 @@ anchors:
   created_at: '2026-05-26T15:50:47Z'
   archived_at: '2026-05-28T22:30:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant B v2 \u2014 2 hero shots via Higgsfield Nano Banana 2. Rejected 2/10. Preserved for provenance. Empty parent folder removed."
+  description: "[ARCHIVED 2026-05-28] Variant B v2 \u2014 2 hero shots via Higgsfield\
+    \ Nano Banana 2. Rejected 2/10. Preserved for provenance. Empty parent folder\
+    \ removed."
   ref_for:
   - archived-rejected
 - id: anchor-015
@@ -141,7 +173,9 @@ anchors:
   created_at: '2026-05-26T15:50:47Z'
   archived_at: '2026-05-28T22:30:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant C v2 \u2014 2 hero shots via Higgsfield Nano Banana 2. Rejected 2/10 (C1 close-friends register, C2 background children). Preserved for provenance. Empty parent folder removed."
+  description: "[ARCHIVED 2026-05-28] Variant C v2 \u2014 2 hero shots via Higgsfield\
+    \ Nano Banana 2. Rejected 2/10 (C1 close-friends register, C2 background children).\
+    \ Preserved for provenance. Empty parent folder removed."
   ref_for:
   - archived-rejected
 - id: anchor-016
@@ -176,28 +210,37 @@ anchors:
   created_at: '2026-05-28T16:42:00Z'
   archived_at: '2026-05-28T19:50:00Z'
   status: ARCHIVED
-  description: "[ARCHIVED 2026-05-28] Variant A v3 \u2014 8 hero shots via Higgsfield Soul 2. Variant A direction rejected by Farrice (not the tool's fault \u2014 Soul produced workable output). Preserved for provenance. Folder variant-a-hero-shots-v3/ now empty drop-zone for user reference images."
+  description: "[ARCHIVED 2026-05-28] Variant A v3 \u2014 8 hero shots via Higgsfield\
+    \ Soul 2. Variant A direction rejected by Farrice (not the tool's fault \u2014\
+    \ Soul produced workable output). Preserved for provenance. Folder variant-a-hero-shots-v3/\
+    \ now empty drop-zone for user reference images."
   ref_for:
   - archived-rejected
 - id: anchor-020
   type: ad_concept
   path: projects/andrea-dj/launch/03-visual-variants/variant-b-hero-shots-v3
   created_at: '2026-05-28T16:42:00Z'
-  description: "Variant B v3 \u2014 7 hero shots via Higgsfield Soul 2 (Latin-American Modernism, terracotta + moss + ochre). Casa Wabi register. Costa Rican formation as architectural discipline, not decoration."
+  description: "Variant B v3 \u2014 7 hero shots via Higgsfield Soul 2 (Latin-American\
+    \ Modernism, terracotta + moss + ochre). Casa Wabi register. Costa Rican formation\
+    \ as architectural discipline, not decoration."
   ref_for:
   - variant-selection
 - id: anchor-021
   type: ad_concept
   path: projects/andrea-dj/launch/03-visual-variants/variant-c-hero-shots-v3
   created_at: '2026-05-28T16:42:00Z'
-  description: "Variant C v3 \u2014 8 hero shots via Higgsfield Soul 2 (Restrained Marble + Sage + Gold). Sofia Coppola/Hou Hsiao-hsien register. Ink-as-primary, terracotta demoted to accent."
+  description: "Variant C v3 \u2014 8 hero shots via Higgsfield Soul 2 (Restrained\
+    \ Marble + Sage + Gold). Sofia Coppola/Hou Hsiao-hsien register. Ink-as-primary,\
+    \ terracotta demoted to accent."
   ref_for:
   - variant-selection
 - id: anchor-022
   type: copy
   path: projects/andrea-dj/launch/05-andrea-decisions.md
   created_at: '2026-05-28T16:42:00Z'
-  description: "Andrea decisions package \u2014 \u22642-page sheet with 3 side-by-side decisions (variant A/B/C, newsletter Beehiiv vs Substack, application stack Tally+Stripe). CTA at top. Standing items + status pulse. Built for fast sign-off."
+  description: "Andrea decisions package \u2014 \u22642-page sheet with 3 side-by-side\
+    \ decisions (variant A/B/C, newsletter Beehiiv vs Substack, application stack\
+    \ Tally+Stripe). CTA at top. Standing items + status pulse. Built for fast sign-off."
   ref_for:
   - andrea-signoff
   - phase1-ship-gate
@@ -205,28 +248,39 @@ anchors:
   type: copy
   path: projects/andrea-dj/launch/01-announcement-package/README.md
   created_at: '2026-05-28T16:42:00Z'
-  description: "Announcement v3 polish \u2014 6 day-of-week errors corrected (2026 calendar verified), em-dash overruns trimmed in Wed 6/3 carousel + Sat 6/13 Note. Voice-document Patterns 1-6 retained. Phase 1 ships Wed 6/3, Phase 2 staged for venue+JR lock."
+  description: "Announcement v3 polish \u2014 6 day-of-week errors corrected (2026\
+    \ calendar verified), em-dash overruns trimmed in Wed 6/3 carousel + Sat 6/13\
+    \ Note. Voice-document Patterns 1-6 retained. Phase 1 ships Wed 6/3, Phase 2 staged\
+    \ for venue+JR lock."
   ref_for:
   - execution
 - id: anchor-024
   type: copy
   path: projects/andrea-dj/launch/02-outreach-playbook/README.md
   created_at: '2026-05-28T16:42:00Z'
-  description: "Outreach playbook v3 polish \u2014 relative date refs (Tonight/Wednesday) replaced with absolute dates (Thu 5/28 through Tue 6/2). Venue gate Tue 6/2 explicit. _v1-detailed.md retains full pedagogy."
+  description: "Outreach playbook v3 polish \u2014 relative date refs (Tonight/Wednesday)\
+    \ replaced with absolute dates (Thu 5/28 through Tue 6/2). Venue gate Tue 6/2\
+    \ explicit. _v1-detailed.md retains full pedagogy."
   ref_for:
   - execution
 - id: anchor-025
   type: copy
   path: projects/andrea-dj/launch/04-gap-action-sprint.md
   created_at: '2026-05-28T16:42:00Z'
-  description: "Gap-action sprint v3 polish \u2014 weekly table day-of-week errors corrected (Mon 5/26 \u2192 Tue 5/26, etc) to match 2026 actual. 24-hour pre-event doctrine + venue gate Tue 6/2 + 3 BIG decisions intact."
+  description: "Gap-action sprint v3 polish \u2014 weekly table day-of-week errors\
+    \ corrected (Mon 5/26 \u2192 Tue 5/26, etc) to match 2026 actual. 24-hour pre-event\
+    \ doctrine + venue gate Tue 6/2 + 3 BIG decisions intact."
   ref_for:
   - execution
 - id: anchor-027
   type: brand_brief
   path: projects/andrea-dj/launch/03-visual-variants/variant-a-hero-shots-v3
   created_at: '2026-05-28T19:50:00Z'
-  description: "Variant A reference-asset drop-zone — empty folder structure preserved across variant-a-hero-shots/, variant-a-hero-shots-v2/, variant-a-hero-shots-v3/. User dropping new reference images (photography, mood refs, found imagery) here. AI-generated tiers archived to _archive/variant-a-rejected-2026-05-28/. Variant A direction now treated as manual-reference-based, NOT AI-generated."
+  description: "Variant A reference-asset drop-zone \u2014 empty folder structure\
+    \ preserved across variant-a-hero-shots/, variant-a-hero-shots-v2/, variant-a-hero-shots-v3/.\
+    \ User dropping new reference images (photography, mood refs, found imagery) here.\
+    \ AI-generated tiers archived to _archive/variant-a-rejected-2026-05-28/. Variant\
+    \ A direction now treated as manual-reference-based, NOT AI-generated."
   ref_for:
   - variant-selection
   - user-supplied-references
@@ -234,7 +288,9 @@ anchors:
   type: copy
   path: projects/andrea-dj/launch/MANIFEST.md
   created_at: '2026-05-28T22:30:00Z'
-  description: "Launch folder MANIFEST.md — navigation aid documenting ACTIVE / CANDIDATE / REFERENCE / ARCHIVED tiers. Built during 2026-05-28 cleanup mission. Source-of-truth for what's current vs outdated."
+  description: "Launch folder MANIFEST.md \u2014 navigation aid documenting ACTIVE\
+    \ / CANDIDATE / REFERENCE / ARCHIVED tiers. Built during 2026-05-28 cleanup mission.\
+    \ Source-of-truth for what's current vs outdated."
   ref_for:
   - navigation
   - project-hygiene
@@ -242,7 +298,9 @@ anchors:
   type: copy
   path: projects/andrea-dj/launch/README.md
   created_at: '2026-05-28T22:30:00Z'
-  description: "Launch entry-point README refreshed 2026-05-28 — reflects v3 Soul shipped, Variant A archived, 05-andrea-decisions.md + 06-genspark-deployment built. Replaces the May 26 version that referenced v1/v2 as current."
+  description: "Launch entry-point README refreshed 2026-05-28 \u2014 reflects v3\
+    \ Soul shipped, Variant A archived, 05-andrea-decisions.md + 06-genspark-deployment\
+    \ built. Replaces the May 26 version that referenced v1/v2 as current."
   ref_for:
   - andrea-entry-point
   - farrice-entry-point
@@ -250,11 +308,29 @@ anchors:
   type: ad_concept
   path: projects/andrea-dj/launch/06-genspark-deployment
   created_at: '2026-05-28T17:20:00Z'
-  description: "Genspark Deployment Pack \u2014 6-file production playbook (README + capabilities-map + image-to-video + social-media + announcement + waitlist-landing + model-overrides). Verified routing matrix: Veo 3.1 Quality (hero), Kling 2.1 Master (face close-ups), Runway Gen-4.5 (story sequences), Seedance 2.0 (IG Reel), Nano Banana Pro (brand stills), GPT Image 2 (typography). Sora 2 flagged sunset (April/Sept 2026). 3-agent research swarm sourcing, 25+ verified citations."
+  description: "Genspark Deployment Pack \u2014 6-file production playbook (README\
+    \ + capabilities-map + image-to-video + social-media + announcement + waitlist-landing\
+    \ + model-overrides). Verified routing matrix: Veo 3.1 Quality (hero), Kling 2.1\
+    \ Master (face close-ups), Runway Gen-4.5 (story sequences), Seedance 2.0 (IG\
+    \ Reel), Nano Banana Pro (brand stills), GPT Image 2 (typography). Sora 2 flagged\
+    \ sunset (April/Sept 2026). 3-agent research swarm sourcing, 25+ verified citations."
   ref_for:
   - genspark-asset-production
   - launch-wave-deployment
   - model-routing-discipline
+- id: anchor-030
+  type: system
+  path: projects/andrea-dj/ai-team/
+  created_at: '2026-06-04T02:03:35Z'
+  description: "Resonance AI Team \u2014 5-project cloud suite (Front of House router/strategist,\
+    \ The Crowd/content, The Doorkeeper/admissions, The Green Room/outreach, The Logbook/memory\
+    \ drop-in July18) governed by shared CONSTITUTION-CORE (Scene+Flinch+Gate+12 verbatim-fenced\
+    \ lines) + seed Wrong-AI Ledger + Team Map + verification card + Andrea START-HERE.\
+    \ Council-derived; principle: the room writes the instructions. Forks ratified:\
+    \ full-team-behind-one-door / story-leads-law-fenced / bridge-voice / seed-then-floor."
+  ref_for:
+  - ai-team-deployment
+  - cloud-projects-handoff
 history:
 - ts: '2026-05-26T06:20:42Z'
   phase: init
@@ -386,23 +462,28 @@ history:
   output_ref: anchor-025
 - ts: '2026-05-28T16:42:00Z'
   phase: finalize:autopilot
-  action: "composite=7.25, status=Needs Improvement (cap-band), output='Announcement package polished — calendar fixes + em-dash trim'"
+  action: "composite=7.25, status=Needs Improvement (cap-band), output='Announcement\
+    \ package polished \u2014 calendar fixes + em-dash trim'"
   output_ref: anchor-023
 - ts: '2026-05-28T16:42:00Z'
   phase: finalize:autopilot
-  action: "composite=7.25, status=Needs Improvement (cap-band), output='Outreach playbook polished — absolute date anchoring'"
+  action: "composite=7.25, status=Needs Improvement (cap-band), output='Outreach playbook\
+    \ polished \u2014 absolute date anchoring'"
   output_ref: anchor-024
 - ts: '2026-05-28T16:42:00Z'
   phase: finalize:autopilot
-  action: "composite=7.17, status=Needs Improvement (cap-band), output='Visual variants v3 — 23 Soul hero shots'"
+  action: "composite=7.17, status=Needs Improvement (cap-band), output='Visual variants\
+    \ v3 \u2014 23 Soul hero shots'"
   output_ref: anchor-019
 - ts: '2026-05-28T16:42:00Z'
   phase: finalize:autopilot
-  action: "composite=7.25, status=Needs Improvement (cap-band), output='Gap-action sprint v3 — calendar correction'"
+  action: "composite=7.25, status=Needs Improvement (cap-band), output='Gap-action\
+    \ sprint v3 \u2014 calendar correction'"
   output_ref: anchor-025
 - ts: '2026-05-28T16:42:00Z'
   phase: finalize:autopilot
-  action: "composite=7.25, status=Needs Improvement (cap-band), output='Andrea decisions package NEW — ≤2-page sign-off sheet'"
+  action: "composite=7.25, status=Needs Improvement (cap-band), output='Andrea decisions\
+    \ package NEW \u2014 \u22642-page sign-off sheet'"
   output_ref: anchor-022
 - ts: '2026-05-28T17:20:00Z'
   phase: v3 Phase F (Genspark Deployment Pack)
@@ -410,21 +491,48 @@ history:
   output_ref: anchor-026
 - ts: '2026-05-28T17:20:00Z'
   phase: finalize:autopilot
-  action: "composite=7.25, status=Needs Improvement (cap-band), output='Genspark Deployment Pack — 6 files, 25+ verified citations, routing matrix verified'"
+  action: "composite=7.25, status=Needs Improvement (cap-band), output='Genspark Deployment\
+    \ Pack \u2014 6 files, 25+ verified citations, routing matrix verified'"
   output_ref: anchor-026
 - ts: '2026-05-28T22:30:00Z'
   phase: v3 Phase G (project hygiene cleanup)
-  action: "archived: Variant B v1+v2 (6 PNG), Variant C v1+v2 (6 PNG), stale Fal scripts (3 files), old root docs (3 files), SESSION-HANDOFF.md, all .DS_Store files; removed empty B/C v1/v2 dirs; added MANIFEST.md + refreshed README.md"
+  action: 'archived: Variant B v1+v2 (6 PNG), Variant C v1+v2 (6 PNG), stale Fal scripts
+    (3 files), old root docs (3 files), SESSION-HANDOFF.md, all .DS_Store files; removed
+    empty B/C v1/v2 dirs; added MANIFEST.md + refreshed README.md'
   output_ref: anchor-028
 - ts: '2026-05-28T22:30:00Z'
   phase: cleanup:autopilot
-  action: "anchors flagged ARCHIVED: 007, 008, 009, 013, 014, 015, 019; new anchors: 028 (MANIFEST), 029 (README refresh)"
+  action: 'anchors flagged ARCHIVED: 007, 008, 009, 013, 014, 015, 019; new anchors:
+    028 (MANIFEST), 029 (README refresh)'
   output_ref: anchor-028
 - ts: '2026-05-28T21:30:00Z'
   phase: v3 Phase H (project root hygiene)
-  action: "deleted: download.html (empty); archived: deliverables/2026-05-04-brand-operating-system-v1 (stale BOS-v1 .docx exports); archived: 10 pre-launch orphans (00-command-center, 01-01c venue x5, 03-this-week, 04-ig-profile, 06-tools-stack, 06a-canva, 06b-claude) + _enrichment/; KEPT: 4 pre-launch active-referenced docs (02-male-acq, 05-photoshoot, 07-anti-omission, 08-andrea-event-role); KEPT: Monday Package (active BOS lineage); KEPT: research/ + source/ (foundational + canonical voice)"
+  action: 'deleted: download.html (empty); archived: deliverables/2026-05-04-brand-operating-system-v1
+    (stale BOS-v1 .docx exports); archived: 10 pre-launch orphans (00-command-center,
+    01-01c venue x5, 03-this-week, 04-ig-profile, 06-tools-stack, 06a-canva, 06b-claude)
+    + _enrichment/; KEPT: 4 pre-launch active-referenced docs (02-male-acq, 05-photoshoot,
+    07-anti-omission, 08-andrea-event-role); KEPT: Monday Package (active BOS lineage);
+    KEPT: research/ + source/ (foundational + canonical voice)'
   output_ref: anchor-028
 - ts: '2026-05-28T21:30:00Z'
   phase: cleanup:autopilot round 2
-  action: "MANIFEST.md extended with project-wide folder map (research/, source/, deliverables/, pre-launch/, notes/)"
+  action: MANIFEST.md extended with project-wide folder map (research/, source/, deliverables/,
+    pre-launch/, notes/)
   output_ref: anchor-028
+- ts: '2026-06-03T17:45:11Z'
+  phase: finalize:brand-operating-system
+  action: 'composite=7.25, status=Needs Improvement, output=''Resonance Brand Kit
+    + Event Copy Package: 5 documents created (variant palette comparison, designer
+    kit for Canva, July '''
+  output_ref: ''
+- ts: '2026-06-04T02:03:24Z'
+  phase: "AI Team build (convene\u2192build)"
+  action: 'Built 5-project cloud suite + CONSTITUTION-CORE + Wrong-AI Ledger seed
+    + Team Map + verification card + Andrea guide. Council: Ross McKay/Tyler Denk/Jeremy
+    Haynes/Vincent Hu/April Dunford/Mitch Albom. 23 referenced BOS files verified.
+    finalize composite 7.25 (cap-band).'
+  output_ref: ''
+- ts: '2026-06-04T02:03:35Z'
+  phase: AI Team build
+  action: 'anchor added: system'
+  output_ref: anchor-030

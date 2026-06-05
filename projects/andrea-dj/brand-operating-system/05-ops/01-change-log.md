@@ -111,7 +111,7 @@ The full Brand Operating System ships. Built from Andrea's Internal Anchor (Apri
 5. Stage 2 evolution narrative replacement (alcohol-unlock is dead — what stands in?).
 6. Final adjudication of any post-A1 reconciliation items Andrea wants to revisit.
 
-None of these block Event #1 (June 2026). Each blocks a downstream BOS document refinement.
+None of these block Event #1 (July 18, 2026). Each blocks a downstream BOS document refinement.
 
 ---
 

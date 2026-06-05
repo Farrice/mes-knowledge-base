@@ -61,7 +61,7 @@ The lines I will not cross, even when it's expensive not to.
 11. **No already-coupled attendees** as gatecrashers. Coupled people only enter the room as carefully invited community-builders, if at all.
 12. **No sponsor that requires me to compromise any line above.** If the sponsorship requires drift, the sponsorship is wrong.
 
-## 4. Success at the first event (June 2026)
+## 4. Success at the first event (July 18, 2026)
 
 There is a common environment in the room. People leave lighter, smiling, and not wanting to leave.
 

@@ -363,7 +363,7 @@ Cream-100 solid background. Vertically centered: Domaine Display `headline-md` (
 **Back:** cream-100 paper-stock background (cool-warm-white, uncoated). Top-left: Domaine Display `headline-sm` (20px) in ink-900 — *Resonance 002*. Body: event date, venue, doors, in label-caps stacked left, +0.18em tracking, very widely spaced. Center: a single sentence in body-md ink-800, italicized — *"You were in the room on [date]."* Lower-right: a 0.75" hairline-thin terracotta-600 underline (the variant's one place terracotta appears at this scale — keeping the brand-accent legibility alive). QR code for entry: lower-left, 0.75" square, ink-900.
 
 ### Andrea Portrait (founder shot for press / About page)
-Andrea at the decks, mid-set, head down, hand on the fader. The crop is tighter than Variants A or B — framed from the waist up, the room visible only as a soft cream wall and a sliver of natural daylight in the upper-right. Negative space is the second protagonist; the room appears as *suggestion*, not as architectural detail. Tonal grading is cool-restrained — the slightly blue undertone of overcast Chicago afternoon preserved. The shot reads as *the founder, mid-thought*, not as *the founder posing as the founder*. On a press one-sheeter, this photograph sits in the middle band with 12px caption-12px slate-500 beneath: *"Andrea — Resonance 001, Chicago, June 2026."*
+Andrea at the decks, mid-set, head down, hand on the fader. The crop is tighter than Variants A or B — framed from the waist up, the room visible only as a soft cream wall and a sliver of natural daylight in the upper-right. Negative space is the second protagonist; the room appears as *suggestion*, not as architectural detail. Tonal grading is cool-restrained — the slightly blue undertone of overcast Chicago afternoon preserved. The shot reads as *the founder, mid-thought*, not as *the founder posing as the founder*. On a press one-sheeter, this photograph sits in the middle band with 12px caption-12px slate-500 beneath: *"Andrea — Resonance 001, Chicago, July 18, 2026."*
 
 ### Venue Pitch — One-Pager Top Section (Letter portrait)
 **The most spacious of the three variant one-pagers.**
@@ -373,7 +373,7 @@ Andrea at the decks, mid-set, head down, hand on the fader. The crop is tighter 
 - Below rule: single line in label-caps slate-500 +0.18em — `A DAYTIME SOBER DANCE PARTY · CHICAGO · 2026`.
 **Hero block (middle 1/2):**
 - Single horizontal photograph, full-width within the 1" margin. Tight-cropped to intimate-essayistic detail (hand-on-fader or shoulders-almost-touching).
-- Caption in caption-12px ink-800: *"Photographed at Resonance 001, Chicago, June 2026."*
+- Caption in caption-12px ink-800: *"Photographed at Resonance 001, Chicago, July 18, 2026."*
 **Body block (lower 1/4):** three columns — *What it is* / *The mechanic* / *Press contact* — each in body-md (15px), separated by hairline dividers. Generous 80px whitespace between the hero block and the body block.
 
 The page reads as a magazine feature, not as a sales sheet. The discipline is the discipline of an audience that is treated as adult.

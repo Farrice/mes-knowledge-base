@@ -348,7 +348,7 @@ Cream-100 solid background. Top-third: a small 600px-wide photograph of an empty
 - **Middle band (35% of page):** cream-100 background.
   - Wordmark *RESONANCE* in Tiempos Headline 68px moss-900, left-aligned 48px from edge.
   - 1px hairline rule beneath, 70% page width, in moss-700.
-  - Event details in label-caps moss-900 +0.16em: `JULY 26, 2026 · CHICAGO · DOORS 2PM`.
+  - Event details in label-caps moss-900 +0.16em: `JULY 18, 2026 · CHICAGO · DOORS 2PM`.
   - 24px gap.
   - Single line in ink-700 body-lg: *"A daytime, sober dance party for people who want to meet a partner."*
 - **Bottom band (25% of page):** cream-200 panel-fill, providing the deepest tonal layering.
@@ -369,7 +369,7 @@ Andrea at the decks, mid-set, head down, hand on the fader. The room is the seco
 - Below rule: single line in label-caps slate-500 +0.16em — `A DAYTIME, SOBER DANCE PARTY · CHICAGO · JULY 2026`.
 **Hero block (middle 1/2):**
 - Single horizontal photograph, full-width within the 1" margin. The photograph is the architectural one — room as second protagonist.
-- Caption in caption-13px ink-700: *"Photographed at Resonance 001, Chicago, June 2026."*
+- Caption in caption-13px ink-700: *"Photographed at Resonance 001, Chicago, July 18, 2026."*
 **Body block (lower 1/4):** three columns — *What it is* / *The mechanic* / *Press contact* — each in body-md, separated by 1px moss-700 hairline dividers. Bottom-band cream-200 panel-fill behind the body block, providing tonal weight to the page footer.
 
 The page must read as the *built form* of the brand. A journalist should look at it and feel the architectural discipline of the room itself.

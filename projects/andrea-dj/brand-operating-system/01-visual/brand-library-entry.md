@@ -11,7 +11,7 @@
 | Field | Value |
 |---|---|
 | **Brand name** | Resonance |
-| **Founded** | 2026 (first event: June 2026) |
+| **Founded** | 2026 (first event: July 18, 2026) |
 | **Founder** | Andrea (Chicago-based DJ; full name + bio in founder docs) |
 | **Location** | Chicago, IL — Chicago-first, no expansion until Chicago model is undeniable (Anchor §3.10) |
 | **Domain** | resonanceroom.com (placeholder; confirmed handle TBD per RISKS.md) |

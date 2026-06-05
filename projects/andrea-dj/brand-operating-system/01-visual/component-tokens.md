@@ -43,7 +43,7 @@ The single most-used surface. The discipline of this template carries the brand 
 
 ### Copy length
 - **Floor:** 0 words on the image. A photograph alone is a complete IG post.
-- **Ceiling:** 12 words on the image. *"Heart encounters, not head encounters."* + *"Chicago. June 2026."* is the maximum stack.
+- **Ceiling:** 12 words on the image. *"Heart encounters, not head encounters."* + *"Chicago. July 18, 2026."* is the maximum stack.
 
 ### Do
 - Lead with the photograph; type is caption.
@@ -58,7 +58,7 @@ The single most-used surface. The discipline of this template carries the brand 
 
 ### Reference: Event #1 announcement post structure
 - Photograph: real bodies in daylight, mid-gesture
-- Lower-left overlay: GT Sectra headline 32px — *"Chicago. The first event is June 2026."*
+- Lower-left overlay: GT Sectra headline 32px — *"Chicago. The first event is July 18, 2026."*
 - Lower-right wordmark: cream-50 at 60% opacity
 - Caption (in the IG body, not the image): full manifesto-trailer text
 
@@ -129,7 +129,7 @@ The digital event flyer for IG carousels, email attachments, partner shares.
 - **Lower half (cream-100 background):**
   - Wordmark in midnight 900, GT Sectra at 64px
   - Hairline divider (1px border-hairline)
-  - Event details in label-caps (12px): `JUNE 14, 2026 · CHICAGO · DOORS 2PM`
+  - Event details in label-caps (12px): `JULY 18, 2026 · CHICAGO · DOORS 2PM`
   - 16px padding-base spacing
   - Single line of body copy in ink-700, body-md (16px): *"A daytime, sober dance party for people who want to meet a partner."*
   - 24px padding-lg spacing
@@ -224,7 +224,7 @@ For newsletter sends, RSVP confirmations, post-event recaps.
 - **Content:**
   - GT Sectra wordmark in midnight 900 at `typography.headline-md` (32px), centered horizontally, vertically centered
   - Below: 1px hairline divider in border-hairline, 60px wide, centered
-  - Below: single-line subline in `label-caps`, slate-500, e.g., `CHICAGO · JUNE 2026`
+  - Below: single-line subline in `label-caps`, slate-500, e.g., `CHICAGO · JULY 18, 2026`
 
 ### Token usage
 - Background: `colors.cream-100` OR photograph
@@ -257,7 +257,7 @@ For journalists, media, sponsor inquiries, venue pitches. One page. Designed.
   - Below rule: single line in `label-caps`, slate-500: `RESONANCE · CHICAGO · 2026`
 - **Hero block (middle 1/2):**
   - Single horizontal photograph, full-width within the 1" margin
-  - Caption beneath in `caption` (13px) ink-700: *"Photographed at Event #1, Chicago, June 2026."*
+  - Caption beneath in `caption` (13px) ink-700: *"Photographed at Event #1, Chicago, July 18, 2026."*
 - **Body block (lower 1/4):**
   - 3 columns
     - **What it is:** *"A daytime, sober dance party in Chicago for people who want to meet a partner. Heart encounters, not head encounters."* (body-md)

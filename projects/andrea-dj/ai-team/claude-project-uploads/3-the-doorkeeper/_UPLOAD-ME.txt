@@ -1,0 +1,6 @@
+PROJECT: The Doorkeeper
+
+1. Paste ALL of CUSTOM-INSTRUCTIONS.txt into this project's Custom Instructions.
+2. Upload every OTHER file in this folder into the project's Knowledge.
+   (Skip CUSTOM-INSTRUCTIONS.txt and this file when uploading knowledge.)
+3. Test with one example line from the project's guide. Ship only when it flinches.

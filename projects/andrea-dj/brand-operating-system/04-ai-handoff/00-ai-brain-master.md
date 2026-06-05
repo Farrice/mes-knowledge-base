@@ -57,7 +57,7 @@ Resonance is a daytime, sober, founder-curated dance event in Chicago for adults
 DJs every flagship event. The room is ~50 people, vetted one-yes-at-a-time. There
 is no bar. Phones go in a basket at the door. The music does the emotional labor;
 the people do not have to. The success metric is couples formed, not tickets sold.
-Phase 1 is one event in June 2026 with 25 hand-picked + 15 warm-referrals + 10
+Phase 1 is one event in July 18, 2026 with 25 hand-picked + 15 warm-referrals + 10
 public-application attendees. Phase 2+ is monthly events, story-led growth, and
 eventual subscription-room model. Resonance is not a club, not a wedding, not a
 mixer, not a wellness retreat, not a singles event in a hotel ballroom, not a

@@ -22,6 +22,6 @@ If you're a hell-yes to this, we want you in the room. If you're not sure, this 
 
 If you've asked yourself why it's so hard to meet a good person, the answer is not another app.
 
-Resonance is in Chicago. The first event is June 2026.
+Resonance is in Chicago. The first event is July 18, 2026.
 
 *Dance with someone new.*

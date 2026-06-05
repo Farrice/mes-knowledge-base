@@ -264,7 +264,7 @@ Mixing radii within a single composition is forbidden. Pick one register per vie
 
 - **`input`** — cream-50 background, ink-900 text, 2px radius, 14px padding. Focus state: terracotta-600 border at 2px. No animated label floats; the label sits above the input in `label-caps` and stays still.
 
-- **`badge-event`** — midnight-900 fill, cream text, 2px radius, `label-caps` at 6px padding. Used to mark date and city on photo cards: `JUNE 2026 · CHICAGO`. Never used to advertise discounts or hype.
+- **`badge-event`** — midnight-900 fill, cream text, 2px radius, `label-caps` at 6px padding. Used to mark date and city on photo cards: `JULY 18, 2026 · CHICAGO`. Never used to advertise discounts or hype.
 
 - **`divider`** — 1px solid `border-hairline`. Never thicker than 1px. The hairline rule from a broadsheet.
 
@@ -336,7 +336,7 @@ Cream-100 solid background. Centered vertically: a single GT Sectra `headline-md
 **Lower half on cream-100:**
   - Wordmark *RESONANCE* in GT Sectra 72px midnight-900, left-aligned 48px from the photo edge.
   - 1px hairline rule beneath the wordmark, 60% page width.
-  - Event details in label-caps midnight-900: `JULY 26, 2026 · CHICAGO · DOORS 2PM`.
+  - Event details in label-caps midnight-900: `JULY 18, 2026 · CHICAGO · DOORS 2PM`.
   - 32px gap.
   - Single line in ink-700 body-lg: *"A daytime, sober dance party for people who want to meet a partner."*
   - 48px gap.
@@ -347,7 +347,7 @@ Cream-100 solid background. Centered vertically: a single GT Sectra `headline-md
 **Back:** cream-100 paper-stock background (uncoated, warm-white). Top: GT Sectra `headline-sm` (24px) in midnight-900 — `RESONANCE 002`. Body: event date, venue, doors, in label-caps stacked left. Center-right: a single sentence in body-md ink-700 — *"You were in the room on [date]."* Lower-right: a 0.75" hairline-thin terracotta-600 underline. QR code for entry: lower-left, 0.75" square, midnight-900.
 
 ### Andrea Portrait (founder shot for press / About page)
-Andrea at the decks, mid-set, head down, hand on the fader, real Chicago loft light from a south-facing window behind her. Mid-shot, decentered: Andrea in the right third, the rest of the frame is the room — wood floor, terracotta brick wall, the half-blur of a body dancing behind her. Tonal grading is warm-neutral. The shot reads as *the founder doing the work*, not *the founder posing as the founder.* On a press one-sheeter, this photograph sits in the middle band with a 13px slate-500 caption beneath: *"Andrea — Resonance 001, Chicago, June 2026."*
+Andrea at the decks, mid-set, head down, hand on the fader, real Chicago loft light from a south-facing window behind her. Mid-shot, decentered: Andrea in the right third, the rest of the frame is the room — wood floor, terracotta brick wall, the half-blur of a body dancing behind her. Tonal grading is warm-neutral. The shot reads as *the founder doing the work*, not *the founder posing as the founder.* On a press one-sheeter, this photograph sits in the middle band with a 13px slate-500 caption beneath: *"Andrea — Resonance 001, Chicago, July 18, 2026."*
 
 ### Venue Pitch — One-Pager Top Section (Letter portrait)
 **Page header (top 1/4):**
@@ -356,7 +356,7 @@ Andrea at the decks, mid-set, head down, hand on the fader, real Chicago loft li
 - Below rule: single line in label-caps slate-500 — `A PRESS ONE-SHEETER · CHICAGO · JULY 2026`.
 **Hero block (middle 1/2):**
 - Single horizontal photograph, full-width within the 1" margin.
-- Caption in caption-13px ink-700: *"Photographed at Resonance 001, Chicago, June 2026."*
+- Caption in caption-13px ink-700: *"Photographed at Resonance 001, Chicago, July 18, 2026."*
 **Body block (lower 1/4):** three columns — *What it is* / *The mechanic* / *Press contact* — each in body-md, separated by a hairline divider.
 
 The page must read as a single editorial statement. A journalist should be able to write the lede from this one page.
