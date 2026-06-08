@@ -1,5 +1,5 @@
 # Wiki Lint Report
-*Generated: 2026-05-29 | 18 issues found*
+*Generated: 2026-06-08 | 18 issues found*
 
 **Errors**: 2 | **Warnings**: 5 | **Info**: 11
 
@@ -22,13 +22,13 @@
 
 - **[contradiction_zone]** `domain:seo` — 7 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:copywriting` — 22 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:strategy` — 21 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:brand` — 9 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:strategy` — 23 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:brand` — 10 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:content` — 28 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:research` — 5 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:research` — 6 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:sales` — 5 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:general` — 19 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:screenwriting` — 9 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:screenwriting` — 10 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:systems` — 11 files contain strong assertions — review for consistency
 - **[missing_frontmatter]** `multiple` — 223/240 files lack YAML frontmatter — limits metadata queries
 
