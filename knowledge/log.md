@@ -130,3 +130,4 @@
 - `[2026-06-02 01:34]` **finalize** | SFV first-time-homebuyer converting copy (lead-magnet opt-in + VSL lead + re-engagement email) — Sta | copywriting | luke-iha — composite:7.25 status:Needs Improvement
 - `[2026-06-02 10:10]` **finalize** | SFV FTHB converting copy v2 (CORRECTED) — claims primary-source verified vs LAHD/LACDA/CalHFA; fixed | copywriting | luke-iha — composite:7.25 status:Needs Improvement
 - `[2026-06-08 16:08]` **lint** | Lint scan — 18 issues (2 errors, 5 warnings) — Files scanned: 240
+- `[2026-06-09]` **audit** | Sean Macintyre Persuasion Philosophy — 6-week deployment review: 0 post-ship workflow invocations (all 17 UNUSED), 0 Notion Performance Log entries (dedicated), forge build 8.7. Apex tier never tested. Root cause: no routing hook + work-volume mismatch. Verdict: no calibration changes, 3 intentional deployments needed before benchmarking. Report: `_active/sean-macintyre-audit-2026-06-09.md`
