@@ -1,25 +1,19 @@
 #!/usr/bin/env python3
 """
-forge_gate.py — Extraction freeze gate (deterministic).
+forge_gate.py — Extraction usage TELEMETRY (never a gate).
 
-Rule: no new /extract or /extract-forge until the most recent extraction has
-≥3 PRODUCTION uses (finalize traces where workflow is not a build workflow).
-Origin: audit 2026-04-24 ("growth curve flipped from accretive to dilutive")
-+ Sean Macintyre audit 2026-06-09 (17 workflows, 0 uses in 6 weeks). New
-domain knowledge enters as genius.md enrichment of A-tier skills instead.
+STANDING DECISION (Farrice, 2026-06-09): extractions are NEVER gated. The
+freeze concept shipped in the rebuild and was reversed the same day at his
+explicit direction. This script survives purely as telemetry: it counts
+PRODUCTION uses of the most recent extraction (finalize traces where workflow
+is not a build workflow) for the monthly /weekly-closeout report.
 
 Usage:
-    python3 execution/forge_gate.py check [--force]
-    python3 execution/forge_gate.py record <skill-dir-name> [--expert <name>]
-    python3 execution/forge_gate.py status
-
-Exit codes (check):
-    0 = gate OPEN (last extraction has enough production uses, no prior
-        extraction on record, or --force override logged)
-    2 = gate CLOSED (last extraction under-used; message on stdout)
-
-Soft gate by user decision 2026-06-09: --force is honored but logged to
-evolution_store/forge_gate_overrides.jsonl.
+    python3 execution/forge_gate.py status                    # JSON usage report
+    python3 execution/forge_gate.py record <skill-dir> [--expert <name>]
+    python3 execution/forge_gate.py check                     # ALWAYS exit 0 (kept
+                                                              # for compatibility;
+                                                              # prints usage info)
 """
 
 import sys
@@ -95,44 +89,18 @@ def _production_uses(traces, skill, expert, shipped):
 
 
 def cmd_check(args):
+    """Compatibility shim — ALWAYS exits 0. Extractions are never gated
+    (standing decision 2026-06-09). Prints the usage count as information."""
     traces = _load_traces()
     state = _last_extraction(traces)
     if state is None:
-        print("FORGE GATE OPEN — no prior extraction on record.")
+        print("EXTRACTION TELEMETRY — no prior extraction on record. Proceed.")
         return 0
-
     skill = state["last_extraction"]
     uses = _production_uses(traces, skill, state.get("expert", ""), state.get("shipped", ""))
-
-    if len(uses) >= REQUIRED_USES:
-        print(f"FORGE GATE OPEN — {skill} has {len(uses)}/{REQUIRED_USES} production uses.")
-        return 0
-
-    if args.force:
-        OVERRIDE_LOG.parent.mkdir(parents=True, exist_ok=True)
-        with open(OVERRIDE_LOG, "a") as f:
-            f.write(json.dumps({
-                "timestamp": datetime.now().isoformat(),
-                "skill": skill,
-                "production_uses": len(uses),
-                "required": REQUIRED_USES,
-                "reason": args.reason or "unspecified",
-            }) + "\n")
-        print(f"FORGE GATE FORCED OPEN — {skill} has only {len(uses)}/{REQUIRED_USES} "
-              f"production uses. Override logged to {OVERRIDE_LOG.name}.")
-        return 0
-
-    print(f"""FORGE GATE CLOSED — {skill} has {len(uses)}/{REQUIRED_USES} production uses since ship.
-
-The last extraction hasn't earned its keep yet. Options (in order of preference):
-  1. DEPLOY IT: route real work through {skill} ({REQUIRED_USES - len(uses)} more
-     finalize traces with workflow != extract-forge opens the gate).
-  2. ENRICH INSTEAD: add the new source material as genius.md enrichment to an
-     existing A-tier skill (per audit-2026-04-24 — knowledge enters existing
-     skills, not new SKILL.md files).
-  3. OVERRIDE (logged): re-run with --force --reason "<why this can't wait>".
-""")
-    return 2
+    print(f"EXTRACTION TELEMETRY (informational, never blocks) — last extraction "
+          f"{skill}: {len(uses)} production use(s) since ship. Proceed.")
+    return 0
 
 
 def cmd_record(args):
@@ -152,16 +120,15 @@ def cmd_status(args):
     traces = _load_traces()
     state = _last_extraction(traces)
     if state is None:
-        print(json.dumps({"gate": "open", "last_extraction": None}, indent=2))
+        print(json.dumps({"mode": "telemetry-only", "last_extraction": None}, indent=2))
         return 0
     skill = state["last_extraction"]
     uses = _production_uses(traces, skill, state.get("expert", ""), state.get("shipped", ""))
     print(json.dumps({
-        "gate": "open" if len(uses) >= REQUIRED_USES else "closed",
+        "mode": "telemetry-only (extractions are never gated)",
         "last_extraction": skill,
         "shipped": state.get("shipped"),
         "production_uses": len(uses),
-        "required": REQUIRED_USES,
         "uses": uses,
     }, indent=2))
     return 0

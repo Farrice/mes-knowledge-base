@@ -27,7 +27,7 @@ If the task matches a domain below, deploy the bound workflow **even if the user
 | Cold-start → converting copy (VSL/ad/email/landing from blank page) | `/copy-engine` — **Ground Once, Refine Free.** Grounds ONCE via `avatar_manifold_runner.py` (WARM reuse = $0), writes `warm_core`, assembles the 6 copy blocks, gates proof via `verify_proof_ledger.py`. Later iterations reuse the cache at $0 | Writing copy from ungrounded context. Refinement of EXISTING copy uses standalone copy-blocks workflows at $0 |
 | Multi-expert / collaborative / council work | `/convene` → `collective-genius-council.workflow.js` (presets: `/council` `/roundtable` `/strike` `/campaign` `/deploy-council`) | JCC plugin stubs, `execution/parallel_swarm.py` (deprecated) |
 | Generic research · "deep research on X" · strategic intelligence | **Unified Research Engine** `execution/research.py`. Deep/max: native expert SWARM (`.agent/workflows/deep-research-swarm.workflow.js` via Workflow tool), $0 incremental. Quick/standard: `python3 execution/research.py "<q>" --depth <tier>`. Every result carries a **Research Receipt** | Answering research from training memory |
-| **New expert extraction** ("extract this expert", `/extract`, `/extract-forge`) | Gated by `forge_gate.py check` — last extraction needs ≥3 production uses first. Prefer genius.md enrichment of A-tier skills | Ungated extraction (Sean Macintyre: 17 workflows, 0 uses in 6 weeks). Override: `--force --reason` (logged) |
+| New expert extraction ("extract this expert", `/extract`, `/extract-forge`) | `/extract` or `/extract-forge` directly — **never gated** (Farrice's standing decision 2026-06-09). `forge_gate.py status/record` = telemetry only | — |
 
 ## Non-Optional Phase Gates
 
@@ -35,7 +35,7 @@ If the task matches a domain below, deploy the bound workflow **even if the user
 
 **Parallax Phase 2.5 GROUND + ZEITGEIST is non-optional for Editions 02+.** Claim extraction, budget-tiered verification (Recall -> Perplexity), zeitgeist scan, halt/proceed gate. Skip only with explicit `--no-ground` (pure memoir, zero external factual surface). Origin: Edition 02 shipped 7 fabrications.
 
-**Extraction freeze is non-optional.** `forge_gate.py check` is the Phase 0 of `/extract` and `/extract-forge`, the precondition of the `extraction_freeze` binding, and backstopped by `hookify.forge-freeze.local.md`.
+**Extractions are never gated** (standing decision 2026-06-09 — the freeze concept shipped and was reversed the same day at Farrice's direction). `forge_gate.py` survives only as usage telemetry: `status` shows the last extraction's production-use count in the monthly closeout; `record` registers a new extraction. Neither blocks anything.
 
 ## Manual Pre-Flight (when composing workflows yourself)
 

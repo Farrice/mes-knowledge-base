@@ -14,15 +14,6 @@ Extract expert knowledge from any source material and produce a deployable compl
 
 ## Steps
 
-### 0. Forge Gate (MANDATORY — deterministic)
-
-```bash
-// turbo
-python3 execution/forge_gate.py check
-```
-
-Exit 2 = gate CLOSED: the most recent extraction has <3 production uses. **Halt and present the gate's message.** Prefer deploying the last extraction or enriching an existing A-tier genius.md over a new extraction. Override only with user approval: `--force --reason "..."` (logged). After a completed extraction, run `python3 execution/forge_gate.py record <skill-dir> --expert <name>`.
-
 ### 1. Receive Source Material
 Accept transcript, article, course content, interview, or any knowledge-dense material. If the user provides a URL, read the content first.
 

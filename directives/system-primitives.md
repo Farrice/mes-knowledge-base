@@ -8,7 +8,7 @@ Each row names who owns the responsibility and what triggers it. If a workflow r
 |---|---|---|---|
 | `intent_to_package` | Outcome-class detection -> mission package | `/autopilot` Phase 1 | `execution/intent_to_package.py` |
 | `routing_enforcer` | Runtime validation of Mandatory Routing table | **UserPromptSubmit hook (deterministic)** + `finalize` post-hoc | `execution/routing_enforcer.py` |
-| `forge_gate` | Extraction freeze: last extraction needs ≥3 production uses | `extraction_freeze` binding precondition + Phase 0 of `/extract`/`/extract-forge` | `execution/forge_gate.py` |
+| `forge_gate` | Extraction usage TELEMETRY only (never gates — standing decision 2026-06-09) | `record` at end of extractions; `status` in monthly `/weekly-closeout` | `execution/forge_gate.py` |
 | `cost_gate` | Pre-flight approval for paid APIs (Fal, Perplexity, NotebookLM, Gemini) | **PreToolUse(Bash) hook — HARD BLOCK** + `/autopilot` G2 (>$5) | `execution/cost_gate.py` + `execution/hooks/cost_gate_hook.py` |
 | `session_ledger` | Finalize-debt tracking, measured sub-agent counts, routing warns, staleness | **UserPromptSubmit/PostToolUse/Stop hooks** | `execution/hooks/session_ledger_hook.py` |
 | `anchor_memory` | Project-scoped persistent context anchors | `/supercomputer` + multi-deliverable missions (`--project` on finalize) | `execution/anchor_memory.py` |

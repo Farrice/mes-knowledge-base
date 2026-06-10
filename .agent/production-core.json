@@ -43,6 +43,6 @@
     {"id": "execution/research.py", "why": "unified research engine"},
     {"id": "execution/chain_runner.py", "why": "finalize quality gate"},
     {"id": "execution/knowledge_compiler.py", "why": "Karpathy wiki engine"},
-    {"id": "extract-forge", "why": "extraction pipeline — GATED by forge_gate.py"}
+    {"id": "extract-forge", "why": "extraction pipeline — ungated; forge_gate.py is telemetry only"}
   ]
 }

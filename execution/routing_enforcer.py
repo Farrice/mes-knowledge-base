@@ -411,42 +411,9 @@ BINDINGS = [
             "start guarantees modeled language and rubric criterion-6 failure."
         ),
     },
-    {
-        # Extraction freeze (added 2026-06-09). New expert extractions are
-        # gated on the LAST extraction having ≥3 production uses — the growth
-        # curve flipped from accretive to dilutive (audit 2026-04-24), and
-        # Sean Macintyre shipped 17 workflows that got 0 uses in 6 weeks.
-        # forge_gate.py is the deterministic precondition; --force is the
-        # logged soft override (user decision 2026-06-09).
-        "id": "extraction_freeze",
-        "signal_phrases": [
-            "extract-forge", "extract forge", "/extract ", "run extract",
-            "extract this expert", "extract the expert", "new extraction",
-            "full extraction", "extract him", "extract her", "mes 3.0",
-        ],
-        # Sub-operations and non-expert uses of the verb "extract" pass through.
-        "negative_signals": [
-            "extract-principle", "extract a principle", "extract-vision",
-            "extract-amplify", "testimonial", "hook formula", "key points",
-            "extract the key", "extract from this draft", "extract the quotes",
-            "parallel-extract", "convert-extraction",
-        ],
-        "mandatory_workflow_any_of": ["extract-forge", "extract"],
-        "precondition_cmd": ["python3", "execution/forge_gate.py", "check"],
-        "precondition_applies_to": ["extract-forge", "extract"],
-        "forbidden_workflows": [],
-        "reason": (
-            "No new extraction until the most recent one has ≥3 production uses "
-            "(finalize traces where workflow != extract-forge). New domain "
-            "knowledge enters as genius.md enrichment of existing A-tier skills. "
-            "Check: python3 execution/forge_gate.py status"
-        ),
-        "override_flag": "--force (on forge_gate.py check, logged)",
-        "override_warning": (
-            "Overrides are logged to evolution_store/forge_gate_overrides.jsonl. "
-            "Each unused extraction is ~2-3 weeks of build work with zero return."
-        ),
-    },
+    # NOTE (2026-06-09, same-day reversal): the extraction_freeze binding was
+    # removed at Farrice's explicit direction — extractions are never gated.
+    # forge_gate.py remains as usage TELEMETRY only (status/record).
     {
         # Placed LAST so domain-specific bindings (avatar, copy, parallax, BOS)
         # take precedence. This is the catch-all for GENERIC research that would

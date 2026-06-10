@@ -33,8 +33,9 @@ Wired in `.claude/settings.json` → `execution/hooks/`. When a gate fires, work
 | **Cost gate** (paid APIs: Fal, Seedance, Kling, deep-research) | PreToolUse(Bash) → `cost_gate_hook.py` | **HARD BLOCK.** Denied = surface to Farrice, do not retry. Needs-approval = ask Farrice; ONLY after explicit yes run `cost_gate.py approve --service <id>`, then retry (15-min token) |
 | **Finalize debt** | Stop → `session_ledger_hook.py` | Expert skill loaded + artifact produced + no finalize = turn-end blocked ONCE with prefilled command. Run it honestly |
 | **Routing bindings** | UserPromptSubmit → `session_ledger_hook.py` | Violations injected as ROUTING WARNING with the binding reason — pivot or use the documented override flag |
-| **Extraction freeze** | `forge_gate.py check` (binding precondition + Phase 0 of `/extract`/`/extract-forge`) | Last extraction needs ≥3 production uses. Closed = present options (deploy it / enrich A-tier genius.md / logged `--force`) |
 | **Sub-agent truth** | PostToolUse counts real Task/Agent spawns | Use the measured count in `--sub-agents`; zero spawns on a qualifying workflow logs a miss |
+
+Extractions (`/extract`, `/extract-forge`) are **never gated** — Farrice's standing decision 2026-06-09. `forge_gate.py status/record` is usage telemetry only.
 
 `evolution_orchestrator.py auto` runs daily 07:00 via launchd (`com.antigravity.evolution-auto`) — never manually babysit evolution cycles.
 
@@ -92,7 +93,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 - Brand OS -> `/build-bos` · multi-deliverable mission -> `/supercomputer` · "no gates" -> `/autopilot` · context engineering -> `/ce-design`
 - Multi-expert/council -> `/convene` · generic research -> `execution/research.py` (Receipt-carrying; never answer research from training memory)
 - DESIGN.md work -> `/design-md-*` · UI from DESIGN.md -> `/product-build` · posters/video -> `skills/fantastic-posters/` (cost-gated)
-- New extraction -> gated by `forge_gate.py check` (prefer genius.md enrichment of A-tier skills)
+- New extraction -> `/extract` or `/extract-forge`, ungated (forge_gate.py is telemetry only; genius.md enrichment of A-tier skills remains available as an option, never a requirement)
 - JS-rendered/login-gated web -> Playwright (`directives/browser-automation-safety.md`), never WebFetch · video sources -> `fetch-video-context.py`
 
 Known internalized routes: LinkedIn -> Lara Acosta | copywriting -> Luke Iha/Georgi | SEO -> Nathan Gotch | brand -> Oren/Grace | ghostwriting -> Nicolas Cole | content psychology -> Kallaway | agentic workflows -> Nick Saraev. Ambiguous/multi-domain: read `DOMAIN_REGISTRY.md`/`invocation-cards.md`.

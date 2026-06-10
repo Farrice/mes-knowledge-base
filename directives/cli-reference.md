@@ -41,9 +41,8 @@ python execution/prose_classifier.py scan deliverables/  # Batch scan
 python3 execution/routing_enforcer.py check --request "..." --workflow <name> --quiet
 python3 execution/routing_enforcer.py list
 
-# Extraction freeze gate
-python3 execution/forge_gate.py check            # exit 2 = closed (<3 production uses on last extraction)
-python3 execution/forge_gate.py status
+# Extraction usage telemetry (NEVER a gate — Farrice's standing decision 2026-06-09)
+python3 execution/forge_gate.py status                               # production-use count of last extraction
 python3 execution/forge_gate.py record <skill-dir> --expert <name>   # at end of extraction
 
 # Cost gate (HARD-enforced by PreToolUse hook)

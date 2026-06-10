@@ -66,7 +66,7 @@ python3 execution/forge_gate.py status
 
 - **CORE DRIFT**: read the section in the new audit report. Any core entry trace-less 2 consecutive months → propose demotion from `PRODUCTION_CORE.md` + `.agent/production-core.json`. Any long-tail skill with 3+ traces → propose promotion.
 - **REVIEW-tier pass**: present up to 5 REVIEW-tier skills for archive judgment (`skill_auditor.py archive --tier REVIEW --names <approved> --annotate --apply`).
-- **Forge gate**: report the last extraction's production-use count (X/3).
+- **Extraction telemetry** (informational only — extractions are never gated): report the last extraction's production-use count from `forge_gate.py status`.
 
 ### 6. Close
 

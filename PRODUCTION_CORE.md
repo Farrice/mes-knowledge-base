@@ -46,7 +46,7 @@
 | `/weekly-pulse` · `/weekly-closeout` | Weekly planning · outer-loop closure |
 | `chain_runner.py finalize` | Quality gate (enforced by Stop-hook ledger) |
 | `knowledge_compiler.py` | Wiki ingest/query/lint |
-| `extract-forge` | New expert extraction — **GATED**: `forge_gate.py check` requires the last extraction to have ≥3 production uses |
+| `extract-forge` | New expert extraction — ungated (forge_gate.py = usage telemetry only) |
 
 ## Everything Else
 

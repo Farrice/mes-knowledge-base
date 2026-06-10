@@ -54,8 +54,9 @@ The outer loop. The session hook reminds you when it's stale — you don't have 
 |---|---|---|
 | Cost | Claude asks "Approve $X for Y?" | Yes → Claude runs `cost_gate.py approve` and retries. No → it stops. Denied = hard cap hit, no override |
 | Finalize debt | Claude gets bounced once at turn-end into running finalize | Nothing — it self-corrects. (Observe-mode first; flip to enforce after ~5 clean sessions: add `LEDGER_ENFORCE=1` to the Stop hook command in `.claude/settings.json`) |
-| Extraction freeze | "/extract-forge" halts: last extraction has <3 production uses | Deploy the last extraction, enrich an A-tier genius.md instead, or approve a logged `--force` |
 | Routing warning | Injected note: "workflow X is forbidden for this domain" | Let Claude pivot to the mandatory workflow |
+
+Extractions are **never gated** — `/extract` and `/extract-forge` run on demand. The monthly closeout reports each extraction's production-use count as information, nothing more.
 
 ## North Star
 

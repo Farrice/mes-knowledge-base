@@ -31,15 +31,6 @@ This is the "do it all" command. One invocation, one conversation, one complete 
 
 ## Pipeline
 
-### Phase 0: Forge Gate (MANDATORY — deterministic)
-
-```bash
-// turbo
-python3 execution/forge_gate.py check
-```
-
-Exit 2 = gate CLOSED: the most recent extraction has <3 production uses. **Halt and present the gate's message to the user.** Options: deploy the last extraction in real work, enrich an existing A-tier genius.md with this source instead, or (user-approved only) re-run with `--force --reason "..."` (logged). The `extraction_freeze` binding in `routing_enforcer.py` enforces this same gate pre-flight.
-
 ### Phase 1: Source Acquisition
 
 1. **If YouTube URL**: Fetch transcript AND visual context **in parallel**
@@ -164,7 +155,7 @@ python3 execution/chain_runner.py finalize "[Expert] — [Domain] mastery extrac
     --notes "[workflow count] workflows, [genius pattern count] genius patterns, mastery-level depth"
 ```
 
-Then register the extraction with the forge gate (starts its 3-production-use clock):
+Then register the extraction for usage telemetry (informational only — feeds the monthly production-use report, never blocks):
 
 ```bash
 // turbo
