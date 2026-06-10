@@ -4,3 +4,8 @@
 {"ts": "2026-06-02T21:24:41Z", "service": "gemini-deep-research", "type": "quota", "request": "", "status": "success", "estimated_cost_usd": 0.0, "actual_cost_usd": 0.5, "output_path": "", "project": ""}
 {"ts": "2026-06-02T21:33:14Z", "service": "gemini-deep-research", "type": "quota", "request": "", "status": "success", "estimated_cost_usd": 0.0, "actual_cost_usd": 0.5, "output_path": "", "project": ""}
 {"ts": "2026-06-02T21:48:32Z", "service": "gemini-deep-research", "type": "quota", "request": "", "status": "success", "estimated_cost_usd": 0.0, "actual_cost_usd": 0.5, "output_path": "", "project": ""}
+{"ts": "2026-06-10T01:35:02.513542+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --image out.png"}
+{"ts": "2026-06-10T01:35:22.928571+00:00", "event": "check", "service": "fal-poster", "decision": "approved", "request": "./gen.sh \"neon noir poster\" --style neon-noir --quality high"}
+{"ts": "2026-06-10T01:35:22.995909+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": "python3 execution/deep_research_client.py \"market research\""}
+{"ts": "2026-06-10T01:35:37.611576+00:00", "event": "check", "service": "higgsfield-cinema", "decision": "needs_approval", "request": "test"}
+{"ts": "2026-06-10T01:35:37.712078+00:00", "event": "check", "service": "fal-kling", "decision": "approved", "request": "python3 execution/fal_video_kling.py --image x.png --duration 10"}

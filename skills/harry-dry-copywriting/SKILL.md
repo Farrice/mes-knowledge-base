@@ -4,6 +4,7 @@ description: 'Evaluates and rewrites copy using Harry Dry''s precision framework
 version: "2.0"
 format: "completion-engine"
 workflows: 3
+routing: long-tail
 ---
 
 # Harry Dry Copywriting

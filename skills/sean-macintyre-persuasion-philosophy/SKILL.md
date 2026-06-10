@@ -6,6 +6,7 @@ format: "completion-engine"
 workflows: 17
 expert: "Sean Macintyre"
 domain: "Copywriting / Marketing / Behavioral Psychology / Entrepreneurship"
+routing: long-tail
 ---
 
 # Sean Macintyre — Persuasion Philosophy

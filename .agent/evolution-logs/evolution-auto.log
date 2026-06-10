@@ -1,0 +1,228 @@
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-09.md",
+        "traces_24h": 2,
+        "routing_decisions_24h": 5,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0
+      }
+    },
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-06-09.json",
+        "skills_tracked": 4,
+        "degrading_count": 0,
+        "degrading_skills": [],
+        "improving_count": 0,
+        "improving_skills": []
+      }
+    },
+    {
+      "monthly": {
+        "cycle": "monthly",
+        "gap_analysis": {
+          "summary": {
+            "total_performance_entries": 100,
+            "total_skills": 246,
+            "used_skills": 54,
+            "dead_skills": 213,
+            "gap_log_entries": 0,
+            "analysis_date": "2026-06-09"
+          },
+          "low_performing_skills": [],
+          "dead_skills_count": 213,
+          "dead_skills_sample": [
+            "adam-enfroy-affiliate-marketing",
+            "ai-chris-lee-zero-testimonial-sales",
+            "alen-sultanic-copywriting",
+            "alex-content-science",
+            "alex-copper-creative-strategy",
+            "algorithmic-art",
+            "ali-abdaal-action-bias",
+            "andreessen-horowitz-new-media",
+            "andrew-dun-vibe-consulting",
+            "andrew-wilkinson-ai-entrepreneurship",
+            "andy-lo-premium-websites",
+            "april-dunford-positioning",
+            "asset_generator",
+            "authority-hacker-ai-social-media",
+            "bond-halbert-copywriting",
+            "boris-claude-code",
+            "brand-guidelines",
+            "brock-johnson-shareworthy-content",
+            "business-intelligence-audit",
+            "caleb-ralston-personal-brand"
+          ],
+          "weak_task_types": [],
+          "recurring_gaps": [],
+          "task_type_coverage": {
+            "Extraction": {
+              "count": 33,
+              "skills_used": [
+                "alex-m-smith-natural-strategy",
+                "alex-myatt-creative-engine",
+                "bitbranding-fashion-shopify",
+                "brad-bonanno-explainer-architecture",
+                "chase-hughes-context-engineering",
+                "chase-hughes-conversational-influence",
+                "cheri-tree-bank-buyology",
+                "dara-denney-meta-ads",
+                "diandra-escobar-linkedin-growth",
+                "donald-miller-business-growth",
+                "donald-miller-messaging-evolution",
+                "john-whiting-propaganda-machine",
+                "luke-iha-avatar-machine",
+                "luke-iha-copy-blocks",
+                "noah-hawley-storytelling-mastery",
+                "omar-eddaoudi-scaling-ops",
+                "oren-one-person-ai-marketer",
+                "patrick-debois-cdlc",
+                "sam-parr-copywriting",
+                "satori-graphics",
+                "satori-graphics-design-mastery",
+                "sky-tan-format-engine",
+                "tom-noske-content-creation",
+                "tom-segura-comedy-storytelling",
+                "vince-nijhof-dtc-operator-system",
+                "vince-nijhof-ecommerce-scaling"
+              ],
+              "avg_quality": 7.8
+            },
+            "Strategy": {
+              "count": 9,
+              "skills_used": [
+                "big-project",
+                "donald-miller-business-growth",
+                "icp-deep-dive",
+                "jen-santulan-listing-content",
+                "oren-brand-archetypes",
+                "source-command-sinem-substack",
+                "vince-nijhof-dtc-operator-system",
+                "writers-room"
+              ],
+              "avg_quality": 7.7
+            },
+            "Research": {
+              "count": 6,
+              "skills_used": [
+                "brand-operating-system",
+                "deep-research",
+                "luke-iha-avatar-machine",
+                "research-swarm",
+                "test"
+              ],
+              "avg_quality": 7.5
+            },
+            "System": {
+              "count": 17,
+              "skills_used": [
+                "brand-operating-system",
+                "david-bayer-elite-communication",
+                "diandra-escobar-linkedin-growth",
+                "extract-forge",
+                "memory-architect",
+                "nate-b-jones-context-engineering",
+                "system-audit"
+              ],
+              "avg_quality": 7.3
+            },
+            "Client Work": {
+              "count": 8,
+              "skills_used": [
+                "ai-brain-deploy",
+                "brand-operating-system",
+                "creative-campaign-strategy",
+                "jen-santulan-listing-content",
+                "sky-tan-format-engine",
+                "yt-flywheel"
+              ],
+              "avg_quality": 7.9
+            },
+            "Content": {
+              "count": 15,
+              "skills_used": [
+                "atomize",
+                "brand-operating-system",
+                "david-bayer-elite-communication",
+                "ghostwrite",
+                "jen-santulan-listing-content",
+                "lara-acosta-linkedin-ghostwriting",
+                "lara-acosta-linkedin-mastery",
+                "luke-iha-copy-blocks",
+                "parallax",
+                "writers-room"
+              ],
+              "avg_quality": 7.0
+            },
+            "Copy": {
+              "count": 5,
+              "skills_used": [
+                "luke-iha-avatar-machine",
+                "luke-iha-vsl-leads",
+                "source-command-sinem-substack"
+              ],
+              "avg_quality": 7.3
+            },
+            "Creative": {
+              "count": 2,
+              "skills_used": [
+                "creative-direction"
+              ],
+              "avg_quality": 7.2
+            },
+            "Client_Work": {
+              "count": 1,
+              "skills_used": [
+                "big-project"
+              ],
+              "avg_quality": 7.2
+            },
+            "system-implementation": {
+              "count": 1,
+              "skills_used": [
+                "source-command-deep-research"
+              ],
+              "avg_quality": 8.3
+            },
+            "research-validation": {
+              "count": 1,
+              "skills_used": [
+                "source-command-deep-research"
+              ],
+              "avg_quality": 8.3
+            },
+            "forge-stacking": {
+              "count": 1,
+              "skills_used": [
+                "corey-mcclain-persona-engineering"
+              ],
+              "avg_quality": 8.7
+            },
+            "Audit": {
+              "count": 1,
+              "skills_used": [
+                "substack-business-architecture"
+              ],
+              "avg_quality": 8.7
+            }
+          },
+          "recommendations": [
+            {
+              "priority": "LOW",
+              "type": "DEAD_SKILLS",
+              "action": "213 skills have never been used. Consider auditing for relevance or archiving unused skills."
+            }
+          ]
+        },
+        "status": "ok"
+      }
+    }
+  ],
+  "skipped": []
+}

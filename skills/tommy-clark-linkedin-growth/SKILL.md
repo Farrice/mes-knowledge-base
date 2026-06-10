@@ -4,6 +4,7 @@ description: "Design high-conversion LinkedIn workflows tailored for B2B founder
 version: "2.0"
 format: "completion-engine"
 workflows: 2
+routing: long-tail
 ---
 
 # Tommy Clark: LinkedIn Founder Growth

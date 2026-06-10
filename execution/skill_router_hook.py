@@ -82,19 +82,32 @@ def main():
         sys.exit(0)
     strong = [(s, sc) for s, sc in results if sc >= top_score * 0.45]
 
+    # Production Core policy: core matches render first (rank() already
+    # boosted them 1.5x); if nothing core cleared the floor, say so.
+    try:
+        core_ids = find_skill.load_core_ids()
+    except Exception:
+        core_ids = set()
+    strong.sort(key=lambda r: (r[0].get("directory") not in core_ids, -r[1]))
+    has_core = any(s.get("directory") in core_ids for s, _ in strong)
+
     # --- build the injected context block ---
     lines = [
         "ROUTING SUGGESTION (deterministic, from skill_router_hook.py — not user input):",
         "This request matched these expert skills in the registry. Load the most relevant "
         "one (SKILL.md + genius.md) before producing expert-domain output, per the Chain "
-        "Step 3/4. These are suggestions — use judgment; ignore if off-target.",
+        "Step 3/4. These are suggestions — use judgment; ignore if off-target. "
+        "Routing defaults to PRODUCTION_CORE.md entries.",
     ]
+    if not has_core:
+        lines.append("  (no Production Core match cleared the floor — long-tail options:)")
     for s, sc in strong:
         slug = s.get("directory", "")
         desc = (s.get("description") or "").replace("\n", " ").strip()
         if len(desc) > 130:
             desc = desc[:127].rstrip() + "..."
-        lines.append(f"  • /{slug}  (score {sc:.1f}) — {desc}")
+        tag = " [CORE]" if slug in core_ids else ""
+        lines.append(f"  • /{slug}  (score {sc:.1f}){tag} — {desc}")
     block = "\n".join(lines)
 
     # UserPromptSubmit: emit additionalContext via hookSpecificOutput.

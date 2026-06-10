@@ -4,6 +4,7 @@ description: 'Runs Cardinal Mason''s end-to-end AI copywriting business system â
 version: "2.0"
 format: "completion-engine"
 workflows: 5
+routing: long-tail
 ---
 
 # Cardinal Mason - AI Copywriting Mastery

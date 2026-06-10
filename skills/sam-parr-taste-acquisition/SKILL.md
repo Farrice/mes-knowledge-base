@@ -4,6 +4,7 @@ description: "The 4-step system for building taste from scratch in any domain â€
 version: "1.0"
 format: "completion-engine"
 workflows: 12
+routing: long-tail
 ---
 
 # Sam Parr â€” Taste Acquisition Mastery

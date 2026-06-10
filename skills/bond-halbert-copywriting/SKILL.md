@@ -4,6 +4,7 @@ description: 'Executes Bond Halbert''s 47-year direct-response copywriting syste
 version: "2.0"
 format: "completion-engine"
 workflows: 4
+routing: long-tail
 ---
 
 # Bond Halbert - Ultimate Copywriting Mastery

@@ -4,6 +4,7 @@ description: 'Engineers Instagram content for shareworthiness using Brock Johnso
 version: "2.0"
 format: "completion-engine"
 workflows: 3
+routing: long-tail
 ---
 
 # Brock Johnson - Shareworthy Content Mastery

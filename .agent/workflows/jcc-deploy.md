@@ -1,19 +1,13 @@
 ---
-description: Full Deploy — maximum-breadth council (preset of /convene --mode deploy)
+description: "(alias) → /convene"
+status: superseded
+superseded_by: convene
 ---
 
-# /deploy (jcc-deploy) — Full Deploy
+# /jcc-deploy — superseded alias
 
-Maximum breadth: convene up to 16 diverse voices across the roster, reduce to a 6-voice inner
-council, deliberate, synthesize. A **preset of the Collective Genius Council** (`/convene`) at
-its widest. For complex, high-stakes problems where you want the whole army.
+Superseded 2026-06-09 (entry-point unification, rebuild/deterministic-enforcement).
 
-> Superseded the old JCC stub (2026-06-02) — it forwarded to a missing plugin. Now fronts the
-> reliable Workflow engine. (Heaviest preset — most tokens per run; still $0 incremental API cost.)
+**Read and execute `.agent/workflows/convene.md`** with this invocation's arguments.
 
-## Execution
-Invoke the **Workflow tool** with:
-- `scriptPath`: `.agent/workflows/collective-genius-council.workflow.js`
-- `args`: `{ "task": "<the mission>", "mode": "deploy" }`
-
-For multi-deliverable execution after the strategy lands, chain into `/supercomputer` (see `/campaign`).
+Rationale: JCC plugin stubs superseded by the local Collective Genius Council (binding collective_genius). Original content: `git show pre-rebuild-2026-06-09:.agent/workflows/jcc-deploy.md`.

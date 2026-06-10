@@ -4,6 +4,7 @@ description: "Content-driven brand architecture: City Model transit strategy, tr
 version: "2.1"
 format: "completion-engine"
 workflows: 18
+routing: long-tail
 ---
 
 # Grace Andrews — Media Company Architecture

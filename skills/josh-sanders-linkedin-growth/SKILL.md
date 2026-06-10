@@ -4,6 +4,7 @@ description: 'Manufactures LinkedIn virality using Josh Sanders'' format-arbitra
 version: "2.0"
 format: "completion-engine"
 workflows: 5
+routing: long-tail
 ---
 
 # Josh Sanders: LinkedIn Growth & High-Ticket Education

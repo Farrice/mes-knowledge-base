@@ -4,6 +4,7 @@ description: "Multi-source content creation, enrichment, bundling, and platform 
 version: "1.0"
 format: "completion-engine"
 workflows: 8
+routing: long-tail
 ---
 
 # Kieran Flanagan - Content Engine

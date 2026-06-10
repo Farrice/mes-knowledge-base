@@ -4,6 +4,7 @@ description: 'Architects high-converting financial direct-response promotions us
 version: "2.0"
 format: "completion-engine"
 workflows: 3
+routing: long-tail
 ---
 
 # Chris Cimorelli — Financial Direct Response Copywriting

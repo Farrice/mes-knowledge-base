@@ -67,6 +67,10 @@ Read the dossier and the manifold (run `/avatar-manifold` if a full manifold is 
 - `/copy-equation` at offer level → name the single limiting block.
 - `/little-big-idea` → the through-line. Awareness level from the dossier → Schwartz ladder.
 
+**Persuasion-mechanics pre-flight** (2 questions, wired 2026-06-09 per the Sean Macintyre deployment audit — answer from the dossier, deploy only on YES):
+1. *Is this audience armored?* (burned by gurus, high skepticism, "seen it all" — check VOC soundbites for cynicism markers) → YES: run `skills/sean-macintyre-persuasion-philosophy/` armor-diagnose BEFORE block sourcing; its output feeds the curiosity + proof blocks.
+2. *Is the mechanism borrowed or inherited rather than proven?* (UMS lifted from a competitor/template) → YES: run Sean's mechanism-test on the UMS before promising it.
+
 ## PHASE 3 — BLOCK SOURCING (parallel sub-agents; $0 — reads warm_core)
 Source the 6 blocks. All read `warm-core.json` + the dossier (no new research). Dispatch the **PROOF** block as a sub-agent with research tools (it's the one factual surface) — it emits the claim ledger:
 - pain → `/pain-chain` (calibrated by Pain Matrix dim) · promise → `/promise-engineering` (identity ceiling) · curiosity → `/curiosity-engine` (Quadrant from `market_beliefs`) · **proof → verify each candidate stat live**, emit `.tmp/copy-engine/<slug>/proof-claims.md` (claim | source | VERIFIED|LIKELY|UNCONFIRMED) · constraints/conditions → `/constraint-dissolution` + `/conditions-stack`.

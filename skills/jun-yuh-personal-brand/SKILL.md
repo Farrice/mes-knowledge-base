@@ -4,6 +4,7 @@ description: "Complete personal brand growth system for content creators from Ju
 version: "2.0"
 format: "completion-engine"
 workflows: 4
+routing: long-tail
 ---
 
 # Jun Yuh — Personal Brand Mastery

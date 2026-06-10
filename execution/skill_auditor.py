@@ -119,8 +119,19 @@ def fingerprint_skill(skill_dir: Path) -> Dict[str, Any]:
 # Trace-based recency / quality signal
 # ─────────────────────────────────────────────────────────
 
+# Build-time workflows whose traces certify the BUILD of a skill, not its
+# production USE. Counting them let extract-forge self-certify new skills as
+# "used" on ship day (root cause of Sean Macintyre's manufactured A-tier —
+# see _active/sean-macintyre-audit-2026-06-09.md).
+BUILD_WORKFLOWS = {"extract-forge", "extract"}
+
+
 def load_skill_trace_signal(window_days: int = TIER_TRACE_WINDOW_DAYS) -> Dict[str, Dict[str, Any]]:
-    """Aggregate v2 trace scores per skill/component within window."""
+    """Aggregate v2 trace scores per skill/component within window.
+
+    Traces produced by BUILD_WORKFLOWS are excluded: they score the extraction
+    itself, not a production deployment of the skill.
+    """
     if not TRACES_DIR.exists():
         return {}
     cutoff = datetime.now() - timedelta(days=window_days)
@@ -132,6 +143,8 @@ def load_skill_trace_signal(window_days: int = TIER_TRACE_WINDOW_DAYS) -> Dict[s
                 continue
             with open(tf) as f:
                 d = json.load(f)
+            if (d.get("workflow") or "") in BUILD_WORKFLOWS:
+                continue
             skill = d.get("component") or d.get("skill") or ""
             if not skill:
                 continue
@@ -353,6 +366,26 @@ def write_audit_report(audit: Dict[str, Any]) -> Path:
         "",
     ]
 
+    # CORE DRIFT — Production Core entries with no production traces in window.
+    # This is the correction mechanism for the (provisional) core roster:
+    # a core skill that stays trace-less should be demoted; a long-tail skill
+    # earning traces should be promoted. Reviewed monthly via /weekly-closeout.
+    core = load_production_core()
+    if core:
+        traced = {r["name"] for r in audit["records"] if (r.get("trace_count") or 0) > 0}
+        drifting = sorted(c for c in core if c in {r["name"] for r in audit["records"]}
+                          and c not in traced)
+        lines += [
+            "## CORE DRIFT (Production Core entries with zero traces in window)",
+            "",
+            f"{len(drifting)} of {len(core)} core entries have no production traces "
+            f"in the last {TIER_TRACE_WINDOW_DAYS}d:",
+            "",
+        ]
+        lines += [f"- {c}" for c in drifting] or ["- (none — core is fully active)"]
+        lines += ["", "Action: if an entry stays here 2 consecutive months, demote it "
+                      "from PRODUCTION_CORE.md; promote any long-tail skill with 3+ traces.", ""]
+
     # Per-tier breakdown
     for tier in ["A", "B", "REVIEW", "C", "UTILITY"]:
         bucket = [r for r in audit["records"] if r["tier"] == tier]
@@ -477,30 +510,78 @@ def update_skill_index(records: List[Dict[str, Any]], apply: bool) -> Dict[str, 
 # Archive C-tier
 # ─────────────────────────────────────────────────────────
 
-def archive_tier(records: List[Dict[str, Any]], tier: str, apply: bool) -> Dict[str, Any]:
+def load_production_core() -> set:
+    """Production Core entries are protected from archiving (PRODUCTION_CORE.md)."""
+    try:
+        d = json.loads((ROOT / ".agent" / "production-core.json").read_text())
+        return {e["id"] for k in ("skills", "workflows") for e in d.get(k, [])}
+    except Exception:
+        return set()
+
+
+def _annotate_archived(skill_name: str) -> bool:
+    """De-index a skill in place: add `status: archived` to SKILL.md frontmatter.
+
+    Preferred over shutil.move — the skill stays on disk (zero token cost, zero
+    wiki link breakage); find_skill.py and sync_registries.py skip archived
+    status, which removes it from all runtime routing surfaces.
+    """
+    p = SKILLS_DIR / skill_name / "SKILL.md"
+    if not p.exists():
+        return False
+    text = p.read_text(errors="ignore")
+    if not text.startswith("---") or "status: archived" in text.split("---", 2)[1]:
+        return False
+    parts = text.split("---", 2)
+    parts[1] = parts[1].rstrip("\n") + "\nstatus: archived\n"
+    p.write_text("---" + parts[1] + "---" + parts[2])
+    return True
+
+
+def archive_tier(records: List[Dict[str, Any]], tier: str, apply: bool,
+                 names: Optional[List[str]] = None, annotate: bool = False) -> Dict[str, Any]:
+    core = load_production_core()
     targets = [r for r in records if r["tier"] == tier]
+    if names:
+        wanted = set(names)
+        targets = [r for r in targets if r["name"] in wanted]
+    protected = [r["name"] for r in targets if r["name"] in core]
+    targets = [r for r in targets if r["name"] not in core]
+
     if not apply:
         return {
             "would_archive_count": len(targets),
-            "destination": str(ARCHIVE_DIR),
+            "mode": "annotate (de-index in place)" if annotate else "move",
+            "destination": "frontmatter status: archived" if annotate else str(ARCHIVE_DIR),
+            "core_protected_skipped": protected,
             "sample": [r["name"] for r in targets[:10]],
-            "note": "Re-run with --apply to actually move.",
+            "note": "Re-run with --apply to execute.",
         }
 
-    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     moved = []
     errors = []
-    for r in targets:
-        src = SKILLS_DIR / r["name"]
-        dst = ARCHIVE_DIR / r["name"]
-        if not src.exists():
-            continue
-        try:
-            shutil.move(str(src), str(dst))
-            moved.append(r["name"])
-        except Exception as e:
-            errors.append({"skill": r["name"], "error": str(e)})
-    return {"applied": True, "moved_count": len(moved), "moved": moved, "errors": errors}
+    if annotate:
+        for r in targets:
+            try:
+                if _annotate_archived(r["name"]):
+                    moved.append(r["name"])
+            except Exception as e:
+                errors.append({"skill": r["name"], "error": str(e)})
+    else:
+        ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+        for r in targets:
+            src = SKILLS_DIR / r["name"]
+            dst = ARCHIVE_DIR / r["name"]
+            if not src.exists():
+                continue
+            try:
+                shutil.move(str(src), str(dst))
+                moved.append(r["name"])
+            except Exception as e:
+                errors.append({"skill": r["name"], "error": str(e)})
+    return {"applied": True, "mode": "annotate" if annotate else "move",
+            "archived_count": len(moved), "archived": moved,
+            "core_protected_skipped": protected, "errors": errors}
 
 
 # ─────────────────────────────────────────────────────────
@@ -517,9 +598,12 @@ def main():
     upd = sub.add_parser("update-index", help="Annotate SKILL_INDEX.md with tier classifications")
     upd.add_argument("--apply", action="store_true", help="Actually write (default: preview)")
 
-    arc = sub.add_parser("archive", help="Move skills of a given tier to _archive/skills/")
+    arc = sub.add_parser("archive", help="Archive skills of a given tier (annotate-in-place or move)")
     arc.add_argument("--tier", required=True, choices=["A", "B", "C", "REVIEW", "UTILITY"])
-    arc.add_argument("--apply", action="store_true", help="Actually move (default: preview)")
+    arc.add_argument("--apply", action="store_true", help="Actually execute (default: preview)")
+    arc.add_argument("--names", default="", help="Comma-separated skill names to limit to (within tier)")
+    arc.add_argument("--annotate", action="store_true",
+                     help="De-index in place via 'status: archived' frontmatter (preferred; zero link breakage)")
 
     args = parser.parse_args()
 
@@ -542,7 +626,9 @@ def main():
 
     elif args.command == "archive":
         audit = run_audit()
-        result = archive_tier(audit["records"], tier=args.tier, apply=args.apply)
+        names = [n.strip() for n in args.names.split(",") if n.strip()] or None
+        result = archive_tier(audit["records"], tier=args.tier, apply=args.apply,
+                              names=names, annotate=args.annotate)
         print(json.dumps(result, indent=2))
 
     else:

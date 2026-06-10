@@ -13,6 +13,7 @@ allowed-tools:
   - mcp__recall__search
   - mcp__recall__get_document_content
   - mcp__perplexity-ask__perplexity_research
+status: archived
 ---
 
 # /verticalize — Vertical Bootstrap (System-Tier Conductor)

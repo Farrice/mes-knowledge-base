@@ -4,6 +4,7 @@ description: "5 levels of persuasive writing + 5 authority craft mechanics + 9 f
 version: "3.0"
 format: "completion-engine"
 workflows: 7
+routing: long-tail
 ---
 
 # Joanna Wiebe — Persuasion Mastery

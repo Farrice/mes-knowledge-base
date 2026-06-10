@@ -4,6 +4,7 @@ description: 'Transforms boring source material into brilliant narrative copy us
 version: "2.0"
 format: "completion-engine"
 workflows: 5
+routing: long-tail
 ---
 
 # David Deutsch - Copywriting Legend

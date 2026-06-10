@@ -4,6 +4,7 @@ description: 'Architects a sustainable writing career using Joanna Wiebe''s posi
 version: "2.0"
 format: "completion-engine"
 workflows: 5
+routing: long-tail
 ---
 
 # Joanna Wiebe — Writing Career Monetization

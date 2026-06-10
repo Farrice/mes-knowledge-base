@@ -246,6 +246,8 @@ def sync_skills():
         skill_md = os.path.join(skill_path, "SKILL.md")
         if not os.path.isfile(skill_md):
             continue
+        if _is_archived(skill_md):
+            continue
 
         fm, body = extract_frontmatter_and_content(skill_md)
 
@@ -290,6 +292,21 @@ def sync_skills():
     print(f"✅ Synced {len(skills)} skills to SKILL_INDEX.md ({populated} with keywords).")
 
 
+def _is_archived(skill_md_path):
+    """True if SKILL.md frontmatter carries `status: archived` (annotate-archive,
+    rebuild 2026-06-09). Archived skills stay on disk but must NOT regenerate
+    command stubs or registry entries — otherwise sync resurrects them."""
+    try:
+        with open(skill_md_path, errors="ignore") as f:
+            head = f.read(2000)
+        if not head.startswith("---"):
+            return False
+        fm = head.split("---", 2)[1]
+        return "status: archived" in fm
+    except Exception:
+        return False
+
+
 def _discover_skill_slugs():
     """Return sorted list of skill slugs that have a SKILL.md (same filter as sync_skills)."""
     slugs = []
@@ -299,7 +316,10 @@ def _discover_skill_slugs():
         skill_path = os.path.join(SKILLS_DIR, item)
         if not os.path.isdir(skill_path):
             continue
-        if not os.path.isfile(os.path.join(skill_path, "SKILL.md")):
+        skill_md = os.path.join(skill_path, "SKILL.md")
+        if not os.path.isfile(skill_md):
+            continue
+        if _is_archived(skill_md):
             continue
         slugs.append(item)
     return slugs

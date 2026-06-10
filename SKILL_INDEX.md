@@ -244,7 +244,6 @@
 | `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | linkedin founder growth | 2 | 4 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | tyler denk (audience monetization) | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | speed itself becomes the moat, danny yeung | 18 | 0 |
-| `verticalize` | **verticalize** | md inheritance contract, and a first deliverable in one orchestrated pass, targets 1-2 hours per vertical (vs 1-2 weeks bespoke), the phase 2 | 0 | 0 |
 | `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc operator system | 14 | 0 |
 | `ward-farnsworth-rhetorical-mastery` | **Ward Farnsworth — Rhetorical Mastery** | mastery of immortal english prose and structural rhetorical patterns, rhetorical mastery | 2 | 4 |
 | `web-artifacts-builder` | **web-artifacts-builder** | suite of tools for creating elaborate, multi-component claude | 0 | 0 |

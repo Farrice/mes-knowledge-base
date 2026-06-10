@@ -4,6 +4,7 @@ description: "Methodology for psychographic content alignment, Creator Vision id
 version: "3.0"
 format: "completion-engine"
 workflows: 13
+routing: long-tail
 ---
 
 # Jun Yuh Creator Vision

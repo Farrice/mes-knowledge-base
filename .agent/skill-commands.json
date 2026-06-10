@@ -941,10 +941,6 @@
       "skill": "velocity-scaling"
     },
     {
-      "command": "/verticalize",
-      "skill": "verticalize"
-    },
-    {
       "command": "/vince-nijhof",
       "skill": "vince-nijhof-dtc-operator-system"
     },

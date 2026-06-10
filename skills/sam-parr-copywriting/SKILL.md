@@ -6,6 +6,7 @@ format: "completion-engine"
 expert: sam-parr
 workflows: 10
 tier: system
+routing: long-tail
 ---
 
 # Sam Parr — Copywriting Mastery

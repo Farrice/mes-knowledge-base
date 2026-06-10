@@ -29,6 +29,7 @@ workflows that must NEVER substitute.
 import sys
 import json
 import argparse
+import subprocess
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Any
@@ -411,6 +412,42 @@ BINDINGS = [
         ),
     },
     {
+        # Extraction freeze (added 2026-06-09). New expert extractions are
+        # gated on the LAST extraction having ≥3 production uses — the growth
+        # curve flipped from accretive to dilutive (audit 2026-04-24), and
+        # Sean Macintyre shipped 17 workflows that got 0 uses in 6 weeks.
+        # forge_gate.py is the deterministic precondition; --force is the
+        # logged soft override (user decision 2026-06-09).
+        "id": "extraction_freeze",
+        "signal_phrases": [
+            "extract-forge", "extract forge", "/extract ", "run extract",
+            "extract this expert", "extract the expert", "new extraction",
+            "full extraction", "extract him", "extract her", "mes 3.0",
+        ],
+        # Sub-operations and non-expert uses of the verb "extract" pass through.
+        "negative_signals": [
+            "extract-principle", "extract a principle", "extract-vision",
+            "extract-amplify", "testimonial", "hook formula", "key points",
+            "extract the key", "extract from this draft", "extract the quotes",
+            "parallel-extract", "convert-extraction",
+        ],
+        "mandatory_workflow_any_of": ["extract-forge", "extract"],
+        "precondition_cmd": ["python3", "execution/forge_gate.py", "check"],
+        "precondition_applies_to": ["extract-forge", "extract"],
+        "forbidden_workflows": [],
+        "reason": (
+            "No new extraction until the most recent one has ≥3 production uses "
+            "(finalize traces where workflow != extract-forge). New domain "
+            "knowledge enters as genius.md enrichment of existing A-tier skills. "
+            "Check: python3 execution/forge_gate.py status"
+        ),
+        "override_flag": "--force (on forge_gate.py check, logged)",
+        "override_warning": (
+            "Overrides are logged to evolution_store/forge_gate_overrides.jsonl. "
+            "Each unused extraction is ~2-3 weeks of build work with zero return."
+        ),
+    },
+    {
         # Placed LAST so domain-specific bindings (avatar, copy, parallax, BOS)
         # take precedence. This is the catch-all for GENERIC research that would
         # otherwise be answered from training memory instead of grounded in truth.
@@ -541,6 +578,35 @@ def check_routing(request: str, chosen_workflow: str) -> Dict[str, Any]:
         # Signal matched — this binding applies.
         result["binding_matched"] = binding["id"]
         result["matched_signal"] = matched_signal
+
+        # Precondition gate (added 2026-06-09, extraction freeze). A binding
+        # may require a deterministic check to pass BEFORE its workflow runs.
+        # Non-zero exit = routing invalid, with the gate's own message as the
+        # reason. Soft gates document their override in `override_flag`.
+        precondition = binding.get("precondition_cmd")
+        if precondition:
+            applies_to = [_normalize_workflow(w)
+                          for w in binding.get("precondition_applies_to", [])]
+            if not applies_to or chosen_norm in applies_to:
+                try:
+                    proc = subprocess.run(
+                        precondition, capture_output=True, text=True, timeout=30,
+                        cwd=str(Path(__file__).parent.parent),
+                    )
+                    if proc.returncode != 0:
+                        result["valid"] = False
+                        result["violation_reason"] = (
+                            f"Binding '{binding['id']}' precondition failed: "
+                            f"{(proc.stdout or proc.stderr).strip()}"
+                        )
+                        if binding.get("override_flag"):
+                            result["advisory"] = (
+                                f"Override available via {binding['override_flag']}. "
+                                f"{binding.get('override_warning', '')}"
+                            )
+                        return result
+                except Exception:
+                    pass  # a broken precondition never blocks routing
 
         mandatory = binding.get("mandatory_workflow")
         mandatory_any_of = binding.get("mandatory_workflow_any_of")

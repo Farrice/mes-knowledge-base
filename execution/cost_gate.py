@@ -44,6 +44,8 @@ ROOT = Path(__file__).resolve().parent.parent
 LOG_PATH = ROOT / ".agent" / "cost-gate-log.jsonl"
 TRACKER_PATH = ROOT / ".agent" / "cost-gate-state.json"
 FAL_GUARD = ROOT / "execution" / "fal_budget_guard.py"
+APPROVALS_PATH = ROOT / ".agent" / "cost-gate-approvals.jsonl"
+APPROVAL_TTL_MINUTES = 15
 
 # ───────────────────────────────────────────────────────────────────
 # SERVICE TABLE — the routing + cost source of truth
@@ -192,7 +194,30 @@ def _ingest_to_memory(entry: dict) -> None:
 # ───────────────────────────────────────────────────────────────────
 # CHECK
 # ───────────────────────────────────────────────────────────────────
+def _log_check_decision(service: str, exit_code: int, request: str = "") -> None:
+    """Append every check decision to the ledger (event='check') so denials
+    and bypass attempts are visible in weekly review. Non-fatal."""
+    try:
+        LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with open(LOG_PATH, "a") as f:
+            f.write(json.dumps({
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "event": "check",
+                "service": service,
+                "decision": {0: "approved", 1: "denied", 2: "needs_approval"}.get(exit_code, str(exit_code)),
+                "request": (request or "")[:200],
+            }) + "\n")
+    except Exception:
+        pass
+
+
 def cmd_check(args) -> int:
+    code = _cmd_check_inner(args)
+    _log_check_decision(args.service, code, getattr(args, "request", ""))
+    return code
+
+
+def _cmd_check_inner(args) -> int:
     service = args.service
     if service not in SERVICES:
         print(f"❌ Unknown service '{service}'. Valid: {sorted(SERVICES.keys())}", file=sys.stderr)
@@ -426,6 +451,57 @@ def cmd_reset_session(_args) -> int:
 
 
 # ───────────────────────────────────────────────────────────────────
+# APPROVE — user-granted token consumed by the PreToolUse cost hook
+# ───────────────────────────────────────────────────────────────────
+def cmd_approve(args) -> int:
+    """Record a short-lived user approval for an above-threshold service.
+
+    The PreToolUse hook (execution/hooks/cost_gate_hook.py) blocks paid calls
+    whose check returns 2 (needs approval) unless an unexpired token exists.
+    Run this ONLY after Farrice explicitly approves the spend.
+    """
+    from datetime import timedelta
+    now = datetime.now(timezone.utc)
+    minutes = args.minutes or APPROVAL_TTL_MINUTES
+    entry = {
+        "service": args.service,
+        "ts": now.isoformat(),
+        "expires_at": (now + timedelta(minutes=minutes)).isoformat(),
+        "request": (args.request or "")[:200],
+    }
+    APPROVALS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(APPROVALS_PATH, "a") as f:
+        f.write(json.dumps(entry) + "\n")
+    print(f"✅ Approval recorded: {args.service} valid {minutes} min (until {entry['expires_at']})")
+    return 0
+
+
+def consume_approval(service: str) -> bool:
+    """True if an unexpired, unconsumed approval token exists for service.
+    Consumes it (marks used) by rewriting the file. Used by the cost hook."""
+    if not APPROVALS_PATH.exists():
+        return False
+    now = datetime.now(timezone.utc).isoformat()
+    lines, hit = [], False
+    try:
+        for line in APPROVALS_PATH.read_text().splitlines():
+            if not line.strip():
+                continue
+            e = json.loads(line)
+            if (not hit and not e.get("used")
+                    and e.get("service") == service
+                    and e.get("expires_at", "") > now):
+                e["used"] = now
+                hit = True
+            lines.append(json.dumps(e))
+        if hit:
+            APPROVALS_PATH.write_text("\n".join(lines) + "\n")
+    except Exception:
+        return False
+    return hit
+
+
+# ───────────────────────────────────────────────────────────────────
 # CLI
 # ───────────────────────────────────────────────────────────────────
 def main() -> int:
@@ -450,6 +526,11 @@ def main() -> int:
     pl.add_argument("--output-path", default="")
     pl.add_argument("--project", default="")
 
+    pa = sub.add_parser("approve", help="Record user approval token (15-min TTL) for an above-threshold service")
+    pa.add_argument("--service", required=True)
+    pa.add_argument("--minutes", type=int, default=None, help=f"TTL (default {APPROVAL_TTL_MINUTES})")
+    pa.add_argument("--request", default="", help="What was approved")
+
     sub.add_parser("status", help="Show current cost state")
     sub.add_parser("reset-daily", help="Clear today's spend record")
     sub.add_parser("reset-session", help="Clear session spend counter")
@@ -458,6 +539,7 @@ def main() -> int:
     return {
         "check": cmd_check,
         "log": cmd_log,
+        "approve": cmd_approve,
         "status": cmd_status,
         "reset-daily": cmd_reset_daily,
         "reset-session": cmd_reset_session,

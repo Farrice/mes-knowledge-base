@@ -4,6 +4,7 @@ description: "Content orchestration, performance feedback loops, and system self
 version: "1.0"
 format: "completion-engine"
 workflows: 3
+routing: long-tail
 ---
 
 # Kieran Flanagan - Content Ops

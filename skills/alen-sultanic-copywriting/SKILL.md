@@ -4,6 +4,7 @@ description: 'Executes Alen Sultanic''s unified buyer-behavior methodology — a
 version: "2.0"
 format: "completion-engine"
 workflows: 5
+routing: long-tail
 ---
 
 # Alen Sultanic Copywriting Mastery

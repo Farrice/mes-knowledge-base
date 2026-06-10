@@ -4,6 +4,7 @@ description: "Content-reactive audience profiling, platform-specific style cards
 version: "1.0"
 format: "completion-engine"
 workflows: 4
+routing: long-tail
 ---
 
 # Kieran Flanagan - Audience Intelligence

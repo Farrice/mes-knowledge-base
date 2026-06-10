@@ -61,6 +61,12 @@ SYNONYMS = {
     "plateau": ["plateau", "constraint", "stuck"],
     "pricing": ["pricing", "positioning", "commoditization"],
     "differentiate": ["differentiation", "positioning", "sacrifice"],
+    # Persuasion mechanics (Sean Macintyre — wired per 2026-06-09 deployment audit)
+    "armor": ["armor", "resistance", "skepticism", "persuasion", "macintyre"],
+    "skeptical": ["armor", "resistance", "scrutiny", "persuasion"],
+    "mechanism": ["mechanism", "persuasion", "proof", "macintyre"],
+    "scrutiny": ["scrutiny", "adversarial", "persuasion", "macintyre"],
+    "guru": ["guru", "authority", "persuasion", "macintyre"],
     # Content
     "viral": ["viral", "reverse-engineer", "breakdown", "shareable"],
     "headline": ["headline", "hook", "title", "linkedin"],
@@ -205,6 +211,11 @@ def parse_skill(path: Path) -> dict | None:
         "when_to_use": when_to_use,
         "mtime": path.stat().st_mtime,
         "slash": f"/{path.parent.name}",
+        # Routing policy (Production Core rebuild 2026-06-09):
+        #   routing: long-tail  -> demoted in rank(); explicit invocation preferred
+        #   status: archived    -> de-indexed entirely (skill stays on disk)
+        "routing": str(meta.get("routing", "")),
+        "status": str(meta.get("status", "")),
     }
 
 
@@ -212,9 +223,25 @@ def build_index() -> list[dict]:
     skills = []
     for skill_md in sorted(SKILLS_DIR.glob("*/SKILL.md")):
         parsed = parse_skill(skill_md)
-        if parsed:
+        if parsed and parsed.get("status") != "archived":
             skills.append(parsed)
     return skills
+
+
+# ── Production Core (PRODUCTION_CORE.md / .agent/production-core.json) ──
+# Core entries get a multiplicative rank boost so routing DEFAULTS to the
+# evidence-backed ~25; long-tail still surfaces when it decisively outranks.
+CORE_PATH = REPO_ROOT / ".agent" / "production-core.json"
+CORE_BOOST = 1.5
+LONG_TAIL_DEMOTE = 0.6
+
+
+def load_core_ids() -> set:
+    try:
+        d = json.loads(CORE_PATH.read_text())
+        return {e["id"] for k in ("skills", "workflows") for e in d.get(k, [])}
+    except Exception:
+        return set()
 
 
 def load_or_build_index(force: bool = False) -> list[dict]:
@@ -262,6 +289,7 @@ def rank(skills: list[dict], query: str, top: int = 5, name_weight: int = 3) -> 
     idf = {t: math.log((N - n + 0.5) / (n + 0.5) + 1.0) for t, n in df.items()}
     avgdl = sum(len(d) for d in docs) / N
     q_tokens = expand(tokenize(query))
+    core = load_core_ids()
     scored = []
     for s, d in zip(skills, docs):
         counter = Counter(d)
@@ -276,6 +304,13 @@ def rank(skills: list[dict], query: str, top: int = 5, name_weight: int = 3) -> 
             norm = K1 * ((1 - B) + B * doc_len / avgdl)
             score += idf[q] * (tf * (K1 + 1)) / (tf + norm)
         if score > 0:
+            # Production Core policy: boost core, demote long-tail. Boost is
+            # multiplicative, NOT a filter — a decisively stronger long-tail
+            # match still wins (preserves intentional deployments).
+            if s.get("directory") in core:
+                score *= CORE_BOOST
+            elif s.get("routing") == "long-tail":
+                score *= LONG_TAIL_DEMOTE
             scored.append((s, score))
     scored.sort(key=lambda x: -x[1])
     return scored[:top]
@@ -288,11 +323,14 @@ def format_results(query: str, results: list[tuple[dict, float]]) -> str:
             "Try different keywords, or add this phrasing to the SYNONYMS map\n"
             "in execution/find_skill.py if it's something you'd say repeatedly."
         )
+    core = load_core_ids()
     out = [f"Top {len(results)} matches for: {query!r}", ""]
     for i, (s, score) in enumerate(results, 1):
         desc = (s["description"] or "(no description)").replace("\n", " ")
         snip = desc[:160] + ("…" if len(desc) > 160 else "")
-        out.append(f"{i}. {s['directory']}   score {score:.1f}")
+        tag = ("[CORE]" if s.get("directory") in core
+               else "[long-tail]" if s.get("routing") == "long-tail" else "")
+        out.append(f"{i}. {s['directory']}   score {score:.1f}  {tag}".rstrip())
         out.append(f"   → {s['slash']}")
         out.append(f"   {snip}")
         out.append("")

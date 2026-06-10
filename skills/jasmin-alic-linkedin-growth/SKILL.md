@@ -4,6 +4,7 @@ description: 'Builds LinkedIn organic growth from zero audience using Jasmin Ali
 version: "2.0"
 format: "completion-engine"
 workflows: 3
+routing: long-tail
 ---
 
 # Jasmin Alic: LinkedIn Organic Growth
