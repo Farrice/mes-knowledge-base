@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resonance — Variant C (Quiet Luxury Daylight)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Söhne:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --ink-900: #16140F;
+            --sage-700: #4B5849;
+            --sage-500: #6B8068;
+            --gold-600: #9C7833;
+            --cream-100: #F7F2E6;
+            --cream-50: #FDFAF3;
+            --border: #E8E1D4;
+
+            --serif: 'Playfair Display', serif;
+            --sans: 'Söhne', sans-serif;
+        }
+
+        body {
+            font-family: var(--sans);
+            background-color: var(--cream-50);
+            color: var(--ink-900);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 48px;
+        }
+
+        header {
+            margin-bottom: 96px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 40px;
+        }
+
+        h1 {
+            font-family: var(--serif);
+            font-size: 60px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 12px;
+            line-height: 1;
+            letter-spacing: 0.5px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: var(--sage-700);
+            margin-bottom: 32px;
+            font-weight: 400;
+            letter-spacing: 0.8px;
+        }
+
+        .variant-label {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--gold-600);
+            margin-bottom: 12px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: var(--ink-900);
+            max-width: 700px;
+            line-height: 1.9;
+        }
+
+        section {
+            margin-bottom: 120px;
+        }
+
+        .section-title {
+            font-family: var(--serif);
+            font-size: 48px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 56px;
+            margin-top: 80px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Color Palette */
+        .palette {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 56px;
+            margin-bottom: 80px;
+        }
+
+        .color-block {
+            text-align: center;
+        }
+
+        .color-swatch {
+            width: 100%;
+            height: 160px;
+            border-radius: 4px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+        }
+
+        .color-name {
+            font-family: var(--serif);
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 12px;
+            letter-spacing: 0.3px;
+        }
+
+        .color-hex {
+            font-size: 13px;
+            color: var(--sage-700);
+            font-weight: 400;
+            letter-spacing: 0.05em;
+        }
+
+        /* Typography */
+        .typography-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 56px;
+        }
+
+        .type-sample {
+            background-color: var(--cream-100);
+            padding: 56px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .type-label {
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--gold-600);
+            margin-bottom: 24px;
+        }
+
+        .type-sample h2 {
+            font-family: var(--serif);
+            font-size: 56px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 16px;
+            line-height: 1.1;
+            letter-spacing: 0.5px;
+        }
+
+        .type-sample h3 {
+            font-family: var(--serif);
+            font-size: 40px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 20px;
+            letter-spacing: 0.3px;
+        }
+
+        .type-sample p {
+            font-size: 18px;
+            color: var(--ink-900);
+            line-height: 1.9;
+            margin-bottom: 16px;
+        }
+
+        .type-sample .small {
+            font-size: 14px;
+            color: var(--sage-700);
+            margin-top: 12px;
+            font-weight: 400;
+        }
+
+        /* Components */
+        .components-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 56px;
+        }
+
+        .component {
+            background-color: white;
+            padding: 48px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+
+        .component h4 {
+            font-family: var(--serif);
+            font-size: 26px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 20px;
+            letter-spacing: 0.3px;
+        }
+
+        .component p {
+            font-size: 16px;
+            color: var(--ink-900);
+            line-height: 1.8;
+            margin-bottom: 24px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--sage-700);
+            color: white;
+            padding: 14px 40px;
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+
+        .cta-button:hover {
+            background-color: var(--ink-900);
+        }
+
+        .cta-link {
+            color: var(--gold-600);
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px solid var(--gold-600);
+        }
+
+        .cta-link:hover {
+            color: var(--sage-700);
+            border-bottom-color: var(--sage-700);
+        }
+
+        /* Hero Section Example */
+        .hero-demo {
+            background: var(--cream-100);
+            padding: 96px 56px;
+            text-align: center;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            margin-bottom: 80px;
+        }
+
+        .hero-demo h2 {
+            font-family: var(--serif);
+            font-size: 52px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 28px;
+            line-height: 1.2;
+            letter-spacing: 0.4px;
+        }
+
+        .hero-demo p {
+            font-size: 18px;
+            color: var(--ink-900);
+            max-width: 600px;
+            margin: 0 auto 48px;
+            line-height: 1.9;
+        }
+
+        /* Comparison Note */
+        .comparison-note {
+            background-color: var(--cream-100);
+            border-left: 0px solid var(--gold-600);
+            padding: 48px;
+            margin-top: 80px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .comparison-note h3 {
+            font-family: var(--serif);
+            font-size: 24px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 16px;
+            letter-spacing: 0.3px;
+        }
+
+        .comparison-note p {
+            font-size: 16px;
+            color: var(--ink-900);
+            line-height: 1.9;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 48px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--sage-700);
+        }
+
+        /* Whitespace emphasis */
+        .whitespace-demo {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 56px;
+            margin-top: 56px;
+            align-items: center;
+        }
+
+        .whitespace-sample {
+            background-color: white;
+            padding: 56px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            min-height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .whitespace-sample h4 {
+            font-family: var(--serif);
+            font-size: 32px;
+            font-weight: 400;
+            color: var(--ink-900);
+            margin-bottom: 32px;
+            letter-spacing: 0.3px;
+        }
+
+        .whitespace-sample p {
+            font-size: 16px;
+            color: var(--ink-900);
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="variant-label">Variant C</div>
+            <h1>Resonance</h1>
+            <p class="subtitle">Quiet Luxury Daylight</p>
+            <p class="description">A daytime, sober dance party in Chicago for people who want to meet a partner. Heart encounters, not head encounters. The music does the emotional labor so you don't have to. We count couples, not followers.</p>
+        </header>
+
+        <section>
+            <h2 class="section-title">Color Palette</h2>
+            <p style="margin-bottom: 56px; font-size: 16px; color: var(--ink-900); line-height: 1.9;">Refined restraint. Deep ink anchors. Sage whisper. Gold accent. Generous breathing room in every application.</p>
+
+            <div class="palette">
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--ink-900);"></div>
+                    <div class="color-name">Ink 900</div>
+                    <div class="color-hex">#16140F</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--sage-700);"></div>
+                    <div class="color-name">Sage 700</div>
+                    <div class="color-hex">#4B5849</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--sage-500);"></div>
+                    <div class="color-name">Sage 500</div>
+                    <div class="color-hex">#6B8068</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--gold-600);"></div>
+                    <div class="color-name">Gold 600</div>
+                    <div class="color-hex">#9C7833</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--cream-100);"></div>
+                    <div class="color-name">Cream 100</div>
+                    <div class="color-hex">#F7F2E6</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--cream-50);"></div>
+                    <div class="color-name">Cream 50</div>
+                    <div class="color-hex">#FDFAF3</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Typography</h2>
+            <p style="margin-bottom: 56px; font-size: 16px; color: var(--ink-900); line-height: 1.9;">Serif at 400 weight — lighter, more intimate. No weight above 500. Generosity on the page.</p>
+
+            <div class="typography-grid">
+                <div class="type-sample">
+                    <div class="type-label">Hero Display</div>
+                    <h2>A daytime dance room</h2>
+                    <p class="small">Playfair Display, 56px, 400 weight, generous line height</p>
+                </div>
+
+                <div class="type-sample">
+                    <div class="type-label">Headline Large</div>
+                    <h3>Sober. Chicago.</h3>
+                    <p class="small">Playfair Display, 40px, 400 weight</p>
+                </div>
+
+                <div class="type-sample">
+                    <div class="type-label">Body Text</div>
+                    <p>The music does the emotional labor so you don't have to. Come meet people who are intentional, warm, and ready to be seen.</p>
+                    <p class="small">Söhne, 18px, 400 weight. Line height 1.9</p>
+                </div>
+
+                <div class="type-sample">
+                    <div class="type-label">Supporting Text</div>
+                    <p style="font-size: 14px; margin-bottom: 4px;">JUNE 14, 2026 · CHICAGO</p>
+                    <p class="small">Söhne, 14px, 500 weight, letter-spacing 0.12em</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Components in Context</h2>
+            <p style="margin-bottom: 56px; font-size: 16px; color: var(--ink-900); line-height: 1.9;">How the brand system works together in real applications.</p>
+
+            <div class="hero-demo">
+                <h2>You don't have to drink to dance</h2>
+                <p>A daytime room where the music does the work. Chicago. July 18, 2–5pm.</p>
+                <button class="cta-button">Application opens June 25</button>
+            </div>
+
+            <div class="components-grid">
+                <div class="component">
+                    <h4>Event Card</h4>
+                    <p>Daytime room. Curated. Sober.</p>
+                    <p style="font-size: 13px; color: var(--sage-700); margin-bottom: 16px;">JULY 18, 2026 · CHICAGO</p>
+                    <a href="#" class="cta-link">Learn more</a>
+                </div>
+
+                <div class="component">
+                    <h4>Flyer Headline</h4>
+                    <p style="font-family: var(--serif); font-size: 32px; color: var(--ink-900); margin-bottom: 16px; line-height: 1.3; font-weight: 400; letter-spacing: 0.3px;">The music does the work</p>
+                    <p style="font-size: 14px;">≤8 words. Names the mechanic. Filters the unsure.</p>
+                </div>
+
+                <div class="component">
+                    <h4>Application CTA</h4>
+                    <p>Application opens June 1</p>
+                    <a href="#" class="cta-link">resonance.live/apply</a>
+                    <p style="font-size: 12px; color: var(--sage-700); margin-top: 12px;">Points to the why-gate, never to checkout.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Whitespace Philosophy</h2>
+            <p style="margin-bottom: 56px; font-size: 16px; color: var(--ink-900); line-height: 1.9;">This variant breathes. 56–80px section margins. 40px card padding. The page wants space around every element.</p>
+
+            <div class="whitespace-demo">
+                <div class="whitespace-sample" style="background-color: var(--cream-100);">
+                    <h4>Dense (Not This)</h4>
+                    <p>Type packed tight. Minimal margins. Feels crowded and hurried.</p>
+                </div>
+                <div class="whitespace-sample">
+                    <h4>This One</h4>
+                    <p>Elements float in generous space. Feels intimate and intentional. Room to think.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Design Philosophy</h2>
+            <div class="comparison-note">
+                <h3>Quiet Luxury Daylight</h3>
+                <p><strong>The aesthetic:</strong> Essayistic, intimate, understated. The lightest touch. Serif at 400 weight (not bold). Whitespace as a design material. The palette whispers rather than declares. Photography crops are tight, essayistic, intimate.</p>
+                <p style="margin-top: 16px;"><strong>When to use:</strong> When the brand wants to feel reflective, considered, unhurried. This is the "slow luxury" variant—fewer words, more space, deeper feeling. Best when paired with intimate photography (hands, faces in profile, quiet moments of recognition). Typography is minimalist. Color is restrained. Every element earns its place on a spacious page.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Resonance Brand System — Variant C (Quiet Luxury Daylight) Preview</p>
+            <p style="margin-top: 8px;">For design purposes only. Not for distribution.</p>
+        </footer>
+    </div>
+</body>
+</html>

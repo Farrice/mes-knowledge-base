@@ -48,6 +48,18 @@
       "file": "sample-004.md",
       "word_count": 511,
       "content_hash": "1d53b486"
+    },
+    {
+      "id": "sample-005",
+      "expert": "noah-hawley",
+      "source": "skills/noah-hawley-storytelling-mastery/genius.md",
+      "output_type": "season-architecture",
+      "title": "Hawley \u2014 Season Architecture & The Withheld Payoff",
+      "notes": "Theme-first breaking, ending-first, the moral mirror (engineer desire then indict it), and score-where-music-doesn't-go. Expert-level: the architecture is total for the writer and invisible to the audience; the genre payoff is refused and inverted so meaning arrives through restraint.",
+      "added": "2026-06-09",
+      "file": "sample-005.md",
+      "word_count": 489,
+      "content_hash": "50ab832b"
     }
   ]
 }

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Resonance — Pick a Palette (A / B / C)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Cormorant+Garamond:wght@400;500&family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Serif:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #ECECE6;
+    color: #1A1814;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+  /* ---------- Intro ---------- */
+  .intro { padding: 64px 0 40px; text-align: center; }
+  .intro .kicker {
+    font-size: 12px; font-weight: 600; letter-spacing: 0.18em;
+    text-transform: uppercase; color: #7A6F62; margin-bottom: 18px;
+  }
+  .intro h1 {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-weight: 500; font-size: clamp(32px, 6vw, 52px); line-height: 1.08;
+    color: #1A1814; margin-bottom: 18px; letter-spacing: -0.01em;
+  }
+  .intro p { max-width: 640px; margin: 0 auto 12px; color: #3A332B; font-size: 17px; }
+  .intro .how {
+    max-width: 640px; margin: 28px auto 0; padding: 20px 24px;
+    background: #FBF7F0; border: 1px solid #E1D6C2; border-radius: 6px;
+    text-align: left; font-size: 15px; color: #3A332B;
+  }
+  .intro .how strong { color: #1A1814; }
+  .nav { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
+  .nav a {
+    display: inline-block; padding: 11px 20px; border-radius: 999px;
+    text-decoration: none; font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
+    border: 1px solid currentColor;
+  }
+  .nav a.a { color: #B8492E; }
+  .nav a.b { color: #A8412A; }
+  .nav a.c { color: #4B5849; }
+  .nav a:hover { background: currentColor; }
+  .nav a:hover span { color: #FBF7F0; }
+
+  /* ---------- Variant section shell ---------- */
+  .variant { padding: 56px 0; border-top: 1px solid #D9D3C7; }
+  .variant-head { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; margin-bottom: 6px; }
+  .variant-head .letter {
+    font-family: 'IBM Plex Serif', serif; font-size: 40px; font-weight: 500; line-height: 1;
+  }
+  .variant-head h2 { font-size: 22px; font-weight: 600; letter-spacing: -0.01em; }
+  .variant .reads { font-size: 16px; font-style: italic; color: #5c5346; margin-bottom: 6px; max-width: 720px; }
+  .variant .who { font-size: 14px; color: #7A6F62; margin-bottom: 28px; max-width: 720px; }
+  .recommend-flag {
+    display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.1em;
+    text-transform: uppercase; padding: 4px 10px; border-radius: 4px;
+    background: #B8492E; color: #FBF7F0; margin-left: 6px; transform: translateY(-4px);
+  }
+
+  /* swatches */
+  .swatches { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+  .sw { width: 104px; }
+  .sw .chip { height: 56px; border-radius: 4px; border: 1px solid rgba(0,0,0,0.08); }
+  .sw .nm { font-size: 11px; font-weight: 600; margin-top: 6px; line-height: 1.3; }
+  .sw .hx { font-size: 11px; color: #7A6F62; font-variant-numeric: tabular-nums; }
+
+  /* the comparison grid: specimen + ig + flyer */
+  .grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
+  @media (min-width: 760px) { .grid { grid-template-columns: 1fr 1fr; } }
+  .panel-label { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: #7A6F62; margin-bottom: 10px; }
+
+  /* type specimen card */
+  .specimen { padding: 28px; border-radius: 6px; }
+  .specimen .disp { line-height: 1.05; margin-bottom: 14px; }
+  .specimen .lead { margin-bottom: 14px; }
+  .specimen .lc { font-size: 12px; font-weight: 600; text-transform: uppercase; }
+  .specimen .fonts { font-size: 12px; margin-top: 18px; padding-top: 14px; border-top: 1px solid rgba(0,0,0,0.1); color: #7A6F62; }
+
+  /* IG mock (4:5) */
+  .ig { aspect-ratio: 4/5; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; position: relative; }
+  .ig .photo { flex: 1 1 65%; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; position: relative; }
+  .ig .photo .ph { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.6; }
+  .ig .wm { position: absolute; top: 14px; left: 16px; font-family: var(--disp-font); font-size: 16px; }
+  .ig .band { padding: 16px 18px 18px; }
+  .ig .stamp { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 8px; }
+  .ig .hl { font-family: var(--disp-font); line-height: 1.1; font-size: 22px; margin-bottom: 6px; }
+  .ig .sub { font-size: 12px; }
+
+  /* Flyer mock (letter-ish portrait) */
+  .flyer { aspect-ratio: 17/22; border-radius: 6px; overflow: hidden; display: flex; flex-direction: column; }
+  .flyer .top { flex: 1 1 42%; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .flyer .top .ph { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; opacity: 0.6; padding: 0 16px; }
+  .flyer .mid { padding: 20px 22px; }
+  .flyer .mid .wm { font-family: var(--disp-font); font-size: 28px; line-height: 1; margin-bottom: 12px; }
+  .flyer .rule { height: 1px; width: 64%; margin-bottom: 12px; }
+  .flyer .meta { font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: 14px; }
+  .flyer .line { font-size: 13px; margin-bottom: 16px; }
+  .flyer .cta { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 16px; }
+
+  .geo-note { font-size: 13px; color: #7A6F62; margin-top: 22px; }
+  .geo-note b { color: #3A332B; }
+
+  footer { padding: 56px 0 80px; border-top: 1px solid #D9D3C7; text-align: center; color: #7A6F62; font-size: 13px; }
+  footer .pick { font-family: 'IBM Plex Serif', serif; font-size: 20px; color: #1A1814; margin-bottom: 10px; }
+
+  /* ===== VARIANT A — Editorial Broadsheet ===== */
+  #a { --disp-font: 'IBM Plex Serif', Georgia, serif; background: #F5EFE3; color: #1A1814; }
+  #a .letter, #a .variant-head h2 { color: #B8492E; }
+  #a .specimen { background: #FBF7F0; border: 1px solid #E1D6C2; }
+  #a .specimen .disp { font-family: 'IBM Plex Serif', serif; font-weight: 500; font-size: 40px; color: #0F1A2E; }
+  #a .specimen .lead { font-size: 17px; color: #3A332B; }
+  #a .specimen .lc { color: #7A6F62; letter-spacing: 0.12em; }
+  #a .ig { border: 1px solid #E1D6C2; }
+  #a .ig .photo { background: linear-gradient(135deg,#D7C3A0 0%,#C2A06E 100%); color:#4a3a22; }
+  #a .ig .wm { color: #FBF7F0; }
+  #a .ig .band { background: #FBF7F0; }
+  #a .ig .stamp { color: #7A6F62; }
+  #a .ig .hl { color: #0F1A2E; }
+  #a .ig .sub { color: #B8492E; }
+  #a .flyer { border: 1px solid #E1D6C2; background: #F5EFE3; }
+  #a .flyer .top { background: linear-gradient(135deg,#D7C3A0,#C2A06E); color:#4a3a22; }
+  #a .flyer .mid { background: #F5EFE3; }
+  #a .flyer .mid .wm { color: #0F1A2E; }
+  #a .flyer .rule { background: #B8492E; }
+  #a .flyer .meta { color: #7A6F62; }
+  #a .flyer .line { color: #3A332B; }
+  #a .flyer .cta { background: #B8492E; color: #FBF7F0; border-radius: 2px; }
+
+  /* ===== VARIANT B — Latin-American Modernism ===== */
+  #b { --disp-font: 'Fraunces', 'IBM Plex Serif', serif; background: #F2E9D4; color: #1C1611; }
+  #b .letter, #b .variant-head h2 { color: #A8412A; }
+  #b .specimen { background: #FAF4E6; border: 1px solid #D7C7A4; }
+  #b .specimen .disp { font-family: 'Fraunces', serif; font-weight: 500; font-size: 40px; color: #1F2E1E; }
+  #b .specimen .lead { font-size: 17px; color: #3B3127; }
+  #b .specimen .lc { color: #7A6E5C; letter-spacing: 0.16em; }
+  #b .ig { border: 1px solid #D7C7A4; }
+  #b .ig .photo { background: linear-gradient(135deg,#9A6B3C 0%,#36513A 100%); color:#f2e9d4; }
+  #b .ig .wm { color: #FAF4E6; }
+  #b .ig .band { background: #FAF4E6; }
+  #b .ig .stamp { color: #7A6E5C; }
+  #b .ig .hl { color: #1F2E1E; }
+  #b .ig .sub { color: #A8412A; }
+  #b .flyer { border: 1px solid #D7C7A4; background: #F2E9D4; }
+  #b .flyer .top { background: linear-gradient(135deg,#9A6B3C,#36513A); color:#f2e9d4; }
+  #b .flyer .mid { background: #F2E9D4; }
+  #b .flyer .mid .wm { color: #1F2E1E; }
+  #b .flyer .rule { background: #36513A; }
+  #b .flyer .meta { color: #1F2E1E; }
+  #b .flyer .line { color: #3B3127; }
+  #b .flyer .cta { background: #A8412A; color: #FAF4E6; border-radius: 0; }
+  #b .ig .hl, #b .flyer .mid .wm, #b .specimen .disp { letter-spacing: -0.01em; }
+
+  /* ===== VARIANT C — Quiet Luxury ===== */
+  #c { --disp-font: 'Cormorant Garamond', Georgia, serif; background: #F7F2E6; color: #16140F; }
+  #c .letter, #c .variant-head h2 { color: #4B5849; }
+  #c .specimen { background: #FDFAF3; border: 1px solid #E5DCC6; }
+  #c .specimen .disp { font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: 44px; color: #16140F; }
+  #c .specimen .lead { font-size: 16px; color: #252118; }
+  #c .specimen .lc { color: #7A7468; letter-spacing: 0.18em; }
+  #c .ig { border: 1px solid #E5DCC6; }
+  #c .ig .photo { background: linear-gradient(135deg,#CFC8B6 0%,#8B9486 100%); color:#3a3a32; }
+  #c .ig .wm { color: #FDFAF3; font-weight: 400; }
+  #c .ig .band { background: #FDFAF3; }
+  #c .ig .stamp { color: #7A7468; letter-spacing: 0.18em; }
+  #c .ig .hl { color: #16140F; font-weight: 400; }
+  #c .ig .sub { color: #7A7468; }
+  #c .flyer { border: 1px solid #E5DCC6; background: #F7F2E6; }
+  #c .flyer .top { background: linear-gradient(135deg,#CFC8B6,#8B9486); color:#3a3a32; }
+  #c .flyer .mid { background: #F7F2E6; }
+  #c .flyer .mid .wm { color: #16140F; font-weight: 400; }
+  #c .flyer .rule { background: #E5DCC6; }
+  #c .flyer .meta { color: #16140F; }
+  #c .flyer .line { color: #252118; }
+  #c .flyer .cta { background: transparent; color: #16140F; border: 1px solid #16140F; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<div class="wrap intro">
+  <div class="kicker">Resonance · Brand Direction · Choose One</div>
+  <h1>Three ways the same brand can look.</h1>
+  <p>Same room. Same words. Same daytime, sober, curated promise. Only the <em>palette and type</em> change. You already liked the orange one — that's <strong>Variant A</strong>. B and C are here so you've seen the alternatives and can say "yes, A" with confidence (or surprise yourself).</p>
+  <div class="how">
+    <strong>How to choose:</strong> scroll through all three. For each, look at the little Instagram post and flyer. The right one should make you think <em>"that's the room."</em> The other two should make you think <em>"that's a room I respect, but it's not mine."</em> Then reply with one letter: <strong>A, B, or C.</strong> Your designer builds everything in that palette.
+  </div>
+  <div class="nav">
+    <a class="a" href="#a"><span>A · Orange</span></a>
+    <a class="b" href="#b"><span>B · Moss</span></a>
+    <a class="c" href="#c"><span>C · Sage</span></a>
+  </div>
+</div>
+
+<!-- ============ VARIANT A ============ -->
+<section class="variant" id="a">
+  <div class="wrap">
+    <div class="variant-head">
+      <span class="letter">A</span>
+      <h2>Editorial Broadsheet<span class="recommend-flag">The one you liked</span></h2>
+    </div>
+    <p class="reads">A 1978 record jacket left in real sunlight. Warm terracotta and midnight blue on cream that breathes.</p>
+    <p class="who">For the literary register. Lowest production lift. This is the exact look of the website concept from our call.</p>
+
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#B8492E"></div><div class="nm">Terracotta</div><div class="hx">#B8492E</div></div>
+      <div class="sw"><div class="chip" style="background:#0F1A2E"></div><div class="nm">Midnight</div><div class="hx">#0F1A2E</div></div>
+      <div class="sw"><div class="chip" style="background:#F5EFE3"></div><div class="nm">Cream</div><div class="hx">#F5EFE3</div></div>
+      <div class="sw"><div class="chip" style="background:#8C6526"></div><div class="nm">Gold</div><div class="hx">#8C6526</div></div>
+      <div class="sw"><div class="chip" style="background:#1A1814"></div><div class="nm">Ink</div><div class="hx">#1A1814</div></div>
+      <div class="sw"><div class="chip" style="background:#7A6F62"></div><div class="nm">Slate</div><div class="hx">#7A6F62</div></div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <div class="panel-label">Type specimen</div>
+        <div class="specimen">
+          <div class="disp">The body knows first.</div>
+          <div class="lead">A daytime, sober dance party in Chicago for people who actually want to meet someone.</div>
+          <div class="lc">July 18, 2026 · Chicago</div>
+          <div class="fonts">Display: IBM Plex Serif (GT Sectra) · Body: Inter · Script: Caveat (signature only)</div>
+        </div>
+        <div class="geo-note"><b>Geometry:</b> 2px corners — editorial softness. <b>Reads as:</b> Kinfolk meets a vinyl jacket.</div>
+      </div>
+      <div>
+        <div class="panel-label">Instagram post</div>
+        <div class="ig">
+          <div class="photo"><span class="ph">your daytime room photo<br/>(real light · no flash · 11pm-test)</span></div>
+          <div class="wm">Resonance</div>
+          <div class="band">
+            <div class="stamp">July 18, 2026 · Chicago</div>
+            <div class="hl">A daytime dance room. Sober.</div>
+            <div class="sub">Application in bio →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:28px;">
+      <div>
+        <div class="panel-label">Flyer</div>
+        <div class="flyer" style="max-width:320px;">
+          <div class="top"><span class="ph">daytime photograph — 65% of the flyer</span></div>
+          <div class="mid">
+            <div class="wm">Resonance</div>
+            <div class="rule"></div>
+            <div class="meta">Sat July 18 · 2–5pm · Movement on Montrose</div>
+            <div class="line">The music does the work, so you don't have to.</div>
+            <span class="cta">Apply →</span>
+          </div>
+        </div>
+      </div>
+      <div style="align-self:center;">
+        <div class="panel-label">Why A might be the one</div>
+        <p style="font-size:15px;color:#3A332B;">It's the most universal and the easiest to execute well — your designer can be confident in it on day one. It's already proven: it's the website you responded to. The risk: it's a register a lot of good brands could land. It wins on warmth and clarity, not on being unmistakably <em>yours</em>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VARIANT B ============ -->
+<section class="variant" id="b">
+  <div class="wrap">
+    <div class="variant-head">
+      <span class="letter">B</span>
+      <h2>Latin-American Modernism</h2>
+    </div>
+    <p class="reads">Casa Wabi at 3pm. Adobe, ochre, and deep moss-green on warm cream. Your Costa Rican formation made architectural — never decorative.</p>
+    <p class="who">For the heritage register. The room nobody else in Chicago is building. Reference is Luis Barragán, not a restaurant menu.</p>
+
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#A8412A"></div><div class="nm">Terracotta</div><div class="hx">#A8412A</div></div>
+      <div class="sw"><div class="chip" style="background:#1F2E1E"></div><div class="nm">Moss</div><div class="hx">#1F2E1E</div></div>
+      <div class="sw"><div class="chip" style="background:#B8843C"></div><div class="nm">Ochre</div><div class="hx">#B8843C</div></div>
+      <div class="sw"><div class="chip" style="background:#F2E9D4"></div><div class="nm">Cream</div><div class="hx">#F2E9D4</div></div>
+      <div class="sw"><div class="chip" style="background:#1C1611"></div><div class="nm">Ink</div><div class="hx">#1C1611</div></div>
+      <div class="sw"><div class="chip" style="background:#5D7A5C"></div><div class="nm">Moss 500</div><div class="hx">#5D7A5C</div></div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <div class="panel-label">Type specimen</div>
+        <div class="specimen">
+          <div class="disp">The body knows first.</div>
+          <div class="lead">A daytime, sober dance party in Chicago for people who actually want to meet someone.</div>
+          <div class="lc">July 18, 2026 · Chicago</div>
+          <div class="fonts">Display: Fraunces (Tiempos / Canela) · Body: Inter (Söhne) · Script: Homemade Apple</div>
+        </div>
+        <div class="geo-note"><b>Geometry:</b> 0px corners — hard architectural edges. <b>Reads as:</b> Apartamento magazine.</div>
+      </div>
+      <div>
+        <div class="panel-label">Instagram post</div>
+        <div class="ig">
+          <div class="photo"><span class="ph">room as second protagonist<br/>terracotta brick · moss plant · 2pm light</span></div>
+          <div class="wm">Resonance</div>
+          <div class="band">
+            <div class="stamp">July 18, 2026 · Chicago</div>
+            <div class="hl">Daytime. Sober. Curated.</div>
+            <div class="sub">Application in bio →</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:28px;">
+      <div>
+        <div class="panel-label">Flyer</div>
+        <div class="flyer" style="max-width:320px;">
+          <div class="top"><span class="ph">horizontal photo · edge-to-edge bleed</span></div>
+          <div class="mid">
+            <div class="wm">Resonance</div>
+            <div class="rule"></div>
+            <div class="meta">Sat July 18 · 2–5pm · Movement on Montrose</div>
+            <div class="line">A daytime, sober dance party for people who want to meet a partner.</div>
+            <span class="cta">Reserve your seat →</span>
+          </div>
+        </div>
+      </div>
+      <div style="align-self:center;">
+        <div class="panel-label">Why B might be the one</div>
+        <p style="font-size:15px;color:#252118;">It's the only direction where your specific story does work the system can't fake. Moss-green instead of midnight is the whole move — the color of Latin-American interior shadow at 2pm. It reaches Latin-American Chicagoans and the design-literate directly. The risk: it demands the most discipline to keep from drifting into kitsch.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VARIANT C ============ -->
+<section class="variant" id="c">
+  <div class="wrap">
+    <div class="variant-head">
+      <span class="letter">C</span>
+      <h2>Quiet Luxury Daylight</h2>
+    </div>
+    <p class="reads">A <em>Gentlewoman</em> spread on a marble table at 3pm. Cream, sage, warm gold, ink. Terracotta demoted to a single accent.</p>
+    <p class="who">For the audience that doesn't need to be shouted at. The brand that trusts the room to speak for itself. Hardest to execute well.</p>
+
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#16140F"></div><div class="nm">Ink</div><div class="hx">#16140F</div></div>
+      <div class="sw"><div class="chip" style="background:#4B5849"></div><div class="nm">Sage</div><div class="hx">#4B5849</div></div>
+      <div class="sw"><div class="chip" style="background:#9C7833"></div><div class="nm">Gold</div><div class="hx">#9C7833</div></div>
+      <div class="sw"><div class="chip" style="background:#A14A30"></div><div class="nm">Terracotta</div><div class="hx">#A14A30</div></div>
+      <div class="sw"><div class="chip" style="background:#F7F2E6"></div><div class="nm">Cream</div><div class="hx">#F7F2E6</div></div>
+      <div class="sw"><div class="chip" style="background:#7A7468"></div><div class="nm">Slate</div><div class="hx">#7A7468</div></div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <div class="panel-label">Type specimen</div>
+        <div class="specimen">
+          <div class="disp">The body knows first.</div>
+          <div class="lead">A daytime, sober dance party in Chicago for people who actually want to meet someone.</div>
+          <div class="lc">July 18, 2026 · Chicago</div>
+          <div class="fonts">Display: Cormorant Garamond (Domaine) · Body: Inter (Söhne) · Script: Homemade Apple</div>
+        </div>
+        <div class="geo-note"><b>Geometry:</b> 4px corners — quiet softness. <b>Reads as:</b> The Gentlewoman.</div>
+      </div>
+      <div>
+        <div class="panel-label">Instagram post</div>
+        <div class="ig">
+          <div class="photo"><span class="ph">tight crop · gesture &amp; detail<br/>two shoulders almost touching</span></div>
+          <div class="wm">Resonance</div>
+          <div class="band">
+            <div class="stamp">July 18, 2026 · Chicago</div>
+            <div class="hl">The body knows first.</div>
+            <div class="sub">Application in bio</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid" style="margin-top:28px;">
+      <div>
+        <div class="panel-label">Flyer</div>
+        <div class="flyer" style="max-width:320px;">
+          <div class="top"><span class="ph">tight-cropped photo · lots of breathing room</span></div>
+          <div class="mid">
+            <div class="wm">Resonance</div>
+            <div class="rule"></div>
+            <div class="meta">Sat July 18 · 2–5pm · Movement on Montrose</div>
+            <div class="line">A daytime, sober dance party for people who want to meet a partner.</div>
+            <span class="cta">Reserve your seat →</span>
+          </div>
+        </div>
+      </div>
+      <div style="align-self:center;">
+        <div class="panel-label">Why C might be the one</div>
+        <p style="font-size:15px;color:#252118;">It's the most grown-up. Ink-on-cream instead of a loud brand color — a brand confident enough to be recognized by its restraint. Most likely to be quoted in press untouched. The risk: it needs the most discipline from a designer, and a weak photo makes the restraint read as "empty" instead of "assured."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="pick">Reply with one letter: A, B, or C.</div>
+    <p>That palette becomes canonical. Your designer builds the flyer, the Instagram post, and every template in it.<br/>Resonance · Chicago · 2026</p>
+  </div>
+</footer>
+
+</body>
+</html>

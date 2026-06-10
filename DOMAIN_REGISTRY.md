@@ -276,6 +276,7 @@ When you make a request, I route to the right expert using this registry. I will
 | Expert | Owns | Use For |
 |--------|------|---------|
 | **Mitch Albom** | LITERARY | Premium writing, emotional architecture |
+| **Noah Hawley** | ARCHITECTURE | Season/arc structure, theme-first breaking, ending-first, tonal modulation, showrunner-voice, adaptation-of-feeling |
 | **Shaan Puri** | STORY STRUCTURE | Frame, intention+obstacle, emotion |
 | **Dan Wang** | ANALYTICAL | Long-form, observation, essays |
 | **Oscar Hoglund** | AUDIO NARRATIVE | Sound storytelling, emotional umami |
@@ -289,6 +290,7 @@ When you make a request, I route to the right expert using this registry. I will
 
 ```
 "Write a story"
+├── Season/arc architecture, theme-first, ending-first, tonal modulation → Noah Hawley
 ├── Structure/frame → Shaan Puri
 ├── Premium prose → Mitch Albom
 ├── Long-form essay → Dan Wang
@@ -299,6 +301,7 @@ When you make a request, I route to the right expert using this registry. I will
 └── Perceptual/estrangement → Ocean Vuong
 
 "Newsletter writing"
+├── Serialized run / season architecture (theme spine + owned ending) → Noah Hawley
 ├── Analytical → Dan Wang
 ├── Emotional → Mitch Albom
 ├── International/geopolitical → Fareed Zakaria
@@ -406,7 +409,7 @@ When you make a request, I route to the right expert using this registry. I will
 
 | Expert | Owns | Use For |
 |--------|------|---------|
-| **Oren** | TASTE DEVELOPMENT | CEV framework, creative judgment, luxury psychology, visual direction |
+| **Oren** | TASTE DEVELOPMENT + AI MARKETING EXECUTION | CEV framework, creative judgment, luxury psychology, visual direction, repositioning, content-team architecture, operational systems, **+ the one-person AI marketing machine** (`oren-one-person-ai-marketer` — the AI-execution layer activating the other six Oren skills: weekly OS, brand-voice machine, word-of-mouth engineering, monthly MESSAGES, answer-engine INFO-RELEASE, anti-slop taste gate) |
 | **Kittl** | GRAPHIC DESIGN | Typography, mood-based font selection, AI design prompts, layout |
 | **Andy Lo** | PREMIUM WEB | Headless CMS, motion design, cinematic web architecture |
 | **Sam Goddard** | MEDIA SCALING | Content infrastructure, production systems, agency scaling |
@@ -435,6 +438,9 @@ When you make a request, I route to the right expert using this registry. I will
 
 "Improve my visual taste"
 └── Oren
+
+"Be a one-person marketing machine with AI" / "run a full marketing team's output solo with AI" / "lean weekly marketing OS" / "brand-voice AI machine" / "audit AI output for slop"
+└── Oren (`oren-one-person-ai-marketer`)
 
 "Art direct a concept"
 └── Creative Director

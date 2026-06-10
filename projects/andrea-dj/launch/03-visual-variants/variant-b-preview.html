@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resonance — Variant B (Latin-American Modernism)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Söhne:wght@400;600&family=Homemade+Apple&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --terracotta-700: #8A3220;
+            --terracotta-600: #A8412A;
+            --ochre-600: #B8843C;
+            --moss-900: #1F2E1E;
+            --moss-700: #36513A;
+            --cream-100: #F2E9D4;
+            --cream-50: #FAF4E6;
+            --ink-900: #1C1611;
+            --border: #D4C4B0;
+
+            --serif: 'Crimson Text', serif;
+            --sans: 'Söhne', sans-serif;
+            --hand: 'Homemade Apple', cursive;
+        }
+
+        body {
+            font-family: var(--sans);
+            background-color: var(--cream-50);
+            color: var(--ink-900);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 64px 32px;
+        }
+
+        header {
+            margin-bottom: 80px;
+            border-bottom: 3px solid var(--terracotta-600);
+            padding-bottom: 32px;
+        }
+
+        h1 {
+            font-family: var(--serif);
+            font-size: 72px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 16px;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: var(--terracotta-700);
+            margin-bottom: 24px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .variant-label {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--ochre-600);
+            margin-bottom: 12px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: var(--ink-900);
+            max-width: 700px;
+            line-height: 1.8;
+        }
+
+        section {
+            margin-bottom: 96px;
+        }
+
+        .section-title {
+            font-family: var(--serif);
+            font-size: 56px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 48px;
+            margin-top: 64px;
+            border-left: 0px solid transparent;
+            padding-left: 0;
+            letter-spacing: -1px;
+        }
+
+        /* Color Palette */
+        .palette {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 40px;
+            margin-bottom: 64px;
+        }
+
+        .color-block {
+            text-align: center;
+        }
+
+        .color-swatch {
+            width: 100%;
+            height: 140px;
+            border-radius: 0px;
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+        }
+
+        .color-name {
+            font-family: var(--serif);
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 8px;
+        }
+
+        .color-hex {
+            font-size: 13px;
+            color: var(--terracotta-700);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        /* Typography */
+        .typography-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+        }
+
+        .type-sample {
+            background-color: var(--cream-100);
+            padding: 48px;
+            border-radius: 0px;
+            border-left: 0px solid var(--ochre-600);
+        }
+
+        .type-label {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--ochre-600);
+            margin-bottom: 20px;
+        }
+
+        .type-sample h2 {
+            font-family: var(--serif);
+            font-size: 72px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 16px;
+            line-height: 1;
+            letter-spacing: -1px;
+        }
+
+        .type-sample h3 {
+            font-family: var(--serif);
+            font-size: 48px;
+            font-weight: 600;
+            color: var(--ink-900);
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .type-sample p {
+            font-size: 18px;
+            color: var(--ink-900);
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+
+        .type-sample .small {
+            font-size: 14px;
+            color: var(--terracotta-700);
+            margin-top: 8px;
+        }
+
+        .type-sample .caption {
+            font-family: var(--hand);
+            font-size: 32px;
+            color: var(--terracotta-700);
+            margin-top: 32px;
+            padding-top: 32px;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Components */
+        .components-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 48px;
+        }
+
+        .component {
+            background-color: white;
+            padding: 40px;
+            border: 1px solid var(--border);
+            border-radius: 0px;
+        }
+
+        .component h4 {
+            font-family: var(--serif);
+            font-size: 28px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .component p {
+            font-size: 16px;
+            color: var(--ink-900);
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--terracotta-600);
+            color: white;
+            padding: 14px 40px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            border-radius: 0px;
+            transition: background-color 0.3s ease;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-button:hover {
+            background-color: var(--terracotta-700);
+        }
+
+        .cta-link {
+            color: var(--ochre-600);
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid var(--ochre-600);
+        }
+
+        .cta-link:hover {
+            color: var(--terracotta-700);
+            border-bottom-color: var(--terracotta-700);
+        }
+
+        /* Hero Section Example */
+        .hero-demo {
+            background: var(--cream-100);
+            padding: 96px 48px;
+            text-align: center;
+            border: 1px solid var(--border);
+            border-radius: 0px;
+            margin-bottom: 64px;
+        }
+
+        .hero-demo h2 {
+            font-family: var(--serif);
+            font-size: 64px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 24px;
+            line-height: 1.1;
+            letter-spacing: -1px;
+        }
+
+        .hero-demo p {
+            font-size: 18px;
+            color: var(--ink-900);
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        /* Comparison Note */
+        .comparison-note {
+            background-color: var(--cream-100);
+            border-left: 0px solid var(--ochre-600);
+            padding: 32px;
+            margin-top: 64px;
+            border-radius: 0px;
+            border: 1px solid var(--border);
+        }
+
+        .comparison-note h3 {
+            font-family: var(--serif);
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--moss-900);
+            margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+
+        .comparison-note p {
+            font-size: 16px;
+            color: var(--ink-900);
+            line-height: 1.8;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--terracotta-700);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="variant-label">Variant B</div>
+            <h1>Resonance</h1>
+            <p class="subtitle">Latin-American Modernism</p>
+            <p class="description">A daytime, sober dance party in Chicago for people who want to meet a partner. Heart encounters, not head encounters. The music does the emotional labor so you don't have to. We count couples, not followers.</p>
+        </header>
+
+        <section>
+            <h2 class="section-title">Color Palette</h2>
+            <p style="margin-bottom: 48px; font-size: 16px; color: var(--ink-900);">Bold earth tones: deep terracotta meets architectural moss and warm ochre. Grounded, architectural, rooted in place.</p>
+
+            <div class="palette">
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--terracotta-700);"></div>
+                    <div class="color-name">Terracotta 700</div>
+                    <div class="color-hex">#8A3220</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--terracotta-600);"></div>
+                    <div class="color-name">Terracotta 600</div>
+                    <div class="color-hex">#A8412A</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--moss-900);"></div>
+                    <div class="color-name">Moss 900</div>
+                    <div class="color-hex">#1F2E1E</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--moss-700);"></div>
+                    <div class="color-name">Moss 700</div>
+                    <div class="color-hex">#36513A</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--ochre-600);"></div>
+                    <div class="color-name">Ochre 600</div>
+                    <div class="color-hex">#B8843C</div>
+                </div>
+                <div class="color-block">
+                    <div class="color-swatch" style="background-color: var(--cream-100);"></div>
+                    <div class="color-name">Cream 100</div>
+                    <div class="color-hex">#F2E9D4</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Typography</h2>
+            <p style="margin-bottom: 48px; font-size: 16px; color: var(--ink-900);">Architectural serif with generous letterspace. The hand appears rarely. Modern, confident, rooted.</p>
+
+            <div class="typography-grid">
+                <div class="type-sample">
+                    <div class="type-label">Hero Display</div>
+                    <h2>A daytime dance room</h2>
+                    <p class="small">Crimson Text, 72px, 600 weight, -1px letter-spacing</p>
+                </div>
+
+                <div class="type-sample">
+                    <div class="type-label">Headline Large</div>
+                    <h3>Sober. Chicago.</h3>
+                    <p class="small">Crimson Text, 48px, 600 weight</p>
+                </div>
+
+                <div class="type-sample">
+                    <div class="type-label">Body Text</div>
+                    <p>The music does the emotional labor so you don't have to. Come meet people who are intentional, warm, and ready to be seen.</p>
+                    <p class="small">Söhne, 18px, 400 weight. Line height 1.8</p>
+                </div>
+
+                <div class="type-sample">
+                    <div class="type-label">Supporting Text</div>
+                    <p style="font-size: 14px; margin-bottom: 4px;">JUNE 14, 2026 · CHICAGO</p>
+                    <p class="small">Söhne, 14px, 600 weight, letter-spacing 0.15em</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Components in Context</h2>
+            <p style="margin-bottom: 48px; font-size: 16px; color: var(--ink-900);">How the brand system works together in real applications.</p>
+
+            <div class="hero-demo">
+                <h2>You don't have to drink to dance</h2>
+                <p>A daytime room where the music does the work. Chicago. July 18, 2–5pm.</p>
+                <button class="cta-button">Application opens June 25</button>
+            </div>
+
+            <div class="components-grid">
+                <div class="component">
+                    <h4>Event Card</h4>
+                    <p>Daytime room. Curated. Sober.</p>
+                    <p style="font-size: 13px; color: var(--terracotta-700); margin-bottom: 16px; font-weight: 600;">JULY 18, 2026 · CHICAGO</p>
+                    <a href="#" class="cta-link">Learn more</a>
+                </div>
+
+                <div class="component">
+                    <h4>Flyer Headline</h4>
+                    <p style="font-family: var(--serif); font-size: 32px; color: var(--moss-900); margin-bottom: 16px; line-height: 1.2; letter-spacing: -0.5px; font-weight: 600;">The music does the work</p>
+                    <p style="font-size: 14px;">≤8 words. Names the mechanic. Filters the unsure.</p>
+                </div>
+
+                <div class="component">
+                    <h4>Application CTA</h4>
+                    <p>Application opens June 1</p>
+                    <a href="#" class="cta-link">resonance.live/apply</a>
+                    <p style="font-size: 12px; color: var(--terracotta-700); margin-top: 12px; font-weight: 600;">Points to the why-gate, never to checkout.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="section-title">Design Philosophy</h2>
+            <div class="comparison-note">
+                <h3>Latin-American Modernism</h3>
+                <p><strong>The aesthetic:</strong> Architectural, grounded, rooted in place. Deep earth tones. Bold, confident typography. The room is the second protagonist—architecture visible, intentional, unmovable. Photography emphasizes architectural frame and human connection as equals.</p>
+                <p style="margin-top: 12px;"><strong>When to use:</strong> When the brand wants to feel permanent, architectural, place-specific. The room itself carries cultural weight. Typography is bold and confident, not whisper-quiet. This variant emphasizes that Resonance is a *place* with character, not just an event.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Resonance Brand System — Variant B (Latin-American Modernism) Preview</p>
+            <p style="margin-top: 8px;">For design purposes only. Not for distribution.</p>
+        </footer>
+    </div>
+</body>
+</html>

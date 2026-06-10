@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resonance — Brand Variant Selection</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FBF7F0;
+            color: #1A1814;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 64px 32px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 96px;
+            border-bottom: 1px solid #E1D6C2;
+            padding-bottom: 48px;
+        }
+
+        h1 {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 72px;
+            font-weight: 500;
+            color: #0F1A2E;
+            margin-bottom: 16px;
+            line-height: 1;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #7A6F62;
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .intro {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 16px;
+            color: #3A332B;
+            line-height: 1.8;
+        }
+
+        .intro p {
+            margin-bottom: 16px;
+        }
+
+        .variants-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 40px;
+            margin-bottom: 80px;
+        }
+
+        .variant-card {
+            background-color: white;
+            border: 1px solid #E1D6C2;
+            border-radius: 4px;
+            overflow: hidden;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .variant-card:hover {
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+
+        .variant-preview {
+            width: 100%;
+            height: 280px;
+            background: linear-gradient(135deg, #F5EFE3 0%, #FBF7F0 100%);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-bottom: 1px solid #E1D6C2;
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 56px;
+            font-weight: 500;
+            color: #0F1A2E;
+            line-height: 1.2;
+        }
+
+        .variant-a-preview {
+            background: linear-gradient(135deg, #F5EFE3 0%, #FBF7F0 100%);
+            color: #0F1A2E;
+        }
+
+        .variant-b-preview {
+            background: linear-gradient(135deg, #F2E9D4 0%, #FAF4E6 100%);
+            color: #1F2E1E;
+        }
+
+        .variant-c-preview {
+            background: linear-gradient(135deg, #F7F2E6 0%, #FDFAF3 100%);
+            color: #16140F;
+        }
+
+        .variant-content {
+            padding: 40px;
+        }
+
+        .variant-label {
+            display: inline-block;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+            padding: 8px 12px;
+            border-radius: 3px;
+        }
+
+        .variant-a .variant-label {
+            background-color: #F5EFE3;
+            color: #B8492E;
+        }
+
+        .variant-b .variant-label {
+            background-color: #F2E9D4;
+            color: #A8412A;
+        }
+
+        .variant-c .variant-label {
+            background-color: #F7F2E6;
+            color: #9C7833;
+        }
+
+        .variant-title {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 24px;
+            font-weight: 500;
+            color: #0F1A2E;
+            margin-bottom: 12px;
+        }
+
+        .variant-subtitle {
+            font-size: 14px;
+            color: #7A6F62;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .variant-description {
+            font-size: 14px;
+            color: #3A332B;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .variant-traits {
+            font-size: 13px;
+            color: #7A6F62;
+            background-color: #FBF7F0;
+            padding: 16px;
+            border-radius: 3px;
+            margin-bottom: 24px;
+            line-height: 1.6;
+        }
+
+        .traits-label {
+            font-weight: 600;
+            color: #0F1A2E;
+            margin-bottom: 8px;
+        }
+
+        .view-button {
+            display: inline-block;
+            padding: 12px 32px;
+            background-color: #B8492E;
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+        }
+
+        .variant-b .view-button {
+            background-color: #A8412A;
+        }
+
+        .variant-c .view-button {
+            background-color: #4B5849;
+        }
+
+        .view-button:hover {
+            opacity: 0.9;
+        }
+
+        .decision-section {
+            background-color: #F5EFE3;
+            padding: 56px;
+            border-radius: 4px;
+            border: 1px solid #E1D6C2;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .decision-section h2 {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 44px;
+            font-weight: 500;
+            color: #0F1A2E;
+            margin-bottom: 24px;
+        }
+
+        .decision-section p {
+            font-size: 16px;
+            color: #3A332B;
+            max-width: 600px;
+            margin: 0 auto 32px;
+            line-height: 1.8;
+        }
+
+        .decision-button {
+            display: inline-block;
+            padding: 16px 48px;
+            background-color: #B8492E;
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 3px;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .decision-button:hover {
+            background-color: #9A3A22;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 80px;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #E1D6C2;
+        }
+
+        .comparison-table th {
+            background-color: #FBF7F0;
+            font-weight: 600;
+            color: #0F1A2E;
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 18px;
+        }
+
+        .comparison-table td {
+            font-size: 14px;
+            color: #3A332B;
+        }
+
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .aspect {
+            font-weight: 600;
+            color: #0F1A2E;
+            width: 180px;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 48px;
+            border-top: 1px solid #E1D6C2;
+            font-size: 13px;
+            color: #7A6F62;
+        }
+
+        .methodology {
+            background-color: #F5EFE3;
+            padding: 40px;
+            border-radius: 4px;
+            border-left: 4px solid #B8492E;
+            margin-bottom: 80px;
+        }
+
+        .methodology h3 {
+            font-family: 'IBM Plex Serif', serif;
+            font-size: 20px;
+            font-weight: 500;
+            color: #0F1A2E;
+            margin-bottom: 16px;
+        }
+
+        .methodology p {
+            font-size: 14px;
+            color: #3A332B;
+            line-height: 1.7;
+            margin-bottom: 12px;
+        }
+
+        .methodology strong {
+            color: #0F1A2E;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Resonance</h1>
+            <p class="subtitle">Brand Variant Selection</p>
+            <div class="intro">
+                <p>Below are three distinct visual directions for Resonance. Each one carries the same brand DNA—daytime, sober, curated, Chicago—but each has its own aesthetic voice and operational philosophy.</p>
+                <p><strong>Click on each variant to explore the full design system, then decide which one feels most authentic to you and the room you're building.</strong></p>
+            </div>
+        </header>
+
+        <section class="variants-grid">
+            <!-- Variant A -->
+            <div class="variant-card variant-a">
+                <div class="variant-preview variant-a-preview">
+                    A daytime dance room
+                </div>
+                <div class="variant-content">
+                    <div class="variant-label">VARIANT A</div>
+                    <h3 class="variant-title">Editorial Broadsheet</h3>
+                    <p class="variant-subtitle">1978 vinyl jacket meets Kinfolk magazine</p>
+                    <p class="variant-description">Warm terracotta. Deep midnight. Cream & gold. The aesthetic of a timeless record store. Photography is the protagonist. Type is elegant but restrained.</p>
+                    <div class="variant-traits">
+                        <div class="traits-label">Best for</div>
+                        When you want the room to feel warm, intimate, and rooted in real moments. When you trust beautiful daylight photography to tell the story.
+                    </div>
+                    <a href="variant-a-preview.html" class="view-button">View Full Design System →</a>
+                </div>
+            </div>
+
+            <!-- Variant B -->
+            <div class="variant-card variant-b">
+                <div class="variant-preview variant-b-preview">
+                    Sober. Chicago.
+                </div>
+                <div class="variant-content">
+                    <div class="variant-label">VARIANT B</div>
+                    <h3 class="variant-title">Latin-American Modernism</h3>
+                    <p class="variant-subtitle">Architectural, bold, rooted in place</p>
+                    <p class="variant-description">Deep terracotta. Architectural moss. Warm ochre. Zero radius. Confident, architectural typography. The room itself is the second protagonist.</p>
+                    <div class="variant-traits">
+                        <div class="traits-label">Best for</div>
+                        When you want the space to feel permanent, architecturally significant, and culturally rooted. When the room carries as much weight as the people in it.
+                    </div>
+                    <a href="variant-b-preview.html" class="view-button">View Full Design System →</a>
+                </div>
+            </div>
+
+            <!-- Variant C -->
+            <div class="variant-card variant-c">
+                <div class="variant-preview variant-c-preview">
+                    The music does the work
+                </div>
+                <div class="variant-content">
+                    <div class="variant-label">VARIANT C</div>
+                    <h3 class="variant-title">Quiet Luxury Daylight</h3>
+                    <p class="variant-subtitle">Essayistic, intimate, understated</p>
+                    <p class="variant-description">Deep ink. Sage whisper. Gold accent. Generous whitespace. Serif at 400 weight (never bold). Everything floats in space. Photography crops are intimate and reflective.</p>
+                    <div class="variant-traits">
+                        <div class="traits-label">Best for</div>
+                        When you want the brand to feel reflective, unhurried, and deeply considered. When whitespace is a design material. The "slow luxury" choice.
+                    </div>
+                    <a href="variant-c-preview.html" class="view-button">View Full Design System →</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="methodology">
+            <h3>How These Variants Were Built</h3>
+            <p><strong>Same brand DNA, different visual voice.</strong> All three carry Resonance's core mechanic: daytime, sober, curated, Chicago-first, couples-count, body-first social. All three honor the 12 non-negotiables.</p>
+            <p>The difference is aesthetic and operational: Variant A says "timeless warmth." Variant B says "architectural permanence." Variant C says "quiet depth." Pick the one that feels most honest to who you are as a curator and the space you're building.</p>
+            <p>Once you choose, we'll use that variant's palette, typography, and spacing philosophy for all downstream assets: flyers, IG posts, Canva templates, website, applications, everything.</p>
+        </section>
+
+        <section class="decision-section">
+            <h2>Ready to decide?</h2>
+            <p>Review each variant's full design system using the buttons above. Notice how each one feels different—not just in color, but in confidence, pacing, and what it emphasizes about the room.</p>
+            <p style="font-size: 14px; color: #7A6F62; margin-top: 24px;">Once you've chosen your variant, let me know and we'll build the July 18 flyer, IG post, and Canva templates using that direction.</p>
+        </section>
+
+        <h2 style="font-family: 'IBM Plex Serif', serif; font-size: 32px; font-weight: 500; color: #0F1A2E; margin-bottom: 40px; text-align: center;">Side-by-Side Comparison</h2>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Aspect</th>
+                    <th style="color: #B8492E;">Variant A: Editorial</th>
+                    <th style="color: #A8412A;">Variant B: Architectural</th>
+                    <th style="color: #4B5849;">Variant C: Quiet Luxury</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="aspect">Primary Color</td>
+                    <td>Terracotta (#B8492E)</td>
+                    <td>Terracotta (#A8412A)</td>
+                    <td>Ink (#16140F)</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Secondary Color</td>
+                    <td>Midnight (#0F1A2E)</td>
+                    <td>Moss (#1F2E1E)</td>
+                    <td>Sage (#4B5849)</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Accent Color</td>
+                    <td>Gold (#8C6526)</td>
+                    <td>Ochre (#B8843C)</td>
+                    <td>Gold (#9C7833)</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Serif Font</td>
+                    <td>IBM Plex Serif (500)</td>
+                    <td>Crimson Text (600)</td>
+                    <td>Playfair Display (400)</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Sans Font</td>
+                    <td>Inter</td>
+                    <td>Söhne</td>
+                    <td>Söhne</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Border Radius</td>
+                    <td>4px</td>
+                    <td>0px (sharp)</td>
+                    <td>4px</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Whitespace Philosophy</td>
+                    <td>Generous, breathing</td>
+                    <td>Architectural, clean</td>
+                    <td>Extra generous (60-80px margins)</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Typography Weight</td>
+                    <td>500 / 400</td>
+                    <td>600 / 400 (bold)</td>
+                    <td>400 / 400 (light)</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Photography Register</td>
+                    <td>Intimate, warm, candid</td>
+                    <td>Architectural, room-centric</td>
+                    <td>Essayistic, tight crops</td>
+                </tr>
+                <tr>
+                    <td class="aspect">Aesthetic Roots</td>
+                    <td>Vinyl record jacket, Kinfolk</td>
+                    <td>Latin-American design, modernism</td>
+                    <td>Editorial essays, slow luxury</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <p>Resonance Brand System — Variant Selection Guide</p>
+            <p style="margin-top: 8px;">For decision-making purposes. Share with your team or save for your records.</p>
+        </footer>
+    </div>
+</body>
+</html>

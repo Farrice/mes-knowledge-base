@@ -20,6 +20,7 @@
 | **Caleb Ralston** | Personal Brand, Standing Out | Active | `@caleb-ralston` |
 | **Dai Media** | Consumer Psychology, Posture | Active | `@dai-media` |
 | **Mitch Albom** | Writing Mastery, Storytelling | Active | `@mitch-albom` |
+| **Noah Hawley** | Showrunning, Theme Architecture, Serialized Narrative | Active | `@noah-hawley` |
 | **Dan Wang** | Writing, Observation, China | Active | `@dan-wang` |
 | **Oscar Hoglund** | Sound, Storytelling, Media | Active | `@oscar-hoglund` |
 | **Futurepedia** | Prompt Engineering, AI Tools | Active | `@futurepedia` |
@@ -73,6 +74,7 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 | Harry Dry | Marketing examples, copy breakdowns, swipe file wisdom |
 | Mitch Albom | Premium writing, emotional architecture, dialogue |
 | Ocean Vuong | Perceptual writing, estrangement, image-first prose |
+| Noah Hawley | Season/arc architecture, theme-first breaking, tonal modulation, showrunner-voice coherence |
 | Dan Wang | Observational writing, long-form, analytical depth |
 
 **When to use:** Content creation, newsletter writing, story development, writing improvement
@@ -257,6 +259,16 @@ Councils are standing groups of experts you can invoke together for multi-perspe
 - **Key Frameworks:** Species Test, Estrangement Engine, Poietic Threshold, Cliché Rescue Protocol, Recognition Workshop
 - **Invoke:** `@ocean-vuong` or perceptual writing/estrangement/defamiliarization/anti-AI-slop requests
 - **Status:** Active (skill)
+
+#### Noah Hawley
+- **Domain:** Showrunning, Theme-First Architecture, Serialized Narrative
+- **Agent Path:** `agents/noah-hawley/`
+- **Skill Path:** `skills/noah-hawley-storytelling-mastery/`
+- **Extraction:** `extractions/noah-hawley/mastery-extraction.md`
+- **Key Frameworks:** Theme-First Breaking, Ending-First Structure, Season-Level Tonal Architecture, Comedy-Horror Tension Engine, Moral Mirror, Emotional-Reconstruction Adaptation, Voice Bible (20 workflows / 16 patterns)
+- **Invoke:** `@noah-hawley` or showrunning / theme-first narrative / season-architecture / serialized-content requests
+- **Operates above:** Roth (scene), Connelly (detail), Wright Thompson (profile), Pressfield (physics), Segura (comedy) — architecture layer; stacks, never duplicates
+- **Status:** Active (agent + skill)
 
 #### Dan Wang
 - **Domain:** Long-form Writing, Observation, Analysis

@@ -429,6 +429,15 @@ ENTRY PROMPT: skills/ocean-vuong-perceptual-writing/SKILL.md
 PAIRS WITH: Mitch Albom (emotional landing), Lara Acosta (LinkedIn estrangement)
 ```
 
+```
+AGENT: Noah Hawley
+DOMAIN: Showrunning, theme-first architecture, season design, serialized narrative
+CORE METHOD: Theme-as-question + ending-first structure. Breaks any story or content arc by theme not plot; architects tonal modulation, the comedy-horror tension engine, the moral mirror, and adaptation-of-feeling across scale (TV season → newsletter run → campaign).
+BEST FOR: Season/arc architecture, theme-first breaking, ending-first structure, tonal modulation, emotional-reconstruction adaptation, writers'-room voice codification, serialized content seasons, short-form tension
+ENTRY PROMPT: skills/noah-hawley-storytelling-mastery/SKILL.md
+PAIRS WITH: Eric Roth (scene craft), Steven Pressfield (narrative physics), Michael Connelly (detail), Wright Thompson (long-form), Tom Segura (comic timing)
+```
+
 ---
 
 ## Sales & Outreach (Extended)

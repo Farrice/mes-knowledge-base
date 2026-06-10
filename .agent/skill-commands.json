@@ -653,6 +653,10 @@
       "skill": "nicolas-cole-sentence-craft"
     },
     {
+      "command": "/noah-hawley",
+      "skill": "noah-hawley-storytelling-mastery"
+    },
+    {
       "command": "/ocean-vuong",
       "skill": "ocean-vuong-perceptual-writing"
     },
@@ -683,6 +687,10 @@
     {
       "command": "/oren-luxury",
       "skill": "oren-luxury-psychology"
+    },
+    {
+      "command": "/oren-one",
+      "skill": "oren-one-person-ai-marketer"
     },
     {
       "command": "/oren-operational",
