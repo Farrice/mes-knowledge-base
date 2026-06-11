@@ -1,0 +1,12 @@
+---
+description: "/meg-design-handoff — convert a LEAD concept into trigger-grounded generation prompts + composition/typography briefs (Satori/Kittl/fantastic-posters handoff)."
+---
+
+# Design Handoff (Meg Heckman)
+
+convert a LEAD concept into trigger-grounded generation prompts + composition/typography briefs (Satori/Kittl/fantastic-posters handoff).
+
+## Steps
+1. Load the Meg Heckman spine: read `skills/meg-heckman-buyer-trigger-os/genius.md` (Six Triggers + Decision Framework + Anti-Patterns).
+2. Read and execute the full workflow at `skills/meg-heckman-buyer-trigger-os/workflows/meg-design-handoff.md` exactly as documented (Pre-Flight, Steps, Output Format, Quality Gate).
+3. Run the Quality Gate (`genius.md` § Anti-Patterns + § Expert-Specific Quality Rubric) before delivering.

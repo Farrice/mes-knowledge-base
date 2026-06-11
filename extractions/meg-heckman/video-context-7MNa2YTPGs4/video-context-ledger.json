@@ -1,0 +1,2675 @@
+[
+  {
+    "timestamp": "00:00:00.000",
+    "seconds": 0.0,
+    "type": "observed_spoken",
+    "evidence": "In the last 30 days, my print on demand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00",
+    "seconds": 0,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000000.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:00:02.400",
+    "seconds": 2.4,
+    "type": "observed_spoken",
+    "evidence": "t-shirt brand did $1,195,740",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:06.920",
+    "seconds": 6.92,
+    "type": "observed_spoken",
+    "evidence": "in sales at a 14% margin. So, over",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.600",
+    "seconds": 9.6,
+    "type": "observed_spoken",
+    "evidence": "$167,000",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:11.480",
+    "seconds": 11.48,
+    "type": "observed_spoken",
+    "evidence": "in profit. Most people hear that and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:13.480",
+    "seconds": 13.48,
+    "type": "observed_spoken",
+    "evidence": "they assume that I found a hack, a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:15.080",
+    "seconds": 15.08,
+    "type": "observed_spoken",
+    "evidence": "hidden niche, a better ad strategy, a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.280",
+    "seconds": 17.28,
+    "type": "observed_spoken",
+    "evidence": "magic product no one else has found yet.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:20.200",
+    "seconds": 20.2,
+    "type": "observed_spoken",
+    "evidence": "But, I can tell you now, you can't hack",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:22.200",
+    "seconds": 22.2,
+    "type": "observed_spoken",
+    "evidence": "the mechanics, but you can hack the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:24.280",
+    "seconds": 24.28,
+    "type": "observed_spoken",
+    "evidence": "mind. The real edge was understanding",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:26.920",
+    "seconds": 26.92,
+    "type": "observed_spoken",
+    "evidence": "what was actually happening in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:28.960",
+    "seconds": 28.96,
+    "type": "observed_spoken",
+    "evidence": "buyer's mind. So, in this video, I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30",
+    "seconds": 30,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000030.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:00:31.000",
+    "seconds": 31.0,
+    "type": "observed_spoken",
+    "evidence": "going to walk you through the six",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:32.680",
+    "seconds": 32.68,
+    "type": "observed_spoken",
+    "evidence": "psychological triggers that made people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:34.760",
+    "seconds": 34.76,
+    "type": "observed_spoken",
+    "evidence": "buy from my brand so that you can start",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:37.280",
+    "seconds": 37.28,
+    "type": "observed_spoken",
+    "evidence": "using them to your advantage and start",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:39.320",
+    "seconds": 39.32,
+    "type": "observed_spoken",
+    "evidence": "making sales. The first psychological",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.360",
+    "seconds": 41.36,
+    "type": "observed_spoken",
+    "evidence": "trigger is identity beats utility.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:44.520",
+    "seconds": 44.52,
+    "type": "observed_spoken",
+    "evidence": "Identity beats utility means this,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:47.160",
+    "seconds": 47.16,
+    "type": "observed_spoken",
+    "evidence": "people do not buy the shirt, they buy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:49.520",
+    "seconds": 49.52,
+    "type": "observed_spoken",
+    "evidence": "what the shirt says about them. Nobody",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:51.880",
+    "seconds": 51.88,
+    "type": "observed_spoken",
+    "evidence": "wakes up saying that they need one more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:54.080",
+    "seconds": 54.08,
+    "type": "observed_spoken",
+    "evidence": "graphic tee, but they will buy one if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:56.520",
+    "seconds": 56.52,
+    "type": "observed_spoken",
+    "evidence": "that t-shirt makes them feel seen. If it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.000",
+    "seconds": 59.0,
+    "type": "observed_spoken",
+    "evidence": "says, \"This is me. This is my sense of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:00",
+    "seconds": 60,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000060.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:01:01.200",
+    "seconds": 61.2,
+    "type": "observed_spoken",
+    "evidence": "humor. This is the kind of person that I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.400",
+    "seconds": 63.4,
+    "type": "observed_spoken",
+    "evidence": "am.\" That is where most beginners get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:06.000",
+    "seconds": 66.0,
+    "type": "observed_spoken",
+    "evidence": "stuck because they'll ask, \"Is this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:08.160",
+    "seconds": 68.16,
+    "type": "observed_spoken",
+    "evidence": "design pretty?\" But, pretty is not the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:10.480",
+    "seconds": 70.48,
+    "type": "observed_spoken",
+    "evidence": "sale. The better question to be asking",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.760",
+    "seconds": 72.76,
+    "type": "observed_spoken",
+    "evidence": "is, \"What does this let the buyer say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:15.240",
+    "seconds": 75.24,
+    "type": "observed_spoken",
+    "evidence": "about themselves?\" That is the first",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:17.880",
+    "seconds": 77.88,
+    "type": "observed_spoken",
+    "evidence": "shift, but it has to happen fast. That",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:20.640",
+    "seconds": 80.64,
+    "type": "observed_spoken",
+    "evidence": "brings us to psychological trigger two,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:23.560",
+    "seconds": 83.56,
+    "type": "observed_spoken",
+    "evidence": "which is recognition creates emotion.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:27.200",
+    "seconds": 87.2,
+    "type": "observed_spoken",
+    "evidence": "The best designs are easy to get right",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:29.480",
+    "seconds": 89.48,
+    "type": "observed_spoken",
+    "evidence": "away. The buyer should not have to study",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:30",
+    "seconds": 90,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000090.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:01:32.040",
+    "seconds": 92.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "it. They should see it and immediately",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:34.280",
+    "seconds": 94.28,
+    "type": "observed_spoken",
+    "evidence": "feel something. Whether that's, \"That's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:36.480",
+    "seconds": 96.47999999999999,
+    "type": "observed_spoken",
+    "evidence": "me. That's my friend. That's exactly my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:39.160",
+    "seconds": 99.16,
+    "type": "observed_spoken",
+    "evidence": "life.\" When that happens, attention gets",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.120",
+    "seconds": 102.12,
+    "type": "observed_spoken",
+    "evidence": "easier and attention is where the sale",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:45.120",
+    "seconds": 105.12,
+    "type": "observed_spoken",
+    "evidence": "starts. Now, most sellers will try to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.840",
+    "seconds": 107.84,
+    "type": "observed_spoken",
+    "evidence": "clever. They'll try to be unique.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:49.480",
+    "seconds": 109.47999999999999,
+    "type": "observed_spoken",
+    "evidence": "They'll try to put their own spin and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:51.080",
+    "seconds": 111.08,
+    "type": "observed_spoken",
+    "evidence": "they'll try to make art. But, if the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:52.680",
+    "seconds": 112.68,
+    "type": "observed_spoken",
+    "evidence": "buyer has to work too hard to get the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:54.800",
+    "seconds": 114.8,
+    "type": "observed_spoken",
+    "evidence": "joke or understand the design, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:57.000",
+    "seconds": 117.0,
+    "type": "observed_spoken",
+    "evidence": "moment's gone. People scroll fast. They",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:00",
+    "seconds": 120,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000120.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:02:00.040",
+    "seconds": 120.04,
+    "type": "observed_spoken",
+    "evidence": "do not decode designs, especially in ads",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.080",
+    "seconds": 123.08,
+    "type": "observed_spoken",
+    "evidence": "on Facebook. They simply react to them.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.880",
+    "seconds": 125.88,
+    "type": "observed_spoken",
+    "evidence": "So, the goal is to not make the customer",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:08.080",
+    "seconds": 128.08,
+    "type": "observed_spoken",
+    "evidence": "think harder. The goal is to make the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:10.160",
+    "seconds": 130.16,
+    "type": "observed_spoken",
+    "evidence": "right person feel seen faster. And the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:13.200",
+    "seconds": 133.2,
+    "type": "observed_spoken",
+    "evidence": "fastest way to do that is to get more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:16.000",
+    "seconds": 136.0,
+    "type": "observed_spoken",
+    "evidence": "specific. And that leads us to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.959",
+    "seconds": 137.959,
+    "type": "observed_spoken",
+    "evidence": "psychological trigger number three.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:20.000",
+    "seconds": 140.0,
+    "type": "observed_spoken",
+    "evidence": "Specificity sells better than broad",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:23.000",
+    "seconds": 143.0,
+    "type": "observed_spoken",
+    "evidence": "appeal. Broad designs feel safe.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:25.959",
+    "seconds": 145.959,
+    "type": "observed_spoken",
+    "evidence": "Specific designs feel personal. And this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:28.800",
+    "seconds": 148.8,
+    "type": "observed_spoken",
+    "evidence": "is where a lot of people get the math",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:30",
+    "seconds": 150,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000150.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:02:30.880",
+    "seconds": 150.88,
+    "type": "observed_spoken",
+    "evidence": "wrong. They think if a design could",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:33.240",
+    "seconds": 153.24,
+    "type": "observed_spoken",
+    "evidence": "speak to more people, it has a better",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.680",
+    "seconds": 155.68,
+    "type": "observed_spoken",
+    "evidence": "chance to sell. So, they'll make",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:37.560",
+    "seconds": 157.56,
+    "type": "observed_spoken",
+    "evidence": "something for all dog owners or all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:40.360",
+    "seconds": 160.36,
+    "type": "observed_spoken",
+    "evidence": "moms, all teachers, all coffee drinkers.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:43.880",
+    "seconds": 163.88,
+    "type": "observed_spoken",
+    "evidence": "But, broad usually feels bland. Dog mom",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:47.600",
+    "seconds": 167.6,
+    "type": "observed_spoken",
+    "evidence": "is broad. Financially ruined by my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:49.959",
+    "seconds": 169.959,
+    "type": "observed_spoken",
+    "evidence": "golden retriever is very specific. The",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:52.760",
+    "seconds": 172.76,
+    "type": "observed_spoken",
+    "evidence": "first one names a group. The second one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:55.440",
+    "seconds": 175.44,
+    "type": "observed_spoken",
+    "evidence": "paints a person. You can picture her.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:58.080",
+    "seconds": 178.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "You can picture the dog. You can picture",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "03:00",
+    "seconds": 180,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000180.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:03:00.040",
+    "seconds": 180.04,
+    "type": "observed_spoken",
+    "evidence": "the joke. And that's why it hits harder.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:02.800",
+    "seconds": 182.8,
+    "type": "observed_spoken",
+    "evidence": "The buyer does not feel like the design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:05.440",
+    "seconds": 185.44,
+    "type": "observed_spoken",
+    "evidence": "was made for a market, they feel like it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:08.600",
+    "seconds": 188.6,
+    "type": "observed_spoken",
+    "evidence": "was made for them. This is also why I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:11.560",
+    "seconds": 191.56,
+    "type": "observed_spoken",
+    "evidence": "don't buy the whole print on demand is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.519",
+    "seconds": 193.519,
+    "type": "observed_spoken",
+    "evidence": "dead thing. Yes, the easy 2020 version",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:16.560",
+    "seconds": 196.56,
+    "type": "observed_spoken",
+    "evidence": "is gone. You can't just throw any phrase",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:19.200",
+    "seconds": 199.2,
+    "type": "observed_spoken",
+    "evidence": "on a t-shirt and expect it to sell. But,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.440",
+    "seconds": 201.44,
+    "type": "observed_spoken",
+    "evidence": "people did not stop buying things that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:23.680",
+    "seconds": 203.68,
+    "type": "observed_spoken",
+    "evidence": "feel personal. They did not stop wanting",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.120",
+    "seconds": 206.12,
+    "type": "observed_spoken",
+    "evidence": "to laugh. They didn't stop wanting to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.200",
+    "seconds": 208.2,
+    "type": "observed_spoken",
+    "evidence": "belong. They didn't stop wanting",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "03:30",
+    "seconds": 210,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000210.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:03:30.400",
+    "seconds": 210.4,
+    "type": "observed_spoken",
+    "evidence": "products that say something about who",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:32.959",
+    "seconds": 212.959,
+    "type": "observed_spoken",
+    "evidence": "they are. The psychology is the same,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:35.840",
+    "seconds": 215.84,
+    "type": "observed_spoken",
+    "evidence": "the bar just got higher. And honestly,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:39.000",
+    "seconds": 219.0,
+    "type": "observed_spoken",
+    "evidence": "that is good news because right now, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.239",
+    "seconds": 221.239,
+    "type": "observed_spoken",
+    "evidence": "have more tools than ever. You have AI",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:43.640",
+    "seconds": 223.64,
+    "type": "observed_spoken",
+    "evidence": "tools, design tools, research tools,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.080",
+    "seconds": 226.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "store builders, ad tools. They all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:48.920",
+    "seconds": 228.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "didn't exist a few years ago. But, tools",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:51.519",
+    "seconds": 231.519,
+    "type": "observed_spoken",
+    "evidence": "only help if you know what you're trying",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:54.040",
+    "seconds": 234.04,
+    "type": "observed_spoken",
+    "evidence": "to find. You're not looking for a random",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:56.560",
+    "seconds": 236.56,
+    "type": "observed_spoken",
+    "evidence": "design. You're looking for the exact",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:58.960",
+    "seconds": 238.96,
+    "type": "observed_spoken",
+    "evidence": "person who will see it and say, I need",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "04:00",
+    "seconds": 240,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000240.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:04:01.240",
+    "seconds": 241.24,
+    "type": "observed_spoken",
+    "evidence": "that. That is what specificity does. It",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:04.080",
+    "seconds": 244.08,
+    "type": "observed_spoken",
+    "evidence": "turns a topic into a person. And once a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.040",
+    "seconds": 247.04,
+    "type": "observed_spoken",
+    "evidence": "design feels that personal, the buyer",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:09.520",
+    "seconds": 249.52,
+    "type": "observed_spoken",
+    "evidence": "starts thinking about how other people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:11.520",
+    "seconds": 251.52,
+    "type": "observed_spoken",
+    "evidence": "will react to it. And that leads us to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:14.040",
+    "seconds": 254.04,
+    "type": "observed_spoken",
+    "evidence": "trigger number four. And that's people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:16.799",
+    "seconds": 256.799,
+    "type": "observed_spoken",
+    "evidence": "buy social currency. Social currency",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:19.880",
+    "seconds": 259.88,
+    "type": "observed_spoken",
+    "evidence": "means people buy things that help them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:22.080",
+    "seconds": 262.08,
+    "type": "observed_spoken",
+    "evidence": "get a reaction. They want to look funny.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:24.560",
+    "seconds": 264.56,
+    "type": "observed_spoken",
+    "evidence": "They want to look smart. They want to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:26.480",
+    "seconds": 266.48,
+    "type": "observed_spoken",
+    "evidence": "feel like they are a part of the group.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:29.120",
+    "seconds": 269.12,
+    "type": "observed_spoken",
+    "evidence": "They want someone else to get the joke.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "04:30",
+    "seconds": 270,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000270.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:04:31.680",
+    "seconds": 271.68,
+    "type": "observed_spoken",
+    "evidence": "That matters a lot with t-shirts.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:34.440",
+    "seconds": 274.44,
+    "type": "observed_spoken",
+    "evidence": "Because t-shirts are public. You do not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.360",
+    "seconds": 277.36,
+    "type": "observed_spoken",
+    "evidence": "just buy it and hide it. You buy it to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:39.680",
+    "seconds": 279.68,
+    "type": "observed_spoken",
+    "evidence": "wear it and other people to ultimately",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:42.040",
+    "seconds": 282.04,
+    "type": "observed_spoken",
+    "evidence": "see it. So part of the sale is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:44.400",
+    "seconds": 284.4,
+    "type": "observed_spoken",
+    "evidence": "future moment in the buyer's head. When",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:46.919",
+    "seconds": 286.919,
+    "type": "observed_spoken",
+    "evidence": "somebody laughs or when somebody says,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:49.360",
+    "seconds": 289.36,
+    "type": "observed_spoken",
+    "evidence": "that is so you. Someone asks, that is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:52.040",
+    "seconds": 292.04,
+    "type": "observed_spoken",
+    "evidence": "such a great t-shirt, where did you get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:53.720",
+    "seconds": 293.72,
+    "type": "observed_spoken",
+    "evidence": "that? Someone buys it as a gift because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:56.160",
+    "seconds": 296.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "it reminds them of their friend. That is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:58.320",
+    "seconds": 298.32,
+    "type": "observed_spoken",
+    "evidence": "the moment a great design creates. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "05:00",
+    "seconds": 300,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000300.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:05:01.240",
+    "seconds": 301.24,
+    "type": "observed_spoken",
+    "evidence": "when I look at designs, that is what I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:03.520",
+    "seconds": 303.52,
+    "type": "observed_spoken",
+    "evidence": "looking for. Not just does this design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:06.000",
+    "seconds": 306.0,
+    "type": "observed_spoken",
+    "evidence": "look good? I'm asking, would someone",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:08.480",
+    "seconds": 308.48,
+    "type": "observed_spoken",
+    "evidence": "wear this and want people to notice them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:10.880",
+    "seconds": 310.88,
+    "type": "observed_spoken",
+    "evidence": "in it? Would someone send this to a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:12.720",
+    "seconds": 312.72,
+    "type": "observed_spoken",
+    "evidence": "friend? Would someone like this shirt?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:15.720",
+    "seconds": 315.72,
+    "type": "observed_spoken",
+    "evidence": "Would someone feel like this shirt says",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:18.120",
+    "seconds": 318.12,
+    "type": "observed_spoken",
+    "evidence": "the quiet part out loud? That's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:20.080",
+    "seconds": 320.08,
+    "type": "observed_spoken",
+    "evidence": "difference between a product and a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:22.160",
+    "seconds": 322.16,
+    "type": "observed_spoken",
+    "evidence": "conversation starter. A product sits on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:25.520",
+    "seconds": 325.52,
+    "type": "observed_spoken",
+    "evidence": "a page. A conversation starter moves",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:28.400",
+    "seconds": 328.4,
+    "type": "observed_spoken",
+    "evidence": "through people. It gets worn. It gets",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "05:30",
+    "seconds": 330,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000330.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:05:30.480",
+    "seconds": 330.48,
+    "type": "observed_spoken",
+    "evidence": "gifted. It gets talked about. It gets",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:32.919",
+    "seconds": 332.919,
+    "type": "observed_spoken",
+    "evidence": "shared on Facebook. That's why these ads",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.640",
+    "seconds": 335.64,
+    "type": "observed_spoken",
+    "evidence": "go nuclear. That is why the public",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:37.880",
+    "seconds": 337.88,
+    "type": "observed_spoken",
+    "evidence": "reaction matters. Beginners will design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:40.400",
+    "seconds": 340.4,
+    "type": "observed_spoken",
+    "evidence": "for product pages, but operators will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:42.640",
+    "seconds": 342.64,
+    "type": "observed_spoken",
+    "evidence": "design for the moment after the the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:45.680",
+    "seconds": 345.68,
+    "type": "observed_spoken",
+    "evidence": "arrives at the customer's door. And the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:47.840",
+    "seconds": 347.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "strongest reactions usually come from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:50.080",
+    "seconds": 350.08,
+    "type": "observed_spoken",
+    "evidence": "ideas that feel familiar, but not too",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:52.800",
+    "seconds": 352.8,
+    "type": "observed_spoken",
+    "evidence": "familiar. That leads us to psychological",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:55.600",
+    "seconds": 355.6,
+    "type": "observed_spoken",
+    "evidence": "trigger number five, which is familiar",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:57.840",
+    "seconds": 357.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "plus unexpected wins. The best design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "06:00",
+    "seconds": 360,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000360.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:06:01.000",
+    "seconds": 361.0,
+    "type": "observed_spoken",
+    "evidence": "ideas usually have two parts. Something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:03.720",
+    "seconds": 363.72,
+    "type": "observed_spoken",
+    "evidence": "that the buyer already understands and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:05.800",
+    "seconds": 365.8,
+    "type": "observed_spoken",
+    "evidence": "something they did not expect. If an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:08.240",
+    "seconds": 368.24,
+    "type": "observed_spoken",
+    "evidence": "idea is only familiar, it feels boring.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:11.560",
+    "seconds": 371.56,
+    "type": "observed_spoken",
+    "evidence": "If it's only unexpected, it feels",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:14.040",
+    "seconds": 374.04,
+    "type": "observed_spoken",
+    "evidence": "confusing. But when it's both, that gets",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:16.880",
+    "seconds": 376.88,
+    "type": "observed_spoken",
+    "evidence": "people to stop. And that's truly the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.960",
+    "seconds": 378.96,
+    "type": "observed_spoken",
+    "evidence": "sweet spot. This is why old paintings",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:21.640",
+    "seconds": 381.64,
+    "type": "observed_spoken",
+    "evidence": "with modern captions work. The old",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:24.000",
+    "seconds": 384.0,
+    "type": "observed_spoken",
+    "evidence": "painting is familiar, but the modern",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.200",
+    "seconds": 386.2,
+    "type": "observed_spoken",
+    "evidence": "caption is the twist. Here's an example",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:29.280",
+    "seconds": 389.28,
+    "type": "observed_spoken",
+    "evidence": "from one of my brands, Sloth Hiking",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "06:30",
+    "seconds": 390,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000390.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:06:30.880",
+    "seconds": 390.88,
+    "type": "observed_spoken",
+    "evidence": "Club. One of our best sellers is Bigfoot",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:33.960",
+    "seconds": 393.96,
+    "type": "observed_spoken",
+    "evidence": "blowing out a dandelion. It's just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:36.480",
+    "seconds": 396.48,
+    "type": "observed_spoken",
+    "evidence": "something that makes Bigfoot feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:38.560",
+    "seconds": 398.56,
+    "type": "observed_spoken",
+    "evidence": "feminine, and it almost doesn't work,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:41.240",
+    "seconds": 401.24,
+    "type": "observed_spoken",
+    "evidence": "but it captures the audience's mind",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.160",
+    "seconds": 404.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "because you start to see kind of this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:46.120",
+    "seconds": 406.12,
+    "type": "observed_spoken",
+    "evidence": "feminine side to Bigfoot, which gives",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:48.840",
+    "seconds": 408.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "the design this funny meaning. This is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:51.560",
+    "seconds": 411.56,
+    "type": "observed_spoken",
+    "evidence": "why certain ads get shared. This is why",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:54.080",
+    "seconds": 414.08,
+    "type": "observed_spoken",
+    "evidence": "certain thumbnails work. This is why",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:56.000",
+    "seconds": 416.0,
+    "type": "observed_spoken",
+    "evidence": "certain products feel like they have a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:57.840",
+    "seconds": 417.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "spark. Your brain knows one part and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "07:00",
+    "seconds": 420,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000420.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:07:01.000",
+    "seconds": 421.0,
+    "type": "observed_spoken",
+    "evidence": "then get surprised by the other. That",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:03.000",
+    "seconds": 423.0,
+    "type": "observed_spoken",
+    "evidence": "small surprise creates curiosity, and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:05.440",
+    "seconds": 425.44,
+    "type": "observed_spoken",
+    "evidence": "curiosity will buy you attention. For",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:08.560",
+    "seconds": 428.56,
+    "type": "observed_spoken",
+    "evidence": "designs, this means you don't need to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:10.560",
+    "seconds": 430.56,
+    "type": "observed_spoken",
+    "evidence": "invent something that no one else has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:12.400",
+    "seconds": 432.4,
+    "type": "observed_spoken",
+    "evidence": "ever seen before. That is where people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:14.400",
+    "seconds": 434.4,
+    "type": "observed_spoken",
+    "evidence": "start to overthink. They try to be so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:16.680",
+    "seconds": 436.68,
+    "type": "observed_spoken",
+    "evidence": "original that nobody ends up",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:18.480",
+    "seconds": 438.48,
+    "type": "observed_spoken",
+    "evidence": "understanding the idea. The better move",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:20.919",
+    "seconds": 440.919,
+    "type": "observed_spoken",
+    "evidence": "is to start with something the buyer",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:22.480",
+    "seconds": 442.48,
+    "type": "observed_spoken",
+    "evidence": "already knows. A phrase, a hobby, a type",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:25.120",
+    "seconds": 445.12,
+    "type": "observed_spoken",
+    "evidence": "of person, a common feeling, a joke",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:27.840",
+    "seconds": 447.84,
+    "type": "observed_spoken",
+    "evidence": "inside that niche. Then twist it. Make",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "07:30",
+    "seconds": 450,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000450.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:07:30.840",
+    "seconds": 450.84,
+    "type": "observed_spoken",
+    "evidence": "it sharper. Make it more true. Make it a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:33.000",
+    "seconds": 453.0,
+    "type": "observed_spoken",
+    "evidence": "little more surprising. Make it feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:35.480",
+    "seconds": 455.48,
+    "type": "observed_spoken",
+    "evidence": "like the buyer has thought it before,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:37.919",
+    "seconds": 457.919,
+    "type": "observed_spoken",
+    "evidence": "but never seen it on a shirt. And you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:40.360",
+    "seconds": 460.36,
+    "type": "observed_spoken",
+    "evidence": "just had to be the person to say it.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:42.640",
+    "seconds": 462.64,
+    "type": "observed_spoken",
+    "evidence": "That is the test, not is this design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.360",
+    "seconds": 465.36,
+    "type": "observed_spoken",
+    "evidence": "new? The better test is is it familiar",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:48.480",
+    "seconds": 468.48,
+    "type": "observed_spoken",
+    "evidence": "enough to understand quickly and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:50.640",
+    "seconds": 470.64,
+    "type": "observed_spoken",
+    "evidence": "unexpected enough for people to care. If",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:53.200",
+    "seconds": 473.2,
+    "type": "observed_spoken",
+    "evidence": "it has both then it has chance, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:55.240",
+    "seconds": 475.24,
+    "type": "observed_spoken",
+    "evidence": "attention is still not the sale. The",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:57.680",
+    "seconds": 477.68,
+    "type": "observed_spoken",
+    "evidence": "final sale happens when emotion beats",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "08:00",
+    "seconds": 480,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000480.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:08:00.600",
+    "seconds": 480.6,
+    "type": "observed_spoken",
+    "evidence": "logic and that is trigger number six.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:04.080",
+    "seconds": 484.08,
+    "type": "observed_spoken",
+    "evidence": "Nobody needs most of the things that we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:06.400",
+    "seconds": 486.4,
+    "type": "observed_spoken",
+    "evidence": "sell on print on demand. They don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:08.440",
+    "seconds": 488.44,
+    "type": "observed_spoken",
+    "evidence": "typically need another t-shirt. They",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:10.760",
+    "seconds": 490.76,
+    "type": "observed_spoken",
+    "evidence": "don't need another hoodie. They don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:12.520",
+    "seconds": 492.52,
+    "type": "observed_spoken",
+    "evidence": "need another coffee mug. If they only",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:14.919",
+    "seconds": 494.919,
+    "type": "observed_spoken",
+    "evidence": "wanted cheap fabric, they would go to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.360",
+    "seconds": 497.36,
+    "type": "observed_spoken",
+    "evidence": "Amazon or they'd go to Target or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:19.040",
+    "seconds": 499.04,
+    "type": "observed_spoken",
+    "evidence": "Walmart. So if the only thing you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:21.880",
+    "seconds": 501.88,
+    "type": "observed_spoken",
+    "evidence": "selling is the item, then you're in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:24.280",
+    "seconds": 504.28,
+    "type": "observed_spoken",
+    "evidence": "trouble. The design has to create the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:26.560",
+    "seconds": 506.56,
+    "type": "observed_spoken",
+    "evidence": "feeling first, then the buyer gives",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.400",
+    "seconds": 508.4,
+    "type": "observed_spoken",
+    "evidence": "themselves the reason. They think, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "08:30",
+    "seconds": 510,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000510.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:08:30.640",
+    "seconds": 510.64,
+    "type": "observed_spoken",
+    "evidence": "could wear that this weekend or my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:32.680",
+    "seconds": 512.68,
+    "type": "observed_spoken",
+    "evidence": "sister would absolutely love this. This",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:34.960",
+    "seconds": 514.96,
+    "type": "observed_spoken",
+    "evidence": "would be perfect for that girls trip.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:37.200",
+    "seconds": 517.2,
+    "type": "observed_spoken",
+    "evidence": "I've been meaning to buy another hoodie",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:39.200",
+    "seconds": 519.2,
+    "type": "observed_spoken",
+    "evidence": "anyway. That is how people buy. The",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:41.880",
+    "seconds": 521.88,
+    "type": "observed_spoken",
+    "evidence": "feeling comes first and then the reason",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:44.280",
+    "seconds": 524.28,
+    "type": "observed_spoken",
+    "evidence": "comes second. And this is where the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:46.400",
+    "seconds": 526.4,
+    "type": "observed_spoken",
+    "evidence": "foundation of the brand matters, too.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.960",
+    "seconds": 528.96,
+    "type": "observed_spoken",
+    "evidence": "The store matters, the offer matters,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:51.120",
+    "seconds": 531.12,
+    "type": "observed_spoken",
+    "evidence": "the ads matter, the testing matters, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:53.839",
+    "seconds": 533.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "emails matter, but none of those are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:56.400",
+    "seconds": 536.4,
+    "type": "observed_spoken",
+    "evidence": "magic buttons. They work because they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.000",
+    "seconds": 539.0,
+    "type": "observed_spoken",
+    "evidence": "support the thing the buyer already",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:00",
+    "seconds": 540,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000540.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:01.360",
+    "seconds": 541.36,
+    "type": "observed_spoken",
+    "evidence": "feels. If the design does not create a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:03.720",
+    "seconds": 543.72,
+    "type": "observed_spoken",
+    "evidence": "feeling, everything else has to work",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:06.200",
+    "seconds": 546.2,
+    "type": "observed_spoken",
+    "evidence": "harder for you. Your ad has to work",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:08.720",
+    "seconds": 548.72,
+    "type": "observed_spoken",
+    "evidence": "harder, your price has to work harder,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:11.800",
+    "seconds": 551.8,
+    "type": "observed_spoken",
+    "evidence": "your product page has to work harder.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:14.600",
+    "seconds": 554.6,
+    "type": "observed_spoken",
+    "evidence": "But when the design makes the right",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:16.360",
+    "seconds": 556.36,
+    "type": "observed_spoken",
+    "evidence": "person feel seen, the whole brand has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:19.400",
+    "seconds": 559.4,
+    "type": "observed_spoken",
+    "evidence": "more room to work. That is what I mean",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:21.760",
+    "seconds": 561.76,
+    "type": "observed_spoken",
+    "evidence": "when I say this is psychology. It is not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:25.360",
+    "seconds": 565.36,
+    "type": "observed_spoken",
+    "evidence": "some soft idea. It is the reason a basic",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:28.680",
+    "seconds": 568.68,
+    "type": "observed_spoken",
+    "evidence": "product can become a real brand that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:30",
+    "seconds": 570,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/7MNa2YTPGs4/frames/frame-000570.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:31.400",
+    "seconds": 571.4,
+    "type": "observed_spoken",
+    "evidence": "does million-dollar months. Now, you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:33.839",
+    "seconds": 573.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "probably watching this and you say,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:35.600",
+    "seconds": 575.6,
+    "type": "observed_spoken",
+    "evidence": "\"Meg, I totally get what you're saying.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:37.720",
+    "seconds": 577.72,
+    "type": "observed_spoken",
+    "evidence": "The buyer's psychology is important. But",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:40.320",
+    "seconds": 580.32,
+    "type": "observed_spoken",
+    "evidence": "what about the step-by-step? What if I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:42.120",
+    "seconds": 582.12,
+    "type": "observed_spoken",
+    "evidence": "want to be able to do this?\" Don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:43.720",
+    "seconds": 583.72,
+    "type": "observed_spoken",
+    "evidence": "worry, I got you. If you want the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:45.760",
+    "seconds": 585.76,
+    "type": "observed_spoken",
+    "evidence": "step-by-step version of how I do all of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:47.920",
+    "seconds": 587.92,
+    "type": "observed_spoken",
+    "evidence": "this, that is exactly what I teach right",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:50.680",
+    "seconds": 590.68,
+    "type": "observed_spoken",
+    "evidence": "here on YouTube in my free 12-hour print",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:52.880",
+    "seconds": 592.88,
+    "type": "observed_spoken",
+    "evidence": "on demand course. The psychology, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:54.880",
+    "seconds": 594.88,
+    "type": "observed_spoken",
+    "evidence": "design process, the Shopify store setup,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:57.400",
+    "seconds": 597.4,
+    "type": "observed_spoken",
+    "evidence": "the ads, the testing, the numbers, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:59.720",
+    "seconds": 599.72,
+    "type": "observed_spoken",
+    "evidence": "full system behind how I am building",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:02.360",
+    "seconds": 602.36,
+    "type": "observed_spoken",
+    "evidence": "this brand right now. Because none of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:05.080",
+    "seconds": 605.08,
+    "type": "observed_spoken",
+    "evidence": "this is magic. It is a set of skills,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:07.920",
+    "seconds": 607.92,
+    "type": "observed_spoken",
+    "evidence": "and the course walks you through those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:09.720",
+    "seconds": 609.72,
+    "type": "observed_spoken",
+    "evidence": "skills step by step. So yes, this video",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:13.600",
+    "seconds": 613.6,
+    "type": "observed_spoken",
+    "evidence": "started with a brand doing over a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:15.680",
+    "seconds": 615.68,
+    "type": "observed_spoken",
+    "evidence": "million dollars in 30 days. But the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:18.400",
+    "seconds": 618.4,
+    "type": "observed_spoken",
+    "evidence": "lesson is not that I found some secret",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:20.840",
+    "seconds": 620.84,
+    "type": "observed_spoken",
+    "evidence": "hack or secret sauce or magic button.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:23.320",
+    "seconds": 623.32,
+    "type": "observed_spoken",
+    "evidence": "The lesson is that people still buy for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:25.840",
+    "seconds": 625.84,
+    "type": "observed_spoken",
+    "evidence": "the same reasons that they always have.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:28.920",
+    "seconds": 628.92,
+    "type": "observed_spoken",
+    "evidence": "They want to feel seen. They want to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:31.080",
+    "seconds": 631.08,
+    "type": "observed_spoken",
+    "evidence": "belong. They want to laugh. They want",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:34.080",
+    "seconds": 634.08,
+    "type": "observed_spoken",
+    "evidence": "other people to understand something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:36.200",
+    "seconds": 636.2,
+    "type": "observed_spoken",
+    "evidence": "about them. They want products that feel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:39.440",
+    "seconds": 639.44,
+    "type": "observed_spoken",
+    "evidence": "personal. That's exactly why print on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:41.600",
+    "seconds": 641.6,
+    "type": "observed_spoken",
+    "evidence": "demand is still alive in 2026. Not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:45.080",
+    "seconds": 645.08,
+    "type": "observed_spoken",
+    "evidence": "because there's some secret button, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:46.800",
+    "seconds": 646.8,
+    "type": "observed_spoken",
+    "evidence": "because the buyer's brain has not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:48.800",
+    "seconds": 648.8,
+    "type": "observed_spoken",
+    "evidence": "changed. Once you understand that, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:50.960",
+    "seconds": 650.96,
+    "type": "observed_spoken",
+    "evidence": "stop chasing random products, and you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:53.360",
+    "seconds": 653.36,
+    "type": "observed_spoken",
+    "evidence": "start building a brand around the person",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:56.240",
+    "seconds": 656.24,
+    "type": "observed_spoken",
+    "evidence": "who is going to buy. And that is when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:58.440",
+    "seconds": 658.44,
+    "type": "observed_spoken",
+    "evidence": "t-shirts stop looking like basic",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:01.320",
+    "seconds": 661.32,
+    "type": "observed_spoken",
+    "evidence": "products, and instead start looking like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:04.240",
+    "seconds": 664.24,
+    "type": "observed_spoken",
+    "evidence": "proof that if you understand the buyer,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:06.640",
+    "seconds": 666.64,
+    "type": "observed_spoken",
+    "evidence": "you can build something real. If this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:08.720",
+    "seconds": 668.72,
+    "type": "observed_spoken",
+    "evidence": "helped, please drop a like and subscribe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:10.920",
+    "seconds": 670.92,
+    "type": "observed_spoken",
+    "evidence": "to my channel. It would absolutely mean",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:12.680",
+    "seconds": 672.68,
+    "type": "observed_spoken",
+    "evidence": "the world to me. Other than that, guys,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:14.640",
+    "seconds": 674.64,
+    "type": "observed_spoken",
+    "evidence": "thanks for watching, and I'll see you in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:16.040",
+    "seconds": 676.04,
+    "type": "observed_spoken",
+    "evidence": "the next video.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "OCR unavailable: tesseract/pytesseract not installed or not configured.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  }
+]

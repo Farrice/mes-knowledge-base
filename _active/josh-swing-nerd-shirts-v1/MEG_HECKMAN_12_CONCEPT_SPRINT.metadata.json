@@ -1,0 +1,18 @@
+{
+  "title": "Meg Heckman Buyer-Trigger Sprint: 12 New Josh Swing-Nerd Shirt Concepts",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "skill": "meg-heckman-buyer-trigger-os",
+  "project": "josh-swing-nerd-shirts-v1",
+  "artifactType": "concept-sprint",
+  "createdFor": "Josh swing-nerd apparel buyer-trigger generation",
+  "triggerModel": [
+    "identity signal",
+    "instant recognition",
+    "specificity",
+    "social currency",
+    "familiar twist",
+    "emotion-led purchase justification"
+  ]
+}
