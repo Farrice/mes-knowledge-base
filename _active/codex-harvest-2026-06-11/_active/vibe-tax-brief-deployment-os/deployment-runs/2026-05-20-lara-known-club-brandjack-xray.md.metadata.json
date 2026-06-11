@@ -1,0 +1,17 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "createdFor": "Lara Acosta / The Known Club respectful brandjack x-ray",
+  "createdAt": "2026-05-20",
+  "primaryWorkflow": "/vibe-tax-deploy",
+  "supportWorkflows": [
+    "/vibe-tax-brief",
+    "/farrice-content-os",
+    "/high-taste-writing-os",
+    "/publishable-copy-gate"
+  ],
+  "status": "draft-only",
+  "publishApproved": false,
+  "externalActionApproved": false
+}

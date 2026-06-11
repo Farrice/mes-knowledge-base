@@ -1,0 +1,17 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "created": "2026-05-27",
+  "artifactType": "revenue-opportunity-map",
+  "routing": {
+    "primaryRoute": "plugin-readiness-audit",
+    "supportRoutes": [
+      "first-10k",
+      "service-first-productization",
+      "capability-graph",
+      "routing-governor"
+    ],
+    "realSubagentsSpawned": false
+  }
+}

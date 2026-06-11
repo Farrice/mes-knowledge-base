@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_TASK",
+  "summary": "Task tracker for Context Engineering Sprints 4-5-6. All sprint items are now complete: Sprint 4 (memory scaling with FTS5, deduplication, pruning), Sprint 5 (auto-memory hooks in chain_runner.py), and Sprint 6 (directive compression achieving 63% reduction from 43,972 to 16,491 bytes). Only git commit and walkthrough update remain.",
+  "updatedAt": "2026-04-13T06:26:49.531286Z",
+  "version": "4"
+}

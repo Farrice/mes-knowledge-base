@@ -1,0 +1,12 @@
+{
+  "domain": "Revenue",
+  "externalExportRequested": false,
+  "generatedAt": "2026-05-11T22:54:19+00:00",
+  "generatedBy": "execution/artifact_router.py",
+  "lifecycle": "deliverable",
+  "organizationGenerated": true,
+  "project": "content-system-audit",
+  "sourcePath": "/Users/farricecain/Codex Antigravity/deliverables/ai-misfire-express-72-hour-cash-sprint-pack.md",
+  "sourceRole": "persistence-copy",
+  "userFacingSurface": "rendered-conversation-document"
+}

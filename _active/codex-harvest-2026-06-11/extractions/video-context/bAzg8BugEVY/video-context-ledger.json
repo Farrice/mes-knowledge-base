@@ -1,0 +1,3944 @@
+[
+  {
+    "timestamp": "00:00",
+    "seconds": 0,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000000.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:00:00.080",
+    "seconds": 0.08,
+    "type": "observed_spoken",
+    "evidence": "do about a million dollars a year just myself. These are loweffort, lowcost,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:04.800",
+    "seconds": 4.8,
+    "type": "observed_spoken",
+    "evidence": "lowrisk startups. You can just spin up a website tomorrow and then you're set, right? Which is a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.680",
+    "seconds": 9.68,
+    "type": "observed_spoken",
+    "evidence": "huge opportunity right now because AI is so dang good that you could take something like that and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:15.040",
+    "seconds": 15.04,
+    "type": "observed_spoken",
+    "evidence": "scale it to the moon and back. Everyone needs it. Usually, you get instant customers with it. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:20.800",
+    "seconds": 20.8,
+    "type": "observed_spoken",
+    "evidence": "it's totally free. On a Friday, I had the idea. On a Saturday, I built the thing. On a Sunday,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:25.600",
+    "seconds": 25.6,
+    "type": "observed_spoken",
+    "evidence": "I launched it on Product Hunt. And on Monday, my life was not that ever the same. Did you have an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:30.560",
+    "seconds": 30.56,
+    "type": "observed_spoken",
+    "evidence": "audience then? No. No audience? No. Nothing. I was completely anonymous. Nope. Nope. I think",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:35.680",
+    "seconds": 35.68,
+    "type": "observed_spoken",
+    "evidence": "it was about $10,000 the first day it was side income for me. I held my full-time job until I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.600",
+    "seconds": 41.6,
+    "type": "observed_spoken",
+    "evidence": "was making 80,000 a month and then I quit. 80,000? Holy crap. Yeah. And I was making 75,000 a year at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:47.840",
+    "seconds": 47.84,
+    "type": "observed_spoken",
+    "evidence": "the other job. I kept a full-time job for 4 years while running Design Joy. So, you were making",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:53.280",
+    "seconds": 53.28,
+    "type": "observed_spoken",
+    "evidence": "more per month in profit than you were per year from your full-time job that you held back. Yes,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:58.880",
+    "seconds": 58.88,
+    "type": "observed_spoken",
+    "evidence": "I was. Yeah. Oh my gosh. What is your net profit per month? I think the peak was 200,000 a month,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:00",
+    "seconds": 60,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000060.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:01:04.560",
+    "seconds": 64.56,
+    "type": "observed_spoken",
+    "evidence": "but it usually averages somewhere in the 60 to 80,000 a month. It's probably about a,000",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:09.040",
+    "seconds": 69.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "a month in expenses. Oh my gosh, that's wild. What productiz agencies right now you see out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:16.560",
+    "seconds": 76.56,
+    "type": "observed_spoken",
+    "evidence": "there in the world that are very successful that other people could copy? Yeah. Is it okay if I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:20.320",
+    "seconds": 80.32,
+    "type": "observed_spoken",
+    "evidence": "give two? I want as many as you got. Okay. I think there's two primary ones right now.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:28.160",
+    "seconds": 88.16,
+    "type": "observed_spoken",
+    "evidence": "Meet Brett. He's making about 80 grand a month in net profit all by himself. No team,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:32.880",
+    "seconds": 92.88,
+    "type": "observed_spoken",
+    "evidence": "no contractors. This guy launched an agency on a Sunday and had 10 grand in recurring revenue",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:38.400",
+    "seconds": 98.4,
+    "type": "observed_spoken",
+    "evidence": "by Monday. No audience, no followers, nothing. He was a nobody in a town of 500 in the Midwest.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:44.880",
+    "seconds": 104.88,
+    "type": "observed_spoken",
+    "evidence": "Not just that, but he kept his day job for four years while running the business,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:48.960",
+    "seconds": 108.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "making more per month in his business than he was making per year in his day job. And today,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:54.240",
+    "seconds": 114.24000000000001,
+    "type": "observed_spoken",
+    "evidence": "he works 30 hours a week, and his clients pay him six grand a month before they ever talk to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:58.880",
+    "seconds": 118.88,
+    "type": "observed_spoken",
+    "evidence": "him. So, we're going to talk about this thing called productized services. And not just his,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:00",
+    "seconds": 120,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000120.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:02:03.360",
+    "seconds": 123.36,
+    "type": "observed_spoken",
+    "evidence": "but other productized services that you guys can launch in all kinds of different industries.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:08.000",
+    "seconds": 128.0,
+    "type": "observed_spoken",
+    "evidence": "Enjoy. One of the important things like noting like who might be watching this is like I don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:12.480",
+    "seconds": 132.48,
+    "type": "observed_spoken",
+    "evidence": "want this to conversation to totally be focused around just design these these principles and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.600",
+    "seconds": 137.6,
+    "type": "observed_spoken",
+    "evidence": "like the what I've done here can really be applied to any sort of like mainly digital skill whether",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:22.800",
+    "seconds": 142.8,
+    "type": "observed_spoken",
+    "evidence": "it's marketing copywriting you know maybe you're running social media for a brand or something like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:27.920",
+    "seconds": 147.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "that and it's small like any of this stuff can be technically what I call productized which just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:32.800",
+    "seconds": 152.8,
+    "type": "observed_spoken",
+    "evidence": "basically means selling it off the shelf right so instead of filling out a form on a website,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:38.160",
+    "seconds": 158.16,
+    "type": "observed_spoken",
+    "evidence": "getting a quote, jumping on a call, having, you know, three or four meetings to discuss",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:42.000",
+    "seconds": 162.0,
+    "type": "observed_spoken",
+    "evidence": "pricing and proposals and estimates and all that sort of stuff. It's just you go to the website,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:46.400",
+    "seconds": 166.4,
+    "type": "observed_spoken",
+    "evidence": "you buy the service, you pay for it, then and then you can consume it. So, it's really, I like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:51.200",
+    "seconds": 171.2,
+    "type": "observed_spoken",
+    "evidence": "to call it like lowering the the TTV, which is time to value. So, when you purchase, getting that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:57.440",
+    "seconds": 177.44,
+    "type": "observed_spoken",
+    "evidence": "thing back as quickly as you possibly can. In my case, it's design work. In somebody else's case,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "03:00",
+    "seconds": 180,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000180.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:03:02.640",
+    "seconds": 182.64,
+    "type": "observed_spoken",
+    "evidence": "it's maybe it's it's a blog post copy or something like that. I think it's the model that serves that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:08.000",
+    "seconds": 188.0,
+    "type": "observed_spoken",
+    "evidence": "best in terms of lowering that TTV, which I think is is key more now than ever. You know, a lot of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:12.960",
+    "seconds": 192.96,
+    "type": "observed_spoken",
+    "evidence": "companies value speed over quality, as weird as that is to say. So, that's where Design Joy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:18.000",
+    "seconds": 198.0,
+    "type": "observed_spoken",
+    "evidence": "comes in. And this whole model really, I think, flourishes. So, I run what is now, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:23.360",
+    "seconds": 203.36,
+    "type": "observed_spoken",
+    "evidence": "called a productized design agency. So, basically selling design services via subscription. I guess",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:29.360",
+    "seconds": 209.36,
+    "type": "observed_spoken",
+    "evidence": "one of the more notable things is I do it all by myself. So, been running it since 2017. do about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:35.040",
+    "seconds": 215.04,
+    "type": "observed_spoken",
+    "evidence": "a million dollars a year via that just myself. So there's very little cost involved and other than",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.360",
+    "seconds": 221.36,
+    "type": "observed_spoken",
+    "evidence": "the you know the time that I invest in in the startup. Yeah. So it's what I do. I do design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.160",
+    "seconds": 226.16,
+    "type": "observed_spoken",
+    "evidence": "work for software product branding like you know you name it I do it. I keep a certain number of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:52.720",
+    "seconds": 232.72,
+    "type": "observed_spoken",
+    "evidence": "clients at a time on basically a retainer and and that's that. So Okay. So 2017 what prompted you to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "04:00",
+    "seconds": 240,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000240.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:04:00.800",
+    "seconds": 240.8,
+    "type": "observed_spoken",
+    "evidence": "launch this? Yeah. So the company that I worked for, they were hugely disrupted by Uber and that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.680",
+    "seconds": 247.68,
+    "type": "observed_spoken",
+    "evidence": "that whole boom. It was a transportation company and I saw the writing on the wall. So while I knew",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:14.400",
+    "seconds": 254.4,
+    "type": "observed_spoken",
+    "evidence": "I had time, I started building something on the side just as a safety net. And I actually story",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:20.720",
+    "seconds": 260.72,
+    "type": "observed_spoken",
+    "evidence": "goes, you know, on a Friday I had the idea. On a Saturday I built the thing in Webflow.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:26.720",
+    "seconds": 266.72,
+    "type": "observed_spoken",
+    "evidence": "On a Sunday, I launched it on Product Hunt and on Monday, my life was not that ever the same.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:32.080",
+    "seconds": 272.08,
+    "type": "observed_spoken",
+    "evidence": "That's the way it went. It was that It was that quick. Just like a few days and then Did you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:36.080",
+    "seconds": 276.08,
+    "type": "observed_spoken",
+    "evidence": "an audience then? No. No audience. Nothing. I was completely anonymous. Nope. Nope. No audience. I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:42.400",
+    "seconds": 282.4,
+    "type": "observed_spoken",
+    "evidence": "literally shared my story on forums. That's it. Yeah. Explain to people what Product Hunt is if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:48.560",
+    "seconds": 288.56,
+    "type": "observed_spoken",
+    "evidence": "they're not familiar. Yeah. So, Product Hunt is um it's primarily for tech products. There are some",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:53.360",
+    "seconds": 293.36,
+    "type": "observed_spoken",
+    "evidence": "physical products on there, but essentially what you do is it's called an upvoting system. So every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:58.320",
+    "seconds": 298.32,
+    "type": "observed_spoken",
+    "evidence": "day the list refreshes and you could submit your startup to it, your product, whatever it is. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "05:00",
+    "seconds": 300,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000300.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:05:03.760",
+    "seconds": 303.76,
+    "type": "observed_spoken",
+    "evidence": "in my case, I had to get friends and family to upvote me. And the more upvotes you get,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:07.760",
+    "seconds": 307.76,
+    "type": "observed_spoken",
+    "evidence": "the closer to the top you get. And the closer to the top you get, you might go on the homepage,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:12.320",
+    "seconds": 312.32,
+    "type": "observed_spoken",
+    "evidence": "right? And there's people like me who are product obsessed. We like to discover new products. We",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:16.800",
+    "seconds": 316.8,
+    "type": "observed_spoken",
+    "evidence": "like to figure out what's what's next and what's new. So, we go to Product Hunt as consumers to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:21.680",
+    "seconds": 321.68,
+    "type": "observed_spoken",
+    "evidence": "check out what the new products are. Well, if your product happens to be there, you get quite a bit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:26.160",
+    "seconds": 326.16,
+    "type": "observed_spoken",
+    "evidence": "of hits. Usually, you get instant customers with it. And it's totally free. You just have to have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:30.800",
+    "seconds": 330.8,
+    "type": "observed_spoken",
+    "evidence": "the network of people to upvote it. In my case, literally, it was it was my personal network was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.840",
+    "seconds": 335.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "my friends and family I went to school with on Facebook. That was all I had at the time. And I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:40.240",
+    "seconds": 340.24,
+    "type": "observed_spoken",
+    "evidence": "got Design Joy to a million dollars a year that way before I even started tweeting. I started",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:44.800",
+    "seconds": 344.8,
+    "type": "observed_spoken",
+    "evidence": "tweeting four or five years after I built Design Joy. So, how high up on Product Hunt's list that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:51.040",
+    "seconds": 351.04,
+    "type": "observed_spoken",
+    "evidence": "day did you reach? Number four. Yeah. Number four. How many were you competing with that day? Total",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:56.880",
+    "seconds": 356.88,
+    "type": "observed_spoken",
+    "evidence": "numbers from that day, the the unique website visits were about 36,000, which for me from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "06:00",
+    "seconds": 360,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000360.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:06:02.320",
+    "seconds": 362.32,
+    "type": "observed_spoken",
+    "evidence": "starting just the day before was insane. To your page, you had my page 36,000 unique. All spurred",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:08.400",
+    "seconds": 368.4,
+    "type": "observed_spoken",
+    "evidence": "from your your just friends and family from a hometown Newberg, Missouri, 500 people. Yep.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:13.680",
+    "seconds": 373.68,
+    "type": "observed_spoken",
+    "evidence": "Yeah. 36,000 uniques. I can't remember quite the exact figures on revenue. I think it was about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.880",
+    "seconds": 378.88,
+    "type": "observed_spoken",
+    "evidence": "$10,000 the first day was I gotten what you would call reoccurring revenue. It's a little",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:23.600",
+    "seconds": 383.6,
+    "type": "observed_spoken",
+    "evidence": "early when on the first day to call it reoccurring because you don't quite know how it's going to go,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.720",
+    "seconds": 386.72,
+    "type": "observed_spoken",
+    "evidence": "but it's technically reoccurring. So about 10k and then I rode that wave for about a year at that at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:32.240",
+    "seconds": 392.24,
+    "type": "observed_spoken",
+    "evidence": "that level because it was side income for me. As the story goes, I held my full-time job until I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:38.320",
+    "seconds": 398.32,
+    "type": "observed_spoken",
+    "evidence": "was making 80,000 a month and then I quit. So I was making Yeah. And I was making 75,000 a year",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.960",
+    "seconds": 404.96,
+    "type": "observed_spoken",
+    "evidence": "at the other job. So, oh my gosh, they kept giving me raises and raises and raises to get me to stay.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:50.560",
+    "seconds": 410.56,
+    "type": "observed_spoken",
+    "evidence": "So, I was like, \"Okay, at this point I'm only working like I did most of my Design Joy work like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:56.320",
+    "seconds": 416.32,
+    "type": "observed_spoken",
+    "evidence": "during my meetings that I had at that job.\" So, I I was managing both very simple. I mean, I I took",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "07:00",
+    "seconds": 420,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000420.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:07:01.520",
+    "seconds": 421.52,
+    "type": "observed_spoken",
+    "evidence": "on as fit much as 50 clients at a time at Design Joy. So, like one one client at my full-time job",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:06.480",
+    "seconds": 426.48,
+    "type": "observed_spoken",
+    "evidence": "is literally peanuts to me, you know? So, it's super super easy. I can get it all done. So yeah,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:11.280",
+    "seconds": 431.28,
+    "type": "observed_spoken",
+    "evidence": "I um I kept a full-time job for four years while running Design Joy. So you were making more per",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:19.520",
+    "seconds": 439.52,
+    "type": "observed_spoken",
+    "evidence": "month in profit than you were per year from your full-time job that you held at the same time. Yes,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:23.840",
+    "seconds": 443.84,
+    "type": "observed_spoken",
+    "evidence": "I was by about 5 years. Oh my gosh. Yeah. Hey, YouTube's fine, but what about when you're driving",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:28.000",
+    "seconds": 448.0,
+    "type": "observed_spoken",
+    "evidence": "around? What about when you're mowing the lawn? You need my audio podcast, The Kerner Office. Just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:32.640",
+    "seconds": 452.64,
+    "type": "observed_spoken",
+    "evidence": "look up TKO Pod in Apple, Spotify, or wherever you get your podcast. Anyways, I quit my job and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:38.880",
+    "seconds": 458.88,
+    "type": "observed_spoken",
+    "evidence": "then two year two two months later revenue doubles from 80 to 160k and that's when my f had my first",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.920",
+    "seconds": 465.92,
+    "type": "observed_spoken",
+    "evidence": "like oh crap moment. What do I do here? How like how do I manage this? And then I had breakdowns.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:51.840",
+    "seconds": 471.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "I had price increases every time I would double my price. I thought this will finally like curb",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:57.120",
+    "seconds": 477.12,
+    "type": "observed_spoken",
+    "evidence": "the the demand but it just exponentially increased it because it just put me into another category",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "08:00",
+    "seconds": 480,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000480.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:08:02.480",
+    "seconds": 482.48,
+    "type": "observed_spoken",
+    "evidence": "which is a lot of things people don't understand about pricing that I had to learn. And then yeah,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:07.280",
+    "seconds": 487.28,
+    "type": "observed_spoken",
+    "evidence": "so I I I stayed at that for a while. Worked myself literally into a hospital like almost",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:11.600",
+    "seconds": 491.6,
+    "type": "observed_spoken",
+    "evidence": "to death. Like I I was dying. I was working so much. And then yeah, right now though,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.280",
+    "seconds": 497.28,
+    "type": "observed_spoken",
+    "evidence": "I've I've gotten my systems faster. I've gotten better at what I do, more selective with my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:22.240",
+    "seconds": 502.24,
+    "type": "observed_spoken",
+    "evidence": "clients. And so now I have a very easy life. I work less than a full-time designer. So what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:27.440",
+    "seconds": 507.44,
+    "type": "observed_spoken",
+    "evidence": "were you charging per month per client those first few years? Oo, good question. So, I started out at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:33.120",
+    "seconds": 513.12,
+    "type": "observed_spoken",
+    "evidence": "a measly $449 a month day one. Wow. For unlimited design. Unlimited design. One at a time. I hit my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:41.520",
+    "seconds": 521.52,
+    "type": "observed_spoken",
+    "evidence": "first big wave. That increased to $849 a month. And then I went from that to $1299 to 2500 to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.400",
+    "seconds": 528.4,
+    "type": "observed_spoken",
+    "evidence": "3,200 to 4,000 to 5,000 to 6,000 all the way up to 8,000. Then I kind of dialed it back a little bit.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:54.400",
+    "seconds": 534.4,
+    "type": "observed_spoken",
+    "evidence": "So every time I felt like I was hitting a wall and wanted to shut things down, I just my my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:58.560",
+    "seconds": 538.56,
+    "type": "observed_spoken",
+    "evidence": "gut reaction was just like just going to increase prices and see what happens. Yeah. How many hours",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:00",
+    "seconds": 540,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000540.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:03.040",
+    "seconds": 543.04,
+    "type": "observed_spoken",
+    "evidence": "a week are you working now? It's about probably 30. Okay. And what is your net profit per month",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.680",
+    "seconds": 549.68,
+    "type": "observed_spoken",
+    "evidence": "nowadays? So it varies. So one thing about my business is MMR monthly recurring revenue like it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:15.760",
+    "seconds": 555.76,
+    "type": "observed_spoken",
+    "evidence": "swings a lot. Like I could have 50 $60,000 a month swings and one of the reasons is because you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:21.920",
+    "seconds": 561.92,
+    "type": "observed_spoken",
+    "evidence": "churn, you have people pausing. So, on average, it's about 70 to 80,000 a month. My total expenses",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:28.880",
+    "seconds": 568.88,
+    "type": "observed_spoken",
+    "evidence": "outside of taxes, which I won't include in this conversation because they're pretty astronomical",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:33.440",
+    "seconds": 573.44,
+    "type": "observed_spoken",
+    "evidence": "in my sense because I don't really have many expenses. Outside of taxes, it's probably",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:37.920",
+    "seconds": 577.92,
+    "type": "observed_spoken",
+    "evidence": "about a,000 a month in in expenses. Oh my gosh, that's wild. So, you have $40,000 months, you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:45.760",
+    "seconds": 585.76,
+    "type": "observed_spoken",
+    "evidence": "$120,000 months, but you're netting out averaging out 70 to $80,000 a month, which net profit. Yep.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:54.720",
+    "seconds": 594.72,
+    "type": "observed_spoken",
+    "evidence": "It's been as low as 40 40,000 per month. It's been as high. I think the peak was 200,000 a month,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "10:00",
+    "seconds": 600,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000600.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:10:00.880",
+    "seconds": 600.88,
+    "type": "observed_spoken",
+    "evidence": "but it usually averages somewhere in the 60 to 80,000 a month, but you'll get those peaks and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:05.280",
+    "seconds": 605.28,
+    "type": "observed_spoken",
+    "evidence": "valleys. As a design agency owner, like what does that actually mean? What are you designing on a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:10.080",
+    "seconds": 610.08,
+    "type": "observed_spoken",
+    "evidence": "regular basis? Yeah, in my case, I do a lot of branding, so logos, you know, just the overall",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:15.680",
+    "seconds": 615.68,
+    "type": "observed_spoken",
+    "evidence": "aesthetic of what these brands look like. I do a lot of websites, you know, design and development",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:20.720",
+    "seconds": 620.72,
+    "type": "observed_spoken",
+    "evidence": "of these websites. I do a lot of, you know, social media stuff. I do a lot of, you know, presentation",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:26.160",
+    "seconds": 626.16,
+    "type": "observed_spoken",
+    "evidence": "decks. You name it, I pretty much do it as long as it's it's digitally focused. So, how would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:31.680",
+    "seconds": 631.68,
+    "type": "observed_spoken",
+    "evidence": "a productized service like yours, specifically a design agency, how does it differ from traditional",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:37.600",
+    "seconds": 637.6,
+    "type": "observed_spoken",
+    "evidence": "uh design agencies? Yeah. So, in in a lot of ways, right? So, um if you just want to talk pricing for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:44.160",
+    "seconds": 644.16,
+    "type": "observed_spoken",
+    "evidence": "example, traditional design agencies are are relatively very expensive because there's a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:49.520",
+    "seconds": 649.52,
+    "type": "observed_spoken",
+    "evidence": "big headcount involved, right? So when you have a website project, you're not only paying the salary",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:54.320",
+    "seconds": 654.32,
+    "type": "observed_spoken",
+    "evidence": "of the person actually working on that, you're also paying the PM, you know, the project manager,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:58.560",
+    "seconds": 658.56,
+    "type": "observed_spoken",
+    "evidence": "the CEO, the CFO, you know, these companies are they have to pay these people. So their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "11:00",
+    "seconds": 660,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000660.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:11:04.720",
+    "seconds": 664.72,
+    "type": "observed_spoken",
+    "evidence": "prices are significantly higher. In my case, it's just myself and in other cases like design like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:10.400",
+    "seconds": 670.4,
+    "type": "observed_spoken",
+    "evidence": "companies like design joy, it's like a few people, right? Very small kind of intimate agencies. So",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:15.280",
+    "seconds": 675.28,
+    "type": "observed_spoken",
+    "evidence": "pricing is usually much more affordable. Speed is the big thing. So with traditional agencies,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:20.240",
+    "seconds": 680.24,
+    "type": "observed_spoken",
+    "evidence": "if anyone has ever hired one to embark on, whether it's a brand project, a website project, these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:25.760",
+    "seconds": 685.76,
+    "type": "observed_spoken",
+    "evidence": "things take weeks to months, in some cases to years. In my case, if you if you were to subscribe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:32.160",
+    "seconds": 692.16,
+    "type": "observed_spoken",
+    "evidence": "to DesignJoy, you would have a, you know, let's say a homepage back tomorrow. So it's very fast,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:38.240",
+    "seconds": 698.24,
+    "type": "observed_spoken",
+    "evidence": "no contracts, no calls required. You could decide to sign up today and get designs back tomorrow.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:45.120",
+    "seconds": 705.12,
+    "type": "observed_spoken",
+    "evidence": "So it's like Fiverr, but like on steroids. and actually like good good work, right? So, yeah,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:51.440",
+    "seconds": 711.44,
+    "type": "observed_spoken",
+    "evidence": "that's the main thing and it's a subscription. So, one of the big things right now is the economy,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:55.920",
+    "seconds": 715.92,
+    "type": "observed_spoken",
+    "evidence": "right? So, it's like people are very hesitant to hire full-time people. Um, especially in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "12:00",
+    "seconds": 720,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000720.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:12:01.760",
+    "seconds": 721.76,
+    "type": "observed_spoken",
+    "evidence": "the tech world, so they like to use contractors, but even then, if as long, you know, if you don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:06.240",
+    "seconds": 726.24,
+    "type": "observed_spoken",
+    "evidence": "have work for them, you're still paying them. With a model like DesignJoy, you can subscribe",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:10.800",
+    "seconds": 730.8,
+    "type": "observed_spoken",
+    "evidence": "and pause anytime you want to. Meaning, if if work dries up and you don't really have a need for it,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:15.360",
+    "seconds": 735.36,
+    "type": "observed_spoken",
+    "evidence": "you can just pause your subscription. You're no longer paying for it. you come back whenever you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:19.040",
+    "seconds": 739.04,
+    "type": "observed_spoken",
+    "evidence": "do need more support. So, it's very flexible in that regard as well. Now, I'll ask you a question",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:24.400",
+    "seconds": 744.4,
+    "type": "observed_spoken",
+    "evidence": "that you're completely you'd be completely biased on answering on these vibecoded apps and websites",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:28.720",
+    "seconds": 748.72,
+    "type": "observed_spoken",
+    "evidence": "that kind of all look about the same generic. Could that be not fully but largely fixed with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:34.320",
+    "seconds": 754.32,
+    "type": "observed_spoken",
+    "evidence": "better prompting, screenshots from other websites that have good design? I know like the answer to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:39.520",
+    "seconds": 759.52,
+    "type": "observed_spoken",
+    "evidence": "that could put you out of a client, you know, but like sure is it not bad prompting or is it just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:43.120",
+    "seconds": 763.12,
+    "type": "observed_spoken",
+    "evidence": "like AI is just not there yet and it maybe won't be for a while on the design side of things. Yeah,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:48.160",
+    "seconds": 768.16,
+    "type": "observed_spoken",
+    "evidence": "I may not be as biased as you'd think here cuz I'm not so naive to think that everyone requires top",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:12:54.240",
+    "seconds": 774.24,
+    "type": "observed_spoken",
+    "evidence": "tier design to be successful, right? The majority of people out there could get by with launching",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "13:00",
+    "seconds": 780,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000780.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:13:00.960",
+    "seconds": 780.96,
+    "type": "observed_spoken",
+    "evidence": "with something made from claude, right? Like it's good enough. Where I like to exist is the tier",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:06.160",
+    "seconds": 786.16,
+    "type": "observed_spoken",
+    "evidence": "above that where it's like we're not fine with just being like good enough. We want to separate",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:11.920",
+    "seconds": 791.92,
+    "type": "observed_spoken",
+    "evidence": "ourselves apart from everyone else doing this and everyone that will come behind us and copy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:17.520",
+    "seconds": 797.52,
+    "type": "observed_spoken",
+    "evidence": "us. The only way to really do that is to layer on a design layer onto that that separates us from a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:24.400",
+    "seconds": 804.4,
+    "type": "observed_spoken",
+    "evidence": "branding perspective. You know, branding is still just as important if not more important than ever",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:28.240",
+    "seconds": 808.24,
+    "type": "observed_spoken",
+    "evidence": "has been. More important, I think. Yeah. Yeah. And so, you know, the second you build a successful",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:32.480",
+    "seconds": 812.48,
+    "type": "observed_spoken",
+    "evidence": "product, you have to assume that there are 300 people behind you that could spin up something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:37.120",
+    "seconds": 817.12,
+    "type": "observed_spoken",
+    "evidence": "like that within a week. If if they have a team, probably days, right? Yeah. So, what is it that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:41.920",
+    "seconds": 821.92,
+    "type": "observed_spoken",
+    "evidence": "you're going to what's the moat that you're going to build around that product? One of those moes is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:46.640",
+    "seconds": 826.64,
+    "type": "observed_spoken",
+    "evidence": "distribution. Of course, you know, you understand that more so than ever with because now it's easy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:51.520",
+    "seconds": 831.52,
+    "type": "observed_spoken",
+    "evidence": "to build the thing. It's harder than ever to sell the thing. Exactly. But moat is is obtainable.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:13:56.960",
+    "seconds": 836.96,
+    "type": "observed_spoken",
+    "evidence": "You can hire distribution partners, things like that. But it's still it's still a huge moat and a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "14:00",
+    "seconds": 840,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000840.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:14:01.200",
+    "seconds": 841.2,
+    "type": "observed_spoken",
+    "evidence": "huge advantage. The other advantages is branding and design. So those two things I think will be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:06.000",
+    "seconds": 846.0,
+    "type": "observed_spoken",
+    "evidence": "increasingly more important. I'm having like this realization as we're talking that like design has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:10.160",
+    "seconds": 850.16,
+    "type": "observed_spoken",
+    "evidence": "never been more important. You know, it has just like distribution has never been more important",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:14.560",
+    "seconds": 854.56,
+    "type": "observed_spoken",
+    "evidence": "because it's so easy to build the thing and like you and I we go to websites every day that all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:19.600",
+    "seconds": 859.6,
+    "type": "observed_spoken",
+    "evidence": "look about the same and you're like let me guess lovable. Let me guess wind surf. Let me guess",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:23.760",
+    "seconds": 863.76,
+    "type": "observed_spoken",
+    "evidence": "replet code. You name it. Like we've all seen it. And so now it's more important than ever to stand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:29.760",
+    "seconds": 869.76,
+    "type": "observed_spoken",
+    "evidence": "out. If you look at the number of websites that are live on the internet, it is like parabolic",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:34.160",
+    "seconds": 874.16,
+    "type": "observed_spoken",
+    "evidence": "these last three years. Yeah. Because it's so easy to make a website. And when you think of like you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:39.920",
+    "seconds": 879.92,
+    "type": "observed_spoken",
+    "evidence": "might agree, disagree with this. Two of like the companies that have really they call it designled",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:45.200",
+    "seconds": 885.2,
+    "type": "observed_spoken",
+    "evidence": "growth. Is that a thing? I've heard of that. Yeah. Yeah. I can't speak on it, but I've heard of that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:49.440",
+    "seconds": 889.44,
+    "type": "observed_spoken",
+    "evidence": "term. Yeah. Yeah. I mean, it's Airbnb and Apple and maybe even more so Airbnb because the two",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:14:55.440",
+    "seconds": 895.44,
+    "type": "observed_spoken",
+    "evidence": "founders are were designers at heart. And I feel like the best products, the best digital products",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "15:00",
+    "seconds": 900,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000900.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:15:00.880",
+    "seconds": 900.88,
+    "type": "observed_spoken",
+    "evidence": "are incredibly complex under the hood, but incredibly simple on the surface, right? That's in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:05.920",
+    "seconds": 905.92,
+    "type": "observed_spoken",
+    "evidence": "my opinion, that's what good design is and that's what Airbnb is. It looks so simple, but there's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:09.920",
+    "seconds": 909.92,
+    "type": "observed_spoken",
+    "evidence": "so much going on there. And I hate it when people bring up Craigslist as an example of like design's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:15.120",
+    "seconds": 915.12,
+    "type": "observed_spoken",
+    "evidence": "overrated. Look at Craigslist or Amazon. Yeah, either one. Yeah, dude. Craigslist died. Like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:20.320",
+    "seconds": 920.32,
+    "type": "observed_spoken",
+    "evidence": "Craigslist is dead. Go look at Similar Web. They went from hundreds of millions of views a month",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:24.720",
+    "seconds": 924.72,
+    "type": "observed_spoken",
+    "evidence": "to like four. Like Facebook marketplace ate their lunch. And so it's like that's not a good example.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:31.280",
+    "seconds": 931.28,
+    "type": "observed_spoken",
+    "evidence": "I think Yeah. And then Apple like and Tesla, right? Those are designled companies. And um",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:36.720",
+    "seconds": 936.72,
+    "type": "observed_spoken",
+    "evidence": "and it shows in their market cap. They're trillion dollar companies. Not that you know correlation is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:41.120",
+    "seconds": 941.12,
+    "type": "observed_spoken",
+    "evidence": "causation, but I'm terrible at design. And it's something that I've always neglected because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:45.520",
+    "seconds": 945.52,
+    "type": "observed_spoken",
+    "evidence": "I'm very much like a done is better than perfect. move fast and break things like ship it, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:51.040",
+    "seconds": 951.04,
+    "type": "observed_spoken",
+    "evidence": "sell it before you have it, all that. That's my whole thing. And so by the time it comes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:15:55.200",
+    "seconds": 955.2,
+    "type": "observed_spoken",
+    "evidence": "around to design, it's like, we're working, you know, it's Yeah, it works, right? Yeah. But it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "16:00",
+    "seconds": 960,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-000960.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:16:00.400",
+    "seconds": 960.4,
+    "type": "observed_spoken",
+    "evidence": "like you just never know how much better it could work with better design. I'll ask you a question",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:04.320",
+    "seconds": 964.32,
+    "type": "observed_spoken",
+    "evidence": "that's probably one of the most frequently asked questions you've gotten these last three years. On",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:08.720",
+    "seconds": 968.72,
+    "type": "observed_spoken",
+    "evidence": "one hand, with AI, it's like we can vibe code, we can prompt anything, we can design anything",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:13.600",
+    "seconds": 973.6,
+    "type": "observed_spoken",
+    "evidence": "easier than ever before, right? So that would be a notch against you, against your business model,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:18.320",
+    "seconds": 978.32,
+    "type": "observed_spoken",
+    "evidence": "right? On the other hand, like we just talked about, these things need to be designed. They need",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:22.640",
+    "seconds": 982.64,
+    "type": "observed_spoken",
+    "evidence": "good design at least after a certain point. Most websites will never get to that point because most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:27.120",
+    "seconds": 987.12,
+    "type": "observed_spoken",
+    "evidence": "businesses fail, which is fine. Sure. So like it's a rising tide situation, right? Your TAM, your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:32.480",
+    "seconds": 992.48,
+    "type": "observed_spoken",
+    "evidence": "total addressable market has gotten bigger than ever, but at the same time, the tools have gotten",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:36.800",
+    "seconds": 996.8,
+    "type": "observed_spoken",
+    "evidence": "more user friendly than ever. So for your business net of net, has this been a net good for you this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:42.960",
+    "seconds": 1002.96,
+    "type": "observed_spoken",
+    "evidence": "AI these last three years or a net negative? For me personally again just speaking anecdotally",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:48.480",
+    "seconds": 1008.48,
+    "type": "observed_spoken",
+    "evidence": "it's been a a definitely a net a net positive. It's a net positive for two different reasons.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:53.840",
+    "seconds": 1013.84,
+    "type": "observed_spoken",
+    "evidence": "It's a net positive in the sense that there's more businesses and startups being built more than ever",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:16:58.640",
+    "seconds": 1018.64,
+    "type": "observed_spoken",
+    "evidence": "before in human history. You know a day is equal to six month period you know a couple years ago.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "17:00",
+    "seconds": 1020,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-001020.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:17:04.720",
+    "seconds": 1024.72,
+    "type": "observed_spoken",
+    "evidence": "So there's more need. There's more entrepreneurs. Uh there's there's more things being built that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:10.240",
+    "seconds": 1030.24,
+    "type": "observed_spoken",
+    "evidence": "require design more than ever before. Guys, tkowners.com. That's my community where people",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:15.120",
+    "seconds": 1035.12,
+    "type": "observed_spoken",
+    "evidence": "are building businesses. I do AMAs Q&As's every week live. You can ask me anything you want. You",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:20.560",
+    "seconds": 1040.56,
+    "type": "observed_spoken",
+    "evidence": "can have accountability partners. It's about a thousand people in there building, starting",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:24.320",
+    "seconds": 1044.32,
+    "type": "observed_spoken",
+    "evidence": "growing businesses. Check out TKO as in the Kerner office. tkowners.com. The second way and obviously",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:31.200",
+    "seconds": 1051.2,
+    "type": "observed_spoken",
+    "evidence": "design comes into that. So I I get to kind of ride that wave. The second way is just my internal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:36.800",
+    "seconds": 1056.8,
+    "type": "observed_spoken",
+    "evidence": "abilities have roastly expanded in terms of what I'm able to produce internally and how quickly I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:43.520",
+    "seconds": 1063.52,
+    "type": "observed_spoken",
+    "evidence": "can produce and and the type of assets that I can produce now that I would have had to turn away",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:48.240",
+    "seconds": 1068.24,
+    "type": "observed_spoken",
+    "evidence": "because I didn't have the talent on the team. You know the team is me. I didn't have the talent. But",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:52.640",
+    "seconds": 1072.64,
+    "type": "observed_spoken",
+    "evidence": "now AI does enable me to do a lot of those things. And then when it comes to like product work like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:17:57.920",
+    "seconds": 1077.92,
+    "type": "observed_spoken",
+    "evidence": "man like the way that my system works is there's not like I said there's not that like highlevel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "18:00",
+    "seconds": 1080,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-001080.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:18:04.000",
+    "seconds": 1084.0,
+    "type": "observed_spoken",
+    "evidence": "synchronized communication that's available. So when I embark on a huge product design request",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:09.600",
+    "seconds": 1089.6,
+    "type": "observed_spoken",
+    "evidence": "and I mean like you know a piece of software maybe it's like a medical medical software",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:13.600",
+    "seconds": 1093.6,
+    "type": "observed_spoken",
+    "evidence": "that's very intricate and it does oftentimes require a lot of conversations and a lot of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:18.720",
+    "seconds": 1098.72,
+    "type": "observed_spoken",
+    "evidence": "like requirements gatherings. I don't need to do that anymore because I plug in what it is they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:23.440",
+    "seconds": 1103.44,
+    "type": "observed_spoken",
+    "evidence": "give me. I work with claude to come up with all the requirements, all the features, all the flows",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:27.440",
+    "seconds": 1107.44,
+    "type": "observed_spoken",
+    "evidence": "just myself in isolation from even the client. And then I have a I can just bring that pull that into",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:33.280",
+    "seconds": 1113.28,
+    "type": "observed_spoken",
+    "evidence": "Figma and then just start designing. It does a lot of the UX thinking for me. So it just allows me to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:39.040",
+    "seconds": 1119.04,
+    "type": "observed_spoken",
+    "evidence": "speed up things and not have to really even think that much. Yeah. What AI tools are you using in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:44.960",
+    "seconds": 1124.96,
+    "type": "observed_spoken",
+    "evidence": "your business right now? Yeah, good question. Midjourney a lot. Uh again, I'm a designer,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:49.840",
+    "seconds": 1129.84,
+    "type": "observed_spoken",
+    "evidence": "so image generation, video generation is huge for me. So I use Midjourney a ton. I use Crea.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:18:54.960",
+    "seconds": 1134.96,
+    "type": "observed_spoken",
+    "evidence": "Crea is like my one of my favorite ones because it plugs into all of these other AI model, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "19:00",
+    "seconds": 1140,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/bAzg8BugEVY/frames/frame-001140.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:19:00.080",
+    "seconds": 1140.08,
+    "type": "observed_spoken",
+    "evidence": "image generation, video generation models. I use that mainly for that. I do a mix of those for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:04.560",
+    "seconds": 1144.56,
+    "type": "observed_spoken",
+    "evidence": "image generations. For for coding and prototyping, I primarily will use Claude. That's kind of my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:10.240",
+    "seconds": 1150.24,
+    "type": "observed_spoken",
+    "evidence": "go-to right now. But again, you ask me tomorrow, it's probably be something different. So that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:13.520",
+    "seconds": 1153.52,
+    "type": "observed_spoken",
+    "evidence": "just the way the way it goes right now with those. I use AI inside of nonAI products, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:19.520",
+    "seconds": 1159.52,
+    "type": "observed_spoken",
+    "evidence": "like Photoshop and Loom even, like a bunch of stuff like there's all these like, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:23.440",
+    "seconds": 1163.44,
+    "type": "observed_spoken",
+    "evidence": "AI features, but those are the primary AI products that I use currently. Okay. For the non-designer,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:28.960",
+    "seconds": 1168.96,
+    "type": "observed_spoken",
+    "evidence": "like someone who's design illiterate such as myself, what AI tools do you suggest they use",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:33.520",
+    "seconds": 1173.52,
+    "type": "observed_spoken",
+    "evidence": "if they can't afford you? You can get away with using Chad GBT for almost everything,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:38.000",
+    "seconds": 1178.0,
+    "type": "observed_spoken",
+    "evidence": "right? So, or Claude. I think Claude is better if you're looking to like not hire a designer.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:44.080",
+    "seconds": 1184.08,
+    "type": "observed_spoken",
+    "evidence": "claw. There's magic path. There's magic patterns. Those three are probably the best at getting you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:50.640",
+    "seconds": 1190.64,
+    "type": "observed_spoken",
+    "evidence": "the closest to what a like a true designer would output. They're not quite there yet,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:19:56.160",
+    "seconds": 1196.16,
+    "type": "observed_spoken",
+    "evidence": "but again, they're good enough for probably most people watching that don't have high",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:01.040",
+    "seconds": 1201.04,
+    "type": "observed_spoken",
+    "evidence": "design standards. What about nano banana? Oh, so for image generation, so there's two things here,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:07.040",
+    "seconds": 1207.04,
+    "type": "observed_spoken",
+    "evidence": "right? So image generation is like there's either you're looking to generate artwork",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:12.560",
+    "seconds": 1212.56,
+    "type": "observed_spoken",
+    "evidence": "like viby super aesthetic like artwork that you really want like a really unique style like I do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:18.880",
+    "seconds": 1218.88,
+    "type": "observed_spoken",
+    "evidence": "I like to play a lot with like Renaissance like themed artwork like I do a lot of that sort of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:23.200",
+    "seconds": 1223.2,
+    "type": "observed_spoken",
+    "evidence": "stuff kind of like Shopify's latest like page that they did. Midjourney is great at that. Nana Banana",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:29.120",
+    "seconds": 1229.12,
+    "type": "observed_spoken",
+    "evidence": "Pro is like better at like specific things. So like if you're looking to generate, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:34.160",
+    "seconds": 1234.16,
+    "type": "observed_spoken",
+    "evidence": "a model holding something, go Nana Banana Pro all day long. It's so freaking good. So yeah, I would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:40.240",
+    "seconds": 1240.24,
+    "type": "observed_spoken",
+    "evidence": "say Nana Banana Pro for 90% of people listening. Okay. What if someone's vibe coding a website or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:46.000",
+    "seconds": 1246.0,
+    "type": "observed_spoken",
+    "evidence": "an app in Replet or Cloud Code, any of those vibe coding apps and they really wanted to have amazing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:51.600",
+    "seconds": 1251.6,
+    "type": "observed_spoken",
+    "evidence": "design? What should their tech stack be? Should they go find, you know, apps and websites that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:20:56.640",
+    "seconds": 1256.64,
+    "type": "observed_spoken",
+    "evidence": "they they find personally beautiful, screenshot it, send it over there? What kind of prompt should",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:00.880",
+    "seconds": 1260.88,
+    "type": "observed_spoken",
+    "evidence": "they put alongside it? Should they ignore replet for design altogether and use something like kria?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:05.600",
+    "seconds": 1265.6,
+    "type": "observed_spoken",
+    "evidence": "What what would you do? Claude is the best. Like what I what I often do is I do the simple approach",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:10.560",
+    "seconds": 1270.56,
+    "type": "observed_spoken",
+    "evidence": "where I will screenshot. Let's say I want to add a section below, you know, the top section of my",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:16.000",
+    "seconds": 1276.0,
+    "type": "observed_spoken",
+    "evidence": "landing page and it's just like testimonials, right? Or something like that. I'll oftentimes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:19.840",
+    "seconds": 1279.84,
+    "type": "observed_spoken",
+    "evidence": "just screenshot a testimonial section that I like and reference that inside of Claude. Say, hey,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:25.200",
+    "seconds": 1285.2,
+    "type": "observed_spoken",
+    "evidence": "referencing the screenshot that I've attached, you know, generate a testimonial section. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:30.000",
+    "seconds": 1290.0,
+    "type": "observed_spoken",
+    "evidence": "that that gets you like it's gonna be okay, right? That's that's what I would do. That's the simplest",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:34.640",
+    "seconds": 1294.64,
+    "type": "observed_spoken",
+    "evidence": "approach versus like explaining how to use these how to connect claw to Figma and do all of that,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:39.440",
+    "seconds": 1299.44,
+    "type": "observed_spoken",
+    "evidence": "right? It's going to be over people's head. Can you give me the names of some websites that you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:43.760",
+    "seconds": 1303.76,
+    "type": "observed_spoken",
+    "evidence": "designed that you're particularly proud of just so we could show people what you consider to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:48.160",
+    "seconds": 1308.16,
+    "type": "observed_spoken",
+    "evidence": "good design? Yeah, so Origin Finance is one that I've recently done that's really big.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:52.560",
+    "seconds": 1312.56,
+    "type": "observed_spoken",
+    "evidence": "Um, there's others that I wouldn't necessarily classify them as the best designs, but they they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:21:59.440",
+    "seconds": 1319.44,
+    "type": "observed_spoken",
+    "evidence": "work for what they were built for. So, yeah. Is it this one here? Use origin.com. Yeah. Yeah. And so,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:05.200",
+    "seconds": 1325.2,
+    "type": "observed_spoken",
+    "evidence": "again, like design is completely subjective, right? And and this isn't necessarily what I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:10.240",
+    "seconds": 1330.24,
+    "type": "observed_spoken",
+    "evidence": "would consider like the pinnacle of design, right? But it's clean and it works and it converts really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:15.040",
+    "seconds": 1335.04,
+    "type": "observed_spoken",
+    "evidence": "well. Looks pretty. I've done other things like the tea app, the dating tea app. Have you heard of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:20.800",
+    "seconds": 1340.8,
+    "type": "observed_spoken",
+    "evidence": "that? Tea. Yeah. Did you ever hear about all that? No. I've never used a dating app in my life. Well,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:26.240",
+    "seconds": 1346.24,
+    "type": "observed_spoken",
+    "evidence": "I know. I know. But it was all over X because they they uh Yeah. So, Oh, this is like a Gumroad vibe.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:33.760",
+    "seconds": 1353.76,
+    "type": "observed_spoken",
+    "evidence": "Yeah. So, these guys I designed this literally like three years ago and crinkets. I thought it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:40.400",
+    "seconds": 1360.4,
+    "type": "observed_spoken",
+    "evidence": "was dead as dead as all get out and then all of a sudden it's number one on App Store. It's number",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:44.640",
+    "seconds": 1364.64,
+    "type": "observed_spoken",
+    "evidence": "one on the Google Play Store. But they had a data leak and it was not good. No, I was not a part of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:50.800",
+    "seconds": 1370.8,
+    "type": "observed_spoken",
+    "evidence": "it, but they hugely successful app like just beat everything by a super wide margin. I did I did",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:22:58.800",
+    "seconds": 1378.8,
+    "type": "observed_spoken",
+    "evidence": "basically kill them. It did on the app store on on the iOS app store. They're still on Google Play,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:04.000",
+    "seconds": 1384.0,
+    "type": "observed_spoken",
+    "evidence": "but I mean they got millions of users on like day one. It was everywhere and I was the guy that that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:11.040",
+    "seconds": 1391.04,
+    "type": "observed_spoken",
+    "evidence": "designed it. That's cool. Did you design the app too or just the website? Yes, the brand, the app,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:16.800",
+    "seconds": 1396.8,
+    "type": "observed_spoken",
+    "evidence": "the whole the whole shebang. What was it? Buy me a coffee. I've done a ton of work for I'm sure",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:21.360",
+    "seconds": 1401.36,
+    "type": "observed_spoken",
+    "evidence": "you've probably seen the buy me a coffee button around for creators and things like that. I've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:26.160",
+    "seconds": 1406.16,
+    "type": "observed_spoken",
+    "evidence": "done a lot of work for them. That's great. And they're all so different. But that's the thing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:31.600",
+    "seconds": 1411.6,
+    "type": "observed_spoken",
+    "evidence": "is like you know a lot of these projects as a designer it's really hard because you you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:36.320",
+    "seconds": 1416.32,
+    "type": "observed_spoken",
+    "evidence": "are oftentimes very constrained. Any other like prompting ideas or prompting hacks when it comes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:42.560",
+    "seconds": 1422.56,
+    "type": "observed_spoken",
+    "evidence": "to design that you would recommend? The biggest prompting hack that I can give to people and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:47.600",
+    "seconds": 1427.6,
+    "type": "observed_spoken",
+    "evidence": "this may sound very common sense to some people listening to this because they're like obviously",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:51.360",
+    "seconds": 1431.36,
+    "type": "observed_spoken",
+    "evidence": "I already do that is to use chat GBT to write your prompts. So prompt whether you're prompting within",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:23:59.120",
+    "seconds": 1439.12,
+    "type": "observed_spoken",
+    "evidence": "JGBT or any other LLM. Exactly. Yeah. Especially in in other LLM. So if I if I go to make a video",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:07.040",
+    "seconds": 1447.04,
+    "type": "observed_spoken",
+    "evidence": "in runway, which runway is a video generation AI tool, or if I go to generate an image in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:13.200",
+    "seconds": 1453.2,
+    "type": "observed_spoken",
+    "evidence": "Midjourney or an image in in Nanobanana Pro, the first place I start is typically in Chat",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:19.760",
+    "seconds": 1459.76,
+    "type": "observed_spoken",
+    "evidence": "GBT and I'll say something to the effect of, \"Hey, write me a prompt for Nanabanana Pro",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:25.440",
+    "seconds": 1465.44,
+    "type": "observed_spoken",
+    "evidence": "that does this XYZ.\" Right? Very generic. Very generic. And what it spits out is very specific.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:31.840",
+    "seconds": 1471.84,
+    "type": "observed_spoken",
+    "evidence": "It's better than what I could write as far as a prompt goes. It used to be like we had these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:35.040",
+    "seconds": 1475.04,
+    "type": "observed_spoken",
+    "evidence": "prompt engineers like that was going to be a job and now AI prompts better than people can. So lean",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:40.960",
+    "seconds": 1480.96,
+    "type": "observed_spoken",
+    "evidence": "on like use AI to do the AI stuff that like you need help with. Like you shouldn't have to sit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:45.200",
+    "seconds": 1485.2,
+    "type": "observed_spoken",
+    "evidence": "there ever and like write your own prompt unless it's just something really quick or whatever. But",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:48.880",
+    "seconds": 1488.88,
+    "type": "observed_spoken",
+    "evidence": "yeah, use use chat to write your prompts. Why why is Chat GPT better at writing prompts than",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:24:54.640",
+    "seconds": 1494.64,
+    "type": "observed_spoken",
+    "evidence": "say Claude, which most people I think today would argue that Claude is a better LLM? So it depends",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:00.320",
+    "seconds": 1500.32,
+    "type": "observed_spoken",
+    "evidence": "if you ask these people it depends on what they're doing. So if you're prompting perhaps like a I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:06.720",
+    "seconds": 1506.72,
+    "type": "observed_spoken",
+    "evidence": "don't know let's say Bolt which Bolt is a it's a text to app platform where you can just say like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:12.080",
+    "seconds": 1512.08,
+    "type": "observed_spoken",
+    "evidence": "you know write create this app or whatever kind of like claude is. So if you're writing something",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:15.360",
+    "seconds": 1515.36,
+    "type": "observed_spoken",
+    "evidence": "more technical I will use cloud for that. Or if I want to write a script for my web flow site like a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:20.960",
+    "seconds": 1520.96,
+    "type": "observed_spoken",
+    "evidence": "piece of code that like does this special hover effect on this element I'll use cloud for that.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:25.440",
+    "seconds": 1525.44,
+    "type": "observed_spoken",
+    "evidence": "If it's something more of like uh image generation or more creative or just personal use even like I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:31.920",
+    "seconds": 1531.92,
+    "type": "observed_spoken",
+    "evidence": "want AI to analyze a tax document or whatever it is. I've just personally anecdotally found",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:36.560",
+    "seconds": 1536.56,
+    "type": "observed_spoken",
+    "evidence": "chat to be better at writing more conversational stuff versus claw being very technical. So those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:42.240",
+    "seconds": 1542.24,
+    "type": "observed_spoken",
+    "evidence": "people that usually say like claude's better for this, they're usually much more technical use",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:46.640",
+    "seconds": 1546.64,
+    "type": "observed_spoken",
+    "evidence": "cases for that. But they're both I mean honestly they're both good, right? Like you can't really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:50.640",
+    "seconds": 1550.64,
+    "type": "observed_spoken",
+    "evidence": "go wrong. It's just a personal preference. Well, to me there's two big unlocks there in what you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:54.800",
+    "seconds": 1554.8,
+    "type": "observed_spoken",
+    "evidence": "said. Like I've been doing that for a while, right? Ask it what to ask it. Cool. But like A,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:25:59.280",
+    "seconds": 1559.28,
+    "type": "observed_spoken",
+    "evidence": "I wasn't using ChBD to do that. I've been using Claude to ask Claude what to ask Claude,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:03.840",
+    "seconds": 1563.84,
+    "type": "observed_spoken",
+    "evidence": "right? So that's an upgrade. And B, I haven't been telling, you know, in the LLM in the prompt,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:10.480",
+    "seconds": 1570.48,
+    "type": "observed_spoken",
+    "evidence": "I'm going to do this in Nano Banana. I'm get this is a I need you to give me a prompt for replet,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:14.960",
+    "seconds": 1574.96,
+    "type": "observed_spoken",
+    "evidence": "for lovable, for claude, whatever. Because the LLM knows how those LLMs want to be spoken to,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:21.280",
+    "seconds": 1581.28,
+    "type": "observed_spoken",
+    "evidence": "right? So theoretically it should give you a better prompt that's more befitting for that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:26.400",
+    "seconds": 1586.4,
+    "type": "observed_spoken",
+    "evidence": "LLM right that's it will like an example is like midjourney a midjourney uses parameters so there's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:31.280",
+    "seconds": 1591.28,
+    "type": "observed_spoken",
+    "evidence": "style parameters there's ratio parameters so chatbt will know that um you can also one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:36.560",
+    "seconds": 1596.56,
+    "type": "observed_spoken",
+    "evidence": "unlock too is setting up a rule sheet in chat GBT so that anything you prompt inside of this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:42.160",
+    "seconds": 1602.16,
+    "type": "observed_spoken",
+    "evidence": "project will reference a rule sheet so like when I'm generating runway videos runway takes into",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:49.200",
+    "seconds": 1609.2,
+    "type": "observed_spoken",
+    "evidence": "account the type of camera you want to use, the type of zoom lens you want to use, the type of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:54.880",
+    "seconds": 1614.88,
+    "type": "observed_spoken",
+    "evidence": "cinema color grading. So, I can feed that into the rule sheet. So, anytime I prompt a runway thing,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:26:59.200",
+    "seconds": 1619.2,
+    "type": "observed_spoken",
+    "evidence": "it'll reference all that, include all of those parameters inside of that. So, it just expedites",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:03.040",
+    "seconds": 1623.04,
+    "type": "observed_spoken",
+    "evidence": "the process and gets you a much more precise fine-tuned prompt for whatever tool you're using.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:07.360",
+    "seconds": 1627.36,
+    "type": "observed_spoken",
+    "evidence": "Yeah, I love that. Listen, I need more people like this to interview on my podcast. So, if you know",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:12.240",
+    "seconds": 1632.24,
+    "type": "observed_spoken",
+    "evidence": "of someone with a side hustle or a business that's unique and cool and super profitable,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:16.480",
+    "seconds": 1636.48,
+    "type": "observed_spoken",
+    "evidence": "email Molly M o ly@cof-founders.com. That's one word. co-founders.com. Mollycoounders.com. Tell",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:23.120",
+    "seconds": 1643.12,
+    "type": "observed_spoken",
+    "evidence": "her your story and we'll give you a hundred bucks if we end up interviewing them. What is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:26.640",
+    "seconds": 1646.64,
+    "type": "observed_spoken",
+    "evidence": "your productized service shiny object right now? Like what what service out there you think is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:33.360",
+    "seconds": 1653.36,
+    "type": "observed_spoken",
+    "evidence": "ripe for the picking to be a productized service that you're too focused on to chase after that you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:38.160",
+    "seconds": 1658.16,
+    "type": "observed_spoken",
+    "evidence": "think other people should chase after? Yeah. Is it okay if I give two? I want as many as you got.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:42.880",
+    "seconds": 1662.88,
+    "type": "observed_spoken",
+    "evidence": "Okay. I think there there's two primary ones right now. The one is more general. It's AI first design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:50.480",
+    "seconds": 1670.48,
+    "type": "observed_spoken",
+    "evidence": "and development. That is the big thing, right? Because it's easy for us technical people to sit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:27:55.600",
+    "seconds": 1675.6,
+    "type": "observed_spoken",
+    "evidence": "back and say just use cloud. It's super easy. But the second you have to connect that to a database",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:00.160",
+    "seconds": 1680.16,
+    "type": "observed_spoken",
+    "evidence": "or the second you have to connect that to Stripe or the second you have to actually host the thing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:04.320",
+    "seconds": 1684.32,
+    "type": "observed_spoken",
+    "evidence": "most people who are nontechnical that's where they stop because it's easy to build it but actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:09.280",
+    "seconds": 1689.28,
+    "type": "observed_spoken",
+    "evidence": "distribute it out is a whole other thing right. So a lot of these companies will like are right now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:16.000",
+    "seconds": 1696.0,
+    "type": "observed_spoken",
+    "evidence": "um off menu is one of them for example that they they've transitioned and pivoted to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:20.560",
+    "seconds": 1700.56,
+    "type": "observed_spoken",
+    "evidence": "something that's like AIdriven product design and development. So let us run cloud for you and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:26.320",
+    "seconds": 1706.32,
+    "type": "observed_spoken",
+    "evidence": "let us distribute it and let us build the thing and let us host it. Let's take care of all the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:29.920",
+    "seconds": 1709.92,
+    "type": "observed_spoken",
+    "evidence": "complexities. I think that's a big big thing. The other thing on a biased front would be branding.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:36.480",
+    "seconds": 1716.48,
+    "type": "observed_spoken",
+    "evidence": "So not product design, not website design, just branding. um that is if I were to create another",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:42.880",
+    "seconds": 1722.88,
+    "type": "observed_spoken",
+    "evidence": "agency given my skill set today, that would be I think where the next big big thing will be inside",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:50.000",
+    "seconds": 1730.0,
+    "type": "observed_spoken",
+    "evidence": "of actually the design industry specifically is branding. So those are the two biggest. I love",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:55.200",
+    "seconds": 1735.2,
+    "type": "observed_spoken",
+    "evidence": "it. If you were to go with a branding agency, let's say I'm not inherently creative. I don't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:28:59.280",
+    "seconds": 1739.28,
+    "type": "observed_spoken",
+    "evidence": "have good taste. I don't have an eye for design. Is AI to the point where we can lean on that where",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:04.720",
+    "seconds": 1744.72,
+    "type": "observed_spoken",
+    "evidence": "with some good prompting Claude can like give us something to at least start with Claude or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:09.920",
+    "seconds": 1749.92,
+    "type": "observed_spoken",
+    "evidence": "anything? So, first off, like I hate this. I hate this word. And if you're on X a lot, you hate it,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:14.560",
+    "seconds": 1754.56,
+    "type": "observed_spoken",
+    "evidence": "too, if you're in my world, but taste, right? Taste is if you don't have taste, you're you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:18.720",
+    "seconds": 1758.72,
+    "type": "observed_spoken",
+    "evidence": "only going to get so far with prompting, right? So, if you take somebody with actually good taste,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:22.880",
+    "seconds": 1762.88,
+    "type": "observed_spoken",
+    "evidence": "and good taste is obviously subjective, but there's generally this in the higher tier of these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:26.800",
+    "seconds": 1766.8,
+    "type": "observed_spoken",
+    "evidence": "industries, there's agreed upon what good taste is, it'll get you there for something. Where AI is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:32.480",
+    "seconds": 1772.48,
+    "type": "observed_spoken",
+    "evidence": "helpful is photography generation. So, you don't need to go out and hire photographers anymore.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:38.160",
+    "seconds": 1778.16,
+    "type": "observed_spoken",
+    "evidence": "Or if you have a let's say a cosmetic a cosmetic product like you can get super super high quality",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:42.880",
+    "seconds": 1782.88,
+    "type": "observed_spoken",
+    "evidence": "photography done with AI just general background images and supporting assets for blog post and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:48.720",
+    "seconds": 1788.72,
+    "type": "observed_spoken",
+    "evidence": "illustrations and things like that iconography. AI is fantastic for that as well. So I like what I do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:54.160",
+    "seconds": 1794.16,
+    "type": "observed_spoken",
+    "evidence": "is I will bring on a tech company. I'll assign an aesthetic to them. Let's say it's a Renaissance",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:29:58.880",
+    "seconds": 1798.88,
+    "type": "observed_spoken",
+    "evidence": "theme and that's just like it's Renaissance imagery with their product on overlapped on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:02.720",
+    "seconds": 1802.72,
+    "type": "observed_spoken",
+    "evidence": "top and that's kind of like their aesthetic, right? It's like this old age kind of whatever",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:06.400",
+    "seconds": 1806.4,
+    "type": "observed_spoken",
+    "evidence": "neo renaissance. I can set up a system for them in AI to be able to replicate and build images",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:11.920",
+    "seconds": 1811.92,
+    "type": "observed_spoken",
+    "evidence": "out in that style for them to use on their blog posts and that's all very easy to do. So AI for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:16.880",
+    "seconds": 1816.88,
+    "type": "observed_spoken",
+    "evidence": "that sense is really good with the branding side and creating these cohesion between assets. Yeah.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:21.520",
+    "seconds": 1821.52,
+    "type": "observed_spoken",
+    "evidence": "But it's not so good at other things. Now break down a little bit more the AI agency like what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:26.400",
+    "seconds": 1826.4,
+    "type": "observed_spoken",
+    "evidence": "what would that look like? Let's say I you own that agency. I come to you. What need do I have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:31.520",
+    "seconds": 1831.52,
+    "type": "observed_spoken",
+    "evidence": "and what solution do you want? Yeah, absolutely. So let's say like for example you want to build",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:35.920",
+    "seconds": 1835.92,
+    "type": "observed_spoken",
+    "evidence": "out in your case I'll give you a specific case like you want to teach other aspiring YouTubers",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:40.720",
+    "seconds": 1840.72,
+    "type": "observed_spoken",
+    "evidence": "how to do what you've done you know get hundreds of thousands of subscribers you want to build",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:45.120",
+    "seconds": 1845.12,
+    "type": "observed_spoken",
+    "evidence": "this very comprehensive system with resources and connecting class members and things like that to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:50.240",
+    "seconds": 1850.24,
+    "type": "observed_spoken",
+    "evidence": "each other you could go to cloud and do that right like you could maybe get something done but like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:30:56.720",
+    "seconds": 1856.72,
+    "type": "observed_spoken",
+    "evidence": "you're going to probably hit a point if you're not super technical and you've never actually launched",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:00.080",
+    "seconds": 1860.08,
+    "type": "observed_spoken",
+    "evidence": "a full product yourself with development you're probably going to hit a point where you just get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:03.840",
+    "seconds": 1863.84,
+    "type": "observed_spoken",
+    "evidence": "stopped or you get in these like vicious endless loops of like trying to have claw troubleshoot and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:08.560",
+    "seconds": 1868.56,
+    "type": "observed_spoken",
+    "evidence": "you're just burning through tokens and spending so much money on tokens, right? All these things",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:12.320",
+    "seconds": 1872.32,
+    "type": "observed_spoken",
+    "evidence": "happen all the time. You don't hear about it, but like everyone runs into this issue that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:15.920",
+    "seconds": 1875.92,
+    "type": "observed_spoken",
+    "evidence": "non-technical. Instead of you doing that, why don't you just hire someone that they have they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:21.600",
+    "seconds": 1881.6,
+    "type": "observed_spoken",
+    "evidence": "have actual developers on staff? So when they actually need developers to plug in to the AI,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:26.800",
+    "seconds": 1886.8,
+    "type": "observed_spoken",
+    "evidence": "they can do that, but they can they know how to leverage AI to get that thing up in like a month,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:31.040",
+    "seconds": 1891.04,
+    "type": "observed_spoken",
+    "evidence": "right? Or like a couple of weeks. And so for you, it's like, okay, money is not really an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:34.960",
+    "seconds": 1894.96,
+    "type": "observed_spoken",
+    "evidence": "issue. So you're like, I might as well just have someone who knows what they're doing,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:38.000",
+    "seconds": 1898.0,
+    "type": "observed_spoken",
+    "evidence": "who knows how to leverage these tools at the right time, at the right place, in the right way,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:41.920",
+    "seconds": 1901.92,
+    "type": "observed_spoken",
+    "evidence": "but also has the resources in house to be able to have people that oversee this to make sure it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:46.800",
+    "seconds": 1906.8,
+    "type": "observed_spoken",
+    "evidence": "all done up to par, right? Like security is up to par, payment payment management is up to par,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:52.800",
+    "seconds": 1912.8,
+    "type": "observed_spoken",
+    "evidence": "all that sort of stuff. And I have a resource to go to if something breaks. So that's where like",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:31:56.480",
+    "seconds": 1916.48,
+    "type": "observed_spoken",
+    "evidence": "that's where you would hire somebody like that. And I think that that is the future of agencies",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:00.160",
+    "seconds": 1920.16,
+    "type": "observed_spoken",
+    "evidence": "inevitably. It's not going to be like individuals building their own software. I don't think it'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:04.320",
+    "seconds": 1924.32,
+    "type": "observed_spoken",
+    "evidence": "be companies building their own software. I think it'll be hiring someone that uses AI to get it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:08.480",
+    "seconds": 1928.48,
+    "type": "observed_spoken",
+    "evidence": "done at a tenth of the time, but done well, right? And so that's where these AI agencies,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:13.440",
+    "seconds": 1933.44,
+    "type": "observed_spoken",
+    "evidence": "I think, are going to plug in. They're already they're already popping up everywhere. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:16.720",
+    "seconds": 1936.72,
+    "type": "observed_spoken",
+    "evidence": "what would you be able to charge for either one of those? Probably a lot. And you need to charge a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:21.520",
+    "seconds": 1941.52,
+    "type": "observed_spoken",
+    "evidence": "lot because tokens are not cheap currently, and I don't think they're going to get much cheaper. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:25.920",
+    "seconds": 1945.92,
+    "type": "observed_spoken",
+    "evidence": "that's the that's kind of the unspoken thing about this is like, yeah, it's free. you're doing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:29.840",
+    "seconds": 1949.84,
+    "type": "observed_spoken",
+    "evidence": "it yourself, but a lot of people are spending thousands of dollars a month on tokens and running",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:33.680",
+    "seconds": 1953.68,
+    "type": "observed_spoken",
+    "evidence": "into the limits and stuff. So, you'll need to charge a lot. If I were to give a range, it would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:38.000",
+    "seconds": 1958.0,
+    "type": "observed_spoken",
+    "evidence": "be somewhere like if I were to do it, it'd be somewhere in the $10 to $20,000 a month range. If",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:42.320",
+    "seconds": 1962.32,
+    "type": "observed_spoken",
+    "evidence": "I did like a retainer for for people. Yeah. Now, a lot of people do don't charge subscriptions,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:46.960",
+    "seconds": 1966.96,
+    "type": "observed_spoken",
+    "evidence": "so it's going to be oneoff pricing, which could be anything depending on the scope of work.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:49.920",
+    "seconds": 1969.92,
+    "type": "observed_spoken",
+    "evidence": "what productiz agencies right now are like don't tickle your fancy but you see out there in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:32:56.480",
+    "seconds": 1976.48,
+    "type": "observed_spoken",
+    "evidence": "world that are very successful that other people could copy. So Offmanu is one of them that does",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:01.280",
+    "seconds": 1981.28,
+    "type": "observed_spoken",
+    "evidence": "that does more of like development and design if you want something built like that they're doing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:05.920",
+    "seconds": 1985.92,
+    "type": "observed_spoken",
+    "evidence": "they're doing pretty well they've done it pretty well. Hunter Hammonds runs that we're buddies he's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:10.080",
+    "seconds": 1990.08,
+    "type": "observed_spoken",
+    "evidence": "a cool guy they they run a really cool operation have a really talented team. What's his name? You",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:14.400",
+    "seconds": 1994.4,
+    "type": "observed_spoken",
+    "evidence": "would know who exactly who I'm talking about. Dang it. M but they run one for copywriting actually,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:20.640",
+    "seconds": 2000.64,
+    "type": "observed_spoken",
+    "evidence": "which is a huge opportunity right now because AI is so dang good at copywriting that you could take",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:27.280",
+    "seconds": 2007.28,
+    "type": "observed_spoken",
+    "evidence": "something like that and scale it to the moon and back and not have to hire too many people.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:33.360",
+    "seconds": 2013.36,
+    "type": "observed_spoken",
+    "evidence": "Everyone needs it. Like it's sort of Oh, Alex Lieberman, you you know who that is, right? Oh,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:38.560",
+    "seconds": 2018.56,
+    "type": "observed_spoken",
+    "evidence": "yeah. Yeah, yeah, yeah. Yeah. So, we we had a chat uh he like pinged me on D on DMs. He was like,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:44.560",
+    "seconds": 2024.56,
+    "type": "observed_spoken",
+    "evidence": "\"Hey, can we hop on? I'm thinking about building like a productized copywriting agency. And then we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:48.960",
+    "seconds": 2028.96,
+    "type": "observed_spoken",
+    "evidence": "had that chat and then I swear like two months later he was like just crushing it with it,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:54.240",
+    "seconds": 2034.24,
+    "type": "observed_spoken",
+    "evidence": "you know? And I think they do more than that now. But there's another one right now called",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:33:59.520",
+    "seconds": 2039.52,
+    "type": "observed_spoken",
+    "evidence": "Viral Cuts. I think they're still around. Yeah, I know them. Yeah. Yeah. So they that's a Hunter",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:04.640",
+    "seconds": 2044.64,
+    "type": "observed_spoken",
+    "evidence": "Hammond's thing as well. So they do it for short short videos for content creators like yourself,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:10.560",
+    "seconds": 2050.56,
+    "type": "observed_spoken",
+    "evidence": "which is obviously a huge industry right now. Um, so they take your long form videos and clip them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:16.240",
+    "seconds": 2056.24,
+    "type": "observed_spoken",
+    "evidence": "up and cut them into into different short form clips that you can leverage and uh that does",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:21.840",
+    "seconds": 2061.84,
+    "type": "observed_spoken",
+    "evidence": "really well. YouTube thumbnails, I can't think of the name, but there's somebody that does YouTube",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:26.400",
+    "seconds": 2066.4,
+    "type": "observed_spoken",
+    "evidence": "thumbnails as a as a subscription, which is one of the best use cases for it because I agree. Unlike",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:32.000",
+    "seconds": 2072.0,
+    "type": "observed_spoken",
+    "evidence": "branding, which is really a one-off thing, you get to capture that revenue. Great. But that may not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:37.360",
+    "seconds": 2077.36,
+    "type": "observed_spoken",
+    "evidence": "reoccur. Things like short-term video, short form videos, podcast editing or thumbnail design is is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:44.160",
+    "seconds": 2084.16,
+    "type": "observed_spoken",
+    "evidence": "a reoccurring need. Yeah. So those those type of things do really well and you can keep going on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:49.680",
+    "seconds": 2089.68,
+    "type": "observed_spoken",
+    "evidence": "and on and on, but there's a lot of justification for making 10 to 20 thumbnails per video cuz",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:34:54.640",
+    "seconds": 2094.64,
+    "type": "observed_spoken",
+    "evidence": "finally AB testing is now native YouTube. So we're making tons of thumbnails per video. Oh,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:00.240",
+    "seconds": 2100.24,
+    "type": "observed_spoken",
+    "evidence": "sure. And it never stops. like we might make new ones a month after it's been published just to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:04.400",
+    "seconds": 2104.4,
+    "type": "observed_spoken",
+    "evidence": "see if we can fire it back up again. And it was a good business model before AI. Like I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:08.640",
+    "seconds": 2108.64,
+    "type": "observed_spoken",
+    "evidence": "I pushed that before even AI was really a thing. But now with AI, it's even more so. Like the the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:14.240",
+    "seconds": 2114.24,
+    "type": "observed_spoken",
+    "evidence": "the ability for you to scale now is wilder than it ever has been before. Like if you were to talk",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:20.240",
+    "seconds": 2120.24,
+    "type": "observed_spoken",
+    "evidence": "about thumbnail design 5 years ago, like a team of two or three people could crank out hundreds",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:24.720",
+    "seconds": 2124.72,
+    "type": "observed_spoken",
+    "evidence": "of thumbnails a day if they needed to, right? So these are loweffort, lowcost, lowrisk startups.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:30.080",
+    "seconds": 2130.08,
+    "type": "observed_spoken",
+    "evidence": "you can just spin up a website tomorrow, figure out how to get distribution, and then you're set,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:35.600",
+    "seconds": 2135.6,
+    "type": "observed_spoken",
+    "evidence": "right? Like there's service based I love service based businesses because there's not there's not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:39.440",
+    "seconds": 2139.44,
+    "type": "observed_spoken",
+    "evidence": "that like risk of if it fails, okay, so what? It's basically just a website and maybe a couple of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:44.640",
+    "seconds": 2144.64,
+    "type": "observed_spoken",
+    "evidence": "like processes that I set up, you know, it's not yeah anything crazy. So Brett, I think I'm out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:49.520",
+    "seconds": 2149.52,
+    "type": "observed_spoken",
+    "evidence": "of questions, but this has been excellent. Thank you for your time. Where can people find you if",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:35:53.920",
+    "seconds": 2153.92,
+    "type": "observed_spoken",
+    "evidence": "they want to find you? Yeah, I just saw X. Um, I think it's Brett2T's from DJ from Newjo. Yeah,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:36:00.400",
+    "seconds": 2160.4,
+    "type": "observed_spoken",
+    "evidence": "Brett from DJ. Okay. Yeah, thanks Brett. Thank you. If you like this content, please",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:36:04.400",
+    "seconds": 2164.4,
+    "type": "observed_spoken",
+    "evidence": "share with a friend, hit a like or a comment below, and we'll see you next time on the Ker",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "OCR unavailable: tesseract/pytesseract not installed or not configured.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  }
+]

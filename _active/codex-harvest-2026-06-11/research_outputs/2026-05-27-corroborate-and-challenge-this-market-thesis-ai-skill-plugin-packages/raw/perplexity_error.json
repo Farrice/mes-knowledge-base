@@ -1,0 +1,5 @@
+{
+  "provider": "perplexity",
+  "error": "{\"error\":{\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information, visit https://www.perplexity.ai/settings/api.\",\"type\":\"insufficient_quota\",\"code\":401}}\n",
+  "time": "2026-05-27T07:50:36.338740+00:00"
+}

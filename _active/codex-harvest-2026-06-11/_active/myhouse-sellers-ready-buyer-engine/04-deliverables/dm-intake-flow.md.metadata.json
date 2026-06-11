@@ -1,0 +1,11 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "project": "myhouse-sellers-ready-buyer-engine",
+  "artifactType": "dm-intake-flow",
+  "createdDate": "2026-05-29",
+  "primaryAudience": "Jen/Jiing, Farrice, implementation partner",
+  "status": "implemented",
+  "automationPolicy": "manual-first; no live automation without approval"
+}

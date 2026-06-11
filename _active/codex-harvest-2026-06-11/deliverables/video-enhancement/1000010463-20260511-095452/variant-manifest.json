@@ -1,0 +1,98 @@
+{
+  "ai_upscale_requested": true,
+  "disclaimer": "Enhanced output is a viewing aid only. It does not prove contact, fault, causation, or responsibility.",
+  "focus": {
+    "duration_seconds": 4.0,
+    "focus_time": 3.63,
+    "rms": null,
+    "source": "manual_focus_time",
+    "start_seconds": 1.63,
+    "window_seconds": 4.0
+  },
+  "outputs": [
+    {
+      "kind": "comparison",
+      "name": "variant-comparison",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/variant-comparison.mp4"
+    },
+    {
+      "kind": "comparison",
+      "name": "focus-comparison",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/focus-comparison.mp4"
+    },
+    {
+      "kind": "contact_sheet",
+      "name": "contact-sheet",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/contact-sheet.jpg"
+    },
+    {
+      "filter_chain": "eq=brightness=0.02:contrast=1.10,hqdn3d=0.750:0.750:3.000:3.000,cas=strength=0.35,format=yuv420p",
+      "kind": "variant",
+      "name": "conservative",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/conservative.mp4"
+    },
+    {
+      "filter_chain": "eq=brightness=0.035:contrast=1.25,normalize=smoothing=8:strength=0.25,atadenoise=s=9,scale=trunc(iw*1.5/2)*2:trunc(ih*1.5/2)*2:flags=lanczos,cas=strength=0.55,unsharp=5:5:0.650:5:5:0.0,format=yuv420p",
+      "kind": "variant",
+      "name": "detail",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/detail.mp4"
+    },
+    {
+      "filter_chain": "eq=brightness=0.025:contrast=1.15,hqdn3d=1.000:1.000:4.000:4.000,cas=strength=0.40,minterpolate=fps=60:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:me=epzs,format=yuv420p",
+      "kind": "variant",
+      "name": "motion",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/motion.mp4"
+    },
+    {
+      "filter_chain": "setpts=2.0*PTS",
+      "kind": "slow_motion",
+      "name": "motion-slowmo-2x",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/motion-slowmo-2x.mp4"
+    },
+    {
+      "filter_chain": "setpts=4.0*PTS",
+      "kind": "slow_motion",
+      "name": "motion-slowmo-4x",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/motion-slowmo-4x.mp4"
+    },
+    {
+      "filter_chain": "crop=620:300:300:0,eq=brightness=0.035:contrast=1.25,normalize=smoothing=8:strength=0.25,atadenoise=s=9,scale=trunc(iw*3/2)*2:trunc(ih*3/2)*2:flags=lanczos,cas=strength=0.55,unsharp=5:5:0.650:5:5:0.0,format=yuv420p",
+      "kind": "roi",
+      "name": "roi",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/roi-zoom.mp4",
+      "roi": [
+        300,
+        0,
+        620,
+        300
+      ]
+    },
+    {
+      "kind": "focus_clip",
+      "name": "focus-original",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/focus-original.mp4"
+    },
+    {
+      "kind": "focus_clip",
+      "name": "focus-conservative",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/focus-conservative.mp4"
+    },
+    {
+      "kind": "focus_clip",
+      "name": "focus-detail",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/focus-detail.mp4"
+    },
+    {
+      "kind": "focus_clip",
+      "name": "focus-roi",
+      "path": "/Users/farricecain/Codex Antigravity/deliverables/video-enhancement/1000010463-20260511-095452/focus-roi.mp4"
+    }
+  ],
+  "source": {
+    "duration_seconds": 39.864,
+    "frame_count_extracted": 598,
+    "path": "/private/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/TemporaryItems/com.apple.Photos.NSItemProvider/uuid=E86183C1-B5FD-4527-86CB-90E7091B014B&code=001&library=1&type=3&mode=1&loc=true&cap=true.mp4/1000010463.mp4",
+    "sha256": "a4f821d543dfe1355c19ff6d3bfbc88da4f4cb308c5ef2df3c81156801e7ac7d",
+    "size_bytes": 16209080
+  }
+}

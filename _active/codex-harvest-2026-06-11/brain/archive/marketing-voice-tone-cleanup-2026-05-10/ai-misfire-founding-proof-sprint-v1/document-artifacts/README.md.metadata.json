@@ -1,0 +1,14 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Index for the rebuilt AI Misfire Revenue Suite active Local Markdown Source files.",
+  "updatedAt": "2026-05-10T16:30:00Z",
+  "requestFeedback": true,
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "activeIntent": "2026-05-10-full-revenue-suite-rebuild",
+  "sourceFormat": "markdown",
+  "exportFormatsGeneratedByDefault": false,
+  "skipCopyGate": true,
+  "skipReason": "active source index only"
+}

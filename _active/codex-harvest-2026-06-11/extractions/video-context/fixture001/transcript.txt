@@ -1,0 +1,3 @@
+[00:00] Today I am showing how a video context ledger separates what is spoken from what is only inferred.
+[00:18] The main claim is simple: transcript evidence alone is not visual evidence.
+[00:51] When frames or OCR are unavailable, the report should say that clearly.

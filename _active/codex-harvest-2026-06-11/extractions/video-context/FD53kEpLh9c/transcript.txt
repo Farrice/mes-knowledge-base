@@ -1,0 +1,780 @@
+[00:00:00.160] Downloaded claw code skills are generic.
+[00:00:02.720] Downloaded claw code skills are generic. They're bloated and they're also at the
+[00:00:04.870] They're bloated and they're also at the
+[00:00:04.880] They're bloated and they're also at the same time lacking context. But that's
+[00:00:06.630] same time lacking context. But that's
+[00:00:06.640] same time lacking context. But that's not even their biggest problem. They're
+[00:00:08.150] not even their biggest problem. They're
+[00:00:08.160] not even their biggest problem. They're still built for one task at a time.
+[00:00:10.310] still built for one task at a time.
+[00:00:10.320] still built for one task at a time. Think copywriting, researching,
+[00:00:12.470] Think copywriting, researching,
+[00:00:12.480] Think copywriting, researching, whatever. Whilst real businesses don't
+[00:00:14.789] whatever. Whilst real businesses don't
+[00:00:14.799] whatever. Whilst real businesses don't operate like that at all, because real
+[00:00:16.710] operate like that at all, because real
+[00:00:16.720] operate like that at all, because real work isn't one process document with
+[00:00:19.109] work isn't one process document with
+[00:00:19.119] work isn't one process document with five different steps, [music] it's a
+[00:00:21.109] five different steps, [music] it's a
+[00:00:21.119] five different steps, [music] it's a sequence of processes that need to
+[00:00:23.269] sequence of processes that need to
+[00:00:23.279] sequence of processes that need to connect to each other. So if you keep
+[00:00:24.870] connect to each other. So if you keep
+[00:00:24.880] connect to each other. So if you keep thinking of skills in isolation, you'll
+[00:00:27.109] thinking of skills in isolation, you'll
+[00:00:27.119] thinking of skills in isolation, you'll never build out systems that run end to
+[00:00:29.029] never build out systems that run end to
+[00:00:29.039] never build out systems that run end to end. So, in this video, I'll show you
+[00:00:30.470] end. So, in this video, I'll show you
+[00:00:30.480] end. So, in this video, I'll show you how to turn your skills into building
+[00:00:32.950] how to turn your skills into building
+[00:00:32.960] how to turn your skills into building blocks for bigger workflows. This is
+[00:00:35.030] blocks for bigger workflows. This is
+[00:00:35.040] blocks for bigger workflows. This is what I call skill systems so that each
+[00:00:37.270] what I call skill systems so that each
+[00:00:37.280] what I call skill systems so that each output feeds the next and actually
+[00:00:39.270] output feeds the next and actually
+[00:00:39.280] output feeds the next and actually drives a real business goal. So, let's
+[00:00:41.510] drives a real business goal. So, let's
+[00:00:41.520] drives a real business goal. So, let's get straight into it. So, here's the
+[00:00:43.030] get straight into it. So, here's the
+[00:00:43.040] get straight into it. So, here's the thing about skills. They're designed to
+[00:00:44.950] thing about skills. They're designed to
+[00:00:44.960] thing about skills. They're designed to do one thing really well. So, if you
+[00:00:47.029] do one thing really well. So, if you
+[00:00:47.039] do one thing really well. So, if you actually read Anthropic's own guidance
+[00:00:49.029] actually read Anthropic's own guidance
+[00:00:49.039] actually read Anthropic's own guidance on skills, they're really clear about
+[00:00:51.029] on skills, they're really clear about
+[00:00:51.039] on skills, they're really clear about this. Skills are supposed to be modular,
+[00:00:54.069] this. Skills are supposed to be modular,
+[00:00:54.079] this. Skills are supposed to be modular, composable building blocks. The official
+[00:00:56.470] composable building blocks. The official
+[00:00:56.480] composable building blocks. The official line is that clog can load multiple
+[00:00:58.630] line is that clog can load multiple
+[00:00:58.640] line is that clog can load multiple skills simultaneously and your skill
+[00:01:01.189] skills simultaneously and your skill
+[00:01:01.199] skills simultaneously and your skill therefore should work well alongside
+[00:01:03.270] therefore should work well alongside
+[00:01:03.280] therefore should work well alongside others. So not assuming it's going to be
+[00:01:05.350] others. So not assuming it's going to be
+[00:01:05.360] others. So not assuming it's going to be the only skill running. So skills are
+[00:01:07.030] the only skill running. So skills are
+[00:01:07.040] the only skill running. So skills are effectively packages of instructions and
+[00:01:09.030] effectively packages of instructions and
+[00:01:09.040] effectively packages of instructions and context with one job each built to plug
+[00:01:11.670] context with one job each built to plug
+[00:01:11.680] context with one job each built to plug into bigger systems. But that's where
+[00:01:13.350] into bigger systems. But that's where
+[00:01:13.360] into bigger systems. But that's where most people go wrong. They take that one
+[00:01:15.510] most people go wrong. They take that one
+[00:01:15.520] most people go wrong. They take that one job rule and use it the wrong way. So
+[00:01:18.230] job rule and use it the wrong way. So
+[00:01:18.240] job rule and use it the wrong way. So two things happen. The first mistake is
+[00:01:20.630] two things happen. The first mistake is
+[00:01:20.640] two things happen. The first mistake is using skills in total isolation. So
+[00:01:23.030] using skills in total isolation. So
+[00:01:23.040] using skills in total isolation. So let's say you download a copywriting
+[00:01:24.550] let's say you download a copywriting
+[00:01:24.560] let's say you download a copywriting skill. It could be this Cory Haynes
+[00:01:26.310] skill. It could be this Cory Haynes
+[00:01:26.320] skill. It could be this Cory Haynes copywriting skill from his marketing
+[00:01:27.910] copywriting skill from his marketing
+[00:01:27.920] copywriting skill from his marketing skill pack. You want to use it to
+[00:01:29.350] skill pack. You want to use it to
+[00:01:29.360] skill pack. You want to use it to improve the way you write LinkedIn
+[00:01:30.789] improve the way you write LinkedIn
+[00:01:30.799] improve the way you write LinkedIn posts. You manually ask it to draft a
+[00:01:33.749] posts. You manually ask it to draft a
+[00:01:33.759] posts. You manually ask it to draft a LinkedIn post using your copyrightiting
+[00:01:35.749] LinkedIn post using your copyrightiting
+[00:01:35.759] LinkedIn post using your copyrightiting skill. It's going to output some copy.
+[00:01:37.749] skill. It's going to output some copy.
+[00:01:37.759] skill. It's going to output some copy. But what have you actually done here?
+[00:01:39.350] But what have you actually done here?
+[00:01:39.360] But what have you actually done here? You've used clog code the same way in
+[00:01:41.590] You've used clog code the same way in
+[00:01:41.600] You've used clog code the same way in which you would actually use something
+[00:01:42.870] which you would actually use something
+[00:01:42.880] which you would actually use something like chat GBT. You've asked it a
+[00:01:44.950] like chat GBT. You've asked it a
+[00:01:44.960] like chat GBT. You've asked it a question. It's come back with advice.
+[00:01:46.870] question. It's come back with advice.
+[00:01:46.880] question. It's come back with advice. Yes, it's written a file, but it's
+[00:01:48.149] Yes, it's written a file, but it's
+[00:01:48.159] Yes, it's written a file, but it's effectively given you a single isolated
+[00:01:50.310] effectively given you a single isolated
+[00:01:50.320] effectively given you a single isolated output. You're still going to do the
+[00:01:51.590] output. You're still going to do the
+[00:01:51.600] output. You're still going to do the topic research yourself. You're still
+[00:01:53.510] topic research yourself. You're still
+[00:01:53.520] topic research yourself. You're still scheduling this on LinkedIn manually and
+[00:01:55.749] scheduling this on LinkedIn manually and
+[00:01:55.759] scheduling this on LinkedIn manually and that's because you're treating this
+[00:01:56.789] that's because you're treating this
+[00:01:56.799] that's because you're treating this copywriting skill as the full process,
+[00:01:59.030] copywriting skill as the full process,
+[00:01:59.040] copywriting skill as the full process, but it isn't the full process. Think
+[00:02:00.950] but it isn't the full process. Think
+[00:02:00.960] but it isn't the full process. Think about all the other manual steps that
+[00:02:02.709] about all the other manual steps that
+[00:02:02.719] about all the other manual steps that you take. You need to decide on a topic.
+[00:02:05.030] you take. You need to decide on a topic.
+[00:02:05.040] you take. You need to decide on a topic. You need to do research into what other
+[00:02:06.789] You need to do research into what other
+[00:02:06.799] You need to do research into what other people have posted about that topic. You
+[00:02:09.109] people have posted about that topic. You
+[00:02:09.119] people have posted about that topic. You then might find associated visuals to go
+[00:02:11.110] then might find associated visuals to go
+[00:02:11.120] then might find associated visuals to go with it and then your scheduling on
+[00:02:12.949] with it and then your scheduling on
+[00:02:12.959] with it and then your scheduling on LinkedIn. But what if you could actually
+[00:02:14.550] LinkedIn. But what if you could actually
+[00:02:14.560] LinkedIn. But what if you could actually package all of that together into one
+[00:02:17.030] package all of that together into one
+[00:02:17.040] package all of that together into one skill system? So instead of a
+[00:02:18.470] skill system? So instead of a
+[00:02:18.480] skill system? So instead of a copywriting skill, it's a content
+[00:02:20.229] copywriting skill, it's a content
+[00:02:20.239] copywriting skill, it's a content creation skill that embodies a
+[00:02:22.229] creation skill that embodies a
+[00:02:22.239] creation skill that embodies a copywriting skill, a research skill, a
+[00:02:24.869] copywriting skill, a research skill, a
+[00:02:24.879] copywriting skill, a research skill, a scheduling skill, and it runs on
+[00:02:26.869] scheduling skill, and it runs on
+[00:02:26.879] scheduling skill, and it runs on autopilot every week without your
+[00:02:29.030] autopilot every week without your
+[00:02:29.040] autopilot every week without your inputs. Would that be more of a
+[00:02:30.470] inputs. Would that be more of a
+[00:02:30.480] inputs. Would that be more of a timesaver for you? Because that's
+[00:02:32.309] timesaver for you? Because that's
+[00:02:32.319] timesaver for you? Because that's exactly what skill systems are about.
+[00:02:35.190] exactly what skill systems are about.
+[00:02:35.200] exactly what skill systems are about. And I'm going to show you how to
+[00:02:36.229] And I'm going to show you how to
+[00:02:36.239] And I'm going to show you how to actually build those end to end in
+[00:02:38.309] actually build those end to end in
+[00:02:38.319] actually build those end to end in cycllo code. And the second mistake is
+[00:02:40.470] cycllo code. And the second mistake is
+[00:02:40.480] cycllo code. And the second mistake is building mega skills. So then you have
+[00:02:42.470] building mega skills. So then you have
+[00:02:42.480] building mega skills. So then you have the opposite end of the spectrum and
+[00:02:44.150] the opposite end of the spectrum and
+[00:02:44.160] the opposite end of the spectrum and arguably this one's worse. So people
+[00:02:45.910] arguably this one's worse. So people
+[00:02:45.920] arguably this one's worse. So people feel that pain of using skills in
+[00:02:48.070] feel that pain of using skills in
+[00:02:48.080] feel that pain of using skills in isolation. So actually end up
+[00:02:49.990] isolation. So actually end up
+[00:02:50.000] isolation. So actually end up overcorrecting. They build one giant
+[00:02:52.070] overcorrecting. They build one giant
+[00:02:52.080] overcorrecting. They build one giant skill that tries to do everything. So
+[00:02:54.070] skill that tries to do everything. So
+[00:02:54.080] skill that tries to do everything. So think a 1,000line skill.mmd document.
+[00:02:56.949] think a 1,000line skill.mmd document.
+[00:02:56.959] think a 1,000line skill.mmd document. And this is surprisingly common
+[00:02:58.630] And this is surprisingly common
+[00:02:58.640] And this is surprisingly common actually. So just check out some
+[00:03:00.070] actually. So just check out some
+[00:03:00.080] actually. So just check out some marketplace skill.md docs. And
+[00:03:02.149] marketplace skill.md docs. And
+[00:03:02.159] marketplace skill.md docs. And unsurprisingly most of them there are
+[00:03:04.470] unsurprisingly most of them there are
+[00:03:04.480] unsurprisingly most of them there are built by AI and therefore they
+[00:03:05.990] built by AI and therefore they
+[00:03:06.000] built by AI and therefore they overcompensate to try and niche down on
+[00:03:08.229] overcompensate to try and niche down on
+[00:03:08.239] overcompensate to try and niche down on a specific process. So you can think of
+[00:03:10.470] a specific process. So you can think of
+[00:03:10.480] a specific process. So you can think of this like a content creation skill that
+[00:03:13.030] this like a content creation skill that
+[00:03:13.040] this like a content creation skill that is not only handling the research, it's
+[00:03:14.869] is not only handling the research, it's
+[00:03:14.879] is not only handling the research, it's handling the writing, the repurposing,
+[00:03:16.390] handling the writing, the repurposing,
+[00:03:16.400] handling the writing, the repurposing, the scheduling and posting, but it's all
+[00:03:18.790] the scheduling and posting, but it's all
+[00:03:18.800] the scheduling and posting, but it's all condensed into one huge skill.md file.
+[00:03:21.750] condensed into one huge skill.md file.
+[00:03:21.760] condensed into one huge skill.md file. And this sounds really smart, but it's
+[00:03:23.190] And this sounds really smart, but it's
+[00:03:23.200] And this sounds really smart, but it's not because you've just thrown away
+[00:03:24.550] not because you've just thrown away
+[00:03:24.560] not because you've just thrown away everything that made skills useful in
+[00:03:26.790] everything that made skills useful in
+[00:03:26.800] everything that made skills useful in the first place. You lose modularity.
+[00:03:29.030] the first place. You lose modularity.
+[00:03:29.040] the first place. You lose modularity. The copyrightiting logic inside that
+[00:03:30.710] The copyrightiting logic inside that
+[00:03:30.720] The copyrightiting logic inside that mega skill is now locked into there and
+[00:03:32.789] mega skill is now locked into there and
+[00:03:32.799] mega skill is now locked into there and you can't reuse that. So it won't go on
+[00:03:34.470] you can't reuse that. So it won't go on
+[00:03:34.480] you can't reuse that. So it won't go on your newsletter intros or your landing
+[00:03:35.910] your newsletter intros or your landing
+[00:03:35.920] your newsletter intros or your landing page unless you rewrite the skills for
+[00:03:37.589] page unless you rewrite the skills for
+[00:03:37.599] page unless you rewrite the skills for those two. you lose maintainability. So
+[00:03:39.990] those two. you lose maintainability. So
+[00:03:40.000] those two. you lose maintainability. So when you update it now, you're going to
+[00:03:41.910] when you update it now, you're going to
+[00:03:41.920] when you update it now, you're going to hunt through that 1,000line skill for
+[00:03:43.750] hunt through that 1,000line skill for
+[00:03:43.760] hunt through that 1,000line skill for the right lines. And every other
+[00:03:45.030] the right lines. And every other
+[00:03:45.040] the right lines. And every other workflow that actually needs this
+[00:03:46.390] workflow that actually needs this
+[00:03:46.400] workflow that actually needs this copywriting skill, you're going to have
+[00:03:47.910] copywriting skill, you're going to have
+[00:03:47.920] copywriting skill, you're going to have to update those completely separately.
+[00:03:49.990] to update those completely separately.
+[00:03:50.000] to update those completely separately. And you also lose the inbuilt
+[00:03:51.830] And you also lose the inbuilt
+[00:03:51.840] And you also lose the inbuilt progressive disclosure. So Anthropic
+[00:03:53.750] progressive disclosure. So Anthropic
+[00:03:53.760] progressive disclosure. So Anthropic specifically designed skills to load
+[00:03:55.430] specifically designed skills to load
+[00:03:55.440] specifically designed skills to load only the context that's needed. And
+[00:03:57.270] only the context that's needed. And
+[00:03:57.280] only the context that's needed. And that's how they keep responses fast and
+[00:03:59.509] that's how they keep responses fast and
+[00:03:59.519] that's how they keep responses fast and maintain their high quality. So a mega
+[00:04:01.509] maintain their high quality. So a mega
+[00:04:01.519] maintain their high quality. So a mega skill in this case is going to blow that
+[00:04:03.429] skill in this case is going to blow that
+[00:04:03.439] skill in this case is going to blow that all up. So everything's going to load at
+[00:04:05.350] all up. So everything's going to load at
+[00:04:05.360] all up. So everything's going to load at once once the skill loads and the model
+[00:04:07.350] once once the skill loads and the model
+[00:04:07.360] once once the skill loads and the model is going to get overwhelmed and
+[00:04:08.630] is going to get overwhelmed and
+[00:04:08.640] is going to get overwhelmed and therefore the quality of output is going
+[00:04:09.910] therefore the quality of output is going
+[00:04:09.920] therefore the quality of output is going to drop significantly. And this is
+[00:04:11.270] to drop significantly. And this is
+[00:04:11.280] to drop significantly. And this is something that Anthropic's own teams
+[00:04:12.869] something that Anthropic's own teams
+[00:04:12.879] something that Anthropic's own teams have been clear about. So their growth
+[00:04:14.390] have been clear about. So their growth
+[00:04:14.400] have been clear about. So their growth marketing team built ad copy automations
+[00:04:16.789] marketing team built ad copy automations
+[00:04:16.799] marketing team built ad copy automations and they explicitly broke them into
+[00:04:18.550] and they explicitly broke them into
+[00:04:18.560] and they explicitly broke them into specialized sub aents. So not skills but
+[00:04:20.870] specialized sub aents. So not skills but
+[00:04:20.880] specialized sub aents. So not skills but sub aents. One for headlines, one for
+[00:04:23.590] sub aents. One for headlines, one for
+[00:04:23.600] sub aents. One for headlines, one for descriptions. and not because it was
+[00:04:25.510] descriptions. and not because it was
+[00:04:25.520] descriptions. and not because it was easier to write it in that way, but
+[00:04:27.110] easier to write it in that way, but
+[00:04:27.120] easier to write it in that way, but because in their words, it makes
+[00:04:29.350] because in their words, it makes
+[00:04:29.360] because in their words, it makes debugging easier and improves output
+[00:04:31.749] debugging easier and improves output
+[00:04:31.759] debugging easier and improves output quality when dealing with complex
+[00:04:33.830] quality when dealing with complex
+[00:04:33.840] quality when dealing with complex requirements. So, if you take one giant
+[00:04:35.909] requirements. So, if you take one giant
+[00:04:35.919] requirements. So, if you take one giant content creation skill, research,
+[00:04:37.830] content creation skill, research,
+[00:04:37.840] content creation skill, research, writing, visuals, scheduling, what you
+[00:04:40.230] writing, visuals, scheduling, what you
+[00:04:40.240] writing, visuals, scheduling, what you should actually do is break that down
+[00:04:41.990] should actually do is break that down
+[00:04:42.000] should actually do is break that down into four small skills, each one doing
+[00:04:44.469] into four small skills, each one doing
+[00:04:44.479] into four small skills, each one doing its job properly, each one can be
+[00:04:46.310] its job properly, each one can be
+[00:04:46.320] its job properly, each one can be reused, and each one can be updated
+[00:04:48.230] reused, and each one can be updated
+[00:04:48.240] reused, and each one can be updated independently. So, with skills in
+[00:04:49.909] independently. So, with skills in
+[00:04:49.919] independently. So, with skills in isolation, you're still the connector
+[00:04:52.230] isolation, you're still the connector
+[00:04:52.240] isolation, you're still the connector between them. But on the other side,
+[00:04:54.070] between them. But on the other side,
+[00:04:54.080] between them. But on the other side, mega skills, you lose all the benefits
+[00:04:56.469] mega skills, you lose all the benefits
+[00:04:56.479] mega skills, you lose all the benefits of the original skill design. So, both
+[00:04:58.390] of the original skill design. So, both
+[00:04:58.400] of the original skill design. So, both aren't quite right. And the right answer
+[00:04:59.909] aren't quite right. And the right answer
+[00:04:59.919] aren't quite right. And the right answer is actually somewhere in the middle. You
+[00:05:01.590] is actually somewhere in the middle. You
+[00:05:01.600] is actually somewhere in the middle. You build small focused skills and then you
+[00:05:04.070] build small focused skills and then you
+[00:05:04.080] build small focused skills and then you wire them together into something bigger
+[00:05:06.790] wire them together into something bigger
+[00:05:06.800] wire them together into something bigger using one orchestrator skill. So, skills
+[00:05:09.189] using one orchestrator skill. So, skills
+[00:05:09.199] using one orchestrator skill. So, skills are effectively treated then as
+[00:05:10.870] are effectively treated then as
+[00:05:10.880] are effectively treated then as components of the skill system. And
+[00:05:13.110] components of the skill system. And
+[00:05:13.120] components of the skill system. And really, what we're talking about here is
+[00:05:14.710] really, what we're talking about here is
+[00:05:14.720] really, what we're talking about here is not novel at all. It's an automation
+[00:05:17.029] not novel at all. It's an automation
+[00:05:17.039] not novel at all. It's an automation made up of multiple skills being chained
+[00:05:18.870] made up of multiple skills being chained
+[00:05:18.880] made up of multiple skills being chained together in a sequence with the
+[00:05:20.870] together in a sequence with the
+[00:05:20.880] together in a sequence with the intelligence of an LLM model to route
+[00:05:22.950] intelligence of an LLM model to route
+[00:05:22.960] intelligence of an LLM model to route and format inputs and outputs as well as
+[00:05:25.510] and format inputs and outputs as well as
+[00:05:25.520] and format inputs and outputs as well as check in with a human when required. And
+[00:05:27.670] check in with a human when required. And
+[00:05:27.680] check in with a human when required. And it's exactly the same way that Open Claw
+[00:05:29.350] it's exactly the same way that Open Claw
+[00:05:29.360] it's exactly the same way that Open Claw and Hermes are able to actually execute
+[00:05:31.189] and Hermes are able to actually execute
+[00:05:31.199] and Hermes are able to actually execute tasks on your behalf. Right? So at its
+[00:05:33.510] tasks on your behalf. Right? So at its
+[00:05:33.520] tasks on your behalf. Right? So at its crux, a skill system is a prompt and an
+[00:05:36.469] crux, a skill system is a prompt and an
+[00:05:36.479] crux, a skill system is a prompt and an instruction set wired around multiple
+[00:05:39.270] instruction set wired around multiple
+[00:05:39.280] instruction set wired around multiple skills. So the prompt kicks off and the
+[00:05:41.590] skills. So the prompt kicks off and the
+[00:05:41.600] skills. So the prompt kicks off and the instruction set is the brain that runs
+[00:05:44.150] instruction set is the brain that runs
+[00:05:44.160] instruction set is the brain that runs the chain or the sequence of multiple
+[00:05:46.390] the chain or the sequence of multiple
+[00:05:46.400] the chain or the sequence of multiple skills. So that instruction set has to
+[00:05:48.550] skills. So that instruction set has to
+[00:05:48.560] skills. So that instruction set has to understand five things fundamentally.
+[00:05:50.550] understand five things fundamentally.
+[00:05:50.560] understand five things fundamentally. One is the skill architecture. Which
+[00:05:52.469] One is the skill architecture. Which
+[00:05:52.479] One is the skill architecture. Which skills are involved and in what order?
+[00:05:54.469] skills are involved and in what order?
+[00:05:54.479] skills are involved and in what order? Two, the inputs needed for each skill.
+[00:05:57.270] Two, the inputs needed for each skill.
+[00:05:57.280] Two, the inputs needed for each skill. What does each step need to do its job
+[00:05:58.790] What does each step need to do its job
+[00:05:58.800] What does each step need to do its job properly basically? Three, how outputs
+[00:06:01.110] properly basically? Three, how outputs
+[00:06:01.120] properly basically? Three, how outputs hand off between the skills. So the
+[00:06:03.029] hand off between the skills. So the
+[00:06:03.039] hand off between the skills. So the output of skill one has to become the
+[00:06:04.790] output of skill one has to become the
+[00:06:04.800] output of skill one has to become the clean input for skill two. Four, the
+[00:06:06.870] clean input for skill two. Four, the
+[00:06:06.880] clean input for skill two. Four, the human in the loop checkpoints. So, where
+[00:06:08.629] human in the loop checkpoints. So, where
+[00:06:08.639] human in the loop checkpoints. So, where do you step in to approve or adjust the
+[00:06:11.029] do you step in to approve or adjust the
+[00:06:11.039] do you step in to approve or adjust the system before it carries on? And this
+[00:06:12.469] system before it carries on? And this
+[00:06:12.479] system before it carries on? And this varies from user to user. And five, how
+[00:06:14.790] varies from user to user. And five, how
+[00:06:14.800] varies from user to user. And five, how visual results are actually going to get
+[00:06:16.309] visual results are actually going to get
+[00:06:16.319] visual results are actually going to get displayed back to the user. So, you can
+[00:06:17.909] displayed back to the user. So, you can
+[00:06:17.919] displayed back to the user. So, you can actually see what's happening as it
+[00:06:19.110] actually see what's happening as it
+[00:06:19.120] actually see what's happening as it runs. Is it going to load up markdown
+[00:06:20.710] runs. Is it going to load up markdown
+[00:06:20.720] runs. Is it going to load up markdown files and give them a link to that? Is
+[00:06:22.230] files and give them a link to that? Is
+[00:06:22.240] files and give them a link to that? Is it going to be a HTML dashboard, PNGs?
+[00:06:24.950] it going to be a HTML dashboard, PNGs?
+[00:06:24.960] it going to be a HTML dashboard, PNGs? It totally depends on what the skill is
+[00:06:26.870] It totally depends on what the skill is
+[00:06:26.880] It totally depends on what the skill is actually creating. And then the wiring
+[00:06:28.309] actually creating. And then the wiring
+[00:06:28.319] actually creating. And then the wiring between them and the ability to work
+[00:06:30.309] between them and the ability to work
+[00:06:30.319] between them and the ability to work until completion with this loop here is
+[00:06:33.270] until completion with this loop here is
+[00:06:33.280] until completion with this loop here is what makes it actually work end to end
+[00:06:35.590] what makes it actually work end to end
+[00:06:35.600] what makes it actually work end to end without you sitting there copying
+[00:06:37.430] without you sitting there copying
+[00:06:37.440] without you sitting there copying outputs and pasting them into the next
+[00:06:39.189] outputs and pasting them into the next
+[00:06:39.199] outputs and pasting them into the next prompt. And this is exactly the pattern
+[00:06:40.790] prompt. And this is exactly the pattern
+[00:06:40.800] prompt. And this is exactly the pattern that Anthropic talks about in their own
+[00:06:42.390] that Anthropic talks about in their own
+[00:06:42.400] that Anthropic talks about in their own skills guide. They call it sequential
+[00:06:44.309] skills guide. They call it sequential
+[00:06:44.319] skills guide. They call it sequential workflow orchestration which is explicit
+[00:06:47.029] workflow orchestration which is explicit
+[00:06:47.039] workflow orchestration which is explicit step ordering, clear dependencies
+[00:06:49.110] step ordering, clear dependencies
+[00:06:49.120] step ordering, clear dependencies between steps and validation at each
+[00:06:51.909] between steps and validation at each
+[00:06:51.919] between steps and validation at each stage. So skills are effectively your
+[00:06:53.670] stage. So skills are effectively your
+[00:06:53.680] stage. So skills are effectively your components and skill systems are the
+[00:06:55.670] components and skill systems are the
+[00:06:55.680] components and skill systems are the automations that you build with them.
+[00:06:57.670] automations that you build with them.
+[00:06:57.680] automations that you build with them. It's a wrapper around skills. So let me
+[00:06:59.909] It's a wrapper around skills. So let me
+[00:06:59.919] It's a wrapper around skills. So let me show you what one looks like in
+[00:07:01.350] show you what one looks like in
+[00:07:01.360] show you what one looks like in practice. So here's a skill system that
+[00:07:03.270] practice. So here's a skill system that
+[00:07:03.280] practice. So here's a skill system that we've just built on top of to run every
+[00:07:05.510] we've just built on top of to run every
+[00:07:05.520] we've just built on top of to run every single week. And it basically takes one
+[00:07:07.189] single week. And it basically takes one
+[00:07:07.199] single week. And it basically takes one long form YouTube video and produces
+[00:07:09.350] long form YouTube video and produces
+[00:07:09.360] long form YouTube video and produces five short form clips at the end of it.
+[00:07:11.350] five short form clips at the end of it.
+[00:07:11.360] five short form clips at the end of it. So they're all faceted, refframed to
+[00:07:13.749] So they're all faceted, refframed to
+[00:07:13.759] So they're all faceted, refframed to portrait mode instead of landscape,
+[00:07:15.510] portrait mode instead of landscape,
+[00:07:15.520] portrait mode instead of landscape, captioned, illustrated, and ready to
+[00:07:17.589] captioned, illustrated, and ready to
+[00:07:17.599] captioned, illustrated, and ready to post on YouTube shorts, LinkedIn X. And
+[00:07:20.390] post on YouTube shorts, LinkedIn X. And
+[00:07:20.400] post on YouTube shorts, LinkedIn X. And I just want to say a massive shout out
+[00:07:21.670] I just want to say a massive shout out
+[00:07:21.680] I just want to say a massive shout out to Enrique here who built V1 of this and
+[00:07:24.469] to Enrique here who built V1 of this and
+[00:07:24.479] to Enrique here who built V1 of this and we've taken this concept and built on
+[00:07:26.390] we've taken this concept and built on
+[00:07:26.400] we've taken this concept and built on top of that. And as you'll see, it's a
+[00:07:28.070] top of that. And as you'll see, it's a
+[00:07:28.080] top of that. And as you'll see, it's a brilliant flow that can just run on
+[00:07:29.589] brilliant flow that can just run on
+[00:07:29.599] brilliant flow that can just run on autopilot in the background. Get one of
+[00:07:31.670] autopilot in the background. Get one of
+[00:07:31.680] autopilot in the background. Get one of your tasks done every single week
+[00:07:33.350] your tasks done every single week
+[00:07:33.360] your tasks done every single week without touching it. Now, if you want to
+[00:07:34.710] without touching it. Now, if you want to
+[00:07:34.720] without touching it. Now, if you want to grab this exact system, it's available
+[00:07:36.469] grab this exact system, it's available
+[00:07:36.479] grab this exact system, it's available in the Agentic Academy in the community
+[00:07:38.309] in the Agentic Academy in the community
+[00:07:38.319] in the Agentic Academy in the community below. And we'll be releasing more
+[00:07:39.909] below. And we'll be releasing more
+[00:07:39.919] below. And we'll be releasing more systems like this in May, which we'll
+[00:07:42.230] systems like this in May, which we'll
+[00:07:42.240] systems like this in May, which we'll talk about later. So, let me walk you
+[00:07:43.749] talk about later. So, let me walk you
+[00:07:43.759] talk about later. So, let me walk you through the chain. The orchestrator
+[00:07:45.589] through the chain. The orchestrator
+[00:07:45.599] through the chain. The orchestrator skill contains the prompt connecting
+[00:07:47.749] skill contains the prompt connecting
+[00:07:47.759] skill contains the prompt connecting them. So, this is dead simple. It's
+[00:07:49.510] them. So, this is dead simple. It's
+[00:07:49.520] them. So, this is dead simple. It's basically take this video from a URL and
+[00:07:52.629] basically take this video from a URL and
+[00:07:52.639] basically take this video from a URL and produce five short form clips ready to
+[00:07:54.710] produce five short form clips ready to
+[00:07:54.720] produce five short form clips ready to post. So the instruction set is then
+[00:07:57.110] post. So the instruction set is then
+[00:07:57.120] post. So the instruction set is then basically a skill.md file that
+[00:07:59.110] basically a skill.md file that
+[00:07:59.120] basically a skill.md file that orchestrates the full chain and make
+[00:08:01.189] orchestrates the full chain and make
+[00:08:01.199] orchestrates the full chain and make sure the outputs go from one step to the
+[00:08:03.589] sure the outputs go from one step to the
+[00:08:03.599] sure the outputs go from one step to the next. So in terms of the skills that
+[00:08:05.270] next. So in terms of the skills that
+[00:08:05.280] next. So in terms of the skills that make this up, we've got transcript
+[00:08:06.629] make this up, we've got transcript
+[00:08:06.639] make this up, we've got transcript extraction. So the input is the video
+[00:08:08.469] extraction. So the input is the video
+[00:08:08.479] extraction. So the input is the video URL and the output is a word level
+[00:08:11.029] URL and the output is a word level
+[00:08:11.039] URL and the output is a word level timestamped transcript. And that
+[00:08:12.629] timestamped transcript. And that
+[00:08:12.639] timestamped transcript. And that precision really matters because later
+[00:08:14.309] precision really matters because later
+[00:08:14.319] precision really matters because later we sync pop out illustrations to that
+[00:08:16.710] we sync pop out illustrations to that
+[00:08:16.720] we sync pop out illustrations to that exact frame when somebody says a
+[00:08:18.390] exact frame when somebody says a
+[00:08:18.400] exact frame when somebody says a keyword. For the second skill, we've got
+[00:08:20.150] keyword. For the second skill, we've got
+[00:08:20.160] keyword. For the second skill, we've got clip selection or basically working out
+[00:08:21.990] clip selection or basically working out
+[00:08:22.000] clip selection or basically working out what hooks we want and generating five
+[00:08:23.990] what hooks we want and generating five
+[00:08:24.000] what hooks we want and generating five clip worthy moments each scored across
+[00:08:26.230] clip worthy moments each scored across
+[00:08:26.240] clip worthy moments each scored across five different categories to work out
+[00:08:28.070] five different categories to work out
+[00:08:28.080] five different categories to work out how good that clip is to actually share.
+[00:08:29.990] how good that clip is to actually share.
+[00:08:30.000] how good that clip is to actually share. Then we've got the reframe or clip
+[00:08:31.990] Then we've got the reframe or clip
+[00:08:32.000] Then we've got the reframe or clip extraction. So this is where it gets a
+[00:08:33.909] extraction. So this is where it gets a
+[00:08:33.919] extraction. So this is where it gets a bit technical, but the input is
+[00:08:35.670] bit technical, but the input is
+[00:08:35.680] bit technical, but the input is effectively then those approved clips
+[00:08:37.269] effectively then those approved clips
+[00:08:37.279] effectively then those approved clips from the source video. It runs face
+[00:08:39.110] from the source video. It runs face
+[00:08:39.120] from the source video. It runs face detection on every sampled frame because
+[00:08:41.829] detection on every sampled frame because
+[00:08:41.839] detection on every sampled frame because we want faces to appear in these short
+[00:08:44.070] we want faces to appear in these short
+[00:08:44.080] we want faces to appear in these short form clips and then it's going to render
+[00:08:45.829] form clips and then it's going to render
+[00:08:45.839] form clips and then it's going to render each clip down to that 9x6 portrait
+[00:08:48.710] each clip down to that 9x6 portrait
+[00:08:48.720] each clip down to that 9x6 portrait mode. It's going to face track the whole
+[00:08:50.630] mode. It's going to face track the whole
+[00:08:50.640] mode. It's going to face track the whole time. So even if the face moves across
+[00:08:52.710] time. So even if the face moves across
+[00:08:52.720] time. So even if the face moves across the screen, it's going to track that
+[00:08:53.990] the screen, it's going to track that
+[00:08:54.000] the screen, it's going to track that face and make sure that that is the
+[00:08:55.829] face and make sure that that is the
+[00:08:55.839] face and make sure that that is the primary focus. That is my favorite thing
+[00:08:57.829] primary focus. That is my favorite thing
+[00:08:57.839] primary focus. That is my favorite thing about what Enrique has built here. Then
+[00:08:59.509] about what Enrique has built here. Then
+[00:08:59.519] about what Enrique has built here. Then we've effectively got an editing stage.
+[00:09:01.190] we've effectively got an editing stage.
+[00:09:01.200] we've effectively got an editing stage. So the input is the refframed clip plus
+[00:09:03.430] So the input is the refframed clip plus
+[00:09:03.440] So the input is the refframed clip plus that transcript. And the output is going
+[00:09:05.190] that transcript. And the output is going
+[00:09:05.200] that transcript. And the output is going to create pop out illustrations timed to
+[00:09:07.350] to create pop out illustrations timed to
+[00:09:07.360] to create pop out illustrations timed to the exact frame when a keyword is spoken
+[00:09:09.670] the exact frame when a keyword is spoken
+[00:09:09.680] the exact frame when a keyword is spoken just to make it a little bit more
+[00:09:10.790] just to make it a little bit more
+[00:09:10.800] just to make it a little bit more dynamic. And it's important to note that
+[00:09:12.550] dynamic. And it's important to note that
+[00:09:12.560] dynamic. And it's important to note that every illustration is created in
+[00:09:14.230] every illustration is created in
+[00:09:14.240] every illustration is created in Remotion. So it's going to be completely
+[00:09:15.910] Remotion. So it's going to be completely
+[00:09:15.920] Remotion. So it's going to be completely unique. There's no repeated visuals
+[00:09:17.910] unique. There's no repeated visuals
+[00:09:17.920] unique. There's no repeated visuals between your videos. And that's
+[00:09:19.269] between your videos. And that's
+[00:09:19.279] between your videos. And that's something that would often take a human
+[00:09:20.710] something that would often take a human
+[00:09:20.720] something that would often take a human editor, you know, 20 30 minutes to
+[00:09:22.949] editor, you know, 20 30 minutes to
+[00:09:22.959] editor, you know, 20 30 minutes to create one single animation. It's able
+[00:09:24.790] create one single animation. It's able
+[00:09:24.800] create one single animation. It's able to generate these in a few minutes by
+[00:09:27.190] to generate these in a few minutes by
+[00:09:27.200] to generate these in a few minutes by itself. And then skill five is when we
+[00:09:29.110] itself. And then skill five is when we
+[00:09:29.120] itself. And then skill five is when we have the complete rendered clip and the
+[00:09:31.430] have the complete rendered clip and the
+[00:09:31.440] have the complete rendered clip and the output is like packaging that up with a
+[00:09:33.829] output is like packaging that up with a
+[00:09:33.839] output is like packaging that up with a thumbnail with description with title
+[00:09:36.070] thumbnail with description with title
+[00:09:36.080] thumbnail with description with title and the file and getting that in a
+[00:09:38.070] and the file and getting that in a
+[00:09:38.080] and the file and getting that in a position where it's ready to actually be
+[00:09:39.670] position where it's ready to actually be
+[00:09:39.680] position where it's ready to actually be scheduled. And we use a publishing tool
+[00:09:41.350] scheduled. And we use a publishing tool
+[00:09:41.360] scheduled. And we use a publishing tool called zioo.com to actually schedule
+[00:09:43.750] called zioo.com to actually schedule
+[00:09:43.760] called zioo.com to actually schedule those posts on the different platforms.
+[00:09:45.509] those posts on the different platforms.
+[00:09:45.519] those posts on the different platforms. So that is a skill system. So it's five
+[00:09:47.829] So that is a skill system. So it's five
+[00:09:47.839] So that is a skill system. So it's five skills but one automation end to end
+[00:09:50.470] skills but one automation end to end
+[00:09:50.480] skills but one automation end to end with one orchestration skill wrapped
+[00:09:52.630] with one orchestration skill wrapped
+[00:09:52.640] with one orchestration skill wrapped around it. And the whole thing is going
+[00:09:54.389] around it. And the whole thing is going
+[00:09:54.399] around it. And the whole thing is going to run from a single prompt. So I kick
+[00:09:56.230] to run from a single prompt. So I kick
+[00:09:56.240] to run from a single prompt. So I kick it off with a video URL and you can even
+[00:09:58.070] it off with a video URL and you can even
+[00:09:58.080] it off with a video URL and you can even extend this to actually just scan a
+[00:09:59.750] extend this to actually just scan a
+[00:09:59.760] extend this to actually just scan a folder or scan your YouTube channel for
+[00:10:01.670] folder or scan your YouTube channel for
+[00:10:01.680] folder or scan your YouTube channel for latest videos and then I basically come
+[00:10:03.269] latest videos and then I basically come
+[00:10:03.279] latest videos and then I basically come back when it pings me when it's done
+[00:10:05.110] back when it pings me when it's done
+[00:10:05.120] back when it pings me when it's done with all the outputs just to check. So
+[00:10:07.110] with all the outputs just to check. So
+[00:10:07.120] with all the outputs just to check. So when you're chaining skills like this,
+[00:10:09.269] when you're chaining skills like this,
+[00:10:09.279] when you're chaining skills like this, context management becomes everything.
+[00:10:11.829] context management becomes everything.
+[00:10:11.839] context management becomes everything. Each skill in the chain gets exactly
+[00:10:13.590] Each skill in the chain gets exactly
+[00:10:13.600] Each skill in the chain gets exactly what it needs to do its job. Nothing
+[00:10:15.350] what it needs to do its job. Nothing
+[00:10:15.360] what it needs to do its job. Nothing more and nothing less. So we spin off
+[00:10:17.990] more and nothing less. So we spin off
+[00:10:18.000] more and nothing less. So we spin off sub aents at relevant parts to keep the
+[00:10:20.310] sub aents at relevant parts to keep the
+[00:10:20.320] sub aents at relevant parts to keep the context window narrow and the quality of
+[00:10:22.230] context window narrow and the quality of
+[00:10:22.240] context window narrow and the quality of each output high before it's passed on
+[00:10:24.310] each output high before it's passed on
+[00:10:24.320] each output high before it's passed on between the skills. So those skills,
+[00:10:26.310] between the skills. So those skills,
+[00:10:26.320] between the skills. So those skills, it's important to know, aren't locked
+[00:10:28.069] it's important to know, aren't locked
+[00:10:28.079] it's important to know, aren't locked into this one skill system. So once
+[00:10:29.910] into this one skill system. So once
+[00:10:29.920] into this one skill system. So once you've built your skills as proper
+[00:10:31.990] you've built your skills as proper
+[00:10:32.000] you've built your skills as proper modular components, they plug into other
+[00:10:34.550] modular components, they plug into other
+[00:10:34.560] modular components, they plug into other skill system, too. So you have a skill
+[00:10:36.310] skill system, too. So you have a skill
+[00:10:36.320] skill system, too. So you have a skill library, a refined library of, let's
+[00:10:38.150] library, a refined library of, let's
+[00:10:38.160] library, a refined library of, let's say, 10 to 30 skills that you build once
+[00:10:40.870] say, 10 to 30 skills that you build once
+[00:10:40.880] say, 10 to 30 skills that you build once and reuse it everywhere. So any changes
+[00:10:43.190] and reuse it everywhere. So any changes
+[00:10:43.200] and reuse it everywhere. So any changes you make to the transcript skill will
+[00:10:45.030] you make to the transcript skill will
+[00:10:45.040] you make to the transcript skill will automatically be ported into any skill
+[00:10:47.509] automatically be ported into any skill
+[00:10:47.519] automatically be ported into any skill system that's using it. So in practice
+[00:10:49.350] system that's using it. So in practice
+[00:10:49.360] system that's using it. So in practice it might look a little bit like this
+[00:10:50.870] it might look a little bit like this
+[00:10:50.880] it might look a little bit like this where you have a transcript skill which
+[00:10:52.870] where you have a transcript skill which
+[00:10:52.880] where you have a transcript skill which obviously takes a video and transcribes
+[00:10:54.550] obviously takes a video and transcribes
+[00:10:54.560] obviously takes a video and transcribes it that feeds into our short form video
+[00:10:56.710] it that feeds into our short form video
+[00:10:56.720] it that feeds into our short form video skill system as we saw before but we use
+[00:10:58.630] skill system as we saw before but we use
+[00:10:58.640] skill system as we saw before but we use the exact same transcript skill for our
+[00:11:00.790] the exact same transcript skill for our
+[00:11:00.800] the exact same transcript skill for our newsletter creation skill system. We're
+[00:11:02.630] newsletter creation skill system. We're
+[00:11:02.640] newsletter creation skill system. We're just using it in entirely different
+[00:11:04.310] just using it in entirely different
+[00:11:04.320] just using it in entirely different ways. So we chain that transcript skill
+[00:11:06.630] ways. So we chain that transcript skill
+[00:11:06.640] ways. So we chain that transcript skill to push into a copywriting skill that
+[00:11:08.949] to push into a copywriting skill that
+[00:11:08.959] to push into a copywriting skill that then generates a newsletter based on a
+[00:11:11.509] then generates a newsletter based on a
+[00:11:11.519] then generates a newsletter based on a video that we've produced too. So not
+[00:11:13.190] video that we've produced too. So not
+[00:11:13.200] video that we've produced too. So not only are we producing short form video,
+[00:11:14.870] only are we producing short form video,
+[00:11:14.880] only are we producing short form video, we're producing newsletters from that
+[00:11:16.470] we're producing newsletters from that
+[00:11:16.480] we're producing newsletters from that same transcript skill. We could also
+[00:11:18.230] same transcript skill. We could also
+[00:11:18.240] same transcript skill. We could also then turn that into a blog post and have
+[00:11:19.910] then turn that into a blog post and have
+[00:11:19.920] then turn that into a blog post and have that in the SEO content production skill
+[00:11:22.550] that in the SEO content production skill
+[00:11:22.560] that in the SEO content production skill too. So systems you build get faster
+[00:11:25.269] too. So systems you build get faster
+[00:11:25.279] too. So systems you build get faster because you're already most of the way
+[00:11:26.630] because you're already most of the way
+[00:11:26.640] because you're already most of the way there. You've got a refined set of
+[00:11:28.470] there. You've got a refined set of
+[00:11:28.480] there. You've got a refined set of skills which feed into multiple skill
+[00:11:30.870] skills which feed into multiple skill
+[00:11:30.880] skills which feed into multiple skill systems. So by the time you've got 10
+[00:11:32.790] systems. So by the time you've got 10
+[00:11:32.800] systems. So by the time you've got 10 skill systems running, you might only
+[00:11:34.630] skill systems running, you might only
+[00:11:34.640] skill systems running, you might only need actually 20 or 30 unique skills
+[00:11:37.110] need actually 20 or 30 unique skills
+[00:11:37.120] need actually 20 or 30 unique skills powering all of them. And it's the exact
+[00:11:38.870] powering all of them. And it's the exact
+[00:11:38.880] powering all of them. And it's the exact conversation we've been having inside
+[00:11:40.069] conversation we've been having inside
+[00:11:40.079] conversation we've been having inside the Aentic Academy where we've recently
+[00:11:41.829] the Aentic Academy where we've recently
+[00:11:41.839] the Aentic Academy where we've recently had a vote on what skill systems to
+[00:11:43.750] had a vote on what skill systems to
+[00:11:43.760] had a vote on what skill systems to build out next. So you can see that
+[00:11:45.190] build out next. So you can see that
+[00:11:45.200] build out next. So you can see that we're going to start working on ad
+[00:11:46.470] we're going to start working on ad
+[00:11:46.480] we're going to start working on ad generation and outlier detection, SEO
+[00:11:48.949] generation and outlier detection, SEO
+[00:11:48.959] generation and outlier detection, SEO and GEO content production like blog
+[00:11:51.269] and GEO content production like blog
+[00:11:51.279] and GEO content production like blog generation and page optimization, social
+[00:11:53.350] generation and page optimization, social
+[00:11:53.360] generation and page optimization, social media carousels and long- form content
+[00:11:56.069] media carousels and long- form content
+[00:11:56.079] media carousels and long- form content generating those carousels and a whole
+[00:11:57.750] generating those carousels and a whole
+[00:11:57.760] generating those carousels and a whole bunch of other stuff that we're starting
+[00:11:59.509] bunch of other stuff that we're starting
+[00:11:59.519] bunch of other stuff that we're starting to actually deploy in systems that are
+[00:12:01.509] to actually deploy in systems that are
+[00:12:01.519] to actually deploy in systems that are just plugandplay one-click in stores for
+[00:12:03.750] just plugandplay one-click in stores for
+[00:12:03.760] just plugandplay one-click in stores for everyone inside the academy. And the
+[00:12:05.350] everyone inside the academy. And the
+[00:12:05.360] everyone inside the academy. And the point is to get highquality outputs, not
+[00:12:07.910] point is to get highquality outputs, not
+[00:12:07.920] point is to get highquality outputs, not AI slot. There's no point in doing this
+[00:12:09.990] AI slot. There's no point in doing this
+[00:12:10.000] AI slot. There's no point in doing this if you're going to generate rubbish
+[00:12:11.269] if you're going to generate rubbish
+[00:12:11.279] if you're going to generate rubbish outputs. So, actually just focused on
+[00:12:13.110] outputs. So, actually just focused on
+[00:12:13.120] outputs. So, actually just focused on producing those high-quality outputs
+[00:12:15.030] producing those high-quality outputs
+[00:12:15.040] producing those high-quality outputs that save you a ton of time on all your
+[00:12:17.350] that save you a ton of time on all your
+[00:12:17.360] that save you a ton of time on all your admin tasks. So, these are the systems
+[00:12:18.949] admin tasks. So, these are the systems
+[00:12:18.959] admin tasks. So, these are the systems then we're going to be shipping over the
+[00:12:20.069] then we're going to be shipping over the
+[00:12:20.079] then we're going to be shipping over the next few weeks. If you want access to
+[00:12:21.590] next few weeks. If you want access to
+[00:12:21.600] next few weeks. If you want access to those, then check out the link in the
+[00:12:23.350] those, then check out the link in the
+[00:12:23.360] those, then check out the link in the description below. Skills aren't single
+[00:12:25.269] description below. Skills aren't single
+[00:12:25.279] description below. Skills aren't single isolated endpoints, and they're not
+[00:12:27.030] isolated endpoints, and they're not
+[00:12:27.040] isolated endpoints, and they're not meant to be megapiles that do everything
+[00:12:29.509] meant to be megapiles that do everything
+[00:12:29.519] meant to be megapiles that do everything either. They're modular components
+[00:12:31.190] either. They're modular components
+[00:12:31.200] either. They're modular components designed to plug into skill systems. So
+[00:12:34.069] designed to plug into skill systems. So
+[00:12:34.079] designed to plug into skill systems. So build them small, build them really
+[00:12:35.750] build them small, build them really
+[00:12:35.760] build them small, build them really focused and build them around real
+[00:12:37.670] focused and build them around real
+[00:12:37.680] focused and build them around real workflows. And when you start thinking
+[00:12:39.269] workflows. And when you start thinking
+[00:12:39.279] workflows. And when you start thinking about it like that, you start to design
+[00:12:41.190] about it like that, you start to design
+[00:12:41.200] about it like that, you start to design every single skill for reuse from day
+[00:12:43.910] every single skill for reuse from day
+[00:12:43.920] every single skill for reuse from day one. So next video I'm going to walk you
+[00:12:46.069] one. So next video I'm going to walk you
+[00:12:46.079] one. So next video I'm going to walk you through the full Aentic OS setup to show
+[00:12:48.710] through the full Aentic OS setup to show
+[00:12:48.720] through the full Aentic OS setup to show you how we inject the right context into
+[00:12:51.190] you how we inject the right context into
+[00:12:51.200] you how we inject the right context into these skill systems without high effort.
+[00:12:54.150] these skill systems without high effort.
+[00:12:54.160] these skill systems without high effort. Thanks for watching. See you in the next
+[00:12:55.590] Thanks for watching. See you in the next
+[00:12:55.600] Thanks for watching. See you in the next one.

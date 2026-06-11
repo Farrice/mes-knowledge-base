@@ -1,0 +1,43 @@
+{
+  "trace_id": "20260510_153253",
+  "timestamp": "2026-05-10T15:32:53.809810",
+  "schema_version": "v3",
+  "component": "liam-ottley-linkedin-lead-magnet",
+  "operation": "chain_finalize",
+  "expert": "source-to-skill-system",
+  "workflow": "liam-linkedin-lead-magnet",
+  "quality": {
+    "composite": 8.3,
+    "intent_alignment": 9.0,
+    "expert_standard": 8.0,
+    "adversarial_resilience": 8.0,
+    "factual_grounding": 0.0
+  },
+  "reasoning": {
+    "hypothesis": "",
+    "variant_diff": "",
+    "reasoning_chain": [],
+    "failure_signals": []
+  },
+  "evaluation": {
+    "benchmark_tasks": [],
+    "held_out_score": 0.0,
+    "held_out_delta": 0.0,
+    "gaming_flag": false
+  },
+  "token_estimate": 0,
+  "notes": "Built source-grounded video-context package, companion skill, workflow bridge, command skill, compatibility command, routing bonus, registry sync, router proof, harness checks, and cold-start surface. OCR unavailable; visual claims remain limited to sampled frames unless reviewed.",
+  "context": {
+    "output": "Liam LinkedIn AI lead magnet skill system deployed",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 0,
+      "delta": 0,
+      "message": "Insufficient data (0 entries). Need 3+ for regression detection."
+    },
+    "telemetry": null
+  },
+  "is_failure": false
+}

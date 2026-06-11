@@ -1,0 +1,14 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "status": "approved-and-applied",
+  "globalWritesPerformed": true,
+  "targetSurfaces": [
+    "/Users/farricecain/.codex/AGENTS.md",
+    "/Users/farricecain/.codex/skills/autopilot/SKILL.md",
+    "/Users/farricecain/.codex/skills/source-command-autopilot/SKILL.md",
+    "/Users/farricecain/.codex/skills/system-audit/SKILL.md",
+    "/Users/farricecain/.codex/skills/source-command-system-audit/SKILL.md"
+  ]
+}

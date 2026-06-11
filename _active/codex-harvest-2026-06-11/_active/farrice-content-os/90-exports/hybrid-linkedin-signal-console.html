@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hybrid LinkedIn Signal Console</title>
+  <style>
+    :root {
+      --ink: #17201b;
+      --muted: #5a645e;
+      --line: #d8ddd8;
+      --paper: #fbfaf6;
+      --panel: #ffffff;
+      --sage: #dfe8df;
+      --clay: #b85f43;
+      --gold: #c4963e;
+      --blue: #3f6478;
+      --green: #38664d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.5;
+    }
+    header {
+      padding: 48px 20px 28px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #ffffff 0%, var(--paper) 100%);
+    }
+    .wrap { max-width: 1120px; margin: 0 auto; }
+    .eyebrow {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--green);
+      font-weight: 800;
+    }
+    h1 {
+      margin: 8px 0 10px;
+      font-size: clamp(34px, 5vw, 60px);
+      line-height: 1.02;
+      max-width: 900px;
+      letter-spacing: 0;
+    }
+    .lede {
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 16px;
+      padding: 24px 20px 52px;
+    }
+    section { max-width: 1120px; margin: 0 auto; }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 1px 0 rgba(23, 32, 27, .04);
+    }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-8 { grid-column: span 8; }
+    .span-12 { grid-column: span 12; }
+    h2 { margin: 0 0 12px; font-size: 24px; line-height: 1.15; }
+    h3 { margin: 0 0 8px; font-size: 17px; }
+    p { margin: 0 0 12px; }
+    ul, ol { margin: 0; padding-left: 20px; }
+    li { margin: 6px 0; }
+    .tag {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--sage);
+      color: var(--green);
+      font-weight: 700;
+      font-size: 12px;
+      margin: 0 6px 6px 0;
+    }
+    .path {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+    }
+    .step {
+      background: #f6f4ed;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      min-height: 116px;
+    }
+    .step b { display: block; color: var(--blue); margin-bottom: 6px; }
+    .metric {
+      border-left: 4px solid var(--clay);
+      padding-left: 12px;
+      margin-top: 8px;
+    }
+    .callout {
+      background: #f1eadb;
+      border: 1px solid #dfc99c;
+      border-radius: 8px;
+      padding: 16px;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 13px;
+    }
+    pre {
+      white-space: pre-wrap;
+      background: #f6f4ed;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 10px 0 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      padding: 10px 8px;
+      vertical-align: top;
+    }
+    th { color: var(--green); }
+    .footer {
+      padding: 0 20px 40px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    a { color: var(--blue); }
+    @media (max-width: 900px) {
+      .span-4, .span-6, .span-8, .span-12 { grid-column: span 12; }
+      .path { grid-template-columns: 1fr; }
+      header { padding-top: 34px; }
+      .lede { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Hybrid Sequence / Signal Engine</div>
+      <h1>Creative strategy as the wedge. Agent-ready operating systems as the moat.</h1>
+      <p class="lede">This console turns the AI Operating Partner positioning into a practical LinkedIn validation engine: collect messy workflows, run mini diagnoses, track buyer signal, and feed content with current research instead of guessing.</p>
+    </div>
+  </header>
+
+  <section class="grid">
+    <div class="card span-12">
+      <h2>Core Funnel</h2>
+      <div class="path">
+        <div class="step"><b>1. Post</b>Make the pain visible: AI looks finished but still needs rescue.</div>
+        <div class="step"><b>2. Profile</b>Visitor sees Creative Strategist + AI Operating Partner.</div>
+        <div class="step"><b>3. Featured</b>The AI Misfire Map gives them something concrete to click.</div>
+        <div class="step"><b>4. Submit</b>They send a prompt, SOP, workflow, or failed AI output.</div>
+        <div class="step"><b>5. Diagnose</b>You return three bullets: guess, missing meaning, first fix.</div>
+        <div class="step"><b>6. Sell</b>Paid AI Misfire Audit or Agent-Ready Workflow Sprint.</div>
+      </div>
+    </div>
+
+    <div class="card span-4">
+      <h2>Use Now</h2>
+      <p><span class="tag">Featured Slot 1</span></p>
+      <h3>The AI Misfire Map</h3>
+      <p>Send one failed AI output, SOP, prompt, workflow, or content system. I will show where your AI is being forced to guess.</p>
+      <pre>DM me "GUESS" on LinkedIn with one example.</pre>
+    </div>
+
+    <div class="card span-4">
+      <h2>Daily Habit</h2>
+      <p><span class="tag">45 minutes</span></p>
+      <ul>
+        <li>5 min: research pulse</li>
+        <li>15 min: strategic comments</li>
+        <li>10 min: warm DMs</li>
+        <li>10 min: draft one signal asset</li>
+        <li>5 min: log signal</li>
+      </ul>
+    </div>
+
+    <div class="card span-4">
+      <h2>Research Radar</h2>
+      <p><span class="tag">automation candidate</span></p>
+      <p>Daily research should return timely topics, ICP relevance, obvious takes to avoid, Farrice's sharper angle, one post hook, one comment angle, and one CTA.</p>
+    </div>
+
+    <div class="card span-6">
+      <h2>Automation Boundary</h2>
+      <table>
+        <thead><tr><th>Automate</th><th>Keep Human</th></tr></thead>
+        <tbody>
+          <tr><td>Public web research</td><td>Relationship judgment</td></tr>
+          <tr><td>Trend scanning</td><td>LinkedIn comments</td></tr>
+          <tr><td>Draft briefs</td><td>DM sending</td></tr>
+          <tr><td>Prospect category discovery</td><td>Offer diagnosis</td></tr>
+          <tr><td>Tracker prep</td><td>Final outreach language</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card span-6">
+      <h2>Compliance Guardrail</h2>
+      <div class="callout">
+        <p><strong>Correct line:</strong> automate research and preparation, not LinkedIn scraping or fake activity.</p>
+        <p>LinkedIn prohibits unauthorized tools that scrape data or automate actions like messages, comments, likes, shares, or inauthentic engagement. The safe system is a research assistant, not a spam engine.</p>
+      </div>
+    </div>
+
+    <div class="card span-8">
+      <h2>Research Lanes</h2>
+      <ul>
+        <li>AI agents and workflow redesign</li>
+        <li>AI trust, governance, and failure modes</li>
+        <li>Founder-led service businesses</li>
+        <li>Marketing systems and customer language</li>
+        <li>LinkedIn thought leadership and hidden buyers</li>
+        <li>Consultant and agency delivery quality</li>
+        <li>Semantic work primitives and context engineering</li>
+      </ul>
+    </div>
+
+    <div class="card span-4">
+      <h2>14-Day Win</h2>
+      <div class="metric"><strong>3+</strong> people repeat the pain language</div>
+      <div class="metric"><strong>2+</strong> people send an asset</div>
+      <div class="metric"><strong>1+</strong> diagnostic conversation</div>
+      <div class="metric"><strong>1</strong> paid audit or clear next step</div>
+    </div>
+
+    <div class="card span-12">
+      <h2>First Seven Days</h2>
+      <table>
+        <thead><tr><th>Day</th><th>Move</th><th>Signal Expected</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>Add AI Misfire Map to Featured. Publish "Your AI is not bad. It is blind."</td><td>Comments, profile visits, DMs.</td></tr>
+          <tr><td>2</td><td>Comment on 8 ICP posts. DM warm engagers only.</td><td>Replies and pain language.</td></tr>
+          <tr><td>3</td><td>Publish proof-demo post.</td><td>"GUESS" comments or requests for before/after.</td></tr>
+          <tr><td>4</td><td>Run one mini diagnosis or public teardown.</td><td>Proof snippet.</td></tr>
+          <tr><td>5</td><td>Publish founder-judgment post.</td><td>Workflow submissions.</td></tr>
+          <tr><td>6</td><td>Package one mini diagnosis.</td><td>Usable proof asset.</td></tr>
+          <tr><td>7</td><td>Review tracker and adjust CTA.</td><td>Decision: keep, sharpen, or pivot.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div class="wrap">
+      Companion files: <code>hybrid-linkedin-signal-engine.md</code>, <code>ai-misfire-audit-intake-asset.md</code>, <code>ai-misfire-signal-tracker.csv</code>.
+    </div>
+  </div>
+</body>
+</html>
+

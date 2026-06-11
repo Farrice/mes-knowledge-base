@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Extraction Vision Document for Tim Runia's Idea-to-Story Transformation methodology. Contains leverage analysis (uniqueness audit, business leverage map, cross-expert stacking, gap fill), creative direction decisions, and the proposed skill architecture with 10 workflows across 3 tiers. This is Checkpoint 1 of the /extract-forge pipeline — awaiting user approval before proceeding to deep extraction and full build.",
+  "updatedAt": "2026-04-16T15:45:08.625874Z",
+  "requestFeedback": true
+}

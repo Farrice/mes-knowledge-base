@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan to integrate Kimi 2.6's MoE Agent Swarm orchestration concepts into the Antigravity system, featuring parallel subagent task graphing, proactive failure detection, and Claw Groups external agent integration.",
+  "updatedAt": "2026-04-22T08:26:08.065175Z",
+  "requestFeedback": true
+}

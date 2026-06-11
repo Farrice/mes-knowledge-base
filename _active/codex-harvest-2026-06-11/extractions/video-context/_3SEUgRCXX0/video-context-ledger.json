@@ -1,0 +1,4664 @@
+[
+  {
+    "timestamp": "00:00",
+    "seconds": 0,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000000.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:00:00.080",
+    "seconds": 0.08,
+    "type": "observed_spoken",
+    "evidence": "What's up my friends? So, in this video",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:01.360",
+    "seconds": 1.36,
+    "type": "observed_spoken",
+    "evidence": "What's up my friends? So, in this video I'm going to be breaking down exactly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:03.030",
+    "seconds": 3.03,
+    "type": "observed_spoken",
+    "evidence": "I'm going to be breaking down exactly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:03.040",
+    "seconds": 3.04,
+    "type": "observed_spoken",
+    "evidence": "I'm going to be breaking down exactly how to take published articles from your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:05.749",
+    "seconds": 5.749,
+    "type": "observed_spoken",
+    "evidence": "how to take published articles from your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:05.759",
+    "seconds": 5.759,
+    "type": "observed_spoken",
+    "evidence": "how to take published articles from your blog page and your website and turn them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:07.670",
+    "seconds": 7.67,
+    "type": "observed_spoken",
+    "evidence": "blog page and your website and turn them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:07.680",
+    "seconds": 7.68,
+    "type": "observed_spoken",
+    "evidence": "blog page and your website and turn them into viral social media posts. For me,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.750",
+    "seconds": 9.75,
+    "type": "observed_spoken",
+    "evidence": "into viral social media posts. For me,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.760",
+    "seconds": 9.76,
+    "type": "observed_spoken",
+    "evidence": "into viral social media posts. For me, this is a huge unlock. We haven't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:11.749",
+    "seconds": 11.749,
+    "type": "observed_spoken",
+    "evidence": "this is a huge unlock. We haven't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:11.759",
+    "seconds": 11.759,
+    "type": "observed_spoken",
+    "evidence": "this is a huge unlock. We haven't actually been able to do this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:13.270",
+    "seconds": 13.27,
+    "type": "observed_spoken",
+    "evidence": "actually been able to do this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:13.280",
+    "seconds": 13.28,
+    "type": "observed_spoken",
+    "evidence": "actually been able to do this effectively until GBT Image 2 was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:15.749",
+    "seconds": 15.749,
+    "type": "observed_spoken",
+    "evidence": "effectively until GBT Image 2 was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:15.759",
+    "seconds": 15.759,
+    "type": "observed_spoken",
+    "evidence": "effectively until GBT Image 2 was released a few weeks ago. Now, with this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.830",
+    "seconds": 17.83,
+    "type": "observed_spoken",
+    "evidence": "released a few weeks ago. Now, with this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.840",
+    "seconds": 17.84,
+    "type": "observed_spoken",
+    "evidence": "released a few weeks ago. Now, with this capability, we can design beautiful",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:19.990",
+    "seconds": 19.99,
+    "type": "observed_spoken",
+    "evidence": "capability, we can design beautiful",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:20.000",
+    "seconds": 20.0,
+    "type": "observed_spoken",
+    "evidence": "capability, we can design beautiful carousels at the drop of the hat using",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:23.029",
+    "seconds": 23.029,
+    "type": "observed_spoken",
+    "evidence": "carousels at the drop of the hat using",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:23.039",
+    "seconds": 23.039,
+    "type": "observed_spoken",
+    "evidence": "carousels at the drop of the hat using the content that is being published on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:25.109",
+    "seconds": 25.109,
+    "type": "observed_spoken",
+    "evidence": "the content that is being published on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:25.119",
+    "seconds": 25.119,
+    "type": "observed_spoken",
+    "evidence": "the content that is being published on our website every single day. So first",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.589",
+    "seconds": 27.589,
+    "type": "observed_spoken",
+    "evidence": "our website every single day. So first",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.599",
+    "seconds": 27.599,
+    "type": "observed_spoken",
+    "evidence": "our website every single day. So first things first, this is my digital home",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:30.230",
+    "seconds": 30.23,
+    "type": "observed_spoken",
+    "evidence": "things first, this is my digital home",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:30.240",
+    "seconds": 30.24,
+    "type": "observed_spoken",
+    "evidence": "things first, this is my digital home backend aka my content management system",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:32.709",
+    "seconds": 32.709,
+    "type": "observed_spoken",
+    "evidence": "backend aka my content management system",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:32.719",
+    "seconds": 32.719,
+    "type": "observed_spoken",
+    "evidence": "backend aka my content management system that I have custom vibe coded and built",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:35.270",
+    "seconds": 35.27,
+    "type": "observed_spoken",
+    "evidence": "that I have custom vibe coded and built",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:35.280",
+    "seconds": 35.28,
+    "type": "observed_spoken",
+    "evidence": "that I have custom vibe coded and built as part of our digital home. So you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:37.830",
+    "seconds": 37.83,
+    "type": "observed_spoken",
+    "evidence": "as part of our digital home. So you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:37.840",
+    "seconds": 37.84,
+    "type": "observed_spoken",
+    "evidence": "as part of our digital home. So you can see here that every single day our agent",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:39.830",
+    "seconds": 39.83,
+    "type": "observed_spoken",
+    "evidence": "see here that every single day our agent",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:39.840",
+    "seconds": 39.84,
+    "type": "observed_spoken",
+    "evidence": "see here that every single day our agent is going in here choosing new content",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.830",
+    "seconds": 41.83,
+    "type": "observed_spoken",
+    "evidence": "is going in here choosing new content",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.840",
+    "seconds": 41.84,
+    "type": "observed_spoken",
+    "evidence": "is going in here choosing new content ideas, writing it automatically and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:44.229",
+    "seconds": 44.229,
+    "type": "observed_spoken",
+    "evidence": "ideas, writing it automatically and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:44.239",
+    "seconds": 44.239,
+    "type": "observed_spoken",
+    "evidence": "ideas, writing it automatically and then publishing it directly to our site. So",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:46.229",
+    "seconds": 46.229,
+    "type": "observed_spoken",
+    "evidence": "publishing it directly to our site. So",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:46.239",
+    "seconds": 46.239,
+    "type": "observed_spoken",
+    "evidence": "publishing it directly to our site. So you can see here how to become a brand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:48.150",
+    "seconds": 48.15,
+    "type": "observed_spoken",
+    "evidence": "you can see here how to become a brand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:48.160",
+    "seconds": 48.16,
+    "type": "observed_spoken",
+    "evidence": "you can see here how to become a brand AI agents recommend. If I click view,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:51.029",
+    "seconds": 51.029,
+    "type": "observed_spoken",
+    "evidence": "AI agents recommend. If I click view,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:51.039",
+    "seconds": 51.039,
+    "type": "observed_spoken",
+    "evidence": "AI agents recommend. If I click view, this goes directly to the front end of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:53.430",
+    "seconds": 53.43,
+    "type": "observed_spoken",
+    "evidence": "this goes directly to the front end of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:53.440",
+    "seconds": 53.44,
+    "type": "observed_spoken",
+    "evidence": "this goes directly to the front end of my website. Okay, so now currently",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:55.830",
+    "seconds": 55.83,
+    "type": "observed_spoken",
+    "evidence": "my website. Okay, so now currently",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:55.840",
+    "seconds": 55.84,
+    "type": "observed_spoken",
+    "evidence": "my website. Okay, so now currently that's working and that's absolutely",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:57.430",
+    "seconds": 57.43,
+    "type": "observed_spoken",
+    "evidence": "that's working and that's absolutely",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:57.440",
+    "seconds": 57.44,
+    "type": "observed_spoken",
+    "evidence": "that's working and that's absolutely fine, but we want to find a way to turn",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.270",
+    "seconds": 59.27,
+    "type": "observed_spoken",
+    "evidence": "fine, but we want to find a way to turn",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.280",
+    "seconds": 59.28,
+    "type": "observed_spoken",
+    "evidence": "fine, but we want to find a way to turn these into engaging viral style carousel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:00",
+    "seconds": 60,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000060.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:01:02.150",
+    "seconds": 62.15,
+    "type": "observed_spoken",
+    "evidence": "these into engaging viral style carousel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:02.160",
+    "seconds": 62.16,
+    "type": "observed_spoken",
+    "evidence": "these into engaging viral style carousel posts that we can publish that look on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.990",
+    "seconds": 63.99,
+    "type": "observed_spoken",
+    "evidence": "posts that we can publish that look on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:04.000",
+    "seconds": 64.0,
+    "type": "observed_spoken",
+    "evidence": "posts that we can publish that look on brand and ultimately do the work of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:05.990",
+    "seconds": 65.99,
+    "type": "observed_spoken",
+    "evidence": "brand and ultimately do the work of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:06.000",
+    "seconds": 66.0,
+    "type": "observed_spoken",
+    "evidence": "brand and ultimately do the work of driving people back to our site so we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:08.550",
+    "seconds": 68.55,
+    "type": "observed_spoken",
+    "evidence": "driving people back to our site so we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:08.560",
+    "seconds": 68.56,
+    "type": "observed_spoken",
+    "evidence": "driving people back to our site so we can increase conversions and get more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:10.390",
+    "seconds": 70.39,
+    "type": "observed_spoken",
+    "evidence": "can increase conversions and get more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:10.400",
+    "seconds": 70.4,
+    "type": "observed_spoken",
+    "evidence": "can increase conversions and get more people hitting this call to action at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.630",
+    "seconds": 72.63,
+    "type": "observed_spoken",
+    "evidence": "people hitting this call to action at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.640",
+    "seconds": 72.64,
+    "type": "observed_spoken",
+    "evidence": "people hitting this call to action at the bottom. Okay, so what I've basically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:15.030",
+    "seconds": 75.03,
+    "type": "observed_spoken",
+    "evidence": "the bottom. Okay, so what I've basically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:15.040",
+    "seconds": 75.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "the bottom. Okay, so what I've basically done is created a new section on my back",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:17.910",
+    "seconds": 77.91,
+    "type": "observed_spoken",
+    "evidence": "done is created a new section on my back",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:17.920",
+    "seconds": 77.92,
+    "type": "observed_spoken",
+    "evidence": "done is created a new section on my back end called socials. All right. And this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:20.630",
+    "seconds": 80.63,
+    "type": "observed_spoken",
+    "evidence": "end called socials. All right. And this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:20.640",
+    "seconds": 80.64,
+    "type": "observed_spoken",
+    "evidence": "end called socials. All right. And this shell over here basically pulls in all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:22.950",
+    "seconds": 82.95,
+    "type": "observed_spoken",
+    "evidence": "shell over here basically pulls in all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:22.960",
+    "seconds": 82.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "shell over here basically pulls in all of our published articles that are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:24.630",
+    "seconds": 84.63,
+    "type": "observed_spoken",
+    "evidence": "of our published articles that are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:24.640",
+    "seconds": 84.64,
+    "type": "observed_spoken",
+    "evidence": "of our published articles that are currently living on our site. And then I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:27.109",
+    "seconds": 87.10900000000001,
+    "type": "observed_spoken",
+    "evidence": "currently living on our site. And then I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:27.119",
+    "seconds": 87.119,
+    "type": "observed_spoken",
+    "evidence": "currently living on our site. And then I can basically go here and choose a post",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:29.030",
+    "seconds": 89.03,
+    "type": "observed_spoken",
+    "evidence": "can basically go here and choose a post",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:29.040",
+    "seconds": 89.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "can basically go here and choose a post that I like. Okay. So, for example, how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:30.950",
+    "seconds": 90.95,
+    "type": "observed_spoken",
+    "evidence": "that I like. Okay. So, for example, how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:30.960",
+    "seconds": 90.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "that I like. Okay. So, for example, how to train AI to write in a voice without",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:33.510",
+    "seconds": 93.50999999999999,
+    "type": "observed_spoken",
+    "evidence": "to train AI to write in a voice without",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:33.520",
+    "seconds": 93.52000000000001,
+    "type": "observed_spoken",
+    "evidence": "to train AI to write in a voice without sounding like everyone else. I just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:35.109",
+    "seconds": 95.10900000000001,
+    "type": "observed_spoken",
+    "evidence": "sounding like everyone else. I just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:35.119",
+    "seconds": 95.119,
+    "type": "observed_spoken",
+    "evidence": "sounding like everyone else. I just click generate. And so, what's happening",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:36.870",
+    "seconds": 96.87,
+    "type": "observed_spoken",
+    "evidence": "click generate. And so, what's happening",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:36.880",
+    "seconds": 96.88,
+    "type": "observed_spoken",
+    "evidence": "click generate. And so, what's happening right now is that this is calling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:38.950",
+    "seconds": 98.95,
+    "type": "observed_spoken",
+    "evidence": "right now is that this is calling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:38.960",
+    "seconds": 98.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "right now is that this is calling Claude's API and it's using a specific",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.550",
+    "seconds": 102.55,
+    "type": "observed_spoken",
+    "evidence": "Claude's API and it's using a specific",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.560",
+    "seconds": 102.56,
+    "type": "observed_spoken",
+    "evidence": "Claude's API and it's using a specific viral carousel, a skill that we created.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:45.670",
+    "seconds": 105.67,
+    "type": "observed_spoken",
+    "evidence": "viral carousel, a skill that we created.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:45.680",
+    "seconds": 105.68,
+    "type": "observed_spoken",
+    "evidence": "viral carousel, a skill that we created. Now, it's reading our entire article,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.830",
+    "seconds": 107.83,
+    "type": "observed_spoken",
+    "evidence": "Now, it's reading our entire article,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.840",
+    "seconds": 107.84,
+    "type": "observed_spoken",
+    "evidence": "Now, it's reading our entire article, and it's going to turn it into a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:49.590",
+    "seconds": 109.59,
+    "type": "observed_spoken",
+    "evidence": "and it's going to turn it into a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:49.600",
+    "seconds": 109.6,
+    "type": "observed_spoken",
+    "evidence": "and it's going to turn it into a carousel that we can then go in and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:51.590",
+    "seconds": 111.59,
+    "type": "observed_spoken",
+    "evidence": "carousel that we can then go in and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:51.600",
+    "seconds": 111.6,
+    "type": "observed_spoken",
+    "evidence": "carousel that we can then go in and design using GBT image 2, which I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:53.910",
+    "seconds": 113.91,
+    "type": "observed_spoken",
+    "evidence": "design using GBT image 2, which I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:53.920",
+    "seconds": 113.92,
+    "type": "observed_spoken",
+    "evidence": "design using GBT image 2, which I'm going to show you in a second. Now, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:55.590",
+    "seconds": 115.59,
+    "type": "observed_spoken",
+    "evidence": "going to show you in a second. Now, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:55.600",
+    "seconds": 115.6,
+    "type": "observed_spoken",
+    "evidence": "going to show you in a second. Now, I specifically didn't want to make this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:57.590",
+    "seconds": 117.59,
+    "type": "observed_spoken",
+    "evidence": "specifically didn't want to make this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:57.600",
+    "seconds": 117.6,
+    "type": "observed_spoken",
+    "evidence": "specifically didn't want to make this fully autonomous. I wanted to make the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:59.670",
+    "seconds": 119.67,
+    "type": "observed_spoken",
+    "evidence": "fully autonomous. I wanted to make the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:59.680",
+    "seconds": 119.68,
+    "type": "observed_spoken",
+    "evidence": "fully autonomous. I wanted to make the writing automated. So, you can see this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:00",
+    "seconds": 120,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000120.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:02:02.069",
+    "seconds": 122.069,
+    "type": "observed_spoken",
+    "evidence": "writing automated. So, you can see this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:02.079",
+    "seconds": 122.079,
+    "type": "observed_spoken",
+    "evidence": "writing automated. So, you can see this has now appeared here in ready for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.830",
+    "seconds": 123.83,
+    "type": "observed_spoken",
+    "evidence": "has now appeared here in ready for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.840",
+    "seconds": 123.84,
+    "type": "observed_spoken",
+    "evidence": "has now appeared here in ready for design. So, I click into that, and you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.590",
+    "seconds": 125.59,
+    "type": "observed_spoken",
+    "evidence": "design. So, I click into that, and you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.600",
+    "seconds": 125.6,
+    "type": "observed_spoken",
+    "evidence": "design. So, I click into that, and you can see now we've got slide one, slide",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:08.150",
+    "seconds": 128.15,
+    "type": "observed_spoken",
+    "evidence": "can see now we've got slide one, slide",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:08.160",
+    "seconds": 128.16,
+    "type": "observed_spoken",
+    "evidence": "can see now we've got slide one, slide two, slide three, slide four, all the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:10.150",
+    "seconds": 130.15,
+    "type": "observed_spoken",
+    "evidence": "two, slide three, slide four, all the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:10.160",
+    "seconds": 130.16,
+    "type": "observed_spoken",
+    "evidence": "two, slide three, slide four, all the way to slide number 10. Okay. So at this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:13.030",
+    "seconds": 133.03,
+    "type": "observed_spoken",
+    "evidence": "way to slide number 10. Okay. So at this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:13.040",
+    "seconds": 133.04,
+    "type": "observed_spoken",
+    "evidence": "way to slide number 10. Okay. So at this point I can now read the different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:14.630",
+    "seconds": 134.63,
+    "type": "observed_spoken",
+    "evidence": "point I can now read the different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:14.640",
+    "seconds": 134.64,
+    "type": "observed_spoken",
+    "evidence": "point I can now read the different carousel slides. So your AI content",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.190",
+    "seconds": 137.19,
+    "type": "observed_spoken",
+    "evidence": "carousel slides. So your AI content",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.200",
+    "seconds": 137.2,
+    "type": "observed_spoken",
+    "evidence": "carousel slides. So your AI content sounds like everyone else. That's not a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:18.869",
+    "seconds": 138.869,
+    "type": "observed_spoken",
+    "evidence": "sounds like everyone else. That's not a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:18.879",
+    "seconds": 138.879,
+    "type": "observed_spoken",
+    "evidence": "sounds like everyone else. That's not a tool problem. That's a U problem. Slide",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:21.510",
+    "seconds": 141.51,
+    "type": "observed_spoken",
+    "evidence": "tool problem. That's a U problem. Slide",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:21.520",
+    "seconds": 141.52,
+    "type": "observed_spoken",
+    "evidence": "tool problem. That's a U problem. Slide two. Every consultant on LinkedIn is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:23.510",
+    "seconds": 143.51,
+    "type": "observed_spoken",
+    "evidence": "two. Every consultant on LinkedIn is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:23.520",
+    "seconds": 143.52,
+    "type": "observed_spoken",
+    "evidence": "two. Every consultant on LinkedIn is using the same AI, the same hooks, same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:25.670",
+    "seconds": 145.67000000000002,
+    "type": "observed_spoken",
+    "evidence": "using the same AI, the same hooks, same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:25.680",
+    "seconds": 145.68,
+    "type": "observed_spoken",
+    "evidence": "using the same AI, the same hooks, same frameworks, same closing line, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:27.670",
+    "seconds": 147.67000000000002,
+    "type": "observed_spoken",
+    "evidence": "frameworks, same closing line, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:27.680",
+    "seconds": 147.68,
+    "type": "observed_spoken",
+    "evidence": "frameworks, same closing line, but playing the old game. Okay, so you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:29.910",
+    "seconds": 149.91,
+    "type": "observed_spoken",
+    "evidence": "playing the old game. Okay, so you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:29.920",
+    "seconds": 149.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "playing the old game. Okay, so you know, this is looking pretty good. I can go in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:31.750",
+    "seconds": 151.75,
+    "type": "observed_spoken",
+    "evidence": "this is looking pretty good. I can go in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:31.760",
+    "seconds": 151.76,
+    "type": "observed_spoken",
+    "evidence": "this is looking pretty good. I can go in and make some edits and tweaks if I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:33.589",
+    "seconds": 153.589,
+    "type": "observed_spoken",
+    "evidence": "and make some edits and tweaks if I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:33.599",
+    "seconds": 153.599,
+    "type": "observed_spoken",
+    "evidence": "and make some edits and tweaks if I want, and I can copy the content if I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.589",
+    "seconds": 155.589,
+    "type": "observed_spoken",
+    "evidence": "want, and I can copy the content if I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.599",
+    "seconds": 155.599,
+    "type": "observed_spoken",
+    "evidence": "want, and I can copy the content if I want to do that. But essentially what I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:37.509",
+    "seconds": 157.50900000000001,
+    "type": "observed_spoken",
+    "evidence": "want to do that. But essentially what I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:37.519",
+    "seconds": 157.519,
+    "type": "observed_spoken",
+    "evidence": "want to do that. But essentially what I need to do now is go over here on the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:39.750",
+    "seconds": 159.75,
+    "type": "observed_spoken",
+    "evidence": "need to do now is go over here on the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:39.760",
+    "seconds": 159.76,
+    "type": "observed_spoken",
+    "evidence": "need to do now is go over here on the right to my uh GPT image prompt and say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:42.309",
+    "seconds": 162.309,
+    "type": "observed_spoken",
+    "evidence": "right to my uh GPT image prompt and say",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:42.319",
+    "seconds": 162.31900000000002,
+    "type": "observed_spoken",
+    "evidence": "right to my uh GPT image prompt and say create a 10 slide Instagram carousel.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:44.949",
+    "seconds": 164.949,
+    "type": "observed_spoken",
+    "evidence": "create a 10 slide Instagram carousel.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:44.959",
+    "seconds": 164.959,
+    "type": "observed_spoken",
+    "evidence": "create a 10 slide Instagram carousel. Use the attached images blah blah blah",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:47.750",
+    "seconds": 167.75,
+    "type": "observed_spoken",
+    "evidence": "Use the attached images blah blah blah",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:47.760",
+    "seconds": 167.76,
+    "type": "observed_spoken",
+    "evidence": "Use the attached images blah blah blah you know as reference. Okay. So I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:49.270",
+    "seconds": 169.27,
+    "type": "observed_spoken",
+    "evidence": "you know as reference. Okay. So I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:49.280",
+    "seconds": 169.28,
+    "type": "observed_spoken",
+    "evidence": "you know as reference. Okay. So I'm going to copy this master prompt for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:50.949",
+    "seconds": 170.949,
+    "type": "observed_spoken",
+    "evidence": "going to copy this master prompt for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:50.959",
+    "seconds": 170.959,
+    "type": "observed_spoken",
+    "evidence": "going to copy this master prompt for GBT. I'm going to go over here into GBT",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:54.309",
+    "seconds": 174.309,
+    "type": "observed_spoken",
+    "evidence": "GBT. I'm going to go over here into GBT",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:54.319",
+    "seconds": 174.31900000000002,
+    "type": "observed_spoken",
+    "evidence": "GBT. I'm going to go over here into GBT and I'm going to paste it. I'm going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:55.990",
+    "seconds": 175.99,
+    "type": "observed_spoken",
+    "evidence": "and I'm going to paste it. I'm going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:56.000",
+    "seconds": 176.0,
+    "type": "observed_spoken",
+    "evidence": "and I'm going to paste it. I'm going to select create images. Okay. So now this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:58.869",
+    "seconds": 178.869,
+    "type": "observed_spoken",
+    "evidence": "select create images. Okay. So now this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:58.879",
+    "seconds": 178.879,
+    "type": "observed_spoken",
+    "evidence": "select create images. Okay. So now this is now ready to generate my carousel.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "03:00",
+    "seconds": 180,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000180.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:03:01.190",
+    "seconds": 181.19,
+    "type": "observed_spoken",
+    "evidence": "is now ready to generate my carousel.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:01.200",
+    "seconds": 181.2,
+    "type": "observed_spoken",
+    "evidence": "is now ready to generate my carousel. Now, what I need to do before I actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:03.270",
+    "seconds": 183.27,
+    "type": "observed_spoken",
+    "evidence": "Now, what I need to do before I actually",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:03.280",
+    "seconds": 183.28,
+    "type": "observed_spoken",
+    "evidence": "Now, what I need to do before I actually go out and do this is find a style of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:06.470",
+    "seconds": 186.47,
+    "type": "observed_spoken",
+    "evidence": "go out and do this is find a style of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:06.480",
+    "seconds": 186.48,
+    "type": "observed_spoken",
+    "evidence": "go out and do this is find a style of carousel that I ultimately like. Okay?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:08.630",
+    "seconds": 188.63,
+    "type": "observed_spoken",
+    "evidence": "carousel that I ultimately like. Okay?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:08.640",
+    "seconds": 188.64,
+    "type": "observed_spoken",
+    "evidence": "carousel that I ultimately like. Okay? So, you will only really have to do this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:10.869",
+    "seconds": 190.869,
+    "type": "observed_spoken",
+    "evidence": "So, you will only really have to do this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:10.879",
+    "seconds": 190.879,
+    "type": "observed_spoken",
+    "evidence": "So, you will only really have to do this once until you find a brand style that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.110",
+    "seconds": 193.11,
+    "type": "observed_spoken",
+    "evidence": "once until you find a brand style that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.120",
+    "seconds": 193.12,
+    "type": "observed_spoken",
+    "evidence": "once until you find a brand style that you really, really enjoy. So, I'm just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:15.110",
+    "seconds": 195.11,
+    "type": "observed_spoken",
+    "evidence": "you really, really enjoy. So, I'm just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:15.120",
+    "seconds": 195.12,
+    "type": "observed_spoken",
+    "evidence": "you really, really enjoy. So, I'm just going to go carousel designs and just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:17.430",
+    "seconds": 197.43,
+    "type": "observed_spoken",
+    "evidence": "going to go carousel designs and just",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:17.440",
+    "seconds": 197.44,
+    "type": "observed_spoken",
+    "evidence": "going to go carousel designs and just look for some inspiration. Okay. So, I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:19.589",
+    "seconds": 199.589,
+    "type": "observed_spoken",
+    "evidence": "look for some inspiration. Okay. So, I'm",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:19.599",
+    "seconds": 199.599,
+    "type": "observed_spoken",
+    "evidence": "look for some inspiration. Okay. So, I'm just going to try and choose a carousel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.589",
+    "seconds": 201.589,
+    "type": "observed_spoken",
+    "evidence": "just going to try and choose a carousel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.599",
+    "seconds": 201.599,
+    "type": "observed_spoken",
+    "evidence": "just going to try and choose a carousel format that matches the amount of copy I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:24.550",
+    "seconds": 204.55,
+    "type": "observed_spoken",
+    "evidence": "format that matches the amount of copy I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:24.560",
+    "seconds": 204.56,
+    "type": "observed_spoken",
+    "evidence": "format that matches the amount of copy I have in the starting slide. So, you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.550",
+    "seconds": 206.55,
+    "type": "observed_spoken",
+    "evidence": "have in the starting slide. So, you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.560",
+    "seconds": 206.56,
+    "type": "observed_spoken",
+    "evidence": "have in the starting slide. So, you can see I've got these. So, I'm going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.070",
+    "seconds": 208.07,
+    "type": "observed_spoken",
+    "evidence": "see I've got these. So, I'm going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.080",
+    "seconds": 208.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "see I've got these. So, I'm going to find something which actually treats a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:29.990",
+    "seconds": 209.99,
+    "type": "observed_spoken",
+    "evidence": "find something which actually treats a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:30.000",
+    "seconds": 210.0,
+    "type": "observed_spoken",
+    "evidence": "find something which actually treats a decent amount of copy.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:33.920",
+    "seconds": 213.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "Okay. So, I kind of like this. It's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:35.519",
+    "seconds": 215.519,
+    "type": "observed_spoken",
+    "evidence": "Okay. So, I kind of like this. It's really simplistic. So, I'm just going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:37.190",
+    "seconds": 217.19,
+    "type": "observed_spoken",
+    "evidence": "really simplistic. So, I'm just going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:37.200",
+    "seconds": 217.2,
+    "type": "observed_spoken",
+    "evidence": "really simplistic. So, I'm just going to copy that. Go here. Paste it as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:40.470",
+    "seconds": 220.47,
+    "type": "observed_spoken",
+    "evidence": "copy that. Go here. Paste it as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:40.480",
+    "seconds": 220.48,
+    "type": "observed_spoken",
+    "evidence": "copy that. Go here. Paste it as a reference. And I'm going to try and get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.910",
+    "seconds": 221.91,
+    "type": "observed_spoken",
+    "evidence": "reference. And I'm going to try and get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.920",
+    "seconds": 221.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "reference. And I'm going to try and get two to three references so we can see",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:44.390",
+    "seconds": 224.39,
+    "type": "observed_spoken",
+    "evidence": "two to three references so we can see",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:44.400",
+    "seconds": 224.4,
+    "type": "observed_spoken",
+    "evidence": "two to three references so we can see how to treat the rest of them. So, we've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.550",
+    "seconds": 226.55,
+    "type": "observed_spoken",
+    "evidence": "how to treat the rest of them. So, we've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.560",
+    "seconds": 226.56,
+    "type": "observed_spoken",
+    "evidence": "how to treat the rest of them. So, we've got a bit of a format over here.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:49.830",
+    "seconds": 229.82999999999998,
+    "type": "observed_spoken",
+    "evidence": "got a bit of a format over here.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:49.840",
+    "seconds": 229.84,
+    "type": "observed_spoken",
+    "evidence": "got a bit of a format over here. Choose this.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:52.149",
+    "seconds": 232.149,
+    "type": "observed_spoken",
+    "evidence": "Choose this.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:52.159",
+    "seconds": 232.159,
+    "type": "observed_spoken",
+    "evidence": "Choose this. Maybe one with images will be good.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:55.509",
+    "seconds": 235.50900000000001,
+    "type": "observed_spoken",
+    "evidence": "Maybe one with images will be good.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:55.519",
+    "seconds": 235.519,
+    "type": "observed_spoken",
+    "evidence": "Maybe one with images will be good. Okay. Let's just choose this one with an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.350",
+    "seconds": 237.35,
+    "type": "observed_spoken",
+    "evidence": "Okay. Let's just choose this one with an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.360",
+    "seconds": 237.36,
+    "type": "observed_spoken",
+    "evidence": "Okay. Let's just choose this one with an image as well.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "04:00",
+    "seconds": 240,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000240.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:04:00.070",
+    "seconds": 240.07,
+    "type": "observed_spoken",
+    "evidence": "image as well.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:00.080",
+    "seconds": 240.08,
+    "type": "observed_spoken",
+    "evidence": "image as well. All right. So, we're selecting a decent",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:01.910",
+    "seconds": 241.91,
+    "type": "observed_spoken",
+    "evidence": "All right. So, we're selecting a decent",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:01.920",
+    "seconds": 241.92,
+    "type": "observed_spoken",
+    "evidence": "All right. So, we're selecting a decent amount. Okay. So, I've got a title one.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:05.270",
+    "seconds": 245.27,
+    "type": "observed_spoken",
+    "evidence": "amount. Okay. So, I've got a title one.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:05.280",
+    "seconds": 245.28,
+    "type": "observed_spoken",
+    "evidence": "amount. Okay. So, I've got a title one. I've got a title slide. I've got a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.270",
+    "seconds": 247.27,
+    "type": "observed_spoken",
+    "evidence": "I've got a title slide. I've got a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.280",
+    "seconds": 247.28,
+    "type": "observed_spoken",
+    "evidence": "I've got a title slide. I've got a textheavy slide example. And then I've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:09.670",
+    "seconds": 249.67,
+    "type": "observed_spoken",
+    "evidence": "textheavy slide example. And then I've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:09.680",
+    "seconds": 249.68,
+    "type": "observed_spoken",
+    "evidence": "textheavy slide example. And then I've got a few image examples just for an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:12.229",
+    "seconds": 252.22899999999998,
+    "type": "observed_spoken",
+    "evidence": "got a few image examples just for an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:12.239",
+    "seconds": 252.239,
+    "type": "observed_spoken",
+    "evidence": "got a few image examples just for an image style if GPT wants to do that. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:14.470",
+    "seconds": 254.47,
+    "type": "observed_spoken",
+    "evidence": "image style if GPT wants to do that. So,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:14.480",
+    "seconds": 254.48,
+    "type": "observed_spoken",
+    "evidence": "image style if GPT wants to do that. So, I've got my entire prompt there, a few",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:16.550",
+    "seconds": 256.55,
+    "type": "observed_spoken",
+    "evidence": "I've got my entire prompt there, a few",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:16.560",
+    "seconds": 256.56,
+    "type": "observed_spoken",
+    "evidence": "I've got my entire prompt there, a few references, and we're just going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:18.229",
+    "seconds": 258.229,
+    "type": "observed_spoken",
+    "evidence": "references, and we're just going to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:18.239",
+    "seconds": 258.239,
+    "type": "observed_spoken",
+    "evidence": "references, and we're just going to select create image and send that and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:21.270",
+    "seconds": 261.27,
+    "type": "observed_spoken",
+    "evidence": "select create image and send that and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:21.280",
+    "seconds": 261.28,
+    "type": "observed_spoken",
+    "evidence": "select create image and send that and see what it comes back with. Now,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:22.790",
+    "seconds": 262.79,
+    "type": "observed_spoken",
+    "evidence": "see what it comes back with. Now,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:22.800",
+    "seconds": 262.8,
+    "type": "observed_spoken",
+    "evidence": "see what it comes back with. Now, specifically in this prompt, what you'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:24.390",
+    "seconds": 264.39,
+    "type": "observed_spoken",
+    "evidence": "specifically in this prompt, what you'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:24.400",
+    "seconds": 264.4,
+    "type": "observed_spoken",
+    "evidence": "specifically in this prompt, what you'll see is right at the beginning here, we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:26.469",
+    "seconds": 266.469,
+    "type": "observed_spoken",
+    "evidence": "see is right at the beginning here, we",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:26.479",
+    "seconds": 266.479,
+    "type": "observed_spoken",
+    "evidence": "see is right at the beginning here, we say we want you to match the style",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:28.870",
+    "seconds": 268.87,
+    "type": "observed_spoken",
+    "evidence": "say we want you to match the style",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:28.880",
+    "seconds": 268.88,
+    "type": "observed_spoken",
+    "evidence": "say we want you to match the style exactly, but we also want where photos",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:31.270",
+    "seconds": 271.27,
+    "type": "observed_spoken",
+    "evidence": "exactly, but we also want where photos",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:31.280",
+    "seconds": 271.28,
+    "type": "observed_spoken",
+    "evidence": "exactly, but we also want where photos or illustrations appear, generate new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:33.030",
+    "seconds": 273.03,
+    "type": "observed_spoken",
+    "evidence": "or illustrations appear, generate new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:33.040",
+    "seconds": 273.04,
+    "type": "observed_spoken",
+    "evidence": "or illustrations appear, generate new ones that fit the copy inside the slide,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:35.350",
+    "seconds": 275.35,
+    "type": "observed_spoken",
+    "evidence": "ones that fit the copy inside the slide,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:35.360",
+    "seconds": 275.36,
+    "type": "observed_spoken",
+    "evidence": "ones that fit the copy inside the slide, rendered in the same visual style as the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.430",
+    "seconds": 277.43,
+    "type": "observed_spoken",
+    "evidence": "rendered in the same visual style as the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.440",
+    "seconds": 277.44,
+    "type": "observed_spoken",
+    "evidence": "rendered in the same visual style as the references, so it feels cohesive. All",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:39.270",
+    "seconds": 279.27,
+    "type": "observed_spoken",
+    "evidence": "references, so it feels cohesive. All",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:39.280",
+    "seconds": 279.28,
+    "type": "observed_spoken",
+    "evidence": "references, so it feels cohesive. All right, so that's really important and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:40.950",
+    "seconds": 280.95,
+    "type": "observed_spoken",
+    "evidence": "right, so that's really important and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:40.960",
+    "seconds": 280.96,
+    "type": "observed_spoken",
+    "evidence": "right, so that's really important and that's what I've loved about uh GPT",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:42.710",
+    "seconds": 282.71,
+    "type": "observed_spoken",
+    "evidence": "that's what I've loved about uh GPT",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:42.720",
+    "seconds": 282.72,
+    "type": "observed_spoken",
+    "evidence": "that's what I've loved about uh GPT image 2 is it just understands it can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:45.030",
+    "seconds": 285.03,
+    "type": "observed_spoken",
+    "evidence": "image 2 is it just understands it can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:45.040",
+    "seconds": 285.04,
+    "type": "observed_spoken",
+    "evidence": "image 2 is it just understands it can really take an image and build on top of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:47.670",
+    "seconds": 287.67,
+    "type": "observed_spoken",
+    "evidence": "really take an image and build on top of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:47.680",
+    "seconds": 287.68,
+    "type": "observed_spoken",
+    "evidence": "really take an image and build on top of that. All right, so that's been",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:48.950",
+    "seconds": 288.95,
+    "type": "observed_spoken",
+    "evidence": "that. All right, so that's been",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:48.960",
+    "seconds": 288.96,
+    "type": "observed_spoken",
+    "evidence": "that. All right, so that's been fantastic in regards to time saving.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.030",
+    "seconds": 291.03,
+    "type": "observed_spoken",
+    "evidence": "fantastic in regards to time saving.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.040",
+    "seconds": 291.04,
+    "type": "observed_spoken",
+    "evidence": "fantastic in regards to time saving. Now, obviously, if you have a very",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:52.629",
+    "seconds": 292.629,
+    "type": "observed_spoken",
+    "evidence": "Now, obviously, if you have a very",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:52.639",
+    "seconds": 292.639,
+    "type": "observed_spoken",
+    "evidence": "Now, obviously, if you have a very specific brand look and feel, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.629",
+    "seconds": 294.629,
+    "type": "observed_spoken",
+    "evidence": "specific brand look and feel, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.639",
+    "seconds": 294.639,
+    "type": "observed_spoken",
+    "evidence": "specific brand look and feel, you know, you're going to want to choose a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:55.909",
+    "seconds": 295.909,
+    "type": "observed_spoken",
+    "evidence": "you're going to want to choose a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:55.919",
+    "seconds": 295.919,
+    "type": "observed_spoken",
+    "evidence": "you're going to want to choose a reference which ultimately matches what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.590",
+    "seconds": 297.59000000000003,
+    "type": "observed_spoken",
+    "evidence": "reference which ultimately matches what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.600",
+    "seconds": 297.6,
+    "type": "observed_spoken",
+    "evidence": "reference which ultimately matches what your brand looks like. This is just an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:59.189",
+    "seconds": 299.189,
+    "type": "observed_spoken",
+    "evidence": "your brand looks like. This is just an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:59.199",
+    "seconds": 299.199,
+    "type": "observed_spoken",
+    "evidence": "your brand looks like. This is just an example right now, just so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "05:00",
+    "seconds": 300,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000300.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:05:00.710",
+    "seconds": 300.71,
+    "type": "observed_spoken",
+    "evidence": "example right now, just so I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:00.720",
+    "seconds": 300.72,
+    "type": "observed_spoken",
+    "evidence": "example right now, just so I can demonstrate and show you how this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:02.230",
+    "seconds": 302.23,
+    "type": "observed_spoken",
+    "evidence": "demonstrate and show you how this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:02.240",
+    "seconds": 302.24,
+    "type": "observed_spoken",
+    "evidence": "demonstrate and show you how this ultimately works. All right, so you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:03.749",
+    "seconds": 303.749,
+    "type": "observed_spoken",
+    "evidence": "ultimately works. All right, so you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:03.759",
+    "seconds": 303.759,
+    "type": "observed_spoken",
+    "evidence": "ultimately works. All right, so you can see here, this is what Chat GBT is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:05.350",
+    "seconds": 305.35,
+    "type": "observed_spoken",
+    "evidence": "see here, this is what Chat GBT is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:05.360",
+    "seconds": 305.36,
+    "type": "observed_spoken",
+    "evidence": "see here, this is what Chat GBT is coming back with. So, we've got our",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:06.790",
+    "seconds": 306.79,
+    "type": "observed_spoken",
+    "evidence": "coming back with. So, we've got our",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:06.800",
+    "seconds": 306.8,
+    "type": "observed_spoken",
+    "evidence": "coming back with. So, we've got our opening slide, we've got our sub slides",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:09.430",
+    "seconds": 309.43,
+    "type": "observed_spoken",
+    "evidence": "opening slide, we've got our sub slides",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:09.440",
+    "seconds": 309.44,
+    "type": "observed_spoken",
+    "evidence": "opening slide, we've got our sub slides underneath here. Um, it's created",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:11.350",
+    "seconds": 311.35,
+    "type": "observed_spoken",
+    "evidence": "underneath here. Um, it's created",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:11.360",
+    "seconds": 311.36,
+    "type": "observed_spoken",
+    "evidence": "underneath here. Um, it's created specific images, and it's gone through",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:13.670",
+    "seconds": 313.67,
+    "type": "observed_spoken",
+    "evidence": "specific images, and it's gone through",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:13.680",
+    "seconds": 313.68,
+    "type": "observed_spoken",
+    "evidence": "specific images, and it's gone through and replicated the entire style for us.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:15.749",
+    "seconds": 315.749,
+    "type": "observed_spoken",
+    "evidence": "and replicated the entire style for us.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:15.759",
+    "seconds": 315.759,
+    "type": "observed_spoken",
+    "evidence": "and replicated the entire style for us. Now, obviously, I would go through,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:17.350",
+    "seconds": 317.35,
+    "type": "observed_spoken",
+    "evidence": "Now, obviously, I would go through,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:17.360",
+    "seconds": 317.36,
+    "type": "observed_spoken",
+    "evidence": "Now, obviously, I would go through, update my logo, etc., etc. I might tell",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:19.830",
+    "seconds": 319.83,
+    "type": "observed_spoken",
+    "evidence": "update my logo, etc., etc. I might tell",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:19.840",
+    "seconds": 319.84,
+    "type": "observed_spoken",
+    "evidence": "update my logo, etc., etc. I might tell it to space the content out a little bit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:22.070",
+    "seconds": 322.07,
+    "type": "observed_spoken",
+    "evidence": "it to space the content out a little bit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:22.080",
+    "seconds": 322.08,
+    "type": "observed_spoken",
+    "evidence": "it to space the content out a little bit more. But you can see here just super",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:24.790",
+    "seconds": 324.79,
+    "type": "observed_spoken",
+    "evidence": "more. But you can see here just super",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:24.800",
+    "seconds": 324.8,
+    "type": "observed_spoken",
+    "evidence": "more. But you can see here just super simply in a few minutes, we've got a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:26.790",
+    "seconds": 326.79,
+    "type": "observed_spoken",
+    "evidence": "simply in a few minutes, we've got a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:26.800",
+    "seconds": 326.8,
+    "type": "observed_spoken",
+    "evidence": "simply in a few minutes, we've got a brand style that we can replicate for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:28.790",
+    "seconds": 328.79,
+    "type": "observed_spoken",
+    "evidence": "brand style that we can replicate for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:28.800",
+    "seconds": 328.8,
+    "type": "observed_spoken",
+    "evidence": "brand style that we can replicate for other carousels. So just to show you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:31.189",
+    "seconds": 331.189,
+    "type": "observed_spoken",
+    "evidence": "other carousels. So just to show you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:31.199",
+    "seconds": 331.199,
+    "type": "observed_spoken",
+    "evidence": "other carousels. So just to show you some other ones I created using the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:33.189",
+    "seconds": 333.189,
+    "type": "observed_spoken",
+    "evidence": "some other ones I created using the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:33.199",
+    "seconds": 333.199,
+    "type": "observed_spoken",
+    "evidence": "some other ones I created using the same process. Here were the examples that I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.189",
+    "seconds": 335.189,
+    "type": "observed_spoken",
+    "evidence": "process. Here were the examples that I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:35.199",
+    "seconds": 335.199,
+    "type": "observed_spoken",
+    "evidence": "process. Here were the examples that I gave it and this was the output. Okay,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:38.469",
+    "seconds": 338.469,
+    "type": "observed_spoken",
+    "evidence": "gave it and this was the output. Okay,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:38.479",
+    "seconds": 338.479,
+    "type": "observed_spoken",
+    "evidence": "gave it and this was the output. Okay, so insane. It created all of those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:41.110",
+    "seconds": 341.11,
+    "type": "observed_spoken",
+    "evidence": "so insane. It created all of those",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:41.120",
+    "seconds": 341.12,
+    "type": "observed_spoken",
+    "evidence": "so insane. It created all of those images itself. Um, you know, I didn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:43.110",
+    "seconds": 343.11,
+    "type": "observed_spoken",
+    "evidence": "images itself. Um, you know, I didn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:43.120",
+    "seconds": 343.12,
+    "type": "observed_spoken",
+    "evidence": "images itself. Um, you know, I didn't have to do any of that. Okay, so again I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:45.189",
+    "seconds": 345.189,
+    "type": "observed_spoken",
+    "evidence": "have to do any of that. Okay, so again I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:45.199",
+    "seconds": 345.199,
+    "type": "observed_spoken",
+    "evidence": "have to do any of that. Okay, so again I did that for another brand. This was the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:47.590",
+    "seconds": 347.59000000000003,
+    "type": "observed_spoken",
+    "evidence": "did that for another brand. This was the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:47.600",
+    "seconds": 347.6,
+    "type": "observed_spoken",
+    "evidence": "did that for another brand. This was the reference, that was the post, and this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:50.710",
+    "seconds": 350.71,
+    "type": "observed_spoken",
+    "evidence": "reference, that was the post, and this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:50.720",
+    "seconds": 350.72,
+    "type": "observed_spoken",
+    "evidence": "reference, that was the post, and this was the output. Okay, you don't have a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:52.310",
+    "seconds": 352.31,
+    "type": "observed_spoken",
+    "evidence": "was the output. Okay, you don't have a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:52.320",
+    "seconds": 352.32,
+    "type": "observed_spoken",
+    "evidence": "was the output. Okay, you don't have a closing problem, you have a state",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:53.670",
+    "seconds": 353.67,
+    "type": "observed_spoken",
+    "evidence": "closing problem, you have a state",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:53.680",
+    "seconds": 353.68,
+    "type": "observed_spoken",
+    "evidence": "closing problem, you have a state problem. And so I thought this style was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:56.629",
+    "seconds": 356.629,
+    "type": "observed_spoken",
+    "evidence": "problem. And so I thought this style was",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:56.639",
+    "seconds": 356.639,
+    "type": "observed_spoken",
+    "evidence": "problem. And so I thought this style was actually really cool, something I would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:57.990",
+    "seconds": 357.99,
+    "type": "observed_spoken",
+    "evidence": "actually really cool, something I would",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:58.000",
+    "seconds": 358.0,
+    "type": "observed_spoken",
+    "evidence": "actually really cool, something I would really use for my brand. And then there",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:59.830",
+    "seconds": 359.83,
+    "type": "observed_spoken",
+    "evidence": "really use for my brand. And then there",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:59.840",
+    "seconds": 359.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "really use for my brand. And then there was this one, which was a little bit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "06:00",
+    "seconds": 360,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000360.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:06:01.189",
+    "seconds": 361.189,
+    "type": "observed_spoken",
+    "evidence": "was this one, which was a little bit",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:01.199",
+    "seconds": 361.199,
+    "type": "observed_spoken",
+    "evidence": "was this one, which was a little bit more creative, exactly the same prompt,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:04.230",
+    "seconds": 364.23,
+    "type": "observed_spoken",
+    "evidence": "more creative, exactly the same prompt,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:04.240",
+    "seconds": 364.24,
+    "type": "observed_spoken",
+    "evidence": "more creative, exactly the same prompt, different copy, and then it created the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:06.710",
+    "seconds": 366.71,
+    "type": "observed_spoken",
+    "evidence": "different copy, and then it created the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:06.720",
+    "seconds": 366.72,
+    "type": "observed_spoken",
+    "evidence": "different copy, and then it created the images on its own, which guys, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:09.590",
+    "seconds": 369.59,
+    "type": "observed_spoken",
+    "evidence": "images on its own, which guys, you know,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:09.600",
+    "seconds": 369.6,
+    "type": "observed_spoken",
+    "evidence": "images on its own, which guys, you know, this would have literally cost hundreds",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:11.590",
+    "seconds": 371.59,
+    "type": "observed_spoken",
+    "evidence": "this would have literally cost hundreds",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:11.600",
+    "seconds": 371.6,
+    "type": "observed_spoken",
+    "evidence": "this would have literally cost hundreds and hundreds of dollars if I got this on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:13.270",
+    "seconds": 373.27,
+    "type": "observed_spoken",
+    "evidence": "and hundreds of dollars if I got this on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:13.280",
+    "seconds": 373.28,
+    "type": "observed_spoken",
+    "evidence": "and hundreds of dollars if I got this on Fiverr. So, you know, you ultimately",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:15.830",
+    "seconds": 375.83,
+    "type": "observed_spoken",
+    "evidence": "Fiverr. So, you know, you ultimately",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:15.840",
+    "seconds": 375.84,
+    "type": "observed_spoken",
+    "evidence": "Fiverr. So, you know, you ultimately have, you know, a fantastic designer in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.550",
+    "seconds": 378.55,
+    "type": "observed_spoken",
+    "evidence": "have, you know, a fantastic designer in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.560",
+    "seconds": 378.56,
+    "type": "observed_spoken",
+    "evidence": "have, you know, a fantastic designer in your back pocket now that you can start",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.629",
+    "seconds": 380.629,
+    "type": "observed_spoken",
+    "evidence": "your back pocket now that you can start",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.639",
+    "seconds": 380.639,
+    "type": "observed_spoken",
+    "evidence": "your back pocket now that you can start using and start getting your marketing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:22.469",
+    "seconds": 382.469,
+    "type": "observed_spoken",
+    "evidence": "using and start getting your marketing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:22.479",
+    "seconds": 382.479,
+    "type": "observed_spoken",
+    "evidence": "using and start getting your marketing content out there as quickly as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:23.990",
+    "seconds": 383.99,
+    "type": "observed_spoken",
+    "evidence": "content out there as quickly as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:24.000",
+    "seconds": 384.0,
+    "type": "observed_spoken",
+    "evidence": "content out there as quickly as possible. Now, this whole process end to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.469",
+    "seconds": 386.469,
+    "type": "observed_spoken",
+    "evidence": "possible. Now, this whole process end to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.479",
+    "seconds": 386.479,
+    "type": "observed_spoken",
+    "evidence": "possible. Now, this whole process end to end can be automated, but I think it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:28.950",
+    "seconds": 388.95,
+    "type": "observed_spoken",
+    "evidence": "end can be automated, but I think it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:28.960",
+    "seconds": 388.96,
+    "type": "observed_spoken",
+    "evidence": "end can be automated, but I think it's really important that when we are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:30.710",
+    "seconds": 390.71,
+    "type": "observed_spoken",
+    "evidence": "really important that when we are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:30.720",
+    "seconds": 390.72,
+    "type": "observed_spoken",
+    "evidence": "really important that when we are working with agents, we're not going",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:32.390",
+    "seconds": 392.39,
+    "type": "observed_spoken",
+    "evidence": "working with agents, we're not going",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:32.400",
+    "seconds": 392.4,
+    "type": "observed_spoken",
+    "evidence": "working with agents, we're not going fully autonomous mode just for the sake",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:34.469",
+    "seconds": 394.469,
+    "type": "observed_spoken",
+    "evidence": "fully autonomous mode just for the sake",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:34.479",
+    "seconds": 394.479,
+    "type": "observed_spoken",
+    "evidence": "fully autonomous mode just for the sake of it. I still want to have uh me in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:37.749",
+    "seconds": 397.749,
+    "type": "observed_spoken",
+    "evidence": "of it. I still want to have uh me in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:37.759",
+    "seconds": 397.759,
+    "type": "observed_spoken",
+    "evidence": "of it. I still want to have uh me in the loop directing and guiding the design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:40.390",
+    "seconds": 400.39,
+    "type": "observed_spoken",
+    "evidence": "loop directing and guiding the design",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:40.400",
+    "seconds": 400.4,
+    "type": "observed_spoken",
+    "evidence": "loop directing and guiding the design and what the copy is saying. But the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:42.390",
+    "seconds": 402.39,
+    "type": "observed_spoken",
+    "evidence": "and what the copy is saying. But the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:42.400",
+    "seconds": 402.4,
+    "type": "observed_spoken",
+    "evidence": "and what the copy is saying. But the cool thing about uh GPT image 2 is I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.710",
+    "seconds": 404.71,
+    "type": "observed_spoken",
+    "evidence": "cool thing about uh GPT image 2 is I can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.720",
+    "seconds": 404.72,
+    "type": "observed_spoken",
+    "evidence": "cool thing about uh GPT image 2 is I can describe edits. I can make tweaks um and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:46.950",
+    "seconds": 406.95,
+    "type": "observed_spoken",
+    "evidence": "describe edits. I can make tweaks um and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:46.960",
+    "seconds": 406.96,
+    "type": "observed_spoken",
+    "evidence": "describe edits. I can make tweaks um and it can create variations like this. So",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.029",
+    "seconds": 409.029,
+    "type": "observed_spoken",
+    "evidence": "it can create variations like this. So",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.039",
+    "seconds": 409.039,
+    "type": "observed_spoken",
+    "evidence": "it can create variations like this. So it's really perfect for carousels. Now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:51.909",
+    "seconds": 411.909,
+    "type": "observed_spoken",
+    "evidence": "it's really perfect for carousels. Now",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:51.919",
+    "seconds": 411.919,
+    "type": "observed_spoken",
+    "evidence": "it's really perfect for carousels. Now what's really important is that you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:53.430",
+    "seconds": 413.43,
+    "type": "observed_spoken",
+    "evidence": "what's really important is that you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:53.440",
+    "seconds": 413.44,
+    "type": "observed_spoken",
+    "evidence": "what's really important is that you actually have the base content set up so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:56.309",
+    "seconds": 416.30899999999997,
+    "type": "observed_spoken",
+    "evidence": "actually have the base content set up so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:56.319",
+    "seconds": 416.319,
+    "type": "observed_spoken",
+    "evidence": "actually have the base content set up so that the content that is being produced",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:58.150",
+    "seconds": 418.15,
+    "type": "observed_spoken",
+    "evidence": "that the content that is being produced",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:58.160",
+    "seconds": 418.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "that the content that is being produced for carousels is based on a sound",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "07:00",
+    "seconds": 420,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000420.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:07:00.550",
+    "seconds": 420.55,
+    "type": "observed_spoken",
+    "evidence": "for carousels is based on a sound",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:00.560",
+    "seconds": 420.56,
+    "type": "observed_spoken",
+    "evidence": "for carousels is based on a sound strategy that is targeting what your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:02.950",
+    "seconds": 422.95,
+    "type": "observed_spoken",
+    "evidence": "strategy that is targeting what your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:02.960",
+    "seconds": 422.96,
+    "type": "observed_spoken",
+    "evidence": "strategy that is targeting what your clients are actually searching for. What",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:05.110",
+    "seconds": 425.11,
+    "type": "observed_spoken",
+    "evidence": "clients are actually searching for. What",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:05.120",
+    "seconds": 425.12,
+    "type": "observed_spoken",
+    "evidence": "clients are actually searching for. What are the problems they're struggling with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:06.309",
+    "seconds": 426.309,
+    "type": "observed_spoken",
+    "evidence": "are the problems they're struggling with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:06.319",
+    "seconds": 426.319,
+    "type": "observed_spoken",
+    "evidence": "are the problems they're struggling with on a daily basis? And your job from a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:08.629",
+    "seconds": 428.629,
+    "type": "observed_spoken",
+    "evidence": "on a daily basis? And your job from a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:08.639",
+    "seconds": 428.639,
+    "type": "observed_spoken",
+    "evidence": "on a daily basis? And your job from a content marketing perspective is to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:10.790",
+    "seconds": 430.79,
+    "type": "observed_spoken",
+    "evidence": "content marketing perspective is to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:10.800",
+    "seconds": 430.8,
+    "type": "observed_spoken",
+    "evidence": "content marketing perspective is to answer them as deeply as you possibly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:13.110",
+    "seconds": 433.11,
+    "type": "observed_spoken",
+    "evidence": "answer them as deeply as you possibly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:13.120",
+    "seconds": 433.12,
+    "type": "observed_spoken",
+    "evidence": "answer them as deeply as you possibly can. So that's the whole purpose of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:16.070",
+    "seconds": 436.07,
+    "type": "observed_spoken",
+    "evidence": "can. So that's the whole purpose of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:16.080",
+    "seconds": 436.08,
+    "type": "observed_spoken",
+    "evidence": "can. So that's the whole purpose of setting your digital home up and getting",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:17.909",
+    "seconds": 437.909,
+    "type": "observed_spoken",
+    "evidence": "setting your digital home up and getting",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:17.919",
+    "seconds": 437.919,
+    "type": "observed_spoken",
+    "evidence": "setting your digital home up and getting your evergreen content room to a point",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:19.830",
+    "seconds": 439.83,
+    "type": "observed_spoken",
+    "evidence": "your evergreen content room to a point",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:19.840",
+    "seconds": 439.84,
+    "type": "observed_spoken",
+    "evidence": "your evergreen content room to a point where these are publishing through an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:21.430",
+    "seconds": 441.43,
+    "type": "observed_spoken",
+    "evidence": "where these are publishing through an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:21.440",
+    "seconds": 441.44,
+    "type": "observed_spoken",
+    "evidence": "where these are publishing through an agentic process. And then we've got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:23.749",
+    "seconds": 443.749,
+    "type": "observed_spoken",
+    "evidence": "agentic process. And then we've got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:23.759",
+    "seconds": 443.759,
+    "type": "observed_spoken",
+    "evidence": "agentic process. And then we've got these being turned into multiple slides",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:26.950",
+    "seconds": 446.95,
+    "type": "observed_spoken",
+    "evidence": "these being turned into multiple slides",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:26.960",
+    "seconds": 446.96,
+    "type": "observed_spoken",
+    "evidence": "these being turned into multiple slides for carousels that you can then, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:29.510",
+    "seconds": 449.51,
+    "type": "observed_spoken",
+    "evidence": "for carousels that you can then, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:29.520",
+    "seconds": 449.52,
+    "type": "observed_spoken",
+    "evidence": "for carousels that you can then, you know, just take this GBT image prompt,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:31.350",
+    "seconds": 451.35,
+    "type": "observed_spoken",
+    "evidence": "know, just take this GBT image prompt,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:31.360",
+    "seconds": 451.36,
+    "type": "observed_spoken",
+    "evidence": "know, just take this GBT image prompt, pop it in, and Bubs your uncle, you've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:33.110",
+    "seconds": 453.11,
+    "type": "observed_spoken",
+    "evidence": "pop it in, and Bubs your uncle, you've",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:33.120",
+    "seconds": 453.12,
+    "type": "observed_spoken",
+    "evidence": "pop it in, and Bubs your uncle, you've got a carousel that can drive more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:35.430",
+    "seconds": 455.43,
+    "type": "observed_spoken",
+    "evidence": "got a carousel that can drive more",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:35.440",
+    "seconds": 455.44,
+    "type": "observed_spoken",
+    "evidence": "got a carousel that can drive more traffic to your actual insights and blog",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:37.589",
+    "seconds": 457.589,
+    "type": "observed_spoken",
+    "evidence": "traffic to your actual insights and blog",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:37.599",
+    "seconds": 457.599,
+    "type": "observed_spoken",
+    "evidence": "traffic to your actual insights and blog page on your digital home. Now, you'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:39.510",
+    "seconds": 459.51,
+    "type": "observed_spoken",
+    "evidence": "page on your digital home. Now, you'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:39.520",
+    "seconds": 459.52,
+    "type": "observed_spoken",
+    "evidence": "page on your digital home. Now, you'll see here that this entire process of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:42.469",
+    "seconds": 462.469,
+    "type": "observed_spoken",
+    "evidence": "see here that this entire process of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:42.479",
+    "seconds": 462.479,
+    "type": "observed_spoken",
+    "evidence": "see here that this entire process of creating SEO optimized, go optimized",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.350",
+    "seconds": 465.35,
+    "type": "observed_spoken",
+    "evidence": "creating SEO optimized, go optimized",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.360",
+    "seconds": 465.36,
+    "type": "observed_spoken",
+    "evidence": "creating SEO optimized, go optimized articles is incredibly important to have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:47.909",
+    "seconds": 467.909,
+    "type": "observed_spoken",
+    "evidence": "articles is incredibly important to have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:47.919",
+    "seconds": 467.919,
+    "type": "observed_spoken",
+    "evidence": "articles is incredibly important to have before you go out and create these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:49.670",
+    "seconds": 469.67,
+    "type": "observed_spoken",
+    "evidence": "before you go out and create these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:49.680",
+    "seconds": 469.68,
+    "type": "observed_spoken",
+    "evidence": "before you go out and create these carousels. The coolest thing about this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:51.430",
+    "seconds": 471.43,
+    "type": "observed_spoken",
+    "evidence": "carousels. The coolest thing about this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:51.440",
+    "seconds": 471.44,
+    "type": "observed_spoken",
+    "evidence": "carousels. The coolest thing about this process is our agents are deciding what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:54.230",
+    "seconds": 474.23,
+    "type": "observed_spoken",
+    "evidence": "process is our agents are deciding what",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:54.240",
+    "seconds": 474.24,
+    "type": "observed_spoken",
+    "evidence": "process is our agents are deciding what content to post when because we have a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:56.629",
+    "seconds": 476.629,
+    "type": "observed_spoken",
+    "evidence": "content to post when because we have a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:56.639",
+    "seconds": 476.639,
+    "type": "observed_spoken",
+    "evidence": "content to post when because we have a weekly trends loop which is analyzing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:59.029",
+    "seconds": 479.029,
+    "type": "observed_spoken",
+    "evidence": "weekly trends loop which is analyzing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:59.039",
+    "seconds": 479.039,
+    "type": "observed_spoken",
+    "evidence": "weekly trends loop which is analyzing how well content is performing and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "08:00",
+    "seconds": 480,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000480.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:08:00.869",
+    "seconds": 480.869,
+    "type": "observed_spoken",
+    "evidence": "how well content is performing and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:00.879",
+    "seconds": 480.879,
+    "type": "observed_spoken",
+    "evidence": "how well content is performing and then tweaking the content strategy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:02.309",
+    "seconds": 482.309,
+    "type": "observed_spoken",
+    "evidence": "tweaking the content strategy",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:02.319",
+    "seconds": 482.319,
+    "type": "observed_spoken",
+    "evidence": "tweaking the content strategy accordingly. So, all I have to do is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:04.790",
+    "seconds": 484.79,
+    "type": "observed_spoken",
+    "evidence": "accordingly. So, all I have to do is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:04.800",
+    "seconds": 484.8,
+    "type": "observed_spoken",
+    "evidence": "accordingly. So, all I have to do is come in here, check. Okay, cool. Um,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:07.029",
+    "seconds": 487.029,
+    "type": "observed_spoken",
+    "evidence": "come in here, check. Okay, cool. Um,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:07.039",
+    "seconds": 487.039,
+    "type": "observed_spoken",
+    "evidence": "come in here, check. Okay, cool. Um, approve things, the agent writes it,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:09.189",
+    "seconds": 489.189,
+    "type": "observed_spoken",
+    "evidence": "approve things, the agent writes it,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:09.199",
+    "seconds": 489.199,
+    "type": "observed_spoken",
+    "evidence": "approve things, the agent writes it, publishes them, and then automatically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:11.430",
+    "seconds": 491.43,
+    "type": "observed_spoken",
+    "evidence": "publishes them, and then automatically",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:11.440",
+    "seconds": 491.44,
+    "type": "observed_spoken",
+    "evidence": "publishes them, and then automatically when I just go over here and I click",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:13.749",
+    "seconds": 493.749,
+    "type": "observed_spoken",
+    "evidence": "when I just go over here and I click",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:13.759",
+    "seconds": 493.759,
+    "type": "observed_spoken",
+    "evidence": "when I just go over here and I click regenerate, I know that I've got a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:15.430",
+    "seconds": 495.43,
+    "type": "observed_spoken",
+    "evidence": "regenerate, I know that I've got a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:15.440",
+    "seconds": 495.44,
+    "type": "observed_spoken",
+    "evidence": "regenerate, I know that I've got a carousel that I can just copy and paste",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.189",
+    "seconds": 497.189,
+    "type": "observed_spoken",
+    "evidence": "carousel that I can just copy and paste",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.199",
+    "seconds": 497.199,
+    "type": "observed_spoken",
+    "evidence": "carousel that I can just copy and paste the prompt, find a reference, and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:20.150",
+    "seconds": 500.15,
+    "type": "observed_spoken",
+    "evidence": "the prompt, find a reference, and then",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:20.160",
+    "seconds": 500.16,
+    "type": "observed_spoken",
+    "evidence": "the prompt, find a reference, and then Bob's your uncle, you've got a piece of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:21.909",
+    "seconds": 501.909,
+    "type": "observed_spoken",
+    "evidence": "Bob's your uncle, you've got a piece of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:21.919",
+    "seconds": 501.919,
+    "type": "observed_spoken",
+    "evidence": "Bob's your uncle, you've got a piece of marketing copy that you can start",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:23.270",
+    "seconds": 503.27,
+    "type": "observed_spoken",
+    "evidence": "marketing copy that you can start",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:23.280",
+    "seconds": 503.28,
+    "type": "observed_spoken",
+    "evidence": "marketing copy that you can start publishing onto social media. If you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:25.189",
+    "seconds": 505.189,
+    "type": "observed_spoken",
+    "evidence": "publishing onto social media. If you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:25.199",
+    "seconds": 505.199,
+    "type": "observed_spoken",
+    "evidence": "publishing onto social media. If you want to learn how to set up the digital",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:26.550",
+    "seconds": 506.55,
+    "type": "observed_spoken",
+    "evidence": "want to learn how to set up the digital",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:26.560",
+    "seconds": 506.56,
+    "type": "observed_spoken",
+    "evidence": "want to learn how to set up the digital home for yourself or you want to sell it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.390",
+    "seconds": 508.39,
+    "type": "observed_spoken",
+    "evidence": "home for yourself or you want to sell it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.400",
+    "seconds": 508.4,
+    "type": "observed_spoken",
+    "evidence": "home for yourself or you want to sell it as a service and add another income",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:30.150",
+    "seconds": 510.15,
+    "type": "observed_spoken",
+    "evidence": "as a service and add another income",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:30.160",
+    "seconds": 510.16,
+    "type": "observed_spoken",
+    "evidence": "as a service and add another income stream to your business, then check out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:31.830",
+    "seconds": 511.83,
+    "type": "observed_spoken",
+    "evidence": "stream to your business, then check out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:31.840",
+    "seconds": 511.84,
+    "type": "observed_spoken",
+    "evidence": "stream to your business, then check out the link in the description. We've got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:33.430",
+    "seconds": 513.43,
+    "type": "observed_spoken",
+    "evidence": "the link in the description. We've got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:33.440",
+    "seconds": 513.44,
+    "type": "observed_spoken",
+    "evidence": "the link in the description. We've got an entire school community built to help",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:35.829",
+    "seconds": 515.829,
+    "type": "observed_spoken",
+    "evidence": "an entire school community built to help",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:35.839",
+    "seconds": 515.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "an entire school community built to help you get your digital home up and running",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:37.670",
+    "seconds": 517.67,
+    "type": "observed_spoken",
+    "evidence": "you get your digital home up and running",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:37.680",
+    "seconds": 517.68,
+    "type": "observed_spoken",
+    "evidence": "you get your digital home up and running as quickly as possible. My friend, this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:39.990",
+    "seconds": 519.99,
+    "type": "observed_spoken",
+    "evidence": "as quickly as possible. My friend, this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:40.000",
+    "seconds": 520.0,
+    "type": "observed_spoken",
+    "evidence": "as quickly as possible. My friend, this is one of the most beautiful times to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:41.589",
+    "seconds": 521.5889999999999,
+    "type": "observed_spoken",
+    "evidence": "is one of the most beautiful times to be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:41.599",
+    "seconds": 521.599,
+    "type": "observed_spoken",
+    "evidence": "is one of the most beautiful times to be alive. You are now an orchestrator of an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:43.909",
+    "seconds": 523.909,
+    "type": "observed_spoken",
+    "evidence": "alive. You are now an orchestrator of an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:43.919",
+    "seconds": 523.919,
+    "type": "observed_spoken",
+    "evidence": "alive. You are now an orchestrator of an entire marketing operation and you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:45.910",
+    "seconds": 525.91,
+    "type": "observed_spoken",
+    "evidence": "entire marketing operation and you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:45.920",
+    "seconds": 525.92,
+    "type": "observed_spoken",
+    "evidence": "entire marketing operation and you can do and learn awesome tools like this so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.470",
+    "seconds": 528.47,
+    "type": "observed_spoken",
+    "evidence": "do and learn awesome tools like this so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.480",
+    "seconds": 528.48,
+    "type": "observed_spoken",
+    "evidence": "do and learn awesome tools like this so that you can get your message out and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:50.070",
+    "seconds": 530.07,
+    "type": "observed_spoken",
+    "evidence": "that you can get your message out and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:50.080",
+    "seconds": 530.08,
+    "type": "observed_spoken",
+    "evidence": "that you can get your message out and start getting more clients and driving",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:51.750",
+    "seconds": 531.75,
+    "type": "observed_spoken",
+    "evidence": "start getting more clients and driving",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:51.760",
+    "seconds": 531.76,
+    "type": "observed_spoken",
+    "evidence": "start getting more clients and driving more revenue into your business. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:53.750",
+    "seconds": 533.75,
+    "type": "observed_spoken",
+    "evidence": "more revenue into your business. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:53.760",
+    "seconds": 533.76,
+    "type": "observed_spoken",
+    "evidence": "more revenue into your business. And also, if you want to get the viral",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.190",
+    "seconds": 535.19,
+    "type": "observed_spoken",
+    "evidence": "also, if you want to get the viral",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.200",
+    "seconds": 535.2,
+    "type": "observed_spoken",
+    "evidence": "also, if you want to get the viral carousel skill that actually allows us",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:57.269",
+    "seconds": 537.269,
+    "type": "observed_spoken",
+    "evidence": "carousel skill that actually allows us",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:57.279",
+    "seconds": 537.279,
+    "type": "observed_spoken",
+    "evidence": "carousel skill that actually allows us to turn our articles into different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.190",
+    "seconds": 539.19,
+    "type": "observed_spoken",
+    "evidence": "to turn our articles into different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.200",
+    "seconds": 539.2,
+    "type": "observed_spoken",
+    "evidence": "to turn our articles into different slides and viral carousels like this,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:00",
+    "seconds": 540,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000540.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:01.269",
+    "seconds": 541.269,
+    "type": "observed_spoken",
+    "evidence": "slides and viral carousels like this,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:01.279",
+    "seconds": 541.279,
+    "type": "observed_spoken",
+    "evidence": "slides and viral carousels like this, I'll be posting that into our school",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:02.949",
+    "seconds": 542.949,
+    "type": "observed_spoken",
+    "evidence": "I'll be posting that into our school",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:02.959",
+    "seconds": 542.959,
+    "type": "observed_spoken",
+    "evidence": "I'll be posting that into our school community as soon as this video drops.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:05.269",
+    "seconds": 545.269,
+    "type": "observed_spoken",
+    "evidence": "community as soon as this video drops.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:05.279",
+    "seconds": 545.279,
+    "type": "observed_spoken",
+    "evidence": "community as soon as this video drops. So, make sure you jump in, get access to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:06",
+    "seconds": 546,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/_3SEUgRCXX0/frames/frame-000546.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:07.269",
+    "seconds": 547.269,
+    "type": "observed_spoken",
+    "evidence": "So, make sure you jump in, get access to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:07.279",
+    "seconds": 547.279,
+    "type": "observed_spoken",
+    "evidence": "So, make sure you jump in, get access to this, and start marketing yourself. I'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.430",
+    "seconds": 549.43,
+    "type": "observed_spoken",
+    "evidence": "this, and start marketing yourself. I'll",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.440",
+    "seconds": 549.44,
+    "type": "observed_spoken",
+    "evidence": "this, and start marketing yourself. I'll see you on the inside, my friend. Peace.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "OCR unavailable: tesseract/pytesseract not installed or not configured.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  }
+]

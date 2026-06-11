@@ -1,0 +1,992 @@
+# Clean Transcript: xC6N_TNR8wA
+
+Source: https://www.youtube.com/watch?v=xC6N_TNR8wA&t=373s
+Title: 7 Claude Code skills I use every single day (Advanced Tutorial)
+Uploader: Jay E | RoboNuggets
+
+## Transcript
+
+- **00:00:02.070** Skills and skill training have become
+- **00:00:02.080** Skills and skill training have become the bedrock of agentic work. Personally,
+- **00:00:04.150** the bedrock of agentic work. Personally,
+- **00:00:04.160** the bedrock of agentic work. Personally, I've spent a serious amount of time
+- **00:00:05.829** I've spent a serious amount of time
+- **00:00:05.839** I've spent a serious amount of time working with these AI agents and through
+- **00:00:07.670** working with these AI agents and through
+- **00:00:07.680** working with these AI agents and through it, I've landed on seven skills that
+- **00:00:09.910** it, I've landed on seven skills that
+- **00:00:09.920** it, I've landed on seven skills that completely changed how I work. I run an
+- **00:00:11.830** completely changed how I work. I run an
+- **00:00:11.840** completely changed how I work. I run an AI education and consulting business
+- **00:00:13.830** AI education and consulting business
+- **00:00:13.840** AI education and consulting business almost entirely on claude code now as
+- **00:00:15.990** almost entirely on claude code now as
+- **00:00:16.000** almost entirely on claude code now as the operating system and I get to teach
+- **00:00:17.750** the operating system and I get to teach
+- **00:00:17.760** the operating system and I get to teach thousands of people daily on AI, all
+- **00:00:20.390** thousands of people daily on AI, all
+- **00:00:20.400** thousands of people daily on AI, all running on this skills that I'm about to
+- **00:00:22.550** running on this skills that I'm about to
+- **00:00:22.560** running on this skills that I'm about to show you. Point being, I use these every
+- **00:00:24.550** show you. Point being, I use these every
+- **00:00:24.560** show you. Point being, I use these every single day and I reckon some of them
+- **00:00:26.070** single day and I reckon some of them
+- **00:00:26.080** single day and I reckon some of them would be useful to you, too. So, let's
+- **00:00:27.910** would be useful to you, too. So, let's
+- **00:00:27.920** would be useful to you, too. So, let's dive in.
+- **00:00:33.670** The first skill that I definitely use
+- **00:00:33.680** The first skill that I definitely use every day and in every session actually
+- **00:00:35.990** every day and in every session actually
+- **00:00:36.000** every day and in every session actually is called calibrate. And this is
+- **00:00:37.910** is called calibrate. And this is
+- **00:00:37.920** is called calibrate. And this is important because when you're working
+- **00:00:39.190** important because when you're working
+- **00:00:39.200** important because when you're working with agents, what you always need to be
+- **00:00:40.950** with agents, what you always need to be
+- **00:00:40.960** with agents, what you always need to be thinking about is how you can calibrate
+- **00:00:42.709** thinking about is how you can calibrate
+- **00:00:42.719** thinking about is how you can calibrate or improve your agents over time so that
+- **00:00:44.709** or improve your agents over time so that
+- **00:00:44.719** or improve your agents over time so that it better suits your needs. And so the
+- **00:00:46.709** it better suits your needs. And so the
+- **00:00:46.719** it better suits your needs. And so the way that I designed the skill is quite
+- **00:00:48.470** way that I designed the skill is quite
+- **00:00:48.480** way that I designed the skill is quite simple. Basically, at the end of every
+- **00:00:49.990** simple. Basically, at the end of every
+- **00:00:50.000** simple. Basically, at the end of every session, if I want to have that agent
+- **00:00:51.990** session, if I want to have that agent
+- **00:00:52.000** session, if I want to have that agent self-improve itself, I just type in
+- **00:00:53.590** self-improve itself, I just type in
+- **00:00:53.600** self-improve itself, I just type in /calibrate. And what it will do is it
+- **00:00:55.830** /calibrate. And what it will do is it
+- **00:00:55.840** /calibrate. And what it will do is it will scan the current conversation or
+- **00:00:57.750** will scan the current conversation or
+- **00:00:57.760** will scan the current conversation or the session that we have. so far. It
+- **00:00:59.590** the session that we have. so far. It
+- **00:00:59.600** the session that we have. so far. It will detect the corrections that I made
+- **00:01:01.590** will detect the corrections that I made
+- **00:01:01.600** will detect the corrections that I made to it, some preferences and repeated
+- **00:01:03.830** to it, some preferences and repeated
+- **00:01:03.840** to it, some preferences and repeated patterns that I expressed during that
+- **00:01:05.509** patterns that I expressed during that
+- **00:01:05.519** patterns that I expressed during that whole session and then it will suggest
+- **00:01:07.429** whole session and then it will suggest
+- **00:01:07.439** whole session and then it will suggest some concrete updates to skills and not
+- **00:01:10.070** some concrete updates to skills and not
+- **00:01:10.080** some concrete updates to skills and not just skills but also settings as well as
+- **00:01:12.070** just skills but also settings as well as
+- **00:01:12.080** just skills but also settings as well as its memory. Now let's say for this
+- **00:01:13.670** its memory. Now let's say for this
+- **00:01:13.680** its memory. Now let's say for this example which is the session that I used
+- **00:01:15.510** example which is the session that I used
+- **00:01:15.520** example which is the session that I used to automate those B-roll animations that
+- **00:01:17.270** to automate those B-roll animations that
+- **00:01:17.280** to automate those B-roll animations that you saw earlier which are basically
+- **00:01:18.710** you saw earlier which are basically
+- **00:01:18.720** you saw earlier which are basically these videos that were animated via
+- **00:01:20.550** these videos that were animated via
+- **00:01:20.560** these videos that were animated via cling and at the end of that session
+- **00:01:22.070** cling and at the end of that session
+- **00:01:22.080** cling and at the end of that session when I invoke the skill called calibrate
+- **00:01:24.149** when I invoke the skill called calibrate
+- **00:01:24.159** when I invoke the skill called calibrate what it basically did is to scan our
+- **00:01:25.990** what it basically did is to scan our
+- **00:01:26.000** what it basically did is to scan our conversation thus far and suggest some
+- **00:01:28.230** conversation thus far and suggest some
+- **00:01:28.240** conversation thus far and suggest some specific things to calibrate. So it
+- **00:01:30.149** specific things to calibrate. So it
+- **00:01:30.159** specific things to calibrate. So it suggested here changes to my skill which
+- **00:01:32.390** suggested here changes to my skill which
+- **00:01:32.400** suggested here changes to my skill which basically for these cling videos it
+- **00:01:33.990** basically for these cling videos it
+- **00:01:34.000** basically for these cling videos it seems like it detected that KI is
+- **00:01:35.830** seems like it detected that KI is
+- **00:01:35.840** seems like it detected that KI is probably down. That's why it's
+- **00:01:37.030** probably down. That's why it's
+- **00:01:37.040** probably down. That's why it's recommending to default to wave speed.
+- **00:01:38.950** recommending to default to wave speed.
+- **00:01:38.960** recommending to default to wave speed. has recommendations on specific files
+- **00:01:41.030** has recommendations on specific files
+- **00:01:41.040** has recommendations on specific files because it probably encountered an error
+- **00:01:42.630** because it probably encountered an error
+- **00:01:42.640** because it probably encountered an error just because of the naming convention
+- **00:01:43.990** just because of the naming convention
+- **00:01:44.000** just because of the naming convention here and spent a few tokens just to look
+- **00:01:46.389** here and spent a few tokens just to look
+- **00:01:46.399** here and spent a few tokens just to look for the right one. It also gave updates
+- **00:01:48.310** for the right one. It also gave updates
+- **00:01:48.320** for the right one. It also gave updates to memory and also these projects that I
+- **00:01:51.510** to memory and also these projects that I
+- **00:01:51.520** to memory and also these projects that I will talk more about when we get to the
+- **00:01:53.749** will talk more about when we get to the
+- **00:01:53.759** will talk more about when we get to the coordinate scale. And from here, the
+- **00:01:55.670** coordinate scale. And from here, the
+- **00:01:55.680** coordinate scale. And from here, the reason why I designed this scale to give
+- **00:01:57.109** reason why I designed this scale to give
+- **00:01:57.119** reason why I designed this scale to give me numbered recommendations is just so
+- **00:01:59.030** me numbered recommendations is just so
+- **00:01:59.040** me numbered recommendations is just so that I can say apply all of them. Let's
+- **00:02:01.350** that I can say apply all of them. Let's
+- **00:02:01.360** that I can say apply all of them. Let's say except two, which is I think the one
+- **00:02:03.510** say except two, which is I think the one
+- **00:02:03.520** say except two, which is I think the one that is just for the file. And then I'll
+- **00:02:05.350** that is just for the file. And then I'll
+- **00:02:05.360** that is just for the file. And then I'll fire that off and it will apply all of
+- **00:02:07.510** fire that off and it will apply all of
+- **00:02:07.520** fire that off and it will apply all of those fixes to all of those MD markdown
+- **00:02:09.749** those fixes to all of those MD markdown
+- **00:02:09.759** those fixes to all of those MD markdown files. And the next time that we work
+- **00:02:11.990** files. And the next time that we work
+- **00:02:12.000** files. And the next time that we work together on this same workflow, those
+- **00:02:14.309** together on this same workflow, those
+- **00:02:14.319** together on this same workflow, those changes and those improvements,
+- **00:02:15.990** changes and those improvements,
+- **00:02:16.000** changes and those improvements, especially those that frustrated you
+- **00:02:17.750** especially those that frustrated you
+- **00:02:17.760** especially those that frustrated you during your conversation with Cloud Code
+- **00:02:19.830** during your conversation with Cloud Code
+- **00:02:19.840** during your conversation with Cloud Code will now be captured and you will sort
+- **00:02:22.150** will now be captured and you will sort
+- **00:02:22.160** will now be captured and you will sort of just polish more and more your
+- **00:02:24.070** of just polish more and more your
+- **00:02:24.080** of just polish more and more your interaction with these agents until you
+- **00:02:25.750** interaction with these agents until you
+- **00:02:25.760** interaction with these agents until you get to a point that they exactly know
+- **00:02:28.070** get to a point that they exactly know
+- **00:02:28.080** get to a point that they exactly know your preferences and your style. Now in
+- **00:02:30.070** your preferences and your style. Now in
+- **00:02:30.080** your preferences and your style. Now in practice what I actually also did is to
+- **00:02:32.150** practice what I actually also did is to
+- **00:02:32.160** practice what I actually also did is to create a light sort of version or mode
+- **00:02:34.790** create a light sort of version or mode
+- **00:02:34.800** create a light sort of version or mode for this skill where earlier by default
+- **00:02:37.110** for this skill where earlier by default
+- **00:02:37.120** for this skill where earlier by default you saw that it looked at the whole
+- **00:02:38.390** you saw that it looked at the whole
+- **00:02:38.400** you saw that it looked at the whole session in order to give us concrete
+- **00:02:39.830** session in order to give us concrete
+- **00:02:39.840** session in order to give us concrete suggestions but this light mode
+- **00:02:41.670** suggestions but this light mode
+- **00:02:41.680** suggestions but this light mode basically just does a quick sweep and
+- **00:02:43.990** basically just does a quick sweep and
+- **00:02:44.000** basically just does a quick sweep and that is just meant let's say if you are
+- **00:02:45.830** that is just meant let's say if you are
+- **00:02:45.840** that is just meant let's say if you are running out of tokens already then that
+- **00:02:47.589** running out of tokens already then that
+- **00:02:47.599** running out of tokens already then that is a mode that I would probably use for
+- **00:02:50.070** is a mode that I would probably use for
+- **00:02:50.080** is a mode that I would probably use for that particular session. Now, the other
+- **00:02:51.589** that particular session. Now, the other
+- **00:02:51.599** that particular session. Now, the other reason why I have a light mode is
+- **00:02:53.430** reason why I have a light mode is
+- **00:02:53.440** reason why I have a light mode is because in practice, I usually
+- **00:02:55.190** because in practice, I usually
+- **00:02:55.200** because in practice, I usually concurrently run multiple sessions at a
+- **00:02:57.430** concurrently run multiple sessions at a
+- **00:02:57.440** concurrently run multiple sessions at a time here in my IDE. And so, having a
+- **00:02:59.350** time here in my IDE. And so, having a
+- **00:02:59.360** time here in my IDE. And so, having a light option just gives me that
+- **00:03:01.110** light option just gives me that
+- **00:03:01.120** light option just gives me that optionality, especially for those
+- **00:03:02.949** optionality, especially for those
+- **00:03:02.959** optionality, especially for those sessions where I know I didn't really do
+- **00:03:05.030** sessions where I know I didn't really do
+- **00:03:05.040** sessions where I know I didn't really do much work. In practice, also, what I
+- **00:03:07.110** much work. In practice, also, what I
+- **00:03:07.120** much work. In practice, also, what I find myself doing is just accept all of
+- **00:03:09.430** find myself doing is just accept all of
+- **00:03:09.440** find myself doing is just accept all of these edits instead of having to pour
+- **00:03:11.750** these edits instead of having to pour
+- **00:03:11.760** these edits instead of having to pour over each one of these, just because the
+- **00:03:13.589** over each one of these, just because the
+- **00:03:13.599** over each one of these, just because the next time you work with your agent
+- **00:03:14.869** next time you work with your agent
+- **00:03:14.879** next time you work with your agent anyway, you can just continuously use
+- **00:03:16.790** anyway, you can just continuously use
+- **00:03:16.800** anyway, you can just continuously use calibrate in order to improve it more
+- **00:03:18.710** calibrate in order to improve it more
+- **00:03:18.720** calibrate in order to improve it more and more. Now, for you to get the most
+- **00:03:20.309** and more. Now, for you to get the most
+- **00:03:20.319** and more. Now, for you to get the most out of your agents and claude code, you
+- **00:03:22.309** out of your agents and claude code, you
+- **00:03:22.319** out of your agents and claude code, you need to learn how to work with multiple
+- **00:03:23.990** need to learn how to work with multiple
+- **00:03:24.000** need to learn how to work with multiple sessions at once. Because the way these
+- **00:03:25.990** sessions at once. Because the way these
+- **00:03:26.000** sessions at once. Because the way these agents work, you may have noticed that
+- **00:03:27.830** agents work, you may have noticed that
+- **00:03:27.840** agents work, you may have noticed that they do sometimes take a long time, like
+- **00:03:29.750** they do sometimes take a long time, like
+- **00:03:29.760** they do sometimes take a long time, like sometimes a few minutes at a time in
+- **00:03:31.830** sometimes a few minutes at a time in
+- **00:03:31.840** sometimes a few minutes at a time in order to complete the task that you gave
+- **00:03:33.350** order to complete the task that you gave
+- **00:03:33.360** order to complete the task that you gave it. And so, obviously, while that
+- **00:03:34.710** it. And so, obviously, while that
+- **00:03:34.720** it. And so, obviously, while that particular session is running, then the
+- **00:03:36.390** particular session is running, then the
+- **00:03:36.400** particular session is running, then the natural inclination is for you to open
+- **00:03:38.789** natural inclination is for you to open
+- **00:03:38.799** natural inclination is for you to open up a session, start a new one here, and
+- **00:03:40.869** up a session, start a new one here, and
+- **00:03:40.879** up a session, start a new one here, and then just assign a new task. But what if
+- **00:03:43.350** then just assign a new task. But what if
+- **00:03:43.360** then just assign a new task. But what if you're working on the same project and
+- **00:03:44.869** you're working on the same project and
+- **00:03:44.879** you're working on the same project and you just want this other session to do
+- **00:03:46.869** you just want this other session to do
+- **00:03:46.879** you just want this other session to do another task in parallel that is related
+- **00:03:48.949** another task in parallel that is related
+- **00:03:48.959** another task in parallel that is related to that project. Do you now need to
+- **00:03:50.869** to that project. Do you now need to
+- **00:03:50.879** to that project. Do you now need to redescribe the whole project context in
+- **00:03:52.869** redescribe the whole project context in
+- **00:03:52.879** redescribe the whole project context in order to get this session up to speed
+- **00:03:55.030** order to get this session up to speed
+- **00:03:55.040** order to get this session up to speed with what you are building? Probably
+- **00:03:56.470** with what you are building? Probably
+- **00:03:56.480** with what you are building? Probably not, right? And that is why for me
+- **00:03:58.309** not, right? And that is why for me
+- **00:03:58.319** not, right? And that is why for me personally I made this skill cord
+- **00:04:00.149** personally I made this skill cord
+- **00:04:00.159** personally I made this skill cord coordinate that basically lets different
+- **00:04:02.470** coordinate that basically lets different
+- **00:04:02.480** coordinate that basically lets different sessions coordinate on one project. And
+- **00:04:04.869** sessions coordinate on one project. And
+- **00:04:04.879** sessions coordinate on one project. And by the way, if you're interested in
+- **00:04:05.990** by the way, if you're interested in
+- **00:04:06.000** by the way, if you're interested in going from just using AI to getting paid
+- **00:04:07.750** going from just using AI to getting paid
+- **00:04:07.760** going from just using AI to getting paid for it, then check out the Robo Nuggets
+- **00:04:09.270** for it, then check out the Robo Nuggets
+- **00:04:09.280** for it, then check out the Robo Nuggets community down in the description. We've
+- **00:04:10.789** community down in the description. We've
+- **00:04:10.799** community down in the description. We've got founders in there who landed their
+- **00:04:12.229** got founders in there who landed their
+- **00:04:12.239** got founders in there who landed their first client in weeks, live build
+- **00:04:13.670** first client in weeks, live build
+- **00:04:13.680** first client in weeks, live build sessions where we create this stuff
+- **00:04:14.949** sessions where we create this stuff
+- **00:04:14.959** sessions where we create this stuff together, and the actual templates
+- **00:04:16.229** together, and the actual templates
+- **00:04:16.239** together, and the actual templates behind what I just showed in this video.
+- **00:04:17.990** behind what I just showed in this video.
+- **00:04:18.000** behind what I just showed in this video. The community is also the reason these
+- **00:04:19.430** The community is also the reason these
+- **00:04:19.440** The community is also the reason these lessons get made. So, see that below if
+- **00:04:21.110** lessons get made. So, see that below if
+- **00:04:21.120** lessons get made. So, see that below if that's for you. And the way that works
+- **00:04:22.790** that's for you. And the way that works
+- **00:04:22.800** that's for you. And the way that works is quite simple. Basically, whenever I
+- **00:04:24.950** is quite simple. Basically, whenever I
+- **00:04:24.960** is quite simple. Basically, whenever I invoke it, it will create this folder in
+- **00:04:27.350** invoke it, it will create this folder in
+- **00:04:27.360** invoke it, it will create this folder in my shared projects workspace. And the
+- **00:04:29.590** my shared projects workspace. And the
+- **00:04:29.600** my shared projects workspace. And the two fixed files that it will create is
+- **00:04:31.590** two fixed files that it will create is
+- **00:04:31.600** two fixed files that it will create is this context.md basically giving context
+- **00:04:34.150** this context.md basically giving context
+- **00:04:34.160** this context.md basically giving context to whichever agent is working on this
+- **00:04:35.990** to whichever agent is working on this
+- **00:04:36.000** to whichever agent is working on this project on what the project is even
+- **00:04:37.909** project on what the project is even
+- **00:04:37.919** project on what the project is even about. and also the session log so that
+- **00:04:40.230** about. and also the session log so that
+- **00:04:40.240** about. and also the session log so that let's say this project is happening over
+- **00:04:41.909** let's say this project is happening over
+- **00:04:41.919** let's say this project is happening over multiple days then the next day that you
+- **00:04:43.909** multiple days then the next day that you
+- **00:04:43.919** multiple days then the next day that you open up a new session if you need to
+- **00:04:45.590** open up a new session if you need to
+- **00:04:45.600** open up a new session if you need to they can just read this session log and
+- **00:04:47.909** they can just read this session log and
+- **00:04:47.919** they can just read this session log and be up to speed about what was the latest
+- **00:04:49.909** be up to speed about what was the latest
+- **00:04:49.919** be up to speed about what was the latest that happened for this project and then
+- **00:04:51.510** that happened for this project and then
+- **00:04:51.520** that happened for this project and then obviously you can just create different
+- **00:04:53.189** obviously you can just create different
+- **00:04:53.199** obviously you can just create different files depending on that particular work
+- **00:04:55.749** files depending on that particular work
+- **00:04:55.759** files depending on that particular work that you are doing to give you an idea
+- **00:04:57.270** that you are doing to give you an idea
+- **00:04:57.280** that you are doing to give you an idea of how I use this let's say I want to
+- **00:04:59.270** of how I use this let's say I want to
+- **00:04:59.280** of how I use this let's say I want to start a project for a particular client
+- **00:05:01.270** start a project for a particular client
+- **00:05:01.280** start a project for a particular client so you can see here that I just gave
+- **00:05:02.550** so you can see here that I just gave
+- **00:05:02.560** so you can see here that I just gave this blur via voice dictation earlier
+- **00:05:04.790** this blur via voice dictation earlier
+- **00:05:04.800** this blur via voice dictation earlier and I just ask it to create a project
+- **00:05:06.790** and I just ask it to create a project
+- **00:05:06.800** and I just ask it to create a project for this automation for this business
+- **00:05:09.029** for this automation for this business
+- **00:05:09.039** for this automation for this business that we are working with. So I just
+- **00:05:10.390** that we are working with. So I just
+- **00:05:10.400** that we are working with. So I just invoke /coordinate in there and what it
+- **00:05:12.710** invoke /coordinate in there and what it
+- **00:05:12.720** invoke /coordinate in there and what it basically did for us if I zoom that out
+- **00:05:15.110** basically did for us if I zoom that out
+- **00:05:15.120** basically did for us if I zoom that out is create this folder under shared/
+- **00:05:17.909** is create this folder under shared/
+- **00:05:17.919** is create this folder under shared/ projects that includes the context of
+- **00:05:19.909** projects that includes the context of
+- **00:05:19.919** projects that includes the context of this piece that we said and then as you
+- **00:05:21.670** this piece that we said and then as you
+- **00:05:21.680** this piece that we said and then as you provide more documentation to it or ask
+- **00:05:23.670** provide more documentation to it or ask
+- **00:05:23.680** provide more documentation to it or ask it to research best practices for this
+- **00:05:26.070** it to research best practices for this
+- **00:05:26.080** it to research best practices for this particular work. Then it will put all of
+- **00:05:28.310** particular work. Then it will put all of
+- **00:05:28.320** particular work. Then it will put all of those contexts and those details in this
+- **00:05:30.950** those contexts and those details in this
+- **00:05:30.960** those contexts and those details in this folder. And later I'll show you how to
+- **00:05:32.870** folder. And later I'll show you how to
+- **00:05:32.880** folder. And later I'll show you how to on board several other cloud code
+- **00:05:34.629** on board several other cloud code
+- **00:05:34.639** on board several other cloud code sessions in this one project folder so
+- **00:05:36.550** sessions in this one project folder so
+- **00:05:36.560** sessions in this one project folder so that they are working on the same thing
+- **00:05:37.749** that they are working on the same thing
+- **00:05:37.759** that they are working on the same thing if you want to work concurrently with
+- **00:05:39.270** if you want to work concurrently with
+- **00:05:39.280** if you want to work concurrently with your agents. But you can see just from
+- **00:05:40.870** your agents. But you can see just from
+- **00:05:40.880** your agents. But you can see just from this it allows you to basically store
+- **00:05:42.790** this it allows you to basically store
+- **00:05:42.800** this it allows you to basically store that context from just a subsection of
+- **00:05:45.510** that context from just a subsection of
+- **00:05:45.520** that context from just a subsection of your operating system. Right? And if you
+- **00:05:47.749** your operating system. Right? And if you
+- **00:05:47.759** your operating system. Right? And if you see here under share projects I already
+- **00:05:49.749** see here under share projects I already
+- **00:05:49.759** see here under share projects I already have like several projects in here. Some
+- **00:05:51.749** have like several projects in here. Some
+- **00:05:51.759** have like several projects in here. Some of them like these projects indexed or
+- **00:05:53.670** of them like these projects indexed or
+- **00:05:53.680** of them like these projects indexed or prefaced with CR content. So that's the
+- **00:05:55.909** prefaced with CR content. So that's the
+- **00:05:55.919** prefaced with CR content. So that's the ones that I publish as lessons. But you
+- **00:05:57.909** ones that I publish as lessons. But you
+- **00:05:57.919** ones that I publish as lessons. But you can see here I also have projects for
+- **00:05:59.830** can see here I also have projects for
+- **00:05:59.840** can see here I also have projects for even nonwork stuff. Like the other day I
+- **00:06:01.830** even nonwork stuff. Like the other day I
+- **00:06:01.840** even nonwork stuff. Like the other day I was researching for a proper microwave
+- **00:06:03.670** was researching for a proper microwave
+- **00:06:03.680** was researching for a proper microwave because ours broke the other day. And so
+- **00:06:05.430** because ours broke the other day. And so
+- **00:06:05.440** because ours broke the other day. And so I just asked Cloud Code to research that
+- **00:06:07.029** I just asked Cloud Code to research that
+- **00:06:07.039** I just asked Cloud Code to research that for me. It included context of that
+- **00:06:08.870** for me. It included context of that
+- **00:06:08.880** for me. It included context of that blurb that I gave it over a telegram.
+- **00:06:10.710** blurb that I gave it over a telegram.
+- **00:06:10.720** blurb that I gave it over a telegram. And because I had it researched some
+- **00:06:12.309** And because I had it researched some
+- **00:06:12.319** And because I had it researched some options for me, it also logged that
+- **00:06:14.230** options for me, it also logged that
+- **00:06:14.240** options for me, it also logged that context in here. And for this session
+- **00:06:16.070** context in here. And for this session
+- **00:06:16.080** context in here. And for this session log, obviously this one is quite small,
+- **00:06:18.230** log, obviously this one is quite small,
+- **00:06:18.240** log, obviously this one is quite small, but it just lists down the sessions that
+- **00:06:19.990** but it just lists down the sessions that
+- **00:06:20.000** but it just lists down the sessions that I had with it. So this is the context
+- **00:06:21.909** I had with it. So this is the context
+- **00:06:21.919** I had with it. So this is the context for session one. And then this one is
+- **00:06:23.270** for session one. And then this one is
+- **00:06:23.280** for session one. And then this one is the context for session two. And so
+- **00:06:24.950** the context for session two. And so
+- **00:06:24.960** the context for session two. And so because I use it now even for those
+- **00:06:27.270** because I use it now even for those
+- **00:06:27.280** because I use it now even for those minute projects, I actually made a light
+- **00:06:29.830** minute projects, I actually made a light
+- **00:06:29.840** minute projects, I actually made a light version of this as well. So to give one
+- **00:06:31.510** version of this as well. So to give one
+- **00:06:31.520** version of this as well. So to give one practical example, let's say you want to
+- **00:06:33.510** practical example, let's say you want to
+- **00:06:33.520** practical example, let's say you want to research for Father's Day gift ideas and
+- **00:06:35.670** research for Father's Day gift ideas and
+- **00:06:35.680** research for Father's Day gift ideas and I gave it some initial thoughts in here
+- **00:06:37.350** I gave it some initial thoughts in here
+- **00:06:37.360** I gave it some initial thoughts in here and I just said coordinate light. And
+- **00:06:38.950** and I just said coordinate light. And
+- **00:06:38.960** and I just said coordinate light. And basically that gave Cloud Code the
+- **00:06:40.469** basically that gave Cloud Code the
+- **00:06:40.479** basically that gave Cloud Code the instructions to create this shared
+- **00:06:42.469** instructions to create this shared
+- **00:06:42.479** instructions to create this shared project so that the next time that I
+- **00:06:44.070** project so that the next time that I
+- **00:06:44.080** project so that the next time that I remember to pick up this project, then I
+- **00:06:46.150** remember to pick up this project, then I
+- **00:06:46.160** remember to pick up this project, then I can just continue my research here in
+- **00:06:47.430** can just continue my research here in
+- **00:06:47.440** can just continue my research here in Claude Code or more likely since I have
+- **00:06:49.350** Claude Code or more likely since I have
+- **00:06:49.360** Claude Code or more likely since I have Cloud Code connected to Telegram, I'll
+- **00:06:51.350** Cloud Code connected to Telegram, I'll
+- **00:06:51.360** Cloud Code connected to Telegram, I'll probably pick this up on my mobile at
+- **00:06:53.270** probably pick this up on my mobile at
+- **00:06:53.280** probably pick this up on my mobile at some point when I have downtime. But
+- **00:06:55.029** some point when I have downtime. But
+- **00:06:55.039** some point when I have downtime. But that begs the question, right? Because
+- **00:06:56.390** that begs the question, right? Because
+- **00:06:56.400** that begs the question, right? Because this session on Telegram or even a new
+- **00:06:58.629** this session on Telegram or even a new
+- **00:06:58.639** this session on Telegram or even a new session here in the IDE, how do you
+- **00:07:00.950** session here in the IDE, how do you
+- **00:07:00.960** session here in the IDE, how do you actually on board this new session to
+- **00:07:03.029** actually on board this new session to
+- **00:07:03.039** actually on board this new session to that project? Well, that is the third
+- **00:07:04.710** that project? Well, that is the third
+- **00:07:04.720** that project? Well, that is the third skill that I use every day. And this one
+- **00:07:06.390** skill that I use every day. And this one
+- **00:07:06.400** skill that I use every day. And this one is very simple because all it does is
+- **00:07:08.550** is very simple because all it does is
+- **00:07:08.560** is very simple because all it does is give context to that particular session
+- **00:07:10.469** give context to that particular session
+- **00:07:10.479** give context to that particular session for whatever project it is that you are
+- **00:07:12.390** for whatever project it is that you are
+- **00:07:12.400** for whatever project it is that you are working with. And how it works is
+- **00:07:14.230** working with. And how it works is
+- **00:07:14.240** working with. And how it works is simple. So when I invoke that skill and
+- **00:07:16.469** simple. So when I invoke that skill and
+- **00:07:16.479** simple. So when I invoke that skill and give an idea of the project that I want
+- **00:07:18.230** give an idea of the project that I want
+- **00:07:18.240** give an idea of the project that I want it to be on boarded on, what it
+- **00:07:19.830** it to be on boarded on, what it
+- **00:07:19.840** it to be on boarded on, what it basically does is looks for that project
+- **00:07:21.909** basically does is looks for that project
+- **00:07:21.919** basically does is looks for that project under our shared projects folder and it
+- **00:07:23.909** under our shared projects folder and it
+- **00:07:23.919** under our shared projects folder and it basically just reads the context and the
+- **00:07:26.070** basically just reads the context and the
+- **00:07:26.080** basically just reads the context and the session logs for that project so that
+- **00:07:28.150** session logs for that project so that
+- **00:07:28.160** session logs for that project so that this session is up to speed with the
+- **00:07:29.909** this session is up to speed with the
+- **00:07:29.919** this session is up to speed with the latest on what this project is about and
+- **00:07:32.230** latest on what this project is about and
+- **00:07:32.240** latest on what this project is about and what are the updates related to it. Now
+- **00:07:34.230** what are the updates related to it. Now
+- **00:07:34.240** what are the updates related to it. Now a bit of an advanced tip if in case you
+- **00:07:36.309** a bit of an advanced tip if in case you
+- **00:07:36.319** a bit of an advanced tip if in case you are starting to get to the point where
+- **00:07:37.589** are starting to get to the point where
+- **00:07:37.599** are starting to get to the point where you are working with multiple sessions.
+- **00:07:39.430** you are working with multiple sessions.
+- **00:07:39.440** you are working with multiple sessions. Let's say you on boarded this cloud code
+- **00:07:41.270** Let's say you on boarded this cloud code
+- **00:07:41.280** Let's say you on boarded this cloud code session into this project lockags AU.
+- **00:07:43.990** session into this project lockags AU.
+- **00:07:44.000** session into this project lockags AU. What you can actually do in order to
+- **00:07:45.510** What you can actually do in order to
+- **00:07:45.520** What you can actually do in order to save some tokens at least here on the
+- **00:07:47.670** save some tokens at least here on the
+- **00:07:47.680** save some tokens at least here on the IDE. So either anti-gravity or VS code
+- **00:07:50.390** IDE. So either anti-gravity or VS code
+- **00:07:50.400** IDE. So either anti-gravity or VS code is you can click on this button at the
+- **00:07:52.309** is you can click on this button at the
+- **00:07:52.319** is you can click on this button at the top right and just click fork
+- **00:07:54.230** top right and just click fork
+- **00:07:54.240** top right and just click fork conversation from here. And what that
+- **00:07:55.909** conversation from here. And what that
+- **00:07:55.919** conversation from here. And what that will do is spawn that same session with
+- **00:07:58.550** will do is spawn that same session with
+- **00:07:58.560** will do is spawn that same session with the project already onboarded. And you
+- **00:08:01.029** the project already onboarded. And you
+- **00:08:01.039** the project already onboarded. And you can actually do this for whichever
+- **00:08:02.469** can actually do this for whichever
+- **00:08:02.479** can actually do this for whichever session if in case you just want to fork
+- **00:08:04.629** session if in case you just want to fork
+- **00:08:04.639** session if in case you just want to fork that conversation meaning whatever was
+- **00:08:06.629** that conversation meaning whatever was
+- **00:08:06.639** that conversation meaning whatever was the context for this particular session
+- **00:08:08.869** the context for this particular session
+- **00:08:08.879** the context for this particular session you just want to port it and take it to
+- **00:08:10.950** you just want to port it and take it to
+- **00:08:10.960** you just want to port it and take it to another direction or to another task for
+- **00:08:12.869** another direction or to another task for
+- **00:08:12.879** another direction or to another task for example. And you can see here what that
+- **00:08:14.150** example. And you can see here what that
+- **00:08:14.160** example. And you can see here what that basically did is to copy all of this
+- **00:08:16.230** basically did is to copy all of this
+- **00:08:16.240** basically did is to copy all of this session chat logs up until this point
+- **00:08:18.790** session chat logs up until this point
+- **00:08:18.800** session chat logs up until this point where I sent this prompt. And you can
+- **00:08:20.629** where I sent this prompt. And you can
+- **00:08:20.639** where I sent this prompt. And you can see that prompt is now loaded into our
+- **00:08:22.950** see that prompt is now loaded into our
+- **00:08:22.960** see that prompt is now loaded into our text box. And from here you can give it
+- **00:08:24.950** text box. And from here you can give it
+- **00:08:24.960** text box. And from here you can give it another task like for example check
+- **00:08:26.869** another task like for example check
+- **00:08:26.879** another task like for example check their competitors and what they're doing
+- **00:08:28.550** their competitors and what they're doing
+- **00:08:28.560** their competitors and what they're doing for example. And then once you get more
+- **00:08:29.909** for example. And then once you get more
+- **00:08:29.919** for example. And then once you get more comfortable with it, you can just
+- **00:08:31.029** comfortable with it, you can just
+- **00:08:31.039** comfortable with it, you can just continuously do that so that you can
+- **00:08:32.630** continuously do that so that you can
+- **00:08:32.640** continuously do that so that you can fork that conversation and have multiple
+- **00:08:35.110** fork that conversation and have multiple
+- **00:08:35.120** fork that conversation and have multiple sessions running at the same time. And
+- **00:08:36.550** sessions running at the same time. And
+- **00:08:36.560** sessions running at the same time. And the good news about all of those is that
+- **00:08:37.990** the good news about all of those is that
+- **00:08:38.000** the good news about all of those is that they are on boarded to this project so
+- **00:08:39.909** they are on boarded to this project so
+- **00:08:39.919** they are on boarded to this project so that they are working on just this one
+- **00:08:42.310** that they are working on just this one
+- **00:08:42.320** that they are working on just this one folder. Now I'll take you through some
+- **00:08:43.990** folder. Now I'll take you through some
+- **00:08:44.000** folder. Now I'll take you through some of the skills that I use in order to
+- **00:08:45.990** of the skills that I use in order to
+- **00:08:46.000** of the skills that I use in order to work better with the agents within that
+- **00:08:48.389** work better with the agents within that
+- **00:08:48.399** work better with the agents within that session. And the first one that is
+- **00:08:50.230** session. And the first one that is
+- **00:08:50.240** session. And the first one that is really important is called align. And
+- **00:08:52.470** really important is called align. And
+- **00:08:52.480** really important is called align. And it's very simple. When you invoke this
+- **00:08:54.310** it's very simple. When you invoke this
+- **00:08:54.320** it's very simple. When you invoke this skill, it will just force the agent to
+- **00:08:56.389** skill, it will just force the agent to
+- **00:08:56.399** skill, it will just force the agent to ask you clarifying questions so that
+- **00:08:58.310** ask you clarifying questions so that
+- **00:08:58.320** ask you clarifying questions so that your intention is aligned. And just to
+- **00:09:00.150** your intention is aligned. And just to
+- **00:09:00.160** your intention is aligned. And just to show how that looks like in this same
+- **00:09:01.990** show how that looks like in this same
+- **00:09:02.000** show how that looks like in this same project that we started earlier, the
+- **00:09:03.430** project that we started earlier, the
+- **00:09:03.440** project that we started earlier, the same session. So you can see I just
+- **00:09:04.870** same session. So you can see I just
+- **00:09:04.880** same session. So you can see I just invoked align five. And what that will
+- **00:09:07.269** invoked align five. And what that will
+- **00:09:07.279** invoked align five. And what that will basically do is ask me five numbered
+- **00:09:09.910** basically do is ask me five numbered
+- **00:09:09.920** basically do is ask me five numbered questions around this project. So you
+- **00:09:12.070** questions around this project. So you
+- **00:09:12.080** questions around this project. So you can see here it's asking me around the
+- **00:09:13.590** can see here it's asking me around the
+- **00:09:13.600** can see here it's asking me around the scope of this engagement. It gives me a
+- **00:09:15.590** scope of this engagement. It gives me a
+- **00:09:15.600** scope of this engagement. It gives me a question around who owns the air table.
+- **00:09:17.190** question around who owns the air table.
+- **00:09:17.200** question around who owns the air table. And I also designed it so that not only
+- **00:09:19.190** And I also designed it so that not only
+- **00:09:19.200** And I also designed it so that not only does it ask me numbered questions, but
+- **00:09:20.949** does it ask me numbered questions, but
+- **00:09:20.959** does it ask me numbered questions, but it also gives me lettered options for
+- **00:09:22.949** it also gives me lettered options for
+- **00:09:22.959** it also gives me lettered options for each one. So that let's say if I want to
+- **00:09:24.790** each one. So that let's say if I want to
+- **00:09:24.800** each one. So that let's say if I want to type this out easily, I can just type in
+- **00:09:26.949** type this out easily, I can just type in
+- **00:09:26.959** type this out easily, I can just type in the question number and then my answer
+- **00:09:28.230** the question number and then my answer
+- **00:09:28.240** the question number and then my answer to that question. Go to the next query
+- **00:09:29.910** to that question. Go to the next query
+- **00:09:29.920** to that question. Go to the next query and type in my answer to that or even
+- **00:09:32.150** and type in my answer to that or even
+- **00:09:32.160** and type in my answer to that or even add other notes in here. Usually though,
+- **00:09:34.470** add other notes in here. Usually though,
+- **00:09:34.480** add other notes in here. Usually though, I just use my voice dictation app, which
+- **00:09:36.630** I just use my voice dictation app, which
+- **00:09:36.640** I just use my voice dictation app, which is Aqua is what I'm using. And that just
+- **00:09:39.110** is Aqua is what I'm using. And that just
+- **00:09:39.120** is Aqua is what I'm using. And that just allows me to insert text and thoughts to
+- **00:09:41.990** allows me to insert text and thoughts to
+- **00:09:42.000** allows me to insert text and thoughts to answer those questions in turn. And with
+- **00:09:44.150** answer those questions in turn. And with
+- **00:09:44.160** answer those questions in turn. And with that, that's just a nice and easy way
+- **00:09:45.670** that, that's just a nice and easy way
+- **00:09:45.680** that, that's just a nice and easy way for you to align with your agent.
+- **00:09:47.030** for you to align with your agent.
+- **00:09:47.040** for you to align with your agent. Because remember, when you are working
+- **00:09:48.470** Because remember, when you are working
+- **00:09:48.480** Because remember, when you are working with these AI agents, what you're
+- **00:09:50.150** with these AI agents, what you're
+- **00:09:50.160** with these AI agents, what you're basically doing is steering them towards
+- **00:09:52.230** basically doing is steering them towards
+- **00:09:52.240** basically doing is steering them towards the output that you want. And just to
+- **00:09:53.990** the output that you want. And just to
+- **00:09:54.000** the output that you want. And just to illustrate that quickly, let's say this
+- **00:09:55.509** illustrate that quickly, let's say this
+- **00:09:55.519** illustrate that quickly, let's say this is your agent and this is the output
+- **00:09:58.230** is your agent and this is the output
+- **00:09:58.240** is your agent and this is the output that you want. When you send a prompt,
+- **00:10:00.230** that you want. When you send a prompt,
+- **00:10:00.240** that you want. When you send a prompt, what you're basically doing is steering
+- **00:10:02.070** what you're basically doing is steering
+- **00:10:02.080** what you're basically doing is steering them or guiding them in order to search
+- **00:10:04.389** them or guiding them in order to search
+- **00:10:04.399** them or guiding them in order to search or find this output or target that you
+- **00:10:07.190** or find this output or target that you
+- **00:10:07.200** or find this output or target that you want by the end of that session. And
+- **00:10:08.870** want by the end of that session. And
+- **00:10:08.880** want by the end of that session. And usually when you provide a generic
+- **00:10:11.350** usually when you provide a generic
+- **00:10:11.360** usually when you provide a generic prompt or a misguided direction, what
+- **00:10:13.590** prompt or a misguided direction, what
+- **00:10:13.600** prompt or a misguided direction, what commonly happens is that you send in
+- **00:10:15.509** commonly happens is that you send in
+- **00:10:15.519** commonly happens is that you send in multiple prompts, you use up multiple
+- **00:10:17.430** multiple prompts, you use up multiple
+- **00:10:17.440** multiple prompts, you use up multiple tokens up until you get to that X. But
+- **00:10:20.870** tokens up until you get to that X. But
+- **00:10:20.880** tokens up until you get to that X. But if you use a skill like align, what that
+- **00:10:23.190** if you use a skill like align, what that
+- **00:10:23.200** if you use a skill like align, what that will essentially do is align your agent
+- **00:10:25.509** will essentially do is align your agent
+- **00:10:25.519** will essentially do is align your agent towards what it is that you want. And so
+- **00:10:27.190** towards what it is that you want. And so
+- **00:10:27.200** towards what it is that you want. And so the scope of the possible outcomes that
+- **00:10:29.910** the scope of the possible outcomes that
+- **00:10:29.920** the scope of the possible outcomes that it provides to you is now much narrower
+- **00:10:33.030** it provides to you is now much narrower
+- **00:10:33.040** it provides to you is now much narrower because it now has a clearer idea of
+- **00:10:35.190** because it now has a clearer idea of
+- **00:10:35.200** because it now has a clearer idea of what it is that you want by the end of
+- **00:10:36.710** what it is that you want by the end of
+- **00:10:36.720** what it is that you want by the end of that session. What would now happen is
+- **00:10:38.230** that session. What would now happen is
+- **00:10:38.240** that session. What would now happen is that you now have an agent that is more
+- **00:10:40.550** that you now have an agent that is more
+- **00:10:40.560** that you now have an agent that is more directed and properly steered towards
+- **00:10:43.030** directed and properly steered towards
+- **00:10:43.040** directed and properly steered towards that output. Which brings us to a
+- **00:10:44.870** that output. Which brings us to a
+- **00:10:44.880** that output. Which brings us to a slightly related skill called devil.
+- **00:10:47.350** slightly related skill called devil.
+- **00:10:47.360** slightly related skill called devil. That stands for devil's advocate. And
+- **00:10:49.190** That stands for devil's advocate. And
+- **00:10:49.200** That stands for devil's advocate. And again, this one is just a simple skill.
+- **00:10:50.870** again, this one is just a simple skill.
+- **00:10:50.880** again, this one is just a simple skill. But I'm finding that a lot of these
+- **00:10:52.150** But I'm finding that a lot of these
+- **00:10:52.160** But I'm finding that a lot of these skills that are actually useful are
+- **00:10:53.750** skills that are actually useful are
+- **00:10:53.760** skills that are actually useful are quite simple in their nature. And this
+- **00:10:55.430** quite simple in their nature. And this
+- **00:10:55.440** quite simple in their nature. And this type of skill is important because if
+- **00:10:57.190** type of skill is important because if
+- **00:10:57.200** type of skill is important because if you've worked with any LLMs or any AI
+- **00:10:59.430** you've worked with any LLMs or any AI
+- **00:10:59.440** you've worked with any LLMs or any AI models before, you might have noticed
+- **00:11:01.030** models before, you might have noticed
+- **00:11:01.040** models before, you might have noticed that they have a tendency to be a bit
+- **00:11:02.870** that they have a tendency to be a bit
+- **00:11:02.880** that they have a tendency to be a bit more syophantic, which means that they
+- **00:11:04.710** more syophantic, which means that they
+- **00:11:04.720** more syophantic, which means that they are yes people. they sort of adhere to
+- **00:11:06.949** are yes people. they sort of adhere to
+- **00:11:06.959** are yes people. they sort of adhere to whatever it is that you say is correct.
+- **00:11:08.630** whatever it is that you say is correct.
+- **00:11:08.640** whatever it is that you say is correct. Now, this devil's advocate skill just
+- **00:11:10.630** Now, this devil's advocate skill just
+- **00:11:10.640** Now, this devil's advocate skill just reverses that so that it forces the
+- **00:11:12.550** reverses that so that it forces the
+- **00:11:12.560** reverses that so that it forces the model to have a more contrarian view to
+- **00:11:14.710** model to have a more contrarian view to
+- **00:11:14.720** model to have a more contrarian view to whatever it is that you're doing so that
+- **00:11:16.310** whatever it is that you're doing so that
+- **00:11:16.320** whatever it is that you're doing so that you can understand what other approaches
+- **00:11:18.470** you can understand what other approaches
+- **00:11:18.480** you can understand what other approaches or angles may be viable that you haven't
+- **00:11:21.190** or angles may be viable that you haven't
+- **00:11:21.200** or angles may be viable that you haven't really considered before. To give one
+- **00:11:22.870** really considered before. To give one
+- **00:11:22.880** really considered before. To give one simple example using the project that we
+- **00:11:24.949** simple example using the project that we
+- **00:11:24.959** simple example using the project that we were working on earlier in the session
+- **00:11:26.630** were working on earlier in the session
+- **00:11:26.640** were working on earlier in the session you can see we search for ways to
+- **00:11:28.150** you can see we search for ways to
+- **00:11:28.160** you can see we search for ways to connect to air tableable and then let's
+- **00:11:29.670** connect to air tableable and then let's
+- **00:11:29.680** connect to air tableable and then let's say we chose this option two and we want
+- **00:11:32.230** say we chose this option two and we want
+- **00:11:32.240** say we chose this option two and we want to verify and have cloud code play
+- **00:11:34.550** to verify and have cloud code play
+- **00:11:34.560** to verify and have cloud code play devils advocate if this is a good option
+- **00:11:36.550** devils advocate if this is a good option
+- **00:11:36.560** devils advocate if this is a good option for us or not and so what I would do in
+- **00:11:38.150** for us or not and so what I would do in
+- **00:11:38.160** for us or not and so what I would do in this case is to invoke that devil skill
+- **00:11:40.389** this case is to invoke that devil skill
+- **00:11:40.399** this case is to invoke that devil skill give it a number which is basically the
+- **00:11:42.389** give it a number which is basically the
+- **00:11:42.399** give it a number which is basically the number of bullet points or feedback
+- **00:11:44.150** number of bullet points or feedback
+- **00:11:44.160** number of bullet points or feedback points that I would want and obviously I
+- **00:11:45.590** points that I would want and obviously I
+- **00:11:45.600** points that I would want and obviously I can increase that depending on how
+- **00:11:47.190** can increase that depending on how
+- **00:11:47.200** can increase that depending on how important this task is and I just gave
+- **00:11:48.870** important this task is and I just gave
+- **00:11:48.880** important this task is and I just gave it some guidance to play devil's
+- **00:11:50.470** it some guidance to play devil's
+- **00:11:50.480** it some guidance to play devil's advocate for that option too that we
+- **00:11:52.230** advocate for that option too that we
+- **00:11:52.240** advocate for that option too that we were saying earlier. And you can see
+- **00:11:53.590** were saying earlier. And you can see
+- **00:11:53.600** were saying earlier. And you can see here it is giving me some really valid
+- **00:11:56.230** here it is giving me some really valid
+- **00:11:56.240** here it is giving me some really valid feedback points. So it's saying here
+- **00:11:57.750** feedback points. So it's saying here
+- **00:11:57.760** feedback points. So it's saying here that it's a oneperson GitHub repo with
+- **00:11:59.670** that it's a oneperson GitHub repo with
+- **00:11:59.680** that it's a oneperson GitHub repo with almost no stars. So probably not a good
+- **00:12:01.430** almost no stars. So probably not a good
+- **00:12:01.440** almost no stars. So probably not a good idea there. And it gives me a bit more
+- **00:12:02.790** idea there. And it gives me a bit more
+- **00:12:02.800** idea there. And it gives me a bit more detail around why I might need to
+- **00:12:04.710** detail around why I might need to
+- **00:12:04.720** detail around why I might need to reconsider this option. And speaking of
+- **00:12:07.350** reconsider this option. And speaking of
+- **00:12:07.360** reconsider this option. And speaking of options, this next skill is called
+- **00:12:09.670** options, this next skill is called
+- **00:12:09.680** options, this next skill is called burst. And again, it's a simple skill.
+- **00:12:11.430** burst. And again, it's a simple skill.
+- **00:12:11.440** burst. And again, it's a simple skill. And what it basically does is to force
+- **00:12:13.190** And what it basically does is to force
+- **00:12:13.200** And what it basically does is to force your agent to generate n variations and
+- **00:12:15.750** your agent to generate n variations and
+- **00:12:15.760** your agent to generate n variations and to do it smartly depending on the
+- **00:12:17.430** to do it smartly depending on the
+- **00:12:17.440** to do it smartly depending on the context of your conversation. And
+- **00:12:19.509** context of your conversation. And
+- **00:12:19.519** context of your conversation. And similar to the align and devil skills, I
+- **00:12:21.590** similar to the align and devil skills, I
+- **00:12:21.600** similar to the align and devil skills, I usually invoke it with a number at the
+- **00:12:23.990** usually invoke it with a number at the
+- **00:12:24.000** usually invoke it with a number at the end of it like this one. And what that
+- **00:12:25.990** end of it like this one. And what that
+- **00:12:26.000** end of it like this one. And what that will force the agent to do is to give me
+- **00:12:28.470** will force the agent to do is to give me
+- **00:12:28.480** will force the agent to do is to give me three options for that particular
+- **00:12:30.230** three options for that particular
+- **00:12:30.240** three options for that particular question. And you can use this type of
+- **00:12:31.750** question. And you can use this type of
+- **00:12:31.760** question. And you can use this type of skill for anything really. If you're
+- **00:12:33.350** skill for anything really. If you're
+- **00:12:33.360** skill for anything really. If you're writing an article or you're generating
+- **00:12:35.430** writing an article or you're generating
+- **00:12:35.440** writing an article or you're generating images, this is a skill that I often
+- **00:12:37.509** images, this is a skill that I often
+- **00:12:37.519** images, this is a skill that I often use. But to give an example, what I did
+- **00:12:39.509** use. But to give an example, what I did
+- **00:12:39.519** use. But to give an example, what I did here is to have three iterations of an
+- **00:12:41.910** here is to have three iterations of an
+- **00:12:41.920** here is to have three iterations of an HTML slide, let's say, showing how Air
+- **00:12:43.829** HTML slide, let's say, showing how Air
+- **00:12:43.839** HTML slide, let's say, showing how Air Table works, just so that I can have a
+- **00:12:45.590** Table works, just so that I can have a
+- **00:12:45.600** Table works, just so that I can have a quick explainer visual of how this
+- **00:12:47.590** quick explainer visual of how this
+- **00:12:47.600** quick explainer visual of how this software is working under the hood. And
+- **00:12:49.350** software is working under the hood. And
+- **00:12:49.360** software is working under the hood. And you can see it gave me three options in
+- **00:12:51.509** you can see it gave me three options in
+- **00:12:51.519** you can see it gave me three options in here. So you have one that is a bit more
+- **00:12:53.670** here. So you have one that is a bit more
+- **00:12:53.680** here. So you have one that is a bit more technical, one that includes some emoji
+- **00:12:56.069** technical, one that includes some emoji
+- **00:12:56.079** technical, one that includes some emoji icons, and this third one that explains
+- **00:12:57.829** icons, and this third one that explains
+- **00:12:57.839** icons, and this third one that explains some of the terms within this tool. And
+- **00:12:59.750** some of the terms within this tool. And
+- **00:12:59.760** some of the terms within this tool. And let's say we like this illustration.
+- **00:13:01.509** let's say we like this illustration.
+- **00:13:01.519** let's say we like this illustration. What you can now do is to continue this
+- **00:13:03.430** What you can now do is to continue this
+- **00:13:03.440** What you can now do is to continue this from option B. And you can see here I'm
+- **00:13:05.350** from option B. And you can see here I'm
+- **00:13:05.360** from option B. And you can see here I'm invoking the burst skill again for three
+- **00:13:07.670** invoking the burst skill again for three
+- **00:13:07.680** invoking the burst skill again for three different design styles. And from that
+- **00:13:09.590** different design styles. And from that
+- **00:13:09.600** different design styles. And from that it gave us these three different styles.
+- **00:13:11.750** it gave us these three different styles.
+- **00:13:11.760** it gave us these three different styles. We can probably guide it better so that
+- **00:13:13.190** We can probably guide it better so that
+- **00:13:13.200** We can probably guide it better so that we have the designs that we want. But
+- **00:13:15.030** we have the designs that we want. But
+- **00:13:15.040** we have the designs that we want. But you can see here it gave me option one
+- **00:13:16.710** you can see here it gave me option one
+- **00:13:16.720** you can see here it gave me option one which is a bit of a parchment paper
+- **00:13:18.389** which is a bit of a parchment paper
+- **00:13:18.399** which is a bit of a parchment paper style. This one is quite closer to the
+- **00:13:20.629** style. This one is quite closer to the
+- **00:13:20.639** style. This one is quite closer to the original. Although I guess it made the
+- **00:13:22.230** original. Although I guess it made the
+- **00:13:22.240** original. Although I guess it made the decision to make this a bit more 3D. So
+- **00:13:24.470** decision to make this a bit more 3D. So
+- **00:13:24.480** decision to make this a bit more 3D. So we probably won't pick that one. But
+- **00:13:26.069** we probably won't pick that one. But
+- **00:13:26.079** we probably won't pick that one. But this third one is actually quite good.
+- **00:13:27.990** this third one is actually quite good.
+- **00:13:28.000** this third one is actually quite good. So you can see here it has a nice flow
+- **00:13:30.310** So you can see here it has a nice flow
+- **00:13:30.320** So you can see here it has a nice flow of the steps for that air table pipeline
+- **00:13:32.870** of the steps for that air table pipeline
+- **00:13:32.880** of the steps for that air table pipeline that we have. So if this is the style of
+- **00:13:35.030** that we have. So if this is the style of
+- **00:13:35.040** that we have. So if this is the style of your brand or your agency for example,
+- **00:13:36.790** your brand or your agency for example,
+- **00:13:36.800** your brand or your agency for example, then you can work with this. But you can
+- **00:13:38.550** then you can work with this. But you can
+- **00:13:38.560** then you can work with this. But you can see how useful that is, right? So you
+- **00:13:40.230** see how useful that is, right? So you
+- **00:13:40.240** see how useful that is, right? So you can apply this burst skill to pretty
+- **00:13:42.230** can apply this burst skill to pretty
+- **00:13:42.240** can apply this burst skill to pretty much any work that you do if you want to
+- **00:13:44.629** much any work that you do if you want to
+- **00:13:44.639** much any work that you do if you want to force the agent to give you multiple
+- **00:13:46.150** force the agent to give you multiple
+- **00:13:46.160** force the agent to give you multiple options at a time. And again, this act
+- **00:13:48.230** options at a time. And again, this act
+- **00:13:48.240** options at a time. And again, this act of forcing the agent to give you
+- **00:13:50.230** of forcing the agent to give you
+- **00:13:50.240** of forcing the agent to give you numerous options every time is actually
+- **00:13:52.470** numerous options every time is actually
+- **00:13:52.480** numerous options every time is actually quite important because if you go back
+- **00:13:53.910** quite important because if you go back
+- **00:13:53.920** quite important because if you go back to our example earlier where you have
+- **00:13:55.750** to our example earlier where you have
+- **00:13:55.760** to our example earlier where you have this as your agent and then this is your
+- **00:13:57.990** this as your agent and then this is your
+- **00:13:58.000** this as your agent and then this is your desired output. If you force the agent
+- **00:14:00.389** desired output. If you force the agent
+- **00:14:00.399** desired output. If you force the agent to give you multiple options at a time,
+- **00:14:03.269** to give you multiple options at a time,
+- **00:14:03.279** to give you multiple options at a time, then what you're essentially doing there
+- **00:14:05.590** then what you're essentially doing there
+- **00:14:05.600** then what you're essentially doing there is view these multiple options
+- **00:14:07.910** is view these multiple options
+- **00:14:07.920** is view these multiple options simultaneously and figure out which one
+- **00:14:10.470** simultaneously and figure out which one
+- **00:14:10.480** simultaneously and figure out which one is closer to your desired goal. So let's
+- **00:14:13.269** is closer to your desired goal. So let's
+- **00:14:13.279** is closer to your desired goal. So let's say this third one is closer to that
+- **00:14:15.430** say this third one is closer to that
+- **00:14:15.440** say this third one is closer to that output. Then you can just continue your
+- **00:14:17.030** output. Then you can just continue your
+- **00:14:17.040** output. Then you can just continue your conversation from here, select that and
+- **00:14:19.509** conversation from here, select that and
+- **00:14:19.519** conversation from here, select that and get to that goal much faster. And last
+- **00:14:21.990** get to that goal much faster. And last
+- **00:14:22.000** get to that goal much faster. And last but not the least is a skill called
+- **00:14:23.509** but not the least is a skill called
+- **00:14:23.519** but not the least is a skill called tweak, which is specifically useful when
+- **00:14:25.670** tweak, which is specifically useful when
+- **00:14:25.680** tweak, which is specifically useful when it comes to design. And the way tweak
+- **00:14:27.670** it comes to design. And the way tweak
+- **00:14:27.680** it comes to design. And the way tweak works is that when you invoke it, it
+- **00:14:29.509** works is that when you invoke it, it
+- **00:14:29.519** works is that when you invoke it, it will insert this HTML slider that will
+- **00:14:32.230** will insert this HTML slider that will
+- **00:14:32.240** will insert this HTML slider that will let you tweak the page, the design of
+- **00:14:34.069** let you tweak the page, the design of
+- **00:14:34.079** let you tweak the page, the design of the page depending on some specific
+- **00:14:36.150** the page depending on some specific
+- **00:14:36.160** the page depending on some specific parameters that claude code will decide
+- **00:14:38.310** parameters that claude code will decide
+- **00:14:38.320** parameters that claude code will decide for you. Or obviously you can also ask
+- **00:14:40.150** for you. Or obviously you can also ask
+- **00:14:40.160** for you. Or obviously you can also ask it for some specific sliders or
+- **00:14:42.069** it for some specific sliders or
+- **00:14:42.079** it for some specific sliders or attributes in there if you want. So
+- **00:14:43.509** attributes in there if you want. So
+- **00:14:43.519** attributes in there if you want. So going back to our air table example
+- **00:14:45.269** going back to our air table example
+- **00:14:45.279** going back to our air table example earlier, you can see here that I asked
+- **00:14:46.710** earlier, you can see here that I asked
+- **00:14:46.720** earlier, you can see here that I asked it to tweak this B3 option, which is
+- **00:14:49.430** it to tweak this B3 option, which is
+- **00:14:49.440** it to tweak this B3 option, which is this one. And what it basically did is
+- **00:14:51.110** this one. And what it basically did is
+- **00:14:51.120** this one. And what it basically did is to insert this card where I can just
+- **00:14:52.710** to insert this card where I can just
+- **00:14:52.720** to insert this card where I can just pull on these sliders to increase the
+- **00:14:54.629** pull on these sliders to increase the
+- **00:14:54.639** pull on these sliders to increase the title size. Let's say want the body size
+- **00:14:56.710** title size. Let's say want the body size
+- **00:14:56.720** title size. Let's say want the body size to have a bigger font. The density
+- **00:14:58.949** to have a bigger font. The density
+- **00:14:58.959** to have a bigger font. The density between the elements and there's a
+- **00:15:00.790** between the elements and there's a
+- **00:15:00.800** between the elements and there's a couple of sliders in here like this
+- **00:15:02.150** couple of sliders in here like this
+- **00:15:02.160** couple of sliders in here like this subtle accent glow at the back, letter
+- **00:15:04.150** subtle accent glow at the back, letter
+- **00:15:04.160** subtle accent glow at the back, letter spacing, the saturation of the overall
+- **00:15:07.030** spacing, the saturation of the overall
+- **00:15:07.040** spacing, the saturation of the overall card and it's very much the same as what
+- **00:15:08.949** card and it's very much the same as what
+- **00:15:08.959** card and it's very much the same as what Claude design actually introduced. But
+- **00:15:10.550** Claude design actually introduced. But
+- **00:15:10.560** Claude design actually introduced. But here you are doing it from within cloud
+- **00:15:12.150** here you are doing it from within cloud
+- **00:15:12.160** here you are doing it from within cloud code which in my view is just a much
+- **00:15:14.069** code which in my view is just a much
+- **00:15:14.079** code which in my view is just a much better experience. Now let's say you are
+- **00:15:16.550** better experience. Now let's say you are
+- **00:15:16.560** better experience. Now let's say you are satisfied with this particular style and
+- **00:15:18.790** satisfied with this particular style and
+- **00:15:18.800** satisfied with this particular style and the tweaks that you have made. You can
+- **00:15:20.150** the tweaks that you have made. You can
+- **00:15:20.160** the tweaks that you have made. You can just click on bake and then if you copy
+- **00:15:22.550** just click on bake and then if you copy
+- **00:15:22.560** just click on bake and then if you copy this patch, send it back to your agent.
+- **00:15:25.269** this patch, send it back to your agent.
+- **00:15:25.279** this patch, send it back to your agent. What that will now do is to bake those
+- **00:15:27.670** What that will now do is to bake those
+- **00:15:27.680** What that will now do is to bake those changes in so that whatever changes that
+- **00:15:29.910** changes in so that whatever changes that
+- **00:15:29.920** changes in so that whatever changes that you selected or tweaked, it will now
+- **00:15:31.750** you selected or tweaked, it will now
+- **00:15:31.760** you selected or tweaked, it will now flow back to this final visual. And
+- **00:15:33.910** flow back to this final visual. And
+- **00:15:33.920** flow back to this final visual. And there you go. That is now all the top
+- **00:15:35.590** there you go. That is now all the top
+- **00:15:35.600** there you go. That is now all the top skills that I use daily. It will
+- **00:15:37.829** skills that I use daily. It will
+- **00:15:37.839** skills that I use daily. It will probably be different depending on the
+- **00:15:39.430** probably be different depending on the
+- **00:15:39.440** probably be different depending on the type of work that you do, of course. But
+- **00:15:40.949** type of work that you do, of course. But
+- **00:15:40.959** type of work that you do, of course. But I hope you learned something from how I
+- **00:15:42.550** I hope you learned something from how I
+- **00:15:42.560** I hope you learned something from how I do it in our own workspace. And the best
+- **00:15:44.310** do it in our own workspace. And the best
+- **00:15:44.320** do it in our own workspace. And the best way to use what you learn in this video
+- **00:15:45.910** way to use what you learn in this video
+- **00:15:45.920** way to use what you learn in this video is to try and create and custom fit
+- **00:15:48.230** is to try and create and custom fit
+- **00:15:48.240** is to try and create and custom fit those types of skills for your own
+- **00:15:50.230** those types of skills for your own
+- **00:15:50.240** those types of skills for your own setup, whatever that may be. But if
+- **00:15:51.829** setup, whatever that may be. But if
+- **00:15:51.839** setup, whatever that may be. But if you're part of the community, remember
+- **00:15:53.030** you're part of the community, remember
+- **00:15:53.040** you're part of the community, remember that you can get those personal skills
+- **00:15:54.550** that you can get those personal skills
+- **00:15:54.560** that you can get those personal skills of mine just in our classroom. And by
+- **00:15:56.710** of mine just in our classroom. And by
+- **00:15:56.720** of mine just in our classroom. And by the way, if you want to learn how I
+- **00:15:57.990** the way, if you want to learn how I
+- **00:15:58.000** the way, if you want to learn how I create slides like this, I actually made
+- **00:15:59.910** create slides like this, I actually made
+- **00:15:59.920** create slides like this, I actually made a separate lesson on it, which I will
+- **00:16:01.350** a separate lesson on it, which I will
+- **00:16:01.360** a separate lesson on it, which I will link somewhere in this video. I'll see
+- **00:16:02.790** link somewhere in this video. I'll see
+- **00:16:02.800** link somewhere in this video. I'll see you guys next time. Thank you.

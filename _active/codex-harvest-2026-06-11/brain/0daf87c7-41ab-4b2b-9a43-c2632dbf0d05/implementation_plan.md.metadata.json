@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Gap analysis of the Ocean Vuong skill extraction identifying 6 major missing workflows. Proposes 5 new Haunting > Capturing deployment workflows (/haunt, /haunt-copy, /haunt-social, /haunt-story, /haunt-audit) plus 4 additional high-leverage workflows from gap analysis (/daring-disobedience, /etymology-engine, /literary-edging, /perception-lab). Includes file-by-file change list covering 14 new files and 1 modification.",
+  "updatedAt": "2026-03-27T15:24:26.325463Z"
+}

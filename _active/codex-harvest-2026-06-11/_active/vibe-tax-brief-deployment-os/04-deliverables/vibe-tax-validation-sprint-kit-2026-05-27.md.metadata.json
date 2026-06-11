@@ -1,0 +1,8 @@
+{
+  "title": "Vibe Tax Validation Sprint Kit",
+  "createdFor": "First safe local build asset after the Vibe Tax PMF verdict",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "sourceLedger": "_active/vibe-tax-brief-deployment-os/02-research/vibe-tax-pmf-refresh-source-ledger-2026-05-27.md"
+}

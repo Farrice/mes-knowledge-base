@@ -1,0 +1,13 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Consumer perception and insight-vector upgrade for repositioning AI Misfire as a marketing/content operating system diagnostic.",
+  "updatedAt": "2026-05-09T21:12:00Z",
+  "requestFeedback": true,
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "sourceFormat": "markdown",
+  "exportFormatsGeneratedByDefault": false,
+  "skipCopyGate": true,
+  "skipReason": "strategy resonance reference; active publishable copy lives in ai-misfire-copy-punch-pass.md and ai-misfire-today-deployment-pack.md"
+}

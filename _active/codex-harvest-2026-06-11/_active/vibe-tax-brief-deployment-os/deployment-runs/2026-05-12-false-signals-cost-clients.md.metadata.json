@@ -1,0 +1,11 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "artifactType": "deployment-run",
+  "mission": "vibe-tax-brief-deployment-os",
+  "command": "/vibe-tax-deploy post \"false signals are costing people clients\"",
+  "createdAt": "2026-05-12T09:41:09Z",
+  "status": "draft-only",
+  "copyGate": "pass-for-draft-review"
+}

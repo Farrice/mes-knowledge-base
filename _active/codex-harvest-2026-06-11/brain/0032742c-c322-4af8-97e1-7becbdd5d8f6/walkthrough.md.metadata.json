@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "Complete walkthrough of the Gemini truncation fix. Covers root cause (system prompt exceeding Gemini's truncation budget), what was changed across 4 phases, what was preserved, and next steps for testing.",
+  "updatedAt":  "2026-04-04T04:32:26.280092Z"
+}

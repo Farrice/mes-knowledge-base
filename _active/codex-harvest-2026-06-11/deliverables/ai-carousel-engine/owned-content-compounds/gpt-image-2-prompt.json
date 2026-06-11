@@ -1,0 +1,104 @@
+{
+  "type": "10-slide social media carousel design system",
+  "output": {
+    "format": "single image containing all carousel slides as separate panels",
+    "platform": "Instagram and LinkedIn",
+    "aspect_ratio": "4:5 portrait",
+    "slide_count": 10
+  },
+  "style": "clean editorial social carousel, premium consulting brand, high contrast typography, generous whitespace, structured visual hierarchy, subtle abstract illustrations, no clutter",
+  "brand_system": {
+    "palette": [
+      "#101827",
+      "#F8FAFC",
+      "#7C3AED",
+      "#22C55E",
+      "#E5E7EB"
+    ],
+    "typography": "bold geometric sans headlines, readable modern sans body, small uppercase labels",
+    "composition": "one core idea per slide, large headline, one visual anchor, short supporting copy, consistent slide number"
+  },
+  "audience": "consultants and creators",
+  "topic": "Owned Content Compounds",
+  "layout_rules": [
+    "Create one clearly separated portrait slide panel per carousel slide.",
+    "Keep all text exactly as supplied in the slide list.",
+    "Every slide gets one hero line only; supporting text must be smaller and readable.",
+    "Use consistent margins, slide numbers, and visual motif across all slides.",
+    "Where illustrations or photos appear, create new visuals that fit the slide copy and match the same visual style.",
+    "Do not overcrowd slides. If copy is long, prioritize hierarchy and line breaks."
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "label": "Cover",
+      "headline": "Stop explaining Owned Content Compounds. Show the system.",
+      "body": "A practical carousel that shows consultants and creators why this matters now and what to do next.",
+      "visual_direction": "Bold cover with a sharp headline, high contrast type, and one symbolic visual showing transformation."
+    },
+    {
+      "slide": 2,
+      "label": "Retention Bridge",
+      "headline": "Most people stop at the content.",
+      "body": "The advantage is turning the idea into a repeatable asset system.",
+      "visual_direction": "Split-screen: raw notes on one side, polished carousel system on the other."
+    },
+    {
+      "slide": 3,
+      "label": "Step 1",
+      "headline": "The workflow is simple: publish the long-form source first.",
+      "body": "The workflow is simple: publish the long-form source first, extract the strongest claims, convert those claims into a swipeable sequence, design the sequence in a consistent brand style, and route readers back to the...",
+      "visual_direction": "A brand style board with colors, typography, and reference cards feeding a slide layout."
+    },
+    {
+      "slide": 4,
+      "label": "Step 2",
+      "headline": "Why Your Content Should Live On Your Own Site.",
+      "body": "Why Your Content Should Live On Your Own Site First Social platforms reward speed, but owned content compounds.",
+      "visual_direction": "Simple symbolic illustration that makes the slide idea instantly visible."
+    },
+    {
+      "slide": 5,
+      "label": "Step 3",
+      "headline": "If the idea begins as an article, guide.",
+      "body": "If the idea begins as an article, guide, or source page, it can become a carousel, newsletter, video, lead magnet, and sales asset.",
+      "visual_direction": "A long article page breaking into clean carousel cards."
+    },
+    {
+      "slide": 6,
+      "label": "Step 4",
+      "headline": "The carousel becomes the distribution vehicle",
+      "body": "The carousel becomes the distribution vehicle.",
+      "visual_direction": "Simple symbolic illustration that makes the slide idea instantly visible."
+    },
+    {
+      "slide": 7,
+      "label": "Step 5",
+      "headline": "This creates a content engine instead of a posting.",
+      "body": "This creates a content engine instead of a posting habit.",
+      "visual_direction": "Simple symbolic illustration that makes the slide idea instantly visible."
+    },
+    {
+      "slide": 8,
+      "label": "Transformation",
+      "headline": "Before vs. After",
+      "body": "Before: one idea trapped in a long article. After: a swipeable asset that teaches, positions, and routes attention back to your owned platform.",
+      "visual_direction": "Before/after layout with messy article document transforming into a clean 10-slide carousel grid."
+    },
+    {
+      "slide": 9,
+      "label": "Human Review",
+      "headline": "Do not fully automate taste.",
+      "body": "Let the system draft and design fast. Then choose the strongest hook, tighten the copy, and regenerate only the slides that miss.",
+      "visual_direction": "Human hand selecting one polished slide from three generated options."
+    },
+    {
+      "slide": 10,
+      "label": "CTA",
+      "headline": "Save this workflow.",
+      "body": "Use it the next time one article, thought, or client insight deserves to become a visual asset.",
+      "visual_direction": "Clean final slide with checklist and subtle arrow toward save/share action."
+    }
+  ],
+  "human_review_note": "After generation, review for text accuracy, visual cohesion, brand fit, and whether each slide earns the next swipe."
+}

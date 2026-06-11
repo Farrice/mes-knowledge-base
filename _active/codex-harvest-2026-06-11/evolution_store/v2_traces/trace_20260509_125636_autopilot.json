@@ -1,0 +1,48 @@
+{
+  "trace_id": "20260509_125636",
+  "timestamp": "2026-05-09T12:56:36.879357",
+  "schema_version": "v3",
+  "component": "autopilot",
+  "operation": "chain_finalize",
+  "expert": "",
+  "workflow": "autopilot",
+  "quality": {
+    "composite": 9.3,
+    "intent_alignment": 10.0,
+    "expert_standard": 9.0,
+    "adversarial_resilience": 9.0,
+    "factual_grounding": 0.0
+  },
+  "reasoning": {
+    "hypothesis": "",
+    "variant_diff": "",
+    "reasoning_chain": [],
+    "failure_signals": []
+  },
+  "evaluation": {
+    "benchmark_tasks": [],
+    "held_out_score": 0.0,
+    "held_out_delta": 0.0,
+    "gaming_flag": false
+  },
+  "token_estimate": 0,
+  "notes": "Implemented native artifact cleanup: archived cash sprint HTML assets, created native controlled demo and top-down artifact audit, updated active entrypoints/references, hardened export guard to ignore archive and flag readable-artifacts HTML, archived older Hybrid HTML review pack, and verified sprint/system checks.",
+  "context": {
+    "output": "Native artifact cleanup and cash sprint recovery",
+    "task_type": "System",
+    "experiment_tag": "",
+    "regression": {
+      "is_regression": false,
+      "baseline_avg": 0,
+      "delta": 0,
+      "message": "Insufficient data (0 entries). Need 3+ for regression detection."
+    },
+    "telemetry": {
+      "tool_calls": 28,
+      "file_reads": 14,
+      "sub_agents_spawned": 0,
+      "critical_path_depth": 4
+    }
+  },
+  "is_failure": false
+}

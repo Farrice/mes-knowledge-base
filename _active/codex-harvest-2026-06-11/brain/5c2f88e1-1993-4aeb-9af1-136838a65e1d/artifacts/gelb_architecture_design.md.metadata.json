@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Architecture design for the Gelb cinematic-documentary skill domain. Defines 13 workflows across 4 tiers: Foundation (character, origin, hook), Structure (false victory, scene audit, pacing), Craft (emotion-over-information, editing, coherence), and Process (creative lifecycle). Includes cross-expert stacking chains, workflow detail specifications with input/output contracts, integration points, and the full build checklist for genius.md, SKILL.md, and workflow files.",
+  "updatedAt":  "2026-05-02T14:32:04.606797Z",
+  "requestFeedback":  true
+}

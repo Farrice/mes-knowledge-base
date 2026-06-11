@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_TASK",
+  "summary":  "Task tracker for the full Enrico Incarnati Instagram Real Estate skill build. Tracks progress across 5 phases: research/extraction, reference files, 10 workflows (3 tiers), skill registration, and system integration. Phases 1-4 are complete. Phase 5 (system integration into SLASH_COMMANDS, DOMAIN_REGISTRY, invocation cards, COUNCIL) is pending.",
+  "updatedAt":  "2026-04-04T00:55:10.677535Z"
+}

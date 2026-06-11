@@ -1,0 +1,32 @@
+[
+  {
+    "lane": "market_context",
+    "query": "MyBPM EDM streetwear for DJs and rave fans DJs rave festival techno house streetwear apparel current buyer trends public discussion reviews",
+    "purpose": "Find current public evidence and category context."
+  },
+  {
+    "lane": "social_listening",
+    "query": "site:reddit.com MyBPM EDM streetwear for DJs and rave fans DJs rave festival techno house streetwear apparel comments frustrations wish bought wear community",
+    "purpose": "Find public community language and buyer scenes."
+  },
+  {
+    "lane": "marketplace_or_review",
+    "query": "MyBPM EDM streetwear for DJs and rave fans DJs rave festival techno house streetwear apparel best sellers reviews Etsy Amazon apparel product",
+    "purpose": "Find marketplace/review signals and product language."
+  },
+  {
+    "lane": "competitor_or_alternative",
+    "query": "MyBPM EDM streetwear for DJs and rave fans DJs rave festival techno house streetwear apparel brands competitors product pages positioning",
+    "purpose": "Find competitor and alternative positioning signals."
+  },
+  {
+    "lane": "concept_language",
+    "query": "MyBPM EDM streetwear for DJs and rave fans DJs rave festival techno house streetwear apparel slogans inside jokes community language apparel",
+    "purpose": "Find language that can become source-backed concept direction."
+  },
+  {
+    "lane": "seed_finding",
+    "query": "6 structured finding(s)",
+    "purpose": "Codex web-search snippets or user-provided findings ingested with source URLs."
+  }
+]

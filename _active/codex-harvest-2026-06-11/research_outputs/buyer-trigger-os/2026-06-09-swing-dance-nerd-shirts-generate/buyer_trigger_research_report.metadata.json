@@ -1,0 +1,20 @@
+{
+  "schema": "buyer-trigger-research/v1",
+  "topic": "swing dance nerd shirts",
+  "mode": "generate",
+  "depth": "standard",
+  "status": "REAL",
+  "engine": "native_floor",
+  "source_count": 5,
+  "domain_count": 5,
+  "social_listening_count": 1,
+  "created_at": "2026-06-10T04:09:50.259752+00:00",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "files": {
+    "report": "/Users/farricecain/Codex Antigravity/research_outputs/buyer-trigger-os/2026-06-09-swing-dance-nerd-shirts-generate/buyer_trigger_research_report.md",
+    "source_ledger": "/Users/farricecain/Codex Antigravity/research_outputs/buyer-trigger-os/2026-06-09-swing-dance-nerd-shirts-generate/source_ledger.md",
+    "insight_ledger": "/Users/farricecain/Codex Antigravity/research_outputs/buyer-trigger-os/2026-06-09-swing-dance-nerd-shirts-generate/insight_ledger.md"
+  }
+}

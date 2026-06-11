@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "Walkthrough of the completed Ground Truth Calibration phase. Documents the 30 expert benchmark samples populated across 7 domains via 6 batch scripts, the final gap report results, and what's now unlocked for the system (blind comparison, expert gap scoring, targeted skill evolution).",
+  "updatedAt": "2026-04-13T14:02:01.381017Z"
+}

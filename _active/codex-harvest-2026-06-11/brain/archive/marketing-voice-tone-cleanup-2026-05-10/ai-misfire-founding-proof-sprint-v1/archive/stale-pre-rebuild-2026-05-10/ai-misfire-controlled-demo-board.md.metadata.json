@@ -1,0 +1,13 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Controlled demo board source copy for the AI Misfire Founding Proof teardown.",
+  "updatedAt": "2026-05-09T20:55:00Z",
+  "requestFeedback": true,
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "sourceFormat": "markdown",
+  "exportFormatsGeneratedByDefault": false,
+  "skipCopyGate": true,
+  "skipReason": "controlled demo reference; active publishable copy lives in ai-misfire-copy-punch-pass.md and ai-misfire-today-deployment-pack.md"
+}

@@ -1,0 +1,12 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Marketing Void Demo Pack with flagship LinkedIn post, controlled demo, comments, DM bridge, and Copy Gate Result.",
+  "updatedAt": "2026-05-10T16:30:00Z",
+  "requestFeedback": true,
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "activeIntent": "2026-05-10-full-revenue-suite-rebuild",
+  "sourceFormat": "markdown",
+  "exportFormatsGeneratedByDefault": false
+}

@@ -1,0 +1,3 @@
+date,source,person,company_or_role,buyer_segment,pain_language,asset_submitted,diagnostic_sent,call_booked,paid_audit_interest,follow_up_date,next_action,notes
+2026-05-08,example,"Example Prospect","Founder-led service business","Founder-led expert business","AI output looks finished but still needs founder correction","No","No","No","Unknown","","Ask for one failed AI output or SOP","Replace this row after first real signal."
+

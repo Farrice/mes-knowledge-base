@@ -1,0 +1,261 @@
+Last month a founder named Jake
+validated a 50,000 idea in 48 hours. No
+code, no landing page, no ads, just
+conversations and one simple offer.
+Most founders spend 3 to 6 months
+building before they learn if anyone
+cares. Jake got the same answer in just
+2 days. If you've ever wondered whether
+your idea is worth building, this video
+is for you.
+Now, here's what usually happens. You've
+got an idea, it feels good, so you start
+building. 3 months later, you launch and
+then crickets. So, you think, maybe I
+need more features, and you build more
+and then some more. 6 months in, you're
+exhausted and still don't have any
+paying customers. And the reason is
+simple. You end up building something
+nobody really wanted in the first place.
+I lived through this myself with a few
+of my early products where the market I
+thought existed just did it. I was
+building for consumers when I should
+have been targeting wedding
+photographers. Completely wrong segment,
+completely wrong solution in the first
+place. That cost me 18 months of my
+life. And when I started working on Lean
+Spark, I could have easily made the same
+mistake again. I could have spent
+another 18 months building out a
+comprehensive product with all the bells
+and whistles first, but instead, I
+applied the business model design and
+validation framework I'm going to show
+you. I set aside 2 days to do nothing
+but talk to founders. I cleared out my
+calendar, blocked everything out, and
+just had conversations with them. And
+what I heard wasn't I need AI. What they
+kept telling me was, I don't have time
+to apply what I already know I should be
+doing. That one insight in 48 hours
+completely changed the direction of my
+product. And fast forward to today,
+we've got our first pilots with real
+founders doing real validation sprints
+and giving us real feedback. The
+difference is that I validated demand
+for the idea before I got to building it
+out. And here's the thing that most
+founders miss. You don't need months to
+do this, you need 48 hours and the right
+sequence. Now, there are three steps to
+getting from an idea to problem solution
+fit. Discover, design, and deliver. Most
+founders skip all three and jump
+straight to building, and that's the
+trap. So, let me walk you through the
+first 48 hours and how to fix all this.
+Step number one is problem discovery.
+Your goal in this step is to find a real
+problem, not the problem you assume
+exists, but one that you know people are
+actually struggling with right now. And
+you do this through conversations. You
+find five to 10 people who match your
+ideal early adopter customer segment.
+Now, where do you find them? Places like
+online communities where they already
+hang out, LinkedIn searches with
+specific job titles, and getting
+referrals from your one-degree network.
+And the basic outreach script from there
+is pretty simple. You can certainly
+contextualize the message to fit your
+audience and style, but the basic gist
+is, I'm working on a new product to
+tackle this big problem. I'm not sure
+yet if this big problem is worth
+tackling, and I'd love to get some of
+your advice. Now, when you get them on a
+call, you ask them three things. Walk me
+through the last time you faced this
+problem. What did you try? And number
+three, what actually happened? And
+that's it. There's no pitch here, no
+explaining your idea, you're just
+actively listening. You're listening for
+two things. First, do they actually have
+this problem? Not yeah, that sounds
+annoying or interesting. You want to
+hear, I ran into this yesterday. And
+second, what are they already doing and
+more importantly paying to solve it?
+Whether that's time, money, or
+workarounds. If you run this 10 times,
+patterns will quickly emerge, which you
+then summarize using the customer forces
+framework. Think of the customer forces
+as a universal mental model for mapping
+the four forces, push, pull, inertia,
+and friction, that help you understand
+your customers' demand for a new
+product. Once you have that, you're
+ready for step two. That's the design
+step. Specifically, solution design.
+Once you've got the customer forces
+mapped and evidence of a problem your
+customers are currently struggling with,
+it's time to design an offer that's
+impossible for your customers to say no
+to. An offer is not a working product,
+but a promise of an outcome your product
+will deliver to them, a demo of how it
+will deliver it, and a price that aligns
+with the value your product is going to
+deliver. All the ingredients for your
+offer should ideally come from your
+customer forces map from step one.
+Because building something people want
+is not about making them want something
+new, but rather something they already
+want in the first place. Once you have
+the offer assembled, the final step is
+delivery. Mafia offer delivery. This is
+where you pitch your mafia offer. Not
+with a landing page, not a prototype,
+just with a conversation and a simple
+call to action. I went back to the same
+people I spoke with earlier that had
+this problem, and this time I said
+something like, based on what you told
+me yesterday, I've put together a demo
+that solves this specific problem we
+talked about and delivers on this
+outcome. Is it okay if I show it to you?
+And then once I get them to the pitch, I
+then walk them through a scripted
+sequence that starts by restating the
+problem. I then share my promise of an
+outcome with them, show them how I'm
+going to deliver it with a demo, and
+that's it. Because I'm relaying back
+what I already heard, I expect to be
+getting nodding heads along the way. And
+if that's the case, that is your cue to
+then go on to the next step, which is
+where you talk about your timeline and
+pricing model. Again, anchored against
+the problems that you have just talked
+about. And then you ask for a simple
+commitment. At this point, you're going
+to get one of three answers. The best
+one, of course, is, here's my money,
+here's my credit card. That's a level
+four commitment. The strongest signal
+you can get. The next one is, yes, but I
+need to see more or I need to try it
+first. That's a level three or pre-order
+intent. Still a pretty strong signal.
+And then there's a, I find that
+interesting, keep me posted. That's
+level two, and honestly, it doesn't
+really count. Now, too many founders cop
+out at this step and either don't share
+pricing or ask for a commitment, or they
+settle for level two, keep me posted
+kind of commitment, which is often just
+delaying a hard rejection several months
+down the road. The ideal tangible
+commitment for a go, no-go decision at
+this point is getting a minimum level of
+level four type commitments, the
+pre-order commitments, that comes from
+your business model's traction roadmap.
+And if you can get a pre-order at this
+stage, then capture pre-order intent
+using things like letters of intent for
+instance. Just know that not everyone is
+going to follow through, and so you have
+to buffer accordingly. Now, if you hit
+your minimum success criteria for the
+offer, you're clear to then move on to
+the build stage. If you don't, work
+backwards from the deliver step to the
+design and discover step to see maybe
+the problem that you're tackling is
+different than what your customers
+expect. Maybe you're talking to the
+wrong type of customer, or maybe your
+price is just off. It doesn't align with
+the value of your product. Once you've
+run these conversations a few times, it
+will be pretty easy to pick off the
+objection that's keeping the offer from
+moving forward, fix that, and repeat.
+Either way, it is possible to get a
+starting signal within just 48 hours,
+provided you commit to doing the
+interviews and can of course get people
+to these conversations. I know you're
+probably questioning the last part
+because people are busy, and it may take
+longer to set up initial conversations,
+especially with B2B type customers. I
+completely get that, and that is
+precisely also why you need to get
+started on this sooner rather than
+later. If you don't have a channel to
+reach leads now, nothing is going to
+change months from now when you have a
+finished product to show them. So, you
+want to get started earlier. You need to
+confront this risk and start solving it,
+as I said, sooner and not later. I've
+received a number of questions from
+people on the channel asking how to
+actually set up these interviews, and so
+I'm considering adding a prospecting
+recipes video to the queue. If you'd
+like to upvote that and would like to
+see a video like that, please leave a
+comment and I'll move it up the queue.
+The three steps that I just described,
+discover, design, and deliver, are
+pretty simple, but as you all know,
+simple doesn't necessarily mean easy,
+which is also why we've been building a
+tool to help speed up several of the
+more laborious steps like interview
+script generation, customer forces
+analysis, and even the offer building
+and pitch scripting process. What used
+to take me normally weeks to do, I now
+do in hours or days using the Lean Spark
+tool. If you want to check it out, it's
+free to try and linked in the
+description below. Now, in all
+transparency, I want to be clear that
+the free plan is probably not going to
+be enough to run the full cycle. You can
+probably get through the beginnings of
+this discover step, but you're not going
+to be able to finish the discover,
+design, and deliver cycle, but it should
+be enough to get you started on the
+right track. At the end of the day, if
+you are able to land even one customer
+using this process, that alone should
+more than pay for the price of the
+product. If you want to see the tool in
+action first, you should check out this
+video over here where I unpack the
+customer forces mental model from an
+actual customer interview. I first do it
+manually and then show you how you can
+do it really fast with the Lean Spark
+tool. Check it out and let me know what
+you think. Until next time, take care.

@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Complete implementation plan for extracting Nate B. Jones's context engineering methodology from the TurboQuant/memory crisis video and synthesizing it with parallel swarm research into a production-grade skill. Covers: (1) New extraction document for the video, (2) New skill 'nate-b-jones-context-engineering' with SKILL.md, genius.md, and 6 workflows, (3) Knowledge Item creation, (4) Slash command registration, and (5) Immediate Sprint 1 actions (GEMINI.md audit, Tool Router concept). Includes the architectural roadmap for semantic context retrieval and sovereign persistent memory.",
+  "updatedAt": "2026-04-13T00:37:20.572801Z",
+  "requestFeedback": true
+}

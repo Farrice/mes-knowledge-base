@@ -1,0 +1,72 @@
+[
+  {
+    "id": "E1",
+    "claim": "Public SwingDancing discussion includes complaints that many event shirts are not desirable to wear and praise for memorable, funny, or design-forward festival shirts.",
+    "source_url": "https://www.reddit.com/r/SwingDancing/comments/1apwe7m/what_are_the_best_swing_festival_tshirts/",
+    "source_title": "Reddit SwingDancing festival T-shirts thread",
+    "source_domain": "www.reddit.com",
+    "source_type": "social_listening",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "Public SwingDancing discussion includes complaints that many event shirts are not desirable to wear and praise for memorable, funny, or design-forward festival shirts.",
+    "recency": "search_snippet",
+    "mapped_trigger": "social_currency",
+    "query_lane": "seed_finding"
+  },
+  {
+    "id": "E2",
+    "claim": "Etsy has a visible swing dance shirt category with Lindy Hop, East Coast Swing, vintage, fun, dancer, and gift positioning.",
+    "source_url": "https://www.etsy.com/market/swing_dance_shirts?ref=lp_queries_internal_bottom-11",
+    "source_title": "Etsy swing dance shirts market page",
+    "source_domain": "www.etsy.com",
+    "source_type": "marketplace_or_review",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "Etsy has a visible swing dance shirt category with Lindy Hop, East Coast Swing, vintage, fun, dancer, and gift positioning.",
+    "recency": "search_snippet",
+    "mapped_trigger": "specificity",
+    "query_lane": "seed_finding"
+  },
+  {
+    "id": "E3",
+    "claim": "Swing Dance Home frames dancer clothing around comfort, style, movement, and fashion made for Lindy Hop and Solo Jazz dancers.",
+    "source_url": "https://swingdancehome.com/en/comfortable-and-stylish-fashion-for-swing-jazz-dancers/",
+    "source_title": "Swing Dance Home clothing recommendations",
+    "source_domain": "swingdancehome.com",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "Swing Dance Home frames dancer clothing around comfort, style, movement, and fashion made for Lindy Hop and Solo Jazz dancers.",
+    "recency": "search_snippet",
+    "mapped_trigger": "emotion_first",
+    "query_lane": "seed_finding"
+  },
+  {
+    "id": "E4",
+    "claim": "Camp Hollywood positions itself around Lindy Hop, Shag, Balboa, levels from beginner to advanced, contests, live music, after-hours dancing, and social dance culture.",
+    "source_url": "https://camphollywood.net/",
+    "source_title": "Camp Hollywood swing dance camp",
+    "source_domain": "camphollywood.net",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "Camp Hollywood positions itself around Lindy Hop, Shag, Balboa, levels from beginner to advanced, contests, live music, after-hours dancing, and social dance culture.",
+    "recency": "search_snippet",
+    "mapped_trigger": "identity_signal",
+    "query_lane": "seed_finding"
+  },
+  {
+    "id": "E5",
+    "claim": "Redbubble shows a broad marketplace for swing dance-inspired T-shirts across many fits, colors, sleeve styles, and independent-artist designs.",
+    "source_url": "https://www.redbubble.com/shop/swing%2Bdance%2Bt-shirts",
+    "source_title": "Redbubble swing dance T-shirts",
+    "source_domain": "www.redbubble.com",
+    "source_type": "marketplace_or_review",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "Redbubble shows a broad marketplace for swing dance-inspired T-shirts across many fits, colors, sleeve styles, and independent-artist designs.",
+    "recency": "search_snippet",
+    "mapped_trigger": "familiar_twist",
+    "query_lane": "seed_finding"
+  }
+]

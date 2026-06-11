@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Three-move token efficiency overhaul plan:\n\nMove 1 (Tiered Kickoff): Replaces monolithic session-kickoff with Sport Mode (3 tool calls, default) and Race Mode (full ceremony, for deep work). end-session becomes a simple handoff summary by default.\n\nMove 2 (Internalized Chain): Steps 1-3 of The Chain execute in-head without file reads for known domains. Saves ~2,200 tokens per routine request.\n\nMove 3 (Hot Context Cache): Prevents redundant expert file reads within a conversation. Adds Tier Hot to the Context Engine.\n\nFiles modified: session-kickoff.md, end-session.md, session_workspace.py, GEMINI.md, CLAUDE.md, AGENTS.md, token-efficiency-protocol.md, session-state-protocol.md.\n\nEstimated combined savings: 30-50% token reduction on typical daily usage with zero capability loss.",
+  "updatedAt": "2026-03-31T05:19:37.155733Z"
+}

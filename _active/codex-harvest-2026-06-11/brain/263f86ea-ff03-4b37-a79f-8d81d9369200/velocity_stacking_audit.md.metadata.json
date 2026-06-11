@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "Audit of cross-expert stacking chains for the velocity-scaling skill domain. Maps 7 declared stacking opportunities from SKILL.md against what's actually built (3 workflows) and identifies 4 unbuilt high-leverage chains. Includes priority ranking and deployment rationale for each gap.",
+  "updatedAt": "2026-04-25T02:04:54.751541Z",
+  "requestFeedback": true
+}

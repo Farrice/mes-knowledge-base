@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Plan for two token optimizations: (1) Slash command description trimming from ~8,888 to ~3,200 tokens/message via a Python script that batch-trims 399 workflow descriptions to 8 words max with full backup/rollback. (2) Genius.md size refactoring deferred to a dedicated session due to per-file quality risk. Includes quality safeguards: backup JSON, dry-run mode, spot-checks, and per-file rollback for ambiguous trims.",
+  "updatedAt": "2026-04-02T14:50:05.307353Z",
+  "version": "2"
+}

@@ -1,0 +1,417 @@
+[00:00:00.080] do about a million dollars a year just myself. These are loweffort, lowcost,
+[00:00:04.800] lowrisk startups. You can just spin up a website tomorrow and then you're set, right? Which is a
+[00:00:09.680] huge opportunity right now because AI is so dang good that you could take something like that and
+[00:00:15.040] scale it to the moon and back. Everyone needs it. Usually, you get instant customers with it. And
+[00:00:20.800] it's totally free. On a Friday, I had the idea. On a Saturday, I built the thing. On a Sunday,
+[00:00:25.600] I launched it on Product Hunt. And on Monday, my life was not that ever the same. Did you have an
+[00:00:30.560] audience then? No. No audience? No. Nothing. I was completely anonymous. Nope. Nope. I think
+[00:00:35.680] it was about $10,000 the first day it was side income for me. I held my full-time job until I
+[00:00:41.600] was making 80,000 a month and then I quit. 80,000? Holy crap. Yeah. And I was making 75,000 a year at
+[00:00:47.840] the other job. I kept a full-time job for 4 years while running Design Joy. So, you were making
+[00:00:53.280] more per month in profit than you were per year from your full-time job that you held back. Yes,
+[00:00:58.880] I was. Yeah. Oh my gosh. What is your net profit per month? I think the peak was 200,000 a month,
+[00:01:04.560] but it usually averages somewhere in the 60 to 80,000 a month. It's probably about a,000
+[00:01:09.040] a month in expenses. Oh my gosh, that's wild. What productiz agencies right now you see out
+[00:01:16.560] there in the world that are very successful that other people could copy? Yeah. Is it okay if I
+[00:01:20.320] give two? I want as many as you got. Okay. I think there's two primary ones right now.
+[00:01:28.160] Meet Brett. He's making about 80 grand a month in net profit all by himself. No team,
+[00:01:32.880] no contractors. This guy launched an agency on a Sunday and had 10 grand in recurring revenue
+[00:01:38.400] by Monday. No audience, no followers, nothing. He was a nobody in a town of 500 in the Midwest.
+[00:01:44.880] Not just that, but he kept his day job for four years while running the business,
+[00:01:48.960] making more per month in his business than he was making per year in his day job. And today,
+[00:01:54.240] he works 30 hours a week, and his clients pay him six grand a month before they ever talk to
+[00:01:58.880] him. So, we're going to talk about this thing called productized services. And not just his,
+[00:02:03.360] but other productized services that you guys can launch in all kinds of different industries.
+[00:02:08.000] Enjoy. One of the important things like noting like who might be watching this is like I don't
+[00:02:12.480] want this to conversation to totally be focused around just design these these principles and
+[00:02:17.600] like the what I've done here can really be applied to any sort of like mainly digital skill whether
+[00:02:22.800] it's marketing copywriting you know maybe you're running social media for a brand or something like
+[00:02:27.920] that and it's small like any of this stuff can be technically what I call productized which just
+[00:02:32.800] basically means selling it off the shelf right so instead of filling out a form on a website,
+[00:02:38.160] getting a quote, jumping on a call, having, you know, three or four meetings to discuss
+[00:02:42.000] pricing and proposals and estimates and all that sort of stuff. It's just you go to the website,
+[00:02:46.400] you buy the service, you pay for it, then and then you can consume it. So, it's really, I like
+[00:02:51.200] to call it like lowering the the TTV, which is time to value. So, when you purchase, getting that
+[00:02:57.440] thing back as quickly as you possibly can. In my case, it's design work. In somebody else's case,
+[00:03:02.640] it's maybe it's it's a blog post copy or something like that. I think it's the model that serves that
+[00:03:08.000] best in terms of lowering that TTV, which I think is is key more now than ever. You know, a lot of
+[00:03:12.960] companies value speed over quality, as weird as that is to say. So, that's where Design Joy
+[00:03:18.000] comes in. And this whole model really, I think, flourishes. So, I run what is now, you know,
+[00:03:23.360] called a productized design agency. So, basically selling design services via subscription. I guess
+[00:03:29.360] one of the more notable things is I do it all by myself. So, been running it since 2017. do about
+[00:03:35.040] a million dollars a year via that just myself. So there's very little cost involved and other than
+[00:03:41.360] the you know the time that I invest in in the startup. Yeah. So it's what I do. I do design
+[00:03:46.160] work for software product branding like you know you name it I do it. I keep a certain number of
+[00:03:52.720] clients at a time on basically a retainer and and that's that. So Okay. So 2017 what prompted you to
+[00:04:00.800] launch this? Yeah. So the company that I worked for, they were hugely disrupted by Uber and that
+[00:04:07.680] that whole boom. It was a transportation company and I saw the writing on the wall. So while I knew
+[00:04:14.400] I had time, I started building something on the side just as a safety net. And I actually story
+[00:04:20.720] goes, you know, on a Friday I had the idea. On a Saturday I built the thing in Webflow.
+[00:04:26.720] On a Sunday, I launched it on Product Hunt and on Monday, my life was not that ever the same.
+[00:04:32.080] That's the way it went. It was that It was that quick. Just like a few days and then Did you have
+[00:04:36.080] an audience then? No. No audience. Nothing. I was completely anonymous. Nope. Nope. No audience. I
+[00:04:42.400] literally shared my story on forums. That's it. Yeah. Explain to people what Product Hunt is if
+[00:04:48.560] they're not familiar. Yeah. So, Product Hunt is um it's primarily for tech products. There are some
+[00:04:53.360] physical products on there, but essentially what you do is it's called an upvoting system. So every
+[00:04:58.320] day the list refreshes and you could submit your startup to it, your product, whatever it is. And
+[00:05:03.760] in my case, I had to get friends and family to upvote me. And the more upvotes you get,
+[00:05:07.760] the closer to the top you get. And the closer to the top you get, you might go on the homepage,
+[00:05:12.320] right? And there's people like me who are product obsessed. We like to discover new products. We
+[00:05:16.800] like to figure out what's what's next and what's new. So, we go to Product Hunt as consumers to
+[00:05:21.680] check out what the new products are. Well, if your product happens to be there, you get quite a bit
+[00:05:26.160] of hits. Usually, you get instant customers with it. And it's totally free. You just have to have
+[00:05:30.800] the network of people to upvote it. In my case, literally, it was it was my personal network was
+[00:05:35.840] my friends and family I went to school with on Facebook. That was all I had at the time. And I
+[00:05:40.240] got Design Joy to a million dollars a year that way before I even started tweeting. I started
+[00:05:44.800] tweeting four or five years after I built Design Joy. So, how high up on Product Hunt's list that
+[00:05:51.040] day did you reach? Number four. Yeah. Number four. How many were you competing with that day? Total
+[00:05:56.880] numbers from that day, the the unique website visits were about 36,000, which for me from
+[00:06:02.320] starting just the day before was insane. To your page, you had my page 36,000 unique. All spurred
+[00:06:08.400] from your your just friends and family from a hometown Newberg, Missouri, 500 people. Yep.
+[00:06:13.680] Yeah. 36,000 uniques. I can't remember quite the exact figures on revenue. I think it was about
+[00:06:18.880] $10,000 the first day was I gotten what you would call reoccurring revenue. It's a little
+[00:06:23.600] early when on the first day to call it reoccurring because you don't quite know how it's going to go,
+[00:06:26.720] but it's technically reoccurring. So about 10k and then I rode that wave for about a year at that at
+[00:06:32.240] that level because it was side income for me. As the story goes, I held my full-time job until I
+[00:06:38.320] was making 80,000 a month and then I quit. So I was making Yeah. And I was making 75,000 a year
+[00:06:44.960] at the other job. So, oh my gosh, they kept giving me raises and raises and raises to get me to stay.
+[00:06:50.560] So, I was like, "Okay, at this point I'm only working like I did most of my Design Joy work like
+[00:06:56.320] during my meetings that I had at that job." So, I I was managing both very simple. I mean, I I took
+[00:07:01.520] on as fit much as 50 clients at a time at Design Joy. So, like one one client at my full-time job
+[00:07:06.480] is literally peanuts to me, you know? So, it's super super easy. I can get it all done. So yeah,
+[00:07:11.280] I um I kept a full-time job for four years while running Design Joy. So you were making more per
+[00:07:19.520] month in profit than you were per year from your full-time job that you held at the same time. Yes,
+[00:07:23.840] I was by about 5 years. Oh my gosh. Yeah. Hey, YouTube's fine, but what about when you're driving
+[00:07:28.000] around? What about when you're mowing the lawn? You need my audio podcast, The Kerner Office. Just
+[00:07:32.640] look up TKO Pod in Apple, Spotify, or wherever you get your podcast. Anyways, I quit my job and
+[00:07:38.880] then two year two two months later revenue doubles from 80 to 160k and that's when my f had my first
+[00:07:45.920] like oh crap moment. What do I do here? How like how do I manage this? And then I had breakdowns.
+[00:07:51.840] I had price increases every time I would double my price. I thought this will finally like curb
+[00:07:57.120] the the demand but it just exponentially increased it because it just put me into another category
+[00:08:02.480] which is a lot of things people don't understand about pricing that I had to learn. And then yeah,
+[00:08:07.280] so I I I stayed at that for a while. Worked myself literally into a hospital like almost
+[00:08:11.600] to death. Like I I was dying. I was working so much. And then yeah, right now though,
+[00:08:17.280] I've I've gotten my systems faster. I've gotten better at what I do, more selective with my
+[00:08:22.240] clients. And so now I have a very easy life. I work less than a full-time designer. So what
+[00:08:27.440] were you charging per month per client those first few years? Oo, good question. So, I started out at
+[00:08:33.120] a measly $449 a month day one. Wow. For unlimited design. Unlimited design. One at a time. I hit my
+[00:08:41.520] first big wave. That increased to $849 a month. And then I went from that to $1299 to 2500 to
+[00:08:48.400] 3,200 to 4,000 to 5,000 to 6,000 all the way up to 8,000. Then I kind of dialed it back a little bit.
+[00:08:54.400] So every time I felt like I was hitting a wall and wanted to shut things down, I just my my
+[00:08:58.560] gut reaction was just like just going to increase prices and see what happens. Yeah. How many hours
+[00:09:03.040] a week are you working now? It's about probably 30. Okay. And what is your net profit per month
+[00:09:09.680] nowadays? So it varies. So one thing about my business is MMR monthly recurring revenue like it
+[00:09:15.760] swings a lot. Like I could have 50 $60,000 a month swings and one of the reasons is because you have
+[00:09:21.920] churn, you have people pausing. So, on average, it's about 70 to 80,000 a month. My total expenses
+[00:09:28.880] outside of taxes, which I won't include in this conversation because they're pretty astronomical
+[00:09:33.440] in my sense because I don't really have many expenses. Outside of taxes, it's probably
+[00:09:37.920] about a,000 a month in in expenses. Oh my gosh, that's wild. So, you have $40,000 months, you have
+[00:09:45.760] $120,000 months, but you're netting out averaging out 70 to $80,000 a month, which net profit. Yep.
+[00:09:54.720] It's been as low as 40 40,000 per month. It's been as high. I think the peak was 200,000 a month,
+[00:10:00.880] but it usually averages somewhere in the 60 to 80,000 a month, but you'll get those peaks and
+[00:10:05.280] valleys. As a design agency owner, like what does that actually mean? What are you designing on a
+[00:10:10.080] regular basis? Yeah, in my case, I do a lot of branding, so logos, you know, just the overall
+[00:10:15.680] aesthetic of what these brands look like. I do a lot of websites, you know, design and development
+[00:10:20.720] of these websites. I do a lot of, you know, social media stuff. I do a lot of, you know, presentation
+[00:10:26.160] decks. You name it, I pretty much do it as long as it's it's digitally focused. So, how would
+[00:10:31.680] a productized service like yours, specifically a design agency, how does it differ from traditional
+[00:10:37.600] uh design agencies? Yeah. So, in in a lot of ways, right? So, um if you just want to talk pricing for
+[00:10:44.160] example, traditional design agencies are are relatively very expensive because there's a
+[00:10:49.520] big headcount involved, right? So when you have a website project, you're not only paying the salary
+[00:10:54.320] of the person actually working on that, you're also paying the PM, you know, the project manager,
+[00:10:58.560] the CEO, the CFO, you know, these companies are they have to pay these people. So their
+[00:11:04.720] prices are significantly higher. In my case, it's just myself and in other cases like design like
+[00:11:10.400] companies like design joy, it's like a few people, right? Very small kind of intimate agencies. So
+[00:11:15.280] pricing is usually much more affordable. Speed is the big thing. So with traditional agencies,
+[00:11:20.240] if anyone has ever hired one to embark on, whether it's a brand project, a website project, these
+[00:11:25.760] things take weeks to months, in some cases to years. In my case, if you if you were to subscribe
+[00:11:32.160] to DesignJoy, you would have a, you know, let's say a homepage back tomorrow. So it's very fast,
+[00:11:38.240] no contracts, no calls required. You could decide to sign up today and get designs back tomorrow.
+[00:11:45.120] So it's like Fiverr, but like on steroids. and actually like good good work, right? So, yeah,
+[00:11:51.440] that's the main thing and it's a subscription. So, one of the big things right now is the economy,
+[00:11:55.920] right? So, it's like people are very hesitant to hire full-time people. Um, especially in
+[00:12:01.760] the tech world, so they like to use contractors, but even then, if as long, you know, if you don't
+[00:12:06.240] have work for them, you're still paying them. With a model like DesignJoy, you can subscribe
+[00:12:10.800] and pause anytime you want to. Meaning, if if work dries up and you don't really have a need for it,
+[00:12:15.360] you can just pause your subscription. You're no longer paying for it. you come back whenever you
+[00:12:19.040] do need more support. So, it's very flexible in that regard as well. Now, I'll ask you a question
+[00:12:24.400] that you're completely you'd be completely biased on answering on these vibecoded apps and websites
+[00:12:28.720] that kind of all look about the same generic. Could that be not fully but largely fixed with
+[00:12:34.320] better prompting, screenshots from other websites that have good design? I know like the answer to
+[00:12:39.520] that could put you out of a client, you know, but like sure is it not bad prompting or is it just
+[00:12:43.120] like AI is just not there yet and it maybe won't be for a while on the design side of things. Yeah,
+[00:12:48.160] I may not be as biased as you'd think here cuz I'm not so naive to think that everyone requires top
+[00:12:54.240] tier design to be successful, right? The majority of people out there could get by with launching
+[00:13:00.960] with something made from claude, right? Like it's good enough. Where I like to exist is the tier
+[00:13:06.160] above that where it's like we're not fine with just being like good enough. We want to separate
+[00:13:11.920] ourselves apart from everyone else doing this and everyone that will come behind us and copy
+[00:13:17.520] us. The only way to really do that is to layer on a design layer onto that that separates us from a
+[00:13:24.400] branding perspective. You know, branding is still just as important if not more important than ever
+[00:13:28.240] has been. More important, I think. Yeah. Yeah. And so, you know, the second you build a successful
+[00:13:32.480] product, you have to assume that there are 300 people behind you that could spin up something
+[00:13:37.120] like that within a week. If if they have a team, probably days, right? Yeah. So, what is it that
+[00:13:41.920] you're going to what's the moat that you're going to build around that product? One of those moes is
+[00:13:46.640] distribution. Of course, you know, you understand that more so than ever with because now it's easy
+[00:13:51.520] to build the thing. It's harder than ever to sell the thing. Exactly. But moat is is obtainable.
+[00:13:56.960] You can hire distribution partners, things like that. But it's still it's still a huge moat and a
+[00:14:01.200] huge advantage. The other advantages is branding and design. So those two things I think will be
+[00:14:06.000] increasingly more important. I'm having like this realization as we're talking that like design has
+[00:14:10.160] never been more important. You know, it has just like distribution has never been more important
+[00:14:14.560] because it's so easy to build the thing and like you and I we go to websites every day that all
+[00:14:19.600] look about the same and you're like let me guess lovable. Let me guess wind surf. Let me guess
+[00:14:23.760] replet code. You name it. Like we've all seen it. And so now it's more important than ever to stand
+[00:14:29.760] out. If you look at the number of websites that are live on the internet, it is like parabolic
+[00:14:34.160] these last three years. Yeah. Because it's so easy to make a website. And when you think of like you
+[00:14:39.920] might agree, disagree with this. Two of like the companies that have really they call it designled
+[00:14:45.200] growth. Is that a thing? I've heard of that. Yeah. Yeah. I can't speak on it, but I've heard of that
+[00:14:49.440] term. Yeah. Yeah. I mean, it's Airbnb and Apple and maybe even more so Airbnb because the two
+[00:14:55.440] founders are were designers at heart. And I feel like the best products, the best digital products
+[00:15:00.880] are incredibly complex under the hood, but incredibly simple on the surface, right? That's in
+[00:15:05.920] my opinion, that's what good design is and that's what Airbnb is. It looks so simple, but there's
+[00:15:09.920] so much going on there. And I hate it when people bring up Craigslist as an example of like design's
+[00:15:15.120] overrated. Look at Craigslist or Amazon. Yeah, either one. Yeah, dude. Craigslist died. Like
+[00:15:20.320] Craigslist is dead. Go look at Similar Web. They went from hundreds of millions of views a month
+[00:15:24.720] to like four. Like Facebook marketplace ate their lunch. And so it's like that's not a good example.
+[00:15:31.280] I think Yeah. And then Apple like and Tesla, right? Those are designled companies. And um
+[00:15:36.720] and it shows in their market cap. They're trillion dollar companies. Not that you know correlation is
+[00:15:41.120] causation, but I'm terrible at design. And it's something that I've always neglected because
+[00:15:45.520] I'm very much like a done is better than perfect. move fast and break things like ship it, you know,
+[00:15:51.040] sell it before you have it, all that. That's my whole thing. And so by the time it comes
+[00:15:55.200] around to design, it's like, we're working, you know, it's Yeah, it works, right? Yeah. But it's
+[00:16:00.400] like you just never know how much better it could work with better design. I'll ask you a question
+[00:16:04.320] that's probably one of the most frequently asked questions you've gotten these last three years. On
+[00:16:08.720] one hand, with AI, it's like we can vibe code, we can prompt anything, we can design anything
+[00:16:13.600] easier than ever before, right? So that would be a notch against you, against your business model,
+[00:16:18.320] right? On the other hand, like we just talked about, these things need to be designed. They need
+[00:16:22.640] good design at least after a certain point. Most websites will never get to that point because most
+[00:16:27.120] businesses fail, which is fine. Sure. So like it's a rising tide situation, right? Your TAM, your
+[00:16:32.480] total addressable market has gotten bigger than ever, but at the same time, the tools have gotten
+[00:16:36.800] more user friendly than ever. So for your business net of net, has this been a net good for you this
+[00:16:42.960] AI these last three years or a net negative? For me personally again just speaking anecdotally
+[00:16:48.480] it's been a a definitely a net a net positive. It's a net positive for two different reasons.
+[00:16:53.840] It's a net positive in the sense that there's more businesses and startups being built more than ever
+[00:16:58.640] before in human history. You know a day is equal to six month period you know a couple years ago.
+[00:17:04.720] So there's more need. There's more entrepreneurs. Uh there's there's more things being built that
+[00:17:10.240] require design more than ever before. Guys, tkowners.com. That's my community where people
+[00:17:15.120] are building businesses. I do AMAs Q&As's every week live. You can ask me anything you want. You
+[00:17:20.560] can have accountability partners. It's about a thousand people in there building, starting
+[00:17:24.320] growing businesses. Check out TKO as in the Kerner office. tkowners.com. The second way and obviously
+[00:17:31.200] design comes into that. So I I get to kind of ride that wave. The second way is just my internal
+[00:17:36.800] abilities have roastly expanded in terms of what I'm able to produce internally and how quickly I
+[00:17:43.520] can produce and and the type of assets that I can produce now that I would have had to turn away
+[00:17:48.240] because I didn't have the talent on the team. You know the team is me. I didn't have the talent. But
+[00:17:52.640] now AI does enable me to do a lot of those things. And then when it comes to like product work like
+[00:17:57.920] man like the way that my system works is there's not like I said there's not that like highlevel
+[00:18:04.000] synchronized communication that's available. So when I embark on a huge product design request
+[00:18:09.600] and I mean like you know a piece of software maybe it's like a medical medical software
+[00:18:13.600] that's very intricate and it does oftentimes require a lot of conversations and a lot of
+[00:18:18.720] like requirements gatherings. I don't need to do that anymore because I plug in what it is they
+[00:18:23.440] give me. I work with claude to come up with all the requirements, all the features, all the flows
+[00:18:27.440] just myself in isolation from even the client. And then I have a I can just bring that pull that into
+[00:18:33.280] Figma and then just start designing. It does a lot of the UX thinking for me. So it just allows me to
+[00:18:39.040] speed up things and not have to really even think that much. Yeah. What AI tools are you using in
+[00:18:44.960] your business right now? Yeah, good question. Midjourney a lot. Uh again, I'm a designer,
+[00:18:49.840] so image generation, video generation is huge for me. So I use Midjourney a ton. I use Crea.
+[00:18:54.960] Crea is like my one of my favorite ones because it plugs into all of these other AI model, you know,
+[00:19:00.080] image generation, video generation models. I use that mainly for that. I do a mix of those for
+[00:19:04.560] image generations. For for coding and prototyping, I primarily will use Claude. That's kind of my
+[00:19:10.240] go-to right now. But again, you ask me tomorrow, it's probably be something different. So that's
+[00:19:13.520] just the way the way it goes right now with those. I use AI inside of nonAI products, you know,
+[00:19:19.520] like Photoshop and Loom even, like a bunch of stuff like there's all these like, you know,
+[00:19:23.440] AI features, but those are the primary AI products that I use currently. Okay. For the non-designer,
+[00:19:28.960] like someone who's design illiterate such as myself, what AI tools do you suggest they use
+[00:19:33.520] if they can't afford you? You can get away with using Chad GBT for almost everything,
+[00:19:38.000] right? So, or Claude. I think Claude is better if you're looking to like not hire a designer.
+[00:19:44.080] claw. There's magic path. There's magic patterns. Those three are probably the best at getting you
+[00:19:50.640] the closest to what a like a true designer would output. They're not quite there yet,
+[00:19:56.160] but again, they're good enough for probably most people watching that don't have high
+[00:20:01.040] design standards. What about nano banana? Oh, so for image generation, so there's two things here,
+[00:20:07.040] right? So image generation is like there's either you're looking to generate artwork
+[00:20:12.560] like viby super aesthetic like artwork that you really want like a really unique style like I do
+[00:20:18.880] I like to play a lot with like Renaissance like themed artwork like I do a lot of that sort of
+[00:20:23.200] stuff kind of like Shopify's latest like page that they did. Midjourney is great at that. Nana Banana
+[00:20:29.120] Pro is like better at like specific things. So like if you're looking to generate, you know,
+[00:20:34.160] a model holding something, go Nana Banana Pro all day long. It's so freaking good. So yeah, I would
+[00:20:40.240] say Nana Banana Pro for 90% of people listening. Okay. What if someone's vibe coding a website or
+[00:20:46.000] an app in Replet or Cloud Code, any of those vibe coding apps and they really wanted to have amazing
+[00:20:51.600] design? What should their tech stack be? Should they go find, you know, apps and websites that
+[00:20:56.640] they they find personally beautiful, screenshot it, send it over there? What kind of prompt should
+[00:21:00.880] they put alongside it? Should they ignore replet for design altogether and use something like kria?
+[00:21:05.600] What what would you do? Claude is the best. Like what I what I often do is I do the simple approach
+[00:21:10.560] where I will screenshot. Let's say I want to add a section below, you know, the top section of my
+[00:21:16.000] landing page and it's just like testimonials, right? Or something like that. I'll oftentimes
+[00:21:19.840] just screenshot a testimonial section that I like and reference that inside of Claude. Say, hey,
+[00:21:25.200] referencing the screenshot that I've attached, you know, generate a testimonial section. And
+[00:21:30.000] that that gets you like it's gonna be okay, right? That's that's what I would do. That's the simplest
+[00:21:34.640] approach versus like explaining how to use these how to connect claw to Figma and do all of that,
+[00:21:39.440] right? It's going to be over people's head. Can you give me the names of some websites that you
+[00:21:43.760] designed that you're particularly proud of just so we could show people what you consider to be
+[00:21:48.160] good design? Yeah, so Origin Finance is one that I've recently done that's really big.
+[00:21:52.560] Um, there's others that I wouldn't necessarily classify them as the best designs, but they they
+[00:21:59.440] work for what they were built for. So, yeah. Is it this one here? Use origin.com. Yeah. Yeah. And so,
+[00:22:05.200] again, like design is completely subjective, right? And and this isn't necessarily what I
+[00:22:10.240] would consider like the pinnacle of design, right? But it's clean and it works and it converts really
+[00:22:15.040] well. Looks pretty. I've done other things like the tea app, the dating tea app. Have you heard of
+[00:22:20.800] that? Tea. Yeah. Did you ever hear about all that? No. I've never used a dating app in my life. Well,
+[00:22:26.240] I know. I know. But it was all over X because they they uh Yeah. So, Oh, this is like a Gumroad vibe.
+[00:22:33.760] Yeah. So, these guys I designed this literally like three years ago and crinkets. I thought it
+[00:22:40.400] was dead as dead as all get out and then all of a sudden it's number one on App Store. It's number
+[00:22:44.640] one on the Google Play Store. But they had a data leak and it was not good. No, I was not a part of
+[00:22:50.800] it, but they hugely successful app like just beat everything by a super wide margin. I did I did
+[00:22:58.800] basically kill them. It did on the app store on on the iOS app store. They're still on Google Play,
+[00:23:04.000] but I mean they got millions of users on like day one. It was everywhere and I was the guy that that
+[00:23:11.040] designed it. That's cool. Did you design the app too or just the website? Yes, the brand, the app,
+[00:23:16.800] the whole the whole shebang. What was it? Buy me a coffee. I've done a ton of work for I'm sure
+[00:23:21.360] you've probably seen the buy me a coffee button around for creators and things like that. I've
+[00:23:26.160] done a lot of work for them. That's great. And they're all so different. But that's the thing
+[00:23:31.600] is like you know a lot of these projects as a designer it's really hard because you you
+[00:23:36.320] are oftentimes very constrained. Any other like prompting ideas or prompting hacks when it comes
+[00:23:42.560] to design that you would recommend? The biggest prompting hack that I can give to people and
+[00:23:47.600] this may sound very common sense to some people listening to this because they're like obviously
+[00:23:51.360] I already do that is to use chat GBT to write your prompts. So prompt whether you're prompting within
+[00:23:59.120] JGBT or any other LLM. Exactly. Yeah. Especially in in other LLM. So if I if I go to make a video
+[00:24:07.040] in runway, which runway is a video generation AI tool, or if I go to generate an image in
+[00:24:13.200] Midjourney or an image in in Nanobanana Pro, the first place I start is typically in Chat
+[00:24:19.760] GBT and I'll say something to the effect of, "Hey, write me a prompt for Nanabanana Pro
+[00:24:25.440] that does this XYZ." Right? Very generic. Very generic. And what it spits out is very specific.
+[00:24:31.840] It's better than what I could write as far as a prompt goes. It used to be like we had these
+[00:24:35.040] prompt engineers like that was going to be a job and now AI prompts better than people can. So lean
+[00:24:40.960] on like use AI to do the AI stuff that like you need help with. Like you shouldn't have to sit
+[00:24:45.200] there ever and like write your own prompt unless it's just something really quick or whatever. But
+[00:24:48.880] yeah, use use chat to write your prompts. Why why is Chat GPT better at writing prompts than
+[00:24:54.640] say Claude, which most people I think today would argue that Claude is a better LLM? So it depends
+[00:25:00.320] if you ask these people it depends on what they're doing. So if you're prompting perhaps like a I
+[00:25:06.720] don't know let's say Bolt which Bolt is a it's a text to app platform where you can just say like
+[00:25:12.080] you know write create this app or whatever kind of like claude is. So if you're writing something
+[00:25:15.360] more technical I will use cloud for that. Or if I want to write a script for my web flow site like a
+[00:25:20.960] piece of code that like does this special hover effect on this element I'll use cloud for that.
+[00:25:25.440] If it's something more of like uh image generation or more creative or just personal use even like I
+[00:25:31.920] want AI to analyze a tax document or whatever it is. I've just personally anecdotally found
+[00:25:36.560] chat to be better at writing more conversational stuff versus claw being very technical. So those
+[00:25:42.240] people that usually say like claude's better for this, they're usually much more technical use
+[00:25:46.640] cases for that. But they're both I mean honestly they're both good, right? Like you can't really
+[00:25:50.640] go wrong. It's just a personal preference. Well, to me there's two big unlocks there in what you
+[00:25:54.800] said. Like I've been doing that for a while, right? Ask it what to ask it. Cool. But like A,
+[00:25:59.280] I wasn't using ChBD to do that. I've been using Claude to ask Claude what to ask Claude,
+[00:26:03.840] right? So that's an upgrade. And B, I haven't been telling, you know, in the LLM in the prompt,
+[00:26:10.480] I'm going to do this in Nano Banana. I'm get this is a I need you to give me a prompt for replet,
+[00:26:14.960] for lovable, for claude, whatever. Because the LLM knows how those LLMs want to be spoken to,
+[00:26:21.280] right? So theoretically it should give you a better prompt that's more befitting for that
+[00:26:26.400] LLM right that's it will like an example is like midjourney a midjourney uses parameters so there's
+[00:26:31.280] style parameters there's ratio parameters so chatbt will know that um you can also one
+[00:26:36.560] unlock too is setting up a rule sheet in chat GBT so that anything you prompt inside of this
+[00:26:42.160] project will reference a rule sheet so like when I'm generating runway videos runway takes into
+[00:26:49.200] account the type of camera you want to use, the type of zoom lens you want to use, the type of
+[00:26:54.880] cinema color grading. So, I can feed that into the rule sheet. So, anytime I prompt a runway thing,
+[00:26:59.200] it'll reference all that, include all of those parameters inside of that. So, it just expedites
+[00:27:03.040] the process and gets you a much more precise fine-tuned prompt for whatever tool you're using.
+[00:27:07.360] Yeah, I love that. Listen, I need more people like this to interview on my podcast. So, if you know
+[00:27:12.240] of someone with a side hustle or a business that's unique and cool and super profitable,
+[00:27:16.480] email Molly M o ly@cof-founders.com. That's one word. co-founders.com. Mollycoounders.com. Tell
+[00:27:23.120] her your story and we'll give you a hundred bucks if we end up interviewing them. What is
+[00:27:26.640] your productized service shiny object right now? Like what what service out there you think is
+[00:27:33.360] ripe for the picking to be a productized service that you're too focused on to chase after that you
+[00:27:38.160] think other people should chase after? Yeah. Is it okay if I give two? I want as many as you got.
+[00:27:42.880] Okay. I think there there's two primary ones right now. The one is more general. It's AI first design
+[00:27:50.480] and development. That is the big thing, right? Because it's easy for us technical people to sit
+[00:27:55.600] back and say just use cloud. It's super easy. But the second you have to connect that to a database
+[00:28:00.160] or the second you have to connect that to Stripe or the second you have to actually host the thing
+[00:28:04.320] most people who are nontechnical that's where they stop because it's easy to build it but actually
+[00:28:09.280] distribute it out is a whole other thing right. So a lot of these companies will like are right now
+[00:28:16.000] um off menu is one of them for example that they they've transitioned and pivoted to
+[00:28:20.560] something that's like AIdriven product design and development. So let us run cloud for you and then
+[00:28:26.320] let us distribute it and let us build the thing and let us host it. Let's take care of all the
+[00:28:29.920] complexities. I think that's a big big thing. The other thing on a biased front would be branding.
+[00:28:36.480] So not product design, not website design, just branding. um that is if I were to create another
+[00:28:42.880] agency given my skill set today, that would be I think where the next big big thing will be inside
+[00:28:50.000] of actually the design industry specifically is branding. So those are the two biggest. I love
+[00:28:55.200] it. If you were to go with a branding agency, let's say I'm not inherently creative. I don't
+[00:28:59.280] have good taste. I don't have an eye for design. Is AI to the point where we can lean on that where
+[00:29:04.720] with some good prompting Claude can like give us something to at least start with Claude or
+[00:29:09.920] anything? So, first off, like I hate this. I hate this word. And if you're on X a lot, you hate it,
+[00:29:14.560] too, if you're in my world, but taste, right? Taste is if you don't have taste, you're you're
+[00:29:18.720] only going to get so far with prompting, right? So, if you take somebody with actually good taste,
+[00:29:22.880] and good taste is obviously subjective, but there's generally this in the higher tier of these
+[00:29:26.800] industries, there's agreed upon what good taste is, it'll get you there for something. Where AI is
+[00:29:32.480] helpful is photography generation. So, you don't need to go out and hire photographers anymore.
+[00:29:38.160] Or if you have a let's say a cosmetic a cosmetic product like you can get super super high quality
+[00:29:42.880] photography done with AI just general background images and supporting assets for blog post and
+[00:29:48.720] illustrations and things like that iconography. AI is fantastic for that as well. So I like what I do
+[00:29:54.160] is I will bring on a tech company. I'll assign an aesthetic to them. Let's say it's a Renaissance
+[00:29:58.880] theme and that's just like it's Renaissance imagery with their product on overlapped on
+[00:30:02.720] top and that's kind of like their aesthetic, right? It's like this old age kind of whatever
+[00:30:06.400] neo renaissance. I can set up a system for them in AI to be able to replicate and build images
+[00:30:11.920] out in that style for them to use on their blog posts and that's all very easy to do. So AI for
+[00:30:16.880] that sense is really good with the branding side and creating these cohesion between assets. Yeah.
+[00:30:21.520] But it's not so good at other things. Now break down a little bit more the AI agency like what
+[00:30:26.400] what would that look like? Let's say I you own that agency. I come to you. What need do I have
+[00:30:31.520] and what solution do you want? Yeah, absolutely. So let's say like for example you want to build
+[00:30:35.920] out in your case I'll give you a specific case like you want to teach other aspiring YouTubers
+[00:30:40.720] how to do what you've done you know get hundreds of thousands of subscribers you want to build
+[00:30:45.120] this very comprehensive system with resources and connecting class members and things like that to
+[00:30:50.240] each other you could go to cloud and do that right like you could maybe get something done but like
+[00:30:56.720] you're going to probably hit a point if you're not super technical and you've never actually launched
+[00:31:00.080] a full product yourself with development you're probably going to hit a point where you just get
+[00:31:03.840] stopped or you get in these like vicious endless loops of like trying to have claw troubleshoot and
+[00:31:08.560] you're just burning through tokens and spending so much money on tokens, right? All these things
+[00:31:12.320] happen all the time. You don't hear about it, but like everyone runs into this issue that's
+[00:31:15.920] non-technical. Instead of you doing that, why don't you just hire someone that they have they
+[00:31:21.600] have actual developers on staff? So when they actually need developers to plug in to the AI,
+[00:31:26.800] they can do that, but they can they know how to leverage AI to get that thing up in like a month,
+[00:31:31.040] right? Or like a couple of weeks. And so for you, it's like, okay, money is not really an
+[00:31:34.960] issue. So you're like, I might as well just have someone who knows what they're doing,
+[00:31:38.000] who knows how to leverage these tools at the right time, at the right place, in the right way,
+[00:31:41.920] but also has the resources in house to be able to have people that oversee this to make sure it's
+[00:31:46.800] all done up to par, right? Like security is up to par, payment payment management is up to par,
+[00:31:52.800] all that sort of stuff. And I have a resource to go to if something breaks. So that's where like
+[00:31:56.480] that's where you would hire somebody like that. And I think that that is the future of agencies
+[00:32:00.160] inevitably. It's not going to be like individuals building their own software. I don't think it'll
+[00:32:04.320] be companies building their own software. I think it'll be hiring someone that uses AI to get it
+[00:32:08.480] done at a tenth of the time, but done well, right? And so that's where these AI agencies,
+[00:32:13.440] I think, are going to plug in. They're already they're already popping up everywhere. So,
+[00:32:16.720] what would you be able to charge for either one of those? Probably a lot. And you need to charge a
+[00:32:21.520] lot because tokens are not cheap currently, and I don't think they're going to get much cheaper. So,
+[00:32:25.920] that's the that's kind of the unspoken thing about this is like, yeah, it's free. you're doing
+[00:32:29.840] it yourself, but a lot of people are spending thousands of dollars a month on tokens and running
+[00:32:33.680] into the limits and stuff. So, you'll need to charge a lot. If I were to give a range, it would
+[00:32:38.000] be somewhere like if I were to do it, it'd be somewhere in the $10 to $20,000 a month range. If
+[00:32:42.320] I did like a retainer for for people. Yeah. Now, a lot of people do don't charge subscriptions,
+[00:32:46.960] so it's going to be oneoff pricing, which could be anything depending on the scope of work.
+[00:32:49.920] what productiz agencies right now are like don't tickle your fancy but you see out there in the
+[00:32:56.480] world that are very successful that other people could copy. So Offmanu is one of them that does
+[00:33:01.280] that does more of like development and design if you want something built like that they're doing
+[00:33:05.920] they're doing pretty well they've done it pretty well. Hunter Hammonds runs that we're buddies he's
+[00:33:10.080] a cool guy they they run a really cool operation have a really talented team. What's his name? You
+[00:33:14.400] would know who exactly who I'm talking about. Dang it. M but they run one for copywriting actually,
+[00:33:20.640] which is a huge opportunity right now because AI is so dang good at copywriting that you could take
+[00:33:27.280] something like that and scale it to the moon and back and not have to hire too many people.
+[00:33:33.360] Everyone needs it. Like it's sort of Oh, Alex Lieberman, you you know who that is, right? Oh,
+[00:33:38.560] yeah. Yeah, yeah, yeah. Yeah. So, we we had a chat uh he like pinged me on D on DMs. He was like,
+[00:33:44.560] "Hey, can we hop on? I'm thinking about building like a productized copywriting agency. And then we
+[00:33:48.960] had that chat and then I swear like two months later he was like just crushing it with it,
+[00:33:54.240] you know? And I think they do more than that now. But there's another one right now called
+[00:33:59.520] Viral Cuts. I think they're still around. Yeah, I know them. Yeah. Yeah. So they that's a Hunter
+[00:34:04.640] Hammond's thing as well. So they do it for short short videos for content creators like yourself,
+[00:34:10.560] which is obviously a huge industry right now. Um, so they take your long form videos and clip them
+[00:34:16.240] up and cut them into into different short form clips that you can leverage and uh that does
+[00:34:21.840] really well. YouTube thumbnails, I can't think of the name, but there's somebody that does YouTube
+[00:34:26.400] thumbnails as a as a subscription, which is one of the best use cases for it because I agree. Unlike
+[00:34:32.000] branding, which is really a one-off thing, you get to capture that revenue. Great. But that may not
+[00:34:37.360] reoccur. Things like short-term video, short form videos, podcast editing or thumbnail design is is
+[00:34:44.160] a reoccurring need. Yeah. So those those type of things do really well and you can keep going on
+[00:34:49.680] and on and on, but there's a lot of justification for making 10 to 20 thumbnails per video cuz
+[00:34:54.640] finally AB testing is now native YouTube. So we're making tons of thumbnails per video. Oh,
+[00:35:00.240] sure. And it never stops. like we might make new ones a month after it's been published just to
+[00:35:04.400] see if we can fire it back up again. And it was a good business model before AI. Like I
+[00:35:08.640] I pushed that before even AI was really a thing. But now with AI, it's even more so. Like the the
+[00:35:14.240] the ability for you to scale now is wilder than it ever has been before. Like if you were to talk
+[00:35:20.240] about thumbnail design 5 years ago, like a team of two or three people could crank out hundreds
+[00:35:24.720] of thumbnails a day if they needed to, right? So these are loweffort, lowcost, lowrisk startups.
+[00:35:30.080] you can just spin up a website tomorrow, figure out how to get distribution, and then you're set,
+[00:35:35.600] right? Like there's service based I love service based businesses because there's not there's not
+[00:35:39.440] that like risk of if it fails, okay, so what? It's basically just a website and maybe a couple of
+[00:35:44.640] like processes that I set up, you know, it's not yeah anything crazy. So Brett, I think I'm out
+[00:35:49.520] of questions, but this has been excellent. Thank you for your time. Where can people find you if
+[00:35:53.920] they want to find you? Yeah, I just saw X. Um, I think it's Brett2T's from DJ from Newjo. Yeah,
+[00:36:00.400] Brett from DJ. Okay. Yeah, thanks Brett. Thank you. If you like this content, please
+[00:36:04.400] share with a friend, hit a like or a comment below, and we'll see you next time on the Ker

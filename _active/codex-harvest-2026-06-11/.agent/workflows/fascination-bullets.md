@@ -1,0 +1,18 @@
+---
+description: Generate 30+ fascination bullets
+---
+
+# Fascination Bullet Factory
+
+Deploy Luke Iha's fascination engineering system.
+
+## PHASE 1: SKILL ACQUISITION
+
+Read these files in order:
+1. /Users/farricecain/Codex Antigravity/skills/luke-iha-vsl-leads/SKILL.md
+2. /Users/farricecain/Codex Antigravity/skills/luke-iha-vsl-leads/references/genius-patterns.md
+3. /Users/farricecain/Codex Antigravity/skills/luke-iha-vsl-leads/workflows/fascination-bullet-factory.md
+
+## PHASE 2: EXECUTION
+
+Follow the workflow in `fascination-bullet-factory.md`. User provides product features/benefits.

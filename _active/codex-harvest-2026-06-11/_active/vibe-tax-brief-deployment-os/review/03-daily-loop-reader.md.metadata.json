@@ -1,0 +1,10 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "artifactType": "reader-view",
+  "mission": "vibe-tax-brief-deployment-os",
+  "sourceReceipt": "_active/vibe-tax-brief-deployment-os/daily-runs/2026-05-12-two-hour-deployment-loop.md",
+  "createdAt": "2026-05-12T11:20:21Z",
+  "status": "clean-reader-view"
+}

@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Complete implementation plan for adding per-conversation workspace folders to the session-kickoff workflow. Creates a new `sessions/` directory with dated, domain-tagged folders, a master SESSION_INDEX.md registry, per-session _manifest.md trackers, and a Python execution script for creation/search/archival. Also modifies session-kickoff.md and end-session.md workflows.",
+  "updatedAt": "2026-03-31T03:33:35.232269Z"
+}

@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Full architecture design for Ron Lynch's creative-campaign-strategy skill domain. Proposes 12 workflows organized in 3 tiers: Tier 1 Foundation (4 workflows: identity-campaign, customer-media, transformation-sell, campaign-ecosystem), Tier 2 Practitioner (4 workflows: media-match, modular-script, counter-identity, discovery-protocol), Tier 3 Stacking (4 workflows: identity-posture-brief, drtv-vsl, perception-identity, strategist-career). Each workflow includes description, tier assignment, and stacking partners. Also defines the core file structure: genius.md, SKILL.md, references directory, agent identity.",
+  "updatedAt":  "2026-04-30T21:21:01.481040Z",
+  "requestFeedback":  true
+}

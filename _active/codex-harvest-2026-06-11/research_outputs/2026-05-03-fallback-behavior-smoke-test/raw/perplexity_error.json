@@ -1,0 +1,5 @@
+{
+  "provider": "perplexity",
+  "error": "{\"error\":{\"message\":\"Invalid API key provided. Ensure your API key is correct and active.\",\"type\":\"invalid_api_key\",\"code\":401}}\n",
+  "time": "2026-05-04T03:12:07.038437+00:00"
+}

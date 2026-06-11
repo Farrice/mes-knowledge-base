@@ -1,0 +1,54 @@
+---
+name: "Nicolas Cole Nonfiction Value Architecture"
+description: "Turn any nonfiction idea into clear reader value using Cole's ten value modes, specificity ladder, list-level outline, and four-second skim test"
+version: "1.0"
+format: "completion-engine"
+expert: Nicolas Cole
+domain: Nonfiction writing strategy, reader value architecture, newsletter outlines, article structure
+workflows: 8
+---
+
+# Nicolas Cole Nonfiction Value Architecture
+
+This skill makes nonfiction pieces valuable before sentence-level editing begins. It answers Cole's central question: **what am I giving the reader?**
+
+Use it when a topic, newsletter, LinkedIn post, essay, script, or client thought-leadership piece feels vague, meandering, too opinion-heavy, or hard to outline.
+
+## Core Thesis
+
+All nonfiction reader value resolves into ten modes: tips, stats, steps, lessons, benefits, reasons, mistakes, examples, questions, and personal story/proof. A strong piece chooses one value mode as the spotlight, makes a list of that thing, then increases specificity, objectivity, and instruction until the reader can imagine, measure, or do it.
+
+## Available Workflows
+
+| # | Workflow | Slash Command | Produces |
+|---|---|---|---|
+| 1 | [Value Spotlight Map](workflows/01-value-spotlight-map.md) | `/value-spotlight-map` | Primary value mode, promise, and outline direction |
+| 2 | [Ten Value Expander](workflows/02-ten-value-expander.md) | `/ten-value-expander` | Expansion angles across the ten nonfiction value modes |
+| 3 | [Specificity Ladder](workflows/03-specificity-ladder.md) | `/specificity-ladder` | Concrete, measurable rewrites of vague claims |
+| 4 | [Subhead Skim Test](workflows/04-subhead-skim-test.md) | `/subhead-skim-test` | Title/subhead audit and stronger skim path |
+| 5 | [Nonfiction Outline Architect](workflows/05-nonfiction-outline-architect.md) | `/nonfiction-outline-architect` | Value-first outline ready for drafting |
+| 6 | [Reader Value Audit](workflows/06-reader-value-audit.md) | `/reader-value-audit` | Diagnosis of weak reader value and repair plan |
+| 7 | [Value Stack Remix](workflows/07-value-stack-remix.md) | `/value-stack-remix` | Stronger piece architecture using primary + secondary value modes |
+| 8 | [Newsletter Value Draft](workflows/08-newsletter-value-draft.md) | `/newsletter-value-draft` | Draft built from value architecture, not meandering opinion |
+
+## Skill Stacking
+
+| Stack With | What It Adds |
+|---|---|
+| `nicolas-cole-sentence-craft` | Polishes sentences after the value architecture is clear |
+| `nicolas-cole-newsletter-flywheel` | Connects one edition's value to a larger tangible faucet |
+| `lara-acosta` | Turns the value outline into LinkedIn-native authority content |
+| `ghostwriting-voice-engine` | Preserves client voice while making their expertise useful |
+| `luke-iha` | Adds proof and hook strength after the value promise is defined |
+
+## Quick Reference
+
+- Genius Context: [genius.md](genius.md)
+- Genius Patterns: [references/genius-patterns.md](references/genius-patterns.md)
+- Hidden Knowledge: [references/hidden-knowledge.md](references/hidden-knowledge.md)
+- Source Map: [references/source-map.md](references/source-map.md)
+
+## Decision Framework
+
+Use this skill when the issue is reader value, outline, specificity, or skim delivery. Use `nicolas-cole-sentence-craft` after the piece already gives the reader something clear.
+

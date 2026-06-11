@@ -1,0 +1,12 @@
+{
+  "source": "/Users/farricecain/Codex Antigravity",
+  "target": "/Users/farricecain/Google Antigravity",
+  "harvest_root": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11",
+  "token_confirmed": true,
+  "unique_candidates_reviewed": 7253,
+  "retained_copied_assets": 4355,
+  "dropped_or_manifest_only": 2898,
+  "sha256_mismatches": [],
+  "doc_errors": [],
+  "verification": "PASS"
+}

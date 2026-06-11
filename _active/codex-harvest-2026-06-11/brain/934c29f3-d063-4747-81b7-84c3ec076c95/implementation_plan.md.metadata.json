@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Three-sprint implementation plan covering Memory Scaling (FTS5 search, deduplication, pruning), Auto-Memory Hooks (chain_runner.py auto-store on finalize), and Directive Modernization (compress 5 more directives from 44K to ~20K bytes). Includes execution order, verification commands, and rationale for scope decisions.",
+  "updatedAt": "2026-04-13T03:34:43.803586Z",
+  "requestFeedback": true
+}

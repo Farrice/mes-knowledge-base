@@ -1,0 +1,1042 @@
+# Transcript: I Hated Social Media... Until I Learned THIS System
+
+Source: https://www.youtube.com/watch?v=B9l9TRhu5Vw
+Expert: Kallaway
+Duration: 1967 seconds
+Acquired: 2026-05-07
+
+Today we're talking about content systems.
+
+If you want to learn how to make great content faster without sacrificing originality, this is going to be one of the best workflows you ever learn.
+
+Now, I know this works because this is the exact same system I'm personally running every single day.
+
+I have a million followers.
+
+I've done billions of views.
+
+And this month alone, I'll post over 50 unique short form videos on Instagram alone.
+
+And these aren't clips or AI slop.
+
+These are native premium short form videos that'll get tens of millions of views and drive thousands of leads.
+
+The only way that much premium volume is possible is by building this type of content system.
+
+Now, I'll be honest, the truth is, as weird as it sounds, I've never really liked making content.
+
+And the reason why is because there's just so much repetitive work that goes into every single rep.
+
+It's just draining to do every day.
+
+And so, what I needed was a system that allowed me to use AI to automate the boring parts so that I could free up more of my time to be creative on the fun parts.
+
+And that's exactly what I built.
+
+So, in this video, I'm going to take you through my entire AI powered content system.
+
+First, we'll go through one rep end to end across my six-step workflow, and then at the end of the video, I'll take you through my 10X badge system for how you grow as fast as possible on any platform.
+
+Now, the first part I want to focus on is my endto-end workflow.
+
+And I think this will be the most valuable 10 to 15 minutes you watch on content for the rest of this year.
+
+To make one video, I go through the same six stages every single time.
+
+topic, format, substance, hook, script, and edit.
+
+Now, in every one of those stages, I'm able to use AI to speed up the process without sacrificing creativity or originality.
+
+So, here's how the process works in detail.
+
+Step one is always topic.
+
+The very first thing I do is figure out what topic I'm going to make the video about, cuz the truth is nothing else really matters if you pick a losing topic.
+
+Now, for topic, this first step, I lean completely on data and AI.
+
+My creativity in this workflow comes a little bit later in substance, hook, and scripting and sometimes the edit, but I don't need to reinvent the wheel on the topic front.
+
+You can just use data to get the best topics.
+
+And the reason why is because of the psychology of the viewer and buyer.
+
+In every niche, there are certain topics that always outperform others, and those map to whatever the categories or topics that those viewers think are more important.
+
+Now, to use data and build a workflow for solving topics, I use Sandcastles.ai plus Claude.
+
+That's the money combo and it crushes everything else.
+
+The first thing I do is I go to Sandcastles and I build a watch list of all the top performing channels in my niche.
+
+Now, you may already know who these people are, but even if you don't, you can just click describe and write in the type of content you make and Sand Castles will suggest all the best performing channels for you to track.
+
+I like to get anywhere from 20 to 30 channels in my watch list before I move to the next step.
+
+Now, for me, the sweet spot when I'm adding those channels is the micro, small, and medium account size range between 10,000 followers and a million.
+
+You don't want to go any bigger than that.
+
+By the way, the reason I'm building out this channel list instead of just scrolling mindlessly is because I'm trying to speed this up.
+
+I don't want any noise.
+
+When you scroll, you get so much noise.
+
+Sometimes you find good videos, but a lot of noise.
+
+This reduces all the noise, so it's only signal.
+
+Okay, once I have that channel list made, there's two more things I'm going to do in Sand Castles before I go to Claude.
+
+The first thing is I'm going to go to the videos tab.
+
+I'm going to go sort and I'm going to sort by outlier score.
+
+Then I'm going to set the posted date to either three or six months depending on how far you want to look back.
+
+And I'm going to set the minimum bound on engagement rate to 2%.
+
+This will give you the best videos from that channel set in the relative range you want to analyze.
+
+Now, this may reveal only 15 videos.
+
+It might reveal 500 videos.
+
+It depends on how many channels you have in your list and how many bangers those channels have made.
+
+The next step is to deep analyze every single one of these videos.
+
+And you can do it by hovering over any of them and pressing analyze.
+
+Or you can bulk analyze by pressing the bulk button and then specifying the number of videos you want to do.
+
+Personally, I like doing a hundred at a time.
+
+You can do less than 100, but the more you do, the better those trends will be when you're analyzing it in aggregate.
+
+So, the more the better.
+
+Now, when you deep analyze and you click in, you'll realize you get everything you'd ever want on the video.
+
+The transcript information about the topic, the idea, the hook format, the exact hook, the storytelling format, literally everything.
+
+And the best part of Sandcastle is now you can export all that information across all the top 100 videos out into a CSV.
+
+And we're going to upload that CSV into Claude in a minute.
+
+Now, before we go to Claude, there's one other thing I like to do in Sand Castles to set myself up for the next round of doing this in the future.
+
+I go to the automations tab and I write an automation rule.
+
+All I do is put five in the outlier score and then 2% in engagement.
+
+So, what that means is anytime any of my channels on my watch list post a video above a 5x outlier in the future, this automation will automatically process it for me.
+
+So, when I come back into Sandcastles, it's just ready to go and I don't need to go through that bulk analysis process.
+
+It just basically autodetects outliers for you.
+
+So, I like to set that and then move forward.
+
+All right, back to the main flow.
+
+I've got my CSV of the top 100 videos.
+
+I'm going to open Claude and I'm going to drag that CSV into Claude.
+
+And when I use Claude, I use the desktop app and I'm using Co-work.
+
+You can use chat, co-work, or claude code.
+
+In the browser, which is what most people do, they just type in claude.ai.
+
+They can only use chat.
+
+So co-work is way more powerful.
+
+You should be using co-work or claude code for this.
+
+Now, I'm going to go through the exact prompt that I feed into Claude to do this topic research right now.
+
+But by the way, all these prompts I mentioned in this video, there'll be like four or five prompts throughout, I've got a doc below.
+
+It's completely free where I've written down all those prompts.
+
+You can just copy paste.
+
+So you don't have to worry about like scrambling and copying what I'm saying word for word.
+
+But I'm going to say it word for word on this first one so that you can get a sense of what we're doing.
+
+All right.
+
+So this is the prompt that I'm going to run in Claude right away when I first get the CSV in.
+
+I'm uploading a report of the top 100 videos in my niche over the last X months.
+
+Whatever you put in for post date, 3 months, 6 months, whatever it is.
+
+These were posted by the top creators in my niche.
+
+Now, if you haven't set up the background, you're going to use this background part as well.
+
+For background, I make content in Xnich.
+
+For me, it's like social media marketing, social media growth with the goal of helping build an audience of Y avatar.
+
+For me, it's business owners that are trying to grow on social media.
+
+Specifically, my target authority statement is I help X people with Y thing to accomplish Z goal or to get Z outcome.
+
+So, for me, it's I help business owners grow faster on social media so they can build their business.
+
+First, I want you to go through the list and screen out any videos that aren't on the topic that I'd be covering.
+
+So, if there's any random trend or personal story from the creator that isn't on topic, get rid of those.
+
+With the videos you have left, run two analyses for me.
+
+First, I want you to list all the videos in order by outlier score.
+
+I want you to give me the topic, the link to the original video, and a one to twoline sentence pitching me on why you think this would be a good video to make given my target authority statement.
+
+The topic should not be at the category level.
+
+They should be a three to five word framing that summarizes what the video is about specifically.
+
+Some of these may overlap, but I'd expect dozens and dozens of unique topics.
+
+Now, second, I want you to run another analysis clustering the videos by topic category.
+
+There's no specific set number of topic buckets I'm going for, but I want clear delineation and break points between.
+
+I'd expect somewhere between 8 to 15 different categories.
+
+I want you to rank these buckets in order based on highest average outlier score from the videos within them.
+
+Within each bucket, I also want you to list the individual videos.
+
+I want you to give me the topic.
+
+I want you to give me the link to the original and then again the one to tweline sentence explaining why this would be a good video for me to make.
+
+Now, once you have that, just run it.
+
+It will take about 4 to 5 minutes to finish.
+
+And when it finishes, this will give you the best datadriven list of topics for your niche without any scrolling required.
+
+Now, my process is if I don't have an original idea I want to make, I'm always starting with this list.
+
+And it doesn't mean I make every single one of those, but I start with the top one and I ask myself when I get to the substance, do I have something unique to say?
+
+If I don't, I pass.
+
+But I have the right to make any of them if I want.
+
+This is how you use data to get a curated list of topics that you already know worked.
+
+And the reason this looks so easy is because of that Sandcastle's data.
+
+Having the transcript and all that detailed information about every video, you'll see how powerful it gets with that one report.
+
+We can basically run this full flow.
+
+And if you're a social media manager or you do this for many clients, you just save yourself literally dozens of hours a week because of how many times you have to do this.
+
+Okay, so that's step one, validated topic curated by data.
+
+Now, step two in the flow is the format.
+
+And this step is extremely quick, but I will not move to step three, the substance, until I've decided what format I'm making.
+
+Now, the format is usually a combination of the structure of the video, the way the points are laid out, and sometimes the visual execution of how it's edited.
+
+All three of those things together kind of combine to make the format.
+
+So, for example, a breakdown format is actually very flexible.
+
+It doesn't lock you into a certain narrative or story type.
+
+But an S tier format, on the other hand, one where you're like ranking items across the S, a B, C, D, F tier, that kind of dictates how you have to flow the story.
+
+Now, with formats, there are 20 or so buckets that typically dominate on social media.
+
+Most creators end up with like two to three hero formats that they alternate between and then sometimes they experiment on the edges trying to see if one of the new ones can beat out their core three formats.
+
+When you're starting out, people typically experiment till they find their core ones.
+
+Now, I've built a visual database of the top 20 formats with a bunch of examples of each one.
+
+You can see that here.
+
+I'll link it below for free if you want to download and access it.
+
+But here's how I approach formats in this system.
+
+The first way is to just look at that list of 20 and just pick one that you think looks interesting and take a shot, right?
+
+So, not really using data, just using intuition.
+
+The second path is to let the data tell you what formats are also working best for your niche.
+
+And of course, the Sandcastle's data CSV that also has a column with all the formats tagged.
+
+So, you can just again go to Claude and ask it to break out the best performing formats for you.
+
+And so, this is exactly what I'd write in Claude.
+
+Give me a breakout of all the videos by storytelling format.
+
+rank them based on the highest outlier score and then list within each bucket all of the individual links and the names of those formats.
+
+Now, typically this analysis very quickly will reveal the top performing formats in your niche.
+
+And if you're unsure of which format to try, you really don't care about creativity.
+
+You just want the best performing one.
+
+Pick the top one on this list.
+
+For example, the rating ranking and tier list format that we have bucketed.
+
+You could do ratings, you could do rankings, you could do tier list, you could do brackets.
+
+There's all these different flavors within that bucket.
+
+So, what I like to do is take that datadriven analysis that Claude did and it has all the unique URLs and then I'll just go and open a bunch of the top ones within a bucket I'm interested in and I'll just see how the people actually executed it visually.
+
+Once I find a unique flavor that I like and think I can replicate, well, then I'll take that as the model.
+
+But easily that uses data to guide me to the top performing ones and then my eyes to kind of lock in on the flavor that I want.
+
+Also, if you like scrolling to discover new formats, you can always scroll on Instagram and Tik Tok and just copy the link to a video.
+
+And you can actually paste it in the videos tab in Sandcastles by pressing add video URL.
+
+When you do that, it'll import that one-off video in.
+
+And then when you export your CSV, that will be included in this analysis.
+
+Like I said, I won't move forward to the next step until I have my topic and format locked in based on the Sand Castle's data because this makes sure that I'm rowing in the right direction.
+
+By doing it this way, I've now saved myself a ton of time.
+
+I didn't have to doom scroll and I've d-risked because I'm using the topics and formats that have already been proven to work.
+
+Now, obviously, if your strategy or niche requires more realtime stuff, you're reacting to the news, so you need like the timeliest stuff, then just change the post date in Sandcastles from 3 months down to like 2, 3, or 7 days.
+
+This will give you more real time.
+
+There'll be less videos in there, but these are like the newest bangers that are coming out.
+
+The truth is, most niches are evergreen.
+
+You could take a video from four months ago and just remix it to be relevant today, and it will still crush.
+
+So, most people don't need to do that, but if you're doing this news reaction stuff, then yeah, change the post date.
+
+By the way, depending on when you're watching this, on the Sand Castle side, we have something brand new coming out that's not in this video that will make what I just walked through like a hundred times easier.
+
+So, stay on the lookout for that if you like this AIdriven workflow.
+
+Essentially, if you're using sand castles to make content, you're going to be able to outrun anyone in your niche that isn't.
+
+We're just making it automatic.
+
+All right, the third step in my process is the substance.
+
+And this really is the sauce layer.
+
+This is where all the creativity lives.
+
+This is the part where you don't really use the data for.
+
+You kind of go authentic, original, whatever word you want to describe to encompass your uniqueness.
+
+It's in the substance.
+
+The substance really boils down to two things.
+
+The first is your contrarian take or non-obvious perspective on the topic.
+
+And the second is the evidence you give to support that contrarian take.
+
+Things like facts or case studies or stories or metaphors or examples, things like that.
+
+Now, here's how I run the substance part of the process.
+
+First, I look at the topic and I make sure it's specific enough to react to, right?
+
+So, if you're looking at the topic category, the broadest thing like hooks or storytelling or Nike or Apple, that's way too broad.
+
+So, you need the actual topic.
+
+That would be the category.
+
+You want the subtopic or topic.
+
+And if you use the prompt that I gave you and you do the sand castle to claim, you're just going to be given the topic, so you'll be all good.
+
+But if you do it some other way, just make sure you're looking at the topic level unique enough that you could actually react to it.
+
+So, first I start with the contrarian take or non-obvious takeaway.
+
+And this really is what makes great videos.
+
+This piece right here, the contrarian take is basically something you believe to be true about the topic that most people do not.
+
+But then once you reveal it, they could quickly get on board to think that it's true as well.
+
+So for example, let's just say the topic category that surfaced for me was hooks.
+
+And then the specific topic I was working on was how to write better hooks.
+
+That was like validated by the data and that's what I'm working on.
+
+If I'm trying to come up with a contrarian take, I would then ask myself, what do I believe about how to write better hooks that I strongly think is true that most people would be shocked to hear or not believe today?
+
+So, I would write down all the things that I know to be true about how to write better hooks.
+
+And that might include things like the first sentence has to give context and have zero fluff.
+
+So, like no delay.
+
+The first sentence needs to be super punchy and less than 12 words.
+
+The first sentence needs to be written in fifth grade language with really simple vocabulary.
+
+But then maybe I think, wait a second, actually the most valuable thing I could tell them about writing a killer hook actually has nothing to do with the spoken hook.
+
+It's actually that the text hook is 10 times more valuable and that the text on screen is where your eyes go first and then bingo.
+
+That epiphany moment right there, that realization by me is like actually the interesting part is something over here that they weren't thinking about.
+
+That's a contrarian take.
+
+That's a non-obvious insight.
+
+That's where the gold comes from in content.
+
+So, the genius of being good at content is really how easily you can come up with these non-obvious contrarian insights about whatever topic you're making.
+
+And most of those come really easy when you actually have legit experience or expertise in an area.
+
+That's why if you ever follow someone and watch their videos, but the things they say are always just replications from someone else that you've already heard, well, don't ever pay that person for services because they don't actually know what they're talking about, right?
+
+They're not coming up with non-obvious things, meaning they don't have expertise outside the box in this area.
+
+Now, once you figure out what the contrarian take is in this substance bucket, the rest of this process for substance actually becomes a lot more straightforward.
+
+The other part of the substance step is the evidence.
+
+And when I say evidence, what I mean is all the other stuff you're going to say in the video other than the contrarian take.
+
+Now, this evidence, just like with a lawyer, it's meant to support or prove the contrarian take to be true.
+
+Because once you say something that people don't believe, you only have a limited amount of time to convince them that they should give you a chance and believe it.
+
+So this evidence could be facts, metaphors, stories, case studies, examples, could even be opinions, something to prove your take to be true.
+
+So in the case of my hooks example where I have this like non-obvious take around the title text, I would then ask myself, okay, what evidence could I show to prove that my claim of title text matters way more than spoken hook actually is right?
+
+Well, one thing I could show is proof.
+
+I could just show a bunch of videos having title text with no spoken hook with a bunch of views.
+
+That could work.
+
+Another thing I could do is show A versus B.
+
+one video flopping and one crushing in the exact same hook, but one has title text and one doesn't.
+
+That could work.
+
+I could also explain the psychology of why the brain sees words faster than it hears.
+
+That's more of like a theoretical scientific explanation, but that could work.
+
+Or I could do a combination of all those things, right?
+
+So, I'm going through this process of being like, what evidence could I manufacture or have to support my take?
+
+And that's the process of putting together a winning video.
+
+Now, the question is, where can you use AI in this process to speed that flow up?
+
+I'll say this, coming up with a contrarian take using AI in like one shot off one prompt.
+
+Coming up with it is pretty tough.
+
+You could ask AI to come up with contrarian takes on the topic, but I find AI is good at regurgitating what it's been trained on and what it's heard.
+
+It's not great at coming up with novel things outside the box.
+
+However, once you do come up with a contrarian take, you could use AI to be like, "Hey, here's my topic.
+
+Here's my format.
+
+Here's my contrarian take.
+
+What evidence could make sense to use to start supporting this take to be true?" That it's good at.
+
+And so this is kind of like the research on the take that you might be able to do.
+
+Sometimes if I'm feeling lazy and I don't want to think for 30 minutes trying to come up with the research, I'll just throw it into Claude and be like, "Give me some ideas for what I could use." That will start spinning the wheels and then the script will come out tighter.
+
+So if I'm doing that, I would say something in Claude like this.
+
+Hey, I'm making a video about this topic.
+
+My contrarian take is this.
+
+Can you help me think through what the evidence or research would need to be for this claim to make sense?
+
+So in that case, I'm kind of using Claude like a brainstorming research partner, per se.
+
+Now, no matter which way you do it, this substance piece, the contrarian take and the evidence supporting it, that really is the foundational block for what great content comes from.
+
+This is what I call the last mile of great ideas.
+
+Now, there's one more point I want to mention on this substance piece, and that has to do with the format you chose.
+
+If you have a fairly restrictive format, that can kind of dictate the flow of how the evidence can be presented and what that contrarian take could even be in the first place.
+
+For example, if I'm making a video about hooks, but I chose S tier rank format, then I can't make the contrarian take around the text hook because I have to just rank hook types in the S A B C DF visual.
+
+So, it completely changes what I can use to fit the format.
+
+So, in that case, my contrarian take might be a certain type of hook that everyone thinks is good, but I rank bad or vice versa.
+
+But in that case, the format helped put rails on how I came up with the contrarian take.
+
+So if you need help coming up with these contrarian takes and you struggle to do it, picking a more restrictive format, putting guard rails on you can actually be kind of helpful in the development process.
+
+Constraints breed creativity is like a common frame.
+
+So if you add more constraints, you might be able to be more creative.
+
+For example, formats like the clone format that you always see Ava doing, the A versus B vers, or something like rating, ranking, or tier list.
+
+These are more restrictive formats that give you a set narrative that you can play within.
+
+If you're like me and you want to freestyle more because you have like wild ideas, you want to explain them.
+
+Well, then you want a looser, more flexible format like breakdown or case study or scenario.
+
+All right.
+
+Now, at this point in the video, we're halfway through the six-step process.
+
+We've done topic, we've done format, and we've done substance.
+
+And those three things really combine together to create the idea.
+
+When you hear people talk about ideas is all that matters, it's really a combo of those three things.
+
+And this is where most of the sauce is.
+
+When you build an AI content system, what you're doing is freeing up all your time so that you can focus on what that non-obvious contrarian take is and developing it.
+
+That's what all the pros in content are doing.
+
+But as you can see, I'm using AI in every step of the way.
+
+I'm using AI fully for topics.
+
+I'm using AI mostly for formats almost always.
+
+And then I'm coming up with the contrarian tech on my own.
+
+And I'm using AI as a thought partner for the evidence development.
+
+All right, the fourth step in this flow is the hook.
+
+Everybody talks about the hook.
+
+Everybody cares about the hook.
+
+Once you have the topic, the format, and the substance, then it's time to move to the hook.
+
+And we all know the hook is made up of three things.
+
+The visual hook, which is what's shown, the text hook, which is the title text on screen, and the spoken hook, which is what is said and what the captions usually say.
+
+Now, here's how I run my hook development process.
+
+I do the same thing every time.
+
+First, I start with the spoken hook, and I go back to the data that I pulled from Sand Castles.
+
+I go to Claude and I say this.
+
+I want you to run an analysis on all the hooks that we've pulled from the top 100 videos.
+
+First, I want you to bucket the videos by storytelling format.
+
+Rank the performance of the videos within each format based on outlier score.
+
+Extract out the hooks that were used for each one and extract out the hook Mad Lib format that's plug-andplay.
+
+I want you to list out the original topic, the video URL, the hook that was used, and the Mad Lib hook format.
+
+So that when I give you a new topic and I tell you what storytelling format I'm using, I want you to pull all the hooks from within that bucket and generate all new hooks using those Mad Lib hook formats.
+
+No matter what topic I give you, depending on how many hooks this nets me, maybe I'll ask you to run this hook conversion process again for another storytelling format that is adjacent.
+
+I want you to build this into a hookw writing skill and let me know when you're ready for my first topic.
+
+So by doing it this way, what you're essentially doing is bucketing all the videos by format.
+
+you're getting all the hooks within that bucket and ranking them.
+
+And then when you pick a format, you can say just use the other hooks that worked for that format for mine.
+
+Essentially, it's a data driven hook machine, but it's matching up the hooks by format.
+
+If you're not getting enough that way, you can expand to other formats.
+
+And I like matching the hooks by format.
+
+If you're doing an S tier video, the best way to find a winning hook is to look at all other S tier video hook formats and be like, which one crushed?
+
+And then use that.
+
+Sometimes hooks don't transport well across formats.
+
+Sometimes they do, sometimes they don't.
+
+So that's why I like keeping the format consistent at first.
+
+Now, after I get the spoken hook, the written hook down, locked in.
+
+I'll then go watch the individual videos from within that format category.
+
+That's why I asked for the link.
+
+I'll open it and I'll just watch every single one in a new tab.
+
+And what I'm doing here is I'm studying the visual hook execution and the text hook.
+
+I can do this faster with my eyes than I could from a visual AI telling me like, oh, put the block up there.
+
+I can just do it way faster with my eyes.
+
+So, I like opening them up and looking at it.
+
+Once I find one that actually hooked me, then I will mimic that visual execution.
+
+If you're doing this and you see a text hook that you really like that your eyes went to and you got it right away, write that down.
+
+That could be some version of the copy that you write on your text hook.
+
+All right, step five in the flow is the script.
+
+So, at this point, we now have a topic that is validated by data.
+
+We have a format that's validated by data.
+
+We have a non-obvious contrarian take that we feel good about.
+
+We have evidence to support that.
+
+And we have a hook written in the style of our topic and format.
+
+Now, I found that AI writing platforms, none of them are great at writing scripts out of the box.
+
+You'll never find one without tuning it that's good enough.
+
+So, this is what I do.
+
+I make my own script profile based on my transcripts, or you could do it off a transcript of another creator that you like.
+
+So, you're going to go back to Sand Castles.
+
+This time you're going to make sure either your profile or whatever the profile of the creator you want to train a voice model on.
+
+You want to make sure they're in your watch list.
+
+Go to the videos tab.
+
+Click the channel filter.
+
+Click just them so it pulls up only their videos.
+
+Again, sort by outlier score, 2% for the minimum bound of engagement, and go back like last 6 months.
+
+So, this is that person's best performing videos.
+
+Now, what you want to do is analyze like 10 to 20 of them.
+
+Make sure to skip any ones where the format is weird.
+
+It doesn't match what you want.
+
+Like if they did a about me video that's kind of like more storytelling, narrative driven, and that's not what you want, we'll skip that one.
+
+Just get 10 to 20 videos that are around the same style, the same format, top performers, analyze all of those.
+
+Now, you're going to export that CSV with just those and you're going to import that into Claude.
+
+And again, if you already have winners in your own voice, just do it with your own videos.
+
+Don't copy some other creator if you already have your own voice dialed.
+
+But you don't have a voice dialed that you want, go ahead and pick one other creator that you want to mimic the tone and rhythm and use them.
+
+I don't recommend combining multiple creators here because oftentimes, you know, speaking patterns are like fingerprints.
+
+I do it one way, they do it one way, she does it one way.
+
+If you combine examples from all three, it'll confuse the writer and make it generic.
+
+So, you want to pick one focused person and have 10 to 20 of the top performing transcripts from that person.
+
+Export those out.
+
+Now, you have the CSV.
+
+When I go back to Claude, I open a new chat because this is kind of like a new thread.
+
+Drop the CSV in.
+
+And then this is what I prompt for the scripting profile.
+
+I'm looking to build a short form scripting profile based on the transcripts that I've just uploaded.
+
+First, I want you to take all the transcripts and fix if there are any small typos or weird things.
+
+Rewrite and fix them so they're clean.
+
+Then, I want you to take all those clean transcripts, feed them in, and build a short form script writing profile model based on these.
+
+I want to be able to feed you a topic, a format, a contrarian take, and a hook.
+
+And I want you to be able to write a script in the tone, rhythm, and style of the script model you've just made.
+
+I want you to save this as a script writing skill.
+
+So, anytime I make a new video, I can open this and let it rip.
+
+Now, once you have this written, it'll shock you how good this is.
+
+It'll get you probably 90 to 95% of the way there, especially if you already do the work on the evidence.
+
+You already have the hook.
+
+You have a lot of the bones already there.
+
+You're not relying on it to come up with new stuff.
+
+When most people say AI writing is trash, what they mean is AI coming up with certain facts that are net new and writing it together sounds kind of mid.
+
+But if you actually guide it with a lot of the datadriven research and you already have a script model cloned based on the voice and rhythm you like, it's going to get you pretty close.
+
+From here, of course, you may still need to go the last mile.
+
+You may still need to tweak 5%.
+
+There might be one or two sentences or one or two things you want to tweak, but that's about as close as you can get right now.
+
+At this point, go ahead and take that script and record.
+
+All right, the last step in the flow, which is step six, is the editing.
+
+At this point, every single step has had a lot of AI driving it, but we still preserve the creativity, originality, which comes from the contrarian take.
+
+Now, for those people that say editing doesn't matter, there are some formats that are lower frills where editing is not really required.
+
+I still think editing matters a lot from a visual storytelling perspective.
+
+There's so much emotion you can drive with the right pacing and the right visuals, but there's a wide spectrum in how you could approach this.
+
+You really have four ways to tackle editing.
+
+So, it's kind of dealer's choice and how you want to do it.
+
+The first way is to intentionally pick a format that doesn't really require a ton of editing.
+
+This would be like yapping or the clone style or, you know, just like more raw personal storytelling without a ton of editing.
+
+This would be the first pass.
+
+You can bypass editing with this.
+
+Do this if you don't have the time.
+
+It's going to be harder to cut through with these.
+
+You really need to dial in everything else if you're going to go this way.
+
+The second way would be to brute force the editing yourself.
+
+You pick whatever format you think is best based on the data.
+
+And no matter what it takes, you brute force it.
+
+This is what I did.
+
+You could do it in Cap Cut.
+
+You could do it in Reals.
+
+You could do it in Premiere Pro.
+
+I taught myself how to do it until I could outsource it.
+
+The third way that's starting to emerge is people are using claude code and a remotion skill to actually automate some of the editing with AI.
+
+I don't think this is very premium yet.
+
+It's still like 2 out of 10, three out of 10 in terms of the complexity, but this is starting to work.
+
+If you're non-technical and you don't want to spend all the time learning this, I wouldn't put all the eggs in this basket.
+
+However, this is emerging.
+
+I'll continue to comment on it as it gets better.
+
+The fourth way to tackle editing is to hire an editor and outsource it.
+
+The reason I don't talk about editing in detail on this channel the way I do about all the other stuff is because if you're a business owner or you're trying to build an actual revenue engine from content, you should not be editing.
+
+You cannot be editing.
+
+It's too low leverage of a task for you as the creator to be doing it.
+
+So, I recommend outsourcing this.
+
+I've got a bunch of editors on every single one of my teams.
+
+If you want to work with the same people I work with for these YouTube videos, for all my shorts on tech, all my shorts on marketing, I've got a link below.
+
+You can fill that out and I will connect you.
+
+All right, so that is it really.
+
+That's the full endto-end sauce in terms of one rep for the workflow.
+
+Its topic, its format, its substance, its hooks, scripts, and edits.
+
+We talked about in every single one of those pieces, you can use AI to automate a lot of it other than the edit, but you could use Remotion if you wanted to do that as well.
+
+Now, my kind of macro meta perspective is a thing called AI enabled creativity.
+
+This is kind of what I'm going all in on.
+
+What I think AI is great for is taking away all the boring stuff so that you can spend all your time creating.
+
+It's not that AI is going to remove human creativity.
+
+It's that it frees up human creativity.
+
+That's how I'm looking at it.
+
+So, for me, me coming up with these crazy metaphors and wild concepts like dopamine ladders or all the stuff I do in the videos, that takes time to cook that up.
+
+I don't have as much time when I have to do all this 4-hour editing or 3-hour research sprints.
+
+But if I can use AI to outsource all of that, I can spend all my time cooking up the cool stuff.
+
+And that's what I think the power really is when you build one of these systems.
+
+Now, the question you would have from here, this last piece I want to cover is what I call my 10x batch system.
+
+Cuz really what you're wondering is, okay, that was one rep, but how do I actually like run the system over and over?
+
+How do I know what to make over time?
+
+Do I do this every time?
+
+How do I sequence it?
+
+Let me just explain how I approach this flow.
+
+You're going to run that whole loop that I just said once and that's going to produce 10 videos, right?
+
+So, the topic, format, research, that one pull should inform 10 videos.
+
+You're going to go substance all the way down.
+
+Substance all the way down.
+
+All the way down 10 times.
+
+So that first part you're going to run once and then you're going to have that substance hook, script, editing flow 10 times.
+
+That's one batch of 10 videos.
+
+You're going to post each one of those videos every day back to back for 10 days.
+
+Now, once you post the 10, I want you to look backwards at the analytics and I want you to look at three different metrics.
+
+These the only three metrics that matter for content.
+
+Number one, and I think the most important is conversions per video or conversions per view.
+
+So, if you have a lead magnet or a low ticket product and you're actually able to track via many chat the conversions off the video, this is the absolute best metric to measure and you're going to look at how many conversions did I drive per video.
+
+If you can't track that or you don't have a backend built out, the next best thing would be to look at followers per video or followers per view.
+
+How many followers did this video drive?
+
+Now, followers themselves don't matter in terms of you getting reach, but a follow from a human psychologically is a proxy for an endorsement that is bigger than a view.
+
+If someone presses follow, they're like, "Wow, I really like this guy's stuff.
+
+I really like this girl's content." That is higher weighted than them just watching something that was given to them automatically.
+
+So, if you can't look at conversions, you want to look at followers gained per video and use that to guide.
+
+The worst metric of the three, but still way better than everything else, is just total views.
+
+You're going to look at how many views you got relative to the field.
+
+So, what I want you to do is after you post a batch of 10, I want you to look backwards and be like, did any of the 10 get at least a 5x above the average for any of those three metrics.
+
+Did any of them drive 5x more conversions, 5x more followers, or 5x more views than the average of the 10.
+
+Now, here's how you're going to treat this.
+
+If none of them got above a 5x, they were all at the average, and ideally the average is probably low, that means you're going to rerun this process from scratch the next batch, right?
+
+And typically when this doesn't happen, there's usually like an obvious thing that's wrong with your videos or several obvious things.
+
+I actually put a program together where if you need help, I just literally review your videos myself and I say like, "Fix that.
+
+Fix that.
+
+Ooh, that's why that's not working.
+
+Your hook's not working." Every single call twice a week.
+
+I just go through everyone's videos as a group, one-on-one videos, but so everyone can see them.
+
+And I'm just like, "That's not working.
+
+That's not working.
+
+Oh, you messed that up.
+
+You messed that up." It's really helpful.
+
+So if you want that, I've linked it below.
+
+We've just opened a few spots.
+
+You don't have to have it forever, but it's really helpful for you to scale.
+
+If you get feedback from me, so that's if nothing is above a 5x.
+
+Now, if you get one or more that's above a 5x, but not above a 10x.
+
+It's kind of in this 5 to 10x range, that means you've got a winner, and you're going to take that topic and format, and you're going to tweak it slightly when your next batch, three of the 10 in the next batch should follow that topic and format.
+
+So, for me, in the example, hooks was the category, how to write better hooks was a topic, and the format was a breakdown.
+
+If I get a 5x, I'm going to be like, "Okay, how to write better hooks.
+
+Is there another contrarian take I could share?
+
+Could I tweak it somehow?
+
+Maybe try a different format?" Because you have data telling you that that video outperformed.
+
+Now, if you have a 10x or more, you're going to take the exact same topic, the exact same format, and you're going to run it again.
+
+That is like liquid gold.
+
+So, when you have a winner, five or 10x, you're going to run it three of your next 10.
+
+You're not going to run all 10 like that cuz it's going to get way too repetitive for you and the viewer.
+
+But three of your next 10 are going to be like that.
+
+If you have three winners, well, that takes care of your next 10.
+
+This is called the 10x batch process.
+
+You run these batches of 10, you look backwards, you take a winner, and you carry it forward.
+
+What you're really looking to do is to have three different combinations of winners that just crush 10x.
+
+That will inform your entire batch process.
+
+So, every time you make one of 10, they just crush.
+
+All you have to do is continue running iterative loops of 10, getting better from video to video, and taking forward the ones that worked, and you'll be good.
+
+Like I said, if you want help from me reviewing, this is really what I do.
+
+Like I get on the call and I just review everyone's videos one-on-one.
+
+They put their videos in the chat and I just say, "Cool, let me watch this." We all watch it together and I just give feedback live.
+
+If you want me to cook on your videos and just solve this for you, I've got a link below.
+
+Few spots open.
+
+All right, guys.
+
+That is all I've got for this video.
+
+This was a long one.
+
+You can tell in my voice I'm I'm cooked.
+
+To be honest, like this level of detail should not be given away for free, but I really do want to see all you guys win.
+
+Like I said in previous videos, my goal is I want a million people to make a million dollars from content.
+
+That's a trillion dollars in market value.
+
+in order to get you guys there, I need to give you every single thing I can.
+
+So, that's why I'm making these videos one of one for you.
+
+If you're watching this and you're like, "Man, that was amazing.
+
+I can't believe he gives this for free.
+
+What can I do to help?" If you're thinking that, this is what would really help me.
+
+Subscribe to the channel if you haven't already subscribed.
+
+If you have subscribed, especially like the video and leave a comment.
+
+And the comment I just want to be the chef emoji with the mustache.
+
+That's like my bat signal cuz I'm cooking, right?
+
+I'm cooking on these videos.
+
+Just drop the chef emoji cold.
+
+No other context but that.
+
+If you do that, you're a real one.
+
+I want to be able to look back on the videos and just see chef, chef, chef, chef, chef, chef, chef.
+
+Like, everyone's just chefing.
+
+If you do that, that means you got all the way through and you actually locked in this information.
+
+So, that's all I ask from you guys.
+
+I got a ton of stuff for free below.
+
+I mentioned several free things throughout the video.
+
+You can just grab those, the prompts, the visual database.
+
+You can use that.
+
+Like I said, I really want to see you guys win.
+
+So, hopefully you enjoyed that video.
+
+That's all I've got on this one and we will see you guys on the next one.
+
+Peace.

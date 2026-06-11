@@ -1,0 +1,400 @@
+{
+  "packageTitle": "Revenue: Vibe Tax Brief - AI Handoff Package",
+  "slug": "vibe-tax-brief-ai-handoff-2026-05-11",
+  "createdAt": "2026-05-11T20:41:15.994655+00:00",
+  "workspace": "/Users/farricecain/Codex Antigravity",
+  "primaryOffer": "The Vibe Tax Brief",
+  "entryPoint": "The Vibe Tax Diagnostic",
+  "recommendedFirstFile": "01-ALL-ARTIFACTS-COMBINED.md",
+  "driveDocumentTitle": "Revenue - Vibe Tax Brief - AI Handoff Package - 2026-05-11",
+  "folders": [
+    "01-core-offer",
+    "02-sales-and-delivery",
+    "03-mission-and-proof",
+    "04-command-bridge",
+    "05-supporting-revenue-context"
+  ],
+  "files": [
+    {
+      "source": "_active/research-intelligence-entry-point/README.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__README.md",
+      "bytes": 4736,
+      "sha256": "c40043506960e00198572754f623062c8eace7ad94e468bebab1dc1fc21694d9",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/EXPERT-COUNCIL.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__EXPERT-COUNCIL.md",
+      "bytes": 1886,
+      "sha256": "7bafe18a54b88e55ab65eb57b3fa88f9ac656ee0d40c651d0f466707b538ea12",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/MARKET-TRUTH-LEDGER.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__MARKET-TRUTH-LEDGER.md",
+      "bytes": 3389,
+      "sha256": "821cc8ce2603e84dd937c03b8577c2ece76b9a1400f0756b23b1ce789ce3fed7",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/HUMAN-RESONANCE-GATE.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__HUMAN-RESONANCE-GATE.md",
+      "bytes": 4162,
+      "sha256": "f1e95248c0a98dfe96766f669a78bddbcfbc90d962346de60ca02f1a00fb2557",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/NAME-SPRINT.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__NAME-SPRINT.md",
+      "bytes": 2845,
+      "sha256": "8f208a0a34bff4c6afa2124bb706e9769a9cffb92d7aa4666bd47cd85faa2af2",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/STICKINESS-GATE.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__STICKINESS-GATE.md",
+      "bytes": 2779,
+      "sha256": "b6b9ca51cf44e221802c30f7c00ebc74f677bfbb315060e071a3f481b4b11393",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/LEAD-MAGNET.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__LEAD-MAGNET.md",
+      "bytes": 2840,
+      "sha256": "91b5c72f7e7f9f149bdc51d2a310c44feaff06edfae518d78d6274be0a780c9d",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/OFFER-PAGE.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__OFFER-PAGE.md",
+      "bytes": 2202,
+      "sha256": "99f18868e88136a50169a3ebc71a05640d464551db31d1437bd2b193bd35948b",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/RESEARCH-BRIEF-TEMPLATE.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__RESEARCH-BRIEF-TEMPLATE.md",
+      "bytes": 3042,
+      "sha256": "43f2a1c091a26a834a219fa5b0554c193663ed79d44f6c7706f2a3549b8e77d2",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/SAMPLE-BRIEF.md",
+      "packagePath": "01-core-offer/_active__research-intelligence-entry-point__SAMPLE-BRIEF.md",
+      "bytes": 2113,
+      "sha256": "7e28c9bafa675b5697d4b3a09d55acc4452a6dc729b889b579495650fbe27820",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/SOCIAL-DISTRIBUTION-PACK.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__SOCIAL-DISTRIBUTION-PACK.md",
+      "bytes": 6382,
+      "sha256": "4de9fc3511514c2c90ba374ba27e2d2601ad65c94ed7e57428048ce4f5ed0aa4",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/INTAKE.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__INTAKE.md",
+      "bytes": 1044,
+      "sha256": "f11175c330592941b1c55f3e0e32d68edc2abb634449e2650d4b25681de58c59",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/OUTREACH-SCRIPTS.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__OUTREACH-SCRIPTS.md",
+      "bytes": 1716,
+      "sha256": "69611b6dc83da46d9c8c89038f15d4b201a78e805d34c3303a3eee5c10e6b23b",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/PROSPECT-SCORECARD.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__PROSPECT-SCORECARD.md",
+      "bytes": 1108,
+      "sha256": "1ff1fdfcbd765b0f89a8fc7de6762ba4e3cae93d494110edae35fec2f2be8b3b",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/DELIVERY-SOP.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__DELIVERY-SOP.md",
+      "bytes": 1470,
+      "sha256": "d19256b755d35008b83f0451064f89b675ff0121f79a49132cf0545c0aa05b76",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/PROOF-CAPTURE.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__PROOF-CAPTURE.md",
+      "bytes": 833,
+      "sha256": "f4cf7b7e189bb61548a155fdb6dde7d6463ddf234b8706589f39188952256d14",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/TRACKER.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__TRACKER.md",
+      "bytes": 904,
+      "sha256": "68cb01806fdf7d97a427eb7322383a3bf7b7578e7648613e0997a33b62bf4dae",
+      "status": "included"
+    },
+    {
+      "source": "_active/research-intelligence-entry-point/COPY-GATE-RESULT.md",
+      "packagePath": "02-sales-and-delivery/_active__research-intelligence-entry-point__COPY-GATE-RESULT.md",
+      "bytes": 2528,
+      "sha256": "1b3f87544b4875baa1d6ac42f22c8d213e18fc6a504af9164049dad664a9b2e0",
+      "status": "included"
+    },
+    {
+      "source": "docs/mission-artifacts/research-intelligence-entry-point/strategy-anchor.md",
+      "packagePath": "03-mission-and-proof/docs__mission-artifacts__research-intelligence-entry-point__strategy-anchor.md",
+      "bytes": 2015,
+      "sha256": "462dbae924832b5729ac8f3d76fa19819d137761674bc80ab6556a28f9c6ce15",
+      "status": "included"
+    },
+    {
+      "source": "docs/mission-artifacts/research-intelligence-entry-point/requirements.md",
+      "packagePath": "03-mission-and-proof/docs__mission-artifacts__research-intelligence-entry-point__requirements.md",
+      "bytes": 2860,
+      "sha256": "c0b5b9bed0b324aa85404f041218f76873c7432a8dc39599e1b76c2cc5678787",
+      "status": "included"
+    },
+    {
+      "source": "docs/mission-artifacts/research-intelligence-entry-point/plan.md",
+      "packagePath": "03-mission-and-proof/docs__mission-artifacts__research-intelligence-entry-point__plan.md",
+      "bytes": 2801,
+      "sha256": "8e90d876110f287687580792dbdb9c001231d25abdafdabc1e89c87f1b113e57",
+      "status": "included"
+    },
+    {
+      "source": "docs/mission-artifacts/research-intelligence-entry-point/review.md",
+      "packagePath": "03-mission-and-proof/docs__mission-artifacts__research-intelligence-entry-point__review.md",
+      "bytes": 1798,
+      "sha256": "cc701021cae78a7b910a3d465f2efacad04f48bc9ff80587f8a7410f016a5a1f",
+      "status": "included"
+    },
+    {
+      "source": "docs/mission-artifacts/research-intelligence-entry-point/solution-capture.md",
+      "packagePath": "03-mission-and-proof/docs__mission-artifacts__research-intelligence-entry-point__solution-capture.md",
+      "bytes": 1465,
+      "sha256": "3d06e25e6b4e937bba53a0a6e9189233aa37741a3c0a341273da83a4b4ea0a7b",
+      "status": "included"
+    },
+    {
+      "source": "docs/mission-artifacts/research-intelligence-entry-point/pulse.md",
+      "packagePath": "03-mission-and-proof/docs__mission-artifacts__research-intelligence-entry-point__pulse.md",
+      "bytes": 1337,
+      "sha256": "586cb3803ef4c14cab5fac971b5a406d86ccc076c010c92d98931afdc472f7fb",
+      "status": "included"
+    },
+    {
+      "source": ".agent/missions/research-intelligence-entry-point/mission.md",
+      "packagePath": "03-mission-and-proof/agent__missions__research-intelligence-entry-point__mission.md",
+      "bytes": 2246,
+      "sha256": "51489990842d604d7aa87b7c6ae5fdad3aa2ba8c6eaebc307eee551d4e1d4dad",
+      "status": "included"
+    },
+    {
+      "source": ".agent/missions/research-intelligence-entry-point/mission.json",
+      "packagePath": "03-mission-and-proof/agent__missions__research-intelligence-entry-point__mission.json",
+      "bytes": 3266,
+      "sha256": "3992321c4e6e6e2fe776723d9beece5692e450c6136848e0c6c60b7024780c61",
+      "status": "included"
+    },
+    {
+      "source": ".agent/workflows/vibe-tax-brief.md",
+      "packagePath": "04-command-bridge/agent__workflows__vibe-tax-brief.md",
+      "bytes": 2404,
+      "sha256": "de257829b102215ca870accd488e9649f8a3916c6e7177817766c7fe1500f57c",
+      "status": "included"
+    },
+    {
+      "source": ".agents/skills/source-command-vibe-tax-brief/SKILL.md",
+      "packagePath": "04-command-bridge/agents__skills__source-command-vibe-tax-brief__SKILL.md",
+      "bytes": 621,
+      "sha256": "e1538c9aee5ae49bb957fbe3389a13a90e7b6aca3e3dc947a6486cc107175a5a",
+      "status": "included"
+    },
+    {
+      "source": ".claude/commands/vibe-tax-brief.md",
+      "packagePath": "04-command-bridge/claude__commands__vibe-tax-brief.md",
+      "bytes": 133,
+      "sha256": "f4650be81db978d6123bb0b23b0ba156646bdb0e1e82c299d92e863f27476a46",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/README.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__README.md",
+      "bytes": 4453,
+      "sha256": "8631ca844d1356a90cb36b218fcc87a1919766e2f8e6b264d26970fd7f797723",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/OFFER-CARDS.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__OFFER-CARDS.md",
+      "bytes": 6291,
+      "sha256": "f988df9c429088a4ff892ba90e08d9964896f6ca6353d5bff548ac21d196ae49",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/OUTREACH-SCRIPTS.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__OUTREACH-SCRIPTS.md",
+      "bytes": 3867,
+      "sha256": "4bb04030b23331f8f52d3e63133d519e621c86b42c82f7d10b47bc49882041b7",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/DELIVERY-SOP.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__DELIVERY-SOP.md",
+      "bytes": 2198,
+      "sha256": "28f051561ad68b05eed56c24ddd8cfa70eeef35e05bc855472c5796c3a2410bf",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/INTAKE-AND-LINKS.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__INTAKE-AND-LINKS.md",
+      "bytes": 2581,
+      "sha256": "82c8018534db72c0a58ca76da81f8fff0c15aa590edc67ab3729307b4f8f847d",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/7-DAY-CASH-SPRINT.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__7-DAY-CASH-SPRINT.md",
+      "bytes": 3421,
+      "sha256": "5d4ee04839bac8072b5e3364be2f8a64c69cde9d660a5cec953828a613be7bab",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/PROSPECT-SCORECARD.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__PROSPECT-SCORECARD.md",
+      "bytes": 2177,
+      "sha256": "be3a0aeea018adf68b7649b1b8a0a3a88ad3d8e52e66111294ac2a6d5914985a",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/MARKETPLACE-PROPOSAL-QUEUE.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__MARKETPLACE-PROPOSAL-QUEUE.md",
+      "bytes": 2313,
+      "sha256": "2ba29af25ab8b44d7008918edfd07a9a4293f65428dd767dbc82af61dbabc6ce",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/TRACKER.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__TRACKER.md",
+      "bytes": 2249,
+      "sha256": "52af30f447726d17b8f584e1d0e4a24f2cd096986b5a2cacd96b98ac6ffad6b3",
+      "status": "included"
+    },
+    {
+      "source": "_active/cash-first-service-menu/COPY-GATE-RESULT.md",
+      "packagePath": "05-supporting-revenue-context/_active__cash-first-service-menu__COPY-GATE-RESULT.md",
+      "bytes": 2302,
+      "sha256": "626a70db8b35d99df9e3b0c276405fd3176892008d9386417659260961f7261a",
+      "status": "included"
+    },
+    {
+      "source": "generated",
+      "packagePath": "00-START-HERE.md",
+      "status": "included",
+      "bytes": 3137,
+      "sha256": "423e7c84f3433edc67d42c59f896b781b6d6cd1559ce7b90440683edd408e4a5"
+    },
+    {
+      "source": "generated",
+      "packagePath": "01-ALL-ARTIFACTS-COMBINED.md",
+      "status": "included",
+      "bytes": 108851,
+      "sha256": "4e7253d39cd0b1462f96d0a9a7518c1bf6d8d0416a9a5ddbf6a4ece86f89c300"
+    },
+    {
+      "source": "generated-drive-workbook",
+      "packagePath": "Revenue - Vibe Tax Brief - AI Handoff Package - 2026-05-11.xlsx",
+      "status": "included",
+      "bytes": 75321,
+      "sha256": "9590c77522e86539e68607cee8700290d73540d3175396e4526b9db35fb5e84e"
+    }
+  ],
+  "usageNote": "Give 00-START-HERE.md and 01-ALL-ARTIFACTS-COMBINED.md to another AI first. Use folders for source-specific lookup.",
+  "updatedAt": "2026-05-11T20:53:23.678685+00:00",
+  "driveAssets": {
+    "googleSheetPackage": "https://docs.google.com/spreadsheets/d/1BZzEHmwHe8OxMM-DYkj-HyTrleulI7nSU1NPu6zmqt0",
+    "googleDocReadme": "https://docs.google.com/document/d/1zb3nHVEuXpb3emIkACso2vOfVjWbPiKuaUk9Jz3-zYE",
+    "note": "Drive connector exposed native Sheet upload and Doc creation, but not folder creation or arbitrary zip upload in this session.",
+    "status": "deprecated-for-this-package",
+    "reason": "User requested repo-native GWS folder export because plugin-created package did not show properly."
+  },
+  "gwsDriveExport": {
+    "status": "current-primary-drive-handoff",
+    "folderId": "1-v_pIGdwFx-oo5rNJAXtmYjAFhlrlAEI",
+    "folderName": "Revenue - Vibe Tax Brief - AI Handoff Package - GWS Export - 2026-05-11",
+    "folderUrl": "https://drive.google.com/drive/folders/1-v_pIGdwFx-oo5rNJAXtmYjAFhlrlAEI",
+    "documents": [
+      {
+        "order": "00",
+        "title": "00-Start Here Vibe Tax Brief",
+        "sourceFile": "google-docs-source-gws/00-START-HERE-Vibe-Tax-Brief.md",
+        "googleDocId": "1iL01C5iY_fXdNTBvaAi2UuqqhoetlKrGBQOKVFaysqE",
+        "url": "https://docs.google.com/document/d/1iL01C5iY_fXdNTBvaAi2UuqqhoetlKrGBQOKVFaysqE/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 3569,
+        "sourceSha256": "18cdfee55ccc1cddbff9b053d298f8736193eab008736bcd08607a81d82beedb"
+      },
+      {
+        "order": "01",
+        "title": "01-Core Offer System",
+        "sourceFile": "google-docs-source-gws/01-Core-Offer-System.md",
+        "googleDocId": "13MsmDa1VNunoIQW_q6nEGJ23WjjeVGmq30LjzChCCKw",
+        "url": "https://docs.google.com/document/d/13MsmDa1VNunoIQW_q6nEGJ23WjjeVGmq30LjzChCCKw/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 20663,
+        "sourceSha256": "f3f97bc9ac43eb6111f412d1e2c71689cb7d1f560b85183d759893c83da59f0a"
+      },
+      {
+        "order": "02",
+        "title": "02-Diagnostic And Paid Brief",
+        "sourceFile": "google-docs-source-gws/02-Diagnostic-And-Paid-Brief.md",
+        "googleDocId": "18NiYWYPBwGKZjNlXYHw4RvBpav06WP5IRyZh5JzYmjU",
+        "url": "https://docs.google.com/document/d/18NiYWYPBwGKZjNlXYHw4RvBpav06WP5IRyZh5JzYmjU/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 10796,
+        "sourceSha256": "f852d93d874b29ff6d7918b13949d7e73499d61905c2d712919ba246e073186f"
+      },
+      {
+        "order": "03",
+        "title": "03-Sales Delivery And Outreach",
+        "sourceFile": "google-docs-source-gws/03-Sales-Delivery-And-Outreach.md",
+        "googleDocId": "1DdH8X3RYgs7pDHH3T47yJcFM9BsaSjGA9GZv5tjWKAY",
+        "url": "https://docs.google.com/document/d/1DdH8X3RYgs7pDHH3T47yJcFM9BsaSjGA9GZv5tjWKAY/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 14435,
+        "sourceSha256": "65ccb4244a56393fe49b46543ad24802e639911e70d9336f23b2537e58443dab"
+      },
+      {
+        "order": "04",
+        "title": "04-Proof And Quality Gates",
+        "sourceFile": "google-docs-source-gws/04-Proof-And-Quality-Gates.md",
+        "googleDocId": "1BAcj292X32a9chHbzHS8owJGh0Y0bxQO-afKaMW_FAs",
+        "url": "https://docs.google.com/document/d/1BAcj292X32a9chHbzHS8owJGh0Y0bxQO-afKaMW_FAs/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 15826,
+        "sourceSha256": "2fc287f8e105848b7277fa55f73d918818dbc4da0b48d89c411faa90e2763468"
+      },
+      {
+        "order": "05",
+        "title": "05-Command And System Context",
+        "sourceFile": "google-docs-source-gws/05-Command-And-System-Context.md",
+        "googleDocId": "12jNkk9yQG_62WC7PTubWWpW_roc42HNWo1Z5GXs9B6o",
+        "url": "https://docs.google.com/document/d/12jNkk9yQG_62WC7PTubWWpW_roc42HNWo1Z5GXs9B6o/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 18166,
+        "sourceSha256": "3199cdbb64f78edce22f5672f442217639e5c3092243916b95569b35a15baaf1"
+      },
+      {
+        "order": "06",
+        "title": "Manifest",
+        "sourceFile": "google-docs-source-gws/MANIFEST.md",
+        "googleDocId": "1zreg-Za9P04wwB-sJPNw2-bQnqrqlQ4Hk6uQAdcVlzY",
+        "url": "https://docs.google.com/document/d/1zreg-Za9P04wwB-sJPNw2-bQnqrqlQ4Hk6uQAdcVlzY/edit?usp=drivesdk",
+        "mimeType": "application/vnd.google-apps.document",
+        "sourceBytes": 7154,
+        "sourceSha256": "ca9731a3b382249649e62652b202700c4364a721f641d60e246231c2ddea6602"
+      }
+    ]
+  }
+}

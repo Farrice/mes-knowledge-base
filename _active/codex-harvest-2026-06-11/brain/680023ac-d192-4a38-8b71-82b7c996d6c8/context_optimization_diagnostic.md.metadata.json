@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "Full diagnostic of the Antigravity system's context window economics. Maps exactly where tokens are consumed across static system prompt components and dynamic session loading. Identifies the #1 bloat source (524 workflow listings consuming ~17K tokens before a word is typed) and provides a tiered optimization plan that preserves depth while cutting overhead by 40-60%. Includes concrete implementation steps: workflow index restructuring, genius file compression, tiered loading enforcement, and session hygiene protocols.",
+  "updatedAt": "2026-04-11T14:27:48.596913Z",
+  "requestFeedback": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "lane": "market_context",
+    "query": "small business AI onboarding offer current buyer trends public discussion reviews",
+    "purpose": "Find current public evidence and category context."
+  },
+  {
+    "lane": "social_listening",
+    "query": "site:reddit.com small business AI onboarding offer comments frustrations wish bought wear community",
+    "purpose": "Find public community language and buyer scenes."
+  },
+  {
+    "lane": "marketplace_or_review",
+    "query": "small business AI onboarding offer best sellers reviews Etsy Amazon apparel product",
+    "purpose": "Find marketplace/review signals and product language."
+  },
+  {
+    "lane": "competitor_or_alternative",
+    "query": "small business AI onboarding offer brands competitors product pages positioning",
+    "purpose": "Find competitor and alternative positioning signals."
+  },
+  {
+    "lane": "purchase_intent",
+    "query": "small business AI onboarding offer buyer objections purchase intent why people buy",
+    "purpose": "Find purchase intent and resistance evidence."
+  },
+  {
+    "lane": "seed_finding",
+    "query": "6 structured finding(s)",
+    "purpose": "Codex web-search snippets or user-provided findings ingested with source URLs."
+  }
+]

@@ -1,0 +1,1702 @@
+{
+  "cards": [
+    {
+      "domain": "Affiliate marketing with AI \u2014 hobby niche blogs generating $5K-$10K+/month",
+      "expert": "Adam Enfroy",
+      "name": "adam-enfroy",
+      "path": "agents/adam-enfroy/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "adam-enfroy"
+    },
+    {
+      "domain": "social carousel systems, GPT Image 2 prompt packaging, content repurposing, visual marketing assets",
+      "expert": "AI Carousel Content Engine",
+      "name": "AI Carousel Content Engine",
+      "path": "agents/ai-carousel-content-engine/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "ai-carousel-content-engine",
+        "source-command-ai-carousel-engine"
+      ],
+      "slug": "ai-carousel-content-engine"
+    },
+    {
+      "domain": "Zero Testimonial Sales + Proof Building + AI Services Positioning",
+      "expert": "AI Chris Lee",
+      "name": "ai-chris-lee",
+      "path": "agents/ai-chris-lee/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ai-chris-lee"
+    },
+    {
+      "domain": "Advanced copywriting psychology and offer economics",
+      "expert": "Alen Sultanic",
+      "name": "alen-sultanic",
+      "path": "agents/alen-sultanic/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "alen-sultanic"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Alex \u2014 Content Science Agent",
+      "path": "agents/alex-content-science/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "alex-content-science"
+    },
+    {
+      "domain": "Creative Strategy & Brand Positioning",
+      "expert": "Alex Copper",
+      "name": "alex-copper",
+      "path": "agents/alex-copper/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "alex-copper"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Ali Abdaal - Action Bias",
+      "path": "agents/ali-abdaal/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ali-abdaal"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Andrew Dun \u2014 Agent Profile",
+      "path": "agents/andrew-dun/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "andrew-dun"
+    },
+    {
+      "domain": "AI Entrepreneurship, Vibe Coding & Rapid Execution",
+      "expert": "Andrew Wilkinson",
+      "name": "andrew-wilkinson",
+      "path": "agents/andrew-wilkinson/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "andrew-wilkinson"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Agent: Andy Lo (@andy-lo)",
+      "path": "agents/andy-lo/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "andy-lo"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Anne Lamott \u2014 Agent Configuration",
+      "path": "agents/anne-lamott/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "anne-lamott"
+    },
+    {
+      "domain": "agentic orchestration, workflow routing, expert stacking, execution menus, revenue-aware prioritization",
+      "expert": "Antigravity Orchestrator",
+      "name": "Antigravity Orchestrator",
+      "path": "agents/antigravity-orchestrator/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-orchestrate"
+      ],
+      "slug": "antigravity-orchestrator"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "April Dunford \u2014 B2B Positioning & Sales Pitch Expert",
+      "path": "agents/april-dunford/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "april-dunford"
+    },
+    {
+      "domain": "Founder Systems, Lean Canvas, Customer Forces, Validation, Traction",
+      "expert": "Ash Maurya",
+      "name": "ash-maurya",
+      "path": "agents/ash-maurya/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ash-maurya"
+    },
+    {
+      "domain": "universal hooks, brandjacking, newsjacking, namejacking, trendjacking, attention anchors, platform-fit content openings",
+      "expert": "Attention Hijack Hook System",
+      "name": "attention-hijack-hooks",
+      "path": "agents/attention-hijack-hooks/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "attention-hijack-hooks"
+      ],
+      "slug": "attention-hijack-hooks"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Gael Breton \u2014 AI Social Media Mastery",
+      "path": "agents/authority-hacker/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "authority-hacker"
+    },
+    {
+      "domain": "Direct response copywriting and conversion optimization",
+      "expert": "Bond Halbert",
+      "name": "bond-halbert",
+      "path": "agents/bond-halbert/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "bond-halbert"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Boris \u2014 AI Productivity Systems Architect",
+      "path": "agents/boris/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "boris"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Brandon Jacoby - Taste Mastery and Deployment Agent",
+      "path": "agents/brandon-jacoby/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "brandon-jacoby"
+    },
+    {
+      "domain": "Instagram Shareworthy Content",
+      "expert": "Brock Johnson",
+      "name": "brock-johnson",
+      "path": "agents/brock-johnson/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "brock-johnson"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Caleb Ralston: Trust-Based Personal Brand Architect",
+      "path": "agents/caleb-ralston/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "caleb-ralston"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Cardinal Mason: AI Copywriting Virtuoso",
+      "path": "agents/cardinal-mason/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "cardinal-mason"
+    },
+    {
+      "domain": "B.A.N.K. buyology, buyer-code diagnosis, sales communication, code-aware marketing assets",
+      "expert": "Cheri Tree",
+      "name": "Cheri Tree",
+      "path": "agents/cheri-tree/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "cheri-tree-bank-buyology"
+      ],
+      "slug": "cheri-tree"
+    },
+    {
+      "domain": "Financial Direct Response Copywriting & Promotion Architecture",
+      "expert": "Chris Cimorelli",
+      "name": "chris-cimorelli",
+      "path": "agents/chris-cimorelli/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "chris-cimorelli-copywriting"
+      ],
+      "slug": "chris-cimorelli"
+    },
+    {
+      "domain": "client delivery, audits, SOPs, playbooks, implementation, consulting delivery, AI service fulfillment",
+      "expert": "Client Delivery Agent",
+      "name": "Client Delivery Agent",
+      "path": "agents/client-delivery-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-client-delivery-agent"
+      ],
+      "slug": "client-delivery-agent"
+    },
+    {
+      "domain": "content, media, newsletters, social, scripts, atomization, authority building, platform-native execution",
+      "expert": "Content & Media Agent",
+      "name": "Content & Media Agent",
+      "path": "agents/content-media-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-content-media-agent"
+      ],
+      "slug": "content-media-agent"
+    },
+    {
+      "domain": "copywriting, persuasion, sales pages, ads, VSLs, email, proof, conversion",
+      "expert": "Copywriting Agent",
+      "name": "Copywriting Agent",
+      "path": "agents/copywriting-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-copywriting-agent"
+      ],
+      "slug": "copywriting-agent"
+    },
+    {
+      "domain": "creative design, visual direction, taste, design systems, creative briefs, product moments, AI design tools",
+      "expert": "Creative Design Agent",
+      "name": "Creative Design Agent",
+      "path": "agents/creative-design-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-creative-design-agent"
+      ],
+      "slug": "creative-design-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Creative Director Agent",
+      "path": "agents/creative-director/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "creative-director"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Dai Media: Consumer Posture Strategist",
+      "path": "agents/dai-media/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "dai-media"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Dan Koe - Multipassionate Mastery & AI Leverage",
+      "path": "agents/dan-koe/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "dan-koe"
+    },
+    {
+      "domain": "Business Scaling & Operational Leverage",
+      "expert": "Dan Martell",
+      "name": "dan-martell",
+      "path": "agents/dan-martell/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "dan-martell"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Dan Wang: Observational Writing Master",
+      "path": "agents/dan-wang/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "dan-wang"
+    },
+    {
+      "domain": "Oversubscribed methodology, demand engineering, Key Person of Influence, 24 Assets, business asset creation, revenue per person, digital scalable assets, productized service design",
+      "expert": "Daniel Priestley",
+      "name": "daniel-priestley",
+      "path": "agents/daniel-priestley/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "daniel-priestley"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Danny Yeung \u2014 Velocity Strategist",
+      "path": "agents/danny-yeung/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "danny-yeung"
+    },
+    {
+      "domain": "AI-Augmented Affiliate Marketing & Digital Revenue Systems",
+      "expert": "Darrel Wilson",
+      "name": "darrel-wilson",
+      "path": "agents/darrel-wilson/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "darrel-wilson-ai-monetization",
+        "darrel-wilson-ai-affiliate"
+      ],
+      "slug": "darrel-wilson"
+    },
+    {
+      "domain": "data analysis, metrics, experiments, routing intelligence, performance tracking, revenue outcomes, false proxy detection",
+      "expert": "Data & Analysis Agent",
+      "name": "Data & Analysis Agent",
+      "path": "agents/data-analysis-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-data-analysis-agent"
+      ],
+      "slug": "data-analysis-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "David Bayer - Elite Communication",
+      "path": "agents/david-bayer/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "david-bayer"
+    },
+    {
+      "domain": "Legendary copywriting",
+      "expert": "David Deutsch",
+      "name": "david-deutsch",
+      "path": "agents/david-deutsch/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "david-deutsch"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "David Gelb \u2014 Agent Configuration",
+      "path": "agents/david-gelb/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "david-gelb"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "David McRaney",
+      "path": "agents/david-mcraney/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "david-mcraney"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Agent: David Placek",
+      "path": "agents/david-placek/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "david-placek"
+    },
+    {
+      "domain": "LinkedIn algorithmic growth, audience acquisition, growth content formats, content system architecture, strategic engagement",
+      "expert": "Diandra Escobar",
+      "name": "diandra-escobar",
+      "path": "agents/diandra-escobar/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "diandra-escobar-linkedin-growth"
+      ],
+      "slug": "diandra-escobar"
+    },
+    {
+      "domain": "portfolio operations, CPG, retail, launch strategy, delegation, financial leakage, exit readiness",
+      "expert": "Dom Iacovone Multi-Company Operator",
+      "name": "Dom Iacovone Multi-Company Operator Agent",
+      "path": "agents/dom-iacovone-multi-company-operator/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "dom-iacovone-multi-company-operator"
+      ],
+      "slug": "dom-iacovone-multi-company-operator"
+    },
+    {
+      "domain": "Culture Turnaround, Strategic Messaging, Identity Transformation, StoryBrand, Business Messaging, Narrative Marketing",
+      "expert": "Donald Miller",
+      "name": "donald-miller",
+      "path": "agents/donald-miller/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "donald-miller-culture-turnaround",
+        "donald-miller-storybrand",
+        "donald-miller-cognitive-load"
+      ],
+      "slug": "donald-miller"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Dr. K (Alok Kanojia)",
+      "path": "agents/dr-k/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "dr-k"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Dr. Kriukow \u2014 Agent Configuration",
+      "path": "agents/dr-kriukow/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "dr-kriukow"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Eric Roth: Oscar-Level Writing Virtuoso",
+      "path": "agents/eric-roth/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "eric-roth"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Erica Mallet: Brand Magnetism Architect",
+      "path": "agents/erica-mallet/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "erica-mallet"
+    },
+    {
+      "domain": "AEO, Answer Engine Optimization, RAG citation mechanics, experimental search methodology",
+      "expert": "",
+      "name": "Ethan Smith",
+      "path": "agents/ethan-smith/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ethan-smith"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Evan Spiegel \u2014 Distribution-First Product Architect",
+      "path": "agents/evan-spiegel/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "evan-spiegel"
+    },
+    {
+      "domain": "evolution, self-improvement, self-healing, feedback ratchet, benchmarking, supervised upgrades",
+      "expert": "Evolution Agent",
+      "name": "Evolution Agent",
+      "path": "agents/evolution-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-evolution-agent"
+      ],
+      "slug": "evolution-agent"
+    },
+    {
+      "domain": "extraction governance, source triage, skill creation, workflow creation, knowledge library expansion",
+      "expert": "Extraction Governor Agent",
+      "name": "Extraction Governor Agent",
+      "path": "agents/extraction-governor-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-extraction-governor-agent"
+      ],
+      "slug": "extraction-governor-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Fareed Zakaria - Writing Mastery",
+      "path": "agents/fareed-zakaria/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "fareed-zakaria"
+    },
+    {
+      "domain": "AI employee systems, company agents, ambient coworker interfaces, shared context, memory isolation, integration scope, and trust rollout",
+      "expert": "Fryderyk Wiatrowski",
+      "name": "fryderyk-wiatrowski",
+      "path": "agents/fryderyk-wiatrowski/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "fryderyk-wiatrowski-ai-employee-os"
+      ],
+      "slug": "fryderyk-wiatrowski"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Futurepedia: Prompt Engineering Virtuoso",
+      "path": "agents/futurepedia/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "futurepedia"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "GPT Image 2.0 Director Agent",
+      "path": "agents/gpt-image/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "gpt-image"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Grace Andrews \u2014 Media Company Brand Architect",
+      "path": "agents/grace-andrews/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "grace-andrews"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Agent: Greg Hoffman",
+      "path": "agents/greg-hoffman/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "greg-hoffman"
+    },
+    {
+      "domain": "ground truth, benchmarks, expert comparison, calibration, proof, world-class quality checks",
+      "expert": "Ground Truth Agent",
+      "name": "Ground Truth Agent",
+      "path": "agents/ground-truth-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-ground-truth-agent"
+      ],
+      "slug": "ground-truth-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Harry Dry: Copywriting Precision Master",
+      "path": "agents/harry-dry/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "harry-dry"
+    },
+    {
+      "domain": "Message Design & Idea Stickiness",
+      "expert": "Dan & Chip Heath",
+      "name": "heath-brothers",
+      "path": "agents/heath-brothers/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "heath-brothers"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Higgsfield Creative Studio Agent",
+      "path": "agents/higgsfield-creative/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "higgsfield-creative"
+    },
+    {
+      "domain": "ideation, creative strategy, concept generation, cross-domain synthesis, angle development, original frameworks",
+      "expert": "Ideation Agent",
+      "name": "Ideation Agent",
+      "path": "agents/ideation-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-ideation-agent"
+      ],
+      "slug": "ideation-agent"
+    },
+    {
+      "domain": "Brain Glue persuasion, idea stickiness, sales language, naming, content hooks, sensory messaging, right-brain selling",
+      "expert": "James I. Bond",
+      "name": "James I. Bond",
+      "path": "agents/james-i-bond/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "james-i-bond"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jasmin Alic",
+      "path": "agents/jasmin-alic/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jasmin-alic"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jason Fladlien \u2014 Agent Profile",
+      "path": "agents/jason-fladlien/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jason-fladlien"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jeremy Haynes",
+      "path": "agents/jeremy-haynes/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jeremy-haynes"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jeremy Miner: Identity-Based Persuasion Master",
+      "path": "agents/jeremy-miner/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jeremy-miner"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jessica Jensen \u2014 Agent Configuration",
+      "path": "agents/jessica-jensen/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jessica-jensen"
+    },
+    {
+      "domain": "Cross-domain synthesis, behavioral finance, strategic thinking, wisdom transmission",
+      "expert": "Jim O'Shaughnessy",
+      "name": "jim-oshaughnessy",
+      "path": "agents/jim-oshaughnessy/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jim-oshaughnessy"
+    },
+    {
+      "domain": "Conversion Copywriting, Persuasive Writing, Authority Craft, & Writing Career Monetization",
+      "expert": "Joanna Wiebe",
+      "name": "joanna-wiebe",
+      "path": "agents/joanna-wiebe/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "joanna-wiebe-persuasion-mastery",
+        "joanna-wiebe-writing-careers"
+      ],
+      "slug": "joanna-wiebe"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jonathan Courtney \u2014 Agent Persona",
+      "path": "agents/jonathan-courtney/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jonathan-courtney"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Jonathan Franzen - Agent Profile",
+      "path": "agents/jonathan-franzen/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jonathan-franzen"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Joscha Bach - Computational Consciousness",
+      "path": "agents/joscha-bach/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "joscha-bach"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Josh Sanders",
+      "path": "agents/josh-sanders/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "josh-sanders"
+    },
+    {
+      "domain": "Real Estate Sales Mastery, KPI-Driven Production, Niche Targeting, Conversion Optimization",
+      "expert": "",
+      "name": "Joshua Smith",
+      "path": "agents/joshua-smith/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "joshua-smith"
+    },
+    {
+      "domain": "Creator Vision, Psychographic Growth, Non-Verbal Storytelling",
+      "expert": "Jun Yuh",
+      "name": "jun-yuh",
+      "path": "agents/jun-yuh/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "jun-yuh"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Kallaway \u2014 Content Psychology & Viral Engineering Strategist",
+      "path": "agents/kallaway/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "kallaway"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Kallaway Content Operating System Agent",
+      "path": "agents/kallaway-content-operating-system/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "kallaway-content-operating-system"
+    },
+    {
+      "domain": "premium short-form content systems, AI-enabled production, 10x batch iteration",
+      "expert": "",
+      "name": "Kallaway Content System",
+      "path": "agents/kallaway-content-system/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "kallaway-content-system"
+    },
+    {
+      "domain": "AI Content Teams, Content Engine Architecture, Audience Intelligence, Content Bundling, Platform Adaptation, Performance Feedback Loops",
+      "expert": "Kieran Flanagan",
+      "name": "kieran-flanagan",
+      "path": "agents/kieran-flanagan/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "kieran-flanagan-audience-intelligence",
+        "kieran-flanagan-content-engine",
+        "kieran-flanagan-content-ops"
+      ],
+      "slug": "kieran-flanagan"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Kittl: Design Mastery Virtuoso",
+      "path": "agents/kittl/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "kittl"
+    },
+    {
+      "domain": "knowledge operations, library intelligence, skill surfacing, sleeping giants, knowledge hygiene, extraction opportunities",
+      "expert": "Knowledge Librarian",
+      "name": "Knowledge Librarian",
+      "path": "agents/knowledge-librarian/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-knowledge-librarian"
+      ],
+      "slug": "knowledge-librarian"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Lance Martin & Yichao \"Peak\" Ji - Context Engineering Expert",
+      "path": "agents/lance-yichao/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "lance-yichao"
+    },
+    {
+      "domain": "LinkedIn Content, B2B Personal Branding, Viral Copywriting, Tech Founder Content Systems",
+      "expert": "Lara Acosta",
+      "name": "lara-acosta",
+      "path": "agents/lara-acosta/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "lara-acosta-linkedin-growth",
+        "lara-acosta-content-system"
+      ],
+      "slug": "lara-acosta"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Liam Mley \u2014 AI Brain Builder Agent",
+      "path": "agents/liam-mley/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "liam-mley"
+    },
+    {
+      "domain": "AI Consulting Sales + Client Acquisition + Multi-Channel Outreach",
+      "expert": "Lindsay",
+      "name": "lindsay",
+      "path": "agents/lindsay/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "lindsay"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Logan Kilpatrick - Google AI Studio",
+      "path": "agents/logan-kilpatrick/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "logan-kilpatrick"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Lucas Alpay \u2014 Storytelling Architect",
+      "path": "agents/lucas-alpay/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "lucas-alpay"
+    },
+    {
+      "domain": "Copywriting Systems, VSL Architecture, Proof Mechanisms, Proof Ladder Architecture, Creative Strategy, Awareness-Level Advertising, Mechanism Engineering, Client Mastery & Business Operations, Vicious Hook Mastery",
+      "expert": "Luke Iha",
+      "name": "luke-iha",
+      "path": "agents/luke-iha/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "luke-iha-proof-mechanisms",
+        "luke-iha-proof-ladder",
+        "luke-iha-creative-strategy",
+        "luke-iha-unaware-ads",
+        "luke-iha-copy-blocks",
+        "luke-iha-vsl-leads",
+        "luke-iha-million-dollar-mechanisms",
+        "luke-iha-cross-domain",
+        "luke-iha-client-mastery",
+        "luke-iha-vicious-hooks"
+      ],
+      "slug": "luke-iha"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Lulu Cheng Meservey",
+      "path": "agents/lulu-cheng-meservey/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "lulu-cheng-meservey-communications"
+      ],
+      "slug": "lulu-cheng-meservey"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Manus.ai - AI Consulting",
+      "path": "agents/manus-ai/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "manus-ai"
+    },
+    {
+      "domain": "AI economics, technology philosophy, venture capital thesis, future of work, company building",
+      "expert": "",
+      "name": "Marc Andreessen",
+      "path": "agents/marc-andreessen/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "marc-andreessen"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Maria Wendt - Digital Products",
+      "path": "agents/maria-wendt/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "maria-wendt"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Mark Kashef \u2014 Agent Configuration",
+      "path": "agents/mark-kashef/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "mark-kashef"
+    },
+    {
+      "domain": "marketing, campaigns, funnels, launch strategy, acquisition, distribution, demand generation",
+      "expert": "Marketing Agent",
+      "name": "Marketing Agent",
+      "path": "agents/marketing-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-marketing-agent"
+      ],
+      "slug": "marketing-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Marketing Studio Director Agent",
+      "path": "agents/marketing-studio/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "marketing-studio"
+    },
+    {
+      "domain": "print-on-demand buyer psychology, apparel purchase triggers, identity-led product design, social currency, cross-vertical purchase intent",
+      "expert": "Meg Heckman",
+      "name": "Meg Heckman",
+      "path": "agents/meg-heckman/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "meg-heckman-buyer-trigger-os"
+      ],
+      "slug": "meg-heckman"
+    },
+    {
+      "domain": "messaging, positioning, brand strategy, category design, core message, market contrast, audience belief",
+      "expert": "Messaging & Positioning Agent",
+      "name": "Messaging & Positioning Agent",
+      "path": "agents/messaging-positioning-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-messaging-positioning-agent"
+      ],
+      "slug": "messaging-positioning-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Michael Bernoff: Identity Engineering Virtuoso",
+      "path": "agents/michael-bernoff/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "michael-bernoff"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "AGENT: Michael Connelly",
+      "path": "agents/michael-connelly/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "michael-connelly"
+    },
+    {
+      "domain": "Universal market intelligence, trend research, community mining, zeitgeist synthesis, AI marketing automation, internal tool building",
+      "expert": "Mike Foutia",
+      "name": "mike-foutia",
+      "path": "agents/mike-foutia/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "mike-foutia"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Mitch Albom: Writing Mastery Virtuoso",
+      "path": "agents/mitch-albom/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "mitch-albom"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Monk.Ai - AI Consulting Offer Architecture",
+      "path": "agents/monk-ai/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "monk-ai"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Nate B Jones: AI Agent Architecture Specialist",
+      "path": "agents/nate-b-jones/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "nate-b-jones"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Nate Herk",
+      "path": "agents/nate-herk/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "nate-herk"
+    },
+    {
+      "domain": "AI SEO and retrieval layer optimization",
+      "expert": "Nathan Gotch",
+      "name": "nathan-gotch",
+      "path": "agents/nathan-gotch/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "nathan-gotch"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Nick Saraev - Agentic Workflows",
+      "path": "agents/nick-saraev/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "nick-saraev"
+    },
+    {
+      "domain": "Sentence-level writing optimization, nonfiction value architecture, Digital product creation strategy, course module transformation, information product results architecture, Niche positioning, Ghostwriting client acquisition, sales education messaging & Newsletter flywheel architecture",
+      "expert": "Nicolas Cole",
+      "name": "nicolas-cole",
+      "path": "agents/nicolas-cole/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "nicolas-cole-sentence-craft",
+        "nicolas-cole-nonfiction-value-architecture",
+        "nicolas-cole-digital-products",
+        "nicolas-cole-niche-positioning",
+        "nicolas-cole-client-acquisition",
+        "nicolas-cole-newsletter-flywheel",
+        "nicolas-cole-edan-writing-mechanics",
+        "nicolas-cole-sales-education-messaging"
+      ],
+      "slug": "nicolas-cole"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Omar Eddaoudi \u2014 Agent Configuration",
+      "path": "agents/omar-eddaoudi/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "omar-eddaoudi"
+    },
+    {
+      "domain": "agentic orchestration, intent validation, ambiguity detection, clarity scoring, planning, execution routing, mission control, low-friction operating systems",
+      "expert": "Operator Autopilot",
+      "name": "Operator Autopilot",
+      "path": "agents/operator-autopilot/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-autopilot"
+      ],
+      "slug": "operator-autopilot"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Oren Archetype Social Strategy Companion Agent",
+      "path": "agents/oren-archetype-social-strategy/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oren-archetype-social-strategy"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Oren \u2014 Content-Team Architecture Agent",
+      "path": "agents/oren-content-team-architecture/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oren-content-team-architecture"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Oren \u2014 Luxury Psychology Agent",
+      "path": "agents/oren-luxury-psychology/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oren-luxury-psychology"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Oren \u2014 Operational Systems Agent",
+      "path": "agents/oren-operational-systems/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oren-operational-systems"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Oren \u2014 Repositioning Agent",
+      "path": "agents/oren-repositioning/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oren-repositioning"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Oren - Taste Development, Luxury Psychology, Repositioning, Operational Systems, Content Teams & Archetype Social Strategy",
+      "path": "agents/oren-taste-development/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oren-taste-development"
+    },
+    {
+      "domain": "Sound storytelling and emotional umami",
+      "expert": "Oscar Hoglund",
+      "name": "oscar-hoglund",
+      "path": "agents/oscar-hoglund/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "oscar-hoglund"
+    },
+    {
+      "domain": "AI workflow automation monetization",
+      "expert": "Paul James",
+      "name": "paul-james",
+      "path": "agents/paul-james/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "paul-james"
+    },
+    {
+      "domain": "conversational persuasion storytelling, entrepreneur marketing, sales stories, story-led content, social media storytelling, video scripts, proof stories, objection handling",
+      "expert": "",
+      "name": "David Garfinkel - Persuasion Story Code",
+      "path": "agents/persuasion-story-code/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "persuasion-story-code"
+    },
+    {
+      "domain": "conversational influence, exact words, sales language, decision catalysis, objection handling, follow-up, confident asks",
+      "expert": "",
+      "name": "Phil M Jones",
+      "path": "agents/phil-m-jones/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "phil-m-jones"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "PJ Accetturo - AI Video",
+      "path": "agents/pj-accetturo/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "pj-accetturo"
+    },
+    {
+      "domain": "Codex plugin packaging, workflow packaging, skill readiness, command bridge reliability, plugin marketplace testing",
+      "expert": "Plugin Readiness Audit Agent",
+      "name": "Plugin Readiness Audit Agent",
+      "path": "agents/plugin-readiness-audit/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "plugin-readiness-audit"
+      ],
+      "slug": "plugin-readiness-audit"
+    },
+    {
+      "domain": "Prediction market trading \u2014 weather, sports/events, market making, risk management",
+      "expert": "Composite (Prediction Market Trading)",
+      "name": "prediction-market-strategist",
+      "path": "agents/prediction-market-strategist/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "prediction-market-weather-trading",
+        "prediction-market-ai-event-analysis",
+        "prediction-market-making",
+        "prediction-market-risk-management"
+      ],
+      "slug": "prediction-market-strategist"
+    },
+    {
+      "domain": "proof, case studies, testimonials, evidence, credibility, before-after, outcomes",
+      "expert": "Proof & Case Study Agent",
+      "name": "Proof & Case Study Agent",
+      "path": "agents/proof-case-study-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-proof-case-study-agent"
+      ],
+      "slug": "proof-case-study-agent"
+    },
+    {
+      "domain": "quality judge, excellence gate, taste, anti-slop, originality, craft, depth, judgment",
+      "expert": "Quality Judge Agent",
+      "name": "Quality Judge Agent",
+      "path": "agents/quality-judge/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-quality-judge"
+      ],
+      "slug": "quality-judge"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Rachel Woods",
+      "path": "agents/rachel-woods/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "rachel-woods"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Rafa Conde - Memorable Product Design Agent",
+      "path": "agents/rafa-conde/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "rafa-conde"
+    },
+    {
+      "domain": "red team, adversarial review, blind spots, false confidence, risk, failure modes, critique",
+      "expert": "Red Team Agent",
+      "name": "Red Team Agent",
+      "path": "agents/red-team-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-red-team-agent"
+      ],
+      "slug": "red-team-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Remotion - AI Video Creation",
+      "path": "agents/remotion/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "remotion"
+    },
+    {
+      "domain": "research, intelligence, market analysis, competitive intelligence, factual verification, source ledgers",
+      "expert": "Research Intelligence Agent",
+      "name": "Research Intelligence Agent",
+      "path": "agents/research-intelligence-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-research-intelligence-agent"
+      ],
+      "slug": "research-intelligence-agent"
+    },
+    {
+      "domain": "revenue, offers, productized services, pricing, paid audits, monetization, first clients",
+      "expert": "Revenue & Offer Agent",
+      "name": "Revenue & Offer Agent",
+      "path": "agents/revenue-offer-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-revenue-offer-agent"
+      ],
+      "slug": "revenue-offer-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Robert Mack",
+      "path": "agents/robert-mack/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "robert-mack"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Ron Lynch \u2014 Campaign Architect",
+      "path": "agents/ron-lynch/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ron-lynch"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Rory Sutherland - Marketing Psychology & Perception Engineering",
+      "path": "agents/rory-sutherland/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "rory-sutherland"
+    },
+    {
+      "domain": "CPG Brand Positioning, Retail Distribution, and Scaling Operations",
+      "expert": "Ross McKay",
+      "name": "ross-mckay",
+      "path": "agents/ross-mckay/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ross-mckay"
+    },
+    {
+      "domain": "AI-powered advertising and direct response marketing",
+      "expert": "Sabri Suby",
+      "name": "sabri-suby",
+      "path": "agents/sabri-suby/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "sabri-suby"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Agent: Sabrina Ramonov",
+      "path": "agents/sabrina-ramonov/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "sabrina-ramonov"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Sam Goddard \u2014 Agent Configuration",
+      "path": "agents/sam-goddard/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "sam-goddard"
+    },
+    {
+      "domain": "Taste Acquisition \u2022 Identity Architecture \u2022 Competitive Moat",
+      "expert": "",
+      "name": "Sam Parr",
+      "path": "agents/sam-parr/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "sam-parr"
+    },
+    {
+      "domain": "AI Info Products & Rapid Launch Methodology",
+      "expert": "Samuel Thompson",
+      "name": "samuel-thompson",
+      "path": "agents/samuel-thompson/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "samuel-thompson"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Satori Graphics \u2014 Graphic Design Communication Expert",
+      "path": "agents/satori-graphics/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "satori-graphics"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Sean Kochel - AI Business & Design-First Web Building",
+      "path": "agents/sean-kochel/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "sean-kochel"
+    },
+    {
+      "domain": "Persuasion Philosophy / Cross-Domain Diagnostic Copywriting",
+      "expert": "Sean Macintyre",
+      "name": "sean-macintyre",
+      "path": "agents/sean-macintyre/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "sean-macintyre-persuasion-philosophy"
+      ],
+      "slug": "sean-macintyre"
+    },
+    {
+      "domain": "TikTok viral commerce",
+      "expert": "Seena Rez",
+      "name": "seena-rez",
+      "path": "agents/seena-rez/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "seena-rez"
+    },
+    {
+      "domain": "semantic work primitives, agent-readable documents, authority modeling, validation, productized knowledge systems",
+      "expert": "Semantic Document Library",
+      "name": "Semantic Document Library Architect",
+      "path": "agents/semantic-document-library/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "semantic-document-library-os"
+      ],
+      "slug": "semantic-document-library"
+    },
+    {
+      "domain": "Strategic Philosophy + Shipping + Self-Leadership + Marketing + Viral Engineering + Brand Operations",
+      "expert": "Seth Godin",
+      "name": "seth-godin",
+      "path": "agents/seth-godin/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "seth-godin-philosophy",
+        "seth-godin-ideavirus",
+        "seth-godin-brand"
+      ],
+      "slug": "seth-godin"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Shaan Puri: Storytelling & Audience Alchemy Master",
+      "path": "agents/shaan-puri/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "shaan-puri"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Expert Agent: Shan Hanif (Audience Monetization)",
+      "path": "agents/shan-hanif/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "shan-hanif"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Sherwin Wu",
+      "path": "agents/sherwin-wu/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "sherwin-wu"
+    },
+    {
+      "domain": "Consulting Business Scale + Founder Workflow + Leverage Architecture",
+      "expert": "SooWei Goh",
+      "name": "soowei",
+      "path": "agents/soowei/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "soowei"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Steven Pressfield \u2014 Narrative Mastery Agent",
+      "path": "agents/steven-pressfield/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "steven-pressfield"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Stockton Walbeck: Lead Magnet Strategist",
+      "path": "agents/stockton-walbeck/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "stockton-walbeck"
+    },
+    {
+      "domain": "social media speedruns, brand activations, event content systems, set-based production, content volume, live capture, execution stations",
+      "expert": "Sweat Equity",
+      "name": "Sweat Equity Speedrun Social Agent",
+      "path": "agents/sweat-equity/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "sweat-equity-speedrun-social-os"
+      ],
+      "slug": "sweat-equity"
+    },
+    {
+      "domain": "Antigravity routing efficiency, plugin packaging tradeoffs, command-surface measurement, context footprint, workflow optimization",
+      "expert": "System Efficiency Benchmark Agent",
+      "name": "System Efficiency Benchmark Agent",
+      "path": "agents/system-efficiency-benchmark/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "system-efficiency-benchmark"
+      ],
+      "slug": "system-efficiency-benchmark"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Taki Moore \u2014 Lifestyle Business Architect",
+      "path": "agents/taki-moore/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "taki-moore"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Tao Prompts",
+      "path": "agents/tao-prompts/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tao-prompts"
+    },
+    {
+      "domain": "Digital product business building and scaling",
+      "expert": "ThriveCart",
+      "name": "thrivecart",
+      "path": "agents/thrivecart/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "thrivecart"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Tim Danilov",
+      "path": "agents/tim-danilov/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tim-danilov"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Tim Runia \u2014 Agent Configuration",
+      "path": "agents/tim-runia/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tim-runia"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Tobias Allen - Agent Profile",
+      "path": "agents/tobias-allen/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tobias-allen"
+    },
+    {
+      "domain": "Personal brand monetization, creator business, and content creation methodology",
+      "expert": "Tom Noske",
+      "name": "tom-noske",
+      "path": "agents/tom-noske/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "tom-noske-personal-brand",
+        "tom-noske-content-creation"
+      ],
+      "slug": "tom-noske"
+    },
+    {
+      "domain": "observational comedy, story compression, social writing, marketing humor, word-choice timing",
+      "expert": "",
+      "name": "Tom Segura Comedy Storytelling Agent",
+      "path": "agents/tom-segura-comedy-storytelling/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tom-segura-comedy-storytelling"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Tommy Clark: LinkedIn Growth & Founder-Led Content Master",
+      "path": "agents/tommy-clark/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tommy-clark"
+    },
+    {
+      "domain": "Audience Monetization & Founder-Led Growth",
+      "expert": "Tyler Denk",
+      "name": "tyler-denk",
+      "path": "agents/tyler-denk/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "tyler-denk"
+    },
+    {
+      "domain": "E-commerce paid acquisition, product/category selection, creative strategy, funnel economics, AI-assisted creative operations",
+      "expert": "Vince Nijhof",
+      "name": "vince-nijhof",
+      "path": "agents/vince-nijhof/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "vince-nijhof-ecommerce-scaling"
+      ],
+      "slug": "vince-nijhof"
+    },
+    {
+      "domain": "Info Business Scaling, Growth Ecosystems, Offer Architecture",
+      "expert": "",
+      "name": "Vincent Hu",
+      "path": "agents/vincent-hu/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "vincent-hu"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "ward-farnsworth",
+      "path": "agents/ward-farnsworth/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "ward-farnsworth"
+    },
+    {
+      "domain": "SEO Rapid Ranking",
+      "expert": "WordsAtScale",
+      "name": "wordsatscale",
+      "path": "agents/wordsatscale/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "wordsatscale"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Wright Thompson: Narrative Journalism Virtuoso",
+      "path": "agents/wright-thompson/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "wright-thompson"
+    },
+    {
+      "domain": "writing, essays, stories, long-form, voice, narrative, prose, ghostwriting, literary craft",
+      "expert": "Writing Agent",
+      "name": "Writing Agent",
+      "path": "agents/writing-agent/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "source-command-writing-agent"
+      ],
+      "slug": "writing-agent"
+    },
+    {
+      "domain": "",
+      "expert": "",
+      "name": "Yann Martel - Storytelling Mastery Expert",
+      "path": "agents/yann-martel/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [],
+      "slug": "yann-martel"
+    },
+    {
+      "domain": "video evidence analysis, transcript cleanup, frame sampling, OCR fallback, source-to-skill extraction",
+      "expert": "YouTube Video Context Analysis",
+      "name": "YouTube Video Context Analysis",
+      "path": "agents/youtube-video-context-analysis/AGENT.md",
+      "routing_policy": "cold expertise card; load full agent only when routed",
+      "skills": [
+        "youtube-video-context-analysis",
+        "source-command-video-context-ledger"
+      ],
+      "slug": "youtube-video-context-analysis"
+    }
+  ],
+  "count": 174,
+  "generated_at": "2026-06-10T04:14:10.437732+00:00",
+  "generated_by": "execution/generate_codex_indexes.py",
+  "index_kind": "agent_route_cards",
+  "schema_version": "1.0",
+  "source": "agents",
+  "sources": [
+    "agents/*/AGENT.md"
+  ]
+}

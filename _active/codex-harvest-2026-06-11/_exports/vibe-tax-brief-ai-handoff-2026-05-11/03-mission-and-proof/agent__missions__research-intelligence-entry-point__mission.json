@@ -1,0 +1,68 @@
+{
+  "artifact_contract": {
+    "artifacts": [
+      {
+        "kind": "strategy_anchor",
+        "path": "docs/mission-artifacts/research-intelligence-entry-point/strategy-anchor.md",
+        "purpose": "Mission strategy grounding; summarize STRATEGY.md when present or capture the guiding bet.",
+        "status": "created"
+      },
+      {
+        "kind": "requirements",
+        "path": "docs/mission-artifacts/research-intelligence-entry-point/requirements.md",
+        "purpose": "Requirements with stable R/A/F/AE identifiers before planning.",
+        "status": "created"
+      },
+      {
+        "kind": "unit_plan",
+        "path": "docs/mission-artifacts/research-intelligence-entry-point/plan.md",
+        "purpose": "Implementation or workstream plan with stable U-IDs, sequencing, risks, and tests.",
+        "status": "created"
+      },
+      {
+        "kind": "review_ledger",
+        "path": "docs/mission-artifacts/research-intelligence-entry-point/review.md",
+        "purpose": "Scrutiny and user-outcome review record, including residual work decisions.",
+        "status": "created"
+      },
+      {
+        "kind": "solution_capture",
+        "path": "docs/mission-artifacts/research-intelligence-entry-point/solution-capture.md",
+        "purpose": "Fresh solved-problem or reusable-knowledge capture for docs/solutions when generalizable.",
+        "status": "created"
+      },
+      {
+        "kind": "pulse",
+        "path": "docs/mission-artifacts/research-intelligence-entry-point/pulse.md",
+        "purpose": "Post-ship or post-delivery signal report, with docs/pulse-reports handoff when applicable.",
+        "status": "created"
+      }
+    ],
+    "required": true,
+    "root": "docs/mission-artifacts/research-intelligence-entry-point",
+    "type": "engineering"
+  },
+  "created_at": "2026-05-11T20:19:40+00:00",
+  "goal": "Build and activate the Vibe Tax Brief research intelligence diagnostic package with expert council gates, lead magnet, paid brief, proof demo, social deployment, and routing alignment.",
+  "handoffs": [
+    {
+      "commands": "artifact_surface_guard.py; export_format_guard.py; publishable_copy_guard.py; validate_skill.py source-command-research-intelligence-agent",
+      "created_at": "2026-05-11T20:28:21+00:00",
+      "issues": "Mission JSON had an extra appended fragment after first handoff attempt; repaired state file and re-added handoff.",
+      "next": "Run final validation suite and use package on Farrice's own offer as proof demo.",
+      "role": "implementer",
+      "summary": "Created active Vibe Tax Brief entry-point package, promoted it in cash-first/service-first surfaces, and added Research Intelligence Agent canonical service context."
+    }
+  ],
+  "librarian": {
+    "notes": "Knowledge compiler stats, briefing, and solutions run. Library decision: extend existing cash-first/service-first assets; reuse Copy Gate Score Calibration and High-Taste Writing OS guidance; do not create a parallel system.",
+    "required": true,
+    "status": "complete"
+  },
+  "mode": "research",
+  "name": "Vibe Tax Brief Expert Council Entry Point",
+  "slug": "research-intelligence-entry-point",
+  "status": "planned",
+  "updated_at": "2026-05-11T20:28:21+00:00",
+  "validation_assertions": []
+}

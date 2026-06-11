@@ -1,0 +1,14 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "createdAt": "2026-05-27",
+  "objective": "Run buyer-objection pass against Guessproof offer.",
+  "primaryWorkflow": "deep-research-os",
+  "providerReceipt": {
+    "apifyReddit": "executed",
+    "liveWebVerification": "executed",
+    "perplexity": "not_executed_insufficient_quota_known_from_prior_run",
+    "realCodexSubagentsSpawned": false
+  }
+}

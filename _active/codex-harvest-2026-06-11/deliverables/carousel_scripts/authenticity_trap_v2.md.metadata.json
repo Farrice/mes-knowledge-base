@@ -1,0 +1,11 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "migratedFromVisibleMarkdownMetadata": true,
+  "migratedAt": "2026-05-12T13:21:06.057850+00:00",
+  "migratedVisibleMetadata": {
+    "Type": "cover",
+    "Title": "The Authenticity Trap"
+  }
+}

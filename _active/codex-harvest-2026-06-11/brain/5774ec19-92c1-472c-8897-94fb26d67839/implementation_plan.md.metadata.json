@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Phase 2 implementation plan for backfilling Output Schemas and Example Outputs into the 5 highest-traffic skills. Includes per-skill verification gates, a strategic ordering from lowest to highest risk, and a scoped approach (2-3 workflows per skill get full treatment, rest get schema-only).",
+  "updatedAt": "2026-03-19T17:06:44.719629Z",
+  "version": "2"
+}

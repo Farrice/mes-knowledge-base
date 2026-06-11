@@ -1,0 +1,506 @@
+[00:00:00.080] What's up my friends? So, in this video
+[00:00:01.360] What's up my friends? So, in this video I'm going to be breaking down exactly
+[00:00:03.030] I'm going to be breaking down exactly
+[00:00:03.040] I'm going to be breaking down exactly how to take published articles from your
+[00:00:05.749] how to take published articles from your
+[00:00:05.759] how to take published articles from your blog page and your website and turn them
+[00:00:07.670] blog page and your website and turn them
+[00:00:07.680] blog page and your website and turn them into viral social media posts. For me,
+[00:00:09.750] into viral social media posts. For me,
+[00:00:09.760] into viral social media posts. For me, this is a huge unlock. We haven't
+[00:00:11.749] this is a huge unlock. We haven't
+[00:00:11.759] this is a huge unlock. We haven't actually been able to do this
+[00:00:13.270] actually been able to do this
+[00:00:13.280] actually been able to do this effectively until GBT Image 2 was
+[00:00:15.749] effectively until GBT Image 2 was
+[00:00:15.759] effectively until GBT Image 2 was released a few weeks ago. Now, with this
+[00:00:17.830] released a few weeks ago. Now, with this
+[00:00:17.840] released a few weeks ago. Now, with this capability, we can design beautiful
+[00:00:19.990] capability, we can design beautiful
+[00:00:20.000] capability, we can design beautiful carousels at the drop of the hat using
+[00:00:23.029] carousels at the drop of the hat using
+[00:00:23.039] carousels at the drop of the hat using the content that is being published on
+[00:00:25.109] the content that is being published on
+[00:00:25.119] the content that is being published on our website every single day. So first
+[00:00:27.589] our website every single day. So first
+[00:00:27.599] our website every single day. So first things first, this is my digital home
+[00:00:30.230] things first, this is my digital home
+[00:00:30.240] things first, this is my digital home backend aka my content management system
+[00:00:32.709] backend aka my content management system
+[00:00:32.719] backend aka my content management system that I have custom vibe coded and built
+[00:00:35.270] that I have custom vibe coded and built
+[00:00:35.280] that I have custom vibe coded and built as part of our digital home. So you can
+[00:00:37.830] as part of our digital home. So you can
+[00:00:37.840] as part of our digital home. So you can see here that every single day our agent
+[00:00:39.830] see here that every single day our agent
+[00:00:39.840] see here that every single day our agent is going in here choosing new content
+[00:00:41.830] is going in here choosing new content
+[00:00:41.840] is going in here choosing new content ideas, writing it automatically and then
+[00:00:44.229] ideas, writing it automatically and then
+[00:00:44.239] ideas, writing it automatically and then publishing it directly to our site. So
+[00:00:46.229] publishing it directly to our site. So
+[00:00:46.239] publishing it directly to our site. So you can see here how to become a brand
+[00:00:48.150] you can see here how to become a brand
+[00:00:48.160] you can see here how to become a brand AI agents recommend. If I click view,
+[00:00:51.029] AI agents recommend. If I click view,
+[00:00:51.039] AI agents recommend. If I click view, this goes directly to the front end of
+[00:00:53.430] this goes directly to the front end of
+[00:00:53.440] this goes directly to the front end of my website. Okay, so now currently
+[00:00:55.830] my website. Okay, so now currently
+[00:00:55.840] my website. Okay, so now currently that's working and that's absolutely
+[00:00:57.430] that's working and that's absolutely
+[00:00:57.440] that's working and that's absolutely fine, but we want to find a way to turn
+[00:00:59.270] fine, but we want to find a way to turn
+[00:00:59.280] fine, but we want to find a way to turn these into engaging viral style carousel
+[00:01:02.150] these into engaging viral style carousel
+[00:01:02.160] these into engaging viral style carousel posts that we can publish that look on
+[00:01:03.990] posts that we can publish that look on
+[00:01:04.000] posts that we can publish that look on brand and ultimately do the work of
+[00:01:05.990] brand and ultimately do the work of
+[00:01:06.000] brand and ultimately do the work of driving people back to our site so we
+[00:01:08.550] driving people back to our site so we
+[00:01:08.560] driving people back to our site so we can increase conversions and get more
+[00:01:10.390] can increase conversions and get more
+[00:01:10.400] can increase conversions and get more people hitting this call to action at
+[00:01:12.630] people hitting this call to action at
+[00:01:12.640] people hitting this call to action at the bottom. Okay, so what I've basically
+[00:01:15.030] the bottom. Okay, so what I've basically
+[00:01:15.040] the bottom. Okay, so what I've basically done is created a new section on my back
+[00:01:17.910] done is created a new section on my back
+[00:01:17.920] done is created a new section on my back end called socials. All right. And this
+[00:01:20.630] end called socials. All right. And this
+[00:01:20.640] end called socials. All right. And this shell over here basically pulls in all
+[00:01:22.950] shell over here basically pulls in all
+[00:01:22.960] shell over here basically pulls in all of our published articles that are
+[00:01:24.630] of our published articles that are
+[00:01:24.640] of our published articles that are currently living on our site. And then I
+[00:01:27.109] currently living on our site. And then I
+[00:01:27.119] currently living on our site. And then I can basically go here and choose a post
+[00:01:29.030] can basically go here and choose a post
+[00:01:29.040] can basically go here and choose a post that I like. Okay. So, for example, how
+[00:01:30.950] that I like. Okay. So, for example, how
+[00:01:30.960] that I like. Okay. So, for example, how to train AI to write in a voice without
+[00:01:33.510] to train AI to write in a voice without
+[00:01:33.520] to train AI to write in a voice without sounding like everyone else. I just
+[00:01:35.109] sounding like everyone else. I just
+[00:01:35.119] sounding like everyone else. I just click generate. And so, what's happening
+[00:01:36.870] click generate. And so, what's happening
+[00:01:36.880] click generate. And so, what's happening right now is that this is calling
+[00:01:38.950] right now is that this is calling
+[00:01:38.960] right now is that this is calling Claude's API and it's using a specific
+[00:01:42.550] Claude's API and it's using a specific
+[00:01:42.560] Claude's API and it's using a specific viral carousel, a skill that we created.
+[00:01:45.670] viral carousel, a skill that we created.
+[00:01:45.680] viral carousel, a skill that we created. Now, it's reading our entire article,
+[00:01:47.830] Now, it's reading our entire article,
+[00:01:47.840] Now, it's reading our entire article, and it's going to turn it into a
+[00:01:49.590] and it's going to turn it into a
+[00:01:49.600] and it's going to turn it into a carousel that we can then go in and
+[00:01:51.590] carousel that we can then go in and
+[00:01:51.600] carousel that we can then go in and design using GBT image 2, which I'm
+[00:01:53.910] design using GBT image 2, which I'm
+[00:01:53.920] design using GBT image 2, which I'm going to show you in a second. Now, I
+[00:01:55.590] going to show you in a second. Now, I
+[00:01:55.600] going to show you in a second. Now, I specifically didn't want to make this
+[00:01:57.590] specifically didn't want to make this
+[00:01:57.600] specifically didn't want to make this fully autonomous. I wanted to make the
+[00:01:59.670] fully autonomous. I wanted to make the
+[00:01:59.680] fully autonomous. I wanted to make the writing automated. So, you can see this
+[00:02:02.069] writing automated. So, you can see this
+[00:02:02.079] writing automated. So, you can see this has now appeared here in ready for
+[00:02:03.830] has now appeared here in ready for
+[00:02:03.840] has now appeared here in ready for design. So, I click into that, and you
+[00:02:05.590] design. So, I click into that, and you
+[00:02:05.600] design. So, I click into that, and you can see now we've got slide one, slide
+[00:02:08.150] can see now we've got slide one, slide
+[00:02:08.160] can see now we've got slide one, slide two, slide three, slide four, all the
+[00:02:10.150] two, slide three, slide four, all the
+[00:02:10.160] two, slide three, slide four, all the way to slide number 10. Okay. So at this
+[00:02:13.030] way to slide number 10. Okay. So at this
+[00:02:13.040] way to slide number 10. Okay. So at this point I can now read the different
+[00:02:14.630] point I can now read the different
+[00:02:14.640] point I can now read the different carousel slides. So your AI content
+[00:02:17.190] carousel slides. So your AI content
+[00:02:17.200] carousel slides. So your AI content sounds like everyone else. That's not a
+[00:02:18.869] sounds like everyone else. That's not a
+[00:02:18.879] sounds like everyone else. That's not a tool problem. That's a U problem. Slide
+[00:02:21.510] tool problem. That's a U problem. Slide
+[00:02:21.520] tool problem. That's a U problem. Slide two. Every consultant on LinkedIn is
+[00:02:23.510] two. Every consultant on LinkedIn is
+[00:02:23.520] two. Every consultant on LinkedIn is using the same AI, the same hooks, same
+[00:02:25.670] using the same AI, the same hooks, same
+[00:02:25.680] using the same AI, the same hooks, same frameworks, same closing line, but
+[00:02:27.670] frameworks, same closing line, but
+[00:02:27.680] frameworks, same closing line, but playing the old game. Okay, so you know,
+[00:02:29.910] playing the old game. Okay, so you know,
+[00:02:29.920] playing the old game. Okay, so you know, this is looking pretty good. I can go in
+[00:02:31.750] this is looking pretty good. I can go in
+[00:02:31.760] this is looking pretty good. I can go in and make some edits and tweaks if I
+[00:02:33.589] and make some edits and tweaks if I
+[00:02:33.599] and make some edits and tweaks if I want, and I can copy the content if I
+[00:02:35.589] want, and I can copy the content if I
+[00:02:35.599] want, and I can copy the content if I want to do that. But essentially what I
+[00:02:37.509] want to do that. But essentially what I
+[00:02:37.519] want to do that. But essentially what I need to do now is go over here on the
+[00:02:39.750] need to do now is go over here on the
+[00:02:39.760] need to do now is go over here on the right to my uh GPT image prompt and say
+[00:02:42.309] right to my uh GPT image prompt and say
+[00:02:42.319] right to my uh GPT image prompt and say create a 10 slide Instagram carousel.
+[00:02:44.949] create a 10 slide Instagram carousel.
+[00:02:44.959] create a 10 slide Instagram carousel. Use the attached images blah blah blah
+[00:02:47.750] Use the attached images blah blah blah
+[00:02:47.760] Use the attached images blah blah blah you know as reference. Okay. So I'm
+[00:02:49.270] you know as reference. Okay. So I'm
+[00:02:49.280] you know as reference. Okay. So I'm going to copy this master prompt for
+[00:02:50.949] going to copy this master prompt for
+[00:02:50.959] going to copy this master prompt for GBT. I'm going to go over here into GBT
+[00:02:54.309] GBT. I'm going to go over here into GBT
+[00:02:54.319] GBT. I'm going to go over here into GBT and I'm going to paste it. I'm going to
+[00:02:55.990] and I'm going to paste it. I'm going to
+[00:02:56.000] and I'm going to paste it. I'm going to select create images. Okay. So now this
+[00:02:58.869] select create images. Okay. So now this
+[00:02:58.879] select create images. Okay. So now this is now ready to generate my carousel.
+[00:03:01.190] is now ready to generate my carousel.
+[00:03:01.200] is now ready to generate my carousel. Now, what I need to do before I actually
+[00:03:03.270] Now, what I need to do before I actually
+[00:03:03.280] Now, what I need to do before I actually go out and do this is find a style of
+[00:03:06.470] go out and do this is find a style of
+[00:03:06.480] go out and do this is find a style of carousel that I ultimately like. Okay?
+[00:03:08.630] carousel that I ultimately like. Okay?
+[00:03:08.640] carousel that I ultimately like. Okay? So, you will only really have to do this
+[00:03:10.869] So, you will only really have to do this
+[00:03:10.879] So, you will only really have to do this once until you find a brand style that
+[00:03:13.110] once until you find a brand style that
+[00:03:13.120] once until you find a brand style that you really, really enjoy. So, I'm just
+[00:03:15.110] you really, really enjoy. So, I'm just
+[00:03:15.120] you really, really enjoy. So, I'm just going to go carousel designs and just
+[00:03:17.430] going to go carousel designs and just
+[00:03:17.440] going to go carousel designs and just look for some inspiration. Okay. So, I'm
+[00:03:19.589] look for some inspiration. Okay. So, I'm
+[00:03:19.599] look for some inspiration. Okay. So, I'm just going to try and choose a carousel
+[00:03:21.589] just going to try and choose a carousel
+[00:03:21.599] just going to try and choose a carousel format that matches the amount of copy I
+[00:03:24.550] format that matches the amount of copy I
+[00:03:24.560] format that matches the amount of copy I have in the starting slide. So, you can
+[00:03:26.550] have in the starting slide. So, you can
+[00:03:26.560] have in the starting slide. So, you can see I've got these. So, I'm going to
+[00:03:28.070] see I've got these. So, I'm going to
+[00:03:28.080] see I've got these. So, I'm going to find something which actually treats a
+[00:03:29.990] find something which actually treats a
+[00:03:30.000] find something which actually treats a decent amount of copy.
+[00:03:33.920] Okay. So, I kind of like this. It's
+[00:03:35.519] Okay. So, I kind of like this. It's really simplistic. So, I'm just going to
+[00:03:37.190] really simplistic. So, I'm just going to
+[00:03:37.200] really simplistic. So, I'm just going to copy that. Go here. Paste it as a
+[00:03:40.470] copy that. Go here. Paste it as a
+[00:03:40.480] copy that. Go here. Paste it as a reference. And I'm going to try and get
+[00:03:41.910] reference. And I'm going to try and get
+[00:03:41.920] reference. And I'm going to try and get two to three references so we can see
+[00:03:44.390] two to three references so we can see
+[00:03:44.400] two to three references so we can see how to treat the rest of them. So, we've
+[00:03:46.550] how to treat the rest of them. So, we've
+[00:03:46.560] how to treat the rest of them. So, we've got a bit of a format over here.
+[00:03:49.830] got a bit of a format over here.
+[00:03:49.840] got a bit of a format over here. Choose this.
+[00:03:52.149] Choose this.
+[00:03:52.159] Choose this. Maybe one with images will be good.
+[00:03:55.509] Maybe one with images will be good.
+[00:03:55.519] Maybe one with images will be good. Okay. Let's just choose this one with an
+[00:03:57.350] Okay. Let's just choose this one with an
+[00:03:57.360] Okay. Let's just choose this one with an image as well.
+[00:04:00.070] image as well.
+[00:04:00.080] image as well. All right. So, we're selecting a decent
+[00:04:01.910] All right. So, we're selecting a decent
+[00:04:01.920] All right. So, we're selecting a decent amount. Okay. So, I've got a title one.
+[00:04:05.270] amount. Okay. So, I've got a title one.
+[00:04:05.280] amount. Okay. So, I've got a title one. I've got a title slide. I've got a
+[00:04:07.270] I've got a title slide. I've got a
+[00:04:07.280] I've got a title slide. I've got a textheavy slide example. And then I've
+[00:04:09.670] textheavy slide example. And then I've
+[00:04:09.680] textheavy slide example. And then I've got a few image examples just for an
+[00:04:12.229] got a few image examples just for an
+[00:04:12.239] got a few image examples just for an image style if GPT wants to do that. So,
+[00:04:14.470] image style if GPT wants to do that. So,
+[00:04:14.480] image style if GPT wants to do that. So, I've got my entire prompt there, a few
+[00:04:16.550] I've got my entire prompt there, a few
+[00:04:16.560] I've got my entire prompt there, a few references, and we're just going to
+[00:04:18.229] references, and we're just going to
+[00:04:18.239] references, and we're just going to select create image and send that and
+[00:04:21.270] select create image and send that and
+[00:04:21.280] select create image and send that and see what it comes back with. Now,
+[00:04:22.790] see what it comes back with. Now,
+[00:04:22.800] see what it comes back with. Now, specifically in this prompt, what you'll
+[00:04:24.390] specifically in this prompt, what you'll
+[00:04:24.400] specifically in this prompt, what you'll see is right at the beginning here, we
+[00:04:26.469] see is right at the beginning here, we
+[00:04:26.479] see is right at the beginning here, we say we want you to match the style
+[00:04:28.870] say we want you to match the style
+[00:04:28.880] say we want you to match the style exactly, but we also want where photos
+[00:04:31.270] exactly, but we also want where photos
+[00:04:31.280] exactly, but we also want where photos or illustrations appear, generate new
+[00:04:33.030] or illustrations appear, generate new
+[00:04:33.040] or illustrations appear, generate new ones that fit the copy inside the slide,
+[00:04:35.350] ones that fit the copy inside the slide,
+[00:04:35.360] ones that fit the copy inside the slide, rendered in the same visual style as the
+[00:04:37.430] rendered in the same visual style as the
+[00:04:37.440] rendered in the same visual style as the references, so it feels cohesive. All
+[00:04:39.270] references, so it feels cohesive. All
+[00:04:39.280] references, so it feels cohesive. All right, so that's really important and
+[00:04:40.950] right, so that's really important and
+[00:04:40.960] right, so that's really important and that's what I've loved about uh GPT
+[00:04:42.710] that's what I've loved about uh GPT
+[00:04:42.720] that's what I've loved about uh GPT image 2 is it just understands it can
+[00:04:45.030] image 2 is it just understands it can
+[00:04:45.040] image 2 is it just understands it can really take an image and build on top of
+[00:04:47.670] really take an image and build on top of
+[00:04:47.680] really take an image and build on top of that. All right, so that's been
+[00:04:48.950] that. All right, so that's been
+[00:04:48.960] that. All right, so that's been fantastic in regards to time saving.
+[00:04:51.030] fantastic in regards to time saving.
+[00:04:51.040] fantastic in regards to time saving. Now, obviously, if you have a very
+[00:04:52.629] Now, obviously, if you have a very
+[00:04:52.639] Now, obviously, if you have a very specific brand look and feel, you know,
+[00:04:54.629] specific brand look and feel, you know,
+[00:04:54.639] specific brand look and feel, you know, you're going to want to choose a
+[00:04:55.909] you're going to want to choose a
+[00:04:55.919] you're going to want to choose a reference which ultimately matches what
+[00:04:57.590] reference which ultimately matches what
+[00:04:57.600] reference which ultimately matches what your brand looks like. This is just an
+[00:04:59.189] your brand looks like. This is just an
+[00:04:59.199] your brand looks like. This is just an example right now, just so I can
+[00:05:00.710] example right now, just so I can
+[00:05:00.720] example right now, just so I can demonstrate and show you how this
+[00:05:02.230] demonstrate and show you how this
+[00:05:02.240] demonstrate and show you how this ultimately works. All right, so you can
+[00:05:03.749] ultimately works. All right, so you can
+[00:05:03.759] ultimately works. All right, so you can see here, this is what Chat GBT is
+[00:05:05.350] see here, this is what Chat GBT is
+[00:05:05.360] see here, this is what Chat GBT is coming back with. So, we've got our
+[00:05:06.790] coming back with. So, we've got our
+[00:05:06.800] coming back with. So, we've got our opening slide, we've got our sub slides
+[00:05:09.430] opening slide, we've got our sub slides
+[00:05:09.440] opening slide, we've got our sub slides underneath here. Um, it's created
+[00:05:11.350] underneath here. Um, it's created
+[00:05:11.360] underneath here. Um, it's created specific images, and it's gone through
+[00:05:13.670] specific images, and it's gone through
+[00:05:13.680] specific images, and it's gone through and replicated the entire style for us.
+[00:05:15.749] and replicated the entire style for us.
+[00:05:15.759] and replicated the entire style for us. Now, obviously, I would go through,
+[00:05:17.350] Now, obviously, I would go through,
+[00:05:17.360] Now, obviously, I would go through, update my logo, etc., etc. I might tell
+[00:05:19.830] update my logo, etc., etc. I might tell
+[00:05:19.840] update my logo, etc., etc. I might tell it to space the content out a little bit
+[00:05:22.070] it to space the content out a little bit
+[00:05:22.080] it to space the content out a little bit more. But you can see here just super
+[00:05:24.790] more. But you can see here just super
+[00:05:24.800] more. But you can see here just super simply in a few minutes, we've got a
+[00:05:26.790] simply in a few minutes, we've got a
+[00:05:26.800] simply in a few minutes, we've got a brand style that we can replicate for
+[00:05:28.790] brand style that we can replicate for
+[00:05:28.800] brand style that we can replicate for other carousels. So just to show you
+[00:05:31.189] other carousels. So just to show you
+[00:05:31.199] other carousels. So just to show you some other ones I created using the same
+[00:05:33.189] some other ones I created using the same
+[00:05:33.199] some other ones I created using the same process. Here were the examples that I
+[00:05:35.189] process. Here were the examples that I
+[00:05:35.199] process. Here were the examples that I gave it and this was the output. Okay,
+[00:05:38.469] gave it and this was the output. Okay,
+[00:05:38.479] gave it and this was the output. Okay, so insane. It created all of those
+[00:05:41.110] so insane. It created all of those
+[00:05:41.120] so insane. It created all of those images itself. Um, you know, I didn't
+[00:05:43.110] images itself. Um, you know, I didn't
+[00:05:43.120] images itself. Um, you know, I didn't have to do any of that. Okay, so again I
+[00:05:45.189] have to do any of that. Okay, so again I
+[00:05:45.199] have to do any of that. Okay, so again I did that for another brand. This was the
+[00:05:47.590] did that for another brand. This was the
+[00:05:47.600] did that for another brand. This was the reference, that was the post, and this
+[00:05:50.710] reference, that was the post, and this
+[00:05:50.720] reference, that was the post, and this was the output. Okay, you don't have a
+[00:05:52.310] was the output. Okay, you don't have a
+[00:05:52.320] was the output. Okay, you don't have a closing problem, you have a state
+[00:05:53.670] closing problem, you have a state
+[00:05:53.680] closing problem, you have a state problem. And so I thought this style was
+[00:05:56.629] problem. And so I thought this style was
+[00:05:56.639] problem. And so I thought this style was actually really cool, something I would
+[00:05:57.990] actually really cool, something I would
+[00:05:58.000] actually really cool, something I would really use for my brand. And then there
+[00:05:59.830] really use for my brand. And then there
+[00:05:59.840] really use for my brand. And then there was this one, which was a little bit
+[00:06:01.189] was this one, which was a little bit
+[00:06:01.199] was this one, which was a little bit more creative, exactly the same prompt,
+[00:06:04.230] more creative, exactly the same prompt,
+[00:06:04.240] more creative, exactly the same prompt, different copy, and then it created the
+[00:06:06.710] different copy, and then it created the
+[00:06:06.720] different copy, and then it created the images on its own, which guys, you know,
+[00:06:09.590] images on its own, which guys, you know,
+[00:06:09.600] images on its own, which guys, you know, this would have literally cost hundreds
+[00:06:11.590] this would have literally cost hundreds
+[00:06:11.600] this would have literally cost hundreds and hundreds of dollars if I got this on
+[00:06:13.270] and hundreds of dollars if I got this on
+[00:06:13.280] and hundreds of dollars if I got this on Fiverr. So, you know, you ultimately
+[00:06:15.830] Fiverr. So, you know, you ultimately
+[00:06:15.840] Fiverr. So, you know, you ultimately have, you know, a fantastic designer in
+[00:06:18.550] have, you know, a fantastic designer in
+[00:06:18.560] have, you know, a fantastic designer in your back pocket now that you can start
+[00:06:20.629] your back pocket now that you can start
+[00:06:20.639] your back pocket now that you can start using and start getting your marketing
+[00:06:22.469] using and start getting your marketing
+[00:06:22.479] using and start getting your marketing content out there as quickly as
+[00:06:23.990] content out there as quickly as
+[00:06:24.000] content out there as quickly as possible. Now, this whole process end to
+[00:06:26.469] possible. Now, this whole process end to
+[00:06:26.479] possible. Now, this whole process end to end can be automated, but I think it's
+[00:06:28.950] end can be automated, but I think it's
+[00:06:28.960] end can be automated, but I think it's really important that when we are
+[00:06:30.710] really important that when we are
+[00:06:30.720] really important that when we are working with agents, we're not going
+[00:06:32.390] working with agents, we're not going
+[00:06:32.400] working with agents, we're not going fully autonomous mode just for the sake
+[00:06:34.469] fully autonomous mode just for the sake
+[00:06:34.479] fully autonomous mode just for the sake of it. I still want to have uh me in the
+[00:06:37.749] of it. I still want to have uh me in the
+[00:06:37.759] of it. I still want to have uh me in the loop directing and guiding the design
+[00:06:40.390] loop directing and guiding the design
+[00:06:40.400] loop directing and guiding the design and what the copy is saying. But the
+[00:06:42.390] and what the copy is saying. But the
+[00:06:42.400] and what the copy is saying. But the cool thing about uh GPT image 2 is I can
+[00:06:44.710] cool thing about uh GPT image 2 is I can
+[00:06:44.720] cool thing about uh GPT image 2 is I can describe edits. I can make tweaks um and
+[00:06:46.950] describe edits. I can make tweaks um and
+[00:06:46.960] describe edits. I can make tweaks um and it can create variations like this. So
+[00:06:49.029] it can create variations like this. So
+[00:06:49.039] it can create variations like this. So it's really perfect for carousels. Now
+[00:06:51.909] it's really perfect for carousels. Now
+[00:06:51.919] it's really perfect for carousels. Now what's really important is that you
+[00:06:53.430] what's really important is that you
+[00:06:53.440] what's really important is that you actually have the base content set up so
+[00:06:56.309] actually have the base content set up so
+[00:06:56.319] actually have the base content set up so that the content that is being produced
+[00:06:58.150] that the content that is being produced
+[00:06:58.160] that the content that is being produced for carousels is based on a sound
+[00:07:00.550] for carousels is based on a sound
+[00:07:00.560] for carousels is based on a sound strategy that is targeting what your
+[00:07:02.950] strategy that is targeting what your
+[00:07:02.960] strategy that is targeting what your clients are actually searching for. What
+[00:07:05.110] clients are actually searching for. What
+[00:07:05.120] clients are actually searching for. What are the problems they're struggling with
+[00:07:06.309] are the problems they're struggling with
+[00:07:06.319] are the problems they're struggling with on a daily basis? And your job from a
+[00:07:08.629] on a daily basis? And your job from a
+[00:07:08.639] on a daily basis? And your job from a content marketing perspective is to
+[00:07:10.790] content marketing perspective is to
+[00:07:10.800] content marketing perspective is to answer them as deeply as you possibly
+[00:07:13.110] answer them as deeply as you possibly
+[00:07:13.120] answer them as deeply as you possibly can. So that's the whole purpose of
+[00:07:16.070] can. So that's the whole purpose of
+[00:07:16.080] can. So that's the whole purpose of setting your digital home up and getting
+[00:07:17.909] setting your digital home up and getting
+[00:07:17.919] setting your digital home up and getting your evergreen content room to a point
+[00:07:19.830] your evergreen content room to a point
+[00:07:19.840] your evergreen content room to a point where these are publishing through an
+[00:07:21.430] where these are publishing through an
+[00:07:21.440] where these are publishing through an agentic process. And then we've got
+[00:07:23.749] agentic process. And then we've got
+[00:07:23.759] agentic process. And then we've got these being turned into multiple slides
+[00:07:26.950] these being turned into multiple slides
+[00:07:26.960] these being turned into multiple slides for carousels that you can then, you
+[00:07:29.510] for carousels that you can then, you
+[00:07:29.520] for carousels that you can then, you know, just take this GBT image prompt,
+[00:07:31.350] know, just take this GBT image prompt,
+[00:07:31.360] know, just take this GBT image prompt, pop it in, and Bubs your uncle, you've
+[00:07:33.110] pop it in, and Bubs your uncle, you've
+[00:07:33.120] pop it in, and Bubs your uncle, you've got a carousel that can drive more
+[00:07:35.430] got a carousel that can drive more
+[00:07:35.440] got a carousel that can drive more traffic to your actual insights and blog
+[00:07:37.589] traffic to your actual insights and blog
+[00:07:37.599] traffic to your actual insights and blog page on your digital home. Now, you'll
+[00:07:39.510] page on your digital home. Now, you'll
+[00:07:39.520] page on your digital home. Now, you'll see here that this entire process of
+[00:07:42.469] see here that this entire process of
+[00:07:42.479] see here that this entire process of creating SEO optimized, go optimized
+[00:07:45.350] creating SEO optimized, go optimized
+[00:07:45.360] creating SEO optimized, go optimized articles is incredibly important to have
+[00:07:47.909] articles is incredibly important to have
+[00:07:47.919] articles is incredibly important to have before you go out and create these
+[00:07:49.670] before you go out and create these
+[00:07:49.680] before you go out and create these carousels. The coolest thing about this
+[00:07:51.430] carousels. The coolest thing about this
+[00:07:51.440] carousels. The coolest thing about this process is our agents are deciding what
+[00:07:54.230] process is our agents are deciding what
+[00:07:54.240] process is our agents are deciding what content to post when because we have a
+[00:07:56.629] content to post when because we have a
+[00:07:56.639] content to post when because we have a weekly trends loop which is analyzing
+[00:07:59.029] weekly trends loop which is analyzing
+[00:07:59.039] weekly trends loop which is analyzing how well content is performing and then
+[00:08:00.869] how well content is performing and then
+[00:08:00.879] how well content is performing and then tweaking the content strategy
+[00:08:02.309] tweaking the content strategy
+[00:08:02.319] tweaking the content strategy accordingly. So, all I have to do is
+[00:08:04.790] accordingly. So, all I have to do is
+[00:08:04.800] accordingly. So, all I have to do is come in here, check. Okay, cool. Um,
+[00:08:07.029] come in here, check. Okay, cool. Um,
+[00:08:07.039] come in here, check. Okay, cool. Um, approve things, the agent writes it,
+[00:08:09.189] approve things, the agent writes it,
+[00:08:09.199] approve things, the agent writes it, publishes them, and then automatically
+[00:08:11.430] publishes them, and then automatically
+[00:08:11.440] publishes them, and then automatically when I just go over here and I click
+[00:08:13.749] when I just go over here and I click
+[00:08:13.759] when I just go over here and I click regenerate, I know that I've got a
+[00:08:15.430] regenerate, I know that I've got a
+[00:08:15.440] regenerate, I know that I've got a carousel that I can just copy and paste
+[00:08:17.189] carousel that I can just copy and paste
+[00:08:17.199] carousel that I can just copy and paste the prompt, find a reference, and then
+[00:08:20.150] the prompt, find a reference, and then
+[00:08:20.160] the prompt, find a reference, and then Bob's your uncle, you've got a piece of
+[00:08:21.909] Bob's your uncle, you've got a piece of
+[00:08:21.919] Bob's your uncle, you've got a piece of marketing copy that you can start
+[00:08:23.270] marketing copy that you can start
+[00:08:23.280] marketing copy that you can start publishing onto social media. If you
+[00:08:25.189] publishing onto social media. If you
+[00:08:25.199] publishing onto social media. If you want to learn how to set up the digital
+[00:08:26.550] want to learn how to set up the digital
+[00:08:26.560] want to learn how to set up the digital home for yourself or you want to sell it
+[00:08:28.390] home for yourself or you want to sell it
+[00:08:28.400] home for yourself or you want to sell it as a service and add another income
+[00:08:30.150] as a service and add another income
+[00:08:30.160] as a service and add another income stream to your business, then check out
+[00:08:31.830] stream to your business, then check out
+[00:08:31.840] stream to your business, then check out the link in the description. We've got
+[00:08:33.430] the link in the description. We've got
+[00:08:33.440] the link in the description. We've got an entire school community built to help
+[00:08:35.829] an entire school community built to help
+[00:08:35.839] an entire school community built to help you get your digital home up and running
+[00:08:37.670] you get your digital home up and running
+[00:08:37.680] you get your digital home up and running as quickly as possible. My friend, this
+[00:08:39.990] as quickly as possible. My friend, this
+[00:08:40.000] as quickly as possible. My friend, this is one of the most beautiful times to be
+[00:08:41.589] is one of the most beautiful times to be
+[00:08:41.599] is one of the most beautiful times to be alive. You are now an orchestrator of an
+[00:08:43.909] alive. You are now an orchestrator of an
+[00:08:43.919] alive. You are now an orchestrator of an entire marketing operation and you can
+[00:08:45.910] entire marketing operation and you can
+[00:08:45.920] entire marketing operation and you can do and learn awesome tools like this so
+[00:08:48.470] do and learn awesome tools like this so
+[00:08:48.480] do and learn awesome tools like this so that you can get your message out and
+[00:08:50.070] that you can get your message out and
+[00:08:50.080] that you can get your message out and start getting more clients and driving
+[00:08:51.750] start getting more clients and driving
+[00:08:51.760] start getting more clients and driving more revenue into your business. And
+[00:08:53.750] more revenue into your business. And
+[00:08:53.760] more revenue into your business. And also, if you want to get the viral
+[00:08:55.190] also, if you want to get the viral
+[00:08:55.200] also, if you want to get the viral carousel skill that actually allows us
+[00:08:57.269] carousel skill that actually allows us
+[00:08:57.279] carousel skill that actually allows us to turn our articles into different
+[00:08:59.190] to turn our articles into different
+[00:08:59.200] to turn our articles into different slides and viral carousels like this,
+[00:09:01.269] slides and viral carousels like this,
+[00:09:01.279] slides and viral carousels like this, I'll be posting that into our school
+[00:09:02.949] I'll be posting that into our school
+[00:09:02.959] I'll be posting that into our school community as soon as this video drops.
+[00:09:05.269] community as soon as this video drops.
+[00:09:05.279] community as soon as this video drops. So, make sure you jump in, get access to
+[00:09:07.269] So, make sure you jump in, get access to
+[00:09:07.279] So, make sure you jump in, get access to this, and start marketing yourself. I'll
+[00:09:09.430] this, and start marketing yourself. I'll
+[00:09:09.440] this, and start marketing yourself. I'll see you on the inside, my friend. Peace.

@@ -1,0 +1,257 @@
+---
+description: Deep research on any topic
+---
+
+# /research-topic
+
+Use this workflow for comprehensive research on any topic, combining live internet data with organized synthesis.
+
+## Usage
+
+```
+/research-topic [topic] --depth [quick|standard|deep] --output [summary|report|brief]
+```
+
+**Examples:**
+- `/research-topic "TikTok Shop seller requirements 2024" --depth quick --output summary`
+- `/research-topic "AI automation agencies market size and competitors" --depth deep --output report`
+- `/research-topic "Augusta Rule tax strategy requirements" --depth standard --output brief`
+
+**Defaults:** `--depth standard --output summary`
+
+---
+
+## Bounded Browser Controls
+
+> [!IMPORTANT]
+> **Hard Source Read Limits by Depth Level** (NEVER exceed):
+> - Quick: **3 `read_url_content` calls max**
+> - Standard: **5 `read_url_content` calls max**
+> - Deep: **8 `read_url_content` calls max**
+
+**Rules:**
+- Each source read must have a **stated purpose** before calling
+- No speculative reads — only targeted source retrieval
+- Prioritize sources from `search_web` results BEFORE reading any pages
+
+---
+
+## Quality Rubric (RARA)
+
+Evaluate every source against this 4-point rubric:
+
+| Criterion | Question | Threshold |
+|-----------|----------|-----------|
+| **R**elevance | Does source directly address the research question? | Must be >70% on-topic |
+| **A**ccuracy | Can claims be cross-verified? | 2+ sources agree |
+| **R**ecency | Is information current? | <1 year for fast-moving topics |
+| **A**uthority | Is source credible? | Official docs, industry leaders, .gov/.edu preferred |
+
+---
+
+## Stopping Criteria
+
+> [!CAUTION]
+> **Research MUST STOP when ANY of these conditions are met:**
+
+1. **Source read limit reached** for the depth level
+2. **Saturation detected**: 3+ sources saying the same thing with no new information
+3. **Diminishing returns**: Last source added <10% new information
+4. **Time limit hit**: Quick=3min, Standard=8min, Deep=20min
+5. **Core questions answered**: All key questions from scoping have answers
+
+---
+
+## Workflow Steps
+
+### 1. Clarify Research Scope
+- Confirm the topic and any specific angles the user wants covered
+- **Define 3-5 specific questions** that constitute "complete" research
+- Set the depth level and tab budget
+
+### 2. Foundation Research ⚠️ MANDATORY (Gemini primary, Perplexity fallback)
+// turbo
+- **Depth classifier**:
+  - **Standard/Deep**: Use Gemini Deep Research (`execution/deep_research_client.py`) as primary. Perplexity sonar-deep-research is fallback.
+  - **Quick/single-claim**: Perplexity `ask` MCP is fine — it's still the fast path for citation-backed fact checks.
+- **Check budget before calling**:
+  - Gemini primary → read `.agent/gemini-api-usage.json` (prepaid must be ≥ $0.50)
+  - Perplexity fallback → read `.agent/perplexity-usage.json`
+- Run 1-3 **collapsed** queries using tiered tool strategy:
+  - **Priority 1**: Gemini Deep Research for foundation/strategic angles
+  - **Priority 2**: `mcp_perplexity-ask_perplexity_ask` (Sonar) — for quick narrow citations
+  - **Priority 3**: `search_web` (free, unlimited) — for gap-filling
+  - **Priority 4**: `read_url_content` (free, unlimited) — for deep page reads
+  - Combine related questions into single prompts (The Collapsing Rule)
+- **Log each call** to the relevant usage file (`gemini-api-usage.json` or `perplexity-usage.json`)
+- Extract: cited facts, data points, source URLs, verbatim quotes
+- **If both budgets exhausted**: Proceed with `search_web` + `read_url_content` only
+- **Reference**: `directives/research-protocol.md` (priority matrix), `directives/google-api-usage-policy.md`, `directives/perplexity-usage-policy.md`
+
+**Alternative — Research Engine** (for automatic decomposition + parallel execution):
+```bash
+python3 execution/deep_research_engine.py --depth [quick|standard|deep] "[topic]"
+```
+
+### 3. Supplementary Web Search
+// turbo
+- Run 5-7 targeted `search_web` calls to fill gaps NOT covered by Perplexity
+- Identify: authoritative sources, recent updates, key players, data sources
+- **Create prioritized source list** before reading any pages
+- Note gaps that need deeper investigation
+
+### 3. Deep Source Mining (Bounded)
+// turbo
+- Read sources in priority order using `read_url_content`, respecting limits:
+  - `--depth quick`: 3 `read_url_content` calls max
+  - `--depth standard`: 5 `read_url_content` calls max
+  - `--depth deep`: 8 `read_url_content` calls max
+- **Track saturation**: Stop if 3+ sources repeat the same information
+- Extract: facts, data points, quotes, frameworks, dates
+
+### 4. Cross-Reference & Validate
+- Compare information across sources for accuracy
+- Apply **RARA rubric** to each source
+- Flag any contradictions or outdated information
+- Prioritize recent/authoritative sources over older/weaker ones
+
+### 5. Pre-Synthesis Saturation Check
+Before writing any output, explicitly verify:
+- [ ] All scoped questions have answers
+- [ ] No new information emerging from recent sources
+- [ ] Gaps identified for follow-up (if any)
+
+**If gaps remain**: Request permission for targeted follow-up (max 2 additional `read_url_content` calls)
+
+### 5.5 Red Team Adversarial Check + Quality Gate
+Before synthesis, run an adversarial pass on the gathered data:
+- **Confirmation Bias Check**: Did we only search for data that supports the premise?
+- **Counter-Narrative**: Run at least one `search_web` specifically for the counter-argument, failure cases, or criticisms of the topic.
+- **The "Missing Enemy"**: What is the most significant threat or alternative to the proposed topic/solution? Include this in the final output.
+
+**Quality Gate** (mandatory for `--depth deep` and `--output report`):
+```bash
+python3 execution/research_quality_gate.py validate [output-file-path]
+```
+
+### 6. Synthesize Findings
+Based on `--output` format:
+
+**Summary (default):**
+- 300-500 word executive summary
+- Key facts in bullet points
+- Top 3-5 actionable insights
+- Source links for verification
+- **RARA assessment** (overall quality score)
+
+**Report:**
+- Full structured report (1000-2000 words)
+- Sections: Overview, Key Findings, Data/Evidence, Implications, Recommendations
+- Embedded source citations
+- **Methodology note**: source reads used, stopping criterion triggered
+- Save as artifact in brain directory
+
+**Brief:**
+- One-page decision brief
+- Situation → Findings → Recommendation format
+- Designed for quick decision-making
+
+### 7. Identify Knowledge Gaps
+- Note what COULDN'T be found or verified
+- Suggest follow-up research if needed
+- Offer to go deeper on any specific area
+
+---
+
+## Research Depth Guide
+
+| Depth | Time Limit | Source Read Limit | Sources | Best For |
+|-------|------------|-------------------|---------|----------|
+| Quick | 3 min | 3 `read_url_content` | 3-5 | Simple facts, quick answers |
+| Standard | 8 min | 5 `read_url_content` | 5-8 | Business decisions, market overviews |
+| Deep | 20 min | 8 `read_url_content` | 10-15+ | Strategy, competitive analysis, complex topics |
+
+---
+
+## Output Locations
+
+- **Summaries**: Delivered directly in conversation
+- **Reports**: Saved to `/Users/farricecain/Codex Antigravity/brain/[conversation-id]/`
+- **Briefs**: Delivered in conversation, optionally saved
+
+---
+
+## Research Subagent Roles
+
+For deep research, mentally deploy these specialized roles:
+
+### 🔍 Research Scout
+**Focus:** Primary source gathering
+- Search official documentation, authoritative sources
+- Extract facts, data points, specifications
+- Return: `{findings, sources, confidence}`
+
+### 👂 Social Listener
+**Focus:** Voice-of-customer mining
+- Reddit threads, Twitter/X discussions, YouTube comments, reviews
+- Capture exact phrases, pain points, emotional language
+- Return: `{sentiment, patterns, verbatim_quotes}`
+
+### 🎯 Pattern Hunter
+**Focus:** Signal detection across sources
+- Look for convergent themes (3+ sources agreeing)
+- Spot contradictions and tensions
+- Flag emerging trends or shifts
+- Return: `{strong_patterns, weak_signals, contradictions}`
+
+### ✓ Verification Agent
+**Focus:** Multi-source fact-checking
+- Independently verify key claims from different sources
+- Weight source authority (primary > secondary > user-generated)
+- Return: `{verified, unverified, conflicting, confidence_score}`
+
+### 🧠 Synthesis Engine
+**Focus:** Pattern extraction → insight generation
+- Aggregate all findings
+- Extract actionable insights (not just data)
+- Identify gaps and opportunities
+- Return: `{key_insights, opportunities, gaps, recommendations}`
+
+---
+
+## Structured Synthesis Framework
+
+After gathering, synthesize using this structure:
+
+```
+FINDINGS SUMMARY:
+[Key discoveries across all research]
+
+PATTERN ANALYSIS:
+- Strong patterns (3+ sources): [List]
+- Emerging patterns (2 sources): [List]
+- Single-source signals: [List with caveats]
+
+CONFIDENCE ASSESSMENT:
+- High (5+ sources): [Findings]
+- Medium (3-4 sources): [Findings]
+- Low (needs validation): [Findings]
+
+INSIGHT EXTRACTION:
+[What this means for the objective]
+
+OPPORTUNITIES IDENTIFIED:
+[Gaps, unmet needs, timing advantages]
+
+RECOMMENDATIONS:
+[Suggested actions based on findings]
+```
+
+---
+
+## Pro Tips
+
+- Add specific angles: `/research-topic "X" focusing on pricing and market size`
+- Request comparisons: `/research-topic "X vs Y for [use case]"`
+- Time-bound: `/research-topic "X" focusing on 2024 changes`
+- Combine with skills: After research, use `/deploy-skill` to act on findings

@@ -1,0 +1,4007 @@
+[
+  {
+    "start": "00:00:01.280",
+    "end": "00:00:04.190",
+    "start_seconds": 1.28,
+    "end_seconds": 4.19,
+    "text": "This scene has no villain, no fight, no",
+    "source_text": "This scene has no villain, no fight, no",
+    "caption_overlap_words": 0
+  },
+  {
+    "start": "00:00:04.200",
+    "end": "00:00:06.710",
+    "start_seconds": 4.2,
+    "end_seconds": 6.71,
+    "text": "conflict. No one's trying to stop anyone",
+    "source_text": "This scene has no villain, no fight, no conflict. No one's trying to stop anyone",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:06.720",
+    "end": "00:00:08.990",
+    "start_seconds": 6.72,
+    "end_seconds": 8.99,
+    "text": "from doing anything. And it's one of the",
+    "source_text": "conflict. No one's trying to stop anyone from doing anything. And it's one of the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:09.000",
+    "end": "00:00:11.510",
+    "start_seconds": 9.0,
+    "end_seconds": 11.51,
+    "text": "most iconic moments in cinema history.",
+    "source_text": "from doing anything. And it's one of the most iconic moments in cinema history.",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:11.520",
+    "end": "00:00:13.990",
+    "start_seconds": 11.52,
+    "end_seconds": 13.99,
+    "text": "Every writing book you've ever read has",
+    "source_text": "most iconic moments in cinema history. Every writing book you've ever read has",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:14.000",
+    "end": "00:00:17.030",
+    "start_seconds": 14.0,
+    "end_seconds": 17.03,
+    "text": "told you the same thing. Conflict is the",
+    "source_text": "Every writing book you've ever read has told you the same thing. Conflict is the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:17.040",
+    "end": "00:00:19.590",
+    "start_seconds": 17.04,
+    "end_seconds": 19.59,
+    "text": "engine of story. No conflict, no",
+    "source_text": "told you the same thing. Conflict is the engine of story. No conflict, no",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:19.600",
+    "end": "00:00:22.310",
+    "start_seconds": 19.6,
+    "end_seconds": 22.31,
+    "text": "interest. Your protagonist needs a goal,",
+    "source_text": "engine of story. No conflict, no interest. Your protagonist needs a goal,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:22.320",
+    "end": "00:00:24.070",
+    "start_seconds": 22.32,
+    "end_seconds": 24.07,
+    "text": "something blocking that goal, and a",
+    "source_text": "interest. Your protagonist needs a goal, something blocking that goal, and a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:24.080",
+    "end": "00:00:27.070",
+    "start_seconds": 24.08,
+    "end_seconds": 27.07,
+    "text": "fight to overcome it. But Studio Ghibli,",
+    "source_text": "something blocking that goal, and a fight to overcome it. But Studio Ghibli,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:27.080",
+    "end": "00:00:29.150",
+    "start_seconds": 27.08,
+    "end_seconds": 29.15,
+    "text": "arguably the most beloved animation",
+    "source_text": "fight to overcome it. But Studio Ghibli, arguably the most beloved animation",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:29.160",
+    "end": "00:00:32.030",
+    "start_seconds": 29.16,
+    "end_seconds": 32.03,
+    "text": "studio on the planet, has been ignoring",
+    "source_text": "arguably the most beloved animation studio on the planet, has been ignoring",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:00:32.040",
+    "end": "00:00:34.790",
+    "start_seconds": 32.04,
+    "end_seconds": 34.79,
+    "text": "that rule for 40 years. And their films",
+    "source_text": "studio on the planet, has been ignoring that rule for 40 years. And their films",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:34.800",
+    "end": "00:00:37.470",
+    "start_seconds": 34.8,
+    "end_seconds": 37.47,
+    "text": "don't just work, they linger. They stay",
+    "source_text": "that rule for 40 years. And their films don't just work, they linger. They stay",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:37.480",
+    "end": "00:00:40.310",
+    "start_seconds": 37.48,
+    "end_seconds": 40.31,
+    "text": "in your chest for years. Today, I am",
+    "source_text": "don't just work, they linger. They stay in your chest for years. Today, I am",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:40.320",
+    "end": "00:00:42.270",
+    "start_seconds": 40.32,
+    "end_seconds": 42.27,
+    "text": "going to show you the structure they use",
+    "source_text": "in your chest for years. Today, I am going to show you the structure they use",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:42.280",
+    "end": "00:00:45.070",
+    "start_seconds": 42.28,
+    "end_seconds": 45.07,
+    "text": "instead, a thousand-year-old framework",
+    "source_text": "going to show you the structure they use instead, a thousand-year-old framework",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:45.080",
+    "end": "00:00:47.990",
+    "start_seconds": 45.08,
+    "end_seconds": 47.99,
+    "text": "called Kishotenketsu, and how you can",
+    "source_text": "instead, a thousand-year-old framework called Kishotenketsu, and how you can",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:00:48.000",
+    "end": "00:00:49.910",
+    "start_seconds": 48.0,
+    "end_seconds": 49.91,
+    "text": "use it to write fiction that doesn't",
+    "source_text": "called Kishotenketsu, and how you can use it to write fiction that doesn't",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:49.920",
+    "end": "00:00:52.550",
+    "start_seconds": 49.92,
+    "end_seconds": 52.55,
+    "text": "need a villain to be compelling.",
+    "source_text": "use it to write fiction that doesn't need a villain to be compelling.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:00:52.560",
+    "end": "00:00:54.670",
+    "start_seconds": 52.56,
+    "end_seconds": 54.67,
+    "text": "Let's be honest about where most of us",
+    "source_text": "need a villain to be compelling. Let's be honest about where most of us",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:00:54.680",
+    "end": "00:00:56.910",
+    "start_seconds": 54.68,
+    "end_seconds": 56.91,
+    "text": "learn to write stories. Three-act",
+    "source_text": "Let's be honest about where most of us learn to write stories. Three-act",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:00:56.920",
+    "end": "00:00:59.750",
+    "start_seconds": 56.92,
+    "end_seconds": 59.75,
+    "text": "structure, the hero's journey, inciting",
+    "source_text": "learn to write stories. Three-act structure, the hero's journey, inciting",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:00:59.760",
+    "end": "00:01:03.190",
+    "start_seconds": 59.76,
+    "end_seconds": 63.19,
+    "text": "incidents, rising action, the all is",
+    "source_text": "structure, the hero's journey, inciting incidents, rising action, the all is",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:03.200",
+    "end": "00:01:06.830",
+    "start_seconds": 63.2,
+    "end_seconds": 66.83,
+    "text": "lost moment. These tools are powerful.",
+    "source_text": "incidents, rising action, the all is lost moment. These tools are powerful.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:06.840",
+    "end": "00:01:09.190",
+    "start_seconds": 66.84,
+    "end_seconds": 69.19,
+    "text": "They've produced a century of incredible",
+    "source_text": "lost moment. These tools are powerful. They've produced a century of incredible",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:09.200",
+    "end": "00:01:11.470",
+    "start_seconds": 69.2,
+    "end_seconds": 71.47,
+    "text": "films and novels. I'm not here to tell",
+    "source_text": "They've produced a century of incredible films and novels. I'm not here to tell",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:11.480",
+    "end": "00:01:13.990",
+    "start_seconds": 71.48,
+    "end_seconds": 73.99,
+    "text": "you they're wrong. I'm here to tell you",
+    "source_text": "films and novels. I'm not here to tell you they're wrong. I'm here to tell you",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:14.000",
+    "end": "00:01:16.950",
+    "start_seconds": 74.0,
+    "end_seconds": 76.95,
+    "text": "they have a blind spot. See, Western",
+    "source_text": "you they're wrong. I'm here to tell you they have a blind spot. See, Western",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:16.960",
+    "end": "00:01:19.070",
+    "start_seconds": 76.96000000000001,
+    "end_seconds": 79.07,
+    "text": "structure was industrialized in",
+    "source_text": "they have a blind spot. See, Western structure was industrialized in",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:19.080",
+    "end": "00:01:21.830",
+    "start_seconds": 79.08,
+    "end_seconds": 81.83,
+    "text": "Hollywood. Syd Field in the 1970s",
+    "source_text": "structure was industrialized in Hollywood. Syd Field in the 1970s",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:01:21.840",
+    "end": "00:01:24.230",
+    "start_seconds": 81.84,
+    "end_seconds": 84.23,
+    "text": "literally assigned page counts to plot",
+    "source_text": "Hollywood. Syd Field in the 1970s literally assigned page counts to plot",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:24.240",
+    "end": "00:01:26.910",
+    "start_seconds": 84.24,
+    "end_seconds": 86.91,
+    "text": "points, designed to keep audiences",
+    "source_text": "literally assigned page counts to plot points, designed to keep audiences",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:26.920",
+    "end": "00:01:29.150",
+    "start_seconds": 86.92,
+    "end_seconds": 89.15,
+    "text": "engaged during commercial breaks. The",
+    "source_text": "points, designed to keep audiences engaged during commercial breaks. The",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:29.160",
+    "end": "00:01:30.750",
+    "start_seconds": 89.16,
+    "end_seconds": 90.75,
+    "text": "whole system is optimized for",
+    "source_text": "engaged during commercial breaks. The whole system is optimized for",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:30.760",
+    "end": "00:01:34.190",
+    "start_seconds": 90.76,
+    "end_seconds": 94.19,
+    "text": "high-arousal emotions, fear, aggression,",
+    "source_text": "whole system is optimized for high-arousal emotions, fear, aggression,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:34.200",
+    "end": "00:01:36.990",
+    "start_seconds": 94.2,
+    "end_seconds": 96.99000000000001,
+    "text": "triumph, adrenaline. Which is great",
+    "source_text": "high-arousal emotions, fear, aggression, triumph, adrenaline. Which is great",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:01:37.000",
+    "end": "00:01:40.190",
+    "start_seconds": 97.0,
+    "end_seconds": 100.19,
+    "text": "until you try to write a cozy fantasy or",
+    "source_text": "triumph, adrenaline. Which is great until you try to write a cozy fantasy or",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:01:40.200",
+    "end": "00:01:42.470",
+    "start_seconds": 100.2,
+    "end_seconds": 102.47,
+    "text": "a slice-of-life story or a character",
+    "source_text": "until you try to write a cozy fantasy or a slice-of-life story or a character",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:01:42.480",
+    "end": "00:01:44.950",
+    "start_seconds": 102.47999999999999,
+    "end_seconds": 104.95,
+    "text": "study where the stakes are internal. The",
+    "source_text": "a slice-of-life story or a character study where the stakes are internal. The",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:44.960",
+    "end": "00:01:47.310",
+    "start_seconds": 104.96000000000001,
+    "end_seconds": 107.31,
+    "text": "Western model demands that if your",
+    "source_text": "study where the stakes are internal. The Western model demands that if your",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:47.320",
+    "end": "00:01:49.750",
+    "start_seconds": 107.32,
+    "end_seconds": 109.75,
+    "text": "character wants a glass of water, the",
+    "source_text": "Western model demands that if your character wants a glass of water, the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:01:49.760",
+    "end": "00:01:52.550",
+    "start_seconds": 109.75999999999999,
+    "end_seconds": 112.55,
+    "text": "tap must be broken, the store must be",
+    "source_text": "character wants a glass of water, the tap must be broken, the store must be",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:01:52.560",
+    "end": "00:01:55.110",
+    "start_seconds": 112.56,
+    "end_seconds": 115.11,
+    "text": "closed, or a rival must be guarding the",
+    "source_text": "tap must be broken, the store must be closed, or a rival must be guarding the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:55.120",
+    "end": "00:01:57.310",
+    "start_seconds": 115.12,
+    "end_seconds": 117.31,
+    "text": "well. And if you're writing a story",
+    "source_text": "closed, or a rival must be guarding the well. And if you're writing a story",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:01:57.320",
+    "end": "00:02:00.110",
+    "start_seconds": 117.32,
+    "end_seconds": 120.11,
+    "text": "about a community recovering from grief",
+    "source_text": "well. And if you're writing a story about a community recovering from grief",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:00.120",
+    "end": "00:02:02.190",
+    "start_seconds": 120.12,
+    "end_seconds": 122.19,
+    "text": "or a character learning to appreciate",
+    "source_text": "about a community recovering from grief or a character learning to appreciate",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:02.200",
+    "end": "00:02:04.470",
+    "start_seconds": 122.2,
+    "end_seconds": 124.47,
+    "text": "nature or just someone running a",
+    "source_text": "or a character learning to appreciate nature or just someone running a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:04.480",
+    "end": "00:02:07.830",
+    "start_seconds": 124.48,
+    "end_seconds": 127.83,
+    "text": "bookshop, that demand for manufactured",
+    "source_text": "nature or just someone running a bookshop, that demand for manufactured",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:07.840",
+    "end": "00:02:10.230",
+    "start_seconds": 127.84,
+    "end_seconds": 130.23,
+    "text": "villains starts to feel emotionally",
+    "source_text": "bookshop, that demand for manufactured villains starts to feel emotionally",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:10.240",
+    "end": "00:02:13.510",
+    "start_seconds": 130.24,
+    "end_seconds": 133.51,
+    "text": "dishonest. You're forcing a battlefield",
+    "source_text": "villains starts to feel emotionally dishonest. You're forcing a battlefield",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:13.520",
+    "end": "00:02:16.630",
+    "start_seconds": 133.52,
+    "end_seconds": 136.63,
+    "text": "onto a garden. So, what if there was",
+    "source_text": "dishonest. You're forcing a battlefield onto a garden. So, what if there was",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:16.640",
+    "end": "00:02:18.390",
+    "start_seconds": 136.64,
+    "end_seconds": 138.39,
+    "text": "another way?",
+    "source_text": "onto a garden. So, what if there was another way?",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:02:18.400",
+    "end": "00:02:21.590",
+    "start_seconds": 138.4,
+    "end_seconds": 141.59,
+    "text": "Kishotenketsu, it's the Japanese reading",
+    "source_text": "another way? Kishotenketsu, it's the Japanese reading",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:02:21.600",
+    "end": "00:02:24.030",
+    "start_seconds": 141.6,
+    "end_seconds": 144.03,
+    "text": "of four Chinese characters, and it's",
+    "source_text": "Kishotenketsu, it's the Japanese reading of four Chinese characters, and it's",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:24.040",
+    "end": "00:02:26.190",
+    "start_seconds": 144.04,
+    "end_seconds": 146.19,
+    "text": "been the backbone of East Asian",
+    "source_text": "of four Chinese characters, and it's been the backbone of East Asian",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:26.200",
+    "end": "00:02:29.030",
+    "start_seconds": 146.2,
+    "end_seconds": 149.03,
+    "text": "storytelling for over a thousand years.",
+    "source_text": "been the backbone of East Asian storytelling for over a thousand years.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:29.040",
+    "end": "00:02:31.550",
+    "start_seconds": 149.04,
+    "end_seconds": 151.55,
+    "text": "It started in classical Chinese poetry",
+    "source_text": "storytelling for over a thousand years. It started in classical Chinese poetry",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:31.560",
+    "end": "00:02:34.110",
+    "start_seconds": 151.56,
+    "end_seconds": 154.11,
+    "text": "during the Tang Dynasty, got refined",
+    "source_text": "It started in classical Chinese poetry during the Tang Dynasty, got refined",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:34.120",
+    "end": "00:02:36.430",
+    "start_seconds": 154.12,
+    "end_seconds": 156.43,
+    "text": "through Japanese and Korean narrative",
+    "source_text": "during the Tang Dynasty, got refined through Japanese and Korean narrative",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:36.440",
+    "end": "00:02:39.270",
+    "start_seconds": 156.44,
+    "end_seconds": 159.27,
+    "text": "traditions, and today it's the invisible",
+    "source_text": "through Japanese and Korean narrative traditions, and today it's the invisible",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:39.280",
+    "end": "00:02:41.590",
+    "start_seconds": 159.28,
+    "end_seconds": 161.59,
+    "text": "structure behind everything from manga",
+    "source_text": "traditions, and today it's the invisible structure behind everything from manga",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:41.600",
+    "end": "00:02:44.390",
+    "start_seconds": 161.6,
+    "end_seconds": 164.39,
+    "text": "to Studio Ghibli. Here's how it works.",
+    "source_text": "structure behind everything from manga to Studio Ghibli. Here's how it works.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:44.400",
+    "end": "00:02:47.630",
+    "start_seconds": 164.4,
+    "end_seconds": 167.63,
+    "text": "Ki is the introduction. You establish",
+    "source_text": "to Studio Ghibli. Here's how it works. Ki is the introduction. You establish",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:02:47.640",
+    "end": "00:02:50.190",
+    "start_seconds": 167.64,
+    "end_seconds": 170.19,
+    "text": "your ground, your characters, the rules",
+    "source_text": "Ki is the introduction. You establish your ground, your characters, the rules",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:50.200",
+    "end": "00:02:51.950",
+    "start_seconds": 170.2,
+    "end_seconds": 171.95,
+    "text": "of your world. But here's the",
+    "source_text": "your ground, your characters, the rules of your world. But here's the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:51.960",
+    "end": "00:02:54.350",
+    "start_seconds": 171.96,
+    "end_seconds": 174.35,
+    "text": "difference. You're not setting up a",
+    "source_text": "of your world. But here's the difference. You're not setting up a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:54.360",
+    "end": "00:02:56.070",
+    "start_seconds": 174.36,
+    "end_seconds": 176.07,
+    "text": "problem to be solved. You're",
+    "source_text": "difference. You're not setting up a problem to be solved. You're",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:02:56.080",
+    "end": "00:02:59.270",
+    "start_seconds": 176.07999999999998,
+    "end_seconds": 179.27,
+    "text": "establishing a state of being, the vibe,",
+    "source_text": "problem to be solved. You're establishing a state of being, the vibe,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:02:59.280",
+    "end": "00:03:01.870",
+    "start_seconds": 179.28,
+    "end_seconds": 181.87,
+    "text": "the texture. In a cozy story, this is",
+    "source_text": "establishing a state of being, the vibe, the texture. In a cozy story, this is",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:01.880",
+    "end": "00:03:04.470",
+    "start_seconds": 181.88,
+    "end_seconds": 184.47,
+    "text": "where you let the reader settle in. Sho",
+    "source_text": "the texture. In a cozy story, this is where you let the reader settle in. Sho",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:04.480",
+    "end": "00:03:06.830",
+    "start_seconds": 184.48,
+    "end_seconds": 186.83,
+    "text": "is the development. This is where",
+    "source_text": "where you let the reader settle in. Sho is the development. This is where",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:06.840",
+    "end": "00:03:09.950",
+    "start_seconds": 186.84,
+    "end_seconds": 189.95,
+    "text": "Western writers get itchy because in",
+    "source_text": "is the development. This is where Western writers get itchy because in",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:09.960",
+    "end": "00:03:12.190",
+    "start_seconds": 189.96,
+    "end_seconds": 192.19,
+    "text": "Kishotenketsu, you don't escalate",
+    "source_text": "Western writers get itchy because in Kishotenketsu, you don't escalate",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:12.200",
+    "end": "00:03:14.830",
+    "start_seconds": 192.2,
+    "end_seconds": 194.83,
+    "text": "conflict here, you deepen. You follow",
+    "source_text": "Kishotenketsu, you don't escalate conflict here, you deepen. You follow",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:03:14.840",
+    "end": "00:03:17.230",
+    "start_seconds": 194.84,
+    "end_seconds": 197.23,
+    "text": "the introduction linearly, showing",
+    "source_text": "conflict here, you deepen. You follow the introduction linearly, showing",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:03:17.240",
+    "end": "00:03:20.110",
+    "start_seconds": 197.24,
+    "end_seconds": 200.11,
+    "text": "process, building familiarity, letting",
+    "source_text": "the introduction linearly, showing process, building familiarity, letting",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:03:20.120",
+    "end": "00:03:21.750",
+    "start_seconds": 200.12,
+    "end_seconds": 201.75,
+    "text": "the reader fall in love with the world",
+    "source_text": "process, building familiarity, letting the reader fall in love with the world",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:03:21.760",
+    "end": "00:03:24.270",
+    "start_seconds": 201.76,
+    "end_seconds": 204.27,
+    "text": "through accumulated details. If your",
+    "source_text": "the reader fall in love with the world through accumulated details. If your",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:24.280",
+    "end": "00:03:26.390",
+    "start_seconds": 204.28,
+    "end_seconds": 206.39,
+    "text": "character is a musician, [music]",
+    "source_text": "through accumulated details. If your character is a musician, [music]",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:26.400",
+    "end": "00:03:28.430",
+    "start_seconds": 206.4,
+    "end_seconds": 208.43,
+    "text": "you show them practicing, struggling",
+    "source_text": "character is a musician, [music] you show them practicing, struggling",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:28.440",
+    "end": "00:03:31.430",
+    "start_seconds": 208.44,
+    "end_seconds": 211.43,
+    "text": "with a chord, playing at a small venue.",
+    "source_text": "you show them practicing, struggling with a chord, playing at a small venue.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:31.440",
+    "end": "00:03:35.190",
+    "start_seconds": 211.44,
+    "end_seconds": 215.19,
+    "text": "No villain, just just life. Ten is the",
+    "source_text": "with a chord, playing at a small venue. No villain, just just life. Ten is the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:35.200",
+    "end": "00:03:38.030",
+    "start_seconds": 215.2,
+    "end_seconds": 218.03,
+    "text": "twist. This is the engine, but it's not",
+    "source_text": "No villain, just just life. Ten is the twist. This is the engine, but it's not",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:38.040",
+    "end": "00:03:40.510",
+    "start_seconds": 218.04,
+    "end_seconds": 220.51,
+    "text": "a plot twist in the Western sense. No,",
+    "source_text": "twist. This is the engine, but it's not a plot twist in the Western sense. No,",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:40.520",
+    "end": "00:03:43.190",
+    "start_seconds": 220.52,
+    "end_seconds": 223.19,
+    "text": "he was dead all along. It's a structural",
+    "source_text": "a plot twist in the Western sense. No, he was dead all along. It's a structural",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:43.200",
+    "end": "00:03:45.110",
+    "start_seconds": 223.2,
+    "end_seconds": 225.11,
+    "text": "pivot. You introduce something that",
+    "source_text": "he was dead all along. It's a structural pivot. You introduce something that",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:45.120",
+    "end": "00:03:47.390",
+    "start_seconds": 225.12,
+    "end_seconds": 227.39,
+    "text": "doesn't follow from what came before, a",
+    "source_text": "pivot. You introduce something that doesn't follow from what came before, a",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:47.400",
+    "end": "00:03:50.590",
+    "start_seconds": 227.4,
+    "end_seconds": 230.59,
+    "text": "shift in perspective, a jump in time, a",
+    "source_text": "doesn't follow from what came before, a shift in perspective, a jump in time, a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:03:50.600",
+    "end": "00:03:53.270",
+    "start_seconds": 230.6,
+    "end_seconds": 233.27,
+    "text": "seemingly unrelatable element, something",
+    "source_text": "shift in perspective, a jump in time, a seemingly unrelatable element, something",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:53.280",
+    "end": "00:03:55.910",
+    "start_seconds": 233.28,
+    "end_seconds": 235.91,
+    "text": "that makes the reader go, wait, how does",
+    "source_text": "seemingly unrelatable element, something that makes the reader go, wait, how does",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:03:55.920",
+    "end": "00:03:57.950",
+    "start_seconds": 235.92000000000002,
+    "end_seconds": 237.95,
+    "text": "this connect? Ketsu is the",
+    "source_text": "that makes the reader go, wait, how does this connect? Ketsu is the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:03:57.960",
+    "end": "00:03:59.470",
+    "start_seconds": 237.96,
+    "end_seconds": 239.47,
+    "text": "reconciliation.",
+    "source_text": "this connect? Ketsu is the reconciliation.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:03:59.480",
+    "end": "00:04:02.430",
+    "start_seconds": 239.48,
+    "end_seconds": 242.43,
+    "text": "Not resolution, reconciliation. You",
+    "source_text": "reconciliation. Not resolution, reconciliation. You",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:04:02.440",
+    "end": "00:04:04.990",
+    "start_seconds": 242.44,
+    "end_seconds": 244.99,
+    "text": "bring the twist back into relationship",
+    "source_text": "Not resolution, reconciliation. You bring the twist back into relationship",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:04:05.000",
+    "end": "00:04:07.110",
+    "start_seconds": 245.0,
+    "end_seconds": 247.11,
+    "text": "with everything that came before. You",
+    "source_text": "bring the twist back into relationship with everything that came before. You",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:07.120",
+    "end": "00:04:09.750",
+    "start_seconds": 247.12,
+    "end_seconds": 249.75,
+    "text": "answer the question, how do these",
+    "source_text": "with everything that came before. You answer the question, how do these",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:09.760",
+    "end": "00:04:12.470",
+    "start_seconds": 249.76,
+    "end_seconds": 252.47,
+    "text": "disparate things coexist? The ending",
+    "source_text": "answer the question, how do these disparate things coexist? The ending",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:12.480",
+    "end": "00:04:14.550",
+    "start_seconds": 252.48,
+    "end_seconds": 254.55,
+    "text": "doesn't defeat the new element, it",
+    "source_text": "disparate things coexist? The ending doesn't defeat the new element, it",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:14.560",
+    "end": "00:04:17.270",
+    "start_seconds": 254.56,
+    "end_seconds": 257.27,
+    "text": "integrates it. Life goes on, but",
+    "source_text": "doesn't defeat the new element, it integrates it. Life goes on, but",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:17.280",
+    "end": "00:04:19.509",
+    "start_seconds": 257.28,
+    "end_seconds": 259.509,
+    "text": "changed. When we look at these two",
+    "source_text": "integrates it. Life goes on, but changed. When we look at these two",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:19.519",
+    "end": "00:04:22.150",
+    "start_seconds": 259.519,
+    "end_seconds": 262.15,
+    "text": "models side by side, the differences are",
+    "source_text": "changed. When we look at these two models side by side, the differences are",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:22.160",
+    "end": "00:04:24.950",
+    "start_seconds": 262.16,
+    "end_seconds": 264.95,
+    "text": "striking. Let's start with the engine.",
+    "source_text": "models side by side, the differences are striking. Let's start with the engine.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:24.960",
+    "end": "00:04:27.310",
+    "start_seconds": 264.96,
+    "end_seconds": 267.31,
+    "text": "In the Western three-act structure, the",
+    "source_text": "striking. Let's start with the engine. In the Western three-act structure, the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:27.320",
+    "end": "00:04:29.630",
+    "start_seconds": 267.32,
+    "end_seconds": 269.63,
+    "text": "engine is conflict. In the",
+    "source_text": "In the Western three-act structure, the engine is conflict. In the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:29.640",
+    "end": "00:04:32.910",
+    "start_seconds": 269.64,
+    "end_seconds": 272.90999999999997,
+    "text": "Kishotenketsu, the engine is contrast.",
+    "source_text": "engine is conflict. In the Kishotenketsu, the engine is contrast.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:32.920",
+    "end": "00:04:35.230",
+    "start_seconds": 272.92,
+    "end_seconds": 275.23,
+    "text": "Then there's the midpoint. In the West,",
+    "source_text": "Kishotenketsu, the engine is contrast. Then there's the midpoint. In the West,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:04:35.240",
+    "end": "00:04:36.950",
+    "start_seconds": 275.24,
+    "end_seconds": 276.95,
+    "text": "the midpoint is designed to raise the",
+    "source_text": "Then there's the midpoint. In the West, the midpoint is designed to raise the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:36.960",
+    "end": "00:04:39.510",
+    "start_seconds": 276.96,
+    "end_seconds": 279.51,
+    "text": "stakes. In this Eastern model, the",
+    "source_text": "the midpoint is designed to raise the stakes. In this Eastern model, the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:39.520",
+    "end": "00:04:42.298",
+    "start_seconds": 279.52,
+    "end_seconds": 282.298,
+    "text": "midpoint is used to shift the context.",
+    "source_text": "stakes. In this Eastern model, the midpoint is used to shift the context.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:42.308",
+    "end": "00:04:42.390",
+    "start_seconds": 282.308,
+    "end_seconds": 282.39,
+    "text": ">> [music]",
+    "source_text": "midpoint is used to shift the context. >> [music]",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:42.400",
+    "end": "00:04:44.990",
+    "start_seconds": 282.4,
+    "end_seconds": 284.99,
+    "text": ">> The ending. A Western story usually ends",
+    "source_text": ">> [music] >> The ending. A Western story usually ends",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:04:45.000",
+    "end": "00:04:47.510",
+    "start_seconds": 285.0,
+    "end_seconds": 287.51,
+    "text": "in victory or defeat. Kishotenketsu ends",
+    "source_text": ">> The ending. A Western story usually ends in victory or defeat. Kishotenketsu ends",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:04:47.520",
+    "end": "00:04:50.230",
+    "start_seconds": 287.52,
+    "end_seconds": 290.23,
+    "text": "in integration. The emotion.",
+    "source_text": "in victory or defeat. Kishotenketsu ends in integration. The emotion.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:04:50.240",
+    "end": "00:04:52.870",
+    "start_seconds": 290.24,
+    "end_seconds": 292.87,
+    "text": "Finally, the Western model aims for high",
+    "source_text": "in integration. The emotion. Finally, the Western model aims for high",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:04:52.880",
+    "end": "00:04:55.550",
+    "start_seconds": 292.88,
+    "end_seconds": 295.55,
+    "text": "arousal like adrenaline. Kishotenketsu",
+    "source_text": "Finally, the Western model aims for high arousal like adrenaline. Kishotenketsu",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:04:55.560",
+    "end": "00:04:57.910",
+    "start_seconds": 295.56,
+    "end_seconds": 297.90999999999997,
+    "text": "aims for low arousal, focusing on",
+    "source_text": "arousal like adrenaline. Kishotenketsu aims for low arousal, focusing on",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:04:57.920",
+    "end": "00:05:00.310",
+    "start_seconds": 297.92,
+    "end_seconds": 300.31,
+    "text": "contentment. The key difference?",
+    "source_text": "aims for low arousal, focusing on contentment. The key difference?",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:00.320",
+    "end": "00:05:03.550",
+    "start_seconds": 300.32,
+    "end_seconds": 303.55,
+    "text": "Conflict is finite fuel. Contrast is",
+    "source_text": "contentment. The key difference? Conflict is finite fuel. Contrast is",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:05:03.560",
+    "end": "00:05:06.030",
+    "start_seconds": 303.56,
+    "end_seconds": 306.03,
+    "text": "sustainable. Once a battle is won, the",
+    "source_text": "Conflict is finite fuel. Contrast is sustainable. Once a battle is won, the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:06.040",
+    "end": "00:05:08.710",
+    "start_seconds": 306.04,
+    "end_seconds": 308.71,
+    "text": "tension evaporates. You need a bigger",
+    "source_text": "sustainable. Once a battle is won, the tension evaporates. You need a bigger",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:08.720",
+    "end": "00:05:11.510",
+    "start_seconds": 308.72,
+    "end_seconds": 311.51,
+    "text": "threat for the sequel. But contrast,",
+    "source_text": "tension evaporates. You need a bigger threat for the sequel. But contrast,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:11.520",
+    "end": "00:05:13.630",
+    "start_seconds": 311.52,
+    "end_seconds": 313.63,
+    "text": "youth versus age, nature versus",
+    "source_text": "threat for the sequel. But contrast, youth versus age, nature versus",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:13.640",
+    "end": "00:05:16.550",
+    "start_seconds": 313.64,
+    "end_seconds": 316.55,
+    "text": "industry, silence versus noise, that",
+    "source_text": "youth versus age, nature versus industry, silence versus noise, that",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:05:16.560",
+    "end": "00:05:18.950",
+    "start_seconds": 316.56,
+    "end_seconds": 318.95,
+    "text": "resonance doesn't need to be solved. It",
+    "source_text": "industry, silence versus noise, that resonance doesn't need to be solved. It",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:05:18.960",
+    "end": "00:05:21.110",
+    "start_seconds": 318.96,
+    "end_seconds": 321.11,
+    "text": "invites the reader to sit with it, to",
+    "source_text": "resonance doesn't need to be solved. It invites the reader to sit with it, to",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:21.120",
+    "end": "00:05:23.670",
+    "start_seconds": 321.12,
+    "end_seconds": 323.67,
+    "text": "contemplate, to feel. And that's why",
+    "source_text": "invites the reader to sit with it, to contemplate, to feel. And that's why",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:23.680",
+    "end": "00:05:26.190",
+    "start_seconds": 323.68,
+    "end_seconds": 326.19,
+    "text": "Ghibli films stay in your chest. But",
+    "source_text": "contemplate, to feel. And that's why Ghibli films stay in your chest. But",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:26.200",
+    "end": "00:05:28.270",
+    "start_seconds": 326.2,
+    "end_seconds": 328.27,
+    "text": "here's where it gets really [music]",
+    "source_text": "Ghibli films stay in your chest. But here's where it gets really [music]",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:28.280",
+    "end": "00:05:31.070",
+    "start_seconds": 328.28,
+    "end_seconds": 331.07,
+    "text": "interesting. Let me show you exactly how",
+    "source_text": "here's where it gets really [music] interesting. Let me show you exactly how",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:05:31.080",
+    "end": "00:05:34.230",
+    "start_seconds": 331.08,
+    "end_seconds": 334.23,
+    "text": "Miyazaki uses this, scene by scene, in",
+    "source_text": "interesting. Let me show you exactly how Miyazaki uses this, scene by scene, in",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:34.240",
+    "end": "00:05:37.870",
+    "start_seconds": 334.24,
+    "end_seconds": 337.87,
+    "text": "one of the most beloved films ever made.",
+    "source_text": "Miyazaki uses this, scene by scene, in one of the most beloved films ever made.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:37.880",
+    "end": "00:05:40.430",
+    "start_seconds": 337.88,
+    "end_seconds": 340.43,
+    "text": "My Neighbor Totoro baffled Western",
+    "source_text": "one of the most beloved films ever made. My Neighbor Totoro baffled Western",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:40.440",
+    "end": "00:05:43.310",
+    "start_seconds": 340.44,
+    "end_seconds": 343.31,
+    "text": "critics when it came out. Roger Ebert",
+    "source_text": "My Neighbor Totoro baffled Western critics when it came out. Roger Ebert",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:05:43.320",
+    "end": "00:05:45.430",
+    "start_seconds": 343.32,
+    "end_seconds": 345.43,
+    "text": "said it had no villains, no fight",
+    "source_text": "critics when it came out. Roger Ebert said it had no villains, no fight",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:45.440",
+    "end": "00:05:48.070",
+    "start_seconds": 345.44,
+    "end_seconds": 348.07,
+    "text": "scenes, no evil adults, and he meant",
+    "source_text": "said it had no villains, no fight scenes, no evil adults, and he meant",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:48.080",
+    "end": "00:05:50.470",
+    "start_seconds": 348.08,
+    "end_seconds": 350.47,
+    "text": "that as praise. But he couldn't quite",
+    "source_text": "scenes, no evil adults, and he meant that as praise. But he couldn't quite",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:50.480",
+    "end": "00:05:53.510",
+    "start_seconds": 350.48,
+    "end_seconds": 353.51,
+    "text": "articulate why it worked. Now we can. Ki",
+    "source_text": "that as praise. But he couldn't quite articulate why it worked. Now we can. Ki",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:53.520",
+    "end": "00:05:56.350",
+    "start_seconds": 353.52,
+    "end_seconds": 356.35,
+    "text": "is the benign unknown. The film opens",
+    "source_text": "articulate why it worked. Now we can. Ki is the benign unknown. The film opens",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:05:56.360",
+    "end": "00:05:59.150",
+    "start_seconds": 356.36,
+    "end_seconds": 359.15,
+    "text": "with two sisters, Satsuki and Mei,",
+    "source_text": "is the benign unknown. The film opens with two sisters, Satsuki and Mei,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:05:59.160",
+    "end": "00:06:01.350",
+    "start_seconds": 359.15999999999997,
+    "end_seconds": 361.35,
+    "text": "moving into a rural house with their",
+    "source_text": "with two sisters, Satsuki and Mei, moving into a rural house with their",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:01.360",
+    "end": "00:06:03.630",
+    "start_seconds": 361.36,
+    "end_seconds": 363.63,
+    "text": "father. They open the door to a dark,",
+    "source_text": "moving into a rural house with their father. They open the door to a dark,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:03.640",
+    "end": "00:06:06.230",
+    "start_seconds": 363.64,
+    "end_seconds": 366.23,
+    "text": "dusty room. Little creatures scatter",
+    "source_text": "father. They open the door to a dark, dusty room. Little creatures scatter",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:06:06.240",
+    "end": "00:06:08.710",
+    "start_seconds": 366.24,
+    "end_seconds": 368.71,
+    "text": "into the shadows. Now, if this were a",
+    "source_text": "dusty room. Little creatures scatter into the shadows. Now, if this were a",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:06:08.720",
+    "end": "00:06:11.190",
+    "start_seconds": 368.72,
+    "end_seconds": 371.19,
+    "text": "Western film, this is coded as the",
+    "source_text": "into the shadows. Now, if this were a Western film, this is coded as the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:06:11.200",
+    "end": "00:06:14.150",
+    "start_seconds": 371.2,
+    "end_seconds": 374.15,
+    "text": "haunted house. The darkness conceals a",
+    "source_text": "Western film, this is coded as the haunted house. The darkness conceals a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:14.160",
+    "end": "00:06:16.790",
+    "start_seconds": 374.16,
+    "end_seconds": 376.79,
+    "text": "threat. The music would signal danger.",
+    "source_text": "haunted house. The darkness conceals a threat. The music would signal danger.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:16.800",
+    "end": "00:06:19.750",
+    "start_seconds": 376.8,
+    "end_seconds": 379.75,
+    "text": "But watch what Miyazaki does. The girls",
+    "source_text": "threat. The music would signal danger. But watch what Miyazaki does. The girls",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:19.760",
+    "end": "00:06:23.110",
+    "start_seconds": 379.76,
+    "end_seconds": 383.11,
+    "text": "scream, but in delight, not terror. They",
+    "source_text": "But watch what Miyazaki does. The girls scream, but in delight, not terror. They",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:23.120",
+    "end": "00:06:26.070",
+    "start_seconds": 383.12,
+    "end_seconds": 386.07,
+    "text": "chase the soot sprites. They laugh. The",
+    "source_text": "scream, but in delight, not terror. They chase the soot sprites. They laugh. The",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:26.080",
+    "end": "00:06:27.910",
+    "start_seconds": 386.08,
+    "end_seconds": 387.91,
+    "text": "father says, \"I've always wanted to live",
+    "source_text": "chase the soot sprites. They laugh. The father says, \"I've always wanted to live",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:27.920",
+    "end": "00:06:30.110",
+    "start_seconds": 387.92,
+    "end_seconds": 390.11,
+    "text": "in a haunted house.\" The key establishes",
+    "source_text": "father says, \"I've always wanted to live in a haunted house.\" The key establishes",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:30.120",
+    "end": "00:06:32.870",
+    "start_seconds": 390.12,
+    "end_seconds": 392.87,
+    "text": "the premise. This is a world where the",
+    "source_text": "in a haunted house.\" The key establishes the premise. This is a world where the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:32.880",
+    "end": "00:06:35.790",
+    "start_seconds": 392.88,
+    "end_seconds": 395.79,
+    "text": "unknown is not dangerous. For fiction",
+    "source_text": "the premise. This is a world where the unknown is not dangerous. For fiction",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:06:35.800",
+    "end": "00:06:37.950",
+    "start_seconds": 395.8,
+    "end_seconds": 397.95,
+    "text": "writers, this is crucial. Your opening",
+    "source_text": "unknown is not dangerous. For fiction writers, this is crucial. Your opening",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:37.960",
+    "end": "00:06:40.830",
+    "start_seconds": 397.96,
+    "end_seconds": 400.83,
+    "text": "isn't just set up, it's a promise.",
+    "source_text": "writers, this is crucial. Your opening isn't just set up, it's a promise.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:40.840",
+    "end": "00:06:43.470",
+    "start_seconds": 400.84000000000003,
+    "end_seconds": 403.47,
+    "text": "Miyazaki promises wonder, safety in",
+    "source_text": "isn't just set up, it's a promise. Miyazaki promises wonder, safety in",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:06:43.480",
+    "end": "00:06:45.990",
+    "start_seconds": 403.48,
+    "end_seconds": 405.99,
+    "text": "strangeness, and he delivers on that",
+    "source_text": "Miyazaki promises wonder, safety in strangeness, and he delivers on that",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:06:46.000",
+    "end": "00:06:49.230",
+    "start_seconds": 406.0,
+    "end_seconds": 409.23,
+    "text": "promise for the entire film. Sho is the",
+    "source_text": "strangeness, and he delivers on that promise for the entire film. Sho is the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:49.240",
+    "end": "00:06:51.510",
+    "start_seconds": 409.24,
+    "end_seconds": 411.51,
+    "text": "immersion through process. The middle of",
+    "source_text": "promise for the entire film. Sho is the immersion through process. The middle of",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:06:51.520",
+    "end": "00:06:54.110",
+    "start_seconds": 411.52,
+    "end_seconds": 414.11,
+    "text": "Totoro is what Western executives would",
+    "source_text": "immersion through process. The middle of Totoro is what Western executives would",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:54.120",
+    "end": "00:06:56.790",
+    "start_seconds": 414.12,
+    "end_seconds": 416.79,
+    "text": "call nothing's happening. The girls find",
+    "source_text": "Totoro is what Western executives would call nothing's happening. The girls find",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:56.800",
+    "end": "00:06:59.150",
+    "start_seconds": 416.8,
+    "end_seconds": 419.15,
+    "text": "a rotted pillar on the porch, and in a",
+    "source_text": "call nothing's happening. The girls find a rotted pillar on the porch, and in a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:06:59.160",
+    "end": "00:07:01.750",
+    "start_seconds": 419.15999999999997,
+    "end_seconds": 421.75,
+    "text": "conflict model, this pillar collapses",
+    "source_text": "a rotted pillar on the porch, and in a conflict model, this pillar collapses",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:07:01.760",
+    "end": "00:07:03.390",
+    "start_seconds": 421.76,
+    "end_seconds": 423.39,
+    "text": "and injures someone, which is will be an",
+    "source_text": "conflict model, this pillar collapses and injures someone, which is will be an",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:07:03.400",
+    "end": "00:07:05.950",
+    "start_seconds": 423.4,
+    "end_seconds": 425.95,
+    "text": "inciting incident. In Totoro, they shake",
+    "source_text": "and injures someone, which is will be an inciting incident. In Totoro, they shake",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:05.960",
+    "end": "00:07:08.310",
+    "start_seconds": 425.96,
+    "end_seconds": 428.31,
+    "text": "it, laugh when the roof wobbles, and the",
+    "source_text": "inciting incident. In Totoro, they shake it, laugh when the roof wobbles, and the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:07:08.320",
+    "end": "00:07:10.790",
+    "start_seconds": 428.32,
+    "end_seconds": 430.79,
+    "text": "father reinforces it. The danger is",
+    "source_text": "it, laugh when the roof wobbles, and the father reinforces it. The danger is",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:10.800",
+    "end": "00:07:13.470",
+    "start_seconds": 430.8,
+    "end_seconds": 433.47,
+    "text": "neutralized by competence and humor.",
+    "source_text": "father reinforces it. The danger is neutralized by competence and humor.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:07:13.480",
+    "end": "00:07:15.830",
+    "start_seconds": 433.48,
+    "end_seconds": 435.83,
+    "text": "They plant seeds with Totoro. They watch",
+    "source_text": "neutralized by competence and humor. They plant seeds with Totoro. They watch",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:07:15.840",
+    "end": "00:07:18.470",
+    "start_seconds": 435.84,
+    "end_seconds": 438.47,
+    "text": "them grow in a dream sequence. They ride",
+    "source_text": "They plant seeds with Totoro. They watch them grow in a dream sequence. They ride",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:07:18.480",
+    "end": "00:07:21.030",
+    "start_seconds": 438.48,
+    "end_seconds": 441.03,
+    "text": "a cat bus through the countryside. None",
+    "source_text": "them grow in a dream sequence. They ride a cat bus through the countryside. None",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:21.040",
+    "end": "00:07:23.870",
+    "start_seconds": 441.04,
+    "end_seconds": 443.87,
+    "text": "of this advances the plot in the Western",
+    "source_text": "a cat bus through the countryside. None of this advances the plot in the Western",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:07:23.880",
+    "end": "00:07:26.070",
+    "start_seconds": 443.88,
+    "end_seconds": 446.07,
+    "text": "sense, but it's doing something more",
+    "source_text": "of this advances the plot in the Western sense, but it's doing something more",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:26.080",
+    "end": "00:07:28.670",
+    "start_seconds": 446.08,
+    "end_seconds": 448.67,
+    "text": "important. It's making you fall in love",
+    "source_text": "sense, but it's doing something more important. It's making you fall in love",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:07:28.680",
+    "end": "00:07:31.150",
+    "start_seconds": 448.68,
+    "end_seconds": 451.15,
+    "text": "with the world. And then there's the bus",
+    "source_text": "important. It's making you fall in love with the world. And then there's the bus",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:07:31.160",
+    "end": "00:07:33.910",
+    "start_seconds": 451.16,
+    "end_seconds": 453.90999999999997,
+    "text": "stop scene. Satsuki waits for her father",
+    "source_text": "with the world. And then there's the bus stop scene. Satsuki waits for her father",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:33.920",
+    "end": "00:07:36.950",
+    "start_seconds": 453.92,
+    "end_seconds": 456.95,
+    "text": "in the rain. Totoro appears beside her.",
+    "source_text": "stop scene. Satsuki waits for her father in the rain. Totoro appears beside her.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:07:36.960",
+    "end": "00:07:39.390",
+    "start_seconds": 456.96,
+    "end_seconds": 459.39,
+    "text": "There's no dialogue, no conflict. The",
+    "source_text": "in the rain. Totoro appears beside her. There's no dialogue, no conflict. The",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:07:39.400",
+    "end": "00:07:42.270",
+    "start_seconds": 459.4,
+    "end_seconds": 462.27,
+    "text": "tension comes entirely from contrast.",
+    "source_text": "There's no dialogue, no conflict. The tension comes entirely from contrast.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:07:42.280",
+    "end": "00:07:44.950",
+    "start_seconds": 462.28,
+    "end_seconds": 464.95,
+    "text": "The mundane realism of rain, an",
+    "source_text": "tension comes entirely from contrast. The mundane realism of rain, an",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:07:44.960",
+    "end": "00:07:47.710",
+    "start_seconds": 464.96,
+    "end_seconds": 467.71,
+    "text": "umbrella, a bus schedule standing next",
+    "source_text": "The mundane realism of rain, an umbrella, a bus schedule standing next",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:07:47.720",
+    "end": "00:07:50.790",
+    "start_seconds": 467.72,
+    "end_seconds": 470.79,
+    "text": "to a giant forest spirit. This scene is",
+    "source_text": "umbrella, a bus schedule standing next to a giant forest spirit. This scene is",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:07:50.800",
+    "end": "00:07:53.990",
+    "start_seconds": 470.8,
+    "end_seconds": 473.99,
+    "text": "held together by the sound of raindrops.",
+    "source_text": "to a giant forest spirit. This scene is held together by the sound of raindrops.",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:54.000",
+    "end": "00:07:56.150",
+    "start_seconds": 474.0,
+    "end_seconds": 476.15,
+    "text": "That's it. It's one of the most iconic",
+    "source_text": "held together by the sound of raindrops. That's it. It's one of the most iconic",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:07:56.160",
+    "end": "00:07:58.990",
+    "start_seconds": 476.15999999999997,
+    "end_seconds": 478.99,
+    "text": "images in animation history. Here's a",
+    "source_text": "That's it. It's one of the most iconic images in animation history. Here's a",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:07:59.000",
+    "end": "00:08:00.670",
+    "start_seconds": 479.0,
+    "end_seconds": 480.67,
+    "text": "technique for writers.",
+    "source_text": "images in animation history. Here's a technique for writers.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:00.680",
+    "end": "00:08:03.630",
+    "start_seconds": 480.68,
+    "end_seconds": 483.63,
+    "text": "Your sho phase isn't filler. It's where",
+    "source_text": "technique for writers. Your sho phase isn't filler. It's where",
+    "caption_overlap_words": 3
+  },
+  {
+    "start": "00:08:03.640",
+    "end": "00:08:05.590",
+    "start_seconds": 483.64,
+    "end_seconds": 485.59,
+    "text": "your reader bonds with the texture of",
+    "source_text": "Your sho phase isn't filler. It's where your reader bonds with the texture of",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:05.600",
+    "end": "00:08:08.190",
+    "start_seconds": 485.6,
+    "end_seconds": 488.19,
+    "text": "your world. Treat the description of",
+    "source_text": "your reader bonds with the texture of your world. Treat the description of",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:08.200",
+    "end": "00:08:11.670",
+    "start_seconds": 488.2,
+    "end_seconds": 491.67,
+    "text": "process like baking, sword making, or",
+    "source_text": "your world. Treat the description of process like baking, sword making, or",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:11.680",
+    "end": "00:08:13.870",
+    "start_seconds": 491.68,
+    "end_seconds": 493.87,
+    "text": "even running a bookshop with the same",
+    "source_text": "process like baking, sword making, or even running a bookshop with the same",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:13.880",
+    "end": "00:08:16.630",
+    "start_seconds": 493.88,
+    "end_seconds": 496.63,
+    "text": "structural weight as a fight scene.",
+    "source_text": "even running a bookshop with the same structural weight as a fight scene.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:16.640",
+    "end": "00:08:18.630",
+    "start_seconds": 496.64,
+    "end_seconds": 498.63,
+    "text": "The development is the increase in",
+    "source_text": "structural weight as a fight scene. The development is the increase in",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:18.640",
+    "end": "00:08:21.470",
+    "start_seconds": 498.64,
+    "end_seconds": 501.47,
+    "text": "sensory depth and emotional investment.",
+    "source_text": "The development is the increase in sensory depth and emotional investment.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:21.480",
+    "end": "00:08:24.270",
+    "start_seconds": 501.48,
+    "end_seconds": 504.27,
+    "text": "Ten is the intrusion of reality. The",
+    "source_text": "sensory depth and emotional investment. Ten is the intrusion of reality. The",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:08:24.280",
+    "end": "00:08:27.390",
+    "start_seconds": 504.28,
+    "end_seconds": 507.39,
+    "text": "twist arrives via telegram. The hospital",
+    "source_text": "Ten is the intrusion of reality. The twist arrives via telegram. The hospital",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:27.400",
+    "end": "00:08:28.950",
+    "start_seconds": 507.4,
+    "end_seconds": 508.95,
+    "text": "contacts the family about the [music]",
+    "source_text": "twist arrives via telegram. The hospital contacts the family about the [music]",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:28.960",
+    "end": "00:08:31.830",
+    "start_seconds": 508.96,
+    "end_seconds": 511.83,
+    "text": "mother. The tone shifts instantly. The",
+    "source_text": "contacts the family about the [music] mother. The tone shifts instantly. The",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:31.840",
+    "end": "00:08:34.830",
+    "start_seconds": 511.84,
+    "end_seconds": 514.83,
+    "text": "magical realism recedes. The film",
+    "source_text": "mother. The tone shifts instantly. The magical realism recedes. The film",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:34.840",
+    "end": "00:08:37.589",
+    "start_seconds": 514.84,
+    "end_seconds": 517.5889999999999,
+    "text": "briefly becomes a grounded family drama,",
+    "source_text": "magical realism recedes. The film briefly becomes a grounded family drama,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:08:37.599",
+    "end": "00:08:40.589",
+    "start_seconds": 517.599,
+    "end_seconds": 520.5889999999999,
+    "text": "and then a missing child procedural when",
+    "source_text": "briefly becomes a grounded family drama, and then a missing child procedural when",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:40.599",
+    "end": "00:08:43.149",
+    "start_seconds": 520.599,
+    "end_seconds": 523.149,
+    "text": "Mei runs away to bring corn to her sick",
+    "source_text": "and then a missing child procedural when Mei runs away to bring corn to her sick",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:43.159",
+    "end": "00:08:45.870",
+    "start_seconds": 523.159,
+    "end_seconds": 525.87,
+    "text": "mother. But notice, there's no villain.",
+    "source_text": "Mei runs away to bring corn to her sick mother. But notice, there's no villain.",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:08:45.880",
+    "end": "00:08:47.830",
+    "start_seconds": 525.88,
+    "end_seconds": 527.83,
+    "text": "No one's blocking Satsuki from finding",
+    "source_text": "mother. But notice, there's no villain. No one's blocking Satsuki from finding",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:47.840",
+    "end": "00:08:51.310",
+    "start_seconds": 527.84,
+    "end_seconds": 531.31,
+    "text": "Mei. The community rallies to help. The",
+    "source_text": "No one's blocking Satsuki from finding Mei. The community rallies to help. The",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:08:51.320",
+    "end": "00:08:54.230",
+    "start_seconds": 531.32,
+    "end_seconds": 534.23,
+    "text": "conflict is internal. Satsuki's fear",
+    "source_text": "Mei. The community rallies to help. The conflict is internal. Satsuki's fear",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:54.240",
+    "end": "00:08:57.030",
+    "start_seconds": 534.24,
+    "end_seconds": 537.03,
+    "text": "versus her hope. The adult reality of",
+    "source_text": "conflict is internal. Satsuki's fear versus her hope. The adult reality of",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:08:57.040",
+    "end": "00:08:59.670",
+    "start_seconds": 537.04,
+    "end_seconds": 539.67,
+    "text": "illness intruding on the child's world",
+    "source_text": "versus her hope. The adult reality of illness intruding on the child's world",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:08:59.680",
+    "end": "00:09:01.710",
+    "start_seconds": 539.68,
+    "end_seconds": 541.71,
+    "text": "of magic. Here's a technique for",
+    "source_text": "illness intruding on the child's world of magic. Here's a technique for",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:09:01.720",
+    "end": "00:09:04.150",
+    "start_seconds": 541.72,
+    "end_seconds": 544.15,
+    "text": "writers. Your ten doesn't need to be an",
+    "source_text": "of magic. Here's a technique for writers. Your ten doesn't need to be an",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:09:04.160",
+    "end": "00:09:06.430",
+    "start_seconds": 544.16,
+    "end_seconds": 546.43,
+    "text": "antagonist. It can be a change in",
+    "source_text": "writers. Your ten doesn't need to be an antagonist. It can be a change in",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:09:06.440",
+    "end": "00:09:09.070",
+    "start_seconds": 546.44,
+    "end_seconds": 549.07,
+    "text": "health, a shift in perspective, a memory",
+    "source_text": "antagonist. It can be a change in health, a shift in perspective, a memory",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:09.080",
+    "end": "00:09:11.950",
+    "start_seconds": 549.08,
+    "end_seconds": 551.95,
+    "text": "resurfacing, or a letter arriving. What",
+    "source_text": "health, a shift in perspective, a memory resurfacing, or a letter arriving. What",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:11.960",
+    "end": "00:09:14.230",
+    "start_seconds": 551.96,
+    "end_seconds": 554.23,
+    "text": "matters is that it recontextualizes",
+    "source_text": "resurfacing, or a letter arriving. What matters is that it recontextualizes",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:09:14.240",
+    "end": "00:09:16.830",
+    "start_seconds": 554.24,
+    "end_seconds": 556.83,
+    "text": "everything that came before. Ketsu,",
+    "source_text": "matters is that it recontextualizes everything that came before. Ketsu,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:09:16.840",
+    "end": "00:09:19.070",
+    "start_seconds": 556.84,
+    "end_seconds": 559.07,
+    "text": "which is magic as comfort, not weapon.",
+    "source_text": "everything that came before. Ketsu, which is magic as comfort, not weapon.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:09:19.080",
+    "end": "00:09:21.510",
+    "start_seconds": 559.08,
+    "end_seconds": 561.51,
+    "text": "The resolution synthesizes the magic and",
+    "source_text": "which is magic as comfort, not weapon. The resolution synthesizes the magic and",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:21.520",
+    "end": "00:09:24.350",
+    "start_seconds": 561.52,
+    "end_seconds": 564.35,
+    "text": "the fear. Satsuki can find Mei using",
+    "source_text": "The resolution synthesizes the magic and the fear. Satsuki can find Mei using",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:09:24.360",
+    "end": "00:09:26.990",
+    "start_seconds": 564.36,
+    "end_seconds": 566.99,
+    "text": "realistic means, so she turns to Totoro,",
+    "source_text": "the fear. Satsuki can find Mei using realistic means, so she turns to Totoro,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:27.000",
+    "end": "00:09:29.310",
+    "start_seconds": 567.0,
+    "end_seconds": 569.31,
+    "text": "the element from the sho phase. Totoro",
+    "source_text": "realistic means, so she turns to Totoro, the element from the sho phase. Totoro",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:29.320",
+    "end": "00:09:31.990",
+    "start_seconds": 569.32,
+    "end_seconds": 571.99,
+    "text": "summons the cat bus. They find Mei. They",
+    "source_text": "the element from the sho phase. Totoro summons the cat bus. They find Mei. They",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:32.000",
+    "end": "00:09:34.270",
+    "start_seconds": 572.0,
+    "end_seconds": 574.27,
+    "text": "fly to the hospital window. And here's",
+    "source_text": "summons the cat bus. They find Mei. They fly to the hospital window. And here's",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:09:34.280",
+    "end": "00:09:35.086",
+    "start_seconds": 574.28,
+    "end_seconds": 575.086,
+    "text": "the key.",
+    "source_text": "fly to the hospital window. And here's the key.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:35.096",
+    "end": "00:09:35.350",
+    "start_seconds": 575.096,
+    "end_seconds": 575.35,
+    "text": ">> [music]",
+    "source_text": "the key. >> [music]",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:09:35.360",
+    "end": "00:09:37.590",
+    "start_seconds": 575.36,
+    "end_seconds": 577.59,
+    "text": ">> They don't enter. They don't cure the",
+    "source_text": ">> [music] >> They don't enter. They don't cure the",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:09:37.600",
+    "end": "00:09:40.110",
+    "start_seconds": 577.6,
+    "end_seconds": 580.11,
+    "text": "mother. They watch from the tree, see",
+    "source_text": ">> They don't enter. They don't cure the mother. They watch from the tree, see",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:09:40.120",
+    "end": "00:09:42.670",
+    "start_seconds": 580.12,
+    "end_seconds": 582.67,
+    "text": "that she's safe, and leave an ear of",
+    "source_text": "mother. They watch from the tree, see that she's safe, and leave an ear of",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:42.680",
+    "end": "00:09:44.990",
+    "start_seconds": 582.68,
+    "end_seconds": 584.99,
+    "text": "corn on the windowsill. The illness",
+    "source_text": "that she's safe, and leave an ear of corn on the windowsill. The illness",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:09:45.000",
+    "end": "00:09:47.510",
+    "start_seconds": 585.0,
+    "end_seconds": 587.51,
+    "text": "remains. The magic doesn't defeat it.",
+    "source_text": "corn on the windowsill. The illness remains. The magic doesn't defeat it.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:09:47.520",
+    "end": "00:09:49.590",
+    "start_seconds": 587.52,
+    "end_seconds": 589.59,
+    "text": "The magic gives the children the comfort",
+    "source_text": "remains. The magic doesn't defeat it. The magic gives the children the comfort",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:09:49.600",
+    "end": "00:09:52.870",
+    "start_seconds": 589.6,
+    "end_seconds": 592.87,
+    "text": "to endure it. That's reconciliation.",
+    "source_text": "The magic gives the children the comfort to endure it. That's reconciliation.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:09:52.880",
+    "end": "00:09:56.270",
+    "start_seconds": 592.88,
+    "end_seconds": 596.27,
+    "text": "Two worlds coexisting. Life continuing.",
+    "source_text": "to endure it. That's reconciliation. Two worlds coexisting. Life continuing.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:09:56.280",
+    "end": "00:09:58.510",
+    "start_seconds": 596.28,
+    "end_seconds": 598.51,
+    "text": "Changed, but not conquered. And that's",
+    "source_text": "Two worlds coexisting. Life continuing. Changed, but not conquered. And that's",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:09:58.520",
+    "end": "00:10:00.550",
+    "start_seconds": 598.52,
+    "end_seconds": 600.55,
+    "text": "why the film stays with you, because",
+    "source_text": "Changed, but not conquered. And that's why the film stays with you, because",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:00.560",
+    "end": "00:10:03.150",
+    "start_seconds": 600.56,
+    "end_seconds": 603.15,
+    "text": "real life rarely offers clean victories,",
+    "source_text": "why the film stays with you, because real life rarely offers clean victories,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:03.160",
+    "end": "00:10:05.590",
+    "start_seconds": 603.16,
+    "end_seconds": 605.59,
+    "text": "and Kishotenketsu doesn't pretend it",
+    "source_text": "real life rarely offers clean victories, and Kishotenketsu doesn't pretend it",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:05.600",
+    "end": "00:10:08.670",
+    "start_seconds": 605.6,
+    "end_seconds": 608.67,
+    "text": "does. Now, you might be thinking, \"Okay,",
+    "source_text": "and Kishotenketsu doesn't pretend it does. Now, you might be thinking, \"Okay,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:10:08.680",
+    "end": "00:10:11.310",
+    "start_seconds": 608.68,
+    "end_seconds": 611.31,
+    "text": "but that only works for gentle healing",
+    "source_text": "does. Now, you might be thinking, \"Okay, but that only works for gentle healing",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:11.320",
+    "end": "00:10:12.790",
+    "start_seconds": 611.32,
+    "end_seconds": 612.79,
+    "text": "stories.\"",
+    "source_text": "but that only works for gentle healing stories.\"",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:12.800",
+    "end": "00:10:15.550",
+    "start_seconds": 612.8,
+    "end_seconds": 615.55,
+    "text": "Wrong. Let me show you how Bong Joon-ho",
+    "source_text": "stories.\" Wrong. Let me show you how Bong Joon-ho",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:10:15.560",
+    "end": "00:10:18.310",
+    "start_seconds": 615.56,
+    "end_seconds": 618.31,
+    "text": "used the same structure to create one of",
+    "source_text": "Wrong. Let me show you how Bong Joon-ho used the same structure to create one of",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:10:18.320",
+    "end": "00:10:20.590",
+    "start_seconds": 618.32,
+    "end_seconds": 620.59,
+    "text": "the most devastating films of the",
+    "source_text": "used the same structure to create one of the most devastating films of the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:10:20.600",
+    "end": "00:10:22.590",
+    "start_seconds": 620.6,
+    "end_seconds": 622.59,
+    "text": "century.",
+    "source_text": "the most devastating films of the century.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:22.600",
+    "end": "00:10:25.430",
+    "start_seconds": 622.6,
+    "end_seconds": 625.43,
+    "text": "Parasite won the Academy Award for Best",
+    "source_text": "century. Parasite won the Academy Award for Best",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:10:25.440",
+    "end": "00:10:28.270",
+    "start_seconds": 625.44,
+    "end_seconds": 628.27,
+    "text": "Picture. Western critics tried to fit it",
+    "source_text": "Parasite won the Academy Award for Best Picture. Western critics tried to fit it",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:28.280",
+    "end": "00:10:30.670",
+    "start_seconds": 628.28,
+    "end_seconds": 630.67,
+    "text": "into three-act structure.",
+    "source_text": "Picture. Western critics tried to fit it into three-act structure.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:30.680",
+    "end": "00:10:32.350",
+    "start_seconds": 630.68,
+    "end_seconds": 632.35,
+    "text": "The setup, which is the highest,",
+    "source_text": "into three-act structure. The setup, which is the highest,",
+    "caption_overlap_words": 3
+  },
+  {
+    "start": "00:10:32.360",
+    "end": "00:10:34.510",
+    "start_seconds": 632.36,
+    "end_seconds": 634.51,
+    "text": "confrontation, which is keeping secret,",
+    "source_text": "The setup, which is the highest, confrontation, which is keeping secret,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:34.520",
+    "end": "00:10:36.790",
+    "start_seconds": 634.52,
+    "end_seconds": 636.79,
+    "text": "and resolution, which is the violence.",
+    "source_text": "confrontation, which is keeping secret, and resolution, which is the violence.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:10:36.800",
+    "end": "00:10:39.230",
+    "start_seconds": 636.8,
+    "end_seconds": 639.23,
+    "text": "But that analysis misses the structural",
+    "source_text": "and resolution, which is the violence. But that analysis misses the structural",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:39.240",
+    "end": "00:10:42.270",
+    "start_seconds": 639.24,
+    "end_seconds": 642.27,
+    "text": "break that makes the film a masterpiece.",
+    "source_text": "But that analysis misses the structural break that makes the film a masterpiece.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:42.280",
+    "end": "00:10:44.870",
+    "start_seconds": 642.28,
+    "end_seconds": 644.87,
+    "text": "Ki, the semi-basement. The Kim family",
+    "source_text": "break that makes the film a masterpiece. Ki, the semi-basement. The Kim family",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:44.880",
+    "end": "00:10:47.790",
+    "start_seconds": 644.88,
+    "end_seconds": 647.79,
+    "text": "lives in a semi-basement apartment. They",
+    "source_text": "Ki, the semi-basement. The Kim family lives in a semi-basement apartment. They",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:47.800",
+    "end": "00:10:51.110",
+    "start_seconds": 647.8,
+    "end_seconds": 651.11,
+    "text": "fold pizza boxes, steal Wi-Fi, fumigate",
+    "source_text": "lives in a semi-basement apartment. They fold pizza boxes, steal Wi-Fi, fumigate",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:51.120",
+    "end": "00:10:53.230",
+    "start_seconds": 651.12,
+    "end_seconds": 653.23,
+    "text": "for free by leaving the windows open",
+    "source_text": "fold pizza boxes, steal Wi-Fi, fumigate for free by leaving the windows open",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:10:53.240",
+    "end": "00:10:56.030",
+    "start_seconds": 653.24,
+    "end_seconds": 656.03,
+    "text": "during a city pest control. The Ki",
+    "source_text": "for free by leaving the windows open during a city pest control. The Ki",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:56.040",
+    "end": "00:10:59.070",
+    "start_seconds": 656.04,
+    "end_seconds": 659.07,
+    "text": "establishes them not as victims, but as",
+    "source_text": "during a city pest control. The Ki establishes them not as victims, but as",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:10:59.080",
+    "end": "00:11:02.470",
+    "start_seconds": 659.08,
+    "end_seconds": 662.47,
+    "text": "resourceful, morally flexible hustlers.",
+    "source_text": "establishes them not as victims, but as resourceful, morally flexible hustlers.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:11:02.480",
+    "end": "00:11:04.950",
+    "start_seconds": 662.48,
+    "end_seconds": 664.95,
+    "text": "The tone is dark comedy, and crucially,",
+    "source_text": "resourceful, morally flexible hustlers. The tone is dark comedy, and crucially,",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:11:04.960",
+    "end": "00:11:07.270",
+    "start_seconds": 664.96,
+    "end_seconds": 667.27,
+    "text": "a friend gives the son a scholar's",
+    "source_text": "The tone is dark comedy, and crucially, a friend gives the son a scholar's",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:11:07.280",
+    "end": "00:11:10.150",
+    "start_seconds": 667.28,
+    "end_seconds": 670.15,
+    "text": "stone, a symbol of aspirational wealth.",
+    "source_text": "a friend gives the son a scholar's stone, a symbol of aspirational wealth.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:11:10.160",
+    "end": "00:11:12.950",
+    "start_seconds": 670.16,
+    "end_seconds": 672.95,
+    "text": "Sho, the infiltration. The Sho is the",
+    "source_text": "stone, a symbol of aspirational wealth. Sho, the infiltration. The Sho is the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:12.960",
+    "end": "00:11:15.670",
+    "start_seconds": 672.96,
+    "end_seconds": 675.67,
+    "text": "methodical infiltration of the wealthy",
+    "source_text": "Sho, the infiltration. The Sho is the methodical infiltration of the wealthy",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:11:15.680",
+    "end": "00:11:18.790",
+    "start_seconds": 675.68,
+    "end_seconds": 678.79,
+    "text": "Park household. Son gets daughter hired.",
+    "source_text": "methodical infiltration of the wealthy Park household. Son gets daughter hired.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:11:18.800",
+    "end": "00:11:21.550",
+    "start_seconds": 678.8,
+    "end_seconds": 681.55,
+    "text": "Daughter gets father hired. Father gets",
+    "source_text": "Park household. Son gets daughter hired. Daughter gets father hired. Father gets",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:21.560",
+    "end": "00:11:24.070",
+    "start_seconds": 681.56,
+    "end_seconds": 684.07,
+    "text": "mother hired. The Park family doesn't",
+    "source_text": "Daughter gets father hired. Father gets mother hired. The Park family doesn't",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:24.080",
+    "end": "00:11:25.829",
+    "start_seconds": 684.08,
+    "end_seconds": 685.829,
+    "text": "fight back. They're nice because they're",
+    "source_text": "mother hired. The Park family doesn't fight back. They're nice because they're",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:25.839",
+    "end": "00:11:28.150",
+    "start_seconds": 685.8389999999999,
+    "end_seconds": 688.15,
+    "text": "rich. The tension isn't from conflict,",
+    "source_text": "fight back. They're nice because they're rich. The tension isn't from conflict,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:28.160",
+    "end": "00:11:30.710",
+    "start_seconds": 688.16,
+    "end_seconds": 690.71,
+    "text": "it's from contrast. The Kims' desperate",
+    "source_text": "rich. The tension isn't from conflict, it's from contrast. The Kims' desperate",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:30.720",
+    "end": "00:11:32.670",
+    "start_seconds": 690.72,
+    "end_seconds": 692.67,
+    "text": "reality hidden beneath their polished",
+    "source_text": "it's from contrast. The Kims' desperate reality hidden beneath their polished",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:32.680",
+    "end": "00:11:33.950",
+    "start_seconds": 692.68,
+    "end_seconds": 693.95,
+    "text": "performance.",
+    "source_text": "reality hidden beneath their polished performance.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:11:33.960",
+    "end": "00:11:36.590",
+    "start_seconds": 693.96,
+    "end_seconds": 696.59,
+    "text": "Two families sharing the same space,",
+    "source_text": "performance. Two families sharing the same space,",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:11:36.600",
+    "end": "00:11:39.710",
+    "start_seconds": 696.6,
+    "end_seconds": 699.71,
+    "text": "separated only by smell and secrets. The",
+    "source_text": "Two families sharing the same space, separated only by smell and secrets. The",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:39.720",
+    "end": "00:11:42.950",
+    "start_seconds": 699.72,
+    "end_seconds": 702.95,
+    "text": "conflict is dormant. The contrast, it's",
+    "source_text": "separated only by smell and secrets. The conflict is dormant. The contrast, it's",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:11:42.960",
+    "end": "00:11:45.990",
+    "start_seconds": 702.96,
+    "end_seconds": 705.99,
+    "text": "screaming. Ten, the doorbell. The Ten",
+    "source_text": "conflict is dormant. The contrast, it's screaming. Ten, the doorbell. The Ten",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:46.000",
+    "end": "00:11:48.310",
+    "start_seconds": 706.0,
+    "end_seconds": 708.31,
+    "text": "happens exactly when the infiltration is",
+    "source_text": "screaming. Ten, the doorbell. The Ten happens exactly when the infiltration is",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:48.320",
+    "end": "00:11:50.910",
+    "start_seconds": 708.32,
+    "end_seconds": 710.91,
+    "text": "complete. The Kims are celebrating in",
+    "source_text": "happens exactly when the infiltration is complete. The Kims are celebrating in",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:50.920",
+    "end": "00:11:54.590",
+    "start_seconds": 710.92,
+    "end_seconds": 714.59,
+    "text": "the Parks' living room, and then",
+    "source_text": "complete. The Kims are celebrating in the Parks' living room, and then",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:54.600",
+    "end": "00:11:56.550",
+    "start_seconds": 714.6,
+    "end_seconds": 716.55,
+    "text": "the [music] doorbell rings. The former",
+    "source_text": "the Parks' living room, and then the [music] doorbell rings. The former",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:56.560",
+    "end": "00:11:58.990",
+    "start_seconds": 716.56,
+    "end_seconds": 718.99,
+    "text": "housekeeper, Moon-gwang, reveals a",
+    "source_text": "the [music] doorbell rings. The former housekeeper, Moon-gwang, reveals a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:11:59.000",
+    "end": "00:12:01.470",
+    "start_seconds": 719.0,
+    "end_seconds": 721.47,
+    "text": "secret bunker in the basement. Her",
+    "source_text": "housekeeper, Moon-gwang, reveals a secret bunker in the basement. Her",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:12:01.480",
+    "end": "00:12:04.390",
+    "start_seconds": 721.48,
+    "end_seconds": 724.39,
+    "text": "husband has been living there for years,",
+    "source_text": "secret bunker in the basement. Her husband has been living there for years,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:04.400",
+    "end": "00:12:07.190",
+    "start_seconds": 724.4,
+    "end_seconds": 727.19,
+    "text": "hiding from loan sharks. This isn't an",
+    "source_text": "husband has been living there for years, hiding from loan sharks. This isn't an",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:07.200",
+    "end": "00:12:09.790",
+    "start_seconds": 727.2,
+    "end_seconds": 729.79,
+    "text": "escalation of the Kims versus Parks",
+    "source_text": "hiding from loan sharks. This isn't an escalation of the Kims versus Parks",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:09.800",
+    "end": "00:12:12.350",
+    "start_seconds": 729.8,
+    "end_seconds": 732.35,
+    "text": "conflict. It's the introduction of a",
+    "source_text": "escalation of the Kims versus Parks conflict. It's the introduction of a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:12.360",
+    "end": "00:12:15.390",
+    "start_seconds": 732.36,
+    "end_seconds": 735.39,
+    "text": "completely new axis. The story is no",
+    "source_text": "conflict. It's the introduction of a completely new axis. The story is no",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:15.400",
+    "end": "00:12:18.190",
+    "start_seconds": 735.4,
+    "end_seconds": 738.19,
+    "text": "longer poor versus rich, it's poor",
+    "source_text": "completely new axis. The story is no longer poor versus rich, it's poor",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:18.200",
+    "end": "00:12:21.310",
+    "start_seconds": 738.2,
+    "end_seconds": 741.31,
+    "text": "versus poor. The genre shifts instantly",
+    "source_text": "longer poor versus rich, it's poor versus poor. The genre shifts instantly",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:21.320",
+    "end": "00:12:24.190",
+    "start_seconds": 741.32,
+    "end_seconds": 744.19,
+    "text": "from heist comedy to gothic horror, and",
+    "source_text": "versus poor. The genre shifts instantly from heist comedy to gothic horror, and",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:24.200",
+    "end": "00:12:26.190",
+    "start_seconds": 744.2,
+    "end_seconds": 746.19,
+    "text": "the villain is revealed to be the",
+    "source_text": "from heist comedy to gothic horror, and the villain is revealed to be the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:26.200",
+    "end": "00:12:29.270",
+    "start_seconds": 746.2,
+    "end_seconds": 749.27,
+    "text": "structure itself. Capitalism forcing two",
+    "source_text": "the villain is revealed to be the structure itself. Capitalism forcing two",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:29.280",
+    "end": "00:12:31.283",
+    "start_seconds": 749.28,
+    "end_seconds": 751.283,
+    "text": "desperate families to fight to the",
+    "source_text": "structure itself. Capitalism forcing two desperate families to fight to the",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:12:31.293",
+    "end": "00:12:31.350",
+    "start_seconds": 751.293,
+    "end_seconds": 751.35,
+    "text": ">> [music]",
+    "source_text": "desperate families to fight to the >> [music]",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:31.360",
+    "end": "00:12:34.630",
+    "start_seconds": 751.36,
+    "end_seconds": 754.63,
+    "text": ">> death over scraps, while the rich hosts",
+    "source_text": ">> [music] >> death over scraps, while the rich hosts",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:12:34.640",
+    "end": "00:12:38.070",
+    "start_seconds": 754.64,
+    "end_seconds": 758.07,
+    "text": "remain oblivious upstairs. The climax",
+    "source_text": ">> death over scraps, while the rich hosts remain oblivious upstairs. The climax",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:12:38.080",
+    "end": "00:12:39.950",
+    "start_seconds": 758.08,
+    "end_seconds": 759.95,
+    "text": "brings the semi-basement, which is the",
+    "source_text": "remain oblivious upstairs. The climax brings the semi-basement, which is the",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:12:39.960",
+    "end": "00:12:43.110",
+    "start_seconds": 759.96,
+    "end_seconds": 763.11,
+    "text": "Ki, and the bunker, the Ten, together.",
+    "source_text": "brings the semi-basement, which is the Ki, and the bunker, the Ten, together.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:12:43.120",
+    "end": "00:12:45.310",
+    "start_seconds": 763.12,
+    "end_seconds": 765.31,
+    "text": "The smell motive triggers Mr. Kim to",
+    "source_text": "Ki, and the bunker, the Ten, together. The smell motive triggers Mr. Kim to",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:45.320",
+    "end": "00:12:48.350",
+    "start_seconds": 765.32,
+    "end_seconds": 768.35,
+    "text": "kill Mr. Park, and in the aftermath, Mr.",
+    "source_text": "The smell motive triggers Mr. Kim to kill Mr. Park, and in the aftermath, Mr.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:48.360",
+    "end": "00:12:50.070",
+    "start_seconds": 768.36,
+    "end_seconds": 770.07,
+    "text": "Kim disappears.",
+    "source_text": "kill Mr. Park, and in the aftermath, Mr. Kim disappears.",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:12:50.080",
+    "end": "00:12:52.150",
+    "start_seconds": 770.08,
+    "end_seconds": 772.15,
+    "text": "The reconciliation reveals he's now",
+    "source_text": "Kim disappears. The reconciliation reveals he's now",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:12:52.160",
+    "end": "00:12:54.990",
+    "start_seconds": 772.16,
+    "end_seconds": 774.99,
+    "text": "living in the bunker. The film ends with",
+    "source_text": "The reconciliation reveals he's now living in the bunker. The film ends with",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:12:55.000",
+    "end": "00:12:57.510",
+    "start_seconds": 775.0,
+    "end_seconds": 777.51,
+    "text": "the son writing a letter, promising to",
+    "source_text": "living in the bunker. The film ends with the son writing a letter, promising to",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:12:57.520",
+    "end": "00:12:59.870",
+    "start_seconds": 777.52,
+    "end_seconds": 779.87,
+    "text": "buy the house one day to free his",
+    "source_text": "the son writing a letter, promising to buy the house one day to free his",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:12:59.880",
+    "end": "00:13:02.790",
+    "start_seconds": 779.88,
+    "end_seconds": 782.79,
+    "text": "father. The scholar's stone from the Ki",
+    "source_text": "buy the house one day to free his father. The scholar's stone from the Ki",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:13:02.800",
+    "end": "00:13:05.110",
+    "start_seconds": 782.8,
+    "end_seconds": 785.11,
+    "text": "returns. The cycle of aspiration",
+    "source_text": "father. The scholar's stone from the Ki returns. The cycle of aspiration",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:13:05.120",
+    "end": "00:13:07.670",
+    "start_seconds": 785.12,
+    "end_seconds": 787.67,
+    "text": "continues. A Western ending might have",
+    "source_text": "returns. The cycle of aspiration continues. A Western ending might have",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:13:07.680",
+    "end": "00:13:10.270",
+    "start_seconds": 787.68,
+    "end_seconds": 790.27,
+    "text": "had them escape or go to jail.",
+    "source_text": "continues. A Western ending might have had them escape or go to jail.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:10.280",
+    "end": "00:13:12.230",
+    "start_seconds": 790.28,
+    "end_seconds": 792.23,
+    "text": "Kishotenketsu traps them in the",
+    "source_text": "had them escape or go to jail. Kishotenketsu traps them in the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:13:12.240",
+    "end": "00:13:14.750",
+    "start_seconds": 792.24,
+    "end_seconds": 794.75,
+    "text": "structure, the literal architecture of",
+    "source_text": "Kishotenketsu traps them in the structure, the literal architecture of",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:13:14.760",
+    "end": "00:13:16.950",
+    "start_seconds": 794.76,
+    "end_seconds": 796.95,
+    "text": "the house, and the metaphorical",
+    "source_text": "structure, the literal architecture of the house, and the metaphorical",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:13:16.960",
+    "end": "00:13:19.750",
+    "start_seconds": 796.96,
+    "end_seconds": 799.75,
+    "text": "architecture of class. Mr. Kim has",
+    "source_text": "the house, and the metaphorical architecture of class. Mr. Kim has",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:13:19.760",
+    "end": "00:13:22.550",
+    "start_seconds": 799.76,
+    "end_seconds": 802.55,
+    "text": "become the ghost. The reconciliation is",
+    "source_text": "architecture of class. Mr. Kim has become the ghost. The reconciliation is",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:22.560",
+    "end": "00:13:25.390",
+    "start_seconds": 802.56,
+    "end_seconds": 805.39,
+    "text": "tragic. Poverty is maintained.",
+    "source_text": "become the ghost. The reconciliation is tragic. Poverty is maintained.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:25.400",
+    "end": "00:13:29.070",
+    "start_seconds": 805.4,
+    "end_seconds": 809.07,
+    "text": "The dream persists, unreachable.",
+    "source_text": "tragic. Poverty is maintained. The dream persists, unreachable.",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:13:29.080",
+    "end": "00:13:31.550",
+    "start_seconds": 809.08,
+    "end_seconds": 811.55,
+    "text": "Same structure as Totoro, opposite",
+    "source_text": "The dream persists, unreachable. Same structure as Totoro, opposite",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:13:31.560",
+    "end": "00:13:34.470",
+    "start_seconds": 811.56,
+    "end_seconds": 814.47,
+    "text": "emotional outcome. That's the power of",
+    "source_text": "Same structure as Totoro, opposite emotional outcome. That's the power of",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:13:34.480",
+    "end": "00:13:36.470",
+    "start_seconds": 814.48,
+    "end_seconds": 816.47,
+    "text": "Kishotenketsu.",
+    "source_text": "emotional outcome. That's the power of Kishotenketsu.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:36.480",
+    "end": "00:13:38.990",
+    "start_seconds": 816.48,
+    "end_seconds": 818.99,
+    "text": "All right, theory is beautiful, but",
+    "source_text": "Kishotenketsu. All right, theory is beautiful, but",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:13:39.000",
+    "end": "00:13:41.030",
+    "start_seconds": 819.0,
+    "end_seconds": 821.03,
+    "text": "you're here to write books. Let me give",
+    "source_text": "All right, theory is beautiful, but you're here to write books. Let me give",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:41.040",
+    "end": "00:13:43.470",
+    "start_seconds": 821.04,
+    "end_seconds": 823.47,
+    "text": "you four concrete techniques you can use",
+    "source_text": "you're here to write books. Let me give you four concrete techniques you can use",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:13:43.480",
+    "end": "00:13:45.990",
+    "start_seconds": 823.48,
+    "end_seconds": 825.99,
+    "text": "today. Technique one is replace the",
+    "source_text": "you four concrete techniques you can use today. Technique one is replace the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:13:46.000",
+    "end": "00:13:48.550",
+    "start_seconds": 826.0,
+    "end_seconds": 828.55,
+    "text": "villain with the variable. Instead of an",
+    "source_text": "today. Technique one is replace the villain with the variable. Instead of an",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:48.560",
+    "end": "00:13:50.590",
+    "start_seconds": 828.56,
+    "end_seconds": 830.59,
+    "text": "antagonist who wants to stop your",
+    "source_text": "villain with the variable. Instead of an antagonist who wants to stop your",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:13:50.600",
+    "end": "00:13:53.670",
+    "start_seconds": 830.6,
+    "end_seconds": 833.67,
+    "text": "protagonist, introduce a variable,",
+    "source_text": "antagonist who wants to stop your protagonist, introduce a variable,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:13:53.680",
+    "end": "00:13:56.550",
+    "start_seconds": 833.68,
+    "end_seconds": 836.55,
+    "text": "something that forces adaptation without",
+    "source_text": "protagonist, introduce a variable, something that forces adaptation without",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:13:56.560",
+    "end": "00:13:59.230",
+    "start_seconds": 836.56,
+    "end_seconds": 839.23,
+    "text": "malice. Think of weather, a new arrival",
+    "source_text": "something that forces adaptation without malice. Think of weather, a new arrival",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:13:59.240",
+    "end": "00:14:01.750",
+    "start_seconds": 839.24,
+    "end_seconds": 841.75,
+    "text": "in town, a change in health, a letter",
+    "source_text": "malice. Think of weather, a new arrival in town, a change in health, a letter",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:01.760",
+    "end": "00:14:04.710",
+    "start_seconds": 841.76,
+    "end_seconds": 844.71,
+    "text": "from the past, or an economic shift. In",
+    "source_text": "in town, a change in health, a letter from the past, or an economic shift. In",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:14:04.720",
+    "end": "00:14:07.550",
+    "start_seconds": 844.72,
+    "end_seconds": 847.55,
+    "text": "Totoro, the variable is the mother's",
+    "source_text": "from the past, or an economic shift. In Totoro, the variable is the mother's",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:14:07.560",
+    "end": "00:14:10.430",
+    "start_seconds": 847.56,
+    "end_seconds": 850.43,
+    "text": "illness. In Parasite, the variable is",
+    "source_text": "Totoro, the variable is the mother's illness. In Parasite, the variable is",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:10.440",
+    "end": "00:14:12.630",
+    "start_seconds": 850.44,
+    "end_seconds": 852.63,
+    "text": "Moon-gwang's return. Neither is a",
+    "source_text": "illness. In Parasite, the variable is Moon-gwang's return. Neither is a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:12.640",
+    "end": "00:14:14.949",
+    "start_seconds": 852.64,
+    "end_seconds": 854.949,
+    "text": "villain. Both recontextualize",
+    "source_text": "Moon-gwang's return. Neither is a villain. Both recontextualize",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:14:14.959",
+    "end": "00:14:17.510",
+    "start_seconds": 854.959,
+    "end_seconds": 857.51,
+    "text": "everything. One example could be is that",
+    "source_text": "villain. Both recontextualize everything. One example could be is that",
+    "caption_overlap_words": 3
+  },
+  {
+    "start": "00:14:17.520",
+    "end": "00:14:20.310",
+    "start_seconds": 857.52,
+    "end_seconds": 860.31,
+    "text": "your cozy bookshop story doesn't need a",
+    "source_text": "everything. One example could be is that your cozy bookshop story doesn't need a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:20.320",
+    "end": "00:14:22.790",
+    "start_seconds": 860.32,
+    "end_seconds": 862.79,
+    "text": "developer trying to buy the building.",
+    "source_text": "your cozy bookshop story doesn't need a developer trying to buy the building.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:22.800",
+    "end": "00:14:25.190",
+    "start_seconds": 862.8,
+    "end_seconds": 865.19,
+    "text": "The variable could be the protagonist",
+    "source_text": "developer trying to buy the building. The variable could be the protagonist",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:25.200",
+    "end": "00:14:27.110",
+    "start_seconds": 865.2,
+    "end_seconds": 867.11,
+    "text": "discovering their late grandmother's",
+    "source_text": "The variable could be the protagonist discovering their late grandmother's",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:27.120",
+    "end": "00:14:29.870",
+    "start_seconds": 867.12,
+    "end_seconds": 869.87,
+    "text": "secret correspondence hidden in the",
+    "source_text": "discovering their late grandmother's secret correspondence hidden in the",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:14:29.880",
+    "end": "00:14:32.310",
+    "start_seconds": 869.88,
+    "end_seconds": 872.31,
+    "text": "walls, letters that reframe everything",
+    "source_text": "secret correspondence hidden in the walls, letters that reframe everything",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:14:32.320",
+    "end": "00:14:34.510",
+    "start_seconds": 872.32,
+    "end_seconds": 874.51,
+    "text": "they thought they knew about her.",
+    "source_text": "walls, letters that reframe everything they thought they knew about her.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:14:34.520",
+    "end": "00:14:37.390",
+    "start_seconds": 874.52,
+    "end_seconds": 877.39,
+    "text": "Technique number two is treat process as",
+    "source_text": "they thought they knew about her. Technique number two is treat process as",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:37.400",
+    "end": "00:14:40.870",
+    "start_seconds": 877.4,
+    "end_seconds": 880.87,
+    "text": "plot. In your Sho phase, give sensory",
+    "source_text": "Technique number two is treat process as plot. In your Sho phase, give sensory",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:40.880",
+    "end": "00:14:43.390",
+    "start_seconds": 880.88,
+    "end_seconds": 883.39,
+    "text": "detail the same structural weight you'd",
+    "source_text": "plot. In your Sho phase, give sensory detail the same structural weight you'd",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:43.400",
+    "end": "00:14:46.350",
+    "start_seconds": 883.4,
+    "end_seconds": 886.35,
+    "text": "give a fight scene. If your character is",
+    "source_text": "detail the same structural weight you'd give a fight scene. If your character is",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:46.360",
+    "end": "00:14:49.390",
+    "start_seconds": 886.36,
+    "end_seconds": 889.39,
+    "text": "a baker, don't summarize, \"She spent the",
+    "source_text": "give a fight scene. If your character is a baker, don't summarize, \"She spent the",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:14:49.400",
+    "end": "00:14:52.190",
+    "start_seconds": 889.4,
+    "end_seconds": 892.19,
+    "text": "morning baking.\" Show the flour dusting",
+    "source_text": "a baker, don't summarize, \"She spent the morning baking.\" Show the flour dusting",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:52.200",
+    "end": "00:14:54.829",
+    "start_seconds": 892.2,
+    "end_seconds": 894.829,
+    "text": "her forearms, the way she tests dough",
+    "source_text": "morning baking.\" Show the flour dusting her forearms, the way she tests dough",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:14:54.839",
+    "end": "00:14:57.230",
+    "start_seconds": 894.8389999999999,
+    "end_seconds": 897.23,
+    "text": "with her knuckle, the specific smell of",
+    "source_text": "her forearms, the way she tests dough with her knuckle, the specific smell of",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:14:57.240",
+    "end": "00:15:00.870",
+    "start_seconds": 897.24,
+    "end_seconds": 900.87,
+    "text": "yeast activating. This isn't filler,",
+    "source_text": "with her knuckle, the specific smell of yeast activating. This isn't filler,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:15:00.880",
+    "end": "00:15:03.390",
+    "start_seconds": 900.88,
+    "end_seconds": 903.39,
+    "text": "this is where your reader falls in love.",
+    "source_text": "yeast activating. This isn't filler, this is where your reader falls in love.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:15:03.400",
+    "end": "00:15:05.870",
+    "start_seconds": 903.4,
+    "end_seconds": 905.87,
+    "text": "Here's an example. The manga, The",
+    "source_text": "this is where your reader falls in love. Here's an example. The manga, The",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:15:05.880",
+    "end": "00:15:08.430",
+    "start_seconds": 905.88,
+    "end_seconds": 908.43,
+    "text": "Walking Man, is literally about a man",
+    "source_text": "Here's an example. The manga, The Walking Man, is literally about a man",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:08.440",
+    "end": "00:15:10.390",
+    "start_seconds": 908.44,
+    "end_seconds": 910.39,
+    "text": "walking through his neighborhood. He",
+    "source_text": "Walking Man, is literally about a man walking through his neighborhood. He",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:15:10.400",
+    "end": "00:15:12.990",
+    "start_seconds": 910.4,
+    "end_seconds": 912.99,
+    "text": "pets a dog. He climbs a tree to retrieve",
+    "source_text": "walking through his neighborhood. He pets a dog. He climbs a tree to retrieve",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:15:13.000",
+    "end": "00:15:15.829",
+    "start_seconds": 913.0,
+    "end_seconds": 915.829,
+    "text": "a toy plane. There's no conflict. The",
+    "source_text": "pets a dog. He climbs a tree to retrieve a toy plane. There's no conflict. The",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:15:15.839",
+    "end": "00:15:17.790",
+    "start_seconds": 915.839,
+    "end_seconds": 917.79,
+    "text": "engagement comes from detailed",
+    "source_text": "a toy plane. There's no conflict. The engagement comes from detailed",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:15:17.800",
+    "end": "00:15:20.470",
+    "start_seconds": 917.8,
+    "end_seconds": 920.47,
+    "text": "observation of life. It validates the",
+    "source_text": "engagement comes from detailed observation of life. It validates the",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:15:20.480",
+    "end": "00:15:22.990",
+    "start_seconds": 920.48,
+    "end_seconds": 922.99,
+    "text": "reader's own mundane experiences.",
+    "source_text": "observation of life. It validates the reader's own mundane experiences.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:23.000",
+    "end": "00:15:25.630",
+    "start_seconds": 923.0,
+    "end_seconds": 925.63,
+    "text": "Technique number three, make your twist",
+    "source_text": "reader's own mundane experiences. Technique number three, make your twist",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:15:25.640",
+    "end": "00:15:28.750",
+    "start_seconds": 925.64,
+    "end_seconds": 928.75,
+    "text": "a perspective shift. Your Ten doesn't",
+    "source_text": "Technique number three, make your twist a perspective shift. Your Ten doesn't",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:28.760",
+    "end": "00:15:30.590",
+    "start_seconds": 928.76,
+    "end_seconds": 930.59,
+    "text": "need explosions, it needs",
+    "source_text": "a perspective shift. Your Ten doesn't need explosions, it needs",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:30.600",
+    "end": "00:15:32.510",
+    "start_seconds": 930.6,
+    "end_seconds": 932.51,
+    "text": "recontextualization.",
+    "source_text": "need explosions, it needs recontextualization.",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:15:32.520",
+    "end": "00:15:34.510",
+    "start_seconds": 932.52,
+    "end_seconds": 934.51,
+    "text": "Jump to a different character's POV.",
+    "source_text": "recontextualization. Jump to a different character's POV.",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:15:34.520",
+    "end": "00:15:36.310",
+    "start_seconds": 934.52,
+    "end_seconds": 936.31,
+    "text": "Leap forward in time. Introduce",
+    "source_text": "Jump to a different character's POV. Leap forward in time. Introduce",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:36.320",
+    "end": "00:15:38.350",
+    "start_seconds": 936.32,
+    "end_seconds": 938.35,
+    "text": "information that changes the meaning of",
+    "source_text": "Leap forward in time. Introduce information that changes the meaning of",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:15:38.360",
+    "end": "00:15:41.310",
+    "start_seconds": 938.36,
+    "end_seconds": 941.31,
+    "text": "what came before. One example could be",
+    "source_text": "information that changes the meaning of what came before. One example could be",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:41.320",
+    "end": "00:15:43.069",
+    "start_seconds": 941.32,
+    "end_seconds": 943.069,
+    "text": "is that midway through your",
+    "source_text": "what came before. One example could be is that midway through your",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:15:43.079",
+    "end": "00:15:45.710",
+    "start_seconds": 943.079,
+    "end_seconds": 945.71,
+    "text": "slice-of-life novel about a retired",
+    "source_text": "is that midway through your slice-of-life novel about a retired",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:15:45.720",
+    "end": "00:15:48.030",
+    "start_seconds": 945.72,
+    "end_seconds": 948.03,
+    "text": "teacher tending to her garden, shift",
+    "source_text": "slice-of-life novel about a retired teacher tending to her garden, shift",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:15:48.040",
+    "end": "00:15:50.870",
+    "start_seconds": 948.04,
+    "end_seconds": 950.87,
+    "text": "perspective to her estranged daughter,",
+    "source_text": "teacher tending to her garden, shift perspective to her estranged daughter,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:15:50.880",
+    "end": "00:15:53.230",
+    "start_seconds": 950.88,
+    "end_seconds": 953.23,
+    "text": "and reveal that the flowers the mother",
+    "source_text": "perspective to her estranged daughter, and reveal that the flowers the mother",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:15:53.240",
+    "end": "00:15:55.510",
+    "start_seconds": 953.24,
+    "end_seconds": 955.51,
+    "text": "is planting are the same ones from a",
+    "source_text": "and reveal that the flowers the mother is planting are the same ones from a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:15:55.520",
+    "end": "00:15:57.870",
+    "start_seconds": 955.52,
+    "end_seconds": 957.87,
+    "text": "childhood memory the daughter has been",
+    "source_text": "is planting are the same ones from a childhood memory the daughter has been",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:15:57.880",
+    "end": "00:16:00.110",
+    "start_seconds": 957.88,
+    "end_seconds": 960.11,
+    "text": "trying to forget. Same garden,",
+    "source_text": "childhood memory the daughter has been trying to forget. Same garden,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:00.120",
+    "end": "00:16:02.270",
+    "start_seconds": 960.12,
+    "end_seconds": 962.27,
+    "text": "completely different meaning. Technique",
+    "source_text": "trying to forget. Same garden, completely different meaning. Technique",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:16:02.280",
+    "end": "00:16:05.150",
+    "start_seconds": 962.28,
+    "end_seconds": 965.15,
+    "text": "number four is end with integration, not",
+    "source_text": "completely different meaning. Technique number four is end with integration, not",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:16:05.160",
+    "end": "00:16:06.350",
+    "start_seconds": 965.16,
+    "end_seconds": 966.35,
+    "text": "victory.",
+    "source_text": "number four is end with integration, not victory.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:16:06.360",
+    "end": "00:16:08.630",
+    "start_seconds": 966.36,
+    "end_seconds": 968.63,
+    "text": "Your Ketsu isn't about winning, it's",
+    "source_text": "victory. Your Ketsu isn't about winning, it's",
+    "caption_overlap_words": 1
+  },
+  {
+    "start": "00:16:08.640",
+    "end": "00:16:11.990",
+    "start_seconds": 968.64,
+    "end_seconds": 971.99,
+    "text": "about coexisting. If your Ten introduced",
+    "source_text": "Your Ketsu isn't about winning, it's about coexisting. If your Ten introduced",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:12.000",
+    "end": "00:16:14.590",
+    "start_seconds": 972.0,
+    "end_seconds": 974.59,
+    "text": "a ghost, your Ketsu doesn't demand an",
+    "source_text": "about coexisting. If your Ten introduced a ghost, your Ketsu doesn't demand an",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:14.600",
+    "end": "00:16:17.430",
+    "start_seconds": 974.6,
+    "end_seconds": 977.43,
+    "text": "exorcism. It might mean learning to live",
+    "source_text": "a ghost, your Ketsu doesn't demand an exorcism. It might mean learning to live",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:16:17.440",
+    "end": "00:16:19.790",
+    "start_seconds": 977.44,
+    "end_seconds": 979.79,
+    "text": "with the ghost. If your Ten introduced a",
+    "source_text": "exorcism. It might mean learning to live with the ghost. If your Ten introduced a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:16:19.800",
+    "end": "00:16:21.870",
+    "start_seconds": 979.8,
+    "end_seconds": 981.87,
+    "text": "painful memory, your Ketsu might mean",
+    "source_text": "with the ghost. If your Ten introduced a painful memory, your Ketsu might mean",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:16:21.880",
+    "end": "00:16:24.590",
+    "start_seconds": 981.88,
+    "end_seconds": 984.59,
+    "text": "carrying that memory forward with new",
+    "source_text": "painful memory, your Ketsu might mean carrying that memory forward with new",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:24.600",
+    "end": "00:16:27.550",
+    "start_seconds": 984.6,
+    "end_seconds": 987.55,
+    "text": "understanding. Allow ambiguity. Life",
+    "source_text": "carrying that memory forward with new understanding. Allow ambiguity. Life",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:27.560",
+    "end": "00:16:30.470",
+    "start_seconds": 987.56,
+    "end_seconds": 990.47,
+    "text": "goes on, but changed. One example? Well,",
+    "source_text": "understanding. Allow ambiguity. Life goes on, but changed. One example? Well,",
+    "caption_overlap_words": 4
+  },
+  {
+    "start": "00:16:30.480",
+    "end": "00:16:32.590",
+    "start_seconds": 990.48,
+    "end_seconds": 992.59,
+    "text": "let's revisit Ghibli. In Totoro, the",
+    "source_text": "goes on, but changed. One example? Well, let's revisit Ghibli. In Totoro, the",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:16:32.600",
+    "end": "00:16:34.990",
+    "start_seconds": 992.6,
+    "end_seconds": 994.99,
+    "text": "mother isn't cured. The corn on the",
+    "source_text": "let's revisit Ghibli. In Totoro, the mother isn't cured. The corn on the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:35.000",
+    "end": "00:16:38.230",
+    "start_seconds": 995.0,
+    "end_seconds": 998.23,
+    "text": "windowsill is a symbol of hope, not a",
+    "source_text": "mother isn't cured. The corn on the windowsill is a symbol of hope, not a",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:16:38.240",
+    "end": "00:16:40.550",
+    "start_seconds": 998.24,
+    "end_seconds": 1000.55,
+    "text": "solution. The illness remains. Life",
+    "source_text": "windowsill is a symbol of hope, not a solution. The illness remains. Life",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:16:40.560",
+    "end": "00:16:43.949",
+    "start_seconds": 1000.56,
+    "end_seconds": 1003.949,
+    "text": "continues. That unresolved element is",
+    "source_text": "solution. The illness remains. Life continues. That unresolved element is",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:16:43.959",
+    "end": "00:16:46.310",
+    "start_seconds": 1003.9590000000001,
+    "end_seconds": 1006.31,
+    "text": "what makes the story linger, because",
+    "source_text": "continues. That unresolved element is what makes the story linger, because",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:16:46.320",
+    "end": "00:16:49.356",
+    "start_seconds": 1006.32,
+    "end_seconds": 1009.356,
+    "text": "real life rarely offers clean victories.",
+    "source_text": "what makes the story linger, because real life rarely offers clean victories.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:49.366",
+    "end": "00:16:51.550",
+    "start_seconds": 1009.366,
+    "end_seconds": 1011.55,
+    "text": "[music] Here's a quick reference.",
+    "source_text": "real life rarely offers clean victories. [music] Here's a quick reference.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:16:51.560",
+    "end": "00:16:54.150",
+    "start_seconds": 1011.56,
+    "end_seconds": 1014.15,
+    "text": "Instead of a villain blocking the goal,",
+    "source_text": "[music] Here's a quick reference. Instead of a villain blocking the goal,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:16:54.160",
+    "end": "00:16:57.216",
+    "start_seconds": 1014.16,
+    "end_seconds": 1017.216,
+    "text": "try a variable forcing adaptation.",
+    "source_text": "Instead of a villain blocking the goal, try a variable forcing adaptation.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:16:57.226",
+    "end": "00:16:57.310",
+    "start_seconds": 1017.226,
+    "end_seconds": 1017.31,
+    "text": ">> [music]",
+    "source_text": "try a variable forcing adaptation. >> [music]",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:16:57.320",
+    "end": "00:16:59.550",
+    "start_seconds": 1017.32,
+    "end_seconds": 1019.55,
+    "text": ">> Instead of raising stakes at the",
+    "source_text": ">> [music] >> Instead of raising stakes at the",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:16:59.560",
+    "end": "00:17:02.430",
+    "start_seconds": 1019.56,
+    "end_seconds": 1022.43,
+    "text": "midpoint, try shifting context or",
+    "source_text": ">> Instead of raising stakes at the midpoint, try shifting context or",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:17:02.440",
+    "end": "00:17:04.910",
+    "start_seconds": 1022.44,
+    "end_seconds": 1024.91,
+    "text": "perspective. Instead of a climactic",
+    "source_text": "midpoint, try shifting context or perspective. Instead of a climactic",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:04.920",
+    "end": "00:17:08.310",
+    "start_seconds": 1024.92,
+    "end_seconds": 1028.31,
+    "text": "battle, try an emotional realization.",
+    "source_text": "perspective. Instead of a climactic battle, try an emotional realization.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:08.320",
+    "end": "00:17:10.971",
+    "start_seconds": 1028.32,
+    "end_seconds": 1030.971,
+    "text": "Instead of victory or defeat ending,",
+    "source_text": "battle, try an emotional realization. Instead of victory or defeat ending,",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:10.981",
+    "end": "00:17:11.069",
+    "start_seconds": 1030.981,
+    "end_seconds": 1031.069,
+    "text": ">> [music]",
+    "source_text": "Instead of victory or defeat ending, >> [music]",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:11.079",
+    "end": "00:17:15.069",
+    "start_seconds": 1031.079,
+    "end_seconds": 1035.069,
+    "text": ">> try integration. Life goes on, changed.",
+    "source_text": ">> [music] >> try integration. Life goes on, changed.",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:17:15.079",
+    "end": "00:17:18.030",
+    "start_seconds": 1035.079,
+    "end_seconds": 1038.03,
+    "text": "Instead of summarizing the stole parts,",
+    "source_text": ">> try integration. Life goes on, changed. Instead of summarizing the stole parts,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:17:18.040",
+    "end": "00:17:21.350",
+    "start_seconds": 1038.04,
+    "end_seconds": 1041.35,
+    "text": "try giving sensory process the page time",
+    "source_text": "Instead of summarizing the stole parts, try giving sensory process the page time",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:21.360",
+    "end": "00:17:23.350",
+    "start_seconds": 1041.36,
+    "end_seconds": 1043.35,
+    "text": "it deserves.",
+    "source_text": "try giving sensory process the page time it deserves.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:17:23.360",
+    "end": "00:17:26.270",
+    "start_seconds": 1043.36,
+    "end_seconds": 1046.27,
+    "text": "Look, the three-act structure isn't",
+    "source_text": "it deserves. Look, the three-act structure isn't",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:17:26.280",
+    "end": "00:17:29.510",
+    "start_seconds": 1046.28,
+    "end_seconds": 1049.51,
+    "text": "wrong. The hero's journey isn't broken.",
+    "source_text": "Look, the three-act structure isn't wrong. The hero's journey isn't broken.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:29.520",
+    "end": "00:17:31.870",
+    "start_seconds": 1049.52,
+    "end_seconds": 1051.87,
+    "text": "They've produced masterpieces for a",
+    "source_text": "wrong. The hero's journey isn't broken. They've produced masterpieces for a",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:31.880",
+    "end": "00:17:34.790",
+    "start_seconds": 1051.88,
+    "end_seconds": 1054.79,
+    "text": "century, and they'll produce more.",
+    "source_text": "They've produced masterpieces for a century, and they'll produce more.",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:34.800",
+    "end": "00:17:36.990",
+    "start_seconds": 1054.8,
+    "end_seconds": 1056.99,
+    "text": "But they're not the only tools. If",
+    "source_text": "century, and they'll produce more. But they're not the only tools. If",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:37.000",
+    "end": "00:17:39.270",
+    "start_seconds": 1057.0,
+    "end_seconds": 1059.27,
+    "text": "you've ever felt like your cozy fantasy",
+    "source_text": "But they're not the only tools. If you've ever felt like your cozy fantasy",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:17:39.280",
+    "end": "00:17:41.110",
+    "start_seconds": 1059.28,
+    "end_seconds": 1061.11,
+    "text": "was broken [music] because your beta",
+    "source_text": "you've ever felt like your cozy fantasy was broken [music] because your beta",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:17:41.120",
+    "end": "00:17:43.870",
+    "start_seconds": 1061.12,
+    "end_seconds": 1063.87,
+    "text": "reader said nothing happens. If you've",
+    "source_text": "was broken [music] because your beta reader said nothing happens. If you've",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:43.880",
+    "end": "00:17:46.342",
+    "start_seconds": 1063.88,
+    "end_seconds": 1066.342,
+    "text": "ever forced a villain into a story that",
+    "source_text": "reader said nothing happens. If you've ever forced a villain into a story that",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:46.352",
+    "end": "00:17:48.190",
+    "start_seconds": 1066.352,
+    "end_seconds": 1068.19,
+    "text": "[music] didn't want one. If you've ever",
+    "source_text": "ever forced a villain into a story that [music] didn't want one. If you've ever",
+    "caption_overlap_words": 8
+  },
+  {
+    "start": "00:17:48.200",
+    "end": "00:17:50.350",
+    "start_seconds": 1068.2,
+    "end_seconds": 1070.35,
+    "text": "felt like the Western template was",
+    "source_text": "[music] didn't want one. If you've ever felt like the Western template was",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:17:50.360",
+    "end": "00:17:51.669",
+    "start_seconds": 1070.36,
+    "end_seconds": 1071.669,
+    "text": "asking you to build a [music]",
+    "source_text": "felt like the Western template was asking you to build a [music]",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:51.679",
+    "end": "00:17:54.230",
+    "start_seconds": 1071.679,
+    "end_seconds": 1074.23,
+    "text": "battlefield when what you really wanted",
+    "source_text": "asking you to build a [music] battlefield when what you really wanted",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:54.240",
+    "end": "00:17:56.870",
+    "start_seconds": 1074.24,
+    "end_seconds": 1076.87,
+    "text": "was a garden, Kishotenketsu says,",
+    "source_text": "battlefield when what you really wanted was a garden, Kishotenketsu says,",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:17:56.880",
+    "end": "00:17:58.990",
+    "start_seconds": 1076.88,
+    "end_seconds": 1078.99,
+    "text": "\"You're not broken, you're just using",
+    "source_text": "was a garden, Kishotenketsu says, \"You're not broken, you're just using",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:17:59.000",
+    "end": "00:18:00.097",
+    "start_seconds": 1079.0,
+    "end_seconds": 1080.097,
+    "text": "the wrong tool.\"",
+    "source_text": "\"You're not broken, you're just using the wrong tool.\"",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:00.107",
+    "end": "00:18:00.150",
+    "start_seconds": 1080.107,
+    "end_seconds": 1080.15,
+    "text": ">> [music]",
+    "source_text": "the wrong tool.\" >> [music]",
+    "caption_overlap_words": 3
+  },
+  {
+    "start": "00:18:00.160",
+    "end": "00:18:02.870",
+    "start_seconds": 1080.16,
+    "end_seconds": 1082.87,
+    "text": ">> A story can be driven by the gentle",
+    "source_text": ">> [music] >> A story can be driven by the gentle",
+    "caption_overlap_words": 2
+  },
+  {
+    "start": "00:18:02.880",
+    "end": "00:18:05.870",
+    "start_seconds": 1082.88,
+    "end_seconds": 1085.87,
+    "text": "accumulation of detail, by the startling",
+    "source_text": ">> A story can be driven by the gentle accumulation of detail, by the startling",
+    "caption_overlap_words": 9
+  },
+  {
+    "start": "00:18:05.880",
+    "end": "00:18:07.590",
+    "start_seconds": 1085.88,
+    "end_seconds": 1087.59,
+    "text": "shift [music] of perspective, by the",
+    "source_text": "accumulation of detail, by the startling shift [music] of perspective, by the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:07.600",
+    "end": "00:18:09.870",
+    "start_seconds": 1087.6,
+    "end_seconds": 1089.87,
+    "text": "integration of opposites instead of the",
+    "source_text": "shift [music] of perspective, by the integration of opposites instead of the",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:09.880",
+    "end": "00:18:11.990",
+    "start_seconds": 1089.88,
+    "end_seconds": 1091.99,
+    "text": "destruction of enemies. [music] A story",
+    "source_text": "integration of opposites instead of the destruction of enemies. [music] A story",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:12.000",
+    "end": "00:18:14.910",
+    "start_seconds": 1092.0,
+    "end_seconds": 1094.91,
+    "text": "doesn't need a dragon to slay. Sometimes",
+    "source_text": "destruction of enemies. [music] A story doesn't need a dragon to slay. Sometimes",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:14.920",
+    "end": "00:18:18.230",
+    "start_seconds": 1094.92,
+    "end_seconds": 1098.23,
+    "text": "it just needs rain on an umbrella,",
+    "source_text": "doesn't need a dragon to slay. Sometimes it just needs rain on an umbrella,",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:18.240",
+    "end": "00:18:20.470",
+    "start_seconds": 1098.24,
+    "end_seconds": 1100.47,
+    "text": "and [music] a giant forest spirit",
+    "source_text": "it just needs rain on an umbrella, and [music] a giant forest spirit",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:20.480",
+    "end": "00:18:23.630",
+    "start_seconds": 1100.48,
+    "end_seconds": 1103.63,
+    "text": "standing beside you in the dark.",
+    "source_text": "and [music] a giant forest spirit standing beside you in the dark.",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:23.640",
+    "end": "00:18:26.150",
+    "start_seconds": 1103.64,
+    "end_seconds": 1106.15,
+    "text": "If this changed how you think about",
+    "source_text": "standing beside you in the dark. If this changed how you think about",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:26.160",
+    "end": "00:18:28.590",
+    "start_seconds": 1106.16,
+    "end_seconds": 1108.59,
+    "text": "story structure, drop a comment telling",
+    "source_text": "If this changed how you think about story structure, drop a comment telling",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:28.600",
+    "end": "00:18:30.950",
+    "start_seconds": 1108.6,
+    "end_seconds": 1110.95,
+    "text": "me what's one story you love that",
+    "source_text": "story structure, drop a comment telling me what's one story you love that",
+    "caption_overlap_words": 6
+  },
+  {
+    "start": "00:18:30.960",
+    "end": "00:18:32.790",
+    "start_seconds": 1110.96,
+    "end_seconds": 1112.79,
+    "text": "doesn't follow the Western conflict",
+    "source_text": "me what's one story you love that doesn't follow the Western conflict",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:32.800",
+    "end": "00:18:35.190",
+    "start_seconds": 1112.8,
+    "end_seconds": 1115.19,
+    "text": "model. I'd love to hear what resonates",
+    "source_text": "doesn't follow the Western conflict model. I'd love to hear what resonates",
+    "caption_overlap_words": 5
+  },
+  {
+    "start": "00:18:35.200",
+    "end": "00:18:37.470",
+    "start_seconds": 1115.2,
+    "end_seconds": 1117.47,
+    "text": "with you. And if you want more",
+    "source_text": "model. I'd love to hear what resonates with you. And if you want more",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:37.480",
+    "end": "00:18:40.149",
+    "start_seconds": 1117.48,
+    "end_seconds": 1120.149,
+    "text": "techniques to level up your fiction, hit",
+    "source_text": "with you. And if you want more techniques to level up your fiction, hit",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:40.159",
+    "end": "00:18:44.390",
+    "start_seconds": 1120.159,
+    "end_seconds": 1124.39,
+    "text": "subscribe. We go deep on craft here.",
+    "source_text": "techniques to level up your fiction, hit subscribe. We go deep on craft here.",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:44.400",
+    "end": "00:18:45.790",
+    "start_seconds": 1124.4,
+    "end_seconds": 1125.79,
+    "text": "And",
+    "source_text": "subscribe. We go deep on craft here. And",
+    "caption_overlap_words": 7
+  },
+  {
+    "start": "00:18:45.800",
+    "end": "00:18:48.880",
+    "start_seconds": 1125.8,
+    "end_seconds": 1128.88,
+    "text": "I'll see you in the next one.",
+    "source_text": "And I'll see you in the next one.",
+    "caption_overlap_words": 1
+  }
+]

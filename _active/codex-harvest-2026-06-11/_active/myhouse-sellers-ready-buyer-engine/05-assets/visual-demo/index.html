@@ -1,0 +1,1777 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jiing Profile-to-Pipeline Engine</title>
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --ink: #191916;
+      --ink-soft: #3b3a35;
+      --paper: #f7f1e8;
+      --paper-deep: #eee2d2;
+      --white: #fffaf2;
+      --sage: #73836c;
+      --sage-dark: #425240;
+      --clay: #b45839;
+      --clay-dark: #7d3927;
+      --teal: #0e6a72;
+      --teal-dark: #09454a;
+      --gold: #bd9141;
+      --line: rgba(25, 25, 22, 0.16);
+      --shadow: 0 22px 60px rgba(39, 31, 22, 0.16);
+      --shadow-soft: 0 12px 28px rgba(39, 31, 22, 0.12);
+      --radius: 8px;
+      --fast: 180ms ease;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(25, 25, 22, 0.035) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(25, 25, 22, 0.035) 1px, transparent 1px),
+        var(--paper);
+      background-size: 34px 34px;
+      font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .shell {
+      width: min(1440px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 20px 0 48px;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 16px;
+      align-items: center;
+      padding: 14px 0;
+    }
+
+    .brand-mark {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .mark {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      color: var(--white);
+      background: var(--ink);
+      border-radius: 8px;
+      font-weight: 800;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .brand-text strong {
+      display: block;
+      font-size: 15px;
+      line-height: 1.1;
+    }
+
+    .brand-text span {
+      display: block;
+      margin-top: 3px;
+      color: var(--ink-soft);
+      font-size: 12px;
+    }
+
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 250, 242, 0.74);
+      color: var(--ink-soft);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .badge.strong {
+      background: var(--ink);
+      color: var(--white);
+      border-color: var(--ink);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 0.86fr) minmax(560px, 1.14fr);
+      gap: 24px;
+      align-items: stretch;
+      min-height: calc(100vh - 92px);
+      padding-top: 12px;
+    }
+
+    .hero-copy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 620px;
+      padding: 36px;
+      background: rgba(255, 250, 242, 0.86);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      padding: 7px 10px;
+      color: var(--clay-dark);
+      background: rgba(180, 88, 57, 0.1);
+      border: 1px solid rgba(180, 88, 57, 0.25);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 24px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(48px, 7vw, 102px);
+      line-height: 0.92;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    .hero-copy p {
+      max-width: 700px;
+      margin-top: 22px;
+      color: var(--ink-soft);
+      font-size: clamp(17px, 1.6vw, 22px);
+      line-height: 1.45;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 30px;
+    }
+
+    .action {
+      min-height: 44px;
+      padding: 12px 16px;
+      border: 1px solid var(--ink);
+      border-radius: 6px;
+      background: var(--ink);
+      color: var(--white);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .action.secondary {
+      background: transparent;
+      color: var(--ink);
+    }
+
+    .keyword-rail {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .keyword-pill {
+      padding: 8px 10px;
+      color: var(--teal-dark);
+      background: rgba(14, 106, 114, 0.1);
+      border: 1px solid rgba(14, 106, 114, 0.22);
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .promise-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 32px;
+    }
+
+    .promise {
+      min-height: 96px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(247, 241, 232, 0.72);
+    }
+
+    .promise b {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .promise span {
+      display: block;
+      margin-top: 10px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .control-room {
+      position: relative;
+      min-height: 620px;
+      overflow: hidden;
+      padding: 22px;
+      background: #191916;
+      color: var(--white);
+      border: 1px solid rgba(255, 250, 242, 0.16);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .control-grid {
+      position: absolute;
+      inset: 0;
+      opacity: 0.18;
+      background:
+        linear-gradient(90deg, rgba(255, 250, 242, 0.2) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(255, 250, 242, 0.2) 1px, transparent 1px);
+      background-size: 38px 38px;
+      pointer-events: none;
+    }
+
+    .control-inner {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 16px;
+    }
+
+    .control-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .control-header h2 {
+      max-width: 620px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(28px, 3.2vw, 48px);
+      line-height: 1;
+      font-weight: 500;
+    }
+
+    .live-dot {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 10px;
+      background: rgba(255, 250, 242, 0.08);
+      border: 1px solid rgba(255, 250, 242, 0.18);
+      border-radius: 999px;
+      color: rgba(255, 250, 242, 0.82);
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .live-dot::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: #97d084;
+      border-radius: 999px;
+      box-shadow: 0 0 0 7px rgba(151, 208, 132, 0.14);
+    }
+
+    .signal-flow {
+      display: grid;
+      grid-template-columns: 0.8fr 72px 1fr;
+      gap: 12px;
+      align-items: center;
+      min-height: 420px;
+    }
+
+    .signal-stack,
+    .output-stack {
+      display: grid;
+      gap: 10px;
+    }
+
+    .signal {
+      padding: 14px;
+      border: 1px solid rgba(255, 250, 242, 0.2);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 242, 0.08);
+      transform: translateX(-8px);
+      animation: slideIn 700ms ease forwards;
+    }
+
+    .signal:nth-child(2) {
+      animation-delay: 130ms;
+    }
+
+    .signal:nth-child(3) {
+      animation-delay: 260ms;
+    }
+
+    .signal b,
+    .output b {
+      display: block;
+      color: var(--white);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .signal span,
+    .output span {
+      display: block;
+      margin-top: 8px;
+      color: rgba(255, 250, 242, 0.78);
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .arrow-well {
+      display: grid;
+      place-items: center;
+      height: 100%;
+    }
+
+    .arrow-line {
+      position: relative;
+      width: 4px;
+      min-height: 330px;
+      background: linear-gradient(180deg, var(--clay), var(--gold), var(--teal));
+      border-radius: 999px;
+      box-shadow: 0 0 42px rgba(189, 145, 65, 0.32);
+    }
+
+    .arrow-line::before,
+    .arrow-line::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      width: 18px;
+      height: 18px;
+      border-right: 4px solid var(--gold);
+      border-bottom: 4px solid var(--gold);
+      transform: translateX(-50%) rotate(45deg);
+    }
+
+    .arrow-line::before {
+      top: 32%;
+    }
+
+    .arrow-line::after {
+      bottom: 10px;
+    }
+
+    .output {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 12px;
+      align-items: start;
+      min-height: 82px;
+      padding: 14px;
+      border: 1px solid rgba(255, 250, 242, 0.22);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 242, 0.1);
+      box-shadow: inset 0 1px 0 rgba(255, 250, 242, 0.08);
+      opacity: 0;
+      transform: translateY(8px);
+      animation: riseIn 650ms ease forwards;
+    }
+
+    .output:nth-child(2) {
+      animation-delay: 140ms;
+    }
+
+    .output:nth-child(3) {
+      animation-delay: 280ms;
+    }
+
+    .output:nth-child(4) {
+      animation-delay: 420ms;
+    }
+
+    .output:nth-child(5) {
+      animation-delay: 560ms;
+    }
+
+    .output-icon {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      color: var(--ink);
+      background: var(--gold);
+      border-radius: 6px;
+      font-weight: 900;
+    }
+
+    .guardrail-strip {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .guardrail {
+      padding: 12px;
+      color: rgba(255, 250, 242, 0.82);
+      background: rgba(255, 250, 242, 0.08);
+      border: 1px solid rgba(255, 250, 242, 0.14);
+      border-radius: var(--radius);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .tabs-wrap {
+      margin-top: 28px;
+      padding: 14px;
+      background: rgba(255, 250, 242, 0.78);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .tabs {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .tab {
+      min-height: 52px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: transparent;
+      color: var(--ink);
+      font-weight: 900;
+      transition: var(--fast);
+    }
+
+    .tab:hover,
+    .tab[aria-selected="true"] {
+      background: var(--ink);
+      color: var(--white);
+      border-color: var(--ink);
+    }
+
+    .panel {
+      display: none;
+      margin-top: 18px;
+    }
+
+    .panel.active {
+      display: block;
+    }
+
+    .section-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: end;
+      margin: 26px 0 16px;
+    }
+
+    .section-title h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(32px, 4vw, 62px);
+      line-height: 0.98;
+      font-weight: 500;
+    }
+
+    .section-title p {
+      max-width: 560px;
+      color: var(--ink-soft);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .machine-grid {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr) 320px;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .webinar-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.12fr) minmax(360px, 0.88fr);
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .queue,
+    .lead-stage,
+    .action-stage,
+    .studio-column,
+    .money-panel,
+    .asset-card,
+    .webinar-card,
+    .landing-card {
+      padding: 16px;
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .mini-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 14px;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .landing-card {
+      min-height: 560px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .landing-window {
+      min-height: 490px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: linear-gradient(135deg, rgba(255, 250, 242, 0.96), rgba(238, 226, 210, 0.92));
+      display: grid;
+      gap: 16px;
+      align-content: space-between;
+    }
+
+    .landing-window h3 {
+      max-width: 620px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(34px, 4vw, 62px);
+      line-height: 0.98;
+      font-weight: 500;
+    }
+
+    .landing-window p {
+      max-width: 580px;
+      color: var(--ink-soft);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .landing-points {
+      display: grid;
+      gap: 8px;
+    }
+
+    .landing-point {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      align-items: start;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: rgba(255, 250, 242, 0.72);
+    }
+
+    .landing-point b {
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      background: var(--teal);
+      color: var(--white);
+      font-size: 12px;
+    }
+
+    .landing-point span {
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .webinar-stack {
+      display: grid;
+      gap: 14px;
+    }
+
+    .webinar-card h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      line-height: 1;
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+
+    .webinar-items {
+      display: grid;
+      gap: 8px;
+    }
+
+    .webinar-item {
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--paper);
+    }
+
+    .webinar-item b {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--clay-dark);
+    }
+
+    .webinar-item span {
+      display: block;
+      margin-top: 6px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .queue-buttons {
+      display: grid;
+      gap: 10px;
+    }
+
+    .queue-btn {
+      width: 100%;
+      padding: 12px;
+      text-align: left;
+      color: var(--ink);
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      transition: var(--fast);
+    }
+
+    .queue-btn b {
+      display: block;
+      font-size: 14px;
+    }
+
+    .queue-btn span {
+      display: block;
+      margin-top: 4px;
+      color: var(--ink-soft);
+      font-size: 12px;
+    }
+
+    .queue-btn.active,
+    .queue-btn:hover {
+      background: var(--ink);
+      color: var(--white);
+      border-color: var(--ink);
+    }
+
+    .queue-btn.active span,
+    .queue-btn:hover span {
+      color: rgba(255, 250, 242, 0.72);
+    }
+
+    .lead-card-main {
+      display: grid;
+      grid-template-columns: 210px minmax(0, 1fr);
+      gap: 18px;
+      align-items: center;
+      min-height: 332px;
+    }
+
+    .score-ring {
+      --score: 72;
+      width: 190px;
+      height: 190px;
+      display: grid;
+      place-items: center;
+      border-radius: 999px;
+      background: conic-gradient(var(--teal) calc(var(--score) * 1%), rgba(25, 25, 22, 0.1) 0);
+      position: relative;
+      margin: 0 auto;
+    }
+
+    .score-ring::after {
+      content: "";
+      position: absolute;
+      inset: 14px;
+      background: var(--white);
+      border-radius: 999px;
+      box-shadow: inset 0 0 0 1px var(--line);
+    }
+
+    .score-number {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+    }
+
+    .score-number strong {
+      display: block;
+      font-size: 46px;
+      line-height: 1;
+    }
+
+    .score-number span {
+      color: var(--ink-soft);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .lead-copy h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(26px, 3vw, 46px);
+      line-height: 1;
+      font-weight: 500;
+    }
+
+    .lead-copy p {
+      margin-top: 12px;
+      color: var(--ink-soft);
+      font-size: 15px;
+      line-height: 1.45;
+    }
+
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 18px;
+    }
+
+    .metric {
+      min-height: 78px;
+      padding: 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .metric b {
+      display: block;
+      font-size: 19px;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 5px;
+      color: var(--ink-soft);
+      font-size: 11px;
+      line-height: 1.25;
+    }
+
+    .action-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .action-item {
+      padding: 12px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .action-item b {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .action-item span {
+      display: block;
+      margin-top: 7px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .route-tag {
+      display: inline-flex;
+      width: fit-content;
+      margin-top: 8px;
+      padding: 6px 8px;
+      color: var(--white);
+      background: var(--teal);
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    .social-card {
+      min-height: 540px;
+      overflow: hidden;
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .phone-frame {
+      width: min(100%, 300px);
+      min-height: 468px;
+      margin: 20px auto;
+      padding: 12px;
+      background: var(--ink);
+      border-radius: 28px;
+      box-shadow: 0 18px 40px rgba(25, 25, 22, 0.28);
+    }
+
+    .phone-screen {
+      min-height: 444px;
+      overflow: hidden;
+      background: var(--paper);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 250, 242, 0.18);
+    }
+
+    .phone-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .reel-visual {
+      position: relative;
+      min-height: 220px;
+      margin: 0 12px;
+      overflow: hidden;
+      background:
+        linear-gradient(135deg, rgba(14, 106, 114, 0.92), rgba(180, 88, 57, 0.82)),
+        repeating-linear-gradient(45deg, transparent 0 18px, rgba(255, 250, 242, 0.16) 18px 19px);
+      border-radius: var(--radius);
+    }
+
+    .reel-visual::before {
+      content: "$850K";
+      position: absolute;
+      left: 18px;
+      bottom: 18px;
+      color: var(--white);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 58px;
+      line-height: 1;
+    }
+
+    .reel-visual::after {
+      content: "SFV REALITY CHECK";
+      position: absolute;
+      right: 12px;
+      top: 12px;
+      padding: 6px 8px;
+      color: var(--ink);
+      background: var(--white);
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 900;
+    }
+
+    .post-body {
+      padding: 14px;
+    }
+
+    .platform-label {
+      display: inline-flex;
+      padding: 6px 8px;
+      background: var(--ink);
+      color: var(--white);
+      border-radius: 999px;
+      font-size: 10px;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .post-body h3 {
+      margin-top: 12px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 26px;
+      line-height: 1.02;
+      font-weight: 500;
+    }
+
+    .post-body p {
+      margin-top: 10px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.38;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 12px;
+    }
+
+    .cta-chip {
+      padding: 6px 8px;
+      background: rgba(14, 106, 114, 0.11);
+      color: var(--teal-dark);
+      border: 1px solid rgba(14, 106, 114, 0.26);
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
+    .facebook-event {
+      width: min(100%, 330px);
+      margin: 20px auto;
+      overflow: hidden;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .event-art {
+      min-height: 170px;
+      padding: 20px;
+      display: flex;
+      align-items: end;
+      background:
+        linear-gradient(120deg, rgba(66, 82, 64, 0.96), rgba(189, 145, 65, 0.86)),
+        repeating-linear-gradient(90deg, rgba(255,255,255,0.18) 0 2px, transparent 2px 12px);
+      color: var(--white);
+    }
+
+    .event-art strong {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 34px;
+      line-height: 0.96;
+      font-weight: 500;
+    }
+
+    .youtube-short {
+      width: min(100%, 330px);
+      margin: 20px auto;
+      background: #111;
+      color: var(--white);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .short-screen {
+      min-height: 388px;
+      position: relative;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background:
+        linear-gradient(145deg, rgba(180, 88, 57, 0.86), rgba(14, 106, 114, 0.86)),
+        linear-gradient(180deg, #1b1b17, #111);
+    }
+
+    .short-screen h3 {
+      max-width: 260px;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 38px;
+      line-height: 0.98;
+      font-weight: 500;
+    }
+
+    .script-lines {
+      display: grid;
+      gap: 8px;
+    }
+
+    .script-lines span {
+      display: block;
+      padding: 8px;
+      background: rgba(255, 250, 242, 0.12);
+      border: 1px solid rgba(255, 250, 242, 0.16);
+      border-radius: 6px;
+      color: rgba(255, 250, 242, 0.84);
+      font-size: 12px;
+      line-height: 1.3;
+    }
+
+    .arsenal {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .arsenal-item {
+      min-height: 112px;
+      padding: 14px;
+      background: rgba(255, 250, 242, 0.86);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .arsenal-item b {
+      display: block;
+      font-size: 13px;
+    }
+
+    .arsenal-item span {
+      display: block;
+      margin-top: 8px;
+      color: var(--ink-soft);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .money-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 14px;
+    }
+
+    .scenario-cards {
+      display: grid;
+      gap: 10px;
+    }
+
+    .scenario {
+      padding: 16px;
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .scenario-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: baseline;
+    }
+
+    .scenario h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .scenario strong {
+      font-size: 24px;
+    }
+
+    .bar {
+      height: 10px;
+      margin-top: 12px;
+      overflow: hidden;
+      background: rgba(25, 25, 22, 0.1);
+      border-radius: 999px;
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, var(--sage), var(--teal), var(--clay));
+      border-radius: 999px;
+    }
+
+    .scenario p {
+      margin-top: 10px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .funnel {
+      display: grid;
+      gap: 8px;
+    }
+
+    .funnel-row {
+      display: grid;
+      grid-template-columns: 140px 1fr 88px;
+      gap: 12px;
+      align-items: center;
+      padding: 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .funnel-row b {
+      font-size: 13px;
+    }
+
+    .funnel-track {
+      height: 12px;
+      background: rgba(25, 25, 22, 0.1);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .funnel-track span {
+      display: block;
+      height: 100%;
+      background: var(--teal);
+      border-radius: 999px;
+    }
+
+    .funnel-row em {
+      color: var(--ink-soft);
+      font-style: normal;
+      font-size: 12px;
+      text-align: right;
+    }
+
+    .calendar-strip {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .day-block {
+      min-height: 118px;
+      padding: 10px;
+      background: rgba(255, 250, 242, 0.92);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .day-block b {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .day-block span {
+      display: block;
+      margin-top: 9px;
+      color: var(--ink-soft);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .day-block.protected {
+      background: rgba(115, 131, 108, 0.14);
+      border-color: rgba(115, 131, 108, 0.42);
+    }
+
+    .asset-library {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .asset-card h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 500;
+    }
+
+    .asset-list {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .asset-row {
+      display: grid;
+      grid-template-columns: 82px minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 10px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .asset-row b {
+      font-size: 12px;
+      color: var(--clay-dark);
+    }
+
+    .asset-row span {
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .asset-row a {
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      border-bottom: 1px solid rgba(25, 25, 22, 0.34);
+      width: fit-content;
+    }
+
+    .launch-sequence {
+      display: grid;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .launch-item {
+      padding: 12px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .launch-item b {
+      display: block;
+      font-size: 13px;
+    }
+
+    .launch-item span {
+      display: block;
+      margin-top: 6px;
+      color: var(--ink-soft);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .footer-note {
+      margin-top: 22px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(25, 25, 22, 0.94);
+      color: rgba(255, 250, 242, 0.84);
+      font-size: 13px;
+      line-height: 1.45;
+    }
+
+    .footer-note b {
+      color: var(--white);
+    }
+
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes riseIn {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 1180px) {
+      .hero,
+      .machine-grid,
+      .webinar-grid,
+      .money-grid,
+      .asset-library {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-copy,
+      .control-room {
+        min-height: auto;
+      }
+
+      .content-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .arsenal {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 760px) {
+      .shell {
+        width: min(100% - 18px, 1440px);
+        padding-top: 8px;
+      }
+
+      .topbar,
+      .control-header,
+      .section-title {
+        grid-template-columns: 1fr;
+        display: grid;
+      }
+
+      .badges {
+        justify-content: flex-start;
+      }
+
+      .hero-copy {
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 46px;
+      }
+
+      .promise-row,
+      .guardrail-strip,
+      .tabs,
+      .lead-card-main,
+      .metric-grid,
+      .calendar-strip {
+        grid-template-columns: 1fr;
+      }
+
+      .signal-flow {
+        grid-template-columns: 1fr;
+      }
+
+      .landing-card {
+        min-height: auto;
+      }
+
+      .landing-window {
+        min-height: auto;
+      }
+
+      .asset-row {
+        grid-template-columns: 1fr;
+        align-items: start;
+      }
+
+      .arrow-line {
+        width: 100%;
+        height: 4px;
+        min-height: 4px;
+      }
+
+      .arrow-line::before,
+      .arrow-line::after {
+        display: none;
+      }
+
+      .funnel-row {
+        grid-template-columns: 1fr;
+      }
+
+      .funnel-row em {
+        text-align: left;
+      }
+
+      .arsenal {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar" aria-label="Demo header">
+        <div class="brand-mark">
+          <div class="mark">RB</div>
+          <div class="brand-text">
+            <strong>Jiing Profile-to-Pipeline Engine</strong>
+            <span>Grounded from @_jiing profile evidence</span>
+          </div>
+        </div>
+      <div class="badges" aria-label="Safety labels">
+        <span class="badge strong">Profile-grounded draft</span>
+        <span class="badge">Fake-safe data</span>
+        <span class="badge">No live CRM</span>
+        <span class="badge">Broker/lender review</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <div>
+            <span class="eyebrow">@_jiing already has attention. Now it needs a path.</span>
+            <h1>Turn Jen's profile into a steady buyer pipeline.</h1>
+            <p>Jen already has the real ingredients: SFV/LA real estate, seller-side trust, raver energy, boy mom warmth, and a live EDM/community lane. This system catches the attention her profile already creates and turns it into lead magnets, webinar seats, email capture, readiness scoring, and selective consults.</p>
+            <div class="hero-actions">
+              <a class="action" href="#demo-tabs">Open profile funnel</a>
+              <a class="action secondary" href="#asset-library">Open asset library</a>
+            </div>
+            <div class="keyword-rail" aria-label="CTA keyword routes">
+              <span class="keyword-pill">CHECKLIST</span>
+              <span class="keyword-pill">GUIDE</span>
+              <span class="keyword-pill">RATES</span>
+              <span class="keyword-pill">WEBINAR</span>
+              <span class="keyword-pill">SELL</span>
+            </div>
+          </div>
+          <div class="promise-row" aria-label="Primary value promises">
+            <div class="promise">
+              <b>Fix the leak first</b>
+              <span>2,700+ posts means effort is not the issue. The missing layer is owned lead capture.</span>
+            </div>
+            <div class="promise">
+              <b>Every post has a route</b>
+              <span>Instagram, YouTube, email, and lead magnets point to CHECKLIST, GUIDE, RATES, WEBINAR, or SELL.</span>
+            </div>
+            <div class="promise">
+              <b>Jen stays selective</b>
+              <span>Serious people get next steps. Browsers get education. Jen's phone stops running the business.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="control-room" aria-label="Workshop funnel visual">
+          <div class="control-grid"></div>
+          <div class="control-inner">
+            <div class="control-header">
+              <h2>Her profile becomes a funnel. The funnel becomes a protected calendar.</h2>
+              <span class="live-dot">Sandbox only</span>
+            </div>
+            <div class="signal-flow">
+              <div class="signal-stack" aria-label="Raw inputs">
+                <div class="signal">
+                  <b>@_jiing profile</b>
+                  <span>SFV/LA Realtor, raver identity, boy mom warmth, and seller-side operator credibility.</span>
+                </div>
+                <div class="signal">
+                  <b>Current attention</b>
+                  <span>Recent public posts show real estate moments plus active MyBPM/EDC community energy.</span>
+                </div>
+                <div class="signal">
+                  <b>Profile leak</b>
+                  <span>No visible owned-lead path means comments, views, and profile visits can disappear.</span>
+                </div>
+              </div>
+              <div class="arrow-well" aria-hidden="true">
+                <div class="arrow-line"></div>
+              </div>
+              <div class="output-stack" aria-label="Engine outputs">
+                <div class="output">
+                  <div class="output-icon">1</div>
+                  <div>
+                    <b>Profile CTA</b>
+                    <span>Clear bio, pinned proof, lead magnet link, and simple keyword routes.</span>
+                  </div>
+                </div>
+                <div class="output">
+                  <div class="output-icon">2</div>
+                  <div>
+                    <b>Lead magnet</b>
+                    <span>Checklist, guide, rates breakdown, webinar invite, or seller asset.</span>
+                  </div>
+                </div>
+                <div class="output">
+                  <div class="output-icon">3</div>
+                  <div>
+                    <b>Webinar path</b>
+                    <span>Registration, reminders, replay, scorecard, and consult criteria.</span>
+                  </div>
+                </div>
+                <div class="output">
+                  <div class="output-icon">4</div>
+                  <div>
+                    <b>Buyer brief</b>
+                    <span>Timeline, payment comfort, area fit, decision authority, and next best step.</span>
+                  </div>
+                </div>
+                <div class="output">
+                  <div class="output-icon">5</div>
+                  <div>
+                    <b>Protected handoff</b>
+                    <span>Consult, lender review, seller prep, team follow-up, or quiet nurture.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="guardrail-strip" aria-label="Hardening labels">
+              <div class="guardrail"><b>Evidence gate:</b> profile, scrape, source, or hypothesis.</div>
+              <div class="guardrail"><b>No promise:</b> no income or closing guarantee.</div>
+              <div class="guardrail"><b>Review:</b> lender, broker, Fair Housing.</div>
+              <div class="guardrail"><b>Privacy:</b> no real leads in this demo.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tabs-wrap" id="demo-tabs">
+        <div class="tabs" role="tablist" aria-label="Demo views">
+          <button class="tab" role="tab" aria-selected="true" aria-controls="machine" id="tab-machine" data-tab="machine">Profile + Webinar</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="content" id="tab-content" data-tab="content">Instagram + YouTube</button>
+          <button class="tab" role="tab" aria-selected="false" aria-controls="money" id="tab-money" data-tab="money">Operating Metrics</button>
+        </div>
+
+        <section class="panel active" id="machine" role="tabpanel" aria-labelledby="tab-machine">
+          <div class="section-title">
+            <h2>Profile-To-Webinar System</h2>
+            <p>The first product is a clean path from Jen's actual profile into a useful buyer math room: a checklist, a guide, a webinar, a readiness scorecard, and follow-up that filters for serious conversations.</p>
+          </div>
+
+          <div class="webinar-grid">
+            <article class="landing-card">
+              <div class="mini-title">Landing page preview <span>buyer-facing</span></div>
+              <div class="landing-window">
+                <div>
+                  <span class="eyebrow">SFV buyer workshop from @_jiing</span>
+                  <h3>Can We Actually Buy in the Valley?</h3>
+                  <p>A practical workshop for serious first-time buyers who make real money, still feel boxed out, and want to know what needs to be true before touring makes sense.</p>
+                </div>
+                <div class="landing-points">
+                  <div class="landing-point"><b>1</b><span>Start with payment comfort, cash-to-close, lender review, decision authority, and area fit.</span></div>
+                  <div class="landing-point"><b>2</b><span>Use the $800K-$900K readiness scorecard to route buyers into consult, lender review, or nurture.</span></div>
+                  <div class="landing-point"><b>3</b><span>Turn webinar questions into Instagram, YouTube, email, and lead magnet follow-up without adding phone chaos.</span></div>
+                </div>
+                <div class="hero-actions">
+                  <a class="action" href="../webinar-landing-page/index.html">Open landing page</a>
+                  <a class="action secondary" href="../../04-deliverables/media-playbooks/webinar-kit-can-we-actually-buy.md">Open webinar kit</a>
+                </div>
+              </div>
+            </article>
+
+            <div class="webinar-stack">
+              <article class="webinar-card">
+                <h3>Workshop Flow</h3>
+                <div class="webinar-items">
+                  <div class="webinar-item"><b>Opening tension</b><span>The buyer did not disappear. The buyer got older, more cautious, and more complicated.</span></div>
+                  <div class="webinar-item"><b>The $850K reality check</b><span>List price is not the strategy. Payment comfort, cash-to-close, and tradeoffs decide the next move.</span></div>
+                  <div class="webinar-item"><b>Creative financing questions</b><span>Family gifts, co-buying, DPA, and loan paths get flagged for lender or legal review before public claims.</span></div>
+                  <div class="webinar-item"><b>Next step</b><span>CHECKLIST, GUIDE, RATES, or WEBINAR routes each buyer to the right resource instead of a vague "send me homes" loop.</span></div>
+                </div>
+              </article>
+
+              <article class="webinar-card">
+                <h3>Lead Magnet Chain</h3>
+                <div class="webinar-items">
+                  <div class="webinar-item"><b>CHECKLIST</b><span>12 Things To Check Before Making An Offer In The Valley.</span></div>
+                  <div class="webinar-item"><b>GUIDE</b><span>SFV Neighborhood Fit Guide for area, home type, commute, payment, and lifestyle tradeoffs.</span></div>
+                  <div class="webinar-item"><b>RATES</b><span>Monthly affordability explainer with lender-reviewed language before publishing.</span></div>
+                  <div class="webinar-item"><b>WEBINAR</b><span>Can We Actually Buy in the Valley? registration and replay path.</span></div>
+                  <div class="webinar-item"><b>Follow-up</b><span>20-message email funnel supports invites, reminders, replay, consult criteria, and long-term nurture.</span></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="content" role="tabpanel" aria-labelledby="tab-content">
+          <div class="section-title">
+            <h2>Instagram + YouTube Playbooks</h2>
+            <p>The content lane makes the webinar visible. Every Reel, Short, story, and carousel names a real buyer problem, gives one useful distinction, and routes to a keyword.</p>
+          </div>
+
+          <div class="content-grid">
+            <article class="social-card">
+              <div class="phone-frame">
+                <div class="phone-screen">
+                  <div class="phone-top"><span>Instagram Reel</span><span>@_jiing</span></div>
+                  <div class="reel-visual"></div>
+                  <div class="post-body">
+                    <span class="platform-label">The Valley Reality Check</span>
+                    <h3>You make real money. The Valley still feels impossible. That does not mean you are behind.</h3>
+                    <p>Jen brings warm-friend energy, then shows the math, the tradeoff, and the next calm step before anyone starts touring.</p>
+                    <div class="cta-row">
+                      <span class="cta-chip">Comment CHECKLIST</span>
+                      <span class="cta-chip">Offer prep</span>
+                      <span class="cta-chip">Lender review</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="social-card">
+              <div class="facebook-event">
+                <div class="event-art">
+                  <strong>Can We Actually Buy in the Valley?</strong>
+                </div>
+                <div class="post-body">
+                  <span class="platform-label">Facebook Event + Post</span>
+                  <h3>A 45-minute buyer math night for people tired of guessing.</h3>
+                  <p>No dream-home hype. Bring the target area, payment question, and timeline. Leave knowing what must be true before touring makes sense.</p>
+                  <div class="cta-row">
+                    <span class="cta-chip">Comment WEBINAR</span>
+                    <span class="cta-chip">Register</span>
+                    <span class="cta-chip">Broker-safe</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="social-card">
+              <div class="youtube-short">
+                <div class="short-screen">
+                  <span class="platform-label">YouTube Short</span>
+                  <h3>The $850K Reality Check</h3>
+                  <div class="script-lines">
+                    <span>"An $850K budget can be serious and still need a reality check."</span>
+                    <span>"Before we tour, I want payment comfort, cash-to-close, and neighborhood tradeoff clarity."</span>
+                    <span>"Comment GUIDE for the Valley fit guide."</span>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="arsenal" aria-label="Content playbook cards">
+            <div class="arsenal-item"><b>Offer Room</b><span>What sellers care about beyond price. CTA: CHECKLIST or SELL.</span></div>
+            <div class="arsenal-item"><b>Seller Side Receipts</b><span>Pre-list prep, showing quality, offer review, calm close. CTA: SELL.</span></div>
+            <div class="arsenal-item"><b>Valley Match Map</b><span>Tradeoffs across Reseda, Lake Balboa, Canoga Park, Woodland Hills. CTA: GUIDE.</span></div>
+            <div class="arsenal-item"><b>Home Soundcheck</b><span>Noise, flow, parking, night feel, hosting, creative life. CTA: GUIDE.</span></div>
+            <div class="arsenal-item"><b>Would I Let My Friend Buy This?</b><span>Jen's trust lens, not pretty-house theater. CTA: CHECKLIST.</span></div>
+          </div>
+        </section>
+
+        <section class="panel" id="money" role="tabpanel" aria-labelledby="tab-money">
+          <div class="section-title">
+            <h2>Operating Metrics</h2>
+            <p>This is not a promise and it is not realtor jargon. It is a plain planning view: how many qualified conversations, appointments, signed clients, and annual closings the system would need to support 2-3 closings per month.</p>
+          </div>
+
+          <div class="money-grid">
+            <div class="scenario-cards">
+              <article class="scenario">
+                <div class="scenario-top"><h3>Conservative</h3><strong>24 annual closings</strong></div>
+                <div class="bar"><span style="width: 66%;"></span></div>
+                <p>Planning estimate: about $510K gross commission income at $850K average closed price and 2.5% gross commission before splits, expenses, taxes, referral fees, and brokerage details.</p>
+              </article>
+              <article class="scenario">
+                <div class="scenario-top"><h3>Target</h3><strong>30 annual closings</strong></div>
+                <div class="bar"><span style="width: 83%;"></span></div>
+                <p>Planning estimate: about $637.5K gross commission income before business costs. This is the steadier 2-3 closing/month pace.</p>
+              </article>
+              <article class="scenario">
+                <div class="scenario-top"><h3>Upside</h3><strong>36 annual closings</strong></div>
+                <div class="bar"><span style="width: 100%;"></span></div>
+                <p>Planning estimate: about $765K gross commission income before business costs. This requires stronger listing leverage, referrals, and team support.</p>
+              </article>
+            </div>
+
+            <article class="money-panel">
+              <div class="mini-title">Monthly funnel <span>leading indicators</span></div>
+              <div class="funnel">
+                <div class="funnel-row"><b>Qualified lead signals/month</b><div class="funnel-track"><span style="width: 100%;"></span></div><em>60-80</em></div>
+                <div class="funnel-row"><b>Two-way conversations/month</b><div class="funnel-track"><span style="width: 64%;"></span></div><em>24-30</em></div>
+                <div class="funnel-row"><b>Buyer/seller consults booked</b><div class="funnel-track"><span style="width: 42%;"></span></div><em>8-10</em></div>
+                <div class="funnel-row"><b>Qualified showing paths</b><div class="funnel-track"><span style="width: 34%;"></span></div><em>6-8</em></div>
+                <div class="funnel-row"><b>Signed client agreements</b><div class="funnel-track"><span style="width: 22%;"></span></div><em>3-5</em></div>
+                <div class="funnel-row"><b>Closed transactions/month</b><div class="funnel-track"><span style="width: 14%;"></span></div><em>2-3</em></div>
+              </div>
+            </article>
+          </div>
+
+          <div class="calendar-strip" aria-label="Family-protected weekly rhythm">
+            <div class="day-block"><b>Mon</b><span>90-minute offense block. Hot leads, partner follow-up, score updates.</span></div>
+            <div class="day-block"><b>Tue</b><span>Consult window. Buyer strategy or seller prep only.</span></div>
+            <div class="day-block"><b>Wed</b><span>Content/proof batch from real work already happening.</span></div>
+            <div class="day-block"><b>Thu</b><span>Consult window and high-score lead route.</span></div>
+            <div class="day-block"><b>Fri</b><span>Pipeline review, stale leads, proof dashboard.</span></div>
+            <div class="day-block protected"><b>Sat</b><span>A-leads or active clients only. Protected by default.</span></div>
+            <div class="day-block protected"><b>Sun</b><span>20-minute family/calendar protection check.</span></div>
+          </div>
+        </section>
+      </section>
+
+      <section class="asset-library" id="asset-library">
+        <article class="asset-card">
+          <h3>Media Engine Library</h3>
+          <div class="asset-list">
+            <div class="asset-row"><b>Landing</b><span>Buyer-facing registration page for Can We Actually Buy in the Valley? with workshop promise, resource path, and safe registration form.</span><a href="../webinar-landing-page/index.html">Open page</a></div>
+            <div class="asset-row"><b>Webinar</b><span>Can We Actually Buy in the Valley? A serious buyer workshop built around affordability, co-buying, family gifts, payment comfort, and timing.</span><a href="../../04-deliverables/media-playbooks/webinar-kit-can-we-actually-buy.md">Open kit</a></div>
+            <div class="asset-row"><b>Email</b><span>A 20-message funnel that turns webinar interest into show-ups, replies, scorecard completions, and qualified consults.</span><a href="../../04-deliverables/media-playbooks/email-funnel-ready-buyer-engine.md">Open funnel</a></div>
+            <div class="asset-row"><b>YouTube</b><span>Short-form scripts with tension: the buyer wants the home, the market wants proof, and the math decides the next move.</span><a href="../../04-deliverables/media-playbooks/video-content-playbook.md">Open scripts</a></div>
+            <div class="asset-row"><b>Instagram</b><span>The profile, highlights, weekly shows, story prompts, carousels, Reels, and keyword routes that make the system visible.</span><a href="../../04-deliverables/media-playbooks/instagram-content-playbook.md">Open playbook</a></div>
+            <div class="asset-row"><b>Magnets</b><span>Problem-specific assets for CHECKLIST, GUIDE, RATES, WEBINAR, and SELL so every CTA filters instead of attracting random traffic.</span><a href="../../04-deliverables/media-playbooks/lead-magnet-assets.md">Open assets</a></div>
+          </div>
+        </article>
+
+        <article class="asset-card">
+          <h3>30-Day Build</h3>
+          <div class="launch-sequence">
+            <div class="launch-item"><b>Week 1: Fix the profile path</b><span>Bio, pinned proof, link order, and keyword CTAs make Jen's existing attention easier to capture.</span></div>
+            <div class="launch-item"><b>Week 2: Turn attention into a list</b><span>Route CHECKLIST, GUIDE, RATES, WEBINAR, and SELL comments into the right asset and email sequence. No public CTA ends at "send me homes."</span></div>
+            <div class="launch-item"><b>Week 3: Run the buyer math room</b><span>Use the webinar to turn anxious research into specific next steps: payment range, cash-to-close, loan review, area tradeoffs, and consult criteria.</span></div>
+            <div class="launch-item"><b>Week 4: Measure proof, not noise</b><span>Track qualified leads, replies, webinar show-ups, booked consults, signed clients, content saves, missed follow-ups, and protected family-time exceptions.</span></div>
+            <div class="launch-item"><b>Review gates</b><span>Finance, DPA, buyer-agreement, compensation, and Fair Housing-sensitive language is marked for lender, broker, or legal review before public use.</span></div>
+          </div>
+        </article>
+      </section>
+
+      <div class="footer-note">
+        <b>Private sandbox:</b> This demo uses fake-safe sample data. It does not publish, message leads, connect to a CRM, run paid ads, provide lending/legal/tax advice, or guarantee income, closings, program approval, or lead quality.
+      </div>
+    </main>
+  </div>
+
+  <script>
+    document.querySelectorAll(".tab").forEach(button => {
+      button.addEventListener("click", () => {
+        const tab = button.dataset.tab;
+        document.querySelectorAll(".tab").forEach(item => {
+          item.setAttribute("aria-selected", item === button ? "true" : "false");
+        });
+        document.querySelectorAll(".panel").forEach(panel => {
+          panel.classList.toggle("active", panel.id === tab);
+        });
+      });
+    });
+  </script>
+</body>
+</html>

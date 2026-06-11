@@ -1,0 +1,5618 @@
+[
+  {
+    "timestamp": "00:00:00.000",
+    "seconds": 0.0,
+    "type": "observed_spoken",
+    "evidence": "So, something weird is happening on",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00",
+    "seconds": 0,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000000.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:00:01.520",
+    "seconds": 1.52,
+    "type": "observed_spoken",
+    "evidence": "So, something weird is happening on YouTube right now, and most creators",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:03.110",
+    "seconds": 3.11,
+    "type": "observed_spoken",
+    "evidence": "YouTube right now, and most creators",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:03.120",
+    "seconds": 3.12,
+    "type": "observed_spoken",
+    "evidence": "YouTube right now, and most creators haven't even noticed yet, which gives",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:04.710",
+    "seconds": 4.71,
+    "type": "observed_spoken",
+    "evidence": "haven't even noticed yet, which gives",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:04.720",
+    "seconds": 4.72,
+    "type": "observed_spoken",
+    "evidence": "haven't even noticed yet, which gives you a distinct advantage. Fitness",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:07.390",
+    "seconds": 7.39,
+    "type": "observed_spoken",
+    "evidence": "you a distinct advantage. Fitness",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:07.400",
+    "seconds": 7.4,
+    "type": "observed_spoken",
+    "evidence": "you a distinct advantage. Fitness channels are using the visual language",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.350",
+    "seconds": 9.35,
+    "type": "observed_spoken",
+    "evidence": "channels are using the visual language",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:09.360",
+    "seconds": 9.36,
+    "type": "observed_spoken",
+    "evidence": "channels are using the visual language of finance creators, and a channel about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:11.750",
+    "seconds": 11.75,
+    "type": "observed_spoken",
+    "evidence": "of finance creators, and a channel about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:11.760",
+    "seconds": 11.76,
+    "type": "observed_spoken",
+    "evidence": "of finance creators, and a channel about Minecraft just blew up by using the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:14.350",
+    "seconds": 14.35,
+    "type": "observed_spoken",
+    "evidence": "Minecraft just blew up by using the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:14.360",
+    "seconds": 14.36,
+    "type": "observed_spoken",
+    "evidence": "Minecraft just blew up by using the same format of a video about an NFL player.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.390",
+    "seconds": 17.39,
+    "type": "observed_spoken",
+    "evidence": "format of a video about an NFL player.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:17.400",
+    "seconds": 17.4,
+    "type": "observed_spoken",
+    "evidence": "format of a video about an NFL player. It is the new strategy quietly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:19.190",
+    "seconds": 19.19,
+    "type": "observed_spoken",
+    "evidence": "It is the new strategy quietly",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:19.200",
+    "seconds": 19.2,
+    "type": "observed_spoken",
+    "evidence": "It is the new strategy quietly dominating YouTube right now. And it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:21.470",
+    "seconds": 21.47,
+    "type": "observed_spoken",
+    "evidence": "dominating YouTube right now. And it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:21.480",
+    "seconds": 21.48,
+    "type": "observed_spoken",
+    "evidence": "dominating YouTube right now. And it's called",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:23.350",
+    "seconds": 23.35,
+    "type": "observed_spoken",
+    "evidence": "called",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:23.360",
+    "seconds": 23.36,
+    "type": "observed_spoken",
+    "evidence": "called niche bending.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:24.790",
+    "seconds": 24.79,
+    "type": "observed_spoken",
+    "evidence": "niche bending.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:24.800",
+    "seconds": 24.8,
+    "type": "observed_spoken",
+    "evidence": "niche bending. The term was coined by creator Tim",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:26.830",
+    "seconds": 26.83,
+    "type": "observed_spoken",
+    "evidence": "The term was coined by creator Tim",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:26.840",
+    "seconds": 26.84,
+    "type": "observed_spoken",
+    "evidence": "The term was coined by creator Tim Danilov, [music]",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.630",
+    "seconds": 27.63,
+    "type": "observed_spoken",
+    "evidence": "Danilov, [music]",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:27.640",
+    "seconds": 27.64,
+    "type": "observed_spoken",
+    "evidence": "Danilov, [music] and it's how he took a faceless YouTube",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:29.470",
+    "seconds": 29.47,
+    "type": "observed_spoken",
+    "evidence": "and it's how he took a faceless YouTube",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:29.480",
+    "seconds": 29.48,
+    "type": "observed_spoken",
+    "evidence": "and it's how he took a faceless YouTube channel from zero to $56,000 a month in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:32.790",
+    "seconds": 32.79,
+    "type": "observed_spoken",
+    "evidence": "channel from zero to $56,000 a month in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:32.800",
+    "seconds": 32.8,
+    "type": "observed_spoken",
+    "evidence": "channel from zero to $56,000 a month in just 30 days. And then he did it again,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:35.110",
+    "seconds": 35.11,
+    "type": "observed_spoken",
+    "evidence": "just 30 days. And then he did it again,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:35.120",
+    "seconds": 35.12,
+    "type": "observed_spoken",
+    "evidence": "just 30 days. And then he did it again, taking another channel from zero to 150",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:37.870",
+    "seconds": 37.87,
+    "type": "observed_spoken",
+    "evidence": "taking another channel from zero to 150",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:37.880",
+    "seconds": 37.88,
+    "type": "observed_spoken",
+    "evidence": "taking another channel from zero to 150 million views. And then again, zero to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:40.230",
+    "seconds": 40.23,
+    "type": "observed_spoken",
+    "evidence": "million views. And then again, zero to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:40.240",
+    "seconds": 40.24,
+    "type": "observed_spoken",
+    "evidence": "million views. And then again, zero to $23,000",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.870",
+    "seconds": 41.87,
+    "type": "observed_spoken",
+    "evidence": "$23,000",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:41.880",
+    "seconds": 41.88,
+    "type": "observed_spoken",
+    "evidence": "$23,000 in less than 90 days. So, if you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:43.590",
+    "seconds": 43.59,
+    "type": "observed_spoken",
+    "evidence": "in less than 90 days. So, if you're",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:43.600",
+    "seconds": 43.6,
+    "type": "observed_spoken",
+    "evidence": "in less than 90 days. So, if you're still trying to find a niche in 2026,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:46.750",
+    "seconds": 46.75,
+    "type": "observed_spoken",
+    "evidence": "still trying to find a niche in 2026,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:46.760",
+    "seconds": 46.76,
+    "type": "observed_spoken",
+    "evidence": "still trying to find a niche in 2026, quite frankly, you're doing it all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:47.990",
+    "seconds": 47.99,
+    "type": "observed_spoken",
+    "evidence": "quite frankly, you're doing it all",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:48.000",
+    "seconds": 48.0,
+    "type": "observed_spoken",
+    "evidence": "quite frankly, you're doing it all wrong. You need to start bending one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:49.830",
+    "seconds": 49.83,
+    "type": "observed_spoken",
+    "evidence": "wrong. You need to start bending one",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:49.840",
+    "seconds": 49.84,
+    "type": "observed_spoken",
+    "evidence": "wrong. You need to start bending one into a position so it does all of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:52.270",
+    "seconds": 52.27,
+    "type": "observed_spoken",
+    "evidence": "into a position so it does all of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:52.280",
+    "seconds": 52.28,
+    "type": "observed_spoken",
+    "evidence": "into a position so it does all of the work for you. To understand how Tim did",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:54.150",
+    "seconds": 54.15,
+    "type": "observed_spoken",
+    "evidence": "work for you. To understand how Tim did",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:54.160",
+    "seconds": 54.16,
+    "type": "observed_spoken",
+    "evidence": "work for you. To understand how Tim did this time and time again, you almost",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:56.870",
+    "seconds": 56.87,
+    "type": "observed_spoken",
+    "evidence": "this time and time again, you almost",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:56.880",
+    "seconds": 56.88,
+    "type": "observed_spoken",
+    "evidence": "this time and time again, you almost have to unlearn what you think a niche",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.070",
+    "seconds": 59.07,
+    "type": "observed_spoken",
+    "evidence": "have to unlearn what you think a niche",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:00:59.080",
+    "seconds": 59.08,
+    "type": "observed_spoken",
+    "evidence": "have to unlearn what you think a niche is. Most people think a niche is just a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "01:00",
+    "seconds": 60,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000060.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:01:01.350",
+    "seconds": 61.35,
+    "type": "observed_spoken",
+    "evidence": "is. Most people think a niche is just a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:01.360",
+    "seconds": 61.36,
+    "type": "observed_spoken",
+    "evidence": "is. Most people think a niche is just a topic [music] like, I have a gardening",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.110",
+    "seconds": 63.11,
+    "type": "observed_spoken",
+    "evidence": "topic [music] like, I have a gardening",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:03.120",
+    "seconds": 63.12,
+    "type": "observed_spoken",
+    "evidence": "topic [music] like, I have a gardening channel. But Tim doesn't operate with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:04.869",
+    "seconds": 64.869,
+    "type": "observed_spoken",
+    "evidence": "channel. But Tim doesn't operate with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:04.879",
+    "seconds": 64.879,
+    "type": "observed_spoken",
+    "evidence": "channel. But Tim doesn't operate with that type of thinking.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:05.910",
+    "seconds": 65.91,
+    "type": "observed_spoken",
+    "evidence": "that type of thinking.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:05.920",
+    "seconds": 65.92,
+    "type": "observed_spoken",
+    "evidence": "that type of thinking. >> I think it's the easiest way to [music]",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:08.470",
+    "seconds": 68.47,
+    "type": "observed_spoken",
+    "evidence": ">> I think it's the easiest way to [music]",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:08.480",
+    "seconds": 68.48,
+    "type": "observed_spoken",
+    "evidence": ">> I think it's the easiest way to [music] come up with a niche, because like,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:10.470",
+    "seconds": 70.47,
+    "type": "observed_spoken",
+    "evidence": "come up with a niche, because like,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:10.480",
+    "seconds": 70.48,
+    "type": "observed_spoken",
+    "evidence": "come up with a niche, because like, essentially your niche is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.470",
+    "seconds": 72.47,
+    "type": "observed_spoken",
+    "evidence": "essentially your niche is the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:12.480",
+    "seconds": 72.48,
+    "type": "observed_spoken",
+    "evidence": "essentially your niche is the combination of the format [music]",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:14.670",
+    "seconds": 74.67,
+    "type": "observed_spoken",
+    "evidence": "combination of the format [music]",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:14.680",
+    "seconds": 74.68,
+    "type": "observed_spoken",
+    "evidence": "combination of the format [music] and the market.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:16.030",
+    "seconds": 76.03,
+    "type": "observed_spoken",
+    "evidence": "and the market.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:16.040",
+    "seconds": 76.03999999999999,
+    "type": "observed_spoken",
+    "evidence": "and the market. >> You see,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:17.390",
+    "seconds": 77.39,
+    "type": "observed_spoken",
+    "evidence": ">> You see,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:17.400",
+    "seconds": 77.4,
+    "type": "observed_spoken",
+    "evidence": ">> You see, your niche isn't just a topic you talk",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:20.230",
+    "seconds": 80.23,
+    "type": "observed_spoken",
+    "evidence": "your niche isn't just a topic you talk",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:20.240",
+    "seconds": 80.24,
+    "type": "observed_spoken",
+    "evidence": "your niche isn't just a topic you talk about. To be more specific, it's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:22.070",
+    "seconds": 82.07,
+    "type": "observed_spoken",
+    "evidence": "about. To be more specific, it's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:22.080",
+    "seconds": 82.08,
+    "type": "observed_spoken",
+    "evidence": "about. To be more specific, it's the combination of the market you're serving",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:24.070",
+    "seconds": 84.07,
+    "type": "observed_spoken",
+    "evidence": "combination of the market you're serving",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:24.080",
+    "seconds": 84.08,
+    "type": "observed_spoken",
+    "evidence": "combination of the market you're serving and the format you're using. First, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:26.150",
+    "seconds": 86.15,
+    "type": "observed_spoken",
+    "evidence": "and the format you're using. First, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:26.160",
+    "seconds": 86.16,
+    "type": "observed_spoken",
+    "evidence": "and the format you're using. First, you have the market, and these are massive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:28.150",
+    "seconds": 88.15,
+    "type": "observed_spoken",
+    "evidence": "have the market, and these are massive",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:28.160",
+    "seconds": 88.16,
+    "type": "observed_spoken",
+    "evidence": "have the market, and these are massive categories from finance to fitness,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:29.990",
+    "seconds": 89.99,
+    "type": "observed_spoken",
+    "evidence": "categories from finance to fitness,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:30.000",
+    "seconds": 90.0,
+    "type": "observed_spoken",
+    "evidence": "categories from finance to fitness, gaming to DIY, and so on. And these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:32.310",
+    "seconds": 92.31,
+    "type": "observed_spoken",
+    "evidence": "gaming to DIY, and so on. And these",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:32.320",
+    "seconds": 92.32,
+    "type": "observed_spoken",
+    "evidence": "gaming to DIY, and so on. And these rarely ever change. You can't really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:34.790",
+    "seconds": 94.78999999999999,
+    "type": "observed_spoken",
+    "evidence": "rarely ever change. You can't really",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:34.800",
+    "seconds": 94.8,
+    "type": "observed_spoken",
+    "evidence": "rarely ever change. You can't really invent a new market, but then you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:37.230",
+    "seconds": 97.22999999999999,
+    "type": "observed_spoken",
+    "evidence": "invent a new market, but then you have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:37.240",
+    "seconds": 97.24000000000001,
+    "type": "observed_spoken",
+    "evidence": "invent a new market, but then you have the format. This is the container for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:39.950",
+    "seconds": 99.95,
+    "type": "observed_spoken",
+    "evidence": "the format. This is the container for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:39.960",
+    "seconds": 99.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "the format. This is the container for your content. How do you deliver the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:41.990",
+    "seconds": 101.99000000000001,
+    "type": "observed_spoken",
+    "evidence": "your content. How do you deliver the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:42.000",
+    "seconds": 102.0,
+    "type": "observed_spoken",
+    "evidence": "your content. How do you deliver the information? Is it a tier list, a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:44.070",
+    "seconds": 104.07,
+    "type": "observed_spoken",
+    "evidence": "information? Is it a tier list, a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:44.080",
+    "seconds": 104.08,
+    "type": "observed_spoken",
+    "evidence": "information? Is it a tier list, a 100-day challenge, a video essay?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:46.230",
+    "seconds": 106.22999999999999,
+    "type": "observed_spoken",
+    "evidence": "100-day challenge, a video essay?",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:46.240",
+    "seconds": 106.24000000000001,
+    "type": "observed_spoken",
+    "evidence": "100-day challenge, a video essay? >> There are thousands of new formats every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.950",
+    "seconds": 107.95,
+    "type": "observed_spoken",
+    "evidence": ">> There are thousands of new formats every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:47.960",
+    "seconds": 107.96000000000001,
+    "type": "observed_spoken",
+    "evidence": ">> There are thousands of new formats every single day on YouTube. Like, that's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:49.950",
+    "seconds": 109.95,
+    "type": "observed_spoken",
+    "evidence": "single day on YouTube. Like, that's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:49.960",
+    "seconds": 109.96000000000001,
+    "type": "observed_spoken",
+    "evidence": "single day on YouTube. Like, that's the the most creative part. And what the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:52.150",
+    "seconds": 112.15,
+    "type": "observed_spoken",
+    "evidence": "the most creative part. And what the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:52.160",
+    "seconds": 112.16,
+    "type": "observed_spoken",
+    "evidence": "the most creative part. And what the niche bending is is you create a new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:55.870",
+    "seconds": 115.87,
+    "type": "observed_spoken",
+    "evidence": "niche bending is is you create a new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:01:55.880",
+    "seconds": 115.88,
+    "type": "observed_spoken",
+    "evidence": "niche bending is is you create a new niche by applying the viral format to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "02:00",
+    "seconds": 120,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000120.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:02:00.190",
+    "seconds": 120.19,
+    "type": "observed_spoken",
+    "evidence": "niche by applying the viral format to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:00.200",
+    "seconds": 120.2,
+    "type": "observed_spoken",
+    "evidence": "niche by applying the viral format to the market where it was never used",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:01.790",
+    "seconds": 121.79,
+    "type": "observed_spoken",
+    "evidence": "the market where it was never used",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:01.800",
+    "seconds": 121.8,
+    "type": "observed_spoken",
+    "evidence": "the market where it was never used before. And this is already happening",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.510",
+    "seconds": 123.51,
+    "type": "observed_spoken",
+    "evidence": "before. And this is already happening",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:03.520",
+    "seconds": 123.52,
+    "type": "observed_spoken",
+    "evidence": "before. And this is already happening everywhere on YouTube. Let me show you.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.469",
+    "seconds": 125.469,
+    "type": "observed_spoken",
+    "evidence": "everywhere on YouTube. Let me show you.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:05.479",
+    "seconds": 125.479,
+    "type": "observed_spoken",
+    "evidence": "everywhere on YouTube. Let me show you. Here's a video from NFL Stories, a small",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:07.550",
+    "seconds": 127.55,
+    "type": "observed_spoken",
+    "evidence": "Here's a video from NFL Stories, a small",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:07.560",
+    "seconds": 127.56,
+    "type": "observed_spoken",
+    "evidence": "Here's a video from NFL Stories, a small but very successful channel about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:11.070",
+    "seconds": 131.07,
+    "type": "observed_spoken",
+    "evidence": "but very successful channel about",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:11.080",
+    "seconds": 131.08,
+    "type": "observed_spoken",
+    "evidence": "but very successful channel about gridiron. I can't say football, it isn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:13.310",
+    "seconds": 133.31,
+    "type": "observed_spoken",
+    "evidence": "gridiron. I can't say football, it isn't",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:13.320",
+    "seconds": 133.32,
+    "type": "observed_spoken",
+    "evidence": "gridiron. I can't say football, it isn't football. But anyway, that's the market.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:15.870",
+    "seconds": 135.87,
+    "type": "observed_spoken",
+    "evidence": "football. But anyway, that's the market.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:15.880",
+    "seconds": 135.88,
+    "type": "observed_spoken",
+    "evidence": "football. But anyway, that's the market. His video, \"This video will change the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.949",
+    "seconds": 137.949,
+    "type": "observed_spoken",
+    "evidence": "His video, \"This video will change the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:17.959",
+    "seconds": 137.959,
+    "type": "observed_spoken",
+    "evidence": "His video, \"This video will change the way you see Patrick Mahomes forever\" is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:20.350",
+    "seconds": 140.35,
+    "type": "observed_spoken",
+    "evidence": "way you see Patrick Mahomes forever\" is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:20.360",
+    "seconds": 140.36,
+    "type": "observed_spoken",
+    "evidence": "way you see Patrick Mahomes forever\" is the format. And it's a video that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:22.230",
+    "seconds": 142.23,
+    "type": "observed_spoken",
+    "evidence": "the format. And it's a video that's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:22.240",
+    "seconds": 142.24,
+    "type": "observed_spoken",
+    "evidence": "the format. And it's a video that's performed well for the channel to the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:23.910",
+    "seconds": 143.91,
+    "type": "observed_spoken",
+    "evidence": "performed well for the channel to the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:23.920",
+    "seconds": 143.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "performed well for the channel to the tune of 75,000 views, about three and a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:26.670",
+    "seconds": 146.67000000000002,
+    "type": "observed_spoken",
+    "evidence": "tune of 75,000 views, about three and a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:26.680",
+    "seconds": 146.68,
+    "type": "observed_spoken",
+    "evidence": "tune of 75,000 views, about three and a half times more views than typical for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:28.670",
+    "seconds": 148.67000000000002,
+    "type": "observed_spoken",
+    "evidence": "half times more views than typical for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:28.680",
+    "seconds": 148.68,
+    "type": "observed_spoken",
+    "evidence": "half times more views than typical for the channel. Now, look at this Minecraft",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:30.270",
+    "seconds": 150.27,
+    "type": "observed_spoken",
+    "evidence": "the channel. Now, look at this Minecraft",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:30.280",
+    "seconds": 150.28,
+    "type": "observed_spoken",
+    "evidence": "the channel. Now, look at this Minecraft channel made by Rafa. Four days later,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:32.670",
+    "seconds": 152.67000000000002,
+    "type": "observed_spoken",
+    "evidence": "channel made by Rafa. Four days later,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:32.680",
+    "seconds": 152.68,
+    "type": "observed_spoken",
+    "evidence": "channel made by Rafa. Four days later, they posted \"This video will change how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.910",
+    "seconds": 155.91,
+    "type": "observed_spoken",
+    "evidence": "they posted \"This video will change how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:35.920",
+    "seconds": 155.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "they posted \"This video will change how you play Minecraft forever.\" It's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:38.310",
+    "seconds": 158.31,
+    "type": "observed_spoken",
+    "evidence": "you play Minecraft forever.\" It's the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:38.320",
+    "seconds": 158.32,
+    "type": "observed_spoken",
+    "evidence": "you play Minecraft forever.\" It's the same exact title structure and the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:41.190",
+    "seconds": 161.19,
+    "type": "observed_spoken",
+    "evidence": "same exact title structure and the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:41.200",
+    "seconds": 161.2,
+    "type": "observed_spoken",
+    "evidence": "same exact title structure and the same promise, but it's for an entirely",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:43.110",
+    "seconds": 163.11,
+    "type": "observed_spoken",
+    "evidence": "promise, but it's for an entirely",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:43.120",
+    "seconds": 163.12,
+    "type": "observed_spoken",
+    "evidence": "promise, but it's for an entirely different audience. In other words,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:45.910",
+    "seconds": 165.91,
+    "type": "observed_spoken",
+    "evidence": "different audience. In other words,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:45.920",
+    "seconds": 165.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "different audience. In other words, different markets, same format. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:48.510",
+    "seconds": 168.51,
+    "type": "observed_spoken",
+    "evidence": "different markets, same format. And",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:48.520",
+    "seconds": 168.52,
+    "type": "observed_spoken",
+    "evidence": "different markets, same format. And then, My Matrix did the same thing in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:50.750",
+    "seconds": 170.75,
+    "type": "observed_spoken",
+    "evidence": "then, My Matrix did the same thing in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:50.760",
+    "seconds": 170.76,
+    "type": "observed_spoken",
+    "evidence": "then, My Matrix did the same thing in the spirituality niche. And it's a 100",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:53.830",
+    "seconds": 173.82999999999998,
+    "type": "observed_spoken",
+    "evidence": "the spirituality niche. And it's a 100",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:53.840",
+    "seconds": 173.84,
+    "type": "observed_spoken",
+    "evidence": "the spirituality niche. And it's a 100 times outlier for his channel. That is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:56.310",
+    "seconds": 176.31,
+    "type": "observed_spoken",
+    "evidence": "times outlier for his channel. That is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:56.320",
+    "seconds": 176.32,
+    "type": "observed_spoken",
+    "evidence": "times outlier for his channel. That is what you call a viral moment. And this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:59.070",
+    "seconds": 179.07,
+    "type": "observed_spoken",
+    "evidence": "what you call a viral moment. And this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:02:59.080",
+    "seconds": 179.07999999999998,
+    "type": "observed_spoken",
+    "evidence": "what you call a viral moment. And this is one format in three completely",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "03:00",
+    "seconds": 180,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000180.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:03:01.630",
+    "seconds": 181.63,
+    "type": "observed_spoken",
+    "evidence": "is one format in three completely",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:01.640",
+    "seconds": 181.64,
+    "type": "observed_spoken",
+    "evidence": "is one format in three completely different markets all finding outlier",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:04.310",
+    "seconds": 184.31,
+    "type": "observed_spoken",
+    "evidence": "different markets all finding outlier",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:04.320",
+    "seconds": 184.32,
+    "type": "observed_spoken",
+    "evidence": "different markets all finding outlier success. That's is the power of niche",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:07.150",
+    "seconds": 187.15,
+    "type": "observed_spoken",
+    "evidence": "success. That's is the power of niche",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:07.160",
+    "seconds": 187.16,
+    "type": "observed_spoken",
+    "evidence": "success. That's is the power of niche bending. Now then, for a quick hack to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:09.070",
+    "seconds": 189.07,
+    "type": "observed_spoken",
+    "evidence": "bending. Now then, for a quick hack to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:09.080",
+    "seconds": 189.08,
+    "type": "observed_spoken",
+    "evidence": "bending. Now then, for a quick hack to niche bend any video on YouTube, you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:11.310",
+    "seconds": 191.31,
+    "type": "observed_spoken",
+    "evidence": "niche bend any video on YouTube, you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:11.320",
+    "seconds": 191.32,
+    "type": "observed_spoken",
+    "evidence": "niche bend any video on YouTube, you can use this cool little vidIQ remix tool.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.790",
+    "seconds": 193.79,
+    "type": "observed_spoken",
+    "evidence": "use this cool little vidIQ remix tool.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:13.800",
+    "seconds": 193.8,
+    "type": "observed_spoken",
+    "evidence": "use this cool little vidIQ remix tool. What it will do is remix a title of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:15.910",
+    "seconds": 195.91,
+    "type": "observed_spoken",
+    "evidence": "What it will do is remix a title of the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:15.920",
+    "seconds": 195.92,
+    "type": "observed_spoken",
+    "evidence": "What it will do is remix a title of the current video to fit your niche. In this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:17.870",
+    "seconds": 197.87,
+    "type": "observed_spoken",
+    "evidence": "current video to fit your niche. In this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:17.880",
+    "seconds": 197.88,
+    "type": "observed_spoken",
+    "evidence": "current video to fit your niche. In this example, the channel we're niche bending",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:20.110",
+    "seconds": 200.11,
+    "type": "observed_spoken",
+    "evidence": "example, the channel we're niche bending",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:20.120",
+    "seconds": 200.12,
+    "type": "observed_spoken",
+    "evidence": "example, the channel we're niche bending into is about weight loss and fitness",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.910",
+    "seconds": 201.91,
+    "type": "observed_spoken",
+    "evidence": "into is about weight loss and fitness",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:21.920",
+    "seconds": 201.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "into is about weight loss and fitness workouts. And so, the remix titles from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:24.030",
+    "seconds": 204.03,
+    "type": "observed_spoken",
+    "evidence": "workouts. And so, the remix titles from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:24.040",
+    "seconds": 204.04,
+    "type": "observed_spoken",
+    "evidence": "workouts. And so, the remix titles from the NFL video reflect that.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.509",
+    "seconds": 206.50900000000001,
+    "type": "observed_spoken",
+    "evidence": "the NFL video reflect that.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:26.519",
+    "seconds": 206.519,
+    "type": "observed_spoken",
+    "evidence": "the NFL video reflect that. This handy tool is at your fingertips",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.190",
+    "seconds": 208.19,
+    "type": "observed_spoken",
+    "evidence": "This handy tool is at your fingertips",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:28.200",
+    "seconds": 208.2,
+    "type": "observed_spoken",
+    "evidence": "This handy tool is at your fingertips wherever you are on YouTube because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:29.710",
+    "seconds": 209.71,
+    "type": "observed_spoken",
+    "evidence": "wherever you are on YouTube because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:29.720",
+    "seconds": 209.72,
+    "type": "observed_spoken",
+    "evidence": "wherever you are on YouTube because it'll also appear on home pages and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:31.750",
+    "seconds": 211.75,
+    "type": "observed_spoken",
+    "evidence": "it'll also appear on home pages and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:31.760",
+    "seconds": 211.76,
+    "type": "observed_spoken",
+    "evidence": "it'll also appear on home pages and channel pages as well. There's a link in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:33.430",
+    "seconds": 213.43,
+    "type": "observed_spoken",
+    "evidence": "channel pages as well. There's a link in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:33.440",
+    "seconds": 213.44,
+    "type": "observed_spoken",
+    "evidence": "channel pages as well. There's a link in the description. If you want to witness",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:34.790",
+    "seconds": 214.79,
+    "type": "observed_spoken",
+    "evidence": "the description. If you want to witness",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:34.800",
+    "seconds": 214.8,
+    "type": "observed_spoken",
+    "evidence": "the description. If you want to witness an absolute masterclass of this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:36.710",
+    "seconds": 216.71,
+    "type": "observed_spoken",
+    "evidence": "an absolute masterclass of this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:36.720",
+    "seconds": 216.72,
+    "type": "observed_spoken",
+    "evidence": "an absolute masterclass of this strategy, let me introduce you to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:38.630",
+    "seconds": 218.63,
+    "type": "observed_spoken",
+    "evidence": "strategy, let me introduce you to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:38.640",
+    "seconds": 218.64,
+    "type": "observed_spoken",
+    "evidence": "strategy, let me introduce you to TierZoo. At first glance, this looks",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:40.350",
+    "seconds": 220.35,
+    "type": "observed_spoken",
+    "evidence": "TierZoo. At first glance, this looks",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:40.360",
+    "seconds": 220.36,
+    "type": "observed_spoken",
+    "evidence": "TierZoo. At first glance, this looks like a gaming channel. The thumbnails",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.910",
+    "seconds": 221.91,
+    "type": "observed_spoken",
+    "evidence": "like a gaming channel. The thumbnails",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:41.920",
+    "seconds": 221.92000000000002,
+    "type": "observed_spoken",
+    "evidence": "like a gaming channel. The thumbnails have STR rankings, health bars, and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:43.870",
+    "seconds": 223.87,
+    "type": "observed_spoken",
+    "evidence": "have STR rankings, health bars, and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:43.880",
+    "seconds": 223.88,
+    "type": "observed_spoken",
+    "evidence": "have STR rankings, health bars, and knockout screens. But in reality, it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.190",
+    "seconds": 226.19,
+    "type": "observed_spoken",
+    "evidence": "knockout screens. But in reality, it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:46.200",
+    "seconds": 226.2,
+    "type": "observed_spoken",
+    "evidence": "knockout screens. But in reality, it's an animal biology channel. So, let's run",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:48.110",
+    "seconds": 228.11,
+    "type": "observed_spoken",
+    "evidence": "an animal biology channel. So, let's run",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:48.120",
+    "seconds": 228.12,
+    "type": "observed_spoken",
+    "evidence": "an animal biology channel. So, let's run it through our equation. The market:",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:50.350",
+    "seconds": 230.35,
+    "type": "observed_spoken",
+    "evidence": "it through our equation. The market:",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:50.360",
+    "seconds": 230.36,
+    "type": "observed_spoken",
+    "evidence": "it through our equation. The market: zoology, education, nature",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:52.390",
+    "seconds": 232.39,
+    "type": "observed_spoken",
+    "evidence": "zoology, education, nature",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:52.400",
+    "seconds": 232.4,
+    "type": "observed_spoken",
+    "evidence": "zoology, education, nature documentaries. Usually this market is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:54.750",
+    "seconds": 234.75,
+    "type": "observed_spoken",
+    "evidence": "documentaries. Usually this market is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:54.760",
+    "seconds": 234.76,
+    "type": "observed_spoken",
+    "evidence": "documentaries. Usually this market is traditional, very considered, arguably",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.270",
+    "seconds": 237.27,
+    "type": "observed_spoken",
+    "evidence": "traditional, very considered, arguably",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:57.280",
+    "seconds": 237.28,
+    "type": "observed_spoken",
+    "evidence": "traditional, very considered, arguably quite slow and boring by today's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:59.110",
+    "seconds": 239.11,
+    "type": "observed_spoken",
+    "evidence": "quite slow and boring by today's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:03:59.120",
+    "seconds": 239.12,
+    "type": "observed_spoken",
+    "evidence": "quite slow and boring by today's standards. Think David Attenborough.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "04:00",
+    "seconds": 240,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000240.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:04:01.510",
+    "seconds": 241.51,
+    "type": "observed_spoken",
+    "evidence": "standards. Think David Attenborough.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:01.520",
+    "seconds": 241.52,
+    "type": "observed_spoken",
+    "evidence": "standards. Think David Attenborough. It's a calm narration.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:04.470",
+    "seconds": 244.47,
+    "type": "observed_spoken",
+    "evidence": "It's a calm narration.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:04.480",
+    "seconds": 244.48,
+    "type": "observed_spoken",
+    "evidence": "It's a calm narration. A giant black void, larger than all the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:07.990",
+    "seconds": 247.99,
+    "type": "observed_spoken",
+    "evidence": "A giant black void, larger than all the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:08.000",
+    "seconds": 248.0,
+    "type": "observed_spoken",
+    "evidence": "A giant black void, larger than all the rest of the world's habitats combined.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:11.150",
+    "seconds": 251.15,
+    "type": "observed_spoken",
+    "evidence": "rest of the world's habitats combined.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:11.160",
+    "seconds": 251.16,
+    "type": "observed_spoken",
+    "evidence": "rest of the world's habitats combined. But to formats,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:12.830",
+    "seconds": 252.83,
+    "type": "observed_spoken",
+    "evidence": "But to formats,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:12.840",
+    "seconds": 252.84,
+    "type": "observed_spoken",
+    "evidence": "But to formats, it's competitive gaming. It's patch",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:16.590",
+    "seconds": 256.59,
+    "type": "observed_spoken",
+    "evidence": "it's competitive gaming. It's patch",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:16.600",
+    "seconds": 256.6,
+    "type": "observed_spoken",
+    "evidence": "it's competitive gaming. It's patch notes,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:17.750",
+    "seconds": 257.75,
+    "type": "observed_spoken",
+    "evidence": "notes,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:17.760",
+    "seconds": 257.76,
+    "type": "observed_spoken",
+    "evidence": "notes, tier lists. And it's not just the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:19.990",
+    "seconds": 259.99,
+    "type": "observed_spoken",
+    "evidence": "tier lists. And it's not just the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:20.000",
+    "seconds": 260.0,
+    "type": "observed_spoken",
+    "evidence": "tier lists. And it's not just the packaging this time. Tier Zoo took the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:22.310",
+    "seconds": 262.31,
+    "type": "observed_spoken",
+    "evidence": "packaging this time. Tier Zoo took the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:22.320",
+    "seconds": 262.32,
+    "type": "observed_spoken",
+    "evidence": "packaging this time. Tier Zoo took the very serious concept of evolution and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:25.510",
+    "seconds": 265.51,
+    "type": "observed_spoken",
+    "evidence": "very serious concept of evolution and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:25.520",
+    "seconds": 265.52,
+    "type": "observed_spoken",
+    "evidence": "very serious concept of evolution and bent it into gaming language. As a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:28.070",
+    "seconds": 268.07,
+    "type": "observed_spoken",
+    "evidence": "bent it into gaming language. As a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:28.080",
+    "seconds": 268.08,
+    "type": "observed_spoken",
+    "evidence": "bent it into gaming language. As a result of this format, the creator",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:29.630",
+    "seconds": 269.63,
+    "type": "observed_spoken",
+    "evidence": "result of this format, the creator",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:29.640",
+    "seconds": 269.64,
+    "type": "observed_spoken",
+    "evidence": "result of this format, the creator doesn't describe things in a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:30.870",
+    "seconds": 270.87,
+    "type": "observed_spoken",
+    "evidence": "doesn't describe things in a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:30.880",
+    "seconds": 270.88,
+    "type": "observed_spoken",
+    "evidence": "doesn't describe things in a matter-of-fact way, such as humans",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:32.630",
+    "seconds": 272.63,
+    "type": "observed_spoken",
+    "evidence": "matter-of-fact way, such as humans",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:32.640",
+    "seconds": 272.64,
+    "type": "observed_spoken",
+    "evidence": "matter-of-fact way, such as humans adapting to the environmental",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:33.950",
+    "seconds": 273.95,
+    "type": "observed_spoken",
+    "evidence": "adapting to the environmental",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:33.960",
+    "seconds": 273.96,
+    "type": "observed_spoken",
+    "evidence": "adapting to the environmental conditions. Instead, he says,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:36.230",
+    "seconds": 276.23,
+    "type": "observed_spoken",
+    "evidence": "conditions. Instead, he says,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:36.240",
+    "seconds": 276.24,
+    "type": "observed_spoken",
+    "evidence": "conditions. Instead, he says, >> This was the first step towards refining",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.909",
+    "seconds": 277.909,
+    "type": "observed_spoken",
+    "evidence": ">> This was the first step towards refining",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:37.919",
+    "seconds": 277.919,
+    "type": "observed_spoken",
+    "evidence": ">> This was the first step towards refining the cooperative loot sharing play style",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:39.830",
+    "seconds": 279.83,
+    "type": "observed_spoken",
+    "evidence": "the cooperative loot sharing play style",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:39.840",
+    "seconds": 279.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "the cooperative loot sharing play style that have made humans so dominant in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:41.630",
+    "seconds": 281.63,
+    "type": "observed_spoken",
+    "evidence": "that have made humans so dominant in the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:41.640",
+    "seconds": 281.64,
+    "type": "observed_spoken",
+    "evidence": "that have made humans so dominant in the current meta. Now, you might be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:43.310",
+    "seconds": 283.31,
+    "type": "observed_spoken",
+    "evidence": "current meta. Now, you might be",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:43.320",
+    "seconds": 283.32,
+    "type": "observed_spoken",
+    "evidence": "current meta. Now, you might be surprised to learn that the devs have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:44.950",
+    "seconds": 284.95,
+    "type": "observed_spoken",
+    "evidence": "surprised to learn that the devs have",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:44.960",
+    "seconds": 284.96,
+    "type": "observed_spoken",
+    "evidence": "surprised to learn that the devs have nerfed humans in the past.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:46.830",
+    "seconds": 286.83,
+    "type": "observed_spoken",
+    "evidence": "nerfed humans in the past.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:46.840",
+    "seconds": 286.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "nerfed humans in the past. The tree-dwelling strategy was seen as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:48.590",
+    "seconds": 288.59000000000003,
+    "type": "observed_spoken",
+    "evidence": "The tree-dwelling strategy was seen as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:48.600",
+    "seconds": 288.6,
+    "type": "observed_spoken",
+    "evidence": "The tree-dwelling strategy was seen as a cheap way to avoid dealing with other",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:49.990",
+    "seconds": 289.99,
+    "type": "observed_spoken",
+    "evidence": "cheap way to avoid dealing with other",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:50.000",
+    "seconds": 290.0,
+    "type": "observed_spoken",
+    "evidence": "cheap way to avoid dealing with other players, and so the devs decided to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.630",
+    "seconds": 291.63,
+    "type": "observed_spoken",
+    "evidence": "players, and so the devs decided to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:51.640",
+    "seconds": 291.64,
+    "type": "observed_spoken",
+    "evidence": "players, and so the devs decided to reduce the number and size of trees in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:53.310",
+    "seconds": 293.31,
+    "type": "observed_spoken",
+    "evidence": "reduce the number and size of trees in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:53.320",
+    "seconds": 293.32,
+    "type": "observed_spoken",
+    "evidence": "reduce the number and size of trees in the Africa server.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.230",
+    "seconds": 294.23,
+    "type": "observed_spoken",
+    "evidence": "the Africa server.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:54.240",
+    "seconds": 294.24,
+    "type": "observed_spoken",
+    "evidence": "the Africa server. >> And when comparing one environment to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:55.830",
+    "seconds": 295.83,
+    "type": "observed_spoken",
+    "evidence": ">> And when comparing one environment to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:55.840",
+    "seconds": 295.84000000000003,
+    "type": "observed_spoken",
+    "evidence": ">> And when comparing one environment to another, such as the Amazon rainforest",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.590",
+    "seconds": 297.59000000000003,
+    "type": "observed_spoken",
+    "evidence": "another, such as the Amazon rainforest",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:57.600",
+    "seconds": 297.6,
+    "type": "observed_spoken",
+    "evidence": "another, such as the Amazon rainforest and the African plains,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:58.670",
+    "seconds": 298.67,
+    "type": "observed_spoken",
+    "evidence": "and the African plains,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:04:58.680",
+    "seconds": 298.68,
+    "type": "observed_spoken",
+    "evidence": "and the African plains, >> I know I drone on a lot about how OP",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "05:00",
+    "seconds": 300,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000300.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:05:00.470",
+    "seconds": 300.47,
+    "type": "observed_spoken",
+    "evidence": ">> I know I drone on a lot about how OP",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:00.480",
+    "seconds": 300.48,
+    "type": "observed_spoken",
+    "evidence": ">> I know I drone on a lot about how OP African builds are, but the Amazon",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:02.470",
+    "seconds": 302.47,
+    "type": "observed_spoken",
+    "evidence": "African builds are, but the Amazon",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:02.480",
+    "seconds": 302.48,
+    "type": "observed_spoken",
+    "evidence": "African builds are, but the Amazon rainforest is home to some of the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:04.030",
+    "seconds": 304.03,
+    "type": "observed_spoken",
+    "evidence": "rainforest is home to some of the most",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:04.040",
+    "seconds": 304.04,
+    "type": "observed_spoken",
+    "evidence": "rainforest is home to some of the most fearsome predators in the game. And as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:06.030",
+    "seconds": 306.03,
+    "type": "observed_spoken",
+    "evidence": "fearsome predators in the game. And as",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:06.040",
+    "seconds": 306.04,
+    "type": "observed_spoken",
+    "evidence": "fearsome predators in the game. And as for extinction-level events, well, it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:08.310",
+    "seconds": 308.31,
+    "type": "observed_spoken",
+    "evidence": "for extinction-level events, well, it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:08.320",
+    "seconds": 308.32,
+    "type": "observed_spoken",
+    "evidence": "for extinction-level events, well, it's just a patch update to him. So, why is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:10.270",
+    "seconds": 310.27,
+    "type": "observed_spoken",
+    "evidence": "just a patch update to him. So, why is",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:10.280",
+    "seconds": 310.28,
+    "type": "observed_spoken",
+    "evidence": "just a patch update to him. So, why is it that of all the sloth builds, only",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:12.150",
+    "seconds": 312.15,
+    "type": "observed_spoken",
+    "evidence": "it that of all the sloth builds, only",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:12.160",
+    "seconds": 312.16,
+    "type": "observed_spoken",
+    "evidence": "it that of all the sloth builds, only the tree sloths survived the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:13.470",
+    "seconds": 313.47,
+    "type": "observed_spoken",
+    "evidence": "the tree sloths survived the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:13.480",
+    "seconds": 313.48,
+    "type": "observed_spoken",
+    "evidence": "the tree sloths survived the Anthropocene update? Well, it turns out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:15.790",
+    "seconds": 315.79,
+    "type": "observed_spoken",
+    "evidence": "Anthropocene update? Well, it turns out",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:15.800",
+    "seconds": 315.8,
+    "type": "observed_spoken",
+    "evidence": "Anthropocene update? Well, it turns out that it's for the same reason that their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:17.070",
+    "seconds": 317.07,
+    "type": "observed_spoken",
+    "evidence": "that it's for the same reason that their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:17.080",
+    "seconds": 317.08,
+    "type": "observed_spoken",
+    "evidence": "that it's for the same reason that their low tier. Most ice age top tiers were",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:19.470",
+    "seconds": 319.47,
+    "type": "observed_spoken",
+    "evidence": "low tier. Most ice age top tiers were",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:19.480",
+    "seconds": 319.48,
+    "type": "observed_spoken",
+    "evidence": "low tier. Most ice age top tiers were wiped out by the invasion of humans, and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:21.909",
+    "seconds": 321.909,
+    "type": "observed_spoken",
+    "evidence": "wiped out by the invasion of humans, and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:21.919",
+    "seconds": 321.919,
+    "type": "observed_spoken",
+    "evidence": "wiped out by the invasion of humans, and giant ground [music] sloths were no",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:23.190",
+    "seconds": 323.19,
+    "type": "observed_spoken",
+    "evidence": "giant ground [music] sloths were no",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:23.200",
+    "seconds": 323.2,
+    "type": "observed_spoken",
+    "evidence": "giant ground [music] sloths were no exception.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:24.510",
+    "seconds": 324.51,
+    "type": "observed_spoken",
+    "evidence": "exception.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:24.520",
+    "seconds": 324.52,
+    "type": "observed_spoken",
+    "evidence": "exception. Despite being able to easily one-shot",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:26.270",
+    "seconds": 326.27,
+    "type": "observed_spoken",
+    "evidence": "Despite being able to easily one-shot",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:26.280",
+    "seconds": 326.28,
+    "type": "observed_spoken",
+    "evidence": "Despite being able to easily one-shot humans with their claws swipes, giant",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:28.430",
+    "seconds": 328.43,
+    "type": "observed_spoken",
+    "evidence": "humans with their claws swipes, giant",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:28.440",
+    "seconds": 328.44,
+    "type": "observed_spoken",
+    "evidence": "humans with their claws swipes, giant sloths had no defense against",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:29.790",
+    "seconds": 329.79,
+    "type": "observed_spoken",
+    "evidence": "sloths had no defense against",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:29.800",
+    "seconds": 329.8,
+    "type": "observed_spoken",
+    "evidence": "sloths had no defense against projectiles. So, why does this work so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:31.830",
+    "seconds": 331.83,
+    "type": "observed_spoken",
+    "evidence": "projectiles. So, why does this work so",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:31.840",
+    "seconds": 331.84,
+    "type": "observed_spoken",
+    "evidence": "projectiles. So, why does this work so well? Well, it's because it unlocks a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:34.190",
+    "seconds": 334.19,
+    "type": "observed_spoken",
+    "evidence": "well? Well, it's because it unlocks a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:34.200",
+    "seconds": 334.2,
+    "type": "observed_spoken",
+    "evidence": "well? Well, it's because it unlocks a new audience. If you make a normal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:36.590",
+    "seconds": 336.59000000000003,
+    "type": "observed_spoken",
+    "evidence": "new audience. If you make a normal",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:36.600",
+    "seconds": 336.6,
+    "type": "observed_spoken",
+    "evidence": "new audience. If you make a normal nature documentary, you're competing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:38.510",
+    "seconds": 338.51,
+    "type": "observed_spoken",
+    "evidence": "nature documentary, you're competing",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:38.520",
+    "seconds": 338.52,
+    "type": "observed_spoken",
+    "evidence": "nature documentary, you're competing against the likes of National",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:39.870",
+    "seconds": 339.87,
+    "type": "observed_spoken",
+    "evidence": "against the likes of National",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:39.880",
+    "seconds": 339.88,
+    "type": "observed_spoken",
+    "evidence": "against the likes of National Geographic, and I'd say that's a pretty",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:42.150",
+    "seconds": 342.15,
+    "type": "observed_spoken",
+    "evidence": "Geographic, and I'd say that's a pretty",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:42.160",
+    "seconds": 342.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "Geographic, and I'd say that's a pretty tough fight. And a certain audience will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:44.390",
+    "seconds": 344.39,
+    "type": "observed_spoken",
+    "evidence": "tough fight. And a certain audience will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:44.400",
+    "seconds": 344.4,
+    "type": "observed_spoken",
+    "evidence": "tough fight. And a certain audience will watch that content because we all know",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:46.550",
+    "seconds": 346.55,
+    "type": "observed_spoken",
+    "evidence": "watch that content because we all know",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:46.560",
+    "seconds": 346.56,
+    "type": "observed_spoken",
+    "evidence": "watch that content because we all know what to expect from it. But, by bending",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:49.550",
+    "seconds": 349.55,
+    "type": "observed_spoken",
+    "evidence": "what to expect from it. But, by bending",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:49.560",
+    "seconds": 349.56,
+    "type": "observed_spoken",
+    "evidence": "what to expect from it. But, by bending the format, Tier Zoo is speaking to an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:51.830",
+    "seconds": 351.83,
+    "type": "observed_spoken",
+    "evidence": "the format, Tier Zoo is speaking to an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:51.840",
+    "seconds": 351.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "the format, Tier Zoo is speaking to an entirely new audience who might never",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:54.070",
+    "seconds": 354.07,
+    "type": "observed_spoken",
+    "evidence": "entirely new audience who might never",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:54.080",
+    "seconds": 354.08,
+    "type": "observed_spoken",
+    "evidence": "entirely new audience who might never watch a traditional nature documentary.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:56.710",
+    "seconds": 356.71,
+    "type": "observed_spoken",
+    "evidence": "watch a traditional nature documentary.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:56.720",
+    "seconds": 356.72,
+    "type": "observed_spoken",
+    "evidence": "watch a traditional nature documentary. And by speaking the audience's language",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:58.630",
+    "seconds": 358.63,
+    "type": "observed_spoken",
+    "evidence": "And by speaking the audience's language",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:05:58.640",
+    "seconds": 358.64,
+    "type": "observed_spoken",
+    "evidence": "And by speaking the audience's language and entertaining them the way they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "06:00",
+    "seconds": 360,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000360.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:06:00.630",
+    "seconds": 360.63,
+    "type": "observed_spoken",
+    "evidence": "and entertaining them the way they",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:00.640",
+    "seconds": 360.64,
+    "type": "observed_spoken",
+    "evidence": "and entertaining them the way they expect to be entertained,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:02.710",
+    "seconds": 362.71,
+    "type": "observed_spoken",
+    "evidence": "expect to be entertained,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:02.720",
+    "seconds": 362.72,
+    "type": "observed_spoken",
+    "evidence": "expect to be entertained, he's tricked them into learning",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:04.510",
+    "seconds": 364.51,
+    "type": "observed_spoken",
+    "evidence": "he's tricked them into learning",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:04.520",
+    "seconds": 364.52,
+    "type": "observed_spoken",
+    "evidence": "he's tricked them into learning something. In essence, what Tier Zoo has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:06.430",
+    "seconds": 366.43,
+    "type": "observed_spoken",
+    "evidence": "something. In essence, what Tier Zoo has",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:06.440",
+    "seconds": 366.44,
+    "type": "observed_spoken",
+    "evidence": "something. In essence, what Tier Zoo has done is take a saturated market, that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:08.870",
+    "seconds": 368.87,
+    "type": "observed_spoken",
+    "evidence": "done is take a saturated market, that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:08.880",
+    "seconds": 368.88,
+    "type": "observed_spoken",
+    "evidence": "done is take a saturated market, that being nature documentaries, and made it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:11.150",
+    "seconds": 371.15,
+    "type": "observed_spoken",
+    "evidence": "being nature documentaries, and made it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:11.160",
+    "seconds": 371.16,
+    "type": "observed_spoken",
+    "evidence": "being nature documentaries, and made it feel brand new by bending into a format",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:14.230",
+    "seconds": 374.23,
+    "type": "observed_spoken",
+    "evidence": "feel brand new by bending into a format",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:14.240",
+    "seconds": 374.24,
+    "type": "observed_spoken",
+    "evidence": "feel brand new by bending into a format container from an entirely different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:16.310",
+    "seconds": 376.31,
+    "type": "observed_spoken",
+    "evidence": "container from an entirely different",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:16.320",
+    "seconds": 376.32,
+    "type": "observed_spoken",
+    "evidence": "container from an entirely different market, that being video games. So, how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.750",
+    "seconds": 378.75,
+    "type": "observed_spoken",
+    "evidence": "market, that being video games. So, how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:18.760",
+    "seconds": 378.76,
+    "type": "observed_spoken",
+    "evidence": "market, that being video games. So, how do you make this work for you? How do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.750",
+    "seconds": 380.75,
+    "type": "observed_spoken",
+    "evidence": "do you make this work for you? How do",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:20.760",
+    "seconds": 380.76,
+    "type": "observed_spoken",
+    "evidence": "do you make this work for you? How do you actually find these niche bending",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:22.630",
+    "seconds": 382.63,
+    "type": "observed_spoken",
+    "evidence": "you actually find these niche bending",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:22.640",
+    "seconds": 382.64,
+    "type": "observed_spoken",
+    "evidence": "you actually find these niche bending combinations without guessing? Well,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:24.230",
+    "seconds": 384.23,
+    "type": "observed_spoken",
+    "evidence": "combinations without guessing? Well,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:24.240",
+    "seconds": 384.24,
+    "type": "observed_spoken",
+    "evidence": "combinations without guessing? Well, that brings us to the mapping method,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.150",
+    "seconds": 386.15,
+    "type": "observed_spoken",
+    "evidence": "that brings us to the mapping method,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:26.160",
+    "seconds": 386.16,
+    "type": "observed_spoken",
+    "evidence": "that brings us to the mapping method, and it works like a grid. First, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:27.830",
+    "seconds": 387.83,
+    "type": "observed_spoken",
+    "evidence": "and it works like a grid. First, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:27.840",
+    "seconds": 387.84,
+    "type": "observed_spoken",
+    "evidence": "and it works like a grid. First, you pick a format that's been working for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:30.030",
+    "seconds": 390.03,
+    "type": "observed_spoken",
+    "evidence": "pick a format that's been working for",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:30.040",
+    "seconds": 390.04,
+    "type": "observed_spoken",
+    "evidence": "pick a format that's been working for years. Let's take the example of every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:33.070",
+    "seconds": 393.07,
+    "type": "observed_spoken",
+    "evidence": "years. Let's take the example of every",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:33.080",
+    "seconds": 393.08,
+    "type": "observed_spoken",
+    "evidence": "years. Let's take the example of every blank explained in X minutes as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:36.310",
+    "seconds": 396.31,
+    "type": "observed_spoken",
+    "evidence": "blank explained in X minutes as a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:36.320",
+    "seconds": 396.32,
+    "type": "observed_spoken",
+    "evidence": "blank explained in X minutes as a format.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:37.510",
+    "seconds": 397.51,
+    "type": "observed_spoken",
+    "evidence": "format.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:37.520",
+    "seconds": 397.52,
+    "type": "observed_spoken",
+    "evidence": "format. Now, map this across all of the major",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:39.590",
+    "seconds": 399.59000000000003,
+    "type": "observed_spoken",
+    "evidence": "Now, map this across all of the major",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:39.600",
+    "seconds": 399.6,
+    "type": "observed_spoken",
+    "evidence": "Now, map this across all of the major markets. For gaming,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:41.790",
+    "seconds": 401.79,
+    "type": "observed_spoken",
+    "evidence": "markets. For gaming,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:41.800",
+    "seconds": 401.8,
+    "type": "observed_spoken",
+    "evidence": "markets. For gaming, it's taken. As for lifestyle, already",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.550",
+    "seconds": 404.55,
+    "type": "observed_spoken",
+    "evidence": "it's taken. As for lifestyle, already",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:44.560",
+    "seconds": 404.56,
+    "type": "observed_spoken",
+    "evidence": "it's taken. As for lifestyle, already taken. And in true crime, yep, gobbled",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:47.870",
+    "seconds": 407.87,
+    "type": "observed_spoken",
+    "evidence": "taken. And in true crime, yep, gobbled",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:47.880",
+    "seconds": 407.88,
+    "type": "observed_spoken",
+    "evidence": "taken. And in true crime, yep, gobbled up there as well. But then, you look at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.830",
+    "seconds": 409.83,
+    "type": "observed_spoken",
+    "evidence": "up there as well. But then, you look at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:49.840",
+    "seconds": 409.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "up there as well. But then, you look at gardening or sales or interior design,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:53.350",
+    "seconds": 413.35,
+    "type": "observed_spoken",
+    "evidence": "gardening or sales or interior design,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:53.360",
+    "seconds": 413.36,
+    "type": "observed_spoken",
+    "evidence": "gardening or sales or interior design, and you see an empty square. And when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:55.230",
+    "seconds": 415.23,
+    "type": "observed_spoken",
+    "evidence": "and you see an empty square. And when",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:55.240",
+    "seconds": 415.24,
+    "type": "observed_spoken",
+    "evidence": "and you see an empty square. And when you do see an empty square on that map,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:57.230",
+    "seconds": 417.23,
+    "type": "observed_spoken",
+    "evidence": "you do see an empty square on that map,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:57.240",
+    "seconds": 417.24,
+    "type": "observed_spoken",
+    "evidence": "you do see an empty square on that map, this isn't due to a lack of interest,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:59.710",
+    "seconds": 419.71,
+    "type": "observed_spoken",
+    "evidence": "this isn't due to a lack of interest,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:06:59.720",
+    "seconds": 419.72,
+    "type": "observed_spoken",
+    "evidence": "this isn't due to a lack of interest, it's an opportunity. It is blue ocean.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "07:00",
+    "seconds": 420,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000420.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:07:02.870",
+    "seconds": 422.87,
+    "type": "observed_spoken",
+    "evidence": "it's an opportunity. It is blue ocean.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:02.880",
+    "seconds": 422.88,
+    "type": "observed_spoken",
+    "evidence": "it's an opportunity. It is blue ocean. The format is proven and the market",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:04.909",
+    "seconds": 424.909,
+    "type": "observed_spoken",
+    "evidence": "The format is proven and the market",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:04.919",
+    "seconds": 424.919,
+    "type": "observed_spoken",
+    "evidence": "The format is proven and the market exists, but nobody has yet combined them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:07.550",
+    "seconds": 427.55,
+    "type": "observed_spoken",
+    "evidence": "exists, but nobody has yet combined them",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:07.560",
+    "seconds": 427.56,
+    "type": "observed_spoken",
+    "evidence": "exists, but nobody has yet combined them together. And this is where you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:09.710",
+    "seconds": 429.71,
+    "type": "observed_spoken",
+    "evidence": "together. And this is where you can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:09.720",
+    "seconds": 429.72,
+    "type": "observed_spoken",
+    "evidence": "together. And this is where you can plant your flag. For example, take this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:11.870",
+    "seconds": 431.87,
+    "type": "observed_spoken",
+    "evidence": "plant your flag. For example, take this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:11.880",
+    "seconds": 431.88,
+    "type": "observed_spoken",
+    "evidence": "plant your flag. For example, take this outlier video from Fin's Play. They made",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:14.230",
+    "seconds": 434.23,
+    "type": "observed_spoken",
+    "evidence": "outlier video from Fin's Play. They made",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:14.240",
+    "seconds": 434.24,
+    "type": "observed_spoken",
+    "evidence": "outlier video from Fin's Play. They made a silly meme video, POV, you're an NPC",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:17.510",
+    "seconds": 437.51,
+    "type": "observed_spoken",
+    "evidence": "a silly meme video, POV, you're an NPC",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:17.520",
+    "seconds": 437.52,
+    "type": "observed_spoken",
+    "evidence": "a silly meme video, POV, you're an NPC in Vice City. But that silly video got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:19.990",
+    "seconds": 439.99,
+    "type": "observed_spoken",
+    "evidence": "in Vice City. But that silly video got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:20.000",
+    "seconds": 440.0,
+    "type": "observed_spoken",
+    "evidence": "in Vice City. But that silly video got them 2.7 million views on a channel with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:23.350",
+    "seconds": 443.35,
+    "type": "observed_spoken",
+    "evidence": "them 2.7 million views on a channel with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:23.360",
+    "seconds": 443.36,
+    "type": "observed_spoken",
+    "evidence": "them 2.7 million views on a channel with just 3 and 1/2 thousand subscribers.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:25.310",
+    "seconds": 445.31,
+    "type": "observed_spoken",
+    "evidence": "just 3 and 1/2 thousand subscribers.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:25.320",
+    "seconds": 445.32,
+    "type": "observed_spoken",
+    "evidence": "just 3 and 1/2 thousand subscribers. Now, watch what happens when other",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:27.030",
+    "seconds": 447.03,
+    "type": "observed_spoken",
+    "evidence": "Now, watch what happens when other",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:27.040",
+    "seconds": 447.04,
+    "type": "observed_spoken",
+    "evidence": "Now, watch what happens when other creators from different markets see that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:29.350",
+    "seconds": 449.35,
+    "type": "observed_spoken",
+    "evidence": "creators from different markets see that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:29.360",
+    "seconds": 449.36,
+    "type": "observed_spoken",
+    "evidence": "creators from different markets see that format and realize it's an empty square",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:32.190",
+    "seconds": 452.19,
+    "type": "observed_spoken",
+    "evidence": "format and realize it's an empty square",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:32.200",
+    "seconds": 452.2,
+    "type": "observed_spoken",
+    "evidence": "format and realize it's an empty square on their map. This channel took the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:34.950",
+    "seconds": 454.95,
+    "type": "observed_spoken",
+    "evidence": "on their map. This channel took the same",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:34.960",
+    "seconds": 454.96,
+    "type": "observed_spoken",
+    "evidence": "on their map. This channel took the same POV, you're an NPC format, and bent it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:38.830",
+    "seconds": 458.83,
+    "type": "observed_spoken",
+    "evidence": "POV, you're an NPC format, and bent it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:38.840",
+    "seconds": 458.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "POV, you're an NPC format, and bent it into Minecraft. Their video, The Life of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:41.830",
+    "seconds": 461.83,
+    "type": "observed_spoken",
+    "evidence": "into Minecraft. Their video, The Life of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:41.840",
+    "seconds": 461.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "into Minecraft. Their video, The Life of a Minecraft Wolf, got 1.7 million views.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.030",
+    "seconds": 465.03,
+    "type": "observed_spoken",
+    "evidence": "a Minecraft Wolf, got 1.7 million views.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:45.040",
+    "seconds": 465.04,
+    "type": "observed_spoken",
+    "evidence": "a Minecraft Wolf, got 1.7 million views. Following on from that, this channel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:46.630",
+    "seconds": 466.63,
+    "type": "observed_spoken",
+    "evidence": "Following on from that, this channel",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:46.640",
+    "seconds": 466.64,
+    "type": "observed_spoken",
+    "evidence": "Following on from that, this channel bent it towards a superhero video game",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:48.790",
+    "seconds": 468.79,
+    "type": "observed_spoken",
+    "evidence": "bent it towards a superhero video game",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:48.800",
+    "seconds": 468.8,
+    "type": "observed_spoken",
+    "evidence": "bent it towards a superhero video game content, playing Spider-Man from an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:50.830",
+    "seconds": 470.83,
+    "type": "observed_spoken",
+    "evidence": "content, playing Spider-Man from an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:50.840",
+    "seconds": 470.84000000000003,
+    "type": "observed_spoken",
+    "evidence": "content, playing Spider-Man from an NPC's perspective, and they turned it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:53.150",
+    "seconds": 473.15,
+    "type": "observed_spoken",
+    "evidence": "NPC's perspective, and they turned it",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:53.160",
+    "seconds": 473.15999999999997,
+    "type": "observed_spoken",
+    "evidence": "NPC's perspective, and they turned it into a long-form video. It's now got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:55.430",
+    "seconds": 475.43,
+    "type": "observed_spoken",
+    "evidence": "into a long-form video. It's now got",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:55.440",
+    "seconds": 475.44,
+    "type": "observed_spoken",
+    "evidence": "into a long-form video. It's now got over a quarter of a million views, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:57.670",
+    "seconds": 477.67,
+    "type": "observed_spoken",
+    "evidence": "over a quarter of a million views, the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:57.680",
+    "seconds": 477.68,
+    "type": "observed_spoken",
+    "evidence": "over a quarter of a million views, the highest-performing video on their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:59.110",
+    "seconds": 479.11,
+    "type": "observed_spoken",
+    "evidence": "highest-performing video on their",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:07:59.120",
+    "seconds": 479.12,
+    "type": "observed_spoken",
+    "evidence": "highest-performing video on their channel so far. This is the same format,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "08:00",
+    "seconds": 480,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000480.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:08:01.790",
+    "seconds": 481.79,
+    "type": "observed_spoken",
+    "evidence": "channel so far. This is the same format,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:01.800",
+    "seconds": 481.8,
+    "type": "observed_spoken",
+    "evidence": "channel so far. This is the same format, just brought to different markets with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:03.630",
+    "seconds": 483.63,
+    "type": "observed_spoken",
+    "evidence": "just brought to different markets with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:03.640",
+    "seconds": 483.64,
+    "type": "observed_spoken",
+    "evidence": "just brought to different markets with massive results. And every single one of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:05.830",
+    "seconds": 485.83,
+    "type": "observed_spoken",
+    "evidence": "massive results. And every single one of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:05.840",
+    "seconds": 485.84,
+    "type": "observed_spoken",
+    "evidence": "massive results. And every single one of those was an empty square on the map",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:08.670",
+    "seconds": 488.67,
+    "type": "observed_spoken",
+    "evidence": "those was an empty square on the map",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:08.680",
+    "seconds": 488.68,
+    "type": "observed_spoken",
+    "evidence": "those was an empty square on the map until someone filled it. Now, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:10.190",
+    "seconds": 490.19,
+    "type": "observed_spoken",
+    "evidence": "until someone filled it. Now, I",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:10.200",
+    "seconds": 490.2,
+    "type": "observed_spoken",
+    "evidence": "until someone filled it. Now, I appreciate that these specific examples",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:12.110",
+    "seconds": 492.11,
+    "type": "observed_spoken",
+    "evidence": "appreciate that these specific examples",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:12.120",
+    "seconds": 492.12,
+    "type": "observed_spoken",
+    "evidence": "appreciate that these specific examples might not bend into your particular",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:14.030",
+    "seconds": 494.03,
+    "type": "observed_spoken",
+    "evidence": "might not bend into your particular",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:14.040",
+    "seconds": 494.04,
+    "type": "observed_spoken",
+    "evidence": "might not bend into your particular niche, or maybe everyone watching this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:15.909",
+    "seconds": 495.909,
+    "type": "observed_spoken",
+    "evidence": "niche, or maybe everyone watching this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:15.919",
+    "seconds": 495.919,
+    "type": "observed_spoken",
+    "evidence": "niche, or maybe everyone watching this video right now is scrambling to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.470",
+    "seconds": 497.47,
+    "type": "observed_spoken",
+    "evidence": "video right now is scrambling to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:17.480",
+    "seconds": 497.48,
+    "type": "observed_spoken",
+    "evidence": "video right now is scrambling to capitalize on the formats we've already",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:19.270",
+    "seconds": 499.27,
+    "type": "observed_spoken",
+    "evidence": "capitalize on the formats we've already",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:19.280",
+    "seconds": 499.28,
+    "type": "observed_spoken",
+    "evidence": "capitalize on the formats we've already shown you. So, let me demonstrate how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:20.990",
+    "seconds": 500.99,
+    "type": "observed_spoken",
+    "evidence": "shown you. So, let me demonstrate how",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:21.000",
+    "seconds": 501.0,
+    "type": "observed_spoken",
+    "evidence": "shown you. So, let me demonstrate how you can find these videos yourself,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:23.030",
+    "seconds": 503.03,
+    "type": "observed_spoken",
+    "evidence": "you can find these videos yourself,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:23.040",
+    "seconds": 503.04,
+    "type": "observed_spoken",
+    "evidence": "you can find these videos yourself, because finding novel formats that will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:25.230",
+    "seconds": 505.23,
+    "type": "observed_spoken",
+    "evidence": "because finding novel formats that will",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:25.240",
+    "seconds": 505.24,
+    "type": "observed_spoken",
+    "evidence": "because finding novel formats that will blow up your channel is a lot easier",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:27.909",
+    "seconds": 507.909,
+    "type": "observed_spoken",
+    "evidence": "blow up your channel is a lot easier",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:27.919",
+    "seconds": 507.919,
+    "type": "observed_spoken",
+    "evidence": "blow up your channel is a lot easier than what it sounds. [music] So, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.950",
+    "seconds": 508.95,
+    "type": "observed_spoken",
+    "evidence": "than what it sounds. [music] So, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:28.960",
+    "seconds": 508.96,
+    "type": "observed_spoken",
+    "evidence": "than what it sounds. [music] So, you already know about the remix tool from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:30.909",
+    "seconds": 510.909,
+    "type": "observed_spoken",
+    "evidence": "already know about the remix tool from",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:30.919",
+    "seconds": 510.919,
+    "type": "observed_spoken",
+    "evidence": "already know about the remix tool from our browser extension that I showed you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:32.469",
+    "seconds": 512.469,
+    "type": "observed_spoken",
+    "evidence": "our browser extension that I showed you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:32.479",
+    "seconds": 512.479,
+    "type": "observed_spoken",
+    "evidence": "our browser extension that I showed you earlier, but this time I want you to go",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:33.909",
+    "seconds": 513.909,
+    "type": "observed_spoken",
+    "evidence": "earlier, but this time I want you to go",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:33.919",
+    "seconds": 513.919,
+    "type": "observed_spoken",
+    "evidence": "earlier, but this time I want you to go to vidiq.com and start a brand-new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:36.390",
+    "seconds": 516.39,
+    "type": "observed_spoken",
+    "evidence": "to vidiq.com and start a brand-new",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:36.400",
+    "seconds": 516.4,
+    "type": "observed_spoken",
+    "evidence": "to vidiq.com and start a brand-new conversation with our AI coach. I want",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:38.510",
+    "seconds": 518.51,
+    "type": "observed_spoken",
+    "evidence": "conversation with our AI coach. I want",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:38.520",
+    "seconds": 518.52,
+    "type": "observed_spoken",
+    "evidence": "conversation with our AI coach. I want you to think of this coach as your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:40.190",
+    "seconds": 520.19,
+    "type": "observed_spoken",
+    "evidence": "you to think of this coach as your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:40.200",
+    "seconds": 520.2,
+    "type": "observed_spoken",
+    "evidence": "you to think of this coach as your YouTube researcher. vidIQ's data scrapes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:42.950",
+    "seconds": 522.95,
+    "type": "observed_spoken",
+    "evidence": "YouTube researcher. vidIQ's data scrapes",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:42.960",
+    "seconds": 522.96,
+    "type": "observed_spoken",
+    "evidence": "YouTube researcher. vidIQ's data scrapes YouTube and is refreshed every single",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:44.710",
+    "seconds": 524.71,
+    "type": "observed_spoken",
+    "evidence": "YouTube and is refreshed every single",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:44.720",
+    "seconds": 524.72,
+    "type": "observed_spoken",
+    "evidence": "YouTube and is refreshed every single day. And to be quite honest, other AI",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:47.030",
+    "seconds": 527.03,
+    "type": "observed_spoken",
+    "evidence": "day. And to be quite honest, other AI",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:47.040",
+    "seconds": 527.04,
+    "type": "observed_spoken",
+    "evidence": "day. And to be quite honest, other AI chatbots simply don't have the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.470",
+    "seconds": 528.47,
+    "type": "observed_spoken",
+    "evidence": "chatbots simply don't have the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:48.480",
+    "seconds": 528.48,
+    "type": "observed_spoken",
+    "evidence": "chatbots simply don't have the capabilities that ours does. So, next,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:50.550",
+    "seconds": 530.55,
+    "type": "observed_spoken",
+    "evidence": "capabilities that ours does. So, next,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:50.560",
+    "seconds": 530.56,
+    "type": "observed_spoken",
+    "evidence": "capabilities that ours does. So, next, type this sentence into the chat box,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:52.550",
+    "seconds": 532.55,
+    "type": "observed_spoken",
+    "evidence": "type this sentence into the chat box,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:52.560",
+    "seconds": 532.56,
+    "type": "observed_spoken",
+    "evidence": "type this sentence into the chat box, \"Find me recent viral videos about your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.670",
+    "seconds": 535.67,
+    "type": "observed_spoken",
+    "evidence": "\"Find me recent viral videos about your",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:55.680",
+    "seconds": 535.68,
+    "type": "observed_spoken",
+    "evidence": "\"Find me recent viral videos about your niche from small channels that are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:57.710",
+    "seconds": 537.71,
+    "type": "observed_spoken",
+    "evidence": "niche from small channels that are",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:57.720",
+    "seconds": 537.72,
+    "type": "observed_spoken",
+    "evidence": "niche from small channels that are getting unusually high views.\" In this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.910",
+    "seconds": 539.91,
+    "type": "observed_spoken",
+    "evidence": "getting unusually high views.\" In this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:08:59.920",
+    "seconds": 539.92,
+    "type": "observed_spoken",
+    "evidence": "getting unusually high views.\" In this instance, we're going to go with a Las",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "09:00",
+    "seconds": 540,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000540.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:09:01.110",
+    "seconds": 541.11,
+    "type": "observed_spoken",
+    "evidence": "instance, we're going to go with a Las",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:01.120",
+    "seconds": 541.12,
+    "type": "observed_spoken",
+    "evidence": "instance, we're going to go with a Las Vegas casinos because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:03.270",
+    "seconds": 543.27,
+    "type": "observed_spoken",
+    "evidence": "Vegas casinos because",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:03.280",
+    "seconds": 543.28,
+    "type": "observed_spoken",
+    "evidence": "Vegas casinos because we can't cheat the casinos, but we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:06.350",
+    "seconds": 546.35,
+    "type": "observed_spoken",
+    "evidence": "we can't cheat the casinos, but we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:06.360",
+    "seconds": 546.36,
+    "type": "observed_spoken",
+    "evidence": "we can't cheat the casinos, but we can cheat YouTube. Oh, and by the way, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:07.870",
+    "seconds": 547.87,
+    "type": "observed_spoken",
+    "evidence": "cheat YouTube. Oh, and by the way, you",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:07.880",
+    "seconds": 547.88,
+    "type": "observed_spoken",
+    "evidence": "cheat YouTube. Oh, and by the way, you can also ask our AI coach to look at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.590",
+    "seconds": 549.59,
+    "type": "observed_spoken",
+    "evidence": "can also ask our AI coach to look at",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:09.600",
+    "seconds": 549.6,
+    "type": "observed_spoken",
+    "evidence": "can also ask our AI coach to look at this for just long-form videos or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:11.350",
+    "seconds": 551.35,
+    "type": "observed_spoken",
+    "evidence": "this for just long-form videos or",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:11.360",
+    "seconds": 551.36,
+    "type": "observed_spoken",
+    "evidence": "this for just long-form videos or shorts. Now, typically, it does take a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:13.390",
+    "seconds": 553.39,
+    "type": "observed_spoken",
+    "evidence": "shorts. Now, typically, it does take a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:13.400",
+    "seconds": 553.4,
+    "type": "observed_spoken",
+    "evidence": "shorts. Now, typically, it does take a minute or so for the AI coach to get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:15.310",
+    "seconds": 555.31,
+    "type": "observed_spoken",
+    "evidence": "minute or so for the AI coach to get",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:15.320",
+    "seconds": 555.32,
+    "type": "observed_spoken",
+    "evidence": "minute or so for the AI coach to get back to you, and that's because it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:16.710",
+    "seconds": 556.71,
+    "type": "observed_spoken",
+    "evidence": "back to you, and that's because it's",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:16.720",
+    "seconds": 556.72,
+    "type": "observed_spoken",
+    "evidence": "back to you, and that's because it's being very diligent trawling through",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:18.790",
+    "seconds": 558.79,
+    "type": "observed_spoken",
+    "evidence": "being very diligent trawling through",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:18.800",
+    "seconds": 558.8,
+    "type": "observed_spoken",
+    "evidence": "being very diligent trawling through thousands, if not millions, of videos to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:20.990",
+    "seconds": 560.99,
+    "type": "observed_spoken",
+    "evidence": "thousands, if not millions, of videos to",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:21.000",
+    "seconds": 561.0,
+    "type": "observed_spoken",
+    "evidence": "thousands, if not millions, of videos to find what you're looking for. And a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:22.910",
+    "seconds": 562.91,
+    "type": "observed_spoken",
+    "evidence": "find what you're looking for. And a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:22.920",
+    "seconds": 562.92,
+    "type": "observed_spoken",
+    "evidence": "find what you're looking for. And a minute is a lot quicker than scrolling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:25.270",
+    "seconds": 565.27,
+    "type": "observed_spoken",
+    "evidence": "minute is a lot quicker than scrolling",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:25.280",
+    "seconds": 565.28,
+    "type": "observed_spoken",
+    "evidence": "minute is a lot quicker than scrolling through endless YouTube videos for days",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:27.350",
+    "seconds": 567.35,
+    "type": "observed_spoken",
+    "evidence": "through endless YouTube videos for days",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:27.360",
+    "seconds": 567.36,
+    "type": "observed_spoken",
+    "evidence": "through endless YouTube videos for days and weeks, isn't it? Now, in this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:28.829",
+    "seconds": 568.829,
+    "type": "observed_spoken",
+    "evidence": "and weeks, isn't it? Now, in this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:28.839",
+    "seconds": 568.8389999999999,
+    "type": "observed_spoken",
+    "evidence": "and weeks, isn't it? Now, in this example, it surfaced five Vegas casinos",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:31.870",
+    "seconds": 571.87,
+    "type": "observed_spoken",
+    "evidence": "example, it surfaced five Vegas casinos",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:31.880",
+    "seconds": 571.88,
+    "type": "observed_spoken",
+    "evidence": "example, it surfaced five Vegas casinos that will close next. Which casino dies",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:35.190",
+    "seconds": 575.19,
+    "type": "observed_spoken",
+    "evidence": "that will close next. Which casino dies",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:35.200",
+    "seconds": 575.2,
+    "type": "observed_spoken",
+    "evidence": "that will close next. Which casino dies first? It is an insane outlier for this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:37.910",
+    "seconds": 577.91,
+    "type": "observed_spoken",
+    "evidence": "first? It is an insane outlier for this",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:37.920",
+    "seconds": 577.92,
+    "type": "observed_spoken",
+    "evidence": "first? It is an insane outlier for this channel with nearly a million long-form",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:40.350",
+    "seconds": 580.35,
+    "type": "observed_spoken",
+    "evidence": "channel with nearly a million long-form",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:40.360",
+    "seconds": 580.36,
+    "type": "observed_spoken",
+    "evidence": "channel with nearly a million long-form views on a 20-minute video. Now, that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:43.310",
+    "seconds": 583.31,
+    "type": "observed_spoken",
+    "evidence": "views on a 20-minute video. Now, that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:43.320",
+    "seconds": 583.32,
+    "type": "observed_spoken",
+    "evidence": "views on a 20-minute video. Now, that title represents a format that we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:45.670",
+    "seconds": 585.67,
+    "type": "observed_spoken",
+    "evidence": "title represents a format that we can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:45.680",
+    "seconds": 585.68,
+    "type": "observed_spoken",
+    "evidence": "title represents a format that we can bend. We could apply this to retail",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:47.990",
+    "seconds": 587.99,
+    "type": "observed_spoken",
+    "evidence": "bend. We could apply this to retail",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:48.000",
+    "seconds": 588.0,
+    "type": "observed_spoken",
+    "evidence": "bend. We could apply this to retail stores, fast-food chains,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:49.550",
+    "seconds": 589.55,
+    "type": "observed_spoken",
+    "evidence": "stores, fast-food chains,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:49.560",
+    "seconds": 589.56,
+    "type": "observed_spoken",
+    "evidence": "stores, fast-food chains, cryptocurrency, game studios, sports",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:52.310",
+    "seconds": 592.31,
+    "type": "observed_spoken",
+    "evidence": "cryptocurrency, game studios, sports",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:52.320",
+    "seconds": 592.32,
+    "type": "observed_spoken",
+    "evidence": "cryptocurrency, game studios, sports franchises that are relocating, which",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:54.270",
+    "seconds": 594.27,
+    "type": "observed_spoken",
+    "evidence": "franchises that are relocating, which",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:54.280",
+    "seconds": 594.28,
+    "type": "observed_spoken",
+    "evidence": "franchises that are relocating, which let me tell you would never happen in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:56.750",
+    "seconds": 596.75,
+    "type": "observed_spoken",
+    "evidence": "let me tell you would never happen in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:56.760",
+    "seconds": 596.76,
+    "type": "observed_spoken",
+    "evidence": "let me tell you would never happen in real football,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:58.310",
+    "seconds": 598.31,
+    "type": "observed_spoken",
+    "evidence": "real football,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:09:58.320",
+    "seconds": 598.32,
+    "type": "observed_spoken",
+    "evidence": "real football, except for that one occasion. We can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "10:00",
+    "seconds": 600,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000600.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:10:00.190",
+    "seconds": 600.19,
+    "type": "observed_spoken",
+    "evidence": "except for that one occasion. We can",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:00.200",
+    "seconds": 600.2,
+    "type": "observed_spoken",
+    "evidence": "except for that one occasion. We can bend all of these in any way that fits",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:03.790",
+    "seconds": 603.79,
+    "type": "observed_spoken",
+    "evidence": "bend all of these in any way that fits",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:03.800",
+    "seconds": 603.8,
+    "type": "observed_spoken",
+    "evidence": "bend all of these in any way that fits our needs for our channel. However, um",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:06.510",
+    "seconds": 606.51,
+    "type": "observed_spoken",
+    "evidence": "our needs for our channel. However, um",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:06.520",
+    "seconds": 606.52,
+    "type": "observed_spoken",
+    "evidence": "our needs for our channel. However, um this might be the most important part of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:08.230",
+    "seconds": 608.23,
+    "type": "observed_spoken",
+    "evidence": "this might be the most important part of",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:08.240",
+    "seconds": 608.24,
+    "type": "observed_spoken",
+    "evidence": "this might be the most important part of the entire video.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:09.990",
+    "seconds": 609.99,
+    "type": "observed_spoken",
+    "evidence": "the entire video.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:10.000",
+    "seconds": 610.0,
+    "type": "observed_spoken",
+    "evidence": "the entire video. You do need to be careful.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:11.870",
+    "seconds": 611.87,
+    "type": "observed_spoken",
+    "evidence": "You do need to be careful.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:11.880",
+    "seconds": 611.88,
+    "type": "observed_spoken",
+    "evidence": "You do need to be careful. There is one rule in these bending that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:14.070",
+    "seconds": 614.07,
+    "type": "observed_spoken",
+    "evidence": "There is one rule in these bending that",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:14.080",
+    "seconds": 614.08,
+    "type": "observed_spoken",
+    "evidence": "There is one rule in these bending that matters more than anything else. Do not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:16.390",
+    "seconds": 616.39,
+    "type": "observed_spoken",
+    "evidence": "matters more than anything else. Do not",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:16.400",
+    "seconds": 616.4,
+    "type": "observed_spoken",
+    "evidence": "matters more than anything else. Do not bend a format you cannot deliver the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:19.110",
+    "seconds": 619.11,
+    "type": "observed_spoken",
+    "evidence": "bend a format you cannot deliver the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:19.120",
+    "seconds": 619.12,
+    "type": "observed_spoken",
+    "evidence": "bend a format you cannot deliver the expertise in. So, if you are a dentist,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:21.590",
+    "seconds": 621.59,
+    "type": "observed_spoken",
+    "evidence": "expertise in. So, if you are a dentist,",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:21.600",
+    "seconds": 621.6,
+    "type": "observed_spoken",
+    "evidence": "expertise in. So, if you are a dentist, use the gaming tier list to rank",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:24.070",
+    "seconds": 624.07,
+    "type": "observed_spoken",
+    "evidence": "use the gaming tier list to rank",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:24.080",
+    "seconds": 624.08,
+    "type": "observed_spoken",
+    "evidence": "use the gaming tier list to rank toothpaste. That works because you're an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:26.270",
+    "seconds": 626.27,
+    "type": "observed_spoken",
+    "evidence": "toothpaste. That works because you're an",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:26.280",
+    "seconds": 626.28,
+    "type": "observed_spoken",
+    "evidence": "toothpaste. That works because you're an expert dentist, but don't try to use a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:29.150",
+    "seconds": 629.15,
+    "type": "observed_spoken",
+    "evidence": "expert dentist, but don't try to use a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:29.160",
+    "seconds": 629.16,
+    "type": "observed_spoken",
+    "evidence": "expert dentist, but don't try to use a finance format if you don't understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:31.310",
+    "seconds": 631.31,
+    "type": "observed_spoken",
+    "evidence": "finance format if you don't understand",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:31.320",
+    "seconds": 631.32,
+    "type": "observed_spoken",
+    "evidence": "finance format if you don't understand money. Anyone can copy a format, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:33.830",
+    "seconds": 633.83,
+    "type": "observed_spoken",
+    "evidence": "money. Anyone can copy a format, but",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:33.840",
+    "seconds": 633.84,
+    "type": "observed_spoken",
+    "evidence": "money. Anyone can copy a format, but very few can fill the formats with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:36.070",
+    "seconds": 636.07,
+    "type": "observed_spoken",
+    "evidence": "very few can fill the formats with",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:36.080",
+    "seconds": 636.08,
+    "type": "observed_spoken",
+    "evidence": "very few can fill the formats with high-value knowledge. The creators",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:38.110",
+    "seconds": 638.11,
+    "type": "observed_spoken",
+    "evidence": "high-value knowledge. The creators",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:38.120",
+    "seconds": 638.12,
+    "type": "observed_spoken",
+    "evidence": "high-value knowledge. The creators winning in 2026 aren't the ones finding",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:40.710",
+    "seconds": 640.71,
+    "type": "observed_spoken",
+    "evidence": "winning in 2026 aren't the ones finding",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:40.720",
+    "seconds": 640.72,
+    "type": "observed_spoken",
+    "evidence": "winning in 2026 aren't the ones finding magical new niches. They are the ones",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:43.070",
+    "seconds": 643.07,
+    "type": "observed_spoken",
+    "evidence": "magical new niches. They are the ones",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:43.080",
+    "seconds": 643.08,
+    "type": "observed_spoken",
+    "evidence": "magical new niches. They are the ones looking for what already works and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:44.910",
+    "seconds": 644.91,
+    "type": "observed_spoken",
+    "evidence": "looking for what already works and",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:44.920",
+    "seconds": 644.92,
+    "type": "observed_spoken",
+    "evidence": "looking for what already works and asking themselves, \"How does this look",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:47.510",
+    "seconds": 647.51,
+    "type": "observed_spoken",
+    "evidence": "asking themselves, \"How does this look",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:47.520",
+    "seconds": 647.52,
+    "type": "observed_spoken",
+    "evidence": "asking themselves, \"How does this look in my world?\" And if you enjoyed the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:49.910",
+    "seconds": 649.91,
+    "type": "observed_spoken",
+    "evidence": "in my world?\" And if you enjoyed the",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:49.920",
+    "seconds": 649.92,
+    "type": "observed_spoken",
+    "evidence": "in my world?\" And if you enjoyed the taste of the VidIQ tools I showed you in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:52.390",
+    "seconds": 652.39,
+    "type": "observed_spoken",
+    "evidence": "taste of the VidIQ tools I showed you in",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:52.400",
+    "seconds": 652.4,
+    "type": "observed_spoken",
+    "evidence": "taste of the VidIQ tools I showed you in this video, why not come and have a look",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:54.790",
+    "seconds": 654.79,
+    "type": "observed_spoken",
+    "evidence": "this video, why not come and have a look",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:54.800",
+    "seconds": 654.8,
+    "type": "observed_spoken",
+    "evidence": "this video, why not come and have a look at the whole buffet? Dozens more tools",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:57.190",
+    "seconds": 657.19,
+    "type": "observed_spoken",
+    "evidence": "at the whole buffet? Dozens more tools",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:57.200",
+    "seconds": 657.2,
+    "type": "observed_spoken",
+    "evidence": "at the whole buffet? Dozens more tools to help you grow your channel are just a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "10:59",
+    "seconds": 659,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000659.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:10:59.030",
+    "seconds": 659.03,
+    "type": "observed_spoken",
+    "evidence": "to help you grow your channel are just a",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:10:59.040",
+    "seconds": 659.04,
+    "type": "observed_spoken",
+    "evidence": "to help you grow your channel are just a click away.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "11:00",
+    "seconds": 660,
+    "type": "observed_visual",
+    "evidence": "Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/fLDrB_wmbNE/frames/frame-000660.jpg",
+    "source": "ffmpeg frame sample",
+    "confidence": "medium",
+    "notes": "Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it."
+  },
+  {
+    "timestamp": "00:11:00.710",
+    "seconds": 660.71,
+    "type": "observed_spoken",
+    "evidence": "click away.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "00:11:00.720",
+    "seconds": 660.72,
+    "type": "observed_spoken",
+    "evidence": "click away. I'll see you there.",
+    "source": "caption/subtitle",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "timestamp": "unknown",
+    "seconds": null,
+    "type": "uncertain_or_unavailable",
+    "evidence": "OCR unavailable: tesseract/pytesseract not installed or not configured.",
+    "source": "adapter availability",
+    "confidence": "high",
+    "notes": "This is an explicit limitation, not an inferred fact."
+  }
+]

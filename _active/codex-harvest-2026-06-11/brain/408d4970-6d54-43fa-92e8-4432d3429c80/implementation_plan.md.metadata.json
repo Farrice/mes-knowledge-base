@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Implementation plan for rebuilding the Antigravity research layer. Identifies the root cause (Perplexity MCP tool only does shallow Sonar calls, not deep research), maps 30+ affected workflows into priority tiers, and proposes a 4-phase fix: (1) universal research engine with Quick/Standard/Deep depth levels, (2) MCP tool upgrade with two options, (3) tier-by-tier workflow rebuild, and (4) research quality gate. Includes verification plan and budget analysis. Requires user decision on MCP upgrade approach.",
+  "updatedAt": "2026-03-21T04:37:45.326160Z"
+}

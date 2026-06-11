@@ -1,0 +1,19 @@
+{
+  "title": "System Cohesion Silver-Platter Audit: Unified Operating Tree",
+  "mission": "system-cohesion-silver-platter-audit",
+  "created": "2026-05-11",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "artifactType": "system-audit",
+  "primaryRoute": "/mission",
+  "supportRoutes": [
+    "/system-audit",
+    "/silver-platter",
+    "/expert-composition-governor",
+    "/autopilot",
+    "/knowledge-librarian",
+    "/routing-intelligence",
+    "/self-evolve"
+  ]
+}

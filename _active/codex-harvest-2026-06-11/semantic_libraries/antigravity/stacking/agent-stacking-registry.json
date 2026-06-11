@@ -1,0 +1,826 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-10T04:22:15.469550+00:00",
+  "sources": [
+    "execution/expert_router.py COMPOUNDS",
+    "skills/*/SKILL.md stacking sections",
+    "agents/*/AGENT.md stacking sections",
+    ".agent/routing-intelligence.json ensemble feedback",
+    "execution/cascade_detector.py downstream parser remains the live cascade source"
+  ],
+  "counts": {
+    "expert_router_compounds": 26,
+    "skill_stacking_guides": 39,
+    "agent_stacking_sections": 5,
+    "routing_intelligence_ensembles": 0
+  },
+  "expert_router_compounds": [
+    {
+      "pair": [
+        "jeremy-miner",
+        "michael-bernoff"
+      ],
+      "effect": "Identity-first sales — Bernoff rewires self-image, Miner closes with NEPQ",
+      "triggers": [
+        "identity objection",
+        "emotional resistance",
+        "mindset block sales"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "seena-rez",
+        "cardinal-mason"
+      ],
+      "effect": "Viral commerce — Rez drives TikTok traffic, Mason converts it",
+      "triggers": [
+        "product launch attention",
+        "tiktok sales",
+        "viral commerce"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "harry-dry",
+        "alen-sultanic"
+      ],
+      "effect": "Precision long-form — Dry's rules applied across Sultanic's persuasion",
+      "triggers": [
+        "high-stakes sales letter",
+        "vsl tight"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "shaan-puri",
+        "kallaway"
+      ],
+      "effect": "Story-driven viral — Puri's arc + Kallaway's dopamine psychology",
+      "triggers": [
+        "spread and retain",
+        "viral story",
+        "story content"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "lara-acosta",
+        "cardinal-mason"
+      ],
+      "effect": "LinkedIn revenue engine — Acosta builds authority, Mason monetizes",
+      "triggers": [
+        "linkedin revenue",
+        "linkedin monetize",
+        "linkedin to sales"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "dan-koe",
+        "jun-yuh"
+      ],
+      "effect": "Multipassionate brand — Koe's model + Jun's format strategy",
+      "triggers": [
+        "multiple interests brand",
+        "multipassionate",
+        "cohesive brand"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "nicolas-cole",
+        "mitch-albom"
+      ],
+      "effect": "Premium prose — Cole's craft + Albom's emotional architecture",
+      "triggers": [
+        "premium content",
+        "beautiful and moving",
+        "premium prose"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "samuel-thompson",
+        "sabri-suby"
+      ],
+      "effect": "Paid product launch — Thompson validates, Suby drives paid traffic",
+      "triggers": [
+        "paid launch",
+        "product launch paid ads",
+        "ad-driven launch"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "monk-ai",
+        "lindsay"
+      ],
+      "effect": "Consulting acquisition — Monk builds offer, Lindsay executes outreach",
+      "triggers": [
+        "consulting offer clients",
+        "ai consulting launch"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "tobias-allen",
+        "cardinal-mason"
+      ],
+      "effect": "Revenue system — Allen's strategy + Mason's conversion copy",
+      "triggers": [
+        "email revenue",
+        "funnel revenue",
+        "revenue system"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "bond-halbert",
+        "david-deutsch"
+      ],
+      "effect": "Legendary direct response — Halbert's language + Deutsch's architecture",
+      "triggers": [
+        "legendary copy",
+        "premium direct response"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "april-dunford",
+        "daniel-priestley"
+      ],
+      "effect": "Positioning + Demand — Dunford positions, Priestley engineers demand",
+      "triggers": [
+        "poorly positioned",
+        "b2b positioning demand",
+        "position and sell"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "tyler-denk",
+        "seth-godin"
+      ],
+      "effect": "Viral newsletter — Denk's referral mechanics + Godin's network design",
+      "triggers": [
+        "newsletter growth",
+        "viral newsletter",
+        "newsletter spread"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "nick-saraev",
+        "boris"
+      ],
+      "effect": "Agent fleet — Saraev's self-healing + Boris's orchestration",
+      "triggers": [
+        "multi-agent",
+        "agent fleet",
+        "complex agent system"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "tao-prompts",
+        "pj-accetturo"
+      ],
+      "effect": "Cinema-grade AI video — storyboard + production polish",
+      "triggers": [
+        "professional ai video",
+        "cinema video"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "joscha-bach",
+        "steven-pressfield"
+      ],
+      "effect": "Consciousness + Resistance — Bach diagnoses, Pressfield mobilizes",
+      "triggers": [
+        "creative block",
+        "existential block",
+        "resistance diagnosis"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "vincent-hu",
+        "april-dunford"
+      ],
+      "effect": "Trust positioning — Hu's ecosystem + Dunford's competitive context",
+      "triggers": [
+        "info business positioning",
+        "coaching positioning"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "vincent-hu",
+        "luke-iha"
+      ],
+      "effect": "Ecosystem copy — Hu architects system, Iha writes conversion copy",
+      "triggers": [
+        "info business copy",
+        "coaching funnel copy"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "omar-eltakrori",
+        "luke-iha"
+      ],
+      "effect": "Challenge funnel copy — Eltakrori architects challenge, Iha writes ads",
+      "triggers": [
+        "challenge funnel",
+        "challenge ads"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "omar-eltakrori",
+        "lara-acosta"
+      ],
+      "effect": "Brand-to-business — Eltakrori maps monetization, Acosta executes LinkedIn",
+      "triggers": [
+        "brand to business",
+        "linkedin monetization architecture"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "ocean-vuong",
+        "mitch-albom"
+      ],
+      "effect": "Perceptual emotion — Vuong estranges, Albom lands the feeling",
+      "triggers": [
+        "surprise and move",
+        "perceptual emotion",
+        "estranged prose"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "ocean-vuong",
+        "lara-acosta"
+      ],
+      "effect": "Poetic LinkedIn — Vuong's prose + Acosta's SLAY formatting",
+      "triggers": [
+        "poetic linkedin",
+        "linkedin sameness",
+        "original linkedin"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "enrico-incarnati",
+        "joshua-smith"
+      ],
+      "effect": "Full-stack real estate — Instagram brand + production KPIs",
+      "triggers": [
+        "real estate full stack",
+        "agent brand and production"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "enrico-incarnati",
+        "luke-iha"
+      ],
+      "effect": "Proof-stacked real estate — strategy + proof engineering for leads",
+      "triggers": [
+        "real estate conversion",
+        "real estate proof"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "diandra-escobar",
+        "lara-acosta"
+      ],
+      "effect": "LinkedIn mastery stack — Escobar's algorithm + Acosta's virality",
+      "triggers": [
+        "linkedin algorithm growth",
+        "linkedin full stack"
+      ],
+      "source": "execution/expert_router.py"
+    },
+    {
+      "pair": [
+        "jason-fladlien",
+        "jeremy-miner"
+      ],
+      "effect": "Empowerment closing — Fladlien's indirect + Miner's NEPQ",
+      "triggers": [
+        "empowerment sales",
+        "indirect closing"
+      ],
+      "source": "execution/expert_router.py"
+    }
+  ],
+  "skill_stacking_guides": [
+    {
+      "skill": "alex-content-science",
+      "path": "skills/alex-content-science/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Pairs With | Compound Effect |\n|-----------|----------------|\n| **Kallaway Content Psychology** | Detail Stack analysis → Kallaway's Lego Brick + viral testing protocols |\n| **Tom Noske Content Creation** | Principle extraction feeds authentic voice-first creation |\n| **Brock Johnson Shareworthy Content** | Detail Stack reveals WHY content is shareable → Brock's NAPS framework amplifies |\n| **Lara Acosta LinkedIn** | Cross-niche formats transferred to LinkedIn-specific optimization |\n| **Dan Koe AI Leverage** | AI as production (not strategy) aligns with Dan's creative partnership model |"
+    },
+    {
+      "skill": "ash-maurya-founder-systems",
+      "path": "skills/ash-maurya-founder-systems/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Ash Workflow | Stack With | Result |\n|---|---|---|\n| Problem-First Validation | Dan Martell Market Entry | Problem proof plus rich-buyer targeting |\n| Buying Insight Interview | Customer Forces / JTBD | Past behavior becomes buying criteria and offer framing |\n| Business Model Risk Map | Andrew Wilkinson Rapid Prototype | Build only after the highest-risk assumption is reduced |\n| Traction-First Roadmap | Soowei Leverage Audit | Founder workflow becomes validation-driven |\n| Demo-Sell-Build Sprint | Phil M Jones | Commitment asks become low-pressure and clear |\n| Productized Service Validation | Daniel Priestley 24 Assets | Service proof becomes a productized asset pathway |\n| Founder Syst"
+    },
+    {
+      "skill": "brandon-jacoby-taste-mastery",
+      "path": "skills/brandon-jacoby-taste-mastery/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Brandon Workflow | Stack With | Result |\n|---|---|---|\n| Taste Operating Profile | Oren Taste Development | Personal taste principles become trainable practice and critique rituals |\n| Pattern vs. Invention Decision | Satori Graphics, design-taste-gate | Design reviews separate useful convention from lazy sameness |\n| Good-Enough Breakthrough | Nate B Jones AI Taste Mastery | AI output gets pushed beyond clean average into human-directed quality |\n| Weird-C Discovery Sprint | Jack Roberts, Design MD | Design and product systems preserve room for discovery before final spec |\n| Craft Meets Consequence Audit | Seth Godin, April Dunford, Kallaway | Brand, positioning, and content work gains b"
+    },
+    {
+      "skill": "cheri-tree-bank-buyology",
+      "path": "skills/cheri-tree-bank-buyology/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [
+        "april-dunford-positioning",
+        "donald-miller-storybrand",
+        "jason-fladlien-marketing",
+        "luke-iha-proof-ladder",
+        "stockton-walbeck-lead-magnets"
+      ],
+      "evidence_excerpt": "- Pair with `april-dunford-positioning` when the code-aware message needs sharper category and market context.\n- Pair with `donald-miller-storybrand` when the landing page needs story clarity after B.A.N.K. segmentation.\n- Pair with `jason-fladlien-marketing` or `luke-iha-proof-ladder` when a code-aware offer needs proof, objection, and close depth.\n- Pair with `stockton-walbeck-lead-magnets` when the lead magnet idea needs funnel fit and scoring.\n- Pair with LinkedIn/content skills after this skill defines which buyer code the content must attract."
+    },
+    {
+      "skill": "cinematic-documentary",
+      "path": "skills/cinematic-documentary/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| If You Need... | Start With | Then Stack |\n|----------------|-----------|------------|\n| Complete origin-to-arc pipeline | `/gelb-character` | → `/gelb-origin` → `/gelb-arc` → `/gelb-hook` |\n| Fix flat narrative structure | `/gelb-false-victory` | → `/gelb-scene-audit` → `/gelb-pacing` |\n| Transform explainer into story | `/gelb-emotion` | → `/gelb-character` → `/roth-copy` |\n| Navigate creative despair | `/gelb-despair` | → `/lamott-critic` → `/resistance` |\n| Process client feedback | `/gelb-feedback` | → revision using `/gelb-scene-audit` |\n| Audit brand coherence | `/gelb-coherence` | → `/taste-cev` |\n| Engineer viral hooks | `/gelb-hook` | → `/vicious-hook` |\n| Write cinematic prose |"
+    },
+    {
+      "skill": "donald-miller-cognitive-load",
+      "path": "skills/donald-miller-cognitive-load/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| If You Need | Start With | Then Stack |\n|------------|-----------|-----------|\n| Messaging diagnosis | `01-cognitive-load-autopsy` | → `04-zero-load-rewrite-engine` |\n| Complete sound bite foundation | `02-peace-soundbite-generator` | → `05-soundbite-deployment-matrix` |\n| Full campaign build | `02-peace-soundbite-generator` | → `03-three-phase-campaign-architect` → `06-enlightenment-collateral-generator` → `07-commitment-incentive-designer` |\n| Conversion-optimized copy | `01-cognitive-load-autopsy` | → `08-friction-proof-copy-chain` |\n| StoryBrand + Cognitive Load | `02-peace-soundbite-generator` | → StoryBrand `01-brandscript-generator` (score all elements for load) |"
+    },
+    {
+      "skill": "eric-roth-writing-mastery",
+      "path": "skills/eric-roth-writing-mastery/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Stack With | What You Get |\n|-----------|-------------|\n| **Nicolas Cole** | Immersive sentence craft — Roth's sensory prose + Cole's rhythm mechanics |\n| **Mitch Albom** | Literary emotional architecture deployed at social/content scale |\n| **Lara Acosta** | LinkedIn content with cinematic subtext and thematic unity |\n| **Cardinal Mason** | Sales copy with off-center elegance instead of aggressive persuasion |\n| **Kallaway** | Content strategy with thematic coherence across campaigns |\n| **Ward Farnsworth** | Classical rhetoric layered with visual prose cinematography |\n| **Steven Pressfield** | Narrative physics + Roth's erosion discipline for long-form craft |"
+    },
+    {
+      "skill": "growth-ecosystems",
+      "path": "skills/growth-ecosystems/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "Combine with these experts for enhanced output:\n- **April Dunford** → Enhanced positioning (stacks with workflow 03)\n- **StoryBrand** → Messaging frameworks (stacks with workflow 03, 05)\n- **Lara Acosta** → LinkedIn-specific execution (stacks with workflow 04, 06)\n- **Luke Iha** → Direct response copy (stacks with workflow 05)\n- **Dan Koe** → Audience philosophy and content resonance (stacks with workflow 01, 04)\n- **Seena Rez** → Market research and trend validation (stacks with workflow 01, 10)"
+    },
+    {
+      "skill": "james-i-bond-brain-glue",
+      "path": "skills/james-i-bond-brain-glue/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Stack With | What You Get |\n|---|---|\n| **Heath Brothers / Made to Stick** | Brain Glue phrase mechanics + SUCCESs message architecture |\n| **David Deutsch** | Brilliant copy transformations with stronger memory hooks |\n| **Luke Iha** | Mechanism and proof copy made emotionally memorable |\n| **Lara Acosta / Tommy Clark** | LinkedIn content with sticky phrase architecture |\n| **PJ Accetturo / Tao Prompts** | Video scripts with sensory, sonic, and visual hooks |\n| **April Dunford** | Positioning language that becomes easy to repeat |\n| **Jason Fladlien** | Sales arguments turned into memorable buying frames |\n| **Rory Sutherland** | Perception engineering plus Brain Glue naming, framing, and"
+    },
+    {
+      "skill": "jessica-jensen-platform-intelligence",
+      "path": "skills/jessica-jensen-platform-intelligence/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "Jensen's platform intelligence acts as a **grounding layer** for other LinkedIn experts:\n\n| Pair With | Result |\n|-----------|--------|\n| Diandra Escobar | Predictive algorithm strategy (not reactive) |\n| Lara Acosta | Authentic growth aligned with platform direction |\n| Tommy Clark | Founder-led content leveraging creator-company interplay |\n| Donald Miller | StoryBrand + Song Sheet messaging clarity |\n| April Dunford | B2B positioning + long-cycle trust engineering |\n| Nathan Gotch | LinkedIn as LLM retrieval layer for B2B discovery |\n| Jun Yuh | Identity-driven LinkedIn presence, not tactics-driven |"
+    },
+    {
+      "skill": "kallaway-audience-obsession",
+      "path": "skills/kallaway-audience-obsession/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "### The Three Kallaway Domains (Use in Sequence)\n1. **Content Psychology** → strategy, validation, dopamine architecture, buyer targeting\n2. **Audience Obsession Engineering** → suggestion mechanics, belief shifts, action catalysis\n3. **Word Mastery** → rhythm, tone, grip, charisma, expertise deployment"
+    },
+    {
+      "skill": "lamott-craft",
+      "path": "skills/lamott-craft/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| If You Need... | Start With | Then Stack |\n|----------------|-----------|------------|\n| Complete rewrite pipeline | `/lamott-drafts` | → `/lamott-literary` → `/lamott-connelly` |\n| Unblock creative paralysis | `/lamott-critic` | → `/lamott-unblock` → `/lamott-pressfield` |\n| Source fresh material | `/lamott-observe` | → `/lamott-reverence` → `/lamott-wright` |\n| Fix weak openings | `/lamott-audit` | → `/lamott-abdce` → `/connelly-slingshot` |\n| Fix bad dialogue | `/lamott-dialogue` | → `/connelly-dialogue` |\n| Strip pretension from draft | `/lamott-literary` | → `/roth-erosion` |"
+    },
+    {
+      "skill": "luke-iha-client-mastery",
+      "path": "skills/luke-iha-client-mastery/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **→ Luke Iha Creative Strategy**: This skill gets you hired. Creative Strategy tells you what to do once you're hired.\n- **→ Luke Iha Copy Blocks**: The ads you produce for samples and track record use copy blocks.\n- **→ Luke Iha Proof Ladder (Architecture)**: This skill's Proof Ladder Sprint is the ACTION plan; Proof Ladder Architecture is the THEORY.\n- **→ Luke Iha Proof Mechanisms**: Proof mechanisms power the case studies and testimonials you build.\n- **→ Luke Iha Unaware Ads**: Unaware ads are the highest-value deliverable for DTC clients.\n- **→ Greg Hoffman**: Brand architecture for blue-chip client positioning.\n- **→ Lara Acosta**: LinkedIn content strategy for \"Trapdoor Posts\" and "
+    },
+    {
+      "skill": "luke-iha-copy-blocks",
+      "path": "skills/luke-iha-copy-blocks/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **→ Luke Iha VSL Leads**: Copy Blocks are the atoms. VSL Leads are the molecule — a specific arrangement of blocks for VSL openings.\n- **→ Luke Iha Million-Dollar Mechanisms**: Mechanisms plug INTO the Proof and Curiosity blocks. This skill tells you where. That skill tells you what.\n- **→ Luke Iha Proof Mechanisms**: Proof is one of the 6 blocks. Proof Mechanisms goes deep on what types of proof exist and how to deploy them.\n- **→ Luke Iha Unaware Ads**: The CASH Method generates variations. Unaware Ads provides awareness-level targeting for each variation.\n- **→ Luke Iha Creative Strategy**: Strategy decides WHAT to say and TO WHOM. Copy Blocks decides HOW to say it."
+    },
+    {
+      "skill": "luke-iha-creative-strategy",
+      "path": "skills/luke-iha-creative-strategy/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **→ Luke Iha Copy Blocks**: Creative strategy decides the angle and audience. Copy blocks provide the writing system.\n- **→ Luke Iha VSL Leads**: Creative strategy brief feeds directly into lead architecture decisions.\n- **→ Luke Iha Proof Mechanisms**: Creative strategy decides *what* to prove. Proof mechanisms decide *how*.\n- **→ Luke Iha Unaware Ads**: Creative strategy identifies the audience. Unaware ads executes the hook.\n- **→ Luke Iha Million-Dollar Mechanisms**: Creative strategy sets the market context. Mechanisms provide the reason to believe.\n- **→ Joanna Wiebe**: Strategic writing careers + creative strategy = complete freelance positioning.\n- **→ Kallaway**: Content psycholog"
+    },
+    {
+      "skill": "luke-iha-insight-vectors",
+      "path": "skills/luke-iha-insight-vectors/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "luke-iha-copy-blocks",
+        "luke-iha-proof-ladder",
+        "luke-iha-unaware-ads",
+        "luke-iha-vsl-leads"
+      ],
+      "evidence_excerpt": "### Downstream (Insight Vectors feed INTO these)\n\n| This Skill | Stacks With | How |\n|-----------|-------------|-----|\n| **Insight Vectors** | → `million-dollar-mechanisms` | Insight vectors become mechanism candidates for SIN filtering and characterization |\n| **Insight Vectors** | → `luke-iha-hook-mastery` | Insight vectors become the CONTENT of hooks — what makes them epistemically sticky |\n| **Insight Vectors** | → `luke-iha-copy-blocks` | Vectors fill the Proof and Curiosity blocks with genuine revelation |\n| **Insight Vectors** | → `luke-iha-vsl-leads` | Elaborated insight vectors become VSL lead structures |\n| **Insight Vectors** | → `luke-iha-proof-ladder` | Vectors generate the CLAI"
+    },
+    {
+      "skill": "luke-iha-million-dollar-mechanisms",
+      "path": "skills/luke-iha-million-dollar-mechanisms/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **copy-blocks** → Mechanism anchors the PROOF and CURIOSITY blocks\n- **vsl-leads** → Mechanism name becomes micro lead hook foundation\n- **unaware-ads** → UMP/UMS connects to awareness-level targeting\n- **creative-strategy** → Pain matrix enhances creative brief with multi-dimensional pain\n- **proof-mechanisms** → Mechanism provides the core claim that proof elements validate"
+    },
+    {
+      "skill": "luke-iha-proof-ladder",
+      "path": "skills/luke-iha-proof-ladder/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "luke-iha-copy-blocks",
+        "luke-iha-creative-strategy",
+        "luke-iha-million-dollar-mechanisms",
+        "luke-iha-proof-mechanisms",
+        "luke-iha-unaware-ads",
+        "luke-iha-vsl-leads"
+      ],
+      "evidence_excerpt": "This skill integrates with all other Luke Iha skills:\n- **Proof Mechanisms** (`luke-iha-proof-mechanisms`) — provides the 22 weapons; this skill provides the architecture for deploying them\n- **Copy Blocks** (`luke-iha-copy-blocks`) — proof blocks and proof-braiding integrate with the 6 copy block model\n- **Creative Strategy** (`luke-iha-creative-strategy`) — proof portfolio integrates with freelance career strategy\n- **VSL Leads** (`luke-iha-vsl-leads`) — proof ladder informs proof density at each lead section\n- **Unaware Ads** (`luke-iha-unaware-ads`) — awareness levels map to proof tiers (cold audiences need lower-tier proof)\n- **Million-Dollar Mechanisms** (`luke-iha-million-dollar-mecha"
+    },
+    {
+      "skill": "luke-iha-proof-mechanisms",
+      "path": "skills/luke-iha-proof-mechanisms/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "luke-iha-creative-strategy",
+        "luke-iha-unaware-ads"
+      ],
+      "evidence_excerpt": "This skill integrates powerfully with the other Luke Iha skills:\n- **Creative Strategy** (`luke-iha-creative-strategy`) — for positioning and strategic framing before proof injection\n- **Unaware Ads** (`luke-iha-unaware-ads`) — for awareness-level calibration and hook architecture"
+    },
+    {
+      "skill": "luke-iha-unaware-ads",
+      "path": "skills/luke-iha-unaware-ads/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **→ Luke Iha Proof Mechanisms**: Unaware ads get them reading. Proof mechanisms get them buying. The \"Reasons to Buy\" phase of unaware ads is proof's deployment zone.\n- **→ Luke Iha Creative Strategy**: Creative strategy identifies the audience and angle. Unaware ads executes the hook and conversion.\n- **→ Dai Media Consumer Posture**: Worldview porn requires deep understanding of the \"radical individual.\" Consumer posture profiles reveal the beliefs to validate.\n- **→ Seena Rez TikTok Commerce**: Organic Hook Theft + viral commerce = ad creation from pre-validated social content.\n- **→ Jeremy Miner Identity Persuasion**: Conspiracy frames + identity persuasion = copy that makes readers fe"
+    },
+    {
+      "skill": "luke-iha-vsl-leads",
+      "path": "skills/luke-iha-vsl-leads/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **→ Luke Iha Copy Blocks**: The lead body is built FROM copy blocks. This skill specifies which blocks, in what order, at what velocity for the lead specifically.\n- **→ Luke Iha Million-Dollar Mechanisms**: The mechanism is TEASED in the lead (element #6 of the 15-element checklist) but not revealed. This skill handles the tease. That skill handles the mechanism itself.\n- **→ Luke Iha Proof Mechanisms**: Proof appears in the lead's \"Handle Objections\" phase. Proof Mechanisms provides the specific proof types to deploy.\n- **→ Luke Iha Unaware Ads**: Micro lead types overlap with unaware ad hook types — but micro leads are EXPANDED openings (50-200 words vs 1-2 sentences).\n- **→ Luke Iha Cre"
+    },
+    {
+      "skill": "michael-connelly-vivid-writing",
+      "path": "skills/michael-connelly-vivid-writing/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Stack With | What You Get |\n|-----------|-------------|\n| **Eric Roth** | Complete writing intelligence — Roth handles structure/theme/displacement; Connelly handles detail/momentum/character. Two complementary subtraction artists. |\n| **Nicolas Cole** | Sentence-level rhythm (Cole) + paragraph-level economy (Connelly). Cole fills the frame; Connelly implies it. |\n| **Steven Pressfield** | Narrative physics (Pressfield) + character physics (Connelly). Structure meets character-as-organizing-principle. |\n| **Lara Acosta** | LinkedIn content with telling details and momentum instead of formulaic structure. Connelly's economy + Acosta's platform intelligence. |\n| **Mitch Albom** | Emotional a"
+    },
+    {
+      "skill": "nate-b-jones-auto-improvement-loops",
+      "path": "skills/nate-b-jones-auto-improvement-loops/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [
+        "lance-yichao-context-engineering",
+        "nate-b-jones-intent-engineering",
+        "nate-b-jones-orchestration-intelligence",
+        "nate-b-jones-trust-architecture",
+        "nick-saraev-bottleneck-thinking"
+      ],
+      "evidence_excerpt": "| Pair With | Combined Output | Use Case |\n|-----------|----------------|----------|\n| `nate-b-jones-orchestration-intelligence` | Self-optimizing DPVI system | Multi-agent orchestration that improves coordination over time |\n| `nate-b-jones-trust-architecture` | Autonomous-system red team | Safety audit for self-improving agents (metric gaming as attack surface) |\n| `nate-b-jones-intent-engineering` | Intent-aware auto-improvement | Program.md becomes intent document |\n| `nick-saraev-bottleneck-thinking` | Constraint-first triplet selection | Find the ONE editable surface worth optimizing |\n| `lance-yichao-context-engineering` | Context-sufficient traces | High-signal traces preserving info"
+    },
+    {
+      "skill": "nicolas-cole-edan-writing-mechanics",
+      "path": "skills/nicolas-cole-edan-writing-mechanics/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "ghostwriting-voice-engine",
+        "michael-connelly-vivid-writing",
+        "nicolas-cole-nonfiction-value-architecture",
+        "nicolas-cole-sentence-craft",
+        "yann-martel-storytelling-mastery"
+      ],
+      "evidence_excerpt": "| Stack With | What It Adds |\n|---|---|\n| `nicolas-cole-sentence-craft` | Sentence-level polish after the EDAN block function is correct |\n| `nicolas-cole-nonfiction-value-architecture` | Reader-value promise before EDAN shapes the paragraph mechanics |\n| `yann-martel-storytelling-mastery` | Story-level envelope, ambiguity, and co-creation after EDAN maps local moves |\n| `michael-connelly-vivid-writing` | Scene economy and vivid implication for Description/Action upgrades |\n| `ghostwriting-voice-engine` | Client voice preservation while adding narration and block variety |"
+    },
+    {
+      "skill": "nicolas-cole-newsletter-flywheel",
+      "path": "skills/nicolas-cole-newsletter-flywheel/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "ghostwriting-voice-engine",
+        "kallaway",
+        "kieran-flanagan",
+        "lara-acosta",
+        "luke-iha",
+        "nicolas-cole-digital-products",
+        "nicolas-cole-sentence-craft"
+      ],
+      "evidence_excerpt": "| Stack With | What It Adds |\n|-----------|-------------|\n| `nicolas-cole-digital-products` | The $350 product the free newsletter sells |\n| `nicolas-cole-sentence-craft` | Sentence-level polish on newsletter prose |\n| `lara-acosta` | LinkedIn social proof from newsletter content |\n| `kieran-flanagan` | Content bundling — one post → multi-platform |\n| `ghostwriting-voice-engine` | Newsletter-as-service for ghostwriting clients |\n| `luke-iha` | Hook architecture for newsletter subject lines |\n| `kallaway` | Content psychology for subscriber retention |"
+    },
+    {
+      "skill": "nicolas-cole-nonfiction-value-architecture",
+      "path": "skills/nicolas-cole-nonfiction-value-architecture/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "ghostwriting-voice-engine",
+        "lara-acosta",
+        "luke-iha",
+        "nicolas-cole-newsletter-flywheel",
+        "nicolas-cole-sentence-craft"
+      ],
+      "evidence_excerpt": "| Stack With | What It Adds |\n|---|---|\n| `nicolas-cole-sentence-craft` | Polishes sentences after the value architecture is clear |\n| `nicolas-cole-newsletter-flywheel` | Connects one edition's value to a larger tangible faucet |\n| `lara-acosta` | Turns the value outline into LinkedIn-native authority content |\n| `ghostwriting-voice-engine` | Preserves client voice while making their expertise useful |\n| `luke-iha` | Adds proof and hook strength after the value promise is defined |"
+    },
+    {
+      "skill": "nicolas-cole-sales-education-messaging",
+      "path": "skills/nicolas-cole-sales-education-messaging/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [
+        "april-dunford-positioning",
+        "nicolas-cole-client-acquisition",
+        "nicolas-cole-digital-products",
+        "nicolas-cole-newsletter-flywheel",
+        "nicolas-cole-niche-positioning",
+        "nicolas-cole-nonfiction-value-architecture",
+        "phil-m-jones-conversational-influence"
+      ],
+      "evidence_excerpt": "| Stack With | What It Adds |\n|---|---|\n| `nicolas-cole-client-acquisition` | Use after prospect lists and outreach motions exist; this skill upgrades the sales education layer inside calls, emails, and follow-up. |\n| `nicolas-cole-niche-positioning` | Use before this when the buyer, category, or specific problem is still too broad. |\n| `nicolas-cole-nonfiction-value-architecture` | Use when sales education needs to become useful articles, newsletters, posts, or scripts. |\n| `nicolas-cole-digital-products` | Use for launch emails, cohort sales, offer education, and product category explanation. |\n| `nicolas-cole-newsletter-flywheel` | Use to turn repeated sales education into a compounding c"
+    },
+    {
+      "skill": "ocean-vuong-perceptual-writing",
+      "path": "skills/ocean-vuong-perceptual-writing/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "### Perceptual Stacking (Original)\n\n| Stack With | What You Get |\n|-----------|-------------|\n| **Eric Roth** | Off-center displacement + estrangement = prose that both displaces AND re-sees simultaneously |\n| **Nicolas Cole** | Vuong's perceptual depth + Cole's sentence rhythm = writing that is both original and kinetically propulsive |\n| **Lara Acosta** | LinkedIn content with genuine perceptual novelty instead of recycled insights |\n| **Dan Koe** | Knowledge alchemy grounded in estrangement — concepts that feel genuinely new, not repackaged |\n| **Connelly** | Telling details that don't just specificity-signal but genuinely estrange — behavioral correspondence at the detail level |\n| **Gra"
+    },
+    {
+      "skill": "persuasion-story-code",
+      "path": "skills/persuasion-story-code/SKILL.md",
+      "section_headings": [
+        "Stacking Defaults"
+      ],
+      "declared_partners": [
+        "donald-miller-storybrand",
+        "jeremy-miner-identity-persuasion",
+        "joanna-wiebe-persuasion-mastery",
+        "kallaway-addictive-storytelling",
+        "pj-accetturo-ai-video",
+        "remotion-video-creation",
+        "rory-sutherland-marketing",
+        "shaan-puri-storytelling",
+        "story-compass",
+        "tao-prompts-ai-video"
+      ],
+      "evidence_excerpt": "- **Conversion copy**: Story Code + `joanna-wiebe-persuasion-mastery` + `donald-miller-storybrand`.\n- **Sales conversations**: Story Code + `jeremy-miner-identity-persuasion`.\n- **Social posts**: Story Code + `kallaway-addictive-storytelling` + `shaan-puri-storytelling` + `story-compass`.\n- **Video**: Story Code + `pj-accetturo-ai-video` + `tao-prompts-ai-video` + `remotion-video-creation`.\n- **Perception and framing**: Story Code + `rory-sutherland-marketing`."
+    },
+    {
+      "skill": "phil-m-jones-conversational-influence",
+      "path": "skills/phil-m-jones-conversational-influence/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Pair With | Use This Phil M Jones Workflow | Compound Output |\n|---|---|---|\n| Jeremy Miner | `/pmj-sales-playbook` | Identity-aware sales script with softer decision language. |\n| Joanna Wiebe | `/pmj-copy-injector` | Copy that uses spoken decision cues without sounding scripted. |\n| David McRaney | `/pmj-belief-safe-audit` | Influence that protects autonomy and lowers defensiveness. |\n| Rory Sutherland | `/pmj-choice-architecture` | Choice framing that uses behavioral context without hype. |\n| Persuasion Story Code | `/pmj-content-hook` | Content that opens curiosity and moves to a clear ask. |"
+    },
+    {
+      "skill": "sam-parr-taste-acquisition",
+      "path": "skills/sam-parr-taste-acquisition/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Pair With | Produces | Slash Command |\n|-----------|----------|---------------|\n| Oren (taste evaluation) | Identity → acquisition → evaluation → curation pipeline | `/taste-cev` |\n| Luke Iha (copywork) | Ad copy taste through systematic copying of masters | standard copy workflows |\n| Nicolas Cole (sentence-level) | Writing taste through deliberate reproduction | standard writing workflows |\n| Grace (new media) | Platform taste through media history lineage | `/taste-dna` |\n| Jun Yuh (identity-as-niche) | Personal brand taste that IS the positioning | `/taste-declare` → `/junyuh-identity` |"
+    },
+    {
+      "skill": "satori-graphics-design-mastery",
+      "path": "skills/satori-graphics-design-mastery/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Satori Workflow | Stack With | Result |\n|---|---|---|\n| Anti-AI-Slop Refinement | Jack Roberts | DESIGN.md systems that do not look generated |\n| Grid Composition System | Kittl | Typographic layouts with clean structure and font psychology |\n| Predictive Empathy Poster | Oren | Emotionally precise campaign direction |\n| Memory Encoding Concept Builder | Greg Hoffman | Brand ideas that stick through metaphor and emotional value |\n| Brand System Visual Language Check | creative-director | Campaign systems with visual and strategic coherence |"
+    },
+    {
+      "skill": "semantic-document-library-os",
+      "path": "skills/semantic-document-library-os/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **Nate B. Jones Context Engineering**: use for retrieval, memory, and context-load architecture.\n- **Nate B. Jones Intent Engineering**: use for hidden intent, invisible guardrails, and disambiguation triggers.\n- **Nate B. Jones Trust Architecture**: use for permissions, approval gates, and high-consequence actions.\n- **Nate B. Jones Orchestration Intelligence**: use for multi-agent work graphs and validation loops.\n- **Nate B. Jones Agent Deployment Strategy**: use for rollout, containment, progressive delegation, and client implementation.\n- **Liam Mley AI Brain Builder**: use when the semantic library becomes a full business context layer.\n- **Rachel Woods Playbook OS**: use when the se"
+    },
+    {
+      "skill": "sharran-srivatsaa-scaling",
+      "path": "skills/sharran-srivatsaa-scaling/SKILL.md",
+      "section_headings": [
+        "Skill Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Pairs With | Compound Effect |\n|-----------|----------------|\n| **Nicolas Cole Digital Strategy** | Constraint audit identifies what product to build → Cole's vehicle selection monetizes it |\n| **Samuel Thompson Product Launch** | 10X diagnostic reveals market gap → Thompson's Shadow Market validates at speed |\n| **Tom Noske Creator Business** | Decision mapping selects offer architecture → Noske's trust transaction sells it |\n| **Kallaway Content Psychology** | Constraint sprint defines content direction → Kallaway's Lego Bricks execute it |\n| **Joanna Wiebe Strategic Writing** | Four Goods evaluates client fit → Wiebe's persuasion hierarchy converts them |"
+    },
+    {
+      "skill": "story-compass",
+      "path": "skills/story-compass/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Stack With | What Happens |\n|------------|-------------|\n| **Before Shaan Puri** | Find the story → then frame it for virality |\n| **Before Eric Roth** | Build the compass → then apply cinematic depth |\n| **Before Connelly** | Diagnose story health → then deploy detail/subtext |\n| **Before Wright Thompson** | Find the core → then build gap/complication |\n| **Before Kallaway** | Structure narrative → then optimize for saves/conversion |\n| **Before Stefan Georgi** | Want/Tension/Change → maps to dopamine copy arcs |\n| **Before StoryBrand** | Want = Hero's Desire, Tension = Villain, Change = Resolution |\n| **Before Seth Godin** | Compass validates whether brand promise has fuel |"
+    },
+    {
+      "skill": "sweat-equity-speedrun-social-os",
+      "path": "skills/sweat-equity-speedrun-social-os/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [
+        "authority-hacker-ai-social-media",
+        "content-media-agent",
+        "diandra-escobar-linkedin-growth",
+        "grace-andrews",
+        "oren-content-team-architecture"
+      ],
+      "evidence_excerpt": "| Stack With | Use |\n|---|---|\n| `authority-hacker-ai-social-media` | Package speedrun concepts into platform-native posts and review performance feedback |\n| `diandra-escobar-linkedin-growth` | Turn high-attention moments into LinkedIn growth posts and borrowed-attention angles |\n| `grace-andrews` | Connect a one-time activation to a larger media-company world |\n| `oren-content-team-architecture` | Design the agency/team workflow and handoff model |\n| `content-media-agent` | Atomize source material into post, script, newsletter, and media packages |\n| Client delivery workflows | Productize event audits, sprint plans, production runbooks, and post-event case studies |"
+    },
+    {
+      "skill": "wright-thompson-mastery",
+      "path": "skills/wright-thompson-mastery/SKILL.md",
+      "section_headings": [
+        "Stacking Guide",
+        "Cross-Expert Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "### End-to-End Story Build (Full Pipeline)\n```\n/wt-complication → /wt-myth-gap → /wt-hammer → /wt-pressure → /wt-second-section → /wt-scenes → /wt-interiority → /wt-details → /wt-residue\n```"
+    },
+    {
+      "skill": "yann-martel-storytelling-mastery",
+      "path": "skills/yann-martel-storytelling-mastery/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Martel Workflow | Stack With | Result |\n|---|---|---|\n| Envelope Architecture Builder | Wright Thompson | Research fragments become a central human story |\n| Co-Creation Gap Editor | Ocean Vuong | Restraint plus perceptual charge |\n| Scene Card Orchestration | Eric Roth | Scene order with cinematic movement |\n| Satisfying Mysterious Ending | Mitch Albom | Accessible emotional closure with lingering question |\n| Animal Allegory Translator | Donald Miller | Heavy brand education made simpler without becoming shallow |\n| Punctuation Rhythm Score | Fareed Zakaria | Clear argument with better breath and tempo |\n| Authenticity Boundary Audit | Lulu Cheng Meservey | Founder voice that preserves t"
+    },
+    {
+      "skill": "youtube-video-context-analysis",
+      "path": "skills/youtube-video-context-analysis/SKILL.md",
+      "section_headings": [
+        "Stacking Guide"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Stack With | How To Use The Ledger |\n|---|---|\n| `/extract` | Use `video-context-ledger.md` instead of transcript-only source material |\n| `/extract-forge` | Use full visual context for rich interviews, lectures, demos, and source-to-skill builds |\n| `/research-intelligence-agent` | Audit claims with a timestamped evidence map |\n| `/creative-design-agent` | Convert real visual references into grounded creative direction |\n| `/content-media-agent` | Build clips, posts, and scripts from timestamped evidence |\n| `/adversarial-review` | Separate claim, proof, contradiction, and uncertainty |"
+    }
+  ],
+  "agent_stacking_sections": [
+    {
+      "agent": "andrew-dun",
+      "path": "agents/andrew-dun/AGENT.md",
+      "section_headings": [
+        "Cross-Expert Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "| Chain | Flow |\n|-------|------|\n| @lindsay → @andrew-dun | Acquire clients → Deliver diagnostic methodology |\n| @andrew-dun → @soowei | Deliver 1:1 → Scale to 1:many leverage |\n| @andrew-dun → @darrel-wilson | Diagnose → Automate (consultant/implementer split) |\n| @andrew-dun → @sharran | Process audit → Constraint-based growth scaling |\n| @andrew-dun → @dunford | Service positioning → B2B niche domination |\n| @andrew-dun → @daniel-priestley | Diagnostic as entry product → Oversubscribed practice |"
+    },
+    {
+      "agent": "brandon-jacoby",
+      "path": "agents/brandon-jacoby/AGENT.md",
+      "section_headings": [
+        "Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **Oren Taste Development**: calibrates and trains the user's taste vocabulary.\n- **Nate B Jones AI Taste Mastery**: strengthens AI output supervision.\n- **Satori Graphics**: audits visual communication and anti-slop design.\n- **Design MD / Jack Roberts**: converts taste decisions into durable design specs.\n- **Conde Agent Experience Design**: upgrades agent workflows and command UX.\n- **Kallaway / Jun Yuh**: applies taste to content systems and audience response."
+    },
+    {
+      "agent": "phil-m-jones",
+      "path": "agents/phil-m-jones/AGENT.md",
+      "section_headings": [
+        "Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- Use Jeremy Miner when the conversation needs identity-level sales psychology.\n- Use Joanna Wiebe when the phrase mechanics must become conversion copy.\n- Use David McRaney when the communication may threaten beliefs or identity.\n- Use Rory Sutherland when the option design or perceived value needs behavioral context.\n- Use Persuasion Story Code when content needs story proof before the ask."
+    },
+    {
+      "agent": "satori-graphics",
+      "path": "agents/satori-graphics/AGENT.md",
+      "section_headings": [
+        "Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **Jack Roberts**: code-first design systems and DESIGN.md.\n- **Kittl**: typography and font psychology.\n- **Oren**: taste and premium visual judgment.\n- **creative-director**: campaign-level art direction.\n- **Sean Kochel**: conversion-oriented landing pages."
+    },
+    {
+      "agent": "yann-martel",
+      "path": "agents/yann-martel/AGENT.md",
+      "section_headings": [
+        "Stacking"
+      ],
+      "declared_partners": [],
+      "evidence_excerpt": "- **Wright Thompson**: central human pressure and narrative journalism.\n- **Eric Roth**: cinematic scene movement and screenwriting craft.\n- **Ocean Vuong**: perceptual estrangement and charged language.\n- **Mitch Albom**: accessible emotional legacy.\n- **Fareed Zakaria**: clarity and argument architecture.\n- **Lulu Cheng Meservey**: founder voice and direct communication."
+    }
+  ],
+  "routing_intelligence_ensembles": [],
+  "selection_policy": [
+    "Prefer trigger-matched declared compounds.",
+    "Use skill stacking guides when they name a partner or use case.",
+    "Promote pairings with positive routing-intelligence feedback.",
+    "Use cascade relationships for downstream risk and adjacent checks.",
+    "Skip stacking when one workflow or expert is sufficient."
+  ]
+}

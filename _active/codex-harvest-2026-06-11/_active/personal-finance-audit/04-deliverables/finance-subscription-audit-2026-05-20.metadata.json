@@ -1,0 +1,26 @@
+{
+  "title": "Personal Finance And Subscription Audit - 2026-05-20",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "dataSources": [
+    "Wells Fargo CSV: /Users/farricecain/Documents/wells_fargo_transactions_last_90_days_clean.csv",
+    "Gmail receipts, invoices, alerts, and subscription confirmations",
+    "Wells Fargo balance and insufficient-funds alerts visible in Gmail"
+  ],
+  "bankCsvStatus": "used",
+  "csvRows": 149,
+  "csvDateRange": "2026-02-19 to 2026-05-19",
+  "normalizedCashflow": {
+    "totalInflow": 2868.01,
+    "totalOutflow": 4964.36,
+    "netGap": -2096.35,
+    "monthlyInflow": 956.0,
+    "monthlyOutflow": 1654.79,
+    "monthlyGap": -698.78
+  },
+  "knownLedgerGap": "The CSV includes $1,305.00 in Signify Business Essential Card payments but not the itemized card transactions.",
+  "accountActionsTaken": false,
+  "createdDate": "2026-05-20",
+  "updatedDate": "2026-05-20"
+}

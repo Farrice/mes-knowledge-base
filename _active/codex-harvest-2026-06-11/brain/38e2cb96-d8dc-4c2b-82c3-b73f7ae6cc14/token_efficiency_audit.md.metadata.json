@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Full token efficiency audit of the Antigravity system. Measures 46.8MB across 5,687 files, identifies genius.md files (avg 31KB, max 149KB) as the biggest controllable expense, and provides 5 actionable recommendations: genius.md size cap at 50KB, conversation discipline, session boundaries, and behavioral optimization. Concludes the system architecture is already well-optimized — the main risk is behavioral (multi-expert loading) not structural.",
+  "updatedAt": "2026-04-02T14:28:58.939730Z"
+}

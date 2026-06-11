@@ -1,0 +1,17 @@
+{
+  "title": "Revenue: Same-Day Cash Board - May 12, 2026",
+  "createdFor": "Same-day cash-to-revenue sprint",
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "primaryRoute": "/first-10k",
+  "supportGates": [
+    "/revenue-offer-agent",
+    "/client-acquire",
+    "/zero-to-client-sprint",
+    "/service-first-productization",
+    "/publishable-copy-gate"
+  ],
+  "status": "ready-for-human-review-before-outreach",
+  "date": "2026-05-12"
+}

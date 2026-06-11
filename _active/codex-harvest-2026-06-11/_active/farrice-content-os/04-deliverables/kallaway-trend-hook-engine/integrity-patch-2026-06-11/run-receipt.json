@@ -1,0 +1,45 @@
+{
+  "run_id": "integrity-patch-2026-06-11",
+  "generated_at": "2026-06-10T21:03:52",
+  "source_package": "extractions/video-context/a7VjpIqq8Xk",
+  "source_counts": {
+    "observed_visual": 20,
+    "observed_spoken": 1822,
+    "uncertain_or_unavailable": 1
+  },
+  "input_files": [
+    "execution/fixtures/kallaway_trend_hook_radar_sample.csv"
+  ],
+  "signal_count": 8,
+  "included_signal_count": 6,
+  "excluded_signal_count": 2,
+  "apify_status": [
+    {
+      "status": "skipped",
+      "fallback": true,
+      "message": "Public data actors were not executed. Use --execute-apify after confirming budget and permissions."
+    }
+  ],
+  "compliance_boundary": [
+    "Manual CSV, owned metrics, approved LinkedIn evidence, and explicit public-data runs only.",
+    "No login automation, scraping of private LinkedIn pages, publishing, DMs, likes, comments, or outreach.",
+    "Budget-guarded public lanes must return structured fallbacks when unavailable."
+  ],
+  "output_files": {
+    "normalized_signals": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/normalized-signals.json",
+    "outlier_ledger": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/outlier-ledger.csv",
+    "hook_pattern_report": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/hook-pattern-report.md",
+    "creative_reaction_brief": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/creative-reaction-brief.md",
+    "book_and_content_opportunity_map": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/book-and-content-opportunity-map.md",
+    "run_receipt_json": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/run-receipt.json",
+    "run_receipt_md": "_active/farrice-content-os/04-deliverables/kallaway-trend-hook-engine/integrity-patch-2026-06-11/run-receipt.md"
+  },
+  "next_workflow_chain": [
+    "/kallaway-trend-hook-engine",
+    "/ai-topic-mining",
+    "/ai-hook-extractor",
+    "/kcs-topic-format",
+    "/kcs-hook-triad",
+    "/ai-creative-sprint"
+  ]
+}

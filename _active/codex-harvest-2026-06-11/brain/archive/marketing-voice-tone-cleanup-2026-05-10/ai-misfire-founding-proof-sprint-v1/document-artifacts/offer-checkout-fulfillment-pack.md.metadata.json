@@ -1,0 +1,12 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Offer, checkout, paid bridge, and fulfillment source pack for AI Misfire Founding Proof.",
+  "updatedAt": "2026-05-10T16:30:00Z",
+  "requestFeedback": true,
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "activeIntent": "2026-05-10-full-revenue-suite-rebuild",
+  "sourceFormat": "markdown",
+  "exportFormatsGeneratedByDefault": false
+}

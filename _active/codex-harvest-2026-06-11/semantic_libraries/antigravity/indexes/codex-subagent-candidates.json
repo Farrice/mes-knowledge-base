@@ -1,0 +1,118 @@
+{
+  "candidate_count": 7,
+  "count": 13,
+  "generated_at": "2026-06-10T04:14:10.441350+00:00",
+  "generated_by": "execution/generate_codex_indexes.py",
+  "index_kind": "codex_subagent_candidates",
+  "items": [
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use when a deliverable is drafted and needs independent stress-testing before delivery \u2014 premise integrity, evidence quality, voice alignment, structural soundness, market resilience. Replaces the writers' room for solo work. Examples \u2014 <example>Context: User has a Substack draft ready and wants final-pass scrutiny. Assistant: \"Adversarial-reviewer for stress-test critique scored on 5+ axes \u2014 strong takes only, no congratulatory padding.\" <commentary>Independent critique is the quality lever; an in-conversation Claude often pads to be agreeable.</commentary></example> <example>Context: Strategic brief about to go to a client. Assistant: \"Sending adversarial-reviewer \u2014 would this survive contact with a tough academic peer reviewer? Marc Andreessen reading it cold?\" <commentary>Client deliverables especially need adversarial scrutiny.</commentary></example> <example>Context: New positioning hypothesis being shipped. Assistant: \"Adversarial-reviewer to find the steel-manned counter-arguments before the market does.\" <commentary>Better to absorb tough critique internally than externally.</commentary></example>",
+      "name": "adversarial-reviewer",
+      "path": ".claude/agents/adversarial-reviewer.md",
+      "slug": "adversarial-reviewer"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Use when a hook set needs delegated audit for signal, gap, format choice, first-window fit, and downstream content risk. Do not use for publishing or external research.",
+      "name": "attention-hijack-hook-auditor",
+      "path": ".claude/agents/attention-hijack-hook-auditor.md",
+      "slug": "attention-hijack-hook-auditor"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Use when the user needs a full brand system built from a brief \u2014 DESIGN.md (Google Labs v2 spec), visual + verbal direction, brand library entry, voice rules with examples, naming if needed. Examples \u2014 <example>Context: User is launching a new brand for a client (or self) and needs the foundational system. Assistant: \"Brand-system-builder for full DESIGN.md + voice rules + library entry \u2014 leveraging Creative Director infrastructure.\" <commentary>End-to-end brand system from brief is the highest-leverage application of the new DESIGN.md v2 integration.</commentary></example> <example>Context: Existing brand needs to be properly systematized into the codebase. Assistant: \"Brand-system-builder reverse-engineering existing assets into a deployable DESIGN.md spec.\" <commentary>Codifying an existing brand into the system unlocks all downstream Creative Director workflows.</commentary></example> <example>Context: Quick visual + verbal direction needed for a project. Assistant: \"Brand-system-builder in lighter mode \u2014 minimum viable DESIGN.md with brand library reference.\" <commentary>Even quick brand work benefits from system-grade structure.</commentary></example>",
+      "name": "brand-system-builder",
+      "path": ".claude/agents/brand-system-builder.md",
+      "slug": "brand-system-builder"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use when the user needs structured competitive intelligence on a niche, competitor, or category \u2014 positioning map, distribution, content moats, pricing, search-gap, and specific opportunities. Real findings, primary sources, no SWOT slop. Examples \u2014 <example>Context: User considering pricing pivot and wants to know what others charge. Assistant: \"Competitive-intel \u2014 pulling actual sales-page pricing from competitors, not generic 'industry average' claims.\" <commentary>Pricing decisions need primary-source data, not LLM inference.</commentary></example> <example>Context: New niche entry, user wants to know who's winning and where the gaps are. Assistant: \"Competitive-intel for the full landscape \u2014 positioning grid, content moats, search-gap analysis with specific opportunities tied to user's wedge.\" <commentary>Strategic intelligence brief grade output.</commentary></example> <example>Context: Specific competitor analysis before launching a competing product. Assistant: \"Competitive-intel deep on [competitor] \u2014 actual quotes from their content, real pricing, what they don't talk about.\" <commentary>Single-competitor deep dive informs differentiation strategy.</commentary></example>",
+      "name": "competitive-intel",
+      "path": ".claude/agents/competitive-intel.md",
+      "slug": "competitive-intel"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use after a deliverable is complete and needs the full Chain finalize sequence run correctly \u2014 anchor-cited rubric scoring, prose check, Notion log, performance log, calibration drift check, revenue tracker registration. Examples \u2014 <example>Context: User just shipped a Substack edition and needs proper finalize. Assistant: \"Content-finalizer to run the full Chain Step 6 sequence with anchored scores and all the right metadata.\" <commentary>Replaces error-prone manual chain_runner.py invocations.</commentary></example> <example>Context: Multi-deliverable session and user wants each finalized properly. Assistant: \"Content-finalizer per deliverable \u2014 no batched finalize, no skipped scores.\" <commentary>Per-deliverable rigor matters; batching loses signal.</commentary></example> <example>Context: User finished a strategic brief for a client and needs the full quality gate. Assistant: \"Content-finalizer with revenue tracking flagged for client work.\" <commentary>Client deliverables need outcome tracking from delivery.</commentary></example>",
+      "name": "content-finalizer",
+      "path": ".claude/agents/content-finalizer.md",
+      "slug": "content-finalizer"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use when the user needs cross-source research that lands a single truth, not a summary. Examples \u2014 <example>Context: User asks about the current state of AI agent autonomy frameworks. Assistant: \"I'll dispatch the deep-research agent to synthesize Anthropic, OpenAI, and LangChain's actual production deployments, distinguishing shipped capability from hype.\" <commentary>Cross-source synthesis question with verification stakes \u2014 exactly what deep-research is for.</commentary></example> <example>Context: User wants to understand what's actually working in personal-brand ghostwriting at the $5K+ tier. Assistant: \"Deep-research agent will pull from Recall (existing extractions), check NotebookLM (Lara/Cole/Nicolas notebooks), then external search for live signals.\" <commentary>Research that requires inheriting accumulated knowledge before going external.</commentary></example> <example>Context: Strategic brief needs grounded research before drafting. Assistant: \"Sending deep-research first so the brief is built on verified facts and a single thesis, not vibes.\" <commentary>Research is the foundation; this agent produces it at strategic-brief grade.</commentary></example>",
+      "name": "deep-research",
+      "path": ".claude/agents/deep-research.md",
+      "slug": "deep-research"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Use when the user wants to extract a new expert from source material (YouTube transcript, podcast, article, course, book) into a deployable persona + skill + workflows. Examples \u2014 <example>Context: User wants to extract Sharran Srivatsaa from his recent interview. Assistant: \"Dispatching expert-extractor on the source material \u2014 full MES 3.0 extraction with genius patterns, signature workflows, agent persona, and skill scaffold.\" <commentary>This is the user's most-repeated workflow. Subagent makes it parallelizable.</commentary></example> <example>Context: User just dropped a YouTube URL of a master copywriter and wants the full extraction. Assistant: \"Expert-extractor will fetch the transcript, run MES 3.0 protocol, propose workflows, and generate the deployable skill.\" <commentary>End-to-end extraction with a single invocation.</commentary></example> <example>Context: Multiple sources for one expert (5 podcasts of Lara Acosta). Assistant: \"Expert-extractor in deep mode: cross-source synthesis, deduplication of patterns, signature-move identification with frequency-weighted importance.\" <commentary>Multi-source extraction is where this agent earns its keep.</commentary></example>",
+      "name": "expert-extractor",
+      "path": ".claude/agents/expert-extractor.md",
+      "slug": "expert-extractor"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use when the user has a draft, deliverable, or claim list that contains real-world facts (names, titles, companies, events, dates, statistics, technical claims, market data, source attributions) and needs verification BEFORE delivery. Examples \u2014 <example>Context: User has drafted a Substack edition with cultural references and needs grounding. Assistant: \"I'll dispatch fact-verifier on the draft \u2014 every name, date, and reference labeled VERIFIED/LIKELY/UNCONFIRMED before publish.\" <commentary>Pre-publish verification is exactly what fact-verifier exists to catch. Parallax Edition 02 shipped with 7 fabrications because this step was skipped.</commentary></example> <example>Context: Strategic brief contains market sizing claims and competitor citations. Assistant: \"Sending fact-verifier to inventory every claim and confirm against primary sources.\" <commentary>Strategic deliverables to clients require near-100% factual grounding.</commentary></example> <example>Context: User produced a piece about a public figure or company. Assistant: \"Fact-verifier first \u2014 never ship a piece about a real person without verifying their actual quotes, titles, and timeline.\" <commentary>Public-figure content has the highest fabrication risk.</commentary></example>",
+      "name": "fact-verifier",
+      "path": ".claude/agents/fact-verifier.md",
+      "slug": "fact-verifier"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use when the user needs deep audience intelligence on an ICP (ideal customer profile) \u2014 beyond demographic profiles into identity-level resistance, audience state mapping, language patterns, and bridge messaging. Examples \u2014 <example>Context: User is launching content for \"invisible experts\" who can't articulate their value. Assistant: \"Dispatching icp-deep-canvasser \u2014 McRaney deep canvassing \u00d7 Cimorelli audience state for full identity-level analysis with language map and Bridge Message.\" <commentary>This is the gold-standard ICP profile that informs all downstream content/brand/copy decisions.</commentary></example> <example>Context: New client niche, user needs to understand the buyer before any deliverable. Assistant: \"ICP deep canvasser first \u2014 never write copy for a buyer you don't understand at the resistance/identity level.\" <commentary>Skipping this step is the most common cause of flat content.</commentary></example> <example>Context: Existing ICP profile feels surface-level, needs depth. Assistant: \"Sending icp-deep-canvasser to upgrade the demographic-tier profile to a McRaney-grade identity-level profile.\" <commentary>Demographic profiles produce demographic copy. Identity profiles produce content that recognizes.</commentary></example>",
+      "name": "icp-deep-canvasser",
+      "path": ".claude/agents/icp-deep-canvasser.md",
+      "slug": "icp-deep-canvasser"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Use when the user needs production-ready copy at agency-grade quality \u2014 content, social, campaign, marketing, ads, emails, VSLs. Not \"options\" \u2014 the BEST version with brief work-showing on why this version. Examples \u2014 <example>Context: User needs a LinkedIn post on a specific insight. Assistant: \"Master-copywriter \u2014 voice-matched, structurally varied from recent posts, hook that grips cold readers.\" <commentary>Single deliverable, agency-tier quality.</commentary></example> <example>Context: 5-email welcome sequence for newsletter. Assistant: \"Master-copywriter for the full sequence \u2014 narrative arc across 5 emails, each standalone but compounding.\" <commentary>Sequenced copy is where amateur copywriters fail; this agent handles arc structure.</commentary></example> <example>Context: Direct-response ad copy for a digital product. Assistant: \"Master-copywriter in DR mode \u2014 Schwartz awareness ladder, mechanism-led, proof-stacked.\" <commentary>DR copy is its own discipline; the agent has the frameworks.</commentary></example>",
+      "name": "master-copywriter",
+      "path": ".claude/agents/master-copywriter.md",
+      "slug": "master-copywriter"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "subagent candidate",
+      "description": "Use when a draft needs voice-quality enforcement and AI-tell removal before delivery. Catches structural moves (not just phrases) that signal AI-generated writing even when individual sentences are clean. Examples \u2014 <example>Context: User has a Substack draft and wants AI-slop check before publishing. Assistant: \"Sending prose-doctor to scan for the 8 banned structural moves and rewrite any that leaked through.\" <commentary>Phrase-level scans miss structural tells. This agent specifically catches MOVES.</commentary></example> <example>Context: LinkedIn post drafted by user, wants voice calibration. Assistant: \"Prose-doctor pass for voice match against feedback memory and structural-tell scan.\" <commentary>Voice quality check before public posting.</commentary></example> <example>Context: Multi-edition content series and user wants cross-piece variance audit. Assistant: \"Prose-doctor across all 5 editions to ensure no two share a closing move or transition gesture.\" <commentary>Cross-piece rhythm repetition is one of the 8 banned moves.</commentary></example>",
+      "name": "prose-doctor",
+      "path": ".claude/agents/prose-doctor.md",
+      "slug": "prose-doctor"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Use when a task spans multiple expert domains and benefits from parallel expert takes synthesized into a single deliverable \u2014 strikes, campaigns, multi-perspective ideation, council deliberations. Examples \u2014 <example>Context: User wants 5 expert perspectives on a positioning question. Assistant: \"Swarm-orchestrator across Lara, Luke, Cole, Sean, Rory \u2014 parallel takes, structural synthesis, contradictions surfaced for user decision.\" <commentary>Replaces JCC strike orchestration with isolated-context coordination.</commentary></example> <example>Context: Multi-domain creative brief \u2014 content + brand + design. Assistant: \"Swarm-orchestrator coordinating master-copywriter + brand-system-builder + creative-director in parallel, then synthesis.\" <commentary>Cross-subagent coordination is exactly this agent's job.</commentary></example> <example>Context: Council-style decision with informed dissent expected. Assistant: \"Swarm-orchestrator with adversarial-reviewer in the mix \u2014 surface the strongest disagreement, don't average it out.\" <commentary>Best swarm output preserves dissent rather than auto-resolving.</commentary></example>",
+      "name": "swarm-orchestrator",
+      "path": ".claude/agents/swarm-orchestrator.md",
+      "slug": "swarm-orchestrator"
+    },
+    {
+      "activation_boundary": "requires explicit user authorization for real Codex subagents",
+      "codex_verdict": "keep as workflow/protocol",
+      "description": "Use when the user has 2+ documents, extractions, experts, or domains and wants cross-domain synthesis that reveals transferable principles, structural convergence, or net-new insight. Examples \u2014 <example>Context: User wants to find what Lara Acosta and Sean Macintyre share at the structural level despite different domains. Assistant: \"Synthesis-engine \u2014 convergence is structural identity, not topical overlap. I'll find where their thinking is the same shape.\" <commentary>The /reflect-class work that produces the user's highest-value insights.</commentary></example> <example>Context: Multiple recent extractions (Sharran, Evan Spiegel, April Dunford) sitting in the system. User wants a synthesis pass. Assistant: \"Synthesis-engine across the three \u2014 looking for transferable principles that compound, not a comparison grid.\" <commentary>Cross-extraction synthesis is where the system creates net-new IP.</commentary></example> <example>Context: User has design + content + brand work and wonders if there's a unified principle. Assistant: \"Synthesis-engine \u2014 the deepest insights come from cross-domain pattern recognition, like the 3% Disruption Principle.\" <commentary>Cross-domain synthesis is the user's signature pattern.</commentary></example>",
+      "name": "synthesis-engine",
+      "path": ".claude/agents/synthesis-engine.md",
+      "slug": "synthesis-engine"
+    }
+  ],
+  "schema_version": "1.0",
+  "source": ".claude/agents",
+  "sources": [
+    ".claude/agents/*.md"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_OTHER",
+  "summary": "Comprehensive harness audit report analyzing why Gemini models drift from the Antigravity 6-Step Chain. Identifies 7 architectural gaps (no chain step tracker, prompt size vs attention budget, competing instruction sources, no finalize enforcement, internalization assumption, no protocol activation verification, workflow override ambiguity). Performs model-harness separation, scaffolding gap analysis, and complexity audit. Provides risk assessment for potential fixes and recommends Option A (accept the drift, continue Claude as primary) to protect existing system functionality.",
+  "updatedAt": "2026-03-31T07:22:40.049420Z"
+}

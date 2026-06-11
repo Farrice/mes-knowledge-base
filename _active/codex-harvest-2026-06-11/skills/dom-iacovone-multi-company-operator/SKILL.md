@@ -1,0 +1,71 @@
+---
+name: "Dom Iacovone: Multi-Company Operator Excellence"
+description: "Run multi-company operator diagnostics from the Dom Iacovone/Open Residency source: messy multi-offer founder portfolio diagnosis, too many priorities, SGM planning, stage gate product launch planning, margin, channel fit, delegate/elevate leadership, retail/channel strategy, financial leakage, launch sequencing, and exit readiness."
+version: "1.0"
+format: "completion-engine"
+expert: "Dom Iacovone Multi-Company Operator"
+domain: entrepreneurship, operator excellence, CPG, retail, portfolio operations, launch strategy
+workflows: 6
+---
+
+# Dom Iacovone: Multi-Company Operator Excellence
+
+This skill turns the Open Residency conversation with Dom Iacovone into an operator-grade diagnostic system. It is not generic founder motivation. It is for founders, operators, and business builders who need to coordinate many brands, launches, channels, executives, metrics, and constraints without becoming the bottleneck.
+
+## Source Grounding
+
+- Video source: `TUdTU1pwoZ4`, Open Residency, published `2026-05-26`.
+- Evidence package: `extractions/video-context/TUdTU1pwoZ4/`.
+- Extraction package: `extractions/dom-iacovone/multi-company-operator/`.
+- Evidence limit: OCR is unavailable; do not make visual/on-screen-text claims unless frames are separately reviewed.
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|---|---|---|
+| 01 | [SGM Portfolio Diagnostic](workflows/01-sgm-portfolio-diagnostic.md) | Four-block annual operating model with weekly truth checks | A founder has too many brands, products, or priorities |
+| 02 | [Stage-Gate Innovation Map](workflows/02-stage-gate-innovation-map.md) | Go/revise/park/kill decision for new product ideas | A launch idea needs product, margin, and channel gates |
+| 03 | [Delegate/Elevate Operating Map](workflows/03-delegate-elevate-operating-map.md) | Meeting, owner, and escalation design | The founder is still suppressing operator judgment |
+| 04 | [Retail Channel Pathfinder](workflows/04-retail-channel-pathfinder.md) | DTC, TikTok, Amazon, retail, or DSD sequence | Channel strategy needs real execution logic |
+| 05 | [Financial Leak Audit](workflows/05-financial-leak-audit.md) | Trade spend, 3PL, logistics, shipping, and gross-to-net leakage map | Growth is hiding profit leaks |
+| 06 | [Launch And Exit Readiness](workflows/06-launch-and-exit-readiness.md) | Launch/retail/exit readiness plan | A business needs to scale while preserving optionality |
+
+## Default Workflow Selection
+
+- Portfolio chaos -> run workflow 01.
+- New product or SKU idea -> run workflow 02.
+- Founder bottleneck or weak executive ownership -> run workflow 03.
+- Channel/distribution choice -> run workflow 04.
+- Margin drain or retail economics problem -> run workflow 05.
+- New launch with strategic partner, retail buyer, or exit timing -> run workflow 06.
+
+## Stacking Guide
+
+| Stack With | Why |
+|---|---|
+| `/source-to-skill-system` | Use this source as a concrete example corpus for system-building decisions. |
+| `/extraction-governor-agent` | Decide whether a future business source is a reference, skill, command, or business asset. |
+| `ash-maurya-founder-systems` | Validate business-model assumptions before scaling the operator system. |
+| `dan-martell-business-scaling` | Pair constraint-first delegation with Dom's finance and retail operating cadence. |
+| `business-intelligence-audit` | Add deeper market/company analysis when a real client business is involved. |
+
+## Quality Bar
+
+Every answer must include:
+
+- current business stage,
+- one primary operating bottleneck,
+- evidence or assumption quality,
+- recommended workflow,
+- next operating move,
+- and at least one stop condition.
+
+Do not recommend broad retail, aggressive exit timing, medical venture moves, or valuation claims without explicit evidence and professional review boundaries.
+
+## Quick Reference
+
+- Genius context: [genius.md](genius.md)
+- Genius patterns: [references/genius-patterns.md](references/genius-patterns.md)
+- Hidden knowledge: [references/hidden-knowledge.md](references/hidden-knowledge.md)
+- Quality rubric: [references/quality-rubric.md](references/quality-rubric.md)
+- Source map: [references/source-map.md](references/source-map.md)

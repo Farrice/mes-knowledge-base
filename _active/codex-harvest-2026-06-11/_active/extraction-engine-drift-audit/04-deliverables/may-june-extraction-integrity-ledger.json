@@ -1,0 +1,3616 @@
+{
+  "generated_at": "2026-06-11T04:17:52Z",
+  "window": {
+    "since": "2026-05-01",
+    "until": "2026-06-11"
+  },
+  "summary": {
+    "total_records": 79,
+    "by_verdict": {
+      "patch proof/source": 29,
+      "keep": 11,
+      "redo from source": 38,
+      "quarantine from arsenal": 1
+    },
+    "by_tier": {
+      "A": 11,
+      "source-only": 68
+    },
+    "source_failures": [
+      "extractions/video-context/-WCNwxz3uoM",
+      "extractions/video-context/1YVi3iFk3V0",
+      "extractions/video-context/1q__Vs2JqbI",
+      "extractions/video-context/3iR3kHxCwfo",
+      "extractions/video-context/5OJT1ph-yL4",
+      "extractions/video-context/5TEMdTopdy8",
+      "extractions/video-context/5xrjO38WUYY",
+      "extractions/video-context/7pCEsr-0KIw",
+      "extractions/video-context/8gvCc5jvcH0",
+      "extractions/video-context/B9l9TRhu5Vw",
+      "extractions/video-context/FD53kEpLh9c",
+      "extractions/video-context/IdmtqdoZTBA",
+      "extractions/video-context/ImzoNTrgvFg",
+      "extractions/video-context/PzVV4X37ihg",
+      "extractions/video-context/QHPmOgnc96E",
+      "extractions/video-context/R8nrEQx8rEY",
+      "extractions/video-context/SDHKQbKC7gA",
+      "extractions/video-context/SzugliCQ3XY",
+      "extractions/video-context/TUdTU1pwoZ4",
+      "extractions/video-context/Zc4E_K48v48",
+      "extractions/video-context/_3SEUgRCXX0",
+      "extractions/video-context/a7VjpIqq8Xk",
+      "extractions/video-context/bAzg8BugEVY",
+      "extractions/video-context/bqzd0h0gmU0",
+      "extractions/video-context/cuVyTmbOZjk",
+      "extractions/video-context/d4Pmq27udNc",
+      "extractions/video-context/dtAJ2dOd3ko",
+      "extractions/video-context/fLDrB_wmbNE",
+      "extractions/video-context/fN2lra4_mgk",
+      "extractions/video-context/fixture001",
+      "extractions/video-context/flvU6sb9sg0",
+      "extractions/video-context/gAVbSZHwzNU",
+      "extractions/video-context/jNQXAC9IVRw",
+      "extractions/video-context/jWL3Am1v9t8",
+      "extractions/video-context/l3inbx2jeZU",
+      "extractions/video-context/oRYfJ_yxz6M",
+      "extractions/video-context/ogTLWGBc3cE",
+      "extractions/video-context/ohKt066uFhg",
+      "extractions/video-context/onQoYdxWXdA",
+      "extractions/video-context/tcqf6sgw_Ho",
+      "extractions/video-context/uf4fR3qcDkU",
+      "extractions/video-context/xC6N_TNR8wA"
+    ],
+    "route_failures": [
+      "control-plane-routing:full-control-plane-audit",
+      "extractions/video-context/SzugliCQ3XY"
+    ]
+  },
+  "records": [
+    {
+      "extraction_id": "control-plane-routing:full-control-plane-audit",
+      "source_path": "execution/control_plane_golden_queries.json",
+      "linked_capability": "system-audit-routing",
+      "tier": "A",
+      "build_shape": {
+        "status": "not_applicable"
+      },
+      "source_hygiene": {
+        "status": "not_applicable",
+        "notes": []
+      },
+      "uncertainty_boundary": {
+        "status": "not_applicable"
+      },
+      "duplicate_route_check": {
+        "status": "not_applicable"
+      },
+      "practitioner_executability": {
+        "status": "not_applicable"
+      },
+      "behavior_proof": {
+        "status": "not_applicable"
+      },
+      "cold_start_firing": {
+        "status": "fail",
+        "notes": [
+          "  helper running: execution/verify_operator_lesson.py",
+          "  helper ok: execution/verify_operator_lesson.py (2.6s)",
+          "  helper running: execution/verify_global_autopilot_source_truth.py",
+          "  helper ok: execution/verify_global_autopilot_source_truth.py (0.0s)",
+          "  helper running: execution/sync_operator_core_orchestrate.py --check",
+          "  helper ok: execution/sync_operator_core_orchestrate.py --check (0.0s)",
+          "  helper running: execution/verify_operator_core_orchestrate.py",
+          "Timed out after 120s."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "control-plane",
+      "verdict": "patch proof/source",
+      "owner_route": "/system-audit",
+      "repair_action": "Segment or speed up control-plane verifier duration; embedded audit timed out."
+    },
+    {
+      "extraction_id": "extractions/Vince Nijhof",
+      "source_path": "extractions/Vince Nijhof",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/andrew-dun",
+      "source_path": "extractions/andrew-dun",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/anne-lamott",
+      "source_path": "extractions/anne-lamott",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/ash-maurya-founder-systems",
+      "source_path": "extractions/ash-maurya-founder-systems",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/brandon-jacoby-taste-mastery",
+      "source_path": "extractions/brandon-jacoby-taste-mastery",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/cheri-tree-bank-buyology",
+      "source_path": "extractions/cheri-tree-bank-buyology",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "unknown",
+        "notes": [
+          "No standard source package shape detected."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/codie-sanchez-six-growth-levers",
+      "source_path": "extractions/codie-sanchez-six-growth-levers",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "unknown",
+        "notes": [
+          "No standard source package shape detected."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/david-gelb",
+      "source_path": "extractions/david-gelb",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/dom-iacovone",
+      "source_path": "extractions/dom-iacovone",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "unknown",
+        "notes": [
+          "No standard source package shape detected."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/donald-miller",
+      "source_path": "extractions/donald-miller",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/jason-fladlien",
+      "source_path": "extractions/jason-fladlien",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/kallaway-content-system",
+      "source_path": "extractions/kallaway-content-system",
+      "linked_capability": "kallaway-trend-hook-engine",
+      "tier": "A",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "kallaway-trend-hook-engine",
+        "workflow_first": "kallaway-trend-hook-engine",
+        "governor_route": "kallaway-trend-hook-engine",
+        "notes": [
+          "query=Sandcastles alternative social outlier hook trend radar",
+          "expected=/kallaway-trend-hook-engine"
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/mark-kashef-perfect-agentic-os-kit",
+      "source_path": "extractions/mark-kashef-perfect-agentic-os-kit",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/nicolas-cole-course-module-transformation",
+      "source_path": "extractions/nicolas-cole-course-module-transformation",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/nicolas-cole-edan-writing-mechanics",
+      "source_path": "extractions/nicolas-cole-edan-writing-mechanics",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/nicolas-cole-nonfiction-value",
+      "source_path": "extractions/nicolas-cole-nonfiction-value",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/nicolas-cole-sales-education-messaging",
+      "source_path": "extractions/nicolas-cole-sales-education-messaging",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "weak"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/oren",
+      "source_path": "extractions/oren",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/oren-one-person-ai-marketing-machine",
+      "source_path": "extractions/oren-one-person-ai-marketing-machine",
+      "linked_capability": "oren-solo-ai-marketing-machine",
+      "tier": "A",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "oren-solo-ai-marketing-machine",
+        "workflow_first": "oren-solo-ai-marketing-machine",
+        "governor_route": "oren-solo-ai-marketing-machine",
+        "notes": [
+          "query=one person marketing machine",
+          "expected=/oren-solo-ai-marketing-machine"
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/persuasion-story-code",
+      "source_path": "extractions/persuasion-story-code",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "unknown",
+        "notes": [
+          "No standard source package shape detected."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/phil-m-jones",
+      "source_path": "extractions/phil-m-jones",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/rachel-woods",
+      "source_path": "extractions/rachel-woods",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/rafa-conde",
+      "source_path": "extractions/rafa-conde",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/rory-sutherland",
+      "source_path": "extractions/rory-sutherland",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/satori-graphics",
+      "source_path": "extractions/satori-graphics",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/semantic-document-library-os",
+      "source_path": "extractions/semantic-document-library-os",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/sinem-gunel-1",
+      "source_path": "extractions/sinem-gunel-1",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/sinem-gunel-2",
+      "source_path": "extractions/sinem-gunel-2",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/sinem-gunel-3",
+      "source_path": "extractions/sinem-gunel-3",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/sinem-gunel-4",
+      "source_path": "extractions/sinem-gunel-4",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "missing"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/sweat-equity-speedrun-social-os",
+      "source_path": "extractions/sweat-equity-speedrun-social-os",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/tim-danilov",
+      "source_path": "extractions/tim-danilov",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/video-context/-WCNwxz3uoM",
+      "source_path": "extractions/video-context/-WCNwxz3uoM",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 14951",
+          "Observed spoken ledger rows: 1300"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/0eIN-Zdt39Q",
+      "source_path": "extractions/video-context/0eIN-Zdt39Q",
+      "linked_capability": "kishotenketsu-contrast-storytelling",
+      "tier": "A",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Transcript segments: 445",
+          "Clean transcript words: 2706",
+          "Observed spoken ledger rows: 888"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "kishotenketsu-contrast-storytelling",
+        "workflow_first": "kishotenketsu-contrast-storytelling",
+        "governor_route": "kishotenketsu-contrast-storytelling",
+        "notes": [
+          "query=kishotenketsu contrast storytelling variable over villain",
+          "expected=/kishotenketsu-contrast-storytelling"
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/video-context/1YVi3iFk3V0",
+      "source_path": "extractions/video-context/1YVi3iFk3V0",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 16036",
+          "Observed spoken ledger rows: 1358"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/1q__Vs2JqbI",
+      "source_path": "extractions/video-context/1q__Vs2JqbI",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 26862",
+          "Observed spoken ledger rows: 2288"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/3iR3kHxCwfo",
+      "source_path": "extractions/video-context/3iR3kHxCwfo",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 40301",
+          "Observed spoken ledger rows: 3432"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/5OJT1ph-yL4",
+      "source_path": "extractions/video-context/5OJT1ph-yL4",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 20640",
+          "Observed spoken ledger rows: 1812"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/5TEMdTopdy8",
+      "source_path": "extractions/video-context/5TEMdTopdy8",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 4350",
+          "Observed spoken ledger rows: 390"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/video-context/5xrjO38WUYY",
+      "source_path": "extractions/video-context/5xrjO38WUYY",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 7338",
+          "Observed spoken ledger rows: 626"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/7MNa2YTPGs4",
+      "source_path": "extractions/video-context/7MNa2YTPGs4",
+      "linked_capability": "buyer-trigger-os",
+      "tier": "A",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Transcript segments: 276",
+          "Clean transcript words: 1922",
+          "Observed spoken ledger rows: 276"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "buyer-trigger-os",
+        "workflow_first": "buyer-trigger-os",
+        "governor_route": "buyer-trigger-os",
+        "notes": [
+          "query=buyer trigger apparel purchase intent Meg Heckman",
+          "expected=/buyer-trigger-os"
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/video-context/7pCEsr-0KIw",
+      "source_path": "extractions/video-context/7pCEsr-0KIw",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 12843",
+          "Observed spoken ledger rows: 1142"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/8gvCc5jvcH0",
+      "source_path": "extractions/video-context/8gvCc5jvcH0",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 25459",
+          "Observed spoken ledger rows: 2202"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "weak"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/B9l9TRhu5Vw",
+      "source_path": "extractions/video-context/B9l9TRhu5Vw",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 26557",
+          "Observed spoken ledger rows: 2210"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/DWDFRi5ONMI",
+      "source_path": "extractions/video-context/DWDFRi5ONMI",
+      "linked_capability": "oren-solo-ai-marketing-machine",
+      "tier": "A",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Transcript segments: 860",
+          "Clean transcript words: 6051",
+          "Observed spoken ledger rows: 1718"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "oren-solo-ai-marketing-machine",
+        "workflow_first": "oren-solo-ai-marketing-machine",
+        "governor_route": "oren-solo-ai-marketing-machine",
+        "notes": [
+          "query=one person marketing machine",
+          "expected=/oren-solo-ai-marketing-machine"
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "keep",
+      "repair_action": "No repair required beyond normal future validation."
+    },
+    {
+      "extraction_id": "extractions/video-context/FD53kEpLh9c",
+      "source_path": "extractions/video-context/FD53kEpLh9c",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 8614",
+          "Observed spoken ledger rows: 780"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/video-context/IdmtqdoZTBA",
+      "source_path": "extractions/video-context/IdmtqdoZTBA",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 21039",
+          "Observed spoken ledger rows: 1866"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/ImzoNTrgvFg",
+      "source_path": "extractions/video-context/ImzoNTrgvFg",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 17043",
+          "Observed spoken ledger rows: 1486"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/PzVV4X37ihg",
+      "source_path": "extractions/video-context/PzVV4X37ihg",
+      "linked_capability": "agentic-engineering-loop-contract",
+      "tier": "A",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 37146",
+          "Observed spoken ledger rows: 3280"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "source-to-skill-system",
+        "workflow_first": "source-to-skill-system",
+        "governor_route": "ai-employee-os",
+        "notes": [
+          "query=agentic engineering context engineering dependency safety small PR",
+          "expected=/source-to-skill-system"
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/QHPmOgnc96E",
+      "source_path": "extractions/video-context/QHPmOgnc96E",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 13686",
+          "Observed spoken ledger rows: 1150"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/R8nrEQx8rEY",
+      "source_path": "extractions/video-context/R8nrEQx8rEY",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 14540",
+          "Observed spoken ledger rows: 1380"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/SDHKQbKC7gA",
+      "source_path": "extractions/video-context/SDHKQbKC7gA",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 21180",
+          "Observed spoken ledger rows: 1852"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/SzugliCQ3XY",
+      "source_path": "extractions/video-context/SzugliCQ3XY",
+      "linked_capability": "low-cognitive-load-message-gate",
+      "tier": "A",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 27176",
+          "Observed spoken ledger rows: 2582"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "fail",
+        "menu_first": "publishable-copy-gate",
+        "workflow_first": "publishable-copy-gate",
+        "governor_route": "publishable-copy-gate",
+        "notes": [
+          "query=copy feels smart but reader has to decode the offer",
+          "expected=/low-cognitive-load-message-gate"
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/TUdTU1pwoZ4",
+      "source_path": "extractions/video-context/TUdTU1pwoZ4",
+      "linked_capability": "multi-company-operator",
+      "tier": "A",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 119182",
+          "Observed spoken ledger rows: 10300"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "multi-company-operator",
+        "workflow_first": "multi-company-operator",
+        "governor_route": "multi-company-operator",
+        "notes": [
+          "query=messy multi-offer founder portfolio stage gate delegation retail launch",
+          "expected=/multi-company-operator"
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/Zc4E_K48v48",
+      "source_path": "extractions/video-context/Zc4E_K48v48",
+      "linked_capability": "attention-hijack-hooks",
+      "tier": "A",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 11152",
+          "Observed spoken ledger rows: 1058"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "attention-hijack-hooks",
+        "workflow_first": "attention-hijack-hooks",
+        "governor_route": "attention-hijack-hooks",
+        "notes": [
+          "query=attention hijack hooks brandjacking newsjacking first 50 words",
+          "expected=/attention-hijack-hooks"
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "quarantine from arsenal",
+      "repair_action": "Patch source package before trusting this capability as arsenal input."
+    },
+    {
+      "extraction_id": "extractions/video-context/_3SEUgRCXX0",
+      "source_path": "extractions/video-context/_3SEUgRCXX0",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 5956",
+          "Observed spoken ledger rows: 506"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/a7VjpIqq8Xk",
+      "source_path": "extractions/video-context/a7VjpIqq8Xk",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 21576",
+          "Observed spoken ledger rows: 1822"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/bAzg8BugEVY",
+      "source_path": "extractions/video-context/bAzg8BugEVY",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 8000",
+          "Observed spoken ledger rows: 417"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/bqzd0h0gmU0",
+      "source_path": "extractions/video-context/bqzd0h0gmU0",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 15037",
+          "Observed spoken ledger rows: 1338"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/cuVyTmbOZjk",
+      "source_path": "extractions/video-context/cuVyTmbOZjk",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 16670",
+          "Observed spoken ledger rows: 1478"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/d4Pmq27udNc",
+      "source_path": "extractions/video-context/d4Pmq27udNc",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 36899",
+          "Observed spoken ledger rows: 3221"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/dtAJ2dOd3ko",
+      "source_path": "extractions/video-context/dtAJ2dOd3ko",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 8226",
+          "Observed spoken ledger rows: 712"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/fLDrB_wmbNE",
+      "source_path": "extractions/video-context/fLDrB_wmbNE",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 6542",
+          "Observed spoken ledger rows: 610"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/fN2lra4_mgk",
+      "source_path": "extractions/video-context/fN2lra4_mgk",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 44049",
+          "Observed spoken ledger rows: 4156"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/fixture001",
+      "source_path": "extractions/video-context/fixture001",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript.vtt",
+          "Missing required file: transcript_segments.json",
+          "transcript.txt appears too short for extraction",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 45",
+          "Observed spoken ledger rows: 3"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "weak"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/flvU6sb9sg0",
+      "source_path": "extractions/video-context/flvU6sb9sg0",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 15060",
+          "Observed spoken ledger rows: 1410"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/gAVbSZHwzNU",
+      "source_path": "extractions/video-context/gAVbSZHwzNU",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 20070",
+          "Observed spoken ledger rows: 1740"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "weak"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/jNQXAC9IVRw",
+      "source_path": "extractions/video-context/jNQXAC9IVRw",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt appears too short for extraction",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 45",
+          "Observed spoken ledger rows: 6"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "weak"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/jWL3Am1v9t8",
+      "source_path": "extractions/video-context/jWL3Am1v9t8",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 15299",
+          "Observed spoken ledger rows: 1330"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/l3inbx2jeZU",
+      "source_path": "extractions/video-context/l3inbx2jeZU",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 13001",
+          "Observed spoken ledger rows: 1134"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/oRYfJ_yxz6M",
+      "source_path": "extractions/video-context/oRYfJ_yxz6M",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 21618",
+          "Observed spoken ledger rows: 1886"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/ogTLWGBc3cE",
+      "source_path": "extractions/video-context/ogTLWGBc3cE",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 15719",
+          "Observed spoken ledger rows: 1302"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "present"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    },
+    {
+      "extraction_id": "extractions/video-context/ohKt066uFhg",
+      "source_path": "extractions/video-context/ohKt066uFhg",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "present"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 10486",
+          "Observed spoken ledger rows: 900"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/onQoYdxWXdA",
+      "source_path": "extractions/video-context/onQoYdxWXdA",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 16871",
+          "Observed spoken ledger rows: 1442"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/tcqf6sgw_Ho",
+      "source_path": "extractions/video-context/tcqf6sgw_Ho",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 17583",
+          "Observed spoken ledger rows: 1532"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/uf4fR3qcDkU",
+      "source_path": "extractions/video-context/uf4fR3qcDkU",
+      "linked_capability": "sam-parr-copywriting-mechanics",
+      "tier": "A",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: transcript_segments.json",
+          "transcript.txt is still row-shaped; expected clean continuous transcript",
+          "Clean transcript words: 44412",
+          "Observed spoken ledger rows: 3988"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "pass",
+        "menu_first": "sam-parr-copywriting-mechanics",
+        "workflow_first": "sam-parr-copywriting-mechanics",
+        "governor_route": "sam-parr-copywriting-mechanics",
+        "notes": [
+          "query=Sam Parr proof first copywriting mechanics",
+          "expected=/sam-parr-copywriting-mechanics"
+        ]
+      },
+      "validation_coverage": {
+        "status": "missing"
+      },
+      "active_surface_risk": "review",
+      "owner_route": "/source-to-skill-system",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/video-context/xC6N_TNR8wA",
+      "source_path": "extractions/video-context/xC6N_TNR8wA",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "fail",
+        "notes": [
+          "Missing required file: metadata.json",
+          "Missing required file: transcript.vtt",
+          "Missing required file: transcript.txt",
+          "Missing required file: transcript_segments.json",
+          "Missing required file: video-context-ledger.md",
+          "Missing required file: video-context-ledger.json"
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "missing"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "redo from source",
+      "repair_action": "Rebuild from source package after transcript/segment repair and proof lab."
+    },
+    {
+      "extraction_id": "extractions/yann-martel",
+      "source_path": "extractions/yann-martel",
+      "linked_capability": "unlinked",
+      "tier": "source-only",
+      "build_shape": {
+        "status": "missing"
+      },
+      "source_hygiene": {
+        "status": "pass",
+        "notes": [
+          "Non-video extraction includes source or extraction surface."
+        ]
+      },
+      "uncertainty_boundary": {
+        "status": "present"
+      },
+      "duplicate_route_check": {
+        "status": "present"
+      },
+      "practitioner_executability": {
+        "status": "pass"
+      },
+      "behavior_proof": {
+        "status": "missing"
+      },
+      "cold_start_firing": {
+        "status": "not_configured",
+        "menu_first": null,
+        "workflow_first": null,
+        "governor_route": null,
+        "notes": [
+          "No Tier A route probe configured."
+        ]
+      },
+      "validation_coverage": {
+        "status": "present"
+      },
+      "active_surface_risk": "low",
+      "owner_route": "/extraction-governor-agent",
+      "verdict": "patch proof/source",
+      "repair_action": "Review missing or weak audit dimensions and patch the smallest surface."
+    }
+  ]
+}

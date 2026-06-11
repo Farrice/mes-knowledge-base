@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Misfire Diagnostic</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ff5a3d'/%3E%3Cpath d='M18 36h28M18 26h28M18 46h18' stroke='white' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">AI Misfire Diagnostic</p>
+          <h1>Paste one AI output. See where it guessed.</h1>
+          <p class="lede">
+            A fast diagnostic for founder-led experts whose AI-assisted content,
+            proposal, SOP, prompt, or workflow looks finished but still needs
+            expert rescue.
+          </p>
+          <div class="hero-actions">
+            <a href="#diagnostic" class="button primary">Start diagnostic</a>
+            <a href="#example" class="button secondary">See the map</a>
+          </div>
+        </div>
+        <figure class="hero-visual" id="example">
+          <img src="./assets/misfire-map.svg" alt="AI Misfire Map diagnostic diagram" />
+        </figure>
+      </section>
+
+      <section class="diagnostic" id="diagnostic">
+        <div class="panel input-panel">
+          <div class="section-heading">
+            <p class="eyebrow">Step 1</p>
+            <h2>Give the tool one real artifact</h2>
+          </div>
+          <form id="misfire-form">
+            <label>
+              Name
+              <input id="name" name="name" placeholder="Your name" autocomplete="name" />
+            </label>
+            <label>
+              Email
+              <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+            </label>
+            <label>
+              Artifact type
+              <select id="artifact-type" name="artifactType">
+                <option>LinkedIn post</option>
+                <option>Proposal</option>
+                <option>Sales follow-up</option>
+                <option>SOP</option>
+                <option>Prompt</option>
+                <option>Workflow</option>
+                <option>Other AI output</option>
+              </select>
+            </label>
+            <label>
+              What was the output supposed to do?
+              <textarea id="desired-outcome" name="desiredOutcome" rows="3" placeholder="Example: Help a founder understand why our AI-assisted content system is different from generic AI writing."></textarea>
+            </label>
+            <label>
+              Paste the AI output, prompt, SOP, workflow, or draft
+              <textarea id="artifact" name="artifact" rows="10" placeholder="Paste the artifact here..."></textarea>
+            </label>
+            <label>
+              What felt off?
+              <textarea id="felt-off" name="feltOff" rows="3" placeholder="Example: It sounded polished, but generic. It missed the buyer's actual frustration."></textarea>
+            </label>
+            <button type="submit" class="button primary full">Generate Misfire Map</button>
+          </form>
+        </div>
+
+        <div class="panel report-panel" aria-live="polite">
+          <div class="section-heading">
+            <p class="eyebrow">Step 2</p>
+            <h2>Your instant Misfire Map</h2>
+          </div>
+          <div id="empty-state" class="empty-state">
+            <p>
+              Your report will show 3-7 likely guess points, the missing judgment
+              behind them, and the first rule your marketing system probably needed.
+            </p>
+          </div>
+          <div id="report" class="report hidden"></div>
+          <div class="report-actions hidden" id="report-actions">
+            <button id="copy-report" class="button secondary" type="button">Copy report</button>
+            <a id="mailto-report" class="button secondary" href="#">Email draft</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

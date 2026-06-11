@@ -1,0 +1,601 @@
+{
+  "drive_root_id": "1FbLOCUmx8uvWiqnwfF8AJxsGYBTw8LQo",
+  "drive_root_url": "https://drive.google.com/drive/folders/1FbLOCUmx8uvWiqnwfF8AJxsGYBTw8LQo",
+  "folder_ids": {
+    "": "1FbLOCUmx8uvWiqnwfF8AJxsGYBTw8LQo",
+    "source-originals": "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR",
+    "approved-selects": "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp",
+    "needs-review": "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU",
+    "platform-ready": "1Qz3Bf3M9LLpz0W9rnlvbTq6ClkB9LszW",
+    "platform-ready/linkedin-banner": "1tsTY6Z6Q5Q3uOzIqn50zsaIOYJlyOvBh",
+    "platform-ready/linkedin-profile": "1pMlhZzZWVAcdGKxT3rCLLRTeISItzRas",
+    "platform-ready/instagram-feed": "1ADy6lOSDkJ9TvWhDlJDnp8Rqenva05Bo",
+    "platform-ready/instagram-story-reel": "1h6ksOGwWqxZ4xVh5VrMXW_MshUrFb-H4",
+    "platform-ready/youtube-thumbnail": "1IbXxkyPmn2OCzeEhlLhOljUs2R6g_6Uk",
+    "platform-ready/carousel-covers": "1SK8ajKjCgUHrs5thvOhRofJwh6wVS7Su",
+    "generated-derivatives": "1b5pHlBqQf3dnz0bc9e1Hm0_X-DTguZv8"
+  },
+  "uploaded_png_count": 58,
+  "uploads": [
+    {
+      "relative_path": "approved-selects/01_studio_cutout_teaching_one_hand.png",
+      "id": "11DuNT6Slzi1V70Yb7muZsy7sXWScS-b0",
+      "mimeType": "image/png",
+      "name": "01_studio_cutout_teaching_one_hand.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/11DuNT6Slzi1V70Yb7muZsy7sXWScS-b0/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/02_studio_cutout_teaching_two_hands.png",
+      "id": "19diAb7alxLOzaEw6rJ89FwB9oery4ywV",
+      "mimeType": "image/png",
+      "name": "02_studio_cutout_teaching_two_hands.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/19diAb7alxLOzaEw6rJ89FwB9oery4ywV/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/03_studio_cutout_teaching_close.png",
+      "id": "1QzeKGdua5WSe96gc5pWUCOuA7fdY9x-s",
+      "mimeType": "image/png",
+      "name": "03_studio_cutout_teaching_close.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1QzeKGdua5WSe96gc5pWUCOuA7fdY9x-s/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/04_city_rooftop_authority.png",
+      "id": "1w40s9pN8oRvIa-26rMJzPLWKdzIx-fOE",
+      "mimeType": "image/png",
+      "name": "04_city_rooftop_authority.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1w40s9pN8oRvIa-26rMJzPLWKdzIx-fOE/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/05_premium_blazer_headshot.png",
+      "id": "14iOCj4CSVNAnxFCjxDZ6H5kGwbavCbMJ",
+      "mimeType": "image/png",
+      "name": "05_premium_blazer_headshot.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/14iOCj4CSVNAnxFCjxDZ6H5kGwbavCbMJ/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/06_kettlebell_24kg_still_life_16x9.png",
+      "id": "19EAnY1SX4vEcoOMyPItyIfsJptZBGucm",
+      "mimeType": "image/png",
+      "name": "06_kettlebell_24kg_still_life_16x9.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/19EAnY1SX4vEcoOMyPItyIfsJptZBGucm/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/07_gym_teaching_wide_16x9.png",
+      "id": "1jfUrDTt5t96CiVsPZz_s7cY7vdKUGgiz",
+      "mimeType": "image/png",
+      "name": "07_gym_teaching_wide_16x9.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1jfUrDTt5t96CiVsPZz_s7cY7vdKUGgiz/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/11_seated_dark_authority_portrait.png",
+      "id": "1WOjsebUQnZ5NdVGgTmRwMdBWTlkqUGyz",
+      "mimeType": "image/png",
+      "name": "11_seated_dark_authority_portrait.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1WOjsebUQnZ5NdVGgTmRwMdBWTlkqUGyz/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/12_city_standing_black_tshirt.png",
+      "id": "1eVDpCmt3OI18AtSVEd2BQq6AZda0auN0",
+      "mimeType": "image/png",
+      "name": "12_city_standing_black_tshirt.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1eVDpCmt3OI18AtSVEd2BQq6AZda0auN0/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/14_gym_teaching_portrait_clean_necklace.png",
+      "id": "1vHXT5w6f7ALcnEhAXxaMc0vOC-vU4SRI",
+      "mimeType": "image/png",
+      "name": "14_gym_teaching_portrait_clean_necklace.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1vHXT5w6f7ALcnEhAXxaMc0vOC-vU4SRI/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/17_gym_seated_close_authority_clean_watch.png",
+      "id": "1kcFUon_DbOOIqrqAugIfiYfX1nAsqFjv",
+      "mimeType": "image/png",
+      "name": "17_gym_seated_close_authority_clean_watch.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1kcFUon_DbOOIqrqAugIfiYfX1nAsqFjv/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/18_city_arms_crossed_henley_clean_watch.png",
+      "id": "1iGzxKSAEYwwFSyVn5Rg2j-TWm3v0CboF",
+      "mimeType": "image/png",
+      "name": "18_city_arms_crossed_henley_clean_watch.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1iGzxKSAEYwwFSyVn5Rg2j-TWm3v0CboF/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "approved-selects/19_city_standing_black_tshirt_upscaled.png",
+      "id": "1Tpg5cU2XF_lpbMljeqCu4SIyruz9b5Y5",
+      "mimeType": "image/png",
+      "name": "19_city_standing_black_tshirt_upscaled.png",
+      "parents": [
+        "1dHSO9Ed3htxbmiLCbBBcMS5ABNQHsntp"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1Tpg5cU2XF_lpbMljeqCu4SIyruz9b5Y5/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/08_city_lifestyle_backpack_tattoo_visible.png",
+      "id": "1g8dauITZH8FKaoYZ2OjlSrdcN5VFbgHP",
+      "mimeType": "image/png",
+      "name": "08_city_lifestyle_backpack_tattoo_visible.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1g8dauITZH8FKaoYZ2OjlSrdcN5VFbgHP/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/09_gym_direct_pointing_portrait.png",
+      "id": "1s0E5iR-ThFjg8jbo-47eDQJKEjs5B5Gd",
+      "mimeType": "image/png",
+      "name": "09_gym_direct_pointing_portrait.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1s0E5iR-ThFjg8jbo-47eDQJKEjs5B5Gd/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/10_gym_direct_pointing_wide_16x9.png",
+      "id": "1zA342e0h9YQf9-hWVYCs-br_pdcEjabk",
+      "mimeType": "image/png",
+      "name": "10_gym_direct_pointing_wide_16x9.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1zA342e0h9YQf9-hWVYCs-br_pdcEjabk/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/13_corporate_suit_office.png",
+      "id": "1ubXWVf8uMzChSxrjYuJJ9cxY2423Ds7V",
+      "mimeType": "image/png",
+      "name": "13_corporate_suit_office.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1ubXWVf8uMzChSxrjYuJJ9cxY2423Ds7V/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/15_city_lifestyle_tattoo_removed.png",
+      "id": "1X5WbLhF0KSIL5xgJpxsFNuC1zxcV_MfZ",
+      "mimeType": "image/png",
+      "name": "15_city_lifestyle_tattoo_removed.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1X5WbLhF0KSIL5xgJpxsFNuC1zxcV_MfZ/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/16_city_standing_tattoo_removed_variant.png",
+      "id": "1aP37b_11PgVrobe-uyeMi3DvXyvmdIqt",
+      "mimeType": "image/png",
+      "name": "16_city_standing_tattoo_removed_variant.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1aP37b_11PgVrobe-uyeMi3DvXyvmdIqt/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "needs-review/20_gym_triage_conversation_16x9.png",
+      "id": "1VgFsPXukOQ6TqfE_wvNlcfrPPQLkoqdO",
+      "mimeType": "image/png",
+      "name": "20_gym_triage_conversation_16x9.png",
+      "parents": [
+        "1vypcl0SfUaSxM2PBjvA8cxWdzbEtTkXU"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1VgFsPXukOQ6TqfE_wvNlcfrPPQLkoqdO/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/carousel-covers/carousel_cover_gym_teaching_1080x1080.png",
+      "id": "1pelEEg-JgUeb4xE8cUA6JjxFJrhyzV9C",
+      "mimeType": "image/png",
+      "name": "carousel_cover_gym_teaching_1080x1080.png",
+      "parents": [
+        "1SK8ajKjCgUHrs5thvOhRofJwh6wVS7Su"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1pelEEg-JgUeb4xE8cUA6JjxFJrhyzV9C/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/carousel-covers/carousel_cover_kettlebell_1080x1080.png",
+      "id": "1hkPxC8qvUoB-vq0gQZyWIavRiHiZCsCR",
+      "mimeType": "image/png",
+      "name": "carousel_cover_kettlebell_1080x1080.png",
+      "parents": [
+        "1SK8ajKjCgUHrs5thvOhRofJwh6wVS7Su"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1hkPxC8qvUoB-vq0gQZyWIavRiHiZCsCR/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/carousel-covers/carousel_cover_seated_authority_1080x1080.png",
+      "id": "1UKaYs1mXzWAv1dk__PiZRXkPiL_-Nu6Q",
+      "mimeType": "image/png",
+      "name": "carousel_cover_seated_authority_1080x1080.png",
+      "parents": [
+        "1SK8ajKjCgUHrs5thvOhRofJwh6wVS7Su"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1UKaYs1mXzWAv1dk__PiZRXkPiL_-Nu6Q/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/instagram-feed/ig_feed_city_black_tshirt_1080x1350.png",
+      "id": "1t6j_0XBHPgV0ZfjBkzRW58oO2VTlL81Z",
+      "mimeType": "image/png",
+      "name": "ig_feed_city_black_tshirt_1080x1350.png",
+      "parents": [
+        "1ADy6lOSDkJ9TvWhDlJDnp8Rqenva05Bo"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1t6j_0XBHPgV0ZfjBkzRW58oO2VTlL81Z/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/instagram-feed/ig_feed_gym_teaching_1080x1350.png",
+      "id": "10K7viS4g9flTuazQ5iCMergRMlk4I7al",
+      "mimeType": "image/png",
+      "name": "ig_feed_gym_teaching_1080x1350.png",
+      "parents": [
+        "1ADy6lOSDkJ9TvWhDlJDnp8Rqenva05Bo"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/10K7viS4g9flTuazQ5iCMergRMlk4I7al/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/instagram-feed/ig_feed_seated_authority_1080x1350.png",
+      "id": "1WKW0-qZ2Q2LGg8ASoGKs6ucKwHUxdPAt",
+      "mimeType": "image/png",
+      "name": "ig_feed_seated_authority_1080x1350.png",
+      "parents": [
+        "1ADy6lOSDkJ9TvWhDlJDnp8Rqenva05Bo"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1WKW0-qZ2Q2LGg8ASoGKs6ucKwHUxdPAt/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/instagram-story-reel/story_city_arms_crossed_1080x1920.png",
+      "id": "15ncnvfp6Dh_tD6PudQl2fO54cgqtzibc",
+      "mimeType": "image/png",
+      "name": "story_city_arms_crossed_1080x1920.png",
+      "parents": [
+        "1h6ksOGwWqxZ4xVh5VrMXW_MshUrFb-H4"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/15ncnvfp6Dh_tD6PudQl2fO54cgqtzibc/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/instagram-story-reel/story_city_black_tshirt_1080x1920.png",
+      "id": "1gpptxi0ScZkQ7G8OXtuK4FeXXmZxNCug",
+      "mimeType": "image/png",
+      "name": "story_city_black_tshirt_1080x1920.png",
+      "parents": [
+        "1h6ksOGwWqxZ4xVh5VrMXW_MshUrFb-H4"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1gpptxi0ScZkQ7G8OXtuK4FeXXmZxNCug/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/instagram-story-reel/story_gym_teaching_1080x1920.png",
+      "id": "1PyPZ219fnQc-Pb74qCEsAjboK-9L0Jem",
+      "mimeType": "image/png",
+      "name": "story_gym_teaching_1080x1920.png",
+      "parents": [
+        "1h6ksOGwWqxZ4xVh5VrMXW_MshUrFb-H4"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1PyPZ219fnQc-Pb74qCEsAjboK-9L0Jem/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/linkedin-banner/linkedin_banner_gym_teaching_1584x396.png",
+      "id": "1l-mByw67UYUUa7UB1JbgylFH_9ZpxXsL",
+      "mimeType": "image/png",
+      "name": "linkedin_banner_gym_teaching_1584x396.png",
+      "parents": [
+        "1tsTY6Z6Q5Q3uOzIqn50zsaIOYJlyOvBh"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1l-mByw67UYUUa7UB1JbgylFH_9ZpxXsL/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/linkedin-banner/linkedin_banner_kettlebell_1584x396.png",
+      "id": "1fNNyVGrbpT_JccIovL_sd7UtdBELyTlp",
+      "mimeType": "image/png",
+      "name": "linkedin_banner_kettlebell_1584x396.png",
+      "parents": [
+        "1tsTY6Z6Q5Q3uOzIqn50zsaIOYJlyOvBh"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1fNNyVGrbpT_JccIovL_sd7UtdBELyTlp/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/linkedin-banner/linkedin_banner_triage_concept_1584x396.png",
+      "id": "1LRC1GQedPZeBHHKHIVDJl2OiA-JXYMhH",
+      "mimeType": "image/png",
+      "name": "linkedin_banner_triage_concept_1584x396.png",
+      "parents": [
+        "1tsTY6Z6Q5Q3uOzIqn50zsaIOYJlyOvBh"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1LRC1GQedPZeBHHKHIVDJl2OiA-JXYMhH/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/linkedin-profile/profile_blazer_800x800.png",
+      "id": "1zzS0SIRsV9Ikl5C0vtOhIBsbRtg5LfsP",
+      "mimeType": "image/png",
+      "name": "profile_blazer_800x800.png",
+      "parents": [
+        "1pMlhZzZWVAcdGKxT3rCLLRTeISItzRas"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1zzS0SIRsV9Ikl5C0vtOhIBsbRtg5LfsP/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/linkedin-profile/profile_city_black_tshirt_800x800.png",
+      "id": "104XW2Ov9Lj601pbIyLINJGYJh9-2JqvO",
+      "mimeType": "image/png",
+      "name": "profile_city_black_tshirt_800x800.png",
+      "parents": [
+        "1pMlhZzZWVAcdGKxT3rCLLRTeISItzRas"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/104XW2Ov9Lj601pbIyLINJGYJh9-2JqvO/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/linkedin-profile/profile_seated_authority_800x800.png",
+      "id": "1Db1t56gFeuAR2jpm03_9x2VeWw7Wbmfm",
+      "mimeType": "image/png",
+      "name": "profile_seated_authority_800x800.png",
+      "parents": [
+        "1pMlhZzZWVAcdGKxT3rCLLRTeISItzRas"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1Db1t56gFeuAR2jpm03_9x2VeWw7Wbmfm/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/youtube-thumbnail/youtube_thumb_direct_pointing_1280x720_needs_review.png",
+      "id": "1gsXLwCCf-6NHhhfOeQ_KYFzxVGus-E__",
+      "mimeType": "image/png",
+      "name": "youtube_thumb_direct_pointing_1280x720_needs_review.png",
+      "parents": [
+        "1IbXxkyPmn2OCzeEhlLhOljUs2R6g_6Uk"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1gsXLwCCf-6NHhhfOeQ_KYFzxVGus-E__/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/youtube-thumbnail/youtube_thumb_gym_teaching_1280x720.png",
+      "id": "1LFnfRjOzCYlp7QN3iQ4xKeBoPJG0IqG_",
+      "mimeType": "image/png",
+      "name": "youtube_thumb_gym_teaching_1280x720.png",
+      "parents": [
+        "1IbXxkyPmn2OCzeEhlLhOljUs2R6g_6Uk"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1LFnfRjOzCYlp7QN3iQ4xKeBoPJG0IqG_/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "platform-ready/youtube-thumbnail/youtube_thumb_kettlebell_1280x720.png",
+      "id": "1ZxJPxUG2JVNZsADLBeiusnNNDbadXigC",
+      "mimeType": "image/png",
+      "name": "youtube_thumb_kettlebell_1280x720.png",
+      "parents": [
+        "1IbXxkyPmn2OCzeEhlLhOljUs2R6g_6Uk"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1ZxJPxUG2JVNZsADLBeiusnNNDbadXigC/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/01_studio_cutout_teaching_one_hand.png",
+      "id": "12iFjsyJ0aLIWxWiERhMe6hZAwCtuUph1",
+      "mimeType": "image/png",
+      "name": "01_studio_cutout_teaching_one_hand.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/12iFjsyJ0aLIWxWiERhMe6hZAwCtuUph1/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/02_studio_cutout_teaching_two_hands.png",
+      "id": "1RHTD8C-pLTgfEcRjvY6iCe-Mljz1ZqjF",
+      "mimeType": "image/png",
+      "name": "02_studio_cutout_teaching_two_hands.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1RHTD8C-pLTgfEcRjvY6iCe-Mljz1ZqjF/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/03_studio_cutout_teaching_close.png",
+      "id": "1Brx0U8TjgACiUc1zpb2xqQiwnfJxH2i4",
+      "mimeType": "image/png",
+      "name": "03_studio_cutout_teaching_close.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1Brx0U8TjgACiUc1zpb2xqQiwnfJxH2i4/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/04_city_rooftop_authority.png",
+      "id": "1UMRvOtwDjeLRpSL8JNa_iBoCQnHNq4V3",
+      "mimeType": "image/png",
+      "name": "04_city_rooftop_authority.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1UMRvOtwDjeLRpSL8JNa_iBoCQnHNq4V3/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/05_premium_blazer_headshot.png",
+      "id": "1tnZnjuNECQ7rvsD0VYHOOpIC_Af7-EZ3",
+      "mimeType": "image/png",
+      "name": "05_premium_blazer_headshot.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1tnZnjuNECQ7rvsD0VYHOOpIC_Af7-EZ3/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/06_kettlebell_24kg_still_life_16x9.png",
+      "id": "1UrmKCtRy6AczGGwihc22jZISk_pXLa8z",
+      "mimeType": "image/png",
+      "name": "06_kettlebell_24kg_still_life_16x9.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1UrmKCtRy6AczGGwihc22jZISk_pXLa8z/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/07_gym_teaching_wide_16x9.png",
+      "id": "1ekZumoxEt55yXR2JApu4lmgbS9OGL_yo",
+      "mimeType": "image/png",
+      "name": "07_gym_teaching_wide_16x9.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1ekZumoxEt55yXR2JApu4lmgbS9OGL_yo/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/08_city_lifestyle_backpack_tattoo_visible.png",
+      "id": "1PuqqQDlrFwhUcX0f1guRgS9TR-y2xCsL",
+      "mimeType": "image/png",
+      "name": "08_city_lifestyle_backpack_tattoo_visible.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1PuqqQDlrFwhUcX0f1guRgS9TR-y2xCsL/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/09_gym_direct_pointing_portrait.png",
+      "id": "1Rz4ckwH-MzqozubSbDFrmiW062ipLHHf",
+      "mimeType": "image/png",
+      "name": "09_gym_direct_pointing_portrait.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1Rz4ckwH-MzqozubSbDFrmiW062ipLHHf/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/10_gym_direct_pointing_wide_16x9.png",
+      "id": "1BkJnbDK_llPQ7v8gddzG7mm4pmf0lrfv",
+      "mimeType": "image/png",
+      "name": "10_gym_direct_pointing_wide_16x9.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1BkJnbDK_llPQ7v8gddzG7mm4pmf0lrfv/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/11_seated_dark_authority_portrait.png",
+      "id": "1Dgm8_N3MLsDW80jBNN78g5ylzhC6fvym",
+      "mimeType": "image/png",
+      "name": "11_seated_dark_authority_portrait.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1Dgm8_N3MLsDW80jBNN78g5ylzhC6fvym/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/12_city_standing_black_tshirt.png",
+      "id": "1dVgiu0UXyhfkyxugIALREo5fpsofrkWA",
+      "mimeType": "image/png",
+      "name": "12_city_standing_black_tshirt.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1dVgiu0UXyhfkyxugIALREo5fpsofrkWA/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/13_corporate_suit_office.png",
+      "id": "1JjJGwtKvbliua0kn2XZQLgOJfw9W-kGZ",
+      "mimeType": "image/png",
+      "name": "13_corporate_suit_office.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1JjJGwtKvbliua0kn2XZQLgOJfw9W-kGZ/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/14_gym_teaching_portrait_clean_necklace.png",
+      "id": "1-w1Qt5NXPoADwB9CP4fomTVEOd8w7cM5",
+      "mimeType": "image/png",
+      "name": "14_gym_teaching_portrait_clean_necklace.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1-w1Qt5NXPoADwB9CP4fomTVEOd8w7cM5/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/15_city_lifestyle_tattoo_removed.png",
+      "id": "1DW9sp6CJr3pUQNwUy1CcrJwFiHG_n4aV",
+      "mimeType": "image/png",
+      "name": "15_city_lifestyle_tattoo_removed.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1DW9sp6CJr3pUQNwUy1CcrJwFiHG_n4aV/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/16_city_standing_tattoo_removed_variant.png",
+      "id": "1VE0hmr6GjM1VNvQzmxj8F4qMYj4KPwR-",
+      "mimeType": "image/png",
+      "name": "16_city_standing_tattoo_removed_variant.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1VE0hmr6GjM1VNvQzmxj8F4qMYj4KPwR-/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/17_gym_seated_close_authority_clean_watch.png",
+      "id": "1jZygm_bxqtvblO80lF5mQBAA3XZm-qOz",
+      "mimeType": "image/png",
+      "name": "17_gym_seated_close_authority_clean_watch.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1jZygm_bxqtvblO80lF5mQBAA3XZm-qOz/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/18_city_arms_crossed_henley_clean_watch.png",
+      "id": "1-1LgiYPqf7HEOIb8iwuhvXbTk5fPSeOA",
+      "mimeType": "image/png",
+      "name": "18_city_arms_crossed_henley_clean_watch.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1-1LgiYPqf7HEOIb8iwuhvXbTk5fPSeOA/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/19_city_standing_black_tshirt_upscaled.png",
+      "id": "1GTlfnj35-ko7yid-BZmY5wA-NhF5xCZb",
+      "mimeType": "image/png",
+      "name": "19_city_standing_black_tshirt_upscaled.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1GTlfnj35-ko7yid-BZmY5wA-NhF5xCZb/view?usp=drivesdk"
+    },
+    {
+      "relative_path": "source-originals/20_gym_triage_conversation_16x9.png",
+      "id": "1qGBJkpYCoaDWGv3oxJfkUzdLACfCKiE_",
+      "mimeType": "image/png",
+      "name": "20_gym_triage_conversation_16x9.png",
+      "parents": [
+        "1kPYvJU_-dk4K4fHMufoKLcK2KwmOyLcR"
+      ],
+      "webViewLink": "https://drive.google.com/file/d/1qGBJkpYCoaDWGv3oxJfkUzdLACfCKiE_/view?usp=drivesdk"
+    }
+  ]
+}

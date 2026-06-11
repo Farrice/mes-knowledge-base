@@ -1,0 +1,32 @@
+[
+  {
+    "lane": "market_context",
+    "query": "swing dance nerd shirts lindy hop balboa west coast swing dancers t-shirt apparel current buyer trends public discussion reviews",
+    "purpose": "Find current public evidence and category context."
+  },
+  {
+    "lane": "social_listening",
+    "query": "site:reddit.com swing dance nerd shirts lindy hop balboa west coast swing dancers t-shirt apparel comments frustrations wish bought wear community",
+    "purpose": "Find public community language and buyer scenes."
+  },
+  {
+    "lane": "marketplace_or_review",
+    "query": "swing dance nerd shirts lindy hop balboa west coast swing dancers t-shirt apparel best sellers reviews Etsy Amazon apparel product",
+    "purpose": "Find marketplace/review signals and product language."
+  },
+  {
+    "lane": "competitor_or_alternative",
+    "query": "swing dance nerd shirts lindy hop balboa west coast swing dancers t-shirt apparel brands competitors product pages positioning",
+    "purpose": "Find competitor and alternative positioning signals."
+  },
+  {
+    "lane": "concept_language",
+    "query": "swing dance nerd shirts lindy hop balboa west coast swing dancers t-shirt apparel slogans inside jokes community language apparel",
+    "purpose": "Find language that can become source-backed concept direction."
+  },
+  {
+    "lane": "seed_finding",
+    "query": "5 structured finding(s)",
+    "purpose": "Codex web-search snippets or user-provided findings ingested with source URLs."
+  }
+]

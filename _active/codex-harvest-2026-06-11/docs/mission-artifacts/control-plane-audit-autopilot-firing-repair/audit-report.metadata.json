@@ -1,0 +1,8 @@
+{
+  "title": "System: Control Plane Audit - Autopilot Firing Repair",
+  "artifact_type": "audit-report",
+  "created_date": "2026-05-09",
+  "workspace": "/Users/farricecain/Codex Antigravity",
+  "primary_verifier": "python3 execution/verify_system_control_plane.py",
+  "scope": "workspace-only control-plane repair"
+}

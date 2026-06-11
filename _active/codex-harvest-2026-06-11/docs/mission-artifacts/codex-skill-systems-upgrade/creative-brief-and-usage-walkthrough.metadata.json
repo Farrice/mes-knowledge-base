@@ -1,0 +1,21 @@
+{
+  "title": "Codex Skill Systems Upgrade: Creative Brief And Usage Walkthrough",
+  "artifact_type": "strategy_brief",
+  "created_at": "2026-05-09",
+  "source_context": [
+    "CODEX.md",
+    "AGENTS.md",
+    "semantic_libraries/antigravity/primitives/skill-system-contract.md",
+    ".agent/workflows/source-to-skill-system.md",
+    "extractions/video-context/FD53kEpLh9c/"
+  ],
+  "primary_routes": [
+    "/autopilot",
+    "/source-to-skill-system",
+    "/extraction-governor-agent",
+    "/mission",
+    "/self-evolve",
+    "/skill-anneal"
+  ],
+  "status": "drafted"
+}

@@ -1,0 +1,8 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "generatedAt": "2026-06-11 10:32",
+  "sourceKind": "system-cohesion-platter",
+  "dataMap": ".agent/recurring-reports/system-cohesion/2026-06-11-data_map.json"
+}

@@ -1,0 +1,8 @@
+{
+  "userFacingSurface": "rendered-conversation-document",
+  "sourceRole": "persistence-copy",
+  "externalExportRequested": false,
+  "artifactType": "client-facing-operating-template",
+  "sourceEvidence": "extractions/video-context/DWDFRi5ONMI/",
+  "primaryWorkflow": "skills/oren-archetype-social-strategy/workflows/oren-solo-ai-marketing-machine.md"
+}

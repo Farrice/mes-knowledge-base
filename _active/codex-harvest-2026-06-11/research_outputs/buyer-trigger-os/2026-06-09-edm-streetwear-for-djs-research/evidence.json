@@ -1,0 +1,72 @@
+[
+  {
+    "id": "E1",
+    "claim": "**Electronic dance music** - Wikipedia. During the late 1980s to early 1990s, following the emergence of electronic music instruments, rave culture, pirate radio, party crews, underground festivals, and an upsurge of interest in club culture, \u2026",
+    "source_url": "https://en.wikipedia.org/wiki/Electronic_dance_music",
+    "source_title": "**Electronic dance music** - Wikipedia",
+    "source_domain": "en.wikipedia.org",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "During the late 1980s to early 1990s, following the emergence of electronic music instruments, rave culture, pirate radio, party crews, underground festivals, and an upsurge of interest in club culture, \u2026",
+    "recency": "unknown",
+    "mapped_trigger": "identity_signal",
+    "query_lane": "market_context"
+  },
+  {
+    "id": "E2",
+    "claim": "The Definitive Voice of Electronic Dance Music - **EDM**. The newly formed duo signed to Sony ahead of a major summer EP release. \u201cI firmly believe we can cure the first mental illness by 2030 if we focus on psychedelics and technology and music as part...",
+    "source_url": "https://edm.com/",
+    "source_title": "The Definitive Voice of Electronic Dance Music - **EDM**",
+    "source_domain": "edm.com",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "The newly formed duo signed to Sony ahead of a major summer EP release. \u201cI firmly believe we can cure the first mental illness by 2030 if we focus on psychedelics and technology and music as part...",
+    "recency": "unknown",
+    "mapped_trigger": "specificity",
+    "query_lane": "market_context"
+  },
+  {
+    "id": "E3",
+    "claim": "**EDM** - YouTube. The definitive voice of electronic dance music. Montresor, thisisgoodman Reflection (feat. Michela) Teductive, PRMGH Dance (feat. Ririn Tampoma) Have you heard this \"Alors On Danse\" remix by...",
+    "source_url": "https://www.youtube.com/EDM",
+    "source_title": "**EDM** - YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "The definitive voice of electronic dance music. Montresor, thisisgoodman Reflection (feat. Michela) Teductive, PRMGH Dance (feat. Ririn Tampoma) Have you heard this \"Alors On Danse\" remix by...",
+    "recency": "unknown",
+    "mapped_trigger": "familiar_twist",
+    "query_lane": "market_context"
+  },
+  {
+    "id": "E4",
+    "claim": "Top 10 Best **EDM** Artists In The World 2025 | Nubia Magazine. As of March 2025, the electronic dance music (EDM) scene is still thriving, with both up and coming artists and established musicians contributing to the expansion of the genre\u2019s boundaries. Here are \u2026",
+    "source_url": "https://nubiapage.com/top-10-best-edm-artists-in-the-world-2025/",
+    "source_title": "Top 10 Best **EDM** Artists In The World 2025 | Nubia Magazine",
+    "source_domain": "nubiapage.com",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "As of March 2025, the electronic dance music (EDM) scene is still thriving, with both up and coming artists and established musicians contributing to the expansion of the genre\u2019s boundaries. Here are \u2026",
+    "recency": "unknown",
+    "mapped_trigger": "specificity",
+    "query_lane": "market_context"
+  },
+  {
+    "id": "E5",
+    "claim": "**EDM**.com - Facebook. Watch the full trailer at the link below! The festival's most ambitious creative theme yet sp...",
+    "source_url": "https://www.facebook.com/edm/",
+    "source_title": "**EDM**.com - Facebook",
+    "source_domain": "www.facebook.com",
+    "source_type": "public_web",
+    "evidence_status": "verified",
+    "confidence": "medium",
+    "excerpt": "Watch the full trailer at the link below! The festival's most ambitious creative theme yet sp...",
+    "recency": "unknown",
+    "mapped_trigger": "specificity",
+    "query_lane": "market_context"
+  }
+]
