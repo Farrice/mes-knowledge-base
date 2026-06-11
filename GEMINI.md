@@ -86,6 +86,15 @@ L1 Directives → L2 You (routing/decisions) → L3 Execution (deterministic Pyt
 - **`revenue_tracker.py`** → Log deliverable outcomes. Post-delivery (30 sec).
 - **`knowledge_compiler.py`** → Link integrity, version sync. Pre/post-deploy.
 
+## Tool Equivalents (non-Claude surfaces)
+
+This system was built on Claude Code tool names. Remap when running elsewhere:
+- `search_web` / `WebSearch` → Gemini: GoogleSearch · Codex: web search
+- `read_url_content` / `WebFetch` → your platform's URL-fetch tool
+- `mcp__recall__search` → `recall` MCP server (wired in `.gemini/settings.json` here; `~/.codex/config.toml` for Codex)
+- Sub-agent spawning (Task/Agent) → unavailable outside Claude Code: execute sequentially, report `--sub-agents 0`
+- Chain Step 6 on non-Claude surfaces: run the same `chain_runner.py finalize` command in a terminal at repo root — this repo's ledger is canonical; tag `platform: gemini|antigravity-ide|codex` in `--notes`.
+
 ## Directives
 
 All in `directives/`. Fire on trigger—never preload. Sub-files over full directives.
@@ -96,21 +105,6 @@ All in `directives/`. Fire on trigger—never preload. Sub-files over full direc
 
 **Session state:** `.agent/session-state.md` after intent validation → expert deployment → 10+ reads. Read immediately after compaction.
 
-## CRITICAL — These Override Everything
-
-1. **CHAIN ON EVERY DELIVERABLE.** No trivial skip. Score ≥4 skips Step 2 only — 1/3/4/5/6 still run.
-2. **LOAD BEFORE PRODUCING.** Never ship expert output without SKILL.md + minimum 1 other file (genius.md, workflow, or Recall card).
-3. **NEVER MIX TOOL CALLS WITH TEXT.** 100% tools (tool use only, respond after) OR 100% text (no tools). Don't blend.
-4. **AFTER COMPACTION:** Read `.agent/session-state.md` immediately (preserves prior routing, context, decisions).
-5. **HOOKS ARE PHYSICAL.** Cost gate hard-blocks paid APIs. Finalize debt blocks Stop (observing first 5 sessions, then hard-enforce). Work WITH gates, never around.
-6. **NO AI SLOP.** Banned phrases: delve, tapestry, landscape, leverage, robust, utilize, realm, multifaceted, holistic, synergy. Banned structural moves: "Here's what/why/how" openers, twin-sentence endings, triple anaphora, "It's not X. It's Y." format.
-7. **REAL TOOLS ONLY.** No training-data substitution, no phantom research, no confidence hallucination. Uncertain? Say "I don't know."
-8. **ROUTING DEFAULTS TO PRODUCTION CORE.** Long-tail requires explicit `/name` or decisively stronger match. Check `[CORE]` tag in router suggestion.
-9. **RESEARCH PRIORITY: Gemini → Perplexity → Claude floor.** Gemini Deep Research primary ($10 ceiling); Perplexity fallback ($30/mo).
-10. **WEEKLY RITUAL:** `/weekly-closeout` (20 min) drains revenue, checks calibration, accepts/rejects evolution queue, monthly CORE DRIFT scan. Staleness nudge injected if pending >10 or last_weekly >7d.
-
----
-
 ## Production Core & Long-Tail
 
 ~25 proven skills in `PRODUCTION_CORE.md` + `.agent/production-core.json` (machine contract). Roster: Luke Iha suite, Lara Acosta, Diandra Escobar, Kallaway, Fladlien, Georgi, Nicolas Cole, Nate B. Jones, David Placek, brand-OS, creative-direction, design-md, jen-santulan-listing, writers-room + core workflows (`/parallax`, `/copy-engine`, `/ghostwrite`, `/convene`, `/avatar-machine`, `/supercomputer`, `/autopilot`, `/weekly-pulse`) + infrastructure (research.py, chain_runner finalize, knowledge_compiler, extract-forge gated).
@@ -119,4 +113,17 @@ All in `directives/`. Fire on trigger—never preload. Sub-files over full direc
 
 ---
 
-## VERIFY: ANTIGRAVITY-GEMINI-7X4K (Updated 2026-06-09)
+## CRITICAL — These Override Everything (intentionally LAST: final instructions carry the most weight)
+
+1. **CHAIN ON EVERY DELIVERABLE.** No trivial skip. Score ≥4 skips Step 2 only — 1/3/4/5/6 still run.
+2. **LOAD BEFORE PRODUCING.** Never ship expert output without SKILL.md + minimum 1 other file (genius.md, workflow, or Recall card).
+3. **NEVER MIX TOOL CALLS WITH TEXT.** 100% tools (tool use only, respond after) OR 100% text (no tools). Don't blend.
+4. **AFTER COMPACTION:** Read `.agent/session-state.md` immediately (preserves prior routing, context, decisions).
+5. **HOOKS ARE PHYSICAL (Claude Code only).** Cost gate hard-blocks paid APIs. Finalize debt blocks Stop. On non-Claude surfaces hooks DO NOT fire — run the gate checks manually (cost: `python3 execution/cost_gate.py check --service <id>`; finalize: Chain Step 6 command). Work WITH gates, never around.
+6. **NO AI SLOP.** Banned phrases: delve, tapestry, landscape, leverage, robust, utilize, realm, multifaceted, holistic, synergy. Banned structural moves: "Here's what/why/how" openers, twin-sentence endings, triple anaphora, "It's not X. It's Y." format.
+7. **REAL TOOLS ONLY.** No training-data substitution, no phantom research, no confidence hallucination. Uncertain? Say "I don't know."
+8. **ROUTING DEFAULTS TO PRODUCTION CORE.** Long-tail requires explicit `/name` or decisively stronger match. Check `[CORE]` tag in router suggestion.
+9. **RESEARCH PRIORITY: Gemini → Perplexity → Claude floor.** Gemini Deep Research primary ($10 ceiling); Perplexity fallback ($30/mo).
+10. **WEEKLY RITUAL:** `/weekly-closeout` (20 min) drains revenue, checks calibration, accepts/rejects evolution queue, monthly CORE DRIFT scan. Staleness nudge injected if pending >10 or last_weekly >7d.
+
+## VERIFY: ANTIGRAVITY-GEMINI-7X4K (Updated 2026-06-11)

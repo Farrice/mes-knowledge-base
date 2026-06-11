@@ -303,6 +303,28 @@ def run_daily() -> Dict[str, Any]:
         m = today_metrics[skill]
         report_lines.append(f"| {skill} | {m['count']} | {m['mean']} | {m['trend']} ({m['trend_delta']:+}) |")
 
+    # Platform constitution drift (observe-only — must never break evolution)
+    try:
+        import subprocess
+        proc = subprocess.run(
+            [sys.executable, str(Path(__file__).resolve().parent / "platform_compiler.py"), "check", "--json"],
+            capture_output=True, text=True, timeout=30,
+        )
+        platform_drift = json.loads(proc.stdout or "{}")
+    except Exception as exc:
+        platform_drift = {"drifted": [], "error": str(exc)}
+
+    report_lines += ["", "## Platform Constitution Drift"]
+    if platform_drift.get("drifted"):
+        for f in platform_drift["drifted"]:
+            report_lines.append(
+                f"- `{f}` changed since last bless — review siblings, then `python3 execution/platform_compiler.py sync`"
+            )
+    elif platform_drift.get("error"):
+        report_lines.append(f"- (check unavailable: {platform_drift['error']})")
+    else:
+        report_lines.append("- (in sync)")
+
     report_path.write_text("\n".join(report_lines) + "\n")
 
     # Update state

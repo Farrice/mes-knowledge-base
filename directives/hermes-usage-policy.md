@@ -12,7 +12,7 @@ Confirmed via `hermes portal` + `hermes status` + Tool Gateway docs (https://her
 
 ### Model Access (single OAuth, ~30 models)
 Top tier:
-- **Anthropic**: `anthropic/claude-opus-4.7-fast` (your default), `~anthropic/claude-sonnet-latest`, `~anthropic/claude-haiku-latest`
+- **Anthropic**: `anthropic/claude-sonnet-latest` (your default — Opus is capacity-flaky, invoke explicitly only), `anthropic/claude-opus-4.7-fast`, `~anthropic/claude-haiku-latest`
 - **OpenAI**: `openai/gpt-5.5-pro`, `openai/gpt-5.5`, `~openai/gpt-mini-latest`, `~openai/gpt-latest`
 - **Google**: `google/gemini-3.5-flash`, `google/gemini-3.1-flash-lite`, `~google/gemini-pro-latest`, `~google/gemini-flash-latest`
 - **xAI**: `x-ai/grok-4.3`, `x-ai/grok-build-0.1`
@@ -58,7 +58,7 @@ Pay-as-you-use against your $20/mo Nous subscription. **No explicit per-call quo
 ### The 10 Commands You'll Actually Use
 
 ```bash
-# 1. Interactive chat with default model (Opus 4.7 fast)
+# 1. Interactive chat with default model (Sonnet latest; Opus only via -m, it throws "not available" under load)
 hermes
 
 # 2. Same, but with the modern TUI (recommended)
@@ -169,7 +169,7 @@ hermes gateway stop         # stop it
 ### Step 5 — First message
 1. In Telegram, search your bot's username
 2. Send any message ("hello")
-3. Bot replies using your default model (Opus 4.7 fast)
+3. Bot replies using your default model (Sonnet latest)
 4. If you get "unauthorized" → your user ID doesn't match `TELEGRAM_ALLOWED_USERS`
 
 ### Optional — cron delivery channel
@@ -207,7 +207,7 @@ Log notable runs to `.agent/hermes-usage.json` so future-you can see patterns. I
 - Config: `~/.hermes/config.yaml` (model defaults, provider, base_url)
 - Env vars: `~/.hermes/.env` (Telegram token, optional override keys)
 - Provider: `nous` (set in `~/.hermes/config.yaml` under `model.provider`)
-- Default model: `anthropic/claude-opus-4.7-fast`
+- Default model: `anthropic/claude-sonnet-latest` (changed 2026-06-11; Opus = explicit `-m` only — recurring capacity errors)
 - Tool Gateway: image gen + browser automation routed through Nous (free with subscription)
 
 ### Re-auth (if OAuth expires)
