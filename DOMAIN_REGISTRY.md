@@ -339,11 +339,13 @@ When you make a request, I route to the right expert using this registry. I will
 | **Ross McKay** | CPG/PHYSICAL PRODUCTS | Premium at scale, retail distribution, DTC-to-mass transition |
 | **Vincent Hu** | INFO BUSINESS SCALING | Growth ecosystems, 3-yes conversion, hybrid offers, trust-first positioning, coaching/consulting business architecture |
 | **Omar Eltakrori** | CHALLENGE LAUNCHES | 5-day challenge model, web class funnels, high-ticket group coaching, personal brand monetization |
+| **Meg Heckman** | MERCH & PRODUCT BUY-TRIGGERS | POD/t-shirt/apparel design psychology, buy-trigger audits, sub-identity niching, merch concept sprints, e-com funnel diagnostics, `/merch-os` brand runs |
 
 ### Routing Logic
 
 ```
 "Build a product"
+├── Merch/POD/t-shirt/apparel → Meg Heckman (`/merch-os` full pipeline, `/meg-trigger-audit` for existing concepts)
 ├── Digital product/course → Maria Wendt or Nicolas Cole
 ├── AI consulting offer → Monk.AI
 ├── Lead magnet → Stockton Walbeck

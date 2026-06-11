@@ -1400,6 +1400,16 @@
     "status": ""
   },
   {
+    "name": "Meg Heckman \u2014 Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)",
+    "directory": "meg-heckman-buyer-trigger-os",
+    "description": "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club \u2014 the layer where the PRODUCT ITSELF is the conversion mechanism. 16 genius patterns and 12 workflows spanning her 4-layer system: market selection (saturation = demand proof, sub-identity gap), design triggers (6-trigger model, mirror-vs-poster, 50ms gate, familiar/twist), the factory loop (generate\u2192test\u2192scale-or-cut\u2192email\u2192repeat), and funnel diagnostics (6 metrics as single questions with kill/scale thresholds). Built for T-shirt/apparel/POD/dropshipping/merch drops AND cross-vertical trigger transfer to offers, headlines, landing pages, and content hooks. Powers the /merch-os orchestrator.",
+    "when_to_use": "",
+    "mtime": 1781096318.2432072,
+    "slash": "/meg-heckman-buyer-trigger-os",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Michael Bernoff Identity Engineering",
     "directory": "michael-bernoff-identity-engineering",
     "description": "Identity engineering and communication mastery frameworks for transforming prospect self-concept and taking control of any conversation",
@@ -2136,6 +2146,16 @@
     "when_to_use": "",
     "mtime": 1775779997.0020576,
     "slash": "/sherwin-wu-ai-engineering",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Simon (Better Creating) \u2014 Intellectual Library OS (Grounded Advisors & Self-Improving Knowledge Bases)",
+    "directory": "simon-intellectual-library-os",
+    "description": "Knowledge architecture from the builder of Agent OS (Notion) and Cowork OS (Claude) \u2014 the layer that governs how extracted knowledge is STORED, ORGANIZED, MADE GLANCEABLE, and KEPT SELF-IMPROVING. Core inversion: the AI is the librarian; humans only capture and curate. 15 genius patterns and 12 workflows spanning grounded AI advisors (mandatory KB-read gates, empty-KB refusal tests), the 6-property atomized entry schema (topic/category/key insight/when-to-apply/confidence/source), chapter-map-first ingestion (extract\u2192atomize\u2192normalize), the raw/wiki/outputs self-improving second brain, the 7-stage health check, and the Notion Intellectual Library port. Owns the ORGANIZE stage of the knowledge lifecycle: EXTRACT (MES) \u2192 ORGANIZE (Simon) \u2192 RETRIEVE (Recall/sovereign) \u2192 DEPLOY (experts).",
+    "when_to_use": "",
+    "mtime": 1781182308.3584926,
+    "slash": "/simon-intellectual-library-os",
     "routing": "",
     "status": ""
   },

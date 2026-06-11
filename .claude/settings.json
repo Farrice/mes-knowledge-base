@@ -1,4 +1,20 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(python3 execution/chain_runner.py finalize *)",
+      "Bash(python3 execution/memory_retrieve.py *)",
+      "Bash(python3 execution/intent_to_package.py *)",
+      "Bash(python3 execution/orchestration_ledger.py *)",
+      "Bash(python3 execution/fetch-transcript.py *)",
+      "Bash(python3 execution/routing_enforcer.py check *)",
+      "Bash(python3 execution/prose_classifier.py check *)",
+      "Bash(python3 execution/cost_gate.py check *)",
+      "Bash(python3 -m py_compile *)",
+      "mcp__claude_ai_Higgsfield__job_status",
+      "mcp__claude_ai_Higgsfield__models_explore",
+      "mcp__claude_ai_Higgsfield__balance"
+    ]
+  },
   "hooks": {
     "UserPromptSubmit": [
       {

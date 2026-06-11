@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (436 Commands)
+# 🚀 Antigravity Workflows — Complete Index (450 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -304,6 +304,13 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 📅 LinkedIn Daily Engine — Farrice Launch (1)
+| Command | What It Does |
+|---------|-------------|
+| `/linkedin-daily` | Daily LinkedIn zeitgeist briefing + voice-gated post production engine. Receipt-backed trend/algorithm watch, contrarian opportunity map, pillar-rotated drafts, zero-audience commenting plan, feedback ratchet. Flags: `--first-run`, `--no-post`, `--skip-research` |
+
+---
+
 ## 📈 LinkedIn Growth — Josh Sanders (5)
 | Command | What It Does |
 |---------|-------------|
@@ -312,6 +319,25 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/high-dwell` | Draft LinkedIn posts and carousels optimized for dwell time, See More clicks, and saves |
 | `/algorithmic-reach` | Build a daily engagement and commenting schedule to generate inbound awareness |
 | `/high-ticket-launch` | Complete funnel from LinkedIn audience segmentation to $5K+ cohort sales pitch |
+
+---
+
+## 👕 Buyer-Trigger Merch OS — Meg Heckman (13)
+| Command | What It Does |
+|---------|-------------|
+| `/merch-os` | Full brand-in→launch-out pipeline: GROUND → CONCEPT → SCORE → LISTING → LAUNCH → DIAGNOSE (phase-gated, resumable) |
+| `/meg-trigger-audit` | Score designs/products/concepts on the 10-criterion rubric — kill/revise/lead verdicts + one revision directive each |
+| `/meg-concept-sprint` | Generate N mirror-only merch concepts: behavioral-moment buyer, familiar/twist, layered emotion, lead lines |
+| `/meg-sub-identity-map` | Find the ignored person inside a "saturated" niche — demand proof, billboard test, buildable dossier |
+| `/meg-listing-copy` | Emotion-first listing copy: recognition lead → identity → social moment → logic last |
+| `/meg-50ms-gate` | Fast pass/fail visual clarity gate: focal count, 5-word test, conceptual interrupt |
+| `/meg-funnel-doctor` | 6-metric funnel fault isolation — one question, one failing stage, one fix |
+| `/meg-factory-loop` | Install the 5-step operating cadence: generate, test, scale-or-cut, email, repeat |
+| `/meg-aov-architect` | Raise AOV via catalog cohesion + shipping arbitrage before upsell apps |
+| `/meg-trigger-transfer` | Apply the 6 buyer triggers to offers, headlines, landing pages, content hooks |
+| `/meg-design-handoff` | Convert lead concepts into trigger-grounded generation prompts + design briefs |
+| `/meg-store-stack` | Trigger-led store architecture: identity collections, cart trust stack (→ BitBranding) |
+| `/meg-avatar-bridge` | Convert sub-identity dossiers into Luke Iha avatar-machine seed material |
 
 ---
 

@@ -561,6 +561,10 @@
       "skill": "mcp-builder"
     },
     {
+      "command": "/meg-heckman",
+      "skill": "meg-heckman-buyer-trigger-os"
+    },
+    {
       "command": "/michael-bernoff",
       "skill": "michael-bernoff-identity-engineering"
     },
@@ -851,6 +855,10 @@
     {
       "command": "/sherwin-wu",
       "skill": "sherwin-wu-ai-engineering"
+    },
+    {
+      "command": "/simon-intellectual",
+      "skill": "simon-intellectual-library-os"
     },
     {
       "command": "/skill-creator",

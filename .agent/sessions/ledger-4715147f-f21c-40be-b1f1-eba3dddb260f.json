@@ -1,0 +1,69 @@
+{
+ "session_id": "4715147f-f21c-40be-b1f1-eba3dddb260f",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "linkedin-2026-format-arbitrage",
+   "ts": "2026-06-10T20:37:32.367488"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-content-system",
+   "ts": "2026-06-10T20:37:32.520710"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-growth",
+   "ts": "2026-06-10T20:37:32.798484"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-mastery",
+   "ts": "2026-06-10T20:37:32.865767"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "diandra-escobar-linkedin-growth",
+   "ts": "2026-06-10T20:58:27.472359"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-niche-positioning",
+   "ts": "2026-06-10T20:58:27.692574"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-sentence-craft",
+   "ts": "2026-06-10T20:58:27.888535"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jasmin-alic-linkedin-growth",
+   "ts": "2026-06-10T20:58:28.339673"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-content-psychology",
+   "ts": "2026-06-10T21:05:11.107088"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-ai-content-engine",
+   "ts": "2026-06-10T21:05:11.465037"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/voice-gate.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/performance-log.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/briefing-2026-06-11.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md"
+ ],
+ "subagent_spawns": 4,
+ "finalized_at": "2026-06-11T02:55:23.096035",
+ "last_debt_at": "2026-06-10T21:05:11.465048",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

@@ -87,6 +87,7 @@
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
 | `maria-wendt` | **Maria Wendt** | digital products, invitation energy, product-first, simplification |
 | `mark-kashef` | **Mark Kashef** | agent configuration, signature advantage |
+| `meg-heckman` | **Meg Heckman** | agent configuration |
 | `michael-bernoff` | **Michael Bernoff: Identity Engineering Virtuoso** | biochemical influence deployment, certainty implanting, identity engineering virtuoso, inner hero activation, the reset frame, wrong question pattern interrupt |
 | `michael-connelly` | **AGENT: Michael Connelly** | character architecture, detail economy, dialogue craft, michael connelly, momentum engineering, narrative believability |
 | `mike-foutia` | **mike-foutia** | ai marketing automation, automation boundary judgment, brand context engineering, community mining, community pulse mining, internal tool building, non-coder tool building, trend research, universal market intelligence, universal trend intelligence, zeitgeist synthesis |
@@ -124,6 +125,7 @@
 | `shaan-puri` | **Shaan Puri: Storytelling & Audience Alchemy Master** | audience alchemy, audience alchemy master, emotional resonance, hook engineering, story architecture, storytelling, voice development |
 | `shan-hanif` | **Expert Agent: Shan Hanif (Audience Monetization)** | shan hanif (audience monetization) |
 | `sherwin-wu` | **Sherwin Wu** | ai engineering leader |
+| `simon-better-creating` | **Simon (Better Creating)** | agent configuration |
 | `sinem-gunel` | **sinem-gunel** | 4-layer revenue architecture, bestseller badge system, business infrastructure reframe, collaboration physics, creator monetization, notes discovery engine, publication conversion architecture, substack business architecture |
 | `sky-tan` | **sky-tan** | content-to-client conversion, counter-positioning, format discovery, founder/b2b personal brand, short-form video format engineering, testing, testing & scaling, the conversion gate, the strategy spine |
 | `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |

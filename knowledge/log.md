@@ -144,3 +144,16 @@
 - `[2026-06-09 18:53]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
 - `[2026-06-09 18:53]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
 - `[2026-06-09 18:54]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
+- `[2026-06-10 20:07]` **finalize** | Meg Heckman — buyer-trigger merch psychology mastery extraction (forge, multi-source): 16 genius pat | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-10 21:02]` **finalize** | MyBPM /merch-os Run 1: 6-phase deployment complete (GROUND, CONCEPT, SCORE, LISTING, DESIGN HANDOFF, | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-10 21:19]` **finalize** | Meg Heckman Buyer-Trigger OS — Full skill build, 13 workflows, agent persona, reference library, cro | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-10 21:19]` **finalize** | MyBPM Merch OS Deployment Run 1 — Phase 0-5 complete: sub-identity locked (between-raves raver), 12  | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-10 21:58]` **finalize** | MyBPM /merch-os Run 1: 6-phase deployment complete (GROUND, CONCEPT, SCORE, LISTING, DESIGN HANDOFF, | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-10 22:39]` **finalize** | Meg Heckman Buyer-Trigger OS extraction: 6 videos (13,339 words), 16 genius patterns, 12 HK items, 4 | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-10 22:39]` **finalize** | MyBPM Merch OS Run 1: Sub-identity (Raver as Identity Keeper), 12 concepts (all 5-field), 10-criteri | general | meg-heckman — composite:7.25 status:Needs Improvement
+- `[2026-06-11 02:55]` **finalize** | LinkedIn Domination OS: /linkedin-daily engine + Content OS + voice gate + first-run briefing 2026-0 | content | diandra-escobar — composite:7.25 status:Needs Improvement
+- `[2026-06-11 06:27]` **finalize** | Disney crowd-forecast app concept validation package: competitive landscape (sourced), 2-page concep | general | frontend-design — composite:8.33 status:Keep
+- `[2026-06-11 06:28]` **finalize** | Simon (Better Creating) — Intellectual Library OS mastery extraction (forge) + Notion port deploymen | general | simon-better-creating — composite:7.25 status:Needs Improvement
+- `[2026-06-11 09:58]` **finalize** | Platform Portability OS: diagnosed cross-platform transfer failure (fork proliferation + pointer con | general | system-orchestration — composite:7.25 status:Needs Improvement
+- `[2026-06-11 12:14]` **finalize** | Codex fork harvest: 4355 unique assets recovered, fork retirement-ready | general | system-orchestration — composite:7.25 status:Needs Improvement
+- `[2026-06-11 12:15]` **finalize** | Codex fork harvest: 4355 unique assets recovered, fork retirement-ready | general | system-orchestration — composite:9.33 status:Keep

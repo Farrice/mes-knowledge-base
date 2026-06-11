@@ -23,3 +23,4 @@
 {"timestamp": "2026-06-07T13:48:09.066742", "workflow": "extract-forge", "skill": "oren-one-person-ai-marketer", "expert": "oren", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-06-09T11:04:14.984105", "workflow": "extract-forge", "skill": "noah-hawley-storytelling-mastery", "expert": "noah-hawley", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-06-09T12:06:34.228099", "workflow": "extract-forge", "skill": "noah-hawley-storytelling-mastery", "expert": "noah-hawley", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-06-11T06:28:06.706638", "workflow": "extract-forge", "skill": "simon-intellectual-library-os", "expert": "simon-better-creating", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

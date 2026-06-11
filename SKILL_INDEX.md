@@ -147,6 +147,7 @@
 | `mark-kashef-visual-design` | **Mark Kashef — Visual Blueprint Methodology** | visual blueprint methodology | 5 | 0 |
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
 | `mcp-builder` | **mcp-builder** |  | 0 | 0 |
+| `meg-heckman-buyer-trigger-os` | **Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)** | powers the /merch-os orchestrator, buyer-trigger os | 12 | 0 |
 | `michael-bernoff-identity-engineering` | **Michael Bernoff Identity Engineering** |  | 4 | 14 |
 | `michael-connelly-vivid-writing` | **Michael Connelly Vivid Writing** |  | 12 | 0 |
 | `mike-foutia-marketing-tools` | **Mike Foutia — Marketing Tools** | marketing tools | 3 | 9 |
@@ -221,6 +222,7 @@
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | audience monetization | 2 | 4 |
 | `sharran-srivatsaa-scaling` | **sharran-srivatsaa-scaling** | 4b in 5 years, business scaling & decision engineering | 7 | 0 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | ai engineering leadership | 4 | 7 |
+| `simon-intellectual-library-os` | **Simon (Better Creating) — Intellectual Library OS (Grounded Advisors & Self-Improving Knowledge Bases)** | core inversion: the ai is the librarian, humans only capture and curate, intellectual library os | 12 | 0 |
 | `skill-creator` | **skill-creator** | guide for creating effective skills | 0 | 0 |
 | `sky-tan-format-engine` | **Sky Tan - Format Engine** | core thesis: formats get views, expertise gets sales, format engine | 12 | 0 |
 | `slack-gif-creator` | **slack-gif-creator** | knowledge and utilities for creating animated gifs optimized for slack, provides constraints, validation tools, and animation concepts | 0 | 0 |

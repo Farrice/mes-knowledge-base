@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lowkey — concept demo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#08090e;
+  --phone:#0e1018;
+  --card:#151823;
+  --card2:#1a1e2c;
+  --line:rgba(244,241,234,.08);
+  --ink:#f4f1ea;
+  --ink-dim:rgba(244,241,234,.55);
+  --ink-faint:rgba(244,241,234,.32);
+  --go:#5ee08a;
+  --mid:#f5b84f;
+  --skip:#f4654f;
+  --brand:#f5b84f;
+  --display:"Bricolage Grotesque",ui-sans-serif,sans-serif;
+  --mono:"Spline Sans Mono",ui-monospace,monospace;
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-font-smoothing:antialiased}
+html,body{height:100%}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--display);
+  overflow:hidden;
+  display:flex;align-items:center;justify-content:center;gap:72px;
+  padding:24px;
+}
+/* atmosphere */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;
+  background:
+    radial-gradient(1200px 700px at 72% 40%, rgba(245,184,79,.07), transparent 60%),
+    radial-gradient(900px 600px at 20% 80%, rgba(94,224,138,.05), transparent 60%);
+}
+body::after{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E");
+}
+
+/* ─── annotation panel ─── */
+.annot{max-width:380px;position:relative;z-index:2;animation:rise .8s cubic-bezier(.2,.7,.2,1) both}
+.annot .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--brand);margin-bottom:18px}
+.annot h1{font-size:46px;line-height:1.02;font-weight:800;letter-spacing:-.02em;margin-bottom:18px}
+.annot h1 em{font-style:normal;color:var(--brand)}
+.annot p{color:var(--ink-dim);font-size:15px;line-height:1.55;margin-bottom:26px}
+.annot ul{list-style:none;display:flex;flex-direction:column;gap:14px}
+.annot li{display:flex;gap:14px;align-items:baseline;font-size:14px;color:var(--ink-dim);line-height:1.45}
+.annot li b{color:var(--ink);font-weight:600}
+.annot li .n{font-family:var(--mono);font-size:11px;color:var(--brand);border:1px solid rgba(245,184,79,.35);border-radius:50%;width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;flex:none;transform:translateY(3px)}
+.annot .foot{margin-top:30px;font-family:var(--mono);font-size:11px;color:var(--ink-faint);letter-spacing:.06em;line-height:1.8}
+
+/* ─── phone ─── */
+.phone-wrap{position:relative;z-index:2;animation:rise 1s .15s cubic-bezier(.2,.7,.2,1) both}
+.phone{
+  width:392px;height:824px;background:var(--phone);
+  border-radius:54px;position:relative;overflow:hidden;
+  border:1px solid rgba(244,241,234,.1);
+  box-shadow:0 0 0 10px #14151c,0 0 0 11px rgba(244,241,234,.07),0 60px 120px -30px rgba(0,0,0,.85),0 0 90px rgba(245,184,79,.05);
+  display:flex;flex-direction:column;
+}
+.statusbar{flex:none;height:54px;display:flex;align-items:center;justify-content:space-between;padding:0 32px;font-family:var(--mono);font-size:13px;font-weight:500;position:relative}
+.statusbar .island{position:absolute;left:50%;top:14px;transform:translateX(-50%);width:118px;height:32px;background:#000;border-radius:18px}
+.statusbar .right{display:flex;gap:6px;align-items:center;font-size:11px;letter-spacing:.04em}
+
+.screens{flex:1;position:relative;overflow:hidden}
+.screen{position:absolute;inset:0;padding:8px 24px 96px;overflow-y:auto;scrollbar-width:none;opacity:0;transform:translateX(16px);pointer-events:none;transition:opacity .35s ease,transform .35s cubic-bezier(.2,.7,.2,1)}
+.screen::-webkit-scrollbar{display:none}
+.screen.active{opacity:1;transform:none;pointer-events:auto}
+
+/* app header */
+.apphead{display:flex;align-items:center;justify-content:space-between;padding:6px 0 18px}
+.wordmark{font-weight:800;font-size:21px;letter-spacing:-.03em;display:flex;align-items:center;gap:8px}
+.wordmark .key{width:20px;height:20px;border-radius:50%;border:2px solid var(--brand);position:relative;display:inline-block}
+.wordmark .key::after{content:"";position:absolute;left:50%;top:100%;transform:translateX(-50%);width:2px;height:7px;background:var(--brand)}
+.datechip{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-faint)}
+
+/* ── TODAY ── */
+.verdict-hero{text-align:center;padding:18px 0 8px;position:relative}
+.verdict-num{
+  font-size:172px;font-weight:800;line-height:.85;letter-spacing:-.05em;
+  color:var(--skip);text-shadow:0 0 70px rgba(244,101,79,.35);
+  font-variation-settings:"opsz" 96;
+}
+.verdict-verb{font-size:36px;font-weight:800;letter-spacing:-.02em;margin-top:10px}
+.verdict-why{color:var(--ink-dim);font-size:14.5px;line-height:1.5;max-width:300px;margin:10px auto 0}
+.scale{display:flex;gap:4px;justify-content:center;margin-top:22px}
+.scale i{width:22px;height:5px;border-radius:3px;background:var(--card2)}
+.scale i.go{background:var(--go)} .scale i.mid{background:var(--mid)} .scale i.skip{background:var(--skip)}
+.scale i.dim{opacity:.18}
+
+.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:26px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px 16px}
+.stat .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:7px}
+.stat .val{font-size:17px;font-weight:700;letter-spacing:-.01em}
+.stat .val small{font-size:12px;font-weight:400;color:var(--ink-dim)}
+.stat .val.good{color:var(--go)} .stat .val.bad{color:var(--skip)} .stat .val.warn{color:var(--mid)}
+
+.nextgo{
+  margin-top:12px;background:linear-gradient(120deg,rgba(94,224,138,.12),rgba(94,224,138,.04));
+  border:1px solid rgba(94,224,138,.3);border-radius:18px;padding:15px 16px;
+  display:flex;align-items:center;justify-content:space-between;cursor:pointer;transition:transform .15s
+}
+.nextgo:active{transform:scale(.98)}
+.nextgo .l{font-size:14px;color:var(--ink-dim)}
+.nextgo .l b{display:block;color:var(--ink);font-size:16px;font-weight:700;margin-top:2px}
+.nextgo .badge-go{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--go);text-shadow:0 0 24px rgba(94,224,138,.5)}
+
+.sharebtn{
+  width:100%;margin-top:12px;background:var(--ink);color:#0c0d12;border:none;border-radius:18px;
+  padding:16px;font-family:var(--display);font-size:15px;font-weight:700;letter-spacing:-.01em;cursor:pointer;
+  transition:transform .15s
+}
+.sharebtn:active{transform:scale(.98)}
+
+/* ── FORECAST ── */
+.fc-sub{color:var(--ink-dim);font-size:13.5px;margin:-6px 0 16px;line-height:1.5}
+.fc-row{
+  display:grid;grid-template-columns:64px 1fr 44px;align-items:center;gap:12px;
+  padding:13px 14px;border-radius:16px;margin-bottom:6px;background:var(--card);border:1px solid var(--line);
+}
+.fc-row.best{background:linear-gradient(120deg,rgba(94,224,138,.14),rgba(94,224,138,.03));border-color:rgba(94,224,138,.4);box-shadow:0 0 30px rgba(94,224,138,.08)}
+.fc-day{line-height:1.15}
+.fc-day b{font-size:14.5px;font-weight:700;display:block}
+.fc-day span{font-family:var(--mono);font-size:10px;color:var(--ink-faint);letter-spacing:.08em}
+.fc-mid{min-width:0}
+.fc-bar{height:6px;border-radius:3px;background:var(--card2);position:relative;overflow:hidden}
+.fc-bar i{position:absolute;inset:0;right:auto;border-radius:3px}
+.fc-tags{display:flex;gap:5px;margin-top:7px;flex-wrap:wrap}
+.tag{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:3px 7px;border-radius:6px;background:var(--card2);color:var(--ink-dim);border:1px solid var(--line)}
+.tag.hot{color:var(--skip);border-color:rgba(244,101,79,.35);background:rgba(244,101,79,.08)}
+.tag.cool{color:var(--go);border-color:rgba(94,224,138,.35);background:rgba(94,224,138,.08)}
+.fc-score{font-family:var(--mono);font-size:21px;font-weight:600;text-align:right}
+
+/* ── KEY ── */
+.passcard{
+  background:linear-gradient(135deg,#1c1f2e,#141722 60%);border:1px solid var(--line);border-radius:20px;
+  padding:18px;display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;position:relative;overflow:hidden
+}
+.passcard::after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;border:2px dashed rgba(245,184,79,.25)}
+.passcard .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:6px}
+.passcard b{font-size:18px;font-weight:700}
+.passcard .chg{font-family:var(--mono);font-size:11px;color:var(--brand);cursor:pointer}
+
+.combo{
+  background:linear-gradient(120deg,rgba(245,184,79,.16),rgba(245,184,79,.04));
+  border:1px solid rgba(245,184,79,.4);border-radius:20px;padding:16px;margin-bottom:14px;
+  box-shadow:0 0 40px rgba(245,184,79,.07)
+}
+.combo .k{font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--brand);display:flex;align-items:center;gap:7px;margin-bottom:9px}
+.combo .k::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--brand);box-shadow:0 0 12px var(--brand);animation:pulse 2s infinite}
+.combo p{font-size:15.5px;line-height:1.45;font-weight:600}
+.combo p span{color:var(--ink-dim);font-weight:400;font-size:13.5px;display:block;margin-top:5px}
+
+.cal{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:16px;margin-bottom:14px}
+.cal .head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:12px}
+.cal .head b{font-size:15px;font-weight:700}
+.cal .legend{display:flex;gap:10px;font-family:var(--mono);font-size:9px;letter-spacing:.06em;color:var(--ink-faint)}
+.cal .legend i{display:inline-block;width:8px;height:8px;border-radius:3px;margin-right:4px;transform:translateY(.5px)}
+.dow,.days{display:grid;grid-template-columns:repeat(7,1fr);gap:5px}
+.dow span{font-family:var(--mono);font-size:9px;text-align:center;color:var(--ink-faint);padding-bottom:6px;letter-spacing:.08em}
+.day{
+  aspect-ratio:1;border-radius:10px;display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-size:12px;background:var(--card2);color:var(--ink-dim);position:relative
+}
+.day.blank{background:none}
+.day.blocked{color:var(--ink-faint);background:repeating-linear-gradient(45deg,#171a26,#171a26 3px,#131622 3px,#131622 6px)}
+.day.blocked::after{content:"";position:absolute;width:60%;height:1.5px;background:rgba(244,101,79,.5);transform:rotate(-35deg)}
+.day.lo{background:rgba(94,224,138,.14);color:var(--go)}
+.day.rare{background:var(--go);color:#0a2517;font-weight:600;box-shadow:0 0 18px rgba(94,224,138,.45)}
+.day.today{outline:1.5px solid var(--brand);outline-offset:1px}
+
+.alert{
+  display:flex;gap:13px;background:var(--card);border:1px solid var(--line);border-radius:18px;
+  padding:14px 15px;margin-bottom:8px;align-items:flex-start
+}
+.alert .ic{flex:none;width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:17px}
+.alert .ic.ghost{background:rgba(122,162,247,.12)}
+.alert .ic.key{background:rgba(245,184,79,.12)}
+.alert b{font-size:13.5px;font-weight:700;display:block;margin-bottom:3px}
+.alert p{font-size:12.5px;color:var(--ink-dim);line-height:1.45}
+.alert .t{font-family:var(--mono);font-size:9px;color:var(--ink-faint);margin-left:auto;flex:none;letter-spacing:.06em}
+
+.secthead{font-family:var(--mono);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-faint);margin:18px 0 10px}
+
+/* ── tab bar ── */
+.tabbar{
+  position:absolute;bottom:0;left:0;right:0;height:84px;
+  background:linear-gradient(to top,rgba(10,11,17,.97) 60%,rgba(10,11,17,0));
+  display:flex;align-items:flex-start;justify-content:space-around;padding:14px 28px 0;z-index:5
+}
+.tab{background:none;border:none;color:var(--ink-faint);font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:7px;padding:4px 10px;transition:color .2s}
+.tab svg{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.tab.active{color:var(--brand)}
+.tab.active svg{filter:drop-shadow(0 0 8px rgba(245,184,79,.6))}
+
+/* ── share overlay ── */
+.overlay{position:absolute;inset:0;background:rgba(5,6,10,.78);backdrop-filter:blur(14px);z-index:20;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:18px;opacity:0;pointer-events:none;transition:opacity .3s}
+.overlay.show{opacity:1;pointer-events:auto}
+.vcard{
+  width:296px;border-radius:26px;padding:26px;background:linear-gradient(150deg,#1d1320,#2b1714 55%,#1a0f12);
+  border:1px solid rgba(244,101,79,.4);text-align:center;
+  box-shadow:0 30px 80px rgba(0,0,0,.6),0 0 60px rgba(244,101,79,.12);
+  transform:rotate(-1.5deg)
+}
+.vcard .vk{font-family:var(--mono);font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:14px}
+.vcard .vn{font-size:96px;font-weight:800;line-height:.9;color:var(--skip);text-shadow:0 0 50px rgba(244,101,79,.45);letter-spacing:-.04em}
+.vcard .vv{font-size:25px;font-weight:800;margin-top:8px}
+.vcard .vr{font-size:12.5px;color:var(--ink-dim);margin-top:8px;line-height:1.45}
+.vcard .vb{margin-top:18px;padding-top:14px;border-top:1px dashed rgba(244,241,234,.15);font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--brand)}
+.overlay .hint{font-family:var(--mono);font-size:11px;color:var(--ink-dim);letter-spacing:.08em}
+.overlay .close{background:var(--card2);border:1px solid var(--line);color:var(--ink);border-radius:14px;padding:11px 26px;font-family:var(--display);font-weight:700;font-size:14px;cursor:pointer}
+
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.screen.active .apphead,.screen.active>*:not(.apphead){animation:rise .5s cubic-bezier(.2,.7,.2,1) both}
+.screen.active>*:nth-child(2){animation-delay:.05s}
+.screen.active>*:nth-child(3){animation-delay:.1s}
+.screen.active>*:nth-child(4){animation-delay:.15s}
+.screen.active>*:nth-child(5){animation-delay:.2s}
+.screen.active>*:nth-child(6){animation-delay:.25s}
+
+@media (max-width:980px){
+  body{overflow:auto;flex-direction:column;gap:36px;padding:36px 16px}
+  .annot{text-align:center}
+  .annot li{text-align:left}
+}
+@media (max-width:460px){
+  .phone{width:100%;max-width:392px;height:780px;border-radius:44px}
+}
+</style>
+</head>
+<body>
+
+<aside class="annot">
+  <div class="kicker">Concept demo · not a real product</div>
+  <h1>A weather app<br>for <em>Disneyland.</em></h1>
+  <p>Built for locals, not vacationers. Open it, get a verdict, decide in five seconds whether today is worth the drive — or when the next quiet window opens.</p>
+  <ul>
+    <li><span class="n">1</span><span><b>Today.</b> One number, one verb, one reason. The go/no-go call the official app will never give you.</span></li>
+    <li><span class="n">2</span><span><b>Forecast.</b> Ten days out, event-aware — grad nights, ticket promos, school calendars.</span></li>
+    <li><span class="n">3</span><span><b>My Key.</b> Your pass blockouts overlaid on the forecast. Alerts only for the rare combos worth leaving the house for.</span></li>
+  </ul>
+  <div class="foot">WORKING NAME “LOWKEY” — UNCLEARED<br>FAKE DATA · THU JUN 11 2026 · TAP THE TABS →</div>
+</aside>
+
+<div class="phone-wrap">
+<div class="phone">
+  <div class="statusbar">
+    <span>9:41</span>
+    <span class="island"></span>
+    <span class="right">lte ▮▮▮</span>
+  </div>
+
+  <div class="screens">
+
+    <!-- ════ SCREEN 1 · TODAY ════ -->
+    <section class="screen active" id="s-today">
+      <div class="apphead">
+        <span class="wordmark"><span class="key"></span>lowkey</span>
+        <span class="datechip">Thu · Jun 11</span>
+      </div>
+
+      <div class="verdict-hero">
+        <div class="verdict-num" id="verdictNum">7</div>
+        <div class="verdict-verb">Skip it.</div>
+        <p class="verdict-why">Grad Nite buses land after 4pm and it’s the first week of summer break. Not your day.</p>
+        <div class="scale">
+          <i class="go dim"></i><i class="go dim"></i><i class="go dim"></i>
+          <i class="mid dim"></i><i class="mid dim"></i><i class="mid dim"></i>
+          <i class="skip"></i><i class="skip"></i><i class="skip dim"></i><i class="skip dim"></i>
+        </div>
+      </div>
+
+      <div class="statgrid">
+        <div class="stat"><div class="lbl">Rope drop</div><div class="val warn">Decent <small>til ~10a</small></div></div>
+        <div class="stat"><div class="lbl">Peak crush</div><div class="val bad">12p – 4p</div></div>
+        <div class="stat"><div class="lbl">Evening fade</div><div class="val">None <small>Grad Nite</small></div></div>
+        <div class="stat"><div class="lbl">Weather</div><div class="val">78° <small>clear</small></div></div>
+      </div>
+
+      <div class="nextgo" onclick="go('s-fc')">
+        <div class="l">Next go-day<b>Tuesday, Jun 16 — quietest in 6 weeks</b></div>
+        <div class="badge-go">2</div>
+      </div>
+
+      <button class="sharebtn" onclick="document.getElementById('ov').classList.add('show')">Share today’s verdict</button>
+    </section>
+
+    <!-- ════ SCREEN 2 · FORECAST ════ -->
+    <section class="screen" id="s-fc">
+      <div class="apphead">
+        <span class="wordmark"><span class="key"></span>forecast</span>
+        <span class="datechip">10-day</span>
+      </div>
+      <p class="fc-sub">Crowd score blends historic curves, park hours, ticket promos, school calendars and event schedules. Updated nightly.</p>
+      <div id="fcList"></div>
+    </section>
+
+    <!-- ════ SCREEN 3 · MY KEY ════ -->
+    <section class="screen" id="s-key">
+      <div class="apphead">
+        <span class="wordmark"><span class="key"></span>my key</span>
+        <span class="datechip">Pass layer</span>
+      </div>
+
+      <div class="passcard">
+        <div><div class="lbl">Your pass</div><b>SoCal Annual</b></div>
+        <span class="chg">change</span>
+      </div>
+
+      <div class="combo">
+        <div class="k">Rare combo found</div>
+        <p>Tue Jun 16 · forecast 2 + your pass is valid.
+        <span>Last time both lined up this well: April 29. Reservations still open.</span></p>
+      </div>
+
+      <div class="cal">
+        <div class="head">
+          <b>June 2026</b>
+          <div class="legend">
+            <span><i style="background:repeating-linear-gradient(45deg,#2a2d3a,#2a2d3a 2px,#1c1f2a 2px,#1c1f2a 4px)"></i>blocked</span>
+            <span><i style="background:rgba(94,224,138,.5)"></i>quiet</span>
+            <span><i style="background:var(--go)"></i>rare combo</span>
+          </div>
+        </div>
+        <div class="dow"><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span></div>
+        <div class="days" id="calDays"></div>
+      </div>
+
+      <div class="secthead">Alerts — only when it matters</div>
+      <div class="alert">
+        <div class="ic key">🗝️</div>
+        <div><b>Rare combo: Tuesday</b><p>Forecast 2 + pass valid + reservations open. Rarest overlap in 6 weeks.</p></div>
+        <span class="t">NOW</span>
+      </div>
+      <div class="alert">
+        <div class="ic ghost">👻</div>
+        <div><b>Ghost Day in progress</b><p>Park running 38% under forecast right now. Locals’ favorite alert — drop everything.</p></div>
+        <span class="t">MAY 28</span>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- share overlay -->
+  <div class="overlay" id="ov">
+    <div class="vcard">
+      <div class="vk">lowkey · thu jun 11</div>
+      <div class="vn">7</div>
+      <div class="vv">Skip it.</div>
+      <div class="vr">Grad Nite + summer break, week one.<br>Stay home. Protect the magic.</div>
+      <div class="vb">NEXT GO-DAY → TUE JUN 16 · 2/10</div>
+    </div>
+    <span class="hint">the Wordle move — one tap, posted to the group chat</span>
+    <button class="close" onclick="document.getElementById('ov').classList.remove('show')">Close</button>
+  </div>
+
+  <nav class="tabbar">
+    <button class="tab active" data-s="s-today" onclick="go('s-today')">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v4.5l3 2"/></svg>Today</button>
+    <button class="tab" data-s="s-fc" onclick="go('s-fc')">
+      <svg viewBox="0 0 24 24"><path d="M4 17l4-7 4 4 4-9 4 6"/><path d="M3 21h18"/></svg>Forecast</button>
+    <button class="tab" data-s="s-key" onclick="go('s-key')">
+      <svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="4.5"/><path d="M12.2 12.2L20 20M17 17l2.5-2.5M14.5 14.5l2.5-2.5"/></svg>My Key</button>
+  </nav>
+</div>
+</div>
+
+<script>
+/* All data below is hardcoded demo fiction — no user input, no network.
+   Rendering uses createElement/textContent only (no innerHTML). */
+
+function go(id){
+  document.querySelectorAll('.screen').forEach(s=>s.classList.toggle('active',s.id===id));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.s===id));
+}
+
+function el(tag,cls,text){
+  const e=document.createElement(tag);
+  if(cls)e.className=cls;
+  if(text!==undefined)e.textContent=text;
+  return e;
+}
+
+/* 10-day forecast — plausible fake data, anchored Thu Jun 11 2026 */
+const DAYS=[
+  {d:'Thu',n:'Jun 11',s:7,tags:[['Grad Nite','hot'],['School’s out','hot']],today:true},
+  {d:'Fri',n:'Jun 12',s:8,tags:[['Grad Nite','hot']]},
+  {d:'Sat',n:'Jun 13',s:9,tags:[['Weekend surge','hot']]},
+  {d:'Sun',n:'Jun 14',s:8,tags:[['Weekend surge','hot']]},
+  {d:'Mon',n:'Jun 15',s:5,tags:[]},
+  {d:'Tue',n:'Jun 16',s:2,tags:[['Best window','cool']],best:true},
+  {d:'Wed',n:'Jun 17',s:4,tags:[]},
+  {d:'Thu',n:'Jun 18',s:6,tags:[['Ticket promo','hot']]},
+  {d:'Fri',n:'Jun 19',s:7,tags:[]},
+  {d:'Sat',n:'Jun 20',s:9,tags:[['Weekend surge','hot']]}
+];
+const col=s=>s<=3?'var(--go)':s<=6?'var(--mid)':'var(--skip)';
+const colShadow=s=>s<=3?'rgba(94,224,138,.33)':s<=6?'rgba(245,184,79,.33)':'rgba(244,101,79,.33)';
+
+const fcList=document.getElementById('fcList');
+DAYS.forEach(x=>{
+  const row=el('div','fc-row'+(x.best?' best':''));
+
+  const day=el('div','fc-day');
+  day.appendChild(el('b',null,x.d+(x.today?' ·':'')));
+  day.appendChild(el('span',null,x.n.toUpperCase()+(x.today?' · TODAY':'')));
+
+  const mid=el('div','fc-mid');
+  const bar=el('div','fc-bar');
+  const fill=el('i');
+  fill.style.width=(x.s*10)+'%';
+  fill.style.background=col(x.s);
+  fill.style.boxShadow='0 0 10px '+colShadow(x.s);
+  bar.appendChild(fill);
+  mid.appendChild(bar);
+  if(x.tags.length){
+    const tags=el('div','fc-tags');
+    x.tags.forEach(t=>tags.appendChild(el('span','tag '+t[1],t[0])));
+    mid.appendChild(tags);
+  }
+
+  const score=el('div','fc-score',String(x.s));
+  score.style.color=col(x.s);
+
+  row.appendChild(day);row.appendChild(mid);row.appendChild(score);
+  fcList.appendChild(row);
+});
+
+/* June 2026 calendar — Jun 1 falls on Monday. Demo pass: weekends blocked. */
+const BLOCKED=[5,6,7,12,13,14,19,20,21,26,27,28];
+const QUIET=[15,17,22,24,29];
+const RARE=[16,23];
+const calDays=document.getElementById('calDays');
+for(let i=1;i<=30;i++){
+  let c='day';
+  if(BLOCKED.includes(i))c+=' blocked';
+  else if(RARE.includes(i))c+=' rare';
+  else if(QUIET.includes(i))c+=' lo';
+  if(i===11)c+=' today';
+  calDays.appendChild(el('div',c,String(i)));
+}
+
+/* verdict count-up */
+const vn=document.getElementById('verdictNum');
+let v=0;
+const iv=setInterval(()=>{v++;vn.textContent=String(v);if(v>=7)clearInterval(iv)},70);
+</script>
+</body>
+</html>

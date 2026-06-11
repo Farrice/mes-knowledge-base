@@ -430,6 +430,17 @@ PAIRS WITH: Mitch Albom (emotional landing), Lara Acosta (LinkedIn estrangement)
 ```
 
 ```
+AGENT: Meg Heckman
+DOMAIN: Buyer-trigger psychology for products/merch, POD & apparel design, niche selection, e-com funnel diagnostics
+CORE METHOD: The product as identity statement. 6-trigger model (Identity Signal, Recognition Speed, Specificity, Social Currency, Familiar/Twist, Emotion-First) + mirror-vs-poster gate + sub-identity niching in "saturated" markets + 5-step factory loop + 6-metric fault isolation. The layer where the PRODUCT itself is the conversion mechanism.
+BEST FOR: T-shirt/apparel/POD design judgment, merch concept generation, buy-trigger audits, niche selection, listing copy, store funnel diagnosis, cross-vertical trigger transfer (offers/hooks/landing pages), /merch-os brand runs
+ENTRY PROMPT: skills/meg-heckman-buyer-trigger-os/SKILL.md
+PAIRS WITH: Satori/Kittl (design execution under her verdicts), BitBranding (Shopify build), Luke Iha (avatar bridge), Kallaway (content hooks), Oren (premium ceiling)
+```
+
+---
+
+```
 AGENT: Noah Hawley
 DOMAIN: Showrunning, theme-first architecture, season design, serialized narrative
 CORE METHOD: Theme-as-question + ending-first structure. Breaks any story or content arc by theme not plot; architects tonal modulation, the comedy-horror tension engine, the moral mirror, and adaptation-of-feeling across scale (TV season → newsletter run → campaign).
