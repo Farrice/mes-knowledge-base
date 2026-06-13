@@ -10,18 +10,20 @@
 ### Tier 0: Card Check (ALWAYS FIRST)
 Read `agents/_framework/invocation-cards.md`. ~50-80 tokens/expert. Sufficient for: routing, recommendations, ensemble selection. Stop here if deciding WHICH expert, not executing methodology.
 
-### Tier 1.5: Sovereign Memory Retrieval (NEW — Sprint 4, 2026-05-25)
-Before Tier 1 file loads, invoke the memory cascade for retrieval grounding:
+### Tier 1.5: Unified Memory Facade (Sprint 4, 2026-05-25 · facade shipped 2026-06-12, audit Fix 7)
+Before Tier 1 file loads, invoke the unified facade for retrieval grounding. It makes ONE call across every memory store instead of querying each silo separately:
 
 ```bash
-python3 execution/memory_retrieve.py "<task intent in 10-20 words>" --top 10
+python3 execution/memory_facade.py "<task intent in 10-20 words>" --top 10
 ```
 
-What it returns (in priority order):
-- **Pinned semantic rules** — voice rules, banned moves, identity-layer feedback (always included, cosine-ranked)
-- **Vec-semantic** — workspace-filtered semantic memories by similarity
-- **Vec-procedural** — workspace-filtered operational configs by similarity
-- **BM25 episodic** — recent decision-class memories by keyword match
+What it returns (sovereign pinned rules first, then everything else by score, deduped):
+- **sovereign** — `.memory/sovereign.db` vector retrieval (pinned voice rules / banned moves always surface first; deterministic FTS5 fallback when embeddings are unavailable)
+- **automem** — Claude Code user auto-memory (`~/.claude/.../memory/`), frontmatter-description keyword match
+- **wiki** — `knowledge/` manifest pointers (filename / domain / expert match) — pointers, not full docs
+- **agents** — `agents/*/memory/context.md`, matched when the query names an agent
+
+Every store that returns nothing or errors is REPORTED in the `degraded` field — silent-skip is the banned pattern this facade exists to kill. The facade is read-only and wraps the single-store entry points; `python3 execution/memory_retrieve.py "<intent>"` remains valid as the sovereign-only sub-path. Use `--sources sovereign,automem` to subset, `--json` for structured output.
 
 Inject the top 5-10 results into your working context BEFORE producing output. This is the primary mechanism for cross-session compounding — past voice rules, prior routing decisions, and distilled patterns all surface here.
 

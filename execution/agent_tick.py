@@ -98,13 +98,13 @@ def _load_state_yaml(slug: str) -> Optional[str]:
 def _sovereign_memory_brief(slug: str, top_k: int = 5) -> str:
     """Best-effort one-line summary of sovereign memory hits for this project.
 
-    Defers actual retrieval to memory_retrieve.py (subprocess). Returns a
+    Defers actual retrieval to memory_facade.py (subprocess). Returns a
     short string for the wake-report — full memory injection happens at
     execution time, not in the wake-report itself.
     """
     return (
-        f"(sovereign memory will be loaded at execution time via "
-        f"`python3 execution/memory_retrieve.py \"<phase-instructions>\" "
+        f"(memory will be loaded at execution time via "
+        f"`python3 execution/memory_facade.py \"<phase-instructions>\" "
         f"--top {top_k}`; not pre-loaded into wake-report to save tokens)"
     )
 
@@ -273,8 +273,8 @@ def run_tick(slug: str, execute: bool = False) -> Dict[str, Any]:
         lines.append(f"# 1) Load anchor context")
         lines.append(f"python3 execution/anchor_memory.py load {slug}")
         lines.append(f"")
-        lines.append(f"# 2) Load sovereign memory for this phase")
-        lines.append(f"python3 execution/memory_retrieve.py \"<phase instructions>\" --top 10")
+        lines.append(f"# 2) Load unified memory (sovereign + automem + wiki + agents) for this phase")
+        lines.append(f"python3 execution/memory_facade.py \"<phase instructions>\" --top 10")
         lines.append(f"")
         lines.append(f"# 3) Invoke autopilot with the phase instructions")
         lines.append(f"# (autopilot will resolve outcome class and run the right workflow)")
