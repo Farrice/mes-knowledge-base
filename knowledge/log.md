@@ -141,3 +141,4 @@
 - `[2026-06-09]` **audit** | Sean Macintyre Persuasion Philosophy — 6-week deployment review: 0 post-ship workflow invocations (all 17 UNUSED), 0 Notion Performance Log entries (dedicated), forge build 8.7. Apex tier never tested. Root cause: no routing hook + work-volume mismatch. Verdict: no calibration changes, 3 intentional deployments needed before benchmarking. Report: `_active/sean-macintyre-audit-2026-06-09.md`
 - `[2026-06-09 11:04]` **finalize** | Noah Hawley — Showrunner & Storytelling mastery extraction (forge) | general | noah-hawley — composite:7.25 status:Needs Improvement
 - `[2026-06-09 12:06]` **finalize** | Noah Hawley — Showrunner & Storytelling Mastery (Extract-Forge) | general | noah-hawley — composite:7.25 status:Needs Improvement
+- `[2026-06-15 16:05]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
