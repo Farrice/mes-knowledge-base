@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Puravita · The Battery You Can't See · Creative Brief 02/02</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E1F3A; --navy-2:#15294A; --navy-3:#1B3056;
+    --sage:#A4C2A0; --sage-soft:#C4D8C0; --sage-deep:#7FA37C;
+    --amber:#E0A93F; --amber-soft:#E2C892;
+    --paper:#F4ECDC; --paper-dim:#C7BFB1; --paper-mute:#8C8576;
+    --coral:#D77E5C;
+    --rule:rgba(244,236,220,.16); --rule-2:rgba(244,236,220,.30);
+    --serif:'Source Serif 4',Georgia,serif; --sans:'Inter Tight',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  @page{ size:8.5in 11in; margin:0 }
+  html,body{ background:#0a1730 }
+  body{ font-family:var(--sans); color:var(--paper); -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .page{
+    position:relative; width:8.5in; height:11in; overflow:hidden;
+    background:var(--navy); padding:0.62in 0.7in 0.55in;
+    page-break-after:always; display:flex; flex-direction:column;
+  }
+  .page:last-child{ page-break-after:auto }
+  .page::before{ content:""; position:absolute; inset:0;
+    background:radial-gradient(120% 80% at 82% -6%, rgba(164,194,160,.10), transparent 46%),
+               radial-gradient(90% 60% at -8% 108%, rgba(27,48,86,.55), transparent 50%);
+    pointer-events:none }
+  .page > *{ position:relative; z-index:1 }
+
+  .eyebrow{ font-size:9.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--sage); font-weight:600 }
+  .topbar{ display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--rule); padding-bottom:9px; margin-bottom:22px }
+  .topbar .pg{ font-size:9.5px; letter-spacing:.18em; color:var(--paper-mute); text-transform:uppercase }
+  .foot{ margin-top:auto; border-top:1px solid var(--rule); padding-top:8px; display:flex; justify-content:space-between;
+    font-size:8.2px; letter-spacing:.14em; text-transform:uppercase; color:var(--paper-mute) }
+
+  h1.display{ font-family:var(--serif); font-weight:300; font-size:72px; line-height:.96; letter-spacing:-.015em; color:var(--paper) }
+  h2.title{ font-family:var(--serif); font-weight:400; font-size:33px; line-height:1.08; letter-spacing:-.01em; color:var(--paper) }
+  h2.title em{ font-style:italic; color:var(--sage-soft) }
+  .kicker{ font-family:var(--serif); font-style:italic; font-size:19px; line-height:1.32; color:var(--sage-soft); font-weight:400 }
+  p,li{ font-size:12.5px; line-height:1.58; color:var(--paper-dim) }
+  p.lede{ font-size:14px; line-height:1.55; color:var(--paper) }
+  strong{ color:var(--paper); font-weight:600 }
+  .sage{ color:var(--sage); font-weight:600 }
+  .amber{ color:var(--amber); font-weight:600 }
+  .small{ font-size:10.5px; line-height:1.5; color:var(--paper-mute) }
+
+  .card{ background:var(--navy-2); border:1px solid var(--rule); border-radius:3px; padding:15px 17px }
+  .card.sage{ border-top:2.5px solid var(--sage) }
+  .card.ambertop{ border-top:2.5px solid var(--amber) }
+  .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:13px }
+  .grid3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:13px }
+  .stack>*+*{ margin-top:11px }
+  .label{ font-size:8.6px; letter-spacing:.2em; text-transform:uppercase; color:var(--paper-mute); font-weight:600 }
+
+  .snap{ display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden }
+  .snap > div{ background:var(--navy-2); padding:11px 12px }
+  .snap .label{ margin-bottom:5px }
+  .snap p{ font-size:11px; line-height:1.4; color:var(--paper) }
+
+  .why{ display:grid; grid-template-columns:auto 1fr; gap:10px 13px; align-items:start }
+  .why .n{ font-family:var(--serif); font-size:16px; color:var(--sage); font-weight:500; line-height:1.3 }
+  .why h4{ font-size:12.5px; color:var(--paper); font-weight:600; line-height:1.35; margin-bottom:2px }
+  .why p{ font-size:10.8px; line-height:1.46 }
+
+  .study{ border-left:2px solid var(--sage); padding-left:13px }
+  .study .src{ font-style:italic; color:var(--paper-mute); font-size:10px }
+
+  .beat{ border-top:1px solid var(--rule); padding-top:9px }
+  .beat .bt{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:5px }
+  .beat .bn{ font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--sage); font-weight:600 }
+  .beat .tc{ font-size:9px; color:var(--paper-mute); letter-spacing:.1em }
+  .beat .stage{ font-size:9.4px; color:var(--paper-mute); line-height:1.4; margin-bottom:5px }
+  .spoken{ font-family:var(--serif); font-size:13px; line-height:1.42; color:var(--paper); font-weight:400 }
+  .ov{ font-size:9.4px; color:var(--sage-soft); letter-spacing:.04em; margin-top:4px }
+
+  table{ width:100%; border-collapse:collapse }
+  th{ text-align:left; font-size:8.4px; letter-spacing:.18em; text-transform:uppercase; color:var(--paper-mute); font-weight:600; padding:0 8px 7px 0; border-bottom:1px solid var(--rule-2) }
+  td{ font-size:11px; line-height:1.4; color:var(--paper-dim); padding:8px 8px 8px 0; border-bottom:1px solid var(--rule); vertical-align:top }
+  td .t{ color:var(--paper); font-weight:600 }
+  td.tgt{ color:var(--sage); font-weight:600; font-variant-numeric:tabular-nums; white-space:nowrap; text-align:right }
+
+  .donot li{ font-size:10.6px; line-height:1.5; color:var(--paper-dim); padding-left:15px; position:relative; margin-top:4px }
+  .donot li::before{ content:"\2192"; position:absolute; left:0; color:var(--coral) }
+  .rule-pill{ display:inline-block; font-size:8.4px; letter-spacing:.18em; text-transform:uppercase; color:var(--navy); background:var(--sage); padding:3px 8px; border-radius:2px; font-weight:700 }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 · COVER -->
+<section class="page">
+  <div class="topbar">
+    <span class="eyebrow">Creative Brief · Brand 02 / 02 · Prepared for TrendScale Media</span>
+    <span class="pg">JUN 2026</span>
+  </div>
+  <div style="margin-top:30px">
+    <span class="eyebrow" style="color:var(--paper-mute)">Puravita · 12-Form Magnesium Complex · Top of Funnel · Meta</span>
+    <h1 class="display" style="margin-top:20px">The Battery<br>You Can't See.</h1>
+    <p class="kicker" style="margin-top:20px; max-width:6.2in">Your phone tells you when it's at 5%. Your body doesn't.</p>
+    <p class="lede" style="margin-top:16px; max-width:6.2in">One mineral runs hundreds of processes inside you. Sleep. Energy. Drive. Mood. Recovery. It's the one his blood test almost certainly missed. Not because the test didn't look. Because the test can only see 1% of where it lives. <strong>Puravita is the recharge.</strong></p>
+  </div>
+  <div class="snap" style="margin-top:32px">
+    <div><div class="label">Format</div><p>45-sec mini-VSL · AI b-roll + HeyGen hybrid</p></div>
+    <div><div class="label">Stage</div><p>Cold traffic · Meta Feed + Reels</p></div>
+    <div><div class="label">Awareness</div><p>Unaware → Problem-aware (Schwartz L1→2)</p></div>
+    <div><div class="label">Strategist</div><p>Farrice Cain · June 2026</p></div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>The Battery You Can't See · 02 / 02</span></div>
+</section>
+
+<!-- PAGE 2 · THE CONCEPT -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Concept</span><span class="pg">02 / 08</span></div>
+  <h2 class="title">Stop selling magnesium. <em>Sell the missing indicator.</em></h2>
+  <p class="lede" style="margin-top:14px; max-width:6.4in">Every magnesium ad on Meta sells the same three things: better sleep, more energy, calmer nerves. The 45-year-old man who needs it most isn't typing "magnesium" into a search bar. He's typing <strong>why do I feel like garbage</strong>. So we meet him where he's actually asking. Not at the supplement aisle. In the 3am wake-up.</p>
+
+  <div class="card sage" style="margin-top:18px">
+    <span class="label">The Big Idea</span>
+    <h2 class="title" style="font-size:24px; margin-top:7px">Your phone shows you when it's at 5%. Your body doesn't.</h2>
+    <p style="margin-top:9px">Every man over 40 has lived this scene. He slept eight hours. He ate clean. He didn't drink. He still feels like a low-grade flu. So he blames age. Then stress. Then his phone. He never thinks to blame a battery, because no one told him there is one. The battery is magnesium. When it's low, every system still reads "fine," and every system is also running at sixty percent. There's no warning light. There are only the symptoms. And the cruelest part is the test: a standard blood draw sees barely 1% of where magnesium lives. The result came back "normal." His body has been screaming for two years.</p>
+  </div>
+
+  <span class="label" style="display:block; margin-top:18px">Why this works for cold traffic</span>
+  <div class="grid2" style="margin-top:11px">
+    <div class="why"><span class="n">01</span><div><h4>It names what he's lived without language for.</h4><p>"I'm doing everything right and I still feel like garbage" is the most common 40-plus male monologue on earth. This is the first ad that calls it by name instead of selling around it.</p></div></div>
+    <div class="why"><span class="n">02</span><div><h4>The phone-battery picture works on anyone who owns a phone.</h4><p>A 45-year-old foreman lands it. A 55-year-old CFO lands it. A 38-year-old who's never bought a supplement lands it. The image crosses class, education, and geography. That breadth is what top-of-funnel needs.</p></div></div>
+    <div class="why"><span class="n">03</span><div><h4>It moves him from "I'm just getting old" to "there's a fix."</h4><p>Aging stories sell quiet resignation. The battery story sells a recharge. The category default is surrender, which is also why its cold traffic won't convert. We offer the opposite.</p></div></div>
+    <div class="why"><span class="n">04</span><div><h4>The 1% blood-test fact is verifiable, and citing it is Meta-safe.</h4><p>Serum magnesium really does reflect under 1% of total body stores. We're not making a health claim about the viewer. We're describing how a lab test works. That distinction keeps the ad live.</p></div></div>
+  </div>
+  <div class="foot"><span>Puravita · The Battery You Can't See</span><span>The Concept · 02</span></div>
+</section>
+
+<!-- PAGE 3 · THE AVATAR -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Avatar</span><span class="pg">03 / 08</span></div>
+  <h2 class="title">The man who's been told he's fine. <em>Who knows he isn't.</em></h2>
+  <p class="kicker" style="font-size:16px; margin-top:9px">He's not looking for magnesium. He's looking for an answer.</p>
+
+  <div class="snap" style="margin-top:16px; grid-template-columns:repeat(5,1fr)">
+    <div><div class="label">Age</div><p>38–62 · core 45–55</p></div>
+    <div><div class="label">Gender</div><p>Male primary · female 45+ in iteration</p></div>
+    <div><div class="label">Income</div><p>$90K+ · disposable for "the right thing"</p></div>
+    <div><div class="label">Geo</div><p>US broad · heavier midwest + southeast</p></div>
+    <div><div class="label">Lifestyle</div><p>Has a PCP · physical in last 12mo · "normal" labs</p></div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <span class="label">The conversation already running in his head</span>
+    <p class="spoken" style="margin-top:8px; color:var(--paper)">"I'm 47. I sleep eight hours and wake up exhausted. I work out and feel weaker than I did a year ago. My wife asks if I'm okay and I don't have an answer. My doctor said the bloodwork looks fine. Everyone keeps telling me it's stress, or it's my age. But something is wrong. And nobody is taking it seriously."</p>
+    <p class="small" style="margin-top:9px">He won't say this out loud, and especially not to his doctor a second time. He'll Google "why do I feel tired all the time" at 11pm. He'll watch a Huberman clip. He'll see our ad next. Name what he's feeling in the first six seconds, and he gives us the next thirty-nine.</p>
+  </div>
+
+  <div class="grid2" style="margin-top:14px">
+    <div class="card"><span class="label" style="color:var(--sage)">Entry · Unaware</span><p style="margin-top:7px">He has the symptoms but blames age, stress, and bad sleep. He doesn't know magnesium deficiency exists as a category he could belong to.</p></div>
+    <div class="card"><span class="label" style="color:var(--sage)">Exit · Problem-Aware</span><p style="margin-top:7px">By 0:45 he knows the battery metaphor, the 1% blood-test gap, and that one mineral runs hundreds of his systems. He isn't shopping brands yet. He's ready to click.</p></div>
+  </div>
+
+  <div class="card sage" style="margin-top:13px">
+    <span class="label">Core desire we're targeting</span>
+    <p style="margin-top:7px">Ask him what he wants and he'll say better sleep. The honest answer sits a layer below: <strong>"I want to feel like myself again before my wife stops recognizing me."</strong> Pull the Puravita reviews and one phrase repeats: "my wife noticed." His deepest fear isn't fatigue. It's becoming someone his wife takes care of instead of partners with. We don't sell sleep. We sell return to self.</p>
+  </div>
+  <div class="foot"><span>Puravita · The Battery You Can't See</span><span>The Avatar · 03</span></div>
+</section>
+
+<!-- PAGE 4 · THE RESEARCH -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Research</span><span class="pg">04 / 08</span></div>
+  <h2 class="title">Three facts the avatar doesn't know. <em>Each one rewires his story.</em></h2>
+
+  <div class="stack" style="margin-top:13px">
+    <div class="study">
+      <h4 style="font-size:12.5px; color:var(--paper)">Fact 01 · The blood-test gap</h4>
+      <p style="margin-top:3px">Serum magnesium reflects <span class="sage">less than 1%</span> of total body magnesium, and serum is a poor predictor of true status. The other 99% lives in bone, muscle, and soft tissue. A man can be severely depleted and still test "normal." This is the foundational caveat in every clinical magnesium reference.</p>
+      <p class="src" style="margin-top:3px">NIH Office of Dietary Supplements, Magnesium fact sheet (Health Professional).</p>
+    </div>
+    <div class="study">
+      <h4 style="font-size:12.5px; color:var(--paper)">Fact 02 · The 600 processes</h4>
+      <p style="margin-top:3px">Magnesium is a cofactor in <span class="sage">over 600 enzymatic reactions</span> (up from the older 300-enzyme estimate). Muscle contraction. Neurotransmitter synthesis. ATP production. Magnesium doesn't assist these reactions. They don't happen without it. When the body is low, the systems don't fail outright. They just perform worse, which is exactly the symptom pattern the avatar is living.</p>
+      <p class="src" style="margin-top:3px">de Baaij, Hoenderop &amp; Bindels, "Magnesium in Man," <em>Physiological Reviews</em>, 2015.</p>
+    </div>
+    <div class="study">
+      <h4 style="font-size:12.5px; color:var(--paper)">Fact 03 · The depletion curve</h4>
+      <p style="margin-top:3px">Nearly half of US adults, <span class="sage">about 48%</span>, ingest below the EAR (estimated average requirement), with the lowest intakes in men over 71 and adolescent males. Men 35-plus sit squarely on the curve. And refining whole wheat into white flour strips out roughly 80% of its magnesium, so the modern diet quietly removes it. This isn't a discipline problem. It's a food-supply problem.</p>
+      <p class="src" style="margin-top:3px">NIH ODS (intake / NHANES); USDA FoodData Central (grain-refining loss).</p>
+    </div>
+  </div>
+
+  <div class="card ambertop" style="margin-top:14px">
+    <span class="label" style="color:var(--amber)">The authority weave · cold-traffic anchor</span>
+    <p class="small" style="margin-top:6px"><strong>Dr. Andrew Huberman</strong> recommends 145mg magnesium threonate, or 200mg magnesium bisglycinate, 30 to 60 minutes before sleep. <strong>Dr. Peter Attia</strong> says he aims for about a gram of elemental magnesium a day across several forms. The avatar has already heard the recommendation. He just hasn't acted on it. Our ad delivers the missing piece: the metaphor makes him feel why it matters, the science gives him permission to act, and the twelve-form Puravita formula goes further than the one or two forms the experts name.</p>
+  </div>
+  <div class="card" style="margin-top:11px"><span class="label">Compliance note</span><p class="small" style="margin-top:5px">Every claim above is structure-function: "magnesium supports the body's enzymatic processes." We never say "treats fatigue" or "cures insomnia." Aligned to Meta's long-standing Personal Attributes standard (last updated 2024).</p></div>
+  <div class="foot"><span>Puravita · The Battery You Can't See</span><span>The Research · 04</span></div>
+</section>
+
+<!-- PAGE 5 · THE SCRIPT -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Script · 45-Second Mini-VSL</span><span class="pg">05 / 08</span></div>
+  <h2 class="title">Five beats. Forty-five seconds. <em>Spoken words exactly as written.</em></h2>
+
+  <div class="stack" style="margin-top:12px">
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 01 · Hook</span><span class="tc">0:00–0:06</span></div>
+      <p class="stage">AI b-roll: close-up of a phone at 5%, red indicator pulsing, on a nightstand at 6:42am. Slow pull-back. A hand reaches in. We never see his face.</p>
+      <p class="spoken">"Your phone tells you when it's at 5 percent. Your body doesn't."</p>
+      <p class="ov">Overlay 0:02–0:06 · "The battery your body forgot to warn you about."</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 02 · Resonance</span><span class="tc">0:06–0:16</span></div>
+      <p class="stage">Cut to HeyGen avatar (male, 45–50, weathered-handsome, soft kitchen light). Direct to camera. Quiet, almost conspiratorial. He's not selling. He's telling.</p>
+      <p class="spoken">"You sleep eight hours and wake up exhausted. You work out and feel weaker. Your wife asks if you're okay and you don't have an answer. Your bloodwork came back fine. You did not."</p>
+      <p class="ov">Note · the resonance beat. Every line is his literal inner monologue. He won't blink for ten seconds.</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 03 · Mechanism reveal</span><span class="tc">0:16–0:28</span></div>
+      <p class="stage">AI b-roll: a stylized body glowing softly. A label points to the blood ("1% · what the test sees"), then zooms out to the whole body ("99% · bone, muscle, tissue"). The glow fades to dim.</p>
+      <p class="spoken">"There's a mineral that runs hundreds of processes in your body. Sleep. Energy. Drive. Memory. It's almost certainly low. But your standard blood test sees about one percent of where it lives. The other ninety-nine percent, in bone and muscle, is what's actually depleted."</p>
+      <p class="ov">Overlay 0:24–0:28 · "Source: NIH Office of Dietary Supplements"</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 04 · Authority drop</span><span class="tc">0:28–0:36</span></div>
+      <p class="stage">Quick text card, subtle waveform (implies podcast). Back to the avatar.</p>
+      <p class="spoken">"Andrew Huberman recommends 145 milligrams of magnesium threonate before sleep. Peter Attia aims for about a gram a day. They're both right. They're also both talking about one or two forms. There are twelve. Each one feeds a different system."</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 05 · Reveal + soft CTA</span><span class="tc">0:36–0:45</span></div>
+      <p class="stage">Cut to Puravita bottle, warm kitchen light, twelve small molecule diagrams pulsing around it. Music drops to silence on the CTA.</p>
+      <p class="spoken">"Puravita is the only formula with all twelve. One capsule before bed. The link's below if you want to read what's in it. Up to you."</p>
+    </div>
+  </div>
+  <div class="foot"><span>Puravita · The Battery You Can't See</span><span>The Script · 05</span></div>
+</section>
+
+<!-- PAGE 6 · VISUAL DIRECTION -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">Visual Direction · For the Editor</span><span class="pg">06 / 08</span></div>
+  <h2 class="title">Everything the editor needs. <em>No follow-up questions.</em></h2>
+
+  <div class="grid2" style="margin-top:13px">
+    <div class="card"><span class="label" style="color:var(--sage)">HeyGen avatar</span>
+      <p class="small" style="margin-top:6px"><strong>Type.</strong> Male, 45 to 52. Lean to weathered-handsome, slight gray at the temples. NOT model-handsome. Relatable. HeyGen "Pro" library, natural micro-expressions.<br>
+      <strong>Wardrobe.</strong> Henley or fine-knit sweater. Warm tones (oatmeal, sage, charcoal). No logos, no suit.<br>
+      <strong>Background.</strong> Warm kitchen, morning light. Coffee off-focus on the counter. "Guy talking to camera," not "guy presenting."<br>
+      <strong>Voice.</strong> Lower register. American. ~135 WPM. Slight gravitas. Closer to a podcast interview than an ad read.</p>
+    </div>
+    <div class="card"><span class="label" style="color:var(--sage)">AI b-roll · three sequences</span>
+      <p class="small" style="margin-top:6px"><strong>01 · Phone-battery hook (0:00–0:06).</strong> Veo 3.1 (primary) / Sora 2 Pro (fallback). Moody close-up, iPhone at 5%, soft red pulse, dawn light through blinds. Hand enters, never the face. Grade: deep-navy shadows, sage highlights.<br>
+      <strong>02 · Body-glow mechanism (0:16–0:28).</strong> Nano Banana Pro stills + Kling 3.0 motion. Translucent silhouette, soft sage internal glow. Bloodstream first ("1%"), zoom out to the whole body ("99%"), then fade to dim. Painterly, not a medical chart.<br>
+      <strong>03 · Authority card + product (0:28–0:45).</strong> After Effects. Huberman quote on frosted glass with a waveform, then the Puravita bottle, twelve molecules pulsing, soft CTA.</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:13px">
+    <span class="label" style="color:var(--sage)">Tone &amp; visual system</span>
+    <p class="small" style="margin-top:6px">Deep navy. Soft sage-green accent, warmer than clinical teal. Warm amber reserved for the Huberman quote card only. Type: serif display for headlines (Source Serif 4 or Tiempos), clean sans for body (Inter Tight or Söhne). The whole piece should read like a <em>New York Times Magazine</em> science feature, not a supplement ad. Music: sparse, melancholy-then-resolving piano, sub-mixed at minus 18dB, dropping to silence on the soft CTA. The silence is the close.</p>
+  </div>
+
+  <div class="card ambertop" style="margin-top:11px">
+    <span class="label">Static fallback · one card for mixed-format testing</span>
+    <p class="small" style="margin-top:5px"><strong>Top:</strong> "Your phone shows you when it's at 5%." &nbsp; <strong>Hero:</strong> "Your body doesn't." &nbsp; <strong>Bottom:</strong> "The mineral that runs hundreds of processes in your body, and the test that misses 99% of it." &nbsp; <strong>CTA:</strong> Worth a look →. Editorial weight, no bottle, no "Buy now." A thumbstop test: does the metaphor alone earn the click?</p>
+  </div>
+  <div class="foot"><span>Puravita · The Battery You Can't See</span><span>Visual Direction · 06</span></div>
+</section>
+
+<!-- PAGE 7 · SPECS / COMPLIANCE / DO-NOTS -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">Production · Compliance · Do-Nots</span><span class="pg">07 / 08</span></div>
+  <h2 class="title">Specs, deliverables, <em>and the lines we won't cross.</em></h2>
+
+  <div class="grid2" style="margin-top:13px">
+    <div class="card"><span class="label" style="color:var(--sage)">Technical deliverables</span>
+      <p class="small" style="margin-top:6px"><strong>Primary.</strong> 45s mini-VSL · HeyGen + AI b-roll · 9:16 · MP4 H.264 · 1080×1920 min.<br>
+      <strong>Secondary.</strong> One editorial static · 1080×1350 (4:5) · the phone-battery / body card.<br>
+      <strong>Cutdowns.</strong> 15s cut (Beats 01 + 03 + 05) · 6s hook-only thumbstop.<br>
+      <strong>Captions.</strong> Burned-in, sans, bottom third, ≤6 words/frame, manual. No auto-captions.<br>
+      <strong>Music.</strong> Sparse piano. −18dB sub-mix. Silence on the soft CTA.<br>
+      <strong>Grade.</strong> Deep navy + sage. Magazine reference: NYT Magazine, The Atlantic, Wired covers.</p>
+    </div>
+    <div class="card"><span class="label" style="color:var(--sage)">Meta H&amp;W compliance · what this brief honors</span>
+      <p class="small" style="margin-top:6px"><strong>No diagnosis claims.</strong> Not "you have magnesium deficiency." We say "the body's magnesium stores are largely invisible to standard tests." Educational, not diagnostic.<br>
+      <strong>No personal-attribute hooks.</strong> "You sleep eight hours and wake up exhausted" as a universal observation, never "are you tired?" Described from inside his experience, not by his condition.<br>
+      <strong>No before/after.</strong> Anatomical glow metaphor, never body transformations.<br>
+      <strong>No timeframe promises.</strong> If "6 to 8 weeks" appears, it's only because Puravita's own PDP cites it (94% report the change by week 8). Verifiable customer data, not a promise.</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:13px; border-top:2.5px solid var(--coral)">
+    <span class="label" style="color:var(--coral)">Do not · for the editor</span>
+    <div class="grid2" style="margin-top:8px; gap:2px 22px">
+      <ul class="donot">
+        <li>Don't show a doctor in a white coat. Reads as an ad immediately.</li>
+        <li>Don't show a literal anatomical diagram. Stylized glow only.</li>
+        <li>Don't let the avatar smile through Beats 01 to 03. Restrained.</li>
+      </ul>
+      <ul class="donot">
+        <li>Don't use stock "tired guy at a desk" footage. Stay in metaphor.</li>
+        <li>Don't add urgency text ("Limited stock!"). Kills the editorial tone.</li>
+        <li>Don't put a person next to the Huberman quote. Let the waveform carry it.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Puravita · The Battery You Can't See</span><span>Production Specs · 07</span></div>
+</section>
+
+<!-- PAGE 8 · ITERATIONS / KPIs -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">Iterations · Strategic Rationale</span><span class="pg">08 / 08</span></div>
+  <h2 class="title">If the control wins. <em>If it doesn't.</em></h2>
+  <p class="lede" style="margin-top:11px; max-width:6.4in">Three iterations queued behind the control. Each holds the battery metaphor constant and tests a different lever. <strong>This page is the strategy</strong> — the control answers whether the picture lands; the iterations answer which lever moves it.</p>
+
+  <div class="grid3" style="margin-top:13px">
+    <div class="card"><div class="label" style="color:var(--sage)">01 · Partner-noticed</div><p class="spoken" style="font-size:12px; margin-top:6px; color:var(--paper)">"My wife noticed before I did."</p><p class="small" style="margin-top:6px">Open on the partner-noticed beat instead of the phone battery. The PDP testimonials are saturated with this exact phrase, which suggests it may be even more universal than the metaphor.</p></div>
+    <div class="card"><div class="label" style="color:var(--sage)">02 · Native advertorial</div><p class="spoken" style="font-size:12px; margin-top:6px; color:var(--paper)">"The mineral your blood test missed."</p><p class="small" style="margin-top:6px">Re-cut as an 800-word native article. The science weave and the 1% reveal work even better in long-form. Higher-LTV avatars convert through native at materially better margins.</p></div>
+    <div class="card"><div class="label" style="color:var(--sage)">03 · Female 45+</div><p class="spoken" style="font-size:12px; margin-top:6px; color:var(--paper)">"My bloodwork looks fine. So why doesn't anything else?"</p><p class="small" style="margin-top:6px">Female HeyGen avatar, same structure, perimenopausal symptom set in the resonance beat. Magnesium has a strong perimenopause story. Opens a major secondary segment.</p></div>
+  </div>
+
+  <span class="label" style="display:block; margin-top:16px">KPI targets · Week 1 test</span>
+  <table style="margin-top:8px">
+    <thead><tr><th style="width:24%">KPI</th><th>What it diagnoses</th><th style="width:18%">Target</th></tr></thead>
+    <tbody>
+      <tr><td><span class="t">Hook Rate</span></td><td>Does "your phone tells you when it's at 5%" thumbstop?</td><td class="tgt">&gt; 30%</td></tr>
+      <tr><td><span class="t">Hold Rate (15s)</span></td><td>Does the resonance beat hold past the 10-second drop-off cliff? <span style="color:var(--paper-mute)">The truth-teller for a level-1 play.</span></td><td class="tgt">&gt; 45%</td></tr>
+      <tr><td><span class="t">CTR (link)</span></td><td>Does the soft CTA convert at the editorial-tone bar?</td><td class="tgt">&gt; 1.8%</td></tr>
+      <tr><td><span class="t">CPA</span></td><td>Business outcome vs. the $49.99 90-day pack (a "buy 2, get 1" bundle; 30-day unit $24.99).</td><td class="tgt">&lt; $45</td></tr>
+    </tbody>
+  </table>
+
+  <div class="card sage" style="margin-top:15px">
+    <span class="rule-pill">Why I'd ship this Monday</span>
+    <p style="margin-top:9px">The avatar is Unaware moving to Problem-aware. Most magnesium ads on Meta are written for Solution-aware buyers ("best magnesium for sleep"). That copy concedes 80% of the market, because the viewer has to already know he needs magnesium for the ad to land. <strong>This brief reaches the 80%.</strong> The Hold Rate target above 45% is the truth-teller: if the resonance beat holds past the ten-second cliff, the level-1 bet is working, and Iteration 01 is queued the moment it doesn't.</p>
+  </div>
+  <div class="foot"><span>Puravita · The Battery You Can't See · Farrice Cain · Prepared for TrendScale Media</span><span>End · 02 / 02</span></div>
+</section>
+
+</body>
+</html>

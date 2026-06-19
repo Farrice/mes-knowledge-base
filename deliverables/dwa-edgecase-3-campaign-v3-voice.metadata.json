@@ -1,0 +1,18 @@
+{
+  "title": "DWA Buyer Question Map Campaign V3",
+  "artifact_type": "campaign_packet",
+  "created_at": "2026-06-13",
+  "owner": "alex-suzuki-digital-product-revenue-os",
+  "source_files": [
+    "deliverables/dwa-edgecase-3-campaign-v2.md",
+    "research_outputs/dwa-social-listening-deepening-2026-06-13.md",
+    "skills/alex-suzuki-digital-product-revenue-os/SKILL.md"
+  ],
+  "platforms": ["X", "Threads", "Instagram"],
+  "constraints": [
+    "no income claims",
+    "no payback promises",
+    "affiliate disclosure required",
+    "comment-to-DM fit check before affiliate link"
+  ]
+}

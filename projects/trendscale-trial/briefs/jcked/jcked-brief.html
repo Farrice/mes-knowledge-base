@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JCKED · The Locked Vault · Creative Brief 01/02</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E1F3A; --navy-2:#15294A; --navy-3:#1B3056;
+    --gold:#C8A560; --amber:#E0A93F; --gold-soft:#E2C892;
+    --paper:#F4ECDC; --paper-dim:#C7BFB1; --paper-mute:#8C8576;
+    --coral:#D77E5C;
+    --rule:rgba(244,236,220,.16); --rule-2:rgba(244,236,220,.30);
+    --serif:'Source Serif 4',Georgia,serif; --sans:'Inter Tight',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  @page{ size:8.5in 11in; margin:0 }
+  html,body{ background:#0a1730 }
+  body{ font-family:var(--sans); color:var(--paper); -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .page{
+    position:relative; width:8.5in; height:11in; overflow:hidden;
+    background:var(--navy); padding:0.62in 0.7in 0.55in;
+    page-break-after:always; display:flex; flex-direction:column;
+  }
+  .page:last-child{ page-break-after:auto }
+  /* radial depth */
+  .page::before{ content:""; position:absolute; inset:0;
+    background:radial-gradient(120% 80% at 82% -6%, rgba(200,165,96,.10), transparent 46%),
+               radial-gradient(90% 60% at -8% 108%, rgba(27,48,86,.55), transparent 50%);
+    pointer-events:none }
+  .page > *{ position:relative; z-index:1 }
+
+  /* chrome */
+  .eyebrow{ font-size:9.5px; letter-spacing:.22em; text-transform:uppercase; color:var(--gold); font-weight:600 }
+  .topbar{ display:flex; justify-content:space-between; align-items:baseline; border-bottom:1px solid var(--rule); padding-bottom:9px; margin-bottom:22px }
+  .topbar .pg{ font-size:9.5px; letter-spacing:.18em; color:var(--paper-mute); text-transform:uppercase }
+  .foot{ margin-top:auto; border-top:1px solid var(--rule); padding-top:8px; display:flex; justify-content:space-between;
+    font-size:8.2px; letter-spacing:.14em; text-transform:uppercase; color:var(--paper-mute) }
+
+  h1.display{ font-family:var(--serif); font-weight:300; font-size:78px; line-height:.94; letter-spacing:-.015em; color:var(--paper) }
+  h2.title{ font-family:var(--serif); font-weight:400; font-size:33px; line-height:1.08; letter-spacing:-.01em; color:var(--paper) }
+  h2.title em{ font-style:italic; color:var(--gold-soft) }
+  .secnum{ font-family:var(--serif); font-size:13px; color:var(--gold); font-weight:500; letter-spacing:.04em }
+  .kicker{ font-family:var(--serif); font-style:italic; font-size:19px; line-height:1.32; color:var(--gold-soft); font-weight:400 }
+  p,li{ font-size:12.5px; line-height:1.58; color:var(--paper-dim) }
+  p.lede{ font-size:14px; line-height:1.55; color:var(--paper) }
+  strong{ color:var(--paper); font-weight:600 }
+  .amber{ color:var(--amber); font-weight:600 }
+  .small{ font-size:10.5px; line-height:1.5; color:var(--paper-mute) }
+  .mono{ font-variant-numeric:tabular-nums }
+
+  .card{ background:var(--navy-2); border:1px solid var(--rule); border-radius:3px; padding:15px 17px }
+  .card.gold{ border-top:2.5px solid var(--gold) }
+  .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:13px }
+  .grid3{ display:grid; grid-template-columns:1fr 1fr 1fr; gap:13px }
+  .stack>*+*{ margin-top:11px }
+  .num{ font-family:var(--serif); font-size:26px; color:var(--gold); font-weight:300; line-height:1 }
+  .label{ font-size:8.6px; letter-spacing:.2em; text-transform:uppercase; color:var(--paper-mute); font-weight:600 }
+  .hr{ height:1px; background:var(--rule); margin:14px 0 }
+
+  /* snapshot strip */
+  .snap{ display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--rule); border:1px solid var(--rule); border-radius:3px; overflow:hidden }
+  .snap > div{ background:var(--navy-2); padding:11px 12px }
+  .snap .label{ margin-bottom:5px }
+  .snap p{ font-size:11px; line-height:1.4; color:var(--paper) }
+
+  /* mechanism / why list */
+  .why{ display:grid; grid-template-columns:auto 1fr; gap:10px 13px; align-items:start }
+  .why .n{ font-family:var(--serif); font-size:16px; color:var(--gold); font-weight:500; line-height:1.3 }
+  .why h4{ font-size:12.5px; color:var(--paper); font-weight:600; line-height:1.35; margin-bottom:2px }
+  .why p{ font-size:10.8px; line-height:1.46 }
+
+  /* study */
+  .study{ border-left:2px solid var(--gold); padding-left:13px }
+  .study .src{ font-style:italic; color:var(--paper-mute); font-size:10px }
+
+  /* beats */
+  .beat{ border-top:1px solid var(--rule); padding-top:10px }
+  .beat .bt{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:5px }
+  .beat .bn{ font-size:9px; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); font-weight:600 }
+  .beat .tc{ font-size:9px; color:var(--paper-mute); letter-spacing:.1em }
+  .beat .stage{ font-size:9.6px; color:var(--paper-mute); line-height:1.4; margin-bottom:5px }
+  .spoken{ font-family:var(--serif); font-size:13.5px; line-height:1.42; color:var(--paper); font-weight:400 }
+  .ov{ font-size:9.4px; color:var(--gold-soft); letter-spacing:.04em; margin-top:4px }
+
+  /* table */
+  table{ width:100%; border-collapse:collapse }
+  th{ text-align:left; font-size:8.4px; letter-spacing:.18em; text-transform:uppercase; color:var(--paper-mute); font-weight:600; padding:0 8px 7px 0; border-bottom:1px solid var(--rule-2) }
+  td{ font-size:11px; line-height:1.4; color:var(--paper-dim); padding:8px 8px 8px 0; border-bottom:1px solid var(--rule); vertical-align:top }
+  td .t{ color:var(--paper); font-weight:600 }
+  td.tgt{ color:var(--gold); font-weight:600; font-variant-numeric:tabular-nums; white-space:nowrap }
+
+  .donot li{ font-size:10.6px; line-height:1.5; color:var(--paper-dim); padding-left:15px; position:relative; margin-top:4px }
+  .donot li::before{ content:"→"; position:absolute; left:0; color:var(--coral) }
+  .rule-pill{ display:inline-block; font-size:8.4px; letter-spacing:.18em; text-transform:uppercase; color:var(--navy); background:var(--gold); padding:3px 8px; border-radius:2px; font-weight:700 }
+</style>
+</head>
+<body>
+
+<!-- ░░ PAGE 1 · COVER ░░ -->
+<section class="page">
+  <div class="topbar">
+    <span class="eyebrow">Creative Brief · Brand 01 / 02 · Prepared for TrendScale Media</span>
+    <span class="pg">JUN 2026</span>
+  </div>
+  <div style="margin-top:34px">
+    <span class="eyebrow" style="color:var(--paper-mute)">JCKED · Liquid L-Carnitine 4000mg · Top of Funnel · Meta</span>
+    <h1 class="display" style="margin-top:20px">The Locked<br>Vault.</h1>
+    <p class="kicker" style="margin-top:20px; max-width:6in">Your body is storing fuel it can't reach.</p>
+    <p class="lede" style="margin-top:16px; max-width:6.1in">This was never about willpower. A single enzyme decides whether your stored fat ever becomes energy, and it can't do its job without one nutrient most men past 35 don't know they're short on. <strong>JCKED makes the key.</strong></p>
+  </div>
+  <div class="snap" style="margin-top:34px">
+    <div><div class="label">Format</div><p>30-sec HeyGen VSL + 6-card static carousel</p></div>
+    <div><div class="label">Stage</div><p>Cold traffic · Meta Feed + Reels</p></div>
+    <div><div class="label">Awareness</div><p>Problem-aware → Solution-aware (Schwartz L2→3)</p></div>
+    <div><div class="label">Strategist</div><p>Farrice Cain · June 2026</p></div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>The Locked Vault · 01 / 02</span></div>
+</section>
+
+<!-- ░░ PAGE 2 · THE CONCEPT ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Concept</span><span class="pg">02 / 08</span></div>
+  <h2 class="title">Stop selling fat loss. <em>Sell the key.</em></h2>
+  <p class="lede" style="margin-top:14px; max-width:6.4in">Every L-carnitine ad on Meta sells the same three things: faster fat loss, more energy, fewer crashes. The avatar has seen it two hundred times. His thumb scrolls past it like reflex. So we do the opposite. We tell him <strong>why nothing has worked</strong>. Not as a sales line. As a biology story he feels in his chest before he thinks about it.</p>
+
+  <div class="card gold" style="margin-top:18px">
+    <span class="label">The Big Idea</span>
+    <h2 class="title" style="font-size:24px; margin-top:7px">Your stubborn fat isn't stubborn. It's locked.</h2>
+    <p style="margin-top:9px">There is a literal biochemical door between stored fat and the mitochondria that burn it. That door is operated by one enzyme, <strong>CPT-1</strong>, and CPT-1 will not open it without one nutrient: <strong>L-carnitine</strong>. No carnitine, no key, no access. The fat stays in the vault no matter how clean he eats or how hard he trains. This is the Krebs cycle. It's in every biology textbook. A man can spend ten years in a gym and never hear it once.</p>
+  </div>
+
+  <span class="label" style="display:block; margin-top:18px">Why this works for cold traffic</span>
+  <div class="grid2" style="margin-top:11px">
+    <div class="why"><span class="n">01</span><div><h4>It hands him an honorable explanation.</h4><p>Every 35+ man has rehearsed "I just don't have the discipline anymore." We replace shame with physiology. He gets a reason that lets him stay the man he wants to be. That swap is the emotional unlock direct response is built on.</p></div></div>
+    <div class="why"><span class="n">02</span><div><h4>A locked vault needs no translation.</h4><p>Zero supplement literacy required. A 42-year-old who has never bought a capsule lands the image in two seconds. That is what mass-market top-of-funnel demands.</p></div></div>
+    <div class="why"><span class="n">03</span><div><h4>The category leads with a body. We lead with a textbook.</h4><p>Open Meta's ad library on any Tuesday. 80% of the fat-loss creative is a shirtless before-and-after. Ours is a mitochondrion. The pattern interrupt is the format itself.</p></div></div>
+    <div class="why"><span class="n">04</span><div><h4>Meta-compliant on its face, not in the fine print.</h4><p>We never address the viewer by his condition. We describe the mechanism. Structure-function language, as Meta defines it. Clears the Personal Attributes standard without an appeal.</p></div></div>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault</span><span>The Concept · 02</span></div>
+</section>
+
+<!-- ░░ PAGE 3 · THE AVATAR ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Avatar</span><span class="pg">03 / 08</span></div>
+  <h2 class="title">The man with the half-used bottle <em>in his cabinet.</em></h2>
+  <p class="kicker" style="font-size:16px; margin-top:9px">He's not new to supplements. He's tired of them.</p>
+
+  <div class="snap" style="margin-top:16px; grid-template-columns:repeat(5,1fr)">
+    <div><div class="label">Age</div><p>32–45 · core 36–42</p></div>
+    <div><div class="label">Gender</div><p>Male primary · female stack-curious 2nd</p></div>
+    <div><div class="label">Income</div><p>$75K+ · bought 3+ supps this year</p></div>
+    <div><div class="label">Geo</div><p>US top-50 metros · suburban edges</p></div>
+    <div><div class="label">Lifestyle</div><p>Trains 2–4×/wk · Costco · Whoop/Garmin</p></div>
+  </div>
+
+  <div class="card" style="margin-top:16px">
+    <span class="label">The conversation already running in his head</span>
+    <p class="spoken" style="margin-top:8px; color:var(--paper)">"I'm doing more than I did at 28 and getting less back. I track macros. I'm in the gym four days a week. My sleep is fine. My doctor says my bloodwork is fine. But there's this layer, right around the middle, that hasn't moved in three years. And I'm starting to wonder if it ever will."</p>
+    <p class="small" style="margin-top:9px">He will not say this out loud. He will not post it. It's the monologue that runs the morning he gets dressed for a wedding and the shirt fits differently than it did in last year's photo.</p>
+  </div>
+
+  <div class="grid2" style="margin-top:16px">
+    <div class="card"><span class="label" style="color:var(--gold)">Entry · Problem-Aware</span><p style="margin-top:7px">He sees the layer in the mirror. He has run out of explanations for why it stays.</p></div>
+    <div class="card"><span class="label" style="color:var(--gold)">Exit · Solution-Aware</span><p style="margin-top:7px">By 0:30 he has a name (CPT-1), a mechanism (the carnitine shuttle), and a reason his old bottle did nothing. He's now hunting for the <strong>right</strong> L-carnitine, not L-carnitine.</p></div>
+  </div>
+
+  <div class="card gold" style="margin-top:14px">
+    <span class="label">Core desire we're targeting</span>
+    <p style="margin-top:7px">Ask him what he wants and he'll say weight loss. Sit with him an hour and he'll say something else: <strong>"I want to feel like the version of me from five years ago."</strong> That desire is identity, not aesthetics. We don't sell L-carnitine. We sell the key to a door he didn't know was there, and the door opens onto the man he remembers being.</p>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault</span><span>The Avatar · 03</span></div>
+</section>
+
+<!-- ░░ PAGE 4 · THE RESEARCH ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Research</span><span class="pg">04 / 08</span></div>
+  <h2 class="title">The mechanism is settled science. <em>It's just never been sold this way.</em></h2>
+
+  <div class="card" style="margin-top:14px">
+    <span class="label">The mechanism, plainly</span>
+    <div class="grid2" style="margin-top:9px; gap:8px 16px">
+      <p class="small"><span class="amber">01</span> &nbsp;Stored fat lives in adipose cells. It can't be used as energy until it's transported into the mitochondria — the cell's furnace.</p>
+      <p class="small"><span class="amber">02</span> &nbsp;That transport requires <strong>CPT-1</strong>, the rate-limiting enzyme of the entire fat-burning process.</p>
+      <p class="small"><span class="amber">03</span> &nbsp;CPT-1 requires L-carnitine to function. Carnitine attaches to the fatty acid and shuttles it across the mitochondrial membrane.</p>
+      <p class="small"><span class="amber">04</span> &nbsp;Without carnitine, the door stays closed. Stored fat is fuel the body literally cannot reach.</p>
+    </div>
+  </div>
+
+  <span class="label" style="display:block; margin-top:16px">Three studies we're standing on</span>
+  <div class="stack" style="margin-top:10px">
+    <div class="study">
+      <h4 style="font-size:12.5px; color:var(--paper)">01 · The mechanism</h4>
+      <p style="margin-top:3px">CPT-1 is "the rate-limiting enzyme of mitochondrial fatty-acid oxidation." This is the citation that settles the biochemistry. The whole ad rides on it.</p>
+      <p class="src" style="margin-top:3px">Mitochondrial CPT1A: structure, function, and basis for drug development. <em>Frontiers in Pharmacology</em>, 2023. NIH-indexed.</p>
+    </div>
+    <div class="study">
+      <h4 style="font-size:12.5px; color:var(--paper)">02 · The proof it works in this man</h4>
+      <p style="margin-top:3px">A 25-week trial in men in their sixties: supplementation raised muscle carnitine <span class="amber">20%</span> and whole-body fat oxidation <span class="amber">20%</span>. The studies that prove carnitine works were run on exactly this avatar, in exactly this decade of life. If it moves the needle at sixty-nine, it moves it at thirty-nine.</p>
+      <p class="src" style="margin-top:3px">Chee et al., <em>Aging Cell</em>, 2021.</p>
+    </div>
+    <div class="study">
+      <h4 style="font-size:12.5px; color:var(--paper)">03 · The clinical-dose meta-analysis</h4>
+      <p style="margin-top:3px">37 RCTs, 2,292 participants. Significant reductions in body weight, BMI, and fat mass, with the largest effects in adults who carry extra weight. Doses across the trials ran from roughly 250 to 4,000mg/day, with the largest body-weight effect near 2,000mg. <strong>JCKED's 4,000mg sits at the top of the studied range. A lot of brands ship 500.</strong></p>
+      <p class="src" style="margin-top:3px">Talenezhad et al., <em>Clinical Nutrition ESPEN</em>, 2020.</p>
+    </div>
+  </div>
+
+  <div class="grid2" style="margin-top:15px">
+    <div class="card"><span class="label">The authority weave</span><p class="small" style="margin-top:6px">The script names the <strong>Linus Pauling Institute at Oregon State</strong> once. It is the most credentialed nutrition-research body that publishes openly on carnitine's mechanism. We don't name-drop Huberman or Attia here; the fat-loss category has burned out influencer credibility for this avatar. Research institutions still carry weight.</p></div>
+    <div class="card"><span class="label">Compliance posture</span><p class="small" style="margin-top:6px">Every claim is structure-function, never disease-related. We do not say "burns fat." We say "supports the body's mechanism for using stored fat as fuel." Same idea, Meta-safe phrasing, and we never echo the PDP's outcome promises.</p></div>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault</span><span>The Research · 04</span></div>
+</section>
+
+<!-- ░░ PAGE 5 · THE SCRIPT ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">The Script · 30-Second HeyGen VSL</span><span class="pg">05 / 08</span></div>
+  <h2 class="title">Four beats. Thirty seconds. <em>Spoken words exactly as written.</em></h2>
+
+  <div class="stack" style="margin-top:14px">
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 01 · Hook</span><span class="tc">0:00–0:05</span></div>
+      <p class="stage">HeyGen avatar (male, 35–40, neutral background, business-casual). Direct to camera. Confident, conspiratorial. Slight lean-in on the second sentence.</p>
+      <p class="spoken">"There's a layer of fat your body refuses to burn. It's not your fault. It's a missing key."</p>
+      <p class="ov">Overlay 0:02–0:05 · "The fat your body literally can't reach."</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 02 · Mechanism reveal</span><span class="tc">0:05–0:15</span></div>
+      <p class="stage">Cut to AI b-roll: cinematic mitochondrion. Camera pushes toward a glowing membrane with a closed gate. A small labeled molecule (carnitine) approaches; the gate opens; a fatty acid passes through.</p>
+      <p class="spoken">"Stored fat can only become energy if it reaches your mitochondria. The door is operated by one enzyme. It's called CPT-1. And CPT-1 can't open the door without L-carnitine. No carnitine, no key, no fuel."</p>
+      <p class="ov">Overlay 0:09–0:12 · "CPT-1 · the rate-limiting enzyme of fat burning" &nbsp;·&nbsp; 0:13–0:15 · "Frontiers in Pharmacology, 2023"</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 03 · The clinical proof</span><span class="tc">0:15–0:22</span></div>
+      <p class="stage">Cut to AI b-roll: a split screen. A clinical bar rising to 20%, beside a glowing muscle silhouette brightening. Caption builds underneath.</p>
+      <p class="spoken">"The trial that proved this ran on men in their sixties, and their fat oxidation still jumped twenty percent. If it works there, imagine what it does for you."</p>
+      <p class="ov">Overlay 0:18–0:22 · "+20% fat oxidation · Aging Cell, 2021"</p>
+    </div>
+    <div class="beat">
+      <div class="bt"><span class="bn">Beat 04 · Reveal + soft CTA</span><span class="tc">0:22–0:30</span></div>
+      <p class="stage">Cut to a clean product shot. JCKED bottle on a kitchen counter, morning light. No hype framing. Avatar's voice returns. Conversational, almost casual.</p>
+      <p class="spoken">"JCKED Liquid L-Carnitine is the key, at the top of the dose the studies actually used. Four thousand milligrams. Most brands give you five hundred. The link's below if you want to read more. No pressure."</p>
+      <p class="ov">Overlay 0:28–0:30 · "Worth a look 👇" &nbsp;·&nbsp; Meta CTA button · "Learn More"</p>
+    </div>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault</span><span>The Script · 05</span></div>
+</section>
+
+<!-- ░░ PAGE 6 · VISUAL DIRECTION ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">Visual Direction · For the Editor</span><span class="pg">06 / 08</span></div>
+  <h2 class="title">Everything the editor needs. <em>No follow-up questions.</em></h2>
+
+  <div class="grid2" style="margin-top:14px">
+    <div class="card"><span class="label" style="color:var(--gold)">HeyGen avatar</span>
+      <p class="small" style="margin-top:6px"><strong>Type</strong> · male, 35–40, lean, casual-professional. A "Pro" library avatar with natural micro-expressions; avoid the obviously synthetic look.<br>
+      <strong>Wardrobe</strong> · neutral solid tee or henley (charcoal, navy, olive). No logos, no collars.<br>
+      <strong>Background</strong> · soft-blurred kitchen or home office. Warm interior, not a studio. Real guy, not corporate.<br>
+      <strong>Voice</strong> · mid-range, American, ~145 WPM. Conversational. Not the over-enthusiastic ad read.</p>
+    </div>
+    <div class="card"><span class="label" style="color:var(--gold)">AI b-roll · 2026 stack</span>
+      <p class="small" style="margin-top:6px"><strong>Mitochondrion (0:05–0:15)</strong> · Google Veo 3.1 (primary) / Sora 2 Pro (fallback). Cinematic biology, not cartoon. Reference: <em>Cosmos</em>, Apple "Inside" films. Deep-navy backdrop, amber glow. Camera pushes in: gate closed → carnitine approaches → gate opens → fatty acid through.<br>
+      <strong>Clinical split (0:15–0:22)</strong> · Nano Banana Pro stills + Kling 3.0 motion. A rising 20% bar beside a brightening muscle silhouette. Metaphor, not a medical chart.<br>
+      <strong>Product (0:22–0:30)</strong> · static product photography, kitchen morning light.</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <span class="label" style="color:var(--gold)">6-card static carousel — companion to the VSL</span>
+    <p class="small" style="margin-top:5px">Same concept, Feed-native format. One big idea per card. A self-contained mini-story for the ~90% who never press play.</p>
+    <div class="grid3" style="margin-top:10px; gap:9px">
+      <div style="border-left:2px solid var(--gold); padding-left:9px"><div class="label">01 · Hook</div><p class="small" style="color:var(--paper)">"There's a layer of fat your body refuses to burn."</p></div>
+      <div style="border-left:2px solid var(--gold); padding-left:9px"><div class="label">02 · Reframe</div><p class="small" style="color:var(--paper)">"It's not willpower. It's a missing key."</p></div>
+      <div style="border-left:2px solid var(--gold); padding-left:9px"><div class="label">03 · Mechanism</div><p class="small" style="color:var(--paper)">"Fat can't reach your mitochondria without L-carnitine."</p></div>
+      <div style="border-left:2px solid var(--gold); padding-left:9px"><div class="label">04 · The proof</div><p class="small" style="color:var(--paper)">"A trial on men in their 60s: +20% fat oxidation."</p></div>
+      <div style="border-left:2px solid var(--gold); padding-left:9px"><div class="label">05 · Specificity</div><p class="small" style="color:var(--paper)">"Studies dosed up to 4,000mg. JCKED gives 4,000. Most give 500."</p></div>
+      <div style="border-left:2px solid var(--gold); padding-left:9px"><div class="label">06 · Soft CTA</div><p class="small" style="color:var(--paper)">"The key your body's been waiting for. Worth a look 👇"</p></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:13px">
+    <span class="label">Design system for the carousel</span>
+    <p class="small" style="margin-top:6px">Deep navy or charcoal ground. Amber on the key words only. Serif headline (Source Serif 4 or Tiempos), clean sans for sub-copy (Inter Tight or Söhne). One focused metaphor per card: a closed gate, a key, a single glowing molecule. Editorial weight, not supplement-ad gloss. If a stranger scrolling mistakes it for a <em>Wired</em> science feature for one second, it's working.</p>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault</span><span>Visual Direction · 06</span></div>
+</section>
+
+<!-- ░░ PAGE 7 · SPECS / COMPLIANCE / DO-NOTS ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">Production · Compliance · Do-Nots</span><span class="pg">07 / 08</span></div>
+  <h2 class="title">Specs, deliverables, <em>and the lines we won't cross.</em></h2>
+
+  <div class="grid2" style="margin-top:14px">
+    <div class="card"><span class="label" style="color:var(--gold)">Technical deliverables</span>
+      <p class="small" style="margin-top:6px"><strong>Primary</strong> · 30s HeyGen + AI b-roll VSL · 9:16 · MP4 H.264 · 1080×1920 min.<br>
+      <strong>Secondary</strong> · 6-card static carousel · 1080×1350 (4:5).<br>
+      <strong>Cutdowns</strong> · 15s Reels cut (Beats 01 + 04) · 6s thumbstop hook.<br>
+      <strong>Captions</strong> · burned-in, sans, bottom third, ≤6 words/frame, manual placement. No CapCut auto-captions.<br>
+      <strong>Music</strong> · sparse cinematic bed (Apple Vision Pro reveal). −18dB sub-mix. Silence on the soft CTA.<br>
+      <strong>Grade</strong> · deep navy + amber. Editorial, not flashy.</p>
+    </div>
+    <div class="card"><span class="label" style="color:var(--gold)">Meta H&amp;W compliance — what this brief honors</span>
+      <p class="small" style="margin-top:6px"><strong>No disease claims.</strong> "Supports the body's mechanism for using stored fat as fuel." Never "burns fat" or "guarantees weight loss." Structure-function throughout.<br>
+      <strong>No personal-attribute hooks.</strong> "There's a layer of fat your body refuses to burn." Never "are you overweight?" The viewer is never addressed by his condition.<br>
+      <strong>No before/after.</strong> B-roll uses biology metaphor, not body transformations. The #1 reason supplement creative gets killed. We sidestep it entirely. <span class="small" style="color:var(--paper-mute)">(Aligned to Meta's long-standing Personal Attributes standard, last updated 2024.)</span></p>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px; border-top:2.5px solid var(--coral)">
+    <span class="label" style="color:var(--coral)">Do not — for the editor</span>
+    <div class="grid2" style="margin-top:8px; gap:2px 22px">
+      <ul class="donot">
+        <li>Don't use a "doctor in a white coat." Trust is dead in that visual.</li>
+        <li>Don't show actual body photography. Stay in metaphor + product.</li>
+        <li>Don't add CapCut transitions or template captions. Reads as an ad instantly.</li>
+      </ul>
+      <ul class="donot">
+        <li>Don't add urgency stingers ("Only 100 left!"). Kills the editorial tone.</li>
+        <li>Don't let the avatar smile through the hook. Neutral, almost grave.</li>
+        <li>Don't over-saturate the amber. Restrained, not gym-bro.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault</span><span>Production Specs · 07</span></div>
+</section>
+
+<!-- ░░ PAGE 8 · ITERATIONS / KPIs ░░ -->
+<section class="page">
+  <div class="topbar"><span class="eyebrow">Iterations · Strategic Rationale</span><span class="pg">08 / 08</span></div>
+  <h2 class="title">If the control wins. <em>If it doesn't.</em></h2>
+  <p class="lede" style="margin-top:11px; max-width:6.4in">Three iterations queued behind the control. Each holds the metaphor constant and tests a different lever. This is how I'd run the second wave once Week 1 returns signal. <strong>This page is the strategy</strong> · the control answers whether the picture lands; the iterations answer which lever moves it.</p>
+
+  <div class="grid3" style="margin-top:14px">
+    <div class="card"><div class="label" style="color:var(--gold)">01 · Hook swap</div><p class="spoken" style="font-size:12px; margin-top:6px; color:var(--paper)">"You're not lazy. You're locked out of your own fuel."</p><p class="small" style="margin-top:6px">Tests whether self-blame framing beats the "stubborn fat" frame for the 38–45 segment. Same body, different emotional door.</p></div>
+    <div class="card"><div class="label" style="color:var(--gold)">02 · Format swap</div><p class="spoken" style="font-size:12px; margin-top:6px; color:var(--paper)">Native-ad article, same concept.</p><p class="small" style="margin-top:6px">"The hidden enzyme behind stubborn fat." Native carries the science weave better than video for this avatar, and it's often the highest-margin format in supplements.</p></div>
+    <div class="card"><div class="label" style="color:var(--gold)">03 · Partner POV</div><p class="spoken" style="font-size:12px; margin-top:6px; color:var(--paper)">"My husband's been losing fat since I told him this."</p><p class="small" style="margin-top:6px">Female-partner explainer (HeyGen swap, same structure). Opens the wives-who-buy-for-their-men segment; partner-POV often wins cold CTR.</p></div>
+  </div>
+
+  <span class="label" style="display:block; margin-top:18px">KPI targets · Week 1 test</span>
+  <table style="margin-top:8px">
+    <thead><tr><th style="width:24%">KPI</th><th>What it diagnoses</th><th style="width:16%; text-align:right">Target</th></tr></thead>
+    <tbody>
+      <tr><td><span class="t">Hook Rate</span></td><td>Does "a layer of fat your body refuses to burn" thumbstop?</td><td class="tgt" style="text-align:right">&gt; 30%</td></tr>
+      <tr><td><span class="t">Hold Rate (15s)</span></td><td>Does the mechanism reveal hold attention to the b-roll cut?</td><td class="tgt" style="text-align:right">&gt; 40%</td></tr>
+      <tr><td><span class="t">CTR (link)</span></td><td>Does the soft CTA convert at the editorial-tone bar?</td><td class="tgt" style="text-align:right">&gt; 1.5%</td></tr>
+      <tr><td><span class="t">CPA</span></td><td>Business outcome vs. blended AOV ~$70 (most orders take the 2–3 bottle offer; single $29.95 sale / $60 MSRP).</td><td class="tgt" style="text-align:right">&lt; $50</td></tr>
+    </tbody>
+  </table>
+
+  <div class="card gold" style="margin-top:16px">
+    <span class="rule-pill">Why I'd ship this Monday</span>
+    <p style="margin-top:9px">Pull up the fat-loss section of Meta's ad library right now. The dominant L-carnitine ad is a results photo with a number on it. The category has trained itself into one format, and the format is fatigued. This ad leads with a story, stands on three peer-reviewed sources, and clears Meta on its face. <strong>Miss hook rate and the metaphor was wrong. Land hook and miss CTR and the close is too soft</strong> · Iteration 02 tightens it. Either way, Week 1 tells me which.</p>
+  </div>
+  <div class="foot"><span>JCKED · The Locked Vault · Farrice Cain · Prepared for TrendScale Media</span><span>End · 01 / 02</span></div>
+</section>
+
+</body>
+</html>

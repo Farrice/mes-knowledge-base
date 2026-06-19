@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Hooks, Angles &amp; Systems · Prepared for TrendScale Media</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Inter+Tight:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0E1F3A; --navy-2:#15294A; --navy-3:#1B3056;
+    --gold:#C8A560; --gold-soft:#E2C892; --amber:#E0A93F;
+    --paper:#F4ECDC; --paper-dim:#C7BFB1; --paper-mute:#8C8576;
+    --coral:#D77E5C;
+    --rule:rgba(244,236,220,.16); --rule-2:rgba(244,236,220,.30);
+    --serif:'Source Serif 4',Georgia,serif; --sans:'Inter Tight',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  @page{ size:13.333in 7.5in; margin:0 }
+  html,body{ background:#0a1730 }
+  body{ font-family:var(--sans); color:var(--paper); -webkit-print-color-adjust:exact; print-color-adjust:exact }
+  .slide{
+    position:relative; width:1280px; height:720px; overflow:hidden;
+    background:var(--navy); padding:64px 76px 52px;
+    page-break-after:always; display:flex; flex-direction:column;
+  }
+  .slide:last-child{ page-break-after:auto }
+  .slide::before{ content:""; position:absolute; inset:0;
+    background:radial-gradient(110% 75% at 85% -8%, rgba(200,165,96,.10), transparent 44%),
+               radial-gradient(85% 60% at -6% 110%, rgba(27,48,86,.6), transparent 52%);
+    pointer-events:none }
+  .slide > *{ position:relative; z-index:1 }
+
+  .top{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:30px }
+  .eyebrow{ font-size:12px; letter-spacing:.24em; text-transform:uppercase; color:var(--gold); font-weight:600 }
+  .pg{ font-size:12px; letter-spacing:.16em; color:var(--paper-mute); text-transform:uppercase; font-variant-numeric:tabular-nums }
+  .foot{ position:absolute; left:76px; right:76px; bottom:30px; display:flex; justify-content:space-between;
+    font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--paper-mute); border-top:1px solid var(--rule); padding-top:12px }
+
+  h1{ font-family:var(--serif); font-weight:300; letter-spacing:-.015em; color:var(--paper) }
+  .display{ font-size:96px; line-height:.96 }
+  .title{ font-family:var(--serif); font-weight:400; font-size:44px; line-height:1.06; letter-spacing:-.01em; color:var(--paper) }
+  .title em{ font-style:italic; color:var(--gold-soft) }
+  .lede{ font-size:19px; line-height:1.5; color:var(--paper) }
+  p{ font-size:16px; line-height:1.5; color:var(--paper-dim) }
+  strong{ color:var(--paper); font-weight:600 }
+  .gold{ color:var(--gold); font-weight:600 }
+  .amber{ color:var(--amber); font-weight:600 }
+  .mute{ color:var(--paper-mute) }
+  .label{ font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--paper-mute); font-weight:600 }
+  .small{ font-size:13px; line-height:1.46; color:var(--paper-dim) }
+  .xs{ font-size:11.5px; line-height:1.4; color:var(--paper-mute) }
+
+  .card{ background:var(--navy-2); border:1px solid var(--rule); border-radius:4px; padding:20px 22px }
+  .card.gold{ border-top:3px solid var(--gold) }
+  .card.coral{ border-top:3px solid var(--coral) }
+  .grid2{ display:grid; grid-template-columns:1fr 1fr; gap:18px }
+  .grid3{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px }
+  .grid4{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px }
+  .arrow li{ list-style:none; font-size:14.5px; line-height:1.45; color:var(--paper-dim); padding-left:22px; position:relative; margin-top:12px }
+  .arrow li::before{ content:"\2192"; position:absolute; left:0; color:var(--gold); font-weight:700 }
+  .arrow li strong{ color:var(--paper) }
+
+  .mega{ font-family:var(--serif); font-weight:300; font-size:150px; line-height:.9; color:var(--gold) }
+  .fill{ flex:1 }
+
+  table{ width:100%; border-collapse:collapse }
+  th{ text-align:left; font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--paper-mute); font-weight:600; padding:0 10px 9px 0; border-bottom:1px solid var(--rule-2) }
+  td{ font-size:13.5px; line-height:1.4; color:var(--paper-dim); padding:9px 10px 9px 0; border-bottom:1px solid var(--rule); vertical-align:top }
+  td .t{ color:var(--paper); font-weight:600 }
+  td.tgt{ color:var(--gold); font-weight:600; font-variant-numeric:tabular-nums; white-space:nowrap }
+
+  .hooktbl td{ font-size:12.5px; padding:6.5px 10px 6.5px 0 }
+  .lever{ color:var(--gold-soft); font-size:11px; letter-spacing:.04em }
+  .vr-high{ color:var(--gold); font-weight:600; font-size:11px }
+  .vr-med{ color:var(--paper-mute); font-weight:600; font-size:11px }
+
+  .week{ background:var(--navy-2); border:1px solid var(--rule); border-top:3px solid var(--gold); border-radius:4px; padding:16px 16px }
+  .week .wk{ font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); font-weight:600 }
+  .week h4{ font-size:15px; color:var(--paper); font-weight:600; margin:4px 0 8px; line-height:1.2 }
+  .week .small{ font-size:11.5px; line-height:1.4 }
+  .week .ai{ font-size:10.5px; color:var(--paper-mute); margin-top:8px; line-height:1.4; border-top:1px solid var(--rule); padding-top:7px }
+
+  .pill{ display:inline-block; font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--navy); background:var(--gold); padding:4px 10px; border-radius:2px; font-weight:700 }
+  .quote{ font-family:var(--serif); font-style:italic; font-size:19px; line-height:1.4; color:var(--gold-soft) }
+  .kpinum{ font-family:var(--serif); font-size:30px; color:var(--gold); font-weight:300 }
+</style>
+</head>
+<body>
+
+<!-- 01 · COVER -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Creative Strategist Portfolio</span><span class="pg"></span></div>
+  <div class="fill" style="display:flex; flex-direction:column; justify-content:center">
+    <h1 class="display">Hooks, Angles<br>&amp; Systems.</h1>
+    <p class="lede" style="margin-top:30px; max-width:760px">The gap between what your customers say about you and what your marketing says about you. And the operating system that closes it.</p>
+  </div>
+  <div class="foot"><span>Farrice Cain · Creative Strategist · Direct Response</span><span>Los Angeles · Prepared for TrendScale Media · June 2026</span></div>
+</section>
+
+<!-- 02 · ABOUT / THE GAP -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">About</span><span class="pg">02 / 12</span></div>
+  <h2 class="title" style="max-width:1000px">Your customers already know why your product matters. <em>Your marketing doesn't sound anything like them.</em></h2>
+  <div class="grid2" style="margin-top:26px; gap:30px">
+    <div>
+      <p style="max-width:520px">They tell their friends. They post about you without being asked. They come back. Then the marketing sounds like a pitch deck. Features, differentiators, competitive advantages. Language that means everything to you and nothing to the person scrolling at 11pm wondering if there's a version of this that fits their life.</p>
+      <p style="margin-top:14px; max-width:520px"><strong>That gap is where I work.</strong></p>
+    </div>
+    <div class="grid2" style="gap:14px">
+      <div class="card"><span class="label" style="color:var(--gold)">Behavioral insight</span><p class="small" style="margin-top:6px">18 years in psychology, coaching, and transformation. Sitting across from people in the middle of becoming someone new.</p></div>
+      <div class="card"><span class="label" style="color:var(--gold)">Direct response</span><p class="small" style="margin-top:6px">Professional copywriting and ghostwriting. Hooks, scripts, and angles built on proven DR frameworks, not vibes.</p></div>
+      <div class="card"><span class="label" style="color:var(--gold)">Data literacy</span><p class="small" style="margin-top:6px">Hook Rate, Hold Rate, CTR, CPA, ROAS read as diagnostics, not vanity. Rules locked before the test.</p></div>
+      <div class="card"><span class="label" style="color:var(--gold)">AI-native workflow</span><p class="small" style="margin-top:6px">Claude, Gemini, Veo, HeyGen integrated across research, briefing, and reporting. Speed without losing judgment.</p></div>
+    </div>
+  </div>
+  <div class="card gold" style="margin-top:22px">
+    <span class="label">The applied case study in this deck</span>
+    <p class="small" style="margin-top:5px"><strong>Men's hair loss on Meta, a category I know well, built as a proof of concept</strong> for how I'd run a real first 30 days. One category, five connected deliverables, so the work reads as one system, not isolated exercises. Real competitor creative, real platform constraints, real strategic thinking on the page. <span class="mute">(The JCKED and Puravita briefs alongside this deck are the same method, run live on your two brands.)</span></p>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 03 · HOW I WORK -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">How I Work</span><span class="pg">03 / 12</span></div>
+  <h2 class="title" style="max-width:1040px">The moment a person changes isn't when they hear the right argument. <em>It's when they see themselves differently.</em></h2>
+  <div class="grid2" style="margin-top:28px; gap:34px">
+    <div>
+      <div class="grid3" style="gap:14px">
+        <div><span class="label" style="color:var(--gold)">Where it comes from</span><p class="small" style="margin-top:5px">Eighteen years studying why people change. Not in marketing. In psychology and coaching.</p></div>
+        <div><span class="label" style="color:var(--gold)">The arc</span><p class="small" style="margin-top:5px">Coach → copywriter → strategist. DR turned out to be coaching, compressed.</p></div>
+        <div><span class="label" style="color:var(--gold)">Writing now</span><p class="small" style="margin-top:5px">Parallax. A publication on psychology, identity, and why people actually change.</p></div>
+      </div>
+      <p class="small mute" style="margin-top:20px; max-width:520px">I design campaigns where your existing customers, the ones who already love you, become your media channel. Not through referral codes. Through identity.</p>
+    </div>
+    <div>
+      <span class="label">What that looks like in the work</span>
+      <ul class="arrow">
+        <li><strong>The identity word your product should own,</strong> and why your current copy is burying it. Every category has one. Most brands pay CPMs to own the wrong one.</li>
+        <li><strong>Customer-voice architecture</strong> that sounds like your best buyers, not your brand guidelines. The hook bank on slide 06 is the output of this method.</li>
+        <li><strong>Campaigns where the customer's post-purchase behavior is the advertisement.</strong> Identity moments engineered into the product experience.</li>
+        <li><strong>Economics:</strong> what your CAC should buy when the creative is doing the identity work.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 04 · CORE MESSAGE -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">The Core Message</span><span class="pg">04 / 12</span></div>
+  <div class="grid2" style="margin-top:6px; gap:40px; flex:1; align-items:center">
+    <div>
+      <div class="mega">5–8%</div>
+      <p class="lede" style="margin-top:14px">of paid social ads ever become real winners. Roughly half never get meaningful spend at all.</p>
+      <p class="xs" style="margin-top:10px">Motion · 2026 Creative Benchmarks · 550,000+ ads, 6,000+ advertisers, ~$1.3B in spend</p>
+    </div>
+    <div>
+      <h2 class="title" style="font-size:38px">The winners aren't found by writing better ads. <em>They're found by listening better.</em></h2>
+      <p style="margin-top:18px; max-width:480px">GoPro didn't sell cameras. They sold the feeling of being the kind of person who does things worth filming. The product became invisible. The identity did the selling.</p>
+      <p class="small mute" style="margin-top:12px; max-width:480px">That's the mechanic underneath every winner. Most portfolios show finished ads. This one shows the operating system that finds that mechanic before the budget burns.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 05 · AD SCRIPT -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 01 · Ad Script</span><span class="pg">05 / 12</span></div>
+  <h2 class="title" style="max-width:1040px">The ad I'd ship on day 30, <em>and why it opens with a barber, not a side effect.</em></h2>
+  <div class="card gold" style="margin-top:22px">
+    <span class="label">Spoken hook · 0:00–0:03 · direct to camera, bathroom mirror, no filter</span>
+    <p class="quote" style="margin-top:8px">"My barber told me something last week that I genuinely cannot stop thinking about."</p>
+  </div>
+  <div class="grid3" style="margin-top:22px">
+    <div class="card"><span class="label" style="color:var(--gold)">01 · Curiosity + authority transfer</span><p class="small" style="margin-top:7px">The viewer doesn't yet know what the barber said. Open loop, and the brain is wired to close it. Authority borrowed from a non-salesy figure. A barber sees more scalps than any dermatologist, and the audience knows it.</p></div>
+    <div class="card"><span class="label" style="color:var(--gold)">02 · Bypasses the "this is an ad" filter</span><p class="small" style="margin-top:7px">No product, claim, or urgency in the first three seconds. Pain-led hooks ("Losing your hair?") run into Meta's Personal Attributes enforcement. Curiosity clears it.</p></div>
+    <div class="card"><span class="label" style="color:var(--gold)">03 · Customer voice, not brand voice</span><p class="small" style="margin-top:7px">This is how a real guy tells the story, not how a brand writes it. The strongest beat ("my girlfriend noticed before I did") lands because the ad refuses to sound like a pitch deck.</p></div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Full 30-second script + rationale in the leave-behind</span></div>
+</section>
+
+<!-- 06 · HOOK BANK -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 02 · Hook Bank</span><span class="pg">06 / 12</span></div>
+  <h2 class="title">Ten hooks. Seven levers. <em>The rule that separates a bank from a dump.</em></h2>
+  <div class="grid2" style="margin-top:18px; gap:34px; align-items:start">
+    <table class="hooktbl">
+      <thead><tr><th style="width:24px">#</th><th>Spoken hook</th><th style="width:120px">Lever</th></tr></thead>
+      <tbody>
+        <tr><td>01</td><td>"My barber told me something last week that I cannot stop thinking about."</td><td class="lever">Curiosity / Authority</td></tr>
+        <tr><td>02</td><td>"I almost booked the transplant. Then my girlfriend showed me this."</td><td class="lever">Pattern Interrupt</td></tr>
+        <tr><td>03</td><td>"Three things every guy with thinning hair gets wrong. I did all three."</td><td class="lever">Curiosity / Self-Deprecation</td></tr>
+        <tr><td>04</td><td>"If your hairline's been moving for a year, watch this before you spend another dollar."</td><td class="lever">Pain / Loss Aversion</td></tr>
+        <tr><td>05</td><td>"Minoxidil works. Until it doesn't. Here's what nobody tells you about month 14."</td><td class="lever">Authority / Hidden Truth</td></tr>
+        <tr><td>06</td><td>"Take a guess how old I am. Now guess how old my hair is."</td><td class="lever">Contrast / Curiosity</td></tr>
+        <tr><td>07</td><td>"My dad went bald at 32. I'm 36. Here's what I did differently."</td><td class="lever">Social Proof / Genetic</td></tr>
+        <tr><td>08</td><td>"I spent $4,200 on hair stuff last year. One thing actually moved the needle."</td><td class="lever">Authority / Specificity</td></tr>
+        <tr><td>09</td><td>"POV: you finally figure out it wasn't the DHT, it was the inflammation."</td><td class="lever">Hidden Truth / Mechanism</td></tr>
+        <tr><td>10</td><td>"Stop. If you're losing hair and you're under 40, you need to hear this."</td><td class="lever">Pattern Interrupt</td></tr>
+      </tbody>
+    </table>
+    <div class="card gold" style="align-self:center">
+      <span class="label">The rule</span>
+      <h3 class="title" style="font-size:28px; margin-top:8px">No two hooks pull the same lever.</h3>
+      <p class="small" style="margin-top:10px">Shipping ten curiosity hooks teaches you nothing about which lever the audience actually responds to. Spread the levers and Week 1 doesn't just find a winning hook. It tells you what kind of hook wins, so Week 2 compounds instead of guessing.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 07 · OPERATING SYSTEM -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 03 · Operating System</span><span class="pg">07 / 12</span></div>
+  <h2 class="title">Research to iteration in four weeks. <em>$15K total. AI where it earns its place.</em></h2>
+  <p class="xs" style="margin-top:6px">First paid-social launch on Meta · $3K production + $12K media</p>
+  <div class="grid4" style="margin-top:18px">
+    <div class="week"><span class="wk">Week 01</span><h4>Research &amp; angle development</h4><p class="small"><strong>Deliverable:</strong> Angle Bank, 8 validated angles ranked by predicted performance. VOC mining across 100+ reviews, 30 ads from 6 competitors, 4-criteria scoring, sign-off on top 4.</p><div class="ai">AI · Claude/Gemini VOC clustering · competitor ad audit · subreddit synthesis</div></div>
+    <div class="week"><span class="wk">Week 02</span><h4>Brief writing &amp; production</h4><p class="small"><strong>Deliverable:</strong> 12 finished video assets + 4 cutdowns. 4 angles × 3 hooks, two creator archetypes (everyday-guy + partner POV), AI b-roll + HeyGen.</p><div class="ai">AI · Claude brief drafting · Veo / HeyGen / Kling · Descript trims</div></div>
+    <div class="week"><span class="wk">Week 03</span><h4>Testing phase</h4><p class="small"><strong>Deliverable:</strong> Hook-test results, a statistically meaningful winner. $6K over 7 days, ABO, 4 ad sets, 3 hooks each, decision rules locked before launch.</p><div class="ai">AI · Motion / Triple Whale dashboards · Claude daily "what is this telling me"</div></div>
+    <div class="week"><span class="wk">Week 04</span><h4>Analysis &amp; iteration</h4><p class="small"><strong>Deliverable:</strong> Performance memo + Weeks 5–8 roadmap. 4-layer diagnostic: hook, angle, creator, audience. Scale, iterate, or diagnose offer before blaming creative.</p><div class="ai">AI · Motion reporting · Claude diagnostic synthesis</div></div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain · The single most differentiating slide</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 08 · TESTING PHASE -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 03 · Testing Phase</span><span class="pg">08 / 12</span></div>
+  <h2 class="title">Lock the rules <em>before the data starts arguing with you.</em></h2>
+  <div class="grid2" style="margin-top:22px; gap:34px; align-items:start">
+    <div>
+      <span class="label">Week 3 · KPIs in priority order</span>
+      <table style="margin-top:10px">
+        <thead><tr><th>KPI</th><th>What it diagnoses</th><th style="text-align:right">Target</th></tr></thead>
+        <tbody>
+          <tr><td><span class="t">Hook Rate</span></td><td>Creative thumbstop. Is the first frame doing its job.</td><td class="tgt" style="text-align:right">&gt; 30%</td></tr>
+          <tr><td><span class="t">Hold Rate</span></td><td>Script middle strength. Does the second loop open before the first closes.</td><td class="tgt" style="text-align:right">&gt; 40%</td></tr>
+          <tr><td><span class="t">CTR (link)</span></td><td>Overall ad health. Hook + middle + CTA in concert.</td><td class="tgt" style="text-align:right">&gt; 1.5%</td></tr>
+          <tr><td><span class="t">CPA</span></td><td>Business outcome at category AOV.</td><td class="tgt" style="text-align:right">&lt; $45</td></tr>
+          <tr><td><span class="t">ROAS</span></td><td>Directional only at this volume.</td><td class="tgt" style="text-align:right">Hold</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <div class="card gold">
+        <span class="label">Locked before launch · the three rules that decide what lives</span>
+        <div class="grid3" style="margin-top:12px; gap:12px">
+          <div><span class="label" style="color:var(--coral)">Kill</span><p class="small" style="margin-top:4px">Hook Rate below 20% after $200 spend.</p></div>
+          <div><span class="label" style="color:var(--gold)">Scale</span><p class="small" style="margin-top:4px">Hook Rate &gt; 30% and CTR &gt; 1.2%.</p></div>
+          <div><span class="label" style="color:var(--paper-dim)">Iterate</span><p class="small" style="margin-top:4px">Anything in the middle. Retest Week 4 with new middles, same hooks.</p></div>
+        </div>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <span class="label">Benchmark anchor</span>
+        <p class="small" style="margin-top:6px">Motion 2026 sets the category floor at a 30–40% Hook Rate. Below 25% signals a creative problem, not a media problem. The rules above are calibrated to that floor, not to a gut feel.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 09 · KEEPS TEARDOWN -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 05 · Teardown 01A · Keeps</span><span class="pg">09 / 12</span></div>
+  <h2 class="title">Keeps Commercial #04. <em>What's working, and what's quietly costing them.</em></h2>
+  <div class="card" style="margin-top:18px; border-left:3px solid var(--gold)">
+    <span class="label" style="color:var(--gold)">Verified · keeps.com/learn/keeps-hair-loss-commercials</span>
+    <p class="quote" style="font-size:16px; margin-top:7px">"Yeah, hair loss runs in my family. But I use Keeps, the easiest way to keep my hair. Keeps sends me clinically-proven treatments that can stop my hair loss. Learn more at Keeps.com."</p>
+  </div>
+  <div class="grid2" style="margin-top:18px; gap:30px">
+    <div>
+      <span class="label" style="color:var(--gold)">What's working</span>
+      <p class="small" style="margin-top:8px"><strong>01 · The concession opener.</strong> "Yeah, hair loss runs in my family" → immediate pivot to "But I use Keeps." A one-beat hook with a hard turn at the conjunction.</p>
+      <p class="small" style="margin-top:8px"><strong>02 · It walks past the defense.</strong> Most ads open with "Worried about hair loss?" and the viewer's guard is already up. Keeps agrees with the viewer first, then pitches.</p>
+      <p class="small" style="margin-top:8px"><strong>03 · Proof compression.</strong> "Clinically-proven" carries the whole credibility load in 11 words, right before the CTA. And the "easiest way to keep my hair" line repeats across Keeps' library, compounding recall.</p>
+    </div>
+    <div class="card coral">
+      <span class="label" style="color:var(--coral)">What's costing them</span>
+      <p class="small" style="margin-top:8px"><strong>01 · It validates the fatalism.</strong> "Hair loss runs in my family" reinforces the genetic-helplessness belief that delays purchase. The avatar buys when he believes he has agency, not when he's told it's inherited.</p>
+      <p class="small" style="margin-top:8px"><strong>02 · Convenience over outcome.</strong> "Easiest way" sells the subscription, not the result. In a category running high CPMs, the ad that sells the outcome wins the click.</p>
+      <p class="small" style="margin-top:8px"><strong>03 · No mechanism.</strong> "Clinically-proven" is a claim, not a reason. Nothing teaches the viewer why it works, so nothing reframes his story.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 10 · KEEPS INVERSION -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 05 · Teardown 01B · The Inversion</span><span class="pg">10 / 12</span></div>
+  <h2 class="title">Same family reference. <em>Opposite ending.</em></h2>
+  <div class="card gold" style="margin-top:20px">
+    <span class="label">My counter · spoken hook · 0:00–0:04</span>
+    <p class="quote" style="margin-top:7px">"My dad went bald at 32. I'm 36. Here's what I did differently."</p>
+    <p class="small" style="margin-top:9px">The same family reference, used to disprove fatalism instead of validate it. Genetic helplessness is the #1 mental block in male hair loss. Disproving it through a direct family contrast is the most powerful angle available, and counter-positioning against an established brand's stale message is one of the highest-leverage moves in DR.</p>
+  </div>
+  <div class="grid3" style="margin-top:18px">
+    <div class="card"><span class="label" style="color:var(--gold)">01 · Inversion variant</span><p class="small" style="margin-top:6px"><strong>Fatalism flipped to agency.</strong> Hypothesis: lower CPA on cold traffic. Agency-framing beats acceptance-framing in prospecting because it gives the buyer permission to act. Same creator, same length, only the worldview flips.</p></div>
+    <div class="card"><span class="label" style="color:var(--gold)">02 · Specificity variant</span><p class="small" style="margin-top:6px"><strong>"Clinically-proven" → drug names + price.</strong> Hypothesis: higher CTR among the qualified avatar. "The same minoxidil and finasteride a dermatologist prescribes, $25/month." Hard specificity beats soft credibility.</p></div>
+    <div class="card"><span class="label" style="color:var(--gold)">03 · Anti-couch variant</span><p class="small" style="margin-top:6px"><strong>Reject the convenience frame entirely.</strong> Hypothesis: novelty angle, fresh creative oxygen. A creator who got off the couch, went to a dermatologist, and came back with a result the subscription never promised.</p></div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain · Four iterations to test against the control</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 11 · NUTRAFOL -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Section 05 · Teardown 02 · Nutrafol</span><span class="pg">11 / 12</span></div>
+  <h2 class="title">Nutrafol owns women's by sub-segmenting it. <em>Men's is wide open.</em></h2>
+  <div class="grid2" style="margin-top:18px; gap:30px; align-items:start">
+    <div>
+      <div class="card" style="border-left:3px solid var(--gold)">
+        <span class="label" style="color:var(--gold)">Verified · active Meta creative, June 2026</span>
+        <p class="quote" style="font-size:15px; margin-top:6px">"GLP-1 associated hair thinning. When you have a significant amount of weight loss, it's stressful on the body, and what we see clinically is hair thinning. I often recommend a hair-growth nutraceutical."</p>
+      </div>
+      <span class="label" style="display:block; margin-top:16px">Three moves you can verify by watching the ad</span>
+      <p class="small" style="margin-top:7px"><strong>Authority frame.</strong> A clinician voice, not a model. The credibility comes from the delivery, not a before-and-after.</p>
+      <p class="small" style="margin-top:6px"><strong>New-category naming.</strong> "GLP-1 hair thinning" is a sub-segment nobody else owns yet. Naming the problem is how you own the solution.</p>
+      <p class="small" style="margin-top:6px"><strong>Implicit validation.</strong> "What we see clinically" makes the viewer's private worry feel observed and normal, which lowers the buying defense.</p>
+    </div>
+    <div class="card gold">
+      <span class="label">The extension · men's side</span>
+      <h3 class="title" style="font-size:24px; margin-top:7px">Don't ship one creative engine. Ship four.</h3>
+      <p class="small" style="margin-top:8px">Nutrafol's women's playbook isn't one ad. It's audience segmentation disguised as creative. The same logic is wide open on the male side, where every competitor still ships one undifferentiated message.</p>
+      <div class="grid2" style="margin-top:12px; gap:8px">
+        <div class="xs"><span class="gold">Segment 01</span> · Hairline recession</div>
+        <div class="xs"><span class="gold">Segment 02</span> · Crown thinning</div>
+        <div class="xs"><span class="gold">Segment 03</span> · Post-finasteride recovery</div>
+        <div class="xs"><span class="gold">Segment 04</span> · Post-transplant maintenance</div>
+      </div>
+      <p class="xs" style="margin-top:12px; color:var(--paper-dim)"><strong>Extracted principle.</strong> Each segment gets its own hook bank, creator archetype, and CPA target. That's the moat. Authority AND UGC, not authority OR UGC.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media</span></div>
+</section>
+
+<!-- 12 · CLOSING -->
+<section class="slide">
+  <div class="top"><span class="eyebrow">Closing</span><span class="pg">12 / 12</span></div>
+  <h2 class="title" style="max-width:920px">Week 1 with me: <em>VOC mining done. Angle Bank delivered. Top four briefed by Friday.</em></h2>
+  <div class="grid2" style="margin-top:22px; gap:34px; align-items:start">
+    <div>
+      <span class="label">The first five working days</span>
+      <p class="small" style="margin-top:9px"><strong>Day 01–02</strong> · VOC mining. 100+ reviews across the brand, two competitors, and r/tressless. Language bank built, tagged by pain point, prior solution, emotional state.</p>
+      <p class="small" style="margin-top:7px"><strong>Day 03</strong> · Competitor ad audit. 30 running ads across six brands. Hook type, angle, creator archetype, CTA pattern documented as a 30-day proxy for "winner."</p>
+      <p class="small" style="margin-top:7px"><strong>Day 04</strong> · Angle synthesis. Eight angles, each with core insight, sub-segment, VOC evidence, creator type. Ranked 1–5 on novelty, emotional weight, mechanism clarity, social proof.</p>
+      <p class="small" style="margin-top:7px"><strong>Day 05</strong> · Alignment call. Walk you through the Angle Bank. Sign-off on the top four to brief in Week 2.</p>
+    </div>
+    <div>
+      <div class="card gold">
+        <span class="label">What's in front of you</span>
+        <p class="small" style="margin-top:7px">Two live briefs, <strong>JCKED and Puravita</strong>, are the same method run on your brands. This deck is the system underneath them. Five connected hair-loss deliverables, one scenario, every fact traced to a verified source.</p>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <span class="label">Contact</span>
+        <p class="lede" style="margin-top:7px; font-size:17px">Farrice Cain</p>
+        <p class="small">Creative Strategist · Direct Response · Los Angeles</p>
+        <p class="small" style="margin-top:6px"><span class="gold">farrice.cain@gmail.com</span> &nbsp;·&nbsp; (773) 957-8807</p>
+        <p class="xs" style="margin-top:9px">See how I think before we talk. Parallax, my publication on psychology, identity, and why people actually change.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot"><span>Hooks, Angles &amp; Systems · Farrice Cain</span><span>Prepared for TrendScale Media · June 2026</span></div>
+</section>
+
+</body>
+</html>
