@@ -1,10 +1,10 @@
-# 🚀 Antigravity Workflows — Complete Index (465 Commands)
+# 🚀 Antigravity Workflows — Complete Index (466 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
 ---
 
-## 📊 Research & Strategy (16)
+## 📊 Research & Strategy (17)
 | Command | What It Does |
 |---------|-------------|
 | `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
@@ -13,6 +13,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/brief` | Generate a strategic brief — scans your situation and recommends highest-ROI moves |
 | `/generate-brief` | Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research |
 | `/hunt-trends` | Scan for rising trends and "Shadow Market" opportunities using Agentic Research |
+| `/quality-content` | Seed (trend or insight) → ship-ready multi-format content via the proven quality stack: parallel research + expert-genius lens + voice rules + dual QA (prose-doctor + fact-verifier). A strong default to reach for, never a hard rule. Benchmark: `_active/linkedin-launch/ai-boom-content-package.md` |
 | `/research-landscape` | Universal domain research — maps any topic into a tiered landscape with strategic throughline |
 | `/research-topic` | Deep research on any topic with organized, actionable deliverable |
 | `/spy-amazon` | Spy on Amazon Best Sellers to find underserved niches (KDP/Products) |
@@ -837,6 +838,7 @@ You don't need to remember command names. These common phrases automatically map
 | "brand strategy" / "brand foundation" / "Nike method" | `brand-arena` |
 | "rate the last output" / "how was that" | `rate` |
 | "what's trending" / "find opportunities" / "shadow market" | `hunt-trends` |
+| "make me a quality post" / "ship-ready content" / "raise the bar on this" / "trend to post" | `quality-content` |
 | "plan my week" / "weekly breakdown" | `weekly-pulse` |
 | "today's focus" / "what should I do today" | `daily-focus` |
 | "create a skill" / "build a new skill" | `create-skill` |
