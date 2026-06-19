@@ -46,3 +46,4 @@ Present the Content Atomization Package with:
 ## Chain Compatibility
 - **Follows**: `/memoir-architect`
 - **Integrates with**: `/story-remix` (for story-based atoms)
+- **Optional depth layer**: Use `skills/lamott-allen-really-real-writing/` when atoms need to preserve the book's human truth, emotional stakes, or reader trust. Run it on the top 10 atoms, not every small extract by default.

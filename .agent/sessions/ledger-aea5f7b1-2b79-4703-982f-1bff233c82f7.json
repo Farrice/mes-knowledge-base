@@ -1,0 +1,12 @@
+{
+ "session_id": "aea5f7b1-2b79-4703-982f-1bff233c82f7",
+ "debts": [],
+ "produced": false,
+ "produced_paths": [],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

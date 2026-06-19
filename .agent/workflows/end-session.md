@@ -6,6 +6,12 @@ description: Run at the end of a deep-work session
 
 > **Purpose**: Generate a clean handoff for the next session. Deep cleanup is optional — assets are already organized when produced.
 
+### Handoff lanes (decided 2026-06-15 — keep these distinct)
+One handoff *format*, three jobs that don't overlap:
+- **`/handoff`** (Matt Pocock skill) — produces the canonical, portable handoff document in the OS temp dir (cross-tool, secrets redacted, artifacts by ref, suggested-skills section). It owns the handoff *content format*.
+- **`/end-session`** (this workflow) — the system close-down ritual. It **composes `/handoff`** for handoff generation (Step 1), then adds the things `/handoff` deliberately doesn't do: conversation-index update + commit offer (+ optional `--deep` cleanup).
+- **session-state-protocol** (`.agent/session-state.md`) — auto-written *during* a session to survive compaction. NOT a handoff; it solves mid-session context drift. Untouched by this workflow.
+
 ## Usage
 
 ```
@@ -15,17 +21,20 @@ description: Run at the end of a deep-work session
 
 ## Quick Handoff (Default — 1-2 Tool Calls)
 
-### 1. Generate Handoff Summary
+### 1. Generate Handoff (delegate to `/handoff`)
 // turbo
-Output the handoff block:
+**Invoke the `/handoff` skill** (Skill tool) to produce the canonical, portable handoff document in the OS temp dir. Pass the next session's focus as the argument (e.g. the remaining priority). This is the single handoff artifact — do not hand-author a second, divergent format here.
+
+Then surface a 3-line pointer in chat so the human sees it at a glance without duplicating the full doc:
 
 ```markdown
-## Session Handoff
-**Completed:** [2-3 bullet points of what was built]
-**Remaining priority:** [Next immediate task]
-**Core context to load:** [Paths to the 2-3 essential deliverable files]
-**Hot experts this session:** [List of experts loaded — so next session can warm-start]
+## Session Handoff → `<temp-dir path to the /handoff doc>`
+**Completed:** [2-3 bullets of what was built]
+**Remaining priority:** [next immediate task — also passed to /handoff]
+**Hot experts this session:** [experts loaded — so next session can warm-start]
 ```
+
+If the `/handoff` skill is unavailable (not installed), fall back to emitting the full block inline with the fields above plus **Core context to load:** [paths to the 2-3 essential deliverable files].
 
 ### 2. Update Conversation Index
 // turbo

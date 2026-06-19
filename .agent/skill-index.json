@@ -70,6 +70,16 @@
     "status": ""
   },
   {
+    "name": "alex-suzuki-digital-product-revenue-os",
+    "directory": "alex-suzuki-digital-product-revenue-os",
+    "description": "Builds source-grounded digital product revenue systems from Suzuki-style posts, comment/like-to-DM funnels, proof paths, launch sprints, multi-account scaling, automation backbones, and cold-start (partner/affiliate) paths. Use for selling an ebook with one tweet, writing X/Twitter sales posts and hook banks, building the funnel behind a post, cross-platform native funnels (Instagram, LinkedIn, YouTube, TikTok, Substack, email), course/info-product launches, 24-hr flash launches, evergreen post automation, scaling to many accounts, sourcing an offer with no product of your own, and debugging posts or funnels that get attention but no sales.",
+    "when_to_use": "- \"Sell my ebook with one tweet.\" / \"Write an X post or thread that can sell this digital product.\"\n- \"Build me a hook bank and the best version of this selling post.\" (`/suzuki-post-lab`)\n- \"Build the funnel behind a digital product post.\"\n- \"Build a native Instagram (or LinkedIn, YouTube, TikTok, Substack, email) funnel for this offer.\" (`/suzuki-platform-engine`)\n- \"I have no product / no proof / no following \u2014 build me a system from cold.\" (`/suzuki`)\n- \"Find me something to sell \u2014 build it, partner, or affiliate.\" (`/suzuki-product-source`)\n- \"Set up auto-posting and auto-DM for this account.\" (`/suzuki-automate`)\n- \"Scale this to multiple accounts / a portfolio.\" (`/suzuki-scale`)\n- \"Run a 24-hour launch for this product.\" (`/suzuki-flash-launch`)\n- \"Why did my post get engagement but no sales?\" (`/suzuki-launch-debugger`)",
+    "mtime": 1781391434.4614851,
+    "slash": "/alex-suzuki-digital-product-revenue-os",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "algorithmic-art",
     "directory": "algorithmic-art",
     "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
@@ -274,7 +284,7 @@
     "directory": "chase-hughes-context-engineering",
     "description": "The Context Engineering Operating System \u2014 Chase Hughes's behavioral-influence architecture for designing the CONTEXT where a desired behavior becomes automatic, instead of pushing the outcome. Built on PCP (Perception \u2192 Context \u2192 Permission) and the one inversion \"engineer conditions, not outcomes; build the perfect recipient first.\" Covers the macro layer the conversational-influence skill excluded \u2014 PCP/upstream design, the FEAR brainwashing formula + fractionation, the five trust factors / followability, contagious confidence, the benevolent SMRP honesty protocol, the Behavior Suite (change-cluster-context reading), threat detection (COPE), the emotional-debt substrate, and manipulation DEFENSE. Every offensive mechanic ships with its detection tell + resistance move + ethical deployment (Hughes's Plato's-Cave ethic), and all /ce-* output passes a deterministic Defense/Ethics Gate. Use when the user says \"context engineering\", \"engineer the conditions\", \"make the behavior automatic\", \"what's upstream of the outcome\", \"design the context so they\u2026\", \"build the perfect recipient\", \"Chase Hughes\", \"PCP\", \"followability\", \"read this person/transcript/pitch\", \"is this manipulation\", \"am I being manipulated\", or wants to design an offer/funnel/launch/onboarding where the action feels self-chosen. Standalone operating layer (/ce-design, /ce-build) AND a Chain Step-3.5 front-end that hands a Context-Design Spec to a production expert. Dual-use, uncensored mechanics with defense baked in.",
     "when_to_use": "- Designing an offer / funnel / launch / onboarding where the action should feel self-chosen, not pushed\n- A direct ask would trigger resistance and the real lever is the context, not the copy\n- \"Agreed but didn't act\" responses (the outcome was pushed; the recipient was never built)\n- Building genuine on-camera / pitch / leadership presence at the cause level\n- Reading a person, transcript, or pitch for stress and change (not \"lie detection\")\n- Surfacing a real objection or hidden truth ethically (sales discovery, coaching)\n- Defending yourself / a team / kids against the FEAR loop, fractionation, and engineered division\n- Content that needs the emotional substrate (shame, never-being-seen, emotional debt) \u2014 memoir-grade",
-    "mtime": 1780173647.112582,
+    "mtime": 1781452089.206237,
     "slash": "/chase-hughes-context-engineering",
     "routing": "",
     "status": ""
@@ -634,7 +644,7 @@
     "directory": "eric-roth-writing-mastery",
     "description": "Cross-domain deployment of Oscar-level writing craft for social media, content writing, copywriting, ghostwriting, and marketing. Translates 14 genius patterns from the writer of Forrest Gump, The Insider, and Killers of the Flower Moon into universal writing intelligence \u2014 erosion revision, off-center subtext, visual prose, psychology wallets, memorable residue, and fanciful realism applied beyond the screenplay.",
     "when_to_use": "",
-    "mtime": 1773946694.5026774,
+    "mtime": 1781340212.2336252,
     "slash": "/eric-roth-writing-mastery",
     "routing": "",
     "status": ""
@@ -1000,6 +1010,16 @@
     "status": ""
   },
   {
+    "name": "kallaway-illusion-of-novelty",
+    "directory": "kallaway-illusion-of-novelty",
+    "description": "Manufactures the FEELING of novelty for boring, old, or saturated topics so any of them earns attention in any domain. Kallaway's 5-component Illusion of Novelty engine \u2014 New Reveal + Outcome Mapping, Contrast Framing, Urgency (optional turbo), Bullseye Proof (Trust Ladder), Protect the Illusion (don't-show-the-mascot + gossip-whisperer) \u2014 made domain-agnostic for social, marketing, copywriting, ghostwriting, and storytelling. Use when a topic is \"too boring/saturated to make interesting,\" when a hook won't stop the scroll, when content is accurate but ignored, when an old idea needs to feel new, or when entering a stale niche. The front-end perception layer of the Kallaway stack; stacks into addictive-storytelling for retention.",
+    "when_to_use": "",
+    "mtime": 1781821406.0006151,
+    "slash": "/kallaway-illusion-of-novelty",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "kallaway-social-commerce",
     "directory": "kallaway-social-commerce",
     "description": "Monetizes content distribution at Social Commerce 3.0 economics \u2014 designs Revenue-Per-View (RPV) strategy across the four converging tailwinds (instant affiliate infrastructure, agentic commerce, production cost collapse, AI visual recognition) that 5-10x the value of distribution skill. Forces role clarity (Brand Owner / Content Creator / Facilitator) before optimizing for views. Use when monetizing an audience, designing creator-economy revenue rails, deciding between affiliate / direct product / facilitator models, when content has views but no revenue, or when the user mentions \"monetize my following\", \"RPV\", \"affiliate strategy\", \"social commerce\", \"creator economy monetization\". Trigger proactively when a content discussion drifts toward \"how do I make money from this?\" \u2014 the RPV diagnosis beats picking monetization tactics in isolation.",
@@ -1060,11 +1080,31 @@
     "status": ""
   },
   {
+    "name": "kobi-brown-educational-virality",
+    "directory": "kobi-brown-educational-virality",
+    "description": "Make educational content earn attention without dumbing it down. Kobi Brown / AstroKobi educational-virality system for coaches, consultants, educators, and knowledge workers: build legitimacy, escape AI-slop commoditization, and turn expertise into genuine cognitive change. Use /aha-engine to re-architect any task for an aha, perspective, or identity shift.",
+    "when_to_use": "- An educational idea is valuable but skippable.\n- A coach or consultant needs content that proves expertise without lecturing.\n- A knowledge-work topic feels complex, abstract, or \"too smart for social.\"\n- The goal is saves, shares, trust, leads, client education, or authority, not empty reach.\n- The user wants to connect short-form attention with long-form depth.\n- The content needs accuracy, restraint, and legitimacy instead of clickbait.",
+    "mtime": 1781427380.4480457,
+    "slash": "/kobi-brown-educational-virality",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "lamott-allen-really-real-writing",
+    "directory": "lamott-allen-really-real-writing",
+    "description": "Anne Lamott + Neal Allen's \"really real\" writing-depth layer for drafts that need truth, heart, clarity, reader trust, plain force, emotional precision, and humane resonance. Use when the user asks for writing that is real, true, soulful, deep, human, relatable, resonant, less AI, less generic, more literary but not pretentious, more heart, stronger voice, novel quality, or able to make people feel it. Do not use as the default for speed copy, purely structural edits, or short tactical output where depth is not the job.",
+    "when_to_use": "",
+    "mtime": 1781428327.331541,
+    "slash": "/lamott-allen-really-real-writing",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "lamott-craft",
     "directory": "lamott-craft",
     "description": "Manages the writer's relationships with inner critic, material, attention, and reader using Anne Lamott's 45-year craft methodology (Bird by Bird, 21 books). Treats writing as relational craft, not technique execution \u2014 the writer who befriends the process outlasts the warrior who fights through it. Workflows include inner-critic dialogue (visualize, name, retire), the Three-Draft system (Poopy \u2192 Adult \u2192 Dental), the \"rag bag\" observation pipeline, anti-literary filter (\"if it's literary, it isn't\"), ABDCE structure, dialogue audit (\"said only\", read-aloud test), and block dissolution via tenderness rather than force. Use when navigating writer's block, dissolving inner-critic paralysis, structuring drafts via Action-Background-Development-Climax-Ending, stripping pretension from over-written prose, auditing dialogue for naturalness, sourcing fresh observational material, or when the user mentions \"Anne Lamott\", \"Bird by Bird\", \"shitty first draft\", \"inner critic\", \"rag bag\", \"ABDCE\". Trigger proactively when a writer is stuck, force-trying, or producing self-conscious literary prose.",
     "when_to_use": "",
-    "mtime": 1779465966.428203,
+    "mtime": 1781340169.2236092,
     "slash": "/lamott-craft",
     "routing": "",
     "status": ""
@@ -1424,7 +1464,7 @@
     "directory": "michael-connelly-vivid-writing",
     "description": "Deploy the writing craft behind 42 novels and 100M+ copies sold \u2014 telling detail selection, momentum prose, character-through-everything, subtext dialogue, outsider perspective, dual-pass rewriting, dialogue economy, slingshot openings, real-world anchoring, character design, and taste calibration. Translates 10 genius patterns from the creator of Harry Bosch and The Lincoln Lawyer into universal craft intelligence for any writing domain.",
     "when_to_use": "",
-    "mtime": 1773263634.9481018,
+    "mtime": 1781340212.4186585,
     "slash": "/michael-connelly-vivid-writing",
     "routing": "",
     "status": ""
@@ -1702,9 +1742,9 @@
   {
     "name": "Omar Eltakrori \u2014 Personal Brand Business Architect",
     "directory": "omar-eltakrori",
-    "description": "Build a personal brand that generates 7-figure revenue through frameworks, challenges, and one-to-many coaching \u2014 visibility, conversion, and offer architecture from someone who went from $34K/year to $1.2M.",
+    "description": "Build a teaching-and-coaching business that scales to multimillions with no sales team \u2014 the contrarian \"teaching is the highest-paying skill\" model. Visibility, frameworks, challenges, and one-to-many offers (the Interior Game) PLUS the craft of teaching-to-sell \u2014 creating the feeling of the next step, shifting beliefs, and teaching WHAT not HOW (the Exterior Game). From $34K/year to multi-seven-figures.",
     "when_to_use": "",
-    "mtime": 1775779996.9707055,
+    "mtime": 1781443807.7873254,
     "slash": "/omar-eltakrori",
     "routing": "",
     "status": ""
@@ -2446,6 +2486,16 @@
     "when_to_use": "- **You're writing a profile** \u2014 Start with Central Complication\n- **You have a draft that feels flat** \u2014 Run Reporting Truth Audit\n- **You know the subject but not the story** \u2014 Run Myth/Reality Gap Finder\n- **You have scenes but they feel disconnected** \u2014 Run Thematic Compass\n- **You have a good piece but the ending doesn't land** \u2014 Run Hammer-First (even retroactively)\n- **You want the piece to haunt the reader** \u2014 Run Emotional Residue Engineer\n- **Your piece maintains one emotional level** \u2014 Run Emotional Pressure Map (after Hammer-First)",
     "mtime": 1779466022.0615046,
     "slash": "/wright-thompson-mastery",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "writing-depth-layer",
+    "directory": "writing-depth-layer",
+    "description": "Deepen any work \u2014 add depth, resonance, soul, truth, and voice across social, marketing, copywriting, and books. A cross-cutting craft-depth orchestration layer that does NOT re-teach craft: it diagnoses what depth is missing, then composes existing craft experts (Hawley, Roth, Connelly, Cole, Pressfield, Lamott-Allen, Fareed, platform experts) in the right order and dose, and returns a deepened draft plus a change-map (\"Depth Receipt\"). Trigger words: deepen, depth, resonance, \"make this land\", more human, more soul, more voice, less generic, less AI. Do NOT use for: pure speed copy (use /copy-engine), formatting/structure-only tasks, or research synthesis (use execution/research.py).",
+    "when_to_use": "",
+    "mtime": 1781428240.62041,
+    "slash": "/writing-depth-layer",
     "routing": "",
     "status": ""
   },

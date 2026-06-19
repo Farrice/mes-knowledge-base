@@ -26,7 +26,7 @@ CLI:
 import os
 import json
 import argparse
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from typing import Optional, Dict, List, Any
 from pathlib import Path
 from dotenv import load_dotenv
@@ -64,6 +64,29 @@ def _save_outcomes(data: Dict[str, Any]):
     OUTCOME_FILE.write_text(json.dumps(data, indent=2))
 
 
+def _find_pending_match(outcomes: List[Dict[str, Any]], deliverable: str) -> Optional[Dict[str, Any]]:
+    """Find the pending stub that `deliverable` resolves, if any.
+
+    Match order: exact deliverable string, then case-insensitive
+    containment either way (stubs are truncated to 200 chars by
+    auto_register_outcome, so the user's description often contains
+    the stub or vice versa). Returns the entry dict (mutable reference
+    into `outcomes`) or None.
+    """
+    want = deliverable.strip().lower()
+    if not want:
+        return None
+    pending = [o for o in outcomes if o.get("outcome_type") == "pending"]
+    for o in pending:
+        if o.get("deliverable", "").strip().lower() == want:
+            return o
+    for o in pending:
+        have = o.get("deliverable", "").strip().lower()
+        if have and (want in have or have in want):
+            return o
+    return None
+
+
 def log_outcome(
     deliverable: str,
     revenue: float = 0,
@@ -77,6 +100,12 @@ def log_outcome(
     """
     Log a revenue/business outcome tied to a deliverable.
 
+    If a pending stub (auto-registered by chain_runner.finalize) matches
+    the deliverable, it is RESOLVED IN PLACE — updated with the real
+    outcome instead of appending a duplicate. This is what drains the
+    "N deliverables awaiting revenue/outcome data" counter; before this
+    fix the pending count could only grow.
+
     Args:
         deliverable: Description of the deliverable that generated this outcome
         revenue: Dollar amount generated (0 if non-monetary)
@@ -84,27 +113,48 @@ def log_outcome(
         expert: Expert agent that produced the deliverable
         skill: Skill used
         client: Client name (if applicable)
-        outcome_type: revenue | lead | conversion | feedback | engagement
+        outcome_type: revenue | lead | conversion | feedback | engagement | dead
         notion_page_id: Optional Notion page ID to tag
 
     Returns:
         Dict with outcome data
     """
-    entry = {
-        "deliverable": deliverable,
-        "revenue": revenue,
-        "outcome": outcome,
-        "expert": expert,
-        "skill": skill,
-        "client": client,
-        "outcome_type": outcome_type,
-        "date": date.today().isoformat(),
-        "notion_page_id": notion_page_id,
-    }
-
-    # Save locally
     data = _load_outcomes()
-    data["outcomes"].append(entry)
+    matched = _find_pending_match(data["outcomes"], deliverable)
+
+    if matched is not None:
+        # Resolve the pending stub in place — preserve its provenance fields.
+        matched.update({
+            "revenue": revenue,
+            "outcome": outcome,
+            "outcome_type": outcome_type,
+            "resolved_date": date.today().isoformat(),
+        })
+        if expert:
+            matched["expert"] = expert
+        if skill:
+            matched["skill"] = skill
+        if client:
+            matched["client"] = client
+        if notion_page_id:
+            matched["notion_page_id"] = notion_page_id
+        entry = matched
+        resolved_stub = True
+    else:
+        entry = {
+            "deliverable": deliverable,
+            "revenue": revenue,
+            "outcome": outcome,
+            "expert": expert,
+            "skill": skill,
+            "client": client,
+            "outcome_type": outcome_type,
+            "date": date.today().isoformat(),
+            "notion_page_id": notion_page_id,
+        }
+        data["outcomes"].append(entry)
+        resolved_stub = False
+
     data["total_revenue"] = sum(o.get("revenue", 0) for o in data["outcomes"])
     _save_outcomes(data)
 
@@ -123,7 +173,7 @@ def log_outcome(
             entry["notion_error"] = str(e)
 
     print(f"\n{'='*60}")
-    print(f"  OUTCOME LOGGED")
+    print(f"  OUTCOME LOGGED" + ("  (resolved pending stub)" if resolved_stub else ""))
     print(f"{'='*60}")
     print(f"  Deliverable: {deliverable}")
     print(f"  Revenue:     ${revenue:,.2f}")
@@ -139,6 +189,9 @@ def log_outcome(
     return entry
 
 
+DEFAULT_CHECK_IN_DAYS = 14
+
+
 def auto_register_outcome(
     deliverable: str,
     expert: str = "",
@@ -148,6 +201,8 @@ def auto_register_outcome(
     composite: float = 0.0,
     notion_page_id: str = "",
     experiment_tag: str = "",
+    expected_outcome: str = "",
+    check_in_days: Optional[int] = None,
 ) -> Dict[str, Any]:
     """Upgrade 7 — Phase 2 auto-link hook.
 
@@ -156,6 +211,12 @@ def auto_register_outcome(
     deliverable appears in `revenue_tracker pipeline` without manual
     follow-up. User later updates via `revenue_tracker log` with actual
     revenue + outcome description.
+
+    Outcome-loop closure (2026-06-12): every stub now carries an
+    expected_outcome (what success looks like, even if empty) and a
+    check_in_date (defaults to +14 days). `revenue_tracker due` and the
+    session-ledger staleness line surface overdue check-ins, so the
+    outer loop has a deterministic clock instead of relying on memory.
 
     Idempotent: re-registering the same deliverable is a no-op.
     Non-fatal: any exception is swallowed — revenue tracking is never
@@ -174,6 +235,7 @@ def auto_register_outcome(
         if existing:
             return {"skipped": True, "reason": "already registered", "entry": existing[-1]}
 
+        days = check_in_days if check_in_days is not None else DEFAULT_CHECK_IN_DAYS
         entry = {
             "deliverable": deliverable,
             "revenue": 0.0,
@@ -188,12 +250,65 @@ def auto_register_outcome(
             "outcome_type": "pending",
             "date": date.today().isoformat(),
             "auto_registered": True,
+            "expected_outcome": expected_outcome,
+            "check_in_date": (date.today() + timedelta(days=days)).isoformat(),
         }
         data["outcomes"].append(entry)
         _save_outcomes(data)
         return {"registered": True, "entry": entry}
     except Exception as e:
         return {"skipped": True, "error": str(e)}
+
+
+def get_due(include_legacy: bool = True, legacy_days: int = 30) -> Dict[str, Any]:
+    """List pending outcomes whose check-in date has arrived.
+
+    Two buckets:
+      due     — entries with check_in_date <= today
+      legacy  — entries with NO check_in_date (pre-2026-06-12 stubs)
+                older than `legacy_days`, shown so old debt stays visible
+
+    Prints prefilled `log` commands so closing each one is copy-paste.
+    """
+    data = _load_outcomes()
+    today = date.today().isoformat()
+    pending = [o for o in data.get("outcomes", []) if o.get("outcome_type") == "pending"]
+
+    due = sorted(
+        [o for o in pending if o.get("check_in_date") and o["check_in_date"] <= today],
+        key=lambda o: o.get("check_in_date", ""),
+    )
+    legacy = []
+    if include_legacy:
+        cutoff = (date.today() - timedelta(days=legacy_days)).isoformat()
+        legacy = sorted(
+            [o for o in pending if not o.get("check_in_date") and o.get("date", "") <= cutoff],
+            key=lambda o: o.get("date", ""),
+        )
+
+    print(f"\n{'='*60}")
+    print(f"  OUTCOME CHECK-INS DUE — {today}")
+    print(f"{'='*60}\n")
+    if not due and not legacy:
+        print("  Nothing due. Outer loop is current.")
+    if due:
+        print(f"  DUE ({len(due)}):")
+        for o in due:
+            exp = f" | expected: {o['expected_outcome']}" if o.get("expected_outcome") else ""
+            print(f"   - [{o.get('check_in_date')}] {o['deliverable'][:70]}{exp}")
+    if legacy:
+        print(f"\n  LEGACY PENDING, no check-in date, older than {legacy_days}d ({len(legacy)}):")
+        for o in legacy[:10]:
+            print(f"   - [{o.get('date')}] {o['deliverable'][:70]}")
+        if len(legacy) > 10:
+            print(f"   ... and {len(legacy) - 10} more (run /weekly-closeout to drain)")
+    if due or legacy:
+        first = (due or legacy)[0]
+        print("\n  Close one with:")
+        print(f"  python3 execution/revenue_tracker.py log \"{first['deliverable'][:60]}\" "
+              f"--revenue <$> --outcome \"<what happened, or 'dead: reason'>\"")
+    print(f"\n{'='*60}\n")
+    return {"due": due, "legacy": legacy, "due_count": len(due), "legacy_count": len(legacy)}
 
 
 def get_roi_report(skill: str = "", expert: str = "") -> Dict[str, Any]:
@@ -356,6 +471,11 @@ def main():
     # pipeline
     sub.add_parser("pipeline", help="Show deliverables needing outcome tracking")
 
+    # due
+    due_cmd = sub.add_parser("due", help="Show pending outcomes whose check-in date has arrived")
+    due_cmd.add_argument("--no-legacy", action="store_true", help="Hide legacy pending entries without check-in dates")
+    due_cmd.add_argument("--legacy-days", type=int, default=30, help="Age threshold for legacy pending entries (default 30)")
+
     args = parser.parse_args()
 
     if args.command == "log":
@@ -369,6 +489,8 @@ def main():
         get_roi_report(args.skill, args.expert)
     elif args.command == "pipeline":
         get_pipeline()
+    elif args.command == "due":
+        get_due(include_legacy=not args.no_legacy, legacy_days=args.legacy_days)
     else:
         parser.print_help()
 

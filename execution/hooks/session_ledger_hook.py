@@ -133,9 +133,14 @@ def _staleness_line() -> str:
     try:
         d = json.loads(REVENUE.read_text())
         outs = d.get("outcomes", d if isinstance(d, list) else [])
-        pending = sum(1 for o in outs if o.get("outcome_type") == "pending")
-        if pending > 10:
-            parts.append(f"{pending} deliverables awaiting revenue/outcome data")
+        pending = [o for o in outs if o.get("outcome_type") == "pending"]
+        today = datetime.now().date().isoformat()
+        due = sum(1 for o in pending if o.get("check_in_date") and o["check_in_date"] <= today)
+        if due:
+            parts.append(f"{due} outcome check-in{'s' if due != 1 else ''} due — "
+                         f"run `python3 execution/revenue_tracker.py due`")
+        if len(pending) > 10:
+            parts.append(f"{len(pending)} deliverables awaiting revenue/outcome data")
     except Exception:
         pass
     if not parts:

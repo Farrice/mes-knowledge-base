@@ -20,5 +20,6 @@ Run the master end-to-end copywriting workflow from the Proof Ladder Architectur
    - Voice
    - Desired Outcome
 5. If platform = "All", produce full content for primary platform then atomize across all others
-6. Run quality gate (all 10 checks must pass)
-7. Finalize via chain_runner.py
+6. Optional depth layer: when the user asks for emotional truth, heart, resonance, reader trust, less generic copy, or a more human feel, load `skills/lamott-allen-really-real-writing/` after proof checks. Use it to make proof feel honest and humane without inflating claims or weakening conversion.
+7. Run quality gate (all 10 checks must pass)
+8. Finalize via chain_runner.py

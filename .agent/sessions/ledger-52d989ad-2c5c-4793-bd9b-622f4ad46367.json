@@ -1,0 +1,15 @@
+{
+ "session_id": "52d989ad-2c5c-4793-bd9b-622f4ad46367",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/sky-format-farrice.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/authority-flywheel-format-finder-onepager.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

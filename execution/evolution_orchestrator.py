@@ -325,6 +325,28 @@ def run_daily() -> Dict[str, Any]:
     else:
         report_lines.append("- (in sync)")
 
+    # Portability + surface-budget lint (observe-only — must never break evolution).
+    # Covers the 2026-06-12 additions: core-roster surface budget, roster
+    # integrity, plus all pre-existing portability invariants.
+    try:
+        import subprocess
+        proc = subprocess.run(
+            [sys.executable, str(Path(__file__).resolve().parent / "platform_compiler.py"), "lint", "--json"],
+            capture_output=True, text=True, timeout=60,
+        )
+        lint_result = json.loads(proc.stdout or "{}")
+    except Exception as exc:
+        lint_result = {"failures": [], "error": str(exc)}
+
+    report_lines += ["", "## Portability & Surface Lint"]
+    if lint_result.get("failures"):
+        for f in lint_result["failures"]:
+            report_lines.append(f"- {f}")
+    elif lint_result.get("error"):
+        report_lines.append(f"- (lint unavailable: {lint_result['error']})")
+    else:
+        report_lines.append("- (clean)")
+
     report_path.write_text("\n".join(report_lines) + "\n")
 
     # Update state

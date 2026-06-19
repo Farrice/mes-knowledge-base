@@ -1,7 +1,9 @@
 {
   "version": 1,
-  "updated": "2026-06-09",
+  "updated": "2026-06-12",
   "rule": "Routing defaults to core. Long-tail requires explicit /slash invocation or a decisively stronger match.",
+  "surface_budget": 45,
+  "budget_rule": "Hard ceiling on roster size (skills + workflows + infrastructure), lint-enforced by platform_compiler. Promotion to core requires demoting something once the budget is hit — same logic as the API dollar ceilings.",
   "skills": [
     {"id": "luke-iha-avatar-machine", "why": "16 log mentions; binding avatar_manifold_coldstart; the grounding engine for all copy"},
     {"id": "luke-iha-copy-blocks", "why": "A-tier with traces; the 6 copy blocks"},

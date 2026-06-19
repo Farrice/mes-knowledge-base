@@ -41,3 +41,4 @@ Present the Story Remix Package with drafts for each format.
 ## Chain Compatibility
 - **Follows**: `/hidden-gems`, `/client-interview`
 - **Pairs with**: `/voice-audit` (QA each remix)
+- **Optional depth layer**: Use `skills/lamott-allen-really-real-writing/` when the story must stay emotionally true across formats. It protects the original human pressure, cuts generic polish, and prevents remixes from sounding like platform templates.

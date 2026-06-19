@@ -360,6 +360,7 @@ Layer 3 is now built into every run. Additional pairings for specific contexts:
 - For **sales/conversion copy**: Add Cardinal Mason or Jeremy Miner for conversion architecture
 - For **carousel/visual content**: Add visual structure principles from Lara's F-shape
 - For **voice authenticity deep-dive**: Load full GVE 10-Point Standard from `skills/ghostwriting-voice-engine/genius.md`
+- For **truth/depth/reader trust**: Add `skills/lamott-allen-really-real-writing/` as the depth slot only when the draft needs to feel more real, human, emotionally precise, or less generic. Use one concrete repair in the output: a cut overproof, a plainer hard sentence, a restraint beat, or a reader-trust fix.
 
 ---
 

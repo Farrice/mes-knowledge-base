@@ -69,6 +69,7 @@ These are not chain governance — they are how-to docs for specific domains. Re
 | [mes-3.0-validate.md](mes-3.0-validate.md) | Mastery Extraction System v3.0 — validate phase |
 | [workflow-chains.md](workflow-chains.md) | How workflows compose into multi-step chains |
 | [slash-command-playbook.md](slash-command-playbook.md) | Slash command authoring patterns |
+| [external-skills-registry.md](external-skills-registry.md) | Imported third-party skills (Matt Pocock/AI Hero + future sources) — install, update, catalog, Chain-bypass rules |
 | [daily-council.md](daily-council.md) | Daily expert council ritual |
 | [decision-council.md](decision-council.md) | Convening councils for decisions |
 | [session-end-commit.md](session-end-commit.md) | End-of-session git workflow |

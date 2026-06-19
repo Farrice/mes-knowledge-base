@@ -1,0 +1,49 @@
+{
+ "session_id": "6d7ad70f-3e3d-4cdc-a2e2-0efc35963d91",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "kobi-brown-educational-virality",
+   "ts": "2026-06-14T01:20:54.693497"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-addictive-storytelling",
+   "ts": "2026-06-14T01:20:59.177685"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "diandra-escobar-linkedin-growth",
+   "ts": "2026-06-14T01:21:07.917279"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-content-psychology",
+   "ts": "2026-06-14T01:22:02.557882"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-ai-content-engine",
+   "ts": "2026-06-14T01:22:17.196374"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/USER-GUIDE.md",
+  "/Users/farricecain/Google Antigravity/agents/kobi-brown/AGENT.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/references/genius-patterns.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/references/hidden-knowledge.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/references/mirror-packet.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/references/proof-lab.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/references/cross-domain-deployment-map.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/references/validation-report.md",
+  "/Users/farricecain/Google Antigravity/skills/kobi-brown-educational-virality/SKILL.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md"
+ ],
+ "subagent_spawns": 1,
+ "finalized_at": "2026-06-14T01:57:39.121232",
+ "last_debt_at": "2026-06-14T01:22:17.196383",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

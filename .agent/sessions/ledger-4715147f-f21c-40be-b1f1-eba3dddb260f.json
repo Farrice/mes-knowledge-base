@@ -50,19 +50,64 @@
    "type": "skill_loaded",
    "name": "kallaway-ai-content-engine",
    "ts": "2026-06-10T21:05:11.465037"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-brand",
+   "ts": "2026-06-15T08:51:05.966001"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-philosophy",
+   "ts": "2026-06-15T08:51:06.387426"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-ideavirus",
+   "ts": "2026-06-15T08:51:06.535373"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "fresh-voice-system",
+   "ts": "2026-06-15T08:51:12.365751"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-auto-improvement-loops",
+   "ts": "2026-06-15T08:51:23.522514"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-orchestration-intelligence",
+   "ts": "2026-06-15T08:51:36.913438"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-context-engineering",
+   "ts": "2026-06-15T08:51:37.296540"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kobi-brown-educational-virality",
+   "ts": "2026-06-17T08:42:37.606053"
   }
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os.md",
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/voice-gate.md",
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/performance-log.md",
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/briefing-2026-06-11.md",
-  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md"
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/icp-emotional-map.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-15-post-the-replaceable-fear.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/OFFER-LADDER.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/teardown-system.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CREATIVE-BOOK.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/pipeline.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/proof-tracker.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-W25-content-set.md",
+  "/tmp/farrice-engine-handoff.md"
  ],
- "subagent_spawns": 4,
- "finalized_at": "2026-06-11T02:55:23.096035",
- "last_debt_at": "2026-06-10T21:05:11.465048",
+ "subagent_spawns": 24,
+ "finalized_at": "2026-06-17T08:52:29.914120",
+ "last_debt_at": "2026-06-17T08:42:37.606070",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false

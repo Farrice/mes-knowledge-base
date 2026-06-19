@@ -605,6 +605,13 @@ def finalize(
     # (em-dashes, reveals, cheap closes) shipped with a clean score. If given and
     # readable, its contents become the text the caps scan.
     content_path: str = "",
+    # Outcome-loop closure (added 2026-06-12): what success looks like for this
+    # deliverable and when to check whether it happened. Flows into the pending
+    # revenue-outcome stub so `revenue_tracker due` + the session-ledger
+    # staleness line surface it deterministically. check_in_days=None uses the
+    # tracker default (14d).
+    expected_outcome: str = "",
+    check_in_days: Optional[int] = None,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -668,6 +675,48 @@ def finalize(
         result["success"] = False
         result["error"] = f"Missing required quality scores: {', '.join(missing)}. The quality gate requires all 3 sub-scores."
         return result
+
+    # ── Step 1.5: Verification accountability (added 2026-06-12) ─
+    # Chain Step 5.5 fired before delivery — this makes skipping it VISIBLE.
+    # Fact-bearing task types must arrive with either a --factual score or an
+    # explicit "Verification: <PASS/FAIL/PARTIAL/N/A>" declaration in --notes
+    # (a deliberate N/A is honest; silence is not). Misses are logged to
+    # evolution_store/verification_misses.jsonl (deterministic telemetry, same
+    # pattern as sub_agent_misses). Observe-mode by default; VERIFY_ENFORCE=1
+    # turns a miss into a hard finalize failure. Follows the LEDGER_ENFORCE
+    # observe-then-enforce rollout pattern (2026-06-09).
+    _FACT_BEARING_TYPES = {"Content", "Research", "Strategy", "Client Work", "Analysis"}
+    verification_declared = "verification:" in (notes or "").lower()
+    if task_type in _FACT_BEARING_TYPES and factual_grounding is None and not verification_declared:
+        miss = {
+            "timestamp": datetime.now().isoformat(),
+            "output": output_description[:120],
+            "task_type": task_type,
+            "skill": skill,
+            "workflow": workflow,
+            "enforced": os.environ.get("VERIFY_ENFORCE", "0") == "1",
+        }
+        try:
+            _misses_path = Path(__file__).resolve().parent.parent / "evolution_store" / "verification_misses.jsonl"
+            _misses_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(_misses_path, "a") as _mf:
+                _mf.write(json.dumps(miss) + "\n")
+        except Exception:
+            pass
+        result["verification_check"] = {
+            "status": "MISSING",
+            "detail": (
+                f"task_type '{task_type}' is fact-bearing but no --factual score was given "
+                "and --notes carries no 'Verification:' declaration. Run Chain Step 5.5, then "
+                "either pass --factual <1-10> or add '| Verification: PASS/FAIL/PARTIAL/N/A' to --notes."
+            ),
+        }
+        if os.environ.get("VERIFY_ENFORCE", "0") == "1":
+            result["success"] = False
+            result["error"] = "VERIFICATION MISSING — " + result["verification_check"]["detail"]
+            return result
+    else:
+        result["verification_check"] = {"status": "OK" if (factual_grounding is not None or verification_declared) else "N/A"}
 
     # ── Step 2: Calculate raw composite (pre-enforcement) ────────
     raw_composite = round((intent_alignment + expert_standard + adversarial_resilience) / 3, 1)
@@ -1202,6 +1251,8 @@ def finalize(
                 composite=composite,
                 notion_page_id=notion_page_id,
                 experiment_tag=experiment_tag,
+                expected_outcome=expected_outcome,
+                check_in_days=check_in_days,
             )
             result["revenue_autolink"] = reg
         except Exception as e:
@@ -1391,11 +1442,22 @@ def print_result(result: Dict) -> None:
         print(f"     Chosen:    {rv['chosen']}")
         print(f"     {rv['reason'][:200]}{'...' if len(rv['reason']) > 200 else ''}")
 
+    # Verification accountability (Step 5.5 made visible — 2026-06-12)
+    vc = result.get("verification_check", {})
+    if vc.get("status") == "MISSING":
+        print(f"\n  ⚠️  VERIFICATION MISSING (observe mode — logged to evolution_store/verification_misses.jsonl)")
+        print(f"     {vc.get('detail', '')[:220]}")
+
     # Revenue tracking reminder (for client/content deliverables)
     task_type = result.get("task_type", "")
     if task_type in ("Client Work", "Content", "Creative", "Strategy"):
         print(f"\n  💰 Revenue tracking: Log outcome when results come in →")
         print(f"     python execution/revenue_tracker.py log \"{result['output'][:50]}...\" --revenue <$> --outcome \"<result>\"")
+        reg = result.get("revenue_autolink", {})
+        entry = reg.get("entry", {}) if isinstance(reg, dict) else {}
+        if entry.get("check_in_date"):
+            exp = f" | expected: {entry['expected_outcome']}" if entry.get("expected_outcome") else ""
+            print(f"     Outcome check-in scheduled: {entry['check_in_date']}{exp}")
 
     print("=" * 60)
 
@@ -1436,6 +1498,9 @@ def main():
     # Autopilot Wave 5 stabilization (added 2026-05-23)
     fin.add_argument("--source-request", default=None, help="Original user request verbatim. Used for the post-hoc routing check instead of the output description. Autopilot's Phase 4 template MUST pass this to prevent false positives on the autopilot_orchestration binding.")
     fin.add_argument("--content-file", default="", dest="content_file", help="Path to the ACTUAL deliverable. The prose + structural-tells caps scan THIS (not the summary), so slop with banned moves cannot finalize clean. Pass the artifact for every Content/Copy/Creative finalize.")
+    # Outcome-loop closure (added 2026-06-12)
+    fin.add_argument("--expected-outcome", default="", dest="expected_outcome", help="What success looks like for this deliverable (e.g. 'client signs', 'post >2k impressions'). Stored on the pending revenue stub so the check-in is concrete, not vibes.")
+    fin.add_argument("--check-in", type=int, default=None, dest="check_in", help="Days until the outcome check-in for this deliverable (default 14). Surfaced by `revenue_tracker.py due` and the session staleness line when it arrives.")
 
     args = parser.parse_args()
 
@@ -1467,6 +1532,8 @@ def main():
             anchor_named=args.anchor_named,
             source_request=args.source_request,
             content_path=getattr(args, "content_file", "") or args.anchor_path or "",
+            expected_outcome=args.expected_outcome,
+            check_in_days=args.check_in,
         )
         print_result(result)
     else:

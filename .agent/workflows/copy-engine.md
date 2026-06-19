@@ -93,6 +93,8 @@ python3 execution/prose_classifier.py check .tmp/copy-engine/<slug>/draft.md || 
 ## PHASE 6 — POLISH ($0)
 `/craves-polish` on key lines (mechanism name → Specific/Visual) + velocity compression.
 
+**Optional Really Real depth layer:** If the user asks for copy with emotional truth, heart, resonance, reader trust, less generic language, or a more human feel, load `skills/lamott-allen-really-real-writing/` after proof is sound. Use it to remove fake empathy, bound inflated promises, name the buyer's real pressure in plain words, and keep conversion intact. Skip this for speed-only copy or when the copy already needs pure structural repair.
+
 ## PHASE 7 — FINALIZE (+ optional creative)
 ```bash
 // turbo

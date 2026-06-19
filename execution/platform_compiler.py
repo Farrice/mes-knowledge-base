@@ -176,11 +176,53 @@ def _lint_failures() -> list:
     if settings.exists() and "opus" in settings.read_text().lower():
         fails.append('active Opus reference in .claude/settings.json')
 
+    # Surface budget + core-roster integrity (2026-06-12).
+    # The production-core roster is capped the way the paid APIs are capped:
+    # a hard ceiling that forces replacement over addition. Promotion to CORE
+    # requires demoting something. Every roster id must also exist on disk —
+    # a core entry pointing at nothing silently degrades routing.
+    core_path = ROOT / ".agent" / "production-core.json"
+    if not core_path.exists():
+        fails.append("missing .agent/production-core.json (core roster)")
+    else:
+        try:
+            core = json.loads(core_path.read_text())
+            skills = core.get("skills", [])
+            workflows = core.get("workflows", [])
+            infra = core.get("infrastructure", [])
+            budget = int(core.get("surface_budget", 45))
+            roster = len(skills) + len(workflows) + len(infra)
+            if roster > budget:
+                fails.append(
+                    f"core roster {roster} exceeds surface_budget {budget} — "
+                    "promotion requires demotion (.agent/production-core.json)"
+                )
+            for s in skills:
+                sid = s.get("id", "")
+                if sid and not (ROOT / "skills" / sid).is_dir():
+                    fails.append(f"production-core skill '{sid}' has no skills/{sid}/ directory")
+            for w in workflows:
+                wid = w.get("id", "")
+                if wid and not (ROOT / ".agent" / "workflows" / f"{wid}.md").exists() \
+                        and not (ROOT / "skills" / wid).is_dir():
+                    fails.append(f"production-core workflow '{wid}' not found in .agent/workflows/ or skills/")
+            for inf in infra:
+                iid = inf.get("id", "")
+                if iid and not ((ROOT / iid).exists()
+                                or (ROOT / "skills" / iid).is_dir()
+                                or (ROOT / ".agent" / "workflows" / f"{iid}.md").exists()):
+                    fails.append(f"production-core infrastructure '{iid}' missing on disk")
+        except Exception as exc:
+            fails.append(f"production-core.json unreadable: {exc}")
+
     return fails
 
 
-def cmd_lint() -> int:
+def cmd_lint(as_json: bool = False) -> int:
     fails = _lint_failures()
+    if as_json:
+        print(json.dumps({"failures": fails}))
+        return 1 if fails else 0
     if not fails:
         print("Lint clean — all portability invariants hold.")
         return 0
@@ -219,14 +261,17 @@ def main() -> int:
     sub = parser.add_subparsers(dest="cmd", required=True)
     chk = sub.add_parser("check")
     chk.add_argument("--json", action="store_true")
-    sub.add_parser("lint")
+    lnt = sub.add_parser("lint")
+    lnt.add_argument("--json", action="store_true")
     sub.add_parser("sync")
     sub.add_parser("forks")
     sub.add_parser("report")
     args = parser.parse_args()
     if args.cmd == "check":
         return cmd_check(as_json=args.json)
-    return {"lint": cmd_lint, "sync": cmd_sync, "forks": cmd_forks, "report": cmd_report}[args.cmd]()
+    if args.cmd == "lint":
+        return cmd_lint(as_json=args.json)
+    return {"sync": cmd_sync, "forks": cmd_forks, "report": cmd_report}[args.cmd]()
 
 
 if __name__ == "__main__":

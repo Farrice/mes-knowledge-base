@@ -1,0 +1,21 @@
+{
+ "session_id": "0624601a-dc8d-4024-8592-5ccf33630430",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/directives/external-skills-registry.md",
+  "/Users/farricecain/Google Antigravity/directives/INDEX.md",
+  "/Users/farricecain/Google Antigravity/docs/agents/issue-tracker.md",
+  "/Users/farricecain/Google Antigravity/docs/agents/triage-labels.md",
+  "/Users/farricecain/Google Antigravity/docs/agents/domain.md",
+  "/tmp/verify_guardrail.sh",
+  "/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/handoff-matt-pocock-skills-2026-06-15.md",
+  "/Users/farricecain/Google Antigravity/.scratch/external-skill-visibility/PRD.md"
+ ],
+ "subagent_spawns": 3,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

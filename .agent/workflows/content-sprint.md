@@ -296,6 +296,7 @@ For quick reference when selecting expert stacks in Phase 4:
 | Carousel outline | Lara Acosta + Cole | Visual structure |
 | Sales/conversion | Cardinal Mason or Jeremy Miner | Conversion architecture |
 | Voice authenticity | Load `FARRICE.md` + voice captures | — |
+| High-value piece needing truth/depth | Primary content expert | Add `lamott-allen-really-real-writing` for one depth/trust pass |
 
 ---
 

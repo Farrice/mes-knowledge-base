@@ -1,0 +1,14 @@
+{
+ "session_id": "4e42817a-e317-429d-bfe0-ac57e836e6d2",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/research_outputs/andrea-ticketing-platform-2026-06-18.md"
+ ],
+ "subagent_spawns": 3,
+ "finalized_at": "2026-06-18T07:50:55.690800",
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

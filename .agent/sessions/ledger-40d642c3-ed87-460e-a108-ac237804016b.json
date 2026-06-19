@@ -1,0 +1,25 @@
+{
+ "session_id": "40d642c3-ed87-460e-a108-ac237804016b",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "chase-hughes-context-engineering",
+   "ts": "2026-06-14T08:41:52.165018"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/skills/chase-hughes-context-engineering/USER-GUIDE.md",
+  "/Users/farricecain/Google Antigravity/execution/context_ethics_gate.py",
+  "/Users/farricecain/Google Antigravity/skills/chase-hughes-context-engineering/workflows/ce-write.md",
+  "/Users/farricecain/Google Antigravity/skills/chase-hughes-context-engineering/references/production-cross-pollination.md",
+  "/Users/farricecain/Google Antigravity/skills/chase-hughes-context-engineering/workflows/ce-offer.md",
+  "/Users/farricecain/Google Antigravity/skills/chase-hughes-context-engineering/SKILL.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": "2026-06-14T08:41:52.165030",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}

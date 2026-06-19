@@ -29,6 +29,10 @@
       "skill": "alex-myatt-creative-engine"
     },
     {
+      "command": "/alex-suzuki",
+      "skill": "alex-suzuki-digital-product-revenue-os"
+    },
+    {
       "command": "/algorithmic-art",
       "skill": "algorithmic-art"
     },
@@ -401,6 +405,10 @@
       "skill": "kallaway-content-psychology"
     },
     {
+      "command": "/kallaway-illusion",
+      "skill": "kallaway-illusion-of-novelty"
+    },
+    {
       "command": "/kallaway-social",
       "skill": "kallaway-social-commerce"
     },
@@ -423,6 +431,14 @@
     {
       "command": "/kittl-graphic",
       "skill": "kittl-graphic-design"
+    },
+    {
+      "command": "/kobi-brown",
+      "skill": "kobi-brown-educational-virality"
+    },
+    {
+      "command": "/lamott-allen",
+      "skill": "lamott-allen-really-real-writing"
     },
     {
       "command": "/lamott-craft",
@@ -971,6 +987,10 @@
     {
       "command": "/wright-thompson",
       "skill": "wright-thompson-mastery"
+    },
+    {
+      "command": "/writing-depth",
+      "skill": "writing-depth-layer"
     },
     {
       "command": "/xlsx",

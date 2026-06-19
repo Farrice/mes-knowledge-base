@@ -24,5 +24,8 @@ Read these files:
 ### 2. Execute Workflow
 Follow the workflow in `05-platform-adapt.md` using the loaded genius context.
 
-### 3. Save Output
+### 3. Optional Really Real Depth Layer
+If the user asks for "real," "soulful," "less AI," "less generic," "more human," "make people feel it," or similar depth language, load `skills/lamott-allen-really-real-writing/` after platform adaptation. Use it only to add one true observation, clearer reader trust, plain force, or restraint while preserving the target platform's native rhythm.
+
+### 4. Save Output
 Save adapted content to `.tmp/kieran-flanagan/adapted-[platform].md`.

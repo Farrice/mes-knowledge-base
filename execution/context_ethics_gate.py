@@ -59,6 +59,9 @@ LOG_PATH = ROOT / ".agent" / "context-ethics-log.jsonl"
 CONTEXT_ENGINEERING_WORKFLOWS = {
     "ce-design", "ce-build", "ce-pcp", "ce-followability",
     "ce-honesty", "ce-read", "ce-source-code", "ce-defend",
+    # Production Layer (2026-05-30) — these emit finished copy / rebuilt offers,
+    # so they carry the highest ethics-surface and always pass the gate.
+    "ce-write", "ce-offer",
 }
 
 # ── Structural red-flag patterns (deterministic) ──────────────────────────

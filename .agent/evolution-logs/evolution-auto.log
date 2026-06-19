@@ -254,3 +254,130 @@
     "monthly"
   ]
 }
+{
+  "ran": [],
+  "skipped": [
+    "daily",
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-13.md",
+        "traces_24h": 4,
+        "routing_decisions_24h": 7,
+        "queued_phase2": 0,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 0
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-14.md",
+        "traces_24h": 26,
+        "routing_decisions_24h": 26,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-15.md",
+        "traces_24h": 3,
+        "routing_decisions_24h": 3,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-16.md",
+        "traces_24h": 6,
+        "routing_decisions_24h": 6,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-06-17.json",
+        "skills_tracked": 16,
+        "degrading_count": 0,
+        "degrading_skills": [],
+        "improving_count": 0,
+        "improving_skills": []
+      }
+    }
+  ],
+  "skipped": [
+    "daily",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-18.md",
+        "traces_24h": 1,
+        "routing_decisions_24h": 1,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}

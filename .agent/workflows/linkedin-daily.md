@@ -1,175 +1,210 @@
 ---
-description: Daily LinkedIn zeitgeist briefing + voice-gated post production engine (metaprompt v2)
+description: Daily LinkedIn zeitgeist + brandjack engine (Parallax-modeled) — research → opportunity menu + raw-take priming → cook 3 variants → gate
 ---
 
-# /linkedin-daily — LinkedIn Domination OS: Daily Engine
+# /linkedin-daily — LinkedIn Domination OS: Daily Engine (v2 — Parallax-modeled)
 
-The daily operating loop for Farrice's LinkedIn launch. Produces a receipt-backed zeitgeist briefing, a contrarian opportunity map, voice-gated post draft(s), and a zero-audience distribution plan — and feeds yesterday's results back into today's decisions.
+The daily operating loop for Farrice's LinkedIn launch. This is a **co-pilot, not a content cannon.** v1 auto-picked an angle and auto-drafted — which produced competent, polished, *flat* posts (the failure mode Farrice named on 2026-06-15: "dry, void of tension, sterile, all the AI tropes"). v2 is modeled on what `/parallax` does right: surface a menu of brandjack/newsjack opportunities, **prime Farrice's brain with talking points + raw-take questions, get his real perspective, THEN cook** — so his narrative and storytelling are *in* the piece, not approximated around it.
 
-This workflow IS the metaprompt. It replaces static persona prompts with a context-load list: identity, voice, ICP, and hook mechanics come from the live source files below, never from a pasted profile paragraph.
+This workflow IS the metaprompt. Identity, voice, ICP, and hook mechanics come from live source files (Step 1), never a pasted profile paragraph.
 
 ## Usage
 
 ```
-/linkedin-daily                  # full daily run (briefing + 1 post)
-/linkedin-daily --first-run      # launch mode: briefing + 3 starter posts (one per active pillar)
-/linkedin-daily --no-post        # briefing + commenting plan only (non-posting days)
-/linkedin-daily --skip-research  # reuse most recent briefing's research (same-day re-runs)
-/linkedin-daily --posts 2        # override post count
+/linkedin-daily                  # full loop: research → opportunity menu → HALT for raw take → cook 3 variants
+/linkedin-daily --auto           # no halt: generate a raw-take starter for the top opportunity, cook anyway (lower ceiling — use when Farrice is away)
+/linkedin-daily --topic "X"      # skip research; Farrice already has the moment; go straight to priming + cook
+/linkedin-daily --no-post        # briefing + opportunity menu + commenting plan only (no cook)
+/linkedin-daily --posts N        # override variant count (default 3, Parallax 3-variant rule)
 ```
 
-**Cost ceiling per run: $0.10.** Tavily/WebSearch primary ($0). One Perplexity call max (≤$0.25) only if free search is thin — and only with explicit note in the Cost Ledger.
+**Cost ceiling per run: $0.10.** tavily/WebSearch primary ($0). One Perplexity call max (≤$0.25) only if free search is thin — note it in the Cost Ledger.
+
+---
+
+## The Spine (what makes output alive, not sterile)
+
+Every post descends into **specificity** instead of climbing the abstraction ladder. The sterile shape is *claim → citation → generic question* (the reader watches from outside). The Parallax shape is *specific moment → tension held → confession pivot → embodied metaphor → the insight arrives through recognition → declaration/image close*. The reader is the protagonist; Farrice enters as the voice naming what they already feel. See the loaded craft brief (Step 1) for the live mechanics with real exemplars.
 
 ---
 
 ## Steps
 
 ### 0. Init
+- Resolve today's date → output `_active/linkedin-launch/daily/briefing-YYYY-MM-DD.md`; create `daily/` if missing. Parse flags.
 
-- Resolve today's date → output target `_active/linkedin-launch/daily/briefing-YYYY-MM-DD.md`
-- Create `_active/linkedin-launch/daily/` if missing
-- Parse flags
-
-### 1. Context Load (non-negotiable — this is what makes the output Farrice's, not a template's)
+### 1. Context Load (non-negotiable — this is what makes the output Farrice's)
 
 Read ALL of:
 
-| File | What it supplies |
+| File | Supplies |
 |---|---|
-| `FARRICE.md` | Interest stack, tribal vocabulary, avatar, integration rules (80/20, Inclusion Insurance, Revelation Sequence) |
-| `_active/linkedin-launch/content-os.md` | Pillars, buckets, semantic lanes, rotation schedule, 90-day arc, distribution motion |
-| `_active/farrice-brand/CLAUDE.md` | Voice rules — banned moves, required moves (SOURCE OF TRUTH) |
-| `_active/farrice-brand/thought-bank/pov-anchors.md` | POV anchors 1-5 (incl. no-cheap-question-closes, private-language rule) |
-| `_active/linkedin-launch/voice-gate.md` | The pass/fail gate run before any draft ships |
-| `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` | ICP beliefs/identity-resistance/stages-of-change + Bridge Message |
-| `knowledge/synthesis/the-persuasion-stack.md` | 4-layer build: Single Truth → Mechanism → Matched Proof → Identity Dissolution |
+| `_active/farrice-brand/CLAUDE.md` | Voice rules — banned MOVES, required moves, anti-patterns (SOURCE OF TRUTH). "Structurally sound but flat = 5/10." |
+| `_active/farrice-brand/thought-bank/pov-anchors.md` | POV anchors (no-cheap-question-closes, private-language rule) |
+| `FARRICE.md` | Interest stack, tribal vocabulary, avatar, 80/20 + Inclusion Insurance + Revelation Sequence |
+| `_active/linkedin-launch/content-os.md` | Pillars, lanes, rotation, barbell, 90-day arc, distribution motion |
+| `_active/linkedin-launch/voice-gate.md` | Pass/fail gate run before any draft ships |
+| `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` | ICP beliefs / identity-resistance / Bridge Message |
+| `knowledge/synthesis/the-persuasion-stack.md` | Single Truth → Mechanism → Matched Proof → Identity Dissolution |
 | `_active/linkedin-launch/daily/performance-log.md` | Last 7 entries + Carry-Forward Directives |
-| Yesterday's `daily/briefing-*.md` (if exists) | Continuity; never repeat an angle within 7 days |
+| Yesterday's `daily/briefing-*.md` + most recent post set | Continuity; never repeat an angle, hook format, or close structure within 7 days |
+
+**Voice + cognitive-signature layer (load the depth — this is the antidote to flat AND what makes it world-class):**
+- `skills/fresh-voice-system/genius.md` — **THE depth engine.** Load the **Cognitive Signature** (Paradox Reveal → False-Frame Demolition → Reframe Landing = the "Goddamn That's True" sequence), the "value is the new generic / story-first, insight-second" principle, and the **AI-stigma reframe** (lead with the transformation + brand truth, never tool-talk).
+- Parallax exemplars (live voice texture): `_active/farrice-brand/content/linkedin-posts/parallax-launch-week/`, `.../2026-05-05-jj-manipulation-variants.md` (9/10), `.../substack-v2-drafts/02-anti-hustle.md` + `03-filter-babel.md`. Extract: scene-first openings, confession pivot, embodied metaphors (performance/training/gaming — never abstract), varied rhythm, recognition closes.
+- Aha layer: invoke `aha-engine` / `kobi-brown` (cognitive-change architecture) so the cook targets a real perception shift, not information.
+- **Empathy + brand-intel layer (front-and-center, every run):** `_active/linkedin-launch/icp-emotional-map.md` — the ICP's **broken promises**, the **2am replaceability fear**, the **daily lived life**, and the rule *reassure the human, indict the machine*; plus the latest `daily/brand-radar-*.md` (named-brand specifics for narrative/tension/authority) and `_active/linkedin-launch/CREATIVE-BOOK.md` (the operating frame). If no current Brand Radar exists, run `/farrice-engine radar` first.
 
 Chain Step 4 compliance (content domain — ≥2 skill files per `directives/content_creation_gate.md`):
-
-- `skills/diandra-escobar-linkedin-growth/references/hook-format-library.md` (REAL character ceilings + width model)
-- `skills/linkedin-2026-format-arbitrage/SKILL.md` + `genius.md` (360 Brew depth-signal physics)
-- `python3 execution/memory_retrieve.py "linkedin daily post <today's lane>" --top 10`
-- Recall grounding: `mcp__recall__search` on today's lane topic (silent skip if unavailable or <2 cards)
-- Optional Tier 2 when the post is narrative-heavy: `skills/lara-acosta-linkedin-mastery/genius.md`; when contrarian: `skills/diandra-escobar-linkedin-growth/workflows/04-hot-take-post-generator.md`
+- `skills/diandra-escobar-linkedin-growth/references/hook-format-library.md` (REAL hook ceilings) + `hook-writing-rules.md`
+- `skills/linkedin-2026-format-arbitrage/SKILL.md` (360 Brew / sequential-recommender depth physics)
+- `python3 execution/memory_retrieve.py "linkedin daily post <today's lane/moment>" --top 10`
+- Recall grounding: `mcp__recall__search` on today's moment (silent skip if <2 cards)
+- Narrative cook → optionally load `skills/nicolas-cole-newsletter-flywheel/` (sentence craft) + `skills/shaan-puri-storytelling/` (cultural pulse) when brandjacking, per the `/parallax` default stack.
 
 ### 2. Feedback Ratchet
-
-1. Read `performance-log.md`. For any post older than 24h missing metrics, ask Farrice for 3 numbers: impressions, comments, profile views (+ saves if visible). Manual entry, 30 seconds. If he doesn't have them, mark `pending` and move on — never invent metrics.
-2. Append metrics to the log.
-3. Derive 1-3 **Carry-Forward Directives** from accumulated rows (e.g., "Dense hooks outperforming Punchy in Lane A 3:1 — bias Dense this week", "Corrective-exercise metaphor posts drive profile views — keep", "Retire X angle, flatlined twice"). Write them into the log's Carry-Forward block. Today's choices MUST honor active directives.
+1. Read `performance-log.md`. For posts >24h missing metrics, ask Farrice for: impressions, **out-of-network %**, comments, profile views (+ saves if visible). Manual, 30 sec. No numbers → mark `pending`, never invent.
+2. Append metrics.
+3. Derive 1-3 **Carry-Forward Directives** (e.g., "confession-pivot posts drive profile views — keep"; "Lane A authority outperforming reach 2:1 this week"). Today's choices honor active directives.
 
 ### 3. Research Sprint (receipts or it didn't happen)
 
-Run these query templates via tavily-search / WebSearch (free first):
+**Research layer = Apify-first, deterministic fallback** (per `directives/apify-usage-policy.md`; Apify is budgeted/green and self-governs — never blocks): use `python3 execution/apify_client.py {instagram|reddit|web} ...` for RAW data the web can't reach — brand IG content + winning formats, Reddit sentiment/pain in the vertical, JS-rendered brand/career pages. The wrapper returns `{"fallback": true}` on budget exhaustion → reroute to `execution/research.py` → Perplexity → tavily/WebSearch. **Always report which tool produced each finding.** Run free web search for everything else. Two tracks:
 
-| # | Query template | Feeds briefing section |
+**Track A — Zeitgeist & platform:**
+| # | Query | Feeds |
 |---|---|---|
-| R1 | `LinkedIn algorithm change OR reach OR format update <current month year>` | Algorithm & Format Watch |
-| R2 | `AI hype backlash OR "AI slop" OR AI replacing creatives debate <this week>` | AI-Discourse Narrative Map |
-| R3 | `solopreneur OR creator economy OR consultant trend <current month year>` | Zeitgeist Pulse (ICP world) |
-| R4 | `<today's lane topic> LinkedIn what's working` | Contrarian gap scan |
+| R1 | `LinkedIn algorithm OR reach OR format update <month year>` | Algorithm & Format Watch |
+| R2 | `AI hype backlash OR "AI slop" OR AI replacing creatives <this week>` | AI-Discourse Narrative Map |
+| R3 | `solopreneur OR creator economy OR consultant trend <month year>` | ICP-world Pulse |
 
-Capture for every claim kept: **source URL + publication date + one-line quote/paraphrase**. Discard anything undated or >60 days old unless explicitly framed as background.
+**Track B — Industry (marketing / copywriting / creative strategy — for authority-jacking):**
+| # | Query | Feeds |
+|---|---|---|
+| R4 | `big brand OR agency AI campaign OR restructure <month year>` (named: WPP, Publicis, Omnicom, Coca-Cola, Nike, Meta ad AI) | Industry Watch (brand moves) |
+| R5 | `AI marketing failure OR backlash OR copywriters/agencies layoffs <recent>` | Industry Watch (failures + practitioner pain) |
+| R6 | `creative strategy AI taste craft commoditization <recent>` (Ad Age, Campaign, Digiday, The Drum) | Industry Watch (insider discourse) |
 
-### 4. Verification Pass (Chain Step 5.5 — fixes the fabricated-citation failure mode)
+Capture per kept claim: **source URL + date + one-line quote**. Discard undated / >60 days unless explicit background.
 
-- Build a claim inventory from Steps 3 findings.
-- Label each: **VERIFIED** (2+ independent sources or primary source) / **LIKELY** (1 credible source) / **UNCONFIRMED**.
-- UNCONFIRMED claims: may appear in the briefing WITH the label, may NEVER appear in a post draft.
-- Algorithm claims get extra skepticism — most "LinkedIn algorithm update" posts are creators guessing. Distinguish "LinkedIn announced" (primary) from "creators report" (pattern) from "one guru claims" (cut).
-- No receipt = the claim does not ship. A thinner, true briefing beats a dense, invented one.
+### 4. Verification Pass (Chain 5.5 — kills the fabricated-citation failure)
+Claim inventory → label **VERIFIED** (2+ independent or primary) / **LIKELY** (1 credible) / **UNCONFIRMED**. Named brands/people/figures = MUST verify (Parallax Phase 2.5 rigor). UNCONFIRMED may appear in the briefing WITH label, never in a post. Algorithm + precise-stat claims get extra skepticism (distinguish "announced" / "creators report" / "one guru claims"). No receipt = does not ship.
 
-### 5. Compose Briefing → `daily/briefing-YYYY-MM-DD.md`
+### 5. The Creative Daily Brief (Parallax-grade — a creative partner, not a topic menu)
 
-Use exactly this skeleton:
+Hand Farrice a full creative brief so he brings only his raw take. Open with the **macro layer**, then the opportunities. No stitching — this is the heart of the daily run.
+
+**A. The Players** — who/what is moving today (named, from Brand Radar + research + zeitgeist): which Top-10 brands posted/launched/stumbled, what the category is doing, what the AI-discourse is doing.
+
+**B. The Themes** — the 2-3 recurring creative themes available today (e.g., sameness/divergence, the replaceability fear, taste-as-moat, the compliance gate, founder-truth).
+
+**C. The Emotional Target** (from `icp-emotional-map.md`) — what the decision-maker FEELS right now, the **emotion to evoke** (recognition / validated taste / earned hope), and the front-and-center triad: a **broken promise** to name, a **deepest problem** to speak to, a **daily-life** moment to anchor in. Rule: *reassure the human, indict the machine.*
+
+**D. The Full Breakout** — how to turn today's material into great content: the structural move (which Cognitive Signature beats), the named specifics to weave in, the "say it better than they can" line to aim for.
+
+Then build **3-5 opportunities** Farrice can borrow attention from — the asset he loves; it primes his brain so his narrative + contrarian POV come out naturally. For EACH:
+
+```
+### OPPORTUNITY N: [punchy name]
+**The moment** (receipt): [what happened] — [URL] — [date] — [VERIFIED/LIKELY]
+**Why it's hot right now**: [the attention there is to borrow, 1-2 lines]
+**Jack type**: Newsjack / Brandjack / Authority-jack / Trendjack
+**The angle only you can take**: [Farrice's practitioner-depth wedge — the read no basher or bro can give]
+**Emotion to evoke + what they feel**: [the target emotion + the ICP's underlying feeling from `icp-emotional-map.md` — the broken promise / fear / daily-life moment this touches]
+**Pillar/Lane fit**: [P1-P4 / Lane A or B]
+**Prime your brain (raw-take questions — answer ANY in a voice note / bullets)**:
+  1. [experiential — recall a specific MOMENT, not a category]
+  2. [opinion/contrarian — what do you actually think nobody's saying?]
+  3. [stakes/contrast — who gets hurt, who wins, what's the cost]
+  4. [emotional — what does the reader feel at 11pm about this, and what would let them feel SEEN?]
+**Talking-point kindling** (NOT finished copy — sparks): [2-3 sharp fragments/angles]
+```
+
+**HALT (default mode): present the menu, wait for Farrice's raw take** — which opportunity, plus his stream-of-consciousness perspective (voice note, bullets, a single strong sentence — all valid). The raw take is the soul of the cook; capture his exact phrases, rhythm, and imperfections verbatim.
+
+**`--auto` mode only:** pick the top opportunity by zeitgeist heat × pillar fit, generate a 4-6 line "raw-take starter" in Farrice's documented voice/POV from FARRICE.md + pov-anchors, label it clearly as AI-inferred, and proceed — flagging that the ceiling is lower without his real take.
+
+### 6. Compose Briefing → `daily/briefing-YYYY-MM-DD.md`
 
 ```markdown
 # LinkedIn Daily Briefing — YYYY-MM-DD
 
-## 1. Zeitgeist Pulse
-[3-5 bullets. What moved in the ICP's world. Receipt + label inline per bullet.]
-
-## 2. Algorithm & Format Watch
-[What's verifiably changed or compounding. Which formats are wallpapering (saturated)
-and which break pattern this week. Cite hook-format-library Wallpaper Effect.]
-
-## 3. AI-Discourse Narrative Map
-- **What the feed believes:** [dominant narrative — fear-mongering, AI-bro spectacle, slop panic]
-- **What's actually true:** [grounded counter-read, receipts]
-- **Farrice's wedge:** [where his deep-practitioner POV cuts against both the bashers AND the bros]
-
-## 4. Contrarian Opportunity of the Day
-[ONE opening. The single truth (one sentence), why today (zeitgeist hook),
-which pillar it belongs to, identity-resistance note from ICP profile.]
-
-## 5. Today's Assignment
-Lane: [A/B per content-os rotation] | Pillar: [P1-P4] | Bucket: [Growth/Authority/Conversion/Personal]
-Density: [LOW/MEDIUM/HIGH per barbell — check the week's mix]
-Format: [post format + hook format, honoring Carry-Forward Directives]
-
-## 6. Draft Post(s)
-[Final voice-gated drafts — see Steps 6-7. Paste-ready, zero commentary inside the block.]
-
-## 7. Distribution Plan (zero-audience motion)
-[10 comment targets: 5 large accounts in-lane + 5 peer accounts. For each: who/why/the
-angle of a substantive comment that adds a missing mechanism — never "great post".
-15-min reply-window note for own post.]
-
-## 8. Cost & Receipts Ledger
-[Searches run, $ spent, every receipt URL + label.]
+## 1. Zeitgeist Pulse        [3-5 bullets, receipt + label inline]
+## 2. Algorithm & Format Watch   [verifiable shifts; saturated vs pattern-breaking formats]
+## 3. AI-Discourse Narrative Map   [feed believes / actually true / Farrice's wedge]
+## 4. Industry Watch (marketing · copy · creative strategy)
+   - **Big brands & AI**: [named, dated moves — WPP, Coca-Cola, Meta, etc.]
+   - **Failures & practitioner pain**: [the human cost, receipted]
+   - **Insider discourse**: [the smart-room argument + the contrarian wedge]
+## 5. Brandjack / Newsjack Opportunity Menu   [3-5, full priming format from Step 5]
+## 6. Today's Assignment   [lane/pillar/bucket/density per barbell; hook + close format honoring variance + Carry-Forward]
+## 7. Draft Variants   [the cook — Step 7; paste-ready, zero commentary inside the block]
+## 8. Distribution Plan   [10 comment targets carrying the day's wedge; 15-min reply window]
+## 9. Cost & Receipts Ledger   [searches, $ spent, every receipt URL + label]
 ```
 
-### 6. Post Production (skip on --no-post)
+### 7. The Cook — Parallax 3-Variant Production (skip on --no-post)
 
-For each post (default 1; `--first-run` = 3, one per active pillar, P4 held back per Revelation Sequence):
+**Default: 3 complete variants, each a different COOKING METHOD** (Parallax 3-variant rule — never one draft presented as the draft). Three full posts that feel written by three versions of Farrice, not one post three ways. Pick the three contrasts that fit today's moment:
 
-1. **Persuasion Stack build** (in order): Single Truth (one sentence, write it first) → Mechanism (the WHY — this is where Farrice's frameworks live) → Matched Proof (one telling specific; never fabricate — if no real number exists, use experiential proof) → Identity Dissolution (speak to the ICP's identity resistance using their private language, per POV anchor #5).
-2. **80/20 + Inclusion Insurance**: 80% core value, 20% interest flavor; bridge phrases for non-sharers; density per barbell.
-3. **Hook**: generate 3 candidates in 2+ different formats from `hook-format-library.md`, character-count each against the REAL ceilings (Dense 140-160 no breaks · Punchy ≤50/≤50 · Bomb ≤50 · Stacked lines ≤60 · 210 max total · no questions · no em dashes · never fabricate numbers). Pick the strongest gap.
-4. **Body**: pull-through to the last line; one idea per post; close with a voice-true close (image / declaration / bookend admission / concrete future / naming what they feel) — NEVER a generic question.
+| | Variant A | Variant B | Variant C |
+|---|---|---|---|
+| Cook | Confessional / memoir-pivot | Observational / pattern-spotting | Framework / contrarian POV |
+| Opening | Scene, emotional anchor | Specific artifact / news moment | First-person ritual or a teaching scene |
+| Lens | The coach / parent | The strategist | The contrarian who teaches a lens |
+| Close | Recognition / bookend | Declaration / zoom-to-pattern | Hand-the-reader-a-tool |
 
-### 7. Voice Gate + Hook Check (pass/fail — fail = REGENERATE, not patch)
+For EACH variant, build through the **Persuasion Stack** carrying Farrice's raw take as the spine, threaded on the **Cognitive Signature** (this is the intellectual engine of the depth — `fresh-voice-system/genius.md`):
+- **Paradox Reveal** → name the hidden contradiction where a strength IS the weakness ("a tool that could make you unmistakable, and you used it to disappear into the average").
+- **False-Frame Demolition** → take the thing "everyone says" and expose its broken premise with an absurd-but-exact analogy.
+- **Reframe Landing** → replace it with a deeper lens that changes how the reader sees the whole problem — the "Goddamn That's True" moment. (Not every short post needs all three; the full sequence is the strongest version.)
 
-Run `_active/linkedin-launch/voice-gate.md` top to bottom. Hard requirements:
+Layered through the build:
+1. **Single truth** (one sentence — write it first).
+2. **Scene-first open** — a specific moment with sensory/physical detail; hold tension 1-2 beats before naming the point. Weave the verified brandjack receipt in as the artifact, never as a lead citation. Story first, insight second.
+3. **Confession pivot** — drop Farrice's lived stake (his raw take, his 18 years, his actual practice) so the universal arrives through the specific.
+4. **Embodied metaphor** — from his domains (coaching, training, gaming, parenting, behavior change). Max 1 corrective-exercise metaphor per post; never the hook two posts running; never abstract.
+5. **Matched proof** — one telling specific; experiential proof when no real number exists; every real-world claim VERIFIED/LIKELY.
+6. **Recognition close** — image / declaration / bookend / concrete future / naming what they feel. NEVER a transferable question.
 
-- Zero banned structural moves (twin-sentence endings, triple anaphora, "It's not X. It's Y.", "Here's what/why" openers, mic-drop deflation, cheap question close)
-- ≤2 em dashes per post (0 in hooks)
-- Cross-piece variance: no two posts in a 7-day window share a closing structure or hook format (check yesterday's briefing + log)
-- Hook passes character ceiling for its declared format (count it, show the count)
-- Private-language test: at least one line only Farrice's audience would write; zero lines any creator in the category could have written for the load-bearing sentences
-- Every factual claim in the post is VERIFIED or LIKELY
+**Hook** (when the variant uses a discrete hook): 3 candidates in 2+ formats from `hook-format-library.md`, char-counted against REAL ceilings (Dense 140-160 no breaks · Punchy ≤50/≤50 · Bomb ≤50 · Stacked ≤60/line · 210 max · no questions · no em dashes · never fabricate numbers).
 
-### 8. Ship Package
+### 8. Voice Gate + Mechanical Audit (pass/fail — fail = REGENERATE the section, never patch)
 
-- Embed final draft(s) in briefing §6; append a `drafted` row per post to `performance-log.md` (date, pillar, lane, bucket, format, hook format, density, metrics=pending)
-- Print Farrice's 3-line to-do: publish + 15-min comment-reply window · run the §7 commenting plan · drop yesterday's 3 numbers into tomorrow's run
+Run `_active/linkedin-launch/voice-gate.md` top to bottom, PLUS the Parallax mechanical checks:
+- **The Aha gate (the apex bar — fail if it only informs).** Name the specific perception shift the piece creates: the reader's belief BEFORE → the belief AFTER. If you can't name a real before/after, it's information, not transformation — regenerate. Confirm the Cognitive Signature is doing work (at least a Reframe Landing). The standard: a reader is *left better off* and would come back (addictive-in-a-good-way), not just nodding.
+- **The Empathy gate (the trust/authority engine — fail if it doesn't make them feel seen).** Does the piece articulate the ICP's truth/worldview/problem **better than they could themselves** ("he gets it better than my own team")? Name the broken-promise / deepest-problem / daily-life moment it touches (`icp-emotional-map.md`). Enforce *reassure the human, indict the machine* — flag any line that shames or makes the decision-maker feel MORE replaceable. If it only informs or impresses, it fails.
+- **"Polished but flat" is a FAIL, not a pass.** Each piece must have a beating center (a real moment, a real stake) — not just clean sentences.
+- Zero banned MOVES: "It's not X. It's Y." negate-then-reveal (check load-bearing lines hardest — it hides there), twin-sentence aphoristic endings, triple-beat anaphora, "Here's what/why" + "here is the part nobody" openers, mic-drop deflation, cheap/transferable question close (paste test).
+- ≤2 em dashes per piece (0 in hooks); no filler (actually, just, very, really, basically, literally, honestly).
+- **Cross-variant + cross-window variance**: the 3 variants share no opening move, close structure, or central metaphor; none collides with the last 7 days of posts.
+- Hook within its declared ceiling (count it, show the count).
+- **Private-language test**: ≥1 line only Farrice could write per variant; rewrite any load-bearing line a generic creator could have written.
+- Independent pass recommended: dispatch `prose-doctor` (voice/tells) + `fact-verifier` (named claims) before delivery.
 
-### 9. Finalize (Chain Step 6)
+### 9. Ship Package
+- Embed final variants in briefing §7; append a `drafted` row per shipped variant to `performance-log.md` (date, pillar, lane, bucket, cook method, hook/close, density, metrics=pending).
+- Print Farrice's 3-line to-do: publish + 15-min reply window · run §8 commenting plan · drop yesterday's numbers next run.
 
+### 10. Finalize (Chain Step 6)
 ```bash
-python3 execution/chain_runner.py finalize "LinkedIn daily briefing + N post(s) — YYYY-MM-DD" \
-    --expert diandra-escobar --skill diandra-escobar-linkedin-growth --workflow linkedin-daily \
-    --type Content --intent [1-10] --expert-score [1-10] --adversarial [1-10] \
-    --sub-agents [measured] \
+python3 execution/chain_runner.py finalize "LinkedIn daily — YYYY-MM-DD [moment]" \
+    --expert nicolas-cole --skill nicolas-cole-newsletter-flywheel --workflow linkedin-daily \
+    --type Content --intent [1-10] --expert-score [1-10] --adversarial [1-10] --sub-agents [measured] \
     --notes "[what worked] | Factual Grounding: [1-10] | Verification: [PASS/PARTIAL]"
 ```
-
-Factual Grounding veto applies: scored <6 = the briefing's claims get re-verified before delivery.
+Factual Grounding veto: scored <6 = re-verify before delivery.
 
 ---
 
 ## Error Handling
-
-- **Research returns thin/nothing**: ship the briefing with fewer, truer bullets + a note. Never pad with training-memory "trends".
-- **Bash/scripts unavailable** (classifier outage, etc.): proceed with reads + drafts; queue memory_retrieve + finalize as a printed to-do for retry.
-- **No metrics from Farrice 3+ days running**: flag it in §5 — the ratchet is the system's learning loop; without it this is a content cannon, not an engine.
-- **Hook fails ceiling twice**: drop the angle entirely, write a different hook on a different angle (Rewrite Before Relabel rule).
+- **Research thin**: ship fewer, truer opportunities + a note. Never pad with training-memory "trends."
+- **Farrice gives no raw take (and not --auto)**: present the menu and HALT; the engine is a co-pilot — without his take the cook caps at competent-but-flat (the exact thing we're fixing).
+- **No metrics 3+ days**: flag in §6; the ratchet is the learning loop.
+- **Hook/variant fails the gate twice**: drop the angle, new cook on a different opportunity (Rewrite Before Relabel).
 
 ## Output Files
-
 ```
-_active/linkedin-launch/daily/briefing-YYYY-MM-DD.md   # the daily deliverable
-_active/linkedin-launch/daily/performance-log.md        # rolling ratchet (append)
+_active/linkedin-launch/daily/briefing-YYYY-MM-DD.md     # daily deliverable (incl. opportunity menu + variants)
+_active/linkedin-launch/daily/performance-log.md          # rolling ratchet (append)
 ```

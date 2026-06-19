@@ -1,0 +1,22 @@
+{
+ "session_id": "d75b2139-366a-49c0-a992-57af9d74b152",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "john-whiting-propaganda-machine",
+   "ts": "2026-06-14T08:12:19.065161"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/skills/john-whiting-propaganda-machine/workflows/jw-engine.md",
+  "/Users/farricecain/Google Antigravity/skills/john-whiting-propaganda-machine/references/objective-router.md",
+  "/Users/farricecain/Google Antigravity/skills/john-whiting-propaganda-machine/SKILL.md"
+ ],
+ "subagent_spawns": 1,
+ "finalized_at": null,
+ "last_debt_at": "2026-06-14T08:12:19.065170",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false
+}
