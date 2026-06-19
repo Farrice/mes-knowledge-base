@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (450 Commands)
+# 🚀 Antigravity Workflows — Complete Index (465 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -259,6 +259,24 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## Really Real Writing — Anne Lamott + Neal Allen (12)
+| Command | What It Does |
+|---------|-------------|
+| `/really-real-writing` | Flagship depth pass for any draft or writing goal that needs truth, clarity, heart, reader trust, and human resonance |
+| `/really-real-audit` | Diagnose where writing feels false, shallow, performative, generic, confusing, or emotionally unearned |
+| `/really-real-rewrite` | Rewrite a draft with more truth, intimacy, clarity, plain force, and reader trust |
+| `/really-real-reader-trust` | Make the reader feel safely held, emotionally honored, clear on the path, and willing to follow to the end |
+| `/really-real-attention` | Build source material through attention, aliveness, porousness, human pressure, and noticed detail |
+| `/really-real-silence` | Add subtext, restraint, omission, quiet, and reader-completed force without becoming vague |
+| `/really-real-oh-no` | Create the reader's stakes moment: the point where they stop, care, and continue |
+| `/really-real-ending` | Find the ending that feels inevitable, humane, restrained, and emotionally fair |
+| `/really-real-social` | Apply this depth to LinkedIn, X, Instagram, newsletters, and short-form posts without making them heavy |
+| `/really-real-marketing` | Add human truth to ads, emails, landing pages, offers, and brand writing without weakening conversion |
+| `/really-real-book` | Apply the craft to novels, memoir, essays, chapters, scenes, and book concepts |
+| `/really-real-client` | Deepen client-facing deliverables, strategy docs, audits, and personal brand assets without making them overwrought |
+
+---
+
 ## ✏️ Vivid Writing Craft — Michael Connelly (12)
 | Command | What It Does |
 |---------|-------------|
@@ -304,10 +322,11 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 📅 LinkedIn Daily Engine — Farrice Launch (1)
+## 📅 Farrice Content & Client-Acquisition OS — LinkedIn Launch (2)
 | Command | What It Does |
 |---------|-------------|
-| `/linkedin-daily` | Daily LinkedIn zeitgeist briefing + voice-gated post production engine. Receipt-backed trend/algorithm watch, contrarian opportunity map, pillar-rotated drafts, zero-audience commenting plan, feedback ratchet. Flags: `--first-run`, `--no-post`, `--skip-research` |
+| `/farrice-engine` | **Master front door.** Composes the daily Parallax cook + brandjack engine + lead-gen motion into one content→authority→client machine, pointed at the beachhead in `MASTER-STRATEGY.md`. Depth layer (Cognitive Signature + Aha gate), Apify-first research, dual-track acquire. Modes: `daily` (Creative Daily Brief → raw dump → 3 variants), `acquire`, `offer "<who>"`, `weekly`, `repoint`, `radar` (Apify brand sweep), `teardown "<brand>"` (keystone proof asset), `export` (→ Google Drive Docs). Loads the ICP Emotional Map (empathy moat) + Cognitive Signature + Aha/Empathy gates |
+| `/linkedin-daily` | Daily LinkedIn engine (v2, **Parallax-modeled**): research (zeitgeist + industry) → brandjack/newsjack opportunity menu + raw-take priming → HALT for Farrice's take → cook 3 voice-gated variants → fact-verify + ratchet. Flags: `--auto`, `--topic "X"`, `--no-post`, `--posts N` |
 
 ---
 
@@ -514,6 +533,23 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 🎓 Educational Virality — Kobi Brown / AstroKobi (10)
+| Command | What It Does |
+|---------|-------------|
+| `/aha-engine` | Universal front door — re-architect ANY task (post, memo, essay, deck, script) for cognitive change (aha/perspective/identity shift) + anti-slop verdict |
+| `/educational-breakout-system` | Master front door for rigorous educational content that earns attention without dumbing down |
+| `/breakout-diagnostic` | Diagnose why valuable educational content is getting skipped and prescribe the repair path |
+| `/curiosity-clarity-script` | Write a curiosity-first, clarity-rich educational post, script, lesson, or talk track |
+| `/legitimacy-ladder` | Build trust architecture using proof, process, restraint, and credibility |
+| `/simulation-analogy-lab` | Make abstract concepts visible through simulation, analogy, scale, demo, or diagram |
+| `/shorts-to-longform-loop` | Turn short-form educational tests into long-form trust and authority assets |
+| `/accuracy-without-clickbait` | Red-team hooks and claims so curiosity stays compelling without factual debt |
+| `/knowledge-work-platform-adapter` | Adapt one rigorous lesson into platform-native assets without flattening the truth |
+| `/educator-series-architect` | Build a serialized educational authority arc from curiosity to trust |
+| `/educational-virality-stacking` | Compose Kobi educational virality with other Antigravity skills without expert soup |
+
+---
+
 ## ✏️ Ghostwriting Client Management (7)
 | Command | What It Does |
 |---------|-------------|
@@ -580,7 +616,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 💰 Business & Offers (6)
+## 💰 Business & Offers (11)
 | Command | What It Does |
 |---------|-------------|
 | `/client-acquire` | Build proposals, objection handling, and over-delivery strategy |
@@ -589,6 +625,19 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/draft-proposal` | Draft a tailored freelance proposal from a job description |
 | `/lifestyle-business` | Design a 6-figure business around your ideal life |
 | `/offer-cycle` | Detect hot offers, design entry offers, plan cycle rotation |
+| `/suzuki-revenue-os` | Main Alex Suzuki revenue OS from digital product idea to post, funnel, launch sprint, and proof gaps |
+| `/suzuki-tweet-to-sale` | Write one source-grounded X post or thread to sell an ebook, course, info product, template, or digital product |
+| `/suzuki-product-funnel` | Build the offer, checkout, email, DM, trust path, and proof gate behind a Suzuki-style sales post |
+| `/suzuki-cross-platform-launch` | Adapt the Suzuki X sales mechanism to Instagram, LinkedIn, Substack, email, Threads, TikTok, or another platform |
+| `/suzuki-launch-debugger` | Diagnose and repair a digital product post or funnel that gets attention but no sales |
+| `/suzuki` | Flagship cold-start engine — any digital product (or none) to a complete selling system: offer, post, funnel, automation, distribution, launch, scale |
+| `/suzuki-coldstart` | Alias of `/suzuki` — full cold-start revenue system in one pass |
+| `/suzuki-post-lab` | Engineer the best selling post — 15-hook bank, line-by-line anatomy, 5 swipe templates, scroll-stop test, AI-gen pack |
+| `/suzuki-platform-engine` | Build a from-scratch platform-native revenue funnel (Instagram flagship; LinkedIn, YouTube, TikTok, Substack, email) |
+| `/suzuki-scale` | Design a multi-account portfolio (niche × proof source × offer) + first-distribution + saturation guardrails |
+| `/suzuki-product-source` | Get something to sell with little or nothing — Build (AI), Partner (borrowed proof), or Affiliate (proven product) |
+| `/suzuki-automate` | Set up the create → schedule → opt-in auto-DM backbone (TweetHunter-class) with a human claim-edit gate |
+| `/suzuki-flash-launch` | Run a 24-72hr honest-urgency launch with reply sprint, proof drops, and reminder frames |
 
 ---
 
@@ -752,6 +801,16 @@ You don't need to remember command names. These common phrases automatically map
 | "extract this" / "pull knowledge from this" / "run an extraction" | `extract` |
 | "write me a brief" / "strategic analysis" / "what should I focus on" | `brief` |
 | "design an offer" / "build a product" / "create an offer" | `design-digital-product-offer` |
+| "sell ebook with one tweet" / "Suzuki tweet" / "one post to sell digital product" | `suzuki-tweet-to-sale` |
+| "digital product X launch funnel" / "info product funnel" / "Suzuki revenue OS" | `suzuki-revenue-os` |
+| "adapt this launch to Instagram" / "cross-platform product launch" | `suzuki-cross-platform-launch` |
+| "why did my product post not sell" / "debug my digital product funnel" | `suzuki-launch-debugger` |
+| "build me the whole system to sell X" / "I have no product, start me from zero" | `suzuki` |
+| "best version of this selling post" / "hook bank for my product" | `suzuki-post-lab` |
+| "build a native Instagram funnel" / "sell this on [platform]" | `suzuki-platform-engine` |
+| "scale to multiple accounts" / "set up auto-DM and scheduling" | `suzuki-scale` / `suzuki-automate` |
+| "no product or proof, how do I start" / "partner or affiliate" | `suzuki-product-source` |
+| "run a 24-hour launch" | `suzuki-flash-launch` |
 | "research this market" / "landscape analysis" / "map the competition" | `research-landscape` |
 | "audit the system" / "check system health" / "is everything working" | `health-check` |
 | "what workflows do I have" / "show me my commands" / "help me find a workflow" | `workflows` |
@@ -946,5 +1005,43 @@ You don't need to remember command names. These common phrases automatically map
 | "test compliance" / "does CLAUDE.md work" / "model compliance" | `test-model-compliance` |
 | "find past work" / "search conversations" / "find context" | `find-context` |
 | "rebuild index" / "index conversations" / "make sessions searchable" | `index-conversations` |
+
+---
+
+## Recent Hot Bridges - Extraction And Upgrade Commands
+
+| Command | What It Does |
+|---------|-------------|
+| `/ce-write` | Context-engineered production for finished copy across social, content, media, storytelling, marketing, copywriting, and ghostwriting |
+| `/ce-offer` | Offer doctor for diagnosing and rebuilding weak offers without hiding hollow value |
+| `/deepen` | Full writing-depth pass: diagnose depth deficits, compose the right craft owners, and return the deepened draft plus receipt |
+| `/depth-gate` | Route a draft to the right depth workflow and owner sequence without rewriting |
+| `/depth-audit` | Diagnose depth deficits and recommend the composition chain without rewriting |
+| `/depth-inject` | Surgical single-move enrichment for one named depth deficit |
+| `/depth-line` | Line-level craft pass for compression, cadence, vivid verbs, and word energy |
+| `/depth-voice` | Voice-as-music pass to make prose sound less generic and more naturally human |
+| `/depth-stack` | Maximum-depth staged pipeline for high-stakes pieces |
+| `/depth-social` | Light, fast depth pass for social posts while preserving hook, brevity, and scanability |
+| `/depth-marketing` | Marketing and brand depth pass with humanity, specificity, and belief |
+| `/depth-copy` | Conversion-safe depth pass for sales copy, proof, offers, and CTAs |
+| `/depth-client` | Trusted advisory prose pass for client-facing and personal-brand work |
+| `/depth-book` | Architecture-led depth pass for books, essays, memoir, and long-form scenes |
+| `/jw-engine` | John Whiting Propaganda Engine OS for turning any objective into ethics-gated attention, attraction, and pipeline assets |
+| `/oe-teaching-business-os` | Omar Eltakrori teaching-business sequencer from day-one to multimillion-dollar operating path |
+| `/oe-personal-brand-blueprint` | Personal-brand pipeline from infinite content to conversion event to irresistible offer |
+| `/oe-teach-to-sell-engine` | Turn expertise into a teach-and-sell asset that creates the feeling of taking the next step |
+| `/oe-over-teaching-audit` | Red-line over-teaching and return a boiled-to-one-thing rewrite |
+| `/oe-belief-shift-architect` | Map the possible, easy, and trust beliefs an offer must install |
+| `/oe-what-not-how` | Reframe how-to content into what, when, why, and where so people can start |
+| `/oe-micro-famous` | Build Know-Like-Trust and micro-famous positioning in a niche |
+| `/oe-challenge-model` | Launch the ads-to-master-class-to-paid-challenge-to-high-ticket revenue engine |
+| `/oe-client-rolodex` | Mine client wins into proprietary frameworks and recurring content threads |
+| `/oe-framework-creation` | Alias-style framework creation path for packaging internal expertise |
+| `/oe-objective-by-context` | Set the single objective and disclosure level per platform |
+| `/oe-felt-need-titler` | Write titles and hooks that name the need the audience already feels |
+| `/oe-uncopyable-content-engine` | Build a content bank from stories, failures, wins, and lived proof |
+| `/oe-long-form-authority` | Plan long-form authority content and map the live-offer ascension ladder |
+| `/oe-mindset-over-tactics` | Convert tactical asks into belief-shift assets and run the true-influence test |
+| `/oe-receptive-soil-filter` | Design for the receptive-soil buyer and self-selection before scaling |
 
 > **Quick tip:** Don't see what you need? Just describe what you want to do and the system will find the right workflow — or build a new one.

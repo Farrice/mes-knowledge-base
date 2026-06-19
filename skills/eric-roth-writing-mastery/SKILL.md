@@ -48,3 +48,4 @@ Deploy Oscar-level craft across **every** writing domain. This is the companion 
 | **Kallaway** | Content strategy with thematic coherence across campaigns |
 | **Ward Farnsworth** | Classical rhetoric layered with visual prose cinematography |
 | **Steven Pressfield** | Narrative physics + Roth's erosion discipline for long-form craft |
+| **Anne Lamott + Neal Allen Really Real Writing** | Optional depth/truth pass after Roth structure when the piece needs more heart, plain force, reader trust, or resonance without becoming grandiose. |

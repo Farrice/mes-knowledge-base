@@ -15,6 +15,14 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 
 ---
 
+## ⚡ START HERE — The Propaganda Engine OS
+
+[`jw-engine`](workflows/jw-engine.md) is the operating system: **point it at any objective** (content, offer, service, launch, raw idea) and it deploys the whole formula end to end — classifies the objective ([`references/objective-router.md`](references/objective-router.md)), grounds and infers instead of demanding inputs, runs the propaganda sequence, stacks the right craft experts, gates every asset, and ships finished work. It rides on `/autopilot` + `/copy-engine` + `/supercomputer` and the expert roster — wiring, not rebuilding. The 15 workflows below are its components; reach for them individually when you want one tool, or fire `jw-engine` to run the machine.
+
+**`jw-engine` vs `jw-propaganda-machine`:** `jw-engine` takes *any* objective and picks the sequence; `jw-propaganda-machine` is *specifically* the sell-without-calls sequence — which `jw-engine` itself calls when it classifies a PIPELINE/OFFER objective. Start with `jw-engine` unless you already know you want the full no-calls build.
+
+---
+
 ## Workflow Table
 
 ### Tier 1 — Foundation (the irreducible operating system)

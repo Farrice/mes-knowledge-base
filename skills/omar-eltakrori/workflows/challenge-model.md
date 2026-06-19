@@ -86,3 +86,10 @@ Omar automated the challenge by:
 - Manufactured urgency and scarcity increase sales
 - One offer can get you to $1M: 200 × $5K = $1M
 - Fulfillment sells the next thing — deliver so well they renew
+
+## See Also (Teach-to-Sell layer)
+The challenge is the *delivery vehicle*; the new exterior-game workflows govern *what you teach inside it*:
+- `/oe-objective-by-context` — set the objective + disclosure for each day (master class vs Day-5 offer differ)
+- `/oe-belief-shift-architect` — build the possible/easy/trust close for the Day-5 offer
+- `/oe-teach-to-sell-engine` — make every daily session create the feeling of the next step
+- `/oe-over-teaching-audit` — keep each session to ONE thing (the fire hose kills conversion)

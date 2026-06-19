@@ -17,6 +17,8 @@ The operating layer for the one inversion underneath all of Chase Hughes's work:
 
 This skill turns that inversion into a deployable system — for marketing, content, offers, leadership, coaching, self-change, and cognitive defense.
 
+**Two modes.** *Design* (`/ce-design`, `/ce-pcp`, …) produces the context spec and hands off. *Production* (`/ce-write`, `/ce-offer`) fuses the psychology with the craft experts and produces **finished, publishable work** across seven verticals — social, content, media, storytelling, marketing, copywriting, ghostwriting — plus rebuilds weak offers. Both pass the deterministic ethics gate, so finished output is also defensible.
+
 ## Source Note + The Two-Skill Stack (Honest Scope)
 
 This is the **methodology-rich companion** the original Hughes extraction (`chase-hughes-conversational-influence`, from the *Unlearn* podcast) explicitly deferred — it flagged that the Behavior Suite, brainwashing, and interrogation work needed "a separate extract on a methodology-rich source." This is that extract, from a 23,512-word Modern Wisdom appearance.
@@ -43,6 +45,15 @@ Every offensive mechanic here is taught with its **detection tell**, its **resis
 | Workflows | `workflows/` (8 total) |
 
 ## Workflow Table
+
+### Tier 0 — Production (finished work — the cross-pollination layer)
+
+The OS does not just design context and hand off. These two **produce finished, deployable work** by fusing the context-engineering psychology with the craft experts, then passing the deterministic ethics gate.
+
+| Workflow | Slash Command | Description |
+|---|---|---|
+| `ce-write.md` | `/ce-write` | **Vertical-aware production.** Input a vertical (social / content / media / storytelling / marketing / copywriting / ghostwriting) + brief + target/voice → finished copy. Runs a compressed PCP internally, loads the craft expert(s) for the vertical (Lara, Roth, Hawley, Luke Iha, Cole, Fladlien…), and writes the craft *into* the engineered context. Output is publishable as-is. |
+| `ce-offer.md` | `/ce-offer` | **The offer doctor.** Diagnose why an offer is weak across 6 axes (category, value clarity, mechanism, proof, promise, price/risk), then rebuild it (category-flip + named mechanism + value stack + proof ladder). Makes a badly-*built* offer compelling; flags a buyer-*harming* offer honestly instead of disguising it. |
 
 ### Tier 1 — Foundation (the core moves + the OS front door)
 

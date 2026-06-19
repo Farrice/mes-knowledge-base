@@ -45,3 +45,4 @@ Write prose where a single detail does the work of five paragraphs, where moment
 | **Lara Acosta** | LinkedIn content with telling details and momentum instead of formulaic structure. Connelly's economy + Acosta's platform intelligence. |
 | **Mitch Albom** | Emotional architecture (Albom) + emotional restraint (Connelly). When to pour it on vs. when to understate. |
 | **Luke Iha** | Ad copy with telling details instead of feature lists. Connelly's "one detail that implies the rest" applied to VSL leads and fascination bullets. |
+| **Anne Lamott + Neal Allen Really Real Writing** | Optional depth/truth pass after Connelly detail and momentum when the piece needs compassion, hard truth, reader trust, or emotionally fair restraint. |

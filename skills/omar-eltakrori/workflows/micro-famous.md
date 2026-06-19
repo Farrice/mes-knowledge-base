@@ -80,3 +80,8 @@ Signs you're becoming micro-famous:
 - "The riches are in the niches, but that's more about the business you offer"
 - "Having broad appeal with a niche business is really the game"
 - "The person who appears most obsessed with a topic gets the business"
+
+## See Also (Teach-to-Sell layer)
+Micro-fame is KLT + the Five F's. The adjacent exterior-game workflows handle format and content depth:
+- `/oe-long-form-authority` — long-form so people "undeniably know who you are" + the live-offer ascension ladder
+- `/oe-uncopyable-content-engine` — the "content only you can make" moat that compounds micro-fame

@@ -1,0 +1,16 @@
+---
+name: "source-command-writing-depth"
+description: "Deepen drafts and prose with the Writing Depth layer."
+---
+
+# source-command-writing-depth
+
+Use this skill when the user asks to run the slash command `/writing-depth` or migrated source command `writing-depth`.
+
+## Command Template
+
+<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+
+Load and embody the skill at `skills/writing-depth-layer/SKILL.md`. Also load `skills/writing-depth-layer/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
+
+This skill has runnable processes. Its flagship workflow is `skills/writing-depth-layer/workflows/deepen.md`. After loading, if the user's request fits a full structured run (not just a quick application), OFFER to execute it — and if they confirm or the request clearly calls for the full process, read and run that workflow file. See the skill's 'Available Workflows' table for the other processes.

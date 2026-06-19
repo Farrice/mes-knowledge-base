@@ -13,11 +13,14 @@
 | `alex-copper` | **alex-copper** | brand architecture design, brand positioning, competitive distinction, creative brief mastery, creative strategy, cultural positioning, strategic creative direction |
 | `alex-m-smith` | **Alex M H Smith** | agent configuration, positioning, sacrifice-led innovation, set of questions run as reflexes, strategic differentiation, supply-side strategy |
 | `alex-myatt` | **alex-myatt** | creative engine system |
+| `alex-suzuki` | **Alex Suzuki** |  |
+| `alex-suzuki-revenue-architect` | **alex-suzuki-revenue-architect** | automation, cold-start partner/affiliate, comment/like-to-dm funnels, digital products, launch systems, multi-account scaling, offer proof, x/twitter sales posts |
 | `ali-abdaal` | **Ali Abdaal** | action bias, experiment cycles, overthinking tax, two-way door thinking |
 | `andrew-dun` | **Andrew Dun** | agent profile, ai consulting delivery + business process diagnosis + roi quantification |
 | `andrew-wilkinson` | **andrew-wilkinson** | adhd productivity engineering, ai entrepreneurship, ai workforce deployment, exit-ready architecture, problem-to-product translation, rapid execution, vibe coding, vibe coding mastery |
 | `andy-lo` | **Agent: Andy Lo (@andy-lo)** | andy lo (@andy-lo), asset pipeline management, deployment, headless cms architecture, motion design, visual direction, website assembly |
 | `anne-lamott` | **Anne Lamott** | agent configuration |
+| `anne-lamott-neal-allen` | **Anne Lamott + Neal Allen** | cross-domain transfer, hard-stuff handling, plain-force prose, reader continuation, reader trust repair, really real targeting, really real writing agent, restraint and silence |
 | `april-dunford` | **April Dunford** | 5-component positioning, b2b decision fear architecture, b2b positioning, b2b/b2c bifurcation, category strategy, market context engine, niche domination sequencing, positioning diagnostics, sales pitch architecture, sales pitch expert |
 | `authority-hacker` | **Gael Breton** | ai social media mastery |
 | `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
@@ -75,6 +78,8 @@
 | `kallaway` | **Kallaway** | content psychology, viral engineering strategist |
 | `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, performance feedback loops, platform adaptation |
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
+| `kobi-brown` | **kobi-brown** | coaching and consulting content, curiosity-driven learning, educational virality, educator content, legitimacy, science communication, visual explanation |
+| `lamott-allen` | **Lamott Allen** | compatibility agent |
 | `lance-yichao` | **Lance Martin & Yichao "Peak" Ji** | context engineering expert |
 | `lara-acosta` | **lara-acosta** | b2b personal branding, edu-telling translation, f-shape visual formatting, linkedin content, tech founder content systems, the 4-3-2-1 content system, the 8-word rehook architecture, the broad-narrow-niche logic, the humble brag architecture, the slay execution, viral copywriting, viral format reverse-engineering |
 | `liam-mley` | **Liam Mley** | ai brain builder agent |
@@ -100,6 +105,7 @@
 | `nicolas-cole` | **nicolas-cole** | digital product creation strategy, ghostwriting client acquisition, newsletter flywheel architecture, niche positioning, sentence-level writing optimization |
 | `noah-hawley` | **Noah Hawley: Showrunner & Storytelling Architect** | showrunner, storytelling architect |
 | `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
+| `omar-eltakrori` | **Omar Eltakrori** | agent configuration, feeling > information |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, ai marketing execution, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
 | `patrick-debois` | **patrick-debois** | ai-augmented engineering / context engineering / lifecycle architecture, distribution maturity diagnosis, honest skill quality classification, lifecycle thinking, observability loop closure, test-tier discipline |

@@ -372,6 +372,37 @@ The monetization infrastructure layer — architects how every piece of content 
 
 ---
 
+### Skill Domain 7: The Illusion of Novelty (Front-End Perception Engine)
+
+**Skill Path**: `skills/kallaway-illusion-of-novelty/`
+**Genius Context**: `skills/kallaway-illusion-of-novelty/genius.md`
+
+The front-end attention layer — manufactures the *feeling* of novelty for topics that are objectively boring, old, or saturated, so any of them earns attention in any domain. Where Content Psychology decides what to build and Addictive Storytelling keeps them watching, the Illusion of Novelty answers the upstream question: **how do you make a dead topic feel new, relevant, and worth attention in the first place?** "Novelty is a feeling you engineer, not a fact you possess."
+
+**The Five Components**: New Reveal + Outcome Mapping → Contrast Framing → Urgency (optional turbo) → Bullseye Proof (the Trust Ladder) → Protect the Illusion (don't-show-the-mascot + gossip-whisperer). Plus two apex moves: the recursive self-demonstration and the winner/loser pattern-extraction loop ("one-size framework, bespoke execution").
+
+**13 Workflows** (`/novelty-*`):
+
+| Tier | Workflow | Slash Command |
+|------|----------|---------------|
+| Foundation | Master end-to-end forge | `/novelty-forge` |
+| Foundation | New Reveal + Outcome Mapping | `/novelty-reveal` |
+| Foundation | Contrast Framing | `/novelty-contrast` |
+| Foundation | Bullseye Proof / Trust Ladder | `/novelty-proof` |
+| Practitioner | Urgency turbo + fake-urgency detector | `/novelty-urgency` |
+| Practitioner | Protect the Illusion (mascot + whisper) | `/novelty-protect` |
+| Practitioner | Novelty diagnostic / audit | `/novelty-audit` |
+| Practitioner | Divergent angle-mining | `/novelty-angles` |
+| Practitioner | Dense hook compiler | `/novelty-hook` |
+| Stacking | Winner/loser pattern extraction | `/novelty-pattern` |
+| Stacking | Hand off to the retention engine | `/novelty-to-addictive` |
+| Stacking | Scale one angle into a campaign | `/novelty-campaign` |
+| Stacking | Recursive self-demo / fourth-wall apex | `/novelty-meta` |
+
+**Specializations**: manufactured novelty, new-angle mining on stale topics, contrast-gap engineering, the Trust Ladder (self-identification proof), honest-urgency discipline, illusion protection (anti-hedging + gossip-whisperer delivery), recursive meta-content, data-driven execution calibration. Separate-but-linked enrichment layer; stacks into all six other Kallaway domains.
+
+---
+
 **Invoke with**: "@kallaway" or any request involving content strategy, viral mechanics, attention psychology, batch testing, revenue ramps, buyer-focused content, articulation mastery, rhythm engineering, tone calibration, grip/tension engineering, believability auditing, written charisma, energy transmutation, code-switching, vulnerability engineering, opening hooks, expertise deployment, obsession engineering, bankshot suggestion, belief shifting, non-obvious framing, proof architecture, audience obsession, AI content operations, topic mining, hook pattern extraction, creative reaction, social commerce, distribution valuation, Instagram Shops, agentic commerce, creator brands, or premium storytelling.
 
 ---
@@ -385,5 +416,6 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 - [`kallaway-audience-obsession`](skills/kallaway-audience-obsession/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-ai-content-engine`](skills/kallaway-ai-content-engine/genius.md) — Exemplars + Moves + Rubric
 - [`kallaway-social-commerce`](skills/kallaway-social-commerce/genius.md) — Exemplars + Moves + Rubric
+- [`kallaway-illusion-of-novelty`](skills/kallaway-illusion-of-novelty/genius.md) — 12 patterns, 2 apex moves, 3 exemplars, 7 moves, 9-criterion rubric
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

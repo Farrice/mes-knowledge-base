@@ -135,3 +135,10 @@ Use the Challenge Model:
 - Raise price as demand grows (Omar: $2K → $25K, same core offer)
 - Renewals become passive income stream
 - "I am boring. I just run the play."
+
+## See Also (Teach-to-Sell layer)
+This blueprint is a sub-routine of the operating system. Sequence and route it via:
+- `/oe-teaching-business-os` — the day-1 → multimillion sequencer that wraps this blueprint
+- `/oe-client-rolodex` — mine the proprietary framework that powers Phase 1 content
+- `/oe-uncopyable-content-engine` + `/oe-felt-need-titler` — fill the Phase 1 content engine
+- `/oe-over-teaching-audit` — gate every asset before it ships

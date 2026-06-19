@@ -15,6 +15,7 @@ Writing Craft & Creative Process Mastery extracted from Anne Lamott (author of *
 ## Source Material
 - **Primary**: YouTube interview (14,366 words) — [MC8Z4cUc6YA](https://www.youtube.com/watch?v=MC8Z4cUc6YA)
 - **Referenced Works**: *Bird by Bird*, *Help Thanks Wow*, *Good Writing* (with Neal Allen), *Hallelujah Anyway*
+- **Companion Depth Layer**: `skills/lamott-allen-really-real-writing/` owns the Anne Lamott + Neal Allen "really real" package from [sfK6XVV0M74](https://www.youtube.com/watch?v=sfK6XVV0M74). Use it after this broader process base when the draft needs truth, heart, reader trust, plain force, or emotional resonance.
 
 ## Workflow Table
 
@@ -55,8 +56,10 @@ Writing Craft & Creative Process Mastery extracted from Anne Lamott (author of *
 | Fix weak openings | `/lamott-audit` | → `/lamott-abdce` → `/connelly-slingshot` |
 | Fix bad dialogue | `/lamott-dialogue` | → `/connelly-dialogue` |
 | Strip pretension from draft | `/lamott-literary` | → `/roth-erosion` |
+| Deepen truth, heart, or reader trust | `/lamott-drafts` or `/lamott-literary` | → `/really-real-writing` or `/really-real-rewrite` |
 
 ## Quick Reference
 - **Genius Context**: `skills/lamott-craft/genius.md`
 - **Agent File**: `agents/anne-lamott/AGENT.md`
 - **Source Transcript**: `extractions/anne-lamott/transcript.txt`
+- **Really Real Companion**: `skills/lamott-allen-really-real-writing/SKILL.md`

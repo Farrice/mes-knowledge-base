@@ -13,6 +13,7 @@
 | `alex-copper-creative-strategy` | **Alex Copper Creative Strategy Skill** |  | 4 | 24 |
 | `alex-m-smith-natural-strategy` | **alex-m-smith-natural-strategy** | natural strategy skill | 5 | 0 |
 | `alex-myatt-creative-engine` | **Alex Myatt: Creative Engine System (CES)** | creative engine system (ces) v1.0 | 12 | 0 |
+| `alex-suzuki-digital-product-revenue-os` | **alex-suzuki-digital-product-revenue-os** |  | 17 | 0 |
 | `algorithmic-art` | **algorithmic-art** | creating algorithmic art using p5, js with seeded randomness and interactive parameter exploration | 0 | 0 |
 | `ali-abdaal-action-bias` | **Ali Abdaal: Action Bias** | action bias | 4 | 17 |
 | `andreessen-horowitz-new-media` | **Marc Andreessen & Ben Horowitz: New Media Strategy** | new media strategy | 4 | 6 |
@@ -33,7 +34,7 @@
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** | for personal-brand fundamentals via godin use seth-godin-brand | 11 | 19 |
 | `canvas-design` | **canvas-design** | create beautiful visual art in, png and, pdf documents using design philosophy | 0 | 0 |
 | `cardinal-mason-ai-copywriting` | **Cardinal Mason - AI Copywriting Mastery** | ai copywriting mastery | 5 | 45 |
-| `chase-hughes-context-engineering` | **chase-hughes-context-engineering** | build the perfect recipient first, standalone operating layer (/ce-design, /ce-build) and a chain step-3, 5 front-end that hands a context-design spec to a production expert | 8 | 0 |
+| `chase-hughes-context-engineering` | **chase-hughes-context-engineering** | build the perfect recipient first, standalone operating layer (/ce-design, /ce-build) and a chain step-3, 5 front-end that hands a context-design spec to a production expert | 10 | 0 |
 | `chase-hughes-conversational-influence` | **chase-hughes-conversational-influence** | conviction lands, they never know they were guided), conversational influence | 6 | 0 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | 3% instead of 1%+, for non-financial dr campaigns use bond-halbert-copywriting, for sentence-level dopamine copy use stefan-georgi-dopamine-copy | 5 | 0 |
 | `cinematic-documentary` | **cinematic-documentary** | emotion over information ("find the egg sushi"), audience treated as parallel character on transformation arc, skill manifest | 13 | 0 |
@@ -95,7 +96,7 @@
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | philosopher-financier skill | 5 | 30 |
 | `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | persuasion mastery | 9 | 6 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | for ai-leveraged copywriting business use cardinal-mason-ai-copywriting, writing career monetization | 5 | 0 |
-| `john-whiting-propaganda-machine` | **john-whiting-propaganda-machine** | john whiting's content-closes-the-sale system, carries a mandatory ethics gate, the propaganda machine | 15 | 0 |
+| `john-whiting-propaganda-machine` | **john-whiting-propaganda-machine** | john whiting's content-closes-the-sale system, carries a mandatory ethics gate, the propaganda machine | 16 | 0 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy | 2 | 5 |
 | `jonathan-franzen-storytelling` | **Jonathan Franzen - Storytelling Mastery** | storytelling mastery | 4 | 6 |
 | `joscha-bach-consciousness` | **Joscha Bach - Computational Consciousness** | philosophy-of-mind meets system design, for action-bias breakthrough on practical blocks use ali-abdaal-action-bias, computational consciousness | 5 | 0 |
@@ -107,12 +108,15 @@
 | `kallaway-ai-content-engine` | **kallaway-ai-content-engine** | skill.md | 4 | 0 |
 | `kallaway-audience-obsession` | **Kallaway Audience Obsession** | audience obsession engineering | 12 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
+| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention, the illusion of novelty | 13 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** |  | 15 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |
 | `kieran-flanagan-content-engine` | **Kieran Flanagan - Content Engine** | content engine | 8 | 0 |
 | `kieran-flanagan-content-ops` | **Kieran Flanagan - Content Ops** | content ops | 3 | 0 |
 | `kittl-graphic-design` | **Kittl Graphic Design** |  | 4 | 23 |
+| `kobi-brown-educational-virality` | **kobi-brown-educational-virality** | make educational content earn attention without dumbing it down | 10 | 9 |
+| `lamott-allen-really-real-writing` | **lamott-allen-really-real-writing** |  | 12 | 0 |
 | `lamott-craft` | **lamott-craft** | skill manifest | 12 | 0 |
 | `lance-yichao-context-engineering` | **lance-yichao-context-engineering** | context engineering | 3 | 17 |
 | `lara-acosta-content-system` | **Lara Acosta: Tech Founder Content System** | tech founder content system | 4 | 4 |
@@ -177,7 +181,7 @@
 | `omar-eddaoudi` | **Omar Eddaoudi** |  | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | premium ads mastery | 5 | 37 |
 | `omar-eddaoudi-scaling-ops` | **Omar Eddaoudi: Scaling Ops** | scaling ops (module 3) | 10 | 0 |
-| `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | personal brand business architect | 4 | 0 |
+| `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | from $34k/year to multi-seven-figures, personal brand business architect | 15 | 0 |
 | `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | brand social media archetypes | 0 | 0 |
 | `oren-content-team-architecture` | **Oren — Content-Team Architecture** | content-team architecture | 12 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | luxury psychology & premium market positioning | 3 | 9 |
@@ -252,4 +256,5 @@
 | `webapp-testing` | **webapp-testing** |  | 0 | 0 |
 | `wordsatscale-seo-ranking` | **WordsAtScale: Search Gap Method** | search gap method | 4 | 10 |
 | `wright-thompson-mastery` | **wright-thompson-mastery** | the writer's job is to see the path that was already there, narrative mastery | 13 | 0 |
+| `writing-depth-layer` | **writing-depth-layer** |  | 12 | 0 |
 | `xlsx` | **xlsx** | when claude needs to work with spreadsheets ( | 0 | 0 |
