@@ -25,6 +25,13 @@ One handoff *format*, three jobs that don't overlap:
 // turbo
 **Invoke the `/handoff` skill** (Skill tool) to produce the canonical, portable handoff document in the OS temp dir. Pass the next session's focus as the argument (e.g. the remaining priority). This is the single handoff artifact — do not hand-author a second, divergent format here.
 
+**Then persist it durably — the temp dir is ephemeral (macOS clears it on reboot):**
+// turbo
+```bash
+python execution/handoff_store.py save --from-temp
+```
+`--from-temp` auto-discovers the newest `handoff-*.md` the `/handoff` skill just wrote — no path to transcribe, which removes the main silent-failure mode. It copies the handoff into version-controlled `.agent/handoffs/`, then rebuilds a **self-contained** `LATEST.md` + `index.md` so `/session-kickoff` can deterministically resume it. Confirm the output shows `saved:` — **never skip this; it is the loop's backstop.** (Resume side lives in `session-kickoff.md` Step 0. The Stop hook also nudges if a handoff was produced but never persisted.)
+
 Then surface a 3-line pointer in chat so the human sees it at a glance without duplicating the full doc:
 
 ```markdown

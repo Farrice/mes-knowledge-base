@@ -81,6 +81,7 @@ def _load(session_id: str) -> dict:
         "produced_paths": [], "subagent_spawns": 0, "finalized_at": None,
         "last_debt_at": None, "stop_blocked_once": False,
         "staleness_warned": False, "miss_logged": False,
+        "handoff_pending": False, "handoff_warned": False,
     }
 
 
@@ -216,6 +217,9 @@ def handle_posttool(payload: dict) -> None:
             changed = True
     elif tool == "Skill":
         name = str(tin.get("skill", "")).split(":")[-1]
+        if name == "handoff":
+            ledger["handoff_pending"] = True
+            changed = True
         if name and _is_expert_skill(name):
             _add_debt(ledger, "skill_loaded", name)
             changed = True
@@ -239,6 +243,10 @@ def handle_posttool(payload: dict) -> None:
                 ledger.setdefault("finalize_failures", 0)
                 ledger["finalize_failures"] += 1
                 changed = True
+        if "handoff_store.py" in blob and ("saved:" in blob or "already stored" in blob):
+            ledger["handoff_pending"] = False
+            ledger["handoff_saved_at"] = _now()
+            changed = True
 
     if changed:
         _save(ledger)
@@ -268,6 +276,31 @@ def handle_stop(payload: dict) -> None:
     session_id = payload.get("session_id", "unknown")
     stop_active = bool(payload.get("stop_hook_active"))
     ledger = _load(session_id)
+
+    # Handoff persistence nudge — independent of finalize debt. Fires when the
+    # /handoff skill ran but the durable `handoff_store.py save` never did, so
+    # the handoff lives only in the ephemeral temp dir (lost on reboot).
+    if ledger.get("handoff_pending") and not ledger.get("handoff_warned"):
+        ledger["handoff_warned"] = True
+        _save(ledger)
+        ho_reason = (
+            "HANDOFF NOT PERSISTED — the /handoff skill ran but the durable save "
+            "never did, so the handoff lives only in the ephemeral temp dir (cleared "
+            "on reboot). Persist it now so /session-kickoff can resume it:\n\n"
+            "    python execution/handoff_store.py save --from-temp"
+        )
+        try:
+            SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
+            with open(OBSERVE_LOG, "a") as f:
+                f.write(json.dumps({"ts": _now(), "session_id": session_id,
+                                    "event": "handoff_unpersisted", "enforce": ENFORCE}) + "\n")
+        except Exception:
+            pass
+        if ENFORCE and not stop_active:
+            print(json.dumps({"decision": "block", "reason": ho_reason}))
+            sys.exit(0)
+        print(f"[ledger observe] {ho_reason}", file=sys.stderr)
+        # fall through to finalize-debt logic
 
     if not _ripened(ledger):
         sys.exit(0)

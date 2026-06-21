@@ -23,6 +23,24 @@ Determine which mode to use:
 
 ---
 
+## Step 0: Resume Check (both modes — deterministic)
+
+// turbo
+Before labeling or planning, check for a prior handoff:
+```bash
+python execution/handoff_store.py latest
+```
+- **Exit 0 (prints a path)** → read `.agent/handoffs/LATEST.md` (self-contained — the full latest handoff is embedded, no second file needed) and open the kickoff with a one-line resume offer:
+  `📋 Last session: [title] ([date]). Resume where you left off, or start fresh?`
+  If the user confirms, continue from the handoff's "Next session focus" / "Remaining priority".
+- **Exit 1 / `(no handoffs yet)`** → proceed normally.
+
+**Race Mode note:** if the user confirms a resume, do NOT create a fresh workspace in Step 1.5 — reuse the prior session's `SESSION_PATH` from the handoff so the session record doesn't fragment. Only create a new workspace when starting fresh.
+
+This is the resume side of the loop (save side = `end-session.md` Step 1). Resume is **one command**: `/session-kickoff` surfaces the latest handoff automatically — no path to remember.
+
+---
+
 ## 🏎️ Sport Mode (Default — 3 Tool Calls Max)
 
 ### Step 1: Label + Assess
