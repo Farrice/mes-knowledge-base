@@ -4,9 +4,11 @@ description: Daily content production engine
 
 # `/diandra-content-engine` — The Daily Content Production Line
 
-Takes any topic and bucket assignment → enriches with live research → writes body-first → produces a publish-ready LinkedIn post with hook candidates, format variations, and cross-platform adaptations.
+Takes a **finished body** (written separately, in one coherent voice) → mines hooks + locks bucket/format/CTA → produces hook candidates, format variations, and cross-platform adaptations. **It does not write body copy** (that lives in a separate, single-author engine).
 
 **The daily workhorse. Run this every time you sit down to write.**
+
+> **Scope note (2026-06-20 lesson):** Diandra is a **hooks + format** engine, separate and unwired from body copy. Don't use her to write the body, and don't stitch her with narrative experts into one auto-flow (the "Sandwich" produced disjointed copy that scored *worse* than the original single-author draft). Hooks in isolation → `/diandra-hook-architect`. Body copy → a separate single-author narrative engine.
 
 ## When to Use
 - You have a topic and need a finished post
@@ -102,48 +104,36 @@ Save to `.tmp/diandra-content-engine/enrichment-[slug].md`:
 
 ---
 
-## Phase 3: Body-First Production
+## Phase 3: Hook + Format Engine (Diandra's actual genius — NOT body copy)
 
-**Actor**: Orchestrator (single-agent — this is the core writing step)
+> **⚠️ Scope (2026-06-20 lesson):** This engine does **NOT** write body copy. Diandra's genius is hooks + format. Using her to write the body produces flat, informational prose; auto-composing her with narrative experts in one flow ("the Sandwich") stitched together disjointed, unflowing copy that scored *worse* than the original single-author draft. Bring a FINISHED body (written separately, by one coherent author) and Diandra tops it with a hook + format. Keep the body engine and hook engine **separate and unwired**.
 
-### Load Diandra's writing system:
+**Actor**: Orchestrator (Diandra hook/format layer only)
+
+### Step 0 — Bring the body (written separately, by ONE coherent author)
+
+The body already exists before this runs, written in a single voice: your own draft, the `/quality-content` single-author body, or one narrative engine (`writers-room`, `@mitch-albom`, `@shaan-puri`, `@wright-thompson`, or `/depth-social`). **Do not generate or rewrite the body here, and never stitch multiple experts' fragments into one body** — that synthesis is what destroyed voice coherence (the disjointed 4/10). One mind writes the body.
+
+### Step 1 — Load Diandra's hook system
+
 // turbo
-Read:
-1. `skills/diandra-escobar-linkedin-growth/genius.md` — Pattern 6 (Body-First Writing), Pattern 12 (North Star Alignment)
-2. `skills/diandra-escobar-linkedin-growth/workflows/09-linkedin-writing-engine.md`
+Read `skills/diandra-escobar-linkedin-growth/genius.md` — Pattern 6 (body-first hook mining), Pattern 20 (the gap is the engine), Pattern 21 (the 5-format hook system), the no-questions-in-hooks rule, the mobile-width model. (For hooks in pure isolation, the standalone tool is `/diandra-hook-architect`.)
 
-### Step 1: Write the Body
+### Step 2 — Mine 5 hooks from the provided body
 
-Write 150-300 words of substance, bucket-appropriate:
-- **Growth**: Analyze an entity. Position + evidence + implication.
-- **Authority**: Teach something. Framework, list, step-by-step, insight + example.
-- **Conversion**: Show a result. Before → method → after. Include specific numbers.
-- **Personal**: Tell a story. Scene → conflict → resolution → lesson.
+The best hooks already exist inside the finished body. Pull the 5 strongest lines; no question hooks (reframe any question as reported dialogue); apply the 5-format system + width ceilings. Recommend the top hook with reasoning.
 
-**Rules**:
-- Use specific numbers, names, examples from the enrichment brief
-- Every paragraph earns its place — delete anything that doesn't add new information
-- Include at least one concrete example from real experience or research
-- Write in the creator's natural voice (check genius.md Voice DNA)
+| # | Hook | Format | Type | Strength |
+|---|------|--------|------|----------|
+| 1 | [most surprising / highest-stakes line] | Punchy+Context / Dense / Bomb / Stacked | Data/Claim | ⭐⭐⭐⭐⭐ |
+| 2 | [most provocative line] | ... | Contrarian | ⭐⭐⭐⭐ |
+| 3-5 | ... | ... | Detail / Scene / Recognition | |
 
-### Step 2: Mine for 5 Hook Candidates
+### Step 3 — Assemble + Visual
 
-Read the body and extract the 5 strongest lines:
-
-| # | Hook | Type | Strength |
-|---|------|------|----------|
-| 1 | [most surprising line] | Data/Claim | ⭐⭐⭐⭐⭐ |
-| 2 | [most provocative line] | Contrarian | ⭐⭐⭐⭐ |
-| 3 | [most specific line] | Detail | ⭐⭐⭐⭐ |
-| 4 | [most emotional line] | Scene | ⭐⭐⭐ |
-| 5 | [most relatable line] | Recognition | ⭐⭐⭐ |
-
-### Step 3: Assemble the Post
-
-- Hook (selected #1 candidate) + body + CTA (matched to bucket)
-- Recommend the best hook with reasoning
-
-### Step 4: Visual Recommendation
+- Chosen hook placed above the **UNCHANGED** body + bucket-matched CTA (no cheap question signoff)
+- 🛡️ **Hard rule: Diandra tops the body, never rewrites it.** She may adjust only the single seam line where hook meets body.
+- 1-sentence visual brief for designer or Pencil:
 
 | Bucket | Visual Type |
 |--------|-------------|
@@ -151,8 +141,6 @@ Read the body and extract the 5 strongest lines:
 | Authority | Step-by-step diagram / data visualization |
 | Conversion | Before/after / result screenshot |
 | Personal | Photo / candid moment |
-
-1-sentence visual brief for designer or Pencil.
 
 ---
 
