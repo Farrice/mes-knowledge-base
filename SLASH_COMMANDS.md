@@ -1,10 +1,10 @@
-# 🚀 Antigravity Workflows — Complete Index (466 Commands)
+# 🚀 Antigravity Workflows — Complete Index (491 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
 ---
 
-## 📊 Research & Strategy (17)
+## 📊 Research & Strategy (19)
 | Command | What It Does |
 |---------|-------------|
 | `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
@@ -14,6 +14,8 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/generate-brief` | Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research |
 | `/hunt-trends` | Scan for rising trends and "Shadow Market" opportunities using Agentic Research |
 | `/quality-content` | Seed (trend or insight) → ship-ready multi-format content via the proven quality stack: parallel research + expert-genius lens + voice rules + dual QA (prose-doctor + fact-verifier). A strong default to reach for, never a hard rule. Benchmark: `_active/linkedin-launch/ai-boom-content-package.md` |
+| `/resume` | Resume any past work-thread from the durable handoff store — triage menu (one row per thread: age · status · what's unfinished) or `/resume <thread\|keyword\|number>`. You choose which, not just the last. Backed by `execution/handoff_store.py`. |
+| `/realign` | Load a past thread as BACKGROUND context for NEW work (not bound to its old plan). Same engine as `/resume`. |
 | `/research-landscape` | Universal domain research — maps any topic into a tiered landscape with strategic throughline |
 | `/research-topic` | Deep research on any topic with organized, actionable deliverable |
 | `/spy-amazon` | Spy on Amazon Best Sellers to find underserved niches (KDP/Products) |
@@ -477,6 +479,27 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## ✨ Illusion Of Novelty — Kallaway (15)
+| Command | What It Does |
+|---------|-------------|
+| `/kallaway-illusion` | Load the Kallaway illusion-of-novelty skill for boring, old, or saturated topics that need to feel newly urgent and worth attention |
+| `/novelty-engine` | End-to-end novelty content conductor: research, angle, five-component build, retention, delivery, QA, scaling, and calibration |
+| `/novelty-forge` | Turn any topic into a finished asset using the five Illusion-of-Novelty components |
+| `/novelty-reveal` | Find the new-feeling angle and map it to the audience's wanted outcome |
+| `/novelty-contrast` | Position the reveal against the audience's held belief to open the intrigue gap |
+| `/novelty-proof` | Climb the Trust Ladder to the highest honest proof rung for the reveal |
+| `/novelty-urgency` | Add honest time-compression when a real window exists, or strip fake urgency |
+| `/novelty-protect` | Scrub mascot reveals and convert salesy explanation into gossip-whisper delivery |
+| `/novelty-audit` | Score an existing piece against the novelty components and route the weakest repair |
+| `/novelty-angles` | Generate 20+ fresh angles for a saturated or boring topic |
+| `/novelty-hook` | Compress reveal, outcome, contrast, and real urgency into dense hook options |
+| `/novelty-pattern` | Compare winners and losers to extract niche-specific novelty execution rules |
+| `/novelty-to-addictive` | Hand off front-end novelty into retention loops so attention turns into continued reading or watching |
+| `/novelty-campaign` | Scale one reveal into a multi-asset, multi-platform campaign without repetition fatigue |
+| `/novelty-meta` | Build teaching content that demonstrates the framework as it teaches it |
+
+---
+
 ## 🎙️ Ghostwriting & Voice (6)
 | Command | What It Does |
 |---------|-------------|
@@ -595,12 +618,20 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
-## 🚀 LinkedIn Growth Flywheels — Diandra Escobar (5)
+## 🚀 LinkedIn Growth Flywheels — Diandra Escobar (13)
 | Command | What It Does |
 |---------|-------------|
 | `/diandra-growth-sprint` | End-to-end growth post flywheel — entity → research → 3 angles → 3 post variations + boomerang strategy |
 | `/diandra-content-engine` | Daily content production engine — topic + bucket → enrichment → body-first → 5 hooks + 3 format variations + cross-platform |
 | `/diandra-steal-and-remix` | Content sourcing flywheel — find viral posts → extract structural patterns → 3 original remixes + mechanic library |
+| `/diandra-algorithm-audit` | Diagnose what is suppressing LinkedIn reach through headline, first-50, semantic lane, and save-signal analysis |
+| `/diandra-headline-engineer` | Rewrite a LinkedIn headline for AI retrieval matching and human conversion |
+| `/diandra-first-50` | Audit and rewrite the first 50 words of a LinkedIn post for AI signal and human scroll-stop |
+| `/diandra-save-architect` | Turn a content idea into a save-worthy LinkedIn post format |
+| `/diandra-semantic-lanes` | Pick topic lanes and create a 90-day commitment plan for algorithmic semantic matching |
+| `/diandra-hook-architect` | Generate width-scored LinkedIn hooks across the core 2026 formats with gap strength and a recommended pick |
+| `/diandra-post-finisher` | Run the full LinkedIn production line in one pass from topic or draft body to publish-ready post |
+| `/diandra-rehook-teardown` | Produce a client-facing teardown of underperforming LinkedIn posts with rebuilt hooks and a habit fix |
 | `/jackpost` | Universal borrowed-attention engine — auto-detect jack type, research, produce platform-native content (LinkedIn, X, Substack, email) |
 | `/growth-format-sprint` | Batch growth production — scan trending entities, rank by potential, produce 3-5 posts in parallel across all jack types |
 
@@ -839,6 +870,7 @@ You don't need to remember command names. These common phrases automatically map
 | "rate the last output" / "how was that" | `rate` |
 | "what's trending" / "find opportunities" / "shadow market" | `hunt-trends` |
 | "make me a quality post" / "ship-ready content" / "raise the bar on this" / "trend to post" | `quality-content` |
+| "resume" / "pick up where I left off" / "what was I working on" / "my open threads" / "past sessions" | `resume` |
 | "plan my week" / "weekly breakdown" | `weekly-pulse` |
 | "today's focus" / "what should I do today" | `daily-focus` |
 | "create a skill" / "build a new skill" | `create-skill` |
@@ -935,6 +967,11 @@ You don't need to remember command names. These common phrases automatically map
 | "opening line" / "first line" / "hook opener" | `word-opener` |
 | "writing rhythm" / "sentence pacing" / "flow problems" | `word-rhythm` |
 | "write vulnerability" / "vulnerable post" / "without cringe" | `word-vulnerable` |
+| "boring topic" / "make this feel new" / "saturated topic" / "illusion of novelty" | `novelty-engine` |
+| "new angle" / "fresh angle" / "old idea new frame" | `novelty-angles` |
+| "make this hook novel" / "reveal contrast urgency proof" | `novelty-hook` |
+| "audit novelty" / "why is this content ignored" | `novelty-audit` |
+| "novelty campaign" / "scale this angle" / "one reveal many posts" | `novelty-campaign` |
 | "capture their voice" / "voice document" / "client voice" | `voice-document` |
 | "voice handoff" / "transfer voice" / "VA voice guide" | `voice-handoff` |
 | "high-value ghostwriting niche" / "voice niche" | `voice-niche` |
@@ -979,6 +1016,14 @@ You don't need to remember command names. These common phrases automatically map
 | "growth post" / "borrowed attention" / "brandjack" / "newsjack" / "namejack" | `diandra-growth-sprint` |
 | "daily content engine" / "body-first writing" / "content bucket" | `diandra-content-engine` |
 | "steal and remix" / "study viral posts" / "mechanic library" / "reverse engineer post" | `diandra-steal-and-remix` |
+| "LinkedIn algorithm audit" / "why is my reach down" / "low LinkedIn reach" | `diandra-algorithm-audit` |
+| "fix my LinkedIn headline" / "AI optimized headline" | `diandra-headline-engineer` |
+| "first 50 words" / "AI retrieval signal" / "LinkedIn opening audit" | `diandra-first-50` |
+| "make this save-worthy" / "save optimized post" | `diandra-save-architect` |
+| "topic lanes" / "semantic lanes" / "90 day LinkedIn lanes" | `diandra-semantic-lanes` |
+| "LinkedIn hook options" / "width-scored hooks" / "hook architect" | `diandra-hook-architect` |
+| "finish this LinkedIn post" / "post finisher" / "topic to publish-ready post" | `diandra-post-finisher` |
+| "rehook teardown" / "flopped LinkedIn posts" / "client hook audit" | `diandra-rehook-teardown` |
 | "jackpost" / "cross-platform post" / "entity post for X" / "entity post for email" | `jackpost` |
 | "growth sprint" / "batch growth posts" / "week of growth content" / "fill growth bucket" | `growth-format-sprint` |
 

@@ -1,3 +1,12 @@
+---
+thread: linkedin-ai-boom
+status: ready
+resume_hint: Ship/schedule the posts; pick the opener (original vs elevated)
+unfinished: Add a real anecdote to cross Post #1 to a true 10
+branch: session/ai-boom-quality-content
+pin: false
+---
+
 # Handoff — Diandra Engine Test → Hooks-Only Lesson + Elevated AI-Boom Post
 
 **Date:** 2026-06-20

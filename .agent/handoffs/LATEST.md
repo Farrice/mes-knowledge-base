@@ -1,13 +1,23 @@
-# Latest Handoff — resume here
+# Latest Handoff
 
-**File:** 2026-06-20-diandra-hooks-only.md  
+**Thread:** linkedin-ai-boom  
 **Full path:** .agent/handoffs/2026-06-20-diandra-hooks-only.md  
-**Date:** 2026-06-20  
+**Date:** 2026-06-20 (1d ago)  
+**Status:** ready  
 **Title:** Handoff — Diandra Engine Test → Hooks-Only Lesson + Elevated AI-Boom Post
+
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume linkedin-ai-boom` for this one.
 
 ---
 
-_Self-contained copy of the latest handoff (no need to open another file):_
+---
+thread: linkedin-ai-boom
+status: ready
+resume_hint: Ship/schedule the posts; pick the opener (original vs elevated)
+unfinished: Add a real anecdote to cross Post #1 to a true 10
+branch: session/ai-boom-quality-content
+pin: false
+---
 
 # Handoff — Diandra Engine Test → Hooks-Only Lesson + Elevated AI-Boom Post
 

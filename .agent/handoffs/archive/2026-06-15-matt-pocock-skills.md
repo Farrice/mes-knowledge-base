@@ -1,3 +1,10 @@
+---
+thread: matt-pocock-skills
+status: done
+resume_hint: /to-issues on .scratch/external-skill-visibility/PRD.md → slice into .scratch/external-skill-visibility/issues/. / /tdd to build external-skill-visibility test-first (setup already done).
+pin: false
+---
+
 # Handoff — Matt Pocock skills integration (end-of-session)
 
 > Generated 2026-06-15 by `/end-session` → `/handoff`. Disposable working doc (OS temp dir), not workspace documentation.

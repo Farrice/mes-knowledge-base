@@ -28,9 +28,17 @@ One handoff *format*, three jobs that don't overlap:
 **Then persist it durably — the temp dir is ephemeral (macOS clears it on reboot):**
 // turbo
 ```bash
-python execution/handoff_store.py save --from-temp
+python execution/handoff_store.py save --from-temp \
+  --thread "<thread-slug>" \
+  --status "<active|blocked|ready|mid-build|done>" \
+  --hint "<one line: the very next action>" \
+  --unfinished "<one line: what's still left>"
 ```
-`--from-temp` auto-discovers the newest `handoff-*.md` the `/handoff` skill just wrote — no path to transcribe, which removes the main silent-failure mode. It copies the handoff into version-controlled `.agent/handoffs/`, then rebuilds a **self-contained** `LATEST.md` + `index.md` so `/session-kickoff` can deterministically resume it. Confirm the output shows `saved:` — **never skip this; it is the loop's backstop.** (Resume side lives in `session-kickoff.md` Step 0. The Stop hook also nudges if a handoff was produced but never persisted.)
+- **`--thread`**: if this session RESUMED a thread, reuse that exact thread slug so the menu keeps one clean row (no v1/v2/v3 pile-up). New work → a short kebab slug for the work-stream (e.g. `jen-listings`, `mybpm-launch`, `handoff-resume-loop`).
+- **`--status`**: where the thread stands now — `ready` (just ship), `blocked` (waiting on you/a client), `mid-build`, `done` (auto-hidden from the menu), or `active`.
+- `--from-temp` auto-discovers the newest `handoff-*.md` the `/handoff` skill just wrote (no path to transcribe — removes the main silent-failure mode). It writes frontmatter + body into version-controlled `.agent/handoffs/`, rebuilds `index.md` + `LATEST.md`. Confirm the output shows `saved:` — **never skip this; it's the loop's backstop.**
+
+That frontmatter is what makes `/resume` a triage board (thread · status · what's-unfinished) instead of a flat list. (Resume side: `session-kickoff.md` Step 0 + `/resume`. The Stop hook nudges if `/handoff` ran but save didn't.)
 
 Then surface a 3-line pointer in chat so the human sees it at a glance without duplicating the full doc:
 

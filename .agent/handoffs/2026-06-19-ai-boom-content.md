@@ -1,3 +1,10 @@
+---
+thread: linkedin-ai-boom
+status: ready
+resume_hint: Ship/schedule the 2 LinkedIn posts + newsletter (posting sequence is in the package file). Note before publishing: swap the illustrative "friend who got asked 'who wrote this'" anecdote for a real, pe
+pin: false
+---
+
 # Handoff — AI-Boom × Wellness Content + /quality-content Pipeline
 
 **Session date:** 2026-06-19

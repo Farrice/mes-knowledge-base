@@ -23,21 +23,19 @@ Determine which mode to use:
 
 ---
 
-## Step 0: Resume Check (both modes — deterministic)
+## Step 0: Resume Awareness (both modes — deterministic, NO auto-load)
 
 // turbo
-Before labeling or planning, check for a prior handoff:
+Surface that resumable threads exist, but do NOT auto-load the last one (the user may want a different thread):
 ```bash
-python execution/handoff_store.py latest
+python execution/handoff_store.py threads
 ```
-- **Exit 0 (prints a path)** → read `.agent/handoffs/LATEST.md` (self-contained — the full latest handoff is embedded, no second file needed) and open the kickoff with a one-line resume offer:
-  `📋 Last session: [title] ([date]). Resume where you left off, or start fresh?`
-  If the user confirms, continue from the handoff's "Next session focus" / "Remaining priority".
-- **Exit 1 / `(no handoffs yet)`** → proceed normally.
+- If it lists ≥1 thread → add ONE line to the kickoff block: `📋 [N] resumable threads — /resume to pick one (or /resume <name>; /realign <name> to start adjacent).` Do not open, read, or summarize any handoff unless asked.
+- If it prints nothing / errors → proceed normally.
 
-**Race Mode note:** if the user confirms a resume, do NOT create a fresh workspace in Step 1.5 — reuse the prior session's `SESSION_PATH` from the handoff so the session record doesn't fragment. Only create a new workspace when starting fresh.
+Decoupled on purpose: kickoff never assumes the last thread is the one you want. The actual resume engine is **`/resume`** (menu + reload) and **`/realign`** (adjacent context).
 
-This is the resume side of the loop (save side = `end-session.md` Step 1). Resume is **one command**: `/session-kickoff` surfaces the latest handoff automatically — no path to remember.
+**Race Mode note:** if the user then resumes a thread, reuse that thread's prior `SESSION_PATH` (from the handoff) instead of creating a fresh workspace in Step 1.5, so the session record doesn't fragment.
 
 ---
 
