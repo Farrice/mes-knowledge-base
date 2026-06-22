@@ -1,5 +1,5 @@
 # Wiki Lint Report
-*Generated: 2026-06-15 | 34 issues found*
+*Generated: 2026-06-22 | 34 issues found*
 
 **Errors**: 18 | **Warnings**: 5 | **Info**: 11
 
