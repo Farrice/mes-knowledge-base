@@ -13,13 +13,25 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → 140 exper
 - Intermediates → `.tmp/` (never commit).
 
 ## The Chain (every deliverable request — no exceptions)
+0. **CODEX PREFLIGHT** — before substantial expert-domain output, run:
+   ```
+   .venv/bin/python .codex/tools/codex_orchestration_preflight.py \
+       --intent "[raw user ask]" --mode [deliverable|system|research] --format md
+   ```
+   Treat the emitted Context Load Packet as the route/load plan. If hooks are disabled,
+   this preflight is the deterministic substitute for Claude Code's automatic hooks.
 1. **SCORE** intent 1-5 (+1 each: Deliverable, Audience, Context, End-state, Specific language)
 2. **SHARPEN** if ≤3 (one round of questions max)
 3. **ROUTE** to expert skills. Default to `PRODUCTION_CORE.md` (~25 proven entries); long-tail needs explicit `/name`. Mandatory bindings: `directives/routing-bindings.md`.
 4. **LOAD** before producing: `skills/[name]/SKILL.md` + minimum one more file (genius.md or workflow). Also: `python3 execution/memory_retrieve.py "<task intent>" --top 10`
 5. **PRODUCE** — the expert's thinking, not their terminology
 5.5 **VERIFY** — factual claims about real people/events/dates/stats/sources get labeled VERIFIED/LIKELY/UNCONFIRMED before delivery
-6. **FINALIZE** (run in terminal at repo root):
+6. **ORCHESTRATION RECEIPT** — for substantial content, strategy, research,
+   extraction, client work, creative, or system work, include/record:
+   intent score, owner workflow, route proof, memory retrieved, files loaded,
+   patterns extracted, support lanes, rejected routes, verifier results, and
+   finalize status. Without this, the output is draft-quality, not publish/client-ready.
+7. **FINALIZE** (run in terminal at repo root):
    ```
    python3 execution/chain_runner.py finalize "[what you produced]" \
        --expert [name] --skill [dir] --workflow [name] \
@@ -29,11 +41,14 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → 140 exper
    ```
    Composite <7 or any dimension <6 → retry weakest section once, re-finalize. Factual Grounding <6 = delivery blocked.
 
-## No hooks on Codex — run gates manually
-Claude Code enforces these physically; here YOU are the hook:
+## Codex Hooks And Manual Fallback
+Claude Code enforces these physically; Codex uses workspace hooks when trusted,
+with the manual preflight as the deterministic fallback:
+- **Context load preflight**: `.codex/tools/codex_orchestration_preflight.py` is mandatory for substantial work and should be run before drafting.
 - **Cost gate** before any paid API (Fal, Seedance, Kling, deep-research): `python3 execution/cost_gate.py check --service <id>`. Denied = stop and surface.
-- **Finalize debt**: produced an artifact with an expert skill loaded → Step 6 is mandatory before ending.
+- **Finalize debt**: produced an artifact with an expert skill loaded → Step 7 is mandatory before ending.
 - **Routing bindings**: check `directives/routing-bindings.md` when a route feels ambiguous.
+- **Codex hook parity**: `.codex/hooks.json` routes through `.codex/tools/codex_hook_runner.py`, but global hook enablement in `~/.codex/config.toml` remains approval-gated.
 
 ## Tool remaps (system docs use Claude Code names)
 - `search_web` / `WebSearch` → Codex web search

@@ -34,6 +34,7 @@
 | `chris-cimorelli` | **chris-cimorelli** | big idea architecture, copy diagnostics, financial direct response copywriting, front-end / back-end funnel strategy, momentum copy craft, promotion architecture, proof hierarchy engineering |
 | `corey-mcclain` | **Corey McClain** | agent configuration |
 | `creative-director` | **Creative Director** |  |
+| `customer-truth-map` | **Customer Truth Map: The Cartographer** | circle the workarounds, empathy-map-plus building, job reframing + gap ranking, putting the map to work, real-language gathering, the cartographer, triangulation + freshness, verbatim cleaning |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
