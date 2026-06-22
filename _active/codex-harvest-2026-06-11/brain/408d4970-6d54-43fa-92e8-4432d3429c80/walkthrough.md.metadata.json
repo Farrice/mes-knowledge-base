@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Complete walkthrough of the Research Layer Rebuild project. Documents: 4 new infrastructure files built, 19 workflows upgraded across 3 tiers, 2 bugs found and fixed during testing, quality gate validation showing old research at 0% sourcing vs new at 85-86%. Budget impact: $1.22 of $30 spent.",
-  "updatedAt": "2026-03-21T05:21:46.217982Z",
-  "version": "2"
-}

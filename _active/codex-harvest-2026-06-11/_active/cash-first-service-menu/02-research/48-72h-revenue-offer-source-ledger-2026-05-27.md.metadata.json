@@ -1,9 +1,0 @@
-{
-  "title": "48-72 Hour Revenue Offer Source Ledger",
-  "artifactType": "source-ledger",
-  "createdFor": "Evidence ledger for fast-cash revenue offer ranking",
-  "userFacingSurface": "local-markdown-source",
-  "sourceRole": "evidence-ledger",
-  "externalExportRequested": false,
-  "createdAt": "2026-05-27"
-}

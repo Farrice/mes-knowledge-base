@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Walkthrough of the Antigravity harness audit and evolution project. Documents three phases of work: genius.md token optimization (27 files, 2.3MB saved), AGENTS.md directive index expansion (13→42 directives), and evolution store trace logging (--trace flag for chain_runner.py).",
-  "updatedAt": "2026-04-02T23:20:30.009401Z",
-  "version": "1"
-}

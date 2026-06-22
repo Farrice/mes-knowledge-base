@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Walkthrough documenting the complete Token Efficiency Overhaul implementation across 8 files. Covers Move 1 (Tiered Kickoff with Sport/Race modes), Move 2 (Internalized Chain with Chain Efficiency Rules), and Move 3 (Hot Context Cache with session state anchor integration). Includes verification plan for behavioral testing.",
-  "updatedAt": "2026-03-31T05:46:24.256066Z"
-}

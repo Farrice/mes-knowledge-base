@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Implementation plan mapping MetaHarness paper (arXiv:2603.28052v1) and Karpathy's autoresearch to Antigravity. Proposes: (1) new self-evolving-systems skill with SKILL.md + genius.md, (2) 8 workflow commands (/self-evolve, /harness-evolve, /auto-experiment, /evolution-audit, /skill-anneal, /proposer-sprint, /evolution-status, /bitter-lesson-check), (3) extraction report, (4) Tier 4 addition to deep_self_annealing.md. Includes swarm assessment table mapping MetaHarness concepts to existing Antigravity primitives and identified gaps.",
-  "updatedAt": "2026-03-31T20:49:52.729937Z"
-}

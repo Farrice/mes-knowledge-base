@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Implementation plan for breaking the CLAUDE.md/GEMINI.md mirror and creating a Gemini-optimized instruction file. Synthesizes expert insights from Boris (Bitter Lesson for Product — minimal scaffolding), Lance & Yichao (context engineering — reduce instruction density, not add more), and Nate B. Jones (7 harness gaps as translation targets). Proposes 5 translation categories: explicit execution directives, numbered checklist format, priority headers, hard gate language, and workflow-chain clarification. Includes 2 maintenance workflows (/sync-instructions and /test-model-compliance) to prevent operational drift. Verification via manual Gemini testing since Claude cannot self-test Gemini compliance.",
-  "updatedAt": "2026-03-31T15:11:03.270326Z"
-}

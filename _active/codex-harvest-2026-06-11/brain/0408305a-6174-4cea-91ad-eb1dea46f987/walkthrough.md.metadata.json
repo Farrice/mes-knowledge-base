@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Complete walkthrough for the Tim Runia story-compass forge. Documents the 13-workflow architecture (3 tiers), agent configuration, skill files, slash commands, core methodology (Want + Tension + Change → Compass Sentence), key design decisions (Position 0, anticipation as tension, non-circular change enforcement, cross-expert stacking), and structural verification results.",
-  "updatedAt": "2026-04-16T15:56:34.718691Z"
-}

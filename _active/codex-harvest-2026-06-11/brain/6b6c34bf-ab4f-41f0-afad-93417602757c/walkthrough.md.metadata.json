@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Complete walkthrough of the /recommend evolution from a 4-layer recommendation engine to a 10-step autonomous orchestration engine. Documents 8 intelligence fusions implemented across expert_router.py (5 functions, 5 CLI commands, 4 data structures) and recommend.md (complete rewrite). Includes verification results for all 5 diagnostic tests, architecture diagram, and before/after comparison.",
-  "updatedAt": "2026-04-23T01:26:43.215203Z",
-  "version": "1"
-}

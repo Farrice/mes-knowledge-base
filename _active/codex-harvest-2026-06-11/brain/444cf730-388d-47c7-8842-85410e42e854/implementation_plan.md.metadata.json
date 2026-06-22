@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Implementation plan for the Kieran Flanagan AI Content Team extraction pipeline. Covers: Deep-tier MES 3.0 extraction report (8 genius patterns, 6 hidden knowledge items), new skill directory with 15 workflow commands (/content-audience-profile, /content-style-card, /talking-points, /lookalike-content, /content-enrich, /content-bundle, /content-orchestrate, /content-feedback, /platform-adapt, /content-cluster, /hook-formula-extract, /content-series-plan, /competitor-content-spy, /content-review-cycle, /style-from-creator), agent creation, registry updates, and stacking table showing how each new workflow enhances existing Antigravity workflows.",
-  "updatedAt": "2026-03-18T18:05:54.156730Z"
-}

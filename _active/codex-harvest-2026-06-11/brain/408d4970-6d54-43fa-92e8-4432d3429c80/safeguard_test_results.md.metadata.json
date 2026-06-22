@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Test results for the anti-echo-chamber safeguards added to council.md and quality_assurance.md. 5 tests run: structural integrity (both files pass), live fire simulation replay showing 4 defense layers that would have caught the original failure, Anti-Pattern 7 symptom detection (6/6 symptoms caught), edge case coverage (quick modes, budget fallback, genuine agreement), and cross-reference with existing safeguards (no conflicts). All tests pass. System went from 0 defense layers to 4.",
-  "updatedAt": "2026-03-21T04:06:51.794823Z"
-}

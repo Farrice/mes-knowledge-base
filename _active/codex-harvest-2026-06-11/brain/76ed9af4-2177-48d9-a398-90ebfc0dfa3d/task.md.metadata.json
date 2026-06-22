@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Task tracking for the multi-model Antigravity optimization. All 4 phases tracked: harness audit (complete), expert ensemble & plan (complete), execution (complete), verification (mostly complete, pending user testing in Gemini).",
-  "updatedAt": "2026-03-31T15:34:42.927177Z",
-  "version": "1"
-}

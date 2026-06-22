@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Implementation plan for building 5 executable flywheel workflows from Diandra Escobar's LinkedIn growth system. Includes 3 LinkedIn-specific flywheels (/diandra-growth-sprint, /diandra-content-engine, /diandra-steal-and-remix) and 2 universal versions (/jackpost, /growth-format-sprint). Each flywheel follows the research → produce → assemble → quality-gate architecture established by /mini-brief and /ip-flywheel.",
-  "updatedAt": "2026-03-22T14:37:46.151183Z",
-  "version": "1"
-}

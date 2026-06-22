@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Revised harness audit plan. Removed GEMINI.md deletion (user requires it for multi-model support). Two remaining phases: (1) Add full 42-directive index to AGENTS.md replacing the 13-directive Supporting Protocols table, fix title/stale comments, externalize static config. (2) Verify/establish evolution_store with trace logging in chain_runner.py.",
-  "updatedAt": "2026-04-02T23:08:19.504573Z",
-  "version": "2"
-}

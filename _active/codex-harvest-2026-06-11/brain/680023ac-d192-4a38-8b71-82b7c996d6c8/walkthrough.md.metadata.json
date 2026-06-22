@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Complete walkthrough of the Antigravity Context Optimization Sprint, covering system instruction deduplication, workflow consolidation, genius file compression, and modular directive splitting. Documents all changes made, tools created, savings achieved (~17,000+ tokens per conversation), and verification results. No knowledge was deleted — all optimizations preserve full system depth.",
-  "updatedAt": "2026-04-11T14:45:43.694008Z",
-  "requestFeedback": true
-}

@@ -1,7 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary": "Complete walkthrough of Context Engineering Sprints 4-5-6. Documents memory scaling (FTS5, deduplication, pruning), auto-memory hooks in chain_runner.py, and directive modernization achieving 63% compression (43,972 → 16,491 bytes) across 5 files. Includes file links, validation results, and impact summary table.",
-  "updatedAt": "2026-04-13T06:26:49.669135Z",
-  "version": "2",
-  "requestFeedback": true
-}

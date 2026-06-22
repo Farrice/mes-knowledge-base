@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Complete task tracker for the Research Layer Rebuild project. All 5 phases complete: universal research engine built and tested at all depths, 19 workflows upgraded across 3 tiers, quality gate built and validated against old vs new outputs, bug fixes for per-task cap enforcement and task context isolation. Only remaining items are user-dependent (MCP install) and manual workflow tests.",
-  "updatedAt": "2026-03-21T05:21:14.196801Z",
-  "version": "5"
-}

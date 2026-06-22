@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_OTHER",
-  "summary": "Architecture analysis for Kieran Flanagan skill design. Examines existing patterns (Luke Iha = 8 skills, Cardinal Mason = 1, Dan Koe = 2), tests all 15 workflows for independence, and recommends 3-skill hybrid: audience-intelligence (4 workflows), content-engine (8 workflows), content-ops (3 workflows). Includes evidence table, token efficiency comparison, and routing impact analysis.",
-  "updatedAt": "2026-03-18T18:28:22.166017Z"
-}

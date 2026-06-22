@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Three-phase plan to upgrade 134 remaining skills and sync system routing. Phase 1: auto-generate Decision Framework + Anti-Patterns + Voice DNA from existing genius.md patterns using a Python script. Phase 2: workflow harmony injection (584 workflows). Phase 3: system routing sync (invocation-cards.md and DOMAIN_REGISTRY.md). Stubs (9 skills) get lightweight templates.",
-  "updatedAt": "2026-03-19T19:05:18.912484Z",
-  "version": "3"
-}

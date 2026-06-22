@@ -1,6 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
-  "summary":  "Phase 4 Architecture Design for Jessica Jensen skill domain. Defines 12 workflows across 3 tiers: Tier 1 Foundation (3 workflows — Platform Intelligence Grounding, B2B Song Sheet Architect, Personal Brand Physics), Tier 2 Practitioner (5 workflows — Algorithm Psychology Audit, AI Content Authenticity Gate, Creator-Company Advocacy Engine, LLM Citation Optimizer, B2B Creative Distinctiveness Audit), and Tier 3 Stacking (4 workflows — Jensen × Acosta Authentic Growth, Jensen × Dunford B2B Long Game, Jensen × Gotch Retrieval Layer, Jensen × Clark Founder Advocacy). Also defines core file structure including genius.md, SKILL.md, references, and AGENT.md.",
-  "updatedAt":  "2026-04-29T19:30:58.035921Z",
-  "requestFeedback":  true
-}

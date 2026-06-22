@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Complete task tracker for the Danny Yeung velocity-scaling operationalization. All 6 build phases are complete: extraction, registration, 11 core workflows, stacking audit, 7 stacking chain workflows, and system integration. Only Phase 7 (verification via test deployment) remains optional.",
-  "updatedAt": "2026-04-25T02:12:20.374907Z",
-  "version": "1"
-}

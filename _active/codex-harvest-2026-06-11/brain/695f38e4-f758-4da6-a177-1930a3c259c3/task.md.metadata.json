@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Task tracker for Token Efficiency Overhaul. All 3 moves are complete: Move 1 (Tiered Kickoff), Move 2 (Internalized Chain), Move 3 (Hot Context Cache). Behavioral verification deferred to next session.",
-  "updatedAt": "2026-03-31T05:46:01.876961Z",
-  "version": "3"
-}

@@ -1,5 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_OTHER",
-  "summary":  "A comprehensive, ready-to-paste prompt for Claude Code that will:\n1. Collect all Ken's Fasting Digital Product files from the workspace\n2. Organize them into a clean, priority-ordered Google Drive folder structure\n3. Add a README / 'START HERE' guide with expert insights and niche variation options\n4. Upload everything to Google Drive and return a shareable link\n\nIncludes all file paths, desired folder structure, formatting requirements, and fallback options if gdrive/rclone aren't installed.",
-  "updatedAt":  "2026-04-03T14:27:04.624293Z"
-}

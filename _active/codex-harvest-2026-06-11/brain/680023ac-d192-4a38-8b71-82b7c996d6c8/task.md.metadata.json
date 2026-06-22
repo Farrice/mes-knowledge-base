@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Complete checklist tracking the Context Optimization Sprint. All 4 phases are complete: system instruction deduplication, workflow consolidation (4 duplicate pairs merged), genius file compression, and modular directive splitting. Includes a results table showing ~17,000+ token savings per conversation.",
-  "updatedAt": "2026-04-11T14:45:12.359086Z",
-  "version": "1"
-}

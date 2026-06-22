@@ -1,6 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary":  "Extraction Vision + Architecture for luke-iha-insight-vectors skill. Covers leverage analysis, gap fill, cross-expert stacking, and the full 8-workflow architecture with tier assignments. This is the checkpoint document for Phase 2+4 of the /extract-forge pipeline.",
-  "updatedAt":  "2026-04-04T00:29:53.242056Z",
-  "requestFeedback":  true
-}

@@ -1,6 +1,0 @@
-{
-  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary":  "Diagnosis and fix plan for the Gemini truncation crash. Root cause: 416 workflow descriptions + AGENTS.md + GEMINI.md inject ~77,000 chars (~19,500 tokens) into every system prompt. The fix trims workflow descriptions to 8 words max, removes duplication between AGENTS.md and GEMINI.md, and adds a system prompt hygiene rule to the token efficiency protocol.",
-  "updatedAt":  "2026-04-04T00:11:34.799554Z",
-  "requestFeedback":  true
-}

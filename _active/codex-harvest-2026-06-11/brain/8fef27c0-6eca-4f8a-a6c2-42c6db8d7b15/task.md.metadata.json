@@ -1,6 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_TASK",
-  "summary": "Completed task tracker for the Seth Godin Brand Mastery forge pipeline. All 7 phases marked complete: deep extraction, architecture design, workflow build (10 workflows across 3 tiers), registration (agent profile + indexes + slash commands), and structural verification.",
-  "updatedAt": "2026-04-16T15:37:53.352293Z",
-  "version": "1"
-}

@@ -1,5 +1,0 @@
-{
-  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
-  "summary": "Plan to update Antigravity's directives and workflows to mitigate Claude Code caching bugs. Focuses on /clear avoidance, managing subagent loops, and tool-read limitations on session resume.",
-  "updatedAt": "2026-04-03T11:30:26.139689Z"
-}
