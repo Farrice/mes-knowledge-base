@@ -1,11 +1,26 @@
 {
  "session_id": "b86eaa2c-fa2f-4468-b2ef-56355d27eb8e",
- "debts": [],
- "produced": false,
- "produced_paths": [],
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "linkedin-2026-format-arbitrage",
+   "ts": "2026-06-22T08:32:56.007103"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "fresh-voice-system",
+   "ts": "2026-06-22T08:32:56.066979"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/briefing-2026-06-22.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-ship-copy.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/performance-log.md"
+ ],
  "subagent_spawns": 0,
- "finalized_at": null,
- "last_debt_at": null,
+ "finalized_at": "2026-06-22T08:45:12.347772",
+ "last_debt_at": "2026-06-22T08:32:56.066986",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,
