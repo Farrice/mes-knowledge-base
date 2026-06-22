@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-06-14 | 240 sources | 1,788,005 words*
+*Generated: 2026-06-22 | 240 sources | 1,788,005 words*
 
 ---
 
