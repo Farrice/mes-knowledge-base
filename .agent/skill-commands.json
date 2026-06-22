@@ -149,6 +149,10 @@
       "skill": "creative-direction"
     },
     {
+      "command": "/customer-truth",
+      "skill": "customer-truth-map"
+    },
+    {
       "command": "/dai-media",
       "skill": "dai-media-consumer-posture"
     },

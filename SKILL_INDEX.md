@@ -43,6 +43,7 @@
 | `creative-assembly` | **creative-assembly** |  | 0 | 3 |
 | `creative-campaign-strategy` | **creative-campaign-strategy** | billions sold in cooking appliances, architected gopro's $600k → $16m campaign in 2 years, ron lynch | 17 | 0 |
 | `creative-direction` | **creative-direction** | covers higgsfield, kittl, midjourney, and flux platforms | 0 | 0 |
+| `customer-truth-map` | **customer-truth-map** | replace guesswork with the customer's own words, feeds /copy-engine + /novelty-forge, voice-of-customer, organized | 13 | 0 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dan-koe-ai-leverage` | **Dan Koe - AI Leverage Methodology** | for ai affiliate-site building use darrel-wilson-ai-affiliate, for full ai-business architecture use the ai-brain pipeline, ai leverage methodology | 3 | 0 |
 | `dan-koe-multipassionate-mastery` | **Dan Koe - Multipassionate Mastery** | dan koe's one-person business system for operators who refuse to niche down, use when the user is the niche and needs to monetize multi-interest expression, multipassionate mastery | 4 | 26 |
@@ -108,7 +109,7 @@
 | `kallaway-ai-content-engine` | **kallaway-ai-content-engine** | skill.md | 4 | 0 |
 | `kallaway-audience-obsession` | **Kallaway Audience Obsession** | audience obsession engineering | 12 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** |  | 7 | 39 |
-| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention, the illusion of novelty | 13 | 0 |
+| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention, the illusion of novelty | 14 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** |  | 15 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | audience intelligence | 4 | 0 |

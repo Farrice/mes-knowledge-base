@@ -381,3 +381,59 @@
     "monthly"
   ]
 }
+{
+  "ran": [],
+  "skipped": [
+    "daily",
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-20.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 1,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 1
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [],
+  "skipped": [
+    "daily",
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-22.md",
+        "traces_24h": 23,
+        "routing_decisions_24h": 24,
+        "queued_phase2": 3,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 3
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}

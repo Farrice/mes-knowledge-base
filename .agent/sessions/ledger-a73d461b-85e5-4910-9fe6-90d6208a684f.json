@@ -1,12 +1,41 @@
 {
  "session_id": "a73d461b-85e5-4910-9fe6-90d6208a684f",
- "debts": [],
- "produced": false,
- "produced_paths": [],
- "subagent_spawns": 0,
- "finalized_at": null,
- "last_debt_at": null,
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-newsletter-flywheel",
+   "ts": "2026-06-19T06:07:12.950484"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "diandra-escobar-linkedin-growth",
+   "ts": "2026-06-20T08:20:38.752174"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-context-engineering",
+   "ts": "2026-06-21T13:49:06.391595"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-content-package.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md",
+  "/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/handoff-ai-boom-content-2026-06-19.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-content-DIANDRA-upgrade.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-Post1-SANDWICH-result.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/ai-boom-Post1-ELEVATED.md",
+  "/var/folders/kz/kfs_j6zs7czgk1_dlwp_p7580000gn/T/handoff-diandra-hooks-only-2026-06-20.md",
+  "/Users/farricecain/Google Antigravity/execution/handoff_store.py",
+  "/Users/farricecain/Google Antigravity/execution/hooks/session_ledger_hook.py"
+ ],
+ "subagent_spawns": 5,
+ "finalized_at": "2026-06-19T06:16:01.758901",
+ "last_debt_at": "2026-06-21T13:49:06.391603",
  "stop_blocked_once": false,
  "staleness_warned": true,
- "miss_logged": false
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_saved_at": "2026-06-21T14:09:52.329671"
 }

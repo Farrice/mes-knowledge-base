@@ -20,24 +20,29 @@
    "type": "skill_loaded",
    "name": "kallaway-illusion-of-novelty",
    "ts": "2026-06-18T15:09:45.401161"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kobi-brown-educational-virality",
+   "ts": "2026-06-21T07:11:42.389010"
   }
  ],
  "produced": true,
  "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/novelty-engine-flagship/FLAGSHIP.md",
+  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/SKILL.md",
   "/Users/farricecain/Google Antigravity/agents/kallaway/AGENT.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/references/five-components.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/references/trust-ladder.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/workflows/novelty-meta.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/references/source-quotes.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/references/cross-domain-adaptations.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/workflows/novelty-contrast.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/workflows/novelty-reveal.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/genius.md",
-  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/SKILL.md"
+  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/references/orchestration-blueprint.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/novelty-engine-flagship/aha-variations/V1-the-interview.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/novelty-engine-flagship/aha-variations/V2-unreadable-excellence.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/novelty-engine-flagship/aha-variations/V3-the-empty-shelf.md",
+  "/Users/farricecain/Google Antigravity/directives/ai-slop-ban-bank.md",
+  "/Users/farricecain/Google Antigravity/execution/prose_classifier.py",
+  "/Users/farricecain/Google Antigravity/skills/kallaway-illusion-of-novelty/workflows/novelty-protect.md"
  ],
- "subagent_spawns": 1,
- "finalized_at": "2026-06-18T15:18:53.615660",
- "last_debt_at": "2026-06-18T15:09:45.401170",
+ "subagent_spawns": 2,
+ "finalized_at": "2026-06-20T21:03:45.005667",
+ "last_debt_at": "2026-06-21T07:11:42.389018",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false

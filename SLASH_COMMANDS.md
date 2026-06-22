@@ -500,6 +500,25 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 
 ---
 
+## 🗺️ Customer Truth Map — Voice-of-Customer (13)
+| Command | What It Does |
+|---------|-------------|
+| `/customer-truth-map` | End-to-end voice-of-customer conductor (alias `/ctm`): gather real language → clean → map → jobs → gaps → put-to-work → refresh. Modes: BUILD · APPLY · REFRESH |
+| `/ctm-scope` | Narrow the customer, name 15–20 problems in their own voice, and find the exact communities + own-data sources to mine (grounded by Recall + memory) |
+| `/ctm-gather` | Collect raw, unedited verbatim customer language — wired to Apify Reddit → NotebookLM → Playwright → research → manual, with budget gates + fallback chain |
+| `/ctm-clean` | Strip community noise to signal, word-for-word, with the verbatim-integrity gate (no paraphrase, no invented quotes) |
+| `/ctm-map` | Sort real quotes into Say/Think/Feel/Do + Pains/Gains, name the patterns, and circle the Do-category workarounds (unmet-need flags) |
+| `/ctm-jobs` | Reframe pains into Jobs-to-be-Done ("When… I want… so I can…") + unconsidered angles |
+| `/ctm-gaps` | Build the Pain/Job → Current Fix → The Gap table, scored by gap width, to rank where to act |
+| `/ctm-to-copy` | Pull the 10 strongest quotes into headline/subhead/objection/proof slots + 8 headlines in the customer's voice |
+| `/ctm-to-content` | 15 content ideas each grounded in a real map quote + a long-form outline from the widest gap |
+| `/ctm-to-offer` | 3–5 positioning angles + 3 offer extensions aimed at the widest underserved gaps |
+| `/ctm-triangulate` | Merge maps from multiple sources into consistent truths vs source-specific (confidence-labeled) |
+| `/ctm-refresh` | Keep the map a living document: quarterly/annual refresh + dated change-log, schedulable via `/schedule` |
+| `/ctm-deepen` | Surpass layer — drive the surface map to identity-level depth via `/mcraney-deep-canvass` + consumer-posture + fact-verifier |
+
+---
+
 ## 🎙️ Ghostwriting & Voice (6)
 | Command | What It Does |
 |---------|-------------|
@@ -775,7 +794,14 @@ The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates 
 | `/routing-intelligence` | View routing analytics dashboard |
 | `/skill-evolution` | Run evolution cycle — benchmark, test variants, keep improvements |
 | `/variant-sprint` | 3-5 expert variants of same deliverable in parallel |
+| `/mission` | Mission OS for long-running, multi-milestone agent work with validation contracts and structured handoffs |
+| `/orchestrate` | Menu-only backend for ranked workflow and expert-stack options without executing |
+| `/expert-composition-governor` | Prevent expert soup by choosing one owner, bounded support lanes, and an integration ledger |
+| `/extraction-governor-agent` | Triage source material into the right reusable capability without duplicate-system drift |
 | `/system-audit` | Comprehensive health audit on the Antigravity system |
+| `/repeatability-spine` | Preserve strong prior output, diagnose failed revisions or wrong routes, and install replay/regression guards |
+| `/knowledge-librarian` | Session-start knowledge pulse for prior decisions, reusable solutions, underused workflows, and sleeping assets |
+| `/source-to-skill-system` | Turn source material into a connected skill system, workflow bridge, validation loop, or reusable command surface |
 | `/self-evolve` | MetaHarness-style self-improvement loop on any component — workflow, prompt, retrieval logic, or orchestration pattern |
 | `/harness-evolve` | Evolve a specific workflow's prompts, flow, and gates through automated iteration |
 | `/auto-experiment` | Karpathy-style experiment loops with git-branch isolation — hypothesis, test, commit only if improvement |
@@ -1041,6 +1067,14 @@ You don't need to remember command names. These common phrases automatically map
 | "social permission" / "norm shift" / "social cost" / "pluralistic ignorance" | `social-permission-campaign` |
 | "belief-first audience" / "belief posture" / "McRaney × Dai Media" | `belief-first-audience-intelligence` |
 | "evolve this" / "self-evolve" / "MetaHarness" / "improve this workflow" | `self-evolve` |
+| "mission mode" / "long-running agent work" / "multi milestone system build" | `mission` |
+| "execution menu" / "show me options" / "rank the workflows" | `orchestrate` |
+| "expert soup" / "too many agents" / "compose the full arsenal" | `expert-composition-governor` |
+| "extraction governance" / "source triage" / "avoid duplicate systems" | `extraction-governor-agent` |
+| "Codex is not firing" / "wrong workflow" / "hook parity" / "context load" | `system-audit` |
+| "lost the magic" / "revision got worse" / "cannot repeat this" | `repeatability-spine` |
+| "knowledge pulse" / "prior decisions" / "sleeping giants" / "underused workflows" | `knowledge-librarian` |
+| "turn this source into a skill system" / "source-to-system" / "workflow bridge" | `source-to-skill-system` |
 | "harness evolve" / "evolve the harness" / "workflow evolution" | `harness-evolve` |
 | "run an experiment" / "auto-experiment" / "hypothesis test" | `auto-experiment` |
 | "anneal this skill" / "skill anneal" / "quality plateau" | `skill-anneal` |

@@ -3,7 +3,6 @@
  "debts": [],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/tasks/task-01-linkedin-from-transcript.md",
   "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/tasks/task-02-copy-block-cold-start.md",
   "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/tasks/task-03-research-receipts.md",
   "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/tasks/task-04-brand-os-section.md",
@@ -12,7 +11,8 @@
   "/Users/farricecain/Google Antigravity/directives/hermes-usage-policy.md",
   "/Users/farricecain/Google Antigravity/directives/model-notes.md",
   "/Users/farricecain/.hermes/config.yaml",
-  "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/capability-matrix.md"
+  "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/capability-matrix.md",
+  "/tmp/antigravity-handoff-2026-06-19.md"
  ],
  "subagent_spawns": 4,
  "finalized_at": null,

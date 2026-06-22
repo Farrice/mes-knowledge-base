@@ -1,0 +1,66 @@
+{
+ "session_id": "a76654c6-cb4a-480c-a940-f64c4634297b",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "meg-heckman-buyer-trigger-os",
+   "ts": "2026-06-21T14:37:59.990946"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-illusion-of-novelty",
+   "ts": "2026-06-21T14:38:08.921069"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-avatar-machine",
+   "ts": "2026-06-21T14:38:51.523248"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "david-mcraney-belief-change",
+   "ts": "2026-06-21T14:38:53.971172"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kieran-flanagan-audience-intelligence",
+   "ts": "2026-06-21T14:39:02.023922"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dai-media-consumer-posture",
+   "ts": "2026-06-21T14:39:12.100791"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-audience-obsession",
+   "ts": "2026-06-21T14:39:47.051301"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "customer-truth-map",
+   "ts": "2026-06-21T15:01:08.888833"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-gaps.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-to-offer.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-to-content.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-to-copy.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-triangulate.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-refresh.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-clean.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/references/prompt-library.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/workflows/ctm-gather.md",
+  "/Users/farricecain/Google Antigravity/skills/customer-truth-map/references/worked-exemplar-jen-fthb.md"
+ ],
+ "subagent_spawns": 11,
+ "finalized_at": "2026-06-21T20:54:13.983543",
+ "last_debt_at": "2026-06-21T15:01:08.888843",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false
+}

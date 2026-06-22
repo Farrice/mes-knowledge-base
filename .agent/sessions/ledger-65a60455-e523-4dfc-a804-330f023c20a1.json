@@ -1,5 +1,5 @@
 {
- "session_id": "9fc88858-e639-43b3-af05-dba52b560918",
+ "session_id": "65a60455-e523-4dfc-a804-330f023c20a1",
  "debts": [],
  "produced": false,
  "produced_paths": [],
@@ -8,5 +8,7 @@
  "last_debt_at": null,
  "stop_blocked_once": false,
  "staleness_warned": true,
- "miss_logged": false
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false
 }

@@ -51,7 +51,7 @@ BANNED_WORDS = [
 
 # Tier 2: AI hedging phrases
 HEDGING_PHRASES = [
-    r"\bargually\b", r"\bpotentially\b", r"\bit'?s worth noting\b",
+    r"\barguably\b", r"\bpotentially\b", r"\bit'?s worth noting\b",
     r"\bit'?s important to\b", r"\bit should be noted\b",
     r"\bin many ways\b", r"\bto some extent\b", r"\bvarious\b",
     r"\bnumerous\b", r"\bsignificant\b", r"\bsubstantial\b",
@@ -80,6 +80,84 @@ EMPTY_OPENERS = [
 
 # Tier 5: Adjective stacking (AI loves "comprehensive, strategic, data-driven")
 ADJECTIVE_STACK_PATTERN = r'\b\w+(?:ive|ful|ous|ent|ant|tic|al),\s+\w+(?:ive|ful|ous|ent|ant|tic|al)\b'
+
+# Tier 6: Manufactured-reveal / gatekept-knowledge lead-ins (the "the part nobody..." family).
+# These ANNOUNCE the writing instead of doing it. High-confidence formulaic tells — fire on any hit.
+# Calibrated on Farrice's rejections (the "Here is the part that should keep you up" / "the quiet part is" tells).
+REVEAL_LEADINS = [
+    r"\bhere'?s (?:what|why|how)\b",
+    r"\bhere'?s the thing\b",
+    r"\bhere'?s how \w+ this is\b",
+    r"\bthe part (?:nobody|no one) (?:warns|tells|talks)\b",
+    r"\bthe (?:quiet|hard|real|scary|uncomfortable) part is\b",
+    r"\bthe thing (?:nobody|no one) (?:tells|warns|talks)\b",
+    r"\bthe part that should keep you up\b",
+    r"\bwhat (?:nobody|no one) (?:tells|warns) you\b",
+    r"\bhere'?s what (?:happens when|they don'?t|nobody)\b",
+    r"\blet me explain\b",
+    r"\bbuckle up\b",
+    r"\bplot twist\b",
+]
+
+# Tier 7: LinkedIn / creator-genre cliches (formulaic engagement gestures).
+LINKEDIN_TROPES = [
+    r"\blet that sink in\b",
+    r"\bread that again\b",
+    r"\bi'?ll wait\b",
+    r"\bthis changes everything\b",
+    r"\bgame[- ]chang(?:er|ing)\b",
+    r"\bwon'?t replace you[,.]? but\b",
+    r"\bno longer optional\b",
+    r"\bis dead\.?\s+long live\b",
+    r"\bmic drop\b",
+    r"\bunpopular opinion\b",
+    r"\bwe need to talk about\b",
+]
+
+# Tier 8: Generic question sign-offs (cheap engagement-bait closers) — checked on the LAST line only.
+GENERIC_QUESTION_CLOSE = [
+    r"^(?:agree|thoughts|right|yes|no)\?+$",
+    r"^what (?:would you add|do you think|are your thoughts|say you)\??$",
+    r"^(?:am i wrong|change my mind|who'?s with me|sound familiar)\??$",
+    r"\bdrop .{0,30}in the comments\b",
+]
+
+# Tier 11: Mascot reveals (the novelty-protect kill-list) — admitting the new frame is the old thing.
+MASCOT_REVEALS = [
+    r"\bthis is really just\b",
+    r"\bas you (?:probably|already) know\b",
+    r"\b(?:this )?has been around (?:forever|for decades|for years)\b",
+    r"\bto be fair,? this (?:isn'?t|is not) new\b",
+    r"\bi'?m no expert,? but\b",
+    r"\b(?:this )?might be obvious,? but\b",
+    r"\bgrain of salt\b",
+    r"\bnothing (?:new|groundbreaking) (?:here|about)\b",
+]
+
+# Tier 12: Manufactured-stakes / thriller-cadence lines (unambiguous clichés only — "should scare you"
+# in natural relative-clause usage is fine, so it is deliberately excluded).
+MANUFACTURED_STAKES = [
+    r"\bkeep you up at night\b",
+    r"\bsay it louder for the people\b",
+]
+
+# Tier 13: Hinge / scene-transition seams.
+HINGE_PHRASES = [
+    r"\bthat'?s where \w+ comes? in\b",
+    r"\blet me break it down\b",
+    r"\bwhat does this mean for you\b",
+    r"\bare you ready to (?:embrace|adopt|unlock)\b",
+    r"\bso,? what does (?:this|that) mean\b",
+]
+
+# Tier 14: Current-era (GPT-4o) vocab cluster — fires on OVERUSE (>1), low severity each.
+CURRENT_ERA_VOCAB = [
+    r"\bensuring\b", r"\bshowcasing\b", r"\bhighlighting\b",
+    r"\balign(?:ing|ed)? with\b", r"\bunderscoring\b", r"\bseamless(?:ly)?\b",
+]
+
+# Tier 15: Doubled-adjective hedge ("quieter and harder", "stranger and deeper").
+DOUBLED_ADJ_HEDGE = r'\b\w+er and (?:harder|deeper|wider|stranger|quieter|colder|darker|softer|sharper)\b'
 
 
 def _split_sentences(text: str) -> List[str]:
@@ -191,6 +269,166 @@ def _check_parallel_structure(text: str) -> Tuple[int, str]:
     return parallel_count, detail
 
 
+def _check_reveal_leadins(text: str) -> Tuple[int, List[str]]:
+    """Manufactured-reveal / gatekept-knowledge lead-ins ('the part nobody warns you about',
+    'here's how new this is'). They announce the writing instead of doing it. High-confidence tell."""
+    text_lower = text.lower()
+    found = []
+    for pattern in REVEAL_LEADINS:
+        for m in re.findall(pattern, text_lower):
+            found.append(m if isinstance(m, str) and m else pattern)
+    return len(found), found
+
+
+def _check_linkedin_tropes(text: str) -> Tuple[int, List[str]]:
+    """LinkedIn/creator-genre engagement cliches ('let that sink in', 'game-changer', 'I'll wait')."""
+    text_lower = text.lower()
+    found = []
+    for pattern in LINKEDIN_TROPES:
+        if re.search(pattern, text_lower):
+            found.append(pattern.strip("\\b").replace("\\", ""))
+    return len(found), found
+
+
+def _check_question_close(text: str) -> Tuple[int, List[str]]:
+    """Generic question sign-off on the final non-blank line (the cheap engagement-bait close)."""
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    if not lines:
+        return 0, []
+    last = lines[-1].lower()
+    for pattern in GENERIC_QUESTION_CLOSE:
+        if re.search(pattern, last):
+            return 1, [lines[-1][:60]]
+    # A bare short interrogative as the closer (<=8 words ending in ?) is the generic-question tell.
+    if last.endswith('?') and len(last.split()) <= 8:
+        return 1, [lines[-1][:60]]
+    return 0, []
+
+
+def _check_em_dashes(text: str) -> Tuple[int, str]:
+    """Count em-dashes. Farrice's #1 personal tell; the standard is a hard ceiling of 1-2 per piece."""
+    count = len(re.findall(r'—', text))
+    return count, f"{count} em-dashes (ceiling is 1-2)"
+
+
+def _check_contrast_reveal(text: str) -> Tuple[int, List[str]]:
+    """The 'It's not X. It's Y.' / 'no longer X; what wins is Y' antithesis MOVE — the banned
+    contrast-reveal that survives word-level scans. Detects a negation-claim sentence followed by a
+    short counter-assertion, plus the single-sentence semicolon reframe."""
+    sentences = _split_sentences(text)
+    found = []
+    neg = re.compile(r"\b(?:it'?s not|it was not|isn'?t|wasn'?t|no longer)\b", re.IGNORECASE)
+    counter = re.compile(r"^(?:it'?s|it was|that'?s|what (?:wins|matters|counts)|the real|instead)\b", re.IGNORECASE)
+    for i in range(len(sentences) - 1):
+        if neg.search(sentences[i]) and counter.match(sentences[i + 1].strip()):
+            found.append(sentences[i][:35] + " || " + sentences[i + 1][:35])
+    for s in sentences:
+        if re.search(r"\bno longer\b.{0,60};\s*what (?:wins|matters|counts)\b", s, re.IGNORECASE):
+            found.append(s[:70])
+    return len(found), found
+
+
+def _split_paragraphs(text: str) -> List[str]:
+    """Split into paragraphs on blank lines (fall back to single newlines if there are none)."""
+    paras = re.split(r'\n\s*\n', text)
+    if len(paras) < 2:
+        paras = [p for p in text.split('\n') if p.strip()]
+    return [p.strip() for p in paras if p.strip()]
+
+
+def _scan_patterns(text: str, patterns: List[str]) -> Tuple[int, List[str]]:
+    """Generic case-insensitive whole-text scan; returns total match count + matched strings."""
+    text_lower = text.lower()
+    found = []
+    for pattern in patterns:
+        for m in re.findall(pattern, text_lower):
+            found.append(m if isinstance(m, str) and m.strip() else pattern)
+    return len(found), found
+
+
+def _check_internal_anaphora(text: str) -> Tuple[int, List[str]]:
+    """>=3 sentences WITHIN one paragraph sharing the same first word (semantic anaphora the
+    line-based _check_parallel_structure misses, e.g. 'She doesn't... She doesn't... She doesn't...')."""
+    # Function words are meaningless as anaphora (everyone starts sentences with "the"/"it").
+    # The tell is a meaningful repeated SUBJECT ("She doesn't... She doesn't...", "They want...").
+    stop = {
+        "the", "a", "an", "and", "but", "so", "or", "nor", "yet", "in", "on", "at",
+        "of", "to", "for", "as", "if", "then", "there", "here", "it", "this", "that",
+        "these", "those", "with", "by", "from", "no", "not", "now", "when",
+    }
+    found = []
+    for para in _split_paragraphs(text):
+        sents = _split_sentences(para)
+        if len(sents) < 3:
+            continue
+        firsts = [s.split()[0].lower().strip('.,;:"\'') for s in sents if s.split()]
+        for word, n in Counter(firsts).items():
+            if n >= 3 and len(word) > 1 and word not in stop:
+                found.append(f"'{word}' x{n}")
+    return len(found), found
+
+
+def _check_aphoristic_endings(text: str) -> Tuple[int, List[str]]:
+    """Uniform aphoristic-ending rhythm: paragraphs that close on a short punch (<=6 words) after a
+    longer sentence. Fires only when >=3 paragraphs do it (the rhythm, not one good punch)."""
+    count = 0
+    examples = []
+    for para in _split_paragraphs(text):
+        sents = _split_sentences(para)
+        if len(sents) < 2:
+            continue
+        last, prev = sents[-1], sents[-2]
+        if len(last.split()) <= 6 and len(prev.split()) >= 12:
+            count += 1
+            examples.append(last[:40])
+    return count, examples
+
+
+def _check_gerund_tails(text: str) -> Tuple[int, List[str]]:
+    """Sentences ending in a comma + '-ing' significance clause ('..., underscoring its significance')."""
+    found = []
+    for s in _split_sentences(text):
+        if re.search(r',\s+\w+ing\b[^.!?]{0,45}[.!?]?$', s):
+            found.append(s[-45:])
+    return len(found), found
+
+
+def _check_micdrop_deflation(text: str) -> Tuple[int, List[str]]:
+    """A 1-3 word final paragraph (typographic mic-drop), in a multi-paragraph piece."""
+    paras = _split_paragraphs(text)
+    if len(paras) > 2 and 1 <= len(paras[-1].split()) <= 3:
+        return 1, [paras[-1][:30]]
+    return 0, []
+
+
+def _check_town_crier(text: str) -> Tuple[int, List[str]]:
+    """Billboard register: ALL-CAPS runs, hype words, exclamation density (acronyms excluded)."""
+    hits = []
+    hits += re.findall(r'\b[A-Z]{2,}(?:\s+[A-Z]{2,}){2,}\b', text)
+    hits += re.findall(r'\b(?:HUGE|MASSIVE|INSANE|BREAKING)\b', text)
+    if re.search(r'\byou NEED to\b', text):
+        hits.append('you NEED to')
+    excl = text.count('!')
+    if excl / max(len(text.split()), 1) * 100 > 1.0:
+        hits.append(f'{excl} exclamation marks')
+    return len(hits), hits[:5]
+
+
+def _check_structural_emoji(text: str) -> Tuple[int, List[str]]:
+    """Emoji on a markdown header line or at a line-end (structure-as-decoration)."""
+    emoji = re.compile(r'[\U0001F000-\U0001FAFF☀-➿←-⇿]')
+    found = []
+    for line in text.split('\n'):
+        ls = line.strip()
+        if not ls:
+            continue
+        if (ls.startswith('#') or ls.startswith('-') or ls.startswith('*')) and emoji.search(ls):
+            found.append(ls[:30])
+        elif emoji.search(ls[-3:]):
+            found.append(ls[-15:])
+    return len(found), found
+
+
 def classify_prose(text: str) -> Dict[str, Any]:
     """
     Classify text for AI-prose patterns.
@@ -213,6 +451,22 @@ def classify_prose(text: str) -> Dict[str, Any]:
     rhythm_cv, rhythm_verdict = _check_rhythm_uniformity(text)
     adj_count, adj_stacks = _check_adjective_stacking(text)
     parallel_count, parallel_detail = _check_parallel_structure(text)
+    reveal_count, reveal_found = _check_reveal_leadins(text)
+    li_count, li_found = _check_linkedin_tropes(text)
+    qclose_count, qclose_found = _check_question_close(text)
+    emdash_count, emdash_detail = _check_em_dashes(text)
+    contrast_count, contrast_found = _check_contrast_reveal(text)
+    mascot_count, mascot_found = _scan_patterns(text, MASCOT_REVEALS)
+    stakes_count, stakes_found = _scan_patterns(text, MANUFACTURED_STAKES)
+    hinge_count, hinge_found = _scan_patterns(text, HINGE_PHRASES)
+    era_count, era_found = _scan_patterns(text, CURRENT_ERA_VOCAB)
+    dbladj_count = len(re.findall(DOUBLED_ADJ_HEDGE, text, re.IGNORECASE))
+    anaphora_count, anaphora_found = _check_internal_anaphora(text)
+    aphoristic_count, aphoristic_found = _check_aphoristic_endings(text)
+    gerund_count, gerund_found = _check_gerund_tails(text)
+    micdrop_count, micdrop_found = _check_micdrop_deflation(text)
+    towncrier_count, towncrier_found = _check_town_crier(text)
+    semoji_count, semoji_found = _check_structural_emoji(text)
 
     # Score each signal (normalized by text length)
     words_per_signal = max(word_count / 100, 1)  # Normalize per 100 words
@@ -275,6 +529,149 @@ def classify_prose(text: str) -> Dict[str, Any]:
             "detail": parallel_detail,
         })
 
+    # Tier 6 — manufactured-reveal lead-ins. High-confidence: one is a WARNING, two FLAG.
+    if reveal_count > 0:
+        signals.append({
+            "type": "manufactured_reveal_leadin",
+            "severity": min(reveal_count * 2.0, 4),
+            "count": reveal_count,
+            "examples": list(dict.fromkeys(reveal_found))[:3],
+        })
+
+    # Tier 7 — LinkedIn-genre cliches.
+    if li_count > 0:
+        signals.append({
+            "type": "linkedin_genre_cliche",
+            "severity": min(li_count * 1.5, 3),
+            "count": li_count,
+            "examples": li_found[:3],
+        })
+
+    # Tier 8 — generic question sign-off (the cheap close).
+    if qclose_count > 0:
+        signals.append({
+            "type": "generic_question_signoff",
+            "severity": 1.5,
+            "count": qclose_count,
+            "examples": qclose_found,
+        })
+
+    # Tier 9 — em-dash overuse (ceiling 1-2; fire at 3+).
+    if emdash_count > 2:
+        signals.append({
+            "type": "em_dash_overuse",
+            "severity": min((emdash_count - 1) * 0.7, 3),
+            "count": emdash_count,
+            "detail": emdash_detail,
+        })
+
+    # Tier 10 — the "It's not X. It's Y." contrast-reveal antithesis MOVE.
+    if contrast_count > 0:
+        signals.append({
+            "type": "contrast_reveal_antithesis",
+            "severity": min(contrast_count * 2.0, 3),
+            "count": contrast_count,
+            "examples": contrast_found[:2],
+        })
+
+    # Tier 11 — mascot reveals (hedge-to-old / false modesty). Near-binary; one is a strong WARNING.
+    if mascot_count > 0:
+        signals.append({
+            "type": "mascot_reveal",
+            "severity": min(mascot_count * 3.0, 6),
+            "count": mascot_count,
+            "examples": mascot_found[:3],
+        })
+
+    # Tier 12 — manufactured-stakes thriller cadence.
+    if stakes_count > 0:
+        signals.append({
+            "type": "manufactured_stakes",
+            "severity": min(stakes_count * 2.0, 4),
+            "count": stakes_count,
+            "examples": stakes_found[:3],
+        })
+
+    # Tier 13 — hinge / scene-transition seams.
+    if hinge_count > 0:
+        signals.append({
+            "type": "hinge_seam",
+            "severity": min(hinge_count * 1.5, 3),
+            "count": hinge_count,
+            "examples": hinge_found[:3],
+        })
+
+    # Tier 14 — current-era vocab cluster (fires only on overuse).
+    if era_count > 1:
+        signals.append({
+            "type": "current_era_vocab",
+            "severity": min((era_count - 1) * 1.0, 3),
+            "count": era_count,
+            "examples": list(dict.fromkeys(era_found))[:4],
+        })
+
+    # Tier 15 — doubled-adjective hedge.
+    if dbladj_count > 0:
+        signals.append({
+            "type": "doubled_adjective_hedge",
+            "severity": min(dbladj_count * 1.5, 3),
+            "count": dbladj_count,
+        })
+
+    # Tier 16 — internal anaphora (3+ same-first-word sentences in one paragraph).
+    if anaphora_count > 0:
+        signals.append({
+            "type": "internal_anaphora",
+            "severity": min(anaphora_count * 2.0, 3),
+            "count": anaphora_count,
+            "examples": anaphora_found[:3],
+        })
+
+    # Tier 17 — uniform aphoristic paragraph endings (>=3 short punches after long sentences).
+    if aphoristic_count >= 3:
+        signals.append({
+            "type": "aphoristic_endings",
+            "severity": min((aphoristic_count - 2) * 1.5, 3),
+            "count": aphoristic_count,
+            "examples": aphoristic_found[:3],
+        })
+
+    # Tier 18 — gerund significance tails.
+    if gerund_count > 1:
+        signals.append({
+            "type": "gerund_significance_tails",
+            "severity": min((gerund_count - 1) * 1.5, 3),
+            "count": gerund_count,
+            "examples": gerund_found[:3],
+        })
+
+    # Tier 19 — mic-drop deflation (1-3 word final paragraph).
+    if micdrop_count > 0:
+        signals.append({
+            "type": "micdrop_deflation",
+            "severity": 2.0,
+            "count": micdrop_count,
+            "examples": micdrop_found,
+        })
+
+    # Tier 20 — town-crier register.
+    if towncrier_count > 0:
+        signals.append({
+            "type": "town_crier_register",
+            "severity": min(towncrier_count * 1.5, 3),
+            "count": towncrier_count,
+            "examples": towncrier_found[:3],
+        })
+
+    # Tier 21 — structural emoji (decoration on headers / line-ends).
+    if semoji_count > 0:
+        signals.append({
+            "type": "structural_emoji",
+            "severity": min(semoji_count * 1.5, 3),
+            "count": semoji_count,
+            "examples": semoji_found[:3],
+        })
+
     # Calculate overall score
     total_severity = sum(s.get("severity", 0) for s in signals)
     ai_score = min(round(total_severity, 1), 10)
@@ -297,6 +694,16 @@ def classify_prose(text: str) -> Dict[str, Any]:
                 fixes.append("Delete empty openers — start with the point")
             elif s["type"] == "rhythm_uniformity":
                 fixes.append("Vary sentence length — mix short punches with longer builds")
+            elif s["type"] == "manufactured_reveal_leadin":
+                fixes.append("Cut the reveal lead-in ('the part nobody...', 'here's what/why/how') — state the insight directly")
+            elif s["type"] == "contrast_reveal_antithesis":
+                fixes.append("Rewrite the 'It's not X. It's Y.' antithesis as one direct claim")
+            elif s["type"] == "generic_question_signoff":
+                fixes.append("Replace the question sign-off with an image, declaration, or bookend close")
+            elif s["type"] == "em_dash_overuse":
+                fixes.append("Reduce em-dashes to at most 1-2 per piece")
+            elif s["type"] == "linkedin_genre_cliche":
+                fixes.append("Cut the LinkedIn cliche ('let that sink in', 'game-changer', 'I'll wait')")
         recommendation = "Review these before finalizing: " + "; ".join(fixes)
     else:
         verdict = "FLAGGED"

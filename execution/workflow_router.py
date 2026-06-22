@@ -45,6 +45,49 @@ DOMAIN_MAP = {
     "revenue": ["revenue", "monetize", "recurring", "affiliate", "lifestyle-business"],
 }
 
+CONTROL_PLANE_PRIORITY = [
+    (
+        ("autopilot", "triage menu", "skill selection", "what workflow", "what should i use", "too many tools", "front door"),
+        "autopilot",
+    ),
+    (
+        ("autopilot", "triage menu", "skill selection", "self improving", "self-improving"),
+        "source-to-skill-system",
+    ),
+    (
+        ("autopilot", "triage menu", "show me the menu", "orchestration", "skill selection"),
+        "orchestrate",
+    ),
+    (
+        ("autopilot", "routing", "monitoring", "triage menu"),
+        "routing-intelligence",
+    ),
+    (
+        ("autopilot", "self improving", "self-improving", "improve workflow"),
+        "self-evolve",
+    ),
+    (
+        ("autopilot", "skill selection", "quality plateau", "skill prompt"),
+        "skill-anneal",
+    ),
+    (
+        ("not firing", "isn't firing", "codex feels", "harness", "routing layer", "orchestration layer", "hook parity", "context load", "skill loading"),
+        "system-audit",
+    ),
+    (
+        ("lost the magic", "cannot repeat", "can't repeat", "revision got worse", "repeatability", "regression", "preservation lock"),
+        "repeatability-spine",
+    ),
+    (
+        ("source-to-skill-system", "source to skill system", "source-to-system", "source to system", "turn this source", "connected skill system", "workflow bridge"),
+        "source-to-skill-system",
+    ),
+    (
+        ("knowledge pulse", "library pulse", "prior decisions", "reusable solution", "sleeping giants", "underused workflow"),
+        "knowledge-librarian",
+    ),
+]
+
 
 def build_index():
     """Build the workflow index from .agent/workflows/."""
@@ -88,7 +131,8 @@ def build_index():
 def search_workflows(query, top_n=10):
     """Search workflows by keyword matching against name + description."""
     index = build_index()
-    query_terms = query.lower().split()
+    query_lower = query.lower()
+    query_terms = query_lower.split()
     scored = []
 
     for wf in index:
@@ -105,6 +149,11 @@ def search_workflows(query, top_n=10):
                 # Full name match
                 if term in wf["full_name"].lower():
                     score += 1
+        for signals, workflow in CONTROL_PLANE_PRIORITY:
+            if wf["name"] == workflow and any(signal in query_lower for signal in signals):
+                score += 50
+        if wf["name"] == "autopilot" and "autopilot" in query_lower:
+            score += 150
         if score > 0:
             scored.append((score, wf))
 

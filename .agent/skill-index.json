@@ -370,6 +370,16 @@
     "status": ""
   },
   {
+    "name": "customer-truth-map",
+    "directory": "customer-truth-map",
+    "description": "Replace guesswork with the customer's own words. The Customer Truth Map is a voice-of-customer system that gathers real, unedited customer language from where people already talk, cleans it to signal (verbatim, never paraphrased), organizes it into an empathy-map-derived map (Say / Think / Feel / Do + Pains / Gains), reframes pains into Jobs-to-be-Done, ranks the widest gaps, then runs copy, content, positioning, and offers through that map \u2014 and keeps it fresh as a living document. Use when copy \"lands with a thud,\" when you're entering a new market or audience, when content keeps missing problems people actually have, when positioning feels assumed rather than evidenced, or when you need a reusable customer-reality document multiple deliverables can execute against. Wired to real tools (Apify Reddit, NotebookLM, Playwright, Recall, research) and composes /buyer-sourcer + /mcraney-deep-canvass; feeds /copy-engine + /novelty-forge.",
+    "when_to_use": "",
+    "mtime": 1782080521.9804065,
+    "slash": "/customer-truth-map",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Dai Media - Consumer Posture Framework",
     "directory": "dai-media-consumer-posture",
     "description": "Consumer Posture framework for identity-based brand strategy from Dai Media. Use when building consumer profiles, creating resonant content, developing brand positioning, or designing sales approaches. Replaces outdated demographic thinking with three-dimensional individual understanding (Occupation, Activity, Thought Process).",
@@ -1014,7 +1024,7 @@
     "directory": "kallaway-illusion-of-novelty",
     "description": "Manufactures the FEELING of novelty for boring, old, or saturated topics so any of them earns attention in any domain. Kallaway's 5-component Illusion of Novelty engine \u2014 New Reveal + Outcome Mapping, Contrast Framing, Urgency (optional turbo), Bullseye Proof (Trust Ladder), Protect the Illusion (don't-show-the-mascot + gossip-whisperer) \u2014 made domain-agnostic for social, marketing, copywriting, ghostwriting, and storytelling. Use when a topic is \"too boring/saturated to make interesting,\" when a hook won't stop the scroll, when content is accurate but ignored, when an old idea needs to feel new, or when entering a stale niche. The front-end perception layer of the Kallaway stack; stacks into addictive-storytelling for retention.",
     "when_to_use": "",
-    "mtime": 1781821406.0006151,
+    "mtime": 1782019123.5725062,
     "slash": "/kallaway-illusion-of-novelty",
     "routing": "",
     "status": ""

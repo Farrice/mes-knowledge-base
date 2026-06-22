@@ -450,8 +450,400 @@
         "gaming_flag": false
       },
       "notes": "Added revenue-mechanics floor, Preservation Lock, output rubric, intent routing, first-use path, replay sprint, before/after regression suite | platform: codex | Verification: PASS validate_skill, router checks, research_quality_gate, public-post prose checks"
+    },
+    {
+      "trace_id": "20260621_101841",
+      "timestamp": "2026-06-21T10:18:41.975179",
+      "schema_version": "v3",
+      "component": "kallaway-illusion-of-novelty",
+      "expert": "source-to-skill-system",
+      "workflow": "command-surface-parity",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Four-surface parity PASS for 27 target commands; router proof PASS for novelty-engine, Diandra rehook, quality-content; validate_skill kallaway-illusion-of-novelty: 0 critical, 2 non-blocking agent warnings | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260621_111530",
+      "timestamp": "2026-06-21T11:15:30.813319",
+      "schema_version": "v3",
+      "component": "kallaway-ai-content-engine",
+      "expert": "Kallaway",
+      "workflow": "ai-content-operations",
+      "quality": {
+        "composite": 6.08,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Added human creative reaction layer and connector risk boundary; preserved automation/social listening intent | platform: codex | Verification: N/A"
+    },
+    {
+      "trace_id": "20260621_111633",
+      "timestamp": "2026-06-21T11:16:33.739112",
+      "schema_version": "v3",
+      "component": "nicolas-cole-newsletter-flywheel",
+      "expert": "nicolas-cole",
+      "workflow": "quality-content",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "V2 polish pass integrated quality-content, Nicolas Cole newsletter/sentence craft, proof-first sales positioning, Lara LinkedIn shaping, Luke outreach, AI Chris Lee zero-testimonial sales, fresh web verification, and 3 read-only subagent passes | platform: codex | Verification: PASS banned-language scan, ASCII scan, export_format_guard, claim ledger updated"
+    },
+    {
+      "trace_id": "20260621_111730",
+      "timestamp": "2026-06-21T11:17:30.297376",
+      "schema_version": "v3",
+      "component": "lara-acosta-linkedin-mastery",
+      "expert": "lara-acosta",
+      "workflow": "quality-content",
+      "quality": {
+        "composite": 7.0,
+        "intent_alignment": 9.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after correcting finalize metadata: actual content file passed, factual grounding passed, intent scored on 1-10 finalize scale. Integrated 3 read-only subagent passes, fresh AI-slop/LinkedIn research, proof-first sales ladder, field-note house style, claim ledger, and no invented proof | platform: codex | Verification: PASS banned-language scan, ASCII scan, export_format_guard, content-file finalize scan"
+    },
+    {
+      "trace_id": "20260621_111921",
+      "timestamp": "2026-06-21T11:19:21.762412",
+      "schema_version": "v3",
+      "component": "lara-acosta-linkedin-mastery",
+      "expert": "lara-acosta",
+      "workflow": "quality-content",
+      "quality": {
+        "composite": 7.0,
+        "intent_alignment": 9.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Final retry after separating public-facing prose from operating packet. Publish-copy file passed prose_classifier CLEAN AI score 0/10, banned-pattern scan, ASCII scan, and export_format_guard. Operating packet preserved scorecards, sales assets, claim ledger, relationship research, and subagent receipts | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260621_125532",
+      "timestamp": "2026-06-21T12:55:32.259490",
+      "schema_version": "v3",
+      "component": "oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "autopilot",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Health Performance GEO automation v2 created and active | platform: codex | Verification: JSONL PASS, slop scan PASS, export guard PASS, automation ACTIVE | Notion write depends on local network/auth"
+    },
+    {
+      "trace_id": "20260621_125542",
+      "timestamp": "2026-06-21T12:55:42.026684",
+      "schema_version": "v3",
+      "component": "ethan-smith-aeo",
+      "expert": "ethan-smith-aeo",
+      "workflow": "aeo-strategic-visibility-audit",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry weakest section: intent alignment | Health Performance GEO automation v2 implemented and active | Oren operating spine plus Ethan AEO, Nathan/Jensen retrieval, Kallaway/Alex creative strategy, Futurepedia risk gate | Verification: JSONL PASS, slop scan PASS, export guard PASS, automation ACTIVE, Drive disabled"
+    },
+    {
+      "trace_id": "20260621_212042",
+      "timestamp": "2026-06-21T21:20:42.635147",
+      "schema_version": "v3",
+      "component": "system-audit",
+      "expert": "system-audit",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Codex-only additive repair | hooks: enabled 5 disabled 0 | preflight smoke: system/content/source/research PASS | hook probes: cost/router/session-ledger direct PASS | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260621_212049",
+      "timestamp": "2026-06-21T21:20:49.708042",
+      "schema_version": "v3",
+      "component": "system-audit",
+      "expert": "system-audit",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Scope: Codex-only additive repair; no tracked .claude diff. Verification: syntax PASS; system/content/source/research preflight PASS; direct hook probes PASS; global hook states enabled after approval; Notion sync unavailable under restricted network."
+    },
+    {
+      "trace_id": "20260621_213651",
+      "timestamp": "2026-06-21T21:36:51.318336",
+      "schema_version": "v3",
+      "component": "lara-acosta-linkedin-mastery",
+      "expert": "lara-acosta-linkedin-mastery",
+      "workflow": "content-sprint",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Context Load Packet: PASS | Loaded owner SKILL.md + genius.md + workflow | Support: Fresh Voice, New Media Ghostwriting, AI Chris zero-testimonial | Repair: Codex-only preflight LinkedIn content override | Gates: content_finish_gate CLEAN; prose_classifier CLEAN; grounding_guard PASS | platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260621_213658",
+      "timestamp": "2026-06-21T21:36:58.120213",
+      "schema_version": "v3",
+      "component": "lara-acosta-linkedin-mastery",
+      "expert": "lara-acosta-linkedin-mastery",
+      "workflow": "content-sprint",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "User asked: preflight then produce content after owner file loading and repair next workflow-loading path. Done. Owner files loaded: Lara SKILL/genius/workflow. Support files loaded: Fresh Voice/New Media/AI Chris. Gates: content_finish_gate CLEAN, prose_classifier CLEAN, grounding_guard PASS. Notion unavailable due network. platform: codex | Verification: PASS"
+    },
+    {
+      "trace_id": "20260622_035334",
+      "timestamp": "2026-06-22T03:53:34.879210",
+      "schema_version": "v3",
+      "component": "repeatability-spine",
+      "expert": "repeatability-spine",
+      "workflow": "repeatability-spine",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "V4 preservation lock created; Codex-only preflight signal repair; guide saved under _active/codex-repeatability; no Claude Code files touched in this repair; Verification: preflight PASS, syntax PASS, grounding PASS, content_finish WARN due structured playbook formatting, prose WARNING due parallel markdown blocks."
+    },
+    {
+      "trace_id": "20260622_063616",
+      "timestamp": "2026-06-22T06:36:16.393493",
+      "schema_version": "v3",
+      "component": "oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "deep-research",
+      "quality": {
+        "composite": 5.5,
+        "intent_alignment": 2.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Daily Health Performance GEO Creative Strategist Engine run | platform: codex | Verification: PASS source links checked live, JSONL valid, Drive disabled, export guard PASS via harvested guard copy; memory_retrieve DEGRADED due embed/network failure"
+    },
+    {
+      "trace_id": "20260622_063628",
+      "timestamp": "2026-06-22T06:36:28.785642",
+      "schema_version": "v3",
+      "component": "oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "deep-research",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after first finalize judged short title payload. Daily Health Performance GEO Creative Strategist Engine run | platform: codex | Verification: PASS source links checked live, JSONL valid with 7 rows, Drive disabled, export guard PASS via harvested guard copy; memory_retrieve DEGRADED due embed/network failure; Notion finalize regression blocked by DNS"
     }
   ],
-  "total_cases": 16,
-  "last_updated": "2026-06-13T15:06:25.902745"
+  "total_cases": 30,
+  "last_updated": "2026-06-22T06:36:28.786797"
 }

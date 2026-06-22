@@ -45,6 +45,87 @@ ROUTING_LOG = TRACE_DIR / "routing_decisions.jsonl"
 
 BINDINGS = [
     {
+        "id": "codex_system_firing",
+        "signal_phrases": [
+            "not firing",
+            "isn't firing",
+            "codex feels",
+            "workflow not firing",
+            "workflows not firing",
+            "routing layer",
+            "orchestration layer",
+            "hook parity",
+            "context load",
+            "skill loading",
+            "harness",
+            "claude code",
+        ],
+        "mandatory_workflow": "system-audit",
+        "forbidden_workflows": ["content-sprint", "ghostwrite", "writers-room", "big-project"],
+        "reason": (
+            "Broken-harness and Codex/Claude parity language is an operating "
+            "alignment problem. /system-audit owns firing-layer repair before "
+            "domain content or generic project scaffolds."
+        ),
+    },
+    {
+        "id": "repeatability_spine",
+        "signal_phrases": [
+            "lost the magic",
+            "cannot repeat",
+            "can't repeat",
+            "revision got worse",
+            "repeatability",
+            "regression",
+            "preservation lock",
+        ],
+        "mandatory_workflow": "repeatability-spine",
+        "forbidden_workflows": ["content-sprint", "ghostwrite", "writers-room", "big-project"],
+        "reason": (
+            "Lost-magic, failed-revision, and regression language requires "
+            "preserving the good example before repair. /repeatability-spine "
+            "is the owner."
+        ),
+    },
+    {
+        "id": "source_to_skill_system",
+        "signal_phrases": [
+            "source-to-skill-system",
+            "source to skill system",
+            "source-to-system",
+            "source to system",
+            "turn this source",
+            "connected skill system",
+            "workflow bridge",
+            "reusable command surface",
+        ],
+        "mandatory_workflow": "source-to-skill-system",
+        "forbidden_workflows": ["extract-forge", "big-project", "compile-knowledge"],
+        "reason": (
+            "Source-to-capability requests should build connected skill systems "
+            "and validation loops, not isolated extraction notes."
+        ),
+    },
+    {
+        "id": "knowledge_librarian",
+        "signal_phrases": [
+            "knowledge pulse",
+            "library pulse",
+            "prior decisions",
+            "reusable solution",
+            "reusable solutions",
+            "sleeping giants",
+            "underused workflow",
+            "underused workflows",
+        ],
+        "mandatory_workflow": "knowledge-librarian",
+        "forbidden_workflows": ["big-project", "compile-knowledge", "research-swarm"],
+        "reason": (
+            "Knowledge-library pulse language asks for grounded prior decisions "
+            "and reusable capability lookup. /knowledge-librarian owns it."
+        ),
+    },
+    {
         "id": "parallax_editions",
         "signal_phrases": [
             "parallax edition",

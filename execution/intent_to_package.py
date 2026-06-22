@@ -117,6 +117,31 @@ SYSTEM_MAINTENANCE_SIGNALS = [
     "maintenance pass", "system hygiene",
     "compile knowledge", "rebuild index",
     "system status", "evolution status",
+    "not firing", "isn't firing", "workflow not firing", "workflows not firing",
+    "codex feels", "harness", "routing layer", "orchestration layer",
+    "hook parity", "hook layer", "context load", "skill loading",
+    "claude code", "codex parity", "global orchestration",
+]
+
+REPEATABILITY_SPINE_SIGNALS = [
+    "lost the magic", "cannot repeat", "can't repeat", "repeatability",
+    "revision got worse", "got worse", "regression", "regressed",
+    "preserve the good", "preservation lock", "route picked the wrong",
+]
+
+KNOWLEDGE_LIBRARIAN_SIGNALS = [
+    "knowledge pulse", "library pulse", "knowledge-librarian",
+    "session start pulse", "prior decisions", "reusable solution",
+    "reusable solutions", "underused workflow", "underused workflows",
+    "sleeping giants",
+]
+
+SOURCE_TO_SKILL_SYSTEM_SIGNALS = [
+    "source-to-skill-system", "source to skill system",
+    "source-to-system", "source to system", "source-to-skill",
+    "source to skill", "turn this source", "source material into",
+    "connected skill system", "workflow bridge", "reusable command surface",
+    "build out all the workflows", "harvest all the genius",
 ]
 
 # Class 2: Multi-Deliverable Mission (mirrors supercomputer-mode triggers)
@@ -391,6 +416,81 @@ def _resolve_maintenance(intent_lower: str) -> Optional[MissionPackage]:
             "System maintenance — deterministic Python scripts run in a fixed "
             "order. No parallel benefit, no taste gate needed. Use "
             "knowledge_compiler / evolution_orchestrator / skill_auditor."
+        ),
+        matched_signals=hits,
+    )
+
+
+def _resolve_repeatability_spine(intent_lower: str) -> Optional[MissionPackage]:
+    hits = _match_signals(intent_lower, REPEATABILITY_SPINE_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="repeatability_repair",
+        primary_workflow="repeatability-spine",
+        sub_workflows=["system-audit"],
+        experts=["repeatability-spine"],
+        skills_to_load=["repeatability-spine"],
+        plugins=[],
+        cost_tier="free",
+        fanout_pattern="sequential",
+        fanout_workers_estimate=1,
+        gates_to_surface=[],
+        halt_suppressions=[],
+        confidence=0.9,
+        reasoning=(
+            "Repeatability regression signal matched. Preserve the good example "
+            "first, classify one failure mode, then repair through /repeatability-spine."
+        ),
+        matched_signals=hits,
+    )
+
+
+def _resolve_knowledge_librarian(intent_lower: str) -> Optional[MissionPackage]:
+    hits = _match_signals(intent_lower, KNOWLEDGE_LIBRARIAN_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="knowledge_librarian",
+        primary_workflow="knowledge-librarian",
+        sub_workflows=[],
+        experts=["knowledge-librarian"],
+        skills_to_load=["knowledge-librarian"],
+        plugins=[],
+        cost_tier="free",
+        fanout_pattern="sequential",
+        fanout_workers_estimate=1,
+        gates_to_surface=[],
+        halt_suppressions=[],
+        confidence=0.88,
+        reasoning=(
+            "Knowledge/library pulse signal matched. Use /knowledge-librarian "
+            "for prior decisions, reusable solutions, and sleeping assets."
+        ),
+        matched_signals=hits,
+    )
+
+
+def _resolve_source_to_skill_system(intent_lower: str) -> Optional[MissionPackage]:
+    hits = _match_signals(intent_lower, SOURCE_TO_SKILL_SYSTEM_SIGNALS)
+    if not hits:
+        return None
+    return MissionPackage(
+        outcome_class="source_to_system",
+        primary_workflow="source-to-skill-system",
+        sub_workflows=["system-audit"],
+        experts=["source-to-skill-system"],
+        skills_to_load=["source-to-skill-system"],
+        plugins=[],
+        cost_tier="free",
+        fanout_pattern="sequential",
+        fanout_workers_estimate=1,
+        gates_to_surface=[],
+        halt_suppressions=[],
+        confidence=0.9,
+        reasoning=(
+            "Source-to-capability signal matched. Build a connected skill system "
+            "or workflow bridge after evidence and existing-route checks."
         ),
         matched_signals=hits,
     )
@@ -804,6 +904,9 @@ _RESOLVERS = [
     _resolve_refinement,            # Class 6
     _resolve_research,              # Class 3
     _resolve_atomization,           # Class 4
+    _resolve_source_to_skill_system,
+    _resolve_knowledge_librarian,
+    _resolve_repeatability_spine,
     _resolve_maintenance,           # Class 5
     _resolve_long_running_project,  # Class 11 (Phase D — fires early because
                                      #            "build me a brand over the next week"
