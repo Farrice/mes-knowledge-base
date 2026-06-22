@@ -231,3 +231,5 @@
 - `[2026-06-22 06:36]` **finalize** | Health Performance GEO Daily Brief 2026-06-22 | general | oren-operational-systems — composite:5.5 status:Needs Improvement
 - `[2026-06-22 06:36]` **finalize** | Complete 2026-06-22 Health Performance GEO daily brief saved locally: executive signal stack, source | general | oren-operational-systems — composite:6.17 status:Needs Improvement
 - `[2026-06-22 08:45]` **finalize** | LinkedIn daily 2026-06-22 — AI-boom funnel bifurcation (pharma AI index + carousel death + authentic | general | nicolas-cole — composite:7.25 status:Needs Improvement
+- `[2026-06-22 09:12]` **finalize** | Bake-off 2026-06-22 — quality-content (elevated) vs ce-write (context-engineered): 6 posts across 3  | general | chase-hughes — composite:7.25 status:Needs Improvement
+- `[2026-06-22 10:31]` **finalize** | AI-boom article engine bake-off 2026-06-22 — ce-write vs writers-room vs hybrid (recommended main lo | general | chase-hughes — composite:7.25 status:Needs Improvement

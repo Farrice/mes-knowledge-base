@@ -10,17 +10,43 @@
    "type": "skill_loaded",
    "name": "fresh-voice-system",
    "ts": "2026-06-22T08:32:56.066979"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chase-hughes-context-engineering",
+   "ts": "2026-06-22T09:07:09.561560"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-sentence-craft",
+   "ts": "2026-06-22T10:15:57.636751"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "eric-roth-writing-mastery",
+   "ts": "2026-06-22T10:15:58.427820"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dan-wang-literary-analysis",
+   "ts": "2026-06-22T10:15:58.787131"
   }
  ],
  "produced": true,
  "produced_paths": [
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/briefing-2026-06-22.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-ship-copy.md",
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/performance-log.md"
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/performance-log.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-bakeoff-quality-vs-ce.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-bakeoff-shipcopy.md",
+  "/tmp/article_full.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-article-CE-WRITE.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-article-WRITERS-ROOM.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-article-HYBRID-RECOMMENDED.md"
  ],
  "subagent_spawns": 0,
  "finalized_at": "2026-06-22T08:45:12.347772",
- "last_debt_at": "2026-06-22T08:32:56.066986",
+ "last_debt_at": "2026-06-22T10:15:58.787141",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,

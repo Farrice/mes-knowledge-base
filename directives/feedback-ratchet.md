@@ -139,8 +139,8 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-06-22 (chain_runner finalize for nicolas-cole-newsletter-flywheel) |
-| **Activation Count** | 395 |
+| **Last Activated** | 2026-06-22 (chain_runner finalize for chase-hughes-context-engineering) |
+| **Activation Count** | 397 |
 
 **Phase 2**: ✅ ACTIVATED (2026-03-30, 123 entries). Run `/skill-evolution` after shipping sessions.
 **Phase 3**: ✅ ACTIVATED (2026-03-30). Cross-pollinated adversarial resilience to 5 skills.
