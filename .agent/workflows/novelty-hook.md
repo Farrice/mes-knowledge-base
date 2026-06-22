@@ -1,3 +1,7 @@
+---
+description: "Compile dense hook options that carry new reveal, outcome, contrast, and honest urgency"
+---
+
 # /novelty-hook
 
 Compile a bank of 1–2 line hooks that pack New Reveal + Outcome + Contrast (+ real urgency) at maximum density.

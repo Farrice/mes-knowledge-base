@@ -381,10 +381,11 @@ The front-end attention layer — manufactures the *feeling* of novelty for topi
 
 **The Five Components**: New Reveal + Outcome Mapping → Contrast Framing → Urgency (optional turbo) → Bullseye Proof (the Trust Ladder) → Protect the Illusion (don't-show-the-mascot + gossip-whisperer). Plus two apex moves: the recursive self-demonstration and the winner/loser pattern-extraction loop ("one-size framework, bespoke execution").
 
-**13 Workflows** (`/novelty-*`):
+**14 Workflows** (`/novelty-*`):
 
 | Tier | Workflow | Slash Command |
 |------|----------|---------------|
+| ★ Front Door | End-to-end content engine (orchestrates all + live research) | `/novelty-engine` |
 | Foundation | Master end-to-end forge | `/novelty-forge` |
 | Foundation | New Reveal + Outcome Mapping | `/novelty-reveal` |
 | Foundation | Contrast Framing | `/novelty-contrast` |

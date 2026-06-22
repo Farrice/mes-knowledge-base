@@ -1,3 +1,7 @@
+---
+description: "Find the new-feeling angle for an old or boring topic and map it to the audience's wanted outcome"
+---
+
 # /novelty-reveal
 
 Step 1 — convert an old/boring topic into a new-feeling angle tied to a wanted outcome.

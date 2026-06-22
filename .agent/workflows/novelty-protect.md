@@ -1,3 +1,7 @@
+---
+description: "Protect the illusion of novelty by scrubbing mascot reveals and turning salesy explanation into gossip-whisper delivery"
+---
+
 # /novelty-protect
 
 Step 5 — keep a built illusion alive: scrub mascot reveals and convert salesy tone into a gossip-whisper.

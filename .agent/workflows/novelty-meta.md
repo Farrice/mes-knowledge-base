@@ -1,3 +1,7 @@
+---
+description: "Build teaching content that demonstrates the Illusion-of-Novelty framework as it teaches it"
+---
+
 # /novelty-meta
 
 Design teaching/thought-leadership content that RUNS the framework on the audience as it teaches, then breaks the fourth wall as the closing bullseye proof.

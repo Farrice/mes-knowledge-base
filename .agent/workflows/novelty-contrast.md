@@ -1,3 +1,7 @@
+---
+description: "Position a new reveal against the audience's held belief to open the intrigue gap"
+---
+
 # /novelty-contrast
 
 Step 2 — position a new reveal against the audience's held belief to open the intrigue gap.

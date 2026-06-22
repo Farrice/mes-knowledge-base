@@ -1,3 +1,7 @@
+---
+description: "Compare content winners and losers to extract niche-specific novelty execution rules"
+---
+
 # /novelty-pattern
 
 Extract the storytelling pattern that separates your WINNERS from your losers, mapped to the 5 components — turning the one-size framework into bespoke niche rules.

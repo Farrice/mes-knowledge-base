@@ -1,3 +1,7 @@
+---
+description: "Diagnose why content is not landing by scoring it against the Illusion-of-Novelty components and routing the weakest repair"
+---
+
 # /novelty-audit
 
 Diagnose why an existing piece isn't landing — scored against the 3 questions and 5 components.

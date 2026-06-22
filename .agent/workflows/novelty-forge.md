@@ -1,3 +1,7 @@
+---
+description: "Turn any boring, old, or saturated topic into a finished content asset with reveal, contrast, urgency, proof, and protected delivery"
+---
+
 # /novelty-forge
 
 Take ANY topic — especially boring, old, or saturated — and run all five Illusion-of-Novelty components into a finished, fully-engineered asset.

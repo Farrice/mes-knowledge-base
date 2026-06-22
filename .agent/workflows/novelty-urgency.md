@@ -1,3 +1,7 @@
+---
+description: "Add honest time-compression when a real window exists, and strip fake urgency when it does not"
+---
+
 # /novelty-urgency
 
 Step 3 — add honest time-compression when a real window exists, and strip fake urgency when it doesn't.

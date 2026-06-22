@@ -1,3 +1,7 @@
+---
+description: "Scale one novelty reveal into a multi-asset, multi-platform campaign without repetition fatigue"
+---
+
 # /novelty-campaign
 
 Scale one strong New Reveal into a coordinated multi-asset, multi-platform campaign without it feeling repetitive.

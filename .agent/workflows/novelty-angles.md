@@ -1,3 +1,7 @@
+---
+description: "Generate 20+ fresh angles for a saturated or boring topic and rank them by freshness and outcome pull"
+---
+
 # /novelty-angles
 
 Generate 20+ distinct new angles on a saturated/boring topic — the "I'm out of ideas" engine.

@@ -1,3 +1,7 @@
+---
+description: "Chain front-end novelty into retention loops so attention turns into continued reading or watching"
+---
+
 # /novelty-to-addictive
 
 Chain the front-end (manufacture novelty) into the retention engine (Four-Step Addiction Loop) — the LOOK plus the STAY.

@@ -1,3 +1,7 @@
+---
+description: "Justify a novelty reveal with the highest honest proof rung on the Trust Ladder"
+---
+
 # /novelty-proof
 
 Step 4 — justify the reveal with proof framed as close to the viewer's life as honestly possible (the Trust Ladder).
