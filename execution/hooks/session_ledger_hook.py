@@ -82,6 +82,7 @@ def _load(session_id: str) -> dict:
         "last_debt_at": None, "stop_blocked_once": False,
         "staleness_warned": False, "miss_logged": False,
         "handoff_pending": False, "handoff_warned": False,
+        "session_pinned": False, "session_pinned_at": None, "pin_nudged": False,
     }
 
 
@@ -246,6 +247,25 @@ def handle_posttool(payload: dict) -> None:
         if "handoff_store.py" in blob and ("saved:" in blob or "already stored" in blob):
             ledger["handoff_pending"] = False
             ledger["handoff_saved_at"] = _now()
+            # Any successful handoff save makes the work recoverable by name in
+            # /resume — that satisfies the pin backstop (it can't be lost), pinned
+            # or not. The dedicated pin paths below are the explicit/floated cases.
+            ledger["session_pinned"] = True
+            ledger["session_pinned_at"] = _now()
+            changed = True
+        # Pin detection for the non-"saved:" paths: annotate --pin (prints
+        # "annotated"), the bare `pin` subcommand (prints "pinned:"), and
+        # chain_runner's auto-pin inside finalize (prints "CHAIN PINNED"). Keeps the
+        # Stop hook's pin backstop quiet. Mirrors the finalize-detection pattern above.
+        _cmd = str(tin.get("command", ""))
+        _pin_via_store = (
+            "handoff_store.py" in _cmd
+            and ("--pin" in _cmd or bool(re.search(r"handoff_store\.py\s+pin\b", _cmd)))
+            and ("annotated" in blob or ("pinned:" in blob and "unpinned:" not in blob))
+        )
+        if _pin_via_store or "CHAIN PINNED" in blob:
+            ledger["session_pinned"] = True
+            ledger["session_pinned_at"] = _now()
             changed = True
 
     if changed:
@@ -270,6 +290,12 @@ def _prefilled_finalize(ledger: dict) -> str:
     if content:
         cmd += f' --content-file "{content}"'
     return cmd
+
+
+def _suggest_pin_title(ledger: dict) -> str:
+    paths = ledger.get("produced_paths") or []
+    stem = Path(paths[-1]).stem if paths else "session"
+    return f"{datetime.now().strftime('%Y-%m-%d')} · {stem}"
 
 
 def handle_stop(payload: dict) -> None:
@@ -300,6 +326,39 @@ def handle_stop(payload: dict) -> None:
             print(json.dumps({"decision": "block", "reason": ho_reason}))
             sys.exit(0)
         print(f"[ledger observe] {ho_reason}", file=sys.stderr)
+        # fall through to finalize-debt logic
+
+    # Session-pin nudge — independent of finalize debt. Fires when a durable artifact
+    # shipped but no titled pin was recorded, so the work won't surface in the /resume
+    # menu by name. Deterministic backstop for the auto-pin happy-paths (chain_runner
+    # finalize / end-session --pin / /pin-session); never depends on Claude remembering.
+    if (ledger.get("produced") and ledger.get("produced_paths")
+            and not ledger.get("session_pinned") and not ledger.get("pin_nudged")):
+        ledger["pin_nudged"] = True
+        _save(ledger)
+        _pt = _suggest_pin_title(ledger)
+        pin_reason = (
+            "SESSION NOT PINNED — a durable artifact shipped this session "
+            f"({ledger['produced_paths'][-3:]}) but no titled pin was recorded, so this "
+            "work won't surface in the /resume menu by name. Pin it (the title becomes "
+            "the retrieval handle):\n\n"
+            f'    /pin-session "{_pt}"\n\n'
+            "or directly (slug = thread for idempotency):\n"
+            f'    python3 execution/handoff_store.py save <artifact-or-pointer.md> '
+            f'--thread <thread-slug> --slug <thread-slug> --status active '
+            f'--hint "{_pt}" --pin --overwrite'
+        )
+        try:
+            SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
+            with open(OBSERVE_LOG, "a") as f:
+                f.write(json.dumps({"ts": _now(), "session_id": session_id,
+                                    "event": "session_unpinned", "enforce": ENFORCE}) + "\n")
+        except Exception:
+            pass
+        if ENFORCE and not stop_active:
+            print(json.dumps({"decision": "block", "reason": pin_reason}))
+            sys.exit(0)
+        print(f"[ledger observe] {pin_reason}", file=sys.stderr)
         # fall through to finalize-debt logic
 
     if not _ripened(ledger):

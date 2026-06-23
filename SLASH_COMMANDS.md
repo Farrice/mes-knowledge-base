@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (491 Commands)
+# 🚀 Antigravity Workflows — Complete Index (493 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -13,9 +13,12 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 | `/brief` | Generate a strategic brief — scans your situation and recommends highest-ROI moves |
 | `/generate-brief` | Generate a McKinsey-Grade Strategic Dossier for any niche using Agentic Research |
 | `/hunt-trends` | Scan for rising trends and "Shadow Market" opportunities using Agentic Research |
+| `/high-taste-os` | V4 High-Taste Output OS shortcut — generate, elevate, enrich, audit, or practitioner-harden important artifacts with preflight proof, owner loading, source spine, human stakes, bounded support lanes, verification gates, and orchestration receipt |
+| `/high-taste-writing-os` | Canonical V4 High-Taste Output OS — the full orchestrator behind `/high-taste-os`; use for remarkable, proof-backed, publish-ready, client-ready, or practitioner-grade output |
 | `/quality-content` | Seed (trend or insight) → ship-ready multi-format content via the proven quality stack: parallel research + expert-genius lens + voice rules + dual QA (prose-doctor + fact-verifier). A strong default to reach for, never a hard rule. Benchmark: `_active/linkedin-launch/ai-boom-content-package.md` |
 | `/resume` | Resume any past work-thread from the durable handoff store — triage menu (one row per thread: age · status · what's unfinished) or `/resume <thread\|keyword\|number>`. You choose which, not just the last. Backed by `execution/handoff_store.py`. |
 | `/realign` | Load a past thread as BACKGROUND context for NEW work (not bound to its old plan). Same engine as `/resume`. |
+| `/pin-session` | Stamp a `Session title:` into the active artifact's header + drop a pinned thread pointer into the handoff store so `/resume` surfaces this session BY NAME (title verbatim). Manual lever for the session-pin formula — the same pin runs automatically via `chain_runner.finalize`, `/end-session --pin`, and the Stop-hook backstop. |
 | `/research-landscape` | Universal domain research — maps any topic into a tiered landscape with strategic throughline |
 | `/research-topic` | Deep research on any topic with organized, actionable deliverable |
 | `/spy-amazon` | Spy on Amazon Best Sellers to find underserved niches (KDP/Products) |
@@ -330,6 +333,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 |---------|-------------|
 | `/farrice-engine` | **Master front door.** Composes the daily Parallax cook + brandjack engine + lead-gen motion into one content→authority→client machine, pointed at the beachhead in `MASTER-STRATEGY.md`. Depth layer (Cognitive Signature + Aha gate), Apify-first research, dual-track acquire. Modes: `daily` (Creative Daily Brief → raw dump → 3 variants), `acquire`, `offer "<who>"`, `weekly`, `repoint`, `radar` (Apify brand sweep), `teardown "<brand>"` (keystone proof asset), `export` (→ Google Drive Docs). Loads the ICP Emotional Map (empathy moat) + Cognitive Signature + Aha/Empathy gates |
 | `/linkedin-daily` | Daily LinkedIn engine (v2, **Parallax-modeled**): research (zeitgeist + industry) → brandjack/newsjack opportunity menu + raw-take priming → HALT for Farrice's take → cook 3 voice-gated variants → fact-verify + ratchet. Flags: `--auto`, `--topic "X"`, `--no-post`, `--posts N` |
+| `/geo-content` | **The GEO content machine — single front door.** Loads the Content Engine + dossier + offer every run so the pillar/angle/bridge are always right. Default = daily deploy (rotate to today's pillar via the barbell → prime the raw-take questions → HALT for your voice note → cook + gate → bridge to `DM "AUDIT"`). Modes: `--map` (show engine + today's angle, no cook), `--topic "X"` / paste a raw take (cook now), `--pillar P#`, `--rebuild` (regenerate the 5-pillar engine), `--full` (whole new-vertical sequence: research → offer+launch package → engine). Wraps `/linkedin-daily` + `/quality-content`, pre-pointed at the GEO system so you never chain them by hand. Engine: `_active/linkedin-launch/content-engine/CONTENT-ENGINE.md` |
 
 ---
 
@@ -751,7 +755,7 @@ The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates 
 
 ---
 
-## 🔧 System & Skill Management (22)
+## 🔧 System & Skill Management (30)
 | Command | What It Does |
 |---------|-------------|
 | `/add-notebook` | Register a new NotebookLM notebook for RAG integration |
@@ -760,12 +764,18 @@ The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates 
 | `/create-agent` | Create an expert agent from an existing skill or extraction |
 | `/create-skill` | Create a new skill (routes between skill types) |
 | `/deploy-skill` | Deploy any skill's prompts to execute a specific task |
+| `/expert-composition-governor` | Prevent expert soup with one owner, bounded slots, a composition ledger, and proof of integration |
+| `/extraction-governor-agent` | Triage source material into the right reusable surface before creating new commands, skills, workflows, or assets |
 | `/evolution-sprint` | Background skill improvement — 3 agents benchmark, analyze, hypothesis |
 | `/extract` | Extract expert knowledge from source material |
 | `/gap-report` | Monthly intelligence gap report — weak skills, missing coverage |
 | `/ground-truth` | Expert benchmark calibration — add samples, run blind comparisons |
+| `/knowledge-librarian` | Surface prior decisions, underused workflows, reusable solution docs, and one grounded start command |
+| `/mission` | Mission OS for structured planning, state, milestones, validation contracts, and handoffs |
+| `/orchestrate` | Rank workflows, skills, support gates, and execution paths before committing to a route |
 | `/prose-check` | AI-prose detection — check files/text for AI patterns before delivery |
 | `/query-notebook` | Query a specific NotebookLM notebook for domain-specific research |
+| `/repeatability-spine` | Preserve a good example, diagnose regression, repair the route, validate, and produce a replay prompt |
 | `/revenue-track` | Revenue attribution — connect quality scores to business outcomes |
 | `/adversarial-review` | Stress-test deliverable with Scorer + Critic agent pair |
 | `/calibrate` | Full calibration check — ground truth + prose + revenue in parallel |
@@ -773,6 +783,8 @@ The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates 
 | `/recommend` | Contextual skill recommendation based on current work |
 | `/research-swarm` | 3 parallel research agents — market, audience, system scan |
 | `/routing-intelligence` | View routing analytics dashboard |
+| `/source-to-skill-system` | Turn source material into a connected Codex skill system with contracts, handoffs, checkpoints, and validation |
+| `/steering-compass` | Generate contextual Use Now, Harden, Expand prompts and always-on Operator Lesson steering |
 | `/skill-evolution` | Run evolution cycle — benchmark, test variants, keep improvements |
 | `/variant-sprint` | 3-5 expert variants of same deliverable in parallel |
 | `/system-audit` | Comprehensive health audit on the Antigravity system |
@@ -869,6 +881,8 @@ You don't need to remember command names. These common phrases automatically map
 | "brand strategy" / "brand foundation" / "Nike method" | `brand-arena` |
 | "rate the last output" / "how was that" | `rate` |
 | "what's trending" / "find opportunities" / "shadow market" | `hunt-trends` |
+| "V4 bar" / "high-taste output OS" / "remarkable output" / "make this as good as V4" | `high-taste-os` |
+| "consultant-clean" / "flat but structurally sound" / "publish-ready high-taste" / "elevate this output" | `high-taste-writing-os` |
 | "make me a quality post" / "ship-ready content" / "raise the bar on this" / "trend to post" | `quality-content` |
 | "resume" / "pick up where I left off" / "what was I working on" / "my open threads" / "past sessions" | `resume` |
 | "plan my week" / "weekly breakdown" | `weekly-pulse` |

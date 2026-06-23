@@ -6,6 +6,37 @@ description: Run at the end of a deep-work session
 
 > **Purpose**: Generate a clean handoff for the next session. Deep cleanup is optional — assets are already organized when produced.
 
+## Insightful Momentum Closeout Requirement
+
+`/end-session` must not fall back to the old lightweight "Use Now / Harden /
+Expand" prompt shell. The visible final answer is part of the repair surface.
+
+For meaningful sessions, run the local renderer and preserve its enriched
+fields in the final answer:
+
+```bash
+python3 execution/contextual_next_prompts.py --objective "[session closeout objective]"
+```
+
+The 3 Next Prompts must show the Insightful Momentum/frontier standard:
+
+- action title that names the current session object
+- Output/Capability Move
+- Operator Insight
+- Hidden Gap/Opportunity
+- Capability Revealed
+- copy-paste Prompt
+- Expected output or What it entails
+- Quality bar
+- Skip condition when useful
+- Suggested skills/workflows
+
+If the renderer output is awkward, improve the objective and rerun it; do not
+hand-author a generic legacy prompt block. Closeout suggestions should help the
+next session start smarter, reveal a capability Farrice may not know to ask for,
+and turn the session into an asset, proof check, benchmark, or next build
+surface.
+
 ### Handoff lanes (decided 2026-06-15 — keep these distinct)
 One handoff *format*, three jobs that don't overlap:
 - **`/handoff`** (Matt Pocock skill) — produces the canonical, portable handoff document in the OS temp dir (cross-tool, secrets redacted, artifacts by ref, suggested-skills section). It owns the handoff *content format*.
@@ -32,11 +63,13 @@ python execution/handoff_store.py save --from-temp \
   --thread "<thread-slug>" \
   --status "<active|blocked|ready|mid-build|done>" \
   --hint "<one line: the very next action>" \
-  --unfinished "<one line: what's still left>"
+  --unfinished "<one line: what's still left>" \
+  --pin
 ```
 - **`--thread`**: if this session RESUMED a thread, reuse that exact thread slug so the menu keeps one clean row (no v1/v2/v3 pile-up). New work → a short kebab slug for the work-stream (e.g. `jen-listings`, `mybpm-launch`, `handoff-resume-loop`).
 - **`--status`**: where the thread stands now — `ready` (just ship), `blocked` (waiting on you/a client), `mid-build`, `done` (auto-hidden from the menu), or `active`.
 - `--from-temp` auto-discovers the newest `handoff-*.md` the `/handoff` skill just wrote (no path to transcribe — removes the main silent-failure mode). It writes frontmatter + body into version-controlled `.agent/handoffs/`, rebuilds `index.md` + `LATEST.md`. Confirm the output shows `saved:` — **never skip this; it's the loop's backstop.**
+- **`--pin`**: floats this just-closed session to the top of `/resume` and records the session pin, so the work surfaces by name and the Stop-hook pin backstop stays quiet. This is the consistent session-pin formula (see `/pin-session` for the on-demand version).
 
 That frontmatter is what makes `/resume` a triage board (thread · status · what's-unfinished) instead of a flat list. (Resume side: `session-kickoff.md` Step 0 + `/resume`. The Stop hook nudges if `/handoff` ran but save didn't.)
 
@@ -51,9 +84,28 @@ Then surface a 3-line pointer in chat so the human sees it at a glance without d
 
 If the `/handoff` skill is unavailable (not installed), fall back to emitting the full block inline with the fields above plus **Core context to load:** [paths to the 2-3 essential deliverable files].
 
+### 1.5 Generate Insightful Momentum Follow-ups
+// turbo
+Run:
+
+```bash
+python3 execution/contextual_next_prompts.py --objective "end-session closeout for [session label]"
+```
+
+Use the rendered `Suggested follow-ups` block as the closeout's 3 Next Prompts.
+Keep it concise if needed, but preserve the enriched fields. This step exists
+because the old hand-authored closeout shape made the repair invisible to the
+user.
+
 ### 2. Update Conversation Index
 // turbo
-Update the master conversation index with final artifacts and completion status:
+Use a safe index stats check before any rebuild or update:
+
+```bash
+python3 execution/conversation_index.py stats
+```
+
+Only update a specific conversation when the current conversation id is known:
 ```bash
 python execution/conversation_index.py update <current-conversation-id>
 ```

@@ -1346,6 +1346,51 @@ def finalize(
     return result
 
 
+def _pin_session_from_finalize(output_description, *, workflow="", project="",
+                               content_path="", thread="", status="active",
+                               task_type="") -> None:
+    """Auto-pin a finalized session to the handoff store so /resume surfaces it by
+    name (title = output_description). Idempotent per (date, thread): slug=thread
+    means re-finalizing the same work-stream UPDATES the one menu row rather than
+    piling up. Best-effort: prints `CHAIN PINNED` on success (the session-ledger
+    Stop hook watches for that marker to keep its no-pin backstop quiet) and never
+    raises into finalize. Part of the session-pin formula (2026-06-23)."""
+    try:
+        import re as _re, sys as _sys, tempfile as _tf, subprocess as _sp
+        from pathlib import Path as _Path
+
+        def _slug(s):
+            return _re.sub(r"[^a-z0-9]+", "-", (s or "").lower()).strip("-")
+
+        th = _slug(thread) or _slug(project) or _slug(workflow) or _slug(output_description)[:48]
+        if not th:
+            print("  (session pin skipped: no thread slug)")
+            return
+        title = (output_description or th).strip().replace("\n", " ")
+        ptr = (content_path or "").strip()
+        body = (
+            f"# {title}\n\n"
+            + (f"**Pointer:** `{ptr}`\n\n" if ptr else "")
+            + f"**Next session focus**: Resume the `{th}` work-stream — see the deliverable above.\n\n"
+            + f"_Auto-pinned by chain_runner.finalize ({workflow or task_type or 'finalize'})._\n"
+        )
+        tmp = _Path(_tf.gettempdir()) / f"handoff-pin-{th}.md"
+        tmp.write_text(body, encoding="utf-8")
+        store = _Path(__file__).resolve().parent / "handoff_store.py"
+        r = _sp.run(
+            [_sys.executable, str(store), "save", str(tmp),
+             "--thread", th, "--slug", th, "--status", status,
+             "--hint", title, "--pin", "--overwrite"],
+            capture_output=True, text=True, timeout=20,
+        )
+        if r.returncode == 0:
+            print(f"  CHAIN PINNED thread={th}  → resume with: /resume {th}")
+        else:
+            print(f"  (session pin skipped: {(r.stderr or r.stdout).strip()[:140]})")
+    except Exception as e:
+        print(f"  (session pin skipped: {e})")
+
+
 def print_result(result: Dict) -> None:
     """Pretty-print the finalize result."""
     if not result.get("success"):
@@ -1501,6 +1546,16 @@ def main():
     # Outcome-loop closure (added 2026-06-12)
     fin.add_argument("--expected-outcome", default="", dest="expected_outcome", help="What success looks like for this deliverable (e.g. 'client signs', 'post >2k impressions'). Stored on the pending revenue stub so the check-in is concrete, not vibes.")
     fin.add_argument("--check-in", type=int, default=None, dest="check_in", help="Days until the outcome check-in for this deliverable (default 14). Surfaced by `revenue_tracker.py due` and the session staleness line when it arrives.")
+    # Session-title pinning (added 2026-06-23): auto-pin the finalized session to the
+    # handoff store so /resume surfaces it by name. Default ON for deliverable types;
+    # the Stop-hook backstop catches anything that skips this path.
+    fin.add_argument("--pin-session", dest="pin_session", action="store_true", default=None,
+                     help="Pin this finalized session to the handoff store (/resume by name). Default ON for Content/Creative/Strategy.")
+    fin.add_argument("--no-pin-session", dest="pin_session", action="store_false",
+                     help="Skip the session pin for this finalize.")
+    fin.add_argument("--pin-thread", default="", help="Thread slug for the session pin (default: --project, else --workflow). Pass explicitly to avoid splitting the /resume menu.")
+    fin.add_argument("--pin-status", default="active", help="Handoff status for the pin: active|blocked|ready|mid-build|done. Default active.")
+    fin.set_defaults(pin_session=None)
 
     args = parser.parse_args()
 
@@ -1536,6 +1591,15 @@ def main():
             check_in_days=args.check_in,
         )
         print_result(result)
+        _do_pin = args.pin_session
+        if _do_pin is None:
+            _do_pin = args.type in ("Content", "Creative", "Strategy")
+        if _do_pin and result.get("success"):
+            _pin_session_from_finalize(
+                args.output, workflow=args.workflow, project=args.project,
+                content_path=getattr(args, "content_file", "") or args.anchor_path or "",
+                thread=args.pin_thread, status=args.pin_status, task_type=args.type,
+            )
     else:
         parser.print_help()
 
