@@ -20,3 +20,10 @@
 | 2026-06-11 | P3 | B | Conversion | Stacked | MEDIUM | drafted | pending | pending | pending | pending | — |
 | 2026-06-15 | P3 | B | Growth/reach | Single-Line Bomb | LOW | drafted | pending | pending | pending | pending | — |
 | 2026-06-15 | P2 | A | Authority | Scene-first | MEDIUM | **approved — post as-is** | pending | pending | pending | pending | **Farrice 8/10** |
+| 2026-06-22 | P1 | A | Authority | Dense | HIGH | drafted | pending | pending | pending | pending | — (barbell HIGH owed; cleared) |
+| 2026-06-22 | P2 | A/B | Growth | Punchy+Context | MEDIUM | drafted | pending | pending | pending | pending | — (format newsjack) |
+| 2026-06-22 | P3 | B | Conversion/reach | Stacked | MEDIUM | drafted | pending | pending | pending | pending | — (human-premium) |
+| 2026-06-22 | P1/P4 | A | Article | Long-form | LONG | drafted | pending | pending | pending | pending | — (Two-Funnels synthesis + audit) |
+| 2026-06-23 | P3 | B | Authority-jack | Scene-first (Confessional) | MEDIUM | drafted | pending | pending | pending | pending | — (Digiday angle, Opp #4 V1) |
+| 2026-06-23 | P3 | B | Authority-jack | Observational | MEDIUM | drafted | pending | pending | pending | pending | — (Digiday angle, Opp #4 V2) |
+| 2026-06-23 | P3 | B | Authority-jack | Framework | MEDIUM | drafted | pending | pending | pending | pending | — (Digiday angle, Opp #4 V3) |
