@@ -277,6 +277,7 @@ When you make a request, I route to the right expert using this registry. I will
 |--------|------|---------|
 | **Mitch Albom** | LITERARY | Premium writing, emotional architecture |
 | **Noah Hawley** | ARCHITECTURE | Season/arc structure, theme-first breaking, ending-first, tonal modulation, showrunner-voice, adaptation-of-feeling |
+| **Andrew Stanton** | AUDIENCE ENGINEERING | Premise-sentence (Egri), Weston spine + one-liner, the clamp (anticipation+uncertainty), uncover-don't-invent, fit-the-dinosaur late-pivot, root-not-symptom, telling-over-content. *Hawley architects the season; Stanton uncovers the premise and keeps the audience clamped inside it.* |
 | **Shaan Puri** | STORY STRUCTURE | Frame, intention+obstacle, emotion |
 | **Dan Wang** | ANALYTICAL | Long-form, observation, essays |
 | **Oscar Hoglund** | AUDIO NARRATIVE | Sound storytelling, emotional umami |
@@ -291,6 +292,8 @@ When you make a request, I route to the right expert using this registry. I will
 ```
 "Write a story"
 ├── Season/arc architecture, theme-first, ending-first, tonal modulation → Noah Hawley
+├── Make it land emotionally / make every beat pull / premise-sentence / want-vs-need spine → Andrew Stanton
+├── Flat or static draft, "when does attention drop?" (clamp audit) → Andrew Stanton
 ├── Structure/frame → Shaan Puri
 ├── Premium prose → Mitch Albom
 ├── Long-form essay → Dan Wang

@@ -17,6 +17,7 @@
 | `alex-suzuki-revenue-architect` | **alex-suzuki-revenue-architect** | automation, cold-start partner/affiliate, comment/like-to-dm funnels, digital products, launch systems, multi-account scaling, offer proof, x/twitter sales posts |
 | `ali-abdaal` | **Ali Abdaal** | action bias, experiment cycles, overthinking tax, two-way door thinking |
 | `andrew-dun` | **Andrew Dun** | agent profile, ai consulting delivery + business process diagnosis + roi quantification |
+| `andrew-stanton` | **Andrew Stanton: Story-Uncoverer & Audience-Engagement Engineer** | audience-engagement engineer, story-uncoverer |
 | `andrew-wilkinson` | **andrew-wilkinson** | adhd productivity engineering, ai entrepreneurship, ai workforce deployment, exit-ready architecture, problem-to-product translation, rapid execution, vibe coding, vibe coding mastery |
 | `andy-lo` | **Agent: Andy Lo (@andy-lo)** | andy lo (@andy-lo), asset pipeline management, deployment, headless cms architecture, motion design, visual direction, website assembly |
 | `anne-lamott` | **Anne Lamott** | agent configuration |

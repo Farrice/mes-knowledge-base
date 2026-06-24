@@ -301,6 +301,8 @@ For **Editions 02 and onward** (anything that must cohere with prior Parallax wo
 2. **Tether** — the anchor scene every section returns to
 3. **3-5 verified anchor facts** — pulled from Farrice's raw take, each labeled VERIFIED-FROM-USER or UNCONFIRMED
 4. **Voice markers to preserve** — specific phrases, rhythm patterns, imperfections from his raw take
+
+**Stanton architecture pass (the spine the edition is built on)** — before drafting, run `/stanton-premise-sentence` (the one true sentence: character + conflict + conclusion, used as a litmus not an outline), `/stanton-spine` (the edition's protagonist wiring + one-liner), and `/stanton-change-engine` (the five-second change the reader moves through). The Theme/Tether above are the *topic*; this is what makes the reader *move*. Load `skills/andrew-stanton-audience-engineering/genius.md`. The premise never appears on the page — it organizes every section invisibly.
 5. **Banned patterns especially at risk** — which of the structural-tells are most likely to appear in this particular topic (e.g., contrast-reveals are especially tempting for cultural-commentary pieces)
 6. **Subject line + preview text options** (2-3 of each)
 7. **Cross-edition trope diff plan** — which moves from prior editions are off-limits
@@ -385,6 +387,7 @@ Read and enforce ALL of these:
 - Hook grips cold readers immediately (standalone excellence — each piece works alone)
 - Every word pulls its weight — no dead space, no drag
 - Tightness pass before delivery — if a paragraph works in 2 sentences, cut to 2
+- **Stanton clamp-audit (engagement pass)** — walk the edition beat by beat at reader's pace; mark each place attention would drop (the beach ball) and re-clamp it (open a debt / withhold the outcome / inject a change / cut exposition). "Polished but flat" is an unclamped draft, not a finished one. Run `/stanton-clamp-audit`; slips cluster at section seams and right after the best line, where the reader feels permission to stop.
 
 ### Edition Structure
 

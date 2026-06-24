@@ -18,6 +18,7 @@
 | `ali-abdaal-action-bias` | **Ali Abdaal: Action Bias** | action bias | 4 | 17 |
 | `andreessen-horowitz-new-media` | **Marc Andreessen & Ben Horowitz: New Media Strategy** | new media strategy | 4 | 6 |
 | `andrew-dun-vibe-consulting` | **Andrew Dun — Vibe Consulting Mastery** | for solo-operator ai monetization use darrel-wilson-ai-monetization, vibe consulting mastery | 15 | 0 |
+| `andrew-stanton-audience-engineering` | **Andrew Stanton — Audience Engineering & Emotional Architecture** | audience engineering & emotional architecture | 21 | 0 |
 | `andrew-wilkinson-ai-entrepreneurship` | **Andrew Wilkinson AI Entrepreneurship** | for ai-affiliate monetization specifically use darrel-wilson-ai-affiliate | 2 | 6 |
 | `andy-lo-premium-websites` | **Andy Lo — Premium AI Website Creation** | for design, md / brand system extraction use design-md or brand-library, for hand-coded react/tailwind builds from a design | 5 | 14 |
 | `april-dunford-positioning` | **April Dunford: B2B Positioning & Sales Pitch Architecture** | the world's most actionable system for answering 'why should customers pick us?, b2b positioning & sales pitch architecture | 16 | 13 |

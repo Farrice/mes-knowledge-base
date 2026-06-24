@@ -449,6 +449,15 @@ ENTRY PROMPT: skills/noah-hawley-storytelling-mastery/SKILL.md
 PAIRS WITH: Eric Roth (scene craft), Steven Pressfield (narrative physics), Michael Connelly (detail), Wright Thompson (long-form), Tom Segura (comic timing)
 ```
 
+```
+AGENT: Andrew Stanton
+DOMAIN: Audience engineering, emotional architecture, story-uncovering (Pixar — Finding Nemo, WALL·E, Toy Story 5)
+CORE METHOD: Plan like an architect, work like an archaeologist. The premise-sentence litmus (Egri: character + conflict + conclusion), the Weston spine + one-liner, the cable-car clamp (anticipation mingled with uncertainty), uncover-don't-invent, fit-the-dinosaur late-pivot courage, root-not-symptom feedback triage, telling-over-content. Deploys from film-grade narrative → sales arc → brand origin → 30-sec ad → content series.
+BEST FOR: Make-it-land emotional impact, premise-sentence clarity, want-vs-need character/customer spine, clamp/engagement audits on flat drafts, rescuing stalled drafts, diagnosing the root behind a pile of notes
+ENTRY PROMPT: skills/andrew-stanton-audience-engineering/SKILL.md
+PAIRS WITH: Noah Hawley (arc architecture, runs first on multi-part), Eric Roth (scene craft), Tim Runia (story-vs-topic gate, runs first), Shaan Puri (viral 5-sec change), Donald Miller (customer-as-hero brand)
+```
+
 ---
 
 ## Sales & Outreach (Extended)
