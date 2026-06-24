@@ -13,7 +13,7 @@
 
 ---
 
-## Phase 1: Load the Writers' Room (3 layers, 9 sources)
+## Phase 1: Load the Writers' Room (3 layers, 10 sources)
 
 ### Layer 1: Structure & Compression
 
@@ -51,6 +51,15 @@ These three compress, cut, and tighten the architecture:
 - **Head vs. Gut Check**: Does the line land in the gut or just the head? Jargon, multi-clause sentences, and abstraction land in the head. Plain, picture-making language lands in the gut. If it sounds like a presentation instead of one friend explaining it to another, it failed.
 
 > **Note on overlap with Cole**: Cole's "4th Grade Vocabulary" is word-level (small words > big words). Bayer's Radical Distillation is *concept-level* (distill the whole idea to its simplest true form, then carry it on one image). They stack — Cole tightens the words, Bayer makes sure the idea itself is gut-simple. This is the always-on texture layer the rest of the room gets spoken through.
+
+#### Andrew Stanton — The Premise & Clamp Architect
+**Load**: `skills/andrew-stanton-audience-engineering/genius.md` (Decision Framework + the clamp + premise-sentence)
+**Lenses**:
+- **Premise-Sentence Litmus**: distill the piece to one true sentence — character + conflict + conclusion (sharper than the <10-word theme). Hold it as a litmus the draft must *prove*, then flag every line that serves a different sentence. A forced premise is a false one; if the draft can't prove it, the piece doesn't know itself yet.
+- **The Clamp (beat-by-beat pull)**: walk the draft as a cold reader and mark every place attention would drop (the beach ball). Re-clamp with anticipation + uncertainty — open a debt, withhold the outcome, inject a change, cut exposition. "Polished but flat" is an unclamped draft, not a finished one.
+- **Root, Not Symptom**: when notes pile up, find the single upstream fix instead of patching each surface line (the *Nemo* prologue move).
+
+> **Where Stanton sits in the room**: the architecture + engagement bookend. He runs *first* (premise: does the room even know what this is?) and *last* (clamp-audit: does every beat pull?). Albom names the theme; Stanton makes it a litmus and audits the forward pull the other layers assume is already there.
 
 ### Layer 2: Emotion, Psychology & Entertainment
 
@@ -126,6 +135,7 @@ Before editing, articulate:
 4. **Dead weight**: Which sections are "aunt" passages? Where does momentum die?
 5. **First/Last marriage**: Do opening and closing connect?
 5b. **Distillation check** (Bayer): Find the piece's biggest/most abstract idea. Does it land in the gut (plain words + one image) or the head (jargon, multi-clause abstraction)? Is there one everyday analogy carrying the heavy concept, or is the concept being explained instead of shown? Would the reader think "I already knew that" or "wow, he's smart"? (The first is the win.)
+5c. **Premise + clamp** (Stanton): State the piece's premise as one true sentence (character + conflict + conclusion) — can the draft *prove* it, or is it a wish? Then walk it as a cold reader: where would attention drop (the beach ball)? Name the first glance-up beat. A "polished but flat" draft fails here even when every sentence is clean.
 
 ### Layer 2 Diagnostics (Emotion):
 6. **Enemy** (Erica): What force does this piece fight? Is the enemy clear enough that readers instantly know what side they're on?

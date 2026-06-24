@@ -46,14 +46,15 @@ Score the draft on all 8 deficits using the shared 0/1/2 rubric in `references/d
 ---
 
 ### Stage 1 — Architecture (spine first)
-**Owner:** Noah Hawley — theme / ending-first. `skills/noah-hawley-storytelling-mastery` (`genius.md`) → `/hawley-theme-engine`, `/hawley-ending-first`.
-**Treats:** Deficit 1 (No architecture). For book/long-form this is the heaviest stage; for social the spine is usually already in the hook, so this is often a no-op — do not manufacture architecture a 150-word post doesn't need.
+**Owners:** Noah Hawley — theme / ending-first (`skills/noah-hawley-storytelling-mastery` → `/hawley-theme-engine`, `/hawley-ending-first`) **+ Andrew Stanton — premise-sentence + the clamp** (`skills/andrew-stanton-audience-engineering` → `/stanton-premise-sentence`, `/stanton-clamp-audit`). Hawley sets the theme/ending; Stanton distills the one true premise-sentence and audits whether every beat pulls the reader forward — the engagement face of architecture. A spine that doesn't clamp is a spine no one follows.
+**Treats:** Deficit 1 (No architecture), including its engagement face — paragraphs that float and momentum that dies are clamp failures, not just sequencing ones. For book/long-form this is the heaviest stage; for social the spine is usually already in the hook, so this is often a no-op — do not manufacture architecture a 150-word post doesn't need.
 
 | Conductor action | The question this stage answers |
 |---|---|
 | **Find or set the spine** | What is this *about*, underneath the topic, in one sentence? If a reader can't name it, install it. |
 | **Make the ending pay off the opening** | Does the last beat land what the first set up? Build the through-line before any sentence work. |
 | **Re-sequence if paragraphs float** | If sections are freely reorderable with no loss, the spine isn't load-bearing — fix the order so each beat depends on the last. |
+| **Audit the clamp** (Stanton) | Walk it as a cold reader: does every beat pull to the next? Mark where attention would drop (the beach ball) and re-clamp — open a debt, withhold the outcome, inject a change, cut exposition. A floating section is an unclamped one; this is the engagement test the spine must pass. |
 
 Load Hawley's `genius.md` + the named command, apply the move INTO the prose, then emit the **Stage 1 delta**: what changed, why, expected reader effect, source principle. If Deficit 1 scored 0, write *"Stage 1 — clean: spine already nameable and ending pays off the open; no change."* and proceed.
 
@@ -121,7 +122,7 @@ Stage map: S1=[deficits or "clean"] · S2=[...] · S3=[...] · S4=[...]
 Changed: [what the spine pass did, or "clean — no change"]
 Why: [the spine/ending problem it fixed]
 Reader effect: [what the change buys the reader]
-Source: [Hawley — theme / ending-first]
+Source: [Hawley — theme/ending · Stanton — premise/clamp]
 
 == STAGE 2 — SCENE + DETAIL ==
 Changed: [...]   Why: [...]   Reader effect: [...]   Source: [Roth visual prose / Connelly telling detail]
