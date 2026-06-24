@@ -72,7 +72,7 @@ Implicit invocation: any user request matching `routing_enforcer.BINDINGS` `auto
    - "front-load /adversarial-review" → schedule it after first draft inside Phase 2
    - "require /writers-room before execution" → run /writers-room as the first Phase-2 step
    - "load skills/<skill>/genius.md tier 2" → load it now, before Phase 2
-   - "spawn adversarial sub-agent" → add to fan-out list
+   - "spawn adversarial sub-agent" → add to fan-out list only if Farrice has explicitly authorized read-only diagnostic subagents for this run
    - "activate verification-agent-protocol upfront" → set `verification_upfront = True` for Phase 4
    - "exploration mode" → log but don't gate
 9. State the plan to the user, ONE line:
@@ -140,6 +140,7 @@ If `outcome_class == "research"`:
    python3 execution/parallel_swarm.py "<intent>" --grounded --research
    ```
    (Or invoke `/deep-research-gemini` if the request signals "deep" + the Gemini Ultra quota is healthy per `directives/google-api-usage-policy.md`.)
+   In Codex Desktop, do this only after explicit run-specific authorization for read-only diagnostic/research subagents; otherwise run the research angles sequentially in the main thread.
 2. Each parallel worker:
    - Gets a sealed sub-prompt with the relevant Recall card injection (Tier 1.5 grounding fires automatically per `directives/recall-grounding-protocol.md`)
    - Produces a deliverable to `.tmp/autopilot/<session_id>/research-angle-<N>.md`
@@ -163,6 +164,8 @@ Wave 5 (2026-05-21) populates the remaining 6 outcome classes and adds the paral
 
 Per the 2026-05-21 sub-agent orchestration research (Cognition's "Don't Build Multi-Agents" + Anthropic's multi-agent research-system retro), Wave 5 v1 restricts parallel fan-out to **read-heavy phases only**: research, review, verification, diagnostic refinement (lenses analyze, do not rewrite), extraction. Write-heavy parallel fan-out (multiple drafts of the same deliverable, multiple platform variants written concurrently) hits Cognition's documented failure mode: "Actions carry implicit decisions, and conflicting decisions carry bad results" (the Super Mario / bird example).
 
+In Codex Desktop, real Codex subagents require explicit run-specific authorization. Default subagent use is read-only diagnostics or validation, no further subagents, and no parallel write repair. The main thread owns integration and all file edits unless Farrice separately authorizes edit-owning workers with disjoint write scopes.
+
 Outcome class fan-out posture for Wave 5 v1:
 
 | Outcome class | Fan-out posture | Why |
@@ -183,6 +186,7 @@ Override mechanism: a workflow CAN unlock parallel write fan-out if it provides 
 
 Spawn parallel Agent calls when **all** of these hold:
 
+0. Farrice explicitly authorized real Codex subagents for this run, including worker count, read-only scope, deny list, halt condition, and no further subagents.
 1. `package.fanout_pattern == "parallel"` AND `package.fanout_workers_estimate >= 2`
 2. Phase N has 2+ deliverables that don't depend on each other's outputs (verified via `anchor_memory describe <slug>` — no `--ref-for` chain between them)
 3. Combined estimated token budget per worker fits within `~3KB context + sealed scope`
@@ -284,6 +288,7 @@ Per Anthropic's documented failure modes:
    ```bash
    python3 execution/prose_classifier.py check <path>
    ```
+1b. **Stanton clamp-audit (engagement, internal — no new gate):** for each text deliverable, walk it beat by beat (`/stanton-clamp-audit`) and re-clamp any beat where a cold reader's attention would drop (open a debt / withhold the outcome / inject a change / cut exposition). Runs internally and self-corrects, consistent with the gate-suppression contract — it adds no gate. Note the re-clamp in the ledger; surface to Farrice ONLY if a fix would require changing a premise or structure he locked (rare). The prose gate below catches AI-slop; this catches flat-but-clean.
 2. **Gate G3**: if ANY deliverable returns `verdict == "FLAGGED"` AND the prediction said this task class typically scores `expert_standard ≥ 7`, surface the flagged file side-by-side with the rubric:
    ```
    Deliverable <path> flagged as AI-prose (ai_score X/10).

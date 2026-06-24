@@ -93,6 +93,8 @@ python3 execution/prose_classifier.py check .tmp/copy-engine/<slug>/draft.md || 
 ## PHASE 6 — POLISH ($0)
 `/craves-polish` on key lines (mechanism name → Specific/Visual) + velocity compression.
 
+**Stanton clamp-audit (engagement pass) — `/stanton-clamp-audit`:** walk the assembled copy beat by beat (section by section, claim by claim) and mark every place a cold reader's attention would drop — proof that's explained instead of shown, a predictable next benefit, a static feature list. Re-clamp each: open a curiosity debt before each new section, withhold the mechanism one beat longer, give every feature a change. On a sales page a dropped beach ball is an exit; this is the line between copy that's read and copy that's skimmed. Surgical — restore forward pull at named points, never rewrite a verified block.
+
 **Optional Really Real depth layer:** If the user asks for copy with emotional truth, heart, resonance, reader trust, less generic language, or a more human feel, load `skills/lamott-allen-really-real-writing/` after proof is sound. Use it to remove fake empathy, bound inflated promises, name the buyer's real pressure in plain words, and keep conversion intact. Skip this for speed-only copy or when the copy already needs pure structural repair.
 
 ## PHASE 7 — FINALIZE (+ optional creative)
