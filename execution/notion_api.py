@@ -40,11 +40,14 @@ BASE_URL = 'https://api.notion.com/v1'
 
 # Database IDs from environment
 DB_IDS = {
-    'projects':  os.getenv('NOTION_DB_PROJECTS', ''),
-    'knowledge': os.getenv('NOTION_DB_KNOWLEDGE', ''),
-    'content':   os.getenv('NOTION_DB_CONTENT', ''),
-    'captures':  os.getenv('NOTION_DB_CAPTURES', ''),
-    'personal':  os.getenv('NOTION_DB_PERSONAL', ''),
+    'projects':       os.getenv('NOTION_DB_PROJECTS', ''),
+    'knowledge':      os.getenv('NOTION_DB_KNOWLEDGE', ''),
+    'content':        os.getenv('NOTION_DB_CONTENT', ''),
+    'captures':       os.getenv('NOTION_DB_CAPTURES', ''),
+    'personal':       os.getenv('NOTION_DB_PERSONAL', ''),
+    # Session Memory — the human-facing second-brain log (Simon Intellectual
+    # Library, Phase 3). Created via Notion AI Prompt 1; set its id in .env.
+    'session_memory': os.getenv('NOTION_DB_SESSION_MEMORY', ''),
 }
 
 
@@ -254,6 +257,47 @@ class NotionAPI:
                 f"Failed to create Knowledge Vault entry: [{e.status}] {e.code} — {e}"
             ) from e
 
+    def push_session_memory(
+        self,
+        title: str,
+        key_decisions: str,
+        pickup_prompt: str = '',
+        mode: str = 'Claude Code',
+        date_str: Optional[str] = None,
+    ) -> str:
+        """Push ONE distilled session-memory row to the Notion second brain.
+
+        ALLOW-LIST CONTRACT (privacy boundary, Phase 4): only these five fields
+        ever leave the machine — Title, Date, Advisor/Mode, Key Decisions,
+        Pickup Prompt. NEVER pass raw transcripts / assistant_message blobs here;
+        client + personal content stays in the local stores. One-way local→Notion.
+
+        Target: the Simon Intellectual Library "💬 Session Memory" DB
+        (NOTION_DB_SESSION_MEMORY). Created via the Notion AI deployment pack at
+        _active/notion-intellectual-library/notion-ai-deployment-prompts.md.
+        """
+        from datetime import date as _date
+
+        db_id = DB_IDS.get('session_memory', '')
+        if not db_id:
+            raise RuntimeError(
+                "NOTION_DB_SESSION_MEMORY not set. Run Prompt 1 in "
+                "_active/notion-intellectual-library/notion-ai-deployment-prompts.md "
+                "to create the Session Memory DB in Notion AI, then add its id to .env."
+            )
+        if date_str is None:
+            date_str = _date.today().isoformat()
+        # Notion rich_text caps at 2000 chars per text object — truncate defensively.
+        props: dict[str, Any] = {
+            'Title': self.title(title),
+            'Date': self.date(date_str),
+            'Advisor/Mode': self.rich_text(mode),
+            'Key Decisions': self.rich_text((key_decisions or '')[:1900]),
+            'Pickup Prompt': self.rich_text((pickup_prompt or '')[:1900]),
+        }
+        result = self.create_page(db_id, props)
+        return result['url']
+
 
 def main():
     parser = argparse.ArgumentParser(description='Notion API CLI')
@@ -291,6 +335,15 @@ def main():
     vc.add_argument('--date', default=None, help='Date extracted (ISO, default: today)')
     vc.add_argument('--skill', default='', help='Antigravity skill path')
     vc.add_argument('--tags', default='', help='Comma-separated tags (Crown Jewel, Hidden Knowledge, Actionable, Reference)')
+
+    # session-memory
+    sm = sub.add_parser('session-memory',
+                        help='Push a distilled session-memory row to Notion (allow-listed; no raw transcripts)')
+    sm.add_argument('title', help='Session title')
+    sm.add_argument('--decisions', required=True, help='Key decisions (distilled — never raw transcript)')
+    sm.add_argument('--pickup', default='', help='Pickup prompt to resume in a new session')
+    sm.add_argument('--mode', default='Claude Code', help='Advisor/Mode label')
+    sm.add_argument('--date', default=None, help='ISO date (default: today)')
 
     # schema
     sc = sub.add_parser('schema', help='Show database schema')
@@ -345,6 +398,16 @@ def main():
             )
             print(f"  Created: {url}")
         except (ValueError, RuntimeError) as e:
+            print(f"  Error: {e}")
+
+    elif args.command == 'session-memory':
+        try:
+            url = api.push_session_memory(
+                args.title, args.decisions, pickup_prompt=args.pickup,
+                mode=args.mode, date_str=args.date,
+            )
+            print(f"  Session memory pushed: {url}")
+        except (RuntimeError, NotionAPIError) as e:
             print(f"  Error: {e}")
 
     elif args.command == 'schema':

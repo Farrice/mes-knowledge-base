@@ -19,6 +19,10 @@ Stores unified (in rank order):
                 domain/expert match); pointers, not full documents
     agents      agents/*/memory/context.md — matched when the query names an
                 agent; pointers + first lines
+    episodic    ~/.config/superpowers/conversation-index/db.sqlite — full
+                conversation history (superpowers episodic-memory). Read-only
+                SQL over the `exchanges` table, project-scoped to this repo by
+                default; the "auto-remember past sessions" layer.
 
 Design rules:
     - Read-only. The facade never writes to any store.
@@ -49,7 +53,24 @@ AUTOMEM_DIR = Path(os.environ.get(
     str(Path.home() / ".claude" / "projects" / "-Users-farricecain-Google-Antigravity" / "memory"),
 ))
 
-ALL_SOURCES = ("sovereign", "automem", "wiki", "agents")
+# episodic — full conversation-history index written by the superpowers
+# episodic-memory plugin (mechanical SessionStart hook; ~23k exchanges for this
+# repo). Scoped to this repo's project key by default; override with
+# ANTIGRAVITY_EPISODIC_PROJECTS (comma-separated project keys, or "all" for
+# cross-project recall).
+EPISODIC_DB = Path(os.environ.get(
+    "ANTIGRAVITY_EPISODIC_DB",
+    str(Path.home() / ".config" / "superpowers" / "conversation-index" / "db.sqlite"),
+))
+_episodic_env = os.environ.get("ANTIGRAVITY_EPISODIC_PROJECTS", "").strip()
+if _episodic_env.lower() == "all":
+    EPISODIC_PROJECTS: Optional[List[str]] = None
+elif _episodic_env:
+    EPISODIC_PROJECTS = [p.strip() for p in _episodic_env.split(",") if p.strip()]
+else:
+    EPISODIC_PROJECTS = ["-" + str(ROOT).strip("/").replace("/", "-").replace(" ", "-")]
+
+ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic")
 
 _STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
@@ -246,6 +267,61 @@ def _query_agents(query: str, top_k: int) -> Dict[str, Any]:
 
 
 # ──────────────────────────────────────────────────────────────────
+# episodic — full conversation history (superpowers episodic-memory index).
+# Read-only SQL against the `exchanges` table ONLY; never the vec_exchanges
+# virtual table (needs the vec0 extension, unloadable in plain python3). The
+# project filter uses idx_project to narrow ~133k rows to this repo's ~23k
+# before the LIKE text scan.
+# ──────────────────────────────────────────────────────────────────
+def _query_episodic(query: str, top_k: int) -> Dict[str, Any]:
+    try:
+        if not EPISODIC_DB.exists():
+            return {"results": [], "degraded": f"episodic db missing: {EPISODIC_DB}"}
+        q_tokens = _tokens(query)
+        if not q_tokens:
+            return {"results": [], "degraded": None}
+        toks = q_tokens[:6]
+        params: List[Any] = []
+        scope_sql = ""
+        if EPISODIC_PROJECTS:
+            placeholders = ",".join("?" for _ in EPISODIC_PROJECTS)
+            scope_sql = f"project IN ({placeholders}) AND "
+            params.extend(EPISODIC_PROJECTS)
+        clauses = ["user_message LIKE ? OR assistant_message LIKE ?" for _ in toks]
+        for t in toks:
+            params.extend([f"%{t}%", f"%{t}%"])
+        params.append(max(top_k * 20, 60))
+        sql = (
+            "SELECT id, session_id, user_message, assistant_message, timestamp, archive_path "
+            f"FROM exchanges WHERE {scope_sql}(" + " OR ".join(clauses) + ") "
+            "ORDER BY timestamp DESC LIMIT ?"
+        )
+        con = sqlite3.connect(f"file:{EPISODIC_DB}?mode=ro", uri=True)
+        try:
+            con.execute("PRAGMA query_only=ON")
+            rows = con.execute(sql, params).fetchall()
+        finally:
+            con.close()
+        results = []
+        for rid, sid, umsg, amsg, ts, apath in rows:
+            results.append({
+                "source": "episodic",
+                "via": "exchanges_like",
+                "score": _overlap_score(q_tokens, (umsg or "") + " " + (amsg or "")),
+                # dedup on the unique exchange id, never session_id (multiple
+                # exchanges share a session and must not collapse to one)
+                "id": rid or sid or ts,
+                "pinned": False,
+                "snippet": (umsg or "").strip()[:300],
+                "path": apath or str(EPISODIC_DB),
+            })
+        results.sort(key=lambda r: r["score"], reverse=True)
+        return {"results": results[:top_k], "degraded": None}
+    except Exception as exc:
+        return {"results": [], "degraded": f"episodic: {str(exc)[:120]}"}
+
+
+# ──────────────────────────────────────────────────────────────────
 # facade
 # ──────────────────────────────────────────────────────────────────
 def recall(
@@ -271,6 +347,7 @@ def recall(
         ("automem", lambda: _query_automem(query, per_store)),
         ("wiki", lambda: _query_wiki(query, per_store)),
         ("agents", lambda: _query_agents(query, per_store)),
+        ("episodic", lambda: _query_episodic(query, per_store)),
     ):
         if name not in use:
             continue
