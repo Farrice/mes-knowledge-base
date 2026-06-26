@@ -1,0 +1,12 @@
+---
+description: "Builds an investigation on a skeleton of receipts that reads like a thriller and can't be debunked."
+---
+
+# Investigative Long-Form — The Newsletter Page-Turner
+
+Builds an investigation on a skeleton of receipts that reads like a thriller and can't be debunked.
+
+## Steps
+1. Load the Bill Browder spine: read `skills/bill-browder-high-stakes-narrative/genius.md` (Decision Framework + Anti-Patterns + relevant patterns).
+2. Read and execute the full workflow at `skills/bill-browder-high-stakes-narrative/workflows/browder-investigative-content.md` exactly (Pre-Flight, Steps, Output Format, Quality Gate).
+3. Run the Quality Gate before delivering.

@@ -333,7 +333,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 |---------|-------------|
 | `/farrice-engine` | **Master front door.** Composes the daily Parallax cook + brandjack engine + lead-gen motion into one content→authority→client machine, pointed at the beachhead in `MASTER-STRATEGY.md`. Depth layer (Cognitive Signature + Aha gate), Apify-first research, dual-track acquire. Modes: `daily` (Creative Daily Brief → raw dump → 3 variants), `acquire`, `offer "<who>"`, `weekly`, `repoint`, `radar` (Apify brand sweep), `teardown "<brand>"` (keystone proof asset), `export` (→ Google Drive Docs). Loads the ICP Emotional Map (empathy moat) + Cognitive Signature + Aha/Empathy gates |
 | `/linkedin-daily` | Daily LinkedIn engine (v2, **Parallax-modeled**): research (zeitgeist + industry) → brandjack/newsjack opportunity menu + raw-take priming → HALT for Farrice's take → cook 3 voice-gated variants → fact-verify + ratchet. Flags: `--auto`, `--topic "X"`, `--no-post`, `--posts N` |
-| `/geo-content` | **The GEO content machine — single front door.** Loads the Content Engine + dossier + offer every run so the pillar/angle/bridge are always right. Default = daily deploy (rotate to today's pillar via the barbell → prime the raw-take questions → HALT for your voice note → cook + gate → bridge to `DM "AUDIT"`). Modes: `--map` (show engine + today's angle, no cook), `--topic "X"` / paste a raw take (cook now), `--pillar P#`, `--rebuild` (regenerate the 5-pillar engine), `--full` (whole new-vertical sequence: research → offer+launch package → engine). Wraps `/linkedin-daily` + `/quality-content`, pre-pointed at the GEO system so you never chain them by hand. Engine: `_active/linkedin-launch/content-engine/CONTENT-ENGINE.md` |
+| `/geo-content` | **The Content OS — single front door for health/wellness/performance content.** Loads the Content OS + buyer dossier + voice law every run; value-first edutainment built to dominate a dry field via **adjudication** (settle the category's live fights from inside 18 yrs credentialed physiology; entertainment is tone, never topic). Default = CREATE (rotate to today's pillar → prime the raw take → cook the *Physiology Misconception Correction* → checklist + prose gate → ship, **no CTA**). Modes: `--map`, `--research` (48-hr-lag beat scan), `--create "X"`, `--distribute` (format + repurpose map), `--jack` (newsjack engine), `--cta` (opt-in soft CTA, ~1-in-5, never a pitch), `--full`, `--rebuild` (regenerate the OS). Offer earned by the work, surfaced softly. OS: `_active/linkedin-launch/content-os/CONTENT-OS.md` |
 
 ---
 
@@ -1104,5 +1104,29 @@ You don't need to remember command names. These common phrases automatically map
 | `/oe-long-form-authority` | Plan long-form authority content and map the live-offer ascension ladder |
 | `/oe-mindset-over-tactics` | Convert tactical asks into belief-shift assets and run the true-influence test |
 | `/oe-receptive-soil-filter` | Design for the receptive-soil buyer and self-selection before scaling |
+
+---
+
+## 🖋️ How-I-Write Writing OS (137)
+
+Extracted from the **"How I Write" (David Perell)** series: ten writing masters, each forged into a standalone skill with tiered workflows (Foundation · Practitioner · Cross-Domain), an agent persona, sovereign pins, and full routing — composed by one master conductor. The Cross-Domain workflows carry each master's craft into **social, marketing, copywriting, ghostwriting, entrepreneurship, and content**. Each expert's full workflow list lives in its `SKILL.md`; the headline front door for each is below.
+
+| Command | Expert / OS | Lane | # WF |
+|---------|-------------|------|------|
+| `/how-i-write` | **How-I-Write OS** (conductor) | Diagnose objective → smallest sufficient altitude stack (3–6) → one author owns the body voice → truth/clamp/prose gates → finished piece + receipt | — |
+| `/telling-detail-engine` | **Michael Connelly** | Telling detail · momentum · economy · subtext · place-as-character | 16 |
+| `/estrangement-engine` | **Ocean Vuong** | Perceptual estrangement · defamiliarization · anti-slop voice | 15 |
+| `/harding-perception-engine` | **Paul Harding** | Lyric perception · sensory description · improvisation · the music of prose | 12 |
+| `/shukman-concrete-doorway` | **Henry Shukman** | Contemplative · wonder · presence · sincerity | 13 |
+| `/albom-theme-first-engine` | **Mitch Albom** | Emotional architecture · meaning · theme-first · everyman | 13 |
+| `/browder-next-sentence-test` | **Bill Browder** | High-stakes narrative nonfiction · jeopardy · evidence-spine | 13 |
+| `/orlean-telling-subject` | **Susan Orlean** | Curiosity-driven literary journalism · structure-first · immersion | 12 |
+| `/wang-friction-map` | **Dan Wang** | Analytical essay · voice · synthesis · the annual letter | 13 |
+| `/lulu-m3-matrix` | **Lulu Cheng Meservey** | Go-direct comms · positioning · reality-shaping · crisis | 15 |
+| `/ward-rhetorical-engine` | **Ward Farnsworth** | Classical rhetoric · memorable line · Saxon-punch · chiasmus | 14 |
+
+**Altitude spine** (what `/how-i-write` composes): Runia (story gate) → Hawley (theme) → Stanton (premise/clamp) → Albom (human truth) → Browder/Orlean/Wang (nonfiction) or Pressfield/Wright (narrative) → Connelly/Harding/Ocean/Shukman/Roth (scene + voice) → Ward (line) → Lulu (distribution) → really-real (truth pass). Run `/how-i-write` to auto-compose the right subset, or invoke any expert directly. Each expert also exposes Tier-3 cross-domain commands (e.g. `/connelly-copy-detail`, `/ocean-perceptual-copy`, `/browder-founder-warstory`, `/lulu-pr-crisis`, `/wang-annual-letter`, `/orlean-brand-profile`, `/harding-perceptual-copy`, `/shukman-wonder-content`, `/albom-brand-story`, `/ward-copy-rhetoric`) — see each skill's `SKILL.md` for the full set.
+
+---
 
 > **Quick tip:** Don't see what you need? Just describe what you want to do and the system will find the right workflow — or build a new one.

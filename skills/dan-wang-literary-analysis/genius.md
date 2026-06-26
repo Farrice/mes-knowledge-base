@@ -4,6 +4,26 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+> **Note on the name.** The skill directory is `dan-wang-literary-analysis`, but the real domain is **analytical-essay writing, voice in nonfiction, and the synthesis of disparate notes into one voice-driven insight piece** — the annual-letter form, observation-to-insight, comparison/contrast frameworks, the well-traveled detail. Read "literary analysis" as "the literary treatment of analysis," not as academic close-reading.
+
+---
+
+## How to Use This Skill (Opus Calibration)
+
+The patterns below are **intuition primitives, not a checklist**. Wang's entire method is that the texture and the music are *load-bearing* — they are how the analysis enters the reader, not decoration laid on top. Absorb the patterns, then write so the voice feels native and inevitable, never assembled from slots.
+
+The test is not "how many patterns did I deploy?" The test is: **would Dan Wang recognize this as his thinking — or as someone filling analytical-essay slots?** Wang is explicit that he "can't write any other way... because I am who I am." The voice is the person; if the output reads as a template wearing his vocabulary, it has failed.
+
+Specifically:
+- **Texture is the argument, not the garnish.** A sensory detail that does not ladder up to a real analytical point is just travel-writing self-indulgence — the exact failure mode Wang names ("most travel writing... is often very self-indulgent"). Every concrete detail must *earn* its place by carrying an idea. Conversely, every abstract claim must be *grounded* in something observed. Neither half stands alone.
+- **Restraint over saturation.** Wang prizes "clean lines... informed by a few flourishes." A flourish every sentence is noise; a flourish at rhythmic intervals halts the scanner and rewards the close reader. The Italians "value ornament for its own sake" — but inside a clean line, not instead of one.
+- **One coherent author, not a committee.** Wang's letters work because a single sensibility runs through analysis, food, music, and travel. Do not stitch a "voice-y opening" onto a "report body." The personal and the analytical must be the *same* voice oscillating, not two registers bolted together.
+- **Ship at 85%, do not polish to death.** "No writer would ever get above 85%." Perfectionism kills cornerstone content. The deadline is a feature: it forces synthesis the accumulated notes would never reach on their own.
+- **Influence, never imitation.** Wang soaked Stendhal, Mozart, the New Yorker — and sounds like none of them. Do not pastiche "Dan Wang." Soak the instinct (the zoom, the irony, the texture), then write so it is natural to *this* subject and *this* voice. Forced "literary" cadence in someone else's register never sounds right.
+- **Do NOT label the moves.** Never annotate output with pattern names or announce "here is the friction point." The reader should feel the depth, not see the scaffold.
+
+Why this matters: these models follow instructions literally, and analytical-essay voice dies under mechanical execution — the whole point is that the texture, the irony, and the zoom feel like one mind thinking, not a procedure run. Checklist execution produces the "airport book" / Gladwellesque insight-porn that Wang explicitly rejects.
+
 ## Genius Patterns
 
 ## Pattern 1: Musical Sentence Architecture
@@ -204,6 +224,101 @@ Reject genre conventions. Choose evocative images that capture actual thesis ove
 - Return to analytical register immediately after — the recognition moment earns the synthesis that follows
 
 **Anti-Pattern**: Do NOT make this therapeutic or self-help. The recognition bridge is a literary move, not a coaching intervention. It should feel like a novelist describing a character who happens to be the reader — precise, unsentimental, and slightly uncomfortable in its accuracy.
+
+---
+
+## Pattern 17: Big-Questions-First Framing
+**Execute**: Before drafting, name the 2-3 questions actually animating the field/audience this period — the ones the smartest people are arguing about right now (for Wang in 2021: the tech crackdown, how zero-COVID resolves, what "common prosperity" means). Then commit to *answering* them, however imperfectly, rather than merely *outlining* what the questions are. Wang's frame: "let's not just try to outline what the important pertinent tractable questions are. Let's also try to have an answer." This is "draft 1.5 of history" — past the daily-news first draft, short of the historian's final one. Pair with the conversational-reality test: *what do I want from the world* (your distinctive lens) meeting *what does the world want from me* (the big animating question). Both, or you are either delusional or joyless.
+
+**Success Metric**: The piece engages the exact tension the audience is already preoccupied with — and stakes a real answer, so it reads as a considered position, not a survey of open questions.
+
+---
+
+## Pattern 18: Genre-Incentive Mapping (Escape the Form's Pull)
+**Execute**: Before writing in any format, map its *structural incentives* — what the form rewards and what it punishes — then deliberately escape the gravity. Trade books are pulled toward the "airport book" (celebrity, ghostwritten, unserious, written for a mass audience). Academic books are pulled toward tenure-padding (defensive, narrow, obsessed with peers, no big questions). Substack/Twitter are pulled toward ever-shorter, ever-more-frequent posts. Each pull produces the genre-typical mediocrity. The work that lasts *transcends its own genre's incentives* — the scholar (Kotkin) writing a narrative-driven trade biography; the analyst writing one considered piece a year instead of a daily take. Name the pull, then write against it.
+
+**Success Metric**: A reader cannot slot your piece into the lazy category the format usually produces. It has the seriousness of scholarship without the deadness, or the readability of trade without the hustle-porn.
+
+---
+
+## Pattern 19: Contingency Over Just-So Stories
+**Execute**: When explaining *why something happened* (a collapse, a crackdown, a rise), resist the historian's trap of the "just-so story" — the tidy narrative in which the outcome was fated by exactly the mistakes that in fact occurred ("of course the Soviet Union fell, it was sclerotic and broken"). Instead, reconstruct how the world actually felt *before* the event, when nobody expected it ("every event feels kind of impossible before it takes place and then right after it takes place it feels obvious and necessary"). Imagine the counterfactual; hold the contingency. The future was not yet written on every page.
+
+**Success Metric**: The analysis avoids hindsight-bias smoothness; it conveys the genuine uncertainty and live alternatives of the moment, which is what makes the eventual outcome feel earned rather than assumed.
+
+---
+
+## Pattern 20: Radical Infrequency (Bring Down the Average)
+**Execute**: Reject the platform pressure toward frequent, short, newsy output. Build reputation through *radical infrequency paired with radical quality* — Wang built a global name on roughly six or seven annual letters, "one piece a year," writing for the reader's "most considered thoughts" rather than their feed. Spend the year accumulating; spend the deadline synthesizing. The day-job/newsy writing can happen separately and frequently; the *cornerstone* product is rare and poured-into.
+
+**Success Metric**: The audience waits for and re-reads the piece; the work compounds reputational authority disproportionate to its volume. Quality, not cadence, is the moat.
+
+---
+
+## Pattern 21: Disappointment as Engine
+**Execute**: Locate the *productive disappointment* driving the piece — the gap between how good something could be and how it actually is. Wang writes from the periphery's disappointment with the center (the provincial outsider indicting the elites who coast: Yale Law grads, Stanford "chosen" kids, dysfunctional San Francisco where you hide your car keys). The disappointment is not complaint; it is *error-correction*. It licenses honest critique an insider, invested in the in-group, would never voice. Name what disappoints you and why it should be better — that is the moral charge under the analysis.
+
+**Success Metric**: The critique has teeth and a clear standard (this *could* be a Florence; why isn't it?), not generic negativity. Insiders find it uncomfortable and hard to dismiss because it comes from someone who wants the thing to be better, not someone scoring points.
+
+---
+
+## Decision Framework
+
+Run these before executing any workflow. They are the gate between a Wang-grade analytical essay and smart-but-dry reportage (or its opposite, self-indulgent travel writing). If you cannot answer 1-4, return to them before producing.
+
+1. **What is the big question?** Can I name the 2-3 tensions actually animating this audience right now (Pattern 17) — and am I prepared to *answer*, not just survey? No live question → no reason for the piece to exist.
+2. **What is the friction?** Where does the official/stated story diverge from the observed/ground truth (Pattern 4)? The gap *is* the analytical engine. If I'm only restating the official story, there's no insight yet.
+3. **Is every abstraction grounded, and every detail earning?** For each tectonic-plate claim, do I have a specific observed texture (meal, walk, object, scene) as its gateway (Patterns 3, 8)? For each sensory detail, does it ladder up to a real idea, or is it self-indulgent travel writing?
+4. **Where is my outsider distance?** What dysfunction can I see *because* I'm not an insider (Pattern 7)? What disappointment is driving this (Pattern 21)? If I'm fully captured by the in-group, the error-correction is gone.
+5. **Do I have the anchor sentence?** Is there one beautiful, quotable sentence I could build the piece around (Pattern 6)? If not, keep refining notes until one arrives.
+6. **Is the voice one coherent author?** Does the personal/analytical oscillation read as one mind (Pattern 8), or have I bolted a voice-y intro onto a report body?
+7. **Am I escaping the genre's pull?** What does this format usually reward into mediocrity (Pattern 18), and have I written against it — no airport-book hustle, no academic deadness, no Gladwellesque insight-porn formula?
+8. **Is it shipped at 85%, not polished to paralysis?** Is the deadline forcing synthesis, or is perfectionism stalling it (Tacit 1, 2)?
+
+## Dan Wang Would Never... (Anti-Patterns)
+
+These are the violations that turn an analytical essay into either dry reportage or self-indulgent travel writing. If any appear in the output, you have departed from Wang's intelligence.
+
+### AN-1: Tectonic-Plate Abstraction With No Texture
+Big-theme analysis floating free of any observed detail — "Urbanization in China has led to significant economic growth" — the Anti-Exemplar voice. Generic, abstract, could be written by anyone or any AI.
+**Detection**: Find an analytical claim with no concrete sensory gateway within a paragraph of it. Ground it or cut it.
+
+### AN-2: Self-Indulgent Texture With No Idea
+The opposite failure: lush travel-writing detail (the ecstatic sunset, the charming market) that never ladders up to an analytical point. Wang's explicit indictment of bad travel writing — "people are really only thinking about what is in front of them."
+**Detection**: Find a sensory passage that carries no idea. Either elevate it (zoom out to what it *means*) or cut it.
+
+### AN-3: Restating the Official Story as Insight
+Reporting the press-release / consensus / official narrative as if it were analysis, with no friction mined against ground truth. The "newscast" view in which everything is "immaculate for the leader's pleasure."
+**Detection**: Ask "would an insider find this uncomfortable?" If it only repeats what officials want said, there's no friction and no insight.
+
+### AN-4: The Single-Expert / Insight-Porn Formula
+Channeling one expert's view (or one anecdote → one takeaway, Gladwell-style) over and over, without reading the literature, interviewing several, looking at the data, *and* observing the ground. Also: the "airport book" hustle-porn convention. Wang: "start with the story, get to the main point and just do that over and over... become so copied and belabored and formulaic."
+**Detection**: Is the piece running a repeatable formula? Is it sourced from a single voice? Break the formula; triangulate the sources.
+
+### AN-5: Surface Earnestness (No Irony, No Layer)
+Writing that is all sincere, single-level statement — nothing rewards re-reading, no tension or irony coiled inside the beautiful line (Patterns 2, 13). Wang's Mozart principle: the love song is almost always ironic; "China itself is already super serious," so the writing carries the playfulness.
+**Detection**: Read the piece a second time. Did it reveal a new layer, or is it "spent" after one skim? If spent, layer in irony and Easter eggs.
+
+### AN-6: AI-Generated Sentences in the Prose
+Letting the model write the actual sentences. Wang declares it "verboten" — AI is a sparring partner for *thinking through* (music, novels, restaurant picks, a Tyler-in-your-pocket), never a generator of the prose itself. "I want the sentences to come from within myself." The flat, hedge-y AI register is the death of voice.
+**Detection**: Any sentence with the generic, smoothed-over, "on the one hand / on the other" AI cadence. Rewrite it in the human voice.
+
+### AN-7: Just-So Smoothness (Hindsight Bias)
+Explaining an outcome as if it were always fated — the tidy historical narrative that ignores how genuinely uncertain and contingent the moment was (Pattern 19).
+**Detection**: Does the explanation feel suspiciously inevitable? Reconstruct what was actually unknown at the time; restore the contingency.
+
+## Cross-Domain Applications
+
+The genius — texture-grounded analysis, friction mining, the zoom, the one coherent voice, big-questions-first — is domain-agnostic. It operates on *how insight is made and delivered*, not on China. The map below is where each move wants to live outside the annual letter.
+
+| Domain | What the Wang genius does here | How it deploys |
+|---|---|---|
+| **Social media** (X / LinkedIn) | Turns a thread or post from generic take into a textured, friction-driven observation that rewards a second read | Open on the well-traveled detail (the specific scene, not the abstract claim), zoom out to the big question, end on the anchor sentence. Irony over earnestness. Bring down the average — one considered post beats ten reactive ones. |
+| **Marketing / brand** | Replaces category-cliché positioning with friction (official brand story vs. lived customer reality) and the cover-photo strategy (reject the genre's visual/verbal defaults) | Map what the category *says* vs. what customers actually *experience*; the gap is the campaign. Choose the evocative image/line that captures the real thesis, not the expected trope (Tacit 7). |
+| **Copywriting** | Grounds every benefit in a concrete, sensory, observed moment instead of abstract claims; mines the friction the prospect lives but the category won't admit | Texture over feature-list. Recognition anchoring (Pattern 16) for the second-person "you've felt this." Build the page around one beautiful, quotable line (Pattern 6). |
+| **Ghostwriting** | Finds and sustains the client's *one coherent voice* across analytical and personal registers; oscillates zoom without sounding like two authors | Soak the client's cadence; never insert your own showpieces. The personal detail and the big idea must be the *same* voice. Influence, not imitation. |
+| **Entrepreneurship / operator writing** | The annual-letter form for a company/year: texture-grounded, big-questions-first, contingency-honest reflection that builds founder authority through radical infrequency | One considered letter a year, accumulated over twelve months of notes, synthesized at the deadline. Answer the questions actually animating your market; write from productive disappointment with the status quo. |
+| **Content strategy / newsletters / essays** | Escapes the platform's frequency pull (Pattern 20) and the genre's incentive pull (Pattern 18); produces cornerstone pieces that compound reputation | Reject the piece-a-week treadmill for the considered piece. Map the format's lazy default and write against it. Layer for re-readers; ship at 85%. |
 
 ---
 

@@ -216,6 +216,36 @@ Making violence or spectacle the centerpiece. Even in murder mysteries, Connelly
 
 ---
 
+## Cross-Domain Applications
+
+Connelly's four load-bearing moves — the telling detail, sacred momentum, character-through-everything, and subtext — operate on the *reader's attention and imagination*, not on the subject. They are domain-agnostic. The map below is *where each move wants to live* outside of crime fiction. The honesty spine holds across every cell: a telling detail in copy or brand must be a *real, true* particular — Connelly's craft makes a true detail do more work; it never invents one to fake authenticity.
+
+| Domain | Moves that earn their place | How they deploy |
+|---|---|---|
+| **Social hooks** (LinkedIn/X/Substack) | Telling detail · slingshot opener · momentum | Open on ONE concrete, true particular instead of an abstract claim ("the groove worn into the earpiece" not "after decades of stress"). Let the reader's mind build the rest. The slingshot: empathic strike, then the trigger that drops the post into drive — and never give the reader a comfortable place to stop scrolling. One detail per hook; stacking three kills the imagination-window. |
+| **Converting copy** (VSL / landing / email) | Telling detail (replaces benefit lists) · subtext · momentum | One concrete detail *implies* the feature set — show the moment the product changes, don't enumerate specs. The reader infers the benefits, which they trust more than claims they're told. Subtext lets copy persuade without sounding like it's convincing. Every paragraph ending pulls into the next, or the reader bails. **Honesty spine non-negotiable: the detail must be real.** |
+| **Brand / content narrative** | Character-through-everything · momentum · real-world anchor | The brand IS a character — reveal it through setting, conflict, and observed detail, never through a bio paragraph or values list. Run every element through "what does this reveal about who this brand IS?" Audit the narrative for any place the reader can stop reading. Anchor the story in verifiable real-world particulars so it reads as true, not constructed. |
+| **Ghostwriting** (a client's voice) | Dialogue economy · outsider lens · subtext · character lens | Cut the client's dialogue/voice in half — the most over-explained, lowest-trust copy is the longest. Find the gap between what the client *has access to* and *why they feel they don't belong* — that tension IS the voice. How much a person says, and what they leave to a nod, characterizes them. The voice must read as *theirs*, not as your showpiece. |
+| **Email / newsletter** | Momentum · slingshot · telling detail | Tightest momentum demand — one speed bump and they archive. Open with the trigger, carry one telling detail, end every section pulling into the next. Subtext over surface for the lines that need to land without a hard sell. |
+| **Strategy / memo / thought-leadership** | Telling detail · exposition-as-action · economy | Replace the abstract framework statement with the one concrete instance that *is* the framework. Distribute context through example and observation, never through an exposition dump. The single specific anecdote out-persuades the general principle stated five ways. |
+
+---
+
+## Decision Framework
+
+Run these *before* deploying any move — the pre-flight gate between "vivid and propulsive" and "over-detailed slop that announces its own craft." If you cannot answer 1–3, do not reach for a move yet; fix the underlying material first. (This consolidates the per-principle filters above into one gate.)
+
+1. **Is there a single telling detail — or am I stacking?** One detail that reveals character AND situation simultaneously, opening a window of imagination. If three details are firing where one would carry the load, the machinery is showing — cut to the survivor (genius § Principle 1, AN-2).
+2. **Does every element serve character?** Run setting, plot, dialogue, geography through "what does this reveal about who this person/brand IS?" If the answer is "nothing," reshape it to serve character or cut it. There is no third option (genius § Principle 3).
+3. **Can the reader find a good place to stop?** Read it at speed and mark every pause, re-read, or comfortable stopping point. Each is a speed bump: rewrite, restructure, or cut. Momentum means they *physically cannot* find a place to put it down (genius § Principle 2).
+4. **Is the meaning the same as the surface?** For any dialogue or persuasive line, name "what is this literally about?" and "what is this ACTUALLY about?" If they're identical, the writing lacks subtext — create separation and trust the reader (genius § Principle 5).
+5. **Am I explaining a feeling or showing it?** "He felt X" is always a rewrite trigger. Emotions live in physical behavior — the white knuckles, the working jaw, the nod that replaces "yes" (genius § AN-3).
+6. **Is the prose transparent — or is it asking to be admired?** If a sentence's primary job is to sound beautiful, it fails the momentum test. The reader should see *through* the words to the story, not *at* them (genius § AN-1).
+7. **Honesty spine: is the detail real?** Cross-domain only. In copy, brand, and ghostwriting, a telling detail must be a true particular. The craft makes a *true* detail land harder; it never manufactures one to fake authenticity. A false detail that "feels real" is the most dangerous failure mode — the better the craft, the more convincing the lie.
+8. **Would Connelly recognize this as cinematic prose — or as someone filling vivid-writing slots?** If the output mechanically applies every pattern in order, you've failed. The reader should feel the world come alive, not see the scaffold (genius § How to Use This Skill).
+
+---
+
 ## Evolution Log
 
 ### 2026-04-09 — Telling Detail Engine: Narrative Load Ranking

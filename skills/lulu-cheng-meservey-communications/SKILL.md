@@ -1,25 +1,73 @@
 ---
-name: "Lulu Cheng Meservey: Communications Strategy & Narrative Architecture"
-description: "Master the Go Direct philosophy and narrative architecture system used to shape billion-dollar company narratives. Deploy elite communications frameworks for founder-led PR, cultural positioning, and attention-to-value conversion."
-version: "2.0"
+name: "Lulu Cheng Meservey — Communications Strategy & Narrative Architecture"
+description: "Go-Direct communications and reality-shaping mastery from the founder of Rostra, former Head of Comms at Substack, and advisor to Anduril and Activision Blizzard, systematized from her How I Write interview with David Perell. 13 workflows across the Mao-style Message-Medium-Messenger matrix, the Reality Architect (names create reality), cultural-erogenous-zone detection, the gerrymandered line in the sand, strategic wrongness held until consensus catches up, conviction copy that installs belief, authenticity engineered (never faked), viral-trajectory timing, launch attention-harvest, the standing founder-brand comms OS, zeitgeist-entry content, and emotional-altitude PR crisis response — every asset gravity-welled to one named business goal. The method runs on one nerve: it has to be real or it dies on contact."
+version: "3.0"
 format: "completion-engine"
-workflows: 3
+workflows: 13
+extracted_from: "How I Write interview with Lulu Cheng Meservey (David Perell)"
+companion_to: "founder-voice"
+tier: system
 ---
 
-# Lulu Cheng Meservey: Communications Strategy & Narrative Architecture
+# Lulu Cheng Meservey — Communications Strategy & Narrative Architecture
 
-Lulu Cheng Meservey is the architect of the "Go Direct" communications movement—the philosophy that revolutionized how founders control their narratives in a decentralized media landscape. As founder of Rostra, former Head of Communications at Substack, and advisor to Anduril and Activision Blizzard, she has shaped narratives for billion-dollar companies during their most critical moments.
-This skill captures her complete methodology for:
-- **Founder-Led Direct Communication** — Bypassing media 
+Lulu Cheng Meservey is the architect of the Go-Direct movement — the operator who took founders off the leash of the press desk and taught them to own their own narrative in a decentralized media landscape. As founder of Rostra, former Head of Communications at Substack, and advisor to Anduril and Activision Blizzard, she has shaped billion-dollar company narratives at the moments that decided whether they were believed. This skill owns two layers no one else in the roster fully covers: **how a narrative is engineered to install a new operating truth** (names create reality, the gerrymandered line, strategic wrongness held until the world catches up, conviction copy that transforms rather than informs), and **the strategic surface where that narrative lands and converts** (the Message-Medium-Messenger matrix, cultural-erogenous-zone detection, viral-trajectory timing, attention harvested into recruits/revenue/funding, and emotional-altitude crisis response).
 
-## Available Workflows
+> **The one nerve**: every workflow runs on a single law — *the thing has to be real or it dies on contact.* "You get one bullet, you get one shot." Manufactured authenticity, paid messengers, forced amplification, and template-chasing all read as fake the moment the seam shows, and the audience never forgives the fake twice. Load this for standing up a comms campaign from scratch, installing a contrarian thesis, finding the receptors a message can attach to, founder personal-brand engines, perfectly-timed content, and live crisis response — then stack copy, brand, and content experts inside the architecture.
 
-| # | Workflow | Produces | Use When |
-|---|---------|----------|----------|
-| founder | [Founder Narrative & Voice Architecture](workflows/founder-narrative-voice-architecture.md) | Founder Identity & Reality-Shaping Manifesto | A founder needs to establish a distinct, uncopyable public persona and define the 'operating truths' of their company. |
-| cultural | [Cultural Positioning & Competitive Differentiation](workflows/cultural-positioning-differentiation.md) | Strategic Positioning & Zeitgeist-Entry Roadmap | The company needs to find a unique 'hook' in the current culture or draw a line in the sand against competitors to gain market share. |
-| attention | [Attention Conversion & Momentum Management](workflows/attention-conversion-momentum-management.md) | Attention-to-Value & Crisis Response Protocol | Launching a major campaign, managing a viral moment, or navigating a high-stakes crisis where reputation and value are on the line. |
+## Tier 1 — Foundation
+
+The load-bearing strategy. Run these before writing a single asset; the rest of the skill assumes their output.
+
+| Command | Produces | Use When | Stacks With |
+|---------|----------|----------|-------------|
+| `/lulu-m3-matrix` | A complete Mao-style M3 campaign architecture: a PMF-tested core message (the right words), the right medium (the exact information pockets where the audience lives, not the biggest audience), and a messenger matrix assigning each claim to the speaker with moral authority for it — all gravity-welled to one named business goal | Standing up any comms campaign from scratch and you need the load-bearing strategy before any asset exists | `lulu-reality-architect`, `lulu-erogenous-zones`, `copy-engine`, `convene` |
+| `/lulu-reality-architect` | A narrative that doesn't describe the market but reshapes it into an operating truth: a current-reality audit (who benefits from the status quo, where the cracks are), a named new reality (names create reality), the mechanism + self-reinforcing loops that make it inevitable, and a high-conviction installation piece | The market believes something limiting and you need to install a new operating truth — category creation, narrative warfare, or making a contrarian thesis feel inevitable | `lulu-strategic-wrongness`, `lulu-m3-matrix`, `founder-narrative-voice-architecture`, `kallaway-illusion-of-novelty` |
+| `/founder-narrative-voice-architecture` | Founder Identity & Reality-Shaping Manifesto: Voice DNA profile, named new reality, a first-person high-conviction manifesto with embedded behavioral-commitment mechanics, a Go-Direct content suite, and authenticity-engineering notes | A founder needs to establish a distinct, uncopyable public persona and install the operating truths of their company in first person | `lulu-reality-architect`, `lulu-authenticity-engineering`, `ghostwrite`, `build-bos` |
+
+## Tier 2 — Practitioner
+
+The diagnostic and craft layer — finding the receptors, drawing the line, holding the wrong-now-right-later position, and writing the belief in.
+
+| Command | Produces | Use When | Stacks With |
+|---------|----------|----------|-------------|
+| `/lulu-erogenous-zones` | An obsession landscape map of the target audience (public discussion / private concern / status anxieties / articulation gaps), each zone scored on WHO is talking (status + intellectual family tree), valence (resentment-loud vs cringe-quiet), intensity, and trajectory (rising / peak / declining / burnout) — plus the top receptors to attach a message to | Diagnostic step before any campaign: you need to find the already-open receptors so the message attaches instead of bouncing off; the candy-coating raw material | `lulu-viral-trajectory`, `cultural-positioning-differentiation`, `lulu-zeitgeist-content`, `hunt-trends` |
+| `/lulu-line-in-sand` | A bold, opinionated stance plus a gerrymandered-line analysis: full stakeholder map (customers + employees + investors all inside the line), an external "old way" enemy (a trend/practice, never a named competitor or political party), and proof the line increases loyalty + recruiting simultaneously at near-zero cost | A company needs to stand for something and polarize correctly — uniting its base against an external opponent without splitting its own people | `cultural-positioning-differentiation`, `lulu-strategic-wrongness`, `oren-brand`, `godin-brand` |
+| `/lulu-strategic-wrongness` | A scored contrarian-position map: 10–15 industry consensus "truths" stress-tested for where/why they're becoming false, wrongness-opportunity scores, and the one position that feels wrong to legacy players but obviously right to your tribe — with the conviction backing to hold it when the world (and the models) say you're wrong | Establishing thought leadership or category ownership by staking a calculated contrarian position you can defend until the consensus catches up | `lulu-reality-architect`, `lulu-conviction-copy`, `lulu-viral-trajectory`, `parallax` |
+| `/lulu-conviction-copy` | Belief-installing copy that transforms rather than informs: end-state belief map worked backward from the action, current-to-required gap analysis, an installation sequence (recognition hook → crack → new framework → identity bridge → evidence cascade), and the conviction layer that keeps the emotional "wrongness" AI would sand off | Writing any piece whose job is to shift what the reader believes — manifesto body, sales page, email sequence, landing page — and you need belief sequencing plus conviction, not just information | `lulu-m3-matrix`, `copy-engine`, `luke-iha-vsl-leads`, `ce-write` |
+| `/lulu-authenticity-engineering` | Genuine-feeling content engineered (not faked): a truth-foundation verification gate, corporate-signal detection + removal (passive voice, buzzwords, excessive positivity), and spontaneity-signal injection (the Obama "um", the TikTok car video, the left-in button-press) applied only to content that is actually true | Polished or corporate content reads as fake and you need to engineer the moments of real spontaneity that trigger trust — without manufacturing fake authenticity that detonates on discovery | `lulu-signature-voice`, `founder-narrative-voice-architecture`, `really-real-social`, `voice-audit` |
+| `/lulu-viral-trajectory` | A timing analysis for candidate topics: phase identification (formation / rising / peaking / declining / burnout), signal detection (search trend, social velocity, status adoption, question density, competition density, counter-narratives), and a go/wait/kill verdict per topic accounting for production lead time | Deciding WHEN (not whether) to publish — catching a rising wave before competitors, avoiding peaked topics, and never posting on burned territory | `lulu-erogenous-zones`, `lulu-strategic-wrongness`, `lulu-zeitgeist-content`, `hunt-trends` |
+
+## Tier 3 — Cross-Domain
+
+Deployment into launches, standing founder engines, ongoing content streams, and live crises.
+
+| Command | Produces | Use When | Stacks With |
+|---------|----------|----------|-------------|
+| `/lulu-launch-comms` | A full launch narrative + attention-to-value harvest plan: a non-fungible launch angle (avoiding the burned template), the message-medium-messenger package for the moment, pre-built 2-click conversion infrastructure to one business goal, and the post-launch harvest sequence that turns the evanescent spike into recruits/revenue/funding | Launching a product or campaign and you need the launch to break through the noise AND convert the attention into something durable — not just a one-day dopamine high | `suzuki`, `campaign`, `copy-engine`, `lulu-m3-matrix` |
+| `/lulu-founder-brand-os` | A standing founder communications operating system: a go-direct channel map (social, blog, events, regulators — owned not delegated), a ship-to-yap cadence, a deterrence-score plan (announced-to-delivered compounding), a signature-voice spec, and a slogan/repetition system — all gravity-welled to business goals | Building an always-on founder personal-brand engine (not a one-off campaign) that compounds authority and conviction over years | `build-bos`, `oren-brand`, `junyuh-personal-brand`, `lulu-m3-matrix` |
+| `/lulu-zeitgeist-content` | A zeitgeist-surfing content calendar: obsession-landscape map, zeitgeist hunting across grounds (frustration clusters, emerging language, permission-seeking, status shifts, fear undercurrents), trajectory-scored topics, and a naming/candy-coating pass so each piece gives shape to what the audience already feels and rides the current instead of fighting it | Producing an ongoing stream of perfectly-timed content (newsletter, social, series) that surfs cultural undercurrents rather than fighting audience indifference | `parallax`, `kallaway-illusion-of-novelty`, `diandra-content-engine`, `lulu-viral-trajectory` |
+| `/lulu-pr-crisis` | A crisis response that builds trust: a CrowdStrike-style before/after rewrite from passive-third-person to first-person active ownership, emotional-altitude calibration (express MORE concern than the most upset customer), concrete now/this-week/permanent actions, and a high-status direct access point | A breach, outage, product failure, or PR incident is live and the response must convert anger into trust rather than escalation | `attention-conversion-momentum-management`, `internal-comms`, `message-audit` |
+
+## Stacking Guide
+
+**The comms stack runs in altitude order**: `/lulu-m3-matrix` lays the load-bearing strategy (message, medium, messenger, gravity-welled to one goal) → `/lulu-reality-architect` and `/founder-narrative-voice-architecture` install the operating truth and the first-person author → the Tier 2 diagnostics find the receptors (`/lulu-erogenous-zones`), draw the line (`/lulu-line-in-sand`), stake the contrarian position (`/lulu-strategic-wrongness`), and write the belief in (`/lulu-conviction-copy`, kept real by `/lulu-authenticity-engineering`, timed by `/lulu-viral-trajectory`) → Tier 3 deploys it into launches, a standing founder engine, ongoing content, or a live crisis. Invert the order and you get well-written assets attached to no strategy and converting to no goal — a dopamine sugar high, not a campaign.
+
+Where Lulu brushes the same ground as the roster, the lane stays clean — Lulu always runs the **strategy and conviction spine**, the named expert runs the **domain craft inside it**:
+
+- **`copy-engine` / `luke-iha-vsl-leads`** — `/lulu-conviction-copy` sets the belief sequence and the conviction layer AI would sand off; copy-engine grounds and writes the proof, offer, and mechanism inside that sequence.
+- **`oren-brand` / `godin-brand`** — `/lulu-line-in-sand` decides what the company stands against and who stays inside the line; the brand OS supplies positioning, voice system, and visual identity.
+- **`build-bos`** — `/lulu-founder-brand-os` and `/founder-narrative-voice-architecture` give the founder the living first-person author and the standing go-direct cadence; build-bos supplies the company brand operating system underneath.
+- **`junyuh-personal-brand`** — Jun Yuh owns the creator-identity and pillar mechanics; `/lulu-founder-brand-os` adds the deterrence-score, ship-to-yap discipline, and gravity-well to business goals.
+- **`parallax` / `diandra-content-engine`** — `/lulu-zeitgeist-content` and `/lulu-viral-trajectory` decide *what* surfs the current and *when* to ride it; Parallax and Diandra own the platform-native format, growth mechanics, and production.
+- **`kallaway-illusion-of-novelty`** — Kallaway manufactures the *feeling* of novelty on the front end; `/lulu-reality-architect` supplies the genuinely new operating truth underneath so the novelty is real, not seam-showing.
+- **`hunt-trends`** — feeds raw cultural-current signal into `/lulu-erogenous-zones` and `/lulu-viral-trajectory`, which score it by status, valence, intensity, and trajectory.
+- **`attention-conversion-momentum-management` / `internal-comms`** — `/lulu-pr-crisis` calibrates emotional altitude and first-person ownership for the public response; the attention/internal-comms workflows manage the momentum and the inside-the-house message.
+- **`convene`** — for high-stakes campaigns, convene a council around the `/lulu-m3-matrix` output to stress-test message, medium, and messenger before commit.
 
 ## Quick Reference
-- **Genius Context**: [genius.md](genius.md) — load before any workflow
-- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+
+- **Genius Context**: [genius.md](genius.md) — load before any workflow. The voice, the one nerve (real or it dies on contact), the 10 genius patterns, the two comms tests (could you say it without the CTA / what could you say if your company didn't exist), candy-coating, gravity-welling, and the operating principles.
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow.
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — the quality gate; the Lulu would-never-do list (manufactured authenticity, paid messengers, fighting the current, self-interest first, slogan-as-paragraph, attention with no business goal, labeling the output by pattern name).
+- **Signature Moves**: name the new reality · gerrymander the line · find the open receptor · hold the wrong-now-right-later position · increase pressure, reduce surface area (one slogan, repeated) · real over polished · convert, don't admire.

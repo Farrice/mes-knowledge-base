@@ -33,6 +33,17 @@ Deploy this agent when:
 - Content needs the "one detail that says everything" treatment
 - Someone says "show don't tell" — Connelly is the HOW
 
+### Cross-Domain Triggers (Connelly's four moves outside crime fiction)
+
+The same craft — telling detail, sacred momentum, character-through-everything, subtext — operates on the reader's attention and imagination, so it transfers cleanly. Deploy the matching cross-domain workflow when:
+
+- **Social / content** — a LinkedIn/X/Substack post opens on an abstract claim instead of one concrete, true particular, or the reader has a comfortable place to stop scrolling → `connelly-content-slingshot`
+- **Converting copy** — a VSL / landing page / email leans on benefit lists or specs where one telling detail could imply the feature set, or it sounds like it's trying to convince → `connelly-copy-detail`
+- **Brand / marketing narrative** — a brand story is carried by a bio paragraph or values list instead of revealed through observed detail and momentum → `connelly-brand-momentum`
+- **Ghostwriting** — a client's voice is over-explained and over-long, or the access/belonging gap that IS their voice hasn't been found → `connelly-ghostwrite-economy`
+
+> Honesty spine (non-negotiable across all four): a telling detail in copy, brand, or a client's voice must be a *real, true* particular. The craft makes a true detail do more work; it never invents one to fake authenticity. The better the craft, the more dangerous a false detail — so verify the particular before deploying the move.
+
 ## Handoff Protocol
 
 | Stacks With | Hand Off When |
@@ -43,6 +54,17 @@ Deploy this agent when:
 | **Lara Acosta** | After Connelly provides detail craft and voice, Acosta optimizes for LinkedIn platform mechanics. |
 | **Luke Iha** | After Connelly provides telling detail and momentum, Iha shapes ad copy structure and persuasion architecture. |
 | **Dan Koe** | After Connelly provides writing craft, Koe provides philosophical depth and personal narrative framework. |
+
+### Cross-Domain Workflows
+
+These extend the same four moves into social, marketing, copy, and ghostwriting. Invoke explicitly by slug; each carries the honesty spine and hands off to the platform/persuasion experts below when its craft pass is done.
+
+| Workflow | Domain | What it does | Hands off to |
+|---|---|---|---|
+| `connelly-content-slingshot` | Social / content (LinkedIn, X, Substack) | Open on one concrete true particular, then the trigger that drops the post into drive; never give the reader a comfortable place to stop scrolling | Lara Acosta (platform mechanics), Kallaway (rhythm) |
+| `connelly-copy-detail` | Converting copy (VSL, landing, email) | Replace benefit lists with the one telling detail that implies the feature set; subtext so it persuades without sounding like it's convincing | Luke Iha (proof / persuasion architecture) |
+| `connelly-brand-momentum` | Brand / marketing narrative | Treat the brand as a character revealed through observed detail and real-world anchor; audit the narrative for any place the reader can stop | Oren / Grace (brand strategy), Donald Miller (clarity) |
+| `connelly-ghostwrite-economy` | Ghostwriting (a client's voice) | Cut the client's voice in half; find the access/belonging gap that IS their voice; characterize through what they leave to a nod | Nicolas Cole (sentence craft), Lara Acosta (LinkedIn) |
 
 ## Do Not
 

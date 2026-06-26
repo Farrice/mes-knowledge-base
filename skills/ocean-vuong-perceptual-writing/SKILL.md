@@ -3,7 +3,7 @@ name: "Ocean Vuong Perceptual Writing"
 description: "Deploy MacArthur Genius-level perceptual writing craft across content, copy, and creative prose. Translates 14 genius patterns from the poet-novelist behind Night Sky with Exit Wounds and On Earth We're Briefly Gorgeous into a universal writing intelligence — estrangement, behavioral metaphor, the species test, poietic thresholds, the Haunting > Capturing operating system, and the anti-hook philosophy applied to every written form."
 version: "2.0"
 format: "completion-engine"
-workflows: 12
+workflows: 15
 extracted_from: "Ocean Vuong — 'How I Write' podcast interview"
 ---
 
@@ -36,6 +36,16 @@ Deploy the perceptual writing intelligence of a MacArthur "Genius Grant" Fellow 
 | haunted-social | [Haunted Social](workflows/haunted-social.md) | Social/Content | Residue-first (not hook-first) social media architecture | LinkedIn, X, Instagram, Substack posts designed for permanent habitation |
 | haunted-narrative | [Haunted Narrative](workflows/haunted-narrative.md) | Creative/Literary | Stories, essays, memoir designed to haunt the reader for years | Long-form creative work, ghostwriting, brand storytelling (1000+ words) |
 | haunting-residue-audit | [Haunting Residue Audit](workflows/haunting-residue-audit.md) | Quality Gate | 6-dimension persistence scorecard with fix prescriptions | Final quality pass: originality ✓, distinctiveness ✓, will it HAUNT? ✓ |
+
+## Tier 3 — Cross-Domain
+
+Perceptual craft pointed outward at conversion, brand, and content systems. Each escapes the AI-median sentence on a hard honesty spine — estrange only what is TRUE; never manufacture a claim, fact, or proof point.
+
+| Command (/slug) | Produces | Use When | Stacks With |
+|-----------------|----------|----------|-------------|
+| [/ocean-perceptual-copy](workflows/ocean-perceptual-copy.md) | A converting copy pass (ad / landing / email / VSL section) that re-sees the prospect's problem through behavioral displacement so the page cannot be confused with the AI-median competitor page — the tired-problem "rose" put in Mike Tyson's ear, one strategic denial of the expected payoff, and a Species-Test gate on every load-bearing line — all on a hard honesty spine: estrange only what is TRUE, never manufacture a claim. | Copy reads like every other page in the category — "Are you tired of struggling with X?" mimesis that is instantly Google-returnable and invisible; you need conversion copy that haunts and differentiates without becoming literary or losing its claims. | copy-engine (owns the proof/offer/mechanism architecture — Ocean tunes the perception, never the proof), luke-iha (proof ladders that become proof that haunts), cardinal-mason, nicolas-cole (kinetic prose + residue), ward-saxon-punch (the Saxon CTA after the perceptual reframe), prose_classifier.py + anti-slop-audit (slop gate) |
+| [/ocean-brand-estrangement](workflows/ocean-brand-estrangement.md) | A brand-voice / positioning layer that defamiliarizes the brand's own category — recovers the behavioral + etymological history of the category words the brand has flattened into taxonomy, installs a syntactic thumbprint no competitor can replicate, and stress-tests the voice against the "house-style homogenization" trap (the glass-and-right-angles skyscraper built in every downtown) so the brand reads as an identity, not a category. | A brand sounds like its category — interchangeable with three competitors, leaning on flattened taxonomy ("premium," "innovative," "synergy"), a voice that "could be anyone"; you need a voice with a thumbprint that survives the diachronic reader and resists being engulfed-then-homogenized by the category. | oren-brand (brand strategy / positioning architecture — Ocean supplies the perceptual voice layer inside it), grace-andrews (new-media / consumer posture), build-bos, david-placek / taste-language (naming + lexicon), voice-audit / anti-homogenization-audit (the homogenization diagnostic) |
+| [/ocean-content-anti-slop](workflows/ocean-content-anti-slop.md) | A content-engine pass that produces genuine novelty of PERCEPTION — a thing actually noticed and re-seen, passing the Species Test — rather than gimmick-novelty (a fresh hook stapled to a recycled insight). Diagnoses the "I read this last year" synchronic-slop failure, runs the Method-of-Hope new-not-familiar filter on every angle, and optimizes for diachronic residue (would they think about this in two weeks?) over the minute of capture. | Content that is technically "fresh" but is the same insight in a new costume — the synchronic same-book-different-cover fatigue, gimmick-novelty, hook addiction; you need an engine that manufactures the FEELING and the SUBSTANCE of genuine perceptual novelty without faking facts or proof. | parallax (zeitgeist-first edition pipeline — Ocean is the genuine-perception layer that keeps it off the median), anti-slop-audit + prose_classifier.py (the deterministic slop gate this pass feeds), kallaway-illusion-of-novelty (manufactures the FEELING of novelty on an honesty spine — Ocean supplies the genuine perceptual substance beneath the feeling), addictive-perception-content, diandra-content-engine, hawley-content-season |
 
 ## Quick Reference
 - **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow to confirm this is the right expert
@@ -73,3 +83,19 @@ Deploy the perceptual writing intelligence of a MacArthur "Genius Grant" Fellow 
 | **Eric Roth** | Cinematic displacement + narrative haunting = stories that "stay in your soul" | `/haunt-story` |
 | **Pressfield** | Narrative physics + haunting architecture = structural resonance that persists | `/haunt-story` |
 | **Connelly** | Telling details that haunt instead of just signaling specificity | `/haunt-story` |
+
+### Cross-Domain Stacking (New)
+
+The Tier 3 cross-domain workflows point perceptual craft outward at conversion, brand, and content systems. Ocean never owns the architecture in these stacks — he is the perception layer *inside* the engine that owns the proof, offer, positioning, or pipeline. The honesty spine holds across every stack: estrange only what is TRUE.
+
+| Stack With | What You Get | Best Workflow |
+|-----------|-------------|--------------|
+| **copy-engine** | The engine keeps the proof / offer / mechanism architecture; Ocean tunes the perception so the page can't be confused with the AI-median competitor page | `/ocean-perceptual-copy` |
+| **Luke Iha** | Proof ladders that don't just convince but haunt — stats and case studies the prospect carries for weeks | `/ocean-perceptual-copy` |
+| **Ward Saxon (punch)** | The Saxon CTA lands *after* the perceptual reframe — re-seen problem, then the demand | `/ocean-perceptual-copy` |
+| **oren-brand** | Positioning architecture from Oren; Ocean supplies the syntactic-thumbprint voice layer that resists category homogenization | `/ocean-brand-estrangement` |
+| **Grace Andrews** | New-media / consumer posture + a voice with a thumbprint that survives the diachronic reader | `/ocean-brand-estrangement` |
+| **David Placek / taste-language** | Naming + lexicon recovered from behavioral + etymological history, not flattened taxonomy | `/ocean-brand-estrangement` |
+| **parallax** | Zeitgeist-first edition pipeline kept off the median by genuine novelty of perception, not gimmick-novelty | `/ocean-content-anti-slop` |
+| **kallaway-illusion-of-novelty** | Kallaway manufactures the FEELING of novelty on an honesty spine; Ocean supplies the genuine perceptual SUBSTANCE beneath the feeling | `/ocean-content-anti-slop` |
+| **anti-slop-audit + prose_classifier.py** | The deterministic slop gate that the anti-slop pass feeds — perception manufactured upstream, slop blocked downstream | `/ocean-content-anti-slop` |

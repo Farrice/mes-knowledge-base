@@ -24,6 +24,7 @@
 | `anne-lamott-neal-allen` | **Anne Lamott + Neal Allen** | cross-domain transfer, hard-stuff handling, plain-force prose, reader continuation, reader trust repair, really real targeting, really real writing agent, restraint and silence |
 | `april-dunford` | **April Dunford** | 5-component positioning, b2b decision fear architecture, b2b positioning, b2b/b2c bifurcation, category strategy, market context engine, niche domination sequencing, positioning diagnostics, sales pitch architecture, sales pitch expert |
 | `authority-hacker` | **Gael Breton** | ai social media mastery |
+| `bill-browder` | **Bill Browder: High-Stakes Narrative Nonfiction Virtuoso** | high-stakes narrative nonfiction virtuoso |
 | `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
@@ -38,7 +39,7 @@
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
-| `dan-wang` | **Dan Wang: Observational Writing Master** | literary essay production, observational travel, observational writing master, single beautiful sentence construction, x-ray vision reading, year-long note accumulation |
+| `dan-wang` | **Dan Wang: Observational Essay Architect** | observational essay architect |
 | `daniel-priestley` | **daniel-priestley** | demand engineering, ip mining, key person of influence, oversubscribed methodology, problem-aware positioning, stakes-based pricing |
 | `danny-yeung` | **Danny Yeung** | celebrity partnerships, dtc scaling, infrastructure pivots, subscription economics, velocity strategist |
 | `dara-denney` | **dara-denney** | agent configuration, dtc-meta-ads |
@@ -62,6 +63,7 @@
 | `greg-hoffman` | **Agent: Greg Hoffman** | greg hoffman |
 | `harry-dry` | **Harry Dry: Copywriting Precision Master** | conflict architecture, copywriting precision master, rewrite discipline, three rules evaluation, visual-verbal synthesis, zoom-in technique |
 | `heath-brothers` | **heath-brothers** | commander's intent extraction, concrete translation, emotional authenticity, idea stickiness, knowledge gap creation, message design, schema violation engineering |
+| `henry-shukman` | **Henry Shukman: Contemplative & Poetic Writing Master** | contemplative, poetic writing master |
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
 | `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
 | `jeremy-haynes` | **Jeremy Haynes** | agent |
@@ -88,7 +90,7 @@
 | `logan-kilpatrick` | **Logan Kilpatrick** | google ai studio, speed over perfection, ui-first prototyping, vibe coding |
 | `lucas-alpay` | **Lucas Alpay** | storytelling architect |
 | `luke-iha` | **luke-iha** | avatar/icp construction, awareness-level advertising, business operations, buyer psychology, client mastery, copywriting systems, creative strategy, mechanism engineering, multi-dimensional market intelligence, proof ladder architecture, proof mechanisms, vicious hook mastery, vsl architecture |
-| `lulu-cheng-meservey` | **Lulu Cheng Meservey** |  |
+| `lulu-cheng-meservey` | **Lulu Cheng Meservey** | communications strategy, narrative architecture |
 | `manus-ai` | **Manus.ai** | ai consulting, multi-source synthesis, query architecture, research to action |
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
 | `maria-wendt` | **Maria Wendt** | digital products, invitation energy, product-first, simplification |
@@ -97,7 +99,7 @@
 | `michael-bernoff` | **Michael Bernoff: Identity Engineering Virtuoso** | biochemical influence deployment, certainty implanting, identity engineering virtuoso, inner hero activation, the reset frame, wrong question pattern interrupt |
 | `michael-connelly` | **AGENT: Michael Connelly** | character architecture, detail economy, dialogue craft, michael connelly, momentum engineering, narrative believability |
 | `mike-foutia` | **mike-foutia** | ai marketing automation, automation boundary judgment, brand context engineering, community mining, community pulse mining, internal tool building, non-coder tool building, trend research, universal market intelligence, universal trend intelligence, zeitgeist synthesis |
-| `mitch-albom` | **Mitch Albom: Writing Mastery Virtuoso** | character transformation mapping, endings-first navigation, gravedigger technique, rhythmic calibration, theme-first architecture, writing mastery virtuoso |
+| `mitch-albom` | **Mitch Albom: Theme-First Storytelling Virtuoso** | theme-first storytelling virtuoso |
 | `monk-ai` | **Monk.Ai** | ai consulting offer architecture, ai consulting • offer design • sales psychology • client ascension • revenue architecture |
 | `nate-b-jones` | **Nate B Jones: AI Agent Architecture Specialist** | ai agent architecture specialist, disambiguation loop architecture, domain verifiability classification, intent document creation, intent gap analysis, interpretation-execution separation, invisible guardrail enumeration, multi-agent orchestration design, sniff-check meta-evaluation |
 | `nate-herk` | **Nate Herk** | signature advantage |
@@ -105,11 +107,13 @@
 | `nick-saraev` | **Nick Saraev** | agentic workflows, do framework, horizontal leverage, self-annealing systems |
 | `nicolas-cole` | **nicolas-cole** | digital product creation strategy, ghostwriting client acquisition, newsletter flywheel architecture, niche positioning, sentence-level writing optimization |
 | `noah-hawley` | **Noah Hawley: Showrunner & Storytelling Architect** | showrunner, storytelling architect |
+| `ocean-vuong` | **Ocean Vuong: Perceptual Writing Virtuoso** | perceptual writing virtuoso |
 | `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
 | `omar-eltakrori` | **Omar Eltakrori** | agent configuration, feeling > information |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, ai marketing execution, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
 | `patrick-debois` | **patrick-debois** | ai-augmented engineering / context engineering / lifecycle architecture, distribution maturity diagnosis, honest skill quality classification, lifecycle thinking, observability loop closure, test-tier discipline |
+| `paul-harding` | **Paul Harding: Lyric, Perception-Driven Prose Genius** | lyric, perception-driven prose genius |
 | `paul-james` | **paul-james** | agency arbitrage, ai workflow automation monetization, modular service design, recurring revenue architecture, time-to-revenue translation, zero-cost positioning |
 | `pj-accetturo` | **PJ Accetturo** | ai video, brand-safe, production-grade, viral by design |
 | `prediction-market-strategist` | **prediction-market-strategist** | market making, prediction market trading — weather, risk management, sports/events |
@@ -138,6 +142,7 @@
 | `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |
 | `steven-pressfield` | **Steven Pressfield** | narrative mastery agent, physics |
 | `stockton-walbeck` | **Stockton Walbeck: Lead Magnet Strategist** | 5-rule scoring, full-funnel architecture, idea generation, lead magnet classification, lead magnet strategist, rule 5 bridge design |
+| `susan-orlean` | **Susan Orlean: Curiosity-Driven Literary Journalist** | curiosity-driven literary journalist |
 | `taki-moore` | **Taki Moore** | lifestyle business architect |
 | `tao-prompts` | **Tao Prompts** | ai video pipeline architect |
 | `thrivecart` | **thrivecart** | digital product business building and scaling, grocery store psychology, product ecosystem, seven iterations protocol, three levers model, weekend product standard |
@@ -150,6 +155,6 @@
 | `tyler-denk` | **tyler-denk** | "one-of-one" narrative moat, audience monetization, compounding growth stack, founder-led growth, post-subscribe intelligence capture, the "automated authenticity" paradox, zero-cost referral lever |
 | `vince-nijhof` | **vince-nijhof** | agent, creative pod architecture, customer voice mining, dtc-operator-system, emotional angle engineering, foundation triad gating, guard-down vssl architecture, intent-first launch discipline, messaging-market fit, vssl ideation pipeline |
 | `vincent-hu` | **Vincent Hu** | agent, growth ecosystems, info business scaling, offer architecture |
-| `ward-farnsworth` | **ward-farnsworth** | agent configuration |
+| `ward-farnsworth` | **ward-farnsworth** | rhetorical master, stylist |
 | `wordsatscale` | **wordsatscale** | authority arbitrage, competition vacuum hunting, index velocity, lsi bypass, seo rapid ranking, speed-to-publish |
 | `wright-thompson` | **Wright Thompson: Narrative Journalism Virtuoso** | narrative journalism virtuoso |

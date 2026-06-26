@@ -1,0 +1,12 @@
+---
+description: "Lets the transcript damn the villain — routes every explosive accusation through the receipt so it's concrete, fair, and impossible to sue."
+---
+
+# Villain Through Evidence — The Receipt You Can't Sue
+
+Lets the transcript damn the villain — routes every explosive accusation through the receipt so it's concrete, fair, and impossible to sue.
+
+## Steps
+1. Load the Bill Browder spine: read `skills/bill-browder-high-stakes-narrative/genius.md` (Decision Framework + Anti-Patterns + relevant patterns).
+2. Read and execute the full workflow at `skills/bill-browder-high-stakes-narrative/workflows/browder-villain-evidence.md` exactly (Pre-Flight, Steps, Output Format, Quality Gate).
+3. Run the Quality Gate before delivering.

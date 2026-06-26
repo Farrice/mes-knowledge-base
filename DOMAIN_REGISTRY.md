@@ -278,40 +278,69 @@ When you make a request, I route to the right expert using this registry. I will
 | **Mitch Albom** | LITERARY | Premium writing, emotional architecture |
 | **Noah Hawley** | ARCHITECTURE | Season/arc structure, theme-first breaking, ending-first, tonal modulation, showrunner-voice, adaptation-of-feeling |
 | **Andrew Stanton** | AUDIENCE ENGINEERING | Premise-sentence (Egri), Weston spine + one-liner, the clamp (anticipation+uncertainty), uncover-don't-invent, fit-the-dinosaur late-pivot, root-not-symptom, telling-over-content. *Hawley architects the season; Stanton uncovers the premise and keeps the audience clamped inside it.* |
+| **Michael Connelly** | VIVID PROSE / MOMENTUM | The one telling detail that reveals character AND situation (cut the other four), momentum-sacred prose (never let the reader find a place to stop), show-the-tell (physical behavior over named emotion), character-through-everything, two-layer subtext dialogue, dialogue economy, real-world anchoring. 42 novels, 100M+ copies. *Stanton clamps the unit; Connelly makes the line vivid and chains the momentum between units.* |
 | **Shaan Puri** | STORY STRUCTURE | Frame, intention+obstacle, emotion |
-| **Dan Wang** | ANALYTICAL | Long-form, observation, essays |
+| **Dan Wang** | ANALYTICAL-ESSAY | The literary treatment of analysis — friction map (official story vs. ground truth), big-questions-first, texture-zoom oscillation, the anchor sentence the piece earns, annual-letter form, synthesis of a pile of notes into one voice. Front door `/wang-friction-map` → `/literary-cornerstone-sprint`. |
 | **Oscar Hoglund** | AUDIO NARRATIVE | Sound storytelling, emotional umami |
 | **Jonathan Franzen** | LITERARY FICTION | Character psychology, narrative compression |
 | **Lucas Alpay** | FICTION CRAFT | Story structure, character development, fiction writing |
 | **Fareed Zakaria** | ARGUMENT STRUCTURE | International analysis, argument architecture, essay construction |
 | **Robert Mack** | HUMOR | Truth-first comedy, wit engineering, comedic timing |
 | **Ocean Vuong** | PERCEPTUAL | Estrangement, defamiliarization, image-first prose, anti-homogenization |
+| **Ward Farnsworth** | RHETORICAL DEVICE / MEMORABLE LINE | Classical devices that make a line land and linger: Saxon-punch, chiasmus, parallelism, antithesis, cadence. *Use on the single line carrying the argument — make the thesis quotable.* |
+| **Bill Browder** | HIGH-STAKES NARRATIVE NONFICTION | Turning dry domain material (finance/law/policy/technical) into an unputdownable page-turner: next-sentence grip ("why should anyone give a damn about the next sentence?"), jeopardy/stakes escalation (every section raises the threat or gets cut), named-villain specificity (adversary + system rendered concrete and human-scaled), documentary-evidence-as-spine (built on real receipts so it survives a hostile lawyer), ordinary-man-vs-a-system entry. *Distinct from Wright Thompson's lyric long-form, Susan Orlean's curiosity-driven literary journalism, and Dan Wang's analytical essay — Browder owns thriller-grade jeopardy and the evidenced villain on dry/high-stakes material.* Front door `/browder-next-sentence-test`. |
+| **Henry Shukman** | CONTEMPLATIVE / WONDER WRITING | Poetry-as-philosophy, awe and romanticism, presence and attention, meditation-informed perception, the sincere spiritual register, opening the reader to the wonder of ordinary reality. The signature moves: the one true concrete doorway (the largest feeling carried by a single exact perceivable particular, the cosmic left for the reader to supply); presence over performance (attention, not cleverness — say the true thing plainly); the romantic eye (the ordinary as charged, the everyday as doorway); stillness in prose (space, silence, breath — not everything filled); heart-first sincerity (write from the opened heart, the risk that earns the reader). *Distinct from Ocean Vuong's estrangement/defamiliarization (strangeness — make the familiar strange) and Paul Harding's lyric description / sensory maximalism; Shukman owns wonder + presence + sincerity — opening the reader to awe, not unsettling them and not saturating them.* Front door `/shukman-concrete-doorway`. |
+| **Paul Harding** | LYRIC PERCEPTUAL FICTION | Describing reality vividly and translating raw sensation onto the page so the reader sees/hears/feels it; improvisation over outlining (light out without a map, follow the literal "then what?" chain); consciousness/perception rendered as texture; the music of the sentence (cadence read aloud, written for the ear); reverent close attention to the ordinary until it turns luminous. The signature moves: the perception engine (slow attention to the pre-linguistic instant, strip received language, re-translate the raw seeing); the two things (literal object + the character's charged experience of it, the gap becoming characterization); counterpoint description (render a thing in the verbs of its opposite while staying purely literal); botanist's-precision-plus-calculus (exact rendering + motion over time so the light moves); the drummer's cadence; systole-and-diastole distillation (depth not width). *Distinct from Michael Connelly's surgical economy/minimalism (pick the one detail, cut the other four), Ocean Vuong's estrangement/defamiliarization (make the familiar strange), and Henry Shukman's contemplative wonder (presence + awe + sincerity); Harding owns sensory maximalism + improvisation + the music of prose — perception re-seen and rendered until it lands as recognized truth.* Front door `/harding-perception-engine`. |
+| **Susan Orlean** | CURIOSITY-DRIVEN LITERARY JOURNALISM | Finding the large story hiding inside a small overlooked subject — the door (the orchid, the library) that secretly opens onto the house (obsession, why anything matters); the telling subject + prism test; structure decided physically with cards BEFORE any prose is written (the shape is a decision, not an accident); immersive saturation reporting then writing from saturation; the three hard-walled phases (research, then thinking, then writing — never blurred); the wait-what lead that seduces a reader who's sure they don't need the piece; pull-the-punch restraint; profile craft; voice as lens not hero (presence without ego); Didion/Wolfe literary-journalism lineage. *Distinct from Browder's high-stakes thriller jeopardy, Wright Thompson's lyric immersive sportswriting, and Dan Wang's analytical essay — Orlean owns curiosity as method, the seductive small subject, structure-before-writing, and the disciplined phased process on low-demand topics.* Front door `/orlean-telling-subject`. |
 
 ### Routing Logic
 
 ```
+"Any premium long-form writing / content / marketing mission that needs multiple craft layers"
+└── /how-i-write (How-I-Write OS conductor) — diagnoses intent → smallest sufficient altitude stack → one-voice draft → line + truth gates. Composes the 10 How-I-Write experts + the story-stack; owns no craft itself. (FRONT DOOR for multi-layer pieces; single tactics → the specific expert.)
+
 "Write a story"
 ├── Season/arc architecture, theme-first, ending-first, tonal modulation → Noah Hawley
 ├── Make it land emotionally / make every beat pull / premise-sentence / want-vs-need spine → Andrew Stanton
 ├── Flat or static draft, "when does attention drop?" (clamp audit) → Andrew Stanton
 ├── Structure/frame → Shaan Puri
 ├── Premium prose → Mitch Albom
-├── Long-form essay → Dan Wang
+├── Theme-first / make the reader feel / earn the emotion through restraint → Mitch Albom (`/albom-theme-first-engine` front door; `/albom-restraint-pass`, `/albom-gravedigger-angle`)
+├── Long-form essay / friction map (official story vs. ground truth) / annual letter → Dan Wang (`/wang-friction-map` front door → `/literary-cornerstone-sprint`)
 ├── Audio dimension → Oscar Hoglund
 ├── Literary fiction → Jonathan Franzen
 ├── Fiction/character → Lucas Alpay
 ├── Funny/humor → Robert Mack
-└── Perceptual/estrangement → Ocean Vuong
+├── Memorable line / rhetorical flatness / make it quotable → Ward Farnsworth
+├── Chiasmus / Saxon punch / anaphora → Ward Farnsworth
+├── Telling detail / show-don't-tell / pick the one detail / make the prose vivid → Michael Connelly (`/telling-detail-engine` front door; `/connelly-rewrite`, `/connelly-subtext`)
+├── Draft drags / "good places to stop" / momentum loss / reader disengages → Michael Connelly (`/momentum-audit`)
+├── Dry/complex material (finance/law/policy/technical) must grip / make the boring unputdownable / next-sentence grip test → Bill Browder (`/browder-next-sentence-test` front door; `/browder-drama-excavation`)
+├── Stakes land flat / raise the jeopardy / build the caring before the fall / escalate the threat per section → Bill Browder (`/browder-stakes-architecture`)
+├── Real antagonist must land fairly + survive a hostile lawyer / render the villain through evidence not adjectives → Bill Browder (`/browder-villain-evidence`)
+├── Small/overlooked/low-demand subject must carry a large theme / "find the story inside this ordinary thing" / curiosity-driven literary journalism / profile craft → Susan Orlean (`/orlean-telling-subject` front door; `/orlean-yarn-engine`, `/orlean-wait-what-lead`)
+├── Decide structure BEFORE writing / card-spread architecture / non-chronological piece needs a spine first → Susan Orlean (`/orlean-card-structure`)
+├── Stand up or rescue a stalled nonfiction project / protect the phases (research vs thinking vs writing) / lift a pile of research into a told story → Susan Orlean (`/orlean-three-phase-process`, `/orlean-research-to-story`)
+├── Reader doesn't think they need this piece / overwritten "look-at-me" prose / pull the punch through restraint → Susan Orlean (`/orlean-wait-what-lead`, `/orlean-pull-the-punch`)
+├── Perceptual/estrangement / image-first / defamiliarize the familiar → Ocean Vuong (`/estrangement-engine` front door; `/species-test`, `/cliche-rescue`)
+├── Reopen the reader to wonder / awe / presence / the spiritual or contemplative register / make the ordinary feel charged → Henry Shukman (`/shukman-concrete-doorway` front door; `/shukman-wonder-content`, `/shukman-presence-essay`)
+├── Prose reaches for the sublime but tells the reader how vast/profound to feel / land the awe on one true concrete particular instead of asserting the cosmic → Henry Shukman (`/shukman-concrete-doorway`, `/shukman-embodied-word`, `/shukman-mythos-logos`)
+├── Prose is clever/performed where it should be sincere and still / make it write from the opened heart, leave space and breath → Henry Shukman (`/shukman-presence-essay`, `/shukman-stillness-social`)
+├── Describe reality vividly / translate sensation onto the page / make the ordinary luminous / sensory-maximalist lyric prose → Paul Harding (`/harding-perception-engine` front door; `/harding-precision-wonder`, `/harding-two-things`, `/harding-counterpoint`)
+├── Render character/feeling through perception not stated traits / give the literal thing AND the felt experience of it (the two things) → Paul Harding (`/harding-two-things`)
+├── Draft from a sensory seed with no outline / discover by writing / follow the literal "then what?" chain (improvisation over outlining) → Paul Harding (`/harding-improv-draft`, `/harding-then-what`)
+├── Prose reads flat/sing-song/rhythmically off / tune the music of the sentence by ear (the drummer's cadence) → Paul Harding (`/harding-cadence`)
+└── Overworked/sprawling draft needs depth-not-width / a tidy lesson explained instead of recognized → Paul Harding (`/harding-distill`, `/harding-recognition-audit`)
 
 "Newsletter writing"
 ├── Serialized run / season architecture (theme spine + owned ending) → Noah Hawley
 ├── Analytical → Dan Wang
 ├── Emotional → Mitch Albom
 ├── International/geopolitical → Fareed Zakaria
-└── Defamiliarized/poetic → Ocean Vuong
+└── Defamiliarized/poetic → Ocean Vuong (genuine perceptual novelty → `/ocean-content-anti-slop`)
 
 "Make this more original / less AI-sounding"
-├── Perceptual rewrite → Ocean Vuong
+├── Perceptual rewrite / escape the AI-median sentence → Ocean Vuong (`/anti-homogenization-audit`; copy → `/ocean-perceptual-copy`, brand voice → `/ocean-brand-estrangement`, content → `/ocean-content-anti-slop`)
 └── Statistical depattern → Dr. Kriukow
 
 "Make this funnier"
@@ -529,7 +558,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Manus.AI** | INTELLIGENCE | McKinsey-grade research, competitive intelligence, strategic briefs |
 | **SooWei Goh** | CONSULTING LEVERAGE | Founder workflow, scale architecture, leverage auditing |
 | **Rory Sutherland** | BEHAVIORAL STRATEGY | Perceived value, psychological reframing, unconventional marketing |
-| **Lulu Cheng Meservey** | COMMUNICATIONS | PR strategy, crisis communications, reputation management |
+| **Lulu Cheng Meservey** | COMMUNICATIONS / GO-DIRECT NARRATIVE | Go-Direct comms architecture, Message-Medium-Messenger (M3) matrix, reality-shaping narrative, strategic wrongness, engineered authenticity, founder-brand comms OS, emotional-altitude crisis response, PR/reputation management |
 | **Vincent Hu** | INFO BUSINESS ARCHITECTURE | Growth ecosystems, trust-first scaling, revenue reverse-engineering, coaching/consulting |
 | **Mike Foutia** | MARKETING TOOLS | Marketing technology landscape, tool selection, trend analysis |
 
@@ -548,7 +577,11 @@ When you make a request, I route to the right expert using this registry. I will
 └── Manus.AI → Jim O'Shaughnessy (synthesis)
 
 "PR / communications strategy"
-└── Lulu Cheng Meservey
+├── Stand up a comms campaign from scratch (load-bearing M3 strategy) → Lulu Cheng Meservey (`/lulu-m3-matrix`)
+├── Install a contrarian thesis / reshape the market / category creation → Lulu Cheng Meservey (`/lulu-reality-architect`)
+├── Founder personal-brand / Go-Direct narrative engine → Lulu Cheng Meservey (`/founder-narrative-voice-architecture`)
+├── Live crisis / reputation response (emotional altitude) → Lulu Cheng Meservey (`/lulu-pr-crisis`)
+└── General PR / reputation management → Lulu Cheng Meservey
 
 "Which marketing tools?"
 └── Mike Foutia

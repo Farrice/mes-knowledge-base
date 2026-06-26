@@ -1,22 +1,61 @@
 ---
 name: "Ward Farnsworth — Rhetorical Mastery"
-description: "Mastery of immortal English prose and structural rhetorical patterns."
-version: "2.0"
+description: "Classical rhetoric as an engineering discipline — the structural devices that operate almost mathematically on the human ear (Saxon vs. Latinate chord-changes, chiasmus, anaphora, epistrophe, isocolon, antithesis, metaphor-as-argument, the aphorism). 12 workflows that diagnose the rhetorical soil of a line and deploy the single right device instead of stacking them: the Saxon punch closer, the ABBA reversal that reframes backwards thinking, the parallelism crescendo, the opposition engine, the cadence audit, metaphor that persuades rather than decorates, the aphorism forge with its wisdom-illusion shield — plus cross-domain deployment into hooks, converting copy, taglines, and speeches. Front door: /ward-rhetorical-engine reads the line and routes to the device it calls for."
+version: "3.0"
 format: "completion-engine"
-workflows: 2
+workflows: 12
+extracted_from: "How I Write — 14 Techniques To Make Your Writing Memorable (David Perell)"
+tier: system
 ---
 
 # Ward Farnsworth — Rhetorical Mastery
 
-Deconstructing the mechanics of immortal English prose into specific, repeatable patterns (Saxon vs. Latinate contrast, Chiasmus, Epistrophe, Anaphora) that operate almost mathematically on the human ear. True rhetorical power comes from *contrast*—the "chord changes" of language—where complex, intellectual words deliberately set up simple, gut-punching conclusions.
+Deploy the working method of a man who treats the great prose of Lincoln, Churchill, and the King James Bible not as genius but as machinery — repeatable structural patterns that operate almost mathematically on the human ear. Farnsworth's insight is that rhetorical power is not decoration; it is **contrast** — the "chord changes" of language, where Latinate, conceptual words deliberately set up short, hard, Saxon conclusions, and where a balanced opposition makes the ear feel a truth before the mind has parsed it. The ear only detects difference, so every memorable line is engineered backwards from its last word and tuned for the change in register, weight, or direction that lands it. This skill owns two layers no one else in the roster fully covers: **the diagnosis** — reading which device a given line actually calls for, so you deploy one cleanly instead of stacking three until the prose collapses under its own ornament — and **the construction** — building each device (chiasmus, antithesis, the Saxon close, parallelism, metaphor-as-argument, the aphorism) so it stays invisible while it works, carrying the persuasion without ever announcing itself.
 
-## Available Workflows
+> **Where this sits**: This is the line-and-passage rhetorical layer. The story experts (Runia → Hawley → Stanton → Roth) decide what is said and in what order; Ward decides how the crucial line lands on the ear. Load this when a sentence has to be remembered, repeated, or land like a punch — a closer, a hook, a tagline, an objection-handler, a kicker — and you want classical structure under it rather than vibes. The front door, `/ward-rhetorical-engine`, reads the rhetorical soil and routes to the right device; never stack devices, diagnose first.
 
-| # | Workflow | Produces | Use When |
-|---|---------|----------|----------|
-| visceral | [Visceral Persuasion Bridge](workflows/visceral-persuasion-bridge.md) | High-impact sales copy and hook sequences | You need to translate abstract, intellectual value propositions into gut-level emotional triggers that drive action. |
-| structural | [Structural Wisdom Engine](workflows/structural-wisdom-engine.md) | Authority-building rhetorical manifesto and core brand mantras | You want to frame a new idea as an undeniable truth or ensure a core concept is impossible for the audience to forget. |
+## Tier 1 — Foundation
+
+| Command | Produces | Use When | Stacks With |
+|---------|----------|----------|-------------|
+| `/ward-rhetorical-engine` | A diagnosed line/passage with the single right device deployed (3 drafts) plus a one-sentence reason for the choice — the master front-door that reads the rhetorical soil and routes to the correct device instead of stacking | You have a line that matters and want it memorable but don't know which device it calls for, or a flat passage that needs a diagnosis before a fix. The front door for the whole skill; supersedes structural-wisdom-engine | All other `ward-*` workflows (routes into them); `writers-room`, `copy-engine`, `depth-line`, `memorable-line` |
+| `/ward-saxon-punch` | A closing line/paragraph engineered to begin Latinate (conceptual setup) and land on short, hard, Saxon words (the punch), in 3 drafts (rhythm variant, ultra-short variant), built backwards from the final word | Closing a sales argument, the final line of a hook, a thesis statement, or any paragraph that needs to land like a physical punch on its last word | `/ward-cadence-audit`, `/ward-aphorism-forge`, `copy-engine`, `hook-forge`, `depth-line`, `memorable-line` |
+| `/ward-chiasmus` | A chiasmus (literal ABBA, plus conceptual/three-quarter variants) that inverts the audience's backwards belief into the truth, in 3 forms (Direct, Asymmetrical/conversational, Knockout) | The market or reader has a relationship backwards, you're handling an objection, or you want a paradigm-shift line that feels closed-loop and wise. Anytime you mean "and vice versa" | `/ward-rhetorical-engine`, `/ward-aphorism-forge`, `copy-engine`, `luke-iha-vsl-leads`, `jackpost` |
+| `/ward-parallelism` | A parallel run engineered for crescendo: anaphora (front-repeat), epistrophe (end-repeat), or the switch between them, defaulting to the rule of three, with the climax landing on the broken pattern. 3 options (3-part, 2-part long-runway, switch) | You need a concept to linger after the reader stops, a build toward a climax, a rallying-cry crescendo, or a memorable kicker. Folds the epistrophe legacy and adds anaphora + the switch | `/ward-rhetorical-engine`, `/ward-speech-memorable`, `manifesto`, `ghostwrite`, `hook-forge` |
+
+## Tier 2 — Practitioner
+
+| Command | Produces | Use When | Stacks With |
+|---------|----------|----------|-------------|
+| `/ward-antithesis` | A balanced antithetical line that sets one idea against its opposite (light/dark, much/few, was/never) so the contrast does the persuading; 3 drafts tuned for symmetry and end-weight | A point needs force through opposition, you want black-and-white moral clarity, or a line feels flat because it states without contrasting. "The ear only detects difference" | `/ward-chiasmus`, `/ward-saxon-punch`, `/ward-aphorism-forge`, `jackpost`, `copy-engine` |
+| `/ward-cadence-audit` | A line-by-line diagnostic scan of an existing draft: Saxon/Latinate ratio per sentence, sentence-length rhythm map, end-weight check, flat "all one color" stretches flagged, and a re-tuned pass that installs chord changes and well-placed short sentences | Auditing an existing draft that's competent but flat, monotone, or tiring on the ear — diagnosing WHERE the rhythm fails before rewriting | `/ward-saxon-punch`, `/ward-parallelism`, `writers-room`, `depth-line`, `word-rhythm`, `prose-check` |
+| `/ward-metaphor-argument` | A metaphor that carries the argument (the Saxon/visceral half of a Two-Languages pair), restating an abstract claim as one concrete picturable image the reader metabolizes instantly; 2-3 candidates ranked by persuasive load, not prettiness | An abstract/conceptual claim needs to land in the gut, or copy is intellectually clear but emotionally inert. Supersedes visceral-persuasion-bridge | `/ward-saxon-punch`, `/ward-aphorism-forge`, `copy-engine`, `analogy-engine`, `depth-line` |
+| `/ward-aphorism-forge` | A claim compressed into a single quotable, memorable line — built backwards from its last word, using whichever device the soil calls for (chiasmus, antithesis, Saxon close, rule of three) — plus the "wisdom-illusion shield" note flagging whether it's true or just beautifully said. 3 candidates | You have a worthy idea buried in too many words and need the one line people will repeat — a pull-quote, a one-liner, a maxim, the line that survives the talk | `/ward-chiasmus`, `/ward-antithesis`, `/ward-saxon-punch`, `memorable-line`, `one-liner`, `jackpost` |
+
+## Tier 3 — Cross-Domain
+
+| Command | Produces | Use When | Stacks With |
+|---------|----------|----------|-------------|
+| `/ward-headline-rhetoric` | Scroll-stopping hooks/headlines engineered with end-weight + one device (Saxon close, chiasmus reframe, or Two-Languages), one device per line, in a ranked set ready to hand to a hook engine | Writing social hooks or headlines that must stop the scroll and ring in the ear — and you want rhetorical craft under the platform mechanics rather than formula-only hooks | `hook-forge`, `diandra-headline-engineer`, `vicious-hook`, `/ward-saxon-punch` |
+| `/ward-copy-rhetoric` | A converting-copy pass that installs the right device at each high-stakes moment: chiasmus on objections, epistrophe on the belief that must linger, Two-Languages for logic+gut, Saxon close on the CTA — woven so the devices stay invisible | Sharpening or rescuing converting copy (VSL, landing page, email) so the high-stakes lines land rhetorically — without the copy reading as a feature list or as over-engineered | `copy-engine`, `luke-iha-vsl-leads`, `luke-iha-copy-blocks`, `/ward-rhetorical-engine`, `persuasion-copy` |
+| `/ward-tagline` | Candidate taglines/brand lines built for the closed-loop, quotable, inevitable feel — chiasmus or Saxon close or rule of three — each scored for the wisdom-illusion effect and stripped of any device that calls attention to itself | Forging a brand line, tagline, or positioning maxim that must feel inevitable and quotable rather than written, and you want classical structure under it | `oren-brand`, `name-framework`, `build-bos`, `/ward-aphorism-forge`, `taste-name` |
+| `/ward-speech-memorable` | A talk/manifesto/keynote architected with the full toolkit in its native habitat: anaphora build, the switch to epistrophe for the kicker, the climax on the broken pattern, Saxon closes on the crucial lines — deployed sparingly, the announcer loud only near the goal | Writing or sharpening a speech, manifesto, keynote, or rallying cry where lines must be remembered and repeated long after — the genre rhetoric was built for | `manifesto`, `lulu-cheng`, `ghostwrite`, `/ward-parallelism`, `/ward-saxon-punch` |
+
+## Stacking Guide
+
+Ward is the **line-and-passage rhetorical layer**: he does not decide what to say, only how the crucial sentence lands on the ear. He hands down to and stacks with the experts who own the surrounding craft.
+
+- **Connelly economy** — Connelly cuts every line to its load-bearing minimum; Ward then tunes the survivors so the one that has to land lands. Cut first with `connelly-rewrite`, then `/ward-cadence-audit` and `/ward-saxon-punch` install the chord change on the kept lines. Economy gets you the right words; Ward gets you the right *order and weight* of those words.
+- **Stanton clamp** — Stanton keeps the audience clamped beat to beat (`/stanton-clamp-audit`); Ward makes the individual beats land. Where Stanton's scan flags a slack moment, a Ward device — a Saxon punch closer, an antithesis, a chiasmus reframe — re-clamps it at the sentence level. Stanton owns the architecture of attention across the piece; Ward owns the acoustics of the single line inside it.
+- **Lulu comms** — For talks, manifestos, and high-stakes internal/external messaging, run Lulu (`lulu-cheng`) for the strategic frame and audience read, then `/ward-speech-memorable` to install the anaphora build, the switch to epistrophe, and the Saxon closes on the lines that must be repeated. Lulu decides the message; Ward makes it quotable.
+- **`hook-forge` / `diandra-headline-engineer` / `vicious-hook`** — The hook engines own platform mechanics, curiosity gaps, and scroll psychology; `/ward-headline-rhetoric` adds end-weight and one classical device per line underneath them. Hand Ward's ranked, rhetorically-tuned set into the hook engine — never the reverse.
+- **`copy-engine` / `luke-iha-vsl-leads`** — copy-engine and Luke ground the offer, proof, and lead structure; `/ward-copy-rhetoric` then installs the right device at each high-stakes moment (chiasmus on objections, epistrophe on the lingering belief, Saxon close on the CTA) so the devices stay invisible and the copy never reads as a feature list. Copy owns the argument; Ward owns the lines that carry it.
+- **`oren-brand`** — Oren owns positioning, status, and the brand's strategic frame; `/ward-tagline` forges the one line that frame compresses into — built for the closed-loop, inevitable, wisdom-illusion feel and stripped of any device that calls attention to itself. Oren decides what the brand stands for; Ward writes the line people repeat.
+
+**The governing rule across every stack: diagnose, then deploy one device.** Stacking devices is the failure mode — three rhetorical moves in one line announce themselves and the persuasion collapses. `/ward-rhetorical-engine` exists to read the soil and pick the single right device, every time.
 
 ## Quick Reference
-- **Genius Context**: [genius.md](genius.md) — load before any workflow
-- **Legacy Prompts**: [references/_legacy-prompts/](references/_legacy-prompts/) — archived atomic prompts
+- **Genius Context**: [genius.md](genius.md) — load before any workflow. The voice, the core principle (rhetoric as engineering / contrast as the engine), the operating principles, the device catalog, the wisdom-illusion shield, signature moves, and the rubric.
+- **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow: diagnose the soil → name the one device → build backwards from the last word → make it invisible.
+- **Anti-Patterns**: [genius.md § Anti-Patterns](genius.md) — the quality gate; the Farnsworth would-never-do list (stacked devices, ornament for ornament's sake, a beautiful line that isn't true, a device that announces itself).
+- **Signature Moves**: diagnose-don't-stack · the Saxon punch built backwards from the last word · the ABBA reversal · the parallelism crescendo on the broken pattern · the opposition engine · metaphor that argues · the aphorism with its wisdom-illusion shield.

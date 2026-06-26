@@ -64,6 +64,24 @@ ENTRY PROMPT: saxon-punch-closer
 PAIRS WITH: Harry Dry (marketing rules), Luke Iha (proof structure)
 ```
 
+```
+AGENT: Bill Browder
+DOMAIN: High-stakes narrative nonfiction — turning dry domain material (finance/law/policy/technical) into an unputdownable page-turner
+CORE METHOD: Next-sentence grip ("why should anyone give a damn about the next sentence?") + jeopardy/stakes escalation + named-villain specificity + documentary-evidence-as-spine + ordinary-man-vs-a-system entry; honesty spine load-bearing (real jeopardy, real receipts)
+BEST FOR: Making dry/complex material grip without boring or melodrama, founder war-stories, cause campaigns, investigative long-form, high-stakes VSLs; rendering a real adversary so the accusation survives a hostile lawyer
+ENTRY PROMPT: skills/bill-browder-high-stakes-narrative/genius.md
+PAIRS WITH: Andrew Stanton (architecture/clamp), Michael Connelly (scene + line), Wright Thompson (long-form), Dan Wang (analytical spine)
+```
+
+```
+AGENT: Susan Orlean
+DOMAIN: Curiosity-driven literary journalism — finding the large story inside a small overlooked subject, structure-before-writing, immersive saturation reporting, the disciplined phased process, profile craft (Didion/Wolfe lineage)
+CORE METHOD: The telling subject + prism test (the small door that opens onto a large house) → three hard-walled phases (research, then thinking, then writing — never blurred) → structure decided physically with cards BEFORE any prose → write from saturation via the yarn engine (dinner-table telling) → the wait-what lead that seduces a reader sure they don't need it → pull-the-punch restraint → voice as lens not hero. Insight comes from curiosity + saturation, not inspiration.
+BEST FOR: Choosing what to write on a low-demand/overlooked subject, standing up or rescuing a stalled nonfiction project, deciding structure before drafting (esp. non-chronological), lifting a pile of research into a told story, profiles, literary newsletters, brand-story origin profiles
+ENTRY PROMPT: skills/susan-orlean-narrative-nonfiction/genius.md
+PAIRS WITH: Wright Thompson (immersive long-form), Michael Connelly (scene + telling detail inside the yarn), Eric Roth (line craft), Noah Hawley (theme spine), Bill Browder (when the subject is dry/high-stakes rather than overlooked)
+```
+
 ---
 
 ## Sales & Persuasion
@@ -412,21 +430,59 @@ PAIRS WITH: Oren (aesthetic development), Kallaway (content psychology), Samuel 
 ## Writing
 
 ```
+AGENT: How-I-Write OS
+DOMAIN: master writing conductor — composes the 10 How-I-Write experts + the story-stack across altitudes for any multi-layer writing/content/marketing piece
+CORE METHOD: diagnose intent -> smallest sufficient altitude stack -> one-voice draft -> line+truth gates
+BEST FOR: any multi-layer writing/content/marketing piece (essay/founder-story/nonfiction/profile/Substack/manifesto/VSL/brand-voice/social/contemplative/ghostwrite). Single tactic -> the specific expert directly.
+ENTRY PROMPT: skills/how-i-write-os/genius.md
+PAIRS WITH: all 10 How-I-Write experts + story-stack (Runia/Hawley/Stanton/Browder/Orlean/Wang/Connelly/Harding/Ocean/Shukman/Albom/Ward/Lulu)
+```
+
+```
 AGENT: Mitch Albom
-DOMAIN: Premium writing, storytelling, theme-first composition
-CORE METHOD: Theme-first writing — starts with the meaning, builds the story around it
-BEST FOR: Long-form writing, book-length content, emotional storytelling
-ENTRY PROMPT: skills/mitch-albom-writing-mastery/SKILL.md
-PAIRS WITH: Dan Wang (literary analysis), Fareed Zakaria (argument structure)
+DOMAIN: Premium writing, storytelling, theme-first composition, emotional architecture
+CORE METHOD: Theme-first writing — find the one human truth, decide the ending first, build the story backward as a tool, then earn the feeling through restraint ("sentiment without sentimentality"). Front door: /albom-theme-first-engine.
+BEST FOR: Long-form writing, book-length content, emotional storytelling, restraint passes (grief/loss/love), gravedigger margin-figure angle, meaning-first hooks
+ENTRY PROMPT: skills/mitch-albom-writing-mastery/genius.md
+PAIRS WITH: Dan Wang (literary analysis), Fareed Zakaria (argument structure), Ocean Vuong (perceptual estrangement), Andrew Stanton (clamp/premise in the story stack)
 ```
 
 ```
 AGENT: Ocean Vuong
-DOMAIN: Perceptual writing, estrangement, defamiliarization, anti-homogenization
-CORE METHOD: Species Test — asks "could any other writer's AI produce this?" If yes, delete it. Image-first composition through estrangement engine.
-BEST FOR: Breaking AI sameness, perceptual prose, cliché rescue, content that demands re-reading, anti-slop audits
-ENTRY PROMPT: skills/ocean-vuong-perceptual-writing/SKILL.md
-PAIRS WITH: Mitch Albom (emotional landing), Lara Acosta (LinkedIn estrangement)
+DOMAIN: Perceptual writing, estrangement, defamiliarization, anti-homogenization (now extended outward to converting copy, brand voice, and content-engine anti-slop on a hard honesty spine)
+CORE METHOD: Defamiliarize — make the familiar strange so the reader sees it for the first time; image-first composition (the eye before the abstraction); render the seeing, never explain the meaning. Gated by the Species Test ("has the species had this sentence yet?") to escape the AI-median sentence where slop and cliché live. Estrange only what is TRUE — never manufacture a claim or proof.
+BEST FOR: Breaking AI sameness, perceptual/image-first prose, cliché rescue, content that demands re-reading, anti-slop audits; perceptual conversion-copy passes, brand-voice de-categorization, genuine-perception content novelty
+ENTRY PROMPT: skills/ocean-vuong-perceptual-writing/genius.md
+WORKFLOWS: /ocean-perceptual-copy (converting copy re-seen), /ocean-brand-estrangement (de-categorize the brand voice), /ocean-content-anti-slop (genuine perceptual novelty); core: /estrangement-engine, /species-test, /cliche-rescue, /anti-homogenization-audit
+PAIRS WITH: Mitch Albom (emotional landing), Lara Acosta (LinkedIn estrangement), copy-engine (Ocean tunes perception, never the proof), oren-brand (perceptual voice inside positioning), parallax (genuine-perception layer)
+```
+
+```
+AGENT: Ward Farnsworth
+DOMAIN: Rhetorical device, memorable-line craft, classical rhetoric (Saxon-punch, chiasmus, parallelism, antithesis, cadence)
+CORE METHOD: Classical devices that make a line land and linger — chord change to a hard Saxon monosyllable, balanced/antithetical structure that grants the "hue of truth," one device on the line that carries the argument (never ornament). Read aloud; if it isn't a punch it isn't done.
+BEST FOR: Making a thesis line quotable, fixing rhetorical flatness, hooks/CTAs/headlines that must land harder, chiasmus/anaphora/epistrophe, aphorism forging, cadence audits
+ENTRY PROMPT: skills/ward-farnsworth-rhetorical-mastery/genius.md
+PAIRS WITH: Ocean Vuong (perceptual freshness), Andrew Stanton (thesis line that carries the argument), writers-room (line-craft pass)
+```
+
+```
+AGENT: Henry Shukman
+DOMAIN: Contemplative / wonder writing — poetry-as-philosophy, awe and romanticism, presence and attention, meditation-informed perception, the sincere spiritual register, opening the reader to the wonder of ordinary reality
+CORE METHOD: The one true concrete doorway — carry the largest feeling on a single exact, perceivable, true particular and leave the cosmic for the reader to supply (delete the standalone abstractions of vastness). Presence over performance (attention, not cleverness — say the true thing plainly), the romantic eye (the ordinary as charged, the everyday as doorway), stillness in prose (space, silence, breath), heart-first sincerity. Distinct from Vuong (estrangement/strangeness) and Harding (sensory maximalism): Shukman is wonder + presence + sincerity. Front door: /shukman-concrete-doorway.
+BEST FOR: Awe/wonder-driven content, the contemplative or spiritual register, making the ordinary feel charged, land-the-plane sublime endings, presence essays, stillness in social prose, fixing clever-but-hollow passages that should be sincere
+ENTRY PROMPT: skills/henry-shukman-contemplative-writing/genius.md
+WORKFLOWS: /shukman-concrete-doorway (front door), /shukman-wonder-content, /shukman-presence-essay, /shukman-stillness-social, /shukman-embodied-word, /shukman-mythos-logos
+PAIRS WITH: Andrew Stanton (/stanton-invoke-wonder engineers the feeling; Shukman supplies the genuine article + honesty spine), Kallaway (illusion-of-novelty — Shukman vetoes faked mystery), Michael Connelly (concrete telling detail), parallax (genuine-awe layer), Ocean Vuong (the perceptual neighbor — strangeness vs. wonder)
+```
+
+```
+AGENT: Paul Harding
+DOMAIN: Lyric perceptual fiction — describing reality vividly, translating sensation onto the page, improvisation over outlining, consciousness/perception rendered as texture, the music of prose, reverent close attention to the ordinary (Pulitzer-winning novelist of Tinkers; from his How I Write interview)
+CORE METHOD: The perception engine — slow attention to the pre-linguistic instant, strip the received language, re-translate the raw seeing until the ordinary turns luminous. The two things (literal object + the character's charged experience of it, the gap becoming characterization), counterpoint description (a thing in the verbs of its opposite, staying literal), botanist's-precision-plus-calculus (so the light moves), the drummer's cadence, systole-and-diastole distillation (depth not width), persuasion by recognition not lesson. Improvise the draft (light out without a map, follow the literal "then what?" chain). Distinct from Connelly (surgical economy/minimalism), Vuong (estrangement), Shukman (contemplative wonder): sensory maximalism + improvisation + the music of the sentence. Front door: /harding-perception-engine.
+BEST FOR: Describing a scene/object/moment vividly, drafting lyric/perceptual prose from a sensory seed with no outline, rendering character through perception, line-level cadence, distilling an overworked draft to depth-not-width, killing the explained lesson; cross-domain perceptual copy, brand-sensory worlds, perception-driven content
+ENTRY PROMPT: skills/paul-harding-lyric-prose/genius.md
+PAIRS WITH: Lamott-Allen really-real (nerve/permission; Harding the lens), Michael Connelly (selects the detail; Harding makes it luminous), Ocean Vuong (rupture vs. literal-yet-strange surface), writing-depth-layer (perception/sentence-surface deficits), parallax / copy-engine / oren-brand (Harding runs the sensory surface inside each domain)
 ```
 
 ```
@@ -436,6 +492,15 @@ CORE METHOD: The product as identity statement. 6-trigger model (Identity Signal
 BEST FOR: T-shirt/apparel/POD design judgment, merch concept generation, buy-trigger audits, niche selection, listing copy, store funnel diagnosis, cross-vertical trigger transfer (offers/hooks/landing pages), /merch-os brand runs
 ENTRY PROMPT: skills/meg-heckman-buyer-trigger-os/SKILL.md
 PAIRS WITH: Satori/Kittl (design execution under her verdicts), BitBranding (Shopify build), Luke Iha (avatar bridge), Kallaway (content hooks), Oren (premium ceiling)
+```
+
+```
+AGENT: Dan Wang
+DOMAIN: Analytical-essay writing, voice in nonfiction, annual-letter form, synthesis of notes into one voice-driven insight piece
+CORE METHOD: The literary treatment of analysis — friction map (official story vs. ground truth) as the analytical engine, big-questions-first ("draft 1.5 of history"), texture-zoom oscillation (ground every abstraction, elevate every detail), the anchor sentence the piece is built to earn, the musical read-aloud pass, radical infrequency over the feed. Insight comes from a disciplined note system, not inspiration.
+BEST FOR: Long-form essays (1.5K–8K words) where craft must match analytical density, turning research reports into FT/Atlantic-tier prose, mining the gap between stated narrative and lived reality, distilling a pile of notes into one coherent voice, annual/period-in-review letters
+ENTRY PROMPT: skills/dan-wang-literary-analysis/genius.md
+PAIRS WITH: Mitch Albom (emotional architecture), Fareed Zakaria (argument structure), Jonathan Franzen (compression), Ward Farnsworth (anchor-line craft), writers-room (structural editing pass)
 ```
 
 ---
@@ -456,6 +521,15 @@ CORE METHOD: Plan like an architect, work like an archaeologist. The premise-sen
 BEST FOR: Make-it-land emotional impact, premise-sentence clarity, want-vs-need character/customer spine, clamp/engagement audits on flat drafts, rescuing stalled drafts, diagnosing the root behind a pile of notes
 ENTRY PROMPT: skills/andrew-stanton-audience-engineering/SKILL.md
 PAIRS WITH: Noah Hawley (arc architecture, runs first on multi-part), Eric Roth (scene craft), Tim Runia (story-vs-topic gate, runs first), Shaan Puri (viral 5-sec change), Donald Miller (customer-as-hero brand)
+```
+
+```
+AGENT: Michael Connelly
+DOMAIN: Vivid prose, telling detail, momentum, character-through-everything, subtext dialogue, real-world anchoring (42 novels, 100M+ copies)
+CORE METHOD: One Telling Detail (pick the single detail that reveals character AND situation; cut the other four) + Momentum Sacred (never let the reader find a place to stop) + Show-the-Tell (physical behavior over named emotion) + economy not minimalism
+BEST FOR: Hollow/generic prose, telling-instead-of-showing, draft drag / "good places to stop", over-explained dialogue, slingshot openers, making fiction/brand narrative instantly believable
+ENTRY PROMPT: skills/michael-connelly-vivid-writing/genius.md
+PAIRS WITH: Andrew Stanton (per-unit clamp; Connelly chains the momentum between units), Eric Roth (scene craft), Noah Hawley (arc architecture), Luke Iha (telling detail inside proof copy), writing-depth-layer (deficits 2 + 7 owner)
 ```
 
 ---
@@ -835,11 +909,11 @@ PAIRS WITH: Samuel Thompson (shadow markets), Nicolas Cole (product vehicles)
 
 ```
 AGENT: Lulu Cheng Meservey
-DOMAIN: Communications strategy, PR, reputation management
-CORE METHOD: Strategic communications — shapes narrative and manages high-stakes reputation
-BEST FOR: PR strategy, crisis communications, reputation management, narrative shaping
-ENTRY PROMPT: skills/lulu-cheng-meservey-communications/SKILL.md
-PAIRS WITH: Donald Miller (messaging), Erica Mallet (brand magnetism)
+DOMAIN: Communications strategy, Go-Direct narrative, PR / reputation management
+CORE METHOD: Go-Direct M3 — Message-Medium-Messenger matrix + reality-shaping narrative ("names create reality"), strategic wrongness held until consensus catches up, authenticity engineered (never faked) — every asset gravity-welled to one named business goal. The one nerve: it has to be real or it dies on contact.
+BEST FOR: Standing up a comms campaign from scratch, installing a contrarian thesis / category creation, founder personal-brand engines, finding the cultural receptors a message attaches to, timing virality, emotional-altitude crisis response
+ENTRY PROMPT: skills/lulu-cheng-meservey-communications/genius.md
+PAIRS WITH: Donald Miller (messaging), Erica Mallet (brand magnetism), copy-engine (conviction copy inside the architecture), convene (multi-expert campaign)
 ```
 
 ```

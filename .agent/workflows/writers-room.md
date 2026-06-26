@@ -61,6 +61,25 @@ These three compress, cut, and tighten the architecture:
 
 > **Where Stanton sits in the room**: the architecture + engagement bookend. He runs *first* (premise: does the room even know what this is?) and *last* (clamp-audit: does every beat pull?). Albom names the theme; Stanton makes it a litmus and audits the forward pull the other layers assume is already there.
 
+#### Ward Farnsworth — The Device Editor (line-craft / memorable-line)
+**Load**: `skills/ward-farnsworth-rhetorical-mastery/genius.md`
+**Lenses**:
+- **Make the Thesis Quotable**: once structure and economy are settled, take the single line carrying the argument and make it land *and linger*. Apply ONE classical device — Saxon-punch (end on a hard monosyllable), chiasmus, parallelism, antithesis, cadence — never a stack.
+- **Device Serves Thesis**: rhetoric only on the line that carries the argument, never as ornament. If the line isn't load-bearing, leave it plain.
+- **Clarity First / Ear Check**: never break sense for sound; read the line aloud — if it isn't a punch, it isn't done.
+
+> **Where Ward sits in the room**: after structure (Albom/Franzen) and economy (Cole/Bayer) have done their work. He doesn't restructure — he makes the one line that has to be remembered actually memorable. The device editor on top of the clean draft.
+
+#### Dan Wang — The Analytical-Texture Editor (optional, long-form / analytical-essay drafts)
+**Load** (only when the draft is an analytical essay, annual letter, or research-dense long-form piece): `skills/dan-wang-literary-analysis/genius.md`
+**Lenses**:
+- **Friction Map**: Where does the official/stated story diverge from the observed/ground truth? The gap *is* the analytical engine. If the draft only restates the official story, there's no insight yet — find the friction an insider would find uncomfortable but accurate.
+- **Texture-Zoom Oscillation**: Every tectonic-plate abstraction must open on a specific observed texture (a meal, a walk, an object); every sensory detail must ladder up to a real idea. Cut abstraction with no gateway; cut self-indulgent detail with no idea.
+- **The Anchor Sentence**: Is there one beautiful, quotable, ironically-layered sentence the piece is built to earn? Structure toward it rather than fitting it in.
+- **Big-Questions-First**: Does the piece engage (and *answer*, not merely survey) the 2-3 live tensions the smartest readers are arguing about right now?
+
+> **Where Wang sits in the room**: the analytical-density layer, only for long-form/essay drafts. He doesn't replace Albom's theme or Stanton's clamp — he welds smart-but-dry analysis to grounded texture and one coherent voice so the prose rewards a second read. Skip him for short social/copy drafts.
+
 ### Layer 2: Emotion, Psychology & Entertainment
 
 These three inject the heartbeat — tension, wit, belief, and "damn this person can write":
@@ -92,6 +111,14 @@ These three inject the heartbeat — tension, wit, belief, and "damn this person
 - **Naming Mastery**: When you NAME an unnamed experience, you own that concept. "The translation problem." "Silence isn't neutral." Give readers language for things they've felt but couldn't articulate.
 - **Universal-to-Specific Pipeline**: Find the universal truth → make it painfully specific → the specificity is what makes it universal. Paradox: the more specific, the more relatable.
 - **Recognition Mining**: Target the "damn, that's true" response. The silent nod. The exhale. Comedy isn't just laughs — it's the feeling of being SEEN.
+
+#### Lulu Cheng Meservey — The Conviction & Authenticity Editor (optional, comms/founder-voice drafts)
+**Load** (only when the draft must install a belief or carry a founder's public stance): `skills/lulu-cheng-meservey-communications/genius.md`
+**Lenses**:
+- **Conviction over information**: Does the piece transform what the reader believes, or just inform them? A flat, balanced take is a tell — name the line in the sand and hold it.
+- **Strategic wrongness**: Keep the precise, defensible take that sounds wrong now but reads obviously right to the tribe. Don't let the draft regress to the safe consensus middle.
+- **Engineered (never faked) authenticity**: Strip corporate signals — passive voice, buzzwords, excessive positivity — and keep the spontaneity and emotional "wrongness" AI would sand off. The one nerve: it has to be real or it dies on contact.
+- **Messenger match**: Is this the right claim coming from the credible-to-say-it voice? The right message from the wrong messenger fails.
 
 ### Layer 3: Platform, Pull-Through & Voice Authenticity
 

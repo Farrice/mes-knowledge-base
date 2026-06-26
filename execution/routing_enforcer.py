@@ -45,6 +45,197 @@ ROUTING_LOG = TRACE_DIR / "routing_decisions.jsonl"
 
 BINDINGS = [
     {
+        "id": "operator_mission_control",
+        "signal_phrases": [
+            "mission control",
+            "mission os",
+            "long running system repair",
+            "long-running system repair",
+            "milestone handoff",
+            "mission state",
+        ],
+        "mandatory_workflow": "mission",
+        "forbidden_workflows": [],
+        "reason": (
+            "Mission-control language requires the Mission OS front door so the "
+            "work gets a structured state, checkpoints, handoffs, and validation "
+            "instead of drifting into an unrelated tactical workflow."
+        ),
+    },
+    {
+        "id": "operator_source_to_skill_system",
+        "signal_phrases": [
+            "source to skill system",
+            "source-to-skill-system",
+            "source to skill",
+            "source-to-skill",
+            "source to system",
+            "source-to-system",
+            "skill system",
+            "reusable operating layer",
+            "connected skill system",
+        ],
+        "mandatory_workflow": "source-to-skill-system",
+        "forbidden_workflows": [],
+        "reason": (
+            "Source material becoming a reusable operating layer routes through "
+            "/source-to-skill-system so evidence, route fit, component contracts, "
+            "handoffs, and validation come before implementation."
+        ),
+    },
+    {
+        "id": "operator_system_audit",
+        "signal_phrases": [
+            "hooks not firing",
+            "hooks are not firing",
+            "hooks not running",
+            "not firing hooks",
+            "codex feels ineffective",
+            "noisy disjointed",
+            "broken harness",
+            "control-plane audit",
+            "operating alignment",
+            "operator core",
+            "execution bias",
+            "safe local next actions",
+            "safe local action",
+            "explains instead of executing",
+            "explain instead of execute",
+            "plans instead of acting",
+            "planning instead of acting",
+            "hands back prompts",
+            "handing back prompts",
+            "prompt instead of execute",
+            "execute what you said",
+            "patch and verify",
+            "parallel agents",
+            "delegate to agents",
+            "spawn subagent",
+            "read-only diagnostic subagents",
+        ],
+        "mandatory_workflow": "system-audit",
+        "forbidden_workflows": [
+            "vicious-hook",
+            "diandra-hook-architect",
+            "placek-hooks",
+            "hook-bank",
+            "hook-lab",
+        ],
+        "reason": (
+            "Not-firing hooks and operating-alignment complaints are control-plane "
+            "failures, not content-hook generation requests. /system-audit owns "
+            "read-only proof, manual hook-equivalent gates, and local repair."
+        ),
+    },
+    {
+        "id": "operator_steering_compass",
+        "signal_phrases": [
+            "3 next prompts",
+            "three next prompts",
+            "operator lesson",
+            "what should i do next",
+            "better follow-up prompts",
+            "steering compass",
+            "use now harden expand",
+        ],
+        "mandatory_workflow": "steering-compass",
+        "forbidden_workflows": [],
+        "reason": (
+            "Requests for continuation prompts, steering, or Operator Lessons "
+            "route to /steering-compass so closeout advice is contextual, reusable, "
+            "and formatted as Use Now, Harden, Expand."
+        ),
+    },
+    {
+        "id": "operator_expert_composition",
+        "signal_phrases": [
+            "full arsenal",
+            "too many experts",
+            "expert soup",
+            "not interwoven",
+            "one-man army",
+            "one man army",
+        ],
+        "mandatory_workflow": "expert-composition-governor",
+        "forbidden_workflows": [],
+        "reason": (
+            "Full-arsenal or too-many-experts language needs one function owner, "
+            "bounded support slots, and a composition ledger instead of expert soup."
+        ),
+    },
+    {
+        "id": "operator_high_taste_output_os",
+        "signal_phrases": [
+            "high taste output os",
+            "high-taste output os",
+            "high taste writing os",
+            "high-taste writing os",
+            "high taste os",
+            "high-taste-os",
+            "v4 high taste",
+            "v4 bar",
+            "remarkable output",
+            "remarkable outputs",
+            "make this as good as v4",
+            "published copy v4",
+            "v4 codex preflight",
+            "consultant-clean",
+            "consultant clean",
+            "flat but structurally sound",
+            "publish-ready high-taste",
+            "publish ready high taste",
+            "client-ready high-taste",
+            "practitioner-grade artifact",
+            "ai slop writing",
+            "output elevation",
+            "elevate this output",
+        ],
+        "negative_signals": [
+            "name this",
+            "naming",
+            "brand name",
+            "taste training",
+            "taste roadmap",
+            "taste stage",
+            "design taste",
+        ],
+        "mandatory_workflow_any_of": [
+            "high-taste-writing-os",
+            "high-taste-os",
+        ],
+        "forbidden_workflows": [
+            "taste-name",
+            "taste-training",
+            "taste-stage",
+        ],
+        "reason": (
+            "V4/high-taste/remarkable-output language needs the V4 High-Taste "
+            "Output OS: preflight proof, owner loading, source spine, human "
+            "stakes, bounded support lanes, verification gates, and receipt. "
+            "Generic taste-name or taste-training routes do not produce the "
+            "artifact-level operating chain."
+        ),
+    },
+    {
+        "id": "operator_repeatability_spine",
+        "signal_phrases": [
+            "repeatability spine",
+            "cannot repeat",
+            "can't repeat",
+            "lost the magic",
+            "revision got worse",
+            "golden sample",
+            "quality bar",
+            "reproduce this",
+        ],
+        "mandatory_workflow": "repeatability-spine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Repeatability or regression language needs preservation of the good "
+            "example, primary failure class, validation, and replay prompt."
+        ),
+    },
+    {
         "id": "parallax_editions",
         "signal_phrases": [
             "parallax edition",
@@ -414,6 +605,237 @@ BINDINGS = [
     # NOTE (2026-06-09, same-day reversal): the extraction_freeze binding was
     # removed at Farrice's explicit direction — extractions are never gated.
     # forge_gate.py remains as usage TELEMETRY only (status/record).
+    {
+        # Tight, unambiguous rhetorical-device signals → Ward Farnsworth engine.
+        "id": "writing_ward_rhetoric",
+        "signal_phrases": [
+            "chiasmus", "saxon punch", "make this line memorable",
+            "make it quotable", "rhetorical device", "anaphora", "epistrophe",
+        ],
+        "mandatory_workflow": "ward-rhetorical-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit rhetorical-device / memorable-line requests route to the Ward "
+            "Farnsworth engine, which applies classical devices to make the thesis line land and linger."
+        ),
+    },
+    {
+        # Tight, unambiguous Go-Direct communications signals → Lulu Cheng Meservey
+        # M3 matrix front door. Specific phrases only — generic "PR" stays out to
+        # avoid colliding with brand/messaging routes.
+        "id": "lulu_go_direct_comms",
+        "signal_phrases": [
+            "go-direct", "go direct", "m3 matrix", "message-medium-messenger",
+            "communications strategy", "comms strategy", "comms campaign",
+            "crisis communications", "reality architect", "strategic wrongness",
+        ],
+        "mandatory_workflow": "lulu-m3-matrix",
+        "forbidden_workflows": [],
+        "reason": (
+            "Go-Direct communications strategy routes to the Lulu Cheng Meservey M3 "
+            "engine (Message-Medium-Messenger matrix gravity-welled to one named "
+            "business goal), which owns the load-bearing comms strategy before any asset exists."
+        ),
+    },
+    {
+        # Tight, unambiguous theme-first / emotional-architecture signals →
+        # Mitch Albom engine. Specific phrases only — generic "write a story"
+        # stays out so it defers to the writers-room / story-stack routes.
+        "id": "writing_albom_theme_first",
+        "signal_phrases": [
+            "theme-first", "theme first writing", "emotional architecture",
+            "make the reader feel", "restraint pass", "gravedigger angle",
+            "tuesdays with morrie", "sentiment without sentimentality",
+        ],
+        "mandatory_workflow": "albom-theme-first-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit theme-first / emotional-architecture requests route to the Mitch "
+            "Albom engine, which finds the one human truth and builds the piece backward to earn the feeling through restraint."
+        ),
+    },
+    {
+        # Tight, unambiguous Dan Wang analytical-essay signals → friction-map
+        # front door. Specific phrases only — generic "essay"/"long-form" stays
+        # out so it defers to writers-room / story-stack routes.
+        "id": "writing_wang_analytical",
+        "signal_phrases": [
+            "friction map", "official story vs ground truth",
+            "official story vs the ground truth", "annual letter",
+            "dan wang", "draft 1.5 of history", "anchor sentence essay",
+            "literary cornerstone",
+        ],
+        "mandatory_workflow": "wang-friction-map",
+        "forbidden_workflows": [],
+        "reason": (
+            "Dan Wang analytical-essay requests route to the friction-map front "
+            "door, which mines the gap between the official story and the ground "
+            "truth (the analytical engine) before any drafting, then hands forward "
+            "to /literary-cornerstone-sprint, /wang-anchor-sentence, and /wang-musical-pass."
+        ),
+    },
+    {
+        # Tight, unambiguous Michael Connelly vivid-writing signals → telling-detail
+        # front door. Specific phrases only — generic "write a story"/"make it vivid"
+        # stays out so it defers to writers-room / depth-layer / story-stack routes.
+        "id": "writing_connelly_vivid",
+        "signal_phrases": [
+            "telling detail", "michael connelly", "connelly", "pick the one detail",
+            "show don't tell", "show dont tell", "momentum audit",
+            "good place to stop", "good places to stop",
+        ],
+        "mandatory_workflow": "telling-detail-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit Michael Connelly / telling-detail / show-don't-tell / momentum "
+            "requests route to the Connelly vivid-writing engine, which picks the one "
+            "detail that reveals character AND situation, shows the tell instead of "
+            "naming it, and keeps momentum sacred so the reader can't find a place to stop."
+        ),
+    },
+    {
+        # Tight, unambiguous Ocean Vuong perceptual-writing signals → estrangement
+        # front door. Specific phrases only — generic "make it original"/"less AI"
+        # stays out so it defers to writers-room / depth-layer routes.
+        "id": "writing_ocean_perceptual",
+        "signal_phrases": [
+            "ocean vuong", "estrangement engine", "defamiliarize", "defamiliarization",
+            "species test", "perceptual rewrite", "anti-homogenization",
+            "escape the median sentence", "make the familiar strange",
+        ],
+        "mandatory_workflow": "estrangement-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit Ocean Vuong / estrangement / defamiliarization / Species-Test "
+            "requests route to the Ocean Vuong perceptual-writing engine, which leads "
+            "with the concrete image, makes the familiar strange so the reader sees it "
+            "for the first time, and refuses the AI-median sentence where slop and cliché "
+            "live — estranging only what is TRUE (copy → /ocean-perceptual-copy, brand "
+            "voice → /ocean-brand-estrangement, content → /ocean-content-anti-slop)."
+        ),
+    },
+    {
+        # Tight, unambiguous Bill Browder high-stakes-narrative-nonfiction signals →
+        # next-sentence grip front door. Specific phrases only — generic "write a story"
+        # / "make it gripping" stays out so it defers to writers-room / depth-layer.
+        "id": "writing_browder",
+        "signal_phrases": [
+            "bill browder", "browder", "next-sentence test", "next sentence test",
+            "make the dry material grip", "unputdownable nonfiction",
+            "high-stakes narrative", "stakes escalation", "name the villain",
+            "evidence as spine", "make finance gripping", "page-turner nonfiction",
+        ],
+        "mandatory_workflow": "browder-next-sentence-test",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit Bill Browder / next-sentence / high-stakes-narrative requests "
+            "route to the Browder grip engine, which makes dry/complex domain material "
+            "(finance/law/policy) unputdownable by escalating real jeopardy, rendering "
+            "the villain through documentary evidence, and gripping the reader into the "
+            "next sentence — on a load-bearing honesty spine (real stakes, real receipts)."
+        ),
+    },
+    {
+        # Tight, unambiguous Susan Orlean curiosity-driven-literary-journalism
+        # signals → telling-subject front door. Specific phrases only — generic
+        # "write a story" / "essay" stays out so it defers to writers-room /
+        # depth-layer / story-stack.
+        "id": "writing_orlean",
+        "signal_phrases": [
+            "susan orlean", "orlean", "telling subject", "the telling subject",
+            "small overlooked subject", "find the story inside",
+            "decide structure before writing", "structure before writing",
+            "card structure", "three-phase process", "wait-what lead",
+            "curiosity-driven literary journalism", "the orchid thief",
+            "the library book",
+        ],
+        "mandatory_workflow": "orlean-telling-subject",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit Susan Orlean / telling-subject / structure-before-writing "
+            "requests route to the Orlean engine, which finds the large theme "
+            "hiding in a small overlooked subject, decides structure physically "
+            "before any prose, protects the research/thinking/writing phases, and "
+            "lifts saturation reporting into a told story — distinct from Browder "
+            "thriller jeopardy, Wright Thompson lyric sportswriting, and Dan Wang "
+            "analytical essay."
+        ),
+    },
+    {
+        # Tight, unambiguous Henry Shukman contemplative / wonder-writing signals →
+        # concrete-doorway front door. Specific phrases only — generic "write a story"
+        # / "make it poetic" stays out so it defers to writers-room / depth-layer.
+        # Distinct from Ocean Vuong (estrangement) and Paul Harding (sensory maximalism).
+        "id": "writing_shukman",
+        "signal_phrases": [
+            "henry shukman", "shukman", "concrete doorway", "the concrete doorway",
+            "reopen the reader to wonder", "contemplative writing register",
+            "presence over performance", "the romantic eye", "stillness in prose",
+            "poetry as philosophy", "wonder of ordinary reality", "embodied word",
+            "mythos register",
+        ],
+        "mandatory_workflow": "shukman-concrete-doorway",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit Henry Shukman / concrete-doorway / contemplative-wonder requests "
+            "route to the Shukman engine, which reopens the reader to awe by carrying the "
+            "largest feeling on one true concrete particular (presence over performance, "
+            "the romantic eye, stillness, heart-first sincerity) — distinct from Ocean "
+            "Vuong estrangement and Paul Harding sensory maximalism: wonder + presence + "
+            "sincerity, on an honesty spine that vetoes faked mystery."
+        ),
+    },
+    {
+        # Tight, unambiguous Paul Harding lyric-perceptual / sensory-maximalism
+        # signals → perception-engine front door. Specific phrases only — generic
+        # "write a story" / "describe this" stays out so it defers to writers-room
+        # / depth-layer. Distinct from Connelly (surgical economy), Ocean Vuong
+        # (estrangement), and Henry Shukman (contemplative wonder).
+        "id": "writing_harding",
+        "signal_phrases": [
+            "paul harding", "harding", "perception engine", "the perception engine",
+            "lyric perceptual prose", "sensory maximalism", "the two things",
+            "counterpoint description", "improvisation over outlining",
+            "the music of prose", "translate sensation onto the page",
+            "describe reality vividly", "tinkers",
+        ],
+        "mandatory_workflow": "harding-perception-engine",
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit Paul Harding / perception-engine / lyric-perceptual requests "
+            "route to the Harding engine, which describes reality vividly by slowing "
+            "attention to the pre-linguistic instant and re-translating the raw seeing "
+            "until the ordinary turns luminous (the two things, counterpoint, "
+            "botanist's-precision-plus-calculus, the drummer's cadence, improvisation "
+            "over outlining) — distinct from Connelly surgical economy, Ocean Vuong "
+            "estrangement, and Henry Shukman contemplative wonder: sensory maximalism "
+            "+ improvisation + the music of the sentence, on an honesty spine."
+        ),
+    },
+    {
+        # How-I-Write OS front door (2026-06-26) — skills/how-i-write-os.
+        # The master writing conductor: composes the 10 How-I-Write experts +
+        # the story-stack across altitudes for any multi-layer writing/content/
+        # marketing piece. Owns no craft; diagnoses, composes, sequences, gates.
+        "id": "writing_how_i_write_os",
+        "signal_phrases": [
+            "how i write",
+            "how-i-write",
+            "writing os",
+            "writing council",
+            "compose the writers",
+            "writing operating system",
+        ],
+        "mandatory_workflow": "how-i-write",
+        "forbidden_workflows": [],
+        "reason": (
+            "How-I-Write OS language routes to /how-i-write — the master writing "
+            "conductor that diagnoses intent, picks the smallest sufficient altitude "
+            "stack (3-6 of the 10 How-I-Write experts + story-stack), drafts in ONE "
+            "voice, then runs the line + truth/clamp/prose/fact gates; it composes "
+            "existing experts and never rebuilds a writer."
+        ),
+    },
     {
         # Placed LAST so domain-specific bindings (avatar, copy, parallax, BOS)
         # take precedence. This is the catch-all for GENERIC research that would

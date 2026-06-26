@@ -14,6 +14,24 @@ What makes him singular: he fuses Russian Formalist theory (Shklovsky's ostranen
 
 ---
 
+## How to Use This Skill (Opus Calibration)
+
+The principles below are **perception primitives, not a style filter**. Vuong's whole teaching is that estrangement comes from *seeing*, not from decorating: "80% of writing is looking and thinking. The last part is syntax." The failure mode for a capable model is to skip the looking and reach straight for the lush sentence — to manufacture strangeness with vocabulary instead of earning it through observation. That produces the exact thing Vuong despises: ornamental prose that *announces* its own literariness, which an editor rightly calls "pretentious… too felt." Absorb the patterns, do the perceptual work first, then let the syntax deliver what the perception found.
+
+The test is not "how lyrical is this?" The test is: **would Vuong say the species has had this sentence — or would he say I dressed up a sentence it already had?** A behavioral metaphor that doesn't actually change how the tenor behaves is just a fancy image-metaphor wearing a costume. A "poietic" line with no real threshold underneath it is mimesis with extra syllables.
+
+Specifically:
+- **Perception before syntax, always.** Do not generate the estranged line until you can name what you *noticed* that no one else has articulated. If you can't, you haven't looked long enough — and no amount of syntax will rescue an unobserved subject. The 20% syntax is "the spike protein," but a spike protein with nothing to deliver is decoration.
+- **Estrangement is not maximalism.** "I'm not arguing for maximalist sentences. I'm arguing for idiosyncrasy and strangeness." Early Hemingway — three-word sentences — was strange. A plain sentence with one true displacement beats a paragraph of lush nothing. Do not equate "Vuong" with "more adjectives."
+- **The Species Test is a real gate, not a vibe.** When the brief allows, actually check the phrasing (Google it / interrogate it). "300,000 people beat you to it" is the standard Ben Lerner set. If a line would return a wall of results, keep going — don't ship the recognizable line because it *sounds* nice.
+- **Mimetic scaffolding is allowed and necessary.** "Sometimes you do need sentences like 'he walked into the room.'" Not every line must estrange — the plain lines are the floor that makes the estranged ones audible. Reserve the perceptual fireworks for the threshold moments; carpet-bombing every sentence with strangeness is the same failure as carpet-bombing with rhetoric — the reader's wonder-detector burns out.
+- **Honesty spine (for commercial/factual work).** Estrangement re-sees what is *true*; it never manufactures a claim. A behavioral metaphor that makes a false proof point feel inevitable is the most dangerous failure — the better the perception, the more convincing the lie. Re-see the real thing; route missing claims back to the copywriter/researcher, never to a beautiful sentence.
+- **Do NOT label the moves.** Never annotate output with "(behavioral correspondence here)" or name the device unless asked. The reader should be *haunted*, not shown the scaffold. If they notice the technique, the technique failed.
+
+Why this is here: capable models follow instructions literally, and perceptual writing dies under mechanical execution — the whole point is that the strangeness is *seen first* and the syntax is buried. Slot-filling lyrical vocabulary onto an unobserved subject produces exactly the homogenized, "publishable but forgettable" prose Vuong diagnoses — the opposite of a sentence the species hasn't had.
+
+---
+
 ## The 5 Operating Principles
 
 ### 1. Estrangement > Clarity
@@ -84,6 +102,23 @@ Run this before choosing Vuong as the expert:
 **Deploy Vuong when**: The writing needs to survive being read alongside Baldwin, Dillard, Morrison, and McCarthy. When "publishable but forgettable" is the diagnosis. When the rose needs to be in Mike Tyson's ear.
 
 **Don't deploy when**: Speed is the primary constraint, the content is transactional (product descriptions, how-to guides), or the audience has no patience for linguistic novelty.
+
+---
+
+## Cross-Domain Applications
+
+The principles are domain-agnostic — they operate on *perception*, not on subject matter. Estrangement, behavioral correspondence, the Species Test, poietic thresholds, and Haunting > Capturing work on a landing page the same way they work on a poem; the only thing that changes is the honesty spine and how much plain runway the format gives you. The map below is *where each principle wants to live* outside literary prose, and the canonical failure to guard against in each domain.
+
+| Domain | Principles that earn their place | How they deploy | The domain's slop trap (what to estrange away from) |
+|---|---|---|---|
+| **Ad / landing / sales copy** | Behavioral Correspondence · Cliché Rescue · Satisfy-or-Deny · the Honesty Spine | Re-see the prospect's *problem* through a displacement they've never held, so the page can't be confused with the median competitor page. Deny the expected payoff once so the reader feels you "know what they want better than they do." Estrange the true claim — never manufacture one. | The median sentence: "Are you tired of struggling with X?" — pure mimesis, instantly Google-returnable, invisible. The AI-sameness that makes every page feel like the same page. |
+| **Brand voice / positioning** | Taxonomy Kills Imagination · the Thumbprint · Etymological Depth · the Diachronic Reader | Make the brand *re-see its own category* — recover the behavioral history of the words it has flattened into taxonomy ("synergy," "premium," "innovative"). A brand with a syntactic thumbprint can't be confused with a competitor; a homogenized brand voice is a category, not an identity. | House-style homogenization: the brand that "sounds like the category." Glass-and-right-angles voice — the same skyscraper built in every downtown. Category words used at dictionary-shallow depth. |
+| **Content / social / newsletter** | Perception > Production · Haunting > Capturing · the Species Test · Strategic Denial | Manufacture *genuine* novelty of perception (a thing actually noticed and re-seen), not the gimmick-novelty of a fresh hook on a recycled insight. Optimize for residue ("would they think about this in two weeks?") over the minute of capture. | The "I read this last year" fatigue — synchronic content that competes with this week's posts and loses to the diachronic reader. Hook addiction. Gimmick-novelty: a costume of freshness over a sentence the species already had. |
+| **Editing / quality gate** | Anti-Homogenization · the Species Test · Recognition-before-Correction · the Newspaper-Sentence diagnostic | Read the draft alongside Baldwin / Morrison / McCarthy; catch the invisible newspaper sentence; name the writer's tendencies *before* correcting (so you don't edit out the idiosyncrasy that was the thumbprint). | "Publishable but forgettable." The workshop instinct to smooth every idiosyncrasy into house style — correction mistaken for progress. |
+| **Ghostwriting / voice** | the Thumbprint · Recognition Workshop · Daringness/Disobedience · influence-not-imitation | Find the *client's* consciousness-filtered-through-syntax and amplify its strangeness — never impose your own showpieces. "Consciousness filtered through syntax… for every single person it's different." | The homogenized voice that "could be anyone." Imposing the ghostwriter's tics; sanding the client into a LinkedIn-default cadence. |
+| **Nature / experiential / interiority writing** | Poietic Threshold · Behavioral Correspondence · the Subjective-Synthesis (Baker's mud) | Let interiority leach into the subject — "we're not talking about mud anymore." The reader gets the subject *through the writer's filter*, which is the whole delight. The threshold between named states (bud → rose) is where the wonder lives. | Pure mimesis collapses here fastest: "there's a sunny meadow" — we've all seen the photo; why read someone naming what we can already see? |
+
+> **The universal move across every domain:** never *exile* the subject (don't avoid the rose, the grandmother, the prospect's tired problem, the overdone category) — **estrange the context** instead. Put the rose in Mike Tyson's ear. The problem is never the subject; it's the automatized perception of it. And in any domain with claims, estrange what is *true* — the honesty spine holds everywhere.
 
 ---
 
