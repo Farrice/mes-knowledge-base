@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+> **⚠️ GOLDEN RULE — ONE TOOL PER WORKING TREE AT A TIME.** This repo is shared by Claude Code **and** OpenAI Codex with no lock between them. **Never run both against this directory at the same time** — concurrent edits corrupt the tree (the "apply one fix, another breaks" failure, root-caused 2026-06-30). Safe handoff: let the active tool finish to a clean `git status` or a commit, **then** open the other. Need both at once? Give one its own `git worktree` — never a second driver in this folder.
+
 <!-- AGENTS.md is a pointer to GEMINI.md (Gemini-native, separately tuned). Run /sync-instructions after system intent changes. -->
 <!-- Slimmed 2026-06-09 (rebuild/deterministic-enforcement): reference blocks moved to directives/cli-reference.md, system-primitives.md, routing-bindings.md, model-notes.md. Nothing deleted — relocated. -->
 

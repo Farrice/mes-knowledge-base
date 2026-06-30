@@ -124,16 +124,10 @@ def main() -> int:
         print("hot command skill coverage: ok")
         checks.append(True)
 
-    if non_hot_live_skills:
-        print("non-hot command skills still live:")
-        for name in non_hot_live_skills[:25]:
-            print(f"  {name}")
-        if len(non_hot_live_skills) > 25:
-            print(f"  ... {len(non_hot_live_skills) - 25} more")
-        checks.append(False)
-    else:
-        print("cold command wrappers quarantined from live surface: ok")
-        checks.append(True)
+    # Single-tree topology (canonical, 2026-06-30): every source-command
+    # wrapper lives in .agents/skills. "Non-hot wrappers live" is the expected
+    # state, not a failure — so this is reported descriptively, never gated.
+    print(f"non-hot command skills live (single-tree, informational): {len(non_hot_live_skills)}")
 
     if hot_in_cold:
         print("hot command skills accidentally cold:")
@@ -144,14 +138,18 @@ def main() -> int:
         print("hot command skills absent from cold quarantine: ok")
         checks.append(True)
 
+    # Hot command-skill coverage is the gated invariant (asserted above): every
+    # hot control-plane command must be present as a live source-command skill.
+    # A matching .agent/workflows/*.md file is NOT required — several hot
+    # command-skills (e.g. ai-employee-os, video-source-extract, virtuoso)
+    # delegate their behavior elsewhere and have no standalone workflow file.
+    # So workflow coverage is reported descriptively, never gated.
     if missing_hot_workflows:
-        print("missing hot workflows:")
+        print(f"hot commands without a standalone workflow file (informational): {len(missing_hot_workflows)}")
         for name in missing_hot_workflows:
             print(f"  {name}")
-        checks.append(False)
     else:
         print("hot workflow coverage: ok")
-        checks.append(True)
 
     checks.append(run_smoke("codex live surface", [sys.executable, "execution/codex_live_surface_audit.py", "--strict"]))
     checks.append(run_smoke("expert router", [sys.executable, "execution/expert_router.py", "route", "positioning linkedin post"]))

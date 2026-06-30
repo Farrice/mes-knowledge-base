@@ -135,6 +135,41 @@ def operator_front_door_query(query: str) -> bool:
     return context_hits >= 2
 
 
+def operator_lesson_front_door_query(query: str) -> bool:
+    """Detect always-on Operator Lesson / subagent-coaching intents.
+
+    Autopilot is the operator front door for "teach me every exchange",
+    "I'm underusing subagents", and "autopilot + operator lesson + subagent
+    worth it" prompts. These should start at Autopilot, which now owns the
+    always-on Operator Core closeout (3 Next Prompts, Operator Lesson,
+    Subagent worth it?, Reuse hook). Kept narrow so it does not hijack the
+    dedicated steering-compass route for pure "3 next prompts" requests.
+    """
+
+    lesson_signal = (
+        "operator lesson" in query
+        or "teach me every exchange" in query
+        or ("teach me" in query and "every exchange" in query)
+        or "every exchange" in query
+    )
+    agent_signal = (
+        "subagent" in query
+        or "subagents" in query
+        or "underusing agents" in query
+        or "forgetting subagents" in query
+        or "underusing subagents" in query
+    )
+    autopilot_signal = "autopilot" in query
+
+    # Q-shape 1: coaching on underused agents + learning each exchange.
+    if agent_signal and lesson_signal:
+        return True
+    # Q-shape 2: explicit autopilot + operator-lesson + subagent framing.
+    if autopilot_signal and lesson_signal and agent_signal:
+        return True
+    return False
+
+
 def governed_query_active(query: str) -> bool:
     """Return True when the routing governor has a required route stack."""
 
@@ -548,7 +583,10 @@ def search_workflows(query, top_n=10):
     control_intent = classify_control_intent(query)
     governed_order = []
     governed_boost = {}
-    if is_end_session_closeout_intent(normalized_query):
+    if operator_lesson_front_door_query(normalized_query):
+        route_names = [wf["name"] for wf in index]
+        governed_order = [route for route in OPERATOR_FRONT_DOOR_STACK if route in route_names]
+    elif is_end_session_closeout_intent(normalized_query):
         governed_order = governed_route_names(normalized_query, [wf["name"] for wf in index])
     elif mission_query(normalized_query):
         route_names = [wf["name"] for wf in index]

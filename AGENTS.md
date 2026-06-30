@@ -2,6 +2,8 @@
 
 Self-contained: Codex does NOT auto-follow file pointers, so everything load-bearing is in THIS file. `CODEX.md` is the Codex-native operating authority for this workspace; read it as the expanded harness contract when repairing routing, hooks, command surfaces, or Operator Core behavior. Deep reference (read on demand, never assume loaded): `GEMINI.md`, `CLAUDE.md`, `PRODUCTION_CORE.md`, `OPERATING_MANUAL.md`.
 
+> **⚠️ GOLDEN RULE — ONE TOOL PER WORKING TREE AT A TIME.** This repo is shared by Claude Code **and** OpenAI Codex with no lock between them. **Never run both against this directory at the same time** — concurrent edits corrupt the tree (the "apply one fix, another breaks" failure, root-caused 2026-06-30). Safe handoff: let the active tool finish to a clean `git status` or a commit, **then** open the other. Need both at once? Give one its own `git worktree` — never a second driver in this folder.
+
 ## What this workspace is
 A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → 140 expert personas + 261 skills + 1,049 workflows → deterministic Python backplane (`execution/`, ~128 scripts). The goal: world-class extracted experts producing revenue work, every deliverable feeding one learning loop (finalize → ledger → evolution) **rooted in this repo** — never fork it.
 
@@ -16,7 +18,7 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → 140 exper
 1. **SCORE** intent 1-5 (+1 each: Deliverable, Audience, Context, End-state, Specific language)
 2. **SHARPEN** if ≤3 (one round of questions max)
 3. **ROUTE** to expert skills. Default to `PRODUCTION_CORE.md` (~25 proven entries); long-tail needs explicit `/name`. Mandatory bindings: `directives/routing-bindings.md`.
-4. **LOAD** before producing: `skills/[name]/SKILL.md` + minimum one more file (genius.md or workflow). Also: `python3 execution/memory_retrieve.py "<task intent>" --top 10`
+4. **LOAD** before producing: `skills/[name]/SKILL.md` + minimum one more file (genius.md or workflow). Also: `python3 execution/memory_facade.py "<task intent>" --top 10` (one call across sovereign + auto-memory + wiki + agent + episodic stores; `memory_retrieve.py` stays valid as the sovereign-only sub-path)
 5. **PRODUCE** — the expert's thinking, not their terminology
 5.5 **VERIFY** — factual claims about real people/events/dates/stats/sources get labeled VERIFIED/LIKELY/UNCONFIRMED before delivery
 6. **FINALIZE** (run in terminal at repo root):

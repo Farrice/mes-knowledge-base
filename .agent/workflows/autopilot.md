@@ -90,3 +90,25 @@ python3 execution/run_receipt.py --verify
 
 Use narrower checks first while patching, but finish with the full proof set
 when the work changes control-plane behavior.
+
+## Operator Core Closeout
+
+Every meaningful Autopilot run closes with persistent per-exchange steering, not
+just a run receipt. For substantial work — builds, repairs, audits, or any run
+with a real next decision — include **3 Next Prompts** under the Insightful
+Momentum standard, keeping the Use Now / Harden / Expand frame and making each
+option context-rich and capability-revealing.
+
+Always end with an **Operator Lesson** that teaches the move behind the work, not
+just the result, plus:
+
+- **Next-time prompt:** the copy-paste continuation that gets a better result on
+  the next run.
+- **Subagent worth it?** — would isolated parallel agents have done this better or
+  faster, and is that worth invoking next time? Note that real Codex subagents
+  require explicit authorization and default to read-only diagnostics.
+- **Reuse hook:** the part of this run worth turning into a repeatable skill,
+  workflow, or saved prompt.
+
+Skip the full closeout only when Farrice explicitly asks for a terse answer or a
+special tool action requires silence.

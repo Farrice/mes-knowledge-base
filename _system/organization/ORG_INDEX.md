@@ -1,7 +1,7 @@
 # Global Artifact Organization
 
-Last updated: 2026-06-30T16:24:01+00:00
-Total indexed files: 19792
+Last updated: 2026-06-30T19:31:36+00:00
+Total indexed files: 19797
 
 ## Canonical Project Shape
 
@@ -22,7 +22,7 @@ Active projects live under `_active/<project-slug>/` with:
 - `skills`: 6851
 - `_active`: 5482
 - `projects`: 2673
-- `.agent`: 1538
+- `.agent`: 1541
 - `.agents`: 1038
 - `extractions`: 1016
 - `execution`: 295
@@ -33,17 +33,17 @@ Active projects live under `_active/<project-slug>/` with:
 - `research_outputs`: 66
 - `semantic_libraries`: 33
 - `docs`: 15
-- `_system`: 11
+- `_system`: 13
 - `strategy_briefs`: 8
 - `brain`: 0
 - `documents_codex`: 0
 
 ## Counts By Domain
 
-- `System`: 9553
+- `System`: 9556
 - `Creative`: 811
 - `Extraction`: 5851
-- `Revenue`: 132
+- `Revenue`: 134
 - `Client`: 754
 - `Research`: 1825
 - `Content`: 624

@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """Audit the Codex-native live skill surface.
 
-The live surface is intentionally small: hot control-plane command wrappers
-remain in .agents/skills, while cold migrated source-command wrappers live in a
-recoverable quarantine and the full workflow arsenal stays in .agent/workflows.
+Single-tree topology (canonical, 2026-06-30): the workspace is one live tree.
+Every source-command wrapper lives in .agents/skills (no cold quarantine), and
+the full workflow arsenal stays in .agent/workflows. The hot control-plane
+commands must all be LIVE; the strict gate verifies that they are present and
+that no live wrapper is missing its SKILL.md, rather than asserting the retired
+two-tree split (small live surface + a 700-dir cold quarantine).
 """
 
 from __future__ import annotations
@@ -178,8 +181,8 @@ def render_report(report: dict[str, object]) -> str:
         "## Policy",
         "",
         "- .agent/workflows remains the executable arsenal.",
-        "- .agents/skills is the live Codex control surface.",
-        "- .agents/cold-skills/source-command-wrappers is recoverable quarantine, not deletion.",
+        "- .agents/skills is the live Codex control surface (single-tree: every wrapper lives here).",
+        "- Hot control-plane commands must all be live; there is no cold quarantine.",
         "- Dual-mode command wrappers are allowed only when explicitly listed and validated.",
         "- .claude/commands remains legacy/source reference only.",
     ]
@@ -201,31 +204,36 @@ def render_report(report: dict[str, object]) -> str:
 
 
 def strict_failures(report: dict[str, object]) -> list[str]:
+    """Strict gate for the canonical single-tree surface.
+
+    The retired two-tree invariants (small live surface == len(HOT_COMMANDS), a
+    700-dir cold quarantine, and "any non-hot wrapper live is a failure") no
+    longer describe reality and have been dropped. The single-tree gate keeps
+    the checks that still mean something: the hot control-plane commands must
+    all be LIVE, no live wrapper may be missing its SKILL.md, and the workflow
+    arsenal must be intact.
+    """
+
     failures: list[str] = []
+    # Hot control-plane commands must all be present and live.
     if report["hot_missing"]:
         failures.append(f"missing hot wrappers: {', '.join(report['hot_missing'])}")
-    if report["hot_in_cold"]:
-        failures.append(f"hot wrappers in cold quarantine: {', '.join(report['hot_in_cold'])}")
-    if report["non_hot_live_commands"]:
-        failures.append(f"non-hot command wrappers live: {', '.join(report['non_hot_live_commands'])}")
+    # Every live source-command dir must carry a SKILL.md.
     if report["live_nonempty_source_command_dirs_missing_skill_md"]:
         failures.append(
             "non-empty live source-command dirs missing SKILL.md: "
             + ", ".join(report["live_nonempty_source_command_dirs_missing_skill_md"])
         )
-    if report["cold_nonempty_source_command_dirs_missing_skill_md"]:
+    # Single-tree: all source-command wrappers live here. The live wrapper count
+    # must at least cover every hot command (the meaningful floor), not equal a
+    # retired small-surface target.
+    if report["live_source_command_count"] < len(HOT_COMMANDS):
         failures.append(
-            "non-empty cold source-command dirs missing SKILL.md: "
-            + ", ".join(report["cold_nonempty_source_command_dirs_missing_skill_md"])
-        )
-    if report["live_source_command_count"] != len(HOT_COMMANDS):
-        failures.append(
-            f"live source-command wrapper count is {report['live_source_command_count']}, expected {len(HOT_COMMANDS)}"
+            f"live source-command wrapper count is {report['live_source_command_count']}, "
+            f"expected at least {len(HOT_COMMANDS)} (all hot commands live)"
         )
     if report["workflow_count"] < 900:
         failures.append("workflow arsenal is unexpectedly small")
-    if report["cold_source_command_count"] < 700:
-        failures.append("cold command-wrapper quarantine is unexpectedly small")
     return failures
 
 
