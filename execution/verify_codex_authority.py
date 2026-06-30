@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Verify Codex-native authority (AGENTS.md + CODEX.md) is active.
-
-Peer-constitution model (Farrice, 2026-06-30): CLAUDE.md is canon and GEMINI.md is the
-Gemini constitution; both stay authoritative for their own platforms and are NOT demoted
-to "LEGACY REFERENCE". Codex routes via AGENTS.md/CODEX.md; this verifier checks that
-Codex authority is wired without forcing demotion of the sibling constitutions.
-"""
+"""Verify Codex-native authority is active and legacy model files are demoted."""
 
 from __future__ import annotations
 
@@ -47,11 +41,16 @@ def main() -> int:
         "CODEX.md lacks explicit legacy demotion rule",
         failures,
     )
-    # Peer-constitution model (Farrice, 2026-06-30): CLAUDE.md and GEMINI.md stay
-    # authoritative for their own platforms and are NOT demoted to "LEGACY REFERENCE".
-    # Codex follows AGENTS.md/CODEX.md (asserted above); no legacy marker is required on
-    # the sibling constitutions. CLAUDE.md is canon per the Platform Portability OS, so
-    # this verifier must not force its demotion.
+    require(
+        "LEGACY REFERENCE" in gemini.splitlines()[0],
+        "GEMINI.md first line does not mark it as legacy reference",
+        failures,
+    )
+    require(
+        "LEGACY REFERENCE" in claude.splitlines()[7] if len(claude.splitlines()) > 7 else False,
+        "CLAUDE.md heading does not mark it as legacy reference",
+        failures,
+    )
 
     active_workflows = [
         ".agent/workflows/autopilot.md",
