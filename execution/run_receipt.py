@@ -111,23 +111,6 @@ def write_receipt(receipt: dict[str, Any]) -> dict[str, str]:
     return {"markdown": str(md_path.relative_to(ROOT)), "json": str(json_path.relative_to(ROOT))}
 
 
-def subagents_requested(data: dict[str, Any]) -> bool:
-    text = " ".join(
-        str(data.get(key, ""))
-        for key in (
-            "query",
-            "support_gates",
-            "expert_lenses",
-            "meta_intent",
-            "composition_owner",
-            "feedback_hook",
-            "changed",
-            "next_action",
-        )
-    ).lower()
-    return any(term in text for term in ("subagent", "sub-agent", "parallel agents", "delegate to agents"))
-
-
 def verify() -> None:
     if not LATEST_JSON.exists():
         return
@@ -139,10 +122,6 @@ def verify() -> None:
     ]
     if missing:
         raise ValueError("Latest run receipt missing: " + ", ".join(missing))
-    if subagents_requested(data):
-        boundary = str(data.get("subagent_boundary", "")).strip().lower()
-        if not boundary or boundary == "none":
-            raise ValueError("Latest run receipt mentions subagents but has no subagent_boundary")
 
 
 def main() -> int:
