@@ -53,7 +53,7 @@ Complete 6 steps IN ORDER for every deliverable request. Steps may narrow (table
 
 **Step 3: ROUTE to experts.** **Routing defaults to `PRODUCTION_CORE.md` entries** — the router hook surfaces `[CORE]` matches per prompt; long-tail requires explicit `/name` invocation or a decisively stronger match. Multi-domain: `directives/expert_auto_routing.md`. Mandatory bindings: see Routing summary below + `directives/routing-bindings.md`.
 
-**Step 4: LOAD via Context Engine.** Tier 0 (cards) -> **Tier 1.5a (Recall grounding — auto for content/copy/brand/voice/strategy/design domains: fire `mcp__recall__search`, inject 1-3 high-signal cards, silent skip if <2; `directives/recall-grounding-protocol.md`)** -> **Tier 1.5b (Unified memory facade: `python3 execution/memory_facade.py "<task intent>" --top 10` before expert output — one call across sovereign + auto-memory + wiki + agent stores; every skipped store is REPORTED, never silently dropped. Wraps `memory_retrieve.py`, which stays valid as the sovereign-only sub-path)** -> Tier 1 (SKILL.md + workflow) -> Tier 2 (+ genius.md) -> Tier 3 (sub-agent).
+**Step 4: LOAD via Context Engine.** Tier 0 (cards) -> **Tier 1.5a (Recall grounding — auto for content/copy/brand/voice/strategy/design domains: fire `mcp__recall__search`, inject 1-3 high-signal cards, silent skip if <2; `directives/recall-grounding-protocol.md`)** -> **Tier 1.5b (Unified memory facade: `python3 execution/memory_facade.py "<task intent>" --top 10` before expert output — one call across sovereign + auto-memory + wiki + agent + episodic (full CC/Codex conversation history — the auto-remember layer) stores; every skipped store is REPORTED, never silently dropped. Wraps `memory_retrieve.py`, which stays valid as the sovereign-only sub-path)** -> Tier 1 (SKILL.md + workflow) -> Tier 2 (+ genius.md) -> Tier 3 (sub-agent).
 **Never produce expert-domain output without loading the expert first.** Content: minimum 2 skill files per `directives/content_creation_gate.md`.
 
 **Step 5: PRODUCE output.** Their thinking, not their terminology. Enforce `directives/quality_assurance.md`: entity classification, no phantom research, no template slop.
@@ -110,7 +110,9 @@ If user invokes a workflow name (as `/command`, `@command`, "run command", or ba
 
 Primitives table (who owns what): `directives/system-primitives.md`.
 
-**Knowledge Sources**: Local files (primary) · Notion (5 DBs) · **Recall** (3,000+ cards, Tier 1.5 auto) · Video Vision (`/watch` + `fetch-video-context.py`) · NotebookLM (100/mo) · Perplexity ($30/mo) · Hermes (shell-only, `directives/hermes-usage-policy.md`).
+**Knowledge Sources**: Local files (primary) · Notion (5 DBs) · **Recall** (3,000+ cards, Tier 1.5 auto) · **Episodic memory** (full CC/Codex conversation history, superpowers plugin; query via `memory_facade --sources episodic`) · Video Vision (`/watch` + `fetch-video-context.py`) · NotebookLM (100/mo) · Perplexity ($30/mo) · Hermes (shell-only, `directives/hermes-usage-policy.md`).
+
+**Memory stack (3-layer, 2026-06-23)**: L1 episodic capture = superpowers `episodic-memory` plugin (mechanical SessionStart hook, ~133k exchanges, local, $0; the canonical auto-capture layer — **do NOT install claude-mem**, it adds ungated spend) → L2 semantic = `.memory/sovereign.db` (fed from L1 via `execution/episodic_ingest.py` → `memory_distill.py` → human review; **stop manual episodic logging**) → L3 second brain = Notion Simon Library + local mirror (`_active/notion-intellectual-library/DEPLOY-RUNBOOK.md`). `memory_facade.py` is the single front door. Bake-off protocol: `_active/memory-bakeoff/`.
 
 **Key files (on-demand)**: `PRODUCTION_CORE.md` (the ~25 that do the work) · `OPERATING_MANUAL.md` (how Farrice runs this) · `COUNCIL.md` · `DOMAIN_REGISTRY.md` · `JARVIS.md` · `FARRICE.md`.
 

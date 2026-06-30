@@ -1,0 +1,14 @@
+{
+ "session_id": "46fdcaa8-3441-47bf-825b-2b73ce0923f2",
+ "debts": [],
+ "produced": false,
+ "produced_paths": [],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false
+}

@@ -7,6 +7,7 @@ Also generates one slash command per skill (.claude/commands/<name>.md) so every
 skill is invocable like a workflow (/david-bayer). Clobber-safe: never overwrites
 a command we did not generate (the 598 hand-written workflow shims are untouched).
 """
+import argparse
 import os
 import re
 from collections import Counter
@@ -490,10 +491,19 @@ def sync_skill_commands():
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Sync Antigravity registries and optional skill command shims.")
+    parser.add_argument(
+        "--indexes-only",
+        action="store_true",
+        help="Refresh AGENT_INDEX.md and SKILL_INDEX.md without touching .claude command shims.",
+    )
+    args = parser.parse_args()
+
     if not os.path.exists(SKILLS_DIR) or not os.path.exists(AGENTS_DIR):
         print("Run this from the workspace root.")
         exit(1)
 
     sync_agents()
     sync_skills()
-    sync_skill_commands()
+    if not args.indexes_only:
+        sync_skill_commands()

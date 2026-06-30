@@ -3,13 +3,12 @@
 > Read these as they'd post. Body only, no build-scaffolding. The 4 newsjacks carry a `[VERIFY LIVE]` swap + an optional first-comment CTA; everything else is value-only, no CTA. P3-3 (GLP-1 patch-notes) was cut — not here.
 > **The read:** credentialed operator settling a live fight, or still AI-shaped? Mark each PASS / FAIL / FIX.
 
-
 ---
 
 ## Pillar 1 — SUPPLEMENT & INGREDIENT TRUTH
 
-
 ### P1-1 — “Why your magnesium does nothing”
+
 *evergreen · no CTA*
 
 A client swore magnesium was a scam. She'd taken it nightly for a year.
@@ -34,8 +33,8 @@ She switched forms. Three weeks later she texted me that she finally understood 
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P1-2 — “The $19 bottle and the $59 bottle have the same label”
+
 *evergreen · no CTA*
 
 Two creatine bottles. Same front label. One is $19, one is $59.
@@ -60,8 +59,8 @@ Run the four lines on the two bottles in your cabinet tonight. The one you filed
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P1-3 — “ChatGPT named three 'clinically studied' supplements. I checked what that phrase legally means.”
+
 *NEWSJACK · needs [VERIFY LIVE] swap before posting*
 
 A founder showed me a ChatGPT answer naming the "clinically studied" sleep stack he was about to copy.
@@ -94,13 +93,12 @@ The founder ran his stack through it that afternoon. He kept one ingredient, cut
 
 `PASS / FAIL / FIX: ____`
 
-
 ---
 
 ## Pillar 2 — AI & THE FUTURE OF WELLNESS
 
-
 ### P2-1 — “The magnesium answer ChatGPT keeps getting wrong”
+
 *evergreen · no CTA*
 
 Someone I coach typed "best magnesium for sleep" into ChatGPT, did exactly what it said, and three weeks later felt nothing.
@@ -131,8 +129,8 @@ She switched nothing about the brand. She just started asking the second questio
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P2-2 — “I asked ChatGPT to defend five supplement claims. Three folded.”
+
 *evergreen · no CTA*
 
 I spent an afternoon trying to get ChatGPT to defend the five supplement claims I see most in my feed.
@@ -169,8 +167,8 @@ Run the three questions tonight on the last supplement you bought. You'll feel t
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P2-3 — “A wellness brand just got cited by AI for a claim it can't legally make”
+
 *NEWSJACK · needs [VERIFY LIVE] swap before posting*
 
 This week a sleep-supplement brand got named by ChatGPT as a top answer, described, in the machine's own words, as something that "helps treat insomnia."
@@ -197,13 +195,12 @@ So before you celebrate the next model that names you, read the sentence it actu
 
 `PASS / FAIL / FIX: ____`
 
-
 ---
 
 ## Pillar 3 — TRAINING & PERFORMANCE SCIENCE
 
-
 ### P3-1 — “The number on the bar isn't the thing that's growing”
+
 *evergreen · no CTA*
 
 A guy I trained with for years texted me a photo of his program last spring. Same five lifts he'd run since 2014, the weights creeping up a few pounds a quarter. His shoulders looked exactly the same as they had in 2019. His message was four words: "Why am I stuck?"
@@ -226,8 +223,8 @@ Next set, before you rack it, ask one thing: could I have done three more? If th
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P3-2 — “Soreness is your body learning a new move, not building a new muscle”
+
 *evergreen · no CTA*
 
 The best month of muscle growth I ever tracked on a client came with almost no soreness at all. He kept apologizing for it. "I don't think it's working. Nothing's sore."
@@ -248,13 +245,12 @@ The day your training stops making you sore is usually the day it starts paying 
 
 `PASS / FAIL / FIX: ____`
 
-
 ---
 
 ## Pillar 4 — BEHAVIOR CHANGE & THE MENTAL GAME
 
-
 ### P4-1 — “Discipline isn't the variable you think it is”
+
 *evergreen · no CTA*
 
 One of the most disciplined people I've ever coached did everything the discipline coaches tell you to. Eight months in, still stuck at the same wall.
@@ -285,8 +281,8 @@ She never did get more disciplined. She just stopped paying for the workout with
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P4-2 — “Field notes from the smallest, most honest behavior-change lab I have”
+
 *evergreen · no CTA*
 
 My toddler taught me more about why your team won't adopt the new process than any change deck I've read.
@@ -317,8 +313,8 @@ The smartest behavior-change move I made all year happened in a hallway, holding
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P4-3 — “I pulled the paper”
+
 *NEWSJACK · needs [VERIFY LIVE] swap before posting*
 
 A study went around last week: 21 days of a streak rewires a permanent habit. So I pulled the actual paper.
@@ -347,13 +343,12 @@ Pick the habit you keep restarting. Count the decisions between the cue and the 
 
 `PASS / FAIL / FIX: ____`
 
-
 ---
 
 ## Pillar 5 — THE OPERATOR'S LENS
 
-
 ### P5-1 — “The biggest ad budget loses in AI search”
+
 *evergreen · no CTA*
 
 A founder I know spends more on ads in a month than most brands spend in a year. Last week he typed his own category question into ChatGPT to feel good about it. His brand wasn't in the answer. Three smaller competitors were.
@@ -382,8 +377,8 @@ The operators who feel this first aren't the loudest in the category. They're th
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P5-2 — “Prove vs claim, and the line that costs $53,088”
+
 *evergreen · no CTA*
 
 I read a supplement label this morning that broke its own promise in seven words. Not because the product is bad. The product might be excellent. The claim is what's exposed, and the brand has no idea the same flaw is also why AI won't quote them.
@@ -412,8 +407,8 @@ Run that one question on your loudest claim before your next campaign does it fo
 
 `PASS / FAIL / FIX: ____`
 
-
 ### P5-3 — “Is the founder account the brand account now?”
+
 *NEWSJACK · needs [VERIFY LIVE] swap before posting*
 
 A post going around this week says the brand account is dead and the founder account is the brand account now. The growth crowd is treating it like a posting-cadence problem. It isn't. It's a physiology-of-trust problem, and they're about to solve it backwards.
@@ -441,4 +436,3 @@ Stop measuring the founder by how often he posts. The machine never counted that
 > If you want to see this on your own brand: ask your category's main buying question in ChatGPT and in Google's AI mode, and notice whether the named sources are carrying attributable expertise or just marketing copy. Curious what you find, drop the gap you see and I'll tell you which gate it's failing, the proof gate or the attribution gate. (For health brands wrestling with the claim-safe version of this, that's the work I do, but the read above stands on its own whether we ever talk.)
 
 `PASS / FAIL / FIX: ____`
-

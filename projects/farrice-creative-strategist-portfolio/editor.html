@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Text Editor</title>
+  <style>
+    :root {
+      color: #f3f0e9;
+      background: #14171f;
+      font-family: Inter, system-ui, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      display: grid;
+      min-height: 100vh;
+      place-items: center;
+      padding: 24px;
+    }
+
+    main {
+      max-width: 760px;
+      border: 1px solid rgba(176, 141, 79, 0.5);
+      padding: 28px;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-family: Georgia, serif;
+      font-size: 44px;
+      line-height: 1;
+    }
+
+    p,
+    li {
+      color: #a9b0bc;
+      line-height: 1.55;
+    }
+
+    a {
+      display: inline-flex;
+      margin-top: 12px;
+      padding: 12px 16px;
+      background: #2e4034;
+      color: #f3f0e9;
+      text-decoration: none;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Portfolio Text Editor</h1>
+    <p>This editor is local-only. It lets you click text on the portfolio, edit it live, and save those changes into <code>site-edits.json</code>.</p>
+    <ul>
+      <li>Use it before publishing.</li>
+      <li>After saving, regenerate the PDF so the PDF and site match.</li>
+      <li>Do not publish edit mode as the recruiter-facing URL.</li>
+    </ul>
+    <a href="/?edit=1">Open live editor</a>
+  </main>
+</body>
+</html>

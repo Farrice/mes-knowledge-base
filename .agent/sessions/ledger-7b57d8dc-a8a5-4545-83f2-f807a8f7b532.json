@@ -1,0 +1,124 @@
+{
+ "session_id": "7b57d8dc-a8a5-4545-83f2-f807a8f7b532",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-mastery",
+   "ts": "2026-06-23T07:09:17.159088"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ethan-smith-aeo",
+   "ts": "2026-06-23T07:09:39.506340"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-proof-ladder",
+   "ts": "2026-06-23T07:10:01.243670"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-client-acquisition",
+   "ts": "2026-06-23T07:10:05.275637"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-creative-strategy",
+   "ts": "2026-06-23T07:10:36.466031"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dai-media-consumer-posture",
+   "ts": "2026-06-23T07:51:55.546794"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nathan-gotch-ai-seo",
+   "ts": "2026-06-23T08:35:30.070474"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "fresh-voice-system",
+   "ts": "2026-06-23T11:58:54.593734"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-sentence-craft",
+   "ts": "2026-06-23T15:48:57.027790"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-content-system",
+   "ts": "2026-06-23T15:48:57.033487"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kobi-brown-educational-virality",
+   "ts": "2026-06-23T15:53:54.745660"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-addictive-storytelling",
+   "ts": "2026-06-23T15:53:55.247069"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "shaan-puri-storytelling",
+   "ts": "2026-06-23T15:53:55.710281"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "diandra-escobar-linkedin-growth",
+   "ts": "2026-06-23T15:54:02.025296"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "david-mcraney-belief-change",
+   "ts": "2026-06-23T15:54:07.515717"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-growth",
+   "ts": "2026-06-23T16:01:37.681250"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "tim-danilov-niche-bending",
+   "ts": "2026-06-23T16:01:38.000192"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "linkedin-2026-format-arbitrage",
+   "ts": "2026-06-23T16:01:43.242986"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kieran-flanagan-content-ops",
+   "ts": "2026-06-23T16:01:43.628904"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/exemplars/_p1-supplement-truth.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/exemplars/_p2-ai-future-wellness.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/exemplars/_p5-operators-lens.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/exemplars/_p4-behavior-mental-game.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/content-creation-system.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/social-playbook.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/exemplars/_p3-training-performance.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/CONTENT-OS.md",
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/content-os/starter-content-batch.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md"
+ ],
+ "subagent_spawns": 9,
+ "finalized_at": "2026-06-23T08:44:29.058509",
+ "last_debt_at": "2026-06-23T16:01:43.628915",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": true,
+ "handoff_warned": true,
+ "pin_nudged": true,
+ "session_pinned": true,
+ "session_pinned_at": "2026-06-23T16:27:33.701457"
+}

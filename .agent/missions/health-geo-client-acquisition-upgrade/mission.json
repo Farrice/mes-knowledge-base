@@ -1,0 +1,170 @@
+{
+  "activation_queue": [
+    {
+      "blocker": "",
+      "evidence_path": "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "expected_artifact": "AUTOMATION_PROMPT.md upgraded to client-acquisition engine",
+      "id": "A1",
+      "kind": "workstream",
+      "next_action": "",
+      "owner": "Oren Operational Systems",
+      "status": "complete",
+      "updated_at": "2026-06-23T13:58:29+00:00",
+      "validation_assertion": "VA1",
+      "workflow": "source-command-mission"
+    },
+    {
+      "blocker": "",
+      "evidence_path": "_active/health-performance-ip-library/SERVICE_LADDER.md",
+      "expected_artifact": "SERVICE_LADDER.md offer progression from audit to creative strategy",
+      "id": "A2",
+      "kind": "workstream",
+      "next_action": "",
+      "owner": "Luke Iha plus Nicolas Cole",
+      "status": "complete",
+      "updated_at": "2026-06-23T13:58:34+00:00",
+      "validation_assertion": "VA2",
+      "workflow": "source-command-convene"
+    },
+    {
+      "blocker": "",
+      "evidence_path": "_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md",
+      "expected_artifact": "CLIENT_ACQUISITION_OFFER.md polished offer source of truth",
+      "id": "A3",
+      "kind": "workstream",
+      "next_action": "",
+      "owner": "Farrice Engine offer layer",
+      "status": "complete",
+      "updated_at": "2026-06-23T13:58:38+00:00",
+      "validation_assertion": "VA3",
+      "workflow": "farrice-engine offer"
+    }
+  ],
+  "approved_package_load_set": [],
+  "artifact_contract": {
+    "artifacts": [
+      {
+        "kind": "strategy_anchor",
+        "path": "docs/mission-artifacts/health-geo-client-acquisition-upgrade/strategy-anchor.md",
+        "purpose": "Mission strategy grounding; summarize STRATEGY.md when present or capture the guiding bet.",
+        "status": "created"
+      },
+      {
+        "kind": "requirements",
+        "path": "docs/mission-artifacts/health-geo-client-acquisition-upgrade/requirements.md",
+        "purpose": "Requirements with stable R/A/F/AE identifiers before planning.",
+        "status": "created"
+      },
+      {
+        "kind": "unit_plan",
+        "path": "docs/mission-artifacts/health-geo-client-acquisition-upgrade/plan.md",
+        "purpose": "Implementation or workstream plan with stable U-IDs, sequencing, risks, and tests.",
+        "status": "created"
+      },
+      {
+        "kind": "review_ledger",
+        "path": "docs/mission-artifacts/health-geo-client-acquisition-upgrade/review.md",
+        "purpose": "Scrutiny and user-outcome review record, including residual work decisions.",
+        "status": "created"
+      },
+      {
+        "kind": "solution_capture",
+        "path": "docs/mission-artifacts/health-geo-client-acquisition-upgrade/solution-capture.md",
+        "purpose": "Fresh solved-problem or reusable-knowledge capture for docs/solutions when generalizable.",
+        "status": "created"
+      },
+      {
+        "kind": "pulse",
+        "path": "docs/mission-artifacts/health-geo-client-acquisition-upgrade/pulse.md",
+        "purpose": "Post-ship or post-delivery signal report, with docs/pulse-reports handoff when applicable.",
+        "status": "created"
+      }
+    ],
+    "required": true,
+    "root": "docs/mission-artifacts/health-geo-client-acquisition-upgrade",
+    "type": "engineering"
+  },
+  "context_requirements": [],
+  "created_at": "2026-06-23T13:55:16+00:00",
+  "execution_receipt": {
+    "executed_lanes": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "planned_lanes": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "proof_artifacts": [
+      "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "_active/health-performance-ip-library/SERVICE_LADDER.md",
+      "_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md"
+    ],
+    "resume_command": "/mission resume health-geo-client-acquisition-upgrade",
+    "skipped_lanes": [],
+    "validators_run": [
+      "rg Client Acquisition Opportunity Map AUTOMATION_PROMPT.md",
+      "read SERVICE_LADDER.md",
+      "test -f CLIENT_ACQUISITION_OFFER.md"
+    ]
+  },
+  "goal": "Enhance the Health Performance GEO daily automation into a client-acquisition content data moat for creative strategy, copywriting, ghostwriting, AEO, SEO, and GEO offers",
+  "handoffs": [
+    {
+      "commands": "source-command-convene workflow read; source-command-mission workflow read; codex_operator_preflight; routing stack; apply_patch; export_format_guard; mission_control",
+      "created_at": "2026-06-23T13:58:45+00:00",
+      "issues": "CODEX.md absent; command_menu.py absent; no real subagents used; Drive remains disabled.",
+      "next": "Run next daily brief and verify it now emits Client Acquisition Opportunity Map, hook bank, cross-platform plan, and Acquisition Scorecard.",
+      "role": "orchestrator",
+      "summary": "Upgraded Health Performance GEO automation into client-acquisition content data moat with prompt, ladder, offer brief, and mission artifacts."
+    }
+  ],
+  "librarian": {
+    "notes": "Knowledge pulse run: knowledge_compiler.py stats passed; knowledge_compiler.py briefing wrote knowledge/compiled/briefing.md; solutions subcommand is unavailable in this workspace, so overlap review used MEMORY/context_retriever/routing outputs and existing health-performance library files.",
+    "required": true,
+    "status": "complete"
+  },
+  "mode": "code",
+  "name": "Health GEO Client Acquisition Upgrade",
+  "package_boundaries": [],
+  "resume_packet": {
+    "fresh_session_packet": "",
+    "next_command": "",
+    "notes": "",
+    "required": true,
+    "resume_command": "/mission resume health-geo-client-acquisition-upgrade",
+    "state_sources": [
+      ".agent/missions/health-geo-client-acquisition-upgrade/mission.json",
+      ".agent/intent-memory/current.json",
+      ".agent/system-cohesion-state.json"
+    ]
+  },
+  "slug": "health-geo-client-acquisition-upgrade",
+  "status": "complete",
+  "updated_at": "2026-06-23T14:00:13+00:00",
+  "validation_assertions": [
+    {
+      "covered_by": "U1",
+      "id": "VA1",
+      "pass_signal": "Required section exists",
+      "statement": "Automation prompt explicitly converts daily intelligence into client-acquisition content, audits, and offer bridges.",
+      "validator": "rg Client Acquisition Opportunity Map AUTOMATION_PROMPT.md"
+    },
+    {
+      "covered_by": "U2",
+      "id": "VA2",
+      "pass_signal": "Rungs are present in order",
+      "statement": "Service ladder progresses from audit to ghostwriting/copywriting to AEO SEO GEO to creative strategy.",
+      "validator": "read SERVICE_LADDER.md"
+    },
+    {
+      "covered_by": "U3",
+      "id": "VA3",
+      "pass_signal": "Offer file exists and states positioning",
+      "statement": "Polished offer source of truth exists locally.",
+      "validator": "test -f CLIENT_ACQUISITION_OFFER.md"
+    }
+  ]
+}

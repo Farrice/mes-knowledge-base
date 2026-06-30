@@ -28,3 +28,8 @@
 {"timestamp": "2026-06-13T01:11:28.753157", "workflow": "research-swarm", "skill": "alex-suzuki-digital-product-revenue-os", "expert": "alex-suzuki-revenue-architect", "task_type": "Strategy", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-06-13T01:47:07.212014", "workflow": "extract-forge", "skill": "lamott-allen-really-real-writing", "expert": "anne-lamott-neal-allen", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-06-14T02:12:40.865823", "workflow": "extract-forge", "skill": "lamott-allen-really-real-writing", "expert": "lamott-allen", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-06-24T08:12:26.314687", "workflow": "brief", "skill": "source-command-brief", "expert": "brief", "task_type": "Strategy", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-06-24T08:14:01.871507", "workflow": "brief", "skill": "", "expert": "", "task_type": "", "qualifying": true, "sub_agents_spawned": 0, "source": "stop_hook"}
+{"timestamp": "2026-06-25T10:29:14.873941", "workflow": "extract-forge", "skill": "ward-farnsworth-rhetorical-mastery", "expert": "ward-farnsworth", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-06-29T18:18:08.425100", "workflow": "brief", "skill": "source-command-brief", "expert": "source-command-brief", "task_type": "Client Work", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-06-29T18:18:19.755759", "workflow": "brief", "skill": "source-command-brief", "expert": "source-command-brief", "task_type": "Client Work", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

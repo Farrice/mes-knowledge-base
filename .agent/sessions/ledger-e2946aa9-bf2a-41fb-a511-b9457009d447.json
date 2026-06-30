@@ -1,0 +1,94 @@
+{
+ "session_id": "e2946aa9-bf2a-41fb-a511-b9457009d447",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "andrew-stanton-audience-engineering",
+   "ts": "2026-06-25T09:43:59.141945"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "michael-connelly-vivid-writing",
+   "ts": "2026-06-25T09:44:56.053823"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "writing-depth-layer",
+   "ts": "2026-06-25T09:46:45.293824"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ward-farnsworth-rhetorical-mastery",
+   "ts": "2026-06-25T10:05:12.048376"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dan-wang-literary-analysis",
+   "ts": "2026-06-26T00:46:54.779552"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mitch-albom-writing-mastery",
+   "ts": "2026-06-26T00:46:56.267710"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lulu-cheng-meservey-communications",
+   "ts": "2026-06-26T00:47:22.804820"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ocean-vuong-perceptual-writing",
+   "ts": "2026-06-26T01:33:23.713811"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "bill-browder-high-stakes-narrative",
+   "ts": "2026-06-26T01:59:24.955355"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "susan-orlean-narrative-nonfiction",
+   "ts": "2026-06-26T02:07:08.358926"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "henry-shukman-contemplative-writing",
+   "ts": "2026-06-26T02:15:32.140756"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "paul-harding-lyric-prose",
+   "ts": "2026-06-26T02:23:29.009150"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "how-i-write-os",
+   "ts": "2026-06-26T02:59:34.342745"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/DOMAIN_REGISTRY.md",
+  "/Users/farricecain/Google Antigravity/agents/_framework/invocation-cards.md",
+  "/Users/farricecain/Google Antigravity/execution/routing_enforcer.py",
+  "/Users/farricecain/Google Antigravity/directives/routing-bindings.md",
+  "/Users/farricecain/Google Antigravity/skills/writing-depth-layer/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/how-i-write-os/genius.md",
+  "/Users/farricecain/Google Antigravity/skills/how-i-write-os/references/composition-map.md",
+  "/Users/farricecain/Google Antigravity/skills/how-i-write-os/references/quickstart.md",
+  "/Users/farricecain/Google Antigravity/skills/how-i-write-os/SKILL.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md"
+ ],
+ "subagent_spawns": 4,
+ "finalized_at": "2026-06-26T03:03:53.217522",
+ "last_debt_at": "2026-06-26T02:59:34.342753",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": true
+}

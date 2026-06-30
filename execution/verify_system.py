@@ -109,6 +109,21 @@ def get_filesystem_dirs(parent_dir, skip_prefixes=("_", ".")):
     return dirs
 
 
+def is_archived_skill(slug):
+    """Return True when a skill is intentionally kept on disk but out of indexes."""
+    skill_md = SKILLS_DIR / slug / "SKILL.md"
+    if not skill_md.exists():
+        return False
+    try:
+        head = skill_md.read_text(encoding="utf-8", errors="ignore")[:2000]
+    except Exception:
+        return False
+    if not head.startswith("---"):
+        return False
+    frontmatter = head.split("---", 2)[1]
+    return "status: archived" in frontmatter
+
+
 def get_workflow_files():
     """List workflow .md files (without extension)."""
     names = set()
@@ -218,14 +233,19 @@ def phase_index_sync():
     # --- Skills ---
     index_skills = parse_index_slugs(SKILL_INDEX)
     fs_skills = get_filesystem_dirs(SKILLS_DIR)
+    indexable_fs_skills = {slug for slug in fs_skills if not is_archived_skill(slug)}
 
     # In index but not on filesystem
     for slug in sorted(index_skills - fs_skills):
         add(ERROR, phase, f"SKILL_INDEX lists `{slug}` but no directory exists at skills/{slug}")
         count += 1
+    for slug in sorted(index_skills & fs_skills):
+        if is_archived_skill(slug):
+            add(ERROR, phase, f"SKILL_INDEX lists archived skill `{slug}`; archived skills stay on disk but out of registries")
+            count += 1
 
     # On filesystem but not in index (only count those with SKILL.md)
-    for slug in sorted(fs_skills - index_skills):
+    for slug in sorted(indexable_fs_skills - index_skills):
         skill_md = SKILLS_DIR / slug / "SKILL.md"
         if skill_md.exists():
             add(ERROR, phase, f"Skill `{slug}` has SKILL.md but is NOT in SKILL_INDEX.md (run sync_registries.py)")

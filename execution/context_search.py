@@ -24,6 +24,8 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 BRAIN_DIR = Path.home() / ".gemini" / "antigravity" / "brain"
 INDEX_JSON = BRAIN_DIR / "_index" / "conversations.json"
+ROOT = Path(__file__).resolve().parent.parent
+ORG_MANIFEST = ROOT / "_system" / "organization" / "manifest.json"
 
 # ---------------------------------------------------------------------------
 # Loading
@@ -81,6 +83,40 @@ def search_keyword(conversations: list, query: str) -> list:
     # Sort by score descending
     scored.sort(key=lambda x: -x[0])
     return [conv for _, conv in scored]
+
+
+def search_organization_manifest(query: str, max_results: int = 5) -> list[dict]:
+    """Search the artifact organization manifest when available."""
+
+    if not query or not ORG_MANIFEST.exists():
+        return []
+    try:
+        manifest = json.loads(ORG_MANIFEST.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+
+    terms = [term for term in query.lower().split() if len(term) > 2]
+    matches = []
+    for entry in manifest.get("entries", []):
+        haystack = " ".join(
+            str(entry.get(field, ""))
+            for field in (
+                "path",
+                "relative_path",
+                "root",
+                "domain",
+                "project",
+                "artifact_type",
+                "lifecycle",
+                "status",
+            )
+        ).lower()
+        score = sum(1 for term in terms if term in haystack)
+        if score:
+            matches.append((score, entry))
+
+    matches.sort(key=lambda item: (-item[0], str(item[1].get("relative_path") or item[1].get("path") or "")))
+    return [entry for _, entry in matches[:max_results]]
 
 
 def filter_domain(conversations: list, domain: str) -> list:
@@ -152,6 +188,22 @@ def display_results(results: list, max_results: int = 20):
     print("\n" + "=" * 70)
     if len(results) > max_results:
         print(f"   ... and {len(results) - max_results} more results")
+
+
+def display_organization_matches(matches: list[dict]):
+    """Display organization manifest matches after conversation results."""
+
+    if not matches:
+        return
+    print("\nOrganization matches")
+    print("=" * 70)
+    for i, entry in enumerate(matches, 1):
+        rel = entry.get("relative_path") or entry.get("path") or "unknown"
+        project = entry.get("project") or "unknown"
+        domain = entry.get("domain") or "unknown"
+        status = entry.get("status") or "unknown"
+        print(f"{i}. {rel}")
+        print(f"   project: {project}  |  domain: {domain}  |  status: {status}")
 
 
 def display_all_domains(conversations: list):
@@ -245,11 +297,14 @@ def main():
         print("Run with --help for all options.")
         return
     
+    organization_matches = search_organization_manifest(args.query, max_results=args.max) if args.query else []
+
     # Output
     if args.json:
-        print(json.dumps(results[:args.max], indent=2, default=str))
+        print(json.dumps({"conversations": results[:args.max], "organization_matches": organization_matches}, indent=2, default=str))
     else:
         display_results(results, max_results=args.max)
+        display_organization_matches(organization_matches)
 
 
 if __name__ == "__main__":

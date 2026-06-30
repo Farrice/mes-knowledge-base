@@ -1,0 +1,23 @@
+{
+ "session_id": "763ee9e0-b375-4b5a-bf22-c6a12629cbfe",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/execution/buyer_trigger_research.py",
+  "/Users/farricecain/Google Antigravity/execution/workflow_router.py",
+  "/Users/farricecain/Google Antigravity/CLAUDE.md",
+  "/Users/farricecain/Google Antigravity/GEMINI.md",
+  "/Users/farricecain/Google Antigravity/execution/verify_codex_authority.py"
+ ],
+ "subagent_spawns": 4,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": false
+}

@@ -73,6 +73,10 @@
       "skill": "authority-hacker-ai-social-media"
     },
     {
+      "command": "/bill-browder",
+      "skill": "bill-browder-high-stakes-narrative"
+    },
+    {
       "command": "/bitbranding-fashion",
       "skill": "bitbranding-fashion-shopify"
     },
@@ -315,6 +319,14 @@
     {
       "command": "/harry-dry",
       "skill": "harry-dry-copywriting"
+    },
+    {
+      "command": "/henry-shukman",
+      "skill": "henry-shukman-contemplative-writing"
+    },
+    {
+      "command": "/how-i",
+      "skill": "how-i-write-os"
     },
     {
       "command": "/internal-comms",
@@ -737,6 +749,10 @@
       "skill": "patrick-debois-cdlc"
     },
     {
+      "command": "/paul-harding",
+      "skill": "paul-harding-lyric-prose"
+    },
+    {
       "command": "/paul-james",
       "skill": "paul-james-ai-automation"
     },
@@ -915,6 +931,10 @@
     {
       "command": "/story-compass",
       "skill": "story-compass"
+    },
+    {
+      "command": "/susan-orlean",
+      "skill": "susan-orlean-narrative-nonfiction"
     },
     {
       "command": "/swarm-commander",

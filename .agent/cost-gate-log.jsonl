@@ -9,3 +9,15 @@
 {"ts": "2026-06-10T01:35:22.995909+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": "python3 execution/deep_research_client.py \"market research\""}
 {"ts": "2026-06-10T01:35:37.611576+00:00", "event": "check", "service": "higgsfield-cinema", "decision": "needs_approval", "request": "test"}
 {"ts": "2026-06-10T01:35:37.712078+00:00", "event": "check", "service": "fal-kling", "decision": "approved", "request": "python3 execution/fal_video_kling.py --image x.png --duration 10"}
+{"ts": "2026-06-29T23:16:10.698934+00:00", "event": "check", "service": "fal-kling", "decision": "denied", "request": "python3 execution/fal_video_kling.py --prompt test"}
+{"ts": "2026-06-30T07:49:35.308750+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T07:49:47.776613+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T08:23:25.823123+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T08:25:21.637871+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T08:26:17.685961+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T08:41:16.435443+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T08:42:13.134557+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T08:43:22.731933+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T15:52:34.787657+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T15:54:14.198413+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-06-30T16:03:00.470797+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}

@@ -1,0 +1,45 @@
+{
+  "title": "NotebookLM Practitioner Prompt Suite",
+  "slug": "notebooklm-practitioner-prompt-suite",
+  "artifact_type": "prompt_pack",
+  "summary": "A reusable NotebookLM prompt suite with 50 prompts: 8 Autopilot Intake launchers plus 42 prompt cards across source control, evidence extraction, synthesis, transformation, visual production, and quality control. Includes Studio custom-prompt starters, feature fallbacks, and a validation harness for source-grounded outputs.",
+  "created": "2026-06-22",
+  "workspace": "/Users/farricecain/Google Antigravity",
+  "primary_file": "notebooklm-practitioner-prompt-suite.md",
+  "source_role": "Local Codex-readable artifact source with sidecar metadata.",
+  "explicitExportRequest": false,
+  "approvedExports": [],
+  "skills_loaded": [
+    "skills/futurepedia-prompt-engineering/SKILL.md",
+    "skills/futurepedia-prompt-engineering/genius.md",
+    "skills/futurepedia-prompt-engineering/workflows/multi-format-content-factory.md",
+    "skills/futurepedia-prompt-engineering/workflows/expert-knowledge-synthesis-engine.md",
+    "skills/futurepedia-prompt-engineering/workflows/interactive-learning-ecosystem-design.md"
+  ],
+  "source_links": [
+    "https://support.google.com/notebooklm/answer/16179559",
+    "https://support.google.com/notebooklm/answer/16215270",
+    "https://support.google.com/notebooklm/answer/16206563",
+    "https://support.google.com/notebooklm/answer/16212283",
+    "https://support.google.com/notebooklm/answer/16958963",
+    "https://support.google.com/notebooklm/answer/16757456",
+    "https://support.google.com/notebooklm/answer/16758265",
+    "https://support.google.com/notebooklm/answer/16212820",
+    "https://support.google.com/notebooklm/answer/16454555",
+    "https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/",
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-deep-research-file-types/",
+    "https://blog.google/innovation-and-ai/models-and-research/google-labs/notebooklm-data-tables/",
+    "https://blog.google/innovation-and-ai/products/notebooklm/generate-your-own-cinematic-video-overviews-in-notebooklm/"
+  ],
+  "validation_targets": [
+    "single clean PDF",
+    "multi-source disagreement",
+    "missing answer",
+    "YouTube transcript",
+    "strategy notebook",
+    "slide deck",
+    "infographic",
+    "data table/chart",
+    "excluded-source test"
+  ]
+}

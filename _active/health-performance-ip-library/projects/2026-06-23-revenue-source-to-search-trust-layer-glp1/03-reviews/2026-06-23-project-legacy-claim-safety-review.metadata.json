@@ -1,0 +1,17 @@
+{
+  "title": "Project Legacy Claim Safety Review",
+  "artifact_type": "adversarial-review",
+  "created": "2026-06-23",
+  "workspace": "/Users/farricecain/Google Antigravity",
+  "project_slug": "2026-06-23-revenue-source-to-search-trust-layer-glp1",
+  "source_files": [
+    "01-offer/2026-06-23-source-to-search-trust-layer-one-page-offer-insert.md",
+    "01-offer/2026-06-23-source-to-search-trust-layer-offer-insert-legacy-draft.md",
+    "02-proof-demo/2026-06-23-glp1-movement-receipt-public-demo.md",
+    "02-proof-demo/2026-06-23-glp1-movement-receipt-proof-demo-legacy-draft.md",
+    "02-proof-demo/2026-06-23-glp1-movement-receipt-5-page-audit-sample.md"
+  ],
+  "status": "internal_review_ready",
+  "publish_boundary": "Internal safety review. Use to prevent duplicated, outdated, or unsafe legacy claims from entering public assets."
+}
+

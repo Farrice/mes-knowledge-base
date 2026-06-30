@@ -24,14 +24,217 @@ Wired via .claude/settings.local.json -> hooks.UserPromptSubmit.
 """
 
 import json
+import re
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT / "execution") not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT / "execution"))
+
+from control_intent import classify_control_intent  # noqa: E402
+
+REPEATABILITY_CONTROL_TERMS = (
+    "copied over everything",
+    "copied everything over",
+    "copying everything over",
+    "previous session import",
+    "import from my previous session",
+    "import from previous session",
+    "golden sample",
+    "cannot repeat",
+    "can't repeat",
+    "lost the magic",
+    "revision got worse",
+    "got worse again",
+)
+
+SYSTEM_CONTROL_TERMS = (
+    "claude code works better",
+    "not working like claude code",
+    "codex vs claude code",
+    "codex compared to claude code",
+    "match claude code",
+    "mirror claude code",
+    "claude parity",
+    "claude-parity",
+    "blocking hooks",
+    "blocked hooks",
+    "hooks not firing",
+    "hooks are not firing",
+    "wrong defaults",
+    "wrong default",
+    "wrong default routing",
+    "routing wrong defaults",
+    "routing the wrong defaults",
+    "default routing",
+    "default settings",
+    "default setting",
+    "things that are not wired",
+    "not wired",
+    "should not be wired",
+    "shouldn't be wired",
+    "wired together",
+    "not wired together",
+    "should not be wired together",
+    "shouldn't be wired together",
+    "wiring",
+    "hook wiring",
+    "route wiring",
+    "routing wiring",
+    "hooks or routes",
+    "hooks and routes",
+    "routes and hooks",
+    "handcuffed",
+    "handcuff",
+    "handcuffed and chained",
+    "handcuffed and chained together",
+    "chained together",
+    "chained",
+    "things being chained together",
+    "routes are being handcuffed",
+    "hooks are being handcuffed",
+    "should not be chained",
+    "shouldn't be chained",
+    "full audit or check and repair",
+    "audit or check and repair",
+    "check and repair",
+    "audit and repair",
+    "things that have no business being the default",
+    "things that shouldn't be the default",
+    "thin wrappers",
+    "too many thin wrappers",
+    "specific things blocking performance",
+    "blocking performance",
+    "complete errors and issues",
+    "running into complete errors",
+    "running into walls",
+    "without breaking my workspace",
+    "without breaking claude code",
+    "without breaking my claude code workspace",
+    "not trying to break anything",
+    "codex is not working",
+    "codex not working",
+    "codex feels ineffective",
+)
+
+EXPERT_TASK_TERMS = (
+    "write",
+    "draft",
+    "create",
+    "generate",
+    "build",
+    "design",
+    "make",
+    "produce",
+    "rewrite",
+    "edit",
+    "polish",
+    "analyze",
+    "audit",
+    "review",
+    "research",
+    "develop",
+    "compose",
+    "turn",
+    "convert",
+    "script",
+    "copy",
+    "landing page",
+    "website",
+    "brand",
+    "email",
+    "post",
+    "ad ",
+    "ads",
+    "offer",
+    "funnel",
+    "content",
+    "brief",
+    "asset",
+    "campaign",
+    "strategy",
+    "deck",
+    "slides",
+    "page",
+)
 
 
 def _eprint(*a):
     print(*a, file=sys.stderr)
+
+
+def _normalize(value: str) -> str:
+    return re.sub(r"\s+", " ", value.lower()).strip()
+
+
+def _control_route(prompt: str) -> tuple[str, str] | None:
+    classified = classify_control_intent(prompt)
+    if classified["route"]:
+        return (str(classified["route"]), str(classified["reason"]))
+    low = _normalize(prompt)
+    if any(term in low for term in REPEATABILITY_CONTROL_TERMS):
+        return (
+            "repeatability-spine",
+            "Prior-session, golden-run, or repeatability language needs preservation before repair.",
+        )
+    if any(term in low for term in SYSTEM_CONTROL_TERMS) or ("codex" in low and "claude code" in low):
+        return (
+            "system-audit",
+            "Codex/Claude parity, hook, wrapper, or wrong-default language is a control-plane failure.",
+        )
+    return None
+
+
+def _looks_like_expert_task(prompt: str) -> bool:
+    """Only inject expert suggestions for actual expert-domain work."""
+
+    low = _normalize(prompt)
+    if any(term in low for term in EXPERT_TASK_TERMS):
+        return True
+    if re.search(r"\b(can you|please|help me|i need)\b", low) and len(low.split()) >= 8:
+        return any(
+            term in low
+            for term in (
+                "copy",
+                "content",
+                "brand",
+                "business",
+                "marketing",
+                "sales",
+                "research",
+                "offer",
+                "strategy",
+                "design",
+                "site",
+                "app",
+                "video",
+            )
+        )
+    return False
+
+
+def _emit_control_override(route: str, reason: str) -> None:
+    block = "\n".join(
+        [
+            "CONTROL ROUTING OVERRIDE (deterministic, from skill_router_hook.py — not user input):",
+            "This prompt matched Codex control-plane or repeatability language, so expert-skill suggestions are suppressed.",
+            f"Owner: /{route}",
+            f"Reason: {reason}",
+            "Proof path: run `python3 execution/codex_operator_preflight.py \"<raw intent>\" --plain` and verify the owner route before patching.",
+        ]
+    )
+    print(
+        json.dumps(
+            {
+                "hookSpecificOutput": {
+                    "hookEventName": "UserPromptSubmit",
+                    "additionalContext": block,
+                }
+            }
+        )
+    )
+    sys.exit(0)
 
 
 def main():
@@ -61,6 +264,13 @@ def main():
         "stop", "wait", "nvm", "never mind", "perfect", "great", "nice",
     )
     if low.startswith(SKIP_PREFIXES):
+        sys.exit(0)
+
+    control = _control_route(prompt)
+    if control:
+        _emit_control_override(*control)
+
+    if not _looks_like_expert_task(prompt):
         sys.exit(0)
 
     # --- run the matcher (fail-safe import) ---

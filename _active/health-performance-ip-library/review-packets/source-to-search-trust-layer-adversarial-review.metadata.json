@@ -1,0 +1,13 @@
+{
+  "title": "Source-to-Search Trust Layer Adversarial Review",
+  "artifact_type": "adversarial_review",
+  "created": "2026-06-23",
+  "workspace": "Google Antigravity",
+  "target_files": [
+    "_active/health-performance-ip-library/public-assets/source-to-search-trust-layer-one-page-offer-insert.md",
+    "_active/health-performance-ip-library/public-assets/glp-1-movement-receipt-public-demo.md",
+    "_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md"
+  ],
+  "verdict": "ship_for_internal_review_revise_before_public_distribution",
+  "external_export": "none"
+}

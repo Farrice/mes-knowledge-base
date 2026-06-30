@@ -1,0 +1,62 @@
+{
+  "active_project_shape": [
+    "00-start-here",
+    "01-source",
+    "02-research",
+    "03-working-drafts",
+    "04-deliverables",
+    "05-assets",
+    "06-system",
+    "90-exports",
+    "99-archive"
+  ],
+  "ambiguous_policy": "Report to inbox; do not move automatically.",
+  "canonical_project_root": "/Users/farricecain/Google Antigravity/_active/<project-slug>",
+  "domain_taxonomy": [
+    "System",
+    "Creative",
+    "Extraction",
+    "Revenue",
+    "Client",
+    "Research",
+    "Content",
+    "Ops",
+    "Personal"
+  ],
+  "indexed_not_bulk_moved": [
+    ".agent",
+    ".agents",
+    "_system",
+    "agents",
+    "brain",
+    "directives",
+    "docs",
+    "execution",
+    "extractions",
+    "knowledge",
+    "semantic_libraries",
+    "skills"
+  ],
+  "lifecycle_destinations": {
+    "archive": "99-archive",
+    "asset": "05-assets",
+    "deliverable": "04-deliverables",
+    "draft": "03-working-drafts",
+    "export": "90-exports",
+    "research": "02-research",
+    "source": "01-source",
+    "system": "06-system"
+  },
+  "migration_source_roots": [
+    "deliverables",
+    "documents_codex",
+    "research_outputs",
+    "strategy_briefs"
+  ],
+  "owned_roots": [
+    "/Users/farricecain/Google Antigravity",
+    "/Users/farricecain/Documents/Codex"
+  ],
+  "updated_at": "2026-06-30T16:24:01+00:00",
+  "version": 1
+}

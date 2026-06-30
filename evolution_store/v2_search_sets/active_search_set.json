@@ -450,8 +450,456 @@
         "gaming_flag": false
       },
       "notes": "Added revenue-mechanics floor, Preservation Lock, output rubric, intent routing, first-use path, replay sprint, before/after regression suite | platform: codex | Verification: PASS validate_skill, router checks, research_quality_gate, public-post prose checks"
+    },
+    {
+      "trace_id": "20260623_063548",
+      "timestamp": "2026-06-23T06:35:48.878404",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "oren-operational-systems",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Daily brief saved locally, 4 JSONL rows appended, Drive export disabled | platform: codex | Verification: PARTIAL due memory_retrieve google.genai missing; JSONL/export guard local checks pass"
+    },
+    {
+      "trace_id": "20260623_063601",
+      "timestamp": "2026-06-23T06:36:01.189280",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "oren-operational-systems",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after intent_alignment gate: output follows AUTOMATION_PROMPT required sections 1-9, includes complete daily brief in chat-ready local file, appends 4 valid JSONL rows, keeps Drive disabled | platform: codex | Verification: PASS for JSONL and export guard; PARTIAL for chain finalize due Notion DNS"
+    },
+    {
+      "trace_id": "20260623_065948",
+      "timestamp": "2026-06-23T06:59:48.493034",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "oren-operational-systems",
+      "workflow": "health-performance-geo-client-acquisition-upgrade",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Used source-command-convene and source-command-mission locally; upgraded AUTOMATION_PROMPT, SERVICE_LADDER, README, and CLIENT_ACQUISITION_OFFER; mission validation PASS; export guard PASS; Drive disabled; no publishing/outreach/subagents | platform: codex | Verification: PASS local, PARTIAL external Notion if DNS fails"
+    },
+    {
+      "trace_id": "20260623_070001",
+      "timestamp": "2026-06-23T07:00:01.175053",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "oren-operational-systems",
+      "workflow": "health-performance-geo-client-acquisition-upgrade",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after quality gate: artifact-level proof is mission_control validate PASS, export_format_guard PASS, run_receipt written, safety boundaries preserved, Drive disabled, no external writes or subagents. Remaining issue is known api.notion.com DNS plus fixed intent_alignment scoring."
+    },
+    {
+      "trace_id": "20260623_070009",
+      "timestamp": "2026-06-23T07:00:09.045720",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "oren-operational-systems",
+      "workflow": "mission",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Corrective routing receipt after mission binding warning: actual workflow owner was source-command-mission with source-command-convene support. Local proof PASS: mission_control validate, export guard, run receipt, safety grep. External Notion remains blocked by DNS."
+    },
+    {
+      "trace_id": "20260623_091243",
+      "timestamp": "2026-06-23T09:12:43.638649",
+      "schema_version": "v3",
+      "component": "nate-b-jones-orchestration-intelligence",
+      "expert": "nate-b-jones-orchestration-intelligence",
+      "workflow": "source-to-search-trust-layer-review",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Implemented Source-to-Search Trust Layer review packet and active offer-doc integration | platform: codex | Verification: grounding PASS, export guard PASS, content gate WARN on table structure, memory_retrieve degraded"
+    },
+    {
+      "trace_id": "20260624_063536",
+      "timestamp": "2026-06-24T06:35:36.946213",
+      "schema_version": "v3",
+      "component": "oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Daily local-first automation run | platform: codex | Verification: PASS local artifact, JSONL validation, and export guard; Drive disabled; memory_retrieve degraded due missing google.genai"
+    },
+    {
+      "trace_id": "20260624_063605",
+      "timestamp": "2026-06-24T06:36:05.712131",
+      "schema_version": "v3",
+      "component": "oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Health Performance GEO Daily Brief 2026-06-24 | platform: codex | Verification: PASS local brief saved, JSONL valid, export guard passed; PARTIAL external finalize due Notion DNS and scorer intent false negative; Drive disabled"
+    },
+    {
+      "trace_id": "20260624_090011",
+      "timestamp": "2026-06-24T09:00:11.207036",
+      "schema_version": "v3",
+      "component": "source-command-high-taste-os",
+      "expert": "high-taste-writing-os",
+      "workflow": "high-taste-writing-os",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Health Performance GEO automation high-taste upgrade | platform: codex | Verification: PASS local router/enforcer/high-taste verifier/export guard; expected PARTIAL external Notion if DNS unavailable"
+    },
+    {
+      "trace_id": "20260626_064038",
+      "timestamp": "2026-06-26T06:40:38.002010",
+      "schema_version": "v3",
+      "component": "skills/ethan-smith-aeo",
+      "expert": "ethan-smith-aeo",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Peptide Hype Receipt daily brief with FDA/FTC/Google/arXiv/Guardian source spine; local brief saved; weekly synthesis saved; JSONL valid; Drive export disabled | platform: codex | Verification: PASS with prose warning"
+    },
+    {
+      "trace_id": "20260626_064050",
+      "timestamp": "2026-06-26T06:40:50.166866",
+      "schema_version": "v3",
+      "component": "skills/ethan-smith-aeo",
+      "expert": "ethan-smith-aeo",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Second finalize after intent-alignment fail; explicit automation contract summary; local verification passed except prose density warning; Notion DNS unavailable | platform: codex | Verification: PASS/PARTIAL"
+    },
+    {
+      "trace_id": "20260627_063939",
+      "timestamp": "2026-06-27T06:39:39.718605",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 5.0,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Proof-Surface Audit built from FDA/FTC/Google/arXiv/Axios source spine | platform: codex | Verification: PARTIAL - grounding PASS, export guard PASS, JSONL PASS, content_finish_gate failed on required source repetition/table structure, prose classifier warning for parallel report structure"
+    },
+    {
+      "trace_id": "20260627_063957",
+      "timestamp": "2026-06-27T06:39:57.568574",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 5.0,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after verifier receipt update | platform: codex | Verification: PARTIAL - JSONL PASS, export guard PASS, grounding PASS, prose WARNING due table/report structure, content finish gate disagreement on required source-field repetition"
+    },
+    {
+      "trace_id": "20260628_104817",
+      "timestamp": "2026-06-28T10:48:17.146302",
+      "schema_version": "v3",
+      "component": "luke-iha-copy-blocks",
+      "expert": "luke-iha",
+      "workflow": "copy-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "platform: codex | Verification: PASS content_finish_gate, prose_classifier, grounding_guard, DOCX structural check | export_format_guard unavailable in this workspace | Deliverables: two DOCX briefs plus reviewer note"
+    },
+    {
+      "trace_id": "20260630_064033",
+      "timestamp": "2026-06-30T06:40:33.893772",
+      "schema_version": "v3",
+      "component": "skills/oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "farrice-engine",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Recovery Claim Boundary Audit chosen as sellable asset | platform: codex | Verification: PARTIAL - JSONL PASS, grounding PASS, export guard PASS, content finish WARN, prose classifier WARNING"
+    },
+    {
+      "trace_id": "20260630_064052",
+      "timestamp": "2026-06-30T06:40:52.598365",
+      "schema_version": "v3",
+      "component": "skills/oren-operational-systems",
+      "expert": "oren-operational-systems",
+      "workflow": "farrice-engine",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after receipt/style repairs | platform: codex | Verification: PARTIAL - JSONL PASS, grounding PASS, export guard PASS, content finish WARN, prose classifier WARNING, Notion DNS failed"
     }
   ],
-  "total_cases": 16,
-  "last_updated": "2026-06-13T15:06:25.902745"
+  "total_cases": 32,
+  "last_updated": "2026-06-30T06:40:52.599021"
 }

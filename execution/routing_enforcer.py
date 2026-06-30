@@ -34,6 +34,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Any
 
+if str(Path(__file__).parent) not in sys.path:
+    sys.path.insert(0, str(Path(__file__).parent))
+
+from control_intent import classify_control_intent
+
 TRACE_DIR = Path(__file__).parent.parent / "evolution_store" / "traces"
 ROUTING_LOG = TRACE_DIR / "routing_decisions.jsonl"
 
@@ -86,11 +91,110 @@ BINDINGS = [
     {
         "id": "operator_system_audit",
         "signal_phrases": [
+            "claude code works better",
+            "claude code catches my intent",
+            "not working like claude code",
+            "codex vs claude code",
+            "codex compared to claude code",
+            "match claude code",
+            "mirror claude code",
+            "claude parity",
+            "claude-parity",
+            "blocking hooks",
+            "blocked hooks",
+            "codex is blocking hooks",
+            "wrong defaults",
+            "wrong default",
+            "wrong default routing",
+            "routing wrong defaults",
+            "routing the wrong defaults",
+            "default routing",
+            "default settings",
+            "default setting",
+            "things that are not wired",
+            "not wired",
+            "should not be wired",
+            "shouldn't be wired",
+            "wired together",
+            "not wired together",
+            "should not be wired together",
+            "shouldn't be wired together",
+            "wiring",
+            "hook wiring",
+            "route wiring",
+            "routing wiring",
+            "hooks or routes",
+            "hooks and routes",
+            "routes and hooks",
+            "handcuffed",
+            "handcuff",
+            "handcuffed and chained",
+            "handcuffed and chained together",
+            "chained together",
+            "chained",
+            "things being chained together",
+            "routes are being handcuffed",
+            "hooks are being handcuffed",
+            "should not be chained",
+            "shouldn't be chained",
+            "full audit or check and repair",
+            "audit or check and repair",
+            "check and repair",
+            "audit and repair",
+            "things that have no business being the default",
+            "things that shouldn't be the default",
+            "thin wrappers",
+            "too many thin wrappers",
+            "specific things blocking performance",
+            "blocking performance",
+            "complete errors and issues",
+            "running into complete errors",
+            "running into walls",
+            "without breaking my workspace",
+            "without breaking claude code",
+            "without breaking my claude code workspace",
+            "not trying to break anything",
+            "pre-flight did not kick in",
+            "pre flight did not kick in",
+            "preflight did not kick in",
+            "pre-flight didn't kick in",
+            "pre flight didn't kick in",
+            "preflight didn't kick in",
+            "pre-flight things did not kick in",
+            "pre-flight things didn't kick in",
+            "orchestration is not doing its job",
+            "orchestration isn't doing its job",
+            "orchestration not doing its job",
+            "wording not routing",
+            "not routing even when obvious",
+            "not routing even when it is obvious",
+            "routing even when obvious",
+            "routing even when it is obvious",
+            "obvious routing",
+            "have to be so deterministic",
+            "too deterministic",
+            "high cognitive intent",
+            "shooting in the dark",
+            "draining",
+            "painful experience",
             "hooks not firing",
             "hooks are not firing",
             "hooks not running",
             "not firing hooks",
             "codex feels ineffective",
+            "codex is not working",
+            "codex is not working in my workspace",
+            "codex not working",
+            "codex not working in my workspace",
+            "no point in using codex",
+            "using codex in my workspace",
+            "feels like it is not working",
+            "feels like it's not working",
+            "not working at all",
+            "just not working at all",
+            "context issue",
+            "context issue and not usable",
+            "not usable",
             "noisy disjointed",
             "broken harness",
             "control-plane audit",
@@ -166,6 +270,53 @@ BINDINGS = [
     {
         "id": "operator_high_taste_output_os",
         "signal_phrases": [
+            "high-taste plus copy-engine",
+            "high taste plus copy engine",
+            "copy-engine route",
+            "copy engine route",
+            "copy gate",
+            "pass the copy gate",
+            "passes the copy gate",
+            "production-ready scripts that pass",
+            "production ready scripts that pass",
+            "load the pdp and prior brief",
+            "pdp and prior brief",
+            "production-ready paid ad scripts",
+            "production ready paid ad scripts",
+            "client-facing copy",
+            "client ready copy",
+            "client-ready copy",
+            "publishable copy",
+            "ready to send to the recruiter",
+            "ready to send to the client",
+            "recruiter and founder",
+            "founder with no ai slop",
+            "no ai slop",
+            "ai tells",
+            "ai slop",
+            "generic scripts",
+            "generic hooks",
+            "generic and scientific",
+            "sound generic and scientific",
+            "sounds generic and scientific",
+            "paid-ad voiceover",
+            "paid ad voiceover",
+            "spoken ad copy",
+            "recordable as-is",
+            "recordable as is",
+            "vo-only gate",
+            "vo only gate",
+            "stating facts rather than appealing",
+            "stating facts instead of appealing",
+            "human psychology and copywriting",
+            "research word banks",
+            "research word bank",
+            "customer avatar language",
+            "avatar language",
+            "word banks",
+            "word bank",
+            "violates the principles",
+            "violates so many principles",
             "high taste output os",
             "high-taste output os",
             "high taste writing os",
@@ -219,11 +370,36 @@ BINDINGS = [
     {
         "id": "operator_repeatability_spine",
         "signal_phrases": [
+            "standard and floor",
+            "quality floor",
+            "this is the floor",
+            "preserve this",
+            "5 to 6 iterations",
+            "five to six iterations",
+            "iterate 5 to 6 times",
+            "iterate five to six times",
+            "keeps happening",
             "repeatability spine",
             "cannot repeat",
             "can't repeat",
             "lost the magic",
             "revision got worse",
+            "brief gets worse",
+            "brief gets worse and worse",
+            "brief just gets worse",
+            "gets worse and worse",
+            "artifact gets worse",
+            "final version got worse again",
+            "got worse again with the script",
+            "script is just an explanation",
+            "script is explanation",
+            "like notes and not actually copywriting",
+            "not actually copywriting",
+            "notes pretending to be copy",
+            "notes pretending to be copywriting",
+            "one fix breaks something else",
+            "one fix and then something else breaks",
+            "apply one fix and then something else breaks",
             "golden sample",
             "quality bar",
             "reproduce this",
@@ -881,6 +1057,9 @@ BINDINGS = [
         ],
         "negative_signals": [
             "deep research", "research the market", "research this", "comprehensive research",
+            "system audit", "control-plane", "control plane", "hook", "hooks",
+            "route", "routes", "routing", "wired", "wiring", "default settings",
+            "not wired", "handcuffed", "chained together", "source-command-",
         ],
         "mandatory_workflow_any_of": [
             "convene", "collective-genius-council", "council", "roundtable",
@@ -950,6 +1129,20 @@ def check_routing(request: str, chosen_workflow: str) -> Dict[str, Any]:
     }
 
     request_lower = request.lower()
+    classified = classify_control_intent(request)
+    if classified["route"]:
+        mandatory = str(classified["route"])
+        result["binding_matched"] = "control_intent_classifier"
+        result["matched_signal"] = ", ".join(classified["evidence"][:4]) or classified["reason"]
+        result["mandatory_workflow"] = mandatory
+        if chosen_norm != _normalize_workflow(mandatory):
+            result["valid"] = False
+            result["violation_reason"] = (
+                f"Control-intent classifier routes this request to '{mandatory}', got '{chosen_norm}'. "
+                f"Reason: {classified['reason']}"
+            )
+        return result
+
     for binding in BINDINGS:
         matched_signal = _request_hits_signal(request, binding["signal_phrases"])
         if not matched_signal:
@@ -1115,6 +1308,7 @@ def main():
     chk.add_argument("--source", default="cli", help="Caller identifier for trace log (default: cli)")
     chk.add_argument("--override", default=None, help="Override flag the model invoked (e.g. --no-ground)")
     chk.add_argument("--quiet", action="store_true", help="Only print on violation; exit non-zero on invalid")
+    chk.add_argument("--no-log", action="store_true", help="Validate without writing routing decision traces or memory")
 
     sub.add_parser("list", help="Print all mandatory bindings as JSON")
 
@@ -1122,7 +1316,8 @@ def main():
 
     if args.command == "check":
         result = check_routing(args.request, args.workflow)
-        log_decision(args.request, args.workflow, result, source=args.source, override_used=args.override)
+        if not args.no_log:
+            log_decision(args.request, args.workflow, result, source=args.source, override_used=args.override)
         if not result["valid"]:
             print(json.dumps(result, indent=2))
             sys.exit(2)  # Non-zero exit on violation

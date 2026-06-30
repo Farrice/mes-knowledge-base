@@ -1,0 +1,43 @@
+{
+  "trace_id": "20260623_120914",
+  "timestamp": "2026-06-23T12:09:14.804580",
+  "schema_version": "v3",
+  "component": "lara-acosta-linkedin-mastery",
+  "operation": "chain_finalize",
+  "expert": "lara-acosta-linkedin-mastery",
+  "workflow": "linkedin-daily-quality-content-recommend",
+  "quality": {
+    "composite": 7.25,
+    "intent_alignment": 7.25,
+    "expert_standard": 7.25,
+    "adversarial_resilience": 7.25,
+    "factual_grounding": 0.0
+  },
+  "reasoning": {
+    "hypothesis": "",
+    "variant_diff": "",
+    "reasoning_chain": [],
+    "failure_signals": []
+  },
+  "evaluation": {
+    "benchmark_tasks": [],
+    "held_out_score": 0.0,
+    "held_out_delta": 0.0,
+    "gaming_flag": false
+  },
+  "token_estimate": 0,
+  "notes": "Built 5-page GLP-1 audit sample, LinkedIn creative brief system, and legacy claim-safety review inside project folder | platform: codex | Verification: PASS with content_finish_gate WARN for list-heavy planning artifacts; memory_retrieve degraded: google.genai missing",
+  "context": {
+    "output": "Source-to-Search GLP-1 audit sample and LinkedIn content sprint",
+    "task_type": "Strategy",
+    "experiment_tag": "",
+    "regression": {
+      "error": "HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/31f49875a89781dbb599dee5e7961b5c/query (Caused by NameResolutionError(\"HTTPSConnection(host='api.notion.com', port=443): Failed to resolve 'api.notion.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "message": "Regression check failed: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/31f49875a89781dbb599dee5e7961b5c/query (Caused by NameResolutionError(\"HTTPSConnection(host='api.notion.com', port=443): Failed to resolve 'api.notion.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "telemetry": {
+      "sub_agents_spawned": 0
+    }
+  },
+  "is_failure": false
+}

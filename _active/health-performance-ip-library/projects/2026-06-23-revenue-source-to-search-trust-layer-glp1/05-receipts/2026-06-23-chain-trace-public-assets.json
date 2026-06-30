@@ -1,0 +1,43 @@
+{
+  "trace_id": "20260623_094101",
+  "timestamp": "2026-06-23T09:41:01.956728",
+  "schema_version": "v3",
+  "component": "nate-b-jones-trust-architecture",
+  "operation": "chain_finalize",
+  "expert": "nate-b-jones-trust-architecture",
+  "workflow": "source-to-search-trust-layer",
+  "quality": {
+    "composite": 7.25,
+    "intent_alignment": 7.25,
+    "expert_standard": 7.25,
+    "adversarial_resilience": 7.25,
+    "factual_grounding": 0.0
+  },
+  "reasoning": {
+    "hypothesis": "",
+    "variant_diff": "",
+    "reasoning_chain": [],
+    "failure_signals": []
+  },
+  "evaluation": {
+    "benchmark_tasks": [],
+    "held_out_score": 0.0,
+    "held_out_delta": 0.0,
+    "gaming_flag": false
+  },
+  "token_estimate": 0,
+  "notes": "Created three local artifacts; public retrieval language hardened; GLP-1 claims labeled VERIFIED/LIKELY/UNCONFIRMED; no external writes or subagents; Verification: content_finish_gate CLEAN/WARN only, grounding_guard PASS, export_format_guard PASS, JSON valid.",
+  "context": {
+    "output": "Created Source-to-Search one-page offer insert, GLP-1 Movement Receipt public demo asset, and adversarial review for health-performance GEO offer alignment",
+    "task_type": "Strategy",
+    "experiment_tag": "",
+    "regression": {
+      "error": "HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/31f49875a89781dbb599dee5e7961b5c/query (Caused by NameResolutionError(\"HTTPSConnection(host='api.notion.com', port=443): Failed to resolve 'api.notion.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "message": "Regression check failed: HTTPSConnectionPool(host='api.notion.com', port=443): Max retries exceeded with url: /v1/databases/31f49875a89781dbb599dee5e7961b5c/query (Caused by NameResolutionError(\"HTTPSConnection(host='api.notion.com', port=443): Failed to resolve 'api.notion.com' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    "telemetry": {
+      "sub_agents_spawned": 0
+    }
+  },
+  "is_failure": false
+}

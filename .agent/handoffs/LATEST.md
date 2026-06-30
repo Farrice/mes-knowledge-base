@@ -1,29 +1,28 @@
 # Latest Handoff
 
-**Thread:** linkedin-daily  
-**Full path:** .agent/handoffs/2026-06-23-ai-slop-newsjack.md  
-**Date:** 2026-06-23 (today)  
-**Status:** blocked  
-**Title:** 2026-06-23 · LinkedIn Daily — "AI slop" CMO newsjack (HALT, awaiting raw take)
+**Thread:** farrice-engine  
+**Full path:** .agent/handoffs/2026-06-30-farrice-engine.md  
+**Date:** 2026-06-30 (today)  
+**Status:** active  
+**Title:** Retried Health Performance GEO Daily Brief for 2026-06-30 after hard-pattern style repairs and receipt update. Deliverable includes complete required brief sections, ready-to-deploy content, 45-minute sprint, acquisition scorecard, local save, and JSONL capture. Google Drive export disabled.
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume linkedin-daily` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume farrice-engine` for this one.
 
 ---
-thread: linkedin-daily
-status: blocked
-resume_hint: 2026-06-23 · LinkedIn Daily — "AI slop" CMO newsjack (HALT, awaiting raw take)
-unfinished: Awaiting Farrice raw take before the cook (§7); HALT mode, no --auto
-branch: main
+
+---
+thread: farrice-engine
+status: active
+resume_hint: Retried Health Performance GEO Daily Brief for 2026-06-30 after hard-pattern style repairs and receipt update. Deliverable includes complete required brief sections, ready-to-deploy content, 45-minute sprint, acquisition scorecard, local save, and JSONL capture. Google Drive export disabled.
+branch: repair/codex-harness-restore
 pin: true
 ---
 
-# 2026-06-23 · LinkedIn Daily — "AI slop" CMO newsjack (HALT, awaiting raw take)
+# Retried Health Performance GEO Daily Brief for 2026-06-30 after hard-pattern style repairs and receipt update. Deliverable includes complete required brief sections, ready-to-deploy content, 45-minute sprint, acquisition scorecard, local save, and JSONL capture. Google Drive export disabled.
 
-**Pointer:** `_active/linkedin-launch/daily/briefing-2026-06-23.md`
+**Pointer:** `_active/health-performance-ip-library/daily/2026-06-30-health-performance-geo-brief.md`
 
-**Next session focus**: Awaiting Farrice's raw take before the cook (§7). HALT mode — no `--auto`. Pick opportunity #1 (Samsung "AI slop" CMO newsjack, top pick) or another from the 5-opportunity menu, drop a voice note / bullets / one strong sentence, then cook 3 Parallax variants threaded on the Cognitive Signature → prose-doctor + fact-verifier → ship one.
+**Next session focus**: Resume the `farrice-engine` work-stream — see the deliverable above.
 
-Engine: `/linkedin-daily` v2 + `/depth-social` + `/recommend`. Research sprint complete ($0, receipts in §9). Briefing + 5-opportunity menu delivered; cook held at HALT.
+_Auto-pinned by chain_runner.finalize (farrice-engine)._
 

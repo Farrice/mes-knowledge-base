@@ -381,3 +381,153 @@
     "monthly"
   ]
 }
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-23.md",
+        "traces_24h": 15,
+        "routing_decisions_24h": 135,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-24.md",
+        "traces_24h": 16,
+        "routing_decisions_24h": 45,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4
+      }
+    },
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-06-24.json",
+        "skills_tracked": 25,
+        "degrading_count": 1,
+        "degrading_skills": [
+          "lara-acosta-linkedin-mastery"
+        ],
+        "improving_count": 1,
+        "improving_skills": [
+          "oren-operational-systems"
+        ]
+      }
+    }
+  ],
+  "skipped": [
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-25.md",
+        "traces_24h": 5,
+        "routing_decisions_24h": 8,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [],
+  "skipped": [
+    "daily",
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-27.md",
+        "traces_24h": 2,
+        "routing_decisions_24h": 3,
+        "queued_phase2": 6,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 6
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-28.md",
+        "traces_24h": 0,
+        "routing_decisions_24h": 0,
+        "queued_phase2": 6,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 6
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-06-29.md",
+        "traces_24h": 3,
+        "routing_decisions_24h": 5,
+        "queued_phase2": 4,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 4
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}
+{
+  "ran": [],
+  "skipped": [
+    "daily",
+    "weekly",
+    "monthly"
+  ]
+}

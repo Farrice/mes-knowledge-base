@@ -1,0 +1,25 @@
+{
+  "title": "GLP-1 Movement Receipt: 5-Page Audit Sample",
+  "artifact_type": "audit-sample",
+  "created": "2026-06-23",
+  "workspace": "/Users/farricecain/Google Antigravity",
+  "project_slug": "2026-06-23-revenue-source-to-search-trust-layer-glp1",
+  "source_files": [
+    "02-proof-demo/2026-06-23-glp1-movement-receipt-public-demo.md",
+    "01-offer/2026-06-23-source-to-search-trust-layer-one-page-offer-insert.md",
+    "03-reviews/2026-06-23-source-to-search-trust-layer-adversarial-review.md"
+  ],
+  "web_sources": [
+    "https://pendulumlife.com/products/glp-1-probiotic",
+    "https://www.codeage.com/products/glp-1-probiotic",
+    "https://www.smoothieking.com/menu/glp-1-support",
+    "https://www.oikosyogurt.com/",
+    "https://www.vitalpursuit.com/",
+    "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements",
+    "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide"
+  ],
+  "status": "internal_review_ready",
+  "publish_boundary": "Sample marketing audit only. Not legal, medical, regulatory, or nutrition advice. No live AI-search citation test was run."
+}
+

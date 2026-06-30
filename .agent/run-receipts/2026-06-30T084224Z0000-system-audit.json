@@ -1,0 +1,19 @@
+{
+  "schema_version": "run-receipt/v2",
+  "timestamp": "2026-06-30T08:42:24+00:00",
+  "query": "Codex routing/wiring parity repair plan",
+  "route": "system-audit",
+  "status": "PASS",
+  "owner": "system-audit",
+  "support_gates": "health-check,routing-intelligence,repeatability-spine",
+  "expert_lenses": "",
+  "subagent_boundary": "No real Codex subagents used; main thread owned edits and verification",
+  "meta_intent": "operating-alignment",
+  "composition_owner": "system-audit",
+  "feedback_hook": "exact complaint family probes in verify_codex_claude_parity.py and verify_google_operator_core.py",
+  "changed": "Added no-log routing checks, tightened control-intent preflight, updated Google autopilot contract, added missing workflow aliases, aligned registry verifier with archived-skill policy",
+  "passed": "verify_codex_claude_parity.py; verify_google_operator_core.py; verify_system.py --errors-only reported 0 errors; run_receipt.py --verify; py_compile",
+  "failed": "verify_system.py still exits 2 because 715 legacy warnings remain, but hard errors are zero",
+  "needs_judgment": "Behavior parity repair completed Google-local without touching .claude, ~/.codex, or Codex Antigravity",
+  "next_action": "Leave legacy verify_system warnings as a separate cleanup backlog unless they affect routing or hook behavior"
+}
