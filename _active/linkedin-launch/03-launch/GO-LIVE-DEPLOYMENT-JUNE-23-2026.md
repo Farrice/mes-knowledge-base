@@ -47,7 +47,7 @@
 
 **Post #1: The Anchor (launch at 8:30am PT)**
 
-- [ ] Copy post body from: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/QUICK_REFERENCE_COPYPASTE.md` → "Post 1"
+- [ ] Copy post body from: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/QUICK_REFERENCE_COPYPASTE.md` → "Post 1"
 - [ ] **Posting checklist:**
   - [ ] Native text (not image/link preview)
   - [ ] Hook visible in preview (first 2 lines)
@@ -170,15 +170,15 @@ Track in `SIGNAL-DETECTION-QUICK-REF.md`:
 
 | Task | File |
 |------|------|
-| **Post copy + engagement targets** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/QUICK_REFERENCE_COPYPASTE.md` |
-| **Full deployment strategy + visuals** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/DEPLOYMENT_SEQUENCE_2026-06-23.md` |
-| **Featured section setup (30–45 min)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/FEATURED-SECTION-LAUNCH-TODAY.md` |
-| **Featured section copy (ready to paste)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/FEATURED-SECTION-EXACT-COPY.md` |
-| **Unified 4-pillar offer brief** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief.md` |
-| **One-pager (send to prospects)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/unified-offer-brief-one-pager.md` |
-| **Daily motion + teardown cadence** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md` |
-| **First week step-by-step** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md` |
-| **Signal tracking** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/SIGNAL-DETECTION-QUICK-REF.md` |
+| **Post copy + engagement targets** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/QUICK_REFERENCE_COPYPASTE.md` |
+| **Full deployment strategy + visuals** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/DEPLOYMENT_SEQUENCE_2026-06-23.md` |
+| **Featured section setup (30–45 min)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/FEATURED-SECTION-LAUNCH-TODAY.md` |
+| **Featured section copy (ready to paste)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/FEATURED-SECTION-EXACT-COPY.md` |
+| **Unified 4-pillar offer brief** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief.md` |
+| **One-pager (send to prospects)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md` |
+| **Daily motion + teardown cadence** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md` |
+| **First week step-by-step** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md` |
+| **Signal tracking** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/SIGNAL-DETECTION-QUICK-REF.md` |
 
 ---
 

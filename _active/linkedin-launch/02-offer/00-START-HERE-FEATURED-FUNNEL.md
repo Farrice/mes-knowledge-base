@@ -210,7 +210,7 @@ Refer to:
 └── FEATURED-SECTION-REFERENCE-CARD.txt (checklist)
 ```
 
-All in: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/`
+All in: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/`
 
 ---
 

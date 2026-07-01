@@ -211,7 +211,7 @@ All three documents live in:
 4. `UNIFIED-OFFER-INDEX.md` — This file
 
 **Original source documents (preserved for reference):**
-- `_active/linkedin-launch/offers/OFFER-LADDER.md`
+- `_active/linkedin-launch/02-offer/OFFER-LADDER.md`
 - `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md`
 
 ---

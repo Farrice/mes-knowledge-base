@@ -214,7 +214,7 @@ By end of Week 1, you'll have the system running. Month 1, you'll have first pro
 ## Questions or Iterations?
 
 If you find gaps or want to iterate on this playbook:
-- Log to `_active/linkedin-launch/performance-log.md` (what worked, what didn't).
+- Log to `_active/linkedin-launch/06-automation/daily/performance-log.md` (what worked, what didn't).
 - Or update directly in these files (they're documents, not code).
 - The playbook is meant to evolve as you learn what works with your ICP + beachhead.
 

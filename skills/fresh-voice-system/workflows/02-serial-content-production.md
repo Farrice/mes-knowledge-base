@@ -23,7 +23,7 @@ You combine:
 
 ## Input Required
 
-1. **[ARC PLAN]**: The completed arc plan from Workflow 01 (or from `_active/linkedin-launch/arcs/[arc-name]/arc-plan.md`)
+1. **[ARC PLAN]**: The completed arc plan from Workflow 01 (or from `_active/linkedin-launch/04-content-os/arcs/[arc-name]/arc-plan.md`)
 2. **[CHAPTER NUMBERS]**: Which chapters to produce in this batch (e.g., "chapters 1-3")
 3. **[PREVIOUS CHAPTERS]** (if applicable): Already-written chapters in this arc, for continuity
 4. **[PERSONAL CONTEXT]** (optional): Any specific stories, memories, or details Fresh wants woven into these chapters. The more specific and real, the better.
@@ -160,7 +160,7 @@ Each chapter delivered as a separate file:
 - **Next chapter setup**: [What ch[N+1] needs to address]
 ```
 
-Save to: `_active/linkedin-launch/arcs/[arc-name]/ch[NN]-[slug].md`
+Save to: `_active/linkedin-launch/04-content-os/arcs/[arc-name]/ch[NN]-[slug].md`
 
 ---
 

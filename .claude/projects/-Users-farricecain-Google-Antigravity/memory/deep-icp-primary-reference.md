@@ -4,7 +4,7 @@ description: "The Invisible Expert" Deep ICP Profile (McRaney Deep Canvassing + 
 type: reference
 ---
 
-The Deep ICP Profile at `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` is the primary ICP reference document for The Authority Sprint / authority-building content service.
+The Deep ICP Profile at `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` is the primary ICP reference document for The Authority Sprint / authority-building content service.
 
 **Key insights that must inform ALL content and messaging:**
 

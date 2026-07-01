@@ -231,7 +231,7 @@ Update pricing, positioning language, and messaging based on what the market res
 - **Usage Guide**: `/Users/farricecain/Google Antigravity/_active/unified-offer-brief-usage-guide.md` (this file)
 
 Original source documents (preserved for reference):
-- `_active/linkedin-launch/offers/OFFER-LADDER.md` (proof-first, creative-led)
+- `_active/linkedin-launch/02-offer/OFFER-LADDER.md` (proof-first, creative-led)
 - `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md` (claim-safety, GEO-readiness)
 
 ---

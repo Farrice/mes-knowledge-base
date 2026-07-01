@@ -162,7 +162,7 @@ Both tracks follow the same ladder (per `OFFER-LADDER.md`). The fork is at the *
 - [ ] Publish teardown (public post + Elite Magnet DM). Log to `pipeline.md` (brand, stage) + `proof-tracker.md` (date, link).
 - [ ] Scan `performance-log.md` + LinkedIn notifications for decision-maker signal. Tag any new "warmed" leads.
 - [ ] Update `pipeline.md`: move leads by stage. Flag any "dm'd" that need a 5-day warm-up comment.
-- [ ] Read `_active/linkedin-launch/MASTER-STRATEGY.md`. Confirm beachhead/lane is still the priority. If drift → run `repoint`.
+- [ ] Read `_active/linkedin-launch/01-research/MASTER-STRATEGY.md`. Confirm beachhead/lane is still the priority. If drift → run `repoint`.
 
 ## Daily (Mon–Fri)
 - [ ] Post 1x via `/linkedin-daily` (9–10am ET).

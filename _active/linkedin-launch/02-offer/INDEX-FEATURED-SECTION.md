@@ -2,7 +2,7 @@
 
 ## 📍 Where Everything Lives
 
-All files in: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/offers/`
+All files in: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/`
 
 ---
 

@@ -1,7 +1,7 @@
 # CANONICAL OFFER BRIEF — Farrice Cain
 ## The credible body-expert who makes health brands the source AI search names — and whose claims survive scrutiny
 
-> **STATUS: CANONICAL. This document SUPERSEDES `_active/linkedin-launch/offers/OFFER-LADDER.md` and `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md`.** Where either of those conflicts with this brief — on naming, pricing, ladder structure, or language — this brief wins. The two predecessors are archived as source material, not live offer docs.
+> **STATUS: CANONICAL. This document SUPERSEDES `_active/linkedin-launch/02-offer/OFFER-LADDER.md` and `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md`.** Where either of those conflicts with this brief — on naming, pricing, ladder structure, or language — this brief wins. The two predecessors are archived as source material, not live offer docs.
 >
 > **Built 2026-06-23** · Unifies both prior ladders into one. Grounded in `research/MARKET-ICP-DOSSIER-2026-06.md` (the single source of buyer truth). GEO/SEO method substance pulled from `skills/ethan-smith-aeo/` and `skills/nathan-gotch-ai-seo/`.
 >

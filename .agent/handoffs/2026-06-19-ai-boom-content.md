@@ -18,10 +18,10 @@ pin: false
 1. **Trend intelligence** → `strategy_briefs/Trend_Report_AI-Agentic-x-Wellness.md`
    3-track live research (macro / vertical / community pain). Confirmed shadow market: **"AI-assisted but trust-defensible."** Core thesis = the **funnel bifurcation** (AI commoditizes discovery, makes the human trust-layer the scarce asset).
 
-2. **Post-ready content package** → `_active/linkedin-launch/ai-boom-content-package.md`
+2. **Post-ready content package** → `_active/linkedin-launch/04-content-os/ai-boom-content-package.md`
    2 LinkedIn long-form + newsletter edition (w/ the **Funnel Bifurcation Audit** tangible asset) + audio adaptation + posting sequence. **Farrice verdict: ship-as-is.** Survived prose-doctor (14 AI-tells cut) + fact-verifier (1 fabrication caught & removed; all 5W stats verified vs primary source).
 
-3. **The recipe, documented** → `_active/linkedin-launch/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md`
+3. **The recipe, documented** → `_active/linkedin-launch/04-content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md`
    The honest mechanism: `scaffold × parallel-depth × expert-lens × voice-rules × dual-QA`.
 
 4. **New reusable command** → `/quality-content`

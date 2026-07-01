@@ -7,11 +7,11 @@ description: Farrice's health/wellness/performance CONTENT OS — one front door
 One command so you never chain workflows by hand. It loads the OS + the buyer truth + the voice law every run, points at the evergreen **Content OS**, and produces edu-first, value-first content that builds audience, authority, and pipeline from zero. **The spine is adjudication** — you settle the category's live fights out loud from inside 18 yrs credentialed physiology; edutainment is the delivery, never the topic. The offer is **earned by the work**, surfaced softly (`--cta`, ~1-in-5), never on every post.
 
 > **Always-loaded source of truth (read these every run):**
-> - `_active/linkedin-launch/content-os/CONTENT-OS.md` — the master doc (the 3 functions, the signature template, the 8 blends, the edutainment/aha/psychology stack, the playbook, the cadence)
-> - `_active/linkedin-launch/research/CONTENT-DOMINATION-RESEARCH.md` — the thesis + build spec (what's working, the gap, the blend map, the formula, the jacking protocol)
-> - `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md` — the buyer (avatars, fears, VoC, labeled facts)
-> - `_active/farrice-brand/CLAUDE.md` + `_active/linkedin-launch/voice-gate.md` — the voice law (banned MOVES, pass/fail)
-> - `_active/linkedin-launch/daily/performance-log.md` — rotation (never repeat a hook format/close/pillar inside 7 days)
+> - `_active/linkedin-launch/04-content-os/CONTENT-OS.md` — the master doc (the 3 functions, the signature template, the 8 blends, the edutainment/aha/psychology stack, the playbook, the cadence)
+> - `_active/linkedin-launch/01-research/CONTENT-DOMINATION-RESEARCH.md` — the thesis + build spec (what's working, the gap, the blend map, the formula, the jacking protocol)
+> - `_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md` — the buyer (avatars, fears, VoC, labeled facts)
+> - `_active/farrice-brand/CLAUDE.md` + `_active/linkedin-launch/04-content-os/voice-gate.md` — the voice law (banned MOVES, pass/fail)
+> - `_active/linkedin-launch/06-automation/daily/performance-log.md` — rotation (never repeat a hook format/close/pillar inside 7 days)
 >
 > **SUPERSEDES** the old offer-coupled `content-engine/CONTENT-ENGINE.md` + the always-on `DM "AUDIT"` bridge. Value-first is the default; the offer is a toggle.
 
@@ -43,7 +43,7 @@ One command so you never chain workflows by hand. It loads the OS + the buyer tr
 Edu-led, direct, adjudicating. **Entertainment is tone, not topic** — for this audience, entertainment-LED hooks underperform ~20%; the adjudication framing IS the entertainment. Never growth-hacker/influencer energy (the buyer winces). The PRIMARY blend is **Due-Diligence Teardown** (Thesis/Bull/Bear/Verdict/Receipt — buyer-native AND GEO-citable); gaming/anime/parenting are ~1-in-4 seasoning, fluent-or-absent (the Expertise Constraint: never bend a format you can't fill with world-class substance). Every post hands a tangible GET and resolves one of the buyer's 5 fears, said better than they could say it.
 
 ## THE SIGNATURE POST (the default cook)
-**"The Physiology Misconception Correction"** — the one shape that is the edutainment engine, the aha engine, AND the AI-citation engine at once. 5-layer stack: **Stakes opener** (a real person did everything right, the floor moved) → **Big Question** (curiosity gap: predict, can't guess) → **Head-Fake accommodation surprise** (the corrected mechanism; "Oh!" not "Huh?"; surprise + relevance + safety) → **Face-Saving belief shift** ("I used to think X. Then I realized Y. Now I understand Z") → **Restraint-Cut close** (the GET, recognition close, stop). Two modes: evergreen (correct a held myth) + newsjack (correct a viral study/AI answer/brand claim in the 48-hr window). Full skeleton + 2 walk-throughs: `content-os/content-creation-system.md` §1.
+**"The Physiology Misconception Correction"** — the one shape that is the edutainment engine, the aha engine, AND the AI-citation engine at once. 5-layer stack: **Stakes opener** (a real person did everything right, the floor moved) → **Big Question** (curiosity gap: predict, can't guess) → **Head-Fake accommodation surprise** (the corrected mechanism; "Oh!" not "Huh?"; surprise + relevance + safety) → **Face-Saving belief shift** ("I used to think X. Then I realized Y. Now I understand Z") → **Restraint-Cut close** (the GET, recognition close, stop). Two modes: evergreen (correct a held myth) + newsjack (correct a viral study/AI answer/brand claim in the 48-hr window). Full skeleton + 2 walk-throughs: `04-content-os/content-creation-system.md` §1.
 
 ---
 
@@ -63,18 +63,18 @@ Run the matching OS part: `--research` = PART 1 (the 48-hr-lag beat scan + the g
 
 ## MODE: --rebuild (regenerate the OS)
 Quarterly / on a positioning shift. **Don't rebuild what's working — extend it.** Two stages via the Workflow tool (this is how the OS was built 2026-06-23):
-1. **Research** → `research/CONTENT-DOMINATION-RESEARCH.md` (4 streams: domain topics · what's-working landscape · niche-blends/adjacent-trends · edutainment/aha/psychology/jacking mechanics → synthesis). Review before building.
-2. **Build** → `content-os/` (content-creation-system + social-playbook + 5 pillars of edu-first exemplars + CONTENT-OS.md + starter-content-batch.md). Compose the named experts (kobi-brown/aha-engine, kallaway, david-mcraney, diandra-escobar, nicolas-cole, lara-acosta, tim-danilov, shaan-puri). Pillar/exemplar agents must use a Write-capable agent (default workflow agent — NOT master-copywriter/adversarial-reviewer, which lack Write). Adversarial caliber + edu-first QA on exemplars; rewrite below the 8/10 bar.
+1. **Research** → `01-research/CONTENT-DOMINATION-RESEARCH.md` (4 streams: domain topics · what's-working landscape · niche-blends/adjacent-trends · edutainment/aha/psychology/jacking mechanics → synthesis). Review before building.
+2. **Build** → `04-content-os/` (content-creation-system + social-playbook + 5 pillars of edu-first exemplars + CONTENT-OS.md + starter-content-batch.md). Compose the named experts (kobi-brown/aha-engine, kallaway, david-mcraney, diandra-escobar, nicolas-cole, lara-acosta, tim-danilov, shaan-puri). Pillar/exemplar agents must use a Write-capable agent (default workflow agent — NOT master-copywriter/adversarial-reviewer, which lack Write). Adversarial caliber + edu-first QA on exemplars; rewrite below the 8/10 bar.
 
 ---
 
 ## Output files
 ```
-_active/linkedin-launch/content-os/CONTENT-OS.md              # the master OS (rebuilt on --rebuild)
-_active/linkedin-launch/content-os/content-creation-system.md # the signature template + blends + stack
-_active/linkedin-launch/content-os/social-playbook.md         # distribution + newsjack + grid + repurpose
-_active/linkedin-launch/content-os/starter-content-batch.md   # the cooked exemplar batch
-_active/linkedin-launch/daily/performance-log.md              # rolling ratchet (append)
+_active/linkedin-launch/04-content-os/CONTENT-OS.md              # the master OS (rebuilt on --rebuild)
+_active/linkedin-launch/04-content-os/content-creation-system.md # the signature template + blends + stack
+_active/linkedin-launch/04-content-os/social-playbook.md         # distribution + newsjack + grid + repurpose
+_active/linkedin-launch/04-content-os/starter-content-batch.md   # the cooked exemplar batch
+_active/linkedin-launch/06-automation/daily/performance-log.md              # rolling ratchet (append)
 ```
 
 ## Error handling

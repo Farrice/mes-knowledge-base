@@ -1,10 +1,10 @@
 # Health Performance GEO Client Acquisition Engine
 
-Version: 3.2
+Version: 3.3 Content-First
 Owner: Oren Operational Systems
 Quality wrapper: source-command-high-taste-os / high-taste-writing-os
 Primary specialist: Ethan Smith AEO
-Supporting specialists: Nathan Gotch AI SEO, Jessica Jensen Platform Intelligence, Kallaway AI Content Engine, Alex Copper Creative Strategy, Luke Iha Creative Strategy, Nicolas Cole Client Acquisition, Harry Dry Copy Evaluation, Diandra LinkedIn Growth, Futurepedia Prompt Engineering
+Supporting specialists: Story Compass, Luke Iha Insight Vectors, Luke Iha Copy Blocks, Nathan Gotch AI SEO, Jessica Jensen Platform Intelligence, Kallaway AI Content Engine, Alex Copper Creative Strategy, Luke Iha Creative Strategy, Nicolas Cole Client Acquisition, Harry Dry Copy Evaluation, Diandra LinkedIn Growth, Futurepedia Prompt Engineering
 
 ## Objective
 
@@ -14,18 +14,22 @@ The job is to help Farrice publish high-captivation, educational, perspective-ch
 
 "He understands the market, the buyer, the claim risk, the content angle, and the AI-search opportunity better than we do."
 
-The daily job is not only to summarize trends. It must climb the ladder:
+The daily job is not to summarize trends. It is to ignite useful content.
 
-1. Social listening and source truth
-2. Claim and source-quality audit
-3. Zeitgeist and buyer-language read
-4. SEO/AEO/GEO retrieval opportunity
-5. Creative strategy and copy angle
-6. Productized audit, ghostwriting, or creative strategy offer bridge
-7. Multi-platform content package, especially LinkedIn
-8. Personal anecdote prompt
-9. Source-to-Search Trust Layer opportunity
-10. Reusable IP ledger entry
+Research proves the insight; it does not lead the brief.
+
+Every run must climb this ladder in this order:
+
+1. Pick one human-readable content thesis.
+2. Build a Story Compass: `Farrice/the buyer wanted ___, but ___, until ___.`
+3. Create a Mind-Juice Block: scene, tension, punch line, personal spin prompts, and five raw takes Farrice could riff on.
+4. Produce usable content assets first: LinkedIn post, carousel outline, short video script, teardown prompt, and DM angle.
+5. Add the proof spine needed to keep the content safe.
+6. Add the GEO/AEO layer only after the content angle is clear.
+7. Bridge into the smallest sellable audit, snapshot, or proof asset.
+8. Capture JSONL insight rows and verification receipts.
+
+If the run cannot produce one angle Farrice could immediately talk about, the run is `DEGRADED` no matter how much research it found.
 
 ## Client Acquisition Thesis
 
@@ -44,6 +48,76 @@ Default offer language:
 
 "I help health, wellness, supplement, and performance brands turn claims, buyer questions, and founder judgment into source-backed content humans trust and AI search can retrieve."
 
+## Content-First Governor
+
+The automation is a content ignition engine before it is a research report.
+
+### Meta-Prompt Angle Selection
+
+Before writing the brief, generate 12 possible angles from today's sources.
+Score each angle from 0-5 on:
+
+- Can Farrice immediately talk about this?
+- Is there a visual scene?
+- Is there a buyer tension?
+- Is there a sharp belief shift?
+- Can it become a post, teardown, audit, or offer today?
+
+Pick the single highest-juice angle. Discard the rest unless they directly
+support the winner. Do not build a multi-signal report when one angle has
+enough content gravity.
+
+### Skill Order
+
+Use this order before drafting the saved brief:
+
+1. **Story Compass as Position 0**: prevent topic-shaped reporting by forcing
+   Want -> Tension -> Change.
+2. **Luke Iha Insight Vectors**: create the aha before writing copy.
+3. **Luke Iha Copy Blocks**: turn the aha into hooks, posts, proof, and offer
+   movement.
+4. **Source Truth and GEO/AEO**: prove, qualify, and retrieve the insight after
+   the content spark exists.
+
+JARVIS or plugin routing may be named as a routing label only unless callable
+JCC tools are exposed in the current session.
+
+### Reader-Level Gate
+
+Target: smart human, not analyst.
+
+Reading feel: sharp, concrete, low-jargon, founder-readable.
+
+Required test: the first 300 words of the saved brief must contain:
+
+- one visual scene
+- one tension
+- one turn
+- one line Farrice could say out loud
+
+If the first 300 words are mostly context load, tables, labels, or research
+setup, rewrite the opening before finalizing.
+
+### Plain-English Conversion Rule
+
+Every strategic phrase must either be written in plain English or followed by a
+plain-English version.
+
+Terms like `proof surface`, `source hierarchy`, `caveat survival`,
+`retrieval asset`, `Source-To-Search Trust Layer`, `AEO`, or `GEO` are allowed
+only when they become one of these:
+
+- a usable line
+- a hook
+- a story prompt
+- a teardown move
+- a buyer question
+- a concrete audit row
+- a page or post someone could actually build
+
+If a sentence would not work in a voice memo, it cannot be the main brief
+language. Put dense research phrasing in the proof spine, not in the lead.
+
 ## V4 High-Taste Operating Wrapper
 
 Use `source-command-high-taste-os` as the quality wrapper for every substantial run.
@@ -60,7 +134,7 @@ Changed lines, verified claims, reader pull, specificity, and receipts are proof
 Required calibration:
 
 - Load the V4 golden sample before drafting when available:
-  `_active/linkedin-launch/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
+  `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 - Load the repeatability packet when available:
   `_active/codex-repeatability/v4-high-taste-output-os.md`
 - Preserve the V4 chain:
@@ -221,153 +295,156 @@ Use one integrated output. Expert names are not proof. Evidence of integration i
 
 ## Required Output Shape
 
-### 0. High-Taste Quality Spine
+### 0. Compact Quality Spine
 
-Include a compact quality spine before the Executive Signal Stack:
+Keep this short. Do not let process notes become the opening experience.
 
-- Context load: owner, mode, route proof, golden sample status, and local context used.
-- Reader contract: buyer, mental state, live question, belief shift, action.
-- Human material: scene, wound, buyer anxiety, category stakes, belief shift, proof asset.
-- Claim/proof posture: what is verified, what is likely, what is not claimed.
-- Taste risk: the one place the brief could become flat, over-safe, or generic.
+Include:
 
-### 1. Executive Signal Stack
+- owner, mode, route proof, golden sample status, and local context used
+- the winning angle and why it beat the other candidates
+- source/proof posture: VERIFIED, LIKELY, and UNCONFIRMED
+- Google Drive export status
+- one open risk
 
-Include 3-5 current signals. Each signal must include:
+### 1. The Pick
 
-- Signal
-- Source lane
-- What happened
-- Why it matters
-- Source URL
-- Evidence grade: `VERIFIED`, `LIKELY`, or `UNCONFIRMED`
-- Use status: `Use now`, `Watch`, or `Do not use in public copy yet`
-- Human consequence: the buyer, founder, marketer, or operator pressure this creates
-- Content turn: the non-obvious interpretation Farrice can own
+Open with one sentence naming today's best content angle in plain language.
 
-### 2. Source Quality And Claim Safety Audit
+Required:
 
-For every source-backed claim, state:
+- one human-readable thesis
+- one line Farrice could say out loud
+- one buyer or founder who would care today
+- one reason this is more useful than the other researched signals
 
-- Claim
-- Source type
-- Evidence grade
-- Public-copy risk
-- Safe wording
-- Unsafe wording to avoid
+No table is allowed before this section.
 
-If a health, supplement, clinical, regulatory, or performance claim lacks strong evidence, it must be labeled `UNCONFIRMED` or omitted from public-ready copy.
+### 2. Why It Has Juice
 
-### 3. AEO/GEO Retrieval Opportunity
+Explain why the pick can become content.
 
-Apply Ethan Smith and Nathan Gotch:
+Include:
 
-- 5 long-tail questions people might ask AI engines, written as natural 15-25 word queries.
-- For each question: business value, sole-citation potential, information-gain angle, and best asset type.
-- Pick one **5 Percent Asset** worth building this week.
-- Give it a **Citation Compulsion Score** from 0-5.
-- If score is below 3, prescribe the named framework, proprietary data point, definition, methodology, or contrarian evidence chain needed to raise it.
+- visual scene
+- buyer tension
+- belief shift
+- the thing Farrice can say that the category usually will not
+- the plain-English version of any strategic phrase
+- five raw takes Farrice could riff on without more research
 
-### 4. Creative Strategy Translation
+This section should feel like creative fuel, not a mini report.
 
-Apply Luke Iha, Alex Copper, Kallaway, and Harry Dry:
+### 3. Story Compass
 
-- Scene or artifact that makes the issue concrete.
-- Buyer identity snapshot.
-- Midnight fear or silent frustration.
-- Private buyer sentence.
-- Category convention everyone else repeats.
-- Pattern break Farrice can own.
-- One-line creative brief.
-- Proof required.
-- Proof gap.
-- Copywriting angle: the sharpest claim, hook, or promise that can be made safely.
-- Ghostwriting angle: the founder POV, contrarian belief, or lived observation Farrice can help a client express.
-- Aha moment: the perspective shift the content must create.
-- Turn: the exact before/after belief movement.
-- Refusal line: what the piece will not say because it would overclaim, flatten, or imitate the category.
-- Specific example needed: the concrete brand, page, post, product, behavior, or phrase that prevents generic commentary.
+Use Story Compass as Position 0.
 
-### 5. Client Acquisition Opportunity Map
+Include:
 
-Turn the day's intelligence into client-acquisition opportunities:
+- Want: what Farrice, the buyer, founder, or market wants
+- Tension: what blocks, complicates, or makes the want interesting
+- Change: what shifts by the end of the piece
+- Compass sentence: `Farrice/the buyer wanted ___, but ___, until ___.`
 
-- 3 prospect archetypes this signal applies to.
-- 3 audit hooks Farrice could use publicly or privately.
-- 3 pain statements written in the prospect's language.
-- 3 "pitch-in-public" post ideas that teach while demonstrating the service.
-- 3 private DM or discovery-call openers written as value-first observations, not mass outreach.
-- 1 strongest client acquisition angle of the day.
-- 1 proof asset Farrice should build before selling it harder.
+If the compass sentence is weak, the angle is still a topic. Revise the angle
+before continuing.
 
-### 6. Productized Service Ladder
+### 4. Farrice Riff Fuel
 
-Convert the day’s intelligence into a service path:
+Generate seven prompts that help Farrice add his own take.
 
-| Ladder Stage | Productized Asset | Buyer Problem | Deliverable | Price/Use |
-|---|---|---|---|---|
-| AI Listening Operator | Daily signal scan | "I do not know what my buyers are saying now." | Signal brief and VOC map | Internal engine or free content |
-| Brand And Content Auditor | Public content teardown | "Our content is active, but it is not creating authority or demand." | Brand/content audit, angle map, and public/private teardown | Free proof asset or entry diagnostic |
-| Source Quality Auditor | Claim safety review | "My claims may be weak, risky, or derivative." | Source-quality audit and safe wording map | Entry diagnostic |
-| Copywriting And Ghostwriting Partner | Founder authority system | "We have things to say, but our POV sounds generic." | LinkedIn posts, article seeds, sales-page copy, email angles, ghostwritten founder POV | Monthly retainer or sprint |
-| SEO/AEO/GEO Analyst | Retrieval visibility gap | "AI search does not cite us, and our content is not source-worthy." | Long-tail question map, citation gap map, and share-of-voice baseline | Paid audit |
-| AEO/SEO/GEO Ghostwriter | Retrieval-ready authority content | "We need assets humans trust and AI engines can retrieve." | 5 Percent Asset, source-backed articles, answer pages, and LinkedIn reinforcement | Premium project |
-| Source-To-Search Trust Layer Architect | Reusable proof infrastructure | "Our claims, sources, buyer questions, and founder judgment are scattered." | Claim library, source hierarchy, brand entity file, answer-page plan, content decision rules, and first agent-readable trust primitive | Premium project or retainer layer |
-| Creative Strategist | Market-to-message translation | "We have signals, proof, and data but no sharp creative direction." | Creative strategy brief, content system, campaign narrative, offer bridge | High-ticket intensive |
-| Offer Architect | Monetized service design | "This needs to become revenue." | Productized offer, sales page, proof plan, and acquisition motion | Retainer or premium build |
+The prompts must cover:
 
-Each run must place today’s best opportunity on this ladder and recommend the next smallest sellable asset. If the signal exposes scattered proof, unclear source hierarchy, weak claim boundaries, or a missing answer-page structure, promote it into the Source-To-Search Trust Layer stage.
+- personal take
+- contrarian take
+- client or founder story
+- business systems analogy
+- public teardown angle
+- founder POV or ghostwriting angle
+- one `Start Here` prompt for a 60-120 second voice memo
 
-### 7. Ready-To-Deploy Anti-Slop Content
+Each prompt should be specific enough that Farrice can record immediately.
 
-Produce five finished assets:
+### 5. Publishable Assets
 
-1. A personal LinkedIn-style post.
-2. A GEO/AEO authority post or article seed.
-3. A productized audit/offer asset such as a checklist, mini landing-page section, sales email, or audit rubric.
-4. A hook bank with 5 body-mined LinkedIn hooks, each labeled by bucket: Growth, Authority, Conversion, or Personal.
-5. A cross-platform adaptation plan for LinkedIn, X, newsletter, short video, and client DM.
+Produce finished, usable content before the research appendix.
 
-No placeholders. No em dashes. No "Here's why", "Here's how", "Here's what", or "Here's the thing" openers. No "It's not X. It's Y." reveal pattern. No generic CTAs.
+Include:
+
+1. A finished LinkedIn-style post.
+2. Five hooks or post lines, each labeled by bucket: Growth, Authority, Conversion, or Personal.
+3. A carousel outline with slide titles and what each slide shows.
+4. A 45-60 second short video script.
+5. A public teardown prompt Farrice could run on a brand, page, post, or claim.
+6. A value-first DM or discovery-call angle.
+
+No placeholders. No em dashes. No "Here's why", "Here's how", "Here's what",
+or "Here's the thing" openers. No "It's not X. It's Y." reveal pattern. No
+generic CTAs.
 
 Every LinkedIn asset must include:
 
-- Content bucket: Growth, Authority, Conversion, or Personal.
-- Reader save reason.
-- Buyer next thought.
-- Soft CTA or audit bridge.
-- One visual or carousel direction.
-- Opening pressure point: scene, private sentence, visible artifact, or decision moment.
-- Rehook plan: how the post renews attention every 6-8 lines.
-- Proof moment: where the claim becomes inspectable.
-- Turn: what changes in the reader's understanding.
-- Residue line: the phrase, image, or action that should remain after reading.
+- content bucket
+- reader save reason
+- buyer next thought
+- soft CTA or audit bridge
+- visual or carousel direction
+- proof moment
+- turn
+- residue line
 
-For the personal LinkedIn-style post:
+### 6. Proof Spine
 
-- Lead with concrete pressure, not topic setup.
-- Let the reader feel seen before being taught.
-- Use varied paragraph rhythm.
-- Keep proof close to claims.
-- Make the audit or offer bridge feel like the natural consequence of the insight.
+Research belongs here unless a proof detail is needed to make the opening
+content safe.
 
-### 8. Creative Reaction And Anecdote Priming Loop
+For every source-backed claim, state:
 
-Generate 7 specific questions based on today’s signals. Questions must help Farrice retrieve:
+- claim
+- source type
+- source URL
+- evidence grade: `VERIFIED`, `LIKELY`, or `UNCONFIRMED`
+- public-copy risk
+- safe wording
+- unsafe wording to avoid
 
-- a personal health or performance story
-- a client or founder story
-- a contrarian belief
-- a bodily evidence moment
-- a business systems analogy
-- a premium-service proof angle
-- a named framework or content series idea
-- a public teardown or audit angle
-- a client acquisition story
+If a health, supplement, clinical, regulatory, or performance claim lacks strong
+evidence, label it `UNCONFIRMED` or omit it from public-ready copy.
 
-End with one question labeled `Start Here`.
+### 7. GEO/AEO Opportunity
 
-### 9. IP Library Capture
+Apply Ethan Smith and Nathan Gotch after the content angle is clear.
+
+Include:
+
+- three natural 15-25 word long-tail questions people might ask AI engines
+- business value for each question
+- information-gain angle for each question
+- one answer-page, comparison page, proof page, or teardown asset worth building
+- Citation Compulsion Score from 0-5
+
+Plain-English rule: explain the asset as something a founder could picture,
+not as abstract retrieval jargon.
+
+### 8. Offer Bridge
+
+Turn the day's pick into one smallest sellable asset.
+
+Include:
+
+- productized audit or snapshot name
+- who buys it
+- what problem it solves
+- what Farrice delivers
+- one public proof version
+- one private paid version
+- next 45-minute build sprint and stop condition
+
+If the signal exposes scattered proof, unclear source hierarchy, weak claim
+boundaries, or a missing answer-page structure, promote it into the
+Source-To-Search Trust Layer stage, but explain it in plain English.
+
+### 9. Ledger + Receipt
 
 Append structured insight rows to `ledger/insights.jsonl`.
 
@@ -432,37 +509,6 @@ Approved tags:
 - zeitgeist
 - context-architecture
 
-### 10. Daily 45-Minute Build Sprint
-
-End each run with one concrete 45-minute action:
-
-- what to build
-- why it is the highest-value move
-- source or insight it uses
-- output file or artifact to create
-- stop condition
-
-This section should make the work feel energizing and playable, not like another report.
-
-### 11. Acquisition Scorecard
-
-End every run with a compact scorecard:
-
-| Dimension | Score 0-5 | Why | Upgrade Move |
-|---|---:|---|---|
-| Zeitgeist heat |  |  |  |
-| Buyer pain clarity |  |  |  |
-| Source safety |  |  |  |
-| Aha strength |  |  |  |
-| Audit sellability |  |  |  |
-| Ghostwriting depth |  |  |  |
-| AEO/SEO/GEO asset potential |  |  |  |
-| LinkedIn captivation |  |  |  |
-
-If any score is below 3, state the missing proof, sharper example, stronger buyer language, or better content format needed.
-
-### 12. High-Taste Orchestration Receipt
-
 End every run with a compact receipt:
 
 - Intent score
@@ -476,6 +522,12 @@ End every run with a compact receipt:
 - Verifier results
 - Finalize status
 - Open risks
+- JSONL validation status
+- Google Drive export status
+- Reader-Level Gate status
+- Content Finish Gate status
+- Grounding Guard status
+- Export Format Guard status
 
 Also include a Taste Evidence Ledger:
 
@@ -492,6 +544,25 @@ Verdict: `PASS`, `REVISE`, or `REWORK`.
 No run may claim high-taste quality only because it has a clean structure.
 The receipt must name what changed in reader pull, specificity, proof, and the
 turn of insight.
+
+No additional report sections should appear after Ledger + Receipt unless it is
+Friday and the weekly synthesis is required.
+
+## Acceptance Checks
+
+Before finalizing, verify:
+
+- first page contains no table before `### 1. The Pick`
+- at least five lines are directly usable as hooks or post lines
+- a clear Story Compass sentence is present
+- `### 4. Farrice Riff Fuel` makes a 60-120 second voice memo easy to record
+- source claims remain labeled `VERIFIED`, `LIKELY`, or `UNCONFIRMED`
+- JSONL validates line by line
+- Google Drive export remains disabled
+- `content_finish_gate.py`, `grounding_guard.py`, and export format guard run
+
+If any acceptance check fails, mark the run `REVISE` and fix the weakest
+section before finalizing.
 
 ## Friday Weekly Synthesis
 

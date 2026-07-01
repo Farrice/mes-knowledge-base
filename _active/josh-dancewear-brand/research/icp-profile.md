@@ -395,7 +395,7 @@ You will not convert these dancers. Their objections are useful because they sha
 
 ### Internal (Recall + extractions)
 - Twyla Tharp Huberman interview (Recall card 27f652b6) — dancer-as-athlete identity, paid-vs-respected gap, "I make a clear distinction between athletes / business / dancers — to me it is the same enterprise"
-- "Invisible Expert" canonical ICP profile — `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` — methodology and depth standard
+- "Invisible Expert" canonical ICP profile — `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` — methodology and depth standard
 - Lululemon premium-positioning teardown (Recall card 0a806865) — "club you join, not a discount you get" — the high-end audience-club dynamic; **but this profile deliberately positions AGAINST the Lululemon aesthetic** for dance authenticity
 - Anti-template warning patterns (`feedback_ai-structural-tells.md`)
 

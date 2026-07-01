@@ -17,7 +17,7 @@ The real defect was **structural sameness**: all ~14 posts stamped the identical
 6. **Synced all 5 exemplar bodies** to the cleaned text, **fixed 3 misleading build-notes** (they praised the McRaney beat as a load-bearing *feature* — the exact false-confidence that caused the miss), and added a **canonical pointer** to each: `starter-content-batch.md` is now the single source of truth for post text; exemplars carry the rationale. This kills the duplicate-body drift that was the root cause.
 
 ## STATE
-- **Canonical, shippable, verified:** `_active/linkedin-launch/content-os/starter-content-batch.md` (14 posts).
+- **Canonical, shippable, verified:** `_active/linkedin-launch/04-content-os/starter-content-batch.md` (14 posts).
 - Exemplars `content-os/exemplars/_p1..p5` synced + build-notes corrected + pointers added.
 - The gate script: `scratchpad/postgate.py` (re-run any time: `python3 scratchpad/postgate.py <file.md>`). Worth promoting into `execution/` if you want it permanent — right now it lives in scratchpad.
 - Control tower `00-CONTROL-TOWER.md` §OPEN THREADS #1 marked ✅ DONE.

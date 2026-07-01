@@ -9,8 +9,8 @@
 ## Prerequisites
 
 - Farrice available for ~30 minutes (two touchpoints: topic selection + final edit)
-- Voice captures loaded at `_active/linkedin-launch/voice-captures/` for tone reference
-- ICP context: `_active/linkedin-launch/service-architecture.md`
+- Voice captures loaded at `_active/linkedin-launch/04-content-os/voice-captures/` for tone reference
+- ICP context: `_active/linkedin-launch/02-offer/service-architecture.md`
 
 ---
 
@@ -64,10 +64,10 @@ Ask Farrice ONE question:
    - Industry news affecting Farrice's ICP (consultants, coaches, founders losing to visibility)
 
 2. **ICP pain point cross-reference** — Load:
-   - `_active/linkedin-launch/service-architecture.md` (ICP profile + pain points)
-   - `_active/linkedin-launch/mini-briefs/concept-dossier.md` (13 validated concept seeds)
+   - `_active/linkedin-launch/02-offer/service-architecture.md` (ICP profile + pain points)
+   - `_active/linkedin-launch/04-content-os/mini-briefs/concept-dossier.md` (13 validated concept seeds)
 
-3. **Gap check** — Scan `_active/linkedin-launch/arcs/` to avoid repeating recent topics.
+3. **Gap check** — Scan `_active/linkedin-launch/04-content-os/arcs/` to avoid repeating recent topics.
 
 ### Output: Present 5 topics as a numbered menu:
 
@@ -134,7 +134,7 @@ Once topic is selected, prompt Farrice:
 3. **Identify the enemy** (Erica) — what force does this piece fight? Build the narrative around it.
 4. **Plant the belief** (Erica) — what should readers believe after reading? Package it in story, not statements.
 3. **Format for LinkedIn** — single/double line breaks, mobile-first, short paragraphs
-4. **Reference voice captures** from `_active/linkedin-launch/voice-captures/` — match his actual speaking patterns, not a template voice
+4. **Reference voice captures** from `_active/linkedin-launch/04-content-os/voice-captures/` — match his actual speaking patterns, not a template voice
 
 ### Voice calibration:
 - Warm, direct, coaching-conversation tone
@@ -246,7 +246,7 @@ Pick the type that connects most naturally to the post's topic. Provide:
 
 ### Save and log
 
-1. Save post to `_active/linkedin-launch/arcs/[appropriate-arc]/[post-name].md`
+1. Save post to `_active/linkedin-launch/04-content-os/arcs/[appropriate-arc]/[post-name].md`
 2. Save lead magnet concept to `_active/linkedin-launch/lead-magnets/[name].md`
 3. Log sprint performance:
    ```bash
@@ -259,7 +259,7 @@ Pick the type that connects most naturally to the post's topic. Provide:
 
 When the `--serial` flag is set, also load:
 - `skills/fresh-voice-system/genius.md` — Serial narrative standard
-- Current arc files from `_active/linkedin-launch/arcs/[current-arc]/`
+- Current arc files from `_active/linkedin-launch/04-content-os/arcs/[current-arc]/`
 
 Additional rules:
 - Include an open loop that pulls readers into the next chapter

@@ -18,7 +18,7 @@ The output you produce is the foundation for every downstream content, copy, bra
 ## Your Unfair Advantage
 
 You inherit:
-- **The Invisible Expert profile** at `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` — read it. This is the user's canonical example of excellence. Your output should match this depth.
+- **The Invisible Expert profile** at `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` — read it. This is the user's canonical example of excellence. Your output should match this depth.
 - **MEMORY.md user-feedback files** — including the Deep ICP Profile entry (2026-03-19) which captures the methodology.
 - **Recall** (3,000+ saved cards) — likely contains audience research, podcast transcripts, and primary-source material on the ICP. Always check before going external.
 - **`extractions/`** for relevant experts (McRaney, Cimorelli) — load their actual frameworks if applicable.
@@ -49,7 +49,7 @@ The user's ICP work is differentiated because it's **psychographic and identity-
 The user will give you something like "personal-brand ghostwriting clients at $5K+" or "first-time home buyers in the SFV" or "EDM festival kids who buy streetwear."
 
 ### Step 2: Read the canonical example
-ALWAYS read `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` first. This is the user's standard. Match its depth and structure.
+ALWAYS read `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` first. This is the user's standard. Match its depth and structure.
 
 ### Step 3: Internal-knowledge layer
 - `mcp__recall__search` for audience-language and primary-source content on this ICP

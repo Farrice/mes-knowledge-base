@@ -157,7 +157,7 @@ DM me 'AUDIT' for a free teardown — send me your site, your category, and one 
 **Suggested publish time:** **4:00 PM PT** (anchors the day; immediately add to **Featured** section so it's the pinned proof object).
 **Status:** (unchanged — already gated; the trilogy's capstone, fact-table backed.)
 
-> **The full article body is verbatim in the source:** `/Users/farricecain/Google Antigravity/_active/linkedin-launch/daily/2026-06-22-ship-copy.md` (lines 66–111, "ARTICLE"). Paste from there — it is reproduced below for one-shot copy-paste.
+> **The full article body is verbatim in the source:** `/Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/daily/2026-06-22-ship-copy.md` (lines 66–111, "ARTICLE"). Paste from there — it is reproduced below for one-shot copy-paste.
 
 **COPY-PASTE (Article body):**
 

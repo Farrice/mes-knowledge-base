@@ -22,8 +22,8 @@ pin: false
 4. **Action:** reverted/unwired. `/diandra-content-engine` re-scoped to **hooks-only**; produced an elevated single-author Post #1 (original tightened + one à la carte hook).
 
 ## Current state of the content (both kept — Farrice's call)
-- `_active/linkedin-launch/ai-boom-content-package.md` — ORIGINAL Post #1 (longer, full-context). Canonical.
-- `_active/linkedin-launch/ai-boom-Post1-ELEVATED.md` — tightened (~300w) + reported-dialogue hook. Single voice.
+- `_active/linkedin-launch/04-content-os/ai-boom-content-package.md` — ORIGINAL Post #1 (longer, full-context). Canonical.
+- `_active/linkedin-launch/04-content-os/ai-boom-Post1-ELEVATED.md` — tightened (~300w) + reported-dialogue hook. Single voice.
 - `_active/linkedin-launch/ai-boom-content-DIANDRA-upgrade.md` — Diandra hook menu (à la carte). Marked SUPERSEDED.
 - `_active/linkedin-launch/ai-boom-Post1-SANDWICH-result.md` — the 4/10 experiment. Marked SUPERSEDED (kept as what-not-to-do record).
 

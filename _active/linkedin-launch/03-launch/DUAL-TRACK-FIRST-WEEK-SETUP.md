@@ -8,7 +8,7 @@
 ## PRE-WEEK-1: Setup (Friday, 2 hrs)
 
 ### 1. Confirm Your Beachhead (15 min)
-Open `/Users/farricecain/Google Antigravity/_active/linkedin-launch/MASTER-STRATEGY.md`. Answer:
+Open `/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/MASTER-STRATEGY.md`. Answer:
 - **What's my primary niche/lane for the next 4 weeks?** (wellness/supplement/performance brands, or different?)
 - **Who are my Top-5 target brands?** (from `research/wellness-supplement-brand-niche.md`)
 - **What's the offer I'm leading with?** (Angle Audit? Proof Run? Fractional seat? Embed?)

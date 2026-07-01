@@ -90,7 +90,7 @@ DM me 'AUDIT'.
 
 - **Title:** `Why AI search rewards the real ones — and what 18 years in the body taught me about proof`
 - **Description (card copy):** `The machine doesn't read your marketing. It reads your proof. And it's finally built to reward people who actually did the thing. My POV on why lived expertise beats volume — and why claim-safety is now the same gate as AI-trust.`
-- **Links to:** A LinkedIn article or long post stating Farrice's POV — the Bridge Message expanded, the two-gate thesis, the 18yr credential as evidence. (Point at the best existing POV post; if none is live, **TODO:** adapt the About section ¶3–4 into a standalone post.) Candidate source to adapt: `_active/linkedin-launch/ai-boom-Post1-ELEVATED.md`.
+- **Links to:** A LinkedIn article or long post stating Farrice's POV — the Bridge Message expanded, the two-gate thesis, the 18yr credential as evidence. (Point at the best existing POV post; if none is live, **TODO:** adapt the About section ¶3–4 into a standalone post.) Candidate source to adapt: `_active/linkedin-launch/04-content-os/ai-boom-Post1-ELEVATED.md`.
 - **Why fourth/last:** It's the depth read for the buyer who's already interested and wants to know if Farrice *thinks* differently before they DM. Closes the believability loop.
 
 ---

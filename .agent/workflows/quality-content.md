@@ -5,8 +5,8 @@ description: Seed (trend or insight) → ship-ready multi-format content via the
 # Quality Content — The Proven Stack (floor, not ceiling)
 
 Reproduces the pipeline that produced **ship-ready-as-is** content on 2026-06-19 (Farrice: "I'd ship them without adding anything").
-- **Benchmark (the bar to clear):** `_active/linkedin-launch/ai-boom-content-package.md`
-- **Full mechanism breakdown:** `_active/linkedin-launch/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md`
+- **Benchmark (the bar to clear):** `_active/linkedin-launch/04-content-os/ai-boom-content-package.md`
+- **Full mechanism breakdown:** `_active/linkedin-launch/04-content-os/CONTENT-QUALITY-BENCHMARK-AND-RECIPE.md`
 
 ## ⚠️ Philosophy — READ FIRST
 This is a **strong default**, NOT a hard rule and NOT the only way. It reliably clears the PASS bar. The system is capable of more, so:

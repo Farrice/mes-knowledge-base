@@ -24,11 +24,11 @@ mid-session, re-title, or pin a session that shipped through some other route.
 - **TITLE** (required) — the human-readable session title. If the user didn't give one,
   propose `YYYY-MM-DD · <work-stream> — <moment> (<state>)` and confirm before writing.
 - **--file PATH** (optional) — markdown to stamp. DEFAULT: today's LinkedIn briefing
-  `_active/linkedin-launch/daily/briefing-<today>.md`. If that file is missing, **ASK**
+  `_active/linkedin-launch/06-automation/daily/briefing-<today>.md`. If that file is missing, **ASK**
   which file to stamp — never invent one.
 - **--thread SLUG** (optional) — stable work-stream selector (the `/resume` row label +
   the dedup key). DEFAULT derivation:
-    - file under `_active/linkedin-launch/daily/` → `linkedin-daily`
+    - file under `_active/linkedin-launch/06-automation/daily/` → `linkedin-daily`
     - else slugify the basename with any leading `YYYY-MM-DD` and `briefing-` stripped
   Always pass it **explicitly** to `handoff_store.py` — a drifted auto-derived slug splits
   the `/resume` menu into two rows.

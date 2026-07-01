@@ -9,7 +9,7 @@ for narrative, tension, and authority. Deterministic; interpretation happens in 
 Per directives/apify-usage-policy.md: Apify self-governs budget and NEVER throws — on
 `{"fallback": true}` we log the gap and move on (no silent break, no blocking).
 
-Output: `_active/linkedin-launch/daily/brand-radar-YYYY-WW.md`
+Output: `_active/linkedin-launch/06-automation/daily/brand-radar-YYYY-WW.md`
 Config: edit BRANDS below (correct any IG handle that returns no data).
 
 Usage:

@@ -9,7 +9,7 @@
 
 ## ★ Insight — Why this profile rejects demographics
 
-The Deep ICP profile already at `_active/linkedin-launch/research/deep-icp-profile-invisible-expert.md` is 70% identity-tier. It identifies the Authenticity Paradox, Curse of Expertise, the wince test. But it still describes "people who" — coaches age 30-55, consultants, knowledge workers. **Demographics produce demographic copy.** This document does the Dai Media inversion: forget the demographic. Build ONE specific findable individual. If she doesn't recognize herself in the description, the profile failed.
+The Deep ICP profile already at `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` is 70% identity-tier. It identifies the Authenticity Paradox, Curse of Expertise, the wince test. But it still describes "people who" — coaches age 30-55, consultants, knowledge workers. **Demographics produce demographic copy.** This document does the Dai Media inversion: forget the demographic. Build ONE specific findable individual. If she doesn't recognize herself in the description, the profile failed.
 
 ---
 
