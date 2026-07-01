@@ -34,6 +34,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Luke Iha** | PROOF ENGINEERING | Doubt node mapping, 22-type proof arsenal, trust-building |
 | **Ward Farnsworth** | RHETORIC | Classical rhetoric, chiasmus, anaphora, Saxon punch, immortal prose |
 | **Joanna Wiebe** | CONVERSION OPTIMIZATION | Copy testing, voice-of-customer, microcopy |
+| **Craig Clemens** | EDUCATION-FIRST DR | Educate-before-selling sales copy, Seven Human Hijacks, market-stage diagnosis (Golden Hippo) |
 
 ### Routing Logic
 
@@ -77,6 +78,7 @@ When you make a request, I route to the right expert using this registry. I will
 | **Brock Johnson** | SHAREWORTHY | Social-first content, shareability engineering |
 | **Authority Hacker** | AI SOCIAL | AI production velocity for social — packaging thinking, not replacing it |
 | **Grace Andrews** | MEDIA COMPANY | Audience-as-city architecture, content portfolio strategy, trust-based monetization |
+| **Brendan Kane** | VIRAL FORMAT SCIENCE | Format research (GSB analysis), Hook Points, 100-to-1 ideation, Jenga storytelling |
 
 ### Routing Logic
 
@@ -166,6 +168,8 @@ When you make a request, I route to the right expert using this registry. I will
 | **Jason Fladlien** | HIGH-STATUS CLOSING | Subtraction heuristic, friction removal, radical candor |
 | **David McRaney** | BELIEF CHANGE | Deep canvassing, motivational interviewing, tribal bridge building |
 | **Tobias Allen** | REAL-REASON PERSUASION | Excavating the real motivation, not the stated one |
+| **Russell Brunson** | FUNNELS | Hook-Story-Offer, identity movements, value ladders |
+| **Chris Do** | VALUE-BASED PRICING | Premium positioning for creatives, kind sales calls (SALES framework), pricing creativity |
 
 ### Routing Logic
 
@@ -561,6 +565,8 @@ When you make a request, I route to the right expert using this registry. I will
 | **Lulu Cheng Meservey** | COMMUNICATIONS / GO-DIRECT NARRATIVE | Go-Direct comms architecture, Message-Medium-Messenger (M3) matrix, reality-shaping narrative, strategic wrongness, engineered authenticity, founder-brand comms OS, emotional-altitude crisis response, PR/reputation management |
 | **Vincent Hu** | INFO BUSINESS ARCHITECTURE | Growth ecosystems, trust-first scaling, revenue reverse-engineering, coaching/consulting |
 | **Mike Foutia** | MARKETING TOOLS | Marketing technology landscape, tool selection, trend analysis |
+| **Alex Hormozi** | OFFER ECONOMICS | Money models, Grand Slam offers, client-financed acquisition, focus/constraint strategy |
+| **Ash Maurya** | LEAN VALIDATION | Lean Canvas, traction-metric discovery, demo-sell-build, 7-powers moats |
 
 ### Routing Logic
 
@@ -709,6 +715,35 @@ When you make a request, I route to the right expert using this registry. I will
 
 ---
 
+## Domain 16: Fitness, Health & Performance Coaching
+
+> **Exclusivity Boundary**: This domain owns training programming, nutrition, physiology, and the business of fitness coaching (Farrice's active coaching practice). Front door is the conductor — route there unless the request names a lane.
+
+### Swim Lanes
+
+| Expert | Owns | Use For |
+|--------|------|---------|
+| **Strength & Conditioning OS** (`/strength-conditioning`) | CONDUCTOR / FRONT DOOR | Any training/health/nutrition coaching request; diagnoses the need and routes lanes; integrated program composition |
+| **Andy Galpin** | PHYSIOLOGY & LIMITERS | Performance-limiter diagnosis, energy systems, strength-power programming, load-first rehab |
+| **Michael Israetel** | HYPERTROPHY PROGRAMMING | Volume landmarks (MEV/MAV/MRV), mesocycle + deload design, RIR progression, muscle-gain nutrition |
+| **Eugene Teo** | TECHNIQUE & MINIMALISM | Time-efficient programs (<2h/wk), exercise selection/execution quality, sustainable physique |
+| **Alan Aragon** | NUTRITION & RECOMP | Macro targets, flexible dieting, claim autopsy/myth-busting, stalled fat-loss rescue |
+
+### Routing Logic
+
+```
+"Training / program / coaching request"
+└── /strength-conditioning (conductor diagnoses → routes lanes)
+
+"Hypertrophy / volume / mesocycle" → Michael Israetel
+"What's limiting my performance / conditioning / rehab" → Andy Galpin
+"Short on time / technique / exercise selection" → Eugene Teo
+"Nutrition / macros / fat loss / is this claim true" → Alan Aragon
+"Fitness coaching BUSINESS (offers, content, clients)" → Domain 2/12 experts + /strength-conditioning for subject matter
+```
+
+---
+
 ## Standard Handoff Chains
 
 ### TikTok Content Creation
@@ -829,5 +864,5 @@ I will immediately switch and apply the requested expert's methodology.
 
 ---
 
-*Last updated: 2026-03-03*
-*95 agents across 15 domains (some dual-listed)*
+*Last updated: 2026-07-01*
+*103 agents across 16 domains (some dual-listed) — Domain 16 + 6 lane adds from the claude.ai export harvest 2026-07-01*

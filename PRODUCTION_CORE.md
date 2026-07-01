@@ -17,6 +17,8 @@
 | Stefan Georgi (dopamine-copy) · Jason Fladlien (marketing) | DR copy emotion/offer architecture | 95% of copy-usage logs |
 | `jen-santulan-listing-content` | Jen client work (cd `_active/jen-listings/`) | active client |
 | `brand-operating-system` (`/build-bos`) | 6-layer brand builds | Resonance BOS shipped |
+| `/strength-conditioning` (+ galpin/israetel/teo/aragon lanes) | ALL fitness/S&C coaching work (active coaching business) | claude.ai export harvest 2026-07-01; conductor + 4 lanes |
+| `/extract-mastery` (MES 3.0) | Expertise extraction methodology layer (feeds /extract-forge) | Farrice's own IP, flagship of 8-variant family |
 
 ## Thinking, Strategy & Content Psychology
 
