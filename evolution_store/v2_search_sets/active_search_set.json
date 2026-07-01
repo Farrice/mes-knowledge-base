@@ -898,8 +898,120 @@
         "gaming_flag": false
       },
       "notes": "Retry after receipt/style repairs | platform: codex | Verification: PARTIAL - JSONL PASS, grounding PASS, export guard PASS, content finish WARN, prose classifier WARNING, Notion DNS failed"
+    },
+    {
+      "trace_id": "20260630_174242",
+      "timestamp": "2026-06-30T17:42:42.089663",
+      "schema_version": "v3",
+      "component": "/Users/farricecain/.codex/skills/oren-content-team-architecture",
+      "expert": "oren-content-team-architecture",
+      "workflow": "content-team-os",
+      "quality": {
+        "composite": 6.08,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "platform: codex | files: _active/linkedin-launch/content-team-os | verification: PASS with structured-doc prose warning"
+    },
+    {
+      "trace_id": "20260630_174256",
+      "timestamp": "2026-06-30T17:42:56.917747",
+      "schema_version": "v3",
+      "component": "/Users/farricecain/.codex/skills/oren-content-team-architecture",
+      "expert": "oren-content-team-architecture",
+      "workflow": "oren-content-team-architecture",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "retry weakest: clearer intent alignment | platform: codex | files: _active/linkedin-launch/content-team-os | verification: PASS with structured-doc prose warning | Notion skipped"
+    },
+    {
+      "trace_id": "20260630_180522",
+      "timestamp": "2026-06-30T18:05:22.576038",
+      "schema_version": "v3",
+      "component": "_active/linkedin-launch/content-team-os",
+      "expert": "content-team-os",
+      "workflow": "launch-assets",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "platform: codex | files: _active/linkedin-launch/content-team-os/launch-assets | verification: PASS with structured-doc prose warnings | Notion skipped"
+    },
+    {
+      "trace_id": "20260630_180535",
+      "timestamp": "2026-06-30T18:05:35.536431",
+      "schema_version": "v3",
+      "component": "/Users/farricecain/.codex/skills/system-audit",
+      "expert": "system-audit",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 5.08,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "retry weakest with hook owner label | actual artifacts in _active/linkedin-launch/content-team-os/launch-assets | verification: local pass | Notion skipped"
     }
   ],
-  "total_cases": 32,
-  "last_updated": "2026-06-30T06:40:52.599021"
+  "total_cases": 36,
+  "last_updated": "2026-06-30T18:05:35.537249"
 }

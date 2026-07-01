@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-06-30 (chain_runner finalize for skills/oren-operational-systems) |
-| **Activation Count** | 441 |
+| **Last Activated** | 2026-06-30 (chain_runner finalize for /Users/farricecain/.codex/skills/system-audit) |
+| **Activation Count** | 445 |
 | **30-Day Review Date** | 2026-04-11 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
