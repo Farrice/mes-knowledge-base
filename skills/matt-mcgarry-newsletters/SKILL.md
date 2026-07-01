@@ -1,0 +1,32 @@
+---
+name: Matt McGarry — Newsletter Growth & Email Monetization
+description: Launch, grow, and monetize newsletter-first businesses using Matt McGarry's GrowLetter/Newsletter Operator system — two-channel architecture (discovery + relationship), newsletter-as-product design, paid-growth gates with hard benchmarks, source-quality auditing, and the monetization trinity (own offers, sponsorships, affiliate).
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Matt McGarry — Newsletter Growth & Email Monetization
+
+Matt McGarry is the founder of GrowLetter (agency) and the Newsletter Operator newsletter — ex-Hustle (grew to 2.5M subscribers, acquired for $30M+) and first employee at Milk Road (0 → 250K subscribers, acquired in 10 months). His clients include James Clear, Cody Sanchez, 1440 Media, and The Flyover; collectively he has helped add 10M+ subscribers and $100M+ in sales. His system treats the newsletter as a product with a job to be done, growth as a two-channel machine (one discovery platform feeding one relationship platform), and monetization as a deliberate ladder — never an ads-only business.
+
+## Available Workflows
+
+| # | Workflow | Command | Produces |
+|---|----------|---------|----------|
+| 1 | [Launch Newsletter](workflows/01-launch-newsletter.md) | `/mcgarry-launch` | Problem-first newsletter concept + launch plan to first 1,000 subscribers |
+| 2 | [Scale Growth Engine](workflows/02-scale-growth-engine.md) | `/mcgarry-growth` | Stage-matched growth system: signup flow, channel plan, paid-ads gate check, source-quality audit |
+| 3 | [Monetize Audience](workflows/03-monetize-audience.md) | `/mcgarry-monetize` | Monetization stack: product ladder, one-belief offer, sponsorship readiness, revenue diversification |
+
+## Quick Reference
+
+- **Two-channel rule**: Email doesn't grow organically (no algorithm, no sharing). One discovery platform (YouTube, LinkedIn, or Instagram) + one relationship platform (email). Never more until the first pair works.
+- **Pick a problem, not a niche**: No newsletter fails from the wrong niche; hundreds fail from solving no problem. Frame as a job to be done ("Help me save money on flights") for a market of one.
+- **Newsletter ≠ marketing email**: Newsletter = 80-90% value, readable without clicking anything, earns primary-inbox placement. Marketing emails = 80-90% CTA, do the selling. You need both.
+- **Paid-ads gate**: Prove the product organically to 5-10K subscribers first. Benchmarks: CPM ≤ $25, ad CTR ≥ 1-2%, landing page conversion ≥ 40-50%, LTV:CAC 3-5x, 30-day payback at scale.
+- **Source quality beats list size**: Click-through rate > open rate (Apple broke opens). Organic-source subscribers converted to customers at ~6,000% the rate of co-reg/recommendation sources. Audit by exporting subscribers-by-source against customer emails.
+- **Sell early**: Highest purchase intent is 7-30 days after signup; always sell something within 60 days.
+- **Monetization trinity**: Your own offer (direct), sponsorships (needs ~10-20K engaged subs; 5-10K in high-value B2B), affiliate. Product ladder: cohort course first (built-in presale), then coaching/membership, low-ticket digital products, events last.
+- **Launch fast**: Only writing, growth, and selling matter. Milk Road kept its 5-minute Canva logo past 100,000 subscribers. Logos, LLCs, and perfect design wait.
+- **Focus formula**: One channel, one avatar, one product until $1M/year (Hormozi rule McGarry runs his own business on).

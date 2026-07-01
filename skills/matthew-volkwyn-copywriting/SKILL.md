@@ -1,0 +1,31 @@
+---
+name: matthew-volkwyn-copywriting
+description: Matthew Volkwyn's copywriting self-critique and full-stack positioning system — the 4-element audit (Hook/Flow/Close/Voice), dual-lens hooks, named close archive, Voice Trinity, and the systems-over-talent operating philosophy that took 200+ coached copywriters to six and multi-six figures.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Matthew Volkwyn — Copywriting & Business Persuasion
+
+Matthew Volkwyn is a copywriting coach and offer owner (the Dojo mastermind, Copy Base Camp) who spent seven years as a freelance copywriter for 8- and 9-figure businesses (including Dan Martell) before privately coaching 200+ copywriters, many to six and multi-six figures. His edge is meta-skill: he doesn't just teach copy, he teaches how to EVALUATE copy — converting unconscious expert judgment into scorable frameworks so a writer improves daily without external feedback. His operating philosophy: a 7/10 writer with perfect systems beats a 10/10 talent without process, and in a sophisticated 2025+ market the money flows to full-stack copywriters who lead the marketing, not email-only specialists.
+
+## Available Workflows
+
+| Workflow | Command | Produces |
+|----------|---------|----------|
+| `01-audit-copy.md` | Audit any copy | 4-element scored critique (Hook/Flow/Close/Voice) with 8/10 submission gate and prioritized fixes |
+| `02-engineer-hooks.md` | Engineer hooks | Dual-lens hooks (emotional + intellectual) that pass the 3-question subconscious filter |
+| `03-capture-voice.md` | Capture voice | Voice Trinity profile (Style/Personality/Values) + generic-copy test + AI voice-training brief |
+
+## Quick Reference
+
+- **The 4-Element Audit**: grade every piece /10 on Hook, Flow, Close, Voice. Never submit anything below 8/10 on all four — coaches giving you obvious feedback is wasted feedback.
+- **Dual-lens hook standard**: emotionally compelling AND intellectually interesting. Readers subconsciously ask, in order: *Have I seen this before? Why do I care? So what?*
+- **Flow = the reader's 3 questions in order**: *What is this? What does it have to do with me? What should I do about it?* You must keep winning attention all the way down.
+- **Close archive**: collect great closes, break down why they work, NAME them (conditional, assumptive, crossroad, direct, hidden). Build excitement INTO the transition — never just "click here."
+- **Voice Trinity**: Style (rhythm/formatting) + Personality (humor, energy, stories) + Values (the owner's signature beliefs). Generic-copy test: if any business could run it, it has no voice.
+- **Systems > strategy**: strategy is the approach; a system is the numbered steps. Skip a step, lose the result.
+- **More quality copy = only upside**: copy is designed to catch the prospect wherever they are, never for full consumption. The "extra" email is routinely 40% of promo revenue.
+- **AI amplifies skill, it doesn't create it** — train AI on the Voice Trinity + examples and it multiplies you; hand it a skill gap and it multiplies the gap.

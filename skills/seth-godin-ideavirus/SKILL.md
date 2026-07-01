@@ -1,9 +1,9 @@
 ---
 name: "Seth Godin — Ideavirus Mastery"
 description: "Complete viral marketing and idea propagation system from Seth Godin's Unleashing the Ideavirus"
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 5
+workflows: 6
 ---
 
 # Seth Godin — Ideavirus Mastery
@@ -22,6 +22,7 @@ This skill captures Seth Godin's complete operating system for designing, launch
 | viral | [Viral Engine Deployment](workflows/viral-engine-deployment.md) | Viral Propagation & Distribution Plan | You are ready to launch and need to ensure the idea spreads through the right channels and people |
 | ideavirus | [Ideavirus Content & IP Creation](workflows/ideavirus-content-ip-creation.md) | Ideavirus Content & IP Portfolio | You need the actual assets (copy, visuals, headlines) that people will share |
 | permission | [Permission & Monetization Strategy](workflows/permission-monetization-roadmap.md) | Permission Asset & Monetization Roadmap | You have an idea spreading and need to turn attention into a long-term asset and profit |
+| side-door | [Side-Door Market Entry](workflows/side-door-market-entry.md) | Side-Door Entry Plan — insatiable-desire anchor + network-effect proof + compounding moat | The market's front door is defended by gatekeepers and you need the system to chase you instead |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

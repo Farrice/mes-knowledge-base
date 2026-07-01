@@ -1,9 +1,9 @@
 ---
 name: "Nicolas Cole Client Acquisition"
 description: "Land ghostwriting clients from zero — 30-day sprint blueprint, no-portfolio strategies, leaks/faucets network mapping, free consulting outreach, pitch-in-public content, and prospect education scripting"
-version: "1.0"
+version: "1.1"
 format: "completion-engine"
-workflows: 3
+workflows: 5
 ---
 
 # Nicolas Cole Client Acquisition
@@ -19,6 +19,8 @@ Land premium ghostwriting clients ($3,000+/month) starting from zero credentials
 | sprint | [Zero-to-Client Sprint](workflows/zero-to-client-sprint.md) | Complete 30-day action plan with daily tasks, removal list, service selection, credibility assets, and outreach sequences | Starting from zero or restarting — you need a structured path from nothing to paying clients |
 | no-portfolio | [No-Portfolio Client Landing](workflows/no-portfolio-client-landing.md) | 5 credibility-building strategies mapped to your situation: free samples, free projects, self-as-case-study, pitch-in-public content, and client education scripts | You have no portfolio, testimonials, or case studies and need to land clients despite that |
 | outreach | [Outreach & Follow-Up Engine](workflows/outreach-and-follow-up-engine.md) | Leaks/Faucets network map, personalized cold outreach messages, 5x follow-up sequences, and daily outreach schedule | You need to fill a pipeline — either from warm network or cold prospects |
+| menu | [Service Menu & Offer Design](workflows/service-menu-and-offer-design.md) | One specialized service with Cole's menu pricing, tangible offer stack, minimal-client-time delivery model, and the Big Three upsell chain | You're choosing what to sell (or selling too many things), pricing a retainer, or turning one project into recurring revenue |
+| sales-call | [Problem-Education Sales Call](workflows/problem-education-sales-call.md) | Beat-by-beat irresistible-offer call script: problem-education flow, price anchor, Ferrari price hold, circle-back down-sell, follow-up-forever calendar | You have a live prospect and need the conversation architecture — from pre-call audit to closing at premium price |
 
 ## Quick Reference
 

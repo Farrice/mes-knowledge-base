@@ -1,0 +1,30 @@
+---
+name: kj-rainey-copywriting
+description: KJ Rainey's (Copy Elite founder) offer-creation and pain-driven copywriting system — objection archaeology, the pain-of-inaction formula, and the 5-step value chain that took him from $1,600/month to $500K+/year
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# KJ Rainey — Offer Creation & Pain-Driven Copywriting
+
+KJ Rainey founded Copy Elite and built a $500K+/year copywriting education business on one doctrine: think in first principles, not tactics. His system makes offers irresistible by exhaustively listing every reason a prospect wouldn't buy and systematically destroying each one, and makes copy convert by raising the pain of inaction above the pain of action. The methodology covers service-offer architecture (especially freelance/agency offers to business owners), pain creation across sales pages, emails, and scripts, and the 5-step value chain that positions any skill as a paid solution.
+
+## Available Workflows
+
+| Workflow | Produces | Use When |
+|----------|----------|----------|
+| `01-forge-irresistible-offer` | Complete offer with objection map, proof stack, and risk-reversal language | Building or overhauling a service/freelance/agency offer |
+| `02-write-pain-driven-copy` | Sales page lead, email, or script section engineered on the pain-of-inaction formula | Writing copy that must move a cold or skeptical reader to act |
+| `03-build-value-chain` | Niche → Pain → Problem → Solution → Effectiveness chain for a skill or product | Positioning a skill, product, or client's offer before any copy is written |
+
+## Quick Reference
+
+- **Action formula**: Action happens when pain of inaction > pain of action, AND the reader is confident the action alleviates the pain. (Hand on a heating stove: it moves when staying hurts more than moving.)
+- **Irresistible offer, 4 steps**: (1) List ~100 reasons they wouldn't buy. (2) Distill the 3-5 most potent. (3) List every way to disprove them. (4) Pick the 3-5 most potent disproofs and get creative.
+- **The business-owner fear quartet** (service offers): ROI doubt, time cost (manage/onboard/fire), brand damage vs. long-term goodwill, and the emotional trauma of firing you.
+- **Pain equation for copy**: specific Situation (negative past/present OR positive dream future) + how they Feel/want to feel about it. Specificity amplifies pain; keep it nonchalant, never rage-bait.
+- **Core desires**: ~80% of copy targets status/respect/superiority and freedom from danger/fear (Maslow-derived).
+- **Value chain**: Niche (identifiable group, shared pain) → Pain (deepest, aware, wants gone) → Problem (what you blame) → Solution confidence (pain specificity, problem specificity, social proof, systems proof, experience, USP, believability) → Solution effectiveness (increase outcome, decrease time, decrease effort).
+- **Signature moves**: One-Word Exit guarantee ("say the word and you'll never hear from me again"), Reply-Yes middle rung ("reply yes and I'll write you three emails this week"), value-first outreach built from the prospect's existing content.

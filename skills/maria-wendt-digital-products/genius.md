@@ -147,3 +147,38 @@ The first 10 customers are worth more than the revenue they bring. They provide 
 | **Identity Shift Potential** | Product aims to teach a skill or provide information. | Product helps users achieve a specific small win or solve a minor problem. | Product is intentionally designed to shift the buyer's self-perception from "struggling" to "achieved X," often with a low-friction first win that builds confidence. |
 | **Pre-Sell Validation Proof** | No pre-sale conducted; product built on assumption of demand. | Pre-sale attempted, but conversion was low (<30%) or feedback mixed. | Strong evidence of pre-demand (e.g., ≥30% pre-sale conversion, multiple "I'd buy that" commitments from target audience) *before* significant build. |
 | **Message-Market Fit Specificity** | Messaging targets a broad audience, trying to appeal to many. | Messaging targets a defined niche, but could still be more precise in its exclusions. | Messaging is so laser-focused it actively *excludes* 90% of potential buyers, speaking directly and powerfully to the hyper-specific desired customer, leaving no room for confusion. |
+
+---
+
+### Patterns from claude.ai export — Maria $600K/month System (v3.0 profile)
+
+> The tactical, metric-driven optimization layer that sits *underneath* the strategic patterns above. Where the patterns above answer "what to build and why," these answer "which exact numbers, timings, and channel splits turn a validated product into $600K/month." Sourced from the "$63 first year → $600K/month" system profile. Load these when the task is optimizing an *existing* selling product/channel, not validating a new idea.
+
+#### 11. The Tri-Channel Revenue Split
+- **Execute**: Never scale all channels at once. Master ONE platform, then stack sequentially. The proven mix at scale is Instagram ~25% / Email ~25% / Paid Ads ~50% of revenue — ads become the largest lever only *after* organic + email prove the offer converts. Single channel is 1x; dual is ~2.5x; all three interlocking is ~6x. Add a channel only when the prior one is systematized (repeatable without you).
+- **Success Metric**: Each new channel added *multiplies* rather than dilutes — total revenue grows faster than the sum of channels run independently. If adding a channel drops the others, you added it before mastering the previous one.
+
+#### 12. The $5 Ad Validation Kill Switch
+- **Execute**: Test every ad creative/product with a $5 budget for 24 hours. Kill threshold: 0 sales in 24h → dead, no debate. Scale threshold: 2+ sales in 24h → scale it. Scaling ladder is `$5 → $20 → $50 → $100` daily spend, only advancing a rung when ROAS holds ≥4. Three ad pillars: (a) Lead ads at ~$0.50/email against ~$6 lifetime subscriber value, (b) Retargeting at 20% discount recovering ~23% of abandoners, (c) Direct-sales ads gated at ROAS ≥4 minimum.
+- **Success Metric**: Losers killed within 24h at ≤$5 sunk; winners on a documented spend ladder with ROAS ≥4 at every rung. No "let it run another day to see."
+
+#### 13. The Email Psychology Rhythm
+- **Execute**: Two-beat daily cadence timed to emotional windows. **7am nurture** (~200 words, always includes one vulnerability admission — 7am = raw emotion window). **1pm pitch on alternate days** (~100 words, single direct link — 1pm = post-lunch decision-clarity peak). Operate on the volume truth "10 emails sent = 3 actually seen," so send consistently rather than hoarding. Subject lines: lowercase only, under 5 words, specific-not-vague ("the $11,752 tuesday," "failed again" — never "Amazing news!"). Subscriber math to protect: ~$6 value/subscriber, ~$0.50 acquisition cost → ~12x ROI over ~90 days.
+- **Success Metric**: List generating ≥$6/subscriber over 90 days; open rates carried by lowercase, specific, sub-5-word subjects rather than hype.
+
+#### 14. The Vulnerability-Profit Paradox
+- **Execute**: Structure the highest-converting hooks and stories as `[Specific Achievement] BUT [Ongoing Struggle]` — success *and* struggle, never apologizing for either. Examples: "$600K month but eating alone," "$11M revenue but no pregnancy," "beach freedom but no partner." Follow the trust-building sequence: specific failure number → current success proof → ongoing-struggle admission → solution offered. Vulnerability paired with proof outsells pure expertise (~+47% conversion in the source system).
+- **Success Metric**: Your best-performing content pairs a precise win with a genuine unresolved struggle. If a post is all-win or all-struggle, it underperforms the paradox structure.
+
+#### 15. The Micro-Trust Mechanics (17s / numbers / lowercase)
+- **Execute**: Three sub-conscious levers. (a) **17-second pause** — build a real anticipation gap before the payoff/CTA (comment → wait for response) to ~4x commitment; the micro-commitment of commenting creates investment. (b) **Number specificity** — never round: "$11,752" not "$12K," "1,847 days" not "5 years" (rounding reads as invented; specificity ~3x trust). (c) **Lowercase confidence** — lowercase subject lines and CTAs read as calm/confident, not shouty (~+23% response). Power words: *grabbed, secured, works, solid*. Ban words: *amazing, incredible, revolutionary, breakthrough*.
+- **Success Metric**: Every public number is un-rounded and verifiable; CTAs use ownership language ("grabbed yours?") in lowercase; zero hype-adjectives survive the final pass.
+
+#### 16. The Content Multiplication Batch Week
+- **Execute**: Produce in weekly batches, not daily scrambles. Mon: write 7 emails. Tue: film 21 reels. Wed: design 7 carousels. Thu: create stories. Fri: schedule everything. Then run the **repurposing matrix** so 1 idea becomes ~15 assets: email → reel → carousel → story → ad. Target ratio: repurpose 80%, create-new 20%. A daily posting schedule by energy level (7am low-energy b-roll reel / 12pm carousel / 3pm high-energy selfie reel / 5pm professional studio reel / 8am direct story CTA) keeps output on-rhythm.
+- **Success Metric**: One captured idea yields ~15 distributed assets; ≥80% of published content is repurposed, not created from scratch; the week's content is fully scheduled by Friday.
+
+#### Hidden Knowledge (export layer)
+- **Comments reveal products, not opinions**: Mine ~500 comments/day. A pattern seen 10+ times = validated interest; 50+ = build the product; 500+ = build the whole suite. The audience names the product before you do.
+- **Volume beats perfection, at the metric level**: "10 sent = 3 seen," "1% comment-to-view is a revenue-health floor," "test everything at $1–$5." The system tolerates rough output because volume + fast kill/scale converges on winners faster than polish ever could.
+- **Failed products teach more than winners**: The $63-first-year → $600K arc was paid for in killed tests. Budget for losers as tuition; the kill switch ($5/24h/0-sales) makes tuition cheap.

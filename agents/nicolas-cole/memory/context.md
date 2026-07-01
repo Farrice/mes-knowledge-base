@@ -7,6 +7,7 @@
 - **nicolas-cole-sentence-craft** — Sentence-level writing optimization (14 prompts)
 - **nicolas-cole-digital-products** — Digital product creation strategy (6 prompts: product-vehicle-selector, product-progression-planner, context-repackaging-engine, expectation-audit, product-scope-architect, pricing-psychology-optimizer)
 - **nicolas-cole-niche-positioning** — Specificity drilling, Category of One, Named Person Test, Bias Inversion (added 2026-03-12)
+- **nicolas-cole-client-acquisition** — v1.1 (enriched 2026-07-01 from claude.ai export transcripts): +11 patterns (renting your pen, priced service menu, Big Three upsell chain, one-service specialization, buyer psychology map, problem-education law, price anchoring, tangible offer stack, Ferrari pricing/circle-back, surround skills, valley of death) + 5 hidden-knowledge items; 2 new workflows (`service-menu-and-offer-design`, `problem-education-sales-call`). Note: MES-era "17-second pause"/"mirror language" claims verified ABSENT from raw transcripts — do not cite them as Cole methodology.
 
 ## User/Brand Context
 

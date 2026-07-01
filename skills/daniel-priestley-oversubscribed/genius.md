@@ -399,3 +399,142 @@
 | **Assessment-Led Sales Integration**| Direct pitching or generic discovery calls.                                         | Has a basic questionnaire, but it's more for data collection than problem-revelation.   | Utilizes a proprietary assessment that uncovers hidden problems, educates the prospect, and pre-qualifies them, leading to prospects thanking you for the assessment. |
 | **"With or Without You" Energy**| Communications convey availability and a desire to win any client.                  | Professional and confident, but still subtly signals open capacity.                      | The communication (verbal, written, non-verbal) genuinely conveys that the business is thriving and choosing clients, not chasing them, leading to prospects pursuing the offer. |
 | **Proprietary IP Development**| Relies on common industry terms or uncredited frameworks.                           | Has some unique processes, but they are unnamed or not systematically documented/taught. | Possesses 3+ named, proprietary methodologies or frameworks that are regularly referenced, taught, and differentiate the expert, generating "How did you develop that?" questions. |
+
+---
+
+### Patterns from claude.ai export — Daniel Priestley conversations (2026-07-01)
+
+> Net-new patterns folded in from 12 extraction conversations (24 Assets book, "$10K-$1M per Month" masterclasses, the 7-11-4 interviews, creator-income and high-ticket-client sessions). Everything below is NOT covered by Patterns 1-28 above.
+
+---
+
+#### Pattern 29: The 7-11-4 Parasocial Formula
+**Description**: Distinct from the 11/90 impression threshold. Research on relationship formation says a person feels they KNOW you after **7 hours of content, 11 interactions, across 4 platforms**. Dunbar numbers cap the brain at ~150 well-known people and ~1,500 name-to-face slots — 7-11-4 is how you claim one of those slots at scale (the same mechanism that makes people feel they "know" George Clooney).
+
+**Execute**: Run the "Block Out Tomorrow" test: could a stranger spend an ENTIRE day watching/reading/listening to on-message content about who you are, who you serve, and what you do? If no, build the 7-hour library first (long-form interviews, podcast appearances, YouTube, audio) before spending on any other marketing.
+
+**Success Metric**: A prospect can genuinely fill 7 hours in your online environment. Inbound leads arrive pre-sold ("I feel like I already know you").
+
+---
+
+#### Pattern 30: The Five Undeletable Signals
+**Description**: The brain's limbic system deletes almost everything (walk down Oxford Street — you remember nobody). Only five things survive deletion: **Scary, Strange, Sexy, Free, Familiar**. Most businesses can't or won't be the first three. The two anyone can deploy: **Free** (genuine value people would otherwise pay for, beautifully packaged — jewelry in a box, not a plastic bag) and **Familiar** (clocking up 7-11-4).
+
+**Execute**: Audit every marketing asset against the five signals. If a piece is none of the five, the market will delete it. Default play: pair one act of packaged free value per week with relentless familiarity-building.
+
+**Success Metric**: Content stops being scrolled past; free assets get shared unprompted because they're "too good to be free."
+
+---
+
+#### Pattern 31: Name-Same-Fame-Aim-Game (The 30-Second Pitch Stack)
+**Description**: Priestley's introduction framework. Brains store people by opening an easy-to-label folder — so give them one. **Name** (you + business), **Same** (what familiar category you're the same as — "life coach," "software company" — so they can hang everything on it), **Fame** (what makes you fascinating: big brands, big numbers, awards), **Aim** (what you're working on in the next 90 days), **Game** (the 3-6 year vision).
+
+**Execute**: Script all five beats and compress to 30 seconds. Use it to open podcasts, stages, networking intros, and bios. Never open with the exotic ("energetic healer transcending time and space") — open with the folder label, then differentiate.
+
+**Success Metric**: People repeat your positioning back to you accurately. Podcast hosts introduce you correctly without coaching.
+
+---
+
+#### Pattern 32: LAPS — The Only Four Numbers in a Pipeline
+**Description**: Every business is managed on four numbers: **Leads → Appointments → Presentations → Sales**. When revenue is down, the failure is always at one specific letter — diagnose which, fix only that.
+
+**Execute**: Build a weekly LAPS dashboard. Set a target ratio for each conversion step. When output drops, identify the weakest letter before changing anything else in the business.
+
+**Success Metric**: You can say "we have a P problem, not an L problem" within five minutes of looking at the week. Revenue becomes a predictable function of lead volume.
+
+---
+
+#### Pattern 33: CHAOS + OMV Validation Stack
+**Description**: Business ideas are validated through **CHAOS** — Concept, Audience, Offer, Sales — before anything is built, and anchored in **OMV** — Origin (your background makes the business credible), Mission (the high-value activity you do now), Vision (the future state). Entrepreneurship run this way is "Lego instructions, not a casino" — a series of predictable steps.
+
+**Execute**: For any new venture: write the concept in one sentence, name the audience, draft the offer, and attempt SALES (waitlist signups, pre-orders, deposits) before building supply. Check the idea against your Origin — businesses misaligned with the founder's story stall.
+
+**Success Metric**: Zero months of building before first evidence of paying demand. Pre-sales fund the build (J-curve avoided).
+
+---
+
+#### Pattern 34: Test Demand, Not Supply (The Productized Demo)
+**Description**: Amateurs launch by working on supply (bottling companies, MBA credentials, certifications). Professionals launch by testing demand: productize the **demo + customer needs analysis** — a scorecard/quiz (ScoreApp-style), a waiting list, or a "fake door" (a buy-now button that says "not available in your region yet") that measures true willingness to buy before anything exists.
+
+**Execute**: Before building anything, create one demand-testing instrument: a named scorecard assessment, a waitlist page, or an intro workshop. Set a threshold (e.g., 100 signups) that must be hit before supply is built.
+
+**Success Metric**: Demand data precedes every build decision. Failed ideas cost a landing page, not a year.
+
+---
+
+#### Pattern 35: The Four-Tier Product Ecosystem (Gift → P4P → Core → P4C)
+**Description**: "Products don't make money — product ecosystems make money." Four tiers: **Gifts** (free, packaged value), **Products-for-Prospects** (low-cost entry: assessments, books, workshops), **Core Product** (the main transformation), **Products-for-Clients** (recurring: continuity, community, retainers). The proven high-ticket shape: ~£8K setup + £500/month continuity — high-ticket cash up front, recurring revenue behind it.
+
+**Execute**: Map your offers to all four tiers. Any missing tier is a leak: no Gift = no top of funnel; no P4P = cold high-ticket sales; no P4C = no recurring revenue and constant re-hunting.
+
+**Success Metric**: Every client has an obvious next step. Recurring revenue covers fixed costs within 12 months.
+
+---
+
+#### Pattern 36: The Podcast Pyramid & Authority Transfer
+**Description**: Long-form unscripted content is the trust currency of the era (Trump's 40 hours of podcast watch time vs. Kamala's scripted 7 — the campaign that dropped the script won). Appearing on someone's platform borrows their authority for 6-8 weeks. Work UP the pyramid: thousands of small podcasts accept anyone; do a good job and each rung invites the next.
+
+**Execute**: Commit to 10-20 hours of long-form watch time per year (10+ podcasts of 1-2 hours). Talk origin, mission, vision, customer problems, outcomes. Drop the script — unscripted is the trust signal. Repurpose every appearance across the 4 platforms of your 7-11-4 system.
+
+**Success Metric**: A rising podcast tier each quarter; measurable inbound spike for 6-8 weeks after each appearance (0.5% of engaged viewers become inquiries).
+
+---
+
+#### Pattern 37: The Team-Size Physics (4-12 → Desert → 40+)
+**Description**: Teams have physics: **1-12 people self-organize** (a lifestyle business at 4-12 killers can run £100K-300K/month), **13-39 is "crossing the desert"** (you need management layers you can't yet afford — the most dangerous zone in business), **40+** requires a true executive structure. Most founders should stay under 12 and scale with Software, IP, and Media instead of headcount.
+
+**Execute**: Decide deliberately: lifestyle (stay ≤12, maximize revenue-per-person) or performance (raise resources and sprint through the desert fast). Never drift into 13-39 by accident. Run the Monday-plan / Friday-review rhythm and a 90-Day Reset (origin story reconnection → 3-year vision → 1-year goals → 90-day individual targets).
+
+**Success Metric**: Revenue per person rising while headcount stays flat. No accidental hires into the desert zone.
+
+---
+
+## Hidden Knowledge — claude.ai export additions (2026-07-01)
+
+---
+
+### Hidden Knowledge #7: The 24 Assets Ecosystem (Income Follows Assets)
+
+**Insight**: An asset is anything that would still be valuable WITHOUT you. Value lives in the ecosystem, not any single asset — competitors can copy one asset, never an ecosystem. The 24 assets sit in seven categories: **Intellectual Property** (Content, Methodology, Registered IP), **Brand** (Philosophy, Identity, Ambassadors), **Market** (Positioning, Channels, Data), **Product** (Gifts, Product-for-Prospects, Core Product, Products-for-Clients), **Systems** (Marketing & Sales, Management & Admin, Operations), **Culture** (Key People of Influence, Sales & Marketing people, Management people, Technicians), **Funding** (Business Plan, Valuation, Structure, Risk Mitigation). Plus "Asset Zero" — the unique unnamed thing only the founder can spot, without which the business is technically correct but soulless. The one dashboard number: **Revenue Per Person** — 50 people at £10M beats 100 people at £12M.
+
+**Deploy**:
+1. Score each of the 24 assets: remarkable / adequate / missing.
+2. Apply the **90-Day Yachting Test** — if you went to sea for 90 days, which assets keep working? Anything that dies without you is a job, not an asset.
+3. Apply the digital test: if it can't be emailed and reproduced, it won't scale.
+4. Track Revenue Per Person quarterly; invest in the two weakest asset categories, not the ones you enjoy.
+
+---
+
+### Hidden Knowledge #8: The Stranded Asset Partnership Play
+
+**Insight**: "Someone woke up this morning with exactly what you need." Every market is full of stranded assets — dormant email lists, unused capacity, forgotten relationships, uncommercialized IP, idle brand equity. Partnership is multiplication while solo effort is addition: Their Audience + Your Solution = revenue share; Their Distribution + Your Product = scale. The Dinner Party Protocol produced £4M in 6 months with zero ad spend: identify 30 potential partners → exclusive dinner (28 attended) → 26 one-on-one meetings → structured agreements. Never ask for partnership directly — create the conditions where partners propose it.
+
+**Deploy**:
+1. List 30 players holding assets stranded relative to your capability (inverse-strengths map: they have excess of what you need, you have excess of what they need).
+2. Convene, don't pitch: dinner, roundtable, or virtual mastermind.
+3. Pitch architecture when asked: "You're exceptional at [strength] but leaving money on the table with [gap]. What if we combined your [asset] with my [capability]? Happy to prove it works before we formalize anything."
+4. Climb the ladder: Transaction → Integration → Strategic Alliance → Equity. For creators: equity captures 10-50x more value than sponsorship fees (a sponsor paying £20K expects £200K of value — capture that instead).
+5. Every deal passes the Triple Win test: win for partner, win for you, win for the customer.
+
+---
+
+### Hidden Knowledge #9: The Invisible Selling Mechanics
+
+**Insight**: The tension-triangle diagnosis (Pattern 3) has a physical delivery layer rarely taught: a **17-second silence** after the big question (the prospect convinces themselves in the vacuum); price revealed only THIRD in sequence — after logic and emotion are both active; the **Logic-Emotion-Urgency triangle** (logic = spreadsheet-expressible ROI, emotion = a transformation story, urgency = real capacity limits — never attempt a sale without all three); and the **Reverse Close**: "What would you need to see to believe this would work?" — the prospect defines their own convincing strategy and you simply fulfill it.
+
+**Deploy**:
+1. Ask the tension question, then hold silence far past comfort (count 17 seconds).
+2. Sequence every sales conversation: logic case → emotional story → price → urgency (real scarcity only).
+3. When stalled, run the Reverse Close verbatim and deliver exactly what they name.
+4. Pre-frame objections as "normal concerns successful clients had."
+
+---
+
+### Hidden Knowledge #10: The Money Psychology Substrate
+
+**Insight**: Earning capacity is capped by emotional charge around money and by attention leaks. Priestley's private protocols: carry ~£1,000 in cash for months until money holds zero emotional charge (neutralize scarcity signaling before scaling prices); delete news consumption entirely to protect creative energy and abundance mindset; and treat school conditioning ("component labor" — being a plug-in worker) as the default program that entrepreneurship must actively unlearn.
+
+**Deploy**:
+1. Before raising prices, run the cash-carry protocol until quoting big numbers produces no flinch.
+2. Cut news/doom inputs for 90 days; reinvest the attention in asset creation.
+3. Audit your calendar for "component labor" hours — work that plugs into someone else's machine — and convert them to asset-building hours.

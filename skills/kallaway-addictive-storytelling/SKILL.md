@@ -26,7 +26,7 @@ Every piece of content is one of two things:
 
 All workflows in this domain convert vending machines into slot machines.
 
-## Workflows (10)
+## Workflows (11)
 
 ### Tier 1 — Foundation
 | Workflow | Slash Command | What It Does |
@@ -34,6 +34,7 @@ All workflows in this domain convert vending machines into slot machines.
 | `addiction-loop-diagnostic` | `/addiction-loop-diagnostic` | Audits any content for loop presence, coverage, and quality |
 | `addiction-loop-architect` | `/addiction-loop-architect` | Designs the complete loop blueprint before scripting |
 | `stakes-engineer` | `/stakes-engineer` | Engineers the three-component opening (Character + Risk + Urgency) |
+| `blank-page-script-engine` | `/blank-page-script-engine` | Raw topic → finished script: shock-scored facts, hook selection, 7-structure library, emotional payoff (upstream of the loop) |
 
 ### Tier 2 — Practitioner
 | Workflow | Slash Command | What It Does |
@@ -76,13 +77,14 @@ All outputs from this domain are evaluated on:
 ```
 skills/kallaway-addictive-storytelling/
 ├── SKILL.md                         ← You are here
-├── genius.md                        ← Core intelligence (8 patterns, 3 exemplars, 5 moves)
+├── genius.md                        ← Core intelligence (12 patterns, 3 exemplars, 5 moves)
 ├── references/
 │   └── addiction-loop-anatomy.md    ← Structural quick-reference
 └── workflows/
     ├── addiction-loop-diagnostic.md  ← Tier 1
     ├── addiction-loop-architect.md   ← Tier 1
     ├── stakes-engineer.md           ← Tier 1
+    ├── blank-page-script-engine.md  ← Tier 1 (upstream: topic → script skeleton)
     ├── head-fake-forge.md           ← Tier 2
     ├── rehook-architect.md          ← Tier 2
     ├── big-question-calibrator.md   ← Tier 2

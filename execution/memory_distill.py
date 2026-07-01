@@ -25,6 +25,7 @@ import asyncio
 import hashlib
 import json
 import math
+import os
 import sqlite3
 import sys
 from datetime import datetime, timedelta, timezone
@@ -59,17 +60,27 @@ def cosine(a: List[float], b: List[float]) -> float:
     return dot / (na * nb)
 
 
-def load_recent_episodic(days: int) -> List[Dict]:
-    """Pull recent episodic decisions with embeddings."""
+def load_recent_episodic(days: int, include_export: bool = False) -> List[Dict]:
+    """Pull recent episodic decisions with embeddings.
+
+    By default the large `claude-export` corpus (thousands of imported claude.ai
+    conversations) is EXCLUDED so the unattended weekly cron never floods the O(n^2)
+    clustering / human-review queue with it. Distill that corpus deliberately, in small
+    batches, via `--include-export` (or ANTIGRAVITY_DISTILL_INCLUDE_EXPORT=1)."""
     cutoff = (datetime.now(timezone.utc) - timedelta(days=days)).isoformat()
+    if os.environ.get("ANTIGRAVITY_DISTILL_INCLUDE_EXPORT") == "1":
+        include_export = True
     conn = sqlite3.connect(str(DB_PATH))
     conn.row_factory = sqlite3.Row
-    rows = conn.execute("""
+    where_export = "" if include_export else \
+        "AND (workspace IS NULL OR workspace != 'claude-export')"
+    rows = conn.execute(f"""
         SELECT id, category, content, embedding, metadata, created_at, workspace
         FROM memories
         WHERE tier = 'episodic'
           AND created_at >= ?
           AND embedding IS NOT NULL
+          {where_export}
         ORDER BY created_at ASC
     """, (cutoff,)).fetchall()
     conn.close()
@@ -282,13 +293,14 @@ def insert_flagged(proposal: Dict, judge: Dict, cluster: List[Dict]) -> Optional
 # ─────────────────────────────────────────────────────────
 
 async def distill(days: int, min_cluster: int, judge_threshold: float,
-                  dry_run: bool, max_clusters: Optional[int] = None) -> Dict:
+                  dry_run: bool, max_clusters: Optional[int] = None,
+                  include_export: bool = False) -> Dict:
     """Main distillation pass."""
     from gemini_client import GeminiClient, load_env
     load_env()
     client = GeminiClient()
 
-    rows = load_recent_episodic(days)
+    rows = load_recent_episodic(days, include_export=include_export)
     print(f"Loaded {len(rows)} recent episodic memories from last {days}d")
     clusters = cluster_by_cosine(rows, min_cluster=min_cluster)
     print(f"Found {len(clusters)} clusters with >= {min_cluster} members")
@@ -376,6 +388,9 @@ def main() -> int:
                        help=f"Min judge score to flag (default {DEFAULT_JUDGE_THRESHOLD})")
     parser.add_argument("--max-clusters", type=int, help="Cap clusters processed (testing)")
     parser.add_argument("--dry-run", action="store_true", help="Don't write to flagged_review")
+    parser.add_argument("--include-export", action="store_true",
+                        help="Include the claude-export workspace (excluded by default to protect "
+                             "the weekly cron; use for deliberate, small, batched enrichment)")
     parser.add_argument("--json", action="store_true", help="JSON summary output")
     args = parser.parse_args()
 
@@ -383,6 +398,7 @@ def main() -> int:
 
     summary = asyncio.run(distill(
         days=args.days,
+        include_export=args.include_export,
         min_cluster=args.min_cluster,
         judge_threshold=args.judge_threshold,
         dry_run=dry_run,

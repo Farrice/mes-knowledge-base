@@ -203,3 +203,59 @@ The agency must understand the creator flywheel — the media company component,
 | New media world-building | Grace Andrews Media Company | `/grace-city-blueprint` |
 | Brand voice for all pod output | Ghostwriting Voice Engine | `/voice-document` |
 | Agency partner evaluation | Luke Iha Client Mastery | `/client-conversion` |
+
+---
+
+### Patterns from claude.ai export — Oren John conversations (2026-07-01)
+
+Source: Oren John's "2026 Creative Trend Predictions" talk (hooks + virality + storytelling), extracted from the claude.ai export. Net-new layers not covered by Patterns 1-N above.
+
+#### The 60-Day Bar (Hook-Rate Obsession)
+
+When views or ad performance drop, the cause is almost never the algorithm — "it's literally everyone is getting better." Enablement content, better creators, and better editors raise the competitive bar roughly every 60 days, and 90% of performance comes down to the first 3 seconds, where every 0.1 second matters.
+
+**Execute**: Ban algorithm/Andromeda excuses in performance reviews. Institute the monthly pod question: "What named tactic are we applying to hooks this month / at this shoot?" Re-audit the hook approach every 60 days — any opening formula older than that is stale by definition. Run `/oren-hook-stack-2026` for the full tactic library (animated title + background removal, first-5-second animation blitz, overlay swipe/mood-board grid, creator transition tools, format switch).
+
+**Success Metric**: Hook approach changes at least every 60 days; 3-second hold rate trends up against your own prior control, not against a fixed benchmark.
+
+#### AI Hooks, Not AI Videos
+
+Full AI UGC does not perform in real ad accounts ("we test everything — that does not work super well"). What works is AI for the first couple of seconds only: an impossible visual (Revolve rendered as the Hollywood sign) that hooks, then transitions into real content. Brands that make the AI visual the entire asset (as Revolve did organically) waste the device.
+
+**Execute**: Confine AI generation to the 1-3 second opening. Script the transition into authentic footage before generating anything. Treat the AI moment as a hook layer inside `/oren-hook-stack-2026`, never as the content itself.
+
+**Success Metric**: AI-hook variants beat non-AI controls on 3-second hold WITHOUT depressing completion rate (the tell that the AI moment over-promised).
+
+#### Production Elevation Math (Settings + Sub-$500 Key Items)
+
+The 2026 retention play is *slightly* more production, never expensive production. Two levers: (1) **Settings** — if you're paying $200/video × 5 UGC videos, add ~$500-600 on top for a luxury-hotel day or Peerspace set that serves the whole batch; the Laneige benchmark opens with 5 seconds of overhead hotel shots before the famous creator's face even appears. (2) **Key items** — one sub-$500 recurring object (a ~$200 "it" bag in a themed campaign, an opaque shelf/closet that opens for a reveal) elevates every video it appears in and becomes part of the content narrative.
+
+**Execute**: Run `/oren-production-elevation` before each content batch. Budget elevation as a ≤60% add-on to creator fees, judged at batch level as winning-asset hunting (1-2 assets that graduate to paid), not per-video polish. Every setting/item must serve ≥5 videos.
+
+**Success Metric**: Elevated batches produce a top asset that beats the prior batch's best on hold rate; winning settings/items become standing infrastructure.
+
+#### Virality-First Top-of-Funnel Is a Paid Targeting Asset
+
+Organic top-of-funnel has ONE goal: the right consumer seeing the brand at scale. It doesn't have to mention the product — a skit lightly related to the brand that pulls a million views works via the graduation mechanic: viewers who engage get shown your midfunnel (product/value) content next, and "you cannot improve the number of people that enter the middle without putting stuff on top." Critically, this compounds into paid: Meta builds its picture of your targetable audience partly from who views and follows your organic content — **as organic TOF expands, so does Meta's ability to target and scale**. Two proven TOF formats: creative organic clips built purely for virality (brands making games of their products, models playing tennis in the dresses), and social shows with recurring characters where the product is set-dressing (Bilt's "Roomies," Low House's glasses always on screen).
+
+**Execute**: Stop grading TOF content on product mentions or conversions — grade it on qualified reach. Allocate explicit product-optional TOF slots in the pod's weekly output, then verify the midfunnel graduation path exists before scaling TOF spend. Wire this into `/oren-content-flywheel` and `/oren-paid-organic-bridge` (the bridge's asset graduation is one direction; this audience-signal mechanic is the other).
+
+**Success Metric**: New-audience reach per month grows; paid CAC improves in the quarters following TOF expansion because Meta's seed audience got bigger and better.
+
+#### The Midfunnel Shift: Tips Are Commodified, Expert Storytelling Is the New Value
+
+Last cycle's midfunnel — value tips, how-to-use-your-product, bookmarkable education — is now commodified; "if you're just giving a tip or showing how to do something, it's only going so far." The new midfunnel is **expert storytelling with a person attached**: a resale-bag brand's creator narrating the history of a specific Chanel bag, a paint brand showing the mixing process and the thought behind a color inside their facility, Ken Sakata teaching Tom Ford's vision-finding as credibility scaffolding for his own clothing brand. The format spec is deliberately cheap: person in a credible environment, image overlays, a real narrative — "not the hardest thing to edit; it just requires a good story and a good personality."
+
+**Execute**: Audit your midfunnel: any post that is a naked tip gets rebuilt as a story told by a person — history, process, or philosophy behind the thing you sell. Cast the personality first (founder, in-house expert, or contracted recurring creator), then assign narratives. Feed into `/oren-founder-content` or `/oren-signature-series` for the recurring vehicle.
+
+**Success Metric**: Midfunnel content earns follows and profile visits (credibility signals), not just saves; the storyteller becomes recognizably associated with the brand within a quarter.
+
+#### Hidden Knowledge
+
+**Insight — Recurring Personality Credibility Compounds Across Organic AND Paid**: When the same creator/character makes your organic content and your ad creative, and both hit the same targeting audience, the ads inherit the credibility the organic built — "it's going to improve its efficacy and it has to be thought about within that same story framework." A rotating cast of one-off UGC faces forfeits this compounding entirely.
+
+**Deploy**: Contract UGC creators on recurring monthly relationships rather than one-off batches. When a creator's organic content works, run that same person's assets as ads to the audience their organic content built. Make "same face, same audience, same story framework" a standing brief rule in `/oren-creator-network`.
+
+**Insight — The B-Minus B2B Asymmetry**: B2B and services brands assume consumer content tactics don't apply to them — which is exactly why they do. "If you just do it at a B-minus level, you're so far above who you're competing with that you're going to smash." Oren's Vanta thought experiment: SOC 2 compliance content as cybersecurity thriller, ASMR coding videos, an interesting personality workshopping dull topics — the personality + TOF mechanics transfer wholesale even when props/settings tactics don't.
+
+**Deploy**: When a B2B client objects "this doesn't apply to us," translate rather than retreat: keep the personality-development and top-of-funnel targeting mechanics, swap consumer props for industry storytelling. Aim for B-minus consumer-grade execution and let the competitive vacuum do the rest. Pair with `/oren-boring-industry-excavation` (brand-archetypes skill) for angle generation.

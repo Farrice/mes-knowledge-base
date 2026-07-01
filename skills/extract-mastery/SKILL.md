@@ -1,0 +1,27 @@
+---
+name: "MES 3.0 — Mastery Extraction & Expert Replication"
+version: "2.0"
+format: "completion-engine"
+workflows: 3
+source: "claude.ai project export (2026-07-01)"
+description: "Battle-tested methodology that decodes any expert's conscious AND unconscious mastery from source material, forges it into copy-paste-deployable Crown Jewel prompts, and designs the pathway to surpass the original expert within 30 days."
+---
+# MES 3.0 — Mastery Extraction & Expert Replication
+
+The Mastery Extraction System (MES 3.0) is Farrice's flagship expertise-extraction IP: an "Elite Cognitive Architect" that treats expert content as a decodable system, reaching the tacit-knowledge layer through 4-layer cognitive archaeology and converting it into deployable capability. The core genius: **don't just extract what an expert says — decode the unconscious competence they can't articulate, encode it as an executable practitioner-mode prompt, then engineer the path to exceed them.** Extract → Replicate → Automate → Simulate → Surpass → Transcend.
+
+## Relationship to `/extract-forge`
+MES 3.0 is the **underlying methodology and evaluator layer** beneath the system's existing `/extract` and `/extract-forge` workflows. Where `/extract-forge` runs the operational end-to-end extraction pipeline (ungated, telemetry-only), MES 3.0 supplies the *quality bar and decoding discipline* those workflows aspire to: the 4-layer archaeology, the Crown Jewel / practitioner-mode prompt standard, the auto-split delivery protocol, and the transcendence-opportunity scan. Use this skill when you want the rigorous evaluator's version of an extraction — or to grade/repair an extraction another workflow produced. It composes with, never replaces, the existing extraction spine.
+
+## Available Workflows
+| # | Workflow | Produces | Use When |
+|---|----------|----------|----------|
+| 01 | [extract-virtuoso-mastery](workflows/01-extract-virtuoso-mastery.md) | Complete Virtuoso Mastery Extraction Report (Content Assessment → genius patterns → hidden knowledge → 4-level methodology → 30-day pathway) | You have raw expert source material (interview, course, book, video, sales page) and need the full decoded mastery framework |
+| 02 | [forge-crown-jewel-prompts](workflows/02-forge-crown-jewel-prompts.md) | 7 self-contained, practitioner-mode "Crown Jewel" prompt artifacts, each with 2 concrete 500+ word examples | You have an extraction report and want deployable skill-download prompts that produce expert-level deliverables zero-shot |
+| 03 | [design-transcendence-path](workflows/03-design-transcendence-path.md) | Transcendence Opportunities dossier (hidden patterns, cross-domain transfers, tech amplification, constraint removal) + Five-Pillar surpassing plan | You've replicated the expert and want the systematic pathway to exceed them and open new markets |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Front door**: point this skill at any expert content; default to Workflow 01 when raw content is provided with no command
+- **Non-negotiable standard**: every output is virtuoso-level, concrete-example-driven, 30-day-timelined, and battle-tested (proven frameworks, never theory)
+- **Complementary skills**: `extract-forge` / `extract` (operational extraction spine), `omar-eltakrori` (teaching-to-sell the downloaded skill), `luke-iha-copy-blocks` (deploying extracted copy methods)

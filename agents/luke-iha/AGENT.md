@@ -44,6 +44,8 @@ Strategy + career architecture:
 - **Offer Cycling** — Detect → Build → Ride → Rotate *(v2.0)*
 - **12 Types of Leverage** — Multiply impact beyond time-for-money *(v2.0)*
 - **Category of One Positioning** — Specificity beats excellence *(v2.0)*
+- **Seven-Layer Decision Stack** — All marketing = stacked decisions; audit top-down, test where cheap *(2026-07)*
+- **Control-Beating Review (Reverse Beat Map)** — Beat inventory vs the control + UMP Trigger gap + micro-lead battery + character casting *(2026-07)*
 
 ### Domain 3: Unaware Advertising
 **Skill**: `luke-iha-unaware-ads`

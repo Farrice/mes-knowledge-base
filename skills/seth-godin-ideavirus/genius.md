@@ -85,6 +85,44 @@ Separate the "virus" (what spreads for free) from the "souvenir" (what people pa
 
 ---
 
+### Patterns from claude.ai export — Seth Godin conversations (2026-07-01)
+
+> Source: Farrice's extraction conversations of "This is Strategy" (Tim Ferriss), "The Strategy Expert" (Natalie Ellis), and "Magnetic Brand" interviews. Net-new spread mechanics the 8-variable framework above doesn't cover: what the virus should be anchored to, how to enter defended markets, and the tests that prove a network effect exists.
+
+#### Pattern 11: The Insatiable Desire Anchor
+**Execute**: Before engineering spread, anchor the idea to a desire that refreshes and never saturates — caffeine ("pre-caffeinated to caffeinated, refreshed every single day"), status, connection. Shoes fail this test: "once someone's closet is filled, the only way for them to buy new shoes is to get rid of the old ones." An ideavirus anchored to a saturable desire dies at closet-full; one anchored to an insatiable desire compounds.
+**Success Metric**: The core desire named and classified (insatiable vs. saturable) before any viral engineering begins
+
+#### Pattern 12: The Network Effect Triple Test
+**Execute**: A real network effect passes at least one of three sentences, spoken honestly by the CUSTOMER: (1) "It works better when I tell my friends." (2) "It works better when I have more of it." (3) "It works better when I do it again." If none is true, you have a product hoping for word-of-mouth, not a network — go redesign before promoting. Distinguish feedback loops correctly: negative = thermostat (stabilizes), positive = the screeching wedding microphone (amplifies). You're building the microphone.
+**Success Metric**: At least one triple-test sentence verifiably true from the customer's mouth, not the founder's deck
+
+#### Pattern 13: The Compounding Head Start
+**Execute**: Design the project so each unit of output makes the next more valuable AND makes catching up impossible: "My blog in April is going to have post number 10,000 — no one's ever going to catch up to me. Each time there's another post it becomes more of what people signed up for." Consistency is a moat mechanic, not a virtue: keep a small head start by making each repetition deepen the promise subscribers already accepted.
+**Success Metric**: A countable, publicly visible accumulation (episodes, posts, editions) that a new entrant cannot replicate without serving the same years
+
+#### Pattern 14: Side-Door System Entry
+**Execute**: Never assault a defended system frontally. Google didn't hold meetings with ad agencies — they "walked away completely from that world," built a nickel-a-word auction for direct marketers nobody was serving, and then Chanel's brand manager googled himself, saw his name bought for a nickel, paid a dime to take it back — "and the auction was on." The system chased them. Ilana Glazer skipped Hollywood's front door via 2-minute YouTube videos. Find the people who aren't part of the system, delight them, and let the system come to you.
+**Success Metric**: Entry plan names the side door and the non-system audience; zero budget allocated to persuading incumbent gatekeepers
+
+#### Pattern 15: The Competitor-Referral Proof (Ferrari → Volvo)
+**Execute**: "If you are not regularly sending folks to your competitors, you are not serious about picking the audience it's for and forgiving everybody else." When the six-kids customer shows up at the Ferrari dealership, you send him to the Volvo dealer. Positioning = being able to answer "why are the people who DON'T buy from us right to make that choice?" If you can't answer, you're still selling to everyone.
+**Success Metric**: Named list of who you refuse-and-refer, and actual referrals sent monthly
+
+#### Pattern 16: The What-to-Expect Empathy Checklist
+**Execute**: You don't have to BE the audience to serve it ("you don't have to be a three-year-old to be a toy designer") — the nurses who wrote *What to Expect When You're Expecting* simply articulated what nervous pregnant moms feared, desired, and needed. Protocol: write the audience's top fears, desires, and needs as an explicit checklist, then work through it on purpose, again and again. "Don't wait for inspiration — do it on purpose, and then do it again."
+**Success Metric**: A written fears/desires/needs checklist that content and product decisions are audited against on every cycle
+
+#### Hidden Knowledge (2026-07-01 additions)
+
+**Insight**: Empathy is a spread variable, not a moral one. "Everything we make only works in a voluntary exchange — someone buys because they want it more than the money or time they trade for it. Nobody buys the thing at the craft fair because you worked really hard to make it." Effort is invisible to the market; wanting is everything.
+**Deploy**: Strip every "we worked so hard on this" and "passion" claim from launch copy; replace with the sentence the buyer would say about what THEY get.
+
+**Insight**: The B2B ideavirus spreads on career safety, not product merit. Inside a 100-person company, the buyer isn't spending their own money — "what that person wants is a story to tell their boss, and even better, a story of why they won't be in trouble if it fails" (the IBM/Microsoft 'nobody got fired for buying' strategy). Lowering price doesn't help; de-risking the champion's reputation does.
+**Deploy**: For B2B spread, package the champion's boss-story and the failure-insurance story as deliberately as the product story. The sneezer inside the org is transmitting career safety.
+
+---
+
 ## Hall of Fame Exemplars
 
 *   **Hotmail's "Get your free email at Hotmail" footer**: Every email sent by a Hotmail user automatically included a simple, clickable invitation for the recipient to get their own free Hotmail account.

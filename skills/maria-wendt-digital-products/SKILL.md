@@ -3,7 +3,7 @@ name: "Maria Wendt: Digital Product Mastery"
 description: "The complete zero-to-multi-million digital product system — research-first validation, outcome selling, value-based pricing, MVP velocity, trust-based audience building, and high-conversion sales optimization"
 version: "3.0"
 format: "completion-engine"
-workflows: 9
+workflows: 10
 ---
 
 # Maria Wendt: Digital Product Mastery
@@ -23,6 +23,7 @@ workflows: 9
 | trust | [Trust-First Audience Engine](workflows/07-trust-first-audience-engine.md) | Deep-niche audience strategy with content plan and trust-to-sale conversion | You need to build audience trust so products sell naturally |
 | first | [First Sale Sprint](workflows/08-first-sale-sprint.md) | Complete first-sale action plan: micro-product, 60-min creation, direct outreach scripts | You've never sold a digital product and need your first sale in 48 hours |
 | sales | [Sales Page & Messaging Optimizer](workflows/09-sales-page-messaging-optimizer.md) | High-converting sales page blueprint with headline battery, clarity audit, testimonial and urgency strategy | Your product exists but messaging isn't converting |
+| metrics | [Revenue-Metric Optimization Engine](workflows/10-revenue-metric-optimization-engine.md) | Tactical optimization plan: tri-channel revenue split, $5 ad kill/scale ladder, email psychology rhythm, vulnerability-profit hooks, and a numeric health dashboard | Your product already sells and you want to scale the numbers (Instagram/email/ads tactical optimization) |
 
 ## Recommended Workflow Chains
 
@@ -31,7 +32,8 @@ workflows: 9
 | **Absolute beginner, zero to first sale** | `first` → `sales` → `trust` |
 | **Idea to launch (full pipeline)** | `research` → `price` → `sales` → `trust` |
 | **Existing product not selling** | `business` → `sales` → `trust` |
-| **Scale what's already working** | `viral` → `high` → `instagram` |
+| **Scale what's already working** | `viral` → `high` → `instagram` → `metrics` |
+| **Optimize a product that already sells (numbers)** | `metrics` → `instagram` |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

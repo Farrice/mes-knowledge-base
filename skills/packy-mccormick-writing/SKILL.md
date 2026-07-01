@@ -1,0 +1,32 @@
+---
+name: packy-mccormick-writing
+description: Packy McCormick's (Not Boring) online writing methodology — alpha-content deep dives, ski-run introductions, maze-restart drafting, strike-gold research, counter-positioned voice, and the naming-the-unnamed mechanics behind viral pieces like The Great Online Game.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Packy McCormick — Online Writing Mastery (Not Boring)
+
+Packy McCormick built Not Boring from a Write of Passage assignment to 150K+ subscribers and a venture fund by writing weekly 5,000-10,000 word essays that make complex tech and business "not boring" — the standing goal is that every deep dive becomes the best piece ever written about its subject ("finally my mom understands what I do"). His method is intentionally messy on the surface (six discarded drafts, 4:30 AM rewrites) but rests on precise machinery: alpha content over beta content, an introduction that sets the ski line for the whole piece, obsessive primary-source research that strikes gold, and a voice counter-positioned against the incumbents he could never out-serious.
+
+## Available Workflows
+
+| Workflow | Command Intent | Produces |
+|---|---|---|
+| `01-write-deep-dive.md` | Write a definitive long-form deep dive on a company, technology, or topic | Best-piece-ever-written essay with framing intro, gold-source research, and drafts-to-final path |
+| `02-package-and-name-idea.md` | Package or name an observed-but-unnamed phenomenon into a spreadable concept piece | Named concept + title/first-move packaging + actionable payoff (Great Online Game mechanics) |
+| `03-develop-writing-voice.md` | Develop or audit a sustainable, counter-positioned writing voice | Personal-monopoly voice definition + counter-positioning map + weekly-sustainability check |
+
+## Quick Reference
+
+- **Beta vs alpha**: "AI will change the world" is beta content — everyone writes it, nobody gets smarter. Alpha = the piece nobody else can or will write. If a reader won't get smarter, don't write it.
+- **The ski run**: spend most of your writing time on the introduction. Figure out your line down the mountain; once the framing is set, every section falls into place.
+- **The maze restart**: never edit a bad draft in place. Keep a V0 dump doc, then start completely fresh — each restart, you understand the piece better and pick a truer path.
+- **Marble, not statue**: capture the excitement draft while you're still excited. "I'm not trying to make a statue, I just need marble."
+- **Just dumb enough**: the writer's job is to figure the thing out alongside (or just before) the audience. Too much expertise kills the explanation.
+- **Strike gold**: two days of obsessive primary-source digging (the leaked memo, the assembled spreadsheet) beats ten days of synthesis. Readers love an uncovered gem.
+- **Respect via hyperlink**: treat readers as smart and curious; embed context in links instead of explaining. Attract the right readers, repel the wrong ones.
+- **Name the unnamed**: virality = putting into words a thing everyone has noticed but nobody has named, plus something they can go do about it.
+- **Surrender to who you are**: you can lie to yourself for piece 3, not for piece 200. A voice you can't physically sustain weekly is the wrong voice.

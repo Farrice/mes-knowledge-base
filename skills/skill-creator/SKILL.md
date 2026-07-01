@@ -354,3 +354,11 @@ After testing the skill, users may request improvements. Often this happens righ
 2. Notice struggles or inefficiencies
 3. Identify how SKILL.md or bundled resources should be updated
 4. Implement changes and test again
+
+## Available Workflows
+
+Advanced, optional rigor gates that wrap the 6-step process above. Load only when you want measured quality beyond a structurally-valid package. See `genius.md` for the underlying patterns.
+
+| Workflow | When to use |
+|----------|-------------|
+| `workflows/01-evaluation-driven-token-optimization.md` | When building or editing a skill to a high bar: author evaluation scenarios BEFORE writing docs (measure the baseline gap, build only what closes it), then run a deterministic token/description/security optimization pass before packaging, then re-measure. |

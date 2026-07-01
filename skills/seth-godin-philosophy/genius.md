@@ -144,6 +144,67 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 *   **The "Architect or Victim?" Check-in**: At the start of a challenging day or project, consciously asks, "Am I operating from an 'architect' mindset (I can design my circumstances) or a 'victim' mindset (circumstances control me)?" and then chooses to embody the architect.
     → **Deploy when**: Feeling stuck, facing a major decision, or needing a mindset shift.
 
+### Patterns from claude.ai export — Seth Godin conversations (2026-07-01)
+
+> Source: Farrice's extraction conversations of "This is Strategy" (Tim Ferriss), Greenwich Library lecture, "Toxic World of Self-Help" (DOAC), "Reinvention After 50" (Chip Conley), and "Strategy as a Superpower." Net-new layer: strategy as a discipline — absent from the resistance/shipping psychology above.
+
+#### Pattern 15: Strategy = Philosophy of Becoming
+**Execute**: Before any tactical work, write the strategy sentence: "The change we seek to make is [X], for [who we seek to change], committed over [long-term horizon]." Tactics change all the time; the strategy does not. If a decision would change your strategy to protect a tactic, you have tactics, not strategy.
+**Success Metric**: Strategy sentence survives 12 months unchanged while tactics visibly rotate
+
+#### Pattern 16: The Four Threads (Systems, Time, Games, Empathy)
+**Execute**: Audit any venture against Godin's four threads before committing: (1) SYSTEMS — what invisible forces and incentives govern this space? (2) TIME — what does this look like at the 10-year horizon, and what conditions must be set today? (3) GAMES — who are the players, what's scarce, what moves are available? (4) EMPATHY — who wants this more than the money/time they'd trade for it? Once you see all four, "strategy is much easier to take care of itself."
+**Success Metric**: All four threads answered in writing before resources committed
+
+#### Pattern 17: Systems Sight
+**Execute**: Systems are invisible and "invent culture to defend themselves" (tuition + tenure + SATs + the sticker on the car = the college system). Name the system's elements: Where is the gravity? What is treated as normal? What produces pushback when violated? Then decide explicitly: does the system work for you, or do you work for the system? Watch for systems under stress — that's when they become visible, and visibility = opportunity.
+**Success Metric**: The system's gravity, "normal," and pushback points named in writing before entering any market
+
+#### Pattern 18: You Are Traffic
+**Execute**: "You're not sitting in traffic — you ARE traffic." Participation in a system changes the system. Either make the system more successful and collect its prize, or fight it (which demands enormous kindling). No neutral position exists. Before complaining about a system, identify how your participation feeds it.
+**Success Metric**: Written answer to "is my participation feeding the thing I claim to oppose?"
+
+#### Pattern 19: Kindling Before Logs
+**Execute**: "Don't try to burn big logs if you only have a little bit of kindling." Match resources to market size: a $100K loan can't launch a 40-city dialysis chain but funds a superb hot dog cart. Ask before any launch: do I have enough kindling (money, reputation, audience, proof) for THIS log? If not, either gather more kindling (JVs, licensing, non-dilutive money, stepwise Kickstarter runs) or pick a smaller log.
+**Success Metric**: Explicit kindling-to-log ratio check documented before launch; no "raise big, change the world overnight" plays
+
+#### Pattern 20: Time Horizon Arbitrage
+**Execute**: See time the way your competition doesn't. Sergey Brin, 2001: "We don't want people to use Google for the first time right away — we want them to use it later, when it's better. The Google of now only exists to get us to the Google of tomorrow." Bezos: absorb today's expensive-feeling move because it establishes the conditions for year five. Ask: what step today is cheap ONLY when priced against the 10-year outcome?
+**Success Metric**: At least one active decision that looks wrong at the quarterly horizon and obviously right at the decade horizon
+
+#### Pattern 21: Moves, Not Verdicts
+**Execute**: In any game (multiple players + variable outcomes + scarcity = a game), a failed attempt is "a move that did not work" — never "I am a bad person." High performers make MORE moves, measure them, and don't repeat the ones that fail. Innovation must always be accompanied by "this might not work" — if your team never says it, you're not innovating.
+**Success Metric**: Failure post-mortems name the move, not the person; move volume tracked as a KPI
+
+#### Pattern 22: Good Decision ≠ Good Outcome
+**Execute**: (Via Annie Duke) "If you buy a lottery ticket and win, you made a bad decision and got lucky." Grade decisions ONLY on: given who I am now, what I see now, what matters now, was this the best available path? What happens after is out of your control. Never re-grade a decision using information that arrived later.
+**Success Metric**: Decision journal grades process at decision time; outcomes logged separately and never used to retroactively re-score
+
+#### Pattern 23: Constraints Are the Point
+**Execute**: "Constraints are not a problem. Constraints are the point. Problems always have solutions — the reason there are problems is that people aren't comfortable with the constraints." Godin's own: "If I can't be home for dinner, I'm not going" — it cost money and was worth it. Work-life balance doesn't exist; there's just life, and loosening a constraint changes the life. State your constraints as identity, not as obstacles to optimize away.
+**Success Metric**: Core constraints written as commitments ("I don't X") with the accepted cost named next to each
+
+#### Pattern 24: The Tomorrow-Once No
+**Execute**: "I only get tomorrow once — who do I want to offer it to?" Every no returns time, and the returned time creates an obligation: turning down the Bali speech = five days back, and now you're "on the hook to do something really productive with those five days." Pair every significant no with a named redeployment of the recovered time.
+**Success Metric**: Each major no logged with its recovered hours AND what those hours were re-invested in
+
+#### Pattern 25: Chrysalis, Not Crisis
+**Execute**: Reinvention protocol from the post-Yoyodyne 9-month funk: acknowledge the feelings without letting them become permanent; refuse the "greatest hits album" story ("there's never going to be another song on it"); re-enter at a new pace and scale ("I'm an author. I don't have a giant team and I can go at this new pace"). The mirror answer that works is not "I'm a shell of my former self" but "I have a chance to begin again with better material."
+**Success Metric**: Transition narrative rewritten from loss ("it's over") to redesign ("new pace, new scale") within one working session
+
+#### Hidden Knowledge (2026-07-01 additions)
+
+**Insight**: "The mistake people make: if you find yourself saying 'I just need to get the word out — I've done all the hard part' — you haven't done the hard part. What you've done is waited for a miracle." Distribution desperation is the diagnostic symptom that the empathy work (who it's for, why they want it) was skipped.
+**Deploy**: Whenever "get the word out" appears in a plan, stop and re-run who's-it-for/why-do-they-want-it before spending a dollar on reach.
+
+**Insight**: The insulation discipline. Godin still feels the sting ("I don't know how to not care — but I do know how to insulate myself"): he doesn't read Amazon reviews because "I'm never going to write that book again anyway, and hearing someone hated it tells me something about them, not about me." Caring isn't eliminated; exposure is engineered.
+**Deploy**: Build explicit input filters (what feedback you structurally never see) instead of pretending not to care. Feedback from outside the SVA gets respect, not time.
+
+**Insight**: Life decisions run on opportunity cost, not ROI. Chip Conley selling at the bottom of the market was financially wrong and life-right — and it's what made the Airbnb "modern elder" chapter possible. "Decisions aren't based on return on equity for the investors — they're based on investment in self and what's possible."
+**Deploy**: For any major life/business fork, price the path in years-of-life and doors-opened, not just dollars; a financially suboptimal move that opens the next chapter can be the good decision (Pattern 22 grades it at decision time).
+
+---
+
 ## Evolution Log
 
 > Tracks all evolution attempts — kept AND discarded.

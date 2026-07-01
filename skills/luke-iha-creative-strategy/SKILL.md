@@ -23,6 +23,8 @@ It also deploys his complete freelance business system: the 7-step Upwork master
 | 3 | **Client Acquisition Engine** | Proposal + objection handling + over-delivery strategy |
 | 4 | **Creative Strategy Brief Generator** | Strategic brief defining what to say, to whom, and why |
 | 5 | **Offer Cycling Engine** *(NEW v2.0)* | Hot offer detection, entry offer design, cycle rotation plan |
+| 6 | **Seven-Layer Decision Stack Audit** *(NEW 2026-07)* | Stack diagnosis of any marketing task + test-economics allocation plan |
+| 7 | **Control-Beating Review** *(NEW 2026-07)* | Reverse beat map vs the control, micro-lead battery, market interrogation, character casting |
 
 ## When to Use
 
@@ -33,6 +35,8 @@ It also deploys his complete freelance business system: the 7-step Upwork master
 - When building a portfolio from zero
 - When detecting hot market opportunities and cycling offers *(v2.0)*
 - When assessing career stage and planning the next Agency Ladder rung *(v2.0)*
+- When reviewing/diagnosing any marketing asset or "should I do X?" question — locate it on the decision stack first *(2026-07)*
+- When a challenger asset must beat an existing control *(2026-07)*
 
 ## Skill Stacking
 

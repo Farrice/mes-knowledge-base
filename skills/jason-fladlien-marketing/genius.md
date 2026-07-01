@@ -226,3 +226,91 @@ Competitors offered "We'll take you to China" as a bonus. Customers objected: "I
 - ❌ Ignoring the invisible — fears, costs, objections that go unspoken
 - ❌ Treating all markets as homogeneous (directionality: toward vs. away)
 - ❌ Copy that could have been written by any competent copywriter
+
+---
+
+### Patterns from claude.ai export — Jason Fladlien conversations (2026-07-01)
+
+Net-new patterns mined from 12 extraction conversations (One-to-Many webinar interviews, Product eClass 5.0 webinar, Project Mona Lisa / AI, NLP sales secrets, productivity panel with Joe Polish & Ben Hardy, $100M copywriting masterclass). Everything below is NOT covered by the 15 patterns above.
+
+#### 16. The Minimum Effective Teaching Dose
+- **Execute**: "Don't merely inform — transform." Teach the MINIMUM amount of information needed to create the transformation desired. Too much education is worse than not enough: it produces overwhelm, and an overwhelmed prospect does not buy and does not act. Definition of learning: if behavior didn't change, they didn't learn anything. Before any teaching segment ships, ask: "What non-essential and contradictive education can I remove so what's left is so crystal clear it's impossible to mess up?"
+- **Success Metric**: Attendees act on the content the same day AND conversion rises. "Amazing class, you taught me so much" with no purchases = over-teaching failure.
+
+#### 17. Emotional-State Mapping Per Segment
+- **Execute**: Attach an intended emotional state to EVERY part of a presentation before writing it. Ask of each segment: "What is the most likely emotional state somebody feels right here?" Rapid concept-stacking produces overwhelm/confusion — the failure states. Design the sequence of feelings first, content second.
+- **Success Metric**: You can name the target emotion of every 5-minute block; no block's honest answer is "overwhelmed."
+
+#### 18. Context-of-Content Reverse Build
+- **Execute**: "It's not content that matters so much — it's the context of the content." Build presentations BACKWARDS from the close: What do they need to hear immediately before the pitch for it to land? What do they need to hear before THAT? Chain backwards all the way to the introduction. Each segment exists only to create the context for the next.
+- **Success Metric**: Removing any segment breaks the chain. If a segment can be cut without weakening the close, it was content for content's sake.
+
+#### 19. Post-Webinar Extraction (The Tent-Pole Model)
+- **Execute**: The webinar is the tent pole of a campaign, not the point of sale. Most sales come AFTER the live event. When the formal presentation ends and people are still in the room, stay: "Why are you still here if you haven't bought? What's stopping you?" Work the room for hours — Fladlien built his frameworks doing 4-hour webinars at ~$500/hour post-pitch. Hard countdown timers spike live conversion but kill the replay: crickets. Front-loading sales paints you into a corner.
+- **Success Metric**: Post-event revenue (replay + follow-up + live overtime) meets or exceeds live-pitch revenue.
+
+#### 20. Campaign Economics, Never Conversion Rate
+- **Execute**: Refuse to judge a webinar by its conversion percentage ("Would you rather convert 100% of a $1 product or 1% of a $1M product?"). Measure net revenue per CAMPAIGN and earnings per attendee. Decide up front what role the webinar plays in the campaign, what share should close live vs. across the promotion cycle, and whether a second or third webinar belongs in the sequence.
+- **Success Metric**: A pre-committed campaign-level revenue target with the webinar's role defined — and no offer scrapped because one session converted "only" 3%.
+
+#### 21. The Multi-Webinar Campaign
+- **Execute**: The best campaigns are multiple UNIQUE webinars, not one webinar repeated. Template: Webinar 1 = the full framework ("here are the 4 steps"); Webinar 2 = deep-dive on the highest-leverage step ("let's look at just step 4"); Webinar 3 = pure decision event ("no more details — let's figure out if this makes sense for you"). Three unique webinars across a ~12-day campaign captures segments a single event never reaches.
+- **Success Metric**: Each successive webinar produces meaningful revenue from people who attended a prior one and didn't buy.
+
+#### 22. The E-Class Ladder (Demonstrate the Value With the Media You Sell)
+- **Execute**: Do one genuinely powerful FREE webinar, then close: "Want six more webinars like this? Sign up." The free session IS the proof — a free sample of the exact medium being sold. 4-6 paid sessions is the sweet spot (8 is too many); the final session of every e-class pitches the next e-class. This is also the lowest-fear way to learn selling: you're being paid to train, racking up hundreds of live reps.
+- **Success Metric**: The close requires almost no persuasion because the attendee has already experienced the deliverable.
+
+#### 23. Pick Up All the Bills
+- **Execute**: "There's a $100 bill, a $50, a $20, a $5 and a $1 in front of you — which do you pick up? All of them." Never kill a 2:1 channel because a 3:1 channel exists; it's all positive money. Run webinars AND VSLs AND stage AND follow-up. Stack 10-20 individually-modest opportunities and you get the tipping effect: top-of-mind preeminence where nobody can discuss your category without your name coming up.
+- **Success Metric**: No positive-ROI channel abandoned for a "better" one; unaided brand recall inside the niche.
+
+#### 24. The Brown Paper Bag Beta
+- **Execute**: Launch everything in beta before packaging. "If I slid the Mona Lisa across the table in a brown paper bag, it's still the Mona Lisa." Ugly slides, holes in the funnel, sometimes just an order form — the ONLY question is: does this resonate with a test audience? If yes, add polish. If no, nothing else matters — fix resonance or move on. Never optimize packaging before proving the painting.
+- **Success Metric**: Real sales from an unpolished offer before a dollar is spent on design, funnel software, or production values.
+
+#### 25. Habituation Watch & Close Retirement
+- **Execute**: Success is the ultimate failure: closes that get famous stop working (Fladlien retired closes he invented after Russell Brunson published them and a million marketers copied them). When the audience can guess your next word, switch it up — angles fatigue no matter how legitimate they are. Mine replacements live: ask non-buyers "Is there ANYTHING I could say or do that would ever get you to buy?" — then feed the answers back into the presentation, the emails, the invitation. There is no passive income: you're either innovating or dying.
+- **Success Metric**: A rotation calendar for closes/angles, and at least one live-mined objection folded into the next campaign's copy.
+
+#### 26. Only Play Games You Can Win
+- **Execute**: "I don't play games which I lose. It's not the games I play — it's the games I don't play." Fladlien turned down ~500 AI partnership offers (equity + fees included) because the advantage wasn't undeniable. Before engaging any project/client/market, demand an unfair advantage so obvious the customer barely has to pay attention to get excited. Corollary: be a just-in-time adopter — never early, never late; wait for the market to prove viability, then pounce fast.
+- **Success Metric**: A written pass-list. Your win rate is explained more by what you declined than what you shipped.
+
+#### 27. No-Like-and-Distrust (The Squint Test)
+- **Execute**: Invert know-like-trust: build offers so undeniable that someone who DISLIKES and DISTRUSTS you still buys. Mechanism: remove the need for trust entirely — risk reversal backed by a third party, "even if I screw everything up, I still win" math. Reject any improvement the customer has to squint to see; 10-30% gains that require setup effort are chores, not advantages. And judge value from THEIR lens: an audience can't tell a home-run script from a mediocre one at a glance, so sell what they can appreciate immediately.
+- **Success Metric**: A skeptic can articulate why they can't lose without your help; the advantage survives a 5-second glance.
+
+#### 28. One Problem, One Solution, One Sitting (The Quantity Leap)
+- **Execute**: Create info products that solve a SINGULAR problem with a SINGLE solution, built in ONE sitting, sold at an absurdly low price — then repeat relentlessly. Momentum beats perfection. Amplify each with the Four Multipliers: (1) **Better Than Free** — the buyer's time/money math makes NOT buying more expensive (a $9 ebook vs. 10 hours of research is better than free even at minimum wage); (2) **Pain Before Gain** — "before you sell the plan to heaven, provide the path out of hell"; sell Jane with the toothache, not Thomas who wants a whiter smile; (3) **Instant Gratification** — smaller results sooner beat bigger results later; deliver a same-day win; (4) **Hyper-Specificity** — narrow the promise until it's unmistakably for one person with one problem.
+- **Success Metric**: A shipped product per sitting; buyers report a result within 24 hours of purchase.
+
+#### 29. The Inevitable Success Frame
+- **Execute**: Structure output cadence so every outcome is a win: if the product sells well — money; if it flops — a free asset / bonus for the next product; if it does okay — do it again, and again. Some products flop, some do okay, a few change your life; the only losing move is not shipping. This kills the procrastination loop ("I've had the idea for 3 months but never got around to it") because there is no failure branch.
+- **Success Metric**: Zero half-baked ideas older than a week; flopped products redeployed as bonuses instead of buried.
+
+#### 30. Quantity Produces Quality (Copy & Career)
+- **Execute**: Most copywriters overcomplicate messaging and over-dress technique when the client needs QUANTITY more than quality — quality emerges from volume plus post-mortems ("run the film back: what did I learn?"). Hunt for clients where you can increase quantity immediately. Career sequencing: get a premium RESULT before charging a premium PRICE — "get the client to get the client"; a nine-figure name on your resume is worth more than today's fee. Sell character attributes (shows up, ships on deadline, takes feedback) when you have no portfolio — set expectations so low that shipping on time alone makes you remarkable.
+- **Success Metric**: Daily copy volume in front of live prospects with a post-mortem loop; pricing raised only after a bankable named result.
+
+#### Hidden Knowledge (net-new)
+
+**Page Nine of the 384-Page Book**
+- **Insight**: Inside every bestselling how-to book is ONE page (Fladlien's example: page 9 of a 384-page parenting book — four steps, usable the same day) carrying almost all the actionable value. You can gut 95% of any bestseller, isolate the one critical element, and sell it as an immediate-win product. A 10-page outcome at $7 beats a 384-page history lesson at $11.70.
+- **Deploy**: Product ideation — mine bestseller lists for the buried page-nine, package it as a one-sitting product with instant gratification.
+
+**Billionaires Do Less Than Millionaires**
+- **Insight**: Millionaires are good at ~100 things; billionaires are world-class at a FEW things to a degree nobody can match. The daily discipline: identify the ONE input that contributes most to the bigger future, do it first, and let the rest of the day be experimentation you're allowed to fail at.
+- **Deploy**: Client strategy and personal operating cadence — prune activities, not optimize them.
+
+**Channel-of-Acquisition Determines LTV**
+- **Insight**: VSL revenue was "pretty good," but lifetime value of a webinar-acquired customer was SIGNIFICANTLY higher — because the webinar empowers, and an empowered customer produces more, earns more, and buys more ("millionaires buy more products — they have more problems, better problems"). Create your future customers today so they tell you what future products to build tomorrow.
+- **Deploy**: Funnel selection — when LTV matters more than acquisition efficiency, pick the medium that transforms, not the one that's easiest to produce. Use VSLs when no education is needed, when a spokesperson must be hired/scripted/edited, or purely to rotate formats against fatigue.
+
+**One 10/10 Pitch Beats Five 9/10 Pitches**
+- **Insight**: Resist bridge-selling small offers before the main event — it spoils momentum. "Instead of five really weak sales pitches, create one ultra-strong sales pitch and it will outperform all of them combined. There are a lot of nine-out-of-tens out there; there's very rarely a 10-out-of-10 — and that one extra point makes all the difference."
+- **Deploy**: Campaign design — concentrate persuasion capital into one incomparable moment; only add pre-webinar offers when paid-traffic economics force it.
+
+**The Webinar Is the Only Ad That's Valuable If They Don't Buy**
+- **Insight**: Most advertising is annoying and only becomes valuable if you purchase. The webinar is a piece of advertising that is valuable in and of itself, regardless of purchase — which is why it can sell high-priced products in mass, in one sitting, that would otherwise need many touchpoints. It simultaneously educates, empowers, and sells in the same sitting.
+- **Deploy**: Positioning any content-that-sells: engineer it so a non-buyer still walks away better off — that's what makes the affiliate flywheel spin (95%+ of Fladlien's traffic is affiliates who send it because he converts).

@@ -185,3 +185,21 @@ Hidden in the sponsor segment but universally applicable: start with systems you
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+---
+
+### Patterns from claude.ai export — Oren John conversations (2026-07-01)
+
+Source: Oren John's "2026 Creative Trend Predictions" talk, extracted from the claude.ai export. Extends Pattern 1 (Reference Repository Architecture): the repository is the *storage* system — this is the *intake* discipline that fills it.
+
+#### Dedicated Scrolling with a Framework Quota
+
+Every strategist believes their casual scrolling counts as research; Oren is explicit that "it's really not." His practice: because his working category (beauty) doesn't appear in his personal feed, he runs **two dedicated 30-minute blocks** where he scrolls ONLY category-focused accounts, with a hard quota — "I need 10 bookmarks by the end of this with a framework." Each bookmark gets decomposed: *What happened in the first 3 seconds? What did they do to retain? Can I compress the only meaningful difference into a named, testable framework* (e.g., "it's a mood-board wipe — that's a thing we can test")?
+
+**Execute**: Calendar two 30-min category-locked scroll blocks weekly, on a feed/account list built for your working category (not your personal algorithm). Exit criteria per block: 10 bookmarks, each with (a) first-3-seconds breakdown, (b) retention device, (c) a NAMED framework of one sentence. Pipe the named frameworks into the Pattern 1 reference repository as testable rows, and into the monthly "what are we applying to hooks this month" answer.
+
+**Success Metric**: 10 named frameworks per session, every session; within 60 days your test backlog is fed entirely from your own extraction sessions rather than borrowed listicles — the same discipline that lets Oren "bang off hooks and concepts at the snap of his fingers."
+
+**Insight — Enforced category scrolling beats organic discovery**: The algorithm optimizes your feed for your *personal* taste, which silently starves you of intelligence on the category you're paid to win. The counterintuitive move is manufacturing an artificial feed for work.
+
+**Deploy**: Build a dedicated browser profile or secondary account that follows ONLY category accounts, competitors, and adjacent-category leaders. Never let personal engagement pollute it.

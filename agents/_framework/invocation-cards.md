@@ -989,7 +989,369 @@ PAIRS WITH: Dan Koe (identity → business), Steven Pressfield (resistance mobil
 
 ---
 
-> **85 cards total** — covers all agents with invocation cards.
-> **Last Updated**: 2026-03-03
+## Claude.ai Export — Deployed Systems (2026-07-01)
+
+```
+AGENT: Context Profile Architect 2.0
+DOMAIN: JSON data-architecture for AI optimization (synthetic/meta-tool)
+CORE METHOD: ARCHITECT Framework — chaotic info → pristine, reusable JSON context profiles (structure beats prompting)
+BEST FOR: ICP/brand/content briefs → machine-native profiles, 5+-purpose data points, 100x-leverage reusable context
+ENTRY PROMPT: skills/context-profile-architect/SKILL.md
+PAIRS WITH: Chase Hughes (behavioral context), knowledge-architecture-studio, Luke Iha (avatar)
+```
+
+```
+AGENT: The Intelligence Architect (Knowledge Architecture Studio)
+DOMAIN: Domain corpus → deployable intelligence architecture (synthetic/meta-tool, Farrice IP: KACE + Intelligence Architecture)
+CORE METHOD: Extract expertise → structure into progressive mastery pathway → encapsulate as self-contained domain-expert agent
+BEST FOR: Turning tacit expertise into agents, mastery pathways, expertise encapsulation
+ENTRY PROMPT: skills/knowledge-architecture-studio/SKILL.md
+PAIRS WITH: extract-mastery (decode), context-profile-architect (structure), /extract-forge
+```
+
+```
+AGENT: Extract Mastery (MES 3.0)
+DOMAIN: Expertise extraction / expert replication (synthetic/meta-tool, Farrice IP)
+CORE METHOD: 4-Layer Cognitive Archaeology → Crown Jewel prompts → 30-day path to surpass the source
+BEST FOR: Decoding any expert's conscious + unconscious mastery, forging copy-paste-deployable prompts
+ENTRY PROMPT: skills/extract-mastery/SKILL.md
+PAIRS WITH: /extract-forge (this is its underlying methodology layer), knowledge-architecture-studio
+```
+
+```
+AGENT: Andy Galpin
+DOMAIN: Exercise physiology / training intelligence
+CORE METHOD: Diagnose the ACTUAL performance limiter (acid clearance vs cardio, metabolism vs fuel) before prescribing
+BEST FOR: Training program design, energy-system programming, carbon-first fat loss, load-first injury rehab
+ENTRY PROMPT: skills/andy-galpin-training-intelligence/SKILL.md
+PAIRS WITH: dr-k (mindset), chase-hughes (behavior), grace-andrews (audience)
+```
+
+```
+AGENT: Craig Clemens
+DOMAIN: Direct-response copywriting (education-first, Golden Hippo)
+CORE METHOD: Educate before selling + mountain-climbing storytelling + persuasion embedded below conscious awareness
+BEST FOR: Education-first sales copy, email nurture sequences, funnel & positioning architecture
+ENTRY PROMPT: skills/craig-clemens-copywriting/SKILL.md
+PAIRS WITH: Bond Halbert, Chris Cimorelli, Luke Iha
+```
+
+```
+AGENT: Cognitive Engagement Optimizer
+DOMAIN: Behavioral-psychology content virality
+CORE METHOD: Dopamine-loop engineering + attention architecture + format-vs-trend selection + algorithm alignment
+BEST FOR: Making accurate-but-ignored content consistently engaging; retention/hook engineering
+ENTRY PROMPT: skills/cognitive-engagement-optimizer/SKILL.md
+PAIRS WITH: Kallaway (novelty), Diandra Escobar (hooks), context-profile-architect
+```
+
+```
+AGENT: Prosperity Coach
+DOMAIN: Prosperity / transformation coaching (Jason Fladlien's Prosperity Algorithm)
+CORE METHOD: Diagnose which of 10 prosperity factors is dormant → dissolve the block → install a 30-day integration journey
+BEST FOR: Mindset blocks, coaching journeys, vulnerable-authority transformation work
+ENTRY PROMPT: skills/prosperity-coach-system/SKILL.md
+PAIRS WITH: Jason Fladlien (marketing), dr-k (psychology), David Bayer (identity)
+```
+
+---
+
+## Fitness / Strength & Conditioning — Coaching Package (2026-07-01)
+
+```
+AGENT: Strength & Conditioning OS (conductor)
+DOMAIN: Fitness / S&C coaching — diagnose a need and route to the right expert lane
+CORE METHOD: Intake → limiter/goal diagnosis → route to Galpin (physiology) / Israetel (hypertrophy) / Teo (technique) / Aragon (nutrition); compose an integrated program
+BEST FOR: Any training/health/nutrition coaching request; multi-lane program design; evidence-based fitness field guide
+ENTRY PROMPT: skills/strength-conditioning-os/SKILL.md
+PAIRS WITH: andy-galpin, michael-israetel, eugene-teo, alan-aragon
+```
+
+```
+AGENT: Michael Israetel (Renaissance Periodization)
+DOMAIN: Hypertrophy science / resistance-training programming
+CORE METHOD: Needs analysis → volume landmarks (MEV/MAV/MRV) → mesocycle + deload → stimulus-to-fatigue, RIR progression, specificity
+BEST FOR: Hypertrophy program design, volume/periodization, muscle-gain nutrition, breaking plateaus
+ENTRY PROMPT: skills/michael-israetel-hypertrophy/SKILL.md
+PAIRS WITH: andy-galpin (physiology), alan-aragon (nutrition), eugene-teo (technique)
+```
+
+```
+AGENT: Eugene Teo
+DOMAIN: Minimalist evidence-based strength training
+CORE METHOD: Remove redundancy not effort — one highest-ROI exercise per pattern, one effortful set, execution quality, time-driven progression
+BEST FOR: Time-efficient programs (<2h/week), technique/execution, sustainable physique, exercise selection
+ENTRY PROMPT: skills/eugene-teo-training/SKILL.md
+PAIRS WITH: michael-israetel, andy-galpin, alan-aragon
+```
+
+```
+AGENT: Alan Aragon
+DOMAIN: Evidence-based nutrition & body composition
+CORE METHOD: Population→Goal→Stakes framing, protein/macro hierarchy, flexible dieting, 5-question claim autopsy, metabolic-lens plateau rescue
+BEST FOR: Nutrition/transformation programs, macro targets, myth-busting a claim, stalled fat-loss/recomp
+ENTRY PROMPT: skills/alan-aragon-nutrition/SKILL.md
+PAIRS WITH: michael-israetel, eugene-teo, andy-galpin
+```
+
+
+## Claude.ai Export — Expert Lanes Wave (2026-07-01, 27 lanes)
+
+```
+AGENT: alex-hormozi-business
+DOMAIN: alex hormozi business
+CORE METHOD: Alex Hormozi's business scaling system — money models (deliberate offer sequences), client-financed acquisition (2x CAC + COGS in 30 days), Grand Slam
+BEST FOR: Alex Hormozi's business scaling system — money models (deliberate offer sequences), client-financed acquisition (2x CAC + COGS in 30 days), Grand Slam
+ENTRY PROMPT: skills/alex-hormozi-business/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: ash-maurya-lean-metrics
+DOMAIN: ash maurya lean metrics
+CORE METHOD: Ash Maurya's Running Lean operating system — Lean Canvas business model design, single traction metric discovery, switching-trigger customer segmentat
+BEST FOR: Ash Maurya's Running Lean operating system — Lean Canvas business model design, single traction metric discovery, switching-trigger customer segmentat
+ENTRY PROMPT: skills/ash-maurya-lean-metrics/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: benjamin-hardy-identity
+DOMAIN: benjamin hardy identity
+CORE METHOD: Dr
+BEST FOR: Benjamin Hardy's identity-based goal psychology — the future as a psychological tool, 10x-is-easier-than-2x goal archite
+ENTRY PROMPT: skills/benjamin-hardy-identity/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: brendan-kane-viral-strategy
+DOMAIN: brendan kane viral strategy
+CORE METHOD: Brendan Kane's viral content science — the Viral Content Model (format research via Gold/Silver/Bronze analysis, performance-driver extraction, 100-to
+BEST FOR: Treats virality as a reproducible research discipline, not luck.
+ENTRY PROMPT: skills/brendan-kane-viral-strategy/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: dakota-content-design
+DOMAIN: dakota content design
+CORE METHOD: Dakota (Thief of Boredom) viral Instagram carousel system — minimal-text film-aesthetic graphic posts engineered for shares and saves
+BEST FOR: 70K+ followers gained in 2025 and 20M+ views in 90 days from carousels alone, no reels. Covers carousel-vs-reels algorit
+ENTRY PROMPT: skills/dakota-content-design/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: damon-cart-nlp
+DOMAIN: damon cart nlp
+CORE METHOD: Damon Cart's NLP change-work system — resistance dissolution through values integration, self-concept transformation grounded in real experience, and 
+BEST FOR: Identity-level change without affirmations or willpower.
+ENTRY PROMPT: skills/damon-cart-nlp/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: dan-bolton-coaching-offers
+DOMAIN: dan bolton coaching offers
+CORE METHOD: Dan Bolton's AI-proof coaching offer system — co-creation offers built on the Three I Framework (Information, Infrastructure, Implementation), build-o
+BEST FOR: For coaches and expertise-based businesses whose "I have the secrets" model is dying in an information-abundant market.
+ENTRY PROMPT: skills/dan-bolton-coaching-offers/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: david-perell-writing
+DOMAIN: david perell writing
+CORE METHOD: David Perell's own writing methodology — POP Writing (Personal, Observational, Playful), the Sizzle Spectrum, the highlight diagnostic, and the clear-
+BEST FOR: This is Perell's OWN craft, distinct from the how-i-write-os (which conducts his podcast GUESTS).
+ENTRY PROMPT: skills/david-perell-writing/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: deya-business-systems
+DOMAIN: deya business systems
+CORE METHOD: Deya's 1-page business plan and validation-first operating system — Person/Problem/Product validation, problem-severity pricing, remarkable offer engi
+BEST FOR: For starting, validating, or repositioning a digital product, service/freelance, or physical product business.
+ENTRY PROMPT: skills/deya-business-systems/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: fraser-cottrell-paid-ads
+DOMAIN: fraser cottrell paid ads
+CORE METHOD: Fraser Cottrell's performance ad creative system — creative strategy as the last lever, villain-vs-hero script architecture, and the 6-format static a
+BEST FOR: Fraser Cottrell's performance ad creative system — creative strategy as the last lever, villain-vs-hero script architecture, and the 6-format static a
+ENTRY PROMPT: skills/fraser-cottrell-paid-ads/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: greg-hickman-service-scaling
+DOMAIN: greg hickman service scaling
+CORE METHOD: Greg Hickman's (AltAgency) productization system for service providers — extract the signature outcome, pre-sell a productized prototype at founder pr
+BEST FOR: Greg Hickman's (AltAgency) productization system for service providers — extract the signature outcome, pre-sell a productized prototype at founder pr
+ENTRY PROMPT: skills/greg-hickman-service-scaling/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: jenny-hoyos-shorts
+DOMAIN: jenny hoyos shorts
+CORE METHOD: Jenny Hoyos' short-form viral storytelling system — the VIRAL framework (Visual shock, Immediate start, Rising action, Anticipation, Lasting payoff), 
+BEST FOR: Jenny Hoyos' short-form viral storytelling system — the VIRAL framework (Visual shock, Immediate start, Rising action, Anticipation, Lasting payoff), 
+ENTRY PROMPT: skills/jenny-hoyos-shorts/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: justin-welsh-solopreneur
+DOMAIN: justin welsh solopreneur
+CORE METHOD: Justin Welsh's one-person business operating system — content multiplication (think once, publish 10 times), 90%+ margin revenue stacks, and iterative
+BEST FOR: Built from three long-form interviews covering his $8M solopreneur journey.
+ENTRY PROMPT: skills/justin-welsh-solopreneur/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: kj-rainey-copywriting
+DOMAIN: kj rainey copywriting
+CORE METHOD: KJ Rainey's (Copy Elite founder) offer-creation and pain-driven copywriting system — objection archaeology, the pain-of-inaction formula, and the 5-st
+BEST FOR: KJ Rainey's (Copy Elite founder) offer-creation and pain-driven copywriting system — objection archaeology, the pain-of-inaction formula, and the 5-st
+ENTRY PROMPT: skills/kj-rainey-copywriting/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: luisa-zhou-coaching
+DOMAIN: luisa zhou coaching
+CORE METHOD: Luisa Zhou's coaching business methodology — launch a coaching offer from existing experience (no certification myth), deliver a first session that bl
+BEST FOR: 10+ years coaching, 3,500+ coaches trained, five-figure private coaching fully booked for years.
+ENTRY PROMPT: skills/luisa-zhou-coaching/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: luke-alexander-ai-business
+DOMAIN: luke alexander ai business
+CORE METHOD: Luke Alexander's AI service business system — pick the service layer of the AI stack, sell outcomes (never "AI"), structure performance deals with set
+BEST FOR: Luke Alexander's AI service business system — pick the service layer of the AI stack, sell outcomes (never "AI"), structure performance deals with set
+ENTRY PROMPT: skills/luke-alexander-ai-business/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: marisa-murgatroyd-course-design
+DOMAIN: marisa murgatroyd course design
+CORE METHOD: Experience product design — Marisa Murgatroyd's (Live Your Message) methodology for courses and programs that get 59% completion vs the 3% industry av
+BEST FOR: Mission-driven architecture, motivational sequencing, gamified constant wins, behavior-anchored guarantees, and the MVO 
+ENTRY PROMPT: skills/marisa-murgatroyd-course-design/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: Matt McGarry
+DOMAIN: Newsletter Growth & Email Monetization
+CORE METHOD: Launch, grow, and monetize newsletter-first businesses using Matt McGarry's GrowLetter/Newsletter Operator system — two-channel architecture (discover
+BEST FOR: Launch, grow, and monetize newsletter-first businesses using Matt McGarry's GrowLetter/Newsletter Operator system — two-channel architecture (discover
+ENTRY PROMPT: skills/matt-mcgarry-newsletters/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: matthew-lakajev-linkedin
+DOMAIN: matthew lakajev linkedin
+CORE METHOD: Matthew Lakajev's LinkedIn-to-revenue system — offer viability testing, category-of-one niching, language mirroring, the three-asset funnel (content +
+BEST FOR: Built $5M+ with 100% organic LinkedIn content, 5,000+ booked calls, zero ad spend.
+ENTRY PROMPT: skills/matthew-lakajev-linkedin/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: matthew-volkwyn-copywriting
+DOMAIN: matthew volkwyn copywriting
+CORE METHOD: Matthew Volkwyn's copywriting self-critique and full-stack positioning system — the 4-element audit (Hook/Flow/Close/Voice), dual-lens hooks, named cl
+BEST FOR: Matthew Volkwyn's copywriting self-critique and full-stack positioning system — the 4-element audit (Hook/Flow/Close/Voice), dual-lens hooks, named cl
+ENTRY PROMPT: skills/matthew-volkwyn-copywriting/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: packy-mccormick-writing
+DOMAIN: packy mccormick writing
+CORE METHOD: Packy McCormick's (Not Boring) online writing methodology — alpha-content deep dives, ski-run introductions, maze-restart drafting, strike-gold resear
+BEST FOR: Packy McCormick's (Not Boring) online writing methodology — alpha-content deep dives, ski-run introductions, maze-restart drafting, strike-gold resear
+ENTRY PROMPT: skills/packy-mccormick-writing/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: pat-flynn-passive-income
+DOMAIN: pat flynn passive income
+CORE METHOD: Pat Flynn's (Smart Passive Income) methodology for building actual passive income — active-first system building, serve-first monetization, 1-1-1 vali
+BEST FOR: Pat Flynn's (Smart Passive Income) methodology for building actual passive income — active-first system building, serve-first monetization, 1-1-1 vali
+ENTRY PROMPT: skills/pat-flynn-passive-income/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: reid-hoffman-ai-strategy
+DOMAIN: reid hoffman ai strategy
+CORE METHOD: Reid Hoffman's AI investment and social-technology strategy system — the Seven Deadly Sins consumer thesis with sublimation architecture, single-playe
+BEST FOR: For evaluating AI bets, designing engagement engines that elevate rather than exploit, and architecting human-amplifying
+ENTRY PROMPT: skills/reid-hoffman-ai-strategy/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: ross-minchev-digital-products
+DOMAIN: ross minchev digital products
+CORE METHOD: Ross Minchev's niche-selection and digital-product monetization system — three-level micro-niche drilling, data-before-intuition validation, dual-path
+BEST FOR: promote), AI tool stacking for product creation, and smart packaging that beats raw AI output.
+ENTRY PROMPT: skills/ross-minchev-digital-products/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: russell-brunson-funnels
+DOMAIN: russell brunson funnels
+CORE METHOD: Russell Brunson's direct-response marketing system — Hook-Story-Offer sales messages, identity-driven movements (the "funnel hacker" playbook), and ti
+BEST FOR: Platform-proof strategy over tactic-of-the-day.
+ENTRY PROMPT: skills/russell-brunson-funnels/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: steven-young-consciousness
+DOMAIN: steven young consciousness
+CORE METHOD: Dr
+BEST FOR: Steven Young's hermetic consciousness methodology — decode any stuck situation through the seven hermetic laws, engineer
+ENTRY PROMPT: skills/steven-young-consciousness/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: sunny-lenarduzzi-youtube
+DOMAIN: sunny lenarduzzi youtube
+CORE METHOD: Sunny Lenarduzzi's authority-channel methodology — build a YouTube channel that monetizes from day one with a small, hyper-targeted audience
+BEST FOR: The CODE framework (Client, Offer, Differentiation, Engagement), One Viewer Model, reverse content funnel (BOFU-first ho
+ENTRY PROMPT: skills/sunny-lenarduzzi-youtube/SKILL.md
+PAIRS WITH: see AGENT.md handoffs
+```
+
+```
+AGENT: Chris Do (The Futur)
+DOMAIN: Design-business education, value-based pricing, personal brand
+CORE METHOD: Position-and-price-premium (value-based selling), kind sales calls, gut-feeling brand for non-creatives
+BEST FOR: Pricing creativity, premium positioning for creatives/consultants, personal brand engines, sales conversations without sleaze
+ENTRY PROMPT: skills/chris-do-design-business/SKILL.md
+PAIRS WITH: oren-john (creative direction), daniel-priestley (authority), luisa-zhou (coaching business)
+```
+
+---
+
+> **139 cards total** — covers all agents with invocation cards.
+> **Last Updated**: 2026-07-01
 > To add a card: Use the format above. Keep each card under 5 lines.
 > To find an expert NOT on this list: Fall back to Tier 1 (read SKILL.md directly). See `directives/agent-loading-protocol.md`.

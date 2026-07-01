@@ -1,0 +1,30 @@
+---
+name: alex-hormozi-business
+description: Alex Hormozi's business scaling system — money models (deliberate offer sequences), client-financed acquisition (2x CAC + COGS in 30 days), Grand Slam offer construction via the value equation, and ruthless focus/constraint strategy from the $100M Offers/Leads/Money Models body of work.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Alex Hormozi — Business Scaling & Money Models
+
+Alex Hormozi is the founder of Acquisition.com, scaled Gym Launch to $2.2M/month in 20 months and Prestige Labs to ~$1.5M/month in six, and sold over a million books ($100M Offers, $100M Leads, Money Models). His core mechanic: engineer a deliberate sequence of offers so each customer generates more than 2x the cost of acquiring and serving them within 30 days — every customer arrives "preloaded" with the next one, so growth is financed by customers instead of capital. Around that engine sit two disciplines: offers priced against a value equation (sell the transformation, not the membership) and focus defined as the quality and quantity of things you say no to.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | [engineer-money-model](workflows/01-engineer-money-model.md) | A complete money model: attraction offer + upsell/downsell/continuity sequence with 30-day cash math |
+| 02 | [architect-grand-slam-offer](workflows/02-architect-grand-slam-offer.md) | A value-equation-maximized core offer with anchor, risk reversal, and no-based upsell scripting |
+| 03 | [force-strategic-focus](workflows/03-force-strategic-focus.md) | A one-thing focus decision + kill list: the single 12-month objective and everything pruned to serve it |
+
+## Quick Reference
+
+- **The golden number**: gross profit in 30 days > 2x (CAC + COGS). Hit it and customers finance acquisition; you can outspend every competitor in the ad auction.
+- **Money model = 4 buckets**: attraction offers (maximize conversion + upfront cash), upsells (maximize gross profit per customer), downsells (turn nos into yeses without cannibalizing full-price buyers), continuity (relationship that buys again and again).
+- **Sell at the point of greatest deprivation, not greatest value** — the steakhouse doesn't offer a second steak; it offers dessert. Five selling moments: immediately, after activation, halfway, last chance, milestone.
+- **Value equation**: Dream Outcome x Perceived Likelihood ÷ (Time Delay + Effort/Risk). Sell the transformation promise, never the cost-shaped membership.
+- **Psychological wallets**: the main stomach is full but the dessert stomach is empty. The second yes is easier than the first — never bundle the upsell into the core offer.
+- **Focus** = the quality and quantity of things you say no to. Strategy = prioritization of limited resources against unlimited opportunities.
+- **"We don't get customers to make sales. We make sales to get customers."**

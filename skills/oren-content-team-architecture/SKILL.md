@@ -1,9 +1,9 @@
 ---
 name: "Oren — Content-Team Architecture"
 description: "Design, staff, and scale content-first marketing teams — from 2-person pods to 20+ person media machines. Pod system, operating cadence, signature series, creator networks, founder content identity, and the brand-as-media-company transformation."
-version: "1.0"
+version: "1.1"
 format: "completion-engine"
-workflows: 12
+workflows: 14
 ---
 
 # Oren — Content-Team Architecture
@@ -30,6 +30,8 @@ Build world-class content teams that turn brands into media companies. This is t
 | network | [External Creator Network Builder](workflows/oren-creator-network.md) | Creator Sourcing Strategy + Brief Templates | Scaling content output through external contributors |
 | founder | [Founder-as-Character System](workflows/oren-founder-content.md) | Founder Content Identity Card + Channel Plan | Architecting the founder's content presence |
 | anchor | [Content Anchor Strategy](workflows/oren-anchor-strategy.md) | Anchor Selection + Activation Plan | Identifying what makes a brand's content world defensible |
+| hooks | [2026 Hook Stack Engineer](workflows/oren-hook-stack-2026.md) | Hook Diagnosis + Tactic Stack + Shot-Level Brief + Test Plan | Designing or upgrading the first 3 seconds of any organic video or paid asset |
+| elevate | [Production Elevation Planner](workflows/oren-production-elevation.md) | Settings Plan + Key-Item Shopping List + Batch Budget Add-On | UGC/in-house content looks like everyone else's; elevating affordably to chase winning assets |
 
 ### Tier 3 — Stacking
 

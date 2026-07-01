@@ -3,7 +3,7 @@ name: "Futurepedia Prompt Engineering"
 description: "The Expert Anchor System - 3-step framework for transforming generic AI outputs into expert-level, personalized execution through systematic knowledge extraction and context synthesis"
 version: "2.0"
 format: "completion-engine"
-workflows: 4
+workflows: 6
 ---
 
 # Futurepedia Prompt Engineering
@@ -20,6 +20,8 @@ Futurepedia reverse-engineered WHY AI gives generic advice (prediction engines f
 | multi | [Multi-Format Content Factory](workflows/multi-format-content-factory.md) | Integrated Content Distribution Suite (Slides, Infographics, Video Scripts) | You have a core concept or research base that needs to be deployed across multiple visual and digital channels. |
 | interactive | [Interactive Learning Ecosystem Design](workflows/interactive-learning-ecosystem-design.md) | Adaptive Study System and Persona-Driven Learning Environment | You want to create a personalized educational experience or a specialized internal training system. |
 | custom | [Custom AI Solution Architect](workflows/custom-ai-solution-architect.md) | Deployable Custom GPT/Gem Specification and Use Case Roadmap | You need to build a permanent AI tool or discover high-leverage opportunities for AI automation within a workflow. |
+| ecosystem | [Recursive Prompt Ecosystem Architect](workflows/recursive-prompt-ecosystem-architect.md) | Justified, folder-structured prompt ecosystem with per-prompt ROI blocks, reasoning-architecture selection, and a plan-mode gate | You need a whole SUITE of deployment-ready prompts (not one), with ROI justification, the right reasoning framework per task, and calibrated parameters. |
+| panel | [Emotional Expert-Panel Prompt Suite](workflows/emotional-expert-panel-prompt-suite.md) | Layered, expertise-tagged suite of 3-5 complementary prompts forming a coherent emotional journey | The prompt's success depends on emotional resonance and multi-expert layering, and you want a complementary suite (task/open/constraint) rather than a single prompt. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

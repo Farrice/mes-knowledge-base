@@ -1,0 +1,25 @@
+---
+name: "Craig Clemens — Education-First Direct-Response Copywriting"
+description: "Billion-dollar DR copy engine behind Golden Hippo's $2B+ empire. Leads with education before selling, uses mountain-climbing storytelling to meet audiences where they are, and embeds subtle persuasion below conscious awareness."
+version: "2.1"
+format: "completion-engine"
+workflows: 6
+source: "claude.ai project export (2026-07-01); enriched from 5 extraction conversations (2026-07-01)"
+---
+# Craig Clemens — Education-First Direct-Response Copywriting
+
+Craig Clemens helped build Golden Hippo into a $2B+ direct-to-consumer empire on one counterintuitive bet: teach first, sell second. The core genius is that education IS the sale — you earn the right to a conversion by first giving standalone value, then use mountain-climbing storytelling to meet the prospect exactly where their awareness is and walk them up to the buy. Every asset balances immediate conversion against long-term relationship, layers psychological imbeds beneath the surface, and defaults to the counterintuitive angle over conventional wisdom whenever the empirical test is a toss-up.
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|----------|----------|----------|
+| 01 | [write-education-first-sales-copy](workflows/01-write-education-first-sales-copy.md) | Long-form sales page / VSL script / advertorial | You need a conversion asset that teaches its way into the sale (headline → hook → Problem-Agitate-Solve → proof → objection handling → risk reversal → CTA) |
+| 02 | [build-email-nurture-sequence](workflows/02-build-email-nurture-sequence.md) | 5-9 email sequence with subject lines | You need to build desire over time, delivering standalone-valuable education that ladders to a conversion appropriate to relationship stage |
+| 03 | [architect-funnel-and-positioning](workflows/03-architect-funnel-and-positioning.md) | Funnel map + messaging framework | You need a complete acquisition→conversion→retention system or a counterintuitive positioning / big-idea messaging framework, not a single asset |
+| 04 | [engineer-human-hijack-campaign](workflows/04-engineer-human-hijack-campaign.md) | Seven Human Hijacks campaign concept (demonstration, event, proof, daily behavior, dream, rebellion) | You need a campaign/launch concept engineered on Craig's seven limbic levers — especially when a physical demonstration or category-creation moment is possible |
+| 05 | [run-bullet-forge](workflows/05-run-bullet-forge.md) | Prospect autobiography + ranked bullet bank + deployment map | Before ANY long-form asset: become the prospect, forge 20-40 curiosity bullets, and map the zingers into hooks/opens/closes/subject lines |
+| 06 | [diagnose-market-stage-and-rewrite-plan](workflows/06-diagnose-market-stage-and-rewrite-plan.md) | Market-stage verdict (Clueless/Curious/Saturated) + stage-matched lead + pre-committed rewrite/kill economics | Before entering a market or launching a flagship asset: which education stage is the market in, what may the lead open with, and what are the draft/kill rules |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow

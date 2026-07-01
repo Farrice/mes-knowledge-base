@@ -1,0 +1,31 @@
+---
+name: pat-flynn-passive-income
+description: Pat Flynn's (Smart Passive Income) methodology for building actual passive income — active-first system building, serve-first monetization, 1-1-1 validation, ethical affiliate marketing, and the 20% Itch Rule portfolio approach.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Pat Flynn — Passive Income Architecture
+
+Pat Flynn built a $7M+ portfolio of online businesses (SPI courses, affiliate partnerships, books, software, SwitchPod, Deep Pocket Monster) after being laid off from architecture in 2008 — and his core teaching is that passive income is never automatic. It is front-loaded active work (audience, proof, systems) that gets systematized so delivery no longer requires you. Every monetization decision runs through one filter: "Who am I serving and what do they need help with?" — never "What should I sell?"
+
+## Available Workflows
+
+| Workflow | Produces | Use When |
+|----------|----------|----------|
+| `01-architect-income-stream.md` | A complete active-to-passive income stream blueprint (niche, problem, offer, automation ladder) | Starting a new income stream or converting active work into systematized income |
+| `02-validate-with-one-person.md` | A 1-1-1 validation sprint plan + testimonial capture | Pre-launch doubt, imposter syndrome, or an unproven offer that needs its first result |
+| `03-audit-affiliate-ethics.md` | A serve-first affiliate portfolio audit with keep/cut/add verdicts | Choosing what to recommend, or checking existing promotions against the trust standard |
+
+## Quick Reference
+
+- **Passive is earned, not pressed**: hundreds of unpaid active hours (audience, proof, expertise) come before any automation pays.
+- **Wrong question**: "What should I sell?" **Right question**: "Who am I serving and what do they need help with?"
+- **1-1-1**: one person, one problem, one result → testimonial → confidence → scale.
+- **Bug-spray rule**: "kills all bugs" doesn't sell; "ant spray" does. Label the offer to the named problem.
+- **Affiliate ethics**: never choose by commission; promote only what you use and endorse — serve first always pays back.
+- **20% Itch Rule**: 80% to commitments, 20% protected for experiments (that's where SwitchPod and the Pokemon channel came from).
+- **Airport Test**: the 5-years-out "life is awesome" quadrant sheet is the yes/no filter for every opportunity.
+- **Best comment you can earn**: "I feel like you made this just for me."

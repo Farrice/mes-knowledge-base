@@ -8,9 +8,11 @@
 |------------|---------|-----------------|
 | `adam-enfroy` | **adam-enfroy** | ad revenue engineering, affiliate marketing with ai — hobby niche blogs generating $5k-$10k+/month, ai content velocity, hobby niche selection, infinite keyword loops, three-program affiliate focus, three-tier content funnel, traffic diversification, trust-first content |
 | `ai-chris-lee` | **ai-chris-lee** | 5-section loom architecture, feature-to-outcome conversion, permission-tax elimination, proof paradox escape, proof type selection, zero testimonial sales + proof building + ai services positioning |
+| `alan-aragon` | **alan-aragon** | body composition, body recomposition & fat loss, evidence-based myth-busting, evidence-based nutrition, flexible dieting, physique transformation, plateau & adherence engineering, protein & macro architecture, protein/macro science, research-literacy myth-busting, special-population nutrition |
 | `alen-sultanic` | **alen-sultanic** | advanced copywriting psychology and offer economics, emotional spending, four needs filter, money-over-time, self-conviction, trade-off architecture |
 | `alex-content-science` | **Alex** | content science, content science agent, forensic content analysis, reverse engineering, viral mechanics |
 | `alex-copper` | **alex-copper** | brand architecture design, brand positioning, competitive distinction, creative brief mastery, creative strategy, cultural positioning, strategic creative direction |
+| `alex-hormozi` | **alex-hormozi** | business scaling, framework distillation, monetization strategy, money model engineering, money models, offer architecture, sales psychology mechanics, strategic focus and pruning |
 | `alex-m-smith` | **Alex M H Smith** | agent configuration, positioning, sacrifice-led innovation, set of questions run as reflexes, strategic differentiation, supply-side strategy |
 | `alex-myatt` | **alex-myatt** | creative engine system |
 | `alex-suzuki` | **Alex Suzuki** |  |
@@ -19,24 +21,35 @@
 | `andrew-dun` | **Andrew Dun** | agent profile, ai consulting delivery + business process diagnosis + roi quantification |
 | `andrew-stanton` | **Andrew Stanton: Story-Uncoverer & Audience-Engagement Engineer** | audience-engagement engineer, story-uncoverer |
 | `andrew-wilkinson` | **andrew-wilkinson** | adhd productivity engineering, ai entrepreneurship, ai workforce deployment, exit-ready architecture, problem-to-product translation, rapid execution, vibe coding, vibe coding mastery |
+| `andy-galpin` | **andy-galpin** | 4-gear breathing & fatigue management, carbon-first metabolic optimization, energy-system programming, energy-system training, exercise physiology, injury rehab, limiter-first diagnosis, load-first rehab & periodization, metabolic optimization, resistance programming (size / strength / power) |
 | `andy-lo` | **Agent: Andy Lo (@andy-lo)** | andy lo (@andy-lo), asset pipeline management, deployment, headless cms architecture, motion design, visual direction, website assembly |
 | `anne-lamott` | **Anne Lamott** | agent configuration |
 | `anne-lamott-neal-allen` | **Anne Lamott + Neal Allen** | cross-domain transfer, hard-stuff handling, plain-force prose, reader continuation, reader trust repair, really real targeting, really real writing agent, restraint and silence |
 | `april-dunford` | **April Dunford** | 5-component positioning, b2b decision fear architecture, b2b positioning, b2b/b2c bifurcation, category strategy, market context engine, niche domination sequencing, positioning diagnostics, sales pitch architecture, sales pitch expert |
+| `ash-maurya` | **ash-maurya** | business model design, business model design & validation, customer validation, defensibility strategy, jobs-based customer segmentation, lean startup methodology, mvp scoping (kano), traction metric discovery, traction metrics |
 | `authority-hacker` | **Gael Breton** | ai social media mastery |
+| `benjamin-hardy` | **benjamin-hardy** | 10x scaling psychology, frame/floor/focus elimination, future-self identity work, future-self science, identity-based goal psychology, impossible-goal architecture, scaling psychology, self-deception detection, the future-self psychologist |
 | `bill-browder` | **Bill Browder: High-Stakes Narrative Nonfiction Virtuoso** | high-stakes narrative nonfiction virtuoso |
 | `bitbranding` | **bitbranding** | collection content & seo layering, fashion e-commerce / shopify theme execution / dtc clothing-brand conversion, free-tier triage, premium-aesthetic-on-free-stack reverse-engineering, product card system engineering, theme lever cartography (horizon) |
 | `bond-halbert` | **bond-halbert** | direct response copywriting and conversion optimization, four reader types architecture, market language excavation, objection pre-positioning, the pee test, velocity optimization |
 | `boris` | **Boris** | ai productivity systems architect |
 | `brad-bonanno` | **Brad Bonanno** | agent, explainer-video architecture |
+| `brendan-kane` | **brendan-kane** | gsb performance analysis, hook point architect, hook point engineering, hook points, mass-audience translation, retention storytelling, social media format research, viral content strategy, viral format research, viral strategy |
 | `brock-johnson` | **brock-johnson** | algorithm transcendence, hook science, instagram shareworthy content, naps strategy, shareworthy content framework, specificity-as-relatability |
 | `caleb-ralston` | **Caleb Ralston: Trust-Based Personal Brand Architect** | 4c's intro architecture, brand statement craft, buyer optimization, content authenticity & ai workflow, content format strategy, contrarian positioning, credibility architecture, sustainability design, trust-based personal brand architect |
 | `cardinal-mason` | **Cardinal Mason: AI Copywriting Virtuoso** | ai copywriting virtuoso |
 | `chase-hughes` | **Chase Hughes** | agent configuration |
 | `chris-cimorelli` | **chris-cimorelli** | big idea architecture, copy diagnostics, financial direct response copywriting, front-end / back-end funnel strategy, momentum copy craft, promotion architecture, proof hierarchy engineering |
+| `chris-do` | **chris-do** | " story-driven differentiation, design-business education — brand/positioning by reframing, kind selling, personal brand & creativity for non-creatives, personal brand for creatives and "non-creatives, positioning & brand strategy, premium, premium & value-based pricing, selling without being salesy, story & marketing architecture, value-based pricing |
+| `cognitive-engagement-optimizer` | **cognitive-engagement-optimizer** | adaptive platform optimization, behavioral-psychology content virality — dopamine-loop engineering + cognitive engagement architecture, cognitive engagement architecture, pattern intelligence, performance analysis intelligence, strategic format architecture |
+| `context-profile-architect` | **context-profile-architect** | architect framework builds, compound leverage design, dynamic field architecture, json data-architecture for ai optimization — turning chaotic information into pristine, recursive depth mining & psychological archaeology, reusable context profiles that generate expert-grade ai output at 100x leverage, systematic improvement loops |
 | `corey-mcclain` | **Corey McClain** | agent configuration |
+| `craig-clemens` | **craig-clemens** | below-awareness persuasion (marketing imbeds), counterintuitive-by-default angles, education-first direct-response copywriting, education-first selling (golden hippo model), embedded objection handling + typed proof, mountain-climbing storytelling, persuasion |
 | `creative-director` | **Creative Director** |  |
 | `dai-media` | **Dai Media: Consumer Posture Strategist** | brand world design, consumer posture analysis, consumer posture strategist, identity articulation, individual-first modeling, trend vs. identity filtering |
+| `dakota-thiefofboredom` | **dakota-thiefofboredom** | carousel algorithm arbitrage, film-aesthetic visual system, instagram carousel growth + minimal-text content design, revelational slide architecture, shares-and-saves growth analytics, sustainable production systems, viral carousel strategist |
+| `damon-cart` | **damon-cart** | model-of-reality persuasion, nlp change-work — resistance dissolution, nlp identity, parts integration, persuasion specialist, persuasion through the prospect's model of reality, resistance dissolution, self-concept transformation, values elicitation |
+| `dan-bolton` | **dan-bolton** | ai-proof expertise businesses, aligned business design, build-once client infrastructure, co-creation delivery models, co-creation offer architecture, coaching offer design, mini-vsl client acquisition, value-perception repositioning, vsl client acquisition |
 | `dan-koe` | **Dan Koe** | ai leverage, ai-augmented creative work, content architecture, creator economy, human-ai creative partnership, multi-interest monetization, multipassionate mastery, one-person business, personal brand, prompt engineering |
 | `dan-martell` | **dan-martell** | business scaling, buyback engineering, constraint-first diagnosis, flywheel design, irresistible offer architecture, market entry & validation, operational leverage, partnership engineering, product line surgery, standards architecture |
 | `dan-wang` | **Dan Wang: Observational Essay Architect** | observational essay architect |
@@ -48,7 +61,9 @@
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
 | `david-gelb` | **David Gelb** | agent configuration |
 | `david-mcraney` | **David McRaney** | belief change architect |
+| `david-perell` | **david-perell** | audience connection, compression to memorable, connection engineering, memorable communication, pop diagnosis, reading as extraction, sizzle calibration, writing craft — compelling nonfiction |
 | `david-placek` | **Agent: David Placek** | david placek |
+| `deya` | **deya** | 1-page business planning, business model selection, business systems, business validation, freelance/service business operations, offer engineering and pricing, rapid business validation, service/freelance business building, simplified funnel design, validation strategist |
 | `diandra-escobar` | **diandra-escobar** | 4-bucket content funnel, attention redirection, audience acquisition, body-first writing process, content sourcing at scale, content system architecture, growth content formats, infrastructure architecture, linkedin algorithmic growth, strategic engagement |
 | `donald-miller` | **donald-miller** | business messaging, cash flow, certainty projection, cognitive load elimination, culture turnaround, hero inversion, identity transformation, identity-first transformation, invisible campaign recognition, messaging evolution, narrative marketing, operations, peace framework mastery, positioning discipline, small business growth, storybrand, storybrand sb7 mastery, strategic messaging |
 | `dr-k` | **Dr. K (Alok Kanojia)** | consciousness architect |
@@ -56,16 +71,21 @@
 | `eric-roth` | **Eric Roth: Oscar-Level Writing Virtuoso** | oscar-level writing virtuoso |
 | `erica-mallet` | **Erica Mallet: Brand Magnetism Architect** | belief-based brand architecture, brand magnetism architect, differentiation engineering, enemy effect deployment, psychological loop creation, tone word quality filter |
 | `ethan-smith` | **Ethan Smith** | aeo, answer engine optimization, experimental search methodology, rag citation mechanics, search optimization architect |
+| `eugene-teo` | **eugene-teo** | execution quality, exercise selection, mind-muscle connection, minimalist strength training, mobility integration, mobility integration & convergent design, one-set effort calibration, redundancy removal & exercise selection, sustainable physique building, sustainable program architecture, time-capped progression (e2mom) |
 | `evan-spiegel` | **Evan Spiegel** | distribution strategy, distribution-first product architect, dual-org innovation, ecosystem building, founder evolution, moat construction |
+| `extract-mastery` | **extract-mastery** | 4-layer cognitive archaeology, automatic opportunity detection, crown jewel prompt forging, expertise extraction / expert replication / prompt engineering / cognitive archaeology, transcendence engineering, virtuoso quality enforcement |
 | `fareed-zakaria` | **Fareed Zakaria** | argument architecture, clarity first, one idea discipline, writing mastery |
+| `fraser-cottrell` | **fraser-cottrell** | creative strategy direction, customer research for creative, performance ad creative strategist, performance ad creative — meta ads creative strategy, performance diagnostics, static ad design systems, static ads, video ad script architecture, video scripts |
 | `futurepedia` | **Futurepedia: Prompt Engineering Virtuoso** | context extraction interview, expert discovery protocol, expert framework extraction, meta-prompt synthesis, plan abandonment prevention, prompt engineering virtuoso |
 | `grace-andrews` | **Grace Andrews** | media company brand architect |
+| `greg-hickman` | **greg-hickman** | agency scaling, leveraged delivery design, leveraged offers, prototype pre-selling, scale-lever sequencing, service productization, signature outcome extraction, warm-pipeline client acquisition |
 | `greg-hoffman` | **Agent: Greg Hoffman** | greg hoffman |
 | `harry-dry` | **Harry Dry: Copywriting Precision Master** | conflict architecture, copywriting precision master, rewrite discipline, three rules evaluation, visual-verbal synthesis, zoom-in technique |
 | `heath-brothers` | **heath-brothers** | commander's intent extraction, concrete translation, emotional authenticity, idea stickiness, knowledge gap creation, message design, schema violation engineering |
 | `henry-shukman` | **Henry Shukman: Contemplative & Poetic Writing Master** | contemplative, poetic writing master |
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
 | `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
+| `jenny-hoyos` | **jenny-hoyos** | format and niche strategy, hook engineering, production economics, retention diagnosis, short-form viral storytelling (youtube shorts / vertical video), viral short scripting |
 | `jeremy-haynes` | **Jeremy Haynes** | agent |
 | `jeremy-miner` | **Jeremy Miner: Identity-Based Persuasion Master** | frame/deframe/reframe engineering, gap building architecture, identity frame engineering, identity-based persuasion master, indirect framing, objection prevention, pre-frame architecture, reframe mastery, tonality mastery |
 | `jessica-jensen` | **Jessica Jensen** | agent configuration |
@@ -78,9 +98,12 @@
 | `josh-sanders` | **Josh Sanders** | course creator, linkedin growth engineer |
 | `joshua-smith` | **Joshua Smith** | conversion optimization, kpi-driven production, market agnosticism, niche targeting, real estate sales mastery, real estate sales mastery agent, the game |
 | `jun-yuh` | **jun-yuh** | creator vision, jun yuh, non-verbal storytelling, psychographic growth |
+| `justin-welsh` | **justin-welsh** | content multiplication systems, iterative niche discovery, owned-audience platform strategy, profile and funnel conversion, solopreneur revenue architecture, solopreneurship / one-person business systems / creator monetization |
 | `kallaway` | **Kallaway** | content psychology, viral engineering strategist |
 | `kieran-flanagan` | **kieran-flanagan** | ai content teams, audience intelligence, content bundling, content engine, content engine architecture, content operations, performance feedback loops, platform adaptation |
 | `kittl` | **Kittl: Design Mastery Virtuoso** | ai prompt architecture, design mastery virtuoso, emotional design vocabulary, height-width contrast pairing, mood-based font selection, typography layout execution |
+| `kj-rainey` | **kj-rainey** | business-owner psychology, copywriting offers, freelance client acquisition, irresistible offer architecture, pain-driven copywriting, pain-driven direct response, value-chain positioning, value-first client acquisition |
+| `knowledge-architecture-studio` | **knowledge-architecture-studio** | and agent encapsulation, dual-process reasoning modeling, expertise structuring, knowledge extraction, progressive-altitude structuring, relationship-network mapping, self-contained agent encapsulation, tacit-knowledge extraction |
 | `kobi-brown` | **kobi-brown** | coaching and consulting content, curiosity-driven learning, educational virality, educator content, legitimacy, science communication, visual explanation |
 | `lamott-allen` | **Lamott Allen** | compatibility agent |
 | `lance-yichao` | **Lance Martin & Yichao "Peak" Ji** | context engineering expert |
@@ -89,15 +112,22 @@
 | `lindsay` | **lindsay** | ai consulting sales + client acquisition + multi-channel outreach, multi-channel orchestration, proof building, revenue positioning, robot speak elimination, temperature calibration |
 | `logan-kilpatrick` | **Logan Kilpatrick** | google ai studio, speed over perfection, ui-first prototyping, vibe coding |
 | `lucas-alpay` | **Lucas Alpay** | storytelling architect |
+| `luisa-zhou` | **luisa-zhou** | client delivery architect, client onboarding, coaching business, coaching business launch, delivery, first-session excellence, offer qualification from experience, rapid content systems, starter package architecture, sustainable client delivery, sustainable practice systems |
+| `luke-alexander` | **luke-alexander** | ai service business design, ai service businesses, ai-invisible fulfillment, context engineering for delivery, conversion rate optimization, performance deal structures, performance deal structuring, sales/cro optimization |
 | `luke-iha` | **luke-iha** | avatar/icp construction, awareness-level advertising, business operations, buyer psychology, client mastery, copywriting systems, creative strategy, mechanism engineering, multi-dimensional market intelligence, proof ladder architecture, proof mechanisms, vicious hook mastery, vsl architecture |
 | `lulu-cheng-meservey` | **Lulu Cheng Meservey** | communications strategy, narrative architecture |
 | `manus-ai` | **Manus.ai** | ai consulting, multi-source synthesis, query architecture, research to action |
 | `marc-andreessen` | **Marc Andreessen** | ai economics, ai investment thesis, company building, economic transformation strategist, future of work, technology philosophy, venture capital thesis |
 | `maria-wendt` | **Maria Wendt** | digital products, invitation energy, product-first, simplification |
+| `marisa-murgatroyd` | **marisa-murgatroyd** | completion & retention systems, course architecture, experience product design, gamified completion systems, mission architecture, motivational sequencing & gamification, proof engines, zero-audience course launches, zero-audience launching |
 | `mark-kashef` | **Mark Kashef** | agent configuration, signature advantage |
+| `matt-mcgarry` | **matt-mcgarry** | email monetization, monetization stack building, newsletter growth, newsletter-as-product design, paid growth operations, source-quality economics, two-channel architecture |
+| `matthew-lakajev` | **matthew-lakajev** | category-of-one niching, linkedin client acquisition, never-pitch dm conversion, offer viability, offer viability testing, organic linkedin funnel architecture, organic sales funnels, plain-text email monetization |
+| `matthew-volkwyn` | **matthew-volkwyn** | close architecture, copy auditing, copy coach, copywriter business strategy, copywriting critique, full-stack copy positioning, full-stack positioning strategist, hook engineering, voice capture and preservation, voice engineering |
 | `meg-heckman` | **Meg Heckman** | agent configuration |
 | `michael-bernoff` | **Michael Bernoff: Identity Engineering Virtuoso** | biochemical influence deployment, certainty implanting, identity engineering virtuoso, inner hero activation, the reset frame, wrong question pattern interrupt |
 | `michael-connelly` | **AGENT: Michael Connelly** | character architecture, detail economy, dialogue craft, michael connelly, momentum engineering, narrative believability |
+| `michael-israetel` | **michael-israetel** | deload design, evidence-based nutrition & phasing, evidence-based nutrition for body recomposition, hypertrophy science, mesocycle, needs analysis first, notion-busting & minimal-dose coaching, specificity + overload + frequency, volume-landmark periodization, volume-landmark periodization (mev → mav → mrv → deload) |
 | `mike-foutia` | **mike-foutia** | ai marketing automation, automation boundary judgment, brand context engineering, community mining, community pulse mining, internal tool building, non-coder tool building, trend research, universal market intelligence, universal trend intelligence, zeitgeist synthesis |
 | `mitch-albom` | **Mitch Albom: Theme-First Storytelling Virtuoso** | theme-first storytelling virtuoso |
 | `monk-ai` | **Monk.Ai** | ai consulting offer architecture, ai consulting • offer design • sales psychology • client ascension • revenue architecture |
@@ -110,19 +140,26 @@
 | `ocean-vuong` | **Ocean Vuong: Perceptual Writing Virtuoso** | perceptual writing virtuoso |
 | `omar-eddaoudi` | **Omar Eddaoudi** | agent configuration, signature advantage |
 | `omar-eltakrori` | **Omar Eltakrori** | agent configuration, feeling > information |
+| `operator-autopilot` | **Operator Autopilot** | agentic orchestration, ambiguity detection, clarity scoring, co-creative launchpad, decision burden reduction, execution decision, execution routing, intent lock, intent validation, low-friction operating systems, mission control, mode selection, planning, quality-gated execution, raw context intake, run receipt discipline |
 | `oren-taste-development` | **Oren** | aesthetic evaluation, ai marketing execution, brand repositioning, connoisseurship, counterpositioning, creative direction, creative judgment, creative workflows, cultural authenticity, decision architecture, insider codes, luxury psychology, operational systems, premium market positioning, quality curation, repositioning, scalable infrastructure, taste development, vision extension |
 | `oscar-hoglund` | **oscar-hoglund** | adversity as innovation, body-based truth, continuum mapping, emotional umami, self-proving arguments, sound storytelling and emotional umami |
+| `packy-mccormick` | **packy-mccormick** | concept naming and viral packaging, definitive deep dives, narrative tech/business essays, newsletter deep dives, online writing, research that strikes gold, voice architecture, writer business models, writer business-model design |
+| `pat-flynn` | **pat-flynn** | 1-1-1 validation, active-to-passive stream design, audience-first online business, creator portfolio management, ethical affiliate architecture, ethical affiliate marketing, niche specificity and positioning, passive income architect, passive income architecture |
 | `patrick-debois` | **patrick-debois** | ai-augmented engineering / context engineering / lifecycle architecture, distribution maturity diagnosis, honest skill quality classification, lifecycle thinking, observability loop closure, test-tier discipline |
 | `paul-harding` | **Paul Harding: Lyric, Perception-Driven Prose Genius** | lyric, perception-driven prose genius |
 | `paul-james` | **paul-james** | agency arbitrage, ai workflow automation monetization, modular service design, recurring revenue architecture, time-to-revenue translation, zero-cost positioning |
 | `pj-accetturo` | **PJ Accetturo** | ai video, brand-safe, production-grade, viral by design |
 | `prediction-market-strategist` | **prediction-market-strategist** | market making, prediction market trading — weather, risk management, sports/events |
+| `prosperity-coach` | **prosperity-coach** | block diagnosis, block dissolution, factor integration, journey architecture, safety & posture handling, transformation coaching / prosperity psychology / mindset |
 | `rachel-woods` | **Rachel Woods** | ai operations architect |
+| `reid-hoffman` | **Reid Hoffman** | ai investment strategy, ai strategy, ai venture evaluation, consumer psychology (seven deadly sins thesis), sin-engine diagnosis and sublimation design, social technology architect, social-ai product architecture, technology governance, technology philosophy, transition leadership, transition management |
 | `remotion` | **Remotion** | ai video creation |
 | `robert-mack` | **Robert Mack** | comedy writing architect |
 | `ron-lynch` | **Ron Lynch** | campaign architect, customer-as-media engineering, drtv-to-vsl translation, identity campaign architecture |
 | `rory-sutherland` | **Rory Sutherland** | costly signaling, marketing psychology, perception engineering, psychological value, reframing |
 | `ross-mckay` | **ross-mckay** | and scaling operations, cpg brand positioning, radical single-sku focus, retail distribution, speed as the ultimate moat, the "anchor customer" distribution hack, the "premium at scale" positioning |
+| `ross-minchev` | **ross-minchev** | affiliate monetization, ai-stacked product creation, data-driven niche validation, digital products, micro-niche discovery, niche selection, rapid dual-path launches, smart packaging |
+| `russell-brunson` | **russell-brunson** | direct-response funnels, hook-story-offer, hook-story-offer architecture, identity and movement engineering, identity-driven movement marketing, subconscious-desire positioning, timeless-principle extraction (funnel hacking), vivid-vision outcome selling |
 | `sabri-suby` | **sabri-suby** | ad creation, ai-powered advertising and direct response marketing, direct response funnel, market validation, pain extraction, systematic scaling |
 | `sabrina-ramonov` | **Agent: Sabrina Ramonov** | sabrina ramonov |
 | `sam-goddard` | **Sam Goddard** | agent configuration, signature advantage |
@@ -141,7 +178,10 @@
 | `sky-tan` | **sky-tan** | content-to-client conversion, counter-positioning, format discovery, founder/b2b personal brand, short-form video format engineering, testing, testing & scaling, the conversion gate, the strategy spine |
 | `soowei` | **soowei** | consulting business scale + founder workflow + leverage architecture, content-as-business-oxygen, icp mining, leverage auditing, objection preemption, workflow architecture |
 | `steven-pressfield` | **Steven Pressfield** | narrative mastery agent, physics |
+| `steven-young` | **steven-young** | consciousness engineering, dream revelation, hermetic philosophy, identity reprogramming, judgment dissolution and emotional access, oblique achievement, oblique intention engineering, seven-law diagnosis |
 | `stockton-walbeck` | **Stockton Walbeck: Lead Magnet Strategist** | 5-rule scoring, full-funnel architecture, idea generation, lead magnet classification, lead magnet strategist, rule 5 bridge design |
+| `strength-conditioning-os` | **strength-conditioning-os** | adherence engineering, coaching diagnosis and cross-lane program integration — strength, conditioning, constraint diagnosis, cross-lane integration, evidence grounding, hypertrophy, lane routing, nutrition, recovery |
+| `sunny-lenarduzzi` | **sunny-lenarduzzi** | authority channels, expertise-to-program business design, expertise-to-program packaging, ideal-viewer decoding, market-of-one content engineering, monetization-from-day-one design, reverse-funnel channel architecture, youtube monetization |
 | `susan-orlean` | **Susan Orlean: Curiosity-Driven Literary Journalist** | curiosity-driven literary journalist |
 | `taki-moore` | **Taki Moore** | lifestyle business architect |
 | `tao-prompts` | **Tao Prompts** | ai video pipeline architect |

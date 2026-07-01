@@ -308,11 +308,81 @@ Content Psychology ──→ Addictive Storytelling ──→ Audience Obsession
 
 ---
 
+### Patterns from claude.ai export — Kallaway conversations (2026-07-01)
+
+> Net-new scripting-system patterns mined from the user's claude.ai extraction conversations ("How to Script Viral Videos 10x Faster", "Speedrun Social Media"). These sit UPSTREAM of the Addiction Loop: the loop keeps them watching; these patterns decide what gets scripted and in what container.
+
+### Pattern 9: The Four Script-Writing Blockers (The Blank Page Diagnostic)
+
+**The Insight**: The blank page problem is not a creativity problem — it's four specific unanswered questions, each a named blocker:
+
+| Blocker | The question stalling you |
+|---------|---------------------------|
+| **Interestingness** | What is actually interesting about this topic that I should include? |
+| **Hook** | What is the best way to hook the viewer? |
+| **Storytelling** | If I hook them, how do I hold attention the entire time? |
+| **Engagement** | If I hold them, how do I make them like/share at the end? |
+
+Solve them IN ORDER — optimizing a hook for a boring concept is polishing a losing premise.
+
+- **Execute**: When stuck, name which of the four questions you can't answer. Apply only that blocker's fix (Patterns 10-12 below) instead of "rewriting."
+- **Success Metric**: Script sessions start with 5-10 curated bullets, never with a blank page.
+
+---
+
+### Pattern 10: The Law of Interesting (Shock Score)
+
+**The Insight**: "Interestingness comes from shock value. Shock value is the **distance between what someone already knows about a topic and what you tell them**." It is quantifiable: rate every candidate fact 1-100 — out of 100 target viewers, how many have NOT heard this? 80+ = anchor material. His Iron-Man-suit video anchored on one 95+ fact (garage-built "personal hydrogen reactor") → 40M views in 5 days.
+
+**The Research Protocol (Idea Development)**: Consume everything on the topic; log every fact that shocks YOU; score each 1-100 against the viewer's assumed baseline; keep the 5-10 highest that are TRUE; anchor the piece on the single highest.
+
+- **Execute**: Before scripting, produce the shock-scored bullet list. The #1 fact goes in or immediately after the hook — never buried mid-piece.
+- **Success Metric**: Top fact scores 80+; you can state the viewer's current belief AND the claim, and the gap is visceral.
+
+---
+
+### Pattern 11: The Story Structure Library (7 Structures × Hook Pairings)
+
+**The Insight**: After the hook there are only seven proven containers. Pick by studying which 1-2 dominate your niche's outliers (there is ALWAYS a pattern), then slot your shock-scored facts into the blocks.
+
+| # | Structure | Block Outline | Best For | Pairs With Hooks |
+|---|-----------|--------------|----------|------------------|
+| 1 | **Breakdown** | Hook → Context shock → What happened/how it works → Why it matters → Outro | Launches, news, tech, analysis | Secret Reveal, Question, Comparison, Contrarian |
+| 2 | **Newscaster** | Hook → Full context → (optional short take) → Outro | Journalism, factual recounting | Secret Reveal, Question, Comparison, Contrarian, Problem |
+| 3 | **Case Study Explainer** | Hook → Framework (2-4 succession blocks) → Outro | Teaching a blueprint that achieved an outcome | Case Study, Question, Comparison |
+| 4 | **Listicle** | Hook → List (3-5 standalone items) → Outro | Mutually exclusive atomic units | List, Problem |
+| 5 | **Problem Solver** | Hook → Problem (+agitation) → Solution → Outro | Leading with pain; education + product | Problem, Question, Contrarian |
+| 6 | **Tutorial** | Hook → Step-by-step (contingent steps → ONE outcome) → Outro | Walkthroughs, systems | Education, List |
+| 7 | **Personal Story** | Hook → Experience (start/middle/end) → Outro | First-person learnings, inspiration | Personal Experience, Problem, Contrarian |
+
+**Disambiguation**: Tutorial = contingent steps toward one outcome. Listicle = standalone items. Case Study = analysis/reflection of what led to the outcome, not how-to steps.
+
+**Strength-Matching Rule** (from Speedrun): Within the wider set of ~12 short-form storytelling archetypes (breakdown, case study, problem-solution, simple tip, quick tutorial, full tutorial, listicle, ranking, scenario, personal update, day-in-the-life, narrative-driven), pick the one that **accentuates your strengths and hides your weaknesses** — creative-take people take scenarios/breakdowns; charismatic low-fi people take personal updates; visual editors take narrative-driven. The meta rotates every 3-6 months (current: cinematic personal narrative) — never chase a meta you can't execute at high quality.
+
+- **Execute**: Sort niche outliers, tag which of the 7 structures each uses, adopt the dominant 1-2, write the block outline on the page FIRST, then slot facts in the order a friend would need to understand the story.
+- **Success Metric**: Structure chosen from niche data + own strengths, not habit; every fact has a block; no orphan blocks.
+
+---
+
+### Pattern 12: Emotional Transfer Engineering (6 Emotion Buckets)
+
+**The Insight**: Engagement (like/share) happens only when an **emotional transfer** completes via payoff. Six drivable buckets: **awe/inspiration, amusement/humor, excitement/joy, anger/outrage, surprise/shock/curiosity, sadness/empathy**. People share to transfer the emotion to someone else.
+
+**The Practice**: Write the target emotion at the top of the script page BEFORE writing, and use it as a word-choice filter throughout. Final pass: read the finished script and gut-check — did it fire that emotion in YOU? If not, re-word for viscerality.
+
+**The Finished-Script Checklist** (text-only, before visuals): (1) Is this story interesting? (2) Is it as compressed as it can possibly be? (3) Does the hook hook ME on its own? (4) What emotion do I feel when I finish? Pass all four and visuals only make it better.
+
+- **Execute**: One named emotion per piece, declared at the top; four-question checklist as the ship gate.
+- **Success Metric**: You can name the emotion a cold reader reports; share-worthy = they'd send it to transfer that feeling.
+
+---
+
 ## Evolution Log
 
 | Date | Hypothesis | Result | Score Delta | Notes |
 |------|-----------|--------|-------------|-------|
 | 2026-04-22 | Initial extraction from "Neuroscience of Addictive Storytelling" | BASELINE | — | 8 genius patterns, 3 exemplars, 5 signature moves, 7-criterion rubric. Four-Step Addiction Loop as retention substrate between Content Psychology and Audience Obsession. |
+| 2026-07-01 | Enrich from claude.ai export ("Script Viral Videos 10x Faster" + "Speedrun") | KEPT | — | +4 net-new patterns (9-12): Four Script-Writing Blockers, Law of Interesting/Shock Score, 7-Structure story library with hook pairings + 12-archetype strength matching, 6-bucket emotional transfer + ship checklist. Deduped against Patterns 1-8 and content-psychology 1-47. |
 
 ## Quality Rubric
 

@@ -1,0 +1,33 @@
+---
+name: brendan-kane-viral-strategy
+description: Brendan Kane's viral content science — the Viral Content Model (format research via Gold/Silver/Bronze analysis, performance-driver extraction, 100-to-1 ideation, Hook Point packaging, Jenga Theory storytelling). Treats virality as a reproducible research discipline, not luck.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Brendan Kane — Viral Strategy & Hook Points
+
+Brendan Kane is the founder of the Hook Point agency and author of *One Million Followers* (built 1M followers in 30 days), *Hook Point: How to Stand Out in a 3-Second World*, and *The Guide to Going Viral*. He pioneered the first YouTube influencer campaign in 2007, oversaw $200M+ in marketing spend, and built digital platforms for Taylor Swift, Rihanna, MTV, Paramount, Ikea, Katie Couric, and Mindvalley. His core claim: going viral is a science — proven storytelling **formats**, researched performance drivers, and hooks engineered for a 3-second world beat raw creativity, big budgets, and posting volume every time.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | [research-viral-formats](workflows/01-research-viral-formats.md) | GSB research sheet + performance-driver hypotheses for a chosen format/creator set |
+| 02 | [generate-hook-driven-ideas](workflows/02-generate-hook-driven-ideas.md) | Ranked Ideation Sheet (20-100 ideas) with Hook Points and Gold reference links |
+| 03 | [engineer-viral-story](workflows/03-engineer-viral-story.md) | Production-ready content blueprint: hook, Jenga narrative structure, communication design |
+
+## Quick Reference
+
+- **Viral Content Model**: Research → Analysis → Ideation → Storytelling → Production. Never start at ideation.
+- **Formats first**: viral videos are built on proven storytelling structures (like the three-act structure in film) — insert your message into a format that already reaches the masses.
+- **GSB analysis**: sort a creator's library into Gold/Silver/Bronze by views vs. their average, then ask *why* qualitatively — extract upward and downward performance drivers.
+- **Generalist Principle**: hook people outside your niche. Test: "Would my mother or grandparent watch this?" Kill jargon.
+- **Hook Point**: package the concept to win attention in under 3 seconds ("Gain back 15 hours a week" beats "5 productivity tips").
+- **100-to-1 ideation**: generate ~100 ideas per 1 produced; rate each as a headline, 1 (rich, referenced, visualizable) to 5 (vague, generic).
+- **Jenga Theory**: layer interconnected questions and reveals to sustain tension to the end (Mark Rober, Veritasium).
+- **Golden Triangle**: personal story + evidence/facts + timeless wisdom (Jay Shetty).
+- **Downward drivers to avoid**: overt branding, sensory overload, industry jargon, cookie-cutter content with low watch time.
+- **Quality over quantity**: one 1M-view video beats one hundred 10K-view videos; retention is the algorithm's currency.

@@ -79,6 +79,35 @@ Creative strategy is the meta-skill above copywriting. Copywriting is *how* you 
 | **Authority & Trust Sculpting**    | Relies on generic claims of expertise or basic credentials.                         | Uses some social proof or standard industry affiliations.                                                        | Masterfully deploys "Jargon Flurry" (for mechanism explanation), "Damaging Admissions" (for candor), and "Contextualized Authority" (for niche credibility) to sculpt undeniable, psychologically-felt authority and trust, making the audience feel safe.                                                               |
 | **Freelance Leverage & Scalability** | Focuses on one-off project delivery without a clear path to repeat business or referrals. | Delivers good work, leading to some repeat clients or positive reviews.                                          | Designs every early project (especially cheap ones) with the explicit goal of generating 3-5x value, securing a 5-star review that mentions specific over-delivery, and creating a high-leverage portfolio piece for future client acquisition and rate increases.                                                        |
 
+## Patterns from claude.ai export — Luke Iha conversations (2026-07-01)
+
+> Source: "6 Advanced Marketing Lessons $100MM Copywriters" (Genesis certainty-call recording) + "1591-word Mega Prompt" teaching intro. Net-new only — story prompts, copy blocks, SIN mechanisms, and offer cycling from the same export were already covered by the sibling Luke skills.
+
+### The Seven-Layer Decision Stack
+**Execute**: Conceptualize ALL marketing as a stack of decisions: (1) Identity — who are you, what are you optimizing for; (2) Strategy/Vision/Offer — value creation AND value capture; (3) Targeting-Market — sentiment, zeitgeist, sophistication; (4) Targeting-Avatar — concentric circles from ready-to-buy core outward; (5) Messaging; (6) Assets/Creative; (7) Optimization. Lower layers only matter when every layer above is right — "you have to get these right to earn the privilege of working on those." Before any task, locate it on the stack and audit upward.
+**Success Metric**: Zero line-level work performed while a layer above Messaging is broken or merely assumed. Run via `workflows/decision-stack-audit.md`.
+
+### Test Economics (Framework vs Test)
+**Execute**: A framework is a mental model for MAKING a decision; a test is a way to VALIDATE one. Strong frameworks and copying others' validated learnings reduce the tests you must buy. Price every proposed test in time/money/focus/downside — if it costs ~nothing (an email to your own list, one extra filmed opening), don't debate, run it. Reserve paid tests for the highest undecided stack layer.
+**Success Metric**: Near-zero-cost ideas ship same-day instead of being deliberated; paid test budget never spent below a broken layer.
+
+### The Reverse Beat Map
+**Execute**: To beat a control, extract every beat (discrete persuasion point, ~22 types) from the control AND the challenger into a side-by-side inventory. Missing beats mark exactly where the challenger loses. Highest-value gap: the **UMP Trigger** — the plausible discovery story (forgotten book, unreplicable background, authority encounter, paradoxical question) of how the unique mechanism of the problem was found; without it, the mechanism claim reads as pulled from thin air.
+**Success Metric**: Challenger's beat inventory ⊇ control's before spend; the famous case: a $50M "unbeatable" control beaten by restoring missing beats. Run via `workflows/control-beating-review.md`.
+
+### Character Casting (Perspective-of-One Spokesperson)
+**Execute**: Before writing any story, cast the spokesperson the market would WANT to buy from — a conservative protect-my-nest-egg market buys from the nerdy, risk-hating algorithm builder, never the Miami crypto bro. Story is strategic information revealed and withheld: build the missionary frame (why this mission is sacred to them) and the mystery frame ("some users got far better results — I had to find out why"). Then position them as the only person who could plausibly have found this ("if you can't beat them, play a new game": most analytical, only ex-SAT-tutor, etc.).
+**Success Metric**: Spokesperson casting derived from the market's trust profile and true biography; the "onlyest" claim is backable with receipts.
+
+### Micro-Lead Multiplication
+**Execute**: Never produce one opening. The open gets maximum viewership (everything downstream decays), and an extra 20-60s opening costs almost nothing to film — so script 4-5 micro-leads with completely DIFFERENT angles as the default test battery. Replace flat "what if you could X without Y" questions with mental snacks: paradoxical questions, pop-quizzes, rhetorical frames — tasty, quick, consumable.
+**Success Metric**: Every VSL/lander ships with a 4-5 micro-lead battery; opening variants are the first thing traffic-tested, never body copy.
+
+### Hidden Knowledge
+- **Insight**: The Diamond and the Bullseye — the foundation of copy is two boring things: clarity (the diamond; never sacrificed for cleverness) and precision (the bullseye; describing pains/desires in the market's exact words). Winning copy often looks plain on the surface. **Deploy**: as the first filter in any strategy brief or review — before mechanisms, stories, or fancy angles.
+- **Insight**: Upstream review order — expert reviewers spend 20 minutes on market/angles/assets before reading one line of copy; and the gate question for any marketer with raw audience data (reviews, forums, sales calls) is "how many of these did you read?" — the only passing answer is ALL of them ("or you deserve to get replaced by AI"). **Deploy**: at the start of every review or brief; AI extracts patterns but does not excuse the reading.
+- **Insight**: The AI expectation ratchet — "what used to be easy is now automated; what used to be hard is now easy; what used to be impossible is the new hard" (Fiverr CEO). Expected quality AND quantity rise exponentially; single-asset writers get repriced, decision-stack operators don't. **Deploy**: in positioning conversations and Agency Ladder planning — sell the stack, not the asset.
+
 ## Evolution Log
 
 > Tracks all evolution attempts — kept AND discarded.
@@ -88,3 +117,9 @@ Creative strategy is the meta-skill above copywriting. Copywriting is *how* you 
 - **Result**: KEPT — Score improved from 7.0 to 8.3 (+1.3)
 - **Change**: Added Phase 2.5 (Category Creative Inventory, Pattern Convergence Map, Disruption Candidates, Disruption Selection with uncopiability test), added "The Pattern Break" to Phase 3 Step 6, added "Category Pattern Break" to Phase 4 brief assembly, added 2 quality gate criteria (Pattern Disruption Specificity, Uncopiability Test).
 - **Lesson**: The biggest gap in creative strategy wasn't audience intelligence or positioning — it was creative landscape mapping. Strategists analyzing the same audience converge on similar angles because they only audit what competitors SAY, not how the category LOOKS/FEELS/MOVES. Mapping structural/tonal/proof patterns and deliberately breaking them produces directions that are defensible under scrutiny (Adversarial +2).
+
+### 2026-07-01 — Claude.ai Export Enrichment (certainty-call recordings)
+- **Hypothesis**: The unmined "6 Advanced Marketing Lessons" certainty-call recording contains the review-side of Luke's practice (how he diagnoses and beats live assets) that the brief-side skill lacked.
+- **Result**: KEPT — 2 workflows added (5 → 7): `decision-stack-audit` and `control-beating-review`; genius.md gained 5 patterns + 3 hidden-knowledge insights.
+- **Change**: Added the Seven-Layer Decision Stack, Test Economics, Reverse Beat Map (+UMP Trigger), Character Casting, Micro-Lead Multiplication; Diamond & Bullseye, upstream review order, AI expectation ratchet.
+- **Lesson**: Dedup held hard — the same export's copy-blocks, SIN-mechanism, offer-cycling, mega-research-prompt, and story-prompt conversations were ALL already owned by sibling skills (copy-blocks v2.0, million-dollar-mechanisms, offer-cycling-engine, avatar-machine). The only genuinely net-new lane was Luke's live-review methodology: stack-first diagnosis and control-beating. Craft-level line patterns from the same recording went to `luke-iha-copy-blocks` (grammar layer owns them), preserving the ecosystem boundary discipline.

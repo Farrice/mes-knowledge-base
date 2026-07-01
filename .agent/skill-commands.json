@@ -9,6 +9,10 @@
       "skill": "ai-chris-lee-zero-testimonial-sales"
     },
     {
+      "command": "/alan-aragon",
+      "skill": "alan-aragon-nutrition"
+    },
+    {
       "command": "/alen-sultanic",
       "skill": "alen-sultanic-copywriting"
     },
@@ -19,6 +23,10 @@
     {
       "command": "/alex-copper",
       "skill": "alex-copper-creative-strategy"
+    },
+    {
+      "command": "/alex-hormozi",
+      "skill": "alex-hormozi-business"
     },
     {
       "command": "/alex-m",
@@ -57,6 +65,10 @@
       "skill": "andrew-wilkinson-ai-entrepreneurship"
     },
     {
+      "command": "/andy-galpin",
+      "skill": "andy-galpin-training-intelligence"
+    },
+    {
       "command": "/andy-lo",
       "skill": "andy-lo-premium-websites"
     },
@@ -65,12 +77,20 @@
       "skill": "april-dunford-positioning"
     },
     {
+      "command": "/ash-maurya",
+      "skill": "ash-maurya-lean-metrics"
+    },
+    {
       "command": "/asset_generator",
       "skill": "asset_generator"
     },
     {
       "command": "/authority-hacker",
       "skill": "authority-hacker-ai-social-media"
+    },
+    {
+      "command": "/benjamin-hardy",
+      "skill": "benjamin-hardy-identity"
     },
     {
       "command": "/bill-browder",
@@ -99,6 +119,10 @@
     {
       "command": "/brand-operating",
       "skill": "brand-operating-system"
+    },
+    {
+      "command": "/brendan-kane",
+      "skill": "brendan-kane-viral-strategy"
     },
     {
       "command": "/brock-johnson",
@@ -133,16 +157,32 @@
       "skill": "chris-cimorelli-copywriting"
     },
     {
+      "command": "/chris-do",
+      "skill": "chris-do-design-business"
+    },
+    {
       "command": "/cinematic-documentary",
       "skill": "cinematic-documentary"
+    },
+    {
+      "command": "/cognitive-engagement",
+      "skill": "cognitive-engagement-optimizer"
     },
     {
       "command": "/consumer-posture",
       "skill": "consumer-posture-research"
     },
     {
+      "command": "/context-profile",
+      "skill": "context-profile-architect"
+    },
+    {
       "command": "/corey-mcclain",
       "skill": "corey-mcclain-persona-engineering"
+    },
+    {
+      "command": "/craig-clemens",
+      "skill": "craig-clemens-copywriting"
     },
     {
       "command": "/creative-assembly",
@@ -159,6 +199,18 @@
     {
       "command": "/dai-media",
       "skill": "dai-media-consumer-posture"
+    },
+    {
+      "command": "/dakota-content",
+      "skill": "dakota-content-design"
+    },
+    {
+      "command": "/damon-cart",
+      "skill": "damon-cart-nlp"
+    },
+    {
+      "command": "/dan-bolton",
+      "skill": "dan-bolton-coaching-offers"
     },
     {
       "command": "/dan-koe-ai-leverage",
@@ -205,12 +257,20 @@
       "skill": "david-mcraney-belief-change"
     },
     {
+      "command": "/david-perell",
+      "skill": "david-perell-writing"
+    },
+    {
       "command": "/david-placek",
       "skill": "david-placek-naming"
     },
     {
       "command": "/design-md",
       "skill": "design-md"
+    },
+    {
+      "command": "/deya-business",
+      "skill": "deya-business-systems"
     },
     {
       "command": "/diandra-escobar",
@@ -273,8 +333,16 @@
       "skill": "ethan-smith-aeo"
     },
     {
+      "command": "/eugene-teo",
+      "skill": "eugene-teo-training"
+    },
+    {
       "command": "/evan-spiegel",
       "skill": "evan-spiegel-distribution-architecture"
+    },
+    {
+      "command": "/extract-mastery",
+      "skill": "extract-mastery"
     },
     {
       "command": "/fantastic-posters",
@@ -283,6 +351,10 @@
     {
       "command": "/fareed-zakaria",
       "skill": "fareed-zakaria-writing-mastery"
+    },
+    {
+      "command": "/fraser-cottrell",
+      "skill": "fraser-cottrell-paid-ads"
     },
     {
       "command": "/fresh-voice",
@@ -307,6 +379,10 @@
     {
       "command": "/grace-andrews",
       "skill": "grace-andrews-media-company"
+    },
+    {
+      "command": "/greg-hickman",
+      "skill": "greg-hickman-service-scaling"
     },
     {
       "command": "/greg-hoffman",
@@ -347,6 +423,10 @@
     {
       "command": "/jen-santulan",
       "skill": "jen-santulan-listing-content"
+    },
+    {
+      "command": "/jenny-hoyos",
+      "skill": "jenny-hoyos-shorts"
     },
     {
       "command": "/jeremy-haynes",
@@ -405,6 +485,10 @@
       "skill": "jun-yuh-personal-brand"
     },
     {
+      "command": "/justin-welsh",
+      "skill": "justin-welsh-solopreneur"
+    },
+    {
       "command": "/kallaway-addictive",
       "skill": "kallaway-addictive-storytelling"
     },
@@ -447,6 +531,14 @@
     {
       "command": "/kittl-graphic",
       "skill": "kittl-graphic-design"
+    },
+    {
+      "command": "/kj-rainey",
+      "skill": "kj-rainey-copywriting"
+    },
+    {
+      "command": "/knowledge-architecture",
+      "skill": "knowledge-architecture-studio"
     },
     {
       "command": "/kobi-brown",
@@ -495,6 +587,14 @@
     {
       "command": "/lucas-alpay",
       "skill": "lucas-alpay-storytelling"
+    },
+    {
+      "command": "/luisa-zhou",
+      "skill": "luisa-zhou-coaching"
+    },
+    {
+      "command": "/luke-alexander",
+      "skill": "luke-alexander-ai-business"
     },
     {
       "command": "/luke-iha-avatar-machine",
@@ -565,6 +665,10 @@
       "skill": "maria-wendt-digital-products"
     },
     {
+      "command": "/marisa-murgatroyd",
+      "skill": "marisa-murgatroyd-course-design"
+    },
+    {
       "command": "/mark-kashef-agent-orchestration",
       "skill": "mark-kashef-agent-orchestration"
     },
@@ -589,6 +693,18 @@
       "skill": "market_intelligence"
     },
     {
+      "command": "/matt-mcgarry",
+      "skill": "matt-mcgarry-newsletters"
+    },
+    {
+      "command": "/matthew-lakajev",
+      "skill": "matthew-lakajev-linkedin"
+    },
+    {
+      "command": "/matthew-volkwyn",
+      "skill": "matthew-volkwyn-copywriting"
+    },
+    {
       "command": "/mcp-builder",
       "skill": "mcp-builder"
     },
@@ -603,6 +719,10 @@
     {
       "command": "/michael-connelly",
       "skill": "michael-connelly-vivid-writing"
+    },
+    {
+      "command": "/michael-israetel",
+      "skill": "michael-israetel-hypertrophy"
     },
     {
       "command": "/mike-foutia",
@@ -745,6 +865,14 @@
       "skill": "oscar-hoglund-sound-storytelling"
     },
     {
+      "command": "/packy-mccormick",
+      "skill": "packy-mccormick-writing"
+    },
+    {
+      "command": "/pat-flynn",
+      "skill": "pat-flynn-passive-income"
+    },
+    {
       "command": "/patrick-debois",
       "skill": "patrick-debois-cdlc"
     },
@@ -789,12 +917,20 @@
       "skill": "product-design-build"
     },
     {
+      "command": "/prosperity-coach",
+      "skill": "prosperity-coach-system"
+    },
+    {
       "command": "/rachel-woods",
       "skill": "rachel-woods-ai-operations"
     },
     {
       "command": "/react-components",
       "skill": "react-components"
+    },
+    {
+      "command": "/reid-hoffman",
+      "skill": "reid-hoffman-ai-strategy"
     },
     {
       "command": "/remotion-video",
@@ -811,6 +947,14 @@
     {
       "command": "/ross-mckay",
       "skill": "ross-mckay-premium-at-scale"
+    },
+    {
+      "command": "/ross-minchev",
+      "skill": "ross-minchev-digital-products"
+    },
+    {
+      "command": "/russell-brunson",
+      "skill": "russell-brunson-funnels"
     },
     {
       "command": "/sabri-suby",
@@ -921,6 +1065,10 @@
       "skill": "steven-pressfield-narrative-mastery"
     },
     {
+      "command": "/steven-young",
+      "skill": "steven-young-consciousness"
+    },
+    {
       "command": "/stitch-loop",
       "skill": "stitch-loop"
     },
@@ -931,6 +1079,14 @@
     {
       "command": "/story-compass",
       "skill": "story-compass"
+    },
+    {
+      "command": "/strength-conditioning",
+      "skill": "strength-conditioning-os"
+    },
+    {
+      "command": "/sunny-lenarduzzi",
+      "skill": "sunny-lenarduzzi-youtube"
     },
     {
       "command": "/susan-orlean",

@@ -1,0 +1,23 @@
+---
+name: "Context Profile Architect 2.0 — JSON Data-Architecture for AI Optimization"
+description: "Transform chaotic information (an ICP brief, a content spec, a brand dump) into pristine, reusable JSON context profiles that let AI systems generate expert-grade, 95%-ready-to-use output at 100x leverage. The data-architecture layer of AI optimization — you don't write a better prompt, you engineer a machine-native cognitive interface."
+version: "2.0"
+format: "completion-engine"
+workflows: 3
+source: "claude.ai project export (2026-07-01)"
+---
+# Context Profile Architect 2.0
+
+The Architect's breakthrough discovery: the gap between amateur prompting and professional AI implementation is not better English — it is **speaking the native language of machine intelligence through structured data architectures**. JSON isn't just a format; it is a cognitive interface that aligns human intention with machine processing at the deepest level. Structured correctly, a single context profile lets AI access, process, and apply context with superhuman precision and consistency — powering unlimited downstream outputs (emails, ads, VSLs, sales scripts, positioning) from one canonical source of truth. Core genius: **structure beats prompting, depth creates differentiation, and every data point is engineered to serve 5+ purposes.**
+
+## Available Workflows
+| # | Workflow | Produces | Use When |
+|---|----------|----------|----------|
+| 01 | [architect-context-profile](workflows/01-architect-context-profile.md) | A complete versioned JSON context profile (identity → psychographics → behavior → transformation → messaging → application templates + metadata) via the full ARCHITECT framework | You have chaotic raw material (customer brief, positioning notes, a content ask) and need it converted into a reusable, machine-optimized profile that generates expert output |
+| 02 | [excavate-psychological-layers](workflows/02-excavate-psychological-layers.md) | A 5-layer psychological archaeology map (stated → admitted → hidden → unconscious → core identity) for any audience/persona, in structured JSON | The gold is buried 3-5 layers deep — surface wants aren't converting, messaging feels generic, or you need the unconscious drivers that make copy resonate |
+| 03 | [evolve-profile-version](workflows/03-evolve-profile-version.md) | An enhanced next-version profile with changelog, performance deltas, and next-iteration roadmap (plus optional cross-profile synthesis) | An existing profile has been used and you have output/performance data to fold back in, or you need to merge multiple specialized profiles into one super-profile |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **Full pipeline**: 02 (excavate depth) → 01 (architect the profile) → 03 (evolve after deployment). Any workflow runs standalone; 01 is the front door.
+- **Meta-tool (synthetic)**: This is a JSON data-architecture system for AI optimization, distinct from behavioral context-engineering skills (Chase Hughes, Nate B. Jones) — those engineer human/behavioral context; this engineers machine-readable data structures.

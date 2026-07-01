@@ -3,7 +3,7 @@ name: "Ghostwriting Voice Engine"
 description: "Purpose-built system for capturing a coach's authentic voice and producing LinkedIn content that sounds like them on their sharpest day. Combines 5 expert methodologies: Lara Acosta (voice extraction), Mitch Albom (character embodiment), Erica Mallet (voice crystallization), Nicolas Cole (sentence refinement), Ward Farnsworth (rhetorical elevation)."
 version: "1.0"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Ghostwriting Voice Engine
@@ -22,6 +22,7 @@ This is a standalone delivery system for LinkedIn ghostwriting. It is **complete
 | 01 | [Voice Capture Pipeline](workflows/01-voice-capture.md) | Completed Voice Profile | You have a call transcript + intake assets (or public content samples) and need to build a deployable voice profile. |
 | 02 | [Content Production Pipeline](workflows/02-content-production.md) | 3-5 LinkedIn Posts in Client Voice | You have a completed Voice Profile and need to produce posts that pass the 10-point Voice Authenticity Standard. |
 | 03 | [Unsolicited Demo Pipeline](workflows/03-unsolicited-demo.md) | Before/After Demo Package + Warm Lead | You want to prove the system using a coach's public content (no call needed) — creates proof, content, and leads simultaneously. |
+| 04 | [Client Acquisition Pipeline](workflows/04-client-acquisition.md) | Qualified ICP List + Warm Outreach Sequence + 3-Tier Proposal | You need to LAND clients (not just serve them) — targets the Farrice ICP triad, runs the Leaks & Faucets warm network, education-first outreach, and outcome-based pricing to close before any voice work begins. |
 
 ## Expert Stack
 

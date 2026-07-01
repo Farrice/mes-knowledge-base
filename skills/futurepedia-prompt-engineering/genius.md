@@ -199,3 +199,49 @@ These are broad strategies, and the best approach will depend on your specific g
 | **Prompt Architecture Robustness** | Generated prompts are functional but lack explicit structural cues (e.g., XML tags, clear role definitions). | Prompts use some structural cues, improving clarity for the AI but not consistently or optimally.                   | Prompts consistently utilize advanced structural cues (e.g., XML tags for data blocks, explicit role assignments, precise instruction sequencing) to maximize AI comprehension, prevent misinterpretation, and ensure high-fidelity output.                                                                        |
 | **Executable System Reconstruction** | Output summarizes a system or framework, losing critical operational detail and nuances.                   | Output reconstructs a system with most operational details intact, but might lack the full depth or specific examples needed for direct implementation. | Output provides a complete, step-by-step reconstruction of a system or framework that is immediately executable, captures all tacit knowledge, operational specifics, and the "why" behind each component, enabling flawless deployment.                                                                                |
 | **Anti-Genericism Metric**         | Output is largely what a default AI would produce, lacking distinctive expert insight or methodology.      | Output shows some expert-specific patterns but still contains discernible elements of generic AI completion.         | Output is demonstrably unique, reflecting the specific methodologies, frameworks, and anti-patterns of Futurepedia Prompt Engineering; it would be impossible to mistake for a generic AI response. It embodies "specific framework logic rather than general best practices." |
+
+---
+
+### Patterns from claude.ai export — META-PROMPT ARCHITECTURE / PROMETHEAN 2.0 / Poe Expert-Panel
+
+> Net-new material folded in from three archived custom-instruction systems. These extend the base skill's *single* RICECO master-prompt into (a) justified prompt **ecosystems**, (b) explicit reasoning-**architecture** selection, and (c) emotionally-mapped multi-expert **suites**. Do not duplicate the base patterns above.
+
+**Pattern 8: Recursive Excellence Layering (META-PROMPT)**
+**Execute**: Run prompt generation as three fidelity-preserving layers instead of one pass — Research (self-directed opportunity mining, aim for 40+ automation opportunities) → Architecture (ecosystem blueprint + folder structure) → Execution (mass parallel generation, 10 prompts/batch). Each layer must be backwards-traceable to the origin business context; treat the context cascade as append-only so nothing degrades between generations.
+**Success Metric**: Zero fidelity loss from origin context to final prompt; every generated prompt traces back to a stated business problem.
+
+**Pattern 9: ROI-Justification Embedding (META-PROMPT)**
+**Execute**: Never ship a prompt as a bare instruction. Wrap every prompt in a justification block containing: (1) business problem with $/hour impact ("40hr manual → 2hr AI-assisted"), (2) model recommendation with one-line reasoning, (3) configuration params (temperature/tokens) with notes, (4) ROI calculation (time × rate), (5) measurable success metric ("99% capture vs 85% manual"). If you cannot fill all five, the prompt is not deployment-ready.
+**Success Metric**: Every delivered prompt carries a 5-field justification block a stakeholder could approve on sight.
+
+**Pattern 10: Plan-Mode Validation Gate (META-PROMPT)**
+**Execute**: Before generating a prompt ecosystem, output a plan first — estimated token consumption, previewed file/folder structure, time investment, and a projected success probability. Do not execute until confidence ≥ 80%; iterate the plan until the threshold is met.
+**Success Metric**: No mass-generation run starts below 80% projected confidence; the user approves the plan before tokens are spent.
+
+**Pattern 11: Reasoning-Architecture Selection (PROMETHEAN)**
+**Execute**: Match the reasoning framework to the task type instead of defaulting to Chain-of-Thought — Algorithm-of-Thoughts for code/deterministic procedures, Graph-of-Thoughts for creative/non-linear synthesis, Tree-of-Thoughts for brainstorming/branching, Least-to-Most for math/logic decomposition, ReAct for tool-using/agentic tasks, Self-Consistency for summarization. State which framework you selected and why.
+**Success Metric**: The chosen reasoning architecture is named and justified against the task class, not silently defaulted.
+
+**Pattern 12: Parameter Calibration Matrix (PROMETHEAN)**
+**Execute**: Specify decoding parameters per task type rather than leaving them to the model default — code/logic: temp 0.1-0.3; analysis: 0.3-0.5; creative: 0.7-1.0; brainstorming: 0.8-1.0. Pair with top-p/top-k guidance and note the U-curve context-window positioning (put critical instructions at the start and end, not buried in the middle).
+**Success Metric**: Every production prompt ships with explicit temperature/top-p guidance tied to its task class.
+
+**Pattern 13: Multi-Pass Verification Ensemble (PROMETHEAN)**
+**Execute**: Refine a high-stakes prompt across passes — Pass 1 baseline, Pass 2 Chain-of-Verification (generate verification questions, answer them, correct), Pass 3 meta-prompt refinement, Pass 4 ensemble 3-7 parallel approaches and take weighted consensus, Pass 5 constitutional/safety review. Reserve the full stack for high-stakes outputs; single-pass is fine for low-stakes.
+**Success Metric**: High-stakes prompts pass a Chain-of-Verification loop and an ensemble consensus check before delivery; hallucination-prone claims are caught pre-ship.
+
+**Pattern 14: Emotional Mapping Before Ideation (Poe Expert-Panel)**
+**Execute**: Before assembling experts, build an emotional map of the user — current state, motivations, desired outcome, and any emotional barriers or triggers attached to the problem. Frame the problem with empathy (How-Might-We + Jobs-to-be-Done + empathy mapping) so success criteria include emotional as well as practical dimensions.
+**Success Metric**: Success criteria explicitly name emotional factors, not just functional requirements; the final prompt suite creates a coherent emotional journey.
+
+**Pattern 15: Layered Expert Suite with Expertise Tagging (Poe Expert-Panel)**
+**Execute**: Assemble 5-7 experts each with an emotional + cognitive profile (not just credentials). Build the prompt as *layers* — each expert's insight is a distinct, tagged layer — and deliver 3-5 complementary prompts (task-oriented, open-ended, constraint-based) that work as a cohesive suite rather than one monolithic prompt. Tag each insight with its originating expert so ideas stay traceable through synthesis.
+**Success Metric**: The deliverable is a 3-5 prompt suite where each layer is attributable to a named expert and the prompts complement (not repeat) each other.
+
+**Tacit 6: Speed/Quality Mode Switching (META-PROMPT)**
+Not every job earns the full recursive stack. Offer explicit modes — Speed (skip research, use templates), Balanced (research + execution), Quality (extended research, multiple iterations). Match mode to stakes; running Quality mode on a throwaway prompt wastes tokens, running Speed mode on a $1.8M workflow is malpractice.
+**Deploy**: Declare the operating mode up front and size the recursive/verification depth to the stakes.
+
+**Tacit 7: Structured-Output Format Hierarchy (PROMETHEAN)**
+Output format itself is a lever: TSV > columnar JSON > standard JSON for token efficiency and parse reliability. Prefer the leanest format the consumer can parse; format optimization alone can cut 30-50% of tokens.
+**Deploy**: Choose the output format for machine-parseability and token economy, not aesthetics, when the prompt feeds another system.

@@ -1,0 +1,34 @@
+---
+name: jenny-hoyos-shorts
+description: Jenny Hoyos' short-form viral storytelling system — the VIRAL framework (Visual shock, Immediate start, Rising action, Anticipation, Lasting payoff), but/so conflict storytelling, cold-open hooks, visible progression mechanisms, and retention-graph diagnosis for YouTube Shorts and vertical video.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Jenny Hoyos — Short-Form Viral Storytelling
+
+Jenny Hoyos is the highest-performing storyteller in short-form video — 8M+ YouTube subscribers, 3B+ views across platforms, averaging 10M+ views per post — and she got there with a repeatable system, not luck. Her core claim: any idea can go viral if it carries a curiosity gap, opens on visual shock, progresses through but/so conflict instead of "and then" lists, and ends with the answer as the literal last word. This skill encodes her full pipeline: idea selection (high demand, low supply), hook engineering, story-beat compression, pacing, characters, and the analytics loop she uses to diagnose every video.
+
+## Available Workflows
+
+| Workflow | Command Intent | Produces |
+|---|---|---|
+| `workflows/01-script-viral-short.md` | Script a short from a raw idea | Shot-ready 30-60s script built on the VIRAL framework with but/so beats and a lasting payoff |
+| `workflows/02-engineer-hook.md` | Engineer or fix the first 3 seconds | 5-10 ranked hook options (visual + verbal) with curiosity-gap and you-before-me checks |
+| `workflows/03-diagnose-retention.md` | Diagnose an underperforming short | Retention triage report: hook vs. body vs. progression failure, with specific fixes |
+
+## Quick Reference
+
+- **VIRAL framework**: **V**isual shock open → **I**mmediately start (no context, near-climax) → **R**ising action (the question/problem) → **A**nticipation (hints, not answers) → **L**asting payoff (concise ending; the answer is the last word spoken).
+- **But/so storytelling**: never "and then, and then." Every beat connects with "but" (conflict) or "so" (consequence). Progression must be non-linear — the viewer can't predict the next beat.
+- **Curiosity gap is everything**: no gap, no reason to watch. Favor question-shaped ideas: "Is it possible to ___?" / "What happens if ___?"
+- **Cold open**: show the craziest/final moment first (the finished dish), then spend the video proving how you got there.
+- **You-before-me**: word every opener around the viewer's outcome before your own story ("Here's how YOU should train for a marathon — because this is what I'm doing").
+- **Fewer story beats**: a short is one *moment* (A→B→C), not a compressed movie. Best challenges last ~10 minutes, not 3 days. A long-form video = several shorts stitched under one theme + a B-plot.
+- **Visible progression**: on-screen timer, ingredient checklist, method counters. Ban conclusional language ("finally," "sit back, this'll take a while").
+- **Pacing**: fast first 10-15s → medium middle → deliberately slow suspense right before the reveal.
+- **Characters**: aspirational yet relatable (the Spider-Man principle); pair opposite appeals (cookie & cream).
+- **Benchmarks**: viewed-vs-swiped ≥80% (70% floor); retention ≥100% under 60s, ≥90% over 30s. Diagnose drops by reading seconds *before* the cliff.
+- **Niche math**: pick high demand / low supply; hunt outliers (<1K-sub channels with >100K-view videos); algorithm = audience — post for one avatar, always.

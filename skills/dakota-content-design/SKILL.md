@@ -1,0 +1,32 @@
+---
+name: dakota-content-design
+description: Dakota (Thief of Boredom) viral Instagram carousel system — minimal-text film-aesthetic graphic posts engineered for shares and saves. 70K+ followers gained in 2025 and 20M+ views in 90 days from carousels alone, no reels. Covers carousel-vs-reels algorithm arbitrage, revelational slide architecture, the film treatment stack, and the test-verify-scale growth loop.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Dakota (Thief of Boredom) — Viral Carousel Content Design
+
+Dakota (@thiefofboredom) grew from 180K to 250K+ Instagram followers in 2025 — including 54K followers and 11M views in a single month — posting ONLY minimal-text graphic carousels, no reels. His system exploits carousel-specific algorithm behaviors (follower reach, Reels-page promotion, second-chance impressions) and treats every slide as a standalone shareable asset with a consistent film-aesthetic brand. Production runs under 45 minutes per 10-slide post via an artboard assembly line.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-design-viral-carousel.md` | Complete carousel package: hook, slide-by-slide copy, design spec, caption + CTA |
+| 02 | `02-write-standalone-slides.md` | Set of revelational slides — each a standalone shareable thought |
+| 03 | `03-audit-carousel-performance.md` | Test-verify-scale readout on posted carousels with next-move call |
+
+## Quick Reference
+
+- **Carousels > reels for growth**: they actually reach your followers, get promoted to the Reels page when performing, hit Explore more often, and are low-impact (no audio, self-paced reading).
+- **Two carousel types**: Revelational (each slide standalone-shareable → growth) vs Informative (cohesive listicle → authority). Growth accounts lead with revelational.
+- **Hooks**: "How I" beats "How to" — personal narrative over preachy instruction. Put a face (ideally yours) on slide 1.
+- **Slide 2 is a second hook**: Instagram re-serves the next slide to followers who scrolled past slide 1 — design it to work cold.
+- **North-star metrics**: shares and saves, not views or likes. Story-shares tap your followers' followers.
+- **Film treatment stack**: box blur (radius 2 selfie / 4 sourced) → 15% noise → exposure −1.2 → brightness down → black & white → paper texture LAST.
+- **Canvas + grid**: 2160×2700 (4:5), grid overlay, text 5 boxes down / 3 boxes in, kerning −80 to −100, line spacing ~18, lowercase with capitalized "I".
+- **Test-verify-scale**: one test post → engagement check → verify next day → commit daily. Dakota's run: 133K → 350K → 4.6M views in three days.
+- **Baseline math**: ~100 followers per solid post × 1 post/day = ~3K followers/month before any viral outlier.

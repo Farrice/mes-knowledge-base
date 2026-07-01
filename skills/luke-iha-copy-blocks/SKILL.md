@@ -20,7 +20,7 @@ Core systems:
 4. **The Copy Blocks Equation** — `(Promise × Proof × Curiosity) ÷ Constraints × Conditions` — find the limiting factor.
 5. **CASH Method** — Concept × Angle × Style × Hook ideation engine (100+ variations from one product).
 
-## Available Workflows (12)
+## Available Workflows (14)
 
 ### Tier 1 — Foundation
 | Workflow | Produces |
@@ -39,6 +39,8 @@ Core systems:
 | **promise-engineering** | Promise Ladder + "promises with balls" + Identity-Runway calibration + gradualization |
 | **hook-forge** | 30+ hooks (solve/show architectures, proof-of-work patterns) |
 | **cash-method-generator** | 20+ ad concepts via Concept × Angle × Style × Hook |
+| **emotional-journey-map** | Funnel-level emotional arc (ordered feelings + per-beat triggers) mapped to blocks; whole-piece companion to the Pain Chain |
+| **expert-panel-deliberation** | Assemble a 3-7 expert panel mapped to the 6 blocks; user-gated, spine-keeper-guarded collaborative refinement (no Frankenstein) |
 
 ### Tier 3 — Stacking / System
 | Workflow | Produces |
@@ -54,6 +56,8 @@ Core systems:
 - Endless ad variations needed → `cash-method-generator`
 - An offer underperforms but you can't say why → `copy-blocks-equation-score`
 - A hardened belief blocks the sale → `constraint-dissolution`
+- A solo draft has plateaued / high stakes / client wants the reasoning visible → `expert-panel-deliberation`
+- Copy has all the blocks but doesn't *pull* the reader through → map the feeling arc with `emotional-journey-map`
 - Training AI to write copy → the blocks give it structural scaffolding
 
 ## Skill Stacking

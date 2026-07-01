@@ -1,0 +1,31 @@
+---
+name: reid-hoffman-ai-strategy
+description: Reid Hoffman's AI investment and social-technology strategy system — the Seven Deadly Sins consumer thesis with sublimation architecture, single-player-to-multiplayer agent field design, different-angle market entry, and measure-then-intervene governance. For evaluating AI bets, designing engagement engines that elevate rather than exploit, and architecting human-amplifying AI products.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Reid Hoffman — AI Strategy & Social Technology
+
+Reid Hoffman (co-founder of LinkedIn, PayPal executive team, Greylock partner, co-founder of Inflection AI/Pi, author of "Super Agency" and "Blitzscaling") evaluates consumer technology through one diagnostic: which of the seven deadly sins does it run on — and does it wallow in the sin or sublimate it into the user's better self? His strategic system combines that psychology engine with network-scale thinking: the killer app of AI is not single-player chatbots but a "surrounding field" of agents mediating social life, new markets are entered from a different angle (never a frontal assault on an incumbent), and harms are governed by measure-then-intervene rather than preemptive prohibition. Use this skill for AI investment/venture evaluation, consumer product psychology, agent product architecture, and honest-optimist framing of AI transitions.
+
+## Available Workflows
+
+| Workflow | Command | Produces |
+|----------|---------|----------|
+| 01 — Diagnose Sin Engine | `workflows/01-diagnose-sin-engine.md` | Sin diagnosis + sublimation architecture for a product, offer, or content engine |
+| 02 — Stress-Test AI Bet | `workflows/02-stress-test-ai-bet.md` | Investment-grade evaluation memo for an AI venture, feature, or market entry |
+| 03 — Design Agent Field | `workflows/03-design-agent-field.md` | Multiplayer social-AI product architecture with boundary design and health metrics |
+
+## Quick Reference
+
+- **Seven Sins thesis**: successful consumer internet products run on one or more deadly sins (lust, wrath, vanity, greed, envy, gluttony, sloth). Diagnose from observed behavior, not stated intent — Hoffman himself misdiagnosed Twitter as vanity when it was wrath.
+- **Sublimate, don't wallow**: the sin is the entry point, never the destination. Brand-promise test: "We'll start with an AI girlfriend to help you get to a *real* girlfriend."
+- **Single-player → multiplayer**: chatbot = Google-search framing. The real shape is a surrounding field of agents mediating individuals, groups, and societies.
+- **Time-saving vs time-spending**: LinkedIn's founding metric philosophy. Your internal metric set decides which sin you monetize.
+- **Different-angle entry**: established positions aren't taken from behind — technology gives you a new angle (Nvidia, Airbnb). Frontier models are capital-gated; mega-startups come from productization, GTM, and network effects.
+- **Measure-then-intervene**: you can't prevent all harm at scale (cars, electricity). List harms, define metrics, watch trendlines, intervene when they grow — preempt only for children.
+- **Hope over fear, converted to curiosity**: early hands-on adoption compounds into differential edge; human + AI beats AI alone.
+- **Homo techne**: humans evolve through their tools; which parts of human nature are "essential" is discovered on the road, not declared in advance.

@@ -1,0 +1,30 @@
+---
+name: steven-young-consciousness
+description: Dr. Steven Young's hermetic consciousness methodology — decode any stuck situation through the seven hermetic laws, engineer oblique intentions that deliver goals as side effects, and reveal a specific dream future people cannot consciously imagine for themselves
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Steven Young — Hermetic Consciousness Engineering
+
+Dr. Steven Young is a scientist, former holistic-medicine practitioner (9,000+ patients over 17 years), and teacher of the seven hermetic laws who treats consciousness as an operating system: identity dictates experience, internal vibration precedes external result, and every problem is a decodable permutation of seven laws. His signature moves are diagnostic (translate any situation into which laws are running it), oblique (never chase a goal directly — set the peripheral intention that guarantees it as a side effect), and linguistic (judgment dissolves when six words leave your vocabulary). This skill applies his methodology as a practical framework — his metaphysical claims (biophotons as communication, Atlantean origins) are presented as his model, not verified fact.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-decode-through-the-laws.md` | Hermetic diagnosis of a stuck situation: which laws are running the pattern + the prescribed shift |
+| 02 | `02-engineer-oblique-intention.md` | A direct goal converted into a peripheral intention + identity reframe that delivers the outcome as a side effect |
+| 03 | `03-reveal-dream-day.md` | A first-person future journal entry (the "Dream Day") that surfaces a specific dream the person could not articulate themselves |
+
+## Quick Reference
+
+- **The seven laws as codebase**: Mentalism (all from mind), Correspondence (as within, so without), Vibration (everything moves), Polarity (everything is dual), Rhythm (everything swings), Cause & Effect, Gender (masculine/feminine in all things). Every problem = a permutation of these.
+- **Oblique beats direct**: light hitting a surface at an angle produces more energy than direct. Direct goals put you on the pendulum of the problem ("lose 10 pounds" = daily reminder you're 10 pounds overweight). The master question: *"What can I focus on that guarantees the thing I want as a side effect — in a way that reveals who I am even more?"*
+- **Six-word elimination**: drop good, bad, right, wrong, positive, negative. You cannot judge without them; without judgment, every emotion gets space to be met with love.
+- **Neutrality ≠ zero**: choosing the middle is avoidance and keeps both poles showing up. Exit a pendulum by 100% loving BOTH sides — the polarity dissolves and stops appearing in your life.
+- **Identity before effort**: "hard worker" produced 80-hour weeks; "problem solver" produced endless problems; "empty vessel" produced more in 2 years than the prior decade. Change the identity, not the workload.
+- **Trust knowings 100%**: intuition arrives as half-second knowings, emotions, and images — not words. The practice is 100% listen, 100% trust, zero second-guessing.
+- **Feel at the 0.1 level**: detect anger/grief at trace intensity. Intellectualizing is usually pain-avoidance wearing a smart costume.

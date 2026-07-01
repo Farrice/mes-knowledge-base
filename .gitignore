@@ -10,6 +10,11 @@ token.json
 # Temporary files
 .tmp/
 
+# claude.ai data export — private derived data (raw transcripts live under .tmp/ above).
+# Redaction is regex-based and imperfect; never commit any of this. Code lives in
+# execution/claude_export_*.py; the runbook is docs/claude-export-import.md.
+_active/claude-export/
+
 # Python
 __pycache__/
 *.pyc
