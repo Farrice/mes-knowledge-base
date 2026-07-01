@@ -36,8 +36,8 @@
 
 ## 3 · Operating cadence
 
-- **Daily until embeddings finish (~3 days):** `python3 execution/memory_embed.py backfill` (idempotent; stops itself at the cap).
-- **Weekly (~10 min):** `python3 execution/memory_review.py list` → approve/reject distilled rules; optionally one more distill batch: `ANTIGRAVITY_DISTILL_INCLUDE_EXPORT=1 python3 execution/memory_distill.py run --days 7 --max-clusters 15`. The weekly cron is guarded — it will never flood you with export rows uninvited.
+- **Embeddings + distill: AUTOMATED — nothing to remember.** launchd job `com.antigravity.harvest-memory-daily` (daily 07:40 + on login) embeds up to each day's quota, then runs one capped distill batch when new embeddings land. Coverage completes in ~3-4 days, then it becomes a free no-op. Watch: `tail .memory/backups/harvest-memory-daily.log`. **Instant-finish lever:** enable billing on your Google AI Studio project (aistudio.google.com → Settings → Plan) — removes the 1,000/day cap; the next job run finishes everything for ~$0.09.
+- **Weekly (~10 min, the only human job):** `python3 execution/memory_review.py list` → `approve <id>` / `reject <id>` on distilled rules. Nothing auto-promotes without you.
 - **When a new skill feels flat:** don't rebuild — `/extract-amplify <skill>` with more of that expert's conversations from the census, or tell me and I'll run an enrich pass.
 - **Adding future exports:** drop new batch zips in `.tmp/claude-export/raw/`, then `parser parse → triage heuristic → ingest run` (all idempotent — only new conversations process). Runbook: `docs/claude-export-import.md`.
 
