@@ -171,8 +171,19 @@ if not:
 
 ## Delivery
 
-Commit the brief + ledger update to a new branch `brief/<YYYY-MM-DD>` and
-open a PR titled `Daily health-performance brief <YYYY-MM-DD>` with a
-3-bullet summary of the day's sharpest signals. Never push straight to the
-default branch. If PR creation is unavailable, push the branch and report
-its name.
+**Git (system of record)**: commit the brief + ledger update to a new
+branch `brief/<YYYY-MM-DD>` and open a PR titled `Daily health-performance
+brief <YYYY-MM-DD>` with a 3-bullet summary of the day's sharpest signals.
+Never push straight to the default branch. If PR creation is unavailable,
+push the branch and report its name.
+
+**Google Drive (human review copy, added 2026-07-01)**: also push the
+finished brief as a native Google Doc to the "Daily Briefs" folder inside
+"Farrice — GEO-SEO Health Brand Launch (2026-06-23)" in Drive
+(folder ID `11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`), titled
+`<YYYY-MM-DD> — Health-Performance GEO Brief`. Use
+`mcp__Google_Drive__create_file` with `contentMimeType: "text/markdown"`
+(NOT `text/plain` — plain text leaves literal `#`/`**` characters instead
+of real headings/bold/lists; markdown converts to a properly formatted
+native Doc). Git remains the source of truth; Drive is the reviewable
+copy — if they ever diverge, git wins.
