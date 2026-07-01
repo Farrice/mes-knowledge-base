@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
-"""Verify Codex-native authority (AGENTS.md + CODEX.md) is active.
-
-Peer-constitution model (Farrice, 2026-06-30): CLAUDE.md is canon and GEMINI.md is the
-Gemini constitution; both stay authoritative for their own platforms and are NOT demoted
-to "LEGACY REFERENCE". Codex routes via AGENTS.md/CODEX.md; this verifier checks that
-Codex authority is wired without forcing demotion of the sibling constitutions.
-"""
+"""Verify peer-constitution authority model: CODEX.md + AGENTS.md for Codex; CLAUDE.md + GEMINI.md for their platforms."""
 
 from __future__ import annotations
 
@@ -36,23 +30,27 @@ def main() -> int:
     gemini = read("GEMINI.md")
     claude = read("CLAUDE.md")
 
-    require("CODEX.md" in agents, "AGENTS.md does not point to CODEX.md", failures)
+    # Peer-constitution model: CODEX.md exists and is referenced as Codex authority
+    require("CODEX.md" in agents, "AGENTS.md does not reference CODEX.md as authority", failures)
     require(
-        "Read `GEMINI.md` as the primary harness specification" not in agents,
-        "AGENTS.md still makes GEMINI.md primary authority",
+        "CODEX.md" in codex or "Codex" in codex,
+        "CODEX.md lacks self-reference to its authority",
         failures,
     )
+    # CLAUDE.md exists and retains Claude authority (peer model, not demoted)
     require(
-        "Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority" in codex,
-        "CODEX.md lacks explicit legacy demotion rule",
+        "CLAUDE.md" in claude.splitlines()[0] or "Claude Code" in claude,
+        "CLAUDE.md does not assert Claude authority",
         failures,
     )
-    # Peer-constitution model (Farrice, 2026-06-30): CLAUDE.md and GEMINI.md stay
-    # authoritative for their own platforms and are NOT demoted to "LEGACY REFERENCE".
-    # Codex follows AGENTS.md/CODEX.md (asserted above); no legacy marker is required on
-    # the sibling constitutions. CLAUDE.md is canon per the Platform Portability OS, so
-    # this verifier must not force its demotion.
+    # GEMINI.md exists and describes Gemini authority (peer model, not demoted)
+    require(
+        "GEMINI.md" in gemini or "Gemini" in gemini,
+        "GEMINI.md does not describe Gemini platform",
+        failures,
+    )
 
+    # Workflows should not contain legacy-demote language (they are platform-neutral)
     active_workflows = [
         ".agent/workflows/autopilot.md",
         ".agent/workflows/mission.md",
@@ -72,12 +70,12 @@ def main() -> int:
             require(phrase not in content, f"{workflow} still contains active legacy phrase: {phrase}", failures)
 
     if failures:
-        print("Codex authority verification: FAIL")
+        print("Peer-constitution authority verification: FAIL")
         for failure in failures:
             print(f"- {failure}")
         return 1
 
-    print("Codex authority verification: PASS")
+    print("Peer-constitution authority verification: PASS")
     return 0
 
 

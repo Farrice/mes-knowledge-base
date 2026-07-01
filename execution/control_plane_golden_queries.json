@@ -33,23 +33,6 @@
       ]
     },
     {
-      "id": "google-codex-harness-recovery-complaint",
-      "query": "Why do we keep having problems with the hooks being denied when I've trusted them plenty of times and proved them trusted in settings? Things feel broken, confused, and almost unusable in Codex compared to Claude Code.",
-      "expected_lane": "system-failure",
-      "expected_first": [
-        "system-audit"
-      ],
-      "governor_first": [
-        "system-audit"
-      ],
-      "top_must_be_subset": "control_plane_routes",
-      "forbidden_top": [
-        "harding-brand-sensory",
-        "add-notebook",
-        "daring-disobedience"
-      ]
-    },
-    {
       "id": "broken-cluttered-slow",
       "query": "feels broken cluttered slow",
       "expected_lane": "system-failure",

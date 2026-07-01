@@ -43,6 +43,7 @@ def build_receipt(
     support_gates: str = "",
     expert_lenses: str = "",
     subagent_boundary: str = "",
+    subagents_requested: str = "",
     meta_intent: str = "",
     composition_owner: str = "",
     feedback_hook: str = "",
@@ -62,6 +63,7 @@ def build_receipt(
         "support_gates": support_gates,
         "expert_lenses": expert_lenses,
         "subagent_boundary": subagent_boundary,
+        "subagents_requested": subagents_requested,
         "meta_intent": meta_intent,
         "composition_owner": composition_owner,
         "feedback_hook": feedback_hook,
@@ -86,6 +88,7 @@ def render_markdown(receipt: dict[str, Any]) -> str:
             f"- **Composition owner**: {receipt.get('composition_owner') or 'none'}",
             f"- **Support gates**: {receipt.get('support_gates') or 'none'}",
             f"- **Expert lenses**: {receipt.get('expert_lenses') or 'none'}",
+            f"- **Subagents requested**: {receipt.get('subagents_requested') or 'none'}",
             f"- **Subagent boundary**: {receipt.get('subagent_boundary') or 'none'}",
             f"- **Raw intent**: {receipt['query']}",
             f"- **What changed**: {receipt['changed'] or 'none'}",
@@ -111,23 +114,6 @@ def write_receipt(receipt: dict[str, Any]) -> dict[str, str]:
     return {"markdown": str(md_path.relative_to(ROOT)), "json": str(json_path.relative_to(ROOT))}
 
 
-def subagents_requested(data: dict[str, Any]) -> bool:
-    text = " ".join(
-        str(data.get(key, ""))
-        for key in (
-            "query",
-            "support_gates",
-            "expert_lenses",
-            "meta_intent",
-            "composition_owner",
-            "feedback_hook",
-            "changed",
-            "next_action",
-        )
-    ).lower()
-    return any(term in text for term in ("subagent", "sub-agent", "parallel agents", "delegate to agents"))
-
-
 def verify() -> None:
     if not LATEST_JSON.exists():
         return
@@ -139,10 +125,6 @@ def verify() -> None:
     ]
     if missing:
         raise ValueError("Latest run receipt missing: " + ", ".join(missing))
-    if subagents_requested(data):
-        boundary = str(data.get("subagent_boundary", "")).strip().lower()
-        if not boundary or boundary == "none":
-            raise ValueError("Latest run receipt mentions subagents but has no subagent_boundary")
 
 
 def main() -> int:

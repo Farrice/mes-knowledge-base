@@ -569,8 +569,7 @@ def infer_project(path: Path, top: str, rel: str) -> tuple[str | None, float, li
     best_project: str | None = None
     best_score = 0
 
-    candidate_projects = set(active_projects()) | set(PROJECT_ALIASES) | set(PROJECT_PRIMARY_DOMAINS)
-    for project in sorted(candidate_projects):
+    for project in active_projects():
         aliases = set(PROJECT_ALIASES.get(project, ()))
         aliases.add(project)
         aliases.add(project.replace("-", " "))
@@ -775,8 +774,6 @@ def build_manifest() -> dict[str, Any]:
             ("by_status", entry["status"]),
         ):
             counts[bucket][key] = counts[bucket].get(key, 0) + 1
-    for root in sorted(CONTROL_ROOTS | INDEXED_SYSTEM_ROOTS | MIGRATION_SOURCE_ROOTS | {"_active", "_system", "projects"}):
-        counts["by_root"].setdefault(root, 0)
 
     manifest = {
         "version": 1,
