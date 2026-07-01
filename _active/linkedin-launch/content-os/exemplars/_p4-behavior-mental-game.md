@@ -1,5 +1,7 @@
 # P4 — Behavior Change & the Mental Game (SIGNATURE) — Exemplar Posts
 
+> **Canonical post text = `../starter-content-batch.md` (deslopped 2026-07-01).** This file carries the per-post rationale; the bodies below are kept in sync with the batch. If they ever diverge, the batch wins.
+
 > Pillar #4, signature lane. Spine = adjudication (settle the live fight from inside 18 yrs of credentialed physiology + behavior change). Edu-FIRST; entertainment is tone, never topic. These are ready-to-post, not idea seeds. Voice/craft law enforced: scene-first, recognition closes, no banned moves, <=2 em dashes (0 in hooks), only labeled facts.
 
 ---
@@ -30,7 +32,7 @@ So we stopped trying to grow her discipline. We moved the workout to the part of
 
 Three weeks later it stuck. Not because she became more disciplined. Because she stopped asking willpower to do a job the environment was supposed to do.
 
-For years I treated behavior change as a motivation problem you fix with the right mindset. Then I started clocking when in the day my clients actually failed, and it was never random. It was always after the tank had run dry. Now I plan around self-control like a budget, and I build the behavior into the hours when that budget is full and the decisions are few.
+The failures were never random. Clock when they actually happen and it's always the same stretch of the day, always after the account has run dry, almost never at 7am when it's still full. Motivation was never the missing input. Timing was, and timing is a thing you can schedule.
 
 This is the part operators get backwards too. You don't get your team to adopt the new process by selling them harder on why it matters. You get it by removing the seven decisions between them and doing it.
 
@@ -54,7 +56,7 @@ Stars. On in nine seconds.
 
 I have a behavior-change credential and I run this on adults for a living, and a two-year-old still made me relearn the whole thing in a hallway at 7pm.
 
-She reminded me of the thing I run on adults for a living and somehow keep forgetting. When someone won't do the thing you know they should do, your instinct is to make a better case. More data. Clearer slides. One more reason. We treat resistance like an information gap: they just don't understand yet, so I'll explain harder.
+When someone won't do the thing you know they should do, your instinct is to make a better case. More data. Clearer slides. One more reason. We treat resistance like an information gap: they just don't understand yet, so I'll explain harder.
 
 But resistance is almost never an information problem. It's a cost problem, and the two ask for opposite fixes. The pajamas weren't the obstacle. The obstacle was that "you do this now because I said so" costs her the one thing she's fighting for at two: the feeling that she has any say at all. Every argument I added raised that cost. The choice between two pajamas dropped it to nothing. Same outcome, and she got to keep her dignity on the way there.
 
@@ -64,7 +66,7 @@ When your team won't adopt the new process, watch what your instinct does. It re
 
 They're not being difficult. You're asking them to publicly agree they were doing it wrong for three years. That's the cost. Your better case doesn't lower it. It raises it, because now agreeing means admitting they should have seen it sooner. You've turned a process change into a referendum on whether they're good at their job.
 
-The fix is the same one a toddler forced on me. Stop adding evidence. Start lowering the cost. Give them a version of the change they can adopt without losing face — let them shape one piece of it so it's partly theirs, frame the old way as the right call for the conditions back then, make the new way an upgrade they're choosing, not an error they're confessing.
+The fix is the same one a toddler forced on me. Stop adding evidence. Start lowering the cost. Give them a version of the change they can adopt without losing face: let them shape one piece of it so it's partly theirs, frame the old way as the right call for the conditions back then, make the new way an upgrade they're choosing, not an error they're confessing.
 
 You were never short on reasons. You were just charging people their dignity to agree with you, and then surprised they wouldn't pay.
 
@@ -94,9 +96,9 @@ You weren't bad at the habit. You were handed a scoreboard designed to make one 
 
 So before you repost the next number that promises a fixed day-count to permanence, ask the only question that survives scrutiny: how many decisions stand between the cue and the action? Shorten that path, and the behavior automates on its own timeline. No magic day, no streak to break.
 
-I believed in that finish line too, right up until I watched people hit day 19, miss once, and walk away from something they were three weeks in. That cured me of counting days for good.
+Watch someone hit day 19, miss one day, and walk away from something they were three weeks into building, and you stop believing in finish lines made of consecutive days. The calendar was never measuring the habit. It was manufacturing the quit.
 
-Pick the habit you keep restarting. Count the decisions between the cue and the doing, and start removing them one at a time. That number, not the calendar, is the one you can actually move.
+The habit you keep restarting doesn't need another streak. It needs a shorter path between the cue and the doing, one fewer decision at a time. That number, not the calendar, is the one you can actually move.
 
 ---
 
@@ -111,7 +113,7 @@ Pick the habit you keep restarting. Count the decisions between the cue and the 
 - **Adjudication is the spine in all three.** Each post settles a live fight the audience is actively having (willpower vs. design; more-evidence vs. lower-cost; fixed-day-count vs. cue-distance), from inside credentialed behavior-change physiology a generalist can't fake. Entertainment is tone (the toddler scene, the "I pulled the paper" investigator stance), never the topic.
 - **Signature template** carried by Post 1 (evergreen) and Post 3 (newsjack). Post 2 uses the parenting/operator field-note blend deployed fluently — the seasoning, not the spine.
 - **Accommodation-surprise (Head Fake) in each** is a corrected *mechanism* ("Oh!" not "Huh?"), not a clever line: self-control as a depletable budget (P1); resistance as a cost not an information gap (P2); automaticity scaling with cue-distance, not days (P3). Each is unexpected but immediately logical given the setup.
-- **Face-Saving belief shift** ("I used to think X / then I realized Y / now I understand Z") lands once per post, as discovery — the reader and Farrice both come out smarter, never wrong.
+- **Face-Saving belief shift, delivered a DIFFERENT way in each** (the strategy stays; the identical "I used to think X / then Y / now Z" template was the cross-post sameness tell and was varied out 2026-07-01): P1 lands it reader-side (timing, not motivation, was the missing input), P2 through the toddler relearn, P3 as a reader-side reframe (you weren't bad at the habit; the scoreboard was rigged). The reader and Farrice both come out smarter, never wrong.
 - **Operator overlay** stays on so the signature lane never reads as commodity self-help: P1 ends on team adoption, P2 IS the team-adoption frame, P3 names teams and content cadence.
 - **Closes are recognition/declaration**, not cheap questions ("The tank was never the problem…", "holding up dinosaurs and stars", "The path was."). No banned moves: no "It's not X, it's Y," no twin-sentence aphorisms, no triple anaphora, no "Here's what/why/how" openers, no mic-drop deflation.
 - **Em dashes:** 0 in all three hooks; <=2 in each body.

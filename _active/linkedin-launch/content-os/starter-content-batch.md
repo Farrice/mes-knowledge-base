@@ -2,7 +2,9 @@
 
 ## Farrice Cain · Health / Wellness / Performance · LinkedIn domination from zero
 
-**Net-new. Value-first. Edu-FIRST. Beyond the launch deck.** These are the actual posts, not idea seeds — collated from `content-os/exemplars/_p1..p5` after a hard anti-slop pass (banned MOVES removed, cross-post sameness broken, deterministic prose gate run on the bodies). Each is copy-paste-ready in a fenced block, labeled (pillar · blend · template · hook · GET · the surprise). The single `--cta` example per pillar is marked. Operating doc: `content-os/CONTENT-OS.md`. Quality gate before every ship: the 6-item checklist + `python3 execution/prose_classifier.py check <file>` + fact-verify (labeled-only).
+**Net-new. Value-first. Edu-FIRST. Beyond the launch deck.** These are the actual posts, not idea seeds. **This file is the CANONICAL post text** (the `exemplars/_p1..p5` files carry the per-post rationale; if a body there differs, this file wins). Each is copy-paste-ready in a fenced block, labeled (pillar · blend · template · hook · GET · the surprise). The single `--cta` example per pillar is marked. Operating doc: `content-os/CONTENT-OS.md`.
+
+> **Anti-slop pass — 2026-07-01 (this is the real one; the 2026-06-30 collation's "sameness broken" claim was a false pass — it audited the label tables, not the prose).** What was actually fixed: the McRaney "I used to think X → then Y → now Z" confession beat, previously stamped in **10 of 14** posts, is now varied down to 1 (delivered instead through the character's arc, a reader-side reframe, or 3 *distinct* first-person reversals). "Do-it-tonight" imperative closes cut from 5 → 3; openers spread across 5 shapes; every cross-post phrase collision removed; residual negate-then-reveal / aphoristic-close tells cleaned. **Verified deterministically** on the post text (not the scaffolding) via `scratchpad/postgate.py` — `prose_classifier` CLEAN on all 14 + a cross-post sameness scan that PASSES — plus an independent `prose-doctor` read. Quality gate before every ship: the 6-item checklist + point `prose_classifier`/the sameness scan at the **post bodies only** + fact-verify (labeled-only).
 
 > **Pre-flight on the newsjack/`[VERIFY LIVE]` posts:** four posts below (P1-3, P2-3, P4-3, P5-3) are newsjack scaffolds or carry a `[VERIFY LIVE]` literature-direction claim. The physiology and the FTC/GEO facts in them are VERIFIED/LIKELY; the *specific triggering event, named brand, or AI screenshot* is a representative pattern that **must be swapped for a real, currently-circulating example** before posting — or run generically without naming a brand. Posting a pattern as a confirmed live event violates factual grounding.
 >
@@ -28,13 +30,13 @@ That 500mg almost always describes the whole compound, not the magnesium your bo
 
 So she'd been swallowing a chemistry lesson every night and grading herself on the wrong test.
 
-Swap the form and the whole story changes. Glycinate and citrate absorb far better, and glycinate in particular is the form most of the sleep and relaxation research actually used. Same mineral, sold three feet apart on the same shelf, and a completely different result in the body. The form is the dose. The number on the front was counting what sits in the tub, not what her bloodstream would ever see.
+Swap the form and the whole story changes. Glycinate and citrate absorb far better, and glycinate in particular is the form most of the sleep and relaxation research actually used. Same mineral, sold three feet apart on the same shelf, and a completely different result in the body. The number on the front was counting what sits in the tub, not what her bloodstream would ever see.
 
-I used to think people who said "supplements don't work for me" had unrealistic expectations. Then I spent enough years reading labels next to clients to realize most of them were right about their bottle and wrong about the mineral. Now I read the form before I read the promise.
+Most people who say a supplement did nothing are right about their bottle and wrong about the mineral. She didn't need more discipline or a stronger brand. She needed to read one word on the back before she trusted the big number on the front.
 
-Flip yours tonight. Find the form, find the word "elemental" or do the math on the compound, and you'll know in five seconds whether you've been taking magnesium or paying for the word.
+Flip your bottle before you refill it. Find the form, find the word "elemental" or do the math on the compound, and you'll know in five seconds whether you've been taking magnesium or paying for the word.
 
-She switched forms. Three weeks later she texted me that she finally understood what everyone had been talking about.
+She switched forms. Three weeks later she texted me that she finally understood what everyone else had been talking about.
 ```
 
 ## P1-2 — "The $19 bottle and the $59 bottle have the same label"
@@ -43,17 +45,17 @@ She switched forms. Three weeks later she texted me that she finally understood 
 ```
 Two creatine bottles. Same front label. One is $19, one is $59.
 
-The internet's answer is reflexive: you're paying for the marketing. Sometimes true. Often it's the most expensive assumption a smart buyer makes, because it sends you running toward the cheap bottle that's actually the one cutting the corner.
+The internet's answer is reflexive: you're paying for the marketing. Sometimes true. More often it's the assumption that quietly costs a smart buyer the most, because it points you at the cheap bottle that's actually the one cutting the corner.
 
 So I ran the same teardown on a pair of "identical" supplements that I'd run on a company before putting money in. Four lines. Anyone can do it.
 
-The thesis: identical front labels almost never mean identical products. The label is marketing. The receipt is on the back, in the part most people never read.
+Start with the thesis: identical front labels almost never mean identical products. The label is marketing. The receipt is on the back, in the part most people never read.
 
-The bull case for "it's just margin": real branding costs real money, and some premium bottles genuinely are the same powder with a nicer tub and a podcast budget. That brand exists. You've bought from it.
+Give the bull case its due. Real branding costs real money, and some premium bottles genuinely are the same powder with a nicer tub and a podcast budget. That brand exists. You've bought from it.
 
-The bear case: the clinical dose of an actual working ingredient is the most expensive thing in the bottle, and it's the easiest thing to quietly shrink. The studies on creatine used 3 to 5 grams a day. Check the serving size, not the tub size. A cheaper bottle hitting the studied dose at a fraction of the price is a genuine steal. A cheaper bottle hiding its real dose inside a "proprietary blend," where the law lets them print the blend total but not each ingredient, is a dose you're forbidden from checking, sold to you as a bargain.
+Now the bear case: the clinical dose of an actual working ingredient is the most expensive thing in the bottle, and it's the easiest thing to quietly shrink. The studies on creatine used 3 to 5 grams a day. Check the serving size, not the tub size. A cheaper bottle hitting the studied dose at a fraction of the price is a genuine steal. A cheaper bottle hiding its real dose inside a "proprietary blend," where the law lets them print the blend total but not each ingredient, is a dose you're forbidden from checking, sold to you as a bargain.
 
-The verdict: the price gap is rarely about marketing. It's usually about whether the studied dose survived contact with the cost spreadsheet. Two labels can look identical because the one variable that costs money is the one variable the label is allowed to obscure.
+Verdict: the price gap is rarely about marketing. It's usually about whether the studied dose survived contact with the cost spreadsheet. Two labels can look identical because the one variable that costs money is the one variable the label is allowed to obscure.
 
 The receipt you can pull yourself, on any two bottles: read the form, read the elemental dose per serving, look for a third-party seal like NSF or USP, and check that the studied dose actually fits inside one serving. Four lines. The bottle that survives all four earns its price. The one that fails line three is the one you were about to call the smart buy.
 
@@ -68,11 +70,11 @@ Run the four lines on the two bottles in your cabinet tonight. The one you filed
 > **[VERIFY LIVE]** before posting: replace the AI answer + the three placeholder products with a real, observed ChatGPT/AI-Overviews answer and the actual supplements it named. If you can't verify one, run generically (the mechanism stands without a named brand) and drop the screenshot reference.
 
 ```
-A founder showed me a ChatGPT answer naming the "clinically studied" sleep stack he was about to copy.
+ChatGPT will call a supplement "clinically studied" in the same even voice it uses for gravity. A founder showed me an answer that pinned the phrase on three of them, a sleep stack he was about to copy straight into his own formula.
 
-Three ingredients. The model called all three "clinically studied," and he read that the way most of us read it: as a verdict. The machine checked the science, so he didn't have to.
+He read "clinically studied" the way most of us read it: as a verdict. The model checked the science, so he didn't have to.
 
-That's the part I want to walk back, because it's the most expensive assumption in supplement shopping right now, and the AI just made it sound official.
+It's the assumption I want to walk back, because it's quietly the costliest one in supplement shopping right now, and the AI just made it sound official.
 
 "Clinically studied" is not a standard. It's a phrase. There is no fixed legal threshold a product has to clear to print it. A single trial on twelve people, funded by the brand, that found nothing, technically earns the words "clinically studied." So does a study on a different form of the ingredient than the one in the bottle. So does a study on a dose ten times higher than what you're swallowing.
 
@@ -88,7 +90,7 @@ F-tier is the phrase doing all the work: "clinically studied" stretched over a t
 
 And this is where the regulators and the AI engines quietly agree. A supplement is only allowed to say it "supports" something, never that it treats, cures, or prevents it, and the FTC fine for overclaiming runs $53,088 per violation. The evidence that keeps a brand on the right side of that line is the same evidence that earns a real citation. The phrase "clinically studied" clears neither bar. It just sounds like it does.
 
-I trusted that phrase for years, on labels and now in answer boxes, until the afternoon I actually read the trials behind a stack I'd been telling people to buy. "Clinically studied" is the costume evidence puts on when it isn't strong enough to walk out on its own. The three-part question is just me making it take the costume off.
+"Clinically studied" is the costume evidence puts on when it isn't strong enough to walk out on its own. The three-part question makes it take the costume off, on a label or in an answer box, before you build a whole formula around a phrase that was never carrying what you assumed.
 
 The founder ran his stack through it that afternoon. He kept one ingredient, cut one, and stopped trusting the answer box to do the reading for him.
 ```
@@ -109,9 +111,9 @@ Someone I coach typed "best magnesium for sleep" into ChatGPT, did exactly what 
 
 She wasn't lazy. She bought the form it named. Took it nightly. Tracked it.
 
-The answer wasn't wrong. That's the part that should scare you.
+The answer she followed was correct. It just didn't work, and nothing about it looked wrong enough to question.
 
-She'd asked the machine a chemistry question and gotten a chemistry answer: magnesium glycinate, 300mg, before bed. Clean. Citable. The kind of answer that sounds like it came from someone who knows the body.
+She'd asked a chatbot a chemistry question and gotten a chemistry answer: magnesium glycinate, 300mg, before bed. Clean. Citable. The kind of answer that sounds like it came from someone who knows the body.
 
 What the answer skipped is what almost every AI health answer skips. The number on a supplement label is a starting bid, not a delivered dose. Your gut decides how much of it ever clears.
 
@@ -119,15 +121,13 @@ Magnesium oxide, the form stuffed into most cheap bottles and a lot of "sleep" b
 
 So she didn't have a magnesium problem. She had a form problem the answer never flagged, with no way to know it, because the answer looked complete.
 
-The scary failure mode with AI health advice was supposed to be hallucination, the confident made-up claim you can catch if you're paying attention. This one is worse, because there's nothing to catch. The machine names the right compound and stays quiet about the one variable, bioavailability, that decides whether any of it reaches you. A gap doesn't trip your alarm the way a lie does.
+The scary failure mode with AI health advice was supposed to be hallucination, the confident made-up claim you can catch if you're paying attention. This one is worse, because there's nothing to catch. The model names the right compound and stays quiet about the one variable, bioavailability, that decides whether any of it reaches you. A gap doesn't trip your alarm the way a lie does.
 
 So I stopped reading these answers for what's wrong inside them and started reading for what's missing from them. With a supplement answer, the tell is almost always the absorption note nobody included.
 
 There's a ten-second test for it that works on any supplement answer a model hands you. Ask one follow-up: "which form, and how much actually absorbs?"
 
 If the answer suddenly gets specific, naming the salt, the bioavailability range, the cofactors, it was standing on real physiology. If it just restates the dose louder or hedges, you were reading a label with a chatbot's confidence on top. Same test, magnesium or zinc or curcumin or iron.
-
-The label makes a promise. Absorption decides whether it gets kept. AI keeps reading the promise out loud and calling that an answer.
 
 She switched nothing about the brand. She just started asking the second question.
 ```
@@ -152,9 +152,9 @@ The three that folded (a "cortisol-balancing" adaptogen, a "cellular energy" ble
 
 That's not random unreliability. That's a seam. And it lines up with what the research already shows. ChatGPT runs around 57% accurate on supplement efficacy, and rates roughly half of supplements "not effective." It's strong on settled physiology and soft on contested efficacy, and it papers over the difference with the same fluent tone either way.
 
-The tidy takeaway here is "don't trust AI for supplements, ask a real expert." I've handed people that line for years. It's also a dodge. It just moves your trust to a different stranger.
+The tidy takeaway here is "don't trust AI for supplements, ask a real expert." It sounds like caution and works like avoidance. It just moves your trust to a different stranger and calls the swap safety.
 
-You don't need to trust the machine or outsource to me. You need the seam. Once you know AI fails on efficacy and mechanism specifics, not on names and doses, you can interrogate any claim it hands you in about ninety seconds.
+You don't need to trust the model or outsource to me. You need the seam. Once you know AI fails on efficacy and mechanism specifics, not on names and doses, you can interrogate any claim it hands you in about ninety seconds.
 
 So the script. Three questions, in order, on any AI supplement claim:
 
@@ -164,9 +164,9 @@ So the script. Three questions, in order, on any AI supplement claim:
 
 A claim that's been stress-tested by the FTC's "competent and reliable scientific evidence" standard answers all three without flinching. A claim built for a label panics by question two.
 
-The machine isn't lying to you. It's confident in proportion to its training data, not in proportion to the truth, and now you know exactly where those two come apart.
+The model isn't lying to you. It's confident in proportion to its training data, not in proportion to the truth, and now you know exactly where those two come apart.
 
-Run the three questions tonight on the last supplement you bought. You'll feel the seam.
+The next claim it hands you will sound every bit as certain as the three that folded. Three questions are all that stand between that certainty and your cart.
 ```
 > Fact note: the ~57% accuracy figure is **[LIKELY — PMC 2026]**; the FTC standard is stated as the named legal standard, not a stat.
 
@@ -178,21 +178,19 @@ Run the three questions tonight on the last supplement you bought. You'll feel t
 ```
 This week a sleep-supplement brand got named by ChatGPT as a top answer, described, in the machine's own words, as something that "helps treat insomnia."
 
-Their team treated it as a trophy. I'd treat it as a notice.
-
-Because supplements are not legally allowed to "treat" anything, and the machine just published that word, in their name, to every buyer who asked.
+The word doing the damage is "treat." A supplement is not legally allowed to treat anything, and ChatGPT just published it in the brand's name, to every buyer who asked. Their team is throwing a small party over it.
 
 The seam most people miss is a single verb. A dietary supplement can claim it supports sleep. It cannot claim it treats, cures, or prevents insomnia. That's a drug claim, and the line is statute, not opinion (21 CFR 101.93). The FTC's penalty for crossing it runs $53,088 per violation. The brand may have written their own copy perfectly. But ChatGPT, trained on a decade of looser internet language, "improved" their claim into a violation and handed it to the customer with the brand's authority attached.
 
-So the citation is not the asset their team thinks it is. It's the brand's most regulator-exposed sentence, now in circulation, in their name, written by a machine they don't control.
+So the citation is not the asset their team thinks it is. It's the brand's most regulator-exposed sentence, now in circulation, in their name, written by a model they don't control.
 
 For a while the whole AI-search game for health brands looked like pure visibility. Get named, win. Then the gate moved on everyone at once. The same standard that keeps the FTC off your back, "competent and reliable scientific evidence," claims that support and never treat, turned out to be the standard that decides whether an AI citation helps you or indicts you. Compliance and AI-trust collapsed into one gate while most brands were still treating them as two departments.
 
-So I read every citation a brand gets as two questions now, not one. Does it name us? And what claim did it put in our mouth? That second question is the whole game, and almost nobody is asking it.
+So I read every citation a brand gets as two questions now, not one. Does it name us? And what claim did it put in our mouth? That second question is the one that decides everything, and almost nobody is asking it.
 
-Which is the opening, if you're the brand that does ask it. The winners over the next two years won't be the ones the machine mentions most. They'll be the ones whose proof is built so the only honest paraphrase a machine can write is also a legal one. You don't get there by chasing citations. You get there by engineering the claim so caution and conversion finally want the same sentence.
+Which is the opening, if you're the brand that does ask it. The winners over the next two years won't be the ones the engine mentions most. They'll be the ones whose proof is built so the only honest paraphrase a model can write is also a legal one. You don't get there by chasing citations. You get there by engineering the claim so caution and conversion finally want the same sentence.
 
-So before you celebrate the next model that names you, read the sentence it actually wrote in your name. The difference between an asset and a $53,088 exposure is a single verb, the machine doesn't know which one it picked, and it published in your voice either way.
+So before you celebrate the next model that names you, read the sentence it actually wrote in your name. The difference between an asset and a $53,088 exposure is a single verb, the engine doesn't know which one it picked, and it published in your voice either way.
 ```
 **`[--cta example]` (P2's single soft-CTA — first comment; omit on a true jack):**
 ```
@@ -217,9 +215,9 @@ Most people answer "load." Pick the heaviest weight you can move with good form,
 
 The signal isn't the weight at all. It's mechanical tension held across a fiber that's already near its limit, and a muscle only recruits its biggest, most growth-ready fibers when the easier ones have given out. That state has a name in the research: proximity to failure. You can reach it with a heavy triple. You can also reach it with a burning set of twenty. The fiber can't read the number on the bar. It only knows how close to quitting it is.
 
-That's the part the argument keeps missing. "Heavy" and "high volume" were never opponents. They're two roads to the same place: a fiber that ran out of easy options. Pick heavy and you get there in fewer reps with more joint cost. Pick lighter-and-longer and you get there in more reps with more cardiovascular cost. The destination is identical. Only the toll changes.
+It's the part the argument keeps missing. "Heavy" and "high volume" were never opponents. They're two roads to the same place: a fiber that ran out of easy options. Pick heavy and you get there in fewer reps with more joint cost. Pick lighter-and-longer and you get there in more reps with more cardiovascular cost. The destination is identical. Only the toll changes.
 
-I used to coach the load. Add weight, the body responds, simple. Then I started watching the people who got the heaviest also plateau the hardest, and the ones who trained close to failure across a range of loads keep climbing. Now the first thing I look at is how close a set actually got to quitting, and the weight is just one lever I use to get a client there.
+The heaviest lifters I know plateau the hardest. The ones who train close to failure across a spread of loads keep climbing, whatever's on the bar. My friend had spent five years proving the first half of that sentence and never once testing the second.
 
 So my friend's program didn't need heavier plates. It needed two more honest reps per set, the ones he'd been leaving on the table for five years because the bar already felt heavy enough.
 
@@ -230,7 +228,7 @@ Next set, before you rack it, ask one thing: could I have done three more? If th
 **Pillar:** P3 Training · **Blend:** Mechanism-Reveal as Content (the 2026 shift) · **Template:** Misconception Correction (mechanism-reveal variant) · **Hook:** anomaly open · **GET:** a reframe that lets the reader stop chasing soreness and stop fearing its absence, plus the one symptom that actually tracks progress · **The surprise:** "sore = worked = growing" breaks → soreness tracks novelty and eccentric damage, not adaptation; the most productive phase often hurts the least · **CTA:** none.
 
 ```
-The best month of muscle growth I ever tracked on a client came with almost no soreness at all. He kept apologizing for it. "I don't think it's working. Nothing's sore."
+His least sore month on record was also his best month of growth on record. He kept apologizing for the ache he wasn't feeling. "I don't think it's working. Nothing's sore."
 
 It was working. The soreness had quit because his body had stopped being surprised.
 
@@ -240,11 +238,9 @@ That's the tell. If soreness measured growth, the soreness would climb as you go
 
 So the gym wisdom inverts. Chasing soreness means chasing novelty: switching exercises constantly, adding range you can't control, doing the thing your body is least equipped to recover from. You'll feel destroyed. You'll grow slower, because you keep restarting the learning curve instead of progressing a movement you've earned the right to load heavily.
 
-A sore client used to read to me as a productive one, until my steadiest gainers quietly proved it backwards. They'd stopped getting wrecked, gotten good at a handful of lifts, and kept nudging the weight. Their soreness faded while their results climbed. The ache was never the progress, only the price of being new at a movement, and being new is the slowest way to grow.
+For a long time the sore client was the one I'd have bet on. My steadiest gainers quietly proved that wrong. They'd stopped getting wrecked, gotten good at a handful of lifts, and kept nudging the weight up. Their soreness faded while their numbers climbed. The ache was never the progress. It was the tax on being new at a movement, and being new is the slowest way to grow.
 
 There's one symptom that does track adaptation, and it isn't soreness. It's the bar itself: the same weight that buried you last month moving with a rep or two left in the tank this month. That's the body getting bigger and stronger, reported honestly, no ache required.
-
-The day your training stops making you sore is usually the day it starts paying you.
 ```
 
 ## P3-3 — GLP-1 "patch notes" — ✂️ CUT FROM SHIP SET
@@ -278,7 +274,7 @@ So we stopped trying to grow her discipline. We moved the workout to the part of
 
 Three weeks later it stuck. Not because she became more disciplined. Because she stopped asking willpower to do a job the environment was supposed to do.
 
-For years I treated behavior change as a motivation problem you fix with the right mindset. Then I started clocking when in the day my clients actually failed, and it was never random. It was always after the tank had run dry. Now I plan around self-control like a budget, and I build the behavior into the hours when that budget is full and the decisions are few.
+The failures were never random. Clock when they actually happen and it's always the same stretch of the day, always after the account has run dry, almost never at 7am when it's still full. Motivation was never the missing input. Timing was, and timing is a thing you can schedule.
 
 This is the part operators get backwards too. You don't get your team to adopt the new process by selling them harder on why it matters. You get it by removing the seven decisions between them and doing it.
 
@@ -299,7 +295,7 @@ Stars. On in nine seconds.
 
 I have a behavior-change credential and I run this on adults for a living, and a two-year-old still made me relearn the whole thing in a hallway at 7pm.
 
-She reminded me of the thing I run on adults for a living and somehow keep forgetting. When someone won't do the thing you know they should do, your instinct is to make a better case. More data. Clearer slides. One more reason. We treat resistance like an information gap: they just don't understand yet, so I'll explain harder.
+When someone won't do the thing you know they should do, your instinct is to make a better case. More data. Clearer slides. One more reason. We treat resistance like an information gap: they just don't understand yet, so I'll explain harder.
 
 But resistance is almost never an information problem. It's a cost problem, and the two ask for opposite fixes. The pajamas weren't the obstacle. The obstacle was that "you do this now because I said so" costs her the one thing she's fighting for at two: the feeling that she has any say at all. Every argument I added raised that cost. The choice between two pajamas dropped it to nothing. Same outcome, and she got to keep her dignity on the way there.
 
@@ -309,7 +305,7 @@ When your team won't adopt the new process, watch what your instinct does. It re
 
 They're not being difficult. You're asking them to publicly agree they were doing it wrong for three years. That's the cost. Your better case doesn't lower it. It raises it, because now agreeing means admitting they should have seen it sooner. You've turned a process change into a referendum on whether they're good at their job.
 
-The fix is the same one a toddler forced on me. Stop adding evidence. Start lowering the cost. Give them a version of the change they can adopt without losing face — let them shape one piece of it so it's partly theirs, frame the old way as the right call for the conditions back then, make the new way an upgrade they're choosing, not an error they're confessing.
+The fix is the same one a toddler forced on me. Stop adding evidence. Start lowering the cost. Give them a version of the change they can adopt without losing face: let them shape one piece of it so it's partly theirs, frame the old way as the right call for the conditions back then, make the new way an upgrade they're choosing, not an error they're confessing.
 
 You were never short on reasons. You were just charging people their dignity to agree with you, and then surprised they wouldn't pay.
 
@@ -338,9 +334,9 @@ You weren't bad at the habit. You were handed a scoreboard designed to make one 
 
 So before you repost the next number that promises a fixed day-count to permanence, ask the only question that survives scrutiny: how many decisions stand between the cue and the action? Shorten that path, and the behavior automates on its own timeline. No magic day, no streak to break.
 
-I believed in that finish line too, right up until I watched people hit day 19, miss once, and walk away from something they were three weeks in. That cured me of counting days for good.
+Watch someone hit day 19, miss one day, and walk away from something they were three weeks into building, and you stop believing in finish lines made of consecutive days. The calendar was never measuring the habit. It was manufacturing the quit.
 
-Pick the habit you keep restarting. Count the decisions between the cue and the doing, and start removing them one at a time. That number, not the calendar, is the one you can actually move.
+The habit you keep restarting doesn't need another streak. It needs a shorter path between the cue and the doing, one fewer decision at a time. That number, not the calendar, is the one you can actually move.
 ```
 **`[--cta example]` (P4's single soft-CTA — first comment):**
 ```
@@ -355,7 +351,7 @@ If you've ever watched a viral health stat get reposted by brands before anyone 
 **Pillar:** P5 Operator · **Blend:** Investigative-Finance Due Diligence (Thesis/Bull/Bear/Verdict/Receipt — PRIMARY) · **Template:** Misconception Correction · **Hook:** Stakes-as-Housing scene · **GET:** the two-line test an operator runs on their own brand tonight to see whether AI treats their authority as earned or ad-funded · **The surprise:** "more spend buys more visibility" inverts → in the generative layer, paid weight reads as a *negative* signal, so the big budget is the thing burying the brand · **CTA:** none.
 
 ```
-A founder I know spends more on ads in a month than most brands spend in a year. Last week he typed his own category question into ChatGPT to feel good about it. His brand wasn't in the answer. Three smaller competitors were.
+The biggest ad budget in a category has quietly become a handicap in the one place buyers now go to ask. A founder I know outspends most of his category in a month. Last week he typed his own category question into ChatGPT to feel good about it. His brand wasn't in the answer. Three smaller competitors were.
 
 He thought it was a glitch. He refreshed it four times.
 
@@ -369,13 +365,13 @@ Bull case (it's real, give it its due): Spend builds brand. Brand builds the sea
 
 Bear case (where it quietly collapses): The generative layer doesn't read your marketing. It reads your proof, and it reads the room. When researchers graded what actually moves a brand into an AI answer, the levers weren't ad weight. They were citations, statistics, and credentialed expert language, lifting generative visibility up to about 40%. None of those are things you can buy with a higher daily cap. Worse, the engines pull from where real people argue. Reddit is the single most-cited domain across Google's AI Overviews, ChatGPT, and Perplexity. You can't bid on a Reddit thread. You can only earn your way into it, or get talked about in it without you.
 
-The thing he was proudest of, that dominant paid presence, was reading to the machine as the marketing. And the machine's whole job in a health category is to route around the marketing and find the proof. The budget didn't help him get cited. It taught the system to file his brand under "advertiser," which is exactly the bucket it skips when someone asks who's actually good.
+The thing he was proudest of, that dominant paid presence, was reading to the machine as the marketing. And its whole job in a health category is to route around the marketing and find the proof. The budget didn't help him get cited. It taught the system to file his brand under "advertiser," which is exactly the bucket it skips when someone asks who's actually good.
 
-For two years I read the AI-search gap as a visibility problem you close with reach. Then I watched three sub-million-dollar brands get named while a category leader vanished from the answer entirely. Now I see it the way it actually works: in the generative layer, spend is a signal, and in a health category it's often the wrong one.
+The read that finally stuck came from watching three sub-million-dollar brands get named in an answer while the category's biggest spender vanished from it completely. In the generative layer, spend is a signal. In a health category, it's frequently the wrong one.
 
-This isn't a doom take, and I'm not going to milk it. It's the opposite of doom if you're the smaller, realer brand, because the lever that wins here is the one money can't fake.
+For the smaller, realer brand this is the opposite of a problem, because the lever that wins here is the one money can't fake.
 
-The test, if you want to see your own scoreboard tonight: open ChatGPT, ask your category's number-one buying question, and read the answer for two things. One, are you named. Two, why did the brands that got named get named, what proof are they carrying that you aren't. If the answer is "they have a study, a mechanism, a real expert on record" and you have a campaign, you've found the gap, and no increase in spend closes it. The machine wanted a receipt you don't yet have.
+The test, if you want to see your own scoreboard tonight: open ChatGPT, ask your category's number-one buying question, and read the answer for two things. One, are you named. Two, why did the brands that got named get named, what proof are they carrying that you aren't. If the answer is "they have a study, a mechanism, a real expert on record" and you have a campaign, you've found the gap, and no increase in spend closes it. The engine wanted a receipt you don't yet have.
 
 The operators who feel this first aren't the loudest in the category. They're the ones who already sense their ad dashboard glowing green while the answer box has quietly stopped naming them.
 ```
@@ -389,7 +385,7 @@ I read a supplement label this morning that broke its own promise in seven words
 
 Most operators treat legal and growth as two rooms with a wall between them. Compliance lives down the hall, says no, slows things down. Growth lives up front, ships fast. The claim that thrills the growth team is the claim that terrifies the legal team, so the brand splits the difference and hopes.
 
-Let me settle that fight, because the wall isn't real, and the cost of believing it is specific.
+The wall isn't real, and the cost of believing in it is specific.
 
 The claim I red-teamed: "clinically proven to reduce stress." Four words that move product, and a liability sitting in plain sight. The autopsy:
 
@@ -399,9 +395,9 @@ Bear case (what it actually triggers): A supplement is allowed to support a func
 
 This is where it flips, and it's why I stopped treating compliance as a cost center.
 
-The exact thing that makes that claim FTC-exposed is the exact thing that makes it AI-invisible. A generative engine in a health category is built to be cautious about claims it can't trace to evidence, and it routes around the unsourced ones. Studies show these systems get supplement efficacy right only around 57% of the time and rate roughly half of supplements "not effective," which means the engine is actively skeptical, actively looking for a reason to not carry your line. An unsubstantiated "clinically proven" gives it that reason twice. The lawyer flags it. The machine drops it. Same flaw, two doors.
+The exact thing that makes that claim FTC-exposed is the exact thing that makes it AI-invisible. A generative engine in a health category is built to be cautious about claims it can't trace to evidence, and it routes around the unsourced ones. Studies show these systems get supplement efficacy right only around 57% of the time and rate roughly half of supplements "not effective," which means the engine is actively skeptical, actively looking for a reason to not carry your line. An unsubstantiated "clinically proven" gives it that reason twice. The lawyer flags it. The model drops it. Same flaw, two doors.
 
-So the brand that organizes its proof to survive the regulator is, by accident, building the exact corpus the machine prefers to cite. The substantiation file you think is slowing your growth is the thing the new search rewards.
+So the brand that organizes its proof to survive the regulator is, by accident, building the exact corpus the engine prefers to cite. The substantiation file you think is slowing your growth is the thing the new search rewards.
 
 Claim-safety reads like the brake and growth like the gas, two pedals you're forced to pick between. They aren't. I watched the same sentence fail in front of a regulator and fail in front of a model for the same reason, and after that I couldn't unsee it as one gate: a claim that can't survive an FTC challenge was never going to get carried by AI either, so the safe version and the cited version are the same sentence.
 
@@ -417,25 +413,23 @@ Run that one question on your loudest claim before your next campaign does it fo
 > **[VERIFY LIVE]** swap in the specific viral post/figure of the week and mark the attribution before publishing. The GEO mechanism + the BrightEdge/Pew facts are evergreen-true regardless of trigger.
 
 ```
-A post going around this week says the brand account is dead and the founder account is the brand account now. The growth crowd is treating it like a posting-cadence problem. It isn't. It's a physiology-of-trust problem, and they're about to solve it backwards.
+A post going around this week says the brand account is dead and the founder account is the brand account now. The growth crowd is treating it like a posting-cadence problem, and they're about to solve it backwards. What it actually runs on is the physiology of trust.
 
 The advice underneath the take is "founders, post more, the algorithm rewards your face." True enough to be dangerous. Because it sends the brand running at the wrong lever, and in a health category the wrong lever has a cost.
 
-Let me adjudicate the actual claim, because there's a real mechanism in here worth keeping and a wrong conclusion worth cutting.
+There's a real mechanism buried in that take worth keeping, and a wrong conclusion worth cutting.
 
 The claim: the founder account beats the brand account.
 
-Bull case (why it's catching): It's directionally right. Founder content does get pulled into AI answers more readily than a brand's own marketing page. In healthcare queries specifically, the engines are picky about source authority to the point of disagreeing with each other. ChatGPT names elite hospitals about 1% of the time while Google's AI Overviews name them 33%. When the machines can't agree on what counts as authoritative, the thing that travels is a real, attributable human carrying real evidence. A founder on record reads as that. A brand "about us" page reads as marketing.
+Bull case (why it's catching): It's directionally right. Founder content does get pulled into AI answers more readily than a brand's own marketing page. In healthcare queries specifically, the engines are picky about source authority to the point of disagreeing with each other. ChatGPT names elite hospitals about 1% of the time while Google's AI Overviews name them 33%. When the engines can't agree on what counts as authoritative, the thing that travels is a real, attributable human carrying real evidence. A founder on record reads as that. A brand "about us" page reads as marketing.
 
 Bear case (where "post more" walks off a cliff): The mechanism isn't founder. It's attributable, substantiated expertise. The take collapses those into "the founder's face," so brands hear "make the founder a creator." Then the credentialed person who built the thing spends his week chasing a posting streak instead of being on record about what he actually knows, and the content gets thinner as the cadence climbs. You don't win the citation by posting more. The engine isn't counting your posts. It's looking for proof it can trace to a named expert, and almost nobody clicks out to verify it anyway. Inside an AI answer, readers click a link in the summary roughly 1% of the time. Being named in the answer is the whole game. Volume doesn't get you named. Traceable expertise does.
 
-What actually makes the founder account work has nothing to do with the founder being a founder. A founder is just the cheapest available container for semantic authority the machine can pin to a real, named person. The brand page fails not because it's a brand, but because it carries claims with no traceable human behind them, so the engine files it as marketing and routes around it. Which means you don't need the founder to become an influencer. You need his expertise to become attributable: on record, in his voice, tied to evidence. That's a translation job, not a posting habit.
+What actually makes the founder account work has nothing to do with the founder being a founder. A founder is just the cheapest available container for semantic authority the engine can pin to a real, named person. The brand page fails not because it's a brand, but because it carries claims with no traceable human behind them, so the engine files it as marketing and routes around it. Which means you don't need the founder to become an influencer. You need his expertise to become attributable: on record, in his voice, tied to evidence. That's a translation job, not a posting habit.
 
-The obvious lesson, "founders have to show up and post," is the wrong one. I've watched the cadence climb, the quality drop, and the citations stay flat. The machine was never rewarding the founder's presence. It rewards attributable proof, and a brand can manufacture that without turning its expert into a content creator he never wanted to be.
+The obvious lesson, "founders have to show up and post," is the wrong one. I've watched plenty of founders raise their cadence while the content thinned out and the citations never moved. The engine was never rewarding the founder's presence. It rewards attributable proof, and a brand can manufacture that without turning its expert into a content creator he never wanted to be.
 
-So the move isn't "post more from the founder." It's the opposite of what the take implies. Take the founder's actual expertise, the stuff only he can say, and make it attributable and substantiated wherever the machine looks. Less brand-voice marketing volume. More on-the-record expert proof. The founder stays in the lab. The credibility still ports.
-
-Stop measuring the founder by how often he posts. The machine never counted that. It was only ever asking who he actually is, and whether anyone can check.
+So the move isn't "post more from the founder." It's the opposite of what the take implies. Take the founder's actual expertise, the stuff only he can say, and make it attributable and substantiated wherever the engine looks. Less brand-voice marketing volume. More on-the-record expert proof. The founder stays in the lab. The credibility still ports.
 ```
 **`[--cta example]` (P5's single soft-CTA — first comment):**
 ```

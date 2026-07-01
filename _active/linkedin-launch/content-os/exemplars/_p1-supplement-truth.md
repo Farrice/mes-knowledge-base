@@ -1,5 +1,7 @@
 # P1 — Supplement & Ingredient Truth (VOLUME flagship) — Edu-First Exemplar Posts
 
+> **Canonical post text = `../starter-content-batch.md` (deslopped 2026-07-01).** This file carries the per-post rationale; the bodies below are kept in sync with the batch. If they ever diverge, the batch wins.
+
 **Pillar:** Supplement & Ingredient Truth (P1, volume flagship — adjudicated, never "myth-busted")
 **Spine:** Adjudication — settle the category's live fights out loud, from inside 18 yrs of credentialed physiology, with the operator + claim-safety + AI-error overlay always on so it never reads as commodity myth-busting.
 **Standing rule for all three:** Edu-FIRST. Entertainment is tone, not topic. Real accommodation-SURPRISE (Head Fake, "Oh!" not "Huh?"). Face-Saving belief shift. Tangible GET. Recognition close. No banned moves. ≤2 em dashes (0 in hooks). Only labeled facts.
@@ -33,13 +35,13 @@ That 500mg almost always describes the whole *compound*, not the magnesium your 
 
 So she'd been swallowing a chemistry lesson every night and grading herself on the wrong test.
 
-Swap the form and the whole story changes. Glycinate and citrate absorb far better, and glycinate in particular is the form most of the sleep and relaxation research actually used. Same mineral, sold three feet apart on the same shelf, and a completely different result in the body. The form is the dose. The number on the front was counting what sits in the tub, not what her bloodstream would ever see.
+Swap the form and the whole story changes. Glycinate and citrate absorb far better, and glycinate in particular is the form most of the sleep and relaxation research actually used. Same mineral, sold three feet apart on the same shelf, and a completely different result in the body. The number on the front was counting what sits in the tub, not what her bloodstream would ever see.
 
-I used to think people who said "supplements don't work for me" had unrealistic expectations. Then I spent enough years reading labels next to clients to realize most of them were right about *their* bottle and wrong about the mineral. Now I read the form before I read the promise.
+Most people who say a supplement did nothing are right about their bottle and wrong about the mineral. She didn't need more discipline or a stronger brand. She needed to read one word on the back before she trusted the big number on the front.
 
-Flip yours tonight. Find the form, find the word "elemental" or do the math on the compound, and you'll know in five seconds whether you've been taking magnesium or paying for the word.
+Flip your bottle before you refill it. Find the form, find the word "elemental" or do the math on the compound, and you'll know in five seconds whether you've been taking magnesium or paying for the word.
 
-She switched forms. Three weeks later she texted me that she finally understood what everyone had been talking about.
+She switched forms. Three weeks later she texted me that she finally understood what everyone else had been talking about.
 
 ---
 ---
@@ -59,17 +61,17 @@ She switched forms. Three weeks later she texted me that she finally understood 
 
 Two creatine bottles. Same front label. One is $19, one is $59.
 
-The internet's answer is reflexive: you're paying for the marketing. Sometimes true. Often it's the most expensive assumption a smart buyer makes, because it sends you running toward the cheap bottle that's actually the one cutting the corner.
+The internet's answer is reflexive: you're paying for the marketing. Sometimes true. More often it's the assumption that quietly costs a smart buyer the most, because it points you at the cheap bottle that's actually the one cutting the corner.
 
 So I ran the same teardown on a pair of "identical" supplements that I'd run on a company before putting money in. Four lines. Anyone can do it.
 
-**The thesis:** identical front labels almost never mean identical products. The label is marketing. The receipt is on the back, in the part most people never read.
+**Start with the thesis:** identical front labels almost never mean identical products. The label is marketing. The receipt is on the back, in the part most people never read.
 
-**The bull case for "it's just margin":** real branding costs real money, and some premium bottles genuinely are the same powder with a nicer tub and a podcast budget. That brand exists. You've bought from it.
+**Give the bull case its due.** Real branding costs real money, and some premium bottles genuinely are the same powder with a nicer tub and a podcast budget. That brand exists. You've bought from it.
 
-**The bear case:** the clinical dose of an actual working ingredient is the most expensive thing in the bottle, and it's the easiest thing to quietly shrink. The studies on creatine used 3 to 5 grams a day. Check the *serving size*, not the tub size. A cheaper bottle hitting the studied dose at a fraction of the price is a genuine steal. A cheaper bottle hiding its real dose inside a "proprietary blend," where the law lets them print the blend total but not each ingredient, is a dose you're forbidden from checking, sold to you as a bargain.
+**Now the bear case:** the clinical dose of an actual working ingredient is the most expensive thing in the bottle, and it's the easiest thing to quietly shrink. The studies on creatine used 3 to 5 grams a day. Check the *serving size*, not the tub size. A cheaper bottle hitting the studied dose at a fraction of the price is a genuine steal. A cheaper bottle hiding its real dose inside a "proprietary blend," where the law lets them print the blend total but not each ingredient, is a dose you're forbidden from checking, sold to you as a bargain.
 
-**The verdict:** the price gap is rarely about marketing. It's usually about whether the studied dose survived contact with the cost spreadsheet. Two labels can look identical because the one variable that costs money is the one variable the label is allowed to obscure.
+**Verdict:** the price gap is rarely about marketing. It's usually about whether the studied dose survived contact with the cost spreadsheet. Two labels can look identical because the one variable that costs money is the one variable the label is allowed to obscure.
 
 **The receipt you can pull yourself, on any two bottles:** read the form, read the *elemental* dose per serving, look for a third-party seal like NSF or USP, and check that the studied dose actually fits inside one serving. Four lines. The bottle that survives all four earns its price. The one that fails line three is the one you were about to call the smart buy.
 
@@ -95,11 +97,11 @@ Run the four lines on the two bottles in your cabinet tonight. The one you filed
 
 ---
 
-A founder showed me a ChatGPT answer naming the "clinically studied" sleep stack he was about to copy.
+ChatGPT will call a supplement "clinically studied" in the same even voice it uses for gravity. A founder showed me an answer that pinned the phrase on three of them, a sleep stack he was about to copy straight into his own formula.
 
-Three ingredients. The model called all three "clinically studied," and he read that the way most of us read it: as a verdict. The machine checked the science, so he didn't have to.
+He read "clinically studied" the way most of us read it: as a verdict. The model checked the science, so he didn't have to.
 
-That's the part I want to walk back, because it's the most expensive assumption in supplement shopping right now, and the AI just made it sound official.
+It's the assumption I want to walk back, because it's quietly the costliest one in supplement shopping right now, and the AI just made it sound official.
 
 "Clinically studied" is not a standard. It's a phrase. There is no fixed legal threshold a product has to clear to print it. A single trial on twelve people, funded by the brand, that found nothing, technically earns the words "clinically studied." So does a study on a *different form* of the ingredient than the one in the bottle. So does a study on a dose ten times higher than what you're swallowing.
 
@@ -115,7 +117,7 @@ One question collapses the whole bluff: studied *how*, at *what dose*, with *wha
 
 And this is where the regulators and the AI engines quietly agree. A supplement is only allowed to say it "supports" something, never that it treats, cures, or prevents it, and the FTC fine for overclaiming runs $53,088 per violation. The evidence that keeps a brand on the right side of that line is the same evidence that earns a real citation. The phrase "clinically studied" clears neither bar. It just sounds like it does.
 
-I trusted that phrase for years, on labels and now in answer boxes, until the afternoon I actually read the trials behind a stack I'd been telling people to buy. "Clinically studied" is the costume evidence puts on when it isn't strong enough to walk out on its own. The three-part question is just me making it take the costume off.
+"Clinically studied" is the costume evidence puts on when it isn't strong enough to walk out on its own. The three-part question makes it take the costume off, on a label or in an answer box, before you build a whole formula around a phrase that was never carrying what you assumed.
 
 The founder ran his stack through it that afternoon. He kept one ingredient, cut one, and stopped trusting the answer box to do the reading for him.
 

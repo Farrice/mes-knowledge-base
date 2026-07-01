@@ -1,5 +1,7 @@
 # P3 — Training & Performance Science (VOLUME) — Exemplar Posts
 
+> **Canonical post text = `../starter-content-batch.md` (deslopped 2026-07-01).** This file carries the per-post rationale; the two shipping bodies below are kept in sync with the batch. POST 3 (GLP-1 patch-notes) is HELD/not-for-ship and left as a pre-clean draft. If bodies diverge, the batch wins.
+
 > Pillar #3, the credibility floor. Saturated lane → every post carries the operator/claim-safety/mechanism-reveal overlay so it never reads as commodity myth-busting. Edu-FIRST; entertainment is tone, not topic. Adjudication is the spine.
 > **Ship set = POST 1 + POST 2.** POST 3 (GLP-1 patch-notes) is **HELD — not for ship** (gaming wrapper is audience-misaligned per the ICP dossier; rests on 2 unverified `[VERIFY LIVE]` literature claims). Kept below as a held draft, excluded from `starter-content-batch.md`. Hooks char-counted (payoff visible inside LinkedIn's first ~140-char "see more" fold; 0 em dashes in hooks). Labeled facts only.
 
@@ -27,9 +29,9 @@ Most people answer "load." Pick the heaviest weight you can move with good form,
 
 The signal isn't the weight at all. It's mechanical tension held across a fiber that's already near its limit, and a muscle only recruits its biggest, most growth-ready fibers when the easier ones have given out. That state has a name in the research: proximity to failure. You can reach it with a heavy triple. You can also reach it with a burning set of twenty. The fiber can't read the number on the bar. It only knows how close to quitting it is.
 
-That's the part the argument keeps missing. "Heavy" and "high volume" were never opponents. They're two roads to the same place: a fiber that ran out of easy options. Pick heavy and you get there in fewer reps with more joint cost. Pick lighter-and-longer and you get there in more reps with more cardiovascular cost. The destination is identical. Only the toll changes.
+It's the part the argument keeps missing. "Heavy" and "high volume" were never opponents. They're two roads to the same place: a fiber that ran out of easy options. Pick heavy and you get there in fewer reps with more joint cost. Pick lighter-and-longer and you get there in more reps with more cardiovascular cost. The destination is identical. Only the toll changes.
 
-I used to coach the load. Add weight, the body responds, simple. Then I started watching the people who got the heaviest also plateau the hardest, and the ones who trained close to failure across a range of loads keep climbing. Now the first thing I look at is how close a set actually got to quitting, and the weight is just one lever I use to get a client there.
+The heaviest lifters I know plateau the hardest. The ones who train close to failure across a spread of loads keep climbing, whatever's on the bar. My friend had spent five years proving the first half of that sentence and never once testing the second.
 
 So my friend's program didn't need heavier plates. It needed two more honest reps per set, the ones he'd been leaving on the table for five years because the bar already felt heavy enough.
 
@@ -49,7 +51,7 @@ Next set, before you rack it, ask one thing: could I have done three more? If th
 
 ---
 
-The best month of muscle growth I ever tracked on a client came with almost no soreness at all. He kept apologizing for it. "I don't think it's working. Nothing's sore."
+His least sore month on record was also his best month of growth on record. He kept apologizing for the ache he wasn't feeling. "I don't think it's working. Nothing's sore."
 
 It was working. The soreness had quit because his body had stopped being surprised.
 
@@ -59,11 +61,9 @@ That's the tell. If soreness measured growth, the soreness would climb as you go
 
 So the gym wisdom inverts. Chasing soreness means chasing novelty: switching exercises constantly, adding range you can't control, doing the thing your body is least equipped to recover from. You'll feel destroyed. You'll grow slower, because you keep restarting the learning curve instead of progressing a movement you've earned the right to load heavily.
 
-A sore client used to read to me as a productive one, until my steadiest gainers quietly proved it backwards. They'd stopped getting wrecked, gotten good at a handful of lifts, and kept nudging the weight. Their soreness faded while their results climbed. The ache was never the progress, only the price of being new at a movement, and being new is the slowest way to grow.
+For a long time the sore client was the one I'd have bet on. My steadiest gainers quietly proved that wrong. They'd stopped getting wrecked, gotten good at a handful of lifts, and kept nudging the weight up. Their soreness faded while their numbers climbed. The ache was never the progress. It was the tax on being new at a movement, and being new is the slowest way to grow.
 
 There's one symptom that does track adaptation, and it isn't soreness. It's the bar itself: the same weight that buried you last month moving with a rep or two left in the tank this month. That's the body getting bigger and stronger, reported honestly, no ache required.
-
-The day your training stops making you sore is usually the day it starts paying you.
 
 ---
 

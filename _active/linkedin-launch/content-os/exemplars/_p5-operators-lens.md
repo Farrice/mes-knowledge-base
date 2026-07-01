@@ -1,5 +1,7 @@
 # P5 — The Operator's Lens (SIGNATURE, pipeline) — Exemplar Posts
 
+> **Canonical post text = `../starter-content-batch.md` (deslopped 2026-07-01).** This file carries the per-post rationale; the bodies below are kept in sync with the batch. If they ever diverge, the batch wins.
+
 **Pillar:** #5 The Operator's Lens (signature lane, ~60% rotation, newsjack home, pipeline-adjacent)
 **Spine:** Adjudication — Farrice settles the live fight out loud from inside 18 yrs credentialed physiology + claim-safety + AI-error read. Edu-FIRST; entertainment is tone, never topic.
 **Caliber bar:** Each post is ship-as-is, 8/10+, value-first. The accommodation-surprise (Head Fake) breaks a model the operator is actively running. Tangible GET per post. Recognition close. No banned moves. ≤2 em dashes (0 in hooks). Labeled facts only.
@@ -14,9 +16,9 @@
 
 ---
 
-**[HOOK — 217 chars]**
+**[HOOK — statement-lead, ~210 chars to the fold]**
 
-A founder I know spends more on ads in a month than most brands spend in a year. Last week he typed his own category question into ChatGPT to feel good about it. His brand wasn't in the answer. Three smaller competitors were.
+The biggest ad budget in a category has quietly become a handicap in the one place buyers now go to ask. A founder I know outspends most of his category in a month. Last week he typed his own category question into ChatGPT to feel good about it. His brand wasn't in the answer. Three smaller competitors were.
 
 He thought it was a glitch. He refreshed it four times.
 
@@ -30,13 +32,13 @@ It's a fight I keep watching operators lose, so I'm going to adjudicate it the w
 
 **Bear case (where it quietly collapses):** The generative layer doesn't read your marketing. It reads your proof, and it reads the room. When researchers graded what actually moves a brand into an AI answer, the levers weren't ad weight. They were citations, statistics, and credentialed expert language, lifting generative visibility up to about 40% [VERIFIED — GEO-bench, arXiv 2311.09735]. None of those are things you can buy with a higher daily cap. Worse, the engines pull from where real people argue. Reddit is the single most-cited domain across Google's AI Overviews, ChatGPT, and Perplexity [VERIFIED — Otterly.ai]. You can't bid on a Reddit thread. You can only earn your way into it, or get talked about in it without you.
 
-The thing he was proudest of, that dominant paid presence, was reading to the machine as *the marketing.* And the machine's whole job in a health category is to route around the marketing and find the proof. The budget didn't help him get cited. It taught the system to file his brand under "advertiser," which is exactly the bucket it skips when someone asks who's actually good.
+The thing he was proudest of, that dominant paid presence, was reading to the machine as *the marketing.* And its whole job in a health category is to route around the marketing and find the proof. The budget didn't help him get cited. It taught the system to file his brand under "advertiser," which is exactly the bucket it skips when someone asks who's actually good.
 
-For two years I read the AI-search gap as a visibility problem you close with reach. Then I watched three sub-million-dollar brands get named while a category leader vanished from the answer entirely. Now I see it the way it actually works: in the generative layer, spend is a signal, and in a health category it's often the wrong one.
+The read that finally stuck came from watching three sub-million-dollar brands get named in an answer while the category's biggest spender vanished from it completely. In the generative layer, spend is a signal. In a health category, it's frequently the wrong one.
 
-This isn't a doom take, and I'm not going to milk it. It's the opposite of doom if you're the smaller, realer brand, because the lever that wins here is the one money can't fake.
+For the smaller, realer brand this is the opposite of a problem, because the lever that wins here is the one money can't fake.
 
-The test, if you want to see your own scoreboard tonight: open ChatGPT, ask your category's number-one buying question, and read the answer for two things. One, are you named. Two, *why* did the brands that got named get named, what proof are they carrying that you aren't. If the answer is "they have a study, a mechanism, a real expert on record" and you have a campaign, you've found the gap, and no increase in spend closes it. The machine wanted a receipt you don't yet have.
+The test, if you want to see your own scoreboard tonight: open ChatGPT, ask your category's number-one buying question, and read the answer for two things. One, are you named. Two, *why* did the brands that got named get named, what proof are they carrying that you aren't. If the answer is "they have a study, a mechanism, a real expert on record" and you have a campaign, you've found the gap, and no increase in spend closes it. The engine wanted a receipt you don't yet have.
 
 The operators who feel this first aren't the loudest in the category. They're the ones who already sense their ad dashboard glowing green while the answer box has quietly stopped naming them.
 
@@ -56,7 +58,7 @@ I read a supplement label this morning that broke its own promise in seven words
 
 Most operators treat legal and growth as two rooms with a wall between them. Compliance lives down the hall, says no, slows things down. Growth lives up front, ships fast. The claim that thrills the growth team is the claim that terrifies the legal team, so the brand splits the difference and hopes.
 
-Let me settle that fight, because the wall isn't real, and the cost of believing it is specific.
+The wall isn't real, and the cost of believing in it is specific.
 
 **The claim I red-teamed:** "clinically proven to reduce stress." Four words that move product, and a liability sitting in plain sight. The autopsy:
 
@@ -66,9 +68,9 @@ Let me settle that fight, because the wall isn't real, and the cost of believing
 
 This is where it flips, and it's why I stopped treating compliance as a cost center.
 
-The exact thing that makes that claim FTC-exposed is the exact thing that makes it AI-invisible. A generative engine in a health category is built to be cautious about claims it can't trace to evidence, and it routes around the unsourced ones. Studies show these systems get supplement efficacy right only around 57% of the time and rate roughly half of supplements "not effective" [LIKELY — PMC 2026], which means the engine is actively skeptical, actively looking for a reason to *not* carry your line. An unsubstantiated "clinically proven" gives it that reason twice. The lawyer flags it. The machine drops it. Same flaw, two doors.
+The exact thing that makes that claim FTC-exposed is the exact thing that makes it AI-invisible. A generative engine in a health category is built to be cautious about claims it can't trace to evidence, and it routes around the unsourced ones. Studies show these systems get supplement efficacy right only around 57% of the time and rate roughly half of supplements "not effective" [LIKELY — PMC 2026], which means the engine is actively skeptical, actively looking for a reason to *not* carry your line. An unsubstantiated "clinically proven" gives it that reason twice. The lawyer flags it. The model drops it. Same flaw, two doors.
 
-So the brand that organizes its proof to survive the regulator is, by accident, building the exact corpus the machine prefers to cite. The substantiation file you think is slowing your growth is the thing the new search rewards.
+So the brand that organizes its proof to survive the regulator is, by accident, building the exact corpus the engine prefers to cite. The substantiation file you think is slowing your growth is the thing the new search rewards.
 
 Claim-safety reads like the brake and growth like the gas, two pedals you're forced to pick between. They aren't. I watched the same sentence fail in front of a regulator and fail in front of a model for the same reason, and after that I couldn't unsee it as one gate: a claim that can't survive an FTC challenge was never going to get carried by AI either, so the safe version and the cited version are the same sentence.
 
@@ -90,25 +92,23 @@ Run that one question on your loudest claim before your next campaign does it fo
 
 **[HOOK — 224 chars]**
 
-A post going around this week says the brand account is dead and the founder account is the brand account now. [VERIFY LIVE] The growth crowd is treating it like a posting-cadence problem. It isn't. It's a physiology-of-trust problem, and they're about to solve it backwards.
+A post going around this week says the brand account is dead and the founder account is the brand account now. [VERIFY LIVE] The growth crowd is treating it like a posting-cadence problem, and they're about to solve it backwards. What it actually runs on is the physiology of trust.
 
 The advice underneath the take is "founders, post more, the algorithm rewards your face." True enough to be dangerous. Because it sends the brand running at the wrong lever, and in a health category the wrong lever has a cost.
 
-Let me adjudicate the actual claim, because there's a real mechanism in here worth keeping and a wrong conclusion worth cutting.
+There's a real mechanism buried in that take worth keeping, and a wrong conclusion worth cutting.
 
 **The claim:** the founder account beats the brand account.
 
-**Bull case (why it's catching):** It's directionally right. Founder content does get pulled into AI answers more readily than a brand's own marketing page. In healthcare queries specifically, the engines are picky about source authority to the point of disagreeing with each other. ChatGPT names elite hospitals about 1% of the time while Google's AI Overviews name them 33% [VERIFIED — BrightEdge]. When the machines can't agree on what counts as authoritative, the thing that travels is a real, attributable human carrying real evidence. A founder on record reads as that. A brand "about us" page reads as marketing.
+**Bull case (why it's catching):** It's directionally right. Founder content does get pulled into AI answers more readily than a brand's own marketing page. In healthcare queries specifically, the engines are picky about source authority to the point of disagreeing with each other. ChatGPT names elite hospitals about 1% of the time while Google's AI Overviews name them 33% [VERIFIED — BrightEdge]. When the engines can't agree on what counts as authoritative, the thing that travels is a real, attributable human carrying real evidence. A founder on record reads as that. A brand "about us" page reads as marketing.
 
 **Bear case (where "post more" walks off a cliff):** The mechanism isn't *founder.* It's *attributable, substantiated expertise.* The take collapses those into "the founder's face," so brands hear "make the founder a creator." Then the credentialed person who built the thing spends his week chasing a posting streak instead of being on record about what he actually knows, and the content gets thinner as the cadence climbs. You don't win the citation by posting more. The engine isn't counting your posts. It's looking for proof it can trace to a named expert, and almost nobody clicks out to verify it anyway. Inside an AI answer, readers click a link in the summary roughly 1% of the time [VERIFIED — Pew, Jul 2025]. Being *named in the answer* is the whole game. Volume doesn't get you named. Traceable expertise does.
 
-What actually makes the founder account work has nothing to do with the founder being a founder. A founder is just the cheapest available container for *semantic authority* the machine can pin to a real, named person. The brand page fails not because it's a brand, but because it carries claims with no traceable human behind them, so the engine files it as marketing and routes around it. Which means you don't need the founder to become an influencer. You need his expertise to become *attributable*: on record, in his voice, tied to evidence. That's a translation job, not a posting habit.
+What actually makes the founder account work has nothing to do with the founder being a founder. A founder is just the cheapest available container for *semantic authority* the engine can pin to a real, named person. The brand page fails not because it's a brand, but because it carries claims with no traceable human behind them, so the engine files it as marketing and routes around it. Which means you don't need the founder to become an influencer. You need his expertise to become *attributable*: on record, in his voice, tied to evidence. That's a translation job, not a posting habit.
 
-The obvious lesson, "founders have to show up and post," is the wrong one. I've watched the cadence climb, the quality drop, and the citations stay flat. The machine was never rewarding the founder's presence. It rewards attributable proof, and a brand can manufacture that without turning its expert into a content creator he never wanted to be.
+The obvious lesson, "founders have to show up and post," is the wrong one. I've watched plenty of founders raise their cadence while the content thinned out and the citations never moved. The engine was never rewarding the founder's presence. It rewards attributable proof, and a brand can manufacture that without turning its expert into a content creator he never wanted to be.
 
-So the move isn't "post more from the founder." It's the opposite of what the take implies. Take the founder's actual expertise, the stuff only he can say, and make it attributable and substantiated wherever the machine looks. Less brand-voice marketing volume. More on-the-record expert proof. The founder stays in the lab. The credibility still ports.
-
-Stop measuring the founder by how often he posts. The machine never counted that. It was only ever asking who he actually is, and whether anyone can check.
+So the move isn't "post more from the founder." It's the opposite of what the take implies. Take the founder's actual expertise, the stuff only he can say, and make it attributable and substantiated wherever the engine looks. Less brand-voice marketing volume. More on-the-record expert proof. The founder stays in the lab. The credibility still ports.
 
 ---
 
@@ -121,7 +121,7 @@ Stop measuring the founder by how often he posts. The machine never counted that
 ## Build notes (for the OS, not for posting)
 
 - **Why these three, not seed-titles:** each is a full adjudication of a real Pillar-5 live fight (budget-vs-AI-search, prove-vs-claim, founder-vs-brand-account) written to ship. The teardown shape (Thesis/Bull/Bear/Verdict/Receipt) IS the GEO-citable structure (stats + expert voice + source-backing = the ~40% lift), so the format that entertains the operator is the same format the machine cites. Edu-first throughout; the "entertainment" is the rigor of the adjudication, never a gimmick.
-- **Accommodation discipline:** each Head Fake breaks a model the operator is *actively running* (spend = visibility; compliance ≠ growth; post-more = get-cited) and resolves to "Oh!" not "Huh?" — the reveal is inevitable in retrospect. The Face-Saving turn ("I used to think X / Then I watched Y / Now I read it as Z") makes the operator smarter for changing, never wrong for having believed it.
+- **Accommodation discipline:** each Head Fake breaks a model the operator is *actively running* (spend = visibility; compliance ≠ growth; post-more = get-cited) and resolves to "Oh!" not "Huh?" — the reveal is inevitable in retrospect. The Face-Saving turn is delivered a different way in each (2026-07-01: the identical "I used to think X / Then Y / Now Z" template was the cross-post sameness tell and was varied out) — P5-1 as a specific-moment reversal, P5-2 as the "same sentence failed twice" recognition, P5-3 through the mechanism itself — so the operator comes out smarter for changing, never wrong for having believed it.
 - **Restraint Cut:** Post 1 explicitly refuses the doom-milking continuation; none of the three open a five-post outrage sequence. The hot take is covered honestly once.
 - **Banned-move check:** no "It's not X, it's Y" negate-then-reveal; no twin-sentence aphoristic endings; no triple anaphora; no "Here's what/why/how" opener (Post 1's mid-body "Here's the fight" is a scene transition inside the body, not a hook opener — flagging for a final prose-classifier pass); no cheap-question signoff (all three close on recognition/declaration); ≤2 em dashes per post, 0 in hooks.
 - **Offer discipline:** Posts 1 & 2 carry zero pitch. Post 3 carries one soft, clearly-labeled discussion-CTA in a first comment, framed as a diagnostic offer with an explicit "the read stands on its own" release valve (anti-grifter signal for Avatar 2).
