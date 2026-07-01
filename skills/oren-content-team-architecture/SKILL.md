@@ -29,7 +29,6 @@ Build world-class content teams that turn brands into media companies. This is t
 | cadence | [Pod Operating Rhythm Designer](workflows/oren-pod-cadence.md) | Weekly Cadence Template + Meeting Agendas | Building the operating rhythm for content pods |
 | network | [External Creator Network Builder](workflows/oren-creator-network.md) | Creator Sourcing Strategy + Brief Templates | Scaling content output through external contributors |
 | founder | [Founder-as-Character System](workflows/oren-founder-content.md) | Founder Content Identity Card + Channel Plan | Architecting the founder's content presence |
-| anchor | [Content Anchor Strategy](workflows/oren-anchor-strategy.md) | Anchor Selection + Activation Plan | Identifying what makes a brand's content world defensible |
 | hooks | [2026 Hook Stack Engineer](workflows/oren-hook-stack-2026.md) | Hook Diagnosis + Tactic Stack + Shot-Level Brief + Test Plan | Designing or upgrading the first 3 seconds of any organic video or paid asset |
 | elevate | [Production Elevation Planner](workflows/oren-production-elevation.md) | Settings Plan + Key-Item Shopping List + Batch Budget Add-On | UGC/in-house content looks like everyone else's; elevating affordably to chase winning assets |
 
@@ -39,7 +38,6 @@ Build world-class content teams that turn brands into media companies. This is t
 |---|---------|----------|----------|
 | audit | [Content Team 360° Audit](workflows/oren-content-team-audit.md) | Team Health Scorecard + Prescriptions | Diagnosing an existing content team's performance |
 | scale | [Media Machine Scaling Protocol](workflows/oren-scale-media-machine.md) | Multi-Pod Expansion Plan + Shared Resources Map | Taking a working pod system to 2+ pods |
-| gate | [Anti-Overproduction Gate](workflows/oren-anti-production.md) | Production Constraint Checklist + Kill List | Auditing any production plan for bloat before it ships |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
