@@ -1,17 +1,28 @@
 # Health / Performance / Supplement Market-Intelligence Brief — 2026-07-01
 
-**CONTEXT GAPS**: `_active/health-performance-ip-library/SERVICE_LADDER.md`,
+**UPDATE (same day, later pass)**: The grounding gap below has been closed.
+`SERVICE_LADDER.md`, `ACQUISITION_TARGETS.md`, and
+`_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md` now exist
+in this repo — synced from a canonical Google Drive doc set ("Farrice —
+GEO-SEO Health Brand Launch," 2026-06-23) that turned out to hold the real
+Bridge Message, buyer avatars (Dana/Marcus), 4-pillar offer ladder, and
+20-brand shortlist for this exact vertical. Sections 4-10 below have been
+rewritten against that real grounding instead of the generic placeholders
+originally shipped this morning. `CONTENT-DOMINATION-RESEARCH.md` (listed
+in the original CONTEXT GAPS below) turned out not to correspond to any
+real file anywhere and has been dropped from the automation's grounding
+list — see `AUTOMATION_PROMPT.md`.
+
+**Original CONTEXT GAPS (morning run)**: `_active/health-performance-ip-library/SERVICE_LADDER.md`,
 `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md`,
 `_active/linkedin-launch/research/CONTENT-DOMINATION-RESEARCH.md`, and any
-`_active/linkedin-launch/daily/brand-radar-*.md` are all absent from this
-checkout — confirmed via full-repo search, not skipped silently. This is
-also the first brief this system has produced; the `AUTOMATION_PROMPT.md`
-operating spec and this `daily/`/`ledger/` scaffold were reconstructed today
-because they did not previously exist in the repo (see note at top of
-`AUTOMATION_PROMPT.md`). Section 6 and the acquisition-map grounding are
-therefore working from signal alone, with no prior service-ladder or ICP
-document to anchor against — treat today's client-acquisition and
-service-ladder sections as directional, not ladder-mapped.
+`_active/linkedin-launch/daily/brand-radar-*.md` were all absent from this
+checkout — confirmed via full-repo search, not skipped silently. This was
+also the first brief this system produced; the `AUTOMATION_PROMPT.md`
+operating spec and this `daily/`/`ledger/` scaffold were reconstructed the
+same day because they did not previously exist in the repo (see note at
+top of `AUTOMATION_PROMPT.md`). `brand-radar-*.md` is still genuinely
+absent — that one's fine, it's optional context per the automation spec.
 
 ---
 
@@ -95,96 +106,139 @@ regulator, brand, or study claimed — not a recommendation to the reader.
 
 ## 3. AEO/GEO Retrieval Opportunity
 
-Healthcare's outsized share of AI Overview real estate (Signal 5) means
-the category punishes vague content and rewards answer-first structure
-disproportionately hard — a generic post gets buried under an ocean of
-AIO-eligible competitors. The retrieval opportunity today is narrow and
-regulatory: **"is [ingredient/brand] safe" and "is [ingredient] legal"
-question-format content is under-served right now for 7-OH and compounded
-GLP-1s specifically**, because the news is fresh (days old) and most
-existing web content pre-dates this week's enforcement action — AI answer
-engines weight recency, and there's a short window before slower
-competitors' content catches up and closes the gap.
+**Correction to this morning's run**: the ~48.75% AIO-coverage stat cited
+originally was weakly sourced (single industry blog, methodology unclear).
+Replacing it with the actually-verified facts from
+`MARKET-ICP-DOSSIER-2026-06.md` §5, which are stronger and more usable:
+
+- `VERIFIED` (BrightEdge, Oct 2025-Jan 2026): for healthcare queries,
+  ChatGPT cites elite hospitals ~1% of the time vs. Google AI Overviews
+  33% — **the engines disagree on what counts as authoritative, and a
+  brand's own marketing page is almost never the answer on either unless
+  it carries institutional-grade proof.**
+- `VERIFIED` (Pew, July 2025): inside an AI answer, users click a
+  traditional link only 8% of the time (1% for links *inside* the
+  summary) — being *named in the answer* now matters more than ranking.
+- `VERIFIED` (Princeton/Georgia Tech GEO paper, arXiv 2311.09735): adding
+  citations, statistics, and expert quotations lifts generative-response
+  visibility up to 40%.
+
+The retrieval opportunity today is narrow and regulatory: **"is
+[ingredient/brand] safe" and "is [ingredient] legal" question-format
+content is under-served right now for 7-OH and compounded GLP-1s
+specifically**, because the news is fresh (days old) and most existing web
+content pre-dates this week's enforcement action. This is a live
+demonstration of the BrightEdge finding above — the brands that get named
+in this window will be the ones with citations and specifics (dosage
+numbers, the actual FD&C Act sections cited, named product categories),
+not the ones with vague "stay informed" copy.
 
 ## 4. Creative Strategy Translation
 
-- **Angle A — "The FDA just told you what 'compounded' actually means"**:
-  use the GLP-1 telehealth letters to explain, in plain language, the gap
-  between "same active ingredient" and "same product" — a trust/education
-  angle that also happens to be freshly retrieval-relevant (Section 3).
-- **Angle B — "Gas station opioids are wearing a supplement costume"**:
-  the 7-OH story is a sharper, more visual hook than typical supplement
-  regulatory news — smoke-shop distribution + gummy/drink-mix formats read
-  as consumer-facing in a way warning letters usually don't.
-- **Angle C — "Your 5-star reviews are the liability, not your claims"**:
-  TruHeight (background signal, still teaching-grade) reframes review
-  fraud as the primary enforcement lever right now, not just ad copy —
-  relevant to any DTC brand doing review incentivization.
+Bridge Message spine for all three angles: *"Your proof is good. It just
+isn't getting carried — and in a regulated category, being the source AI
+names is now a two-gate problem only a real expert can clear."*
+
+- **Angle A — Dana-routed, "the FDA just did your positioning for you"**:
+  the GLP-1 telehealth letters are a live demonstration of the two-gate
+  problem — brands that fail to disclose "compounded" fail the FTC gate
+  *and* the AI-citation gate at once (AI won't carry a claim it can't
+  verify against a labeled source). Bridge alternate A: *"You did
+  everything right. The machine just isn't carrying your proof..."*
+- **Angle B — cold-open/audit-routed, "gas station opioids are wearing a
+  supplement costume"**: the 7-OH story is the sharpest available
+  demonstration of Bridge alternate C — *"AI search doesn't read your
+  marketing, it reads your proof."* Use it to open a Claim-Safe Citation
+  Audit pitch: if the FDA can tell the difference between a real
+  supplement and a costume, so can the models deciding who gets named.
+- **Angle C — proof-point for the Audit itself, "your reviews are the
+  liability, not your claims"**: TruHeight (background, still teaching
+  grade) is the review-fraud proof point the Claim-Safe Citation Audit's
+  "$53,088-per-violation" opener leans on — a concrete number to cite
+  instead of a vague "could get you in trouble."
 
 ## 5. Client-Acquisition Map
 
-Without `SERVICE_LADDER.md` or the ICP dossier in this checkout, treat this
-as a raw opportunity list rather than a ladder-mapped one:
+No brand from the `ACQUISITION_TARGETS.md` 20-brand shortlist has a direct
+signal-match today — none of today's regulatory actions (GLP-1 telehealth,
+7-OH) target a shortlist brand. Two things worth flagging instead:
 
-- **Compliance-adjacent content/positioning work** for DTC supplement or
-  telehealth brands that need to publicly differentiate themselves from
-  the GLP-1 telehealth firms named in this wave of letters — a "how we're
-  different from what the FDA just flagged" positioning brief is a live,
-  timely deliverable.
-- **Review-integrity audits** as a wedge offer for any DTC brand using
-  incentivized reviews — TruHeight is the cautionary tale to cite when
-  pitching this.
-- **GEO content gap-fill** for supplement/health brands specifically on
-  the "is this ingredient safe/legal" question format identified in
-  Section 3 — a narrow, defensible service angle while the window is open.
+- **Novos** (Signal 4 — Unilever Ventures minority stake, $98/mo DTC
+  longevity subscription, retail in Mayo Clinic Store/Erewhon/Equinox)
+  fits the ICP profile (funded, DTC, health-claim-dense) but isn't on the
+  official shortlist — flag as a candidate addition, Dana-routed (a
+  funded brand at this stage typically has a Head of Brand/Content, not
+  just a founder voice).
+- The TruHeight pattern (Signal 3) is a strong **generic** wince-line/
+  proof-point for cold-open outreach to any shortlist brand doing
+  incentivized reviews — not signal-specific to one brand today.
+
+**Today's honest read**: this was a regulatory/enforcement-heavy news day,
+not a brand-specific-signal day. The GLP-1 and 7-OH stories are strongest
+as *content and audit-pitch fuel* (Section 4, Section 7), not as direct
+"brand X just did Y, reach out now" triggers. Forcing a shortlist-brand
+match where none exists would be worse than saying so.
 
 ## 6. Productized Service Ladder
 
-**Cannot map to tiers today** — `SERVICE_LADDER.md` is not present in this
-checkout (see CONTEXT GAPS). The three opportunities in Section 5 read as
-candidates for a light diagnostic/audit tier and a content-production tier
-respectively, but assigning them to actual named offers requires the
-ladder document. Recommend populating `SERVICE_LADDER.md` with the real
-offer tiers so tomorrow's run can do this mapping instead of guessing.
+Mapped to the real 4-pillar ladder (`SERVICE_LADDER.md`):
+
+- **Pillar 2 (Claim-Safe Citation Audit, $500 pilot)** — the natural home
+  for both today's regulatory stories. The GLP-1 disclosure gap and the
+  7-OH claim-safety story are exactly the "does this claim survive an FTC
+  read AND get carried by AI" grading the Audit does. Use both as cold-open
+  proof material (Angle B, Section 4).
+- **Pillar 3 (GEO Authority Ghostwriting, $1.5-3K/mo pilot)** — the
+  "is [ingredient] safe/legal" retrieval gap (Section 3) is a
+  content-calendar item for any active retainer client this week — a
+  same-week, freshness-driven post while the window is open.
+- **Pillar 4 (Creative Strategy Intensive)** — not triggered by today's
+  signals; no brand-repositioning-scale opportunity surfaced today.
 
 ## 7. Ready-to-Deploy Content
 
-**Post draft — Angle B (7-OH), LinkedIn-length:**
+**Post draft — Angle B (7-OH), cold-open/audit-routed, LinkedIn-length:**
 
-> The FDA sent seven warning letters this week. Not to supplement
-> companies. To companies selling something that *looks* like a
-> supplement — gummies, drink mixes, tablets — sold in gas stations and
-> smoke shops, spiked with concentrated 7-hydroxymitragynine.
+> AI search doesn't read your marketing. It reads your proof.
 >
-> 7-OH shows up naturally in kratom, in trace amounts. What FDA is
-> flagging isn't kratom. It's products engineered to concentrate the
-> opioid-adjacent compound and sell it next to the energy drinks — with
-> claims about pain relief and anxiety that were never studied.
+> This week the FDA sent seven warning letters — not to supplement
+> companies, to companies selling something that *looks* like one. Gummies,
+> drink mixes, tablets, sold in gas stations and smoke shops, spiked with
+> concentrated 7-hydroxymitragynine and dressed in pain-relief and anxiety
+> claims nobody studied.
 >
-> If you sell in the health/wellness space and your product shares a
-> shelf, a hashtag, or a customer with anything in this category: this is
-> the week to make the distance between you and that category loud and
-> explicit. Regulators just did the positioning work for you. Use it.
+> The FDA can tell the difference between a real supplement and a costume.
+> So can the models deciding who gets named when a buyer asks "is this
+> safe." If your brand's proof is real but it isn't organized the way a
+> regulator — or an AI engine — can verify it, you're invisible to both for
+> the same reason.
+>
+> DM me "AUDIT" for a free teardown of where your claims stand on both.
 
-**Hook set — Angle A (GLP-1 telehealth):**
-1. "Compounded" doesn't mean "the same drug." The FDA just spent 30
-   warning letters making that point.
-2. If a telehealth brand's GLP-1 ad doesn't say the word "compounded" —
-   ask why.
-3. The FDA's actual complaint wasn't the compounding. It was the brands
-   letting you think it wasn't compounded at all.
+**Hook set — Angle A (GLP-1 telehealth), Dana-routed:**
+1. Your rankings stayed flat. The FDA just explained why the clicks left
+   anyway: "compounded" and "same as the FDA-approved drug" are not the
+   same claim, and the machine can tell.
+2. You did everything right. Thirty warning letters this week went to
+   brands whose proof wasn't organized so a regulator — or a model —
+   could tell it apart from the real thing.
+3. If a telehealth brand's GLP-1 ad doesn't say the word "compounded," ask
+   why. Now ask the same question about your own claims.
 
 ## 8. Anecdote/Reaction Loop
 
 No personal anecdote is fabricated here — I don't have a real Farrice
 story tied to today's signals, and inventing one would violate the
-no-fabrication mandate. Suggested reaction-loop structure instead: the
-sharpest personal-voice entry point today is the TruHeight review-fraud
-pattern (Signal 3) — most operators have, at some point, been offered "a
-discount for a 5-star review" from a vendor or been tempted to seed their
-own reviews early. If there's a real version of that story, it's the
-strongest hook available this week; if not, skip this section rather than
-manufacture one.
+no-fabrication mandate. Per the dossier's wince-test, the sharpest
+*available* entry point today is Marcus's fear (§2 of the ICP dossier):
+"I'm the most knowledgeable person in this category and I'm invisible."
+The 7-OH story is a founder-relatable version of that fear inverted —
+products with zero real expertise behind them are getting *named* (in
+warning letters, in headlines) while legitimate brands stay invisible in
+the answers that matter. If there's a real version of Farrice's own
+"the real thing stayed quiet, the costume got the attention" moment, it's
+the strongest hook available this week. If not, skip this section rather
+than manufacture one — per the automation's non-negotiable rule.
 
 ## 9. IP Library Capture
 
@@ -207,10 +261,15 @@ First entry in this system — no prior ledger to roll forward.
 | Metric | Today |
 |---|---|
 | Signals found | 6 (5 live + 1 explicit gap) |
-| Content pieces seeded | 2 (1 post draft, 1 hook set) |
-| Prospects surfaced | 3 opportunity types (Section 5), 0 named accounts |
-| Cumulative since system start | 6 signals / 2 content pieces / 3 opportunity types (day 1) |
+| Content pieces seeded | 2 (1 post draft, 1 hook set) — both now voice-ruled and CTA'd to the real funnel |
+| Named-shortlist brands hit | 0 direct hits; 1 candidate flagged for shortlist addition (Novos) |
+| Pillar mapped | Pillar 2 (Claim-Safe Citation Audit) — both regulatory stories; Pillar 3 (GEO Authority Ghostwriting) — the retrieval-gap content item |
+| Cumulative since system start | 6 signals / 2 content pieces / 1 shortlist candidate / 2 pillars (day 1) |
 
-**Open item for tomorrow**: wire a real forum-sentiment source (Reddit API
-or standing WebFetch thread list) — today's brief had to report that gap
-honestly rather than fabricate sentiment.
+**Open items for tomorrow**:
+1. Wire a real forum-sentiment source (Reddit API or standing WebFetch
+   thread list) — today's brief had to report that gap honestly rather
+   than fabricate sentiment.
+2. Consider whether Novos (Signal 4) should be formally added to
+   `ACQUISITION_TARGETS.md`'s shortlist, or tracked separately as a
+   funding-triggered opportunity list distinct from the core 20.

@@ -9,6 +9,19 @@
 > sections and hard boundaries). If the original authored version differs
 > from this reconstruction, replace this file with the original — do not
 > merge the two.
+>
+> **Update (2026-07-01, same day):** found the real canonical business
+> system for this vertical living in Google Drive ("Farrice — GEO-SEO
+> Health Brand Launch (2026-06-23)") — a fully built positioning system
+> (Bridge Message, two buyer avatars, 4-pillar offer ladder, 20-brand
+> shortlist) that this automation should have been grounding in from day
+> one. Synced the key docs into git (`SERVICE_LADDER.md`,
+> `ACQUISITION_TARGETS.md`,
+> `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md`) and
+> updated Sections 5/6 below and the Context Grounding list accordingly.
+> `CONTENT-DOMINATION-RESEARCH.md` (originally listed under Context
+> Grounding) does not correspond to any real file anywhere — dropped from
+> the grounding list below and replaced with the real docs.
 
 ## Purpose
 
@@ -71,12 +84,15 @@ X brand") ships without either a reproduced query/response or an explicit
 4. **Creative Strategy Translation** — how today's signals convert into
    content angles (hooks, formats, POV) — the "so what do I make" layer.
 5. **Client-Acquisition Map** — which signal(s) point at a live prospect
-   opportunity (a brand with a problem worth solving, a niche with a gap)
-   and the specific angle of approach.
-6. **Productized Service Ladder** — map today's opportunity onto the
-   existing offer ladder in `SERVICE_LADDER.md`. If that file is absent from
-   the checkout, say so under CONTEXT GAPS and skip the mapping rather than
-   inventing tiers.
+   opportunity. Name a specific brand from `ACQUISITION_TARGETS.md`'s
+   20-brand shortlist where the signal fits (not a generic "DTC brand"),
+   tag which avatar (Dana = brand lead, Marcus = founder/formulator, per
+   `MARKET-ICP-DOSSIER-2026-06.md`) the opportunity routes to, and open
+   with the matching Bridge Message alternate (A=Dana, B=Marcus, C=cold-open).
+6. **Productized Service Ladder** — map today's opportunity onto the real
+   4-pillar ladder in `SERVICE_LADDER.md` (Setup / Claim-Safe Citation
+   Audit $500 / GEO Authority Ghostwriting $1.5-3K mo / Creative Strategy
+   Intensive). Name the specific pillar, not a generic tier.
 7. **Ready-To-Deploy Content** — one or two draft-ready pieces (LinkedIn
    post, hook set, short-form script beat) grounded strictly in
    `VERIFIED`/`LIKELY` material from Section 1.
@@ -107,10 +123,30 @@ X brand") ships without either a reproduced query/response or an explicit
 Load if present in the checkout; note absence explicitly under CONTEXT GAPS
 if not:
 
-- `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md`
-- `_active/linkedin-launch/research/CONTENT-DOMINATION-RESEARCH.md`
-- `_active/health-performance-ip-library/SERVICE_LADDER.md`
-- latest `_active/linkedin-launch/daily/brand-radar-*.md`
+- `_active/linkedin-launch/research/MARKET-ICP-DOSSIER-2026-06.md` —
+  Bridge Message, two buyer avatars (Dana/Marcus), awareness ladder, VoC
+  language bank, labeled GEO/AI-search facts. Read before writing anything.
+- `_active/health-performance-ip-library/SERVICE_LADDER.md` — the real
+  4-pillar offer ladder + pricing.
+- `_active/health-performance-ip-library/ACQUISITION_TARGETS.md` — the
+  20-brand shortlist for naming specific prospects in Section 5.
+- latest `_active/linkedin-launch/daily/brand-radar-*.md` (still genuinely
+  absent as of 2026-07-01 — this is fine, it's optional context, not a
+  hard requirement)
+
+## Voice Rules (apply to Sections 4, 7, 8 — content-facing sections)
+
+- Lead with **named / cited / carried**. Introduce "GEO/AEO" second, never
+  as the lead.
+- Open on a wince line (verbatim from the VoC bank) before pivoting to the
+  lived-expertise moat.
+- Reframe, never shame: "not because you're small — because your proof
+  isn't organized for the machine to carry."
+- Banned register: "personal brand," "thought leader," "influencer,"
+  "hack," "10x," "go viral," generic "content strategy," anything implying
+  *more volume* is the fix.
+- Correct FTC figure: **$53,088 per violation** (effective Jan 17, 2025) —
+  not the older $43,792 figure that appears in some archived drafts.
 
 ## Output
 
