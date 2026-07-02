@@ -169,6 +169,10 @@ Two axes: *borrowed marketing credibility ←→ lived/credentialed body experti
 
 ## 5. SALES LANGUAGE — TUNED TO BOTH AVATARS
 
+> **THE SOUND BITES COME FIRST (added 2026-07-01 — Miller zero-load pass; full deployment rules in `SOUND-BITES.md`).** Five lines, said verbatim, everywhere, for years: **P** *"When your buyers ask AI about your category, somebody else's name comes back."* · **E** *"You didn't do anything wrong. The rules changed under you, and nobody sent the memo."* · **A** *"I get your name in the answer, with claims that can't blow up."* · **C** *"The screenshot in the next board deck is yours: your name, in the answer."* · **ER** *"Type the question in front of your founder. Watch your name come back."* Every asset below opens on a sound bite and closes on the End Result. One stat max per asset, woven, never stacked.
+>
+> **Buyer-facing display names (documented, not drift):** in prospect copy the rungs read as plain language — the Audit keeps its full name (**The Claim-Safe Citation Audit**); Pillar 2.5 displays as **"The Install"**; Pillar 3 displays as **"The Authority Engine."** Internal docs keep the full names. Same rungs, same prices; lighter words where a stranger reads them.
+
 ### For Dana (the brand lead — validate the fairness wound, hand her a new scoreboard)
 - *"Your rankings stayed flat but the clicks vanished. That's not your fault and it's not your budget — the cited brands aren't bigger, their proof is just organized so the machine can carry it. Let's make you the source it names, without a claim blowing up."*
 - *"You did everything right. The metric that defined you — 'we rank #1' — quietly got decoupled from the one that matters — 'we get named.' I rebuild you a scoreboard you can win on, and a screenshot you can put in the board deck."*

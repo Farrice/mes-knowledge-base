@@ -9,7 +9,8 @@
 ## 1. Who I am (say it the same way everywhere)
 **The credentialed body-expert who makes health brands the source AI search names — and whose claims survive scrutiny.** 18 years in human performance (NASM CPT/CES/PES), deployed as evidence, never as a résumé bullet. Not a coach. Not an "AI guy." The one operator who reads the evidence behind the physiology claim AND structures it so the machine carries it.
 
-**Wedge line:** *Your proof is good. It just isn't getting carried — and in a regulated category, being the source AI names is a two-gate problem only a real expert can clear.*
+**The one-liner (say it exactly like this):** *"AI is answering your buyers' questions with someone else's name. I fix that — with claims that can't blow up."*
+**The five sound bites** live in `../02-offer/SOUND-BITES.md` — open every asset on one, close on the End Result (*"Type the question in front of your founder. Watch your name come back."*). Repeat them verbatim until strangers can. (Internal framing, for your own head only: the two-gate insight — content that survives the FTC is the content AI cites.)
 
 ## 2. Who I serve + what they feel (the 2am truths — echo, never lecture)
 **Dana** (Head of Brand/Growth, $3–40M DTC wellness): *"Rankings say we're fine but the clicks are gone. If the founder types our category into ChatGPT and sees three competitors named, that's my job."* Reassure the human, indict the machine. Hand her a scoreboard she can win.

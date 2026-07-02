@@ -10,26 +10,28 @@
 
 > LinkedIn caps the headline at 220 characters. All three lead with *named / cited / carried*, introduce GEO second, and carry the body-expertise moat as evidence, not a résumé bullet. Pick by which avatar you're optimizing the first impression for.
 
+> **Rewritten 2026-07-01 (Miller zero-load pass).** All three now run the sound bites verbatim (`SOUND-BITES.md`) — no jargon, no "GEO" anywhere a stranger reads first. Old versions in git history.
+
 **OPTION 1 — BRAND-LEAD LEAD (Dana / primary). Recommended default.**
 
 ```
-I make health & supplement brands the source AI search names — not just ranks. 18 yrs in human performance + claim-safety, so your proof gets carried and survives scrutiny. GEO ghostwriting that doesn't blow up.
+When your buyers ask AI about your category, somebody else's name comes back. I fix that for health & supplement brands: your name in the answer, with claims that can't blow up. 18 years in human performance.
 ```
-*216 characters. Leads with "the source AI names," moat = "18 yrs in human performance + claim-safety," GEO arrives second, ends on the fear (the claim that blows up). Best for the buyer who carries the number.*
+*208 characters. The problem sound bite, then the answer, then the credential as evidence. A stranger understands it in one read with zero effort.*
 
 **OPTION 2 — FOUNDER LEAD (Marcus / secondary).**
 
 ```
-AI search is finally built to reward the real ones. I make founders the name it carries — in their own voice. 18 yrs in human performance + claim-safe GEO, so the machine cites you before it cites someone with half your expertise.
+Your buyers are asking AI. Someone with half your expertise is getting named. I fix that for founders: your name in the answer, in your voice — you never perform. 18 years in human performance.
 ```
-*222 characters — trim "human" to "perf." if LinkedIn rejects: "18 yrs in perf. + claim-safe GEO" = 216. Turns AI from threat to ally; "in their own voice" answers the becoming-the-thing-he-despises fear.*
+*193 characters. Opens on the founder's 2am wound (the louder half-expert getting cited), not a thesis about AI. "You never perform" kills the influencer fear in three words.*
 
-**OPTION 3 — DISAGREEMENT HOOK (cold-open / sharpest).**
+**OPTION 3 — THE ACTIVE HOOK (cold-open / sharpest).**
 
 ```
-ChatGPT and Google don't agree on whose health proof counts — and if yours only lives on your site, you're invisible to both. I make brands the source AI names. 18 yrs in human performance + claim-safe GEO ghostwriting.
+Type your category's question into ChatGPT. If a competitor's name comes back, DM me 'AUDIT'. I get health brands named in the answer, with claims that can't blow up. 18 years in human performance.
 ```
-*217 characters. Uses the most ownable fact (the engine disagreement) as the hook. Highest curiosity, slightly lower clarity — best once there's a teardown live to back the claim.*
+*198 characters. Makes the stranger RUN THE TEST inside the headline itself — the wall becomes visible by their own hand, and the DM verb is already loaded.*
 
 ---
 
@@ -37,22 +39,28 @@ ChatGPT and Google don't agree on whose health proof counts — and if yours onl
 
 > Opens on a wince line verbatim. Runs the Bridge Message as spine. Proves the moat with the 18yr credential deployed as evidence (the thing AI can't fake), never as a resume bullet. Ends on the DM CTA. LinkedIn shows ~2-3 lines before "see more" — the first 2 lines do the work alone.
 
+> **Rewritten 2026-07-01 (Miller zero-load pass — story order, zero stats, sound bites verbatim).** Old version in git history.
+
 ```
-If you're not in the AI answer, you're not on the shortlist.
+When your buyers ask AI about your category, somebody else's name comes back.
 
-That's the part the rank tracker won't tell you. Your keywords held. Your clicks left anyway. And when a buyer types your category's #1 question into ChatGPT tonight, three competitors get named — and you don't. They aren't bigger than you. Their proof is just organized so the machine can carry it.
+Try it. Type your category's question into ChatGPT — the one your best customer actually asks. Three brands get named. If yours isn't one of them, keep reading.
 
-Here's the reframe most people get wrong: this isn't a traffic problem, and it isn't a rank problem. Your proof is good. It just isn't getting carried. And in a regulated health category, being the source AI names is a two-gate problem — the content has to survive an FTC-substantiation gate AND an AI-trust gate at the same time. Almost no one can supply both. That's the whole game now.
+The brands it named aren't bigger than you. Their proof is just organized so the machine can carry it. You didn't do anything wrong. The rules changed under you, and nobody sent the memo. Your rankings held; your clicks left anyway.
 
-I spent 18 years inside human performance before I ever wrote a line of copy for a brand — NASM-certified across CPT, CES, and PES, with the psychology and behavior-change training underneath it. So when I read a claim on your label, I'm not guessing whether it survives scrutiny. I've read the actual physiology behind it. That's the part a GEO agency can't fake and a ghostwriter can't either: I can tell you which of your claims is citation-worthy AND legally clean, because I understand the body the claim is about.
+And in a health category there's a twist: the words that get you fined are the same words the machine won't carry. Safe claims and cited claims turn out to be the same claims. So the fix was never more content. It's proof that a lawyer and a machine both trust, written by someone who actually understands the body.
 
-That matters more than it used to. The research is blunt about it: ChatGPT cites elite health sources about 1% of the time vs. Google AI Overviews at 33% — the engines don't even agree on whose proof counts (BrightEdge). Citations, statistics, and credentialed expert quotes lift how often you get cited by up to 40% (Princeton/Georgia Tech). And inside an AI answer, users click out 8% of the time — being named in the answer is now worth more than ranking, because the click is gone either way (Pew).
+That last part is where I come in. I spent 18 years inside human performance (NASM, three certifications deep, psychology and behavior change underneath) before I ever wrote for a brand. When I read the claim on your label, I've read the science under it. I'm not guessing. An agency can't do that. A compliance checker can't write. I do both in one pass.
 
-I don't do more volume. You don't have a volume problem — you have a no-edge problem. AI is the research engine, not the voice. I make your substantiated, lived expertise the thing the machine carries, in a voice it can't synthesize for free, without a claim blowing up.
+I get your name in the answer, with claims that can't blow up.
 
-Who I build for: mid-size DTC health, wellness, supplement, and performance brands ($1M–$50M) — too small for a $20K/mo agency, too claim-exposed for a generic ghostwriter.
+You send a voice memo. I turn it into authority in your voice. You never perform, and nothing you publish keeps you up at night.
 
-Want to see exactly where you stand? Run The AI-Search Visibility Test in my Featured section — 7 checks, takes 10 minutes, tells you whether ChatGPT can even see you. Then DM me 'AUDIT' and I'll do a free teardown of one of your top claims: is it citation-worthy, and does it survive scrutiny.
+Who I do this for: health, wellness, supplement, and performance brands, $1M–$50M.
+
+Want to know where you stand? Run the 7-check test in my Featured section. Ten minutes, free, no opt-in. You'll probably fail five, and be surprised which ones.
+
+Then one day you type the question in front of your founder — and watch your own name come back.
 
 DM me 'AUDIT'.
 ```

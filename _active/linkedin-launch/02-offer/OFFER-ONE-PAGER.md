@@ -1,33 +1,39 @@
-# Get Named by AI Search — Without a Claim Blowing Up
-### For health, wellness & performance brands · Farrice Cain
+# When your buyers ask AI about your category, somebody else's name comes back.
+### Farrice Cain · for health, wellness & performance brands
 
-Your rankings stayed flat and the clicks vanished anyway. And when a buyer types your category's number-one question into ChatGPT tonight, competitors get named. You don't.
+Tonight, somewhere, your best customer types your category's question into ChatGPT. The answer names three brands.
 
-The brands getting named aren't bigger than you. Their proof is organized so the machine can carry it, and yours isn't. That's the whole gap.
+Yours isn't one of them.
 
-In a regulated category, being the source AI names is a two-gate problem. Gate one is the FTC's substantiation standard, where the wrong verb costs $53,088 per violation. Gate two is the engines' trust filter, and they can't even agree with each other: on health queries, ChatGPT cites elite hospitals about 1% of the time while Google's AI Overviews cite them 33%. Almost nobody is built for the part that matters: **the content that survives the regulator is the same content the machine cites.** Two departments, one gate. It takes one person who can do both in a single pass.
+The brands it named aren't bigger than you. Their proof is just organized so the machine can carry it. You didn't do anything wrong. The rules changed under you, and nobody sent the memo. Your rankings held. The clicks left anyway. And every question answered with someone else's name is a customer who never even finds out you exist.
 
-That's the job I do. 18 years inside human performance (NASM CPT/CES/PES) means I read the actual evidence behind your physiology claim before it earns a headline, then structure it so AI search carries it in your name. A GEO shop can't do the first half. A compliance reviewer can't do the second. And straight up: I'm early in this lane on purpose. My first three clients get founder pricing because their case studies are part of the deal.
+In a health category, one twist decides everything: the words that get you fined are the same words the machine refuses to carry. Safe claims and cited claims turn out to be the same claims. So the fix was never "more content." It's proof that a lawyer and a machine both trust, written by someone who actually understands the body.
 
----
+That's me. I spent 18 years inside human performance (NASM, three certifications deep) before I ever wrote for a brand. When I read the claim on your label, I've read the science under it. An agency can't do that. A compliance checker can't write. I do both in one pass. And I'll say it straight: my first three clients get founder pricing because their case studies are part of the deal.
 
-## Three ways in
-
-**1 · The Claim-Safe Citation Audit — $1,500** *(founder pilot: $500, three slots, feedback + case-study rights included)*
-Your top 8–12 claims graded on both gates at once: substantiation risk (source, evidence grade, safe wording vs. unsafe wording) and citation-worthiness (does the claim carry what actually moves AI visibility, or does it read as marketing the machine filters out). Plus the citation-gap snapshot: 3–5 category questions where a competitor is named and you aren't, with the reason why. One-page fix map, 30–45 minute walkthrough, delivered in 3–5 business days.
-
-**2 · The Trust-Layer Install — $2,000–$2,500, two weeks, fixed scope**
-The audit is the diagnosis; this is built infrastructure that lives in your business. Your Claim Ledger (every claim with its receipt, grade, and safe wording: the doc your whole team quotes from), one deeply-sourced flagship answer page targeting the highest-value question you're not named for, and your brand story made consistent everywhere AI reads. Yours whether or not we ever work together again.
-
-**3 · GEO Authority Ghostwriting — from $2,500/mo** *(pilot; month-to-month, no lock-in)*
-The recurring engine: 8–12 load-bearing founder posts a month, each one carrying proof, never filler. The count is a ceiling, not a treadmill. Claim-safe copy across everything. The citation assets that make AI search carry your name. You never perform: voice memo in, authority out. **Month-one make-good:** month one ships a defined artifact list plus your three-engine visibility baseline; if it doesn't ship on time, month two is free. That guarantees my work, not the engines' behavior. Nobody honest guarantees the engines.
-
-*The claim work is an editorial risk read from a credentialed practitioner, not legal advice. Your counsel keeps the final word, and my claim map makes their review faster and cheaper.*
+**I get your name in the answer, with claims that can't blow up.**
 
 ---
 
-## Start here (free, no pitch)
+## The plan (three steps, start anywhere)
 
-Send me three things: **one brand** you want run through this (yours or a competitor's), **why that brand matters to you**, and **the one question you're stuck on**. I'll send back where AI names you today, the three gaps behind it, and what I'd fix first.
+**1 · The Claim-Safe Citation Audit — $1,500** *(founder pilot: $500, three slots)*
+I take your top claims and grade every one: would this survive a regulator, and would the machine carry it? Then I show you the questions where a competitor gets named instead of you, and exactly why. One page, a 30-minute walkthrough, done in 5 days. You'll know where you stand before your next campaign does.
 
-If you'd rather see the wall yourself first: my 5-minute AI-Search Visibility Test is seven checks you can run tonight. Most brands fail five of them and didn't know it. DM me **AUDIT** for either.
+**2 · The Install — $2,000–$2,500, two weeks, fixed scope**
+I fix what the audit found and build it into your business: your claim library (every claim with its receipt and its safe wording — the page your whole team writes from), one deeply-sourced answer to the biggest question you're not winning, and your story told the same way everywhere the machine reads. It's yours forever, whether or not we ever talk again.
+
+**3 · The Authority Engine — from $2,500/mo** *(month-to-month, no lock-in)*
+I keep your name in the answer. Founder posts that sound like you on your sharpest day: you send a voice memo, I do the rest, you never perform. Every claim checked before it ships. Month one comes with a promise: the full list of deliverables lands on time, or month two is free. I guarantee my work. Nobody honest guarantees the machine.
+
+*One line of fine print, in plain English: I read claims as a credentialed practitioner, not a lawyer. Your counsel keeps the last word — my claim map just makes their job faster and cheaper.*
+
+---
+
+## Start here — free, no pitch
+
+Send me three things: **a brand** (yours or a competitor's), **why it matters to you**, and **the question you're stuck on**. I'll send back where AI names you today, the three gaps behind it, and what I'd fix first.
+
+Then one day, maybe soon, you type your category's question in front of your founder — **and watch your own name come back.**
+
+DM me **AUDIT**.
