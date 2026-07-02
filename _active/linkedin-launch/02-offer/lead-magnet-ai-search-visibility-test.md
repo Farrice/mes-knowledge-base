@@ -10,7 +10,7 @@ Your rankings stayed flat but the clicks vanished.
 
 If that sentence made you wince, you already know the thing the rank tracker won't tell you: search stopped being about *ranking* and started being about *being named*. When someone asks ChatGPT or Google's AI "what's the best magnesium for sleep" or "is your category's hero ingredient actually backed," the AI writes a paragraph and names a few brands as the answer. Almost nobody clicks the links underneath it. **Being named in the answer is the game now.**
 
-In a health category there's a twist most brands find out the expensive way: the words that get you fined are the same words the machine won't carry. Safe claims and cited claims are the same claims. So "will AI say my name?" and "will this claim survive a regulator?" stopped being two questions. This test grades you on both at once.
+In a health category there's a twist most brands find out the expensive way: the words that get you fined are the same words AI will never repeat. Safe claims and cited claims are the same claims. So "will AI say my name?" and "will this claim survive a regulator?" stopped being two questions. This test grades you on both at once.
 
 **How to score it:** Each check is GREEN (you're carried), YELLOW (you're inconsistent — the riskiest place to be, because you think you're fine), or RED (you're invisible or exposed). Be honest. A YELLOW you talk yourself into being a GREEN is exactly how a brand gets quietly written out of the category story.
 
@@ -27,7 +27,7 @@ In a health category there's a twist most brands find out the expensive way: the
 
 **What good looks like:** Your brand appears by name in the answer, ideally with a reason ("X is often recommended for…"). **GREEN.** A competitor is named and you aren't: **RED** — and write down who got named, because that's the brand whose proof is organized for the machine, not the brand that's bigger than you. Nobody gets named: **YELLOW** — the category is up for grabs and you're not claiming it.
 
-> The brands getting cited aren't bigger. Their proof is just organized so the machine can carry it.
+> The brands getting cited aren't bigger. Their proof is just organized so AI can find it and repeat it.
 
 ---
 
@@ -61,7 +61,7 @@ In a health category there's a twist most brands find out the expensive way: the
 
 ## CHECK 4 — Can your biggest claim survive a substantiation check? (the gate most brands skip)
 
-**What this tells you:** whether your strongest claim is an asset or a **$53,088-per-violation** liability (FTC, effective Jan 2025). The words that get you fined are the same words the machine won't carry — one check, two dangers.
+**What this tells you:** whether your strongest claim is an asset or a **$53,088-per-violation** liability (FTC, effective Jan 2025). The words that get you fined are the same words AI will never repeat — one check, two dangers.
 
 **How to check:**
 1. Pull your single strongest marketing claim — the one on the hero banner or the PDP headline. ("Clinically proven to…" "Boosts…" "Supports faster…")
@@ -120,7 +120,7 @@ In a health category there's a twist most brands find out the expensive way: the
 Count your GREEN / YELLOW / RED.
 
 - **5-7 GREEN:** You're ahead of almost everyone in your category. The work now is to defend the position and widen the moat (especially Checks 4 and 5 — the two-gate seam most brands never close). You're the brand others will screenshot.
-- **3-4 GREEN, the rest YELLOW:** You're competent and sinking at the same time — the most dangerous spot, because the dashboard still looks okay while the floor moves under you. You did a lot right. Your proof exists. It just isn't *organized so the machine can carry it.* This is fixable and it's mostly Checks 1-3 and 5.
+- **3-4 GREEN, the rest YELLOW:** You're competent and sinking at the same time — the most dangerous spot, because the dashboard still looks okay while the floor moves under you. You did a lot right. Your proof exists. It just isn't *organized so AI can find it and repeat it.* This is fixable and it's mostly Checks 1-3 and 5.
 - **Mostly YELLOW/RED:** You're not behind because you're small or because you did something wrong. You're behind because the scoreboard changed and nobody handed you the new rules. The good news: this is the cleanest before/after there is. The brands getting cited right now simply organized their proof first — and this list is the order to do it in.
 
 **The two-gate pattern to watch:** If Check 4 (substantiation) or Check 5 (credentialed entity) is RED, *fixing your formatting won't save you.* Schema and FAQ markup are table stakes — the cited source still has to clear the trust gate AND the compliance gate. That's the part the GEO tools can't do for you and the generic ghostwriters won't touch. It's also the part that, once closed, the big-spender brands can't out-budget you on.

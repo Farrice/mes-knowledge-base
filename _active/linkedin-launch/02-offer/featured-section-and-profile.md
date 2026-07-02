@@ -46,9 +46,9 @@ When your buyers ask AI about your category, somebody else's name comes back.
 
 Try it. Type your category's question into ChatGPT — the one your best customer actually asks. Three brands get named. If yours isn't one of them, keep reading.
 
-The brands it named aren't bigger than you. Their proof is just organized so the machine can carry it. You didn't do anything wrong. The rules changed under you, and nobody sent the memo. Your rankings held; your clicks left anyway.
+The brands it named aren't bigger than you. Their proof is just organized so AI can find it and repeat it. You didn't do anything wrong. The rules changed under you, and nobody sent the memo. Your rankings held; your clicks left anyway.
 
-And in a health category there's a twist: the words that get you fined are the same words the machine won't carry. Safe claims and cited claims turn out to be the same claims. So the fix was never more content. It's proof that a lawyer and a machine both trust, written by someone who actually understands the body.
+And in a health category there's a twist: the words that get you fined are the same words AI will never repeat. Safe claims and cited claims turn out to be the same claims. So the fix was never more content. It's proof that a lawyer and a machine both trust, written by someone who actually understands the body.
 
 That last part is where I come in. I spent 18 years inside human performance (NASM, three certifications deep, psychology and behavior change underneath) before I ever wrote for a brand. When I read the claim on your label, I've read the science under it. I'm not guessing. An agency can't do that. A compliance checker can't write. I do both in one pass.
 
@@ -72,6 +72,8 @@ DM me 'AUDIT'.
 ## (c) FEATURED SECTION — the 4 items (exact titles + link-card copy + what each links to)
 
 > LinkedIn Featured items show a **title** (bold, ~90 chars usable) and a **description** (~150-250 chars usable before truncation) per card. Order matters: it reads left-to-right, top item first. Each card removes one objection. No pitch — proof.
+
+> **⚡ UPGRADE PATH (2026-07-01):** a LIVE interactive lead magnet now exists — **The Claim Check** (public Claude artifact that runs the two-gate read on a visitor's own claim). Build + launch kit: `THE-CLAIM-CHECK-artifact-kit.md`. Once published, it takes this card-[1] slot (card copy in the kit, Step 3); the 7-check Doc below stays as the zero-login fallback and moves to card [4] or the About link.
 
 ### [1] THE LEAD MAGNET — primary, top-left position
 

@@ -5,9 +5,9 @@ Tonight, somewhere, your best customer types your category's question into ChatG
 
 Yours isn't one of them.
 
-The brands it named aren't bigger than you. Their proof is just organized so the machine can carry it. You didn't do anything wrong. The rules changed under you, and nobody sent the memo. Your rankings held. The clicks left anyway. And every question answered with someone else's name is a customer who never even finds out you exist.
+The brands it named aren't bigger than you. Their proof is just organized so AI can find it and repeat it. You didn't do anything wrong. The rules changed under you, and nobody sent the memo. Your rankings held. The clicks left anyway. And every question answered with someone else's name is a customer who never even finds out you exist.
 
-In a health category, one twist decides everything: the words that get you fined are the same words the machine refuses to carry. Safe claims and cited claims turn out to be the same claims. So the fix was never "more content." It's proof that a lawyer and a machine both trust, written by someone who actually understands the body.
+In a health category, one twist decides everything: the words that get you fined are the same words AI will never repeat. Safe claims and cited claims turn out to be the same claims. So the fix was never "more content." It's proof that a lawyer and a machine both trust, written by someone who actually understands the body.
 
 That's me. I spent 18 years inside human performance (NASM, three certifications deep) before I ever wrote for a brand. When I read the claim on your label, I've read the science under it. An agency can't do that. A compliance checker can't write. I do both in one pass. And I'll say it straight: my first three clients get founder pricing because their case studies are part of the deal.
 
