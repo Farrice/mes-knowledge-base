@@ -95,3 +95,65 @@ Multi-agent pipelines fail silently. One bad agent produces plausible-looking ga
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+---
+
+### Patterns from claude.ai export — Mark Kashef conversations (2026-07-01)
+
+*Source: transcript-grounded extraction conversations (Claude Code Masterclass "One-Person Company," AI Council subagents, model-card mastery, prompt-factory, solo AI consulting). Deduplicated against the full mark-kashef-* family — only net-new methodology below.*
+
+#### Pattern: The Core Agent Rule (Agent Unification)
+**Execute**: Stop designing agents as mutually exclusive corporate roles (UI designer, code reviewer, security auditor) — separate prompts with separate tools develop misaligned goals and contradict each other. Instead, take ONE task ("make the front end better"), split it into perspectives on that same task (color/hex lens, UX-structure lens, feature-expansion lens), generate each agent per-project (not from a generic role library), then fire one unified prompt: "invoke all of our agents to take X to the next level." Each agent keeps its own context window but shares the same incentive.
+**Success Metric**: Agent outputs compose without contradiction — "soldiers under one unified army instead of fighting different wars." Bonus signal: agents surface unrequested-but-aligned improvements (e.g., keyboard shortcuts nobody asked for) because the shared objective, not the role card, is driving.
+
+#### Pattern: Phase-Gated Development with External State Trackers
+**Execute**: In plan mode, force the plan into logical phases with a cutoff where each phase can stand alone. Have Claude create a tracker markdown file with checkboxes per phase plus acceptance criteria, and commit a rule to project memory: "always stop after completing a phase and ask approval before the next." After each completed phase: run `/context` to check headroom, then `/clear` and re-anchor the fresh session by tagging ONLY the tracker file ("execute phase 2"). The tracker file — not the conversation — is the project's state.
+**Success Metric**: No session ever crosses into compaction; every phase starts at ~85%+ free context. Correcting course costs one phase, never the whole build.
+
+#### Pattern: Multi-Modal Token Routing
+**Execute**: Route work across the three Claude surfaces by token value. Claude.ai chat = purely conceptual back-and-forth (subscription-cheap). Claude Code web = planning, brainstorming, PRDs, surface-level/aesthetic edits, and parallel micro-tasks that can run asynchronously from mobile (security scan + UI audit + PRD simultaneously). CLI = the "meatiest" build-and-iterate work only. Teleport web results back to the CLI (open-in-CLI button) when they're ready for real implementation; use branches/PRs so parallel web tasks never merge to production unreviewed.
+**Success Metric**: Premium CLI tokens are spent only on high-value iteration; idle time (mobile, downtime) still advances the project through web micro-agents.
+
+#### Pattern: Replicate-Anything Capability Transfer (Frontend Skill Extraction)
+**Execute**: When claude.ai's front end has a capability Claude Code lacks (e.g., PPTX/DOCX/XLSX creation via its hidden skill files), run the task on the front end once, then ask it: "Recreate everything you had to do — every bash command, every mistake, every lesson learned — as a complete guide teaching another AI agent how to replicate what you did." Drag the guide + output artifacts + generated scripts into a fresh Claude Code repo, `/init` to upskill it, then one-shot future requests with a one-line prompt.
+**Success Metric**: A capability that timed out and restarted-from-scratch on the front end becomes a repeatable one-shot command center in Claude Code — failures included in the guide are what make the transfer stick.
+
+#### Pattern: Documentation Injection (Zero-Error API Onboarding)
+**Execute**: For any new API/model/service, never let Claude work from training memory. Grab the official docs page as markdown (most doc sites have an "open as markdown" dropdown), paste into a repo file, `/init`, and prefix the build instruction with: "Use the following exactly as I'm telling you — this is the exact documentation. You're not aware of it because your training ended; this is a much newer API." Cheat-code variant: one-shot a working scaffold in the provider's playground (e.g., AI Studio auto-injects its own API docs), download as zip, drop into the repo, and tell Claude Code "recreate a better version of this."
+**Success Metric**: First-attempt working integration — no deep-research detours, no deprecated-SDK code, no "hundreds of messages to reach the same point."
+
+#### Pattern: The Codebase Inventory Map
+**Execute**: For large codebases where `/init` would flood the context window, have Claude produce a separate inventory markdown: every folder/file, what functionality it correlates to, dependencies, in plain English ("assume I'm not a developer"). Then scope every future change: point plan mode at the inventory, tell it to ignore everything outside the relevant domain, and make pinpoint changes without ramming the codebase into context. CLAUDE.md carries the rules; the inventory carries the map.
+**Success Metric**: Surgical edits in million-line codebases without full-repo context loads; a persistent artifact you carry into any session.
+
+#### Pattern: Model-Card Dialect Migration
+**Execute**: When a new model drops, skip tutorials and Discord — download the model/system cards for your current and target model and run the 5-part migration prompt: (1) the 3-5 differences that actually affect prompts (context handling, formatting preferences, capability gaps), (2) specific prompt fixes — words, structure, gotchas, (3) three before/after examples (basic task, complex multi-step, edge case), (4) a migration checklist, (5) "here's my actual prompt — convert it AND explain why you changed what you changed." Dialect anchors: Claude models keep rewarding XML; GPT reasoning models need markdown less than non-reasoning ones.
+**Success Metric**: Under 10 minutes from model release to migrated, tested prompts. Caveat baked in: front-end behavior ≠ API behavior (hidden system prompts) — always retest in the deployment surface.
+
+#### Pattern: Research → Mega-Guide → Prompt Factory
+**Execute**: Three-stage compounding: (1) deep research on the latest prompting techniques for the target modalities (image, video, voice, text, agents); (2) "act as a prompt engineer and turn this research into a mega guide as if teaching another AI to master prompt engineering for these modalities" — one markdown file; (3) drop the guide into a Claude Code repo, `/init`, go into plan mode, and give a business-context mega prompt: generate a complete suite of production-ready prompts tailored to THIS business, organized in a folder structure per modality, prioritized with justifications. Claude decides which prompts the business needs — you never enumerate them.
+**Success Metric**: A tailored, versioned prompt library (dozens of production prompts across modalities) from one business description — the "zero to 60%" asset that replaces generic sold prompt-packs.
+
+#### Insight: Files Are Truth, Not Claims
+Claude will tell you a plugin/MCP/setting is installed when it isn't — sometimes three to five times in a row. The verification standard is physical file state: `settings.local.json` for plugins and permissions, a hand-created `MCP.json` for servers. "When you see it hardcoded in the file, it's not lying to you."
+**Deploy**: After ANY install/config claim, tag the settings file and confirm the entry exists before restarting the session. To install an MCP server, skip the ask-Claude dance entirely: create `MCP.json` yourself, paste researched documentation payload, save, new session — detected on the spot.
+
+#### Insight: The 40-50% Quality Cliff (Hallucination Nation)
+Claude visibly loses focus at ~40-50% context consumption, well before compaction — and compaction itself is non-deterministic about what it keeps ("where AI slop is born"). Most users blame the model for degradation they caused by treating Claude Code like a chatbot.
+**Deploy**: Treat 50% used as the action threshold, not 90%. Prefer `/clear` + external-tracker re-anchor over `/compact`; only compact when a tracker file exists to backstop what the summary drops. Prune unused MCP servers and keep CLAUDE.md lean — a 15K-token CLAUDE.md "nukes your context every single time" and its instructions stop being followed.
+
+#### Insight: `#` Is Session Memory vs. Command Center Memory
+Corrections given mid-conversation ("no, you got this wrong") persist only in the session. Prefixing an instruction with `#` writes it into CLAUDE.md — permanent, every future session. Most users never learn the difference and re-teach the same rules forever.
+**Deploy**: The moment a correction feels like a rule ("always stop after each phase," "never use periods, keep it informal"), `#` it into the command center. Judgment call each time: session-worthy or perpetuity-worthy.
+
+#### Insight: Plan-Mode Insurance (The "Are You Sure" Rule)
+A CLAUDE.md mandate — "if I'm not in plan mode and the instruction isn't trivially clear, push back with clarifying questions before executing; if I've articulated it fully, just execute" — acts as a last line of defense against frustrated, lazy, or destructive instructions ("nuke the whole app" → clarifying questions instead of deletion).
+**Deploy**: Add it once per project. Pair with `/rewind` knowledge: rewind isn't just undo — it's for features built "99% right but 100% wrong structurally," where you redo the instruction WITH the newfound knowledge instead of patching a bad foundation.
+
+#### Insight: Graceful Shutdown Is Part of the Skill
+Agent teams left running after the deliverable quietly burn tokens — a forgotten squad idled overnight cost 10-20K tokens doing nothing. And the moment you send the same spawn prompt twice, it should stop being a prompt.
+**Deploy**: Any recurring agent-team spawn gets promoted to a skill/slash command with the full lifecycle baked in: clarifying questions → spawn → dispatch on approval → present findings → graceful shutdown. Shutdown is a required step, not hygiene.
+
+#### Insight: AI Is a Luxury, Not a Right (Operator Layer)
+Businesses fail with AI because they use it as a solution looking for a problem. Kashef's consulting sequence: fix the business problem first (data integrity, unmaintained CRMs, undefined processes), THEN apply AI where a proper use case exists. The one-person-company advantage isn't building automations — knowledge is commoditizing; it's advising on sequencing: which automation takes precedence, where guardrails/fallbacks go, what stays human-in-the-loop.
+**Deploy**: Before spinning up any agent pipeline for a business outcome, run the two-question gate: (a) does the underlying problem actually exist, (b) is AI the best-suited fix — and price your value on the sequencing judgment, not the build.

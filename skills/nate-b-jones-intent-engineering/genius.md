@@ -158,3 +158,34 @@ The agent then presents a few options, each annotated with the tradeoffs based o
 | **Assumption Surfacing** | Assumptions are rarely stated, or only when explicitly prompted. | Some key assumptions are revealed, often in response to uncertainty. | The agent reflexively surfaces all critical assumptions, identifies areas of low confidence, and proactively poses disambiguating questions as a design feature. |
 | **Reversibility-Confidence Alignment** | All actions require a similar level of confidence, regardless of reversibility. | Higher confidence is generally required for irreversible actions, but the mapping is informal. | Every tool call or action is mapped to its reversibility gradient, and the required confidence level and human approval threshold are dynamically adjusted accordingly. |
 | **Clarification Loop Effectiveness** | Clarification loops are triggered rarely or ask generic questions. | Clarification loops are triggered appropriately, but questions might not fully uncover latent intent. | Clarification loops are highly targeted, asking precise questions that rapidly disambiguate latent intent, priorities, and unstated constraints. |
+
+---
+
+### Patterns from claude.ai export — Nate B. Jones conversations (2026-07-01)
+
+*Source: "Inside ChatGPT-5's Brain: System Prompt Secrets for First Movers" (Aug 2025). These patterns cover the USER side of the intent gap — how to delegate to bias-to-ship agentic models that will NOT run the clarification loop for you.*
+
+## Pattern 10: The Bias-to-Ship Inversion
+Agentic models are configured to proceed, not ask — GPT-5's system prompt allows at most one clarifying question before execution mode. This inverts the clarification responsibility: with conversational models, the back-and-forth caught wrong assumptions; with bias-to-ship models, wrong assumptions embedded in the prompt "compound into nicely-looking disasters instead of helpful clarifications."
+**Execute**: Before delegating to any agentic model, assume zero clarification rounds. Audit your prompt for embedded assumptions the model will silently execute. Anything you would normally settle in turn 2-3 must be stated in turn 1.
+**Success Metric**: Tasks that previously took five back-and-forths complete in one, without answer-shaped-but-wrong deliverables.
+
+## Pattern 11: Spec-First Delegation (Conversations → Specifications)
+The unit of interaction shifts from conversation to specification. "You have to be higher grade in your intent. You have to write specs, not just conversations." Iterative refinement still works on conversational models; agentic models reward nailing the first shot with clear deliverables, assumptions, and constraints — and an imperfect spec still beats a loose prompt.
+**Execute**: Rewrite your highest-volume AI workflow as a spec: front-load assumptions, set tool policies, define acceptance criteria. Build a personal prompt library of reusable specs — agentic models reward it.
+**Success Metric**: First-pass output is decision-ready without a refinement round; spec reuse rate climbs across the workflow.
+
+## Pattern 12: The Six-Line Delegation Spec
+Nate's master template for agentic delegation, one labeled line each:
+1. **Task** — define it as clearly as you can
+2. **Deliverable** — format, length, audience (even if the audience is just you)
+3. **Assumptions** — bind the model to your context/scope/timeline assumptions at the top
+4. **Non-Goals** — what must NOT be done (the speculative-execution killer)
+5. **Tools** — explicitly allowed and explicitly forbidden
+6. **Acceptance** — the success criteria that define "done"
+**Execute**: Use all six lines for any delegation with a Reversibility Score > 2 (see Tacit 4). The Non-Goals line is the direct fix for speculative execution (comprehensive output when you wanted a quick check); the Tools line is the direct fix for tool-usage surprises (unrequested web searches, unwanted code execution — "don't build this in code, just think strategically").
+**Success Metric**: Zero overcompletion events; zero unrequested tool invocations on delegations that matter.
+
+## Tacit 5: System-Prompt Archaeology
+**Insight**: A leaked system prompt is the clearest behavioral map of a model you will ever get — clearer than any public statement from the vendor. It tells you the model's default posture (ship vs. ask), its non-negotiable prompt elements, its buried failure modes (e.g., GPT-5's system prompt explicitly kills commentary after image generation — so generate, then analyze, in separate turns), and the vendor's product roadmap ("they've articulated and built an agent that ships first and asks questions later").
+**Deploy**: When a new frontier model launches, read its system prompt (they reliably leak within days) before writing your prompting guidance for it. Derive per-model prompting posture from the prompt itself, not from habits carried over from the previous model. Treat every clause that constrains the model as a clause you may need to compensate for in your own specs.

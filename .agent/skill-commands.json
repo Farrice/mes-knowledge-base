@@ -57,6 +57,10 @@
       "skill": "andrew-dun-vibe-consulting"
     },
     {
+      "command": "/andrew-lane",
+      "skill": "andrew-lane-design-systems"
+    },
+    {
       "command": "/andrew-stanton",
       "skill": "andrew-stanton-audience-engineering"
     },
@@ -165,6 +169,10 @@
       "skill": "cinematic-documentary"
     },
     {
+      "command": "/coaching-business",
+      "skill": "coaching-business-os"
+    },
+    {
       "command": "/cognitive-engagement",
       "skill": "cognitive-engagement-optimizer"
     },
@@ -229,8 +237,16 @@
       "skill": "dan-wang-literary-analysis"
     },
     {
+      "command": "/daniel-pink",
+      "skill": "daniel-pink-writing-structure"
+    },
+    {
       "command": "/daniel-priestley",
       "skill": "daniel-priestley-oversubscribed"
+    },
+    {
+      "command": "/daniel-thrasher",
+      "skill": "daniel-thrasher-affiliate"
     },
     {
       "command": "/dara-denney",
@@ -369,6 +385,14 @@
       "skill": "futurepedia-prompt-engineering"
     },
     {
+      "command": "/gabe-novotny",
+      "skill": "gabe-novotny-fitness-content-business"
+    },
+    {
+      "command": "/gary-vaynerchuk",
+      "skill": "gary-vaynerchuk-attention"
+    },
+    {
       "command": "/gemini-api",
       "skill": "gemini-api-dev"
     },
@@ -397,6 +421,10 @@
       "skill": "harry-dry-copywriting"
     },
     {
+      "command": "/henrik-werdelin",
+      "skill": "henrik-werdelin-portfolio-entrepreneurship"
+    },
+    {
       "command": "/henry-shukman",
       "skill": "henry-shukman-contemplative-writing"
     },
@@ -421,6 +449,10 @@
       "skill": "jason-fladlien-marketing"
     },
     {
+      "command": "/jay-hiette",
+      "skill": "jay-hiette-coaching-positioning"
+    },
+    {
       "command": "/jen-santulan",
       "skill": "jen-santulan-listing-content"
     },
@@ -441,6 +473,10 @@
       "skill": "jessica-jensen-platform-intelligence"
     },
     {
+      "command": "/jiang-xueqin",
+      "skill": "jiang-xueqin-cognitive-autonomy"
+    },
+    {
       "command": "/jim-oshaughnessy",
       "skill": "jim-oshaughnessy-philosopher-financier"
     },
@@ -457,6 +493,10 @@
       "skill": "john-whiting-propaganda-machine"
     },
     {
+      "command": "/jonah-berger",
+      "skill": "jonah-berger-contagious"
+    },
+    {
       "command": "/jonathan-courtney",
       "skill": "jonathan-courtney-marketing"
     },
@@ -467,6 +507,10 @@
     {
       "command": "/joscha-bach",
       "skill": "joscha-bach-consciousness"
+    },
+    {
+      "command": "/josh-kaufman",
+      "skill": "josh-kaufman-business-fundamentals"
     },
     {
       "command": "/josh-sanders",
@@ -543,6 +587,10 @@
     {
       "command": "/kobi-brown",
       "skill": "kobi-brown-educational-virality"
+    },
+    {
+      "command": "/kunal-shah",
+      "skill": "kunal-shah-consumer-psychology"
     },
     {
       "command": "/lamott-allen",
@@ -669,6 +717,10 @@
       "skill": "marisa-murgatroyd-course-design"
     },
     {
+      "command": "/mark-forsyth",
+      "skill": "mark-forsyth-rhetoric"
+    },
+    {
       "command": "/mark-kashef-agent-orchestration",
       "skill": "mark-kashef-agent-orchestration"
     },
@@ -687,6 +739,10 @@
     {
       "command": "/mark-kashef-visual-design",
       "skill": "mark-kashef-visual-design"
+    },
+    {
+      "command": "/mark-manson",
+      "skill": "mark-manson-values-psychology"
     },
     {
       "command": "/market_intelligence",
@@ -725,8 +781,16 @@
       "skill": "michael-israetel-hypertrophy"
     },
     {
+      "command": "/michael-margolis",
+      "skill": "michael-margolis-user-research"
+    },
+    {
       "command": "/mike-foutia",
       "skill": "mike-foutia-marketing-tools"
+    },
+    {
+      "command": "/mike-sherrard",
+      "skill": "mike-sherrard-realtor-branding"
     },
     {
       "command": "/mitch-albom",
@@ -809,6 +873,10 @@
       "skill": "nicolas-cole-sentence-craft"
     },
     {
+      "command": "/nir-eyal",
+      "skill": "nir-eyal-habit-design"
+    },
+    {
       "command": "/noah-hawley",
       "skill": "noah-hawley-storytelling-mastery"
     },
@@ -871,6 +939,10 @@
     {
       "command": "/pat-flynn",
       "skill": "pat-flynn-passive-income"
+    },
+    {
+      "command": "/patrick-dang",
+      "skill": "patrick-dang-online-business"
     },
     {
       "command": "/patrick-debois",
@@ -937,6 +1009,10 @@
       "skill": "remotion-video-creation"
     },
     {
+      "command": "/robert-greene",
+      "skill": "robert-greene-power-mastery"
+    },
+    {
       "command": "/robert-mack",
       "skill": "robert-mack-comedy-writing"
     },
@@ -981,8 +1057,16 @@
       "skill": "samuel-thompson-product-launch"
     },
     {
+      "command": "/sarah-levinger",
+      "skill": "sarah-levinger-ad-psychology"
+    },
+    {
       "command": "/satori-graphics",
       "skill": "satori-graphics"
+    },
+    {
+      "command": "/sean-dollwet",
+      "skill": "sean-dollwet-kdp-publishing"
     },
     {
       "command": "/sean-kochel-ai-business",
@@ -1061,6 +1145,10 @@
       "skill": "stefan-georgi-dopamine-copy"
     },
     {
+      "command": "/steven-kotler",
+      "skill": "steven-kotler-flow-performance"
+    },
+    {
       "command": "/steven-pressfield",
       "skill": "steven-pressfield-narrative-mastery"
     },
@@ -1105,6 +1193,14 @@
       "skill": "tao-prompts-ai-video"
     },
     {
+      "command": "/taylor-welch",
+      "skill": "taylor-welch-wealthy-consultant"
+    },
+    {
+      "command": "/tess-barclay",
+      "skill": "tess-barclay-social-content"
+    },
+    {
       "command": "/theme-factory",
       "skill": "theme-factory"
     },
@@ -1115,6 +1211,10 @@
     {
       "command": "/tim-danilov",
       "skill": "tim-danilov-niche-bending"
+    },
+    {
+      "command": "/tobi-lutke",
+      "skill": "tobi-lutke-business-leadership"
     },
     {
       "command": "/tobias-allen",
@@ -1175,6 +1275,10 @@
     {
       "command": "/xlsx",
       "skill": "xlsx"
+    },
+    {
+      "command": "/yuri-elkaim",
+      "skill": "yuri-elkaim-health-coaching-business"
     }
   ]
 }

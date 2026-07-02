@@ -1,9 +1,9 @@
 ---
 name: "Nick Saraev: Agentic Workflows Mastery"
 description: "Nick Saraev's 6-hour agentic workflows course: DO framework, self-annealing systems, cloud deployment, MCP integration, and productized AI services"
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 5
+workflows: 7
 ---
 
 # Nick Saraev: Agentic Workflows Mastery
@@ -22,6 +22,8 @@ Nick Saraev delivers the definitive guide to building, deploying, and productizi
 | production | [Production Deployment & Performance Optimization](workflows/production-deployment-and-performance-optimization.md) | Production-Ready Deployment Plan & Optimization Report | Moving from a prototype to a scalable, cloud-deployed production system that improves over time |
 | productized | [Productized Service & Client Success](workflows/productized-service-and-client-success.md) | Productized Service Blueprint & Client Success Framework | Packaging AI services into scalable offers and managing the long-term client relationship |
 | ai | [AI Agency Growth & Content Engine](workflows/ai-agency-growth-and-content-engine.md) | AI Service Go-To-Market & Content Campaign Kit | Generating leads and establishing authority in the AI automation market |
+| prompt | [Prompt Engineering & Optimization](workflows/prompt-engineering-optimization.md) | Production-Ready Prompt + Data-Driven Test Protocol | Writing or hardening any prompt that runs in a business system — C-I-O-R-E structure, compression pass, Monte Carlo hit-rate testing |
+| offer | [Offer Selection & Premium Pricing](workflows/offer-selection-and-premium-pricing.md) | Offer Repositioning Brief + Pricing Ladder + 4-Week Action Plan | Deciding WHAT to sell and WHAT to charge — revenue proximity, value stacking, price doubling (delivery/retainers stay in `productized`) |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

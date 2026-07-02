@@ -3,7 +3,7 @@ name: "Nate B Jones Intent Engineering"
 description: "Design AI agents that reliably understand and execute user intent through explicit intent documentation, disambiguation protocols, and interpretation-execution separation"
 version: "2.0"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Nate B Jones Intent Engineering
@@ -19,6 +19,7 @@ Nate B Jones identified that the central failure mode of AI agents isn't halluci
 | agent | [Agent Intent Diagnostic & Optimization](workflows/agent-intent-diagnostic-and-optimization.md) | Agent Reliability Audit & Remediation Plan | An existing AI agent is failing, behaving unpredictably, or producing 'answer-shaped' but incorrect results |
 | intent | [Intent-Centric Agent Architecture](workflows/intent-centric-agent-architecture.md) | Comprehensive Agent Intent Specification | Designing a new agent from scratch for high-stakes tasks where hidden constraints and priorities are critical |
 | operational | [Operational Safety & Communication Design](workflows/operational-safety-and-communication-design.md) | Agent Safety & Handover Protocol | Defining how an agent should handle uncertainty, ask for clarification, and transfer context between different stages of execution |
+| spec | [Spec-First Delegation](workflows/spec-first-delegation.md) | Delegation-Ready Six-Line Specification + Assumption Audit | Delegating to a bias-to-ship agentic model that executes instead of asking — the clarification loop must move upstream into the spec itself |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

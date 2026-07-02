@@ -121,3 +121,25 @@ If speeding up the bottleneck doesn't fundamentally change its nature, you need 
 | **Feedback Cycle Compression** | Proposed actions have a long lead time or require extensive setup before impact. | Actions are designed to show results within weeks, allowing for iterative adjustments. | Actions are designed for immediate implementation and feedback loops compressed to days, enabling ultra-fast iteration and bottleneck progression. |
 | **"Widen or Replace" Strategic Depth** | Suggests optimizing the current bottleneck without questioning its fundamental viability. | Considers if the bottleneck can be optimized or if a more fundamental change is needed. | Clearly articulates whether the bottleneck requires mere widening (optimization) or a complete replacement of the underlying process/system, based on its inherent limitations. |
 | **Sovereignty Alignment Integration** | The solution focuses purely on growth, without considering the owner's desired lifestyle. | Mentions considering the owner's goals, but doesn't deeply integrate it into the strategy. | Explicitly evaluates the proposed bottleneck solution against the owner's long-term sovereignty goals, offering alternatives if scaling conflicts with personal freedom. |
+
+---
+
+### Patterns from claude.ai export — Nick Saraev conversations (2026-07-01)
+
+*Source: transcript-grounded extraction of Nick's "Four Key AI Consulting Basics" (learned working alongside big-four consultants at Leftclick). These are the diagnostic frameworks that sit UPSTREAM of pipeline visualization — how to find the right problem before you find the narrowest pipe. Deduped against existing pipeline/flywheel/revenue-tier coverage.*
+
+**Driver Trees (Stated Need vs Implicit Need)**
+**Execute**: Never take the client's stated problem at face value ("our ads aren't working"). Define the goal with metric + amount + time period ("double top-line revenue in 12 months"), reverse-engineer 2-4 minimum essential drivers (Occam's razor — more than four means you're overcomplicating), then drill each driver one to two layers deeper until you hit implementable specifics. The tree is a forcing function for clarity, not a Nobel-prize insight machine.
+**Success Metric**: The diagnosed problem differs from the stated request more often than not (the "more leads" client whose real constraint was lead QUALITY, solved by enrichment, not generation).
+
+**Business Acumen: The Three Equations**
+**Execute**: Pitch every system against exactly one primary equation: (1) Profit = Revenue − Costs; (2) Growth = Acquisition + Retention + Expansion; (3) Value = Cash Flow ÷ Risk. Before proposing, answer: which equation does this move, and which term? If you can't answer clearly, the client can't either — kill the project.
+**Success Metric**: Every proposal names its equation and term in one sentence (the "smarter chatbot" request that was actually a churn problem, solved with onboarding sequences and cancellation-signal triggers).
+
+**The Pyramid Principle (Conclusion First)**
+**Insight**: Consultants who bury the conclusion under context lose the room — everybody skims, and the client reaches their own conclusion before you reach yours. Proposals that open with the quantified problem ("you're spending $45k on acquisition with near-zero return — that's existential at your cash flow") get taken seriously; executive-abstract openers get ignored.
+**Deploy**: State the conclusion/goal first, support after. In proposals: problem first, quantified monthly if possible, then and only then the solution.
+
+**FAST Decision Frame**
+**Execute**: Run every incoming project through a 5-10 minute FAST pass before mapping any workflow: **F**irst principles (strip the pre-imposed solution — "build an AI transcription model" is actually "microphone + existing transcription API"); **A**ction-oriented (what 24-hour MVP tests the premise — run two CRM trials in parallel for a week instead of researching for three months); **S**econd-order (if it works, what breaks next — the 80%-deflection chatbot's downstream load, the HIPAA exposure); **T**riangulate LAST (check what others did only AFTER forming your own hypothesis, so their frame doesn't cap your thinking).
+**Success Metric**: Projects get killed or reshaped at the FAST stage in minutes, not discovered broken after weeks of building.

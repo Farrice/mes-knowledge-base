@@ -25,6 +25,7 @@ Design, audit, and optimize multi-agent orchestration systems using the DPVI pat
 | Sniff-Check Protocol Builder | Evaluation criteria and quality gates for any domain |
 | Bloat-to-Depth Optimizer | Multi-agent simplification plan that strips overhead while preserving capability |
 | Orchestration Telemetry Feedback | Self-optimizing layer — instruments coordination decisions, detects inefficiency patterns, feeds retrospectives into future runs |
+| Worker Isolation + Merge Infrastructure Design | Two-tier scale architecture: isolated worker contracts, merge/refinery layer, episodic state — avoids coordination collapse past small agent counts |
 
 ## When to Deploy
 

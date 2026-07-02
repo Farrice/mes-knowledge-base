@@ -1,0 +1,33 @@
+---
+name: gabe-novotny-fitness-content-business
+description: Gabe Novotny's organic Instagram monetization system for fitness coaches — the Solar System content framework (Earth Zone calibration), the CPR (Cash Per Reel) method, and the reels-to-stories-to-DMs funnel that turns lived experience into $10K-$25K months with zero ad spend and no cold outreach.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Gabe Novotny — Fitness Content Business OS
+
+Gabe Novotny helps fitness coaches (bodybuilders, powerlifters, MMA athletes, self-improvement coaches for men) build $10K+/month businesses through organic Instagram — 98% of his coaching revenue came from the platform with no ads, no cold DMs, no website leads. His system treats Instagram as a three-part funnel (reels = attention, stories = nurture, DMs = conversion) and treats every reel as a revenue unit with a calculable dollar value. The methodology's spine is authenticity engineering: content built only from lived experience, calibrated to the "Earth Zone" between oversharing and copying, backed by a $1,000-$4,000 coaching offer.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-calibrate-earth-zone-content.md` | Temperature-zone audit + Earth Zone content map (solar system of topics, experience inventory, calibrated post plan) |
+| 02 | `02-build-cpr-content-engine.md` | Complete daily CPR engine: revenue-per-reel targets, DFV + hot-take reel scripts, 5-story daily sequence, VSL outline |
+| 03 | `03-convert-dms-to-clients.md` | DM conversion system: qualification script, doctor-frame conversation flows, warm outbound plays, lead pipeline rules |
+
+## Quick Reference
+
+- **The funnel**: Reels (top — attention + nurture) → Stories (mid — deeper nurture, "reality TV show") → DMs (bottom — qualify, call, close). People spend the most Instagram time in DMs; every layer pushes toward them.
+- **Temperature zones**: Too Hot = diary/venting/TMI. Too Cold = copied, surface-level, no lived experience (where 80-90% of coaches sit). Earth Zone = real experiences + extractable value. Post only Earth Zone.
+- **The 4-question temperature check**: Is this my real experience? Would I tell this to a paying client? Can someone act on it today? Does it build trust? Any "no" = wrong zone.
+- **CPR math**: Revenue ÷ reels posted = cash per reel. Client benchmarks: $300-$600/reel. Two reels/day at $300 = ~$18K/month. Find your average, then volume becomes a revenue dial.
+- **DFV reel structure**: Hook 0-5s (80% of your effort — "once you've written your headline you've spent 80 cents of your dollar," Ogilvy), social proof 5-25s, actionable advice 15-45s, CTA to DMs/comments 45-60s. Plus one hot-take reel/day (30-60s opinion on one niche topic).
+- **Daily stories (5-20/day)**: wakeup video, talking/reflection video, sweat-and-story, meals with macros, client work, client wins. Cycle before/afters if inventory is thin.
+- **Volume before quality**: 2-3 reels/day minimum; after a month of volume, iterate — redo the top-viewed videos, find your easy-and-effective style, tighten avatar targeting.
+- **DM frame**: Doctor frame — diagnose and prescribe, never educate. Match energy, hold frame, control direction. 17-second pause after big questions. Say "give/provide," never "free."
+- **Offer**: $1,000-$4,000 coaching packages behind the content; VSL (30-60 min) sent in DMs does the heavy pre-selling.
+- **Loading**: Read `genius.md` before producing any content or DM scripts in Gabe's system.

@@ -1,0 +1,32 @@
+---
+name: gary-vaynerchuk-attention
+description: Gary Vaynerchuk's attention-trading system — day-trade underpriced attention across platforms, run a document-don't-create organic content engine, and amplify only proven organic winners. Built from four primary-source 2025 interviews (Trade Attention for F*ck You Money, AI + Pop Culture Era, Social Media Is Over, Tea with GaryVee 91).
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Gary Vaynerchuk — Attention Trading & Organic Social
+
+Gary Vaynerchuk built Wine Library from a family liquor store into a national wine business through early web/email/AdWords bets and Wine Library TV, then built VaynerMedia into an agency doing hundreds of millions in annual revenue on one thesis: attention is an asset class, and most of it is underpriced. His operating system treats social as interest media (content finds audience, followers matter less), judges creative only by organic performance, and uses paid dollars exclusively to amplify proven winners — never to hide losers.
+
+Use this skill for platform strategy, organic content engines, brand-vs-sales decisions, pop-culture relevance, and paid-amplification calls.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-scout-underpriced-attention.md` | Platform + culture audit: where attention is underpriced for this brand right now, ranked, with entry plays |
+| 02 | `02-run-content-engine.md` | A document-don't-create production system: 80/20 content mix, sawdust inventory, volume cadence, post-creative feedback loop |
+| 03 | `03-amplify-organic-winners.md` | Jab-to-right-hook conversion plan: which organic winners to re-edit and back with paid, and the edit spec for each |
+
+## Quick Reference
+
+- **The thesis**: Being remarkable at social makes the business dramatically bigger — it is the single most important lever on topline revenue, and 90% of brands are sleeping on it.
+- **Interest media, not social media**: The algorithm matches content to interest, not to followers. Every post is a fresh at-bat in front of strangers. "Everybody who's listening is one piece of content away from their life being different."
+- **80/20 mix**: 80% pillar content (your lane), 20% off-speed pitches (random passions) that give you a chance to explode into new audiences. You are the niche.
+- **Organic is the judge**: Great content is judged by organic views achieved, not by your taste and not by paid-inflated numbers. Never use media dollars to hide bad creative.
+- **PAC**: Platforms (where is the attention), Algorithms (what does each one reward right now), Culture (what does your consumer care about this week). Pop-culture strategists are replacing brand strategists.
+- **Macro patience, micro speed**: Judge the 30-day aggregate, not the single post. Patience is not complacency — sprint daily, hold the decade view.
+- **Brand vs sales**: Sales is what you do when you're not good at branding. Last-touch attribution over-credits measurable channels; brand is why people actually buy.

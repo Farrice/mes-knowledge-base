@@ -1,15 +1,15 @@
 ---
 name: "Joanna Wiebe — Persuasion Mastery"
-description: "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage psychological triggers — from benefits to invisible persuasion, from sentence-level command to tactical trigger deployment by funnel stage"
-version: "3.0"
+description: "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage psychological triggers + 8 storytelling principles + 7 live-authority mechanics — from benefits to invisible persuasion, from sentence-level command to trigger deployment by funnel stage, from story architecture to commanding the room"
+version: "3.1"
 format: "completion-engine"
-workflows: 7
+workflows: 9
 routing: long-tail
 ---
 
 # Joanna Wiebe — Persuasion Mastery
 
-Joanna Wiebe is the founder of Copyhackers and the architect of the **5-Level Persuasion Hierarchy**, the **5 Authority Craft Mechanics**, and the **9 Funnel-Stage Psychological Triggers**. This skill covers the full stack of persuasive writing — from copy structure (how to build a persuasive piece) to sentence-level execution (how to make each line land with weight and authority) to tactical trigger deployment (which psychological trigger to fire at which funnel stage).
+Joanna Wiebe is the founder of Copyhackers and the architect of the **5-Level Persuasion Hierarchy**, the **5 Authority Craft Mechanics**, and the **9 Funnel-Stage Psychological Triggers**. This skill covers the full stack of persuasive writing — from copy structure (how to build a persuasive piece) to sentence-level execution (how to make each line land with weight and authority) to tactical trigger deployment (which psychological trigger to fire at which funnel stage). It also carries her **8 Storytelling Principles** (predictive-processing hooks through bookending) and **7 Live Authority Mechanics** (frame control, strategic silence, precision-as-power — persuasion in the room, not just on the page).
 
 ## Available Workflows
 
@@ -22,6 +22,8 @@ Joanna Wiebe is the founder of Copyhackers and the architect of the **5-Level Pe
 | trigger-audit | [Funnel Trigger Audit](workflows/funnel-trigger-audit.md) | Trigger Scorecard & Rewrite Priorities | You need to diagnose which of the 9 psychological triggers are present, absent, or miscalibrated for the copy's funnel stage (ToFu/MoFu/BoFu). |
 | trigger-rewrite | [Funnel Trigger Rewrite](workflows/funnel-trigger-rewrite.md) | Trigger-Optimized Copy | You have existing copy and need it rewritten with the correct funnel-stage triggers deployed — produces finished copy, not instructions. |
 | skepticism | [Skepticism Calibration Engine](workflows/skepticism-calibration-engine.md) | Calibrated Copy with Neutralized Objections | You have copy with bold claims, unaddressed objections, or piled proof that's triggering skepticism — calibrate claims, neutralize objections with boring precision, and select single-boulder proof. |
+| story | [Story Conversion Engine](workflows/story-conversion-engine.md) | Story-Architected Piece (post, sequence, talk, sales narrative) | You need a story that converts — engineered hook, establishing shot, word pictures, structure matched to a target emotion, villain, Chekhov edit, and a bookend ending. |
+| live-authority | [Live Authority Engine](workflows/live-authority-engine.md) | Live-Communication Battle Plan (frames, questions, silence map, presence protocol) | You have a high-stakes LIVE interaction — sales call, negotiation, presentation — and need frames set first, an authority question arsenal, strategic silence, precision language, and aligned physical presence. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow (includes Persuasion Hierarchy + Authority Craft + Funnel-Stage Triggers)

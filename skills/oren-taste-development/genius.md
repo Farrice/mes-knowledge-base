@@ -175,6 +175,74 @@ True taste evaluates quality with brand and price tags removed. Most "taste" is 
 
 ---
 
+## Patterns from claude.ai export — Oren art-direction & creative-direction conversations (2026-07-01)
+
+> Source: five unmined extraction conversations (Art Direction 101/201, "A Creative's Guide to Great Art Direction," "Creative Director 101: Briefs & Techniques," "Mastering Moodboards," Creative Strategy Playbook). This is the shoot-level and brief-level CRAFT layer beneath the CEV judgment system — how taste gets executed in a frame, a board, and a brief. Deduped against all seven oren-* skills: swipe-file intake, hook tactics, insider codes, and archetype selection live elsewhere; nothing here repeats them.
+
+### Pattern: The One-Thing Rule (Zero-to-One Art Direction)
+Oren's number-one rule across every shoot: "You need one thing inside a photo to make it different... either you have a normal photo or you have a photo with one idea." One intentional decision — a rented treadmill in a heels shoot, a $500 prop, a Zippo lit at the right moment — moves an image from normal to art-directed. Not five ideas. One.
+
+**Execute**: Before any shoot or asset, force the question: "What is our ONE thing that separates this from two people standing there smiling?" Budget for it explicitly (Oren's Craigslist exercise: what standout prop could a few hundred bucks and a truck get you?). Reject shoot plans that have zero intentional decisions AND shoot plans that have six.
+
+**Success Metric**: Every published image can name its one thing in one sentence. If the answer is "the model looks good," the shoot failed the rule.
+
+### Pattern: The Six-Technique Toolkit (What You DO With References)
+Everyone builds mood boards; almost nobody can answer "now what?" Oren's answer is a fixed technique library applied ON TOP of references to make them original: **Scale** (really big / really small versions of anything), **Aesthetic** (run the reference through your pre-developed visual world — "can we do the same setup but Gothic?"), **Beauty** (drive it up a notch: "how do we make this as aesthetically pleasing as humanly possible" — the Dries Van Noten sampler is a paper die-cut box getting luxury presentation through pure intention), **Transportation** (put the expected somewhere unexpected: runway in the Mojave, car on a glacier), **Clashing** (take composition from one reference, look/feel from another, collide them into something new), **Tension** (apply an emotion that makes people feel slightly odd — shame, fear, anger, ego).
+
+**Execute**: Reference + one named technique = concept. When ideating from a board, literally iterate: "this reference × scale," "this reference × our aesthetic," "these two references clashed." The technique name goes in the brief so the executor knows the transformation, not just the source.
+
+**Success Metric**: No asset ships as a straight copy of its reference; every concept can state its reference AND its applied technique.
+
+### Pattern: Displacement + Parasite Marketing (Scene Dressing as Strategy)
+Two scene-level mechanics. **Displacement**: an object in an environment where it doesn't belong (boots in a refrigerator) creates cognitive dissonance that stops the scroll — subtler than being loudly weird. **Parasite marketing**: what you place AROUND the subject borrows power — surround a product with Moët and diamonds and you've drawn a luxury context; surround it with a specific customer's fridge contents and you've cast the customer persona itself as set dressing (the inside joke only your ICP gets).
+
+**Execute**: When dressing any scene (shelf, table, fridge, desk), make two deliberate calls: (1) is anything displaced, and why will the viewer wonder "how did we get here?"; (2) what do the surrounding objects SAY — which brand, lifestyle, or persona are we associating with? Contrast works too: one perfectly lit new object among old Tupperware.
+
+**Success Metric**: A stranger describing the photo mentions the context objects unprompted — the dressing carried meaning, not just fill.
+
+### Pattern: The Customer Bell Curve of Concept Reuse
+Where your customer sits on the content-adoption curve dictates whether you pioneer or reuse. Aritzia ran a TSA-bin video after the format was "washed, torched, completely done" — and it worked, because their customer is mid-curve and hadn't tired of it. Edge brands (Imgia at the cusp of office-core, first to cast terminally-online creators) MUST be first or they're dead. The mistake is asking "how do we make this original?" when your customer never asked for original.
+
+**Execute**: Before killing a concept as "played out," locate the CUSTOMER (not the marketer) on the adoption curve. Mid-curve customer → run your version of proven formats without shame, speed over novelty. Edge customer → proven formats are disqualified; scan for what only the terminally online know and get there before any major brand has touched it.
+
+**Success Metric**: Concept-selection debates reference the customer's position on the curve, not the team's boredom with the format.
+
+### Pattern: The Vignette Formula (Repeatable Location Storytelling)
+A vignette — a story told around a place or moment (Jacquemus' "postcards from old Italy") — decomposes into six decisions: **fonts** (title + subtitle), **video style** (film look, consistent crop/framing), **lifestyle** (what world is being shown), **people** (who appears and how they perceive the brand), **narrative** (what's happening — a shared meal shows place, people, and product at once), and **resources** (location, vehicle, food, market — what you actually need). Decide all six once and you own a repeatable signature format, not a one-off.
+
+**Execute**: To build any recurring visual series, fill the six slots explicitly before shooting anything. The filled-in formula IS the series bible for every future episode.
+
+**Success Metric**: Episode two costs a fraction of episode one because only the narrative and resources slots change.
+
+### Pattern: World Building With Recurring Characters and Insider References
+The step past single-image craft: recurring characters, props that hand off between pieces (heist masks reappearing across films), and references only insiders decode (Cormac McCarthy titles "four people get those jokes but they really get it" — and those people love the brand). Recreating a known frame — the GTA over-the-shoulder camera, map in the corner — makes viewers feel in on the joke and instantly transported.
+
+**Execute**: Maintain a brand-world inventory: characters, recurring props, running plot lines, and one insider-reference layer. Every new shoot must either advance an existing thread or deliberately open one. When referencing film/game frames, replicate the recognizable grammar (camera height, angle, HUD elements) precisely enough to trigger recognition.
+
+**Success Metric**: Comment sections decode the references and connect pieces to earlier ones without prompting.
+
+### Insight: Sensory Art Direction — Make Them Feel What They Can't See
+Hidden in the fridge-shoot breakdown: the senses are an art-direction toolkit. A bikini hanging in a cold fridge creates felt temperature; ice-crusted objects and a hand touching them produce a visceral response; steam, melt, and frost each imply a story ("something's not right"). You can make a viewer feel cold, smell an environment, or sense time of day (fridge-light-only = midnight snack) purely through what's visually presented.
+
+**Deploy**: When a concept feels flat, run the five-senses pass: which non-visual sense could this image trigger? Lighting is the cheapest sensory lever — a single practical source (fridge light, dimmer) changes the implied hour and mood with zero set cost.
+
+### Insight: Let the Executor Cook — References Are the Floor, Not the Ceiling
+Oren's handoff discipline: give the photographer/designer the reference deck (setting photos, light style, angles, actions), then explicitly release them — "this isn't locked in, apply your own creative vision." The references guarantee the vision's floor and let the specialist plan gear in advance; their additions on top are "just as good if not better." Creative work dies when the executor arrives with a plan that differs from the vision in your head — or when your brief leaves no room for theirs.
+
+**Deploy**: Every shoot/design brief carries visual references for what you want AND an explicit invitation to build past them. You specify the LOOK of the light, never the rig; the outcome, never the method. If a brief is so tight a stranger couldn't add anything, loosen it.
+
+### Insight: The Brand Object
+Jacquemus toured a single book (also the collection's name) through interesting shots and made it an announcement vehicle — while the voiceover taught pronunciation of the brand name over a completely different visual story (deliberate cognitive dissonance that holds attention on both channels). A crafted brand object gives every future shoot a protagonist.
+
+**Deploy**: Ask "what would our brand object be?" — a book, a recurring vehicle, a sculptural pack-in. Then generate scenarios around it. Pair it with a split-channel edit: visual story on screen, unrelated-but-on-brand audio narrative on top.
+
+### Insight: The Archive Format for Pre-Release Storytelling
+Instead of hyping a drop, Oren documents the sample journey as a numbered archive ("valuable sample 2025-003: status, changes before it goes live") in matching carousel + video formats — turning product development itself into a content directory that builds want before anything is purchasable.
+
+**Deploy**: For any product-led brand, convert works-in-progress into serialized archive entries with a consistent ID scheme, status field, and aesthetic template. The archive is the hype mechanism; the drop is its conclusion.
+
+---
+
 ## Evolution Log
 
 ### 2026-04-09 — Taste-Led Brand Authority: Decision Pressure Architecture

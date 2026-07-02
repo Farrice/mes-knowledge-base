@@ -1,9 +1,9 @@
 ---
 name: dara-denney-meta-ads
-description: DTC creative strategy for Meta ads — 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, and format × messaging × persona test plans. Engine for performance creative built on Dara Denney's agency methodology.
-version: "2.0"
+description: DTC creative strategy for Meta ads — 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, winning-hook engineering (4-layer anatomy + tested hook taxonomy), founder ads (6 plays + 7-beat script), and format × messaging × persona test plans. Engine for performance creative built on Dara Denney's agency methodology.
+version: "2.1"
 format: completion-engine
-workflows: 5
+workflows: 7
 expert: dara-denney
 domain: dtc-meta-ads
 ---
@@ -38,14 +38,17 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 | 03 | [`/dara-yapper-script`](workflows/03-yapper-script.md) | Brand can release script control; partnership ad ready | Beat-structure script (not locked dialogue) + persona adaptation matrix + creator brief + sourcing note |
 | 04 | [`/dara-objection-engine`](workflows/04-objection-engine.md) | Known buyer objections OR genuine grievance/positioning shift | "We're not cheap" or "We're sorry" ad: hook, rebuttal stack, proof beat, hidden ad set / frequency notes |
 | 05 | [`/dara-test-plan`](workflows/05-test-plan.md) | $5K+ test budget, 3+ weeks runway | 30-day format × messaging × persona matrix with hypothesis-per-cell, prioritized cells, rotation/promotion logic |
+| 06 | [`/dara-winning-hooks`](workflows/06-winning-hooks.md) | Building the hook layer for any ad round; ads plateauing on product-first openers | Hook suite across tested-winner families, each specified on all 4 hook layers (text/sound/visual/vibe) + per-layer test grid |
+| 07 | [`/dara-founder-ad`](workflows/07-founder-ad.md) | Brand has an accessible founder with a real origin story; founder content untested or stale | Format pick from six-play menu + 7-beat script (with Mad-Lib version) + interview plan for camera-shy founders + phone-first production spec |
 
 ## Recommended Workflow Sequence
 
 1. **First time on a brand**: Run `/dara-format-selection` → get 2-3 format recommendations.
-2. **For each recommended format**: Run the construction workflow (`/dara-david-goliath`, `/dara-yapper-script`, or `/dara-objection-engine`).
-3. **Before deploying spend**: Run `/dara-test-plan` to architect the matrix.
-4. **After 30 days**: Re-run `/dara-format-selection` with new performance data; cycle.
-5. **Quarterly**: Re-tag arbitrage stages on the format library — formats decay.
+2. **For each recommended format**: Run the construction workflow (`/dara-david-goliath`, `/dara-yapper-script`, `/dara-objection-engine`, or `/dara-founder-ad`).
+3. **Hook layer for the round**: Run `/dara-winning-hooks` — 4-layer hook specs across tested-winner families.
+4. **Before deploying spend**: Run `/dara-test-plan` to architect the matrix.
+5. **After 30 days**: Re-run `/dara-format-selection` with new performance data; cycle.
+6. **Quarterly**: Re-tag arbitrage stages on the format library — formats decay.
 
 ## Quick Reference
 
@@ -68,6 +71,12 @@ Dara Denney is a DTC creative strategist running an agency that has produced 20,
 - **We're Sorry** ↔ Emotional pattern interrupt + offer
 - **Listical** ↔ N reasons + persona × script distribution
 - **Yapper** ↔ Creator-led rant + flexible script + native vernacular
+
+### The 4-Layer Hook Anatomy (first 3 seconds)
+Text overlay + sound + visual + vibe — all four engineered per hook. Visual layer moves performance most; best hooks show, don't tell. Winning verbal families: investment, scam, give-me-time, POV/"POV: you hate X", founder origin, founder self-intro, in-action creator, emotional cliffhanger, "why did no one tell me", "if you…". Details: `genius.md` export-patterns section + `/dara-winning-hooks`.
+
+### Founder Ads (desert-island format)
+Six plays: problem-solution VSL, objection handler, product demo, educational, sales-announcement POV, high-production (only after UGC traction). 7-beat script spine; keep the self-intro (split-tested winner). Camera-shy → interview-style shoot. Details: `/dara-founder-ad`.
 
 ### 5-Question Selection Tree
 1. Funnel position?
@@ -97,3 +106,4 @@ Compounds with:
 - Source extraction: [`extractions/dara-denney/extraction-report.md`](../../extractions/dara-denney/extraction-report.md)
 - Genius patterns + hidden knowledge + rubric: [`genius.md`](genius.md)
 - Original transcript: [`extractions/dara-denney/transcript.txt`](../../extractions/dara-denney/transcript.txt)
+- Additional transcripts (2026-07-01 enrichment): "I tested over 1000 ads — hooks ACTUALLY making MONEY" (yt t-Xf12o4jt4) and "The Ultimate Guide to Founder Ads on Meta" (yt ToTQBWHm38I), via claude.ai export — patterns folded into `genius.md`

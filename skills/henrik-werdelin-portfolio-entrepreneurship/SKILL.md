@@ -1,0 +1,33 @@
+---
+name: henrik-werdelin-portfolio-entrepreneurship
+description: Henrik Werdelin's portfolio-entrepreneurship system — customer-first venture discovery (Five Ps), donkeycorn business design ($1M sustainable ventures, not unicorn-or-nothing), relationship-capital moats (Depth/Density/Durability), and AI-agent-augmented solo multi-venture building
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Henrik Werdelin — Portfolio Entrepreneurship
+
+Henrik Werdelin (co-founder of Prehype startup studio and BarkBox, host of "Beyond the Prompt") builds businesses backwards from most founders: start with who you want to serve for the next ten years, not with an idea, a technology, or a market size. His thesis for the AI era is the "donkeycorn" — a million people each building million-dollar-turnover businesses from their own powers, passions, possessions, positions, and potentials, defended by the only moat left when execution is commoditized: relationship capital. Use this skill for venture discovery, multi-venture portfolio design, brand-permission and moat audits, and structuring founder/studio relationships.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-discover-venture-dna.md` | Five Ps inventory + customer-founder fit brief naming the customer you can authentically serve for 10 years and the first ventures encoded in who you are |
+| 02 | `02-design-venture-portfolio.md` | Donkeycorn portfolio architecture — sequenced ventures for one customer, Dunbar-Squared niche sizing, and the AI agent stack that lets one person run it |
+| 03 | `03-audit-relationship-capital.md` | Relationship-capital scorecard (Depth/Density/Durability) + Nike Hotel vs Hilton Shoe brand-permission verdict with a strengthening plan |
+
+## Quick Reference
+
+- **Start with the customer, not the idea.** "You can't start with an idea. You can't start with a technology. You can't start with a market size. You have to start with: who do you want to serve for the next 10 years?"
+- **Five Ps origin scan**: Powers, Passions, Possessions, Positions, Potentials — five places something innate already lives that a venture can be extracted from.
+- **Donkeycorn over unicorn**: design for a sustainable ~$1M-turnover business that funds freedom, not a lottery ticket. Roughly 60% of Americans say they'd like to start something; only ~8% do — AI removes most of the remaining excuse.
+- **Relationship capital is the moat**: score Depth (how well you know them), Density (how interconnected the relationships are), Durability (how long they survive stress). When AI commoditizes execution, this is what's left.
+- **Nike Hotel test**: Nike could plausibly open a hotel; Hilton could not launch a shoe. Brand permission to expand comes from what the relationship stands for, not category adjacency.
+- **Dunbar Squared**: ~150² ≈ 22,500 people is a workable TAM — small enough to hold relationship capital, large enough to build wealth.
+- **Cool Shit Paradox**: optimizing for "successful" fails; building "cool shit with people I like" is what resonates. Validate ventures on resonance first.
+- **Multi-agent portfolio**: "There won't be that many one-agent businesses" — one founder serves one customer with a portfolio of AI agents/tools.
+- **Label model**: structure founder relationships like a music label — infrastructure and royalties, not control and equity.
+- **Protect the in-between time**: the post-exit / between-chapters period is sacred, not something to rush; premature commitment produces the wrong next venture.

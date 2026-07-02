@@ -1,0 +1,32 @@
+---
+name: yuri-elkaim-health-coaching-business
+description: Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses — the newbie 30-day Social Authority roadmap (content + connection + The Trade) and the expert Perfect Client Pipeline (paid traffic → evergreen masterclass → application → call), both fueled by the High-Converting Offer messaging blocks
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Yuri Elkaim — Health Coaching Business Building
+
+Yuri Elkaim (CEO/founder of Healthpreneur; "Elkaim" is a transcript-mangled alias of the same person) built an eight-figure coaching business largely without social media and has helped thousands of health professionals build six-, seven-, and eight-figure coaching practices. His system splits every coach onto one of two paths by proven track record: newbies earn their stripes through the daily Social Authority Selling System (content + connection + free-client Trade), while proven experts (roughly $5-10K/month, transitioning or stuck) run the Perfect Client Pipeline on paid traffic. Both paths run on the same fuel — a one-time High-Converting Offer messaging document built from the prospect's frustrations, wants, fears, and false beliefs.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-build-offer-messaging-blocks.md` | The High-Converting Offer messaging foundation document (9 building blocks) that fuels every ad, email, post, and page |
+| 02 | `02-run-30-day-authority-roadmap.md` | A day-by-day 30-day launch plan for a new health coach: vision, niche, brand, daily posts, visibility comments, DM conversations, and The Trade to first paying clients |
+| 03 | `03-launch-perfect-client-pipeline.md` | The 4-step paid-traffic client system (ads → evergreen masterclass → application → enrollment call) with go/no-go readiness gate |
+
+## Quick Reference
+
+- **Vehicle + Gasoline**: the system (Perfect Client Pipeline) is the vehicle; messaging + offer is the gasoline. A Ferrari with no gas sits in the garage. Funnels, tech, and ad accounts are simple — messaging is what's hard.
+- **Two paths, one gate**: no proven track record = do NOT run ads. Cold prospects won't trust an unproven coach and you'll burn money. Newbies take the organic roadmap; experts at $5-10K/month scale with paid.
+- **Frustrations > fears**: build campaigns around the pain of the NOW (frustrations); embed fears but never build whole campaigns on future projections — humans are optimists about the future.
+- **False beliefs = unspoken objections**: if you don't dissolve them ("I need to post daily," "I need a big following," "my clients won't pay premium"), nobody books the call. Argue like a lawyer, not a marketer — proof, credibility, logic.
+- **Social media = media + content AND social + connection**: you cannot build a viable business from scratch on one alone. Speed of growth = quality × quantity of content × volume of connections.
+- **The Trade**: first clients trade your time for their testimonial — 5-10 free clients for 4 weeks, video testimonial required, then a one-time-discount continuation offer. Expect heavy flake (Yuri's beta: 625 signed up, ~20 finished).
+- **Niche on severe + persistent problems**: "tension headaches" beats "feel amazing." Migraine = hell yes; occasional headache = Advil.
+- **Time is expensive, money is cheap**: paid traffic buys market feedback in 1-2 days; the organic-only game can hide product-market-fit failure for years.
+- **Don't chase viral**: viral reach = masses, not your single target market; an unengaged mass audience destroys the account.

@@ -1,5 +1,5 @@
 ---
-description: "Classical rhetoric as an engineering discipline — the structural devices that operate almost mathematically on the human ear (Saxon vs. Latinate chord-changes, chiasmus, anaphora, epistrophe, isocolon, antithesis, metaphor-as-argument, the aphorism). 12 workflows that diagnose..."
+description: "Classical rhetoric as an engineering discipline — the structural devices that operate almost mathematically on the human ear (Saxon vs. Latinate chord-changes, chiasmus, anaphora, epistrophe, isocolon, antithesis, metaphor-as-argument, the aphorism). 13 workflows that diagnose..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

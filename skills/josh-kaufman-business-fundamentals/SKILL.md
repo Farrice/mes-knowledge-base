@@ -1,0 +1,33 @@
+---
+name: josh-kaufman-business-fundamentals
+description: Josh Kaufman's Personal MBA operating system — deconstruct any business into its five universal parts, validate ideas with swiped credit cards before building, and acquire any new skill in 20 focused hours. Business as simple arithmetic plus human psychology, never credentialed complexity.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Josh Kaufman — Business Fundamentals (The Personal MBA)
+
+Josh Kaufman wrote The Personal MBA (nearly a million copies sold) after months of research convinced him the "one book that explains business" didn't exist — so he built it: every business, from the smallest startup to the largest corporation, has five fundamental parts, and understanding them is a superpower whether you're founding a company or interviewing for your first promotion. His system treats business as complex, not complicated — common sense and simple arithmetic, ruthlessly validated by real buying behavior rather than opinions — and pairs it with rapid skill acquisition (The First 20 Hours): the practical alternative to the 10,000-hour mastery narrative.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | [deconstruct-business](workflows/01-deconstruct-business.md) | Five-parts breakdown of any business or idea, with the weakest link and drive-hook map identified |
+| 02 | [validate-before-building](workflows/02-validate-before-building.md) | Staged validation plan: critical assumptions → credit-card test → short run → scale decision |
+| 03 | [acquire-skill-fast](workflows/03-acquire-skill-fast.md) | 20-hour rapid skill acquisition plan with deconstruction, barrier removal, and pre-commitment |
+
+## Quick Reference
+
+- **Five Parts of Every Business**: Value Creation → Marketing → Sales → Value Delivery → Finance. The foundation of every business plan that has or ever will exist. Sales is the only part where money flows IN.
+- **Five Core Human Drives**: Acquire, Bond, Learn, Defend, Feel (Kaufman's addition to Lawrence & Nohria's four). The more drives an offer hooks, the more attractive it is.
+- **Credit-Card Rule** (via Des Traynor): "Show me a credit card that has been swiped to solve this problem and I will concede the problem is real." Pre-orders, not opinions.
+- **Iron Law of the Market**: Markets that don't exist don't care how smart you are. Competition validates demand; "nothing like it has ever existed" is a warning sign (Segway), not an opportunity.
+- **Behavior > Words**: When what people say conflicts with what they do, trust what they do. The liquid-detergent category came from a watched behavior, not a survey.
+- **Benefits sell, features justify**: Benefits hook drives ("1,000 songs in your pocket"); features are reasons-to-believe (1GB hard drive).
+- **Gall's Law**: Every complex system that works evolved from a simple system that worked. Complexity must earn its way in; added features change the frame.
+- **Explore/Exploit**: Try broadly, collect information, shift weight to what wins — but the exploration budget never hits zero.
+- **Doing vs Playing Business**: Logos and business cards are costume. Get to the core succeed-or-fail question as fast and cheap as possible.
+- **First 20 Hours**: Pick a lovable project, one skill at a time, define a target performance level, deconstruct into subskills, remove practice friction, pre-commit 20 hours (~40 min/day for a month). Hours 1–10 are emotionally brutal — that's the frustration barrier, not a verdict.

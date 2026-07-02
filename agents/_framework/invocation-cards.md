@@ -1349,9 +1349,245 @@ ENTRY PROMPT: skills/chris-do-design-business/SKILL.md
 PAIRS WITH: oren-john (creative direction), daniel-priestley (authority), luisa-zhou (coaching business)
 ```
 
+## Claude.ai Export — Gap Waves: Coaching Business OS + One-Off Lanes (2026-07-02)
+
+```
+AGENT: andrew-lane-design-systems
+DOMAIN: andrew lane design systems
+CORE METHOD: Andrew Lane's Mood Board Method — AI-powered visual brand identity systems
+BEST FOR: Vibe-first brand building - capture the feeling, visualize it as mood boards, solidify it into written guidelines, then 
+ENTRY PROMPT: skills/andrew-lane-design-systems/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: coaching-business-os
+DOMAIN: coaching business os
+CORE METHOD: CONDUCTOR hub for the business-of-coaching vertical — a standalone system that diagnoses what a coaching business actually needs (offer economics, pos
+BEST FOR: Monetization + transformation layer of the Alignment Architect coaching practice.
+ENTRY PROMPT: skills/coaching-business-os/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: daniel-pink-writing-structure
+DOMAIN: daniel pink writing structure
+CORE METHOD: Daniel Pink's non-fiction writing system — structure discovery before drafting, the proposal-as-stress-test idea validation pipeline, fresh-yet-famili
+BEST FOR: Daniel Pink's non-fiction writing system — structure discovery before drafting, the proposal-as-stress-test idea validat
+ENTRY PROMPT: skills/daniel-pink-writing-structure/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: Daniel Thrasher
+DOMAIN: Affiliate Campaign Skills
+CORE METHOD: ClickBank direct-response affiliate methodology from Daniel Thrasher (Senior Content Manager, ClickBank; 5 years with top affiliates)
+BEST FOR: Seven-skill priority ladder — offer selection, copywriting, bridge pages/CRO, traffic mastery, analytics, email, AI/auto
+ENTRY PROMPT: skills/daniel-thrasher-affiliate/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: gabe-novotny-fitness-content-business
+DOMAIN: gabe novotny fitness content business
+CORE METHOD: Gabe Novotny's organic Instagram monetization system for fitness coaches — the Solar System content framework (Earth Zone calibration), the CPR (Cash 
+BEST FOR: Gabe Novotny's organic Instagram monetization system for fitness coaches — the Solar System content framework (Earth Zon
+ENTRY PROMPT: skills/gabe-novotny-fitness-content-business/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: gary-vaynerchuk-attention
+DOMAIN: gary vaynerchuk attention
+CORE METHOD: Gary Vaynerchuk's attention-trading system — day-trade underpriced attention across platforms, run a document-don't-create organic content engine, and
+BEST FOR: Built from four primary-source 2025 interviews (Trade Attention for F*ck You Money, AI + Pop Culture Era, Social Media I
+ENTRY PROMPT: skills/gary-vaynerchuk-attention/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: henrik-werdelin-portfolio-entrepreneurship
+DOMAIN: henrik werdelin portfolio entrepreneurship
+CORE METHOD: Henrik Werdelin's portfolio-entrepreneurship system — customer-first venture discovery (Five Ps), donkeycorn business design ($1M sustainable ventures
+BEST FOR: Henrik Werdelin's portfolio-entrepreneurship system — customer-first venture discovery (Five Ps), donkeycorn business de
+ENTRY PROMPT: skills/henrik-werdelin-portfolio-entrepreneurship/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: jay-hiette-coaching-positioning
+DOMAIN: jay hiette coaching positioning
+CORE METHOD: Jay Hiette's Reality Matrix system for online coaching businesses — belief-shifting positioning, contrarian message architecture ("People think X, whi
+BEST FOR: For coaches who are already posting and signing occasional clients but blend into the sea of competitors.
+ENTRY PROMPT: skills/jay-hiette-coaching-positioning/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: Jiang Xueqin
+DOMAIN: Cognitive Autonomy & Mental Mastery
+CORE METHOD: Prof
+BEST FOR: Jiang Xueqin's system for becoming unprogrammable: deconstructing the three mechanisms of mental programming (language, 
+ENTRY PROMPT: skills/jiang-xueqin-cognitive-autonomy/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: jonah-berger-contagious
+DOMAIN: jonah berger contagious
+CORE METHOD: Jonah Berger's word-of-mouth science — STEPPS virality engineering, REDUCE barrier removal for changing minds, and kernel-first Trojan-horse story arc
+BEST FOR: Wharton research applied: engineer sharing instead of hoping for luck.
+ENTRY PROMPT: skills/jonah-berger-contagious/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: josh-kaufman-business-fundamentals
+DOMAIN: josh kaufman business fundamentals
+CORE METHOD: Josh Kaufman's Personal MBA operating system — deconstruct any business into its five universal parts, validate ideas with swiped credit cards before 
+BEST FOR: Business as simple arithmetic plus human psychology, never credentialed complexity.
+ENTRY PROMPT: skills/josh-kaufman-business-fundamentals/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: kunal-shah-consumer-psychology
+DOMAIN: kunal shah consumer psychology
+CORE METHOD: Kunal Shah's consumer psychology and opportunity-evaluation system — the Delta-4 efficiency framework for predicting irreversible behavior change, riv
+BEST FOR: Kunal Shah's consumer psychology and opportunity-evaluation system — the Delta-4 efficiency framework for predicting irr
+ENTRY PROMPT: skills/kunal-shah-consumer-psychology/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: Mark Forsyth
+DOMAIN: Rhetoric & Memorable Language
+CORE METHOD: The figures of rhetoric as memory engineering — Forsyth (The Elements of Eloquence, The Etymologicon) treats memorable language as formula, not genius
+BEST FOR: Covers line-forging with the figure catalog, first-paragraph voice establishment, and the writer's practice-scales regim
+ENTRY PROMPT: skills/mark-forsyth-rhetoric/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: mark-manson-values-psychology
+DOMAIN: mark manson values psychology
+CORE METHOD: Mark Manson's values-based psychology and wellbeing system — value discovery (desert island, eulogy, frustration forensics, forced ranking), behavior-
+BEST FOR: The mindset layer for transformation coaching.
+ENTRY PROMPT: skills/mark-manson-values-psychology/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: michael-margolis-user-research
+DOMAIN: michael margolis user research
+CORE METHOD: Michael Margolis's (UX Research Partner, GV) bullseye customer research system — find the comically-narrow subset of your market most likely to adopt,
+BEST FOR: Michael Margolis's (UX Research Partner, GV) bullseye customer research system — find the comically-narrow subset of you
+ENTRY PROMPT: skills/michael-margolis-user-research/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: mike-sherrard-realtor-branding
+DOMAIN: mike sherrard realtor branding
+CORE METHOD: Mike Sherrard's personal-branding and social-media conversion system for real estate agents — niche selection via the four-criteria test, Hormozi's br
+BEST FOR: Mike Sherrard's personal-branding and social-media conversion system for real estate agents — niche selection via the fo
+ENTRY PROMPT: skills/mike-sherrard-realtor-branding/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: nir-eyal-habit-design
+DOMAIN: nir eyal habit design
+CORE METHOD: Nir Eyal's Indistractable + Hooked methodology as the behavior-change layer for coaching offers — internal trigger mastery, values-based timeboxing, p
+BEST FOR: Nir Eyal's Indistractable + Hooked methodology as the behavior-change layer for coaching offers — internal trigger maste
+ENTRY PROMPT: skills/nir-eyal-habit-design/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: patrick-dang-online-business
+DOMAIN: patrick dang online business
+CORE METHOD: Patrick Dang's Skill-to-Brand system — turn the skill a 9-5 already pays you for into a high-ticket offer, a one-platform personal brand engine, and a
+BEST FOR: Patrick Dang's Skill-to-Brand system — turn the skill a 9-5 already pays you for into a high-ticket offer, a one-platfor
+ENTRY PROMPT: skills/patrick-dang-online-business/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: robert-greene-power-mastery
+DOMAIN: robert greene power mastery
+CORE METHOD: Robert Greene's power dynamics and craft-mastery system — reading the egos and self-interest in any room, engineering strategic presence (reputation, 
+BEST FOR: Robert Greene's power dynamics and craft-mastery system — reading the egos and self-interest in any room, engineering st
+ENTRY PROMPT: skills/robert-greene-power-mastery/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: sarah-levinger-ad-psychology
+DOMAIN: sarah levinger ad psychology
+CORE METHOD: Sarah Levinger's psychology-driven micro-movie ad system — 30-60 second video ads built on story architecture instead of sales architecture
+BEST FOR: Emotional-avatar diagnosis, avatar-to-story-structure matching, human-story-first scripting, and product placement at th
+ENTRY PROMPT: skills/sarah-levinger-ad-psychology/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: sean-dollwet-kdp-publishing
+DOMAIN: sean dollwet kdp publishing
+CORE METHOD: Sean Dollwet's Amazon KDP self-publishing business system — demand-first topic validation (BSR thresholds), title/subtitle engineering, AI-assisted bo
+BEST FOR: Sean Dollwet's Amazon KDP self-publishing business system — demand-first topic validation (BSR thresholds), title/subtit
+ENTRY PROMPT: skills/sean-dollwet-kdp-publishing/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: steven-kotler-flow-performance
+DOMAIN: steven kotler flow performance
+CORE METHOD: Steven Kotler's flow-state and peak-performance science (Flow Research Collective) reformatted as a coaching transformation engine — engineer reliable
+BEST FOR: Covers the 22 triggers, challenge-skills balance, the intrinsic motivation stack, flow blockers, and the positive-psycho
+ENTRY PROMPT: skills/steven-kotler-flow-performance/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: taylor-welch-wealthy-consultant
+DOMAIN: taylor welch wealthy consultant
+CORE METHOD: Taylor Welch's (Traffic & Funnels / The Wealthy Consultant) dual-layer operating system for coaches and consultants — wealth psychology (identity rewi
+BEST FOR: Use when a coaching/consulting business problem is actually an identity, belief, or alignment problem underneath.
+ENTRY PROMPT: skills/taylor-welch-wealthy-consultant/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: tess-barclay-social-content
+DOMAIN: tess barclay social content
+CORE METHOD: Tess Barclay's social media content system — niche-audience-first positioning, "polished casual" production (sweatsuit in 4K), AI-proof connection-bas
+BEST FOR: Tess Barclay's social media content system — niche-audience-first positioning, "polished casual" production (sweatsuit i
+ENTRY PROMPT: skills/tess-barclay-social-content/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: tobi-lutke-business-leadership
+DOMAIN: tobi lutke business leadership
+CORE METHOD: Tobi Lütke's (Shopify founder/CEO) leadership and systems-thinking operating system — rerunnable decision functions over roadmaps, legitimacy banking,
+BEST FOR: Tobi Lütke's (Shopify founder/CEO) leadership and systems-thinking operating system — rerunnable decision functions over
+ENTRY PROMPT: skills/tobi-lutke-business-leadership/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
+```
+AGENT: yuri-elkaim-health-coaching-business
+DOMAIN: yuri elkalayev health coaching business
+CORE METHOD: Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses — the newbie 30-day Social Authority roadmap (content + connecti
+BEST FOR: Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses — the newbie 30-day Social Authori
+ENTRY PROMPT: skills/yuri-elkaim-health-coaching-business/SKILL.md
+PAIRS WITH: see AGENT.md handoffs (advisory)
+```
+
 ---
 
-> **139 cards total** — covers all agents with invocation cards.
+> **165 cards total** — covers all agents with invocation cards.
 > **Last Updated**: 2026-07-01
 > To add a card: Use the format above. Keep each card under 5 lines.
 > To find an expert NOT on this list: Fall back to Tier 1 (read SKILL.md directly). See `directives/agent-loading-protocol.md`.

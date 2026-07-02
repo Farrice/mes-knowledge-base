@@ -1,0 +1,32 @@
+---
+name: patrick-dang-online-business
+description: Patrick Dang's Skill-to-Brand system — turn the skill a 9-5 already pays you for into a high-ticket offer, a one-platform personal brand engine, and a book-a-call sales system that reaches $10K/month without quitting the job
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Patrick Dang — Online Business & Personal Brand
+
+Patrick Dang is a former top-1% Oracle tech sales rep who left Silicon Valley, built a seven-figure online education business (Udemy courses → YouTube personal brand → high-ticket Founder X program), and now teaches 9-5 employees to monetize the skill they already get paid for. His Skill-to-Brand system runs on three interlocking pillars — Offer Clarity, Personal Brand Engine, Sales System — cycled as a flywheel: every client delivered sharpens the offer, which sharpens the content, which makes the next sale easier. The core stance: you are sitting on a gold mine; the business you're searching for is the skill you've been perfecting for years, packaged as a result and sold high-ticket over a call.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | [audit-skills-into-offer](workflows/01-audit-skills-into-offer.md) | Skill audit + one-sentence transformation offer + structure (DFY/DWY/DIY) + result-based price |
+| 02 | [build-brand-engine](workflows/02-build-brand-engine.md) | One-platform content system: positioning angle, origin story, weekly content plan across the 3 content types |
+| 03 | [convert-followers-to-clients](workflows/03-convert-followers-to-clients.md) | DM-to-call conversion system + call structure + weekly volume targets + flywheel review loop |
+
+## Quick Reference
+
+- **The Skill-to-Brand flywheel**: Offer Clarity → Personal Brand Engine → Sales System → delivery insight → better offer. Version 1 is ugly; ten clients in, it's a machine.
+- **Skill audit — 3 questions**: What do people come to you for help with? What feels easy to you but hard for others? What have you been paid for?
+- **Transformation sentence**: "I help [specific person] go from [problem] to [result] in [timeframe] using [my process]." Can't say it in one sentence = can't sell it on a call.
+- **Restaurant, not kitchen**: buyers care about the plated result, never how the food is made. Sell outcomes, not process, deliverables lists, or hours.
+- **One-One-One constraint**: one traffic source (two max: one long-form + one short-form), one conversion method (book a call), one offer. Master one funnel before adding anything.
+- **Charge by result, never by hour**: price against the value of the transformation. Hourly only at absurd rates you'd happily accept.
+- **High-ticket first**: niche authority beats audience size — a sub-1K-subscriber channel can support $7K/month. Low-ticket products come after cash flow, not before.
+- **Past-self avatar**: your ideal client is the previous version of you; your origin story is your uncopyable moat.
+- **Failure mode is impatience, not tactics**: every post, DM, and call is a data point. The ones who fail quit at the first string of nos.

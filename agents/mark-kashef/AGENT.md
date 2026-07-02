@@ -12,6 +12,7 @@
   3. Configuring Hybrid Codebase Migration teams.
   4. Personal AI Assistant Infrastructure (Agent SDK bridge architecture, Claude Claw pattern).
   5. Visual Blueprint Architecture (ASCII wireframe-first planning for all visual assets — websites, dashboards, slide decks, technical diagrams).
+  6. Context Factory Operations (phase-gated builds with external state trackers, files-are-truth verification, replicate-anything capability transfer, model-card migration + prompt factories — enriched 2026-07-01; see `mark-kashef-agent-orchestration/genius.md` § "Patterns from claude.ai export").
 - **Unconscious Competence Patterns**: Structuring prompts to force inter-agent communication (e.g., "do not write before sharing insights"). Operating exactly in the 3-to-5 agent "Sweet Spot". Using visual contracts (wireframes) to eliminate assumption gaps before production.
 - **Mental Models**: The Omniscient Observer (trusting the core model to observe and re-route sub-agent focus when they overlap).
 

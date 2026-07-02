@@ -1,0 +1,32 @@
+---
+name: sean-dollwet-kdp-publishing
+description: Sean Dollwet's Amazon KDP self-publishing business system — demand-first topic validation (BSR thresholds), title/subtitle engineering, AI-assisted book production, review acquisition, $3/day Amazon ads, and format multiplication into 7+ income streams, up to a sellable catalog exit.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Sean Dollwet — Amazon KDP Publishing
+
+Sean Dollwet built two Amazon KDP publishing businesses, made ~$2M from ebooks, and sold his first book catalog for $820,000 on Empire Flippers — the business that took him from four years of failed models to self-made millionaire by 26. His system treats books as digital real estate: validate demand BEFORE creating anything, sell where buyers already are (Amazon controls ~74% of US book sales), and multiply one validated book into paperback, audiobook, translation, and bundle income streams. The core inversion: most people write the book first and then hunt for buyers; Dollwet finds proof that buyers exist (competing books under 80,000 BSR), then makes a better book on the proven topic.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | [validate-book-topic](workflows/01-validate-book-topic.md) | GO/NO-GO demand verdict on book topics with BSR evidence, keyword analysis, and competitor gap map |
+| 02 | [produce-publishable-book](workflows/02-produce-publishable-book.md) | Complete book package: title + subtitle, chapter outline, drafting plan (AI or ghostwriter), and cover direction ready for KDP upload |
+| 03 | [launch-and-multiply](workflows/03-launch-and-multiply.md) | Launch plan: review acquisition campaign, $3/day Amazon ads structure, and sequenced format-multiplication roadmap |
+
+## Quick Reference
+
+- **Demand threshold**: competing books under ~80,000 BSR ≈ $500/month — need multiple books on the topic clearing it before you build
+- **Red flag inversion**: your book ranking #1-2 for its keyword while not selling = no demand exists, not a win
+- **Title formula**: main title states clearly WHAT the book is; subtitle stacks 3-4 concrete reader benefits + searchable keywords. Artsy/curiosity titles are the worst move in non-fiction
+- **Book spec**: 30,000 words standard (120-150 pages), 6-10 chapters, ~1,250 words per subchapter; 10,000 words acceptable for a first book. Value = problem solved, not page count
+- **AI rule**: AI drafts one subchapter at a time as a FIRST draft; human improves, adds stories, cuts fluff. Never publish raw AI output
+- **Reviews**: minimum 10 before marketing, target 100+. Book Reverb (bid-based, fast, mostly unverified) for launch speed; Book Bounty (~$25/mo points system) for verified + marketplace-specific reviews
+- **Ads**: start Amazon ads at $3/day, scale only when profitable
+- **Multiplication order**: ebook → paperback (print-on-demand) → audiobook → translations → bundles/box sets → other stores (IngramSpark, Google Play, Draft2Digital) → sell the catalog (Empire Flippers)
+- **Irreversible decision**: title cannot be changed after publish without unpublishing (losing reviews) — get title/keywords right pre-launch

@@ -55,3 +55,91 @@
 | **Feedback & Observability**       | Basic logging of agent actions; feedback mechanisms are ad-hoc or post-mortem.      | Provides clear dashboards for agent performance; integrates structured human feedback for iterative improvement. | Features real-time, actionable observability, self-correcting feedback loops, and dynamic adaptation based on performance metrics and human input.   |
 | **Modularity & Scalability**       | Workflow is a monolithic script; difficult to update or scale individual components. | Components are somewhat modular, allowing for moderate updates and scaling of specific parts.                 | Composed of highly modular, independently deployable micro-agents, enabling rapid iteration, efficient scaling, and robust fault isolation.   |
 | **Contextual Awareness**           | Agent processes inputs literally; struggles with nuances or implicit information.    | Agent incorporates basic context from recent interactions or predefined parameters to inform actions.        | Agent deeply understands and leverages historical data, user profiles, and real-time environmental cues to provide highly personalized and relevant outputs. |
+
+---
+
+### Patterns from claude.ai export — Nick Saraev conversations (2026-07-01)
+
+*Source: six transcript-grounded extractions (graphic design agent live build, $2.4M prompt engineering hacks, 900-deal offer analysis, premium positioning, AI monetization, big-four consulting frameworks). Deduped against existing DO framework / self-annealing / productized-service coverage.*
+
+#### Build Patterns
+
+**Start-at-the-End Build Sequencing**
+**Execute**: Before wiring any agent logic, triggers, or orchestration, hardcode the inputs and verify the terminal money step — the thing the client is actually paying for (the image generation, the enrichment call, the send) — works in isolation. Only after the end works do you work backwards to agent logic, routing, and polish.
+**Success Metric**: The deliverable-producing step is proven with hardcoded data before a single agent node or trigger exists.
+
+**Template Conditioning (Design Presets)**
+**Execute**: Never ask a generative model to produce a client asset from scratch. Find a verified-winning example (top Canva template, best-performing ad, proven layout), feed it into the model's edit/reference endpoint, and instruct: "do it like this, but swap in this client's data." Build one preset route per asset type (logo, style guide, background, ad creative) — arbitrarily extensible.
+**Success Metric**: First-pass output mimics the proven layout with client data swapped in; no from-scratch prompt roulette.
+
+**Component Reuse Library**
+**Execute**: Treat every debugged HTTP request, API integration, and sub-workflow as a permanent component. Start new builds by asking "how did I do this API spec before?" and copying it — ~70% of a real live build is reassembled prior components. Every new debug session mints a new component.
+**Success Metric**: No API spec is derived twice; per-project build time drops monotonically.
+
+**Close the Revision Loop**
+**Execute**: Every generative system ships with an explicit edit/revise route that feeds the prior output plus the user's delta back through the model. Force a clarification exchange before executing edits ("make it darker" → "deeper, more saturated pastel tones") — vague deltas produce vague revisions. This loop is the difference between a sellable system and a ChatGPT wrapper.
+**Success Metric**: User reaches "client-ready" without ever leaving the system; revision requests get hyper-specific before execution.
+
+#### Prompt Engineering Patterns (the $2.4M stack)
+
+**C-I-O-R-E Prompt Skeleton**
+**Execute**: Structure every production prompt as Context → Instructions → Output Format → Rules → Examples. Context = who you are and the situation. Instructions = "your task is to X." Output format = exact structure (JSON schema, CSV headings). Rules = short do/don't list. Examples = user/assistant message pairs.
+**Success Metric**: Any teammate can locate all five blocks in your prompt in under 30 seconds.
+
+**The Compression Pass**
+**Execute**: Model accuracy degrades with prompt length (measurably past ~250-500 tokens). Take any working prompt and rewrite line-by-line for information density — same instructions, a fraction of the words ("The overarching aim of this content generation request is to produce…" → "Your task is to produce high-quality, authoritative content"). Then sweep for conflicting instructions that cancel out ("detailed summary," "comprehensive but simple") and delete one side.
+**Success Metric**: Prompt shrinks ~60-70% with zero instruction loss; measurable quality lift on the test set.
+
+**One-Shot Sweet Spot**
+**Execute**: The accuracy jump from zero examples to ONE example is larger than the jump from one to twenty — and one example keeps the prompt short (compounding with the compression effect). For anything mission-critical, include exactly one high-quality example; add more only when the task has genuinely divergent sub-cases. Use the assistant-message slot as the example carrier, and use AI itself to draft training examples for AI.
+**Success Metric**: Every production prompt carries at least one example; few carry more than three.
+
+**Monte Carlo Prompt Testing**
+**Execute**: One good output proves nothing — the model may have landed in the goldilocks zone by luck. Generate 10-20 outputs per prompt variant into a sheet (prompt | output | good-enough?), score the "good enough" percentage per variant, and ship the statistical winner (18/20 beats 13/20). Re-run on every prompt change.
+**Success Metric**: Prompts are promoted by hit-rate percentage, never by a single impressive output.
+
+**Smarter-Model Debiasing**
+**Execute**: Default to the smartest available model and work DOWN, not up from the cheapest. Do the actual token math first: most business workflows cost fractions of a cent per run, so "saving money" with mini models is a false economy that silently creates quality problems you don't know you have. Downgrade only after volume genuinely justifies it.
+**Success Metric**: Model choice justified by measured per-run cost, not by sticker-price instinct.
+
+#### Hidden Knowledge
+
+**Conversational Engines vs Knowledge Engines**
+**Insight**: An LLM is like a person who has read a million books — it knows roughly, approximately, confidently, but not exactly. It is a conversational/reasoning engine, not a knowledge engine. 70% factual accuracy feels impressive and is commercially worthless.
+**Deploy**: Never sell a system that relies on the LLM for facts. Pair the conversational engine with a knowledge engine (database, sheet, RAG) and have the LLM query it; keep the LLM on judgment, transformation, and conversation.
+
+**The Spartan Tone Hack**
+**Insight**: "Use a Spartan tone of voice" is the highest-leverage single line for business output — the perfect midpoint between direct/pragmatic and leaving the model flexibility.
+**Deploy**: Drop it into the Rules block of any prompt producing client-facing prose.
+
+**Revenue Proximity Principle (from 900 analyzed deals)**
+**Insight**: Systems touching the front end (lead gen, sales, conversion) averaged ~350% higher project values than back-end systems (admin, HR, documents) across 900+ real closed deals. Clients can only save 100% of a cost, but revenue upside is theoretically unbounded — "I'll generate you 40 qualified leads/month" outsells "10 hours saved per week" every time, and "improved efficiency" is the worst promise in the dataset.
+**Deploy**: Sell front-end systems by default. When you must build back-end, tie it explicitly to a front-end metric ("this reporting system feeds the follow-up engine that recovers X leads").
+
+**The Paradox of Speed (Foot-in-the-Door Dominance)**
+**Insight**: People who closed fast, imperfect $200-500 first projects outperformed the perfect-deal negotiators ~3x on revenue; closing anything within 30 days predicted ~5x posted revenue. Small first projects are how clients feel you out — demonstrate you don't blow, then upsell (Nick's $500 Upwork project became $16k+ recurring).
+**Deploy**: Take the imperfect small deal NOW; treat it as paid discovery plus an upsell ramp, never as your price anchor.
+
+**Become Infrastructure (Recurring Revenue Multiplier)**
+**Insight**: Nearly every win over $20k involved recurring revenue. Once you manage a client's lead gen, sales comms, and systems, you ARE infrastructure — and infrastructure doesn't get replaced for a minor cost saving. A recurring $2.5k/mo client is worth $30k/yr before any upsell.
+**Deploy**: Attach a recurring component to every offer; after the second or third installed system, price like infrastructure, not like a vendor.
+
+**Perceived Value Stacking (the Coffee Shop Move)**
+**Insight**: A $6 cafe coffee is a $0.30 home coffee plus environment — the product is unchanged, everything around it is engineered. The same system that sells for $3k as "a speed-to-lead build" sells for $9k as a managed package: weekly strategy call, Slack access, Loom documentation library, template bundle, one-click CRM integrations, 90-day optimization SOP. That's ~1.5x the delivery work for 3-4x the price, because the client perceives an agency relationship, not a deliverable.
+**Deploy**: Never quote the naked system. Stack 8-10 adjacent line items whose marginal cost to you is minutes (record the test session as documentation; reuse the SOP for every client; Slack channel = premium feel, ~1 message every two days).
+
+**Price Doubling and the Fixed-Cost Equation**
+**Insight**: F (fixed cost per client) + V (variable) = T. Half the clients at double the price = identical revenue at half the fixed costs — and demand isn't linear, so doubling price loses far fewer than half the buyers. The $1,500-tier client is nitpicky and hands-on by economic necessity; the $4k+ client trusts your process and carries upsell room. Nick doubled prices on identical systems and got a better client base, not a smaller one.
+**Deploy**: Take your current price, multiply by two, and stress-test it in the market before concluding it's too high. Raise ~30% after each successful delivery cycle.
+
+**Value = Cash Flow ÷ Risk (the Golden Goose Filter)**
+**Insight**: Businesses are valued on cash flow divided by risk. Some automations raise cash flow while ADDING risk (fragile processes on revenue-critical paths) — sometimes a net negative. The golden goose is automating a variable, human-inconsistent process on a revenue path: cash flow up AND risk down, multiplying both sides of the valuation equation.
+**Deploy**: Before pitching, classify the system: cash flow up? risk up or down? Lead with valuation impact for owner/investor audiences.
+
+**AI Is the Least Important Part of AI Consulting**
+**Insight**: The big-four treat AI as the least important component of an AI engagement. AI hasn't made anything newly possible — it has made existing things cheaper. The only real leverage is applying AI to pre-existing flows that already produce measurable capital; inventing new AI-native business problems is where projects die.
+**Deploy**: Qualify every project by the pre-existing money flow it accelerates. No existing flow, no project.
+
+**Auxiliary-Service COGS Arbitrage**
+**Insight**: For any digital service, decompose delivery into steps and count the automatable ones — typically 75-84% of production cost evaporates (brief intake, drafts, campaign setup all automate; often only QA stays manual). The real time sink that scales 1:1 with clients is client MANAGEMENT, so automate the comms layer too (automated daily Slack updates replace weekly meetings). Reallocate the saved COGS directly into marketing.
+**Deploy**: Map your delivery pipeline step-by-step, automate the automatable fraction, and treat the margin as marketing budget — that's the arbitrage that scaled 1SecondCopy to $90k/mo on GPT-3-era models.

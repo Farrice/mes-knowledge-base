@@ -4,9 +4,9 @@ expert: John Whiting
 domain: Content-as-sales-team systems — selling coaching/high-ticket services without sales calls via belief-shift content + retargeting; data-driven business + wealth engineering
 skills:
   - john-whiting-propaganda-machine
-source: "3 YouTube videos (44,965 words): Bulletproof Boardroom mastermind day 1 (VllCQkcCf3Y), Record Month Formula (pzgd2l31Q-8), Wealthy Coach Workshop (Kz8D7zOhxcQ)"
+source: "3 YouTube videos (44,965 words): Bulletproof Boardroom mastermind day 1 (VllCQkcCf3Y), Record Month Formula (pzgd2l31Q-8), Wealthy Coach Workshop (Kz8D7zOhxcQ). Enriched 2026-07-01 from claude.ai export: Clients Without Calls (i3HPMskyCxY), 1 Offer Tweak (UoS9fjxcyjg), Propaganda Machine $220k (nWx1AKdKC-A), Stuck at $30K (t2julb7EIHs) — genius patterns 15-23 + jw-lurker-funnel / jw-offer-optimizer / jw-comfort-line-breaker"
 credentials: "Self-reported: scaled 3 businesses past 7 figures, sold one in 2019, ~$300K/mo with a 2.5-person team, no setters/closers/sales calls; runs the Bulletproof Boardroom advisory; author of The Seven-Figure Mind Method"
-last_updated: 2026-05-30
+last_updated: 2026-07-01
 ---
 
 # John Whiting: The Propaganda Machine

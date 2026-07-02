@@ -1,9 +1,9 @@
 ---
 name: "Nick Saraev: Bottleneck Thinking"
 description: "Theory of Constraints adapted for solopreneurs — pipeline visualization, constraint identification, and the 4-step business improvement flywheel"
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Nick Saraev: Bottleneck Thinking
@@ -21,6 +21,7 @@ Nick Saraev applies fluid dynamics and Goldratt's Theory of Constraints to busin
 | 01 | [Business Bottleneck Diagnostic](workflows/01-business-bottleneck-diagnostic.md) | Constraint analysis + single highest-leverage prescription | Stuck, plateaued, or unsure where to invest effort |
 | 02 | [Revenue-Tier Growth Playbook](workflows/02-revenue-tier-growth-playbook.md) | Phased scaling strategy mapped to revenue thresholds | Planning quarterly growth or diagnosing stalled growth |
 | 03 | [Flywheel Sprint Planner](workflows/03-flywheel-sprint-planner.md) | 7-day sprint plan for one full constraint cycle | Ready to execute — need concrete action plan for the next bottleneck |
+| 04 | [Consulting Diagnostic Frameworks](workflows/04-consulting-diagnostic-frameworks.md) | Driver-tree diagnosis + equation-mapped recommendation + pyramid-principle pitch | Client arrives with a stated problem or pre-imposed solution — find the REAL problem upstream of the bottleneck diagnostic |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

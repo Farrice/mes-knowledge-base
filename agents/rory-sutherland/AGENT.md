@@ -22,7 +22,7 @@ Rory Sutherland is Vice Chairman of Ogilvy UK and the master of applying behavio
 
 | Skill | Use Case |
 |-------|----------|
-| `rory-sutherland-marketing` | 16-workflow behavioral marketing + perception engineering + cross-expert stacking toolkit (v4.0) |
+| `rory-sutherland-marketing` | 20-workflow behavioral marketing + perception engineering + cross-expert stacking + behavioral field-craft toolkit (v4.1) |
 
 ---
 
@@ -30,7 +30,7 @@ Rory Sutherland is Vice Chairman of Ogilvy UK and the master of applying behavio
 
 This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
 
-- [`rory-sutherland-marketing`](skills/rory-sutherland-marketing/genius.md) — 16 Genius Patterns + 8 Tacit Knowledge entries + 9 Signature Moves + 5 Exemplars + Quality Rubric
+- [`rory-sutherland-marketing`](skills/rory-sutherland-marketing/genius.md) — 22 Genius Patterns + 8 Tacit Knowledge entries + 6 Export Insights (2026-07-01) + 9 Signature Moves + 5 Exemplars + Quality Rubric
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 

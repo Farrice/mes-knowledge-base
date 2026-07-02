@@ -174,3 +174,35 @@ This transition cannot be passive. "I cannot promise you that you can continue y
 - **Scores**: Baseline 7.5 → Variant 8.3 (+0.8). Gains on 5/6 dimensions (Decomposition +1, Harness +1, Verification +1, Architecture +1, Infinite Horizon +1). Tied on Complexity Efficiency.
 - **Result**: KEPT — promoted as Workflow 06 (`06-orchestration-telemetry-feedback.md`)
 - **Insight**: The gap was obvious in retrospect — the skill had "Organizational Intelligence Transfer" (Genius Pattern 8) which explicitly cites sprint retrospectives as a proven human pattern, but no workflow actually implemented retrospectives for the orchestration system itself. The telemetry layer is literally "sprint retros for agent pipelines."
+
+---
+
+### Patterns from claude.ai export — Nate B. Jones conversations (2026-07-01)
+
+*Source: "Google Just Proved More Agents Can Make Things WORSE — Here's What Actually Does Work" (Jan 2026; synthesis of Cursor production experience, Steve Yaggi's "Gas Town" architecture, and Google/MIT multi-agent failure research). These extend the DPVI/harness patterns with the scale-limit mechanics: WHY adding agents degrades systems and the isolation/merge architecture that avoids it.*
+
+## Pattern 11: Worker Isolation + Merge Infrastructure
+Scaling works when workers share NOTHING at runtime — no inter-agent chatter, no shared mutable state, no peer handshakes. But isolation is only half the architecture: isolated parallel outputs then require a dedicated merge layer (Yaggi's "refinery") that reconciles, deduplicates, and resolves conflicts between worker outputs. Teams that build isolation without merge infrastructure just move the coordination failure downstream.
+**Execute**: Specify every worker with zero inter-agent dependencies, minimal context, and explicit termination conditions. Then design the merge layer as its own first-class component: conflict-resolution rules, output schemas that make reconciliation mechanical, and a single owner (orchestrator or judge) for merge decisions.
+**Success Metric**: Workers can be added or restarted without touching any other worker; merge layer resolves 100% of output conflicts without ad-hoc human arbitration.
+
+## Pattern 12: Coordination Overhead Math
+Peer-to-peer agent communication grows O(n²) with agent count; hub-and-spoke (two-tier orchestrator→workers) grows O(n). This is the mechanical reason "more agents make things worse" past a small n in flat structures — compute investment converts to coordination overhead instead of capability.
+**Execute**: Before scaling agent count, compute the communication-path count under the current topology. If paths grow faster than linearly with workers, restructure to two-tier before adding a single agent. Measure compute-to-capability conversion (useful output per token spent) before and after.
+**Success Metric**: Capability scales roughly linearly with added workers; coordination cost stays a bounded fraction of total pipeline spend.
+
+## Pattern 13: Scale Threshold Prediction
+Multi-agent systems break at predictable thresholds, not gradually: tool-selection accuracy degrades sharply past roughly 30-50 tools per agent, and the research Nate synthesizes attributes the large majority of multi-agent failures to specification and coordination problems — not model capability or technical bugs. You can therefore predict WHERE a system will break before investing in scale.
+**Execute**: Audit each agent's tool count against the degradation cliff (constrain catalogs or add progressive disclosure). Audit worker specs as if they were API contracts — fixed inputs, fixed outputs, no ambiguity a literal-minded executor could misread ("prompt-as-contract"). Fix specs before upgrading models.
+**Success Metric**: Failures trace to identified, pre-declared thresholds rather than surprising the team; spec-caused failures trend toward zero across runs.
+
+## Pattern 14: Episodic Sessions + Non-Deterministic Idempotence
+Design agent sessions to END well rather than run forever: externalize state so a session's termination enables the next session instead of destroying progress. The companion principle (via Yaggi) is non-deterministic idempotence — the PATH an agent takes is unpredictable, but the OUTCOME is guaranteed by checking external state: re-running a task converges to the same end state rather than duplicating work.
+**Execute**: Give every worker an explicit termination condition and an external state file it writes before ending. Make each task re-runnable: it must first read external state, detect completed work, and only do what remains.
+**Success Metric**: Any session can be killed and restarted with zero lost progress and zero duplicated side effects.
+
+## Hidden Knowledge Addendum
+
+### 8. The Human-Team Metaphor Trap
+**Insight**: Organizational intelligence transfer (Genius Pattern 8) has a failure edge — some human-team patterns are load-bearing for humans but actively harmful for agents. "Meetings" (synchronous multi-agent deliberation), "handoffs" (serial context transfer between peers), and "collaboration" (shared mutable workspaces) all import coordination overhead that agents pay in tokens and drift, without the social benefits humans get. The patterns that DO transfer are structural (hierarchy, contracts, retrospectives); the ones that don't are interactional.
+**Deploy**: Grep your architecture docs for human-team language. Every "agents discuss/hand off/collaborate" is a candidate O(n²) path — replace with orchestrator-mediated task assignment and isolated execution. Keep hierarchy, kill meetings.

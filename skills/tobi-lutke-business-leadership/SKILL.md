@@ -1,0 +1,35 @@
+---
+name: tobi-lutke-business-leadership
+description: Tobi Lütke's (Shopify founder/CEO) leadership and systems-thinking operating system — rerunnable decision functions over roadmaps, legitimacy banking, subtraction as the founder superpower, Goodhart-proof metrics, compressed change management (the Toby tornado), and maximizing human potential
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Tobi Lütke — Business Leadership & Systems Thinking
+
+Tobi Lütke built Shopify from a snowboard store into a $60B+ company by running it like a programmer: strategy as a rerunnable function (customer model + capability model + current reality), founder legitimacy as a bank account you deliberately spend, and subtraction — not addition — as the leader's core service. His system treats best practices as "average, risk-adjusted," metrics as instruments rather than goals (Goodhart's law = overfitting), and human potential as the actual product: nobody on the planet is close to their maximum.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `recompute-priorities` | Rerun of the decision function after a reality shift — recomputed priority stack + explicit subtraction list, North Star protected, legitimacy spend planned |
+| 02 | `audit-orthodoxy` | First-principles audit of where best practices and goal-metrics cap performance — Goodhart scan, bureaucracy triage, differentiated bets with subtraction guarantees |
+| 03 | `compress-the-change` | Toby-tornado change package — steel-manned kill/pivot decision, divergence-point analysis of disagreements, refounding recharter, potential-calibrated feedback |
+
+## Quick Reference
+
+- **Keep the main thing the main thing**: protect the North Star, never the current tactic; obstacles change routing, not direction
+- **Roadmaps are overrated**: store decisions as functions with named inputs; when an input changes, recompute — don't defend the stale output
+- **Yes-tax**: saying yes to one thing says no to every other thing you could have done with that time; price every yes that way
+- **Sediment test**: individually good decisions pile into something no one can steel-man — periodically ask "would we start this today?"
+- **Legitimacy banking**: founding-story retellings deposit; hard changes withdraw; spend it on subtraction and direction, never on what a plan could legitimize
+- **Best practices = don't take risk**: use orthodoxy as input, never ceiling; a miss is "the successful discovery of something that didn't work"
+- **Goodhart = overfitting**: any metric that becomes a goal ceases to be a good one; metrics are support instruments, taste ships
+- **The trilemma**: on a suspect project you're incorrect (understand why), correct (unfair to let people continue), or ignoring it (abdication — never valid)
+- **Refound, don't cancel**: people from a killed project are founders of the next version
+- **Divergence point**: disagreement is a map to unstated foundational assumptions; courage is rarer than IQ — reward it visibly
+- **No speed limit**: hold people to their potential, not current-level-plus-epsilon; name the moment they chose path B out of convenience
+- **Think 100 years forward, then backwards**: "what would we want to have done 20 years ago on this?"

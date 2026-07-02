@@ -1,0 +1,31 @@
+---
+name: "Mark Forsyth — Rhetoric & Memorable Language"
+description: "The figures of rhetoric as memory engineering — Forsyth (The Elements of Eloquence, The Etymologicon) treats memorable language as formula, not genius: diacope, progressio, chiasmus, polyptoton, anadiplosis, tricolon and the rest are 2,500-year-old shapes that fit the memory receptors of the human brain. Covers line-forging with the figure catalog, first-paragraph voice establishment, and the writer's practice-scales regimen (iambic pentameter improvisation, prepare-then-write-fast, run-up editing)."
+version: "2.0"
+format: "completion-engine"
+workflows: 3
+source: "claude.ai export 2026-07-01"
+---
+
+# Mark Forsyth — Rhetoric & Memorable Language
+
+Mark Forsyth approaches great writing the way a scientist approaches an experiment: "Fly, my pretties, fly!" is not in The Wizard of Oz, yet everyone remembers it — because diacope is so powerful a figure that our brains rewrite history to fit it. His method: the memorable lines of the Bible, Shakespeare, JFK, the Beatles, and Tarantino all run on identifiable, reusable formulas, and the technical Greek names don't matter — only the shapes do. This skill deploys that catalog to forge lines that stick, establish a written voice in the first paragraph (before the reader defaults to hearing you as a subway announcement), and build the jazz-musician practice regimen that makes rhetorical instinct automatic.
+
+> **Where this sits**: complementary to `ward-farnsworth-rhetorical-mastery` (Farnsworth owns Saxon/Latinate contrast and device diagnosis; Forsyth owns the memory-shape catalog, false-memory mechanics, voice establishment, and the practice regimen). Pairing is optional, never required.
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|----------|----------|----------|
+| 01 | [forge-memorable-line](workflows/01-forge-memorable-line.md) | A line rebuilt through 2-4 candidate figures from the catalog, with the winning figure named and the memory-mechanism explained | A hook, tagline, closer, chorus, speech line, or thesis must be remembered and repeated — not just understood |
+| 02 | [establish-voice](workflows/02-establish-voice.md) | An opening paragraph re-engineered as an establishing shot — word choices that locate the writer geographically, socially, tonally — plus a voice cue sheet for the rest of the piece | A draft reads voiceless or "drab"; readers can't hear who is talking, so they hear the machine voice |
+| 03 | [train-writing-scales](workflows/03-train-writing-scales.md) | A personal practice regimen: iambic-pentameter improvisation drills, a self-named figure cheat sheet, the prepare-then-write-fast protocol, and run-up editing rules | The writer's problem is chronic — clear but forgettable prose across pieces — and they want the instinct, not a one-off fix |
+
+## Quick Reference
+
+- **Load [genius.md](genius.md) before any workflow** — the figure catalog, the memory-receptor theory, and the operating principles live there.
+- **Core claim**: memorable language is formula. The mind has memory receptors in certain shapes; rhetoric shapes words to fit the slot. Formulas are so strong we falsify memories to obey them (fly my pretties; Blood, Sweat and Tears).
+- **The announcer rule**: you cannot grip a reader continuously. Rhetorical buildup is the announcer's rising voice — it signals "pay attention here" and lets the reader relax elsewhere.
+- **Names don't matter**: the Greeks couldn't agree on the names either. Keep a cheat sheet with your own names, examples, and bullet points; deploy formulas, not vocabulary.
+- **Concision has a lane**: quick-clear-concise is for dishwasher manuals. "Everybody" is too concise to stop the mind; "black men and white men, Jews and Gentiles, Protestants and Catholics" makes the reader stop and think.
+- **Process spine**: prepare completely (walk, talk it out to an imaginary non-expert) → write as fast as you can (flow out = flow in; speed surfaces voice) → edit by run-up (if a passage reads wrong, delete it and rewrite whole — tinkering kills rhythm).

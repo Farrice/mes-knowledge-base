@@ -1,0 +1,27 @@
+---
+name: "Jiang Xueqin — Cognitive Autonomy & Mental Mastery"
+description: "Prof. Jiang Xueqin's system for becoming unprogrammable: deconstructing the three mechanisms of mental programming (language, emotion, identity), replacing villain narratives with structural/game-theoretic analysis, and running the 30-day cognitive autonomy protocol. Use when a narrative needs decoding, when behavior looks irrational until you find the real game, or when someone wants trained resistance to manipulation."
+version: "2.0"
+format: "completion-engine"
+workflows: 3
+source: "claude.ai export 2026-07-01"
+---
+
+# Jiang Xueqin — Cognitive Autonomy & Mental Mastery
+
+Jiang Xueqin's core claim: what most people experience as free thought is **boundary cognition** — thinking inside an invisible box of acceptable interpretations, installed not by conspiracy but by civilization itself, because power's real objective is predictability, not obedience. His system works in two directions: analytically, it decodes how any narrative programs its audience (language framing, emotional triggering, identity fusion, horizontal enforcement) and reveals the real game behind seemingly irrational behavior (players, rules, incentives, superstructure); practically, it trains individuals to become **unprogrammable, not unprogrammed** — there is no neutral mind, only awareness that new narratives now require explicit permission before installing.
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|----------|----------|----------|
+| 01 | [deconstruct-narrative-programming](workflows/01-deconstruct-narrative-programming.md) | Programming Deconstruction Report | Any communication (news, ad, speech, movement rhetoric, corporate messaging) needs decoding — which mechanisms it uses, what reaction it installs, how enforcement works |
+| 02 | [map-the-real-game](workflows/02-map-the-real-game.md) | Game Map + Structural Analysis + Prediction | Behavior looks irrational or a situation is stuck in villain narratives — identify players/rules/incentives/superstructure and find the game actually being played |
+| 03 | [run-cognitive-autonomy-protocol](workflows/03-run-cognitive-autonomy-protocol.md) | Customized 30-Day Cognitive Autonomy Protocol | Someone has chosen (with informed consent about the costs) to train mental independence — four phases with failure-mode safeguards |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md) — load before any workflow
+- **The three locks**: Language (defines what can be thought), Emotion (reacts before reason), Identity (strongest lock — belief fused with self)
+- **The elite method**: structure over belief · models over morals · history without heroism · strategic silence
+- **The analytical move**: never ask "who is the villain?" — ask "what incentives make this behavior rational?"
+- **The honest frame**: awareness has real costs (comfort, belonging, simple stories). Clarity is not happiness. State the costs; never sell this as liberation.

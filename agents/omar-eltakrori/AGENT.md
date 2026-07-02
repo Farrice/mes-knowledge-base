@@ -102,7 +102,7 @@ Ranked competencies (1 = primary lens):
 
 **Home skill:** `skills/omar-eltakrori/`
 
-**Loading:** Load `genius.md` for BOTH layers — the **Interior Game** (becoming-before-getting, price = attention, do-it-for-the-data, faith/stewardship economics, manufactured scarcity, "I am boring") and the **Exterior Game** (the teach-to-sell craft this agent operationalizes). They are different lenses on one system: the interior game is who you become; the exterior game is how you teach so people feel like moving. Loading only one collapses the other.
+**Loading:** Load `genius.md` for BOTH layers — the **Interior Game** (becoming-before-getting, price = attention, do-it-for-the-data, faith/stewardship economics, manufactured scarcity, "I am boring") and the **Exterior Game** (the teach-to-sell craft this agent operationalizes). They are different lenses on one system: the interior game is who you become; the exterior game is how you teach so people feel like moving. Loading only one collapses the other. A third layer — **Sales & Offers** (genius.md § "Patterns from claude.ai export — 2026-07-01": the 8 Buyables, packaging law, the two killers of sales, ignorance tax, build/buy/borrow belief) — fires for offer-construction and conversion work via `/oe-what-people-buy` and `/oe-offer-packaging`.
 
 **Default entry:** `/oe-teaching-business-os`
 

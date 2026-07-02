@@ -16,6 +16,8 @@ workflows:
   - "08-lifetime-value-flywheel.md"
   - "09-reverse-engineered-scaling.md"
   - "10-ecosystem-diagnostic-audit.md"
+  - "11-four-yes-conversion-audit.md"
+  - "12-conversion-mechanism-matcher.md"
 ---
 
 # Growth Ecosystems — Vincent Hu
@@ -39,11 +41,13 @@ The info market is in a **trust recession** — the competitive moat is trust, n
 
 ## Key Frameworks
 
-### The Three-Yes Framework
+### The Three-Yes Framework (evolved to Four)
 Every prospect must say YES to three things before buying:
 1. **Outcome**: "This can get me results"
 2. **Method**: "Their approach makes sense"
 3. **Identity**: "I trust this person"
+
+Vincent's 2026 evolution adds a fourth, often-deciding yes — **4. Themselves**: "I can see MYSELF succeeding in this world." See genius.md § Patterns from claude.ai export and workflow 11.
 
 ### The Imminent Growth Protocol (7 Steps)
 1. One Transformation + Leveraged Offers
@@ -81,6 +85,8 @@ Foundation → Outcome → Resonance → Expertise → Social Proof → Trust
 | 08 | **Lifetime Value Flywheel** | Building retention, re-close, and backend growth systems |
 | 09 | **Reverse-Engineered Scaling** | Planning a scaling sprint from current revenue to target |
 | 10 | **Ecosystem Diagnostic & Audit** | Diagnosing why growth is stalled or diagnosing a client's business |
+| 11 | **Four-Yes Conversion Audit** | Prospects "resonate but won't move" — auditing the four yeses, trust moments, and unique mechanism |
+| 12 | **Conversion Mechanism & Traffic Entry Matcher** | Choosing how each offer tier converts (DM/email/call) and how traffic enters, with qualified-traffic math |
 
 ## Sequential Build Path
 

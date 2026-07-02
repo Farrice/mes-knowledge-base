@@ -1,15 +1,15 @@
 ---
 name: "Rory Sutherland: Marketing Psychology Mastery"
 description: "Rory Sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture, value perception, reverse benchmarking, perception engineering, and asymmetric bet evaluation. Cross-expert stacking with Georgi, Iha, Dunford, Kallaway, and Dai Media for full-spectrum marketing dominance."
-version: "4.0"
+version: "4.1"
 format: "completion-engine"
-workflows: 17
+workflows: 20
 ---
 
 # Rory Sutherland: Marketing Psychology Mastery
 
 > The playbook behind every great campaign from Ogilvy's Vice Chairman. Behavioral science meets marketing.
-Rory Sutherland applies behavioral economics and psychology to marketing, advertising, and business strategy. His frameworks reveal why people buy, how to reframe value perception, and how small psychological changes create massive business impact. **v4.0** adds 7 cross-expert stacking workflows that chain perception engineering through the full Antigravity marketing stack.
+Rory Sutherland applies behavioral economics and psychology to marketing, advertising, and business strategy. His frameworks reveal why people buy, how to reframe value perception, and how small psychological changes create massive business impact. **v4.0** adds 7 cross-expert stacking workflows that chain perception engineering through the full Antigravity marketing stack. **v4.1** (2026-07-01 export enrichment) adds 6 new genius patterns + 6 insights and 3 behavioral field-craft workflows: Sin of Omission Audit, Price Frame Architect, Behavioral Detective Protocol.
 
 ## Available Workflows
 
@@ -31,6 +31,14 @@ Rory Sutherland applies behavioral economics and psychology to marketing, advert
 | perception | [Perception Metric Reframe](workflows/perception-metric-reframe.md) | Paceometer Analysis + Alternative Metric Expressions + Decision-Shifting Presentation | You have a price, speed, or performance metric that "sounds wrong" and want to re-express it to change decisions without changing reality. |
 | asymmetric | [Asymmetric Bet Evaluator](workflows/asymmetric-bet-evaluator.md) | Two-Way Door Assessment + Experiment Portfolio + Risk-Reward Matrix | You're stuck debating a decision that might be cheap to test — and want to calculate whether arguing costs more than experimenting. |
 | conspiratorial | [Conspiratorial Reframe Engine](workflows/conspiratorial-reframe-engine.md) | Behavioral Change Communications + Compliance-Without-Confrontation Copy | You need to change someone's behavior (customer, team, audience) without being bossy, threatening, or corporate. |
+
+### Behavioral Field Craft (v4.1 — claude.ai export enrichment, 2026-07-01)
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| omission | [Sin of Omission Audit](workflows/sin-of-omission-audit.md) | Radiating-Openness Scorecard + Zero-Cost Fix List + 180° Flip Report | Your business may be silently repelling customers through passive signals (lights, phone, naming, empty rooms) nobody is anxious about — because opportunity costs aren't salient. |
+| price-frame | [Price Frame Architect](workflows/price-frame-architect.md) | Frame Diagnosis + Pole Assignment (Bargain/Treat) + Context-Shift Plan + Buyer-Native Unit | Something isn't selling and everyone wants to cut the price — before touching the number, change the frame, kill the dead middle, and test upward first. |
+| detective | [Behavioral Detective Protocol](workflows/behavioral-detective-protocol.md) | Confounding Variable Report + Anecdote Ledger + Reversed-Conclusion Brief | A metric has an explanation that "makes sense" and everyone stopped looking — go and look for the confounding variable the dashboard can't see. |
 
 ### Cross-Expert Stacking (v4.0)
 

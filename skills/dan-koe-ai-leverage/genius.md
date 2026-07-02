@@ -180,6 +180,37 @@ Please address these points to strengthen your argument."
 *   **Gated Execution Design (The "Permission-to-Proceed Protocol")**: Structures prompts such that the AI *must* first engage in a dedicated "context gathering" phase, asking the user clarifying questions, and is explicitly forbidden from proceeding to the "execution" phase until sufficient context is provided and confirmed.
     *   **Deploy when**: Ensuring highly personalized and relevant output for complex tasks, preventing generic responses, or when the quality of the output depends heavily on user-specific details.
 
+### Patterns from claude.ai export — Dan Koe conversations (2026-07-01)
+
+> Source: transcript-grounded extraction of the Nov 2025 podcast interview ("This is Boring But It'll 10x Your Personal Brand in 2026") — the section where Dan narrates exactly how his AI prompting practice evolved. Only patterns NOT already covered above.
+
+#### Pattern: Gap-Teaching Prompt Construction (the manual path to a mega-prompt)
+Before the meta-prompt existed, Dan built his tweet-writing prompt by iterative failure analysis: "First I just said, 'write 10 tweets on these ideas.' These suck... Then I got a bit more specific because I know how to write tweets. I was teaching it, kind of giving it a guide... refined it a bit more... eventually I ended up with this 2,000-word prompt: do this, don't do this... here's the principles, here's a few examples, here's the exact output format."
+**Execute**: Generate with a naive prompt → name precisely WHY the output fails your standard → encode that gap as a do/don't rule → regenerate → repeat until the spec stabilizes (~principles + examples + exact output format). The gaps you can articulate ARE your expertise being serialized.
+**Success Metric**: A reusable 1,500-2,500-word specification whose every rule traces to a real observed failure — not imagined preferences. Output needs light rewriting, not rescue.
+
+#### Pattern: The Best-Post Outline Mega-Prompt (building blocks, never copy)
+Dan's highest-leverage content prompt does not write posts: "I've taken the patterns of all of my best social media posts, I put them into this huge mega prompt, and whenever I create a newsletter, I pop it in and it generates five outlines" — each carrying the core paradox, key quotes, big problem, goals, and pain points. "It's less about actually writing for me. It's giving me the creative building blocks to have my own idea."
+**Execute**: Mine your own top performers (not generic viral posts) for structural patterns → encode as an outline generator with fixed slots (paradox / quotes / problem / pains) → feed each new long-form piece through it → write the final posts yourself from the outlines.
+**Success Metric**: AI touches structure and angles; every published sentence is still yours. Ideation time drops while voice-match stays at 100%.
+
+#### Pattern: Socratic Thought-Partner Prompts
+Distinct from context-gathering questions: "I have created various thought partner prompts that question me in the right direction. It doesn't give me the idea. It makes me come up with it on my own."
+**Execute**: For meaning-bearing work (ideas you'll publish under your name), build prompts whose ONLY output is questions — forbidden from proposing answers. Reserve answer-generating prompts for utility work.
+**Success Metric**: The idea that emerges is one you can defend as yours; the session leaves you sharper, not dependent.
+
+#### Pattern: Taste-Signal Inclusion Filter
+Dan's rule for whether an AI-generated idea enters his work mirrors his reading practice: "If I read a book and get an idea, that's my taste signal going off — 'I need to share that with other people.' If ChatGPT doesn't do that for me, but it sounds nice, I'm not going to include it. But if it's a really good idea, I'm going to set aside my biases and include it."
+**Execute**: Apply the identical bar to AI output that you apply to books: include only what fires the involuntary share-this signal. Cut everything that merely "sounds nice." Also run it in reverse — don't reject a genuinely good idea just because AI produced it.
+**Success Metric**: Zero filler-that-sounded-smart in shipped work; the discernment layer (your taste) remains the bottleneck, by design.
+
+#### Insight: The Reliance Reset
+Dan noticed AI-assisted ideation atrophying his generative muscle: "I have definitely felt the effects of relying on that too much... right now it's just pure writing because I feel like I have to get back to being able to generate stuff myself... peel back, go back to the basics."
+**Deploy**: Schedule periodic tool-free production sprints (a week of pure manual writing) whenever first-draft thinking starts feeling impossible without the prompt. Treat this as maintenance of the asset (your mind) that makes the prompts valuable at all.
+
+#### Insight: Fixed Multi-Format Output Contracts
+Dan's tweet prompt ended with a hard output contract — per input piece of content: "four one-liner posts, four paragraph posts, and four bullet-list posts, and I could tell it which one I wanted more of." **Deploy**: End every production prompt with an exact output format in fixed quantities across 2-3 structural variants, then steer by pointing ("more like #3") instead of re-prompting from scratch — selection is faster feedback than description.
+
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.

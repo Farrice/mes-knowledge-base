@@ -266,3 +266,36 @@ Before deploying persistent memory:
 - [ ] Distillation pipeline produces human-readable summaries
 - [ ] Sovereignty confirmed: all data stored locally, no third-party dependencies
 - [ ] Migration path validated: data can be exported in standard formats
+
+---
+
+### Patterns from claude.ai export — Nate B. Jones conversations (2026-07-01)
+
+*Source: "Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)" (Jan 2026). The existing frameworks above optimize the TOKEN economics of memory; these patterns cover the HUMAN economics — why memory systems get abandoned and the adoption architecture that keeps them alive. A sovereign memory store that its human stops feeding is dead infrastructure.*
+
+## Framework 8: The Second-Brain Adoption Layer
+
+### One Reliable Behavior
+The entire capture side of a memory system must reduce to a single reliable human behavior — one capture point, zero decisions at capture time. Systems die at the taxonomy moment: the instant capture requires the human to classify, file, or choose a category, friction wins and capture stops. Keep categories "painfully small" and let AI classification do the sorting AFTER capture.
+**Execute**: Design capture as: human dumps into ONE inbox → AI classifier routes with a JSON-schema prompt → filing happens without the human. Audit any existing system for decision points at capture time and delete them.
+**Success Metric**: Capture survives the human's worst week; category count stays small enough to recite from memory.
+
+### Loop vs. Storage
+A second brain is a LOOP, not a filing cabinet — the test is whether the system does work while you sleep. Storage systems accumulate; loop systems capture → classify → surface → act, and humans respond to what shows up, not what they could search for. Proactive surfacing (daily digest, weekly review, pre-meeting context push) is what converts stored memory into behavior change.
+**Execute**: For every memory store, name its surfacing mechanism and cadence. If retrieval only happens when the human remembers to search, it's storage wearing a loop costume — add a digest that pushes small, frequent, actionable outputs.
+**Success Metric**: The system initiates contact with the human more often than the human initiates contact with the system.
+
+### Trust Mechanisms Are the Real Product
+Adoption doesn't fail on capability; it fails on trust. The mechanisms that keep a human feeding a memory system: confidence scores on classifications, audit trails (what got filed where, and why), and fix buttons (one-tap correction when the AI misfiles). Every correction is training signal; every silent misfile is a withdrawal from the trust account.
+**Execute**: Ship the trust triad with any auto-classifying memory system: (1) confidence score surfaced per classification with a threshold below which items route to human review, (2) a receipt/audit trail per item, (3) a fix affordance that takes seconds. Tune thresholds over time from fix-button data.
+**Success Metric**: Misclassification produces a correction, not abandonment; fix-button usage declines as thresholds calibrate.
+
+### Memory / Compute / Interface Separation
+Separate WHERE knowledge lives (memory), WHAT processes it (compute/AI), and HOW the human touches it (interface) — so any layer can be swapped without rebuilding the system (Notion→Airtable, model swap, new capture channel). This is the second-brain restatement of sovereignty: the memory layer outlives every tool choice.
+**Execute**: Document the three layers for any memory architecture and verify each has a migration path independent of the others.
+**Success Metric**: A tool swap in any one layer touches zero of the other two.
+
+### The Restart Protocol
+Assume the human WILL fall off — design for guilt-free return, not perfect streaks. Systems that punish gaps (piled-up inboxes, broken streaks, stale digests demanding backfill) get abandoned at the first lapse. Safe-failure defaults: the system degrades gracefully during neglect and makes re-engagement trivial.
+**Execute**: Define the return path explicitly: what happens to the backlog after a 2-week gap (auto-archive, summarize-and-clear — never demand manual triage), and what the first 5-minute re-engagement action is.
+**Success Metric**: Time-to-resume after a lapse is minutes; no lapse has ever required a "declare bankruptcy and rebuild" event.

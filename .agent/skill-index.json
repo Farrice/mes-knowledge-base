@@ -4,7 +4,7 @@
     "directory": "adam-enfroy-affiliate-marketing",
     "description": "MES 3.0 affiliate marketing system from Adam Enfroy. Build $5K-$10K+/month blogs using hobby niche selection, infinite keyword loops, three-tier content funnels, AI content velocity, and ad + affiliate revenue stacking. Written-content-only strategy \u2014 no video required.",
     "when_to_use": "",
-    "mtime": 1772339000.3860216,
+    "mtime": 1782967358.379123,
     "slash": "/adam-enfroy-affiliate-marketing",
     "routing": "",
     "status": ""
@@ -34,7 +34,7 @@
     "directory": "alen-sultanic-copywriting",
     "description": "Executes Alen Sultanic's unified buyer-behavior methodology \u2014 advanced buyer psychology, offer economics, and conversion architecture treated as one connected system rather than three separate disciplines. Use when designing offer economics (price ladders, payment structures, anchors), diagnosing why a converting funnel suddenly stops converting, decoding buyer psychology in a vertical the user doesn't know, or building conversion architecture for high-ticket offers ($2K+). Trigger proactively whenever the user says \"why isn't this converting\", \"design the offer\", \"buyer psychology\", or shares a funnel that worked at scale and broke. For tactical sentence-level copy use stefan-georgi-dopamine-copy; for insight-vector frameworks use luke-iha-insight-vectors; for niche positioning use nicolas-cole-niche-positioning.",
     "when_to_use": "",
-    "mtime": 1781056524.437,
+    "mtime": 1782967224.5730555,
     "slash": "/alen-sultanic-copywriting",
     "routing": "long-tail",
     "status": ""
@@ -136,6 +136,16 @@
     "when_to_use": "",
     "mtime": 1779592002.7788377,
     "slash": "/andrew-dun-vibe-consulting",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "andrew-lane-design-systems",
+    "directory": "andrew-lane-design-systems",
+    "description": "Andrew Lane's Mood Board Method \u2014 AI-powered visual brand identity systems. Vibe-first brand building - capture the feeling, visualize it as mood boards, solidify it into written guidelines, then extract reusable asset layers so no project ever starts from scratch. Includes his business-vs-branding decision split for founders.",
+    "when_to_use": "",
+    "mtime": 1783005889.57869,
+    "slash": "/andrew-lane-design-systems",
     "routing": "",
     "status": ""
   },
@@ -410,6 +420,16 @@
     "status": ""
   },
   {
+    "name": "coaching-business-os",
+    "directory": "coaching-business-os",
+    "description": "CONDUCTOR hub for the business-of-coaching vertical \u2014 a standalone system that diagnoses what a coaching business actually needs (offer economics, positioning, content monetization, client acquisition, or client transformation) and routes to the right lane, then composes those lanes into one coherent offer architecture. Monetization + transformation layer of the Alignment Architect coaching practice.",
+    "when_to_use": "",
+    "mtime": 1782966511.837544,
+    "slash": "/coaching-business-os",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Cognitive Engagement Optimizer \u2014 Behavioral-Psychology Content Virality",
     "directory": "cognitive-engagement-optimizer",
     "description": "Transforms ordinary content into consistently high-performing material through evidence-based engagement principles \u2014 dopamine-loop engineering, attention architecture, format-vs-trend selection, and platform-algorithm alignment. Use when content is accurate but ignored, when a hook won't stop the scroll, when you need to reverse-engineer why top creators win, or when you want a measurable performance-optimization loop rather than one-off ideation.",
@@ -534,7 +554,7 @@
     "directory": "dan-koe-ai-leverage",
     "description": "Operates Dan Koe's AI-as-expansion-partner methodology \u2014 treats AI as a creative thinking amplifier rather than an output replacer, using context-loaded coaching (load your full creative context before generating), adversarial refinement (use AI to break your own ideas before publishing), and knowledge alchemy (turn books / podcasts / extracts into reusable AI-prompting building blocks). Use when the user is creating with AI but the output feels generic, building a personal-knowledge-management system that compounds with AI use, designing prompts that survive multiple model versions, or training the user's eye on the difference between AI-as-leverage and AI-as-crutch. Trigger proactively whenever the user says \"AI output feels generic\", \"I want AI to think with me\", \"knowledge alchemy\", \"context-loaded prompts\", or \"Dan Koe\". For AI affiliate-site building use darrel-wilson-ai-affiliate; for full AI-business architecture use the ai-brain pipeline.",
     "when_to_use": "",
-    "mtime": 1779591883.6897056,
+    "mtime": 1782967383.3365016,
     "slash": "/dan-koe-ai-leverage",
     "routing": "",
     "status": ""
@@ -544,7 +564,7 @@
     "directory": "dan-koe-multipassionate-mastery",
     "description": "Dan Koe's one-person business system for operators who refuse to niche down. Personal monopoly framing, infinite content engine, philosophical authority, creator commerce. Use when the user IS the niche and needs to monetize multi-interest expression. Do NOT use for traditional niche-down strategy (use Justin Welsh), B2B service businesses, or single-vertical brand work.",
     "when_to_use": "",
-    "mtime": 1777861315.9993095,
+    "mtime": 1782967389.4077728,
     "slash": "/dan-koe-multipassionate-mastery",
     "routing": "",
     "status": ""
@@ -570,6 +590,16 @@
     "status": ""
   },
   {
+    "name": "daniel-pink-writing-structure",
+    "directory": "daniel-pink-writing-structure",
+    "description": "Daniel Pink's non-fiction writing system \u2014 structure discovery before drafting, the proposal-as-stress-test idea validation pipeline, fresh-yet-familiar positioning, research saturation and ruthless inclusion, and the reader-promise contract that makes a book worth $25 and nine hours of a stranger's life.",
+    "when_to_use": "",
+    "mtime": 1783004371.548908,
+    "slash": "/daniel-pink-writing-structure",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Daniel Priestley: Oversubscribed Mastery",
     "directory": "daniel-priestley-oversubscribed",
     "description": "Daniel Priestley's Oversubscribed methodology for creating demand, premium positioning, and becoming a Key Person of Influence. 27 Genius Patterns and 27 Crown Jewel Prompts for entrepreneurial domination.",
@@ -580,11 +610,21 @@
     "status": ""
   },
   {
+    "name": "Daniel Thrasher \u2014 Affiliate Campaign Skills",
+    "directory": "daniel-thrasher-affiliate",
+    "description": "ClickBank direct-response affiliate methodology from Daniel Thrasher (Senior Content Manager, ClickBank; 5 years with top affiliates). Seven-skill priority ladder \u2014 offer selection, copywriting, bridge pages/CRO, traffic mastery, analytics, email, AI/automation \u2014 learned in order, one at a time. Campaign/funnel model, distinct from Enfroy's blog-authority model.",
+    "when_to_use": "",
+    "mtime": 1783006165.525111,
+    "slash": "/daniel-thrasher-affiliate",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "dara-denney-meta-ads",
     "directory": "dara-denney-meta-ads",
-    "description": "DTC creative strategy for Meta ads \u2014 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, and format \u00d7 messaging \u00d7 persona test plans. Engine for performance creative built on Dara Denney's agency methodology.",
+    "description": "DTC creative strategy for Meta ads \u2014 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, winning-hook engineering (4-layer anatomy + tested hook taxonomy), founder ads (6 plays + 7-beat script), and format \u00d7 messaging \u00d7 persona test plans. Engine for performance creative built on Dara Denney's agency methodology.",
     "when_to_use": "- Building any DTC Meta ads creative strategy from scratch\n- Diagnosing why current ads are underperforming (likely a format-messaging mismatch, not a creative quality issue)\n- Selecting formats for a new campaign \u2014 funnel position \u00d7 audience age \u00d7 ops maturity \u00d7 budget \u00d7 brand stage\n- Constructing high-leverage 2026 formats: David & Goliath, yapper, objection-handling\n- Designing 30-day test plans as format \u00d7 messaging \u00d7 persona matrices\n- Diagnosing a brand's 7\u21928 figure plateau (often a partnership ad pipeline gap, not a creative gap)",
-    "mtime": 1777843702.3279896,
+    "mtime": 1782968276.532961,
     "slash": "/dara-denney-meta-ads",
     "routing": "",
     "status": ""
@@ -724,7 +764,7 @@
     "directory": "donald-miller-business-growth",
     "description": "Engineers a small business like an airplane so it scales without crashing \u2014 the operational/financial system underneath the messaging. Captures Miller's Small Business Flight Plan from \"How to Grow Your Small Business\": the airplane six-part diagnostic + rule of proportion + S-curve detection, the Business-on-a-Mission Guiding Principles (Mission Statement formula \"X by Y because Z\" + Key Characteristics + Critical Actions), the product-optimization playbook (rank by true profit, the six value categories, the product brief), the Management & Productivity playbook (five meetings + artist/entrepreneur/operator + the operator hire), and the five-checking-account cash-flow system (high-water marks, boil-over transfers, reserve fund). Use when a business is growing but \"everything feels heavy\" (the S-curve), when the owner is firefighting instead of in their sweet spot, when products aren't ranked by profit, when overhead is bloating, when business and personal money are commingled, or when planning a hire/expansion (rule of proportion). Trigger when the user says \"professionalize my operation\", \"my business is growing but chaotic\", \"I don't know which products make money\", \"cash flow is a mess\", \"how do I scale without crashing\", or \"small business growth plan\". DELIBERATELY DEFERS marketing to donald-miller-storybrand/donald-miller-cognitive-load and sales to donald-miller-messaging-evolution \u2014 this skill flies the plane; the two engines are owned by the messaging skills.",
     "when_to_use": "",
-    "mtime": 1780154590.4183536,
+    "mtime": 1782967874.204716,
     "slash": "/donald-miller-business-growth",
     "routing": "",
     "status": ""
@@ -764,7 +804,7 @@
     "directory": "donald-miller-storybrand",
     "description": "Transform any business message into a story that hijacks the survival brain \u2014 BrandScripts, narrative copy, one-liners, messaging audits, sales funnels, email sequences, keynotes, and website wireframes",
     "when_to_use": "",
-    "mtime": 1773072959.5250425,
+    "mtime": 1782967869.4384649,
     "slash": "/donald-miller-storybrand",
     "routing": "",
     "status": ""
@@ -930,6 +970,26 @@
     "status": ""
   },
   {
+    "name": "gabe-novotny-fitness-content-business",
+    "directory": "gabe-novotny-fitness-content-business",
+    "description": "Gabe Novotny's organic Instagram monetization system for fitness coaches \u2014 the Solar System content framework (Earth Zone calibration), the CPR (Cash Per Reel) method, and the reels-to-stories-to-DMs funnel that turns lived experience into $10K-$25K months with zero ad spend and no cold outreach.",
+    "when_to_use": "",
+    "mtime": 1782966118.9000292,
+    "slash": "/gabe-novotny-fitness-content-business",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "gary-vaynerchuk-attention",
+    "directory": "gary-vaynerchuk-attention",
+    "description": "Gary Vaynerchuk's attention-trading system \u2014 day-trade underpriced attention across platforms, run a document-don't-create organic content engine, and amplify only proven organic winners. Built from four primary-source 2025 interviews (Trade Attention for F*ck You Money, AI + Pop Culture Era, Social Media Is Over, Tea with GaryVee 91).",
+    "when_to_use": "",
+    "mtime": 1783005894.8590732,
+    "slash": "/gary-vaynerchuk-attention",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "gemini-api-dev",
     "directory": "gemini-api-dev",
     "description": "Use this skill when building applications with Gemini models, Gemini API, working with multimodal content (text, images, audio, video), implementing function calling, using structured outputs, or needing current model specifications. Covers SDK usage (google-genai for Python, @google/genai for JavaScript/TypeScript), model selection, and API capabilities.",
@@ -984,7 +1044,7 @@
     "directory": "growth-ecosystems",
     "description": "Info business scaling operating system \u2014 circular growth ecosystems, 3-yes conversion framework, hybrid offer architecture, trust-first positioning, and lifetime value flywheels for coaches, consultants, and creators. Complete system from niche to $100K/month with <5K followers.",
     "when_to_use": "- Building or scaling an info, coaching, or consulting business\n- Designing offers, positioning, or content strategy for an info business\n- Creating growth systems that don't rely on high ad spend or massive audiences\n- Diagnosing why an info business is stalled\n- Building a client acquisition system that closes at 80%+\n- Any project requiring niche selection, offer design, content pillars, messaging, or sales architecture for knowledge-based businesses",
-    "mtime": 1773351129.1432595,
+    "mtime": 1782968361.009369,
     "slash": "/growth-ecosystems",
     "routing": "",
     "status": ""
@@ -997,6 +1057,16 @@
     "mtime": 1781056524.439112,
     "slash": "/harry-dry-copywriting",
     "routing": "long-tail",
+    "status": ""
+  },
+  {
+    "name": "henrik-werdelin-portfolio-entrepreneurship",
+    "directory": "henrik-werdelin-portfolio-entrepreneurship",
+    "description": "Henrik Werdelin's portfolio-entrepreneurship system \u2014 customer-first venture discovery (Five Ps), donkeycorn business design ($1M sustainable ventures, not unicorn-or-nothing), relationship-capital moats (Depth/Density/Durability), and AI-agent-augmented solo multi-venture building",
+    "when_to_use": "",
+    "mtime": 1783004686.4850664,
+    "slash": "/henrik-werdelin-portfolio-entrepreneurship",
+    "routing": "",
     "status": ""
   },
   {
@@ -1060,6 +1130,16 @@
     "status": ""
   },
   {
+    "name": "jay-hiette-coaching-positioning",
+    "directory": "jay-hiette-coaching-positioning",
+    "description": "Jay Hiette's Reality Matrix system for online coaching businesses \u2014 belief-shifting positioning, contrarian message architecture (\"People think X, which causes Y, but the truth is Z\"), symptom-language copy, identity-led content from daily splurges, and a compounding deal flow (profile-visit ads \u2192 one VSSL \u2192 nano offer \u2192 high-ticket ascension). For coaches who are already posting and signing occasional clients but blend into the sea of competitors.",
+    "when_to_use": "",
+    "mtime": 1782966028.5656013,
+    "slash": "/jay-hiette-coaching-positioning",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "jen-santulan-listing-content",
     "directory": "jen-santulan-listing-content",
     "description": "Produces warm, conversational real-estate content for Jennifer Santulan's @realestatewithjing Instagram \u2014 Reels hooks, Story sequences, and Carousels targeting San Fernando Valley first-time buyers ($800K-1.2M range, currently renting $2.5-3.5K/mo, age 30-42, $100-200K HHI). Use when working on Jen Santulan's listings/social content, drafting listing reels or stories for SFV properties, generating real-estate Instagram hooks, or any task in _active/jen-listings/ or projects/jen-*/ directories. Trigger this proactively even when the user just shares an MLS listing or a property photo without naming Jen \u2014 her listing pipeline is the default real-estate context.",
@@ -1110,6 +1190,16 @@
     "status": ""
   },
   {
+    "name": "Jiang Xueqin \u2014 Cognitive Autonomy & Mental Mastery",
+    "directory": "jiang-xueqin-cognitive-autonomy",
+    "description": "Prof. Jiang Xueqin's system for becoming unprogrammable: deconstructing the three mechanisms of mental programming (language, emotion, identity), replacing villain narratives with structural/game-theoretic analysis, and running the 30-day cognitive autonomy protocol. Use when a narrative needs decoding, when behavior looks irrational until you find the real game, or when someone wants trained resistance to manipulation.",
+    "when_to_use": "",
+    "mtime": 1783005850.4517062,
+    "slash": "/jiang-xueqin-cognitive-autonomy",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Jim O'Shaughnessy: Philosopher-Financier Skill",
     "directory": "jim-oshaughnessy-philosopher-financier",
     "description": "The Philosopher-Financier Framework - Synthesizing quantitative rigor with humanistic wisdom across four career acts",
@@ -1122,9 +1212,9 @@
   {
     "name": "Joanna Wiebe \u2014 Persuasion Mastery",
     "directory": "joanna-wiebe-persuasion-mastery",
-    "description": "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage psychological triggers \u2014 from benefits to invisible persuasion, from sentence-level command to tactical trigger deployment by funnel stage",
+    "description": "5 levels of persuasive writing + 5 authority craft mechanics + 9 funnel-stage psychological triggers + 8 storytelling principles + 7 live-authority mechanics \u2014 from benefits to invisible persuasion, from sentence-level command to trigger deployment by funnel stage, from story architecture to commanding the room",
     "when_to_use": "",
-    "mtime": 1781056524.439597,
+    "mtime": 1782967685.3086872,
     "slash": "/joanna-wiebe-persuasion-mastery",
     "routing": "long-tail",
     "status": ""
@@ -1134,7 +1224,7 @@
     "directory": "joanna-wiebe-writing-careers",
     "description": "Architects a sustainable writing career using Joanna Wiebe's positioning, pricing, and business-design methodology \u2014 built on Copyhackers, the writer-as-business-strategist lineage. Use when a writer is repositioning from \"freelance copy for hire\" to outcome-priced practice, deciding whether to ghostwrite vs build a personal brand, pricing a copy engagement against measurable business outcomes (lead-gen, AOV lift, retention) instead of word counts, or designing the next 3-5 year arc of a writing career. Trigger proactively whenever the user says \"how do I price this\", \"I want to charge more\", \"ghostwriting vs my own brand\", \"what should my writing career look like\", or describes burnout from undifferentiated freelance copy work. For tactical sentence-level copy use stefan-georgi-dopamine-copy or harry-dry-copywriting; for AI-leveraged copywriting business use cardinal-mason-ai-copywriting.",
     "when_to_use": "",
-    "mtime": 1781056524.43987,
+    "mtime": 1782967691.1048877,
     "slash": "/joanna-wiebe-writing-careers",
     "routing": "long-tail",
     "status": ""
@@ -1166,6 +1256,16 @@
     "when_to_use": "",
     "mtime": 1779592096.3260126,
     "slash": "/joscha-bach-consciousness",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "josh-kaufman-business-fundamentals",
+    "directory": "josh-kaufman-business-fundamentals",
+    "description": "Josh Kaufman's Personal MBA operating system \u2014 deconstruct any business into its five universal parts, validate ideas with swiped credit cards before building, and acquire any new skill in 20 focused hours. Business as simple arithmetic plus human psychology, never credentialed complexity.",
+    "when_to_use": "",
+    "mtime": 1783004416.6348982,
+    "slash": "/josh-kaufman-business-fundamentals",
     "routing": "",
     "status": ""
   },
@@ -1360,6 +1460,16 @@
     "status": ""
   },
   {
+    "name": "kunal-shah-consumer-psychology",
+    "directory": "kunal-shah-consumer-psychology",
+    "description": "Kunal Shah's consumer psychology and opportunity-evaluation system \u2014 the Delta-4 efficiency framework for predicting irreversible behavior change, rivers-vs-dams motivation mapping, trust-concentration analysis for low-trust markets, and status/shame/pride dynamics as the hidden engine of consumer behavior.",
+    "when_to_use": "",
+    "mtime": 1783004445.2466369,
+    "slash": "/kunal-shah-consumer-psychology",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "lamott-allen-really-real-writing",
     "directory": "lamott-allen-really-real-writing",
     "description": "Anne Lamott + Neal Allen's \"really real\" writing-depth layer for drafts that need truth, heart, clarity, reader trust, plain force, emotional precision, and humane resonance. Use when the user asks for writing that is real, true, soulful, deep, human, relatable, resonant, less AI, less generic, more literary but not pretentious, more heart, stronger voice, novel quality, or able to make people feel it. Do not use as the default for speed copy, purely structural edits, or short tactical output where depth is not the job.",
@@ -1404,7 +1514,7 @@
     "directory": "lara-acosta-linkedin-growth",
     "description": "Master-level B2B personal branding on LinkedIn. Execute the SLAY framework, the 8-word rehook architecture, and high-engagement narrative hacking.",
     "when_to_use": "",
-    "mtime": 1772339222.6550975,
+    "mtime": 1782967243.851404,
     "slash": "/lara-acosta-linkedin-growth",
     "routing": "",
     "status": ""
@@ -1670,11 +1780,21 @@
     "status": ""
   },
   {
+    "name": "Mark Forsyth \u2014 Rhetoric & Memorable Language",
+    "directory": "mark-forsyth-rhetoric",
+    "description": "The figures of rhetoric as memory engineering \u2014 Forsyth (The Elements of Eloquence, The Etymologicon) treats memorable language as formula, not genius: diacope, progressio, chiasmus, polyptoton, anadiplosis, tricolon and the rest are 2,500-year-old shapes that fit the memory receptors of the human brain. Covers line-forging with the figure catalog, first-paragraph voice establishment, and the writer's practice-scales regimen (iambic pentameter improvisation, prepare-then-write-fast, run-up editing).",
+    "when_to_use": "",
+    "mtime": 1783005899.610862,
+    "slash": "/mark-forsyth-rhetoric",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Mark Kashef Agent Orchestration",
     "directory": "mark-kashef-agent-orchestration",
     "description": "Architect and orchestrate AI agent teams using Mark Kashef's specialized workflows for sequential handoffs, parallel synthesis, and hybrid grunt-to-architect models.",
     "when_to_use": "",
-    "mtime": 1772339257.9092448,
+    "mtime": 1782967835.0226417,
     "slash": "/mark-kashef-agent-orchestration",
     "routing": "",
     "status": ""
@@ -1704,7 +1824,7 @@
     "directory": "mark-kashef-claude-claw",
     "description": "Build a personal AI assistant that bridges any messaging platform to your existing Claude Code infrastructure via Anthropic's Agent SDK subprocess pattern \u2014 zero dual-entry, full capability access from your phone",
     "when_to_use": "",
-    "mtime": 1775779996.947601,
+    "mtime": 1782967840.4200003,
     "slash": "/mark-kashef-claude-claw",
     "routing": "",
     "status": ""
@@ -1716,6 +1836,16 @@
     "when_to_use": "",
     "mtime": 1775779996.9483283,
     "slash": "/mark-kashef-visual-design",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "mark-manson-values-psychology",
+    "directory": "mark-manson-values-psychology",
+    "description": "Mark Manson's values-based psychology and wellbeing system \u2014 value discovery (desert island, eulogy, frustration forensics, forced ranking), behavior-first value change via cognitive dissonance and incentive design, and the three-layer happiness stack (affect / life satisfaction / meaning-purpose) worked backwards from meaning. The mindset layer for transformation coaching.",
+    "when_to_use": "",
+    "mtime": 1782966091.570188,
+    "slash": "/mark-manson-values-psychology",
     "routing": "",
     "status": ""
   },
@@ -1810,12 +1940,32 @@
     "status": ""
   },
   {
+    "name": "michael-margolis-user-research",
+    "directory": "michael-margolis-user-research",
+    "description": "Michael Margolis's (UX Research Partner, GV) bullseye customer research system \u2014 find the comically-narrow subset of your market most likely to adopt, then validate with 5 interviews, 3 comparison prototypes, in 1 day",
+    "when_to_use": "",
+    "mtime": 1783005883.1092157,
+    "slash": "/michael-margolis-user-research",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Mike Foutia \u2014 Marketing Tools",
     "directory": "mike-foutia-marketing-tools",
     "description": "Mike Foutia's universal market intelligence engine \u2014 turns data from ANY source (SEO, social, reviews, marketplaces) into deployable ad briefs and internal tool blueprints. Use for cross-platform trend analysis, ad-brief generation from research, and low-code marketing automation builds. Do NOT use for brand strategy (use Oren), creative direction, or organic content pillars.",
     "when_to_use": "",
     "mtime": 1777861328.4229863,
     "slash": "/mike-foutia-marketing-tools",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "mike-sherrard-realtor-branding",
+    "directory": "mike-sherrard-realtor-branding",
+    "description": "Mike Sherrard's personal-branding and social-media conversion system for real estate agents \u2014 niche selection via the four-criteria test, Hormozi's brand framework applied to realtors, the four content mistakes that produce zero leads, HVC content structure, and the Instagram/YouTube lead-capture workflow.",
+    "when_to_use": "",
+    "mtime": 1783004739.9693887,
+    "slash": "/mike-sherrard-realtor-branding",
     "routing": "",
     "status": ""
   },
@@ -1884,7 +2034,7 @@
     "directory": "nate-b-jones-intent-engineering",
     "description": "Design AI agents that reliably understand and execute user intent through explicit intent documentation, disambiguation protocols, and interpretation-execution separation",
     "when_to_use": "",
-    "mtime": 1772339316.9037967,
+    "mtime": 1782967381.7951517,
     "slash": "/nate-b-jones-intent-engineering",
     "routing": "",
     "status": ""
@@ -1894,7 +2044,7 @@
     "directory": "nate-b-jones-orchestration-intelligence",
     "description": "Designs, audits, and optimizes multi-agent orchestration using Nate B. Jones's DPVI pattern (Decompose \u2192 Parallelize \u2192 Verify \u2192 Iterate) \u2014 the convergence architecture independently arrived at by Anthropic, Google DeepMind, OpenAI, and Cursor. Treats harness design (memory, task files, progress tracking, restart procedures) as the primary determinant of agent success, not model intelligence. Classifies work by domain verifiability to determine safe delegation. Use when designing a new multi-agent system, coordinating >3 agents, agents are capable but inconsistent (suspect harness issues), deciding what to delegate vs. retain for humans, or agent systems show diminishing returns. Trigger proactively whenever the user says \"coordinate agents\", \"multi-agent\", \"swarm\", \"parallel agents\", or \"why are my agents inconsistent\". For memory/context architecture use nate-b-jones-context-engineering; for self-improvement loops use nate-b-jones-auto-improvement-loops.",
     "when_to_use": "- Designing a new multi-agent system or coordinating >3 agents\n- Agents are capable but inconsistent \u2014 suspect harness issues\n- Deciding what work to delegate to agents vs. retain for humans\n- Agent system growing complex and showing diminishing returns\n- Building evaluation criteria for AI-generated work in any domain\n- Multi-agent pipeline runs repeatedly and should get more efficient over time",
-    "mtime": 1779467587.2381682,
+    "mtime": 1782967390.4740653,
     "slash": "/nate-b-jones-orchestration-intelligence",
     "routing": "",
     "status": ""
@@ -1904,7 +2054,7 @@
     "directory": "nate-b-jones-trust-architecture",
     "description": "Zero-Trust Agentic Architecture & Systemic Hallucination Defense",
     "when_to_use": "",
-    "mtime": 1775779996.9581387,
+    "mtime": 1782967389.4077659,
     "slash": "/nate-b-jones-trust-architecture",
     "routing": "",
     "status": ""
@@ -1964,7 +2114,7 @@
     "directory": "nick-saraev-agentic-workflows",
     "description": "Nick Saraev's 6-hour agentic workflows course: DO framework, self-annealing systems, cloud deployment, MCP integration, and productized AI services",
     "when_to_use": "",
-    "mtime": 1772339396.9976058,
+    "mtime": 1782968144.669457,
     "slash": "/nick-saraev-agentic-workflows",
     "routing": "",
     "status": ""
@@ -1974,7 +2124,7 @@
     "directory": "nick-saraev-bottleneck-thinking",
     "description": "Theory of Constraints adapted for solopreneurs \u2014 pipeline visualization, constraint identification, and the 4-step business improvement flywheel",
     "when_to_use": "",
-    "mtime": 1772459229.2132545,
+    "mtime": 1782968214.8261535,
     "slash": "/nick-saraev-bottleneck-thinking",
     "routing": "",
     "status": ""
@@ -2026,6 +2176,16 @@
     "when_to_use": "",
     "mtime": 1773946694.5076666,
     "slash": "/nicolas-cole-sentence-craft",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "nir-eyal-habit-design",
+    "directory": "nir-eyal-habit-design",
+    "description": "Nir Eyal's Indistractable + Hooked methodology as the behavior-change layer for coaching offers \u2014 internal trigger mastery, values-based timeboxing, pact engineering, and habit-loop adherence design so clients actually do the program.",
+    "when_to_use": "",
+    "mtime": 1782966080.4844763,
+    "slash": "/nir-eyal-habit-design",
     "routing": "",
     "status": ""
   },
@@ -2084,7 +2244,7 @@
     "directory": "omar-eltakrori",
     "description": "Build a teaching-and-coaching business that scales to multimillions with no sales team \u2014 the contrarian \"teaching is the highest-paying skill\" model. Visibility, frameworks, challenges, and one-to-many offers (the Interior Game) PLUS the craft of teaching-to-sell \u2014 creating the feeling of the next step, shifting beliefs, and teaching WHAT not HOW (the Exterior Game). From $34K/year to multi-seven-figures.",
     "when_to_use": "",
-    "mtime": 1781443807.7873254,
+    "mtime": 1782968542.8817198,
     "slash": "/omar-eltakrori",
     "routing": "",
     "status": ""
@@ -2104,7 +2264,7 @@
     "directory": "oren-content-team-architecture",
     "description": "Design, staff, and scale content-first marketing teams \u2014 from 2-person pods to 20+ person media machines. Pod system, operating cadence, signature series, creator networks, founder content identity, and the brand-as-media-company transformation.",
     "when_to_use": "",
-    "mtime": 1782943727.603946,
+    "mtime": 1782968500.2657878,
     "slash": "/oren-content-team-architecture",
     "routing": "",
     "status": ""
@@ -2154,7 +2314,7 @@
     "directory": "oren-taste-development",
     "description": "Oren's taste-as-competitive-advantage system \u2014 CEV framework (Composition/Effectivity/Vibes), critique vocabulary, deliberate-exposure curricula. Use for creative-direction roles, taste-gap diagnostics, brand quality audits, and positioning a specific 'eye' as the product. Do NOT use for analytical positioning (use April Dunford), revenue strategy, or production execution.",
     "when_to_use": "",
-    "mtime": 1777861323.2857301,
+    "mtime": 1782968474.3776927,
     "slash": "/oren-taste-development",
     "routing": "",
     "status": ""
@@ -2186,6 +2346,16 @@
     "when_to_use": "",
     "mtime": 1782937382.3862894,
     "slash": "/pat-flynn-passive-income",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "patrick-dang-online-business",
+    "directory": "patrick-dang-online-business",
+    "description": "Patrick Dang's Skill-to-Brand system \u2014 turn the skill a 9-5 already pays you for into a high-ticket offer, a one-platform personal brand engine, and a book-a-call sales system that reaches $10K/month without quitting the job",
+    "when_to_use": "",
+    "mtime": 1783004741.8391697,
+    "slash": "/patrick-dang-online-business",
     "routing": "",
     "status": ""
   },
@@ -2350,6 +2520,16 @@
     "status": ""
   },
   {
+    "name": "robert-greene-power-mastery",
+    "directory": "robert-greene-power-mastery",
+    "description": "Robert Greene's power dynamics and craft-mastery system \u2014 reading the egos and self-interest in any room, engineering strategic presence (reputation, absence, silence, formlessness), and building an apprenticeship path that compounds into irreplaceable skill.",
+    "when_to_use": "",
+    "mtime": 1783004398.1496077,
+    "slash": "/robert-greene-power-mastery",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Robert Mack: Comedy Writing Mastery",
     "directory": "robert-mack-comedy-writing",
     "description": "Deploy professional comedy mechanics across marketing, social media, presentations, and creative content \u2014 turning observations into engineered laughs. Includes domain application system, LinkedIn comedy engine, and voice layer integration.",
@@ -2364,7 +2544,7 @@
     "directory": "rory-sutherland-marketing",
     "description": "Rory Sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture, value perception, reverse benchmarking, perception engineering, and asymmetric bet evaluation. Cross-expert stacking with Georgi, Iha, Dunford, Kallaway, and Dai Media for full-spectrum marketing dominance.",
     "when_to_use": "",
-    "mtime": 1777993148.5812657,
+    "mtime": 1782967929.3570318,
     "slash": "/rory-sutherland-marketing",
     "routing": "",
     "status": ""
@@ -2460,12 +2640,32 @@
     "status": ""
   },
   {
+    "name": "sarah-levinger-ad-psychology",
+    "directory": "sarah-levinger-ad-psychology",
+    "description": "Sarah Levinger's psychology-driven micro-movie ad system \u2014 30-60 second video ads built on story architecture instead of sales architecture. Emotional-avatar diagnosis, avatar-to-story-structure matching, human-story-first scripting, and product placement at the emotional shift moment (product as bridge, never hero).",
+    "when_to_use": "",
+    "mtime": 1783004382.4811096,
+    "slash": "/sarah-levinger-ad-psychology",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Satori Graphics: Composition + Logo Thinker",
     "directory": "satori-graphics",
     "description": "Composition theory, layout flow, logo concept methodology, and design psychology. Where typography handles type, Satori handles how the page itself thinks \u2014 movement, grids, leverage points, friction, and the psychology that makes designs memorable.",
     "when_to_use": "Route to the right expert instead:\n\n| Need | Route to |\n|---|---|\n| Pure typography selection | `kittl-graphic-design` |\n| DESIGN.md token codification (color/type/component) | `jack-roberts-design-mastery` or `design-md` |\n| AI image / video prompt engineering | `creative-direction` (Creative Director) |\n| Stylized poster production (Fal API) | `fantastic-posters` |\n| Brand strategy / positioning | `greg-hoffman-brand-mastery` or `dai-media` |\n| UI component code from DESIGN.md | `product-design-build` |\n| Personal brand strategy | `caleb-ralston-personal-brand` or `jun-yuh-personal-brand` |\n| Anti-slop audit (AI-tells in copy/output) | `jack-roberts-design-mastery /anti-slop` |\n\nSatori is for the **composition, layout flow, logo concept, and design psychology** layer \u2014 between type and DESIGN.md codification.\n\n---",
     "mtime": 1777843720.4187498,
     "slash": "/satori-graphics",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "sean-dollwet-kdp-publishing",
+    "directory": "sean-dollwet-kdp-publishing",
+    "description": "Sean Dollwet's Amazon KDP self-publishing business system \u2014 demand-first topic validation (BSR thresholds), title/subtitle engineering, AI-assisted book production, review acquisition, $3/day Amazon ads, and format multiplication into 7+ income streams, up to a sellable catalog exit.",
+    "when_to_use": "",
+    "mtime": 1783004714.6872358,
+    "slash": "/sean-dollwet-kdp-publishing",
     "routing": "",
     "status": ""
   },
@@ -2564,7 +2764,7 @@
     "directory": "shaan-puri-storytelling",
     "description": "Storytelling and audience building frameworks for emotion-first content that creates loyal audiences",
     "when_to_use": "",
-    "mtime": 1772339481.171956,
+    "mtime": 1782967201.699419,
     "slash": "/shaan-puri-storytelling",
     "routing": "",
     "status": ""
@@ -2654,8 +2854,18 @@
     "directory": "stefan-georgi-dopamine-copy",
     "description": "Engineers direct-response copy as neurochemical pharmacology \u2014 Stefan Georgi's RMBC method treats every word as a dopamine event, every structure as a dosage controller. Four-phase architecture (Lead/Open \u2192 Rapport/Background \u2192 Mechanism \u2192 Close/Future Pace) with 70-80% of creative energy in the first 3-5 seconds of the lead. $700M+ in tracked sales behind the methodology. Use when writing direct-response copy, VSL leads, sales pages, sales-email sequences, or any conversion-bearing surface that needs to grip attention and convert to action \u2014 especially when the user mentions \"RMBC\", \"Stefan Georgi\", \"dopamine copy\", \"direct response\", \"sales letter\", or a draft that's informative but converting poorly. Trigger proactively even when the user just shares an underperforming sales asset without naming Georgi \u2014 RMBC's dopamine-dosage diagnosis applies to all conversion copy.",
     "when_to_use": "",
-    "mtime": 1779465699.7503092,
+    "mtime": 1782967544.2243578,
     "slash": "/stefan-georgi-dopamine-copy",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "steven-kotler-flow-performance",
+    "directory": "steven-kotler-flow-performance",
+    "description": "Steven Kotler's flow-state and peak-performance science (Flow Research Collective) reformatted as a coaching transformation engine \u2014 engineer reliable, repeatable flow for clients via neurobiology, not motivation platitudes. Covers the 22 triggers, challenge-skills balance, the intrinsic motivation stack, flow blockers, and the positive-psychology readiness basics.",
+    "when_to_use": "",
+    "mtime": 1782966089.8046715,
+    "slash": "/steven-kotler-flow-performance",
     "routing": "",
     "status": ""
   },
@@ -2780,6 +2990,26 @@
     "status": ""
   },
   {
+    "name": "taylor-welch-wealthy-consultant",
+    "directory": "taylor-welch-wealthy-consultant",
+    "description": "Taylor Welch's (Traffic & Funnels / The Wealthy Consultant) dual-layer operating system for coaches and consultants \u2014 wealth psychology (identity rewiring, values-before-goals, shame-to-power reprogramming) fused with consulting-business mechanics (five wealth dimensions, threshold navigation, value-scarcity positioning). Use when a coaching/consulting business problem is actually an identity, belief, or alignment problem underneath.",
+    "when_to_use": "",
+    "mtime": 1782966072.609612,
+    "slash": "/taylor-welch-wealthy-consultant",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "tess-barclay-social-content",
+    "directory": "tess-barclay-social-content",
+    "description": "Tess Barclay's social media content system \u2014 niche-audience-first positioning, \"polished casual\" production (sweatsuit in 4K), AI-proof connection-based content, older-sibling authority, and the YouTube+Instagram ecosystem with ritual-based community",
+    "when_to_use": "",
+    "mtime": 1783005864.1200187,
+    "slash": "/tess-barclay-social-content",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "theme-factory",
     "directory": "theme-factory",
     "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
@@ -2806,6 +3036,16 @@
     "when_to_use": "",
     "mtime": 1772339542.6810486,
     "slash": "/tim-danilov-niche-bending",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "tobi-lutke-business-leadership",
+    "directory": "tobi-lutke-business-leadership",
+    "description": "Tobi L\u00fctke's (Shopify founder/CEO) leadership and systems-thinking operating system \u2014 rerunnable decision functions over roadmaps, legitimacy banking, subtraction as the founder superpower, Goodhart-proof metrics, compressed change management (the Toby tornado), and maximizing human potential",
+    "when_to_use": "",
+    "mtime": 1783006423.4376035,
+    "slash": "/tobi-lutke-business-leadership",
     "routing": "",
     "status": ""
   },
@@ -2892,9 +3132,9 @@
   {
     "name": "Ward Farnsworth \u2014 Rhetorical Mastery",
     "directory": "ward-farnsworth-rhetorical-mastery",
-    "description": "Classical rhetoric as an engineering discipline \u2014 the structural devices that operate almost mathematically on the human ear (Saxon vs. Latinate chord-changes, chiasmus, anaphora, epistrophe, isocolon, antithesis, metaphor-as-argument, the aphorism). 12 workflows that diagnose the rhetorical soil of a line and deploy the single right device instead of stacking them: the Saxon punch closer, the ABBA reversal that reframes backwards thinking, the parallelism crescendo, the opposition engine, the cadence audit, metaphor that persuades rather than decorates, the aphorism forge with its wisdom-illusion shield \u2014 plus cross-domain deployment into hooks, converting copy, taglines, and speeches. Front door: /ward-rhetorical-engine reads the line and routes to the device it calls for.",
+    "description": "Classical rhetoric as an engineering discipline \u2014 the structural devices that operate almost mathematically on the human ear (Saxon vs. Latinate chord-changes, chiasmus, anaphora, epistrophe, isocolon, antithesis, metaphor-as-argument, the aphorism). 13 workflows that diagnose the rhetorical soil of a line and deploy the single right device instead of stacking them: the Saxon punch closer, the ABBA reversal that reframes backwards thinking, the parallelism crescendo, the opposition engine, the cadence audit, metaphor that persuades rather than decorates, the aphorism forge with its wisdom-illusion shield \u2014 plus cross-domain deployment into hooks, converting copy, taglines, and speeches. Front door: /ward-rhetorical-engine reads the line and routes to the device it calls for.",
     "when_to_use": "",
-    "mtime": 1782845946.2489462,
+    "mtime": 1782967907.480645,
     "slash": "/ward-farnsworth-rhetorical-mastery",
     "routing": "",
     "status": ""
@@ -2956,6 +3196,16 @@
     "when_to_use": "",
     "mtime": 1766254184.0,
     "slash": "/xlsx",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "yuri-elkalayev-health-coaching-business",
+    "directory": "yuri-elkalayev-health-coaching-business",
+    "description": "Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses \u2014 the newbie 30-day Social Authority roadmap (content + connection + The Trade) and the expert Perfect Client Pipeline (paid traffic \u2192 evergreen masterclass \u2192 application \u2192 call), both fueled by the High-Converting Offer messaging blocks",
+    "when_to_use": "",
+    "mtime": 1782966354.8207495,
+    "slash": "/yuri-elkalayev-health-coaching-business",
     "routing": "",
     "status": ""
   }

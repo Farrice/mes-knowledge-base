@@ -167,6 +167,51 @@ Does the story's transformation arc mirror the reader's desired transformation? 
 *   **The "Obstacle Definition Drill"**: Shaan doesn't just identify *what* the protagonist wants (intention); he then spends significant time articulating the *specific, tangible, and often internal* forces blocking them. He ensures the obstacle isn't generic but deeply personal and resonant. → **Deploy when**: A story's tension feels weak or the stakes aren't clear.
 *   **The "Isomorphism Map"**: Before choosing which story to tell, map the reader's current state → desired state → internal obstacle. Then select a story whose protagonist's arc rhymes with this exact journey. Open inside the reader's reality, not outside it. → **Deploy when**: Starting any story from scratch, or when a draft feels well-crafted but emotionally distant.
 
+### Patterns from claude.ai export — Shaan Puri conversations (2026-07-01)
+
+Source: Shaan Puri's "Masterclass in Storytelling (for beginners)" interview transcript (David Perell). Only material NOT already covered above is included here.
+
+**Pattern A: The Binge Bank**
+- **Insight**: A body of content is worth more as a *bank* than as a feed. Each piece doesn't need to go viral — it needs to be one breadcrumb in a trail so that when someone finally gets curious about you and spends an hour going down your rabbit hole, they walk out a fan. "Create a Binge Bank... it's so much more valuable than a resume or a portfolio."
+- **Deploy**: When a piece underperforms, reframe it: "This is for my Binge Bank." Ask: what are the 10 things someone should consume to know me, like me, respect me in one hour? Build and maintain that list deliberately. This is also the anti-discouragement trick — it removes the need for every piece to pay off immediately.
+
+**Pattern B: Premium Skills Arbitrage**
+- **Insight**: The highest-return skills share three traits: (1) obviously valuable, (2) never formally taught, (3) slightly embarrassing to admit you practice. Storytelling, humor, enthusiasm, state management, personal branding. Because nobody practices them, deliberate practice is pure differentiation — "it's the arbitrage."
+- **Deploy**: When choosing what to improve, hunt the value/taboo mismatch. If saying "I'm practicing my enthusiasm" sounds lame, that's the signal to practice it.
+
+**Pattern C: 100 Intelligent Reps**
+- **Execute**: Commit to 100 stories (or posts, or videos) before judging yourself. Rule per rep: identify ONE thing to do better than last time — hook too weak, droned too long, no point, shouldn't have been a story at all. Expect maximum cringe at rep 1; the skill is built inside the reps, not before them.
+- **Success Metric**: Each rep names its one improvement. By rep 100, stories land without feeling forced (the Mr. Beast corollary: people who actually do the 100 never need to ask for advice again).
+
+**Pattern D: Gossip Over Logic ("Here's How It Goes Down")**
+- **Execute**: When making an argument or prediction, refuse the intelligence contest. Replace "here's why I'm right" (logic, jargon, homework) with "here's how I think it all goes down" (gossip, story). Write it like a screenplay in second person: put the reader inside the character — "You're the founder of Clubhouse. F*** yeah, you're winning. Kanye's in your DMs..." — then let events unfold.
+- **Success Metric**: A cold reader can't tell it's an argument; it reads as a story they want to see the end of. (This is how the Clubhouse thread reached ~20M readers while the better-credentialed, jargon-heavy version of the same take died.)
+
+**Pattern E: Audience Buy-In Pacing**
+- **Insight**: There is no correct length — "it can only be as long as it is interesting." What changes per medium is the audience's buy-in level: on a podcast you can riff for five minutes; with cold traffic you have a headline and one line; on TikTok you have under a second. Pacing mistakes are almost always buy-in miscalculations, not length mistakes.
+- **Deploy**: Before drafting, name the buy-in level (stranger / curious / fan) and the medium's attention contract. Front-load value in exact proportion to how little the audience owes you.
+
+**Pattern F: The Walkaway Edit (Remove the Rocks)**
+- **Execute**: Never edit right after drafting. Brain-dump, read it once, then walk away 4–24 hours (workout, kids, walk — no conscious thinking about it). Return and ask: "Is this doing what I intended? What are the rocks blocking the river?" The frame matters: the ideas are the water and they already want to flow; your job is not to "make it good" but to remove the suck — the boring part, the intro that doesn't hint at what's coming, the ending that just stops.
+- **Success Metric**: Every edit pass names specific rocks removed, not vague polish. (Same as Pixar: "all movies start with suck; every draft just removes suck.")
+
+**Pattern G: State Change Protocol — Physiology → Focus → Story**
+- **Execute**: (Concrete protocol for Pattern 8, "State Before Create.") Three levers, in order: (1) **Physiology** — radical physical change first: sprint, pushups, air squats, cold water on the face (the poker champion doing parking-lot wind sprints between tournament rounds "to make a better decision at the table"). (2) **Focus** — point the laser at the thing you want, not the deadline or the difficulty; don't stare at the wall you're trying not to hit. (3) **Story** — upgrade the story you're telling yourself about this session ("one person will hear one thing they can't unhear") because different words come out when the story is different.
+- **Success Metric**: You never start a draft cold. Writers are performers; no athlete takes the field without warming up.
+
+**Pattern H: The Stuck Redirect (Specifics ↔ General)**
+- **Deploy**: You can't turn the brain off, but you can redirect it. Stuck in the specifics/logistics? Zoom out: "Super general — what am I actually trying to do? Who's done this before? What inspires me?" Stuck in the general (who am I, what's this all for)? Zoom in: "What's the best idea I heard in the last two days? What was my most interesting phone call?" Diagnose which kind of stuck, then move to the opposite altitude.
+
+**Pattern I: Earned Distribution (Twenty Interesting Things)**
+- **Insight**: Distribution can't be hacked on day one because it's earned trust — that's exactly why it's valuable. One interesting thing makes the *thing* interesting; a stream of them makes *you* interesting, and only then do people follow, vouch, and spread you on reputation rather than merits of a single piece.
+- **Deploy**: For someone with one great piece and no audience: expect to deliver ~20 interesting things before deserving the follow. Meanwhile push the wheel by hand — friends, family, group chats, personalized notes to specific people explaining why *they* would find it interesting. No entitlement that one good piece "deserves" spread.
+
+**Pattern J: Sell the Before State**
+- **Execute**: The after-state only lands if the audience is first *convinced* of the before-state — and claims don't convince, zoomed-in moments do. Don't say "I wasn't doing well"; give one relatable visual or audio anchor: Tony Robbins washing dishes in the bathtub, the one hard chair in the empty apartment, the performance review where "needs improvement" ran long. One anchor per state is enough.
+- **Success Metric**: The before-state is shown through a specific sensory moment the reader could picture in 5 seconds, never asserted as a summary.
+
+---
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                         | Score 7 (Good)                                                               | Score 10 (Savant)                                                                                                                                                                                                                               |

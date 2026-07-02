@@ -76,3 +76,39 @@ The highest leverage point in preventing an AI disaster is not rewriting the age
 | **Cognitive Interface Clarity**    | Agent logs or raw outputs require extensive human parsing, context switching, or cognitive load to identify issues, blocked actions, or deviations. | Deviations or blocked actions are reported, but often within verbose logs or require specific user actions to reveal; the interface doesn't prioritize these critical signals. | The human interface explicitly, visually, and immediately highlights blocked actions, rule violations, unverified outputs, or critical decision points, demanding low-friction, explicit human approval or intervention. The signal-to-noise ratio for critical events is near-perfect. |
 | **Contextual Failure Scaling**     | Security measures are ad-hoc or designed for a single deployment scale; scaling to enterprise or multi-agent use introduces new, unaddressed vulnerabilities. | Some security principles are consistent across different scales, but lack granular application or a truly unified philosophical approach from micro to macro.                 | A unified Zero-Trust philosophy is applied consistently and granularly from individual workflows to enterprise-wide deployments, explicitly mapping micro-failures to potential macro-disasters and designing for resilience at every level.                                             |
 | **Reputation-Loss Inoculation**    | The system relies on human social friction, reputational incentives, or community oversight to prevent agent misuse in collaborative or open environments. | The system attempts to add some friction for agents (e.g., rate limits), but doesn't fully account for an agent's lack of reputation or sleep cycle for sustained attacks.     | The system implements structural, non-reputational verifications and mechanical gates to protect against agents exploiting systems reliant on human reputational friction, recognizing agents operate free of social cost.                                                               |
+
+---
+
+### Patterns from claude.ai export — Nate B. Jones conversations (2026-07-01)
+
+*Source: "I've Built Over 100 AI Agents: Only 1% of Builders Know These 6 Principles" (Sept 2025). Nate's six engineering principles for hybrid probabilistic systems — the structural (not behavioral) disciplines that make agentic systems trustworthy in production. These extend Structural Trust from architecture-time guarantees into runtime operations.*
+
+## 5. Deterministic Bridges on Probabilistic Cores (Bounded Uncertainty)
+"We have to engineer deterministic bridges on top of probabilistic cores." Traditional engineering assumed same input → same output; agentic systems don't. Trust is created structurally by wrapping the probabilistic core in the most deterministic shell possible — temperature 0 where determinism matters, inputs defined precisely and sequenced identically every time — and by moving QA investment from pre-launch to post-production, because bounding uncertainty is a continuous job as models drift, inputs shift, and context structures change.
+**Execute**: For every LLM call in a production path, document: temperature/params pinned, input schema fixed, invocation order fixed. Stand up post-production QA that measures probabilistic metrics (distributional drift, edge-case rates) in live pipelines, not just pre-launch test passes.
+**Success Metric**: Same request produces the same result on repeat runs where determinism is claimed; drift is detected by your QA before users report it.
+
+## 6. The Subtle-Failure World (Intelligent Failure Detection)
+The fail-fast doctrine assumed failures are loud — crash, kill, restart. AI fails quietly: hallucinating, drifting, "still functional but completely wrong," passing every deterministic health check while producing garbage. Structural trust requires monitoring REASONING quality, not just system health.
+**Execute**: Define reasoning-quality metrics for each agent (grounding rate, contradiction rate, output-schema conformance, judge-sampled accuracy) and monitor them with the same rigor as uptime. Design the system around the question "how does this keep working when degradation is hard to detect?" — not "what if it goes down?"
+**Success Metric**: A degraded-but-running agent is flagged by metrics within one review cycle, before downstream consumers act on wrong output.
+
+## 7. Graduated Health States (Beyond Binary Up/Down)
+Multi-agent systems aren't up or down — they occupy many in-between states: up and partially functioning, up with broken inter-agent handshakes, up with degraded intelligence. Every agent added multiplies the health-state space, which raises the auditability bar: you must be able to trace outputs, reasoning traces, and handshakes well enough to pin down WHERE in the gray zone the system sits.
+**Execute**: Replace the binary healthcheck with a health-state taxonomy per system (e.g., FULL / DEGRADED-INTELLIGENCE / BROKEN-HANDSHAKE / PARTIAL / DOWN), each with its named detection signal and response. Instrument audit traces detailed enough to attribute degradation to a specific agent, handshake, or context drift.
+**Success Metric**: Incident response starts from a named health state with a known playbook, not from log spelunking.
+
+## 8. Continuous Conversation-State Validation
+Gateway-only input validation is dead. AI behavior depends on ACCUMULATED context, so validation must run throughout the conversation: each turn is a potential checkpoint where conversation state is verified ("there was a checkpoint there and it worked"). Without per-turn checkpoints, these systems are near-impossible to debug — you can't find where the run left the rails.
+**Execute**: Insert validation checkpoints at conversation-state boundaries: after intent capture, after each tool result enters context, before any irreversible action. Log checkpoint pass/fail so failures bisect to a turn.
+**Success Metric**: Any off-the-rails run can be traced to the first failing checkpoint in minutes.
+
+## Hidden Knowledge Addendum
+
+### Capability-Based Routing as a Trust Surface
+**Insight**: The old uniform-load-distribution model (identical nodes, identical requests) hides a trust failure in agentic systems: requests differ by hundreds of multiples in inference compute, and routing a high-complexity/low-confidence request to a cheap path produces confident garbage — a trust incident, not just a performance miss. Routing by task complexity and model confidence is therefore a safety mechanism, not merely a cost optimization.
+**Deploy**: When auditing an agentic system's trust posture, inspect the router: does anything measure task complexity or AI confidence before choosing the model/path? If routing is uniform, flag it as a structural trust gap alongside missing containment and missing audit trails.
+
+### Stateful Intelligence as Prerequisite
+**Insight**: Context preservation is a trust prerequisite, not a convenience — learned behaviors and calibrations disappear on restart in stateless designs, which silently resets whatever reliability track record the system had accumulated. (Full memory architecture: `nate-b-jones-context-engineering`.)
+**Deploy**: In trust audits, verify that state the system's safety depends on (calibrations, guardrail learnings, trust-ledger evidence) persists across restarts and model swaps.

@@ -100,3 +100,25 @@ The 70/30 split isn't just deployment architecture — it's a culture change man
 | **Expectation Management**         | Launch communication focuses solely on immediate benefits, downplaying potential challenges.  | Stakeholders are generally aware of potential initial challenges, but without specific timelines. | The J-Curve budgeting pattern is explicitly communicated and managed, preparing stakeholders for an initial dip in productivity with clear timelines and mitigation plans. |
 | **Action Over Chat Orientation**   | Agent design prioritizes conversational ability or information retrieval, with actions secondary. | Agent performs actions, but might still rely on extensive conversational interfaces for routine tasks. | Agent is designed for direct, efficient action and task execution, minimizing conversational overhead to achieve specific, tangible goals. |
 | **Containment & Isolation**        | Agent operates within existing production environments with standard user permissions and network access. | Agent has dedicated resources, but some direct connections to sensitive systems remain, or credentials are not throwaway. | Agent runs in a fully isolated, dedicated environment with throwaway credentials, strict read-only access where possible, and no direct connection to irreplaceable data. |
+
+---
+
+### Patterns from claude.ai export — Nate B. Jones conversations (2026-07-01)
+
+*Source: "Stop Treating Image Generation Like a Design Tool — The Hidden Bottleneck Limiting Your AI ROI" (Jan 2026). Extends the deployment-opportunity lens (Revealed Preference Engine, Friction-First Deployment) to the visual frontier: where to deploy agents now that automated systems can see and show.*
+
+## 9. The Visual Break Identifier
+Every industry has workflows that break at visual touchpoints — a customer sends a screenshot, a document carries a signature, a product needs inspection, a process needs a diagram — and businesses have designed around these breaks for so long they've stopped noticing, hiring humans whose entire job is to be the "eyes" of automated systems. Visual AI dissolves that constraint: workflows that previously broke at visual touchpoints can now close without human involvement.
+**Execute**: When scanning a domain for agent deployment targets, inventory every point where a workflow stops because a system can't SEE (interpret an image) or can't SHOW (produce one). Nate's transcript examples: telecom support interpreting a router photo's status lights and returning annotated resolution steps; compliance reading signatures/tables/ID photos and generating reports with visual evidence; support interpreting screenshots into annotated troubleshooting guides; documentation that visually updates itself as the product changes.
+**Success Metric**: Deployment shortlist contains at least one workflow that currently employs a human solely as the eyes of an automated system.
+
+## 10. The 30% vs. 300% Distinction
+Two classes of visual-AI opportunity: 30% opportunities make existing design/creative teams faster (crowded — everyone is doing this); 300% opportunities enable functions that could never work with visual information before (nearly empty — this is where disproportionate value sits). The framing question is never "how much faster does this make the current process?" but "what process was impossible before?"
+**Execute**: Classify every visual-AI candidate as 30% (acceleration of existing visual work) or 300% (a previously-broken loop that now closes). Deprioritize 30% plays unless they're trivially cheap; spec 300% plays as infrastructure embedded in the operating system of the business (product catalog, support platform, documentation pipeline) — not as seats on the creative team.
+**Success Metric**: Portfolio weight sits on closed-loop enablement plays, not tool-acceleration plays.
+
+## Hidden Knowledge Addendum
+
+### 7. Trust Calibration Through Visualization
+**Insight**: Humans verify AI outputs faster and more intuitively through visual representation than through prose — a generated annotated image or diagram lets a human sniff-check an agent's reasoning in seconds. This creates a flywheel: visual outputs speed human verification → faster verification permits tighter integration into real workflows → more integration produces more visual data → better visual understanding. Visual AI is thus also a TRUST mechanism for agent deployments, not just an output format.
+**Deploy**: For agent deployments where human approval is the bottleneck (the 70/30 gates), have the agent render its proposed action or finding visually (annotated screenshot, marked-up photo, diagram) instead of describing it. Use images as the "Lego brick connector" between siloed systems that share no schema but can all consume a picture.

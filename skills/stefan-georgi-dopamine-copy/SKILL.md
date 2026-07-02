@@ -29,6 +29,12 @@ Every sales asset is a dopamine delivery system with four phases:
 4. **Close/Future Pace** — Frame purchase as dopamine continuation. Not buying
    = dopamine withdrawal. Loss aversion does the heavy lifting.
 
+**RMBC 2.0 / Copy Thinker layer** (genius.md, 2026-07-01 export enrichment): before
+any dopamine engineering, run the research stack — awareness distribution,
+competitor big ideas, psychographics, unified doc — and let the distribution set
+funnel length and mechanism complexity. AI drafts; the human judges (outputs vs.
+judgment). Workflows: `/georgi-awareness-map`, `/georgi-copy-thinker`.
+
 ## Workflow Table
 
 | Workflow | Slash Command | Use Case |
@@ -43,6 +49,8 @@ Every sales asset is a dopamine delivery system with four phases:
 | Curiosity Loop Designer | `/georgi-curiosity-loop` | Design nested curiosity gap sequences with compounding tension |
 | Post-Purchase Dopamine Drip | `/georgi-post-purchase` | Build post-purchase email + upsell sequences that prevent dopamine crash |
 | Dopamine Social Engine | `/georgi-social` | Create dopamine-optimized social media content (captions, Reels, thumbnails) |
+| Awareness Distribution Map | `/georgi-awareness-map` | RMBC 2.0 research stack: measure the market's awareness distribution, calibrate funnel length + mechanism complexity |
+| Copy Thinker Judgment Loop | `/georgi-copy-thinker` | AI-era production: generate wide with AI, judge via ad-library pattern evidence, congruence-edit critique loop |
 
 ## Loading Protocol
 1. **T0**: Use the workflow file directly for simple executions.

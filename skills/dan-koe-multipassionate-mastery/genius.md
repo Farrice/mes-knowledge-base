@@ -131,6 +131,74 @@
 *   **Compression-to-Expansion Loop**: Takes a complex idea or a core principle and first articulates it in its most compressed, tweetable form, then systematically expands on it through examples, deeper explanations, and applications across various content lengths (short-form posts, emails, essays, courses). → **Deploy when**: Ensuring message consistency across platforms, maximizing content utility, or preparing for product launches.
 *   **Philosophical Underpinning**: Before offering any tactical advice, grounds the solution in a timeless philosophical principle, a deep psychological truth, or a universal human experience. This makes the advice feel more profound and durable. → **Deploy when**: Introducing new concepts, explaining the "why" behind a strategy, or creating content intended to be evergreen.
 
+### Patterns from claude.ai export — Dan Koe conversations (2026-07-01)
+
+> Source: transcript-grounded extractions of "This is Boring But It'll 10x Your Personal Brand in 2026" (podcast interview, Nov 2025) and "How I'd Build a One-Person Business (If I Started Over in 2026)" (Jan 2026). Only patterns NOT already covered above.
+
+#### Pattern: The MCU Content Ecosystem
+Dan's sales funnel is not a funnel — it is his newsletter. "My entire sales funnel is my newsletter... think of your brand as a small-scale Marvel cinematic universe. Newsletters are your movies. Social media posts are the TV shows. Products are the action figures." The library IS the funnel: education leads to sales, and the binge-able back catalog compounds trust.
+**Execute**: Anchor the brand on one long-form asset per week (newsletter). Treat every social post as a spin-off episode pointing back into the universe. Place ~2 offer links per newsletter, tied naturally into sections (writing section → writing product), never as a pitch block.
+**Success Metric**: A new follower has a world to binge; every path through the content passes at least one offer without a single dedicated sales email.
+
+#### Pattern: Newsletter-First Production Cascade
+The newsletter is the highest-priority hour of the morning, and everything downstream is a re-read, not a re-write: "the newsletter gets turned into the outline for my YouTube script. I just have the newsletter pulled up... I read the section, and then I try to articulate it to the camera." The video audio then ships as a podcast.
+**Execute**: Write once (newsletter) → film from it (YouTube, reading tricky ideas verbatim with text/B-roll over them) → strip audio (podcast). People consume in one medium each; repetition across mediums is invisible.
+**Success Metric**: Three formats per week from one writing session; editing stays trivial because the script pre-exists.
+
+#### Pattern: The Daily Back-Catalog Ritual
+Growth mechanic that costs five minutes: "You post the newsletter once a day under a social media post... 9:00 a.m. reminder. Today's post is on focus → find a past newsletter on focus → reply to the post: 'If you want to read more, go here.'"
+**Execute**: Calendar reminder. Match today's social topic to one archive newsletter. Reply-link it under your own post.
+**Success Metric**: Every day the archive recruits subscribers; each valuable newsletter doubles as its own lead magnet (no separate lead-magnet build required).
+
+#### Pattern: Theme Week Ideation
+Dan does not generate ideas from scratch; he picks a weekly theme chosen for engagement potential, anchors the newsletter on it, then imports outside curiosity under that proven lens: "I watched a 3-hour video on the psychology of conformity... why don't I talk about conformity but package it under the agency lens that I know will work?"
+**Execute**: Pick one theme per week (choose for reach potential — "that's a big lever in anyone's business is just eyes"). All posts + the newsletter orbit it. Refresh a repeated theme by packaging a new outside interest beneath it, not by abandoning it.
+**Success Metric**: Repetition reads as depth, not redundancy; cross-domain consumption becomes brand fuel instead of distraction.
+
+#### Pattern: The Social Media Matrix (Three Independent Levers)
+Content has exactly three jobs, pullable independently: **growth** content (broad, introductory, exposes you to new audiences), **authority** content (specific, value-based, builds trust to buy), **authenticity** content (personality, story, why people stay). "You can pull each of those levers independently."
+**Execute**: Diagnose which lever is starved before writing. Low reach → growth content modeled on what already performs in your niche (filter 3 popular accounts by most-popular, list 20 titles you could do). Reach but no sales → authority. Engagement but no connection → authenticity.
+**Success Metric**: Content decisions become lever selections, not vibes; low-ticket offers get the wide-audience growth push they mathematically require.
+
+#### Pattern: Validation Cascade + The 4-Hour Productization Trigger
+The monetization path is a cascade of validations, and the trigger to climb it is a time ceiling: interests → posts (validate ideas by engagement) → high-ticket service at $1K-$5K ("you land one customer and you're close to replacing the average salary") → cohort-based course (scarcity baked into enrollment dates, no fake countdowns) → product/software/e-com. "As you get pushed to going over that four hours, that's when you start to think about, okay, now I need to productize."
+**Execute**: Never build the product first. Post → see which ideas earn attention AND you enjoyed → sell it high-ticket to a few → productize the delivery each time lever-work exceeds ~4 hours/day.
+**Success Metric**: Every offer up the ladder is pre-validated by the previous stage; work hours stay capped instead of scaling with revenue.
+
+#### Pattern: The One-Hour Lever Standard
+"If you can't get out of your job with one hour of lever-moving work a day, then once you quit and go all in, you're starting on the wrong foot." The constraint is diagnostic, not motivational — an employed person proving escape velocity in 1 focused hour has found the real levers; 8 unfocused hours would just hide the absence of them.
+**Execute**: Cap building time at 1 hour/day while employed (4 hours max ever). If results aren't coming, change the technique inside the hour — don't add hours. "Skill acquisition is really technique acquisition": stack 10-20 specific techniques (like Photoshop moves) until creative fluency emerges.
+**Success Metric**: Result-per-hour rises through technique swaps; going full-time inherits proven levers instead of borrowed work-styles.
+
+#### Pattern: Market Sophistication Endgame (Schwartz Stages Applied to Info Products)
+Info products are "dying" because the market hit Eugene Schwartz's final sophistication stage: claims exhausted → mechanisms copied → "brand starts to be the major differentiator... people crave the sense of belonging they get from joining a tribe with a mission." Mission is your niche, not a topic.
+**Execute**: Before positioning any offer, diagnose the market's sophistication stage. At stage 5, do not sharpen claims or mechanisms — lead with mission/tribe/identity, and evolve the product vessel itself.
+**Success Metric**: Positioning matches the market's stage; you stop out-claiming a market that is deaf to claims.
+
+#### Pattern: The Learning Experience (Post-Info-Product Vessel)
+The education product that replaces the static course: "You're practically selling a second version of your mind." Course modules become a knowledge base; system prompts turn it into an interactive coach with three tabs — **Learn / Practice / Create** — apprenticeship at scale ("a blacksmith didn't hand his apprentice a manual"). Wrapper objection pre-dismissed: "Typeform is an HTML wrapper. Cursor is a GPT wrapper."
+**Execute**: Take an existing methodology → write it as a knowledge base (articles, frameworks, examples) → engineer system prompts (role, instructions, knowledge, boundaries, personality) for each tab → wrap in a micro-SaaS UI (Replit/Cursor/Claude Code). Learners leave with a finished artifact by construction, not a completion certificate.
+**Success Metric**: Buyers DO the thing with guidance instead of watching 10 hours of video; the product survives the "I could just ask ChatGPT" objection because your specific knowledge is the system prompt.
+
+#### Pattern: The Vessel Decay Clock
+"Value stays, vessels change" — and the half-life is shrinking: info products took 10-15 years to saturate, the AI-native vessel gets "maybe 2 to 3 years." The one-person advantage is speed and adaptability, so the plan must include the next migration before the current vessel peaks.
+**Execute**: Date-stamp every product vessel with an expected decay window. Ride it hard, and prototype the successor while it still earns. Expect to build 3-4 throwaway versions before one deserves a price tag.
+**Success Metric**: You migrate vessels on your schedule, not the market's; being copied fast stops being fatal because you've already moved.
+
+### Hidden Knowledge — 2026 additions
+
+1. **Social media as note-taking platform**: "Get out of the mindset of 'I need to provide something super valuable' and think of social media more as a note-taking platform" — share ideas that mattered to you, from your perspective. **Deploy**: when a client freezes on "I'm not interesting enough," reframe posting as public note-taking; the tone develops through practice, not before it.
+
+2. **The story dimension doubles idea value**: A borrowed idea plus your lived story "gains the relatability dimension and the novel value dimension." **Deploy**: when a post idea feels thin, ask "where did this show up in my life?" before abandoning it.
+
+3. **Audiences tolerate near-total repetition in a distinct voice** (the Sam Sulek observation — same gym video a thousand times, still watched): you follow a creator like a music artist's sound. **Deploy**: kill the "I already said this" objection; repackage, don't retire, core ideas.
+
+4. **1,000 newsletter subscribers > 25,000 followers** — owned distribution plus time-under-attention ("you hear the word habits, you immediately think of James Clear"). **Deploy**: judge channel health by minutes-with-your-ideas, not follower count; long-form is where word-ownership happens.
+
+5. **Inaction arbitrage**: "Most people just don't do anything... the time from something being original to non-original is happening really fast" — yet the copy-threat is mostly theoretical because execution is rare. **Deploy**: when a client stalls on "what if they steal it," the honest answer is that shipping speed, not secrecy, is the moat.
+
+6. **Iteration is the missing ingredient in guru-following**: "The worst thing you can do is follow one specific person's advice law... you're missing the critical ingredient, which is iteration." Read five sources, notice overlap, derive your own opinion. **Deploy**: prescribe experiments per technique, never a single guru's full system.
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                          | Score 7 (Good)                                                               | Score 10 (Savant)                                                                                                                                                              |

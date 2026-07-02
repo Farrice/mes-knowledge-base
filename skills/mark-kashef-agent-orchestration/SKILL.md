@@ -3,7 +3,7 @@ name: "Mark Kashef Agent Orchestration"
 description: "Architect and orchestrate AI agent teams using Mark Kashef's specialized workflows for sequential handoffs, parallel synthesis, and hybrid grunt-to-architect models."
 version: "2.0"
 format: "completion-engine"
-workflows: 2
+workflows: 4
 ---
 
 # Mark Kashef Agent Orchestration
@@ -18,6 +18,8 @@ This skill implements the core genius of Mark Kashef: Structuring complex cognit
 |---|---------|----------|----------|
 | multi | [Multi-Agent Content & Strategy Engine](workflows/multi-agent-content-production-engine.md) | Integrated Project Dossier (e.g., Pitch Deck, Strategy Report, or Multi-Platform Content Suite) | You need to generate complex documents requiring either a step-by-step assembly line or a synthesized consensus from multiple expert perspectives. |
 | architected | [Architected Technical Build System](workflows/architected-technical-build-pipeline.md) | Verified Technical Implementation (e.g., Refactored Repository or Complex Feature Build) | You are performing large-scale code changes or system architecture where errors are expensive and require both deep repo-scale analysis and human oversight. |
+| phase-gated | [Phase-Gated Context Factory](workflows/phase-gated-context-factory.md) | A phase-gated execution plan with an external tracker file, context-clearing checkpoints, and file-state verification | Any multi-phase Claude Code build that won't fit one session — you want zero compaction drift, tollbooths per phase, and installs verified against physical file state. |
+| replicate | [Replicate-Anything Capability Transfer](workflows/replicate-anything-capability-transfer.md) | A portable capability package (blueprint guide + artifacts + repo command center) enabling one-shot repeatability | You want to transfer a frontend AI capability, a new API, or a playground scaffold into a repeatable Claude Code system via failure-inclusive blueprints and documentation injection. |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

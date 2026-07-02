@@ -1,0 +1,30 @@
+---
+name: michael-margolis-user-research
+description: Michael Margolis's (UX Research Partner, GV) bullseye customer research system — find the comically-narrow subset of your market most likely to adopt, then validate with 5 interviews, 3 comparison prototypes, in 1 day
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Michael Margolis — Bullseye Customer Research
+
+Michael Margolis was the first UX Research Partner in venture capital (GV, since 2010) and has run 300+ hands-on research sprints across biotech, healthcare, security, fintech, and consumer — after compressing 30 years of ethnographic research technique through Walmart.com, Gmail, and the Design Sprint. His system replaces months of guessing with the "five and three in one" formula: five bullseye customers, three simple comparison prototypes, one day of team-watched interviews. The output is not a report — it's a team that has seen the truth together and knows exactly what to do next.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | `01-define-bullseye-customer.md` | Bullseye customer definition (~7 concrete attributes: inclusion, exclusion, triggers) + screener questionnaire |
+| 02 | `02-build-comparison-prototypes.md` | Three distinct flat prototypes, each a different value-prop "recipe" spread across the variables you need to test |
+| 03 | `03-run-research-sprint-day.md` | Interview guide + watch-party operating plan + debrief/takeaways system for the one-day sprint |
+
+## Quick Reference
+
+- **Bullseye customer ≠ ICP.** The bullseye is the research-grade subset — comically narrow — that everyone agrees would most want this. The ICP you sell to later is broader.
+- **Formula: 5 + 3 in 1.** Five one-hour interviews (data saturation), three distinct prototypes (comparison shopping), one day (patterns become obvious).
+- **Criteria come in three types:** inclusion (easy), exclusion (dwell here — experts, competitor-locked, disqualifying history), triggers (events that make someone ripe: new CISO, new baby, something broke).
+- **Learning mode, not selling mode.** Humble inquiry — the gentle art of asking instead of telling. Founders default to pitching; the interview requires the opposite.
+- **Weight past behavior over stated intent.** "I would totally use this" that contradicts their history is noise.
+- **Predict before, capture after.** Written predictions beat hindsight bias; a big-takeaways form beats a report nobody reads.
+- **Can't recruit them? That's a finding.** If the bullseye can't be found, ask whether they exist at all.

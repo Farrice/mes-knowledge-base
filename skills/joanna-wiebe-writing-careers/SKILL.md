@@ -1,9 +1,9 @@
 ---
 name: "Joanna Wiebe — Writing Career Monetization"
 description: 'Architects a sustainable writing career using Joanna Wiebe''s positioning, pricing, and business-design methodology — built on Copyhackers, the writer-as-business-strategist lineage. Use when a writer is repositioning from "freelance copy for hire" to outcome-priced practice, deciding whether to ghostwrite vs build a personal brand, pricing a copy engagement against measurable business outcomes (lead-gen, AOV lift, retention) instead of word counts, or designing the next 3-5 year arc of a writing career. Trigger proactively whenever the user says "how do I price this", "I want to charge more", "ghostwriting vs my own brand", "what should my writing career look like", or describes burnout from undifferentiated freelance copy work. For tactical sentence-level copy use stefan-georgi-dopamine-copy or harry-dry-copywriting; for AI-leveraged copywriting business use cardinal-mason-ai-copywriting.'
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 5
+workflows: 6
 routing: long-tail
 ---
 
@@ -22,6 +22,7 @@ Joanna Wiebe is the founder of Copy Hackers and coined the term "conversion copy
 | 03 | [Channel Audit & Funnel Diagnostic](workflows/03-channel-audit-funnel-diagnostic.md) | Marketing funnel diagnostic — identifies the "clog," quantifies revenue impact, delivers fix recommendations | Client has traffic but low conversions, inconsistent messaging, or you need to prove strategic value |
 | 04 | [Messaging Source Document Builder](workflows/04-messaging-source-document-builder.md) | Complete Messaging Source Document (the 36-bit matrix) — what to say, when, how, and why | Client has inconsistent messaging across channels, is scaling their team, or needs a strategic messaging foundation |
 | 05 | [Invisible Sales Page Engine](workflows/05-invisible-sales-page-engine.md) | Educational content that is architecturally a long-form sales page disguised as education | Need content that sells before a human gets on a call — lead magnets, newsletters, reports, LinkedIn series |
+| 06 | [Settler Differentiation Engine](workflows/06-settler-differentiation-engine.md) | Differentiation strategy — pioneer's-curse market scan, resource-matched pathway pick (brand / product / oppositional positioning / bold voice), execution brief | You or a client are chasing an "original idea," entering a saturated market, or losing to a leader you can't out-spend — stand out with a proven idea instead |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

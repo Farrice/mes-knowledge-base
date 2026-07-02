@@ -310,3 +310,96 @@ Claims trigger skepticism in direct proportion to their specificity of promise. 
 - **Result**: KEPT — 6.2→8.4 (+2.2). Baseline deployed proof before the objection formed (wasted), choice framing before price shock was absorbed (premature). Variant deployed triggers at the exact micro-state they're needed.
 - **Change**: Added Phase 1.5 (Reader State Sequence Map) with 6 section-type templates, trigger-to-state pinning, transition beat writing, and 3 new quality gate tests (Sequence Test, Transition Beat Test, Regression Test).
 - **Lesson**: Persuasion isn't just WHAT triggers to use — it's WHEN. A pricing section reader moves through anticipation → price shock → objection formation → justification search → commitment threshold. Deploy proof when the reader is hungry for justification and it converts. Deploy it before the objection forms and it's wasted ammunition.
+
+---
+
+## Patterns from claude.ai export — Joanna Wiebe conversations (2026-07-01)
+
+> Net-new methodology mined from two additional Wiebe source videos:
+> "How To Grow Your Business With Storytelling" (8 storytelling principles)
+> and "How To Command Respect Like The 1% Elite" (7 live-communication
+> authority strategies). Neither was covered by the three original sources.
+> Transcript-grounded; percentage figures below are Joanna's own cited claims.
+
+### Part 4: Storytelling Psychology — Genius Patterns (8)
+
+#### 23. Predictive Processing Hooks
+The brain is a pattern-prediction machine; boredom is what it feels like when the story is too easy to predict. A hook works by creating uncertainty the brain cannot resolve on its own, then satisfying it with an unexpected twist (Dan Pink's "I did something I regret… I went to law school"). The hook isn't about being sensational — it's about teasing the brain with a pattern to latch onto. Her favorite structure: the **sensory anchor** ("It all started with the smell of gasoline").
+- **Execute**: Draft the first line, then read it to someone and ask exactly two questions: (1) Do you know what it's about? (2) Are you intrigued to keep listening? Both must be yes.
+- **Success Metric**: Listener can orient AND cannot predict what comes next.
+
+#### 24. The Establishing Shot Principle
+Before you can sell the solution, you must establish the world where the problem lives — the way Friends opens on Central Perk before cutting inside. The brain runs orientation software in the background (Where am I? Who's here? What's the vibe? What should I focus on?) and can't engage until those questions are answered. Joanna cites comprehension dropping by up to 40% when audiences aren't oriented quickly.
+- **Execute**: In the opening lines, answer the four unconscious questions: Where? Who? Vibe? Focus. Chris Rock's Mississippi-as-Caribbean-airport-drive analogy shows how one analogy can carry emotional context, social dynamics, and tension at once.
+- **Success Metric**: A reader given only your opening lines can answer all four questions without effort.
+
+#### 25. Word Pictures (Dual Coding)
+Concrete, imaginable words get stored twice in the brain — once as verbal code, once as visual imagery. Abstract words store once. Her conference demo: after hearing a video-marketing email read aloud, audiences remember "chicken" (Santa Barbara Chicken Ranch) — not "video" or "leads." The concrete always beats the abstract, whether you want it to or not — so put the picture on the thing you want remembered.
+- **Execute**: Run the close-your-eyes test — have the copy read aloud (or use text-to-speech). What do you SEE? If nothing, rewrite: add one element of color, pattern, texture, or shine, and replace summary words systematically.
+- **Success Metric**: The image the listener reports IS your takeaway, not a stray detail.
+
+#### 26. Structure-to-Emotion Matching
+Every story structure is a promise to the brain about what's coming; choose wrong and you create cognitive dissonance, choose right and processing becomes effortless. Save the Cat (15 predictable beats → dopamine hit at each milestone) for satisfaction and rhythm — her agency maps it onto email launch sequences (opening promise → catalyst problem → midpoint solution reveal → all-is-lost stakes → finale offer). Problem-Agitation-Solution for urgency and momentum. Hero's journey for transformation. And-But-Therefore for clarity.
+- **Execute**: First identify what you want the audience to FEEL, then select the structure that produces that state. The subscriber never knows they're in a Save the Cat sequence — they experience anticipation instead of pressure.
+- **Success Metric**: The structure is invisible; the reader reports the target emotion.
+
+#### 27. Chekhov's Gun Editing (The "Jobs" Audit)
+Every detail you emphasize creates a promise in the audience's brain that must be paid off — an award badge from 2012 in a hero section is an unfired gun that breeds frustration, not engagement. Unfinished loops are remembered more vividly than completed ones, so unpaid details actively damage trust.
+- **Execute**: Read every line and ask: "What job does this line do?" Legal jobs: builds desire, handles an objection, provides proof, creates urgency. Can't name its job → it's fired. When every loop pays off, readers trust that everything shown matters and become active participants hunting for connections.
+- **Success Metric**: Joanna reports 20-40% lifts from this edit alone — not from adding, from firing.
+
+#### 28. The Mega Mean Mouse (Villain Construction)
+From Eugene Schwartz: don't sell a better mousetrap — sell a bigger, scarier, hungrier mouse. Vague annoyances don't mobilize; enemies do (complex problems are remembered far better than simple ones — Darth Vader vs. generic dark lords). For a lawyer CRM the villain isn't "disorganization," it's the current generic CRM exposing the firm to malpractice claims right now.
+- **Execute — 4 build steps**: (1) Stack consequences ("no time to cook" → eating junk → feeling like crap → guilt every night). (2) Blame external forces (delivery apps too convenient, recipes need 500 ingredients) — protect the prospect's ego. (3) List dead solutions they already tried. (4) Explain why those failed. Now they're not fighting "I should cook more" — they're fighting an enemy with a track record.
+- **Success Metric**: The prospect recognizes themselves in the villain story and feels seen, not blamed.
+
+#### 29. The Sugar Coating Principle
+Critical information delivered plainly dies ("eyes glaze over" at CRO formulas). Pair the medicine (what they need to know) with sugar (what they want to experience): conflict, drama, humor, movement. Embedding the same formula inside client drama ("The CEO was furious about the 2% conversion rate until we applied this") flips the room from glazed to note-taking. Journalism's version: if it bleeds, it leads.
+- **Execute**: Identify your medicine. Then wrap data in a story, deliver process through personality, embed history in conflict. The interesting element holds attention while the important information absorbs almost unconsciously.
+- **Success Metric**: Retention of the boring-but-critical content, measured by what people can repeat back.
+
+#### 30. Bookending (Retrospective Coherence)
+The full-circle ending closes the predictive-processing loop opened by the hook — but the payoff must arrive with a twist, or it's Hallmark-predictable. Shrek is her exemplar: the audience gets the union they wanted, but Fiona turns ogre instead of Shrek turning prince. Looking back, the whole journey feels purposeful.
+- **Execute**: Identify the emotional start and end points. Plant something in the opening worth returning to — a specific image that can transform, a question answered differently, a belief reversed by the end. Test by deletion: if you removed the bookend, would the story feel complete? If yes, the ending is decorative, not structural.
+- **Success Metric**: Satisfaction without predictability — the ending the audience wanted, delivered a way they didn't expect.
+
+### Part 5: Live Authority Mechanics — Genius Patterns (7)
+
+> The Authority Craft Mechanics (Part 2) work at the sentence level of WRITTEN
+> copy. These 7 work in LIVE, real-time communication — sales calls,
+> negotiations, presentations, workshops — where voice, silence, and body
+> carry the persuasion load.
+
+#### 31. The Challenger's Paradox (Authority Questions)
+You don't command respect by having all the answers — you command it by asking questions that make experts reconsider their approach. Her client's star salesperson closed enterprise CTOs (who then tried to hire her) with questions like "What happens when your traffic triples overnight?" Especially levels the field for anyone facing automatic authority disadvantages: a brilliant question from a 25-year-old carries the same weight as one from a CEO.
+- **Execute — 3 question types**: **Implication** ("What happens when your top developer leaves?" — forces confrontation with unconsidered risk). **Reframe** ("Have you considered this is a talent problem, not a tech problem?" — demonstrates higher-level thinking). **Assumption** ("Why do you believe customers want more features?" — reveals shallow thinking without attacking). Formula: listen for their core assumption → ask what happens when it breaks → let them discover the flaw → position your expertise as the solution.
+- **Success Metric**: The prospect feels SEEN, not schooled — and starts treating you as the strategic thinker in the room.
+
+#### 32. Frame Control (Set First, Don't Reframe)
+Whoever sets the opening frame owns the conversation; Joanna cites Harvard negotiation research (Malhotra) that frame-setters achieve substantially better outcomes than frame-responders. Client opens with "We'd like to talk about the price" → that's a frame where you defend your value. Her counter: "Let's discuss whether we're a fit for each other" — now the frame is "are you qualified to work with me?" Same information exchanged; only the frame changed; signed same day at full rate.
+- **Execute**: Set frames BEFORE they can be set against you. Pricing frame: "I work with clients who view this as an investment in transformation." Expertise frame: "Let's explore whether we're a fit — I'm selective about who I work with" (said nicely). Own pricing, expertise, and partnership frames from word one. This shifts consultants from vendor to advisor — from seller to selector.
+- **Success Metric**: You are never scrambling to reframe mid-conversation; you're maintaining the frame you opened with.
+
+#### 33. Strategic Silence
+Extended silence after an offer creates pressure the other party resolves — often by accepting terms or negotiating against themselves (her colleague's 7-second silence after a price closed ~30% above estimate).
+- **Execute — 3 silence types**: **Pre-response pause** (2-3s after a question, eye contact held — signals serious consideration). **Emphasis pause** (1-2s before the key point: "The key insight is… we're solving the wrong problem"). **Power pause** (3-7s after an offer, difficult feedback, or a strategic question — let THEM fill it).
+- **Success Metric**: The other party speaks first after your offer.
+
+#### 34. Precision as Power
+"We've helped many companies improve significantly" loses to "We've helped 47 B2B SaaS companies increase qualified leads by an average of 34% in the first 90 days." Precision isn't just numbers — it's NAMED expertise. When you can name frameworks ("the Rule of One: one reader, one big idea, one promise, one offer"), you demonstrate mastery through vocabulary; the prospect hears specific language they can grab and use.
+- **Execute**: Replace every vague claim with a counted one. Name your frameworks and walk prospects through them by name. If you don't know the jargon, it reads as not knowing the subject — precision demonstrates you've measured, tracked, and systematized.
+- **Success Metric**: The prospect repeats your named framework back to you.
+
+#### 35. The Certainty Gradient
+Hedge words ("just," "maybe," "sort of," "I think," "actually," "really") signal you don't believe your own message — one email opener signaled doubt 17 times before reaching the point. Stripping hedges, then shortening sentences, produced two successive conversion jumps in her rewrite.
+- **Execute**: Delete the hedge list entirely. Replace "I feel like" → "I've observed"; "it seems like" → "the data shows." Then apply the **sentence strength ladder**: Level 1 (strongest) = bare declaration ("Revenue increased 47%"). Level 2 = declaration + support ("Revenue increased 47% because we fixed attribution"). Default to short, certain declarations.
+- **Success Metric**: Zero hedge words; every sentence survives the "does this fight for its life in an 8-second attention span?" test.
+
+#### 36. The Authority Face + The Total Package
+Words are a fraction of the message; when physical presence contradicts the verbal message, the body wins every time. Constant smiling through a presentation reads as offering cookies, not presenting strategy — identical content lands differently with a neutral, thoughtful expression.
+- **Execute — 4 aligned channels**: (1) **Posture** — shoulders back and down, chest open, chin parallel to ground (her horse-bit-in-the-doorway visualization). (2) **Vocal** — speak from the chest not the throat, belly-breathe before important points, slow down 20%. (3) **Gesture** — eliminate fidgeting; intentional gestures only. (4) **Presence** — dress one level above your position, hold eye contact, take up your full space. Facial baseline: relaxed jaw, lips together not pursed, eyes engaged; strategic animation only (micro-smile when they land your point, slight brow furrow when concentrating) — never default-smile.
+- **Success Metric**: The same content that got polite nods now gets "lead the implementation."
+
+#### 37. The Written↔Live Authority Bridge (Insight)
+- **Insight**: These live mechanics are the spoken twins of the written Authority Craft stack: Certainty Gradient ↔ Anti-Hype (both deflate weak signaling), Precision as Power ↔ Typically Atypical (both calibrate specificity), Strategic Silence ↔ white space after a t-shirt line (both let the landing stick), Frame Control ↔ Order of Revelation (both program interpretation before content arrives).
+- **Deploy**: When prepping someone for a high-stakes call or presentation, run their talk track through the written mechanics FIRST (Parts 2-3), then layer the live mechanics on delivery. Same physics, two channels.

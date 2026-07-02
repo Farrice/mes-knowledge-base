@@ -145,6 +145,64 @@ Tacit expertise regarding the LinkedIn algorithm and psychological formatting th
 
 ---
 
+### Patterns from claude.ai export — Lara Acosta conversations (2026-07-01)
+
+Net-new methodology recovered from nine extraction conversations (2025-06 → 2026-01 source videos: AI Content Workflow 2026, $2.1M restart roadmap, 250K-from-scratch blueprint, one-person business, 365-days-of-content, 16-minute strategy, profile tips, Jody case study). Deduplicated against this file and the linkedin-mastery/content-system genius files — SLAY, 8-word rehook, humble brag, 4-3-2-1, IFP/ICP, broad-narrow-niche, engagement sprint, and profile-signal basics are already covered there and are NOT repeated here.
+
+#### 1. The Authority Signal Shift (her own 2026 revision of the hook doctrine)
+- **What changed**: Lara explicitly demotes her own 8-word/polished-hook playbook: "this is no longer a necessity... the posts performing best right now sound like actual human conversations, messy, real, and unpolished." The algorithm now reads authority signals — you, your profile, who engages with you, even your comments — more than hook craft. Big accounts post "here's what I learned today" and win because *their name is the authority signal*.
+- **Execute**: Keep the 8-word discipline as a floor, but diagnose every draft for the missing "how I know this" line first: a personal anecdote + proof you actually did the thing + a credibility marker woven in as context. A perfectly formatted post with no authority angle is the new failure mode, not a sloppy hook. Manufacture perceived authority from what the person already has (CEO + mom beats waiting for a Forbes 30-under-30).
+- **Success Metric**: Posts stop blending into "generic business advice" — readers can tell whose post it is with the name covered.
+
+#### 2. Monetizable Expertise × Strategic Arbitrage (the unfair-advantage duo)
+- **What she does**: Before any content strategy, she isolates two pillars: **monetizable expertise** (knowledge that directly changes an outcome someone will pay for — lead with what's in it for them and the specific result) and **strategic arbitrage** (route your stories through the topics and formats the platform already rewards). Each platform has a success *currency*: Instagram pays in Ferraris and Dubai; LinkedIn pays in family values, career transformation, and professional achievement. She wouldn't tell dad stories if that weren't LinkedIn's currency.
+- **Execute**: List the user's monetizable expertise and arbitrage topics first; generate hooks for each idea at the same time (an idea without a hook is a strategy nobody executes). Route every personal story through LinkedIn's currency, not the raw event.
+- **Success Metric**: Content that flops elsewhere converts on LinkedIn because it is denominated in the platform's currency.
+
+#### 3. The SMPV Market Value Model
+- **What she does**: Positioning-before-content gets an operational front end: **S**kill (what are you actually good at) → **M**arket (who needs it; pick the lowest-hanging demographic where you're only 1-2 steps ahead, not 10) → **P**roblem (the pain they're stuck with — usually the one you solved for yourself) → **V**alue (the tangible outcome, delivered free / paid / premium).
+- **Execute**: Run SMPV before writing a single post for any new brand or pivot. Document-the-journey is a valid V for someone with no clients yet.
+- **Success Metric**: The one-sentence answer to "what do I sell, to whom, and why me" exists before the content calendar does.
+
+#### 4. Content-Profile Fit Distribution (training the algorithm who to show you to)
+- **What she does**: Treats engagement as *audience-targeting data entry*, not karma. Two fatal mistakes she fixes in audits: engaging with accounts that will never reciprocate, and engaging outside your content-profile fit (a finance creator commenting on fitness accounts gets a false negative — "engagement doesn't work"). Commenting inside your industry-adjacent bubble tells the algorithm whose feeds to put your posts in.
+- **Execute**: Build the engagement list from industry-adjacent peers who can rise with you + big creators in-niche. Cut any recurring engagement target that is neither. Comments compound — months in, distribution becomes automatic.
+- **Success Metric**: A well-written post starts landing in front of the right people; engagement starts converting to profile views and leads instead of vanity likes.
+
+#### 5. The Signature Style Series
+- **What she does**: The brands that outlast bigger accounts build *repeatable posting patterns the audience recognizes*: an **idea** (e.g., high-level breakdowns) + a **pattern** (same structure every time) + **elements** that make it visually yours (format, image style, colors). Templatize a winner until it stops working, then build the next series out of the surviving elements. This is her "algorithm-proof" mechanism — viral creators are interchangeable; lifetime creators ARE their own algorithm.
+- **Execute**: When a post outperforms, don't pin it — dissect why, recreate it multiple times that month across topics, and formalize the repeating skeleton into a named series with fixed visual elements.
+- **Success Metric**: Rising engagement baselines (20 → 100 → 400 avg likes) and audience recognition with the name covered.
+
+#### 6. The Story-Mining Pipeline (content capture as a system)
+- **What she does**: Never brainstorms stories cold. Three capture layers: (1) random voice notes into a dedicated AI project all week, summarized weekly; (2) AI recorders on every client/sales call — any problem solved on a call becomes a post from the transcript; (3) a weekly self-interview ("what were the wins? new client? speaking event?") — the same interview she ran on ghostwriting clients. Plus the habit rule: take photos everywhere, because "a story without a photo doesn't hit the same."
+- **Execute**: Install the weekly capture ritual before promising any client a content calendar. Draft story posts FROM transcripts and voice-note summaries, not from a blank page.
+- **Success Metric**: Zero blank-page sessions; every week produces 2+ transcript-grounded story candidates with a real photo attached.
+
+#### 7. The Give-Give-Ask Lead Magnet Post
+- **What she does**: Her 5,000-subscribers-in-24-hours architecture: hook names a mass desire ("Want to grow your LinkedIn?") → rehook twists with the unexpected (no cost / no ads) → body validates the problem and proves she can solve it → offer the resource, remind them it's free, add urgency → **zero friction**: direct link in the post, no "comment and I'll DM you" gate when the objective is growth → pair with a proof-of-promise visual (the tangible thing being solved — a packed calendar screenshot, a growth graph; Justin-Welsh-style renders that make digital products look physical).
+- **Execute**: Give (attention content) → Give (heavy free value) → Ask (email). Run one of these posts weekly while list-building.
+- **Success Metric**: Post-to-download in 3 clicks or fewer; list growth per post, not just impressions.
+
+#### 8. The Carousel Collaboration (engineered reach borrowing)
+- **What she does**: Partners with a similar-sized creator on one topic; both post the same/slightly-different piece the same day, each exposing the other's audience. Qualifying gate before asking: Am I already connected and at least friendly? Can I add value without competing with their offer? Does this build a relationship? All three yes, or don't ask.
+- **Execute**: One collab per month max; both parties run the full engagement protocol on launch day. Distinct from authority jacking — this is peer-leverage, not halo-borrowing, and works before you have any status.
+- **Success Metric**: Follower spikes from the partner's audience within 48 hours of the co-post.
+
+#### 9. Traffic Allocation Niche Discovery
+- **What she does**: For people with no niche: write across ALL adjacent interests for a few weeks and let the market's engagement distribution tell you what it wants you to teach. Her own SEO/arts posts flopped; branding + writing frameworks paired with storytelling went viral nearly every time — that asymmetry WAS the niche decision.
+- **Execute**: 3-6 candidate topics, several posts each, read follower + engagement growth per topic as allocation data. Double down on the winner; the losers are data, not failures.
+- **Success Metric**: A niche chosen by observed demand within ~30 days, not by introspection.
+
+#### Hidden Knowledge (net-new)
+
+- **Insight**: Give away 100% of the framework — not 99. "People don't pay for information, they pay for implementation." A prospect who would steal the playbook and implement it alone was never going to be a client. **Deploy**: Whenever the user hesitates to share the "secret sauce" in an educational post — the full blueprint is the authority play that pays for itself with one high-ticket client.
+- **Insight**: LinkedIn gets news about a week after Twitter/X. That lag is a standing arbitrage window — catching a trend early (even "old" news from another platform) can revive a dormant account with a single post (Jake's Reddit-stock post: 2,000 likes after 3 weeks silent). **Deploy**: When an account needs a reach spike or a comeback post.
+- **Insight**: Featured-section conversion rules: use **one or three** offer tiles, never two; every tile needs a custom thumbnail (packaging = click); the newsletter belongs in Featured, NOT as the profile website link (the profile link should carry the landing page/YouTube); and never waste Featured on a pinned viral post — it's your highest-value real estate, "at best it earns one like." **Deploy**: Every profile audit.
+- **Insight**: Banner logos are audience-segment selectors, not trophies. She chose Forbes (corporate trust), Kajabi (online-business trust), and her university (student proximity — "not too far ahead of them") deliberately, one per audience she wanted. No logos yet? A single client testimonial in the banner does the job. **Deploy**: Banner design for any client.
+- **Insight**: The comment IS a post. You can post once a day but comment hundreds of times; her comments regularly out-earn posts in likes and act as mini-posts on borrowed audiences. Floor: ~30 outbound comments/day while small. **Deploy**: Anyone in the sub-1K "50-like jail."
+- **Insight**: The price ratchet — raise prices only $200-500 with each new client so the jumps never feel scary; this is how she went $500 → $2K → $5K/month for the same service without a repositioning crisis. **Deploy**: Any freelancer/DFY pricing conversation attached to LinkedIn inbound.
+
 ## Evolution Log
 
 ### 2026-04-09 — SLAY Narrative Engine: Professional Identity Infiltration (Cross-Pollination)

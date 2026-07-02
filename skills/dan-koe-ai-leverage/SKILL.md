@@ -3,7 +3,7 @@ name: "Dan Koe - AI Leverage Methodology"
 description: 'Operates Dan Koe''s AI-as-expansion-partner methodology — treats AI as a creative thinking amplifier rather than an output replacer, using context-loaded coaching (load your full creative context before generating), adversarial refinement (use AI to break your own ideas before publishing), and knowledge alchemy (turn books / podcasts / extracts into reusable AI-prompting building blocks). Use when the user is creating with AI but the output feels generic, building a personal-knowledge-management system that compounds with AI use, designing prompts that survive multiple model versions, or training the user''s eye on the difference between AI-as-leverage and AI-as-crutch. Trigger proactively whenever the user says "AI output feels generic", "I want AI to think with me", "knowledge alchemy", "context-loaded prompts", or "Dan Koe". For AI affiliate-site building use darrel-wilson-ai-affiliate; for full AI-business architecture use the ai-brain pipeline.'
 version: "2.0"
 format: "completion-engine"
-workflows: 3
+workflows: 4
 ---
 
 # Dan Koe - AI Leverage Methodology
@@ -26,6 +26,7 @@ Dan Koe's system for maintaining intellectual sovereignty over AI while leveragi
 | 01 | [Knowledge Alchemy Engine](workflows/01-knowledge-alchemy-engine.md) | Reusable AI coaching prompt from any expert content | You encounter expert knowledge you want to make permanently deployable |
 | 02 | [Adversarial Refinement Protocol](workflows/02-adversarial-refinement-protocol.md) | Stress-tested, bulletproof strategy/content/argument | You have a draft and want to eliminate blind spots before publishing |
 | 03 | [4C Interaction Architect](workflows/03-4c-interaction-architect.md) | Fully context-loaded AI session with quality gates | You're starting high-stakes AI work and want maximum output quality |
+| 04 | [Gap-Teaching Prompt Builder](workflows/04-gap-teaching-prompt-builder.md) | Battle-tested 1,500-2,500-word production prompt built from observed failures (+ optional outline mega-prompt) | You need AI to hit YOUR style/standard and generic prompts keep missing — serialize your own taste, not an expert's |
 
 ## Slash Commands
 

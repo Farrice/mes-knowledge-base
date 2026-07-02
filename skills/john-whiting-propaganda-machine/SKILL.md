@@ -17,7 +17,7 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 
 ## ⚡ START HERE — The Propaganda Engine OS
 
-[`jw-engine`](workflows/jw-engine.md) is the operating system: **point it at any objective** (content, offer, service, launch, raw idea) and it deploys the whole formula end to end — classifies the objective ([`references/objective-router.md`](references/objective-router.md)), grounds and infers instead of demanding inputs, runs the propaganda sequence, stacks the right craft experts, gates every asset, and ships finished work. It rides on `/autopilot` + `/copy-engine` + `/supercomputer` and the expert roster — wiring, not rebuilding. The 15 workflows below are its components; reach for them individually when you want one tool, or fire `jw-engine` to run the machine.
+[`jw-engine`](workflows/jw-engine.md) is the operating system: **point it at any objective** (content, offer, service, launch, raw idea) and it deploys the whole formula end to end — classifies the objective ([`references/objective-router.md`](references/objective-router.md)), grounds and infers instead of demanding inputs, runs the propaganda sequence, stacks the right craft experts, gates every asset, and ships finished work. It rides on `/autopilot` + `/copy-engine` + `/supercomputer` and the expert roster — wiring, not rebuilding. The 18 workflows below are its components; reach for them individually when you want one tool, or fire `jw-engine` to run the machine.
 
 **`jw-engine` vs `jw-propaganda-machine`:** `jw-engine` takes *any* objective and picks the sequence; `jw-propaganda-machine` is *specifically* the sell-without-calls sequence — which `jw-engine` itself calls when it classifies a PIPELINE/OFFER objective. Start with `jw-engine` unless you already know you want the full no-calls build.
 
@@ -37,11 +37,14 @@ The bridge no other expert in the roster owns: between **content marketing** (at
 | Workflow | Use when |
 |---|---|
 | [`jw-retargeting-architecture`](workflows/jw-retargeting-architecture.md) | Designing the 3-tier TOF/MOF/BOF frequency funnel |
+| [`jw-lurker-funnel`](workflows/jw-lurker-funnel.md) | The audience won't opt in / DM — no-opt-in surfaces, button-click intent events, YouTube binge loop, micro-audience anti-optimization, pace-based budget reallocation |
+| [`jw-offer-optimizer`](workflows/jw-offer-optimizer.md) | Copy/content guesses at the avatar's language — build the qualified-survey engine + the 3-page word-capped answer key reviewed before every piece |
 | [`jw-self-selection-filter`](workflows/jw-self-selection-filter.md) | Attracting the wrong clients / too much fulfillment drag — polarize to filter |
 | [`jw-tone-awareness-ladder`](workflows/jw-tone-awareness-ladder.md) | Copy/content isn't moving people to buy — walk them up the awareness ladder to the buying line |
 | [`jw-pattern-interrupt`](workflows/jw-pattern-interrupt.md) | Chasing/hard-closing isn't working — the lean-back close + assumptive-close-via-content |
 | [`jw-record-month-formula`](workflows/jw-record-month-formula.md) | You had a great month and can't repeat it — reverse-document → playbook → strengthen top-3 drivers |
 | [`jw-wealthy-coach`](workflows/jw-wealthy-coach.md) | Making money but not getting wealthy — Freedom Number + profit math + allocation |
+| [`jw-comfort-line-breaker`](workflows/jw-comfort-line-breaker.md) | Stuck at the same number for years and the KPIs look "fine" — diagnose the pain/comfort-line roller coaster, install towards-motivation (Driver component) |
 | [`jw-one-best-client`](workflows/jw-one-best-client.md) | Offer is scattered — define the one perfect client + one-audience/one-problem/one-process offer |
 
 ### Tier 3 — Stacking + System

@@ -1,0 +1,32 @@
+---
+name: mike-sherrard-realtor-branding
+description: Mike Sherrard's personal-branding and social-media conversion system for real estate agents — niche selection via the four-criteria test, Hormozi's brand framework applied to realtors, the four content mistakes that produce zero leads, HVC content structure, and the Instagram/YouTube lead-capture workflow.
+version: "2.0"
+format: completion-engine
+workflows: 3
+source: claude.ai export 2026-07-01
+---
+
+# Mike Sherrard — Realtor Personal Branding & Content Conversion
+
+Mike Sherrard is a real estate personal-branding strategist who applies Alex Hormozi's brand-building framework to agents: "you're either known or you're invisible." His system has two halves — build the brand (niche selection, avatar research, cross-platform visual consistency, partnership packaging) and convert the content (fix the four mistakes that make agents invisible to consumers, structure everything as Hook-Value-CTA, and wire every post to a lead-capture asset). The core axiom: your brand is the messaging, your marketing is the microphone — a microphone with no message says a whole lot of nothing to a whole lot of people.
+
+## Available Workflows
+
+| # | Workflow | Produces |
+|---|----------|----------|
+| 01 | [position-niche-brand](workflows/01-position-niche-brand.md) | Niche selection + brand positioning package (four-criteria niche validation, avatar pain/search map, platform presence plan, partnership bouquet) |
+| 02 | [audit-content-conversion](workflows/02-audit-content-conversion.md) | Four-mistakes content audit + rewritten content plan (client-facing topics, story-context rewrites, HVC restructure, profile identity fix) |
+| 03 | [build-lead-capture-workflow](workflows/03-build-lead-capture-workflow.md) | End-to-end Instagram + YouTube conversion workflow (lead magnets, keyword DM automation, description architecture, CTA map) |
+
+## Quick Reference
+
+- **Message before microphone.** Posting consistently without a defined brand message = amplified nothing. Define the niche message first, then scale distribution.
+- **Four-criteria niche test.** A niche is viable only if it has (1) real pain points you can solve, (2) enough purchasing power to pay you repeatedly, (3) easy targetability (identifiable demographics + search terms), (4) a growing market, not a shrinking one.
+- **The no-one audience.** Content "for everyone" reaches the smallest audience — nobody connects with it or sees you as best at anything. Niching keeps the personality-loyal middle and grows the specialist audience; specialist = neurosurgeon vs. general practitioner pay.
+- **Serve the 99%, not the 1%.** Only ~1% of your market is ready to move now. Become the local resource (restaurants, events, things to do, relocation guides) for the 99% who aren't deciding yet.
+- **Facts tell, stories sell — and control the narrative.** Never post a stat ("rates hit 6.8%") without translating what it means for buyers and for sellers. The market is always good for somebody; your job is to say who.
+- **Short interest span, not attention span.** People binge what interests them. Structure every piece as HVC: Hook (gets interest) → Value (keeps interest, tip/list/solution format) → CTA (converts interest).
+- **First three photos.** A visitor should know who you are and what you care about from your top-of-grid without scrolling. Listings-only grids look like a homes-and-land magazine; people connect with people, not properties.
+- **No asset, no leads.** Every video needs a destination: lead magnet + keyword DM automation (Instagram) or contact links + guides in the description (YouTube). Views without a capture asset are decoration.
+- **Consistency is an algorithm signal.** Identical brand presentation across every platform (photos, colors, handles, bios) is what both audiences and AI/search recommendation systems reward.

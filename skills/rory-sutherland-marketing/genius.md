@@ -556,3 +556,83 @@ Type 'continue' or 'next' to proceed.
 | **Costly Signal Integration** | Price or effort is seen purely as a cost to be minimized or justified by features. | Recognizes that high price/effort can sometimes signal quality. | Strategically uses price, effort, or inconvenience as a deliberate "costly signal" to communicate status, commitment, quality, or exclusivity, making it a feature, not a bug. |
 | **Fat-Tail Opportunity Bias** | Prioritizes incremental, safe, and easily measurable gains, avoiding higher-risk, high-upside initiatives. | Allows for some moderate upside bets within a mostly incremental portfolio. | Actively seeks and allocates resources to "fat-tail" opportunities – ideas with asymmetric upside potential (10x-1000x returns), embracing the inherent uncertainty for breakthrough impact. |
 | **Evolutionary Rooting** | Marketing appeals to current trends, demographic preferences, or learned behaviors. | Connects messaging to basic human needs like convenience or belonging. | Deeply roots solutions and messaging in fundamental evolutionary psychology (e.g., status games, tribal belonging, conflict detection, loss aversion) for unconscious, powerful, and enduring impact. |
+
+---
+
+### Patterns from claude.ai export — Rory Sutherland conversations (2026-07-01)
+
+> Source: three additional Sutherland transcripts mined from the claude.ai export — the "$22,381 Worth of Marketing Advice" masterclass (small-business marketing + pricing psychology), the "How Human Behaviour Regularly Defies Logic" keynote, and unmined remainder of the Knowledge Project interview. Only material NOT already covered by Patterns 1-16 / Tacit Knowledge 1-8 is folded in below.
+
+#### Pattern 17: The Sin of Omission Audit — Radiating Openness
+Opportunity costs are far less salient than visible costs. A shop employee who steals a chocolate bar triggers a disciplinary process; the employee who forgets to turn the lights on — silently repelling every passing customer — triggers nothing, though the second costs 100x more. Sutherland's field examples: the motorway service station that looked closed (lights off), the fish-and-chip shop that doesn't answer the phone when busy ("you just lost a repeat customer"), coffee shops stacking chairs at 3:30 PM (then reading the sales dip as "no demand after 3:30"), John Lewis "At Home" (a name that made 95% of drivers file it as "furniture — not for me" for five years), Sainsbury's founder's literal dying words: "Make sure the stores are kept well lit."
+
+**Execute**: Audit every passive signal your business radiates to someone who knows nothing about you: Is it explicitly obvious you're open/available? Does anything (naming, signage, dark windows, unanswered phone, stacked chairs, dead social links, an empty room) whisper "not for me" or "closed"? Populate empty spaces first — Dishoom opened for breakfast partly because nobody enters an empty restaurant. Apply Mark Ritson's Magic 180° Flip: be the completely ignorant customer arriving blind, every single day.
+
+**Success Metric**: You find at least one zero-cost "lights-on" fix (answer the phone, rename, relight, unblock a window, put the chairs out) whose revenue impact exceeds any planned paid campaign.
+
+#### Pattern 18: The Too-Good-To-Be-True Problem
+Humans have second-order intelligence: they don't just evaluate the deal, they simulate the seller ("if I had a better machine, I'd charge more for it"). So "higher quality + lower price" — the economist's slam dunk — creates cognitive dissonance and kills the sale. Nespresso priced the Virtuo and Virtuo Plus identically and confused everyone; frozen food's cheapness got it stigmatized as downmarket despite superior preservation; a NASA-grade shelf-stable Michelin-quality biryani "hit the motherlode in logical terms" and stalled in psychological terms.
+
+**Execute**: When a product over-delivers for its price, restore the assumed price-quality tradeoff instead of celebrating the bargain: (1) raise the price until the story makes sense; (2) add a "magician" frontman whose personal mythology suspends disbelief (Jobs); (3) add visible effort — the IKEA effect (Charlie Bigham's oven-only instruction and craft packaging make a factory meal feel artisanal); (4) never price two variants of visibly different quality identically — the delta is what lets buyers make sense of the choice.
+
+**Success Metric**: Conversion rises after a price INCREASE or an added-effort step, confirming the failure was disbelief, not value.
+
+#### Pattern 19: The Behavioral Detective — Anecdote as Compass
+"Just because it makes sense doesn't mean it's true." The moment a logical explanation appears, humans stop investigating — and averaged data irons out the very outliers that carry the answer. The coffee-sales dip after 3:30 wasn't declining demand; it was staff radiating closing signals (a confounding variable no dashboard shows). John Lewis Tunbridge Wells didn't fail on demographics; it failed on a solo car park, a hidden entrance, narrow-edge signage, and the "At Home" name — findable only by going and looking, Obvious Adams style. Police formalize this: an *investigative* mode (anecdotes, oddities — "he parked facing the wrong way" — direct attention) precedes an *evidential* mode (proof). The Titanic had big data saying no icebergs that far south; one anecdote — "there's an iceberg over there" — outranked all of it, because all big data comes from the same place: the past.
+
+**Execute**: When data shows an unexplained pattern, refuse the first sensible explanation. Go to the physical site / call recordings / watch real customers. Hunt confounding variables the metric can't see. Treat anecdotes, complaints, and freak observations as direction-finders (investigative mode), then validate with data (evidential mode) — never demand proof-grade evidence during the search phase.
+
+**Success Metric**: You identify at least one confounding variable that reverses the "obvious" conclusion the dashboard supported.
+
+#### Pattern 20: Price-Frame Arbitrage — Change the Context, Not the Mind
+"You can change a million minds, or just change one context." Perception of price is entirely relative to the frame at the point of decision. Lamborghini, Maserati and Rolls-Royce stopped selling at car shows (where €250K looks obscene) and moved to yacht and aircraft shows (where it's an impulse buy next to an €8M Sunseeker). Danone's drinking yogurt earned more in the yogurt aisle than the higher-footfall milk aisle, because the milk aisle's price frame is low. An airline gained ~£10M/year in premium-cabin revenue from one rule: never show the premium-economy price without the economy price beside it — upgrades are ratio decisions, not absolute ones. A cinema chain added super-premium day beds (on previously unused floor space) and premium seat sales jumped: the new top tier reframed the old one.
+
+**Execute**: Before touching the price itself, redesign the frame: (1) move the decision to a venue/adjacency where reference prices are higher; (2) always anchor upgrades against the base option (sell the ratio, never the naked number); (3) add a deliberately extreme top tier to make the target tier read as reasonable; (4) ask where else — physically or contextually — this purchase decision could happen (Argos moved toaster-buying into the living room; EasyJet put the phone number on the plane). Brand hierarchies are most vulnerable when the decision context shifts.
+
+**Success Metric**: Revenue or tier mix improves with zero change to product or absolute price — only to where and against-what the price is perceived.
+
+#### Pattern 21: Bargain-or-Treat — The Dead Middle
+Demand in many categories is bimodal: people buy either a bargain ("hot lunch under the £5-6 barrier") or a treat ("it's my kid's birthday — the usual rules don't apply"). A product priced in the middle is neither, and dies there. Sutherland's KFC story: a premium product wasn't selling, the team planned a price cut, he suggested testing a price RISE — demand went up, because mid-pricing said "not special enough" while treat-pricing completed the story. Wine runs on the same logic: £6.95 says Wednesday, £28 says anniversary; most wine expenditure marks occasions, it doesn't buy better wine. Corollary: when something is mispriced it is almost always priced too low — and too-high is recoverable while too-low is nearly impossible to climb back from.
+
+**Execute**: For any underperforming offer, first diagnose which pole it serves: is it the bargain (below the category's psychological pain threshold) or the treat (priced to mark an occasion / signal generosity)? If it sits between poles, move it decisively to one — and test upward before testing downward, because an upward win is a vastly more valuable discovery.
+
+**Success Metric**: A price increase raises unit demand (treat-pole confirmation), or a repositioned bargain clears the impulse threshold and volume jumps.
+
+#### Pattern 22: The Oblique Delivery — Say With Humor What You Can't Say Straight
+Some true claims are unsayable directly: they'd be rejected as arrogant, defensive, or self-serving. Reagan didn't rebut the age issue with medical evidence — "I will not exploit, for political purposes, my opponent's youth and inexperience" killed it with one joke, converting his biggest liability into a status display. The Economist's "I never read The Economist — Management trainee, aged 42" delivers "reading this makes you successful" — a claim readers would have despised said straight. Humor and indirection are not decoration; they're the only carrier wave for certain messages, and refusing to "spoil the joke" with a rational pre-brief is part of the discipline.
+
+**Execute**: When a message triggers resistance stated plainly (a boast, a defense, a correction of the customer), invert it into a joke, a confession, or an oblique artifact that lets the audience derive the claim themselves. Address the objection by reframing WHO has the problem, not by answering it. Test: does the audience finish the thought — and enjoy finishing it?
+
+**Success Metric**: The previously resistant claim lands without pushback, and gets repeated/quoted by the audience in their own words.
+
+---
+
+#### Insight: Steal What the Testers Tested
+**Insight**: Amazon's "call me back" button (phone rings in 30 seconds, agent already briefed) is revolutionary customer service — and when other firms said "we couldn't make the business case," Sutherland's answer was: you don't need to. Amazon tests everything; if Amazon ships it, the business case exists. High-test companies are free R&D departments for everyone else.
+
+**Deploy**: Maintain a "borrowed proof" list: mechanisms shipped by relentless testers (Amazon, Booking, Netflix, McDonald's) that your industry hasn't copied. Adopt without demanding local proof — the proof is that the tester kept it live.
+
+#### Insight: Technoplasmosis — When Metrics Are Chosen by Their Sellers
+**Insight**: The tech-consulting-finance complex has captured the finance department's idea of marketing measurement ("technoplasmosis"): the metrics finance trusts are the ones most conducive to selling tech stacks — short-term, bottom-funnel, click-through — not those conducive to building customer value. Combined with Goodhart's Law and the asymmetry that cost-saving data appears FAST while value-creation data appears SLOW (bank customers go inert for five years before leaving; acquisition is measurable this quarter, retention isn't), this systematically starves customer service and defines your "customer universe" as merely the people reachable in low-cost channels with minimal persuasion.
+
+**Deploy**: For any measurement regime, ask: who profits from this metric being the metric? Deliberately correct for time-asymmetry — pair every fast acquisition metric with a slow retention/inertia proxy. Never let channel economics define who your customers are; define the universe first, then sell to as many of them as profitable over time.
+
+#### Insight: The Horsepower Move — Invent the Buyer-Native Unit
+**Insight**: Mine owners wouldn't buy steam engines described in cylinder bore and boiler capacity. James Watt asked what they actually wanted to know — "how many horses can I get rid of?" — and invented the horsepower, a marketing unit we still use 250 years later. The Paceometer (Pattern 12) re-expresses a metric to reveal nonlinearity; the Horsepower Move goes further: it translates the spec into the buyer's existing operational currency.
+
+**Deploy**: For any spec-led product, ask "what unit does the buyer already count in?" (heads saved, shifts eliminated, coffees-per-month, meetings avoided) and mint a named unit in that currency. The unit itself becomes owned marketing infrastructure.
+
+#### Insight: The Scout Bee Ratio — Why Efficiency Starves the Hive
+**Insight**: ~20% of bees ignore the waggle dance and forage at random; modeled as a complex system, hives without random scouts get trapped in a local maximum and starve when conditions shift. A beehive on quarterly reporting would send every scout to known flowers — and die. Companies that stop growing are usually over-optimized on exploit; 1-in-200 scout trips returns something worth more than pollen: information. (Extends Pattern 9's fat-tail logic from bet sizing to organizational design.)
+
+**Deploy**: Protect an explicit scout allocation (10-20% of budget/time) that is EXEMPT from ROI attribution by charter, and judge it only on information yield per quarter, never on conversion.
+
+#### Insight: The Jack-of-All-Trades Heuristic — Focus as Costly Signal
+**Insight**: Buyers assume someone who does only one thing must be good at it (fishmonger > supermarket fish counter; nobody buys oysters from a burger bar). Thrashers has sold only fries since the 1920s — salt and vinegar, no ketchup allowed — and the refusal itself signals the potato must be good. There is signaling value in NOT being customer-focused: "these are the rules, take it or leave it" reads as confidence born of mastery. And the biggest market gap is often at the opposite end of the market (McDonald's did a 180° flip on the anything-anytime American diner).
+
+**Deploy**: When differentiating, test radical menu narrowing plus one perverse, conversation-generating rule. Check the opposite end of the category's spectrum for the unoccupied position before crowding the middle.
+
+#### Insight: The Psychological Brief — Solve the Anxiety, Not the Spec
+**Insight**: EV "range anxiety" is mostly infrastructure anxiety: chargers hidden behind industrial estates (petrol stations grew up pre-GPS and HAD to be ostentatious), and battery gauges showing anxiety-inducing false precision (86%→85% reads as "losing charge"; a petrol gauge never showed 37%). Billions go into energy density; almost nothing into anxiety. Same move as the most valuable sentence Sutherland says he ever gave a client — British Airways: before you fix the plane, put the delay ESTIMATE on the departure board, because uncertainty (not duration) is the pain. Same as benches, not just footpaths, being what gets people walking: confidence they can sit down. Businesses also obsess over "met unneeds" — precision nobody asked for (the 3-minutes-late train fine) — while the actual anxiety goes unaddressed. Had Disney gotten the HS2 brief, the question would've been "how do we make the journey so enjoyable people feel stupid driving?"
+
+**Deploy**: Write every improvement brief twice — once in engineering terms, once in psychological terms ("what anxiety, uncertainty, or status fear governs this behavior?"). Fund the cheapest anxiety-reduction before the expensive spec-increase, and audit for met unneeds you can stop paying for.

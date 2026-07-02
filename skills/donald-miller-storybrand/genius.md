@@ -247,6 +247,64 @@ When a customer encounters a confusing message, they don't think "this brand nee
 *   **The Earned Product Introduction**: Deliberately avoids mentioning the product, service, or brand solution until the character's desire and their three-level problem have been vividly established, typically waiting until the Plan (Element 4) is introduced. → **Deploy when**: Structuring any new piece of content, from a homepage to a sales email.
 *   **The Stakes Polarity Engine**: After outlining the positive transformation, immediately pivots to outlining the negative consequences of *not* engaging, ensuring both the "cliff" and the "summit" are equally clear and compelling. → **Deploy when**: Crafting the resolution portion of any sales or marketing message (Elements 6 & 7).
 
+## Patterns from claude.ai export — Donald Miller conversations (2026-07-01)
+
+> Source: six transcript-grounded extractions (StoryBrand Podcast one-liner masterclass, Churchill soundbite talk, "3 Things Every Customer Needs To Hear," cognitive-load episodes, entry-offer video). Only material absent from the five existing Miller skills is kept. Where a pattern serves a sibling skill, it's flagged.
+
+### XP1: The Controlling Idea (the 8th sound bite)
+Above the seven SB7 sound bites sits a **controlling idea** — one statement that acts as the filter every piece of messaging must pass through. Miller: "the controlling idea soundbite... gives me the filter that I filter all my messaging through." StoryBrand's own: "Transform your business story into clear messages that resonate and drive success." In Miller's high-ticket consulting, the controlling idea is born in the pitch deck, then cascaded into the website, sales scripts, UI copy, and product listings — the strategy IS choosing the words once, then propagating them.
+**Execute**: Before writing any BrandScript, draft the controlling idea in one sentence. Every subsequent sound bite must be a child of it; any message that can't trace back to it gets cut. Full procedure: `workflows/09-controlling-idea-cascade.md`.
+**Success Metric**: Any team member can answer "what's our one idea?" identically; every live channel contains language traceable to it.
+
+### XP2: The Identity-Transformation Sound Bite
+The full brand script includes a before → after identity statement beyond Success/Failure stakes: "Before, they felt lost in their messaging. Now they confidently attract the right customers." (MARTA: "from frustrated commuter to empowered city explorer.") Customers buy an upgraded identity, not just a resolved problem.
+**Execute**: After writing Success and Failure sound bites, add one line in the form "From [old identity] to [new identity]." Use it in testimonials prompts, About-page closers, and email P.S. lines.
+**Success Metric**: The transformation names an identity (noun), not a feeling — "commuter → explorer," not "frustrated → happy."
+
+### XP3: The One-Thing Concentric-Circle Rule
+"You know your brand is about five or seven things, your spouse knows it's about three or four, your good friends know two, and everybody outside of them only knows you for one thing." A brand is only ever known for ONE thing at market distance — so choose it deliberately (Chick-fil-A = chicken; Ramsey = financial peace; Miller = clear messages). Multi-product brands need one umbrella promise all products deliver on.
+**Execute**: Write the one thing in under 6 words. Test every product/offer: does it deliver on that promise? If the brand is "about too many things," name the umbrella. (Complements — but is distinct from — `messaging-evolution`'s lane discipline: that governs what you REFUSE; this governs what you're KNOWN for.)
+**Success Metric**: A stranger who saw the brand once can name the one thing unprompted.
+
+### XP4: The 10-Circle Sharpie Test
+Print the homepage. Take a Sharpie. Circle every place that names the customer's problem, agitates its pain, or positions the product as its solution. Miller's floor: **10 circles minimum.** He reports a mastermind member's supplement company going from $9M to $18M in two years from nothing but rewriting product descriptions problem-first ("you're talking about how you dehydrate broccoli... I want to talk about gut rot").
+**Execute**: Run the test on any page before rewriting. Fewer than 10 circles = the fix is adding problem language, not redesigning. Use as the fast pre-diagnostic before `03-business-message-audit`.
+**Success Metric**: Post-rewrite page yields 10+ circles with zero added jargon.
+
+### XP5: The Story-Loop Match Rule
+The loop you open must be the loop the product closes. "Restlessness and anxiety can ruin your life. We've created a sleep mask" fails — the loop opened (anxiety) and the loop closed (sleep) are two different stories. Prefer changing the opening loop to match the product over stretching the product's claim.
+**Execute**: In any one-liner or ad, underline the problem noun and the solution noun. If they aren't the same story, rewrite the problem statement first.
+**Success Metric**: Problem and product statements share the same key noun/frame on first read.
+
+### XP6: "Say the Clear Part, Not the Clever Part"
+When someone explains their business vaguely, Miller asks one magic question: **"What did you mean by that?"** — and the NEXT sentence out of their mouth is always crystal clear. The clear version already exists; it's hiding behind the performed version. Corollary: mystery is not marketing ("You must also like being poor").
+**Execute**: When drafting or auditing, ask "what did you mean by that?" of every clever line, then swap in the answer verbatim.
+**Success Metric**: Zero lines that require the author present to explain them.
+
+### Hidden plays (Insight / Deploy)
+
+**The Mall Yell Test** —
+**Insight**: A curiosity sound bite is qualified-buyer sonar: "if you're in a crowded mall and you yell these sound bites, the right people who need your product would stop and come up to you." Only people already in the hole hear it ("lowering your blood pressure is pretty easy" is inaudible to everyone else). Attracting everyone = attracting no one.
+**Deploy**: Test every headline/hook: yelled in a mall, does the ICP physically turn around — and does everyone else keep walking? Both halves must pass.
+
+**The Double-Barrel Colon Close** —
+**Insight**: A fence-sitting prospect is stuck on exactly one question — "is this the right decision?" — and hopes a week at home will answer it. It won't, because you don't go home with them. Miller's fence-sitter email: "I want to be really clear **:** " ("the two dots on a colon are like a double-barrel shotgun") → restate and agitate their problem → "If I've heard you correctly, signing the contract today is the right move because it's going to solve this problem."
+**Deploy**: Send to any stalled deal today. Structure: warm open → colon → their problem in their words → affirmation CTA (GP8). Never "just checking in."
+
+**Hard-Truth-First Credibility (the Churchill/Domino's move)** —
+**Insight**: Telling the hard truth before anyone else does is a competitive advantage — honesty creates more trust than polished spin. Churchill described the disaster in full detail, THEN why Britain would fight anyway; Domino's said "our pizza tastes awful, we've changed it, try it" and became the most valuable pizza franchise. You must paint the dark world for the candle to shine — and you earn the right to paint the future only after refusing false hope.
+**Deploy**: In crisis or turnaround messaging, lead with the unvarnished bad news in concrete terms, then pivot to the plan and the "finest hour" identity. Never sequence spin → truth. (Serves `culture-turnaround` for internal turnarounds and `cognitive-load` Phase-1 collateral.)
+
+**The Graduated-Load License** —
+**Insight**: High cognitive load is not always wrong — "it's just always wrong as a first impression." Once someone downloads a lead generator, they've "agreed to commit to carrying more weight"; by the fifth or sixth interaction you may go technical. Weight tolerance is earned per interaction, not per audience. (Extends `cognitive-load`'s scoring and `messaging-evolution`'s date-sequence with an explicit escalation license.)
+**Deploy**: Map load budget to funnel depth: header/ads = 0 load, lead-gen content = light, sales call/onboarding = technical allowed. Audit for inversions — technical language appearing earlier than interaction #3 is a defect.
+
+**Bumper-Sticker-Beats-the-Book** —
+**Insight**: "Jeb Bush wrote a book on immigration. Donald Trump had a bumper sticker. The bumper sticker won." In any mass-audience contest, whoever "puts the cookies on the lowest shelf" wins — the zero-load statement beats the intellectual argument every time, regardless of which side is right or nuanced. Refusing to simplify is not integrity; Miller calls it narcissism ("I'm so important you need to spend hours trying to understand what I can do for you").
+**Deploy**: When a client resists simplification as "dumbing down," reframe: simplifying is serving the audience. Then compress their book into its bumper sticker and A/B it.
+
+---
+
 ## Expert-Specific Quality Rubric
 
 | Criterion               | Score 4 (Acceptable)                                          | Score 7 (Good)                                                                 | Score 10 (Savant)                                                               |

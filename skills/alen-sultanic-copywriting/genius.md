@@ -6,7 +6,7 @@
 
 ## Genius Patterns
 
-18 virtuoso patterns for advanced buyer psychology and conversion architecture.
+24 virtuoso patterns for advanced buyer psychology and conversion architecture (Patterns 19-24 added 2026-07-01 from claude.ai export conversations — see labeled section below).
 
 ---
 
@@ -171,6 +171,50 @@
 ## Expert-Specific Quality Rubric
 
 | Criterion                          | Score 4 (Acceptable)                                                                                                                                                                                                                                                        | Score 7 (Good) |
+
+---
+
+### Patterns from claude.ai export — Alen Sultanic conversations (2026-07-01)
+
+Source: transcript-grounded extractions of the "2 Hour Copywriting Masterclass" and the Emily June Wilcox "Mastering Marketing Psychology" interview (NHB/FastForward material Alen states he had not shared publicly). Everything below is net-new relative to Patterns 1-18.
+
+## Pattern 19: Push-to-Pull Conversion
+**Execute**: Audit every asset for "push" mechanics — fear-stacked leads ("you're diabetic, you'll lose your leg"), horror-story closes, 30-page arm-twisting. Whatever you push against pushes back: push copy manufactures the very resistance it then has to overcome, and it burns the list. Rebuild the asset as pull: work WITH the market's existing beliefs, let desire close the gap, and design for repeat purchase. Benchmark on asset value, not launch revenue — Athletic Greens (zero push marketing) is worth more than every push-marketed ClickBank health offer combined.
+**Success Metric**: Repeat-purchase rate rises and close length shrinks; a buyer who wants it should be able to say "how much?" and buy without a 30-page close.
+
+## Pattern 20: Belief-as-Safety-System Scan
+**Execute**: Treat every belief as a safety system whose job is detecting danger and difference — the subconscious exists to keep the buyer safe. Before writing, list the prospect's load-bearing beliefs; then scan draft copy line-by-line for anything that violates one (push marketing breaks beliefs; pull marketing works with them). Selling IS change work, and change only happens when the new position feels safer than the old one. Corollary: people love to buy and hate being sold to, because being sold to removes choice — and removed choice trips the alarm.
+**Success Metric**: Zero "gut-feeling resistance" moments in copy review; objections shift from "this feels off" to logistics questions.
+
+## Pattern 21: Four Convincer Calibration
+**Execute**: Diagnose which convincer pattern your market runs before choosing format and frequency: **Automatic** (~5% of the population believes on first exposure — the reason cold VSLs cap at 1-3%), **Repeat** (needs multiple exposures), **Duration** (needs to observe you over a long period), **Never** (won't be convinced; filter, don't chase). Then engineer shortcuts that give the brain the safety signal it's waiting for (proof density for Repeat types, time-compressed track records for Duration types) instead of louder claims.
+**Success Metric**: Retargeting/nurture sequences are built to the dominant convincer, and conversion no longer depends on catching the 5% Automatic segment.
+
+## Pattern 22: Pricing Inflection Bands
+**Execute**: Price sensitivity is banded, not linear, and the bands differ by buyer psychology. For markets that weigh money heavily (Alen: structurally true for most female audiences), psychology shifts at roughly $1 → $3 → $30 → $300 → $3,000. For markets that weigh it less (most male audiences), the bands run $1 → $10 → $100 → $1,000 → $10,000. Inside a band, price barely moves conversion ($5K vs $6.5K vs $8.2K coaching converts about the same); crossing a band boundary tanks it, because the buyer starts re-running "what else could I get for this?" Price to the top of the current band; never cross a boundary for marginal revenue.
+**Success Metric**: Price changes inside a band show flat conversion; you capture the full band ceiling instead of leaving margin below the boundary.
+
+## Pattern 23: The Permission Close
+**Execute**: Every sales process begins with awareness of a difference and ends in a feeling — and that closing feeling is permission. The decision stack at the close is feeling → expectation → permission: expectation of what the thing will DO for them generates the feeling (nobody awaits a package; they await the result), and permission is what converts the feeling into the purchase. So engineer the close by answering one question explicitly: "What does this specific buyer need in order to give themselves permission to buy?" Then supply it — the justification script, the spouse-proof logic, the identity frame — instead of more convincing.
+**Success Metric**: Buyers articulate their own justification unprompted ("I owed this to myself," "it pays for itself by X"); cart abandons drop without adding pressure.
+
+## Pattern 24: Hidden Sales Process (Format Novelty)
+**Execute**: When a funnel format saturates, the audience learns there's a price at the end and pre-loads price resistance before your copy runs (funnel-hacking culture accelerates this). The counter is hiding the sales process inside a format the market hasn't decoded — Alen's Podcast VSL (a VSL disguised as a podcast conversation) took a client from $100K/mo to $3M/mo on this mechanic alone. Formats decay as they get rediscovered, so treat format novelty as a rotating asset: audit what your market has already pattern-matched, then package the same persuasion architecture in an unrecognized container.
+**Success Metric**: Cold prospects consume the full asset without registering it as a pitch; conversion holds as ad-side saturation rises.
+
+## Hidden Knowledge — export additions
+
+## 8. Assume 100% Want to Buy
+**Insight**: The default copywriter assumption is "nobody wants this, make them buy it" — which produces heavy headlines and heavy claims. Alen inverts it: assume everyone landing on the page 100% wants to buy, and something is preventing them. The job is finding which trade-off your copy is demanding. "Quit your 9-to-5" kills bizop conversion because it demands a Safety/Security trade-off; "do this while keeping your job" removes it and conversion rises.
+**Deploy**: When conversion stalls, don't strengthen claims — inventory the trade-offs your copy explicitly or implicitly asks for, and delete the ones you can.
+
+## 9. Economics Is Math AND Psychology
+**Insight**: Competing on economics isn't just pricing — it's the tug-of-war between your price and every competing desire pulling on that money (the watch, the vacation, the student loan, 50 dinners). The higher the price, the more desires pull against it. And trade-off processing differs by gender and age, which is why identical copy converts differently across segments.
+**Deploy**: For any price point, write the pull-list (10-15 competing uses of the money) segmented for YOUR buyer's demographics, then disconnect the strongest pulls in copy before the close.
+
+## 10. The Big-Idea Trap
+**Insight**: Direct response's shortcut culture fetishizes the two-month big-idea hunt. Alen's position: if the product is right in front of you, the buying reasons already exist in the market — spend the time on trade-off removal and belief safety instead of chasing a mythic angle.
+**Deploy**: Cap big-idea exploration; if an angle isn't found fast, the leverage is almost always in economics and resistance removal, not creativity.
 
 ---
 

@@ -185,3 +185,64 @@
 - Source: Stefan Georgi masterclass "We're Basically Drug Dealers" (47,615-word transcript)
 - Enriched with parallel research on dopamine neuroscience, information gap theory, Ekman's universal emotions
 - Cross-referenced with Luke Iha, Alen Sultanic, Rory Sutherland genius files
+
+*Export enrichment — 2026-07-01*
+- Source: "(New) AI Copywriting Masterclass" interview transcript (RMBC 2.0 era, ~89 min) from claude.ai export
+- Added the Copy Thinker layer: RMBC 2.0 research stack, awareness-distribution calibration, judgment-over-outputs, funnel-context rules
+- New workflows: `/georgi-awareness-map`, `/georgi-copy-thinker`
+
+---
+
+### Patterns from claude.ai export — Stefan Georgi conversations (2026-07-01)
+
+Net-new layer from the RMBC 2.0 / AI-era masterclass. The original genius file covers Georgi's dopamine pharmacology (how copy grips a brain); this layer covers how he now DECIDES what copy to make — research, awareness calibration, and judgment in an AI-saturated market. Everything below is transcript-grounded.
+
+#### Pattern A: Copy Thinker, Not Copywriter
+**Execute**: Treat the act of writing as the cheapest, most automatable step. "The actual act of writing copy is really inefficient and a waste of time." The paid skill is thinking: having the right ideas, choosing the right structure, and knowing how each piece fits the customer journey from prospect → buyer → repeat buyer. Delegate drafting to AI; keep ideation, structure calls, and congruence judgment human. Georgi's RMBC2 subheader states the identity shift outright: transform "copywriters into copy thinkers."
+**Success Metric**: Less than 20% of project time spent producing sentences; the rest spent on research, big-idea selection, and structural judgment.
+
+#### Pattern B: Outputs vs. Judgment (The Human Edge)
+**Execute**: AI wins on outputs; humans win on judgment. Ask AI for 100 hooks — 10-15 will be good, but testing all of them is prohibitively expensive. Your edge is knowing WHICH ones have the highest probability, and that comes from pattern recognition built by immersion: ads libraries, spy tools, watching what recurs. If a hook pattern keeps reappearing across brands that test at high volume (e.g., "don't make this mistake…" running endlessly for high-spend DTC brands), it's pre-validated — weight it in your test slate.
+**Success Metric**: You can state, for every hook you greenlight, WHERE you've seen the underlying pattern win before.
+
+#### Pattern C: The RMBC 2.0 Research Stack
+**Execute**: Before mechanism or copy, run four deep-research passes (Georgi uses Gemini deep research), then unify:
+1. **Product-market awareness research** — for this product and category, how is the market distributed across unaware / problem aware / solution aware / product aware / most aware?
+2. **Competitor research** — main competitors, their big ideas, value propositions, what buyers like and dislike about them, and where the gaps are.
+3. **Psychographic research** — the original RMBC core: deep-seated hopes, dreams, victories, failures, "dark night of the soul at 2am staring at the ceiling."
+4. **Unification** — feed all three documents to Claude: "create a unified research document" that carries every insight into mechanism/brief/copy.
+**Success Metric**: A single research document exists before any copy decision, and every downstream choice (funnel length, mechanism complexity, hook angle) cites it.
+
+#### Pattern D: The Awareness Distribution Query
+**Execute**: Never assume where the market sits — measure the distribution. Ask deep research: "If you were going to put a percentage of people in each awareness category, what would each category be?" Georgi's own skincare brand (whipped tallow) failed running product-aware ads because he'd seen it go viral on TikTok — research showed only ~10% of the market was product aware; most were problem/solution aware. Recalibrating meant educate-first copy, longer assets, pain-point-led leads. The biggest scalers (bizop at $50-100M) deliberately message UP the ladder to problem-aware rather than fighting over the ~20% who already know the category.
+**Success Metric**: Copy targets the segment where the distribution actually concentrates, not the segment easiest to write for.
+
+#### Pattern E: Category-Aware (Georgi's Product-Aware Rewrite)
+**Execute**: Redefine Schwartz's "product aware" as **category aware** — the prospect knows about solutions *similar to* yours (they know Airbnb-arbitrage programs exist, not your program), because most offers sell the same thing as competitors. This changes the mechanism job: for category-aware prospects the mechanism is "here's why the other programs in this category failed you"; you're differentiating within a known category, not introducing one.
+**Success Metric**: You can name which category the prospect already holds in their head and position against ITS failures.
+
+#### Pattern F: Mechanism Complexity Scales Inversely With Awareness Distance
+**Execute**: Match mechanism sophistication to awareness level. Low-awareness/broad audiences (mass bizop) don't need complex science — they need a simple reframe of what they half-know delivered as a paradigm shift ("you don't have an income problem, you have an asset problem — nobody gets income-rich"). High-awareness/category-aware audiences need the differentiating "why everything in this category failed you" mechanism. Overbuilding a complex mechanism for a broad audience is as fatal as underbuilding one for a jaded audience.
+**Success Metric**: Mechanism earns "oh, that makes sense" from the actual awareness segment being targeted — test the reframe on someone AT that level.
+
+#### Pattern G: AI Gap-Finding and Mechanism Ranking
+**Execute**: Two prompts that turn research into decisions. (1) Gap-finding: feed AI the awareness distribution + competitor big ideas + psychographics, then ask "given this segment, what logical messaging is missing — what SHOULD be said that nobody is saying?" AI infers the negative space from the data. (2) Ranking: "Here are the five mechanisms I like most. Based on this research, rank them 1-5 by probability of success and explain why." The winning answer usually surfaces "this resonates deeply but nobody's talking about it."
+**Success Metric**: Big idea/mechanism selection is argued from research documents, not from which option felt cleverest.
+
+#### Pattern H: Funnel-Context First (The Consultative Prerequisite)
+**Execute**: Refuse to write or critique any asset in a vacuum. First establish: What's the traffic source (Meta / native / YouTube / TikTok — each carries different buyer intent)? Where does this asset sit in the journey, and what's the next piece? Awareness level + price point then dictate funnel length nearly deterministically: high buyer intent + category-aware = short condensed funnel (no long VSL); low awareness = longer educate-first assets; high price point = long copy again, but now selling URGENCY of the pain, not validity of the solution. Georgi turned down $400-500K in VSL work because the asset was wrong for the client's journey.
+**Success Metric**: For any asset request you can answer "what traffic hits it, what it must hand off to, and why this length" before drafting.
+
+#### Hidden Knowledge (AI-era additions)
+
+**Insight — AI Is an Amplifier, Not an Originator**: "AI is like money — it amplifies what you give it." A weak marketer prompting "write me a headline" gets amplified weakness. The leverage comes from feeding it research, awareness maps, and competitive context so it amplifies judgment. Corollary: copywriters who skip learning research-by-hand never develop the judgment AI amplifies.
+**Deploy**: Never let AI touch copy before the unified research document exists.
+
+**Insight — Editing Is De-Fluffing the Big Idea**: Most of Georgi's editing "is not really editing — it's removing the fluff that's getting in the way of the big idea." His AI-draft critique loop is congruence checking, not line polish: "we said this above and this isn't congruent" / "we need more meat here, we glossed over the important part" / "this metaphor is stupid, why are we using it?"
+**Deploy**: Run edit passes as big-idea-obstruction scans and section-level congruence checks; leave sentence cosmetics to AI.
+
+**Insight — Buy the Funnel**: The highest-density competitive research is spending $200-300 buying competitors' front-end products and walking the full checkout → upsell → post-purchase path yourself. Ads libraries show the front door; only purchasing shows the money architecture. Also the fastest cure for asking questions curiosity could answer.
+**Deploy**: Before building any funnel in a category, purchase 2-3 competing front-ends and map their upsell paths.
+
+**Insight — The Trial-Project Table Flip**: Business owners hiring copy talent almost never think to run paid trials until told; applicants who PROPOSE one own the frame: "Put me up against a few peers on a paid, deadlined, low-stakes project — when you do, the hiring decision will be obvious." It signals seasoned-pro confidence and converts the hire from a promises contest into a performance contest. (What owners actually buy: reliability, speed, no hand-holding, congruent portfolio samples — with AI, custom samples are "almost inexcusable" to skip.)
+**Deploy**: Client-acquisition contexts only — position the trial before they think of it.

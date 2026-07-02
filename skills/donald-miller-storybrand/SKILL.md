@@ -1,9 +1,9 @@
 ---
 name: "Donald Miller — StoryBrand Mastery"
 description: "Transform any business message into a story that hijacks the survival brain — BrandScripts, narrative copy, one-liners, messaging audits, sales funnels, email sequences, keynotes, and website wireframes"
-version: "2.0"
+version: "2.1"
 format: "completion-engine"
-workflows: 8
+workflows: 9
 ---
 
 # Donald Miller — StoryBrand Mastery
@@ -24,6 +24,7 @@ This skill deploys Miller's complete messaging operating system: the SB7 BrandSc
 | 06 | [Email Sequence Generator](workflows/06-email-sequence-generator.md) | 6-email sales sequence + nurture sequence | Need email campaigns that follow story structure |
 | 07 | [Keynote Narrative Architect](workflows/07-keynote-narrative-architect.md) | Story-structured presentation/webinar script | Structuring a talk, webinar, livestream, or pitch deck |
 | 08 | [Website Wireframe Generator](workflows/08-website-wireframe-generator.md) | StoryBrand-structured website wireframe with copy | Building or redesigning a homepage around story structure |
+| 09 | [Controlling Idea Cascade](workflows/09-controlling-idea-cascade.md) | The one filter sound bite + verbatim cascade map across all touchpoints | Messaging fragments across channels, or a campaign/pitch needs ONE governing idea propagated everywhere |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

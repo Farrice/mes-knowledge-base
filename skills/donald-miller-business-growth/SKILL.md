@@ -1,9 +1,9 @@
 ---
 name: "Donald Miller — Small Business Growth & Operations"
 description: 'Engineers a small business like an airplane so it scales without crashing — the operational/financial system underneath the messaging. Captures Miller''s Small Business Flight Plan from "How to Grow Your Small Business": the airplane six-part diagnostic + rule of proportion + S-curve detection, the Business-on-a-Mission Guiding Principles (Mission Statement formula "X by Y because Z" + Key Characteristics + Critical Actions), the product-optimization playbook (rank by true profit, the six value categories, the product brief), the Management & Productivity playbook (five meetings + artist/entrepreneur/operator + the operator hire), and the five-checking-account cash-flow system (high-water marks, boil-over transfers, reserve fund). Use when a business is growing but "everything feels heavy" (the S-curve), when the owner is firefighting instead of in their sweet spot, when products aren''t ranked by profit, when overhead is bloating, when business and personal money are commingled, or when planning a hire/expansion (rule of proportion). Trigger when the user says "professionalize my operation", "my business is growing but chaotic", "I don''t know which products make money", "cash flow is a mess", "how do I scale without crashing", or "small business growth plan". DELIBERATELY DEFERS marketing to donald-miller-storybrand/donald-miller-cognitive-load and sales to donald-miller-messaging-evolution — this skill flies the plane; the two engines are owned by the messaging skills.'
-version: "1.0"
+version: "1.1"
 format: "completion-engine"
-workflows: 6
+workflows: 7
 tier: system
 ---
 
@@ -31,6 +31,7 @@ Miller's airplane has six parts. Two — the **right engine (marketing)** and **
 |---|---------|----------|----------|
 | 04 | [Product-Optimization Playbook](workflows/04-product-optimization-playbook.md) | Profit ranking + pour-gas list + kill-list + new-product proposals (6 value categories) + product brief | Owner doesn't know which products make money; tempted to add SKUs/locations |
 | 05 | [Management & Productivity Playbook](workflows/05-management-productivity-playbook.md) | Operator hire + five-meeting cadence + templates + labor-refocus + comp model | Too many hats; organized chaos; unproductive meetings; bloated overhead |
+| 07 | [Entry-Offer & Product-Ladder Playbook](workflows/07-entry-offer-product-ladder.md) | Entry-offer spec + self-funding ad math + industry variants + 10x product ladder | High-ticket core offer but no low-friction entry rung; ads must pay for themselves; buyers have nowhere to climb |
 
 ### Tier 3 — Stacking
 
