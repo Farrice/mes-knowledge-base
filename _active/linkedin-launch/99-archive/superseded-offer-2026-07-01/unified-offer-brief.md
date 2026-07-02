@@ -1,3 +1,5 @@
+> **⛔ SUPERSEDED 2026-07-01 — do not sell from this doc.** The market-calibrated comparison (`../01-research/MARKET-OFFER-INTEL-2026-07-01.md`) crowned `CANONICAL-OFFER-BRIEF.md` as the spine; four organs of this doc were transplanted into it (Source-to-Search Trust Layer → the Pillar-2.5 Install; the Proof-Run instinct → the bounded fix sprint; spend-tiered pricing → internal quoting guidance; the Getting-Started ask → the TOF). Its "AI Creative Strategist" lane, $10–25K Intensive, and unsourced stats ("40–50% convert," "$300–$500 expectation") did not survive red-teaming. Archived to `99-archive/superseded-offer-2026-07-01/` same day.
+
 # The AI Creative Strategist Offer — 4 Pillar Service Ladder
 
 **For Health, Wellness, Supplement & Performance Brands**

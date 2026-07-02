@@ -29,7 +29,8 @@
 ### 2 · OFFER & SERVICE (what you sell)
 | Canonical | What it is |
 |---|---|
-| `_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md` | **The offer** — 4 pillars, pilot pricing, objections, upsell path. |
+| `_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md` | **The offer** — ENHANCED 2026-07-01 (market-calibrated + red-teamed): 5 rungs incl. the new Trust-Layer Install, conditioned founder-pilot pricing, solo capacity math (§8), 90-day inbound motion (§9). |
+| `_active/linkedin-launch/01-research/MARKET-OFFER-INTEL-2026-07-01.md` | **The price receipts** — what the market actually pays (audits, retainers, compliance review, ghostwriting), demand triggers, solo economics. Behind every number in the offer. |
 | `_active/linkedin-launch/02-offer/claim-safe-citation-audit-TEMPLATE.md` + `...-EXAMPLE.md` | **The $500 paid audit** — fulfillment script + a worked Create Wellness run. |
 | `_active/linkedin-launch/02-offer/lead-magnet-ai-search-visibility-test.md` | Free DIY lead magnet (the 7-check test). |
 | `_active/linkedin-launch/02-offer/featured-section-and-profile.md` | Profile headline + About + the 4 Featured cards. |

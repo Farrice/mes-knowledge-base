@@ -174,8 +174,8 @@ Track in `SIGNAL-DETECTION-QUICK-REF.md`:
 | **Full deployment strategy + visuals** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/DEPLOYMENT_SEQUENCE_2026-06-23.md` |
 | **Featured section setup (30–45 min)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/FEATURED-SECTION-LAUNCH-TODAY.md` |
 | **Featured section copy (ready to paste)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/FEATURED-SECTION-EXACT-COPY.md` |
-| **Unified 4-pillar offer brief** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief.md` |
-| **One-pager (send to prospects)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md` |
+| **THE offer (canonical, market-calibrated 2026-07-01)** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md` |
+| **One-pager (send to prospects)** | ⚠ cut a fresh one-pager from the canonical brief before sending — `unified-offer-brief-one-pager.md` is superseded (old prices + killed Intensive tier) |
 | **Daily motion + teardown cadence** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/DUAL-TRACK-LEAD-GEN-PLAYBOOK.md` |
 | **First week step-by-step** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/DUAL-TRACK-FIRST-WEEK-SETUP.md` |
 | **Signal tracking** | `/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/SIGNAL-DETECTION-QUICK-REF.md` |
