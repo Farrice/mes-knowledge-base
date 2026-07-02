@@ -906,6 +906,26 @@ def finalize(
 
     result["protocols_activated"] = protocols_activated
 
+    # ── Step 6.5: Auto-log routing decision ──────────────────────
+    # Routing intelligence sat DORMANT (0 entries ever, 2026-07-02 audit)
+    # because logging depended on manual CLI / /rate calls. Finalize is the
+    # deterministic seam where expert/skill/workflow/intent are all known.
+    try:
+        from routing_intelligence import log_routing_decision
+        routing_id = log_routing_decision(
+            request_summary=output_description,
+            intent_score=int(intent_alignment) if intent_alignment is not None else 0,
+            domain_detected=task_type or "unspecified",
+            experts_deployed=[e for e in [expert] if e],
+            tier_loaded=0,
+            mode="finalize-auto",
+            workflow_used=workflow or "",
+            ensemble=bool(sub_agents_spawned and sub_agents_spawned >= 2),
+        )
+        result["routing_logged"] = routing_id
+    except Exception:
+        result["routing_logged"] = None
+
     # ── Step 7: Write session state checkpoint ───────────────────
     try:
         save_session_state(

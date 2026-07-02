@@ -33,7 +33,7 @@ Wired in `.claude/settings.json` → `execution/hooks/`. When a gate fires, work
 | Gate | Hook | Behavior |
 |---|---|---|
 | **Cost gate** (paid APIs: Fal, Seedance, Kling, deep-research) | PreToolUse(Bash) → `cost_gate_hook.py` | **HARD BLOCK.** Denied = surface to Farrice, do not retry. Needs-approval = ask Farrice; ONLY after explicit yes run `cost_gate.py approve --service <id>`, then retry (15-min token) |
-| **Finalize debt** | Stop → `session_ledger_hook.py` | Expert skill loaded + artifact produced + no finalize = turn-end blocked ONCE with prefilled command. Run it honestly |
+| **Finalize debt** | Stop → `session_ledger_hook.py` | **OBSERVE MODE** (Farrice 2026-07-02): logs would-block to `.agent/sessions/observe-log.jsonl` + warns with prefilled command — does NOT block. Treat the warning as binding and run the finalize honestly. Flip: `LEDGER_ENFORCE=1` |
 | **Routing bindings** | UserPromptSubmit → `session_ledger_hook.py` | Violations injected as ROUTING WARNING with the binding reason — pivot or use the documented override flag |
 | **Sub-agent truth** | PostToolUse counts real Task/Agent spawns | Use the measured count in `--sub-agents`; zero spawns on a qualifying workflow logs a miss |
 

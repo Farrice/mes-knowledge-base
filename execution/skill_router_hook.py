@@ -26,6 +26,7 @@ Wired via .claude/settings.local.json -> hooks.UserPromptSubmit.
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -237,6 +238,48 @@ def _emit_control_override(route: str, reason: str) -> None:
     sys.exit(0)
 
 
+_GAP_STOPWORDS = frozenset(
+    "a an and are as at be but by can could do does for from get has have how i in is it "
+    "me my of on or our please should so some that the their them then this to us want we "
+    "what when which who will with would you your".split()
+)
+
+
+def _log_gap(prompt: str, top_score: float) -> None:
+    """Append an expertise-gap entry to .agent/gap-log.md (deterministic writer).
+
+    The gap log sat empty forever because appends were Claude-manual (2026-07-02
+    audit). This runs only after the hook's skip filters, so the prompt is an
+    expert-shaped task that no skill matched — the protocol's gap definition.
+    Format matches gap_analysis.parse_gap_log(). Never raises.
+    """
+    try:
+        gap_log = REPO_ROOT / ".agent" / "gap-log.md"
+        today = datetime.now().strftime("%Y-%m-%d")
+        tokens = sorted(
+            {t for t in re.findall(r"[a-z]{3,}", prompt.lower()) if t not in _GAP_STOPWORDS}
+        )[:3]
+        domain = "-".join(tokens) if tokens else "unclassified"
+        existing = gap_log.read_text(encoding="utf-8") if gap_log.exists() else ""
+        if f"## {today} — {domain}" in existing:
+            return  # same gap already logged today — no spam
+        task = prompt.replace("\n", " ").strip()
+        if len(task) > 160:
+            task = task[:157].rstrip() + "..."
+        entry = (
+            f"\n## {today} — {domain}\n\n"
+            f"**Task**: {task}\n"
+            f"**Severity**: Medium\n"
+            f"**Mode**: Advisory\n"
+            f"**Resolution**: unresolved (auto-logged by skill_router_hook, top match score {top_score:.1f})\n"
+            f"**Skill Created**: none\n"
+        )
+        with gap_log.open("a", encoding="utf-8") as f:
+            f.write(entry)
+    except Exception:
+        pass
+
+
 def main():
     # --- read hook payload (fail-safe) ---
     try:
@@ -284,11 +327,13 @@ def main():
         sys.exit(0)
 
     if not results:
+        _log_gap(prompt, 0.0)
         sys.exit(0)
 
     # --- relevance floor: don't inject weak/noise matches ---
     top_score = results[0][1]
     if top_score < 3.0:
+        _log_gap(prompt, top_score)
         sys.exit(0)
     strong = [(s, sc) for s, sc in results if sc >= top_score * 0.45]
 

@@ -21,7 +21,7 @@ Usage:
 import os
 import re
 import argparse
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -93,6 +93,18 @@ def activate_protocol(directive_path: str, note: str = "") -> Dict:
         result["new_count"] = new_count
         content = ACTIVATION_COUNT_PATTERN.sub(
             rf'\g<1>{new_count}\g<3>', content
+        )
+
+    # Advance 30-Day Review Date — an activated protocol is not stale.
+    # Without this, active protocols read as perpetually "overdue"/zombie
+    # (root cause of the 2026-07-02 audit's 42-zombie false count).
+    match = REVIEW_DATE_PATTERN.search(content)
+    if match:
+        next_review = (date.today() + timedelta(days=30)).isoformat()
+        result["old_review_date"] = match.group(2).strip()
+        result["new_review_date"] = next_review
+        content = REVIEW_DATE_PATTERN.sub(
+            rf'\g<1>{next_review}\g<3>', content
         )
 
     # Write back

@@ -139,11 +139,11 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-01 (chain_runner finalize for donald-miller-cognitive-load) |
-| **Activation Count** | 469 |
+| **Last Activated** | 2026-07-02 (chain_runner finalize for system-audit) |
+| **Activation Count** | 476 |
 
-**Phase 2**: ✅ ACTIVATED (2026-03-30, 123 entries). Run `/skill-evolution` after shipping sessions.
-**Phase 3**: ✅ ACTIVATED (2026-03-30). Cross-pollinated adversarial resilience to 5 skills.
-**Phase 4**: 🔒 LOCKED. Requires 3+ recurring gaps in `.agent/gap-log.md`.
+**Phase 2**: PRIMED, not cycling (corrected 2026-07-02 audit — the 2026-03-30 run was a one-off, not a loop). Candidates via `skill_evolution_candidates.py scan`; run `/skill-evolution <candidate>` after the E3 bake-off calibrates the eval set.
+**Phase 3**: PAUSED — concrete unlock in `.agent/evolution-paused.json`: eval set ≥15 human-calibrated entries + one Phase 2 cycle on a calibrated candidate. (The 2026-03-30 cross-pollination was a one-off predating the rubric pause.)
+**Phase 4**: 🔒 LOCKED. Requires 3+ recurring gaps in `.agent/gap-log.md` — gap entries now auto-append via `skill_router_hook.py` (2026-07-02), so this can actually unlock.
 
 *Created: 2026-03-10 | Compressed: 2026-04-13*

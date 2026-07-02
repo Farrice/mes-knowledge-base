@@ -15,15 +15,20 @@
     "new skill/agent/workflow ship (with discipline: add at least 1 eval entry per ship)"
   ],
   "still_paused": [
-    "Phase 3 cross-pollination (defer until tier classification verified)",
-    "Autonomous skill modification on skills without ground-truth benchmarks"
+    "Phase 3 cross-pollination \u2014 UNLOCK CONDITION (made concrete 2026-07-02 audit): eval_set_v1.jsonl reaches >=15 human-calibrated entries (E3 blind-pass bake-off ratings count) AND one Phase 2 cycle completes on a calibrated candidate",
+    "Autonomous skill modification on skills without ground-truth benchmarks (unchanged)"
   ],
   "verification_evidence": {
     "rubric_status": "rubric_load_bearing: true (11/12 calibrated)",
     "test_trace": "evolution_store/v2_traces/trace_20260504_105639_lara-acosta-linkedin-mastery.json",
     "test_composite": 8.7,
-    "test_distribution": "Intent 9 / Expert 9 / Adversarial 8 — non-uniform scoring proves grade compression broken",
+    "test_distribution": "Intent 9 / Expert 9 / Adversarial 8 \u2014 non-uniform scoring proves grade compression broken",
     "user_gut_score": 9,
     "calibration_consistency": "User's V1=7, V2=8, V2-WR=8, V2-WR-3=9 progression matched rubric's honest scoring at each iteration"
+  },
+  "audit_2026_07_02": {
+    "finding": "Phase 2 was READY but never run; candidate scan shows ~324 skills lack scored local performance evidence \u2014 grade-inflation flattening (composite 7.25) starves candidate selection. Rubric calibration via E3 bake-off is the true unlock for the whole cascade.",
+    "phase2_status": "primed \u2014 candidate snapshot written by skill_evolution_candidates.py scan; top rec: maria-wendt-digital-products (watchlist, do not mutate yet)",
+    "next": "After E3 bake-off: run /skill-evolution <calibrated candidate>, then lift Phase 3 pause"
   }
 }

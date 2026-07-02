@@ -7,3 +7,11 @@
 
 ---
 
+
+## 2026-07-02 — cavitation-diagnose-excavator
+
+**Task**: diagnose the hydraulic excavator swing motor cavitation noise under partial load
+**Severity**: Medium
+**Mode**: Advisory
+**Resolution**: unresolved (auto-logged by skill_router_hook, top match score 1.2)
+**Skill Created**: none

@@ -218,7 +218,7 @@ def check_routing_intelligence():
 
     try:
         data = json.loads(ri_file.read_text(encoding='utf-8'))
-        entries = len(data) if isinstance(data, list) else len(data.get('decisions', []))
+        entries = len(data) if isinstance(data, list) else len(data.get('routing_decisions', data.get('decisions', [])))
         return {
             'status': 'ACTIVE' if entries > 0 else 'DORMANT',
             'health': 'Healthy' if entries > 0 else 'Warning',
@@ -416,6 +416,35 @@ def generate_health_report(quick=False):
         enabled_str = 'Yes' if h['enabled'] else 'No'
         report.append(f"| {h['name']} | {enabled_str} | {h['event']} | {h['action']} |")
     report.append("")
+
+    # Finalize Gate (observe mode) — Farrice decision 2026-07-02: gate stays
+    # observe-only; this section makes the observe data visible instead of silent.
+    observe_log = ROOT / ".agent" / "sessions" / "observe-log.jsonl"
+    if observe_log.exists():
+        would_blocks_7d = 0
+        enforce_seen = False
+        cutoff = datetime.now() - timedelta(days=7)
+        for line in observe_log.read_text(encoding="utf-8").splitlines():
+            try:
+                entry = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            try:
+                ts = datetime.fromisoformat(entry.get("ts", ""))
+            except ValueError:
+                continue
+            if ts >= cutoff and entry.get("would_block"):
+                would_blocks_7d += 1
+                if entry.get("enforce"):
+                    enforce_seen = True
+        mode = "enforce" if enforce_seen else "observe"
+        report.append("## Finalize Gate")
+        report.append("")
+        report.append(f"- **Mode**: {mode} (Farrice 2026-07-02: observe; flip via LEDGER_ENFORCE=1)")
+        report.append(f"- **Would-blocks last 7d**: {would_blocks_7d}")
+        if would_blocks_7d >= 5:
+            report.append(f"- ⚠ {would_blocks_7d} unenforced finalize debts this week — revisit the observe-mode decision if this stays high")
+        report.append("")
 
     # Cascade Dependencies
     report.append("## Cascade Dependencies")

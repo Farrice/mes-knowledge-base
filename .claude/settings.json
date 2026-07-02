@@ -60,6 +60,16 @@
             "timeout": 10
           }
         ]
+      },
+      {
+        "matcher": "mcp__perplexity-ask__.*|mcp__recall__.*|mcp__claude_ai_Higgsfield__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/mcp_spend_log_hook.py\"",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "Stop": [

@@ -41,6 +41,7 @@ import os
 import re
 import sqlite3
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -371,7 +372,7 @@ def recall(
                   key=lambda r: r["score"], reverse=True)
     final = (pinned + rest)[:top_k]
 
-    return {
+    payload = {
         "query": query,
         "workspace": workspace,
         "result_count": len(final),
@@ -379,6 +380,31 @@ def recall(
         "by_source": by_source,
         "degraded": degraded or None,
     }
+    _log_fire(payload)
+    return payload
+
+
+def _log_fire(payload: Dict[str, Any]) -> None:
+    """Append a fire record to .agent/memory-facade-fires.jsonl.
+
+    Without this the facade's "fires before every expert output" claim was
+    unverifiable (2026-07-02 audit — the banned AI-memory-dependent
+    observability pattern). Telemetry only; never raises, never blocks.
+    """
+    try:
+        log_path = ROOT / ".agent" / "memory-facade-fires.jsonl"
+        entry = {
+            "ts": datetime.now(timezone.utc).isoformat(),
+            "query": payload["query"][:120],
+            "result_count": payload["result_count"],
+            "by_source": payload["by_source"],
+            "degraded": payload["degraded"],
+        }
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        with log_path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
 
 
 def _print_human(payload: Dict[str, Any]) -> None:
