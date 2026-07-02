@@ -59,5 +59,5 @@ When the result claims to improve content quality, include:
 For substantial deliverables, run:
 
 ```bash
-python3 execution/chain_runner.py finalize "Kobi Brown educational virality output" --expert kobi-brown --skill kobi-brown-educational-virality --workflow educational-breakout-system --type Content --intent 8 --expert-score 8 --adversarial 7 --sub-agents 0 --notes "Kobi educational virality front door | platform: codex | Verification: local route"
+python3 execution/chain_runner.py finalize "Kobi Brown educational virality output" --expert kobi-brown --skill kobi-brown-educational-virality --workflow educational-breakout-system --type Content --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] --sub-agents 0 --notes "Kobi educational virality front door | platform: codex | Verification: local route"
 ```

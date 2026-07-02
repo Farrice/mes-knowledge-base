@@ -70,6 +70,6 @@ python3 execution/chain_runner.py finalize "Revenue architecture — [publicatio
     --skill substack-business-architecture \
     --workflow sinem-revenue-architect \
     --type Strategy \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "4-layer revenue map with <10% rule diagnostic and conversion pathway"
 ```

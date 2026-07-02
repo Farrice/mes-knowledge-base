@@ -27,5 +27,5 @@ Return the rebuilt asset in native format + the Anti-Slop Verdict block (Cogniti
 For substantial deliverables:
 
 ```bash
-python3 execution/chain_runner.py finalize "Aha Engine output" --expert kobi-brown --skill kobi-brown-educational-virality --workflow aha-engine --type Content --intent 8 --expert-score 8 --adversarial 7 --sub-agents 0 --notes "Universal aha-engine | anti-slop verdict: [SIGNAL/BREAKTHROUGH] | Verification: local"
+python3 execution/chain_runner.py finalize "Aha Engine output" --expert kobi-brown --skill kobi-brown-educational-virality --workflow aha-engine --type Content --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] --sub-agents 0 --notes "Universal aha-engine | anti-slop verdict: [SIGNAL/BREAKTHROUGH] | Verification: local"
 ```

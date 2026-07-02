@@ -33,6 +33,6 @@ Build a Substack about page using Sinem Günel's "Silent Salesman" methodology.
 python3 execution/chain_runner.py finalize "About page — [name]" \
     --expert sinem-gunel --skill substack-business-architecture \
     --workflow sinem-about-page --type Copy \
-    --intent 8 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Silent Salesman: who/what/belong in 200 words"
 ```

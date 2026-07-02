@@ -105,6 +105,6 @@ python3 execution/chain_runner.py finalize "New Media Content Engine" \
     --skill "luke-iha-proof-copy" \
     --workflow "new-media-content-engine" \
     --type Content \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Proof copy engine with oral/written culture integration"
 ```

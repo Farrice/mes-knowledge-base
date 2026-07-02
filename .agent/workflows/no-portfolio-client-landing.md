@@ -31,6 +31,6 @@ python3 execution/chain_runner.py finalize "No-portfolio client landing strategy
     --skill nicolas-cole-client-acquisition \
     --workflow no-portfolio-client-landing \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "5 strategies ranked and customized to user situation"
 ```

@@ -49,6 +49,8 @@ Manual: When user gives feedback, update User Rating on the most recent entry.
 
 Sub-scores (Intent Alignment, Expert Standard, Adversarial Resilience, + Factual Grounding when applicable) map to Quality Gate's 4-point check.
 
+**Repo-wide finalize convention (E4/E5 sweep, 2026-07-02)**: scores are NEVER templated into workflow files — 45 workflows carried hardcoded `--intent 8/9` blocks, which made every run score identically and starved the ratchet of signal. All now read `[evidence-based]`. Derive each score from evidence at finalize time; any dimension ≥8 requires `--anchor-named` plus naming the matching `rubric_v1.md` anchor in notes (the 7.25 cap for unanchored ≥8s is deliberate and stays — `execution/taste_signature.py` Rule 2). Full discipline: `directives/embodiment-standard.md` § Scoring Discipline.
+
 ---
 
 ## Ratchet Mechanism
@@ -140,7 +142,7 @@ Prose classifier integrated into `chain_runner.py finalize()` — auto-warns on 
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-07-02 (chain_runner finalize for extract-mastery) |
-| **Activation Count** | 488 |
+| **Activation Count** | 489 |
 
 **Phase 2**: PRIMED, not cycling (corrected 2026-07-02 audit — the 2026-03-30 run was a one-off, not a loop). Candidates via `skill_evolution_candidates.py scan`; run `/skill-evolution <candidate>` after the E3 bake-off calibrates the eval set.
 **Phase 3**: PAUSED — concrete unlock in `.agent/evolution-paused.json`: eval set ≥15 human-calibrated entries + one Phase 2 cycle on a calibrated candidate. (The 2026-03-30 cross-pollination was a one-off predating the rubric pause.)

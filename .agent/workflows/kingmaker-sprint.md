@@ -56,6 +56,6 @@ python3 execution/chain_runner.py finalize "Kingmaker Sprint for [brand]" \
     --skill "new-media-kingmaker" \
     --workflow "kingmaker-sprint" \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Cross-pollinated 5+ experts through a16z methodology"
 ```

@@ -222,30 +222,47 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_224257_a6b1",
+            "timestamp": "2026-07-02T22:42:57.273808+00:00",
+            "session_id": "",
+            "request_summary": "E5 harvest roadmap + repo-wide score sweep: 5 dedup-checked harvest targets (headline: claim-safe/regulatory health marketing = ZERO coverage in 338 skills vs Path A definition — live liability, ranke",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 13,
+            "total_routings": 14,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 6,
+                "System": 7,
                 "Client Work": 2,
                 "Analysis": 4,
                 "Strategy": 1
             },
             "expert_counts": {
-                "system-audit": 9,
+                "system-audit": 10,
                 "strength-conditioning-os": 2,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1
             },
             "tier_counts": {
-                "0": 13,
+                "0": 14,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -254,7 +271,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 13
+                "finalize-auto": 14
             },
             "ensemble_count": 5
         }

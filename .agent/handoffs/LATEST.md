@@ -13,8 +13,8 @@
 ---
 thread: elevation-track
 status: ready
-resume_hint: Pick one: E5 breadth-harvest roadmap OR templated-score sweep (~8 workflows) — both specified in the handoff
-unfinished: E5 roadmap; templated-score sweep; bulk-01 retrofit backlog; Farrice queue (5 memory reviews, MCP re-auth, guard_stranded yes/no)
+resume_hint: BOTH lanes done same session — next: harvest wave target #1 (claim-safe/regulatory health marketing, ZERO coverage vs Path A) via /extract-forge per E5-harvest-roadmap.md
+unfinished: harvest wave (E5 roadmap targets 1-5); bulk-01 retrofit backlog; Farrice queue (5 memory reviews, MCP re-auth, guard_stranded yes/no)
 branch: main
 pin: true
 ---
@@ -23,6 +23,10 @@ pin: true
 
 **Date**: 2026-07-02 · **Repo**: `/Users/farricecain/Google Antigravity` (branch `main`, clean tree)
 **Next session focus**: Elevation Track **E5 breadth-harvest roadmap** (factory now ships to the blind-pass embodiment standard) — OR the **templated-score sweep** across ~8 non-extraction workflows.
+
+## ADDENDUM (same session, post-handoff)
+
+Both next-lane options were EXECUTED before close: **E5 roadmap done** (`_active/elevation-track/E5-harvest-roadmap.md` — 5 dedup-checked targets; #1 = claim-safe/regulatory health marketing, ZERO coverage in 338 skills vs Path A's literal definition = live liability, harvest first) and **score sweep done** (45 workflows — 5× the estimate — de-templated to `[evidence-based]`; convention centralized in `directives/feedback-ratchet.md`). Next session = the harvest wave itself, starting with target #1 via `/extract-forge`.
 
 ## Where things stand (one paragraph)
 

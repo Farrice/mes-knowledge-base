@@ -55,6 +55,6 @@ python3 execution/chain_runner.py finalize "Content Sprint for week of [date]" \
     --skill caleb-ralston-personal-brand \
     --workflow caleb-content-sprint \
     --type Content \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "[concepts tested, wrapping paper innovations]"
 ```

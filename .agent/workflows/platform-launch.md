@@ -63,6 +63,6 @@ python3 execution/chain_runner.py finalize "Platform Launch for [product]" \
     --skill "new-media-kingmaker" \
     --workflow "platform-launch" \
     --type Strategy \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Platform-native launch with cross-expert content slate"
 ```

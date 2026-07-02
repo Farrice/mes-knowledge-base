@@ -101,6 +101,6 @@ python3 execution/chain_runner.py finalize "Grace New Media Blueprint for [brand
     --skill "grace-andrews-media-company" \
     --workflow "grace-new-media" \
     --type Strategy \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Grace city map with a16z OODA + oral/written culture integration"
 ```

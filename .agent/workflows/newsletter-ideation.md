@@ -27,6 +27,6 @@ python3 execution/chain_runner.py finalize "Newsletter ideation — 10+ concepts
     --skill nicolas-cole-newsletter-flywheel \
     --workflow newsletter-ideation \
     --type Content \
-    --intent 8 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Ideation sprint with cross-matrix and calendar"
 ```

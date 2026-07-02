@@ -28,6 +28,6 @@ python3 execution/chain_runner.py finalize "Two Rules audit — [concept name]" 
     --skill nicolas-cole-newsletter-flywheel \
     --workflow book-never-ends \
     --type Analysis \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Binary audit with fix prescriptions"
 ```

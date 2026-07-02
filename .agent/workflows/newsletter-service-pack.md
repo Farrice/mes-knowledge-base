@@ -27,6 +27,6 @@ python3 execution/chain_runner.py finalize "Newsletter service package" \
     --skill nicolas-cole-newsletter-flywheel \
     --workflow newsletter-service-pack \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "3-tier service with SOW, SOP, and sales materials"
 ```

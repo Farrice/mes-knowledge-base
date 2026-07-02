@@ -70,6 +70,6 @@ python3 execution/chain_runner.py finalize "Bestseller campaign — [campaign na
     --skill substack-business-architecture \
     --workflow sinem-bestseller-campaign \
     --type Campaign \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Named campaign sprint with exclusive assets, promotion calendar, multi-channel deploy"
 ```

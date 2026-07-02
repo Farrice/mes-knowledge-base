@@ -326,3 +326,4 @@
 - `[2026-07-02 13:31]` **finalize** | Raw Intent Bridge invocation repaired for prefix-style Packet + Run usage | general | system-audit — composite:8.0 status:Keep
 - `[2026-07-02 14:58]` **finalize** | E3 Blind Bake-Off REVEAL — Farrice detected real experts 5/15 (33%, below chance), preferred skill-g | general | system-audit — composite:9.0 status:Keep
 - `[2026-07-02 15:06]` **finalize** | E4 — Embodiment Standard encoded into the factory: directives/embodiment-standard.md (canonical: 10- | general | system-audit — composite:8.33 status:Keep
+- `[2026-07-02 15:42]` **finalize** | E5 harvest roadmap + repo-wide score sweep: 5 dedup-checked harvest targets (headline: claim-safe/re | general | system-audit — composite:8.33 status:Keep

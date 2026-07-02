@@ -73,6 +73,6 @@ python3 execution/chain_runner.py finalize "New Media Ghostwriting for [client]"
     --skill "new-media-ghostwriting" \
     --workflow "voice-to-media-empire" \
     --type "Client Work" \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Premium ghostwriting with a16z media empire layer"
 ```

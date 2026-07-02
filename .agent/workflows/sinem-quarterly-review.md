@@ -58,6 +58,6 @@ Quarterly publication health check using Sinem Günel's methodology. Re-validate
 python3 execution/chain_runner.py finalize "Quarterly review — [publication] Q[N]" \
     --expert sinem-gunel --skill substack-business-architecture \
     --workflow sinem-quarterly-review --type Audit \
-    --intent 8 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Quarterly health check: positioning + revenue layers + Notes + retention"
 ```

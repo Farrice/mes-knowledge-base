@@ -46,6 +46,6 @@ Deploy Sinem Günel's retention engineering system — annual plan conversion, p
 python3 execution/chain_runner.py finalize "Retention engine — [publication]" \
     --expert sinem-gunel --skill substack-business-architecture \
     --workflow sinem-retention-engine --type Strategy \
-    --intent 8 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "3-layer: annual conversion + welcome sequence + chat bridge"
 ```

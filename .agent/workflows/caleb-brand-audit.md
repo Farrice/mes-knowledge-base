@@ -53,6 +53,6 @@ python3 execution/chain_runner.py finalize "360 Brand Audit for [name]" \
     --skill caleb-ralston-personal-brand \
     --workflow caleb-brand-audit \
     --type Analysis \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "[top weaknesses found, fix routes recommended]"
 ```

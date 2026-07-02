@@ -59,6 +59,6 @@ python3 execution/chain_runner.py finalize "Paid tier design — [publication na
     --skill substack-business-architecture \
     --workflow sinem-paid-tier-design \
     --type Strategy \
-    --intent 8 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Asset-based paywall with Covers the Cost test and annual-first pricing"
 ```

@@ -63,6 +63,6 @@ python3 execution/chain_runner.py finalize "Full Caleb Brand Build for [name]" \
     --skill caleb-ralston-personal-brand \
     --workflow caleb-brand-build \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "[what worked, what needed adjustment]"
 ```

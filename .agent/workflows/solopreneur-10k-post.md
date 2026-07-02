@@ -28,6 +28,6 @@ python3 execution/chain_runner.py finalize "SubStack post — [topic]" \
     --skill nicolas-cole-newsletter-flywheel \
     --workflow solopreneur-10k-post \
     --type Content \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Full post with prompt tangible asset and LinkedIn teasers"
 ```

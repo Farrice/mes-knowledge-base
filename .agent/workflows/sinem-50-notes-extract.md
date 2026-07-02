@@ -53,6 +53,6 @@ python3 execution/chain_runner.py finalize "50-notes extraction — [post title]
     --skill substack-business-architecture \
     --workflow sinem-50-notes-extract \
     --type Content \
-    --intent 8 --expert-score 9 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "6-pass extraction system: sentences, stories, questions, contrarians, frameworks, expansions"
 ```

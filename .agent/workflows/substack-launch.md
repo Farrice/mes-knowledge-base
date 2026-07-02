@@ -27,6 +27,6 @@ python3 execution/chain_runner.py finalize "SubStack launch package — [newslet
     --skill nicolas-cole-newsletter-flywheel \
     --workflow substack-launch \
     --type Content \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Complete launch package with name, about page, 3 posts, checklist"
 ```

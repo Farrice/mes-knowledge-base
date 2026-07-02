@@ -75,7 +75,7 @@ One-paragraph summary: what closed, what drained, what drifted. Then:
 ```bash
 python3 execution/chain_runner.py finalize "Weekly closeout <date>" \
     --expert system --skill system --workflow weekly-closeout \
-    --type System --intent 9 --expert-score 8 --adversarial 8 \
+    --type System --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "outcomes drained: N | calibration: clean/flagged | queue: accepted/rejected | Factual Grounding: N/A | Verification: N/A"
 ```
 

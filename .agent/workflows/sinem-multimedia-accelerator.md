@@ -48,6 +48,6 @@ Deploy Sinem's multimedia trust acceleration strategy. Creators using audio/vide
 python3 execution/chain_runner.py finalize "Multimedia strategy — [publication]" \
     --expert sinem-gunel --skill substack-business-architecture \
     --workflow sinem-multimedia-accelerator --type Strategy \
-    --intent 7 --expert-score 7 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "3-tier multimedia: audio → video → live with 50% growth premium"
 ```

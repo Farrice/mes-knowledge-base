@@ -101,6 +101,6 @@ python3 execution/chain_runner.py finalize "Proof Across Platforms" \
     --skill "luke-iha-proof-copy" \
     --workflow "proof-across-platforms" \
     --type Content \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Cross-pollinated proof ladder with oral/written culture matrix"
 ```

@@ -50,6 +50,6 @@ Comprehensive publication audit against Sinem Günel's 10-criterion Quality Rubr
 python3 execution/chain_runner.py finalize "Publication audit — [name]" \
     --expert sinem-gunel --skill substack-business-architecture \
     --workflow sinem-audit --type Audit \
-    --intent 9 --expert-score 9 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "10-criterion rubric audit with scored diagnostics and prescriptions"
 ```

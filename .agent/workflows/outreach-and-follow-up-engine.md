@@ -31,6 +31,6 @@ python3 execution/chain_runner.py finalize "Complete outreach pipeline with netw
     --skill nicolas-cole-client-acquisition \
     --workflow outreach-and-follow-up-engine \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Leaks/Faucets map, warm scripts, cold outreach, 5x follow-up, pipeline tracker"
 ```

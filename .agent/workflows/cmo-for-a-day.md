@@ -31,6 +31,6 @@ python3 execution/chain_runner.py finalize "Pitch-in-public content piece" \
     --skill nicolas-cole-client-acquisition \
     --workflow cmo-for-a-day \
     --type Content \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Public prospect analysis post with authority + outreach dual function"
 ```

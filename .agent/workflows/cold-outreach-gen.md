@@ -32,6 +32,6 @@ python3 execution/chain_runner.py finalize "Personalized cold outreach + 5x foll
     --skill nicolas-cole-client-acquisition \
     --workflow cold-outreach-gen \
     --type Content \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Prospect-specific outreach with problem diagnosis"
 ```

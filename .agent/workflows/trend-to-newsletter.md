@@ -27,6 +27,6 @@ python3 execution/chain_runner.py finalize "Trend research — [domain]" \
     --skill nicolas-cole-newsletter-flywheel \
     --workflow trend-to-newsletter \
     --type Research \
-    --intent 8 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Trend scan with cross-pattern matrix"
 ```

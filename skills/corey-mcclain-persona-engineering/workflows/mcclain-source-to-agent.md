@@ -138,7 +138,7 @@ Validate the agent before declaring it production-ready:
 ```bash
 python3 execution/chain_runner.py finalize "[Expert] — Persona-based agent (source-to-agent)" \
     --expert [expert-name] --skill [skill-dir] --workflow mcclain-source-to-agent \
-    --type Agent --intent 9 --expert-score 9 --adversarial 8 \
+    --type Agent --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "[workflow count] workflows, persona-based LLMP stack, source-to-agent pipeline"
 ```
 

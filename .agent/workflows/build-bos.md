@@ -185,7 +185,7 @@ Steps:
       --skill "brand-operating-system" \
       --workflow "build-bos" \
       --type "Client Work" \
-      --intent 9 --expert-score 9 --adversarial 8 \
+      --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
       --notes "<Brand> BOS v1 — 6 layers, 43 docs | Factual Grounding: 9 | Verification: PASS"
   ```
 

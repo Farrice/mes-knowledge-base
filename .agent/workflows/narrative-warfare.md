@@ -60,6 +60,6 @@ python3 execution/chain_runner.py finalize "Narrative Warfare Build" \
     --skill "new-media-kingmaker" \
     --workflow "narrative-warfare" \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 9 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "OODA loop + proof ladder + flood-zone compound"
 ```

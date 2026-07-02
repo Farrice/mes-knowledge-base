@@ -27,6 +27,6 @@ python3 execution/chain_runner.py finalize "Coaching prompts — [domain]" \
     --skill nicolas-cole-newsletter-flywheel \
     --workflow prompt-as-product \
     --type Content \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "5 coaching prompts with newsletter integration"
 ```

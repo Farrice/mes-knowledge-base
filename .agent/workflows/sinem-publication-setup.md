@@ -46,6 +46,6 @@ python3 execution/chain_runner.py finalize "Publication setup — [publication n
     --skill substack-business-architecture \
     --workflow sinem-publication-setup \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 8 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Three Questions lock + about page + hero post + navigation + welcome email"
 ```

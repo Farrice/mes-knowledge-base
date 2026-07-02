@@ -54,6 +54,6 @@ python3 execution/chain_runner.py finalize "Collaboration outreach — [target c
     --skill substack-business-architecture \
     --workflow sinem-collaboration-outreach \
     --type Outreach \
-    --intent 8 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "3-element formula: specific format + unique fit + recipient value"
 ```

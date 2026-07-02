@@ -30,6 +30,6 @@ python3 execution/chain_runner.py finalize "Tangible asset identification — [a
     --skill nicolas-cole-newsletter-flywheel \
     --workflow tangible-faucet \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Asset ID with faucet test validation"
 ```

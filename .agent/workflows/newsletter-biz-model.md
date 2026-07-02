@@ -28,6 +28,6 @@ python3 execution/chain_runner.py finalize "Newsletter business model — [free/
     --skill nicolas-cole-newsletter-flywheel \
     --workflow newsletter-biz-model \
     --type Strategy \
-    --intent 9 --expert-score 8 --adversarial 7 \
+    --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Business model fork with revenue projections"
 ```
