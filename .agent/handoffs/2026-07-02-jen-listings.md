@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** jen-listings  
-**Full path:** .agent/handoffs/2026-07-02-jen-listings.md  
-**Date:** 2026-07-02 (today)  
-**Status:** ready  
-**Title:** Handoff — Grounded Copy Engine + High-Stakes Proof Gate
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jen-listings` for this one.
-
----
-
 ---
 thread: jen-listings
 status: ready
@@ -56,4 +44,3 @@ Working tree's only dirty items are transient session ledgers + unrelated `_acti
 - **`/weekly-closeout`** — clear the stale outer loop (24 deliverables need outcomes).
 - **`fact-verifier`** agent — for any new regulated-market claims before send.
 - **`/craves-polish` / `/writers-room`** — refine the SFV copy off the cache at $0.
-

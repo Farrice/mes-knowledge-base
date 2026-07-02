@@ -584,7 +584,6 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/skills/daniel-thrasher-affiliate/workflows/01-select-offer.md",
   "/Users/farricecain/Google Antigravity/skills/daniel-thrasher-affiliate/workflows/02-build-campaign.md",
   "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/genius.md",
   "/Users/farricecain/Google Antigravity/skills/daniel-thrasher-affiliate/workflows/03-optimize-and-scale.md",
@@ -593,7 +592,8 @@
   "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/workflows/02-audit-orthodoxy.md",
   "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/workflows/03-compress-the-change.md",
   "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/SKILL.md",
-  "/Users/farricecain/Google Antigravity/agents/tobi-lutke/AGENT.md"
+  "/Users/farricecain/Google Antigravity/agents/tobi-lutke/AGENT.md",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/2c217036-8d29-4ef4-9edb-385606aeca23/scratchpad/handoff-2026-07-02-claude-export-harvest.md"
  ],
  "subagent_spawns": 8,
  "finalized_at": null,
@@ -603,7 +603,8 @@
  "miss_logged": false,
  "handoff_pending": false,
  "handoff_warned": false,
- "session_pinned": false,
- "session_pinned_at": null,
- "pin_nudged": true
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-02T10:57:51.926546",
+ "pin_nudged": true,
+ "handoff_saved_at": "2026-07-02T10:57:51.926531"
 }

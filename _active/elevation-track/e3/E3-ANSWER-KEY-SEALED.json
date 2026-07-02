@@ -1,0 +1,122 @@
+[
+ {
+  "comparison": 1,
+  "skill": "lara-acosta-linkedin-mastery",
+  "piece_idx": 1,
+  "real": "B",
+  "real_source": "LinkedIn laraacostar activity-7093191468319653888 (2023-08-04), slug+title cross-verified",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 2,
+  "skill": "lara-acosta-linkedin-mastery",
+  "piece_idx": 2,
+  "real": "B",
+  "real_source": "LinkedIn laraacostar activity-7442189878542553092 (2026-03-24); original typo preserved",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 3,
+  "skill": "lara-acosta-linkedin-mastery",
+  "piece_idx": 3,
+  "real": "B",
+  "real_source": "LinkedIn laraacostar activity-7130532568843603968 (2023-11-15)",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 4,
+  "skill": "luke-iha-copy-blocks",
+  "piece_idx": 1,
+  "real": "B",
+  "real_source": "extractions/luke-iha/video-3-levels-of-awareness/transcript.txt \u2014 his own composed example ad",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 5,
+  "skill": "luke-iha-copy-blocks",
+  "piece_idx": 2,
+  "real": "A",
+  "real_source": "same transcript, worldview-porn section \u2014 his own written examples",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 6,
+  "skill": "luke-iha-copy-blocks",
+  "piece_idx": 3,
+  "real": "A",
+  "real_source": "extractions/luke-iha-insight-mastery/transcript.txt \u2014 insight-vector gummy ad; two transcription typos fixed",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 7,
+  "skill": "alex-hormozi-business",
+  "piece_idx": 1,
+  "real": "A",
+  "real_source": "$100M Offers (2021) Ch.2 offer ladder; first rungs double-confirmed, full ladder single-source",
+  "real_confidence": "LIKELY"
+ },
+ {
+  "comparison": 8,
+  "skill": "alex-hormozi-business",
+  "piece_idx": 2,
+  "real": "B",
+  "real_source": "LinkedIn alexhormozi activity-7057390440928432128 ('10 Truths I live by'); formatting-to-the-character unverified",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 9,
+  "skill": "alex-hormozi-business",
+  "piece_idx": 3,
+  "real": "B",
+  "real_source": "LinkedIn alexhormozi activity-7080243902582005761",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 10,
+  "skill": "andrew-stanton-audience-engineering",
+  "piece_idx": 1,
+  "real": "A",
+  "real_source": "TED2012 'The Clues to a Great Story' (official transcript, mirror-verified)",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 11,
+  "skill": "andrew-stanton-audience-engineering",
+  "piece_idx": 2,
+  "real": "B",
+  "real_source": "TED2012, same talk",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 12,
+  "skill": "andrew-stanton-audience-engineering",
+  "piece_idx": 3,
+  "real": "B",
+  "real_source": "TED2012, same talk",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 13,
+  "skill": "alex-suzuki-digital-product-revenue-os",
+  "piece_idx": 1,
+  "real": "A",
+  "real_source": "x.com/X_FINALBOSS status 1977059808692867245 (Oct 11 2025)",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 14,
+  "skill": "alex-suzuki-digital-product-revenue-os",
+  "piece_idx": 2,
+  "real": "A",
+  "real_source": "x.com/X_FINALBOSS status 1979654335450812703 (Oct 18 2025)",
+  "real_confidence": "VERIFIED"
+ },
+ {
+  "comparison": 15,
+  "skill": "alex-suzuki-digital-product-revenue-os",
+  "piece_idx": 3,
+  "real": "B",
+  "real_source": "x.com/X_FINALBOSS status 1991757051165360559 (Nov 21 2025); one short mid-post segment unconfirmable (X fetch-blocked), joined at natural break",
+  "real_confidence": "LIKELY"
+ }
+]

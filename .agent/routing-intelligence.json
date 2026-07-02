@@ -86,12 +86,29 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_182222_6ce6",
+            "timestamp": "2026-07-02T18:22:22.061745+00:00",
+            "session_id": "",
+            "request_summary": "E3 Blind Bake-Off packet assembled — 15 comparisons across 5 skills (lara-linkedin-mastery, luke-copy-blocks, hormozi, stanton control, suzuki): 15 verbatim provenance-verified real pieces curated (co",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 5,
+            "total_routings": 6,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -99,14 +116,14 @@
             "domain_counts": {
                 "System": 1,
                 "Client Work": 2,
-                "Analysis": 2
+                "Analysis": 3
             },
             "expert_counts": {
-                "system-audit": 3,
+                "system-audit": 4,
                 "strength-conditioning-os": 2
             },
             "tier_counts": {
-                "0": 5,
+                "0": 6,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -115,9 +132,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 5
+                "finalize-auto": 6
             },
-            "ensemble_count": 4
+            "ensemble_count": 5
         }
     }
 }
