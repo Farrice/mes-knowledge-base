@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** claude-export-harvest  
-**Full path:** .agent/handoffs/2026-07-02-claude-export-harvest.md  
-**Date:** 2026-07-02 (today)  
-**Status:** ready  
-**Title:** Handoff — claude.ai Export Harvest: COMPLETE → Battle-Test Phase
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume claude-export-harvest` for this one.
-
----
-
 ---
 thread: claude-export-harvest
 status: ready
@@ -58,4 +46,3 @@ The **entire claude.ai account export** (3,711 conversations, 142 Projects, 1.37
 - `/extract-amplify` — surgical enrichment if a lane feels flat (never rebuild)
 - `/resume` — thread triage if picking up elsewhere
 - `prose_classifier.py check` — before any client-facing deliverable ships
-
