@@ -1,4 +1,5 @@
 # THE CLAIM CHECK — live-audit artifact kit
+
 ### A public Claude artifact that performs one slice of the paid audit, live, on the visitor's own claim.
 
 > **What this is (built 2026-07-01):** the interactive lead magnet — modeled on the public-artifact play (cf. Diandra Escobar's cited-by-AI artifact) but one level up: instead of teaching, it **does the work**. A brand operator pastes their strongest marketing claim; the artifact runs Farrice's two-gate read on it live (Will a regulator flag it? Will AI repeat it?), shows the verdict like a lab report, hands them one safe-and-citable rewrite, and routes to `DM 'AUDIT'`.
@@ -11,7 +12,7 @@
 
 Open a new chat on claude.ai (or CoWork) and paste the entire block below as one message:
 
-~~~
+```
 Build me a single-file React artifact called "The Claim Check". It is a live diagnostic tool for health/supplement/wellness brand operators. Follow this spec exactly.
 
 WHAT IT DOES
@@ -33,7 +34,8 @@ SCREENS / STATES
    - THE REWRITE card: one version of their claim rewritten to be safe AND citable (structure/function verb, mechanism named, selling power kept), plus one line: "Evidence you'd want on file: …"
    - THE BRIDGE (end card): "This was ONE claim. The real version of this — The Claim-Safe Citation Audit — grades your top 8–12 claims, shows you the 3–5 questions where AI names a competitor instead of you, and hands you the fix map. DM me 'AUDIT' on LinkedIn." Button: "DM me 'AUDIT'" linking to https://www.linkedin.com/in/REPLACE-WITH-FARRICE-PROFILE (open in new tab). Sub-line: "Farrice Cain — 18 years in human performance (NASM ×3). I read the science under the claim before I grade the claim."
    - "Check another claim" button that resets.
-4. ERROR state: if the AI response fails or the input is empty/not-a-claim, show a kind plain-language message and let them retry.
+4. NO-LOGIN state (critical — most visitors arrive logged OUT of Claude): if window.claude is unavailable, or the completion call fails for auth/permission reasons, do NOT show a generic error. Show: "This tool runs on a free Claude login. No login? Run the no-login version instead — the 7-check AI-Search Visibility Test:" with a prominent link button to [7-CHECK-DOC-URL — replace before publishing]. The fallback must be RENDERED in this state, not implied.
+5. ERROR state (everything else): if the response fails to parse or the input is empty/not-a-claim, show a kind plain-language message and let them retry.
 
 DESIGN DIRECTION (anti-generic, mobile-first)
 - Feels like a clean lab report, not a SaaS landing page: off-white background, ink-dark text, ONE accent per verdict state (deep green / amber / signal red), generous whitespace, tabular-number font for scores, subtle 1px borders. No purple gradients, no emoji spray, no stock-illustration vibe, no three-equal-cards hero. One memorable touch: the verdict banner types itself in like a report line printing.
@@ -53,7 +55,7 @@ IMPLEMENTATION NOTES
 - Use window.claude.complete(prompt) for the call; JSON.parse defensively (strip any text around the JSON; on parse failure, retry once with "Return ONLY the JSON object.").
 - No external network calls, no localStorage, no analytics. Everything in one file.
 - Keep total interface copy under ~150 words. Every word earns its place.
-~~~
+```
 
 Then: test it (Step 2), click **Publish** on the artifact, copy the public link.
 
@@ -62,13 +64,15 @@ Then: test it (Step 2), click **Publish** on the artifact, copy the public link.
 1. **Should come back LANDMINE:** `"Clinically proven to cure anxiety and eliminate cortisol spikes in 7 days"` (drug verb + disease outcome + absolutism + unsupported "clinically proven").
 2. **Should come back CAUTION:** `"Boosts testosterone by up to 42% — guaranteed results in 30 days"` (implied medical outcome, absolutist, receipt-shaped number with no source).
 3. **Should come back CLEAR-ish:** `"Magnesium glycinate, 300mg — the form used in most sleep studies, chosen because it actually absorbs. Supports deeper, calmer sleep."` (structure/function verb, mechanism, receipt shape).
-Also test: empty input, a non-claim ("hello"), and one run with the optional fields filled. Check it on your phone.
+   Also test: empty input, a non-claim ("hello"), one run with the optional fields filled, and **the logged-out state** (open the public link in a private/incognito window — the no-login fallback with the 7-check link must render, not a generic error). Check it on your phone.
+
+**Pre-publish checklist (dead-button guard):** ① the LinkedIn profile URL placeholder is replaced with your real profile URL; ② the [7-CHECK-DOC-URL] placeholder is replaced with the live Google Doc link; ③ both buttons actually open in a new tab. Publish only after all three.
 
 ## STEP 3 — Wire it in (10 minutes)
 
-1. **Featured card (replace or sit beside card [1]):**
+1. **Featured card (takes slot [1]; the 7-check Doc takes slot [4] as the no-login path; the POV manifesto moves to the About's link line):**
    - Title: `The Claim Check — paste your claim, see if it survives (live, 20 seconds)`
-   - Description: `Paste your strongest marketing claim. Find out whether a regulator would flag it and whether AI would ever repeat it — plus the rewrite that survives both. Free. No email. Live.`
+   - Description: `Paste your strongest marketing claim. Find out whether a regulator would flag it and whether AI would ever repeat it — plus the rewrite that survives both. Free. No email. Nothing stored. (Runs on a free Claude login — no login? The 7-check test below needs none.)`
    - Link: the public artifact URL.
 2. **Update the profile About's test line** when you're ready: the 7-check Doc stays (no-login fallback); the Claim Check becomes the headline free thing.
 3. **The DM flow:** anyone who posts/DMs a screenshot of their verdict gets the §7-A teardown DM with their result as the opener ("saw your LANDMINE — want me to run your other seven?").
@@ -92,9 +96,11 @@ It's free. It's live. No email, nothing stored. Paste the claim you're most conf
 
 [artifact link in first comment]
 ```
+
 First comment: the link + `If your verdict says LANDMINE, DM me 'AUDIT' — the full version grades your top 8–12 and shows where AI names a competitor instead of you.`
 
 ## Notes & guardrails
+
 - **Viewer requirement:** the AI part needs the visitor to be logged into a (free) Claude account — same trade Diandra's artifact makes. The Google-Doc 7-check test remains the zero-login path; the two cross-link.
 - **The disclaimer is load-bearing** ("educational read, not legal advice") — it's in the artifact footer and the results card. Never remove it.
 - **Nothing is stored** — say so proudly; it's a trust feature for this exact buyer.

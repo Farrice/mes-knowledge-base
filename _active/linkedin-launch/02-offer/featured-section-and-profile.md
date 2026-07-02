@@ -73,7 +73,7 @@ DM me 'AUDIT'.
 
 > LinkedIn Featured items show a **title** (bold, ~90 chars usable) and a **description** (~150-250 chars usable before truncation) per card. Order matters: it reads left-to-right, top item first. Each card removes one objection. No pitch — proof.
 
-> **⚡ UPGRADE PATH (2026-07-01):** a LIVE interactive lead magnet now exists — **The Claim Check** (public Claude artifact that runs the two-gate read on a visitor's own claim). Build + launch kit: `THE-CLAIM-CHECK-artifact-kit.md`. Once published, it takes this card-[1] slot (card copy in the kit, Step 3); the 7-check Doc below stays as the zero-login fallback and moves to card [4] or the About link.
+> **⚡ UPGRADE PATH (2026-07-01, slot map LOCKED after cold-visitor stress-test):** a LIVE interactive lead magnet now exists — **The Claim Check** (public Claude artifact that runs the two-gate read on a visitor's own claim). Build + launch kit: `THE-CLAIM-CHECK-artifact-kit.md`. Once published: **[1] = the Claim Check artifact** (card copy in kit Step 3, includes the login pre-disclosure) · **[4] = the 7-check Doc** (the zero-login fallback — it MUST hold a card so the artifact's no-login state has a visible sibling) · the POV manifesto (old [4]) moves to the About's link line. **Day-1 rule:** no dead cards — until the teardown post ([2]) and the pinned CTA post ([3]) are published, point both cards at their Google-Doc versions.
 
 ### [1] THE LEAD MAGNET — primary, top-left position
 
@@ -92,7 +92,7 @@ DM me 'AUDIT'.
 ### [3] THE "DM ME AUDIT" CTA POST — the conversion router
 
 - **Title:** `The Claim-Safe Citation Audit — DM me 'AUDIT' for a free teardown`
-- **Description (card copy):** `I'll grade one of your top claims two ways: is it citation-worthy (will AI carry it?) and does it survive scrutiny (FTC-substantiation)? The one audit only a body-expert can run. Free first one. DM 'AUDIT'.`
+- **Description (card copy):** `DM 'AUDIT' and I'll run a free 1-claim teardown: would a regulator flag it, and would AI ever repeat it? The full Audit — your top 8–12 claims plus the questions where competitors get named instead of you — is a $500 founder pilot (3 slots).`
 - **Links to:** A pinned LinkedIn post that names the paid offer (The Claim-Safe Citation Audit, pilot $500), opens with a wince line, and whose **first comment** ends with `DM me 'AUDIT' for a free teardown.` **TODO:** write/publish this as a standalone post, pin it, link it here. (Workstream B owns the post copy; this card points at it.)
 - **Why third:** By now they've seen the gap (item 1) and the proof (item 2). This is where intent converts to a DM verb.
 
