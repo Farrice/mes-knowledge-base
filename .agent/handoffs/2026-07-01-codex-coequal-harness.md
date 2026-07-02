@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** codex-coequal-harness  
-**Full path:** .agent/handoffs/2026-07-01-codex-coequal-harness.md  
-**Date:** 2026-07-01 (today)  
-**Status:** ready  
-**Title:** Handoff: Codex Co-Equal Harness — Repaired, Verified, Pushed
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume codex-coequal-harness` for this one.
-
----
-
 ---
 thread: codex-coequal-harness
 status: ready
@@ -77,4 +65,3 @@ The full Codex co-equal harness repair is **done, verified 10/10 green, committe
 - `/health-check` — lighter status read than a full audit
 - `superpowers:verification-before-completion` — before declaring any follow-up repair done
 - `/repeatability-spine` — if output quality regresses vs. this session's standard
-

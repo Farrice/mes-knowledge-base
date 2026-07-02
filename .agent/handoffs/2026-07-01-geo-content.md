@@ -1,12 +1,12 @@
 ---
 thread: geo-content
 status: active
-resume_hint: Prospect-facing offer one-pager (cut from enhanced canonical, Iha-blocks composition, prose gate CLEAN) + CREATIVE-BOOK rebuilt as the every-morning production playbook (90-min daily run w/ exit criteria, conversion motion, 6 verbatim scripts, 90-day focus); coach-era dm-scripts tombstoned; all committed fcbeb577
+resume_hint: Miller zero-load pass on all buyer-facing assets: 5 PEACE sound bites (SOUND-BITES.md) + one-pager rewritten as story + About/3 headlines + lead magnet de-lectured (stats to footer, labels speak to one reader) + sound bites ported to canonical/Creative Book. Architecture/prices locked per stop-loss; words only.
 branch: main
 pin: true
 ---
 
-# Prospect-facing offer one-pager (cut from enhanced canonical, Iha-blocks composition, prose gate CLEAN) + CREATIVE-BOOK rebuilt as the every-morning production playbook (90-min daily run w/ exit criteria, conversion motion, 6 verbatim scripts, 90-day focus); coach-era dm-scripts tombstoned; all committed fcbeb577
+# Miller zero-load pass on all buyer-facing assets: 5 PEACE sound bites (SOUND-BITES.md) + one-pager rewritten as story + About/3 headlines + lead magnet de-lectured (stats to footer, labels speak to one reader) + sound bites ported to canonical/Creative Book. Architecture/prices locked per stop-loss; words only.
 
 **Next session focus**: Resume the `geo-content` work-stream — see the deliverable above.
 
