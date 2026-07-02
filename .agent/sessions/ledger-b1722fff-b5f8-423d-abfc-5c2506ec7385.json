@@ -39,7 +39,6 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/GO-LIVE-DEPLOYMENT-JUNE-23-2026.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/OFFER-ONE-PAGER.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/00-start-here/CREATIVE-BOOK.md",
@@ -48,7 +47,8 @@
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/SOUND-BITES.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/featured-section-and-profile.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/lead-magnet-ai-search-visibility-test.md",
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/THE-CLAIM-CHECK-artifact-kit.md"
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/THE-CLAIM-CHECK-artifact-kit.md",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/b1722fff-b5f8-423d-abfc-5c2506ec7385/scratchpad/handoff-2026-07-01-geo-content-launch.md"
  ],
  "subagent_spawns": 4,
  "finalized_at": null,
@@ -59,6 +59,7 @@
  "handoff_pending": false,
  "handoff_warned": false,
  "session_pinned": true,
- "session_pinned_at": "2026-07-01T19:37:14.596297",
- "pin_nudged": true
+ "session_pinned_at": "2026-07-02T11:45:56.543384",
+ "pin_nudged": true,
+ "handoff_saved_at": "2026-07-02T11:45:56.543375"
 }
