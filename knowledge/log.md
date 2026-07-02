@@ -142,7 +142,6 @@
 - `[2026-06-09 11:04]` **finalize** | Noah Hawley — Showrunner & Storytelling mastery extraction (forge) | general | noah-hawley — composite:7.25 status:Needs Improvement
 - `[2026-06-09 12:06]` **finalize** | Noah Hawley — Showrunner & Storytelling Mastery (Extract-Forge) | general | noah-hawley — composite:7.25 status:Needs Improvement
 - `[2026-06-09 18:53]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
-- `[2026-06-09 18:53]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
 - `[2026-06-09 18:54]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
 - `[2026-06-10 20:07]` **finalize** | Meg Heckman — buyer-trigger merch psychology mastery extraction (forge, multi-source): 16 genius pat | general | meg-heckman — composite:7.25 status:Needs Improvement
 - `[2026-06-10 21:02]` **finalize** | MyBPM /merch-os Run 1: 6-phase deployment complete (GROUND, CONCEPT, SCORE, LISTING, DESIGN HANDOFF, | general | meg-heckman — composite:7.25 status:Needs Improvement
@@ -169,7 +168,6 @@
 - `[2026-06-13 12:01]` **finalize** | DWA Reality Map anti-hype campaign pack with research, free asset, X post, Threads stack, Instagram  | general | alex-suzuki-digital-product-revenue-os — composite:6.17 status:Needs Improvement
 - `[2026-06-13 12:02]` **finalize** | DWA Reality Map campaign completed: Step 1 assets, Step 2 Suzuki launch debugger red team, and Step  | general | alex-suzuki-digital-product-revenue-os — composite:7.25 status:Needs Improvement
 - `[2026-06-13 12:31]` **finalize** | DWA research correction: deepened social listening from public YouTube review/comment surfaces, rebu | general | alex-suzuki-digital-product-revenue-os — composite:7.25 status:Needs Improvement
-- `[2026-06-13 12:42]` **finalize** | Day 1 DWA Buyer Question Map copy: single strongest X post, Threads stack, and first DM, faceless wi | general | alex-suzuki-digital-product-revenue-os — composite:7.25 status:Needs Improvement
 - `[2026-06-13 12:42]` **finalize** | Day 1 DWA Buyer Question Map copy: single strongest X post, Threads stack, and first DM, faceless wi | general | alex-suzuki-digital-product-revenue-os — composite:7.25 status:Needs Improvement
 - `[2026-06-13 14:16]` **finalize** | 15 percent voice-tuned Day 1 DWA X post with no hype or income claims | general | alex-suzuki-digital-product-revenue-os — composite:6.17 status:Needs Improvement
 - `[2026-06-13 14:17]` **finalize** | Revised single Day 1 DWA X post to sound 15 percent more like Farrice: candid, skeptical, faceless,  | general | alex-suzuki-digital-product-revenue-os — composite:6.17 status:Needs Improvement
@@ -238,7 +236,6 @@
 - `[2026-06-24 10:50]` **finalize** | Andrew Stanton — audience-engineering & emotional-architecture mastery extraction (forge) | general | andrew-stanton — composite:7.25 status:Needs Improvement
 - `[2026-06-25 09:29]` **finalize** | Andrew Stanton audience-engineering extraction (20 workflows + skill + agent + deep integration) | general | andrew-stanton — composite:7.25 status:Needs Improvement
 - `[2026-06-25 09:32]` **finalize** | AI Visibility + Trust Layer — flagship LinkedIn proof asset for health/wellness operators | general | andrew-stanton — composite:7.25 status:Needs Improvement
-- `[2026-06-25 09:32]` **finalize** | AI Visibility + Trust Layer — flagship LinkedIn proof asset for health/wellness operators | general | andrew-stanton — composite:7.25 status:Needs Improvement
 - `[2026-06-25 10:04]` **finalize** | Launch Decision Brief red-teaming ICP/avatar research, Codex-vs-Claude offer comparison, external ma | general | lara-acosta-luke-iha-ethan-smith-nathan-gotch — composite:8.67 status:Keep
 - `[2026-06-25 10:29]` **finalize** | Ward Farnsworth — rhetorical mastery forge-expansion | general | ward-farnsworth — composite:7.25 status:Needs Improvement
 - `[2026-06-26 01:28]` **finalize** | Lulu Cheng Meservey - forge-expansion (How I Write) | general | lulu-cheng — composite:7.25 status:Needs Improvement
@@ -246,13 +243,11 @@
 - `[2026-06-26 01:28]` **finalize** | Dan Wang - forge-expansion (How I Write) | general | dan-wang — composite:7.25 status:Needs Improvement
 - `[2026-06-26 01:51]` **finalize** | Michael Connelly - enrich + cross-domain (How I Write) | screenwriting | connelly — composite:7.25 status:Needs Improvement
 - `[2026-06-26 01:51]` **finalize** | Ocean Vuong - enrich + cross-domain (How I Write) | general | ocean — composite:7.25 status:Needs Improvement
-- `[2026-06-26 01:51]` **finalize** | Ocean Vuong - enrich + cross-domain (How I Write) | general | ocean — composite:7.25 status:Needs Improvement
 - `[2026-06-26 02:51]` **finalize** | Bill Browder - high-stakes narrative mastery extraction (forge) | general | bill-browder — composite:7.25 status:Needs Improvement
 - `[2026-06-26 02:51]` **finalize** | Susan Orlean - narrative-nonfiction mastery extraction (forge) | general | susan-orlean — composite:7.25 status:Needs Improvement
 - `[2026-06-26 02:51]` **finalize** | Henry Shukman - contemplative writing mastery extraction (forge) | general | henry-shukman — composite:7.25 status:Needs Improvement
 - `[2026-06-26 02:52]` **finalize** | Paul Harding - lyric prose mastery extraction (forge) | general | paul-harding — composite:7.25 status:Needs Improvement
 - `[2026-06-26 02:52]` **finalize** | Paul Harding - verify finalize writes | general | paul-harding — composite:7.25 status:Needs Improvement
-- `[2026-06-26 03:03]` **finalize** | How-I-Write OS — master writing conductor capstone (composes 10 How I Write experts + story-stack) | general | how-i-write-os — composite:7.25 status:Needs Improvement
 - `[2026-06-26 03:03]` **finalize** | How-I-Write OS — master writing conductor capstone (composes 10 How I Write experts + story-stack) | general | how-i-write-os — composite:7.25 status:Needs Improvement
 - `[2026-06-26 06:40]` **finalize** | Health Performance GEO daily brief for 2026-06-26: Peptide Hype Receipt, weekly synthesis, JSONL led | general | ethan-smith-aeo — composite:6.17 status:Needs Improvement
 - `[2026-06-26 06:40]` **finalize** | Complete Health Performance GEO Creative Strategist Engine run for Farrice Cain on 2026-06-26. Produ | general | ethan-smith-aeo — composite:6.17 status:Needs Improvement
@@ -307,3 +302,6 @@
 - `[2026-07-01 18:07]` **finalize** | Offer due-diligence + enhancement: market-priced dossier (MARKET-OFFER-INTEL-2026-07-01, 6 receipt c | general | alex-hormozi — composite:7.25 status:Needs Improvement
 - `[2026-07-01 19:13]` **finalize** | Prospect-facing offer one-pager (cut from enhanced canonical, Iha-blocks composition, prose gate CLE | copywriting | luke-iha — composite:7.17 status:Needs Improvement
 - `[2026-07-01 19:37]` **finalize** | Path-decision brief: 3-path comparison (GEO-led vs content-strategy pivot vs re-headline) w/ 8-dim s | strategy | alex-m-smith — composite:7.25 status:Needs Improvement
+- `[2026-06-15 16:05]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
+- `[2026-06-22 16:03]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
+- `[2026-06-29 16:04]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
