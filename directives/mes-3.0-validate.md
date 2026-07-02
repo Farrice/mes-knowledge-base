@@ -71,6 +71,17 @@ Deploy Oren's CEV Critique Matrix against the extraction as a whole. Read `skill
 
 **CEV Verdict:** Pass / Needs Work / Fail
 
+### Check 3.5: Blind-Pass (E4, 2026-07-02 — the check that convicts)
+
+Checks 1-3 inspect the files; this check tests the *output*. Per `directives/embodiment-standard.md`:
+
+1. Generate 1-2 outputs with the extraction's primary workflow on tasks the expert has real published work for
+2. Place beside verbatim real pieces (provenance-verified, NOT quoted in the skill files)
+3. Judge against the recognition test: indistinguishable or preferred = PASS
+4. Watch the one tell that survived E3's blind bake-off: **polish**. If the generated piece is tidier, more teed-up, or more over-explained than the real one, it fails on voice texture even if the content is right.
+
+**Blind-Pass Verdict:** PASS / FAIL (+ which real pieces used). A-tier promotion requires a Farrice-judged PASS. Record the verdict as an eval entry in `evolution_store/ground_truth/eval_set_v1.jsonl`.
+
 ### Check 4: Deduplication
 
 Before converting to a skill:

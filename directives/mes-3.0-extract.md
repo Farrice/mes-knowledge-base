@@ -305,6 +305,7 @@ After extraction, convert to a production skill using the `extraction-to-skill.m
 - **Deployable** over theoretical — outputs work immediately
 - **Creative** over formulaic — methodology is floor, not ceiling
 - **Honest** over inflated — if the source material is thin, say so
+- **Rough** over polished — preserve the expert's spoken texture, fragments, and rhythm variance; do not tidy them into essay prose. "Polish is the tell" — the one detection signal that survived the E3 blind bake-off (real experts read conversational; AI reads teed-up, overexplained). Full rule + 10-item build checklist: `directives/embodiment-standard.md`
 
 ---
 

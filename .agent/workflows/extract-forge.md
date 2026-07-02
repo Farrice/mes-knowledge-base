@@ -145,14 +145,17 @@ mkdir -p skills/[skill-name]/workflows skills/[skill-name]/references agents/[ex
 1. **Structural check**: Confirm all files exist
 2. **Content quality spot-check**: Read 2-3 workflows for practitioner-grade quality
 3. **Slash command check**: Confirm wrappers correctly reference full workflows
+4. **Embodiment + blind-pass check** (`directives/embodiment-standard.md` — E4 2026-07-02): verify the 10-item build checklist (anti-patterns, verbatim-anchored heuristics, recognition test, named-entity floor, source-ledger, anti-overpolish voice texture), then run the mini blind-pass protocol — 1-2 Tier-1 workflow outputs beside real published pieces by the expert. PASS = indistinguishable or preferred; A-tier promotion requires a Farrice-judged pass; FAIL → fix weakest checklist item, retry once, else ship B-tier with the gap named. Append the verdict as an eval entry to `evolution_store/ground_truth/eval_set_v1.jsonl` (≥1 per ship).
 
 ### Phase 8: Performance Log
+
+Scores are NOT templated — derive them from the Phase 7.4 blind-pass verdict + checklist coverage (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named` plus naming the matching rubric anchor in the notes.
 
 ```bash
 python3 execution/chain_runner.py finalize "[Expert] — [Domain] mastery extraction (forge)" \
     --expert [expert-name] --skill [skill-dir] --workflow extract-forge \
-    --type Extraction --intent 9 --expert-score 9 --adversarial 8 \
-    --notes "[workflow count] workflows, [genius pattern count] genius patterns, mastery-level depth"
+    --type Extraction --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
+    --notes "[workflow count] workflows, [genius pattern count] patterns | blind-pass: [PASS/FAIL vs which real pieces] | anchors: [named anchors for any ≥8]"
 ```
 
 Then register the extraction for usage telemetry (informational only — feeds the monthly production-use report, never blocks):

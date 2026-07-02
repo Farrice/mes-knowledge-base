@@ -205,30 +205,47 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_220614_8656",
+            "timestamp": "2026-07-02T22:06:14.780421+00:00",
+            "session_id": "",
+            "request_summary": "E4 — Embodiment Standard encoded into the factory: directives/embodiment-standard.md (canonical: 10-item build checklist from E1, anti-overpolish rule from E3 blind notes, blind-pass ship protocol, ev",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 12,
+            "total_routings": 13,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 5,
+                "System": 6,
                 "Client Work": 2,
                 "Analysis": 4,
                 "Strategy": 1
             },
             "expert_counts": {
-                "system-audit": 8,
+                "system-audit": 9,
                 "strength-conditioning-os": 2,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1
             },
             "tier_counts": {
-                "0": 12,
+                "0": 13,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -237,7 +254,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 12
+                "finalize-auto": 13
             },
             "ensemble_count": 5
         }

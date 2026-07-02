@@ -94,15 +94,16 @@ Use completion engine format with frontmatter (name, description, version: "2.0"
 // turbo
 Add to `AGENT_INDEX.md` and `SKILL_INDEX.md`.
 
-### 8. CHECKPOINT 2: Quality Verification
-Present one sample workflow for user review. If quality passes → DEPLOYED. If not → iterate.
+### 8. CHECKPOINT 2: Quality Verification (embodiment, not eyeball)
+Run the embodiment check per `directives/embodiment-standard.md` (E4 2026-07-02): 10-item build checklist + mini blind-pass — generate 1 output with the new skill's primary workflow and place it beside a real published piece by the expert. PASS (indistinguishable/preferred) → DEPLOYED. FAIL → fix the weakest checklist item, iterate once, else ship B-tier with the gap named. Append the verdict as an eval entry (≥1 per ship). Present the blind-pass result — not just a sample workflow — for user review.
 
 ### 9. Performance Log
+Scores derive from the Checkpoint-2 blind-pass verdict + checklist coverage — never templated (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named` + naming the anchor in notes.
 ```bash
 python3 execution/chain_runner.py finalize "[Expert] — [Domain] extraction" \
     --expert [expert-name] --skill [skill-dir] --workflow extract \
-    --type Extraction --intent 8 --expert-score 8 --adversarial 7 \
-    --notes "[genius patterns count], [workflows count], [key insight]"
+    --type Extraction --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
+    --notes "[genius patterns count], [workflows count], [key insight] | blind-pass: [PASS/FAIL] | anchors: [named for any ≥8]"
 ```
 
 ### 10. Wiki Cascade (Karpathy Ingest)
