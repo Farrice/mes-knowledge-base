@@ -1,0 +1,38 @@
+{
+ "session_id": "8fedeee9-b662-4df1-9e13-23e1493925ce",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "strength-conditioning-os",
+   "ts": "2026-07-02T09:49:29.837607"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "michael-israetel-hypertrophy",
+   "ts": "2026-07-02T10:07:53.110998"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "eugene-teo-training",
+   "ts": "2026-07-02T10:07:53.590178"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "andy-galpin-training-intelligence",
+   "ts": "2026-07-02T10:07:54.234405"
+  }
+ ],
+ "produced": false,
+ "produced_paths": [],
+ "subagent_spawns": 2,
+ "finalized_at": null,
+ "last_debt_at": "2026-07-02T10:07:54.234417",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": false
+}

@@ -1,0 +1,52 @@
+{
+    "schema_version": "1.0",
+    "current_month": "2026-07",
+    "routing_decisions": [
+        {
+            "routing_id": "rt_20260702_170846_5acc",
+            "timestamp": "2026-07-02T17:08:46.872251+00:00",
+            "session_id": "",
+            "request_summary": "System audit + repair: woke 6 dormant feedback loops (routing intelligence writer, gap-log auto-append, protocol review-date bug, MCP spend telemetry, memory facade fire-log, weekly memory pipeline au",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        }
+    ],
+    "feedback_log": [],
+    "monthly_summary": {
+        "2026-07": {
+            "total_routings": 1,
+            "total_feedback": 0,
+            "positive_count": 0,
+            "negative_count": 0,
+            "mixed_count": 0,
+            "domain_counts": {
+                "System": 1
+            },
+            "expert_counts": {
+                "system-audit": 1
+            },
+            "tier_counts": {
+                "0": 1,
+                "1": 0,
+                "2": 0,
+                "3": 0
+            },
+            "mode_counts": {
+                "output": 0,
+                "expertise": 0,
+                "hybrid": 0,
+                "finalize-auto": 1
+            },
+            "ensemble_count": 1
+        }
+    }
+}

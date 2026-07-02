@@ -1,0 +1,58 @@
+{
+ "session_id": "40d642c3-ed87-460e-a108-ac237804016b",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-niche-positioning",
+   "ts": "2026-07-01T21:12:31.860751"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jason-fladlien-marketing",
+   "ts": "2026-07-01T21:12:43.018976"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-priestley-oversubscribed",
+   "ts": "2026-07-01T21:12:45.868061"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "justin-welsh-solopreneur",
+   "ts": "2026-07-01T21:12:47.891103"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dr-k-consciousness",
+   "ts": "2026-07-01T21:12:48.399115"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alex-hormozi-business",
+   "ts": "2026-07-01T21:13:36.493815"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chase-hughes-context-engineering",
+   "ts": "2026-07-01T21:15:11.778655"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/context-engineering-os/deliverables/2026-07-01-authority-flywheel-linkedin-week1.md",
+  "/Users/farricecain/Google Antigravity/_active/context-engineering-os/INDEX.md",
+  "/Users/farricecain/Google Antigravity/_active/context-engineering-os/deliverables/2026-07-01-FINAL-VERDICT-path-arbitration.md",
+  "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/README.md"
+ ],
+ "subagent_spawns": 3,
+ "finalized_at": "2026-07-01T21:18:11.273926",
+ "last_debt_at": "2026-07-01T21:15:11.778677",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-01T21:39:46.780497",
+ "pin_nudged": true
+}

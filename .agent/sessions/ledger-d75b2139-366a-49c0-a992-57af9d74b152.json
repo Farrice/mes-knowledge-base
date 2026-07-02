@@ -1,0 +1,20 @@
+{
+ "session_id": "d75b2139-366a-49c0-a992-57af9d74b152",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/tmp/handoff-20260614-john-whiting-propaganda-os.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-01T20:54:42.035739",
+ "pin_nudged": false,
+ "handoff_saved_at": "2026-07-01T20:54:42.035732"
+}

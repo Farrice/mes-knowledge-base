@@ -1,0 +1,2 @@
+{"ts": "2026-07-02T16:56:42.370331+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "audit-test"}
+{"ts": "2026-07-02T16:56:42.402486+00:00", "tool": "mcp__claude_ai_Higgsfield__balance", "service": "higgsfield", "billable": false, "session_id": "audit-test"}

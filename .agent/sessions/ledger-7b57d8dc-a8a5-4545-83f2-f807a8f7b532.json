@@ -99,7 +99,6 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os/exemplars/_p2-ai-future-wellness.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os/exemplars/_p5-operators-lens.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os/exemplars/_p4-behavior-mental-game.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os/content-creation-system.md",
@@ -108,7 +107,8 @@
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os/CONTENT-OS.md",
   "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os/starter-content-batch.md",
   "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md",
-  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/00-CONTROL-TOWER.md"
+  "/Users/farricecain/Google Antigravity/_active/linkedin-launch/00-CONTROL-TOWER.md",
+  "/tmp/handoff-geo-content-2026-07-01.md"
  ],
  "subagent_spawns": 10,
  "finalized_at": "2026-06-23T08:44:29.058509",
@@ -116,9 +116,10 @@
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,
- "handoff_pending": true,
+ "handoff_pending": false,
  "handoff_warned": true,
  "pin_nudged": true,
  "session_pinned": true,
- "session_pinned_at": "2026-06-23T16:27:33.701457"
+ "session_pinned_at": "2026-07-01T21:15:40.523848",
+ "handoff_saved_at": "2026-07-01T21:15:40.523838"
 }

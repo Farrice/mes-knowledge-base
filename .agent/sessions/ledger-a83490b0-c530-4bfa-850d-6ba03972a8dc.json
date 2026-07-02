@@ -1,0 +1,28 @@
+{
+ "session_id": "a83490b0-c530-4bfa-850d-6ba03972a8dc",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/CLAUDE.md",
+  "/Users/farricecain/Google Antigravity/execution/system_health.py",
+  "/Users/farricecain/Google Antigravity/execution/protocol_tracker.py",
+  "/Users/farricecain/Google Antigravity/execution/hooks/mcp_spend_log_hook.py",
+  "/Users/farricecain/Google Antigravity/execution/chain_runner.py",
+  "/Users/farricecain/Google Antigravity/execution/skill_router_hook.py",
+  "/Users/farricecain/Google Antigravity/execution/memory_facade.py",
+  "/Users/farricecain/Google Antigravity/execution/memory_weekly.sh",
+  "/Users/farricecain/Google Antigravity/directives/feedback-ratchet.md"
+ ],
+ "subagent_spawns": 3,
+ "finalized_at": "2026-07-02T10:08:47.459579",
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": true,
+ "session_pinned_at": "2026-07-02T09:21:25.383947",
+ "pin_nudged": false,
+ "handoff_saved_at": "2026-07-02T09:21:25.383936"
+}

@@ -305,24 +305,299 @@
    "type": "skill_loaded",
    "name": "steven-young-consciousness",
    "ts": "2026-07-01T15:11:05.586259"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dan-koe-ai-leverage",
+   "ts": "2026-07-01T21:33:38.680481"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "shaan-puri-storytelling",
+   "ts": "2026-07-01T21:33:39.132977"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dan-koe-multipassionate-mastery",
+   "ts": "2026-07-01T21:33:40.717003"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-growth",
+   "ts": "2026-07-01T21:33:42.031756"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "adam-enfroy-affiliate-marketing",
+   "ts": "2026-07-01T21:33:47.725071"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alen-sultanic-copywriting",
+   "ts": "2026-07-01T21:33:48.130316"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-mastery",
+   "ts": "2026-07-01T21:33:49.984230"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-content-system",
+   "ts": "2026-07-01T21:33:57.295522"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "stefan-georgi-dopamine-copy",
+   "ts": "2026-07-01T21:40:48.047999"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "joanna-wiebe-persuasion-mastery",
+   "ts": "2026-07-01T21:41:40.198133"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "joanna-wiebe-writing-careers",
+   "ts": "2026-07-01T21:41:40.609469"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-intent-engineering",
+   "ts": "2026-07-01T21:42:50.340229"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-trust-architecture",
+   "ts": "2026-07-01T21:42:50.914047"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nate-b-jones-orchestration-intelligence",
+   "ts": "2026-07-01T21:42:51.461132"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "john-whiting-propaganda-machine",
+   "ts": "2026-07-01T21:43:32.394909"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "rory-sutherland-marketing",
+   "ts": "2026-07-01T21:44:09.709364"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-storybrand",
+   "ts": "2026-07-01T21:44:15.584156"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-business-growth",
+   "ts": "2026-07-01T21:44:24.669304"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-cognitive-load",
+   "ts": "2026-07-01T21:44:32.617329"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-messaging-evolution",
+   "ts": "2026-07-01T21:44:33.117920"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "donald-miller-culture-turnaround",
+   "ts": "2026-07-01T21:44:33.440529"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ward-farnsworth-rhetorical-mastery",
+   "ts": "2026-07-01T21:46:34.733562"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nick-saraev-agentic-workflows",
+   "ts": "2026-07-01T21:49:14.285264"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nick-saraev-bottleneck-thinking",
+   "ts": "2026-07-01T21:49:14.389151"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mark-kashef-agent-orchestration",
+   "ts": "2026-07-01T21:50:22.799614"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mark-kashef-claude-claw",
+   "ts": "2026-07-01T21:50:23.259964"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dara-denney-meta-ads",
+   "ts": "2026-07-01T21:52:20.138915"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "oren-taste-development",
+   "ts": "2026-07-01T21:52:27.526351"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "omar-eltakrori",
+   "ts": "2026-07-01T21:52:38.122385"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "growth-ecosystems",
+   "ts": "2026-07-01T21:53:27.401836"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "tobi-lutke-business-leadership",
+   "ts": "2026-07-02T08:36:34.269772"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "robert-greene-power-mastery",
+   "ts": "2026-07-02T08:36:35.619376"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "michael-margolis-user-research",
+   "ts": "2026-07-02T08:36:37.745573"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mark-manson-values-psychology",
+   "ts": "2026-07-02T08:36:37.816149"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "henrik-werdelin-portfolio-entrepreneurship",
+   "ts": "2026-07-02T08:36:38.832698"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "taylor-welch-wealthy-consultant",
+   "ts": "2026-07-02T08:36:41.705366"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jay-hiette-coaching-positioning",
+   "ts": "2026-07-02T08:36:42.689366"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "yuri-elkalayev-health-coaching-business",
+   "ts": "2026-07-02T08:36:46.439716"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sean-dollwet-kdp-publishing",
+   "ts": "2026-07-02T08:36:46.853205"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "andrew-lane-design-systems",
+   "ts": "2026-07-02T08:36:47.875275"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-pink-writing-structure",
+   "ts": "2026-07-02T08:36:49.808580"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "gabe-novotny-fitness-content-business",
+   "ts": "2026-07-02T08:36:49.904534"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kunal-shah-consumer-psychology",
+   "ts": "2026-07-02T08:36:50.849024"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "steven-kotler-flow-performance",
+   "ts": "2026-07-02T08:36:51.687293"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sarah-levinger-ad-psychology",
+   "ts": "2026-07-02T08:36:57.459481"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nir-eyal-habit-design",
+   "ts": "2026-07-02T08:36:57.899450"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jonah-berger-contagious",
+   "ts": "2026-07-02T08:36:58.680907"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "patrick-dang-online-business",
+   "ts": "2026-07-02T08:36:59.402025"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "josh-kaufman-business-fundamentals",
+   "ts": "2026-07-02T08:37:00.541860"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mike-sherrard-realtor-branding",
+   "ts": "2026-07-02T08:37:01.771539"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mark-forsyth-rhetoric",
+   "ts": "2026-07-02T08:37:02.880407"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "tess-barclay-social-content",
+   "ts": "2026-07-02T08:37:09.702191"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "gary-vaynerchuk-attention",
+   "ts": "2026-07-02T08:37:11.039609"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jiang-xueqin-cognitive-autonomy",
+   "ts": "2026-07-02T08:37:18.297678"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-thrasher-affiliate",
+   "ts": "2026-07-02T08:37:23.660681"
   }
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/skills/chris-do-design-business/workflows/01-position-and-price-premium.md",
-  "/Users/farricecain/Google Antigravity/skills/craig-clemens-copywriting/workflows/06-diagnose-market-stage-and-rewrite-plan.md",
-  "/Users/farricecain/Google Antigravity/skills/craig-clemens-copywriting/SKILL.md",
-  "/Users/farricecain/Google Antigravity/agents/craig-clemens/AGENT.md",
-  "/Users/farricecain/Google Antigravity/skills/chris-do-design-business/workflows/02-run-kind-sales-call.md",
-  "/Users/farricecain/Google Antigravity/skills/chris-do-design-business/workflows/03-build-personal-brand-engine.md",
-  "/Users/farricecain/Google Antigravity/agents/chris-do/AGENT.md",
-  "/Users/farricecain/Google Antigravity/docs/OPERATING-THE-HARVEST.md",
-  "/Users/farricecain/Google Antigravity/execution/harvest_memory_daily.py",
-  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/2c217036-8d29-4ef4-9edb-385606aeca23/scratchpad/audit_harvest.py"
+  "/Users/farricecain/Google Antigravity/skills/daniel-thrasher-affiliate/workflows/01-select-offer.md",
+  "/Users/farricecain/Google Antigravity/skills/daniel-thrasher-affiliate/workflows/02-build-campaign.md",
+  "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/genius.md",
+  "/Users/farricecain/Google Antigravity/skills/daniel-thrasher-affiliate/workflows/03-optimize-and-scale.md",
+  "/Users/farricecain/Google Antigravity/agents/daniel-thrasher/AGENT.md",
+  "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/workflows/01-recompute-priorities.md",
+  "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/workflows/02-audit-orthodoxy.md",
+  "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/workflows/03-compress-the-change.md",
+  "/Users/farricecain/Google Antigravity/skills/tobi-lutke-business-leadership/SKILL.md",
+  "/Users/farricecain/Google Antigravity/agents/tobi-lutke/AGENT.md"
  ],
  "subagent_spawns": 8,
  "finalized_at": null,
- "last_debt_at": "2026-07-01T15:11:05.586282",
+ "last_debt_at": "2026-07-02T08:37:23.660694",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,

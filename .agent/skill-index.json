@@ -424,7 +424,7 @@
     "directory": "coaching-business-os",
     "description": "CONDUCTOR hub for the business-of-coaching vertical \u2014 a standalone system that diagnoses what a coaching business actually needs (offer economics, positioning, content monetization, client acquisition, or client transformation) and routes to the right lane, then composes those lanes into one coherent offer architecture. Monetization + transformation layer of the Alignment Architect coaching practice.",
     "when_to_use": "",
-    "mtime": 1782966511.837544,
+    "mtime": 1783006717.2672348,
     "slash": "/coaching-business-os",
     "routing": "",
     "status": ""
@@ -3200,12 +3200,12 @@
     "status": ""
   },
   {
-    "name": "yuri-elkalayev-health-coaching-business",
-    "directory": "yuri-elkalayev-health-coaching-business",
+    "name": "yuri-elkaim-health-coaching-business",
+    "directory": "yuri-elkaim-health-coaching-business",
     "description": "Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses \u2014 the newbie 30-day Social Authority roadmap (content + connection + The Trade) and the expert Perfect Client Pipeline (paid traffic \u2192 evergreen masterclass \u2192 application \u2192 call), both fueled by the High-Converting Offer messaging blocks",
     "when_to_use": "",
-    "mtime": 1782966354.8207495,
-    "slash": "/yuri-elkalayev-health-coaching-business",
+    "mtime": 1783006717.2587514,
+    "slash": "/yuri-elkaim-health-coaching-business",
     "routing": "",
     "status": ""
   }

@@ -551,3 +551,22 @@
     "monthly"
   ]
 }
+{
+  "ran": [
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-07-02.json",
+        "skills_tracked": 41,
+        "degrading_count": 0,
+        "degrading_skills": [],
+        "improving_count": 0,
+        "improving_skills": []
+      }
+    }
+  ],
+  "skipped": [
+    "daily",
+    "monthly"
+  ]
+}
