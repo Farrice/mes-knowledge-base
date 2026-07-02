@@ -69,12 +69,29 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260702_175637_7caa",
+            "timestamp": "2026-07-02T17:56:37.858312+00:00",
+            "session_id": "",
+            "request_summary": "E2 Skill Census — 324 skills graded by deterministic classifier (execution/skill_census.py) calibrated 12/13 vs E1 ground truth + blind Opus validation: 81% of 2026-01 bulk stratum flagged vs 6% of 20",
+            "intent_score": 7,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 4,
+            "total_routings": 5,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -82,14 +99,14 @@
             "domain_counts": {
                 "System": 1,
                 "Client Work": 2,
-                "Analysis": 1
+                "Analysis": 2
             },
             "expert_counts": {
-                "system-audit": 2,
+                "system-audit": 3,
                 "strength-conditioning-os": 2
             },
             "tier_counts": {
-                "0": 4,
+                "0": 5,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -98,7 +115,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 4
+                "finalize-auto": 5
             },
             "ensemble_count": 4
         }

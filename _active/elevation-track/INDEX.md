@@ -4,8 +4,8 @@
 | Stage | Status | Artifact |
 |-------|--------|----------|
 | E1 Factory audit (embodiment delta) | ✅ DONE 2026-07-02 | `E1-factory-audit.md` |
-| E2 Skill census (vintage-stratified, automated heuristics) | NEXT | — |
-| E3 Blind-pass bake-off (Farrice ~30 min; ratings double as eval-set calibration) | pending E2 sample | — |
+| E2 Skill census (vintage-stratified, automated heuristics) | ✅ DONE 2026-07-02 | `E2-census-report.md` + `E2-census.json` + `execution/skill_census.py` |
+| E3 Blind-pass bake-off (Farrice ~30 min; ratings double as eval-set calibration) | NEXT — sample locked: lara-linkedin-mastery · luke-iha-copy-blocks · alex-hormozi · stanton · alex-suzuki | — |
 | E4 Encode standard into factory (extract-forge 7.4, mes-3.0-validate Check 3.5, kill hardcoded scores) | pending E3 | — |
 | E5 Breadth harvest roadmap | deferred until E4 proven | — |
 
