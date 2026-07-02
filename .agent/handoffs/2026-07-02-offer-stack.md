@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** offer-stack  
-**Full path:** .agent/handoffs/2026-07-02-offer-stack.md  
-**Date:** 2026-07-02 (today)  
-**Status:** active  
-**Title:** Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM layer + verdict-flywheel prep) with independent cold-visitor stress-test — the undisclosed-login-wall kill-shot found and fixed across kit/cards/packet + 4 secondaries applied
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume offer-stack` for this one.
-
----
-
 ---
 thread: offer-stack
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `offer-stack` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (offer-stack)._
-

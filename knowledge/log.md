@@ -319,3 +319,9 @@
 - `[2026-07-02 10:25]` **finalize** | E1 Factory Audit — Embodiment Delta: factory QC proven self-referential (never compares vs expert's  | general | system-audit — composite:7.25 status:Needs Improvement
 - `[2026-07-02 10:56]` **finalize** | E2 Skill Census — 324 skills graded by deterministic classifier (execution/skill_census.py) calibrat | general | system-audit — composite:7.25 status:Needs Improvement
 - `[2026-07-02 11:22]` **finalize** | E3 Blind Bake-Off packet assembled — 15 comparisons across 5 skills (lara-linkedin-mastery, luke-cop | general | system-audit — composite:7.25 status:Needs Improvement
+- `[2026-07-02 12:00]` **finalize** | Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM la | general | nicolas-cole — composite:7.25 status:Needs Improvement
+- `[2026-07-02 12:28]` **finalize** | Raw Intent Bridge installed as global Codex skill wrappers with local verifier proof | general | source-to-skill-system — composite:8.0 status:Keep
+- `[2026-07-02 13:17]` **finalize** | Global Raw Intent Bridge rebuilt from pointer wrapper into natural-intent adapter with bundled fallb | general | system-audit — composite:8.0 status:Keep
+- `[2026-07-02 13:17]` **finalize** | Global Raw Intent Bridge rebuilt from pointer wrapper into natural-intent adapter with bundled fallb | general | system-audit — composite:8.0 status:Keep
+- `[2026-07-02 13:31]` **finalize** | Raw Intent Bridge invocation repaired for prefix-style Packet + Run usage | general | system-audit — composite:8.0 status:Keep
+- `[2026-07-02 14:58]` **finalize** | E3 Blind Bake-Off REVEAL — Farrice detected real experts 5/15 (33%, below chance), preferred skill-g | general | system-audit — composite:9.0 status:Keep

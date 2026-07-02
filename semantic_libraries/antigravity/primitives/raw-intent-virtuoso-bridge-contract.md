@@ -7,8 +7,9 @@ prompt and needs Codex to turn it into an executable operating packet before
 normal routing.
 
 The bridge is a companion layer over `/autopilot`, `/virtuoso`, and
-`/source-to-skill-system`. It is not a new hot command, a global mirror, a plugin
-first, or a competing router.
+`/source-to-skill-system`. It is not a competing router, a plugin-first route,
+or a global mirror. A thin global trigger wrapper may exist only to call the
+canonical local compiler.
 
 ## Packet Shape
 
@@ -35,6 +36,18 @@ Every packet must include:
 
 ## Trigger Standard
 
+Prefix invocation is first-class. These forms are equivalent:
+
+```text
+/raw-intent-bridge [payload]
+raw-intent-bridge: [payload]
+source-command-raw-intent-bridge: [payload]
+```
+
+The payload is everything after the prefix. Strip the prefix before packet
+generation, route selection, first safe action generation, and handoff. The
+first safe action must never contain the bridge prefix.
+
 Trigger the bridge when the request says or implies:
 
 - raw intent, rough intent, messy context, messy notes
@@ -43,6 +56,11 @@ Trigger the bridge when the request says or implies:
 - "get the full capabilities" or "use the full arsenal"
 - "bridge," "layer," "run packet," or "companion layer"
 - broad entrepreneurial work where the user is asking Codex to select the route
+
+Default behavior is Packet + Run: compile the packet, then follow the first
+safe local action when it is reversible, current-workspace local, and inside the
+stated boundaries. Risky, global, external, destructive, plugin, connector,
+paid, or real-subagent actions stop for approval.
 
 ## Route Rules
 
@@ -59,7 +77,8 @@ Trigger the bridge when the request says or implies:
 
 ## Boundaries
 
-- No global `~/.codex` writes in v1.
+- No global `~/.codex` writes during normal packet execution. Thin global
+  wrapper deployment requires Farrice's explicit request and verifier proof.
 - No plugin marketplace edits in v1.
 - No new standalone plugin in v1.
 - No real Codex subagents without explicit authorization.

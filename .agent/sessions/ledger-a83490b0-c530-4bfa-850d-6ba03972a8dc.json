@@ -94,7 +94,6 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/execution/skill_router_hook.py",
   "/Users/farricecain/Google Antigravity/execution/memory_facade.py",
   "/Users/farricecain/Google Antigravity/execution/memory_weekly.sh",
   "/Users/farricecain/Google Antigravity/directives/feedback-ratchet.md",
@@ -103,7 +102,8 @@
   "/Users/farricecain/Google Antigravity/execution/skill_census.py",
   "/Users/farricecain/Google Antigravity/_active/elevation-track/E2-census-report.md",
   "/Users/farricecain/Google Antigravity/execution/e3_assemble.py",
-  "/Users/farricecain/Google Antigravity/_active/elevation-track/e3/README.md"
+  "/Users/farricecain/Google Antigravity/_active/elevation-track/e3/README.md",
+  "/Users/farricecain/Google Antigravity/_active/elevation-track/e3/E3-results.md"
  ],
  "subagent_spawns": 18,
  "finalized_at": "2026-07-02T10:08:47.459579",

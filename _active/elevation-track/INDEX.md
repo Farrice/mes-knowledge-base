@@ -5,8 +5,8 @@
 |-------|--------|----------|
 | E1 Factory audit (embodiment delta) | ✅ DONE 2026-07-02 | `E1-factory-audit.md` |
 | E2 Skill census (vintage-stratified, automated heuristics) | ✅ DONE 2026-07-02 | `E2-census-report.md` + `E2-census.json` + `execution/skill_census.py` |
-| E3 Blind-pass bake-off (Farrice ~30 min; ratings double as eval-set calibration) | NEXT — sample locked: lara-linkedin-mastery · luke-iha-copy-blocks · alex-hormozi · stanton · alex-suzuki | — |
-| E4 Encode standard into factory (extract-forge 7.4, mes-3.0-validate Check 3.5, kill hardcoded scores) | pending E3 | — |
+| E3 Blind-pass bake-off | ✅ DONE 2026-07-02 — **detection 5/15 (below chance), preference 8-6-1 for GENERATED; 4/5 skills PASS** (Stanton's real voice alone won) | `e3/E3-results.md` + scored JSON; eval entries EVAL-014→028 |
+| E4 Encode standard into factory (blind-pass step, anchor-named scores replace hardcoded, anti-overpolish rule, embodiment checklist) | NEXT — mandate locked in `e3/E3-results.md` | — |
 | E5 Breadth harvest roadmap | deferred until E4 proven | — |
 
 Key E1 results: factory QC is self-referential (never compares against the expert's real work); heartbeat = extraction depth, not source richness (Stanton proof); hollowness tracks the 2026-01 bulk-import stratum and is largely grep-detectable; extraction finalize scores are hardcoded 8/9 in the workflow text (origin of the 7.25 flattening).

@@ -6,6 +6,22 @@ description: Compile messy entrepreneurial intent into a Codex-ready Raw Intent 
 
 Read and execute the workflow at `.agent/workflows/raw-intent-bridge.md`.
 
+## Invocation Contract
+
+Accepted forms are equivalent:
+
+```text
+/raw-intent-bridge [payload]
+raw-intent-bridge: [payload]
+source-command-raw-intent-bridge: [payload]
+```
+
+Treat everything after the prefix as the payload. Strip the prefix before
+packet generation and never echo the bridge command into the first safe action.
+
+Default behavior is Packet + Run: compile the packet, then follow the first
+safe local action when it is reversible and inside the workspace boundaries.
+
 This command runs the local packet compiler:
 
 ```bash

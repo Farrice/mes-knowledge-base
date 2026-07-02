@@ -117,6 +117,8 @@ def is_bridge_intent(raw_intent: str) -> bool:
 def route_for_packet(raw_intent: str, mode: str, virtuoso: dict[str, Any]) -> str:
     q = normalize(raw_intent)
     route = str(virtuoso.get("primary_route") or "autopilot")
+    if route == "raw-intent-bridge":
+        route = "system-audit" if any(term in q for term in ("audit", "repair", "broken", "not working")) else "autopilot"
     if mode == "revenue":
         return route if route in {"first-10k", "revenue-offer-agent", "client-acquire"} else "first-10k"
     if mode == "creative":
@@ -125,12 +127,12 @@ def route_for_packet(raw_intent: str, mode: str, virtuoso: dict[str, Any]) -> st
         return "source-to-skill-system"
     if route == "plugin-readiness-audit" and is_bridge_intent(raw_intent):
         return "source-to-skill-system"
-    if is_bridge_intent(raw_intent):
-        return "autopilot"
     if has_any(q, REVENUE_SIGNALS):
         return route if route in {"first-10k", "revenue-offer-agent", "client-acquire"} else "first-10k"
     if has_any(q, CREATIVE_SIGNALS):
         return route if route not in {"plugin-readiness-audit"} else "autopilot"
+    if is_bridge_intent(raw_intent):
+        return "autopilot"
     return route
 
 
@@ -244,7 +246,7 @@ def context_plan(chosen_route: str, mode: str) -> dict[str, Any]:
         "skip": [
             "external writes",
             "plugin marketplace edits",
-            "global ~/.codex writes",
+            "global ~/.codex writes during normal packet runs",
             "real Codex subagents",
             "destructive cleanup",
         ],
@@ -273,12 +275,13 @@ def plugin_packaging_verdict() -> dict[str, str]:
         "target": "antigravity-operator-core",
         "reason": "Package only after local cold-start proof passes for revenue, creative, system, and regression fixtures.",
         "next_check": "python3 execution/plugin_readiness_audit.py --stdout autopilot mission orchestrate",
-        "v1_boundary": "No plugin marketplace edits, no new plugin, and no global ~/.codex writes.",
+        "v1_boundary": "No plugin marketplace edits, no new plugin, and no unapproved global ~/.codex writes.",
     }
 
 
 def verification_plan(chosen_route: str, mode: str, virtuoso: dict[str, Any]) -> list[str]:
     checks = [
+        "python3 execution/verify_raw_intent_global_skill.py",
         "python3 execution/verify_raw_intent_bridge_command.py",
         "python3 execution/verify_raw_intent_run_packet.py",
         f"python3 execution/routing_governor.py evaluate {json.dumps('raw intent virtuoso bridge ' + chosen_route)}",
@@ -303,7 +306,7 @@ def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
         mode_bias=VIRTUOSO_MODE[mode],
         trace_only=False,
     )
-    chosen_route = route_for_packet(raw_intent, mode, virtuoso)
+    chosen_route = route_for_packet(intent_text, mode, virtuoso)
     lane = str(virtuoso.get("preflight_summary", {}).get("lane") or "general")
     support_gates = support_for_packet(chosen_route, virtuoso)
     launchpad = co_creative_launchpad.build_launchpad(
@@ -326,7 +329,7 @@ def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
 
     packet = {
         "schema_version": "raw-intent-run-packet/v1",
-        "raw_intent": raw_intent,
+        "raw_intent": intent_text,
         "mode": mode,
         "predicted_need": launchpad["predicted_need"],
         "center": launchpad["center"],

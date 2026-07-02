@@ -5,9 +5,34 @@ description: "Run /raw-intent-bridge when the user gives raw intent, messy entre
 
 # source-command-raw-intent-bridge
 
-Use this skill when the user invokes `/raw-intent-bridge`,
-`source-command-raw-intent-bridge`, asks for the Raw Intent Virtuoso Bridge, or
+Put this skill before any raw context when the user invokes
+`/raw-intent-bridge`, `raw-intent-bridge:`,
+`source-command-raw-intent-bridge:`, asks for the Raw Intent Virtuoso Bridge, or
 needs messy operator intent compiled into a deterministic Codex run packet.
+
+## Invocation Contract
+
+Accepted forms are equivalent:
+
+```text
+/raw-intent-bridge [payload]
+raw-intent-bridge: [payload]
+source-command-raw-intent-bridge: [payload]
+```
+
+The payload is everything after the prefix. Strip the prefix before packet
+generation, route selection, first safe action generation, and handoff. Never
+echo `/raw-intent-bridge`, `raw-intent-bridge:`, or
+`source-command-raw-intent-bridge:` back into the first safe action.
+
+## Packet + Run Default
+
+Default behavior is Packet + Run: compile the packet, then follow the first
+safe local action when it is reversible, current-workspace local, and inside the
+boundaries. Stop for approval before global writes, external writes,
+publishing, outreach, paid/quota-heavy tools, destructive cleanup, connector
+writes, plugin marketplace edits, non-current-workspace harness edits, or real
+Codex subagents.
 
 ## Operator Core Alignment
 
@@ -23,7 +48,9 @@ canonical behavior source. It must preserve:
 - plugin packaging is deferred to `antigravity-operator-core` after cold-start
   proof
 - no global mirrors, plugin marketplace edits, external writes, destructive
-  actions, or real Codex subagents without explicit authorization
+  actions, or real Codex subagents without explicit authorization; a thin
+  global trigger wrapper is allowed only when Farrice explicitly asks for
+  global deployment
 
 ## Command Template
 

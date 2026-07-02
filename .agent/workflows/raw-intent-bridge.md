@@ -4,13 +4,41 @@ description: Compile messy entrepreneurial intent into a Codex-ready run packet 
 
 # /raw-intent-bridge - Raw Intent Virtuoso Bridge
 
-Use `/raw-intent-bridge` when Farrice gives rough context, messy notes, "I do
-not know how to ask Codex" language, prompt-engineer/virtuoso requests, or any
-entrepreneurial objective that should become a deterministic Codex run packet
-before normal execution.
+Put `/raw-intent-bridge` before any rough context when Farrice needs Codex to
+translate natural operator language into a deterministic run packet before
+normal execution. Use it for messy notes, "I do not know how to ask Codex"
+language, prompt-engineer/virtuoso requests, or any entrepreneurial objective
+where the route, proof, and first safe action should be made explicit.
 
 This is a command surface for the local companion layer, not a separate plugin
 and not a competing router.
+
+## Invocation Contract
+
+Accepted forms are equivalent:
+
+```text
+/raw-intent-bridge [payload]
+raw-intent-bridge: [payload]
+source-command-raw-intent-bridge: [payload]
+```
+
+The payload is everything after the prefix. Strip the prefix before packet
+generation, route selection, first safe action generation, and handoff. Never
+echo `/raw-intent-bridge`, `raw-intent-bridge:`, or
+`source-command-raw-intent-bridge:` back into the first safe action.
+
+## Packet + Run Default
+
+Default behavior is Packet + Run:
+
+1. Compile the Codex-ready packet from the stripped payload.
+2. Follow the packet's first safe local action when it is reversible,
+   current-workspace local, and inside the stated boundaries.
+3. Stop for approval when the packet points to global writes, external writes,
+   publishing, outreach, paid/quota-heavy tools, destructive cleanup, connector
+   writes, plugin marketplace edits, non-current-workspace harness edits, or
+   real Codex subagents.
 
 ## Execution
 
@@ -64,7 +92,8 @@ The command must produce:
 
 ## Boundaries
 
-- No global `~/.codex` writes.
+- No global `~/.codex` writes during normal packet runs. A thin global skill
+  wrapper is allowed only when Farrice explicitly asks for global deployment.
 - No plugin marketplace edits.
 - No external writes, publishing, outreach, or connector writes.
 - No destructive cleanup.

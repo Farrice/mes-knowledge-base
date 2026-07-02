@@ -15,9 +15,19 @@ sys.path.insert(0, str(ROOT / "execution"))
 import raw_intent_run_packet  # type: ignore  # noqa: E402
 
 
+PREFIXES = ("/raw-intent-bridge", "raw-intent-bridge:", "source-command-raw-intent-bridge:")
+
+
 def require(condition: bool, message: str) -> None:
     if not condition:
         raise AssertionError(message)
+
+
+def assert_prefix_stripped(packet: dict, label: str) -> None:
+    for field in ("raw_intent", "first_safe_action", "operator_run_prompt"):
+        value = str(packet[field]).lower()
+        for prefix in PREFIXES:
+            require(prefix.lower() not in value, f"{label} leaked {prefix} into {field}: {packet[field]}")
 
 
 def assert_packet_shape(packet: dict) -> None:
@@ -43,7 +53,11 @@ def assert_packet_shape(packet: dict) -> None:
     require(not missing, f"packet missing fields: {missing}")
     require(len(packet["composition_slots"]) == 5, "packet must include five composition slots")
     require(packet["plugin_packaging_verdict"]["status"] == "deferred", "plugin packaging must be deferred in v1")
-    require("global ~/.codex writes" in packet["context_plan"]["skip"], "global writes must be skipped")
+    require(
+        "global ~/.codex writes during normal packet runs" in packet["context_plan"]["skip"],
+        "normal packet runs must skip global writes",
+    )
+    require("python3 execution/verify_raw_intent_global_skill.py" in packet["verification_plan"], "global skill verifier missing")
     require("python3 execution/verify_raw_intent_bridge_command.py" in packet["verification_plan"], "command verifier missing")
     require("python3 execution/verify_raw_intent_run_packet.py" in packet["verification_plan"], "self verifier missing")
 
@@ -90,6 +104,27 @@ def main() -> int:
     )
     require(regression["chosen_route"] not in {"albom-theme-first-engine", "connelly-brand-momentum"}, "prompt wording captured unrelated creative-writing route")
 
+    prefix_fixtures = {
+        "slash": (
+            "/raw-intent-bridge I have a messy business idea and need the right execution path",
+            {"autopilot", "first-10k", "revenue-offer-agent", "client-acquire"},
+        ),
+        "colon": (
+            "raw-intent-bridge: I have a rough offer idea but do not know how to ask Codex",
+            {"first-10k", "revenue-offer-agent", "client-acquire"},
+        ),
+        "source-command": (
+            "source-command-raw-intent-bridge: audit this raw task and give me the first safe action",
+            {"system-audit", "autopilot", "source-to-skill-system"},
+        ),
+    }
+    for label, (intent, allowed_routes) in prefix_fixtures.items():
+        packet = raw_intent_run_packet.build_packet(intent, mode="auto")
+        assert_packet_shape(packet)
+        assert_prefix_stripped(packet, label)
+        require(packet["chosen_route"] in allowed_routes, f"{label} fixture chose unexpected route: {packet['chosen_route']}")
+        require(packet["first_safe_action"].startswith("/"), f"{label} first safe action is not executable: {packet['first_safe_action']}")
+
     cli = subprocess.run(
         [
             sys.executable,
@@ -109,6 +144,7 @@ def main() -> int:
     parsed = json.loads(cli.stdout)
     assert_packet_shape(parsed)
     require(parsed["chosen_route"] == "source-to-skill-system", "CLI system mode did not choose source-to-skill-system")
+    assert_prefix_stripped(parsed, "json CLI")
 
     plain = subprocess.run(
         [
@@ -131,6 +167,7 @@ def main() -> int:
     print("- creative fixture exposes quality gates")
     print("- system fixture routes to /source-to-skill-system with Autopilot/Virtuoso support")
     print("- prompt-engineer/virtuoso wording does not misroute into unrelated creative-writing routes")
+    print("- slash, colon, and source-command prefix forms strip before route/action generation")
     print("- JSON and plain CLIs render valid packets")
     return 0
 

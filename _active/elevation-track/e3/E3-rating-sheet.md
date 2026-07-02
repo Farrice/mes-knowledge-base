@@ -2,20 +2,20 @@
 
 Per comparison, answer both questions. Gut verdict beats deliberation — your taste signature is bimodal, trust the fast read.
 
-| # | Expert | Real one is (A/B/can't tell) | Better one is (A/B/tie) | Notes |
-|---|--------|------------------------------|--------------------------|-------|
-| 1 | Lara Acosta |  |  |  |
-| 2 | Lara Acosta |  |  |  |
-| 3 | Lara Acosta |  |  |  |
-| 4 | Luke Iha |  |  |  |
-| 5 | Luke Iha |  |  |  |
-| 6 | Luke Iha |  |  |  |
-| 7 | Alex Hormozi |  |  |  |
-| 8 | Alex Hormozi |  |  |  |
-| 9 | Alex Hormozi |  |  |  |
-| 10 | Andrew Stanton |  |  |  |
-| 11 | Andrew Stanton |  |  |  |
-| 12 | Andrew Stanton |  |  |  |
-| 13 | Alex Suzuki / X_FINALBOSS |  |  |  |
-| 14 | Alex Suzuki / X_FINALBOSS |  |  |  |
-| 15 | Alex Suzuki / X_FINALBOSS |  |  |  |
+| #  | Expert                    | Real one is (A/B/can't tell) | Better one is (A/B/tie) | Notes                                                                                                                                                                                                                                       |
+| -- | ------------------------- | ---------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1  | Lara Acosta               | a                            | a                       | I felt that A was overall sharper and spoke more story narrative and led what she does. From her content I have consumed but the format of B Is Interesting because she Is know to do different formats to grab the attention of the reader |
+| 2  | Lara Acosta               | B                            | A                       |                                                                                                                                                                                                                                             |
+| 3  | Lara Acosta               | B                            | B                       |                                                                                                                                                                                                                                             |
+| 4  | Luke Iha                  | A                            | A                       | B feels disjointed and has some flow errors that jump too much and A feels more like Luke content from what I remember                                                                                                                      |
+| 5  | Luke Iha                  | B                            | A                       |                                                                                                                                                                                                                                             |
+| 6  | Luke Iha                  | B                            | B                       |                                                                                                                                                                                                                                             |
+| 7  | Alex Hormozi              | B                            | B                       |                                                                                                                                                                                                                                             |
+| 8  | Alex Hormozi              | A                            | A                       | B Is too poblished and try hard.                                                                                                                                                                                                            |
+| 9  | Alex Hormozi              | A                            | Tie                     |                                                                                                                                                                                                                                             |
+| 10 | Andrew Stanton            | A                            | A                       | Role A had more narrative that felt human and story-led, as if it was conversational, versus something that was teed up and polished in B. That does overexplaining and trying to do too much again.                                        |
+| 11 | Andrew Stanton            | B                            | A                       |                                                                                                                                                                                                                                             |
+| 12 | Andrew Stanton            | B                            | B                       | The cadence of B is more human and has more rhythm.                                                                                                                                                                                         |
+| 13 | Alex Suzuki / X_FINALBOSS | B                            | A                       |                                                                                                                                                                                                                                             |
+| 14 | Alex Suzuki / X_FINALBOSS | B                            | A                       | No, I think the role of being a patient of the other kid is wording. It's a little bit more polite and not necessarily with wider appeal.                                                                                                   |
+| 15 | Alex Suzuki / X_FINALBOSS | A                            | A                       |                                                                                                                                                                                                                                             |
