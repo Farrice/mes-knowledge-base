@@ -24,6 +24,7 @@ def assert_core_shape(data: dict) -> None:
     required = {
         "objective",
         "launchpad",
+        "raw_intent_bridge",
         "orchestration_receipt",
         "meta_intent",
         "composition_owner",
@@ -44,6 +45,8 @@ def assert_core_shape(data: dict) -> None:
     require(len(data["composition_slots"]) == 5, "composition slots must include the five bounded slots")
     require("predicted_need" in data["launchpad"], "launchpad must include predicted need")
     require("pause_or_run" in data["launchpad"], "launchpad must include pause/run decision")
+    require("status" in data["raw_intent_bridge"], "raw intent bridge status missing")
+    require("contract" in data["raw_intent_bridge"], "raw intent bridge contract missing")
     require(data["subagent_candidates"]["real_subagents_spawned"] is False, "verifier must not spawn real subagents")
     require(data["plugin_tool_surface"]["plugin_name"] == "antigravity-operator-core", "operator-core plugin surface missing")
     receipt = data["execution_receipt"]
@@ -76,10 +79,20 @@ def main() -> int:
     assert_core_shape(system_data)
     require(system_data["primary_route"] == "system-audit", "system elevation query should route to /system-audit")
     require(system_data["owner"], "owner must be named")
-    require(system_data["recommended_stack"]["recommended_stack"] == "nick-saraev + boris", "agent-fleet stack should surface")
-    require(system_data["routing_log"]["ensemble"] is True, "compound stack should be marked as ensemble")
+    require(system_data["recommended_stack"]["recommended_stack"] == "No recommended stack", "system-audit should suppress forced domain stacks")
+    require(system_data["routing_log"]["ensemble"] is False, "system-audit should not mark a forced ensemble")
     require("expert_lenses_applied" in system_data["routing_log"], "routing log must expose expert lenses")
-    require(system_data["subagent_candidates"]["selected"], "delegate intent should select candidate packets")
+
+    agent_stack_data = virtuoso_orchestration.build_virtuoso(
+        "elevate agents subagents orchestration cross-pollination creative outputs",
+        delegate_intent=True,
+        log_routing=False,
+    )
+    assert_core_shape(agent_stack_data)
+    require(agent_stack_data["recommended_stack"]["recommended_stack"] == "nick-saraev + boris", "agent-fleet stack should surface outside system-audit ownership")
+    require(agent_stack_data["routing_log"]["ensemble"] is True, "compound stack should be marked as ensemble")
+    require("subagent-first" in agent_stack_data["subagent_candidates"]["decision"], "delegate intent should expose the delegation packet posture")
+    require(agent_stack_data["subagent_candidates"]["real_subagents_spawned"] is False, "delegate intent must not spawn real workers")
 
     content_data = virtuoso_orchestration.build_virtuoso(
         "create a client-facing research-backed content package and verify the claims",
@@ -89,6 +102,16 @@ def main() -> int:
     assert_core_shape(content_data)
     require(content_data["composition_slots"][0]["slot"] == "Spine", "first slot should be Spine")
     require(content_data["subagent_candidates"]["integration_owner"] == "main Codex thread", "main thread must integrate")
+
+    raw_bridge_data = virtuoso_orchestration.build_virtuoso(
+        "I do not know how to ask Codex to turn messy entrepreneurial intent into an executable run packet",
+    )
+    assert_core_shape(raw_bridge_data)
+    require(raw_bridge_data["raw_intent_bridge"]["status"] == "triggered", "raw intent bridge should trigger in Virtuoso")
+    require(
+        "raw_intent_run_packet.py" in raw_bridge_data["raw_intent_bridge"]["packet_command"],
+        "Virtuoso raw bridge missing packet compiler command",
+    )
 
     trace_only = virtuoso_orchestration.build_virtuoso(
         "create a client offer",
@@ -170,9 +193,11 @@ def main() -> int:
 
     print("Virtuoso orchestration verification: PASS")
     print("- operating alignment routes to /system-audit without a forced domain stack")
-    print("- system elevation routes to /system-audit with Nick Saraev + Boris stack")
+    print("- system elevation routes to /system-audit without forcing a domain stack")
+    print("- non-system agent elevation can surface the Nick Saraev + Boris stack")
     print("- delegation remains gated with main-thread integration")
     print("- dynamic workflow mode attaches a manifest trace without spawning workers")
+    print("- raw intent bridge triggers and points to the packet compiler")
     print("- plugin/tool surface, execution receipt, and composition slots render")
     print("- CLI JSON is valid")
     return 0

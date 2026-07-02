@@ -1,0 +1,13 @@
+---
+thread: oren-content-team-architecture
+status: active
+resume_hint: User asked to use Oren Content-Team Architecture to build the entire creative, content, social media, format, and playbook system for Farrice Cain's LinkedIn-led health performance GEO offer. I created a deployable content-team operating package at _active/linkedin-launch/content-team-os with nine files: README source order and operating map; 01 media company blueprint; 02 pod architecture and cadence; 03 signature series bible; 04 format and platform playbook; 05 proof and audit playbook; 06 90-day deployment calendar; 07 quality gates and kill list; 08 mobile Custom GPT continuation prompt. The system is explicitly grounded in the canonical offer, market ICP dossier, current Content OS, V4 launch copy, Health Performance GEO automation prompt, and Oren content-team principles. It turns the offer ladder into a weekly media engine, proof rail, audit-first conversion path, LinkedIn cadence, signature series, proof/audit protocols, and mobile continuation prompt. Verification completed: export_format_guard PASS; ASCII check PASS; file inventory PASS; red-flag scan reviewed as intended guardrail mentions; prose classifier warning on README treated as structured-doc warning, not content failure.
+branch: repair/codex-harness-restore
+pin: true
+---
+
+# User asked to use Oren Content-Team Architecture to build the entire creative, content, social media, format, and playbook system for Farrice Cain's LinkedIn-led health performance GEO offer. I created a deployable content-team operating package at _active/linkedin-launch/content-team-os with nine files: README source order and operating map; 01 media company blueprint; 02 pod architecture and cadence; 03 signature series bible; 04 format and platform playbook; 05 proof and audit playbook; 06 90-day deployment calendar; 07 quality gates and kill list; 08 mobile Custom GPT continuation prompt. The system is explicitly grounded in the canonical offer, market ICP dossier, current Content OS, V4 launch copy, Health Performance GEO automation prompt, and Oren content-team principles. It turns the offer ladder into a weekly media engine, proof rail, audit-first conversion path, LinkedIn cadence, signature series, proof/audit protocols, and mobile continuation prompt. Verification completed: export_format_guard PASS; ASCII check PASS; file inventory PASS; red-flag scan reviewed as intended guardrail mentions; prose classifier warning on README treated as structured-doc warning, not content failure.
+
+**Next session focus**: Resume the `oren-content-team-architecture` work-stream — see the deliverable above.
+
+_Auto-pinned by chain_runner.finalize (oren-content-team-architecture)._

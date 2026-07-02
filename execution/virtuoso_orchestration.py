@@ -349,6 +349,7 @@ def build_virtuoso(
     mode = "delegate" if delegate_intent else "auto"
     routed_query = biased_query(query, mode_bias)
     preflight = autopilot_runtime_preflight.build_preflight(routed_query, mode=mode)
+    raw_bridge = preflight.get("raw_intent_bridge", {})
     chosen = preflight["chosen_path"]
     trace = preflight["trace"]
     verification = list(trace.get("verification_planned", []))
@@ -399,6 +400,7 @@ def build_virtuoso(
         "objective": query,
         "routed_query": routed_query,
         "launchpad": preflight["launchpad"],
+        "raw_intent_bridge": raw_bridge,
         "orchestration_receipt": preflight.get("orchestration_receipt", {}),
         "primary_route": chosen["primary_route"],
         "owner": chosen["owner"],
@@ -438,6 +440,7 @@ def build_virtuoso(
 
 def render_markdown(data: dict[str, Any]) -> str:
     launchpad = data["launchpad"]
+    raw_bridge = data.get("raw_intent_bridge", {})
     stack = data["recommended_stack"]
     stack_text = stack.get("recommended_stack", "No recommended stack")
     stack_detail = stack.get("effect") or stack.get("skip_reason") or stack.get("policy", "")
@@ -456,6 +459,7 @@ def render_markdown(data: dict[str, Any]) -> str:
         f"- **Owner**: {data['owner']}",
         f"- **Composition owner**: {data.get('composition_owner') or data['owner']}",
         f"- **Launchpad**: {launchpad['center']} | {launchpad['pause_or_run']['decision']}",
+        f"- **Raw Intent Bridge**: {raw_bridge.get('status', 'skipped')} | {raw_bridge.get('preferred_route', data['primary_route'])}",
         f"- **Stack**: {stack_text}; {stack_detail}",
         f"- **Support gates**: {', '.join(_fmt_route(gate) for gate in data['support_gates']) or 'None'}",
         f"- **Delegation**: {delegation['decision']}; selected={', '.join(delegation['selected']) or 'none'}; real_subagents_spawned={delegation['real_subagents_spawned']}",
@@ -471,6 +475,14 @@ def render_markdown(data: dict[str, Any]) -> str:
         f"- **Questions that change execution**: {', '.join(launchpad['questions_that_change_execution']) or 'none'}",
         f"- **Route bias**: /{launchpad['route_bias']['primary']}; {launchpad['route_bias']['reason']}",
         f"- **Pause or run**: {launchpad['pause_or_run']['decision']} - {launchpad['pause_or_run']['reason']}",
+        "",
+        "## Raw Intent Bridge",
+        f"- **Status**: {raw_bridge.get('status', 'skipped')}",
+        f"- **Reason**: {raw_bridge.get('reason', 'No raw-intent bridge needed.')}",
+        f"- **Preferred route**: {_fmt_route(raw_bridge.get('preferred_route', data['primary_route']))}",
+        f"- **Packet compiler**: {raw_bridge.get('packet_command') or 'Not triggered for this request.'}",
+        f"- **Contract**: {raw_bridge.get('contract', 'semantic_libraries/antigravity/primitives/raw-intent-virtuoso-bridge-contract.md')}",
+        f"- **Plugin packaging**: {raw_bridge.get('plugin_packaging', 'deferred')}",
         "",
     ]
 

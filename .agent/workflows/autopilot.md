@@ -51,16 +51,40 @@ ranked options.
 ## Execution Sequence
 
 1. Capture the raw intent.
-2. Build the preflight packet with `execution/codex_operator_preflight.py`.
-3. Confirm the chosen owner with the workflow router and routing enforcer. Use
+2. When Farrice says he does not know how to ask Codex, gives messy context, or
+   asks for a prompt-engineering bridge, compile the raw-intent run packet:
+   `python3 execution/raw_intent_run_packet.py "<raw intent>" --plain`.
+3. Build the preflight packet with `execution/codex_operator_preflight.py`.
+4. Confirm the chosen owner with the workflow router and routing enforcer. Use
    `routing_enforcer.py check --no-log` for probes and verifier checks.
-4. If the owner is `/system-audit`, run proof-first local diagnosis before
+5. If the owner is `/system-audit`, run proof-first local diagnosis before
    patching: route probes, hook probes, bridge checks, registry/index health,
    and the relevant verifier.
-5. Patch only the Google-local owner surface needed to change behavior.
-6. Rerun the targeted verifier set.
-7. Write or update a run receipt for meaningful system work.
-8. Close with proof, remaining risks, and concrete next prompts.
+6. Patch only the Google-local owner surface needed to change behavior.
+7. Rerun the targeted verifier set.
+8. Write or update a run receipt for meaningful system work.
+9. Close with proof, remaining risks, and concrete next prompts.
+
+## Raw Intent Virtuoso Bridge
+
+The Raw Intent Virtuoso Bridge is the local companion layer for under-specified
+operator starts. It is not a new hot command and not a plugin-first path.
+
+Use it when the request contains rough intent, messy context, "I do not know how
+to ask Codex," prompt-engineering bridge language, or broad entrepreneurial work
+where the system should translate the first attempt into an executable packet.
+
+```bash
+python3 execution/raw_intent_run_packet.py "<raw intent>" --mode auto --plain
+python3 execution/raw_intent_run_packet.py "<raw intent>" --mode revenue --plain
+python3 execution/raw_intent_run_packet.py "<raw intent>" --mode creative --plain
+python3 execution/raw_intent_run_packet.py "<raw intent>" --mode system --plain
+```
+
+The bridge must output predicted need, center, quality bar, chosen route,
+support gates, composition slots, context plan, execution decision, first safe
+action, verification plan, operator run prompt, and deferred plugin verdict.
+Plugin packaging remains deferred until local cold-start proof passes.
 
 ## Safety Boundaries
 

@@ -43,7 +43,8 @@ from routing_governor import (
     is_virtuoso_intent,
 )
 
-WF_DIR = Path(".agent/workflows")
+ROOT = Path(__file__).resolve().parent.parent
+WF_DIR = ROOT / ".agent" / "workflows"
 INDEX_CACHE = None
 
 OPERATOR_FRONT_DOOR_STACK = (
@@ -583,6 +584,15 @@ def search_workflows(query, top_n=10):
     control_intent = classify_control_intent(query)
     governed_order = []
     governed_boost = {}
+
+    # High-confidence control-plane intents suppress EXPERTISE-DOMAIN routing only,
+    # not other control-plane routes. Preserve routing_governor recommendations.
+    suppress_expertise_routes = (
+        control_intent["route"]
+        and control_intent["confidence"] >= 88
+        and control_intent["lane"] == "system-failure"
+    )
+
     if operator_lesson_front_door_query(normalized_query):
         route_names = [wf["name"] for wf in index]
         governed_order = [route for route in OPERATOR_FRONT_DOOR_STACK if route in route_names]
@@ -602,7 +612,18 @@ def search_workflows(query, top_n=10):
     }
     scored = []
 
-    for wf in index:
+    # If suppress_expertise_routes, only consider control-plane routes.
+    if suppress_expertise_routes:
+        CONTROL_PLANE_ROUTES = {
+            "autopilot", "system-audit", "orchestrate", "self-evolve",
+            "skill-anneal", "source-to-skill-system", "routing-intelligence",
+            "end-session", "mission", "handoff", "repeatability-spine"
+        }
+        wf_to_score = [wf for wf in index if wf["name"] in CONTROL_PLANE_ROUTES]
+    else:
+        wf_to_score = index
+
+    for wf in wf_to_score:
         searchable = f"{wf['name']} {wf['description']} {wf['full_name']}".lower()
         score = 0
         if wf["name"] in governed_boost:
@@ -610,14 +631,31 @@ def search_workflows(query, top_n=10):
         if control_intent["route"] and wf["name"] == control_intent["route"]:
             confidence = int(control_intent["confidence"])
             if governed_order and governed_order[0] != control_intent["route"]:
-                # A high-confidence control-plane classification must win over a
-                # governed order that disagrees (e.g. a literal `source-command-X`
-                # token match). Otherwise an explicit audit/repair/wiring intent
-                # gets misrouted to whatever route the query happens to name.
-                if confidence >= 90:
-                    score += 10100 + confidence
+                # If routing_governor made a specific control-plane classification,
+                # it should win (it's more specific). Only boost control_intent if
+                # the governed route is an expertise domain or explicit command invocation.
+                CONTROL_PLANE_SET = {
+                    "autopilot", "system-audit", "orchestrate", "self-evolve",
+                    "skill-anneal", "source-to-skill-system", "routing-intelligence",
+                    "end-session", "mission", "handoff", "repeatability-spine",
+                    "extraction-governor-agent", "expert-composition-governor", "virtuoso"
+                }
+                governed_is_control_plane = governed_order[0] in CONTROL_PLANE_SET
+
+                if governed_is_control_plane and confidence < 90:
+                    # routing_governor picked a control-plane route and the classifier
+                    # is not highly confident — let governed_boost win.
+                    pass
                 else:
-                    score += 20
+                    # Either the governed route is expertise/domain, or the purpose-built
+                    # control classifier is >=90 confident. The classifier wins — the
+                    # green-core router probes assert this precedence (e.g. a "repair
+                    # plan" complaint must land on /system-audit even when the governor
+                    # ranks /self-evolve first).
+                    if confidence >= 90:
+                        score += 10100 + confidence
+                    else:
+                        score += 20
             else:
                 score += confidence + 40
         for route, phrases in CONTROL_ROUTE_KEYWORDS.items():

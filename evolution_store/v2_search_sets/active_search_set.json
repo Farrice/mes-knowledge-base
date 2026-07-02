@@ -981,7 +981,7 @@
         "held_out_delta": 0.0,
         "gaming_flag": false
       },
-      "notes": "platform: codex | files: _active/linkedin-launch/content-team-os/launch-assets | verification: PASS with structured-doc prose warnings | Notion skipped"
+      "notes": "platform: codex | files: _active/linkedin-launch/04-content-os/content-team-os/launch-assets | verification: PASS with structured-doc prose warnings | Notion skipped"
     },
     {
       "trace_id": "20260630_180535",
@@ -1009,9 +1009,121 @@
         "held_out_delta": 0.0,
         "gaming_flag": false
       },
-      "notes": "retry weakest with hook owner label | actual artifacts in _active/linkedin-launch/content-team-os/launch-assets | verification: local pass | Notion skipped"
+      "notes": "retry weakest with hook owner label | actual artifacts in _active/linkedin-launch/04-content-os/content-team-os/launch-assets | verification: local pass | Notion skipped"
+    },
+    {
+      "trace_id": "20260630_212019",
+      "timestamp": "2026-06-30T21:20:19.415232",
+      "schema_version": "v3",
+      "component": "skills/brand-operating-system",
+      "expert": "brand-operating-system",
+      "workflow": "04-briefs",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "platform: codex | files: launch-assets/05-content-production-playbook.md and 06-morning-content-brief-template.md | verification: local pass with structured-doc prose warning | Notion skipped"
+    },
+    {
+      "trace_id": "20260630_212029",
+      "timestamp": "2026-06-30T21:20:29.953132",
+      "schema_version": "v3",
+      "component": "skills/brand-operating-system",
+      "expert": "brand-operating-system",
+      "workflow": "brand-operating-system",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "retry weakest: direct intent match | files added: launch-assets 05 and 06 | local review passed | Notion skipped"
+    },
+    {
+      "trace_id": "20260701_063818",
+      "timestamp": "2026-07-01T06:38:18.741333",
+      "schema_version": "v3",
+      "component": "supercomputer",
+      "expert": "Oren Operational Systems",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Health Performance GEO daily brief | platform: codex | Verification: route PASS; JSONL PASS; export guard PASS; grounding PASS; content finish WARN; prose classifier WARNING; Google Drive disabled"
+    },
+    {
+      "trace_id": "20260701_063839",
+      "timestamp": "2026-07-01T06:38:39.325924",
+      "schema_version": "v3",
+      "component": "supercomputer",
+      "expert": "Health Performance GEO Client Acquisition Engine",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after intent-alignment receipt patch | platform: codex | Verification: route PASS; JSONL PASS with 43 rows; export guard PASS; grounding PASS; content finish WARN; prose classifier WARNING; Google Drive disabled; Notion unavailable due DNS"
     }
   ],
-  "total_cases": 36,
-  "last_updated": "2026-06-30T18:05:35.537249"
+  "total_cases": 40,
+  "last_updated": "2026-07-01T06:38:39.326723"
 }

@@ -230,10 +230,39 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
             "confidence": 90 + min(len(repeatability_hits), 9),
         }
 
-    source_command_control = "source-command-" in q and (problem_hits or action_hits or surface_hits)
+    # source-command-X is only a system-control intent if there's a PROBLEM being reported.
+    # If it's just "source-command-orchestrate show ranked options", that's a normal use,
+    # not a wiring complaint. Don't confuse explicit command invocation with repair requests.
+
+    # Check if this is an explicit command invocation (source-command-X pattern).
+    # If so, extract what comes after "source-command-" to avoid false positives
+    # (e.g., "source-command-health-check" contains "check" but that's the command name).
+    explicit_command_match = re.search(r"source-command-([\w-]+)", q)
+    if explicit_command_match:
+        command_name = explicit_command_match.group(1)
+        # Check for explicit problems or actions NOT within the command name itself
+        # Remove the command name from consideration to avoid false flags
+        q_without_command = q.replace(f"source-command-{command_name}", "").strip()
+        has_problem_after_command = any(term in q_without_command for term in problem_hits)
+        has_action_after_command = any(term in q_without_command for term in action_hits)
+        explicit_command_invoke = not (has_problem_after_command or has_action_after_command)
+    else:
+        explicit_command_invoke = False
+
+    # Don't treat "wrong route" / "wrong workflow" as system-failure.
+    # Those are repeatability intents (preserved via routing_governor).
+    wrong_route_complaint = any(
+        phrase in q for phrase in ("wrong route", "wrong workflow", "route picked the wrong")
+    )
+
+    source_command_control = (
+        "source-command-" in q and
+        (problem_hits or action_hits or surface_hits) and
+        not explicit_command_invoke
+    )
     selective_language_complaint = "selective language" in q and (problem_hits or "linked" in q or "linking" in q)
-    shape_match = bool(surface_hits and (problem_hits or action_hits))
-    multi_surface_complaint = len(surface_hits) >= 2 and bool(problem_hits)
+    shape_match = bool(surface_hits and (problem_hits or action_hits)) and not wrong_route_complaint
+    multi_surface_complaint = len(surface_hits) >= 2 and bool(problem_hits) and not wrong_route_complaint
     general_distress = any(term in q for term in GENERAL_DISTRESS_TERMS)
     concrete_deliverable = any(re.search(rf"\b{re.escape(term)}\b", q) for term in DELIVERABLE_VERBS)
 

@@ -7,8 +7,9 @@ description: "Deploy-at-will Virtuoso orchestration front door for any domain: t
 
 Use this skill when the user invokes `/virtuoso`, `source-command-virtuoso`,
 asks to deploy Virtuoso orchestration, wants the full harness applied to a goal,
-asks for solo orchestration, full-system excellence, full-arsenal execution, or
-needs one visible trace across route, owner, stack, tools, delegation, and proof.
+asks for solo orchestration, full-system excellence, full-arsenal execution,
+needs a Raw Intent Virtuoso Bridge packet, or needs one visible trace across
+route, owner, stack, tools, delegation, and proof.
 
 ## Operator Core Alignment
 
@@ -17,6 +18,7 @@ behavior source. It must preserve:
 
 - one hot command surface only: `/virtuoso`
 - no competing orchestration layer
+- raw-intent starts can compile a run packet through `execution/raw_intent_run_packet.py`
 - trace plus safe local first action by default
 - `--trace-only`, `--delegate`, `--log`, and `--mode` options
 - `--workflow` option for Codex Dynamic Workflow manifest traces

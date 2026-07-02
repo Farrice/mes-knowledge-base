@@ -87,6 +87,15 @@ GOLDEN_PROMPTS = [
         "required": ["autopilot", "orchestrate"],
     },
     {
+        "id": "raw-intent-bridge",
+        "query": "I do not know how to ask Codex to turn messy entrepreneurial intent into an executable run packet",
+        "route": "autopilot",
+        "lane": "front-door-choice",
+        "status": "Running now",
+        "required": ["autopilot", "orchestrate"],
+        "bridge": True,
+    },
+    {
         "id": "repeatability",
         "query": "The revision got worse and lost the good part.",
         "route": "repeatability-spine",
@@ -184,6 +193,7 @@ ORDERED_SECTIONS = [
     "## Intent Lock",
     "## Intent Confidence Packet",
     "## Co-Creative Launchpad",
+    "## Raw Intent Bridge",
     "## Autopilot Trace",
     "## Execution Decision",
     "## Chosen Path",
@@ -204,6 +214,7 @@ REQUIRED_TEXT = [
     "**Arsenal policy**",
     "**Retrieval home**",
     "## Co-Creative Launchpad",
+    "## Raw Intent Bridge",
     "**Dynamic Workflow**",
     "**Predicted need**",
     "**Questions that change execution**",
@@ -292,6 +303,12 @@ def assert_case(case: dict[str, object]) -> str:
             raise AssertionError(f"{label} confidence packet expected /{route}, got /{packet['chosen_route']}")
     if status == "Needs judgment" and not packet["questions"]:
         raise AssertionError(f"{label} Needs judgment runs should include confidence-packet questions")
+    if case.get("bridge"):
+        bridge = data.get("raw_intent_bridge", {})
+        if bridge.get("status") != "triggered":
+            raise AssertionError(f"{label} expected raw intent bridge to trigger")
+        if "raw_intent_run_packet.py" not in bridge.get("packet_command", ""):
+            raise AssertionError(f"{label} missing raw intent packet compiler command")
 
     return f"{label}: route=/{chosen}, lane={governor['lane']}, status={status}"
 

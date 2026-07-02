@@ -85,6 +85,115 @@ OWNER_BY_ROUTE = {
     "client-acquire": "Client Acquisition",
 }
 
+RAW_INTENT_BRIDGE_SIGNALS = (
+    "/raw-intent-bridge",
+    "raw-intent-bridge",
+    "intent bridge",
+    "raw intent",
+    "rough intent",
+    "messy context",
+    "messy notes",
+    "do not know how to ask codex",
+    "don't know how to ask codex",
+    "how to ask codex",
+    "prompt engineer",
+    "run packet",
+    "virtuoso bridge",
+    "bridge or layer",
+    "companion layer",
+    "full capabilities",
+    "translate initially",
+)
+
+RAW_INTENT_SOURCE_SYSTEM_SIGNALS = (
+    "source-to-skill",
+    "source to skill",
+    "skill system",
+    "workflow bridge",
+    "companion layer",
+    "contract doc",
+    "plugin later",
+    "plugin phase",
+    "plugin packaging",
+)
+
+RAW_INTENT_BUILD_SIGNALS = (
+    "build",
+    "implement",
+    "create",
+    "add",
+    "update",
+    "wire",
+    "compiler",
+)
+
+
+def is_raw_intent_bridge_query(query: str) -> bool:
+    q = query.lower()
+    return any(signal in q for signal in RAW_INTENT_BRIDGE_SIGNALS) or (
+        "codex" in q and "intent" in q and ("bridge" in q or "packet" in q)
+    )
+
+
+def raw_intent_bridge_route(query: str) -> str | None:
+    q = query.lower()
+    if not is_raw_intent_bridge_query(query):
+        return None
+    explicit_system = any(signal in q for signal in RAW_INTENT_SOURCE_SYSTEM_SIGNALS)
+    build_bridge = any(signal in q for signal in RAW_INTENT_BUILD_SIGNALS) and (
+        "bridge" in q or "run packet" in q or "raw intent" in q
+    )
+    if explicit_system or build_bridge:
+        return "source-to-skill-system"
+    return "autopilot"
+
+
+def raw_intent_bridge_hint(query: str, route: str, gates: list[str], lane: str, recipe_name: str) -> dict[str, Any]:
+    q = query.lower()
+    triggered = is_raw_intent_bridge_query(query)
+    triggered = triggered or (lane in {"front-door-choice", "skill-system"} and ("codex" in q or "intent" in q))
+    if not triggered:
+        return {
+            "status": "skipped",
+            "reason": "Request is already specific enough for normal Autopilot routing.",
+            "packet_command": "",
+            "contract": "semantic_libraries/antigravity/primitives/raw-intent-virtuoso-bridge-contract.md",
+            "preferred_route": route,
+            "plugin_packaging": "deferred",
+        }
+
+    raw_route = raw_intent_bridge_route(query)
+    if raw_route:
+        preferred = raw_route
+    elif recipe_name == "plugin-packaging" and ("raw intent" in q or "bridge" in q or "run packet" in q):
+        preferred = "source-to-skill-system"
+    elif lane == "revenue":
+        preferred = route if route in {"first-10k", "revenue-offer-agent", "client-acquire"} else "first-10k"
+    elif lane == "skill-system":
+        preferred = "source-to-skill-system"
+    elif lane == "front-door-choice":
+        preferred = "autopilot"
+    else:
+        preferred = route if route not in {"plugin-readiness-audit"} else "autopilot"
+
+    mode = "auto"
+    if lane == "revenue":
+        mode = "revenue"
+    elif route in {"campaign", "creative-brief-gen", "content-media-agent", "high-taste-writing-os"}:
+        mode = "creative"
+    elif preferred == "source-to-skill-system":
+        mode = "system"
+
+    return {
+        "status": "triggered",
+        "reason": "Raw or under-specified Codex intent should be compiled into a run packet before execution.",
+        "packet_command": f"python3 execution/raw_intent_run_packet.py {json.dumps(query)} --mode {mode} --plain",
+        "contract": "semantic_libraries/antigravity/primitives/raw-intent-virtuoso-bridge-contract.md",
+        "preferred_route": preferred,
+        "support_gates": gates,
+        "plugin_packaging": "deferred until cold-start proof passes",
+    }
+
 VERIFIERS_BY_LANE = {
     "system-failure": (
         "python3 execution/verify_autopilot_runtime_preflight.py",
@@ -105,7 +214,6 @@ VERIFIERS_BY_LANE = {
     "skill-system": (
         "python3 execution/verify_autopilot_runtime_preflight.py",
         "python3 execution/verify_skill_system_contract.py",
-        "python3 execution/validate_skill.py source-command-source-to-skill-system",
     ),
     "revenue": (
         "python3 execution/verify_autopilot_runtime_preflight.py",
@@ -497,6 +605,10 @@ def support_gates(query: str, decision: Any, recipe: Any) -> list[str]:
     for gate in recipe.support_gates:
         if gate not in gates:
             gates.append(gate)
+    if decision.detected_lane == "front-door-choice" or raw_intent_bridge_route(query) == "autopilot":
+        for gate in ("autopilot", "orchestrate"):
+            if gate not in gates:
+                gates.append(gate)
     if decision.detected_lane == "system-failure":
         for gate in ("system-audit", "routing-intelligence", "health-check", "friction-ledger"):
             if gate not in gates:
@@ -622,6 +734,9 @@ def choose_effective_route(mode: str, query: str, decision: Any, recipe: Any, me
         return "orchestrate"
     if decision.detected_lane == "deep-research-os" or recipe.name == "deep-research-os":
         return decision.chosen_route or "deep-research-os"
+    bridge_route = raw_intent_bridge_route(query)
+    if bridge_route:
+        return bridge_route
     if mode == "package" or recipe.name == "plugin-packaging":
         return "plugin-readiness-audit"
     if recipe.name == "system-repair" and routing_governor.is_system_audit_query(query):
@@ -697,9 +812,9 @@ def build_run_prompt(query: str, route: str, gates: list[str], decision: dict[st
             f"Primary route: /{route}",
             f"Support gates: {gate_text}",
             f"Execution decision: {decision['status']}",
-            "Stay local to /Users/farricecain/Codex Antigravity.",
+            f"Stay local to {ROOT}.",
             "Run the planned verifiers and finish with a run receipt.",
-            "Pause only if an external, paid, destructive, global, Google Antigravity, or real-subagent gate appears.",
+            "Pause only if an external, paid, destructive, global, non-current-workspace, or real-subagent gate appears.",
         ]
     )
 
@@ -710,10 +825,17 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
     workflow_routes = route_names_from_workflow_router(query)
     decision = routing_governor.evaluate(query, menu_routes, workflow_routes)
     recipe = classify_outcome(query, decision.detected_lane, decision.chosen_route)
+    bridge_route = raw_intent_bridge_route(query)
     if mode == "delegate":
         effective_lane = "delegate"
+    elif bridge_route == "source-to-skill-system":
+        effective_lane = "skill-system"
+    elif bridge_route == "autopilot":
+        effective_lane = "front-door-choice"
     else:
         effective_lane = "plugin-packaging" if recipe.name == "plugin-packaging" else decision.detected_lane
+    if bridge_route == "source-to-skill-system":
+        recipe = classify_outcome(query, "skill-system", "source-to-skill-system")
     chosen = choose_effective_route(mode, query, decision, recipe, menu_routes)
     stack = recommend_stack.recommend_stack(query)
     tools, tool_matches = tool_clusters(query)
@@ -729,6 +851,9 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
     if dynamic_workflow_needed and "python3 execution/verify_codex_dynamic_workflow.py" not in verifiers:
         verifiers.insert(0, "python3 execution/verify_codex_dynamic_workflow.py")
     risks = risk_reasons(query, mode)
+    raw_bridge = raw_intent_bridge_hint(query, chosen, gates, effective_lane, recipe.name)
+    if raw_bridge["status"] == "triggered" and "python3 execution/verify_raw_intent_run_packet.py" not in verifiers:
+        verifiers.insert(0, "python3 execution/verify_raw_intent_run_packet.py")
     launchpad = co_creative_launchpad.build_launchpad(
         query,
         route=chosen,
@@ -792,6 +917,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
         },
         "intent_confidence_packet": confidence_packet,
         "launchpad": launchpad,
+        "raw_intent_bridge": raw_bridge,
         "trace": {
             "loaded": [
                 "CODEX.md",
@@ -816,6 +942,7 @@ def build_preflight(query: str, mode: str = "auto") -> dict[str, Any]:
                 "execution/tool_router.py",
                 "execution/context_retriever.py",
             ],
+            "raw_intent_bridge": raw_bridge,
             "candidates": {
                 "command_menu": menu_routes,
                 "workflow_router": workflow_routes,
@@ -936,6 +1063,7 @@ def render_preflight(data: dict[str, Any]) -> str:
     intent = data["intent"]
     confidence_packet = data["intent_confidence_packet"]
     launchpad = data["launchpad"]
+    raw_bridge = data.get("raw_intent_bridge", {})
     trace = data["trace"]
     posture = data["execution_decision"]
     chosen = data["chosen_path"]
@@ -985,6 +1113,14 @@ def render_preflight(data: dict[str, Any]) -> str:
         f"- **Route bias**: /{launchpad['route_bias']['primary']}; {launchpad['route_bias']['reason']}",
         f"- **Pause or run**: {launchpad['pause_or_run']['decision']} - {launchpad['pause_or_run']['reason']}",
         f"- **Handoff**: {launchpad['handoff']['summary']}",
+        "",
+        "## Raw Intent Bridge",
+        f"- **Status**: {raw_bridge.get('status', 'skipped')}",
+        f"- **Reason**: {raw_bridge.get('reason', 'No raw-intent bridge needed.')}",
+        f"- **Preferred route**: /{raw_bridge.get('preferred_route', chosen['primary_route'])}",
+        f"- **Packet compiler**: {raw_bridge.get('packet_command') or 'Not triggered for this request.'}",
+        f"- **Contract**: {raw_bridge.get('contract', 'semantic_libraries/antigravity/primitives/raw-intent-virtuoso-bridge-contract.md')}",
+        f"- **Plugin packaging**: {raw_bridge.get('plugin_packaging', 'deferred')}",
         "",
         "## Autopilot Trace",
         f"- **Loaded**: {fmt_list(trace['loaded'])}",

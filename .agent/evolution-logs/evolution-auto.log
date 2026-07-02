@@ -531,3 +531,23 @@
     "monthly"
   ]
 }
+{
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-07-01.md",
+        "traces_24h": 8,
+        "routing_decisions_24h": 9,
+        "queued_phase2": 6,
+        "queued_binding_reviews": 1,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 6
+      }
+    }
+  ],
+  "skipped": [
+    "weekly",
+    "monthly"
+  ]
+}

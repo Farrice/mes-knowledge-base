@@ -1,6 +1,6 @@
 # CODEX.md - Codex Antigravity Active Harness
 
-This is the active Codex-native operating specification for `/Users/farricecain/Codex Antigravity`.
+This is the active Codex-native operating specification for `/Users/farricecain/Google Antigravity`.
 
 `AGENTS.md` points here for current harness authority. `GEMINI.md`, `CLAUDE.md`, and `.claude/commands/` are legacy/source compatibility references unless a task explicitly asks to inspect or back-port model-specific behavior.
 

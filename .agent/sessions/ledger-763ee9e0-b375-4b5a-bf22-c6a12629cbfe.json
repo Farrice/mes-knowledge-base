@@ -3,7 +3,6 @@
  "debts": [],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/execution/verify_codex_authority.py",
   "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/763ee9e0-b375-4b5a-bf22-c6a12629cbfe/scratchpad/fix_codex_config.py",
   "/Users/farricecain/Google Antigravity/AGENTS.md",
   "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/763ee9e0-b375-4b5a-bf22-c6a12629cbfe/scratchpad/operating-guide.md",
@@ -12,7 +11,8 @@
   "/Users/farricecain/Google Antigravity/execution/codex_live_surface_audit.py",
   "/Users/farricecain/Google Antigravity/execution/codex_harness_check.py",
   "/Users/farricecain/Google Antigravity/execution/hooks/active_tool_lock.py",
-  "/Users/farricecain/Google Antigravity/docs/OPERATING-CODEX-AND-CLAUDE.md"
+  "/Users/farricecain/Google Antigravity/docs/OPERATING-CODEX-AND-CLAUDE.md",
+  "/Users/farricecain/Google Antigravity/execution/workflow_router.py"
  ],
  "subagent_spawns": 5,
  "finalized_at": null,

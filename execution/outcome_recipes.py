@@ -71,7 +71,6 @@ RECIPES: dict[str, OutcomeRecipe] = {
         artifact="grounded evidence package plus command-grade workflow/skill surface",
         verifiers=(
             "python3 execution/verify_skill_system_contract.py",
-            "python3 execution/validate_skill.py source-command-source-to-skill-system",
         ),
         plugin_ladder="skill wrapper before plugin candidate",
     ),

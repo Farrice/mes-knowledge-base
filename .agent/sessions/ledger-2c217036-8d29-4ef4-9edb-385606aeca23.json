@@ -1,0 +1,334 @@
+{
+ "session_id": "2c217036-8d29-4ef4-9edb-385606aeca23",
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-addictive-storytelling",
+   "ts": "2026-07-01T08:43:01.892310"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-brand",
+   "ts": "2026-07-01T11:36:22.691110"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-philosophy",
+   "ts": "2026-07-01T11:36:23.340621"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "maria-wendt-digital-products",
+   "ts": "2026-07-01T11:36:23.615272"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ghostwriting-voice-engine",
+   "ts": "2026-07-01T11:36:25.113468"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chase-hughes-context-engineering",
+   "ts": "2026-07-01T11:36:25.535247"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "futurepedia-prompt-engineering",
+   "ts": "2026-07-01T11:36:25.738059"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-copy-blocks",
+   "ts": "2026-07-01T11:36:37.191722"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lance-yichao-context-engineering",
+   "ts": "2026-07-01T11:36:42.183328"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "bond-halbert-copywriting",
+   "ts": "2026-07-01T11:36:42.214636"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "fresh-voice-system",
+   "ts": "2026-07-01T11:36:42.438337"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jasmin-alic-linkedin-growth",
+   "ts": "2026-07-01T11:37:00.446669"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jack-roberts-design-mastery",
+   "ts": "2026-07-01T11:51:44.155435"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alex-myatt-creative-engine",
+   "ts": "2026-07-01T11:51:59.070451"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "andy-galpin-training-intelligence",
+   "ts": "2026-07-01T12:27:45.613447"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "seth-godin-ideavirus",
+   "ts": "2026-07-01T13:45:12.218403"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-client-acquisition",
+   "ts": "2026-07-01T13:45:13.255420"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jason-fladlien-marketing",
+   "ts": "2026-07-01T13:45:18.453027"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-iha-creative-strategy",
+   "ts": "2026-07-01T13:45:20.130162"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-content-psychology",
+   "ts": "2026-07-01T13:45:20.150178"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-priestley-oversubscribed",
+   "ts": "2026-07-01T13:45:20.796192"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "craig-clemens-copywriting",
+   "ts": "2026-07-01T13:52:19.609763"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alex-copper-creative-strategy",
+   "ts": "2026-07-01T13:52:59.539768"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "oren-content-team-architecture",
+   "ts": "2026-07-01T13:57:59.052762"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "russell-brunson-funnels",
+   "ts": "2026-07-01T15:09:26.856541"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "strength-conditioning-os",
+   "ts": "2026-07-01T15:09:27.619099"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "david-perell-writing",
+   "ts": "2026-07-01T15:09:27.623583"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "brendan-kane-viral-strategy",
+   "ts": "2026-07-01T15:09:30.055332"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "pat-flynn-passive-income",
+   "ts": "2026-07-01T15:09:30.401759"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ash-maurya-lean-metrics",
+   "ts": "2026-07-01T15:09:30.662092"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "cognitive-engagement-optimizer",
+   "ts": "2026-07-01T15:09:31.332324"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sunny-lenarduzzi-youtube",
+   "ts": "2026-07-01T15:09:31.623617"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "prosperity-coach-system",
+   "ts": "2026-07-01T15:09:31.667918"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alex-hormozi-business",
+   "ts": "2026-07-01T15:09:31.892565"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "matthew-lakajev-linkedin",
+   "ts": "2026-07-01T15:09:31.991442"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "justin-welsh-solopreneur",
+   "ts": "2026-07-01T15:09:32.164370"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "michael-israetel-hypertrophy",
+   "ts": "2026-07-01T15:09:32.243749"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "eugene-teo-training",
+   "ts": "2026-07-01T15:09:32.502938"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alan-aragon-nutrition",
+   "ts": "2026-07-01T15:09:32.870366"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dakota-content-design",
+   "ts": "2026-07-01T15:09:33.349607"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "matt-mcgarry-newsletters",
+   "ts": "2026-07-01T15:09:33.384929"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "damon-cart-nlp",
+   "ts": "2026-07-01T15:09:33.856387"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "benjamin-hardy-identity",
+   "ts": "2026-07-01T15:09:34.036546"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "packy-mccormick-writing",
+   "ts": "2026-07-01T15:09:34.055329"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luke-alexander-ai-business",
+   "ts": "2026-07-01T15:09:34.596907"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "marisa-murgatroyd-course-design",
+   "ts": "2026-07-01T15:09:34.754996"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "context-profile-architect",
+   "ts": "2026-07-01T15:09:34.854141"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "knowledge-architecture-studio",
+   "ts": "2026-07-01T15:09:34.977812"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "extract-mastery",
+   "ts": "2026-07-01T15:09:35.171015"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "greg-hickman-service-scaling",
+   "ts": "2026-07-01T15:09:35.504605"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "matthew-volkwyn-copywriting",
+   "ts": "2026-07-01T15:09:35.508113"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "deya-business-systems",
+   "ts": "2026-07-01T15:09:35.808166"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "jenny-hoyos-shorts",
+   "ts": "2026-07-01T15:10:37.750127"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kj-rainey-copywriting",
+   "ts": "2026-07-01T15:10:38.343943"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "fraser-cottrell-paid-ads",
+   "ts": "2026-07-01T15:10:38.694879"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dan-bolton-coaching-offers",
+   "ts": "2026-07-01T15:10:38.854355"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ross-minchev-digital-products",
+   "ts": "2026-07-01T15:10:39.397919"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "luisa-zhou-coaching",
+   "ts": "2026-07-01T15:10:45.221321"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "reid-hoffman-ai-strategy",
+   "ts": "2026-07-01T15:10:45.723247"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chris-do-design-business",
+   "ts": "2026-07-01T15:10:45.972165"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "steven-young-consciousness",
+   "ts": "2026-07-01T15:11:05.586259"
+  }
+ ],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/skills/chris-do-design-business/workflows/01-position-and-price-premium.md",
+  "/Users/farricecain/Google Antigravity/skills/craig-clemens-copywriting/workflows/06-diagnose-market-stage-and-rewrite-plan.md",
+  "/Users/farricecain/Google Antigravity/skills/craig-clemens-copywriting/SKILL.md",
+  "/Users/farricecain/Google Antigravity/agents/craig-clemens/AGENT.md",
+  "/Users/farricecain/Google Antigravity/skills/chris-do-design-business/workflows/02-run-kind-sales-call.md",
+  "/Users/farricecain/Google Antigravity/skills/chris-do-design-business/workflows/03-build-personal-brand-engine.md",
+  "/Users/farricecain/Google Antigravity/agents/chris-do/AGENT.md",
+  "/Users/farricecain/Google Antigravity/docs/OPERATING-THE-HARVEST.md",
+  "/Users/farricecain/Google Antigravity/execution/harvest_memory_daily.py",
+  "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/2c217036-8d29-4ef4-9edb-385606aeca23/scratchpad/audit_harvest.py"
+ ],
+ "subagent_spawns": 8,
+ "finalized_at": null,
+ "last_debt_at": "2026-07-01T15:11:05.586282",
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": true
+}

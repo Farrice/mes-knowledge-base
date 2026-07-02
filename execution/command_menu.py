@@ -86,6 +86,7 @@ CONTROL_PLANE_ROUTES = {
     "extraction-governor-agent",
     "expert-composition-governor",
     "virtuoso",
+    "raw-intent-bridge",
     "mission",
     "orchestrate",
     "self-evolve",
