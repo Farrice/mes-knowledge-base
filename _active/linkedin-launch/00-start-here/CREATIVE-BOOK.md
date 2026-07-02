@@ -63,6 +63,7 @@ Top targets: **Create Wellness, Gorgie, Gainful, Momentous, Four Sigmatic, Hilma
 - **Weeks 7–10 — PROOF:** audit #3 → install attaches → first case-study drafts. Screenshots into the feed.
 - **Weeks 10–14 — CONVERT:** first retainer(s) at $2.5–3.5K. Prices step to standard. Raise-path fires after case study #3.
 - **The trap to refuse at every stage:** building more system instead of sending more DMs. The machine is built. The bottleneck is conversations.
+- **The stop-loss (ratified 2026-07-01, after the path comparison — `../01-research/PATH-DECISION-BRIEF-2026-07-01.md`):** this offer sells UNCHANGED until 3 paid clients or 60 days, whichever is later. No re-architecting inside the window. If week 6 feels wrong, the fix is the motion (DMs, warm list, teardowns), never the identity. Re-open the path question only with conversion data, not a feeling.
 
 ## 11. Today's card (fill in 60 seconds, then run §4)
 - Ride-able moment: [ ] · Post shipping: [batch # or /geo-content] · Teardown day? [Y/N → brand]
