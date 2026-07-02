@@ -16,7 +16,8 @@
 - Every number in both docs traces to the intel doc or the dossier.
 
 ## OPEN
-- **Cut a fresh one-pager from the enhanced canonical** before sending to prospects (old one-pager superseded/archived).
+- **⚡ DECISION PENDING — READ FIRST NEXT SESSION:** Farrice raised the pivot question same-day ("content-strategy-led instead of GEO-led?"). Full comparison + independent adversarial verdict: `_active/linkedin-launch/01-research/PATH-DECISION-BRIEF-2026-07-01.md`. Verdict on the table = **MODIFIED P3** (sell the Claim-Safe Content Audit — gift-led, zero AEO at the money moment; AI-citation delivered as bonus; non-health verticals + seat sacrificed 90 days; stop-loss: unchanged until 3 paid clients or 60 days). **He chose to sit with the brief overnight — NO offer-doc edits until he ratifies.** If ratified: surgical edits to CANONICAL-OFFER-BRIEF (§1 wedge order + Pillar-2 rename), OFFER-ONE-PAGER (open + audit paragraph), CREATIVE-BOOK (§1, §5, §7-D + stop-loss into §10) — ~1 hour, no rebuild.
+- ~~Cut a fresh one-pager~~ ✅ DONE (`02-offer/OFFER-ONE-PAGER.md`, prose-gate CLEAN) — note: its audit paragraph changes if MODIFIED P3 is ratified.
 - Uncommitted: this session's offer work (intel doc, enhanced brief, archive moves, control-tower/README/GO-LIVE touches). Commit when reviewed.
 - Drive mirror stale for offer docs (docs 00–15 predate Content OS + this enhancement).
 - Prior session items: 4 `[VERIFY LIVE]` newsjacks; P2-1 bench call; `git push origin main` from terminal.
