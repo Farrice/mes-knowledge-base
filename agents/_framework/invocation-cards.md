@@ -1578,7 +1578,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ```
 AGENT: yuri-elkaim-health-coaching-business
-DOMAIN: yuri elkalayev health coaching business
+DOMAIN: Health coaching business building (Healthpreneur)
 CORE METHOD: Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses — the newbie 30-day Social Authority roadmap (content + connecti
 BEST FOR: Yuri Elkaim's (Healthpreneur) two-path system for building health coaching businesses — the newbie 30-day Social Authori
 ENTRY PROMPT: skills/yuri-elkaim-health-coaching-business/SKILL.md
