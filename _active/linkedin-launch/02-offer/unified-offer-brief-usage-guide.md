@@ -226,9 +226,9 @@ Update pricing, positioning language, and messaging based on what the market res
 
 ## Files Reference
 
-- **Full Brief**: `/Users/farricecain/Google Antigravity/_active/unified-offer-brief.md`
-- **One-Pager**: `/Users/farricecain/Google Antigravity/_active/unified-offer-brief-one-pager.md`
-- **Usage Guide**: `/Users/farricecain/Google Antigravity/_active/unified-offer-brief-usage-guide.md` (this file)
+- **Full Brief**: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief.md`
+- **One-Pager**: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md`
+- **Usage Guide**: `/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/unified-offer-brief-usage-guide.md` (this file)
 
 Original source documents (preserved for reference):
 - `_active/linkedin-launch/02-offer/OFFER-LADDER.md` (proof-first, creative-led)

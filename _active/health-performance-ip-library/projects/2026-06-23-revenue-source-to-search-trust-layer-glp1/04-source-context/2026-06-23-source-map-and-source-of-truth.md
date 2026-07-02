@@ -14,9 +14,9 @@ These files remain in their original operating locations:
 - `_active/health-performance-ip-library/SERVICE_LADDER.md`
 - `_active/health-performance-ip-library/AUTOMATION_PROMPT.md`
 - `_active/health-performance-ip-library/README.md`
-- `_active/unified-offer-brief.md`
-- `_active/unified-offer-brief-one-pager.md`
-- `_active/UNIFIED-OFFER-INDEX.md`
+- `_active/linkedin-launch/02-offer/unified-offer-brief.md`
+- `_active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md`
+- `_active/linkedin-launch/02-offer/UNIFIED-OFFER-INDEX.md`
 
 ## Session Artifacts
 

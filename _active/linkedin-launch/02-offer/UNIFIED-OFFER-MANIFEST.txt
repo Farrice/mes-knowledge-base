@@ -24,7 +24,7 @@ DELIVERABLE FILES
 ================================================================================
 
 1. unified-offer-brief.md (PRIMARY)
-   Location: _active/unified-offer-brief.md
+   Location: _active/linkedin-launch/02-offer/unified-offer-brief.md
    Size: 12 KB | Lines: 319
    Format: Markdown
    Read Time: 7–10 minutes
@@ -63,7 +63,7 @@ DELIVERABLE FILES
 ---
 
 2. unified-offer-brief-one-pager.md (QUICK REFERENCE)
-   Location: _active/unified-offer-brief-one-pager.md
+   Location: _active/linkedin-launch/02-offer/unified-offer-brief-one-pager.md
    Size: 4.6 KB | Lines: 133
    Format: Markdown
    Read Time: 2–3 minutes
@@ -89,7 +89,7 @@ DELIVERABLE FILES
 ---
 
 3. unified-offer-brief-usage-guide.md (PLAYBOOK)
-   Location: _active/unified-offer-brief-usage-guide.md
+   Location: _active/linkedin-launch/02-offer/unified-offer-brief-usage-guide.md
    Size: 8.2 KB | Lines: 239
    Format: Markdown
    Read Time: 10–15 minutes (reference)
@@ -134,7 +134,7 @@ DELIVERABLE FILES
 ---
 
 4. UNIFIED-OFFER-INDEX.md (MASTER INDEX)
-   Location: _active/UNIFIED-OFFER-INDEX.md
+   Location: _active/linkedin-launch/02-offer/UNIFIED-OFFER-INDEX.md
    Size: ~6 KB | Lines: ~200
    Format: Markdown
    Purpose: Navigation + reconciliation reference
@@ -160,7 +160,7 @@ DELIVERABLE FILES
 ---
 
 5. UNIFIED-OFFER-MANIFEST.txt (THIS FILE)
-   Location: _active/UNIFIED-OFFER-MANIFEST.txt
+   Location: _active/linkedin-launch/02-offer/UNIFIED-OFFER-MANIFEST.txt
    Purpose: Comprehensive project summary
 
 ================================================================================
