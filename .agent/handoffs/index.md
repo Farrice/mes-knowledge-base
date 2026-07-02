@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-02** [elevation-track/ready] [Handoff — "Wake Up Raphael": Audit Repairs + Elevation Track E1–E4 Complete](2026-07-02-elevation-track.md) — Pick one: E5 breadth-harvest roadmap OR templated-score sweep (~8 workflows) — both specified in the handoff
 - **2026-07-02** [offer-stack/active] [Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM layer + verdict-flywheel prep) with independent cold-visitor stress-test — the undisclosed-login-wall kill-shot found and fixed across kit/cards/packet + 4 secondaries applied](2026-07-02-offer-stack.md) — Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM layer + verdict-flywheel prep) with independent cold-visitor stress-test — the undisclosed-login-wall kill-shot found and fixed across kit/cards/packet + 4 secondaries applied
 - **2026-07-02** [jen-listings/ready] [Handoff — Grounded Copy Engine + High-Stakes Proof Gate](2026-07-02-jen-listings.md) — Farrice reviews 3 SFV FTHB Google Docs in Jen's Drive + confirms 3 verify-at-send figures; toggle pageless
 - **2026-07-02** [claude-export-harvest/ready] [Handoff — claude.ai Export Harvest: COMPLETE → Battle-Test Phase](2026-07-02-claude-export-harvest.md) — Battle-test: run a real client program through /strength-conditioning + a real offer through /coaching-business; felt verdict decides

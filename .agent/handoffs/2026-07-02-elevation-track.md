@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** elevation-track  
-**Full path:** .agent/handoffs/2026-07-02-elevation-track.md  
-**Date:** 2026-07-02 (today)  
-**Status:** ready  
-**Title:** Handoff — "Wake Up Raphael": Audit Repairs + Elevation Track E1–E4 Complete
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume elevation-track` for this one.
-
----
-
 ---
 thread: elevation-track
 status: ready
@@ -73,4 +61,3 @@ The 2026-07-02 system audit found the harness skeleton healthy but every learnin
 ## Verification state at close
 
 All 5 canonical verifiers PASS · `platform_compiler.py lint` clean · git tree clean · protocol tracker, routing intelligence, gap log, memory pipeline all ACTIVE with data · eval harness: 28 entries, 27 human-calibrated, load-bearing.
-
