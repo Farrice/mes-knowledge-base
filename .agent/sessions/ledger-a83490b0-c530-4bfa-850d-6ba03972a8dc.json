@@ -1,9 +1,49 @@
 {
  "session_id": "a83490b0-c530-4bfa-850d-6ba03972a8dc",
- "debts": [],
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "extract-mastery",
+   "ts": "2026-07-02T10:19:36.840796"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "noah-hawley-storytelling-mastery",
+   "ts": "2026-07-02T10:20:01.498113"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "andrew-stanton-audience-engineering",
+   "ts": "2026-07-02T10:20:06.782773"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lamott-allen-really-real-writing",
+   "ts": "2026-07-02T10:20:06.938543"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "alan-aragon-nutrition",
+   "ts": "2026-07-02T10:20:37.128969"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "michael-israetel-hypertrophy",
+   "ts": "2026-07-02T10:21:23.887635"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sean-dollwet-kdp-publishing",
+   "ts": "2026-07-02T10:21:31.231220"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "adam-enfroy-affiliate-marketing",
+   "ts": "2026-07-02T10:21:43.259452"
+  }
+ ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/CLAUDE.md",
   "/Users/farricecain/Google Antigravity/execution/system_health.py",
   "/Users/farricecain/Google Antigravity/execution/protocol_tracker.py",
   "/Users/farricecain/Google Antigravity/execution/hooks/mcp_spend_log_hook.py",
@@ -11,11 +51,13 @@
   "/Users/farricecain/Google Antigravity/execution/skill_router_hook.py",
   "/Users/farricecain/Google Antigravity/execution/memory_facade.py",
   "/Users/farricecain/Google Antigravity/execution/memory_weekly.sh",
-  "/Users/farricecain/Google Antigravity/directives/feedback-ratchet.md"
+  "/Users/farricecain/Google Antigravity/directives/feedback-ratchet.md",
+  "/Users/farricecain/Google Antigravity/_active/elevation-track/E1-factory-audit.md",
+  "/Users/farricecain/Google Antigravity/_active/elevation-track/INDEX.md"
  ],
- "subagent_spawns": 3,
+ "subagent_spawns": 6,
  "finalized_at": "2026-07-02T10:08:47.459579",
- "last_debt_at": null,
+ "last_debt_at": "2026-07-02T10:21:43.259462",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,

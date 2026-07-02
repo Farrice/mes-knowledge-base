@@ -22,10 +22,15 @@
    "ts": "2026-07-02T10:07:54.234405"
   }
  ],
- "produced": false,
- "produced_paths": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/01-source/context-brief-2026-07-02.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/04-deliverables/Katie_FullBody_Recomp_v2.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/04-deliverables/Josh_FullBody_GLP1_v2.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/00-start-here/README.md"
+ ],
  "subagent_spawns": 2,
- "finalized_at": null,
+ "finalized_at": "2026-07-02T10:18:32.320945",
  "last_debt_at": "2026-07-02T10:07:54.234417",
  "stop_blocked_once": false,
  "staleness_warned": true,
@@ -34,5 +39,5 @@
  "handoff_warned": false,
  "session_pinned": false,
  "session_pinned_at": null,
- "pin_nudged": false
+ "pin_nudged": true
 }
