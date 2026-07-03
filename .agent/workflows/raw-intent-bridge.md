@@ -28,32 +28,69 @@ generation, route selection, first safe action generation, and handoff. Never
 echo `/raw-intent-bridge`, `raw-intent-bridge:`, or
 `source-command-raw-intent-bridge:` back into the first safe action.
 
+## Stage 0: Vision Translation (mandatory — runs before the compiler)
+
+The packet compiler routes lexically. Raw vision-speech ("I want it to feel
+like...") carries no route keywords, so compiling it directly mis-routes
+(verified 2026-07-02: a warehouse-rave MyBPM merch intent routed to
+/albom-gravedigger-angle; the same intent sharpened routed to /merch-os).
+Never feed flow-speech to the compiler. Translate first.
+
+Build a Translation Card from the stripped payload:
+
+- **Anchor** — which active project/client/system this belongs to (MyBPM,
+  Parallax, Jen/FTHB, Carbon Torch, Andrea/Resonance, TrendScale, system
+  work...). Match against project memory; never guess across projects.
+- **Deliverable** — the concrete artifact implied (email sequence, post,
+  brief, campaign, skill, page...).
+- **Audience** — who receives it.
+- **Felt standard** — the vision phrases in Farrice's exact words, quoted
+  verbatim. This is the creative payload. Never paraphrase it away.
+- **Sharpened intent line** — ONE sentence shaped as
+  `<verb> <deliverable> for <anchor> using <owning OS/expert if known> — <felt
+  standard, compressed>`. It must contain route-findable keywords: project
+  name, deliverable type, owning OS or expert name when one exists.
+
+Rules:
+
+- If Anchor or Deliverable cannot be filled from the payload plus project
+  memory, ask exactly ONE question covering both gaps, then proceed. One round
+  max — never interrogate flow-state.
+- The sharpened line is for the ROUTER. The felt-standard quotes are for the
+  EXPERT. Both travel together: compile with the sharpened line, then execute
+  the chosen route with the original payload + Translation Card as context.
+- Never substitute the sharpened line for Farrice's raw words inside the
+  deliverable work itself.
+
 ## Packet + Run Default
 
 Default behavior is Packet + Run:
 
-1. Compile the Codex-ready packet from the stripped payload.
-2. Follow the packet's first safe local action when it is reversible,
-   current-workspace local, and inside the stated boundaries.
-3. Stop for approval when the packet points to global writes, external writes,
+1. Run Stage 0 Vision Translation on the stripped payload.
+2. Compile the Codex-ready packet from the sharpened intent line.
+3. Follow the packet's first safe local action when it is reversible,
+   current-workspace local, and inside the stated boundaries — carrying the
+   Translation Card (verbatim felt standard) into the route execution.
+4. Stop for approval when the packet points to global writes, external writes,
    publishing, outreach, paid/quota-heavy tools, destructive cleanup, connector
    writes, plugin marketplace edits, non-current-workspace harness edits, or
    real Codex subagents.
 
 ## Execution
 
-Run the packet compiler first:
+Run Stage 0 Vision Translation, then compile the SHARPENED line (never the
+raw payload):
 
 ```bash
-python3 execution/raw_intent_run_packet.py "[raw intent]" --plain
+python3 execution/raw_intent_run_packet.py "[sharpened intent line]" --plain
 ```
 
 Use a mode when the lane is obvious:
 
 ```bash
-python3 execution/raw_intent_run_packet.py "[raw intent]" --mode revenue --plain
-python3 execution/raw_intent_run_packet.py "[raw intent]" --mode creative --plain
-python3 execution/raw_intent_run_packet.py "[raw intent]" --mode system --plain
+python3 execution/raw_intent_run_packet.py "[sharpened intent line]" --mode revenue --plain
+python3 execution/raw_intent_run_packet.py "[sharpened intent line]" --mode creative --plain
+python3 execution/raw_intent_run_packet.py "[sharpened intent line]" --mode system --plain
 ```
 
 Default to `--mode auto` when unsure.
@@ -63,6 +100,8 @@ Default to `--mode auto` when unsure.
 The command must produce:
 
 - raw intent
+- translation card (anchor, deliverable, audience, felt standard verbatim,
+  sharpened intent line)
 - predicted need
 - center
 - success standard

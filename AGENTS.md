@@ -16,7 +16,7 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → 140 exper
 
 ## The Chain (every deliverable request — no exceptions)
 1. **SCORE** intent 1-5 (+1 each: Deliverable, Audience, Context, End-state, Specific language)
-2. **SHARPEN** if ≤3 (one round of questions max)
+2. **SHARPEN** if ≤3 (one round of questions max). Flowing/vision language ("I want it to feel like...", raw notes, stream-of-consciousness) → run the `/raw-intent-bridge` Stage 0 Vision Translation automatically (`.agent/workflows/raw-intent-bridge.md`): build the Translation Card, compile `python3 execution/raw_intent_run_packet.py "<sharpened intent line>" --plain`, execute the route with Farrice's verbatim words as the creative payload. Never compile or route raw flow-speech directly, and never make Farrice restate his vision in system terms.
 3. **ROUTE** to expert skills. Default to `PRODUCTION_CORE.md` (~25 proven entries); long-tail needs explicit `/name`. Mandatory bindings: `directives/routing-bindings.md`.
 4. **LOAD** before producing: `skills/[name]/SKILL.md` + minimum one more file (genius.md or workflow). Also: `python3 execution/memory_facade.py "<task intent>" --top 10` (one call across sovereign + auto-memory + wiki + agent + episodic stores; `memory_retrieve.py` stays valid as the sovereign-only sub-path)
 5. **PRODUCE** — the expert's thinking, not their terminology

@@ -25,11 +25,34 @@ generation, route selection, first safe action generation, and handoff. Never
 echo `/raw-intent-bridge`, `raw-intent-bridge:`, or
 `source-command-raw-intent-bridge:` back into the first safe action.
 
+## Stage 0: Vision Translation (mandatory — before the compiler)
+
+The packet compiler routes lexically; raw vision-speech mis-routes it. Never
+compile flow-speech directly. First build a Translation Card from the stripped
+payload:
+
+- **Anchor** — which active project/client/system this belongs to (match
+  against project memory; never guess across projects)
+- **Deliverable** — the concrete artifact implied
+- **Audience** — who receives it
+- **Felt standard** — the vision phrases in Farrice's exact words, verbatim.
+  Never paraphrase this away; it is the creative payload.
+- **Sharpened intent line** — ONE sentence:
+  `<verb> <deliverable> for <anchor> using <owning OS/expert if known> —
+  <felt standard, compressed>`, containing route-findable keywords.
+
+If Anchor or Deliverable cannot be filled, ask exactly ONE question covering
+both gaps, then proceed. One round max — never interrogate flow-state.
+
+The sharpened line is for the ROUTER; the verbatim quotes are for the EXPERT.
+Compile with the sharpened line, execute the route with the original payload +
+Translation Card as context.
+
 ## Packet + Run Default
 
-Default behavior is Packet + Run: compile the packet, then follow the first
-safe local action when it is reversible, current-workspace local, and inside the
-boundaries. Stop for approval before global writes, external writes,
+Default behavior is Packet + Run: translate (Stage 0), compile the packet from
+the sharpened intent line, then follow the first safe local action when it is
+reversible, current-workspace local, and inside the boundaries. Stop for approval before global writes, external writes,
 publishing, outreach, paid/quota-heavy tools, destructive cleanup, connector
 writes, plugin marketplace edits, non-current-workspace harness edits, or real
 Codex subagents.
@@ -54,18 +77,21 @@ canonical behavior source. It must preserve:
 
 ## Command Template
 
-Read and execute `.agent/workflows/raw-intent-bridge.md`. Compile the packet:
+Read and execute `.agent/workflows/raw-intent-bridge.md`. Run Stage 0 Vision
+Translation, then compile the packet from the SHARPENED line (never the raw
+payload — raw_intent_run_packet.py routes lexically and mis-routes on
+vision-speech):
 
 ```bash
-python3 execution/raw_intent_run_packet.py "<raw intent>" --plain
+python3 execution/raw_intent_run_packet.py "<sharpened intent line>" --plain
 ```
 
 Use one of these modes when useful:
 
 ```bash
-python3 execution/raw_intent_run_packet.py "<raw intent>" --mode revenue --plain
-python3 execution/raw_intent_run_packet.py "<raw intent>" --mode creative --plain
-python3 execution/raw_intent_run_packet.py "<raw intent>" --mode system --plain
+python3 execution/raw_intent_run_packet.py "<sharpened intent line>" --mode revenue --plain
+python3 execution/raw_intent_run_packet.py "<sharpened intent line>" --mode creative --plain
+python3 execution/raw_intent_run_packet.py "<sharpened intent line>" --mode system --plain
 ```
 
 Then follow the packet's chosen route, support gates, first safe action, and

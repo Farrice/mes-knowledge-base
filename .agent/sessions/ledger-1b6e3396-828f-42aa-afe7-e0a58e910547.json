@@ -1,0 +1,20 @@
+{
+ "session_id": "1b6e3396-828f-42aa-afe7-e0a58e910547",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/Users/farricecain/Google Antigravity/.agents/skills/source-command-raw-intent-bridge/SKILL.md",
+  "/Users/farricecain/Google Antigravity/AGENTS.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": true,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": true
+}

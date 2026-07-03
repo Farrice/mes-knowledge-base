@@ -239,30 +239,47 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_002302_d6a9",
+            "timestamp": "2026-07-03T00:23:02.988513+00:00",
+            "session_id": "",
+            "request_summary": "Stage 0 Vision Translation layer for /raw-intent-bridge — root-caused Codex mis-routing of raw creative intent (lexical compiler), patched canonical workflow + Codex SKILL.md + Claude shim + AGENTS.md",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 14,
+            "total_routings": 15,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 7,
+                "System": 8,
                 "Client Work": 2,
                 "Analysis": 4,
                 "Strategy": 1
             },
             "expert_counts": {
-                "system-audit": 10,
+                "system-audit": 11,
                 "strength-conditioning-os": 2,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1
             },
             "tier_counts": {
-                "0": 14,
+                "0": 15,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -271,7 +288,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 14
+                "finalize-auto": 15
             },
             "ensemble_count": 5
         }

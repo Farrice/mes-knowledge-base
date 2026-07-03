@@ -22,10 +22,13 @@ packet generation and never echo the bridge command into the first safe action.
 Default behavior is Packet + Run: compile the packet, then follow the first
 safe local action when it is reversible and inside the workspace boundaries.
 
-This command runs the local packet compiler:
+Stage 0 Vision Translation is mandatory: build the Translation Card (anchor,
+deliverable, audience, felt standard verbatim, sharpened intent line) per the
+workflow, then compile the SHARPENED line — never raw flow-speech (the
+compiler routes lexically and mis-routes on vision language):
 
 ```bash
-python3 execution/raw_intent_run_packet.py "[raw intent]" --plain
+python3 execution/raw_intent_run_packet.py "[sharpened intent line]" --plain
 ```
 
 Use `--mode revenue`, `--mode creative`, or `--mode system` only when the lane
