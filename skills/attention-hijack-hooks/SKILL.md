@@ -30,8 +30,6 @@ Primary source package:
 - `extractions/video-context/Zc4E_K48v48/transcript.txt`
 - `extractions/video-context/Zc4E_K48v48/uncertainty-report.md`
 
-NOTE: These extraction files do not yet exist in the canonical repo (ported from fork 2026-07-02). Re-extract via `/watch Zc4E_K48v48` before citing source evidence. Until re-extracted, treat video context as unavailable and note explicitly in any output.
-
 Do not claim visual or on-screen evidence from this video unless a later full-mode package adds frames or OCR rows.
 
 ## Core Thesis

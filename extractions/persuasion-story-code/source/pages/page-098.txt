@@ -1,0 +1,32 @@
+John has been awarded two Microsoft AI Azure Certifications:
+Fundamentals, and Engineer.
+is just a little more impressive than
+• Microsoft Certified: Azure AI Fundamentals and Engineer
+Why is the first one more powerful? Because, as brief as it is, the first one
+is a story; the second is only a fact. The first one's a story because
+somebody (Microsoft certifiers) did
+something awarded two
+certifications) and someone else changed John became doubly certified
+in AI).
+Now, for someone making a hiring decision, the story makes it just a
+little easier to say yes. If for no other reason than having a ready-made
+answer (maybe not the full answer, but certainly a good start) for anyone
+who challenges the decision to hire.
+One thing to consider with these stories is how well known the
+organization providing the certification is. If a journalist wins a Pulitzer
+Prize, that's so well known it requires no further explanation.
+But the George Polk Award, while known among journalists, is not
+generally as well known. If someone had such an award, it would be
+good to add that it's given by Long Island University to recognize
+achievement in print and broadcast journalism. Now it makes more
+sense to a non-journalist.
+Back to our software example from before. Microsoft is the world's
+largest software company, and thus any certification with the Microsoft
+name on it doesn't require any further explanation. But if our software
+developer who got the two Al certifications wanted to mention a
+certification from an organization that's somewhat obscure, more detail
+would be a good idea.
+TESTIMONIALS
+Testimonials are closely related to case studies. They're usually more
+conversational and not quite as formally structured. What makes them
+different from case studies is they are usually entirely in the form of a

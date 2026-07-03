@@ -80,7 +80,9 @@ Use this skill when the user needs the whole production loop, not only one compo
 
 **Buyer-Driven Content Engine**
 
-`/cap-fit-check -> /kcs-topic-format -> /kcs-substance -> /revenue-ramp-builder -> /kcs-performance-loop`
+`/ai-topic-mining -> /kcs-topic-format -> /kcs-substance -> /revenue-ramp-builder -> /kcs-performance-loop`
+
+<!-- Note: /cap-fit-check did not exist in canonical or fork as a standalone workflow. Substituted /ai-topic-mining, which includes the C.A.P. Fit matrix validation as Phase 2. /revenue-ramp-builder resolves to skills/kallaway-content-psychology/workflows/revenue-ramp-builder.md. -->
 
 ## Quality Bar
 

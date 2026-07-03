@@ -37,8 +37,8 @@ Load only the context needed for the current step:
 1. `semantic_libraries/antigravity/primitives/attention-hijack-hook-system.md`
 2. `skills/attention-hijack-hooks/SKILL.md`
 3. `skills/attention-hijack-hooks/genius.md`
-4. `extractions/video-context/Zc4E_K48v48/analysis.md` (unavailable until re-extracted — run `/watch Zc4E_K48v48`)
-5. `extractions/video-context/Zc4E_K48v48/uncertainty-report.md` (same — unavailable until re-extracted)
+4. `extractions/video-context/Zc4E_K48v48/analysis.md`
+5. `extractions/video-context/Zc4E_K48v48/uncertainty-report.md`
 6. `skills/diandra-escobar-linkedin-growth/genius.md` when using Diandra borrowed-attention formats
 7. `.agent/workflows/diandra-content-engine.md` when the hook should become a LinkedIn content package
 8. `.agent/workflows/diandra-hook-architect.md` when the hook work is part of the full Diandra hook system

@@ -1,0 +1,1300 @@
+[00:00:00.000] So, you might have set up your open
+[00:00:01.320] So, you might have set up your open claw, your Hermes agent, or maybe even
+[00:00:03.710] claw, your Hermes agent, or maybe even
+[00:00:03.720] claw, your Hermes agent, or maybe even some derivative of my Claude Claude
+[00:00:05.350] some derivative of my Claude Claude
+[00:00:05.360] some derivative of my Claude Claude system. And it's running, but you've yet
+[00:00:07.390] system. And it's running, but you've yet
+[00:00:07.400] system. And it's running, but you've yet to derive any form of actual business
+[00:00:09.630] to derive any form of actual business
+[00:00:09.640] to derive any form of actual business value from it. Because the truth is, a
+[00:00:11.550] value from it. Because the truth is, a
+[00:00:11.560] value from it. Because the truth is, a lot of creators, including myself, show
+[00:00:13.870] lot of creators, including myself, show
+[00:00:13.880] lot of creators, including myself, show you the final finished product of what
+[00:00:16.150] you the final finished product of what
+[00:00:16.160] you the final finished product of what the ideal agentic OS system looks like.
+[00:00:18.990] the ideal agentic OS system looks like.
+[00:00:19.000] the ideal agentic OS system looks like. But in reality, the magic is in all the
+[00:00:21.350] But in reality, the magic is in all the
+[00:00:21.360] But in reality, the magic is in all the grunt work that happens behind the
+[00:00:22.910] grunt work that happens behind the
+[00:00:22.920] grunt work that happens behind the curtain. And this is the grunt work that
+[00:00:24.670] curtain. And this is the grunt work that
+[00:00:24.680] curtain. And this is the grunt work that isn't very sexy to show on YouTube,
+[00:00:26.550] isn't very sexy to show on YouTube,
+[00:00:26.560] isn't very sexy to show on YouTube, which is why very few actually talk
+[00:00:28.430] which is why very few actually talk
+[00:00:28.440] which is why very few actually talk about it. So, this video is meant to
+[00:00:30.310] about it. So, this video is meant to
+[00:00:30.320] about it. So, this video is meant to help you get your house in order so you
+[00:00:32.230] help you get your house in order so you
+[00:00:32.240] help you get your house in order so you can take advantage of the AI opportunity
+[00:00:34.590] can take advantage of the AI opportunity
+[00:00:34.600] can take advantage of the AI opportunity and [music] properly use these kinds of
+[00:00:36.270] and [music] properly use these kinds of
+[00:00:36.280] and [music] properly use these kinds of systems and finally gain leverage with
+[00:00:38.110] systems and finally gain leverage with
+[00:00:38.120] systems and finally gain leverage with them. So, if you have an idle or
+[00:00:39.710] them. So, if you have an idle or
+[00:00:39.720] them. So, if you have an idle or underutilized personal assistant or
+[00:00:41.950] underutilized personal assistant or
+[00:00:41.960] underutilized personal assistant or agentic OS system, then you're going to
+[00:00:44.150] agentic OS system, then you're going to
+[00:00:44.160] agentic OS system, then you're going to want to watch this till the very end.
+[00:00:45.990] want to watch this till the very end.
+[00:00:46.000] want to watch this till the very end. Because I'm first going to walk you
+[00:00:47.030] Because I'm first going to walk you
+[00:00:47.040] Because I'm first going to walk you through the mental model and mindset
+[00:00:49.070] through the mental model and mindset
+[00:00:49.080] through the mental model and mindset shift that you need to focus on the data
+[00:00:51.790] shift that you need to focus on the data
+[00:00:51.800] shift that you need to focus on the data before you worry about any form of
+[00:00:53.150] before you worry about any form of
+[00:00:53.160] before you worry about any form of dashboards or pretty features. And on
+[00:00:55.070] dashboards or pretty features. And on
+[00:00:55.080] dashboards or pretty features. And on top of that, I'm going to give you the
+[00:00:56.950] top of that, I'm going to give you the
+[00:00:56.960] top of that, I'm going to give you the exact skill we give all of our clients
+[00:00:59.190] exact skill we give all of our clients
+[00:00:59.200] exact skill we give all of our clients that we consult for to help them and to
+[00:01:01.350] that we consult for to help them and to
+[00:01:01.360] that we consult for to help them and to help you self-serve to make sense of all
+[00:01:04.509] help you self-serve to make sense of all
+[00:01:04.519] help you self-serve to make sense of all the files, integrations, APIs, [music]
+[00:01:07.350] the files, integrations, APIs, [music]
+[00:01:07.360] the files, integrations, APIs, [music] and CLIs that you might need to fully
+[00:01:09.670] and CLIs that you might need to fully
+[00:01:09.680] and CLIs that you might need to fully get the leverage that you want. And I'll
+[00:01:11.150] get the leverage that you want. And I'll
+[00:01:11.160] get the leverage that you want. And I'll finally walk you through some tactical
+[00:01:12.870] finally walk you through some tactical
+[00:01:12.880] finally walk you through some tactical tips that no one else is focusing on,
+[00:01:15.070] tips that no one else is focusing on,
+[00:01:15.080] tips that no one else is focusing on, probably because they've only set it up
+[00:01:16.670] probably because they've only set it up
+[00:01:16.680] probably because they've only set it up for themselves, not other businesses.
+[00:01:18.750] for themselves, not other businesses.
+[00:01:18.760] for themselves, not other businesses. All right, so big picture, this is the
+[00:01:20.430] All right, so big picture, this is the
+[00:01:20.440] All right, so big picture, this is the full cross-section of an agentic
+[00:01:22.910] full cross-section of an agentic
+[00:01:22.920] full cross-section of an agentic operating system. And typically, you are
+[00:01:25.310] operating system. And typically, you are
+[00:01:25.320] operating system. And typically, you are staring at the very top on YouTube. And
+[00:01:27.710] staring at the very top on YouTube. And
+[00:01:27.720] staring at the very top on YouTube. And the reason being is typically when we
+[00:01:29.430] the reason being is typically when we
+[00:01:29.440] the reason being is typically when we talk about data engineering, data
+[00:01:31.350] talk about data engineering, data
+[00:01:31.360] talk about data engineering, data principles, data readiness, this is
+[00:01:33.750] principles, data readiness, this is
+[00:01:33.760] principles, data readiness, this is where people fall off and their eyes
+[00:01:35.310] where people fall off and their eyes
+[00:01:35.320] where people fall off and their eyes glaze over. But to make it work, you
+[00:01:37.750] glaze over. But to make it work, you
+[00:01:37.760] glaze over. But to make it work, you have to make your data work as well.
+[00:01:39.630] have to make your data work as well.
+[00:01:39.640] have to make your data work as well. Now, beneath this beautiful layer, we
+[00:01:41.430] Now, beneath this beautiful layer, we
+[00:01:41.440] Now, beneath this beautiful layer, we have skills, where you have
+[00:01:42.950] have skills, where you have
+[00:01:42.960] have skills, where you have project-level skills and global skills.
+[00:01:45.510] project-level skills and global skills.
+[00:01:45.520] project-level skills and global skills. Project are specific to a folder, global
+[00:01:47.710] Project are specific to a folder, global
+[00:01:47.720] Project are specific to a folder, global apply to every single project
+[00:01:49.430] apply to every single project
+[00:01:49.440] apply to every single project irrespectively. And then we have one of
+[00:01:51.230] irrespectively. And then we have one of
+[00:01:51.240] irrespectively. And then we have one of the most underutilized and misunderstood
+[00:01:53.470] the most underutilized and misunderstood
+[00:01:53.480] the most underutilized and misunderstood features in something like Claude Code,
+[00:01:55.710] features in something like Claude Code,
+[00:01:55.720] features in something like Claude Code, which are hooks. And irrespective of who
+[00:01:58.030] which are hooks. And irrespective of who
+[00:01:58.040] which are hooks. And irrespective of who I speak to, whether it's a business
+[00:01:59.710] I speak to, whether it's a business
+[00:01:59.720] I speak to, whether it's a business owner or someone who works in a
+[00:02:01.470] owner or someone who works in a
+[00:02:01.480] owner or someone who works in a business, hooks are this weird innocuous
+[00:02:04.350] business, hooks are this weird innocuous
+[00:02:04.360] business, hooks are this weird innocuous thing that no one touches. Even though
+[00:02:06.830] thing that no one touches. Even though
+[00:02:06.840] thing that no one touches. Even though they're actually very straightforward,
+[00:02:08.510] they're actually very straightforward,
+[00:02:08.520] they're actually very straightforward, they're very reliable, and they can come
+[00:02:10.310] they're very reliable, and they can come
+[00:02:10.320] they're very reliable, and they can come in very handy. And last but not least,
+[00:02:12.470] in very handy. And last but not least,
+[00:02:12.480] in very handy. And last but not least, we have the Claude MD, which to many
+[00:02:14.350] we have the Claude MD, which to many
+[00:02:14.360] we have the Claude MD, which to many people is interpreted as a diary, but
+[00:02:17.070] people is interpreted as a diary, but
+[00:02:17.080] people is interpreted as a diary, but it's really an air traffic control
+[00:02:18.870] it's really an air traffic control
+[00:02:18.880] it's really an air traffic control document that you can create a whole
+[00:02:20.870] document that you can create a whole
+[00:02:20.880] document that you can create a whole empire of Claude MDs to give the right
+[00:02:23.430] empire of Claude MDs to give the right
+[00:02:23.440] empire of Claude MDs to give the right information to Claude code at the right
+[00:02:25.710] information to Claude code at the right
+[00:02:25.720] information to Claude code at the right time. And on the right-hand side, we
+[00:02:27.430] time. And on the right-hand side, we
+[00:02:27.440] time. And on the right-hand side, we have all of your integrations. And if
+[00:02:29.470] have all of your integrations. And if
+[00:02:29.480] have all of your integrations. And if you use something like Claude co-work,
+[00:02:31.110] you use something like Claude co-work,
+[00:02:31.120] you use something like Claude co-work, then this is pretty simple to set up.
+[00:02:32.990] then this is pretty simple to set up.
+[00:02:33.000] then this is pretty simple to set up. It's a series of clicks. But if you're
+[00:02:34.910] It's a series of clicks. But if you're
+[00:02:34.920] It's a series of clicks. But if you're using Claude code, you have to be more
+[00:02:36.670] using Claude code, you have to be more
+[00:02:36.680] using Claude code, you have to be more intentional and think, do I need an API?
+[00:02:39.630] intentional and think, do I need an API?
+[00:02:39.640] intentional and think, do I need an API? Do I need a command line interface? Do I
+[00:02:41.590] Do I need a command line interface? Do I
+[00:02:41.600] Do I need a command line interface? Do I just need a skill? Do I need all of
+[00:02:43.670] just need a skill? Do I need all of
+[00:02:43.680] just need a skill? Do I need all of them? The answer might really depend on
+[00:02:45.949] them? The answer might really depend on
+[00:02:45.959] them? The answer might really depend on your specific circumstance.
+[00:02:47.910] your specific circumstance.
+[00:02:47.920] your specific circumstance. But the real point I want to drive home
+[00:02:49.390] But the real point I want to drive home
+[00:02:49.400] But the real point I want to drive home is that there are millions of people who
+[00:02:51.230] is that there are millions of people who
+[00:02:51.240] is that there are millions of people who have set up their open claws, and only a
+[00:02:53.470] have set up their open claws, and only a
+[00:02:53.480] have set up their open claws, and only a handful of them have derived real
+[00:02:55.590] handful of them have derived real
+[00:02:55.600] handful of them have derived real economic ROI from doing so, because
+[00:02:57.870] economic ROI from doing so, because
+[00:02:57.880] economic ROI from doing so, because you're building a beautiful home with
+[00:02:59.830] you're building a beautiful home with
+[00:02:59.840] you're building a beautiful home with fantastic agents on top of burning
+[00:03:02.070] fantastic agents on top of burning
+[00:03:02.080] fantastic agents on top of burning rubble. And that rubble comes down to
+[00:03:04.070] rubble. And that rubble comes down to
+[00:03:04.080] rubble. And that rubble comes down to messy files, gigabytes of completely
+[00:03:07.150] messy files, gigabytes of completely
+[00:03:07.160] messy files, gigabytes of completely dated or useless information, no form of
+[00:03:10.150] dated or useless information, no form of
+[00:03:10.160] dated or useless information, no form of a business in a box operating system
+[00:03:12.150] a business in a box operating system
+[00:03:12.160] a business in a box operating system before this AI stuff even existed. So,
+[00:03:14.229] before this AI stuff even existed. So,
+[00:03:14.239] before this AI stuff even existed. So, if you layer on sparkly slop on top of a
+[00:03:16.590] if you layer on sparkly slop on top of a
+[00:03:16.600] if you layer on sparkly slop on top of a foundation of slop, all you'll have is
+[00:03:18.750] foundation of slop, all you'll have is
+[00:03:18.760] foundation of slop, all you'll have is compounded slop. Now, let me give you a
+[00:03:20.990] compounded slop. Now, let me give you a
+[00:03:21.000] compounded slop. Now, let me give you a tangible example, so we can put some
+[00:03:22.910] tangible example, so we can put some
+[00:03:22.920] tangible example, so we can put some color to the problem. Let's say you are
+[00:03:25.190] color to the problem. Let's say you are
+[00:03:25.200] color to the problem. Let's say you are a business owner, a solopreneur, someone
+[00:03:27.750] a business owner, a solopreneur, someone
+[00:03:27.760] a business owner, a solopreneur, someone who works in a business and does
+[00:03:29.310] who works in a business and does
+[00:03:29.320] who works in a business and does reporting, and all you want to do is ask
+[00:03:31.509] reporting, and all you want to do is ask
+[00:03:31.519] reporting, and all you want to do is ask a very basic question. Let's say you're
+[00:03:33.630] a very basic question. Let's say you're
+[00:03:33.640] a very basic question. Let's say you're an e-commerce, and you want to track the
+[00:03:35.350] an e-commerce, and you want to track the
+[00:03:35.360] an e-commerce, and you want to track the last 6 months of sales, and you want
+[00:03:37.670] last 6 months of sales, and you want
+[00:03:37.680] last 6 months of sales, and you want Claude code and your team of agents to
+[00:03:40.190] Claude code and your team of agents to
+[00:03:40.200] Claude code and your team of agents to derive all the patterns that lead you to
+[00:03:42.190] derive all the patterns that lead you to
+[00:03:42.200] derive all the patterns that lead you to success and tell you when the next event
+[00:03:44.590] success and tell you when the next event
+[00:03:44.600] success and tell you when the next event should be, what the discount should be,
+[00:03:46.550] should be, what the discount should be,
+[00:03:46.560] should be, what the discount should be, what your perfect avatar should be based
+[00:03:48.750] what your perfect avatar should be based
+[00:03:48.760] what your perfect avatar should be based on these 6 months of information.
+[00:03:51.270] on these 6 months of information.
+[00:03:51.280] on these 6 months of information. On the face of it, these models are
+[00:03:52.950] On the face of it, these models are
+[00:03:52.960] On the face of it, these models are advertised as being the silver bullet,
+[00:03:55.310] advertised as being the silver bullet,
+[00:03:55.320] advertised as being the silver bullet, meaning you can feed everything to this
+[00:03:56.990] meaning you can feed everything to this
+[00:03:57.000] meaning you can feed everything to this oracle and it will figure it out and
+[00:03:58.750] oracle and it will figure it out and
+[00:03:58.760] oracle and it will figure it out and synthesize it. But if you send off your
+[00:04:00.630] synthesize it. But if you send off your
+[00:04:00.640] synthesize it. But if you send off your agents to go pull six months of data,
+[00:04:02.910] agents to go pull six months of data,
+[00:04:02.920] agents to go pull six months of data, what will happen is the majority of your
+[00:04:04.990] what will happen is the majority of your
+[00:04:05.000] what will happen is the majority of your context window in that conversation will
+[00:04:07.270] context window in that conversation will
+[00:04:07.280] context window in that conversation will be bloated with a series of JSON and
+[00:04:10.030] be bloated with a series of JSON and
+[00:04:10.040] be bloated with a series of JSON and metadata that's invisible to you, but
+[00:04:12.270] metadata that's invisible to you, but
+[00:04:12.280] metadata that's invisible to you, but necessary to pull if you're pulling this
+[00:04:14.190] necessary to pull if you're pulling this
+[00:04:14.200] necessary to pull if you're pulling this information. So when it comes to the
+[00:04:15.990] information. So when it comes to the
+[00:04:16.000] information. So when it comes to the actual valuable part, which is the
+[00:04:17.750] actual valuable part, which is the
+[00:04:17.760] actual valuable part, which is the synthesis, analysis, and the real brain
+[00:04:20.550] synthesis, analysis, and the real brain
+[00:04:20.560] synthesis, analysis, and the real brain power that you're seeking, it falls
+[00:04:22.390] power that you're seeking, it falls
+[00:04:22.400] power that you're seeking, it falls flat. And the reason why is you're
+[00:04:24.350] flat. And the reason why is you're
+[00:04:24.360] flat. And the reason why is you're bloating it with things that don't
+[00:04:25.630] bloating it with things that don't
+[00:04:25.640] bloating it with things that don't matter.
+[00:04:26.670] matter.
+[00:04:26.680] matter. So one of the many ways that you can
+[00:04:27.790] So one of the many ways that you can
+[00:04:27.800] So one of the many ways that you can solve this is to put a lot of the core
+[00:04:29.909] solve this is to put a lot of the core
+[00:04:29.919] solve this is to put a lot of the core data, the KPIs that need the analysis
+[00:04:32.310] data, the KPIs that need the analysis
+[00:04:32.320] data, the KPIs that need the analysis part, on a silver platter. So one of the
+[00:04:34.830] part, on a silver platter. So one of the
+[00:04:34.840] part, on a silver platter. So one of the many ways you could solve this is
+[00:04:36.230] many ways you could solve this is
+[00:04:36.240] many ways you could solve this is through summary files or summary tables,
+[00:04:38.670] through summary files or summary tables,
+[00:04:38.680] through summary files or summary tables, where you distill the core information,
+[00:04:40.909] where you distill the core information,
+[00:04:40.919] where you distill the core information, the core KPIs from each one of those
+[00:04:43.150] the core KPIs from each one of those
+[00:04:43.160] the core KPIs from each one of those months. So if you ask your agent to go
+[00:04:45.310] months. So if you ask your agent to go
+[00:04:45.320] months. So if you ask your agent to go do a deep-level analysis, it's actually
+[00:04:47.830] do a deep-level analysis, it's actually
+[00:04:47.840] do a deep-level analysis, it's actually spending time analyzing, not retrieving
+[00:04:50.510] spending time analyzing, not retrieving
+[00:04:50.520] spending time analyzing, not retrieving information and then analyzing. Because
+[00:04:52.750] information and then analyzing. Because
+[00:04:52.760] information and then analyzing. Because you can imagine if an agent is spending
+[00:04:54.710] you can imagine if an agent is spending
+[00:04:54.720] you can imagine if an agent is spending 80% of its session pulling the
+[00:04:57.350] 80% of its session pulling the
+[00:04:57.360] 80% of its session pulling the information just to be able to start
+[00:04:59.630] information just to be able to start
+[00:04:59.640] information just to be able to start analyzing it, you'll only get that last
+[00:05:01.870] analyzing it, you'll only get that last
+[00:05:01.880] analyzing it, you'll only get that last 20% of the session, which is usually the
+[00:05:04.230] 20% of the session, which is usually the
+[00:05:04.240] 20% of the session, which is usually the part where hallucinations happen,
+[00:05:06.070] part where hallucinations happen,
+[00:05:06.080] part where hallucinations happen, slowness happen, and weird behavior
+[00:05:08.230] slowness happen, and weird behavior
+[00:05:08.240] slowness happen, and weird behavior happens, and now you're dedicating it to
+[00:05:10.390] happens, and now you're dedicating it to
+[00:05:10.400] happens, and now you're dedicating it to do the very task you wanted it to.
+[00:05:12.470] do the very task you wanted it to.
+[00:05:12.480] do the very task you wanted it to. Trying to execute this more tactically
+[00:05:14.550] Trying to execute this more tactically
+[00:05:14.560] Trying to execute this more tactically is the very reason why I created my
+[00:05:16.390] is the very reason why I created my
+[00:05:16.400] is the very reason why I created my skill/silver
+[00:05:18.030] skill/silver
+[00:05:18.040] skill/silver platter. And the way it works is this.
+[00:05:20.190] platter. And the way it works is this.
+[00:05:20.200] platter. And the way it works is this. Whether you've never started on your AI
+[00:05:21.670] Whether you've never started on your AI
+[00:05:21.680] Whether you've never started on your AI journey or you've already drafted your
+[00:05:24.310] journey or you've already drafted your
+[00:05:24.320] journey or you've already drafted your operating system and you want to
+[00:05:25.790] operating system and you want to
+[00:05:25.800] operating system and you want to optimize it, it will take a look at all
+[00:05:27.950] optimize it, it will take a look at all
+[00:05:27.960] optimize it, it will take a look at all the data you have on your computer. So
+[00:05:29.909] the data you have on your computer. So
+[00:05:29.919] the data you have on your computer. So if you have some form of integrations or
+[00:05:31.950] if you have some form of integrations or
+[00:05:31.960] if you have some form of integrations or you need it to talk to the cloud, you
+[00:05:33.670] you need it to talk to the cloud, you
+[00:05:33.680] you need it to talk to the cloud, you would need to make that as a
+[00:05:34.909] would need to make that as a
+[00:05:34.919] would need to make that as a prerequisite for this to do the analysis
+[00:05:36.870] prerequisite for this to do the analysis
+[00:05:36.880] prerequisite for this to do the analysis it needs to. Once it has an
+[00:05:38.310] it needs to. Once it has an
+[00:05:38.320] it needs to. Once it has an understanding and a snapshot of your
+[00:05:40.110] understanding and a snapshot of your
+[00:05:40.120] understanding and a snapshot of your data, your Doc Cloud rules, your skills,
+[00:05:43.150] data, your Doc Cloud rules, your skills,
+[00:05:43.160] data, your Doc Cloud rules, your skills, your CloudMDs, then it It try to help
+[00:05:45.710] your CloudMDs, then it It try to help
+[00:05:45.720] your CloudMDs, then it It try to help you distill what could you summarize?
+[00:05:48.310] you distill what could you summarize?
+[00:05:48.320] you distill what could you summarize? What could you create summary tables or
+[00:05:50.470] What could you create summary tables or
+[00:05:50.480] What could you create summary tables or summary information to put the
+[00:05:52.510] summary information to put the
+[00:05:52.520] summary information to put the prerequisite information on a silver
+[00:05:54.670] prerequisite information on a silver
+[00:05:54.680] prerequisite information on a silver platter so that the agents can focus on
+[00:05:56.910] platter so that the agents can focus on
+[00:05:56.920] platter so that the agents can focus on the synthesis, not the pulling.
+[00:05:59.750] the synthesis, not the pulling.
+[00:05:59.760] the synthesis, not the pulling. And the end goal is eventually you have
+[00:06:01.550] And the end goal is eventually you have
+[00:06:01.560] And the end goal is eventually you have enough agents that are very focused and
+[00:06:03.750] enough agents that are very focused and
+[00:06:03.760] enough agents that are very focused and you give them all what's called a
+[00:06:04.710] you give them all what's called a
+[00:06:04.720] you give them all what's called a critical path, meaning they don't have
+[00:06:06.870] critical path, meaning they don't have
+[00:06:06.880] critical path, meaning they don't have to go and figure out every single time
+[00:06:09.310] to go and figure out every single time
+[00:06:09.320] to go and figure out every single time where to look for the data and how to
+[00:06:11.270] where to look for the data and how to
+[00:06:11.280] where to look for the data and how to pull the data and how to analyze the
+[00:06:13.150] pull the data and how to analyze the
+[00:06:13.160] pull the data and how to analyze the data and which anomalies to regard and
+[00:06:15.590] data and which anomalies to regard and
+[00:06:15.600] data and which anomalies to regard and disregard. They have a good step-by-step
+[00:06:18.110] disregard. They have a good step-by-step
+[00:06:18.120] disregard. They have a good step-by-step process, an SOP of exactly what the
+[00:06:20.790] process, an SOP of exactly what the
+[00:06:20.800] process, an SOP of exactly what the expected behavior is. And on top of just
+[00:06:22.710] expected behavior is. And on top of just
+[00:06:22.720] expected behavior is. And on top of just having clarity, this skill will also
+[00:06:24.790] having clarity, this skill will also
+[00:06:24.800] having clarity, this skill will also help output the following HTML page.
+[00:06:27.590] help output the following HTML page.
+[00:06:27.600] help output the following HTML page. This will walk through your specific
+[00:06:30.030] This will walk through your specific
+[00:06:30.040] This will walk through your specific systems and files and segment it into
+[00:06:32.510] systems and files and segment it into
+[00:06:32.520] systems and files and segment it into three sections, a pantry, which is where
+[00:06:35.110] three sections, a pantry, which is where
+[00:06:35.120] three sections, a pantry, which is where all of your core services and databases
+[00:06:37.430] all of your core services and databases
+[00:06:37.440] all of your core services and databases live, your prep table, what you can
+[00:06:39.550] live, your prep table, what you can
+[00:06:39.560] live, your prep table, what you can actually do with information, and your
+[00:06:41.710] actually do with information, and your
+[00:06:41.720] actually do with information, and your plate, what you can do to actually
+[00:06:43.470] plate, what you can do to actually
+[00:06:43.480] plate, what you can do to actually tactically put this data to work. And if
+[00:06:45.950] tactically put this data to work. And if
+[00:06:45.960] tactically put this data to work. And if you go through the other tabs here, we
+[00:06:47.830] you go through the other tabs here, we
+[00:06:47.840] you go through the other tabs here, we have a data flow tab where out of the
+[00:06:49.990] have a data flow tab where out of the
+[00:06:50.000] have a data flow tab where out of the box, the skill will break down all the
+[00:06:52.390] box, the skill will break down all the
+[00:06:52.400] box, the skill will break down all the relationships between your data. So, you
+[00:06:54.110] relationships between your data. So, you
+[00:06:54.120] relationships between your data. So, you can see how you can interact with it,
+[00:06:56.070] can see how you can interact with it,
+[00:06:56.080] can see how you can interact with it, where you can interact with it, and how
+[00:06:57.630] where you can interact with it, and how
+[00:06:57.640] where you can interact with it, and how you can have some cohesion between all
+[00:06:59.750] you can have some cohesion between all
+[00:06:59.760] you can have some cohesion between all your systems so they can actually speak
+[00:07:01.390] your systems so they can actually speak
+[00:07:01.400] your systems so they can actually speak to each other.
+[00:07:02.670] to each other.
+[00:07:02.680] to each other. And if you need suggestions on what you
+[00:07:03.909] And if you need suggestions on what you
+[00:07:03.919] And if you need suggestions on what you can build with the current data that you
+[00:07:05.750] can build with the current data that you
+[00:07:05.760] can build with the current data that you have, you can have that tab
+[00:07:07.190] have, you can have that tab
+[00:07:07.200] have, you can have that tab auto-generated for you. And the final
+[00:07:09.350] auto-generated for you. And the final
+[00:07:09.360] auto-generated for you. And the final thing is a 30-day plan. So, this all
+[00:07:11.190] thing is a 30-day plan. So, this all
+[00:07:11.200] thing is a 30-day plan. So, this all comes out of the box from the slash
+[00:07:12.750] comes out of the box from the slash
+[00:07:12.760] comes out of the box from the slash command that I'm about to show you in a
+[00:07:14.150] command that I'm about to show you in a
+[00:07:14.160] command that I'm about to show you in a few minutes. By the way, if you're
+[00:07:15.790] few minutes. By the way, if you're
+[00:07:15.800] few minutes. By the way, if you're finding this content helpful and you
+[00:07:17.190] finding this content helpful and you
+[00:07:17.200] finding this content helpful and you want to take your Agented OS system and
+[00:07:19.670] want to take your Agented OS system and
+[00:07:19.680] want to take your Agented OS system and your Claude Code skills, [music] as well
+[00:07:21.430] your Claude Code skills, [music] as well
+[00:07:21.440] your Claude Code skills, [music] as well as your AI skills in general, to the
+[00:07:23.110] as your AI skills in general, to the
+[00:07:23.120] as your AI skills in general, to the next level, then you're going to want to
+[00:07:24.510] next level, then you're going to want to
+[00:07:24.520] next level, then you're going to want to check out the first link in the
+[00:07:25.710] check out the first link in the
+[00:07:25.720] check out the first link in the description below. I keep adding [music]
+[00:07:27.430] description below. I keep adding [music]
+[00:07:27.440] description below. I keep adding [music] practical and applicable lessons to our
+[00:07:29.430] practical and applicable lessons to our
+[00:07:29.440] practical and applicable lessons to our living Claude Code course and we keep
+[00:07:31.950] living Claude Code course and we keep
+[00:07:31.960] living Claude Code course and we keep improving day by day our existing Claude
+[00:07:34.470] improving day by day our existing Claude
+[00:07:34.480] improving day by day our existing Claude Claw operating system. So, if you want
+[00:07:36.030] Claw operating system. So, if you want
+[00:07:36.040] Claw operating system. So, if you want the best of both worlds in one place,
+[00:07:37.750] the best of both worlds in one place,
+[00:07:37.760] the best of both worlds in one place, then you'll want to check it out.
+[00:07:38.495] then you'll want to check it out.
+[00:07:38.505] then you'll want to check it out. [music] All right, back to the video.
+[00:07:39.990] [music] All right, back to the video.
+[00:07:40.000] [music] All right, back to the video. And like I said before, I've spoken
+[00:07:41.670] And like I said before, I've spoken
+[00:07:41.680] And like I said before, I've spoken about hooks on this channel multiple
+[00:07:43.510] about hooks on this channel multiple
+[00:07:43.520] about hooks on this channel multiple times. And typically, those videos do
+[00:07:45.590] times. And typically, those videos do
+[00:07:45.600] times. And typically, those videos do the worst because hooks still break
+[00:07:47.990] the worst because hooks still break
+[00:07:48.000] the worst because hooks still break people's brains. Even though,
+[00:07:49.590] people's brains. Even though,
+[00:07:49.600] people's brains. Even though, fundamentally, a hook is an event that
+[00:07:52.150] fundamentally, a hook is an event that
+[00:07:52.160] fundamentally, a hook is an event that will always fire at one of 18 plus
+[00:07:54.830] will always fire at one of 18 plus
+[00:07:54.840] will always fire at one of 18 plus events that happen in Claude code. So,
+[00:07:56.670] events that happen in Claude code. So,
+[00:07:56.680] events that happen in Claude code. So, if you start a brand new session, you
+[00:07:58.350] if you start a brand new session, you
+[00:07:58.360] if you start a brand new session, you can make something happen always in the
+[00:08:00.630] can make something happen always in the
+[00:08:00.640] can make something happen always in the beginning of that session. Some
+[00:08:01.990] beginning of that session. Some
+[00:08:02.000] beginning of that session. Some injection of memory. If you have
+[00:08:03.630] injection of memory. If you have
+[00:08:03.640] injection of memory. If you have Obsidian, you can make sure that if
+[00:08:05.430] Obsidian, you can make sure that if
+[00:08:05.440] Obsidian, you can make sure that if you're in a specific folder and you have
+[00:08:07.430] you're in a specific folder and you have
+[00:08:07.440] you're in a specific folder and you have Obsidian files related to litigations,
+[00:08:10.910] Obsidian files related to litigations,
+[00:08:10.920] Obsidian files related to litigations, court cases, anything around revenue in
+[00:08:13.430] court cases, anything around revenue in
+[00:08:13.440] court cases, anything around revenue in your business, you could always throw
+[00:08:15.110] your business, you could always throw
+[00:08:15.120] your business, you could always throw that in along with the context from your
+[00:08:16.950] that in along with the context from your
+[00:08:16.960] that in along with the context from your Claude MD. Similarly, if you have a
+[00:08:18.909] Claude MD. Similarly, if you have a
+[00:08:18.919] Claude MD. Similarly, if you have a longer conversations with your agents
+[00:08:20.750] longer conversations with your agents
+[00:08:20.760] longer conversations with your agents and you find that when the conversation
+[00:08:22.310] and you find that when the conversation
+[00:08:22.320] and you find that when the conversation compacts, you lose a lot of core
+[00:08:24.390] compacts, you lose a lot of core
+[00:08:24.400] compacts, you lose a lot of core information and you have to repeat
+[00:08:25.830] information and you have to repeat
+[00:08:25.840] information and you have to repeat yourself. You could use what's called a
+[00:08:27.870] yourself. You could use what's called a
+[00:08:27.880] yourself. You could use what's called a post-compaction hook to inject that core
+[00:08:30.710] post-compaction hook to inject that core
+[00:08:30.720] post-compaction hook to inject that core information about you, your business,
+[00:08:32.750] information about you, your business,
+[00:08:32.760] information about you, your business, what you do, who you are, to make sure
+[00:08:34.990] what you do, who you are, to make sure
+[00:08:35.000] what you do, who you are, to make sure you have a much richer conversation. And
+[00:08:37.029] you have a much richer conversation. And
+[00:08:37.039] you have a much richer conversation. And the best part is, you can literally ask
+[00:08:38.950] the best part is, you can literally ask
+[00:08:38.960] the best part is, you can literally ask Claude code through the Claude code
+[00:08:41.270] Claude code through the Claude code
+[00:08:41.280] Claude code through the Claude code guide sub agent to create these hooks
+[00:08:43.469] guide sub agent to create these hooks
+[00:08:43.479] guide sub agent to create these hooks for you. You just have to ask and you
+[00:08:45.510] for you. You just have to ask and you
+[00:08:45.520] for you. You just have to ask and you just have to know that you can ask. And
+[00:08:47.270] just have to know that you can ask. And
+[00:08:47.280] just have to know that you can ask. And when it comes to things like organizing
+[00:08:48.750] when it comes to things like organizing
+[00:08:48.760] when it comes to things like organizing your agents, there's a reason why you
+[00:08:50.470] your agents, there's a reason why you
+[00:08:50.480] your agents, there's a reason why you typically see the configuration here on
+[00:08:52.550] typically see the configuration here on
+[00:08:52.560] typically see the configuration here on the right-hand side where you have an
+[00:08:54.350] the right-hand side where you have an
+[00:08:54.360] the right-hand side where you have an orchestrator or a chief of staff
+[00:08:56.430] orchestrator or a chief of staff
+[00:08:56.440] orchestrator or a chief of staff managing the other agents. The reason
+[00:08:58.430] managing the other agents. The reason
+[00:08:58.440] managing the other agents. The reason being is you can load one agent fully
+[00:09:01.670] being is you can load one agent fully
+[00:09:01.680] being is you can load one agent fully with the roles, responsibilities, and
+[00:09:03.630] with the roles, responsibilities, and
+[00:09:03.640] with the roles, responsibilities, and the scopes of the sub agents. This will
+[00:09:06.110] the scopes of the sub agents. This will
+[00:09:06.120] the scopes of the sub agents. This will increase the likelihood that you don't
+[00:09:07.590] increase the likelihood that you don't
+[00:09:07.600] increase the likelihood that you don't end up in this scenario where you are
+[00:09:09.510] end up in this scenario where you are
+[00:09:09.520] end up in this scenario where you are cold starting conversations with your
+[00:09:11.829] cold starting conversations with your
+[00:09:11.839] cold starting conversations with your agent teams having a mismatch or overlap
+[00:09:14.670] agent teams having a mismatch or overlap
+[00:09:14.680] agent teams having a mismatch or overlap of which agent should fire at the right
+[00:09:16.390] of which agent should fire at the right
+[00:09:16.400] of which agent should fire at the right time. Now, instead of just describing
+[00:09:18.430] time. Now, instead of just describing
+[00:09:18.440] time. Now, instead of just describing it, let's put this slash command to
+[00:09:20.190] it, let's put this slash command to
+[00:09:20.200] it, let's put this slash command to work. So, if you go into a terminal and
+[00:09:22.350] work. So, if you go into a terminal and
+[00:09:22.360] work. So, if you go into a terminal and you use my skill silver platter, what
+[00:09:24.750] you use my skill silver platter, what
+[00:09:24.760] you use my skill silver platter, what it's going to do is, if you have
+[00:09:26.270] it's going to do is, if you have
+[00:09:26.280] it's going to do is, if you have infrastructure that exists, meaning you
+[00:09:28.230] infrastructure that exists, meaning you
+[00:09:28.240] infrastructure that exists, meaning you have a Claude MD file, you have skills,
+[00:09:30.590] have a Claude MD file, you have skills,
+[00:09:30.600] have a Claude MD file, you have skills, you have rules, it will do a quick audit
+[00:09:32.910] you have rules, it will do a quick audit
+[00:09:32.920] you have rules, it will do a quick audit lasting from 10 to 50 seconds and give
+[00:09:35.630] lasting from 10 to 50 seconds and give
+[00:09:35.640] lasting from 10 to 50 seconds and give you a quick TLDR of what the current
+[00:09:37.950] you a quick TLDR of what the current
+[00:09:37.960] you a quick TLDR of what the current state of your system looks like. And
+[00:09:39.550] state of your system looks like. And
+[00:09:39.560] state of your system looks like. And once it does the quick audit, it will
+[00:09:40.830] once it does the quick audit, it will
+[00:09:40.840] once it does the quick audit, it will say, "Hey, welcome." Walk you through
+[00:09:42.510] say, "Hey, welcome." Walk you through
+[00:09:42.520] say, "Hey, welcome." Walk you through the mental model of what we're doing
+[00:09:43.870] the mental model of what we're doing
+[00:09:43.880] the mental model of what we're doing here, and then it will say, "You've
+[00:09:45.270] here, and then it will say, "You've
+[00:09:45.280] here, and then it will say, "You've already started building." In my case, I
+[00:09:47.430] already started building." In my case, I
+[00:09:47.440] already started building." In my case, I see a Cloud MD, 38 skills, 16 rules, and
+[00:09:50.990] see a Cloud MD, 38 skills, 16 rules, and
+[00:09:51.000] see a Cloud MD, 38 skills, 16 rules, and a well-structured output pipeline. And
+[00:09:53.550] a well-structured output pipeline. And
+[00:09:53.560] a well-structured output pipeline. And then you can pick one of two paths.
+[00:09:55.830] then you can pick one of two paths.
+[00:09:55.840] then you can pick one of two paths. Obviously, you can take the skill and
+[00:09:57.630] Obviously, you can take the skill and
+[00:09:57.640] Obviously, you can take the skill and edit it to make a medium path if you
+[00:09:59.150] edit it to make a medium path if you
+[00:09:59.160] edit it to make a medium path if you need to. One is very thorough, around 30
+[00:10:01.510] need to. One is very thorough, around 30
+[00:10:01.520] need to. One is very thorough, around 30 minutes of interview questions back and
+[00:10:03.230] minutes of interview questions back and
+[00:10:03.240] minutes of interview questions back and forth. This is really designed for
+[00:10:04.630] forth. This is really designed for
+[00:10:04.640] forth. This is really designed for someone who's starting from scratch or
+[00:10:06.270] someone who's starting from scratch or
+[00:10:06.280] someone who's starting from scratch or wants to restart, depending on where you
+[00:10:08.350] wants to restart, depending on where you
+[00:10:08.360] wants to restart, depending on where you are in that process. In this case, I
+[00:10:10.350] are in that process. In this case, I
+[00:10:10.360] are in that process. In this case, I will pick the fast-track option just for
+[00:10:12.150] will pick the fast-track option just for
+[00:10:12.160] will pick the fast-track option just for the sake of the video, and then I will
+[00:10:13.830] the sake of the video, and then I will
+[00:10:13.840] the sake of the video, and then I will say, "Let's pick the fast-track option,
+[00:10:16.550] say, "Let's pick the fast-track option,
+[00:10:16.560] say, "Let's pick the fast-track option, and please make sure you don't use any
+[00:10:18.430] and please make sure you don't use any
+[00:10:18.440] and please make sure you don't use any real client names or people names or
+[00:10:20.710] real client names or people names or
+[00:10:20.720] real client names or people names or deliverable names. Keep it all
+[00:10:22.270] deliverable names. Keep it all
+[00:10:22.280] deliverable names. Keep it all anonymized through this process."
+[00:10:24.590] anonymized through this process."
+[00:10:24.600] anonymized through this process." So, we'll send this up, and I just said
+[00:10:27.390] So, we'll send this up, and I just said
+[00:10:27.400] So, we'll send this up, and I just said that to make sure that you can't see
+[00:10:28.790] that to make sure that you can't see
+[00:10:28.800] that to make sure that you can't see real client names and emails, and this
+[00:10:30.790] real client names and emails, and this
+[00:10:30.800] real client names and emails, and this will come back with a full breakdown of
+[00:10:32.830] will come back with a full breakdown of
+[00:10:32.840] will come back with a full breakdown of questions for you. And then it's
+[00:10:34.550] questions for you. And then it's
+[00:10:34.560] questions for you. And then it's designed to pepper you with questions.
+[00:10:36.510] designed to pepper you with questions.
+[00:10:36.520] designed to pepper you with questions. So, in this case, it starts off
+[00:10:38.190] So, in this case, it starts off
+[00:10:38.200] So, in this case, it starts off confirming what I do for a living and
+[00:10:40.150] confirming what I do for a living and
+[00:10:40.160] confirming what I do for a living and how I make money. In this case, I just
+[00:10:42.190] how I make money. In this case, I just
+[00:10:42.200] how I make money. In this case, I just walk through that we are a consultancy,
+[00:10:44.110] walk through that we are a consultancy,
+[00:10:44.120] walk through that we are a consultancy, we have YouTube stuff, we have a
+[00:10:45.390] we have YouTube stuff, we have a
+[00:10:45.400] we have YouTube stuff, we have a community, we have high-ticket
+[00:10:46.829] community, we have high-ticket
+[00:10:46.839] community, we have high-ticket consulting, and then it asks me
+[00:10:48.630] consulting, and then it asks me
+[00:10:48.640] consulting, and then it asks me questions like where do I publish and
+[00:10:50.950] questions like where do I publish and
+[00:10:50.960] questions like where do I publish and what products do I have. It's trying to
+[00:10:52.670] what products do I have. It's trying to
+[00:10:52.680] what products do I have. It's trying to get a sense for what different APIs and
+[00:10:55.190] get a sense for what different APIs and
+[00:10:55.200] get a sense for what different APIs and CLIs could I use for my AIOS. Then asks
+[00:10:58.590] CLIs could I use for my AIOS. Then asks
+[00:10:58.600] CLIs could I use for my AIOS. Then asks me questions about my audience size,
+[00:11:00.950] me questions about my audience size,
+[00:11:00.960] me questions about my audience size, where I have video transcripts for
+[00:11:02.670] where I have video transcripts for
+[00:11:02.680] where I have video transcripts for meetings, workshop materials, if I use
+[00:11:05.110] meetings, workshop materials, if I use
+[00:11:05.120] meetings, workshop materials, if I use something like Obsidian.
+[00:11:07.030] something like Obsidian.
+[00:11:07.040] something like Obsidian. And then it asks me questions about my
+[00:11:08.230] And then it asks me questions about my
+[00:11:08.240] And then it asks me questions about my paid offers, where I post or host rather
+[00:11:10.910] paid offers, where I post or host rather
+[00:11:10.920] paid offers, where I post or host rather my email list, my audience research, how
+[00:11:13.829] my email list, my audience research, how
+[00:11:13.839] my email list, my audience research, how I pull my YouTube transcripts, a few
+[00:11:16.510] I pull my YouTube transcripts, a few
+[00:11:16.520] I pull my YouTube transcripts, a few questions about the day-to-day about the
+[00:11:18.470] questions about the day-to-day about the
+[00:11:18.480] questions about the day-to-day about the business. Then eventually, it goes to
+[00:11:21.190] business. Then eventually, it goes to
+[00:11:21.200] business. Then eventually, it goes to start creating the data map, as you can
+[00:11:23.350] start creating the data map, as you can
+[00:11:23.360] start creating the data map, as you can see here. So, if we take a look at the
+[00:11:24.950] see here. So, if we take a look at the
+[00:11:24.960] see here. So, if we take a look at the output, it recommends a series of
+[00:11:26.829] output, it recommends a series of
+[00:11:26.839] output, it recommends a series of different things that we can look to
+[00:11:28.350] different things that we can look to
+[00:11:28.360] different things that we can look to automate. So, it's very tactical. So, I
+[00:11:30.590] automate. So, it's very tactical. So, I
+[00:11:30.600] automate. So, it's very tactical. So, I can say, "Let's do all in order."
+[00:11:34.350] can say, "Let's do all in order."
+[00:11:34.360] can say, "Let's do all in order." And from that vague prompt, it will hold
+[00:11:35.870] And from that vague prompt, it will hold
+[00:11:35.880] And from that vague prompt, it will hold your hand to execute each one of these
+[00:11:37.510] your hand to execute each one of these
+[00:11:37.520] your hand to execute each one of these steps. So, this first one allows you to
+[00:11:39.710] steps. So, this first one allows you to
+[00:11:39.720] steps. So, this first one allows you to drag and drop your raw PDFs,
+[00:11:41.790] drag and drop your raw PDFs,
+[00:11:41.800] drag and drop your raw PDFs, spreadsheets, email exports into this
+[00:11:44.070] spreadsheets, email exports into this
+[00:11:44.080] spreadsheets, email exports into this data folder. Again, you can go back and
+[00:11:46.030] data folder. Again, you can go back and
+[00:11:46.040] data folder. Again, you can go back and forth and customize this as you wish.
+[00:11:48.310] forth and customize this as you wish.
+[00:11:48.320] forth and customize this as you wish. Then it will help you build your morning
+[00:11:49.830] Then it will help you build your morning
+[00:11:49.840] Then it will help you build your morning brief. Then it will tell you exactly if
+[00:11:52.350] brief. Then it will tell you exactly if
+[00:11:52.360] brief. Then it will tell you exactly if you were to put an AI orchestrator for
+[00:11:54.510] you were to put an AI orchestrator for
+[00:11:54.520] you were to put an AI orchestrator for other agents, what that would look like.
+[00:11:56.750] other agents, what that would look like.
+[00:11:56.760] other agents, what that would look like. And then as you scroll to the very
+[00:11:57.830] And then as you scroll to the very
+[00:11:57.840] And then as you scroll to the very bottom, it comes up with a series of
+[00:11:59.550] bottom, it comes up with a series of
+[00:11:59.560] bottom, it comes up with a series of ideas for slash commands. So, in this
+[00:12:01.630] ideas for slash commands. So, in this
+[00:12:01.640] ideas for slash commands. So, in this case, maybe weekly triage for email,
+[00:12:04.630] case, maybe weekly triage for email,
+[00:12:04.640] case, maybe weekly triage for email, slash weekly content for my YouTube
+[00:12:07.030] slash weekly content for my YouTube
+[00:12:07.040] slash weekly content for my YouTube funnel, etc.
+[00:12:08.950] funnel, etc.
+[00:12:08.960] funnel, etc. And the last question it asks you on the
+[00:12:10.350] And the last question it asks you on the
+[00:12:10.360] And the last question it asks you on the fast track is where do you actually want
+[00:12:12.150] fast track is where do you actually want
+[00:12:12.160] fast track is where do you actually want to read these briefs? Do you read it in
+[00:12:13.870] to read these briefs? Do you read it in
+[00:12:13.880] to read these briefs? Do you read it in Gmail? Do you read it on your iPad
+[00:12:15.710] Gmail? Do you read it on your iPad
+[00:12:15.720] Gmail? Do you read it on your iPad through Slack, Telegram? And the reason
+[00:12:17.830] through Slack, Telegram? And the reason
+[00:12:17.840] through Slack, Telegram? And the reason it's asking you this is to help you
+[00:12:19.670] it's asking you this is to help you
+[00:12:19.680] it's asking you this is to help you decide if you set up your own Agenda OS,
+[00:12:22.550] decide if you set up your own Agenda OS,
+[00:12:22.560] decide if you set up your own Agenda OS, do you want to interact with it from
+[00:12:23.910] do you want to interact with it from
+[00:12:23.920] do you want to interact with it from Telegram, from Slack, somewhere else?
+[00:12:26.470] Telegram, from Slack, somewhere else?
+[00:12:26.480] Telegram, from Slack, somewhere else? It's helping you optimize where your end
+[00:12:29.110] It's helping you optimize where your end
+[00:12:29.120] It's helping you optimize where your end usage is going to be.
+[00:12:30.590] usage is going to be.
+[00:12:30.600] usage is going to be. And once it has that, it starts putting
+[00:12:32.110] And once it has that, it starts putting
+[00:12:32.120] And once it has that, it starts putting together your full data map. It creates
+[00:12:34.630] together your full data map. It creates
+[00:12:34.640] together your full data map. It creates the JSON and associated HTML file. So,
+[00:12:37.550] the JSON and associated HTML file. So,
+[00:12:37.560] the JSON and associated HTML file. So, this is all out of the box. And by the
+[00:12:39.350] this is all out of the box. And by the
+[00:12:39.360] this is all out of the box. And by the end of this, you will have something
+[00:12:41.510] end of this, you will have something
+[00:12:41.520] end of this, you will have something like this. So, you have your full audit
+[00:12:44.430] like this. So, you have your full audit
+[00:12:44.440] like this. So, you have your full audit and then you can see all of my data
+[00:12:46.910] and then you can see all of my data
+[00:12:46.920] and then you can see all of my data sources. So, YouTube Studio, you have
+[00:12:48.670] sources. So, YouTube Studio, you have
+[00:12:48.680] sources. So, YouTube Studio, you have school, you have Gumroad, you have Kit,
+[00:12:50.870] school, you have Gumroad, you have Kit,
+[00:12:50.880] school, you have Gumroad, you have Kit, all of these things including my
+[00:12:52.070] all of these things including my
+[00:12:52.080] all of these things including my Obsidian. You can click on them, better
+[00:12:54.310] Obsidian. You can click on them, better
+[00:12:54.320] Obsidian. You can click on them, better understand exactly the pros and cons. If
+[00:12:56.870] understand exactly the pros and cons. If
+[00:12:56.880] understand exactly the pros and cons. If it has anything like a skill that you
+[00:12:58.710] it has anything like a skill that you
+[00:12:58.720] it has anything like a skill that you can install, and you can obviously ask
+[00:13:00.829] can install, and you can obviously ask
+[00:13:00.839] can install, and you can obviously ask Claude code or similar to go and search
+[00:13:03.150] Claude code or similar to go and search
+[00:13:03.160] Claude code or similar to go and search if you want. And then on top of that,
+[00:13:05.070] if you want. And then on top of that,
+[00:13:05.080] if you want. And then on top of that, you have the prep table on how we could
+[00:13:07.990] you have the prep table on how we could
+[00:13:08.000] you have the prep table on how we could add some automation to looking at things
+[00:13:10.230] add some automation to looking at things
+[00:13:10.240] add some automation to looking at things like monetization.
+[00:13:12.270] like monetization.
+[00:13:12.280] like monetization. And then additional things here like an
+[00:13:14.190] And then additional things here like an
+[00:13:14.200] And then additional things here like an inbox brief like we saw, a finance brief
+[00:13:16.870] inbox brief like we saw, a finance brief
+[00:13:16.880] inbox brief like we saw, a finance brief every Monday, and it walks you through
+[00:13:18.950] every Monday, and it walks you through
+[00:13:18.960] every Monday, and it walks you through what that would look like. And then like
+[00:13:20.990] what that would look like. And then like
+[00:13:21.000] what that would look like. And then like we saw before, we have the full data
+[00:13:22.470] we saw before, we have the full data
+[00:13:22.480] we saw before, we have the full data flow
+[00:13:23.870] flow
+[00:13:23.880] flow where I would end up reading the
+[00:13:25.390] where I would end up reading the
+[00:13:25.400] where I would end up reading the majority of my data.
+[00:13:27.150] majority of my data.
+[00:13:27.160] majority of my data. And then if we go to the very top, here
+[00:13:29.230] And then if we go to the very top, here
+[00:13:29.240] And then if we go to the very top, here are additional ideas specific for me. So
+[00:13:31.470] are additional ideas specific for me. So
+[00:13:31.480] are additional ideas specific for me. So one example is Friday content brief with
+[00:13:34.350] one example is Friday content brief with
+[00:13:34.360] one example is Friday content brief with three angle candidates, each backed by
+[00:13:36.950] three angle candidates, each backed by
+[00:13:36.960] three angle candidates, each backed by data. And if you scroll down, it walks
+[00:13:39.550] data. And if you scroll down, it walks
+[00:13:39.560] data. And if you scroll down, it walks you through what the chain could look
+[00:13:41.230] you through what the chain could look
+[00:13:41.240] you through what the chain could look like. You have a cron job that spins up
+[00:13:43.550] like. You have a cron job that spins up
+[00:13:43.560] like. You have a cron job that spins up maybe every Friday at 5:00 p.m. And then
+[00:13:45.750] maybe every Friday at 5:00 p.m. And then
+[00:13:45.760] maybe every Friday at 5:00 p.m. And then you have a chief marketing officer bot
+[00:13:47.950] you have a chief marketing officer bot
+[00:13:47.960] you have a chief marketing officer bot that goes and clusters the signals, etc.
+[00:13:50.470] that goes and clusters the signals, etc.
+[00:13:50.480] that goes and clusters the signals, etc. So not only will it help you create the
+[00:13:53.150] So not only will it help you create the
+[00:13:53.160] So not only will it help you create the mental model of how to approach these
+[00:13:55.030] mental model of how to approach these
+[00:13:55.040] mental model of how to approach these problems, but also it will give you the
+[00:13:56.790] problems, but also it will give you the
+[00:13:56.800] problems, but also it will give you the inspiration on what can be done that's
+[00:13:58.710] inspiration on what can be done that's
+[00:13:58.720] inspiration on what can be done that's very tactical.
+[00:14:00.030] very tactical.
+[00:14:00.040] very tactical. And again, from a big picture
+[00:14:01.110] And again, from a big picture
+[00:14:01.120] And again, from a big picture perspective, we really have four layers.
+[00:14:03.910] perspective, we really have four layers.
+[00:14:03.920] perspective, we really have four layers. This number one layer is one of the most
+[00:14:05.790] This number one layer is one of the most
+[00:14:05.800] This number one layer is one of the most important, where you really establish
+[00:14:07.750] important, where you really establish
+[00:14:07.760] important, where you really establish your identity, your Cloud MD, any
+[00:14:09.790] your identity, your Cloud MD, any
+[00:14:09.800] your identity, your Cloud MD, any specific rules if you have GPDR or SOC 2
+[00:14:12.670] specific rules if you have GPDR or SOC 2
+[00:14:12.680] specific rules if you have GPDR or SOC 2 compliance stuff you have to abide with.
+[00:14:14.430] compliance stuff you have to abide with.
+[00:14:14.440] compliance stuff you have to abide with. And then the second layer is knowledge.
+[00:14:16.350] And then the second layer is knowledge.
+[00:14:16.360] And then the second layer is knowledge. So knowledge can live in the cloud, it
+[00:14:18.150] So knowledge can live in the cloud, it
+[00:14:18.160] So knowledge can live in the cloud, it can live in a drive, it can live in the
+[00:14:20.590] can live in a drive, it can live in the
+[00:14:20.600] can live in a drive, it can live in the form of skills that can access them, or
+[00:14:22.830] form of skills that can access them, or
+[00:14:22.840] form of skills that can access them, or MCPs, or both. And then you have the
+[00:14:25.270] MCPs, or both. And then you have the
+[00:14:25.280] MCPs, or both. And then you have the workers, where you would set up your
+[00:14:27.310] workers, where you would set up your
+[00:14:27.320] workers, where you would set up your crystallized, or in this case
+[00:14:29.030] crystallized, or in this case
+[00:14:29.040] crystallized, or in this case materialized, meaning it comes out of
+[00:14:31.270] materialized, meaning it comes out of
+[00:14:31.280] materialized, meaning it comes out of the box. You actually have an agents MD
+[00:14:32.990] the box. You actually have an agents MD
+[00:14:33.000] the box. You actually have an agents MD file with the name of the agent that you
+[00:14:34.910] file with the name of the agent that you
+[00:14:34.920] file with the name of the agent that you can call on every time. And then this is
+[00:14:36.630] can call on every time. And then this is
+[00:14:36.640] can call on every time. And then this is where you establish what does it look
+[00:14:38.190] where you establish what does it look
+[00:14:38.200] where you establish what does it look like to have your own AI workforce. You
+[00:14:40.590] like to have your own AI workforce. You
+[00:14:40.600] like to have your own AI workforce. You don't want to have agents for the sake
+[00:14:42.150] don't want to have agents for the sake
+[00:14:42.160] don't want to have agents for the sake of having agents. You want to hire
+[00:14:43.950] of having agents. You want to hire
+[00:14:43.960] of having agents. You want to hire agents like someone would hire employees
+[00:14:46.630] agents like someone would hire employees
+[00:14:46.640] agents like someone would hire employees at a bootstrapped company. You don't
+[00:14:48.550] at a bootstrapped company. You don't
+[00:14:48.560] at a bootstrapped company. You don't hire five people all at once. You only
+[00:14:50.829] hire five people all at once. You only
+[00:14:50.839] hire five people all at once. You only hire an agent as you see that there's so
+[00:14:53.350] hire an agent as you see that there's so
+[00:14:53.360] hire an agent as you see that there's so much burden on one particular agent that
+[00:14:55.590] much burden on one particular agent that
+[00:14:55.600] much burden on one particular agent that it makes sense to naturally split it off
+[00:14:57.829] it makes sense to naturally split it off
+[00:14:57.839] it makes sense to naturally split it off into a separate subject matter expert.
+[00:15:00.030] into a separate subject matter expert.
+[00:15:00.040] into a separate subject matter expert. And once you've cleaned all the
+[00:15:01.230] And once you've cleaned all the
+[00:15:01.240] And once you've cleaned all the skeletons in your closet, you can ascend
+[00:15:04.150] skeletons in your closet, you can ascend
+[00:15:04.160] skeletons in your closet, you can ascend to layer four, we can start layering on
+[00:15:06.390] to layer four, we can start layering on
+[00:15:06.400] to layer four, we can start layering on things like automations, like the
+[00:15:07.950] things like automations, like the
+[00:15:07.960] things like automations, like the injections of hooks to really enrich
+[00:15:09.790] injections of hooks to really enrich
+[00:15:09.800] injections of hooks to really enrich your conversations and keep things as
+[00:15:11.829] your conversations and keep things as
+[00:15:11.839] your conversations and keep things as deterministic as possible while using a
+[00:15:14.430] deterministic as possible while using a
+[00:15:14.440] deterministic as possible while using a very chaotic piece of software.
+[00:15:16.950] very chaotic piece of software.
+[00:15:16.960] very chaotic piece of software. Now to really drive the point home,
+[00:15:18.350] Now to really drive the point home,
+[00:15:18.360] Now to really drive the point home, let's take three hypothetical scenarios
+[00:15:20.510] let's take three hypothetical scenarios
+[00:15:20.520] let's take three hypothetical scenarios of three completely different avatars on
+[00:15:22.910] of three completely different avatars on
+[00:15:22.920] of three completely different avatars on how they would implement this exact same
+[00:15:24.710] how they would implement this exact same
+[00:15:24.720] how they would implement this exact same methodology. Let's say we have persona
+[00:15:27.030] methodology. Let's say we have persona
+[00:15:27.040] methodology. Let's say we have persona numero uno, named Marco, and he is a
+[00:15:29.470] numero uno, named Marco, and he is a
+[00:15:29.480] numero uno, named Marco, and he is a solo founder of Slab House. He basically
+[00:15:31.910] solo founder of Slab House. He basically
+[00:15:31.920] solo founder of Slab House. He basically does live streams for mystery boxes, and
+[00:15:34.470] does live streams for mystery boxes, and
+[00:15:34.480] does live streams for mystery boxes, and he has multiple tiers. There's a very
+[00:15:36.390] he has multiple tiers. There's a very
+[00:15:36.400] he has multiple tiers. There's a very small tier, there's a whale tier, and
+[00:15:38.630] small tier, there's a whale tier, and
+[00:15:38.640] small tier, there's a whale tier, and one in between. And his stack is a
+[00:15:40.950] one in between. And his stack is a
+[00:15:40.960] one in between. And his stack is a combination of Shopify, we have Facebook
+[00:15:43.990] combination of Shopify, we have Facebook
+[00:15:44.000] combination of Shopify, we have Facebook ads, we have TikTok, we have Twitch for
+[00:15:46.070] ads, we have TikTok, we have Twitch for
+[00:15:46.080] ads, we have TikTok, we have Twitch for the live streams, we have Facebook live,
+[00:15:48.550] the live streams, we have Facebook live,
+[00:15:48.560] the live streams, we have Facebook live, we have PDFs, and a CSV Empire, which I
+[00:15:51.590] we have PDFs, and a CSV Empire, which I
+[00:15:51.600] we have PDFs, and a CSV Empire, which I know many clients have. Today, he
+[00:15:53.830] know many clients have. Today, he
+[00:15:53.840] know many clients have. Today, he struggles with things like P&L sheets,
+[00:15:55.830] struggles with things like P&L sheets,
+[00:15:55.840] struggles with things like P&L sheets, inventory, sales data, and he does this
+[00:15:58.350] inventory, sales data, and he does this
+[00:15:58.360] inventory, sales data, and he does this for 3 hours every single Monday. There
+[00:16:01.230] for 3 hours every single Monday. There
+[00:16:01.240] for 3 hours every single Monday. There must be a better way, right? Right. We
+[00:16:04.110] must be a better way, right? Right. We
+[00:16:04.120] must be a better way, right? Right. We can get to a place where he can get a
+[00:16:05.950] can get to a place where he can get a
+[00:16:05.960] can get to a place where he can get a morning brief of his financials, as long
+[00:16:08.550] morning brief of his financials, as long
+[00:16:08.560] morning brief of his financials, as long as all of this data lives in a place and
+[00:16:11.510] as all of this data lives in a place and
+[00:16:11.520] as all of this data lives in a place and lives in a way that it's easy to be
+[00:16:13.430] lives in a way that it's easy to be
+[00:16:13.440] lives in a way that it's easy to be queried. So, assuming that these are
+[00:16:15.350] queried. So, assuming that these are
+[00:16:15.360] queried. So, assuming that these are disparate CSVs that he's pulling
+[00:16:17.150] disparate CSVs that he's pulling
+[00:16:17.160] disparate CSVs that he's pulling directly from QuickBooks and manually
+[00:16:19.390] directly from QuickBooks and manually
+[00:16:19.400] directly from QuickBooks and manually analyzing, we could actually pull
+[00:16:21.190] analyzing, we could actually pull
+[00:16:21.200] analyzing, we could actually pull directly from the QuickBooks API, have
+[00:16:23.750] directly from the QuickBooks API, have
+[00:16:23.760] directly from the QuickBooks API, have Cloud Code create summary tables, where
+[00:16:25.990] Cloud Code create summary tables, where
+[00:16:26.000] Cloud Code create summary tables, where depending on the metrics that matter, it
+[00:16:27.790] depending on the metrics that matter, it
+[00:16:27.800] depending on the metrics that matter, it will use Python deterministic, so we're
+[00:16:29.870] will use Python deterministic, so we're
+[00:16:29.880] will use Python deterministic, so we're not risking an AI agent hallucinating.
+[00:16:32.430] not risking an AI agent hallucinating.
+[00:16:32.440] not risking an AI agent hallucinating. It will pre-aggregate things like
+[00:16:34.350] It will pre-aggregate things like
+[00:16:34.360] It will pre-aggregate things like revenue, cost of goods sold, all those
+[00:16:36.790] revenue, cost of goods sold, all those
+[00:16:36.800] revenue, cost of goods sold, all those fancy metrics, and put it into very easy
+[00:16:39.390] fancy metrics, and put it into very easy
+[00:16:39.400] fancy metrics, and put it into very easy to read summary tables. Then, when we
+[00:16:42.510] to read summary tables. Then, when we
+[00:16:42.520] to read summary tables. Then, when we have a cron job, or we have something
+[00:16:44.790] have a cron job, or we have something
+[00:16:44.800] have a cron job, or we have something like an open claw, a cloud claw, a
+[00:16:46.670] like an open claw, a cloud claw, a
+[00:16:46.680] like an open claw, a cloud claw, a Hermes agent, whatever, it will be able
+[00:16:49.230] Hermes agent, whatever, it will be able
+[00:16:49.240] Hermes agent, whatever, it will be able to easily read those numbers and report
+[00:16:51.390] to easily read those numbers and report
+[00:16:51.400] to easily read those numbers and report on them with very minimal chance of
+[00:16:53.390] on them with very minimal chance of
+[00:16:53.400] on them with very minimal chance of hallucination, because we did all the
+[00:16:55.910] hallucination, because we did all the
+[00:16:55.920] hallucination, because we did all the hard work for it. We did the 80, and
+[00:16:58.470] hard work for it. We did the 80, and
+[00:16:58.480] hard work for it. We did the 80, and we're now bringing the agent to actually
+[00:17:00.030] we're now bringing the agent to actually
+[00:17:00.040] we're now bringing the agent to actually look at the information and communicate
+[00:17:02.230] look at the information and communicate
+[00:17:02.240] look at the information and communicate trends, go through past versions of our
+[00:17:04.630] trends, go through past versions of our
+[00:17:04.640] trends, go through past versions of our conversations to look for patterns.
+[00:17:07.309] conversations to look for patterns.
+[00:17:07.319] conversations to look for patterns. And this is what his data map would look
+[00:17:08.870] And this is what his data map would look
+[00:17:08.880] And this is what his data map would look like, where if you scroll down, these
+[00:17:10.670] like, where if you scroll down, these
+[00:17:10.680] like, where if you scroll down, these are the core inputs that we saw before.
+[00:17:12.990] are the core inputs that we saw before.
+[00:17:13.000] are the core inputs that we saw before. And then notice here there's a legend
+[00:17:14.390] And then notice here there's a legend
+[00:17:14.400] And then notice here there's a legend that says, you have this, either this is
+[00:17:16.829] that says, you have this, either this is
+[00:17:16.839] that says, you have this, either this is missing, or it'll would be a quick win.
+[00:17:19.110] missing, or it'll would be a quick win.
+[00:17:19.120] missing, or it'll would be a quick win. So, if you scroll to the bottom, one
+[00:17:20.670] So, if you scroll to the bottom, one
+[00:17:20.680] So, if you scroll to the bottom, one example of something that would be a
+[00:17:22.069] example of something that would be a
+[00:17:22.079] example of something that would be a quick win is a pre-stream prep brief,
+[00:17:25.189] quick win is a pre-stream prep brief,
+[00:17:25.199] quick win is a pre-stream prep brief, where maybe there's a slash command, and
+[00:17:27.069] where maybe there's a slash command, and
+[00:17:27.079] where maybe there's a slash command, and here's exactly how Claude Code could set
+[00:17:28.990] here's exactly how Claude Code could set
+[00:17:29.000] here's exactly how Claude Code could set it up for him. And the result is that
+[00:17:30.510] it up for him. And the result is that
+[00:17:30.520] it up for him. And the result is that his simple questions would now become a
+[00:17:32.470] his simple questions would now become a
+[00:17:32.480] his simple questions would now become a chain of actions, where he could ask a
+[00:17:34.590] chain of actions, where he could ask a
+[00:17:34.600] chain of actions, where he could ask a question like, "Is whale tear worth the
+[00:17:37.150] question like, "Is whale tear worth the
+[00:17:37.160] question like, "Is whale tear worth the cost of a guaranteed pull?" And then it
+[00:17:39.110] cost of a guaranteed pull?" And then it
+[00:17:39.120] cost of a guaranteed pull?" And then it would go to the orchestrator, it would
+[00:17:41.230] would go to the orchestrator, it would
+[00:17:41.240] would go to the orchestrator, it would go and talk to the CFO bot, which makes
+[00:17:43.510] go and talk to the CFO bot, which makes
+[00:17:43.520] go and talk to the CFO bot, which makes sense given we have emphasis on
+[00:17:45.870] sense given we have emphasis on
+[00:17:45.880] sense given we have emphasis on finances, and then it could talk to the
+[00:17:47.750] finances, and then it could talk to the
+[00:17:47.760] finances, and then it could talk to the chief marketing officer bot, where it
+[00:17:50.070] chief marketing officer bot, where it
+[00:17:50.080] chief marketing officer bot, where it would look at the customer voice,
+[00:17:51.990] would look at the customer voice,
+[00:17:52.000] would look at the customer voice, analyze different trends, and see how it
+[00:17:54.270] analyze different trends, and see how it
+[00:17:54.280] analyze different trends, and see how it would be received by his audience.
+[00:17:56.270] would be received by his audience.
+[00:17:56.280] would be received by his audience. Now, let's pivot to Sally, who's an
+[00:17:57.870] Now, let's pivot to Sally, who's an
+[00:17:57.880] Now, let's pivot to Sally, who's an associate at a small boutique law firm.
+[00:18:01.150] associate at a small boutique law firm.
+[00:18:01.160] associate at a small boutique law firm. And what she works on are small cap
+[00:18:03.790] And what she works on are small cap
+[00:18:03.800] And what she works on are small cap merger and acquisition deals, four to
+[00:18:05.830] merger and acquisition deals, four to
+[00:18:05.840] merger and acquisition deals, four to five new matters a month. A matter's
+[00:18:07.950] five new matters a month. A matter's
+[00:18:07.960] five new matters a month. A matter's like a case in the law world, and then
+[00:18:09.950] like a case in the law world, and then
+[00:18:09.960] like a case in the law world, and then this is her stack. She has Outlook, she
+[00:18:12.350] this is her stack. She has Outlook, she
+[00:18:12.360] this is her stack. She has Outlook, she has Bill for Time, which is their
+[00:18:13.790] has Bill for Time, which is their
+[00:18:13.800] has Bill for Time, which is their billing system, she has, unfortunately,
+[00:18:16.190] billing system, she has, unfortunately,
+[00:18:16.200] billing system, she has, unfortunately, Microsoft Copilot, but for Claude Code,
+[00:18:18.990] Microsoft Copilot, but for Claude Code,
+[00:18:19.000] Microsoft Copilot, but for Claude Code, they use Amazon Bedrock because
+[00:18:21.350] they use Amazon Bedrock because
+[00:18:21.360] they use Amazon Bedrock because everything needs to be well controlled
+[00:18:22.990] everything needs to be well controlled
+[00:18:23.000] everything needs to be well controlled and well contained because it is very
+[00:18:24.910] and well contained because it is very
+[00:18:24.920] and well contained because it is very confidential client data. And just like
+[00:18:27.430] confidential client data. And just like
+[00:18:27.440] confidential client data. And just like other law firms, it's very PDF, doc, and
+[00:18:30.150] other law firms, it's very PDF, doc, and
+[00:18:30.160] other law firms, it's very PDF, doc, and email intensive. And let's say that the
+[00:18:32.150] email intensive. And let's say that the
+[00:18:32.160] email intensive. And let's say that the current state is that she spends 3 hours
+[00:18:34.430] current state is that she spends 3 hours
+[00:18:34.440] current state is that she spends 3 hours to go through the matters, scaffold all
+[00:18:36.710] to go through the matters, scaffold all
+[00:18:36.720] to go through the matters, scaffold all the ideas, review and write the briefs,
+[00:18:39.270] the ideas, review and write the briefs,
+[00:18:39.280] the ideas, review and write the briefs, etc. We could get to the point where we
+[00:18:41.510] etc. We could get to the point where we
+[00:18:41.520] etc. We could get to the point where we have a slash command called {slash} case
+[00:18:44.070] have a slash command called {slash} case
+[00:18:44.080] have a slash command called {slash} case launch, where it would execute a series
+[00:18:46.710] launch, where it would execute a series
+[00:18:46.720] launch, where it would execute a series of processes that she could outline in
+[00:18:48.630] of processes that she could outline in
+[00:18:48.640] of processes that she could outline in an SOP that she does over and over
+[00:18:50.590] an SOP that she does over and over
+[00:18:50.600] an SOP that she does over and over again. Because the real leverage in an
+[00:18:52.790] again. Because the real leverage in an
+[00:18:52.800] again. Because the real leverage in an agentic system is that you create a
+[00:18:55.030] agentic system is that you create a
+[00:18:55.040] agentic system is that you create a skill, and you keep iterating on that
+[00:18:56.950] skill, and you keep iterating on that
+[00:18:56.960] skill, and you keep iterating on that skill nonstop. So, a skill is an
+[00:18:59.710] skill nonstop. So, a skill is an
+[00:18:59.720] skill nonstop. So, a skill is an infinite game. It's not a finite game.
+[00:19:01.910] infinite game. It's not a finite game.
+[00:19:01.920] infinite game. It's not a finite game. You don't finish making a skill, you
+[00:19:04.070] You don't finish making a skill, you
+[00:19:04.080] You don't finish making a skill, you start a skill, and you keep improving it
+[00:19:06.070] start a skill, and you keep improving it
+[00:19:06.080] start a skill, and you keep improving it over time by going through a
+[00:19:07.630] over time by going through a
+[00:19:07.640] over time by going through a conversation, going through all the
+[00:19:09.470] conversation, going through all the
+[00:19:09.480] conversation, going through all the wrong turns, and eventually getting to
+[00:19:11.390] wrong turns, and eventually getting to
+[00:19:11.400] wrong turns, and eventually getting to the right turn, and then saying, "Based
+[00:19:13.470] the right turn, and then saying, "Based
+[00:19:13.480] the right turn, and then saying, "Based on all our conversation, I want you to
+[00:19:15.510] on all our conversation, I want you to
+[00:19:15.520] on all our conversation, I want you to map out the perfect critical path that
+[00:19:17.630] map out the perfect critical path that
+[00:19:17.640] map out the perfect critical path that would prevent us from going down the
+[00:19:19.550] would prevent us from going down the
+[00:19:19.560] would prevent us from going down the wrong avenues again." And your eyes
+[00:19:21.750] wrong avenues again." And your eyes
+[00:19:21.760] wrong avenues again." And your eyes might glaze over as I describe this, but
+[00:19:23.790] might glaze over as I describe this, but
+[00:19:23.800] might glaze over as I describe this, but I'm telling you, this is the difference
+[00:19:25.430] I'm telling you, this is the difference
+[00:19:25.440] I'm telling you, this is the difference between someone who works at 80%
+[00:19:27.310] between someone who works at 80%
+[00:19:27.320] between someone who works at 80% capacity versus 100% capacity. And then
+[00:19:30.150] capacity versus 100% capacity. And then
+[00:19:30.160] capacity versus 100% capacity. And then in terms of her report, if you click on
+[00:19:31.950] in terms of her report, if you click on
+[00:19:31.960] in terms of her report, if you click on what we'll build and we scroll down and
+[00:19:33.910] what we'll build and we scroll down and
+[00:19:33.920] what we'll build and we scroll down and we go to new matter scaffolding, it
+[00:19:35.990] we go to new matter scaffolding, it
+[00:19:36.000] we go to new matter scaffolding, it gives you the idea of creating either a
+[00:19:37.990] gives you the idea of creating either a
+[00:19:38.000] gives you the idea of creating either a skill, adding a hook as an auto trigger,
+[00:19:41.390] skill, adding a hook as an auto trigger,
+[00:19:41.400] skill, adding a hook as an auto trigger, but basically creating this specific
+[00:19:42.750] but basically creating this specific
+[00:19:42.760] but basically creating this specific chain where she can drop a brand new PDF
+[00:19:45.670] chain where she can drop a brand new PDF
+[00:19:45.680] chain where she can drop a brand new PDF as a new client intake. Maybe she runs a
+[00:19:47.750] as a new client intake. Maybe she runs a
+[00:19:47.760] as a new client intake. Maybe she runs a command that's called {slash} new
+[00:19:49.430] command that's called {slash} new
+[00:19:49.440] command that's called {slash} new matter, and this is exactly how it would
+[00:19:51.270] matter, and this is exactly how it would
+[00:19:51.280] matter, and this is exactly how it would launch.
+[00:19:52.350] launch.
+[00:19:52.360] launch. And last but not least, we pivot to Dr.
+[00:19:54.510] And last but not least, we pivot to Dr.
+[00:19:54.520] And last but not least, we pivot to Dr. Sana Anwar, who's working in the
+[00:19:56.710] Sana Anwar, who's working in the
+[00:19:56.720] Sana Anwar, who's working in the dermatology domain. She does have to
+[00:19:58.630] dermatology domain. She does have to
+[00:19:58.640] dermatology domain. She does have to abide also by healthcare data privacy
+[00:20:01.270] abide also by healthcare data privacy
+[00:20:01.280] abide also by healthcare data privacy laws, and then she deals with things
+[00:20:03.230] laws, and then she deals with things
+[00:20:03.240] laws, and then she deals with things like Athena Health, which is a specific
+[00:20:04.950] like Athena Health, which is a specific
+[00:20:04.960] like Athena Health, which is a specific CRM that's very common in the healthcare
+[00:20:07.070] CRM that's very common in the healthcare
+[00:20:07.080] CRM that's very common in the healthcare domain. And then she has to deal with
+[00:20:08.670] domain. And then she has to deal with
+[00:20:08.680] domain. And then she has to deal with intake forms, EHRs,
+[00:20:10.710] intake forms, EHRs,
+[00:20:10.720] intake forms, EHRs, which is the basically CRM, and then she
+[00:20:12.750] which is the basically CRM, and then she
+[00:20:12.760] which is the basically CRM, and then she has to process all kinds of biopsies.
+[00:20:15.350] has to process all kinds of biopsies.
+[00:20:15.360] has to process all kinds of biopsies. In her world, creating the Agendrix OS
+[00:20:17.390] In her world, creating the Agendrix OS
+[00:20:17.400] In her world, creating the Agendrix OS is even more complicated because she has
+[00:20:19.390] is even more complicated because she has
+[00:20:19.400] is even more complicated because she has to really bifurcate where all this data
+[00:20:21.790] to really bifurcate where all this data
+[00:20:21.800] to really bifurcate where all this data lives. We have data at the clinical
+[00:20:23.470] lives. We have data at the clinical
+[00:20:23.480] lives. We have data at the clinical level, and then we have it at the
+[00:20:24.950] level, and then we have it at the
+[00:20:24.960] level, and then we have it at the billing level. Given the constraints of
+[00:20:26.710] billing level. Given the constraints of
+[00:20:26.720] billing level. Given the constraints of this domain, you have to be very mindful
+[00:20:28.430] this domain, you have to be very mindful
+[00:20:28.440] this domain, you have to be very mindful about isolating each and every data set
+[00:20:30.990] about isolating each and every data set
+[00:20:31.000] about isolating each and every data set and handling in different ways. So,
+[00:20:32.550] and handling in different ways. So,
+[00:20:32.560] and handling in different ways. So, unlike a solopreneur, she can't just
+[00:20:34.390] unlike a solopreneur, she can't just
+[00:20:34.400] unlike a solopreneur, she can't just tell Claude Code, "Don't make mistakes."
+[00:20:36.830] tell Claude Code, "Don't make mistakes."
+[00:20:36.840] tell Claude Code, "Don't make mistakes." She might need to fully isolate each one
+[00:20:38.990] She might need to fully isolate each one
+[00:20:39.000] She might need to fully isolate each one of these data sets and create a unique
+[00:20:40.910] of these data sets and create a unique
+[00:20:40.920] of these data sets and create a unique set of hooks, Claude MDs, for each and
+[00:20:43.830] set of hooks, Claude MDs, for each and
+[00:20:43.840] set of hooks, Claude MDs, for each and every domain.
+[00:20:45.110] every domain.
+[00:20:45.120] every domain. So, her data flow might look very
+[00:20:46.670] So, her data flow might look very
+[00:20:46.680] So, her data flow might look very different from the average person, where
+[00:20:48.270] different from the average person, where
+[00:20:48.280] different from the average person, where you go from this EHR system to all of
+[00:20:51.230] you go from this EHR system to all of
+[00:20:51.240] you go from this EHR system to all of these different prep tables that
+[00:20:52.590] these different prep tables that
+[00:20:52.600] these different prep tables that processes the data, and you'd have to be
+[00:20:54.310] processes the data, and you'd have to be
+[00:20:54.320] processes the data, and you'd have to be very mindful about how the data is
+[00:20:56.190] very mindful about how the data is
+[00:20:56.200] very mindful about how the data is handled in transit. And obviously, you
+[00:20:58.110] handled in transit. And obviously, you
+[00:20:58.120] handled in transit. And obviously, you get the idea now. So, if we go to what
+[00:20:59.990] get the idea now. So, if we go to what
+[00:21:00.000] get the idea now. So, if we go to what we could build and we scroll down here,
+[00:21:02.230] we could build and we scroll down here,
+[00:21:02.240] we could build and we scroll down here, you can see that we could create these
+[00:21:03.310] you can see that we could create these
+[00:21:03.320] you can see that we could create these skills like summarize biopsy PDF, ingest
+[00:21:06.510] skills like summarize biopsy PDF, ingest
+[00:21:06.520] skills like summarize biopsy PDF, ingest Athena encounters, care coordinator
+[00:21:08.990] Athena encounters, care coordinator
+[00:21:09.000] Athena encounters, care coordinator orchestrator, etc. And these are an
+[00:21:11.150] orchestrator, etc. And these are an
+[00:21:11.160] orchestrator, etc. And these are an examples of different rules and hooks
+[00:21:13.310] examples of different rules and hooks
+[00:21:13.320] examples of different rules and hooks that could be helpful. One really
+[00:21:15.150] that could be helpful. One really
+[00:21:15.160] that could be helpful. One really important thing for her setup are hooks
+[00:21:17.470] important thing for her setup are hooks
+[00:21:17.480] important thing for her setup are hooks because she can't risk any form of data
+[00:21:20.630] because she can't risk any form of data
+[00:21:20.640] because she can't risk any form of data or names being sent to Entropic servers
+[00:21:23.670] or names being sent to Entropic servers
+[00:21:23.680] or names being sent to Entropic servers depending on the situation. At the end
+[00:21:25.670] depending on the situation. At the end
+[00:21:25.680] depending on the situation. At the end of the day, context is king in this
+[00:21:28.270] of the day, context is king in this
+[00:21:28.280] of the day, context is king in this domain. So, the more context you can
+[00:21:30.070] domain. So, the more context you can
+[00:21:30.080] domain. So, the more context you can provide and the more cleanly you can
+[00:21:31.870] provide and the more cleanly you can
+[00:21:31.880] provide and the more cleanly you can provide it, the higher the likelihood
+[00:21:33.870] provide it, the higher the likelihood
+[00:21:33.880] provide it, the higher the likelihood that when you have an agentic system, if
+[00:21:35.830] that when you have an agentic system, if
+[00:21:35.840] that when you have an agentic system, if you want to take your agents on the go
+[00:21:37.310] you want to take your agents on the go
+[00:21:37.320] you want to take your agents on the go like I do while I'm traveling and have
+[00:21:39.590] like I do while I'm traveling and have
+[00:21:39.600] like I do while I'm traveling and have them actually drive real business value,
+[00:21:42.270] them actually drive real business value,
+[00:21:42.280] them actually drive real business value, all the hard work is in everything that
+[00:21:44.390] all the hard work is in everything that
+[00:21:44.400] all the hard work is in everything that happens behind the curtain.
+[00:21:46.070] happens behind the curtain.
+[00:21:46.080] happens behind the curtain. So, hopefully this really demystifies
+[00:21:47.790] So, hopefully this really demystifies
+[00:21:47.800] So, hopefully this really demystifies and simplifies what you would have to do
+[00:21:50.310] and simplifies what you would have to do
+[00:21:50.320] and simplifies what you would have to do to take [music] your agentic OS setup to
+[00:21:52.350] to take [music] your agentic OS setup to
+[00:21:52.360] to take [music] your agentic OS setup to the next level. And like I said, I'm
+[00:21:54.150] the next level. And like I said, I'm
+[00:21:54.160] the next level. And like I said, I'm making the skill I showed you in the
+[00:21:55.830] making the skill I showed you in the
+[00:21:55.840] making the skill I showed you in the video available to you in the second
+[00:21:57.865] video available to you in the second
+[00:21:57.875] video available to you in the second [music] link in the description below.
+[00:21:59.430] [music] link in the description below.
+[00:21:59.440] [music] link in the description below. And naturally, if you want to go much
+[00:22:00.830] And naturally, if you want to go much
+[00:22:00.840] And naturally, if you want to go much deeper on Claude code and learn while
+[00:22:03.590] deeper on Claude code and learn while
+[00:22:03.600] deeper on Claude code and learn while you build and actually perfect your
+[00:22:05.230] you build and actually perfect your
+[00:22:05.240] you build and actually perfect your agentic OS system, then you want to make
+[00:22:06.910] agentic OS system, then you want to make
+[00:22:06.920] agentic OS system, then you want to make sure you check out the first link in the
+[00:22:08.230] sure you check out the first link in the
+[00:22:08.240] sure you check out the first link in the description below as we always have up
+[00:22:10.670] description below as we always have up
+[00:22:10.680] description below as we always have up and coming courses in my living Claude
+[00:22:13.030] and coming courses in my living Claude
+[00:22:13.040] and coming courses in my living Claude code course. And on top of that, you'll
+[00:22:15.070] code course. And on top of that, you'll
+[00:22:15.080] code course. And on top of that, you'll be able to take advantage of my Claude
+[00:22:16.870] be able to take advantage of my Claude
+[00:22:16.880] be able to take advantage of my Claude claw business operating system so you
+[00:22:18.950] claw business operating system so you
+[00:22:18.960] claw business operating system so you can do the dirty work behind the scenes
+[00:22:20.790] can do the dirty work behind the scenes
+[00:22:20.800] can do the dirty work behind the scenes and then layer on top a very powerful
+[00:22:22.755] and then layer on top a very powerful
+[00:22:22.765] and then layer on top a very powerful [music] agentic system. For the rest of
+[00:22:24.310] [music] agentic system. For the rest of
+[00:22:24.320] [music] agentic system. For the rest of you, if you found this helpful and
+[00:22:25.790] you, if you found this helpful and
+[00:22:25.800] you, if you found this helpful and illuminating, I would super appreciate a
+[00:22:27.750] illuminating, I would super appreciate a
+[00:22:27.760] illuminating, I would super appreciate a like and a comment on the video and I'll
+[00:22:29.750] like and a comment on the video and I'll
+[00:22:29.760] like and a comment on the video and I'll see you in the next one.
