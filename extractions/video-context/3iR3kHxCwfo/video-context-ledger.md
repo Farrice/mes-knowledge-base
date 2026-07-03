@@ -2,7 +2,7 @@
 
 | Timestamp | Type | Evidence | Source | Confidence | Notes |
 |---|---|---|---|---|---|
-| 00:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000000.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 00:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000000.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:00:00.160 | `observed_spoken` | Studies show that LinkedIn is | caption/subtitle | high |  |
 | 00:00:01.520 | `observed_spoken` | Studies show that LinkedIn is responsible for generating 80% of all | caption/subtitle | high |  |
 | 00:00:03.909 | `observed_spoken` | responsible for generating 80% of all | caption/subtitle | high |  |
@@ -73,7 +73,7 @@
 | 00:00:58.559 | `observed_spoken` | content playbook for 2026. So, thank you for coming on, Laura. | caption/subtitle | high |  |
 | 00:00:59.510 | `observed_spoken` | for coming on, Laura. | caption/subtitle | high |  |
 | 00:00:59.520 | `observed_spoken` | for coming on, Laura. >> Likewise. Thank you for having me. I'm | caption/subtitle | high |  |
-| 01:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000060.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 01:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000060.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:01:01.110 | `observed_spoken` | >> Likewise. Thank you for having me. I'm | caption/subtitle | high |  |
 | 00:01:01.120 | `observed_spoken` | >> Likewise. Thank you for having me. I'm so excited. Today, all I'm going to show | caption/subtitle | high |  |
 | 00:01:03.750 | `observed_spoken` | so excited. Today, all I'm going to show | caption/subtitle | high |  |
@@ -134,7 +134,7 @@
 | 00:01:58.399 | `observed_spoken` | to help you go from zero to 10,000 to even hundreds of thousands of followers | caption/subtitle | high |  |
 | 00:01:59.830 | `observed_spoken` | even hundreds of thousands of followers | caption/subtitle | high |  |
 | 00:01:59.840 | `observed_spoken` | even hundreds of thousands of followers within a year if you do it right. | caption/subtitle | high |  |
-| 02:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000120.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 02:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000120.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:02:01.510 | `observed_spoken` | within a year if you do it right. | caption/subtitle | high |  |
 | 00:02:01.520 | `observed_spoken` | within a year if you do it right. >> And just some expectation setting on | caption/subtitle | high |  |
 | 00:02:03.270 | `observed_spoken` | >> And just some expectation setting on | caption/subtitle | high |  |
@@ -195,7 +195,7 @@
 | 00:02:57.599 | `observed_spoken` | really know your niche or what you're talking about yet. But, um, overall, the | caption/subtitle | high |  |
 | 00:02:59.910 | `observed_spoken` | talking about yet. But, um, overall, the | caption/subtitle | high |  |
 | 00:02:59.920 | `observed_spoken` | talking about yet. But, um, overall, the best people that I know spend 30 minutes | caption/subtitle | high |  |
-| 03:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000180.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 03:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000180.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:03:01.990 | `observed_spoken` | best people that I know spend 30 minutes | caption/subtitle | high |  |
 | 00:03:02.000 | `observed_spoken` | best people that I know spend 30 minutes a week creating content and maybe spend | caption/subtitle | high |  |
 | 00:03:05.030 | `observed_spoken` | a week creating content and maybe spend | caption/subtitle | high |  |
@@ -258,7 +258,7 @@
 | 00:03:57.599 | `observed_spoken` | gold mine of opportunity which was you could actually just go viral with | caption/subtitle | high |  |
 | 00:03:59.589 | `observed_spoken` | could actually just go viral with | caption/subtitle | high |  |
 | 00:03:59.599 | `observed_spoken` | could actually just go viral with written form content. I didn't need a | caption/subtitle | high |  |
-| 04:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000240.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 04:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000240.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:04:01.750 | `observed_spoken` | written form content. I didn't need a | caption/subtitle | high |  |
 | 00:04:01.760 | `observed_spoken` | written form content. I didn't need a video. I just needed content that had a | caption/subtitle | high |  |
 | 00:04:04.789 | `observed_spoken` | video. I just needed content that had a | caption/subtitle | high |  |
@@ -317,7 +317,7 @@
 | 00:04:57.600 | `observed_spoken` | it like I do. LinkedIn actually natively pushes your first few posts onto the | caption/subtitle | high |  |
 | 00:04:59.749 | `observed_spoken` | pushes your first few posts onto the | caption/subtitle | high |  |
 | 00:04:59.759 | `observed_spoken` | pushes your first few posts onto the algorithm the most. So you stay on the | caption/subtitle | high |  |
-| 05:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000300.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 05:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000300.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:05:01.909 | `observed_spoken` | algorithm the most. So you stay on the | caption/subtitle | high |  |
 | 00:05:01.919 | `observed_spoken` | algorithm the most. So you stay on the platform and you feel like you want to | caption/subtitle | high |  |
 | 00:05:03.670 | `observed_spoken` | platform and you feel like you want to | caption/subtitle | high |  |
@@ -378,7 +378,7 @@
 | 00:05:56.960 | `observed_spoken` | people on Twitter, on YouTube, on Instagram complaining about how cringe | caption/subtitle | high |  |
 | 00:05:58.710 | `observed_spoken` | Instagram complaining about how cringe | caption/subtitle | high |  |
 | 00:05:58.720 | `observed_spoken` | Instagram complaining about how cringe it is, how it is the death of um, | caption/subtitle | high |  |
-| 06:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000360.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 06:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000360.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:06:01.670 | `observed_spoken` | it is, how it is the death of um, | caption/subtitle | high |  |
 | 00:06:01.680 | `observed_spoken` | it is, how it is the death of um, content, etc. But in reality, it's not | caption/subtitle | high |  |
 | 00:06:05.270 | `observed_spoken` | content, etc. But in reality, it's not | caption/subtitle | high |  |
@@ -431,7 +431,7 @@
 | 00:06:55.600 | `observed_spoken` | for you is the highest quality on LinkedIn. So that is it. All you need to | caption/subtitle | high |  |
 | 00:06:58.870 | `observed_spoken` | LinkedIn. So that is it. All you need to | caption/subtitle | high |  |
 | 00:06:58.880 | `observed_spoken` | LinkedIn. So that is it. All you need to do is go beyond uh the cringe part of | caption/subtitle | high |  |
-| 07:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000420.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 07:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000420.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:07:01.830 | `observed_spoken` | do is go beyond uh the cringe part of | caption/subtitle | high |  |
 | 00:07:01.840 | `observed_spoken` | do is go beyond uh the cringe part of posting on LinkedIn and feeling like a | caption/subtitle | high |  |
 | 00:07:03.430 | `observed_spoken` | posting on LinkedIn and feeling like a | caption/subtitle | high |  |
@@ -480,7 +480,7 @@
 | 00:07:57.440 | `observed_spoken` | good at, and if you follow the right blueprint. And so some social proof | caption/subtitle | high |  |
 | 00:07:59.589 | `observed_spoken` | blueprint. And so some social proof | caption/subtitle | high |  |
 | 00:07:59.599 | `observed_spoken` | blueprint. And so some social proof here. Um during our last launch, we | caption/subtitle | high |  |
-| 08:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000480.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 08:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000480.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:08:02.629 | `observed_spoken` | here. Um during our last launch, we | caption/subtitle | high |  |
 | 00:08:02.639 | `observed_spoken` | here. Um during our last launch, we actually made $230,000 just from our | caption/subtitle | high |  |
 | 00:08:05.110 | `observed_spoken` | actually made $230,000 just from our | caption/subtitle | high |  |
@@ -551,7 +551,7 @@
 | 00:08:57.680 | `observed_spoken` | for this audience and they don't stop to think, is that where my target audience | caption/subtitle | high |  |
 | 00:08:59.670 | `observed_spoken` | think, is that where my target audience | caption/subtitle | high |  |
 | 00:08:59.680 | `observed_spoken` | think, is that where my target audience is actually going to be? And if it's | caption/subtitle | high |  |
-| 09:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000540.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 09:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000540.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:09:02.070 | `observed_spoken` | is actually going to be? And if it's | caption/subtitle | high |  |
 | 00:09:02.080 | `observed_spoken` | is actually going to be? And if it's like plumbers, are plumbers really | caption/subtitle | high |  |
 | 00:09:03.590 | `observed_spoken` | like plumbers, are plumbers really | caption/subtitle | high |  |
@@ -616,7 +616,7 @@
 | 00:09:56.320 | `observed_spoken` | personal brands do two things. They storytell and they educate. You know, | caption/subtitle | high |  |
 | 00:09:58.790 | `observed_spoken` | storytell and they educate. You know, | caption/subtitle | high |  |
 | 00:09:58.800 | `observed_spoken` | storytell and they educate. You know, the top 1% do do either of them, but the | caption/subtitle | high |  |
-| 10:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000600.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 10:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000600.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:10:01.350 | `observed_spoken` | the top 1% do do either of them, but the | caption/subtitle | high |  |
 | 00:10:01.360 | `observed_spoken` | the top 1% do do either of them, but the 0.1% do both. And I have some examples | caption/subtitle | high |  |
 | 00:10:04.630 | `observed_spoken` | 0.1% do both. And I have some examples | caption/subtitle | high |  |
@@ -671,7 +671,7 @@
 | 00:10:56.800 | `observed_spoken` | overweight. So I needed to find a way to like bypass all these limiting things | caption/subtitle | high |  |
 | 00:10:58.870 | `observed_spoken` | like bypass all these limiting things | caption/subtitle | high |  |
 | 00:10:58.880 | `observed_spoken` | like bypass all these limiting things that I didn't want to have and didn't | caption/subtitle | high |  |
-| 11:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000660.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 11:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000660.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:11:00.949 | `observed_spoken` | that I didn't want to have and didn't | caption/subtitle | high |  |
 | 00:11:00.959 | `observed_spoken` | that I didn't want to have and didn't want to be seen etc. And I was like what | caption/subtitle | high |  |
 | 00:11:03.190 | `observed_spoken` | want to be seen etc. And I was like what | caption/subtitle | high |  |
@@ -730,7 +730,7 @@
 | 00:11:57.279 | `observed_spoken` | single time we implement them, we get results. So, let me explain what | caption/subtitle | high |  |
 | 00:11:58.790 | `observed_spoken` | results. So, let me explain what | caption/subtitle | high |  |
 | 00:11:58.800 | `observed_spoken` | results. So, let me explain what monetizable expertise is. So, when | caption/subtitle | high |  |
-| 12:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000720.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 12:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000720.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:12:01.430 | `observed_spoken` | monetizable expertise is. So, when | caption/subtitle | high |  |
 | 00:12:01.440 | `observed_spoken` | monetizable expertise is. So, when you're trying to educate someone and get | caption/subtitle | high |  |
 | 00:12:04.550 | `observed_spoken` | you're trying to educate someone and get | caption/subtitle | high |  |
@@ -781,7 +781,7 @@
 | 00:12:55.360 | `observed_spoken` | going from here's how to build an SEO strategy to here's a problem that you | caption/subtitle | high |  |
 | 00:12:58.150 | `observed_spoken` | strategy to here's a problem that you | caption/subtitle | high |  |
 | 00:12:58.160 | `observed_spoken` | strategy to here's a problem that you think you have. Let me break it down and | caption/subtitle | high |  |
-| 13:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000780.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 13:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000780.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:13:00.710 | `observed_spoken` | think you have. Let me break it down and | caption/subtitle | high |  |
 | 00:13:00.720 | `observed_spoken` | think you have. Let me break it down and add an image on top of it. And it's the | caption/subtitle | high |  |
 | 00:13:02.790 | `observed_spoken` | add an image on top of it. And it's the | caption/subtitle | high |  |
@@ -838,7 +838,7 @@
 | 00:13:55.920 | `observed_spoken` | lead generation strategy. I'll say here's how to get leads on LinkedIn. Um | caption/subtitle | high |  |
 | 00:13:58.870 | `observed_spoken` | here's how to get leads on LinkedIn. Um | caption/subtitle | high |  |
 | 00:13:58.880 | `observed_spoken` | here's how to get leads on LinkedIn. Um and then there's not going to be any | caption/subtitle | high |  |
-| 14:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000840.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 14:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000840.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:14:00.230 | `observed_spoken` | and then there's not going to be any | caption/subtitle | high |  |
 | 00:14:00.240 | `observed_spoken` | and then there's not going to be any second line. So step number one use | caption/subtitle | high |  |
 | 00:14:01.910 | `observed_spoken` | second line. So step number one use | caption/subtitle | high |  |
@@ -891,7 +891,7 @@
 | 00:14:58.240 | `observed_spoken` | that's why I use like specific metric like this and more specificity like in | caption/subtitle | high |  |
 | 00:14:59.990 | `observed_spoken` | like this and more specificity like in | caption/subtitle | high |  |
 | 00:15:00.000 | `observed_spoken` | like this and more specificity like in numbers it makes | caption/subtitle | high |  |
-| 15:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000900.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 15:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000900.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:15:01.030 | `observed_spoken` | numbers it makes | caption/subtitle | high |  |
 | 00:15:01.040 | `observed_spoken` | numbers it makes >> instead of going into a list in that | caption/subtitle | high |  |
 | 00:15:03.189 | `observed_spoken` | >> instead of going into a list in that | caption/subtitle | high |  |
@@ -950,7 +950,7 @@
 | 00:15:55.759 | `observed_spoken` | strategic arbitrage. So taking what works and using your story or skill to | caption/subtitle | high |  |
 | 00:15:58.230 | `observed_spoken` | works and using your story or skill to | caption/subtitle | high |  |
 | 00:15:58.240 | `observed_spoken` | works and using your story or skill to grow. So for example, I know that on | caption/subtitle | high |  |
-| 16:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000960.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 16:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-000960.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:16:00.949 | `observed_spoken` | grow. So for example, I know that on | caption/subtitle | high |  |
 | 00:16:00.959 | `observed_spoken` | grow. So for example, I know that on LinkedIn people love storytelling. Why? | caption/subtitle | high |  |
 | 00:16:03.430 | `observed_spoken` | LinkedIn people love storytelling. Why? | caption/subtitle | high |  |
@@ -1001,7 +1001,7 @@
 | 00:16:56.639 | `observed_spoken` | make their dreams come true or how to achieve a specific outcome right so me | caption/subtitle | high |  |
 | 00:16:59.509 | `observed_spoken` | achieve a specific outcome right so me | caption/subtitle | high |  |
 | 00:16:59.519 | `observed_spoken` | achieve a specific outcome right so me knowing this I'm strategically | caption/subtitle | high |  |
-| 17:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-001020.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 17:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-001020.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:17:01.269 | `observed_spoken` | knowing this I'm strategically | caption/subtitle | high |  |
 | 00:17:01.279 | `observed_spoken` | knowing this I'm strategically arbitrageing the topics that I know work | caption/subtitle | high |  |
 | 00:17:04.150 | `observed_spoken` | arbitrageing the topics that I know work | caption/subtitle | high |  |
@@ -1060,7 +1060,7 @@
 | 00:17:57.280 | `observed_spoken` | you're on Instagram I guess you're a bit more hesitate hesitant to make a post | caption/subtitle | high |  |
 | 00:17:58.789 | `observed_spoken` | more hesitate hesitant to make a post | caption/subtitle | high |  |
 | 00:17:58.799 | `observed_spoken` | more hesitate hesitant to make a post like this, you know, cuz it feels a bit | caption/subtitle | high |  |
-| 18:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-001080.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 18:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-001080.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:18:00.710 | `observed_spoken` | like this, you know, cuz it feels a bit | caption/subtitle | high |  |
 | 00:18:00.720 | `observed_spoken` | like this, you know, cuz it feels a bit weird if you're on your personal | caption/subtitle | high |  |
 | 00:18:01.590 | `observed_spoken` | weird if you're on your personal | caption/subtitle | high |  |
@@ -1121,7 +1121,7 @@
 | 00:18:57.919 | `observed_spoken` | So, POV, you became the first millionaire in your family. And then I | caption/subtitle | high |  |
 | 00:18:59.669 | `observed_spoken` | millionaire in your family. And then I | caption/subtitle | high |  |
 | 00:18:59.679 | `observed_spoken` | millionaire in your family. And then I say, I never thought I'd get to write | caption/subtitle | high |  |
-| 19:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-001140.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 19:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/3iR3kHxCwfo/frames/frame-001140.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:19:01.510 | `observed_spoken` | say, I never thought I'd get to write | caption/subtitle | high |  |
 | 00:19:01.520 | `observed_spoken` | say, I never thought I'd get to write this post. And then you see photos of my | caption/subtitle | high |  |
 | 00:19:03.110 | `observed_spoken` | this post. And then you see photos of my | caption/subtitle | high |  |

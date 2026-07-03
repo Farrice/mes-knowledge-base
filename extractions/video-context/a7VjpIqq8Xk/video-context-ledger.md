@@ -2,7 +2,7 @@
 
 | Timestamp | Type | Evidence | Source | Confidence | Notes |
 |---|---|---|---|---|---|
-| 00:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000000.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 00:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000000.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:00:00.080 | `observed_spoken` | Today we're talking about hooks. If you | caption/subtitle | high |  |
 | 00:00:01.520 | `observed_spoken` | Today we're talking about hooks. If you want your videos to perform better, the | caption/subtitle | high |  |
 | 00:00:03.510 | `observed_spoken` | want your videos to perform better, the | caption/subtitle | high |  |
@@ -63,7 +63,7 @@
 | 00:00:55.840 | `observed_spoken` | dive in. Now, before I do anything, let me just explain why AI hookw writing | caption/subtitle | high |  |
 | 00:00:58.229 | `observed_spoken` | me just explain why AI hookw writing | caption/subtitle | high |  |
 | 00:00:58.239 | `observed_spoken` | me just explain why AI hookw writing doesn't usually work. It's actually very | caption/subtitle | high |  |
-| 01:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000060.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 01:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000060.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:01:00.229 | `observed_spoken` | doesn't usually work. It's actually very | caption/subtitle | high |  |
 | 00:01:00.239 | `observed_spoken` | doesn't usually work. It's actually very simple. When you write hooks with AI, | caption/subtitle | high |  |
 | 00:01:02.310 | `observed_spoken` | simple. When you write hooks with AI, | caption/subtitle | high |  |
@@ -122,7 +122,7 @@
 | 00:01:56.720 | `observed_spoken` | real way to use AI but actually solve the hook problem? The solve in my | caption/subtitle | high |  |
 | 00:01:58.630 | `observed_spoken` | the hook problem? The solve in my | caption/subtitle | high |  |
 | 00:01:58.640 | `observed_spoken` | the hook problem? The solve in my opinion is the hook machine. The hook | caption/subtitle | high |  |
-| 02:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000120.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 02:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000120.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:02:00.469 | `observed_spoken` | opinion is the hook machine. The hook | caption/subtitle | high |  |
 | 00:02:00.479 | `observed_spoken` | opinion is the hook machine. The hook machine is my four-step process that | caption/subtitle | high |  |
 | 00:02:02.389 | `observed_spoken` | machine is my four-step process that | caption/subtitle | high |  |
@@ -191,7 +191,7 @@
 | 00:02:57.599 | `observed_spoken` | you only have to do it once, go ahead and skip to the next section. If you | caption/subtitle | high |  |
 | 00:02:59.430 | `observed_spoken` | and skip to the next section. If you | caption/subtitle | high |  |
 | 00:02:59.440 | `observed_spoken` | and skip to the next section. If you haven't set it up, I put together a | caption/subtitle | high |  |
-| 03:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000180.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 03:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000180.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:03:01.110 | `observed_spoken` | haven't set it up, I put together a | caption/subtitle | high |  |
 | 00:03:01.120 | `observed_spoken` | haven't set it up, I put together a video that I've linked in the | caption/subtitle | high |  |
 | 00:03:02.070 | `observed_spoken` | video that I've linked in the | caption/subtitle | high |  |
@@ -264,7 +264,7 @@
 | 00:03:58.239 | `observed_spoken` | upper right. It's going to build the flow in a minute, but first it's going | caption/subtitle | high |  |
 | 00:03:59.830 | `observed_spoken` | flow in a minute, but first it's going | caption/subtitle | high |  |
 | 00:03:59.840 | `observed_spoken` | flow in a minute, but first it's going to tee this up. So, it says, "I'm the | caption/subtitle | high |  |
-| 04:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000240.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 04:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000240.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:04:01.750 | `observed_spoken` | to tee this up. So, it says, "I'm the | caption/subtitle | high |  |
 | 00:04:01.760 | `observed_spoken` | to tee this up. So, it says, "I'm the hook machine by Callaway. Here's what | caption/subtitle | high |  |
 | 00:04:03.270 | `observed_spoken` | hook machine by Callaway. Here's what | caption/subtitle | high |  |
@@ -325,7 +325,7 @@
 | 00:04:57.600 | `observed_spoken` | channel. So, we've got that here. And I'm just going to paste it in right | caption/subtitle | high |  |
 | 00:04:58.950 | `observed_spoken` | I'm just going to paste it in right | caption/subtitle | high |  |
 | 00:04:58.960 | `observed_spoken` | I'm just going to paste it in right here. | caption/subtitle | high |  |
-| 05:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000300.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 05:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000300.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:05:00.310 | `observed_spoken` | here. | caption/subtitle | high |  |
 | 00:05:00.320 | `observed_spoken` | here. Then I'm going to grab three | caption/subtitle | high |  |
 | 00:05:01.990 | `observed_spoken` | Then I'm going to grab three | caption/subtitle | high |  |
@@ -396,7 +396,7 @@
 | 00:05:56.880 | `observed_spoken` | last thing, and this is really important. Do you want me to include all | caption/subtitle | high |  |
 | 00:05:58.469 | `observed_spoken` | important. Do you want me to include all | caption/subtitle | high |  |
 | 00:05:58.479 | `observed_spoken` | important. Do you want me to include all the videos or screen out any brand | caption/subtitle | high |  |
-| 06:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000360.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 06:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000360.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:06:00.550 | `observed_spoken` | the videos or screen out any brand | caption/subtitle | high |  |
 | 00:06:00.560 | `observed_spoken` | the videos or screen out any brand deals? Typically, any video with below a | caption/subtitle | high |  |
 | 00:06:02.550 | `observed_spoken` | deals? Typically, any video with below a | caption/subtitle | high |  |
@@ -463,7 +463,7 @@
 | 00:06:57.120 | `observed_spoken` | people to the watch list? It likely won't. All four channels are already in | caption/subtitle | high |  |
 | 00:06:58.790 | `observed_spoken` | won't. All four channels are already in | caption/subtitle | high |  |
 | 00:06:58.800 | `observed_spoken` | won't. All four channels are already in your watch list. Now pulling top videos | caption/subtitle | high |  |
-| 07:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000420.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 07:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000420.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:07:00.390 | `observed_spoken` | your watch list. Now pulling top videos | caption/subtitle | high |  |
 | 00:07:00.400 | `observed_spoken` | your watch list. Now pulling top videos from each. So this Sandcastle MCP is | caption/subtitle | high |  |
 | 00:07:03.510 | `observed_spoken` | from each. So this Sandcastle MCP is | caption/subtitle | high |  |
@@ -536,7 +536,7 @@
 | 00:07:58.000 | `observed_spoken` | it's already added the four channels to the watch list. Now, it's pulling the | caption/subtitle | high |  |
 | 00:07:59.589 | `observed_spoken` | the watch list. Now, it's pulling the | caption/subtitle | high |  |
 | 00:07:59.599 | `observed_spoken` | the watch list. Now, it's pulling the top 10 videos per channel. It's going to | caption/subtitle | high |  |
-| 08:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000480.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 08:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000480.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:08:01.510 | `observed_spoken` | top 10 videos per channel. It's going to | caption/subtitle | high |  |
 | 00:08:01.520 | `observed_spoken` | top 10 videos per channel. It's going to make sure all the videos are qualifiers, | caption/subtitle | high |  |
 | 00:08:03.270 | `observed_spoken` | make sure all the videos are qualifiers, | caption/subtitle | high |  |
@@ -605,7 +605,7 @@
 | 00:08:57.440 | `observed_spoken` | We have a format tool. There's there's so many tools, right? So it's giving us | caption/subtitle | high |  |
 | 00:08:58.949 | `observed_spoken` | so many tools, right? So it's giving us | caption/subtitle | high |  |
 | 00:08:58.959 | `observed_spoken` | so many tools, right? So it's giving us an update now that says the Callaway | caption/subtitle | high |  |
-| 09:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000540.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 09:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000540.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:09:00.470 | `observed_spoken` | an update now that says the Callaway | caption/subtitle | high |  |
 | 00:09:00.480 | `observed_spoken` | an update now that says the Callaway Marketing 10, the Peter visuals and | caption/subtitle | high |  |
 | 00:09:02.070 | `observed_spoken` | Marketing 10, the Peter visuals and | caption/subtitle | high |  |
@@ -672,7 +672,7 @@
 | 00:09:57.200 | `observed_spoken` | we're moving to the next step which is sorting the winners and losers. You can | caption/subtitle | high |  |
 | 00:09:58.630 | `observed_spoken` | sorting the winners and losers. You can | caption/subtitle | high |  |
 | 00:09:58.640 | `observed_spoken` | sorting the winners and losers. You can see in the upper right we've got three | caption/subtitle | high |  |
-| 10:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000600.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 10:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000600.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:10:00.230 | `observed_spoken` | see in the upper right we've got three | caption/subtitle | high |  |
 | 00:10:00.240 | `observed_spoken` | see in the upper right we've got three done. We're now sorting. So if we go | caption/subtitle | high |  |
 | 00:10:02.070 | `observed_spoken` | done. We're now sorting. So if we go | caption/subtitle | high |  |
@@ -737,7 +737,7 @@
 | 00:10:55.839 | `observed_spoken` | scroll down now, it's asking us, okay, it did the summary. It screened out paid | caption/subtitle | high |  |
 | 00:10:57.910 | `observed_spoken` | it did the summary. It screened out paid | caption/subtitle | high |  |
 | 00:10:57.920 | `observed_spoken` | it did the summary. It screened out paid videos, which like Peter visuals, gamma | caption/subtitle | high |  |
-| 11:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000660.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 11:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000660.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:11:00.069 | `observed_spoken` | videos, which like Peter visuals, gamma | caption/subtitle | high |  |
 | 00:11:00.079 | `observed_spoken` | videos, which like Peter visuals, gamma post, 0% engagement, clear clear paid | caption/subtitle | high |  |
 | 00:11:02.630 | `observed_spoken` | post, 0% engagement, clear clear paid | caption/subtitle | high |  |
@@ -804,7 +804,7 @@
 | 00:11:57.519 | `observed_spoken` | we go. Now it's starting to run through the analysis for each person. So, what | caption/subtitle | high |  |
 | 00:11:59.509 | `observed_spoken` | the analysis for each person. So, what | caption/subtitle | high |  |
 | 00:11:59.519 | `observed_spoken` | the analysis for each person. So, what it's doing is it's looking for a couple | caption/subtitle | high |  |
-| 12:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000720.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 12:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000720.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:12:00.949 | `observed_spoken` | it's doing is it's looking for a couple | caption/subtitle | high |  |
 | 00:12:00.959 | `observed_spoken` | it's doing is it's looking for a couple different buckets. It's looking for | caption/subtitle | high |  |
 | 00:12:02.150 | `observed_spoken` | different buckets. It's looking for | caption/subtitle | high |  |
@@ -869,7 +869,7 @@
 | 00:12:56.399 | `observed_spoken` | video wins. When he leans on episode branding alone, it syncs 50%. Like, | caption/subtitle | high |  |
 | 00:12:58.470 | `observed_spoken` | branding alone, it syncs 50%. Like, | caption/subtitle | high |  |
 | 00:12:58.480 | `observed_spoken` | branding alone, it syncs 50%. Like, that's a very insightful takeaway just | caption/subtitle | high |  |
-| 13:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000780.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 13:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000780.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:13:00.310 | `observed_spoken` | that's a very insightful takeaway just | caption/subtitle | high |  |
 | 00:13:00.320 | `observed_spoken` | that's a very insightful takeaway just on mine alone. And this only analyzed | caption/subtitle | high |  |
 | 00:13:02.470 | `observed_spoken` | on mine alone. And this only analyzed | caption/subtitle | high |  |
@@ -936,7 +936,7 @@
 | 00:13:56.560 | `observed_spoken` | instead of his framing. These underperform by roughly 60%. Again, very | caption/subtitle | high |  |
 | 00:13:59.350 | `observed_spoken` | underperform by roughly 60%. Again, very | caption/subtitle | high |  |
 | 00:13:59.360 | `observed_spoken` | underperform by roughly 60%. Again, very insightful, not obvious. And this is not | caption/subtitle | high |  |
-| 14:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000840.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 14:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000840.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:14:01.430 | `observed_spoken` | insightful, not obvious. And this is not | caption/subtitle | high |  |
 | 00:14:01.440 | `observed_spoken` | insightful, not obvious. And this is not the type of thing you would get from | caption/subtitle | high |  |
 | 00:14:02.710 | `observed_spoken` | the type of thing you would get from | caption/subtitle | high |  |
@@ -1003,7 +1003,7 @@
 | 00:14:56.880 | `observed_spoken` | spec when you're specific it works better. Good insight. Number two the two | caption/subtitle | high |  |
 | 00:14:59.430 | `observed_spoken` | better. Good insight. Number two the two | caption/subtitle | high |  |
 | 00:14:59.440 | `observed_spoken` | better. Good insight. Number two the two sentence amplifier structure appears | caption/subtitle | high |  |
-| 15:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000900.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 15:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000900.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:15:01.269 | `observed_spoken` | sentence amplifier structure appears | caption/subtitle | high |  |
 | 00:15:01.279 | `observed_spoken` | sentence amplifier structure appears both in Peter visuals and me and | caption/subtitle | high |  |
 | 00:15:03.829 | `observed_spoken` | both in Peter visuals and me and | caption/subtitle | high |  |
@@ -1068,7 +1068,7 @@
 | 00:15:56.880 | `observed_spoken` | recognize most of these. These are common attributes that tend to be true. | caption/subtitle | high |  |
 | 00:15:59.189 | `observed_spoken` | common attributes that tend to be true. | caption/subtitle | high |  |
 | 00:15:59.199 | `observed_spoken` | common attributes that tend to be true. Then we're adding on the custom | caption/subtitle | high |  |
-| 16:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000960.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 16:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-000960.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:16:01.509 | `observed_spoken` | Then we're adding on the custom | caption/subtitle | high |  |
 | 00:16:01.519 | `observed_spoken` | Then we're adding on the custom principles that we've extracted from | caption/subtitle | high |  |
 | 00:16:02.949 | `observed_spoken` | principles that we've extracted from | caption/subtitle | high |  |
@@ -1139,7 +1139,7 @@
 | 00:16:57.600 | `observed_spoken` | right? So, for me, it's like here's one video, the original hook, the format, | caption/subtitle | high |  |
 | 00:16:59.590 | `observed_spoken` | video, the original hook, the format, | caption/subtitle | high |  |
 | 00:16:59.600 | `observed_spoken` | video, the original hook, the format, second video, original hook, format, and | caption/subtitle | high |  |
-| 17:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-001020.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 17:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-001020.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:17:01.110 | `observed_spoken` | second video, original hook, format, and | caption/subtitle | high |  |
 | 00:17:01.120 | `observed_spoken` | second video, original hook, format, and you could just copy this. You could drop | caption/subtitle | high |  |
 | 00:17:03.110 | `observed_spoken` | you could just copy this. You could drop | caption/subtitle | high |  |
@@ -1194,7 +1194,7 @@
 | 00:17:57.679 | `observed_spoken` | this is a topic that I want to make a video about. This is a unique topic I | caption/subtitle | high |  |
 | 00:17:59.110 | `observed_spoken` | video about. This is a unique topic I | caption/subtitle | high |  |
 | 00:17:59.120 | `observed_spoken` | video about. This is a unique topic I validated. I'm like, I want to make a | caption/subtitle | high |  |
-| 18:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-001080.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 18:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-001080.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:18:00.310 | `observed_spoken` | validated. I'm like, I want to make a | caption/subtitle | high |  |
 | 00:18:00.320 | `observed_spoken` | validated. I'm like, I want to make a video about this. Boom. So, I add that | caption/subtitle | high |  |
 | 00:18:02.390 | `observed_spoken` | video about this. Boom. So, I add that | caption/subtitle | high |  |
@@ -1265,7 +1265,7 @@
 | 00:18:58.480 | `observed_spoken` | some of those as well. So, it's going to give you a list based on each of the | caption/subtitle | high |  |
 | 00:18:59.830 | `observed_spoken` | give you a list based on each of the | caption/subtitle | high |  |
 | 00:18:59.840 | `observed_spoken` | give you a list based on each of the channels, and then it's going to write | caption/subtitle | high |  |
-| 19:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Google Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-001140.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
+| 19:00 | `observed_visual` | Frame image extracted: /Users/farricecain/Codex Antigravity/extractions/video-context/a7VjpIqq8Xk/frames/frame-001140.jpg | ffmpeg frame sample | medium | Observed evidence is limited to the existence of the frame image until a human or vision adapter describes it. |
 | 00:19:00.870 | `observed_spoken` | channels, and then it's going to write | caption/subtitle | high |  |
 | 00:19:00.880 | `observed_spoken` | channels, and then it's going to write its own list of five that I find are | caption/subtitle | high |  |
 | 00:19:03.029 | `observed_spoken` | its own list of five that I find are | caption/subtitle | high |  |
