@@ -18,7 +18,9 @@ description: "/cos daily — the 2-minute micro briefing: present the morning br
 
 **Step 1 — Present the brief.** Read `.agent/cos/briefs/YYYY-MM-DD.md` (today). Render it verbatim — it's pre-formatted and ≤20 lines. Then the three questions, all in one message, closing with: *"Answer any, all, or just brain-dump — raw is fine."*
 
-**Step 2 — Capture what comes back** (per genius.md Capture Discipline):
+**Step 2 — Capture what comes back** (per genius.md Capture Discipline). If the answer
+is a mixed dump, apply the **Detangle Rule first**: name the separate things back to him,
+numbered with destinations, before routing. Then:
 - Verbatim → `journal/YYYY-MM-DD.md` under `## Raw` (Write tool; create file with `# Journal — date` header if missing).
 - Durable facts → `python3 execution/memory_store.py store --tier semantic --category insight --content "..." --meta '{"domain":"founder-context","source":"cos"}'` (category `preference`/`pattern` where apt).
 - Life sections touched → update the section in `life-context.md` + restamp `<!-- updated: YYYY-MM-DD -->`.
@@ -30,7 +32,10 @@ If he skips or gives one line: capture the line, no interrogation, proceed.
 
 **Step 3 — One CEO line.** A single sentence connecting today to the active goal, grounded in what he just said. No lecture, no task list he didn't ask for.
 
-**Step 4 — Close.** `python3 execution/cos_prep.py mark daily`. Then, only if relevant: "Working today? `/daily-focus` for the block plan." If status showed `weekly_due: true`: "Board's also due — `/cos weekly` when you've got 15."
+**Step 4 — Close.** `python3 execution/cos_prep.py mark daily`. Then, only what's relevant:
+- Content spark with legs captured? Name its ONE container and stop (genius.md One Container rule): "`/linkedin-daily`" / "`/parallax`" / "`/writers-room`". Never write the content inside the briefing.
+- "Working today? `/daily-focus` for the block plan."
+- If status showed `weekly_due: true`: "Board's also due — `/cos weekly` when you've got 15."
 
 ## Onboarding path (first run only)
 

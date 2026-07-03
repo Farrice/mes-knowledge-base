@@ -41,6 +41,7 @@ Explicit override: `/cos daily`, `/cos weekly`, `/cos status`.
 | `/cos daily` | cos-daily.md | 2-min pulse: brief + 3 questions + capture + one CEO line | Every day |
 | `/cos weekly` | cos-weekly.md | 15-min board session: 4 seats, 3 commitments w/ review dates | Weekly (Monday default) |
 | `/cos status` | cos-status.md | ≤1-page state of the union, read-only | "Where am I?" moments |
+| `/dump` | cos-dump.md | Anytime capture: visible detangle + routing, 30-sec feel | Tangled thought, any hour — never pre-sort |
 
 ## State (all under `.agent/cos/` — gitignored, private)
 
