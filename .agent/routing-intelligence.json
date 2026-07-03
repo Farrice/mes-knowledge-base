@@ -290,12 +290,29 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_021725_d523",
+            "timestamp": "2026-07-03T02:17:25.031373+00:00",
+            "session_id": "",
+            "request_summary": "Founder Context Brief for Farrice Cain — holistic AI-grounding identity doc (past, wound, POV anchors, voice, zone of genius, interests, application layer for Threads + course, gap-fill interview). Di",
+            "intent_score": 7,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "founder-voice"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 17,
+            "total_routings": 18,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
@@ -304,16 +321,18 @@
                 "System": 10,
                 "Client Work": 2,
                 "Analysis": 4,
-                "Strategy": 1
+                "Strategy": 1,
+                "Creative": 1
             },
             "expert_counts": {
                 "system-audit": 13,
                 "strength-conditioning-os": 2,
                 "nicolas-cole": 1,
-                "source-to-skill-system": 1
+                "source-to-skill-system": 1,
+                "founder-voice": 1
             },
             "tier_counts": {
-                "0": 17,
+                "0": 18,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -322,7 +341,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 17
+                "finalize-auto": 18
             },
             "ensemble_count": 7
         }

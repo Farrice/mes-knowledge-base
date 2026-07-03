@@ -330,3 +330,4 @@
 - `[2026-07-02 17:23]` **finalize** | Stage 0 Vision Translation layer for /raw-intent-bridge — root-caused Codex mis-routing of raw creat | general | system-audit — composite:7.25 status:Needs Improvement
 - `[2026-07-02 18:45]` **finalize** | Fork harvest: 26 skill OSs + ~203 workflows ported from Codex Antigravity fork into canonical repo v | general | system-audit — composite:7.25 status:Needs Improvement
 - `[2026-07-02 18:46]` **finalize** | Fork harvest: 26 skill OSs + ~203 workflows ported from Codex Antigravity fork into canonical repo v | strategy | system-audit — composite:7.25 status:Needs Improvement
+- `[2026-07-02 19:17]` **finalize** | Founder Context Brief for Farrice Cain — holistic AI-grounding identity doc (past, wound, POV anchor | general | founder-voice — composite:7.25 status:Needs Improvement
