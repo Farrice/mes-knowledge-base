@@ -191,6 +191,7 @@
 | `mark-kashef-ai-councils` | **Mark Kashef AI Councils** |  | 3 | 7 |
 | `mark-kashef-banana-squad` | **Mark Kashef — Banana Squad Image Agent Team** | banana squad image agent team | 3 | 4 |
 | `mark-kashef-claude-claw` | **Mark Kashef: Claude Claw — Agent SDK Bridge Architecture** | claude claw — agent sdk bridge architecture, agent sdk bridge architecture | 4 | 3 |
+| `mark-kashef-silver-platter-agentic-os` | **Mark Kashef Silver Platter Agentic OS** | silver platter agentic os, pantry prep plate data map, agentic os build plan | 1 | 0 |
 | `mark-kashef-visual-design` | **Mark Kashef — Visual Blueprint Methodology** | visual blueprint methodology | 5 | 0 |
 | `mark-manson-values-psychology` | **mark-manson-values-psychology** | the mindset layer for transformation coaching, values psychology & wellbeing | 3 | 0 |
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
