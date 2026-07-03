@@ -440,6 +440,16 @@
     "status": ""
   },
   {
+    "name": "Chief of Staff OS",
+    "directory": "chief-of-staff-os",
+    "description": "Farrice's standing CEO/CFO/counsel \u2014 daily 2-min micro briefing + weekly board session that asks HIM tailored questions (JJ, Jen/family, health, mindset, creative, goals), captures raw thoughts into semantic memory same-day, and keeps goals/commitments top-of-mind. Front door /cos. The counsel holds context so Farrice doesn't have to.",
+    "when_to_use": "",
+    "mtime": 1783048748.0146883,
+    "slash": "/chief-of-staff-os",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Chris Cimorelli \u2014 Financial Direct Response Copywriting",
     "directory": "chris-cimorelli-copywriting",
     "description": "Architects high-converting financial direct-response promotions using Chris Cimorelli's Big Idea methodology, proof hierarchy engineering, and momentum copy craft \u2014 built from Agora's #1 newsletter promo copywriter (newsletter funnels in the $50M+/year range). Use when writing front-end financial / investing / newsletter promos, back-end upsell sequences for paid newsletters, applying the Big Idea framework to a stale promo, engineering proof hierarchy in skeptical financial markets, or diagnosing why a financial promo is converting at 0.3% instead of 1%+. Trigger proactively whenever the user says \"newsletter promo\", \"Agora-style\", \"financial copy\", \"Big Idea\", \"back-end sequence\", or works in the investing/finance/crypto/precious-metals space. For non-financial DR campaigns use bond-halbert-copywriting; for sentence-level dopamine copy use stefan-georgi-dopamine-copy.",

@@ -800,9 +800,10 @@ The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates 
 
 ---
 
-## 🧭 Session & Workflow (15)
+## 🧭 Session & Workflow (16)
 | Command | What It Does |
 |---------|-------------|
+| `/cos` | Chief of Staff OS — daily 2-min briefing (asks YOU tailored questions, captures thoughts to memory) + weekly board session + status. Auto-fires via morning prep + session nudge. |
 | `/ship` | Quick content sprint — 1 expert, write, publish, auto-log. No perfectionism. |
 | `/deep-work` | Full chain strategic session — multi-expert, writers' room, complete quality gate |
 | `/build` | System improvement session — extractions, skills, architecture, auto-logged |

@@ -169,6 +169,19 @@ def handle_prompt(payload: dict) -> None:
             context_lines.append(line)
             ledger["staleness_warned"] = True
 
+    # COS morning-brief nudge — read-only (line precomputed by cos_prep.py prep),
+    # once per session, self-suppressing after `cos_prep.py mark daily`.
+    if not ledger.get("cos_nudged"):
+        try:
+            cs = json.loads((REPO_ROOT / ".agent" / "cos" / "state.json").read_text())
+            today = datetime.now().date().isoformat()
+            if (cs.get("nudge_date") == today and cs.get("last_daily") != today
+                    and cs.get("nudge_line")):
+                context_lines.append(cs["nudge_line"])
+                ledger["cos_nudged"] = True
+        except Exception:
+            pass
+
     # Explicit workflow invocation -> debt + routing warn.
     m = re.match(r"^[/@]([a-z0-9][a-z0-9-]+)\b\s*(.*)", prompt, re.IGNORECASE | re.DOTALL)
     if m:

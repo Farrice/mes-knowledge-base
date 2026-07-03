@@ -1,0 +1,29 @@
+---
+description: "/cos weekly — the 15-minute board session: four seats (CFO money, COO threads/drift, Chairman life, CEO close), ends with exactly 3 commitments with review dates in the decisions ledger."
+---
+
+# /cos weekly — Board Session
+
+## Pre-Flight
+
+1. Read `skills/chief-of-staff-os/genius.md`.
+2. `python3 execution/cos_prep.py status` — if `weekly_due: false`, confirm he wants an early board ("Board sat Nd ago — run it anyway?").
+3. **Board pack (optional but preferred):** dispatch ONE general-purpose subagent (model: sonnet) to digest into a ≤1-page pack: last 7 days of `.agent/cos/journal/*.md`, `python3 execution/handoff_store.py threads`, latest `.tmp/weekly-pulse/week-*.md` (if <7d old), `.agent/cos/goals.json`, open items in `.agent/cos/decisions.md`, `python3 execution/revenue_tracker.py due` output. If the subagent fails, proceed on raw files — never block the session.
+
+🔒 **Gate:** genius.md loaded. Writes stay under `.agent/cos/`.
+
+## Workflow — Four Seats (≤3 exchanges each)
+
+**Seat 1 — CFO.** Revenue vs targets: actual collected (`.agent/revenue-outcomes.json` / board pack) against `revenue-5k-incumbency`, then the $20-30K north star. Surface outcome check-ins due. Scan the week's journal for new-offer/repositioning drift — if found: one flat Incumbency Rule sentence, log to `## Parked`. If `/weekly-closeout` staleness appeared in recent briefs, surface it here (don't run it).
+
+**Seat 2 — COO.** Threads sorted: *advancing the active goal* / *maintenance* / *drift*. Name drift without euphemism; recommend kill/park per thread. Farrice decides; decisions get ledger lines. Pull unresolved `## Open loops` older than 3 days: move each forward, park it, or kill it.
+
+**Seat 3 — Chairman.** Life sections in staleness order (stalest first). Ask, don't report. Heavy things: acknowledge, capture faithfully, offer depth or parking — never auto-convert to tasks. Update sections + stamps as he talks.
+
+**Seat 4 — CEO close.** Exactly **3 commitments for the week**, each with a review date — propose from what surfaced, let him edit. Append to `decisions.md` under `## Weekly Commitments` (`### YYYY-MM-DD — Week of...` block). Review LAST week's commitments first: done / carried (say why) / dead. Update `goals.json` `last_reviewed` for goals discussed.
+
+**Close.** Capture per genius.md discipline (memory writes, journal, stamps). `python3 execution/cos_prep.py mark weekly` (and `mark daily` if not yet done today).
+
+## Quality Gate
+
+3 commitments with review dates (or explicit carry-over verdict) in ledger · last week's commitments reviewed · goals `last_reviewed` updated · life stamps refreshed · durable facts → sovereign memory · `mark weekly` ran · ≤15 min feel.
