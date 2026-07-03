@@ -328,3 +328,5 @@
 - `[2026-07-02 15:06]` **finalize** | E4 — Embodiment Standard encoded into the factory: directives/embodiment-standard.md (canonical: 10- | general | system-audit — composite:8.33 status:Keep
 - `[2026-07-02 15:42]` **finalize** | E5 harvest roadmap + repo-wide score sweep: 5 dedup-checked harvest targets (headline: claim-safe/re | general | system-audit — composite:8.33 status:Keep
 - `[2026-07-02 17:23]` **finalize** | Stage 0 Vision Translation layer for /raw-intent-bridge — root-caused Codex mis-routing of raw creat | general | system-audit — composite:7.25 status:Needs Improvement
+- `[2026-07-02 18:45]` **finalize** | Fork harvest: 26 skill OSs + ~203 workflows ported from Codex Antigravity fork into canonical repo v | general | system-audit — composite:7.25 status:Needs Improvement
+- `[2026-07-02 18:46]` **finalize** | Fork harvest: 26 skill OSs + ~203 workflows ported from Codex Antigravity fork into canonical repo v | strategy | system-audit — composite:7.25 status:Needs Improvement

@@ -1,4 +1,4 @@
-# 🚀 Antigravity Workflows — Complete Index (494 Commands)
+# 🚀 Antigravity Workflows — Complete Index (697 Commands)
 
 You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
 
@@ -1127,6 +1127,400 @@ Extracted from the **"How I Write" (David Perell)** series: ten writing masters,
 | `/ward-rhetorical-engine` | **Ward Farnsworth** | Classical rhetoric · memorable line · Saxon-punch · chiasmus | 14 |
 
 **Altitude spine** (what `/how-i-write` composes): Runia (story gate) → Hawley (theme) → Stanton (premise/clamp) → Albom (human truth) → Browder/Orlean/Wang (nonfiction) or Pressfield/Wright (narrative) → Connelly/Harding/Ocean/Shukman/Roth (scene + voice) → Ward (line) → Lulu (distribution) → really-real (truth pass). Run `/how-i-write` to auto-compose the right subset, or invoke any expert directly. Each expert also exposes Tier-3 cross-domain commands (e.g. `/connelly-copy-detail`, `/ocean-perceptual-copy`, `/browder-founder-warstory`, `/lulu-pr-crisis`, `/wang-annual-letter`, `/orlean-brand-profile`, `/harding-perceptual-copy`, `/shukman-wonder-content`, `/albom-brand-story`, `/ward-copy-rhetoric`) — see each skill's `SKILL.md` for the full set.
+
+---
+
+## 🧲 Fork Harvest 2026-07-02 (Codex Antigravity → canonical)
+
+Skills and orphan workflows ported from the Codex Antigravity fork. PORT_CORE = primary routing surface; PORT_LONGTAIL = invoke directly or via explicit skill name.
+
+---
+
+### attention-hijack-hooks (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/attention-hijack-hooks` | Universal attention-anchor, brand/news/name/trend hijack, and hook-generation system for content, copy, social, LinkedIn, newsletters, scripts, ads, and end-to-end content routing |
+
+---
+
+### higgsfield-creative-studio (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/higgsfield-studio` | Budget-guarded Higgsfield creative system for GPT Image 2 stills, Marketing Studio video ads, product photoshoots, marketplace cards, Soul-ID, MCP, and CLI generation |
+
+---
+
+### james-i-bond-brain-glue (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/brain-glue-analogy-metaphor` | Create analogies, metaphors, names, and vivid pitch frames |
+| `/brain-glue-brand-sensory` | Build sensory and symbolic brand memory cues |
+| `/brain-glue-campaign-system` | Build a complete multi-channel Brain Glue campaign kit |
+| `/brain-glue-core-message` | Forge a simple sticky core message for an idea, offer, or product |
+| `/brain-glue-diagnostic` | Audit an asset for Brain Glue memorability and sales stickiness |
+| `/brain-glue-hook-language` | Generate sticky hooks, slogans, names, taglines, and quotable phrases |
+| `/brain-glue-reject-to-attract` | Create fit, not-fit, rejection, and qualification language |
+| `/brain-glue-sales-assets` | Build sales pages, emails, landing copy, offer copy, and objection language |
+| `/brain-glue-social-content` | Produce Brain Glue social posts, threads, carousels, and captions |
+| `/brain-glue-tribal-alignment` | Map audience identity and belonging cues for sticky messaging |
+| `/brain-glue-understanding-ease` | Make complex ideas easy to understand and remember |
+| `/brain-glue-video-script` | Produce sticky short-form or long-form video scripts |
+
+---
+
+### kallaway-content-operating-system (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/kallaway-content-os` | Full Kallaway content execution across strategy, production, hooks, storytelling, monetization, and source-backed content OS routing |
+| `/kallaway-trend-hook-engine` | Compliant Kallaway trend hook engine for Sandcastles-style signal intake, social outlier scoring, hook pattern clustering, and creative reaction handoff |
+
+---
+
+### kallaway-content-system (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/kcs-one-rep` | Kallaway Content System one-rep production blueprint |
+| `/kcs-topic-format` | Kallaway topic and format lock from outlier signal |
+| `/kcs-substance` | Kallaway contrarian take and evidence stack |
+| `/kcs-hook-triad` | Kallaway visual, text, and spoken hook triad |
+| `/kcs-script-profile` | Kallaway script profile from winning transcripts |
+| `/kcs-edit-path` | Kallaway edit path and editor brief |
+| `/kcs-performance-loop` | Kallaway batch analytics and carry-forward memo |
+| `/kcs-10x-batch` | Kallaway 10-video batch engine and iteration rules |
+| `/kcs-system-audit` | Kallaway full content system audit and repair plan |
+
+---
+
+### liam-ottley-linkedin-lead-magnet (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/liam-linkedin-lead-magnet` | Build an AI-assisted LinkedIn personal brand lead magnet system from monetizable expertise, strategic arbitrage, post structures, offer bridge, prompt set, and first sprint |
+
+---
+
+### mark-kashef-silver-platter-agentic-os (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/silver-platter` | Audit an operator's business tools, map Pantry → Prep → Plate, and produce the silver-platter agentic OS build package |
+
+---
+
+### marketing-studio-director (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/marketing-studio` | Higgsfield Marketing Studio video prompt director |
+
+---
+
+### nicolas-cole-edan-writing-mechanics (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/edan-block-map` | Classify a passage into Explanation, Description, Action, and Narration |
+| `/edan-balance-audit` | Audit a draft for EDAN imbalance and block-level repairs |
+| `/edan-action-weight` | Test whether actions create consequence, reveal, or movement |
+| `/edan-description-upgrade` | Replace blunt explanation with description that implies meaning |
+| `/edan-narration-pov` | Forge narration that reveals point of view and theme |
+| `/edan-opener-builder` | Build EDAN block sequences that create a target reader effect |
+| `/edan-practice-loop` | Create focused practice reps for one EDAN block or combination |
+| `/edan-source-study` | Reverse engineer a model passage into EDAN patterns |
+
+---
+
+### nicolas-cole-nonfiction-value-architecture (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/value-spotlight-map` | Choose the primary reader-value mode before drafting |
+| `/ten-value-expander` | Generate expansion angles across Cole's ten nonfiction value modes |
+| `/specificity-ladder` | Convert vague advice into concrete, measurable moments |
+| `/subhead-skim-test` | Audit title and subheads for four-second promise delivery |
+| `/nonfiction-outline-architect` | Build a value-first outline for any educational nonfiction piece |
+| `/reader-value-audit` | Diagnose why an existing nonfiction draft feels thin or meandering |
+| `/value-stack-remix` | Strengthen a piece by layering secondary nonfiction value modes |
+| `/newsletter-value-draft` | Draft a newsletter or article from Cole's value architecture |
+
+---
+
+### nicolas-cole-sales-education-messaging (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/sales-education-map` | Turn an offer into the buyer education path required before someone is ready to buy |
+| `/buyer-belief-ladder` | Map current beliefs, missing beliefs, objections, and proof needed to move a buyer toward readiness |
+| `/problem-articulation-script` | Write sales language that makes the buyer feel their problem has been named with precision |
+| `/positioning-message-bridge` | Translate positioning into sales-usable talk tracks, page copy, and content angles |
+| `/objection-education-loop` | Convert objections into educational reframes, examples, proof, and follow-up assets |
+| `/say-these-words-script` | Generate ethical sales education phrases for calls, DMs, emails, and sales pages |
+| `/sales-page-education-audit` | Audit whether a sales page teaches the buyer enough to understand the value and act |
+| `/offer-education-sequence` | Design a content, email, DM, or call sequence that educates someone from unaware or skeptical to ready |
+
+---
+
+### persuasion-story-code (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/story-code-diagnostic` | Find missing persuasion stories in raw business material |
+| `/story-code-story-bank` | Build a reusable entrepreneur story bank |
+| `/story-code-conversational-story` | Turn raw experience into a finished short persuasion story |
+| `/story-code-sales-story` | Create sales story blocks |
+| `/story-code-proof-case-study` | Turn wins and testimonials into proof stories |
+| `/story-code-entrepreneur-message` | Build a story-led entrepreneur message |
+| `/story-code-story-audit` | Diagnose and repair weak persuasion stories |
+| `/story-code-content-engine` | Generate written content from persuasion stories |
+| `/story-code-social-stack` | Fuse Story Code with social storytelling experts |
+| `/story-code-conversion-stack` | Fuse Story Code with conversion and sales psychology experts |
+| `/story-code-video-script` | Generate video scripts from persuasion stories |
+| `/story-code-video-stack` | Fuse Story Code with AI video strategy and production workflows |
+
+---
+
+### phil-m-jones-conversational-influence (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/pmj-decision-map` | Diagnose the real decision moment before choosing Phil M Jones phrase mechanics |
+| `/pmj-magic-words` | Select and adapt the right Phil M Jones word sequence for a specific conversation |
+| `/pmj-opener` | Create low-resistance openers for introducing ideas, offers, asks, or changes |
+| `/pmj-mental-picture` | Build future-state scripts that help someone see the decision before making it |
+| `/pmj-maybe-yes` | Move delay, maybe, or indecision into a clear next decision without pressure |
+| `/pmj-objection-softener` | Turn objections into diagnostic questions and low-pressure next moves |
+| `/pmj-follow-up` | Write follow-ups that preserve dignity and restart momentum |
+| `/pmj-confident-ask` | Build clear, respectful asks for favors, referrals, reviews, decisions, and support |
+| `/pmj-choice-architecture` | Design three-option decision scripts that reduce overload and guide fit |
+| `/pmj-copy-injector` | Rewrite copy with Phil M Jones conversational phrase mechanics |
+| `/pmj-content-hook` | Create content hooks and CTAs that start decision conversations |
+| `/pmj-belief-safe-audit` | Audit persuasion for pressure, autonomy risk, and trust damage |
+| `/pmj-sales-playbook` | Create an end-to-end sales conversation flow using Phil M Jones phrase mechanics |
+
+---
+
+### rafa-conde-fourth-wall-experience-os (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/fourth-wall-diagnostic` | Audit any experience for tasteful fourth-wall opportunity |
+| `/fourth-wall-concept-forge` | Generate ranked fourth-wall experience concepts |
+| `/fourth-wall-content-engine` | Create frame-breaking posts, newsletters, hooks, scripts, and sections |
+| `/fourth-wall-product-moment` | Design a frame-breaking product interaction or signature moment |
+| `/fourth-wall-client-experience` | Design a memorable fourth-wall client audit, workshop, proposal, or delivery sequence |
+| `/fourth-wall-live-presentation` | Design a live presentation, webinar, sales call, or workshop that uses audience reality |
+| `/fourth-wall-launch-experience` | Build a launch around a fourth-wall perspective shift |
+| `/fourth-wall-council` | Run a multi-expert fourth-wall creative sprint |
+| `/fourth-wall-domain-transfer` | Translate a fourth-wall mechanism across product, content, ads, agents, clients, and live formats |
+| `/fourth-wall-agent-workflow` | Upgrade an agent command or workflow with tasteful frame awareness |
+
+---
+
+### rafa-conde-memorable-product-design (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/conde-feeling-first-brief` | Feeling-first product brief for memorable software, prototypes, launches, and workflows |
+| `/conde-design-residue-audit` | Audit a product, page, prototype, or workflow for emotional memory |
+| `/conde-delight-moment-map` | Map surprise, charm, humor, and signature product moments |
+| `/conde-emotional-onboarding` | First-run onboarding experience that creates a remembered feeling |
+| `/conde-tactile-detail-pass` | Motion, sound, icons, microcopy, defaults, and tactile product details |
+| `/conde-prototype-the-feeling` | Prototype presentation plan with context, pacing, and emotional weight |
+| `/conde-single-purpose-app-scope` | Protect a simple product from feature bloat while preserving charm |
+| `/conde-memorable-product-launch` | Product launch narrative, video script, landing beats, posts, and release moment |
+| `/conde-memorable-feature-ad` | Feature ad or demo script that sells the product idea |
+| `/conde-creative-thinking-sprint` | Generate memorable product ideas from constraints, feelings, and small weirdness |
+| `/conde-creative-council` | Multi-expert creative sprint led by Rafa Conde's product memorability method |
+| `/conde-agent-experience-design` | Upgrade agent workflows, skills, handoffs, and command UX for clarity and memory |
+
+---
+
+### sam-parr-copywriting-mechanics (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/sam-parr-copywriting-mechanics` | Run the Sam Parr Copywriting Companion OS to rescue weak copy with source-backed headline, proof, curiosity, rhythm, story, objection, humor, and copywork mechanics |
+
+---
+
+### semantic-document-library-os (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/semantic-doc-generate` | Generate one agent-executable semantic document from a transcript, SOP, article, workflow, or messy source |
+| `/semantic-doc-validator` | Test whether an agent can execute a task from a semantic document without hidden human explanation |
+| `/semantic-doc-audit` | Audit existing docs for agent usability, semantic clarity, authority, validation, and execution risk |
+| `/semantic-doc-library-build` | Build a full semantic document library architecture for a business, agent, product, or knowledge domain |
+| `/semantic-doc-productize` | Package the semantic document library method as a client-facing offer and delivery workflow |
+
+---
+
+### sweat-equity-speedrun-social-os (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/speedrun-north-star` | Define the temporary content north star for a social speedrun |
+| `/speedrun-set-map` | Map a venue, event, or location into repeatable content sets |
+| `/speedrun-execution-stations` | Assign social speedrun director, shooters, editor, handler, and publishing roles |
+| `/speedrun-hook-multiply` | Generate multiple hooks and variations from one set or concept |
+| `/speedrun-funnel-mix` | Balance reach, immersion, proof, product, and bridge content for a social sprint |
+| `/speedrun-bridge-leverage` | Plan guest, partner, influencer, and collaborator bridge moments for a social sprint |
+| `/speedrun-moment-capture` | Decide when to upgrade or abandon the plan for a live social media moment |
+| `/speedrun-volume-calendar` | Build a 3 to 14 day social speedrun publishing calendar |
+| `/speedrun-event-planner` | Create a complete brand event social speedrun operating plan |
+
+---
+
+### yann-martel-storytelling-mastery (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/martel-envelope` | Convert research and notes into a Martel-style envelope architecture |
+| `/martel-vessel` | Build an ordinary character vessel under extraordinary pressure |
+| `/martel-animal-allegory` | Translate a heavy topic into an animal or symbolic allegory |
+| `/martel-genre-contract` | Map and repair the reader contract for genre, literary, or product-shaped writing |
+| `/martel-sublime` | Add moral or spiritual depth through a concrete question |
+| `/martel-cocreation` | Edit prose so the reader co-creates instead of being over-instructed |
+| `/martel-scenes` | Turn material into a sequenced Martel-style scene deck |
+| `/martel-punctuation` | Edit prose rhythm through punctuation and sentence tempo |
+| `/martel-ending` | Build an ending with closure and living mystery |
+| `/martel-rule-break` | Calibrate a deliberate craft rule break while preserving reader handrails |
+| `/martel-authenticity` | Audit whether AI assistance supports or damages authorship trust |
+| `/martel-gift-release` | Release creative work as a gift without being captured by reviews |
+
+---
+
+### youtube-video-context-analysis (PORT_CORE)
+
+| Command | What It Does |
+|---------|-------------|
+| `/video-transcript-ledger` | Create a transcript-only YouTube evidence ledger with metadata, cleaned captions, and uncertainty |
+| `/video-context-ledger` | Create a timestamped YouTube context ledger with transcript, frames, OCR fallback, analysis, and uncertainty |
+| `/video-frame-ledger` | Sample YouTube frames and create frame notes for visual review |
+| `/video-visual-ocr` | Extract or report unavailable on-screen text from sampled YouTube frames |
+| `/video-source-extract` | Prepare a YouTube video context ledger for `/extract` or `/extract-forge` |
+| `/video-context-audit` | Audit a video context package for claim support, visual contradiction, and uncertainty |
+| `/video-creative-reference` | Break down a YouTube video as a creative reference using transcript, frames, OCR, and uncertainty |
+| `/video-multi-compare` | Compare multiple YouTube context ledgers across claims, visuals, OCR, and uncertainty |
+
+---
+
+### Checkpoint-1 Skills (ported in same harvest, already canonical)
+
+These six skills were ported earlier in the same harvest session. Commands already exist in the repo.
+
+#### ai-carousel-content-engine (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/ai-carousel-engine` | Turn an article, raw idea, transcript, or brand insight into a complete AI carousel package |
+| `/article-to-carousel` | Turn an article or owned content source into a structured carousel script |
+| `/carousel-copy-forge` | Forge swipe-worthy carousel copy from a raw idea, transcript, article, or insight |
+| `/carousel-design-prompt` | Create a GPT Image 2 structured JSON design prompt for a carousel |
+| `/carousel-style-match` | Create reusable brand/style direction for AI carousel generation |
+| `/carousel-review` | Review carousel copy and design prompts for taste, source fidelity, text fit, and CTA strength |
+| `/carousel-publish-pack` | Prepare carousel caption, CTA, platform notes, and client handoff |
+
+#### ash-maurya-founder-systems (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/ash-lean-canvas` | Diagnose a founder idea through Ash Maurya's Lean Canvas and risk ranking |
+| `/ash-problem-validation` | Validate whether a founder problem is real, current, costly, and reachable |
+| `/ash-customer-interview` | Design customer forces interviews that produce behavioral evidence |
+| `/ash-buying-insight` | Extract customer truth, buying criteria, and commitment framing from past-tense interviews |
+| `/ash-offer-test` | Test a mafia offer and commitment ladder before building |
+| `/ash-demo-sell-build` | Run a 48-hour demo-sell-build sprint before investing in product build |
+| `/ash-risk-map` | Rank business-model assumptions and select the next evidence test |
+| `/ash-learning-scorecard` | Track founder learning velocity, commitments, and evidence quality |
+| `/ash-traction-roadmap` | Build a 90-day Ash Maurya validation roadmap from idea to demand proof |
+| `/ash-founder-war-room` | Route founder ideas and experiments through a weekly validation war room |
+| `/ash-productized-validation` | Package Ash Maurya validation into a sellable client-facing sprint |
+| `/ash-dan-martell-handshake` | Hand validated Ash Maurya demand into Dan Martell's scaling system |
+| `/ash-priestley-handshake` | Turn validated Ash Maurya demand into Daniel Priestley-style assets and IP |
+
+#### brandon-jacoby-taste-mastery (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/jacoby-taste-profile` | Build an individualized taste-master persona and operating rules |
+| `/jacoby-good-enough` | Push competent work beyond good enough into distinctive work |
+| `/jacoby-pattern-invention` | Decide when to follow patterns and when to invent |
+| `/jacoby-weird-c` | Find the unexpected third option through artifact-driven exploration |
+| `/jacoby-accessible-greatness` | Make work feel excellent without luxury-only cost or complexity |
+| `/jacoby-founder-room` | Produce bad-first artifacts that help founders clarify what they mean |
+| `/jacoby-craft-consequence` | Audit whether craft and product or business consequence reinforce each other |
+| `/jacoby-worldbuild` | Build a founder-level zero-to-one product or company world brief |
+| `/jacoby-ai-tool-loop` | Design an AI-assisted creative tool loop with human taste in charge |
+| `/jacoby-system-elevation` | Upgrade skills, workflows, agents, or content systems with a taste layer |
+
+#### cheri-tree-bank-buyology (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/bank-code-intake` | Run Cheri Tree B.A.N.K. code intake and self-assessment |
+| `/bank-forensic-profile` | Infer B.A.N.K. code from social profiles, websites, public copy, or messages |
+| `/bank-prospect-code-cracker` | Crack a prospect's B.A.N.K. buying code |
+| `/bank-icp-avatar` | Generate B.A.N.K.-segmented ICPs and avatars |
+| `/bank-power-script` | Generate code-aware Power Scripts |
+| `/bank-sales-call-prep` | Prepare sales calls and objection handling by B.A.N.K. code |
+| `/bank-email-dm-sequence` | Generate B.A.N.K.-segmented emails and DMs |
+| `/bank-social-content` | Generate social content by B.A.N.K. buyer code |
+| `/bank-lead-magnet` | Generate B.A.N.K.-aware lead magnets |
+| `/bank-funnel-landing-page` | Build a B.A.N.K.-segmented funnel and landing page |
+| `/bank-crm-segmentation` | BANKify a CRM or lead database |
+| `/bank-deployment-planner` | Plan end-to-end B.A.N.K. business asset deployment |
+
+#### daniel-priestley-24-assets-os (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/24-assets-heatmap-diagnostic` | 24 Assets scorecard, gaps, and priority map |
+| `/24-assets-business-design` | Lifestyle/performance business design from RPP, team size, and goals |
+| `/24-assets-build-roadmap` | 30/60/90-day 24 Assets build roadmap |
+| `/24-assets-zero-finder` | Asset zero discovery and business soul check |
+| `/24-assets-ip-builder` | Content, methodology, and registered IP build plan |
+| `/24-assets-brand-market-builder` | Brand, positioning, channels, and data build plan |
+| `/24-assets-product-system-builder` | Product ladder plus sales, admin, and operations systems |
+| `/24-assets-culture-funding-builder` | Culture, team, funding, valuation, structure, and risk plan |
+| `/24-assets-client-audit` | Client-facing 24 Assets diagnostic report |
+| `/24-assets-productized-service` | Productized 24 Assets service offer and delivery model |
+| `/24-assets-agent-system-design` | 24 Assets OS agent, skill, workflow, and automation architecture |
+| `/24-assets-council-sprint` | Multi-expert 24 Assets sprint plan |
+
+#### dom-iacovone-multi-company-operator (PORT_LONGTAIL)
+
+| Command | What It Does |
+|---------|-------------|
+| `/multi-company-operator` | Run Dom Iacovone entrepreneurial excellence and multi-company operator diagnostics for messy multi-offer founder portfolios, SGM planning, margin, channel fit, delegation, retail launch strategy, financial leaks, trade spend, DSD, 3PL, launch readiness, and exit optionality |
+
+---
+
+### Standalone workflows
+
+Orphan workflows ported from the fork without a parent skill in canonical.
+
+| Command | What It Does |
+|---------|-------------|
+| `/assignment-accountability-builder` | Create assignments, completion checkpoints, accountability paths, and visible transformation artifacts |
+| `/avatar-content-elevation` | Build an ICP-led, emotionally resonant, platform-native content launch package |
+| `/buyer-trigger-os` | Hot launcher for Meg Heckman's source-traced and research-backed buyer-trigger OS |
+| `/category-building-os` | Turn unconscious category decisions in brand positioning into a buyer-readable category-of-one system with anti-gimmick gates, proof rituals, adoption signals, and a 30-day deployment sequence |
+| `/course-module-architect` | Turn a lesson idea into Nicolas Cole's 7-section transformation module |
+| `/course-proof-and-bonus-stack` | Create proof, walkthrough, bonus, and perceived-value architecture for a course or information product |
+| `/diandra-linkedin-system` | End-to-end Diandra LinkedIn operating system: profile SEO, niche study, content buckets, growth engine, comment flywheel, and 90-day review |
+| `/farrice-content-os` | End-to-end Farrice content operating system for raw concepts, research, brandjacking, hooks, voice, taste, packaging, and engagement |
+| `/kishotenketsu-contrast-storytelling` | Rewrite content, ads, copy, narrative, or messaging into a world invitation using Kishotenketsu contrast: variable over villain, changed-world messaging, process-as-plot, and perspective shift |
+| `/low-cognitive-load-message-gate` | Cold companion gate that audits messaging, content, offers, and copy for one-problem clarity, five-soundbite fit, hero/guide alignment, and cognitive load before downstream writing |
+| `/niche-bending-system` | Turn any credible expertise, domain, or niche into differentiated content angles using niche bending, empty-square mapping, borrowed fluency, and visual language transfer |
+| `/offer-positioning-north-star` | Build a truth-grounded offer, positioning, service, triage, proof, and north-star architecture package |
+| `/perception-engineering-productize` | Productize the Perception Engineering stack into a sellable product ladder, prompt library, playbook, audit service, cohort, and launch path |
+| `/storybrand-message-clarity-system` | Clarify any business message with a StoryBrand soundbite strategy and Message Clarity Pack from business context, copy, website text, or offer language |
 
 ---
 

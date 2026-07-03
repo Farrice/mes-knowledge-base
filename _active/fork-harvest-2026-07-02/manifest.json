@@ -1,0 +1,583 @@
+{
+  "summary": "Harvest unique skills/workflows/OSs from ~/Codex Antigravity fork into canonical repo",
+  "agentCount": 63,
+  "logs": [
+    "Analyzing 34 fork-unique skills against canonical equivalents",
+    "Ported 20 skills, skipped 14",
+    "91 orphan workflows to classify",
+    "Orphans: 14 ported, 77 skipped"
+  ],
+  "result": {
+    "ported_skills": [
+      {
+        "skill": "attention-hijack-hooks",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 1,
+        "issues": [
+          "extractions/video-context/Zc4E_K48v48/ does not exist in canonical — SKILL.md source grounding section updated with a re-extraction note (run /watch Zc4E_K48v48 to restore); workflow Source Authority entries marked unavailable until re-extracted",
+          "/farrice-content-os does not exist in canonical — stacking guide and workflow Content Bridge updated to route to /diandra-content-engine instead",
+          "/diandra-linkedin-system does not exist in canonical — replaced with /diandra-hook-architect in all stacking/routing references across SKILL.md and the dispatcher workflow"
+        ]
+      },
+      {
+        "skill": "higgsfield-creative-studio",
+        "verdict": "PORT_CORE",
+        "workflows": 3,
+        "issues": [
+          "directives/higgsfield-usage-policy.md exists only in the fork — real-generation activation paths that reference it will need this file ported separately before live use. No unresolvable path conflicts in copied files; the SKILL.md references it by relative repo path so the path will resolve once ported.",
+          "execution/higgsfield_budget_guard.py exists only in the fork — the budget guard referenced in all three workflow files and SKILL.md will not execute until this script is ported to canonical. Prompt-only ideation is unaffected.",
+          "A spurious nested marketing-studio-director/marketing-studio-director/ directory was created during the cp -R sequence (cp appended the source dir name inside the already-created destination). It was confirmed identical to the correct top-level copy and removed cleanly."
+        ]
+      },
+      {
+        "skill": "james-i-bond-brain-glue",
+        "verdict": "PORT_CORE",
+        "workflows": 12,
+        "issues": []
+      },
+      {
+        "skill": "kallaway-content-operating-system",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 2,
+        "issues": [
+          "DEAD REFERENCE (non-blocking): kallaway-trend-hook-engine.md delegates to skills/kallaway-ai-content-engine/workflows/trend-hook-radar.md which does not exist in canonical (only in fork). The execution script execution/kallaway_trend_hook_radar.py does exist in canonical. Resolution: trend-hook-radar.md needs a separate port from the fork's kallaway-ai-content-engine skill — out of scope for this port. The workflow still functions for owned-data and empty-data paths via the Python script directly.",
+          "GRACEFUL DEGRADATION (non-blocking): extractions/video-context/a7VjpIqq8Xk/ does not exist in canonical. This is the source evidence package referenced by kallaway-trend-hook-engine.md (desire-hook-evidence-map.md and uncertainty-report.md). Workflow has a documented fallback path for missing extraction data — noted per porter instructions, not a blocker.",
+          "STALE REF FIXED: references/skill-system-contract.md contained 'Codex Antigravity' as a behavioral label in the Human Checkpoint row. Rewritten to 'local reversible workspace use'."
+        ]
+      },
+      {
+        "skill": "kallaway-content-system",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 9,
+        "issues": [
+          "extractions/kallaway-content-system/ does not exist in canonical — SKILL.md references 'extractions/kallaway-content-system/transcript.txt' and 'extractions/kallaway-content-system/extraction-report.md' (Source Evidence section). These are informational pointers to source material, not runtime dependencies; the skill functions without them, but the references are dead links until the extraction artifacts are ported separately.",
+          "Kallaway Full Stack chain references '/ai-topic-mining' and '/cap-fit-check' which do not resolve in canonical (.agent/workflows/). '/addiction-loop-architect' does exist. '/revenue-ramp-builder' (used in Buyer-Driven chain) also does not exist in canonical. These chains will partially fail until the missing slash commands are ported from the fork."
+        ]
+      },
+      {
+        "skill": "liam-ottley-linkedin-lead-magnet",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 1,
+        "issues": [
+          "EXTRACTION_MISSING: extractions/video-context/3iR3kHxCwfo/ exists in the fork but is absent from canonical. SKILL.md and liam-linkedin-lead-magnet.md both reference this package as the primary source authority. The skill will load without it but the Evidence Gate (Step 1 of the workflow) will fail at runtime. Resolution: copy the extraction package from the fork to canonical at the same relative path, or update the references to a canonical-relative path once the package is synced.",
+          "WORKFLOW_ALIAS_UNRESOLVABLE: Both SKILL.md and liam-linkedin-lead-magnet.md reference /diandra-linkedin-system as the routing peer for full LinkedIn OS work. No workflow named diandra-linkedin-system.md exists in canonical .agent/workflows/ — the closest match is diandra-content-engine.md or the diandra-escobar-linkedin-growth skill. This is a routing comment only (not a hard dependency), so the skill is usable, but the routing guidance is stale. Consider updating the reference to /diandra-content-engine or the correct canonical alias."
+        ]
+      },
+      {
+        "skill": "mark-kashef-silver-platter-agentic-os",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 1,
+        "issues": [
+          "extractions/mark-kashef-perfect-agentic-os-kit/ does not exist in canonical — referenced in SKILL.md source_package field and workflow Source Evidence block (item 4). Optional enrichment only; skill is fully functional without it. Harvest separately from the fork if needed.",
+          "extractions/video-context/-WCNwxz3uoM/ does not exist in canonical — referenced in workflow Source Evidence block (items 5-6). Optional enrichment only; skill is fully functional without it. Harvest separately from the fork if needed.",
+          "CODEX.md reference in silver-platter.md line 16 was a fork artifact — replaced with CLAUDE.md (the canonical equivalent)."
+        ]
+      },
+      {
+        "skill": "marketing-studio-director",
+        "verdict": "PORT_CORE",
+        "workflows": 2,
+        "issues": [
+          "higgsfield-studio.md references skills/higgsfield-creative-studio/SKILL.md which does not exist in canonical — the sibling skill was not in scope for this port and must be ported separately before /higgsfield-studio can fully execute",
+          "higgsfield-studio.md references skills/gpt-image-2-director/SKILL.md which does not exist in canonical — same as above, needs a separate port run",
+          "higgsfield-studio.md references directives/higgsfield-usage-policy.md which does not exist in canonical — the workflow will fail at step 1 until this directive is ported or created"
+        ]
+      },
+      {
+        "skill": "nicolas-cole-edan-writing-mechanics",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 8,
+        "issues": [
+          "yann-martel-storytelling-mastery is not present in canonical; removed from the Skill Stacking table in SKILL.md to eliminate the dead link. The porter notes flagged nicolas-cole-nonfiction-value-architecture as potentially missing — it exists in canonical and was left intact."
+        ]
+      },
+      {
+        "skill": "nicolas-cole-nonfiction-value-architecture",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 8,
+        "issues": []
+      },
+      {
+        "skill": "nicolas-cole-sales-education-messaging",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 8,
+        "issues": [
+          "Porter note: `nicolas-cole-nonfiction-value-architecture` and `phil-m-jones-conversational-influence` both exist in canonical — stack-table references are valid, no edits required. All porter note concerns resolved."
+        ]
+      },
+      {
+        "skill": "persuasion-story-code",
+        "verdict": "PORT_CORE",
+        "workflows": 12,
+        "issues": [
+          "extractions/persuasion-story-code/source/ exists in fork (contains transcript.md, coverage-report.md, coverage.tsv, pages/) but is absent in canonical. SKILL.md references this path for provenance only — not a runtime dependency. Manual decision needed: either copy the extraction source into canonical or leave as absent if extraction artifacts are fork-only by policy."
+        ]
+      },
+      {
+        "skill": "phil-m-jones-conversational-influence",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 13,
+        "issues": []
+      },
+      {
+        "skill": "rafa-conde-fourth-wall-experience-os",
+        "verdict": "PORT_CORE",
+        "workflows": 10,
+        "issues": [
+          "companion_to: 'rafa-conde-memorable-product-design' is declared in SKILL.md — companion skill already exists in canonical at skills/rafa-conde-memorable-product-design/, so no pointer update needed.",
+          "All 10 .agent/workflows/ files contained stale '/Users/farricecain/Codex Antigravity' absolute paths — rewritten to '/Users/farricecain/Google Antigravity' via sed. Skill directory files were clean (no stale refs)."
+        ]
+      },
+      {
+        "skill": "rafa-conde-memorable-product-design",
+        "verdict": "PORT_CORE",
+        "workflows": 12,
+        "issues": [
+          "agents/rafa-conde/AGENT.md referenced in workflow files (lines 9-12) does not exist in canonical — no agents/rafa-conde/ directory in canonical repo. Reference rewritten to canonical equivalent: skills/rafa-conde-memorable-product-design/SKILL.md. This is the correct resolution for canonical's skill-based (not agent-based) architecture.",
+          "extractions/rafa-conde/ did not exist in canonical — full directory copied from fork alongside the skill to resolve the genius.md source pointer (extractions/rafa-conde/transcript.txt)."
+        ]
+      },
+      {
+        "skill": "sam-parr-copywriting-mechanics",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 1,
+        "issues": [
+          "COMPANION OS NOT PORTED: _active/sam-parr-copywriting-os/ (7 OS files: 01-source-map.md through 07-expert-enhancement-map.md, plus copy-quality-checklist.md, INDEX.md, extraction-brief.md, mechanics-ledger.md, use-now-playbook.md) exists in the Codex fork but was NOT ported — task scope restricted to skills/sam-parr-copywriting-mechanics/ and the listed workflow files only. Port the companion OS from the Codex fork separately to unlock: ad-breakdown protocols, copywork training system, before/after proof lab, and expert enhancement map.",
+          "VIDEO EXTRACTION PACKAGE NOT IN CANONICAL: extractions/video-context/uf4fR3qcDkU/ exists in the Codex fork (transcript.txt, analysis.md, uncertainty-report.md, etc.) but is absent from canonical. The evidence-anchor chain referenced in SKILL.md and the dispatcher is broken until this is ported. Both files now carry explicit (NOT YET PORTED) annotations on this path.",
+          "DISPATCHER REWRITTEN (option b taken): The dispatcher workflow originally referenced _active/sam-parr-copywriting-os/ files and fork-only .agents/cold-skills/ and .agents/skills/ wrapper paths. Per porter notes option (b), all _active/ file references were rewritten to point to the self-contained skill-dir files, mechanic routing was redirected to the SKILL.md Mechanic Triggers table, the Deployment section (fork-only wrapper paths) was stripped entirely, and explanatory notes were added throughout so future operators know exactly what to port next.",
+          "SKILL.md Source Evidence section updated: all _active/ companion OS path references now carry (NOT YET PORTED) annotations; routing: long-tail added to frontmatter; YAML validates clean."
+        ]
+      },
+      {
+        "skill": "semantic-document-library-os",
+        "verdict": "PORT_LONGTAIL",
+        "workflows": 5,
+        "issues": [
+          "steering-compass.md already existed in canonical .agent/workflows/ and was NOT copied there (per porter note and skip-existing rule). The fork skill directory contained its own internal workflows/steering-compass.md which was copied as part of the skill directory copy — this is the skill-internal version, distinct from the top-level .agent/workflows/steering-compass.md. No semantic-doc-specific content diff was needed: the skill's internal copy is self-contained within skills/semantic-document-library-os/workflows/.",
+          "semantic_libraries/antigravity/primitives/high-floor-operator-os.md referenced in SKILL.md load order already exists in canonical at the same relative path — no copy needed, reference resolves correctly.",
+          "No stale 'Codex Antigravity' absolute paths were found in any copied files — all files were clean."
+        ]
+      },
+      {
+        "skill": "sweat-equity-speedrun-social-os",
+        "verdict": "PORT_CORE",
+        "workflows": 9,
+        "issues": [
+          "content-media-agent skill referenced in SKILL.md Stacking Guide does not exist in canonical repo. Annotated inline with '(not yet in canonical — skip or alias when routing)' rather than removing the row, so intent is preserved when/if the skill is ported. Verify or remove the annotation once content-media-agent lands in canonical.",
+          "Fork-only extraction paths (extractions/sweat-equity-speedrun-social-os/transcript.txt, chapter-map.md, visual-pass-notes.md, result-claims.md) were removed from the Quick Reference section of SKILL.md — these files live in the fork's extractions/ directory which is not part of the canonical repo. The underlying source material remains accessible in the fork if needed."
+        ]
+      },
+      {
+        "skill": "yann-martel-storytelling-mastery",
+        "verdict": "PORT_CORE",
+        "workflows": 12,
+        "issues": []
+      },
+      {
+        "skill": "youtube-video-context-analysis",
+        "verdict": "PORT_CORE",
+        "workflows": 8,
+        "issues": []
+      }
+    ],
+    "skipped_skills": [
+      {
+        "skill": "ai-carousel-content-engine",
+        "reason": "The canonical repo already contains an identical copy of this skill, including the same SKILL.md, genius.md, references directory, and all 7 workflow files under skills/ai-carousel-content-engine/workflows/. The canonical version even has the routing: long-tail frontmatter already set, indicating it was previously ported and finalized. All 7 corresponding .agent/workflows/ files (ai-carousel-engine.md, article-to-carousel.md, carousel-copy-forge.md, carousel-design-prompt.md, carousel-style-match.md, carousel-review.md, carousel-publish-pack.md) are also already present in the canonical repo.",
+        "salvage": "Nothing to port — this is a pure duplicate. The canonical version is actually more complete than the fork: its SKILL.md already carries routing: long-tail frontmatter and has an updated \"Stack With\" table that replaces the fork's /gpt-image-2 reference with a corrected cost-gated visual route note (pointing through creative_router.py/fantastic-posters) and replaces /video-context-ledger with /watch (execution/fetch-video-context.py). The fork SKILL.md is the earlier, pre-correction version. No action needed."
+      },
+      {
+        "skill": "ash-maurya-founder-systems",
+        "reason": "The canonical repo contains an exact duplicate of this skill: identical SKILL.md content (13 workflows, same table, same stacking guide, same starter sequences), all 13 workflow files under `skills/ash-maurya-founder-systems/workflows/`, and all 13 `/Users/farricecain/Google Antigravity/.agent/workflows/ash-*.md` command files already present. The canonical version also adds `routing: long-tail` frontmatter that the fork is missing, meaning canonical is actually the more complete version. There is nothing in the fork that is absent from canonical.",
+        "salvage": "Pure duplicate — do not port. The fork SKILL.md is missing `routing: long-tail` in its frontmatter; canonical already has it. The fork's Quick Reference section points to `extractions/ash-maurya-founder-systems/` for source transcripts — if those transcripts are needed they live in the fork at `/Users/farricecain/Codex Antigravity/extractions/ash-maurya-founder-systems/`, but they are not part of the skill itself. No action required on the canonical side."
+      },
+      {
+        "skill": "brandon-jacoby-taste-mastery",
+        "reason": "The canonical repo already contains this skill in full: identical SKILL.md content, all 10 workflow files under skills/workflows/, and all 10 jacoby-*.md dispatch files in .agent/workflows/. The canonical version is actually more complete than the fork — it already carries the routing: long-tail frontmatter the fork lacks. Nothing in the fork is absent from canonical.",
+        "salvage": "Pure duplicate — do not port. The only difference is the fork SKILL.md omits the routing: long-tail frontmatter line and has one extra stacking row (\"System Taste Elevation | source-command-recommend, conde-agent-experience-design | ...\") that the canonical lacks. If that stacking note is considered useful, it could be manually merged into the canonical SKILL.md Stacking Guide as a single line edit — but it references \"conde-agent-experience-design\" which does not appear to be a real canonical skill, so this note is likely stale/vestigial and not worth importing."
+      },
+      {
+        "skill": "cheri-tree-bank-buyology",
+        "reason": "The canonical repo already contains an identical copy of this skill — same directory structure (SKILL.md, genius.md, references/, workflows/), same 12 workflow files (01–12), and all 12 corresponding .agent/workflows/bank-*.md files are present in the canonical repo. There is no delta between fork and canonical: every file the fork contributes already exists at the destination.",
+        "salvage": "Pure duplicate — nothing to port. The canonical skill at /Users/farricecain/Google Antigravity/skills/cheri-tree-bank-buyology/ is the authoritative copy. The fork copy can be safely ignored or deleted without any harvest action."
+      },
+      {
+        "skill": "daniel-priestley-24-assets-os",
+        "reason": "The canonical repo already contains an identical copy of this skill at \"/Users/farricecain/Google Antigravity/skills/daniel-priestley-24-assets-os/\" with the same SKILL.md, genius.md, references directory, and all 12 workflows. All 12 top-level workflow files (24-assets-*.md) and the ash-priestley-handshake.md file also exist verbatim in the canonical \".agent/workflows/\" directory. There is nothing in the fork that is absent from canonical — this is a pure duplicate with no delta to harvest.",
+        "salvage": "No porting needed. Every file in the fork skill dir and the fork .agent/workflows/ matching this skill is already present in the canonical repo at the same paths. No fork-root references or path fixes to address. The canonical copy appears complete with all 12 workflows (heatmap-diagnostic, business-design, build-roadmap, zero-finder, ip-builder, brand-market-builder, product-system-builder, culture-funding-builder, client-audit, productized-service, agent-system-design, council-sprint) plus the ash-priestley-handshake.md stub."
+      },
+      {
+        "skill": "dom-iacovone-multi-company-operator",
+        "reason": "The canonical repo at \"/Users/farricecain/Google Antigravity/skills/dom-iacovone-multi-company-operator/\" is an exact port of the fork — same 6 workflows (01-sgm-portfolio-diagnostic through 06-launch-and-exit-readiness), same references, same SKILL.md structure and version. The canonical copy already carries \"routing: long-tail\" frontmatter and has updated the source-grounding notes to flag that the Codex extraction package is archived in the retired fork. The fork's \".agent/workflows/\" directory has no dom-iacovone-prefixed files; all workflow content is self-contained inside the skill's own workflows/ subfolder and already present canonically. Nothing in the fork is unique or additive.",
+        "salvage": "The canonical SKILL.md is strictly better: it already has routing: long-tail and adds a note that the extraction package (extractions/dom-iacovone/multi-company-operator/) is archived in the retired Codex fork and not present in the canonical repo — meaning evidence-row citations should be treated as unavailable unless restored. The fork SKILL.md references the extraction package as if it exists locally, which would be a broken path if ported. No action needed; the canonical version is the correct one to keep."
+      },
+      {
+        "skill": "fryderyk-wiatrowski-ai-employee-os",
+        "reason": "The canonical repo already contains `ai-employee-os.md` as a fully-formed workflow that covers the same domain (AI employee system design, audit, upgrade, context isolation, trust ladders, rollout gates, model regression) with equivalent or greater depth. The canonical workflow even explicitly names this fork skill as archived source material under `_active/codex-harvest-2026-06-11/`, confirming the harvest already happened. There is no canonical skills/ directory entry, but the operative surface (the workflow) is already present and the fork's references/ content is the raw evidence layer the canonical workflow was distilled from — porting would just re-import what was deliberately archived.",
+        "salvage": "The fork workflow at `/Users/farricecain/Codex Antigravity/.agent/workflows/ai-employee-os.md` is substantively identical to the canonical version except it points to fork-root paths (`skills/fryderyk-wiatrowski-ai-employee-os/references/`, `extractions/video-context/ohKt066uFhg/`) that do not exist in canonical. The canonical workflow correctly redirects those references to `_active/codex-harvest-2026-06-11/`. Nothing from this fork needs porting. If a skills/ directory entry is ever desired for routing completeness, it would be a thin wrapper pointing to the canonical workflow — not a copy of the fork's SKILL.md, which has stale fork-relative paths throughout (source_package, contract, supporting routes referencing `/conde-agent-experience-design` and `/24-assets-agent-system-design`)."
+      },
+      {
+        "skill": "gpt-image-2-director",
+        "reason": "The fork skill is a prompt-output-only director for GPT Image 2.0 — it returns a prompt string the user pastes manually. The canonical `fantastic-posters` skill already covers GPT Image 2 end-to-end (prompt construction, style routing, budget-gated generation via Fal, edits, variants, video bridge). There is no unique domain, expert persona, or OS concept here — only a subset workflow (prompt-only, no execution) that is already embedded inside fantastic-posters' internal logic. The fork has no genius.md and no sub-workflows beyond the thin dispatcher `gpt-image-2.md`.",
+        "salvage": "The one workflow `gpt-image-2.md` is fork-unique in the canonical workflows dir, but it only delegates to the fork SKILL.md path (`skills/gpt-image-2-director/SKILL.md`) which doesn't exist in canonical — so porting the workflow alone would be broken. The valuable content is the three-format taxonomy (JSON layout / dense cinematic prose / auto-derive meta-prompt) and the quality checklist in the fork SKILL.md. If Farrice ever wants a \"give me a prompt, I'll paste it myself\" mode distinct from fantastic-posters' generative path, those prompt-engineering rules (Format A/B/C, count-and-label pattern, position-scoped regions, prose ordering, face-safe language rules) are worth surgically merging as an addendum or workflow inside the existing `fantastic-posters` skill — not as a standalone skill. No path fixes would be needed for a manual merge; just drop the Format A/B/C section and quality checklist into `skills/fantastic-posters/workflows/prompt-director.md` and wire a `/gpt-image-2-prompt` alias if desired."
+      },
+      {
+        "skill": "oren-archetype-social-strategy",
+        "reason": "This fork skill is a first-generation bundling of Oren's archetype selection and solo-AI marketing topics that has since been superseded and split into two canonical skills with significantly deeper coverage. The canonical `oren-brand-archetypes` v2.0 has 15 workflows covering all five archetypes with dedicated architects, revenue bridges, pitch decks, and workshop facilitation — fully absorbing the archetype-side workflows here (oren-archetype-map, oren-archetype-content-engine, oren-archetype-mismatch-audit, oren-archetype-offer-stack, oren-brand-media-archetype-stack). The canonical `oren-one-person-ai-marketer` has 12 workflows with a purpose-built anti-slop discipline, brand-voice machine, MESSAGES cycle, and AEO layer — fully absorbing the solo-AI-marketing-machine, pricing-psychology-map, short-form-revenue-map, and marketing-plan-2026 workflows. Porting would introduce duplicate command surface without adding net coverage.",
+        "salvage": "All 10 fork workflows are absent from canonical by filename, but their content is substantively covered by canonical equivalents under evolved command names. One item worth a manual spot-check before discarding: `oren-creative-systems-stack.md` (Creative Systems Stack — Reference/Ideas/Calendar/Updates/Tracker Setup) has no direct canonical counterpart name-wise; verify whether `oren-operational-systems` in the canonical skills directory covers this before permanently discarding, as it may contain a lightweight tracker-setup checklist not present in the heavier operational-systems skill. No fork-root path references were found that would survive a port without fixing (`_active/oren-solo-ai-marketing-client-service-os/` and `extractions/oren-one-person-ai-marketing-machine/` are referenced inside the fork workflows — confirm these paths exist in canonical before any selective merge)."
+      },
+      {
+        "skill": "plugin-readiness-audit",
+        "reason": "This skill is Codex-plugin-infra-specific: it advises whether workflows should be packaged into Codex plugin manifests (`.codex-plugin/plugin.json`, `.agents/plugins/marketplace.json`), a packaging layer the canonical repo deliberately does not use. The canonical `/system-audit` workflow already owns the system health, routing, and control-plane audit domain comprehensively. The fork skill's single workflow (`plugin-readiness-audit.md`) is thin (20 lines) and its decision primitives (`semantic_libraries/antigravity/primitives/workflow-packaging-ladder.md`) are fork-side infra absent from canonical.",
+        "salvage": "Do not port as a skill. The only potentially reusable content is the five decision rules in `references/genius-patterns.md` (package the stable loop, skill before plugin, one new failure mode at a time, distribution is not intelligence, large library does not equal prompt bloat) — these could be appended as a sidebar to the canonical `/system-audit` workflow or a `directives/` doc if plugin packaging ever becomes a canonical concept. The execution scripts `execution/plugin_readiness_audit.py`, `execution/system_efficiency_benchmark.py`, and `execution/subagent_readiness.py` already exist in the canonical repo (`/Users/farricecain/Google Antigravity/execution/`) so there is nothing to copy there either."
+      },
+      {
+        "skill": "satori-graphics-design-mastery",
+        "reason": "The canonical repo already contains a fully evolved `satori-graphics` skill that supersedes the fork in every dimension: 14 workflows vs 12, richer SKILL.md (12 genius patterns, 10-criteria quality rubric, 6 reference files, client-integrated stacking chains), and workflow names that are cleaner and more precisely scoped. All 12 fork workflow filenames map to functional equivalents in canonical under renamed handles. The canonical version also adds 4 workflows the fork lacks entirely (satori-flip-test, satori-movement-ladder, satori-poster-think, satori-why-before-what).",
+        "salvage": "No port needed. The fork is an earlier, thinner draft of the same Satori Graphics extraction. The canonical version at /Users/farricecain/Google Antigravity/skills/satori-graphics/ is the authoritative version and should be treated as the live skill. If a manual review finds the fork's `satori-message-audit.md` (message-first design audit framing) or `satori-simplify-visual-language.md` (visual clutter reduction) contain substantively different content from the canonical equivalents (satori-lift-audit and satori-anti-ai-slop), those specific concepts could be merged as an addendum to the canonical genius.md — but the files themselves should not be ported as standalone workflows."
+      },
+      {
+        "skill": "source-command-autopilot",
+        "reason": "This fork entry is a 9-line registry mirror — its entire purpose is to make `/autopilot` visible in the fork's SKILL_INDEX by pointing at the real executable at `.agents/skills/source-command-autopilot/SKILL.md` (Codex-native infra path). The canonical repo already has a full `autopilot.md` workflow (502 lines, more evolved than the fork's 201-line version) and no corresponding skill stub is needed since the canonical system routes via `.agent/workflows/autopilot.md` directly. The fork's `autopilot.md` workflow is a lower-fidelity precursor to what's already in canonical — nothing in either the SKILL.md or the fork workflow adds capability absent from the canonical repo.",
+        "salvage": "The fork's .agent/workflows/autopilot.md is a superseded precursor (201 lines, older Codex-specific framing with operator_cockpit.py, intent_memory.py, system_cohesion_state.py references) compared to the canonical version (502 lines, richer output schema, full capability graph, virtuoso trace, friction ledger). Do not port — the canonical version is strictly ahead. The references/ directory inside the fork skill contains genius-patterns.md and hidden-knowledge.md; these could be skimmed for any autopilot-specific operator wisdom not already captured in the canonical workflow, but given the registry-mirror nature of this skill they are almost certainly Codex-local context documents with no harvest value for Google Antigravity."
+      },
+      {
+        "skill": "system-efficiency-benchmark",
+        "reason": "This skill is pure Codex-side control-plane infra with no expert domain or human knowledge — it just wraps two Python scripts (`system_efficiency_benchmark.py` and `plugin_readiness_audit.py`) that already live in the canonical repo's `execution/` directory. The canonical repo already covers the same function through the more comprehensive `/system-audit`, `/health-check`, and `/system-hygiene` workflows. There is no human expert, no proprietary knowledge angle, and nothing here that the canonical control-plane stack does not already handle.",
+        "salvage": "The workflow file `system-efficiency-benchmark.md` is absent from canonical but is not worth porting — the canonical `/system-audit` workflow already incorporates routing-quality measurement, plugin-readiness auditing (via `plugin_readiness_audit.py`), and the same \"measure before restructuring\" decision gate. If the porter wants to salvage anything, the decision-priority ladder from `references/hidden-knowledge.md` (router weighting > metadata cleanup > skill descriptions > deterministic checks > workflow consolidation > plugin packaging) is a useful heuristic that could be appended as a note inside the canonical `/system-audit` workflow's Step 4 or Step 6 sections — no new file needed. The `references/genius-patterns.md` benchmark prompt set (messy raw context, revenue sprint, extraction source, creative brief, etc.) could similarly be merged as an example prompt set into `/system-audit`'s routing matrix step. No fork-root path references to fix; the SKILL.md uses relative paths correctly. Do NOT port as a standalone skill."
+      },
+      {
+        "skill": "vince-nijhof-ecommerce-scaling",
+        "reason": "The canonical repo already contains `vince-nijhof-dtc-operator-system` (v2.0, 14 workflows, `vince-*` command prefix), built from a 113-min / 24,646-word studio interview — far richer than the fork's skill sourced from a shorter \"Elevator Talks\" interview. Every domain the fork covers (product kill shot, messaging-market fit, VSL engine, pre-lander, creative pods, upsell/AOV, omnichannel, brand validation, AI creative ops, economics audit) maps directly to a canonical counterpart with greater depth and specificity. The fork's 13 `nijhof-*`-prefixed workflow files are technically absent from the canonical `.agent/workflows/` dir but are functionally superseded by the canonical skill's internal workflow set, which also adds portfolio/holdco acquisition and AI-native team design layers the fork lacks entirely.",
+        "salvage": "Do not port the fork's 13 `nijhof-*.md` workflow files — they are a weaker earlier-generation set that would create naming conflicts and confusion with the canonical `vince-*` command prefix. If any specific concept from the fork is wanted (e.g. the \"Belief Pre-Lander Builder\" framing or the \"Paid Scale Economics Audit\" angle), cherry-pick content into the canonical skill's existing workflows rather than importing the fork files wholesale. The fork's `references/` subdirectory (data-bank-sources.md, ecommerce-economics.md, creative-pod-model.md, funnel-belief-mechanisms.md) could be manually reviewed for additive detail not already in the canonical skill, but this is optional enrichment, not a port requirement."
+      }
+    ],
+    "orphan_workflows_ported": [
+      "assignment-accountability-builder.md",
+      "avatar-content-elevation.md",
+      "buyer-trigger-os.md",
+      "category-building-os.md",
+      "course-module-architect.md",
+      "course-proof-and-bonus-stack.md",
+      "diandra-linkedin-system.md",
+      "farrice-content-os.md",
+      "kishotenketsu-contrast-storytelling.md",
+      "low-cognitive-load-message-gate.md",
+      "niche-bending-system.md",
+      "offer-positioning-north-star.md",
+      "/Users/farricecain/Google Antigravity/.agent/workflows/perception-engineering-productize.md",
+      "storybrand-message-clarity-system.md"
+    ],
+    "orphan_workflows_skipped": [
+      {
+        "file": "align.md",
+        "reason": "Session control-plane tooling (numbered clarifying questions before execution); same category as goal/tweak/session-calibrate which canonical already covers. Reads fork-only semantic_libraries primitive as pre-flight."
+      },
+      {
+        "file": "burst.md",
+        "reason": "Session control-plane tooling (option burst/variant generator); reads fork semantic_libraries daily-operator-command-kit.md. Generic operator primitive, not a domain workflow."
+      },
+      {
+        "file": "command-menu.md",
+        "reason": "Control-plane infrastructure: dynamic workflow selector calling execution/command_menu.py. Canonical already has this script; the workflow is fork-specific session tooling, not a domain workflow."
+      },
+      {
+        "file": "devil.md",
+        "reason": "Session control-plane tooling (devil's advocate pass); reads fork semantic_libraries primitive. Canonical covers this domain via adversarial-review.md and red-team-agent.md."
+      },
+      {
+        "file": "excellence-gate.md",
+        "reason": "Quality gate control-plane infrastructure; duplicates canonical quality-judge.md, impeccable.md, and Step 6 finalize in the Chain. Listed in CLAUDE.md skip criteria explicitly."
+      },
+      {
+        "file": "evolution-agent.md",
+        "reason": "Agent persona stub that requires agents/evolution-agent/AGENT.md which does NOT exist in canonical. Fork-specific agent infrastructure with no backing agent dir."
+      },
+      {
+        "file": "client-delivery-agent.md",
+        "reason": "Agent persona stub requiring agents/client-delivery-agent/AGENT.md which does NOT exist in canonical. Generic *-agent.md stub missing its backing infrastructure."
+      },
+      {
+        "file": "content-media-agent.md",
+        "reason": "Agent persona stub requiring agents/content-media-agent/AGENT.md which does NOT exist in canonical. Generic *-agent.md stub missing its backing infrastructure."
+      },
+      {
+        "file": "copywriting-agent.md",
+        "reason": "Agent persona stub requiring agents/copywriting-agent/AGENT.md which does NOT exist in canonical. Generic *-agent.md stub missing its backing infrastructure."
+      },
+      {
+        "file": "creative-design-agent.md",
+        "reason": "Agent persona stub requiring agents/creative-design-agent/AGENT.md which does NOT exist in canonical. Generic *-agent.md stub missing its backing infrastructure."
+      },
+      {
+        "file": "data-analysis-agent.md",
+        "reason": "Agent persona stub requiring agents/data-analysis-agent/AGENT.md which does NOT exist in canonical. Generic *-agent.md stub missing its backing infrastructure."
+      },
+      {
+        "file": "deep-research-os.md",
+        "reason": "Research control-plane orchestrator; canonical already has deep-research.md, deep-research-gemini.md, and deep-research-swarm.workflow.js covering the same domain. Also calls fork-specific scripts (execution/kimi_swarm.py, verify_deep_research_os.py)."
+      },
+      {
+        "file": "creator-format-os.md",
+        "reason": "References _active/farrice-content-os/04-deliverables/creator-to-brand-format-os.md which does NOT exist in canonical, and also references .codex/skills/ fork-only paths. Missing backing active dir makes it non-functional."
+      },
+      {
+        "file": "goal.md",
+        "reason": "Codex-native /goal command bridge. Explicitly documents Codex runtime built-ins (codex features list, /goal unpause) that don't exist in Claude Code. No value in canonical."
+      },
+      {
+        "file": "ground-truth-agent.md",
+        "reason": "Generic *-agent.md persona stub. References agents/ground-truth-agent/AGENT.md Codex infra. Canonical already has /ground-truth which covers the real workflow; this is duplicate routing infrastructure."
+      },
+      {
+        "file": "handoff.md",
+        "reason": "Canonical already has /handoff (wired via Matt Pocock external skills). Fork version is a Codex-adapted bridge of the same pattern — duplicate of existing canonical tooling."
+      },
+      {
+        "file": "ideation-agent.md",
+        "reason": "Generic *-agent.md persona stub with boilerplate routing infrastructure. No self-contained workflow content; thin dispatcher pattern that duplicates existing agent infra."
+      },
+      {
+        "file": "impeccable.md",
+        "reason": "Bridges .agents/skills/impeccable/ (Codex OpenAI agent directory). References node .agents/skills/impeccable/scripts/ — OpenAI-specific paths that don't exist in canonical."
+      },
+      {
+        "file": "information-product-results-engine.md",
+        "reason": "Thin launcher pointing to skills/nicolas-cole-digital-products/workflows/information-product-results-engine.md which does not exist in canonical. Would be a dead link."
+      },
+      {
+        "file": "kimi-swarm.md",
+        "reason": "Listed as session tooling to skip per task instructions. Also references fork-specific scripts (execution/kimi_swarm.py, execution/verify_kimi_swarm.py) not present in canonical."
+      },
+      {
+        "file": "marketing-agent.md",
+        "reason": "Generic *-agent.md persona stub with identical boilerplate operating loop. Duplicate routing infrastructure pattern, not a self-contained valuable workflow."
+      },
+      {
+        "file": "messaging-positioning-agent.md",
+        "reason": "Generic *-agent.md persona stub with identical boilerplate operating loop. Duplicate routing infrastructure pattern, not a self-contained valuable workflow."
+      },
+      {
+        "file": "module-value-audit.md",
+        "reason": "Thin launcher pointing to skills/nicolas-cole-digital-products/workflows/module-value-audit.md which does not exist in canonical. Would be a dead link."
+      },
+      {
+        "file": "nijhof-ai-creative-ops.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Canonical has vince-nijhof-dtc-operator-system with completely different workflow files — dead link."
+      },
+      {
+        "file": "nijhof-brand-performance.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Dead link."
+      },
+      {
+        "file": "nijhof-brand-validation.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Dead link."
+      },
+      {
+        "file": "nijhof-creative-pods.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Dead link."
+      },
+      {
+        "file": "nijhof-intent-creative.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Dead link."
+      },
+      {
+        "file": "nijhof-message-miner.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Dead link."
+      },
+      {
+        "file": "nijhof-omnichannel-diagnosis.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical (canonical has vince-nijhof-dtc-operator-system with different workflow names). Stub would be a broken pointer."
+      },
+      {
+        "file": "nijhof-paid-scale-audit.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "nijhof-prelander-builder.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "nijhof-product-kill-shot.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "nijhof-scale-war-room.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "nijhof-upsell-aov.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "nijhof-vsl-engine.md",
+        "reason": "References skills/vince-nijhof-ecommerce-scaling/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-anchor-strategy.md",
+        "reason": "References skills/oren-content-team-architecture/workflows/oren-anchor-strategy.md — the skill dir exists in canonical but that specific workflow file is absent. Stub would be a broken pointer."
+      },
+      {
+        "file": "oren-anti-production.md",
+        "reason": "References skills/oren-content-team-architecture/workflows/oren-anti-production.md — the skill dir exists in canonical but that specific workflow file is absent. Broken pointer."
+      },
+      {
+        "file": "oren-archetype-content-engine.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-archetype-map.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-archetype-mismatch-audit.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-archetype-offer-stack.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-brand-media-archetype-stack.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-creative-systems-stack.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-marketing-plan-2026.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-pricing-psychology-map.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-short-form-revenue-map.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical. Broken pointer."
+      },
+      {
+        "file": "oren-solo-ai-marketing-machine.md",
+        "reason": "References skills/oren-archetype-social-strategy/ which does not exist in canonical (and secondarily oren-content-team-architecture). Both underlying workflow files absent. Broken pointer."
+      },
+      {
+        "file": "productized-ai-service-os.md",
+        "reason": "References fork-specific artifacts: semantic_libraries/antigravity/primitives/productized-ai-service-os-contract.md, _active/productized-ai-service-os/ project dir, and fork-side extractions ledger. Not portable without those supporting files."
+      },
+      {
+        "file": "project-coordinate.md",
+        "reason": "Explicitly guards against modifying Google Antigravity (written as a Codex-fork boundary tool). References fork-specific semantic_libraries/antigravity/primitives/daily-operator-command-kit.md and CODEX.md. Functionality superseded by canonical /handoff + /realign + /resume system."
+      },
+      {
+        "file": "project-onboard.md",
+        "reason": "Same fork-specific pre-flight dependency (semantic_libraries/antigravity/primitives/daily-operator-command-kit.md). Functionality covered by canonical /resume and /realign workflows."
+      },
+      {
+        "file": "proof-case-study-agent.md",
+        "reason": "Generic *-agent.md persona stub that references fork agent dirs (agents/proof-case-study-agent/AGENT.md, agents/proof-case-study-agent/memory/context.md) which do not exist in canonical. Canonical already has /proof-ladder-builder, /proof-braid-engine, /case-study-how-i, /testimonial-extract covering this domain."
+      },
+      {
+        "file": "quality-judge.md",
+        "reason": "Generic quality-gate agent stub referencing fork agents/quality-judge/ dirs that don't exist in canonical. Duplicates canonical /impeccable, /excellence-gate, /adversarial-review, /anti-slop-audit infra."
+      },
+      {
+        "file": "rachel-ai-playbook.md",
+        "reason": "Dispatches to skills/rachel-woods-ai-operations/workflows/ai-delegation-playbook-builder.md which does not exist in canonical's rachel-woods-ai-operations/workflows/ dir (canonical only has 3 unrelated workflow files). Porting a broken dispatch stub adds noise without function."
+      },
+      {
+        "file": "rachel-playbook-factory.md",
+        "reason": "Dispatches to skills/rachel-woods-ai-operations/workflows/rachel-playbook-factory.md which does not exist in canonical. Same missing-skill-workflow issue as rachel-ai-playbook.md."
+      },
+      {
+        "file": "rachel-playbook-opportunity-map.md",
+        "reason": "Dispatches to skills/rachel-woods-ai-operations/workflows/rachel-playbook-opportunity-map.md which does not exist in canonical. Broken dispatch stub."
+      },
+      {
+        "file": "rachel-playbook-os.md",
+        "reason": "Dispatches to skills/rachel-woods-ai-operations/workflows/rachel-playbook-os.md which does not exist in canonical. Broken dispatch stub."
+      },
+      {
+        "file": "rachel-playbook-test-lab.md",
+        "reason": "Dispatches to skills/rachel-woods-ai-operations/workflows/rachel-playbook-test-lab.md which does not exist in canonical. Broken dispatch stub."
+      },
+      {
+        "file": "rachel-sme-process-extractor.md",
+        "reason": "Dispatches to skills/rachel-woods-ai-operations/workflows/rachel-sme-process-extractor.md which does not exist in canonical. Broken dispatch stub."
+      },
+      {
+        "file": "red-team-agent.md",
+        "reason": "Generic *-agent.md persona stub referencing fork agents/red-team-agent/ dirs not in canonical. Canonical already has /adversarial-review, /adversarial-refine, /ground-truth covering adversarial pressure."
+      },
+      {
+        "file": "research-intelligence-agent.md",
+        "reason": "Generic *-agent.md persona stub referencing fork agents/research-intelligence-agent/ dirs and fork-specific _active/research-intelligence-entry-point/ project. Canonical already has /deep-research, execution/research.py, and /ground-truth for this domain."
+      },
+      {
+        "file": "satori-ai-design-workflow.md",
+        "reason": "Dispatches to skills/satori-graphics-design-mastery/workflows/12-ai-design-workflow-upgrade.md — that skill dir name does not exist in canonical (canonical has skills/satori-graphics/ with a different workflow set). Broken dispatch stub."
+      },
+      {
+        "file": "satori-anti-slop-refine.md",
+        "reason": "Dispatches to skills/satori-graphics-design-mastery/workflows/02-anti-ai-slop-refinement.md — skill dir satori-graphics-design-mastery does not exist in canonical. Canonical already has satori-anti-ai-slop.md covering the anti-slop domain."
+      },
+      {
+        "file": "satori-brand-system-check.md",
+        "reason": "Dispatches to skills/satori-graphics-design-mastery/workflows/11-brand-system-visual-language-check.md — skill dir does not exist in canonical. Canonical already has satori-brand-audit.md covering brand audit."
+      },
+      {
+        "file": "satori-grid-composition.md",
+        "reason": "Dispatches to skills/satori-graphics-design-mastery/workflows/06-grid-composition-system.md — skill dir does not exist in canonical. No equivalent in canonical satori-graphics/workflows/, so this would need the skill workflow migrated too (out of scope)."
+      },
+      {
+        "file": "satori-layout-flow.md",
+        "reason": "Dispatches to skills/satori-graphics-design-mastery/workflows/05-layout-flow-choreography.md — skill dir does not exist in canonical. Broken dispatch stub."
+      },
+      {
+        "file": "satori-lift-diagnostic.md",
+        "reason": "Dispatches to skills/satori-graphics-design-mastery/workflows/07-lift-layout-diagnostic.md — skill dir does not exist in canonical. Canonical already has satori-lift-audit.md (skills/satori-graphics/workflows/01-lift-audit.md) covering lift diagnostics."
+      },
+      {
+        "file": "satori-memory-concept.md",
+        "reason": "References fork-only skill path 'skills/satori-graphics-design-mastery/workflows/04-memory-encoding-concept-builder.md'. Canonical skill is 'satori-graphics' (different directory name) with different workflow filenames — would resolve to a broken path."
+      },
+      {
+        "file": "satori-message-audit.md",
+        "reason": "References fork-only path 'skills/satori-graphics-design-mastery/workflows/01-message-first-design-audit.md'. Canonical skill dir is 'satori-graphics'; no matching workflow file exists there."
+      },
+      {
+        "file": "satori-simplify-visual-language.md",
+        "reason": "References fork-only path 'skills/satori-graphics-design-mastery/workflows/08-visual-language-simplifier.md'. Same mismatched skill dir and filename as the other satori stubs."
+      },
+      {
+        "file": "session-calibrate.md",
+        "reason": "Explicitly in the skip list as session tooling (/session-calibrate). Also depends on fork-only infra: 'semantic_libraries/antigravity/primitives/daily-operator-command-kit.md' and Codex-specific performance/routing feedback inboxes."
+      },
+      {
+        "file": "transformation-pathway-map.md",
+        "reason": "Contains hard-coded fork absolute paths ('/Users/farricecain/Codex Antigravity/skills/nicolas-cole-digital-products/...'). The target workflow file 'transformation-pathway-map.md' does not exist in canonical's nicolas-cole-digital-products/workflows/ (only 3 different files are there), so the workflow would resolve to a dead path even after path correction."
+      },
+      {
+        "file": "tweak.md",
+        "reason": "Session/visual tooling stub in the explicit skip category. Depends on fork-only 'semantic_libraries/antigravity/primitives/daily-operator-command-kit.md' and redirects to fork-only commands (/align, /burst, /devil) that do not exist in canonical."
+      },
+      {
+        "file": "vibe-tax-brief.md",
+        "reason": "Tightly coupled to fork-only active project infra: '_active/research-intelligence-entry-point/' directory does not exist in canonical. The entire Vibe Tax product package (source maps, lead magnets, gates) is fork-specific."
+      },
+      {
+        "file": "vibe-tax-deploy.md",
+        "reason": "Deeply coupled to fork-only '_active/vibe-tax-brief-deployment-os/', '_active/research-intelligence-entry-point/', '_exports/vibe-tax-brief-ai-handoff-2026-05-11/', and mission_control.py context resolver — none of which exist in canonical."
+      },
+      {
+        "file": "vibe-tax-result-writer.md",
+        "reason": "References multiple fork-only '_active/research-intelligence-entry-point/' paths and a specific Google Sheet tracker URL tied to Codex Antigravity's Vibe Tax product. No supporting infra exists in canonical."
+      },
+      {
+        "file": "writing-agent.md",
+        "reason": "Generic *-agent.md persona stub in the explicit skip category. References non-existent canonical paths: 'agents/writing-agent/AGENT.md', 'agents/writing-agent/memory/context.md', and fork-only 'semantic_libraries/antigravity/primitives/agent-arsenal-routing-contract.md' plus fork-specific execution scripts (command_menu.py, workflow_router.py, expert_router.py, context_retriever.py, tool_router.py)."
+      }
+    ],
+    "verification_problems": []
+  }
+}

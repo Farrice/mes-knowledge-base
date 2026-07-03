@@ -1,14 +1,223 @@
 {
  "session_id": "1b6e3396-828f-42aa-afe7-e0a58e910547",
- "debts": [],
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "ash-maurya-lean-metrics",
+   "ts": "2026-07-02T18:10:50.507161"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-priestley-oversubscribed",
+   "ts": "2026-07-02T18:10:52.314886"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "made-to-stick-messaging",
+   "ts": "2026-07-02T18:12:37.917638"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-sentence-craft",
+   "ts": "2026-07-02T18:14:06.496935"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "chase-hughes-conversational-influence",
+   "ts": "2026-07-02T18:14:37.624412"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sam-parr-copywriting",
+   "ts": "2026-07-02T18:15:42.666825"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ash-maurya-founder-systems",
+   "ts": "2026-07-02T18:18:04.312326"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "ai-carousel-content-engine",
+   "ts": "2026-07-02T18:18:24.711959"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "daniel-priestley-24-assets-os",
+   "ts": "2026-07-02T18:18:37.705659"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "brandon-jacoby-taste-mastery",
+   "ts": "2026-07-02T18:18:52.004669"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "dom-iacovone-multi-company-operator",
+   "ts": "2026-07-02T18:19:26.199301"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "cheri-tree-bank-buyology",
+   "ts": "2026-07-02T18:20:52.136622"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "diandra-escobar-linkedin-growth",
+   "ts": "2026-07-02T18:21:08.301465"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-content-psychology",
+   "ts": "2026-07-02T18:21:51.121851"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-ai-content-engine",
+   "ts": "2026-07-02T18:22:06.717609"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "lara-acosta-linkedin-growth",
+   "ts": "2026-07-02T18:22:21.490938"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "mark-kashef-agent-orchestration",
+   "ts": "2026-07-02T18:22:21.880366"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-client-acquisition",
+   "ts": "2026-07-02T18:23:04.351548"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "oren-brand-archetypes",
+   "ts": "2026-07-02T18:23:11.039614"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "oren-one-person-ai-marketer",
+   "ts": "2026-07-02T18:23:11.256208"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "product-design-build",
+   "ts": "2026-07-02T18:23:50.251382"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "satori-graphics",
+   "ts": "2026-07-02T18:24:15.383066"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "simon-intellectual-library-os",
+   "ts": "2026-07-02T18:24:26.339632"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "tess-barclay-social-content",
+   "ts": "2026-07-02T18:24:51.806316"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "vince-nijhof-dtc-operator-system",
+   "ts": "2026-07-02T18:24:58.795055"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sunny-lenarduzzi-youtube",
+   "ts": "2026-07-02T18:25:17.046364"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "attention-hijack-hooks",
+   "ts": "2026-07-02T18:25:43.619900"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "kallaway-content-system",
+   "ts": "2026-07-02T18:26:46.344741"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "liam-ottley-linkedin-lead-magnet",
+   "ts": "2026-07-02T18:27:38.467130"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-edan-writing-mechanics",
+   "ts": "2026-07-02T18:27:44.565986"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-nonfiction-value-architecture",
+   "ts": "2026-07-02T18:27:55.517646"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "phil-m-jones-conversational-influence",
+   "ts": "2026-07-02T18:28:05.390963"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "nicolas-cole-sales-education-messaging",
+   "ts": "2026-07-02T18:28:25.832630"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "semantic-document-library-os",
+   "ts": "2026-07-02T18:29:20.150122"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sweat-equity-speedrun-social-os",
+   "ts": "2026-07-02T18:29:36.673876"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "sam-parr-copywriting-mechanics",
+   "ts": "2026-07-02T18:30:01.772885"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "james-i-bond-brain-glue",
+   "ts": "2026-07-02T18:35:08.441292"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "rafa-conde-memorable-product-design",
+   "ts": "2026-07-02T18:35:27.356510"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "yann-martel-storytelling-mastery",
+   "ts": "2026-07-02T18:36:02.900794"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "youtube-video-context-analysis",
+   "ts": "2026-07-02T18:36:03.042016"
+  }
+ ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/.agents/skills/source-command-raw-intent-bridge/SKILL.md",
-  "/Users/farricecain/Google Antigravity/AGENTS.md"
+  "/Users/farricecain/Google Antigravity/skills/liam-ottley-linkedin-lead-magnet/SKILL.md",
+  "/Users/farricecain/Google Antigravity/SKILL_INDEX.md",
+  "/Users/farricecain/Google Antigravity/skills/nicolas-cole-nonfiction-value-architecture/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/nicolas-cole-edan-writing-mechanics/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/phil-m-jones-conversational-influence/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/nicolas-cole-sales-education-messaging/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/semantic-document-library-os/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/sweat-equity-speedrun-social-os/SKILL.md",
+  "/Users/farricecain/Google Antigravity/skills/sam-parr-copywriting-mechanics/SKILL.md",
+  "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md"
  ],
- "subagent_spawns": 0,
+ "subagent_spawns": 1,
  "finalized_at": null,
- "last_debt_at": null,
+ "last_debt_at": "2026-07-02T18:36:03.042023",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,

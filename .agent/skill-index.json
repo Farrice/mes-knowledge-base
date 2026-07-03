@@ -10,6 +10,16 @@
     "status": ""
   },
   {
+    "name": "AI Carousel Content Engine",
+    "directory": "ai-carousel-content-engine",
+    "description": "Turn articles, raw ideas, transcripts, or brand insights into 7-10 slide carousel packages with copy, visual direction, GPT Image 2 prompts, review checklists, and publish packs.",
+    "when_to_use": "",
+    "mtime": 1783041535.1079419,
+    "slash": "/ai-carousel-content-engine",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "AI Chris Lee \u2014 Zero Testimonial Sales Mastery",
     "directory": "ai-chris-lee-zero-testimonial-sales",
     "description": "Sells AI services with zero testimonials using AI Chris Lee's proof-building methodology \u2014 converts no-portfolio / no-case-study positions into trust signals via demonstrative proof (in-public builds, live problem-solving, deconstruction-of-paid-tools content), and the sales mechanics that work before social proof exists. Use when launching an AI service with no prior client work to reference, repositioning from \"trust me\" to \"watch me solve this\", structuring sales calls when the prospect can't Google your testimonials, or building the in-public content engine that manufactures proof before clients do. Trigger proactively whenever the user says \"zero testimonials\", \"no portfolio\", \"new AI business\", \"how do I close without proof\", or \"AI Chris Lee\". For full AI consulting practice ops use andrew-dun-vibe-consulting; for AI monetization tactics (affiliate / lead-gen) use darrel-wilson-ai-monetization.",
@@ -200,6 +210,16 @@
     "status": ""
   },
   {
+    "name": "Ash Maurya: Founder Systems Mastery",
+    "directory": "ash-maurya-founder-systems",
+    "description": "Problem-first entrepreneurship, Lean Canvas, customer forces, 5P MVP design, demo-sell-build validation, traction roadmaps, and business-model-as-product thinking.",
+    "when_to_use": "",
+    "mtime": 1783041502.316616,
+    "slash": "/ash-maurya-founder-systems",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "ash-maurya-lean-metrics",
     "directory": "ash-maurya-lean-metrics",
     "description": "Ash Maurya's Running Lean operating system \u2014 Lean Canvas business model design, single traction metric discovery, switching-trigger customer segmentation, MVP cocktail feature prioritization, demo-sell-build validation, and 7-powers unfair advantage strategy.",
@@ -217,6 +237,16 @@
     "mtime": 1770957574.7225888,
     "slash": "/asset_generator",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Attention Hijack Hooks",
+    "directory": "attention-hijack-hooks",
+    "description": "Universal attention-anchor and hook intelligence system for brandjacking, newsjacking, namejacking, trendjacking, draft rehooking, and platform-fit hook generation across content, copy, social, LinkedIn, newsletters, scripts, and ads.",
+    "when_to_use": "",
+    "mtime": 1783041967.958308,
+    "slash": "/attention-hijack-hooks",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -310,6 +340,16 @@
     "status": ""
   },
   {
+    "name": "Brandon Jacoby: Taste Mastery and Deployment",
+    "directory": "brandon-jacoby-taste-mastery",
+    "description": "Taste as decisive product judgment: knowing when to obey patterns, when to invent, how to push past good enough, and how to turn AI-era abundance into crafted products, content, and systems.",
+    "when_to_use": "",
+    "mtime": 1783041539.788974,
+    "slash": "/brandon-jacoby-taste-mastery",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "brendan-kane-viral-strategy",
     "directory": "brendan-kane-viral-strategy",
     "description": "Brendan Kane's viral content science \u2014 the Viral Content Model (format research via Gold/Silver/Bronze analysis, performance-driver extraction, 100-to-1 ideation, Hook Point packaging, Jenga Theory storytelling). Treats virality as a reproducible research discipline, not luck.",
@@ -387,6 +427,16 @@
     "mtime": 1779465769.4074464,
     "slash": "/chase-hughes-conversational-influence",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Cheri Tree - Why They Buy B.A.N.K. OS",
+    "directory": "cheri-tree-bank-buyology",
+    "description": "BANK buyology for buyer-code diagnosis; ICPs avatars and lead magnets; funnels scripts CRM and social content",
+    "when_to_use": "",
+    "mtime": 1783041503.1422334,
+    "slash": "/cheri-tree-bank-buyology",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -600,6 +650,16 @@
     "status": ""
   },
   {
+    "name": "Daniel Priestley: 24 Assets OS",
+    "directory": "daniel-priestley-24-assets-os",
+    "description": "Daniel Priestley's 24 Assets method for building digital, scalable, valuable businesses through IP, brand, market, product, systems, culture, and funding assets.",
+    "when_to_use": "",
+    "mtime": 1783041523.2024615,
+    "slash": "/daniel-priestley-24-assets-os",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "Daniel Priestley: Oversubscribed Mastery",
     "directory": "daniel-priestley-oversubscribed",
     "description": "Daniel Priestley's Oversubscribed methodology for creating demand, premium positioning, and becoming a Key Person of Influence. 27 Genius Patterns and 27 Crown Jewel Prompts for entrepreneurial domination.",
@@ -757,6 +817,16 @@
     "mtime": 1766254184.0,
     "slash": "/docx",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Dom Iacovone: Multi-Company Operator Excellence",
+    "directory": "dom-iacovone-multi-company-operator",
+    "description": "Run multi-company operator diagnostics from the Dom Iacovone/Open Residency source: messy multi-offer founder portfolio diagnosis, too many priorities, SGM planning, stage gate product launch planning, margin, channel fit, delegate/elevate leadership, retail/channel strategy, financial leakage, launch sequencing, and exit readiness.",
+    "when_to_use": "",
+    "mtime": 1783041581.3895547,
+    "slash": "/dom-iacovone-multi-company-operator",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -1010,6 +1080,16 @@
     "status": ""
   },
   {
+    "name": "gpt-image-2-director",
+    "directory": "gpt-image-2-director",
+    "description": "GPT Image 2.0 prompt director. Converts plain-text concepts into production-ready prompts for GPT Image 2.0, routing by output type \u2014 structured JSON (for UI mockups, infographics, landing pages, posters with dense layouts, character reference sheets, social media mockups, editorial/document layouts) vs. dense cinematic prose (for portraits, single-image cinematic scenes, editorial photography) vs. auto-derive meta-prompts (for concept posters, relationship diagrams, where the model should self-generate the entire composition from a single theme). Use this skill whenever the user asks for a GPT Image 2.0 prompt, says \"make a GPT image prompt\", mentions GPT-Image 2, gpt-image-2, or describes anything they want to generate with GPT Image 2.0 \u2014 posters, mockups, infographics, character sheets, editorial layouts, landing pages, or cinematic single images. Also trigger if the user pastes a rough concept and says \"turn this into a GPT image prompt\" or \"prompt this for GPT Image 2\".",
+    "when_to_use": "",
+    "mtime": 1783041982.8050299,
+    "slash": "/gpt-image-2-director",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Grace Andrews \u2014 Media Company Architecture",
     "directory": "grace-andrews-media-company",
     "description": "Content-driven brand architecture: City Model transit strategy, trust pathway engineering, Consistency \u00d7 Experimentation growth formula, revenue district design, brand voice districts, competitive analysis, episodic content engines, virality diagnostics, emotional residue engineering, quality gates, audience precision, zero-to-scale playbook, and media-company-first audience building.",
@@ -1080,6 +1160,16 @@
     "status": ""
   },
   {
+    "name": "higgsfield-creative-studio",
+    "directory": "higgsfield-creative-studio",
+    "description": "Orchestrates GPT Image 2.0 still-image prompts and Higgsfield Marketing Studio video-ad prompts into a cohesive AI ad production workflow. Use when the user asks for a full ad asset system, still-to-video campaign package, Higgsfield ad concept, Marketing Studio prompt stack, GPT Image 2 key visual plus video prompt, UGC/video ad prompt pack, product creative system, or wants the Higgsfield and GPT Image 2 prompt directors to work together with marketing, brand, copy, or design strategy.",
+    "when_to_use": "",
+    "mtime": 1783041982.8016357,
+    "slash": "/higgsfield-creative-studio",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "How-I-Write OS \u2014 Master Writing Conductor",
     "directory": "how-i-write-os",
     "description": "Compose any writing/content/marketing mission across the ten How I Write experts and the existing story-stack \u2014 a conductor that owns NO craft: diagnoses the intent, picks the smallest sufficient stack of forged experts (3-6, never all 10), sequences them by altitude (architecture to scene to line to truth), keeps ONE author on the body voice, and always ends on a truth/clamp/prose gate. Trigger words: how I write, write this, compose, essay, profile, founder story, manifesto, newsletter, VSL, brand voice, social post, contemplative piece, ghostwrite. Do NOT use for: pure speed copy (/copy-engine), deepening an existing good draft (/deepen, /depth-audit), research synthesis (execution/research.py), or actual Parallax editions (/parallax \u2014 supplies craft layers inside it, never rebuilds it).",
@@ -1106,6 +1196,16 @@
     "when_to_use": "",
     "mtime": 1776372453.689226,
     "slash": "/jack-roberts-design-mastery",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "James I. Bond \u2014 Brain Glue",
+    "directory": "james-i-bond-brain-glue",
+    "description": "Deploy Brain Glue stickiness across offers, sales copy, social content, video scripts, brand messaging, product names, and entrepreneurial campaigns using STEAM ATTRACTORS.",
+    "when_to_use": "",
+    "mtime": 1783041948.1829875,
+    "slash": "/james-i-bond-brain-glue",
     "routing": "",
     "status": ""
   },
@@ -1350,6 +1450,16 @@
     "status": ""
   },
   {
+    "name": "Kallaway Content Operating System",
+    "directory": "kallaway-content-operating-system",
+    "description": "Orchestrates the full Kallaway content stack from source-backed strategy into topic, format, substance, hook, script, edit, obsession, word craft, and monetization.",
+    "when_to_use": "",
+    "mtime": 1783042003.5739832,
+    "slash": "/kallaway-content-operating-system",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "Kallaway Content Psychology",
     "directory": "kallaway-content-psychology",
     "description": "Engineer viral content using neurochemical precision, pattern validation, buyer psychology, and scientific batch testing. Content that attracts buyers, not just views \u2014 with full revenue ramp architecture.",
@@ -1357,6 +1467,16 @@
     "mtime": 1782939367.623715,
     "slash": "/kallaway-content-psychology",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Kallaway Content System",
+    "directory": "kallaway-content-system",
+    "description": "End-to-end AI-enabled content production system: validated topics, format locking, substance, hook triads, script profiles, edit path, and 10x batch iteration.",
+    "when_to_use": "",
+    "mtime": 1783042009.8418252,
+    "slash": "/kallaway-content-system",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -1537,6 +1657,16 @@
     "mtime": 1772822615.041868,
     "slash": "/liam-mley-ai-brain-builder",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Liam Ottley - LinkedIn AI Lead Magnet System",
+    "directory": "liam-ottley-linkedin-lead-magnet",
+    "description": "Turn monetizable expertise into an AI-assisted LinkedIn personal brand lead magnet using positioning, strategic arbitrage, post structures, offer bridge, and first-sprint validation.",
+    "when_to_use": "",
+    "mtime": 1783042065.1073728,
+    "slash": "/liam-ottley-linkedin-lead-magnet",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -1830,6 +1960,16 @@
     "status": ""
   },
   {
+    "name": "Mark Kashef Silver Platter Agentic OS",
+    "directory": "mark-kashef-silver-platter-agentic-os",
+    "description": "Audit an operator's business tools, map Pantry -> Prep -> Plate, and turn the 80 percent data-prep layer into a reusable agentic OS build plan with summary tables, hooks, orchestrators, approval gates, and handoff files.",
+    "when_to_use": "",
+    "mtime": 1783042045.0901482,
+    "slash": "/mark-kashef-silver-platter-agentic-os",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "Mark Kashef \u2014 Visual Blueprint Methodology",
     "directory": "mark-kashef-visual-design",
     "description": "ASCII wireframe-first visual planning system that aligns human vision with AI execution before any production work begins",
@@ -1856,6 +1996,16 @@
     "when_to_use": "",
     "mtime": 1780387584.7409263,
     "slash": "/market_intelligence",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "marketing-studio-director",
+    "directory": "marketing-studio-director",
+    "description": "Higgsfield Marketing Studio prompt director. Converts plain-text ad concepts into production-ready English video prompts optimized for Higgsfield Marketing Studio. Routes by preset (UGC, Tutorial, Unboxing, Hyper Motion, Product Review, TV Spot, Wild Card, UGC Virtual Try On, Pro Virtual Try On) and handles product-first, avatar-first, and hybrid ad formats. Use this skill whenever the user wants to create a Marketing Studio prompt, describes an ad concept for video generation, mentions Marketing Studio or one of its presets, or asks for a commercial/UGC/CGI ad prompt breakdown.",
+    "when_to_use": "",
+    "mtime": 1783041982.8078902,
+    "slash": "/marketing-studio-director",
     "routing": "",
     "status": ""
   },
@@ -2150,6 +2300,16 @@
     "status": ""
   },
   {
+    "name": "Nicolas Cole EDAN Writing Mechanics",
+    "directory": "nicolas-cole-edan-writing-mechanics",
+    "description": "Diagnose and compose writing through Cole's EDAN framework: Explanation, Description, Action, and Narration",
+    "when_to_use": "",
+    "mtime": 1783042085.8616016,
+    "slash": "/nicolas-cole-edan-writing-mechanics",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "Nicolas Cole Newsletter Flywheel",
     "directory": "nicolas-cole-newsletter-flywheel",
     "description": "Design, launch, and monetize newsletters using Cole's \"Book That Never Ends\" + Tangible Faucet methodology. Produces newsletter concepts, content flywheels, business model architectures, and productizable service packages.",
@@ -2167,6 +2327,26 @@
     "mtime": 1779465319.2320285,
     "slash": "/nicolas-cole-niche-positioning",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Nicolas Cole Nonfiction Value Architecture",
+    "directory": "nicolas-cole-nonfiction-value-architecture",
+    "description": "Turn any nonfiction idea into clear reader value using Cole's ten value modes, specificity ladder, list-level outline, and four-second skim test",
+    "when_to_use": "",
+    "mtime": 1783042078.2699537,
+    "slash": "/nicolas-cole-nonfiction-value-architecture",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
+    "name": "Nicolas Cole Sales Education Messaging",
+    "directory": "nicolas-cole-sales-education-messaging",
+    "description": "Educate a buyer into readiness through problem awareness, objection diagnosis, category-of-solution framing, and ethical sales messaging",
+    "when_to_use": "",
+    "mtime": 1783042109.44892,
+    "slash": "/nicolas-cole-sales-education-messaging",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -2400,6 +2580,26 @@
     "status": ""
   },
   {
+    "name": "David Garfinkel - Persuasion Story Code",
+    "directory": "persuasion-story-code",
+    "description": "Conversational persuasion storytelling for entrepreneurs: business stories, sales stories, social content, written content, video scripts, proof stories, and objection-handling story stacks",
+    "when_to_use": "",
+    "mtime": 1783042105.2394772,
+    "slash": "/persuasion-story-code",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Phil M Jones - Conversational Influence",
+    "directory": "phil-m-jones-conversational-influence",
+    "description": "Decision-catalyst conversation design using precise word sequences, permission-based asks, objection softening, assumptive next steps, and ethical maybe-to-yes momentum",
+    "when_to_use": "",
+    "mtime": 1783042093.1198263,
+    "slash": "/phil-m-jones-conversational-influence",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "PJ Accetturo: AI Video Mastery",
     "directory": "pj-accetturo-ai-video",
     "description": "PJ Accetturo's AI video production system: viral AI-generated ads, product demos, and 233M-view workflows",
@@ -2486,6 +2686,26 @@
     "when_to_use": "",
     "mtime": 1772339421.129421,
     "slash": "/rachel-woods-ai-operations",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Rafa Conde: Fourth-Wall Experience OS",
+    "directory": "rafa-conde-fourth-wall-experience-os",
+    "description": "Fourth-wall experience design for products, content, launches, client delivery, live presentations, and agent workflows that surprise, delight, reveal the frame, and shift perspective.",
+    "when_to_use": "",
+    "mtime": 1783042110.4717126,
+    "slash": "/rafa-conde-fourth-wall-experience-os",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Rafa Conde: Memorable Product Design",
+    "directory": "rafa-conde-memorable-product-design",
+    "description": "Feeling-led product memorability for software, prototypes, demos, launches, micro-delight, and agent workflows that people feel, remember, and share.",
+    "when_to_use": "",
+    "mtime": 1783042131.2764328,
+    "slash": "/rafa-conde-memorable-product-design",
     "routing": "",
     "status": ""
   },
@@ -2620,6 +2840,16 @@
     "status": ""
   },
   {
+    "name": "Sam Parr Copywriting Mechanics",
+    "directory": "sam-parr-copywriting-mechanics",
+    "description": "Deploy the Sam Parr Copywriting Companion OS for headline gravity, proof-first rescue, curiosity gaps, rhythm, story desire, objections, humor fit, and copywork.",
+    "when_to_use": "",
+    "mtime": 1783042230.0582209,
+    "slash": "/sam-parr-copywriting-mechanics",
+    "routing": "long-tail",
+    "status": ""
+  },
+  {
     "name": "Sam Parr - Taste Acquisition Mastery",
     "directory": "sam-parr-taste-acquisition",
     "description": "The 4-step system for building taste from scratch in any domain \u2014 Decide, Copy, Rules, History \u2014 deployed as competitive moat",
@@ -2727,6 +2957,16 @@
     "mtime": 1779467596.6870832,
     "slash": "/self-evolving-systems",
     "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Semantic Document Library OS",
+    "directory": "semantic-document-library-os",
+    "description": "Agent-readable semantic libraries for work primitives",
+    "when_to_use": "- A workflow works only when the human keeps explaining unstated context.\n- An agent can access tools but does not understand what the action means.\n- A business has docs, SOPs, or references that are human-readable but not agent-operable.\n- A client wants \"AI readiness\" but does not have agent-readable operating knowledge.\n- A system needs a step above generic markdown: source-of-truth documents that encode permissions, failure modes, examples, tests, and maintenance.",
+    "mtime": 1783042163.9791222,
+    "slash": "/semantic-document-library-os",
+    "routing": "long-tail",
     "status": ""
   },
   {
@@ -2970,6 +3210,16 @@
     "status": ""
   },
   {
+    "name": "Sweat Equity: Speedrun Social OS",
+    "directory": "sweat-equity-speedrun-social-os",
+    "description": "Plan and execute brand, event, launch, local venue, creator, and client social-media speedruns using content north stars, set mapping, modular hooks, volume, live opportunity capture, and execution-station team design.",
+    "when_to_use": "",
+    "mtime": 1783042188.2382796,
+    "slash": "/sweat-equity-speedrun-social-os",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Taki Moore & Tony Bash \u2014 Lifestyle Business Mastery",
     "directory": "taki-moore-lifestyle-business",
     "description": "Build a 6-figure lifestyle business from your expertise \u2014 without sales teams, sales calls, or sacrificing your life. Covers the full journey from life design through category creation, offer architecture, cohort delivery, beginner acceleration, and content authority.",
@@ -3196,6 +3446,26 @@
     "when_to_use": "",
     "mtime": 1766254184.0,
     "slash": "/xlsx",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "Yann Martel: Storytelling Mastery",
+    "directory": "yann-martel-storytelling-mastery",
+    "description": "Research-to-scene architecture, reader co-creation, allegory, punctuation rhythm, endings, and authorship authenticity.",
+    "when_to_use": "",
+    "mtime": 1783042183.3941908,
+    "slash": "/yann-martel-storytelling-mastery",
+    "routing": "",
+    "status": ""
+  },
+  {
+    "name": "YouTube Video Context Analysis",
+    "directory": "youtube-video-context-analysis",
+    "description": "Create timestamped YouTube context ledgers that separate transcript evidence, frame evidence, OCR evidence, inference, and uncertainty for extraction, strategy, creative analysis, and claim audits.",
+    "when_to_use": "",
+    "mtime": 1783042169.6854236,
+    "slash": "/youtube-video-context-analysis",
     "routing": "",
     "status": ""
   },
