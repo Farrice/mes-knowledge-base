@@ -112,15 +112,30 @@ def is_video_source(source: str) -> bool:
 
 
 def find_watch_script() -> Path | None:
-    """Locate the marketplace-installed claude-video plugin's watch.py."""
+    """Locate the marketplace-installed claude-video plugin's watch.py.
+
+    Searches across Claude Code, Codex, and local installations, handling both
+    v0.1.x flat layout (scripts/ at root) and v0.2.0+ nested layout (skills/watch/scripts/).
+    """
     home = Path.home()
     candidates = []
-    # Standard marketplace cache layout: ~/.claude/plugins/cache/<marketplace>/watch/<sha>/scripts/watch.py
+
+    # Claude Code marketplace cache — v0.2.0+ nested layout
+    candidates.extend(glob(str(home / ".claude/plugins/cache/*/watch/*/skills/watch/scripts/watch.py")))
+    # Claude Code marketplace cache — v0.1.x flat layout (backward compat)
     candidates.extend(glob(str(home / ".claude/plugins/cache/*/watch/*/scripts/watch.py")))
-    # Direct install layout: ~/.claude/plugins/installed/watch/scripts/watch.py
+
+    # Claude Code direct install layout
     candidates.extend(glob(str(home / ".claude/plugins/installed/watch/scripts/watch.py")))
+
+    # Codex marketplace cache — v0.2.0+ nested layout
+    candidates.extend(glob(str(home / ".codex/plugins/cache/*/watch/*/skills/watch/scripts/watch.py")))
+    # Codex marketplace cache — v0.1.x flat layout (backward compat)
+    candidates.extend(glob(str(home / ".codex/plugins/cache/*/watch/*/scripts/watch.py")))
+
     # Project-local fallback: skills/watch/scripts/watch.py
     candidates.extend(glob(str(PROJECT_ROOT / "skills/watch/scripts/watch.py")))
+
     if not candidates:
         return None
     # Prefer the most recently modified (handles plugin updates cleanly)

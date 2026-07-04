@@ -233,10 +233,10 @@ Re-evaluate protocol tuning after that checkpoint.
 
 ## Plugin contract — what we depend on from claude-video
 
-Pinned expectations (as of v0.1.2 / 2026-05-03):
+Pinned expectations (as of v0.2.0 / 2026-07-04):
 
-- Entry point: `<plugin>/scripts/watch.py`
-- Args: positional `<source>`, `--out-dir`, `--no-whisper`, `--max-frames`, `--resolution`, `--fps`, `--start`, `--end`, `--whisper {groq,openai}`
+- Entry point: `<plugin>/skills/watch/scripts/watch.py` (v0.2.0+ nested layout; v0.1.x was the flat `<plugin>/scripts/watch.py`). `find_watch_script()` in the wrapper resolves **both** layouts across Claude Code and Codex caches — newest mtime wins — so an update in either layout is picked up automatically.
+- Args: positional `<source>`, `--out-dir`, `--no-whisper`, `--max-frames`, `--resolution`, `--fps`, `--start`, `--end`, `--whisper {groq,openai}`, plus v0.2.0: `--detail {transcript,efficient,balanced,token-burner}`, `--timestamps T1,T2,…`, `--no-dedup`
 - Output: markdown report file in output dir + frame JPEGs
 
 If a future plugin update breaks any of these, the wrapper will:
