@@ -56,6 +56,15 @@ One handoff *format*, three jobs that don't overlap:
 // turbo
 **Invoke the `/handoff` skill** (Skill tool) to produce the canonical, portable handoff document in the OS temp dir. Pass the next session's focus as the argument (e.g. the remaining priority). This is the single handoff artifact — do not hand-author a second, divergent format here.
 
+#### Session naming convention (AUTOMATIC — never ask Farrice to name or rename it)
+Derive a consistent Title and slug from the session's primary object. This is the whole point: Farrice never types a title or renames a chat.
+
+- **Title** (set it as the handoff doc's H1 — it becomes the session's retrievable name):
+  `[Project or Client] — [Work Type][ vN if iterated] ([key scope])`
+  Examples: `TrendScale Creative Strategist Trial — Script Rework v2 (JCKED + Puravita)` · `MyBPM Merch OS — Week 1 Launch Prep` · `Jen Listings — 6853 Willis Shoot Sheet`.
+  Rules: Title Case; ` — ` (spaced) is the only sanctioned separator here and is exempt from the prose em-dash ban (it is a display title, not copy); append `vN` only when this iterates a thread that already shipped a version; keep the scope parenthetical to the 1-3 nouns that make it findable.
+- **Slug** (`--slug`, kebab, stable across resumes — filename + thread key): `[project-or-client]-[work-type]`, e.g. `trendscale-script-rework`, `mybpm-week1-launch`. **If this session RESUMED a thread, reuse that thread's existing slug** so `/resume` keeps one clean row (no v1/v2/v3 pile-up); the Title carries the `vN`, the slug does not.
+
 **Then persist it durably — the temp dir is ephemeral (macOS clears it on reboot):**
 // turbo
 ```bash
@@ -73,14 +82,19 @@ python execution/handoff_store.py save --from-temp \
 
 That frontmatter is what makes `/resume` a triage board (thread · status · what's-unfinished) instead of a flat list. (Resume side: `session-kickoff.md` Step 0 + `/resume`. The Stop hook nudges if `/handoff` ran but save didn't.)
 
-Then surface a 3-line pointer in chat so the human sees it at a glance without duplicating the full doc:
+Then surface the **titled retrieval block** in chat. This is the standard closeout output — ALWAYS emit it verbatim in this shape, so Farrice sees the name, where it lives, and how to get back in, with zero renaming on his end:
 
 ```markdown
-## Session Handoff → `<temp-dir path to the /handoff doc>`
+## <Session Title, from the naming convention above>
+**Saved + pinned:** `.agent/handoffs/<date>-<slug>.md` · thread `<thread>` · status `<status>`
+**Retrieve anytime:** `/resume <thread>`   (or just `/resume` — the pin surfaces it by name)
+
 **Completed:** [2-3 bullets of what was built]
 **Remaining priority:** [next immediate task — also passed to /handoff]
 **Hot experts this session:** [experts loaded — so next session can warm-start]
 ```
+
+Pull `<date>-<slug>` from the `saved:` line the save command printed (do not guess the path). The Title, thread, and slug all follow the naming convention above; never ask Farrice to supply or rename any of them.
 
 If the `/handoff` skill is unavailable (not installed), fall back to emitting the full block inline with the fields above plus **Core context to load:** [paths to the 2-3 essential deliverable files].
 

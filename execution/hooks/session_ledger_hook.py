@@ -13,8 +13,10 @@ Modes (argv[1]):
               violations (NEVER blocks), inject outer-loop staleness, prune.
     posttool  PostToolUse — accrue skill-load debt, mark artifacts produced,
               count true sub-agent spawns, detect finalize runs.
-    stop      Stop — block once on ripened debt (LEDGER_ENFORCE=1), else
-              observe-log + warn. Logs sub-agent misses with measured counts.
+    stop      Stop — AUTO-PIN the session under a convention-shaped title if a
+              durable artifact shipped unpinned (forgotten close); then block once on
+              ripened finalize debt (LEDGER_ENFORCE=1), else observe-log + warn. Logs
+              sub-agent misses with measured counts.
 
 Debt RIPENS only when an expert skill was loaded AND a file artifact was
 produced — answering questions about a skill never blocks.
@@ -305,10 +307,36 @@ def _prefilled_finalize(ledger: dict) -> str:
     return cmd
 
 
-def _suggest_pin_title(ledger: dict) -> str:
+def _humanize(s: str) -> str:
+    s = re.sub(r"^\d{4}[-\d]*\s*", "", s)      # strip a leading date
+    s = re.sub(r"[-_]+", " ", s).strip()
+    return s.title() if s else s
+
+
+def _derive_title_thread(ledger: dict):
+    """Best-effort, convention-shaped Title + stable thread slug from the produced
+    paths. Convention (shared with /end-session + /pin-session):
+        '[Project or Client] — [Work Type]'
+    The RICH semantic title comes from the happy-paths (chain_runner.finalize /
+    /end-session), which have the LLM's understanding of the session. This is the
+    deterministic backstop for a session closed without any of them — it guarantees a
+    consistent, retrievable name, not a perfect one."""
     paths = ledger.get("produced_paths") or []
-    stem = Path(paths[-1]).stem if paths else "session"
-    return f"{datetime.now().strftime('%Y-%m-%d')} · {stem}"
+    p = paths[-1] if paths else ""
+    m = re.search(r"(?:^|/)(?:projects|_active|deliverables|products|clients)/([^/]+)/", p)
+    if m:
+        thread = m.group(1)
+        project = _humanize(thread)
+    else:
+        parent = Path(p).parent.name if p else ""
+        thread = (re.sub(r"[^a-z0-9-]+", "-", parent.lower()).strip("-") or "session")
+        project = _humanize(parent) or "Session"
+    worktype = _humanize(Path(p).stem) if p else ""
+    if worktype and worktype.lower() != project.lower():
+        title = f"{project} — {worktype}"
+    else:
+        title = project or worktype or "Session"
+    return title, thread
 
 
 def handle_stop(payload: dict) -> None:
@@ -341,37 +369,67 @@ def handle_stop(payload: dict) -> None:
         print(f"[ledger observe] {ho_reason}", file=sys.stderr)
         # fall through to finalize-debt logic
 
-    # Session-pin nudge — independent of finalize debt. Fires when a durable artifact
-    # shipped but no titled pin was recorded, so the work won't surface in the /resume
-    # menu by name. Deterministic backstop for the auto-pin happy-paths (chain_runner
-    # finalize / end-session --pin / /pin-session); never depends on Claude remembering.
+    # Session AUTO-PIN backstop — independent of finalize debt. Fires when a durable
+    # artifact shipped but no titled pin was recorded (chain_runner.finalize /
+    # /end-session / /pin-session all set session_pinned). Rather than just nudging,
+    # this AUTO-PINS the session under a convention-shaped title so a forgotten close
+    # never loses the work — it always surfaces in /resume by name. The rich semantic
+    # title still comes from the happy-paths; this is the deterministic safety net.
+    # Farrice's ask (2026): never hand-type or rename a session. Fail-safe: any error
+    # falls back to the old nudge so the work is still recoverable.
     if (ledger.get("produced") and ledger.get("produced_paths")
             and not ledger.get("session_pinned") and not ledger.get("pin_nudged")):
         ledger["pin_nudged"] = True
+        title, thread = _derive_title_thread(ledger)
+        auto_ok = False
+        try:
+            import subprocess
+            SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
+            ptr = SESSIONS_DIR / f"autopin-{re.sub(r'[^A-Za-z0-9_-]', '-', thread)[:48]}.md"
+            ptr.write_text(
+                f"# {title}\n\n"
+                "**Auto-pinned by the Stop-hook backstop** — this session closed without "
+                "/end-session, /pin-session, or chain finalize, so the deterministic net "
+                "titled and pinned it to keep the work retrievable.\n\n"
+                f"**Artifacts:** {', '.join(ledger['produced_paths'][-5:])}\n\n"
+                f"**Retrieve:** `/resume {thread}`. Re-title with `/pin-session` if you want "
+                "a sharper name (idempotent — overwrites this one row).\n"
+            )
+            r = subprocess.run(
+                [sys.executable, str(REPO_ROOT / "execution" / "handoff_store.py"),
+                 "save", str(ptr), "--thread", thread, "--slug", thread,
+                 "--status", "active", "--hint", title, "--pin", "--overwrite"],
+                capture_output=True, text=True, timeout=20, cwd=str(REPO_ROOT))
+            auto_ok = "saved:" in ((r.stdout or "") + (r.stderr or ""))
+        except Exception:
+            auto_ok = False
+        if auto_ok:
+            ledger["session_pinned"] = True
+            ledger["session_pinned_at"] = _now()
         _save(ledger)
-        _pt = _suggest_pin_title(ledger)
-        pin_reason = (
-            "SESSION NOT PINNED — a durable artifact shipped this session "
-            f"({ledger['produced_paths'][-3:]}) but no titled pin was recorded, so this "
-            "work won't surface in the /resume menu by name. Pin it (the title becomes "
-            "the retrieval handle):\n\n"
-            f'    /pin-session "{_pt}"\n\n'
-            "or directly (slug = thread for idempotency):\n"
-            f'    python3 execution/handoff_store.py save <artifact-or-pointer.md> '
-            f'--thread <thread-slug> --slug <thread-slug> --status active '
-            f'--hint "{_pt}" --pin --overwrite'
-        )
         try:
             SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
             with open(OBSERVE_LOG, "a") as f:
                 f.write(json.dumps({"ts": _now(), "session_id": session_id,
-                                    "event": "session_unpinned", "enforce": ENFORCE}) + "\n")
+                                    "event": "session_autopinned" if auto_ok else "session_unpinned",
+                                    "title": title, "thread": thread, "enforce": ENFORCE}) + "\n")
         except Exception:
             pass
-        if ENFORCE and not stop_active:
-            print(json.dumps({"decision": "block", "reason": pin_reason}))
-            sys.exit(0)
-        print(f"[ledger observe] {pin_reason}", file=sys.stderr)
+        if auto_ok:
+            print(f'[ledger] AUTO-PINNED this session as "{title}" (thread {thread}). '
+                  f"Retrieve with /resume {thread}. Re-title with /pin-session for a sharper name.",
+                  file=sys.stderr)
+        else:
+            pin_reason = (
+                "SESSION NOT PINNED — a durable artifact shipped "
+                f"({ledger['produced_paths'][-3:]}) but the auto-pin failed. Pin it "
+                "(the title becomes the retrieval handle):\n\n"
+                f'    /pin-session "{title}"'
+            )
+            if ENFORCE and not stop_active:
+                print(json.dumps({"decision": "block", "reason": pin_reason}))
+                sys.exit(0)
+            print(f"[ledger observe] {pin_reason}", file=sys.stderr)
         # fall through to finalize-debt logic
 
     if not _ripened(ledger):

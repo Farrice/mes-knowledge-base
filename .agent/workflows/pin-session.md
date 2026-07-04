@@ -21,8 +21,12 @@ mid-session, re-title, or pin a session that shipped through some other route.
 > the on-demand version of that same write. You never have to remember it.
 
 ## Inputs (parse from the invocation)
-- **TITLE** (required) — the human-readable session title. If the user didn't give one,
-  propose `YYYY-MM-DD · <work-stream> — <moment> (<state>)` and confirm before writing.
+- **TITLE** (auto-derived — do NOT ask Farrice to name or confirm it) — use the shared
+  session naming convention (same as `/end-session`):
+  `[Project or Client] — [Work Type][ vN if iterated] ([key scope])`
+  (e.g. `TrendScale Creative Strategist Trial — Script Rework v2 (JCKED + Puravita)`).
+  Title Case; ` — ` is the sanctioned separator (display title, exempt from the prose em-dash
+  ban). Only ask if the session's primary object is genuinely ambiguous.
 - **--file PATH** (optional) — markdown to stamp. DEFAULT: today's LinkedIn briefing
   `_active/linkedin-launch/06-automation/daily/briefing-<today>.md`. If that file is missing, **ASK**
   which file to stamp — never invent one.
