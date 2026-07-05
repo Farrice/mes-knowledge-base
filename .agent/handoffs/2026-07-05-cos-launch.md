@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** cos-launch  
-**Full path:** .agent/handoffs/2026-07-05-cos-launch.md  
-**Date:** 2026-07-05 (today)  
-**Status:** active  
-**Title:** Chief of Staff OS — Launch + First Board (onboarding, money decision, /dump)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume cos-launch` for this one.
-
----
-
 ---
 thread: cos-launch
 status: active
@@ -41,4 +29,3 @@ pin: true
 
 ## Key paths (don't duplicate — read)
 `.agent/cos/{decisions.md,goals.json,life-context.md,journal/2026-07-05.md}` · `skills/chief-of-staff-os/genius.md` · `_active/path-decision-2026-07-01/README.md` · `projects/trendscale-trial/rework-v2/`
-
