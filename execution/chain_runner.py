@@ -1159,8 +1159,14 @@ def finalize(
             if composite >= 9:
                 tags.append('Crown Jewel')
 
+            # Map bimodal taste verdict -> Verdict select option (MARGINAL
+            # reads as PARTIAL — neither a clean pass nor a clean fail).
+            _verdict_map = {"PASS": "PASS", "MARGINAL": "PARTIAL", "FAIL": "FAIL"}
+            vault_verdict = _verdict_map.get(getattr(adjusted, "taste_verdict", ""), "")
+
             vault_result = notion.create_knowledge_vault_entry(
-                name=output_description[:100],
+                name=output_description,
+                summary=output_description,
                 source=f"chain_runner finalize ({workflow or 'direct'})",
                 expert=expert or '',
                 domain=domain,
@@ -1169,8 +1175,21 @@ def finalize(
                 genius_score=min(5, max(2, int(composite / 2))),
                 antigravity_skill=skill or '',
                 tags=tags,
+                workflow=workflow or '',
+                task_type=task_type,
+                intent_score=intent_alignment,
+                expert_score=expert_standard,
+                adversarial_score=adversarial_resilience,
+                factual_score=factual_grounding,
+                composite_score=composite,
+                verdict=vault_verdict,
+                sub_agents=sub_agents_spawned,
+                notes=notes or '',
+                session_date=datetime.now().date().isoformat(),
             )
             result["knowledge_vault_sync"] = {"success": True, "url": vault_result}
+            if getattr(notion, "_last_degraded", None):
+                result["knowledge_vault_sync"]["degraded_properties"] = notion._last_degraded
         except Exception as e:
             result["knowledge_vault_sync"] = {"success": False, "error": str(e)}
 

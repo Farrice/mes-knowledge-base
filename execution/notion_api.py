@@ -146,6 +146,75 @@ class NotionAPI:
     def checkbox(checked: bool) -> dict:
         return {'checkbox': checked}
 
+    # ─── Block Builders (page BODY content, not properties) ──
+    # Notion caps a single rich_text object at 2000 chars. For longer text we
+    # split into multiple text runs within ONE block rather than multiple
+    # blocks — keeps the body readable instead of fragmenting paragraphs.
+
+    @staticmethod
+    def _rich_text_runs(text: str, chunk: int = 1900) -> list[dict]:
+        text = text or ''
+        if not text:
+            return [{'type': 'text', 'text': {'content': ''}}]
+        return [
+            {'type': 'text', 'text': {'content': text[i:i + chunk]}}
+            for i in range(0, len(text), chunk)
+        ] or [{'type': 'text', 'text': {'content': ''}}]
+
+    @classmethod
+    def heading2(cls, text: str) -> dict:
+        return {
+            'object': 'block', 'type': 'heading_2',
+            'heading_2': {'rich_text': cls._rich_text_runs(text, 1900)},
+        }
+
+    @classmethod
+    def para(cls, text: str) -> dict:
+        return {
+            'object': 'block', 'type': 'paragraph',
+            'paragraph': {'rich_text': cls._rich_text_runs(text)},
+        }
+
+    @classmethod
+    def bullet(cls, text: str) -> dict:
+        return {
+            'object': 'block', 'type': 'bulleted_list_item',
+            'bulleted_list_item': {'rich_text': cls._rich_text_runs(text)},
+        }
+
+    # ─── Schema Helpers ───────────────────────
+    # Process-lifetime cache so repeated calls in one script run don't
+    # re-fetch the DB schema on every page creation.
+    _schema_cache: dict[str, set] = {}
+
+    def _ensure_properties(self, database_id: str, required: dict) -> set:
+        """Ensure `required` (name -> Notion property-type spec) exist on the
+        DB. Additive-only — NEVER changes the type of an existing property
+        (verified experimentally: converting an existing property's type via
+        PATCH silently discards its stored values on every row). Returns the
+        set of property names now known-present. Degrades gracefully: if the
+        PATCH fails (e.g. non-integration-owned DB), returns whatever was
+        already present and callers should skip properties not in the set.
+        """
+        cached = self._schema_cache.get(database_id)
+        if cached is None:
+            try:
+                db = self.get_database(database_id)
+                cached = set(db.get('properties', {}).keys())
+            except Exception:
+                cached = set()
+            self._schema_cache[database_id] = cached
+
+        missing = {k: v for k, v in required.items() if k not in cached}
+        if missing:
+            try:
+                self.update_schema(database_id, missing)
+                cached = cached | set(missing.keys())
+                self._schema_cache[database_id] = cached
+            except Exception:
+                pass  # degrade gracefully — property stays unavailable
+        return cached
+
     # ─── High-Level Functions ────────────────
 
     def capture(self, name: str, raw_content: str, type: str = 'Note', source: str = 'Claude Code', tags: Optional[list[str]] = None) -> dict:
@@ -174,11 +243,32 @@ class NotionAPI:
         date_extracted: Optional[str] = None,
         antigravity_skill: str = '',
         tags: Optional[list[str]] = None,
+        # ── Rich-body additions (2026-07) — all optional, all backward
+        # compatible. `name` may now be a full "what was produced" summary;
+        # the page TITLE becomes a short (~80 char) truncation of it, and the
+        # full text goes into the page BODY so entries are human-readable
+        # instead of one giant run-on header (Farrice complaint, 2026-07-06).
+        summary: str = '',
+        workflow: str = '',
+        task_type: str = '',
+        intent_score: Optional[float] = None,
+        expert_score: Optional[float] = None,
+        adversarial_score: Optional[float] = None,
+        factual_score: Optional[float] = None,
+        composite_score: Optional[float] = None,
+        verdict: str = '',
+        sub_agents: Optional[int] = None,
+        notes: str = '',
+        session_date: Optional[str] = None,
+        include_git_info: bool = True,
+        title_override: Optional[str] = None,
     ) -> str:
         """Create an entry in the Knowledge Vault database.
 
         Args:
-            name: Entry title (required).
+            name: Entry title (required) — or, if `summary` is omitted, the
+                full "what was produced" text (will be truncated for the
+                page title; the full text still lands in the body).
             source: Where it came from (extraction, search, etc.).
             expert: Expert name if applicable.
             domain: Knowledge domain.
@@ -190,6 +280,23 @@ class NotionAPI:
             antigravity_skill: Skill path if applicable.
             tags: List of tags like "Crown Jewel", "Hidden Knowledge",
                   "Actionable", "Reference".
+            summary: Full "what was produced" text. If given, `name` is only
+                used as a title hint; if omitted, `name` itself is treated
+                as the summary and truncated for the title.
+            workflow, task_type: Context fields for the body's Context section.
+            intent_score, expert_score, adversarial_score, factual_score,
+                composite_score: Quality Gate scores (1-10) for the Scores
+                section. All optional — section is skipped if none given.
+            verdict: 'PASS' | 'PARTIAL' | 'FAIL' — written to the Verdict
+                select property (added to schema if missing) AND the body.
+            sub_agents: Measured sub-agent spawn count for Context.
+            notes: Freeform finalize notes — becomes the Notes section.
+            session_date: ISO date for the body's Context section (defaults
+                to date_extracted).
+            include_git_info: Attempt a cheap `git rev-parse` for a Links
+                section; silently skipped on any failure.
+            title_override: If given, used verbatim as the page title instead
+                of the auto-truncated summary.
 
         Returns:
             The Notion page URL of the created entry.
@@ -198,6 +305,8 @@ class NotionAPI:
 
         if date_extracted is None:
             date_extracted = _date.today().isoformat()
+        if session_date is None:
+            session_date = date_extracted
 
         # Validate entry_type
         valid_types = {
@@ -222,9 +331,22 @@ class NotionAPI:
                     f"Invalid tags: {bad_tags}. Must be from: {', '.join(sorted(valid_tags))}"
                 )
 
+        # Validate verdict if provided
+        valid_verdicts = {'PASS', 'PARTIAL', 'FAIL'}
+        if verdict and verdict not in valid_verdicts:
+            raise ValueError(f"Invalid verdict '{verdict}'. Must be one of: {', '.join(sorted(valid_verdicts))}")
+
+        full_summary = summary or name
+        page_title = title_override or _short_title(full_summary)
+
+        # Knowledge Vault database ID
+        vault_db_id = DB_IDS.get('knowledge', '5c63b25c-e040-4c6f-8a7b-906643090694')
+        if not vault_db_id:
+            vault_db_id = '5c63b25c-e040-4c6f-8a7b-906643090694'
+
         # Build properties
         props: dict[str, Any] = {
-            'Name': self.title(name),
+            'Name': self.title(page_title),
             'Type': self.select(entry_type),
             'Date Extracted': self.date(date_extracted),
         }
@@ -244,18 +366,55 @@ class NotionAPI:
         if tags:
             props['Tags'] = self.multi_select(tags)
 
-        # Knowledge Vault database ID
-        vault_db_id = DB_IDS.get('knowledge', '5c63b25c-e040-4c6f-8a7b-906643090694')
-        if not vault_db_id:
-            vault_db_id = '5c63b25c-e040-4c6f-8a7b-906643090694'
+        # New filterable properties — additive schema only (never mutate an
+        # existing property's type; see _ensure_properties docstring).
+        degraded: list[str] = []
+        if composite_score is not None or verdict:
+            available = self._ensure_properties(vault_db_id, {
+                'Verdict': {'select': {'options': [{'name': v} for v in sorted(valid_verdicts)]}},
+                'Composite': {'number': {}},
+            })
+            if verdict:
+                if 'Verdict' in available:
+                    props['Verdict'] = self.select(verdict)
+                else:
+                    degraded.append('Verdict')
+            if composite_score is not None:
+                if 'Composite' in available:
+                    props['Composite'] = self.number(composite_score)
+                else:
+                    degraded.append('Composite')
+
+        git_branch, git_commit = ('', '')
+        if include_git_info:
+            git_branch, git_commit = _git_info()
+
+        children = build_vault_body_blocks(
+            full_summary,
+            intent_score=intent_score, expert_score=expert_score,
+            adversarial_score=adversarial_score, factual_score=factual_score,
+            composite_score=composite_score, verdict=verdict,
+            expert=expert, skill=antigravity_skill, workflow=workflow,
+            entry_type=entry_type, task_type=task_type, sub_agents=sub_agents,
+            session_date=session_date, notes=notes,
+            git_branch=git_branch, git_commit=git_commit,
+        )
 
         try:
-            result = self.create_page(vault_db_id, props)
-            return result['url']
+            result = self.create_page(vault_db_id, props, children=children)
+            url = result['url']
         except NotionAPIError as e:
             raise RuntimeError(
                 f"Failed to create Knowledge Vault entry: [{e.status}] {e.code} — {e}"
             ) from e
+
+        if degraded:
+            # Non-fatal — page was created; surface which properties fell
+            # back so callers can report it (see chain_runner call site).
+            self._last_degraded = degraded
+        else:
+            self._last_degraded = []
+        return url
 
     def push_session_memory(
         self,
@@ -297,6 +456,126 @@ class NotionAPI:
         }
         result = self.create_page(db_id, props)
         return result['url']
+
+
+# ─── Knowledge Vault body helpers (module-level; also used by
+# execution/notion_backfill_knowledge.py to reconstruct existing empty pages
+# in the same layout) ──────────────────────────────────────────────────────
+
+def _short_title(text: str, limit: int = 80) -> str:
+    """Truncate a summary to a short, human-scannable page title."""
+    text = (text or '').strip().replace('\n', ' ')
+    if len(text) <= limit:
+        return text or 'Untitled'
+    cut = text[:limit].rsplit(' ', 1)[0]  # avoid cutting mid-word when possible
+    if len(cut) < limit * 0.6:  # word boundary too far back — hard cut instead
+        cut = text[:limit]
+    return cut.rstrip('.,;: ') + '…'
+
+
+def _git_info(repo_root: Optional[Path] = None) -> tuple:
+    """Cheap best-effort `git branch` + short commit. Returns ('', '') on any
+    failure (detached HEAD, not a repo, git missing, timeout) — never raises.
+    """
+    import subprocess
+    root = str(repo_root or Path(__file__).resolve().parent.parent)
+    try:
+        branch = subprocess.run(
+            ['git', 'rev-parse', '--abbrev-ref', 'HEAD'],
+            cwd=root, capture_output=True, text=True, timeout=3,
+        ).stdout.strip()
+        commit = subprocess.run(
+            ['git', 'rev-parse', '--short', 'HEAD'],
+            cwd=root, capture_output=True, text=True, timeout=3,
+        ).stdout.strip()
+        return (branch, commit)
+    except Exception:
+        return ('', '')
+
+
+def build_vault_body_blocks(
+    summary: str,
+    *,
+    intent_score: Optional[float] = None,
+    expert_score: Optional[float] = None,
+    adversarial_score: Optional[float] = None,
+    factual_score: Optional[float] = None,
+    composite_score: Optional[float] = None,
+    verdict: str = '',
+    expert: str = '',
+    skill: str = '',
+    workflow: str = '',
+    entry_type: str = '',
+    task_type: str = '',
+    sub_agents: Optional[int] = None,
+    session_date: str = '',
+    notes: str = '',
+    git_branch: str = '',
+    git_commit: str = '',
+) -> list:
+    """Compose the human-readable page body for a Knowledge Vault entry.
+
+    Layout: H2 What was produced -> H2 Scores -> H2 Context -> H2 Notes
+    -> H2 Links. Any section with no data is omitted entirely rather than
+    printed empty.
+    """
+    blocks: list = [
+        NotionAPI.heading2("What was produced"),
+        NotionAPI.para(summary or '(no summary provided)'),
+    ]
+
+    score_lines = []
+    if intent_score is not None:
+        score_lines.append(f"Intent Alignment: {intent_score}/10")
+    if expert_score is not None:
+        score_lines.append(f"Expert Standard: {expert_score}/10")
+    if adversarial_score is not None:
+        score_lines.append(f"Adversarial Resilience: {adversarial_score}/10")
+    if factual_score is not None:
+        score_lines.append(f"Factual Grounding: {factual_score}/10")
+    elif any(s is not None for s in (intent_score, expert_score, adversarial_score)):
+        score_lines.append("Factual Grounding: N/A")
+    if composite_score is not None:
+        score_lines.append(f"Composite: {composite_score}/10")
+    if verdict:
+        score_lines.append(f"Verdict: {verdict}")
+    if score_lines:
+        blocks.append(NotionAPI.heading2("Scores"))
+        blocks.extend(NotionAPI.bullet(line) for line in score_lines)
+
+    ctx_lines = []
+    if expert:
+        ctx_lines.append(f"Expert: {expert}")
+    if skill:
+        ctx_lines.append(f"Skill: {skill}")
+    if workflow:
+        ctx_lines.append(f"Workflow: {workflow}")
+    if entry_type:
+        ctx_lines.append(f"Type: {entry_type}")
+    if task_type:
+        ctx_lines.append(f"Task Type: {task_type}")
+    if sub_agents is not None:
+        ctx_lines.append(f"Sub-agents spawned: {sub_agents}")
+    if session_date:
+        ctx_lines.append(f"Session Date: {session_date}")
+    if ctx_lines:
+        blocks.append(NotionAPI.heading2("Context"))
+        blocks.extend(NotionAPI.bullet(line) for line in ctx_lines)
+
+    if notes:
+        blocks.append(NotionAPI.heading2("Notes"))
+        blocks.append(NotionAPI.para(notes))
+
+    if git_branch or git_commit:
+        blocks.append(NotionAPI.heading2("Links"))
+        link_bits = []
+        if git_branch:
+            link_bits.append(f"Branch: {git_branch}")
+        if git_commit:
+            link_bits.append(f"Commit: {git_commit}")
+        blocks.append(NotionAPI.para("  |  ".join(link_bits)))
+
+    return blocks
 
 
 def main():
