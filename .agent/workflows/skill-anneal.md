@@ -6,6 +6,26 @@ description: Apply self-annealing to a specific skill's prompts
 
 > Load `skills/self-evolving-systems/genius.md` first. This bridges self-annealing and evolution.
 
+## Operator Core Alignment
+
+This workflow is the canonical source of truth for Skill-anneal behavior:
+prompt-level skill/component annealing, not broad workflow evolution.
+
+Incomplete or vague goal packets produce a queue-only diagnosis. Annealing
+requires a target skill directory, failure examples, rubric/test-input set,
+proof artifact, measurable stop condition, turn cap, and explicit
+no-regression clause.
+
+Annealing must preserve upstream input, downstream output, and validation
+contract. Limit edits to the single weakest criterion unless the user approves
+a broader rewrite. Side effects must be local, reversible, and inside
+`/Users/farricecain/Google Antigravity`.
+
+Stop at a human checkpoint for broader workflow evolution, global mirrors,
+external actions, broad archive/delete, destructive cleanup, new dependencies,
+failed validation, or Mission repair. Route broad workflow evolution to
+`/self-evolve`. Real Codex subagents require explicit authorization.
+
 ## When to Use
 - A skill's outputs consistently score 6-7 on quality gates (acceptable but not great)
 - You have a history of quality gate failures for this skill

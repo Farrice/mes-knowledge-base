@@ -6,6 +6,26 @@ description: Workflow, prompt, retrieval logic, or orchestration pattern
 
 > Load `skills/self-evolving-systems/genius.md` first. This is the master evolution command.
 
+## Operator Core Alignment
+
+This workflow is the canonical source of truth for Self-evolve behavior:
+mutation-gated measured evolution, not casual improvement.
+
+Incomplete or vague goal packets produce a queue-only diagnosis. Mutation
+requires a complete goal packet, Evolution Council Verdict, baseline, search
+set, measurable stop condition, turn cap, proof artifact, and no-regression
+check.
+
+Permitted side effects must be local, reversible, and inside
+`/Users/farricecain/Google Antigravity`. Stop at a human checkpoint for global
+mirrors, external actions, broad archive/delete, destructive cleanup, new
+dependencies, failed validation, or scope expansion. Do not mutate Mission
+unless `verify_mission_activation_contract.py` fails and the user explicitly
+approves Mission repair.
+
+Route repair, drift-audit, and broken-system language to `/system-audit` or
+`/autopilot`. Real Codex subagents require explicit authorization.
+
 ## When to Use
 - A workflow/skill has plateaued despite manual tuning
 - Quality gate scores consistently land 6-7 (good but not great)
