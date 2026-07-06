@@ -1,0 +1,139 @@
+{
+  "disease_tokens": [
+    "Cancer",
+    "diabetes",
+    "Alzheimer's",
+    "dementia",
+    "arthritis",
+    "anxiety",
+    "depression",
+    "COVID-19",
+    "coronavirus",
+    "herpes",
+    "HIV",
+    "AIDS",
+    "lupus",
+    "Parkinson's",
+    "heart disease",
+    "ADHD",
+    "autism"
+  ],
+  "treatment_verbs": [
+    {
+      "tokens": [
+        "cures",
+        "cure"
+      ],
+      "compliant": "Supports [normal function]",
+      "notes": "Never pair with any disease token"
+    },
+    {
+      "tokens": [
+        "treats",
+        "treatment"
+      ],
+      "compliant": "Supports / promotes",
+      "notes": ""
+    },
+    {
+      "tokens": [
+        "prevents",
+        "prevention"
+      ],
+      "compliant": "Supports [immune/metabolic/etc.] health",
+      "notes": "\"Prevents\" is a disease-claim verb even with a vague object"
+    },
+    {
+      "tokens": [
+        "heals",
+        "healing"
+      ],
+      "compliant": "Soothes / supports comfort",
+      "notes": ""
+    },
+    {
+      "tokens": [
+        "diagnoses",
+        "diagnostic"
+      ],
+      "compliant": "(remove entirely)",
+      "notes": "Supplements cannot make diagnostic claims, period"
+    },
+    {
+      "tokens": [
+        "reverses"
+      ],
+      "compliant": "Supports healthy [function] as part of a balanced routine",
+      "notes": "\"Reverses\" implies existing pathology"
+    },
+    {
+      "tokens": [
+        "remedy",
+        "remedies"
+      ],
+      "compliant": "Supports",
+      "notes": ""
+    },
+    {
+      "tokens": [
+        "eliminates"
+      ],
+      "compliant": "Supports a healthy response to [trigger]",
+      "notes": "See Rejuvica/Sobrenix anti-exemplar (genius.md)"
+    }
+  ],
+  "outcome_guarantee": [
+    {
+      "phrase": "You WILL sleep better",
+      "compliant": "Most customers notice a difference in sleep quality within the first week"
+    },
+    {
+      "phrase": "Guaranteed results",
+      "compliant": "[N]% of customers report [specific, typical, disclosed result] within [timeframe]"
+    },
+    {
+      "phrase": "Works instantly",
+      "compliant": "Formulated for [mechanism]; many customers notice [typical, non-disease effect] within [realistic timeframe]"
+    },
+    {
+      "phrase": "Melts fat away",
+      "compliant": "Supports healthy weight management as part of a balanced diet and exercise routine"
+    }
+  ],
+  "evidence_strength": [
+    {
+      "phrase": "Clinically proven",
+      "compliant": "Formulated with clinically studied ingredients"
+    },
+    {
+      "phrase": "Scientifically proven",
+      "compliant": "Backed by research on [specific ingredient/mechanism]"
+    },
+    {
+      "phrase": "Doctors recommend",
+      "compliant": "Formulated by [credentialed role, named and verifiable]"
+    },
+    {
+      "phrase": "#1 doctor-recommended",
+      "compliant": "Remove unless a verifiable, disclosed survey exists (FTC treats this as a substantiated-claim, not puffery)"
+    }
+  ],
+  "category_terms": [
+    "Inflammation",
+    "pain",
+    "immune-boosting",
+    "cholesterol",
+    "blood pressure",
+    "testosterone",
+    "hormones",
+    "weight loss",
+    "blood sugar"
+  ],
+  "comparison_phrases": [
+    "Alternative to [named drug]",
+    "Works like [prescription name]",
+    "Skip the prescription"
+  ],
+  "source_md": "/Users/farricecain/Google Antigravity/skills/claim-safe-health-marketing/references/red-flag-word-bank.md",
+  "generated_at": "2026-07-06T09:20:06.132683"
+}

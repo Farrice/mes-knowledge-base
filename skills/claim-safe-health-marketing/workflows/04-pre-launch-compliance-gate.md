@@ -30,6 +30,14 @@ Load before executing:
 
 Verify (don't assume) that `/claim-audit` and, if applicable, `/claim-substantiation-map` were run on this asset. If not, halt and run them first — this gate is a verification layer, not a substitute for the diagnostic work.
 
+**Deterministic first pass (optional but recommended)**: before the judgment-based steps below, run the mechanical scanner over the final asset — it catches the same disease-claim/red-flag-word/unqualified-results patterns as a fast, non-negotiable first cut and names the compliant swap for each hit:
+
+```bash
+python3 execution/claim_risk_scan.py scan <asset-file> [--json]
+```
+
+This is also wired into `chain_runner.py finalize` (auto-fires on health-flavored Content/Client Work/Creative deliverables) — a DISEASE_CLAIM verdict there prints a loud warning at finalize time, so a compliance miss surfaces even if this workflow itself isn't invoked. Treat any DISEASE_CLAIM hit as a hard stop for Step 6; RISKY/WATCH hits still require the judgment passes below.
+
 ### Step 2: Disclaimer Verification
 
 Confirm the DSHEA disclaimer is present, verbatim, and correctly placed for the target channel:

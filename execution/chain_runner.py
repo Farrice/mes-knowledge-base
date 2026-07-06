@@ -371,6 +371,35 @@ _COPY_TASK_TYPES = {"Content", "Copy", "Creative"}
 # Types where factual grounding matters — the grounding_guard backstop runs here.
 _GROUNDING_TASK_TYPES = {"Research", "Strategy", "Analysis", "Content", "Client Work"}
 
+# ── Claim Risk Scan (added 2026-07-06) ───────────────────────────
+# Path A = claim-safe content for funded health/supplement brands (binding
+# decision 2026-07-01). A missed disease-claim is a real liability, so this
+# cannot be a workflow the model has to remember to run — it has to be a
+# deterministic trigger inside finalize. Task types where a health-flavored
+# deliverable is plausible without any other signal.
+_CLAIM_RISK_TASK_TYPES = {"Content", "Client Work", "Creative"}
+# Health-domain keyword net — fires the scan even on a non-content-shaped
+# task_type (e.g. "Strategy") when the description/skill/notes name a health
+# brand. Deliberately broad; false positives just mean an extra scan runs
+# (compass, not cage — the scan never blocks, so over-triggering is cheap).
+_HEALTH_DOMAIN_TERMS = [
+    "supplement", "wellness", "weight loss", "weight-loss", "fitness brand",
+    "health brand", "nutrition", "gut health", "sleep aid", "energy drink",
+    "hormone", "hormones", "immune", "detox", "probiotic", "vitamin",
+    "keto", "cbd", "skincare claim", "metabolism", "gut ",
+]
+
+
+def _claim_risk_domain_match(*texts: str) -> str:
+    """Return the first health-domain keyword found across the given texts
+    (lowercased substring match), or '' if none. Used to fire claim_risk_scan
+    on non-Content task types (e.g. a Strategy brief for a supplement brand)."""
+    haystack = " ".join(t for t in texts if t).lower()
+    for term in _HEALTH_DOMAIN_TERMS:
+        if term in haystack:
+            return term.strip()
+    return ""
+
 
 def _check_concrete_result(text: str) -> Tuple[bool, str]:
     """Heuristic: does the text name a concrete result (Copy Calibration rule)?
@@ -789,6 +818,57 @@ def finalize(
         "verdict": enforced.get("grounding_verdict", "NOT_RUN"),
         "signals": enforced.get("grounding_signals", []),
     }
+
+    # ── Step 2.6: Claim Risk Scan (added 2026-07-06) ─────────────
+    # Deterministic first pass for Path A (claim-safe content for funded
+    # health brands) — see _CLAIM_RISK_TASK_TYPES / _HEALTH_DOMAIN_TERMS above.
+    # Compass-not-cage: FLAGS loudly on DISEASE_CLAIM, never blocks or caps a
+    # score. Fires only when a real content_path is given (the scan needs the
+    # actual artifact, same as the prose/grounding caps above) AND either the
+    # task_type is content-shaped or a health-domain keyword appears in the
+    # description/skill/notes. Everything else pays zero cost: no content_path
+    # means no scan and no print at all.
+    _domain_hit = _claim_risk_domain_match(output_description, skill, notes)
+    if content_path:
+        if task_type in _CLAIM_RISK_TASK_TYPES or _domain_hit:
+            try:
+                sys.path.insert(0, str(Path(__file__).resolve().parent))
+                import claim_risk_scan as _crs
+                claim_risk_result = _crs.scan(_scan_text)
+                result["claim_risk_check"] = {
+                    "verdict": claim_risk_result["verdict"],
+                    "counts": claim_risk_result["counts"],
+                    "domain_signal": _domain_hit or f"task_type={task_type}",
+                }
+                if claim_risk_result["verdict"] == "DISEASE_CLAIM":
+                    notes = (notes + " | " if notes else "") + "claim_risk: FLAGGED"
+                    disease_hits = claim_risk_result["hits"]["DISEASE_CLAIM"]
+                    print("\n" + "🚨" * 30)
+                    print("🚨 CLAIM RISK — DISEASE-CLAIM LANGUAGE DETECTED (claim_risk_scan.py)")
+                    print("🚨" * 30)
+                    for h in disease_hits[:8]:
+                        print(f"  • {h['pattern']}  —  \"{h['context']}\"")
+                        print(f"      compliant swap → {h['swap']}")
+                    if len(disease_hits) > 8:
+                        print(f"  ...and {len(disease_hits) - 8} more.")
+                    print(f"  Full detail: python3 execution/claim_risk_scan.py scan {content_path}")
+                    print("  This FLAGS — it does not block. Path A ships claim-safe content; route")
+                    print("  this asset through /pre-launch-compliance-gate before it goes live.")
+                    print("🚨" * 30 + "\n")
+                elif claim_risk_result["verdict"] in ("RISKY", "WATCH"):
+                    r_count = claim_risk_result["counts"].get("RISKY", 0)
+                    w_count = claim_risk_result["counts"].get("WATCH", 0)
+                    print(
+                        f"  claim_risk_scan: {claim_risk_result['verdict']} — {r_count} RISKY / "
+                        f"{w_count} WATCH hit(s). Detail: python3 execution/claim_risk_scan.py scan {content_path}"
+                    )
+            except Exception as e:
+                result["claim_risk_check"] = {"verdict": "ERROR", "error": str(e)}
+        else:
+            result["claim_risk_check"] = {"verdict": "SKIPPED"}
+            print(f"  claim_risk_scan: skipped (task_type={task_type!r}, no health-domain signal)")
+    else:
+        result["claim_risk_check"] = {"verdict": "NOT_APPLICABLE"}
 
     # ── Step 3: Quality Gate pass/fail ───────────────────────────
     # Factual veto (from _enforce_caps) overrides composite arithmetic.
@@ -1558,6 +1638,13 @@ def print_result(result: Dict) -> None:
             print(f"                • {s}")
     elif grounding and grounding.get("verdict") == "WARN":
         print(f"\n  Grounding:  🟡 WARN — thin sourcing: {'; '.join(grounding.get('signals', [])[:2])}")
+
+    # Claim risk check (Path A deterministic compliance flag — never blocks)
+    crc = result.get("claim_risk_check")
+    if crc and crc.get("verdict") == "DISEASE_CLAIM":
+        print(f"\n  Claim Risk: 🚨 DISEASE_CLAIM — {crc['counts'].get('DISEASE_CLAIM', 0)} hit(s). See warning block above.")
+    elif crc and crc.get("verdict") in ("RISKY", "WATCH"):
+        print(f"\n  Claim Risk: ⚡ {crc['verdict']} — {crc['counts']}")
 
     # Prose warning (if Expert Standard seems inflated)
     if result.get("prose_warning"):
