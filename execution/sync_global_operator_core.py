@@ -14,6 +14,7 @@ LOCAL_WRAPPER = ROOT / ".agents" / "skills" / "source-command-autopilot" / "SKIL
 GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_AUTOPILOT = Path.home() / ".codex" / "skills" / "autopilot" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-autopilot" / "SKILL.md"
+ANTIGRAVITY_WORKFLOW = str(PROJECT_WORKFLOW)
 
 
 COMMON_REQUIREMENTS = (
@@ -28,17 +29,17 @@ COMMON_REQUIREMENTS = (
 PATH_REQUIREMENTS = {
     GLOBAL_AGENTS: COMMON_REQUIREMENTS
     + (
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md",
+        ANTIGRAVITY_WORKFLOW,
         "compatibility/front-door wrapper",
     ),
     GLOBAL_AUTOPILOT: COMMON_REQUIREMENTS
     + (
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md",
+        ANTIGRAVITY_WORKFLOW,
         "compatibility/front-door wrapper",
     ),
     GLOBAL_WRAPPER: COMMON_REQUIREMENTS
     + (
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md",
+        ANTIGRAVITY_WORKFLOW,
         "compatibility alias",
     ),
     LOCAL_WRAPPER: COMMON_REQUIREMENTS
@@ -49,12 +50,12 @@ PATH_REQUIREMENTS = {
 }
 
 
-GLOBAL_AUTOPILOT_BLOCK = """## Operator Core Alignment
+GLOBAL_AUTOPILOT_BLOCK = f"""## Operator Core Alignment
 
 This global skill is intentionally thin. The behavior source of truth for
 Antigravity work remains:
 
-`/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md`
+`{ANTIGRAVITY_WORKFLOW}`
 
 For meaningful Autopilot work, preserve the current Operator Core standard from
 that workflow:
@@ -69,13 +70,13 @@ that workflow:
 """
 
 
-GLOBAL_WRAPPER_BLOCK = """## Operator Core Alignment
+GLOBAL_WRAPPER_BLOCK = f"""## Operator Core Alignment
 
 This wrapper is intentionally thin. It delegates behavior to the global
 Autopilot front door and, for Antigravity work, to the canonical project
 workflow:
 
-`/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md`
+`{ANTIGRAVITY_WORKFLOW}`
 
 It must preserve the current Operator Core standard: `3 Next Prompts`,
 `Operator Lesson`, `Next-time prompt`, `Subagent worth it?`, `Reuse hook`, and
@@ -108,11 +109,12 @@ def ensure_block(text: str, block: str, anchor: str) -> str:
 
 
 def align_global_agents(text: str) -> str:
-    if "The canonical Antigravity Autopilot workflow is `/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md`." not in text:
+    canonical_line = f"The canonical Antigravity Autopilot workflow is `{ANTIGRAVITY_WORKFLOW}`."
+    if canonical_line not in text:
         text = text.replace(
             "## Global Autopilot Front Door\n",
             "## Global Autopilot Front Door\n\n"
-            "The canonical Antigravity Autopilot workflow is `/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md`. "
+            f"{canonical_line} "
             "The global Autopilot skill is a compatibility/front-door wrapper, not a competing behavior contract.\n",
             1,
         )
