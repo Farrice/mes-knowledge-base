@@ -36,7 +36,7 @@ Use `--depth quick|standard|deep|max` to scale effort (deep/max fan out via `.ag
 *Replicates: Ahrefs Keyword Explorer*
 - **Capability**: Distinguishes between "Browsers" and "Buyers".
 - **Method**: Agent uses linguistic analysis AND live SERP validation.
-- **Command**: `Run /analyze-intent`
+- **Command**: `Run /seo-keyword-audit`
 
 ### 3. 📊 Strategic Briefing (The "Agency Dossier" Layer)
 *Replicates: A $5,000 SEO agency report*
@@ -55,7 +55,7 @@ Use this to find *what* to sell or write about.
 
 ### Phase 2: Validate the Money
 Use this to confirm people actually pay for it.
-- **Command**: `Run /analyze-intent "[Keyword]"`
+- **Command**: `Run /seo-keyword-audit "[Keyword]"`
 - **Input**: "CalHFA Loan Requirements" (High Intent) vs "History of Mortgages" (Zero Intent).
 
 ### Phase 3: Build the Strategy
@@ -66,5 +66,5 @@ Use this to get a full attack plan.
 ## 📂 File Structure
 - `SKILL.md`: This file.
 - `references/genius-patterns.md`: The logic behind "Buyer Intent", "Entity Understanding", and "Data Grounding".
-- `keyword_auditor.py`: (Reference only) Original linguistic analysis logic. Superseded by `/analyze-intent` workflow.
+- `keyword_auditor.py`: (Reference only) Original linguistic analysis logic. Superseded by `/seo-keyword-audit` workflow.
 - `templates/brief_template.md`: (Reference only) Original template structure.

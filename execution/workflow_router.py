@@ -207,7 +207,7 @@ DOMAIN_MAP = {
     "content": ["content", "atomize", "format", "serial", "parallel-content", "quantity-sprint"],
     "newsletter": ["newsletter", "substack", "parallax", "book-never-ends"],
     "psychology": ["drk", "kallaway", "belief", "identity", "consciousness", "resistance"],
-    "seo": ["gotch", "parasite-seo", "analyze-intent"],
+    "seo": ["gotch", "parasite-seo", "seo-keyword-audit"],
     "ads": ["ad-script", "full-stack-ad", "cash-method", "creative-diversity", "ai-ad-production"],
     "offers": ["design-offer", "offer-stack", "offer-cycle", "high-ticket", "nuclear-vsl"],
     "real-estate": ["enrico", "listing", "data-driven-ops"],

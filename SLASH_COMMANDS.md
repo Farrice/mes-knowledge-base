@@ -7,7 +7,7 @@ You don't need to remember these! Type what you want to do (e.g., *"Help me rese
 ## 📊 Research & Strategy (19)
 | Command | What It Does |
 |---------|-------------|
-| `/analyze-intent` | Audit a keyword for "Buyer Intent" using linguistic analysis and live SERP validation |
+| `/seo-keyword-audit` | Audit a keyword for buyer intent using linguistic analysis and live SERP validation |
 | `/deep-research` | Perplexity Deep Research + 3 parallel specialist agents (pattern hunter, psychology miner, contrarian scout) + adversarial challenge + McKinsey-grade strategic intelligence report |
 | `/copy-engine` | Cold-start → converting copy. Grounds a market ONCE in real research + social listening (cost-previewed, ~$0.50–2.50 / often $0 under Ultra), caches it, then assembles + proof-verifies world-class copy. Every later iteration/refinement reuses the cache at **$0**. "Ground Once, Refine Free." |
 | `/brief` | Generate a strategic brief — scans your situation and recommends highest-ROI moves |
