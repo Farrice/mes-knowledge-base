@@ -9,12 +9,13 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT_WORKFLOW = ROOT / ".agent" / "workflows" / "autopilot.md"
+PROJECT_WORKFLOW_TEXT = str(PROJECT_WORKFLOW)
 GLOBAL_AUTOPILOT = Path("/Users/farricecain/.codex/skills/autopilot/SKILL.md")
 GLOBAL_WRAPPER = Path("/Users/farricecain/.codex/skills/source-command-autopilot/SKILL.md")
 
 REQUIRED_GLOBAL = (
     "Project Source Of Truth",
-    "/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md",
+    PROJECT_WORKFLOW_TEXT,
     "compatibility/front-door wrapper",
     "not a competing behavior contract",
     "intent-to-outcome",
@@ -39,7 +40,7 @@ REQUIRED_GLOBAL = (
 REQUIRED_WRAPPER = (
     "compatibility alias",
     "/Users/farricecain/.codex/skills/autopilot/SKILL.md",
-    "/Users/farricecain/Codex Antigravity/.agent/workflows/autopilot.md",
+    PROJECT_WORKFLOW_TEXT,
     "source of truth",
     "intent-to-outcome",
     "Execution Decision",
