@@ -26,6 +26,7 @@ CLI usage:
 """
 
 import os
+import re
 import json
 import argparse
 from datetime import date, datetime
@@ -191,11 +192,71 @@ DOMAIN_KEYWORDS = {
 }
 
 
+def _word_match(text: str, keywords: list) -> bool:
+    """True if any keyword appears as a whole word/token in text (word-boundary,
+    case-insensitive) — never a bare substring match."""
+    text_lower = text.lower()
+    for kw in keywords:
+        if re.search(r'\b' + re.escape(kw.lower()) + r'\b', text_lower):
+            return True
+    return False
+
+
+def _declared_domain_text(skill_name: str) -> Optional[str]:
+    """Read the `domain:` frontmatter field from skills/<skill_name>/SKILL.md,
+    if the skill exists and declares one. Returns None otherwise."""
+    skill_md = SKILLS_DIR / skill_name / 'SKILL.md'
+    if not skill_md.exists():
+        return None
+    try:
+        text = skill_md.read_text(errors='ignore')
+    except Exception:
+        return None
+    # Frontmatter is the block between the first two '---' lines.
+    parts = text.split('---', 2)
+    if len(parts) < 2:
+        return None
+    frontmatter = parts[1]
+    m = re.search(r'^domain:\s*(.+)$', frontmatter, re.MULTILINE)
+    if not m:
+        return None
+    declared = m.group(1).strip().strip('"').strip("'")
+    return declared or None
+
+
 def detect_domain(skill_name: str) -> str:
-    """Detect benchmark domain from skill name."""
+    """Detect benchmark domain for a skill.
+
+    Resolution order (fixes 2026-07-06 false-regression collisions where
+    e.g. "jen-santulan-listing-content" matched domain 'content' and
+    "source-command-deep-research" matched domain 'research' purely via
+    substring hits on the skill's own name):
+
+      1. DECLARED domain — read `domain:` frontmatter from the skill's
+         SKILL.md (populated by the registry sync) and match one of the
+         6 canonical bucket names against it on a word boundary. A skill
+         that describes itself as e.g. "Real estate social media" does
+         NOT literally declare itself as the 'content' domain, so it
+         correctly falls through instead of colliding on the word
+         "social".
+      2. FALLBACK keyword matching — only when no declared domain field
+         exists (or it names no bucket) — match DOMAIN_KEYWORDS against
+         the skill's own name, word-boundary only (never bare substring),
+         and with each domain's own literal name excluded from its own
+         keyword list so a name merely containing the domain word itself
+         (e.g. "...-listing-content", "...-deep-research") can't
+         self-collide.
+    """
+    declared = _declared_domain_text(skill_name)
+    if declared:
+        for domain in DOMAIN_KEYWORDS:
+            if re.search(r'\b' + re.escape(domain) + r'\b', declared.lower()):
+                return domain
+
     name_lower = skill_name.lower()
     for domain, keywords in DOMAIN_KEYWORDS.items():
-        if any(kw in name_lower for kw in keywords):
+        fallback_keywords = [kw for kw in keywords if kw != domain]
+        if _word_match(name_lower, fallback_keywords):
             return domain
     return 'default'
 

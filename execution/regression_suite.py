@@ -312,28 +312,36 @@ def _classify_status(current_score: Optional[float], expected_min: float) -> str
     return "REGRESSION"
 
 
+# ─── Threshold era (2026-07-06 investigation) ───────────────────
+# GOLDEN_SET expected_min thresholds were authored 2026-04-20 — before
+# rubric_v1 existed (2026-04-24) and before the 2026-05-23 EARNED_8_CAP
+# calibration (7.5 -> 7.25) that flattened composite scores system-wide.
+# A threshold authored before RUBRIC_V1_DATE is "stale" until we have
+# enough calibrated-era Performance Log data to recompute it.
+RUBRIC_V1_DATE = date(2026, 4, 24)
+CALIBRATED_ERA_START = date(2026, 5, 23)
+MIN_CALIBRATED_SAMPLES = 5
+RECALIBRATION_MARGIN = 0.75
+
+
 # ─── Proxy scoring from Performance Log ─────────────────────────
 
-def _get_domain_proxy_score(domain: str, days: int = 30) -> Optional[float]:
-    """Pull the rolling average quality_score for a domain from Performance Log.
-
-    Used as a proxy when no task-specific score is available. Proxy is
-    informational, flagged via scoring_method="proxy_from_log".
-
-    Returns None if Notion is unreachable or no data. Silent fallback —
-    regression suite should not break on infrastructure issues.
+def _query_domain_scores(domain: str, since: date) -> list:
+    """Return Quality Score numbers for Performance Log entries on/after
+    `since`, filtered to `domain` via the corrected (declared-domain-first,
+    word-boundary) skill_benchmark.detect_domain. Empty list on any
+    Notion/lookup failure — callers treat that as no-data, never an error.
     """
     try:
         from skill_benchmark import detect_domain
         from notion_api import NotionAPI
         db_id = os.getenv("NOTION_DB_PERFORMANCE", "31f49875a89781dbb599dee5e7961b5c")
         api = NotionAPI()
-        cutoff = (date.today() - timedelta(days=days)).isoformat()
         result = api.query_database(
             db_id,
             filter={
                 "and": [
-                    {"property": "Date", "date": {"after": cutoff}},
+                    {"property": "Date", "date": {"after": since.isoformat()}},
                     {"property": "Quality Score", "number": {"is_not_empty": True}},
                 ]
             },
@@ -351,11 +359,32 @@ def _get_domain_proxy_score(domain: str, days: int = 30) -> Optional[float]:
             q = props.get("Quality Score", {}).get("number")
             if q is not None:
                 scores.append(q)
-        if not scores:
-            return None
-        return round(sum(scores) / len(scores), 2)
+        return scores
     except Exception:
+        return []
+
+
+def _get_domain_proxy_score(domain: str, days: int = 30) -> Optional[float]:
+    """Rolling `days`-window average quality_score for a domain, correctly
+    matched. Used as a proxy when no task-specific score is available.
+    Proxy is informational, flagged via scoring_method="proxy_from_log".
+    """
+    scores = _query_domain_scores(domain, date.today() - timedelta(days=days))
+    if not scores:
         return None
+    return round(sum(scores) / len(scores), 2)
+
+
+def _get_calibrated_era_stats(domain: str) -> dict:
+    """Mean + sample count for `domain`, restricted to Performance Log
+    entries logged on/after CALIBRATED_ERA_START (2026-05-23, the
+    EARNED_8_CAP tightening) and correctly domain-matched. Used to
+    recompute stale pre-rubric GOLDEN_SET thresholds.
+    """
+    scores = _query_domain_scores(domain, CALIBRATED_ERA_START)
+    if not scores:
+        return {"mean": None, "n": 0}
+    return {"mean": round(sum(scores) / len(scores), 2), "n": len(scores)}
 
 
 # ─── Audit core ──────────────────────────────────────────────────
@@ -390,8 +419,10 @@ def run_regression_audit(
     target_domains = domains if domains else list(GOLDEN_SET.keys())
     results = []
 
-    # Cache proxy scores per domain to avoid repeated Notion calls
+    # Cache proxy scores + calibrated-era stats per domain to avoid repeated
+    # Notion calls (both now use the corrected detect_domain matching).
     proxy_cache: dict[str, Optional[float]] = {}
+    era_cache: dict[str, dict] = {}
 
     for dom in target_domains:
         if dom not in GOLDEN_SET:
@@ -402,20 +433,57 @@ def run_regression_audit(
             proxy_cache[dom] = _get_domain_proxy_score(dom)
         proxy = proxy_cache.get(dom) if use_proxy else None
 
+        if dom not in era_cache:
+            era_cache[dom] = _get_calibrated_era_stats(dom) if use_proxy else {"mean": None, "n": 0}
+        era_stats = era_cache[dom]
+
         for task_spec in tasks:
-            expected_min, expected_target = task_spec['expected_range']
+            authored_min, expected_target = task_spec['expected_range']
+            authored_date_str = task_spec.get('authored_date', '')
+            is_pre_rubric = bool(authored_date_str) and authored_date_str < RUBRIC_V1_DATE.isoformat()
+
+            threshold_note = None
+            if era_stats['n'] >= MIN_CALIBRATED_SAMPLES:
+                expected_min = round(era_stats['mean'] - RECALIBRATION_MARGIN, 2)
+                threshold_status = 'recalibrated'
+                threshold_note = (
+                    f"Recomputed from {era_stats['n']} calibrated-era samples "
+                    f"(post-{CALIBRATED_ERA_START.isoformat()}, mean {era_stats['mean']}) — "
+                    f"supersedes {authored_date_str or 'unknown'} pre-rubric threshold {authored_min}."
+                )
+            elif is_pre_rubric:
+                expected_min = authored_min
+                threshold_status = 'stale'
+                threshold_note = (
+                    f"Threshold authored {authored_date_str}, predates rubric_v1 (2026-04-24) and the "
+                    f"2026-05-23 EARNED_8_CAP calibration. Only {era_stats['n']} calibrated-era sample(s) "
+                    f"found (need {MIN_CALIBRATED_SAMPLES}) — insufficient to recompute; treat as advisory."
+                )
+            else:
+                expected_min = authored_min
+                threshold_status = 'current'
+
             current_score = proxy  # will be overridden by manual scores via log_regression_result
-            status = _classify_status(current_score, expected_min)
+            raw_status = _classify_status(current_score, expected_min)
+            status = raw_status
+            if threshold_status == 'stale' and raw_status == 'REGRESSION':
+                status = 'WARNING'
+                threshold_note = (threshold_note or '') + " Downgraded REGRESSION -> WARNING (stale threshold, insufficient calibrated data)."
             delta = round((current_score - expected_min), 2) if current_score is not None else None
 
             results.append({
                 'domain': dom,
                 'task': task_spec['task'],
                 'expected_min': expected_min,
+                'expected_min_authored': authored_min,
                 'expected_target': expected_target,
+                'authored_date': authored_date_str,
+                'threshold_status': threshold_status,
+                'threshold_note': threshold_note,
                 'current_score': current_score,
                 'delta': delta,
                 'status': status,
+                'raw_status': raw_status,
                 'scoring_method': 'proxy_from_log' if current_score is not None else 'pending_manual',
                 'notes': task_spec.get('notes', ''),
             })
@@ -426,6 +494,8 @@ def run_regression_audit(
         'warnings': sum(1 for r in results if r['status'] == 'WARNING'),
         'regressions': sum(1 for r in results if r['status'] == 'REGRESSION'),
         'no_data': sum(1 for r in results if r['status'] == 'NO_DATA'),
+        'stale_thresholds': sum(1 for r in results if r['threshold_status'] == 'stale'),
+        'recalibrated_thresholds': sum(1 for r in results if r['threshold_status'] == 'recalibrated'),
     }
 
     return {
@@ -580,7 +650,12 @@ def merge_manual_score(audit_id: str, domain: str, task_idx: int, score: float, 
     target = audit['results'][domain_indices[task_idx]]
     target['current_score'] = score
     target['delta'] = round(score - target['expected_min'], 2)
-    target['status'] = _classify_status(score, target['expected_min'])
+    raw_status = _classify_status(score, target['expected_min'])
+    target['raw_status'] = raw_status
+    status = raw_status
+    if target.get('threshold_status') == 'stale' and raw_status == 'REGRESSION':
+        status = 'WARNING'
+    target['status'] = status
     target['scoring_method'] = 'manual'
     if scorer:
         target['scorer'] = scorer
@@ -592,6 +667,8 @@ def merge_manual_score(audit_id: str, domain: str, task_idx: int, score: float, 
         'warnings': sum(1 for r in audit['results'] if r['status'] == 'WARNING'),
         'regressions': sum(1 for r in audit['results'] if r['status'] == 'REGRESSION'),
         'no_data': sum(1 for r in audit['results'] if r['status'] == 'NO_DATA'),
+        'stale_thresholds': sum(1 for r in audit['results'] if r.get('threshold_status') == 'stale'),
+        'recalibrated_thresholds': sum(1 for r in audit['results'] if r.get('threshold_status') == 'recalibrated'),
     }
     audit['blocking'] = audit['summary']['regressions'] > 0
     audit['last_updated'] = datetime.now().isoformat()
@@ -610,12 +687,22 @@ def _print_audit(audit: dict) -> None:
     print(f"{'='*66}")
     print(f"  Domains: {', '.join(audit['domains_audited'])}")
     print(f"  Tasks:   {s['total_run']}  |  PASS {s['passed']}  WARN {s['warnings']}  REGRESS {s['regressions']}  NO_DATA {s['no_data']}")
+    if s.get('stale_thresholds') or s.get('recalibrated_thresholds'):
+        print(f"  Thresholds: {s.get('stale_thresholds', 0)} stale (pre-rubric)  {s.get('recalibrated_thresholds', 0)} recalibrated")
     print(f"{'─'*66}")
     for r in audit['results']:
         marker = {'PASS': '✅', 'WARNING': '🟡', 'REGRESSION': '🔴', 'NO_DATA': '⚪'}[r['status']]
         score = f"{r['current_score']}" if r['current_score'] is not None else "—"
         expected = f"[{r['expected_min']}-{r['expected_target']}]"
-        print(f"  {marker} {r['domain']:13} {score:>5}/10 exp {expected:13} | {r['task'][:55]}")
+        era_tag = {
+            'stale': ' [STALE authored {}]'.format(r.get('authored_date', '?')),
+            'recalibrated': ' [RECALIBRATED]',
+        }.get(r.get('threshold_status'), '')
+        print(f"  {marker} {r['domain']:13} {score:>5}/10 exp {expected:13}{era_tag} | {r['task'][:55]}")
+        if r.get('threshold_note') and r.get('threshold_status') in ('stale', 'recalibrated'):
+            print(f"       ↳ {r['threshold_note']}")
+        if r.get('raw_status') and r.get('raw_status') != r['status']:
+            print(f"       ↳ raw classification was {r['raw_status']} before threshold-era adjustment")
     print(f"{'='*66}\n")
 
 
