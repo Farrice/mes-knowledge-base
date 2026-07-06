@@ -15,9 +15,13 @@
     "new skill/agent/workflow ship (with discipline: add at least 1 eval entry per ship)"
   ],
   "still_paused": [
-    "Phase 3 cross-pollination \u2014 BOTH original unlock conditions now SATISFIED (E3 bake-off 2026-07-02; first calibrated Phase 2 cycle 2026-07-06, see phase2_cycle_result). NEW gate before cross-pollination executes: investigate the 6 pre-existing regressions the 2026-07-06 regression audit surfaced in content/research domains. Farrice may lift by ordering that investigation or overriding.",
     "Autonomous skill modification on skills without ground-truth benchmarks (unchanged)"
   ],
+  "phase3_lifted": {
+    "lifted_at": "2026-07-06",
+    "conditions": "E3 bake-off PASSED 2026-07-02; first calibrated Phase 2 cycle KEPT 2026-07-06 (see phase2_cycle_result); regression gate investigated same day and cleared \u2014 6/6 flagged regressions were MEASUREMENT_DRIFT (skill_benchmark detect_domain substring collisions proxying wrong skills) + BASELINE_INFLATED (thresholds authored 2026-04-20, pre-rubric), 0 SKILL_DEGRADED (evolution_store/regression_audits/investigation_2026-07-06.md)",
+    "discipline": "Supervise the first 3 cross-pollination runs (mirror of the 2026-05-04 daily-cycle lift pattern). regression_suite golden-set thresholds are UNTRUSTED until re-baselined against the calibrated rubric."
+  },
   "phase2_cycle_result": {
     "completed_at": "2026-07-06",
     "candidate": "alex-suzuki-digital-product-revenue-os (substituted for maria-wendt-digital-products, which had zero ground-truth coverage and was absent from every live Phase-2 queue signal)",
