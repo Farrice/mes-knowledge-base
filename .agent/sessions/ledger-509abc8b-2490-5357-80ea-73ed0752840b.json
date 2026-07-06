@@ -1,0 +1,19 @@
+{
+ "session_id": "509abc8b-2490-5357-80ea-73ed0752840b",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/home/user/mes-knowledge-base/_active/health-performance-ip-library/daily/2026-07-06-health-performance-geo-brief.md"
+ ],
+ "subagent_spawns": 1,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": false,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": false
+}
