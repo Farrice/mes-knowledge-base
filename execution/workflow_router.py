@@ -40,6 +40,7 @@ from routing_governor import (
     is_skill_system_intent,
     is_steering_compass_intent,
     is_system_failure_intent,
+    is_transfer_handoff_intent,
     is_virtuoso_intent,
 )
 
@@ -605,7 +606,9 @@ def search_workflows(query, top_n=10):
         and control_intent["lane"] == "system-failure"
     )
 
-    if operator_lesson_front_door_query(normalized_query):
+    if is_transfer_handoff_intent(normalized_query):
+        governed_order = governed_route_names(normalized_query, [wf["name"] for wf in index])
+    elif operator_lesson_front_door_query(normalized_query):
         route_names = [wf["name"] for wf in index]
         governed_order = [route for route in OPERATOR_FRONT_DOOR_STACK if route in route_names]
     elif is_end_session_closeout_intent(normalized_query):
@@ -629,7 +632,7 @@ def search_workflows(query, top_n=10):
         CONTROL_PLANE_ROUTES = {
             "autopilot", "system-audit", "orchestrate", "self-evolve",
             "skill-anneal", "source-to-skill-system", "routing-intelligence",
-            "end-session", "mission", "handoff", "repeatability-spine"
+            "end-session", "mission", "repeatability-spine"
         }
         wf_to_score = [wf for wf in index if wf["name"] in CONTROL_PLANE_ROUTES]
     else:
