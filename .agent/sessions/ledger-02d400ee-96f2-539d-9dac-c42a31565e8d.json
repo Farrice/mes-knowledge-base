@@ -1,0 +1,26 @@
+{
+ "session_id": "02d400ee-96f2-539d-9dac-c42a31565e8d",
+ "debts": [],
+ "produced": true,
+ "produced_paths": [
+  "/home/user/mes-knowledge-base/execution/apify_client.py",
+  "/home/user/mes-knowledge-base/execution/apify_setup.sh",
+  "/home/user/mes-knowledge-base/.mcp.json.example",
+  "/home/user/mes-knowledge-base/.env.example",
+  "/home/user/mes-knowledge-base/execution/hooks/apify_mcp_bootstrap.py",
+  "/home/user/mes-knowledge-base/directives/apify-usage-policy.md",
+  "/home/user/mes-knowledge-base/directives/mcp-server-setup.md",
+  "/home/user/mes-knowledge-base/.gemini/rules/apify.md"
+ ],
+ "subagent_spawns": 0,
+ "finalized_at": null,
+ "last_debt_at": null,
+ "stop_blocked_once": false,
+ "staleness_warned": false,
+ "miss_logged": false,
+ "handoff_pending": false,
+ "handoff_warned": false,
+ "session_pinned": false,
+ "session_pinned_at": null,
+ "pin_nudged": true
+}
