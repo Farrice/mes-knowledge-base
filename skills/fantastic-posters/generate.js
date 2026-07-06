@@ -29,11 +29,37 @@ import fs from 'node:fs';
 import path from 'node:path';
 import readline from 'node:readline';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import { styles, pickStyle, applyPaletteOverride } from './styles.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.join(__dirname, 'out');
 fs.mkdirSync(OUT_DIR, { recursive: true });
+
+// ----- deterministic spend logging -----
+// Root cause of the 2026-05→07 fal-usage.json staleness: fal_budget_guard.py logging
+// was AI-memory-dependent (a human/agent had to remember to run it after each call).
+// Wired in directly here instead so every generation — success or failure — is recorded
+// regardless of who/what invoked this script.
+const REPO_ROOT = path.join(__dirname, '..', '..');
+const FAL_GUARD = path.join(REPO_ROOT, 'execution', 'fal_budget_guard.py');
+
+function recordFalSpend({ mode, quality, n, status, brief, style, outputPath }) {
+  const cliArgs = ['log', `--mode=${mode}`];
+  if (quality) cliArgs.push(`--quality=${quality}`);
+  if (n != null) cliArgs.push(`--n=${n}`);
+  cliArgs.push(`--status=${status}`);
+  if (brief) cliArgs.push(`--brief=${String(brief).slice(0, 80)}`);
+  if (style) cliArgs.push(`--style=${style}`);
+  if (outputPath) cliArgs.push(`--output-path=${outputPath}`);
+  try {
+    execFileSync('python3', [FAL_GUARD, ...cliArgs], { cwd: REPO_ROOT, stdio: 'pipe' });
+  } catch (e) {
+    // Never let spend-logging failure crash the actual generation flow — but surface it
+    // loudly, since a silent failure here is exactly how the tracker went stale before.
+    console.warn(`  ⚠️  fal_budget_guard log FAILED (spend not recorded): ${(e.stderr || e.message || '').toString().slice(0, 200)}`);
+  }
+}
 
 // ----- env loading -----
 function loadKey(name) {
@@ -469,6 +495,15 @@ async function runOne({ args, falKey, kieKey, briefObj, sharedRefs }) {
       });
       saved.push(...results);
       console.log(results.map((r) => path.relative(__dirname, r.filePath)).join(', '));
+      recordFalSpend({
+        mode: refs.length > 0 ? 'edit' : 'poster',
+        quality: args.quality,
+        n: results.length,
+        status: 'success',
+        brief: briefText || label,
+        style: label,
+        outputPath: results.map((r) => path.relative(REPO_ROOT, r.filePath)).join(','),
+      });
 
       // Post-generation: chain rembg for transparency (per upstream gpt-image-2-skill guidance)
       if (args.rembg) {
@@ -479,14 +514,27 @@ async function runOne({ args, falKey, kieKey, briefObj, sharedRefs }) {
             if (alphaPath) {
               console.log(path.relative(__dirname, alphaPath));
               saved.push({ filePath: alphaPath, url: null, alpha: true });
+              recordFalSpend({
+                mode: 'rembg', n: 1, status: 'success', brief: label, style: label,
+                outputPath: path.relative(REPO_ROOT, alphaPath),
+              });
             }
           } catch (e) {
             console.warn(`failed: ${e.message}`);
+            recordFalSpend({ mode: 'rembg', n: 1, status: 'failed', brief: label, style: label });
           }
         }
       }
     } catch (e) {
       console.error(`FAILED: ${e.message}`);
+      recordFalSpend({
+        mode: refs.length > 0 ? 'edit' : 'poster',
+        quality: args.quality,
+        n: innerBatch,
+        status: 'failed',
+        brief: briefText || label,
+        style: label,
+      });
     }
     if (v < outerLoop - 1) await new Promise((r) => setTimeout(r, 1500));
   }

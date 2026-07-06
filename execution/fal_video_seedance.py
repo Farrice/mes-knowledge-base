@@ -37,11 +37,37 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ENV_PATH = ROOT / ".env"
 OUT_DIR = ROOT / "skills" / "fantastic-posters" / "out"
+FAL_GUARD = ROOT / "execution" / "fal_budget_guard.py"
 
 PRICING_PER_SEC = {"480p": 0.13, "720p": 0.3024, "1080p": 0.68}
 ALLOWED_DURATIONS = list(range(4, 16))  # 4..15
 ALLOWED_RESOLUTIONS = ("480p", "720p", "1080p")
 ALLOWED_ASPECT = ("auto", "21:9", "16:9", "4:3", "1:1", "3:4", "9:16")
+
+
+def record_spend(*, resolution: str, duration: int, status: str, actual_cost: float | None = None,
+                  audio: str = "", output_path: str = "", brief: str = "") -> None:
+    """Deterministically log spend via fal_budget_guard.py — never rely on the caller
+    remembering to run the printed command (that AI-memory-dependent pattern is exactly
+    why fal-usage.json went stale 2026-05→07)."""
+    cmd = ["python3", str(FAL_GUARD), "log", f"--mode=seedance-{resolution}",
+           f"--duration={duration}", f"--status={status}"]
+    if audio:
+        cmd.append(f"--audio={audio}")
+    if actual_cost is not None:
+        cmd.append(f"--actual-cost={actual_cost}")
+    if output_path:
+        cmd.append(f"--output-path={output_path}")
+    if brief:
+        cmd.append(f"--brief={brief}")
+    # Note: we don't know whether Fal actually billed a failed call, so we default to
+    # NOT setting --fal-billed (conservative: undercounting a rare billed-failure beats
+    # inflating every transient error into phantom spend). Re-run manually with
+    # --fal-billed if you confirm Fal charged for this specific failure.
+    try:
+        subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True, timeout=15, check=True)
+    except Exception as e:
+        print(f"⚠️  fal_budget_guard log FAILED (spend not recorded): {e}")
 
 
 def load_fal_key() -> str:
@@ -191,9 +217,8 @@ def main() -> int:
     except Exception as e:
         elapsed = time.time() - started
         print(f"\n❌ Seedance call FAILED after {elapsed:.1f}s: {e}")
-        print(f"\nTo log the failure:")
-        print(f"  python3 execution/fal_budget_guard.py log --mode=seedance-{args.resolution} "
-              f"--duration={args.duration} --status=failed [--fal-billed]")
+        record_spend(resolution=args.resolution, duration=args.duration, status="failed",
+                     audio=args.audio, brief=args.prompt[:60])
         return 1
 
     elapsed = time.time() - started
@@ -215,12 +240,10 @@ def main() -> int:
     print(f"Output:        {dest.relative_to(ROOT)}")
     print(f"Estimated cost: ${estimated:.4f}")
     print(f"Seed: {result.get('seed', '?')}")
-    print()
-    print(f"Now log spend:")
-    print(f"  python3 execution/fal_budget_guard.py log --mode=seedance-{args.resolution} "
-          f"--duration={args.duration} --audio={args.audio} --status=success "
-          f"--actual-cost={estimated} --output-path='{dest.relative_to(ROOT)}' "
-          f"--brief='{args.prompt[:60]}'")
+    record_spend(resolution=args.resolution, duration=args.duration, status="success",
+                 actual_cost=estimated, audio=args.audio,
+                 output_path=str(dest.relative_to(ROOT)), brief=args.prompt[:60])
+    print("Spend logged via fal_budget_guard.py.")
     return 0
 
 

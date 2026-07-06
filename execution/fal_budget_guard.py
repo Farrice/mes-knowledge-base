@@ -58,12 +58,50 @@ VIDEO_MODES = {"kling", "seedance-480p", "seedance-720p", "seedance-1080p"}
 ALL_MODES = POSTER_MODES | UTILITY_MODES | VIDEO_MODES
 
 
+STALE_THRESHOLD_DAYS = 30
+
+
 def now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
 def today_str() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def _days_since(iso_str: str) -> float | None:
+    try:
+        t = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+        return (datetime.now(timezone.utc) - t).total_seconds() / 86400
+    except (ValueError, TypeError):
+        return None
+
+
+def stale_state_warning(data: dict) -> str | None:
+    """Detect a tracker that hasn't recorded a real call/refill in a while.
+
+    Root cause this guards against: the wallet balance / cycle totals below are only
+    as fresh as the last `log` call. If generations happen through a path that never
+    calls `log` (the exact gap this file was patched to close in generate.js /
+    fal_video_kling.py / fal_video_seedance.py), the tracker silently rots — it will
+    keep reporting a balance/cycle-spend that has nothing to do with reality. Rather
+    than silently enforcing budget rules against frozen numbers, say so loudly.
+    """
+    log = data.get("log") or []
+    last_ts = log[-1]["ts"] if log else data.get("wallet", {}).get("last_refill_confirmed_at")
+    if not last_ts:
+        return None
+    age = _days_since(last_ts)
+    if age is not None and age > STALE_THRESHOLD_DAYS:
+        bal = data.get("wallet", {}).get("current_balance_estimate")
+        bal_str = f"${bal:.2f}" if bal is not None else "unknown"
+        return (
+            f"STATE STALE — last recorded call/refill was {age:.0f} days ago ({last_ts}). "
+            f"Balance estimate ({bal_str}) and cycle/day totals below are UNRELIABLE — verify "
+            f"the actual wallet balance at fal.ai before trusting this gate's numbers, then run "
+            f"`refill-confirm` (if a refill actually happened) to resync the cycle."
+        )
+    return None
 
 
 def load() -> dict:
@@ -265,6 +303,12 @@ def cmd_check(args) -> int:
             )
 
     # ─── Verdict ───
+    stale = stale_state_warning(data)
+    if stale:
+        print("!" * 60)
+        print(f"⚠️  {stale}")
+        print("!" * 60)
+
     if blocks:
         print("=" * 60)
         print(f"FAL BUDGET GUARD: ❌ DENIED  (mode={mode}, est=${estimated:.4f})")
@@ -409,6 +453,12 @@ def cmd_status(_args) -> int:
     print("─" * 64)
     print("FAL BUDGET GUARD — STATUS  (v2 mode-aware)")
     print("─" * 64)
+    stale = stale_state_warning(data)
+    if stale:
+        print("!" * 64)
+        print(f"⚠️  {stale}")
+        print("!" * 64)
+        print()
     print(f"Wallet (estimated):  ${w['current_balance_estimate']:.2f} / ${w['funded_total']:.2f}")
     print(f"Refill threshold:    ${w['refill_threshold']:.2f}  (auto-refill: {w['auto_refill']})")
     print(f"Cycle started:       {w['cycle_started_at']}")

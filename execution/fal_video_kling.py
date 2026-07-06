@@ -57,9 +57,33 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ENV_PATH = ROOT / ".env"
 OUT_DIR = ROOT / "skills" / "fantastic-posters" / "out"
+FAL_GUARD = ROOT / "execution" / "fal_budget_guard.py"
 
 PRICING_PER_SEC = {"off": 0.112, "on": 0.168, "voice_control": 0.196}
 ALLOWED_DURATIONS = list(range(3, 16))  # 3..15
+
+
+def record_spend(*, duration: int, audio: str, status: str, actual_cost: float | None = None,
+                  output_path: str = "", brief: str = "") -> None:
+    """Deterministically log spend via fal_budget_guard.py — never rely on the caller
+    remembering to run the printed command (that AI-memory-dependent pattern is exactly
+    why fal-usage.json went stale 2026-05→07)."""
+    cmd = ["python3", str(FAL_GUARD), "log", "--mode=kling",
+           f"--duration={duration}", f"--audio={audio}", f"--status={status}"]
+    if actual_cost is not None:
+        cmd.append(f"--actual-cost={actual_cost}")
+    if output_path:
+        cmd.append(f"--output-path={output_path}")
+    if brief:
+        cmd.append(f"--brief={brief}")
+    # Note: we don't know whether Fal actually billed a failed call, so we default to
+    # NOT setting --fal-billed (conservative: undercounting a rare billed-failure beats
+    # inflating every transient error into phantom spend). Re-run manually with
+    # --fal-billed if you confirm Fal charged for this specific failure.
+    try:
+        subprocess.run(cmd, cwd=str(ROOT), capture_output=True, text=True, timeout=15, check=True)
+    except Exception as e:
+        print(f"⚠️  fal_budget_guard log FAILED (spend not recorded): {e}")
 
 
 def load_fal_key() -> str:
@@ -228,9 +252,8 @@ def main() -> int:
     except Exception as e:
         elapsed = time.time() - started
         print(f"\n❌ Kling call FAILED after {elapsed:.1f}s: {e}")
-        print(f"\nTo log the failure:")
-        print(f"  python3 execution/fal_budget_guard.py log --mode=kling "
-              f"--duration={args.duration} --audio={args.audio} --status=failed [--fal-billed]")
+        record_spend(duration=args.duration, audio=args.audio, status="failed",
+                     brief=(args.prompt or "multi-shot")[:60])
         return 1
 
     elapsed = time.time() - started
@@ -251,13 +274,10 @@ def main() -> int:
     print()
     print(f"Output:         {dest.relative_to(ROOT)}")
     print(f"Estimated cost: ${estimated:.4f}")
-    print()
-    print(f"Now log spend:")
-    brief_short = (args.prompt or f"multi-shot {len(multi_prompt_data)} prompts")[:60]
-    print(f"  python3 execution/fal_budget_guard.py log --mode=kling "
-          f"--duration={args.duration} --audio={args.audio} --status=success "
-          f"--actual-cost={estimated} --output-path='{dest.relative_to(ROOT)}' "
-          f"--brief='{brief_short}'")
+    brief_short = (args.prompt or f"multi-shot {len(multi_prompt_data or [])} prompts")[:60]
+    record_spend(duration=args.duration, audio=args.audio, status="success",
+                 actual_cost=estimated, output_path=str(dest.relative_to(ROOT)), brief=brief_short)
+    print("Spend logged via fal_budget_guard.py.")
     return 0
 
 
