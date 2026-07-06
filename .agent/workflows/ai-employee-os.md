@@ -15,9 +15,20 @@ Read these live sources before serious use:
 
 1. `CODEX.md` — the Codex-native operating authority for this workspace.
 2. `semantic_libraries/antigravity/primitives/ai-employee-operating-contract.md` — the operating contract this command enforces.
-3. `.agents/skills/source-command-ai-employee-os/SKILL.md` — the command wrapper that delegates here.
+3. `skills/fryderyk-wiatrowski-ai-employee-os/SKILL.md` — the extracted source skill.
+4. `skills/fryderyk-wiatrowski-ai-employee-os/workflows/ai-employee-os.md` — the detailed source workflow.
+5. `extractions/video-context/ohKt066uFhg/evidence-map.md` — the source evidence map.
+6. `extractions/video-context/ohKt066uFhg/uncertainty-report.md` — the source uncertainty limits.
+7. `.agents/skills/source-command-ai-employee-os/SKILL.md` — the command wrapper that delegates here.
 
-The deeper extracted source package (Viktor / Fryderyk Wiatrowski "AI employee" interview, video `ohKt066uFhg`, plus the `fryderyk-wiatrowski-ai-employee-os` reference skill) is archived under `_active/codex-harvest-2026-06-11/`. Pull it in only when a build needs the full evidence map, uncertainty report, or detailed references; do not assume those files are present in the live tree.
+Load detailed references only when needed:
+
+- `skills/fryderyk-wiatrowski-ai-employee-os/references/context-memory-isolation.md`
+- `skills/fryderyk-wiatrowski-ai-employee-os/references/shared-integration-permission-design.md`
+- `skills/fryderyk-wiatrowski-ai-employee-os/references/ambient-interface-event-handling.md`
+- `skills/fryderyk-wiatrowski-ai-employee-os/references/trust-proactivity-rollout-gates.md`
+- `skills/fryderyk-wiatrowski-ai-employee-os/references/model-personality-regression-guard.md`
+- `skills/fryderyk-wiatrowski-ai-employee-os/references/quality-rubric.md`
 
 ## Modes
 

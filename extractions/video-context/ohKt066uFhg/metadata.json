@@ -1,0 +1,14 @@
+{
+  "id": "ohKt066uFhg",
+  "url": "https://www.youtube.com/watch?v=ohKt066uFhg&t=195s",
+  "title": "Viktor: AI Coworker That Lives in Slack — Fryderyk Wiatrowski",
+  "uploader": "AI Engineer",
+  "channel": "AI Engineer",
+  "duration": 1169,
+  "upload_date": "20260511",
+  "publish_date": "20260511",
+  "webpage_url": "https://www.youtube.com/watch?v=ohKt066uFhg",
+  "duration_string": "19:29",
+  "description": "Viktor is an AI employee that lives in Slack. No web UI. It participates in channels and threads the way a teammate does, inherits integrations from whoever connected them first, and handles tasks that take ten minutes while you move on to something else.\n\nThis talk covers what breaks when you scale a personal agent to a whole company. Slack is a more complex input surface than it looks: threads, DMs, edits, deletions, emoji reactions, and conversations that drift between channels. Memory isolation gets harder when the same agent needs context for a hundred users without leaking the growth channel into the engineering queue or one person's DMs into the team feed. And when you try to swap the underlying model for something cheaper, users notice in ways that have nothing to do with task performance.\n\nSpeaker info:\n- https://x.com/fawiatrowski\n- http://getviktor.com/",
+  "thumbnail": "https://i.ytimg.com/vi/ohKt066uFhg/maxresdefault.jpg"
+}
