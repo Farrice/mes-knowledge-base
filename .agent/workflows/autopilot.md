@@ -38,6 +38,62 @@ Default behavior is execute-safe-local-work. `--plan` stops at a
 decision-complete plan. `--menu` is for cases where Farrice explicitly wants
 ranked options.
 
+## Execution Decision
+
+Every Autopilot run must name one execution status before work starts:
+
+| Status | Meaning |
+|---|---|
+| `Running now` | safe workspace-local execution can start after the trace. |
+| `Needs judgment` | Farrice must decide a taste, scope, or intent point before execution. |
+| `Blocked by risk` | External, paid, destructive, global, Google Antigravity, publishing, connector-write, or real-subagent action is present. |
+| `Plan only` | The user asked for `--plan`, `--menu`, or another explicit no-execution posture. |
+
+When blocked, include a copy-paste **Run Prompt** so the work has a clean
+resume path instead of dying as a recommendation.
+
+## Capability Graph
+
+Use the capability graph to expose the available routes, support gates, tools,
+and proof surfaces before choosing a path:
+
+```bash
+python3 execution/capability_graph.py --json
+```
+
+## Outcome Recipes
+
+Use outcome recipes to keep Autopilot from becoming a generic planner. The
+chosen route should map to the smallest executable recipe that can produce the
+requested outcome, proof, and handoff:
+
+```bash
+python3 execution/outcome_recipes.py "[raw context]" --json
+```
+
+## Friction Ledger And Run Receipt
+
+When routing, hook, retrieval, proof, or operator-friction issues appear, log
+them locally and close with proof:
+
+```bash
+python3 execution/friction_ledger.py log --kind failed-route --summary "[what happened]" --next-action "[repair route]"
+python3 execution/friction_ledger.py verify
+python3 execution/run_receipt.py --query "[raw context]" --route "[route]" --status "[Running now|Needs judgment|Blocked by risk|Plan only]" --changed "[what changed]" --passed "[checks]" --failed "[failures]" --judgment "[judgment needed]" --next-action "[next]"
+```
+
+## Plugin Packaging Ladder
+
+Do not jump from a useful local workflow to plugin packaging. First prove the
+helper, workflow, command bridge, live use, and repeatability. Packaging checks
+route through:
+
+```bash
+python3 execution/plugin_readiness_audit.py --stdout [candidate routes]
+```
+
+Hard stops before mutation: No global mirror, Google Antigravity edit, publishing, paid tool, destructive cleanup, external write, connector write, or real Codex subagent without explicit approval.
+
 ## Routing Owner Rules
 
 - Broken, drifted, noisy, not-firing, route/hook/default/wiring, Codex/Claude

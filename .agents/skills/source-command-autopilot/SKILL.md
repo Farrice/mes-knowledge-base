@@ -7,6 +7,12 @@ description: "Google-local Codex front door for raw intent, route choice, Raw In
 
 Use this skill when the user asks to run the slash command `/autopilot` or migrated source command `autopilot`.
 
+Autopilot is the Intent-to-outcome, safe execute-by-default front door for
+workspace-local Codex work. It must emit an Execution Decision, a copy-paste
+Run Prompt when blocked, a Run Receipt after meaningful work, and a Friction Ledger entry when routing, retrieval, proof, or operator friction appears.
+Plugin packaging requests go through `/plugin-readiness-audit` and the local
+plugin-readiness-audit proof ladder before any packaging recommendation.
+
 ## Command Template
 
 Read and execute the workflow at `.agent/workflows/autopilot.md`. For rough
