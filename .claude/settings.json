@@ -22,12 +22,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/skill_router_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/skill_router_hook.py\"",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" prompt",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" prompt",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/guard_stranded_deliverables.py\" check",
             "timeout": 10
           }
         ]
@@ -39,12 +44,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/cost_gate_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/cost_gate_hook.py\"",
             "timeout": 15
           },
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/block-dangerous-git.sh",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/active_tool_lock.py\" claude-code",
             "timeout": 10
           }
         ]
@@ -56,7 +66,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" posttool",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" posttool",
             "timeout": 10
           }
         ]
@@ -66,7 +76,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/mcp_spend_log_hook.py\"",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/mcp_spend_log_hook.py\"",
             "timeout": 5
           }
         ]
@@ -77,7 +87,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" stop",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" stop",
             "timeout": 10
           }
         ]

@@ -70,6 +70,8 @@ TARGETS = {
     "dangerous-git": (".codex/tools/codex_dangerous_git_guard.py", []),
     "session-ledger": ("execution/hooks/session_ledger_hook.py", None),
     "skill-router": ("execution/skill_router_hook.py", []),
+    "active-tool-lock": ("execution/hooks/active_tool_lock.py", ["codex"]),
+    "guard-stranded": ("execution/hooks/guard_stranded_deliverables.py", ["check"]),
 }
 
 
