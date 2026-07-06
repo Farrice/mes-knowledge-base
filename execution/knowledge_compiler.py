@@ -37,6 +37,7 @@ import os
 import json
 import argparse
 import hashlib
+import re
 from datetime import date, datetime, timedelta
 from typing import Dict, List, Any, Optional
 from pathlib import Path
@@ -1018,6 +1019,79 @@ def full_compilation():
     print(f"{'='*60}\n")
 
 
+def find_solution_docs(focus: str, top: int = 8, stdout: bool = False) -> List[Dict[str, Any]]:
+    """Find reusable solution docs relevant to a focus without refreshing compiled knowledge."""
+    focus_terms = [term for term in re.split(r"[^a-z0-9]+", focus.lower()) if len(term) > 2]
+    candidate_roots = [
+        PROJECT_ROOT / 'docs' / 'solutions',
+        PROJECT_ROOT / 'docs',
+        PROJECT_ROOT / 'knowledge',
+    ]
+    candidates: list[Path] = []
+    for root in candidate_roots:
+        if not root.exists():
+            continue
+        for path in root.rglob('*.md'):
+            rel = path.relative_to(PROJECT_ROOT)
+            rel_text = str(rel).lower()
+            if 'compiled' in rel_text or path.name.startswith('.'):
+                continue
+            if 'solution' in rel_text:
+                candidates.append(path)
+
+    matches: list[Dict[str, Any]] = []
+    for path in sorted(set(candidates)):
+        try:
+            content = path.read_text(encoding='utf-8', errors='ignore')
+        except OSError:
+            continue
+        haystack = f"{path.stem} {path.parent.name} {content[:2000]}".lower()
+        score = sum(haystack.count(term) for term in focus_terms) if focus_terms else 0
+        if score <= 0 and focus_terms:
+            continue
+        title = path.stem.replace('-', ' ').replace('_', ' ').title()
+        for line in content.splitlines():
+            stripped = line.strip()
+            if stripped.startswith('# '):
+                title = stripped.removeprefix('# ').strip()
+                break
+        matches.append(
+            {
+                'path': str(path.relative_to(PROJECT_ROOT)),
+                'title': title,
+                'score': score,
+                'excerpt': ' '.join(content.split()[:40]),
+            }
+        )
+
+    matches.sort(key=lambda item: (-item['score'], item['path']))
+    matches = matches[:top]
+
+    lines = [f"# Solution Matches: {focus}", ""]
+    if matches:
+        for index, match in enumerate(matches, 1):
+            lines.extend(
+                [
+                    f"{index}. `{match['path']}`",
+                    f"   - Title: {match['title']}",
+                    f"   - Score: {match['score']}",
+                    f"   - Excerpt: {match['excerpt']}",
+                ]
+            )
+    else:
+        lines.append("No matching solution doc found")
+
+    output = "\n".join(lines) + "\n"
+    if stdout:
+        print(output, end="")
+    else:
+        COMPILED_DIR.mkdir(parents=True, exist_ok=True)
+        target = COMPILED_DIR / 'solution-matches.md'
+        target.write_text(output, encoding='utf-8')
+        print(f"  Solution matches written to: {target}")
+    return matches
+
+
 # ── CLI ─────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser(description="Knowledge Compiler — Self-healing knowledge base")
@@ -1039,6 +1113,11 @@ def main():
 
     sub.add_parser("full", help="Run all compilation stages")
     sub.add_parser("stats", help="Quick stats overview")
+
+    solutions_cmd = sub.add_parser("solutions", help="Find reusable solution docs for a focus")
+    solutions_cmd.add_argument("focus", help="Focus or objective to match")
+    solutions_cmd.add_argument("--top", type=int, default=8, help="Maximum matches to return")
+    solutions_cmd.add_argument("--stdout", action="store_true", help="Print matches without writing compiled output")
 
     log_cmd = sub.add_parser("log", help="Log an activity to knowledge/log.md")
     log_cmd.add_argument("action", help="Action type (ingest, query, archive, lint, reflect, evolve)")
@@ -1074,6 +1153,8 @@ def main():
         full_compilation()
     elif args.command == "stats":
         quick_stats()
+    elif args.command == "solutions":
+        find_solution_docs(args.focus, top=args.top, stdout=args.stdout)
     elif args.command == "log":
         log_activity(args.action, args.title, domain=args.domain,
                      expert=args.expert, notes=args.notes)
