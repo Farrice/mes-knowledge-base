@@ -14,7 +14,7 @@ You have **one project folder** and **two AI assistants** that both work in it.
 - **Two front doors** — **Claude Code** and **Codex**. They are *peers*, not master/servant. Either can do almost any task. They share the same skills, the same "Chain" process, and the same finalize ledger.
 - **Peer constitutions** — each tool reads its own rulebook at the repo root:
   - Claude Code reads **`CLAUDE.md`** (this is *canon* — the source of truth)
-  - Codex reads **`AGENTS.md`**
+  - Codex reads **`AGENTS.md`**, which delegates expanded harness detail to `CODEX.md`
   - (Gemini, if ever used, reads `GEMINI.md`)
   They are kept deliberately in sync and describe the *same* system from each tool's point of view.
 

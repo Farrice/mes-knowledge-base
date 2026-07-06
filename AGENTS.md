@@ -5,7 +5,7 @@ Self-contained: Codex does NOT auto-follow file pointers, so everything load-bea
 > **⚠️ GOLDEN RULE — ONE TOOL PER WORKING TREE AT A TIME.** This repo is shared by Claude Code **and** OpenAI Codex with no lock between them. **Never run both against this directory at the same time** — concurrent edits corrupt the tree (the "apply one fix, another breaks" failure, root-caused 2026-06-30). Safe handoff: let the active tool finish to a clean `git status` or a commit, **then** open the other. Need both at once? Give one its own `git worktree` — never a second driver in this folder.
 
 ## What this workspace is
-A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → 140 expert personas + 261 skills + 1,049 workflows → deterministic Python backplane (`execution/`, ~128 scripts). The goal: world-class extracted experts producing revenue work, every deliverable feeding one learning loop (finalize → ledger → evolution) **rooted in this repo** — never fork it.
+A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUNTS:BEGIN -->219 expert personas + 367 skills + 1,527 workflows<!-- COUNTS:END --> → deterministic Python backplane (`execution/`, ~128 scripts). The goal: world-class extracted experts producing revenue work, every deliverable feeding one learning loop (finalize → ledger → evolution) **rooted in this repo** — never fork it.
 
 ## Environment
 - `.env` at root holds `NOTION_API_KEY`. Python deps: `python-dotenv`, `requests`.

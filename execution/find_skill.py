@@ -235,6 +235,14 @@ CORE_PATH = REPO_ROOT / ".agent" / "production-core.json"
 CORE_BOOST = 1.5
 LONG_TAIL_DEMOTE = 0.6
 
+# ── Learned routing weights (evolution_orchestrator.run_routing_learning) ──
+# Stored SEPARATELY from the skill index on purpose: the index rebuilds any
+# time a SKILL.md's mtime changes (load_or_build_index), and rebuilds always
+# regenerate every record from disk. If learned weights lived inside the
+# index they'd be clobbered on the next rebuild. Keeping them in their own
+# file means index rebuilds and weight learning never step on each other.
+WEIGHTS_PATH = REPO_ROOT / ".agent" / "skill-weights.json"
+
 
 def load_core_ids() -> set:
     try:
@@ -242,6 +250,16 @@ def load_core_ids() -> set:
         return {e["id"] for k in ("skills", "workflows") for e in d.get(k, [])}
     except Exception:
         return set()
+
+
+def load_skill_weights() -> dict:
+    """Per-skill rank multipliers learned nightly from routing feedback
+    (auto_match/auto_miss). Missing or corrupt file -> empty dict -> every
+    skill defaults to weight 1.0 (no-op)."""
+    try:
+        return json.loads(WEIGHTS_PATH.read_text())
+    except Exception:
+        return {}
 
 
 def load_or_build_index(force: bool = False) -> list[dict]:
@@ -290,6 +308,7 @@ def rank(skills: list[dict], query: str, top: int = 5, name_weight: int = 3) -> 
     avgdl = sum(len(d) for d in docs) / N
     q_tokens = expand(tokenize(query))
     core = load_core_ids()
+    weights = load_skill_weights()
     scored = []
     for s, d in zip(skills, docs):
         counter = Counter(d)
@@ -311,6 +330,8 @@ def rank(skills: list[dict], query: str, top: int = 5, name_weight: int = 3) -> 
                 score *= CORE_BOOST
             elif s.get("routing") == "long-tail":
                 score *= LONG_TAIL_DEMOTE
+            # Learned weight (MoE-style nightly nudge, default 1.0 = no-op).
+            score *= weights.get(s.get("directory", ""), 1.0)
             scored.append((s, score))
     scored.sort(key=lambda x: -x[1])
     return scored[:top]

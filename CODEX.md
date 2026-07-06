@@ -2,7 +2,7 @@
 
 This is the active Codex-native operating specification for `/Users/farricecain/Google Antigravity`.
 
-`AGENTS.md` points here for current harness authority. `GEMINI.md`, `CLAUDE.md`, and `.claude/commands/` are legacy/source compatibility references unless a task explicitly asks to inspect or back-port model-specific behavior.
+`AGENTS.md` is the Codex entry-point constitution and delegates expanded harness detail to this file; CODEX.md is subordinate to AGENTS.md, not a competing authority. `GEMINI.md` and `CLAUDE.md` are peer constitutions for their own platforms (`docs/OPERATING-CODEX-AND-CLAUDE.md`), and `.claude/commands/` is a source compatibility reference — read them on demand, not as legacy files, unless a task explicitly asks to inspect or back-port model-specific behavior.
 
 ## Authority Order
 
@@ -10,7 +10,7 @@ This is the active Codex-native operating specification for `/Users/farricecain/
 2. `AGENTS.md` plus this file for workspace behavior.
 3. `.agent/workflows/` plus the hot `.agents/skills/source-command-*` control-plane wrappers for active Codex routing.
 4. `execution/` scripts for deterministic work and verification.
-5. `GEMINI.md`, `CLAUDE.md`, and `.claude/commands/` as legacy reference material only.
+5. `GEMINI.md` and `CLAUDE.md` as peer-platform constitutions (read on demand, not primary Codex routing authority); `.claude/commands/` as source compatibility reference.
 
 Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. Use them only when a workflow needs historical detail that is not yet represented in Codex-native files.
 

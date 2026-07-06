@@ -156,3 +156,14 @@ Protocol -> directive map: `directives/INDEX.md`. The ones that fire most: Quali
 **Budget-gated APIs** (hook-enforced; policies in `directives/<service>-usage-policy.md`): Gemini Deep Research ($10 ceiling, PRIMARY for research) -> Perplexity ($30/mo fallback) · NotebookLM (100/mo) · Apify ($29/mo) · Fal ($20 wallet, `fal_budget_guard.py`, seedance-1080p HARD-BLOCKED) · Whisper (deferred). Trackers in `.agent/*.json`.
 
 **Model & SDK notes** (when writing LLM-calling scripts): `directives/model-notes.md`.
+
+## Upstreamed Bindings (from GEMINI.md CRITICAL list — pointers only)
+
+- **No AI slop**: banned phrases/structural moves catalogued in `directives/ai-slop-ban-bank.md` (64 entries), enforced via `python3 execution/prose_classifier.py check <file>` before delivery.
+- **Tools OR text, never both**: each turn is either all tool calls (respond after tools return) or all text (no tool calls) — never mix tool use and final prose in the same turn.
+
+### CRITICAL — Override Everything (compressed; items already covered above are omitted)
+
+- After context compaction, read `.agent/session-state.md` immediately before continuing.
+- Real tools only — no phantom research, no confident hallucination. Uncertain? Say "I don't know."
+- Weekly ritual (`/weekly-closeout`, ~20 min): drain revenue tracker, check calibration, clear evolution queue, monthly CORE DRIFT scan.

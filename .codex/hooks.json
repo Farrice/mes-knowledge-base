@@ -6,12 +6,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" cost-gate",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" cost-gate",
             "timeout": 15
           },
           {
             "type": "command",
-            "command": "python3 \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" dangerous-git",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" dangerous-git",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" active-tool-lock",
             "timeout": 10
           }
         ]
@@ -23,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger posttool",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger posttool",
             "timeout": 10
           }
         ]
@@ -34,12 +39,17 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" skill-router",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" skill-router",
             "timeout": 10
           },
           {
             "type": "command",
-            "command": "python3 \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger prompt",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger prompt",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" guard-stranded",
             "timeout": 10
           }
         ]
@@ -50,7 +60,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger stop",
+            "command": "\"/Users/farricecain/Google Antigravity/.venv/bin/python3\" \"/Users/farricecain/Google Antigravity/.codex/tools/codex_hook_runner.py\" session-ledger stop",
             "timeout": 10
           }
         ]
